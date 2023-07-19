@@ -59,7 +59,6 @@
 
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunction;
 
-    .line 1
     const-class v3, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;
 
     const-string v4, "MOVIE_FLARE"
@@ -74,7 +73,6 @@
 
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunction;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;
 
     const-string v4, "WATER_MARK"
@@ -89,7 +87,6 @@
 
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunction;
 
-    .line 3
     const-class v3, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment;
 
     const-string v4, "AI_BEAUTY"
@@ -122,7 +119,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput-object p3, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunction;->tag:Ljava/lang/String;
@@ -193,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunction;->fgClass:Ljava/lang/Class;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -210,7 +205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunction;->tag:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -242,7 +236,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunction;->fgClass:Ljava/lang/Class;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -265,7 +258,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunction;->tag:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

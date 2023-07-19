@@ -59,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -70,12 +69,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -85,7 +82,6 @@
 
     move-result v1
 
-    .line 4
     sget-object v2, Lcom/commsource/repository/child/GradientRepository;->s:Lcom/commsource/repository/child/GradientRepository;
 
     invoke-virtual {v2}, Lcom/commsource/repository/child/GradientRepository;->A()Landroidx/lifecycle/MutableLiveData;
@@ -100,7 +96,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 5
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -119,14 +114,12 @@
 
     check-cast v3, Lcom/commsource/studio/function/background/GradientMaterial;
 
-    .line 6
     invoke-virtual {v3}, Lcom/commsource/studio/function/background/GradientMaterial;->needDownload()Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 7
     invoke-virtual {v3}, Lcom/commsource/studio/function/background/GradientMaterial;->getDownloadType()I
 
     move-result v4
@@ -145,7 +138,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 8
     :cond_2
     sget-object v4, Lcom/commsource/repository/child/GradientRepository;->s:Lcom/commsource/repository/child/GradientRepository;
 
@@ -157,7 +149,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

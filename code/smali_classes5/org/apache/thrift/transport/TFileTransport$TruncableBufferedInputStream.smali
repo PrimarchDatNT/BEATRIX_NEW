@@ -18,7 +18,6 @@
 .method public constructor <init>(Ljava/io/InputStream;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
 
     return-void
@@ -27,7 +26,6 @@
 .method public constructor <init>(Ljava/io/InputStream;I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;I)V
 
     return-void
@@ -40,7 +38,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Ljava/io/BufferedInputStream;->count:I
 
     iput v0, p0, Ljava/io/BufferedInputStream;->pos:I

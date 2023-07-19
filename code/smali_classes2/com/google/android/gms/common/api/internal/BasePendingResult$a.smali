@@ -29,7 +29,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v0
@@ -42,7 +41,6 @@
 .method public constructor <init>(Landroid/os/Looper;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/base/o;-><init>(Landroid/os/Looper;)V
 
     return-void
@@ -60,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/util/Pair;
 
     invoke-direct {v0, p1, p2}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -79,7 +76,6 @@
 .method public handleMessage(Landroid/os/Message;)V
     .locals 2
 
-    .line 1
     iget v0, p1, Landroid/os/Message;->what:I
 
     const/4 v1, 0x1
@@ -92,7 +88,6 @@
 
     const/16 p1, 0x2d
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, p1}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -117,26 +112,22 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     check-cast p1, Lcom/google/android/gms/common/api/internal/BasePendingResult;
 
-    .line 4
     sget-object v0, Lcom/google/android/gms/common/api/Status;->J:Lcom/google/android/gms/common/api/Status;
 
     invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->u(Lcom/google/android/gms/common/api/Status;)V
 
     return-void
 
-    .line 5
     :cond_1
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     check-cast p1, Landroid/util/Pair;
 
-    .line 6
     iget-object v0, p1, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v0, Lcom/google/android/gms/common/api/q;
@@ -145,7 +136,6 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/p;
 
-    .line 7
     :try_start_0
     invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/q;->a(Lcom/google/android/gms/common/api/p;)V
     :try_end_0
@@ -156,9 +146,7 @@
     :catch_0
     move-exception v0
 
-    .line 8
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->t(Lcom/google/android/gms/common/api/p;)V
 
-    .line 9
     throw v0
 .end method

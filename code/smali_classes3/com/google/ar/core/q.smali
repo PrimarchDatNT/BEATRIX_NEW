@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/q;
 
     const-string v1, "ACCEPTED"
@@ -38,7 +37,6 @@
 
     sput-object v0, Lcom/google/ar/core/q;->a:Lcom/google/ar/core/q;
 
-    .line 2
     new-instance v1, Lcom/google/ar/core/q;
 
     const-string v3, "CANCELLED"
@@ -49,7 +47,6 @@
 
     sput-object v1, Lcom/google/ar/core/q;->b:Lcom/google/ar/core/q;
 
-    .line 3
     new-instance v3, Lcom/google/ar/core/q;
 
     const-string v5, "COMPLETED"
@@ -70,7 +67,6 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lcom/google/ar/core/q;->d:[Lcom/google/ar/core/q;
 
     return-void
@@ -84,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -93,7 +88,6 @@
 .method public static values()[Lcom/google/ar/core/q;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/ar/core/q;->d:[Lcom/google/ar/core/q;
 
     invoke-virtual {v0}, [Lcom/google/ar/core/q;->clone()Ljava/lang/Object;

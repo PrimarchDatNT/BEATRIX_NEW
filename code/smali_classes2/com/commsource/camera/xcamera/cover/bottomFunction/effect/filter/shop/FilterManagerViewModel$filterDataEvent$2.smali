@@ -84,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
@@ -101,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewModel$filterDataEvent$2;->invoke()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v1

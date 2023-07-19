@@ -30,7 +30,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->O:Lcom/commsource/beautyplus/location/LocationSearchViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -58,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->Q:Lcom/commsource/widget/s0;
 
     if-eqz v1, :cond_0
@@ -69,17 +66,14 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->Q:Lcom/commsource/widget/s0;
 
     invoke-virtual {v1}, Landroid/app/Dialog;->dismiss()V
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->Q:Lcom/commsource/widget/s0;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -93,12 +87,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->O:Lcom/commsource/beautyplus/location/LocationSearchViewModel;
 
     const-string v3, "LONGITUDE"
@@ -111,15 +103,12 @@
 
     const-string v3, "LATITUDE"
 
-    .line 3
     invoke-virtual {v1, v3, v4, v5}, Landroid/content/Intent;->getDoubleExtra(Ljava/lang/String;D)D
 
     move-result-wide v3
 
-    .line 4
     invoke-virtual {v2, v6, v7, v3, v4}, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->K(DD)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -132,12 +121,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v1
 
-    .line 2
     invoke-static {p0}, Landroidx/lifecycle/ViewModelProviders;->of(Landroidx/fragment/app/FragmentActivity;)Landroidx/lifecycle/ViewModelProvider;
 
     move-result-object v2
@@ -152,10 +139,8 @@
 
     iput-object v2, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->O:Lcom/commsource/beautyplus/location/LocationSearchViewModel;
 
-    .line 3
     invoke-virtual {v1, v2}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->O:Lcom/commsource/beautyplus/location/LocationSearchViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->H()Landroidx/lifecycle/MutableLiveData;
@@ -168,7 +153,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->O:Lcom/commsource/beautyplus/location/LocationSearchViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->J()Landroidx/lifecycle/MutableLiveData;
@@ -181,7 +165,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->O:Lcom/commsource/beautyplus/location/LocationSearchViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->I()Landroidx/lifecycle/MutableLiveData;
@@ -194,7 +177,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -207,14 +189,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->N:Lcom/commsource/beautyplus/f0/o0;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o0;->f:Landroid/widget/TextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->N:Lcom/commsource/beautyplus/f0/o0;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o0;->b:Landroidx/appcompat/widget/AppCompatEditText;
@@ -225,7 +205,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/EditText;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->N:Lcom/commsource/beautyplus/f0/o0;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o0;->b:Landroidx/appcompat/widget/AppCompatEditText;
@@ -236,7 +215,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -271,19 +249,16 @@
 
     if-ne p2, v0, :cond_1
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->O:Lcom/commsource/beautyplus/location/LocationSearchViewModel;
 
     if-eqz p2, :cond_1
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->P:Landroid/view/inputmethod/InputMethodManager;
 
     if-nez p2, :cond_0
 
     const-string p2, "input_method"
 
-    .line 3
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p2
@@ -292,7 +267,6 @@
 
     iput-object p2, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->P:Landroid/view/inputmethod/InputMethodManager;
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->P:Landroid/view/inputmethod/InputMethodManager;
 
@@ -308,12 +282,10 @@
 
     const/4 p2, 0x1
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 6
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -327,7 +299,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
@@ -342,10 +313,8 @@
 
     invoke-virtual {p0, v0, p2}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -374,7 +343,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v3
@@ -383,7 +351,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v3, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->N:Lcom/commsource/beautyplus/f0/o0;
 
@@ -391,33 +358,28 @@
 
     invoke-virtual {v3, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->N:Lcom/commsource/beautyplus/f0/o0;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o0;->d:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->R:Lcom/commsource/widget/h1/e;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lcom/commsource/widget/h1/e;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
     iput-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->R:Lcom/commsource/widget/h1/e;
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->N:Lcom/commsource/beautyplus/f0/o0;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/o0;->d:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v3, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->N:Lcom/commsource/beautyplus/f0/o0;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o0;->d:Landroidx/recyclerview/widget/RecyclerView;
@@ -428,10 +390,8 @@
 
     invoke-direct {v3, p0, v4, v2}, Landroidx/recyclerview/widget/LinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
 
-    .line 8
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->R:Lcom/commsource/widget/h1/e;
 
     new-instance v3, Lcom/commsource/beautyplus/location/b;
@@ -442,7 +402,6 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/commsource/widget/h1/e;->I(Lcom/commsource/widget/h1/e$b;Ljava/lang/Class;)V
 
-    .line 10
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->R:Lcom/commsource/widget/h1/e;
 
@@ -452,7 +411,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->N:Lcom/commsource/beautyplus/f0/o0;
@@ -461,14 +419,12 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->N:Lcom/commsource/beautyplus/f0/o0;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/o0;->d:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 13
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -484,16 +440,13 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/location/LocationSearchActivity;->Y0()V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/commsource/beautyplus/location/LocationSearchActivity;->M0()V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -507,12 +460,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->Q:Lcom/commsource/widget/s0;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/s0$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/s0$a;-><init>(Landroid/content/Context;)V
@@ -523,7 +474,6 @@
 
     iput-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->Q:Lcom/commsource/widget/s0;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->Q:Lcom/commsource/widget/s0;
 
@@ -539,12 +489,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->Q:Lcom/commsource/widget/s0;
 
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -580,7 +528,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result p1
@@ -591,11 +538,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -609,12 +554,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->activity_location_search:I
 
-    .line 2
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -623,16 +566,12 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity;->N:Lcom/commsource/beautyplus/f0/o0;
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautyplus/location/LocationSearchActivity;->P0()V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/beautyplus/location/LocationSearchActivity;->O0()V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/beautyplus/location/LocationSearchActivity;->N0()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

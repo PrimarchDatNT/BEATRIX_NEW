@@ -47,7 +47,6 @@
 
     const-string v16, "f"
 
-    .line 1
     filled-new-array/range {v1 .. v16}, [Ljava/lang/String;
 
     move-result-object v1
@@ -62,7 +61,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -81,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/io/FileInputStream;
 
@@ -100,7 +97,6 @@
     :catch_0
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -126,7 +122,6 @@
     :try_start_0
     const-string v2, "MD5"
 
-    .line 1
     invoke-static {v2}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v2
@@ -137,7 +132,6 @@
 
     new-array v3, v3, [B
 
-    .line 2
     :goto_0
     :try_start_1
     invoke-virtual {p0, v3}, Ljava/io/InputStream;->read([B)I
@@ -148,18 +142,15 @@
 
     if-lez v4, :cond_0
 
-    .line 3
     invoke-virtual {v2, v3, v5, v4}, Ljava/security/MessageDigest;->update([BII)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v2}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object v2
 
-    .line 5
     new-instance v3, Ljava/math/BigInteger;
 
     const/4 v4, 0x1
@@ -168,24 +159,20 @@
 
     const/16 v2, 0x10
 
-    .line 6
     invoke-virtual {v3, v2}, Ljava/math/BigInteger;->toString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v4
 
     if-ge v4, v2, :cond_2
 
-    .line 8
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -195,14 +182,12 @@
 
     const/16 v6, 0x30
 
-    .line 10
     invoke-virtual {v4, v5, v6}, Ljava/lang/StringBuilder;->insert(IC)Ljava/lang/StringBuilder;
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_1
 
-    .line 11
     :cond_1
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -211,14 +196,12 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_2
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 12
     :cond_2
     :try_start_2
     invoke-virtual {p0}, Ljava/io/InputStream;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 13
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -227,38 +210,32 @@
     :catchall_0
     move-exception v1
 
-    .line 14
     :try_start_3
     invoke-virtual {p0}, Ljava/io/InputStream;->close()V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 
-    .line 15
     :catch_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
 
-    .line 16
     :catch_2
     :try_start_4
     invoke-virtual {p0}, Ljava/io/InputStream;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_3
 
-    .line 17
     :catch_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 18
     :catch_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 19
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -276,10 +253,8 @@
 
     new-array v1, v1, [C
 
-    .line 1
     fill-array-data v1, :array_0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
 
@@ -287,25 +262,20 @@
 
     const-string v2, "MD5"
 
-    .line 3
     invoke-static {v2}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2, p0}, Ljava/security/MessageDigest;->update([B)V
 
-    .line 5
     invoke-virtual {v2}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object p0
 
-    .line 6
     array-length v2, p0
 
     mul-int/lit8 v3, v2, 0x2
 
-    .line 7
     new-array v3, v3, [C
 
     const/4 v4, 0x0
@@ -315,7 +285,6 @@
     :goto_0
     if-ge v4, v2, :cond_0
 
-    .line 8
     aget-byte v6, p0, v4
 
     add-int/lit8 v7, v5, 0x1
@@ -324,7 +293,6 @@
 
     and-int/lit8 v8, v8, 0xf
 
-    .line 9
     aget-char v8, v1, v8
 
     aput-char v8, v3, v5
@@ -333,7 +301,6 @@
 
     and-int/lit8 v6, v6, 0xf
 
-    .line 10
     aget-char v6, v1, v6
 
     aput-char v6, v3, v7
@@ -342,7 +309,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     new-instance p0, Ljava/lang/String;
 
@@ -357,7 +323,6 @@
     :catch_0
     const/4 p0, 0x0
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

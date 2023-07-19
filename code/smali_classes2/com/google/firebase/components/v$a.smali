@@ -45,13 +45,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/components/v$a;->a:Ljava/util/Set;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/components/v$a;->b:Lcom/google/firebase/p/c;
 
     return-void
@@ -69,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/v$a;->a:Ljava/util/Set;
 
     invoke-virtual {p1}, Lcom/google/firebase/p/a;->b()Ljava/lang/Class;
@@ -82,14 +78,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/components/v$a;->b:Lcom/google/firebase/p/c;
 
     invoke-interface {v0, p1}, Lcom/google/firebase/p/c;->c(Lcom/google/firebase/p/a;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -103,7 +97,6 @@
 
     const-string p1, "Attempting to publish an undeclared event %s."
 
-    .line 4
     invoke-static {p1, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1

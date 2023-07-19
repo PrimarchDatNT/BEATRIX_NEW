@@ -63,14 +63,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -79,14 +77,12 @@
 
     const/4 p1, -0x1
 
-    .line 3
     iput p1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->b:I
 
     const/4 p1, 0x4
 
     new-array p1, p1, [Landroid/graphics/Point;
 
-    .line 4
     new-instance p2, Landroid/graphics/Point;
 
     const/4 v0, 0x0
@@ -161,7 +157,6 @@
 
     new-array p1, v3, [Landroid/graphics/Point;
 
-    .line 5
     new-instance p2, Landroid/graphics/Point;
 
     invoke-static {v0}, Lcom/commsource/util/l0;->n(I)I
@@ -194,7 +189,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->d:[Landroid/graphics/Point;
 
-    .line 6
     iput-boolean v2, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->g:Z
 
     return-void
@@ -207,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -222,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -237,7 +229,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->k()Z
 
     move-result p0
@@ -254,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -277,7 +267,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-virtual {v2}, Lcom/commsource/studio/d0;->l()Landroid/graphics/Rect;
 
     move-result-object v1
@@ -306,11 +295,9 @@
 
     invoke-static/range {v2 .. v10}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -329,7 +316,6 @@
 
     check-cast v2, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -340,7 +326,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v3}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -361,7 +346,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 7
     invoke-virtual {v3}, Lcom/commsource/studio/d0;->l()Landroid/graphics/Rect;
 
     move-result-object v2
@@ -392,7 +376,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -406,7 +389,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -421,7 +403,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -438,7 +419,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_0
     instance-of v1, p1, Lcom/commsource/studio/bean/FocusLayerInfo;
 
@@ -454,7 +434,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     instance-of p3, p2, Lcom/commsource/studio/bean/FocusLayerInfo;
 
     if-eqz p3, :cond_1
@@ -479,7 +458,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getGroupLayerInfo()Lcom/commsource/studio/bean/GroupLayerInfo;
 
@@ -498,7 +476,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_3
     instance-of p1, p2, Lcom/commsource/studio/bean/GroupLayerInfo;
 
@@ -510,7 +487,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_5
     instance-of p1, p3, Lcom/commsource/studio/bean/FocusLayerInfo;
 
@@ -526,14 +502,12 @@
 
     goto :goto_0
 
-    .line 7
     :cond_6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 8
     :cond_7
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -552,7 +526,6 @@
 
     if-eqz p3, :cond_8
 
-    .line 1
     iget v2, p3, Landroid/graphics/Rect;->left:I
 
     invoke-virtual {p3}, Landroid/graphics/Rect;->width()I
@@ -570,14 +543,12 @@
     :cond_0
     const v2, 0x7f7fffff    # Float.MAX_VALUE
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v3}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
 
     move-result-object v3
 
-    .line 3
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -606,7 +577,6 @@
     :cond_1
     check-cast v6, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 4
     iget-object v8, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v8}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -625,7 +595,6 @@
 
     if-eqz v6, :cond_6
 
-    .line 5
     invoke-virtual {p3}, Landroid/graphics/Rect;->centerY()I
 
     move-result v8
@@ -659,7 +628,6 @@
     :cond_2
     add-int/lit8 v5, v5, -0x1
 
-    .line 6
     invoke-static {v5, v4}, Lcotlin/g2/o;->n(II)I
 
     move-result v5
@@ -676,7 +644,6 @@
     :cond_3
     move p3, v5
 
-    .line 7
     :goto_2
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -692,7 +659,6 @@
 
     check-cast v1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v2}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -705,7 +671,6 @@
 
     check-cast p3, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 9
     invoke-direct {p0, p2, v1, p3}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->f(Lcom/commsource/studio/bean/BaseLayerInfo;Lcom/commsource/studio/bean/BaseLayerInfo;Lcom/commsource/studio/bean/BaseLayerInfo;)Z
 
     move-result p2
@@ -741,13 +706,11 @@
 
     goto/16 :goto_0
 
-    .line 10
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 11
     :cond_8
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -762,12 +725,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v2}, Landroid/widget/FrameLayout;->getWidth()I
@@ -792,7 +753,6 @@
 
     const/16 v4, 0xdc
 
-    .line 3
     invoke-static {v4}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v4
@@ -801,7 +761,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v2}, Landroid/widget/FrameLayout;->getHeight()I
@@ -818,7 +777,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->top:I
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v2}, Landroid/widget/FrameLayout;->getHeight()I
@@ -835,7 +793,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->bottom:I
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v2}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -928,7 +885,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getMultiSelectGroupLayerInfo()Lcom/commsource/studio/bean/GroupLayerInfo;
@@ -990,7 +946,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -1011,22 +966,18 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p1, v1}, Lcom/commsource/studio/d0;->y(Z)V
 
-    .line 3
     invoke-virtual {p1, v1}, Lcom/commsource/studio/d0;->z(Z)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$onContainerEndAttachDrag$1$1;
 
     invoke-direct {v2, p1}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$onContainerEndAttachDrag$1$1;-><init>(Lcom/commsource/studio/d0;)V
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/studio/d0;->b(FLcotlin/jvm/u/a;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1040,7 +991,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -1061,7 +1011,6 @@
 
     const/4 v10, 0x1
 
-    .line 2
     invoke-virtual {p1, v10}, Lcom/commsource/studio/d0;->y(Z)V
 
     const/4 v4, 0x0
@@ -1080,13 +1029,10 @@
 
     move v3, p3
 
-    .line 3
     invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p1, v10}, Lcom/commsource/studio/d0;->z(Z)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
 
     move-result-object p2
@@ -1101,10 +1047,8 @@
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {p1, p2, v1, p3, v1}, Lcom/commsource/studio/d0;->c(Lcom/commsource/studio/d0;FLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1118,7 +1062,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getThumbnailItemFrames()Ljava/util/HashMap;
@@ -1139,7 +1082,6 @@
 
     const/16 v1, 0x8
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v2
@@ -1162,7 +1104,6 @@
 
     invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
 
     move-result-object v1
@@ -1173,7 +1114,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
 
     move-result-object v1
@@ -1184,22 +1124,18 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 5
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->scaleX(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->scaleY(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 8
     new-instance v2, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$a;
 
     invoke-direct {v2, p1}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$a;-><init>(Lcom/commsource/studio/d0;)V
@@ -1208,10 +1144,8 @@
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1225,7 +1159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getThumbnailItemFrames()Ljava/util/HashMap;
@@ -1246,7 +1179,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
 
     move-result-object p1
@@ -1255,14 +1187,12 @@
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->setPivotX(F)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
 
     move-result-object p1
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->setPivotY(F)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
 
     move-result-object p1
@@ -1273,7 +1203,6 @@
 
     const v3, 0x3ef5c28f    # 0.48f
 
-    .line 5
     invoke-virtual {p1, v3}, Landroid/view/ViewPropertyAnimator;->scaleX(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v4
@@ -1284,10 +1213,8 @@
 
     if-le p2, v3, :cond_0
 
-    .line 6
     invoke-virtual {p1, v2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
-    .line 7
     :cond_0
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
@@ -1295,7 +1222,6 @@
 
     if-le p3, p1, :cond_1
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->c:[Landroid/graphics/Point;
 
     invoke-static {p2, v3}, Lcotlin/g2/o;->u(II)I
@@ -1322,7 +1248,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->d:[Landroid/graphics/Point;
 
@@ -1344,7 +1269,6 @@
 
     invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 10
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1359,7 +1283,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -1380,7 +1303,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v2}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -1393,7 +1315,6 @@
 
     move-result v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->l()Landroid/graphics/Rect;
@@ -1414,7 +1335,6 @@
 
     if-ne v3, v5, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v2}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -1425,7 +1345,6 @@
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 5
     invoke-virtual {v1, v6}, Lcom/commsource/studio/d0;->z(Z)V
 
     goto :goto_0
@@ -1433,10 +1352,8 @@
     :cond_0
     if-ne v2, v5, :cond_1
 
-    .line 6
     iput v3, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->b:I
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v2}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -1447,16 +1364,13 @@
 
     invoke-virtual {v2, v3, v5}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 8
     invoke-virtual {v1, v4}, Lcom/commsource/studio/d0;->z(Z)V
 
     goto :goto_0
 
-    .line 9
     :cond_1
     iput v3, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->b:I
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -1467,7 +1381,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -1478,7 +1391,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 12
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -1486,12 +1398,10 @@
 
     invoke-static {v1, v4, v6, v6, v2}, Lcom/commsource/studio/LayerManageListLayout;->E(Lcom/commsource/studio/LayerManageListLayout;IZILjava/lang/Object;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-static {v1}, Lcom/commsource/studio/LayerManageListLayout;->l(Lcom/commsource/studio/LayerManageListLayout;)V
 
-    .line 14
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1509,7 +1419,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v2}, Landroid/widget/FrameLayout;->getWidth()I
@@ -1522,7 +1431,6 @@
 
     sub-int/2addr v2, v3
 
-    .line 2
     iget-object v3, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v3}, Landroid/widget/FrameLayout;->getHeight()I
@@ -1539,10 +1447,8 @@
 
     add-int/2addr v3, v4
 
-    .line 3
     iget-object v4, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
-    .line 4
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -1567,14 +1473,12 @@
 
     check-cast v5, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 5
     iget-object v9, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
     instance-of v10, v9, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     if-eqz v10, :cond_4
 
-    .line 6
     iget-object v9, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v9}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -1627,7 +1531,6 @@
 
     invoke-static/range {v10 .. v18}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     :cond_1
     iget-object v9, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -1649,7 +1552,6 @@
 
     invoke-virtual {v9}, Lcom/commsource/studio/d0;->a()V
 
-    .line 8
     :cond_2
     iget-object v9, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -1675,7 +1577,6 @@
 
     if-eqz v9, :cond_3
 
-    .line 9
     invoke-virtual {v9}, Landroid/view/ViewGroup;->getHeight()I
 
     move-result v10
@@ -1698,10 +1599,8 @@
 
     invoke-virtual {v9, v10}, Landroid/view/ViewGroup;->setPivotX(F)V
 
-    .line 10
     invoke-virtual {v9, v6}, Landroid/view/ViewGroup;->setPivotY(F)V
 
-    .line 11
     invoke-virtual {v9}, Landroid/view/ViewGroup;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v6
@@ -1724,7 +1623,6 @@
 
     invoke-virtual {v6}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 12
     :cond_3
     iget-object v6, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -1748,7 +1646,6 @@
 
     goto/16 :goto_0
 
-    .line 13
     :cond_4
     invoke-static {v5, v9}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1758,7 +1655,6 @@
 
     if-eqz v9, :cond_0
 
-    .line 14
     iget-object v9, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v9}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -1811,7 +1707,6 @@
 
     invoke-static/range {v10 .. v18}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 15
     :cond_5
     iget-object v9, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -1833,7 +1728,6 @@
 
     invoke-virtual {v9}, Lcom/commsource/studio/d0;->a()V
 
-    .line 16
     :cond_6
     iget-object v9, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -1859,7 +1753,6 @@
 
     if-eqz v9, :cond_7
 
-    .line 17
     invoke-virtual {v9}, Landroid/view/ViewGroup;->getHeight()I
 
     move-result v10
@@ -1870,10 +1763,8 @@
 
     invoke-virtual {v9, v10}, Landroid/view/ViewGroup;->setPivotX(F)V
 
-    .line 18
     invoke-virtual {v9, v6}, Landroid/view/ViewGroup;->setPivotY(F)V
 
-    .line 19
     invoke-virtual {v9}, Landroid/view/ViewGroup;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v6
@@ -1898,7 +1789,6 @@
 
     invoke-virtual {v6}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 20
     :cond_7
     iget-object v6, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -1922,7 +1812,6 @@
 
     goto/16 :goto_0
 
-    .line 21
     :cond_8
     iget-object v4, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -1946,7 +1835,6 @@
 
     invoke-virtual {v4}, Lcom/commsource/studio/d0;->a()V
 
-    .line 22
     :cond_9
     iget-object v4, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -1974,7 +1862,6 @@
 
     if-eqz v4, :cond_a
 
-    .line 23
     invoke-virtual {v4}, Landroid/view/ViewGroup;->getHeight()I
 
     move-result v5
@@ -1985,10 +1872,8 @@
 
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->setPivotX(F)V
 
-    .line 24
     invoke-virtual {v4, v6}, Landroid/view/ViewGroup;->setPivotY(F)V
 
-    .line 25
     invoke-virtual {v4}, Landroid/view/ViewGroup;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v4
@@ -2013,7 +1898,6 @@
 
     invoke-virtual {v4}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 26
     :cond_a
     iget-object v4, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -2037,7 +1921,6 @@
 
     invoke-virtual {v4}, Lcom/commsource/studio/d0;->a()V
 
-    .line 27
     :cond_b
     iget-object v4, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -2095,7 +1978,6 @@
 
     invoke-static/range {v5 .. v13}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 28
     :cond_c
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2109,7 +1991,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2124,7 +2005,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -2147,11 +2027,9 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/studio/d0;->r(II)V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2170,7 +2048,6 @@
 
     check-cast v2, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -2181,7 +2058,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v3}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -2204,7 +2080,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2222,14 +2097,12 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v3, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->e:I
 
     add-int v3, v3, p1
 
     iput v3, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->e:I
 
-    .line 2
     iget-boolean v4, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->f:Z
 
     const/4 v5, 0x1
@@ -2238,7 +2111,6 @@
 
     if-nez v4, :cond_b
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Math;->abs(I)I
 
     move-result v3
@@ -2259,15 +2131,12 @@
 
     if-lez v3, :cond_5
 
-    .line 4
     iput-boolean v5, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->f:Z
 
     const/16 v3, 0x1e
 
-    .line 5
     invoke-static {v3}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 6
     iget v4, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->e:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->n(I)I
@@ -2278,10 +2147,8 @@
 
     iput v4, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->e:I
 
-    .line 7
     invoke-direct {v0, v4, v1}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->d(II)V
 
-    .line 8
     iget-object v1, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -2310,7 +2177,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/a;->B()V
 
-    .line 9
     :cond_0
     iget-object v1, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -2336,7 +2202,6 @@
 
     const/4 v10, 0x0
 
-    .line 10
     invoke-virtual {v9}, Lcom/commsource/studio/d0;->l()Landroid/graphics/Rect;
 
     move-result-object v1
@@ -2355,11 +2220,9 @@
 
     invoke-static/range {v9 .. v17}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 11
     :cond_1
     iget-object v1, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
-    .line 12
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2386,7 +2249,6 @@
     :cond_2
     check-cast v4, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 13
     iget-object v10, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v10}, Lcom/commsource/studio/LayerManageListLayout;->getThumbnailItemFrames()Ljava/util/HashMap;
@@ -2407,7 +2269,6 @@
 
     if-eqz v10, :cond_4
 
-    .line 14
     iget-object v4, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v4}, Ljava/util/ArrayList;->size()I
@@ -2416,7 +2277,6 @@
 
     if-le v4, v8, :cond_3
 
-    .line 15
     iget-object v4, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->c:[Landroid/graphics/Point;
 
     invoke-static {v3, v7}, Lcotlin/g2/o;->u(II)I
@@ -2443,7 +2303,6 @@
 
     goto :goto_1
 
-    .line 16
     :cond_3
     iget-object v4, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->d:[Landroid/graphics/Point;
 
@@ -2471,18 +2330,15 @@
 
     goto :goto_0
 
-    .line 17
     :cond_5
     invoke-virtual {v0, v6, v1}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->l(II)V
 
-    .line 18
     iget v1, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->e:I
 
     mul-int/lit8 v1, v1, 0x4
 
     div-int/lit8 v1, v1, 0xf
 
-    .line 19
     iget-object v3, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v3}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -2511,7 +2367,6 @@
 
     invoke-virtual {v3, v1}, Lcom/commsource/studio/gesture/a;->A(I)V
 
-    .line 20
     :cond_6
     iget-object v3, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -2533,7 +2388,6 @@
 
     if-eqz v3, :cond_7
 
-    .line 21
     invoke-virtual {v3}, Lcom/commsource/studio/d0;->l()Landroid/graphics/Rect;
 
     move-result-object v4
@@ -2542,11 +2396,9 @@
 
     invoke-virtual {v3, v1, v4}, Lcom/commsource/studio/d0;->t(II)V
 
-    .line 22
     :cond_7
     iget-object v3, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
-    .line 23
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -2573,7 +2425,6 @@
     :cond_8
     check-cast v9, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 24
     iget-object v11, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v11}, Lcom/commsource/studio/LayerManageListLayout;->getThumbnailItemFrames()Ljava/util/HashMap;
@@ -2592,7 +2443,6 @@
 
     if-eqz v9, :cond_a
 
-    .line 25
     iget-object v11, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v11}, Ljava/util/ArrayList;->size()I
@@ -2601,7 +2451,6 @@
 
     if-le v11, v8, :cond_9
 
-    .line 26
     iget-object v11, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->c:[Landroid/graphics/Point;
 
     invoke-static {v4, v7}, Lcotlin/g2/o;->u(II)I
@@ -2620,7 +2469,6 @@
 
     goto :goto_3
 
-    .line 27
     :cond_9
     iget-object v11, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->d:[Landroid/graphics/Point;
 
@@ -2640,15 +2488,12 @@
 
     goto :goto_2
 
-    .line 28
     :cond_b
     invoke-virtual/range {p0 .. p2}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->l(II)V
 
-    .line 29
     :cond_c
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->t()V
 
-    .line 30
     iget-boolean v1, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->g:Z
 
     if-eqz v1, :cond_10
@@ -2659,7 +2504,6 @@
 
     if-eqz v1, :cond_10
 
-    .line 31
     iget-object v1, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -2684,7 +2528,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/d0;->u(F)V
 
-    .line 32
     :cond_d
     iget-object v1, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -2710,11 +2553,9 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/d0;->u(F)V
 
-    .line 33
     :cond_e
     iget-object v1, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
-    .line 34
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2733,7 +2574,6 @@
 
     check-cast v4, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 35
     iget-object v7, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v7}, Lcom/commsource/studio/LayerManageListLayout;->getThumbnailItemFrames()Ljava/util/HashMap;
@@ -2756,7 +2596,6 @@
 
     goto :goto_4
 
-    .line 36
     :cond_10
     iget-object v1, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -2782,7 +2621,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/d0;->u(F)V
 
-    .line 37
     :cond_11
     iget-object v1, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -2806,11 +2644,9 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/d0;->u(F)V
 
-    .line 38
     :cond_12
     iget-object v1, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
-    .line 39
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2829,7 +2665,6 @@
 
     check-cast v4, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 40
     iget-object v7, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v7}, Lcom/commsource/studio/LayerManageListLayout;->getThumbnailItemFrames()Ljava/util/HashMap;
@@ -2852,7 +2687,6 @@
 
     goto :goto_5
 
-    .line 41
     :cond_14
     iget-object v1, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -2900,7 +2734,6 @@
     :goto_6
     invoke-virtual {v1, v3, v5}, Lcom/commsource/studio/r;->a(FZ)V
 
-    .line 42
     :cond_16
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2914,7 +2747,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -2939,7 +2771,6 @@
 
     if-eqz v1, :cond_a
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->j()Z
 
     move-result v4
@@ -2950,10 +2781,8 @@
 
     if-eqz v4, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->g()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getDragLayerListener()Lcom/commsource/studio/r;
@@ -2966,7 +2795,6 @@
 
     goto/16 :goto_4
 
-    .line 5
     :cond_0
     iget-object v4, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -2978,11 +2806,9 @@
 
     invoke-virtual {v4, v2}, Lcom/commsource/studio/r;->b(Z)V
 
-    .line 6
     :cond_1
     invoke-virtual {v1, v2}, Lcom/commsource/studio/d0;->y(Z)V
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->m()Lcom/commsource/studio/gesture/a;
 
     move-result-object v4
@@ -2993,14 +2819,12 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/gesture/a;->C(Lcotlin/jvm/u/a;)V
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->p()Z
 
     move-result v4
 
     if-eqz v4, :cond_2
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v4}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -3013,10 +2837,8 @@
 
     invoke-virtual {v4, v5, v6}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 10
     invoke-virtual {v1, v2}, Lcom/commsource/studio/d0;->z(Z)V
 
-    .line 11
     :cond_2
     invoke-direct {p0}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->k()Z
 
@@ -3024,7 +2846,6 @@
 
     if-eqz v4, :cond_6
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
     iget-object v4, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
@@ -3033,7 +2854,6 @@
 
     move-result v1
 
-    .line 13
     iget-object v4, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v4}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -3046,10 +2866,8 @@
 
     move-result v4
 
-    .line 14
     iget-object v5, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
-    .line 15
     invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -3076,7 +2894,6 @@
     :cond_3
     check-cast v7, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 16
     iget-object v9, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-static {v7, v9}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -3087,12 +2904,10 @@
 
     if-eqz v9, :cond_5
 
-    .line 17
     invoke-direct {p0, v7}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->m(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
     if-ge v6, v1, :cond_4
 
-    .line 18
     iget-object v6, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v6}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -3107,7 +2922,6 @@
 
     goto :goto_1
 
-    .line 19
     :cond_4
     iget-object v6, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -3119,7 +2933,6 @@
 
     invoke-virtual {v6, v4, v7}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 20
     :cond_5
     :goto_1
     invoke-direct {p0, v7}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->r(Lcom/commsource/studio/bean/BaseLayerInfo;)V
@@ -3128,7 +2941,6 @@
 
     goto :goto_0
 
-    .line 21
     :cond_6
     iget-object v4, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
@@ -3136,10 +2948,8 @@
 
     if-eqz v4, :cond_8
 
-    .line 22
     iget-object v4, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
-    .line 23
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -3157,13 +2967,10 @@
 
     check-cast v5, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 24
     invoke-direct {p0, v5}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->m(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 25
     invoke-direct {p0, v5}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->r(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 26
     iget-object v6, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v6}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -3180,7 +2987,6 @@
 
     goto :goto_2
 
-    .line 27
     :cond_7
     sget-object v4, Lcom/commsource/studio/LayerManageListLayout;->d0:Lcom/commsource/studio/LayerManageListLayout$a;
 
@@ -3190,12 +2996,10 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/d0;->w(I)V
 
-    .line 28
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->s()V
 
     goto :goto_3
 
-    .line 29
     :cond_8
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -3241,14 +3045,12 @@
 
     invoke-static/range {v4 .. v12}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 30
     :cond_9
     :goto_3
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->z()V
 
-    .line 31
     :cond_a
     :goto_4
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
@@ -3259,7 +3061,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/LayerManageListLayout;->setTotalLength(I)V
 
-    .line 32
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->getHeight()I
@@ -3282,24 +3083,20 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/LayerManageListLayout;->setLayoutOffset(I)V
 
-    .line 33
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     const/4 v4, 0x0
 
     invoke-static {v1, v2, v3, v3, v4}, Lcom/commsource/studio/LayerManageListLayout;->E(Lcom/commsource/studio/LayerManageListLayout;IZILjava/lang/Object;)V
 
-    .line 34
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-static {v1, v3}, Lcom/commsource/studio/LayerManageListLayout;->n(Lcom/commsource/studio/LayerManageListLayout;Z)V
 
-    .line 35
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-static {v1}, Lcom/commsource/studio/LayerManageListLayout;->l(Lcom/commsource/studio/LayerManageListLayout;)V
 
-    .line 36
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3312,7 +3109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getContainerItemFrames()Ljava/util/HashMap;
@@ -3337,10 +3133,8 @@
 
     if-eqz v1, :cond_7
 
-    .line 2
     invoke-virtual {v1, v3}, Lcom/commsource/studio/d0;->y(Z)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
 
     move-result-object v4
@@ -3353,21 +3147,18 @@
 
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->setElevation(F)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->m()Lcom/commsource/studio/gesture/a;
 
     move-result-object v4
 
     invoke-virtual {v4}, Lcom/commsource/studio/gesture/a;->G()V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->k()Z
 
     move-result v4
 
     if-eqz v4, :cond_2
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v4}, Lcom/commsource/studio/LayerManageListLayout;->getMultiSelectGroupLayerInfo()Lcom/commsource/studio/bean/GroupLayerInfo;
@@ -3376,12 +3167,10 @@
 
     if-eqz v4, :cond_6
 
-    .line 7
     invoke-virtual {v4}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSubLayerInfos()Ljava/util/ArrayList;
 
     move-result-object v5
 
-    .line 8
     invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -3408,7 +3197,6 @@
     :cond_0
     check-cast v7, Lcotlin/Pair;
 
-    .line 9
     invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v9
@@ -3425,7 +3213,6 @@
 
     if-eqz v9, :cond_1
 
-    .line 10
     invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v9
@@ -3446,7 +3233,6 @@
 
     invoke-direct {p0, v9, v10, v11}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->n(Lcom/commsource/studio/bean/BaseLayerInfo;II)V
 
-    .line 11
     iget-object v9, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v9}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -3459,7 +3245,6 @@
 
     invoke-virtual {v9, v10}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 12
     :cond_1
     invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
@@ -3489,7 +3274,6 @@
 
     invoke-direct {p0, v9, v10, v6}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->s(Lcom/commsource/studio/bean/BaseLayerInfo;II)V
 
-    .line 13
     iget-object v6, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
@@ -3502,7 +3286,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_2
     iget-object v4, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
@@ -3510,14 +3293,12 @@
 
     if-eqz v5, :cond_5
 
-    .line 15
     check-cast v4, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     invoke-virtual {v4}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSubLayerInfos()Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 16
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -3544,7 +3325,6 @@
     :cond_3
     check-cast v6, Lcotlin/Pair;
 
-    .line 17
     invoke-virtual {v6}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
@@ -3565,7 +3345,6 @@
 
     invoke-direct {p0, v8, v9, v10}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->n(Lcom/commsource/studio/bean/BaseLayerInfo;II)V
 
-    .line 18
     invoke-virtual {v6}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
@@ -3602,7 +3381,6 @@
 
     invoke-direct {p0, v8, v9, v5}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->s(Lcom/commsource/studio/bean/BaseLayerInfo;II)V
 
-    .line 19
     iget-object v5, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v5}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -3615,7 +3393,6 @@
 
     invoke-virtual {v5, v8}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 20
     iget-object v5, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v6}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
@@ -3628,7 +3405,6 @@
 
     goto :goto_1
 
-    .line 21
     :cond_4
     sget-object v4, Lcom/commsource/studio/LayerManageListLayout;->d0:Lcom/commsource/studio/LayerManageListLayout$a;
 
@@ -3638,12 +3414,10 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/d0;->w(I)V
 
-    .line 22
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->s()V
 
     goto :goto_2
 
-    .line 23
     :cond_5
     iget-object v4, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -3687,7 +3461,6 @@
 
     invoke-static/range {v5 .. v13}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 24
     :cond_6
     :goto_2
     iget-object v4, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
@@ -3710,7 +3483,6 @@
 
     invoke-virtual {v4, v1}, Lcom/commsource/studio/LayerManageListLayout;->setLayoutOffset(I)V
 
-    .line 25
     :cond_7
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -3718,12 +3490,10 @@
 
     invoke-static {v1, v2, v3, v3, v4}, Lcom/commsource/studio/LayerManageListLayout;->E(Lcom/commsource/studio/LayerManageListLayout;IZILjava/lang/Object;)V
 
-    .line 26
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-static {v1}, Lcom/commsource/studio/LayerManageListLayout;->l(Lcom/commsource/studio/LayerManageListLayout;)V
 
-    .line 27
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -3738,14 +3508,12 @@
 
     iput v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->b:I
 
-    .line 28
     invoke-direct {p0}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->e()Z
 
     move-result v1
 
     iput-boolean v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->g:Z
 
-    .line 29
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getDragLayerListener()Lcom/commsource/studio/r;
@@ -3758,7 +3526,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/r;->c(Z)V
 
-    .line 30
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3772,7 +3539,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

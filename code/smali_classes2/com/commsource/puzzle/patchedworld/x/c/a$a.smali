@@ -55,10 +55,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/x/c/a$a;->a:Ljava/lang/Object;
 
     return-void
@@ -67,7 +65,6 @@
 .method static synthetic a(Lcom/commsource/puzzle/patchedworld/x/c/a$a;Ljava/util/concurrent/CountDownLatch;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/puzzle/patchedworld/x/c/a$a;->b(Ljava/util/concurrent/CountDownLatch;)V
 
     return-void
@@ -80,7 +77,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/x/c/a$a;->b:Ljava/util/concurrent/CountDownLatch;
 
     return-void
@@ -114,14 +110,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/x/c/a$a;->a:Ljava/lang/Object;
 
     invoke-virtual {p0, v0}, Lcom/commsource/puzzle/patchedworld/x/c/a$a;->c(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/x/c/a$a;->b:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v1}, Ljava/util/concurrent/CountDownLatch;->countDown()V

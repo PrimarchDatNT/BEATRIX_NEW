@@ -66,14 +66,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-direct {v0}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;-><init>()V
 
     sput-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->ug()V
 
     return-void
@@ -82,7 +80,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageLite;-><init>()V
 
     return-void
@@ -96,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Og(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -116,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Pg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -136,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Qg(Lcom/google/protobuf/GeneratedMessageLite;[B)Lcom/google/protobuf/GeneratedMessageLite;
@@ -156,7 +150,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Rg(Lcom/google/protobuf/GeneratedMessageLite;[BLcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -179,7 +172,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Qf()Lcom/google/protobuf/s1;
@@ -192,7 +184,6 @@
 .method private Fh(Lcom/google/firestore/v1/StructuredQuery$g$a;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$b;->Hg()Lcom/google/protobuf/GeneratedMessageLite;
 
     move-result-object p1
@@ -207,10 +198,8 @@
 .method private Gh(Lcom/google/firestore/v1/StructuredQuery$g;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
 
     return-void
@@ -219,10 +208,8 @@
 .method private Hh(Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;->getNumber()I
 
     move-result p1
@@ -235,7 +222,6 @@
 .method private Ih(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->g:I
 
     return-void
@@ -244,7 +230,6 @@
 .method private Jh(Lcom/google/firestore/v1/Value$b;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$b;->Hg()Lcom/google/protobuf/GeneratedMessageLite;
 
     move-result-object p1
@@ -259,10 +244,8 @@
 .method private Kh(Lcom/google/firestore/v1/Value;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
 
     return-void
@@ -271,7 +254,6 @@
 .method static synthetic ah()Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     return-object v0
@@ -280,7 +262,6 @@
 .method static synthetic bh(Lcom/google/firestore/v1/StructuredQuery$FieldFilter;Lcom/google/firestore/v1/StructuredQuery$g;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->Gh(Lcom/google/firestore/v1/StructuredQuery$g;)V
 
     return-void
@@ -289,7 +270,6 @@
 .method static synthetic ch(Lcom/google/firestore/v1/StructuredQuery$FieldFilter;Lcom/google/firestore/v1/StructuredQuery$g$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->Fh(Lcom/google/firestore/v1/StructuredQuery$g$a;)V
 
     return-void
@@ -298,7 +278,6 @@
 .method static synthetic dh(Lcom/google/firestore/v1/StructuredQuery$FieldFilter;Lcom/google/firestore/v1/StructuredQuery$g;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->qh(Lcom/google/firestore/v1/StructuredQuery$g;)V
 
     return-void
@@ -307,7 +286,6 @@
 .method static synthetic eh(Lcom/google/firestore/v1/StructuredQuery$FieldFilter;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->mh()V
 
     return-void
@@ -316,7 +294,6 @@
 .method static synthetic fh(Lcom/google/firestore/v1/StructuredQuery$FieldFilter;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->Ih(I)V
 
     return-void
@@ -325,7 +302,6 @@
 .method static synthetic gh(Lcom/google/firestore/v1/StructuredQuery$FieldFilter;Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->Hh(Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;)V
 
     return-void
@@ -334,7 +310,6 @@
 .method static synthetic hh(Lcom/google/firestore/v1/StructuredQuery$FieldFilter;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->nh()V
 
     return-void
@@ -343,7 +318,6 @@
 .method static synthetic ih(Lcom/google/firestore/v1/StructuredQuery$FieldFilter;Lcom/google/firestore/v1/Value;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->Kh(Lcom/google/firestore/v1/Value;)V
 
     return-void
@@ -352,7 +326,6 @@
 .method static synthetic jh(Lcom/google/firestore/v1/StructuredQuery$FieldFilter;Lcom/google/firestore/v1/Value$b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->Jh(Lcom/google/firestore/v1/Value$b;)V
 
     return-void
@@ -361,7 +334,6 @@
 .method static synthetic kh(Lcom/google/firestore/v1/StructuredQuery$FieldFilter;Lcom/google/firestore/v1/Value;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->rh(Lcom/google/firestore/v1/Value;)V
 
     return-void
@@ -370,7 +342,6 @@
 .method static synthetic lh(Lcom/google/firestore/v1/StructuredQuery$FieldFilter;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->oh()V
 
     return-void
@@ -381,7 +352,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
 
     return-void
@@ -392,7 +362,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->g:I
 
     return-void
@@ -403,7 +372,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
 
     return-void
@@ -412,7 +380,6 @@
 .method public static ph()Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     return-object v0
@@ -421,22 +388,18 @@
 .method private qh(Lcom/google/firestore/v1/StructuredQuery$g;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/firestore/v1/StructuredQuery$g;->fh()Lcom/google/firestore/v1/StructuredQuery$g;
 
     move-result-object v1
 
     if-eq v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
 
-    .line 4
     invoke-static {v0}, Lcom/google/firestore/v1/StructuredQuery$g;->hh(Lcom/google/firestore/v1/StructuredQuery$g;)Lcom/google/firestore/v1/StructuredQuery$g$a;
 
     move-result-object v0
@@ -457,7 +420,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iput-object p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
 
@@ -468,22 +430,18 @@
 .method private rh(Lcom/google/firestore/v1/Value;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/firestore/v1/Value;->Vh()Lcom/google/firestore/v1/Value;
 
     move-result-object v1
 
     if-eq v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
 
-    .line 4
     invoke-static {v0}, Lcom/google/firestore/v1/Value;->bi(Lcom/google/firestore/v1/Value;)Lcom/google/firestore/v1/Value$b;
 
     move-result-object v0
@@ -504,7 +462,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iput-object p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
 
@@ -515,7 +472,6 @@
 .method public static sh()Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -530,7 +486,6 @@
 .method public static th(Lcom/google/firestore/v1/StructuredQuery$FieldFilter;)Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -556,7 +511,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Ig(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -576,7 +530,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Jg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -596,7 +549,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Kg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -616,7 +568,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Lg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -636,7 +587,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Mg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -656,7 +606,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Ng(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -673,7 +622,6 @@
 .method public H()Lcom/google/firestore/v1/StructuredQuery$g;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
 
     if-nez v0, :cond_0
@@ -689,7 +637,6 @@
 .method public H1()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
 
     if-eqz v0, :cond_0
@@ -708,7 +655,6 @@
 .method protected final S6(Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -725,14 +671,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     throw p1
 
-    .line 3
     :pswitch_0
     sget-object p1, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->N:Lcom/google/protobuf/s1;
 
@@ -742,13 +686,11 @@
 
     monitor-enter p1
 
-    .line 4
     :try_start_0
     sget-object p2, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->N:Lcom/google/protobuf/s1;
 
     if-nez p2, :cond_0
 
-    .line 5
     new-instance p2, Lcom/google/protobuf/GeneratedMessageLite$c;
 
     sget-object p3, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -757,7 +699,6 @@
 
     sput-object p2, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->N:Lcom/google/protobuf/s1;
 
-    .line 6
     :cond_0
     monitor-exit p1
 
@@ -772,25 +713,21 @@
 
     throw p2
 
-    .line 7
     :cond_1
     :goto_0
     sget-object p1, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->N:Lcom/google/protobuf/s1;
 
     return-object p1
 
-    .line 8
     :pswitch_1
     check-cast p2, Lcom/google/protobuf/q;
 
-    .line 9
     check-cast p3, Lcom/google/protobuf/j0;
 
     :cond_2
     :goto_1
     if-nez v0, :cond_9
 
-    .line 10
     :try_start_1
     invoke-virtual {p2}, Lcom/google/protobuf/q;->X()I
 
@@ -810,7 +747,6 @@
 
     if-eq p1, v3, :cond_3
 
-    .line 11
     invoke-virtual {p2, p1}, Lcom/google/protobuf/q;->g0(I)Z
 
     move-result p1
@@ -819,13 +755,11 @@
 
     goto :goto_4
 
-    .line 12
     :cond_3
     iget-object p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
 
     if-eqz p1, :cond_4
 
-    .line 13
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
 
     move-result-object p1
@@ -837,7 +771,6 @@
     :cond_4
     move-object p1, v2
 
-    .line 14
     :goto_2
     invoke-static {}, Lcom/google/firestore/v1/Value;->mi()Lcom/google/protobuf/s1;
 
@@ -853,10 +786,8 @@
 
     if-eqz p1, :cond_2
 
-    .line 15
     invoke-virtual {p1, v3}, Lcom/google/protobuf/GeneratedMessageLite$b;->Pg(Lcom/google/protobuf/GeneratedMessageLite;)Lcom/google/protobuf/GeneratedMessageLite$b;
 
-    .line 16
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$b;->Ig()Lcom/google/protobuf/GeneratedMessageLite;
 
     move-result-object p1
@@ -867,24 +798,20 @@
 
     goto :goto_1
 
-    .line 17
     :cond_5
     invoke-virtual {p2}, Lcom/google/protobuf/q;->x()I
 
     move-result p1
 
-    .line 18
     iput p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->g:I
 
     goto :goto_1
 
-    .line 19
     :cond_6
     iget-object p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
 
     if-eqz p1, :cond_7
 
-    .line 20
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
 
     move-result-object p1
@@ -896,7 +823,6 @@
     :cond_7
     move-object p1, v2
 
-    .line 21
     :goto_3
     invoke-static {}, Lcom/google/firestore/v1/StructuredQuery$g;->sh()Lcom/google/protobuf/s1;
 
@@ -912,10 +838,8 @@
 
     if-eqz p1, :cond_2
 
-    .line 22
     invoke-virtual {p1, v3}, Lcom/google/protobuf/GeneratedMessageLite$b;->Pg(Lcom/google/protobuf/GeneratedMessageLite;)Lcom/google/protobuf/GeneratedMessageLite$b;
 
-    .line 23
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$b;->Ig()Lcom/google/protobuf/GeneratedMessageLite;
 
     move-result-object p1
@@ -944,13 +868,11 @@
     :catch_0
     move-exception p1
 
-    .line 24
     :try_start_2
     new-instance p2, Ljava/lang/RuntimeException;
 
     new-instance p3, Lcom/google/protobuf/InvalidProtocolBufferException;
 
-    .line 25
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -968,7 +890,6 @@
     :catch_1
     move-exception p1
 
-    .line 26
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-virtual {p1, p0}, Lcom/google/protobuf/InvalidProtocolBufferException;->setUnfinishedMessage(Lcom/google/protobuf/i1;)Lcom/google/protobuf/InvalidProtocolBufferException;
@@ -981,25 +902,20 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 27
     :goto_5
     throw p1
 
-    .line 28
     :cond_9
     :pswitch_2
     sget-object p1, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     return-object p1
 
-    .line 29
     :pswitch_3
     check-cast p2, Lcom/google/protobuf/GeneratedMessageLite$k;
 
-    .line 30
     check-cast p3, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
-    .line 31
     iget-object p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
 
     iget-object v2, p3, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
@@ -1012,7 +928,6 @@
 
     iput-object p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
 
-    .line 32
     iget p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->g:I
 
     if-eqz p1, :cond_a
@@ -1038,7 +953,6 @@
 
     iput p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->g:I
 
-    .line 33
     iget-object p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
 
     iget-object p3, p3, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
@@ -1051,12 +965,10 @@
 
     iput-object p1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
 
-    .line 34
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$j;->a:Lcom/google/protobuf/GeneratedMessageLite$j;
 
     return-object p0
 
-    .line 35
     :pswitch_4
     new-instance p1, Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
 
@@ -1067,13 +979,11 @@
     :pswitch_5
     return-object v2
 
-    .line 36
     :pswitch_6
     sget-object p1, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->M:Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     return-object p1
 
-    .line 37
     :pswitch_7
     new-instance p1, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
@@ -1097,7 +1007,6 @@
 .method public Y6()I
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
     const/4 v1, -0x1
@@ -1109,14 +1018,12 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     iget-object v1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
 
     if-eqz v1, :cond_1
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->H()Lcom/google/firestore/v1/StructuredQuery$g;
 
     move-result-object v2
@@ -1127,7 +1034,6 @@
 
     add-int/2addr v0, v1
 
-    .line 4
     :cond_1
     iget v1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->g:I
 
@@ -1141,17 +1047,14 @@
 
     const/4 v1, 0x2
 
-    .line 5
     iget v2, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->g:I
 
-    .line 6
     invoke-static {v1, v2}, Lcom/google/protobuf/CodedOutputStream;->s(II)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
 
@@ -1159,7 +1062,6 @@
 
     const/4 v1, 0x3
 
-    .line 8
     invoke-virtual {p0}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->getValue()Lcom/google/firestore/v1/Value;
 
     move-result-object v2
@@ -1170,7 +1072,6 @@
 
     add-int/2addr v0, v1
 
-    .line 9
     :cond_3
     iput v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
@@ -1180,7 +1081,6 @@
 .method public d0()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->g:I
 
     return v0
@@ -1189,7 +1089,6 @@
 .method public e0()Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->g:I
 
     invoke-static {v0}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;->forNumber(I)Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;
@@ -1198,7 +1097,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;->UNRECOGNIZED:Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;
 
     :cond_0
@@ -1208,7 +1106,6 @@
 .method public getValue()Lcom/google/firestore/v1/Value;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
 
     if-nez v0, :cond_0
@@ -1224,7 +1121,6 @@
 .method public v2()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
 
     if-eqz v0, :cond_0
@@ -1248,21 +1144,18 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->f:Lcom/google/firestore/v1/StructuredQuery$g;
 
     if-eqz v0, :cond_0
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->H()Lcom/google/firestore/v1/StructuredQuery$g;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->S0(ILcom/google/protobuf/i1;)V
 
-    .line 3
     :cond_0
     iget v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->g:I
 
@@ -1276,12 +1169,10 @@
 
     const/4 v0, 0x2
 
-    .line 4
     iget v1, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->g:I
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->E0(II)V
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->p:Lcom/google/firestore/v1/Value;
 
@@ -1289,7 +1180,6 @@
 
     const/4 v0, 0x3
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->getValue()Lcom/google/firestore/v1/Value;
 
     move-result-object v1

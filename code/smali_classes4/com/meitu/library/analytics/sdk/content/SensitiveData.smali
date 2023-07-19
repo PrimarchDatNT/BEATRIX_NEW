@@ -51,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     const-string v2, "ADVERTISING_ID"
@@ -64,7 +63,6 @@
 
     sput-object v1, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->ADVERTISING_ID:Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
-    .line 2
     new-instance v2, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     const-string v4, "HARDWARE_SERIAL_NUMBER"
@@ -77,7 +75,6 @@
 
     sput-object v2, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->HARDWARE_SERIAL_NUMBER:Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
-    .line 3
     new-instance v4, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     const-string v6, "IMSI"
@@ -90,7 +87,6 @@
 
     sput-object v4, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->IMSI:Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
-    .line 4
     new-instance v6, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     const-string v8, "BSSID"
@@ -103,7 +99,6 @@
 
     sput-object v6, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->BSSID:Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
-    .line 5
     new-instance v8, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     const-string v10, "IMEI"
@@ -116,7 +111,6 @@
 
     sput-object v8, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->IMEI:Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
-    .line 6
     new-instance v10, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     const-string v12, "GID"
@@ -129,7 +123,6 @@
 
     sput-object v10, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->GID:Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
-    .line 7
     new-instance v12, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     const-string v14, "GID_STATUS"
@@ -142,7 +135,6 @@
 
     sput-object v12, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->GID_STATUS:Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
-    .line 8
     new-instance v0, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     const-string v14, "ICCID"
@@ -155,7 +147,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->ICCID:Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
-    .line 9
     new-instance v13, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     const-string v14, "MAC_ADDRESS"
@@ -168,7 +159,6 @@
 
     sput-object v13, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->MAC_ADDRESS:Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
-    .line 10
     new-instance v11, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     const-string v14, "ANDROID_ID"
@@ -181,7 +171,6 @@
 
     sput-object v11, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->ANDROID_ID:Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
-    .line 11
     new-instance v9, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     const-string v14, "APP_LIST"
@@ -236,7 +225,6 @@
 
     aput-object v9, v7, v15
 
-    .line 12
     sput-object v7, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->$VALUES:[Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     const v0, 0xd525
@@ -256,10 +244,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->name:Ljava/lang/String;
 
     return-void
@@ -272,7 +258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -293,7 +278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->$VALUES:[Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     invoke-virtual {v1}, [Lcom/meitu/library/analytics/sdk/content/SensitiveData;->clone()Ljava/lang/Object;
@@ -316,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

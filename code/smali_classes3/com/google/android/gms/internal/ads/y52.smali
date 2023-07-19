@@ -21,7 +21,6 @@
 .method private constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/p52;-><init>(I)V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(ILcom/google/android/gms/internal/ads/v52;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/y52;-><init>(I)V
 
     return-void
@@ -41,7 +39,6 @@
 .method public final synthetic a(Ljava/lang/Object;Lcom/google/android/gms/internal/ads/d62;)Lcom/google/android/gms/internal/ads/p52;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/android/gms/internal/ads/p52;->a(Ljava/lang/Object;Lcom/google/android/gms/internal/ads/d62;)Lcom/google/android/gms/internal/ads/p52;
 
     return-object p0
@@ -57,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/w52;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/p52;->a:Ljava/util/LinkedHashMap;

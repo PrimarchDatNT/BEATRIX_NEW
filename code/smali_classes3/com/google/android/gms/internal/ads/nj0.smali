@@ -36,15 +36,12 @@
 .method public final a(Ljava/lang/Object;Ljava/util/Map;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/lu;
 
     const-string p2, "Show native ad policy validator overlay."
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 3
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/lu;->getView()Landroid/view/View;
 
     move-result-object p1

@@ -16,7 +16,6 @@
     :cond_0
     const/4 p1, 0x2
 
-    .line 1
     :goto_0
     invoke-static {p0, p1}, Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;
 
@@ -42,13 +41,11 @@
     :cond_0
     const/4 p1, 0x2
 
-    .line 1
     :goto_0
     invoke-static {p0, p1}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
 
     move-result-object p1
 
-    .line 2
     array-length v0, p1
 
     if-nez v0, :cond_2
@@ -59,7 +56,6 @@
 
     if-lez v0, :cond_2
 
-    .line 3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     const-string v0, "Unable to decode "

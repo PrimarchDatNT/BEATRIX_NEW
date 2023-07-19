@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;Lcom/meitu/libmtsns/framwork/i/d$k;Ljava/util/Collection;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$e;->d:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     iput-object p2, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$e;->a:Lcom/meitu/libmtsns/framwork/i/d$k;
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$e;->d:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     iget-object v2, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$e;->a:Lcom/meitu/libmtsns/framwork/i/d$k;
@@ -67,7 +65,6 @@
 
     invoke-static {v1, v2, v3, v5, v4}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->V(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;Lcom/meitu/libmtsns/framwork/i/d$k;Ljava/util/Collection;ZZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

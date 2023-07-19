@@ -60,25 +60,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/greenrobot/greendao/l/h;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lorg/greenrobot/greendao/l/h;->c:Lorg/greenrobot/greendao/h;
 
-    .line 4
     iput-object p3, p0, Lorg/greenrobot/greendao/l/h;->b:Lorg/greenrobot/greendao/a;
 
-    .line 5
     iput-object p4, p0, Lorg/greenrobot/greendao/l/h;->d:Lorg/greenrobot/greendao/h;
 
-    .line 6
     iput-object p5, p0, Lorg/greenrobot/greendao/l/h;->e:Ljava/lang/String;
 
-    .line 7
     new-instance p1, Lorg/greenrobot/greendao/l/l;
 
     invoke-direct {p1, p3, p5}, Lorg/greenrobot/greendao/l/l;-><init>(Lorg/greenrobot/greendao/a;Ljava/lang/String;)V
@@ -93,7 +86,6 @@
 .method public varargs a(Lorg/greenrobot/greendao/l/m;Lorg/greenrobot/greendao/l/m;[Lorg/greenrobot/greendao/l/m;)Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/h;->f:Lorg/greenrobot/greendao/l/l;
 
     const-string v1, " AND "
@@ -108,7 +100,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/h;->e:Ljava/lang/String;
 
     return-object v0
@@ -117,7 +108,6 @@
 .method public varargs c(Lorg/greenrobot/greendao/l/m;Lorg/greenrobot/greendao/l/m;[Lorg/greenrobot/greendao/l/m;)Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/h;->f:Lorg/greenrobot/greendao/l/l;
 
     const-string v1, " OR "
@@ -143,7 +133,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/h;->f:Lorg/greenrobot/greendao/l/l;
 
     invoke-virtual {v0, p1, p2}, Lorg/greenrobot/greendao/l/l;->a(Lorg/greenrobot/greendao/l/m;[Lorg/greenrobot/greendao/l/m;)V
@@ -166,7 +155,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/h;->f:Lorg/greenrobot/greendao/l/l;
 
     invoke-virtual {p0, p1, p2, p3}, Lorg/greenrobot/greendao/l/h;->c(Lorg/greenrobot/greendao/l/m;Lorg/greenrobot/greendao/l/m;[Lorg/greenrobot/greendao/l/m;)Lorg/greenrobot/greendao/l/m;

@@ -67,7 +67,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1;->$channels:[Lcotlinx/coroutines/channels/y;
 
     array-length v1, v0
@@ -81,7 +80,6 @@
 
     aget-object v4, v0, v3
 
-    .line 2
     :try_start_0
     invoke-static {v4, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
     :try_end_0
@@ -98,7 +96,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-static {v2, v4}, Lcotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
@@ -112,7 +109,6 @@
 
     return-void
 
-    .line 4
     :cond_2
     throw v2
 .end method

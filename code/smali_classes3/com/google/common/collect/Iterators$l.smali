@@ -52,7 +52,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Iterators$l;
 
     const/4 v1, 0x0
@@ -74,13 +73,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p3, p4}, Lcom/google/common/collect/a;-><init>(II)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/Iterators$l;->c:[Ljava/lang/Object;
 
-    .line 3
     iput p2, p0, Lcom/google/common/collect/Iterators$l;->d:I
 
     return-void
@@ -96,7 +92,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Iterators$l;->c:[Ljava/lang/Object;
 
     iget v1, p0, Lcom/google/common/collect/Iterators$l;->d:I

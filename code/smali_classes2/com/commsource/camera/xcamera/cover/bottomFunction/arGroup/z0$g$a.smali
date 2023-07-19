@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g$a;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-interface {p0, v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$h;->a(ZLjava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -56,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g$a;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g;
@@ -65,7 +62,6 @@
 
     invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g$a;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g;
@@ -74,17 +70,14 @@
 
     invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g$a;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g;
 
     iget-object v2, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$h;
 
     if-eqz v2, :cond_0
 
-    .line 5
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g;->c:Ljava/lang/String;
 
     new-instance v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b0;
@@ -93,7 +86,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

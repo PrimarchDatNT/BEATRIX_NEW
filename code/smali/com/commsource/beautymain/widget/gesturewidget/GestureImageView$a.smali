@@ -34,7 +34,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;->values()[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
     move-result-object v1
@@ -74,7 +73,6 @@
     :try_end_1
     .catch Ljava/lang/NoSuchFieldError; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 2
     :catch_1
     invoke-static {}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->values()[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
@@ -127,7 +125,6 @@
     :try_end_4
     .catch Ljava/lang/NoSuchFieldError; {:try_start_4 .. :try_end_4} :catch_4
 
-    .line 3
     :catch_4
     invoke-static {}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;->values()[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
@@ -226,7 +223,6 @@
     :try_end_a
     .catch Ljava/lang/NoSuchFieldError; {:try_start_a .. :try_end_a} :catch_a
 
-    .line 4
     :catch_a
     invoke-static {}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;->values()[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
@@ -319,7 +315,6 @@
     :try_end_10
     .catch Ljava/lang/NoSuchFieldError; {:try_start_10 .. :try_end_10} :catch_10
 
-    .line 5
     :catch_10
     invoke-static {}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->values()[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 

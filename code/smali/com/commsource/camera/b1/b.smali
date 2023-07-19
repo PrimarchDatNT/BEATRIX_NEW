@@ -17,10 +17,8 @@
 .method public constructor <init>(F)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/view/ViewOutlineProvider;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
@@ -41,15 +39,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
-    .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
 
-    .line 3
     new-instance p1, Landroid/graphics/Rect;
 
     iget v2, v1, Landroid/graphics/Rect;->right:I
@@ -72,12 +67,10 @@
 
     invoke-direct {p1, v3, v3, v2, v4}, Landroid/graphics/Rect;-><init>(IIII)V
 
-    .line 4
     iget v1, p0, Lcom/commsource/camera/b1/b;->a:F
 
     invoke-virtual {p2, p1, v1}, Landroid/graphics/Outline;->setRoundRect(Landroid/graphics/Rect;F)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

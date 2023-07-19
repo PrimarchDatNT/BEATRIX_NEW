@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/camera/widget/BreathTextView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/widget/BreathTextView$b;->a:Lcom/commsource/camera/widget/BreathTextView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -55,14 +53,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/widget/BreathTextView$b;->a:Lcom/commsource/camera/widget/BreathTextView;
 
     const/16 v1, 0x8
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -75,7 +71,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,7 +83,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

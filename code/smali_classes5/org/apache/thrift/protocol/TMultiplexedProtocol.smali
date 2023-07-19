@@ -15,10 +15,8 @@
 .method public constructor <init>(Lorg/apache/thrift/protocol/TProtocol;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TProtocolDecorator;-><init>(Lorg/apache/thrift/protocol/TProtocol;)V
 
-    .line 2
     iput-object p2, p0, Lorg/apache/thrift/protocol/TMultiplexedProtocol;->SERVICE_NAME:Ljava/lang/String;
 
     return-void
@@ -34,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iget-byte v0, p1, Lorg/apache/thrift/protocol/TMessage;->type:B
 
     const/4 v1, 0x1
@@ -47,13 +44,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-super {p0, p1}, Lorg/apache/thrift/protocol/TProtocolDecorator;->writeMessageBegin(Lorg/apache/thrift/protocol/TMessage;)V
 
     goto :goto_1
 
-    .line 3
     :cond_1
     :goto_0
     new-instance v0, Lorg/apache/thrift/protocol/TMessage;

@@ -39,10 +39,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/greenrobot/greendao/m/a;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/greenrobot/greendao/m/c;->b:Lorg/greenrobot/greendao/l/j;
 
     return-void
@@ -60,10 +58,8 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0, p2}, Lorg/greenrobot/greendao/m/a;-><init>(Lrx/Scheduler;)V
 
-    .line 4
     iput-object p1, p0, Lorg/greenrobot/greendao/m/c;->b:Lorg/greenrobot/greendao/l/j;
 
     return-void
@@ -72,7 +68,6 @@
 .method static synthetic d(Lorg/greenrobot/greendao/m/c;)Lorg/greenrobot/greendao/l/j;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lorg/greenrobot/greendao/m/c;->b:Lorg/greenrobot/greendao/l/j;
 
     return-object p0
@@ -85,7 +80,6 @@
     .annotation build Lorg/greenrobot/greendao/i/p/b;
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lorg/greenrobot/greendao/m/a;->a()Lrx/Scheduler;
 
     move-result-object v0
@@ -107,7 +101,6 @@
     .annotation build Lorg/greenrobot/greendao/i/p/b;
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/m/c$a;
 
     invoke-direct {v0, p0}, Lorg/greenrobot/greendao/m/c$a;-><init>(Lorg/greenrobot/greendao/m/c;)V
@@ -129,7 +122,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/m/c$c;
 
     invoke-direct {v0, p0}, Lorg/greenrobot/greendao/m/c$c;-><init>(Lorg/greenrobot/greendao/m/c;)V
@@ -138,7 +130,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lorg/greenrobot/greendao/m/a;->c(Lrx/Observable;)Lrx/Observable;
 
     move-result-object v0
@@ -159,7 +150,6 @@
     .annotation build Lorg/greenrobot/greendao/i/p/b;
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/m/c$b;
 
     invoke-direct {v0, p0}, Lorg/greenrobot/greendao/m/c$b;-><init>(Lorg/greenrobot/greendao/m/c;)V

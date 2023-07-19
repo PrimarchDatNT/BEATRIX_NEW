@@ -23,7 +23,6 @@
 
     const-string v5, "hd"
 
-    .line 1
     filled-new-array/range {v0 .. v5}, [Ljava/lang/String;
 
     move-result-object v0
@@ -40,7 +39,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -70,7 +68,6 @@
 
     const/4 v8, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -78,7 +75,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 2
     sget-object v1, Lcom/airbnb/lottie/y/j0;->a:Lcom/airbnb/lottie/parser/moshi/JsonReader$a;
 
     invoke-virtual {p0, v1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->o(Lcom/airbnb/lottie/parser/moshi/JsonReader$a;)I
@@ -107,12 +103,10 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->g()Z
 
@@ -120,7 +114,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->i()I
 
@@ -132,7 +125,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->k()Ljava/lang/String;
 
@@ -140,7 +132,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     invoke-static {p0, p1, v0}, Lcom/airbnb/lottie/y/d;->f(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;Z)Lcom/airbnb/lottie/model/i/b;
 
@@ -148,7 +139,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_4
     invoke-static {p0, p1, v0}, Lcom/airbnb/lottie/y/d;->f(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;Z)Lcom/airbnb/lottie/model/i/b;
 
@@ -156,7 +146,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_5
     invoke-static {p0, p1, v0}, Lcom/airbnb/lottie/y/d;->f(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;Z)Lcom/airbnb/lottie/model/i/b;
 
@@ -164,7 +153,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_6
     new-instance p0, Lcom/airbnb/lottie/model/content/ShapeTrimPath;
 

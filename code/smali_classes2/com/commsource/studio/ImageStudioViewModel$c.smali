@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$c;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->g0()Lcom/commsource/studio/StudioCanvasContainer;
@@ -59,12 +58,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$c;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -78,7 +75,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/GestureLayer;->R0()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

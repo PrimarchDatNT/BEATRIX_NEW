@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/player/b$e$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/player/b$e$b$a;->a:Lcom/sdk/imp/player/b$e$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/b$e$b$a;->a:Lcom/sdk/imp/player/b$e$b;
 
     iget-object v0, v0, Lcom/sdk/imp/player/b$e$b;->a:Lcom/sdk/imp/player/b$e;

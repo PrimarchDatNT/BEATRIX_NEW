@@ -30,7 +30,6 @@
         message = "Binary compatibility for Ktor 1.0-beta"
     .end annotation
 
-    .line 10
     sget-wide v3, Lcotlinx/coroutines/scheduling/k;->f:J
 
     const/4 v5, 0x0
@@ -57,7 +56,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 8
     sget p1, Lcotlinx/coroutines/scheduling/k;->d:I
 
     :cond_0
@@ -65,7 +63,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 9
     sget p2, Lcotlinx/coroutines/scheduling/k;->e:I
 
     :cond_1
@@ -81,7 +78,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;-><init>()V
 
     iput p1, p0, Lcotlinx/coroutines/scheduling/c;->d:I
@@ -92,7 +88,6 @@
 
     iput-object p5, p0, Lcotlinx/coroutines/scheduling/c;->p:Ljava/lang/String;
 
-    .line 3
     invoke-direct {p0}, Lcotlinx/coroutines/scheduling/c;->G()Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
     move-result-object p1
@@ -122,7 +117,6 @@
 
     move-wide v3, p3
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcotlinx/coroutines/scheduling/c;-><init>(IIJLjava/lang/String;)V
 
     return-void
@@ -135,7 +129,6 @@
         .end annotation
     .end param
 
-    .line 7
     sget-wide v3, Lcotlinx/coroutines/scheduling/k;->f:J
 
     move-object v0, p0
@@ -158,7 +151,6 @@
 
     if-eqz p5, :cond_0
 
-    .line 4
     sget p1, Lcotlinx/coroutines/scheduling/k;->d:I
 
     :cond_0
@@ -166,7 +158,6 @@
 
     if-eqz p5, :cond_1
 
-    .line 5
     sget p2, Lcotlinx/coroutines/scheduling/k;->e:I
 
     :cond_1
@@ -176,7 +167,6 @@
 
     const-string p3, "DefaultDispatcher"
 
-    .line 6
     :cond_2
     invoke-direct {p0, p1, p2, p3}, Lcotlinx/coroutines/scheduling/c;-><init>(IILjava/lang/String;)V
 
@@ -192,7 +182,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     sget p1, Lcotlinx/coroutines/scheduling/k;->c:I
 
     :cond_0
@@ -202,7 +191,6 @@
 
     return-object p0
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -216,7 +204,6 @@
 .method private final G()Lcotlinx/coroutines/scheduling/CoroutineScheduler;
     .locals 7
 
-    .line 1
     new-instance v6, Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
     iget v1, p0, Lcotlinx/coroutines/scheduling/c;->d:I
@@ -241,7 +228,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/c;->c:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
     return-object v0
@@ -266,14 +252,12 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 1
     new-instance v1, Lcotlinx/coroutines/scheduling/e;
 
     invoke-direct {v1, p0, p1, v0}, Lcotlinx/coroutines/scheduling/e;-><init>(Lcotlinx/coroutines/scheduling/c;II)V
 
     return-object v1
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -311,7 +295,6 @@
         .end annotation
     .end param
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/c;->c:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
@@ -321,7 +304,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     sget-object p3, Lcotlinx/coroutines/r0;->P:Lcotlinx/coroutines/r0;
 
@@ -358,7 +340,6 @@
     :goto_0
     if-eqz v2, :cond_3
 
-    .line 1
     iget v2, p0, Lcotlinx/coroutines/scheduling/c;->d:I
 
     if-gt p1, v2, :cond_1
@@ -371,14 +352,12 @@
     :goto_1
     if-eqz v0, :cond_2
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/scheduling/e;
 
     invoke-direct {v0, p0, p1, v1}, Lcotlinx/coroutines/scheduling/e;-><init>(Lcotlinx/coroutines/scheduling/c;II)V
 
     return-object v0
 
-    .line 3
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -412,7 +391,6 @@
 
     throw v0
 
-    .line 4
     :cond_3
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -442,7 +420,6 @@
 .method public final L()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/scheduling/c;->N()V
 
     return-void
@@ -453,7 +430,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/c;->c:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
@@ -461,7 +437,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -479,7 +454,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/c;->c:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
@@ -487,7 +461,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->C(J)V
 
-    .line 2
     invoke-direct {p0}, Lcotlinx/coroutines/scheduling/c;->G()Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
     move-result-object v0
@@ -496,7 +469,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -512,7 +484,6 @@
 .method public close()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/c;->c:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
     invoke-virtual {v0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->close()V
@@ -525,7 +496,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -566,7 +536,6 @@
         .end annotation
     .end param
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/c;->c:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
@@ -586,7 +555,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     sget-object v0, Lcotlinx/coroutines/r0;->P:Lcotlinx/coroutines/r0;
 
@@ -607,7 +575,6 @@
         .end annotation
     .end param
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/c;->c:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
@@ -627,7 +594,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     sget-object v0, Lcotlinx/coroutines/r0;->P:Lcotlinx/coroutines/r0;
 

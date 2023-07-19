@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/AutoCameraActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$l;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +43,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/autocamera/AutoCameraActivity$l;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-static {p2}, Lcom/commsource/autocamera/AutoCameraActivity;->Z0(Lcom/commsource/autocamera/AutoCameraActivity;)Lcom/commsource/autocamera/i0;
@@ -65,7 +63,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/autocamera/AutoCameraActivity$l;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-static {p2}, Lcom/commsource/autocamera/AutoCameraActivity;->b1(Lcom/commsource/autocamera/AutoCameraActivity;)Ljava/lang/Runnable;
@@ -76,14 +73,12 @@
 
     invoke-static {p2, v0, v1}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/autocamera/AutoCameraActivity$l;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     const/4 v0, 0x0
 
     invoke-static {p2, v0}, Lcom/commsource/autocamera/AutoCameraActivity;->h1(Lcom/commsource/autocamera/AutoCameraActivity;Z)V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -97,7 +92,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

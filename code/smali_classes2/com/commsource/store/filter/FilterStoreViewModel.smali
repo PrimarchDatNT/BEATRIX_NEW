@@ -68,15 +68,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/commsource/store/filter/FilterStoreViewModel;->a:I
 
-    .line 3
     sget-object p1, Lcom/commsource/store/filter/FilterStoreViewModel$tagDataEvent$2;->INSTANCE:Lcom/commsource/store/filter/FilterStoreViewModel$tagDataEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -85,7 +82,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/filter/FilterStoreViewModel;->b:Lcotlin/w;
 
-    .line 4
     sget-object p1, Lcom/commsource/store/filter/FilterStoreViewModel$uiReplyEvent$2;->INSTANCE:Lcom/commsource/store/filter/FilterStoreViewModel$uiReplyEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -94,7 +90,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/filter/FilterStoreViewModel;->c:Lcotlin/w;
 
-    .line 5
     sget-object p1, Lcom/commsource/store/filter/FilterStoreViewModel$toSubscribeEvent$2;->INSTANCE:Lcom/commsource/store/filter/FilterStoreViewModel$toSubscribeEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -103,7 +98,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/filter/FilterStoreViewModel;->d:Lcotlin/w;
 
-    .line 6
     sget-object p1, Lcom/commsource/store/filter/FilterStoreViewModel$subscribeResultEvent$2;->INSTANCE:Lcom/commsource/store/filter/FilterStoreViewModel$subscribeResultEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -112,7 +106,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/filter/FilterStoreViewModel;->e:Lcotlin/w;
 
-    .line 7
     sget-object p1, Lcom/commsource/store/filter/FilterStoreViewModel$shopDetailEvent$2;->INSTANCE:Lcom/commsource/store/filter/FilterStoreViewModel$shopDetailEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -121,7 +114,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/filter/FilterStoreViewModel;->f:Lcotlin/w;
 
-    .line 8
     sget-object p1, Lcom/commsource/store/filter/FilterStoreViewModel$dataChangeEvent$2;->INSTANCE:Lcom/commsource/store/filter/FilterStoreViewModel$dataChangeEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -130,7 +122,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/filter/FilterStoreViewModel;->g:Lcotlin/w;
 
-    .line 9
     sget-object p1, Lcom/commsource/store/filter/FilterStoreViewModel$closeEvent$2;->INSTANCE:Lcom/commsource/store/filter/FilterStoreViewModel$closeEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -151,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/store/filter/FilterStoreViewModel;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -322,7 +312,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     sget-object v2, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
@@ -337,7 +326,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -346,7 +334,6 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     :goto_0
     invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
@@ -355,7 +342,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
@@ -366,7 +352,6 @@
 
     check-cast v3, Lcom/commsource/beautyfilter/a;
 
-    .line 5
     invoke-virtual {v3}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result v4
@@ -407,16 +392,13 @@
 
     if-gtz v3, :cond_0
 
-    .line 6
     invoke-interface {v2}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iput-object v1, p0, Lcom/commsource/store/filter/FilterStoreViewModel;->i:Ljava/util/ArrayList;
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/store/filter/FilterStoreViewModel;->D()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -425,7 +407,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -450,7 +431,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -463,7 +443,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/store/filter/FilterStoreViewModel;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

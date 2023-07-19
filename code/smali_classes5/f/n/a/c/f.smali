@@ -42,32 +42,24 @@
 .method constructor <init>(Lcom/qiniu/android/http/a;Lf/n/a/c/a;Ljava/io/File;Ljava/lang/String;Lf/n/a/c/j;Lf/n/a/c/h;Lf/n/a/c/l;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/n/a/c/f;->f:Lcom/qiniu/android/http/a;
 
-    .line 3
     iput-object p2, p0, Lf/n/a/c/f;->g:Lf/n/a/c/a;
 
-    .line 4
     iput-object p3, p0, Lf/n/a/c/f;->O:Ljava/io/File;
 
-    .line 5
     iput-object p8, p0, Lf/n/a/c/f;->M:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {p3}, Ljava/io/File;->length()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lf/n/a/c/f;->a:J
 
-    .line 7
     iput-object p4, p0, Lf/n/a/c/f;->b:Ljava/lang/String;
 
-    .line 8
     new-instance p1, Lf/n/a/d/i;
 
     invoke-direct {p1}, Lf/n/a/d/i;-><init>()V
@@ -98,10 +90,8 @@
 
     const/4 p1, 0x0
 
-    .line 9
     iput-object p1, p0, Lf/n/a/c/f;->N:Ljava/io/RandomAccessFile;
 
-    .line 10
     new-instance p1, Lf/n/a/c/f$a;
 
     invoke-direct {p1, p0, p6}, Lf/n/a/c/f$a;-><init>(Lf/n/a/c/f;Lf/n/a/c/h;)V
@@ -112,7 +102,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     invoke-static {}, Lf/n/a/c/l;->a()Lf/n/a/c/l;
 
@@ -121,7 +110,6 @@
     :goto_0
     iput-object p7, p0, Lf/n/a/c/f;->d:Lf/n/a/c/l;
 
-    .line 12
     iget p1, p2, Lf/n/a/c/a;->d:I
 
     new-array p1, p1, [B
@@ -136,24 +124,20 @@
 
     sub-long/2addr v0, p6
 
-    .line 13
     div-long/2addr v0, p1
 
     long-to-int p1, v0
 
-    .line 14
     new-array p1, p1, [Ljava/lang/String;
 
     iput-object p1, p0, Lf/n/a/c/f;->J:[Ljava/lang/String;
 
-    .line 15
     invoke-virtual {p3}, Ljava/io/File;->lastModified()J
 
     move-result-wide p1
 
     iput-wide p1, p0, Lf/n/a/c/f;->L:J
 
-    .line 16
     iput-object p5, p0, Lf/n/a/c/f;->Q:Lf/n/a/c/j;
 
     return-void
@@ -170,12 +154,10 @@
 
     const-wide/32 v2, 0x400000
 
-    .line 1
     rem-long v2, v0, v2
 
     long-to-int v3, v2
 
-    .line 2
     sget-object v2, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
     const/4 v4, 0x2
@@ -200,13 +182,11 @@
 
     move-result-object v2
 
-    .line 3
     :try_start_0
     iget-object v3, v9, Lf/n/a/c/f;->N:Ljava/io/RandomAccessFile;
 
     invoke-virtual {v3, p2, p3}, Ljava/io/RandomAccessFile;->seek(J)V
 
-    .line 4
     iget-object v0, v9, Lf/n/a/c/f;->N:Ljava/io/RandomAccessFile;
 
     iget-object v1, v9, Lf/n/a/c/f;->p:[B
@@ -215,7 +195,6 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     iget-object v0, v9, Lf/n/a/c/f;->p:[B
 
     invoke-static {v0, v6, p4}, Lf/n/a/d/f;->b([BII)J
@@ -226,12 +205,10 @@
 
     move-object v0, p1
 
-    .line 6
     invoke-direct {p0, p1, v2}, Lf/n/a/c/f;->x(Ljava/net/URI;Ljava/lang/String;)Ljava/net/URI;
 
     move-result-object v2
 
-    .line 7
     iget-object v3, v9, Lf/n/a/c/f;->p:[B
 
     const/4 v4, 0x0
@@ -253,7 +230,6 @@
     :catch_0
     move-exception v0
 
-    .line 8
     iget-object v1, v9, Lf/n/a/c/f;->c:Lf/n/a/c/h;
 
     iget-object v2, v9, Lf/n/a/c/f;->b:Ljava/lang/String;
@@ -274,7 +250,6 @@
 .method private B(J)V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lf/n/a/c/f;->g:Lf/n/a/c/a;
 
     iget-object v0, v0, Lf/n/a/c/a;->a:Lf/n/a/c/e;
@@ -289,7 +264,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object v0, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
@@ -301,7 +275,6 @@
 
     iget-wide v3, p0, Lf/n/a/c/f;->a:J
 
-    .line 3
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v3
@@ -338,12 +311,10 @@
 
     const-string p1, "{\"size\":%d,\"offset\":%d, \"modify_time\":%d, \"contexts\":[%s]}"
 
-    .line 4
     invoke-static {v0, p1, v1}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 5
     iget-object p2, p0, Lf/n/a/c/f;->g:Lf/n/a/c/a;
 
     iget-object p2, p2, Lf/n/a/c/a;->a:Lf/n/a/c/e;
@@ -364,7 +335,6 @@
 .method private C()J
     .locals 12
 
-    .line 1
     iget-object v0, p0, Lf/n/a/c/f;->g:Lf/n/a/c/a;
 
     iget-object v0, v0, Lf/n/a/c/a;->a:Lf/n/a/c/e;
@@ -375,7 +345,6 @@
 
     return-wide v1
 
-    .line 2
     :cond_0
     iget-object v3, p0, Lf/n/a/c/f;->M:Ljava/lang/String;
 
@@ -387,13 +356,11 @@
 
     return-wide v1
 
-    .line 3
     :cond_1
     new-instance v3, Ljava/lang/String;
 
     invoke-direct {v3, v0}, Ljava/lang/String;-><init>([B)V
 
-    .line 4
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
@@ -403,28 +370,24 @@
 
     const-string v3, "offset"
 
-    .line 5
     invoke-virtual {v0, v3, v1, v2}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v3
 
     const-string v5, "modify_time"
 
-    .line 6
     invoke-virtual {v0, v5, v1, v2}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v5
 
     const-string v7, "size"
 
-    .line 7
     invoke-virtual {v0, v7, v1, v2}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v7
 
     const-string v9, "contexts"
 
-    .line 8
     invoke-virtual {v0, v9}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object v0
@@ -433,7 +396,6 @@
 
     if-eqz v9, :cond_4
 
-    .line 9
     iget-wide v9, p0, Lf/n/a/c/f;->L:J
 
     cmp-long v11, v5, v9
@@ -459,7 +421,6 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 10
     :goto_0
     invoke-virtual {v0}, Lorg/json/JSONArray;->length()I
 
@@ -467,7 +428,6 @@
 
     if-ge v1, v2, :cond_3
 
-    .line 11
     iget-object v2, p0, Lf/n/a/c/f;->J:[Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lorg/json/JSONArray;->optString(I)Ljava/lang/String;
@@ -490,7 +450,6 @@
     :catch_0
     move-exception v0
 
-    .line 12
     invoke-virtual {v0}, Lorg/json/JSONException;->printStackTrace()V
 
     return-wide v1
@@ -499,14 +458,12 @@
 .method private D()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/n/a/c/f;->g:Lf/n/a/c/a;
 
     iget-object v0, v0, Lf/n/a/c/a;->a:Lf/n/a/c/e;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/n/a/c/f;->M:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Lf/n/a/c/e;->a(Ljava/lang/String;)V
@@ -518,7 +475,6 @@
 .method static synthetic a(Lf/n/a/c/f;)Ljava/io/RandomAccessFile;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/n/a/c/f;->N:Ljava/io/RandomAccessFile;
 
     return-object p0
@@ -527,7 +483,6 @@
 .method static synthetic b(Lf/n/a/c/f;)Lf/n/a/c/l;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/n/a/c/f;->d:Lf/n/a/c/l;
 
     return-object p0
@@ -536,7 +491,6 @@
 .method static synthetic c(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lf/n/a/c/f;->u(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)Z
 
     move-result p0
@@ -547,7 +501,6 @@
 .method static synthetic d(Lf/n/a/c/f;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lf/n/a/c/f;->P:J
 
     return-wide v0
@@ -556,7 +509,6 @@
 .method static synthetic e(Lf/n/a/c/f;)[Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/n/a/c/f;->J:[Ljava/lang/String;
 
     return-object p0
@@ -565,7 +517,6 @@
 .method static synthetic g(Lf/n/a/c/f;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lf/n/a/c/f;->B(J)V
 
     return-void
@@ -574,7 +525,6 @@
 .method static synthetic h(Lf/n/a/c/f;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/n/a/c/f;->b:Ljava/lang/String;
 
     return-object p0
@@ -583,7 +533,6 @@
 .method static synthetic i(Lf/n/a/c/f;)Lf/n/a/c/h;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/n/a/c/f;->c:Lf/n/a/c/h;
 
     return-object p0
@@ -592,7 +541,6 @@
 .method static synthetic j(Lf/n/a/c/f;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/n/a/c/f;->D()V
 
     return-void
@@ -601,7 +549,6 @@
 .method static synthetic k(Lf/n/a/c/f;)Lf/n/a/c/j;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/n/a/c/f;->Q:Lf/n/a/c/j;
 
     return-object p0
@@ -610,7 +557,6 @@
 .method static synthetic l(Lf/n/a/c/f;)Lf/n/a/c/a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/n/a/c/f;->g:Lf/n/a/c/a;
 
     return-object p0
@@ -619,7 +565,6 @@
 .method static synthetic m(Lf/n/a/c/f;JILjava/net/URI;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lf/n/a/c/f;->y(JILjava/net/URI;)V
 
     return-void
@@ -628,7 +573,6 @@
 .method static synthetic n(Lf/n/a/c/f;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lf/n/a/c/f;->a:J
 
     return-wide v0
@@ -637,7 +581,6 @@
 .method static synthetic o(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lf/n/a/c/f;->s(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)Z
 
     move-result p0
@@ -648,7 +591,6 @@
 .method private p(J)J
     .locals 3
 
-    .line 1
     iget-wide v0, p0, Lf/n/a/c/f;->a:J
 
     sub-long/2addr v0, p1
@@ -671,12 +613,10 @@
 .method private q(J)J
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lf/n/a/c/f;->a:J
 
     sub-long/2addr v0, p1
 
-    .line 2
     iget-object p1, p0, Lf/n/a/c/f;->g:Lf/n/a/c/a;
 
     iget p1, p1, Lf/n/a/c/a;->d:I
@@ -699,7 +639,6 @@
 .method private r()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lf/n/a/c/f;->d:Lf/n/a/c/l;
 
     iget-object v0, v0, Lf/n/a/c/l;->e:Lf/n/a/c/g;
@@ -714,7 +653,6 @@
 .method private static s(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/qiniu/android/http/g;->a:I
 
     const/16 v1, 0xc8
@@ -755,12 +693,10 @@
     :try_start_0
     const-string v0, "ctx"
 
-    .line 1
     invoke-virtual {p0, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     const-string v0, "crc32"
 
-    .line 2
     invoke-virtual {p0, v0}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -778,7 +714,6 @@
 .method private static u(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/qiniu/android/http/g;->a:I
 
     const/16 v1, 0x1f4
@@ -819,7 +754,6 @@
 
     move v0, p5
 
-    .line 1
     sget-object v1, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
     const/4 v2, 0x1
@@ -840,7 +774,6 @@
 
     move-result-object v1
 
-    .line 2
     :try_start_0
     iget-object v2, v9, Lf/n/a/c/f;->N:Ljava/io/RandomAccessFile;
 
@@ -848,7 +781,6 @@
 
     invoke-virtual {v2, p2, p3}, Ljava/io/RandomAccessFile;->seek(J)V
 
-    .line 3
     iget-object v2, v9, Lf/n/a/c/f;->N:Ljava/io/RandomAccessFile;
 
     iget-object v3, v9, Lf/n/a/c/f;->p:[B
@@ -857,7 +789,6 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     iget-object v2, v9, Lf/n/a/c/f;->p:[B
 
     invoke-static {v2, v4, p5}, Lf/n/a/d/f;->b([BII)J
@@ -868,12 +799,10 @@
 
     move-object v2, p1
 
-    .line 5
     invoke-direct {p0, p1, v1}, Lf/n/a/c/f;->x(Ljava/net/URI;Ljava/lang/String;)Ljava/net/URI;
 
     move-result-object v2
 
-    .line 6
     iget-object v3, v9, Lf/n/a/c/f;->p:[B
 
     const/4 v4, 0x0
@@ -895,7 +824,6 @@
     :catch_0
     move-exception v0
 
-    .line 7
     iget-object v1, v9, Lf/n/a/c/f;->c:Lf/n/a/c/h;
 
     iget-object v2, v9, Lf/n/a/c/f;->b:Ljava/lang/String;
@@ -918,7 +846,6 @@
 
     move-object v9, p0
 
-    .line 1
     sget-object v0, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
     const/4 v1, 0x2
@@ -929,7 +856,6 @@
 
     iget-object v3, v3, Lf/n/a/c/l;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v3}, Lf/n/a/d/k;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -954,12 +880,10 @@
 
     const-string v3, "/mimeType/%s/fname/%s"
 
-    .line 3
     invoke-static {v0, v3, v2}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     iget-object v2, v9, Lf/n/a/c/f;->b:Ljava/lang/String;
 
     const-string v3, ""
@@ -968,7 +892,6 @@
 
     new-array v6, v5, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {v2}, Lf/n/a/d/k;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -986,7 +909,6 @@
     :cond_0
     move-object v2, v3
 
-    .line 6
     :goto_0
     iget-object v6, v9, Lf/n/a/c/f;->d:Lf/n/a/c/l;
 
@@ -998,7 +920,6 @@
 
     if-eqz v6, :cond_2
 
-    .line 7
     iget-object v3, v9, Lf/n/a/c/f;->d:Lf/n/a/c/l;
 
     iget-object v3, v3, Lf/n/a/c/l;->a:Ljava/util/Map;
@@ -1009,7 +930,6 @@
 
     new-array v3, v3, [Ljava/lang/String;
 
-    .line 8
     iget-object v6, v9, Lf/n/a/c/f;->d:Lf/n/a/c/l;
 
     iget-object v6, v6, Lf/n/a/c/l;->a:Ljava/util/Map;
@@ -1039,7 +959,6 @@
 
     add-int/lit8 v10, v7, 0x1
 
-    .line 9
     sget-object v11, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
     new-array v12, v1, [Ljava/lang/Object;
@@ -1074,7 +993,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_1
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -1094,7 +1012,6 @@
 
     move-result-object v3
 
-    .line 11
     :cond_2
     sget-object v6, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
@@ -1124,7 +1041,6 @@
 
     move-result-object v0
 
-    .line 12
     :try_start_0
     new-instance v1, Ljava/net/URI;
 
@@ -1149,12 +1065,10 @@
     :catch_0
     move-exception v0
 
-    .line 13
     invoke-virtual {v0}, Ljava/net/URISyntaxException;->printStackTrace()V
 
     move-object v2, p1
 
-    .line 14
     :goto_2
     iget-object v0, v9, Lf/n/a/c/f;->J:[Ljava/lang/String;
 
@@ -1164,14 +1078,12 @@
 
     move-result-object v0
 
-    .line 15
     invoke-virtual {v0}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v3
 
     const/4 v4, 0x0
 
-    .line 16
     array-length v5, v3
 
     const/4 v6, 0x0
@@ -1190,7 +1102,6 @@
 .method private x(Ljava/net/URI;Ljava/lang/String;)Ljava/net/URI;
     .locals 9
 
-    .line 1
     :try_start_0
     new-instance v8, Ljava/net/URI;
 
@@ -1225,7 +1136,6 @@
     :catch_0
     move-exception p2
 
-    .line 2
     invoke-virtual {p2}, Ljava/net/URISyntaxException;->printStackTrace()V
 
     return-object p1
@@ -1234,21 +1144,18 @@
 .method private y(JILjava/net/URI;)V
     .locals 11
 
-    .line 1
     invoke-direct {p0}, Lf/n/a/c/f;->r()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lf/n/a/c/f;->Q:Lf/n/a/c/j;
 
     invoke-static {p1}, Lcom/qiniu/android/http/g;->a(Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object p1
 
-    .line 3
     iget-object p2, p0, Lf/n/a/c/f;->c:Lf/n/a/c/h;
 
     iget-object p3, p0, Lf/n/a/c/f;->b:Ljava/lang/String;
@@ -1259,7 +1166,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-wide v0, p0, Lf/n/a/c/f;->a:J
 
@@ -1267,12 +1173,10 @@
 
     if-nez v2, :cond_1
 
-    .line 5
     new-instance v0, Lf/n/a/c/f$b;
 
     invoke-direct {v0, p0, p3, p1, p2}, Lf/n/a/c/f$b;-><init>(Lf/n/a/c/f;IJ)V
 
-    .line 6
     iget-object p1, p0, Lf/n/a/c/f;->d:Lf/n/a/c/l;
 
     iget-object p1, p1, Lf/n/a/c/l;->e:Lf/n/a/c/g;
@@ -1281,7 +1185,6 @@
 
     return-void
 
-    .line 7
     :cond_1
     invoke-direct {p0, p1, p2}, Lf/n/a/c/f;->q(J)J
 
@@ -1289,12 +1192,10 @@
 
     long-to-int v1, v0
 
-    .line 8
     new-instance v0, Lf/n/a/c/f$c;
 
     invoke-direct {v0, p0, p1, p2}, Lf/n/a/c/f$c;-><init>(Lf/n/a/c/f;J)V
 
-    .line 9
     new-instance v9, Lf/n/a/c/f$d;
 
     move-object v2, v9
@@ -1313,7 +1214,6 @@
 
     const-wide/32 v2, 0x400000
 
-    .line 10
     rem-long v4, p1, v2
 
     const-wide/16 v6, 0x0
@@ -1322,14 +1222,12 @@
 
     if-nez p3, :cond_2
 
-    .line 11
     invoke-direct {p0, p1, p2}, Lf/n/a/c/f;->p(J)J
 
     move-result-wide v2
 
     long-to-int v6, v2
 
-    .line 12
     iget-object p3, p0, Lf/n/a/c/f;->d:Lf/n/a/c/l;
 
     iget-object v10, p3, Lf/n/a/c/l;->e:Lf/n/a/c/g;
@@ -1348,7 +1246,6 @@
 
     return-void
 
-    .line 13
     :cond_2
     iget-object p3, p0, Lf/n/a/c/f;->J:[Ljava/lang/String;
 
@@ -1358,7 +1255,6 @@
 
     aget-object v7, p3, v3
 
-    .line 14
     iget-object p3, p0, Lf/n/a/c/f;->d:Lf/n/a/c/l;
 
     iget-object v10, p3, Lf/n/a/c/l;->e:Lf/n/a/c/g;
@@ -1383,7 +1279,6 @@
 
     move-object v0, p0
 
-    .line 1
     iget-object v1, v0, Lf/n/a/c/f;->f:Lcom/qiniu/android/http/a;
 
     invoke-virtual {p1}, Ljava/net/URI;->toString()Ljava/lang/String;
@@ -1416,12 +1311,10 @@
 .method public run()V
     .locals 5
 
-    .line 1
     invoke-direct {p0}, Lf/n/a/c/f;->C()J
 
     move-result-wide v0
 
-    .line 2
     :try_start_0
     new-instance v2, Ljava/io/RandomAccessFile;
 
@@ -1437,7 +1330,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     iget-object v3, p0, Lf/n/a/c/f;->g:Lf/n/a/c/a;
 
     iget-object v3, v3, Lf/n/a/c/a;->k:Lf/n/a/b/e;
@@ -1459,10 +1351,8 @@
     :catch_0
     move-exception v0
 
-    .line 4
     invoke-virtual {v0}, Ljava/io/FileNotFoundException;->printStackTrace()V
 
-    .line 5
     iget-object v1, p0, Lf/n/a/c/f;->c:Lf/n/a/c/h;
 
     iget-object v2, p0, Lf/n/a/c/f;->b:Ljava/lang/String;

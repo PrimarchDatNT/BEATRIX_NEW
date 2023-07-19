@@ -19,7 +19,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -30,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,17 +41,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "ALog"
 
-    .line 2
     invoke-static {v1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -67,17 +62,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "ALog"
 
-    .line 2
     invoke-static {v1, p0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -91,17 +83,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "ALog"
 
-    .line 2
     invoke-static {v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -115,17 +104,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "ALog"
 
-    .line 2
     invoke-static {v1, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -139,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     if-eqz v1, :cond_0
@@ -148,10 +133,8 @@
 
     const-string v2, "ALog"
 
-    .line 2
     invoke-static {v2, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -165,17 +148,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "ALog"
 
-    .line 2
     invoke-static {v1, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -189,17 +169,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "ALog"
 
-    .line 2
     invoke-static {v1, p0, p1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -213,7 +190,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -230,10 +206,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -246,10 +220,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -262,17 +234,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "ALog"
 
-    .line 2
     invoke-static {v1, p0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -286,17 +255,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "ALog"
 
-    .line 2
     invoke-static {v1, p0, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -310,17 +276,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "ALog"
 
-    .line 2
     invoke-static {v1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -334,17 +297,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "ALog"
 
-    .line 2
     invoke-static {v1, p0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -358,17 +318,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/optimus/apm/x/a;->b:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "ALog"
 
-    .line 2
     invoke-static {v1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

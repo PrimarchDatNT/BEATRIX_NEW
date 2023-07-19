@@ -27,12 +27,10 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "registry"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -43,7 +41,6 @@
 
     const-string p1, "defaultPolicy"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -58,7 +55,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lio/grpc/v0;->c()Lio/grpc/v0;
 
     move-result-object v0
@@ -71,7 +67,6 @@
 .method static synthetic a(Lio/grpc/internal/AutoConfiguredLoadBalancerFactory;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory;->b:Ljava/lang/String;
 
     return-object p0
@@ -80,7 +75,6 @@
 .method static synthetic b(Lio/grpc/internal/AutoConfiguredLoadBalancerFactory;)Lio/grpc/v0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory;->a:Lio/grpc/v0;
 
     return-object p0
@@ -94,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory;->d(Ljava/lang/String;Ljava/lang/String;)Lio/grpc/u0;
 
     move-result-object p0
@@ -110,7 +103,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory;->a:Lio/grpc/v0;
 
     invoke-virtual {v0, p1}, Lio/grpc/v0;->e(Ljava/lang/String;)Lio/grpc/u0;
@@ -121,7 +113,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$PolicyException;
 
@@ -161,7 +152,6 @@
 .method public e(Lio/grpc/t0$d;)Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$b;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$b;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$b;-><init>(Lio/grpc/internal/AutoConfiguredLoadBalancerFactory;Lio/grpc/t0$d;)V
@@ -190,13 +180,11 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Lio/grpc/internal/u2;->h(Ljava/util/Map;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1}, Lio/grpc/internal/u2;->A(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
@@ -214,14 +202,12 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 4
     iget-object p2, p0, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory;->a:Lio/grpc/v0;
 
     invoke-static {p1, p2}, Lio/grpc/internal/u2;->y(Ljava/util/List;Lio/grpc/v0;)Lio/grpc/z0$c;
@@ -232,13 +218,11 @@
 
     return-object p1
 
-    .line 5
     :goto_1
     sget-object p2, Lio/grpc/Status;->i:Lio/grpc/Status;
 
     const-string v0, "can\'t parse load balancer configuration"
 
-    .line 6
     invoke-virtual {p2, v0}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object p2
@@ -247,7 +231,6 @@
 
     move-result-object p1
 
-    .line 7
     invoke-static {p1}, Lio/grpc/z0$c;->b(Lio/grpc/Status;)Lio/grpc/z0$c;
 
     move-result-object p1

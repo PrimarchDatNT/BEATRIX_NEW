@@ -29,7 +29,6 @@
 
     iput-object p3, p0, Lcom/commsource/studio/sticker/StickerFragment$g$a;->f:Lcom/commsource/studio/sticker/StickerFragment$g;
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/commsource/util/delegate/process/k;-><init>(I)V
 
     return-void
@@ -44,14 +43,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$g$a;->f:Lcom/commsource/studio/sticker/StickerFragment$g;
 
     iget-object v1, v1, Lcom/commsource/studio/sticker/StickerFragment$g;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/sticker/StickerFragment;->u0(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

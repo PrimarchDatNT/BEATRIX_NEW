@@ -58,14 +58,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/b2;
 
     invoke-direct {v0}, Lcom/google/protobuf/b2;-><init>()V
 
     sput-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->ug()V
 
     return-void
@@ -74,10 +72,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageLite;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/protobuf/MapFieldLite;->emptyMapField()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
@@ -90,7 +86,6 @@
 .method static synthetic ah()Lcom/google/protobuf/b2;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     return-object v0
@@ -99,7 +94,6 @@
 .method static synthetic bh(Lcom/google/protobuf/b2;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/b2;->dh()Ljava/util/Map;
 
     move-result-object p0
@@ -110,7 +104,6 @@
 .method public static ch()Lcom/google/protobuf/b2;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     return-object v0
@@ -128,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/b2;->fh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
@@ -148,7 +140,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/b2;->f:Lcom/google/protobuf/MapFieldLite;
 
     return-object v0
@@ -166,7 +157,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/b2;->f:Lcom/google/protobuf/MapFieldLite;
 
     invoke-virtual {v0}, Lcom/google/protobuf/MapFieldLite;->isMutable()Z
@@ -175,7 +165,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/b2;->f:Lcom/google/protobuf/MapFieldLite;
 
     invoke-virtual {v0}, Lcom/google/protobuf/MapFieldLite;->mutableCopy()Lcom/google/protobuf/MapFieldLite;
@@ -184,7 +173,6 @@
 
     iput-object v0, p0, Lcom/google/protobuf/b2;->f:Lcom/google/protobuf/MapFieldLite;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/protobuf/b2;->f:Lcom/google/protobuf/MapFieldLite;
 
@@ -194,7 +182,6 @@
 .method public static gh()Lcom/google/protobuf/b2$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -209,7 +196,6 @@
 .method public static hh(Lcom/google/protobuf/b2;)Lcom/google/protobuf/b2$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -235,7 +221,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Ig(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -255,7 +240,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Jg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -275,7 +259,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Kg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -295,7 +278,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Lg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -315,7 +297,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Mg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -335,7 +316,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Ng(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -355,7 +335,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Og(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -375,7 +354,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Pg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -395,7 +373,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Qg(Lcom/google/protobuf/GeneratedMessageLite;[B)Lcom/google/protobuf/GeneratedMessageLite;
@@ -415,7 +392,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Rg(Lcom/google/protobuf/GeneratedMessageLite;[BLcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -438,7 +414,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Qf()Lcom/google/protobuf/s1;
@@ -462,12 +437,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/b2;->eh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
@@ -478,7 +451,6 @@
 .method public B()I
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/b2;->eh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
@@ -493,10 +465,8 @@
 .method public B0(Ljava/lang/String;)Z
     .locals 1
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lcom/google/protobuf/b2;->eh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
@@ -523,7 +493,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/b2;->A0()Ljava/util/Map;
 
     move-result-object v0
@@ -534,22 +503,18 @@
 .method public S0(Ljava/lang/String;)Lcom/google/protobuf/Value;
     .locals 2
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lcom/google/protobuf/b2;->eh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -558,7 +523,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -570,7 +534,6 @@
 .method protected final S6(Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/b2$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -583,14 +546,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     throw p1
 
-    .line 3
     :pswitch_0
     sget-object p1, Lcom/google/protobuf/b2;->J:Lcom/google/protobuf/s1;
 
@@ -600,13 +561,11 @@
 
     monitor-enter p1
 
-    .line 4
     :try_start_0
     sget-object p2, Lcom/google/protobuf/b2;->J:Lcom/google/protobuf/s1;
 
     if-nez p2, :cond_0
 
-    .line 5
     new-instance p2, Lcom/google/protobuf/GeneratedMessageLite$c;
 
     sget-object p3, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
@@ -615,7 +574,6 @@
 
     sput-object p2, Lcom/google/protobuf/b2;->J:Lcom/google/protobuf/s1;
 
-    .line 6
     :cond_0
     monitor-exit p1
 
@@ -630,18 +588,15 @@
 
     throw p2
 
-    .line 7
     :cond_1
     :goto_0
     sget-object p1, Lcom/google/protobuf/b2;->J:Lcom/google/protobuf/s1;
 
     return-object p1
 
-    .line 8
     :pswitch_1
     check-cast p2, Lcom/google/protobuf/q;
 
-    .line 9
     check-cast p3, Lcom/google/protobuf/j0;
 
     const/4 p1, 0x0
@@ -650,7 +605,6 @@
     :goto_1
     if-nez p1, :cond_6
 
-    .line 10
     :try_start_1
     invoke-virtual {p2}, Lcom/google/protobuf/q;->X()I
 
@@ -664,7 +618,6 @@
 
     if-eq v0, v2, :cond_3
 
-    .line 11
     invoke-virtual {p2, v0}, Lcom/google/protobuf/q;->g0(I)Z
 
     move-result v0
@@ -673,7 +626,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_3
     iget-object v0, p0, Lcom/google/protobuf/b2;->f:Lcom/google/protobuf/MapFieldLite;
 
@@ -683,7 +635,6 @@
 
     if-nez v0, :cond_4
 
-    .line 13
     iget-object v0, p0, Lcom/google/protobuf/b2;->f:Lcom/google/protobuf/MapFieldLite;
 
     invoke-virtual {v0}, Lcom/google/protobuf/MapFieldLite;->mutableCopy()Lcom/google/protobuf/MapFieldLite;
@@ -692,7 +643,6 @@
 
     iput-object v0, p0, Lcom/google/protobuf/b2;->f:Lcom/google/protobuf/MapFieldLite;
 
-    .line 14
     :cond_4
     sget-object v0, Lcom/google/protobuf/b2$c;->a:Lcom/google/protobuf/h1;
 
@@ -720,13 +670,11 @@
     :catch_0
     move-exception p1
 
-    .line 15
     :try_start_2
     new-instance p2, Ljava/lang/RuntimeException;
 
     new-instance p3, Lcom/google/protobuf/InvalidProtocolBufferException;
 
-    .line 16
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -744,7 +692,6 @@
     :catch_1
     move-exception p1
 
-    .line 17
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-virtual {p1, p0}, Lcom/google/protobuf/InvalidProtocolBufferException;->setUnfinishedMessage(Lcom/google/protobuf/i1;)Lcom/google/protobuf/InvalidProtocolBufferException;
@@ -757,45 +704,36 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 18
     :goto_3
     throw p1
 
-    .line 19
     :cond_6
     :pswitch_2
     sget-object p1, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     return-object p1
 
-    .line 20
     :pswitch_3
     check-cast p2, Lcom/google/protobuf/GeneratedMessageLite$k;
 
-    .line 21
     check-cast p3, Lcom/google/protobuf/b2;
 
-    .line 22
     iget-object p1, p0, Lcom/google/protobuf/b2;->f:Lcom/google/protobuf/MapFieldLite;
 
-    .line 23
     invoke-direct {p3}, Lcom/google/protobuf/b2;->eh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object p3
 
-    .line 24
     invoke-interface {p2, p1, p3}, Lcom/google/protobuf/GeneratedMessageLite$k;->f(Lcom/google/protobuf/MapFieldLite;Lcom/google/protobuf/MapFieldLite;)Lcom/google/protobuf/MapFieldLite;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/protobuf/b2;->f:Lcom/google/protobuf/MapFieldLite;
 
-    .line 25
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$j;->a:Lcom/google/protobuf/GeneratedMessageLite$j;
 
     return-object p0
 
-    .line 26
     :pswitch_4
     new-instance p1, Lcom/google/protobuf/b2$b;
 
@@ -803,7 +741,6 @@
 
     return-object p1
 
-    .line 27
     :pswitch_5
     iget-object p1, p0, Lcom/google/protobuf/b2;->f:Lcom/google/protobuf/MapFieldLite;
 
@@ -811,13 +748,11 @@
 
     return-object v0
 
-    .line 28
     :pswitch_6
     sget-object p1, Lcom/google/protobuf/b2;->p:Lcom/google/protobuf/b2;
 
     return-object p1
 
-    .line 29
     :pswitch_7
     new-instance p1, Lcom/google/protobuf/b2;
 
@@ -841,7 +776,6 @@
 .method public Y6()I
     .locals 6
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
     const/4 v1, -0x1
@@ -853,7 +787,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/protobuf/b2;->eh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v1
@@ -879,12 +812,10 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     sget-object v3, Lcom/google/protobuf/b2$c;->a:Lcom/google/protobuf/h1;
 
     const/4 v4, 0x1
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v5
@@ -897,7 +828,6 @@
 
     check-cast v2, Lcom/google/protobuf/Value;
 
-    .line 5
     invoke-virtual {v3, v4, v5, v2}, Lcom/google/protobuf/h1;->a(ILjava/lang/Object;Ljava/lang/Object;)I
 
     move-result v2
@@ -906,7 +836,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iput v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
@@ -916,15 +845,12 @@
 .method public oe(Ljava/lang/String;Lcom/google/protobuf/Value;)Lcom/google/protobuf/Value;
     .locals 2
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lcom/google/protobuf/b2;->eh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v1
@@ -951,7 +877,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/b2;->eh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
@@ -977,12 +902,10 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 2
     sget-object v2, Lcom/google/protobuf/b2$c;->a:Lcom/google/protobuf/h1;
 
     const/4 v3, 0x1
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -995,7 +918,6 @@
 
     check-cast v1, Lcom/google/protobuf/Value;
 
-    .line 4
     invoke-virtual {v2, p1, v3, v4, v1}, Lcom/google/protobuf/h1;->j(Lcom/google/protobuf/CodedOutputStream;ILjava/lang/Object;Ljava/lang/Object;)V
 
     goto :goto_0

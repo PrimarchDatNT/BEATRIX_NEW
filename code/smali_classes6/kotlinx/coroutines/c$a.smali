@@ -68,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/c$a;->p:Lcotlinx/coroutines/c;
 
     invoke-direct {p0, p3}, Lcotlinx/coroutines/i2;-><init>(Lcotlinx/coroutines/c2;)V
@@ -77,7 +76,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     iput-object p1, p0, Lcotlinx/coroutines/c$a;->_disposer:Ljava/lang/Object;
 
     return-void
@@ -94,7 +92,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/c$a;->g:Lcotlinx/coroutines/m;
 
     invoke-interface {v0, p1}, Lcotlinx/coroutines/m;->u(Ljava/lang/Throwable;)Ljava/lang/Object;
@@ -103,12 +100,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/c$a;->g:Lcotlinx/coroutines/m;
 
     invoke-interface {v0, p1}, Lcotlinx/coroutines/m;->Y(Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p0}, Lcotlinx/coroutines/c$a;->g0()Lcotlinx/coroutines/c$b;
 
     move-result-object p1
@@ -119,7 +114,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcotlinx/coroutines/c$a;->p:Lcotlinx/coroutines/c;
 
@@ -131,7 +125,6 @@
 
     if-nez p1, :cond_2
 
-    .line 5
     iget-object p1, p0, Lcotlinx/coroutines/c$a;->g:Lcotlinx/coroutines/m;
 
     iget-object v0, p0, Lcotlinx/coroutines/c$a;->p:Lcotlinx/coroutines/c;
@@ -140,14 +133,12 @@
 
     move-result-object v0
 
-    .line 6
     new-instance v1, Ljava/util/ArrayList;
 
     array-length v2, v0
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 7
     array-length v2, v0
 
     const/4 v3, 0x0
@@ -157,7 +148,6 @@
 
     aget-object v4, v0, v3
 
-    .line 8
     invoke-interface {v4}, Lcotlinx/coroutines/t0;->h()Ljava/lang/Object;
 
     move-result-object v4
@@ -195,7 +185,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/c$a;->_disposer:Ljava/lang/Object;
 
     check-cast v0, Lcotlinx/coroutines/c$b;
@@ -208,7 +197,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/c$a;->f:Lcotlinx/coroutines/f1;
 
     if-nez v0, :cond_0
@@ -235,7 +223,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/c$a;->_disposer:Ljava/lang/Object;
 
     return-void
@@ -244,7 +231,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/c$a;->f0(Ljava/lang/Throwable;)V
@@ -261,7 +247,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/c$a;->f:Lcotlinx/coroutines/f1;
 
     return-void

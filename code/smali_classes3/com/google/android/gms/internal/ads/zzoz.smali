@@ -7,7 +7,6 @@
 .method public constructor <init>(Ljava/lang/Throwable;)V
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0

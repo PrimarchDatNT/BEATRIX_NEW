@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/layer/SlimLayer$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/SlimFragment$onCreateView$$inlined$apply$lambda$1;->invoke(Lcom/commsource/studio/layer/SlimLayer$a;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/SlimFragment$onCreateView$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/function/SlimFragment;
 
     new-instance v2, Lcom/commsource/studio/function/SlimFragment$onCreateView$$inlined$apply$lambda$1$1;
@@ -90,7 +88,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -50,7 +50,6 @@
 .method static constructor <clinit>()V
     .locals 14
 
-    .line 1
     new-instance v0, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     const-string v1, "TARGET_CHANGE"
@@ -63,7 +62,6 @@
 
     sput-object v0, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->TARGET_CHANGE:Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
-    .line 2
     new-instance v1, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     const-string v4, "DOCUMENT_CHANGE"
@@ -76,7 +74,6 @@
 
     sput-object v1, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->DOCUMENT_CHANGE:Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
-    .line 3
     new-instance v4, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     const-string v7, "DOCUMENT_DELETE"
@@ -87,7 +84,6 @@
 
     sput-object v4, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->DOCUMENT_DELETE:Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
-    .line 4
     new-instance v7, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     const-string v9, "DOCUMENT_REMOVE"
@@ -98,7 +94,6 @@
 
     sput-object v7, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->DOCUMENT_REMOVE:Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
-    .line 5
     new-instance v9, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     const-string v11, "FILTER"
@@ -109,7 +104,6 @@
 
     sput-object v9, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->FILTER:Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
-    .line 6
     new-instance v11, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     const-string v13, "RESPONSETYPE_NOT_SET"
@@ -132,7 +126,6 @@
 
     aput-object v11, v10, v12
 
-    .line 7
     sput-object v10, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->$VALUES:[Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     return-void
@@ -146,10 +139,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->value:I
 
     return-void
@@ -184,37 +175,31 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->DOCUMENT_REMOVE:Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->FILTER:Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->DOCUMENT_DELETE:Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     return-object p0
 
-    .line 4
     :cond_3
     sget-object p0, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->DOCUMENT_CHANGE:Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     return-object p0
 
-    .line 5
     :cond_4
     sget-object p0, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->TARGET_CHANGE:Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     return-object p0
 
-    .line 6
     :cond_5
     sget-object p0, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->RESPONSETYPE_NOT_SET:Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
@@ -226,7 +211,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->forNumber(I)Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     move-result-object p0
@@ -237,7 +221,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -252,7 +235,6 @@
 .method public static values()[Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->$VALUES:[Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     invoke-virtual {v0}, [Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->clone()Ljava/lang/Object;
@@ -269,7 +251,6 @@
 .method public getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->value:I
 
     return v0

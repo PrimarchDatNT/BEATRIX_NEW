@@ -31,7 +31,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-static {}, Lcom/google/protobuf/DescriptorProtos$p;->ah()Lcom/google/protobuf/DescriptorProtos$p;
 
     move-result-object v0
@@ -44,7 +43,6 @@
 .method synthetic constructor <init>(Lcom/google/protobuf/DescriptorProtos$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/DescriptorProtos$p$a;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 .method public A9(I)Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -70,7 +67,6 @@
 .method public Aa()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -85,10 +81,8 @@
 .method public Ah()Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -101,10 +95,8 @@
 .method public Bh()Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -117,10 +109,8 @@
 .method public Ch()Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -133,10 +123,8 @@
 .method public Dh(Lcom/google/protobuf/DescriptorProtos$FileOptions;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -149,10 +137,8 @@
 .method public Eh(Lcom/google/protobuf/DescriptorProtos$j0;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -165,10 +151,8 @@
 .method public Fh(I)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -181,7 +165,6 @@
 .method public G()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -196,10 +179,8 @@
 .method public Gh(I)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -212,10 +193,8 @@
 .method public Hh(I)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -228,7 +207,6 @@
 .method public I2(I)Lcom/google/protobuf/DescriptorProtos$FieldDescriptorProto;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -251,17 +229,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$p;->Ia()Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
@@ -272,10 +247,8 @@
 .method public Ih(I)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -288,7 +261,6 @@
 .method public J7(I)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -303,10 +275,8 @@
 .method public Jh(ILjava/lang/String;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -319,7 +289,6 @@
 .method public Kd()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -334,10 +303,8 @@
 .method public Kh(ILcom/google/protobuf/DescriptorProtos$d$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -350,10 +317,8 @@
 .method public Lh(ILcom/google/protobuf/DescriptorProtos$d;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -366,7 +331,6 @@
 .method public M1()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -381,10 +345,8 @@
 .method public Mh(ILcom/google/protobuf/DescriptorProtos$FieldDescriptorProto$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -397,7 +359,6 @@
 .method public N2()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -412,10 +373,8 @@
 .method public Nh(ILcom/google/protobuf/DescriptorProtos$FieldDescriptorProto;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -428,10 +387,8 @@
 .method public Oh(ILcom/google/protobuf/DescriptorProtos$b$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -452,17 +409,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$p;->Pe()Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
@@ -473,7 +427,6 @@
 .method public Pf()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -488,10 +441,8 @@
 .method public Ph(ILcom/google/protobuf/DescriptorProtos$b;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -504,7 +455,6 @@
 .method public Q6()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -528,10 +478,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -544,10 +492,8 @@
 .method public Qh(Ljava/lang/String;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -570,10 +516,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -586,10 +530,8 @@
 .method public Rh(Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -612,10 +554,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -628,10 +568,8 @@
 .method public Sh(Lcom/google/protobuf/DescriptorProtos$FileOptions$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -644,7 +582,6 @@
 .method public T4()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -669,10 +606,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -685,10 +620,8 @@
 .method public Th(Lcom/google/protobuf/DescriptorProtos$FileOptions;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -711,10 +644,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -727,10 +658,8 @@
 .method public Uh(Ljava/lang/String;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -743,7 +672,6 @@
 .method public V0(I)Lcom/google/protobuf/DescriptorProtos$d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -768,10 +696,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -784,10 +710,8 @@
 .method public Vh(Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -808,17 +732,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$p;->W7()Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
@@ -829,7 +750,6 @@
 .method public We()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -854,10 +774,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -870,10 +788,8 @@
 .method public Wh(II)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -886,7 +802,6 @@
 .method public X7(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -901,10 +816,8 @@
 .method public Xg(Ljava/lang/String;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -917,10 +830,8 @@
 .method public Xh(ILcom/google/protobuf/DescriptorProtos$f0$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -941,17 +852,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$p;->Y0()Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
@@ -962,10 +870,8 @@
 .method public Yg(Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -978,10 +884,8 @@
 .method public Yh(ILcom/google/protobuf/DescriptorProtos$f0;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -994,10 +898,8 @@
 .method public Zg(ILcom/google/protobuf/DescriptorProtos$d$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1010,10 +912,8 @@
 .method public Zh(Lcom/google/protobuf/DescriptorProtos$j0$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1026,7 +926,6 @@
 .method public a()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1041,10 +940,8 @@
 .method public ah(ILcom/google/protobuf/DescriptorProtos$d;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1057,10 +954,8 @@
 .method public ai(Lcom/google/protobuf/DescriptorProtos$j0;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1073,10 +968,8 @@
 .method public bh(Lcom/google/protobuf/DescriptorProtos$d$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1089,10 +982,8 @@
 .method public bi(Ljava/lang/String;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1105,10 +996,8 @@
 .method public ch(Lcom/google/protobuf/DescriptorProtos$d;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1121,10 +1010,8 @@
 .method public ci(Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1137,7 +1024,6 @@
 .method public d()Lcom/google/protobuf/DescriptorProtos$FileOptions;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1152,7 +1038,6 @@
 .method public d8(I)Lcom/google/protobuf/DescriptorProtos$b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1167,10 +1052,8 @@
 .method public dh(ILcom/google/protobuf/DescriptorProtos$FieldDescriptorProto$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1183,10 +1066,8 @@
 .method public di(II)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1199,7 +1080,6 @@
 .method public e()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1214,10 +1094,8 @@
 .method public eh(ILcom/google/protobuf/DescriptorProtos$FieldDescriptorProto;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1230,7 +1108,6 @@
 .method public f()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1245,7 +1122,6 @@
 .method public f2()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1260,10 +1136,8 @@
 .method public fh(Lcom/google/protobuf/DescriptorProtos$FieldDescriptorProto$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1276,7 +1150,6 @@
 .method public getName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1291,10 +1164,8 @@
 .method public gh(Lcom/google/protobuf/DescriptorProtos$FieldDescriptorProto;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1307,10 +1178,8 @@
 .method public hh(ILcom/google/protobuf/DescriptorProtos$b$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1323,10 +1192,8 @@
 .method public ih(ILcom/google/protobuf/DescriptorProtos$b;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1339,10 +1206,8 @@
 .method public jh(Lcom/google/protobuf/DescriptorProtos$b$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1355,7 +1220,6 @@
 .method public k6(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1370,10 +1234,8 @@
 .method public kh(Lcom/google/protobuf/DescriptorProtos$b;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1386,7 +1248,6 @@
 .method public l9()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1409,17 +1270,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$p;->lb()Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
@@ -1438,17 +1296,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$p;->lc()Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
@@ -1459,10 +1314,8 @@
 .method public lh(I)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1475,7 +1328,6 @@
 .method public m8()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1490,10 +1342,8 @@
 .method public mh(ILcom/google/protobuf/DescriptorProtos$f0$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1506,10 +1356,8 @@
 .method public nh(ILcom/google/protobuf/DescriptorProtos$f0;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1522,10 +1370,8 @@
 .method public oh(Lcom/google/protobuf/DescriptorProtos$f0$a;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1546,17 +1392,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$p;->p2()Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
@@ -1567,7 +1410,6 @@
 .method public p8()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1582,10 +1424,8 @@
 .method public ph(Lcom/google/protobuf/DescriptorProtos$f0;)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1598,10 +1438,8 @@
 .method public qh(I)Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1614,10 +1452,8 @@
 .method public rh()Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1630,10 +1466,8 @@
 .method public sh()Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1646,7 +1480,6 @@
 .method public ta()Lcom/google/protobuf/DescriptorProtos$j0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1661,10 +1494,8 @@
 .method public th()Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1677,10 +1508,8 @@
 .method public uh()Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1693,10 +1522,8 @@
 .method public vh()Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1709,10 +1536,8 @@
 .method public wh()Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1725,10 +1550,8 @@
 .method public xh()Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1741,7 +1564,6 @@
 .method public y7()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1756,7 +1578,6 @@
 .method public y8(I)Lcom/google/protobuf/DescriptorProtos$f0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1771,10 +1592,8 @@
 .method public yh()Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;
@@ -1787,10 +1606,8 @@
 .method public zh()Lcom/google/protobuf/DescriptorProtos$p$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/protobuf/DescriptorProtos$p;

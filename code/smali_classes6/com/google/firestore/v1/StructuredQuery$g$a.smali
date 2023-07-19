@@ -31,7 +31,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-static {}, Lcom/google/firestore/v1/StructuredQuery$g;->ah()Lcom/google/firestore/v1/StructuredQuery$g;
 
     move-result-object v0
@@ -44,7 +43,6 @@
 .method synthetic constructor <init>(Lcom/google/firestore/v1/StructuredQuery$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firestore/v1/StructuredQuery$g$a;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 .method public E1()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$g;
@@ -70,10 +67,8 @@
 .method public Qg()Lcom/google/firestore/v1/StructuredQuery$g$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$g;
@@ -86,10 +81,8 @@
 .method public Rg(Ljava/lang/String;)Lcom/google/firestore/v1/StructuredQuery$g$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$g;
@@ -102,10 +95,8 @@
 .method public Sg(Lcom/google/protobuf/ByteString;)Lcom/google/firestore/v1/StructuredQuery$g$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$g;
@@ -118,7 +109,6 @@
 .method public w2()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$g;

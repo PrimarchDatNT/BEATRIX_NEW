@@ -69,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioActivity$gotoImageSaveAndShareFragment$2;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -88,10 +87,8 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/studio/m0;->e0(Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

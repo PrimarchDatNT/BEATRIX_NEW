@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/api/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/e$a;->a:Lcom/sdk/api/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a(Lcom/sdk/api/CommonAdView;I)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/api/e$a;->a:Lcom/sdk/api/e;
 
     invoke-static {p1, p2}, Lcom/sdk/api/e;->c(Lcom/sdk/api/e;I)V
@@ -49,17 +47,14 @@
 .method public b(Lcom/sdk/api/CommonAdView;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/api/e$a;->a:Lcom/sdk/api/e;
 
     invoke-static {v0, p1}, Lcom/sdk/api/e;->a(Lcom/sdk/api/e;Lcom/sdk/api/CommonAdView;)Lcom/sdk/api/CommonAdView;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/q/b/p;->a()V
 
-    .line 3
     iget-object p1, p0, Lcom/sdk/api/e$a;->a:Lcom/sdk/api/e;
 
     invoke-static {p1}, Lcom/sdk/api/e;->b(Lcom/sdk/api/e;)V
@@ -71,7 +66,6 @@
 
     const/4 v0, -0x1
 
-    .line 4
     invoke-virtual {p0, p1, v0}, Lcom/sdk/api/e$a;->a(Lcom/sdk/api/CommonAdView;I)V
 
     :goto_0

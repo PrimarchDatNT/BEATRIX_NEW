@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/g$a;->d:Lcom/commsource/studio/layer/g;
 
     invoke-direct {p0}, Lcom/commsource/studio/i$c;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/layer/g$a;->d:Lcom/commsource/studio/layer/g;
 
     invoke-virtual {p2}, Lcom/commsource/studio/layer/g;->p0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -62,7 +60,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->Z0()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -85,7 +82,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/layer/g$a;->d:Lcom/commsource/studio/layer/g;
 
     invoke-virtual {p2}, Lcom/commsource/studio/layer/g;->p0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -94,7 +90,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->S0()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -117,7 +112,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -140,7 +134,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -171,7 +164,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

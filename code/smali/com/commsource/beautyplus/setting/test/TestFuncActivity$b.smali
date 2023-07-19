@@ -72,7 +72,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -87,7 +86,6 @@
 
     const-string/jumbo v1, "\u5f00\u59cb\u751f\u6210\u6587\u4ef6..."
 
-    .line 2
     invoke-static {v1, p1}, Lf/k/c/c/f;->z(Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
@@ -97,10 +95,8 @@
 
     const-string/jumbo v1, "\u6587\u4ef6\u751f\u6210\u7ed3\u675f."
 
-    .line 3
     invoke-static {v1, p1}, Lf/k/c/c/f;->z(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -114,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$b;->a(Ljava/lang/Boolean;)V

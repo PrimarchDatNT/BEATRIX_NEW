@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2$3;->a:Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
@@ -69,7 +68,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/editengine/f;->o(Lcom/commsource/editengine/d;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2$3;->a:Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
@@ -84,7 +82,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/StudioCanvasContainer;->f(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2$3;->a:Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
@@ -103,7 +100,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/editengine/f;->m(Lcotlin/jvm/u/a;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

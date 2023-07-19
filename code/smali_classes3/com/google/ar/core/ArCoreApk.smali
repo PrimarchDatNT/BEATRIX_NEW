@@ -19,7 +19,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public static getInstance()Lcom/google/ar/core/ArCoreApk;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/ar/core/z;->c()Lcom/google/ar/core/z;
 
     move-result-object v0
@@ -41,7 +39,6 @@
 .method public checkAvailability(Landroid/content/Context;)Lcom/google/ar/core/ArCoreApk$Availability;
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Stub"
@@ -60,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string p2, "Stub"
@@ -79,7 +75,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string p2, "Stub"

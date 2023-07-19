@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/zp2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/cq2;->a:Lcom/google/android/gms/internal/ads/zp2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -27,7 +26,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/cq2;->a:Lcom/google/android/gms/internal/ads/zp2;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/zp2;->b:Lcom/google/android/gms/internal/ads/xp2;
@@ -38,7 +36,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/cq2;->a:Lcom/google/android/gms/internal/ads/zp2;
 
@@ -61,7 +58,6 @@
 
     const-string v1, "Could not notify onAdFailedToLoad event."
 
-    .line 3
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0

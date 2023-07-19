@@ -21,7 +21,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lkshark/internal/hppc/a;
 
     invoke-direct {v0}, Lkshark/internal/hppc/a;-><init>()V
@@ -34,7 +33,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +49,6 @@
 
     mul-double v1, v1, p2
 
-    .line 1
     invoke-static {v1, v2}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide p1
@@ -72,7 +69,6 @@
 
     div-double/2addr v0, p2
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide v0
@@ -94,7 +90,6 @@
 
     int-to-long v2, v2
 
-    .line 2
     invoke-virtual {p0, v0, v1}, Lkshark/internal/hppc/a;->e(J)J
 
     move-result-wide v0
@@ -115,11 +110,9 @@
 
     return p1
 
-    .line 3
     :cond_1
     sget-object v0, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
-    .line 4
     sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
 
     const-string v1, "Locale.ROOT"
@@ -132,7 +125,6 @@
 
     const/4 v3, 0x0
 
-    .line 5
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -141,14 +133,12 @@
 
     const/4 p1, 0x1
 
-    .line 6
     invoke-static {p2, p3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object p2
 
     aput-object p2, v2, p1
 
-    .line 7
     invoke-static {v2, v1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p1
@@ -163,7 +153,6 @@
 
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 8
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
@@ -202,11 +191,9 @@
 
     return p1
 
-    .line 1
     :cond_0
     sget-object p1, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
-    .line 2
     sget-object p1, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
 
     const-string v1, "Locale.ROOT"
@@ -219,21 +206,18 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
 
     aput-object p2, v2, v3
 
-    .line 4
     invoke-static {p3, p4}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object p2
 
     aput-object p2, v2, v0
 
-    .line 5
     invoke-static {v2, v1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p2
@@ -248,7 +232,6 @@
 
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 6
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V

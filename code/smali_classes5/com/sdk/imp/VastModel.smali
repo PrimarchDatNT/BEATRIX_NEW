@@ -144,7 +144,6 @@
 
     const-string v0, "X907"
 
-    .line 1
     filled-new-array {v0}, [Ljava/lang/String;
 
     move-result-object v0
@@ -157,41 +156,30 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/sdk/imp/VastModel;->isUsed:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/sdk/imp/VastModel;->iconParsing:Z
 
-    .line 4
     iput-boolean v0, p0, Lcom/sdk/imp/VastModel;->linearParsing:Z
 
-    .line 5
     iput-boolean v0, p0, Lcom/sdk/imp/VastModel;->companionParsing:Z
 
-    .line 6
     iput-boolean v0, p0, Lcom/sdk/imp/VastModel;->nonLinearParsing:Z
 
-    .line 7
     iput-boolean v0, p0, Lcom/sdk/imp/VastModel;->extensionParsing:Z
 
-    .line 8
     iput-boolean v0, p0, Lcom/sdk/imp/VastModel;->mIsXmlFromCache:Z
 
-    .line 9
     iput-boolean v0, p0, Lcom/sdk/imp/VastModel;->mIsMediaFileFromCache:Z
 
-    .line 10
     iput v0, p0, Lcom/sdk/imp/VastModel;->mtType:I
 
     const-wide/16 v0, 0x0
 
-    .line 11
     iput-wide v0, p0, Lcom/sdk/imp/VastModel;->mRating:D
 
     return-void
@@ -208,21 +196,18 @@
 
     mul-int p1, p1, p2
 
-    .line 1
     iget-wide v2, p0, Lcom/sdk/imp/VastModel;->mScreenAspectRatio:D
 
     div-double/2addr v0, v2
 
     int-to-double p1, p1
 
-    .line 2
     iget v2, p0, Lcom/sdk/imp/VastModel;->mScreenAreaDp:I
 
     int-to-double v2, v2
 
     div-double/2addr p1, v2
 
-    .line 3
     invoke-static {v0, v1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide v0
@@ -235,7 +220,6 @@
 
     mul-double v0, v0, v2
 
-    .line 4
     invoke-static {p1, p2}, Ljava/lang/Math;->log(D)D
 
     move-result-wide p1
@@ -271,7 +255,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -286,13 +269,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
-    .line 3
     :cond_1
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -300,14 +281,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/sdk/imp/VastModel$MediaFile;
 
-    .line 5
     invoke-static {v1}, Lcom/sdk/imp/VastModel$MediaFile;->access$000(Lcom/sdk/imp/VastModel$MediaFile;)Ljava/lang/String;
 
     move-result-object v2
@@ -335,7 +314,6 @@
     :cond_0
     const-string v0, "window"
 
-    .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -346,17 +324,14 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Landroid/view/Display;->getWidth()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {v0}, Landroid/view/Display;->getHeight()I
 
     move-result v0
 
-    .line 4
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
@@ -375,13 +350,11 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 5
     :cond_1
     invoke-static {v1, v0}, Ljava/lang/Math;->max(II)I
 
     move-result v2
 
-    .line 6
     invoke-static {v1, v0}, Ljava/lang/Math;->min(II)I
 
     move-result v0
@@ -392,7 +365,6 @@
 
     div-double/2addr v3, v5
 
-    .line 7
     iput-wide v3, p0, Lcom/sdk/imp/VastModel;->mScreenAspectRatio:D
 
     int-to-float v1, v2
@@ -407,7 +379,6 @@
 
     float-to-int p1, v1
 
-    .line 8
     iput p1, p0, Lcom/sdk/imp/VastModel;->mScreenAreaDp:I
 
     return-void
@@ -416,7 +387,6 @@
 .method private isVp8Supported()Z
     .locals 6
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/VastModel;->notSupportVp8Devices:[Ljava/lang/String;
 
     if-eqz v0, :cond_1
@@ -425,7 +395,6 @@
 
     if-lez v1, :cond_1
 
-    .line 2
     array-length v1, v0
 
     const/4 v2, 0x0
@@ -437,7 +406,6 @@
 
     aget-object v4, v0, v3
 
-    .line 3
     sget-object v5, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -464,7 +432,6 @@
 .method public getAd()Lcom/sdk/imp/internal/loader/Ad;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->ad:Lcom/sdk/imp/internal/loader/Ad;
 
     return-object v0
@@ -473,7 +440,6 @@
 .method public getAdTitle()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->adTitle:Ljava/lang/String;
 
     return-object v0
@@ -482,14 +448,12 @@
 .method public getBestMediaFile(Landroid/content/Context;)Lcom/sdk/imp/VastModel$MediaFile;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->bestMediaFile:Lcom/sdk/imp/VastModel$MediaFile;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/sdk/imp/VastModel;->getMediaFile()Ljava/util/List;
 
@@ -497,7 +461,6 @@
 
     if-eqz v0, :cond_8
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -506,7 +469,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -514,7 +476,6 @@
 
     if-lt v1, v2, :cond_2
 
-    .line 5
     invoke-direct {p0}, Lcom/sdk/imp/VastModel;->isVp8Supported()Z
 
     move-result v1
@@ -523,7 +484,6 @@
 
     const-string v1, "vp8"
 
-    .line 6
     invoke-direct {p0, v0, v1}, Lcom/sdk/imp/VastModel;->findBestMediaFile(Ljava/util/List;Ljava/lang/String;)Lcom/sdk/imp/VastModel$MediaFile;
 
     move-result-object v1
@@ -535,7 +495,6 @@
     :cond_2
     const-string v1, "mp4"
 
-    .line 7
     invoke-direct {p0, v0, v1}, Lcom/sdk/imp/VastModel;->findBestMediaFile(Ljava/util/List;Ljava/lang/String;)Lcom/sdk/imp/VastModel$MediaFile;
 
     move-result-object v1
@@ -544,18 +503,15 @@
 
     return-object v1
 
-    .line 8
     :cond_3
     invoke-direct {p0, p1}, Lcom/sdk/imp/VastModel;->initializeScreenDimensions(Landroid/content/Context;)V
 
     const-wide/high16 v2, 0x7ff0000000000000L    # Double.POSITIVE_INFINITY
 
-    .line 9
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
-    .line 10
     :cond_4
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
@@ -564,37 +520,31 @@
 
     if-eqz v0, :cond_7
 
-    .line 11
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/sdk/imp/VastModel$MediaFile;
 
-    .line 12
     invoke-virtual {v0}, Lcom/sdk/imp/VastModel$MediaFile;->getVideoUrl()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 13
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-eqz v4, :cond_5
 
-    .line 14
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 15
     :cond_5
     invoke-virtual {v0}, Lcom/sdk/imp/VastModel$MediaFile;->getVideoWidth()I
 
     move-result v4
 
-    .line 16
     invoke-virtual {v0}, Lcom/sdk/imp/VastModel$MediaFile;->getVideoHeight()I
 
     move-result v5
@@ -605,7 +555,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_6
     invoke-direct {p0, v4, v5}, Lcom/sdk/imp/VastModel;->calculateFitness(II)D
 
@@ -634,7 +583,6 @@
 .method public getButtonTxt()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->button:Ljava/lang/String;
 
     return-object v0
@@ -643,7 +591,6 @@
 .method public getClickThrough()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->clickThrough:Ljava/lang/String;
 
     return-object v0
@@ -660,7 +607,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->companionAds:Ljava/util/List;
 
     return-object v0
@@ -669,7 +615,6 @@
 .method public getDeepLink()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->deepLink:Ljava/lang/String;
 
     return-object v0
@@ -678,7 +623,6 @@
 .method public getDescription()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->description:Ljava/lang/String;
 
     return-object v0
@@ -687,7 +631,6 @@
 .method public getDownloadNum()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->mDownloadNum:Ljava/lang/String;
 
     return-object v0
@@ -696,7 +639,6 @@
 .method public getDuration()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/sdk/imp/VastModel;->duration:J
 
     return-wide v0
@@ -705,7 +647,6 @@
 .method public getIconUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->iconUrl:Ljava/lang/String;
 
     return-object v0
@@ -714,7 +655,6 @@
 .method public getId()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->id:Ljava/lang/String;
 
     return-object v0
@@ -733,19 +673,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->mapLinearTracking:Ljava/util/Map;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/sdk/imp/VastModel;->mapLinearTracking:Ljava/util/Map;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->mapLinearTracking:Ljava/util/Map;
 
@@ -763,7 +700,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->mediaFile:Ljava/util/List;
 
     return-object v0
@@ -772,7 +708,6 @@
 .method public getMtType()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/VastModel;->mtType:I
 
     return v0
@@ -781,7 +716,6 @@
 .method public getPostPollImageUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->postRollImageUrl:Ljava/lang/String;
 
     return-object v0
@@ -790,7 +724,6 @@
 .method public getRating()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/sdk/imp/VastModel;->mRating:D
 
     return-wide v0
@@ -809,19 +742,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->reportEventUrls:Ljava/util/Map;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/sdk/imp/VastModel;->reportEventUrls:Ljava/util/Map;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->reportEventUrls:Ljava/util/Map;
 
@@ -831,7 +761,6 @@
 .method public getVastAdTagUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->vastAdTagUrl:Ljava/lang/String;
 
     return-object v0
@@ -840,7 +769,6 @@
 .method public getVastTag()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->vastTag:Ljava/lang/String;
 
     return-object v0
@@ -849,7 +777,6 @@
 .method public getVideoFileLength()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/sdk/imp/VastModel;->videoFileLength:J
 
     return-wide v0
@@ -858,19 +785,16 @@
 .method public getVideolUrl(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->bestMediaFile:Lcom/sdk/imp/VastModel$MediaFile;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/sdk/imp/VastModel;->getBestMediaFile(Landroid/content/Context;)Lcom/sdk/imp/VastModel$MediaFile;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->bestMediaFile:Lcom/sdk/imp/VastModel$MediaFile;
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/sdk/imp/VastModel;->bestMediaFile:Lcom/sdk/imp/VastModel$MediaFile;
 
@@ -892,7 +816,6 @@
 .method public getWapperFrequency()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/VastModel;->wapperFrequency:I
 
     return v0
@@ -901,7 +824,6 @@
 .method public hasExpired(Ljava/lang/String;)Z
     .locals 4
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -936,7 +858,6 @@
 .method public hasMediaFile()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->mediaFile:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -961,14 +882,12 @@
 .method public isAdValid()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->ad:Lcom/sdk/imp/internal/loader/Ad;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->isStatusNormal()Z
 
     move-result v0
@@ -992,7 +911,6 @@
 .method public isCompanionParsing()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/VastModel;->companionParsing:Z
 
     return v0
@@ -1001,7 +919,6 @@
 .method public isExtensionParsing()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/VastModel;->extensionParsing:Z
 
     return v0
@@ -1010,7 +927,6 @@
 .method public isIconParsing()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/VastModel;->iconParsing:Z
 
     return v0
@@ -1019,7 +935,6 @@
 .method public isLinearParsing()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/VastModel;->linearParsing:Z
 
     return v0
@@ -1028,7 +943,6 @@
 .method public isMediaFileFromCache()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/VastModel;->mIsMediaFileFromCache:Z
 
     return v0
@@ -1037,7 +951,6 @@
 .method public isMediaUrlAvailable()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->bestMediaFile:Lcom/sdk/imp/VastModel$MediaFile;
 
     if-eqz v0, :cond_0
@@ -1058,14 +971,12 @@
 .method public isNativeVideoAdValid()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->ad:Lcom/sdk/imp/internal/loader/Ad;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->isStatusNormal()Z
 
     move-result v0
@@ -1097,7 +1008,6 @@
 .method public isNativeVideoUsable()Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/sdk/imp/VastModel;->isUsed()Z
 
     move-result v0
@@ -1150,7 +1060,6 @@
 .method public isNonLinearParsing()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/VastModel;->nonLinearParsing:Z
 
     return v0
@@ -1159,7 +1068,6 @@
 .method public isUsable()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/sdk/imp/VastModel;->isUsed()Z
 
     move-result v0
@@ -1186,7 +1094,6 @@
 .method public isUsed()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/VastModel;->isUsed:Z
 
     return v0
@@ -1195,7 +1102,6 @@
 .method public isWapperType()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/VastModel;->isWapperType:Z
 
     return v0
@@ -1204,7 +1110,6 @@
 .method public isXmlFromCache()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/VastModel;->mIsXmlFromCache:Z
 
     return v0
@@ -1213,10 +1118,8 @@
 .method public setAd(Lcom/sdk/imp/internal/loader/Ad;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->ad:Lcom/sdk/imp/internal/loader/Ad;
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->adTitle:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1225,21 +1128,17 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->adTitle:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Lcom/sdk/imp/internal/loader/Ad;->setTitle(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     iget v0, p0, Lcom/sdk/imp/VastModel;->mtType:I
 
     if-lez v0, :cond_1
 
-    .line 5
     invoke-virtual {p1, v0}, Lcom/sdk/imp/internal/loader/Ad;->setMtType(I)V
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->deepLink:Ljava/lang/String;
 
@@ -1249,12 +1148,10 @@
 
     if-nez v0, :cond_2
 
-    .line 7
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->deepLink:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Lcom/sdk/imp/internal/loader/Ad;->setDeepLink(Ljava/lang/String;)V
 
-    .line 8
     :cond_2
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->clickThrough:Ljava/lang/String;
 
@@ -1264,7 +1161,6 @@
 
     if-nez v0, :cond_3
 
-    .line 9
     iget-object v0, p0, Lcom/sdk/imp/VastModel;->clickThrough:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Lcom/sdk/imp/internal/loader/Ad;->setPkgUrl(Ljava/lang/String;)V
@@ -1276,7 +1172,6 @@
 .method public setAdTitle(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->adTitle:Ljava/lang/String;
 
     return-void
@@ -1285,14 +1180,12 @@
 .method public setButtonTxt(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p1
@@ -1301,7 +1194,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     :try_start_0
     invoke-static {}, Lcom/sdk/api/a;->g()Landroid/content/Context;
@@ -1331,7 +1223,6 @@
 
     const-string v1, "stackerror:"
 
-    .line 4
     invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :goto_0
@@ -1341,7 +1232,6 @@
 .method public setClickThrough(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->clickThrough:Ljava/lang/String;
 
     return-void
@@ -1358,7 +1248,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->companionAds:Ljava/util/List;
 
     return-void
@@ -1367,7 +1256,6 @@
 .method public setCompanionParsing(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/VastModel;->companionParsing:Z
 
     return-void
@@ -1376,7 +1264,6 @@
 .method public setDeepLink(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->deepLink:Ljava/lang/String;
 
     return-void
@@ -1385,7 +1272,6 @@
 .method public setDescription(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->description:Ljava/lang/String;
 
     return-void
@@ -1394,7 +1280,6 @@
 .method public setDownloadNum(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->mDownloadNum:Ljava/lang/String;
 
     return-void
@@ -1403,7 +1288,6 @@
 .method public setDuration(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/sdk/imp/VastModel;->duration:J
 
     return-void
@@ -1412,7 +1296,6 @@
 .method public setExtensionParsing(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/VastModel;->extensionParsing:Z
 
     return-void
@@ -1421,7 +1304,6 @@
 .method public setIconParsing(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/VastModel;->iconParsing:Z
 
     return-void
@@ -1430,7 +1312,6 @@
 .method public setIconUrl(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->iconUrl:Ljava/lang/String;
 
     return-void
@@ -1439,7 +1320,6 @@
 .method public setId(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->id:Ljava/lang/String;
 
     return-void
@@ -1448,7 +1328,6 @@
 .method public setIsMediaFileFromCache(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/VastModel;->mIsMediaFileFromCache:Z
 
     return-void
@@ -1457,15 +1336,12 @@
 .method public setIsUsed(Z)V
     .locals 1
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/VastModel;->isUsed:Z
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/VastModel;->ad:Lcom/sdk/imp/internal/loader/Ad;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/Ad;->getPosid()Ljava/lang/String;
 
     move-result-object p1
@@ -1481,7 +1357,6 @@
 .method public setIsWapperType(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/VastModel;->isWapperType:Z
 
     return-void
@@ -1490,7 +1365,6 @@
 .method public setIsXmlFromCache(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/VastModel;->mIsXmlFromCache:Z
 
     return-void
@@ -1499,7 +1373,6 @@
 .method public setLinearParsing(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/VastModel;->linearParsing:Z
 
     return-void
@@ -1508,7 +1381,6 @@
 .method public setMType(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
 
@@ -1537,7 +1409,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->mediaFile:Ljava/util/List;
 
     return-void
@@ -1546,7 +1417,6 @@
 .method public setNonLinearParsing(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/VastModel;->nonLinearParsing:Z
 
     return-void
@@ -1555,7 +1425,6 @@
 .method public setPostRollImageUrl(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->postRollImageUrl:Ljava/lang/String;
 
     return-void
@@ -1564,7 +1433,6 @@
 .method public setRating(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Ljava/lang/Double;->valueOf(Ljava/lang/String;)Ljava/lang/Double;
 
@@ -1585,7 +1453,6 @@
 .method public setVastAdTagUrl(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->vastAdTagUrl:Ljava/lang/String;
 
     return-void
@@ -1594,7 +1461,6 @@
 .method public setVastTag(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel;->vastTag:Ljava/lang/String;
 
     return-void
@@ -1603,7 +1469,6 @@
 .method public setVideoFileLength(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/sdk/imp/VastModel;->videoFileLength:J
 
     return-void
@@ -1612,7 +1477,6 @@
 .method public setWapperFrequency(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/sdk/imp/VastModel;->wapperFrequency:I
 
     return-void
@@ -1621,7 +1485,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1722,7 +1585,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-virtual {v2}, Lcom/sdk/imp/VastModel$MediaFile;->getVideoUrl()Ljava/lang/String;
 
     move-result-object v2

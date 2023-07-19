@@ -36,13 +36,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lorg/greenrobot/greendao/l/a;-><init>(Lorg/greenrobot/greendao/a;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 2
     iput p4, p0, Lorg/greenrobot/greendao/l/c;->f:I
 
-    .line 3
     iput p5, p0, Lorg/greenrobot/greendao/l/c;->g:I
 
     return-void
@@ -53,7 +50,6 @@
 .method public bridge synthetic c(ILjava/lang/Object;)Lorg/greenrobot/greendao/l/a;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lorg/greenrobot/greendao/l/c;->h(ILjava/lang/Object;)Lorg/greenrobot/greendao/l/c;
 
     move-result-object p1
@@ -64,17 +60,14 @@
 .method public f(I)V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/a;->a()V
 
-    .line 2
     iget v0, p0, Lorg/greenrobot/greendao/l/c;->f:I
 
     const/4 v1, -0x1
 
     if-eq v0, v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lorg/greenrobot/greendao/l/a;->d:[Ljava/lang/String;
 
     invoke-static {p1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
@@ -85,7 +78,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -99,17 +91,14 @@
 .method public g(I)V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/a;->a()V
 
-    .line 2
     iget v0, p0, Lorg/greenrobot/greendao/l/c;->g:I
 
     const/4 v1, -0x1
 
     if-eq v0, v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lorg/greenrobot/greendao/l/a;->d:[Ljava/lang/String;
 
     invoke-static {p1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
@@ -120,7 +109,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -145,7 +133,6 @@
 
     if-ltz p1, :cond_1
 
-    .line 1
     iget v0, p0, Lorg/greenrobot/greendao/l/c;->f:I
 
     if-eq p1, v0, :cond_0
@@ -156,7 +143,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
@@ -178,7 +164,6 @@
 
     throw p2
 
-    .line 3
     :cond_1
     :goto_0
     invoke-super {p0, p1, p2}, Lorg/greenrobot/greendao/l/a;->c(ILjava/lang/Object;)Lorg/greenrobot/greendao/l/a;

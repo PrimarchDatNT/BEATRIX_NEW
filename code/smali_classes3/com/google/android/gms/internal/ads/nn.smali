@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/on;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v7, Landroid/webkit/WebResourceResponse;
 
     move-object v0, v7
@@ -65,7 +63,6 @@
 .method public final f(Lcom/google/android/gms/internal/ads/lu;Lcom/google/android/gms/internal/ads/mk2;Z)Lcom/google/android/gms/internal/ads/ou;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/qv;
 
     invoke-direct {v0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/qv;-><init>(Lcom/google/android/gms/internal/ads/lu;Lcom/google/android/gms/internal/ads/mk2;Z)V
@@ -76,7 +73,6 @@
 .method public final n(Landroid/content/Context;)Landroid/webkit/CookieManager;
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/hn;->s()Z
 
     move-result p1
@@ -87,7 +83,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {}, Landroid/webkit/CookieManager;->getInstance()Landroid/webkit/CookieManager;
@@ -103,10 +98,8 @@
 
     const-string v1, "Failed to obtain CookieManager."
 
-    .line 3
     invoke-static {v1, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 4
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object v1

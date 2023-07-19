@@ -26,12 +26,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/os/Binder;-><init>()V
 
     const-string v0, "com.google.android.gms.common.internal.IGmsServiceBroker"
 
-    .line 2
     invoke-virtual {p0, p0, v0}, Landroid/os/Binder;->attachInterface(Landroid/os/IInterface;Ljava/lang/String;)V
 
     return-void
@@ -59,7 +57,6 @@
 
     if-le p1, v0, :cond_0
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/os/Binder;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
 
     move-result p1
@@ -69,10 +66,8 @@
     :cond_0
     const-string p4, "com.google.android.gms.common.internal.IGmsServiceBroker"
 
-    .line 2
     invoke-virtual {p2, p4}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
 
     move-result-object p4
@@ -88,22 +83,18 @@
     :cond_1
     const-string v1, "com.google.android.gms.common.internal.IGmsCallbacks"
 
-    .line 4
     invoke-interface {p4, v1}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v1
 
-    .line 5
     instance-of v2, v1, Lcom/google/android/gms/common/internal/s;
 
     if-eqz v2, :cond_2
 
-    .line 6
     check-cast v1, Lcom/google/android/gms/common/internal/s;
 
     goto :goto_0
 
-    .line 7
     :cond_2
     new-instance v1, Lcom/google/android/gms/common/internal/k1;
 
@@ -116,14 +107,12 @@
 
     if-ne p1, p4, :cond_4
 
-    .line 8
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    .line 9
     sget-object p1, Lcom/google/android/gms/common/internal/GetServiceRequest;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
@@ -134,11 +123,9 @@
 
     check-cast v0, Lcom/google/android/gms/common/internal/GetServiceRequest;
 
-    .line 10
     :cond_3
     invoke-interface {p0, v1, v0}, Lcom/google/android/gms/common/internal/t;->b7(Lcom/google/android/gms/common/internal/s;Lcom/google/android/gms/common/internal/GetServiceRequest;)V
 
-    .line 11
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     return v2
@@ -148,19 +135,16 @@
 
     if-ne p1, p3, :cond_6
 
-    .line 12
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
 
     if-eqz p1, :cond_5
 
-    .line 13
     sget-object p1, Lcom/google/android/gms/common/internal/zzr;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
-    .line 14
     :cond_5
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
@@ -168,7 +152,6 @@
 
     throw p1
 
-    .line 15
     :cond_6
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
@@ -176,7 +159,6 @@
 
     if-eq p1, p3, :cond_7
 
-    .line 16
     invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     :cond_7
@@ -226,92 +208,74 @@
 
     goto :goto_1
 
-    .line 17
     :pswitch_0
     invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
 
-    .line 18
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
 
     if-eqz p1, :cond_c
 
-    .line 19
     sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 20
     :pswitch_1
     invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
-    .line 21
     invoke-virtual {p2}, Landroid/os/Parcel;->createStringArray()[Ljava/lang/String;
 
     goto :goto_1
 
-    .line 22
     :pswitch_2
     invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
-    .line 23
     invoke-virtual {p2}, Landroid/os/Parcel;->createStringArray()[Ljava/lang/String;
 
-    .line 24
     invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
-    .line 25
     invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
 
-    .line 26
     invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
-    .line 27
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
 
     if-eqz p1, :cond_c
 
-    .line 28
     sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 29
     :cond_8
     invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     goto :goto_1
 
-    .line 30
     :cond_9
     :pswitch_3
     invoke-virtual {p2}, Landroid/os/Parcel;->createStringArray()[Ljava/lang/String;
 
-    .line 31
     invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
-    .line 32
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
 
     if-eqz p1, :cond_c
 
-    .line 33
     sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 34
     :cond_a
     :pswitch_4
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
@@ -320,36 +284,29 @@
 
     if-eqz p1, :cond_c
 
-    .line 35
     sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 36
     :cond_b
     invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
-    .line 37
     invoke-virtual {p2}, Landroid/os/Parcel;->createStringArray()[Ljava/lang/String;
 
-    .line 38
     invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
-    .line 39
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
 
     if-eqz p1, :cond_c
 
-    .line 40
     sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
-    .line 41
     :cond_c
     :goto_1
     new-instance p1, Ljava/lang/UnsupportedOperationException;

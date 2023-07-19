@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/AutoCameraViewModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel$d;->a:Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel$d;->a:Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/autocamera/AutoCameraViewModel;->U0(Lcom/commsource/autocamera/AutoCameraViewModel;)Lcom/commsource/autocamera/AutoCameraViewModel$g;
@@ -51,7 +49,6 @@
 
     iput p1, v1, Lcom/commsource/autocamera/AutoCameraViewModel$g;->a:I
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel$d;->a:Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-static {p1}, Lcom/commsource/autocamera/AutoCameraViewModel;->U0(Lcom/commsource/autocamera/AutoCameraViewModel;)Lcom/commsource/autocamera/AutoCameraViewModel$g;
@@ -60,7 +57,6 @@
 
     iput-object p2, p1, Lcom/commsource/autocamera/AutoCameraViewModel$g;->b:Landroid/graphics/RectF;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel$d;->a:Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-static {p1}, Lcom/commsource/autocamera/AutoCameraViewModel;->U0(Lcom/commsource/autocamera/AutoCameraViewModel;)Lcom/commsource/autocamera/AutoCameraViewModel$g;
@@ -69,7 +65,6 @@
 
     iput p3, p1, Lcom/commsource/autocamera/AutoCameraViewModel$g;->c:F
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel$d;->a:Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-static {p1}, Lcom/commsource/autocamera/AutoCameraViewModel;->U0(Lcom/commsource/autocamera/AutoCameraViewModel;)Lcom/commsource/autocamera/AutoCameraViewModel$g;
@@ -78,7 +73,6 @@
 
     iput p4, p1, Lcom/commsource/autocamera/AutoCameraViewModel$g;->d:F
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel$d;->a:Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-static {p1}, Lcom/commsource/autocamera/AutoCameraViewModel;->U0(Lcom/commsource/autocamera/AutoCameraViewModel;)Lcom/commsource/autocamera/AutoCameraViewModel$g;
@@ -87,7 +81,6 @@
 
     iput p5, p1, Lcom/commsource/autocamera/AutoCameraViewModel$g;->e:I
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel$d;->a:Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/autocamera/AutoCameraViewModel;->c1()Landroidx/lifecycle/MutableLiveData;
@@ -102,7 +95,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

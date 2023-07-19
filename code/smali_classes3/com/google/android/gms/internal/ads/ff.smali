@@ -15,7 +15,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/ads/ff;-><init>(Lcom/google/android/gms/internal/ads/lu;Ljava/lang/String;)V
 
     return-void
@@ -24,13 +23,10 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/lu;Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ff;->a:Lcom/google/android/gms/internal/ads/lu;
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ff;->b:Ljava/lang/String;
 
     return-void
@@ -41,7 +37,6 @@
 .method public final b(IIIIFI)V
     .locals 2
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
@@ -49,28 +44,24 @@
 
     const-string v1, "width"
 
-    .line 2
     invoke-virtual {v0, v1, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     move-result-object p1
 
     const-string v0, "height"
 
-    .line 3
     invoke-virtual {p1, v0, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     move-result-object p1
 
     const-string p2, "maxSizeWidth"
 
-    .line 4
     invoke-virtual {p1, p2, p3}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     move-result-object p1
 
     const-string p2, "maxSizeHeight"
 
-    .line 5
     invoke-virtual {p1, p2, p4}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -79,19 +70,16 @@
 
     float-to-double p3, p5
 
-    .line 6
     invoke-virtual {p1, p2, p3, p4}, Lorg/json/JSONObject;->put(Ljava/lang/String;D)Lorg/json/JSONObject;
 
     move-result-object p1
 
     const-string p2, "rotation"
 
-    .line 7
     invoke-virtual {p1, p2, p6}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     move-result-object p1
 
-    .line 8
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/ff;->a:Lcom/google/android/gms/internal/ads/lu;
 
     const-string p3, "onScreenInfoChanged"
@@ -107,7 +95,6 @@
 
     const-string p2, "Error occurred while obtaining screen information."
 
-    .line 9
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -116,7 +103,6 @@
 .method public final c(IIII)V
     .locals 2
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
@@ -124,7 +110,6 @@
 
     const-string v1, "x"
 
-    .line 2
     invoke-virtual {v0, v1, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -147,7 +132,6 @@
 
     move-result-object p1
 
-    .line 3
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/ff;->a:Lcom/google/android/gms/internal/ads/lu;
 
     const-string p3, "onSizeChanged"
@@ -163,7 +147,6 @@
 
     const-string p2, "Error occurred while dispatching size change."
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -172,7 +155,6 @@
 .method public final d(IIII)V
     .locals 2
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
@@ -180,7 +162,6 @@
 
     const-string v1, "x"
 
-    .line 2
     invoke-virtual {v0, v1, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -203,7 +184,6 @@
 
     move-result-object p1
 
-    .line 3
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/ff;->a:Lcom/google/android/gms/internal/ads/lu;
 
     const-string p3, "onDefaultPositionReceived"
@@ -219,7 +199,6 @@
 
     const-string p2, "Error occurred while dispatching default position."
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -228,7 +207,6 @@
 .method public final e(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
@@ -248,14 +226,12 @@
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ff;->a:Lcom/google/android/gms/internal/ads/lu;
 
     if-eqz v0, :cond_0
 
     const-string v1, "onError"
 
-    .line 3
     invoke-interface {v0, v1, p1}, Lcom/google/android/gms/internal/ads/i8;->b(Ljava/lang/String;Lorg/json/JSONObject;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
@@ -268,7 +244,6 @@
 
     const-string v0, "Error occurred while dispatching error event."
 
-    .line 4
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -277,7 +252,6 @@
 .method public final f(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
@@ -289,7 +263,6 @@
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ff;->a:Lcom/google/android/gms/internal/ads/lu;
 
     const-string v1, "onReadyEventReceived"
@@ -305,7 +278,6 @@
 
     const-string v0, "Error occurred while dispatching ready Event."
 
-    .line 3
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -314,7 +286,6 @@
 .method public final g(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
@@ -326,7 +297,6 @@
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ff;->a:Lcom/google/android/gms/internal/ads/lu;
 
     const-string v1, "onStateChanged"
@@ -342,7 +312,6 @@
 
     const-string v0, "Error occurred while dispatching state change."
 
-    .line 3
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

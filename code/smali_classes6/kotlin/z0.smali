@@ -28,7 +28,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/Pair;
 
     invoke-direct {v0, p0, p1}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -65,7 +64,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v1
@@ -118,7 +116,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v1

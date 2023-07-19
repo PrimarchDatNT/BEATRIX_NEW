@@ -32,10 +32,8 @@
 .method public constructor <init>(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/k/c/b/h/c;->a:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     return-void
@@ -48,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/c/b/h/c;->b()Z
 
     move-result p0
@@ -65,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/c;->b:Landroid/view/View;
 
     if-nez v1, :cond_0
@@ -105,10 +101,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lf/k/c/b/h/c;->c:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -121,10 +115,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/c/b/h/c;->b:Landroid/view/View;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -137,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/c/b/h/c;->b()Z
 
     move-result v1
@@ -146,12 +137,10 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/c/b/h/c;->a:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
@@ -171,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/c/b/h/c;->b()Z
 
     move-result v1
@@ -180,12 +168,10 @@
 
     const p1, 0x7ffffffe
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/c/b/h/c;->a:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
@@ -205,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/c;->a:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     new-instance v2, Lf/k/c/b/h/c$a;
@@ -214,7 +199,6 @@
 
     invoke-static {v1, p1, v2}, Lf/k/c/b/g/a;->a(Landroidx/recyclerview/widget/RecyclerView$Adapter;Landroidx/recyclerview/widget/RecyclerView;Lf/k/c/b/g/a$b;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -227,25 +211,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/c/b/h/c;->b()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/c/b/h/c;->a:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     invoke-virtual {v1, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -258,19 +238,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/c/b/h/c;->b()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object p2, p0, Lf/k/c/b/h/c;->b:Landroid/view/View;
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -283,7 +260,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
@@ -295,13 +271,11 @@
 
     move-result-object p1
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lf/k/c/b/h/c;->a:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
@@ -321,22 +295,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/c;->a:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 
-    .line 2
     invoke-direct {p0}, Lf/k/c/b/h/c;->b()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {p1}, Lf/k/c/b/g/a;->b(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

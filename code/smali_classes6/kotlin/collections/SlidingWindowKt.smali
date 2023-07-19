@@ -28,7 +28,6 @@
 
     if-eq p0, p1, :cond_1
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -53,7 +52,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -71,7 +69,6 @@
 
     move-result-object p0
 
-    .line 3
     :goto_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -113,7 +110,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -124,7 +120,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v7, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;
 
@@ -177,10 +172,8 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1, p2}, Lcotlin/collections/SlidingWindowKt;->a(II)V
 
-    .line 2
     new-instance v0, Lcotlin/collections/SlidingWindowKt$a;
 
     move-object v1, v0

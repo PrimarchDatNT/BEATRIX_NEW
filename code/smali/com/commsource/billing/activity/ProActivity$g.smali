@@ -42,14 +42,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/billing/activity/ProActivity$g;->a:Lcom/commsource/billing/activity/ProActivity;
 
     const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lcom/commsource/billing/activity/ProActivity;->e1(Lcom/commsource/billing/activity/ProActivity;Z)V
 
-    .line 2
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity$g;->a:Lcom/commsource/billing/activity/ProActivity;
@@ -58,7 +56,6 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 3
     sget-object v1, Lcom/commsource/beautyplus/d0/a;->c:Lcom/commsource/beautyplus/d0/a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/d0/a;->b()Ljava/lang/String;
@@ -69,12 +66,10 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity$g;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-virtual {v1, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

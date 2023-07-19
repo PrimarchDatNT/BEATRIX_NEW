@@ -44,7 +44,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -59,22 +58,18 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/IndicatorLineView$a;->a:Lcom/commsource/widget/IndicatorLineView;
 
     invoke-static {v1, p1}, Lcom/commsource/widget/IndicatorLineView;->c(Lcom/commsource/widget/IndicatorLineView;F)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/IndicatorLineView$a;->a:Lcom/commsource/widget/IndicatorLineView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

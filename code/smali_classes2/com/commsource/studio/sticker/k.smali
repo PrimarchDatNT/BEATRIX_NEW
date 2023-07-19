@@ -40,12 +40,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentStatePagerAdapter;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/commsource/studio/sticker/k;->c:I
 
     return-void
@@ -62,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/k;->b:Lcom/commsource/studio/sticker/StickerPagerFragment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -77,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sticker/k;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -103,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/k;->a:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -122,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/k;->b:Lcom/commsource/studio/sticker/StickerPagerFragment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -137,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sticker/k;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -164,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/k;->a:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -179,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/k;->a:Ljava/util/List;
 
     if-eqz v1, :cond_0
@@ -208,7 +199,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/sticker/StickerPagerFragment;
 
     invoke-direct {v0}, Lcom/commsource/studio/sticker/StickerPagerFragment;-><init>()V
@@ -233,7 +223,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, -0x2
@@ -258,7 +247,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/FragmentStatePagerAdapter;->instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
 
     move-result-object p1
@@ -267,7 +255,6 @@
 
     check-cast p1, Lcom/commsource/studio/sticker/StickerPagerFragment;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/k;->a:Ljava/util/List;
 
     if-eqz v1, :cond_0
@@ -286,12 +273,10 @@
     :goto_0
     invoke-virtual {p1, p2}, Lcom/commsource/studio/sticker/StickerPagerFragment;->I(Lcom/meitu/template/bean/StickerGroup;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 4
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -311,10 +296,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/viewpager/widget/PagerAdapter;->notifyDataSetChanged()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -343,7 +326,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/k;->b:Lcom/commsource/studio/sticker/StickerPagerFragment;
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -354,21 +336,17 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     move-object v1, p3
 
     check-cast v1, Lcom/commsource/studio/sticker/StickerPagerFragment;
 
     iput-object v1, p0, Lcom/commsource/studio/sticker/k;->b:Lcom/commsource/studio/sticker/StickerPagerFragment;
 
-    .line 3
     :cond_0
     iput p2, p0, Lcom/commsource/studio/sticker/k;->c:I
 
-    .line 4
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/FragmentStatePagerAdapter;->setPrimaryItem(Landroid/view/ViewGroup;ILjava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

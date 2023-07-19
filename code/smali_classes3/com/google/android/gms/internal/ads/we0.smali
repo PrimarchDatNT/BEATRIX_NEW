@@ -38,7 +38,6 @@
 .method public final onAdLoaded()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/we0;->a:Landroid/content/Context;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/we0;->b:Lcom/google/android/gms/internal/ads/zzbbd;
@@ -47,7 +46,6 @@
 
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/we0;->d:Lcom/google/android/gms/internal/ads/kh1;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->m()Lcom/google/android/gms/internal/ads/do;
 
     move-result-object v4
@@ -56,14 +54,12 @@
 
     iget-object v2, v2, Lcom/google/android/gms/internal/ads/ug1;->z:Lorg/json/JSONObject;
 
-    .line 3
     invoke-virtual {v2}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object v2
 
     iget-object v3, v3, Lcom/google/android/gms/internal/ads/kh1;->f:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v4, v0, v1, v2, v3}, Lcom/google/android/gms/internal/ads/do;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 
     return-void

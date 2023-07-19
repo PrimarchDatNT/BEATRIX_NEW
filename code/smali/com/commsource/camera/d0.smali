@@ -19,7 +19,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -36,7 +35,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
     return-void

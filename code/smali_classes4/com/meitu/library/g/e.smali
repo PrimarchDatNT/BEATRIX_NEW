@@ -166,7 +166,6 @@
 
     const-string v3, "/data"
 
-    .line 1
     invoke-static {v1, v2, v3}, Lcom/meitu/library/g/e$a;->a(Lcom/meitu/library/g/e$a;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
 
     move-result-object v1
@@ -189,14 +188,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/library/g/e;->b:Landroid/content/Context;
 
     const-string v0, "window"
 
-    .line 2
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -234,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/library/g/e;
@@ -285,7 +281,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -306,12 +301,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/util/DisplayMetrics;
 
     invoke-direct {v1}, Landroid/util/DisplayMetrics;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/g/e;->b:Landroid/content/Context;
 
     const-string v3, "window"
@@ -322,7 +315,6 @@
 
     check-cast v2, Landroid/view/WindowManager;
 
-    .line 3
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v4, 0x11
@@ -331,7 +323,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-interface {v2}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     move-result-object v2
@@ -345,7 +336,6 @@
     :cond_0
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-interface {v2}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     move-result-object v2
@@ -354,12 +344,10 @@
 
     invoke-virtual {v2, v1}, Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
 
-    .line 6
     :cond_1
     :goto_0
     iget v2, v1, Landroid/util/DisplayMetrics;->widthPixels:I
 
-    .line 7
     iget v1, v1, Landroid/util/DisplayMetrics;->heightPixels:I
 
     const/4 v3, 0x2
@@ -368,7 +356,6 @@
 
     const/4 v4, 0x0
 
-    .line 8
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -395,7 +382,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -410,7 +396,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build;->SERIAL:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -427,14 +412,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x15
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     sget-object v1, Landroid/os/Build;->SUPPORTED_ABIS:[Ljava/lang/String;
 
     const-string v2, "Build.SUPPORTED_ABIS"
@@ -450,7 +433,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     sget-object v3, Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
 
     const-string v4, "Build.CPU_ABI"
@@ -459,7 +441,6 @@
 
     aput-object v3, v1, v2
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -473,7 +454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->q()J
 
     move-result-wide v1
@@ -494,7 +474,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->p()J
 
     move-result-wide v1
@@ -527,12 +506,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->j()Ljava/lang/String;
 
     move-result-object v2
@@ -545,7 +522,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->A()[Ljava/lang/Integer;
 
     move-result-object v2
@@ -554,7 +530,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->E()F
 
     move-result v2
@@ -567,7 +542,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->v()Ljava/lang/String;
 
     move-result-object v2
@@ -576,7 +550,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->d()I
 
     move-result v2
@@ -589,7 +562,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->D()[Ljava/lang/String;
 
     move-result-object v2
@@ -598,7 +570,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->w()Ljava/lang/String;
 
     move-result-object v2
@@ -607,7 +578,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->x()Ljava/lang/String;
 
     move-result-object v2
@@ -616,7 +586,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->B()I
 
     move-result v2
@@ -629,7 +598,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->i()I
 
     move-result v2
@@ -642,7 +610,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->z()Ljava/lang/Object;
 
     move-result-object v2
@@ -651,7 +618,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->y()Ljava/lang/String;
 
     move-result-object v2
@@ -660,7 +626,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->f()Ljava/lang/String;
 
     move-result-object v2
@@ -669,7 +634,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 15
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->u()Ljava/lang/String;
 
     move-result-object v2
@@ -678,7 +642,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->s()Ljava/lang/String;
 
     move-result-object v2
@@ -687,7 +650,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->C()Ljava/lang/String;
 
     move-result-object v2
@@ -696,7 +658,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 18
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->l()Ljava/lang/String;
 
     move-result-object v2
@@ -705,7 +666,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 19
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->e()Ljava/lang/String;
 
     move-result-object v2
@@ -714,7 +674,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 20
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->k()[Ljava/lang/String;
 
     move-result-object v2
@@ -723,7 +682,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->F()F
 
     move-result v2
@@ -736,7 +694,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 22
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->c()F
 
     move-result v2
@@ -749,7 +706,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -762,7 +718,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->m()J
 
     move-result-wide v1
@@ -783,7 +738,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v1
@@ -811,14 +765,12 @@
     :try_start_0
     const-string v2, "android.os.SystemProperties"
 
-    .line 1
     invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-virtual {v2}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
     move-result-object v3
@@ -837,7 +789,6 @@
 
     aput-object v0, v6, v8
 
-    .line 3
     invoke-virtual {v2, v4, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
@@ -852,7 +803,6 @@
 
     aput-object v4, v2, v8
 
-    .line 4
     sget-object v4, Lcom/meitu/library/g/e;->C:Lorg/aspectj/lang/c$b;
 
     invoke-static {v4, p0, v0, v3, v2}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -895,7 +845,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -908,7 +857,6 @@
     :cond_0
     const-string v0, ""
 
-    .line 6
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -922,7 +870,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build;->BOARD:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -945,7 +892,6 @@
 
     div-float/2addr p1, p2
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -966,7 +912,6 @@
 
     div-float/2addr p1, p2
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -979,7 +924,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/e;->b:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -1008,7 +952,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build;->DEVICE:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1025,7 +968,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/e;->b:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
@@ -1034,21 +976,18 @@
 
     const-string v2, "pm"
 
-    .line 2
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/content/pm/PackageManager;->getSystemAvailableFeatures()[Landroid/content/pm/FeatureInfo;
 
     move-result-object v1
 
-    .line 3
     array-length v2, v1
 
     new-array v2, v2, [Ljava/lang/String;
 
     const-string v3, "featureInfos"
 
-    .line 4
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     array-length v3, v1
@@ -1058,7 +997,6 @@
     :goto_0
     if-ge v4, v3, :cond_0
 
-    .line 5
     aget-object v5, v1, v4
 
     iget-object v5, v5, Landroid/content/pm/FeatureInfo;->name:Ljava/lang/String;
@@ -1069,7 +1007,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1083,7 +1020,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build;->FINGERPRINT:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1098,12 +1034,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->o()Ljava/io/File;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Landroid/os/StatFs;
 
     invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
@@ -1112,26 +1046,22 @@
 
     invoke-direct {v2, v1}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 3
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v3, 0x12
 
     if-lt v1, v3, :cond_0
 
-    .line 4
     invoke-virtual {v2}, Landroid/os/StatFs;->getBlockSizeLong()J
 
     move-result-wide v3
 
-    .line 5
     invoke-virtual {v2}, Landroid/os/StatFs;->getAvailableBlocksLong()J
 
     move-result-wide v1
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v2}, Landroid/os/StatFs;->getBlockSize()I
 
@@ -1139,7 +1069,6 @@
 
     int-to-long v3, v1
 
-    .line 7
     invoke-virtual {v2}, Landroid/os/StatFs;->getAvailableBlocks()I
 
     move-result v1
@@ -1149,7 +1078,6 @@
     :goto_0
     mul-long v1, v1, v3
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v1
@@ -1164,7 +1092,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/e;->b:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1181,7 +1108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/g/e;->d:Ljava/io/File;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1196,12 +1122,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/g/e;->o()Ljava/io/File;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Landroid/os/StatFs;
 
     invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
@@ -1210,26 +1134,22 @@
 
     invoke-direct {v2, v1}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 3
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v3, 0x12
 
     if-lt v1, v3, :cond_0
 
-    .line 4
     invoke-virtual {v2}, Landroid/os/StatFs;->getBlockSizeLong()J
 
     move-result-wide v3
 
-    .line 5
     invoke-virtual {v2}, Landroid/os/StatFs;->getBlockCountLong()J
 
     move-result-wide v1
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v2}, Landroid/os/StatFs;->getBlockSize()I
 
@@ -1237,7 +1157,6 @@
 
     int-to-long v3, v1
 
-    .line 7
     invoke-virtual {v2}, Landroid/os/StatFs;->getBlockCount()I
 
     move-result v1
@@ -1247,7 +1166,6 @@
     :goto_0
     mul-long v1, v1, v3
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v1
@@ -1260,19 +1178,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x10
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     new-instance v1, Landroid/app/ActivityManager$MemoryInfo;
 
     invoke-direct {v1}, Landroid/app/ActivityManager$MemoryInfo;-><init>()V
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/library/g/e;->b:Landroid/content/Context;
 
     const-string v3, "activity"
@@ -1285,10 +1200,8 @@
 
     if-eqz v2, :cond_2
 
-    .line 4
     invoke-virtual {v2, v1}, Landroid/app/ActivityManager;->getMemoryInfo(Landroid/app/ActivityManager$MemoryInfo;)V
 
-    .line 5
     iget-wide v1, v1, Landroid/app/ActivityManager$MemoryInfo;->totalMem:J
 
     goto :goto_2
@@ -1296,7 +1209,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 6
     :try_start_0
     new-instance v2, Ljava/io/RandomAccessFile;
 
@@ -1309,7 +1221,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_3
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 7
     :try_start_1
     invoke-virtual {v2}, Ljava/io/RandomAccessFile;->readLine()Ljava/lang/String;
 
@@ -1331,7 +1242,6 @@
 
     move-result-object v1
 
-    .line 8
     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v1
@@ -1341,7 +1251,6 @@
 
     int-to-long v3, v1
 
-    .line 9
     :try_start_2
     invoke-virtual {v2}, Ljava/io/RandomAccessFile;->close()V
     :try_end_2
@@ -1379,7 +1288,6 @@
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_2
 
-    .line 10
     :catch_2
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1392,7 +1300,6 @@
     :goto_1
     if-eqz v1, :cond_2
 
-    .line 11
     :try_start_4
     invoke-virtual {v1}, Ljava/io/RandomAccessFile;->close()V
     :try_end_4
@@ -1402,7 +1309,6 @@
     :cond_2
     const-wide/16 v1, 0x0
 
-    .line 12
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1422,7 +1328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/e;->b:Landroid/content/Context;
 
     const-string v2, "phone"
@@ -1435,7 +1340,6 @@
 
     check-cast v1, Landroid/telephony/TelephonyManager;
 
-    .line 2
     invoke-virtual {v1}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
     move-result-object v1
@@ -1452,7 +1356,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1472,7 +1375,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build$VERSION;->INCREMENTAL:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1489,7 +1391,6 @@
 
     const-string v1, "java.vm.version"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -1508,7 +1409,6 @@
 
     const-string v1, "os.version"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -1525,7 +1425,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1540,7 +1439,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1555,7 +1453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build;->PRODUCT:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1572,7 +1469,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/e;->a:Landroid/view/Display;
 
     invoke-virtual {v1}, Landroid/view/Display;->getRefreshRate()F

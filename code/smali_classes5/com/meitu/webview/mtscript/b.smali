@@ -11,7 +11,6 @@
 .method public constructor <init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/webview/mtscript/i;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
     return-void
@@ -26,7 +25,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -41,20 +39,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/app/Activity;->finish()V
 
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

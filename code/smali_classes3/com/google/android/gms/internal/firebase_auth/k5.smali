@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/j5;->a:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     const/4 v1, 0x1
@@ -43,7 +42,6 @@
 
     const/4 v0, 0x2
 
-    .line 2
     invoke-static {p0, v0, p2}, Lcom/google/android/gms/internal/firebase_auth/c4;->e(Lcom/google/android/gms/internal/firebase_auth/zzlb;ILjava/lang/Object;)I
 
     move-result p0
@@ -74,14 +72,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p1, Lcom/google/android/gms/internal/firebase_auth/j5;->a:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     const/4 v1, 0x1
 
     invoke-static {p0, v0, v1, p2}, Lcom/google/android/gms/internal/firebase_auth/c4;->g(Lcom/google/android/gms/internal/firebase_auth/zzha;Lcom/google/android/gms/internal/firebase_auth/zzlb;ILjava/lang/Object;)V
 
-    .line 2
     iget-object p1, p1, Lcom/google/android/gms/internal/firebase_auth/j5;->c:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     const/4 p2, 0x2

@@ -68,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/gid/base/p$e;->a()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -79,7 +78,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -92,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/library/gid/base/p$e;
@@ -171,7 +168,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -188,7 +184,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -208,7 +203,6 @@
     :try_start_0
     const-string v1, "android.permission.READ_PHONE_STATE"
 
-    .line 1
     invoke-static {p0, v1}, Lcom/meitu/library/gid/base/q0/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
@@ -217,7 +211,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -226,7 +219,6 @@
     :try_start_1
     const-string v1, "phone"
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -237,12 +229,10 @@
 
     if-nez p0, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 5
     :cond_1
     :try_start_2
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getSimState()I
@@ -253,7 +243,6 @@
 
     if-ne v1, v2, :cond_2
 
-    .line 6
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getNetworkOperatorName()Ljava/lang/String;
 
     move-result-object p0
@@ -262,18 +251,15 @@
 
     if-eqz p0, :cond_2
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 9
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -291,12 +277,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {}, Lcom/meitu/library/gid/base/u;->x()Lcom/meitu/library/gid/base/u;
@@ -307,12 +291,10 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 4
     :cond_1
     :try_start_1
     invoke-virtual {v2}, Lcom/meitu/library/gid/base/u;->y()Z
@@ -323,7 +305,6 @@
 
     if-nez v2, :cond_2
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -332,7 +313,6 @@
     :try_start_2
     const-string v2, "android.permission.ACCESS_WIFI_STATE"
 
-    .line 6
     invoke-static {p0, v2}, Lcom/meitu/library/gid/base/q0/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
@@ -341,7 +321,6 @@
 
     if-nez v2, :cond_3
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -350,7 +329,6 @@
     :try_start_3
     const-string v2, "wifi"
 
-    .line 8
     invoke-virtual {p0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -361,12 +339,10 @@
 
     if-nez p0, :cond_4
 
-    .line 9
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 10
     :cond_4
     :try_start_4
     invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
@@ -377,12 +353,10 @@
 
     if-nez p0, :cond_5
 
-    .line 11
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 12
     :cond_5
     :try_start_5
     invoke-virtual {p0}, Landroid/net/wifi/WifiInfo;->getIpAddress()I
@@ -393,12 +367,10 @@
 
     if-nez p0, :cond_6
 
-    .line 13
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 14
     :cond_6
     :try_start_6
     new-instance v2, Ljava/lang/StringBuilder;
@@ -443,7 +415,6 @@
 
     return-object p0
 
-    .line 15
     :catch_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -459,19 +430,16 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {}, Lcom/meitu/library/gid/base/u;->x()Lcom/meitu/library/gid/base/u;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/library/gid/base/u;->y()Z
 
     move-result v1
@@ -480,7 +448,6 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -489,7 +456,6 @@
     :try_start_1
     const-string v1, "android.permission.ACCESS_WIFI_STATE"
 
-    .line 5
     invoke-static {p0, v1}, Lcom/meitu/library/gid/base/q0/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
@@ -498,7 +464,6 @@
 
     if-nez v1, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -507,7 +472,6 @@
     :try_start_2
     const-string v1, "wifi"
 
-    .line 7
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -518,12 +482,10 @@
 
     if-nez p0, :cond_3
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 9
     :cond_3
     :try_start_3
     invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
@@ -534,12 +496,10 @@
 
     if-nez p0, :cond_4
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 11
     :cond_4
     :try_start_4
     invoke-virtual {p0}, Landroid/net/wifi/WifiInfo;->getMacAddress()Ljava/lang/String;
@@ -552,13 +512,11 @@
 
     move-object p1, p0
 
-    .line 12
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 13
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -574,12 +532,10 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 2
     :pswitch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -587,7 +543,6 @@
 
     return-object p0
 
-    .line 3
     :pswitch_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -595,7 +550,6 @@
 
     return-object p0
 
-    .line 4
     :pswitch_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -634,7 +588,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -643,7 +596,6 @@
     :try_start_0
     const-string v1, "android.permission.ACCESS_NETWORK_STATE"
 
-    .line 2
     invoke-static {p0, v1}, Lcom/meitu/library/gid/base/q0/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
@@ -652,7 +604,6 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -661,7 +612,6 @@
     :try_start_1
     const-string v1, "android.permission.INTERNET"
 
-    .line 4
     invoke-static {p0, v1}, Lcom/meitu/library/gid/base/q0/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
@@ -670,7 +620,6 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -679,7 +628,6 @@
     :try_start_2
     const-string v1, "connectivity"
 
-    .line 6
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -690,12 +638,10 @@
 
     if-nez p0, :cond_3
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 8
     :cond_3
     :try_start_3
     sget-object v1, Lcom/meitu/library/gid/base/p$e;->v:Lorg/aspectj/lang/c$b;
@@ -740,7 +686,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 9
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result v2
@@ -749,7 +694,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_4
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->getType()I
 
@@ -761,7 +705,6 @@
 
     if-eq v2, p0, :cond_5
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -772,12 +715,10 @@
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_0
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 13
     :cond_6
     :try_start_5
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->getSubtype()I
@@ -801,12 +742,10 @@
     :try_end_6
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_0
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 15
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -824,7 +763,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -833,7 +771,6 @@
     :try_start_0
     const-string v2, "android.permission.ACCESS_NETWORK_STATE"
 
-    .line 2
     invoke-static {p0, v2}, Lcom/meitu/library/gid/base/q0/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
@@ -842,7 +779,6 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -851,7 +787,6 @@
     :try_start_1
     const-string v2, "android.permission.INTERNET"
 
-    .line 4
     invoke-static {p0, v2}, Lcom/meitu/library/gid/base/q0/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
@@ -860,7 +795,6 @@
 
     if-nez v2, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -869,7 +803,6 @@
     :try_start_2
     const-string v2, "connectivity"
 
-    .line 6
     invoke-virtual {p0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -880,12 +813,10 @@
 
     if-nez p0, :cond_3
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 8
     :cond_3
     :try_start_3
     invoke-virtual {p0, v1}, Landroid/net/ConnectivityManager;->getNetworkInfo(I)Landroid/net/NetworkInfo;
@@ -894,7 +825,6 @@
 
     if-eqz p0, :cond_4
 
-    .line 9
     invoke-virtual {p0}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result p0
@@ -910,7 +840,6 @@
 
     return v1
 
-    .line 10
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -928,7 +857,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -937,7 +865,6 @@
     :try_start_0
     const-string v2, "android.permission.ACCESS_NETWORK_STATE"
 
-    .line 2
     invoke-static {p0, v2}, Lcom/meitu/library/gid/base/q0/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
@@ -946,7 +873,6 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -955,7 +881,6 @@
     :try_start_1
     const-string v2, "android.permission.INTERNET"
 
-    .line 4
     invoke-static {p0, v2}, Lcom/meitu/library/gid/base/q0/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
@@ -964,7 +889,6 @@
 
     if-nez v2, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -973,7 +897,6 @@
     :try_start_2
     const-string v2, "connectivity"
 
-    .line 6
     invoke-virtual {p0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -984,12 +907,10 @@
 
     if-nez p0, :cond_3
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 8
     :cond_3
     :try_start_3
     sget-object v2, Lcom/meitu/library/gid/base/p$e;->u:Lorg/aspectj/lang/c$b;
@@ -1032,7 +953,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 9
     invoke-virtual {v2}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result v2
@@ -1048,7 +968,6 @@
 
     return v1
 
-    .line 10
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1066,7 +985,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1075,7 +993,6 @@
     :try_start_0
     const-string v2, "android.permission.ACCESS_NETWORK_STATE"
 
-    .line 2
     invoke-static {p0, v2}, Lcom/meitu/library/gid/base/q0/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
@@ -1084,7 +1001,6 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1093,7 +1009,6 @@
     :try_start_1
     const-string v2, "android.permission.INTERNET"
 
-    .line 4
     invoke-static {p0, v2}, Lcom/meitu/library/gid/base/q0/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
@@ -1102,7 +1017,6 @@
 
     if-nez v2, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1111,7 +1025,6 @@
     :try_start_2
     const-string v2, "connectivity"
 
-    .line 6
     invoke-virtual {p0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1122,7 +1035,6 @@
 
     if-nez p0, :cond_3
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1130,7 +1042,6 @@
     :cond_3
     const/4 v2, 0x1
 
-    .line 8
     :try_start_3
     invoke-virtual {p0, v2}, Landroid/net/ConnectivityManager;->getNetworkInfo(I)Landroid/net/NetworkInfo;
 
@@ -1138,7 +1049,6 @@
 
     if-eqz p0, :cond_4
 
-    .line 9
     invoke-virtual {p0}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result p0
@@ -1154,7 +1064,6 @@
 
     return v1
 
-    .line 10
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

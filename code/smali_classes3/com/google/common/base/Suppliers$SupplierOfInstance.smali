@@ -60,10 +60,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/base/Suppliers$SupplierOfInstance;->instance:Ljava/lang/Object;
 
     return-void
@@ -78,15 +76,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/base/Suppliers$SupplierOfInstance;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/base/Suppliers$SupplierOfInstance;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/base/Suppliers$SupplierOfInstance;->instance:Ljava/lang/Object;
 
     iget-object p1, p1, Lcom/google/common/base/Suppliers$SupplierOfInstance;->instance:Ljava/lang/Object;
@@ -111,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/Suppliers$SupplierOfInstance;->instance:Ljava/lang/Object;
 
     return-object v0
@@ -124,7 +118,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lcom/google/common/base/Suppliers$SupplierOfInstance;->instance:Ljava/lang/Object;
 
     const/4 v2, 0x0
@@ -141,7 +134,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

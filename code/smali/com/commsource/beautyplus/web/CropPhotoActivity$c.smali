@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$c;->a:Lcom/commsource/beautyplus/f0/o;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o;->b:Lcom/commsource/beautymain/widget/EditCropView;
@@ -59,7 +58,6 @@
 
     move-result v1
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$c;->a:Lcom/commsource/beautyplus/f0/o;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/o;->b:Lcom/commsource/beautymain/widget/EditCropView;
@@ -70,7 +68,6 @@
 
     move-result v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$c;->b:Lcom/commsource/beautyplus/web/CropPhotoActivity;
 
     invoke-static {v3}, Lcom/commsource/beautyplus/web/CropPhotoActivity;->N0(Lcom/commsource/beautyplus/web/CropPhotoActivity;)Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -86,7 +83,6 @@
 
     move-result v3
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$c;->b:Lcom/commsource/beautyplus/web/CropPhotoActivity;
 
     invoke-static {v4}, Lcom/commsource/beautyplus/web/CropPhotoActivity;->N0(Lcom/commsource/beautyplus/web/CropPhotoActivity;)Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -102,12 +98,10 @@
 
     move-result v4
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$c;->b:Lcom/commsource/beautyplus/web/CropPhotoActivity;
 
     invoke-static {v5, v1, v2, v3, v4}, Lcom/commsource/beautyplus/web/CropPhotoActivity;->Q0(Lcom/commsource/beautyplus/web/CropPhotoActivity;IIII)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

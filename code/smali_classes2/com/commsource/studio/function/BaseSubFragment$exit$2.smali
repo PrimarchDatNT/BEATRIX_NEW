@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment$exit$2;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,14 +70,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$exit$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/BaseSubFragment;->z(Lcom/commsource/studio/function/BaseSubFragment;)Ljava/util/LinkedList;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -96,7 +93,6 @@
 
     check-cast v2, Lcom/commsource/studio/layer/d;
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/function/BaseSubFragment$exit$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v3}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -111,7 +107,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$exit$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -127,7 +122,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object v1
@@ -142,10 +136,8 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$exit$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -161,7 +153,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$exit$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -180,12 +171,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/BaseLayer;->j0(Z)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$exit$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->H()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

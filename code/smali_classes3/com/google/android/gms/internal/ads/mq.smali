@@ -34,10 +34,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/lq;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/mq;->b:Ljava/lang/Object;
 
     return-void
@@ -55,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/mq;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/mq;-><init>(Ljava/lang/Object;)V
@@ -68,7 +65,6 @@
 .method public final f()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mq;->b:Ljava/lang/Object;
 
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/lq;->a(Ljava/lang/Object;)Z

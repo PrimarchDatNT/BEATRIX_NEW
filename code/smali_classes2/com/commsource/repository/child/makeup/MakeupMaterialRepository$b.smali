@@ -19,7 +19,6 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/repository/h;-><init>(I)V
 
     return-void
@@ -34,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$b$a;
 
     const-string v2, "insertMakeupData"
@@ -43,7 +41,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

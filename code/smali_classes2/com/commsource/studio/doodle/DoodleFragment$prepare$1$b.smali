@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$b;->a:Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -63,7 +62,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->E(Ljava/lang/Integer;Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$b;->a:Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -80,7 +78,6 @@
 
     const/16 v2, 0x14
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v2
@@ -91,22 +88,18 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
     const-wide/16 v2, 0xfa
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$b;->a:Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -117,7 +110,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$b;->a:Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -144,7 +136,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 9
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$b;->a:Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;
 
@@ -172,7 +163,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object v2, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$b;->a:Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;
 
@@ -190,11 +180,9 @@
 
     move-result-object v2
 
-    .line 11
     :goto_0
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/DoodleFragment;->I0(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$b;->a:Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -209,7 +197,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/bean/a;->W(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$b;->a:Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -228,7 +215,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/component/ConfirmCancelComponent;->setLabelName(Ljava/lang/String;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$b;->a:Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -241,7 +227,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->U(Z)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$b;->a:Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->$endAction:Lcotlin/jvm/u/a;
@@ -254,7 +239,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 16
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

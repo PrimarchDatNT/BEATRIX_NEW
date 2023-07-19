@@ -54,12 +54,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/TreeRangeSet$b;->b:Lcom/google/common/collect/TreeRangeSet;
 
     invoke-direct {p0}, Lcom/google/common/collect/d0;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/common/collect/TreeRangeSet$b;->a:Ljava/util/Collection;
 
     return-void
@@ -70,7 +68,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeRangeSet$b;->delegate()Ljava/util/Collection;
 
     move-result-object v0
@@ -89,7 +86,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$b;->a:Ljava/util/Collection;
 
     return-object v0
@@ -102,7 +98,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Sets;->g(Ljava/util/Set;Ljava/lang/Object;)Z
 
     move-result p1
@@ -113,7 +108,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/collect/Sets;->k(Ljava/util/Set;)I
 
     move-result v0

@@ -52,13 +52,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableAsList;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/RegularImmutableAsList;->delegate:Lcom/google/common/collect/ImmutableCollection;
 
-    .line 3
     iput-object p2, p0, Lcom/google/common/collect/RegularImmutableAsList;->delegateList:Lcom/google/common/collect/ImmutableList;
 
     return-void
@@ -76,7 +73,6 @@
         }
     .end annotation
 
-    .line 4
     invoke-static {p2}, Lcom/google/common/collect/ImmutableList;->asImmutableList([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
 
     move-result-object p2
@@ -98,7 +94,6 @@
         }
     .end annotation
 
-    .line 5
     invoke-static {p2, p3}, Lcom/google/common/collect/ImmutableList;->asImmutableList([Ljava/lang/Object;I)Lcom/google/common/collect/ImmutableList;
 
     move-result-object p2
@@ -115,7 +110,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableAsList;->delegateList:Lcom/google/common/collect/ImmutableList;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/common/collect/ImmutableList;->copyIntoArray([Ljava/lang/Object;I)I
@@ -135,7 +129,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableAsList;->delegate:Lcom/google/common/collect/ImmutableCollection;
 
     return-object v0
@@ -151,7 +144,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableAsList;->delegateList:Lcom/google/common/collect/ImmutableList;
 
     return-object v0
@@ -165,7 +157,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableAsList;->delegateList:Lcom/google/common/collect/ImmutableList;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -178,7 +169,6 @@
 .method internalArray()[Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableAsList;->delegateList:Lcom/google/common/collect/ImmutableList;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableCollection;->internalArray()[Ljava/lang/Object;
@@ -191,7 +181,6 @@
 .method internalArrayEnd()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableAsList;->delegateList:Lcom/google/common/collect/ImmutableList;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableCollection;->internalArrayEnd()I
@@ -204,7 +193,6 @@
 .method internalArrayStart()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableAsList;->delegateList:Lcom/google/common/collect/ImmutableList;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableCollection;->internalArrayStart()I
@@ -224,7 +212,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableAsList;->delegateList:Lcom/google/common/collect/ImmutableList;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/ImmutableList;->listIterator(I)Lcom/google/common/collect/m2;
@@ -237,7 +224,6 @@
 .method public bridge synthetic listIterator(I)Ljava/util/ListIterator;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/RegularImmutableAsList;->listIterator(I)Lcom/google/common/collect/m2;
 
     move-result-object p1

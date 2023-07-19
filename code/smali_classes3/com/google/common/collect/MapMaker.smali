@@ -58,15 +58,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/google/common/collect/MapMaker;->b:I
 
-    .line 3
     iput v0, p0, Lcom/google/common/collect/MapMaker;->c:I
 
     return-void
@@ -79,7 +76,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/MapMaker;->c:I
 
     const/4 v1, 0x1
@@ -109,11 +105,9 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 2
     :goto_1
     invoke-static {v1}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 3
     iput p1, p0, Lcom/google/common/collect/MapMaker;->c:I
 
     return-object p0
@@ -122,7 +116,6 @@
 .method b()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/MapMaker;->c:I
 
     const/4 v1, -0x1
@@ -138,7 +131,6 @@
 .method c()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/MapMaker;->b:I
 
     const/4 v1, -0x1
@@ -162,7 +154,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMaker;->f:Lcom/google/common/base/Equivalence;
 
     invoke-virtual {p0}, Lcom/google/common/collect/MapMaker;->e()Lcom/google/common/collect/MapMakerInternalMap$Strength;
@@ -185,7 +176,6 @@
 .method e()Lcom/google/common/collect/MapMakerInternalMap$Strength;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMaker;->d:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     sget-object v1, Lcom/google/common/collect/MapMakerInternalMap$Strength;->STRONG:Lcom/google/common/collect/MapMakerInternalMap$Strength;
@@ -202,7 +192,6 @@
 .method f()Lcom/google/common/collect/MapMakerInternalMap$Strength;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMaker;->e:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     sget-object v1, Lcom/google/common/collect/MapMakerInternalMap$Strength;->STRONG:Lcom/google/common/collect/MapMakerInternalMap$Strength;
@@ -221,7 +210,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/MapMaker;->b:I
 
     const/4 v1, 0x1
@@ -251,11 +239,9 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 2
     :goto_1
     invoke-static {v1}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 3
     iput p1, p0, Lcom/google/common/collect/MapMaker;->b:I
 
     return-object p0
@@ -279,7 +265,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMaker;->f:Lcom/google/common/base/Equivalence;
 
     const/4 v1, 0x1
@@ -298,7 +283,6 @@
 
     invoke-static {v2, v3, v0}, Lcom/google/common/base/t;->x0(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -307,7 +291,6 @@
 
     iput-object p1, p0, Lcom/google/common/collect/MapMaker;->f:Lcom/google/common/base/Equivalence;
 
-    .line 3
     iput-boolean v1, p0, Lcom/google/common/collect/MapMaker;->a:Z
 
     return-object p0
@@ -327,12 +310,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/collect/MapMaker;->a:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {p0}, Lcom/google/common/collect/MapMaker;->c()I
@@ -349,7 +330,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/google/common/collect/MapMakerInternalMap;->create(Lcom/google/common/collect/MapMaker;)Lcom/google/common/collect/MapMakerInternalMap;
 
@@ -361,7 +341,6 @@
 .method j(Lcom/google/common/collect/MapMakerInternalMap$Strength;)Lcom/google/common/collect/MapMaker;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMaker;->d:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     const/4 v1, 0x1
@@ -380,7 +359,6 @@
 
     invoke-static {v2, v3, v0}, Lcom/google/common/base/t;->x0(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -389,12 +367,10 @@
 
     iput-object v0, p0, Lcom/google/common/collect/MapMaker;->d:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
-    .line 3
     sget-object v0, Lcom/google/common/collect/MapMakerInternalMap$Strength;->STRONG:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     if-eq p1, v0, :cond_1
 
-    .line 4
     iput-boolean v1, p0, Lcom/google/common/collect/MapMaker;->a:Z
 
     :cond_1
@@ -404,7 +380,6 @@
 .method k(Lcom/google/common/collect/MapMakerInternalMap$Strength;)Lcom/google/common/collect/MapMaker;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMaker;->e:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     const/4 v1, 0x1
@@ -423,7 +398,6 @@
 
     invoke-static {v2, v3, v0}, Lcom/google/common/base/t;->x0(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -432,12 +406,10 @@
 
     iput-object v0, p0, Lcom/google/common/collect/MapMaker;->e:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
-    .line 3
     sget-object v0, Lcom/google/common/collect/MapMakerInternalMap$Strength;->STRONG:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     if-eq p1, v0, :cond_1
 
-    .line 4
     iput-boolean v1, p0, Lcom/google/common/collect/MapMaker;->a:Z
 
     :cond_1
@@ -452,7 +424,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/MapMakerInternalMap$Strength;->WEAK:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMaker;->j(Lcom/google/common/collect/MapMakerInternalMap$Strength;)Lcom/google/common/collect/MapMaker;
@@ -470,7 +441,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/MapMakerInternalMap$Strength;->WEAK:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMaker;->k(Lcom/google/common/collect/MapMakerInternalMap$Strength;)Lcom/google/common/collect/MapMaker;
@@ -483,12 +453,10 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 2
     iget v1, p0, Lcom/google/common/collect/MapMaker;->b:I
 
     const/4 v2, -0x1
@@ -497,10 +465,8 @@
 
     const-string v3, "initialCapacity"
 
-    .line 3
     invoke-virtual {v0, v3, v1}, Lcom/google/common/base/p$b;->d(Ljava/lang/String;I)Lcom/google/common/base/p$b;
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/google/common/collect/MapMaker;->c:I
 
@@ -508,16 +474,13 @@
 
     const-string v2, "concurrencyLevel"
 
-    .line 5
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->d(Ljava/lang/String;I)Lcom/google/common/base/p$b;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/google/common/collect/MapMaker;->d:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/Enum;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -530,13 +493,11 @@
 
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/google/common/collect/MapMaker;->e:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     if-eqz v1, :cond_3
 
-    .line 9
     invoke-virtual {v1}, Ljava/lang/Enum;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -549,7 +510,6 @@
 
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
-    .line 10
     :cond_3
     iget-object v1, p0, Lcom/google/common/collect/MapMaker;->f:Lcom/google/common/base/Equivalence;
 
@@ -557,10 +517,8 @@
 
     const-string v1, "keyEquivalence"
 
-    .line 11
     invoke-virtual {v0, v1}, Lcom/google/common/base/p$b;->p(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
-    .line 12
     :cond_4
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 

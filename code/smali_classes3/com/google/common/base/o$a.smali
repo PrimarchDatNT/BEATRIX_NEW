@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/google/common/base/o;Lcom/google/common/base/o;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/base/o$a;->c:Lcom/google/common/base/o;
 
     iput-object p3, p0, Lcom/google/common/base/o$a;->b:Ljava/lang/String;
@@ -41,7 +40,6 @@
 .method public q()Lcom/google/common/base/o;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "already specified useForNull"
@@ -60,7 +58,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/google/common/base/o$a;->b:Ljava/lang/String;
 
     goto :goto_0
@@ -79,7 +76,6 @@
 .method public s(Ljava/lang/String;)Lcom/google/common/base/o;
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "already specified useForNull"

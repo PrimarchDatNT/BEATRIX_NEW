@@ -23,16 +23,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/common/CompositeSdkInitializationListener;->mSdkInitializationListener:Lcom/mopub/common/SdkInitializationListener;
 
-    .line 4
     iput p2, p0, Lcom/mopub/common/CompositeSdkInitializationListener;->mTimes:I
 
     return-void
@@ -41,7 +37,6 @@
 .method static synthetic access$000(Lcom/mopub/common/CompositeSdkInitializationListener;)Lcom/mopub/common/SdkInitializationListener;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/CompositeSdkInitializationListener;->mSdkInitializationListener:Lcom/mopub/common/SdkInitializationListener;
 
     return-object p0
@@ -50,7 +45,6 @@
 .method static synthetic access$002(Lcom/mopub/common/CompositeSdkInitializationListener;Lcom/mopub/common/SdkInitializationListener;)Lcom/mopub/common/SdkInitializationListener;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/CompositeSdkInitializationListener;->mSdkInitializationListener:Lcom/mopub/common/SdkInitializationListener;
 
     return-object p1
@@ -61,7 +55,6 @@
 .method public onInitializationFinished()V
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/mopub/common/CompositeSdkInitializationListener;->mTimes:I
 
     add-int/lit8 v0, v0, -0x1
@@ -70,7 +63,6 @@
 
     if-gtz v0, :cond_0
 
-    .line 2
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;

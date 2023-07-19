@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/im2;Landroid/content/Context;Lcom/google/android/gms/internal/ads/zzvh;Ljava/lang/String;Lcom/google/android/gms/internal/ads/tb;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/pm2;->f:Lcom/google/android/gms/internal/ads/im2;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/pm2;->b:Landroid/content/Context;
@@ -55,10 +54,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pm2;->b:Landroid/content/Context;
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v2
@@ -73,7 +70,6 @@
 
     move-object v1, p1
 
-    .line 3
     invoke-interface/range {v1 .. v6}, Lcom/google/android/gms/internal/ads/zn2;->r3(Lcom/google/android/gms/dynamic/d;Lcom/google/android/gms/internal/ads/zzvh;Ljava/lang/String;Lcom/google/android/gms/internal/ads/tb;I)Lcom/google/android/gms/internal/ads/pn2;
 
     move-result-object p1
@@ -84,14 +80,12 @@
 .method public final synthetic c()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pm2;->b:Landroid/content/Context;
 
     const-string v1, "interstitial"
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/im2;->j(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/bq2;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/bq2;-><init>()V
@@ -107,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pm2;->f:Lcom/google/android/gms/internal/ads/im2;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/im2;->d(Lcom/google/android/gms/internal/ads/im2;)Lcom/google/android/gms/internal/ads/zl2;

@@ -47,7 +47,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lcom/google/common/hash/Hashing$ChecksumType$1;
 
     const-string v1, "CRC_32"
@@ -60,7 +59,6 @@
 
     sput-object v0, Lcom/google/common/hash/Hashing$ChecksumType;->CRC_32:Lcom/google/common/hash/Hashing$ChecksumType;
 
-    .line 2
     new-instance v1, Lcom/google/common/hash/Hashing$ChecksumType$2;
 
     const-string v3, "ADLER_32"
@@ -81,7 +79,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/google/common/hash/Hashing$ChecksumType;->$VALUES:[Lcom/google/common/hash/Hashing$ChecksumType;
 
     return-void
@@ -97,10 +94,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3
     new-instance p1, Lcom/google/common/hash/ChecksumHashFunction;
 
     const/16 p2, 0x20
@@ -115,7 +110,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;ILjava/lang/String;Lcom/google/common/hash/Hashing$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/common/hash/Hashing$ChecksumType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     return-void
@@ -124,7 +118,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/hash/Hashing$ChecksumType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/hash/Hashing$ChecksumType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -139,7 +132,6 @@
 .method public static values()[Lcom/google/common/hash/Hashing$ChecksumType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/hash/Hashing$ChecksumType;->$VALUES:[Lcom/google/common/hash/Hashing$ChecksumType;
 
     invoke-virtual {v0}, [Lcom/google/common/hash/Hashing$ChecksumType;->clone()Ljava/lang/Object;

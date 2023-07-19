@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/y/y;
 
     invoke-direct {v0}, Lcom/airbnb/lottie/y/y;-><init>()V
@@ -38,7 +37,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/airbnb/lottie/y/y;->b(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Landroid/graphics/PointF;
 
     move-result-object p1
@@ -70,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcom/airbnb/lottie/y/p;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Landroid/graphics/PointF;
 
     move-result-object p1

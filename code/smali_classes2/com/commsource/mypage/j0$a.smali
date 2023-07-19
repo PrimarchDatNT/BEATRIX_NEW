@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/mypage/j0;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/j0$a;->g:Lcom/commsource/mypage/j0;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -48,14 +46,12 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/mypage/j0$a;->g:Lcom/commsource/mypage/j0;
 
     const/4 v3, 0x0
 
     invoke-static {v2, v3}, Lcom/commsource/mypage/j0;->c(Lcom/commsource/mypage/j0;Z)Z
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/mypage/j0$a;->g:Lcom/commsource/mypage/j0;
 
     invoke-virtual {v2}, Landroidx/lifecycle/LiveData;->hasObservers()Z
@@ -64,12 +60,10 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     iget-object v2, p0, Lcom/commsource/mypage/j0$a;->g:Lcom/commsource/mypage/j0;
 
@@ -87,19 +81,16 @@
 
     if-eqz v2, :cond_2
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_2
     iget-object v2, p0, Lcom/commsource/mypage/j0$a;->g:Lcom/commsource/mypage/j0;
 
     invoke-static {v2, v1}, Lcom/commsource/mypage/j0;->d(Lcom/commsource/mypage/j0;Ljava/lang/Object;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

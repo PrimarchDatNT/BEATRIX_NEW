@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/store/sticker/StickerChildStoreFragment$d;->b(ILcom/meitu/template/bean/StickerGroup;)Z
@@ -75,14 +74,12 @@
 
     const-wide/16 v0, 0x1f4
 
-    .line 1
     invoke-static {v0, v1}, Lcom/commsource/util/common/k;->b(J)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/store/sticker/StickerChildStoreFragment$d;->a:Lcom/commsource/store/sticker/StickerChildStoreFragment;
 
     invoke-static {v0}, Lcom/commsource/store/sticker/StickerChildStoreFragment;->C(Lcom/commsource/store/sticker/StickerChildStoreFragment;)Lcom/commsource/store/sticker/StickerStoreViewModel;
@@ -98,7 +95,6 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

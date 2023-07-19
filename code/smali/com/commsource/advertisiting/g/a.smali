@@ -33,7 +33,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,12 +45,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/advertisiting/g/a;->e(Landroid/content/Context;)I
 
     move-result v1
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/advertisiting/g/a;->b(Landroid/content/Context;)I
 
     move-result p0
@@ -172,7 +169,6 @@
 
     aput v3, v4, p0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -185,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/advertisiting/g/a;->d(Landroid/content/Context;)I
 
     move-result v1
@@ -220,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/advertisiting/g/a;->d(Landroid/content/Context;)I
 
     move-result v1
@@ -247,17 +241,14 @@
 
     const/high16 v1, 0x42380000    # 46.0f
 
-    .line 1
     invoke-static {p0, v1}, Lcom/meitu/library/p/f/i;->e(Landroid/content/Context;F)I
 
     move-result v1
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/advertisiting/g/a;->e(Landroid/content/Context;)I
 
     move-result p0
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
     move-result v2
@@ -280,14 +271,12 @@
 
     mul-int/lit16 p0, p0, 0x576
 
-    .line 4
     div-int/lit16 p0, p0, 0x4da
 
     if-le v2, p0, :cond_0
 
     move v2, p0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -303,14 +292,12 @@
 
     sget v1, Lcom/res/provider/ResDIMEN;->home_horizontal_margin:I
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F
 
     move-result v1
 
     float-to-int v1, v1
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/library/p/f/i;->A(Landroid/content/Context;)I
 
     move-result p0

@@ -31,7 +31,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-static {}, Lcom/google/firestore/v1/e;->ah()Lcom/google/firestore/v1/e;
 
     move-result-object v0
@@ -44,7 +43,6 @@
 .method synthetic constructor <init>(Lcom/google/firestore/v1/e$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firestore/v1/e$b;-><init>()V
 
     return-void
@@ -55,10 +53,8 @@
 .method public Qg()Lcom/google/firestore/v1/e$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/e;
@@ -71,10 +67,8 @@
 .method public Rg()Lcom/google/firestore/v1/e$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/e;
@@ -87,10 +81,8 @@
 .method public Sg(Lcom/google/firestore/v1/TransactionOptions;)Lcom/google/firestore/v1/e$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/e;
@@ -103,10 +95,8 @@
 .method public Tg(Ljava/lang/String;)Lcom/google/firestore/v1/e$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/e;
@@ -119,10 +109,8 @@
 .method public Ug(Lcom/google/protobuf/ByteString;)Lcom/google/firestore/v1/e$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/e;
@@ -135,10 +123,8 @@
 .method public Vg(Lcom/google/firestore/v1/TransactionOptions$b;)Lcom/google/firestore/v1/e$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/e;
@@ -151,10 +137,8 @@
 .method public Wg(Lcom/google/firestore/v1/TransactionOptions;)Lcom/google/firestore/v1/e$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/e;
@@ -167,7 +151,6 @@
 .method public d()Lcom/google/firestore/v1/TransactionOptions;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/e;
@@ -182,7 +165,6 @@
 .method public e()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/e;
@@ -197,7 +179,6 @@
 .method public w()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/e;
@@ -212,7 +193,6 @@
 .method public x()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/e;

@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/s7;ZLandroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/r7;->f:Lcom/google/android/gms/measurement/internal/s7;
 
     iput-boolean p2, p0, Lcom/google/android/gms/measurement/internal/r7;->a:Z
@@ -43,7 +42,6 @@
 .method public final run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/r7;->f:Lcom/google/android/gms/measurement/internal/s7;
 
     iget-boolean v1, p0, Lcom/google/android/gms/measurement/internal/r7;->a:Z

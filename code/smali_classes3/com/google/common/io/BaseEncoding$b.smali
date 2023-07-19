@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/google/common/io/BaseEncoding;Lcom/google/common/io/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/io/BaseEncoding$b;->b:Lcom/google/common/io/BaseEncoding;
 
     iput-object p2, p0, Lcom/google/common/io/BaseEncoding$b;->a:Lcom/google/common/io/j;
@@ -44,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$b;->b:Lcom/google/common/io/BaseEncoding;
 
     iget-object v1, p0, Lcom/google/common/io/BaseEncoding$b;->a:Lcom/google/common/io/j;

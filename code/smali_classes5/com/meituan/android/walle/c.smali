@@ -11,7 +11,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meituan/android/walle/c;->b(Ljava/io/File;)Ljava/util/Map;
 
     move-result-object p0
@@ -33,7 +31,6 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -41,17 +38,14 @@
     :cond_0
     const-string v1, "channel"
 
-    .line 3
     invoke-interface {p0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
-    .line 4
     invoke-interface {p0, v1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     new-instance v1, Lcom/meituan/android/walle/b;
 
     invoke-direct {v1, v2, p0}, Lcom/meituan/android/walle/b;-><init>(Ljava/lang/String;Ljava/util/Map;)V
@@ -81,7 +75,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/meituan/android/walle/c;->c(Ljava/io/File;)Ljava/lang/String;
 
@@ -91,29 +84,24 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     :try_start_1
     new-instance v2, Lorg/json/JSONObject;
 
     invoke-direct {v2, p0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v2}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 5
     new-instance v3, Ljava/util/HashMap;
 
     invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
 
-    .line 6
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -121,7 +109,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 7
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v4
@@ -130,7 +117,6 @@
 
     move-result-object v4
 
-    .line 8
     invoke-virtual {v2, v4}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
@@ -141,7 +127,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -150,10 +135,8 @@
     :catch_0
     move-exception p0
 
-    .line 10
     invoke-virtual {p0}, Lorg/json/JSONException;->printStackTrace()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -168,7 +151,6 @@
 
     const v1, 0x71777777
 
-    .line 1
     invoke-static {p0, v1}, Lcom/meituan/android/walle/e;->a(Ljava/io/File;I)[B
 
     move-result-object p0
@@ -177,12 +159,10 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     :try_start_0
     new-instance v2, Ljava/lang/String;
@@ -200,10 +180,8 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-virtual {p0}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

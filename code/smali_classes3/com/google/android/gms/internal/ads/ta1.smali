@@ -36,10 +36,8 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/ra1;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;

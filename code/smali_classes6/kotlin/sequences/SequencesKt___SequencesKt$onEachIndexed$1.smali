@@ -54,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$onEachIndexed$1;->$action:Lcotlin/jvm/u/p;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

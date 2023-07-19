@@ -85,15 +85,12 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/hubble/i/g/b;->a:I
 
-    .line 3
     invoke-static {}, Lokhttp3/internal/Version;->userAgent()Ljava/lang/String;
 
     move-result-object v1
@@ -102,56 +99,40 @@
 
     const-wide/16 v1, -0x1
 
-    .line 4
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/b;->j:J
 
-    .line 5
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/b;->k:J
 
-    .line 6
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/b;->l:J
 
-    .line 7
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/b;->m:J
 
-    .line 8
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/b;->o:J
 
-    .line 9
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/b;->p:J
 
-    .line 10
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/b;->q:J
 
-    .line 11
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/b;->r:J
 
-    .line 12
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/b;->s:J
 
-    .line 13
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/b;->t:J
 
-    .line 14
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/b;->y:J
 
-    .line 15
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/b;->z:J
 
     const/4 v1, 0x0
 
-    .line 16
     iput-object v1, p0, Lcom/meitu/hubble/i/g/b;->A:Ljava/lang/String;
 
     const/4 v1, 0x1
 
-    .line 17
     iput v1, p0, Lcom/meitu/hubble/i/g/b;->B:I
 
-    .line 18
     iput v0, p0, Lcom/meitu/hubble/i/g/b;->C:I
 
-    .line 19
     iput-boolean v0, p0, Lcom/meitu/hubble/i/g/b;->D:Z
 
     return-void
@@ -175,12 +156,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/hubble/i/g/b;->b:Ljava/lang/String;
 
     const-string v3, "url"
@@ -193,7 +172,6 @@
 
     add-long/2addr v2, v4
 
-    .line 3
     iget-wide v6, p0, Lcom/meitu/hubble/i/g/b;->j:J
 
     invoke-static {v6, v7}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -208,7 +186,6 @@
 
     add-long/2addr v2, v6
 
-    .line 4
     iget-object v6, p0, Lcom/meitu/hubble/i/g/b;->c:Ljava/lang/String;
 
     const-string v7, "ip"
@@ -219,7 +196,6 @@
 
     add-long/2addr v2, v6
 
-    .line 5
     iget v6, p0, Lcom/meitu/hubble/i/g/b;->u:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -234,7 +210,6 @@
 
     add-long/2addr v2, v6
 
-    .line 6
     iget-object v6, p0, Lcom/meitu/hubble/i/g/b;->v:Ljava/lang/String;
 
     const-string v7, "cdn"
@@ -245,7 +220,6 @@
 
     add-long/2addr v2, v6
 
-    .line 7
     iget-boolean v6, p0, Lcom/meitu/hubble/i/g/b;->f:Z
 
     invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -260,7 +234,6 @@
 
     add-long/2addr v2, v6
 
-    .line 8
     iget-object v6, p0, Lcom/meitu/hubble/i/g/b;->L:Lcom/meitu/hubble/i/d;
 
     const-string v7, "net"
@@ -271,7 +244,6 @@
 
     add-long/2addr v2, v6
 
-    .line 9
     iget-object v6, p0, Lcom/meitu/hubble/i/g/b;->d:Ljava/lang/String;
 
     const-string v7, "method"
@@ -282,7 +254,6 @@
 
     add-long/2addr v2, v6
 
-    .line 10
     iget-object v6, p0, Lcom/meitu/hubble/i/g/b;->i:Ljava/lang/String;
 
     const-string v7, "httpLib"
@@ -293,7 +264,6 @@
 
     add-long/2addr v2, v6
 
-    .line 11
     iget-object v6, p0, Lcom/meitu/hubble/i/g/b;->e:Ljava/lang/String;
 
     const-string v7, "protocol"
@@ -304,7 +274,6 @@
 
     add-long/2addr v2, v6
 
-    .line 12
     iget-object v6, p0, Lcom/meitu/hubble/i/g/b;->g:Ljava/lang/String;
 
     const-string v7, "tslVersion"
@@ -315,7 +284,6 @@
 
     add-long/2addr v2, v6
 
-    .line 13
     iget-object v6, p0, Lcom/meitu/hubble/i/g/b;->h:Ljava/lang/String;
 
     const-string v7, "cipherSuite"
@@ -326,12 +294,10 @@
 
     add-long/2addr v2, v6
 
-    .line 14
     iget-boolean v6, p0, Lcom/meitu/hubble/i/g/b;->D:Z
 
     if-eqz v6, :cond_0
 
-    .line 15
     sget-object v6, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     const-string v7, "isHttpUrlConnection"
@@ -342,7 +308,6 @@
 
     add-long/2addr v2, v6
 
-    .line 16
     :cond_0
     iget v6, p0, Lcom/meitu/hubble/i/g/b;->B:I
 
@@ -358,7 +323,6 @@
 
     add-long/2addr v2, v6
 
-    .line 17
     iget v6, p0, Lcom/meitu/hubble/i/g/b;->C:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -373,7 +337,6 @@
 
     add-long/2addr v2, v6
 
-    .line 18
     iget-wide v6, p0, Lcom/meitu/hubble/i/g/b;->k:J
 
     invoke-static {v6, v7}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -388,14 +351,12 @@
 
     add-long/2addr v2, v6
 
-    .line 19
     iget-wide v6, p0, Lcom/meitu/hubble/i/g/b;->l:J
 
     cmp-long v8, v6, v4
 
     if-lez v8, :cond_1
 
-    .line 20
     invoke-static {v6, v7}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v4
@@ -408,7 +369,6 @@
 
     add-long/2addr v2, v4
 
-    .line 21
     :cond_1
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/b;->m:J
 
@@ -424,12 +384,10 @@
 
     add-long/2addr v2, v4
 
-    .line 22
     iget v4, p0, Lcom/meitu/hubble/i/g/b;->n:I
 
     if-eqz v4, :cond_2
 
-    .line 23
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -442,7 +400,6 @@
 
     add-long/2addr v2, v4
 
-    .line 24
     :cond_2
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/b;->o:J
 
@@ -458,7 +415,6 @@
 
     add-long/2addr v2, v4
 
-    .line 25
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/b;->p:J
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -473,7 +429,6 @@
 
     add-long/2addr v2, v4
 
-    .line 26
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/b;->q:J
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -488,7 +443,6 @@
 
     add-long/2addr v2, v4
 
-    .line 27
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/b;->r:J
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -503,7 +457,6 @@
 
     add-long/2addr v2, v4
 
-    .line 28
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/b;->s:J
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -518,7 +471,6 @@
 
     add-long/2addr v2, v4
 
-    .line 29
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/b;->t:J
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -533,7 +485,6 @@
 
     add-long/2addr v2, v4
 
-    .line 30
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->w:Ljava/lang/String;
 
     const-string v5, "connectionType"
@@ -544,7 +495,6 @@
 
     add-long/2addr v2, v4
 
-    .line 31
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->x:Ljava/lang/String;
 
     const-string v5, "contentType"
@@ -555,7 +505,6 @@
 
     add-long/2addr v2, v4
 
-    .line 32
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/b;->y:J
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -570,7 +519,6 @@
 
     add-long/2addr v2, v4
 
-    .line 33
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/b;->z:J
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -585,7 +533,6 @@
 
     add-long/2addr v2, v4
 
-    .line 34
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->A:Ljava/lang/String;
 
     const-string v5, "location"
@@ -596,7 +543,6 @@
 
     add-long/2addr v2, v4
 
-    .line 35
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->E:[Ljava/lang/String;
 
     const-string v5, "dnsResult"
@@ -607,12 +553,10 @@
 
     add-long/2addr v2, v4
 
-    .line 36
     iget v4, p0, Lcom/meitu/hubble/i/g/b;->a:I
 
     if-eqz v4, :cond_3
 
-    .line 37
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -625,7 +569,6 @@
 
     add-long/2addr v2, v4
 
-    .line 38
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->F:[Ljava/lang/String;
 
     const-string v5, "requestParams"
@@ -636,7 +579,6 @@
 
     add-long/2addr v2, v4
 
-    .line 39
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->G:[Ljava/lang/String;
 
     const-string v5, "requestHeaders"
@@ -647,7 +589,6 @@
 
     add-long/2addr v2, v4
 
-    .line 40
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->H:[Ljava/lang/String;
 
     const-string v5, "responseHeaders"
@@ -658,7 +599,6 @@
 
     add-long/2addr v2, v4
 
-    .line 41
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->I:Ljava/lang/String;
 
     const-string v5, "exceptionName"
@@ -669,7 +609,6 @@
 
     add-long/2addr v2, v4
 
-    .line 42
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->J:Ljava/lang/String;
 
     const-string v5, "exceptionDetail"
@@ -680,7 +619,6 @@
 
     add-long/2addr v2, v4
 
-    .line 43
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->K:Ljava/lang/String;
 
     const-string v5, "stacktrace"
@@ -696,7 +634,6 @@
 
     add-long/2addr v2, v4
 
-    .line 44
     new-instance v4, Landroid/util/Pair;
 
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -705,7 +642,6 @@
 
     invoke-direct {v4, v2, v1}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 45
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -718,19 +654,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     const-string v2, "yyyy-MM-dd HH:mm:ss.SSS"
 
     invoke-direct {v1, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     new-instance v3, Ljava/util/Date;
 
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/b;->j:J
@@ -757,7 +690,6 @@
 
     const-string v4, " req(byte)="
 
-    .line 4
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/b;->y:J
@@ -766,7 +698,6 @@
 
     const-string v4, " respCode="
 
-    .line 5
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget v4, p0, Lcom/meitu/hubble/i/g/b;->u:I
@@ -775,14 +706,12 @@
 
     const-string v4, " resp(byte)="
 
-    .line 6
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/b;->z:J
 
     invoke-virtual {v2, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
-    .line 7
     iget-boolean v4, p0, Lcom/meitu/hubble/i/g/b;->D:Z
 
     const-string v5, "true"
@@ -791,18 +720,15 @@
 
     const-string v4, " isHttpUrlConnection="
 
-    .line 8
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     :cond_0
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v4, " protocol="
 
-    .line 10
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->e:Ljava/lang/String;
@@ -817,7 +743,6 @@
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->g:Ljava/lang/String;
 
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -828,7 +753,6 @@
 
     const-string v4, " tsl="
 
-    .line 12
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->g:Ljava/lang/String;
@@ -843,7 +767,6 @@
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 13
     :cond_1
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->v:Ljava/lang/String;
 
@@ -855,7 +778,6 @@
 
     const-string v4, " cdn="
 
-    .line 14
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->v:Ljava/lang/String;
@@ -865,7 +787,6 @@
     :cond_2
     const-string v4, " proxy="
 
-    .line 15
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-boolean v4, p0, Lcom/meitu/hubble/i/g/b;->f:Z
@@ -892,7 +813,6 @@
 
     aput-object v6, v5, v7
 
-    .line 16
     iget-wide v8, p0, Lcom/meitu/hubble/i/g/b;->k:J
 
     invoke-static {v8, v9}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -911,7 +831,6 @@
 
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 17
     iget-wide v9, p0, Lcom/meitu/hubble/i/g/b;->l:J
 
     const-wide/16 v11, 0x0
@@ -926,7 +845,6 @@
 
     aput-object v13, v5, v7
 
-    .line 18
     invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v9
@@ -939,7 +857,6 @@
 
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 19
     :cond_4
     iget-wide v9, p0, Lcom/meitu/hubble/i/g/b;->m:J
 
@@ -955,7 +872,6 @@
 
     aput-object v14, v13, v7
 
-    .line 20
     invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v9
@@ -981,14 +897,12 @@
 
     aput-object v10, v9, v7
 
-    .line 21
     invoke-static {v5, v9}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v9
 
     invoke-virtual {v2, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 22
     :cond_6
     :goto_1
     iget-wide v9, p0, Lcom/meitu/hubble/i/g/b;->o:J
@@ -1003,7 +917,6 @@
 
     aput-object v14, v13, v7
 
-    .line 23
     invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v9
@@ -1029,14 +942,12 @@
 
     aput-object v10, v9, v7
 
-    .line 24
     invoke-static {v5, v9}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v9
 
     invoke-virtual {v2, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 25
     :cond_8
     :goto_2
     iget-wide v9, p0, Lcom/meitu/hubble/i/g/b;->p:J
@@ -1051,7 +962,6 @@
 
     aput-object v13, v5, v7
 
-    .line 26
     invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v9
@@ -1077,14 +987,12 @@
 
     aput-object v10, v9, v7
 
-    .line 27
     invoke-static {v5, v9}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 28
     :cond_a
     :goto_3
     iget-wide v9, p0, Lcom/meitu/hubble/i/g/b;->q:J
@@ -1099,7 +1007,6 @@
 
     aput-object v13, v5, v7
 
-    .line 29
     invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v9
@@ -1112,7 +1019,6 @@
 
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 30
     :cond_b
     iget-wide v9, p0, Lcom/meitu/hubble/i/g/b;->r:J
 
@@ -1126,7 +1032,6 @@
 
     aput-object v13, v5, v7
 
-    .line 31
     invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v9
@@ -1139,7 +1044,6 @@
 
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 32
     :cond_c
     iget-wide v9, p0, Lcom/meitu/hubble/i/g/b;->s:J
 
@@ -1153,7 +1057,6 @@
 
     aput-object v11, v5, v7
 
-    .line 33
     invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v9
@@ -1173,7 +1076,6 @@
 
     aput-object v9, v5, v7
 
-    .line 34
     iget-wide v9, p0, Lcom/meitu/hubble/i/g/b;->t:J
 
     invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -1188,7 +1090,6 @@
 
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 35
     iget v5, p0, Lcom/meitu/hubble/i/g/b;->B:I
 
     if-le v5, v8, :cond_e
@@ -1199,7 +1100,6 @@
 
     aput-object v10, v9, v7
 
-    .line 36
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -1219,7 +1119,6 @@
 
     aput-object v5, v4, v7
 
-    .line 37
     iget v5, p0, Lcom/meitu/hubble/i/g/b;->C:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1234,7 +1133,6 @@
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 38
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->I:Ljava/lang/String;
 
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1243,7 +1141,6 @@
 
     if-nez v4, :cond_f
 
-    .line 39
     iget-object v4, p0, Lcom/meitu/hubble/i/g/b;->I:Ljava/lang/String;
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -1256,13 +1153,11 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 40
     :cond_f
     iget-object v1, p0, Lcom/meitu/hubble/i/g/b;->L:Lcom/meitu/hubble/i/d;
 
     if-eqz v1, :cond_10
 
-    .line 41
     invoke-virtual {v1}, Lcom/meitu/hubble/i/d;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -1271,7 +1166,6 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 42
     :cond_10
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 

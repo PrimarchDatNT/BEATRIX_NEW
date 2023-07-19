@@ -36,10 +36,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/http/params/AbstractHttpParams;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
@@ -54,7 +52,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/params/BasicHttpParams;->parameters:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->clear()V
@@ -70,14 +67,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lorg/apache/http/params/BasicHttpParams;
 
-    .line 2
     invoke-virtual {p0, v0}, Lorg/apache/http/params/BasicHttpParams;->copyParams(Lorg/apache/http/params/HttpParams;)V
 
     return-object v0
@@ -86,7 +81,6 @@
 .method public copy()Lorg/apache/http/params/HttpParams;
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lorg/apache/http/params/BasicHttpParams;->clone()Ljava/lang/Object;
 
@@ -98,7 +92,6 @@
 
     return-object v0
 
-    .line 2
     :catch_0
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
@@ -112,7 +105,6 @@
 .method public copyParams(Lorg/apache/http/params/HttpParams;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/params/BasicHttpParams;->parameters:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -136,7 +128,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -166,7 +157,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     iget-object v1, p0, Lorg/apache/http/params/BasicHttpParams;->parameters:Ljava/util/Map;
@@ -183,7 +173,6 @@
 .method public getParameter(Ljava/lang/String;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/params/BasicHttpParams;->parameters:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -196,7 +185,6 @@
 .method public isParameterSet(Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/apache/http/params/BasicHttpParams;->getParameter(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -217,7 +205,6 @@
 .method public isParameterSetLocally(Ljava/lang/String;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/params/BasicHttpParams;->parameters:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -240,7 +227,6 @@
 .method public removeParameter(Ljava/lang/String;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/params/BasicHttpParams;->parameters:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -249,7 +235,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/params/BasicHttpParams;->parameters:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -274,14 +259,12 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/params/BasicHttpParams;->parameters:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 2
     :cond_1
     iget-object p2, p0, Lorg/apache/http/params/BasicHttpParams;->parameters:Ljava/util/Map;
 
@@ -294,7 +277,6 @@
 .method public setParameters([Ljava/lang/String;Ljava/lang/Object;)V
     .locals 3
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -304,7 +286,6 @@
 
     aget-object v2, p1, v1
 
-    .line 2
     invoke-virtual {p0, v2, p2}, Lorg/apache/http/params/BasicHttpParams;->setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/http/params/HttpParams;
 
     add-int/lit8 v1, v1, 0x1

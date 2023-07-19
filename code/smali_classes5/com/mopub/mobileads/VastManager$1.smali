@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/VastManager;Lcom/mopub/mobileads/VastVideoConfig;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/VastManager$1;->this$0:Lcom/mopub/mobileads/VastManager;
 
     iput-object p2, p0, Lcom/mopub/mobileads/VastManager$1;->val$vastVideoConfig:Lcom/mopub/mobileads/VastVideoConfig;
@@ -44,7 +43,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/mobileads/VastManager$1;->this$0:Lcom/mopub/mobileads/VastManager;
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastManager$1;->val$vastVideoConfig:Lcom/mopub/mobileads/VastVideoConfig;
@@ -55,7 +53,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/mobileads/VastManager$1;->this$0:Lcom/mopub/mobileads/VastManager;
 
     invoke-static {p1}, Lcom/mopub/mobileads/VastManager;->access$100(Lcom/mopub/mobileads/VastManager;)Lcom/mopub/mobileads/VastManager$VastManagerListener;
@@ -68,7 +65,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -84,7 +80,6 @@
 
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/mobileads/VastManager$1;->this$0:Lcom/mopub/mobileads/VastManager;
 
     invoke-static {p1}, Lcom/mopub/mobileads/VastManager;->access$100(Lcom/mopub/mobileads/VastManager;)Lcom/mopub/mobileads/VastManager$VastManagerListener;

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/effect/FlipFixRotateEnum;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/composition/CropRotateFragment$b;->b(ILcom/commsource/studio/effect/FlipFixRotateEnum;)Z
@@ -73,12 +72,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/studio/effect/FlipFixRotateEnum;->Flip:Lcom/commsource/studio/effect/FlipFixRotateEnum;
 
     if-ne p2, v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$b;->a:Lcom/commsource/studio/function/composition/CropRotateFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/composition/CropRotateFragment;->z1(Lcom/commsource/studio/function/composition/CropRotateFragment;)Lcom/commsource/beautyplus/f0/kb;
@@ -91,7 +88,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$b;->a:Lcom/commsource/studio/function/composition/CropRotateFragment;
 
@@ -103,7 +99,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/composition/CompositionView;->E()V
 
-    .line 4
     :goto_0
     invoke-virtual {p2}, Lcom/commsource/studio/effect/FlipFixRotateEnum;->getStatisticName()Ljava/lang/String;
 
@@ -113,12 +108,10 @@
 
     const-string v1, "\u5b50\u529f\u80fd\u70b9\u51fb"
 
-    .line 5
     invoke-static {v0, v1, p2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p2, 0x0
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

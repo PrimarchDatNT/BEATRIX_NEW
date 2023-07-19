@@ -63,17 +63,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->a:Landroidx/lifecycle/MutableLiveData;
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -84,21 +81,18 @@
 
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->b:Z
 
-    .line 4
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->c:Landroidx/lifecycle/MutableLiveData;
 
-    .line 5
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->d:Landroidx/lifecycle/MutableLiveData;
 
-    .line 6
     new-instance p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e$a;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e$a;-><init>(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;)V
@@ -131,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -157,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->c:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -172,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -195,7 +186,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isObtainOneCapture()Z
 
     move-result v1
@@ -236,7 +226,6 @@
     :goto_1
     if-eqz p1, :cond_2
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e$b;
 
     invoke-direct {v1, p1, p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e$b;-><init>(Lcom/commsource/camera/fastcapture/SelfiePhotoData;Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;)V
@@ -245,7 +234,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/c2;->f(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -259,7 +247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -282,7 +269,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
 
     move-result-object v1
@@ -293,19 +279,16 @@
 
     invoke-static {v1, v2}, Lf/d/i/n;->q2(Landroid/content/Context;I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->d:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;->getId()I
 
     move-result v2
@@ -334,15 +317,12 @@
 
     const-string v2, "shoot"
 
-    .line 5
     invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p1, "selfieconfirm_watermarkmaterial"
 
-    .line 6
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -366,7 +346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->d:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

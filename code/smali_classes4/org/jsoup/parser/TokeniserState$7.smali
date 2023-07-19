@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lorg/jsoup/parser/TokeniserState;-><init>(Ljava/lang/String;ILorg/jsoup/parser/TokeniserState$1;)V
 
     return-void
@@ -31,7 +30,6 @@
 .method read(Lorg/jsoup/parser/h;Lorg/jsoup/parser/a;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p2}, Lorg/jsoup/parser/a;->s()C
 
     move-result v0
@@ -44,17 +42,14 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p2, v0}, Lorg/jsoup/parser/a;->m(C)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 3
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->l(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p2, Lorg/jsoup/parser/Token$f;
 
@@ -64,16 +59,13 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p1, p0}, Lorg/jsoup/parser/h;->u(Lorg/jsoup/parser/TokeniserState;)V
 
-    .line 6
     invoke-virtual {p2}, Lorg/jsoup/parser/a;->a()V
 
     const p2, 0xfffd
 
-    .line 7
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->k(C)V
 
     :goto_0

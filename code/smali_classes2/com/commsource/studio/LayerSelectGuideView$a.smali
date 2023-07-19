@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerSelectGuideView$a;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     invoke-static {v1}, Lcom/commsource/studio/LayerSelectGuideView;->d(Lcom/commsource/studio/LayerSelectGuideView;)Lcom/commsource/studio/ImageStudioViewModel;
@@ -89,7 +88,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/LayerSelectGuideView$a;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     invoke-static {p1}, Lcom/commsource/studio/LayerSelectGuideView;->d(Lcom/commsource/studio/LayerSelectGuideView;)Lcom/commsource/studio/ImageStudioViewModel;
@@ -106,14 +104,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/LayerSelectGuideView$a;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     const/4 v1, 0x0
 
     invoke-static {p1, v1}, Lcom/commsource/studio/LayerSelectGuideView;->i(Lcom/commsource/studio/LayerSelectGuideView;Z)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -127,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/LayerSelectGuideView$a;->a(Ljava/lang/String;)V

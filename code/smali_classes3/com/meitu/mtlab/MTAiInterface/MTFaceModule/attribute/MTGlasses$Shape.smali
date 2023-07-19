@@ -42,14 +42,12 @@
 .method public constructor <init>(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTGlasses;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTGlasses$Shape;->this$0:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTGlasses;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTGlasses$Shape;->top:I
 
     return-void

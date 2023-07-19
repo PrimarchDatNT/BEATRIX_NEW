@@ -47,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;)Ljava/util/List;
@@ -56,7 +55,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -74,7 +72,6 @@
 
     check-cast v2, Lcom/meitu/template/bean/LookMaterial;
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/template/bean/LookMaterial;->getOnlineId()J
 
     move-result-wide v3
@@ -85,17 +82,14 @@
 
     if-ne v4, v3, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository$d;->b:Lcom/commsource/util/common/d;
 
     invoke-interface {v1, v2}, Lcom/commsource/util/common/d;->a(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

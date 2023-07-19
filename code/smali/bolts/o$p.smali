@@ -29,7 +29,6 @@
 .method constructor <init>(Lbolts/o;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/o$p;->b:Lbolts/o;
 
     invoke-direct {p0}, Lbolts/p;-><init>()V

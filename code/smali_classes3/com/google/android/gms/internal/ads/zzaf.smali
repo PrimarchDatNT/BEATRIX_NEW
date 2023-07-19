@@ -29,7 +29,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzaf;
 
     const-string v1, "LOW"
@@ -40,7 +39,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/zzaf;->zzbn:Lcom/google/android/gms/internal/ads/zzaf;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/zzaf;
 
     const-string v3, "NORMAL"
@@ -51,7 +49,6 @@
 
     sput-object v1, Lcom/google/android/gms/internal/ads/zzaf;->zzbo:Lcom/google/android/gms/internal/ads/zzaf;
 
-    .line 3
     new-instance v3, Lcom/google/android/gms/internal/ads/zzaf;
 
     const-string v5, "HIGH"
@@ -62,7 +59,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/ads/zzaf;->zzbp:Lcom/google/android/gms/internal/ads/zzaf;
 
-    .line 4
     new-instance v5, Lcom/google/android/gms/internal/ads/zzaf;
 
     const-string v7, "IMMEDIATE"
@@ -85,7 +81,6 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lcom/google/android/gms/internal/ads/zzaf;->zzbr:[Lcom/google/android/gms/internal/ads/zzaf;
 
     return-void
@@ -99,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -108,7 +102,6 @@
 .method public static values()[Lcom/google/android/gms/internal/ads/zzaf;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/zzaf;->zzbr:[Lcom/google/android/gms/internal/ads/zzaf;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/ads/zzaf;->clone()Ljava/lang/Object;

@@ -71,14 +71,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$makeupEyebrowColorCompator$2$a;
 
     const-string v2, "beautyplus_eyebrow_color"
 
     invoke-direct {v1, v2}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$makeupEyebrowColorCompator$2$a;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -91,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$makeupEyebrowColorCompator$2;->invoke()Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$makeupEyebrowColorCompator$2$a;
 
     move-result-object v1

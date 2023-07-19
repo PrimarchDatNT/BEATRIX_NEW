@@ -55,10 +55,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->w()I
@@ -69,7 +67,6 @@
 
     iput v0, p0, Lcom/commsource/studio/function/StyleFragment;->c0:F
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/effect/w;
 
     invoke-direct {v0}, Lcom/commsource/studio/effect/w;-><init>()V
@@ -78,10 +75,8 @@
 
     const/4 v0, -0x1
 
-    .line 4
     iput v0, p0, Lcom/commsource/studio/function/StyleFragment;->l0:I
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/function/StyleFragment$childLayoutManager$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/StyleFragment$childLayoutManager$2;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
@@ -92,7 +87,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/StyleFragment;->m0:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/studio/function/StyleFragment$groupLayoutManager$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/StyleFragment$groupLayoutManager$2;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
@@ -103,7 +97,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/StyleFragment;->n0:Lcotlin/w;
 
-    .line 7
     sget-object v0, Lcom/commsource/studio/function/StyleFragment$styleItemDecoration$2;->INSTANCE:Lcom/commsource/studio/function/StyleFragment$styleItemDecoration$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -122,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/StyleFragment;->Y1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -137,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/StyleFragment;->a2()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
     move-result-object p0
@@ -154,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/function/StyleFragment;->l0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -184,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez p0, :cond_0
@@ -206,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/StyleFragment;->g0:Lcom/commsource/studio/function/StyleViewModel;
 
     if-nez p0, :cond_0
@@ -228,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/StyleFragment;->h0:Lcom/commsource/studio/layer/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -243,7 +229,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/StyleFragment;->i0:Lcom/commsource/widget/h1/e;
 
     if-nez p0, :cond_0
@@ -265,7 +250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/StyleFragment;->j0:Lcom/commsource/widget/h1/e;
 
     if-nez p0, :cond_0
@@ -287,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/StyleFragment;->e2()Lcom/commsource/studio/function/style/f;
 
     move-result-object p0
@@ -304,7 +287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/StyleFragment;->g2()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -319,7 +301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/function/StyleFragment;->k0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -334,7 +315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/StyleFragment;->l0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -349,7 +329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -364,7 +343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -379,7 +357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/StyleFragment;->g0:Lcom/commsource/studio/function/StyleViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -394,7 +371,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/StyleFragment;->h0:Lcom/commsource/studio/layer/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -409,7 +385,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/StyleFragment;->i0:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -424,7 +399,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/StyleFragment;->j0:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -439,7 +413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/StyleFragment;->k0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -454,7 +427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/StyleFragment;->o2()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -469,7 +441,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/function/StyleFragment;->q2(Ljava/lang/String;IZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -484,7 +455,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/function/StyleFragment;->s2(Lcom/commsource/studio/bean/f;Ljava/lang/String;I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -509,14 +479,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->a()Ljava/util/LinkedHashMap;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Map;->isEmpty()Z
 
     move-result v1
@@ -539,18 +507,15 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 4
     :cond_2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -572,12 +537,10 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 6
     new-instance v3, Lcom/commsource/studio/component/SeekComponent$b;
 
     invoke-direct {v3}, Lcom/commsource/studio/component/SeekComponent$b;-><init>()V
 
-    .line 7
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -588,19 +551,16 @@
 
     const-string v6, "com.commsource.beautyplus"
 
-    .line 8
     invoke-static {v4, v5, v6}, Lcom/meitu/library/p/d/b;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v4
 
-    .line 9
     invoke-static {v4}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v4
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/component/SeekComponent$b;->m(Ljava/lang/String;)V
 
-    .line 10
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v4
@@ -613,31 +573,26 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/component/SeekComponent$b;->q(I)V
 
-    .line 11
     sget-object v4, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$1$1$1;->INSTANCE:Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$1$1$1;
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/component/SeekComponent$b;->o(Lcotlin/jvm/u/l;)V
 
-    .line 12
     new-instance v4, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$$inlined$forEach$lambda$1;
 
     invoke-direct {v4, v2, p0, v1}, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$$inlined$forEach$lambda$1;-><init>(Ljava/util/Map$Entry;Lcom/commsource/studio/function/StyleFragment;Ljava/util/ArrayList;)V
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/component/SeekComponent$b;->n(Lcotlin/jvm/u/p;)V
 
-    .line 13
     new-instance v4, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$$inlined$forEach$lambda$2;
 
     invoke-direct {v4, v2, p0, v1}, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$$inlined$forEach$lambda$2;-><init>(Ljava/util/Map$Entry;Lcom/commsource/studio/function/StyleFragment;Ljava/util/ArrayList;)V
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/component/SeekComponent$b;->p(Lcotlin/jvm/u/l;)V
 
-    .line 14
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_2
 
-    .line 15
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -651,10 +606,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G0()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/StyleFragment;->b2()Lcom/commsource/studio/effect/w;
 
     move-result-object v1
@@ -665,7 +618,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
     move-result-object v1
@@ -676,7 +628,6 @@
 
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->f0:Lcom/commsource/studio/processor/StyleProcessor;
 
@@ -684,7 +635,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/StyleProcessor;->Y()V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -758,7 +708,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     const-string v2, "mViewBinding"
@@ -774,7 +723,6 @@
 
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Landroid/view/View;->getVisibility()I
 
     move-result v1
@@ -793,12 +741,10 @@
     :goto_0
     if-eqz v1, :cond_2
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
@@ -823,7 +769,6 @@
 
     invoke-static/range {v4 .. v10}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_4
@@ -843,7 +788,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_5
@@ -855,7 +799,6 @@
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 7
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -869,7 +812,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->g0:Lcom/commsource/studio/function/StyleViewModel;
 
     const-string v2, "mViewModel"
@@ -885,7 +827,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->g0:Lcom/commsource/studio/function/StyleViewModel;
 
     if-nez v1, :cond_1
@@ -897,7 +838,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/function/StyleViewModel;->O(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->g0:Lcom/commsource/studio/function/StyleViewModel;
 
     if-nez v1, :cond_2
@@ -917,7 +857,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
     move-result-object v2
@@ -933,7 +872,6 @@
     :cond_3
     const/4 v1, 0x0
 
-    .line 5
     :cond_4
     iget-object v2, p0, Lcom/commsource/studio/function/StyleFragment;->f0:Lcom/commsource/studio/processor/StyleProcessor;
 
@@ -947,7 +885,6 @@
 
     invoke-virtual {v2, v1, v3, v4}, Lcom/commsource/studio/processor/StyleProcessor;->B0(Lcom/commsource/studio/bean/f;ZLcotlin/jvm/u/a;)V
 
-    .line 6
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -961,7 +898,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     const-string v2, "mViewBinding"
@@ -979,7 +915,6 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_1
@@ -995,7 +930,6 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_2
@@ -1005,7 +939,6 @@
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->L:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 4
     new-instance v3, Lcom/commsource/widget/h1/e;
 
     iget-object v4, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1016,14 +949,12 @@
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/function/StyleFragment;->d2()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/studio/function/StyleFragment;->j0:Lcom/commsource/widget/h1/e;
 
     if-nez v3, :cond_3
@@ -1041,14 +972,12 @@
 
     invoke-virtual {v3, v4, v5}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 7
     new-instance v3, Lcom/commsource/studio/function/StyleFragment$c;
 
     invoke-direct {v3}, Lcom/commsource/studio/function/StyleFragment$c;-><init>()V
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_4
@@ -1058,7 +987,6 @@
     :cond_4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->K:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 9
     new-instance v3, Lcom/commsource/widget/h1/e;
 
     iget-object v4, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1069,14 +997,12 @@
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/studio/function/StyleFragment;->a2()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 11
     iget-object v3, p0, Lcom/commsource/studio/function/StyleFragment;->i0:Lcom/commsource/widget/h1/e;
 
     if-nez v3, :cond_5
@@ -1094,14 +1020,12 @@
 
     invoke-virtual {v3, v4, v5}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/studio/function/StyleFragment;->e2()Lcom/commsource/studio/function/style/f;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_6
@@ -1117,7 +1041,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_7
@@ -1133,7 +1056,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/component/SeekComponent;->setOnTransitionYChange(Lcotlin/jvm/u/l;)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_8
@@ -1149,7 +1071,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/component/SeekComponent;->setOnTargetTransitionYChange(Lcotlin/jvm/u/l;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1164,7 +1085,6 @@
 
     const-string v1, "1STY00000022"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -1267,7 +1187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/h;->N0()Z
 
     move-result v1
@@ -1278,7 +1197,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_0
@@ -1292,7 +1210,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1300,10 +1217,8 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v1}, Lf/d/i/h;->F1(Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_2
@@ -1331,7 +1246,6 @@
 
     invoke-static/range {v4 .. v11}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1344,7 +1258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->f0:Lcom/commsource/studio/processor/StyleProcessor;
 
     if-eqz v1, :cond_5
@@ -1357,7 +1270,6 @@
 
     if-ne v1, v2, :cond_5
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->g0:Lcom/commsource/studio/function/StyleViewModel;
 
     const-string v3, "mViewModel"
@@ -1373,7 +1285,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     const-string v5, "mViewBinding"
@@ -1391,7 +1302,6 @@
 
     invoke-static {v4}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v4, :cond_2
@@ -1403,7 +1313,6 @@
 
     invoke-virtual {v4, v1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_3
@@ -1421,7 +1330,6 @@
 
     invoke-direct {v4}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v5
@@ -1438,7 +1346,6 @@
 
     invoke-virtual {v4, v5}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v5
@@ -1455,10 +1362,8 @@
 
     invoke-virtual {v4, v5}, Landroid/graphics/Matrix;->preConcat(Landroid/graphics/Matrix;)Z
 
-    .line 8
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->g0:Lcom/commsource/studio/function/StyleViewModel;
 
     if-nez v1, :cond_4
@@ -1468,7 +1373,6 @@
     :cond_4
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/StyleViewModel;->O(Z)V
 
-    .line 10
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1482,7 +1386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->i0:Lcom/commsource/widget/h1/e;
 
     if-nez v1, :cond_0
@@ -1509,7 +1412,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 2
     invoke-virtual {v3}, Lcom/commsource/studio/bean/f;->a()Ljava/util/LinkedHashMap;
 
     move-result-object v1
@@ -1524,7 +1426,6 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 3
     invoke-virtual {v3}, Lcom/commsource/studio/bean/f;->a()Ljava/util/LinkedHashMap;
 
     move-result-object v1
@@ -1541,11 +1442,9 @@
 
     check-cast v1, Ljava/lang/Integer;
 
-    .line 4
     :cond_2
     invoke-direct {p0, v3, p1, p2}, Lcom/commsource/studio/function/StyleFragment;->s2(Lcom/commsource/studio/bean/f;Ljava/lang/String;I)V
 
-    .line 5
     :cond_3
     iget-object v2, p0, Lcom/commsource/studio/function/StyleFragment;->f0:Lcom/commsource/studio/processor/StyleProcessor;
 
@@ -1561,7 +1460,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/processor/StyleProcessor;->C0(Lcom/commsource/studio/processor/StyleProcessor;Lcom/commsource/studio/bean/f;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1581,7 +1479,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/function/StyleFragment;->q2(Ljava/lang/String;IZ)V
 
@@ -1597,17 +1494,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->f0:Lcom/commsource/studio/processor/StyleProcessor;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->g()I
 
@@ -1617,12 +1511,10 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 4
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->T0(I)V
 
     goto/16 :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->g()I
 
@@ -1636,19 +1528,16 @@
 
     if-ne v2, v3, :cond_3
 
-    .line 6
     invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->L0(I)V
 
     goto/16 :goto_0
 
-    .line 8
     :cond_2
     invoke-static {p2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1656,12 +1545,10 @@
 
     if-eqz p1, :cond_14
 
-    .line 9
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->K0(I)V
 
     goto/16 :goto_0
 
-    .line 10
     :cond_3
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->g()I
 
@@ -1671,7 +1558,6 @@
 
     if-ne v2, v3, :cond_8
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
     move-result-object p1
@@ -1686,14 +1572,12 @@
 
     const-string p1, "t_style_shift"
 
-    .line 12
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_4
 
-    .line 13
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->R0(I)V
 
     goto/16 :goto_0
@@ -1701,14 +1585,12 @@
     :cond_4
     const-string p1, "t_blur"
 
-    .line 14
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_5
 
-    .line 15
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->P0(I)V
 
     goto/16 :goto_0
@@ -1716,19 +1598,16 @@
     :cond_5
     const-string p1, "beauty_main_dispersion"
 
-    .line 16
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_14
 
-    .line 17
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->N0(I)V
 
     goto/16 :goto_0
 
-    .line 18
     :cond_6
     invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1736,12 +1615,10 @@
 
     if-eqz p1, :cond_7
 
-    .line 19
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->Q0(I)V
 
     goto/16 :goto_0
 
-    .line 20
     :cond_7
     invoke-static {p2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1749,12 +1626,10 @@
 
     if-eqz p1, :cond_14
 
-    .line 21
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->O0(I)V
 
     goto/16 :goto_0
 
-    .line 22
     :cond_8
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->g()I
 
@@ -1764,7 +1639,6 @@
 
     if-ne v2, v3, :cond_11
 
-    .line 23
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
     move-result-object v2
@@ -1779,28 +1653,23 @@
 
     const-string p1, "beauty_main_aiming_size"
 
-    .line 24
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_9
 
-    .line 25
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->G0(I)V
 
-    .line 26
     :cond_9
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->J0(I)V
 
     const/16 p1, 0x64
 
-    .line 27
     invoke-virtual {v1, p1}, Lcom/commsource/studio/processor/StyleProcessor;->H0(I)V
 
     goto/16 :goto_0
 
-    .line 28
     :cond_a
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
@@ -1814,14 +1683,12 @@
 
     if-eqz v2, :cond_c
 
-    .line 29
     invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_b
 
-    .line 30
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->F0(I)V
 
     goto/16 :goto_0
@@ -1829,19 +1696,16 @@
     :cond_b
     const-string p1, "t_texture"
 
-    .line 31
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_14
 
-    .line 32
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->E0(I)V
 
     goto/16 :goto_0
 
-    .line 33
     :cond_c
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
@@ -1853,14 +1717,12 @@
 
     if-eqz p1, :cond_f
 
-    .line 34
     invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_d
 
-    .line 35
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->F0(I)V
 
     goto :goto_0
@@ -1868,19 +1730,16 @@
     :cond_d
     const-string p1, "t_style_skyline"
 
-    .line 36
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_e
 
-    .line 37
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->D0(I)V
 
     goto :goto_0
 
-    .line 38
     :cond_e
     invoke-static {p2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1888,12 +1747,10 @@
 
     if-eqz p1, :cond_14
 
-    .line 39
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->H0(I)V
 
     goto :goto_0
 
-    .line 40
     :cond_f
     invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1901,12 +1758,10 @@
 
     if-eqz p1, :cond_10
 
-    .line 41
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->J0(I)V
 
     goto :goto_0
 
-    .line 42
     :cond_10
     invoke-static {p2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1914,15 +1769,12 @@
 
     if-eqz p1, :cond_14
 
-    .line 43
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->G0(I)V
 
-    .line 44
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->H0(I)V
 
     goto :goto_0
 
-    .line 45
     :cond_11
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->g()I
 
@@ -1932,19 +1784,16 @@
 
     if-ne v2, v3, :cond_12
 
-    .line 46
     invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_14
 
-    .line 47
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->M0(I)V
 
     goto :goto_0
 
-    .line 48
     :cond_12
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->g()I
 
@@ -1954,19 +1803,16 @@
 
     if-ne p1, v2, :cond_14
 
-    .line 49
     invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_13
 
-    .line 50
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->M0(I)V
 
     goto :goto_0
 
-    .line 51
     :cond_13
     invoke-static {p2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1974,10 +1820,8 @@
 
     if-eqz p1, :cond_14
 
-    .line 52
     invoke-virtual {v1, p3}, Lcom/commsource/studio/processor/StyleProcessor;->E0(I)V
 
-    .line 53
     :cond_14
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1992,7 +1836,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/StyleFragment;->X1(Lcom/commsource/studio/bean/f;)Ljava/util/ArrayList;
 
     move-result-object p0
@@ -2011,17 +1854,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Style:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lf/d/i/h;->A1(Lcom/commsource/studio/sub/SubModuleEnum;Z)V
 
-    .line 2
     invoke-static {v1, v2}, Lf/d/i/h;->G1(Lcom/commsource/studio/sub/SubModuleEnum;Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->g0:Lcom/commsource/studio/function/StyleViewModel;
 
     const-string v2, "mViewModel"
@@ -2045,7 +1885,6 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->g0:Lcom/commsource/studio/function/StyleViewModel;
 
     if-nez v1, :cond_1
@@ -2067,7 +1906,6 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->g0:Lcom/commsource/studio/function/StyleViewModel;
 
     if-nez v1, :cond_2
@@ -2089,7 +1927,6 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->g0:Lcom/commsource/studio/function/StyleViewModel;
 
     if-nez v1, :cond_3
@@ -2111,7 +1948,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2124,7 +1960,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/StyleFragment;->b2()Lcom/commsource/studio/effect/w;
 
     move-result-object v1
@@ -2135,7 +1970,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/studio/bean/f;->d()I
 
     move-result v1
@@ -2150,7 +1984,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v2, "source_click_position"
@@ -2159,7 +1992,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->w0()Lcom/commsource/studio/component/StudioProViewModel;
 
     move-result-object v4
@@ -2188,16 +2020,13 @@
 
     invoke-static/range {v4 .. v10}, Lcom/commsource/studio/component/StudioProViewModel;->K(Lcom/commsource/studio/component/StudioProViewModel;Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/function/StyleFragment;->Y1()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2210,17 +2039,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->I0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->f0:Lcom/commsource/studio/processor/StyleProcessor;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/StyleProcessor;->Y()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2234,15 +2060,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/processor/StyleProcessor;
 
     invoke-direct {v1}, Lcom/commsource/studio/processor/StyleProcessor;-><init>()V
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->g()Lcom/commsource/studio/s;
 
     move-result-object v2
@@ -2271,38 +2094,32 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/StyleProcessor;->S0(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$1;
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/processor/StyleProcessor;Lcom/commsource/studio/function/StyleFragment;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$2;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$2;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/StyleProcessor;->a1(Lcotlin/jvm/u/l;)V
 
-    .line 6
     new-instance v2, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/StyleProcessor;->X0(Lcotlin/jvm/u/l;)V
 
-    .line 7
     new-instance v2, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/StyleProcessor;->Y0(Lcotlin/jvm/u/l;)V
 
-    .line 8
     iput-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->f0:Lcom/commsource/studio/processor/StyleProcessor;
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2317,7 +2134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->e0:Lcom/commsource/studio/effect/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2332,7 +2148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/StyleFragment;->b2()Lcom/commsource/studio/effect/w;
 
     move-result-object v1
@@ -2351,7 +2166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->f0:Lcom/commsource/studio/processor/StyleProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2366,7 +2180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/w;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/StyleFragment;->k2(Lcom/commsource/studio/effect/w;)V
@@ -2391,7 +2204,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/StyleFragment;->e0:Lcom/commsource/studio/effect/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2406,7 +2218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/StyleFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2425,7 +2236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/StyleFragment;->f0:Lcom/commsource/studio/processor/StyleProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2440,7 +2250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/StyleFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2473,7 +2282,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p3, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {p3, p0}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -2492,7 +2300,6 @@
 
     iput-object p3, p0, Lcom/commsource/studio/function/StyleFragment;->g0:Lcom/commsource/studio/function/StyleViewModel;
 
-    .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object p3
@@ -2508,7 +2315,6 @@
     :cond_0
     invoke-virtual {p3, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/ec;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/ec;
 
     move-result-object p1
@@ -2523,13 +2329,11 @@
 
     if-nez p1, :cond_1
 
-    .line 4
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/ec;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez p1, :cond_2
@@ -2573,13 +2377,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->onResume()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/StyleFragment;->h2()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2592,13 +2393,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onStop()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/StyleFragment;->p2()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2623,16 +2421,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/StyleFragment;->i2()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/StyleFragment;->A0()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

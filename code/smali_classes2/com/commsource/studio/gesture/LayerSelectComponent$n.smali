@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$n;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -78,7 +77,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$n;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v3}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -126,7 +124,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$n;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v3}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -141,7 +138,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$n;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v3}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -156,7 +152,6 @@
 
     invoke-static {v3, v4}, Lcom/commsource/studio/gesture/LayerSelectComponent;->j(Lcom/commsource/studio/gesture/LayerSelectComponent;Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$n;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v3}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -173,7 +168,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

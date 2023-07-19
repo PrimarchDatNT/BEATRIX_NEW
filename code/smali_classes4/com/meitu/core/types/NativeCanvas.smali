@@ -20,10 +20,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -32,10 +30,8 @@
 .method public constructor <init>(Lcom/meitu/core/types/NativeBitmap;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/core/types/NativeCanvas;->mBitmap:Lcom/meitu/core/types/NativeBitmap;
 
     return-void
@@ -59,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     invoke-static {p1, p2, p3, p4}, Landroid/graphics/Color;->argb(IIII)I
 
     move-result p1
@@ -68,7 +63,6 @@
 
     invoke-virtual {p0, p2, p1}, Lcom/meitu/core/types/NativeCanvas;->drawColor(Landroid/graphics/RectF;I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -81,14 +75,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2, p3, p4, p5}, Landroid/graphics/Color;->argb(IIII)I
 
     move-result p2
 
     invoke-virtual {p0, p1, p2}, Lcom/meitu/core/types/NativeCanvas;->drawColor(Landroid/graphics/RectF;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -101,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/core/types/NativeCanvas;->mBitmap:Lcom/meitu/core/types/NativeBitmap;
 
     const/4 v2, 0x0
@@ -114,12 +105,10 @@
 
     new-array v4, v3, [F
 
-    .line 12
     fill-array-data v4, :array_0
 
     new-array v5, v3, [F
 
-    .line 13
     fill-array-data v5, :array_1
 
     const/4 v6, 0x3
@@ -132,7 +121,6 @@
 
     new-array v4, v3, [F
 
-    .line 14
     iget v9, p2, Landroid/graphics/RectF;->left:F
 
     aput v9, v4, v2
@@ -154,7 +142,6 @@
 
     new-array v5, v3, [F
 
-    .line 15
     iget p2, p3, Landroid/graphics/RectF;->left:F
 
     aput p2, v5, v2
@@ -171,7 +158,6 @@
 
     aput p2, v5, v6
 
-    .line 16
     :cond_1
     :try_start_0
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -189,13 +175,10 @@
     :catch_0
     const-string p2, "drawBitmap nativeDraw_bitmap catch fail, try again!"
 
-    .line 17
     invoke-static {p2}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 18
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 19
     iget-object p2, p0, Lcom/meitu/core/types/NativeCanvas;->mBitmap:Lcom/meitu/core/types/NativeBitmap;
 
     invoke-virtual {p2}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -206,7 +189,6 @@
 
     move-result v2
 
-    .line 20
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -243,7 +225,6 @@
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v4, v0, Lcom/meitu/core/types/NativeCanvas;->mBitmap:Lcom/meitu/core/types/NativeBitmap;
 
     const/4 v5, 0x0
@@ -256,12 +237,10 @@
 
     new-array v7, v6, [F
 
-    .line 2
     fill-array-data v7, :array_0
 
     new-array v8, v6, [F
 
-    .line 3
     fill-array-data v8, :array_1
 
     const/4 v9, 0x3
@@ -274,7 +253,6 @@
 
     new-array v7, v6, [F
 
-    .line 4
     iget v12, v1, Landroid/graphics/RectF;->left:F
 
     aput v12, v7, v5
@@ -296,7 +274,6 @@
 
     new-array v8, v6, [F
 
-    .line 5
     iget v1, v2, Landroid/graphics/RectF;->left:F
 
     aput v1, v8, v5
@@ -313,7 +290,6 @@
 
     aput v1, v8, v9
 
-    .line 6
     :cond_1
     :try_start_0
     invoke-virtual {v4}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -339,13 +315,10 @@
     :catch_0
     const-string v1, "drawBitmap nativeDraw catch fail, try again!"
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 9
     iget-object v1, v0, Lcom/meitu/core/types/NativeCanvas;->mBitmap:Lcom/meitu/core/types/NativeBitmap;
 
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -364,7 +337,6 @@
 
     move-result v5
 
-    .line 10
     :cond_2
     :goto_0
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -397,10 +369,8 @@
 
     const/4 v1, 0x0
 
-    .line 9
     invoke-virtual {p0, v1, p1}, Lcom/meitu/core/types/NativeCanvas;->drawColor(Landroid/graphics/RectF;I)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -413,7 +383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/types/NativeCanvas;->mBitmap:Lcom/meitu/core/types/NativeBitmap;
 
     if-eqz v1, :cond_1
@@ -422,7 +391,6 @@
 
     new-array v3, v2, [F
 
-    .line 2
     fill-array-data v3, :array_0
 
     if-eqz p1, :cond_0
@@ -431,7 +399,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     iget v4, p1, Landroid/graphics/RectF;->left:F
 
     aput v4, v3, v2
@@ -454,7 +421,6 @@
 
     aput p1, v3, v2
 
-    .line 4
     :cond_0
     :try_start_0
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -470,13 +436,10 @@
     :catch_0
     const-string p1, "drawBitmap nativeDraw_color catch fail, try again!"
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/core/types/NativeCanvas;->mBitmap:Lcom/meitu/core/types/NativeBitmap;
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -485,7 +448,6 @@
 
     invoke-static {v1, v2, v3, p2}, Lcom/meitu/core/types/NativeCanvas;->nativeDraw_color(J[FI)Z
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -510,7 +472,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     invoke-static {p1, p2, p3}, Landroid/graphics/Color;->rgb(III)I
 
     move-result p1
@@ -519,7 +480,6 @@
 
     invoke-virtual {p0, p2, p1}, Lcom/meitu/core/types/NativeCanvas;->drawColor(Landroid/graphics/RectF;I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -532,14 +492,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2, p3, p4}, Landroid/graphics/Color;->rgb(III)I
 
     move-result p2
 
     invoke-virtual {p0, p1, p2}, Lcom/meitu/core/types/NativeCanvas;->drawColor(Landroid/graphics/RectF;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

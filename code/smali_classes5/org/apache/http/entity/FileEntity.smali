@@ -19,12 +19,10 @@
 .method public constructor <init>(Ljava/io/File;)V
     .locals 1
 
-    .line 7
     invoke-direct {p0}, Lorg/apache/http/entity/AbstractHttpEntity;-><init>()V
 
     const-string v0, "File"
 
-    .line 8
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -41,12 +39,10 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/http/entity/AbstractHttpEntity;-><init>()V
 
     const-string v0, "File"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -55,7 +51,6 @@
 
     iput-object p1, p0, Lorg/apache/http/entity/FileEntity;->file:Ljava/io/File;
 
-    .line 3
     invoke-virtual {p0, p2}, Lorg/apache/http/entity/AbstractHttpEntity;->setContentType(Ljava/lang/String;)V
 
     return-void
@@ -64,12 +59,10 @@
 .method public constructor <init>(Ljava/io/File;Lorg/apache/http/entity/ContentType;)V
     .locals 1
 
-    .line 4
     invoke-direct {p0}, Lorg/apache/http/entity/AbstractHttpEntity;-><init>()V
 
     const-string v0, "File"
 
-    .line 5
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -80,7 +73,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 6
     invoke-virtual {p2}, Lorg/apache/http/entity/ContentType;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -101,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
@@ -117,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileInputStream;
 
     iget-object v1, p0, Lorg/apache/http/entity/FileEntity;->file:Ljava/io/File;
@@ -130,7 +120,6 @@
 .method public getContentLength()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/entity/FileEntity;->file:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->length()J
@@ -166,10 +155,8 @@
 
     const-string v0, "Output stream"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Ljava/io/FileInputStream;
 
     iget-object v1, p0, Lorg/apache/http/entity/FileEntity;->file:Ljava/io/File;
@@ -181,7 +168,6 @@
     :try_start_0
     new-array v1, v1, [B
 
-    .line 3
     :goto_0
     invoke-virtual {v0, v1}, Ljava/io/InputStream;->read([B)I
 
@@ -193,18 +179,15 @@
 
     const/4 v3, 0x0
 
-    .line 4
     invoke-virtual {p1, v1, v3, v2}, Ljava/io/OutputStream;->write([BII)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Ljava/io/OutputStream;->flush()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
 
     return-void

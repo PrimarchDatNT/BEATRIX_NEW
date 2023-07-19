@@ -22,10 +22,8 @@
 .method public varargs constructor <init>([Lio/jaegertracing/b/g;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -34,13 +32,11 @@
 
     const/4 v0, 0x0
 
-    .line 3
     :goto_0
     array-length v1, p1
 
     if-ge v0, v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lio/jaegertracing/a/m/a;->a:Ljava/util/List;
 
     aget-object v2, p1, v0
@@ -60,7 +56,6 @@
 .method public a(Lio/jaegertracing/a/c;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/m/a;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -80,7 +75,6 @@
 
     check-cast v1, Lio/jaegertracing/b/g;
 
-    .line 2
     invoke-interface {v1, p1}, Lio/jaegertracing/b/g;->a(Lio/jaegertracing/a/c;)V
 
     goto :goto_0
@@ -92,7 +86,6 @@
 .method public close()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/m/a;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -112,7 +105,6 @@
 
     check-cast v1, Lio/jaegertracing/b/g;
 
-    .line 2
     invoke-interface {v1}, Lio/jaegertracing/b/g;->close()V
 
     goto :goto_0

@@ -28,7 +28,6 @@
 .method public constructor <init>(Lcom/meitu/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->this$0:Lcom/meitu/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

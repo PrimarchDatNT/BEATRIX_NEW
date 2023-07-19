@@ -106,7 +106,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/appsflyer/AppsFlyerProperties;
 
     invoke-direct {v0}, Lcom/appsflyer/AppsFlyerProperties;-><init>()V
@@ -119,10 +118,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -131,7 +128,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/appsflyer/AppsFlyerProperties;->getInstance:Z
 
     return-void
@@ -140,7 +136,6 @@
 .method private AFDateFormat()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/appsflyer/AppsFlyerProperties;->getInstance:Z
 
     return v0
@@ -149,7 +144,6 @@
 .method public static getInstance()Lcom/appsflyer/AppsFlyerProperties;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/appsflyer/AppsFlyerProperties;->$$b:Lcom/appsflyer/AppsFlyerProperties;
 
     return-object v0
@@ -160,7 +154,6 @@
 .method public getBoolean(Ljava/lang/String;Z)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -169,7 +162,6 @@
 
     return p2
 
-    .line 2
     :cond_0
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Ljava/lang/String;)Ljava/lang/Boolean;
 
@@ -185,7 +177,6 @@
 .method public getInt(Ljava/lang/String;I)I
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -194,7 +185,6 @@
 
     return p2
 
-    .line 2
     :cond_0
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
 
@@ -210,7 +200,6 @@
 .method public getLong(Ljava/lang/String;J)J
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -219,7 +208,6 @@
 
     return-wide p2
 
-    .line 2
     :cond_0
     invoke-static {p1}, Ljava/lang/Long;->valueOf(Ljava/lang/String;)Ljava/lang/Long;
 
@@ -237,7 +225,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerProperties;->$$a:Ljava/util/Map;
 
@@ -262,7 +249,6 @@
 .method public getReferrer(Landroid/content/Context;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerProperties;->values:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -272,14 +258,12 @@
     :cond_0
     const-string v0, "AF_REFERRER"
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -293,7 +277,6 @@
 
     return-object v0
 
-    .line 4
     :cond_2
     invoke-static {p1}, Lcom/appsflyer/AppsFlyerLibCore;->getSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
@@ -301,7 +284,6 @@
 
     const-string v1, "referrer"
 
-    .line 5
     invoke-interface {p1, v1, v0}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -314,7 +296,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerProperties;->$$a:Ljava/util/Map;
 
@@ -345,7 +326,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lcom/appsflyer/AppsFlyerProperties;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v0
@@ -356,7 +336,6 @@
 .method protected isFirstLaunchCalled()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/appsflyer/AppsFlyerProperties;->AFDateFormat:Z
 
     return v0
@@ -369,7 +348,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lcom/appsflyer/AppsFlyerProperties;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v0
@@ -380,7 +358,6 @@
 .method protected isOnReceiveCalled()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/appsflyer/AppsFlyerProperties;->valueOf:Z
 
     return v0
@@ -393,7 +370,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lcom/appsflyer/AppsFlyerProperties;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v0
@@ -406,7 +382,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/appsflyer/AppsFlyerProperties;->AFDateFormat()Z
 
@@ -416,12 +391,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     monitor-exit p0
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-static {p1}, Lcom/appsflyer/AppsFlyerLibCore;->getSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
@@ -432,7 +405,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-interface {p1, v0, v1}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -441,23 +413,19 @@
 
     const-string v0, "Loading properties.."
 
-    .line 5
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     :try_start_2
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v0}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object p1
 
-    .line 8
     :cond_1
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
@@ -466,14 +434,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 9
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/String;
 
-    .line 10
     iget-object v2, p0, Lcom/appsflyer/AppsFlyerProperties;->$$a:Ljava/util/Map;
 
     invoke-interface {v2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -482,7 +448,6 @@
 
     if-nez v2, :cond_1
 
-    .line 11
     iget-object v2, p0, Lcom/appsflyer/AppsFlyerProperties;->$$a:Ljava/util/Map;
 
     invoke-virtual {v0, v1}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
@@ -496,7 +461,6 @@
     :cond_2
     const/4 p1, 0x1
 
-    .line 12
     iput-boolean p1, p0, Lcom/appsflyer/AppsFlyerProperties;->getInstance:Z
     :try_end_2
     .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_0
@@ -510,10 +474,8 @@
     :try_start_3
     const-string v0, "Failed loading properties"
 
-    .line 13
     invoke-static {v0, p1}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 14
     :goto_1
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -533,7 +495,6 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 15
     :cond_3
     monitor-exit p0
 
@@ -552,7 +513,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerProperties;->$$a:Ljava/util/Map;
 
@@ -560,7 +520,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -578,7 +537,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-interface {p1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
@@ -592,7 +550,6 @@
 
     invoke-direct {v1, v2}, Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
 
-    .line 2
     invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -601,12 +558,10 @@
 
     move-result-object p1
 
-    .line 3
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit p0
 
     return-void
@@ -624,7 +579,6 @@
 
     monitor-enter p0
 
-    .line 5
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerProperties;->$$a:Ljava/util/Map;
 
@@ -636,7 +590,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     monitor-exit p0
 
     return-void
@@ -654,7 +607,6 @@
 
     monitor-enter p0
 
-    .line 7
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerProperties;->$$a:Ljava/util/Map;
 
@@ -666,7 +618,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     monitor-exit p0
 
     return-void
@@ -684,7 +635,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerProperties;->$$a:Ljava/util/Map;
 
@@ -692,7 +642,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -710,7 +659,6 @@
 
     monitor-enter p0
 
-    .line 9
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerProperties;->$$a:Ljava/util/Map;
 
@@ -722,7 +670,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     monitor-exit p0
 
     return-void
@@ -740,7 +687,6 @@
 
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerProperties;->$$a:Ljava/util/Map;
 
@@ -748,7 +694,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit p0
 
     return-void
@@ -766,7 +711,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerProperties;->$$a:Ljava/util/Map;
 
@@ -776,7 +720,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -794,7 +737,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/appsflyer/AppsFlyerProperties;->AFDateFormat:Z
 
     return-void
@@ -803,7 +745,6 @@
 .method protected setFirstLaunchCalled(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/appsflyer/AppsFlyerProperties;->AFDateFormat:Z
 
     return-void
@@ -814,7 +755,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/appsflyer/AppsFlyerProperties;->valueOf:Z
 
     return-void
@@ -825,10 +765,8 @@
 
     const-string v0, "AF_REFERRER"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lcom/appsflyer/AppsFlyerProperties;->set(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iput-object p1, p0, Lcom/appsflyer/AppsFlyerProperties;->values:Ljava/lang/String;
 
     return-void
@@ -839,7 +777,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerProperties;->$$a:Ljava/util/Map;
 
@@ -849,7 +786,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void

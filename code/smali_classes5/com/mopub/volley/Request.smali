@@ -93,10 +93,8 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     sget-boolean v0, Lcom/mopub/volley/VolleyLog$MarkerLog;->ENABLED:Z
 
     const/4 v1, 0x0
@@ -115,7 +113,6 @@
     :goto_0
     iput-object v0, p0, Lcom/mopub/volley/Request;->mEventLog:Lcom/mopub/volley/VolleyLog$MarkerLog;
 
-    .line 4
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -124,40 +121,30 @@
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/mopub/volley/Request;->mShouldCache:Z
 
     const/4 v0, 0x0
 
-    .line 6
     iput-boolean v0, p0, Lcom/mopub/volley/Request;->mCanceled:Z
 
-    .line 7
     iput-boolean v0, p0, Lcom/mopub/volley/Request;->mResponseDelivered:Z
 
-    .line 8
     iput-boolean v0, p0, Lcom/mopub/volley/Request;->mShouldRetryServerErrors:Z
 
-    .line 9
     iput-object v1, p0, Lcom/mopub/volley/Request;->mCacheEntry:Lcom/mopub/volley/Cache$Entry;
 
-    .line 10
     iput p1, p0, Lcom/mopub/volley/Request;->mMethod:I
 
-    .line 11
     iput-object p2, p0, Lcom/mopub/volley/Request;->mUrl:Ljava/lang/String;
 
-    .line 12
     iput-object p3, p0, Lcom/mopub/volley/Request;->mErrorListener:Lcom/mopub/volley/Response$ErrorListener;
 
-    .line 13
     new-instance p1, Lcom/mopub/volley/DefaultRetryPolicy;
 
     invoke-direct {p1}, Lcom/mopub/volley/DefaultRetryPolicy;-><init>()V
 
     invoke-virtual {p0, p1}, Lcom/mopub/volley/Request;->setRetryPolicy(Lcom/mopub/volley/RetryPolicy;)Lcom/mopub/volley/Request;
 
-    .line 14
     invoke-static {p2}, Lcom/mopub/volley/Request;->findDefaultTrafficStatsTag(Ljava/lang/String;)I
 
     move-result p1
@@ -174,7 +161,6 @@
 
     const/4 v0, -0x1
 
-    .line 1
     invoke-direct {p0, v0, p1, p2}, Lcom/mopub/volley/Request;-><init>(ILjava/lang/String;Lcom/mopub/volley/Response$ErrorListener;)V
 
     return-void
@@ -183,7 +169,6 @@
 .method static synthetic access$000(Lcom/mopub/volley/Request;)Lcom/mopub/volley/VolleyLog$MarkerLog;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/volley/Request;->mEventLog:Lcom/mopub/volley/VolleyLog$MarkerLog;
 
     return-object p0
@@ -203,12 +188,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     :try_start_0
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -231,7 +214,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -244,7 +226,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -259,10 +240,8 @@
 
     const/16 v2, 0x3d
 
-    .line 5
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -277,12 +256,10 @@
 
     const/16 v1, 0x26
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 8
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -294,7 +271,6 @@
 
     const/4 v3, 0x0
 
-    .line 9
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -309,7 +285,6 @@
 
     aput-object v1, v2, v3
 
-    .line 10
     invoke-static {v0, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -318,7 +293,6 @@
 
     throw p1
 
-    .line 11
     :cond_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -335,7 +309,6 @@
     :catch_0
     move-exception p1
 
-    .line 12
     new-instance v0, Ljava/lang/RuntimeException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -360,28 +333,24 @@
 .method private static findDefaultTrafficStatsTag(Ljava/lang/String;)I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroid/net/Uri;->getHost()Ljava/lang/String;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
 
     move-result p0
@@ -399,12 +368,10 @@
 .method public addMarker(Ljava/lang/String;)V
     .locals 3
 
-    .line 1
     sget-boolean v0, Lcom/mopub/volley/VolleyLog$MarkerLog;->ENABLED:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/volley/Request;->mEventLog:Lcom/mopub/volley/VolleyLog$MarkerLog;
 
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
@@ -426,23 +393,19 @@
     .annotation build Landroidx/annotation/CallSuper;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     iput-boolean v1, p0, Lcom/mopub/volley/Request;->mCanceled:Z
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/mopub/volley/Request;->mErrorListener:Lcom/mopub/volley/Response$ErrorListener;
 
-    .line 4
     monitor-exit v0
 
     return-void
@@ -467,19 +430,16 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getPriority()Lcom/mopub/volley/Request$Priority;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/volley/Request;->getPriority()Lcom/mopub/volley/Request$Priority;
 
     move-result-object v1
 
     if-ne v0, v1, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/volley/Request;->mSequence:Ljava/lang/Integer;
 
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
@@ -514,7 +474,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/mopub/volley/Request;
 
     invoke-virtual {p0, p1}, Lcom/mopub/volley/Request;->compareTo(Lcom/mopub/volley/Request;)I
@@ -527,23 +486,19 @@
 .method public deliverError(Lcom/mopub/volley/VolleyError;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/mopub/volley/Request;->mErrorListener:Lcom/mopub/volley/Response$ErrorListener;
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1, p1}, Lcom/mopub/volley/Response$ErrorListener;->onErrorResponse(Lcom/mopub/volley/VolleyError;)V
 
     :cond_0
@@ -552,7 +507,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -572,21 +526,17 @@
 .method finish(Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mRequestQueue:Lcom/mopub/volley/RequestQueue;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p0}, Lcom/mopub/volley/RequestQueue;->finish(Lcom/mopub/volley/Request;)V
 
-    .line 3
     :cond_0
     sget-boolean v0, Lcom/mopub/volley/VolleyLog$MarkerLog;->ENABLED:Z
 
     if-eqz v0, :cond_2
 
-    .line 4
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -595,7 +545,6 @@
 
     move-result-wide v0
 
-    .line 5
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v2
@@ -606,7 +555,6 @@
 
     if-eq v2, v3, :cond_1
 
-    .line 6
     new-instance v2, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -615,7 +563,6 @@
 
     invoke-direct {v2, v3}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    .line 7
     new-instance v3, Lcom/mopub/volley/Request$1;
 
     invoke-direct {v3, p0, p1, v0, v1}, Lcom/mopub/volley/Request$1;-><init>(Lcom/mopub/volley/Request;Ljava/lang/String;J)V
@@ -624,13 +571,11 @@
 
     return-void
 
-    .line 8
     :cond_1
     iget-object v2, p0, Lcom/mopub/volley/Request;->mEventLog:Lcom/mopub/volley/VolleyLog$MarkerLog;
 
     invoke-virtual {v2, p1, v0, v1}, Lcom/mopub/volley/VolleyLog$MarkerLog;->add(Ljava/lang/String;J)V
 
-    .line 9
     iget-object p1, p0, Lcom/mopub/volley/Request;->mEventLog:Lcom/mopub/volley/VolleyLog$MarkerLog;
 
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->toString()Ljava/lang/String;
@@ -651,21 +596,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getParams()Ljava/util/Map;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map;->size()I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getParamsEncoding()Ljava/lang/String;
 
     move-result-object v1
@@ -685,7 +627,6 @@
 .method public getBodyContentType()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -710,7 +651,6 @@
 .method public getCacheEntry()Lcom/mopub/volley/Cache$Entry;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mCacheEntry:Lcom/mopub/volley/Cache$Entry;
 
     return-object v0
@@ -719,12 +659,10 @@
 .method public getCacheKey()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getUrl()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getMethod()I
 
     move-result v1
@@ -737,7 +675,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -769,12 +706,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/mopub/volley/Request;->mErrorListener:Lcom/mopub/volley/Response$ErrorListener;
 
@@ -785,7 +720,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -811,7 +745,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object v0
@@ -822,7 +755,6 @@
 .method public getMethod()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/volley/Request;->mMethod:I
 
     return v0
@@ -870,21 +802,18 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getPostParams()Ljava/util/Map;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map;->size()I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getPostParamsEncoding()Ljava/lang/String;
 
     move-result-object v1
@@ -906,7 +835,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getBodyContentType()Ljava/lang/String;
 
     move-result-object v0
@@ -935,7 +863,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getParams()Ljava/util/Map;
 
     move-result-object v0
@@ -948,7 +875,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getParamsEncoding()Ljava/lang/String;
 
     move-result-object v0
@@ -959,7 +885,6 @@
 .method public getPriority()Lcom/mopub/volley/Request$Priority;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/volley/Request$Priority;->NORMAL:Lcom/mopub/volley/Request$Priority;
 
     return-object v0
@@ -968,7 +893,6 @@
 .method public getRetryPolicy()Lcom/mopub/volley/RetryPolicy;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mRetryPolicy:Lcom/mopub/volley/RetryPolicy;
 
     return-object v0
@@ -977,19 +901,16 @@
 .method public final getSequence()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mSequence:Ljava/lang/Integer;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
 
     return v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -1003,7 +924,6 @@
 .method public getTag()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mTag:Ljava/lang/Object;
 
     return-object v0
@@ -1012,7 +932,6 @@
 .method public final getTimeoutMs()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getRetryPolicy()Lcom/mopub/volley/RetryPolicy;
 
     move-result-object v0
@@ -1027,7 +946,6 @@
 .method public getTrafficStatsTag()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/volley/Request;->mDefaultTrafficStatsTag:I
 
     return v0
@@ -1036,7 +954,6 @@
 .method public getUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mUrl:Ljava/lang/String;
 
     return-object v0
@@ -1045,12 +962,10 @@
 .method public hasHadResponseDelivered()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lcom/mopub/volley/Request;->mResponseDelivered:Z
 
@@ -1061,7 +976,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1072,12 +986,10 @@
 .method public isCanceled()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lcom/mopub/volley/Request;->mCanceled:Z
 
@@ -1088,7 +1000,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1099,18 +1010,15 @@
 .method public markDelivered()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     iput-boolean v1, p0, Lcom/mopub/volley/Request;->mResponseDelivered:Z
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -1128,23 +1036,19 @@
 .method notifyListenerResponseNotUsable()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/mopub/volley/Request;->mRequestCompleteListener:Lcom/mopub/volley/Request$NetworkRequestCompleteListener;
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1, p0}, Lcom/mopub/volley/Request$NetworkRequestCompleteListener;->onNoUsableResponseReceived(Lcom/mopub/volley/Request;)V
 
     :cond_0
@@ -1153,7 +1057,6 @@
     :catchall_0
     move-exception v1
 
-    .line 5
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -1172,23 +1075,19 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/mopub/volley/Request;->mRequestCompleteListener:Lcom/mopub/volley/Request$NetworkRequestCompleteListener;
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1, p0, p1}, Lcom/mopub/volley/Request$NetworkRequestCompleteListener;->onResponseReceived(Lcom/mopub/volley/Request;Lcom/mopub/volley/Response;)V
 
     :cond_0
@@ -1197,7 +1096,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -1227,12 +1125,10 @@
 .method sendEvent(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mRequestQueue:Lcom/mopub/volley/RequestQueue;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p0, p1}, Lcom/mopub/volley/RequestQueue;->sendRequestEvent(Lcom/mopub/volley/Request;I)V
 
     :cond_0
@@ -1251,7 +1147,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/Request;->mCacheEntry:Lcom/mopub/volley/Cache$Entry;
 
     return-object p0
@@ -1260,16 +1155,13 @@
 .method setNetworkRequestCompleteListener(Lcom/mopub/volley/Request$NetworkRequestCompleteListener;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iput-object p1, p0, Lcom/mopub/volley/Request;->mRequestCompleteListener:Lcom/mopub/volley/Request$NetworkRequestCompleteListener;
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -1296,7 +1188,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/Request;->mRequestQueue:Lcom/mopub/volley/RequestQueue;
 
     return-object p0
@@ -1314,7 +1205,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/Request;->mRetryPolicy:Lcom/mopub/volley/RetryPolicy;
 
     return-object p0
@@ -1330,7 +1220,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -1350,7 +1239,6 @@
         }
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/volley/Request;->mShouldCache:Z
 
     return-object p0
@@ -1366,7 +1254,6 @@
         }
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/volley/Request;->mShouldRetryServerErrors:Z
 
     return-object p0
@@ -1384,7 +1271,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/Request;->mTag:Ljava/lang/Object;
 
     return-object p0
@@ -1393,7 +1279,6 @@
 .method public final shouldCache()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/volley/Request;->mShouldCache:Z
 
     return v0
@@ -1402,7 +1287,6 @@
 .method public final shouldRetryServerErrors()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/volley/Request;->mShouldRetryServerErrors:Z
 
     return v0
@@ -1411,7 +1295,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1434,7 +1317,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1455,7 +1337,6 @@
     :goto_0
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getUrl()Ljava/lang/String;
 
     move-result-object v2
@@ -1470,7 +1351,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {p0}, Lcom/mopub/volley/Request;->getPriority()Lcom/mopub/volley/Request$Priority;
 
     move-result-object v0

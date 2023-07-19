@@ -37,7 +37,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,14 +49,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/widget/q0;->e(Landroid/content/Context;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/util/y0$a;
 
     const-string v3, "DownloadAppTask"
@@ -76,7 +73,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     :cond_0
     :try_start_0
     new-instance p1, Landroid/content/Intent;
@@ -85,10 +81,8 @@
 
     const-string p3, "android.intent.action.VIEW"
 
-    .line 4
     invoke-virtual {p1, p3}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 5
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p2
@@ -99,7 +93,6 @@
 
     invoke-virtual {p1, p2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 6
     invoke-virtual {p0, p1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -109,15 +102,12 @@
     :catch_0
     move-exception p0
 
-    .line 7
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     sget p0, Lcom/res/provider/ResSTRING;->open_failed:I
 
-    .line 8
     invoke-static {p0}, Lf/k/c/c/f;->w(I)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -135,12 +125,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
@@ -163,7 +151,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -181,12 +168,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
@@ -197,14 +182,12 @@
 
     move-result-object p0
 
-    .line 3
     iget p1, p0, Landroid/content/pm/PackageInfo;->versionCode:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     if-ge p1, p2, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -217,7 +200,6 @@
 
     const/4 v1, 0x1
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -231,41 +213,33 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    .line 3
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {v1, p2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 5
     invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 6
     invoke-virtual {v1, p3}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     :cond_0
     const/high16 p1, 0x10000
 
-    .line 7
     invoke-virtual {p0, v1, p1}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;
 
     move-result-object p0
 
-    .line 8
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p0
@@ -294,12 +268,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -307,12 +279,10 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     invoke-virtual {v1, p1}, Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -322,13 +292,10 @@
 
     const/high16 v1, 0x14200000
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 6
     invoke-virtual {p0, p1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -342,19 +309,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    .line 2
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     invoke-virtual {v1, p2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-static {p0, p3}, Lcom/commsource/util/common/m;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -365,10 +328,8 @@
 
     const/4 p1, 0x1
 
-    .line 5
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 6
     invoke-virtual {p0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -378,15 +339,12 @@
     :catch_0
     move-exception p0
 
-    .line 7
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     sget p0, Lcom/res/provider/ResSTRING;->open_failed:I
 
-    .line 8
     invoke-static {p0}, Lf/k/c/c/f;->w(I)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -404,12 +362,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v2, Landroid/content/Intent;
@@ -440,7 +396,6 @@
 
     goto :goto_0
 
-    .line 3
     :catch_0
     new-instance v2, Landroid/content/Intent;
 
@@ -458,17 +413,14 @@
 
     move-result-object p1
 
-    .line 4
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
 
     invoke-direct {v2, v0, p1}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 5
     invoke-virtual {p0, v2}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 6
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -484,12 +436,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v1, Landroid/content/Intent;
@@ -515,15 +465,12 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     sget p0, Lcom/res/provider/ResSTRING;->open_failed:I
 
-    .line 4
     invoke-static {p0}, Lf/k/c/c/f;->w(I)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -539,7 +486,6 @@
 
     const-string v1, "android.permission.READ_EXTERNAL_STORAGE"
 
-    .line 1
     invoke-static {p0, v1}, Lcom/commsource/util/q1;->b(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v1
@@ -548,15 +494,12 @@
 
     sget p0, Lcom/res/provider/ResSTRING;->storage_permission_tip:I
 
-    .line 2
     invoke-static {p0}, Lf/k/c/c/f;->w(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_0
     new-instance v1, Landroid/content/Intent;
@@ -565,15 +508,12 @@
 
     const-string v2, "image/*"
 
-    .line 5
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string v2, "android.intent.action.GET_CONTENT"
 
-    .line 6
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 7
     invoke-virtual {p0, v1, p1}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -583,10 +523,8 @@
     :catch_0
     move-exception p0
 
-    .line 8
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -602,7 +540,6 @@
 
     const-string v1, "android.permission.CAMERA"
 
-    .line 1
     invoke-static {p0, v1}, Lcom/commsource/util/q1;->b(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v1
@@ -611,15 +548,12 @@
 
     sget p0, Lcom/res/provider/ResSTRING;->storage_permission_tip:I
 
-    .line 2
     invoke-static {p0}, Lf/k/c/c/f;->w(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_0
     invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
@@ -628,14 +562,12 @@
 
     const-string v2, "mounted"
 
-    .line 5
     invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 6
     new-instance v1, Landroid/content/Intent;
 
     const-string v2, "android.media.action.IMAGE_CAPTURE"
@@ -644,7 +576,6 @@
 
     invoke-direct {v1, v2, v3}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 7
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -658,27 +589,22 @@
     :try_start_1
     const-string v2, "com.commsource.beautyplus.fileprovider"
 
-    .line 8
     new-instance v3, Ljava/io/File;
 
     invoke-direct {v3, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 9
     invoke-static {p0, v2, v3}, Landroidx/core/content/FileProvider;->getUriForFile(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {v1, v4, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     const/4 p1, 0x1
 
-    .line 11
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     goto :goto_0
 
-    .line 12
     :cond_1
     new-instance v2, Ljava/io/File;
 
@@ -690,7 +616,6 @@
 
     invoke-virtual {v1, v4, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    .line 13
     :goto_0
     invoke-virtual {p0, v1, p2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_1
@@ -701,10 +626,8 @@
     :catch_0
     move-exception p0
 
-    .line 14
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 15
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

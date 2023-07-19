@@ -33,31 +33,26 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Landroid/util/SparseIntArray;
 
     invoke-direct {p1}, Landroid/util/SparseIntArray;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/material/a;->a:Landroid/util/SparseIntArray;
 
-    .line 3
     new-instance p1, Landroid/util/SparseIntArray;
 
     invoke-direct {p1}, Landroid/util/SparseIntArray;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/material/a;->b:Landroid/util/SparseIntArray;
 
-    .line 4
     new-instance p1, Landroid/util/SparseIntArray;
 
     invoke-direct {p1}, Landroid/util/SparseIntArray;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/material/a;->c:Landroid/util/SparseIntArray;
 
-    .line 5
     new-instance p1, Landroid/util/SparseIntArray;
 
     invoke-direct {p1}, Landroid/util/SparseIntArray;-><init>()V
@@ -66,7 +61,6 @@
 
     const/4 p1, 0x0
 
-    .line 6
     iput-boolean p1, p0, Lcom/commsource/material/a;->e:Z
 
     return-void
@@ -79,23 +73,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/a;->k:Lcom/commsource/material/a;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/material/a;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/material/a;->k:Lcom/commsource/material/a;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/material/a;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -106,7 +96,6 @@
 
     sput-object v2, Lcom/commsource/material/a;->k:Lcom/commsource/material/a;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -123,7 +112,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/material/a;->k:Lcom/commsource/material/a;
@@ -140,19 +128,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/a;->k:Lcom/commsource/material/a;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/material/a;
 
     invoke-direct {v1, p0}, Lcom/commsource/material/a;-><init>(Landroid/content/Context;)V
 
     sput-object v1, Lcom/commsource/material/a;->k:Lcom/commsource/material/a;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/commsource/material/a;->k:Lcom/commsource/material/a;
 
@@ -180,7 +165,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-object v1, p0, Lcom/commsource/material/a;->b:Landroid/util/SparseIntArray;
 
@@ -190,12 +174,10 @@
 
     invoke-virtual {v1, p1, p2}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -220,7 +202,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-object v1, p0, Lcom/commsource/material/a;->a:Landroid/util/SparseIntArray;
 
@@ -230,12 +211,10 @@
 
     invoke-virtual {v1, p1, p2}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -260,7 +239,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-object v1, p0, Lcom/commsource/material/a;->d:Landroid/util/SparseIntArray;
 
@@ -270,12 +248,10 @@
 
     invoke-virtual {v1, p1, p2}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -300,7 +276,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-object v1, p0, Lcom/commsource/material/a;->c:Landroid/util/SparseIntArray;
 
@@ -310,12 +285,10 @@
 
     invoke-virtual {v1, p1, p2}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -330,17 +303,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/a;->a:Landroid/util/SparseIntArray;
 
     invoke-virtual {v1}, Landroid/util/SparseIntArray;->clear()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/material/a;->b:Landroid/util/SparseIntArray;
 
     invoke-virtual {v1}, Landroid/util/SparseIntArray;->clear()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -357,12 +327,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/material/a;->b:Landroid/util/SparseIntArray;
 
@@ -376,15 +344,12 @@
 
     if-ne v2, v1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getBeautyLevel()I
 
     move-result v2
 
-    .line 4
     invoke-virtual {p0, p1, v2}, Lcom/commsource/material/a;->c(Lcom/meitu/template/bean/ArMaterial;I)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -402,12 +367,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/material/a;->a:Landroid/util/SparseIntArray;
 
@@ -421,15 +384,12 @@
 
     if-ne v2, v1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getMakeLevel()I
 
     move-result v2
 
-    .line 4
     invoke-virtual {p0, p1, v2}, Lcom/commsource/material/a;->d(Lcom/meitu/template/bean/ArMaterial;I)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -447,12 +407,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/material/a;->d:Landroid/util/SparseIntArray;
 
@@ -466,15 +424,12 @@
 
     if-ne v2, v1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getBeautyLevel()I
 
     move-result v2
 
-    .line 4
     invoke-virtual {p0, p1, v2}, Lcom/commsource/material/a;->c(Lcom/meitu/template/bean/ArMaterial;I)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -492,12 +447,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/material/a;->c:Landroid/util/SparseIntArray;
 
@@ -511,15 +464,12 @@
 
     if-ne v2, v1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getMakeLevel()I
 
     move-result v2
 
-    .line 4
     invoke-virtual {p0, p1, v2}, Lcom/commsource/material/a;->d(Lcom/meitu/template/bean/ArMaterial;I)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -533,7 +483,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/material/a;->e:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -548,10 +497,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/material/a;->e:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

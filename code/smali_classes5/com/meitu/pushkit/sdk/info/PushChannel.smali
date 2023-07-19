@@ -51,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/pushkit/sdk/info/PushChannel;
 
     const-string v2, "NONE"
@@ -102,7 +101,6 @@
 
     sput-object v8, Lcom/meitu/pushkit/sdk/info/PushChannel;->FCM:Lcom/meitu/pushkit/sdk/info/PushChannel;
 
-    .line 2
     new-instance v10, Lcom/meitu/pushkit/sdk/info/PushChannel;
 
     const-string v12, "MT_PUSH"
@@ -203,7 +201,6 @@
 
     aput-object v13, v11, v9
 
-    .line 3
     sput-object v11, Lcom/meitu/pushkit/sdk/info/PushChannel;->$VALUES:[Lcom/meitu/pushkit/sdk/info/PushChannel;
 
     const v0, 0xd10a
@@ -221,15 +218,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/meitu/pushkit/sdk/info/PushChannel;->channelId:I
 
-    .line 3
     iput p3, p0, Lcom/meitu/pushkit/sdk/info/PushChannel;->channelId:I
 
     return-void
@@ -242,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/pushkit/sdk/info/PushChannel;->values()[Lcom/meitu/pushkit/sdk/info/PushChannel;
 
     move-result-object v1
@@ -256,12 +249,10 @@
 
     aget-object v4, v1, v3
 
-    .line 2
     iget v5, v4, Lcom/meitu/pushkit/sdk/info/PushChannel;->channelId:I
 
     if-ne v5, p0, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -271,7 +262,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/meitu/pushkit/sdk/info/PushChannel;->NONE:Lcom/meitu/pushkit/sdk/info/PushChannel;
 
@@ -291,18 +281,15 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/pushkit/sdk/info/PushChannel;->getPushChannelId()I
 
     move-result p0
 
-    .line 3
     sget-object v2, Lcom/meitu/pushkit/sdk/info/PushChannel;->XIAO_MI:Lcom/meitu/pushkit/sdk/info/PushChannel;
 
     invoke-virtual {v2}, Lcom/meitu/pushkit/sdk/info/PushChannel;->getPushChannelId()I
@@ -313,7 +300,6 @@
 
     sget-object v2, Lcom/meitu/pushkit/sdk/info/PushChannel;->HUA_WEI:Lcom/meitu/pushkit/sdk/info/PushChannel;
 
-    .line 4
     invoke-virtual {v2}, Lcom/meitu/pushkit/sdk/info/PushChannel;->getPushChannelId()I
 
     move-result v2
@@ -322,7 +308,6 @@
 
     sget-object v2, Lcom/meitu/pushkit/sdk/info/PushChannel;->MEI_ZU:Lcom/meitu/pushkit/sdk/info/PushChannel;
 
-    .line 5
     invoke-virtual {v2}, Lcom/meitu/pushkit/sdk/info/PushChannel;->getPushChannelId()I
 
     move-result v2
@@ -331,7 +316,6 @@
 
     sget-object v2, Lcom/meitu/pushkit/sdk/info/PushChannel;->OPPO:Lcom/meitu/pushkit/sdk/info/PushChannel;
 
-    .line 6
     invoke-virtual {v2}, Lcom/meitu/pushkit/sdk/info/PushChannel;->getPushChannelId()I
 
     move-result v2
@@ -340,7 +324,6 @@
 
     sget-object v2, Lcom/meitu/pushkit/sdk/info/PushChannel;->VIVO:Lcom/meitu/pushkit/sdk/info/PushChannel;
 
-    .line 7
     invoke-virtual {v2}, Lcom/meitu/pushkit/sdk/info/PushChannel;->getPushChannelId()I
 
     move-result v2
@@ -349,7 +332,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -359,7 +341,6 @@
     :goto_0
     const/4 p0, 0x1
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -374,14 +355,12 @@
 
     if-eqz p0, :cond_1
 
-    .line 10
     iget-object p0, p0, Lcom/meitu/pushkit/sdk/info/TokenInfo;->pushChannel:Lcom/meitu/pushkit/sdk/info/PushChannel;
 
     if-nez p0, :cond_0
 
     goto :goto_0
 
-    .line 11
     :cond_0
     invoke-static {p0}, Lcom/meitu/pushkit/sdk/info/PushChannel;->isManufactor(Lcom/meitu/pushkit/sdk/info/PushChannel;)Z
 
@@ -395,7 +374,6 @@
     :goto_0
     const/4 p0, 0x0
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -412,14 +390,12 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/pushkit/sdk/info/TokenInfo;->pushChannel:Lcom/meitu/pushkit/sdk/info/PushChannel;
 
     if-nez p0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/pushkit/sdk/info/PushChannel;->getPushChannelId()I
 
@@ -435,18 +411,15 @@
 
     const/4 p0, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -461,7 +434,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/pushkit/sdk/info/PushChannel;->NONE:Lcom/meitu/pushkit/sdk/info/PushChannel;
 
     invoke-virtual {v1}, Lcom/meitu/pushkit/sdk/info/PushChannel;->getPushChannelId()I
@@ -474,7 +446,6 @@
 
     sget-object v1, Lcom/meitu/pushkit/sdk/info/PushChannel;->VIVO:Lcom/meitu/pushkit/sdk/info/PushChannel;
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/pushkit/sdk/info/PushChannel;->getPushChannelId()I
 
     move-result v1
@@ -483,7 +454,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/meitu/pushkit/sdk/info/PushChannel;->APNS:Lcom/meitu/pushkit/sdk/info/PushChannel;
 
@@ -493,7 +463,6 @@
 
     if-ne p0, v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -501,12 +470,10 @@
     :cond_1
     const/4 p0, 0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 6
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -521,7 +488,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/pushkit/sdk/info/PushChannel;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -542,7 +508,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/pushkit/sdk/info/PushChannel;->$VALUES:[Lcom/meitu/pushkit/sdk/info/PushChannel;
 
     invoke-virtual {v1}, [Lcom/meitu/pushkit/sdk/info/PushChannel;->clone()Ljava/lang/Object;
@@ -565,7 +530,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/pushkit/sdk/info/PushChannel;->channelId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -32,10 +32,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
@@ -48,7 +46,6 @@
 .method private e(Lcom/bumptech/glide/load/f;)Z
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/f0;->g:Lcom/bumptech/glide/load/e;
 
     invoke-virtual {p1, v0}, Lcom/bumptech/glide/load/f;->c(Lcom/bumptech/glide/load/e;)Ljava/lang/Object;
@@ -59,7 +56,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v0
@@ -90,7 +86,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/k/y/e;->d(Landroid/net/Uri;)Z
@@ -113,7 +108,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/k/y/e;->c(Landroid/net/Uri;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/k/n$a;
@@ -149,7 +143,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2, p3}, Lcom/bumptech/glide/load/j/o/b;->d(II)Z
 
     move-result p2
@@ -162,7 +155,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     new-instance p2, Lcom/bumptech/glide/load/k/n$a;
 
     new-instance p3, Lcom/bumptech/glide/r/e;
@@ -192,7 +184,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/bumptech/glide/load/j/o/b;->c(Landroid/net/Uri;)Z
 
     move-result p1

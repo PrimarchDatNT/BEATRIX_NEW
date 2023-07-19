@@ -145,34 +145,24 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/i00;->a:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/i00;->b:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/i00;->c:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/i00;->d:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 6
     iput-object p5, p0, Lcom/google/android/gms/internal/ads/i00;->e:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 7
     iput-object p6, p0, Lcom/google/android/gms/internal/ads/i00;->f:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 8
     iput-object p7, p0, Lcom/google/android/gms/internal/ads/i00;->g:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 9
     iput-object p8, p0, Lcom/google/android/gms/internal/ads/i00;->h:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 10
     iput-object p9, p0, Lcom/google/android/gms/internal/ads/i00;->i:Lcom/google/android/gms/internal/ads/d62;
 
     return-void
@@ -214,7 +204,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v10, Lcom/google/android/gms/internal/ads/i00;
 
     move-object v0, v10
@@ -247,7 +236,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 11
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/i00;->a:Lcom/google/android/gms/internal/ads/d62;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/d62;->get()Ljava/lang/Object;
@@ -338,7 +326,6 @@
 
     check-cast v10, Lcom/google/android/gms/internal/ads/w0;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/g00;
 
     move-object v1, v0

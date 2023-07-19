@@ -249,45 +249,34 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->number:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->versionControl:I
 
     const-wide/16 v1, 0x0
 
-    .line 4
     iput-wide v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->endTime:J
 
     const/4 v1, -0x1
 
-    .line 5
     iput v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->sort:I
 
-    .line 6
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupRed:I
 
-    .line 7
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->onlineAt:I
 
-    .line 8
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->isRed:I
 
-    .line 9
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->isIp:I
 
     const/4 v0, -0x2
 
-    .line 10
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupType:I
 
-    .line 11
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -302,61 +291,46 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 24
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 25
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->number:I
 
-    .line 26
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->versionControl:I
 
     const-wide/16 v1, 0x0
 
-    .line 27
     iput-wide v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->endTime:J
 
     const/4 v1, -0x1
 
-    .line 28
     iput v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->sort:I
 
-    .line 29
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupRed:I
 
-    .line 30
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->onlineAt:I
 
-    .line 31
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->isRed:I
 
-    .line 32
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->isIp:I
 
     const/4 v0, -0x2
 
-    .line 33
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupType:I
 
-    .line 34
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->materials:Ljava/util/List;
 
-    .line 35
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->number:I
 
-    .line 36
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupType:I
 
-    .line 37
     iput p2, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupIconResource:I
 
-    .line 38
     iput p3, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupNameResource:I
 
     return-void
@@ -367,52 +341,40 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 12
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 13
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->number:I
 
-    .line 14
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->versionControl:I
 
     const-wide/16 v1, 0x0
 
-    .line 15
     iput-wide v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->endTime:J
 
     const/4 v1, -0x1
 
-    .line 16
     iput v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->sort:I
 
-    .line 17
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupRed:I
 
-    .line 18
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->onlineAt:I
 
-    .line 19
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->isRed:I
 
-    .line 20
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->isIp:I
 
     const/4 v0, -0x2
 
-    .line 21
     iput v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupType:I
 
-    .line 22
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/template/bean/ArMaterialGroup;->materials:Ljava/util/List;
 
-    .line 23
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->id:Ljava/lang/Long;
 
     return-void
@@ -423,45 +385,34 @@
 
     move-object v0, p0
 
-    .line 39
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 40
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->number:I
 
-    .line 41
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->versionControl:I
 
     const-wide/16 v2, 0x0
 
-    .line 42
     iput-wide v2, v0, Lcom/meitu/template/bean/ArMaterialGroup;->endTime:J
 
     const/4 v2, -0x1
 
-    .line 43
     iput v2, v0, Lcom/meitu/template/bean/ArMaterialGroup;->sort:I
 
-    .line 44
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->groupRed:I
 
-    .line 45
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->onlineAt:I
 
-    .line 46
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->isRed:I
 
-    .line 47
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->isIp:I
 
     const/4 v1, -0x2
 
-    .line 48
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->groupType:I
 
-    .line 49
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -470,82 +421,66 @@
 
     move-object v1, p1
 
-    .line 50
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->id:Ljava/lang/Long;
 
     move v1, p2
 
-    .line 51
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->number:I
 
     move v1, p3
 
-    .line 52
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->versionControl:I
 
     move-object v1, p4
 
-    .line 53
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->minVersion:Ljava/lang/String;
 
     move-object v1, p5
 
-    .line 54
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->maxVersion:Ljava/lang/String;
 
     move-wide v1, p6
 
-    .line 55
     iput-wide v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->endTime:J
 
     move-object v1, p8
 
-    .line 56
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->icon:Ljava/lang/String;
 
     move-object v1, p9
 
-    .line 57
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->title:Ljava/lang/String;
 
     move v1, p10
 
-    .line 58
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->sort:I
 
     move v1, p11
 
-    .line 59
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->groupRed:I
 
     move/from16 v1, p12
 
-    .line 60
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->onlineAt:I
 
     move-object/from16 v1, p13
 
-    .line 61
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->sequence:Ljava/lang/String;
 
     move/from16 v1, p14
 
-    .line 62
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->isRed:I
 
     move/from16 v1, p15
 
-    .line 63
     iput v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->isIp:I
 
     move-object/from16 v1, p16
 
-    .line 64
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->adSlotId:Ljava/lang/String;
 
     move-object/from16 v1, p17
 
-    .line 65
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterialGroup;->ipLogo:Ljava/lang/String;
 
     return-void
@@ -560,7 +495,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->adSlotId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -575,7 +509,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->endTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -592,20 +525,17 @@
 
     if-gez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p1, ""
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterialGroup;->getGroupName()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -634,7 +564,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupIconResource:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -649,7 +578,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupType:I
 
     const/4 v2, 0x1
@@ -672,7 +600,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterialGroup;->getNumber()I
 
     move-result v1
@@ -685,7 +612,6 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -693,7 +619,6 @@
 
     return-object v0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -701,7 +626,6 @@
 
     return-object v0
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -709,7 +633,6 @@
 
     return-object v0
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -717,7 +640,6 @@
 
     return-object v0
 
-    .line 7
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -733,7 +655,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupNameResource:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -748,7 +669,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupRed:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -763,7 +683,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -778,7 +697,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->icon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -793,7 +711,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->id:Ljava/lang/Long;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -808,7 +725,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->ipGroupSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -823,7 +739,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->ipLogo:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -838,7 +753,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->isIp:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -853,7 +767,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->isRed:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -868,7 +781,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->literal:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -883,7 +795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->literalIcon:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -906,7 +817,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->materials:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -921,7 +831,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->maxVersion:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -936,7 +845,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->minVersion:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -951,7 +859,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->number:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -966,7 +873,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->onlineAt:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -981,7 +887,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->sequence:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -996,7 +901,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->sort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1011,7 +915,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->title:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1026,7 +929,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->versionControl:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1041,7 +943,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupType:I
 
     const/4 v2, -0x2
@@ -1068,7 +969,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->literalIcon:I
 
     if-eqz v1, :cond_1
@@ -1105,10 +1005,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->adSlotId:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1121,10 +1019,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->endTime:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1137,10 +1033,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupIconResource:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1153,10 +1047,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupNameResource:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1169,10 +1061,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupRed:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1185,10 +1075,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->groupType:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1201,10 +1089,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->icon:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1217,10 +1103,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->id:Ljava/lang/Long;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1233,10 +1117,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->ipGroupSort:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1249,10 +1131,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->ipLogo:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1265,10 +1145,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->isIp:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1281,10 +1159,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->isRed:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1297,10 +1173,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->literal:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1313,10 +1187,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->literalIcon:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1337,10 +1209,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->materials:Ljava/util/List;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1353,10 +1223,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->maxVersion:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1369,10 +1237,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->minVersion:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1385,10 +1251,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->number:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1401,10 +1265,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->onlineAt:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1417,10 +1279,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->sequence:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1433,10 +1293,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->sort:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1449,10 +1307,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->title:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1465,10 +1321,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->versionControl:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1481,7 +1335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->number:I
 
     int-to-long v1, v1
@@ -1492,7 +1345,6 @@
 
     iput-object v1, p0, Lcom/meitu/template/bean/ArMaterialGroup;->id:Ljava/lang/Long;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1505,38 +1357,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/ardata/IPArAdData;
 
     invoke-direct {v1}, Lcom/commsource/camera/ardata/IPArAdData;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/template/bean/ArMaterialGroup;->adSlotId:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/ardata/IPArAdData;->setAdSlotId(Ljava/lang/String;)V
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     const-string v3, "rewarded_video"
 
-    .line 4
     invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/camera/ardata/IPArAdData;->setAdSlotTypes(Ljava/util/List;)V
 
     const/4 v2, 0x1
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/camera/ardata/IPArAdData;->setAdswitch(Z)V
 
-    .line 7
     invoke-virtual {v1, v2}, Lcom/commsource/camera/ardata/IPArAdData;->setMode(I)V
 
-    .line 8
     iget-object v4, p0, Lcom/meitu/template/bean/ArMaterialGroup;->adPlatforms:Ljava/util/List;
 
     if-eqz v4, :cond_2
@@ -1547,12 +1391,10 @@
 
     if-nez v4, :cond_2
 
-    .line 9
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 10
     iget-object v5, p0, Lcom/meitu/template/bean/ArMaterialGroup;->adPlatforms:Ljava/util/List;
 
     invoke-interface {v5}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1572,19 +1414,16 @@
 
     check-cast v6, Lcom/meitu/template/bean/ArMaterialGroup$AdPlatformJsonBean;
 
-    .line 11
     new-instance v7, Lcom/commsource/camera/ardata/IPArAdData$Platform;
 
     invoke-direct {v7, v1}, Lcom/commsource/camera/ardata/IPArAdData$Platform;-><init>(Lcom/commsource/camera/ardata/IPArAdData;)V
 
-    .line 12
     invoke-static {v6}, Lcom/meitu/template/bean/ArMaterialGroup$AdPlatformJsonBean;->access$000(Lcom/meitu/template/bean/ArMaterialGroup$AdPlatformJsonBean;)Ljava/lang/String;
 
     move-result-object v8
 
     invoke-virtual {v7, v8}, Lcom/commsource/camera/ardata/IPArAdData$Platform;->setPlatform(Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {v6}, Lcom/meitu/template/bean/ArMaterialGroup$AdPlatformJsonBean;->getPlatform()Ljava/lang/String;
 
     move-result-object v8
@@ -1597,53 +1436,42 @@
 
     if-eqz v8, :cond_0
 
-    .line 14
     invoke-virtual {v7, v2}, Lcom/commsource/camera/ardata/IPArAdData$Platform;->setShowimes(I)V
 
-    .line 15
     :cond_0
     invoke-virtual {v7, v3}, Lcom/commsource/camera/ardata/IPArAdData$Platform;->setType(Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v6}, Lcom/meitu/template/bean/ArMaterialGroup$AdPlatformJsonBean;->access$100(Lcom/meitu/template/bean/ArMaterialGroup$AdPlatformJsonBean;)Ljava/lang/String;
 
     move-result-object v8
 
     invoke-virtual {v7, v8}, Lcom/commsource/camera/ardata/IPArAdData$Platform;->setTestId(Ljava/lang/String;)V
 
-    .line 17
     new-instance v8, Ljava/util/ArrayList;
 
     invoke-direct {v8}, Ljava/util/ArrayList;-><init>()V
 
-    .line 18
     new-instance v9, Lcom/commsource/camera/ardata/IPArAdData$AdId;
 
     invoke-direct {v9, v1}, Lcom/commsource/camera/ardata/IPArAdData$AdId;-><init>(Lcom/commsource/camera/ardata/IPArAdData;)V
 
-    .line 19
     invoke-static {v6}, Lcom/meitu/template/bean/ArMaterialGroup$AdPlatformJsonBean;->access$100(Lcom/meitu/template/bean/ArMaterialGroup$AdPlatformJsonBean;)Ljava/lang/String;
 
     move-result-object v6
 
     invoke-virtual {v9, v6}, Lcom/commsource/camera/ardata/IPArAdData$AdId;->setAdId(Ljava/lang/String;)V
 
-    .line 20
     invoke-interface {v8, v9}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 21
     invoke-virtual {v7, v8}, Lcom/commsource/camera/ardata/IPArAdData$Platform;->setAdIds(Ljava/util/List;)V
 
-    .line 22
     invoke-interface {v4, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 23
     :cond_1
     invoke-virtual {v1, v4}, Lcom/commsource/camera/ardata/IPArAdData;->setPlatforms(Ljava/util/List;)V
 
-    .line 24
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

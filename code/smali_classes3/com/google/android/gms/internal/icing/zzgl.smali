@@ -62,7 +62,6 @@
 .method static constructor <clinit>()V
     .locals 22
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/zzgl;
 
     sget-object v1, Lcom/google/android/gms/internal/icing/zzgq;->zzpu:Lcom/google/android/gms/internal/icing/zzgq;
@@ -77,7 +76,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/icing/zzgl;->zzow:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/icing/zzgl;
 
     sget-object v2, Lcom/google/android/gms/internal/icing/zzgq;->zzpt:Lcom/google/android/gms/internal/icing/zzgq;
@@ -90,7 +88,6 @@
 
     sput-object v1, Lcom/google/android/gms/internal/icing/zzgl;->zzox:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 3
     new-instance v2, Lcom/google/android/gms/internal/icing/zzgl;
 
     sget-object v5, Lcom/google/android/gms/internal/icing/zzgq;->zzps:Lcom/google/android/gms/internal/icing/zzgq;
@@ -103,7 +100,6 @@
 
     sput-object v2, Lcom/google/android/gms/internal/icing/zzgl;->zzoy:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 4
     new-instance v7, Lcom/google/android/gms/internal/icing/zzgl;
 
     const-string v9, "UINT64"
@@ -114,7 +110,6 @@
 
     sput-object v7, Lcom/google/android/gms/internal/icing/zzgl;->zzoz:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 5
     new-instance v9, Lcom/google/android/gms/internal/icing/zzgl;
 
     sget-object v11, Lcom/google/android/gms/internal/icing/zzgq;->zzpr:Lcom/google/android/gms/internal/icing/zzgq;
@@ -127,7 +122,6 @@
 
     sput-object v9, Lcom/google/android/gms/internal/icing/zzgl;->zzpa:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 6
     new-instance v12, Lcom/google/android/gms/internal/icing/zzgl;
 
     const-string v14, "FIXED64"
@@ -136,7 +130,6 @@
 
     sput-object v12, Lcom/google/android/gms/internal/icing/zzgl;->zzpb:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 7
     new-instance v14, Lcom/google/android/gms/internal/icing/zzgl;
 
     const-string v15, "FIXED32"
@@ -147,7 +140,6 @@
 
     sput-object v14, Lcom/google/android/gms/internal/icing/zzgl;->zzpc:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 8
     new-instance v15, Lcom/google/android/gms/internal/icing/zzgl;
 
     sget-object v13, Lcom/google/android/gms/internal/icing/zzgq;->zzpv:Lcom/google/android/gms/internal/icing/zzgq;
@@ -160,7 +152,6 @@
 
     sput-object v15, Lcom/google/android/gms/internal/icing/zzgl;->zzpd:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 9
     new-instance v4, Lcom/google/android/gms/internal/icing/zzgm;
 
     sget-object v13, Lcom/google/android/gms/internal/icing/zzgq;->zzpw:Lcom/google/android/gms/internal/icing/zzgq;
@@ -173,7 +164,6 @@
 
     sput-object v4, Lcom/google/android/gms/internal/icing/zzgl;->zzpe:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 10
     new-instance v6, Lcom/google/android/gms/internal/icing/zzgn;
 
     sget-object v13, Lcom/google/android/gms/internal/icing/zzgq;->zzpz:Lcom/google/android/gms/internal/icing/zzgq;
@@ -186,7 +176,6 @@
 
     sput-object v6, Lcom/google/android/gms/internal/icing/zzgl;->zzpf:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 11
     new-instance v3, Lcom/google/android/gms/internal/icing/zzgo;
 
     const-string v8, "MESSAGE"
@@ -201,7 +190,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/icing/zzgl;->zzpg:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 12
     new-instance v8, Lcom/google/android/gms/internal/icing/zzgp;
 
     sget-object v13, Lcom/google/android/gms/internal/icing/zzgq;->zzpx:Lcom/google/android/gms/internal/icing/zzgq;
@@ -216,7 +204,6 @@
 
     sput-object v8, Lcom/google/android/gms/internal/icing/zzgl;->zzph:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 13
     new-instance v6, Lcom/google/android/gms/internal/icing/zzgl;
 
     const-string v10, "UINT32"
@@ -229,7 +216,6 @@
 
     sput-object v6, Lcom/google/android/gms/internal/icing/zzgl;->zzpi:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 14
     new-instance v10, Lcom/google/android/gms/internal/icing/zzgl;
 
     sget-object v13, Lcom/google/android/gms/internal/icing/zzgq;->zzpy:Lcom/google/android/gms/internal/icing/zzgq;
@@ -246,7 +232,6 @@
 
     sput-object v10, Lcom/google/android/gms/internal/icing/zzgl;->zzpj:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 15
     new-instance v3, Lcom/google/android/gms/internal/icing/zzgl;
 
     const-string v6, "SFIXED32"
@@ -259,7 +244,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/icing/zzgl;->zzpk:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 16
     new-instance v6, Lcom/google/android/gms/internal/icing/zzgl;
 
     const-string v8, "SFIXED64"
@@ -274,7 +258,6 @@
 
     sput-object v6, Lcom/google/android/gms/internal/icing/zzgl;->zzpl:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 17
     new-instance v3, Lcom/google/android/gms/internal/icing/zzgl;
 
     const-string v8, "SINT32"
@@ -289,7 +272,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/icing/zzgl;->zzpm:Lcom/google/android/gms/internal/icing/zzgl;
 
-    .line 18
     new-instance v8, Lcom/google/android/gms/internal/icing/zzgl;
 
     const-string v11, "SINT64"
@@ -372,7 +354,6 @@
 
     aput-object v8, v5, v13
 
-    .line 19
     sput-object v5, Lcom/google/android/gms/internal/icing/zzgl;->zzpq:[Lcom/google/android/gms/internal/icing/zzgl;
 
     return-void
@@ -388,13 +369,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/google/android/gms/internal/icing/zzgl;->zzpo:Lcom/google/android/gms/internal/icing/zzgq;
 
-    .line 3
     iput p4, p0, Lcom/google/android/gms/internal/icing/zzgl;->zzpp:I
 
     return-void
@@ -403,7 +381,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;ILcom/google/android/gms/internal/icing/zzgq;ILcom/google/android/gms/internal/icing/b5;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/icing/zzgl;-><init>(Ljava/lang/String;ILcom/google/android/gms/internal/icing/zzgq;I)V
 
     return-void
@@ -412,7 +389,6 @@
 .method public static values()[Lcom/google/android/gms/internal/icing/zzgl;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/zzgl;->zzpq:[Lcom/google/android/gms/internal/icing/zzgl;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/icing/zzgl;->clone()Ljava/lang/Object;
@@ -429,7 +405,6 @@
 .method public final zzdx()Lcom/google/android/gms/internal/icing/zzgq;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/zzgl;->zzpo:Lcom/google/android/gms/internal/icing/zzgq;
 
     return-object v0
@@ -438,7 +413,6 @@
 .method public final zzdy()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/icing/zzgl;->zzpp:I
 
     return v0

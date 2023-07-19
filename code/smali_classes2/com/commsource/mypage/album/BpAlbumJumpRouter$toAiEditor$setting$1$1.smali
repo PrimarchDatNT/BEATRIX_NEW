@@ -22,7 +22,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,7 +52,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/mypage/album/w;->h()Landroid/os/Bundle;
 
     move-result-object v1
@@ -68,7 +66,6 @@
 
     move-result v3
 
-    .line 2
     :cond_0
     invoke-static {v3}, Lcom/commsource/aieditor/c0;->P(I)Ljava/lang/String;
 
@@ -78,20 +75,16 @@
 
     const-string v5, "miniapp_feature"
 
-    .line 3
     invoke-static {v4, v5, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Landroid/content/Intent;
 
     const-class v4, Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-direct {v1, p1, v4}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 6
     invoke-virtual {p2}, Lcom/commsource/mypage/album/w;->i()Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     move-result-object p2
@@ -102,13 +95,10 @@
 
     const-string v2, "EXTRA_AI_EDIT_IMAGE_PATH"
 
-    .line 7
     invoke-virtual {v1, v2, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 8
     invoke-virtual {p1, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

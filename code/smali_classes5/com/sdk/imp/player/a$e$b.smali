@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/player/a$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/player/a$e$b;->a:Lcom/sdk/imp/player/a$e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onCompletion(Landroid/media/MediaPlayer;)V
     .locals 2
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/player/a$e$b;->a:Lcom/sdk/imp/player/a$e;
 
     iget-object p1, p1, Lcom/sdk/imp/player/a$e;->b:Lcom/sdk/imp/player/a;
@@ -57,7 +55,6 @@
 
     invoke-static {p1, v0}, Lcom/sdk/imp/player/a$p;->a(Lcom/sdk/imp/player/a$p;Ljava/lang/Runnable;)V
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/player/a$e$b;->a:Lcom/sdk/imp/player/a$e;
 
     iget-object p1, p1, Lcom/sdk/imp/player/a$e;->b:Lcom/sdk/imp/player/a;

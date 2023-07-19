@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/effect/bodyshape/a;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$b;->b(ILcom/commsource/studio/effect/bodyshape/a;)Z
@@ -77,7 +76,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$b;->b:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->B1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/studio/effect/bodyshape/a;
@@ -100,7 +98,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/studio/effect/bodyshape/a;->g()Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     move-result-object v0
@@ -113,10 +110,8 @@
 
     const-string v3, "\u5b50\u529f\u80fd"
 
-    .line 3
     invoke-static {v2, v3, v0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$b;->b:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     const-string v2, "entity"
@@ -125,7 +120,6 @@
 
     invoke-static {v0, p2}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->D1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;Lcom/commsource/studio/effect/bodyshape/a;)V
 
-    .line 5
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -16,7 +15,6 @@
 .method public static a([B)Ljava/lang/String;
     .locals 2
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -31,7 +29,6 @@
 .method public static b([BII)Ljava/lang/String;
     .locals 1
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/io/ByteArrayInputStream;
 
@@ -50,7 +47,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     const/4 p0, 0x0
@@ -66,12 +62,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/File;->length()J
 
     move-result-wide v1
@@ -91,12 +85,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lf/n/a/d/h;->c(Ljava/io/File;)Ljava/lang/String;
 
     move-result-object p0
@@ -115,14 +107,12 @@
     :try_start_0
     const-string v0, "sha-1"
 
-    .line 1
     invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v0
     :try_end_0
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     array-length v1, p0
 
     :goto_0
@@ -140,17 +130,14 @@
     :goto_1
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {p1, p0, v3, v2}, Ljava/io/InputStream;->read([BII)I
 
-    .line 4
     invoke-virtual {v0, p0, v3, v2}, Ljava/security/MessageDigest;->update([BII)V
 
     sub-int/2addr p2, v2
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {v0}, Ljava/security/MessageDigest;->digest()[B
 
@@ -161,7 +148,6 @@
     :catch_0
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljava/security/NoSuchAlgorithmException;->printStackTrace()V
 
     const/4 p0, 0x0
@@ -174,18 +160,14 @@
 
     const/4 v0, 0x0
 
-    .line 1
     aget-object v1, p0, v0
 
-    .line 2
     array-length v2, v1
 
     add-int/lit8 v3, v2, 0x1
 
-    .line 3
     new-array v3, v3, [B
 
-    .line 4
     array-length v4, p0
 
     const/4 v5, 0x1
@@ -197,14 +179,12 @@
     :try_start_0
     const-string v4, "sha-1"
 
-    .line 5
     invoke-static {v4}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v4
     :try_end_0
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6
     array-length v6, p0
 
     const/4 v7, 0x0
@@ -214,14 +194,12 @@
 
     aget-object v8, p0, v7
 
-    .line 7
     invoke-virtual {v4, v8}, Ljava/security/MessageDigest;->update([B)V
 
     add-int/lit8 v7, v7, 0x1
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {v4}, Ljava/security/MessageDigest;->digest()[B
 
@@ -232,7 +210,6 @@
     :catch_0
     move-exception p0
 
-    .line 9
     invoke-virtual {p0}, Ljava/security/NoSuchAlgorithmException;->printStackTrace()V
 
     const/4 p0, 0x0
@@ -246,14 +223,11 @@
 
     const/16 v1, 0x16
 
-    .line 10
     :goto_1
     aput-byte v1, v3, v0
 
-    .line 11
     invoke-static {p0, v0, v3, v5, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 12
     invoke-static {v3}, Lf/n/a/d/k;->c([B)Ljava/lang/String;
 
     move-result-object p0
@@ -292,7 +266,6 @@
 
     sub-long/2addr v3, v5
 
-    .line 1
     div-long/2addr v3, v1
 
     long-to-int v4, v3
@@ -319,7 +292,6 @@
     :cond_1
     long-to-int v7, v6
 
-    .line 2
     invoke-static {v0, p0, v7}, Lf/n/a/d/h;->e([BLjava/io/InputStream;I)[B
 
     move-result-object v6
@@ -330,7 +302,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     invoke-static {v3}, Lf/n/a/d/h;->f([[B)Ljava/lang/String;
 

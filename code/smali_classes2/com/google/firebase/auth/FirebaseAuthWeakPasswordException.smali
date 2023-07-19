@@ -22,10 +22,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/firebase/auth/FirebaseAuthInvalidCredentialsException;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iput-object p3, p0, Lcom/google/firebase/auth/FirebaseAuthWeakPasswordException;->zzjf:Ljava/lang/String;
 
     return-void
@@ -38,7 +36,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuthWeakPasswordException;->zzjf:Ljava/lang/String;
 
     return-object v0

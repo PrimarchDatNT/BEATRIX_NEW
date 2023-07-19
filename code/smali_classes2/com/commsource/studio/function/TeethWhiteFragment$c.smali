@@ -30,7 +30,6 @@
 
     iput-object p4, p0, Lcom/commsource/studio/function/TeethWhiteFragment$c;->f:Lcom/commsource/studio/function/TeethWhiteFragment;
 
-    .line 1
     invoke-direct {p0, p2, p3}, Lcom/commsource/studio/function/automanual/c;-><init>(Lcom/commsource/studio/processor/f;Lcom/commsource/studio/layer/PaintMaskLayer;)V
 
     return-void
@@ -61,7 +60,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/easyeditor/utils/opengl/n;->r(Lcom/commsource/easyeditor/utils/opengl/f;)Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -74,20 +72,16 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 2
     invoke-static {p1, v1, v2}, Lcom/meitu/core/processor/FilterProcessor;->renderLutProc(Lcom/meitu/core/types/NativeBitmap;Ljava/lang/String;F)Z
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
 
     move-result-object v1
 
     invoke-static {v1, p2}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

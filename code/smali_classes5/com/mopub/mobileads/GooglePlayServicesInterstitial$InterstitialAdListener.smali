@@ -22,7 +22,6 @@
 .method private constructor <init>(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$InterstitialAdListener;->this$0:Lcom/mopub/mobileads/GooglePlayServicesInterstitial;
 
     invoke-direct {p0}, Lcom/google/android/gms/ads/b;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;Lcom/mopub/mobileads/GooglePlayServicesInterstitial$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$InterstitialAdListener;-><init>(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;)V
 
     return-void
@@ -56,30 +54,25 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 1
     sget-object p1, Lcom/mopub/mobileads/MoPubErrorCode;->UNSPECIFIED:Lcom/mopub/mobileads/MoPubErrorCode;
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/mopub/mobileads/MoPubErrorCode;->NO_FILL:Lcom/mopub/mobileads/MoPubErrorCode;
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Lcom/mopub/mobileads/MoPubErrorCode;->NO_CONNECTION:Lcom/mopub/mobileads/MoPubErrorCode;
 
     goto :goto_0
 
-    .line 4
     :cond_2
     sget-object p1, Lcom/mopub/mobileads/MoPubErrorCode;->ADAPTER_CONFIGURATION_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
     goto :goto_0
 
-    .line 5
     :cond_3
     sget-object p1, Lcom/mopub/mobileads/MoPubErrorCode;->INTERNAL_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
@@ -96,10 +89,8 @@
 
     const-string v1, "Google Play Services interstitial ad dismissed."
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$InterstitialAdListener;->this$0:Lcom/mopub/mobileads/GooglePlayServicesInterstitial;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesInterstitial;->access$200(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;)Lcom/mopub/mobileads/CustomEventInterstitial$CustomEventInterstitialListener;
@@ -108,7 +99,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$InterstitialAdListener;->this$0:Lcom/mopub/mobileads/GooglePlayServicesInterstitial;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesInterstitial;->access$200(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;)Lcom/mopub/mobileads/CustomEventInterstitial$CustomEventInterstitialListener;
@@ -128,10 +118,8 @@
 
     const-string v1, "Google Play Services interstitial ad failed to load."
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$InterstitialAdListener;->this$0:Lcom/mopub/mobileads/GooglePlayServicesInterstitial;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesInterstitial;->access$200(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;)Lcom/mopub/mobileads/CustomEventInterstitial$CustomEventInterstitialListener;
@@ -140,7 +128,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$InterstitialAdListener;->this$0:Lcom/mopub/mobileads/GooglePlayServicesInterstitial;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesInterstitial;->access$200(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;)Lcom/mopub/mobileads/CustomEventInterstitial$CustomEventInterstitialListener;
@@ -164,10 +151,8 @@
 
     const-string v1, "Google Play Services interstitial ad clicked."
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$InterstitialAdListener;->this$0:Lcom/mopub/mobileads/GooglePlayServicesInterstitial;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesInterstitial;->access$200(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;)Lcom/mopub/mobileads/CustomEventInterstitial$CustomEventInterstitialListener;
@@ -176,7 +161,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$InterstitialAdListener;->this$0:Lcom/mopub/mobileads/GooglePlayServicesInterstitial;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesInterstitial;->access$200(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;)Lcom/mopub/mobileads/CustomEventInterstitial$CustomEventInterstitialListener;
@@ -196,10 +180,8 @@
 
     const-string v1, "Google Play Services interstitial ad loaded successfully."
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$InterstitialAdListener;->this$0:Lcom/mopub/mobileads/GooglePlayServicesInterstitial;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesInterstitial;->access$200(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;)Lcom/mopub/mobileads/CustomEventInterstitial$CustomEventInterstitialListener;
@@ -208,7 +190,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$InterstitialAdListener;->this$0:Lcom/mopub/mobileads/GooglePlayServicesInterstitial;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesInterstitial;->access$200(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;)Lcom/mopub/mobileads/CustomEventInterstitial$CustomEventInterstitialListener;
@@ -228,10 +209,8 @@
 
     const-string v1, "Showing Google Play Services interstitial ad."
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$InterstitialAdListener;->this$0:Lcom/mopub/mobileads/GooglePlayServicesInterstitial;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesInterstitial;->access$200(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;)Lcom/mopub/mobileads/CustomEventInterstitial$CustomEventInterstitialListener;
@@ -240,7 +219,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$InterstitialAdListener;->this$0:Lcom/mopub/mobileads/GooglePlayServicesInterstitial;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesInterstitial;->access$200(Lcom/mopub/mobileads/GooglePlayServicesInterstitial;)Lcom/mopub/mobileads/CustomEventInterstitial$CustomEventInterstitialListener;

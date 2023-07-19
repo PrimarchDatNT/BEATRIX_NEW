@@ -95,7 +95,6 @@
 .method static constructor <clinit>()V
     .locals 14
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TStruct;
 
     const-string v1, "PerOperationSamplingStrategies"
@@ -104,7 +103,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v1, "defaultSamplingProbability"
@@ -117,7 +115,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->DEFAULT_SAMPLING_PROBABILITY_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 3
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v4, "defaultLowerBoundTracesPerSecond"
@@ -128,7 +125,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->DEFAULT_LOWER_BOUND_TRACES_PER_SECOND_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 4
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v6, "perOperationStrategies"
@@ -141,7 +137,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->PER_OPERATION_STRATEGIES_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 5
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v8, "defaultUpperBoundTracesPerSecond"
@@ -150,7 +145,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->DEFAULT_UPPER_BOUND_TRACES_PER_SECOND_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 6
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$c;
 
     const/4 v9, 0x0
@@ -159,7 +153,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->STANDARD_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 7
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$e;
 
     invoke-direct {v0, v9}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$e;-><init>(Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$a;)V
@@ -168,7 +161,6 @@
 
     new-array v0, v3, [Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
 
-    .line 8
     sget-object v9, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;->DEFAULT_UPPER_BOUND_TRACES_PER_SECOND:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
 
     const/4 v10, 0x0
@@ -177,14 +169,12 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->optionals:[Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
 
-    .line 9
     new-instance v0, Ljava/util/EnumMap;
 
     const-class v10, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
 
     invoke-direct {v0, v10}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 10
     sget-object v10, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;->DEFAULT_SAMPLING_PROBABILITY:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
 
     new-instance v11, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -197,7 +187,6 @@
 
     invoke-interface {v0, v10, v11}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     sget-object v1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;->DEFAULT_LOWER_BOUND_TRACES_PER_SECOND:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
 
     new-instance v10, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -210,7 +199,6 @@
 
     invoke-interface {v0, v1, v10}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     sget-object v1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;->PER_OPERATION_STRATEGIES:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
 
     new-instance v4, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -231,7 +219,6 @@
 
     invoke-interface {v0, v1, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v3, Lorg/apache/thrift/meta_data/FieldValueMetaData;
@@ -242,14 +229,12 @@
 
     invoke-interface {v0, v9, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->metaDataMap:Ljava/util/Map;
 
-    .line 15
     const-class v1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     invoke-static {v1, v0}, Lorg/apache/thrift/meta_data/FieldMetaData;->addStructMetaDataMap(Ljava/lang/Class;Ljava/util/Map;)V
@@ -260,12 +245,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
     return-void
@@ -282,24 +265,18 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;-><init>()V
 
-    .line 4
     iput-wide p1, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultSamplingProbability:D
 
     const/4 p1, 0x1
 
-    .line 5
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->setDefaultSamplingProbabilityIsSet(Z)V
 
-    .line 6
     iput-wide p3, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultLowerBoundTracesPerSecond:D
 
-    .line 7
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->setDefaultLowerBoundTracesPerSecondIsSet(Z)V
 
-    .line 8
     iput-object p5, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     return-void
@@ -308,37 +285,30 @@
 .method public constructor <init>(Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;)V
     .locals 4
 
-    .line 9
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 10
     iput-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
-    .line 11
     iget-byte v0, p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
     iput-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
-    .line 12
     iget-wide v0, p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultSamplingProbability:D
 
     iput-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultSamplingProbability:D
 
-    .line 13
     iget-wide v0, p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultLowerBoundTracesPerSecond:D
 
     iput-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultLowerBoundTracesPerSecond:D
 
-    .line 14
     invoke-virtual {p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetPerOperationStrategies()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 15
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
@@ -349,7 +319,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 16
     iget-object v1, p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -369,7 +338,6 @@
 
     check-cast v2, Lio/jaegertracing/thrift/sampling_manager/OperationSamplingStrategy;
 
-    .line 17
     new-instance v3, Lio/jaegertracing/thrift/sampling_manager/OperationSamplingStrategy;
 
     invoke-direct {v3, v2}, Lio/jaegertracing/thrift/sampling_manager/OperationSamplingStrategy;-><init>(Lio/jaegertracing/thrift/sampling_manager/OperationSamplingStrategy;)V
@@ -378,11 +346,9 @@
 
     goto :goto_0
 
-    .line 18
     :cond_0
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
-    .line 19
     :cond_1
     iget-wide v0, p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultUpperBoundTracesPerSecond:D
 
@@ -394,7 +360,6 @@
 .method static synthetic access$300()Lorg/apache/thrift/protocol/TStruct;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
     return-object v0
@@ -403,7 +368,6 @@
 .method static synthetic access$400()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->DEFAULT_SAMPLING_PROBABILITY_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -412,7 +376,6 @@
 .method static synthetic access$500()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->DEFAULT_LOWER_BOUND_TRACES_PER_SECOND_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -421,7 +384,6 @@
 .method static synthetic access$600()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->PER_OPERATION_STRATEGIES_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -430,7 +392,6 @@
 .method static synthetic access$700()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->DEFAULT_UPPER_BOUND_TRACES_PER_SECOND_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -447,11 +408,9 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iput-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
     new-instance v1, Lorg/apache/thrift/transport/TIOStreamTransport;
@@ -469,7 +428,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -489,7 +447,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/apache/thrift/scheme/StandardScheme;
 
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TProtocol;->getScheme()Ljava/lang/Class;
@@ -525,7 +482,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -544,7 +500,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -557,19 +512,16 @@
 .method public addToPerOperationStrategies(Lio/jaegertracing/thrift/sampling_manager/OperationSamplingStrategy;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
@@ -583,29 +535,22 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->setDefaultSamplingProbabilityIsSet(Z)V
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultSamplingProbability:D
 
-    .line 3
     invoke-virtual {p0, v0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->setDefaultLowerBoundTracesPerSecondIsSet(Z)V
 
-    .line 4
     iput-wide v1, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultLowerBoundTracesPerSecond:D
 
     const/4 v3, 0x0
 
-    .line 5
     iput-object v3, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
-    .line 6
     invoke-virtual {p0, v0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->setDefaultUpperBoundTracesPerSecondIsSet(Z)V
 
-    .line 7
     iput-wide v1, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultUpperBoundTracesPerSecond:D
 
     return-void
@@ -614,7 +559,6 @@
 .method public compareTo(Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;)I
     .locals 4
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -629,7 +573,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -652,7 +595,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultSamplingProbability()Z
 
@@ -678,7 +620,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultSamplingProbability()Z
 
@@ -686,7 +627,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultSamplingProbability:D
 
     iget-wide v2, p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultSamplingProbability:D
@@ -699,7 +639,6 @@
 
     return v0
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultLowerBoundTracesPerSecond()Z
 
@@ -725,7 +664,6 @@
 
     return v0
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultLowerBoundTracesPerSecond()Z
 
@@ -733,7 +671,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 9
     iget-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultLowerBoundTracesPerSecond:D
 
     iget-wide v2, p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultLowerBoundTracesPerSecond:D
@@ -746,7 +683,6 @@
 
     return v0
 
-    .line 10
     :cond_4
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetPerOperationStrategies()Z
 
@@ -772,7 +708,6 @@
 
     return v0
 
-    .line 11
     :cond_5
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetPerOperationStrategies()Z
 
@@ -780,7 +715,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 12
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     iget-object v1, p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
@@ -793,7 +727,6 @@
 
     return v0
 
-    .line 13
     :cond_6
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultUpperBoundTracesPerSecond()Z
 
@@ -819,7 +752,6 @@
 
     return v0
 
-    .line 14
     :cond_7
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultUpperBoundTracesPerSecond()Z
 
@@ -827,7 +759,6 @@
 
     if-eqz v0, :cond_8
 
-    .line 15
     iget-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultUpperBoundTracesPerSecond:D
 
     iget-wide v2, p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultUpperBoundTracesPerSecond:D
@@ -849,7 +780,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->compareTo(Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;)I
@@ -862,7 +792,6 @@
 .method public deepCopy()Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
     .locals 1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     invoke-direct {v0, p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;-><init>(Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;)V
@@ -873,7 +802,6 @@
 .method public bridge synthetic deepCopy()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->deepCopy()Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     move-result-object v0
@@ -897,7 +825,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     iget-wide v2, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultSamplingProbability:D
 
@@ -909,7 +836,6 @@
 
     return v0
 
-    .line 4
     :cond_2
     iget-wide v2, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultLowerBoundTracesPerSecond:D
 
@@ -921,13 +847,11 @@
 
     return v0
 
-    .line 5
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetPerOperationStrategies()Z
 
     move-result v2
 
-    .line 6
     invoke-virtual {p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetPerOperationStrategies()Z
 
     move-result v3
@@ -943,7 +867,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_5
     iget-object v2, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
@@ -957,13 +880,11 @@
 
     return v0
 
-    .line 8
     :cond_6
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultUpperBoundTracesPerSecond()Z
 
     move-result v2
 
-    .line 9
     invoke-virtual {p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultUpperBoundTracesPerSecond()Z
 
     move-result v3
@@ -979,7 +900,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_8
     iget-wide v2, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultUpperBoundTracesPerSecond:D
 
@@ -1008,13 +928,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->equals(Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;)Z
@@ -1030,7 +948,6 @@
 .method public fieldForId(I)Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;->findByThriftId(I)Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
 
     move-result-object p1
@@ -1041,7 +958,6 @@
 .method public bridge synthetic fieldForId(I)Lorg/apache/thrift/TFieldIdEnum;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->fieldForId(I)Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
 
     move-result-object p1
@@ -1052,7 +968,6 @@
 .method public getDefaultLowerBoundTracesPerSecond()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultLowerBoundTracesPerSecond:D
 
     return-wide v0
@@ -1061,7 +976,6 @@
 .method public getDefaultSamplingProbability()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultSamplingProbability:D
 
     return-wide v0
@@ -1070,7 +984,6 @@
 .method public getDefaultUpperBoundTracesPerSecond()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultUpperBoundTracesPerSecond:D
 
     return-wide v0
@@ -1079,7 +992,6 @@
 .method public getFieldValue(Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;)Ljava/lang/Object;
     .locals 2
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1104,7 +1016,6 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->getDefaultUpperBoundTracesPerSecond()D
 
     move-result-wide v0
@@ -1115,7 +1026,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1123,7 +1033,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->getPerOperationStrategies()Ljava/util/List;
 
@@ -1131,7 +1040,6 @@
 
     return-object p1
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->getDefaultLowerBoundTracesPerSecond()D
 
@@ -1143,7 +1051,6 @@
 
     return-object p1
 
-    .line 7
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->getDefaultSamplingProbability()D
 
@@ -1159,7 +1066,6 @@
 .method public bridge synthetic getFieldValue(Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->getFieldValue(Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;)Ljava/lang/Object;
@@ -1180,7 +1086,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     return-object v0
@@ -1197,7 +1102,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -1218,7 +1122,6 @@
 .method public getPerOperationStrategiesSize()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -1239,7 +1142,6 @@
 .method public hashCode()I
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultSamplingProbability:D
 
     invoke-static {v0, v1}, Lorg/apache/thrift/TBaseHelper;->hashCode(D)I
@@ -1252,7 +1154,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 2
     iget-wide v2, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultLowerBoundTracesPerSecond:D
 
     invoke-static {v2, v3}, Lorg/apache/thrift/TBaseHelper;->hashCode(D)I
@@ -1263,7 +1164,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetPerOperationStrategies()Z
 
     move-result v2
@@ -1284,7 +1184,6 @@
     :goto_0
     add-int/2addr v0, v2
 
-    .line 4
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetPerOperationStrategies()Z
 
     move-result v2
@@ -1293,7 +1192,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 5
     iget-object v2, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->hashCode()I
@@ -1305,7 +1203,6 @@
     :cond_1
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 6
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultUpperBoundTracesPerSecond()Z
 
     move-result v1
@@ -1320,7 +1217,6 @@
     :goto_1
     add-int/2addr v0, v3
 
-    .line 7
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultUpperBoundTracesPerSecond()Z
 
     move-result v1
@@ -1329,7 +1225,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 8
     iget-wide v1, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultUpperBoundTracesPerSecond:D
 
     invoke-static {v1, v2}, Lorg/apache/thrift/TBaseHelper;->hashCode(D)I
@@ -1347,7 +1242,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1372,14 +1266,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultUpperBoundTracesPerSecond()Z
 
     move-result p1
 
     return p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1387,7 +1279,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetPerOperationStrategies()Z
 
@@ -1395,7 +1286,6 @@
 
     return p1
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultLowerBoundTracesPerSecond()Z
 
@@ -1403,7 +1293,6 @@
 
     return p1
 
-    .line 7
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultSamplingProbability()Z
 
@@ -1411,7 +1300,6 @@
 
     return p1
 
-    .line 8
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1423,7 +1311,6 @@
 .method public bridge synthetic isSet(Lorg/apache/thrift/TFieldIdEnum;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSet(Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;)Z
@@ -1436,7 +1323,6 @@
 .method public isSetDefaultLowerBoundTracesPerSecond()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
     const/4 v1, 0x1
@@ -1451,7 +1337,6 @@
 .method public isSetDefaultSamplingProbability()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -1466,7 +1351,6 @@
 .method public isSetDefaultUpperBoundTracesPerSecond()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
     const/4 v1, 0x2
@@ -1481,7 +1365,6 @@
 .method public isSetPerOperationStrategies()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -1505,7 +1388,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0
@@ -1518,12 +1400,10 @@
 .method public setDefaultLowerBoundTracesPerSecond(D)Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultLowerBoundTracesPerSecond:D
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->setDefaultLowerBoundTracesPerSecondIsSet(Z)V
 
     return-object p0
@@ -1532,7 +1412,6 @@
 .method public setDefaultLowerBoundTracesPerSecondIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
     const/4 v1, 0x1
@@ -1549,12 +1428,10 @@
 .method public setDefaultSamplingProbability(D)Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultSamplingProbability:D
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->setDefaultSamplingProbabilityIsSet(Z)V
 
     return-object p0
@@ -1563,7 +1440,6 @@
 .method public setDefaultSamplingProbabilityIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -1580,12 +1456,10 @@
 .method public setDefaultUpperBoundTracesPerSecond(D)Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultUpperBoundTracesPerSecond:D
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->setDefaultUpperBoundTracesPerSecondIsSet(Z)V
 
     return-object p0
@@ -1594,7 +1468,6 @@
 .method public setDefaultUpperBoundTracesPerSecondIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
     const/4 v1, 0x2
@@ -1611,7 +1484,6 @@
 .method public setFieldValue(Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1641,12 +1513,10 @@
     :cond_0
     if-nez p2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->unsetDefaultUpperBoundTracesPerSecond()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     check-cast p2, Ljava/lang/Double;
 
@@ -1661,12 +1531,10 @@
     :cond_2
     if-nez p2, :cond_3
 
-    .line 5
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->unsetPerOperationStrategies()V
 
     goto :goto_0
 
-    .line 6
     :cond_3
     check-cast p2, Ljava/util/List;
 
@@ -1677,12 +1545,10 @@
     :cond_4
     if-nez p2, :cond_5
 
-    .line 7
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->unsetDefaultLowerBoundTracesPerSecond()V
 
     goto :goto_0
 
-    .line 8
     :cond_5
     check-cast p2, Ljava/lang/Double;
 
@@ -1697,12 +1563,10 @@
     :cond_6
     if-nez p2, :cond_7
 
-    .line 9
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->unsetDefaultSamplingProbability()V
 
     goto :goto_0
 
-    .line 10
     :cond_7
     check-cast p2, Ljava/lang/Double;
 
@@ -1719,7 +1583,6 @@
 .method public bridge synthetic setFieldValue(Lorg/apache/thrift/TFieldIdEnum;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->setFieldValue(Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies$_Fields;Ljava/lang/Object;)V
@@ -1739,7 +1602,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     return-object p0
@@ -1752,7 +1614,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     :cond_0
@@ -1762,7 +1623,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "PerOperationSamplingStrategies("
@@ -1771,54 +1631,43 @@
 
     const-string v1, "defaultSamplingProbability:"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-wide v1, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultSamplingProbability:D
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
     const-string v1, ", "
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "defaultLowerBoundTracesPerSecond:"
 
-    .line 5
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     iget-wide v2, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultLowerBoundTracesPerSecond:D
 
     invoke-virtual {v0, v2, v3}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "perOperationStrategies:"
 
-    .line 8
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     iget-object v2, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     if-nez v2, :cond_0
 
     const-string v2, "null"
 
-    .line 10
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 11
     :cond_0
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    .line 12
     :goto_0
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->isSetDefaultUpperBoundTracesPerSecond()Z
 
@@ -1826,15 +1675,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 13
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, "defaultUpperBoundTracesPerSecond:"
 
-    .line 14
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     iget-wide v1, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->defaultUpperBoundTracesPerSecond:D
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
@@ -1842,10 +1688,8 @@
     :cond_1
     const-string v1, ")"
 
-    .line 16
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 17
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -1856,7 +1700,6 @@
 .method public unsetDefaultLowerBoundTracesPerSecond()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
     const/4 v1, 0x1
@@ -1873,7 +1716,6 @@
 .method public unsetDefaultSamplingProbability()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -1890,7 +1732,6 @@
 .method public unsetDefaultUpperBoundTracesPerSecond()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->__isset_bitfield:B
 
     const/4 v1, 0x2
@@ -1909,7 +1750,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     return-void
@@ -1923,14 +1763,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->perOperationStrategies:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -1965,7 +1803,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0

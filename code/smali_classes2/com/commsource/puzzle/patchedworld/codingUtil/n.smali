@@ -15,7 +15,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/puzzle/patchedworld/codingUtil/n;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -32,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->round(F)I
 
     move-result v1
@@ -68,7 +65,6 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 2
     invoke-static {p0}, Ljava/lang/Math;->round(F)I
 
     move-result v1
@@ -96,7 +92,6 @@
     :goto_0
     const/4 p0, 0x1
 
-    .line 3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -122,7 +117,6 @@
 
     rem-float/2addr v0, v1
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -138,7 +132,6 @@
 
     rem-float/2addr v0, v1
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -146,7 +139,6 @@
     :cond_1
     rem-float/2addr p0, v1
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -167,7 +159,6 @@
 
     sub-float/2addr v1, p0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -181,7 +172,6 @@
 
     sub-float/2addr v2, p0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -201,7 +191,6 @@
 
     sub-float/2addr v1, p0
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Math;->abs(F)F
 
     move-result p0
@@ -214,37 +203,30 @@
 
     move-result p0
 
-    .line 4
     invoke-static {v2}, Ljava/lang/Math;->abs(F)F
 
     move-result v6
 
-    .line 5
     invoke-static {p0, v6}, Ljava/lang/Math;->min(FF)F
 
     move-result p0
 
-    .line 6
     invoke-static {v5}, Ljava/lang/Math;->abs(F)F
 
     move-result v6
 
-    .line 7
     invoke-static {p0, v6}, Ljava/lang/Math;->min(FF)F
 
     move-result p0
 
-    .line 8
     invoke-static {v1}, Ljava/lang/Math;->abs(F)F
 
     move-result v6
 
-    .line 9
     invoke-static {p0, v6}, Ljava/lang/Math;->min(FF)F
 
     move-result p0
 
-    .line 10
     invoke-static {v3}, Ljava/lang/Math;->abs(F)F
 
     move-result v6
@@ -253,12 +235,10 @@
 
     if-nez v6, :cond_2
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 12
     :cond_2
     invoke-static {v4}, Ljava/lang/Math;->abs(F)F
 
@@ -268,12 +248,10 @@
 
     if-nez v6, :cond_3
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 14
     :cond_3
     invoke-static {v2}, Ljava/lang/Math;->abs(F)F
 
@@ -283,12 +261,10 @@
 
     if-nez v4, :cond_4
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 16
     :cond_4
     invoke-static {v5}, Ljava/lang/Math;->abs(F)F
 
@@ -298,12 +274,10 @@
 
     if-nez v2, :cond_5
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 18
     :cond_5
     invoke-static {v1}, Ljava/lang/Math;->abs(F)F
 
@@ -313,12 +287,10 @@
 
     if-nez p0, :cond_6
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 20
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -340,12 +312,10 @@
 
     new-array v1, v1, [F
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/graphics/Matrix;->getValues([F)V
 
     const/4 p0, 0x1
 
-    .line 2
     aget p0, v1, p0
 
     float-to-double v2, p0
@@ -384,7 +354,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     aget v1, p0, v1
 
     float-to-double v1, v1
@@ -425,12 +394,10 @@
 
     new-array v1, v1, [F
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/graphics/Matrix;->getValues([F)V
 
     const/4 p0, 0x0
 
-    .line 2
     aget v2, v1, p0
 
     aget p0, v1, p0
@@ -449,14 +416,12 @@
 
     float-to-double v1, v2
 
-    .line 3
     invoke-static {v1, v2}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v1
 
     double-to-float p0, v1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -473,7 +438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p0
 
     const/16 v2, 0x9
@@ -482,7 +446,6 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -490,7 +453,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     aget v2, p0, v1
 
     aget v1, p0, v1
@@ -535,12 +497,10 @@
 
     new-array v1, v1, [F
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/graphics/Matrix;->getValues([F)V
 
     const/4 p0, 0x2
 
-    .line 2
     aget p0, v1, p0
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -563,12 +523,10 @@
 
     new-array v1, v1, [F
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/graphics/Matrix;->getValues([F)V
 
     const/4 p0, 0x5
 
-    .line 2
     aget p0, v1, p0
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$i$a;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$i;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$i;->p:Lcotlin/jvm/u/l;
@@ -55,7 +54,6 @@
 
     invoke-interface {v1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

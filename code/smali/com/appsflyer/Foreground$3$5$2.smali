@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/appsflyer/Foreground$3$5;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/Foreground$3$5$2;->AFDateFormat:Lcom/appsflyer/Foreground$3$5;
 
     iput-object p2, p0, Lcom/appsflyer/Foreground$3$5$2;->$$a:Landroid/content/Context;
@@ -39,7 +38,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/Foreground$3$5$2;->AFDateFormat:Lcom/appsflyer/Foreground$3$5;
 
     iget-object v0, v0, Lcom/appsflyer/Foreground$3$5;->$$b:Lcom/appsflyer/Foreground$3;
@@ -54,10 +52,8 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, v0, Lcom/appsflyer/Foreground$3;->valueOf:Z
 
-    .line 3
     :try_start_0
     iget-object v0, v0, Lcom/appsflyer/Foreground$3;->$$a:Lcom/appsflyer/Foreground$Listener;
 
@@ -74,7 +70,6 @@
 
     const-string v1, "Listener threw exception! "
 
-    .line 4
     invoke-static {v1, v0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0

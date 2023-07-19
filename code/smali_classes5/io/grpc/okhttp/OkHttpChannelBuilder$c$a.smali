@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/okhttp/OkHttpChannelBuilder$c;Lio/grpc/internal/n$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder$c$a;->b:Lio/grpc/okhttp/OkHttpChannelBuilder$c;
 
     iput-object p2, p0, Lio/grpc/okhttp/OkHttpChannelBuilder$c$a;->a:Lio/grpc/internal/n$b;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder$c$a;->a:Lio/grpc/internal/n$b;
 
     invoke-virtual {v0}, Lio/grpc/internal/n$b;->a()V

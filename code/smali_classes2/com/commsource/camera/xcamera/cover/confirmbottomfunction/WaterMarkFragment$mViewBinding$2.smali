@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$mViewBinding$2;->this$0:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->A(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;)Landroid/app/Activity;
@@ -86,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$mViewBinding$2;->invoke()Lcom/commsource/beautyplus/f0/kc;
 
     move-result-object v1

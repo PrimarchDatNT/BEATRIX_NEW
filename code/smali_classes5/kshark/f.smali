@@ -10,7 +10,6 @@
 .method public static final synthetic a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {}, Lkshark/f;->d()Ljava/lang/String;
 
     move-result-object v0
@@ -21,7 +20,6 @@
 .method public static final synthetic b()I
     .locals 1
 
-    .line 1
     invoke-static {}, Lkshark/f;->e()I
 
     move-result v0
@@ -32,7 +30,6 @@
 .method public static final synthetic c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {}, Lkshark/f;->f()Ljava/lang/String;
 
     move-result-object v0
@@ -46,21 +43,18 @@
     :try_start_0
     const-string v0, "android.os.Build"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
 
     const-string v1, "MANUFACTURER"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -95,21 +89,18 @@
     :try_start_0
     const-string v0, "android.os.Build$VERSION"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
 
     const-string v1, "SDK_INT"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -148,21 +139,18 @@
     :try_start_0
     const-string v0, "leakcanary.internal.InternalLeakCanary"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
 
     const-string v1, "version"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v0
 
     const-string v1, "versionField"
 
-    .line 3
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x1
@@ -171,7 +159,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0

@@ -57,10 +57,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
 
-    .line 2
     iput-object p3, p0, Lcom/google/common/collect/MapMakerInternalMap$y;->a:Lcom/google/common/collect/MapMakerInternalMap$i;
 
     return-void
@@ -76,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMakerInternalMap$y;->a:Lcom/google/common/collect/MapMakerInternalMap$i;
 
     return-object v0
@@ -94,7 +91,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/MapMakerInternalMap$y;
 
     invoke-virtual {p0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;

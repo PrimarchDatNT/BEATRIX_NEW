@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/home/entity/DialogDataEntity;->getBout()I
 
     move-result v1
@@ -95,7 +94,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/home/entity/DialogDataEntity;->getWeight()I
 
@@ -121,7 +119,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-virtual {p2}, Lcom/commsource/home/entity/DialogDataEntity;->getCreatedAt()J
 
@@ -133,7 +130,6 @@
 
     cmp-long p1, v1, p1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -147,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/home/entity/DialogDataEntity;
 
     check-cast p2, Lcom/commsource/home/entity/DialogDataEntity;

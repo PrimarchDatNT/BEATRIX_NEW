@@ -42,14 +42,12 @@
 .method public final onVastWebViewClick()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$$inlined$let$lambda$1;->$iconConfig$inlined:Lcom/mopub/mobileads/VastIconConfig;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/VastIconConfig;->getClickTrackingUris()Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$$inlined$let$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastVideoViewController;->getCurrentPosition()I
@@ -60,14 +58,12 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$$inlined$let$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastVideoViewController;->getNetworkMediaFileUrl()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 4
     iget-object v3, p0, Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$$inlined$let$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v3}, Lcom/mopub/mobileads/BaseVideoViewController;->getContext()Landroid/content/Context;
@@ -76,10 +72,8 @@
 
     const/4 v4, 0x0
 
-    .line 5
     invoke-static {v0, v4, v1, v2, v3}, Lcom/mopub/network/TrackingRequest;->makeVastTrackingHttpRequest(Ljava/util/List;Lcom/mopub/mobileads/VastErrorCode;Ljava/lang/Integer;Ljava/lang/String;Landroid/content/Context;)V
 
-    .line 6
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$$inlined$let$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/VastVideoViewController;->getVastIconConfig()Lcom/mopub/mobileads/VastIconConfig;

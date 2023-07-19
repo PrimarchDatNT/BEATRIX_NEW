@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->n()Z
@@ -78,7 +75,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->g()Lcom/commsource/beautyplus/f0/s9;
@@ -93,7 +89,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -119,7 +114,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -132,7 +126,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->g()Lcom/commsource/beautyplus/f0/s9;
@@ -157,7 +150,6 @@
 
     invoke-virtual {v0, p1}, Landroid/view/ViewGroup;->setAlpha(F)V
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

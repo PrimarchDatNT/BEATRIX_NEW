@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/camera/montage/w;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/w$a;->g:Lcom/commsource/camera/montage/w;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/w$a;->g:Lcom/commsource/camera/montage/w;
 
     new-instance v2, Lcom/commsource/material/d;
@@ -48,7 +46,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/montage/w;->z(Lcom/commsource/camera/montage/w;Lcom/commsource/material/d;)Lcom/commsource/material/d;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/w$a;->g:Lcom/commsource/camera/montage/w;
 
     invoke-static {}, Lcom/commsource/camera/montage/h0;->q()Lcom/commsource/camera/montage/h0;
@@ -57,7 +54,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/montage/w;->B(Lcom/commsource/camera/montage/w;Lcom/commsource/camera/montage/h0;)Lcom/commsource/camera/montage/h0;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/montage/w$a;->g:Lcom/commsource/camera/montage/w;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/w;->A(Lcom/commsource/camera/montage/w;)Lcom/commsource/camera/montage/h0;
@@ -68,7 +64,6 @@
 
     move-result v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/montage/w$a;->g:Lcom/commsource/camera/montage/w;
 
     if-gtz v1, :cond_0
@@ -87,7 +82,6 @@
 
     invoke-static {v2, v1}, Lcom/commsource/camera/montage/w;->D(Lcom/commsource/camera/montage/w;Z)Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/montage/w$a;->g:Lcom/commsource/camera/montage/w;
 
     invoke-virtual {v1}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
@@ -96,7 +90,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/w;->e0(Landroid/content/Context;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

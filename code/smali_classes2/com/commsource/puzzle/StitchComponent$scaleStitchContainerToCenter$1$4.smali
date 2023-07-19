@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/animation/Animator;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4;->invoke(Landroid/animation/Animator;)V
@@ -77,7 +76,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4;->this$0:Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1;
 
     iget-object v0, v0, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1;->$isCanceled:Lcotlin/jvm/internal/Ref$BooleanRef;
@@ -86,7 +84,6 @@
 
     iput-boolean v1, v0, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    .line 3
     new-instance v0, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4$1;
 
     invoke-direct {v0, p0}, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4$1;-><init>(Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4;)V
@@ -95,10 +92,8 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/meitu/common/animutil/a;->y()V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

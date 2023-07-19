@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/homepagedialog/SubPayAttentionControl$buildDialog$1;->invoke(Lcom/commsource/widget/dialog/delegate/b;)V
@@ -103,10 +102,8 @@
 
     const-string v2, "home_page_later"
 
-    .line 2
     invoke-static {p1, v1, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

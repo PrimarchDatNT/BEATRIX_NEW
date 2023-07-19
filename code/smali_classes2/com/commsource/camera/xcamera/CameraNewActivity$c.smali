@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$c;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-static {v1}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
@@ -51,12 +50,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$c;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
@@ -80,7 +77,6 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$c;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/CameraNewActivity;->m1(Lcom/commsource/camera/xcamera/CameraNewActivity;)Lcom/commsource/home/homepagedialog/b;
@@ -89,7 +85,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/home/homepagedialog/b;->d()V
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$c;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
@@ -99,7 +94,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverContainer;->l()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$c;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-virtual {v1}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
@@ -108,7 +102,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/xcamera/CameraNewActivity;->o1(Lcom/commsource/camera/xcamera/CameraNewActivity;Landroid/content/Intent;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$c;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-virtual {v1}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
@@ -117,7 +110,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/xcamera/CameraNewActivity;->n1(Lcom/commsource/camera/xcamera/CameraNewActivity;Landroid/content/Intent;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -39,7 +39,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lio/grpc/okhttp/internal/f;->a()V
 
     return-void
@@ -59,16 +58,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/okhttp/internal/f;->a:Ljava/lang/Class;
 
-    .line 3
     iput-object p2, p0, Lio/grpc/okhttp/internal/f;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lio/grpc/okhttp/internal/f;->c:[Ljava/lang/Class;
 
     return-void
@@ -77,7 +72,6 @@
 .method private static synthetic a()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lio/grpc/okhttp/internal/f;
@@ -158,14 +152,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/internal/f;->b:Ljava/lang/String;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v2, p0, Lio/grpc/okhttp/internal/f;->c:[Ljava/lang/Class;
 
     invoke-static {p1, v0, v2}, Lio/grpc/okhttp/internal/f;->c(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
@@ -174,12 +166,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lio/grpc/okhttp/internal/f;->a:Ljava/lang/Class;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
 
     move-result-object v2
@@ -221,7 +211,6 @@
 
     return-object v0
 
-    .line 1
     :cond_0
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/Class;->getModifiers()I
@@ -232,7 +221,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
 
     move-result-object p0
@@ -243,7 +231,6 @@
 
     return-object p0
 
-    .line 3
     :cond_1
     invoke-virtual {p0, p1, p2}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
@@ -251,7 +238,6 @@
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 4
     :try_start_1
     invoke-virtual {p0}, Ljava/lang/reflect/Method;->getModifiers()I
 
@@ -277,7 +263,6 @@
 .method static final synthetic h(Lio/grpc/okhttp/internal/f;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -288,7 +273,6 @@
 .method static final synthetic i(Lio/grpc/okhttp/internal/f;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -315,7 +299,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -326,7 +309,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     sget-object v1, Lio/grpc/okhttp/internal/f;->e:Lorg/aspectj/lang/c$b;
 
@@ -383,7 +365,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance p2, Ljava/lang/AssertionError;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -402,13 +383,10 @@
 
     invoke-direct {p2, v0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p2, p1}, Ljava/lang/AssertionError;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
-    .line 5
     throw p2
 
-    .line 6
     :cond_0
     new-instance p2, Ljava/lang/AssertionError;
 
@@ -456,7 +434,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -471,7 +448,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_0
     sget-object v2, Lio/grpc/okhttp/internal/f;->d:Lorg/aspectj/lang/c$b;
@@ -541,7 +517,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1, p2}, Lio/grpc/okhttp/internal/f;->e(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -554,22 +529,18 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;->getTargetException()Ljava/lang/Throwable;
 
     move-result-object p1
 
-    .line 3
     instance-of p2, p1, Ljava/lang/RuntimeException;
 
     if-eqz p2, :cond_0
 
-    .line 4
     check-cast p1, Ljava/lang/RuntimeException;
 
     throw p1
 
-    .line 5
     :cond_0
     new-instance p2, Ljava/lang/AssertionError;
 
@@ -577,10 +548,8 @@
 
     invoke-direct {p2, v0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
 
-    .line 6
     invoke-virtual {p2, p1}, Ljava/lang/AssertionError;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
-    .line 7
     throw p2
 .end method
 
@@ -595,7 +564,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1, p2}, Lio/grpc/okhttp/internal/f;->d(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -608,22 +576,18 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;->getTargetException()Ljava/lang/Throwable;
 
     move-result-object p1
 
-    .line 3
     instance-of p2, p1, Ljava/lang/RuntimeException;
 
     if-eqz p2, :cond_0
 
-    .line 4
     check-cast p1, Ljava/lang/RuntimeException;
 
     throw p1
 
-    .line 5
     :cond_0
     new-instance p2, Ljava/lang/AssertionError;
 
@@ -631,10 +595,8 @@
 
     invoke-direct {p2, v0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
 
-    .line 6
     invoke-virtual {p2, p1}, Ljava/lang/AssertionError;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
-    .line 7
     throw p2
 .end method
 
@@ -646,7 +608,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1

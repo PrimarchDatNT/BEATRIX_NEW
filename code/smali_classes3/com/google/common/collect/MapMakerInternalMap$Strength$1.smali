@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/google/common/collect/MapMakerInternalMap$Strength;-><init>(Ljava/lang/String;ILcom/google/common/collect/MapMakerInternalMap$a;)V
 
     return-void
@@ -39,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/base/Equivalence;->equals()Lcom/google/common/base/Equivalence;
 
     move-result-object v0

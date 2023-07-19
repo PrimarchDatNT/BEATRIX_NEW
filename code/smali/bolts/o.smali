@@ -107,28 +107,24 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lbolts/f;->a()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 
     sput-object v0, Lbolts/o;->i:Ljava/util/concurrent/ExecutorService;
 
-    .line 2
     invoke-static {}, Lbolts/f;->b()Ljava/util/concurrent/Executor;
 
     move-result-object v0
 
     sput-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
-    .line 3
     invoke-static {}, Lbolts/a;->d()Ljava/util/concurrent/Executor;
 
     move-result-object v0
 
     sput-object v0, Lbolts/o;->k:Ljava/util/concurrent/Executor;
 
-    .line 4
     new-instance v0, Lbolts/o;
 
     const/4 v1, 0x0
@@ -137,7 +133,6 @@
 
     sput-object v0, Lbolts/o;->m:Lbolts/o;
 
-    .line 5
     new-instance v0, Lbolts/o;
 
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
@@ -146,7 +141,6 @@
 
     sput-object v0, Lbolts/o;->n:Lbolts/o;
 
-    .line 6
     new-instance v0, Lbolts/o;
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
@@ -155,7 +149,6 @@
 
     sput-object v0, Lbolts/o;->o:Lbolts/o;
 
-    .line 7
     new-instance v0, Lbolts/o;
 
     const/4 v1, 0x1
@@ -170,17 +163,14 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -198,24 +188,20 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
-    .line 6
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lbolts/o;->h:Ljava/util/List;
 
-    .line 7
     invoke-virtual {p0, p1}, Lbolts/o;->X(Ljava/lang/Object;)Z
 
     return-void
@@ -224,17 +210,14 @@
 .method private constructor <init>(Z)V
     .locals 1
 
-    .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 9
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
-    .line 10
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -243,7 +226,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 11
     invoke-virtual {p0}, Lbolts/o;->V()Z
 
     goto :goto_0
@@ -251,7 +233,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 12
     invoke-virtual {p0, p1}, Lbolts/o;->X(Ljava/lang/Object;)Z
 
     :goto_0
@@ -271,7 +252,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lbolts/f;->d()Ljava/util/concurrent/ScheduledExecutorService;
 
     move-result-object v0
@@ -299,14 +279,12 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p3}, Lbolts/g;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lbolts/o;->i()Lbolts/o;
 
     move-result-object p0
@@ -322,20 +300,17 @@
 
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {p0}, Lbolts/o;->D(Ljava/lang/Object;)Lbolts/o;
 
     move-result-object p0
 
     return-object p0
 
-    .line 4
     :cond_1
     new-instance v0, Lbolts/p;
 
     invoke-direct {v0}, Lbolts/p;-><init>()V
 
-    .line 5
     new-instance v1, Lbolts/o$g;
 
     invoke-direct {v1, v0}, Lbolts/o$g;-><init>(Lbolts/p;)V
@@ -348,14 +323,12 @@
 
     if-eqz p3, :cond_2
 
-    .line 6
     new-instance p1, Lbolts/o$h;
 
     invoke-direct {p1, p0, v0}, Lbolts/o$h;-><init>(Ljava/util/concurrent/ScheduledFuture;Lbolts/p;)V
 
     invoke-virtual {p3, p1}, Lbolts/g;->b(Ljava/lang/Runnable;)Lbolts/h;
 
-    .line 7
     :cond_2
     invoke-virtual {v0}, Lbolts/p;->a()Lbolts/o;
 
@@ -378,15 +351,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lbolts/p;
 
     invoke-direct {v0}, Lbolts/p;-><init>()V
 
-    .line 2
     invoke-virtual {v0, p0}, Lbolts/p;->c(Ljava/lang/Exception;)V
 
-    .line 3
     invoke-virtual {v0}, Lbolts/p;->a()Lbolts/o;
 
     move-result-object p0
@@ -408,18 +378,15 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lbolts/o;->m:Lbolts/o;
 
     return-object p0
 
-    .line 2
     :cond_0
     instance-of v0, p0, Ljava/lang/Boolean;
 
     if-eqz v0, :cond_2
 
-    .line 3
     check-cast p0, Ljava/lang/Boolean;
 
     invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -438,16 +405,13 @@
     :goto_0
     return-object p0
 
-    .line 4
     :cond_2
     new-instance v0, Lbolts/p;
 
     invoke-direct {v0}, Lbolts/p;-><init>()V
 
-    .line 5
     invoke-virtual {v0, p0}, Lbolts/p;->d(Ljava/lang/Object;)V
 
-    .line 6
     invoke-virtual {v0}, Lbolts/p;->a()Lbolts/o;
 
     move-result-object p0
@@ -458,7 +422,6 @@
 .method public static G()Lbolts/o$q;
     .locals 1
 
-    .line 1
     sget-object v0, Lbolts/o;->l:Lbolts/o$q;
 
     return-object v0
@@ -467,12 +430,10 @@
 .method private T()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lbolts/o;->h:Ljava/util/List;
 
@@ -495,7 +456,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :try_start_1
     invoke-interface {v2, p0}, Lbolts/k;->then(Lbolts/o;)Ljava/lang/Object;
     :try_end_1
@@ -508,7 +468,6 @@
     :catch_0
     move-exception v1
 
-    .line 4
     :try_start_2
     new-instance v2, Ljava/lang/RuntimeException;
 
@@ -519,16 +478,13 @@
     :catch_1
     move-exception v1
 
-    .line 5
     throw v1
 
     :cond_0
     const/4 v1, 0x0
 
-    .line 6
     iput-object v1, p0, Lbolts/o;->h:Ljava/util/List;
 
-    .line 7
     monitor-exit v0
 
     return-void
@@ -546,7 +502,6 @@
 .method public static U(Lbolts/o$q;)V
     .locals 0
 
-    .line 1
     sput-object p0, Lbolts/o;->l:Lbolts/o$q;
 
     return-void
@@ -555,7 +510,6 @@
 .method static synthetic a(Lbolts/p;Lbolts/k;Lbolts/o;Ljava/util/concurrent/Executor;Lbolts/g;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lbolts/o;->l(Lbolts/p;Lbolts/k;Lbolts/o;Ljava/util/concurrent/Executor;Lbolts/g;)V
 
     return-void
@@ -576,7 +530,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Collection;->size()I
 
     move-result v0
@@ -585,30 +538,25 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {p0}, Lbolts/o;->D(Ljava/lang/Object;)Lbolts/o;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v6, Lbolts/p;
 
     invoke-direct {v6}, Lbolts/p;-><init>()V
 
-    .line 4
     new-instance v7, Ljava/util/ArrayList;
 
     invoke-direct {v7}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     new-instance v8, Ljava/lang/Object;
 
     invoke-direct {v8}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     new-instance v9, Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-interface {p0}, Ljava/util/Collection;->size()I
@@ -617,14 +565,12 @@
 
     invoke-direct {v9, v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
 
-    .line 7
     new-instance v10, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v0, 0x0
 
     invoke-direct {v10, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
-    .line 8
     invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -644,7 +590,6 @@
 
     check-cast v11, Lbolts/o;
 
-    .line 9
     new-instance v12, Lbolts/o$n;
 
     move-object v0, v12
@@ -665,7 +610,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     invoke-virtual {v6}, Lbolts/p;->a()Lbolts/o;
 
@@ -677,7 +621,6 @@
 .method static synthetic b(Lbolts/p;Lbolts/k;Lbolts/o;Ljava/util/concurrent/Executor;Lbolts/g;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lbolts/o;->k(Lbolts/p;Lbolts/k;Lbolts/o;Ljava/util/concurrent/Executor;Lbolts/g;)V
 
     return-void
@@ -700,7 +643,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lbolts/o;->a0(Ljava/util/Collection;)Lbolts/o;
 
     move-result-object v0
@@ -730,7 +672,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
     const/4 v1, 0x0
@@ -757,7 +698,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Collection;->size()I
 
     move-result v0
@@ -766,27 +706,23 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {p0}, Lbolts/o;->D(Ljava/lang/Object;)Lbolts/o;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Lbolts/p;
 
     invoke-direct {v0}, Lbolts/p;-><init>()V
 
-    .line 4
     new-instance v1, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -804,7 +740,6 @@
 
     check-cast v2, Lbolts/o;
 
-    .line 6
     new-instance v3, Lbolts/o$l;
 
     invoke-direct {v3, v1, v0}, Lbolts/o$l;-><init>(Ljava/util/concurrent/atomic/AtomicBoolean;Lbolts/p;)V
@@ -813,7 +748,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {v0}, Lbolts/p;->a()Lbolts/o;
 
@@ -838,7 +772,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
     invoke-static {p0, v0, p1}, Lbolts/o;->f(Ljava/util/concurrent/Callable;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
@@ -865,7 +798,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Collection;->size()I
 
     move-result v0
@@ -874,27 +806,23 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {p0}, Lbolts/o;->D(Ljava/lang/Object;)Lbolts/o;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Lbolts/p;
 
     invoke-direct {v0}, Lbolts/p;-><init>()V
 
-    .line 4
     new-instance v1, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -912,7 +840,6 @@
 
     check-cast v2, Lbolts/o;
 
-    .line 6
     new-instance v3, Lbolts/o$k;
 
     invoke-direct {v3, v1, v0}, Lbolts/o$k;-><init>(Ljava/util/concurrent/atomic/AtomicBoolean;Lbolts/p;)V
@@ -921,7 +848,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {v0}, Lbolts/p;->a()Lbolts/o;
 
@@ -948,7 +874,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0}, Lbolts/o;->f(Ljava/util/concurrent/Callable;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
 
     move-result-object p0
@@ -973,12 +898,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lbolts/p;
 
     invoke-direct {v0}, Lbolts/p;-><init>()V
 
-    .line 2
     :try_start_0
     new-instance v1, Lbolts/o$j;
 
@@ -993,14 +916,12 @@
     :catch_0
     move-exception p0
 
-    .line 3
     new-instance p1, Lbolts/ExecutorException;
 
     invoke-direct {p1, p0}, Lbolts/ExecutorException;-><init>(Ljava/lang/Exception;)V
 
     invoke-virtual {v0, p1}, Lbolts/p;->c(Ljava/lang/Exception;)V
 
-    .line 4
     :goto_0
     invoke-virtual {v0}, Lbolts/p;->a()Lbolts/o;
 
@@ -1023,7 +944,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->i:Ljava/util/concurrent/ExecutorService;
 
     const/4 v1, 0x0
@@ -1051,7 +971,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->i:Ljava/util/concurrent/ExecutorService;
 
     invoke-static {p0, v0, p1}, Lbolts/o;->f(Ljava/util/concurrent/Callable;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
@@ -1073,7 +992,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->p:Lbolts/o;
 
     return-object v0
@@ -1102,7 +1020,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lbolts/o$f;
 
@@ -1117,7 +1034,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance p2, Lbolts/ExecutorException;
 
     invoke-direct {p2, p1}, Lbolts/ExecutorException;-><init>(Ljava/lang/Exception;)V
@@ -1149,7 +1065,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lbolts/o$e;
 
@@ -1164,7 +1079,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance p2, Lbolts/ExecutorException;
 
     invoke-direct {p2, p1}, Lbolts/ExecutorException;-><init>(Ljava/lang/Exception;)V
@@ -1187,12 +1101,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lbolts/o;
 
     invoke-direct {v0}, Lbolts/o;-><init>()V
 
-    .line 2
     new-instance v1, Lbolts/o$p;
 
     invoke-direct {v1, v0}, Lbolts/o$p;-><init>(Lbolts/o;)V
@@ -1211,7 +1123,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lbolts/f;->d()Ljava/util/concurrent/ScheduledExecutorService;
 
     move-result-object v0
@@ -1230,12 +1141,10 @@
 .method public E()Ljava/lang/Exception;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lbolts/o;->e:Ljava/lang/Exception;
 
@@ -1243,23 +1152,18 @@
 
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lbolts/o;->f:Z
 
-    .line 4
     iget-object v1, p0, Lbolts/o;->g:Lbolts/q;
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v1}, Lbolts/q;->a()V
 
     const/4 v1, 0x0
 
-    .line 6
     iput-object v1, p0, Lbolts/o;->g:Lbolts/q;
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lbolts/o;->e:Ljava/lang/Exception;
 
@@ -1270,7 +1174,6 @@
     :catchall_0
     move-exception v1
 
-    .line 8
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1286,12 +1189,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lbolts/o;->d:Ljava/lang/Object;
 
@@ -1302,7 +1203,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1313,12 +1213,10 @@
 .method public H()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lbolts/o;->c:Z
 
@@ -1329,7 +1227,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1340,12 +1237,10 @@
 .method public I()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lbolts/o;->b:Z
 
@@ -1356,7 +1251,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1367,12 +1261,10 @@
 .method public J()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lbolts/o;->E()Ljava/lang/Exception;
 
@@ -1395,7 +1287,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1414,7 +1305,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lbolts/o$i;
 
     invoke-direct {v0, p0}, Lbolts/o$i;-><init>(Lbolts/o;)V
@@ -1440,7 +1330,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
     const/4 v1, 0x0
@@ -1468,7 +1357,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
     invoke-virtual {p0, p1, v0, p2}, Lbolts/o;->O(Lbolts/k;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
@@ -1496,7 +1384,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0}, Lbolts/o;->O(Lbolts/k;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
 
     move-result-object p1
@@ -1521,7 +1408,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lbolts/o$c;
 
     invoke-direct {v0, p0, p3, p1}, Lbolts/o$c;-><init>(Lbolts/o;Lbolts/g;Lbolts/k;)V
@@ -1549,7 +1435,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
     invoke-virtual {p0, p1, v0}, Lbolts/o;->R(Lbolts/k;Ljava/util/concurrent/Executor;)Lbolts/o;
@@ -1577,7 +1462,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
     invoke-virtual {p0, p1, v0, p2}, Lbolts/o;->S(Lbolts/k;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
@@ -1607,7 +1491,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0}, Lbolts/o;->S(Lbolts/k;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
 
     move-result-object p1
@@ -1634,7 +1517,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lbolts/o$d;
 
     invoke-direct {v0, p0, p3, p1}, Lbolts/o$d;-><init>(Lbolts/o;Lbolts/g;Lbolts/k;)V
@@ -1649,12 +1531,10 @@
 .method V()Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lbolts/o;->b:Z
 
@@ -1662,7 +1542,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     monitor-exit v0
 
     return v1
@@ -1670,21 +1549,16 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, p0, Lbolts/o;->b:Z
 
-    .line 5
     iput-boolean v1, p0, Lbolts/o;->c:Z
 
-    .line 6
     iget-object v2, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     invoke-virtual {v2}, Ljava/lang/Object;->notifyAll()V
 
-    .line 7
     invoke-direct {p0}, Lbolts/o;->T()V
 
-    .line 8
     monitor-exit v0
 
     return v1
@@ -1692,7 +1566,6 @@
     :catchall_0
     move-exception v1
 
-    .line 9
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1703,12 +1576,10 @@
 .method W(Ljava/lang/Exception;)Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lbolts/o;->b:Z
 
@@ -1716,7 +1587,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     monitor-exit v0
 
     return v2
@@ -1724,24 +1594,18 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, p0, Lbolts/o;->b:Z
 
-    .line 5
     iput-object p1, p0, Lbolts/o;->e:Ljava/lang/Exception;
 
-    .line 6
     iput-boolean v2, p0, Lbolts/o;->f:Z
 
-    .line 7
     iget-object p1, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     invoke-virtual {p1}, Ljava/lang/Object;->notifyAll()V
 
-    .line 8
     invoke-direct {p0}, Lbolts/o;->T()V
 
-    .line 9
     iget-boolean p1, p0, Lbolts/o;->f:Z
 
     if-nez p1, :cond_1
@@ -1752,14 +1616,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 10
     new-instance p1, Lbolts/q;
 
     invoke-direct {p1, p0}, Lbolts/q;-><init>(Lbolts/o;)V
 
     iput-object p1, p0, Lbolts/o;->g:Lbolts/q;
 
-    .line 11
     :cond_1
     monitor-exit v0
 
@@ -1768,7 +1630,6 @@
     :catchall_0
     move-exception p1
 
-    .line 12
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1784,12 +1645,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lbolts/o;->b:Z
 
@@ -1797,7 +1656,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     monitor-exit v0
 
     return p1
@@ -1805,21 +1663,16 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, p0, Lbolts/o;->b:Z
 
-    .line 5
     iput-object p1, p0, Lbolts/o;->d:Ljava/lang/Object;
 
-    .line 6
     iget-object p1, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     invoke-virtual {p1}, Ljava/lang/Object;->notifyAll()V
 
-    .line 7
     invoke-direct {p0}, Lbolts/o;->T()V
 
-    .line 8
     monitor-exit v0
 
     return v1
@@ -1827,7 +1680,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1843,12 +1695,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lbolts/o;->I()Z
 
@@ -1856,12 +1706,10 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     invoke-virtual {v1}, Ljava/lang/Object;->wait()V
 
-    .line 4
     :cond_0
     monitor-exit v0
 
@@ -1885,12 +1733,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lbolts/o;->I()Z
 
@@ -1898,7 +1744,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     invoke-virtual {p3, p1, p2}, Ljava/util/concurrent/TimeUnit;->toMillis(J)J
@@ -1907,7 +1752,6 @@
 
     invoke-virtual {v1, p1, p2}, Ljava/lang/Object;->wait(J)V
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lbolts/o;->I()Z
 
@@ -1920,7 +1764,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1962,7 +1805,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
     const/4 v1, 0x0
@@ -1995,7 +1837,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
     invoke-virtual {p0, p1, p2, v0, p3}, Lbolts/o;->p(Ljava/util/concurrent/Callable;Lbolts/k;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
@@ -2028,7 +1869,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3, v0}, Lbolts/o;->p(Ljava/util/concurrent/Callable;Lbolts/k;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
 
     move-result-object p1
@@ -2058,12 +1898,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v7, Lbolts/j;
 
     invoke-direct {v7}, Lbolts/j;-><init>()V
 
-    .line 2
     new-instance v8, Lbolts/o$o;
 
     move-object v0, v8
@@ -2084,7 +1922,6 @@
 
     invoke-virtual {v7, v8}, Lbolts/j;->b(Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p0}, Lbolts/o;->K()Lbolts/o;
 
     move-result-object p1
@@ -2116,7 +1953,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
     const/4 v1, 0x0
@@ -2144,7 +1980,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
     invoke-virtual {p0, p1, v0, p2}, Lbolts/o;->t(Lbolts/k;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
@@ -2172,7 +2007,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0}, Lbolts/o;->t(Lbolts/k;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
 
     move-result-object p1
@@ -2197,17 +2031,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v6, Lbolts/p;
 
     invoke-direct {v6}, Lbolts/p;-><init>()V
 
-    .line 2
     iget-object v7, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v7
 
-    .line 3
     :try_start_0
     invoke-virtual {p0}, Lbolts/o;->I()Z
 
@@ -2215,7 +2046,6 @@
 
     if-nez v8, :cond_0
 
-    .line 4
     iget-object v9, p0, Lbolts/o;->h:Ljava/util/List;
 
     new-instance v10, Lbolts/o$a;
@@ -2236,7 +2066,6 @@
 
     invoke-interface {v9, v10}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     :cond_0
     monitor-exit v7
     :try_end_0
@@ -2244,10 +2073,8 @@
 
     if-eqz v8, :cond_1
 
-    .line 6
     invoke-static {v6, p1, p0, p2, p3}, Lbolts/o;->l(Lbolts/p;Lbolts/k;Lbolts/o;Ljava/util/concurrent/Executor;Lbolts/g;)V
 
-    .line 7
     :cond_1
     invoke-virtual {v6}, Lbolts/p;->a()Lbolts/o;
 
@@ -2258,7 +2085,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_1
     monitor-exit v7
     :try_end_1
@@ -2283,7 +2109,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
     const/4 v1, 0x0
@@ -2313,7 +2138,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lbolts/o;->j:Ljava/util/concurrent/Executor;
 
     invoke-virtual {p0, p1, v0, p2}, Lbolts/o;->x(Lbolts/k;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
@@ -2343,7 +2167,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0}, Lbolts/o;->x(Lbolts/k;Ljava/util/concurrent/Executor;Lbolts/g;)Lbolts/o;
 
     move-result-object p1
@@ -2370,17 +2193,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v6, Lbolts/p;
 
     invoke-direct {v6}, Lbolts/p;-><init>()V
 
-    .line 2
     iget-object v7, p0, Lbolts/o;->a:Ljava/lang/Object;
 
     monitor-enter v7
 
-    .line 3
     :try_start_0
     invoke-virtual {p0}, Lbolts/o;->I()Z
 
@@ -2388,7 +2208,6 @@
 
     if-nez v8, :cond_0
 
-    .line 4
     iget-object v9, p0, Lbolts/o;->h:Ljava/util/List;
 
     new-instance v10, Lbolts/o$b;
@@ -2409,7 +2228,6 @@
 
     invoke-interface {v9, v10}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     :cond_0
     monitor-exit v7
     :try_end_0
@@ -2417,10 +2235,8 @@
 
     if-eqz v8, :cond_1
 
-    .line 6
     invoke-static {v6, p1, p0, p2, p3}, Lbolts/o;->k(Lbolts/p;Lbolts/k;Lbolts/o;Ljava/util/concurrent/Executor;Lbolts/g;)V
 
-    .line 7
     :cond_1
     invoke-virtual {v6}, Lbolts/p;->a()Lbolts/o;
 
@@ -2431,7 +2247,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_1
     monitor-exit v7
     :try_end_1

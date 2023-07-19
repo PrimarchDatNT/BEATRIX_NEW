@@ -19,12 +19,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->gAmbientLight:Z
 
     const-wide/16 v1, 0x0
 
-    .line 2
     sput-wide v1, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->gBeautyTool:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -35,7 +33,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -64,7 +61,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -72,21 +68,18 @@
     :cond_0
     const-string v1, "ambientLight"
 
-    .line 2
     invoke-virtual {p3, v1}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v5
 
     const-string v1, "phoneType"
 
-    .line 3
     invoke-virtual {p3, v1}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v6
 
     const-string v1, "bAbroad"
 
-    .line 4
     invoke-virtual {p3, v1}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v7
@@ -97,7 +90,6 @@
 
     move-object v4, p2
 
-    .line 5
     invoke-static/range {v2 .. v7}, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->preSkinBeauty(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZIZ)Z
 
     move-result p0
@@ -118,32 +110,27 @@
 
     if-nez p0, :cond_0
 
-    .line 6
     sget-object v2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v3, "effectcore preSkinBeauty bitmap is null."
 
     invoke-static {v2, v3}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 8
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 9
     invoke-static {}, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->nativeCreateProxyTool()J
 
     move-result-wide v4
 
     sput-wide v4, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->gBeautyTool:J
 
-    .line 10
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v6
@@ -166,7 +153,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     invoke-virtual/range {p2 .. p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
@@ -185,19 +171,16 @@
 
     move/from16 v14, p5
 
-    .line 12
     invoke-static/range {v4 .. v14}, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->nativePreSkinBeauty(JJJJZIZ)Z
 
     move-result v4
 
     sput-boolean v4, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->gAmbientLight:Z
 
-    .line 13
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 14
     sget-object v6, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -242,7 +225,6 @@
 
     invoke-static {v6, v2}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -259,19 +241,16 @@
 
     if-nez p0, :cond_0
 
-    .line 4
     sget-object v2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v3, "effectcore preSkinBeauty bitmap is null."
 
     invoke-static {v2, v3}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 6
     :cond_0
     sget-wide v2, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->gBeautyTool:J
 
@@ -281,21 +260,17 @@
 
     if-nez v6, :cond_1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 8
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 9
     sget-wide v6, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->gBeautyTool:J
 
-    .line 10
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v8
@@ -318,7 +293,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     invoke-virtual/range {p2 .. p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
@@ -331,25 +305,20 @@
 
     move/from16 v16, p4
 
-    .line 12
     invoke-static/range {v6 .. v16}, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->nativeSkinBeautyAfterPreBeuaty(JJJJZFZ)Z
 
     move-result v3
 
-    .line 13
     sget-wide v6, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->gBeautyTool:J
 
     invoke-static {v6, v7}, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->nativeReleaseProxyTool(J)V
 
-    .line 14
     sput-wide v4, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->gBeautyTool:J
 
-    .line 15
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 16
     sget-object v6, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -394,7 +363,6 @@
 
     invoke-static {v6, v1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -411,7 +379,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -419,12 +386,10 @@
     :cond_0
     const-string v1, "bAbroad"
 
-    .line 2
     invoke-virtual {p3, v1}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result p3
 
-    .line 3
     invoke-static {p0, p1, p2, p4, p3}, Lcom/meitu/core/processor/BeautySubfunctionProcessor;->skinBeautyAfterPreBeauty(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;FZ)Z
 
     move-result p0

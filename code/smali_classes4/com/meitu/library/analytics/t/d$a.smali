@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/t/d;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/t/d$a;->b:Lcom/meitu/library/analytics/t/d;
 
     iput p2, p0, Lcom/meitu/library/analytics/t/d$a;->a:I
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/t/d$a;->b:Lcom/meitu/library/analytics/t/d;
 
     invoke-static {v1}, Lcom/meitu/library/analytics/t/d;->a(Lcom/meitu/library/analytics/t/d;)Lcom/meitu/library/analytics/y/l/f;
@@ -63,7 +61,6 @@
 
     invoke-interface {v1, v2}, Lcom/meitu/library/analytics/y/l/c;->a(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

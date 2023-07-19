@@ -45,15 +45,12 @@
 
     invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v5, Lcom/mopub/network/MoPubRequestQueue$volleyUrlRewriter$1;
 
     invoke-direct {v5, p3}, Lcom/mopub/network/MoPubRequestQueue$volleyUrlRewriter$1;-><init>(Lcom/mopub/network/MoPubUrlRewriter;)V
 
-    .line 3
     new-instance p3, Lcom/mopub/network/MoPubRequestQueue$volleyHurlStack$1;
 
     move-object v1, p3
@@ -68,29 +65,24 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/mopub/network/MoPubRequestQueue$volleyHurlStack$1;-><init>(Ljava/lang/String;Lcom/mopub/volley/toolbox/HurlStack$UrlRewriter;Ljavax/net/ssl/SSLSocketFactory;Lcom/mopub/volley/toolbox/HurlStack$UrlRewriter;Ljavax/net/ssl/SSLSocketFactory;)V
 
-    .line 4
     new-instance p1, Lcom/mopub/volley/toolbox/BasicNetwork;
 
     invoke-direct {p1, p3}, Lcom/mopub/volley/toolbox/BasicNetwork;-><init>(Lcom/mopub/volley/toolbox/BaseHttpStack;)V
 
-    .line 5
     new-instance p2, Lcom/mopub/volley/toolbox/DiskBasedCache;
 
     const/high16 p3, 0xa00000
 
     int-to-long v0, p3
 
-    .line 6
     invoke-static {p4, v0, v1}, Lcom/mopub/common/util/DeviceUtils;->diskCacheSizeBytes(Ljava/io/File;J)J
 
     move-result-wide v0
 
     long-to-int p3, v0
 
-    .line 7
     invoke-direct {p2, p4, p3}, Lcom/mopub/volley/toolbox/DiskBasedCache;-><init>(Ljava/io/File;I)V
 
-    .line 8
     new-instance p3, Lcom/mopub/volley/RequestQueue;
 
     invoke-direct {p3, p2, p1}, Lcom/mopub/volley/RequestQueue;-><init>(Lcom/mopub/volley/Cache;Lcom/mopub/volley/Network;)V
@@ -122,7 +114,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequestQueue;->volleyRequestQueue:Lcom/mopub/volley/RequestQueue;
 
     invoke-virtual {p1}, Lcom/mopub/network/MoPubRequest;->getVolleyRequest$mopub_sdk_networking_release()Lcom/mopub/network/MoPubRequest$VolleyRequest;
@@ -154,7 +145,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequestQueue;->volleyRequestQueue:Lcom/mopub/volley/RequestQueue;
 
     new-instance v1, Lcom/mopub/network/MoPubRequestQueue$cancel$1;
@@ -177,7 +167,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequestQueue;->volleyRequestQueue:Lcom/mopub/volley/RequestQueue;
 
     invoke-virtual {v0, p1}, Lcom/mopub/volley/RequestQueue;->cancelAll(Ljava/lang/Object;)V
@@ -190,7 +179,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequestQueue;->volleyRequestQueue:Lcom/mopub/volley/RequestQueue;
 
     return-object v0
@@ -199,7 +187,6 @@
 .method public start()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequestQueue;->volleyRequestQueue:Lcom/mopub/volley/RequestQueue;
 
     invoke-virtual {v0}, Lcom/mopub/volley/RequestQueue;->start()V

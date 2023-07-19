@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/commsource/helpcapture/HelpSelfieViewModel;Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$b;->J:Lcom/commsource/helpcapture/HelpSelfieViewModel;
 
     iput-object p3, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$b;->g:Ljava/lang/String;
@@ -51,13 +50,11 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     sget-object v4, Landroid/provider/MediaStore$Images$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
     const-string v3, "_data"
 
-    .line 2
     filled-new-array {v3}, [Ljava/lang/String;
 
     move-result-object v5
@@ -68,7 +65,6 @@
 
     new-array v7, v3, [Ljava/lang/String;
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -95,7 +91,6 @@
 
     aput-object v8, v7, v3
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -112,7 +107,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-interface {v2}, Landroid/database/Cursor;->getCount()I
 
     move-result v1
@@ -123,7 +117,6 @@
     :cond_0
     if-eqz v2, :cond_2
 
-    .line 6
     :goto_0
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
@@ -136,7 +129,6 @@
 
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -149,7 +141,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     :goto_1
     iget-object v2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$b;->J:Lcom/commsource/helpcapture/HelpSelfieViewModel;
@@ -164,19 +155,16 @@
 
     invoke-virtual {v2, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 9
     iget-boolean v2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$b;->p:Z
 
     if-eqz v2, :cond_3
 
     if-lez v1, :cond_3
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$b;->J:Lcom/commsource/helpcapture/HelpSelfieViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/helpcapture/HelpSelfieViewModel;->n1()V
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

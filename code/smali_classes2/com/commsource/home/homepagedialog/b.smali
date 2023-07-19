@@ -33,17 +33,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/home/homepagedialog/b;->a:Landroid/util/SparseArray;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -66,7 +63,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/home/homepagedialog/b;->e(IZ)V
 
@@ -94,10 +90,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1, p0}, Lcom/commsource/home/homepagedialog/d;->g(Lcom/commsource/home/homepagedialog/b;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/b;->a:Landroid/util/SparseArray;
 
     invoke-virtual {p1}, Lcom/commsource/home/homepagedialog/d;->b()I
@@ -106,7 +100,6 @@
 
     invoke-virtual {v1, v2, p1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/b;->b:Ljava/util/List;
 
     invoke-virtual {p1}, Lcom/commsource/home/homepagedialog/d;->b()I
@@ -123,7 +116,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/b;->b:Ljava/util/List;
 
     invoke-virtual {p1}, Lcom/commsource/home/homepagedialog/d;->b()I
@@ -136,7 +128,6 @@
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -150,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/b;->b:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -174,7 +164,6 @@
 
     move-result v2
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/home/homepagedialog/b;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v3, v2}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -185,7 +174,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/home/homepagedialog/d;->f()Z
 
     move-result v2
@@ -194,7 +182,6 @@
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -202,7 +189,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -215,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/b;->b:Ljava/util/List;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -234,7 +219,6 @@
 
     add-int/2addr p1, v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/b;->b:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
@@ -243,7 +227,6 @@
 
     if-ge p1, v2, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/b;->b:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
@@ -253,7 +236,6 @@
     :goto_0
     if-ge p1, v2, :cond_1
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/home/homepagedialog/b;->a:Landroid/util/SparseArray;
 
     iget-object v4, p0, Lcom/commsource/home/homepagedialog/b;->b:Ljava/util/List;
@@ -276,17 +258,14 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-virtual {v3}, Lcom/commsource/home/homepagedialog/d;->c()Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
-    .line 6
     invoke-virtual {v3, v1}, Lcom/commsource/home/homepagedialog/d;->h(Z)V
 
-    .line 7
     invoke-virtual {v3}, Lcom/commsource/home/homepagedialog/d;->i()V
 
     goto :goto_1
@@ -296,7 +275,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,14 +289,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/home/homepagedialog/b;->b()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/b;->b:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -342,7 +318,6 @@
 
     move-result v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/home/homepagedialog/b;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v3, v2}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -353,14 +328,12 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-virtual {v3}, Lcom/commsource/home/homepagedialog/d;->c()Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -385,13 +358,10 @@
 
     const/4 v1, 0x1
 
-    .line 6
     invoke-virtual {v3, v1}, Lcom/commsource/home/homepagedialog/d;->h(Z)V
 
-    .line 7
     invoke-virtual {v3}, Lcom/commsource/home/homepagedialog/d;->i()V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -405,7 +375,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/b;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -416,20 +385,16 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/home/homepagedialog/d;->c()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p1, p2}, Lcom/commsource/home/homepagedialog/d;->h(Z)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/home/homepagedialog/d;->i()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

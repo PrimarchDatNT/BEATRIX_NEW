@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/text/HorizontalColorPicker$d;->a:Lcom/commsource/studio/text/HorizontalColorPicker;
 
     invoke-static {v0}, Lcom/commsource/studio/text/HorizontalColorPicker;->i(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcotlin/jvm/u/a;
@@ -57,7 +56,6 @@
 
     check-cast v0, Lcotlin/t1;
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/text/HorizontalColorPicker$d;->a:Lcom/commsource/studio/text/HorizontalColorPicker;
 
@@ -69,7 +67,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

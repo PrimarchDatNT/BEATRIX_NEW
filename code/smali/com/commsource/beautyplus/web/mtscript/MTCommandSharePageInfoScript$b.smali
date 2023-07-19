@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$b;->d(Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$Model;)V
@@ -80,32 +78,26 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$Model;->getDescription()Ljava/lang/String;
 
     move-result-object v6
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$Model;->getImage()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$Model;->getLink()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$Model;->getTitle()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$Model;->getHashtag()Ljava/lang/String;
 
     move-result-object v8
 
-    .line 6
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -132,7 +124,6 @@
 
     invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {p1, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, " shareImageUrl="
@@ -159,17 +150,14 @@
 
     const-string v1, "MTScript"
 
-    .line 8
     invoke-static {v1, p1}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript;
 
     invoke-virtual {p1}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v3
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript;->I(Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript;)Lf/k/o0/c/c;
@@ -182,7 +170,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript;->I(Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript;)Lf/k/o0/c/c;
@@ -195,12 +182,10 @@
 
     check-cast v2, Lcom/commsource/beautyplus/web/p$c;
 
-    .line 12
     new-instance v9, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$b$a;
 
     invoke-direct {v9, p0}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$b$a;-><init>(Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$b;)V
 
-    .line 13
     invoke-virtual/range {v2 .. v9}, Lcom/commsource/beautyplus/web/p$c;->r(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lf/k/o0/c/c$b;)V
 
     goto :goto_0
@@ -216,7 +201,6 @@
 
     throw p1
 
-    .line 14
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

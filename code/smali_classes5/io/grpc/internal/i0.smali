@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/a1;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method public bridge synthetic c(Ljava/net/URI;Lio/grpc/z0$b;)Lio/grpc/z0;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lio/grpc/internal/i0;->i(Ljava/net/URI;Lio/grpc/z0$b;)Lio/grpc/internal/DnsNameResolver;
 
     move-result-object p1
@@ -57,7 +55,6 @@
 .method public i(Ljava/net/URI;Lio/grpc/z0$b;)Lio/grpc/internal/DnsNameResolver;
     .locals 9
 
-    .line 1
     invoke-virtual {p1}, Ljava/net/URI;->getScheme()Ljava/lang/String;
 
     move-result-object v0
@@ -70,7 +67,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/net/URI;->getPath()Ljava/lang/String;
 
     move-result-object v0
@@ -85,7 +81,6 @@
 
     const-string v1, "/"
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -96,27 +91,22 @@
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 5
     new-instance v0, Lio/grpc/internal/DnsNameResolver;
 
-    .line 6
     invoke-virtual {p1}, Ljava/net/URI;->getAuthority()Ljava/lang/String;
 
     move-result-object v3
 
     sget-object v6, Lio/grpc/internal/GrpcUtil;->H:Lio/grpc/internal/v2$d;
 
-    .line 7
     invoke-static {}, Lcom/google/common/base/x;->e()Lcom/google/common/base/x;
 
     move-result-object v7
 
-    .line 8
     const-class p1, Lio/grpc/internal/i0;
 
     invoke-virtual {p1}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;

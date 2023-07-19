@@ -19,22 +19,16 @@
 .method public constructor <init>(Ljava/lang/String;DDDI)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/lo;->a:Ljava/lang/String;
 
-    .line 3
     iput-wide p2, p0, Lcom/google/android/gms/internal/ads/lo;->c:D
 
-    .line 4
     iput-wide p4, p0, Lcom/google/android/gms/internal/ads/lo;->b:D
 
-    .line 5
     iput-wide p6, p0, Lcom/google/android/gms/internal/ads/lo;->d:D
 
-    .line 6
     iput p8, p0, Lcom/google/android/gms/internal/ads/lo;->e:I
 
     return-void
@@ -45,7 +39,6 @@
 .method public final equals(Ljava/lang/Object;)Z
     .locals 6
 
-    .line 1
     instance-of v0, p1, Lcom/google/android/gms/internal/ads/lo;
 
     const/4 v1, 0x0
@@ -54,11 +47,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/android/gms/internal/ads/lo;
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lo;->a:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/google/android/gms/internal/ads/lo;->a:Ljava/lang/String;
@@ -95,7 +86,6 @@
 
     iget-wide v4, p1, Lcom/google/android/gms/internal/ads/lo;->d:D
 
-    .line 4
     invoke-static {v2, v3, v4, v5}, Ljava/lang/Double;->compare(DD)I
 
     move-result p1
@@ -117,7 +107,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/lo;->a:Ljava/lang/String;
 
     const/4 v2, 0x0
@@ -174,7 +163,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/internal/z;->c(Ljava/lang/Object;)Lcom/google/android/gms/common/internal/z$a;
 
     move-result-object v0
@@ -183,14 +171,12 @@
 
     const-string v2, "name"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/common/internal/z$a;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/common/internal/z$a;
 
     move-result-object v0
 
     iget-wide v1, p0, Lcom/google/android/gms/internal/ads/lo;->c:D
 
-    .line 3
     invoke-static {v1, v2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v1
@@ -203,7 +189,6 @@
 
     iget-wide v1, p0, Lcom/google/android/gms/internal/ads/lo;->b:D
 
-    .line 4
     invoke-static {v1, v2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v1
@@ -216,7 +201,6 @@
 
     iget-wide v1, p0, Lcom/google/android/gms/internal/ads/lo;->d:D
 
-    .line 5
     invoke-static {v1, v2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v1
@@ -229,7 +213,6 @@
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/lo;->e:I
 
-    .line 6
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -240,7 +223,6 @@
 
     move-result-object v0
 
-    .line 7
     invoke-virtual {v0}, Lcom/google/android/gms/common/internal/z$a;->toString()Ljava/lang/String;
 
     move-result-object v0

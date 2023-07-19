@@ -41,7 +41,6 @@
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$a$a;->b:Lcotlinx/coroutines/flow/FlowKt__TransformKt$a;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,12 +57,10 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$a$a;->a:Lcotlinx/coroutines/flow/e;
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-interface {v0, p1, p2}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
@@ -81,7 +78,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

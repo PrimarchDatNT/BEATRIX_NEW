@@ -45,7 +45,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$4;->a:Lcotlin/sequences/m;
 
     iput-object p2, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$4;->b:Lcotlin/sequences/m;
@@ -70,21 +69,18 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$4;->b:Lcotlin/sequences/m;
 
     invoke-static {v0}, Lcotlin/sequences/p;->U2(Lcotlin/sequences/m;)Ljava/util/HashSet;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/util/HashSet;->isEmpty()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$4;->a:Lcotlin/sequences/m;
 
     invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
@@ -93,7 +89,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$4;->a:Lcotlin/sequences/m;
 

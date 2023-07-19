@@ -69,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/util/ISO8061Period$yearPattern$2;->invoke()Ljava/util/regex/Pattern;
 
     move-result-object v1
@@ -88,7 +87,6 @@
 
     const-string v1, "\\d+Y"
 
-    .line 2
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1

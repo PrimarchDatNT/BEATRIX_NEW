@@ -10,7 +10,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-interface {p1}, Lcom/bumptech/glide/manager/i;->onStart()V
 
     return-void

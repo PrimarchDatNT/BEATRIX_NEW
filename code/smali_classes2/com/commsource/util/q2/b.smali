@@ -21,18 +21,14 @@
 .method public constructor <init>(Landroidx/fragment/app/Fragment;)V
     .locals 1
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "delegate_permission_tag"
 
-    .line 6
     iput-object v0, p0, Lcom/commsource/util/q2/b;->a:Ljava/lang/String;
 
-    .line 7
     invoke-static {p1}, Lcom/commsource/util/q2/g;->a(Ljava/lang/Object;)V
 
-    .line 8
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p1
@@ -49,18 +45,14 @@
 .method public constructor <init>(Landroidx/fragment/app/FragmentActivity;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "delegate_permission_tag"
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/util/q2/b;->a:Ljava/lang/String;
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/util/q2/g;->a(Ljava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p1
@@ -95,7 +87,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -103,7 +94,6 @@
     :cond_0
     const-string v1, "delegate_permission_tag"
 
-    .line 2
     invoke-virtual {p1, v1}, Landroidx/fragment/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     move-result-object v2
@@ -120,12 +110,10 @@
     :goto_0
     if-eqz v3, :cond_2
 
-    .line 3
     new-instance v2, Lcom/commsource/util/q2/c;
 
     invoke-direct {v2}, Lcom/commsource/util/q2/c;-><init>()V
 
-    .line 4
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p1
@@ -136,7 +124,6 @@
 
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 5
     :cond_2
     new-instance p1, Ljava/lang/ref/WeakReference;
 
@@ -156,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v2, 0x1
@@ -165,7 +151,6 @@
 
     if-lt v1, v3, :cond_1
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -186,7 +171,6 @@
 
     return v2
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -200,7 +184,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x17
@@ -213,14 +196,12 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     const-string v2, "android.settings.action.MANAGE_WRITE_SETTINGS"
 
     invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -247,13 +228,10 @@
 
     const/high16 v2, 0x10000000
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 5
     invoke-virtual {p0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -269,12 +247,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/q2/b;->b:Ljava/lang/ref/WeakReference;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v1
@@ -285,7 +261,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/q2/c;->B(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/util/q2/b;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -296,7 +271,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/util/q2/c;->C(Lcom/commsource/util/q2/f;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/util/q2/b;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -307,7 +281,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/util/q2/c;->z()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -321,12 +294,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/q2/b;->b:Ljava/lang/ref/WeakReference;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v1
@@ -337,7 +308,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/q2/c;->B(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/util/q2/b;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -348,7 +318,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/util/q2/c;->C(Lcom/commsource/util/q2/f;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/util/q2/b;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -359,7 +328,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/util/q2/c;->z()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -373,12 +341,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/q2/b;->b:Ljava/lang/ref/WeakReference;
 
     if-eqz v1, :cond_0
 
-    .line 2
     array-length v1, p1
 
     const/4 v2, 0x0
@@ -388,7 +354,6 @@
 
     aget-object v3, p1, v2
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/util/q2/b;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v4}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -403,7 +368,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

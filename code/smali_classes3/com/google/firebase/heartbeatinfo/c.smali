@@ -22,7 +22,6 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/components/s;
 
     invoke-static {p1}, Lcom/google/firebase/heartbeatinfo/a;->a(Landroid/content/Context;)Lcom/google/firebase/u/a;
@@ -50,10 +49,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/heartbeatinfo/c;->a:Lcom/google/firebase/u/a;
 
     return-void
@@ -73,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo;
 
     invoke-static {v0}, Lcom/google/firebase/components/f;->a(Ljava/lang/Class;)Lcom/google/firebase/components/f$b;
@@ -82,7 +78,6 @@
 
     const-class v1, Landroid/content/Context;
 
-    .line 2
     invoke-static {v1}, Lcom/google/firebase/components/p;->g(Ljava/lang/Class;)Lcom/google/firebase/components/p;
 
     move-result-object v1
@@ -95,12 +90,10 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/google/firebase/components/f$b;->f(Lcom/google/firebase/components/i;)Lcom/google/firebase/components/f$b;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/firebase/components/f$b;->d()Lcom/google/firebase/components/f;
 
     move-result-object v0
@@ -111,7 +104,6 @@
 .method static synthetic c(Lcom/google/firebase/components/g;)Lcom/google/firebase/heartbeatinfo/HeartBeatInfo;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/heartbeatinfo/c;
 
     const-class v1, Landroid/content/Context;
@@ -130,7 +122,6 @@
 .method static synthetic d(Landroid/content/Context;)Lcom/google/firebase/heartbeatinfo/d;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/heartbeatinfo/d;->a(Landroid/content/Context;)Lcom/google/firebase/heartbeatinfo/d;
 
     move-result-object p0
@@ -149,12 +140,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/heartbeatinfo/c;->a:Lcom/google/firebase/u/a;
 
     invoke-interface {v2}, Lcom/google/firebase/u/a;->get()Ljava/lang/Object;
@@ -167,7 +156,6 @@
 
     move-result p1
 
-    .line 3
     iget-object v2, p0, Lcom/google/firebase/heartbeatinfo/c;->a:Lcom/google/firebase/u/a;
 
     invoke-interface {v2}, Lcom/google/firebase/u/a;->get()Ljava/lang/Object;
@@ -184,7 +172,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     sget-object p1, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;->COMBINED:Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
     return-object p1
@@ -192,7 +179,6 @@
     :cond_0
     if-eqz v0, :cond_1
 
-    .line 5
     sget-object p1, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;->GLOBAL:Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
     return-object p1
@@ -200,12 +186,10 @@
     :cond_1
     if-eqz p1, :cond_2
 
-    .line 6
     sget-object p1, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;->SDK:Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
     return-object p1
 
-    .line 7
     :cond_2
     sget-object p1, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;->NONE:Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 

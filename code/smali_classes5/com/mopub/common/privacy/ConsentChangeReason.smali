@@ -56,7 +56,6 @@
 .method static constructor <clinit>()V
     .locals 17
 
-    .line 1
     new-instance v0, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v1, "GRANTED_BY_USER"
@@ -69,7 +68,6 @@
 
     sput-object v0, Lcom/mopub/common/privacy/ConsentChangeReason;->GRANTED_BY_USER:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v3, "GRANTED_BY_WHITELISTED_PUB"
@@ -82,7 +80,6 @@
 
     sput-object v1, Lcom/mopub/common/privacy/ConsentChangeReason;->GRANTED_BY_WHITELISTED_PUB:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 3
     new-instance v3, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v5, "GRANTED_BY_NOT_WHITELISTED_PUB"
@@ -95,7 +92,6 @@
 
     sput-object v3, Lcom/mopub/common/privacy/ConsentChangeReason;->GRANTED_BY_NOT_WHITELISTED_PUB:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 4
     new-instance v5, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v7, "DENIED_BY_USER"
@@ -108,7 +104,6 @@
 
     sput-object v5, Lcom/mopub/common/privacy/ConsentChangeReason;->DENIED_BY_USER:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 5
     new-instance v7, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v9, "DENIED_BY_PUB"
@@ -121,7 +116,6 @@
 
     sput-object v7, Lcom/mopub/common/privacy/ConsentChangeReason;->DENIED_BY_PUB:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 6
     new-instance v9, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v11, "DENIED_BY_DNT_ON"
@@ -134,7 +128,6 @@
 
     sput-object v9, Lcom/mopub/common/privacy/ConsentChangeReason;->DENIED_BY_DNT_ON:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 7
     new-instance v11, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v13, "DNT_OFF"
@@ -147,7 +140,6 @@
 
     sput-object v11, Lcom/mopub/common/privacy/ConsentChangeReason;->DNT_OFF:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 8
     new-instance v13, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v15, "REACQUIRE_BECAUSE_DNT_OFF"
@@ -160,7 +152,6 @@
 
     sput-object v13, Lcom/mopub/common/privacy/ConsentChangeReason;->REACQUIRE_BECAUSE_DNT_OFF:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 9
     new-instance v12, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v15, "REACQUIRE_BECAUSE_PRIVACY_POLICY"
@@ -173,7 +164,6 @@
 
     sput-object v12, Lcom/mopub/common/privacy/ConsentChangeReason;->REACQUIRE_BECAUSE_PRIVACY_POLICY:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 10
     new-instance v10, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v15, "REACUIRE_BECAUSE_VENDOR_LIST"
@@ -186,7 +176,6 @@
 
     sput-object v10, Lcom/mopub/common/privacy/ConsentChangeReason;->REACUIRE_BECAUSE_VENDOR_LIST:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 11
     new-instance v8, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v15, "REAQUIRE_BECAUSE_IAB_VENDOR_LIST"
@@ -199,7 +188,6 @@
 
     sput-object v8, Lcom/mopub/common/privacy/ConsentChangeReason;->REAQUIRE_BECAUSE_IAB_VENDOR_LIST:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 12
     new-instance v6, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v15, "REVOKED_BY_SERVER"
@@ -212,7 +200,6 @@
 
     sput-object v6, Lcom/mopub/common/privacy/ConsentChangeReason;->REVOKED_BY_SERVER:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 13
     new-instance v4, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v15, "REACQUIRE_BY_SERVER"
@@ -225,7 +212,6 @@
 
     sput-object v4, Lcom/mopub/common/privacy/ConsentChangeReason;->REACQUIRE_BY_SERVER:Lcom/mopub/common/privacy/ConsentChangeReason;
 
-    .line 14
     new-instance v2, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     const-string v15, "IFA_CHANGED"
@@ -298,7 +284,6 @@
 
     aput-object v2, v4, v14
 
-    .line 15
     sput-object v4, Lcom/mopub/common/privacy/ConsentChangeReason;->$VALUES:[Lcom/mopub/common/privacy/ConsentChangeReason;
 
     return-void
@@ -318,10 +303,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/common/privacy/ConsentChangeReason;->mReason:Ljava/lang/String;
 
     return-void
@@ -330,7 +313,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/privacy/ConsentChangeReason;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/privacy/ConsentChangeReason;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -345,7 +327,6 @@
 .method public static values()[Lcom/mopub/common/privacy/ConsentChangeReason;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/privacy/ConsentChangeReason;->$VALUES:[Lcom/mopub/common/privacy/ConsentChangeReason;
 
     invoke-virtual {v0}, [Lcom/mopub/common/privacy/ConsentChangeReason;->clone()Ljava/lang/Object;
@@ -364,7 +345,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/ConsentChangeReason;->mReason:Ljava/lang/String;
 
     return-object v0

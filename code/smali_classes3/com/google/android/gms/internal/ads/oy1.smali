@@ -133,7 +133,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/ads/oy1;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -146,7 +145,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/oy1;->d:Ljava/util/logging/Logger;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/fz1;->a()Z
 
     move-result v0
@@ -157,12 +155,10 @@
 
     const-string v1, "AndroidOpenSSL"
 
-    .line 3
     filled-new-array {v0, v1}, [Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -176,22 +172,18 @@
 
     if-ge v3, v4, :cond_1
 
-    .line 5
     aget-object v4, v0, v3
 
-    .line 6
     invoke-static {v4}, Ljava/security/Security;->getProvider(Ljava/lang/String;)Ljava/security/Provider;
 
     move-result-object v5
 
     if-eqz v5, :cond_0
 
-    .line 7
     invoke-interface {v1, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 8
     :cond_0
     sget-object v5, Lcom/google/android/gms/internal/ads/oy1;->d:Ljava/util/logging/Logger;
 
@@ -220,13 +212,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     sput-object v1, Lcom/google/android/gms/internal/ads/oy1;->e:Ljava/util/List;
 
     goto :goto_2
 
-    .line 10
     :cond_2
     new-instance v0, Ljava/util/ArrayList;
 
@@ -234,7 +224,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/oy1;->e:Ljava/util/List;
 
-    .line 11
     :goto_2
     new-instance v0, Lcom/google/android/gms/internal/ads/oy1;
 
@@ -246,7 +235,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/oy1;->f:Lcom/google/android/gms/internal/ads/oy1;
 
-    .line 12
     new-instance v0, Lcom/google/android/gms/internal/ads/oy1;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/uy1;
@@ -257,7 +245,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/oy1;->g:Lcom/google/android/gms/internal/ads/oy1;
 
-    .line 13
     new-instance v0, Lcom/google/android/gms/internal/ads/oy1;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/wy1;
@@ -268,7 +255,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/oy1;->h:Lcom/google/android/gms/internal/ads/oy1;
 
-    .line 14
     new-instance v0, Lcom/google/android/gms/internal/ads/oy1;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/xy1;
@@ -279,7 +265,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/oy1;->i:Lcom/google/android/gms/internal/ads/oy1;
 
-    .line 15
     new-instance v0, Lcom/google/android/gms/internal/ads/oy1;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/ty1;
@@ -290,7 +275,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/oy1;->j:Lcom/google/android/gms/internal/ads/oy1;
 
-    .line 16
     new-instance v0, Lcom/google/android/gms/internal/ads/oy1;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/vy1;
@@ -301,7 +285,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/oy1;->k:Lcom/google/android/gms/internal/ads/oy1;
 
-    .line 17
     new-instance v0, Lcom/google/android/gms/internal/ads/oy1;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/sy1;
@@ -323,20 +306,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/oy1;->a:Lcom/google/android/gms/internal/ads/ry1;
 
-    .line 3
     sget-object p1, Lcom/google/android/gms/internal/ads/oy1;->e:Ljava/util/List;
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/oy1;->b:Ljava/util/List;
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/oy1;->c:Z
 
     return-void
@@ -360,7 +339,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/oy1;->b:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -385,7 +363,6 @@
 
     check-cast v3, Ljava/security/Provider;
 
-    .line 2
     :try_start_0
     iget-object v4, p0, Lcom/google/android/gms/internal/ads/oy1;->a:Lcom/google/android/gms/internal/ads/ry1;
 
@@ -406,13 +383,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/oy1;->c:Z
 
     if-eqz v0, :cond_2
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/oy1;->a:Lcom/google/android/gms/internal/ads/ry1;
 
     invoke-interface {v0, p1, v1}, Lcom/google/android/gms/internal/ads/ry1;->a(Ljava/lang/String;Ljava/security/Provider;)Ljava/lang/Object;
@@ -421,7 +396,6 @@
 
     return-object p1
 
-    .line 5
     :cond_2
     new-instance p1, Ljava/security/GeneralSecurityException;
 

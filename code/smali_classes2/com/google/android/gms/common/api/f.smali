@@ -51,7 +51,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -67,7 +66,6 @@
     :pswitch_0
     const/16 v0, 0x20
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(I)V

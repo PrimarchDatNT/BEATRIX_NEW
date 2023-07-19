@@ -40,7 +40,6 @@
 
     iput-object p1, p0, Lcotlin/collections/ArraysKt___ArraysKt$g;->a:[D
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,7 +61,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/ArraysKt___ArraysKt$g;->a:[D
 
     invoke-static {v0}, Lcotlin/jvm/internal/i;->d([D)Lcotlin/collections/b0;

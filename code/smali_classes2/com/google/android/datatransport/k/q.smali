@@ -54,22 +54,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/k/q;->a:Lcom/google/android/datatransport/k/n;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/datatransport/k/q;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/datatransport/k/q;->c:Lcom/google/android/datatransport/c;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/datatransport/k/q;->d:Lcom/google/android/datatransport/f;
 
-    .line 6
     iput-object p5, p0, Lcom/google/android/datatransport/k/q;->e:Lcom/google/android/datatransport/k/r;
 
     return-void
@@ -95,53 +89,44 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/q;->e:Lcom/google/android/datatransport/k/r;
 
-    .line 2
     invoke-static {}, Lcom/google/android/datatransport/k/m;->a()Lcom/google/android/datatransport/k/m$a;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/google/android/datatransport/k/q;->a:Lcom/google/android/datatransport/k/n;
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/google/android/datatransport/k/m$a;->f(Lcom/google/android/datatransport/k/n;)Lcom/google/android/datatransport/k/m$a;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1, p1}, Lcom/google/android/datatransport/k/m$a;->c(Lcom/google/android/datatransport/d;)Lcom/google/android/datatransport/k/m$a;
 
     move-result-object p1
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/q;->b:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p1, v1}, Lcom/google/android/datatransport/k/m$a;->g(Ljava/lang/String;)Lcom/google/android/datatransport/k/m$a;
 
     move-result-object p1
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/q;->d:Lcom/google/android/datatransport/f;
 
-    .line 6
     invoke-virtual {p1, v1}, Lcom/google/android/datatransport/k/m$a;->e(Lcom/google/android/datatransport/f;)Lcom/google/android/datatransport/k/m$a;
 
     move-result-object p1
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/q;->c:Lcom/google/android/datatransport/c;
 
-    .line 7
     invoke-virtual {p1, v1}, Lcom/google/android/datatransport/k/m$a;->b(Lcom/google/android/datatransport/c;)Lcom/google/android/datatransport/k/m$a;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/m$a;->a()Lcom/google/android/datatransport/k/m;
 
     move-result-object p1
 
-    .line 9
     invoke-interface {v0, p1, p2}, Lcom/google/android/datatransport/k/r;->a(Lcom/google/android/datatransport/k/m;Lcom/google/android/datatransport/i;)V
 
     return-void
@@ -157,7 +142,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/datatransport/k/p;->b()Lcom/google/android/datatransport/i;
 
     move-result-object v0

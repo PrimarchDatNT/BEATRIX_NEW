@@ -25,10 +25,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$a0;->a:Ljava/lang/String;
 
     return-void
@@ -39,7 +37,6 @@
 .method public accept(Ljava/io/File;Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$a0;->a:Ljava/lang/String;
 
     invoke-virtual {p2, p1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z

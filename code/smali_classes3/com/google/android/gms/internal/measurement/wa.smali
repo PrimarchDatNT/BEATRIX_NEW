@@ -37,7 +37,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/measurement/wa;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/wa;-><init>()V
@@ -50,7 +49,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/measurement/ya;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/ya;-><init>()V
@@ -75,10 +73,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/measurement/a2;->a(Lcom/google/android/gms/internal/measurement/y1;)Lcom/google/android/gms/internal/measurement/y1;
 
     move-result-object p1
@@ -91,7 +87,6 @@
 .method public static a()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/wa;->b:Lcom/google/android/gms/internal/measurement/wa;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/wa;->zza()Ljava/lang/Object;
@@ -110,7 +105,6 @@
 .method public static b()D
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/wa;->b:Lcom/google/android/gms/internal/measurement/wa;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/wa;->zza()Ljava/lang/Object;
@@ -129,7 +123,6 @@
 .method public static c()J
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/wa;->b:Lcom/google/android/gms/internal/measurement/wa;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/wa;->zza()Ljava/lang/Object;
@@ -148,7 +141,6 @@
 .method public static d()J
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/wa;->b:Lcom/google/android/gms/internal/measurement/wa;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/wa;->zza()Ljava/lang/Object;
@@ -167,7 +159,6 @@
 .method public static e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/wa;->b:Lcom/google/android/gms/internal/measurement/wa;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/wa;->zza()Ljava/lang/Object;
@@ -188,7 +179,6 @@
 .method public final synthetic zza()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/wa;->a:Lcom/google/android/gms/internal/measurement/y1;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/measurement/y1;->zza()Ljava/lang/Object;

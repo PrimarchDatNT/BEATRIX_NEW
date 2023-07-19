@@ -23,12 +23,10 @@
 .method public constructor <init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/webview/mtscript/i;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandMiniProgramScript;->g:Lf/k/o0/c/b;
 
     return-void
@@ -41,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/webview/mtscript/MTCommandMiniProgramScript;->g:Lf/k/o0/c/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -58,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -73,10 +69,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandMiniProgramScript;->g:Lf/k/o0/c/b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -89,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/webview/mtscript/MTCommandMiniProgramScript$a;
 
     const-class v2, Lcom/meitu/webview/mtscript/MTCommandMiniProgramScript$Model;
@@ -98,7 +91,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/i;->E(Lcom/meitu/webview/mtscript/i$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1

@@ -44,13 +44,10 @@
 
     const-string v0, "createCalendarEvent"
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/ads/ff;-><init>(Lcom/google/android/gms/internal/ads/lu;Ljava/lang/String;)V
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/pe;->c:Ljava/util/Map;
 
-    .line 3
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/lu;->d()Landroid/app/Activity;
 
     move-result-object p1
@@ -59,7 +56,6 @@
 
     const-string p1, "description"
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/pe;->k(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -68,7 +64,6 @@
 
     const-string p1, "summary"
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/pe;->k(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -77,7 +72,6 @@
 
     const-string p1, "start_ticks"
 
-    .line 6
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/pe;->l(Ljava/lang/String;)J
 
     move-result-wide p1
@@ -86,7 +80,6 @@
 
     const-string p1, "end_ticks"
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/pe;->l(Ljava/lang/String;)J
 
     move-result-wide p1
@@ -95,7 +88,6 @@
 
     const-string p1, "location"
 
-    .line 8
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/pe;->k(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -108,7 +100,6 @@
 .method static synthetic j(Lcom/google/android/gms/internal/ads/pe;)Landroid/content/Context;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/pe;->d:Landroid/content/Context;
 
     return-object p0
@@ -117,7 +108,6 @@
 .method private final k(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pe;->c:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -151,7 +141,6 @@
 .method private final l(Ljava/lang/String;)J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pe;->c:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -166,7 +155,6 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {p1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
@@ -187,7 +175,6 @@
         value = 0xe
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.intent.action.EDIT"
@@ -200,28 +187,24 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/pe;->e:Ljava/lang/String;
 
     const-string v2, "title"
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/pe;->i:Ljava/lang/String;
 
     const-string v2, "eventLocation"
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/pe;->h:Ljava/lang/String;
 
     const-string v2, "description"
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 5
     iget-wide v1, p0, Lcom/google/android/gms/internal/ads/pe;->f:J
 
     const-wide/16 v3, -0x1
@@ -232,10 +215,8 @@
 
     const-string v5, "beginTime"
 
-    .line 6
     invoke-virtual {v0, v5, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 7
     :cond_0
     iget-wide v1, p0, Lcom/google/android/gms/internal/ads/pe;->g:J
 
@@ -245,13 +226,11 @@
 
     const-string v3, "endTime"
 
-    .line 8
     invoke-virtual {v0, v3, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
     :cond_1
     const/high16 v1, 0x10000000
 
-    .line 9
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     return-object v0
@@ -260,19 +239,16 @@
 .method public final i()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pe;->d:Landroid/content/Context;
 
     if-nez v0, :cond_0
 
     const-string v0, "Activity context is not available."
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/ff;->e(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
@@ -282,7 +258,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/d;->e()Z
 
     move-result v0
@@ -291,12 +266,10 @@
 
     const-string v0, "This feature is not available on the device."
 
-    .line 5
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/ff;->e(Ljava/lang/String;)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
@@ -306,7 +279,6 @@
 
     move-result-object v0
 
-    .line 7
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object v1
@@ -317,7 +289,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 8
     sget v2, Lcom/google/android/gms/ads/w/a$a;->e:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -334,7 +305,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 9
     sget v2, Lcom/google/android/gms/ads/w/a$a;->f:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -351,7 +321,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 10
     sget v2, Lcom/google/android/gms/ads/w/a$a;->c:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -368,12 +337,10 @@
 
     invoke-direct {v3, p0}, Lcom/google/android/gms/internal/ads/se;-><init>(Lcom/google/android/gms/internal/ads/pe;)V
 
-    .line 11
     invoke-virtual {v0, v2, v3}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     if-eqz v1, :cond_5
 
-    .line 12
     sget v2, Lcom/google/android/gms/ads/w/a$a;->d:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -390,10 +357,8 @@
 
     invoke-direct {v2, p0}, Lcom/google/android/gms/internal/ads/re;-><init>(Lcom/google/android/gms/internal/ads/pe;)V
 
-    .line 13
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 14
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v0

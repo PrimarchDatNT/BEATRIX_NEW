@@ -46,14 +46,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/m/j/e;->i()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/k/m/g/b$h;->a:Lf/k/m/g/b;
 
     invoke-static {v1}, Lf/k/m/g/b;->a(Lf/k/m/g/b;)Ljava/lang/String;
@@ -82,7 +80,6 @@
 
     invoke-static {v1, v2}, Lf/k/m/j/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/m/g/b$h;->a:Lf/k/m/g/b;
 
@@ -106,7 +103,6 @@
 
     invoke-static {v1, v2}, Lf/k/m/g/b;->c(Lf/k/m/g/b;Ljava/util/List;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

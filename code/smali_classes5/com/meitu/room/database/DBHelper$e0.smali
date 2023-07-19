@@ -19,7 +19,6 @@
 .method constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/room/migration/Migration;-><init>(II)V
 
     return-void
@@ -44,15 +43,12 @@
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `LOOK_MATERIAL` (\'id\' INTEGER NOT NULL DEFAULT(0), \'onlineId\' INTEGER NOT NULL DEFAULT(0), \'sort\' INTEGER Not NULL DEFAULT(0), \'title\' TEXT, \'isInside\' INTEGER NOT NULL DEFAULT(0),\'url\' TEXT ,\'packageSize\' INTEGER Not NULL DEFAULT(0),\'icon\' TEXT,\'uiColor\' TEXT,\'downloadMode\' INTEGER Not NULL DEFAULT(1),\'sex\' INTEGER Not NULL DEFAULT(0),\'materialMd5\' TEXT,\'isDownloaded\' INTEGER Not NULL DEFAULT(0),\'isNew\' INTEGER Not NULL DEFAULT(0),\'status\' INTEGER Not NULL DEFAULT(1),\'isAvailable\' INTEGER Not NULL DEFAULT(1), PRIMARY KEY(`id`))"
 
-    .line 1
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table FILTER ADD COLUMN \'NONE_LOOK_ALPHA\' INTEGER NOT NULL DEFAULT(-1)"
 
-    .line 2
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

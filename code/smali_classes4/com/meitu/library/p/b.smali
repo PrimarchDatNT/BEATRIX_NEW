@@ -21,7 +21,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/Random;
 
     invoke-static {}, Ljava/lang/System;->nanoTime()J
@@ -40,7 +39,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Math;->min(FF)F
 
     move-result p1
@@ -74,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Math;->min(II)I
 
     move-result p1
@@ -99,7 +95,6 @@
 
     mul-float p0, p0, v1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -124,7 +119,6 @@
 
     float-to-double p0, p2
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide p0
@@ -153,7 +147,6 @@
 
     invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v6, v0, Landroid/graphics/Point;->x:I
 
     iget v7, v0, Landroid/graphics/Point;->y:I
@@ -202,7 +195,6 @@
 
     iget v11, v4, Landroid/graphics/Point;->y:I
 
-    .line 2
     invoke-static/range {v6 .. v11}, Lcom/meitu/library/p/b;->g(IIIIII)Z
 
     iget v12, v2, Landroid/graphics/Point;->x:I
@@ -223,7 +215,6 @@
 
     invoke-static/range {v12 .. v17}, Lcom/meitu/library/p/b;->g(IIIIII)Z
 
-    .line 3
     :cond_0
     invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -252,7 +243,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -290,7 +280,6 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -319,7 +308,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -337,7 +325,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -363,7 +350,6 @@
     :cond_1
     add-int/2addr p0, v1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -380,7 +366,6 @@
 
     mul-float p0, p0, v1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -393,7 +378,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/p/b;->a:Ljava/util/Random;
 
     invoke-virtual {v1}, Ljava/util/Random;->nextFloat()F
@@ -418,10 +402,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p4, p5, p6, p7}, Lcom/meitu/library/p/b;->n([FFFFF)[F
 
-    .line 2
     invoke-static {p0, p1, p2, p3}, Lcom/meitu/library/p/b;->m([FFFF)[F
 
     move-result-object p0
@@ -440,7 +422,6 @@
 
     neg-float p1, p1
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/meitu/library/p/b;->p([FFFF)[F
 
     move-result-object p0
@@ -463,7 +444,6 @@
 
     div-float/2addr v1, p2
 
-    .line 1
     invoke-static {p0, p1, v1, p3, p4}, Lcom/meitu/library/p/b;->q([FFFFF)[F
 
     move-result-object p0
@@ -480,10 +460,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/meitu/library/p/b;->p([FFFF)[F
 
-    .line 2
     invoke-static {p0, p4, p5, p6, p7}, Lcom/meitu/library/p/b;->q([FFFFF)[F
 
     move-result-object p0
@@ -506,28 +484,24 @@
 
     if-eqz v1, :cond_0
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/p/b;->d(F)F
 
     move-result p1
 
     float-to-double v1, p1
 
-    .line 2
     invoke-static {v1, v2}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide v3
 
     double-to-float p1, v3
 
-    .line 3
     invoke-static {v1, v2}, Ljava/lang/Math;->cos(D)D
 
     move-result-wide v1
 
     double-to-float v1, v1
 
-    .line 4
     array-length v2, p0
 
     add-int/lit8 v2, v2, -0x2
@@ -535,12 +509,10 @@
     :goto_0
     if-ltz v2, :cond_0
 
-    .line 5
     aget v3, p0, v2
 
     add-int/lit8 v4, v2, 0x1
 
-    .line 6
     aget v5, p0, v4
 
     sub-float/2addr v3, p2
@@ -555,7 +527,6 @@
 
     add-float/2addr v6, p2
 
-    .line 7
     aput v6, p0, v2
 
     mul-float v3, v3, p1
@@ -566,14 +537,12 @@
 
     add-float/2addr v3, p3
 
-    .line 8
     aput v3, p0, v4
 
     add-int/lit8 v2, v2, -0x2
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -597,7 +566,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 1
     :cond_0
     array-length v1, p0
 
@@ -606,7 +574,6 @@
     :goto_0
     if-ltz v1, :cond_1
 
-    .line 2
     aget v2, p0, v1
 
     sub-float/2addr v2, p3
@@ -619,7 +586,6 @@
 
     add-int/lit8 v2, v1, 0x1
 
-    .line 3
     aget v3, p0, v2
 
     sub-float/2addr v3, p4
@@ -634,7 +600,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -648,7 +613,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p0
 
     add-int/lit8 v1, v1, -0x1
@@ -658,7 +622,6 @@
     :goto_0
     if-ltz v1, :cond_0
 
-    .line 2
     aget v3, p0, v1
 
     add-int/2addr v2, v3
@@ -667,7 +630,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -683,7 +645,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Landroid/graphics/Point;->x:I
 
     iget v2, p2, Landroid/graphics/Point;->x:I
@@ -692,7 +653,6 @@
 
     int-to-float v1, v1
 
-    .line 2
     iget p1, p1, Landroid/graphics/Point;->y:I
 
     iget p2, p2, Landroid/graphics/Point;->y:I
@@ -711,7 +671,6 @@
 
     float-to-double v4, p2
 
-    .line 3
     invoke-static {v4, v5}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v4
@@ -732,7 +691,6 @@
 
     double-to-float p2, v2
 
-    .line 4
     invoke-static {p2}, Ljava/lang/Float;->isNaN(F)Z
 
     move-result v2
@@ -790,7 +748,6 @@
     :cond_3
     const/4 p2, 0x0
 
-    .line 5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

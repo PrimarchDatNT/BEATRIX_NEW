@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$d;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     iput-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$d;->a:Ljava/lang/Runnable;
@@ -51,7 +50,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$d;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->g0(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/internal/z;

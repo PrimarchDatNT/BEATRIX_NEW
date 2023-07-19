@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment$c;->c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment$c;->e(Lcom/meitu/template/bean/Filter;)V
@@ -77,7 +75,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -94,28 +91,24 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getNeedShow()I
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/meitu/template/bean/Filter;->setNeedShow(I)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getCollectedState()I
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/meitu/template/bean/Filter;->setCollectedState(I)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getDownloadState()I
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/meitu/template/bean/Filter;->setDownloadState(I)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->isDeleteState()Z
 
     move-result v3
@@ -124,10 +117,8 @@
 
     const/4 v3, 0x0
 
-    .line 6
     invoke-virtual {v2, v3}, Lcom/meitu/template/bean/Filter;->setDownloadProgress(I)V
 
-    .line 7
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
@@ -135,21 +126,18 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->B(Lcom/meitu/template/bean/Filter;)V
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v2
 
     invoke-virtual {v2, p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->G(Lcom/meitu/template/bean/Filter;)V
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->v0(Lcom/meitu/template/bean/Filter;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment$c;->c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;->B(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewModel;
@@ -158,14 +146,12 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewModel;->D()V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment$c;->c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;
 
     const/4 v1, 0x1
 
     invoke-static {p1, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;->H(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;Z)V
 
-    .line 12
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

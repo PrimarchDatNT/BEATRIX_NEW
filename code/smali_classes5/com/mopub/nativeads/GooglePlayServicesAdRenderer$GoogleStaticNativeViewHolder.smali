@@ -84,7 +84,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;
 
     invoke-direct {v0}, Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;-><init>()V
@@ -97,7 +96,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -116,15 +114,12 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;
 
     invoke-direct {v0}, Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;-><init>()V
 
-    .line 2
     iput-object p0, v0, Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;->mMainView:Landroid/view/View;
 
-    .line 3
     :try_start_0
     iget v1, p1, Lcom/mopub/nativeads/ViewBinder;->titleId:I
 
@@ -136,7 +131,6 @@
 
     iput-object v1, v0, Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;->mTitleView:Landroid/widget/TextView;
 
-    .line 4
     iget v1, p1, Lcom/mopub/nativeads/ViewBinder;->textId:I
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,10 +141,8 @@
 
     iput-object v1, v0, Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;->mTextView:Landroid/widget/TextView;
 
-    .line 5
     iget v1, p1, Lcom/mopub/nativeads/ViewBinder;->callToActionId:I
 
-    .line 6
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -159,10 +151,8 @@
 
     iput-object v1, v0, Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;->mCallToActionView:Landroid/widget/TextView;
 
-    .line 7
     iget v1, p1, Lcom/mopub/nativeads/ViewBinder;->mainImageId:I
 
-    .line 8
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -171,10 +161,8 @@
 
     iput-object v1, v0, Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;->mMainImageView:Landroid/widget/ImageView;
 
-    .line 9
     iget v1, p1, Lcom/mopub/nativeads/ViewBinder;->iconImageId:I
 
-    .line 10
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -183,10 +171,8 @@
 
     iput-object v1, v0, Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;->mIconImageView:Landroid/widget/ImageView;
 
-    .line 11
     iget v1, p1, Lcom/mopub/nativeads/ViewBinder;->privacyInformationIconImageId:I
 
-    .line 12
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -195,12 +181,10 @@
 
     iput-object v1, v0, Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;->mPrivacyInformationIconImageView:Landroid/widget/ImageView;
 
-    .line 13
     iget-object p1, p1, Lcom/mopub/nativeads/ViewBinder;->extras:Ljava/util/Map;
 
     const-string v1, "key_star_rating"
 
-    .line 14
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -209,7 +193,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 15
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
@@ -225,7 +208,6 @@
     :cond_0
     const-string v1, "key_advertiser"
 
-    .line 16
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -234,7 +216,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 17
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
@@ -250,7 +231,6 @@
     :cond_1
     const-string v1, "key_store"
 
-    .line 18
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -259,7 +239,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 19
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
@@ -275,7 +254,6 @@
     :cond_2
     const-string v1, "key_price"
 
-    .line 20
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -284,7 +262,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 21
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
@@ -300,7 +277,6 @@
     :cond_3
     const-string v1, "ad_choices_container"
 
-    .line 22
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -309,7 +285,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 23
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -332,10 +307,8 @@
 
     const-string p1, "Could not cast from id in ViewBinder to expected View type"
 
-    .line 24
     invoke-static {p1, p0}, Lcom/mopub/common/logging/MoPubLog;->w(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 25
     sget-object p0, Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;->EMPTY_VIEW_HOLDER:Lcom/mopub/nativeads/GooglePlayServicesAdRenderer$GoogleStaticNativeViewHolder;
 
     return-object p0

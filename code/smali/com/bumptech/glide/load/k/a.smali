@@ -67,13 +67,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/k/a;->a:Landroid/content/res/AssetManager;
 
-    .line 3
     iput-object p2, p0, Lcom/bumptech/glide/load/k/a;->b:Lcom/bumptech/glide/load/k/a$a;
 
     return-void
@@ -88,7 +85,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/k/a;->d(Landroid/net/Uri;)Z
@@ -109,7 +105,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/k/a;->c(Landroid/net/Uri;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/k/n$a;
@@ -141,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -152,7 +146,6 @@
 
     move-result-object p2
 
-    .line 2
     new-instance p3, Lcom/bumptech/glide/load/k/n$a;
 
     new-instance p4, Lcom/bumptech/glide/r/e;
@@ -179,7 +172,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object v0
@@ -194,7 +186,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
 
     move-result-object v0
@@ -205,7 +196,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
 
     move-result-object p1

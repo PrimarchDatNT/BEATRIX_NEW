@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$h;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$h;
@@ -54,15 +53,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$h;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$h;->b()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -76,15 +72,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$h;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$h;->onError()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -98,15 +91,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$h;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$h;->onStart()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -120,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$g$a;
 
     const-string v2, "COPY_VIDEO"
@@ -129,7 +118,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

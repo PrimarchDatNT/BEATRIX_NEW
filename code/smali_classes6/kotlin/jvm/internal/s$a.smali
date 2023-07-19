@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcotlin/jvm/internal/s$a;-><init>()V
 
     return-void
@@ -59,7 +57,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Class;->isAnonymousClass()Z
 
     move-result v0
@@ -70,7 +67,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Class;->isLocalClass()Z
 
@@ -80,7 +76,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Class;->isArray()Z
 
@@ -88,14 +83,12 @@
 
     if-eqz v0, :cond_4
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
 
     move-result-object p1
 
     const-string v0, "componentType"
 
-    .line 5
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Class;->isPrimitive()Z
@@ -146,7 +139,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     invoke-static {}, Lcotlin/jvm/internal/s;->y()Ljava/util/HashMap;
 
@@ -199,7 +191,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Class;->isAnonymousClass()Z
 
     move-result v0
@@ -215,7 +206,6 @@
 
     goto/16 :goto_2
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Class;->isLocalClass()Z
 
@@ -223,12 +213,10 @@
 
     if-eqz v0, :cond_4
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Class;->getEnclosingMethod()Ljava/lang/reflect/Method;
 
     move-result-object v1
@@ -267,7 +255,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Class;->getEnclosingConstructor()Ljava/lang/reflect/Constructor;
 
@@ -309,7 +296,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_3
     invoke-static {v0, v5}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -321,7 +307,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_4
     invoke-virtual {p1}, Ljava/lang/Class;->isArray()Z
 
@@ -329,14 +314,12 @@
 
     if-eqz v0, :cond_6
 
-    .line 8
     invoke-virtual {p1}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
 
     move-result-object p1
 
     const-string v0, "componentType"
 
-    .line 9
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Class;->isPrimitive()Z
@@ -378,7 +361,6 @@
 
     goto/16 :goto_0
 
-    .line 10
     :cond_6
     invoke-static {}, Lcotlin/jvm/internal/s;->A()Ljava/util/Map;
 
@@ -433,7 +415,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lcotlin/jvm/internal/s;->z()Ljava/util/Map;
 
     move-result-object v0
@@ -454,14 +435,12 @@
 
     move-result p2
 
-    .line 2
     invoke-static {p1, p2}, Lcotlin/jvm/internal/t0;->B(Ljava/lang/Object;I)Z
 
     move-result p1
 
     return p1
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Ljava/lang/Class;->isPrimitive()Z
 
@@ -477,7 +456,6 @@
 
     move-result-object p2
 
-    .line 4
     :cond_1
     invoke-virtual {p2, p1}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 

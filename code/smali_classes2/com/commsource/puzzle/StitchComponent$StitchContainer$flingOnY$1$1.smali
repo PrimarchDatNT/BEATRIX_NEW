@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
@@ -77,7 +76,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$flingOnY$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer$flingOnY$1;
 
     iget v1, v0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$flingOnY$1;->$velocityY:F
@@ -130,7 +128,6 @@
 
     if-nez v0, :cond_3
 
-    .line 3
     :cond_2
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$flingOnY$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer$flingOnY$1;
 
@@ -146,7 +143,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_3
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$flingOnY$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer$flingOnY$1;
 
@@ -166,7 +162,6 @@
 
     invoke-static {v0, v1, v2, v3, v4}, Lcom/commsource/puzzle/StitchComponent$StitchContainer;->K(Lcom/commsource/puzzle/StitchComponent$StitchContainer;IZILjava/lang/Object;)V
 
-    .line 5
     :cond_4
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

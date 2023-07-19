@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/ExecutionSequencer;Lcom/google/common/util/concurrent/g0;Lcom/google/common/util/concurrent/g0;Ljava/util/concurrent/atomic/AtomicReference;Lcom/google/common/util/concurrent/v0;Lcom/google/common/util/concurrent/g0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$d;->g:Lcom/google/common/util/concurrent/ExecutionSequencer;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$d;->a:Lcom/google/common/util/concurrent/g0;
@@ -58,7 +57,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$d;->a:Lcom/google/common/util/concurrent/g0;
 
     invoke-interface {v0}, Ljava/util/concurrent/Future;->isDone()Z
@@ -69,7 +67,6 @@
 
     iget-object v0, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$d;->b:Lcom/google/common/util/concurrent/g0;
 
-    .line 2
     invoke-interface {v0}, Ljava/util/concurrent/Future;->isCancelled()Z
 
     move-result v0
@@ -88,7 +85,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$d;->d:Lcom/google/common/util/concurrent/v0;
 

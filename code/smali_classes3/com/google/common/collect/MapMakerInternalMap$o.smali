@@ -69,12 +69,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/common/collect/MapMakerInternalMap$b;-><init>(Ljava/lang/Object;ILcom/google/common/collect/MapMakerInternalMap$i;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/MapMakerInternalMap$o;->d:Ljava/lang/Object;
 
     return-void
@@ -94,7 +92,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/MapMakerInternalMap$o;
 
     iget-object v1, p0, Lcom/google/common/collect/MapMakerInternalMap$b;->a:Ljava/lang/Object;
@@ -103,7 +100,6 @@
 
     invoke-direct {v0, v1, v2, p1}, Lcom/google/common/collect/MapMakerInternalMap$o;-><init>(Ljava/lang/Object;ILcom/google/common/collect/MapMakerInternalMap$o;)V
 
-    .line 2
     iget-object p1, p0, Lcom/google/common/collect/MapMakerInternalMap$o;->d:Ljava/lang/Object;
 
     iput-object p1, v0, Lcom/google/common/collect/MapMakerInternalMap$o;->d:Ljava/lang/Object;
@@ -119,7 +115,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/MapMakerInternalMap$o;->d:Ljava/lang/Object;
 
     return-void
@@ -136,7 +131,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMakerInternalMap$o;->d:Ljava/lang/Object;
 
     return-object v0

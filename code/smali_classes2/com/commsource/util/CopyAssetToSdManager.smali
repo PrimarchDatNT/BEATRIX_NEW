@@ -30,7 +30,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/util/common/l;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -51,7 +50,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -64,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/CopyAssetToSdManager;->f(Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;)Z
 
     move-result p0
@@ -81,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/CopyAssetToSdManager;->c(Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -98,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -127,10 +122,8 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->setCopyState(I)V
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -149,12 +142,10 @@
 
     const/4 v4, 0x2
 
-    .line 4
     invoke-virtual {p0, v4}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->setCopyState(I)V
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->getMd5()Ljava/lang/String;
 
     move-result-object v1
@@ -165,7 +156,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     sget-object v1, Lcom/commsource/util/CopyAssetToSdManager;->b:Lcom/commsource/util/common/l;
 
     invoke-virtual {p0}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->getSpKey()Ljava/lang/String;
@@ -180,7 +170,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     sget-object v1, Lcom/commsource/util/CopyAssetToSdManager;->b:Lcom/commsource/util/common/l;
 
@@ -194,7 +183,6 @@
 
     invoke-virtual {v1, v4, v5}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 8
     :goto_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -220,7 +208,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -244,7 +231,6 @@
 
     invoke-static {v3, p0}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -258,7 +244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->getCopyState()I
 
     move-result v1
@@ -269,12 +254,10 @@
 
     if-ne v1, v3, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->getCopyState()I
 
@@ -284,12 +267,10 @@
 
     if-ne v1, v4, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 5
     :cond_1
     invoke-static {p0}, Lcom/commsource/util/CopyAssetToSdManager;->f(Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;)Z
 
@@ -297,12 +278,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->getMd5()Ljava/lang/String;
 
@@ -324,12 +303,10 @@
 
     if-eqz p0, :cond_3
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 9
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -343,12 +320,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/commsource/util/CopyAssetToSdManager;->d:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -356,10 +331,8 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     sput-boolean v1, Lcom/commsource/util/CopyAssetToSdManager;->d:Z
 
-    .line 4
     new-instance v1, Lcom/commsource/util/CopyAssetToSdManager$a;
 
     const-string v2, "CopyTask"
@@ -368,7 +341,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -381,7 +353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/CopyAssetToSdManager;->b:Lcom/commsource/util/common/l;
 
     invoke-virtual {p0}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->getSpKey()Ljava/lang/String;
@@ -394,7 +365,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     invoke-virtual {p0}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->getTotalSDPath()Ljava/lang/String;
@@ -403,7 +373,6 @@
 
     invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->getMd5()Ljava/lang/String;
 
     move-result-object v3
@@ -414,7 +383,6 @@
 
     if-nez v3, :cond_2
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->getMd5()Ljava/lang/String;
 
     move-result-object v3
@@ -433,18 +401,15 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 6
     :cond_0
     invoke-static {v2}, Lcom/commsource/util/o0;->b(Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->getMd5()Ljava/lang/String;
 
     move-result-object v2
@@ -455,7 +420,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 8
     sget-object v1, Lcom/commsource/util/CopyAssetToSdManager;->b:Lcom/commsource/util/common/l;
 
     invoke-virtual {p0}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->getSpKey()Ljava/lang/String;
@@ -468,12 +432,10 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 10
     :cond_1
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -483,7 +445,6 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->getTargetFile()Ljava/lang/String;
 
     move-result-object v3
@@ -516,12 +477,10 @@
 
     const-string v1, "CopyAssetToSdManager"
 
-    .line 12
     invoke-static {v1, p0}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -529,7 +488,6 @@
     :cond_2
     const/4 p0, 0x2
 
-    .line 14
     invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p0

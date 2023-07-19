@@ -23,7 +23,6 @@
 .method public constructor <init>(Lcotlin/coroutines/CoroutineContext$b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext$b;)V
 
     return-void
@@ -46,7 +45,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/Throwable;->printStackTrace()V
 
     const/4 v0, 0x0
@@ -57,10 +55,8 @@
 
     const-string v2, "coroutine exception"
 
-    .line 2
     invoke-static {v1, p2, v2, v0}, Lcom/meitu/library/appcia/f/d/a;->b(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

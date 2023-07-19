@@ -65,7 +65,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/okhttp/internal/framed/e$b;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -80,7 +79,6 @@
 
     const-string v0, "PRI * HTTP/2.0\r\n\r\nSM\r\n\r\n"
 
-    .line 2
     invoke-static {v0}, Lokio/ByteString;->encodeUtf8(Ljava/lang/String;)Lokio/ByteString;
 
     move-result-object v0
@@ -93,7 +91,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -102,7 +99,6 @@
 .method static synthetic a()Lokio/ByteString;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/framed/e;->b:Lokio/ByteString;
 
     return-object v0
@@ -111,7 +107,6 @@
 .method static synthetic b()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/framed/e;->a:Ljava/util/logging/Logger;
 
     return-object v0
@@ -125,7 +120,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lio/grpc/okhttp/internal/framed/e;->i(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p0
@@ -141,7 +135,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lio/grpc/okhttp/internal/framed/e;->k(Lokio/BufferedSource;)I
 
     move-result p0
@@ -157,7 +150,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lio/grpc/okhttp/internal/framed/e;->j(IBS)I
 
     move-result p0
@@ -168,7 +160,6 @@
 .method static synthetic f(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/IllegalArgumentException;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lio/grpc/okhttp/internal/framed/e;->h(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/IllegalArgumentException;
 
     move-result-object p0
@@ -184,7 +175,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lio/grpc/okhttp/internal/framed/e;->l(Lokio/BufferedSink;I)V
 
     return-void
@@ -195,7 +185,6 @@
     .annotation build Lf/f/f/a/h;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     invoke-static {p0, p1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -218,7 +207,6 @@
     .annotation build Lf/f/f/a/h;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/IOException;
 
     invoke-static {p0, p1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -260,7 +248,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p2}, Ljava/lang/Short;->valueOf(S)Ljava/lang/Short;
 
     move-result-object p2
@@ -292,7 +279,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lokio/BufferedSource;->readByte()B
 
     move-result v0
@@ -301,7 +287,6 @@
 
     shl-int/lit8 v0, v0, 0x10
 
-    .line 2
     invoke-interface {p0}, Lokio/BufferedSource;->readByte()B
 
     move-result v1
@@ -312,7 +297,6 @@
 
     or-int/2addr v0, v1
 
-    .line 3
     invoke-interface {p0}, Lokio/BufferedSource;->readByte()B
 
     move-result p0
@@ -336,19 +320,16 @@
 
     and-int/lit16 v0, v0, 0xff
 
-    .line 1
     invoke-interface {p0, v0}, Lokio/BufferedSink;->writeByte(I)Lokio/BufferedSink;
 
     ushr-int/lit8 v0, p1, 0x8
 
     and-int/lit16 v0, v0, 0xff
 
-    .line 2
     invoke-interface {p0, v0}, Lokio/BufferedSink;->writeByte(I)Lokio/BufferedSink;
 
     and-int/lit16 p1, p1, 0xff
 
-    .line 3
     invoke-interface {p0, p1}, Lokio/BufferedSink;->writeByte(I)Lokio/BufferedSink;
 
     return-void
@@ -359,7 +340,6 @@
 .method public getProtocol()Lio/grpc/okhttp/internal/Protocol;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/Protocol;->HTTP_2:Lio/grpc/okhttp/internal/Protocol;
 
     return-object v0
@@ -368,7 +348,6 @@
 .method public newReader(Lokio/BufferedSource;Z)Lio/grpc/okhttp/internal/framed/a;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/grpc/okhttp/internal/framed/e$c;
 
     const/16 v1, 0x1000
@@ -381,7 +360,6 @@
 .method public newWriter(Lokio/BufferedSink;Z)Lio/grpc/okhttp/internal/framed/b;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/okhttp/internal/framed/e$d;
 
     invoke-direct {v0, p1, p2}, Lio/grpc/okhttp/internal/framed/e$d;-><init>(Lokio/BufferedSink;Z)V

@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/commsource/material/download/b/c;Lcom/commsource/comic/widget/c;Landroid/app/Activity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/b/b$e;->a:Lcom/commsource/material/download/b/c;
 
     iput-object p2, p0, Lcom/commsource/material/download/b/b$e;->b:Lcom/commsource/comic/widget/c;
@@ -51,19 +50,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b$e;->b:Lcom/commsource/comic/widget/c;
 
     invoke-virtual {v1, p1}, Lcom/commsource/comic/widget/c;->n(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/material/download/b/b$e;->a:Lcom/commsource/material/download/b/c;
 
     if-eqz v1, :cond_0
 
     invoke-interface {v1, p1}, Lcom/commsource/material/download/b/c;->a(I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -85,7 +81,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b$e;->c:Landroid/app/Activity;
 
     invoke-static {v1}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
@@ -94,14 +89,12 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/material/download/b/b$e;->b:Lcom/commsource/comic/widget/c;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/material/download/b/b$e;->a:Lcom/commsource/material/download/b/c;
 
@@ -109,7 +102,6 @@
 
     invoke-interface {v1, p1}, Lcom/commsource/material/download/b/c;->onError(Ljava/lang/Exception;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -123,14 +115,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b$e;->a:Lcom/commsource/material/download/b/c;
 
     if-eqz v1, :cond_0
 
     invoke-interface {v1}, Lcom/commsource/material/download/b/c;->onStart()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -144,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b$e;->c:Landroid/app/Activity;
 
     invoke-static {v1}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
@@ -153,14 +142,12 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/material/download/b/b$e;->b:Lcom/commsource/comic/widget/c;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/material/download/b/b$e;->a:Lcom/commsource/material/download/b/c;
 
@@ -168,7 +155,6 @@
 
     invoke-interface {v1}, Lcom/commsource/material/download/b/c;->onSuccess()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

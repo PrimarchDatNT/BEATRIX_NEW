@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/google/common/collect/MultimapBuilder$f;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/MultimapBuilder$f$c;->c:Lcom/google/common/collect/MultimapBuilder$f;
 
     iput p2, p0, Lcom/google/common/collect/MultimapBuilder$f$c;->b:I
@@ -48,7 +47,6 @@
 .method public bridge synthetic a()Lcom/google/common/collect/l1;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/MultimapBuilder$f$c;->j()Lcom/google/common/collect/x1;
 
     move-result-object v0
@@ -68,10 +66,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MultimapBuilder$f$c;->c:Lcom/google/common/collect/MultimapBuilder$f;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/common/collect/MultimapBuilder$f;->c()Ljava/util/Map;
 
     move-result-object v0
@@ -82,7 +78,6 @@
 
     invoke-direct {v1, v2}, Lcom/google/common/collect/MultimapBuilder$HashSetSupplier;-><init>(I)V
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/common/collect/Multimaps;->w(Ljava/util/Map;Lcom/google/common/base/z;)Lcom/google/common/collect/x1;
 
     move-result-object v0

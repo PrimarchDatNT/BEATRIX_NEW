@@ -238,7 +238,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/cache/LocalCache;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -251,14 +250,12 @@
 
     sput-object v0, Lcom/google/common/cache/LocalCache;->d0:Ljava/util/logging/Logger;
 
-    .line 2
     new-instance v0, Lcom/google/common/cache/LocalCache$a;
 
     invoke-direct {v0}, Lcom/google/common/cache/LocalCache$a;-><init>()V
 
     sput-object v0, Lcom/google/common/cache/LocalCache;->e0:Lcom/google/common/cache/LocalCache$s;
 
-    .line 3
     new-instance v0, Lcom/google/common/cache/LocalCache$b;
 
     invoke-direct {v0}, Lcom/google/common/cache/LocalCache$b;-><init>()V
@@ -284,10 +281,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractMap;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->j()I
 
     move-result v0
@@ -300,82 +295,70 @@
 
     iput v0, p0, Lcom/google/common/cache/LocalCache;->d:I
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->o()Lcom/google/common/cache/LocalCache$Strength;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/cache/LocalCache;->p:Lcom/google/common/cache/LocalCache$Strength;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->v()Lcom/google/common/cache/LocalCache$Strength;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/google/common/cache/LocalCache;->J:Lcom/google/common/cache/LocalCache$Strength;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->n()Lcom/google/common/base/Equivalence;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/google/common/cache/LocalCache;->f:Lcom/google/common/base/Equivalence;
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->u()Lcom/google/common/base/Equivalence;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/google/common/cache/LocalCache;->g:Lcom/google/common/base/Equivalence;
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->p()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/google/common/cache/LocalCache;->K:J
 
-    .line 8
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->w()Lcom/google/common/cache/m;
 
     move-result-object v3
 
     iput-object v3, p0, Lcom/google/common/cache/LocalCache;->L:Lcom/google/common/cache/m;
 
-    .line 9
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->k()J
 
     move-result-wide v3
 
     iput-wide v3, p0, Lcom/google/common/cache/LocalCache;->M:J
 
-    .line 10
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->l()J
 
     move-result-wide v3
 
     iput-wide v3, p0, Lcom/google/common/cache/LocalCache;->N:J
 
-    .line 11
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->q()J
 
     move-result-wide v3
 
     iput-wide v3, p0, Lcom/google/common/cache/LocalCache;->O:J
 
-    .line 12
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->r()Lcom/google/common/cache/k;
 
     move-result-object v3
 
     iput-object v3, p0, Lcom/google/common/cache/LocalCache;->Q:Lcom/google/common/cache/k;
 
-    .line 13
     sget-object v4, Lcom/google/common/cache/CacheBuilder$NullListener;->INSTANCE:Lcom/google/common/cache/CacheBuilder$NullListener;
 
     if-ne v3, v4, :cond_0
 
-    .line 14
     invoke-static {}, Lcom/google/common/cache/LocalCache;->h()Ljava/util/Queue;
 
     move-result-object v3
@@ -390,7 +373,6 @@
     :goto_0
     iput-object v3, p0, Lcom/google/common/cache/LocalCache;->P:Ljava/util/Queue;
 
-    .line 15
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->K()Z
 
     move-result v3
@@ -401,7 +383,6 @@
 
     iput-object v3, p0, Lcom/google/common/cache/LocalCache;->R:Lcom/google/common/base/e0;
 
-    .line 16
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->S()Z
 
     move-result v3
@@ -416,7 +397,6 @@
 
     iput-object v0, p0, Lcom/google/common/cache/LocalCache;->S:Lcom/google/common/cache/LocalCache$EntryFactory;
 
-    .line 17
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->s()Lcom/google/common/base/z;
 
     move-result-object v0
@@ -429,10 +409,8 @@
 
     iput-object v0, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
-    .line 18
     iput-object p2, p0, Lcom/google/common/cache/LocalCache;->U:Lcom/google/common/cache/CacheLoader;
 
-    .line 19
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->m()I
 
     move-result p2
@@ -443,7 +421,6 @@
 
     move-result p2
 
-    .line 20
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->i()Z
 
     move-result v0
@@ -458,7 +435,6 @@
 
     int-to-long v3, p2
 
-    .line 21
     invoke-static {v3, v4, v1, v2}, Ljava/lang/Math;->min(JJ)J
 
     move-result-wide v0
@@ -474,7 +450,6 @@
 
     const/4 v3, 0x0
 
-    .line 22
     :goto_1
     iget v4, p0, Lcom/google/common/cache/LocalCache;->d:I
 
@@ -506,22 +481,18 @@
     :cond_3
     rsub-int/lit8 v3, v3, 0x20
 
-    .line 23
     iput v3, p0, Lcom/google/common/cache/LocalCache;->b:I
 
     add-int/lit8 v3, v2, -0x1
 
-    .line 24
     iput v3, p0, Lcom/google/common/cache/LocalCache;->a:I
 
-    .line 25
     invoke-virtual {p0, v2}, Lcom/google/common/cache/LocalCache;->B(I)[Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v3
 
     iput-object v3, p0, Lcom/google/common/cache/LocalCache;->c:[Lcom/google/common/cache/LocalCache$Segment;
 
-    .line 26
     div-int v3, p2, v2
 
     mul-int v4, v3, v2
@@ -538,7 +509,6 @@
 
     goto :goto_2
 
-    .line 27
     :cond_5
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->i()Z
 
@@ -546,7 +516,6 @@
 
     if-eqz p2, :cond_7
 
-    .line 28
     iget-wide v3, p0, Lcom/google/common/cache/LocalCache;->K:J
 
     int-to-long v5, v2
@@ -557,10 +526,8 @@
 
     add-long/2addr v7, v9
 
-    .line 29
     rem-long/2addr v3, v5
 
-    .line 30
     :goto_3
     iget-object p2, p0, Lcom/google/common/cache/LocalCache;->c:[Lcom/google/common/cache/LocalCache$Segment;
 
@@ -576,7 +543,6 @@
 
     sub-long/2addr v7, v9
 
-    .line 31
     :cond_6
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->s()Lcom/google/common/base/z;
 
@@ -598,7 +564,6 @@
 
     goto :goto_3
 
-    .line 32
     :cond_7
     :goto_4
     iget-object p2, p0, Lcom/google/common/cache/LocalCache;->c:[Lcom/google/common/cache/LocalCache$Segment;
@@ -609,7 +574,6 @@
 
     const-wide/16 v2, -0x1
 
-    .line 33
     invoke-virtual {p1}, Lcom/google/common/cache/CacheBuilder;->s()Lcom/google/common/base/z;
 
     move-result-object v4
@@ -648,7 +612,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/cache/LocalCache$NullEntry;->INSTANCE:Lcom/google/common/cache/LocalCache$NullEntry;
 
     return-object v0
@@ -668,15 +631,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/cache/LocalCache;->D()Lcom/google/common/cache/j;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p0, v0}, Lcom/google/common/cache/j;->setNextInAccessQueue(Lcom/google/common/cache/j;)V
 
-    .line 3
     invoke-interface {p0, v0}, Lcom/google/common/cache/j;->setPreviousInAccessQueue(Lcom/google/common/cache/j;)V
 
     return-void
@@ -696,15 +656,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/cache/LocalCache;->D()Lcom/google/common/cache/j;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p0, v0}, Lcom/google/common/cache/j;->setNextInWriteQueue(Lcom/google/common/cache/j;)V
 
-    .line 3
     invoke-interface {p0, v0}, Lcom/google/common/cache/j;->setPreviousInWriteQueue(Lcom/google/common/cache/j;)V
 
     return-void
@@ -760,7 +717,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-interface {p0}, Ljava/util/Collection;->size()I
@@ -769,7 +725,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -793,7 +748,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/cache/LocalCache;->e0:Lcom/google/common/cache/LocalCache$s;
 
     return-object v0
@@ -802,7 +756,6 @@
 .method static synthetic a(Ljava/util/Collection;)Ljava/util/ArrayList;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/cache/LocalCache;->Q(Ljava/util/Collection;)Ljava/util/ArrayList;
 
     move-result-object p0
@@ -826,10 +779,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Lcom/google/common/cache/j;->setNextInAccessQueue(Lcom/google/common/cache/j;)V
 
-    .line 2
     invoke-interface {p1, p0}, Lcom/google/common/cache/j;->setPreviousInAccessQueue(Lcom/google/common/cache/j;)V
 
     return-void
@@ -851,10 +802,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Lcom/google/common/cache/j;->setNextInWriteQueue(Lcom/google/common/cache/j;)V
 
-    .line 2
     invoke-interface {p1, p0}, Lcom/google/common/cache/j;->setPreviousInWriteQueue(Lcom/google/common/cache/j;)V
 
     return-void
@@ -872,7 +821,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/cache/LocalCache;->f0:Ljava/util/Queue;
 
     return-object v0
@@ -899,15 +847,12 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p2}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
 
-    .line 3
     :try_start_0
     invoke-virtual {v0, p1, p2, p3}, Lcom/google/common/cache/LocalCache$Segment;->newEntry(Ljava/lang/Object;ILcom/google/common/cache/j;)Lcom/google/common/cache/j;
 
@@ -915,7 +860,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
     return-object p1
@@ -925,7 +869,6 @@
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    .line 5
     throw p1
 .end method
 
@@ -939,7 +882,6 @@
         }
     .end annotation
 
-    .line 1
     new-array p1, p1, [Lcom/google/common/cache/LocalCache$Segment;
 
     return-object p1
@@ -960,12 +902,10 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/cache/j;->getHash()I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/cache/LocalCache;->J:Lcom/google/common/cache/LocalCache$Strength;
 
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
@@ -986,7 +926,6 @@
 .method G()V
     .locals 4
 
-    .line 1
     :goto_0
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->P:Ljava/util/Queue;
 
@@ -998,7 +937,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/common/cache/LocalCache;->Q:Lcom/google/common/cache/k;
 
@@ -1011,7 +949,6 @@
     :catchall_0
     move-exception v0
 
-    .line 3
     sget-object v1, Lcom/google/common/cache/LocalCache;->d0:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
@@ -1036,12 +973,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/cache/j;->getHash()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -1061,17 +996,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/cache/LocalCache$s;->a()Lcom/google/common/cache/j;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Lcom/google/common/cache/j;->getHash()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v2
@@ -1088,7 +1020,6 @@
 .method J()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->k()Z
 
     move-result v0
@@ -1099,7 +1030,6 @@
 .method K()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->L()Z
 
     move-result v0
@@ -1130,7 +1060,6 @@
 .method L()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->l()Z
 
     move-result v0
@@ -1166,7 +1095,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -1175,7 +1103,6 @@
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -1192,7 +1119,6 @@
 .method N()Z
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/LocalCache;->O:J
 
     const-wide/16 v2, 0x0
@@ -1222,7 +1148,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->c:[Lcom/google/common/cache/LocalCache$Segment;
 
     iget v1, p0, Lcom/google/common/cache/LocalCache;->b:I
@@ -1241,7 +1166,6 @@
 .method S()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->T()Z
 
     move-result v0
@@ -1272,7 +1196,6 @@
 .method T()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->k()Z
 
     move-result v0
@@ -1303,7 +1226,6 @@
 .method U()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->p:Lcom/google/common/cache/LocalCache$Strength;
 
     sget-object v1, Lcom/google/common/cache/LocalCache$Strength;->STRONG:Lcom/google/common/cache/LocalCache$Strength;
@@ -1324,7 +1246,6 @@
 .method V()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->J:Lcom/google/common/cache/LocalCache$Strength;
 
     sget-object v1, Lcom/google/common/cache/LocalCache$Strength;->STRONG:Lcom/google/common/cache/LocalCache$Strength;
@@ -1345,7 +1266,6 @@
 .method W()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->X()Z
 
     move-result v0
@@ -1376,7 +1296,6 @@
 .method X()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->l()Z
 
     move-result v0
@@ -1387,7 +1306,6 @@
 .method public b()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->c:[Lcom/google/common/cache/LocalCache$Segment;
 
     array-length v1, v0
@@ -1399,7 +1317,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     invoke-virtual {v3}, Lcom/google/common/cache/LocalCache$Segment;->cleanUp()V
 
     add-int/lit8 v2, v2, 0x1
@@ -1413,7 +1330,6 @@
 .method public clear()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->c:[Lcom/google/common/cache/LocalCache$Segment;
 
     array-length v1, v0
@@ -1425,7 +1341,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     invoke-virtual {v3}, Lcom/google/common/cache/LocalCache$Segment;->clear()V
 
     add-int/lit8 v2, v2, 0x1
@@ -1449,13 +1364,11 @@
 
     return p1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache;->u(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -1484,7 +1397,6 @@
 
     return v2
 
-    .line 1
     :cond_0
     iget-object v3, v0, Lcom/google/common/cache/LocalCache;->R:Lcom/google/common/base/e0;
 
@@ -1492,7 +1404,6 @@
 
     move-result-wide v3
 
-    .line 2
     iget-object v5, v0, Lcom/google/common/cache/LocalCache;->c:[Lcom/google/common/cache/LocalCache$Segment;
 
     const-wide/16 v6, -0x1
@@ -1506,7 +1417,6 @@
 
     const-wide/16 v9, 0x0
 
-    .line 3
     array-length v11, v5
 
     const/4 v12, 0x0
@@ -1516,15 +1426,12 @@
 
     aget-object v13, v5, v12
 
-    .line 4
     iget v14, v13, Lcom/google/common/cache/LocalCache$Segment;->count:I
 
-    .line 5
     iget-object v14, v13, Lcom/google/common/cache/LocalCache$Segment;->table:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     const/4 v15, 0x0
 
-    .line 6
     :goto_2
     invoke-virtual {v14}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->length()I
 
@@ -1532,7 +1439,6 @@
 
     if-ge v15, v2, :cond_3
 
-    .line 7
     invoke-virtual {v14, v15}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -1544,7 +1450,6 @@
 
     move-object/from16 v16, v5
 
-    .line 8
     invoke-virtual {v13, v2, v3, v4}, Lcom/google/common/cache/LocalCache$Segment;->getLiveValue(Lcom/google/common/cache/j;J)Ljava/lang/Object;
 
     move-result-object v5
@@ -1553,7 +1458,6 @@
 
     if-eqz v5, :cond_1
 
-    .line 9
     iget-object v3, v0, Lcom/google/common/cache/LocalCache;->g:Lcom/google/common/base/Equivalence;
 
     invoke-virtual {v3, v1, v5}, Lcom/google/common/base/Equivalence;->equivalent(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -1566,7 +1470,6 @@
 
     return v1
 
-    .line 10
     :cond_1
     invoke-interface {v2}, Lcom/google/common/cache/j;->getNext()Lcom/google/common/cache/j;
 
@@ -1592,7 +1495,6 @@
 
     move-object/from16 v16, v5
 
-    .line 11
     iget v2, v13, Lcom/google/common/cache/LocalCache$Segment;->modCount:I
 
     int-to-long v2, v2
@@ -1655,12 +1557,10 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/cache/j;->getHash()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v0
@@ -1686,14 +1586,12 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->X:Ljava/util/Set;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/common/cache/LocalCache$g;
 
@@ -1717,7 +1615,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v6, Lcom/google/common/cache/LocalCache$Segment;
 
     move-object v0, v6
@@ -1738,7 +1635,6 @@
 .method g()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->L:Lcom/google/common/cache/m;
 
     sget-object v1, Lcom/google/common/cache/CacheBuilder$OneWeigher;->INSTANCE:Lcom/google/common/cache/CacheBuilder$OneWeigher;
@@ -1779,13 +1675,11 @@
 
     return-object p1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache;->u(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -1818,7 +1712,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -1834,7 +1727,6 @@
 .method i()Z
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/LocalCache;->K:J
 
     const-wide/16 v2, 0x0
@@ -1857,7 +1749,6 @@
 .method public isEmpty()Z
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->c:[Lcom/google/common/cache/LocalCache$Segment;
 
     const-wide/16 v1, 0x0
@@ -1868,13 +1759,11 @@
 
     const/4 v4, 0x0
 
-    .line 2
     :goto_0
     array-length v7, v0
 
     if-ge v4, v7, :cond_1
 
-    .line 3
     aget-object v7, v0, v4
 
     iget v7, v7, Lcom/google/common/cache/LocalCache$Segment;->count:I
@@ -1883,7 +1772,6 @@
 
     return v3
 
-    .line 4
     :cond_0
     aget-object v7, v0, v4
 
@@ -1906,13 +1794,11 @@
 
     const/4 v7, 0x0
 
-    .line 5
     :goto_1
     array-length v8, v0
 
     if-ge v7, v8, :cond_3
 
-    .line 6
     aget-object v8, v0, v7
 
     iget v8, v8, Lcom/google/common/cache/LocalCache$Segment;->count:I
@@ -1921,7 +1807,6 @@
 
     return v3
 
-    .line 7
     :cond_2
     aget-object v8, v0, v7
 
@@ -1952,7 +1837,6 @@
 .method j()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->l()Z
 
     move-result v0
@@ -1983,7 +1867,6 @@
 .method k()Z
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/LocalCache;->M:J
 
     const-wide/16 v2, 0x0
@@ -2013,14 +1896,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->V:Ljava/util/Set;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/common/cache/LocalCache$j;
 
@@ -2035,7 +1916,6 @@
 .method l()Z
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/LocalCache;->N:J
 
     const-wide/16 v2, 0x0
@@ -2071,7 +1951,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -2080,7 +1959,6 @@
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -2110,17 +1988,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Maps;->c0()Ljava/util/LinkedHashMap;
 
     move-result-object v0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Sets;->A()Ljava/util/LinkedHashSet;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2141,26 +2016,22 @@
 
     move-result-object v4
 
-    .line 4
     invoke-virtual {p0, v4}, Lcom/google/common/cache/LocalCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
-    .line 5
     invoke-interface {v0, v4}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v6
 
     if-nez v6, :cond_0
 
-    .line 6
     invoke-interface {v0, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     if-nez v5, :cond_1
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 7
     invoke-interface {v1, v4}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -2170,7 +2041,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     :try_start_0
     invoke-interface {v1}, Ljava/util/Set;->isEmpty()Z
@@ -2181,7 +2051,6 @@
 
     if-nez p1, :cond_4
 
-    .line 9
     :try_start_1
     iget-object p1, p0, Lcom/google/common/cache/LocalCache;->U:Lcom/google/common/cache/CacheLoader;
 
@@ -2189,7 +2058,6 @@
 
     move-result-object p1
 
-    .line 10
     invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -2205,19 +2073,16 @@
 
     move-result-object v5
 
-    .line 11
     invoke-interface {p1, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v6
 
     if-eqz v6, :cond_3
 
-    .line 12
     invoke-interface {v0, v5, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 13
     :cond_3
     new-instance p1, Lcom/google/common/cache/CacheLoader$InvalidCacheLoadException;
 
@@ -2242,7 +2107,6 @@
     .catch Lcom/google/common/cache/CacheLoader$UnsupportedLoadingOperationException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 14
     :catch_0
     :try_start_2
     invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -2262,7 +2126,6 @@
 
     add-int/lit8 v3, v3, -0x1
 
-    .line 15
     iget-object v4, p0, Lcom/google/common/cache/LocalCache;->U:Lcom/google/common/cache/CacheLoader;
 
     invoke-virtual {p0, v1, v4}, Lcom/google/common/cache/LocalCache;->m(Ljava/lang/Object;Lcom/google/common/cache/CacheLoader;)Ljava/lang/Object;
@@ -2273,7 +2136,6 @@
 
     goto :goto_2
 
-    .line 16
     :cond_4
     invoke-static {v0}, Lcom/google/common/collect/ImmutableMap;->copyOf(Ljava/util/Map;)Lcom/google/common/collect/ImmutableMap;
 
@@ -2281,12 +2143,10 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 17
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
     invoke-interface {v0, v2}, Lcom/google/common/cache/a$b;->a(I)V
 
-    .line 18
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
     invoke-interface {v0, v3}, Lcom/google/common/cache/a$b;->b(I)V
@@ -2296,17 +2156,14 @@
     :catchall_0
     move-exception p1
 
-    .line 19
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
     invoke-interface {v0, v2}, Lcom/google/common/cache/a$b;->a(I)V
 
-    .line 20
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
     invoke-interface {v0, v3}, Lcom/google/common/cache/a$b;->b(I)V
 
-    .line 21
     throw p1
 .end method
 
@@ -2322,12 +2179,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Maps;->c0()Ljava/util/LinkedHashMap;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2347,7 +2202,6 @@
 
     move-result-object v3
 
-    .line 3
     invoke-virtual {p0, v3}, Lcom/google/common/cache/LocalCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -2358,7 +2212,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-interface {v0, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -2366,18 +2219,15 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
     invoke-interface {p1, v1}, Lcom/google/common/cache/a$b;->a(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
     invoke-interface {p1, v2}, Lcom/google/common/cache/a$b;->b(I)V
 
-    .line 7
     invoke-static {v0}, Lcom/google/common/collect/ImmutableMap;->copyOf(Ljava/util/Map;)Lcom/google/common/collect/ImmutableMap;
 
     move-result-object p1
@@ -2393,18 +2243,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache;->u(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 4
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -2428,7 +2274,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -2450,7 +2295,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -2475,18 +2319,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache;->u(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 4
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -2522,13 +2362,11 @@
 
     return-object p1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache;->u(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -2553,7 +2391,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -2562,7 +2399,6 @@
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -2575,14 +2411,12 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
     invoke-interface {v1, v0}, Lcom/google/common/cache/a$b;->b(I)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
@@ -2612,13 +2446,11 @@
 
     return-object p1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache;->u(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -2647,13 +2479,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache;->u(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 4
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -2679,18 +2509,14 @@
         }
     .end annotation
 
-    .line 5
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache;->u(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 8
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -2714,10 +2540,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p3}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     if-nez p2, :cond_0
@@ -2726,13 +2550,11 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache;->u(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 4
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->P(I)Lcom/google/common/cache/LocalCache$Segment;
 
     move-result-object v1
@@ -2757,7 +2579,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/cache/j;->getKey()Ljava/lang/Object;
 
     move-result-object v0
@@ -2768,7 +2589,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Lcom/google/common/cache/j;->getValueReference()Lcom/google/common/cache/LocalCache$s;
 
@@ -2782,7 +2602,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/common/cache/LocalCache;->w(Lcom/google/common/cache/j;J)Z
 
@@ -2799,7 +2618,6 @@
 .method public size()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->z()J
 
     move-result-wide v0
@@ -2825,7 +2643,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->U:Lcom/google/common/cache/CacheLoader;
 
     invoke-virtual {p0, p1, v0}, Lcom/google/common/cache/LocalCache;->m(Ljava/lang/Object;Lcom/google/common/cache/CacheLoader;)Ljava/lang/Object;
@@ -2842,14 +2659,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->f:Lcom/google/common/base/Equivalence;
 
     invoke-virtual {v0, p1}, Lcom/google/common/base/Equivalence;->hash(Ljava/lang/Object;)I
 
     move-result p1
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/cache/LocalCache;->O(I)I
 
     move-result p1
@@ -2867,7 +2682,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2883,7 +2697,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
@@ -2902,14 +2715,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->W:Ljava/util/Collection;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/common/cache/LocalCache$t;
 
@@ -2931,10 +2742,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->k()Z
 
     move-result v0
@@ -2957,7 +2766,6 @@
 
     return v1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache;->l()Z
 
@@ -2998,7 +2806,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/cache/j;->getHash()I
 
     move-result v0
@@ -3047,13 +2854,10 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {}, Lcom/google/common/base/x;->c()Lcom/google/common/base/x;
 
     move-result-object v0
@@ -3062,7 +2866,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     :try_start_0
     invoke-virtual {p2, p1}, Lcom/google/common/cache/CacheLoader;->loadAll(Ljava/lang/Iterable;)Ljava/util/Map;
 
@@ -3077,10 +2880,8 @@
 
     if-eqz p1, :cond_4
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/common/base/x;->l()Lcom/google/common/base/x;
 
-    .line 6
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v3
@@ -3102,12 +2903,10 @@
 
     check-cast v4, Ljava/util/Map$Entry;
 
-    .line 7
     invoke-interface {v4}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v5
 
-    .line 8
     invoke-interface {v4}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v4
@@ -3118,7 +2917,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_0
     invoke-virtual {p0, v5, v4}, Lcom/google/common/cache/LocalCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -3133,7 +2931,6 @@
     :cond_2
     if-nez v2, :cond_3
 
-    .line 10
     iget-object p2, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
@@ -3146,7 +2943,6 @@
 
     return-object p1
 
-    .line 11
     :cond_3
     iget-object p1, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
@@ -3158,7 +2954,6 @@
 
     invoke-interface {p1, v0, v1}, Lcom/google/common/cache/a$b;->d(J)V
 
-    .line 12
     new-instance p1, Lcom/google/common/cache/CacheLoader$InvalidCacheLoadException;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -3179,7 +2974,6 @@
 
     throw p1
 
-    .line 13
     :cond_4
     iget-object p1, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
@@ -3191,7 +2985,6 @@
 
     invoke-interface {p1, v0, v1}, Lcom/google/common/cache/a$b;->d(J)V
 
-    .line 14
     new-instance p1, Lcom/google/common/cache/CacheLoader$InvalidCacheLoadException;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -3222,7 +3015,6 @@
     :catch_0
     move-exception p1
 
-    .line 15
     :try_start_1
     new-instance p2, Lcom/google/common/util/concurrent/ExecutionError;
 
@@ -3233,7 +3025,6 @@
     :catch_1
     move-exception p1
 
-    .line 16
     new-instance p2, Ljava/util/concurrent/ExecutionException;
 
     invoke-direct {p2, p1}, Ljava/util/concurrent/ExecutionException;-><init>(Ljava/lang/Throwable;)V
@@ -3243,7 +3034,6 @@
     :catch_2
     move-exception p1
 
-    .line 17
     new-instance p2, Lcom/google/common/util/concurrent/UncheckedExecutionException;
 
     invoke-direct {p2, p1}, Lcom/google/common/util/concurrent/UncheckedExecutionException;-><init>(Ljava/lang/Throwable;)V
@@ -3253,14 +3043,12 @@
     :catch_3
     move-exception p1
 
-    .line 18
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object p2
 
     invoke-virtual {p2}, Ljava/lang/Thread;->interrupt()V
 
-    .line 19
     new-instance p2, Ljava/util/concurrent/ExecutionException;
 
     invoke-direct {p2, p1}, Ljava/util/concurrent/ExecutionException;-><init>(Ljava/lang/Throwable;)V
@@ -3272,7 +3060,6 @@
     :catch_4
     move-exception p1
 
-    .line 20
     :try_start_2
     throw p1
     :try_end_2
@@ -3284,7 +3071,6 @@
     :goto_2
     if-nez v1, :cond_5
 
-    .line 21
     iget-object p2, p0, Lcom/google/common/cache/LocalCache;->T:Lcom/google/common/cache/a$b;
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
@@ -3295,7 +3081,6 @@
 
     invoke-interface {p2, v0, v1}, Lcom/google/common/cache/a$b;->d(J)V
 
-    .line 22
     :cond_5
     throw p1
 .end method
@@ -3303,7 +3088,6 @@
 .method z()J
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache;->c:[Lcom/google/common/cache/LocalCache$Segment;
 
     const/4 v1, 0x0
@@ -3312,13 +3096,11 @@
 
     const/4 v4, 0x0
 
-    .line 2
     :goto_0
     array-length v5, v0
 
     if-ge v4, v5, :cond_0
 
-    .line 3
     aget-object v5, v0, v4
 
     iget v5, v5, Lcom/google/common/cache/LocalCache$Segment;->count:I

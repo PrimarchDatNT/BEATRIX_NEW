@@ -26,30 +26,24 @@
 
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/internal/loader/c;-><init>()V
 
     const-string v1, "https"
 
-    .line 2
     iput-object v1, p0, Lcom/sdk/imp/internal/loader/g$a;->e:Ljava/lang/String;
 
     const-string v1, "http"
 
-    .line 3
     iput-object v1, p0, Lcom/sdk/imp/internal/loader/g$a;->f:Ljava/lang/String;
 
-    .line 4
     invoke-static {}, Lcom/sdk/api/a;->g()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 5
     invoke-static {v1}, Lf/q/b/b;->r(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 6
     invoke-static {v1}, Lf/q/b/b;->o(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v3
@@ -58,7 +52,6 @@
 
     const-string v5, "1"
 
-    .line 7
     invoke-direct {p0, v4, v5}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
     const/4 v4, 0x2
@@ -75,7 +68,6 @@
 
     const-string v3, "%s_%s"
 
-    .line 8
     invoke-static {v3, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
@@ -84,10 +76,8 @@
 
     invoke-direct {p0, v5, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 9
     sget-object v3, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
-    .line 10
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -96,14 +86,11 @@
 
     const-string v5, "mak"
 
-    .line 11
     invoke-direct {p0, v5, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 12
     :cond_0
     sget-object v3, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
-    .line 13
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -112,10 +99,8 @@
 
     const-string v5, "mod"
 
-    .line 14
     invoke-direct {p0, v5, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 15
     :cond_1
     invoke-static {}, Lcom/sdk/imp/internal/loader/e;->b()Ljava/lang/String;
 
@@ -125,7 +110,6 @@
 
     invoke-direct {p0, v5, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 16
     invoke-static {v1}, Lf/q/b/b;->n(Landroid/content/Context;)I
 
     move-result v3
@@ -138,7 +122,6 @@
 
     invoke-direct {p0, v5, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 17
     invoke-static {v1}, Lf/q/b/b;->t(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v3
@@ -147,7 +130,6 @@
 
     invoke-direct {p0, v5, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 18
     invoke-static {v1}, Lf/q/b/b;->u(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v3
@@ -156,7 +138,6 @@
 
     invoke-direct {p0, v5, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 19
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -167,7 +148,6 @@
 
     invoke-direct {p0, v5, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 20
     invoke-static {v1}, Lf/q/b/m;->n(Landroid/content/Context;)Z
 
     move-result v3
@@ -185,7 +165,6 @@
 
     invoke-direct {p0, v4, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 21
     invoke-static {}, Lcom/sdk/api/a;->f()Ljava/lang/String;
 
     move-result-object v3
@@ -194,7 +173,6 @@
 
     invoke-direct {p0, v4, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 22
     invoke-static {v1}, Lf/q/b/e;->f(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v3
@@ -203,7 +181,6 @@
 
     invoke-direct {p0, v4, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 23
     invoke-static {}, Lcom/sdk/imp/internal/loader/e;->e()Ljava/lang/String;
 
     move-result-object v3
@@ -214,7 +191,6 @@
 
     const/4 v3, 0x3
 
-    .line 24
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -223,7 +199,6 @@
 
     invoke-direct {p0, v4, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 25
     invoke-static {}, Lcom/sdk/imp/internal/loader/e;->h()Ljava/lang/String;
 
     move-result-object v3
@@ -232,7 +207,6 @@
 
     invoke-direct {p0, v4, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 26
     invoke-static {}, Lcom/sdk/imp/internal/loader/e;->d()Ljava/lang/String;
 
     move-result-object v3
@@ -241,7 +215,6 @@
 
     invoke-direct {p0, v4, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 27
     sget-object v3, Lcom/sdk/imp/internal/loader/g;->e:Ljava/lang/String;
 
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -250,14 +223,12 @@
 
     if-nez v3, :cond_3
 
-    .line 28
     sget-object v3, Lcom/sdk/imp/internal/loader/g;->e:Ljava/lang/String;
 
     const-string v4, "test_country"
 
     invoke-direct {p0, v4, v3}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 29
     :cond_3
     invoke-static {}, Lcom/sdk/api/a;->p()Z
 
@@ -265,7 +236,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 30
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -274,7 +244,6 @@
 
     invoke-direct {p0, v3, v2}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 31
     :cond_4
     invoke-static {}, Lcom/sdk/imp/internal/loader/e;->f()Ljava/lang/String;
 
@@ -284,7 +253,6 @@
 
     invoke-direct {p0, v3, v2}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 32
     invoke-static {}, Lcom/sdk/imp/internal/loader/e;->g()Ljava/lang/String;
 
     move-result-object v2
@@ -293,7 +261,6 @@
 
     invoke-direct {p0, v3, v2}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 33
     invoke-static {v1}, Lcom/sdk/api/a;->e(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v2
@@ -305,7 +272,6 @@
     :try_start_0
     const-string v2, "appn"
 
-    .line 34
     invoke-static {v1}, Lf/q/b/b;->m(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v3
@@ -318,7 +284,6 @@
 
     const-string v2, "bud"
 
-    .line 35
     invoke-static {v1}, Lf/q/b/b;->v(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
@@ -336,7 +301,6 @@
     :catch_0
     const-string v0, "encode error"
 
-    .line 36
     invoke-static {v0}, Lf/q/b/g;->c(Ljava/lang/String;)V
 
     :goto_0
@@ -344,7 +308,6 @@
 
     const-string v1, "android"
 
-    .line 37
     invoke-direct {p0, v0, v1}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
@@ -353,14 +316,12 @@
 .method private c(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/c;->d:Ljava/util/List;
 
     new-instance v1, Lf/q/a/a;
@@ -388,7 +349,6 @@
 .method private d()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
@@ -397,14 +357,12 @@
 
     invoke-direct {v0, v2, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
-    .line 2
     invoke-static {}, Ljava/util/TimeZone;->getDefault()Ljava/util/TimeZone;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/text/SimpleDateFormat;->setTimeZone(Ljava/util/TimeZone;)V
 
-    .line 3
     new-instance v1, Ljava/util/Date;
 
     invoke-direct {v1}, Ljava/util/Date;-><init>()V
@@ -432,7 +390,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     :try_start_0
     invoke-interface {p1}, Ljava/util/Map;->size()I
 
@@ -440,12 +397,10 @@
 
     if-lez v0, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -463,7 +418,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 4
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -482,7 +436,6 @@
 .method public e(I)Lcom/sdk/imp/internal/loader/g$a;
     .locals 1
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -499,7 +452,6 @@
 
     const-string v0, "na"
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-object p0
@@ -510,7 +462,6 @@
 
     const-string v0, "posid"
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/sdk/imp/internal/loader/g$a;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-object p0
@@ -519,19 +470,15 @@
 .method public h()Ljava/net/URI;
     .locals 6
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/sdk/imp/internal/loader/c;->a:Ljava/lang/String;
 
-    .line 2
     iget-object v3, p0, Lcom/sdk/imp/internal/loader/c;->b:Ljava/lang/String;
 
-    .line 3
     invoke-static {}, Lcom/sdk/imp/internal/loader/f;->v()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     iget-object v2, p0, Lcom/sdk/imp/internal/loader/g$a;->f:Ljava/lang/String;
 
     invoke-virtual {v2, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
@@ -548,7 +495,6 @@
 
     if-nez v2, :cond_1
 
-    .line 5
     sget-boolean v0, Lcom/sdk/imp/internal/loader/f;->B:Z
 
     if-eqz v0, :cond_0
@@ -560,7 +506,6 @@
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/g$a;->e:Ljava/lang/String;
 
-    .line 6
     :cond_1
     :goto_0
     iget v2, p0, Lcom/sdk/imp/internal/loader/c;->c:I
@@ -592,7 +537,6 @@
 .method public i(Ljava/lang/String;)Ljava/net/URI;
     .locals 6
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Ljava/net/URI;->create(Ljava/lang/String;)Ljava/net/URI;
 
@@ -600,7 +544,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/net/URI;->getScheme()Ljava/lang/String;
 
     move-result-object v0
@@ -645,7 +588,6 @@
 .method public j(I)Lcom/sdk/imp/internal/loader/g$a;
     .locals 1
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -660,7 +602,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/g$a;->h()Ljava/net/URI;
 
     move-result-object v0

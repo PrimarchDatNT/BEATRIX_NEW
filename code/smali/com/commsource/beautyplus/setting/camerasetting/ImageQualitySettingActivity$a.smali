@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/setting/camerasetting/ImageQualitySettingActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/camerasetting/ImageQualitySettingActivity$a;->c:Lcom/commsource/beautyplus/setting/camerasetting/ImageQualitySettingActivity;
 
     invoke-direct {p0}, Lcom/commsource/widget/title/b;-><init>()V
@@ -39,12 +38,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/camerasetting/ImageQualitySettingActivity$a;->c:Lcom/commsource/beautyplus/setting/camerasetting/ImageQualitySettingActivity;
 
     invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->onBackPressed()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

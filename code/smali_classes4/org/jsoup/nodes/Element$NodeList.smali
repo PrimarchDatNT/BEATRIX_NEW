@@ -30,10 +30,8 @@
 .method constructor <init>(Lorg/jsoup/nodes/Element;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p2}, Lorg/jsoup/helper/ChangeNotifyingArrayList;-><init>(I)V
 
-    .line 2
     iput-object p1, p0, Lorg/jsoup/nodes/Element$NodeList;->owner:Lorg/jsoup/nodes/Element;
 
     return-void
@@ -44,7 +42,6 @@
 .method public onContentsChanged()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/nodes/Element$NodeList;->owner:Lorg/jsoup/nodes/Element;
 
     invoke-virtual {v0}, Lorg/jsoup/nodes/Element;->H()V

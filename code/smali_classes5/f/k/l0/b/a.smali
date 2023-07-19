@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -49,14 +47,12 @@
 
     const/4 v3, 0x0
 
-    .line 2
     invoke-virtual {v1, v2, v3}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v1
 
     const-string v2, "app_language"
 
-    .line 3
     invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 
     move-result v1
@@ -65,12 +61,10 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/f/j;->b()I
 
     move-result v1
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -86,14 +80,12 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {v1}, Lf/k/l0/b/a;->a(Z)I
 
     move-result v2
 
     if-ne v2, v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "zh-Hans"
@@ -105,7 +97,6 @@
 
     if-ne v2, v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "zh-Hant"
@@ -117,14 +108,12 @@
 
     if-ne v2, v1, :cond_2
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "ja"
 
     return-object v0
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -142,14 +131,12 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {v1}, Lf/k/l0/b/a;->a(Z)I
 
     move-result v2
 
     if-ne v2, v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "zh-Hans"
@@ -161,14 +148,12 @@
 
     if-ne v2, v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "zh-Hant"
 
     return-object v0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

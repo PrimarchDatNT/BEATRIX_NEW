@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/l0;Lio/grpc/internal/v$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/l0$a;->b:Lio/grpc/internal/l0;
 
     iput-object p2, p0, Lio/grpc/internal/l0$a;->a:Lio/grpc/internal/v$a;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l0$a;->a:Lio/grpc/internal/v$a;
 
     iget-object v1, p0, Lio/grpc/internal/l0$a;->b:Lio/grpc/internal/l0;

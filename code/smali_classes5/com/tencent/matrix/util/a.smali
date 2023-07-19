@@ -39,7 +39,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -50,7 +49,6 @@
 
     sput-object v0, Lcom/tencent/matrix/util/a;->e:Landroid/os/Handler;
 
-    .line 2
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -59,7 +57,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     sput-boolean v0, Lcom/tencent/matrix/util/a;->g:Z
 
     return-void
@@ -68,7 +65,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -77,15 +73,12 @@
 .method public static a()Landroid/os/Handler;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/tencent/matrix/util/a;->d:Landroid/os/Handler;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/tencent/matrix/util/a;->b()Landroid/os/HandlerThread;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/tencent/matrix/util/a;->d:Landroid/os/Handler;
 
@@ -95,18 +88,15 @@
 .method public static b()Landroid/os/HandlerThread;
     .locals 6
 
-    .line 1
     const-class v0, Lcom/tencent/matrix/util/a;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/tencent/matrix/util/a;->c:Landroid/os/HandlerThread;
 
     if-nez v1, :cond_1
 
-    .line 3
     new-instance v1, Landroid/os/HandlerThread;
 
     const-string v2, "default_matrix_thread"
@@ -115,12 +105,10 @@
 
     sput-object v1, Lcom/tencent/matrix/util/a;->c:Landroid/os/HandlerThread;
 
-    .line 4
     sget-object v1, Lcom/tencent/matrix/util/a;->c:Landroid/os/HandlerThread;
 
     invoke-virtual {v1}, Landroid/os/HandlerThread;->start()V
 
-    .line 5
     new-instance v1, Landroid/os/Handler;
 
     sget-object v2, Lcom/tencent/matrix/util/a;->c:Landroid/os/HandlerThread;
@@ -133,7 +121,6 @@
 
     sput-object v1, Lcom/tencent/matrix/util/a;->d:Landroid/os/Handler;
 
-    .line 6
     sget-object v1, Lcom/tencent/matrix/util/a;->c:Landroid/os/HandlerThread;
 
     invoke-virtual {v1}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
@@ -166,7 +153,6 @@
 
     const/4 v4, 0x0
 
-    .line 7
     sget-boolean v5, Lcom/tencent/matrix/util/a;->g:Z
 
     invoke-static {v5}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -177,7 +163,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/tencent/matrix/util/b;->h(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 8
     :cond_1
     sget-object v1, Lcom/tencent/matrix/util/a;->c:Landroid/os/HandlerThread;
 
@@ -188,7 +173,6 @@
     :catchall_0
     move-exception v1
 
-    .line 9
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -199,7 +183,6 @@
 .method public static c()Landroid/os/Handler;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/tencent/matrix/util/a;->e:Landroid/os/Handler;
 
     return-object v0
@@ -208,7 +191,6 @@
 .method public static d(Ljava/lang/String;I)Landroid/os/HandlerThread;
     .locals 5
 
-    .line 1
     sget-object v0, Lcom/tencent/matrix/util/a;->f:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
@@ -229,21 +211,18 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroid/os/HandlerThread;
 
-    .line 3
     invoke-virtual {v1}, Landroid/os/HandlerThread;->isAlive()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
     new-array v1, v2, [Ljava/lang/Object;
@@ -252,24 +231,19 @@
 
     const-string v2, "warning: remove dead handler thread with name %s"
 
-    .line 5
     invoke-static {v4, v2, v1}, Lcom/tencent/matrix/util/b;->h(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v0, Landroid/os/HandlerThread;
 
     invoke-direct {v0, p0}, Landroid/os/HandlerThread;-><init>(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v0, p1}, Landroid/os/HandlerThread;->setPriority(I)V
 
-    .line 8
     invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
 
-    .line 9
     sget-object p1, Lcom/tencent/matrix/util/a;->f:Ljava/util/HashSet;
 
     invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -280,7 +254,6 @@
 
     aput-object p0, p1, v3
 
-    .line 10
     sget-object p0, Lcom/tencent/matrix/util/a;->f:Ljava/util/HashSet;
 
     invoke-virtual {p0}, Ljava/util/HashSet;->size()I

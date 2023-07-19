@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/web/CrashFeedBackViewModel$sendMessage$1$1;->invoke(Lcom/meitu/template/bean/b;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackViewModel$sendMessage$1$1;->this$0:Lcom/commsource/beautyplus/web/CrashFeedBackViewModel$sendMessage$1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/web/CrashFeedBackViewModel$sendMessage$1;->this$0:Lcom/commsource/beautyplus/web/CrashFeedBackViewModel;
@@ -94,13 +92,11 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     :try_start_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/b;->b()Lcom/meitu/template/bean/Chat;
 
     move-result-object p1
 
-    .line 4
     new-instance v1, Lcom/commsource/beautyplus/web/CrashFeedBackViewModel$sendMessage$1$1$a;
 
     const-string v2, ""
@@ -116,10 +112,8 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

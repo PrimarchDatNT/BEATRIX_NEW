@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$e;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -39,10 +38,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$e;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->h(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/animation/AnimatorSet;
@@ -51,7 +48,6 @@
 
     invoke-virtual {p1}, Landroid/animation/AnimatorSet;->start()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

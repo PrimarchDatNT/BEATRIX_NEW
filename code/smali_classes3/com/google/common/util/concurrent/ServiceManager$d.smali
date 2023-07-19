@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/f;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method synthetic constructor <init>(Lcom/google/common/util/concurrent/ServiceManager$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/util/concurrent/ServiceManager$d;-><init>()V
 
     return-void
@@ -38,7 +36,6 @@
 .method protected n()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/f;->v()V
 
     return-void
@@ -47,7 +44,6 @@
 .method protected o()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/f;->w()V
 
     return-void

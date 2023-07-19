@@ -26,7 +26,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;
 
     invoke-direct {v0}, Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;-><init>()V
@@ -43,15 +42,12 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroid/view/GestureDetector;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
 
-    .line 3
     iput-object p2, p0, Lcom/mopub/mobileads/ViewGestureDetector;->mGestureListener:Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/view/GestureDetector;->setIsLongpressEnabled(Z)V
 
     return-void
@@ -62,7 +58,6 @@
 .method public isClicked()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/ViewGestureDetector;->mGestureListener:Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;->isClicked()Z
@@ -75,7 +70,6 @@
 .method onResetUserClick()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/ViewGestureDetector;->mGestureListener:Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;->onResetUserClick()V
@@ -88,7 +82,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/ViewGestureDetector;->mGestureListener:Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;
 
     iput-boolean p1, v0, Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;->mIsClicked:Z
@@ -108,7 +101,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/ViewGestureDetector;->mGestureListener:Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;
 
     return-void

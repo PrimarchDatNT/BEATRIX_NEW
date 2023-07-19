@@ -99,28 +99,24 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/encoders/k/a;->b()Lcom/google/firebase/encoders/d;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/firebase/encoders/k/d;->e:Lcom/google/firebase/encoders/d;
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/encoders/k/b;->b()Lcom/google/firebase/encoders/g;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/firebase/encoders/k/d;->f:Lcom/google/firebase/encoders/g;
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/encoders/k/c;->b()Lcom/google/firebase/encoders/g;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/firebase/encoders/k/d;->g:Lcom/google/firebase/encoders/g;
 
-    .line 4
     new-instance v0, Lcom/google/firebase/encoders/k/d$b;
 
     const/4 v1, 0x0
@@ -135,48 +131,40 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/encoders/k/d;->a:Ljava/util/Map;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/encoders/k/d;->b:Ljava/util/Map;
 
-    .line 4
     sget-object v0, Lcom/google/firebase/encoders/k/d;->e:Lcom/google/firebase/encoders/d;
 
     iput-object v0, p0, Lcom/google/firebase/encoders/k/d;->c:Lcom/google/firebase/encoders/d;
 
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lcom/google/firebase/encoders/k/d;->d:Z
 
-    .line 6
     const-class v0, Ljava/lang/String;
 
     sget-object v1, Lcom/google/firebase/encoders/k/d;->f:Lcom/google/firebase/encoders/g;
 
     invoke-virtual {p0, v0, v1}, Lcom/google/firebase/encoders/k/d;->n(Ljava/lang/Class;Lcom/google/firebase/encoders/g;)Lcom/google/firebase/encoders/k/d;
 
-    .line 7
     const-class v0, Ljava/lang/Boolean;
 
     sget-object v1, Lcom/google/firebase/encoders/k/d;->g:Lcom/google/firebase/encoders/g;
 
     invoke-virtual {p0, v0, v1}, Lcom/google/firebase/encoders/k/d;->n(Ljava/lang/Class;Lcom/google/firebase/encoders/g;)Lcom/google/firebase/encoders/k/d;
 
-    .line 8
     const-class v0, Ljava/util/Date;
 
     sget-object v1, Lcom/google/firebase/encoders/k/d;->h:Lcom/google/firebase/encoders/k/d$b;
@@ -189,7 +177,6 @@
 .method static synthetic c(Lcom/google/firebase/encoders/k/d;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/encoders/k/d;->a:Ljava/util/Map;
 
     return-object p0
@@ -198,7 +185,6 @@
 .method static synthetic d(Lcom/google/firebase/encoders/k/d;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/encoders/k/d;->b:Ljava/util/Map;
 
     return-object p0
@@ -207,7 +193,6 @@
 .method static synthetic e(Lcom/google/firebase/encoders/k/d;)Lcom/google/firebase/encoders/d;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/encoders/k/d;->c:Lcom/google/firebase/encoders/d;
 
     return-object p0
@@ -216,7 +201,6 @@
 .method static synthetic f(Lcom/google/firebase/encoders/k/d;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/firebase/encoders/k/d;->d:Z
 
     return p0
@@ -230,7 +214,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/google/firebase/encoders/EncodingException;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -241,7 +224,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -269,7 +251,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1, p0}, Lcom/google/firebase/encoders/h;->o(Ljava/lang/String;)Lcom/google/firebase/encoders/h;
 
     return-void
@@ -283,7 +264,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p0
@@ -308,7 +288,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/firebase/encoders/k/d;->n(Ljava/lang/Class;Lcom/google/firebase/encoders/g;)Lcom/google/firebase/encoders/k/d;
 
     move-result-object p1
@@ -329,7 +308,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/firebase/encoders/k/d;->m(Ljava/lang/Class;Lcom/google/firebase/encoders/d;)Lcom/google/firebase/encoders/k/d;
 
     move-result-object p1
@@ -342,7 +320,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/encoders/k/d$a;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/encoders/k/d$a;-><init>(Lcom/google/firebase/encoders/k/d;)V
@@ -359,7 +336,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-interface {p1, p0}, Lcom/google/firebase/encoders/j/a;->a(Lcom/google/firebase/encoders/j/b;)V
 
     return-object p0
@@ -370,7 +346,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/firebase/encoders/k/d;->d:Z
 
     return-object p0
@@ -402,12 +377,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/encoders/k/d;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object p2, p0, Lcom/google/firebase/encoders/k/d;->b:Ljava/util/Map;
 
     invoke-interface {p2, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -441,12 +414,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/encoders/k/d;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object p2, p0, Lcom/google/firebase/encoders/k/d;->a:Ljava/util/Map;
 
     invoke-interface {p2, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -473,7 +444,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/encoders/k/d;->c:Lcom/google/firebase/encoders/d;
 
     return-object p0

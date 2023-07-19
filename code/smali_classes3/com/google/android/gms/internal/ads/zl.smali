@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p1
@@ -67,7 +65,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p1

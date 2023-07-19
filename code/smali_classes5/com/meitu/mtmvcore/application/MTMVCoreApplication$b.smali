@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;Lcom/meitu/mtmvcore/application/EGLContextDelegate;Ljava/util/concurrent/Semaphore;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$b;->c:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     iput-object p2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$b;->a:Lcom/meitu/mtmvcore/application/EGLContextDelegate;
@@ -50,19 +49,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$b;->c:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     iget-object v2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$b;->a:Lcom/meitu/mtmvcore/application/EGLContextDelegate;
 
     invoke-static {v1, v2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$1200(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;Lcom/meitu/mtmvcore/application/EGLContextDelegate;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$b;->b:Ljava/util/concurrent/Semaphore;
 
     invoke-virtual {v1}, Ljava/util/concurrent/Semaphore;->release()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

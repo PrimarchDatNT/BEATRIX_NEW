@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/mopub/common/UrlAction;-><init>(Ljava/lang/String;IZLcom/mopub/common/UrlAction$1;)V
 
     return-void
@@ -52,14 +51,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p3}, Lcom/mopub/common/UrlHandler;->shouldSkipShowMoPubBrowser()Z
 
     move-result p3
 
     if-nez p3, :cond_0
 
-    .line 2
     invoke-static {p1, p2, p4}, Lcom/mopub/common/util/Intents;->showMoPubBrowserForUrl(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;)V
 
     :cond_0
@@ -73,14 +70,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object p1
 
     const-string v0, "https"
 
-    .line 2
     invoke-virtual {v0, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1

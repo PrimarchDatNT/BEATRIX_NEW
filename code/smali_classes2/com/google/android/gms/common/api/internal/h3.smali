@@ -32,13 +32,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/h3;->a:Lcom/google/android/gms/common/api/a;
 
-    .line 3
     iput-boolean p2, p0, Lcom/google/android/gms/common/api/internal/h3;->b:Z
 
     return-void
@@ -47,7 +44,6 @@
 .method private final b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h3;->c:Lcom/google/android/gms/common/api/internal/i3;
 
     const-string v1, "Callbacks must be attached to a ClientConnectionHelper instance before connecting the client."
@@ -62,10 +58,8 @@
 .method public final Z(I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/h3;->b()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h3;->c:Lcom/google/android/gms/common/api/internal/i3;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/i$b;->Z(I)V
@@ -76,7 +70,6 @@
 .method public final a(Lcom/google/android/gms/common/api/internal/i3;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/h3;->c:Lcom/google/android/gms/common/api/internal/i3;
 
     return-void
@@ -89,10 +82,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/h3;->b()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h3;->c:Lcom/google/android/gms/common/api/internal/i3;
 
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/h3;->a:Lcom/google/android/gms/common/api/a;
@@ -111,10 +102,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/h3;->b()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h3;->c:Lcom/google/android/gms/common/api/internal/i3;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/i$b;->s(Landroid/os/Bundle;)V

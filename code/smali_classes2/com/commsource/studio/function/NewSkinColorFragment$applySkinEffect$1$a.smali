@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a;->a:Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1;->this$0:Lcom/commsource/studio/function/NewSkinColorFragment;
@@ -67,7 +66,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -81,7 +79,6 @@
 
     const/16 v4, 0x5e
 
-    .line 3
     invoke-static {v4}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v5
@@ -96,7 +93,6 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a$a;-><init>(Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a;)V
@@ -105,10 +101,8 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a;->a:Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1;->this$0:Lcom/commsource/studio/function/NewSkinColorFragment;
@@ -135,7 +129,6 @@
 
     invoke-static/range {v5 .. v11}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a;->a:Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1;->this$0:Lcom/commsource/studio/function/NewSkinColorFragment;
@@ -156,7 +149,6 @@
 
     invoke-static/range {v5 .. v11}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

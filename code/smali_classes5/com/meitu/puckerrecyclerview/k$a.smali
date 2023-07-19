@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/meitu/puckerrecyclerview/k;Ljava/util/List;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/k$a;->b:Lcom/meitu/puckerrecyclerview/k;
 
     iput-object p2, p0, Lcom/meitu/puckerrecyclerview/k$a;->a:Ljava/util/List;
@@ -43,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -58,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/k$a;->b:Lcom/meitu/puckerrecyclerview/k;
 
     invoke-static {v1}, Lcom/meitu/puckerrecyclerview/k;->a(Lcom/meitu/puckerrecyclerview/k;)Ljava/util/List;
@@ -93,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/k$a;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -112,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/k$a;->b:Lcom/meitu/puckerrecyclerview/k;
 
     invoke-static {v1}, Lcom/meitu/puckerrecyclerview/k;->a(Lcom/meitu/puckerrecyclerview/k;)Ljava/util/List;

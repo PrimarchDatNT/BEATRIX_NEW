@@ -83,7 +83,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/LayerManagerLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -106,7 +105,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/LayerManagerLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -127,17 +125,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
-    .line 5
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -148,88 +143,72 @@
 
     new-array p1, p1, [I
 
-    .line 6
     fill-array-data p1, :array_0
 
     iput-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->d:[I
 
     const/16 p1, 0x50
 
-    .line 7
     invoke-static {p1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/studio/LayerManagerLayout;->f:I
 
-    .line 8
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->g:Landroid/graphics/Paint;
 
-    .line 9
     new-instance p1, Landroid/text/TextPaint;
 
     invoke-direct {p1}, Landroid/text/TextPaint;-><init>()V
 
-    .line 10
     sget-object p2, Landroid/graphics/Paint$Align;->CENTER:Landroid/graphics/Paint$Align;
 
     invoke-virtual {p1, p2}, Landroid/text/TextPaint;->setTextAlign(Landroid/graphics/Paint$Align;)V
 
     const/high16 p2, -0x1000000
 
-    .line 11
     invoke-virtual {p1, p2}, Landroid/text/TextPaint;->setColor(I)V
 
     const/16 p2, 0xb
 
-    .line 12
     invoke-static {p2}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p2
 
     invoke-virtual {p1, p2}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    .line 13
     iput-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->p:Landroid/text/TextPaint;
 
     const/4 p1, -0x1
 
-    .line 14
     iput p1, p0, Lcom/commsource/studio/LayerManagerLayout;->J:I
 
-    .line 15
     new-instance p1, Lcom/commsource/util/p0;
 
     invoke-direct {p1}, Lcom/commsource/util/p0;-><init>()V
 
-    .line 16
     new-instance p2, Lcom/commsource/studio/LayerManagerLayout$$special$$inlined$apply$lambda$1;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/LayerManagerLayout$$special$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/LayerManagerLayout;)V
 
     invoke-virtual {p1, p2}, Lcom/commsource/util/p0;->j(Lcotlin/jvm/u/l;)V
 
-    .line 17
     iput-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->K:Lcom/commsource/util/p0;
 
     const/high16 p1, -0x10000
 
-    .line 18
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->setBackgroundColor(I)V
 
     const/4 p1, 0x0
 
-    .line 19
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->setWillNotDraw(Z)V
 
-    .line 20
     invoke-virtual {p0}, Lcom/commsource/studio/LayerManagerLayout;->j()V
 
-    .line 21
     new-instance p1, Lcom/commsource/studio/i;
 
     new-instance p2, Lcom/commsource/studio/LayerManagerLayout$a;
@@ -257,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/LayerManagerLayout;->K:Lcom/commsource/util/p0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -272,7 +250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/LayerManagerLayout;->k()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -287,7 +264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->K:Lcom/commsource/util/p0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -302,10 +278,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->postInvalidate()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -397,10 +371,8 @@
 
     if-ne p1, v1, :cond_4
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -425,7 +397,6 @@
 
     move-result v4
 
-    .line 3
     iget-object v5, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -449,12 +420,10 @@
 
     if-eqz v5, :cond_0
 
-    .line 4
     iget v5, p0, Lcom/commsource/studio/LayerManagerLayout;->J:I
 
     if-eq v5, v4, :cond_2
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -481,7 +450,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     iget-object v5, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
@@ -513,7 +481,6 @@
 
     invoke-virtual {v4, v3, v1, v5, v6}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 7
     :cond_3
     :goto_1
     iget v4, p0, Lcom/commsource/studio/LayerManagerLayout;->f:I
@@ -522,7 +489,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
@@ -536,7 +502,6 @@
 
     move-result v1
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -558,12 +523,10 @@
 
     move-result-object p1
 
-    .line 10
     iget v4, p0, Lcom/commsource/studio/LayerManagerLayout;->f:I
 
     mul-int v4, v4, v1
 
-    .line 11
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v5
@@ -574,12 +537,10 @@
 
     invoke-virtual {p1, v3, v4, v5, v6}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 12
     iget v4, p1, Landroid/graphics/Rect;->bottom:I
 
     add-int/lit8 v5, v1, 0x1
 
-    .line 13
     iget-object v6, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
     invoke-interface {v6}, Ljava/util/List;->size()I
@@ -589,7 +550,6 @@
     :goto_2
     if-ge v5, v6, :cond_a
 
-    .line 14
     iget-object v7, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
     invoke-interface {v7, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -602,7 +562,6 @@
 
     move-result v7
 
-    .line 15
     iget-object v8, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -626,12 +585,10 @@
 
     if-eqz v8, :cond_9
 
-    .line 16
     iget v8, p0, Lcom/commsource/studio/LayerManagerLayout;->J:I
 
     if-eq v8, v7, :cond_7
 
-    .line 17
     iget-object v8, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -658,7 +615,6 @@
 
     goto :goto_3
 
-    .line 18
     :cond_7
     iget-object v8, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
@@ -690,7 +646,6 @@
 
     invoke-virtual {v7, v3, v4, v8, v9}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 19
     :cond_8
     :goto_3
     iget v7, p0, Lcom/commsource/studio/LayerManagerLayout;->f:I
@@ -702,7 +657,6 @@
 
     goto :goto_2
 
-    .line 20
     :cond_a
     iget p1, p1, Landroid/graphics/Rect;->top:I
 
@@ -715,7 +669,6 @@
     :goto_4
     if-ltz v1, :cond_f
 
-    .line 21
     iget-object v4, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
     invoke-interface {v4, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -728,7 +681,6 @@
 
     move-result v4
 
-    .line 22
     iget-object v5, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -752,12 +704,10 @@
 
     if-eqz v5, :cond_e
 
-    .line 23
     iget v5, p0, Lcom/commsource/studio/LayerManagerLayout;->J:I
 
     if-eq v5, v4, :cond_c
 
-    .line 24
     iget-object v5, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -784,7 +734,6 @@
 
     goto :goto_5
 
-    .line 25
     :cond_c
     iget-object v5, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
@@ -816,7 +765,6 @@
 
     invoke-virtual {v4, v3, p1, v5, v6}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 26
     :cond_d
     :goto_5
     iget v4, p0, Lcom/commsource/studio/LayerManagerLayout;->f:I
@@ -828,7 +776,6 @@
 
     goto :goto_4
 
-    .line 27
     :cond_f
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -842,7 +789,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -855,7 +801,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/LayerManagerLayout;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -881,7 +826,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -898,7 +842,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->d:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -913,7 +856,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/LayerManagerLayout;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -930,7 +872,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->g:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -945,7 +886,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/LayerManagerLayout;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -962,7 +902,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->p:Landroid/text/TextPaint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -977,7 +916,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -1012,7 +950,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1035,7 +972,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1057,12 +993,10 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Landroid/graphics/Rect;
 
     invoke-direct {v2, v1}, Landroid/graphics/Rect;-><init>(Landroid/graphics/Rect;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->g:Landroid/graphics/Paint;
 
     sget-object v3, Lcom/commsource/home/c;->y:Lcom/commsource/home/c;
@@ -1075,19 +1009,16 @@
 
     const/4 v1, 0x0
 
-    .line 4
     iget v3, p0, Lcom/commsource/studio/LayerManagerLayout;->a:I
 
     neg-int v3, v3
 
     invoke-virtual {v2, v1, v3}, Landroid/graphics/Rect;->offset(II)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->g:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v2, v1}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
-    .line 6
     invoke-static {p2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p2
@@ -1108,7 +1039,6 @@
 
     invoke-virtual {p1, p2, v1, v2, v3}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1125,16 +1055,13 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1156,7 +1083,6 @@
 
     move-result v2
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1184,7 +1110,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1202,7 +1127,6 @@
     :cond_3
     const/4 p1, -0x1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1219,7 +1143,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Lcotlin/collections/k;->Cy([I)Ljava/util/List;
@@ -1228,7 +1151,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1254,7 +1176,6 @@
 
     move-result v4
 
-    .line 3
     iget-object v5, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1275,20 +1196,16 @@
 
     invoke-direct {v6, v2, v3, v7, v8}, Lcom/commsource/studio/o0;-><init>(IIII)V
 
-    .line 4
     invoke-virtual {v6, p0}, Lcom/commsource/studio/o0;->k(Landroid/view/View;)V
 
-    .line 5
     invoke-interface {v5, v4, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     iget v4, p0, Lcom/commsource/studio/LayerManagerLayout;->f:I
 
     add-int/2addr v3, v4
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1319,10 +1236,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1346,7 +1261,6 @@
 
     move-result v3
 
-    .line 3
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -1365,7 +1279,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1387,13 +1300,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1416,17 +1326,14 @@
 
     move-result v2
 
-    .line 4
     iget v3, p0, Lcom/commsource/studio/LayerManagerLayout;->J:I
 
     if-eq v2, v3, :cond_0
 
-    .line 5
     invoke-virtual {p0, p1, v2}, Lcom/commsource/studio/LayerManagerLayout;->h(Landroid/graphics/Canvas;I)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget v1, p0, Lcom/commsource/studio/LayerManagerLayout;->J:I
 
@@ -1434,10 +1341,8 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 7
     invoke-virtual {p0, p1, v1}, Lcom/commsource/studio/LayerManagerLayout;->h(Landroid/graphics/Canvas;I)V
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1459,12 +1364,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManagerLayout;->L:Lcom/commsource/studio/i;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/i;->C(Landroid/view/MotionEvent;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -1479,7 +1382,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/LayerManagerLayout;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1510,7 +1412,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->c:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1533,7 +1434,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->d:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1548,7 +1448,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/LayerManagerLayout;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1571,7 +1470,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->g:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1586,7 +1484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/LayerManagerLayout;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1609,7 +1506,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->p:Landroid/text/TextPaint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1641,7 +1537,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManagerLayout;->b:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

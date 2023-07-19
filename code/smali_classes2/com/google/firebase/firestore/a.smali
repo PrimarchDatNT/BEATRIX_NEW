@@ -28,10 +28,8 @@
 .method private constructor <init>(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/a;->a:Lcom/google/protobuf/ByteString;
 
     return-void
@@ -54,10 +52,8 @@
 
     const-string v0, "Provided ByteString must not be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/a;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/firestore/a;-><init>(Lcom/google/protobuf/ByteString;)V
@@ -79,10 +75,8 @@
 
     const-string v0, "Provided bytes array must not be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/a;
 
     invoke-static {p0}, Lcom/google/protobuf/ByteString;->copyFrom([B)Lcom/google/protobuf/ByteString;
@@ -105,7 +99,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/a;->a:Lcom/google/protobuf/ByteString;
 
     invoke-virtual {v0}, Lcom/google/protobuf/ByteString;->size()I
@@ -127,7 +120,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/firestore/a;->a:Lcom/google/protobuf/ByteString;
 
     invoke-virtual {v2, v1}, Lcom/google/protobuf/ByteString;->byteAt(I)B
@@ -136,7 +128,6 @@
 
     and-int/lit16 v2, v2, 0xff
 
-    .line 3
     iget-object v3, p1, Lcom/google/firebase/firestore/a;->a:Lcom/google/protobuf/ByteString;
 
     invoke-virtual {v3, v1}, Lcom/google/protobuf/ByteString;->byteAt(I)B
@@ -163,7 +154,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     iget-object v0, p0, Lcom/google/firebase/firestore/a;->a:Lcom/google/protobuf/ByteString;
 
@@ -193,7 +183,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/firebase/firestore/a;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/a;->a(Lcom/google/firebase/firestore/a;)I
@@ -210,7 +199,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/a;
 
     if-eqz v0, :cond_0
@@ -249,7 +237,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/a;->a:Lcom/google/protobuf/ByteString;
 
     return-object v0
@@ -258,7 +245,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/a;->a:Lcom/google/protobuf/ByteString;
 
     invoke-virtual {v0}, Lcom/google/protobuf/ByteString;->hashCode()I
@@ -276,7 +262,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/a;->a:Lcom/google/protobuf/ByteString;
 
     invoke-virtual {v0}, Lcom/google/protobuf/ByteString;->toByteArray()[B
@@ -291,7 +276,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

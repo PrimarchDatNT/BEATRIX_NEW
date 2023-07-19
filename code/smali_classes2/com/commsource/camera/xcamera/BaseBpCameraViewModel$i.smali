@@ -55,14 +55,12 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$i;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->j0()Landroidx/lifecycle/MutableLiveData;
@@ -75,7 +73,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/commsource/beautyplus/t;->h:Lcom/commsource/beautyplus/t$a;
 
@@ -87,7 +84,6 @@
 
     invoke-virtual {v0, p2}, Lcom/commsource/beautyplus/t;->e(I)V
 
-    .line 4
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

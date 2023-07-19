@@ -27,17 +27,14 @@
 .method private constructor <init>(III)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/l1;-><init>()V
 
-    .line 2
     iput p2, p0, Lcotlin/g2/s;->a:I
 
     const/4 v0, 0x1
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {p1, p2}, Lcotlin/v1;->c(II)I
 
     move-result v2
@@ -59,14 +56,12 @@
     :goto_0
     iput-boolean v0, p0, Lcotlin/g2/s;->b:Z
 
-    .line 4
     invoke-static {p3}, Lcotlin/f1;->s(I)I
 
     move-result p3
 
     iput p3, p0, Lcotlin/g2/s;->c:I
 
-    .line 5
     iget-boolean p3, p0, Lcotlin/g2/s;->b:Z
 
     if-eqz p3, :cond_2
@@ -85,7 +80,6 @@
 .method public synthetic constructor <init>(IIILcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 6
     invoke-direct {p0, p1, p2, p3}, Lcotlin/g2/s;-><init>(III)V
 
     return-void
@@ -96,27 +90,22 @@
 .method public b()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlin/g2/s;->d:I
 
-    .line 2
     iget v1, p0, Lcotlin/g2/s;->a:I
 
     if-ne v0, v1, :cond_1
 
-    .line 3
     iget-boolean v1, p0, Lcotlin/g2/s;->b:Z
 
     if-eqz v1, :cond_0
 
     const/4 v1, 0x0
 
-    .line 4
     iput-boolean v1, p0, Lcotlin/g2/s;->b:Z
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -124,7 +113,6 @@
 
     throw v0
 
-    .line 6
     :cond_1
     iget v1, p0, Lcotlin/g2/s;->c:I
 
@@ -143,7 +131,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcotlin/g2/s;->b:Z
 
     return v0

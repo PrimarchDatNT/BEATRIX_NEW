@@ -83,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashSet;
 
     const/16 v2, 0x14
@@ -92,7 +91,6 @@
 
     sput-object v1, Lcom/meitu/library/abtest/l/r;->e:Ljava/util/HashSet;
 
-    .line 2
     new-instance v1, Lcom/meitu/library/abtest/l/r;
 
     const-wide/16 v2, 0x0
@@ -111,7 +109,6 @@
 
     sput-object v1, Lcom/meitu/library/abtest/l/r;->f:Lcom/meitu/library/abtest/l/r;
 
-    .line 3
     new-instance v1, Lcom/meitu/library/abtest/l/r;
 
     const-class v2, Ljava/lang/String;
@@ -141,24 +138,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/abtest/l/r;->a:Ljava/lang/String;
 
-    .line 3
     iput-boolean p2, p0, Lcom/meitu/library/abtest/l/r;->b:Z
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/library/abtest/l/r;->c:Ljava/lang/Object;
 
-    .line 5
     iput-object p4, p0, Lcom/meitu/library/abtest/l/r;->d:Ljava/lang/Class;
 
     if-eqz p2, :cond_0
 
-    .line 6
     sget-object p2, Lcom/meitu/library/abtest/l/r;->e:Ljava/util/HashSet;
 
     invoke-virtual {p2, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -174,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/abtest/l/r;->e:Ljava/util/HashSet;
 
     invoke-virtual {v1, p0}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z

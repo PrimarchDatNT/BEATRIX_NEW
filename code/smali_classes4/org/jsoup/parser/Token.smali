@@ -27,7 +27,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lorg/jsoup/parser/Token$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/parser/Token;-><init>()V
 
     return-void
@@ -49,7 +47,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/StringBuilder;->length()I
 
     move-result v1
@@ -65,7 +62,6 @@
 .method final a()Lorg/jsoup/parser/Token$c;
     .locals 1
 
-    .line 1
     move-object v0, p0
 
     check-cast v0, Lorg/jsoup/parser/Token$c;
@@ -76,7 +72,6 @@
 .method final b()Lorg/jsoup/parser/Token$d;
     .locals 1
 
-    .line 1
     move-object v0, p0
 
     check-cast v0, Lorg/jsoup/parser/Token$d;
@@ -87,7 +82,6 @@
 .method final c()Lorg/jsoup/parser/Token$e;
     .locals 1
 
-    .line 1
     move-object v0, p0
 
     check-cast v0, Lorg/jsoup/parser/Token$e;
@@ -98,7 +92,6 @@
 .method final d()Lorg/jsoup/parser/Token$g;
     .locals 1
 
-    .line 1
     move-object v0, p0
 
     check-cast v0, Lorg/jsoup/parser/Token$g;
@@ -109,7 +102,6 @@
 .method final e()Lorg/jsoup/parser/Token$h;
     .locals 1
 
-    .line 1
     move-object v0, p0
 
     check-cast v0, Lorg/jsoup/parser/Token$h;
@@ -120,7 +112,6 @@
 .method final f()Z
     .locals 1
 
-    .line 1
     instance-of v0, p0, Lorg/jsoup/parser/Token$b;
 
     return v0
@@ -129,7 +120,6 @@
 .method final g()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/Token;->a:Lorg/jsoup/parser/Token$TokenType;
 
     sget-object v1, Lorg/jsoup/parser/Token$TokenType;->Character:Lorg/jsoup/parser/Token$TokenType;
@@ -150,7 +140,6 @@
 .method final h()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/Token;->a:Lorg/jsoup/parser/Token$TokenType;
 
     sget-object v1, Lorg/jsoup/parser/Token$TokenType;->Comment:Lorg/jsoup/parser/Token$TokenType;
@@ -171,7 +160,6 @@
 .method final i()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/Token;->a:Lorg/jsoup/parser/Token$TokenType;
 
     sget-object v1, Lorg/jsoup/parser/Token$TokenType;->Doctype:Lorg/jsoup/parser/Token$TokenType;
@@ -192,7 +180,6 @@
 .method final j()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/Token;->a:Lorg/jsoup/parser/Token$TokenType;
 
     sget-object v1, Lorg/jsoup/parser/Token$TokenType;->EOF:Lorg/jsoup/parser/Token$TokenType;
@@ -213,7 +200,6 @@
 .method final k()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/Token;->a:Lorg/jsoup/parser/Token$TokenType;
 
     sget-object v1, Lorg/jsoup/parser/Token$TokenType;->EndTag:Lorg/jsoup/parser/Token$TokenType;
@@ -234,7 +220,6 @@
 .method final l()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/Token;->a:Lorg/jsoup/parser/Token$TokenType;
 
     sget-object v1, Lorg/jsoup/parser/Token$TokenType;->StartTag:Lorg/jsoup/parser/Token$TokenType;
@@ -258,7 +243,6 @@
 .method o()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0

@@ -19,25 +19,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/n/a/c/m/a;->a:Ljava/lang/String;
 
-    .line 3
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     move-result p1
 
     if-nez p1, :cond_1
 
-    .line 5
     invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
 
     move-result p1
@@ -46,7 +41,6 @@
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/io/IOException;
 
@@ -56,7 +50,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     invoke-virtual {v0}, Ljava/io/File;->isDirectory()Z
 
@@ -66,7 +59,6 @@
 
     return-void
 
-    .line 8
     :cond_2
     new-instance p1, Ljava/io/IOException;
 
@@ -83,12 +75,10 @@
     :try_start_0
     const-string v0, "SHA-1"
 
-    .line 1
     invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
 
     move-result-object p0
@@ -97,20 +87,17 @@
 
     move-result-object p0
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     array-length v2, p0
 
     if-ge v1, v2, :cond_0
 
-    .line 5
     aget-byte v2, p0, v1
 
     and-int/lit16 v2, v2, 0xff
@@ -135,7 +122,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
@@ -148,7 +134,6 @@
     :catch_0
     move-exception p0
 
-    .line 7
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p0, 0x0
@@ -159,7 +144,6 @@
 .method private d(Ljava/io/File;)Z
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/File;->lastModified()J
 
     move-result-wide v0
@@ -196,7 +180,6 @@
 .method public a(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lf/n/a/c/m/a;->a:Ljava/lang/String;
@@ -207,7 +190,6 @@
 
     invoke-direct {v0, v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
     return-void
@@ -216,7 +198,6 @@
 .method public b(Ljava/lang/String;[B)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lf/n/a/c/m/a;->a:Ljava/lang/String;
@@ -229,7 +210,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     :try_start_0
     new-instance v1, Ljava/io/FileOutputStream;
 
@@ -237,7 +217,6 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 3
     :try_start_1
     invoke-virtual {v1, p2}, Ljava/io/FileOutputStream;->write([B)V
     :try_end_1
@@ -257,14 +236,12 @@
 
     move-object p1, p2
 
-    .line 4
     :goto_0
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_1
     if-eqz v1, :cond_0
 
-    .line 5
     :try_start_2
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
     :try_end_2
@@ -275,7 +252,6 @@
     :catch_2
     move-exception p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_0
@@ -286,7 +262,6 @@
 .method public get(Ljava/lang/String;)[B
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lf/n/a/c/m/a;->a:Ljava/lang/String;
@@ -299,7 +274,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     :try_start_0
     invoke-direct {p0, v0}, Lf/n/a/c/m/a;->d(Ljava/io/File;)Z
 
@@ -307,12 +281,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
     return-object p1
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Ljava/io/File;->length()J
 
@@ -324,7 +296,6 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_2
 
-    .line 5
     :try_start_1
     new-instance v2, Ljava/io/FileInputStream;
 
@@ -332,7 +303,6 @@
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 6
     :try_start_2
     invoke-virtual {v2, v1}, Ljava/io/FileInputStream;->read([B)I
 
@@ -361,7 +331,6 @@
 
     move-object v2, v1
 
-    .line 7
     :goto_0
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
@@ -370,7 +339,6 @@
     :goto_1
     if-eqz v2, :cond_1
 
-    .line 8
     :try_start_3
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
     :try_end_3
@@ -381,7 +349,6 @@
     :catch_3
     move-exception v2
 
-    .line 9
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_1

@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
     :goto_0
     if-ge v1, p3, :cond_1
 
-    .line 1
     aget-object v3, p1, v1
 
     aget-object v4, p1, v2
@@ -62,7 +60,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -92,7 +89,6 @@
     :goto_0
     if-ge v1, p3, :cond_1
 
-    .line 1
     aget-object v3, p1, v1
 
     aget-object v4, p1, v2
@@ -110,7 +106,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -124,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/utils/e;->b:Lcom/meitu/flymedia/glx/utils/e;
 
     if-nez v1, :cond_0
@@ -135,7 +129,6 @@
 
     sput-object v1, Lcom/meitu/flymedia/glx/utils/e;->b:Lcom/meitu/flymedia/glx/utils/e;
 
-    .line 2
     :cond_0
     sget-object v1, Lcom/meitu/flymedia/glx/utils/e;->b:Lcom/meitu/flymedia/glx/utils/e;
 
@@ -162,12 +155,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/meitu/flymedia/glx/utils/e;->e([Ljava/lang/Object;Ljava/util/Comparator;II)I
 
     move-result p2
 
-    .line 2
     aget-object p1, p1, p2
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -199,7 +190,6 @@
 
     if-ne p3, v1, :cond_0
 
-    .line 1
     invoke-direct {p0, p1, p2, p4}, Lcom/meitu/flymedia/glx/utils/e;->b([Ljava/lang/Object;Ljava/util/Comparator;I)I
 
     move-result p1
@@ -209,14 +199,12 @@
     :cond_0
     if-ne p3, p4, :cond_1
 
-    .line 2
     invoke-direct {p0, p1, p2, p4}, Lcom/meitu/flymedia/glx/utils/e;->a([Ljava/lang/Object;Ljava/util/Comparator;I)I
 
     move-result p1
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/e;->a:Lcom/meitu/flymedia/glx/utils/d;
 
@@ -228,7 +216,6 @@
 
     iput-object v1, p0, Lcom/meitu/flymedia/glx/utils/e;->a:Lcom/meitu/flymedia/glx/utils/d;
 
-    .line 4
     :cond_2
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/e;->a:Lcom/meitu/flymedia/glx/utils/d;
 
@@ -236,13 +223,11 @@
 
     move-result p1
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 6
     :cond_3
     new-instance p1, Lcom/meitu/flymedia/glx/utils/GlxRuntimeException;
 
@@ -272,7 +257,6 @@
 
     throw p1
 
-    .line 7
     :cond_4
     new-instance p1, Lcom/meitu/flymedia/glx/utils/GlxRuntimeException;
 

@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$b;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment;
 
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isFullScreen()Z
@@ -66,7 +65,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment;->O(Z)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -80,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$b;->a(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V

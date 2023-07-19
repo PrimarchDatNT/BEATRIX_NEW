@@ -65,7 +65,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lorg/greenrobot/greendao/n/d;->f()V
 
     return-void
@@ -83,7 +82,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lorg/greenrobot/greendao/n/d;-><init>(Ljava/lang/Class;Z)V
 
     return-void
@@ -99,10 +97,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p2}, Lorg/greenrobot/greendao/n/h;-><init>(Z)V
 
-    .line 3
     iput-object p1, p0, Lorg/greenrobot/greendao/n/d;->f:Ljava/lang/Class;
 
     return-void
@@ -111,7 +107,6 @@
 .method private static synthetic f()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lorg/greenrobot/greendao/n/d;
@@ -156,7 +151,6 @@
 .method static final synthetic h(Lorg/greenrobot/greendao/n/d;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -169,17 +163,14 @@
 .method protected g()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/n/d;->j:Lorg/greenrobot/greendao/identityscope/a;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lorg/greenrobot/greendao/identityscope/a;->clear()V
 
     const-string v0, "Identity scope cleared"
 
-    .line 3
     invoke-static {v0}, Lorg/greenrobot/greendao/d;->a(Ljava/lang/String;)I
 
     goto :goto_0
@@ -187,7 +178,6 @@
     :cond_0
     const-string v0, "No identity scope to clear"
 
-    .line 4
     invoke-static {v0}, Lorg/greenrobot/greendao/d;->a(Ljava/lang/String;)I
 
     :goto_0
@@ -197,7 +187,6 @@
 .method protected i()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/n/d;->g:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->D()Ljava/lang/String;
@@ -219,7 +208,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/greenrobot/greendao/n/d;->j:Lorg/greenrobot/greendao/identityscope/a;
 
     return-void
@@ -233,7 +221,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/greenrobot/greendao/n/d;->f:Ljava/lang/Class;
 
@@ -263,7 +250,6 @@
 
     new-array v3, v2, [Ljava/lang/Object;
 
-    .line 2
     iget-object v4, p0, Lorg/greenrobot/greendao/n/h;->c:Lorg/greenrobot/greendao/database/a;
 
     aput-object v4, v3, v5
@@ -319,7 +305,6 @@
     :catch_0
     const-string v0, "No createTable method"
 
-    .line 3
     invoke-static {v0}, Lorg/greenrobot/greendao/d;->f(Ljava/lang/String;)I
 
     :goto_0
@@ -334,14 +319,11 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lorg/greenrobot/greendao/n/h;->setUp()V
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lorg/greenrobot/greendao/n/d;->k()V
 
-    .line 3
     new-instance v0, Lorg/greenrobot/greendao/g;
 
     iget-object v1, p0, Lorg/greenrobot/greendao/n/h;->c:Lorg/greenrobot/greendao/database/a;
@@ -354,7 +336,6 @@
 
     iput-object v0, p0, Lorg/greenrobot/greendao/n/d;->h:Lorg/greenrobot/greendao/g;
 
-    .line 4
     invoke-virtual {v0}, Lorg/greenrobot/greendao/g;->a()Lorg/greenrobot/greendao/a;
 
     move-result-object v0
@@ -368,7 +349,6 @@
     :catch_0
     move-exception v0
 
-    .line 5
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "Could not prepare DAO Test"

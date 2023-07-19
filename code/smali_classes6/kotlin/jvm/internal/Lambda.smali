@@ -30,7 +30,6 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcotlin/jvm/internal/Lambda;->arity:I
@@ -43,7 +42,6 @@
 .method public getArity()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/jvm/internal/Lambda;->arity:I
 
     return v0
@@ -54,7 +52,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/jvm/internal/n0;->u(Lcotlin/jvm/internal/Lambda;)Ljava/lang/String;
 
     move-result-object v0

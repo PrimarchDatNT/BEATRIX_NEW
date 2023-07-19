@@ -25,7 +25,6 @@
 
     iput-object p1, p0, Lcom/commsource/home/NewHomeActivity$t;->a:Lcom/commsource/home/NewHomeActivity;
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
 
     return-void
@@ -48,12 +47,10 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/home/NewHomeActivity$t;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {p3}, Lcom/commsource/home/NewHomeActivity;->N0(Lcom/commsource/home/NewHomeActivity;)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/home/NewHomeActivity$t;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {p3}, Lcom/commsource/home/NewHomeActivity;->T0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/home/b;
@@ -62,7 +59,6 @@
 
     invoke-virtual {p3, p1}, Lcom/commsource/home/b;->f(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

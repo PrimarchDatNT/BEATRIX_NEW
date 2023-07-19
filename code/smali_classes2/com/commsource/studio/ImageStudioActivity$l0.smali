@@ -58,7 +58,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     sget-object v1, Lcom/commsource/studio/z;->a:[I
 
@@ -74,7 +73,6 @@
 
     goto :goto_0
 
-    .line 2
     :pswitch_0
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$l0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -86,7 +84,6 @@
 
     goto :goto_0
 
-    .line 3
     :pswitch_1
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$l0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -96,7 +93,6 @@
 
     goto :goto_0
 
-    .line 4
     :pswitch_2
     sget-object p1, Lcom/commsource/studio/function/SegmentFragment;->u0:Lcom/commsource/studio/function/SegmentFragment$a;
 
@@ -104,7 +100,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/studio/function/SegmentFragment$a;->b(Ljava/lang/String;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$l0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -125,7 +120,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_3
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$l0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -147,7 +141,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_4
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$l0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -169,7 +162,6 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_5
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$l0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -181,7 +173,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->w()V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -207,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/gesture/AdjustOptEnum;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$l0;->a(Lcom/commsource/studio/gesture/AdjustOptEnum;)V

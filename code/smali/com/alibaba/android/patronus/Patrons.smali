@@ -25,7 +25,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {v0}, Lcom/alibaba/android/patronus/_Patrons;->dumpNativeLogs(Z)Ljava/lang/String;
 
     move-result-object v0
@@ -47,7 +45,6 @@
 .method public static getRegionSpaceSize()J
     .locals 2
 
-    .line 1
     sget-boolean v0, Lcom/alibaba/android/patronus/Patrons;->hasInit:Z
 
     if-nez v0, :cond_0
@@ -56,7 +53,6 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->getCurrentRegionSpaceSize()J
 
@@ -68,12 +64,10 @@
 .method public static inBackground()V
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/alibaba/android/patronus/Patrons;->hasInit:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->inBackground()V
 
     :cond_0
@@ -83,14 +77,12 @@
 .method public static init(Landroid/content/Context;Lcom/alibaba/android/patronus/Patrons$PatronsConfig;)I
     .locals 2
 
-    .line 1
     sget-boolean v0, Lcom/alibaba/android/patronus/Patrons;->hasInit:Z
 
     const/4 v1, 0x0
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-static {p0, p1}, Lcom/alibaba/android/patronus/_Patrons;->init(Landroid/content/Context;Lcom/alibaba/android/patronus/Patrons$PatronsConfig;)I
 
     move-result p0
@@ -99,7 +91,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     :cond_0
     sput-boolean v1, Lcom/alibaba/android/patronus/Patrons;->hasInit:Z
 
@@ -112,7 +103,6 @@
 .method public static readVssSize()J
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->readVssSize()J
 
     move-result-wide v0
@@ -123,12 +113,10 @@
 .method public static shrinkRegionSpace(I)Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/alibaba/android/patronus/Patrons;->hasInit:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/alibaba/android/patronus/_Patrons;->shrinkRegionSpace(I)Z
 
     move-result p0
@@ -144,12 +132,10 @@
 .method public static toForeground()V
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/alibaba/android/patronus/Patrons;->hasInit:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->toForeground()V
 
     :cond_0

@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     sget-object v0, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
     const/16 v1, 0x64
@@ -44,13 +43,10 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/bumptech/glide/load/l/h/a;->a:Landroid/graphics/Bitmap$CompressFormat;
 
-    .line 4
     iput p2, p0, Lcom/bumptech/glide/load/l/h/a;->b:I
 
     return-void
@@ -84,12 +80,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance p2, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {p2}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Lcom/bumptech/glide/load/engine/s;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -102,10 +96,8 @@
 
     invoke-virtual {v0, v1, v2, p2}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
-    .line 3
     invoke-interface {p1}, Lcom/bumptech/glide/load/engine/s;->b()V
 
-    .line 4
     new-instance p1, Lcom/bumptech/glide/load/l/d/b;
 
     invoke-virtual {p2}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B

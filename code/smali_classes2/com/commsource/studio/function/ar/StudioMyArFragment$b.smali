@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/ar/StudioMyArFragment$b;->b(ILcom/meitu/template/bean/ArMaterial;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment$b;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioMyArFragment;->B()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -88,7 +86,6 @@
 
     invoke-virtual {v1, p2, v2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->A(Lcom/meitu/template/bean/ArMaterial;Lcom/meitu/template/bean/ArMaterialGroup;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

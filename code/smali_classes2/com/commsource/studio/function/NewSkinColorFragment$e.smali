@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/NewSkinColorFragment$e;->a:Lcom/commsource/studio/function/NewSkinColorFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -49,7 +48,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -62,7 +60,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -77,7 +74,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/NewSkinColorFragment$e;->a:Lcom/commsource/studio/function/NewSkinColorFragment;
 
     invoke-static {p3}, Lcom/commsource/studio/function/NewSkinColorFragment;->B1(Lcom/commsource/studio/function/NewSkinColorFragment;)Lcom/commsource/studio/processor/m;
@@ -86,7 +82,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 2
     invoke-virtual {p3}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v0
@@ -108,10 +103,8 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {p3, p1, v1, v0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     :cond_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -125,7 +118,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/function/NewSkinColorFragment$e;->a:Lcom/commsource/studio/function/NewSkinColorFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/function/NewSkinColorFragment;->B1(Lcom/commsource/studio/function/NewSkinColorFragment;)Lcom/commsource/studio/processor/m;
@@ -142,7 +134,6 @@
 
     invoke-static {p2, p3, v1, v0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

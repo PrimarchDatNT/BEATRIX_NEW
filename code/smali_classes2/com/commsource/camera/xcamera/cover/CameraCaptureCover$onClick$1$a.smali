@@ -51,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1$a;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1;->this$0:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
@@ -70,19 +69,16 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1$a;->b:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-virtual {v1}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->j()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 3
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1$a;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1;->this$0:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
@@ -95,17 +91,14 @@
 
     invoke-virtual {v2, v4, v1}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->D(ILandroid/graphics/Rect;)V
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
 
-    .line 6
     invoke-virtual {v1}, Landroid/graphics/Rect;->height()I
 
     move-result v4
 
-    .line 7
     invoke-virtual {v1}, Landroid/graphics/Rect;->width()I
 
     move-result v5
@@ -114,21 +107,18 @@
 
     const/4 v7, 0x0
 
-    .line 8
     invoke-static/range {v2 .. v7}, Lcom/commsource/util/common/e;->b(Landroid/content/Context;Ljava/lang/String;IIZZ)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 9
     new-instance v2, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1$a$a;
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1$a$a;-><init>(Landroid/graphics/Bitmap;Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1$a;)V
 
     invoke-static {v2}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

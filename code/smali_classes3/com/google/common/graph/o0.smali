@@ -43,10 +43,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -74,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/graph/o0$b;->a:[I
 
     invoke-virtual {p0}, Lcom/google/common/graph/ElementOrder;->h()Lcom/google/common/graph/ElementOrder$Type;
@@ -97,7 +94,6 @@
 
     if-ne v0, v3, :cond_0
 
-    .line 2
     new-instance p0, Lcom/google/common/graph/o0;
 
     new-instance v0, Ljava/util/LinkedHashMap;
@@ -108,7 +104,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/AssertionError;
 
@@ -120,7 +115,6 @@
 
     throw v0
 
-    .line 4
     :cond_1
     new-instance p0, Lcom/google/common/graph/o0;
 
@@ -149,7 +143,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/o0;
 
     invoke-static {p0}, Lcom/google/common/collect/ImmutableMap;->copyOf(Ljava/util/Map;)Lcom/google/common/collect/ImmutableMap;
@@ -173,7 +166,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/o0;->c()Ljava/util/Set;
 
     move-result-object v0
@@ -191,7 +183,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/o0;->c()Ljava/util/Set;
 
     move-result-object v0
@@ -209,7 +200,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/o0;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
@@ -231,7 +221,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/o0;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -249,7 +238,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/o0;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -267,7 +255,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/o0;->e(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
@@ -284,10 +271,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/o0;->a:Ljava/util/Map;
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -300,7 +285,6 @@
 
     invoke-direct {v1, p0, p1}, Lcom/google/common/graph/o0$a;-><init>(Lcom/google/common/graph/o0;Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/common/collect/Iterators;->c0(Ljava/util/Iterator;Lcom/google/common/base/n;)Ljava/util/Iterator;
 
     move-result-object p1
@@ -316,7 +300,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/o0;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -334,7 +317,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/graph/o0;->h(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void

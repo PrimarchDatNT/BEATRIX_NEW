@@ -37,7 +37,6 @@
 
     iput-object p5, p0, Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2$a$a;->h:Ljava/lang/String;
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/commsource/util/delegate/process/m;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -54,7 +53,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2$a$a;->g:Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2$a;
 
     iget-object p1, p1, Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2$a;->a:Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2;
@@ -63,7 +61,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/sharelink/ShareDialog;->Q()V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2$a$a;->g:Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2$a;
 
     iget-object p1, p1, Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2$a;->a:Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2;
@@ -82,7 +79,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -47,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/hwanalytics/firebase/b$d;->a:Landroid/database/sqlite/SQLiteDatabase;
 
     const-string v2, "user_properties_tb"
@@ -68,19 +67,16 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     const-string v3, "properties"
 
-    .line 3
     invoke-interface {v1, v3}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v3
 
-    .line 4
     :cond_0
     :goto_0
     invoke-interface {v1}, Landroid/database/Cursor;->moveToNext()Z
@@ -89,35 +85,28 @@
 
     if-eqz v4, :cond_1
 
-    .line 5
     invoke-interface {v1, v3}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 6
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
 
     if-nez v5, :cond_0
 
-    .line 7
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 8
     :cond_1
     :try_start_0
     sget-object v3, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    .line 9
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
-    .line 10
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    .line 11
     invoke-static {v1}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -135,7 +124,6 @@
 
     invoke-static {v1}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     :goto_1
     iget-object v1, p0, Lcom/meitu/library/hwanalytics/firebase/b$d;->b:Lcotlin/jvm/u/l;
 
@@ -147,7 +135,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 13
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

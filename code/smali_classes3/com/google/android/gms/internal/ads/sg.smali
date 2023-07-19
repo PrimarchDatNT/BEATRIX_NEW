@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ng;Ljava/lang/Thread$UncaughtExceptionHandler;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/sg;->b:Lcom/google/android/gms/internal/ads/ng;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/sg;->a:Ljava/lang/Thread$UncaughtExceptionHandler;
@@ -35,7 +34,6 @@
 
     move-result-object p2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/sg;->b:Lcom/google/android/gms/internal/ads/ng;
 
@@ -43,12 +41,10 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/sg;->a:Ljava/lang/Thread$UncaughtExceptionHandler;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {v0, p1, p2}, Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
 
     return-void
@@ -57,17 +53,14 @@
     :try_start_1
     const-string v0, "AdMob exception reporter failed reporting the exception."
 
-    .line 4
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/sg;->a:Ljava/lang/Thread$UncaughtExceptionHandler;
 
     if-eqz v0, :cond_0
 
-    .line 6
     invoke-interface {v0, p1, p2}, Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
 
     :cond_0
@@ -76,15 +69,12 @@
     :catchall_1
     move-exception v0
 
-    .line 7
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/sg;->a:Ljava/lang/Thread$UncaughtExceptionHandler;
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-interface {v1, p1, p2}, Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
 
-    .line 9
     :cond_1
     throw v0
 .end method

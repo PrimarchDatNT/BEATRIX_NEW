@@ -34,16 +34,12 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/advert/e;Landroid/content/Context;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/advert/e$a;->j:Lcom/commsource/beautyplus/advert/e;
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/commsource/camera/ardata/j;-><init>(Landroid/content/Context;)V
 
-    .line 3
     iput-object p3, p0, Lcom/commsource/beautyplus/advert/e$a;->h:Ljava/lang/String;
 
-    .line 4
     iput p4, p0, Lcom/commsource/beautyplus/advert/e$a;->i:I
 
     return-void
@@ -60,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "RequestArBusinessTask"
@@ -75,7 +70,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/advert/e$a;->h:Ljava/lang/String;
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -90,17 +84,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/ardata/j;->l(Lf/k/i/a/d;Ljava/lang/Exception;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/advert/e$a;->j:Lcom/commsource/beautyplus/advert/e;
 
     const-wide/16 v1, 0x0
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/beautyplus/advert/e;->n(J)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -117,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/beautyplus/advert/l/b;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautyplus/advert/e$a;->o(Landroid/content/Context;Lcom/commsource/beautyplus/advert/l/b;)V
@@ -138,17 +128,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/ardata/j;->m(Landroid/content/Context;Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/advert/e$a;->j:Lcom/commsource/beautyplus/advert/e;
 
     iget v1, p0, Lcom/commsource/beautyplus/advert/e$a;->i:I
 
     invoke-static {p1, v1, p2}, Lcom/commsource/beautyplus/advert/e;->b(Lcom/commsource/beautyplus/advert/e;ILcom/commsource/beautyplus/advert/l/b;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -30,12 +30,10 @@
 .method public final a(Lcom/google/android/gms/internal/ads/sw;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/dl;->a:Landroid/content/Context;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/dl;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v2
@@ -44,7 +42,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-interface {p1, v2, v1, v0}, Lcom/google/android/gms/internal/ads/sw;->Z3(Lcom/google/android/gms/dynamic/d;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void

@@ -60,12 +60,10 @@
 .method public constructor <init>(Lorg/apache/http/io/SessionInputBuffer;Lorg/apache/http/message/LineParser;Lorg/apache/http/config/MessageConstraints;)V
     .locals 1
 
-    .line 9
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Session input buffer"
 
-    .line 10
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -78,7 +76,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     sget-object p2, Lorg/apache/http/message/BasicLineParser;->INSTANCE:Lorg/apache/http/message/BasicLineParser;
 
@@ -89,14 +86,12 @@
 
     goto :goto_1
 
-    .line 12
     :cond_1
     sget-object p3, Lorg/apache/http/config/MessageConstraints;->DEFAULT:Lorg/apache/http/config/MessageConstraints;
 
     :goto_1
     iput-object p3, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->messageConstraints:Lorg/apache/http/config/MessageConstraints;
 
-    .line 13
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -105,7 +100,6 @@
 
     const/4 p1, 0x0
 
-    .line 14
     iput p1, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->state:I
 
     return-void
@@ -116,23 +110,18 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Session input buffer"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "HTTP parameters"
 
-    .line 3
     invoke-static {p3, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 4
     iput-object p1, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->sessionBuffer:Lorg/apache/http/io/SessionInputBuffer;
 
-    .line 5
     invoke-static {p3}, Lorg/apache/http/params/HttpParamConfig;->getMessageConstraints(Lorg/apache/http/params/HttpParams;)Lorg/apache/http/config/MessageConstraints;
 
     move-result-object p1
@@ -143,14 +132,12 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     sget-object p2, Lorg/apache/http/message/BasicLineParser;->INSTANCE:Lorg/apache/http/message/BasicLineParser;
 
     :goto_0
     iput-object p2, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->lineParser:Lorg/apache/http/message/LineParser;
 
-    .line 7
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -159,7 +146,6 @@
 
     const/4 p1, 0x0
 
-    .line 8
     iput p1, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->state:I
 
     return-void
@@ -174,7 +160,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -183,7 +168,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p3, Lorg/apache/http/message/BasicLineParser;->INSTANCE:Lorg/apache/http/message/BasicLineParser;
 
@@ -219,17 +203,14 @@
 
     const-string v0, "Session input buffer"
 
-    .line 3
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Line parser"
 
-    .line 4
     invoke-static {p3, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Header line list"
 
-    .line 5
     invoke-static {p4, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const/4 v0, 0x0
@@ -242,7 +223,6 @@
     :goto_0
     if-nez v1, :cond_1
 
-    .line 6
     new-instance v1, Lorg/apache/http/util/CharArrayBuffer;
 
     const/16 v3, 0x40
@@ -251,11 +231,9 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     invoke-virtual {v1}, Lorg/apache/http/util/CharArrayBuffer;->clear()V
 
-    .line 8
     :goto_1
     invoke-interface {p0, v1}, Lorg/apache/http/io/SessionInputBuffer;->readLine(Lorg/apache/http/util/CharArrayBuffer;)I
 
@@ -267,7 +245,6 @@
 
     if-eq v3, v4, :cond_a
 
-    .line 9
     invoke-virtual {v1}, Lorg/apache/http/util/CharArrayBuffer;->length()I
 
     move-result v3
@@ -278,7 +255,6 @@
 
     goto :goto_6
 
-    .line 10
     :cond_2
     invoke-virtual {v1, v5}, Lorg/apache/http/util/CharArrayBuffer;->charAt(I)C
 
@@ -299,7 +275,6 @@
     :cond_3
     if-eqz v2, :cond_8
 
-    .line 11
     :goto_2
     invoke-virtual {v1}, Lorg/apache/http/util/CharArrayBuffer;->length()I
 
@@ -307,7 +282,6 @@
 
     if-ge v5, v3, :cond_5
 
-    .line 12
     invoke-virtual {v1, v5}, Lorg/apache/http/util/CharArrayBuffer;->charAt(I)C
 
     move-result v3
@@ -327,7 +301,6 @@
     :goto_3
     if-lez p2, :cond_7
 
-    .line 13
     invoke-virtual {v2}, Lorg/apache/http/util/CharArrayBuffer;->length()I
 
     move-result v3
@@ -346,7 +319,6 @@
 
     goto :goto_4
 
-    .line 14
     :cond_6
     new-instance p0, Lorg/apache/http/MessageConstraintException;
 
@@ -356,12 +328,10 @@
 
     throw p0
 
-    .line 15
     :cond_7
     :goto_4
     invoke-virtual {v2, v7}, Lorg/apache/http/util/CharArrayBuffer;->append(C)V
 
-    .line 16
     invoke-virtual {v1}, Lorg/apache/http/util/CharArrayBuffer;->length()I
 
     move-result v3
@@ -372,7 +342,6 @@
 
     goto :goto_5
 
-    .line 17
     :cond_8
     invoke-interface {p4, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -383,7 +352,6 @@
     :goto_5
     if-lez p1, :cond_0
 
-    .line 18
     invoke-interface {p4}, Ljava/util/List;->size()I
 
     move-result v3
@@ -392,7 +360,6 @@
 
     goto :goto_0
 
-    .line 19
     :cond_9
     new-instance p0, Lorg/apache/http/MessageConstraintException;
 
@@ -402,7 +369,6 @@
 
     throw p0
 
-    .line 20
     :cond_a
     :goto_6
     invoke-interface {p4}, Ljava/util/List;->size()I
@@ -411,7 +377,6 @@
 
     new-array p0, p0, [Lorg/apache/http/Header;
 
-    .line 21
     :goto_7
     invoke-interface {p4}, Ljava/util/List;->size()I
 
@@ -419,14 +384,12 @@
 
     if-ge v5, p1, :cond_b
 
-    .line 22
     invoke-interface {p4, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lorg/apache/http/util/CharArrayBuffer;
 
-    .line 23
     :try_start_0
     invoke-interface {p3, p1}, Lorg/apache/http/message/LineParser;->parseHeader(Lorg/apache/http/util/CharArrayBuffer;)Lorg/apache/http/Header;
 
@@ -443,7 +406,6 @@
     :catch_0
     move-exception p0
 
-    .line 24
     new-instance p1, Lorg/apache/http/ProtocolException;
 
     invoke-virtual {p0}, Ljava/lang/RuntimeException;->getMessage()Ljava/lang/String;
@@ -475,7 +437,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->state:I
 
     const/4 v1, 0x1
@@ -486,7 +447,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -496,7 +456,6 @@
 
     throw v0
 
-    .line 3
     :cond_1
     :try_start_0
     iget-object v0, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->sessionBuffer:Lorg/apache/http/io/SessionInputBuffer;
@@ -509,10 +468,8 @@
     :try_end_0
     .catch Lorg/apache/http/ParseException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     iput v1, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->state:I
 
-    .line 5
     :goto_0
     iget-object v0, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->sessionBuffer:Lorg/apache/http/io/SessionInputBuffer;
 
@@ -536,27 +493,22 @@
 
     move-result-object v0
 
-    .line 6
     iget-object v1, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->message:Lorg/apache/http/HttpMessage;
 
     invoke-interface {v1, v0}, Lorg/apache/http/HttpMessage;->setHeaders([Lorg/apache/http/Header;)V
 
-    .line 7
     iget-object v0, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->message:Lorg/apache/http/HttpMessage;
 
     const/4 v1, 0x0
 
-    .line 8
     iput-object v1, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->message:Lorg/apache/http/HttpMessage;
 
-    .line 9
     iget-object v1, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->headerLines:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
     const/4 v1, 0x0
 
-    .line 10
     iput v1, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->state:I
 
     return-object v0
@@ -564,7 +516,6 @@
     :catch_0
     move-exception v0
 
-    .line 11
     new-instance v1, Lorg/apache/http/ProtocolException;
 
     invoke-virtual {v0}, Ljava/lang/RuntimeException;->getMessage()Ljava/lang/String;

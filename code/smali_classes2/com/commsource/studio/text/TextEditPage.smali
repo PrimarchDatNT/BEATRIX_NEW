@@ -55,7 +55,6 @@
 
     sput-object v1, Lcom/commsource/studio/text/TextEditPage;->f:Lcom/commsource/studio/text/TextEditPage$a;
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
@@ -64,7 +63,6 @@
 
     const/16 v2, 0x21
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -79,7 +77,6 @@
 
     const/16 v2, 0x22
 
-    .line 3
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -94,7 +91,6 @@
 
     const/16 v2, 0x24
 
-    .line 4
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -107,7 +103,6 @@
 
     invoke-interface {v1, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     sput-object v1, Lcom/commsource/studio/text/TextEditPage;->d:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -128,10 +123,8 @@
 
     sget v0, Lcom/res/provider/ResSTYLE;->TextEditPageDialog:I
 
-    .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/text/TextEditPage$mViewModel$2;
 
     invoke-direct {v0, p1}, Lcom/commsource/studio/text/TextEditPage$mViewModel$2;-><init>(Lcom/commsource/beautyplus/BaseActivity;)V
@@ -152,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/text/TextEditPage;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -167,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextEditPage;->d:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -182,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/text/TextEditPage;->f()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object p0
@@ -199,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/text/TextEditPage;->h(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -214,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextEditPage;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -249,12 +237,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextEditPage;->a:Lcom/commsource/beautyplus/f0/mm;
 
     if-eqz v1, :cond_4
 
-    .line 2
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/mm;->g:Landroid/widget/TextView;
 
     new-instance v3, Lcom/commsource/studio/text/TextEditPage$b;
@@ -263,7 +249,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/mm;->p:Landroid/widget/TextView;
 
     new-instance v3, Lcom/commsource/studio/text/TextEditPage$c;
@@ -272,7 +257,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/mm;->c:Lcom/commsource/widget/IconFrontView;
 
     new-instance v3, Lcom/commsource/studio/text/TextEditPage$d;
@@ -281,7 +265,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/mm;->b:Lcom/commsource/widget/IconFrontView;
 
     new-instance v3, Lcom/commsource/studio/text/TextEditPage$e;
@@ -290,7 +273,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/mm;->d:Lcom/commsource/widget/IconFrontView;
 
     new-instance v3, Lcom/commsource/studio/text/TextEditPage$f;
@@ -299,7 +281,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
 
     invoke-direct {p0}, Lcom/commsource/studio/text/TextEditPage;->f()Lcom/commsource/studio/text/TextViewModel;
@@ -332,7 +313,6 @@
     :goto_0
     invoke-virtual {v2, v3}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    .line 8
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
 
     const/4 v3, 0x0
@@ -341,7 +321,6 @@
 
     invoke-virtual {v2, v3, v4}, Landroid/widget/EditText;->setLineSpacing(FF)V
 
-    .line 9
     sget-object v2, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
     invoke-direct {p0}, Lcom/commsource/studio/text/TextEditPage;->f()Lcom/commsource/studio/text/TextViewModel;
@@ -378,7 +357,6 @@
 
     if-nez v2, :cond_2
 
-    .line 10
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -393,7 +371,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_2
     iget-object v4, v1, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
 
@@ -401,7 +378,6 @@
 
     invoke-virtual {v4, v2}, Landroid/widget/EditText;->setTypeface(Landroid/graphics/Typeface;)V
 
-    .line 12
     :goto_2
     invoke-direct {p0}, Lcom/commsource/studio/text/TextEditPage;->f()Lcom/commsource/studio/text/TextViewModel;
 
@@ -431,14 +407,12 @@
     :goto_3
     invoke-direct {p0, v2}, Lcom/commsource/studio/text/TextEditPage;->h(I)V
 
-    .line 13
     new-instance v2, Lcom/commsource/studio/text/TextEditPage$g;
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/studio/text/TextEditPage$g;-><init>(Lcom/commsource/beautyplus/f0/mm;Lcom/commsource/studio/text/TextEditPage;)V
 
     invoke-static {v2}, Lcom/commsource/util/g2;->g(Ljava/lang/Runnable;)V
 
-    .line 14
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -452,10 +426,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextEditPage;->c:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/text/TextEditPage;->a:Lcom/commsource/beautyplus/f0/mm;
 
     const/4 v2, -0x1
@@ -484,7 +456,6 @@
     :goto_0
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/text/TextEditPage;->a:Lcom/commsource/beautyplus/f0/mm;
 
@@ -510,7 +481,6 @@
     :goto_1
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 4
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/text/TextEditPage;->a:Lcom/commsource/beautyplus/f0/mm;
 
@@ -534,7 +504,6 @@
     :goto_2
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 5
     :cond_5
     iget-object p1, p0, Lcom/commsource/studio/text/TextEditPage;->a:Lcom/commsource/beautyplus/f0/mm;
 
@@ -572,7 +541,6 @@
     :goto_3
     invoke-virtual {p1, v1}, Landroid/widget/EditText;->setGravity(I)V
 
-    .line 6
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -610,23 +578,18 @@
 
     move-object v2, p1
 
-    .line 1
     invoke-static/range {v2 .. v9}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Dialog;->show()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/text/TextEditPage;->a:Lcom/commsource/beautyplus/f0/mm;
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
 
     invoke-virtual {v2}, Landroid/widget/EditText;->requestFocus()Z
 
-    .line 5
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
 
     new-instance v3, Lcom/commsource/studio/text/TextEditPage$h;
@@ -635,7 +598,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/EditText;->post(Ljava/lang/Runnable;)Z
 
-    .line 6
     :cond_0
     new-instance v1, Lcom/commsource/studio/text/TextEditPage$i;
 
@@ -643,7 +605,6 @@
 
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -660,17 +621,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->text_edit_page:I
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(I)V
 
     sget p1, Lcom/res/provider/ResID;->root:I
 
-    .line 3
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -683,7 +641,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/text/TextEditPage;->a:Lcom/commsource/beautyplus/f0/mm;
 
-    .line 4
     invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object p1
@@ -694,7 +651,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/Window;->setSoftInputMode(I)V
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
@@ -710,13 +666,10 @@
 
     const/4 v1, -0x1
 
-    .line 6
     iput v1, p1, Landroid/view/WindowManager$LayoutParams;->width:I
 
-    .line 7
     iput v1, p1, Landroid/view/WindowManager$LayoutParams;->height:I
 
-    .line 8
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
     move-result v1
@@ -725,12 +678,10 @@
 
     const/16 v1, 0x400
 
-    .line 9
     iput v1, p1, Landroid/view/WindowManager$LayoutParams;->flags:I
 
     goto :goto_0
 
-    .line 10
     :cond_1
     invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
@@ -738,7 +689,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->c0(Landroid/view/Window;)V
 
-    .line 11
     :cond_2
     :goto_0
     invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
@@ -751,11 +701,9 @@
 
     invoke-virtual {p1, v1}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 
-    .line 12
     :cond_3
     invoke-direct {p0}, Lcom/commsource/studio/text/TextEditPage;->g()V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

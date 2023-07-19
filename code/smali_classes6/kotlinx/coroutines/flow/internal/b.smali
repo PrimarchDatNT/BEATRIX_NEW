@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Lcotlinx/coroutines/flow/internal/ChannelFlowOperator;-><init>(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/CoroutineContext;I)V
 
     return-void
@@ -50,7 +49,6 @@
 
     if-eqz p5, :cond_0
 
-    .line 1
     sget-object p2, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     :cond_0
@@ -60,7 +58,6 @@
 
     const/4 p3, -0x3
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcotlinx/coroutines/flow/internal/b;-><init>(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/CoroutineContext;I)V
 
@@ -88,7 +85,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/internal/b;
 
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowOperator;->c:Lcotlinx/coroutines/flow/d;
@@ -124,7 +120,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowOperator;->c:Lcotlinx/coroutines/flow/d;
 
     invoke-interface {v0, p1, p2}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;

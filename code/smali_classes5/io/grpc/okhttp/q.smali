@@ -26,14 +26,12 @@
 
     new-array v0, v0, [Lio/grpc/okhttp/internal/Protocol;
 
-    .line 1
     sget-object v1, Lio/grpc/okhttp/internal/Protocol;->HTTP_2:Lio/grpc/okhttp/internal/Protocol;
 
     const/4 v2, 0x0
 
     aput-object v1, v0, v2
 
-    .line 2
     invoke-static {v0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
@@ -50,7 +48,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,7 +60,6 @@
 
     const-string v0, "["
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
@@ -78,7 +74,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -105,22 +100,18 @@
 
     const-string v0, "sslSocketFactory"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "socket"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "spec"
 
-    .line 3
     invoke-static {p5, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 v0, 0x1
 
-    .line 4
     invoke-virtual {p0, p2, p3, p4, v0}, Ljavax/net/ssl/SSLSocketFactory;->createSocket(Ljava/net/Socket;Ljava/lang/String;IZ)Ljava/net/Socket;
 
     move-result-object p0
@@ -129,15 +120,12 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-virtual {p5, p0, p2}, Lio/grpc/okhttp/internal/a;->c(Ljavax/net/ssl/SSLSocket;Z)V
 
-    .line 6
     invoke-static {}, Lio/grpc/okhttp/n;->e()Lio/grpc/okhttp/n;
 
     move-result-object p2
 
-    .line 7
     invoke-virtual {p5}, Lio/grpc/okhttp/internal/a;->j()Z
 
     move-result p4
@@ -151,16 +139,13 @@
     :cond_0
     const/4 p4, 0x0
 
-    .line 8
     :goto_0
     invoke-virtual {p2, p0, p3, p4}, Lio/grpc/okhttp/n;->h(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;Ljava/util/List;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 9
     sget-object p4, Lio/grpc/okhttp/q;->a:Ljava/util/List;
 
-    .line 10
     invoke-static {p2}, Lio/grpc/okhttp/internal/Protocol;->get(Ljava/lang/String;)Lio/grpc/okhttp/internal/Protocol;
 
     move-result-object p5
@@ -187,15 +172,12 @@
 
     move-result-object p4
 
-    .line 11
     invoke-static {p5, p4, p2}, Lcom/google/common/base/t;->x0(ZLjava/lang/String;Ljava/lang/Object;)V
 
     if-nez p1, :cond_1
 
-    .line 12
     sget-object p1, Lio/grpc/okhttp/internal/c;->a:Lio/grpc/okhttp/internal/c;
 
-    .line 13
     :cond_1
     invoke-static {p3}, Lio/grpc/okhttp/q;->a(Ljava/lang/String;)Ljava/lang/String;
 
@@ -213,7 +195,6 @@
 
     return-object p0
 
-    .line 14
     :cond_2
     new-instance p0, Ljavax/net/ssl/SSLPeerUnverifiedException;
 

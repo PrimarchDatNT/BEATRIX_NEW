@@ -33,7 +33,6 @@
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,7 +51,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object v0, v0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -65,14 +63,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiBeautyAfter(Landroid/graphics/Bitmap;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -81,7 +77,6 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setUserCancelAIBeauty(Z)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -111,7 +106,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
@@ -119,7 +113,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiBeautyAfter(Landroid/graphics/Bitmap;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -130,7 +123,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
@@ -139,7 +131,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiBeautyAfter(Landroid/graphics/Bitmap;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -148,7 +139,6 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiProcessState(I)V
 
-    .line 9
     :goto_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
@@ -164,7 +154,6 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 10
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -181,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -198,28 +186,24 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {p1, v4}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setUserCancelAIBeauty(Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {p1, v3}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiBeautyAfter(Landroid/graphics/Bitmap;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiProcessState(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a;
@@ -234,23 +218,19 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_0
     invoke-static {}, Lcom/commsource/util/q;->n()Lcom/commsource/util/q$c;
 
     move-result-object v1
 
-    .line 8
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
 
     move-result-object v5
 
-    .line 9
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v6
@@ -263,7 +243,6 @@
 
     check-cast p1, Lcom/commsource/backend/bean/a;
 
-    .line 10
     :try_start_0
     new-instance v6, Ljava/net/URL;
 
@@ -286,7 +265,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 11
     :try_start_1
     invoke-static {p1}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
 
@@ -294,14 +272,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 12
     invoke-virtual {v5}, Lcom/commsource/util/d2;->f()J
 
     move-result-wide v7
 
     iput-wide v7, v1, Lcom/commsource/util/q$c;->f:J
 
-    .line 13
     new-instance v5, Landroid/graphics/Point;
 
     const-string v7, "firstBitmap"
@@ -326,14 +302,12 @@
     :cond_1
     if-nez v6, :cond_2
 
-    .line 14
     invoke-static {p1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_2
     :try_start_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
@@ -344,7 +318,6 @@
 
     move-result-object v1
 
-    .line 16
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {v5}, Landroid/graphics/Bitmap;->getWidth()I
@@ -361,17 +334,14 @@
 
     move-result-object v5
 
-    .line 17
     iget-object v6, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object v6, v6, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
-    .line 18
     invoke-static {v5, v6}, Lcom/commsource/camera/d1/c;->d(Landroid/graphics/Bitmap;Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Lcom/commsource/camera/d1/e;
 
     move-result-object v5
 
-    .line 19
     iget-object v7, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object v7, v7, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -384,19 +354,16 @@
 
     move-result-object v5
 
-    .line 20
     invoke-virtual {v5, v1}, Lcom/commsource/camera/d1/e;->p(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/commsource/camera/d1/e;
 
     move-result-object v1
 
     const/4 v5, 0x1
 
-    .line 21
     invoke-virtual {v1, v4, v5}, Lcom/commsource/camera/d1/e;->l(ZZ)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    .line 22
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v5
@@ -417,16 +384,13 @@
 
     if-eqz v5, :cond_3
 
-    .line 23
     invoke-static {v1, v4}, Lcom/meitu/library/camera/util/l;->s(Landroid/graphics/Bitmap;Z)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    .line 24
     :cond_3
     invoke-virtual {v6, v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiBeautyAfter(Landroid/graphics/Bitmap;)V
 
-    .line 25
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -437,28 +401,24 @@
 
     if-eqz v1, :cond_4
 
-    .line 26
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v1, v4}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setUserCancelAIBeauty(Z)V
 
-    .line 27
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiBeautyAfter(Landroid/graphics/Bitmap;)V
 
-    .line 28
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiProcessState(I)V
 
-    .line 29
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a;
@@ -476,14 +436,12 @@
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 30
     invoke-static {p1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 31
     :cond_4
     :try_start_3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
@@ -506,14 +464,12 @@
 
     if-eqz v1, :cond_5
 
-    .line 32
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v1, v4}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiProcessState(I)V
 
-    .line 33
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a;
@@ -531,7 +487,6 @@
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 34
     invoke-static {p1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -562,7 +517,6 @@
     :cond_5
     invoke-static {p1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 35
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -571,14 +525,12 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiProcessState(I)V
 
-    .line 36
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {p1, v3}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiBeautyAfter(Landroid/graphics/Bitmap;)V
 
-    .line 37
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;->b:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a;
@@ -593,7 +545,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 38
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/commsource/widget/dialog/p0;Lcom/commsource/widget/VideoPlayView;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/p0$a;->c:Lcom/commsource/widget/dialog/p0;
 
     iput-object p2, p0, Lcom/commsource/widget/dialog/p0$a;->a:Lcom/commsource/widget/VideoPlayView;
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0$a;->c:Lcom/commsource/widget/dialog/p0;
 
     invoke-static {v1}, Lcom/commsource/widget/dialog/p0;->A(Lcom/commsource/widget/dialog/p0;)Landroid/widget/ImageView;
@@ -71,17 +69,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/dialog/m;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/dialog/m;-><init>(Lcom/commsource/widget/dialog/p0$a;)V
 
     const-wide/16 v2, 0x320
 
-    .line 2
     invoke-virtual {p1, v1, v2, v3}, Landroid/view/TextureView;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -112,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0$a;->c:Lcom/commsource/widget/dialog/p0;
 
     invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->isAdded()Z
@@ -129,14 +123,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0$a;->a:Lcom/commsource/widget/VideoPlayView;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/view/TextureView;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0$a;->a:Lcom/commsource/widget/VideoPlayView;
 
     iget-object v2, p0, Lcom/commsource/widget/dialog/p0$a;->b:Ljava/lang/String;
@@ -147,7 +139,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/VideoPlayView;->m(Ljava/lang/String;Lcom/commsource/widget/VideoPlayView$b;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

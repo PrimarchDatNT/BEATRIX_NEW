@@ -62,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -79,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$1;->this$0:Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
@@ -98,7 +96,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$1;->this$0:Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;
 
     iget-object v3, v3, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
@@ -147,7 +144,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$1;->this$0:Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;
 
@@ -205,7 +201,6 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->SetMagicPenSize(FZ)Z
 
-    .line 5
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$1;->this$0:Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;
 
@@ -221,7 +216,6 @@
 
     invoke-virtual {v1, v3, v4, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->OnFingerDown(FFZ)Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

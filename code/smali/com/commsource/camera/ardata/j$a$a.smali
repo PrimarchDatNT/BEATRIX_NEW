@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/commsource/camera/ardata/j$a;Landroid/content/Context;Lf/k/i/a/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ardata/j$a$a;->e:Lcom/commsource/camera/ardata/j$a;
 
     iput-object p2, p0, Lcom/commsource/camera/ardata/j$a$a;->c:Landroid/content/Context;
@@ -47,26 +46,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ardata/j$a$a;->e:Lcom/commsource/camera/ardata/j$a;
 
     iget-object v1, v1, Lcom/commsource/camera/ardata/j$a;->g:Lcom/commsource/camera/ardata/j;
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/camera/ardata/j;->l(Lf/k/i/a/d;Ljava/lang/Exception;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/ardata/j$a$a;->c:Landroid/content/Context;
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/ardata/j$a$a;->e:Lcom/commsource/camera/ardata/j$a;
 
     iget-object p2, p2, Lcom/commsource/camera/ardata/j$a;->g:Lcom/commsource/camera/ardata/j;
 
     invoke-virtual {p2, p1}, Lcom/commsource/camera/ardata/j;->k(Landroid/content/Context;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -92,20 +87,17 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object p2, p0, Lcom/commsource/camera/ardata/j$a$a;->c:Landroid/content/Context;
 
     if-eqz p2, :cond_2
 
-    .line 2
     invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p2
 
     if-nez p2, :cond_1
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/ardata/j$a$a;->e:Lcom/commsource/camera/ardata/j$a;
 
     iget-object p2, p2, Lcom/commsource/camera/ardata/j$a;->g:Lcom/commsource/camera/ardata/j;
@@ -114,7 +106,6 @@
 
     invoke-virtual {p2, v0, p3}, Lcom/commsource/camera/ardata/j;->a(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/camera/ardata/j$a$a;->e:Lcom/commsource/camera/ardata/j$a;
 
     iget-object p2, p2, Lcom/commsource/camera/ardata/j$a;->g:Lcom/commsource/camera/ardata/j;
@@ -127,14 +118,12 @@
 
     const-string p2, "BaseApi-response"
 
-    .line 5
     invoke-static {p3}, Lcom/commsource/beautyplus/setting/abtest/p;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-static {p2, v0}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     iget-object p2, p0, Lcom/commsource/camera/ardata/j$a$a;->e:Lcom/commsource/camera/ardata/j$a;
 
@@ -154,7 +143,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object p2, p0, Lcom/commsource/camera/ardata/j$a$a;->e:Lcom/commsource/camera/ardata/j$a;
 
@@ -173,12 +161,10 @@
     :catch_0
     move-exception p2
 
-    .line 8
     iget-object p3, p0, Lcom/commsource/camera/ardata/j$a$a;->d:Lf/k/i/a/d;
 
     invoke-virtual {p0, p3, p2}, Lcom/commsource/camera/ardata/j$a$a;->i(Lf/k/i/a/d;Ljava/lang/Exception;)V
 
-    .line 9
     :cond_2
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

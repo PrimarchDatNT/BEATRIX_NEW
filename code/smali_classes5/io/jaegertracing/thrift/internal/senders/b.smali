@@ -28,10 +28,8 @@
 .method public constructor <init>(Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase$ProtocolType;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;-><init>(Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase$ProtocolType;I)V
 
-    .line 2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -51,12 +49,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/internal/senders/b;->f:Lio/jaegertracing/thriftjava/Process;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lio/jaegertracing/thriftjava/Process;
 
     invoke-virtual {p1}, Lio/jaegertracing/a/c;->w()Lio/jaegertracing/a/e;
@@ -71,7 +67,6 @@
 
     iput-object v0, p0, Lio/jaegertracing/thrift/internal/senders/b;->f:Lio/jaegertracing/thriftjava/Process;
 
-    .line 3
     invoke-virtual {p1}, Lio/jaegertracing/a/c;->w()Lio/jaegertracing/a/e;
 
     move-result-object v1
@@ -86,7 +81,6 @@
 
     invoke-virtual {v0, v1}, Lio/jaegertracing/thriftjava/Process;->setTags(Ljava/util/List;)Lio/jaegertracing/thriftjava/Process;
 
-    .line 4
     iget-object v0, p0, Lio/jaegertracing/thrift/internal/senders/b;->f:Lio/jaegertracing/thriftjava/Process;
 
     invoke-virtual {p0, v0}, Lio/jaegertracing/thrift/internal/senders/b;->e(Lio/jaegertracing/thriftjava/Process;)I
@@ -95,25 +89,21 @@
 
     iput v0, p0, Lio/jaegertracing/thrift/internal/senders/b;->g:I
 
-    .line 5
     iget v1, p0, Lio/jaegertracing/thrift/internal/senders/b;->h:I
 
     add-int/2addr v1, v0
 
     iput v1, p0, Lio/jaegertracing/thrift/internal/senders/b;->h:I
 
-    .line 6
     :cond_0
     invoke-static {p1}, Lio/jaegertracing/c/a/a/a/a;->f(Lio/jaegertracing/a/c;)Lio/jaegertracing/thriftjava/Span;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/internal/senders/b;->f(Lio/jaegertracing/thriftjava/Span;)I
 
     move-result v0
 
-    .line 8
     invoke-virtual {p0}, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->b()I
 
     move-result v1
@@ -124,26 +114,22 @@
 
     if-gt v0, v1, :cond_3
 
-    .line 9
     iget v1, p0, Lio/jaegertracing/thrift/internal/senders/b;->h:I
 
     add-int/2addr v1, v0
 
     iput v1, p0, Lio/jaegertracing/thrift/internal/senders/b;->h:I
 
-    .line 10
     invoke-virtual {p0}, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->b()I
 
     move-result v4
 
     if-gt v1, v4, :cond_2
 
-    .line 11
     iget-object v0, p0, Lio/jaegertracing/thrift/internal/senders/b;->i:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 12
     iget p1, p0, Lio/jaegertracing/thrift/internal/senders/b;->h:I
 
     invoke-virtual {p0}, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->b()I
@@ -154,7 +140,6 @@
 
     return v2
 
-    .line 13
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/internal/senders/b;->flush()I
 
@@ -162,7 +147,6 @@
 
     return p1
 
-    .line 14
     :cond_2
     :try_start_0
     invoke-virtual {p0}, Lio/jaegertracing/thrift/internal/senders/b;->flush()I
@@ -171,12 +155,10 @@
     :try_end_0
     .catch Lio/jaegertracing/internal/exceptions/SenderException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 15
     iget-object v2, p0, Lio/jaegertracing/thrift/internal/senders/b;->i:Ljava/util/List;
 
     invoke-interface {v2, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 16
     iget p1, p0, Lio/jaegertracing/thrift/internal/senders/b;->g:I
 
     add-int/2addr p1, v0
@@ -188,7 +170,6 @@
     :catch_0
     move-exception p1
 
-    .line 17
     new-instance v0, Lio/jaegertracing/internal/exceptions/SenderException;
 
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
@@ -209,7 +190,6 @@
 
     throw v0
 
-    .line 18
     :cond_3
     new-instance p1, Lio/jaegertracing/internal/exceptions/SenderException;
 
@@ -217,7 +197,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 19
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -236,7 +215,6 @@
 
     const-string v0, "ThriftSender received a span that was too large, size = %d, max = %d"
 
-    .line 20
     invoke-static {v0, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -256,7 +234,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/internal/senders/b;->flush()I
 
     move-result v0
@@ -272,7 +249,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->c(Lorg/apache/thrift/TBase;)I
 
@@ -285,7 +261,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/internal/exceptions/SenderException;
 
     const/4 v1, 0x1
@@ -305,7 +280,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->c(Lorg/apache/thrift/TBase;)I
 
@@ -318,7 +292,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/internal/exceptions/SenderException;
 
     const/4 v1, 0x1
@@ -338,7 +311,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/internal/senders/b;->i:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -351,7 +323,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lio/jaegertracing/thrift/internal/senders/b;->i:Ljava/util/List;
 
@@ -359,7 +330,6 @@
 
     move-result v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lio/jaegertracing/thrift/internal/senders/b;->f:Lio/jaegertracing/thriftjava/Process;
 
@@ -370,12 +340,10 @@
     .catch Lio/jaegertracing/internal/exceptions/SenderException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     iget-object v1, p0, Lio/jaegertracing/thrift/internal/senders/b;->i:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 5
     iget v1, p0, Lio/jaegertracing/thrift/internal/senders/b;->g:I
 
     iput v1, p0, Lio/jaegertracing/thrift/internal/senders/b;->h:I
@@ -390,7 +358,6 @@
     :catch_0
     move-exception v1
 
-    .line 6
     :try_start_1
     new-instance v2, Lio/jaegertracing/internal/exceptions/SenderException;
 
@@ -402,13 +369,11 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     :goto_0
     iget-object v1, p0, Lio/jaegertracing/thrift/internal/senders/b;->i:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 8
     iget v1, p0, Lio/jaegertracing/thrift/internal/senders/b;->g:I
 
     iput v1, p0, Lio/jaegertracing/thrift/internal/senders/b;->h:I
@@ -437,7 +402,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

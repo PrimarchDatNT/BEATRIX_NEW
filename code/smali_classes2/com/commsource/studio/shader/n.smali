@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/shader/e;
 
     const/4 v1, 0x0
@@ -62,7 +61,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->d()Lcom/commsource/studio/shader/BaseShader;
 
     move-result-object v1
@@ -77,7 +75,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/shader/e$a;->f(Z)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->c()Lcom/commsource/studio/shader/BaseShader;
 
     move-result-object v1
@@ -92,14 +89,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/shader/f$a;->b(I)V
 
-    .line 3
     iget p2, p2, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
     const v1, 0x8d40
 
     invoke-static {v1, p2}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 4
     iget p2, p1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
     iget p1, p1, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
@@ -108,13 +103,10 @@
 
     invoke-static {v2, v2, p2, p1}, Landroid/opengl/GLES20;->glViewport(IIII)V
 
-    .line 5
     invoke-super {p0}, Lcom/commsource/studio/shader/a;->a()V
 
-    .line 6
     invoke-static {v1, v2}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

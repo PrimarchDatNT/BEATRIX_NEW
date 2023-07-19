@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/camera/beauty/h;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/beauty/h$a;->d:Lcom/commsource/camera/beauty/h;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/delegate/process/i;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/h$a;->d:Lcom/commsource/camera/beauty/h;
 
     invoke-static {v1}, Lcom/commsource/camera/beauty/h;->a(Lcom/commsource/camera/beauty/h;)Landroid/content/Context;
@@ -50,7 +48,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/beauty/h$a;->d:Lcom/commsource/camera/beauty/h;
 
     invoke-static {v1}, Lcom/commsource/camera/beauty/h;->a(Lcom/commsource/camera/beauty/h;)Landroid/content/Context;
@@ -59,10 +56,8 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    .line 3
     invoke-virtual {v1}, Landroid/app/Activity;->finish()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

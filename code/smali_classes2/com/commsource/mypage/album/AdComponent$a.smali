@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/AdComponent$a;->a:Lcom/commsource/mypage/album/AdComponent;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent$a;->a:Lcom/commsource/mypage/album/AdComponent;
 
     invoke-static {v1}, Lcom/commsource/mypage/album/AdComponent;->f(Lcom/commsource/mypage/album/AdComponent;)Lcom/commsource/mypage/e0;
@@ -57,7 +55,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent$a;->a:Lcom/commsource/mypage/album/AdComponent;
 
     invoke-static {v1}, Lcom/commsource/mypage/album/AdComponent;->f(Lcom/commsource/mypage/album/AdComponent;)Lcom/commsource/mypage/e0;
@@ -68,7 +65,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/mypage/e0;->a()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent$a;->a:Lcom/commsource/mypage/album/AdComponent;
 
@@ -80,10 +76,8 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->alert_auto_reply:I
 
-    .line 4
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -96,10 +90,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/w0;->n()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -116,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent$a;->a:Lcom/commsource/mypage/album/AdComponent;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -125,7 +116,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/billing/activity/c;->a(Landroid/app/Activity;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

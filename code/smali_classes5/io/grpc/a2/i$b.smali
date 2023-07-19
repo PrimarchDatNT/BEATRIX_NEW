@@ -47,13 +47,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/z$a;-><init>(Lio/grpc/k1;)V
 
-    .line 2
     new-instance p1, Lio/grpc/internal/j2;
 
-    .line 3
     invoke-static {}, Lcom/google/common/util/concurrent/n0;->d()Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -64,7 +61,6 @@
 
     const/4 p1, 0x0
 
-    .line 4
     iput-boolean p1, p0, Lio/grpc/a2/i$b;->c:Z
 
     return-void
@@ -73,7 +69,6 @@
 .method static synthetic m(Lio/grpc/a2/i$b;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lio/grpc/z;->i(Ljava/lang/Object;)V
 
     return-void
@@ -82,7 +77,6 @@
 .method static synthetic n(Lio/grpc/a2/i$b;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lio/grpc/z$a;->c()Ljava/lang/String;
 
     move-result-object p0
@@ -93,7 +87,6 @@
 .method static synthetic o(Lio/grpc/a2/i$b;I)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lio/grpc/z$a;->g(I)V
 
     return-void
@@ -102,7 +95,6 @@
 .method static synthetic p(Lio/grpc/a2/i$b;Lio/grpc/y0;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lio/grpc/z$a;->h(Lio/grpc/y0;)V
 
     return-void
@@ -111,7 +103,6 @@
 .method static synthetic q(Lio/grpc/a2/i$b;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lio/grpc/a2/i$b;->c:Z
 
     return p0
@@ -120,7 +111,6 @@
 .method static synthetic r(Lio/grpc/a2/i$b;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/a2/i$b;->c:Z
 
     return p1
@@ -129,7 +119,6 @@
 .method static synthetic s(Lio/grpc/a2/i$b;Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Lio/grpc/z$a;->a(Lio/grpc/Status;Lio/grpc/y0;)V
 
     return-void
@@ -138,7 +127,6 @@
 .method static synthetic t(Lio/grpc/a2/i$b;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lio/grpc/z$a;->f()Z
 
     move-result p0
@@ -149,7 +137,6 @@
 .method static synthetic u(Lio/grpc/a2/i$b;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lio/grpc/z$a;->e()Z
 
     move-result p0
@@ -160,7 +147,6 @@
 .method static synthetic v(Lio/grpc/a2/i$b;Z)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lio/grpc/z$a;->k(Z)V
 
     return-void
@@ -169,7 +155,6 @@
 .method static synthetic w(Lio/grpc/a2/i$b;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lio/grpc/z$a;->j(Ljava/lang/String;)V
 
     return-void
@@ -178,7 +163,6 @@
 .method static synthetic x(Lio/grpc/a2/i$b;)Lio/grpc/a;
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lio/grpc/z$a;->b()Lio/grpc/a;
 
     move-result-object p0
@@ -191,7 +175,6 @@
 .method public a(Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a2/i$b;->b:Lio/grpc/internal/j2;
 
     new-instance v1, Lio/grpc/a2/i$b$e;
@@ -208,12 +191,10 @@
 
     const-string v0, "Encountered error during serialized access"
 
-    .line 1
     invoke-static {}, Lcom/google/common/util/concurrent/v0;->G()Lcom/google/common/util/concurrent/v0;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lio/grpc/a2/i$b;->b:Lio/grpc/internal/j2;
 
     new-instance v3, Lio/grpc/a2/i$b$j;
@@ -222,7 +203,6 @@
 
     invoke-virtual {v2, v3}, Lio/grpc/internal/j2;->execute(Ljava/lang/Runnable;)V
 
-    .line 3
     :try_start_0
     invoke-virtual {v1}, Lcom/google/common/util/concurrent/v0;->get()Ljava/lang/Object;
 
@@ -238,7 +218,6 @@
     :catch_0
     move-exception v1
 
-    .line 4
     new-instance v2, Ljava/lang/RuntimeException;
 
     invoke-direct {v2, v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -248,7 +227,6 @@
     :catch_1
     move-exception v1
 
-    .line 5
     new-instance v2, Ljava/lang/RuntimeException;
 
     invoke-direct {v2, v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -263,12 +241,10 @@
 
     const-string v0, "Encountered error during serialized access"
 
-    .line 1
     invoke-static {}, Lcom/google/common/util/concurrent/v0;->G()Lcom/google/common/util/concurrent/v0;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lio/grpc/a2/i$b;->b:Lio/grpc/internal/j2;
 
     new-instance v3, Lio/grpc/a2/i$b$a;
@@ -277,7 +253,6 @@
 
     invoke-virtual {v2, v3}, Lio/grpc/internal/j2;->execute(Ljava/lang/Runnable;)V
 
-    .line 3
     :try_start_0
     invoke-virtual {v1}, Lcom/google/common/util/concurrent/v0;->get()Ljava/lang/Object;
 
@@ -293,7 +268,6 @@
     :catch_0
     move-exception v1
 
-    .line 4
     new-instance v2, Ljava/lang/RuntimeException;
 
     invoke-direct {v2, v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -303,7 +277,6 @@
     :catch_1
     move-exception v1
 
-    .line 5
     new-instance v2, Ljava/lang/RuntimeException;
 
     invoke-direct {v2, v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -316,12 +289,10 @@
 
     const-string v0, "Encountered error during serialized access"
 
-    .line 1
     invoke-static {}, Lcom/google/common/util/concurrent/v0;->G()Lcom/google/common/util/concurrent/v0;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lio/grpc/a2/i$b;->b:Lio/grpc/internal/j2;
 
     new-instance v3, Lio/grpc/a2/i$b$g;
@@ -330,7 +301,6 @@
 
     invoke-virtual {v2, v3}, Lio/grpc/internal/j2;->execute(Ljava/lang/Runnable;)V
 
-    .line 3
     :try_start_0
     invoke-virtual {v1}, Lcom/google/common/util/concurrent/v0;->get()Ljava/lang/Object;
 
@@ -350,7 +320,6 @@
     :catch_0
     move-exception v1
 
-    .line 4
     new-instance v2, Ljava/lang/RuntimeException;
 
     invoke-direct {v2, v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -360,7 +329,6 @@
     :catch_1
     move-exception v1
 
-    .line 5
     new-instance v2, Ljava/lang/RuntimeException;
 
     invoke-direct {v2, v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -373,12 +341,10 @@
 
     const-string v0, "Encountered error during serialized access"
 
-    .line 1
     invoke-static {}, Lcom/google/common/util/concurrent/v0;->G()Lcom/google/common/util/concurrent/v0;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lio/grpc/a2/i$b;->b:Lio/grpc/internal/j2;
 
     new-instance v3, Lio/grpc/a2/i$b$f;
@@ -387,7 +353,6 @@
 
     invoke-virtual {v2, v3}, Lio/grpc/internal/j2;->execute(Ljava/lang/Runnable;)V
 
-    .line 3
     :try_start_0
     invoke-virtual {v1}, Lcom/google/common/util/concurrent/v0;->get()Ljava/lang/Object;
 
@@ -407,7 +372,6 @@
     :catch_0
     move-exception v1
 
-    .line 4
     new-instance v2, Ljava/lang/RuntimeException;
 
     invoke-direct {v2, v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -417,7 +381,6 @@
     :catch_1
     move-exception v1
 
-    .line 5
     new-instance v2, Ljava/lang/RuntimeException;
 
     invoke-direct {v2, v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -428,7 +391,6 @@
 .method public g(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a2/i$b;->b:Lio/grpc/internal/j2;
 
     new-instance v1, Lio/grpc/a2/i$b$c;
@@ -443,7 +405,6 @@
 .method public h(Lio/grpc/y0;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a2/i$b;->b:Lio/grpc/internal/j2;
 
     new-instance v1, Lio/grpc/a2/i$b$d;
@@ -463,7 +424,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a2/i$b;->b:Lio/grpc/internal/j2;
 
     new-instance v1, Lio/grpc/a2/i$b$b;
@@ -478,7 +438,6 @@
 .method public j(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a2/i$b;->b:Lio/grpc/internal/j2;
 
     new-instance v1, Lio/grpc/a2/i$b$i;
@@ -493,7 +452,6 @@
 .method public k(Z)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a2/i$b;->b:Lio/grpc/internal/j2;
 
     new-instance v1, Lio/grpc/a2/i$b$h;

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/p/a/q;Lcom/google/firebase/auth/p/a/o;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/p/a/p;->b:Lcom/google/firebase/auth/p/a/q;
 
     iput-object p2, p0, Lcom/google/firebase/auth/p/a/p;->a:Lcom/google/firebase/auth/p/a/o;
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->q()Ljava/lang/Exception;
 
     move-result-object v0
@@ -56,7 +54,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/firebase/auth/p/a/p;->b:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/p;->a:Lcom/google/firebase/auth/p/a/o;

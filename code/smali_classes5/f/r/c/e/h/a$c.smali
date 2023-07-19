@@ -34,7 +34,6 @@
 .method constructor <init>(Lf/r/c/e/h/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/e/h/a$c;->a:Lf/r/c/e/h/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -55,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lf/r/c/e/h/a$c;->a:Lf/r/c/e/h/a;
 
     invoke-static {v0}, Lf/r/c/e/h/a;->f(Lf/r/c/e/h/a;)Ljava/lang/String;
@@ -64,14 +62,12 @@
 
     invoke-static {v0, v1}, Lf/r/c/e/h/a;->d(Lf/r/c/e/h/a;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lf/r/c/e/h/a$c;->a:Lf/r/c/e/h/a;
 
     const-string v1, "sessionid"
 
     invoke-static {v0, v1}, Lf/r/c/e/h/a;->e(Lf/r/c/e/h/a;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
     iget-object v0, p0, Lf/r/c/e/h/a$c;->a:Lf/r/c/e/h/a;
 
     const/4 v1, 0x0
@@ -94,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lf/r/c/e/h/a$c;->a()Ljava/lang/Void;
 
     move-result-object v0

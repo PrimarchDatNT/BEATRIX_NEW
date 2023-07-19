@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->B(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/d;
@@ -75,7 +74,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setEnable(Z)V
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;
 
@@ -87,7 +85,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/e;->p()V
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -101,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$d;->a(Ljava/lang/Integer;)V

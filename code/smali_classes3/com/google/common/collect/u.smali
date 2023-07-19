@@ -40,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/t;-><init>(Lcom/google/common/collect/l1;Lcom/google/common/base/u;)V
 
     return-void
@@ -51,7 +50,6 @@
 .method bridge synthetic createEntries()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/u;->f()Ljava/util/Set;
 
     move-result-object v0
@@ -62,7 +60,6 @@
 .method public bridge synthetic entries()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/u;->entries()Ljava/util/Set;
 
     move-result-object v0
@@ -81,7 +78,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/c;->entries()Ljava/util/Collection;
 
     move-result-object v0
@@ -102,7 +98,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/u;->s()Lcom/google/common/collect/x1;
 
     move-result-object v0
@@ -125,7 +120,6 @@
 .method public bridge synthetic get(Ljava/lang/Object;)Ljava/util/Collection;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/u;->get(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -143,7 +137,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0, p1}, Lcom/google/common/collect/t;->get(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1
@@ -156,7 +149,6 @@
 .method public bridge synthetic removeAll(Ljava/lang/Object;)Ljava/util/Collection;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/u;->removeAll(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -176,7 +168,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0, p1}, Lcom/google/common/collect/t;->removeAll(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1
@@ -189,7 +180,6 @@
 .method public bridge synthetic replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/Collection;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/u;->replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/Set;
 
     move-result-object p1
@@ -209,7 +199,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/c;->replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/Collection;
 
     move-result-object p1
@@ -222,7 +211,6 @@
 .method public bridge synthetic s()Lcom/google/common/collect/l1;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/u;->s()Lcom/google/common/collect/x1;
 
     move-result-object v0
@@ -240,7 +228,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/t;->a:Lcom/google/common/collect/l1;
 
     check-cast v0, Lcom/google/common/collect/x1;

@@ -35,7 +35,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/cache/f;-><init>()V
 
     return-void
@@ -61,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/g;->J0()Lcom/google/common/cache/h;
 
     move-result-object v0
@@ -76,7 +74,6 @@
 .method protected bridge synthetic delegate()Lcom/google/common/cache/c;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/g;->J0()Lcom/google/common/cache/h;
 
     move-result-object v0
@@ -87,7 +84,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/cache/g;->J0()Lcom/google/common/cache/h;
 
     move-result-object v0
@@ -109,7 +105,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/g;->J0()Lcom/google/common/cache/h;
 
     move-result-object v0
@@ -139,7 +134,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/g;->J0()Lcom/google/common/cache/h;
 
     move-result-object v0
@@ -159,7 +153,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/g;->J0()Lcom/google/common/cache/h;
 
     move-result-object v0
@@ -179,7 +172,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/g;->J0()Lcom/google/common/cache/h;
 
     move-result-object v0

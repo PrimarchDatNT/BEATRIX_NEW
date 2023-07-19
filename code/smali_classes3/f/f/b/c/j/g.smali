@@ -42,10 +42,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -54,7 +52,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-virtual {p0, v0, v0}, Lf/f/b/c/j/g;->e(FF)V
 
     return-void
@@ -63,17 +60,14 @@
 .method public constructor <init>(FF)V
     .locals 1
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lf/f/b/c/j/g;->e:Ljava/util/List;
 
-    .line 6
     invoke-virtual {p0, p1, p2}, Lf/f/b/c/j/g;->e(FF)V
 
     return-void
@@ -84,18 +78,14 @@
 .method public a(FFFFFF)V
     .locals 4
 
-    .line 1
     new-instance v0, Lf/f/b/c/j/g$a;
 
     invoke-direct {v0, p1, p2, p3, p4}, Lf/f/b/c/j/g$a;-><init>(FFFF)V
 
-    .line 2
     iput p5, v0, Lf/f/b/c/j/g$a;->f:F
 
-    .line 3
     iput p6, v0, Lf/f/b/c/j/g$a;->g:F
 
-    .line 4
     iget-object v1, p0, Lf/f/b/c/j/g;->e:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -116,7 +106,6 @@
 
     float-to-double p5, p5
 
-    .line 5
     invoke-static {p5, p6}, Ljava/lang/Math;->toRadians(D)D
 
     move-result-wide v2
@@ -141,7 +130,6 @@
 
     div-float/2addr p4, p1
 
-    .line 6
     invoke-static {p5, p6}, Ljava/lang/Math;->toRadians(D)D
 
     move-result-wide p1
@@ -164,7 +152,6 @@
 .method public b(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/j/g;->e:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -176,7 +163,6 @@
     :goto_0
     if-ge v1, v0, :cond_0
 
-    .line 2
     iget-object v2, p0, Lf/f/b/c/j/g;->e:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -185,7 +171,6 @@
 
     check-cast v2, Lf/f/b/c/j/g$c;
 
-    .line 3
     invoke-virtual {v2, p1, p2}, Lf/f/b/c/j/g$c;->a(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
 
     add-int/lit8 v1, v1, 0x1
@@ -199,26 +184,20 @@
 .method public c(FF)V
     .locals 2
 
-    .line 1
     new-instance v0, Lf/f/b/c/j/g$b;
 
     invoke-direct {v0}, Lf/f/b/c/j/g$b;-><init>()V
 
-    .line 2
     invoke-static {v0, p1}, Lf/f/b/c/j/g$b;->b(Lf/f/b/c/j/g$b;F)F
 
-    .line 3
     invoke-static {v0, p2}, Lf/f/b/c/j/g$b;->c(Lf/f/b/c/j/g$b;F)F
 
-    .line 4
     iget-object v1, p0, Lf/f/b/c/j/g;->e:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     iput p1, p0, Lf/f/b/c/j/g;->c:F
 
-    .line 6
     iput p2, p0, Lf/f/b/c/j/g;->d:F
 
     return-void
@@ -227,32 +206,24 @@
 .method public d(FFFF)V
     .locals 1
 
-    .line 1
     new-instance v0, Lf/f/b/c/j/g$d;
 
     invoke-direct {v0}, Lf/f/b/c/j/g$d;-><init>()V
 
-    .line 2
     iput p1, v0, Lf/f/b/c/j/g$d;->b:F
 
-    .line 3
     iput p2, v0, Lf/f/b/c/j/g$d;->c:F
 
-    .line 4
     iput p3, v0, Lf/f/b/c/j/g$d;->d:F
 
-    .line 5
     iput p4, v0, Lf/f/b/c/j/g$d;->e:F
 
-    .line 6
     iget-object p1, p0, Lf/f/b/c/j/g;->e:Ljava/util/List;
 
     invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     iput p3, p0, Lf/f/b/c/j/g;->c:F
 
-    .line 8
     iput p4, p0, Lf/f/b/c/j/g;->d:F
 
     return-void
@@ -261,19 +232,14 @@
 .method public e(FF)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lf/f/b/c/j/g;->a:F
 
-    .line 2
     iput p2, p0, Lf/f/b/c/j/g;->b:F
 
-    .line 3
     iput p1, p0, Lf/f/b/c/j/g;->c:F
 
-    .line 4
     iput p2, p0, Lf/f/b/c/j/g;->d:F
 
-    .line 5
     iget-object p1, p0, Lf/f/b/c/j/g;->e:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->clear()V

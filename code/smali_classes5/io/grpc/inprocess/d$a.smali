@@ -30,7 +30,6 @@
 .method constructor <init>(Lio/grpc/inprocess/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/inprocess/d$a;->b:Lio/grpc/inprocess/d;
 
     invoke-direct {p0}, Lio/grpc/internal/b1;-><init>()V
@@ -43,7 +42,6 @@
 .method protected a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/inprocess/d$a;->b:Lio/grpc/inprocess/d;
 
     invoke-static {v0}, Lio/grpc/inprocess/d;->b(Lio/grpc/inprocess/d;)Lio/grpc/internal/o1$a;
@@ -60,7 +58,6 @@
 .method protected b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/inprocess/d$a;->b:Lio/grpc/inprocess/d;
 
     invoke-static {v0}, Lio/grpc/inprocess/d;->b(Lio/grpc/inprocess/d;)Lio/grpc/internal/o1$a;

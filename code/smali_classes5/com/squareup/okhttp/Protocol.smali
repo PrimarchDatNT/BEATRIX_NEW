@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 10
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/Protocol;
 
     const-string v1, "HTTP_1_0"
@@ -46,7 +45,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/Protocol;->HTTP_1_0:Lcom/squareup/okhttp/Protocol;
 
-    .line 2
     new-instance v1, Lcom/squareup/okhttp/Protocol;
 
     const-string v3, "HTTP_1_1"
@@ -59,7 +57,6 @@
 
     sput-object v1, Lcom/squareup/okhttp/Protocol;->HTTP_1_1:Lcom/squareup/okhttp/Protocol;
 
-    .line 3
     new-instance v3, Lcom/squareup/okhttp/Protocol;
 
     const-string v5, "SPDY_3"
@@ -72,7 +69,6 @@
 
     sput-object v3, Lcom/squareup/okhttp/Protocol;->SPDY_3:Lcom/squareup/okhttp/Protocol;
 
-    .line 4
     new-instance v5, Lcom/squareup/okhttp/Protocol;
 
     const-string v7, "HTTP_2"
@@ -97,7 +93,6 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lcom/squareup/okhttp/Protocol;->$VALUES:[Lcom/squareup/okhttp/Protocol;
 
     return-void
@@ -113,10 +108,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/squareup/okhttp/Protocol;->protocol:Ljava/lang/String;
 
     return-void
@@ -130,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/Protocol;->HTTP_1_0:Lcom/squareup/okhttp/Protocol;
 
     iget-object v1, v0, Lcom/squareup/okhttp/Protocol;->protocol:Ljava/lang/String;
@@ -143,7 +135,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/squareup/okhttp/Protocol;->HTTP_1_1:Lcom/squareup/okhttp/Protocol;
 
@@ -157,7 +148,6 @@
 
     return-object v0
 
-    .line 3
     :cond_1
     sget-object v0, Lcom/squareup/okhttp/Protocol;->HTTP_2:Lcom/squareup/okhttp/Protocol;
 
@@ -171,7 +161,6 @@
 
     return-object v0
 
-    .line 4
     :cond_2
     sget-object v0, Lcom/squareup/okhttp/Protocol;->SPDY_3:Lcom/squareup/okhttp/Protocol;
 
@@ -185,7 +174,6 @@
 
     return-object v0
 
-    .line 5
     :cond_3
     new-instance v0, Ljava/io/IOException;
 
@@ -211,7 +199,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/squareup/okhttp/Protocol;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/squareup/okhttp/Protocol;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -226,7 +213,6 @@
 .method public static values()[Lcom/squareup/okhttp/Protocol;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/Protocol;->$VALUES:[Lcom/squareup/okhttp/Protocol;
 
     invoke-virtual {v0}, [Lcom/squareup/okhttp/Protocol;->clone()Ljava/lang/Object;
@@ -243,7 +229,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Protocol;->protocol:Ljava/lang/String;
 
     return-object v0

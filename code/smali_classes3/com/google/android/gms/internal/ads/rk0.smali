@@ -26,17 +26,14 @@
 .method public final d(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/rk0;->a:Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/Exception;
 
     const-string v1, "Error during loading assets."
 
-    .line 2
     invoke-static {v1, p1}, Lcom/google/android/gms/internal/ads/sm;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p1

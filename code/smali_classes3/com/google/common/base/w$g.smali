@@ -38,36 +38,30 @@
 .method protected constructor <init>(Lcom/google/common/base/w;Ljava/lang/CharSequence;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/base/AbstractIterator;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/common/base/w$g;->g:I
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/w;->b(Lcom/google/common/base/w;)Lcom/google/common/base/b;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/base/w$g;->d:Lcom/google/common/base/b;
 
-    .line 4
     invoke-static {p1}, Lcom/google/common/base/w;->c(Lcom/google/common/base/w;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/common/base/w$g;->f:Z
 
-    .line 5
     invoke-static {p1}, Lcom/google/common/base/w;->d(Lcom/google/common/base/w;)I
 
     move-result p1
 
     iput p1, p0, Lcom/google/common/base/w$g;->p:I
 
-    .line 6
     iput-object p2, p0, Lcom/google/common/base/w$g;->c:Ljava/lang/CharSequence;
 
     return-void
@@ -78,7 +72,6 @@
 .method protected bridge synthetic a()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/base/w$g;->d()Ljava/lang/String;
 
     move-result-object v0
@@ -89,10 +82,8 @@
 .method protected d()Ljava/lang/String;
     .locals 6
 
-    .line 1
     iget v0, p0, Lcom/google/common/base/w$g;->g:I
 
-    .line 2
     :cond_0
     :goto_0
     iget v1, p0, Lcom/google/common/base/w$g;->g:I
@@ -101,26 +92,22 @@
 
     if-eq v1, v2, :cond_8
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/google/common/base/w$g;->f(I)I
 
     move-result v1
 
     if-ne v1, v2, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/base/w$g;->c:Ljava/lang/CharSequence;
 
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
 
     move-result v1
 
-    .line 5
     iput v2, p0, Lcom/google/common/base/w$g;->g:I
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-virtual {p0, v1}, Lcom/google/common/base/w$g;->e(I)I
 
@@ -128,7 +115,6 @@
 
     iput v3, p0, Lcom/google/common/base/w$g;->g:I
 
-    .line 7
     :goto_1
     iget v3, p0, Lcom/google/common/base/w$g;->g:I
 
@@ -136,10 +122,8 @@
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 8
     iput v3, p0, Lcom/google/common/base/w$g;->g:I
 
-    .line 9
     iget-object v1, p0, Lcom/google/common/base/w$g;->c:Ljava/lang/CharSequence;
 
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
@@ -148,7 +132,6 @@
 
     if-le v3, v1, :cond_0
 
-    .line 10
     iput v2, p0, Lcom/google/common/base/w$g;->g:I
 
     goto :goto_0
@@ -157,7 +140,6 @@
     :goto_2
     if-ge v0, v1, :cond_3
 
-    .line 11
     iget-object v3, p0, Lcom/google/common/base/w$g;->d:Lcom/google/common/base/b;
 
     iget-object v4, p0, Lcom/google/common/base/w$g;->c:Ljava/lang/CharSequence;
@@ -180,7 +162,6 @@
     :goto_3
     if-le v1, v0, :cond_4
 
-    .line 12
     iget-object v3, p0, Lcom/google/common/base/w$g;->d:Lcom/google/common/base/b;
 
     iget-object v4, p0, Lcom/google/common/base/w$g;->c:Ljava/lang/CharSequence;
@@ -201,7 +182,6 @@
 
     goto :goto_3
 
-    .line 13
     :cond_4
     iget-boolean v3, p0, Lcom/google/common/base/w$g;->f:Z
 
@@ -209,12 +189,10 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 14
     iget v0, p0, Lcom/google/common/base/w$g;->g:I
 
     goto :goto_0
 
-    .line 15
     :cond_5
     iget v3, p0, Lcom/google/common/base/w$g;->p:I
 
@@ -222,20 +200,17 @@
 
     if-ne v3, v4, :cond_6
 
-    .line 16
     iget-object v1, p0, Lcom/google/common/base/w$g;->c:Ljava/lang/CharSequence;
 
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
 
     move-result v1
 
-    .line 17
     iput v2, p0, Lcom/google/common/base/w$g;->g:I
 
     :goto_4
     if-le v1, v0, :cond_7
 
-    .line 18
     iget-object v2, p0, Lcom/google/common/base/w$g;->d:Lcom/google/common/base/b;
 
     iget-object v3, p0, Lcom/google/common/base/w$g;->c:Ljava/lang/CharSequence;
@@ -259,10 +234,8 @@
     :cond_6
     sub-int/2addr v3, v4
 
-    .line 19
     iput v3, p0, Lcom/google/common/base/w$g;->p:I
 
-    .line 20
     :cond_7
     iget-object v2, p0, Lcom/google/common/base/w$g;->c:Ljava/lang/CharSequence;
 
@@ -276,7 +249,6 @@
 
     return-object v0
 
-    .line 21
     :cond_8
     invoke-virtual {p0}, Lcom/google/common/base/AbstractIterator;->b()Ljava/lang/Object;
 

@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v2, "Others"
@@ -81,7 +80,6 @@
 
     sput-object v1, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->Others:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 2
     new-instance v2, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v4, "OPPO_R9s"
@@ -92,7 +90,6 @@
 
     sput-object v2, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->OPPO_R9s:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 3
     new-instance v4, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v6, "OPPO_A57"
@@ -103,7 +100,6 @@
 
     sput-object v4, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->OPPO_A57:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 4
     new-instance v6, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v8, "OPPO_A57_Pilipinas"
@@ -114,7 +110,6 @@
 
     sput-object v6, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->OPPO_A57_Pilipinas:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 5
     new-instance v8, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v10, "OPPO_R11"
@@ -125,7 +120,6 @@
 
     sput-object v8, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->OPPO_R11:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 6
     new-instance v10, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v12, "OPPO_R9sPlus"
@@ -136,7 +130,6 @@
 
     sput-object v10, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->OPPO_R9sPlus:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 7
     new-instance v12, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v14, "OPPO_a37"
@@ -147,7 +140,6 @@
 
     sput-object v12, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->OPPO_a37:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 8
     new-instance v14, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v0, "VIVO_Y66"
@@ -158,7 +150,6 @@
 
     sput-object v14, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->VIVO_Y66:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 9
     new-instance v0, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v15, "VIVO_X7"
@@ -169,7 +160,6 @@
 
     sput-object v0, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->VIVO_X7:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 10
     new-instance v15, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v13, "VIVO_X9"
@@ -180,7 +170,6 @@
 
     sput-object v15, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->VIVO_X9:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 11
     new-instance v13, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v11, "OPPO_A59s"
@@ -191,7 +180,6 @@
 
     sput-object v13, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->OPPO_A59s:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 12
     new-instance v11, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v9, "VIVO_x20a"
@@ -202,7 +190,6 @@
 
     sput-object v11, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->VIVO_x20a:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 13
     new-instance v9, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v7, "OPPO_R17"
@@ -213,7 +200,6 @@
 
     sput-object v9, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->OPPO_R17:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 14
     new-instance v7, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v5, "OPPO_R11S"
@@ -224,7 +210,6 @@
 
     sput-object v7, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->OPPO_R11S:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 15
     new-instance v5, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v3, "OPPO_A5"
@@ -237,7 +222,6 @@
 
     sput-object v5, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->OPPO_A5:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 16
     new-instance v3, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v7, "OPPO_R15"
@@ -250,7 +234,6 @@
 
     sput-object v3, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->OPPO_R15:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 17
     new-instance v7, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v5, "VIVO_X21"
@@ -263,7 +246,6 @@
 
     sput-object v7, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->VIVO_X21:Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
-    .line 18
     new-instance v5, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const-string v3, "ELE_AL00"
@@ -350,7 +332,6 @@
 
     aput-object v5, v3, v7
 
-    .line 19
     sput-object v3, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->$VALUES:[Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     const v0, 0xe659
@@ -368,7 +349,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -381,7 +361,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -402,7 +381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->$VALUES:[Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;
 
     invoke-virtual {v1}, [Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;->clone()Ljava/lang/Object;

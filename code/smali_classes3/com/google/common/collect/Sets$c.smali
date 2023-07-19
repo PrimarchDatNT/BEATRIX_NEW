@@ -31,7 +31,6 @@
 .method constructor <init>(Ljava/util/Set;Ljava/util/Set;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Sets$c;->a:Ljava/util/Set;
 
     iput-object p2, p0, Lcom/google/common/collect/Sets$c;->b:Ljava/util/Set;
@@ -48,7 +47,6 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$c;->a:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
@@ -86,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Sets$c$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/Sets$c$a;-><init>(Lcom/google/common/collect/Sets$c;)V
@@ -97,7 +94,6 @@
 .method public isEmpty()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$c;->b:Ljava/util/Set;
 
     iget-object v1, p0, Lcom/google/common/collect/Sets$c;->a:Ljava/util/Set;
@@ -112,7 +108,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Sets$c;->e()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -123,7 +118,6 @@
 .method public size()I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$c;->a:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -144,7 +138,6 @@
 
     move-result-object v2
 
-    .line 2
     iget-object v3, p0, Lcom/google/common/collect/Sets$c;->b:Ljava/util/Set;
 
     invoke-interface {v3, v2}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z

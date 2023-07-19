@@ -43,10 +43,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/tc1;->a:Ljava/util/Map;
 
     return-void
@@ -57,13 +55,11 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 3
 
-    .line 1
     check-cast p1, Lorg/json/JSONObject;
 
     :try_start_0
     const-string v0, "video_decoders"
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     move-result-object v1
@@ -85,7 +81,6 @@
 
     const-string v0, "Could not encode video decoder properties: "
 
-    .line 3
     invoke-virtual {p1}, Lorg/json/JSONException;->getMessage()Ljava/lang/String;
 
     move-result-object p1

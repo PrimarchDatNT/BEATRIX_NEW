@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/homepagedialog/DraftRecoverController$buildDraftDialog$1$1$2;->invoke(Lcom/commsource/widget/dialog/delegate/b;)V
@@ -81,15 +80,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
-    .line 3
     sget-object p1, Lcom/commsource/studio/DraftDataManager;->i:Lcom/commsource/studio/DraftDataManager$a;
 
     invoke-virtual {p1}, Lcom/commsource/studio/DraftDataManager$a;->a()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/home/homepagedialog/DraftRecoverController$buildDraftDialog$1$1$2;->this$0:Lcom/commsource/home/homepagedialog/DraftRecoverController$buildDraftDialog$1$1;
 
     iget-object p1, p1, Lcom/commsource/home/homepagedialog/DraftRecoverController$buildDraftDialog$1$1;->this$0:Lcom/commsource/home/homepagedialog/DraftRecoverController$buildDraftDialog$1;
@@ -110,7 +106,6 @@
 
     invoke-static {p1, v1, v2, v3, v4}, Lcom/commsource/home/homepagedialog/b;->f(Lcom/commsource/home/homepagedialog/b;IZILjava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

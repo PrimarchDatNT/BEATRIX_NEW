@@ -18,7 +18,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result p0

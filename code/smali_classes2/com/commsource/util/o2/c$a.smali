@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/o2/c$a;->b:Lcom/commsource/util/o2/c;
 
     iput-object p2, p0, Lcom/commsource/util/o2/c$a;->c:Lcotlin/jvm/u/a;
@@ -56,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/util/o2/c$a;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -71,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/util/o2/c$a;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -94,7 +91,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -113,7 +109,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     iget v2, p0, Lcom/commsource/util/o2/c$a;->a:F
 
     sub-float v3, p1, v2
@@ -122,7 +117,6 @@
 
     div-float/2addr v3, v1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/util/o2/c$a;->b:Lcom/commsource/util/o2/c;
 
     invoke-virtual {v1}, Lcom/commsource/util/o2/c;->e()Ljava/lang/Object;
@@ -143,7 +137,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/util/o2/c$a;->b:Lcom/commsource/util/o2/c;
 
@@ -157,7 +150,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/o2/c;->h(Ljava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/util/o2/c$a;->c:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_1
@@ -168,7 +160,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 6
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/commsource/util/o2/c$a;->b:Lcom/commsource/util/o2/c;
@@ -191,16 +182,13 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 7
     :cond_2
     iput p1, p0, Lcom/commsource/util/o2/c$a;->a:F
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_3
     new-instance p1, Lcotlin/TypeCastException;
 

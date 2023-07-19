@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/google/common/io/q;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/io/q$a;->a:Lcom/google/common/io/q;
 
     invoke-direct {p0}, Lcom/google/common/io/f;-><init>()V
@@ -35,7 +34,6 @@
 .method protected finalize()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/common/io/q$a;->a:Lcom/google/common/io/q;
 
@@ -48,7 +46,6 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     sget-object v1, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     invoke-virtual {v0, v1}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintStream;)V
@@ -65,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/q$a;->a:Lcom/google/common/io/q;
 
     invoke-static {v0}, Lcom/google/common/io/q;->a(Lcom/google/common/io/q;)Ljava/io/InputStream;

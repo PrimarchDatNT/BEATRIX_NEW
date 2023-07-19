@@ -29,16 +29,12 @@
 .method public constructor <init>(Lcom/commsource/push/NotificationBarPush;ZZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/beautyplus/start/w/a$a;->a:Lcom/commsource/push/NotificationBarPush;
 
-    .line 3
     iput-boolean p2, p0, Lcom/commsource/beautyplus/start/w/a$a;->b:Z
 
-    .line 4
     iput-boolean p3, p0, Lcom/commsource/beautyplus/start/w/a$a;->c:Z
 
     return-void
@@ -53,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/start/w/a$a;->a:Lcom/commsource/push/NotificationBarPush;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -68,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/start/w/a$a;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -83,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/start/w/a$a;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

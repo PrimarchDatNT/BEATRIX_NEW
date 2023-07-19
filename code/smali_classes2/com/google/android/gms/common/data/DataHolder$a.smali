@@ -53,10 +53,8 @@
 .method private constructor <init>([Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -65,17 +63,14 @@
 
     iput-object p1, p0, Lcom/google/android/gms/common/data/DataHolder$a;->a:[Ljava/lang/String;
 
-    .line 3
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/google/android/gms/common/data/DataHolder$a;->b:Ljava/util/ArrayList;
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/common/data/DataHolder$a;->c:Ljava/lang/String;
 
-    .line 5
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
@@ -84,12 +79,10 @@
 
     const/4 p1, 0x0
 
-    .line 6
     iput-boolean p1, p0, Lcom/google/android/gms/common/data/DataHolder$a;->e:Z
 
     const/4 p1, 0x0
 
-    .line 7
     iput-object p1, p0, Lcom/google/android/gms/common/data/DataHolder$a;->f:Ljava/lang/String;
 
     return-void
@@ -100,7 +93,6 @@
 
     const/4 p2, 0x0
 
-    .line 8
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/data/DataHolder$a;-><init>([Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -109,7 +101,6 @@
 .method static synthetic e(Lcom/google/android/gms/common/data/DataHolder$a;)[Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/data/DataHolder$a;->a:[Ljava/lang/String;
 
     return-object p0
@@ -118,7 +109,6 @@
 .method static synthetic f(Lcom/google/android/gms/common/data/DataHolder$a;)Ljava/util/ArrayList;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/data/DataHolder$a;->b:Ljava/util/ArrayList;
 
     return-object p0
@@ -131,7 +121,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/data/DataHolder;
 
     const/4 v1, 0x0
@@ -146,7 +135,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v6, Lcom/google/android/gms/common/data/DataHolder;
 
     const/4 v4, -0x1
@@ -171,10 +159,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/d;->c(Ljava/lang/Object;)V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-virtual {p1}, Landroid/content/ContentValues;->size()I
@@ -183,12 +169,10 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/ContentValues;->valueSet()Ljava/util/Set;
 
     move-result-object p1
 
-    .line 4
     invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -206,7 +190,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -221,7 +204,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {p0, v0}, Lcom/google/android/gms/common/data/DataHolder$a;->d(Ljava/util/HashMap;)Lcom/google/android/gms/common/data/DataHolder$a;
 
@@ -243,10 +225,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/d;->c(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder$a;->c:Ljava/lang/String;
 
     const/4 v1, -0x1
@@ -258,7 +238,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-virtual {p1, v0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -268,7 +247,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v2, p0, Lcom/google/android/gms/common/data/DataHolder$a;->d:Ljava/util/HashMap;
 
@@ -280,7 +258,6 @@
 
     if-nez v2, :cond_2
 
-    .line 5
     iget-object v2, p0, Lcom/google/android/gms/common/data/DataHolder$a;->d:Ljava/util/HashMap;
 
     iget-object v3, p0, Lcom/google/android/gms/common/data/DataHolder$a;->b:Ljava/util/ArrayList;
@@ -297,7 +274,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
 
@@ -306,20 +282,17 @@
     :goto_1
     if-ne v0, v1, :cond_3
 
-    .line 7
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder$a;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_2
 
-    .line 8
     :cond_3
     iget-object v1, p0, Lcom/google/android/gms/common/data/DataHolder$a;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
 
-    .line 9
     iget-object v1, p0, Lcom/google/android/gms/common/data/DataHolder$a;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v0, p1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
@@ -327,7 +300,6 @@
     :goto_2
     const/4 p1, 0x0
 
-    .line 10
     iput-boolean p1, p0, Lcom/google/android/gms/common/data/DataHolder$a;->e:Z
 
     return-object p0

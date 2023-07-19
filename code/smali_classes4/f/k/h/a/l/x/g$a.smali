@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/k/h/a/l/x/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/l/x/g$a;->a:Lf/k/h/a/l/x/g;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,25 +51,21 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lf/k/h/a/l/x/g$a;->a:Lf/k/h/a/l/x/g;
 
     invoke-static {p1, p2}, Lf/k/h/a/l/x/g;->e(Lf/k/h/a/l/x/g;Ljava/util/List;)V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lf/k/h/a/l/x/g$a;->a:Lf/k/h/a/l/x/g;
 
     invoke-static {v1, p1, p2}, Lf/k/h/a/l/x/g;->f(Lf/k/h/a/l/x/g;ILjava/util/List;)V
 
-    .line 3
     iget-object p1, p0, Lf/k/h/a/l/x/g$a;->a:Lf/k/h/a/l/x/g;
 
     invoke-static {p1}, Lf/k/h/a/l/x/g;->g(Lf/k/h/a/l/x/g;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

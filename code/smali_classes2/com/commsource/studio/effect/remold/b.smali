@@ -27,10 +27,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/effect/k;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -49,10 +47,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/remold/b;->i:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -72,7 +68,6 @@
 
     check-cast v2, Landroid/util/SparseArray;
 
-    .line 3
     invoke-virtual {v2}, Landroid/util/SparseArray;->size()I
 
     move-result v4
@@ -80,14 +75,12 @@
     :goto_0
     if-ge v3, v4, :cond_0
 
-    .line 4
     invoke-virtual {v2, v3}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/commsource/studio/effect/remold/a;
 
-    .line 5
     invoke-virtual {v5}, Lcom/commsource/studio/effect/remold/a;->a()F
 
     move-result v5
@@ -98,7 +91,6 @@
 
     if-eqz v5, :cond_1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -110,7 +102,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -135,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/remold/b;->i:Ljava/util/LinkedList;
 
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
@@ -201,7 +191,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/remold/b;->i:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->isEmpty()Z
@@ -212,12 +201,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/effect/remold/b;->i:Ljava/util/LinkedList;
 
@@ -239,17 +226,14 @@
 
     check-cast p1, Landroid/util/SparseArray;
 
-    .line 4
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->getRemoldEnums()Ljava/util/List;
 
     move-result-object p2
 
-    .line 6
     invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -268,7 +252,6 @@
 
     check-cast v2, Lcom/commsource/studio/effect/remold/RemoldEnum;
 
-    .line 7
     sget-object v3, Lcom/commsource/studio/effect/remold/RemoldEnum;->Smile:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     if-ne v2, v3, :cond_3
@@ -279,7 +262,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 8
     :cond_3
     invoke-virtual {v2}, Lcom/commsource/studio/effect/remold/RemoldEnum;->getId()I
 
@@ -293,7 +275,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -319,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/remold/b;->i:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -342,10 +322,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/remold/b;->i:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -363,7 +341,6 @@
 
     check-cast v2, Landroid/util/SparseArray;
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/effect/remold/RemoldEnum;->getId()I
 
     move-result v3
@@ -374,7 +351,6 @@
 
     check-cast v2, Lcom/commsource/studio/effect/remold/a;
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/studio/effect/remold/a;->a()F
 
     move-result v3
@@ -385,7 +361,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/studio/effect/remold/a;->a()F
 
     move-result p1
@@ -405,7 +380,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -426,7 +400,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/j;->d()I
 
     move-result p1
@@ -444,17 +417,14 @@
     :goto_0
     if-ge v2, p1, :cond_1
 
-    .line 2
     new-instance v3, Landroid/util/SparseArray;
 
     invoke-direct {v3}, Landroid/util/SparseArray;-><init>()V
 
-    .line 3
     invoke-static {}, Lcom/commsource/studio/effect/remold/RemoldEnum;->values()[Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     move-result-object v4
 
-    .line 4
     array-length v5, v4
 
     const/4 v6, 0x0
@@ -464,7 +434,6 @@
 
     aget-object v7, v4, v6
 
-    .line 5
     invoke-virtual {v7}, Lcom/commsource/studio/effect/remold/RemoldEnum;->getId()I
 
     move-result v8
@@ -479,7 +448,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     iget-object v4, p0, Lcom/commsource/studio/effect/remold/b;->i:Ljava/util/LinkedList;
 
@@ -489,7 +457,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

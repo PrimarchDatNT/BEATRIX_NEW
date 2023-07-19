@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 .method public b(Landroid/content/Context;Lcom/bumptech/glide/c;Lcom/bumptech/glide/Registry;)V
     .locals 1
 
-    .line 1
     const-class p1, Lcom/bumptech/glide/load/k/g;
 
     const-class p2, Ljava/io/InputStream;

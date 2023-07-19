@@ -45,7 +45,6 @@
 
     move-object v3, p2
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/x;-><init>(ILjava/lang/String;Ljava/lang/Integer;ILcotlin/jvm/internal/u;)V
 
     return-void
@@ -60,7 +59,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/gesture/GestureLayer$b;->r:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {p2}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -75,7 +73,6 @@
 
     invoke-virtual {p2, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

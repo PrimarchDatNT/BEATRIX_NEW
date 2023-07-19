@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Landroid/view/animation/LinearInterpolator;
 
     invoke-direct {v0}, Landroid/view/animation/LinearInterpolator;-><init>()V
@@ -51,7 +50,6 @@
 
     const-string/jumbo v8, "ti"
 
-    .line 2
     filled-new-array/range {v1 .. v8}, [Ljava/lang/String;
 
     move-result-object v0
@@ -66,7 +64,6 @@
 
     const-string/jumbo v1, "y"
 
-    .line 3
     filled-new-array {v0, v1}, [Ljava/lang/String;
 
     move-result-object v0
@@ -83,7 +80,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -103,12 +99,10 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lcom/airbnb/lottie/y/q;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     invoke-static {}, Lcom/airbnb/lottie/y/q;->g()Landroidx/collection/SparseArrayCompat;
 
@@ -127,7 +121,6 @@
     :catchall_0
     move-exception p0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -138,7 +131,6 @@
 .method private static b(Landroid/graphics/PointF;Landroid/graphics/PointF;)Landroid/view/animation/Interpolator;
     .locals 6
 
-    .line 1
     iget v0, p0, Landroid/graphics/PointF;->x:F
 
     const/high16 v1, -0x40800000    # -1.0f
@@ -151,7 +143,6 @@
 
     iput v0, p0, Landroid/graphics/PointF;->x:F
 
-    .line 2
     iget v0, p0, Landroid/graphics/PointF;->y:F
 
     const/high16 v3, -0x3d380000    # -100.0f
@@ -164,7 +155,6 @@
 
     iput v0, p0, Landroid/graphics/PointF;->y:F
 
-    .line 3
     iget v0, p1, Landroid/graphics/PointF;->x:F
 
     invoke-static {v0, v1, v2}, Lcom/airbnb/lottie/z/g;->c(FFF)F
@@ -173,7 +163,6 @@
 
     iput v0, p1, Landroid/graphics/PointF;->x:F
 
-    .line 4
     iget v0, p1, Landroid/graphics/PointF;->y:F
 
     invoke-static {v0, v3, v4}, Lcom/airbnb/lottie/z/g;->c(FFF)F
@@ -182,7 +171,6 @@
 
     iput v0, p1, Landroid/graphics/PointF;->y:F
 
-    .line 5
     iget v1, p0, Landroid/graphics/PointF;->x:F
 
     iget v3, p0, Landroid/graphics/PointF;->y:F
@@ -193,14 +181,12 @@
 
     move-result v0
 
-    .line 6
     invoke-static {v0}, Lcom/airbnb/lottie/y/q;->a(I)Ljava/lang/ref/WeakReference;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v3
@@ -217,7 +203,6 @@
 
     if-nez v3, :cond_3
 
-    .line 8
     :cond_1
     :try_start_0
     iget v1, p0, Landroid/graphics/PointF;->x:F
@@ -239,7 +224,6 @@
     :catch_0
     move-exception v1
 
-    .line 9
     invoke-virtual {v1}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
 
     move-result-object v1
@@ -252,7 +236,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 10
     iget v1, p0, Landroid/graphics/PointF;->x:F
 
     invoke-static {v1, v2}, Ljava/lang/Math;->min(FF)F
@@ -277,7 +260,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     new-instance p0, Landroid/view/animation/LinearInterpolator;
 
@@ -286,7 +268,6 @@
     :goto_1
     move-object v3, p0
 
-    .line 12
     :try_start_1
     new-instance p0, Ljava/lang/ref/WeakReference;
 
@@ -328,7 +309,6 @@
 
     if-eqz p5, :cond_0
 
-    .line 1
     invoke-static {p1, p0, p2, p3}, Lcom/airbnb/lottie/y/q;->e(Lcom/airbnb/lottie/g;Lcom/airbnb/lottie/parser/moshi/JsonReader;FLcom/airbnb/lottie/y/k0;)Lcom/airbnb/lottie/a0/a;
 
     move-result-object p0
@@ -338,14 +318,12 @@
     :cond_0
     if-eqz p4, :cond_1
 
-    .line 2
     invoke-static {p1, p0, p2, p3}, Lcom/airbnb/lottie/y/q;->d(Lcom/airbnb/lottie/g;Lcom/airbnb/lottie/parser/moshi/JsonReader;FLcom/airbnb/lottie/y/k0;)Lcom/airbnb/lottie/a0/a;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_1
     invoke-static {p0, p2, p3}, Lcom/airbnb/lottie/y/q;->f(Lcom/airbnb/lottie/parser/moshi/JsonReader;FLcom/airbnb/lottie/y/k0;)Lcom/airbnb/lottie/a0/a;
 
@@ -377,7 +355,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->c()V
 
     const/4 v0, 0x0
@@ -400,7 +377,6 @@
 
     const/4 v7, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -408,7 +384,6 @@
 
     if-eqz v6, :cond_1
 
-    .line 3
     sget-object v6, Lcom/airbnb/lottie/y/q;->d:Lcom/airbnb/lottie/parser/moshi/JsonReader$a;
 
     invoke-virtual {p1, v6}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->o(Lcom/airbnb/lottie/parser/moshi/JsonReader$a;)I
@@ -419,12 +394,10 @@
 
     packed-switch v6, :pswitch_data_0
 
-    .line 4
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     goto :goto_0
 
-    .line 5
     :pswitch_0
     invoke-static {p1, p2}, Lcom/airbnb/lottie/y/p;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Landroid/graphics/PointF;
 
@@ -432,7 +405,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_1
     invoke-static {p1, p2}, Lcom/airbnb/lottie/y/p;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Landroid/graphics/PointF;
 
@@ -440,7 +412,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_2
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->i()I
 
@@ -459,7 +430,6 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_3
     invoke-static {p1, v8}, Lcom/airbnb/lottie/y/p;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Landroid/graphics/PointF;
 
@@ -467,7 +437,6 @@
 
     goto :goto_0
 
-    .line 9
     :pswitch_4
     invoke-static {p1, v8}, Lcom/airbnb/lottie/y/p;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Landroid/graphics/PointF;
 
@@ -475,7 +444,6 @@
 
     goto :goto_0
 
-    .line 10
     :pswitch_5
     invoke-interface {p3, p1, p2}, Lcom/airbnb/lottie/y/k0;->a(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Ljava/lang/Object;
 
@@ -483,7 +451,6 @@
 
     goto :goto_0
 
-    .line 11
     :pswitch_6
     invoke-interface {p3, p1, p2}, Lcom/airbnb/lottie/y/k0;->a(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Ljava/lang/Object;
 
@@ -491,7 +458,6 @@
 
     goto :goto_0
 
-    .line 12
     :pswitch_7
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
@@ -501,13 +467,11 @@
 
     goto :goto_0
 
-    .line 13
     :cond_1
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->e()V
 
     if-eqz v5, :cond_2
 
-    .line 14
     sget-object p1, Lcom/airbnb/lottie/y/q;->b:Landroid/view/animation/Interpolator;
 
     move-object v6, p1
@@ -521,14 +485,12 @@
 
     if-eqz v2, :cond_3
 
-    .line 15
     invoke-static {v1, v2}, Lcom/airbnb/lottie/y/q;->b(Landroid/graphics/PointF;Landroid/graphics/PointF;)Landroid/view/animation/Interpolator;
 
     move-result-object p1
 
     goto :goto_1
 
-    .line 16
     :cond_3
     sget-object p1, Lcom/airbnb/lottie/y/q;->b:Landroid/view/animation/Interpolator;
 
@@ -537,7 +499,6 @@
 
     move-object v5, v3
 
-    .line 17
     :goto_2
     new-instance p1, Lcom/airbnb/lottie/a0/a;
 
@@ -549,10 +510,8 @@
 
     invoke-direct/range {v2 .. v8}, Lcom/airbnb/lottie/a0/a;-><init>(Lcom/airbnb/lottie/g;Ljava/lang/Object;Ljava/lang/Object;Landroid/view/animation/Interpolator;FLjava/lang/Float;)V
 
-    .line 18
     iput-object v9, p1, Lcom/airbnb/lottie/a0/a;->o:Landroid/graphics/PointF;
 
-    .line 19
     iput-object v10, p1, Lcom/airbnb/lottie/a0/a;->p:Landroid/graphics/PointF;
 
     return-object p1
@@ -601,7 +560,6 @@
 
     move-object/from16 v2, p3
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->c()V
 
     const/4 v3, 0x0
@@ -628,7 +586,6 @@
 
     const/16 v16, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -636,7 +593,6 @@
 
     if-eqz v17, :cond_d
 
-    .line 3
     sget-object v4, Lcom/airbnb/lottie/y/q;->d:Lcom/airbnb/lottie/parser/moshi/JsonReader$a;
 
     invoke-virtual {v0, v4}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->o(Lcom/airbnb/lottie/parser/moshi/JsonReader$a;)I
@@ -653,12 +609,10 @@
 
     move-object/from16 v18, v15
 
-    .line 4
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     goto/16 :goto_6
 
-    .line 5
     :pswitch_0
     invoke-static/range {p1 .. p2}, Lcom/airbnb/lottie/y/p;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Landroid/graphics/PointF;
 
@@ -666,7 +620,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_1
     invoke-static/range {p1 .. p2}, Lcom/airbnb/lottie/y/p;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Landroid/graphics/PointF;
 
@@ -674,7 +627,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_2
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->i()I
 
@@ -691,7 +643,6 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_3
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
@@ -701,7 +652,6 @@
 
     if-ne v4, v5, :cond_6
 
-    .line 9
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->c()V
 
     const/4 v4, 0x0
@@ -712,7 +662,6 @@
 
     const/4 v13, 0x0
 
-    .line 10
     :goto_1
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -722,7 +671,6 @@
 
     move-object/from16 v18, v15
 
-    .line 11
     sget-object v15, Lcom/airbnb/lottie/y/q;->e:Lcom/airbnb/lottie/parser/moshi/JsonReader$a;
 
     invoke-virtual {v0, v15}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->o(Lcom/airbnb/lottie/parser/moshi/JsonReader$a;)I
@@ -737,7 +685,6 @@
 
     if-eq v15, v3, :cond_1
 
-    .line 12
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     :goto_2
@@ -747,7 +694,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_1
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
@@ -759,7 +705,6 @@
 
     move v3, v14
 
-    .line 14
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v13
@@ -775,24 +720,20 @@
     :cond_2
     move v3, v14
 
-    .line 15
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b()V
 
-    .line 16
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v13
 
     double-to-float v5, v13
 
-    .line 17
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v13
 
     double-to-float v13, v13
 
-    .line 18
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->d()V
 
     goto :goto_3
@@ -802,7 +743,6 @@
 
     move v3, v14
 
-    .line 19
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     move-result-object v4
@@ -811,7 +751,6 @@
 
     if-ne v4, v12, :cond_4
 
-    .line 20
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v14
@@ -824,25 +763,21 @@
 
     goto :goto_2
 
-    .line 21
     :cond_4
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b()V
 
-    .line 22
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v14
 
     double-to-float v4, v14
 
-    .line 23
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v14
 
     double-to-float v12, v14
 
-    .line 24
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->d()V
 
     :goto_3
@@ -857,17 +792,14 @@
 
     move-object/from16 v18, v15
 
-    .line 25
     new-instance v14, Landroid/graphics/PointF;
 
     invoke-direct {v14, v4, v5}, Landroid/graphics/PointF;-><init>(FF)V
 
-    .line 26
     new-instance v4, Landroid/graphics/PointF;
 
     invoke-direct {v4, v12, v13}, Landroid/graphics/PointF;-><init>(FF)V
 
-    .line 27
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->e()V
 
     move-object v13, v4
@@ -883,7 +815,6 @@
 
     move-object/from16 v18, v15
 
-    .line 28
     invoke-static/range {p1 .. p2}, Lcom/airbnb/lottie/y/p;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Landroid/graphics/PointF;
 
     move-result-object v8
@@ -897,7 +828,6 @@
 
     move-object/from16 v18, v15
 
-    .line 29
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     move-result-object v4
@@ -906,7 +836,6 @@
 
     if-ne v4, v5, :cond_c
 
-    .line 30
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->c()V
 
     const/4 v4, 0x0
@@ -917,7 +846,6 @@
 
     const/4 v11, 0x0
 
-    .line 31
     :goto_4
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -925,7 +853,6 @@
 
     if-eqz v14, :cond_b
 
-    .line 32
     sget-object v14, Lcom/airbnb/lottie/y/q;->e:Lcom/airbnb/lottie/parser/moshi/JsonReader$a;
 
     invoke-virtual {v0, v14}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->o(Lcom/airbnb/lottie/parser/moshi/JsonReader$a;)I
@@ -938,12 +865,10 @@
 
     if-eq v14, v15, :cond_7
 
-    .line 33
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     goto :goto_4
 
-    .line 34
     :cond_7
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
@@ -953,7 +878,6 @@
 
     if-ne v5, v11, :cond_8
 
-    .line 35
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v14
@@ -964,30 +888,25 @@
 
     goto :goto_4
 
-    .line 36
     :cond_8
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b()V
 
-    .line 37
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v14
 
     double-to-float v5, v14
 
-    .line 38
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v14
 
     double-to-float v11, v14
 
-    .line 39
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->d()V
 
     goto :goto_4
 
-    .line 40
     :cond_9
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
@@ -997,7 +916,6 @@
 
     if-ne v4, v9, :cond_a
 
-    .line 41
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v14
@@ -1008,41 +926,34 @@
 
     goto :goto_4
 
-    .line 42
     :cond_a
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b()V
 
-    .line 43
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v14
 
     double-to-float v4, v14
 
-    .line 44
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v14
 
     double-to-float v9, v14
 
-    .line 45
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->d()V
 
     goto :goto_4
 
-    .line 46
     :cond_b
     new-instance v14, Landroid/graphics/PointF;
 
     invoke-direct {v14, v4, v5}, Landroid/graphics/PointF;-><init>(FF)V
 
-    .line 47
     new-instance v4, Landroid/graphics/PointF;
 
     invoke-direct {v4, v9, v11}, Landroid/graphics/PointF;-><init>(FF)V
 
-    .line 48
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->e()V
 
     move-object v11, v4
@@ -1056,7 +967,6 @@
 
     goto :goto_6
 
-    .line 49
     :cond_c
     invoke-static/range {p1 .. p2}, Lcom/airbnb/lottie/y/p;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Landroid/graphics/PointF;
 
@@ -1075,7 +985,6 @@
 
     move-object/from16 v18, v15
 
-    .line 50
     invoke-interface {v2, v0, v1}, Lcom/airbnb/lottie/y/k0;->a(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Ljava/lang/Object;
 
     move-result-object v16
@@ -1089,7 +998,6 @@
 
     move-object/from16 v18, v15
 
-    .line 51
     invoke-interface {v2, v0, v1}, Lcom/airbnb/lottie/y/k0;->a(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Ljava/lang/Object;
 
     move-result-object v10
@@ -1101,7 +1009,6 @@
 
     move-object/from16 v18, v15
 
-    .line 52
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v3
@@ -1120,12 +1027,10 @@
 
     move-object/from16 v18, v15
 
-    .line 53
     invoke-virtual/range {p1 .. p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->e()V
 
     if-eqz v6, :cond_e
 
-    .line 54
     sget-object v0, Lcom/airbnb/lottie/y/q;->b:Landroid/view/animation/Interpolator;
 
     move-object v11, v10
@@ -1142,7 +1047,6 @@
 
     if-eqz v8, :cond_f
 
-    .line 55
     invoke-static {v7, v8}, Lcom/airbnb/lottie/y/q;->b(Landroid/graphics/PointF;Landroid/graphics/PointF;)Landroid/view/animation/Interpolator;
 
     move-result-object v0
@@ -1158,12 +1062,10 @@
 
     if-eqz v13, :cond_10
 
-    .line 56
     invoke-static {v9, v12}, Lcom/airbnb/lottie/y/q;->b(Landroid/graphics/PointF;Landroid/graphics/PointF;)Landroid/view/animation/Interpolator;
 
     move-result-object v0
 
-    .line 57
     invoke-static {v11, v13}, Lcom/airbnb/lottie/y/q;->b(Landroid/graphics/PointF;Landroid/graphics/PointF;)Landroid/view/animation/Interpolator;
 
     move-result-object v1
@@ -1178,7 +1080,6 @@
 
     goto :goto_9
 
-    .line 58
     :cond_10
     sget-object v0, Lcom/airbnb/lottie/y/q;->b:Landroid/view/animation/Interpolator;
 
@@ -1192,7 +1093,6 @@
 
     if-eqz v13, :cond_11
 
-    .line 59
     new-instance v0, Lcom/airbnb/lottie/a0/a;
 
     const/4 v15, 0x0
@@ -1212,7 +1112,6 @@
     :cond_11
     move-object/from16 v5, v18
 
-    .line 60
     new-instance v1, Lcom/airbnb/lottie/a0/a;
 
     const/4 v14, 0x0
@@ -1229,13 +1128,11 @@
 
     move-object v0, v1
 
-    .line 61
     :goto_a
     iput-object v5, v0, Lcom/airbnb/lottie/a0/a;->o:Landroid/graphics/PointF;
 
     move-object/from16 v3, v19
 
-    .line 62
     iput-object v3, v0, Lcom/airbnb/lottie/a0/a;->p:Landroid/graphics/PointF;
 
     return-object v0
@@ -1275,12 +1172,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p2, p0, p1}, Lcom/airbnb/lottie/y/k0;->a(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Lcom/airbnb/lottie/a0/a;
 
     invoke-direct {p1, p0}, Lcom/airbnb/lottie/a0/a;-><init>(Ljava/lang/Object;)V
@@ -1300,19 +1195,16 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/y/q;->c:Landroidx/collection/SparseArrayCompat;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroidx/collection/SparseArrayCompat;
 
     invoke-direct {v0}, Landroidx/collection/SparseArrayCompat;-><init>()V
 
     sput-object v0, Lcom/airbnb/lottie/y/q;->c:Landroidx/collection/SparseArrayCompat;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/airbnb/lottie/y/q;->c:Landroidx/collection/SparseArrayCompat;
 
@@ -1330,18 +1222,15 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lcom/airbnb/lottie/y/q;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/airbnb/lottie/y/q;->c:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p0, p1}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
 
-    .line 3
     monitor-exit v0
 
     return-void

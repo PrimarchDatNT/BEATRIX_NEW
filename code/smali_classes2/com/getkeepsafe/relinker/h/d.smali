@@ -16,25 +16,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/getkeepsafe/relinker/h/c$b;-><init>()V
 
-    .line 2
     iput-boolean p1, p0, Lcom/getkeepsafe/relinker/h/c$b;->a:Z
 
-    .line 3
     iput-object p2, p0, Lcom/getkeepsafe/relinker/h/d;->m:Lcom/getkeepsafe/relinker/h/f;
 
     const/4 v0, 0x4
 
-    .line 4
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
     if-eqz p1, :cond_0
 
-    .line 5
     sget-object p1, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     goto :goto_0
@@ -47,7 +42,6 @@
 
     const-wide/16 v1, 0x10
 
-    .line 6
     invoke-virtual {p2, v0, v1, v2}, Lcom/getkeepsafe/relinker/h/f;->f(Ljava/nio/ByteBuffer;J)I
 
     move-result p1
@@ -56,7 +50,6 @@
 
     const-wide/16 v1, 0x1c
 
-    .line 7
     invoke-virtual {p2, v0, v1, v2}, Lcom/getkeepsafe/relinker/h/f;->i(Ljava/nio/ByteBuffer;J)J
 
     move-result-wide v1
@@ -65,7 +58,6 @@
 
     const-wide/16 v1, 0x20
 
-    .line 8
     invoke-virtual {p2, v0, v1, v2}, Lcom/getkeepsafe/relinker/h/f;->i(Ljava/nio/ByteBuffer;J)J
 
     move-result-wide v1
@@ -74,7 +66,6 @@
 
     const-wide/16 v1, 0x2a
 
-    .line 9
     invoke-virtual {p2, v0, v1, v2}, Lcom/getkeepsafe/relinker/h/f;->f(Ljava/nio/ByteBuffer;J)I
 
     move-result p1
@@ -83,7 +74,6 @@
 
     const-wide/16 v1, 0x2c
 
-    .line 10
     invoke-virtual {p2, v0, v1, v2}, Lcom/getkeepsafe/relinker/h/f;->f(Ljava/nio/ByteBuffer;J)I
 
     move-result p1
@@ -92,7 +82,6 @@
 
     const-wide/16 v1, 0x2e
 
-    .line 11
     invoke-virtual {p2, v0, v1, v2}, Lcom/getkeepsafe/relinker/h/f;->f(Ljava/nio/ByteBuffer;J)I
 
     move-result p1
@@ -101,7 +90,6 @@
 
     const-wide/16 v1, 0x30
 
-    .line 12
     invoke-virtual {p2, v0, v1, v2}, Lcom/getkeepsafe/relinker/h/f;->f(Ljava/nio/ByteBuffer;J)I
 
     move-result p1
@@ -110,7 +98,6 @@
 
     const-wide/16 v1, 0x32
 
-    .line 13
     invoke-virtual {p2, v0, v1, v2}, Lcom/getkeepsafe/relinker/h/f;->f(Ljava/nio/ByteBuffer;J)I
 
     move-result p1
@@ -130,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v6, Lcom/getkeepsafe/relinker/h/a;
 
     iget-object v1, p0, Lcom/getkeepsafe/relinker/h/d;->m:Lcom/getkeepsafe/relinker/h/f;
@@ -156,7 +142,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/getkeepsafe/relinker/h/g;
 
     iget-object v1, p0, Lcom/getkeepsafe/relinker/h/d;->m:Lcom/getkeepsafe/relinker/h/f;
@@ -174,7 +159,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/getkeepsafe/relinker/h/i;
 
     iget-object v1, p0, Lcom/getkeepsafe/relinker/h/d;->m:Lcom/getkeepsafe/relinker/h/f;

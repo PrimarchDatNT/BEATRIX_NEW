@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/k/m/f/b;Lcom/android/billingclient/api/Purchase;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/m/f/b$k;->b:Lf/k/m/f/b;
 
     iput-object p2, p0, Lf/k/m/f/b$k;->a:Lcom/android/billingclient/api/Purchase;
@@ -46,13 +45,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :cond_0
     iget-object v1, p0, Lf/k/m/f/b$k;->b:Lf/k/m/f/b;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lf/k/m/f/b$k;->b:Lf/k/m/f/b;
 
@@ -66,7 +63,6 @@
 
     if-lez v2, :cond_5
 
-    .line 3
     iget-object v2, p0, Lf/k/m/f/b$k;->b:Lf/k/m/f/b;
 
     invoke-static {v2}, Lf/k/m/f/b;->o(Lf/k/m/f/b;)Ljava/util/List;
@@ -81,7 +77,6 @@
 
     check-cast v2, Lcom/android/billingclient/api/Purchase;
 
-    .line 4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -90,7 +85,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v2}, Lcom/meitu/ipstore/gplay/server/a;->a(Lcom/android/billingclient/api/Purchase;)Lcom/meitu/ipstore/gplay/server/VerifyResult;
 
@@ -98,7 +92,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 6
     invoke-virtual {v1}, Lcom/meitu/ipstore/gplay/server/VerifyResult;->isSuccess()Z
 
     move-result v3
@@ -107,7 +100,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-static {}, Lcom/android/billingclient/api/b;->b()Lcom/android/billingclient/api/b$a;
 
@@ -127,7 +119,6 @@
 
     move-result-object v1
 
-    .line 8
     iget-object v3, p0, Lf/k/m/f/b$k;->b:Lf/k/m/f/b;
 
     invoke-static {v3}, Lf/k/m/f/b;->a(Lf/k/m/f/b;)Lcom/android/billingclient/api/d;
@@ -140,7 +131,6 @@
 
     invoke-virtual {v3, v1, v4}, Lcom/android/billingclient/api/d;->a(Lcom/android/billingclient/api/b;Lcom/android/billingclient/api/c;)V
 
-    .line 9
     :goto_0
     iget-object v1, p0, Lf/k/m/f/b$k;->b:Lf/k/m/f/b;
 
@@ -156,7 +146,6 @@
 
     goto :goto_3
 
-    .line 10
     :cond_3
     :goto_1
     iget-object v3, p0, Lf/k/m/f/b$k;->b:Lf/k/m/f/b;
@@ -175,19 +164,16 @@
     :goto_2
     invoke-static {v3, v2, v4, v1}, Lf/k/m/f/b;->d(Lf/k/m/f/b;Lcom/android/billingclient/api/Purchase;ILjava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_5
     :try_start_1
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 13
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -196,7 +182,6 @@
     :catchall_0
     move-exception v2
 
-    .line 14
     :try_start_2
     monitor-exit v1
     :try_end_2

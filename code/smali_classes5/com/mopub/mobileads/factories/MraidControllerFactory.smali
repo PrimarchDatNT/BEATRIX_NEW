@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/factories/MraidControllerFactory;
 
     invoke-direct {v0}, Lcom/mopub/mobileads/factories/MraidControllerFactory;-><init>()V
@@ -24,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +43,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/factories/MraidControllerFactory;->instance:Lcom/mopub/mobileads/factories/MraidControllerFactory;
 
     invoke-virtual {v0, p0, p1, p2}, Lcom/mopub/mobileads/factories/MraidControllerFactory;->internalCreate(Landroid/content/Context;Ljava/lang/String;Lcom/mopub/mraid/PlacementType;)Lcom/mopub/mraid/MraidController;
@@ -60,7 +57,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     sput-object p0, Lcom/mopub/mobileads/factories/MraidControllerFactory;->instance:Lcom/mopub/mobileads/factories/MraidControllerFactory;
 
     return-void
@@ -83,7 +79,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcom/mopub/mraid/MraidController;
 
     invoke-direct {v0, p1, p2, p3}, Lcom/mopub/mraid/MraidController;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/mopub/mraid/PlacementType;)V

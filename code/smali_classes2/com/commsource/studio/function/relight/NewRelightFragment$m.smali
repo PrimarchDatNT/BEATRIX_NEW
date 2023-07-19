@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
@@ -68,7 +67,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$m;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->J1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/NewRelightLayer;
@@ -95,7 +93,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/studio/function/relight/NewRelightLayer;->G0(Lcom/commsource/studio/function/relight/e;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$m;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->K1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/g;
@@ -108,7 +105,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$m;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->J1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/NewRelightLayer;
@@ -117,7 +113,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/studio/function/relight/NewRelightLayer;->H0(Z)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$m;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->K1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/g;
@@ -128,7 +123,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$m;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
@@ -156,7 +150,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/studio/function/relight/NewRelightLayer;->G0(Lcom/commsource/studio/function/relight/e;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$m;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->K1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/g;
@@ -169,7 +162,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$m;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->J1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/NewRelightLayer;
@@ -178,7 +170,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/studio/function/relight/NewRelightLayer;->H0(Z)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$m;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->K1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/g;
@@ -187,7 +178,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/relight/g;->f0(Z)V
 
-    .line 10
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -202,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/relight/NewRelightFragment$m;->a(Ljava/lang/Boolean;)V

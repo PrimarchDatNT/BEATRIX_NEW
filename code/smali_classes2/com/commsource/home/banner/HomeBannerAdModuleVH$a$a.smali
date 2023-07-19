@@ -46,7 +46,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a$a;->a:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->performClick()Z

@@ -18,7 +18,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/c/c/d;
 
     invoke-direct {v1}, Lf/k/c/c/d;-><init>()V
@@ -33,7 +32,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -59,7 +57,6 @@
 
     const/4 p4, 0x0
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3, p4}, Lf/k/c/c/d;->b(IIFI)Landroid/graphics/drawable/GradientDrawable;
 
@@ -99,7 +96,6 @@
 
     move v4, p1
 
-    .line 1
     invoke-virtual/range {v2 .. v7}, Lf/k/c/c/d;->c(IIFI[F)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object p1
@@ -130,7 +126,6 @@
 
     move v5, p4
 
-    .line 1
     invoke-virtual/range {v1 .. v6}, Lf/k/c/c/d;->c(IIFI[F)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object p1
@@ -153,15 +148,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {v1}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
-    .line 2
     invoke-virtual {v1, p2}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 3
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
 
     const/4 p1, 0x0
@@ -172,7 +164,6 @@
 
     if-lez p2, :cond_0
 
-    .line 4
     invoke-static {p3}, Lf/k/c/c/c;->c(F)I
 
     move-result p2
@@ -182,25 +173,21 @@
     :cond_0
     if-eqz p5, :cond_2
 
-    .line 5
     array-length p2, p5
 
     const/4 p3, 0x1
 
     if-ne p2, p3, :cond_1
 
-    .line 6
     aget p1, p5, p1
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {v1, p5}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadii([F)V
 
-    .line 8
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

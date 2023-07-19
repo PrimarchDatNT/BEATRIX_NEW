@@ -17,10 +17,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/g/h/c;-><init>()V
 
-    .line 2
     sget-object v0, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
 
     iput-object v0, p0, Lcom/meitu/library/g/h/j/d;->a:Landroid/opengl/EGLSurface;
@@ -31,15 +29,12 @@
 .method public constructor <init>(Landroid/opengl/EGLSurface;)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/library/g/h/c;-><init>()V
 
-    .line 4
     sget-object v0, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
 
     iput-object v0, p0, Lcom/meitu/library/g/h/j/d;->a:Landroid/opengl/EGLSurface;
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/library/g/h/j/d;->a:Landroid/opengl/EGLSurface;
 
     return-void
@@ -54,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/j/d;->a:Landroid/opengl/EGLSurface;
 
     sget-object v2, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
@@ -81,12 +75,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
 
     iput-object v1, p0, Lcom/meitu/library/g/h/j/d;->a:Landroid/opengl/EGLSurface;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -99,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/j/d;->a:Landroid/opengl/EGLSurface;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -114,10 +105,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/g/h/j/d;->a:Landroid/opengl/EGLSurface;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$o;->g:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     iput-object p2, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$o;->p:Lcom/meitu/template/bean/Filter;
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$o;->g:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     invoke-static {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->l(Lcom/commsource/beautyfilter/NewBeautyFilterManager;)Lcom/commsource/beautyfilter/NewFilterRepository;
@@ -63,7 +61,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyfilter/NewFilterRepository;->x(Lcom/meitu/template/bean/Filter;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

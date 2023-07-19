@@ -28,7 +28,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/Result$Failure;
 
     invoke-direct {v0, p0}, Lcotlin/Result$Failure;-><init>(Ljava/lang/Throwable;)V
@@ -62,21 +61,18 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -105,7 +101,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/Result;->isFailure-impl(Ljava/lang/Object;)Z
 
     move-result v0
@@ -140,7 +135,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
 
     move-result-object v0
@@ -149,7 +143,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {p1, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -178,7 +171,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     return-object p0
@@ -207,7 +199,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/Result;->isSuccess-impl(Ljava/lang/Object;)Z
 
     move-result v0
@@ -226,7 +217,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -259,7 +249,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/Result;->isSuccess-impl(Ljava/lang/Object;)Z
 
     move-result v0
@@ -296,7 +285,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -330,7 +318,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
 
     move-result-object v0
@@ -366,7 +353,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/Result;->isSuccess-impl(Ljava/lang/Object;)Z
 
     move-result v0
@@ -402,7 +388,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
 
     move-result-object v0
@@ -411,7 +396,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
@@ -450,7 +434,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
 
     move-result-object v0
@@ -459,7 +442,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     :try_start_0
     sget-object p0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
@@ -515,7 +497,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     :try_start_0
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
@@ -534,7 +515,6 @@
     :catchall_0
     move-exception p0
 
-    .line 2
     sget-object p1, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     invoke-static {p0}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
@@ -569,7 +549,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     :try_start_0
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
@@ -588,7 +567,6 @@
     :catchall_0
     move-exception p0
 
-    .line 2
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     invoke-static {p0}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
@@ -616,7 +594,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlin/Result$Failure;
 
     if-nez v0, :cond_0

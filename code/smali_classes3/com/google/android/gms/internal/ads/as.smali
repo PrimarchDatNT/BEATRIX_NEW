@@ -16,15 +16,12 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/zzbco;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/as;->b:Z
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/as;->a:Lcom/google/android/gms/internal/ads/zzbco;
 
     return-void
@@ -33,14 +30,12 @@
 .method private final c()V
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/cn;->h:Lcom/google/android/gms/internal/ads/vn1;
 
     invoke-virtual {v0, p0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
     const-wide/16 v1, 0xfa
 
-    .line 2
     invoke-virtual {v0, p0, v1, v2}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
     return-void
@@ -53,10 +48,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/as;->b:Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/as;->a:Lcom/google/android/gms/internal/ads/zzbco;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzbco;->F()V
@@ -69,10 +62,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/as;->b:Z
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/as;->c()V
 
     return-void
@@ -81,17 +72,14 @@
 .method public final run()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/as;->b:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/as;->a:Lcom/google/android/gms/internal/ads/zzbco;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzbco;->F()V
 
-    .line 3
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/as;->c()V
 
     :cond_0

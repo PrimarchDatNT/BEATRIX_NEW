@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$s0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -53,7 +52,6 @@
 
     new-array v2, v2, [Landroid/view/View;
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/studio/ImageStudioActivity$s0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v3}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -70,7 +68,6 @@
 
     aput-object v3, v2, v4
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/ImageStudioActivity$s0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v3}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -87,7 +84,6 @@
 
     aput-object v3, v2, v4
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/ImageStudioActivity$s0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v3}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -104,7 +100,6 @@
 
     aput-object v3, v2, v4
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/ImageStudioActivity$s0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v3}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -121,7 +116,6 @@
 
     aput-object v3, v2, v4
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/studio/ImageStudioActivity$s0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v3}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -138,17 +132,14 @@
 
     aput-object v3, v2, v4
 
-    .line 7
     invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->e2([Landroid/view/View;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$s0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v2
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$s0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -167,7 +158,6 @@
 
     move-result v5
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$s0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -192,10 +182,8 @@
 
     const/4 v8, 0x0
 
-    .line 11
     invoke-static/range {v2 .. v8}, Lcom/commsource/studio/ImageStudioViewModel;->W1(Lcom/commsource/studio/ImageStudioViewModel;IIIIILjava/lang/Object;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

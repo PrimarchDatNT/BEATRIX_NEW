@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/appsflyer/deeplink/DdlEvent;Lcom/appsflyer/internal/referrer/Referrer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/deeplink/DdlEvent$4;->$$a:Lcom/appsflyer/deeplink/DdlEvent;
 
     iput-object p2, p0, Lcom/appsflyer/deeplink/DdlEvent$4;->values:Lcom/appsflyer/internal/referrer/Referrer;
@@ -42,7 +41,6 @@
 .method public final update(Ljava/util/Observable;Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     new-instance p2, Ljava/lang/StringBuilder;
 
     const-string v0, "[DDL] "
@@ -71,7 +69,6 @@
 
     invoke-static {p2}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 2
     iget-object p2, p0, Lcom/appsflyer/deeplink/DdlEvent$4;->$$a:Lcom/appsflyer/deeplink/DdlEvent;
 
     check-cast p1, Lcom/appsflyer/internal/referrer/Referrer;

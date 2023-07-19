@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/video/f$a;-><init>()V
 
     return-void
@@ -46,31 +44,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v2, Lcom/commsource/video/cover/d;
 
     invoke-direct {v2}, Lcom/commsource/video/cover/d;-><init>()V
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     new-instance v2, Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-direct {v2}, Lcom/commsource/video/cover/VideoControllCover;-><init>()V
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 4
     new-instance v2, Lcom/commsource/video/f;
 
     invoke-direct {v2, v1}, Lcom/commsource/video/f;-><init>(Ljava/util/List;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -85,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -94,7 +86,6 @@
 
     invoke-direct {v2, v1}, Lcom/commsource/video/f;-><init>(Ljava/util/List;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2

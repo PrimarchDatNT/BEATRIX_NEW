@@ -50,20 +50,16 @@
 .method public constructor <init>(I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->extras:Ljava/util/Map;
 
-    .line 3
     iput p1, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->layoutId:I
 
-    .line 4
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
@@ -76,7 +72,6 @@
 .method static synthetic access$100(Lcom/mopub/nativeads/ViewBinder$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->layoutId:I
 
     return p0
@@ -85,7 +80,6 @@
 .method static synthetic access$200(Lcom/mopub/nativeads/ViewBinder$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->titleId:I
 
     return p0
@@ -94,7 +88,6 @@
 .method static synthetic access$300(Lcom/mopub/nativeads/ViewBinder$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->textId:I
 
     return p0
@@ -103,7 +96,6 @@
 .method static synthetic access$400(Lcom/mopub/nativeads/ViewBinder$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->callToActionId:I
 
     return p0
@@ -112,7 +104,6 @@
 .method static synthetic access$500(Lcom/mopub/nativeads/ViewBinder$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->mainImageId:I
 
     return p0
@@ -121,7 +112,6 @@
 .method static synthetic access$600(Lcom/mopub/nativeads/ViewBinder$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->iconImageId:I
 
     return p0
@@ -130,7 +120,6 @@
 .method static synthetic access$700(Lcom/mopub/nativeads/ViewBinder$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->privacyInformationIconImageId:I
 
     return p0
@@ -139,7 +128,6 @@
 .method static synthetic access$800(Lcom/mopub/nativeads/ViewBinder$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->sponsoredTextId:I
 
     return p0
@@ -148,7 +136,6 @@
 .method static synthetic access$900(Lcom/mopub/nativeads/ViewBinder$Builder;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->extras:Ljava/util/Map;
 
     return-object p0
@@ -161,7 +148,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->extras:Ljava/util/Map;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -189,7 +175,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0, p1}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
@@ -204,7 +189,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/mopub/nativeads/ViewBinder;
 
     const/4 v1, 0x0
@@ -219,7 +203,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->callToActionId:I
 
     return-object p0
@@ -230,7 +213,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->iconImageId:I
 
     return-object p0
@@ -241,7 +223,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->mainImageId:I
 
     return-object p0
@@ -252,7 +233,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->privacyInformationIconImageId:I
 
     return-object p0
@@ -263,7 +243,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->sponsoredTextId:I
 
     return-object p0
@@ -274,7 +253,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->textId:I
 
     return-object p0
@@ -285,7 +263,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/mopub/nativeads/ViewBinder$Builder;->titleId:I
 
     return-object p0

@@ -49,17 +49,14 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lkshark/h;
 
-    .line 2
     invoke-virtual {p1}, Lkshark/h;->b()Ljava/lang/String;
 
     move-result-object p1
 
     check-cast p2, Lkshark/h;
 
-    .line 3
     invoke-virtual {p2}, Lkshark/h;->b()Ljava/lang/String;
 
     move-result-object p2

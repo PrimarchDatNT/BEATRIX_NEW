@@ -42,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$g;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->E2()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

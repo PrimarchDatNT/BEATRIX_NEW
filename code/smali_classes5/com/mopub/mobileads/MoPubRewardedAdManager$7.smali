@@ -25,7 +25,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$7;->val$currentlyShowingAdUnitId:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$7;->val$currentlyShowingAdUnitId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$900(Ljava/lang/String;)V

@@ -32,10 +32,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
@@ -48,7 +46,6 @@
 .method static synthetic access$000(Lcom/squareup/okhttp/CertificatePinner$Builder;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/CertificatePinner$Builder;->hostnameToPins:Ljava/util/Map;
 
     return-object p0
@@ -61,12 +58,10 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/squareup/okhttp/CertificatePinner$Builder;->hostnameToPins:Ljava/util/Map;
 
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
@@ -81,10 +76,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {v0, p1}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
 
-    .line 4
     :cond_0
     array-length p1, p2
 
@@ -97,7 +90,6 @@
 
     const-string v3, "sha1/"
 
-    .line 5
     invoke-virtual {v2, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v3
@@ -106,7 +98,6 @@
 
     const/4 v3, 0x5
 
-    .line 6
     invoke-virtual {v2, v3}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v3
@@ -117,14 +108,12 @@
 
     if-eqz v3, :cond_1
 
-    .line 7
     invoke-interface {v0, v3}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 8
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -146,7 +135,6 @@
 
     throw p1
 
-    .line 9
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -171,7 +159,6 @@
     :cond_3
     return-object p0
 
-    .line 10
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -185,7 +172,6 @@
 .method public build()Lcom/squareup/okhttp/CertificatePinner;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/CertificatePinner;
 
     const/4 v1, 0x0

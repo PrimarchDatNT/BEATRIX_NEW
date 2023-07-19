@@ -34,7 +34,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,7 +49,6 @@
 .method public final getDownloadProgress()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/meitu/template/bean/e;->downloadProgress:I
 
     return v0
@@ -59,7 +57,6 @@
 .method public final getDownloadState()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/meitu/template/bean/e;->downloadState:I
 
     return v0
@@ -73,7 +70,6 @@
 .method public final getInternalState()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/meitu/template/bean/e;->internalState:I
 
     return v0
@@ -87,7 +83,6 @@
 .method public final isUnZipping()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/meitu/template/bean/e;->isUnZipping:Z
 
     return v0
@@ -96,7 +91,6 @@
 .method public final setDownloadProgress(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/e;->downloadProgress:I
 
     return-void
@@ -105,7 +99,6 @@
 .method public final setDownloadState(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/e;->downloadState:I
 
     return-void
@@ -114,7 +107,6 @@
 .method public final setInternalState(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/e;->internalState:I
 
     return-void
@@ -123,7 +115,6 @@
 .method public final setUnZipping(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/template/bean/e;->isUnZipping:Z
 
     return-void

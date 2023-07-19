@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/bean/FocusLayerInfo;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->invoke(Lcom/commsource/studio/bean/FocusLayerInfo;)V
@@ -83,7 +82,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -98,7 +96,6 @@
 
     goto/16 :goto_1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
@@ -140,7 +137,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/GestureLayer;->K0()Lcom/commsource/studio/p;
@@ -149,7 +145,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/p;->d(Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -164,7 +159,6 @@
 
     goto/16 :goto_1
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
@@ -200,12 +194,10 @@
 
     if-eqz v1, :cond_4
 
-    .line 7
     instance-of v1, p1, Lcom/commsource/studio/bean/TextLayerInfo;
 
     if-eqz v1, :cond_2
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -222,7 +214,6 @@
 
     goto/16 :goto_1
 
-    .line 9
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getGroupLayerInfo()Lcom/commsource/studio/bean/GroupLayerInfo;
 
@@ -232,7 +223,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/GestureLayer;->K0()Lcom/commsource/studio/p;
@@ -243,7 +233,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     iget-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
@@ -255,7 +244,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
@@ -281,7 +269,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_5
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
@@ -291,7 +278,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/p;->d(Z)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -306,7 +292,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_6
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
@@ -317,14 +302,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/p;->d(Z)V
 
-    .line 16
     invoke-virtual {p1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getGroupLayerInfo()Lcom/commsource/studio/bean/GroupLayerInfo;
 
     move-result-object v1
 
     if-eqz v1, :cond_7
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -343,7 +326,6 @@
 
     goto :goto_1
 
-    .line 18
     :cond_7
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
@@ -357,7 +339,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/bean/a;->W(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 19
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

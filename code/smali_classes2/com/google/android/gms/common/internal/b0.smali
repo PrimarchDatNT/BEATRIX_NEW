@@ -11,10 +11,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/AssertionError;
 
     const-string v1, "Uninstantiable"
@@ -33,7 +31,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -51,7 +48,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -73,7 +69,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -93,7 +88,6 @@
 
     const-string v0, "Must be called on the handler thread"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->e(Landroid/os/Handler;Ljava/lang/String;)V
 
     return-void
@@ -104,7 +98,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v0
@@ -117,7 +110,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -131,7 +123,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/util/i0;->a()Z
 
     move-result v0
@@ -140,7 +131,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -154,7 +144,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -163,7 +152,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -179,7 +167,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -188,7 +175,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -208,7 +194,6 @@
 
     const-string v0, "Must not be called on the main application thread"
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->j(Ljava/lang/String;)V
 
     return-void
@@ -219,7 +204,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/util/i0;->a()Z
 
     move-result v0
@@ -228,7 +212,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -259,7 +242,6 @@
 
     const-string v0, "null reference"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     return-object p0
@@ -287,7 +269,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -309,7 +290,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -329,7 +309,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -355,7 +334,6 @@
 
     return-wide p0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -379,7 +357,6 @@
 
     return-wide p0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -401,7 +378,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -419,7 +395,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -441,7 +416,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 

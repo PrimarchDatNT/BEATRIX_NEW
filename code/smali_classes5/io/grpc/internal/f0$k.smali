@@ -72,17 +72,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/h$a;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lio/grpc/internal/f0$k;->c:Ljava/util/List;
 
-    .line 3
     iput-object p1, p0, Lio/grpc/internal/f0$k;->a:Lio/grpc/h$a;
 
     return-void
@@ -91,7 +88,6 @@
 .method static synthetic e(Lio/grpc/internal/f0$k;)Lio/grpc/h$a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/f0$k;->a:Lio/grpc/h$a;
 
     return-object p0
@@ -100,32 +96,26 @@
 .method private f(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lio/grpc/internal/f0$k;->b:Z
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/f0$k;->c:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     monitor-exit p0
 
     return-void
 
-    .line 5
     :cond_0
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     return-void
@@ -133,7 +123,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -147,7 +136,6 @@
 .method public a(Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/internal/f0$k$c;
 
     invoke-direct {v0, p0, p1, p2}, Lio/grpc/internal/f0$k$c;-><init>(Lio/grpc/internal/f0$k;Lio/grpc/Status;Lio/grpc/y0;)V
@@ -160,19 +148,16 @@
 .method public b(Lio/grpc/y0;)V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/f0$k;->b:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/f0$k;->a:Lio/grpc/h$a;
 
     invoke-virtual {v0, p1}, Lio/grpc/h$a;->b(Lio/grpc/y0;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Lio/grpc/internal/f0$k$a;
 
@@ -192,19 +177,16 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/f0$k;->b:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/f0$k;->a:Lio/grpc/h$a;
 
     invoke-virtual {v0, p1}, Lio/grpc/h$a;->c(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Lio/grpc/internal/f0$k$b;
 
@@ -219,19 +201,16 @@
 .method public d()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/f0$k;->b:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/f0$k;->a:Lio/grpc/h$a;
 
     invoke-virtual {v0}, Lio/grpc/h$a;->d()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Lio/grpc/internal/f0$k$d;
 
@@ -246,16 +225,13 @@
 .method g()V
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     :goto_0
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lio/grpc/internal/f0$k;->c:Ljava/util/List;
 
@@ -267,32 +243,25 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lio/grpc/internal/f0$k;->c:Ljava/util/List;
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lio/grpc/internal/f0$k;->b:Z
 
-    .line 6
     monitor-exit p0
 
     return-void
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lio/grpc/internal/f0$k;->c:Ljava/util/List;
 
-    .line 8
     iput-object v0, p0, Lio/grpc/internal/f0$k;->c:Ljava/util/List;
 
-    .line 9
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -310,12 +279,10 @@
 
     check-cast v2, Ljava/lang/Runnable;
 
-    .line 11
     invoke-interface {v2}, Ljava/lang/Runnable;->run()V
 
     goto :goto_1
 
-    .line 12
     :cond_1
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
@@ -326,7 +293,6 @@
     :catchall_0
     move-exception v0
 
-    .line 13
     :try_start_1
     monitor-exit p0
     :try_end_1

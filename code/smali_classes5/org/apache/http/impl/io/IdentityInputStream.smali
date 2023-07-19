@@ -18,17 +18,14 @@
 .method public constructor <init>(Lorg/apache/http/io/SessionInputBuffer;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lorg/apache/http/impl/io/IdentityInputStream;->closed:Z
 
     const-string v0, "Session input buffer"
 
-    .line 3
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -50,14 +47,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/io/IdentityInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
     instance-of v1, v0, Lorg/apache/http/io/BufferInfo;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast v0, Lorg/apache/http/io/BufferInfo;
 
     invoke-interface {v0}, Lorg/apache/http/io/BufferInfo;->length()I
@@ -82,7 +77,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lorg/apache/http/impl/io/IdentityInputStream;->closed:Z
 
     return-void
@@ -96,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/http/impl/io/IdentityInputStream;->closed:Z
 
     if-eqz v0, :cond_0
@@ -105,7 +98,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lorg/apache/http/impl/io/IdentityInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
@@ -124,7 +116,6 @@
         }
     .end annotation
 
-    .line 3
     iget-boolean v0, p0, Lorg/apache/http/impl/io/IdentityInputStream;->closed:Z
 
     if-eqz v0, :cond_0
@@ -133,7 +124,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lorg/apache/http/impl/io/IdentityInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 

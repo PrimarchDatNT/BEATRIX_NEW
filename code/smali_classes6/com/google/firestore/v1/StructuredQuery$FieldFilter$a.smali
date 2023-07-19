@@ -31,7 +31,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-static {}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;->ah()Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
 
     move-result-object v0
@@ -44,7 +43,6 @@
 .method synthetic constructor <init>(Lcom/google/firestore/v1/StructuredQuery$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 .method public H()Lcom/google/firestore/v1/StructuredQuery$g;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -70,7 +67,6 @@
 .method public H1()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -85,10 +81,8 @@
 .method public Qg()Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -101,10 +95,8 @@
 .method public Rg()Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -117,10 +109,8 @@
 .method public Sg()Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -133,10 +123,8 @@
 .method public Tg(Lcom/google/firestore/v1/StructuredQuery$g;)Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -149,10 +137,8 @@
 .method public Ug(Lcom/google/firestore/v1/Value;)Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -165,10 +151,8 @@
 .method public Vg(Lcom/google/firestore/v1/StructuredQuery$g$a;)Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -181,10 +165,8 @@
 .method public Wg(Lcom/google/firestore/v1/StructuredQuery$g;)Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -197,10 +179,8 @@
 .method public Xg(Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;)Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -213,10 +193,8 @@
 .method public Yg(I)Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -229,10 +207,8 @@
 .method public Zg(Lcom/google/firestore/v1/Value$b;)Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -245,10 +221,8 @@
 .method public ah(Lcom/google/firestore/v1/Value;)Lcom/google/firestore/v1/StructuredQuery$FieldFilter$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -261,7 +235,6 @@
 .method public d0()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -276,7 +249,6 @@
 .method public e0()Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -291,7 +263,6 @@
 .method public getValue()Lcom/google/firestore/v1/Value;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;
@@ -306,7 +277,6 @@
 .method public v2()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/StructuredQuery$FieldFilter;

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 
     const-string v1, "Unicode"
 
-    .line 1
     invoke-virtual {p0, v1}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p0
@@ -38,7 +36,6 @@
 
     const/4 v4, 0x0
 
-    .line 2
     :goto_0
     array-length v5, p0
 
@@ -48,7 +45,6 @@
 
     if-ge v4, p1, :cond_2
 
-    .line 3
     rem-int/lit8 v5, v3, 0x2
 
     if-ne v5, v6, :cond_0
@@ -58,7 +54,6 @@
 
     goto :goto_2
 
-    .line 4
     :cond_0
     aget-byte v5, p0, v3
 
@@ -72,7 +67,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     rem-int/lit8 p1, v3, 0x2
 
@@ -80,7 +74,6 @@
 
     add-int/lit8 p1, v3, -0x1
 
-    .line 6
     aget-byte v4, p0, p1
 
     if-eqz v4, :cond_3
@@ -92,7 +85,6 @@
     :cond_3
     add-int/lit8 v3, v3, 0x1
 
-    .line 7
     :cond_4
     :goto_3
     new-instance p1, Ljava/lang/String;
@@ -113,7 +105,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     aget-byte v1, p0, v1
 
@@ -121,7 +112,6 @@
 
     const/4 v2, 0x1
 
-    .line 2
     aget-byte v2, p0, v2
 
     shl-int/lit8 v2, v2, 0x8
@@ -134,7 +124,6 @@
 
     const/4 v2, 0x2
 
-    .line 3
     aget-byte v2, p0, v2
 
     shl-int/lit8 v2, v2, 0x10
@@ -147,7 +136,6 @@
 
     const/4 v2, 0x3
 
-    .line 4
     aget-byte p0, p0, v2
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -165,12 +153,10 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->c(Ljava/lang/Exception;)V
 
     move p0, v1
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -186,7 +172,6 @@
 
     add-int/lit8 v1, p1, 0x0
 
-    .line 1
     :try_start_0
     aget-byte v1, p0, v1
     :try_end_0
@@ -196,7 +181,6 @@
 
     add-int/lit8 v2, p1, 0x1
 
-    .line 2
     :try_start_1
     aget-byte v2, p0, v2
 
@@ -210,7 +194,6 @@
 
     add-int/lit8 v2, p1, 0x2
 
-    .line 3
     aget-byte v2, p0, v2
 
     shl-int/lit8 v2, v2, 0x10
@@ -223,7 +206,6 @@
 
     add-int/lit8 p1, p1, 0x3
 
-    .line 4
     aget-byte p0, p0, p1
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -248,13 +230,11 @@
 
     const/4 v1, 0x0
 
-    .line 5
     :goto_0
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->c(Ljava/lang/Exception;)V
 
     move p0, v1
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -272,7 +252,6 @@
 
     const/4 v3, 0x0
 
-    .line 1
     :goto_0
     invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
@@ -280,7 +259,6 @@
 
     if-ge v3, v4, :cond_1
 
-    .line 2
     invoke-interface {p0, v3}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v4
@@ -305,7 +283,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {v1, v2}, Ljava/lang/Math;->round(D)J
 
@@ -329,7 +306,6 @@
 
     if-ltz p0, :cond_0
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -348,7 +324,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -378,19 +353,16 @@
 
     const-string v1, "[\u4e00-\u9fa5]"
 
-    .line 1
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {v1}, Ljava/util/regex/Matcher;->find()Z
 
@@ -402,7 +374,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -424,19 +395,16 @@
 
     const-string v1, "[^\\x00-\\xff]"
 
-    .line 1
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {v1}, Ljava/util/regex/Matcher;->find()Z
 
@@ -448,7 +416,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -470,22 +437,18 @@
 
     const-string v1, ".*\\d+.*"
 
-    .line 1
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0}, Ljava/util/regex/Matcher;->matches()Z
 
     move-result p0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -500,17 +463,14 @@
 
     const-string v1, "\\D+"
 
-    .line 1
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v1
@@ -519,7 +479,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p0, v1}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object p0
@@ -528,7 +487,6 @@
 
     return-object p0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -548,12 +506,10 @@
 
     const/4 p0, -0x1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -575,17 +531,14 @@
 
     const-string v1, "\\d+"
 
-    .line 1
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v1
@@ -594,7 +547,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p1, v1}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object p1
@@ -603,7 +555,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

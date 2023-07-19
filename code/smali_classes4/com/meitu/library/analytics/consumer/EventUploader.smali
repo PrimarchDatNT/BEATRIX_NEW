@@ -61,28 +61,22 @@
 .method public constructor <init>(Lcom/meitu/library/analytics/consumer/d;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->y:I
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->z:Z
 
     const-string v0, "T"
 
-    .line 4
     iput-object v0, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->B:Ljava/lang/String;
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->A:Lcom/meitu/library/analytics/consumer/d;
 
-    .line 6
     invoke-static {p0}, Lcom/meitu/library/analytics/y/h/f;->e(Landroid/os/MessageQueue$IdleHandler;)V
 
     return-void
@@ -95,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->x:Ljava/lang/Thread;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/library/analytics/consumer/EventUploader;->j(J)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -125,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->w:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,12 +135,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->A:Lcom/meitu/library/analytics/consumer/d;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -158,7 +147,6 @@
 
     invoke-interface {v1, v2, v3, p3}, Lcom/meitu/library/analytics/consumer/d;->m(JLcom/meitu/library/analytics/y/k/a$a;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -172,17 +160,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->x:Ljava/lang/Thread;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->B:Ljava/lang/String;
 
@@ -214,13 +199,11 @@
 
     goto/16 :goto_2
 
-    .line 4
     :cond_1
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/library/analytics/sdk/content/f;->X()Z
 
     move-result p2
@@ -231,18 +214,14 @@
 
     const-string p1, "Start upload in immediateDebugMode"
 
-    .line 6
     invoke-static {v6, p1}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/meitu/library/analytics/consumer/EventUploader;->i()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_2
     invoke-virtual {p1}, Lcom/meitu/library/analytics/sdk/content/f;->v()Lcom/meitu/library/analytics/y/d/a;
 
@@ -254,19 +233,16 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-interface {p2, v2}, Lcom/meitu/library/analytics/y/d/a;->g(I)I
 
     move-result v2
 
-    .line 11
     :goto_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v7
 
-    .line 12
     iget-wide v9, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->w:J
 
     sub-long/2addr v7, v9
@@ -279,7 +255,6 @@
 
     new-array p1, v5, [Ljava/lang/Object;
 
-    .line 13
     invoke-static {v7, v8}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p2
@@ -296,10 +271,8 @@
 
     invoke-static {v6, p2, p1}, Lcom/meitu/library/analytics/y/j/d;->c(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 14
     invoke-direct {p0}, Lcom/meitu/library/analytics/consumer/EventUploader;->i()V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -307,12 +280,10 @@
     :cond_4
     const/16 v2, 0x14
 
-    .line 16
     invoke-interface {p2, v2}, Lcom/meitu/library/analytics/y/d/a;->b(I)I
 
     move-result p2
 
-    .line 17
     invoke-virtual {p1}, Lcom/meitu/library/analytics/sdk/content/f;->x()Landroid/content/Context;
 
     move-result-object p1
@@ -331,7 +302,6 @@
 
     if-gez p1, :cond_5
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -341,7 +311,6 @@
 
     new-array p1, v5, [Ljava/lang/Object;
 
-    .line 19
     invoke-static {v7, v8}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v1
@@ -358,7 +327,6 @@
 
     invoke-static {v6, p2, p1}, Lcom/meitu/library/analytics/y/j/d;->c(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 20
     invoke-direct {p0}, Lcom/meitu/library/analytics/consumer/EventUploader;->i()V
 
     goto :goto_1
@@ -366,7 +334,6 @@
     :cond_6
     const-wide/16 v1, 0xa
 
-    .line 21
     rem-long v1, v7, v1
 
     const-wide/16 v9, 0x0
@@ -377,7 +344,6 @@
 
     new-array p1, v5, [Ljava/lang/Object;
 
-    .line 22
     invoke-static {v7, v8}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v1
@@ -394,10 +360,8 @@
 
     invoke-static {v6, p2, p1}, Lcom/meitu/library/analytics/y/j/d;->c(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 23
     invoke-direct {p0}, Lcom/meitu/library/analytics/consumer/EventUploader;->i()V
 
-    .line 24
     :cond_7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -408,7 +372,6 @@
     :goto_2
     new-array v1, v5, [Ljava/lang/Object;
 
-    .line 25
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -425,10 +388,8 @@
 
     invoke-static {v6, p1, v1}, Lcom/meitu/library/analytics/y/j/d;->c(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 26
     invoke-direct {p0}, Lcom/meitu/library/analytics/consumer/EventUploader;->i()V
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -441,12 +402,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -467,25 +426,20 @@
 
     invoke-static {v4, v3}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/library/analytics/sdk/content/f;->R()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/analytics/y/k/b;->b(Ljava/lang/String;)Lcom/meitu/library/analytics/y/k/a;
 
     move-result-object v3
 
-    .line 5
     invoke-virtual {v3, p1, p2}, Lcom/meitu/library/analytics/y/k/a;->b(Ljava/lang/String;[B)Lcom/meitu/library/analytics/y/k/a$a;
 
     move-result-object p1
 
-    .line 6
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/library/analytics/consumer/EventUploader;->e(JLcom/meitu/library/analytics/y/k/a$a;)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/meitu/library/analytics/y/k/a$a;->d()Z
 
     move-result p2
@@ -502,7 +456,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/library/analytics/y/k/a$a;->c()I
 
@@ -526,7 +479,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/library/analytics/y/k/a$a;->a()[B
 
@@ -534,14 +486,12 @@
 
     if-eqz p2, :cond_3
 
-    .line 10
     array-length v1, p2
 
     if-nez v1, :cond_2
 
     goto :goto_0
 
-    .line 11
     :cond_2
     new-instance v1, Ljava/lang/String;
 
@@ -553,7 +503,6 @@
 
     const/4 v2, 0x0
 
-    .line 12
     invoke-virtual {p1}, Lcom/meitu/library/analytics/y/k/a$a;->c()I
 
     move-result p1
@@ -572,12 +521,10 @@
 
     invoke-static {v4, p1, p2}, Lcom/meitu/library/analytics/y/j/d;->h(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 14
     :cond_3
     :goto_0
     new-instance p2, Ljava/lang/StringBuilder;
@@ -600,7 +547,6 @@
 
     invoke-static {v4, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -609,10 +555,8 @@
     :goto_1
     const-string p1, "Post: 5xx or read timeout"
 
-    .line 16
     invoke-static {v4, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -621,10 +565,8 @@
     :goto_2
     const-string p1, "Post: connect timeout"
 
-    .line 18
     invoke-static {v4, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p1, "CONNECTION_TIMEOUT"
@@ -639,24 +581,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/library/analytics/consumer/EventUploader;->g(Lcom/meitu/library/analytics/sdk/content/f;[B)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "T"
 
-    .line 2
     invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 3
     iput-object v2, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->B:Ljava/lang/String;
 
-    .line 4
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->SUCCEEDED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -666,36 +604,30 @@
     :cond_0
     const-string v3, "P"
 
-    .line 5
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
 
     if-eqz v4, :cond_3
 
-    .line 6
     invoke-direct {p0, p1, p2}, Lcom/meitu/library/analytics/consumer/EventUploader;->g(Lcom/meitu/library/analytics/sdk/content/f;[B)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {v2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p2
 
     if-eqz p2, :cond_1
 
-    .line 8
     iput-object v2, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->B:Ljava/lang/String;
 
-    .line 9
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->SUCCEEDED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 10
     :cond_1
     invoke-virtual {v3, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -703,21 +635,17 @@
 
     if-eqz p2, :cond_2
 
-    .line 11
     iput-object v3, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->B:Ljava/lang/String;
 
-    .line 12
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->FAILED_AND_TRASH:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 13
     :cond_2
     iput-object p1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->B:Ljava/lang/String;
 
-    .line 14
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->FAILED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -727,7 +655,6 @@
     :cond_3
     const-string v4, "F"
 
-    .line 15
     invoke-virtual {v4, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -744,42 +671,35 @@
 
     goto :goto_0
 
-    .line 16
     :cond_4
     iput-object v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->B:Ljava/lang/String;
 
-    .line 17
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->FAILED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 18
     :cond_5
     :goto_0
     invoke-direct {p0, p1, p2}, Lcom/meitu/library/analytics/consumer/EventUploader;->g(Lcom/meitu/library/analytics/sdk/content/f;[B)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 19
     invoke-virtual {v2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p2
 
     if-eqz p2, :cond_6
 
-    .line 20
     iput-object v2, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->B:Ljava/lang/String;
 
-    .line 21
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->SUCCEEDED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 22
     :cond_6
     invoke-virtual {v3, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -787,21 +707,17 @@
 
     if-eqz p2, :cond_7
 
-    .line 23
     iput-object v3, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->B:Ljava/lang/String;
 
-    .line 24
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->FAILED_AND_TRASH:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 25
     :cond_7
     iput-object p1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->B:Ljava/lang/String;
 
-    .line 26
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->FAILED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -816,19 +732,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     new-instance v3, Lcom/meitu/library/analytics/consumer/EventUploader$a;
 
     invoke-direct {v3, p0, v1, v2}, Lcom/meitu/library/analytics/consumer/EventUploader$a;-><init>(Lcom/meitu/library/analytics/consumer/EventUploader;J)V
 
     iput-object v3, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->x:Ljava/lang/Thread;
 
-    .line 3
     :try_start_0
     invoke-virtual {v3}, Ljava/lang/Thread;->start()V
     :try_end_0
@@ -839,15 +752,12 @@
     :catch_0
     move-exception v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 v1, 0x0
 
-    .line 5
     iput-object v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->x:Ljava/lang/Thread;
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -861,22 +771,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/meitu/library/analytics/consumer/b;
 
     invoke-direct {v2, v1}, Lcom/meitu/library/analytics/consumer/b;-><init>(Lcom/meitu/library/analytics/sdk/content/f;)V
 
-    .line 3
     new-instance v3, Lcom/meitu/library/analytics/consumer/c;
 
     invoke-direct {v3, p1, p2, v1}, Lcom/meitu/library/analytics/consumer/c;-><init>(JLcom/meitu/library/analytics/sdk/content/f;)V
 
-    .line 4
     invoke-interface {v3}, Lcom/meitu/library/analytics/consumer/a;->b()[B
 
     move-result-object p1
@@ -884,12 +790,10 @@
     :goto_0
     if-eqz p1, :cond_4
 
-    .line 5
     array-length p2, p1
 
     if-lez p2, :cond_4
 
-    .line 6
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -912,7 +816,6 @@
 
     const/4 p2, 0x0
 
-    .line 7
     :try_start_0
     invoke-virtual {v2, p1}, Lcom/meitu/library/analytics/consumer/b;->e([B)[B
 
@@ -925,45 +828,37 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_1
     if-eqz p2, :cond_3
 
-    .line 9
     array-length p1, p2
 
     if-nez p1, :cond_0
 
     goto :goto_2
 
-    .line 10
     :cond_0
     invoke-direct {p0, v1, p2}, Lcom/meitu/library/analytics/consumer/EventUploader;->h(Lcom/meitu/library/analytics/sdk/content/f;[B)Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
     move-result-object p1
 
-    .line 11
     sget-object p2, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->FAILED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
     if-ne p1, p2, :cond_1
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :cond_1
     sget-object p2, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->FAILED_AND_TRASH:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
     if-ne p1, p2, :cond_2
 
-    .line 14
     invoke-interface {v3}, Lcom/meitu/library/analytics/consumer/a;->a()V
 
-    .line 15
     :cond_2
     invoke-interface {v3}, Lcom/meitu/library/analytics/consumer/a;->b()[B
 
@@ -971,14 +866,12 @@
 
     goto :goto_0
 
-    .line 16
     :cond_3
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 17
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -994,7 +887,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->y:I
 
     const/16 v2, 0x65
@@ -1007,7 +899,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-boolean v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->z:Z
 
@@ -1027,15 +918,12 @@
 
     iput-boolean v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->z:Z
 
-    .line 3
     iput p1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->y:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1050,19 +938,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->y:I
 
     const/4 v2, -0x1
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/content/f;->Y()Z
 
     move-result v3
@@ -1071,7 +956,6 @@
 
     const-string v3, "EventUploader"
 
-    .line 4
     invoke-static {v1, v3}, Lcom/meitu/library/analytics/y/m/a;->a(Lcom/meitu/library/analytics/sdk/content/f;Ljava/lang/String;)Z
 
     move-result v3
@@ -1080,32 +964,27 @@
 
     sget-object v3, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_GID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 5
     invoke-virtual {v1, v3}, Lcom/meitu/library/analytics/sdk/content/f;->b0(Lcom/meitu/library/analytics/sdk/content/PrivacyControl;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 6
     iget v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->y:I
 
     iget-boolean v3, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->z:Z
 
     invoke-direct {p0, v1, v3}, Lcom/meitu/library/analytics/consumer/EventUploader;->f(IZ)V
 
-    .line 7
     :cond_0
     iput v2, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->y:I
 
     const/4 v1, 0x0
 
-    .line 8
     iput-boolean v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->z:Z
 
     const/4 v1, 0x1
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

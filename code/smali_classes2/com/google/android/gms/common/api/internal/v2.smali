@@ -35,10 +35,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/a1;-><init>(I)V
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/v2;->b:Lcom/google/android/gms/common/api/internal/d$a;
 
     return-void
@@ -53,7 +51,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/v2;->b:Lcom/google/android/gms/common/api/internal/d$a;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/d$a;->b(Lcom/google/android/gms/common/api/Status;)V
@@ -77,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/v2;->b:Lcom/google/android/gms/common/api/internal/d$a;
 
@@ -94,7 +90,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/a1;->e(Ljava/lang/RuntimeException;)V
 
     return-void
@@ -107,7 +102,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/v2;->b:Lcom/google/android/gms/common/api/internal/d$a;
 
     invoke-virtual {p1, v0, p2}, Lcom/google/android/gms/common/api/internal/b0;->b(Lcom/google/android/gms/common/api/internal/BasePendingResult;Z)V
@@ -122,10 +116,8 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/Status;
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -178,7 +170,6 @@
 
     invoke-direct {v0, v1, p1}, Lcom/google/android/gms/common/api/Status;-><init>(ILjava/lang/String;)V
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/v2;->b:Lcom/google/android/gms/common/api/internal/d$a;
 
     invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/internal/d$a;->b(Lcom/google/android/gms/common/api/Status;)V

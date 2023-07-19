@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/filter/FilterChildStoreFragment$mViewBinding$2;->this$0:Lcom/commsource/store/filter/FilterChildStoreFragment;
 
     invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -82,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/store/filter/FilterChildStoreFragment$mViewBinding$2;->invoke()Lcom/commsource/beautyplus/f0/a8;
 
     move-result-object v1

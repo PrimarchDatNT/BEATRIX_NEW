@@ -78,7 +78,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/api/MetricDescriptor$ValueType;
 
     const-string v1, "VALUE_TYPE_UNSPECIFIED"
@@ -89,7 +88,6 @@
 
     sput-object v0, Lcom/google/api/MetricDescriptor$ValueType;->VALUE_TYPE_UNSPECIFIED:Lcom/google/api/MetricDescriptor$ValueType;
 
-    .line 2
     new-instance v1, Lcom/google/api/MetricDescriptor$ValueType;
 
     const-string v3, "BOOL"
@@ -100,7 +98,6 @@
 
     sput-object v1, Lcom/google/api/MetricDescriptor$ValueType;->BOOL:Lcom/google/api/MetricDescriptor$ValueType;
 
-    .line 3
     new-instance v3, Lcom/google/api/MetricDescriptor$ValueType;
 
     const-string v5, "INT64"
@@ -111,7 +108,6 @@
 
     sput-object v3, Lcom/google/api/MetricDescriptor$ValueType;->INT64:Lcom/google/api/MetricDescriptor$ValueType;
 
-    .line 4
     new-instance v5, Lcom/google/api/MetricDescriptor$ValueType;
 
     const-string v7, "DOUBLE"
@@ -122,7 +118,6 @@
 
     sput-object v5, Lcom/google/api/MetricDescriptor$ValueType;->DOUBLE:Lcom/google/api/MetricDescriptor$ValueType;
 
-    .line 5
     new-instance v7, Lcom/google/api/MetricDescriptor$ValueType;
 
     const-string v9, "STRING"
@@ -133,7 +128,6 @@
 
     sput-object v7, Lcom/google/api/MetricDescriptor$ValueType;->STRING:Lcom/google/api/MetricDescriptor$ValueType;
 
-    .line 6
     new-instance v9, Lcom/google/api/MetricDescriptor$ValueType;
 
     const-string v11, "DISTRIBUTION"
@@ -144,7 +138,6 @@
 
     sput-object v9, Lcom/google/api/MetricDescriptor$ValueType;->DISTRIBUTION:Lcom/google/api/MetricDescriptor$ValueType;
 
-    .line 7
     new-instance v11, Lcom/google/api/MetricDescriptor$ValueType;
 
     const-string v13, "MONEY"
@@ -155,7 +148,6 @@
 
     sput-object v11, Lcom/google/api/MetricDescriptor$ValueType;->MONEY:Lcom/google/api/MetricDescriptor$ValueType;
 
-    .line 8
     new-instance v13, Lcom/google/api/MetricDescriptor$ValueType;
 
     const-string v15, "UNRECOGNIZED"
@@ -192,10 +184,8 @@
 
     aput-object v13, v12, v14
 
-    .line 9
     sput-object v12, Lcom/google/api/MetricDescriptor$ValueType;->$VALUES:[Lcom/google/api/MetricDescriptor$ValueType;
 
-    .line 10
     new-instance v0, Lcom/google/api/MetricDescriptor$ValueType$a;
 
     invoke-direct {v0}, Lcom/google/api/MetricDescriptor$ValueType$a;-><init>()V
@@ -213,10 +203,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/api/MetricDescriptor$ValueType;->value:I
 
     return-void
@@ -231,43 +219,36 @@
 
     return-object p0
 
-    .line 1
     :pswitch_0
     sget-object p0, Lcom/google/api/MetricDescriptor$ValueType;->MONEY:Lcom/google/api/MetricDescriptor$ValueType;
 
     return-object p0
 
-    .line 2
     :pswitch_1
     sget-object p0, Lcom/google/api/MetricDescriptor$ValueType;->DISTRIBUTION:Lcom/google/api/MetricDescriptor$ValueType;
 
     return-object p0
 
-    .line 3
     :pswitch_2
     sget-object p0, Lcom/google/api/MetricDescriptor$ValueType;->STRING:Lcom/google/api/MetricDescriptor$ValueType;
 
     return-object p0
 
-    .line 4
     :pswitch_3
     sget-object p0, Lcom/google/api/MetricDescriptor$ValueType;->DOUBLE:Lcom/google/api/MetricDescriptor$ValueType;
 
     return-object p0
 
-    .line 5
     :pswitch_4
     sget-object p0, Lcom/google/api/MetricDescriptor$ValueType;->INT64:Lcom/google/api/MetricDescriptor$ValueType;
 
     return-object p0
 
-    .line 6
     :pswitch_5
     sget-object p0, Lcom/google/api/MetricDescriptor$ValueType;->BOOL:Lcom/google/api/MetricDescriptor$ValueType;
 
     return-object p0
 
-    .line 7
     :pswitch_6
     sget-object p0, Lcom/google/api/MetricDescriptor$ValueType;->VALUE_TYPE_UNSPECIFIED:Lcom/google/api/MetricDescriptor$ValueType;
 
@@ -296,7 +277,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/MetricDescriptor$ValueType;->internalValueMap:Lcom/google/protobuf/z0$d;
 
     return-object v0
@@ -307,7 +287,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/api/MetricDescriptor$ValueType;->forNumber(I)Lcom/google/api/MetricDescriptor$ValueType;
 
     move-result-object p0
@@ -318,7 +297,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/api/MetricDescriptor$ValueType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/api/MetricDescriptor$ValueType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -333,7 +311,6 @@
 .method public static values()[Lcom/google/api/MetricDescriptor$ValueType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/api/MetricDescriptor$ValueType;->$VALUES:[Lcom/google/api/MetricDescriptor$ValueType;
 
     invoke-virtual {v0}, [Lcom/google/api/MetricDescriptor$ValueType;->clone()Ljava/lang/Object;
@@ -350,7 +327,6 @@
 .method public final getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/api/MetricDescriptor$ValueType;->value:I
 
     return v0

@@ -143,19 +143,16 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const-string p1, "0:00"
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->a:Ljava/lang/String;
 
     const/4 p1, 0x3
 
     new-array p1, p1, [F
 
-    .line 3
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -164,7 +161,6 @@
 
     const-wide/16 p2, 0x3e8
 
-    .line 4
     invoke-virtual {p1, p2, p3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
     move-result-object p2
@@ -177,7 +173,6 @@
 
     invoke-virtual {p2, p3}, Landroid/animation/ValueAnimator;->setRepeatCount(I)V
 
-    .line 5
     new-instance p2, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$a;
 
     invoke-direct {p2, p0}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$a;-><init>(Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;)V
@@ -186,14 +181,12 @@
 
     const-string p2, "ValueAnimator.ofFloat(1f\u2026lidate()\n        })\n    }"
 
-    .line 6
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->c:Landroid/animation/ValueAnimator;
 
     sget p1, Lcom/res/provider/ResCOLOR;->color_4d000000:I
 
-    .line 7
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -202,7 +195,6 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
@@ -213,7 +205,6 @@
 
     const/high16 p1, 0x40200000    # 2.5f
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
@@ -226,14 +217,12 @@
 
     const/high16 p1, 0x41000000    # 8.0f
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->p:I
 
-    .line 11
     sget-object p1, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mBreathePaint$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mBreathePaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -242,7 +231,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->K:Lcotlin/w;
 
-    .line 12
     sget-object p1, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mProgressPaint$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mProgressPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -251,7 +239,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->L:Lcotlin/w;
 
-    .line 13
     new-instance p1, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mStrokePaint$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mStrokePaint$2;-><init>(Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;)V
@@ -288,7 +275,6 @@
 
     const/4 p3, 0x0
 
-    .line 14
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -302,7 +288,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->getMBreathePaint()Landroid/graphics/Paint;
 
     move-result-object p0
@@ -319,7 +304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -334,7 +318,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->f:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -480,28 +463,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->b:I
 
     const/4 v2, 0x1
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput v2, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->b:I
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->c:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -514,20 +492,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->c:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->clearAnimation()V
 
-    .line 3
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->b:I
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -535,10 +509,8 @@
     :cond_0
     const/4 v1, 0x2
 
-    .line 5
     iput v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->b:I
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->getMBreathePaint()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -552,7 +524,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -567,18 +538,14 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->b:I
 
     const-string v1, "0:00"
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->a:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -593,13 +560,10 @@
 
     float-to-int p1, p1
 
-    .line 1
     div-int/lit8 v1, p1, 0x3c
 
-    .line 2
     rem-int/lit8 p1, p1, 0x3c
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -656,10 +620,8 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->a:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -680,15 +642,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->b:I
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->g:I
 
     int-to-float v1, v1
@@ -720,7 +679,6 @@
     :cond_0
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->a:Ljava/lang/String;
 
     iget v2, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->p:I
@@ -737,7 +695,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->a:Ljava/lang/String;
 
     iget v2, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->p:I
@@ -754,7 +711,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -768,10 +724,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/view/View;->onMeasure(II)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->getMProgressPaint()Landroid/text/TextPaint;
 
     move-result-object p1
@@ -797,7 +751,6 @@
 
     const/high16 p2, 0x41500000    # 13.0f
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p2
@@ -806,10 +759,8 @@
 
     float-to-int p2, p2
 
-    .line 4
     invoke-virtual {p0, p1, p2}, Landroid/view/View;->setMeasuredDimension(II)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -822,12 +773,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
     const/4 p1, 0x2
 
-    .line 2
     div-int/2addr p2, p1
 
     int-to-float p2, p2
@@ -872,7 +821,6 @@
 
     iput p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->J:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -887,7 +835,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->getMProgressPaint()Landroid/text/TextPaint;
 
     move-result-object p1
@@ -900,7 +847,6 @@
 
     invoke-virtual {p1, v1}, Landroid/text/TextPaint;->setColor(I)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->getMStrokePaint()Landroid/text/TextPaint;
 
     move-result-object p1
@@ -915,7 +861,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->getMProgressPaint()Landroid/text/TextPaint;
 
@@ -929,7 +874,6 @@
 
     invoke-virtual {p1, v1}, Landroid/text/TextPaint;->setColor(I)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->getMStrokePaint()Landroid/text/TextPaint;
 
     move-result-object p1
@@ -938,11 +882,9 @@
 
     invoke-virtual {p1, v1}, Landroid/text/TextPaint;->setStrokeWidth(F)V
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

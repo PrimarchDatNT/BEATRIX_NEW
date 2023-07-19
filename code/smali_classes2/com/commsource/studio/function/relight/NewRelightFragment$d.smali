@@ -57,10 +57,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$d;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->K1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/g;
@@ -93,7 +91,6 @@
 
     invoke-static {p1, v1, v2, v3}, Lcom/commsource/studio/function/relight/NewRelightFragment;->B1(Lcom/commsource/studio/function/relight/NewRelightFragment;ZZZ)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -107,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/relight/NewRelightFragment$d;->a(Ljava/lang/Boolean;)V

@@ -18,7 +18,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/AdAdapter;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager$ForEachAdUnitIdRunnable;-><init>(Lcom/mopub/mobileads/AdAdapter;)V
 
     return-void
@@ -33,7 +32,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$900(Ljava/lang/String;)V
 
     return-void

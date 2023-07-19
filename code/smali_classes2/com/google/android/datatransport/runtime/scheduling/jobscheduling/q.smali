@@ -19,19 +19,14 @@
     .annotation runtime Lj/a/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;->a:Ljava/util/concurrent/Executor;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;->b:Lcom/google/android/datatransport/k/x/j/c;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;->c:Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/s;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;->d:Lcom/google/android/datatransport/runtime/synchronization/a;
 
     return-void
@@ -40,7 +35,6 @@
 .method static synthetic b(Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;)Ljava/lang/Object;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;->b:Lcom/google/android/datatransport/k/x/j/c;
 
     invoke-interface {v0}, Lcom/google/android/datatransport/k/x/j/c;->n2()Ljava/lang/Iterable;
@@ -64,7 +58,6 @@
 
     check-cast v1, Lcom/google/android/datatransport/k/n;
 
-    .line 2
     iget-object v2, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;->c:Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/s;
 
     const/4 v3, 0x1
@@ -82,7 +75,6 @@
 .method static synthetic c(Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;->d:Lcom/google/android/datatransport/runtime/synchronization/a;
 
     invoke-static {p0}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/p;->a(Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;)Lcom/google/android/datatransport/runtime/synchronization/a$a;
@@ -99,7 +91,6 @@
 .method public a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;->a:Ljava/util/concurrent/Executor;
 
     invoke-static {p0}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/o;->a(Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;)Ljava/lang/Runnable;

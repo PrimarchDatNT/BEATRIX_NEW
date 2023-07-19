@@ -30,7 +30,6 @@
 .method constructor <init>(Lf/r/c/c/b;[ZLcom/spotxchange/v4/h/b;DJ)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/c/b$a0;->p:Lf/r/c/c/b;
 
     iput-object p2, p0, Lf/r/c/c/b$a0;->c:[Z
@@ -51,14 +50,12 @@
 .method public run()V
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/b$l0;->a:Lcom/spotxchange/v4/SpotXAdPlayer$e;
 
     instance-of v1, v0, Lcom/spotxchange/v4/SpotXAdPlayer$d;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/r/c/c/b$a0;->c:[Z
 
     const/4 v2, 0x0
@@ -75,7 +72,6 @@
 
     iget-wide v8, p0, Lf/r/c/c/b$a0;->g:J
 
-    .line 3
     invoke-interface/range {v4 .. v9}, Lcom/spotxchange/v4/SpotXAdPlayer$d;->a(Lcom/spotxchange/v4/h/b;DJ)Z
 
     move-result v0

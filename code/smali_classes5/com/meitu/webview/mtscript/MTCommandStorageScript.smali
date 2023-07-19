@@ -21,7 +21,6 @@
 .method public constructor <init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/webview/mtscript/i;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
     return-void
@@ -36,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -51,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->w()Landroid/net/Uri;
 
     move-result-object v1
@@ -60,12 +57,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Landroid/net/Uri;->getHost()Ljava/lang/String;
 
@@ -77,7 +72,6 @@
 
     const-string v4, "localstorageget"
 
-    .line 4
     invoke-virtual {v4, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -89,10 +83,8 @@
     :cond_1
     if-eqz v2, :cond_2
 
-    .line 5
     iget-object p1, p1, Lcom/meitu/webview/mtscript/MTCommandStorageScript$Model;->key:Ljava/lang/String;
 
-    .line 6
     new-instance v1, Ljava/lang/Thread;
 
     new-instance v2, Lcom/meitu/webview/mtscript/MTCommandStorageScript$b;
@@ -103,12 +95,10 @@
 
     invoke-direct {v1, v2, p1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/Thread;->start()V
 
     goto :goto_0
 
-    .line 8
     :cond_2
     new-instance v1, Ljava/lang/Thread;
 
@@ -120,10 +110,8 @@
 
     invoke-direct {v1, v2, p1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v1}, Ljava/lang/Thread;->start()V
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -137,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->D()Z
 
     move-result v1
@@ -150,15 +137,12 @@
 
     const-string v3, "current url is not in WHITE LIST."
 
-    .line 2
     invoke-static {v1, v3}, Lcom/meitu/webview/utils/g;->y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/meitu/webview/mtscript/MTCommandStorageScript$a;
 
@@ -168,7 +152,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/i;->E(Lcom/meitu/webview/mtscript/i$c;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2

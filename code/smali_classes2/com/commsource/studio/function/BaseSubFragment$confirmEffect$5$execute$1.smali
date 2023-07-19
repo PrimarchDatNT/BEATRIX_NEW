@@ -62,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -79,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$1;->$confirmBitmap:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iget-object v2, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;
@@ -101,26 +99,21 @@
 
     iput-object v2, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$1;->$waitLock:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 4
     :try_start_0
     iget-object v2, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$1;->$waitLock:Ljava/lang/Object;
 
     invoke-virtual {v2}, Ljava/lang/Object;->notify()V
 
-    .line 5
     sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     monitor-exit v1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -128,7 +121,6 @@
     :catchall_0
     move-exception v2
 
-    .line 8
     monitor-exit v1
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

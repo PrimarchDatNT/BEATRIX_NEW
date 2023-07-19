@@ -13,10 +13,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/jg2;
 
     const/16 v1, 0x8
@@ -37,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bc2;->a:Lcom/google/android/gms/internal/ads/jg2;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/jg2;->a:[B
@@ -48,7 +45,6 @@
 
     invoke-interface {p1, v0, v1, v2}, Lcom/google/android/gms/internal/ads/fb2;->w([BII)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bc2;->a:Lcom/google/android/gms/internal/ads/jg2;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/jg2;->a:[B
@@ -84,7 +80,6 @@
 
     and-int/2addr v0, v3
 
-    .line 3
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/bc2;->a:Lcom/google/android/gms/internal/ads/jg2;
 
     iget-object v3, v3, Lcom/google/android/gms/internal/ads/jg2;->a:[B
@@ -96,7 +91,6 @@
 
     shl-int/lit8 p1, v0, 0x8
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bc2;->a:Lcom/google/android/gms/internal/ads/jg2;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/jg2;->a:[B
@@ -111,7 +105,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     iget p1, p0, Lcom/google/android/gms/internal/ads/bc2;->b:I
 
@@ -141,7 +134,6 @@
 
     move-object/from16 v1, p1
 
-    .line 1
     invoke-interface/range {p1 .. p1}, Lcom/google/android/gms/internal/ads/fb2;->getLength()J
 
     move-result-wide v2
@@ -167,7 +159,6 @@
     :goto_0
     long-to-int v5, v4
 
-    .line 2
     iget-object v4, v0, Lcom/google/android/gms/internal/ads/bc2;->a:Lcom/google/android/gms/internal/ads/jg2;
 
     iget-object v4, v4, Lcom/google/android/gms/internal/ads/jg2;->a:[B
@@ -178,14 +169,12 @@
 
     invoke-interface {v1, v4, v6, v7}, Lcom/google/android/gms/internal/ads/fb2;->w([BII)V
 
-    .line 3
     iget-object v4, v0, Lcom/google/android/gms/internal/ads/bc2;->a:Lcom/google/android/gms/internal/ads/jg2;
 
     invoke-virtual {v4}, Lcom/google/android/gms/internal/ads/jg2;->s()J
 
     move-result-wide v9
 
-    .line 4
     iput v7, v0, Lcom/google/android/gms/internal/ads/bc2;->b:I
 
     :goto_1
@@ -197,7 +186,6 @@
 
     if-eqz v7, :cond_3
 
-    .line 5
     iget v7, v0, Lcom/google/android/gms/internal/ads/bc2;->b:I
 
     add-int/2addr v7, v4
@@ -208,7 +196,6 @@
 
     return v6
 
-    .line 6
     :cond_2
     iget-object v7, v0, Lcom/google/android/gms/internal/ads/bc2;->a:Lcom/google/android/gms/internal/ads/jg2;
 
@@ -224,7 +211,6 @@
 
     and-long/2addr v9, v11
 
-    .line 7
     iget-object v4, v0, Lcom/google/android/gms/internal/ads/bc2;->a:Lcom/google/android/gms/internal/ads/jg2;
 
     iget-object v4, v4, Lcom/google/android/gms/internal/ads/jg2;->a:[B
@@ -239,13 +225,11 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     invoke-direct/range {p0 .. p1}, Lcom/google/android/gms/internal/ads/bc2;->b(Lcom/google/android/gms/internal/ads/fb2;)J
 
     move-result-wide v9
 
-    .line 9
     iget v5, v0, Lcom/google/android/gms/internal/ads/bc2;->b:I
 
     int-to-long v11, v5
@@ -266,7 +250,6 @@
 
     goto :goto_4
 
-    .line 10
     :cond_4
     :goto_2
     iget v2, v0, Lcom/google/android/gms/internal/ads/bc2;->b:I
@@ -279,7 +262,6 @@
 
     if-gez v3, :cond_8
 
-    .line 11
     invoke-direct/range {p0 .. p1}, Lcom/google/android/gms/internal/ads/bc2;->b(Lcom/google/android/gms/internal/ads/fb2;)J
 
     move-result-wide v2
@@ -290,7 +272,6 @@
 
     return v6
 
-    .line 12
     :cond_5
     invoke-direct/range {p0 .. p1}, Lcom/google/android/gms/internal/ads/bc2;->b(Lcom/google/android/gms/internal/ads/fb2;)J
 
@@ -315,10 +296,8 @@
 
     long-to-int v5, v2
 
-    .line 13
     invoke-interface {v1, v5}, Lcom/google/android/gms/internal/ads/fb2;->y(I)V
 
-    .line 14
     iget v5, v0, Lcom/google/android/gms/internal/ads/bc2;->b:I
 
     int-to-long v7, v5

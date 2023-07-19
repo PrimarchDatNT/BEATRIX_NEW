@@ -70,17 +70,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/media/encoder/i;->a:Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -89,13 +86,10 @@
 
     const-wide/16 v0, 0x0
 
-    .line 4
     iput-wide v0, p0, Lcom/meitu/media/encoder/i;->N:J
 
-    .line 5
     iput-wide v0, p0, Lcom/meitu/media/encoder/i;->O:J
 
-    .line 6
     invoke-direct {p0, p1}, Lcom/meitu/media/encoder/i;->c(Lcom/meitu/media/encoder/b;)V
 
     return-void
@@ -116,7 +110,6 @@
 
     mul-long v6, p3, v4
 
-    .line 1
     iget-object v8, v0, Lcom/meitu/media/encoder/i;->f:Lcom/meitu/media/encoder/f;
 
     iget v8, v8, Lcom/meitu/media/encoder/f;->n:I
@@ -125,7 +118,6 @@
 
     div-long/2addr v6, v9
 
-    .line 2
     iget-wide v9, v0, Lcom/meitu/media/encoder/i;->O:J
 
     const-wide/16 v11, 0x0
@@ -134,13 +126,10 @@
 
     if-nez v13, :cond_0
 
-    .line 3
     iput-wide v1, v0, Lcom/meitu/media/encoder/i;->N:J
 
-    .line 4
     iput-wide v11, v0, Lcom/meitu/media/encoder/i;->O:J
 
-    .line 5
     :cond_0
     iget-wide v9, v0, Lcom/meitu/media/encoder/i;->N:J
 
@@ -164,10 +153,8 @@
 
     if-ltz v8, :cond_1
 
-    .line 6
     iput-wide v1, v0, Lcom/meitu/media/encoder/i;->N:J
 
-    .line 7
     iput-wide v11, v0, Lcom/meitu/media/encoder/i;->O:J
 
     goto :goto_0
@@ -175,7 +162,6 @@
     :cond_1
     move-wide v1, v9
 
-    .line 8
     :goto_0
     iget-wide v4, v0, Lcom/meitu/media/encoder/i;->O:J
 
@@ -183,7 +169,6 @@
 
     iput-wide v4, v0, Lcom/meitu/media/encoder/i;->O:J
 
-    .line 9
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v1
@@ -202,24 +187,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/encoder/f;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->f()I
 
     move-result v2
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->a()I
 
     move-result v3
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->b()I
 
     move-result v4
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->e()Lcom/meitu/media/encoder/Muxer;
 
     move-result-object p1
@@ -230,35 +211,26 @@
 
     const/4 p1, 0x0
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/media/encoder/i;->J:Landroid/media/MediaCodec;
 
     const/4 p1, 0x0
 
-    .line 6
     iput-boolean p1, p0, Lcom/meitu/media/encoder/i;->b:Z
 
-    .line 7
     iput-boolean p1, p0, Lcom/meitu/media/encoder/i;->c:Z
 
-    .line 8
     iput-boolean p1, p0, Lcom/meitu/media/encoder/i;->g:Z
 
-    .line 9
     iput-boolean p1, p0, Lcom/meitu/media/encoder/i;->P:Z
 
-    .line 10
     iput p1, p0, Lcom/meitu/media/encoder/i;->L:I
 
     const-wide/16 v1, -0x1
 
-    .line 11
     iput-wide v1, p0, Lcom/meitu/media/encoder/i;->M:J
 
-    .line 12
     invoke-direct {p0}, Lcom/meitu/media/encoder/i;->k()V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -274,12 +246,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->J:Landroid/media/MediaCodec;
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->f:Lcom/meitu/media/encoder/f;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/f;->h()Landroid/media/MediaCodec;
@@ -288,7 +258,6 @@
 
     iput-object v1, p0, Lcom/meitu/media/encoder/i;->J:Landroid/media/MediaCodec;
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->J:Landroid/media/MediaCodec;
@@ -297,12 +266,10 @@
 
     move-result-object v1
 
-    .line 4
     iget v2, p0, Lcom/meitu/media/encoder/i;->K:I
 
     if-gez v2, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/media/encoder/i;->J:Landroid/media/MediaCodec;
 
     const-wide/16 v3, 0x1e
@@ -313,19 +280,15 @@
 
     iput v2, p0, Lcom/meitu/media/encoder/i;->K:I
 
-    .line 6
     :cond_1
     iget v2, p0, Lcom/meitu/media/encoder/i;->K:I
 
     if-ltz v2, :cond_6
 
-    .line 7
     aget-object v1, v1, v2
 
-    .line 8
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
-    .line 9
     iget-object v2, p0, Lcom/meitu/media/encoder/i;->p:Lcom/meitu/media/encoder/i$a;
 
     const/16 v3, 0x800
@@ -342,12 +305,10 @@
 
     if-nez p1, :cond_2
 
-    .line 10
     invoke-static {v2, v3}, Ljava/lang/Thread;->sleep(J)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -357,16 +318,13 @@
 
     if-ne v1, v4, :cond_3
 
-    .line 12
     :try_start_1
     invoke-static {v2, v3}, Ljava/lang/Thread;->sleep(J)V
 
     const/4 v1, 0x0
 
-    .line 13
     iput v1, p0, Lcom/meitu/media/encoder/i;->L:I
 
-    .line 14
     :cond_3
     iget v1, p0, Lcom/meitu/media/encoder/i;->L:I
 
@@ -376,7 +334,6 @@
 
     mul-int v2, v2, v1
 
-    .line 15
     div-int/lit8 v2, v2, 0x2
 
     iget-object v3, p0, Lcom/meitu/media/encoder/i;->f:Lcom/meitu/media/encoder/f;
@@ -389,7 +346,6 @@
 
     iput-wide v2, p0, Lcom/meitu/media/encoder/i;->M:J
 
-    .line 16
     div-int/lit8 v1, v1, 0x2
 
     int-to-long v5, v1
@@ -403,7 +359,6 @@
     :cond_4
     if-eqz p1, :cond_5
 
-    .line 17
     iget-object v5, p0, Lcom/meitu/media/encoder/i;->J:Landroid/media/MediaCodec;
 
     iget v6, p0, Lcom/meitu/media/encoder/i;->K:I
@@ -420,7 +375,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_5
     iget-object v5, p0, Lcom/meitu/media/encoder/i;->J:Landroid/media/MediaCodec;
 
@@ -436,7 +390,6 @@
 
     invoke-virtual/range {v5 .. v11}, Landroid/media/MediaCodec;->queueInputBuffer(IIIJI)V
 
-    .line 19
     :goto_0
     iput v4, p0, Lcom/meitu/media/encoder/i;->K:I
     :try_end_1
@@ -451,13 +404,10 @@
 
     const-string v2, "_offerAudioEncoder exception"
 
-    .line 20
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 21
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 22
     :cond_6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -472,12 +422,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->a:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-boolean v2, p0, Lcom/meitu/media/encoder/i;->c:Z
 
@@ -487,10 +435,8 @@
 
     const-string v3, "Audio thread running when start requested"
 
-    .line 3
     invoke-static {v2, v3}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -502,11 +448,9 @@
     :cond_0
     const/4 v2, 0x1
 
-    .line 5
     :try_start_1
     iput-boolean v2, p0, Lcom/meitu/media/encoder/i;->c:Z
 
-    .line 6
     new-instance v2, Ljava/lang/Thread;
 
     const-string v3, "PCMAudioEncoder"
@@ -515,13 +459,10 @@
 
     const/16 v3, 0xa
 
-    .line 7
     invoke-virtual {v2, v3}, Ljava/lang/Thread;->setPriority(I)V
 
-    .line 8
     invoke-virtual {v2}, Ljava/lang/Thread;->start()V
 
-    .line 9
     :catch_0
     :goto_0
     iget-boolean v2, p0, Lcom/meitu/media/encoder/i;->b:Z
@@ -530,7 +471,6 @@
 
     if-nez v2, :cond_1
 
-    .line 10
     :try_start_2
     iget-object v2, p0, Lcom/meitu/media/encoder/i;->a:Ljava/lang/Object;
 
@@ -541,14 +481,12 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     :try_start_3
     monitor-exit v1
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -556,7 +494,6 @@
     :catchall_0
     move-exception v2
 
-    .line 13
     :try_start_4
     monitor-exit v1
     :try_end_4
@@ -576,7 +513,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->p:Lcom/meitu/media/encoder/i$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -591,7 +527,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/encoder/i;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -606,7 +541,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/encoder/i;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -626,7 +560,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/encoder/i;->c:Z
 
     if-eqz v1, :cond_0
@@ -637,11 +570,9 @@
 
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1}, Lcom/meitu/media/encoder/i;->c(Lcom/meitu/media/encoder/b;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -654,10 +585,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/i;->p:Lcom/meitu/media/encoder/i$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -670,51 +599,41 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->p:Lcom/meitu/media/encoder/i$a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->d:Ljava/lang/Object;
 
     monitor-enter v1
 
     const-wide/16 v2, 0x0
 
-    .line 3
     :try_start_0
     iput-wide v2, p0, Lcom/meitu/media/encoder/i;->O:J
 
-    .line 4
     iput-wide v2, p0, Lcom/meitu/media/encoder/i;->N:J
 
     const/4 v2, 0x1
 
-    .line 5
     iput-boolean v2, p0, Lcom/meitu/media/encoder/i;->g:Z
 
     const/4 v2, 0x0
 
-    .line 6
     iput-boolean v2, p0, Lcom/meitu/media/encoder/i;->P:Z
 
     const/4 v2, -0x1
 
-    .line 7
     iput v2, p0, Lcom/meitu/media/encoder/i;->K:I
 
-    .line 8
     iget-object v2, p0, Lcom/meitu/media/encoder/i;->d:Ljava/lang/Object;
 
     invoke-virtual {v2}, Ljava/lang/Object;->notify()V
 
-    .line 9
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -722,7 +641,6 @@
     :catchall_0
     move-exception v2
 
-    .line 11
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -732,7 +650,6 @@
 
     throw v2
 
-    .line 12
     :cond_0
     new-instance v1, Ljava/security/InvalidParameterException;
 
@@ -756,21 +673,17 @@
 
     const-string v2, "stopRecording"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->d:Ljava/lang/Object;
 
     monitor-enter v1
 
     const/4 v2, 0x0
 
-    .line 3
     :try_start_0
     iput-boolean v2, p0, Lcom/meitu/media/encoder/i;->g:Z
 
-    .line 4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -779,10 +692,8 @@
 
     const-string v2, "stopRecording end"
 
-    .line 5
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -790,7 +701,6 @@
     :catchall_0
     move-exception v2
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -812,20 +722,16 @@
 
     const-string v2, "stopRunning()"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/media/encoder/i;->c:Z
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->a:Ljava/lang/Object;
 
@@ -833,16 +739,13 @@
 
     const/4 v2, 0x1
 
-    .line 5
     :try_start_0
     iput-boolean v2, p0, Lcom/meitu/media/encoder/i;->P:Z
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/media/encoder/i;->a:Ljava/lang/Object;
 
     invoke-virtual {v2}, Ljava/lang/Object;->notify()V
 
-    .line 7
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -851,10 +754,8 @@
 
     const-string v2, "stopRunning() end"
 
-    .line 8
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -862,7 +763,6 @@
     :catchall_0
     move-exception v2
 
-    .line 10
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -883,33 +783,27 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->a:Ljava/lang/Object;
 
     monitor-enter v1
 
     const/4 v2, 0x1
 
-    .line 2
     :try_start_0
     iput-boolean v2, p0, Lcom/meitu/media/encoder/i;->b:Z
 
-    .line 3
     iget-object v3, p0, Lcom/meitu/media/encoder/i;->a:Ljava/lang/Object;
 
     invoke-virtual {v3}, Ljava/lang/Object;->notify()V
 
-    .line 4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     iget-object v3, p0, Lcom/meitu/media/encoder/i;->d:Ljava/lang/Object;
 
     monitor-enter v3
 
-    .line 6
     :goto_0
     :try_start_1
     iget-boolean v1, p0, Lcom/meitu/media/encoder/i;->g:Z
@@ -922,7 +816,6 @@
 
     if-nez v1, :cond_0
 
-    .line 7
     :try_start_2
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->d:Ljava/lang/Object;
 
@@ -936,19 +829,16 @@
     :catch_0
     move-exception v1
 
-    .line 8
     :try_start_3
     invoke-virtual {v1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
     goto :goto_0
 
-    .line 9
     :cond_0
     monitor-exit v3
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 10
     :goto_1
     iget-boolean v1, p0, Lcom/meitu/media/encoder/i;->g:Z
 
@@ -956,12 +846,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->f:Lcom/meitu/media/encoder/f;
 
     invoke-virtual {v1, v4}, Lcom/meitu/media/encoder/d;->b(Z)V
 
-    .line 12
     invoke-direct {p0, v4}, Lcom/meitu/media/encoder/i;->h(Z)V
 
     goto :goto_1
@@ -971,13 +859,11 @@
 
     const/4 v1, 0x0
 
-    .line 13
     :cond_2
     iget-object v3, p0, Lcom/meitu/media/encoder/i;->f:Lcom/meitu/media/encoder/f;
 
     invoke-virtual {v3, v4}, Lcom/meitu/media/encoder/d;->b(Z)V
 
-    .line 14
     iget-object v3, p0, Lcom/meitu/media/encoder/i;->f:Lcom/meitu/media/encoder/f;
 
     invoke-virtual {v3}, Lcom/meitu/media/encoder/d;->d()J
@@ -1003,7 +889,6 @@
 
     goto :goto_3
 
-    .line 15
     :cond_4
     :goto_2
     iget-wide v7, p0, Lcom/meitu/media/encoder/i;->M:J
@@ -1012,7 +897,6 @@
 
     if-ltz v3, :cond_2
 
-    .line 16
     :goto_3
     iput-boolean v4, p0, Lcom/meitu/media/encoder/i;->b:Z
 
@@ -1020,39 +904,31 @@
 
     const-string v3, "Exiting audio encode loop. Draining Audio Encoder"
 
-    .line 17
     invoke-static {v1, v3}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 18
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->J:Landroid/media/MediaCodec;
 
     if-eqz v1, :cond_5
 
-    .line 19
     invoke-direct {p0, v2}, Lcom/meitu/media/encoder/i;->h(Z)V
 
-    .line 20
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->f:Lcom/meitu/media/encoder/f;
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/d;->b(Z)V
 
-    .line 21
     :cond_5
     iget-object v1, p0, Lcom/meitu/media/encoder/i;->f:Lcom/meitu/media/encoder/f;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/d;->f()V
 
-    .line 22
     iput-boolean v4, p0, Lcom/meitu/media/encoder/i;->c:Z
 
     const-string v1, "PCMAudioEncoder"
 
     const-string v2, "PCM Audio encoder thread exit."
 
-    .line 23
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1060,7 +936,6 @@
     :catchall_0
     move-exception v1
 
-    .line 25
     :try_start_4
     monitor-exit v3
     :try_end_4
@@ -1073,7 +948,6 @@
     :catchall_1
     move-exception v2
 
-    .line 26
     :try_start_5
     monitor-exit v1
     :try_end_5

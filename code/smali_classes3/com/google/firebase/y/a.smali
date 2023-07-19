@@ -13,23 +13,18 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/y/f;-><init>()V
 
     const-string v0, "Null libraryName"
 
-    .line 2
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/y/a;->a:Ljava/lang/String;
 
     const-string p1, "Null version"
 
-    .line 4
     invoke-static {p2, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 5
     iput-object p2, p0, Lcom/google/firebase/y/a;->b:Ljava/lang/String;
 
     return-void
@@ -42,7 +37,6 @@
     .annotation runtime Ljavax/annotation/i;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/y/a;->a:Ljava/lang/String;
 
     return-object v0
@@ -53,7 +47,6 @@
     .annotation runtime Ljavax/annotation/i;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/y/a;->b:Ljava/lang/String;
 
     return-object v0
@@ -68,7 +61,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/firebase/y/f;
 
@@ -76,10 +68,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/firebase/y/f;
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/y/a;->a:Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/google/firebase/y/f;->b()Ljava/lang/String;
@@ -94,7 +84,6 @@
 
     iget-object v1, p0, Lcom/google/firebase/y/a;->b:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/y/f;->c()Ljava/lang/String;
 
     move-result-object p1
@@ -120,7 +109,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/y/a;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -133,7 +121,6 @@
 
     mul-int v0, v0, v1
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/y/a;->b:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
@@ -148,7 +135,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

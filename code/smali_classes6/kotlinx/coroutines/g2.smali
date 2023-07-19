@@ -27,7 +27,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/i;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/i;-><init>(Ljava/util/concurrent/Future;)V
@@ -63,7 +62,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/j;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/j;-><init>(Lcotlinx/coroutines/c2;Ljava/util/concurrent/Future;)V

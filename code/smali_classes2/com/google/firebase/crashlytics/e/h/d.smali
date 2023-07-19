@@ -13,7 +13,6 @@
 
     const-string v0, "\\s*(\\p{XDigit}+)-\\s*(\\p{XDigit}+)\\s+(.{4})\\s+\\p{XDigit}+\\s+.+\\s+\\d+\\s+(.*)"
 
-    .line 1
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -26,7 +25,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,14 +35,12 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/crashlytics/e/h/d;->a:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->matches()Z
 
     move-result v1
@@ -58,7 +54,6 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     :try_start_0
     invoke-virtual {v0, v1}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
@@ -76,7 +71,6 @@
 
     const/4 v1, 0x2
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v1
@@ -93,19 +87,16 @@
 
     const/4 v1, 0x3
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v9
 
     const/4 v1, 0x4
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v10
 
-    .line 7
     new-instance v0, Lcom/google/firebase/crashlytics/e/h/c;
 
     move-object v4, v0
@@ -116,7 +107,6 @@
 
     return-object v0
 
-    .line 8
     :catch_0
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 

@@ -29,12 +29,10 @@
 .method constructor <init>(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "task"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -51,17 +49,14 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/w1$b;->b:Z
 
     if-nez v0, :cond_0
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lio/grpc/w1$b;->c:Z
 
-    .line 3
     iget-object v0, p0, Lio/grpc/w1$b;->a:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V

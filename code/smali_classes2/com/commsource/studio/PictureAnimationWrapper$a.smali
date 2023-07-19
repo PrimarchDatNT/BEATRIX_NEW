@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/PictureAnimationWrapper$a;->a:Lcom/commsource/studio/PictureAnimationWrapper;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -45,10 +44,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/f1/l$a;->e(FF)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/PictureAnimationWrapper$a;->a:Lcom/commsource/studio/PictureAnimationWrapper;
 
     invoke-virtual {p2}, Lcom/commsource/studio/PictureAnimationWrapper;->h()Lcom/commsource/camera/f1/n;
@@ -59,7 +56,6 @@
 
     move-result p2
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/PictureAnimationWrapper$a;->a:Lcom/commsource/studio/PictureAnimationWrapper;
 
     invoke-virtual {v1}, Lcom/commsource/studio/PictureAnimationWrapper;->p()Lcom/commsource/camera/f1/n;
@@ -70,14 +66,12 @@
 
     move-result p1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/PictureAnimationWrapper$a;->a:Lcom/commsource/studio/PictureAnimationWrapper;
 
     invoke-virtual {v1}, Lcom/commsource/studio/PictureAnimationWrapper;->l()Landroid/graphics/Rect;
 
     move-result-object v1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/PictureAnimationWrapper$a;->a:Lcom/commsource/studio/PictureAnimationWrapper;
 
     invoke-virtual {v2}, Lcom/commsource/studio/PictureAnimationWrapper;->i()Landroid/graphics/Rect;
@@ -102,7 +96,6 @@
 
     float-to-int v2, v2
 
-    .line 6
     iget-object v5, p0, Lcom/commsource/studio/PictureAnimationWrapper$a;->a:Lcom/commsource/studio/PictureAnimationWrapper;
 
     invoke-virtual {v5}, Lcom/commsource/studio/PictureAnimationWrapper;->i()Landroid/graphics/Rect;
@@ -123,7 +116,6 @@
 
     float-to-int v4, v5
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/studio/PictureAnimationWrapper$a;->a:Lcom/commsource/studio/PictureAnimationWrapper;
 
     invoke-virtual {v5}, Lcom/commsource/studio/PictureAnimationWrapper;->i()Landroid/graphics/Rect;
@@ -142,7 +134,6 @@
 
     float-to-int p1, v5
 
-    .line 8
     iget-object v5, p0, Lcom/commsource/studio/PictureAnimationWrapper$a;->a:Lcom/commsource/studio/PictureAnimationWrapper;
 
     invoke-virtual {v5}, Lcom/commsource/studio/PictureAnimationWrapper;->i()Landroid/graphics/Rect;
@@ -161,10 +152,8 @@
 
     float-to-int p2, v3
 
-    .line 9
     invoke-virtual {v1, v2, v4, p1, p2}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/PictureAnimationWrapper$a;->a:Lcom/commsource/studio/PictureAnimationWrapper;
 
     invoke-virtual {p1}, Lcom/commsource/studio/PictureAnimationWrapper;->d()Landroid/graphics/RectF;
@@ -179,7 +168,6 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/RectF;->set(Landroid/graphics/Rect;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/MoPubAdAdapter;Landroid/widget/AdapterView$OnItemClickListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubAdAdapter$4;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
     iput-object p2, p0, Lcom/mopub/nativeads/MoPubAdAdapter$4;->val$listener:Landroid/widget/AdapterView$OnItemClickListener;
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter$4;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
     invoke-static {v0}, Lcom/mopub/nativeads/MoPubAdAdapter;->access$200(Lcom/mopub/nativeads/MoPubAdAdapter;)Lcom/mopub/nativeads/MoPubStreamAdPlacer;
@@ -64,12 +62,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/nativeads/MoPubAdAdapter$4;->val$listener:Landroid/widget/AdapterView$OnItemClickListener;
 
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter$4;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
-    .line 3
     invoke-static {v0}, Lcom/mopub/nativeads/MoPubAdAdapter;->access$200(Lcom/mopub/nativeads/MoPubAdAdapter;)Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     move-result-object v0
@@ -84,7 +80,6 @@
 
     move-wide v5, p4
 
-    .line 4
     invoke-interface/range {v1 .. v6}, Landroid/widget/AdapterView$OnItemClickListener;->onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
 
     :cond_0

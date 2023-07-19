@@ -26,7 +26,6 @@
 .method public constructor <init>(J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/bumptech/glide/s/h;-><init>(J)V
 
     return-void
@@ -46,7 +45,6 @@
 
     if-lt p1, v0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/s/h;->b()V
 
     goto :goto_0
@@ -60,7 +58,6 @@
 
     if-ne p1, v0, :cond_2
 
-    .line 2
     :cond_1
     invoke-virtual {p0}, Lcom/bumptech/glide/s/h;->e()J
 
@@ -90,7 +87,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/bumptech/glide/s/h;->o(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -109,7 +105,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/bumptech/glide/s/h;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -126,7 +121,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/x/i;->e:Lcom/bumptech/glide/load/engine/x/j$a;
 
     return-void
@@ -139,7 +133,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/bumptech/glide/load/engine/s;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/engine/x/i;->r(Lcom/bumptech/glide/load/engine/s;)I
@@ -160,7 +153,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/bumptech/glide/load/c;
 
     check-cast p2, Lcom/bumptech/glide/load/engine/s;
@@ -188,14 +180,12 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/bumptech/glide/s/h;->m(Ljava/lang/Object;)I
 
     move-result p1
 
     return p1
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Lcom/bumptech/glide/load/engine/s;->a()I
 
@@ -223,14 +213,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/bumptech/glide/load/engine/x/i;->e:Lcom/bumptech/glide/load/engine/x/j$a;
 
     if-eqz p1, :cond_0
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {p1, p2}, Lcom/bumptech/glide/load/engine/x/j$a;->a(Lcom/bumptech/glide/load/engine/s;)V
 
     :cond_0

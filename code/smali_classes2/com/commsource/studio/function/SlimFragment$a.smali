@@ -41,7 +41,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/SlimFragment$a;->P:Lcom/commsource/studio/function/SlimFragment;
 
     iput-object p2, p0, Lcom/commsource/studio/function/SlimFragment$a;->Q:Lcom/commsource/camera/newrender/renderproxy/m;
@@ -60,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/function/SlimFragment$a;->S(Lcom/commsource/camera/newrender/renderproxy/m;ILcom/commsource/easyeditor/utils/opengl/f;)V
@@ -93,7 +91,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/SlimFragment$a;->P:Lcom/commsource/studio/function/SlimFragment;
 
     invoke-virtual {p3}, Lcom/commsource/studio/function/SlimFragment;->L1()Lcom/commsource/studio/effect/c;
@@ -104,7 +101,6 @@
 
     move-result p2
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
     move-result-object p1
@@ -119,7 +115,6 @@
 
     invoke-virtual {p1, p3, p2}, Lcom/commsource/camera/newrender/renderproxy/v/z;->l2(IF)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

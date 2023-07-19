@@ -16,10 +16,8 @@
 .method constructor <init>(ILjava/lang/String;Ljava/lang/Class;[Ljava/lang/Class;[Ljava/lang/String;[Ljava/lang/Class;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p6}, Ln/a/b/c/c;-><init>(ILjava/lang/String;Ljava/lang/Class;[Ljava/lang/Class;[Ljava/lang/String;[Ljava/lang/Class;)V
 
-    .line 2
     iput-object p7, p0, Ln/a/b/c/k;->q:Ljava/lang/Class;
 
     return-void
@@ -28,7 +26,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Ln/a/b/c/c;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -43,7 +40,6 @@
 
     return-object v0
 
-    .line 1
     :cond_0
     invoke-interface {p4, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
@@ -51,10 +47,8 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-interface {p4, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 3
     :try_start_0
     invoke-virtual {p1, p2, p3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
@@ -67,7 +61,6 @@
     :catch_0
     nop
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
 
@@ -81,7 +74,6 @@
 
     return-object v1
 
-    .line 5
     :cond_2
     invoke-virtual {p1}, Ljava/lang/Class;->getInterfaces()[Ljava/lang/Class;
 
@@ -91,13 +83,11 @@
 
     const/4 v1, 0x0
 
-    .line 6
     :goto_0
     array-length v2, p1
 
     if-ge v1, v2, :cond_4
 
-    .line 7
     aget-object v2, p1, v1
 
     invoke-direct {p0, v2, p2, p3, p4}, Ln/a/b/c/k;->E(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;Ljava/util/Set;)Ljava/lang/reflect/Method;
@@ -122,17 +112,14 @@
 .method public getMethod()Ljava/lang/reflect/Method;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/k;->p:Ljava/lang/reflect/Method;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ln/a/b/c/l;->a()Ljava/lang/Class;
 
     move-result-object v0
 
-    .line 3
     :try_start_0
     invoke-virtual {p0}, Ln/a/b/c/l;->getName()Ljava/lang/String;
 
@@ -152,16 +139,13 @@
 
     goto :goto_0
 
-    .line 4
     :catch_0
     new-instance v1, Ljava/util/HashSet;
 
     invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
 
-    .line 5
     invoke-interface {v1, v0}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 6
     invoke-virtual {p0}, Ln/a/b/c/l;->getName()Ljava/lang/String;
 
     move-result-object v2
@@ -176,7 +160,6 @@
 
     iput-object v0, p0, Ln/a/b/c/k;->p:Ljava/lang/reflect/Method;
 
-    .line 7
     :cond_0
     :goto_0
     iget-object v0, p0, Ln/a/b/c/k;->p:Ljava/lang/reflect/Method;
@@ -187,21 +170,18 @@
 .method public getReturnType()Ljava/lang/Class;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/k;->q:Ljava/lang/Class;
 
     if-nez v0, :cond_0
 
     const/4 v0, 0x6
 
-    .line 2
     invoke-virtual {p0, v0}, Ln/a/b/c/l;->u(I)Ljava/lang/Class;
 
     move-result-object v0
 
     iput-object v0, p0, Ln/a/b/c/k;->q:Ljava/lang/Class;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Ln/a/b/c/k;->q:Ljava/lang/Class;
 
@@ -211,12 +191,10 @@
 .method protected q(Ln/a/b/c/n;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Ln/a/b/c/l;->getModifiers()I
 
     move-result v1
@@ -227,12 +205,10 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 3
     iget-boolean v1, p1, Ln/a/b/c/n;->b:Z
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Ln/a/b/c/k;->getReturnType()Ljava/lang/Class;
 
     move-result-object v1
@@ -243,7 +219,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 5
     :cond_0
     iget-boolean v1, p1, Ln/a/b/c/n;->b:Z
 
@@ -251,10 +226,8 @@
 
     const-string v1, " "
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Ln/a/b/c/l;->a()Ljava/lang/Class;
 
@@ -272,31 +245,26 @@
 
     const-string v1, "."
 
-    .line 8
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 9
     invoke-virtual {p0}, Ln/a/b/c/l;->getName()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 10
     invoke-virtual {p0}, Ln/a/b/c/c;->c()[Ljava/lang/Class;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Ln/a/b/c/n;->a(Ljava/lang/StringBuffer;[Ljava/lang/Class;)V
 
-    .line 11
     invoke-virtual {p0}, Ln/a/b/c/c;->d()[Ljava/lang/Class;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Ln/a/b/c/n;->b(Ljava/lang/StringBuffer;[Ljava/lang/Class;)V
 
-    .line 12
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object p1

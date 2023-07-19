@@ -88,31 +88,26 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/s1;->d()Ljava/util/ArrayDeque;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/util/concurrent/j0$b;->c:Ljava/util/Queue;
 
-    .line 3
     invoke-static {}, Lcom/google/common/collect/s1;->d()Ljava/util/ArrayDeque;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/util/concurrent/j0$b;->d:Ljava/util/Queue;
 
-    .line 4
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/common/util/concurrent/j0$b;->a:Ljava/lang/Object;
 
-    .line 5
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -142,20 +137,17 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/j0$b;->c:Ljava/util/Queue;
 
     invoke-interface {v0, p1}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
 
-    .line 2
     iget-object p1, p0, Lcom/google/common/util/concurrent/j0$b;->d:Ljava/util/Queue;
 
     invoke-interface {p1, p2}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -171,10 +163,8 @@
 .method b()V
     .locals 5
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lcom/google/common/util/concurrent/j0$b;->f:Z
 
@@ -184,7 +174,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iput-boolean v1, p0, Lcom/google/common/util/concurrent/j0$b;->f:Z
 
     goto :goto_0
@@ -192,7 +181,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     monitor-exit p0
     :try_end_0
@@ -200,7 +188,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     :try_start_1
     iget-object v0, p0, Lcom/google/common/util/concurrent/j0$b;->b:Ljava/util/concurrent/Executor;
 
@@ -213,19 +200,15 @@
     :catch_0
     move-exception v0
 
-    .line 6
     monitor-enter p0
 
-    .line 7
     :try_start_2
     iput-boolean v2, p0, Lcom/google/common/util/concurrent/j0$b;->f:Z
 
-    .line 8
     monitor-exit p0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 9
     invoke-static {}, Lcom/google/common/util/concurrent/j0;->a()Ljava/util/logging/Logger;
 
     move-result-object v1
@@ -258,13 +241,11 @@
 
     invoke-virtual {v1, v2, v3, v0}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 10
     throw v0
 
     :catchall_0
     move-exception v0
 
-    .line 11
     :try_start_3
     monitor-exit p0
     :try_end_3
@@ -279,7 +260,6 @@
     :catchall_1
     move-exception v0
 
-    .line 12
     :try_start_4
     monitor-exit p0
     :try_end_4
@@ -296,19 +276,16 @@
 
     const/4 v1, 0x1
 
-    .line 1
     :try_start_0
     monitor-enter p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_4
 
-    .line 2
     :try_start_1
     iget-boolean v2, p0, Lcom/google/common/util/concurrent/j0$b;->f:Z
 
     invoke-static {v2}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 3
     iget-object v2, p0, Lcom/google/common/util/concurrent/j0$b;->c:Ljava/util/Queue;
 
     invoke-interface {v2}, Ljava/util/Queue;->poll()Ljava/lang/Object;
@@ -317,7 +294,6 @@
 
     check-cast v2, Lcom/google/common/util/concurrent/j0$a;
 
-    .line 4
     iget-object v3, p0, Lcom/google/common/util/concurrent/j0$b;->d:Ljava/util/Queue;
 
     invoke-interface {v3}, Ljava/util/Queue;->poll()Ljava/lang/Object;
@@ -326,12 +302,10 @@
 
     if-nez v2, :cond_0
 
-    .line 5
     iput-boolean v0, p0, Lcom/google/common/util/concurrent/j0$b;->f:Z
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 6
     :try_start_2
     monitor-exit p0
     :try_end_2
@@ -346,14 +320,12 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     :try_start_3
     monitor-exit p0
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 8
     :try_start_4
     iget-object v4, p0, Lcom/google/common/util/concurrent/j0$b;->a:Ljava/lang/Object;
 
@@ -367,7 +339,6 @@
     :catch_0
     move-exception v2
 
-    .line 9
     :try_start_5
     invoke-static {}, Lcom/google/common/util/concurrent/j0;->a()Ljava/util/logging/Logger;
 
@@ -410,7 +381,6 @@
 
     const/4 v2, 0x1
 
-    .line 10
     :goto_1
     :try_start_6
     monitor-exit p0
@@ -444,14 +414,11 @@
     :goto_2
     if-eqz v1, :cond_1
 
-    .line 11
     monitor-enter p0
 
-    .line 12
     :try_start_8
     iput-boolean v0, p0, Lcom/google/common/util/concurrent/j0$b;->f:Z
 
-    .line 13
     monitor-exit p0
 
     goto :goto_3
@@ -465,7 +432,6 @@
 
     throw v0
 
-    .line 14
     :cond_1
     :goto_3
     throw v2

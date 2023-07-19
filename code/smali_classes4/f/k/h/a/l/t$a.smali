@@ -24,7 +24,6 @@
 .method constructor <init>(Lf/k/h/a/l/t;Lf/k/h/a/l/q;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/l/t$a;->b:Lf/k/h/a/l/t;
 
     iput-object p2, p0, Lf/k/h/a/l/t$a;->a:Lf/k/h/a/l/q;
@@ -43,17 +42,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/t$a;->a:Lf/k/h/a/l/q;
 
     invoke-interface {v1, p0}, Lf/k/h/a/l/y/a;->b(Lf/k/h/a/l/y/b;)V
 
-    .line 2
     iget-object v1, p0, Lf/k/h/a/l/t$a;->b:Lf/k/h/a/l/t;
 
     invoke-virtual {v1}, Lf/k/h/a/l/t;->f()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

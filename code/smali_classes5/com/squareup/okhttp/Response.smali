@@ -39,45 +39,38 @@
 .method private constructor <init>(Lcom/squareup/okhttp/Response$Builder;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/squareup/okhttp/Response$Builder;->access$000(Lcom/squareup/okhttp/Response$Builder;)Lcom/squareup/okhttp/Request;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/squareup/okhttp/Response;->request:Lcom/squareup/okhttp/Request;
 
-    .line 4
     invoke-static {p1}, Lcom/squareup/okhttp/Response$Builder;->access$100(Lcom/squareup/okhttp/Response$Builder;)Lcom/squareup/okhttp/Protocol;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/squareup/okhttp/Response;->protocol:Lcom/squareup/okhttp/Protocol;
 
-    .line 5
     invoke-static {p1}, Lcom/squareup/okhttp/Response$Builder;->access$200(Lcom/squareup/okhttp/Response$Builder;)I
 
     move-result v0
 
     iput v0, p0, Lcom/squareup/okhttp/Response;->code:I
 
-    .line 6
     invoke-static {p1}, Lcom/squareup/okhttp/Response$Builder;->access$300(Lcom/squareup/okhttp/Response$Builder;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/squareup/okhttp/Response;->message:Ljava/lang/String;
 
-    .line 7
     invoke-static {p1}, Lcom/squareup/okhttp/Response$Builder;->access$400(Lcom/squareup/okhttp/Response$Builder;)Lcom/squareup/okhttp/Handshake;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/squareup/okhttp/Response;->handshake:Lcom/squareup/okhttp/Handshake;
 
-    .line 8
     invoke-static {p1}, Lcom/squareup/okhttp/Response$Builder;->access$500(Lcom/squareup/okhttp/Response$Builder;)Lcom/squareup/okhttp/Headers$Builder;
 
     move-result-object v0
@@ -88,28 +81,24 @@
 
     iput-object v0, p0, Lcom/squareup/okhttp/Response;->headers:Lcom/squareup/okhttp/Headers;
 
-    .line 9
     invoke-static {p1}, Lcom/squareup/okhttp/Response$Builder;->access$600(Lcom/squareup/okhttp/Response$Builder;)Lcom/squareup/okhttp/ResponseBody;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/squareup/okhttp/Response;->body:Lcom/squareup/okhttp/ResponseBody;
 
-    .line 10
     invoke-static {p1}, Lcom/squareup/okhttp/Response$Builder;->access$700(Lcom/squareup/okhttp/Response$Builder;)Lcom/squareup/okhttp/Response;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/squareup/okhttp/Response;->networkResponse:Lcom/squareup/okhttp/Response;
 
-    .line 11
     invoke-static {p1}, Lcom/squareup/okhttp/Response$Builder;->access$800(Lcom/squareup/okhttp/Response$Builder;)Lcom/squareup/okhttp/Response;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/squareup/okhttp/Response;->cacheResponse:Lcom/squareup/okhttp/Response;
 
-    .line 12
     invoke-static {p1}, Lcom/squareup/okhttp/Response$Builder;->access$900(Lcom/squareup/okhttp/Response$Builder;)Lcom/squareup/okhttp/Response;
 
     move-result-object p1
@@ -122,7 +111,6 @@
 .method synthetic constructor <init>(Lcom/squareup/okhttp/Response$Builder;Lcom/squareup/okhttp/Response$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/squareup/okhttp/Response;-><init>(Lcom/squareup/okhttp/Response$Builder;)V
 
     return-void
@@ -131,7 +119,6 @@
 .method static synthetic access$1100(Lcom/squareup/okhttp/Response;)Lcom/squareup/okhttp/Request;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/Response;->request:Lcom/squareup/okhttp/Request;
 
     return-object p0
@@ -140,7 +127,6 @@
 .method static synthetic access$1200(Lcom/squareup/okhttp/Response;)Lcom/squareup/okhttp/Protocol;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/Response;->protocol:Lcom/squareup/okhttp/Protocol;
 
     return-object p0
@@ -149,7 +135,6 @@
 .method static synthetic access$1300(Lcom/squareup/okhttp/Response;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/squareup/okhttp/Response;->code:I
 
     return p0
@@ -158,7 +143,6 @@
 .method static synthetic access$1400(Lcom/squareup/okhttp/Response;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/Response;->message:Ljava/lang/String;
 
     return-object p0
@@ -167,7 +151,6 @@
 .method static synthetic access$1500(Lcom/squareup/okhttp/Response;)Lcom/squareup/okhttp/Handshake;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/Response;->handshake:Lcom/squareup/okhttp/Handshake;
 
     return-object p0
@@ -176,7 +159,6 @@
 .method static synthetic access$1600(Lcom/squareup/okhttp/Response;)Lcom/squareup/okhttp/Headers;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/Response;->headers:Lcom/squareup/okhttp/Headers;
 
     return-object p0
@@ -185,7 +167,6 @@
 .method static synthetic access$1700(Lcom/squareup/okhttp/Response;)Lcom/squareup/okhttp/ResponseBody;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/Response;->body:Lcom/squareup/okhttp/ResponseBody;
 
     return-object p0
@@ -194,7 +175,6 @@
 .method static synthetic access$1800(Lcom/squareup/okhttp/Response;)Lcom/squareup/okhttp/Response;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/Response;->networkResponse:Lcom/squareup/okhttp/Response;
 
     return-object p0
@@ -203,7 +183,6 @@
 .method static synthetic access$1900(Lcom/squareup/okhttp/Response;)Lcom/squareup/okhttp/Response;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/Response;->cacheResponse:Lcom/squareup/okhttp/Response;
 
     return-object p0
@@ -212,7 +191,6 @@
 .method static synthetic access$2000(Lcom/squareup/okhttp/Response;)Lcom/squareup/okhttp/Response;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/Response;->priorResponse:Lcom/squareup/okhttp/Response;
 
     return-object p0
@@ -223,7 +201,6 @@
 .method public body()Lcom/squareup/okhttp/ResponseBody;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->body:Lcom/squareup/okhttp/ResponseBody;
 
     return-object v0
@@ -232,14 +209,12 @@
 .method public cacheControl()Lcom/squareup/okhttp/CacheControl;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->cacheControl:Lcom/squareup/okhttp/CacheControl;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->headers:Lcom/squareup/okhttp/Headers;
 
@@ -256,7 +231,6 @@
 .method public cacheResponse()Lcom/squareup/okhttp/Response;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->cacheResponse:Lcom/squareup/okhttp/Response;
 
     return-object v0
@@ -273,7 +247,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/Response;->code:I
 
     const/16 v1, 0x191
@@ -291,7 +264,6 @@
 
     const-string v0, "Proxy-Authenticate"
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Lcom/squareup/okhttp/Response;->headers()Lcom/squareup/okhttp/Headers;
 
@@ -303,7 +275,6 @@
 
     return-object v0
 
-    .line 3
     :cond_1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
@@ -315,7 +286,6 @@
 .method public code()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/Response;->code:I
 
     return v0
@@ -324,7 +294,6 @@
 .method public handshake()Lcom/squareup/okhttp/Handshake;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->handshake:Lcom/squareup/okhttp/Handshake;
 
     return-object v0
@@ -335,7 +304,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/squareup/okhttp/Response;->header(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -346,7 +314,6 @@
 .method public header(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->headers:Lcom/squareup/okhttp/Headers;
 
     invoke-virtual {v0, p1}, Lcom/squareup/okhttp/Headers;->get(Ljava/lang/String;)Ljava/lang/String;
@@ -364,7 +331,6 @@
 .method public headers()Lcom/squareup/okhttp/Headers;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->headers:Lcom/squareup/okhttp/Headers;
 
     return-object v0
@@ -383,7 +349,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->headers:Lcom/squareup/okhttp/Headers;
 
     invoke-virtual {v0, p1}, Lcom/squareup/okhttp/Headers;->values(Ljava/lang/String;)Ljava/util/List;
@@ -396,7 +361,6 @@
 .method public isRedirect()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/Response;->code:I
 
     const/16 v1, 0x133
@@ -433,7 +397,6 @@
 .method public isSuccessful()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/Response;->code:I
 
     const/16 v1, 0xc8
@@ -458,7 +421,6 @@
 .method public message()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->message:Ljava/lang/String;
 
     return-object v0
@@ -467,7 +429,6 @@
 .method public networkResponse()Lcom/squareup/okhttp/Response;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->networkResponse:Lcom/squareup/okhttp/Response;
 
     return-object v0
@@ -476,7 +437,6 @@
 .method public newBuilder()Lcom/squareup/okhttp/Response$Builder;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/Response$Builder;
 
     const/4 v1, 0x0
@@ -489,7 +449,6 @@
 .method public priorResponse()Lcom/squareup/okhttp/Response;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->priorResponse:Lcom/squareup/okhttp/Response;
 
     return-object v0
@@ -498,7 +457,6 @@
 .method public protocol()Lcom/squareup/okhttp/Protocol;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->protocol:Lcom/squareup/okhttp/Protocol;
 
     return-object v0
@@ -507,7 +465,6 @@
 .method public request()Lcom/squareup/okhttp/Request;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Response;->request:Lcom/squareup/okhttp/Request;
 
     return-object v0
@@ -516,7 +473,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -551,7 +507,6 @@
 
     iget-object v1, p0, Lcom/squareup/okhttp/Response;->request:Lcom/squareup/okhttp/Request;
 
-    .line 2
     invoke-virtual {v1}, Lcom/squareup/okhttp/Request;->urlString()Ljava/lang/String;
 
     move-result-object v1

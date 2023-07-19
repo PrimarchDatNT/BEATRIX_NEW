@@ -45,13 +45,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/e51;->a:Lcom/google/android/gms/internal/ads/rq1;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/e51;->b:Ljava/util/concurrent/Executor;
 
     return-void
@@ -70,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/e51;->a:Lcom/google/android/gms/internal/ads/rq1;
 
     sget-object v1, Lcom/google/android/gms/internal/ads/d51;->a:Lcom/google/android/gms/internal/ads/xp1;

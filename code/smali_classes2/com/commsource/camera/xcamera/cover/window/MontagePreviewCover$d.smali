@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget p1, p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->e:I
 
     int-to-float p1, p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$d;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -91,7 +89,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setTranslationY(F)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$d;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
@@ -111,7 +108,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$d;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
@@ -131,7 +127,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -145,7 +140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$d;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;)V

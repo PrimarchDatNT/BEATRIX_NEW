@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$a;->b:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -50,7 +49,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$a;->b:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->F(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -63,7 +61,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$a;->b:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->F(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -110,12 +107,10 @@
 
     add-int/2addr p1, v0
 
-    .line 3
     iget v0, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$a;->a:I
 
     if-eq v0, p1, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$a;->b:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->F(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -124,10 +119,8 @@
 
     invoke-virtual {v0, p1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->N0(I)V
 
-    .line 5
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$a;->a:I
 
-    .line 6
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -143,10 +136,8 @@
 
     const/16 v0, 0x1e
 
-    .line 1
     invoke-static {v0}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -159,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$a;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$a;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -26,7 +26,6 @@
 
     const-string v0, "DigitalDocumentPermission"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/firebase/appindexing/g/i;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -43,7 +42,6 @@
 
     const-string v0, "grantee"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lcom/google/firebase/appindexing/g/i;->d(Ljava/lang/String;[Lcom/google/firebase/appindexing/g/i;)Lcom/google/firebase/appindexing/g/i;
 
     move-result-object p1
@@ -70,7 +68,6 @@
 
     const-string p1, "permissionType"
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/appindexing/g/i;->e(Ljava/lang/String;[Ljava/lang/String;)Lcom/google/firebase/appindexing/g/i;
 
     move-result-object p1

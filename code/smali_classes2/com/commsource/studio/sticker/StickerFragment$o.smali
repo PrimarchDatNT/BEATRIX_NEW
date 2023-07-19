@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$o;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Sticker;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment$o;->e(Lcom/meitu/template/bean/Sticker;)V
@@ -77,7 +75,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
@@ -90,7 +87,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->needDownload()Z
 
     move-result v3
@@ -103,7 +99,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -115,19 +110,16 @@
 
     if-nez v3, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$o;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->Y(Landroid/content/Context;)V
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-virtual {v2}, Lcom/meitu/template/bean/StickerGroup;->getAvailable()I
 
@@ -141,19 +133,16 @@
 
     if-eq v2, v4, :cond_2
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$o;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
-    .line 8
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->f0(Landroid/content/Context;)V
 
     goto :goto_1
 
-    .line 9
     :cond_2
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment$o;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
@@ -165,7 +154,6 @@
 
     const/4 v2, 0x0
 
-    .line 10
     iget-object v4, p0, Lcom/commsource/studio/sticker/StickerFragment$o;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v4}, Lcom/commsource/studio/sticker/StickerFragment;->Z(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/studio/sticker/k;
@@ -180,24 +168,20 @@
 
     if-ne v4, v5, :cond_3
 
-    .line 11
     invoke-virtual {v3}, Lcom/commsource/studio/k;->c()I
 
     move-result v3
 
     goto :goto_0
 
-    .line 12
     :cond_3
     invoke-virtual {v3}, Lcom/commsource/studio/k;->d()I
 
     move-result v3
 
-    .line 13
     :goto_0
     invoke-virtual {v1, p1, v2, v3}, Lcom/commsource/studio/sticker/StickerManager;->I(Lcom/meitu/template/bean/Sticker;ZI)V
 
-    .line 14
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.play.core.install.protocol.IInstallServiceCallback"
 
-    .line 1
     invoke-direct {p0, v0}, Lf/f/a/a/a;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -44,7 +43,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -54,12 +52,10 @@
 
     check-cast p1, Landroid/os/Bundle;
 
-    .line 2
     invoke-interface {p0}, Lf/f/a/b/a/a/a/c;->a()V
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -69,12 +65,10 @@
 
     check-cast p1, Landroid/os/Bundle;
 
-    .line 4
     invoke-interface {p0, p1}, Lf/f/a/b/a/a/a/c;->t(Landroid/os/Bundle;)V
 
     goto :goto_0
 
-    .line 5
     :cond_2
     sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -84,7 +78,6 @@
 
     check-cast p1, Landroid/os/Bundle;
 
-    .line 6
     invoke-interface {p0, p1}, Lf/f/a/b/a/a/a/c;->F1(Landroid/os/Bundle;)V
 
     :goto_0

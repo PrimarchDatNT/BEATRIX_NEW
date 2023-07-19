@@ -29,12 +29,10 @@
 .method public constructor <init>(Lorg/apache/http/io/SessionInputBuffer;Lorg/apache/http/message/LineParser;Lorg/apache/http/HttpResponseFactory;Lorg/apache/http/params/HttpParams;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p4}, Lorg/apache/http/impl/io/AbstractMessageParser;-><init>(Lorg/apache/http/io/SessionInputBuffer;Lorg/apache/http/message/LineParser;Lorg/apache/http/params/HttpParams;)V
 
     const-string p1, "Response factory"
 
-    .line 2
     invoke-static {p3, p1}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -43,7 +41,6 @@
 
     iput-object p1, p0, Lorg/apache/http/impl/io/HttpResponseParser;->responseFactory:Lorg/apache/http/HttpResponseFactory;
 
-    .line 3
     new-instance p1, Lorg/apache/http/util/CharArrayBuffer;
 
     const/16 p2, 0x80
@@ -67,12 +64,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/io/HttpResponseParser;->lineBuf:Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {v0}, Lorg/apache/http/util/CharArrayBuffer;->clear()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/impl/io/HttpResponseParser;->lineBuf:Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-interface {p1, v0}, Lorg/apache/http/io/SessionInputBuffer;->readLine(Lorg/apache/http/util/CharArrayBuffer;)I
@@ -83,7 +78,6 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 3
     new-instance p1, Lorg/apache/http/message/ParserCursor;
 
     const/4 v0, 0x0
@@ -96,7 +90,6 @@
 
     invoke-direct {p1, v0, v1}, Lorg/apache/http/message/ParserCursor;-><init>(II)V
 
-    .line 4
     iget-object v0, p0, Lorg/apache/http/impl/io/AbstractMessageParser;->lineParser:Lorg/apache/http/message/LineParser;
 
     iget-object v1, p0, Lorg/apache/http/impl/io/HttpResponseParser;->lineBuf:Lorg/apache/http/util/CharArrayBuffer;
@@ -105,7 +98,6 @@
 
     move-result-object p1
 
-    .line 5
     iget-object v0, p0, Lorg/apache/http/impl/io/HttpResponseParser;->responseFactory:Lorg/apache/http/HttpResponseFactory;
 
     const/4 v1, 0x0
@@ -116,7 +108,6 @@
 
     return-object p1
 
-    .line 6
     :cond_0
     new-instance p1, Lorg/apache/http/NoHttpResponseException;
 

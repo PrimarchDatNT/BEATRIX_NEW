@@ -14,7 +14,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/sg2;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -31,7 +30,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Ljava/lang/Thread;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/sg2;->a:Ljava/lang/String;

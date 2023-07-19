@@ -56,7 +56,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/nativeads/StaticNativeViewHolder;
 
     invoke-direct {v0}, Lcom/mopub/nativeads/StaticNativeViewHolder;-><init>()V
@@ -69,7 +68,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -88,15 +86,12 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/mopub/nativeads/StaticNativeViewHolder;
 
     invoke-direct {v0}, Lcom/mopub/nativeads/StaticNativeViewHolder;-><init>()V
 
-    .line 2
     iput-object p0, v0, Lcom/mopub/nativeads/StaticNativeViewHolder;->mainView:Landroid/view/View;
 
-    .line 3
     :try_start_0
     iget v1, p1, Lcom/mopub/nativeads/ViewBinder;->titleId:I
 
@@ -108,7 +103,6 @@
 
     iput-object v1, v0, Lcom/mopub/nativeads/StaticNativeViewHolder;->titleView:Landroid/widget/TextView;
 
-    .line 4
     iget v1, p1, Lcom/mopub/nativeads/ViewBinder;->textId:I
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -119,7 +113,6 @@
 
     iput-object v1, v0, Lcom/mopub/nativeads/StaticNativeViewHolder;->textView:Landroid/widget/TextView;
 
-    .line 5
     iget v1, p1, Lcom/mopub/nativeads/ViewBinder;->callToActionId:I
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -130,7 +123,6 @@
 
     iput-object v1, v0, Lcom/mopub/nativeads/StaticNativeViewHolder;->callToActionView:Landroid/widget/TextView;
 
-    .line 6
     iget v1, p1, Lcom/mopub/nativeads/ViewBinder;->mainImageId:I
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -141,7 +133,6 @@
 
     iput-object v1, v0, Lcom/mopub/nativeads/StaticNativeViewHolder;->mainImageView:Landroid/widget/ImageView;
 
-    .line 7
     iget v1, p1, Lcom/mopub/nativeads/ViewBinder;->iconImageId:I
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -152,10 +143,8 @@
 
     iput-object v1, v0, Lcom/mopub/nativeads/StaticNativeViewHolder;->iconImageView:Landroid/widget/ImageView;
 
-    .line 8
     iget v1, p1, Lcom/mopub/nativeads/ViewBinder;->privacyInformationIconImageId:I
 
-    .line 9
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -164,7 +153,6 @@
 
     iput-object v1, v0, Lcom/mopub/nativeads/StaticNativeViewHolder;->privacyInformationIconImageView:Landroid/widget/ImageView;
 
-    .line 10
     iget p1, p1, Lcom/mopub/nativeads/ViewBinder;->sponsoredTextId:I
 
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -182,7 +170,6 @@
     :catch_0
     move-exception p0
 
-    .line 11
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x2
@@ -201,7 +188,6 @@
 
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 12
     sget-object p0, Lcom/mopub/nativeads/StaticNativeViewHolder;->EMPTY_VIEW_HOLDER:Lcom/mopub/nativeads/StaticNativeViewHolder;
 
     return-object p0

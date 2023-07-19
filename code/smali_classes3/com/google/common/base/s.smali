@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/base/s;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -38,7 +37,6 @@
 
     sput-object v0, Lcom/google/common/base/s;->a:Ljava/util/logging/Logger;
 
-    .line 2
     invoke-static {}, Lcom/google/common/base/s;->f()Lcom/google/common/base/r;
 
     move-result-object v0
@@ -51,7 +49,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -66,10 +63,8 @@
 .method static b(Ljava/lang/String;)Lcom/google/common/base/e;
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     sget-object v0, Lcom/google/common/base/s;->b:Lcom/google/common/base/r;
 
     invoke-interface {v0, p0}, Lcom/google/common/base/r;->a(Ljava/lang/String;)Lcom/google/common/base/e;
@@ -86,7 +81,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/s;->k(Ljava/lang/String;)Z
 
     move-result v0
@@ -102,7 +96,6 @@
 .method static d(D)Ljava/lang/String;
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
 
     const/4 v1, 0x1
@@ -142,7 +135,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/Enums;->a(Ljava/lang/Class;)Ljava/util/Map;
 
     move-result-object v0
@@ -155,7 +147,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/base/Optional;->absent()Lcom/google/common/base/Optional;
 
     move-result-object p0
@@ -182,7 +173,6 @@
 .method private static f()Lcom/google/common/base/r;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/base/s$b;
 
     const/4 v1, 0x0
@@ -195,7 +185,6 @@
 .method private static g(Ljava/util/ServiceConfigurationError;)V
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/common/base/s;->a:Ljava/util/logging/Logger;
 
     sget-object v1, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
@@ -225,7 +214,6 @@
 .method static i()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/base/s;->b:Lcom/google/common/base/r;
 
     invoke-interface {v0}, Lcom/google/common/base/r;->b()Z
@@ -238,7 +226,6 @@
 .method static j(Lcom/google/common/base/b;)Lcom/google/common/base/b;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/base/b;->K()Lcom/google/common/base/b;
 
     move-result-object p0
@@ -255,7 +242,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result p0
@@ -280,7 +266,6 @@
 .method static l()J
     .locals 2
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v0

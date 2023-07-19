@@ -12,7 +12,6 @@
 .method static constructor <clinit>()V
     .locals 12
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/zzlb;->values()[Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     move-result-object v0
@@ -308,7 +307,6 @@
     :try_end_11
     .catch Ljava/lang/NoSuchFieldError; {:try_start_11 .. :try_end_11} :catch_11
 
-    .line 2
     :catch_11
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/zzle;->values()[Lcom/google/android/gms/internal/firebase_auth/zzle;
 

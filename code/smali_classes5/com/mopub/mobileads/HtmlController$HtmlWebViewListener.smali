@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/HtmlController;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/HtmlController$HtmlWebViewListener;->this$0:Lcom/mopub/mobileads/HtmlController;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,14 +37,12 @@
 .method public onClicked()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlController$HtmlWebViewListener;->this$0:Lcom/mopub/mobileads/HtmlController;
 
     iget-object v0, v0, Lcom/mopub/mobileads/MoPubWebViewController;->mBaseWebViewListener:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;->onClicked()V
 
     :cond_0
@@ -55,14 +52,12 @@
 .method public onClose()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlController$HtmlWebViewListener;->this$0:Lcom/mopub/mobileads/HtmlController;
 
     iget-object v0, v0, Lcom/mopub/mobileads/MoPubWebViewController;->mBaseWebViewListener:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;->onClose()V
 
     :cond_0
@@ -72,14 +67,12 @@
 .method public onExpand()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlController$HtmlWebViewListener;->this$0:Lcom/mopub/mobileads/HtmlController;
 
     iget-object v0, v0, Lcom/mopub/mobileads/MoPubWebViewController;->mBaseWebViewListener:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;->onExpand()V
 
     :cond_0
@@ -89,14 +82,12 @@
 .method public onFailed()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlController$HtmlWebViewListener;->this$0:Lcom/mopub/mobileads/HtmlController;
 
     iget-object v0, v0, Lcom/mopub/mobileads/MoPubWebViewController;->mBaseWebViewListener:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;->onFailed()V
 
     :cond_0
@@ -110,14 +101,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/mobileads/HtmlController$HtmlWebViewListener;->this$0:Lcom/mopub/mobileads/HtmlController;
 
     iget-object p1, p1, Lcom/mopub/mobileads/MoPubWebViewController;->mBaseWebViewListener:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
 
     if-eqz p1, :cond_0
 
-    .line 2
     sget-object v0, Lcom/mopub/mobileads/MoPubErrorCode;->HTML_LOAD_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
     invoke-interface {p1, v0}, Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;->onFailedToLoad(Lcom/mopub/mobileads/MoPubErrorCode;)V
@@ -129,14 +118,12 @@
 .method public onLoaded(Landroid/view/View;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlController$HtmlWebViewListener;->this$0:Lcom/mopub/mobileads/HtmlController;
 
     iget-object v0, v0, Lcom/mopub/mobileads/MoPubWebViewController;->mBaseWebViewListener:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;->onLoaded(Landroid/view/View;)V
 
     :cond_0
@@ -150,14 +137,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlController$HtmlWebViewListener;->this$0:Lcom/mopub/mobileads/HtmlController;
 
     iget-object v0, v0, Lcom/mopub/mobileads/MoPubWebViewController;->mBaseWebViewListener:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;->onRenderProcessGone(Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :cond_0
@@ -167,14 +152,12 @@
 .method public onResize(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlController$HtmlWebViewListener;->this$0:Lcom/mopub/mobileads/HtmlController;
 
     iget-object v0, v0, Lcom/mopub/mobileads/MoPubWebViewController;->mBaseWebViewListener:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;->onResize(Z)V
 
     :cond_0

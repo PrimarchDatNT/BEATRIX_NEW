@@ -36,24 +36,18 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->loading_time:I
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->isShowed:Z
 
-    .line 4
     iput-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->isShowFailed:Z
 
-    .line 5
     iput v0, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->endTime:I
 
-    .line 6
     iput v0, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->showTime:I
 
     return-void
@@ -68,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->after_action:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -83,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->block_click:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -98,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->block_show:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -113,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->endTime:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -128,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -143,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->loading_time:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -158,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->picture:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -173,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->showTime:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -188,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->url:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -203,7 +188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->video:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -218,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->isShowFailed:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -233,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->isShowed:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -248,10 +230,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->after_action:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -264,10 +244,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->block_click:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -280,10 +258,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->block_show:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -296,10 +272,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->endTime:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -312,10 +286,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->id:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -328,10 +300,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->loading_time:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -344,10 +314,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->picture:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -360,10 +328,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->isShowFailed:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -376,10 +342,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->showTime:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -392,10 +356,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->isShowed:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -408,10 +370,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->url:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -424,10 +384,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->video:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -42,10 +42,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -54,7 +52,6 @@
 
     iput-object p1, p0, Lio/grpc/InternalChannelz$d;->a:Ljava/util/List;
 
-    .line 3
     iput-boolean p2, p0, Lio/grpc/InternalChannelz$d;->b:Z
 
     return-void

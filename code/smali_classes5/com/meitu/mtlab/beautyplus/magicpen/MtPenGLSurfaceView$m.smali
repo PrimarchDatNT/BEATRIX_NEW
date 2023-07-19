@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;Landroid/graphics/Bitmap;Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$t;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$m;->c:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     iput-object p2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$m;->a:Landroid/graphics/Bitmap;
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$m;->c:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     invoke-static {v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->k(Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;)Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
@@ -61,15 +59,12 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->E(Landroid/graphics/Bitmap;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$m;->b:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$t;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$t;->successfulSetBackground()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

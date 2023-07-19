@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -64,7 +63,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
     move-result p1
@@ -75,7 +73,6 @@
 
     sub-float/2addr p1, p2
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;
 
     invoke-static {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;->J(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;)Lcom/commsource/beautyplus/f0/s5;
@@ -88,7 +85,6 @@
 
     invoke-static {p2, p1}, Lcom/commsource/util/l2;->A(Landroid/view/View;I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;->J(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;)Lcom/commsource/beautyplus/f0/s5;
@@ -103,7 +99,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

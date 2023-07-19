@@ -26,7 +26,6 @@
 .method varargs constructor <init>(Lcom/squareup/okhttp/internal/framed/FramedConnection;Ljava/lang/String;[Ljava/lang/Object;ILcom/squareup/okhttp/internal/framed/ErrorCode;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection$7;->this$0:Lcom/squareup/okhttp/internal/framed/FramedConnection;
 
     iput p4, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection$7;->val$streamId:I
@@ -43,7 +42,6 @@
 .method public execute()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection$7;->this$0:Lcom/squareup/okhttp/internal/framed/FramedConnection;
 
     invoke-static {v0}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->access$2700(Lcom/squareup/okhttp/internal/framed/FramedConnection;)Lcom/squareup/okhttp/internal/framed/PushObserver;
@@ -56,12 +54,10 @@
 
     invoke-interface {v0, v1, v2}, Lcom/squareup/okhttp/internal/framed/PushObserver;->onReset(ILcom/squareup/okhttp/internal/framed/ErrorCode;)V
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection$7;->this$0:Lcom/squareup/okhttp/internal/framed/FramedConnection;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection$7;->this$0:Lcom/squareup/okhttp/internal/framed/FramedConnection;
 
@@ -77,7 +73,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
 
-    .line 4
     monitor-exit v0
 
     return-void

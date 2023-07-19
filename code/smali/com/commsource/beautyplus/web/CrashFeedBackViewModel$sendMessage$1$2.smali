@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/web/CrashFeedBackViewModel$sendMessage$1$2;->invoke(Ljava/lang/Throwable;)V
@@ -99,10 +98,8 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->check_network:I
 
-    .line 2
     invoke-static {p1}, Lf/k/c/c/f;->H(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

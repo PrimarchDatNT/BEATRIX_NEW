@@ -44,14 +44,12 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$a;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/flow/FlowKt__LimitKt$a;-><init>(Lcotlinx/coroutines/flow/d;I)V
 
     return-object v0
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -114,7 +112,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$dropWhile$$inlined$unsafeFlow$1;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/flow/FlowKt__LimitKt$dropWhile$$inlined$unsafeFlow$1;-><init>(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/p;)V
@@ -184,7 +181,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1;->label:I
 
     const/4 v3, 0x1
@@ -193,7 +189,6 @@
 
     if-eq v2, v3, :cond_1
 
-    .line 2
     new-instance p0, Ljava/lang/IllegalStateException;
 
     const-string p1, "call to \'resume\' before \'invoke\' with coroutine"
@@ -202,7 +197,6 @@
 
     throw p0
 
-    .line 3
     :cond_1
     iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1;->L$1:Ljava/lang/Object;
 
@@ -217,7 +211,6 @@
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1;->L$0:Ljava/lang/Object;
 
     iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1;->L$1:Ljava/lang/Object;
@@ -232,7 +225,6 @@
 
     return-object v1
 
-    .line 5
     :cond_3
     :goto_1
     new-instance p1, Lcotlinx/coroutines/flow/internal/AbortFlowException;
@@ -278,14 +270,12 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;-><init>(Lcotlinx/coroutines/flow/d;I)V
 
     return-object v0
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -352,7 +342,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$takeWhile$$inlined$unsafeFlow$1;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/flow/FlowKt__LimitKt$takeWhile$$inlined$unsafeFlow$1;-><init>(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/p;)V

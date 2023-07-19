@@ -69,40 +69,28 @@
 .method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILcom/commsource/studio/doodle/ColorItemView;Landroid/widget/LinearLayout;Lcom/commsource/widget/IconFrontView;Lcom/commsource/studio/doodle/ColorItemView;Landroidx/recyclerview/widget/RecyclerView;Landroid/widget/ScrollView;Lcom/commsource/widget/XSeekBar;Landroid/widget/TextView;Lcom/commsource/widget/XSeekBar;Landroid/widget/TextView;Landroid/view/View;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
-    .line 2
     iput-object p4, p0, Lcom/commsource/beautyplus/f0/u8;->a:Lcom/commsource/studio/doodle/ColorItemView;
 
-    .line 3
     iput-object p5, p0, Lcom/commsource/beautyplus/f0/u8;->b:Landroid/widget/LinearLayout;
 
-    .line 4
     iput-object p6, p0, Lcom/commsource/beautyplus/f0/u8;->c:Lcom/commsource/widget/IconFrontView;
 
-    .line 5
     iput-object p7, p0, Lcom/commsource/beautyplus/f0/u8;->d:Lcom/commsource/studio/doodle/ColorItemView;
 
-    .line 6
     iput-object p8, p0, Lcom/commsource/beautyplus/f0/u8;->f:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 7
     iput-object p9, p0, Lcom/commsource/beautyplus/f0/u8;->g:Landroid/widget/ScrollView;
 
-    .line 8
     iput-object p10, p0, Lcom/commsource/beautyplus/f0/u8;->p:Lcom/commsource/widget/XSeekBar;
 
-    .line 9
     iput-object p11, p0, Lcom/commsource/beautyplus/f0/u8;->J:Landroid/widget/TextView;
 
-    .line 10
     iput-object p12, p0, Lcom/commsource/beautyplus/f0/u8;->K:Lcom/commsource/widget/XSeekBar;
 
-    .line 11
     iput-object p13, p0, Lcom/commsource/beautyplus/f0/u8;->L:Landroid/widget/TextView;
 
-    .line 12
     iput-object p14, p0, Lcom/commsource/beautyplus/f0/u8;->M:Landroid/view/View;
 
     return-void
@@ -115,7 +103,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -142,7 +129,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->fragment_image_style_sub:I
 
-    .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -161,7 +147,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -186,7 +171,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -220,7 +204,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->fragment_image_style_sub:I
 
-    .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -252,7 +235,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -269,7 +251,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/f0/u8;->N:Landroidx/fragment/app/Fragment;
 
     return-object v0

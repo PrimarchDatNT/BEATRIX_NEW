@@ -28,7 +28,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$h;->a:Lcom/commsource/studio/ImageStudioActivity;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v2, "source_click_position"
@@ -52,7 +50,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$h;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->h1()Lcom/commsource/studio/function/BaseSubFragment;
@@ -63,7 +60,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->y0()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

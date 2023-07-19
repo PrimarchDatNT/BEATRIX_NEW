@@ -68,16 +68,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/tasks/q;->a:Ljava/util/concurrent/Executor;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/tasks/q;->b:Lcom/google/android/gms/tasks/c;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/tasks/q;->c:Lcom/google/android/gms/tasks/i0;
 
     return-void
@@ -86,7 +82,6 @@
 .method static synthetic a(Lcom/google/android/gms/tasks/q;)Lcom/google/android/gms/tasks/i0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/tasks/q;->c:Lcom/google/android/gms/tasks/i0;
 
     return-object p0
@@ -95,7 +90,6 @@
 .method static synthetic c(Lcom/google/android/gms/tasks/q;)Lcom/google/android/gms/tasks/c;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/tasks/q;->b:Lcom/google/android/gms/tasks/c;
 
     return-object p0
@@ -117,7 +111,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/q;->a:Ljava/util/concurrent/Executor;
 
     new-instance v1, Lcom/google/android/gms/tasks/r;
@@ -132,7 +125,6 @@
 .method public final cancel()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/api/VideoCardAd;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a(Lcom/sdk/imp/z/b;)V
     .locals 7
 
-    .line 1
     invoke-static {}, Lcom/sdk/api/VideoCardAd;->n()Ljava/lang/String;
 
     move-result-object v0
@@ -63,14 +61,12 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 
     sget-object v1, Lcom/sdk/api/VideoCardAd$LoadState;->ERROR:Lcom/sdk/api/VideoCardAd$LoadState;
 
     invoke-static {v0, v1}, Lcom/sdk/api/VideoCardAd;->t(Lcom/sdk/api/VideoCardAd;Lcom/sdk/api/VideoCardAd$LoadState;)Lcom/sdk/api/VideoCardAd$LoadState;
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 
     sget-object v1, Lcom/sdk/api/Const$Event;->LOAD_PICKS_AD_FAIL:Lcom/sdk/api/Const$Event;
@@ -93,7 +89,6 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/sdk/api/VideoCardAd;->I(Lcom/sdk/api/Const$Event;IJ)V
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {p1}, Lcom/sdk/imp/z/b;->b()I
@@ -108,7 +103,6 @@
 .method public b(Lcom/sdk/imp/z/b;)V
     .locals 7
 
-    .line 1
     invoke-static {}, Lcom/sdk/api/VideoCardAd;->n()Ljava/lang/String;
 
     move-result-object v0
@@ -117,14 +111,12 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 
     sget-object v1, Lcom/sdk/api/VideoCardAd$LoadState;->AD_LOADED:Lcom/sdk/api/VideoCardAd$LoadState;
 
     invoke-static {v0, v1}, Lcom/sdk/api/VideoCardAd;->t(Lcom/sdk/api/VideoCardAd;Lcom/sdk/api/VideoCardAd$LoadState;)Lcom/sdk/api/VideoCardAd$LoadState;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Lcom/sdk/imp/z/b;->a()Ljava/util/List;
@@ -133,14 +125,12 @@
 
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 4
     invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 5
     iget-object p1, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 
     const/16 v0, 0x7c
@@ -149,7 +139,6 @@
 
     goto/16 :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 
@@ -171,7 +160,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Lcom/sdk/api/VideoCardAd;->I(Lcom/sdk/api/Const$Event;IJ)V
 
-    .line 7
     invoke-static {}, Lcom/sdk/api/VideoCardAd;->n()Ljava/lang/String;
 
     move-result-object p1
@@ -196,14 +184,12 @@
 
     invoke-static {p1, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     iget-object p1, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 
     invoke-static {p1, v0}, Lcom/sdk/api/VideoCardAd;->w(Lcom/sdk/api/VideoCardAd;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     move-result-object p1
 
-    .line 9
     iget-object v0, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 
     invoke-static {v0}, Lcom/sdk/api/VideoCardAd;->x(Lcom/sdk/api/VideoCardAd;)Ljava/lang/String;
@@ -224,14 +210,12 @@
 
     if-nez v0, :cond_1
 
-    .line 10
     iget-object v0, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 
     invoke-static {v0, p1}, Lcom/sdk/api/VideoCardAd;->y(Lcom/sdk/api/VideoCardAd;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     move-result-object p1
 
-    .line 11
     :cond_1
     invoke-virtual {p1}, Ljava/util/ArrayList;->isEmpty()Z
 
@@ -239,7 +223,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 12
     iget-object p1, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 
     sget-object v0, Lcom/sdk/api/Const$Event;->LOAD_PICKS_AD_FAIL:Lcom/sdk/api/Const$Event;
@@ -260,7 +243,6 @@
 
     invoke-virtual {p1, v0, v1, v2, v3}, Lcom/sdk/api/VideoCardAd;->I(Lcom/sdk/api/Const$Event;IJ)V
 
-    .line 13
     invoke-static {}, Lcom/sdk/api/VideoCardAd;->n()Ljava/lang/String;
 
     move-result-object p1
@@ -269,7 +251,6 @@
 
     invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 14
     iget-object p1, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 
     const/16 v0, 0x78
@@ -278,7 +259,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_2
     iget-object v0, p0, Lcom/sdk/api/VideoCardAd$b;->a:Lcom/sdk/api/VideoCardAd;
 

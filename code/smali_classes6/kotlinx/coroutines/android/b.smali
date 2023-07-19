@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     :try_start_0
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
@@ -96,7 +95,6 @@
 .method public static final synthetic b(Landroid/view/Choreographer;Lcotlinx/coroutines/m;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/android/b;->i(Landroid/view/Choreographer;Lcotlinx/coroutines/m;)V
 
     return-void
@@ -105,7 +103,6 @@
 .method public static final synthetic c(Lcotlinx/coroutines/m;)V
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/android/b;->j(Lcotlinx/coroutines/m;)V
 
     return-void
@@ -125,7 +122,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v0, 0x10
@@ -145,7 +141,6 @@
 
     if-lt p1, v0, :cond_2
 
-    .line 2
     const-class p1, Landroid/os/Handler;
 
     const-string v0, "createAsync"
@@ -164,7 +159,6 @@
 
     aput-object p0, v0, v2
 
-    .line 3
     invoke-virtual {p1, v1, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -184,7 +178,6 @@
 
     throw p0
 
-    .line 4
     :cond_2
     :try_start_0
     const-class p1, Landroid/os/Handler;
@@ -197,7 +190,6 @@
 
     aput-object v5, v4, v2
 
-    .line 5
     const-class v5, Landroid/os/Handler$Callback;
 
     aput-object v5, v4, v3
@@ -208,7 +200,6 @@
 
     aput-object v5, v4, v6
 
-    .line 6
     invoke-virtual {p1, v4}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object p1
@@ -221,7 +212,6 @@
 
     aput-object v1, v0, v3
 
-    .line 7
     sget-object p0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     aput-object p0, v0, v6
@@ -234,7 +224,6 @@
 
     return-object p0
 
-    .line 8
     :catch_0
     new-instance p1, Landroid/os/Handler;
 
@@ -242,7 +231,6 @@
 
     return-object p1
 
-    .line 9
     :cond_3
     :goto_0
     new-instance p1, Landroid/os/Handler;
@@ -272,14 +260,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/android/b;->choreographer:Landroid/view/Choreographer;
 
     const/4 v1, 0x1
 
     if-eqz v0, :cond_1
 
-    .line 2
     new-instance v2, Lcotlinx/coroutines/n;
 
     invoke-static {p0}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -288,15 +274,12 @@
 
     invoke-direct {v2, v3, v1}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
-    .line 3
     invoke-static {v0, v2}, Lcotlinx/coroutines/android/b;->b(Landroid/view/Choreographer;Lcotlinx/coroutines/m;)V
 
-    .line 4
     invoke-virtual {v2}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 5
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
@@ -308,7 +291,6 @@
     :cond_0
     return-object v0
 
-    .line 6
     :cond_1
     new-instance v0, Lcotlinx/coroutines/n;
 
@@ -318,27 +300,22 @@
 
     invoke-direct {v0, v2, v1}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
-    .line 7
     invoke-static {}, Lcotlinx/coroutines/c1;->g()Lcotlinx/coroutines/m2;
 
     move-result-object v1
 
     sget-object v2, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
-    .line 8
     new-instance v3, Lcotlinx/coroutines/android/b$a;
 
     invoke-direct {v3, v0}, Lcotlinx/coroutines/android/b$a;-><init>(Lcotlinx/coroutines/m;)V
 
-    .line 9
     invoke-virtual {v1, v2, v3}, Lcotlinx/coroutines/CoroutineDispatcher;->u(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
 
-    .line 10
     invoke-virtual {v0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 11
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
@@ -398,7 +375,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/android/HandlerContext;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/android/HandlerContext;-><init>(Landroid/os/Handler;Ljava/lang/String;)V
@@ -415,7 +391,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/android/b;->g(Landroid/os/Handler;Ljava/lang/String;)Lcotlinx/coroutines/android/a;
 
@@ -437,7 +412,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/android/b$b;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/android/b$b;-><init>(Lcotlinx/coroutines/m;)V
@@ -459,14 +433,12 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/android/b;->choreographer:Landroid/view/Choreographer;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Landroid/view/Choreographer;->getInstance()Landroid/view/Choreographer;
 
@@ -479,7 +451,6 @@
     :cond_1
     sput-object v0, Lcotlinx/coroutines/android/b;->choreographer:Landroid/view/Choreographer;
 
-    .line 3
     :goto_0
     invoke-static {v0, p0}, Lcotlinx/coroutines/android/b;->i(Landroid/view/Choreographer;Lcotlinx/coroutines/m;)V
 

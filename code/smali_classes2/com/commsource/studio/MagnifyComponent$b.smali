@@ -51,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent$b;->a:Lcom/commsource/studio/MagnifyComponent;
 
     new-instance v2, Lcom/commsource/studio/MagnifyGLView;
@@ -68,20 +67,16 @@
 
     invoke-direct {v2, v3}, Lcom/commsource/studio/MagnifyGLView;-><init>(Landroid/content/Context;)V
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/studio/MagnifyComponent$b;->b:Landroid/opengl/EGLContext;
 
     invoke-virtual {v2, v3}, Lcom/commsource/easyeditor/utils/opengl/GLTextureView;->setShareContext(Landroid/opengl/EGLContext;)V
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/MagnifyComponent$b;->c:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/MagnifyGLView;->setImageFBO(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MagnifyComponent;->setMagnifyTextureView(Lcom/commsource/studio/MagnifyGLView;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent$b;->a:Lcom/commsource/studio/MagnifyComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MagnifyComponent;->getMagnifyTextureView()Lcom/commsource/studio/MagnifyGLView;
@@ -108,7 +103,6 @@
 
     invoke-virtual {v1, v2, v4, v3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent$b;->a:Lcom/commsource/studio/MagnifyComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MagnifyComponent;->getMagnifyTextureView()Lcom/commsource/studio/MagnifyGLView;
@@ -119,7 +113,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent$b;->a:Lcom/commsource/studio/MagnifyComponent;
 
@@ -135,7 +128,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

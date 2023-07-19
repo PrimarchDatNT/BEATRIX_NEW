@@ -28,14 +28,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/g4;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/g4;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/icing/f4;->a:Ljava/util/Iterator;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/icing/h4;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/h4;-><init>()V
@@ -57,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/f4;->b:Ljava/lang/Iterable;
 
     return-object v0
@@ -66,7 +63,6 @@
 .method static synthetic b()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/f4;->a:Ljava/util/Iterator;
 
     return-object v0

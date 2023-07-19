@@ -18,7 +18,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/AdAdapter;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager$ForEachAdUnitIdRunnable;-><init>(Lcom/mopub/mobileads/AdAdapter;)V
 
     return-void
@@ -33,14 +32,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$000()Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     move-result-object v0
 
     invoke-static {v0, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$500(Lcom/mopub/mobileads/MoPubRewardedAdManager;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$000()Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     move-result-object v0
@@ -51,7 +48,6 @@
 
     invoke-virtual {v0, p1}, Lcom/mopub/mobileads/RewardedAdsLoaders;->creativeDownloadSuccess(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$000()Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     move-result-object v0
@@ -62,7 +58,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$000()Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     move-result-object v0

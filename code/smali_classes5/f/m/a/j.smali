@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,23 +25,19 @@
 .method public static a()Landroid/os/Handler;
     .locals 3
 
-    .line 1
     sget-object v0, Lf/m/a/j;->a:Landroid/os/Handler;
 
     if-nez v0, :cond_1
 
-    .line 2
     const-class v0, Lf/m/a/j;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     sget-object v1, Lf/m/a/j;->a:Landroid/os/Handler;
 
     if-nez v1, :cond_0
 
-    .line 4
     new-instance v1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -53,7 +48,6 @@
 
     sput-object v1, Lf/m/a/j;->a:Landroid/os/Handler;
 
-    .line 5
     :cond_0
     monitor-exit v0
 
@@ -68,7 +62,6 @@
 
     throw v1
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v0, Lf/m/a/j;->a:Landroid/os/Handler;
@@ -85,7 +78,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p0, Landroid/app/Activity;
 
@@ -93,10 +85,8 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     check-cast p0, Landroid/app/Activity;
 
-    .line 3
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v1
@@ -125,7 +115,6 @@
 .method public static c()Z
     .locals 1
 
-    .line 1
     invoke-static {}, Lf/m/a/j;->n()Z
 
     move-result v0
@@ -136,7 +125,6 @@
 .method static synthetic d(Ljava/lang/Runnable;)Z
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
 
     const/4 p0, 0x0
@@ -147,14 +135,12 @@
 .method static synthetic e(Landroid/content/Context;Ljava/lang/Runnable;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lf/m/a/j;->b(Landroid/content/Context;)Z
 
     move-result p0
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     :cond_0
@@ -166,7 +152,6 @@
 .method static synthetic f(Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->myQueue()Landroid/os/MessageQueue;
 
     move-result-object v0
@@ -183,7 +168,6 @@
 .method static synthetic g(Landroid/content/Context;Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->myQueue()Landroid/os/MessageQueue;
 
     move-result-object v0
@@ -200,7 +184,6 @@
 .method public static h(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lf/m/a/j;->a()Landroid/os/Handler;
 
     move-result-object v0
@@ -213,7 +196,6 @@
 .method public static i(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lf/m/a/j;->a()Landroid/os/Handler;
 
     move-result-object v0
@@ -228,7 +210,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v0, Lf/m/a/a;
 
     invoke-direct {v0, p0, p1}, Lf/m/a/a;-><init>(Landroid/content/Context;Ljava/lang/Runnable;)V
@@ -244,7 +225,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     new-instance v0, Lf/m/a/b;
 
     invoke-direct {v0, p0}, Lf/m/a/b;-><init>(Ljava/lang/Runnable;)V
@@ -258,19 +238,16 @@
 .method public static l(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lf/m/a/j;->n()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/m/a/j;->a()Landroid/os/Handler;
 
@@ -285,7 +262,6 @@
 .method public static m(Ljava/lang/Runnable;J)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lf/m/a/j;->a()Landroid/os/Handler;
 
     move-result-object v0
@@ -298,7 +274,6 @@
 .method private static n()Z
     .locals 2
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v0

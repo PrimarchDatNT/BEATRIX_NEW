@@ -65,23 +65,18 @@
 .method private constructor <init>(Lcom/google/android/gms/measurement/internal/s5;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
     const/4 p1, 0x0
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     const/4 p1, 0x0
 
-    .line 5
     iput-boolean p1, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     return-void
@@ -90,23 +85,18 @@
 .method private constructor <init>(Lcom/google/android/gms/measurement/internal/u7;)V
     .locals 0
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 7
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     iput-object p1, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     const/4 p1, 0x0
 
-    .line 9
     iput-object p1, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
     const/4 p1, 0x1
 
-    .line 10
     iput-boolean p1, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     return-void
@@ -136,7 +126,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0, v0}, Lcom/google/android/gms/measurement/AppMeasurement;->n(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/measurement/AppMeasurement;
 
     move-result-object p0
@@ -147,30 +136,25 @@
 .method public static m(Landroid/content/Context;Landroid/os/Bundle;)Lcom/google/android/gms/measurement/AppMeasurement;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/measurement/AppMeasurement;->g:Lcom/google/android/gms/measurement/AppMeasurement;
 
     if-nez v0, :cond_2
 
-    .line 2
     const-class v0, Lcom/google/android/gms/measurement/AppMeasurement;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/google/android/gms/measurement/AppMeasurement;->g:Lcom/google/android/gms/measurement/AppMeasurement;
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-static {p0, p1}, Lcom/google/android/gms/measurement/AppMeasurement;->p(Landroid/content/Context;Landroid/os/Bundle;)Lcom/google/android/gms/measurement/internal/u7;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     new-instance p0, Lcom/google/android/gms/measurement/AppMeasurement;
 
     invoke-direct {p0, v1}, Lcom/google/android/gms/measurement/AppMeasurement;-><init>(Lcom/google/android/gms/measurement/internal/u7;)V
@@ -182,19 +166,16 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {p0, v1, v1, p1}, Lcom/google/android/gms/measurement/internal/s5;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Lcom/google/android/gms/measurement/internal/s5;
 
     move-result-object p0
 
-    .line 7
     new-instance p1, Lcom/google/android/gms/measurement/AppMeasurement;
 
     invoke-direct {p1, p0}, Lcom/google/android/gms/measurement/AppMeasurement;-><init>(Lcom/google/android/gms/measurement/internal/s5;)V
 
     sput-object p1, Lcom/google/android/gms/measurement/AppMeasurement;->g:Lcom/google/android/gms/measurement/AppMeasurement;
 
-    .line 8
     :cond_1
     :goto_0
     monitor-exit v0
@@ -210,7 +191,6 @@
 
     throw p0
 
-    .line 9
     :cond_2
     :goto_1
     sget-object p0, Lcom/google/android/gms/measurement/AppMeasurement;->g:Lcom/google/android/gms/measurement/AppMeasurement;
@@ -223,17 +203,14 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     sget-object p1, Lcom/google/android/gms/measurement/AppMeasurement;->g:Lcom/google/android/gms/measurement/AppMeasurement;
 
     if-nez p1, :cond_2
 
-    .line 2
     const-class p1, Lcom/google/android/gms/measurement/AppMeasurement;
 
     monitor-enter p1
 
-    .line 3
     :try_start_0
     sget-object p2, Lcom/google/android/gms/measurement/AppMeasurement;->g:Lcom/google/android/gms/measurement/AppMeasurement;
 
@@ -241,14 +218,12 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcom/google/android/gms/measurement/AppMeasurement;->p(Landroid/content/Context;Landroid/os/Bundle;)Lcom/google/android/gms/measurement/internal/u7;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 5
     new-instance p0, Lcom/google/android/gms/measurement/AppMeasurement;
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/measurement/AppMeasurement;-><init>(Lcom/google/android/gms/measurement/internal/u7;)V
@@ -257,20 +232,17 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {p0, p2, p2, p2}, Lcom/google/android/gms/measurement/internal/s5;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Lcom/google/android/gms/measurement/internal/s5;
 
     move-result-object p0
 
-    .line 7
     new-instance p2, Lcom/google/android/gms/measurement/AppMeasurement;
 
     invoke-direct {p2, p0}, Lcom/google/android/gms/measurement/AppMeasurement;-><init>(Lcom/google/android/gms/measurement/internal/s5;)V
 
     sput-object p2, Lcom/google/android/gms/measurement/AppMeasurement;->g:Lcom/google/android/gms/measurement/AppMeasurement;
 
-    .line 8
     :cond_1
     :goto_0
     monitor-exit p1
@@ -286,7 +258,6 @@
 
     throw p0
 
-    .line 9
     :cond_2
     :goto_1
     sget-object p0, Lcom/google/android/gms/measurement/AppMeasurement;->g:Lcom/google/android/gms/measurement/AppMeasurement;
@@ -302,7 +273,6 @@
     :try_start_0
     const-string v1, "com.google.firebase.analytics.FirebaseAnalytics"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -316,7 +286,6 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 2
     const-class v5, Landroid/content/Context;
 
     const/4 v6, 0x0
@@ -329,7 +298,6 @@
 
     aput-object v5, v4, v7
 
-    .line 3
     invoke-virtual {v1, v2, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
@@ -340,12 +308,10 @@
 
     aput-object p1, v2, v7
 
-    .line 4
     invoke-virtual {v1, v0, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 5
     check-cast p0, Lcom/google/android/gms/measurement/internal/u7;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -363,12 +329,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     const/4 v1, 0x4
@@ -381,7 +345,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -401,12 +364,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     const/4 v1, 0x2
@@ -419,7 +380,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -447,30 +407,25 @@
     .annotation build Landroidx/annotation/Keep;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/measurement/internal/u7;->a(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/s5;->U()Lcom/google/android/gms/measurement/internal/z;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
-    .line 5
     invoke-virtual {v1}, Lcom/google/android/gms/measurement/internal/s5;->u()Lcom/google/android/gms/common/util/g;
 
     move-result-object v1
@@ -489,12 +444,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     const/4 v1, 0x3
@@ -507,7 +460,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -550,28 +502,23 @@
     .annotation build Lcom/google/android/gms/common/internal/e0;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1, p2, p3}, Lcom/google/android/gms/measurement/internal/u7;->j(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/s5;->H()Lcom/google/android/gms/measurement/internal/u6;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0, p1, p2, p3}, Lcom/google/android/gms/measurement/internal/u6;->z0(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V
 
     return-void
@@ -610,25 +557,20 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/s5;->H()Lcom/google/android/gms/measurement/internal/u6;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/google/android/gms/measurement/internal/u6;->X(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -644,12 +586,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     const/4 v1, 0x1
@@ -662,7 +602,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -682,12 +621,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     const/4 v1, 0x0
@@ -700,7 +637,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -728,19 +664,16 @@
     .annotation build Landroidx/annotation/Keep;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/measurement/internal/u7;->g(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -784,12 +717,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     const/4 v1, 0x0
@@ -800,7 +731,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -812,7 +742,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance v0, Landroidx/collection/ArrayMap;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
@@ -821,7 +750,6 @@
 
     invoke-direct {v0, v1}, Landroidx/collection/ArrayMap;-><init>(I)V
 
-    .line 5
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -839,7 +767,6 @@
 
     check-cast v1, Lcom/google/android/gms/measurement/internal/zzkz;
 
-    .line 6
     iget-object v2, v1, Lcom/google/android/gms/measurement/internal/zzkz;->b:Ljava/lang/String;
 
     invoke-virtual {v1}, Lcom/google/android/gms/measurement/internal/zzkz;->y()Ljava/lang/Object;
@@ -862,12 +789,10 @@
     .annotation build Lcom/google/android/gms/common/internal/e0;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     move-object v2, p1
@@ -882,7 +807,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -902,7 +826,6 @@
 
     move-wide v7, p4
 
-    .line 4
     invoke-virtual/range {v1 .. v8}, Lcom/google/android/gms/measurement/internal/u6;->T(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;ZZJ)V
 
     return-void
@@ -913,12 +836,10 @@
     .annotation build Landroidx/annotation/Keep;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0}, Lcom/google/android/gms/measurement/internal/u7;->c()J
@@ -927,7 +848,6 @@
 
     return-wide v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -950,12 +870,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0}, Lcom/google/android/gms/measurement/internal/u7;->e()Ljava/lang/String;
@@ -964,7 +882,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1018,12 +935,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1, p2}, Lcom/google/android/gms/measurement/internal/u7;->i(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
@@ -1032,7 +947,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1044,7 +958,6 @@
 
     move-result-object p1
 
-    .line 4
     :goto_0
     new-instance p2, Ljava/util/ArrayList;
 
@@ -1054,7 +967,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -1063,7 +975,6 @@
     :goto_1
     invoke-direct {p2, v0}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 6
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1081,7 +992,6 @@
 
     check-cast v0, Landroid/os/Bundle;
 
-    .line 7
     new-instance v1, Lcom/google/android/gms/measurement/AppMeasurement$ConditionalUserProperty;
 
     const/4 v2, 0x0
@@ -1141,25 +1051,20 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-nez v0, :cond_2
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/s5;->H()Lcom/google/android/gms/measurement/internal/u6;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0, p1, p2, p3}, Lcom/google/android/gms/measurement/internal/u6;->C(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
 
     move-result-object p1
 
-    .line 5
     new-instance p2, Ljava/util/ArrayList;
 
     const/4 p3, 0x0
@@ -1170,7 +1075,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -1179,7 +1083,6 @@
     :goto_0
     invoke-direct {p2, v0}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 7
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     move-result v0
@@ -1195,7 +1098,6 @@
 
     check-cast v1, Landroid/os/Bundle;
 
-    .line 8
     new-instance v2, Lcom/google/android/gms/measurement/AppMeasurement$ConditionalUserProperty;
 
     const/4 v3, 0x0
@@ -1209,7 +1111,6 @@
     :cond_1
     return-object p2
 
-    .line 9
     :cond_2
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1228,12 +1129,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0}, Lcom/google/android/gms/measurement/internal/u7;->d()Ljava/lang/String;
@@ -1242,7 +1141,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1265,12 +1163,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0}, Lcom/google/android/gms/measurement/internal/u7;->zza()Ljava/lang/String;
@@ -1279,7 +1175,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1302,12 +1197,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0}, Lcom/google/android/gms/measurement/internal/u7;->b()Ljava/lang/String;
@@ -1316,7 +1209,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1353,12 +1245,10 @@
     .annotation build Lcom/google/android/gms/common/internal/e0;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/measurement/internal/u7;->k(Ljava/lang/String;)I
@@ -1367,13 +1257,11 @@
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/s5;->H()Lcom/google/android/gms/measurement/internal/u6;
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     const/16 p1, 0x19
@@ -1418,12 +1306,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1, p2, p3}, Lcom/google/android/gms/measurement/internal/u7;->h(Ljava/lang/String;Ljava/lang/String;Z)Ljava/util/Map;
@@ -1432,7 +1318,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1493,27 +1378,22 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/s5;->H()Lcom/google/android/gms/measurement/internal/u6;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/google/android/gms/measurement/internal/u6;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Ljava/util/Map;
 
     move-result-object p1
 
     return-object p1
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1532,19 +1412,16 @@
     .annotation build Lcom/google/android/gms/common/internal/e0;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/measurement/internal/u7;->p(Lcom/google/android/gms/measurement/internal/s6;)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1568,19 +1445,16 @@
     .annotation build Lcom/google/android/gms/common/internal/e0;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/measurement/internal/u7;->o(Lcom/google/android/gms/measurement/internal/t6;)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1601,19 +1475,16 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/measurement/internal/u7;->l(Z)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1634,22 +1505,18 @@
     .annotation build Lcom/google/android/gms/common/internal/e0;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1, p2, p3}, Lcom/google/android/gms/measurement/internal/u7;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1672,19 +1539,16 @@
     .annotation build Lcom/google/android/gms/common/internal/e0;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/measurement/internal/u7;->n(Lcom/google/android/gms/measurement/internal/s6;)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1705,19 +1569,16 @@
     .annotation build Lcom/google/android/gms/common/internal/e0;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1, p2, p3}, Lcom/google/android/gms/measurement/internal/u7;->o0(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1733,19 +1594,16 @@
 .method public final o(Z)V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/measurement/internal/u7;->m0(Z)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1773,15 +1631,12 @@
     .annotation build Lcom/google/android/gms/common/internal/e0;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->b:Lcom/google/android/gms/measurement/internal/u7;
 
     invoke-static {p1}, Lcom/google/android/gms/measurement/AppMeasurement$ConditionalUserProperty;->b(Lcom/google/android/gms/measurement/AppMeasurement$ConditionalUserProperty;)Landroid/os/Bundle;
@@ -1792,7 +1647,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
@@ -1821,15 +1675,12 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->c:Z
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurement;->a:Lcom/google/android/gms/measurement/internal/s5;
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/s5;->H()Lcom/google/android/gms/measurement/internal/u6;
@@ -1844,7 +1695,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 

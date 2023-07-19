@@ -40,17 +40,14 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/mopub/mobileads/CustomEventRewardedVideo;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$1;
 
     invoke-direct {v0, p0}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$1;-><init>(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)V
 
     iput-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mLifecycleListener:Lcom/mopub/common/LifecycleListener;
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -65,7 +62,6 @@
 .method static synthetic access$000(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)Lcom/google/android/gms/ads/y/c;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mRewardedVideoAd:Lcom/google/android/gms/ads/y/c;
 
     return-object p0
@@ -74,7 +70,6 @@
 .method static synthetic access$100(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mAdUnitId:Ljava/lang/String;
 
     return-object p0
@@ -83,7 +78,6 @@
 .method static synthetic access$200(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;Lcom/google/android/gms/ads/d$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->forwardNpaIfSet(Lcom/google/android/gms/ads/d$a;)V
 
     return-void
@@ -92,14 +86,12 @@
 .method private forwardNpaIfSet(Lcom/google/android/gms/ads/d$a;)V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$GooglePlayServicesMediationSettings;->access$300()Landroid/os/Bundle;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$GooglePlayServicesMediationSettings;->access$300()Landroid/os/Bundle;
 
     move-result-object v0
@@ -110,7 +102,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     const-class v0, Lcom/google/ads/mediation/admob/AdMobAdapter;
 
     invoke-static {}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$GooglePlayServicesMediationSettings;->access$300()Landroid/os/Bundle;
@@ -140,30 +131,25 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 1
     sget-object p1, Lcom/mopub/mobileads/MoPubErrorCode;->UNSPECIFIED:Lcom/mopub/mobileads/MoPubErrorCode;
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/mopub/mobileads/MoPubErrorCode;->NO_FILL:Lcom/mopub/mobileads/MoPubErrorCode;
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Lcom/mopub/mobileads/MoPubErrorCode;->NO_CONNECTION:Lcom/mopub/mobileads/MoPubErrorCode;
 
     goto :goto_0
 
-    .line 4
     :cond_2
     sget-object p1, Lcom/mopub/mobileads/MoPubErrorCode;->ADAPTER_CONFIGURATION_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
     goto :goto_0
 
-    .line 5
     :cond_3
     sget-object p1, Lcom/mopub/mobileads/MoPubErrorCode;->INTERNAL_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
@@ -208,7 +194,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object p2, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->sIsInitialized:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v0, 0x1
@@ -225,12 +210,10 @@
 
     const-string v2, "Adapter version - 0.1.0"
 
-    .line 2
     invoke-static {p2, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     const-string p2, "appid"
 
-    .line 3
     invoke-interface {p3, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -243,12 +226,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/ads/m;->f(Landroid/content/Context;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-interface {p3, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -261,7 +242,6 @@
     :goto_0
     const-string p2, "adunit"
 
-    .line 6
     invoke-interface {p3, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -274,24 +254,20 @@
 
     if-eqz v2, :cond_1
 
-    .line 7
     const-class p1, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     const-class p2, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
-    .line 8
     invoke-virtual {p2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     move-result-object p2
 
     sget-object p3, Lcom/mopub/mobileads/MoPubErrorCode;->ADAPTER_CONFIGURATION_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 9
     invoke-static {p1, p2, p3}, Lcom/mopub/mobileads/MoPubRewardedVideoManager;->onRewardedVideoLoadFailure(Ljava/lang/Class;Ljava/lang/String;Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     return v1
 
-    .line 10
     :cond_1
     invoke-interface {p3, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -301,14 +277,12 @@
 
     iput-object p2, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mAdUnitId:Ljava/lang/String;
 
-    .line 11
     invoke-static {p1}, Lcom/google/android/gms/ads/m;->d(Landroid/content/Context;)Lcom/google/android/gms/ads/y/c;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mRewardedVideoAd:Lcom/google/android/gms/ads/y/c;
 
-    .line 12
     invoke-interface {p1, p0}, Lcom/google/android/gms/ads/y/c;->K0(Lcom/google/android/gms/ads/y/d;)V
 
     return v0
@@ -322,7 +296,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mAdUnitId:Ljava/lang/String;
 
     return-object v0
@@ -333,7 +306,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mLifecycleListener:Lcom/mopub/common/LifecycleListener;
 
     return-object v0
@@ -342,7 +314,6 @@
 .method protected hasVideoAvailable()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mRewardedVideoAd:Lcom/google/android/gms/ads/y/c;
 
     if-eqz v0, :cond_0
@@ -399,12 +370,10 @@
 
     const/4 p2, 0x0
 
-    .line 1
     iput-boolean p2, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->isAdLoaded:Z
 
     const-string p2, "adunit"
 
-    .line 2
     invoke-interface {p3, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -417,24 +386,20 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     const-class p1, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     const-class p2, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
-    .line 4
     invoke-virtual {p2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     move-result-object p2
 
     sget-object p3, Lcom/mopub/mobileads/MoPubErrorCode;->ADAPTER_CONFIGURATION_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 5
     invoke-static {p1, p2, p3}, Lcom/mopub/mobileads/MoPubRewardedVideoManager;->onRewardedVideoLoadFailure(Ljava/lang/Class;Ljava/lang/String;Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     return-void
 
-    .line 6
     :cond_0
     invoke-interface {p3, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -444,22 +409,18 @@
 
     iput-object p2, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mAdUnitId:Ljava/lang/String;
 
-    .line 7
     iget-object p2, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mRewardedVideoAd:Lcom/google/android/gms/ads/y/c;
 
     if-nez p2, :cond_1
 
-    .line 8
     invoke-static {p1}, Lcom/google/android/gms/ads/m;->d(Landroid/content/Context;)Lcom/google/android/gms/ads/y/c;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mRewardedVideoAd:Lcom/google/android/gms/ads/y/c;
 
-    .line 9
     invoke-interface {p1, p0}, Lcom/google/android/gms/ads/y/c;->K0(Lcom/google/android/gms/ads/y/d;)V
 
-    .line 10
     :cond_1
     new-instance p1, Landroid/os/Handler;
 
@@ -481,17 +442,14 @@
 .method protected onInvalidate()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mRewardedVideoAd:Lcom/google/android/gms/ads/y/c;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {v0, v1}, Lcom/google/android/gms/ads/y/c;->K0(Lcom/google/android/gms/ads/y/d;)V
 
-    .line 3
     iput-object v1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mRewardedVideoAd:Lcom/google/android/gms/ads/y/c;
 
     :cond_0
@@ -501,12 +459,10 @@
 .method public onRewarded(Lcom/google/android/gms/ads/y/b;)V
     .locals 3
 
-    .line 1
     const-class v0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     iget-object v1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mAdUnitId:Ljava/lang/String;
 
-    .line 2
     invoke-interface {p1}, Lcom/google/android/gms/ads/y/b;->getType()Ljava/lang/String;
 
     move-result-object v2
@@ -519,7 +475,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-static {v0, v1, p1}, Lcom/mopub/mobileads/MoPubRewardedVideoManager;->onRewardedVideoCompleted(Ljava/lang/Class;Ljava/lang/String;Lcom/mopub/common/MoPubReward;)V
 
     return-void
@@ -528,7 +483,6 @@
 .method public onRewardedVideoAdClosed()V
     .locals 2
 
-    .line 1
     const-class v0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     iget-object v1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mAdUnitId:Ljava/lang/String;
@@ -541,17 +495,14 @@
 .method public onRewardedVideoAdFailedToLoad(I)V
     .locals 2
 
-    .line 1
     const-class v0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     iget-object v1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mAdUnitId:Ljava/lang/String;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->getMoPubErrorCode(I)Lcom/mopub/mobileads/MoPubErrorCode;
 
     move-result-object p1
 
-    .line 3
     invoke-static {v0, v1, p1}, Lcom/mopub/mobileads/MoPubRewardedVideoManager;->onRewardedVideoLoadFailure(Ljava/lang/Class;Ljava/lang/String;Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     return-void
@@ -560,7 +511,6 @@
 .method public onRewardedVideoAdLeftApplication()V
     .locals 2
 
-    .line 1
     const-class v0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     iget-object v1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mAdUnitId:Ljava/lang/String;
@@ -573,7 +523,6 @@
 .method public onRewardedVideoAdLoaded()V
     .locals 2
 
-    .line 1
     const-class v0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     iget-object v1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mAdUnitId:Ljava/lang/String;
@@ -582,7 +531,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->isAdLoaded:Z
 
     return-void
@@ -603,7 +551,6 @@
 .method public onRewardedVideoStarted()V
     .locals 2
 
-    .line 1
     const-class v0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     iget-object v1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mAdUnitId:Ljava/lang/String;
@@ -616,21 +563,18 @@
 .method protected showVideo()V
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->hasVideoAvailable()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->mRewardedVideoAd:Lcom/google/android/gms/ads/y/c;
 
     invoke-interface {v0}, Lcom/google/android/gms/ads/y/c;->show()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     const-class v0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
@@ -638,12 +582,10 @@
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-direct {p0, v2}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->getMoPubErrorCode(I)Lcom/mopub/mobileads/MoPubErrorCode;
 
     move-result-object v2
 
-    .line 5
     invoke-static {v0, v1, v2}, Lcom/mopub/mobileads/MoPubRewardedVideoManager;->onRewardedVideoPlaybackError(Ljava/lang/Class;Ljava/lang/String;Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :goto_0

@@ -25,10 +25,8 @@
 .method public constructor <init>(Lcom/sdk/imp/base/b$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/sdk/imp/base/HtmlBannerWebView$a;->a:Lcom/sdk/imp/base/b$a;
 
     return-void
@@ -39,7 +37,6 @@
 .method public a(Landroid/net/Uri;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/HtmlBannerWebView$a;->a:Lcom/sdk/imp/base/b$a;
 
     invoke-interface {v0, p1}, Lcom/sdk/imp/base/b$a;->a(Landroid/net/Uri;)V
@@ -50,7 +47,6 @@
 .method public b()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/HtmlBannerWebView$a;->a:Lcom/sdk/imp/base/b$a;
 
     invoke-interface {v0}, Lcom/sdk/imp/base/b$a;->g()V
@@ -61,7 +57,6 @@
 .method public c(Lcom/sdk/imp/base/BaseHtmlWebView;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/HtmlBannerWebView$a;->a:Lcom/sdk/imp/base/b$a;
 
     invoke-interface {v0, p1}, Lcom/sdk/imp/base/b$a;->b(Landroid/view/View;)V
@@ -72,7 +67,6 @@
 .method public onClicked()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/HtmlBannerWebView$a;->a:Lcom/sdk/imp/base/b$a;
 
     invoke-interface {v0}, Lcom/sdk/imp/base/b$a;->d()V
@@ -83,7 +77,6 @@
 .method public onFailed(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/HtmlBannerWebView$a;->a:Lcom/sdk/imp/base/b$a;
 
     invoke-interface {v0, p1}, Lcom/sdk/imp/base/b$a;->e(I)V
@@ -94,7 +87,6 @@
 .method public onWebViewErrorMsg(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/HtmlBannerWebView$a;->a:Lcom/sdk/imp/base/b$a;
 
     invoke-interface {v0, p1}, Lcom/sdk/imp/base/b$a;->onWebViewErrorMsg(Ljava/lang/String;)V

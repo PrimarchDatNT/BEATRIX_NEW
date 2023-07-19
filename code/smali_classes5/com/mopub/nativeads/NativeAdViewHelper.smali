@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/WeakHashMap;
 
     invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
@@ -41,7 +40,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/nativeads/NativeAdViewHelper;->sNativeAdMap:Ljava/util/WeakHashMap;
 
     invoke-virtual {v0, p0}, Ljava/util/WeakHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -65,7 +62,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p0}, Lcom/mopub/nativeads/NativeAd;->clear(Landroid/view/View;)V
 
     :cond_0
@@ -95,13 +91,11 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/nativeads/NativeAdViewHelper;->clearNativeAd(Landroid/view/View;)V
 
     :cond_0
     if-eqz p3, :cond_4
 
-    .line 2
     invoke-virtual {p3}, Lcom/mopub/nativeads/NativeAd;->isDestroyed()Z
 
     move-result v0
@@ -113,7 +107,6 @@
     :cond_1
     if-eqz p0, :cond_2
 
-    .line 3
     sget-object v0, Lcom/mopub/nativeads/NativeAdViewHelper$ViewType;->AD:Lcom/mopub/nativeads/NativeAdViewHelper$ViewType;
 
     invoke-virtual {p0}, Landroid/view/View;->getTag()Ljava/lang/Object;
@@ -126,27 +119,22 @@
 
     if-nez v0, :cond_3
 
-    .line 4
     :cond_2
     invoke-virtual {p3, p2, p1}, Lcom/mopub/nativeads/NativeAd;->createAdView(Landroid/content/Context;Landroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p0
 
-    .line 5
     sget-object p1, Lcom/mopub/nativeads/NativeAdViewHelper$ViewType;->AD:Lcom/mopub/nativeads/NativeAdViewHelper$ViewType;
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 6
     :cond_3
     invoke-static {p0, p3}, Lcom/mopub/nativeads/NativeAdViewHelper;->prepareNativeAd(Landroid/view/View;Lcom/mopub/nativeads/NativeAd;)V
 
-    .line 7
     invoke-virtual {p3, p0}, Lcom/mopub/nativeads/NativeAd;->renderAdView(Landroid/view/View;)V
 
     goto :goto_1
 
-    .line 8
     :cond_4
     :goto_0
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
@@ -165,7 +153,6 @@
 
     if-eqz p0, :cond_5
 
-    .line 9
     sget-object p1, Lcom/mopub/nativeads/NativeAdViewHelper$ViewType;->EMPTY:Lcom/mopub/nativeads/NativeAdViewHelper$ViewType;
 
     invoke-virtual {p0}, Landroid/view/View;->getTag()Ljava/lang/Object;
@@ -178,20 +165,17 @@
 
     if-nez p1, :cond_6
 
-    .line 10
     :cond_5
     new-instance p0, Landroid/view/View;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 11
     sget-object p1, Lcom/mopub/nativeads/NativeAdViewHelper$ViewType;->EMPTY:Lcom/mopub/nativeads/NativeAdViewHelper$ViewType;
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
     const/16 p1, 0x8
 
-    .line 12
     invoke-virtual {p0, p1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_6
@@ -210,12 +194,10 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/nativeads/NativeAdViewHelper;->sNativeAdMap:Ljava/util/WeakHashMap;
 
     invoke-virtual {v0, p0, p1}, Ljava/util/WeakHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1, p0}, Lcom/mopub/nativeads/NativeAd;->prepare(Landroid/view/View;)V
 
     return-void

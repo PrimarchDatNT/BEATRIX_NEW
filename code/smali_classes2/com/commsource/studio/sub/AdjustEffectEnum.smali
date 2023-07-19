@@ -92,7 +92,6 @@
 
     new-instance v10, Lcom/commsource/studio/sub/AdjustEffectEnum;
 
-    .line 1
     sget-object v6, Lcom/commsource/studio/sub/SubModuleEnum;->Brightness:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {v6}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
@@ -121,7 +120,6 @@
 
     new-instance v2, Lcom/commsource/studio/sub/AdjustEffectEnum;
 
-    .line 2
     sget-object v15, Lcom/commsource/studio/sub/SubModuleEnum;->FillLight:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {v15}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
@@ -150,7 +148,6 @@
 
     new-instance v2, Lcom/commsource/studio/sub/AdjustEffectEnum;
 
-    .line 3
     sget-object v8, Lcom/commsource/studio/sub/SubModuleEnum;->Contrast:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {v8}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
@@ -179,7 +176,6 @@
 
     new-instance v2, Lcom/commsource/studio/sub/AdjustEffectEnum;
 
-    .line 4
     sget-object v8, Lcom/commsource/studio/sub/SubModuleEnum;->Saturation:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {v8}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
@@ -206,7 +202,6 @@
 
     new-instance v2, Lcom/commsource/studio/sub/AdjustEffectEnum;
 
-    .line 5
     sget-object v8, Lcom/commsource/studio/sub/SubModuleEnum;->ColorTemperature:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {v8}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
@@ -233,7 +228,6 @@
 
     new-instance v2, Lcom/commsource/studio/sub/AdjustEffectEnum;
 
-    .line 6
     sget-object v8, Lcom/commsource/studio/sub/SubModuleEnum;->Highlight:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {v8}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
@@ -260,7 +254,6 @@
 
     new-instance v2, Lcom/commsource/studio/sub/AdjustEffectEnum;
 
-    .line 7
     sget-object v8, Lcom/commsource/studio/sub/SubModuleEnum;->Shadow:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {v8}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
@@ -287,7 +280,6 @@
 
     new-instance v2, Lcom/commsource/studio/sub/AdjustEffectEnum;
 
-    .line 8
     sget-object v8, Lcom/commsource/studio/sub/SubModuleEnum;->Definition:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {v8}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
@@ -316,7 +308,6 @@
 
     new-instance v2, Lcom/commsource/studio/sub/AdjustEffectEnum;
 
-    .line 9
     sget-object v8, Lcom/commsource/studio/sub/SubModuleEnum;->Halation:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {v8}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
@@ -345,7 +336,6 @@
 
     new-instance v2, Lcom/commsource/studio/sub/AdjustEffectEnum;
 
-    .line 10
     sget-object v8, Lcom/commsource/studio/sub/SubModuleEnum;->FadeColor:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {v8}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
@@ -374,7 +364,6 @@
 
     new-instance v2, Lcom/commsource/studio/sub/AdjustEffectEnum;
 
-    .line 11
     sget-object v8, Lcom/commsource/studio/sub/SubModuleEnum;->Particle:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {v8}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
@@ -429,7 +418,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/commsource/studio/sub/AdjustEffectEnum;->id:I
@@ -476,7 +464,6 @@
 
     move-object/from16 v8, p7
 
-    .line 2
     invoke-direct/range {v1 .. v8}, Lcom/commsource/studio/sub/AdjustEffectEnum;-><init>(Ljava/lang/String;IILcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/Class;ZLjava/lang/String;)V
 
     return-void
@@ -531,7 +518,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/sub/AdjustEffectEnum;->bothWay:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -558,7 +544,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/AdjustEffectEnum;->fgClass:Ljava/lang/Class;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -575,7 +560,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/AdjustEffectEnum;->functionEnum:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -592,7 +576,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/AdjustEffectEnum;->functionKey:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -607,7 +590,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sub/AdjustEffectEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -622,7 +604,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sub/AdjustEffectEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

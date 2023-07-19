@@ -31,19 +31,16 @@
         .end annotation
     .end param
 
-    .line 2
     iput-object p1, p0, Lcom/android/installreferrer/api/InstallReferrerClientImpl$b;->b:Lcom/android/installreferrer/api/InstallReferrerClientImpl;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-eqz p2, :cond_0
 
-    .line 3
     iput-object p2, p0, Lcom/android/installreferrer/api/InstallReferrerClientImpl$b;->a:Lcom/android/installreferrer/api/InstallReferrerStateListener;
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -57,7 +54,6 @@
 .method synthetic constructor <init>(Lcom/android/installreferrer/api/InstallReferrerClientImpl;Lcom/android/installreferrer/api/InstallReferrerStateListener;Lcom/android/installreferrer/api/InstallReferrerClientImpl$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/android/installreferrer/api/InstallReferrerClientImpl$b;-><init>(Lcom/android/installreferrer/api/InstallReferrerClientImpl;Lcom/android/installreferrer/api/InstallReferrerStateListener;)V
 
     return-void
@@ -72,10 +68,8 @@
 
     const-string v0, "Install Referrer service connected."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/android/installreferrer/commons/InstallReferrerCommons;->logVerbose(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/android/installreferrer/api/InstallReferrerClientImpl$b;->b:Lcom/android/installreferrer/api/InstallReferrerClientImpl;
 
     invoke-static {p2}, Lf/f/b/a/a/a$a;->s(Landroid/os/IBinder;)Lf/f/b/a/a/a;
@@ -84,14 +78,12 @@
 
     invoke-static {p1, p2}, Lcom/android/installreferrer/api/InstallReferrerClientImpl;->a(Lcom/android/installreferrer/api/InstallReferrerClientImpl;Lf/f/b/a/a/a;)Lf/f/b/a/a/a;
 
-    .line 3
     iget-object p1, p0, Lcom/android/installreferrer/api/InstallReferrerClientImpl$b;->b:Lcom/android/installreferrer/api/InstallReferrerClientImpl;
 
     const/4 p2, 0x2
 
     invoke-static {p1, p2}, Lcom/android/installreferrer/api/InstallReferrerClientImpl;->b(Lcom/android/installreferrer/api/InstallReferrerClientImpl;I)I
 
-    .line 4
     iget-object p1, p0, Lcom/android/installreferrer/api/InstallReferrerClientImpl$b;->a:Lcom/android/installreferrer/api/InstallReferrerStateListener;
 
     const/4 p2, 0x0
@@ -108,24 +100,20 @@
 
     const-string v0, "Install Referrer service disconnected."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/android/installreferrer/commons/InstallReferrerCommons;->logWarn(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/android/installreferrer/api/InstallReferrerClientImpl$b;->b:Lcom/android/installreferrer/api/InstallReferrerClientImpl;
 
     const/4 v0, 0x0
 
     invoke-static {p1, v0}, Lcom/android/installreferrer/api/InstallReferrerClientImpl;->a(Lcom/android/installreferrer/api/InstallReferrerClientImpl;Lf/f/b/a/a/a;)Lf/f/b/a/a/a;
 
-    .line 3
     iget-object p1, p0, Lcom/android/installreferrer/api/InstallReferrerClientImpl$b;->b:Lcom/android/installreferrer/api/InstallReferrerClientImpl;
 
     const/4 v0, 0x0
 
     invoke-static {p1, v0}, Lcom/android/installreferrer/api/InstallReferrerClientImpl;->b(Lcom/android/installreferrer/api/InstallReferrerClientImpl;I)I
 
-    .line 4
     iget-object p1, p0, Lcom/android/installreferrer/api/InstallReferrerClientImpl$b;->a:Lcom/android/installreferrer/api/InstallReferrerStateListener;
 
     invoke-interface {p1}, Lcom/android/installreferrer/api/InstallReferrerStateListener;->onInstallReferrerServiceDisconnected()V

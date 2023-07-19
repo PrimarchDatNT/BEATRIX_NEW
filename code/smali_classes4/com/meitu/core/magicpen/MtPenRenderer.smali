@@ -91,31 +91,26 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/meitu/core/magicpen/MtPenGLSurfaceView;)V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/magicpen/AbsBasicRender;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackgroundColor:Ljava/util/Queue;
 
-    .line 3
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackground:Ljava/util/Queue;
 
-    .line 4
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawPenWrite:Ljava/util/Queue;
 
-    .line 5
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -124,69 +119,54 @@
 
     const/4 v0, 0x0
 
-    .line 6
     iput v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mWidth:I
 
-    .line 7
     iput v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mHeight:I
 
-    .line 8
     iput v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mOutputWidth:I
 
-    .line 9
     iput v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mOutputHeight:I
 
     const/16 v1, 0x10
 
     new-array v1, v1, [F
 
-    .line 10
     iput-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->modelInvertMatrix:[F
 
     const/16 v2, 0x8
 
     new-array v3, v2, [F
 
-    .line 11
     iput-object v3, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mVertex:[F
 
     new-array v2, v2, [F
 
-    .line 12
     iput-object v2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mTexture:[F
 
     const/4 v2, 0x0
 
-    .line 13
     iput-object v2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mComplete:Lcom/meitu/core/magicpen/MtPenRenderer$RenderComplete;
 
-    .line 14
     iput-boolean v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunning:Z
 
-    .line 15
     iput-boolean v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mDestroy:Z
 
-    .line 16
     new-instance v2, Ljava/lang/Object;
 
     invoke-direct {v2}, Ljava/lang/Object;-><init>()V
 
     iput-object v2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mSynchObj:Ljava/lang/Object;
 
-    .line 17
     iput-object p1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mContext:Landroid/content/Context;
 
-    .line 18
     iput-object p2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mView:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
-    .line 19
     new-instance p1, Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-direct {p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
-    .line 20
     invoke-static {v1, v0}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
     return-void
@@ -199,12 +179,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackground:Ljava/util/Queue;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackground:Ljava/util/Queue;
 
@@ -212,7 +190,6 @@
 
     move-result v2
 
-    .line 3
     :goto_0
     iget-object v3, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackground:Ljava/util/Queue;
 
@@ -222,7 +199,6 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackground:Ljava/util/Queue;
 
     invoke-interface {v3}, Ljava/util/Queue;->poll()Ljava/lang/Object;
@@ -243,7 +219,6 @@
 
     const/4 v2, 0x1
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -261,11 +236,9 @@
     :catch_0
     move-exception v2
 
-    .line 6
     :try_start_2
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 7
     :cond_1
     monitor-exit v1
     :try_end_2
@@ -273,12 +246,10 @@
 
     const/4 v1, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 9
     :goto_1
     :try_start_3
     monitor-exit v1
@@ -297,12 +268,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackgroundColor:Ljava/util/Queue;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackgroundColor:Ljava/util/Queue;
 
@@ -310,7 +279,6 @@
 
     move-result v2
 
-    .line 3
     :goto_0
     iget-object v3, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackgroundColor:Ljava/util/Queue;
 
@@ -320,7 +288,6 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackgroundColor:Ljava/util/Queue;
 
     invoke-interface {v3}, Ljava/util/Queue;->poll()Ljava/lang/Object;
@@ -341,7 +308,6 @@
 
     const/4 v2, 0x1
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -359,11 +325,9 @@
     :catch_0
     move-exception v2
 
-    .line 6
     :try_start_2
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 7
     :cond_1
     monitor-exit v1
     :try_end_2
@@ -371,12 +335,10 @@
 
     const/4 v1, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 9
     :goto_1
     :try_start_3
     monitor-exit v1
@@ -395,12 +357,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawPenWrite:Ljava/util/Queue;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawPenRead:Ljava/util/Queue;
 
@@ -408,17 +368,14 @@
 
     invoke-interface {v2, v3}, Ljava/util/Queue;->addAll(Ljava/util/Collection;)Z
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawPenWrite:Ljava/util/Queue;
 
     invoke-interface {v2}, Ljava/util/Queue;->clear()V
 
-    .line 4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :goto_0
     :try_start_1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawPenRead:Ljava/util/Queue;
@@ -429,7 +386,6 @@
 
     if-nez v1, :cond_0
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawPenRead:Ljava/util/Queue;
 
     invoke-interface {v1}, Ljava/util/Queue;->poll()Ljava/lang/Object;
@@ -447,10 +403,8 @@
     :catch_0
     move-exception v1
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -459,7 +413,6 @@
     :catchall_0
     move-exception v2
 
-    .line 9
     :try_start_2
     monitor-exit v1
     :try_end_2
@@ -479,17 +432,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunning:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mSynchObj:Ljava/lang/Object;
 
@@ -497,16 +447,13 @@
 
     const/4 v2, 0x1
 
-    .line 4
     :try_start_0
     iput-boolean v2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mDestroy:Z
 
-    .line 5
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -514,7 +461,6 @@
     :catchall_0
     move-exception v2
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -532,12 +478,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/magicpen/MtPenRenderer;->getScaleWidth()F
 
     move-result v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/magicpen/MtPenRenderer;->getScaleHeight()F
 
     move-result v2
@@ -590,7 +534,6 @@
 
     aput v6, v3, v1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
@@ -603,7 +546,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mHeight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -618,7 +560,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mWidth:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -633,7 +574,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -648,7 +588,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mOutputHeight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -663,7 +602,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mOutputWidth:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -678,7 +616,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mModelMatrix:[F
 
     if-nez v1, :cond_0
@@ -705,7 +642,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v1, :cond_0
@@ -732,7 +668,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v1, :cond_0
@@ -761,35 +696,28 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mModelMatrix:[F
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->modelInvertMatrix:[F
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2, p1, v2}, Landroid/opengl/Matrix;->invertM([FI[FI)Z
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mModelMatrix:[F
 
     invoke-virtual {p1, v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->setGestureMatrix([F)Z
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mView:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     if-eqz p1, :cond_0
 
-    .line 6
     invoke-virtual {p1}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -805,10 +733,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->isShowMagnifier:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -821,49 +747,40 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/magicpen/MtPenRenderer;->pendingBackgroundColor()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mSynchObj:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 4
     :try_start_0
     iget-boolean v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunning:Z
 
-    .line 5
     iget-boolean v2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mDestroy:Z
 
-    .line 6
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-eqz v1, :cond_3
 
-    .line 7
     invoke-direct {p0}, Lcom/meitu/core/magicpen/MtPenRenderer;->pendingBackground()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 8
     invoke-direct {p0}, Lcom/meitu/core/magicpen/MtPenRenderer;->pendingMtPen()V
 
-    .line 9
     :cond_1
     iget-object v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
@@ -871,12 +788,10 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->OnDrawFrame(F)Z
 
-    .line 10
     iget-boolean v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->isShowMagnifier:Z
 
     if-eqz v0, :cond_2
 
-    .line 11
     iget-object v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mVertex:[F
@@ -885,34 +800,28 @@
 
     invoke-virtual {v0, v1, v3}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->OnDrawMagnifier([F[F)Z
 
-    .line 12
     :cond_2
     iget-object v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mComplete:Lcom/meitu/core/magicpen/MtPenRenderer$RenderComplete;
 
     if-eqz v0, :cond_3
 
-    .line 13
     invoke-interface {v0}, Lcom/meitu/core/magicpen/MtPenRenderer$RenderComplete;->onDrawFrame()V
 
     :cond_3
     if-eqz v2, :cond_4
 
-    .line 14
     iget-object v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-virtual {v0}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->GLRelease()Z
 
-    .line 15
     iget-object v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-virtual {v0}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->Release()Z
 
     const/4 v0, 0x0
 
-    .line 16
     iput-boolean v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mDestroy:Z
 
-    .line 17
     :cond_4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -921,7 +830,6 @@
     :catchall_0
     move-exception v1
 
-    .line 18
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -939,26 +847,20 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mOutputWidth:I
 
-    .line 2
     iput p3, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mOutputHeight:I
 
-    .line 3
     iget-object v0, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-virtual {v0, p2, p3}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->OnSurfaceChanged(II)Z
 
-    .line 4
     iget-object p2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRenderListener:Lcom/meitu/core/magicpen/IMtPenCallback;
 
     if-eqz p2, :cond_0
 
-    .line 5
     invoke-interface {p2}, Lcom/meitu/core/magicpen/IMtPenCallback;->onSurfaceChanged()V
 
-    .line 6
     :cond_0
     iget-object p2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mSynchObj:Ljava/lang/Object;
 
@@ -966,16 +868,13 @@
 
     const/4 p3, 0x1
 
-    .line 7
     :try_start_0
     iput-boolean p3, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunning:Z
 
-    .line 8
     monitor-exit p2
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -983,7 +882,6 @@
     :catchall_0
     move-exception p3
 
-    .line 10
     :try_start_1
     monitor-exit p2
     :try_end_1
@@ -1001,20 +899,16 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-virtual {p2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->OnSurfaceCreated()Z
 
-    .line 2
     iget-object p2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRenderListener:Lcom/meitu/core/magicpen/IMtPenCallback;
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-interface {p2}, Lcom/meitu/core/magicpen/IMtPenCallback;->onSurfaceCreated()V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1028,23 +922,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackground:Ljava/util/Queue;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackground:Ljava/util/Queue;
 
     invoke-interface {v2, p1}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1052,7 +942,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1070,23 +959,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackgroundColor:Ljava/util/Queue;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawBackgroundColor:Ljava/util/Queue;
 
     invoke-interface {v2, p1}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1094,7 +979,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1112,23 +996,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawPenWrite:Ljava/util/Queue;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRunOnDrawPenWrite:Ljava/util/Queue;
 
     invoke-interface {v2, p1}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1136,7 +1016,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1154,7 +1033,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lcom/meitu/core/magicpen/MtPenRenderer$1;
 
     move-object v1, v7
@@ -1173,15 +1051,12 @@
 
     invoke-virtual {p0, v7}, Lcom/meitu/core/magicpen/MtPenRenderer;->runOnDrawBackgroundColor(Ljava/lang/Runnable;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mView:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1195,10 +1070,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mRenderListener:Lcom/meitu/core/magicpen/IMtPenCallback;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1211,13 +1084,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mWidth:I
 
-    .line 2
     iput p2, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mHeight:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1230,10 +1100,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mComplete:Lcom/meitu/core/magicpen/MtPenRenderer$RenderComplete;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1248,7 +1116,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mVertex:[F
 
     const/16 v2, 0x10
@@ -1261,7 +1128,6 @@
 
     const/16 v2, 0x11
 
-    .line 2
     aget v2, p1, v2
 
     const/4 v4, 0x1
@@ -1270,7 +1136,6 @@
 
     const/16 v2, 0xc
 
-    .line 3
     aget v2, p1, v2
 
     const/4 v5, 0x2
@@ -1279,7 +1144,6 @@
 
     const/16 v2, 0xd
 
-    .line 4
     aget v2, p1, v2
 
     const/4 v6, 0x3
@@ -1288,21 +1152,18 @@
 
     const/4 v2, 0x4
 
-    .line 5
     aget v7, p1, v2
 
     aput v7, v1, v2
 
     const/4 v7, 0x5
 
-    .line 6
     aget v8, p1, v7
 
     aput v8, v1, v7
 
     const/16 v8, 0x8
 
-    .line 7
     aget v8, p1, v8
 
     const/4 v9, 0x6
@@ -1311,14 +1172,12 @@
 
     const/16 v8, 0x9
 
-    .line 8
     aget v8, p1, v8
 
     const/4 v10, 0x7
 
     aput v8, v1, v10
 
-    .line 9
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->mTexture:[F
 
     const/16 v8, 0x12
@@ -1329,53 +1188,44 @@
 
     const/16 v3, 0x13
 
-    .line 10
     aget v3, p1, v3
 
     aput v3, v1, v4
 
     const/16 v3, 0xe
 
-    .line 11
     aget v3, p1, v3
 
     aput v3, v1, v5
 
     const/16 v3, 0xf
 
-    .line 12
     aget v3, p1, v3
 
     aput v3, v1, v6
 
-    .line 13
     aget v3, p1, v9
 
     aput v3, v1, v2
 
-    .line 14
     aget v2, p1, v10
 
     aput v2, v1, v7
 
     const/16 v2, 0xa
 
-    .line 15
     aget v2, p1, v2
 
     aput v2, v1, v9
 
     const/16 v2, 0xb
 
-    .line 16
     aget p1, p1, v2
 
     aput p1, v1, v10
 
-    .line 17
     iput-boolean v4, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->isShowMagnifier:Z
 
-    .line 18
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1389,7 +1239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/magicpen/MtPenRenderer;->getOutputWidth()I
 
     move-result v1
@@ -1406,7 +1255,6 @@
 
     sub-float/2addr p1, v2
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/magicpen/MtPenRenderer;->getOutputHeight()I
 
     move-result v3
@@ -1443,7 +1291,6 @@
 
     aput v2, v3, p2
 
-    .line 3
     iget-object v6, p0, Lcom/meitu/core/magicpen/MtPenRenderer;->modelInvertMatrix:[F
 
     const/4 v5, 0x0
@@ -1458,7 +1305,6 @@
 
     invoke-static/range {v4 .. v9}, Landroid/opengl/Matrix;->multiplyMV([FI[FI[FI)V
 
-    .line 4
     aget p2, v3, v10
 
     invoke-virtual {p0}, Lcom/meitu/core/magicpen/MtPenRenderer;->getScaleWidth()F
@@ -1475,7 +1321,6 @@
 
     div-float/2addr p2, v2
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/core/magicpen/MtPenRenderer;->getScaleHeight()F
 
     move-result v2
@@ -1498,7 +1343,6 @@
 
     aput v2, v1, p1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

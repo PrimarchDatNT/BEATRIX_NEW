@@ -36,43 +36,34 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/alibaba/android/patronus/Patrons$PatronsConfig;->debuggable:Z
 
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/alibaba/android/patronus/Patrons$PatronsConfig;->auto:Z
 
     const v2, 0x3f428f5c    # 0.76f
 
-    .line 4
     iput v2, p0, Lcom/alibaba/android/patronus/Patrons$PatronsConfig;->periodOfShrink:F
 
     const/16 v2, 0x7d
 
-    .line 5
     iput v2, p0, Lcom/alibaba/android/patronus/Patrons$PatronsConfig;->shrinkStep:I
 
     const/16 v2, 0x1e
 
-    .line 6
     iput v2, p0, Lcom/alibaba/android/patronus/Patrons$PatronsConfig;->periodOfCheck:I
 
     const/16 v2, 0x180
 
-    .line 7
     iput v2, p0, Lcom/alibaba/android/patronus/Patrons$PatronsConfig;->lowerLimit:I
 
-    .line 8
     iput-boolean v0, p0, Lcom/alibaba/android/patronus/Patrons$PatronsConfig;->fixHuaweiBinderAbort:Z
 
-    .line 9
     iput-boolean v1, p0, Lcom/alibaba/android/patronus/Patrons$PatronsConfig;->recordInitResult:Z
 
     return-void
@@ -83,7 +74,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

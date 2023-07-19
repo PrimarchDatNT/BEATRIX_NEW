@@ -30,12 +30,10 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ec0;->a:Lcom/google/android/gms/internal/ads/dc0;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ec0;->b:Ljava/lang/Object;
 
-    .line 2
     :try_start_0
     invoke-interface {v0, v1}, Lcom/google/android/gms/internal/ads/dc0;->f(Ljava/lang/Object;)V
     :try_end_0
@@ -46,7 +44,6 @@
     :catchall_0
     move-exception v0
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object v1
@@ -57,7 +54,6 @@
 
     const-string v1, "Event emitter exception."
 
-    .line 4
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/sm;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

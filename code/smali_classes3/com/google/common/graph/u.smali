@@ -52,10 +52,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/graph/o;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/graph/u;->a:Lcom/google/common/graph/h;
 
     return-void
@@ -77,22 +75,18 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/graph/GraphConstants$Presence;->EDGE_EXISTS:Lcom/google/common/graph/GraphConstants$Presence;
 
-    .line 2
     invoke-static {v0}, Lcom/google/common/base/Functions;->b(Ljava/lang/Object;)Lcom/google/common/base/n;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {p0}, Lcom/google/common/graph/r;->e()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {p0, p1}, Lcom/google/common/graph/r;->l(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p0
@@ -103,7 +97,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-interface {p0, p1}, Lcom/google/common/graph/r;->k(Ljava/lang/Object;)Ljava/util/Set;
 
@@ -113,7 +106,6 @@
 
     move-result-object p0
 
-    .line 6
     invoke-static {p0}, Lcom/google/common/graph/o0;->k(Ljava/util/Map;)Lcom/google/common/graph/o0;
 
     move-result-object p0
@@ -136,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcom/google/common/graph/u;
 
     if-eqz v0, :cond_0
@@ -150,7 +141,6 @@
 
     new-instance v1, Lcom/google/common/graph/m0;
 
-    .line 2
     invoke-static {p0}, Lcom/google/common/graph/s;->g(Lcom/google/common/graph/r;)Lcom/google/common/graph/s;
 
     move-result-object v2
@@ -196,7 +186,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -224,12 +213,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableMap;->builder()Lcom/google/common/collect/ImmutableMap$b;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p0}, Lcom/google/common/graph/r;->m()Ljava/util/Set;
 
     move-result-object v1
@@ -249,7 +236,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-static {p0, v2}, Lcom/google/common/graph/u;->R(Lcom/google/common/graph/r;Ljava/lang/Object;)Lcom/google/common/graph/t;
 
     move-result-object v3
@@ -258,7 +244,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMap$b;->a()Lcom/google/common/collect/ImmutableMap;
 
@@ -279,7 +264,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/u;->a:Lcom/google/common/graph/h;
 
     return-object v0
@@ -288,7 +272,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Ljava/util/Set;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/o;->a(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -299,7 +282,6 @@
 .method public bridge synthetic b(Ljava/lang/Object;)Ljava/util/Set;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/o;->b(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -310,7 +292,6 @@
 .method public bridge synthetic d(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/graph/o;->d(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -321,7 +302,6 @@
 .method public bridge synthetic e()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/graph/o;->e()Z
 
     move-result v0
@@ -332,7 +312,6 @@
 .method public bridge synthetic f(Lcom/google/common/graph/m;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/o;->f(Lcom/google/common/graph/m;)Z
 
     move-result p1
@@ -343,7 +322,6 @@
 .method public bridge synthetic g(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/o;->g(Ljava/lang/Object;)I
 
     move-result p1
@@ -354,7 +332,6 @@
 .method public bridge synthetic h()Lcom/google/common/graph/ElementOrder;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/graph/o;->h()Lcom/google/common/graph/ElementOrder;
 
     move-result-object v0
@@ -365,7 +342,6 @@
 .method public bridge synthetic i(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/o;->i(Ljava/lang/Object;)I
 
     move-result p1
@@ -376,7 +352,6 @@
 .method public bridge synthetic j()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/graph/o;->j()Z
 
     move-result v0
@@ -387,7 +362,6 @@
 .method public bridge synthetic k(Ljava/lang/Object;)Ljava/util/Set;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/o;->k(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -398,7 +372,6 @@
 .method public bridge synthetic l(Ljava/lang/Object;)Ljava/util/Set;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/o;->l(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -409,7 +382,6 @@
 .method public bridge synthetic m()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/graph/o;->m()Ljava/util/Set;
 
     move-result-object v0
@@ -420,7 +392,6 @@
 .method public bridge synthetic n(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/o;->n(Ljava/lang/Object;)I
 
     move-result p1
@@ -438,7 +409,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/graph/ElementOrder;->g()Lcom/google/common/graph/ElementOrder;
 
     move-result-object v0

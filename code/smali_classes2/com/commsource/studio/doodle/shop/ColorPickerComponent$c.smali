@@ -32,7 +32,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$c;->b:Lcom/commsource/studio/sub/BaseSubTabFragment;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$c;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->i(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)Lcom/commsource/beautyplus/f0/gl;
@@ -58,7 +56,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/doodle/ColorItemView;->setFillColor(I)V
 
-    .line 2
     invoke-static {p1}, Landroid/graphics/Color;->red(I)I
 
     move-result v1
@@ -79,7 +76,6 @@
 
     if-le p1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$c;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->i(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)Lcom/commsource/beautyplus/f0/gl;
@@ -94,7 +90,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$c;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
@@ -108,7 +103,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -122,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$c;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->g(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)Lcotlin/jvm/u/l;
@@ -141,7 +134,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$c;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
@@ -159,7 +151,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

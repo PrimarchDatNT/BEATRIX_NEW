@@ -63,7 +63,6 @@
 .method static constructor <clinit>()V
     .locals 27
 
-    .line 1
     new-instance v6, Lcom/google/android/gms/internal/measurement/zzfq;
 
     const-class v3, Ljava/lang/Void;
@@ -82,7 +81,6 @@
 
     sput-object v6, Lcom/google/android/gms/internal/measurement/zzfq;->zza:Lcom/google/android/gms/internal/measurement/zzfq;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/measurement/zzfq;
 
     sget-object v1, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
@@ -105,7 +103,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/measurement/zzfq;->zzb:Lcom/google/android/gms/internal/measurement/zzfq;
 
-    .line 3
     new-instance v3, Lcom/google/android/gms/internal/measurement/zzfq;
 
     sget-object v16, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
@@ -128,7 +125,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/measurement/zzfq;->zzc:Lcom/google/android/gms/internal/measurement/zzfq;
 
-    .line 4
     new-instance v4, Lcom/google/android/gms/internal/measurement/zzfq;
 
     sget-object v10, Ljava/lang/Float;->TYPE:Ljava/lang/Class;
@@ -151,7 +147,6 @@
 
     sput-object v4, Lcom/google/android/gms/internal/measurement/zzfq;->zzd:Lcom/google/android/gms/internal/measurement/zzfq;
 
-    .line 5
     new-instance v5, Lcom/google/android/gms/internal/measurement/zzfq;
 
     sget-object v16, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
@@ -174,7 +169,6 @@
 
     sput-object v5, Lcom/google/android/gms/internal/measurement/zzfq;->zze:Lcom/google/android/gms/internal/measurement/zzfq;
 
-    .line 6
     new-instance v13, Lcom/google/android/gms/internal/measurement/zzfq;
 
     sget-object v10, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
@@ -193,7 +187,6 @@
 
     sput-object v13, Lcom/google/android/gms/internal/measurement/zzfq;->zzf:Lcom/google/android/gms/internal/measurement/zzfq;
 
-    .line 7
     new-instance v20, Lcom/google/android/gms/internal/measurement/zzfq;
 
     const-class v17, Ljava/lang/String;
@@ -212,7 +205,6 @@
 
     sput-object v20, Lcom/google/android/gms/internal/measurement/zzfq;->zzg:Lcom/google/android/gms/internal/measurement/zzfq;
 
-    .line 8
     new-instance v14, Lcom/google/android/gms/internal/measurement/zzfq;
 
     const-class v10, Lcom/google/android/gms/internal/measurement/zzdu;
@@ -231,7 +223,6 @@
 
     sput-object v14, Lcom/google/android/gms/internal/measurement/zzfq;->zzh:Lcom/google/android/gms/internal/measurement/zzfq;
 
-    .line 9
     new-instance v15, Lcom/google/android/gms/internal/measurement/zzfq;
 
     const-class v11, Ljava/lang/Integer;
@@ -250,7 +241,6 @@
 
     sput-object v15, Lcom/google/android/gms/internal/measurement/zzfq;->zzi:Lcom/google/android/gms/internal/measurement/zzfq;
 
-    .line 10
     new-instance v1, Lcom/google/android/gms/internal/measurement/zzfq;
 
     const-class v24, Ljava/lang/Object;
@@ -311,7 +301,6 @@
 
     aput-object v1, v7, v0
 
-    .line 11
     sput-object v7, Lcom/google/android/gms/internal/measurement/zzfq;->zzn:[Lcom/google/android/gms/internal/measurement/zzfq;
 
     return-void
@@ -331,16 +320,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/google/android/gms/internal/measurement/zzfq;->zzk:Ljava/lang/Class;
 
-    .line 3
     iput-object p4, p0, Lcom/google/android/gms/internal/measurement/zzfq;->zzl:Ljava/lang/Class;
 
-    .line 4
     iput-object p5, p0, Lcom/google/android/gms/internal/measurement/zzfq;->zzm:Ljava/lang/Object;
 
     return-void
@@ -349,7 +334,6 @@
 .method public static values()[Lcom/google/android/gms/internal/measurement/zzfq;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/zzfq;->zzn:[Lcom/google/android/gms/internal/measurement/zzfq;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/measurement/zzfq;->clone()Ljava/lang/Object;
@@ -373,7 +357,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzfq;->zzl:Ljava/lang/Class;
 
     return-object v0

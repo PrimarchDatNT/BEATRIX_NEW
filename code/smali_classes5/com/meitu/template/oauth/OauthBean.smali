@@ -19,18 +19,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/template/oauth/OauthBean;->access_token:Ljava/lang/String;
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/template/oauth/OauthBean;->initial_bind_token:Ljava/lang/String;
 
-    .line 4
     iput-object v0, p0, Lcom/meitu/template/oauth/OauthBean;->initial_login_token:Ljava/lang/String;
 
     return-void
@@ -45,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/oauth/OauthBean;->access_token:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -60,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/oauth/OauthBean;->expires_at:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -75,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/oauth/OauthBean;->initial_bind_token:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -90,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/oauth/OauthBean;->initial_login_token:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -105,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-wide/16 v0, -0x1
@@ -120,10 +111,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/oauth/OauthBean;->access_token:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -136,10 +125,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/oauth/OauthBean;->expires_at:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -152,10 +139,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/oauth/OauthBean;->initial_bind_token:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -168,10 +153,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/oauth/OauthBean;->initial_login_token:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -184,10 +167,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/oauth/OauthBean;->uid:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

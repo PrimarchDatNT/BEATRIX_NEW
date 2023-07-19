@@ -25,10 +25,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
@@ -37,7 +35,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->b:I
 
     return-void
@@ -50,30 +47,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->c:Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->c:Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;
 
     invoke-direct {v2}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;-><init>()V
 
     sput-object v2, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->c:Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -90,7 +82,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->c:Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;
@@ -112,7 +103,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -121,12 +111,10 @@
 
     check-cast v1, Landroid/graphics/Bitmap;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v2, p1}, Landroid/util/SparseArray;->remove(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -155,10 +143,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->b:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->size()I
@@ -167,12 +153,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -200,12 +184,10 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->remove(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -232,22 +214,18 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->a:Landroid/util/SparseArray;
 
     iget v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->b:I
 
     invoke-virtual {v1, v2}, Landroid/util/SparseArray;->remove(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p2, p1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 3
     iput p2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->b:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

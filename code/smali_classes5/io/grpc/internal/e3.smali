@@ -13,7 +13,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     const-class v0, Lio/grpc/internal/e3;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -26,12 +25,10 @@
 
     sput-object v0, Lio/grpc/internal/e3;->a:Ljava/util/logging/Logger;
 
-    .line 2
     sget-object v0, Lcom/google/common/base/c;->a:Ljava/nio/charset/Charset;
 
     const-string v1, "-bin"
 
-    .line 3
     invoke-virtual {v1, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
     move-result-object v0
@@ -44,7 +41,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,7 +49,6 @@
 .method private static a([B[B)Z
     .locals 5
 
-    .line 1
     array-length v0, p0
 
     array-length v1, p1
@@ -69,13 +64,11 @@
     :cond_0
     move v2, v0
 
-    .line 2
     :goto_0
     array-length v3, p0
 
     if-ge v2, v3, :cond_2
 
-    .line 3
     aget-byte v3, p0, v2
 
     sub-int v4, v2, v0
@@ -100,7 +93,6 @@
 .method private static b([B)Z
     .locals 5
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -140,7 +132,6 @@
 .method private static c([[BI)[[B
     .locals 10
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     array-length v1, p0
@@ -156,7 +147,6 @@
     :goto_0
     if-ge v2, p1, :cond_0
 
-    .line 2
     aget-object v3, p0, v2
 
     invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -165,22 +155,18 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     :goto_1
     array-length v2, p0
 
     if-ge p1, v2, :cond_4
 
-    .line 4
     aget-object v2, p0, p1
 
     add-int/lit8 v3, p1, 0x1
 
-    .line 5
     aget-object v3, p0, v3
 
-    .line 6
     sget-object v4, Lio/grpc/internal/e3;->b:[B
 
     invoke-static {v2, v4}, Lio/grpc/internal/e3;->a([B[B)Z
@@ -189,10 +175,8 @@
 
     if-nez v4, :cond_1
 
-    .line 7
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_4
@@ -202,13 +186,11 @@
 
     const/4 v5, 0x0
 
-    .line 9
     :goto_2
     array-length v6, v3
 
     if-gt v4, v6, :cond_3
 
-    .line 10
     array-length v6, v3
 
     if-eq v4, v6, :cond_2
@@ -221,7 +203,6 @@
 
     goto :goto_3
 
-    .line 11
     :cond_2
     invoke-static {}, Lcom/google/common/io/BaseEncoding;->d()Lcom/google/common/io/BaseEncoding;
 
@@ -241,10 +222,8 @@
 
     add-int/lit8 v6, v4, 0x1
 
-    .line 12
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 13
     invoke-interface {v0, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     move v5, v6
@@ -263,7 +242,6 @@
     :cond_4
     new-array p0, v1, [[B
 
-    .line 14
     invoke-interface {v0, p0}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p0
@@ -276,7 +254,6 @@
 .method public static d(Lio/grpc/y0;)[[B
     .locals 8
 
-    .line 1
     invoke-static {p0}, Lio/grpc/l0;->h(Lio/grpc/y0;)[[B
 
     move-result-object p0
@@ -294,21 +271,17 @@
 
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     array-length v3, p0
 
     if-ge v1, v3, :cond_3
 
-    .line 3
     aget-object v3, p0, v1
 
     add-int/lit8 v4, v1, 0x1
 
-    .line 4
     aget-object v4, p0, v4
 
-    .line 5
     sget-object v5, Lio/grpc/internal/e3;->b:[B
 
     invoke-static {v3, v5}, Lio/grpc/internal/e3;->a([B[B)Z
@@ -317,15 +290,12 @@
 
     if-eqz v5, :cond_1
 
-    .line 6
     aput-object v3, p0, v2
 
     add-int/lit8 v3, v2, 0x1
 
-    .line 7
     sget-object v5, Lio/grpc/l0;->b:Lcom/google/common/io/BaseEncoding;
 
-    .line 8
     invoke-virtual {v5, v4}, Lcom/google/common/io/BaseEncoding;->l([B)Ljava/lang/String;
 
     move-result-object v4
@@ -343,7 +313,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_1
     invoke-static {v4}, Lio/grpc/internal/e3;->b([B)Z
 
@@ -351,17 +320,14 @@
 
     if-eqz v5, :cond_2
 
-    .line 10
     aput-object v3, p0, v2
 
     add-int/lit8 v3, v2, 0x1
 
-    .line 11
     aput-object v4, p0, v3
 
     goto :goto_1
 
-    .line 12
     :cond_2
     new-instance v5, Ljava/lang/String;
 
@@ -369,7 +335,6 @@
 
     invoke-direct {v5, v3, v6}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
 
-    .line 13
     sget-object v3, Lio/grpc/internal/e3;->a:Ljava/util/logging/Logger;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -407,7 +372,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_3
     array-length v1, p0
 
@@ -415,7 +379,6 @@
 
     return-object p0
 
-    .line 15
     :cond_4
     invoke-static {p0, v0, v2}, Ljava/util/Arrays;->copyOfRange([Ljava/lang/Object;II)[Ljava/lang/Object;
 
@@ -435,21 +398,17 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     array-length v2, p0
 
     if-ge v1, v2, :cond_3
 
-    .line 2
     aget-object v2, p0, v1
 
     add-int/lit8 v3, v1, 0x1
 
-    .line 3
     aget-object v4, p0, v3
 
-    .line 4
     sget-object v5, Lio/grpc/internal/e3;->b:[B
 
     invoke-static {v2, v5}, Lio/grpc/internal/e3;->a([B[B)Z
@@ -460,20 +419,17 @@
 
     const/4 v2, 0x0
 
-    .line 5
     :goto_1
     array-length v5, v4
 
     if-ge v2, v5, :cond_1
 
-    .line 6
     aget-byte v5, v4, v2
 
     const/16 v6, 0x2c
 
     if-ne v5, v6, :cond_0
 
-    .line 7
     invoke-static {p0, v1}, Lio/grpc/internal/e3;->c([[BI)[[B
 
     move-result-object p0
@@ -485,7 +441,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     invoke-static {}, Lcom/google/common/io/BaseEncoding;->d()Lcom/google/common/io/BaseEncoding;
 
@@ -501,7 +456,6 @@
 
     move-result-object v2
 
-    .line 9
     aput-object v2, p0, v3
 
     :cond_2

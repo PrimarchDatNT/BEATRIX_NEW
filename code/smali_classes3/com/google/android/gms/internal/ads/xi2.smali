@@ -27,7 +27,6 @@
 
     return-wide p0
 
-    .line 1
     :cond_1
     rem-int/lit8 v0, p2, 0x2
 
@@ -37,7 +36,6 @@
 
     mul-long p0, p0, p0
 
-    .line 2
     rem-long/2addr p0, v1
 
     div-int/lit8 p2, p2, 0x2
@@ -53,7 +51,6 @@
     :cond_2
     mul-long v3, p0, p0
 
-    .line 3
     rem-long/2addr v3, v1
 
     div-int/lit8 p2, p2, 0x2
@@ -76,7 +73,6 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     add-int/2addr p2, p1
@@ -85,14 +81,12 @@
 
     const-string p0, "Unable to construct shingle"
 
-    .line 2
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
 
     const-string p0, ""
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -103,27 +97,23 @@
 
     if-ge p1, v1, :cond_1
 
-    .line 4
     aget-object v1, p0, p1
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v1, 0x20
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     add-int/lit8 p1, p1, 0x1
 
     goto :goto_0
 
-    .line 6
     :cond_1
     aget-object p0, p0, v1
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -147,19 +137,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/wi2;
 
     invoke-direct {v0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/ads/wi2;-><init>(JLjava/lang/String;I)V
 
-    .line 2
     invoke-virtual {p5}, Ljava/util/PriorityQueue;->size()I
 
     move-result p1
 
     if-ne p1, p0, :cond_1
 
-    .line 3
     invoke-virtual {p5}, Ljava/util/PriorityQueue;->peek()Ljava/lang/Object;
 
     move-result-object p1
@@ -189,7 +176,6 @@
     :cond_0
     return-void
 
-    .line 4
     :cond_1
     invoke-virtual {p5, v0}, Ljava/util/PriorityQueue;->contains(Ljava/lang/Object;)Z
 
@@ -199,18 +185,15 @@
 
     return-void
 
-    .line 5
     :cond_2
     invoke-virtual {p5, v0}, Ljava/util/PriorityQueue;->add(Ljava/lang/Object;)Z
 
-    .line 6
     invoke-virtual {p5}, Ljava/util/PriorityQueue;->size()I
 
     move-result p1
 
     if-le p1, p0, :cond_3
 
-    .line 7
     invoke-virtual {p5}, Ljava/util/PriorityQueue;->poll()Ljava/lang/Object;
 
     :cond_3
@@ -234,24 +217,20 @@
 
     move/from16 v7, p2
 
-    .line 1
     array-length v1, v0
 
     const/4 v2, 0x0
 
     if-ge v1, v7, :cond_0
 
-    .line 2
     array-length v1, v0
 
     invoke-static {v0, v2, v1}, Lcom/google/android/gms/internal/ads/xi2;->e([Ljava/lang/String;II)J
 
     move-result-wide v4
 
-    .line 3
     array-length v1, v0
 
-    .line 4
     invoke-static {v0, v2, v1}, Lcom/google/android/gms/internal/ads/xi2;->b([Ljava/lang/String;II)Ljava/lang/String;
 
     move-result-object v6
@@ -262,18 +241,15 @@
 
     move-object/from16 v8, p3
 
-    .line 5
     invoke-static/range {v3 .. v8}, Lcom/google/android/gms/internal/ads/xi2;->c(IJLjava/lang/String;ILjava/util/PriorityQueue;)V
 
     return-void
 
-    .line 6
     :cond_0
     invoke-static {v0, v2, v7}, Lcom/google/android/gms/internal/ads/xi2;->e([Ljava/lang/String;II)J
 
     move-result-wide v8
 
-    .line 7
     invoke-static {v0, v2, v7}, Lcom/google/android/gms/internal/ads/xi2;->b([Ljava/lang/String;II)Ljava/lang/String;
 
     move-result-object v4
@@ -286,14 +262,12 @@
 
     move-object/from16 v6, p3
 
-    .line 8
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/internal/ads/xi2;->c(IJLjava/lang/String;ILjava/util/PriorityQueue;)V
 
     add-int/lit8 v1, v7, -0x1
 
     const-wide/32 v2, 0x1001fff
 
-    .line 9
     invoke-static {v2, v3, v1}, Lcom/google/android/gms/internal/ads/xi2;->a(JI)J
 
     move-result-wide v4
@@ -302,7 +276,6 @@
 
     const/4 v6, 0x1
 
-    .line 10
     :goto_0
     array-length v10, v0
 
@@ -314,10 +287,8 @@
 
     add-int/lit8 v10, v6, -0x1
 
-    .line 11
     aget-object v10, v0, v10
 
-    .line 12
     invoke-static {v10}, Lcom/google/android/gms/internal/ads/si2;->a(Ljava/lang/String;)I
 
     move-result v10
@@ -328,7 +299,6 @@
 
     aget-object v11, v0, v11
 
-    .line 13
     invoke-static {v11}, Lcom/google/android/gms/internal/ads/si2;->a(Ljava/lang/String;)I
 
     move-result v11
@@ -341,7 +311,6 @@
 
     const-wide/32 v16, 0x4000ffff
 
-    .line 14
     rem-long v12, v12, v16
 
     mul-long v12, v12, v4
@@ -352,27 +321,22 @@
 
     sub-long/2addr v8, v12
 
-    .line 15
     rem-long v8, v8, v16
 
     mul-long v8, v8, v2
 
-    .line 16
     rem-long v8, v8, v16
 
     int-to-long v10, v11
 
     add-long/2addr v10, v14
 
-    .line 17
     rem-long v10, v10, v16
 
     add-long/2addr v8, v10
 
-    .line 18
     rem-long v8, v8, v16
 
-    .line 19
     invoke-static {v0, v6, v7}, Lcom/google/android/gms/internal/ads/xi2;->b([Ljava/lang/String;II)Ljava/lang/String;
 
     move-result-object v13
@@ -385,7 +349,6 @@
 
     move-object/from16 v15, p3
 
-    .line 20
     invoke-static/range {v10 .. v15}, Lcom/google/android/gms/internal/ads/xi2;->c(IJLjava/lang/String;ILjava/util/PriorityQueue;)V
 
     add-int/lit8 v6, v6, 0x1
@@ -401,7 +364,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     aget-object p1, p0, p1
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/si2;->a(Ljava/lang/String;)I
@@ -427,10 +389,8 @@
 
     mul-long v0, v0, v6
 
-    .line 2
     rem-long/2addr v0, v4
 
-    .line 3
     aget-object v6, p0, p1
 
     invoke-static {v6}, Lcom/google/android/gms/internal/ads/si2;->a(Ljava/lang/String;)I
@@ -445,7 +405,6 @@
 
     add-long/2addr v0, v6
 
-    .line 4
     rem-long/2addr v0, v4
 
     add-int/lit8 p1, p1, 0x1

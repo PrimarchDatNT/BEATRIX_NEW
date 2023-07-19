@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 
     const-string p1, ""
 
-    .line 1
     :cond_0
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -42,7 +40,6 @@
 
     const-string p1, ""
 
-    .line 1
     :cond_0
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -60,7 +57,6 @@
 
     const-string p1, ""
 
-    .line 1
     :cond_0
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

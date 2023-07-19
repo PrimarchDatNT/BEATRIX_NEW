@@ -52,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/Maps$t;-><init>(Ljava/util/Map;Lcom/google/common/base/u;)V
 
     return-void
@@ -63,7 +62,6 @@
 .method bridge synthetic b()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$v;->g()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -81,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$v;->i()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -101,7 +98,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$v;->h()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -127,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Maps$v$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/Maps$v$a;-><init>(Lcom/google/common/collect/Maps$v;)V
@@ -145,7 +140,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/Maps$n0;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -165,7 +159,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Maps$v;
 
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$v;->i()Ljava/util/SortedMap;
@@ -193,7 +186,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$n;->d:Ljava/util/Map;
 
     check-cast v0, Ljava/util/SortedMap;
@@ -204,7 +196,6 @@
 .method public bridge synthetic keySet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$v;->h()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -220,18 +211,15 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$v;->i()Ljava/util/SortedMap;
 
     move-result-object v0
 
-    .line 2
     :goto_0
     invoke-interface {v0}, Ljava/util/SortedMap;->lastKey()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/Maps$n;->d:Ljava/util/Map;
 
     invoke-interface {v1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -246,7 +234,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$v;->i()Ljava/util/SortedMap;
 
@@ -269,7 +256,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Maps$v;
 
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$v;->i()Ljava/util/SortedMap;
@@ -297,7 +283,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Maps$v;
 
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$v;->i()Ljava/util/SortedMap;

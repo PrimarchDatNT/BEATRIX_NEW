@@ -27,7 +27,6 @@
 
     const-string v0, "Thing"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/firebase/appindexing/e$a;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -40,7 +39,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/firebase/appindexing/g/i;-><init>(Ljava/lang/String;)V
 
     return-void

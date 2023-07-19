@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -37,12 +35,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     :try_start_0
     new-instance v1, Landroidx/exifinterface/media/ExifInterface;
@@ -51,7 +47,6 @@
 
     const-string p0, "ImageDescription"
 
-    .line 4
     invoke-virtual {v1, p0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -65,17 +60,14 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const-string v1, "EXIF"
 
     const-string v3, "cannot read file source exif"
 
-    .line 6
     invoke-static {v1, v3, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -88,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -97,12 +88,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     :try_start_0
     new-instance v1, Landroidx/exifinterface/media/ExifInterface;
@@ -111,7 +100,6 @@
 
     const-string p0, "FileSource"
 
-    .line 4
     invoke-virtual {v1, p0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -125,17 +113,14 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const-string v1, "EXIF"
 
     const-string v3, "cannot read file source exif"
 
-    .line 6
     invoke-static {v1, v3, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -148,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Landroidx/exifinterface/media/ExifInterface;
 
@@ -156,42 +140,36 @@
 
     const-string p0, "Make"
 
-    .line 2
     invoke-virtual {v1, p0}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
     const-string v2, "Model"
 
-    .line 3
     invoke-virtual {v1, v2}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, "Software"
 
-    .line 4
     invoke-virtual {v1, v3}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     const-string v4, "Orientation"
 
-    .line 5
     invoke-virtual {v1, v4}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     const-string v5, "Flash"
 
-    .line 6
     invoke-virtual {v1, v5}, Landroidx/exifinterface/media/ExifInterface;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v5, "cpy"
 
-    .line 7
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -241,15 +219,12 @@
 
     const-string v1, "EXIF"
 
-    .line 8
     invoke-static {v1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const-string p0, "\u65e0\u6cd5\u4fdd\u5b58EXIF"
 
-    .line 9
     invoke-static {v1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -263,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Landroidx/exifinterface/media/ExifInterface;
 
@@ -280,7 +254,6 @@
 
     const-string v2, "cannot read exif"
 
-    .line 2
     invoke-static {v1, v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const/4 v1, 0x0
@@ -292,7 +265,6 @@
 
     const/4 v2, -0x1
 
-    .line 3
     invoke-virtual {v1, p0, v2}, Landroidx/exifinterface/media/ExifInterface;->getAttributeInt(Ljava/lang/String;I)I
 
     move-result p0
@@ -332,7 +304,6 @@
     :goto_1
     const/4 p0, 0x0
 
-    .line 4
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -346,14 +317,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object p2
 
     invoke-static {p0, p1, p2}, Lcom/commsource/util/j0;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -366,16 +335,13 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Landroidx/exifinterface/media/ExifInterface;
 
     invoke-direct {v1, p0}, Landroidx/exifinterface/media/ExifInterface;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1, p1, p2}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1}, Landroidx/exifinterface/media/ExifInterface;->saveAttributes()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -387,15 +353,12 @@
 
     const-string p1, "EXIF"
 
-    .line 4
     invoke-static {p1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const-string p0, "\u65e0\u6cd5\u4fdd\u5b58EXIF"
 
-    .line 5
     invoke-static {p1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -409,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -424,7 +386,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v1, Landroidx/exifinterface/media/ExifInterface;
@@ -433,10 +394,8 @@
 
     const-string p0, "FileSource"
 
-    .line 3
     invoke-virtual {v1, p0, p1}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1}, Landroidx/exifinterface/media/ExifInterface;->saveAttributes()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -450,16 +409,13 @@
 
     const-string v1, "cannot set file source exif"
 
-    .line 5
     invoke-static {p1, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -474,7 +430,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Landroidx/exifinterface/media/ExifInterface;
 
@@ -482,10 +437,8 @@
 
     const-string p0, "ImageDescription"
 
-    .line 2
     invoke-virtual {v1, p0, p1}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1}, Landroidx/exifinterface/media/ExifInterface;->saveAttributes()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -499,10 +452,8 @@
 
     const-string v1, "cannot set exif"
 
-    .line 4
     invoke-static {p1, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -516,13 +467,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Landroidx/exifinterface/media/ExifInterface;
 
     invoke-direct {v1, p0}, Landroidx/exifinterface/media/ExifInterface;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Landroidx/exifinterface/media/ExifInterface;->saveAttributes()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -534,15 +483,12 @@
 
     const-string v1, "EXIF"
 
-    .line 3
     invoke-static {v1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const-string p0, "\u65e0\u6cd5\u4fdd\u5b58EXIF"
 
-    .line 4
     invoke-static {v1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -556,7 +502,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Landroidx/exifinterface/media/ExifInterface;
 
@@ -564,7 +509,6 @@
 
     const-string p0, "Make"
 
-    .line 2
     sget-object v2, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
     invoke-virtual {v2}, Ljava/lang/String;->toString()Ljava/lang/String;
@@ -575,7 +519,6 @@
 
     const-string p0, "Model"
 
-    .line 3
     sget-object v2, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     invoke-virtual {v2}, Ljava/lang/String;->toString()Ljava/lang/String;
@@ -588,10 +531,8 @@
 
     const-string v2, "1"
 
-    .line 4
     invoke-virtual {v1, p0, v2}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v1}, Landroidx/exifinterface/media/ExifInterface;->saveAttributes()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -603,15 +544,12 @@
 
     const-string v1, "EXIF"
 
-    .line 6
     invoke-static {v1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const-string p0, "\u65e0\u6cd5\u4fdd\u5b58EXIF"
 
-    .line 7
     invoke-static {v1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -629,7 +567,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v3, Landroidx/exifinterface/media/ExifInterface;
 
@@ -637,12 +574,10 @@
 
     const/4 p0, -0x1
 
-    .line 2
     invoke-virtual {v3, v1, p0}, Landroidx/exifinterface/media/ExifInterface;->getAttributeInt(Ljava/lang/String;I)I
 
     move-result p0
 
-    .line 3
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -698,7 +633,6 @@
     :pswitch_6
     const/4 p0, 0x2
 
-    .line 4
     :goto_0
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -716,14 +650,12 @@
 
     invoke-static {v0, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p0
 
     invoke-virtual {v3, v1, p0}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v3}, Landroidx/exifinterface/media/ExifInterface;->saveAttributes()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -735,15 +667,12 @@
 
     const-string v0, "EXIF"
 
-    .line 7
     invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const-string p0, "\u65e0\u6cd5\u4fdd\u5b58EXIF"
 
-    .line 8
     invoke-static {v0, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     :goto_1
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -772,7 +701,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Landroidx/exifinterface/media/ExifInterface;
 
@@ -780,14 +708,12 @@
 
     const-string p0, "Orientation"
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {v1, p0, p1}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1}, Landroidx/exifinterface/media/ExifInterface;->saveAttributes()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -801,10 +727,8 @@
 
     const-string v1, "cannot set exif"
 
-    .line 4
     invoke-static {p1, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

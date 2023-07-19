@@ -14,12 +14,10 @@
     :try_start_0
     const-string v1, "gnustl_shared"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     const-string v1, "beautyplusJNI"
 
-    .line 2
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -29,10 +27,8 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -42,7 +38,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,32 +50,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getByteCount()I
 
     move-result v1
 
-    .line 2
     invoke-static {v1}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/graphics/Bitmap;->copyPixelsToBuffer(Ljava/nio/Buffer;)V
 
-    .line 4
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object p0
 
-    .line 5
     array-length v1, p0
 
     div-int/lit8 v1, v1, 0x4
 
     mul-int/lit8 v2, v1, 0x3
 
-    .line 6
     new-array v2, v2, [B
 
     const/4 v3, 0x0
@@ -92,7 +81,6 @@
 
     mul-int/lit8 v5, v3, 0x4
 
-    .line 7
     aget-byte v6, p0, v5
 
     aput-byte v6, v2, v4
@@ -101,7 +89,6 @@
 
     add-int/lit8 v7, v5, 0x1
 
-    .line 8
     aget-byte v7, p0, v7
 
     aput-byte v7, v2, v6
@@ -110,7 +97,6 @@
 
     add-int/lit8 v5, v5, 0x2
 
-    .line 9
     aget-byte v5, p0, v5
 
     aput-byte v5, v2, v4
@@ -119,7 +105,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -133,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -146,7 +130,6 @@
 
     move-result p0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -159,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -172,7 +154,6 @@
 
     move-result p0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -185,24 +166,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v2
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/mtlab/beautyplus/utils/MeituFileUtils;->a(Landroid/graphics/Bitmap;)[B
 
     move-result-object v3
 
     const/4 v4, 0x0
 
-    .line 4
     :try_start_0
     new-instance v5, Ljava/io/FileOutputStream;
 
@@ -212,7 +189,6 @@
 
     invoke-direct {v5, v6}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
 
-    .line 5
     new-instance p0, Ljava/io/BufferedOutputStream;
 
     invoke-direct {p0, v5}, Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
@@ -223,7 +199,6 @@
 
     new-array v7, v7, [Ljava/lang/Object;
 
-    .line 6
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -242,34 +217,27 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Ljava/io/BufferedOutputStream;->write([B)V
 
-    .line 8
     invoke-virtual {p0, v3}, Ljava/io/BufferedOutputStream;->write([B)V
 
-    .line 9
     invoke-virtual {p0}, Ljava/io/BufferedOutputStream;->flush()V
 
-    .line 10
     invoke-virtual {p0}, Ljava/io/BufferedOutputStream;->close()V
 
-    .line 11
     invoke-virtual {v5}, Ljava/io/FileOutputStream;->close()V
 
     if-eqz p1, :cond_0
 
-    .line 12
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->recycle()V
     :try_end_0
     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 13
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -278,10 +246,8 @@
     :catch_0
     move-exception p0
 
-    .line 14
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -289,10 +255,8 @@
     :catch_1
     move-exception p0
 
-    .line 16
     invoke-virtual {p0}, Ljava/io/FileNotFoundException;->printStackTrace()V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4

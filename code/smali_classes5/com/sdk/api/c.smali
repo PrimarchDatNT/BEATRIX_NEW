@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 
     move-object v4, p4
 
-    .line 1
     invoke-static/range {v0 .. v5}, Lcom/sdk/api/c;->b(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/util/Map;)V
 
     return-void
@@ -69,7 +67,6 @@
 
     move-object v5, p5
 
-    .line 1
     invoke-static/range {v0 .. v8}, Lcom/sdk/api/c;->c(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
@@ -95,24 +92,20 @@
         }
     .end annotation
 
-    .line 1
     new-instance v1, Lcom/sdk/imp/internal/loader/Ad;
 
     invoke-direct {v1}, Lcom/sdk/imp/internal/loader/Ad;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     invoke-virtual {v1, v0}, Lcom/sdk/imp/internal/loader/Ad;->setDes(Ljava/lang/String;)V
 
     move v0, p2
 
-    .line 3
     invoke-virtual {v1, p2}, Lcom/sdk/imp/internal/loader/Ad;->setResType(I)V
 
     move-object v0, p1
 
-    .line 4
     invoke-virtual {v1, p1}, Lcom/sdk/imp/internal/loader/Ad;->setPkg(Ljava/lang/String;)V
 
     move-object v0, p0
@@ -129,7 +122,6 @@
 
     move/from16 v7, p8
 
-    .line 5
     invoke-static/range {v0 .. v7}, Lcom/sdk/imp/z/g;->d(Ljava/lang/String;Lcom/sdk/imp/internal/loader/Ad;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void

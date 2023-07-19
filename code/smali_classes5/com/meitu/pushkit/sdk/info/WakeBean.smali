@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,14 +50,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
     if-eqz p0, :cond_3
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v2
@@ -67,7 +64,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -87,23 +83,19 @@
 
     check-cast v2, Lcom/meitu/pushkit/sdk/info/WakeBean;
 
-    .line 4
     iget v3, v2, Lcom/meitu/pushkit/sdk/info/WakeBean;->method:I
 
     if-eq v3, p1, :cond_1
 
-    .line 5
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 7
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

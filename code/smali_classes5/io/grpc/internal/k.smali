@@ -7,7 +7,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/t0$h;-><init>()V
 
     return-void

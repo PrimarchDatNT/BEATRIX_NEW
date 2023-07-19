@@ -36,7 +36,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
@@ -49,19 +48,14 @@
 .method public constructor <init>(FFFF)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/f/b/c/j/g$c;-><init>()V
 
-    .line 2
     iput p1, p0, Lf/f/b/c/j/g$a;->b:F
 
-    .line 3
     iput p2, p0, Lf/f/b/c/j/g$a;->c:F
 
-    .line 4
     iput p3, p0, Lf/f/b/c/j/g$a;->d:F
 
-    .line 5
     iput p4, p0, Lf/f/b/c/j/g$a;->e:F
 
     return-void
@@ -72,16 +66,12 @@
 .method public a(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/j/g$c;->a:Landroid/graphics/Matrix;
 
-    .line 2
     invoke-virtual {p1, v0}, Landroid/graphics/Matrix;->invert(Landroid/graphics/Matrix;)Z
 
-    .line 3
     invoke-virtual {p2, v0}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;)V
 
-    .line 4
     sget-object v0, Lf/f/b/c/j/g$a;->h:Landroid/graphics/RectF;
 
     iget v1, p0, Lf/f/b/c/j/g$a;->b:F
@@ -94,7 +84,6 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 5
     iget v1, p0, Lf/f/b/c/j/g$a;->f:F
 
     iget v2, p0, Lf/f/b/c/j/g$a;->g:F
@@ -103,7 +92,6 @@
 
     invoke-virtual {p2, v0, v1, v2, v3}, Landroid/graphics/Path;->arcTo(Landroid/graphics/RectF;FFZ)V
 
-    .line 6
     invoke-virtual {p2, p1}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;)V
 
     return-void

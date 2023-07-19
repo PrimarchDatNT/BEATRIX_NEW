@@ -29,14 +29,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSource;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
     const/4 v0, 0x0
 
     invoke-direct {p0, p1, v0}, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;-><init>(Lcom/squareup/okhttp/internal/http/Http1xStream;Lcom/squareup/okhttp/internal/http/Http1xStream$1;)V
 
-    .line 2
     iput-wide p2, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSource;->bytesRemaining:J
 
     const-wide/16 v0, 0x0
@@ -45,7 +43,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->endOfInput()V
 
     :cond_0
@@ -62,14 +59,12 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->closed:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-wide v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSource;->bytesRemaining:J
 
@@ -83,20 +78,17 @@
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 3
     invoke-static {p0, v0, v1}, Lcom/squareup/okhttp/internal/Util;->discard(Lokio/Source;ILjava/util/concurrent/TimeUnit;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->unexpectedEndOfInput()V
 
     :cond_1
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->closed:Z
 
     return-void
@@ -116,12 +108,10 @@
 
     if-ltz v2, :cond_4
 
-    .line 1
     iget-boolean v2, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->closed:Z
 
     if-nez v2, :cond_3
 
-    .line 2
     iget-wide v2, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSource;->bytesRemaining:J
 
     const-wide/16 v4, -0x1
@@ -132,7 +122,6 @@
 
     return-wide v4
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSource;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
@@ -154,7 +143,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 4
     iget-wide v2, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSource;->bytesRemaining:J
 
     sub-long/2addr v2, p1
@@ -165,17 +153,14 @@
 
     if-nez p3, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->endOfInput()V
 
     :cond_1
     return-wide p1
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->unexpectedEndOfInput()V
 
-    .line 7
     new-instance p1, Ljava/net/ProtocolException;
 
     const-string p2, "unexpected end of stream"
@@ -184,7 +169,6 @@
 
     throw p1
 
-    .line 8
     :cond_3
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -194,7 +178,6 @@
 
     throw p1
 
-    .line 9
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

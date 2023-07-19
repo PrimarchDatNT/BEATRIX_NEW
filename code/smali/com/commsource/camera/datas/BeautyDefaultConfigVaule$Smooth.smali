@@ -37,7 +37,6 @@
 .method public constructor <init>(Lcom/commsource/camera/datas/BeautyDefaultConfigVaule;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Smooth;->this$0:Lcom/commsource/camera/datas/BeautyDefaultConfigVaule;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Smooth;->alpha:F
 
     const/4 v2, 0x0
@@ -63,7 +61,6 @@
 
     if-gez v3, :cond_0
 
-    .line 2
     iput v2, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Smooth;->alpha:F
 
     goto :goto_0
@@ -79,10 +76,8 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 3
     iput v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Smooth;->alpha:F
 
-    .line 4
     :cond_1
     :goto_0
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Smooth;->alpha:F
@@ -99,10 +94,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Smooth;->alpha:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

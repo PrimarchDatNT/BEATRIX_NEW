@@ -20,7 +20,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/bumptech/glide/c;->d(Landroid/content/Context;)Lcom/bumptech/glide/c;
 
     move-result-object p1
@@ -37,7 +36,6 @@
 .method public constructor <init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/e;)V
     .locals 1
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/f0$f;
 
     invoke-direct {v0}, Lcom/bumptech/glide/load/resource/bitmap/f0$f;-><init>()V

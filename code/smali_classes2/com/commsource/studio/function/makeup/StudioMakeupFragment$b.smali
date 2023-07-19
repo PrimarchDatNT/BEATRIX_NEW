@@ -67,39 +67,32 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$b;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->g2(Ljava/util/List;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$b;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->Q1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 4
     const-class v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupGroupTitleViewHolder;
 
     invoke-virtual {v2, p1, v3}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v2
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$b;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->O1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/g;
@@ -108,7 +101,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/g;->b(Ljava/util/List;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$b;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->T1()Lcom/commsource/studio/function/makeup/StudioMakeupFragment$a;
@@ -117,7 +109,6 @@
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$b;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/BaseSubFragment;->n0()Lcom/commsource/beautyplus/router/RouterEntity;
@@ -126,14 +117,12 @@
 
     if-nez p1, :cond_0
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$b;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     const/4 v1, 0x0
 
     invoke-static {p1, v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->C1(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;Z)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$b;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
@@ -148,7 +137,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_0
     new-instance p1, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$b$a;
 
@@ -156,7 +144,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/g2;->g(Ljava/lang/Runnable;)V
 
-    .line 13
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -171,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$b;->a(Ljava/util/List;)V

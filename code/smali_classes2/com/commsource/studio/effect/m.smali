@@ -78,22 +78,18 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/effect/k;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/commsource/studio/effect/t;->g(I)V
 
-    .line 3
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/effect/m;->j:Landroid/util/SparseArray;
 
-    .line 4
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
@@ -116,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/effect/m;->l:Lcom/commsource/repository/child/makeup/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/effect/m;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -146,7 +140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/m;->l:Lcom/commsource/repository/child/makeup/h;
 
     const/4 v2, 0x1
@@ -166,12 +159,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/effect/m;->j:Landroid/util/SparseArray;
 
@@ -184,7 +175,6 @@
     :goto_0
     if-ge v4, v1, :cond_4
 
-    .line 4
     iget-object v5, p0, Lcom/commsource/studio/effect/m;->j:Landroid/util/SparseArray;
 
     invoke-virtual {v5, v4}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
@@ -193,7 +183,6 @@
 
     check-cast v5, Landroid/util/SparseArray;
 
-    .line 5
     invoke-virtual {v5}, Landroid/util/SparseArray;->size()I
 
     move-result v6
@@ -203,21 +192,18 @@
     :goto_1
     if-ge v7, v6, :cond_3
 
-    .line 6
     invoke-virtual {v5, v7}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v8
 
     check-cast v8, Lcom/commsource/repository/child/makeup/h;
 
-    .line 7
     invoke-virtual {v8, v4}, Lcom/commsource/repository/child/makeup/h;->q(I)I
 
     move-result v8
 
     if-eqz v8, :cond_2
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -232,7 +218,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -258,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/m;->k:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -285,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/m;->j:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -302,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/m;->l:Lcom/commsource/repository/child/makeup/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -328,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/m;->k:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -360,7 +341,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/m;->j:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -381,7 +361,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/m;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -412,14 +391,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/m;->k:Landroid/util/SparseArray;
 
     new-instance v2, Landroid/util/SparseArray;
 
     invoke-direct {v2}, Landroid/util/SparseArray;-><init>()V
 
-    .line 2
     invoke-virtual {p2}, Landroid/util/SparseArray;->size()I
 
     move-result v3
@@ -429,7 +406,6 @@
     :goto_0
     if-ge v4, v3, :cond_1
 
-    .line 3
     invoke-virtual {p2, v4}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v5
@@ -438,7 +414,6 @@
 
     if-ne v5, v6, :cond_0
 
-    .line 4
     invoke-virtual {p2, v4}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -449,7 +424,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-virtual {p2, v4}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
@@ -462,11 +436,9 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {v1, p1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -495,14 +467,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/m;->j:Landroid/util/SparseArray;
 
     new-instance v2, Landroid/util/SparseArray;
 
     invoke-direct {v2}, Landroid/util/SparseArray;-><init>()V
 
-    .line 2
     invoke-virtual {p2}, Landroid/util/SparseArray;->size()I
 
     move-result v3
@@ -514,7 +484,6 @@
     :goto_0
     if-ge v4, v3, :cond_1
 
-    .line 3
     invoke-virtual {p2, v4}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v6
@@ -523,7 +492,6 @@
 
     if-ne v6, v7, :cond_0
 
-    .line 4
     invoke-virtual {p2, v4}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -536,7 +504,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-virtual {p2, v4}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
@@ -549,7 +516,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {v1, p1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -557,10 +523,8 @@
 
     const/4 p1, 0x0
 
-    .line 7
     iput-object p1, p0, Lcom/commsource/studio/effect/m;->l:Lcom/commsource/repository/child/makeup/h;
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

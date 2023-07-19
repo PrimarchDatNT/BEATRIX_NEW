@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$o;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -68,7 +67,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$o;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -87,10 +85,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setWaterEntity(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$o;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -99,7 +95,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->K()V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$o;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->b0()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;
@@ -108,7 +103,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->D(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -122,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$o;->a(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;)V

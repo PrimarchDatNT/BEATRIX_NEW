@@ -25,17 +25,14 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     const/high16 v1, 0x40000000    # 2.0f
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -50,10 +47,8 @@
 
     invoke-virtual {v0, v3, v3, v1, v2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 4
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupPresetItemDecoration;->b:Landroid/graphics/RectF;
 
-    .line 5
     sget-object v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupPresetItemDecoration$paint$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupPresetItemDecoration$paint$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -74,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupPresetItemDecoration;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -113,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupPresetItemDecoration;->b:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -128,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupPresetItemDecoration;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -175,17 +167,14 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->getItemOffsets(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
-    .line 2
     iget-boolean p4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupPresetItemDecoration;->a:Z
 
     const/4 v1, 0x0
 
     if-eqz p4, :cond_1
 
-    .line 3
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
@@ -196,7 +185,6 @@
 
     const/high16 p2, 0x41900000    # 18.0f
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p2
@@ -205,17 +193,14 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p1, v1, v1, v1, v1}, Landroid/graphics/Rect;->set(IIII)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p1, v1, v1, v1, v1}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -253,15 +238,12 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
-    .line 2
     iget-boolean p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupPresetItemDecoration;->a:Z
 
     if-eqz p3, :cond_1
 
-    .line 3
     invoke-virtual {p2}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result p3
@@ -271,12 +253,10 @@
     :goto_0
     if-ge v1, p3, :cond_1
 
-    .line 4
     invoke-virtual {p2, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {p2, v2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result v3
@@ -287,7 +267,6 @@
 
     const-string p2, "child"
 
-    .line 6
     invoke-static {v2, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/view/View;->getRight()I
@@ -302,7 +281,6 @@
 
     add-int/2addr p2, p3
 
-    .line 7
     invoke-virtual {v2}, Landroid/view/View;->getBottom()I
 
     move-result p3
@@ -329,7 +307,6 @@
 
     sub-int/2addr p3, v2
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupPresetItemDecoration;->b:Landroid/graphics/RectF;
 
     int-to-float p2, p2
@@ -364,7 +341,6 @@
 
     invoke-virtual {v2, v4, v5, p2, p3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupPresetItemDecoration;->b:Landroid/graphics/RectF;
 
     const/high16 p3, 0x40000000    # 2.0f
@@ -383,7 +359,6 @@
 
     invoke-virtual {p1, p2, v1, p3, v2}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -393,7 +368,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -91,22 +91,18 @@
 
     const/16 v1, 0x64
 
-    .line 1
     sput v1, Lcom/commsource/camera/xcamera/cover/montage/a;->e:I
 
     const/4 v1, -0x1
 
-    .line 2
     sput v1, Lcom/commsource/camera/xcamera/cover/montage/a;->f:I
 
     const/4 v1, 0x1
 
-    .line 3
     sput v1, Lcom/commsource/camera/xcamera/cover/montage/a;->h:I
 
     const/16 v1, 0xc8
 
-    .line 4
     sput v1, Lcom/commsource/camera/xcamera/cover/montage/a;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -125,24 +121,20 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->a:Landroidx/lifecycle/MutableLiveData;
 
-    .line 3
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->b:Landroidx/lifecycle/MutableLiveData;
 
-    .line 4
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -151,7 +143,6 @@
 
     const/4 p1, 0x1
 
-    .line 5
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->d:Z
 
     return-void
@@ -164,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/cover/montage/a;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -179,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/cover/montage/a;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -194,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/cover/montage/a;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -209,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/cover/montage/a;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -224,7 +211,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance p3, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p3}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -235,12 +221,10 @@
 
     iput-object v0, p3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 2
     new-instance v1, Lcom/commsource/material/download/b/b$b;
 
     invoke-direct {v1}, Lcom/commsource/material/download/b/b$b;-><init>()V
 
-    .line 3
     new-instance v0, Lcom/commsource/material/download/c/d;
 
     iget-object v2, p3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -277,14 +261,12 @@
 
     move-result-object p1
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/montage/a$b;
 
     invoke-direct {v0, p0, p3}, Lcom/commsource/camera/xcamera/cover/montage/a$b;-><init>(Lcom/commsource/camera/xcamera/cover/montage/a;Lcotlin/jvm/internal/Ref$ObjectRef;)V
 
     invoke-virtual {p1, v0}, Lcom/commsource/material/download/b/b$b;->c(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -297,7 +279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/cover/montage/a;->F(Ljava/lang/String;ZI)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -312,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/cover/montage/a;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -329,7 +309,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v0}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -351,7 +330,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/meitu/mtlab/g/g/c;->c()Lcom/meitu/mtlab/g/g/c;
 
     move-result-object v0
@@ -360,10 +338,8 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->d:Z
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->b:Landroidx/lifecycle/MutableLiveData;
 
     sget v1, Lcom/commsource/camera/xcamera/cover/montage/a;->h:I
@@ -374,7 +350,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -400,7 +375,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -426,7 +400,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->c:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -452,7 +425,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -467,7 +439,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -482,7 +453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -525,7 +495,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -550,12 +519,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->c:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->b:Landroidx/lifecycle/MutableLiveData;
 
     sget v2, Lcom/commsource/camera/xcamera/cover/montage/a;->e:I
@@ -568,15 +535,12 @@
 
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->d:Z
 
     const-string v1, "montage_create_photoreq"
 
-    .line 4
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v1
@@ -587,7 +551,6 @@
 
     if-nez v1, :cond_0
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->b:Landroidx/lifecycle/MutableLiveData;
 
     sget p2, Lcom/commsource/camera/xcamera/cover/montage/a;->f:I
@@ -598,12 +561,10 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
 
@@ -611,7 +572,6 @@
 
     if-nez v1, :cond_1
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a;->b:Landroidx/lifecycle/MutableLiveData;
 
     sget p2, Lcom/commsource/camera/xcamera/cover/montage/a;->g:I
@@ -622,12 +582,10 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_1
     new-instance v7, Lcom/commsource/camera/xcamera/cover/montage/a$c;
 
@@ -647,7 +605,6 @@
 
     invoke-static {v7}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

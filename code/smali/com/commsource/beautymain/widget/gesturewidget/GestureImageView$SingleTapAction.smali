@@ -50,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     const-string v2, "NONE"
@@ -61,7 +60,6 @@
 
     sput-object v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    .line 2
     new-instance v2, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     const-string v4, "ZOOM_IN_TO_MAX_SCALE"
@@ -72,7 +70,6 @@
 
     sput-object v2, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->ZOOM_IN_TO_MAX_SCALE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    .line 3
     new-instance v4, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     const-string v6, "ZOOM_OUT_TO_MIN_SCALE"
@@ -83,7 +80,6 @@
 
     sput-object v4, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->ZOOM_OUT_TO_MIN_SCALE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    .line 4
     new-instance v6, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     const-string v8, "ZOOM_IN_STEP_BY_STEP"
@@ -94,7 +90,6 @@
 
     sput-object v6, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->ZOOM_IN_STEP_BY_STEP:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    .line 5
     new-instance v8, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     const-string v10, "ZOOM_OUT_STEP_BY_STEP"
@@ -105,7 +100,6 @@
 
     sput-object v8, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->ZOOM_OUT_STEP_BY_STEP:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    .line 6
     new-instance v10, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     const-string v12, "RESTORE"
@@ -132,7 +126,6 @@
 
     aput-object v10, v12, v13
 
-    .line 7
     sput-object v12, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->$VALUES:[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -148,10 +141,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->mAction:I
 
     return-void
@@ -184,14 +175,12 @@
 
     if-eq p0, v1, :cond_0
 
-    .line 2
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->RESTORE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
@@ -199,7 +188,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->ZOOM_OUT_STEP_BY_STEP:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
@@ -207,7 +195,6 @@
 
     return-object p0
 
-    .line 5
     :cond_2
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->ZOOM_IN_STEP_BY_STEP:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
@@ -215,7 +202,6 @@
 
     return-object p0
 
-    .line 6
     :cond_3
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->ZOOM_OUT_TO_MIN_SCALE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
@@ -223,7 +209,6 @@
 
     return-object p0
 
-    .line 7
     :cond_4
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->ZOOM_IN_TO_MAX_SCALE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
@@ -239,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -260,7 +244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->$VALUES:[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     invoke-virtual {v1}, [Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->clone()Ljava/lang/Object;
@@ -283,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->mAction:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

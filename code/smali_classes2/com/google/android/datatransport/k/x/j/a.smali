@@ -27,22 +27,16 @@
 .method private constructor <init>(JIIJI)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/datatransport/k/x/j/d;-><init>()V
 
-    .line 3
     iput-wide p1, p0, Lcom/google/android/datatransport/k/x/j/a;->g:J
 
-    .line 4
     iput p3, p0, Lcom/google/android/datatransport/k/x/j/a;->h:I
 
-    .line 5
     iput p4, p0, Lcom/google/android/datatransport/k/x/j/a;->i:I
 
-    .line 6
     iput-wide p5, p0, Lcom/google/android/datatransport/k/x/j/a;->j:J
 
-    .line 7
     iput p7, p0, Lcom/google/android/datatransport/k/x/j/a;->k:I
 
     return-void
@@ -51,7 +45,6 @@
 .method synthetic constructor <init>(JIIJILcom/google/android/datatransport/k/x/j/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p7}, Lcom/google/android/datatransport/k/x/j/a;-><init>(JIIJI)V
 
     return-void
@@ -62,7 +55,6 @@
 .method b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/datatransport/k/x/j/a;->i:I
 
     return v0
@@ -71,7 +63,6 @@
 .method c()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/datatransport/k/x/j/a;->j:J
 
     return-wide v0
@@ -80,7 +71,6 @@
 .method d()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/datatransport/k/x/j/a;->h:I
 
     return v0
@@ -89,7 +79,6 @@
 .method e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/datatransport/k/x/j/a;->k:I
 
     return v0
@@ -104,7 +93,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/datatransport/k/x/j/d;
 
@@ -112,10 +100,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/android/datatransport/k/x/j/d;
 
-    .line 3
     iget-wide v3, p0, Lcom/google/android/datatransport/k/x/j/a;->g:J
 
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/x/j/d;->f()J
@@ -128,7 +114,6 @@
 
     iget v1, p0, Lcom/google/android/datatransport/k/x/j/a;->h:I
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/x/j/d;->d()I
 
     move-result v3
@@ -137,7 +122,6 @@
 
     iget v1, p0, Lcom/google/android/datatransport/k/x/j/a;->i:I
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/x/j/d;->b()I
 
     move-result v3
@@ -146,7 +130,6 @@
 
     iget-wide v3, p0, Lcom/google/android/datatransport/k/x/j/a;->j:J
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/x/j/d;->c()J
 
     move-result-wide v5
@@ -157,7 +140,6 @@
 
     iget v1, p0, Lcom/google/android/datatransport/k/x/j/a;->k:I
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/x/j/d;->e()I
 
     move-result p1
@@ -179,7 +161,6 @@
 .method f()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/datatransport/k/x/j/a;->g:J
 
     return-wide v0
@@ -188,7 +169,6 @@
 .method public hashCode()I
     .locals 7
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/datatransport/k/x/j/a;->g:J
 
     const/16 v2, 0x20
@@ -205,21 +185,18 @@
 
     mul-int v1, v1, v0
 
-    .line 2
     iget v3, p0, Lcom/google/android/datatransport/k/x/j/a;->h:I
 
     xor-int/2addr v1, v3
 
     mul-int v1, v1, v0
 
-    .line 3
     iget v3, p0, Lcom/google/android/datatransport/k/x/j/a;->i:I
 
     xor-int/2addr v1, v3
 
     mul-int v1, v1, v0
 
-    .line 4
     iget-wide v3, p0, Lcom/google/android/datatransport/k/x/j/a;->j:J
 
     ushr-long v5, v3, v2
@@ -232,7 +209,6 @@
 
     mul-int v1, v1, v0
 
-    .line 5
     iget v0, p0, Lcom/google/android/datatransport/k/x/j/a;->k:I
 
     xor-int/2addr v0, v1
@@ -243,7 +219,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

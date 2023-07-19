@@ -17,23 +17,18 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/bp;->a:Landroid/os/HandlerThread;
 
-    .line 3
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/bp;->b:Landroid/os/Handler;
 
     const/4 v0, 0x0
 
-    .line 4
     iput v0, p0, Lcom/google/android/gms/internal/ads/bp;->c:I
 
-    .line 5
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +43,6 @@
 .method public final a()Landroid/os/Handler;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bp;->b:Landroid/os/Handler;
 
     return-object v0
@@ -57,28 +51,23 @@
 .method public final b()Landroid/os/Looper;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bp;->d:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget v1, p0, Lcom/google/android/gms/internal/ads/bp;->c:I
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/bp;->a:Landroid/os/HandlerThread;
 
     if-nez v1, :cond_0
 
     const-string v1, "Starting the looper thread."
 
-    .line 4
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
-    .line 5
     new-instance v1, Landroid/os/HandlerThread;
 
     const-string v2, "LooperProvider"
@@ -87,10 +76,8 @@
 
     iput-object v1, p0, Lcom/google/android/gms/internal/ads/bp;->a:Landroid/os/HandlerThread;
 
-    .line 6
     invoke-virtual {v1}, Landroid/os/HandlerThread;->start()V
 
-    .line 7
     new-instance v1, Lcom/google/android/gms/internal/ads/vn1;
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/bp;->a:Landroid/os/HandlerThread;
@@ -105,7 +92,6 @@
 
     const-string v1, "Looper thread started."
 
-    .line 8
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
     goto :goto_0
@@ -113,17 +99,14 @@
     :cond_0
     const-string v1, "Resuming the looper thread"
 
-    .line 9
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
-    .line 10
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/bp;->d:Ljava/lang/Object;
 
     invoke-virtual {v1}, Ljava/lang/Object;->notifyAll()V
 
     goto :goto_0
 
-    .line 11
     :cond_1
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/bp;->a:Landroid/os/HandlerThread;
 
@@ -131,7 +114,6 @@
 
     invoke-static {v1, v2}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     :goto_0
     iget v1, p0, Lcom/google/android/gms/internal/ads/bp;->c:I
 
@@ -139,7 +121,6 @@
 
     iput v1, p0, Lcom/google/android/gms/internal/ads/bp;->c:I
 
-    .line 13
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/bp;->a:Landroid/os/HandlerThread;
 
     invoke-virtual {v1}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
@@ -153,7 +134,6 @@
     :catchall_0
     move-exception v1
 
-    .line 14
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

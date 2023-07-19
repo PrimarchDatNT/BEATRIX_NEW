@@ -24,15 +24,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "baggage-"
 
-    .line 2
     iput-object v0, p0, Lio/jaegertracing/a/l/a$b;->a:Ljava/lang/String;
 
-    .line 3
     new-instance v0, Lio/jaegertracing/a/b;
 
     invoke-direct {v0}, Lio/jaegertracing/a/b;-><init>()V
@@ -45,7 +42,6 @@
 .method static synthetic a(Lio/jaegertracing/a/l/a$b;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/a/l/a$b;->a:Ljava/lang/String;
 
     return-object p0
@@ -54,7 +50,6 @@
 .method static synthetic b(Lio/jaegertracing/a/l/a$b;)Lio/jaegertracing/a/b;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/a/l/a$b;->b:Lio/jaegertracing/a/b;
 
     return-object p0
@@ -65,7 +60,6 @@
 .method public c()Lio/jaegertracing/a/l/a;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/jaegertracing/a/l/a;
 
     const/4 v1, 0x0
@@ -78,7 +72,6 @@
 .method public d(Ljava/lang/String;)Lio/jaegertracing/a/l/a$b;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/a/l/a$b;->a:Ljava/lang/String;
 
     return-object p0
@@ -87,7 +80,6 @@
 .method public e(Lio/jaegertracing/a/b;)Lio/jaegertracing/a/l/a$b;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/a/l/a$b;->b:Lio/jaegertracing/a/b;
 
     return-object p0

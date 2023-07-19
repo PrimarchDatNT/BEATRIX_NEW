@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/billing/activity/ProActivity;
@@ -37,16 +35,12 @@
 
     const-string v2, "SubSource"
 
-    .line 2
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 4
     invoke-static {p0}, Lcom/commsource/util/h2;->c(Landroid/app/Activity;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -59,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/billing/activity/ProActivity;
@@ -68,21 +61,16 @@
 
     const-string v2, "SubSource"
 
-    .line 2
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string p1, "DEEP_LINK"
 
-    .line 3
     invoke-virtual {v1, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 5
     invoke-static {p0}, Lcom/commsource/util/h2;->c(Landroid/app/Activity;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -95,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/billing/activity/ProActivity;
@@ -104,16 +91,12 @@
 
     const-string v2, "SubSource"
 
-    .line 2
     invoke-virtual {v1, v2, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     invoke-virtual {p0, v1, p1}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 4
     invoke-static {p0}, Lcom/commsource/util/h2;->c(Landroid/app/Activity;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -128,10 +111,8 @@
 
     const/16 v1, 0x23
 
-    .line 1
     invoke-static {p0, v1, p1}, Lcom/commsource/billing/activity/c;->c(Landroid/app/Activity;ILjava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

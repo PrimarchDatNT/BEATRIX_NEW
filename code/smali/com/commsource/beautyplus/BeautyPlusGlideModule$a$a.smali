@@ -27,7 +27,6 @@
 .method constructor <init>(Ljava/lang/String;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/BeautyPlusGlideModule$a$a;->a:Ljava/lang/String;
 
     iput-object p2, p0, Lcom/commsource/beautyplus/BeautyPlusGlideModule$a$a;->b:Landroid/content/Context;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/BeautyPlusGlideModule$a$a;->a:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/BeautyPlusGlideModule$a;->a(Ljava/lang/String;)Ljava/io/File;
@@ -55,19 +53,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/BeautyPlusGlideModule$a$a;->b:Landroid/content/Context;
 
@@ -79,18 +74,15 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 6
     :cond_1
     iget-object v2, p0, Lcom/commsource/beautyplus/BeautyPlusGlideModule$a$a;->a:Ljava/lang/String;
 
     if-eqz v2, :cond_2
 
-    .line 7
     new-instance v2, Ljava/io/File;
 
     iget-object v3, p0, Lcom/commsource/beautyplus/BeautyPlusGlideModule$a$a;->a:Ljava/lang/String;
@@ -101,7 +93,6 @@
 
     return-object v2
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

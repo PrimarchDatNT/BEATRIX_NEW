@@ -30,7 +30,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/e/g/c$b;
 
     const/4 v1, 0x0
@@ -45,13 +44,10 @@
 .method constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/firebase/crashlytics/e/g/c$b;->a:I
 
-    .line 3
     iput p2, p0, Lcom/google/firebase/crashlytics/e/g/c$b;->b:I
 
     return-void
@@ -62,7 +58,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

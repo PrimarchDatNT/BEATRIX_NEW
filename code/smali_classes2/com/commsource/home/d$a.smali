@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/home/d$a;-><init>()V
 
     return-void
@@ -61,7 +59,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/home/entity/i;
 
     const-string v2, "\u5916\u94feURL"
@@ -80,7 +77,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/home/entity/ContentModule;->getId()Ljava/lang/Integer;
 
     move-result-object p2
@@ -102,7 +98,6 @@
 
     goto/16 :goto_8
 
-    .line 3
     :cond_1
     :goto_0
     check-cast p1, Lcom/commsource/home/entity/i;
@@ -119,13 +114,11 @@
 
     goto/16 :goto_7
 
-    .line 4
     :cond_2
     instance-of v1, p1, Lcom/commsource/home/entity/c;
 
     if-eqz v1, :cond_e
 
-    .line 5
     check-cast p1, Lcom/commsource/home/entity/c;
 
     invoke-virtual {p1}, Lcom/commsource/home/entity/c;->h()Ljava/lang/Integer;
@@ -136,7 +129,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_3
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -155,7 +147,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_6
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -174,7 +165,6 @@
 
     goto :goto_3
 
-    .line 8
     :cond_9
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -194,7 +184,6 @@
 
     goto :goto_4
 
-    .line 9
     :cond_b
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -210,7 +199,6 @@
 
     goto :goto_7
 
-    .line 10
     :cond_d
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -224,13 +212,11 @@
 
     goto :goto_8
 
-    .line 11
     :cond_e
     instance-of p1, p1, Lcom/commsource/home/entity/g;
 
     if-eqz p1, :cond_13
 
-    .line 12
     invoke-virtual {p2}, Lcom/commsource/home/entity/ContentModule;->getId()Ljava/lang/Integer;
 
     move-result-object p1
@@ -252,7 +238,6 @@
 
     goto :goto_8
 
-    .line 13
     :cond_10
     :goto_5
     invoke-virtual {p2}, Lcom/commsource/home/entity/ContentModule;->getMaterialType()I
@@ -282,7 +267,6 @@
     :goto_7
     move-object v2, v8
 
-    .line 14
     :cond_14
     :goto_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -307,7 +291,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/home/entity/ContentModule;->getType()Ljava/lang/Integer;
 
     move-result-object p1
@@ -316,7 +299,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -338,7 +320,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_2
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -360,7 +341,6 @@
 
     goto :goto_2
 
-    .line 4
     :cond_4
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -382,7 +362,6 @@
 
     goto :goto_3
 
-    .line 5
     :cond_6
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -398,7 +377,6 @@
 
     return-object p1
 
-    .line 6
     :cond_7
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

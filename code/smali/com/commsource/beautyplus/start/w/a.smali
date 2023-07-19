@@ -25,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/base/b/a;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/start/w/a$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/start/w/a;->g(Lcom/commsource/beautyplus/start/w/a$a;)V
@@ -57,12 +55,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/beautyplus/start/w/a$a;->b()Z
 
     move-result v2
@@ -71,21 +67,18 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v1}, Lf/d/i/e;->j4(Landroid/content/Context;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     new-instance p1, Lf/d/l/a;
 
     invoke-direct {p1}, Lf/d/l/a;-><init>()V
 
     invoke-virtual {p1, v1}, Lf/d/l/a;->i(Landroid/content/Context;)V
 
-    .line 5
     invoke-static {}, Lcom/commsource/statistics/n;->a()Lcom/commsource/statistics/n;
 
     move-result-object p1
@@ -94,14 +87,12 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/statistics/n;->i(J)V
 
-    .line 6
     invoke-static {}, Lcom/commsource/statistics/n;->a()Lcom/commsource/statistics/n;
 
     move-result-object p1
 
     invoke-virtual {p1, v3}, Lcom/commsource/statistics/n;->h(Z)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/beautyplus/base/b/a;->c()Lcom/commsource/beautyplus/base/b/a$c;
 
     move-result-object p1
@@ -114,7 +105,6 @@
 
     invoke-interface {p1, v1}, Lcom/commsource/beautyplus/base/b/a$c;->a(Ljava/lang/Integer;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -122,10 +112,8 @@
     :cond_0
     const-string v2, "bp_app_start"
 
-    .line 9
     invoke-static {v2}, Lf/d/i/e;->Y1(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {}, Lcom/commsource/beautyplus/k;->d()Lcom/commsource/beautyplus/k;
 
     move-result-object v2
@@ -136,7 +124,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 11
     invoke-virtual {v2}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v4
@@ -148,30 +135,24 @@
     :cond_1
     const-string v4, "ad_start_page_show"
 
-    .line 12
     invoke-static {v4}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     const/4 v5, 0x0
 
-    .line 13
     invoke-static {v1, v4, v5}, Lcom/commsource/statistics/m;->j(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 14
     new-instance v4, Lcom/commsource/beautyplus/start/v;
 
     invoke-direct {v4}, Lcom/commsource/beautyplus/start/v;-><init>()V
 
-    .line 15
     invoke-virtual {p1}, Lcom/commsource/beautyplus/start/w/a$a;->c()Z
 
     move-result p1
 
     invoke-virtual {v4, v2, p1}, Lcom/commsource/beautyplus/start/v;->f(Landroid/app/Activity;Z)V
 
-    .line 16
     invoke-static {}, Lcom/commsource/camera/z0/e;->N()V
 
-    .line 17
     invoke-virtual {v4}, Lcom/commsource/beautyplus/start/v;->h()Z
 
     move-result p1
@@ -180,7 +161,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->ad_slot_launch_ad:I
 
-    .line 18
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -191,7 +171,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 19
     invoke-virtual {p0}, Lcom/commsource/beautyplus/base/b/a;->b()Lcom/commsource/beautyplus/base/b/a$a;
 
     move-result-object p1
@@ -204,7 +183,6 @@
 
     if-nez p1, :cond_3
 
-    .line 20
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result p1
@@ -219,7 +197,6 @@
 
     goto :goto_0
 
-    .line 21
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/base/b/a;->c()Lcom/commsource/beautyplus/base/b/a$c;
 
@@ -233,7 +210,6 @@
 
     goto :goto_1
 
-    .line 22
     :cond_3
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/beautyplus/base/b/a;->c()Lcom/commsource/beautyplus/base/b/a$c;
@@ -248,13 +224,11 @@
 
     invoke-interface {p1, v1}, Lcom/commsource/beautyplus/base/b/a$c;->a(Ljava/lang/Integer;)V
 
-    .line 23
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 24
     :cond_4
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

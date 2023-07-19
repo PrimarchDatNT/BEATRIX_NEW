@@ -41,7 +41,6 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    .line 1
     sput-object v0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->p:[Ljava/lang/String;
 
     const/4 v0, 0x0
@@ -53,7 +52,6 @@
 
     if-gt v1, v2, :cond_0
 
-    .line 2
     sget-object v2, Lcom/airbnb/lottie/parser/moshi/JsonReader;->p:[Ljava/lang/String;
 
     const/4 v3, 0x1
@@ -78,7 +76,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->p:[Ljava/lang/String;
 
@@ -92,42 +89,36 @@
 
     const-string v2, "\\\\"
 
-    .line 4
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
     const-string v2, "\\t"
 
-    .line 5
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
     const-string v2, "\\b"
 
-    .line 6
     aput-object v2, v0, v1
 
     const/16 v1, 0xa
 
     const-string v2, "\\n"
 
-    .line 7
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
     const-string v2, "\\r"
 
-    .line 8
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
     const-string v2, "\\f"
 
-    .line 9
     aput-object v2, v0, v1
 
     return-void
@@ -136,24 +127,20 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x20
 
     new-array v1, v0, [I
 
-    .line 2
     iput-object v1, p0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b:[I
 
     new-array v1, v0, [Ljava/lang/String;
 
-    .line 3
     iput-object v1, p0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->c:[Ljava/lang/String;
 
     new-array v0, v0, [I
 
-    .line 4
     iput-object v0, p0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->d:[I
 
     return-void
@@ -167,7 +154,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->r(Lokio/BufferedSink;Ljava/lang/String;)V
 
     return-void
@@ -176,7 +162,6 @@
 .method public static l(Lokio/BufferedSource;)Lcom/airbnb/lottie/parser/moshi/JsonReader;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/parser/moshi/b;
 
     invoke-direct {v0, p0}, Lcom/airbnb/lottie/parser/moshi/b;-><init>(Lokio/BufferedSource;)V
@@ -192,15 +177,12 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->p:[Ljava/lang/String;
 
     const/16 v1, 0x22
 
-    .line 2
     invoke-interface {p0, v1}, Lokio/BufferedSink;->writeByte(I)Lokio/BufferedSink;
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -212,7 +194,6 @@
     :goto_0
     if-ge v3, v2, :cond_5
 
-    .line 4
     invoke-virtual {p1, v3}, Ljava/lang/String;->charAt(I)C
 
     move-result v5
@@ -221,7 +202,6 @@
 
     if-ge v5, v6, :cond_0
 
-    .line 5
     aget-object v5, v0, v5
 
     if-nez v5, :cond_2
@@ -248,10 +228,8 @@
     :goto_1
     if-ge v4, v3, :cond_3
 
-    .line 6
     invoke-interface {p0, p1, v4, v3}, Lokio/BufferedSink;->writeUtf8(Ljava/lang/String;II)Lokio/BufferedSink;
 
-    .line 7
     :cond_3
     invoke-interface {p0, v5}, Lokio/BufferedSink;->writeUtf8(Ljava/lang/String;)Lokio/BufferedSink;
 
@@ -266,10 +244,8 @@
     :cond_5
     if-ge v4, v2, :cond_6
 
-    .line 8
     invoke-interface {p0, p1, v4, v2}, Lokio/BufferedSink;->writeUtf8(Ljava/lang/String;II)Lokio/BufferedSink;
 
-    .line 9
     :cond_6
     invoke-interface {p0, v1}, Lokio/BufferedSink;->writeByte(I)Lokio/BufferedSink;
 
@@ -329,7 +305,6 @@
 .method public final getPath()Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget v0, p0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->a:I
 
     iget-object v1, p0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b:[I
@@ -388,7 +363,6 @@
 .method final n(I)V
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->a:I
 
     iget-object v1, p0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b:[I
@@ -401,7 +375,6 @@
 
     if-eq v0, v2, :cond_0
 
-    .line 2
     array-length v0, v1
 
     mul-int/lit8 v0, v0, 0x2
@@ -412,7 +385,6 @@
 
     iput-object v0, p0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b:[I
 
-    .line 3
     iget-object v0, p0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->c:[Ljava/lang/String;
 
     array-length v1, v0
@@ -427,7 +399,6 @@
 
     iput-object v0, p0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->c:[Ljava/lang/String;
 
-    .line 4
     iget-object v0, p0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->d:[I
 
     array-length v1, v0
@@ -442,7 +413,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance p1, Lcom/airbnb/lottie/parser/moshi/JsonDataException;
 
@@ -468,7 +438,6 @@
 
     throw p1
 
-    .line 6
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b:[I
@@ -516,7 +485,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/parser/moshi/JsonEncodingException;
 
     new-instance v1, Ljava/lang/StringBuilder;

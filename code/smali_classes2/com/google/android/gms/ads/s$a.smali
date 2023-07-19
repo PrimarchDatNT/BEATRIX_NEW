@@ -36,23 +36,18 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/google/android/gms/ads/s$a;->a:I
 
-    .line 3
     iput v0, p0, Lcom/google/android/gms/ads/s$a;->b:I
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/google/android/gms/ads/s$a;->c:Ljava/lang/String;
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -67,7 +62,6 @@
 .method public a()Lcom/google/android/gms/ads/s;
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/google/android/gms/ads/s;
 
     iget v1, p0, Lcom/google/android/gms/ads/s$a;->a:I
@@ -94,7 +88,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -106,7 +99,6 @@
     :cond_0
     const-string v0, "G"
 
-    .line 2
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -115,7 +107,6 @@
 
     const-string v0, "PG"
 
-    .line 3
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -124,7 +115,6 @@
 
     const-string v0, "T"
 
-    .line 4
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -133,7 +123,6 @@
 
     const-string v0, "MA"
 
-    .line 5
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -145,7 +134,6 @@
     :cond_1
     const-string v0, "Invalid value passed to setMaxAdContentRating: "
 
-    .line 6
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -172,7 +160,6 @@
 
     goto :goto_3
 
-    .line 7
     :cond_3
     :goto_1
     iput-object p1, p0, Lcom/google/android/gms/ads/s$a;->c:Ljava/lang/String;
@@ -183,7 +170,6 @@
     :goto_2
     const/4 p1, 0x0
 
-    .line 8
     iput-object p1, p0, Lcom/google/android/gms/ads/s$a;->c:Ljava/lang/String;
 
     :goto_3
@@ -208,7 +194,6 @@
     :cond_0
     const/16 v0, 0x44
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -227,7 +212,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     :goto_0
     iput p1, p0, Lcom/google/android/gms/ads/s$a;->a:I
@@ -254,7 +238,6 @@
     :cond_0
     const/16 v0, 0x3f
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -273,7 +256,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     :goto_0
     iput p1, p0, Lcom/google/android/gms/ads/s$a;->b:I
@@ -298,14 +280,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/s$a;->d:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/ads/s$a;->d:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z

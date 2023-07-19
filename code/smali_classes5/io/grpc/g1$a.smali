@@ -85,7 +85,6 @@
 
     aput-object p4, p3, p1
 
-    .line 1
     invoke-direct {p0, v1, p3}, Lio/grpc/g1$a;-><init>([Ljava/lang/Object;[Ljava/lang/Object;)V
 
     return-void
@@ -99,13 +98,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lio/grpc/g1$a;->a:[Ljava/lang/Object;
 
-    .line 4
     iput-object p2, p0, Lio/grpc/g1$a;->b:[Ljava/lang/Object;
 
     return-void
@@ -121,7 +117,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     iget-object v1, p0, Lio/grpc/g1$a;->a:[Ljava/lang/Object;
 
@@ -129,7 +124,6 @@
 
     if-ge v0, v2, :cond_1
 
-    .line 2
     aget-object v1, v1, v0
 
     if-ne v1, p1, :cond_0
@@ -159,7 +153,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :goto_0
     iget-object p3, p0, Lio/grpc/g1$a;->a:[Ljava/lang/Object;
 
@@ -167,12 +160,10 @@
 
     if-ge p2, v0, :cond_1
 
-    .line 2
     aget-object p3, p3, p2
 
     if-ne p3, p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lio/grpc/g1$a;->b:[Ljava/lang/Object;
 
     aget-object p1, p1, p2
@@ -200,7 +191,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/g1$a;->a:[Ljava/lang/Object;
 
     const/4 v1, 0x0
@@ -213,7 +203,6 @@
 
     if-eq v0, p3, :cond_0
 
-    .line 2
     new-instance v1, Lio/grpc/g1$c;
 
     invoke-direct {v1, p1, p2}, Lio/grpc/g1$c;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -224,7 +213,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-direct {p0, p1}, Lio/grpc/g1$a;->c(Ljava/lang/Object;)I
 
@@ -234,7 +222,6 @@
 
     if-eq p3, p4, :cond_1
 
-    .line 4
     iget-object p4, p0, Lio/grpc/g1$a;->a:[Ljava/lang/Object;
 
     array-length v0, p4
@@ -243,7 +230,6 @@
 
     move-result-object p4
 
-    .line 5
     iget-object v0, p0, Lio/grpc/g1$a;->b:[Ljava/lang/Object;
 
     iget-object v1, p0, Lio/grpc/g1$a;->a:[Ljava/lang/Object;
@@ -254,20 +240,16 @@
 
     move-result-object v0
 
-    .line 6
     aput-object p1, p4, p3
 
-    .line 7
     aput-object p2, v0, p3
 
-    .line 8
     new-instance p1, Lio/grpc/g1$a;
 
     invoke-direct {p1, p4, v0}, Lio/grpc/g1$a;-><init>([Ljava/lang/Object;[Ljava/lang/Object;)V
 
     return-object p1
 
-    .line 9
     :cond_1
     iget-object p3, p0, Lio/grpc/g1$a;->a:[Ljava/lang/Object;
 
@@ -279,7 +261,6 @@
 
     move-result-object p3
 
-    .line 10
     iget-object p4, p0, Lio/grpc/g1$a;->b:[Ljava/lang/Object;
 
     iget-object v0, p0, Lio/grpc/g1$a;->a:[Ljava/lang/Object;
@@ -292,19 +273,16 @@
 
     move-result-object p4
 
-    .line 11
     iget-object v0, p0, Lio/grpc/g1$a;->a:[Ljava/lang/Object;
 
     array-length v1, v0
 
     aput-object p1, p3, v1
 
-    .line 12
     array-length p1, v0
 
     aput-object p2, p4, p1
 
-    .line 13
     new-instance p1, Lio/grpc/g1$a;
 
     invoke-direct {p1, p3, p4}, Lio/grpc/g1$a;-><init>([Ljava/lang/Object;[Ljava/lang/Object;)V
@@ -315,7 +293,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/g1$a;->b:[Ljava/lang/Object;
 
     array-length v0, v0
@@ -326,19 +303,16 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v1, "CollisionLeaf("
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     iget-object v2, p0, Lio/grpc/g1$a;->b:[Ljava/lang/Object;
 
@@ -348,7 +322,6 @@
 
     const-string v2, "(key="
 
-    .line 4
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v2, p0, Lio/grpc/g1$a;->a:[Ljava/lang/Object;
@@ -378,7 +351,6 @@
     :cond_0
     const-string v1, ")"
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;

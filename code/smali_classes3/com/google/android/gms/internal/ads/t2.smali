@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.gms.ads.internal.formats.client.INativeAdImage"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/l82;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -30,22 +29,18 @@
     :cond_0
     const-string v0, "com.google.android.gms.ads.internal.formats.client.INativeAdImage"
 
-    .line 1
     invoke-interface {p0, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcom/google/android/gms/internal/ads/u2;
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v0, Lcom/google/android/gms/internal/ads/u2;
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/ads/w2;
 
@@ -88,72 +83,57 @@
 
     return p1
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/u2;->getHeight()I
 
     move-result p1
 
-    .line 2
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
-    .line 3
     invoke-virtual {p3, p1}, Landroid/os/Parcel;->writeInt(I)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/u2;->getWidth()I
 
     move-result p1
 
-    .line 5
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
-    .line 6
     invoke-virtual {p3, p1}, Landroid/os/Parcel;->writeInt(I)V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/u2;->B1()D
 
     move-result-wide v0
 
-    .line 8
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
-    .line 9
     invoke-virtual {p3, v0, v1}, Landroid/os/Parcel;->writeDouble(D)V
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/u2;->getUri()Landroid/net/Uri;
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
-    .line 12
     invoke-static {p3, p1}, Lcom/google/android/gms/internal/ads/o82;->g(Landroid/os/Parcel;Landroid/os/Parcelable;)V
 
     goto :goto_0
 
-    .line 13
     :cond_4
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/u2;->H2()Lcom/google/android/gms/dynamic/d;
 
     move-result-object p1
 
-    .line 14
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
-    .line 15
     invoke-static {p3, p1}, Lcom/google/android/gms/internal/ads/o82;->c(Landroid/os/Parcel;Landroid/os/IInterface;)V
 
     :goto_0

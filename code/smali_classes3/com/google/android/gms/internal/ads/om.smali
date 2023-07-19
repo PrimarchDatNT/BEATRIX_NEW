@@ -23,10 +23,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/rm;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/rm;-><init>(Lcom/google/android/gms/internal/ads/om;)V
@@ -35,7 +33,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/om;->c:Z
 
     return-void
@@ -44,7 +41,6 @@
 .method static synthetic a(Lcom/google/android/gms/internal/ads/om;Ljava/lang/Thread;)Ljava/lang/Thread;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/om;->b:Ljava/lang/Thread;
 
     return-object p1
@@ -65,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/dq;->b:Lcom/google/android/gms/internal/ads/uq1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/om;->a:Ljava/lang/Runnable;

@@ -34,7 +34,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -49,7 +48,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -62,25 +60,20 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const p1, 0x3f5851ec    # 0.845f
 
-    .line 4
     iput p1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->c:F
 
     const p1, 0x3e4ccccd    # 0.2f
 
-    .line 5
     iput p1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->d:F
 
     const/4 p1, -0x1
 
-    .line 6
     iput p1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->f:I
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->f()V
 
     return-void
@@ -93,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->a:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -108,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getRight()I
 
     move-result v1
@@ -141,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getLeft()I
 
     move-result v1
@@ -176,7 +166,6 @@
 
     mul-float v1, v1, v2
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result p1
@@ -185,7 +174,6 @@
 
     div-float/2addr v1, p1
 
-    .line 3
     invoke-static {v1, v2}, Ljava/lang/Math;->min(FF)F
 
     move-result p1
@@ -202,19 +190,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->b:Ljava/lang/Runnable;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$a;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$a;-><init>(Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;I)V
 
     iput-object v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->b:Ljava/lang/Runnable;
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->b:Ljava/lang/Runnable;
 
@@ -230,14 +215,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$c;
 
     invoke-direct {v1}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$c;-><init>()V
 
     invoke-virtual {p0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -250,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v1
@@ -259,7 +241,6 @@
 
     if-lez v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object v1
@@ -270,7 +251,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/View;->getLeft()I
 
     move-result v1
@@ -291,7 +271,6 @@
 
     div-float/2addr p1, v3
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getWidth()I
 
     move-result v4
@@ -319,7 +298,6 @@
 
     return v2
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -335,7 +313,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->g:I
 
     const/4 v2, 0x1
@@ -348,16 +325,13 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -374,7 +348,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->d(Landroid/view/View;)F
 
     move-result v1
@@ -387,28 +360,22 @@
 
     if-gez v6, :cond_0
 
-    .line 2
     invoke-virtual {p0, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result v2
 
-    .line 3
     iget v3, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->f:I
 
     if-eq v2, v3, :cond_0
 
-    .line 4
     iput v2, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->f:I
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->p:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$b;
 
     if-eqz v3, :cond_0
 
-    .line 6
     invoke-interface {v3, v2}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$b;->a(I)V
 
-    .line 7
     :cond_0
     iget v2, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->c:F
 
@@ -420,7 +387,6 @@
 
     sub-float v2, v3, v2
 
-    .line 8
     iget v4, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->d:F
 
     sub-float v4, v3, v4
@@ -429,7 +395,6 @@
 
     sub-float/2addr v3, v4
 
-    .line 9
     invoke-virtual {p2}, Landroid/view/View;->getLeft()I
 
     move-result v1
@@ -452,7 +417,6 @@
 
     if-gt v1, v4, :cond_1
 
-    .line 10
     invoke-virtual {p2}, Landroid/view/View;->getWidth()I
 
     move-result v1
@@ -466,10 +430,8 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 11
     invoke-virtual {p2, v1}, Landroid/view/View;->setPivotX(F)V
 
-    .line 12
     :goto_0
     invoke-virtual {p2}, Landroid/view/View;->getHeight()I
 
@@ -481,16 +443,12 @@
 
     invoke-virtual {p2, v1}, Landroid/view/View;->setPivotY(F)V
 
-    .line 13
     invoke-virtual {p2, v2}, Landroid/view/View;->setScaleY(F)V
 
-    .line 14
     invoke-virtual {p2, v2}, Landroid/view/View;->setScaleX(F)V
 
-    .line 15
     invoke-virtual {p2, v3}, Landroid/view/View;->setAlpha(F)V
 
-    .line 16
     invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView;->drawChild(Landroid/graphics/Canvas;Landroid/view/View;J)Z
 
     move-result p1
@@ -502,7 +460,6 @@
     :cond_2
     const/4 p1, 0x0
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -515,7 +472,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Math;->abs(I)I
 
     move-result v0
@@ -526,15 +482,12 @@
 
     if-le v0, v2, :cond_5
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->i()V
 
     const/16 v0, 0xbb8
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->h(I)V
 
-    .line 4
     iget v0, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->f:I
 
     const/4 v2, 0x1
@@ -551,7 +504,6 @@
     :goto_0
     add-int/2addr v0, v3
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->getTotalItemCount()I
 
     move-result v3
@@ -568,7 +520,6 @@
 
     const/4 v4, 0x0
 
-    .line 6
     :goto_1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
@@ -576,12 +527,10 @@
 
     if-ge v4, v5, :cond_4
 
-    .line 7
     invoke-virtual {p0, v4}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v5
 
-    .line 8
     invoke-direct {p0, v5}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->c(Landroid/view/View;)I
 
     move-result v6
@@ -608,14 +557,12 @@
     :goto_3
     if-ne v7, v8, :cond_3
 
-    .line 9
     invoke-static {v6}, Ljava/lang/Math;->abs(I)I
 
     move-result v7
 
     if-le v3, v7, :cond_3
 
-    .line 10
     invoke-virtual {p0, v5}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result v0
@@ -627,16 +574,13 @@
 
     goto :goto_1
 
-    .line 11
     :cond_4
     invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 12
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 13
     :cond_5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -650,7 +594,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -665,7 +608,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object v1
@@ -686,19 +628,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->a:Landroid/os/Handler;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/os/Handler;
 
     invoke-direct {v1}, Landroid/os/Handler;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->a:Landroid/os/Handler;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->a:Landroid/os/Handler;
 
@@ -706,7 +645,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->a:Landroid/os/Handler;
 
     invoke-direct {p0, p1}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->e(I)Ljava/lang/Runnable;
@@ -717,7 +655,6 @@
 
     invoke-virtual {v1, v2, v3, v4}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -730,17 +667,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->a:Landroid/os/Handler;
 
     if-eqz v1, :cond_0
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -754,12 +688,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->onScrollStateChanged(I)V
 
     if-nez p1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->g:I
 
     const/4 v2, 0x1
@@ -774,16 +706,13 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->f:I
 
     invoke-virtual {p0, v1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 4
     :cond_0
     iput p1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->g:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -796,10 +725,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->d:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -812,10 +739,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->c:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -828,10 +753,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->p:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -844,7 +767,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

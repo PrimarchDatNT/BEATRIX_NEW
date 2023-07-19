@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/d;->h:Lcom/commsource/studio/doodle/d;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/d;->a(Lcom/commsource/studio/doodle/d;)Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -53,7 +52,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

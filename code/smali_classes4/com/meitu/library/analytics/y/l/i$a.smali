@@ -33,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/y/l/i$a;->a()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -44,7 +43,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/y/l/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/y/l/i$a;->a:Lcom/meitu/library/analytics/y/l/i;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -59,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/library/analytics/y/l/i$a;
@@ -110,7 +107,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -134,12 +130,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/analytics/y/l/i$a;->a:Lcom/meitu/library/analytics/y/l/i;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/meitu/library/analytics/y/l/i$a;->a:Lcom/meitu/library/analytics/y/l/i;
 
@@ -160,7 +154,6 @@
 
     move-result-object v2
 
-    .line 3
     sget-object v3, Lcom/meitu/library/analytics/y/l/i$a;->b:Lorg/aspectj/lang/c$b;
 
     invoke-static {v3, p0, p2, v2, p3}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -209,7 +202,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     monitor-exit v0
     :try_end_0
@@ -217,7 +209,6 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
@@ -225,7 +216,6 @@
     :catchall_0
     move-exception p2
 
-    .line 6
     :try_start_1
     monitor-exit v0
     :try_end_1

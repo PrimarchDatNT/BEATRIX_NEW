@@ -23,13 +23,10 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, v0}, Lcotlinx/coroutines/JobSupport;-><init>(Z)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/JobSupport;->G0(Lcotlinx/coroutines/c2;)V
 
-    .line 3
     invoke-direct {p0}, Lcotlinx/coroutines/e2;->p1()Z
 
     move-result p1
@@ -42,7 +39,6 @@
 .method private final p1()Z
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/JobSupport;->C0()Lcotlinx/coroutines/s;
 
     move-result-object v0
@@ -68,7 +64,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 2
     :goto_0
     invoke-virtual {v0}, Lcotlinx/coroutines/JobSupport;->z0()Z
 
@@ -80,7 +75,6 @@
 
     return v0
 
-    .line 3
     :cond_1
     invoke-virtual {v0}, Lcotlinx/coroutines/JobSupport;->C0()Lcotlinx/coroutines/s;
 
@@ -122,7 +116,6 @@
 .method public complete()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-virtual {p0, v0}, Lcotlinx/coroutines/JobSupport;->O0(Ljava/lang/Object;)Z
@@ -139,7 +132,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/z;
 
     const/4 v1, 0x0
@@ -160,7 +152,6 @@
 .method public z0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcotlinx/coroutines/e2;->b:Z
 
     return v0

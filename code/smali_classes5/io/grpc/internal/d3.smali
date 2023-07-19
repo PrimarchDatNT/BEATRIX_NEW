@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/internal/d3$a;
 
     invoke-direct {v0}, Lio/grpc/internal/d3$a;-><init>()V

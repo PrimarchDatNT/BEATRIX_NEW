@@ -25,13 +25,10 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/View;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    .line 2
     iput-object p1, p0, Lf/k/c/b/f/c;->c:Landroid/content/Context;
 
-    .line 3
     sget p1, Lcom/meitu/lib_common/c$i;->T1:I
 
     invoke-virtual {p2, p1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
@@ -54,7 +51,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     :cond_0
     invoke-static {p2}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
 
@@ -62,11 +58,9 @@
 
     iput-object p1, p0, Lf/k/c/b/f/c;->d:Landroidx/databinding/ViewDataBinding;
 
-    .line 5
     :cond_1
     iput-object p2, p0, Lf/k/c/b/f/c;->b:Landroid/view/View;
 
-    .line 6
     new-instance p1, Landroid/util/SparseArray;
 
     invoke-direct {p1}, Landroid/util/SparseArray;-><init>()V
@@ -83,12 +77,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/c/b/f/c;
 
     invoke-direct {v1, p0, p1}, Lf/k/c/b/f/c;-><init>(Landroid/content/Context;Landroid/view/View;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -101,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
@@ -112,12 +103,10 @@
 
     move-result-object p1
 
-    .line 2
     new-instance p2, Lf/k/c/b/f/c;
 
     invoke-direct {p2, p0, p1}, Lf/k/c/b/f/c;-><init>(Landroid/content/Context;Landroid/view/View;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
@@ -132,20 +121,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/ProgressBar;
 
-    .line 2
     invoke-virtual {p1, p3}, Landroid/widget/ProgressBar;->setMax(I)V
 
-    .line 3
     invoke-virtual {p1, p2}, Landroid/widget/ProgressBar;->setProgress(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -158,17 +143,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/RatingBar;
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/widget/RatingBar;->setRating(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -181,20 +163,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/RatingBar;
 
-    .line 2
     invoke-virtual {p1, p3}, Landroid/widget/RatingBar;->setMax(I)V
 
-    .line 3
     invoke-virtual {p1, p2}, Landroid/widget/RatingBar;->setRating(F)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -207,15 +185,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1, p2, p3}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -228,15 +203,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -249,17 +221,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/TextView;
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -272,17 +241,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/TextView;
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -295,14 +261,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/TextView;
 
-    .line 2
     iget-object v1, p0, Lf/k/c/b/f/c;->c:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -315,7 +279,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -328,7 +291,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p2
 
     const/4 v2, 0x0
@@ -338,17 +300,14 @@
 
     aget v3, p2, v2
 
-    .line 2
     invoke-virtual {p0, v3}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Landroid/widget/TextView;
 
-    .line 3
     invoke-virtual {v3, p1}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    .line 4
     invoke-virtual {v3}, Landroid/widget/TextView;->getPaintFlags()I
 
     move-result v4
@@ -361,7 +320,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -375,7 +333,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
@@ -389,11 +346,9 @@
     :cond_0
     const/16 p2, 0x8
 
-    .line 2
     :goto_0
     invoke-virtual {p1, p2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -413,7 +368,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/f/c;->d:Landroidx/databinding/ViewDataBinding;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -428,7 +382,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/f/c;->b:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -450,7 +403,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/f/c;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -461,19 +413,16 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/k/c/b/f/c;->b:Landroid/view/View;
 
     invoke-virtual {v1, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lf/k/c/b/f/c;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v2, p1, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -487,7 +436,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
@@ -496,10 +444,8 @@
 
     const/16 v1, 0xf
 
-    .line 2
     invoke-static {p1, v1}, Landroid/text/util/Linkify;->addLinks(Landroid/widget/TextView;I)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -517,14 +463,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0xb
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
@@ -533,7 +477,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v1, Landroid/view/animation/AlphaAnimation;
 
@@ -541,22 +484,18 @@
 
     const-wide/16 v2, 0x0
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Landroid/view/animation/AlphaAnimation;->setDuration(J)V
 
     const/4 p2, 0x1
 
-    .line 5
     invoke-virtual {v1, p2}, Landroid/view/animation/AlphaAnimation;->setFillAfter(Z)V
 
-    .line 6
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1, v1}, Landroid/view/View;->startAnimation(Landroid/view/animation/Animation;)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -570,15 +509,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->setBackgroundColor(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -591,15 +527,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->setBackgroundResource(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -612,17 +545,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/Checkable;
 
-    .line 2
     invoke-interface {p1, p2}, Landroid/widget/Checkable;->setChecked(Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -635,17 +565,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/ImageView;
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -658,17 +585,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/ImageView;
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -681,17 +605,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/ImageView;
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -704,17 +625,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/ProgressBar;
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/widget/ProgressBar;->setMax(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -727,15 +645,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -748,15 +663,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -769,15 +681,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -790,17 +699,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/c;->f(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/ProgressBar;
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/widget/ProgressBar;->setProgress(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

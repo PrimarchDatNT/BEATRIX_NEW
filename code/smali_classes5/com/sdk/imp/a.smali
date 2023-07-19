@@ -25,16 +25,12 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Lcom/sdk/imp/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/sdk/imp/a;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/sdk/imp/a;->c:Lcom/sdk/imp/a$a;
 
     return-void

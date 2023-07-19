@@ -69,39 +69,32 @@
 .method public constructor <init>()V
     .locals 12
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/effect/k;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/studio/effect/bodyshape/b;->j:Z
 
-    .line 3
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
-    .line 4
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/effect/bodyshape/b;->l:Ljava/util/LinkedList;
 
-    .line 5
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
-    .line 6
     invoke-static {}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->values()[Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     move-result-object v1
 
-    .line 7
     array-length v2, v1
 
     const/4 v3, 0x0
@@ -111,7 +104,6 @@
 
     aget-object v5, v1, v3
 
-    .line 8
     invoke-virtual {v5}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
 
     move-result v10
@@ -136,11 +128,9 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iput-object v0, p0, Lcom/commsource/studio/effect/bodyshape/b;->m:Landroid/util/SparseArray;
 
-    .line 10
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
@@ -157,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->m:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->size()I
@@ -175,7 +164,6 @@
 
     if-ge v3, v1, :cond_1
 
-    .line 2
     iget-object v6, p0, Lcom/commsource/studio/effect/bodyshape/b;->m:Landroid/util/SparseArray;
 
     invoke-virtual {v6, v3}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
@@ -184,7 +172,6 @@
 
     check-cast v6, Lcom/commsource/studio/effect/bodyshape/a;
 
-    .line 3
     invoke-virtual {v6}, Lcom/commsource/studio/effect/bodyshape/a;->f()F
 
     move-result v6
@@ -193,7 +180,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
@@ -203,11 +189,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->n:Landroid/util/SparseArray;
 
-    .line 6
     invoke-virtual {v1}, Landroid/util/SparseArray;->size()I
 
     move-result v3
@@ -217,14 +201,12 @@
     :goto_1
     if-ge v6, v3, :cond_3
 
-    .line 7
     invoke-virtual {v1, v6}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, Lcom/commsource/studio/effect/bodyshape/a;
 
-    .line 8
     invoke-virtual {v7}, Lcom/commsource/studio/effect/bodyshape/a;->f()F
 
     move-result v7
@@ -233,7 +215,6 @@
 
     if-eqz v7, :cond_2
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
@@ -243,7 +224,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -265,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -291,7 +270,6 @@
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -299,7 +277,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -314,10 +291,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -341,16 +316,13 @@
 
     if-lez v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->l:Ljava/util/LinkedList;
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -374,7 +346,6 @@
 
     if-lez v2, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -382,7 +353,6 @@
     :cond_3
     const/4 v1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -406,7 +376,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -421,7 +390,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -436,7 +404,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -453,14 +420,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/effect/bodyshape/b;->F()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/effect/bodyshape/b;->G()Z
 
     move-result v1
@@ -476,7 +441,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/effect/bodyshape/b;->G()Z
 
@@ -491,7 +455,6 @@
     :cond_2
     const-string v1, "\u672a\u4f7f\u7528"
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -505,7 +468,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
     invoke-direct {p0, v1}, Lcom/commsource/studio/effect/bodyshape/b;->H(Ljava/util/List;)Z
@@ -562,7 +524,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/effect/bodyshape/b;->n:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -593,7 +554,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/effect/bodyshape/b;->l:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -608,7 +568,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
@@ -617,7 +576,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -628,13 +586,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->removeLast()Ljava/lang/Object;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -643,7 +599,6 @@
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -673,7 +628,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -688,7 +642,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/effect/bodyshape/b;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -703,7 +656,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/effect/bodyshape/b;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -718,7 +670,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
@@ -747,7 +698,6 @@
 
     if-lez v1, :cond_1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
@@ -757,7 +707,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -771,7 +720,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/effect/bodyshape/b;->G()Z
 
     move-result v1
@@ -808,12 +756,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->clear()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -826,17 +772,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->n:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 2
     invoke-static {}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->values()[Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     move-result-object v1
 
-    .line 3
     array-length v2, v1
 
     const/4 v3, 0x0
@@ -846,7 +789,6 @@
 
     aget-object v4, v1, v3
 
-    .line 4
     iget-object v5, p0, Lcom/commsource/studio/effect/bodyshape/b;->n:Landroid/util/SparseArray;
 
     invoke-virtual {v4}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -891,7 +833,6 @@
     :goto_1
     invoke-virtual {v5, v6, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/studio/effect/bodyshape/b;->m:Landroid/util/SparseArray;
 
     invoke-virtual {v4}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -915,7 +856,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -929,7 +869,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
     invoke-direct {p0, v1}, Lcom/commsource/studio/effect/bodyshape/b;->H(Ljava/util/List;)Z
@@ -938,30 +877,25 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->l:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->clear()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->l:Ljava/util/LinkedList;
 
     iget-object v2, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
     invoke-virtual {v1, v2}, Ljava/util/LinkedList;->addAll(Ljava/util/Collection;)Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->k:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->clear()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -985,12 +919,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/effect/bodyshape/b;->m:Landroid/util/SparseArray;
 
     invoke-virtual {v2}, Landroid/util/SparseArray;->size()I
@@ -1002,7 +934,6 @@
     :goto_0
     if-ge v3, v2, :cond_0
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/studio/effect/bodyshape/b;->m:Landroid/util/SparseArray;
 
     invoke-virtual {v4, v3}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
@@ -1015,7 +946,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1037,7 +967,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->m:Landroid/util/SparseArray;
 
     invoke-virtual {p1}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -1050,7 +979,6 @@
 
     check-cast v1, Lcom/commsource/studio/effect/bodyshape/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/studio/effect/bodyshape/a;->f()F
 
     move-result v2
@@ -1063,7 +991,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/effect/bodyshape/a;->f()F
 
     move-result p1
@@ -1078,7 +1005,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->n:Landroid/util/SparseArray;
 
@@ -1128,7 +1054,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->m:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1154,7 +1079,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->n:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1180,7 +1104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/b;->l:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

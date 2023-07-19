@@ -85,12 +85,10 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     instance-of v0, p2, Lcotlinx/coroutines/g3;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p2, Lcotlinx/coroutines/g3;
 
     invoke-virtual {p1}, Lcotlinx/coroutines/internal/m0;->b()Lcotlin/coroutines/CoroutineContext;

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/beautymain/data/c;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/MosaicFragment$b;->b(ILcom/commsource/beautymain/data/c;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment$b;->a:Lcom/commsource/studio/function/MosaicFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/MosaicFragment;->C1(Lcom/commsource/studio/function/MosaicFragment;)Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
@@ -82,7 +80,6 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/beautymain/viewmodel/MosaicViewModel;->g0(ILcom/commsource/beautymain/data/c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

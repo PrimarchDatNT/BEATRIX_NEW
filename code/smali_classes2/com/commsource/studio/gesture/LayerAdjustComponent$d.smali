@@ -25,7 +25,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$d;->a:Ljava/util/List;
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$d;->a:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;

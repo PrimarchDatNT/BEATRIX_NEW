@@ -24,7 +24,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 .method public static a(Lcom/google/common/hash/p;)Ljava/io/OutputStream;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/hash/Funnels$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/hash/Funnels$a;-><init>(Lcom/google/common/hash/p;)V
@@ -51,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/hash/Funnels$ByteArrayFunnel;->INSTANCE:Lcom/google/common/hash/Funnels$ByteArrayFunnel;
 
     return-object v0
@@ -68,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/hash/Funnels$IntegerFunnel;->INSTANCE:Lcom/google/common/hash/Funnels$IntegerFunnel;
 
     return-object v0
@@ -85,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/hash/Funnels$LongFunnel;->INSTANCE:Lcom/google/common/hash/Funnels$LongFunnel;
 
     return-object v0
@@ -106,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/hash/Funnels$SequentialFunnel;
 
     invoke-direct {v0, p0}, Lcom/google/common/hash/Funnels$SequentialFunnel;-><init>(Lcom/google/common/hash/Funnel;)V
@@ -127,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/hash/Funnels$StringCharsetFunnel;
 
     invoke-direct {v0, p0}, Lcom/google/common/hash/Funnels$StringCharsetFunnel;-><init>(Ljava/nio/charset/Charset;)V
@@ -146,7 +139,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/hash/Funnels$UnencodedCharsFunnel;->INSTANCE:Lcom/google/common/hash/Funnels$UnencodedCharsFunnel;
 
     return-object v0

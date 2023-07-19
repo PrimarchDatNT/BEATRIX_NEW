@@ -63,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -92,7 +91,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$$inlined$forEach$lambda$1;->this$0:Lcom/commsource/studio/function/StyleFragment;
 
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$$inlined$forEach$lambda$1;->$it$inlined:Ljava/util/Map$Entry;
@@ -107,7 +105,6 @@
 
     invoke-static {v0, v1, p1, v2}, Lcom/commsource/studio/function/StyleFragment;->V1(Lcom/commsource/studio/function/StyleFragment;Ljava/lang/String;IZ)V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

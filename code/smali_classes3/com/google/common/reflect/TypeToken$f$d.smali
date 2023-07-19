@@ -31,7 +31,6 @@
 .method constructor <init>(Ljava/util/Comparator;Ljava/util/Map;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/reflect/TypeToken$f$d;->a:Ljava/util/Comparator;
 
     iput-object p2, p0, Lcom/google/common/reflect/TypeToken$f$d;->b:Ljava/util/Map;
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/TypeToken$f$d;->a:Ljava/util/Comparator;
 
     iget-object v1, p0, Lcom/google/common/reflect/TypeToken$f$d;->b:Ljava/util/Map;

@@ -21,7 +21,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/billing/pro/g;->a:Lcom/commsource/beautyplus/router/RouterEntity;
@@ -36,7 +35,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/billing/pro/g;->a:Lcom/commsource/beautyplus/router/RouterEntity;
 
     return-object v0

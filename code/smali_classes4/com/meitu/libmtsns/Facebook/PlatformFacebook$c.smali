@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;Lcom/meitu/libmtsns/framwork/i/d$k;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$c;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     iput-object p2, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$c;->a:Lcom/meitu/libmtsns/framwork/i/d$k;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$c;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     const v2, 0x10001
@@ -57,7 +55,6 @@
 
     invoke-static {v1, v2, p1, v3, v4}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->T(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;ILcom/facebook/FacebookException;Lcom/meitu/libmtsns/framwork/i/e;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -70,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -87,7 +83,6 @@
 
     invoke-static {v1}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$c;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     invoke-virtual {v1}, Lcom/meitu/libmtsns/framwork/i/d;->n()Landroid/app/Activity;
@@ -96,7 +91,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -112,7 +106,6 @@
 
     const-string v5, "name"
 
-    .line 4
     invoke-virtual {p1, v5}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
@@ -123,40 +116,34 @@
 
     if-nez v6, :cond_2
 
-    .line 5
     invoke-virtual {p1, v5}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-static {v1, v5}, Lcom/meitu/libmtsns/Facebook/c/a;->h(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {p1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/libmtsns/Facebook/c/a;->c(Ljava/lang/String;)Lcom/meitu/libmtsns/Facebook/d/b;
 
     move-result-object v5
 
     if-eqz v5, :cond_1
 
-    .line 8
     invoke-static {v1, p1}, Lcom/meitu/libmtsns/Facebook/c/a;->g(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 9
     iget-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$c;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     new-instance v2, Lcom/meitu/libmtsns/c/c/b;
 
     sget v5, Lcom/meitu/libmtsns/Facebook/b$j;->i0:I
 
-    .line 10
     invoke-virtual {v1, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -165,20 +152,16 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    .line 11
     invoke-static {p1, v3, v2, v1}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->P(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;ILcom/meitu/libmtsns/c/c/b;[Ljava/lang/Object;)V
 
-    .line 12
     iget-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$c;->a:Lcom/meitu/libmtsns/framwork/i/d$k;
 
     if-eqz p1, :cond_3
 
-    .line 13
     invoke-interface {p1}, Lcom/meitu/libmtsns/framwork/i/d$k;->onComplete()V
 
     goto :goto_0
 
-    .line 14
     :cond_1
     iget-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$c;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
@@ -186,7 +169,6 @@
 
     sget v6, Lcom/meitu/libmtsns/Facebook/b$j;->g0:I
 
-    .line 15
     invoke-virtual {v1, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -195,12 +177,10 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    .line 16
     invoke-static {p1, v3, v5, v1}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->Q(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;ILcom/meitu/libmtsns/c/c/b;[Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 17
     :cond_2
     iget-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$c;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
@@ -208,7 +188,6 @@
 
     sget v6, Lcom/meitu/libmtsns/Facebook/b$j;->g0:I
 
-    .line 18
     invoke-virtual {v1, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -217,10 +196,8 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    .line 19
     invoke-static {p1, v3, v5, v1}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->R(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;ILcom/meitu/libmtsns/c/c/b;[Ljava/lang/Object;)V
 
-    .line 20
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

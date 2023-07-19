@@ -75,10 +75,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
@@ -87,13 +85,10 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput v0, p0, Lcom/google/firebase/appindexing/internal/l;->d:I
 
-    .line 4
     iput-object p1, p0, Lcom/google/firebase/appindexing/internal/l;->a:Lcom/google/android/gms/common/api/h;
 
-    .line 5
     new-instance v0, Lf/f/b/b/i/a/a/a;
 
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/h;->q()Landroid/os/Looper;
@@ -110,7 +105,6 @@
 .method static synthetic a(Lcom/google/firebase/appindexing/internal/l;I)I
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/firebase/appindexing/internal/l;->d:I
 
     return p1
@@ -119,7 +113,6 @@
 .method static synthetic c(Lcom/google/firebase/appindexing/internal/l;)Ljava/util/Queue;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/appindexing/internal/l;->c:Ljava/util/Queue;
 
     return-object p0
@@ -128,7 +121,6 @@
 .method static synthetic d(Lcom/google/firebase/appindexing/internal/l;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/firebase/appindexing/internal/l;->d:I
 
     return p0
@@ -137,7 +129,6 @@
 .method static synthetic f(Lcom/google/firebase/appindexing/internal/l;)Lcom/google/android/gms/common/api/h;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/appindexing/internal/l;->a:Lcom/google/android/gms/common/api/h;
 
     return-object p0
@@ -160,12 +151,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/appindexing/internal/l;->c:Ljava/util/Queue;
 
     monitor-enter p1
 
-    .line 2
     :try_start_0
     iget v0, p0, Lcom/google/firebase/appindexing/internal/l;->d:I
 
@@ -175,7 +164,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/appindexing/internal/l;->c:Ljava/util/Queue;
 
     invoke-interface {v0}, Ljava/util/Queue;->peek()Ljava/lang/Object;
@@ -193,7 +181,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v1}, Lcom/google/android/gms/common/internal/b0;->q(Z)V
 
@@ -202,18 +189,15 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 5
     :goto_1
     iput v2, p0, Lcom/google/firebase/appindexing/internal/l;->d:I
 
-    .line 6
     monitor-exit p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-eqz v0, :cond_2
 
-    .line 7
     invoke-virtual {v0}, Lcom/google/firebase/appindexing/internal/m;->a()V
 
     :cond_2
@@ -222,7 +206,6 @@
     :catchall_0
     move-exception v0
 
-    .line 8
     :try_start_1
     monitor-exit p1
     :try_end_1
@@ -244,25 +227,20 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/internal/m;
 
     invoke-direct {v0, p0, p1}, Lcom/google/firebase/appindexing/internal/m;-><init>(Lcom/google/firebase/appindexing/internal/l;Lcom/google/firebase/appindexing/internal/zzx;)V
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/firebase/appindexing/internal/m;->b()Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1, p0, p0}, Lcom/google/android/gms/tasks/k;->f(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/e;)Lcom/google/android/gms/tasks/k;
 
-    .line 4
     iget-object v1, p0, Lcom/google/firebase/appindexing/internal/l;->c:Ljava/util/Queue;
 
     monitor-enter v1
 
-    .line 5
     :try_start_0
     iget-object v2, p0, Lcom/google/firebase/appindexing/internal/l;->c:Ljava/util/Queue;
 
@@ -270,19 +248,16 @@
 
     move-result v2
 
-    .line 6
     iget-object v3, p0, Lcom/google/firebase/appindexing/internal/l;->c:Ljava/util/Queue;
 
     invoke-interface {v3, v0}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
 
-    .line 7
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-eqz v2, :cond_0
 
-    .line 8
     invoke-virtual {v0}, Lcom/google/firebase/appindexing/internal/m;->a()V
 
     :cond_0
@@ -291,7 +266,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -303,7 +277,6 @@
 .method public final execute(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/appindexing/internal/l;->b:Landroid/os/Handler;
 
     invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z

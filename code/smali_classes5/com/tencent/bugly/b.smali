@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -46,13 +45,11 @@
 
     const/4 v1, 0x0
 
-    .line 4
     :try_start_0
     invoke-static {p0, v1}, Lcom/tencent/bugly/b;->a(Landroid/content/Context;Lcom/tencent/bugly/BuglyStrategy;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     monitor-exit v0
 
     return-void
@@ -72,7 +69,6 @@
 
     monitor-enter v0
 
-    .line 6
     :try_start_0
     sget-boolean v1, Lcom/tencent/bugly/b;->e:Z
 
@@ -84,12 +80,10 @@
 
     new-array p1, v2, [Ljava/lang/Object;
 
-    .line 7
     invoke-static {p0, p1}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     monitor-exit v0
 
     return-void
@@ -97,7 +91,6 @@
     :cond_0
     if-nez p0, :cond_1
 
-    .line 9
     :try_start_1
     sget-object p0, Lcom/tencent/bugly/proguard/x;->a:Ljava/lang/String;
 
@@ -107,36 +100,30 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 10
     monitor-exit v0
 
     return-void
 
-    .line 11
     :cond_1
     :try_start_2
     invoke-static {p0}, Lcom/tencent/bugly/crashreport/common/info/a;->a(Landroid/content/Context;)Lcom/tencent/bugly/crashreport/common/info/a;
 
     move-result-object v1
 
-    .line 12
     invoke-static {v1}, Lcom/tencent/bugly/b;->a(Lcom/tencent/bugly/crashreport/common/info/a;)Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    .line 13
     sput-boolean v2, Lcom/tencent/bugly/b;->a:Z
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 14
     monitor-exit v0
 
     return-void
 
-    .line 15
     :cond_2
     :try_start_3
     invoke-virtual {v1}, Lcom/tencent/bugly/crashreport/common/info/a;->f()Ljava/lang/String;
@@ -145,7 +132,6 @@
 
     if-nez v2, :cond_3
 
-    .line 16
     sget-object p0, Lcom/tencent/bugly/proguard/x;->a:Ljava/lang/String;
 
     const-string p1, "[init] meta data of BUGLY_APPID in AndroidManifest.xml should be set."
@@ -154,12 +140,10 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 17
     monitor-exit v0
 
     return-void
 
-    .line 18
     :cond_3
     :try_start_4
     iget-boolean v1, v1, Lcom/tencent/bugly/crashreport/common/info/a;->v:Z
@@ -168,7 +152,6 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
-    .line 19
     monitor-exit v0
 
     return-void
@@ -194,7 +177,6 @@
 
     monitor-enter v3
 
-    .line 20
     :try_start_0
     sget-boolean v4, Lcom/tencent/bugly/b;->e:Z
 
@@ -206,12 +188,10 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    .line 21
     invoke-static {v0, v1}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 22
     monitor-exit v3
 
     return-void
@@ -219,7 +199,6 @@
     :cond_0
     if-nez p0, :cond_1
 
-    .line 23
     :try_start_1
     sget-object v0, Lcom/tencent/bugly/proguard/x;->a:Ljava/lang/String;
 
@@ -229,7 +208,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 24
     monitor-exit v3
 
     return-void
@@ -237,7 +215,6 @@
     :cond_1
     if-nez v0, :cond_2
 
-    .line 25
     :try_start_2
     sget-object v0, Lcom/tencent/bugly/proguard/x;->a:Ljava/lang/String;
 
@@ -247,7 +224,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 26
     monitor-exit v3
 
     return-void
@@ -255,72 +231,61 @@
     :cond_2
     const/4 v4, 0x1
 
-    .line 27
     :try_start_3
     sput-boolean v4, Lcom/tencent/bugly/b;->e:Z
 
     if-eqz v1, :cond_3
 
-    .line 28
     sput-boolean v4, Lcom/tencent/bugly/b;->c:Z
 
-    .line 29
     sput-boolean v4, Lcom/tencent/bugly/proguard/x;->b:Z
 
     const-string v6, "Bugly debug\u6a21\u5f0f\u5f00\u542f\uff0c\u8bf7\u5728\u53d1\u5e03\u65f6\u628aisDebug\u5173\u95ed\u3002 -- Running in debug model for \'isDebug\' is enabled. Please disable it when you release."
 
     new-array v7, v5, [Ljava/lang/Object;
 
-    .line 30
     invoke-static {v6, v7}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-string v6, "--------------------------------------------------------------------------------------------"
 
     new-array v7, v5, [Ljava/lang/Object;
 
-    .line 31
     invoke-static {v6, v7}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-string v6, "Bugly debug\u6a21\u5f0f\u5c06\u6709\u4ee5\u4e0b\u884c\u4e3a\u7279\u6027 -- The following list shows the behaviour of debug model: "
 
     new-array v7, v5, [Ljava/lang/Object;
 
-    .line 32
     invoke-static {v6, v7}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-string v6, "[1] \u8f93\u51fa\u8be6\u7ec6\u7684Bugly SDK\u7684Log -- More detailed log of Bugly SDK will be output to logcat;"
 
     new-array v7, v5, [Ljava/lang/Object;
 
-    .line 33
     invoke-static {v6, v7}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-string v6, "[2] \u6bcf\u4e00\u6761Crash\u90fd\u4f1a\u88ab\u7acb\u5373\u4e0a\u62a5 -- Every crash caught by Bugly will be uploaded immediately."
 
     new-array v7, v5, [Ljava/lang/Object;
 
-    .line 34
     invoke-static {v6, v7}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-string v6, "[3] \u81ea\u5b9a\u4e49\u65e5\u5fd7\u5c06\u4f1a\u5728Logcat\u4e2d\u8f93\u51fa -- Custom log will be output to logcat."
 
     new-array v7, v5, [Ljava/lang/Object;
 
-    .line 35
     invoke-static {v6, v7}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-string v6, "--------------------------------------------------------------------------------------------"
 
     new-array v7, v5, [Ljava/lang/Object;
 
-    .line 36
     invoke-static {v6, v7}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-string v6, "[init] Open debug mode of Bugly."
 
     new-array v7, v5, [Ljava/lang/Object;
 
-    .line 37
     invoke-static {v6, v7}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     :cond_3
@@ -328,14 +293,12 @@
 
     new-array v7, v5, [Ljava/lang/Object;
 
-    .line 38
     invoke-static {v6, v7}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-string v6, "[init] Bugly start initializing..."
 
     new-array v7, v5, [Ljava/lang/Object;
 
-    .line 39
     invoke-static {v6, v7}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-string v6, "[init] Bugly complete version: v%s"
@@ -346,26 +309,20 @@
 
     aput-object v8, v7, v5
 
-    .line 40
     invoke-static {v6, v7}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 41
     invoke-static/range {p0 .. p0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object v6
 
-    .line 42
     invoke-static {v6}, Lcom/tencent/bugly/crashreport/common/info/a;->a(Landroid/content/Context;)Lcom/tencent/bugly/crashreport/common/info/a;
 
     move-result-object v7
 
-    .line 43
     invoke-virtual {v7}, Lcom/tencent/bugly/crashreport/common/info/a;->o()Ljava/lang/String;
 
-    .line 44
     invoke-static {v6}, Lcom/tencent/bugly/proguard/y;->a(Landroid/content/Context;)V
 
-    .line 45
     sget-object v8, Lcom/tencent/bugly/b;->b:Ljava/util/List;
 
     invoke-static {v6, v8}, Lcom/tencent/bugly/proguard/p;->a(Landroid/content/Context;Ljava/util/List;)Lcom/tencent/bugly/proguard/p;
@@ -374,39 +331,32 @@
 
     sput-object v8, Lcom/tencent/bugly/b;->d:Lcom/tencent/bugly/proguard/p;
 
-    .line 46
     invoke-static {v6}, Lcom/tencent/bugly/proguard/u;->a(Landroid/content/Context;)Lcom/tencent/bugly/proguard/u;
 
-    .line 47
     sget-object v8, Lcom/tencent/bugly/b;->b:Ljava/util/List;
 
     invoke-static {v6, v8}, Lcom/tencent/bugly/crashreport/common/strategy/a;->a(Landroid/content/Context;Ljava/util/List;)Lcom/tencent/bugly/crashreport/common/strategy/a;
 
     move-result-object v8
 
-    .line 48
     invoke-static {v6}, Lcom/tencent/bugly/proguard/n;->a(Landroid/content/Context;)Lcom/tencent/bugly/proguard/n;
 
     move-result-object v9
 
-    .line 49
     invoke-static {v7}, Lcom/tencent/bugly/b;->a(Lcom/tencent/bugly/crashreport/common/info/a;)Z
 
     move-result v10
 
     if-eqz v10, :cond_4
 
-    .line 50
     sput-boolean v5, Lcom/tencent/bugly/b;->a:Z
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 51
     monitor-exit v3
 
     return-void
 
-    .line 52
     :cond_4
     :try_start_4
     invoke-virtual {v7, v0}, Lcom/tencent/bugly/crashreport/common/info/a;->a(Ljava/lang/String;)V
@@ -417,12 +367,10 @@
 
     aput-object v0, v11, v5
 
-    .line 53
     invoke-static {v10, v11}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     if-eqz v2, :cond_f
 
-    .line 54
     invoke-virtual/range {p3 .. p3}, Lcom/tencent/bugly/BuglyStrategy;->getAppVersion()Ljava/lang/String;
 
     move-result-object v0
@@ -724,7 +672,6 @@
     :cond_f
     const/4 v4, 0x0
 
-    .line 55
     :goto_2
     sget-object v0, Lcom/tencent/bugly/b;->b:Ljava/util/List;
 
@@ -736,7 +683,6 @@
 
     if-ge v4, v0, :cond_11
 
-    .line 56
     :try_start_7
     sget-object v0, Lcom/tencent/bugly/b;->b:Ljava/util/List;
 
@@ -754,7 +700,6 @@
 
     if-eqz v0, :cond_10
 
-    .line 57
     sget-object v0, Lcom/tencent/bugly/b;->b:Ljava/util/List;
 
     invoke-interface {v0, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -772,7 +717,6 @@
     :catchall_0
     move-exception v0
 
-    .line 58
     :try_start_8
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
@@ -780,7 +724,6 @@
 
     if-nez v7, :cond_10
 
-    .line 59
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_10
@@ -789,13 +732,11 @@
 
     goto :goto_2
 
-    .line 60
     :cond_11
     invoke-static {v6, v2}, Lcom/tencent/bugly/crashreport/biz/b;->a(Landroid/content/Context;Lcom/tencent/bugly/BuglyStrategy;)V
 
     if-eqz v2, :cond_12
 
-    .line 61
     invoke-virtual/range {p3 .. p3}, Lcom/tencent/bugly/BuglyStrategy;->getAppReportDelay()J
 
     move-result-wide v0
@@ -805,7 +746,6 @@
     :cond_12
     const-wide/16 v0, 0x0
 
-    .line 62
     :goto_4
     invoke-virtual {v8, v0, v1}, Lcom/tencent/bugly/crashreport/common/strategy/a;->a(J)V
 
@@ -813,12 +753,10 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    .line 63
     invoke-static {v0, v1}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/String;[Ljava/lang/Object;)Z
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_1
 
-    .line 64
     monitor-exit v3
 
     return-void
@@ -838,7 +776,6 @@
 
     monitor-enter v0
 
-    .line 65
     :try_start_0
     sget-object v1, Lcom/tencent/bugly/b;->b:Ljava/util/List;
 
@@ -848,14 +785,12 @@
 
     if-nez v1, :cond_0
 
-    .line 66
     sget-object v1, Lcom/tencent/bugly/b;->b:Ljava/util/List;
 
     invoke-interface {v1, p0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 67
     :cond_0
     monitor-exit v0
 
@@ -872,17 +807,14 @@
 .method private static a(Lcom/tencent/bugly/crashreport/common/info/a;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/common/info/a;->p:Ljava/util/List;
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     if-eqz v0, :cond_0
 
     const-string p0, "bugly"
 
-    .line 3
     invoke-interface {v0, p0}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result p0

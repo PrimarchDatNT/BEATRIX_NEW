@@ -39,10 +39,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/commsource/beautyplus/f0/dl;->N:Landroidx/databinding/ViewDataBinding$IncludedLayouts;
 
-    .line 2
     new-instance v1, Landroid/util/SparseIntArray;
 
     invoke-direct {v1}, Landroid/util/SparseIntArray;-><init>()V
@@ -53,45 +51,38 @@
 
     const/4 v3, 0x4
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->cb_markup:I
 
     const/4 v3, 0x5
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->cb_beauty:I
 
     const/4 v3, 0x6
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->space:I
 
     const/4 v3, 0x7
 
-    .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->xsb:I
 
     const/16 v3, 0x8
 
-    .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->cb_ar_play:I
 
     const/16 v3, 0x9
 
-    .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -108,7 +99,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/commsource/beautyplus/f0/dl;->N:Landroidx/databinding/ViewDataBinding$IncludedLayouts;
 
     sget-object v1, Lcom/commsource/beautyplus/f0/dl;->O:Landroid/util/SparseIntArray;
@@ -131,7 +121,6 @@
 
     const/16 v0, 0x9
 
-    .line 2
     aget-object v0, p3, v0
 
     move-object v4, v0
@@ -206,51 +195,42 @@
 
     const-wide/16 v0, -0x1
 
-    .line 3
     iput-wide v0, v12, Lcom/commsource/beautyplus/f0/dl;->M:J
 
-    .line 4
     iget-object v0, v12, Lcom/commsource/beautyplus/f0/cl;->d:Landroid/view/View;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 5
     iget-object v0, v12, Lcom/commsource/beautyplus/f0/cl;->f:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
-    .line 6
     aget-object v0, p3, v0
 
     check-cast v0, Landroidx/constraintlayout/widget/ConstraintLayout;
 
     iput-object v0, v12, Lcom/commsource/beautyplus/f0/dl;->K:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    .line 7
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setTag(Ljava/lang/Object;)V
 
     const/4 v0, 0x1
 
-    .line 8
     aget-object v0, p3, v0
 
     check-cast v0, Lcom/commsource/widget/part/XSeekCameraTextView;
 
     iput-object v0, v12, Lcom/commsource/beautyplus/f0/dl;->L:Lcom/commsource/widget/part/XSeekCameraTextView;
 
-    .line 9
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
     move-object v0, p2
 
-    .line 10
     invoke-virtual {p0, p2}, Landroidx/databinding/ViewDataBinding;->setRootTag(Landroid/view/View;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/beautyplus/f0/dl;->invalidateAll()V
 
     return-void
@@ -267,19 +247,15 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-wide v3, v1, Lcom/commsource/beautyplus/f0/dl;->M:J
 
     const-wide/16 v5, 0x0
 
-    .line 3
     iput-wide v5, v1, Lcom/commsource/beautyplus/f0/dl;->M:J
 
-    .line 4
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -292,7 +268,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 5
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/cl;->d:Landroid/view/View;
 
     const/4 v4, 0x0
@@ -319,7 +294,6 @@
 
     invoke-static/range {v3 .. v12}, Lf/k/c/c/c;->d(Landroid/view/View;IIFIFFFFF)V
 
-    .line 6
     iget-object v13, v1, Lcom/commsource/beautyplus/f0/cl;->f:Landroid/view/View;
 
     const/4 v14, 0x0
@@ -346,14 +320,12 @@
 
     invoke-static/range {v13 .. v22}, Lf/k/c/c/c;->d(Landroid/view/View;IIFIFFFFF)V
 
-    .line 7
     iget-object v0, v1, Lcom/commsource/beautyplus/f0/dl;->L:Lcom/commsource/widget/part/XSeekCameraTextView;
 
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/cl;->J:Lcom/commsource/widget/XSeekBar;
 
     invoke-static {v0, v3}, Lcom/commsource/util/l2;->f(Lcom/commsource/widget/part/XSeekCameraTextView;Lcom/commsource/widget/XSeekBar;)V
 
-    .line 8
     :cond_0
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -362,7 +334,6 @@
     :catchall_0
     move-exception v0
 
-    .line 9
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -380,10 +351,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-wide v1, p0, Lcom/commsource/beautyplus/f0/dl;->M:J
 
@@ -395,7 +364,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -404,7 +372,6 @@
 
     return v1
 
-    .line 4
     :cond_0
     :try_start_1
     monitor-exit p0
@@ -413,7 +380,6 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -421,7 +387,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     :try_start_2
     monitor-exit p0
     :try_end_2
@@ -439,24 +404,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
     const-wide/16 v1, 0x1
 
-    .line 2
     :try_start_0
     iput-wide v1, p0, Lcom/commsource/beautyplus/f0/dl;->M:J
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-virtual {p0}, Landroidx/databinding/ViewDataBinding;->requestRebind()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -464,7 +424,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -482,7 +441,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -501,7 +459,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

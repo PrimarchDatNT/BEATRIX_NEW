@@ -30,7 +30,6 @@
 
     iput-object p3, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$c$a;->b:Lcom/commsource/studio/formula/FormulaStoreActivity$c;
 
-    .line 1
     invoke-direct {p0, p2}, Landroidx/viewpager2/adapter/FragmentStateAdapter;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
     return-void
@@ -47,12 +46,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/formula/FormulaChildStoreFragment;
 
     invoke-direct {v1}, Lcom/commsource/studio/formula/FormulaChildStoreFragment;-><init>()V
 
-    .line 2
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
@@ -63,7 +60,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -76,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$c$a;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I

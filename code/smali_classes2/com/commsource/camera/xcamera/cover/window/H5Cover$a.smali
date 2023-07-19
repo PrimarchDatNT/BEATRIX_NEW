@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$a;->a:Lcom/commsource/camera/xcamera/cover/window/H5Cover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->L()Lcom/commsource/camera/f1/n;
@@ -84,7 +83,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$a;->a:Lcom/commsource/camera/xcamera/cover/window/H5Cover;
 
@@ -106,10 +104,8 @@
 
     move-result v2
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -122,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$a;->a(Ljava/lang/Integer;)V

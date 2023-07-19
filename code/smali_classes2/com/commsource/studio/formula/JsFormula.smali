@@ -249,15 +249,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/template/bean/e;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/studio/formula/JsFormula;->formulaId:Ljava/lang/String;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -278,7 +275,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -299,7 +295,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/studio/formula/JsFormula;
 
     if-eqz v1, :cond_0
@@ -338,7 +333,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->categoryId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -353,7 +347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/formula/JsFormula;->createTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -370,7 +363,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -407,7 +399,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/formula/JsFormula;->endAtTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -424,7 +415,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->formulaConfig:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -441,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->formulaConfig:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -458,7 +447,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->formulaId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -475,7 +463,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v1
@@ -488,7 +475,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -510,7 +496,6 @@
 
     move-result-object v1
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -526,7 +511,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->formulaThumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -541,7 +525,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/formula/JsFormula;->hotSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -556,7 +539,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/formula/JsFormula;->hotState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -573,7 +555,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->iconRatio:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -590,7 +571,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->formulaId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -605,7 +585,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/formula/JsFormula;->newState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -620,7 +599,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/formula/JsFormula;->paidState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -635,7 +613,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/formula/JsFormula;->placeHolderColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -661,7 +638,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->productsInfo:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -676,12 +652,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/formula/JsFormula;->placeHolderColor:I
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/Random;
 
     invoke-direct {v1}, Ljava/util/Random;-><init>()V
@@ -692,7 +666,6 @@
 
     move-result v1
 
-    .line 3
     sget-object v2, Lcom/meitu/template/bean/StickerGroup;->Companion:Lcom/meitu/template/bean/StickerGroup$a;
 
     invoke-virtual {v2}, Lcom/meitu/template/bean/StickerGroup$a;->a()[I
@@ -703,7 +676,6 @@
 
     iput v1, p0, Lcom/commsource/studio/formula/JsFormula;->placeHolderColor:I
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/commsource/studio/formula/JsFormula;->placeHolderColor:I
 
@@ -719,7 +691,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/formula/JsFormula;->recentUseTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -734,7 +705,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/formula/JsFormula;->recommendSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -749,7 +719,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/formula/JsFormula;->recommendState:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -776,7 +745,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->sortMap:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -793,7 +761,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->sorts:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -810,20 +777,17 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 1
     :try_start_0
     iget-object v2, p0, Lcom/commsource/studio/formula/JsFormula;->whRatio:Ljava/lang/Float;
 
     if-nez v2, :cond_1
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/studio/formula/JsFormula;->iconRatio:Ljava/lang/String;
 
     if-eqz v3, :cond_0
 
     const-string v2, ":"
 
-    .line 3
     filled-new-array {v2}, [Ljava/lang/String;
 
     move-result-object v4
@@ -842,7 +806,6 @@
 
     const/4 v3, 0x0
 
-    .line 4
     invoke-interface {v2, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -872,7 +835,6 @@
     :cond_0
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 5
     :goto_0
     invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
@@ -884,7 +846,6 @@
 
     goto :goto_1
 
-    .line 6
     :catch_0
     invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
@@ -892,7 +853,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->whRatio:Ljava/lang/Float;
 
-    .line 7
     :cond_1
     :goto_1
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->whRatio:Ljava/lang/Float;
@@ -920,7 +880,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->whRatio:Ljava/lang/Float;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -935,7 +894,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -952,7 +910,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v1
@@ -979,7 +936,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/formula/JsFormula;->paidState:I
 
     if-eqz v1, :cond_0
@@ -1004,7 +960,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v1
@@ -1013,7 +968,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/formula/JsFormula$a;
 
     const-string v3, "DELETE-FORMULA"
@@ -1022,7 +976,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getInternalState()I
 
@@ -1048,7 +1001,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/formula/JsFormula;->newState:I
 
     const/4 v2, 0x1
@@ -1073,7 +1025,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/formula/JsFormula;->recommendState:J
 
     const-wide/16 v3, 0x0
@@ -1110,38 +1061,32 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getDownloadProgress()I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/e;->setDownloadProgress(I)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/e;->setInternalState(I)V
 
-    .line 5
     iget-wide v1, p1, Lcom/commsource/studio/formula/JsFormula;->recentUseTime:J
 
     iput-wide v1, p0, Lcom/commsource/studio/formula/JsFormula;->recentUseTime:J
 
-    .line 6
     iget v1, p1, Lcom/commsource/studio/formula/JsFormula;->placeHolderColor:I
 
     iput v1, p0, Lcom/commsource/studio/formula/JsFormula;->placeHolderColor:I
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->iconRatio:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/commsource/studio/formula/JsFormula;->iconRatio:Ljava/lang/String;
@@ -1150,7 +1095,6 @@
 
     move-result v1
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/studio/formula/JsFormula;->productsInfo:Ljava/util/List;
 
     iget-object v3, p1, Lcom/commsource/studio/formula/JsFormula;->productsInfo:Ljava/util/List;
@@ -1161,7 +1105,6 @@
 
     and-int/2addr v1, v2
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/formula/JsFormula;->sorts:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/commsource/studio/formula/JsFormula;->sorts:Ljava/lang/String;
@@ -1172,7 +1115,6 @@
 
     and-int/2addr v1, v2
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/studio/formula/JsFormula;->categoryId:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/commsource/studio/formula/JsFormula;->categoryId:Ljava/lang/String;
@@ -1183,7 +1125,6 @@
 
     and-int/2addr v1, v2
 
-    .line 11
     iget v2, p0, Lcom/commsource/studio/formula/JsFormula;->paidState:I
 
     iget v3, p1, Lcom/commsource/studio/formula/JsFormula;->paidState:I
@@ -1204,7 +1145,6 @@
     :goto_0
     and-int/2addr v1, v2
 
-    .line 12
     iget v2, p0, Lcom/commsource/studio/formula/JsFormula;->newState:I
 
     iget v3, p1, Lcom/commsource/studio/formula/JsFormula;->newState:I
@@ -1221,7 +1161,6 @@
     :goto_1
     and-int/2addr v1, v2
 
-    .line 13
     iget v2, p0, Lcom/commsource/studio/formula/JsFormula;->recommendSort:I
 
     iget v3, p1, Lcom/commsource/studio/formula/JsFormula;->recommendSort:I
@@ -1238,7 +1177,6 @@
     :goto_2
     and-int/2addr v1, v2
 
-    .line 14
     iget-wide v2, p0, Lcom/commsource/studio/formula/JsFormula;->recommendState:J
 
     iget-wide v6, p1, Lcom/commsource/studio/formula/JsFormula;->recommendState:J
@@ -1257,7 +1195,6 @@
     :goto_3
     and-int/2addr v1, v2
 
-    .line 15
     iget v2, p0, Lcom/commsource/studio/formula/JsFormula;->hotSort:I
 
     iget v3, p1, Lcom/commsource/studio/formula/JsFormula;->hotSort:I
@@ -1274,7 +1211,6 @@
     :goto_4
     and-int/2addr v1, v2
 
-    .line 16
     iget v2, p0, Lcom/commsource/studio/formula/JsFormula;->hotState:I
 
     iget v3, p1, Lcom/commsource/studio/formula/JsFormula;->hotState:I
@@ -1291,7 +1227,6 @@
     :goto_5
     and-int/2addr v1, v2
 
-    .line 17
     iget-object v2, p0, Lcom/commsource/studio/formula/JsFormula;->formulaConfig:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/commsource/studio/formula/JsFormula;->formulaConfig:Ljava/lang/String;
@@ -1302,7 +1237,6 @@
 
     and-int/2addr v1, v2
 
-    .line 18
     iget-object v2, p0, Lcom/commsource/studio/formula/JsFormula;->formulaThumbnail:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/commsource/studio/formula/JsFormula;->formulaThumbnail:Ljava/lang/String;
@@ -1313,14 +1247,12 @@
 
     and-int/2addr v1, v2
 
-    .line 19
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v2
 
     if-eq v2, v5, :cond_7
 
-    .line 20
     iget-object v2, p0, Lcom/commsource/studio/formula/JsFormula;->formulaConfig:Ljava/lang/String;
 
     iget-object p1, p1, Lcom/commsource/studio/formula/JsFormula;->formulaConfig:Ljava/lang/String;
@@ -1333,14 +1265,12 @@
 
     if-eqz p1, :cond_6
 
-    .line 21
     invoke-virtual {p0}, Lcom/commsource/studio/formula/JsFormula;->getFormulaPath()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-static {v2}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 22
     invoke-virtual {p0, v4}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
     :cond_6
@@ -1350,13 +1280,11 @@
 
     goto :goto_6
 
-    .line 23
     :cond_7
     iget-object p1, p1, Lcom/commsource/studio/formula/JsFormula;->formulaConfig:Ljava/lang/String;
 
     iput-object p1, p0, Lcom/commsource/studio/formula/JsFormula;->formulaConfig:Ljava/lang/String;
 
-    .line 24
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1370,7 +1298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/formula/JsFormula;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/JsFormula;->onCompareLocal(Lcom/commsource/studio/formula/JsFormula;)Z
@@ -1397,7 +1324,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/JsFormula;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1406,12 +1332,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/formula/JsFormula;->formulaId:Ljava/lang/String;
 
@@ -1443,7 +1367,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/formula/JsFormula;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/JsFormula;->onSortCompare(Lcom/commsource/studio/formula/JsFormula;)I
@@ -1466,7 +1389,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/JsFormula;->categoryId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1481,7 +1403,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/formula/JsFormula;->createTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1496,7 +1417,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/formula/JsFormula;->endAtTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1515,7 +1435,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/JsFormula;->formulaConfig:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1538,7 +1457,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/JsFormula;->formulaId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1557,7 +1475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/JsFormula;->formulaThumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1572,7 +1489,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/formula/JsFormula;->hotSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1587,7 +1503,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/formula/JsFormula;->hotState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1606,7 +1521,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/JsFormula;->iconRatio:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1621,7 +1535,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/formula/JsFormula;->newState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1636,7 +1549,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/formula/JsFormula;->paidState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1651,7 +1563,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/formula/JsFormula;->placeHolderColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1678,7 +1589,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/JsFormula;->productsInfo:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1693,7 +1603,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/formula/JsFormula;->recentUseTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1708,7 +1617,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/formula/JsFormula;->recommendSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1723,7 +1631,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/formula/JsFormula;->recommendState:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1742,7 +1649,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/JsFormula;->sorts:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1761,7 +1667,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/JsFormula;->whRatio:Ljava/lang/Float;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

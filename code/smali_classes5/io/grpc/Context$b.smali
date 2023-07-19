@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/Context$b;->a:Ljava/util/concurrent/Executor;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,7 +42,6 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Context$b;->a:Ljava/util/concurrent/Executor;
 
     invoke-static {}, Lio/grpc/Context;->g()Lio/grpc/Context;

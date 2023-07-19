@@ -41,7 +41,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     sput-boolean v1, Lcom/commsource/util/x;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -52,7 +51,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -65,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/commsource/util/x;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -95,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -114,12 +109,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Landroid/app/Activity;
 
@@ -127,10 +120,8 @@
 
     if-eqz v2, :cond_3
 
-    .line 3
     check-cast p0, Landroid/app/Activity;
 
-    .line 4
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v2
@@ -154,7 +145,6 @@
 
     return v1
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -168,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
@@ -193,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
@@ -218,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/BaseActivity;->s0()I
 
     move-result v1
@@ -245,14 +232,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     const-string v2, "yyyy:MM:dd"
 
     invoke-direct {v1, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p0
@@ -261,7 +246,6 @@
 
     move-result-object p0
 
-    .line 3
     invoke-static {p2, p3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -270,7 +254,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -291,12 +274,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -306,7 +287,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->unable_scrawl:I
 
-    .line 3
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -335,7 +315,6 @@
 
     const/4 v1, 0x1
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -349,7 +328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
@@ -400,10 +378,8 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->e()V
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p0, 0x0
@@ -428,7 +404,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/x;->n(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
@@ -459,10 +434,8 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -471,12 +444,10 @@
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     invoke-static {p1, v0, p2}, Lcom/commsource/util/x;->N(ILjava/lang/String;Ljava/util/List;)Z
 
@@ -520,7 +491,6 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 1
     invoke-interface {p2, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result p0
@@ -537,14 +507,12 @@
     :cond_2
     if-eqz p2, :cond_1
 
-    .line 2
     invoke-interface {p2, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result p0
 
     if-eqz p0, :cond_1
 
-    .line 3
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -559,10 +527,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -571,12 +537,10 @@
 
     const/4 p0, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 4
     :cond_0
     invoke-static {p0, v1, p2, p1}, Lcom/commsource/util/x;->j(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 
@@ -602,7 +566,6 @@
 
     const-string v1, "shared_prefs"
 
-    .line 1
     invoke-virtual {p0, v1, p1}, Landroid/content/Context;->getDir(Ljava/lang/String;I)Ljava/io/File;
 
     move-result-object p0
@@ -615,12 +578,10 @@
 
     const-string v1, ""
 
-    .line 2
     invoke-virtual {p0, p1, v1}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     new-instance p1, Ljava/io/File;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -639,14 +600,12 @@
 
     invoke-direct {p1, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     new-instance v1, Ljava/io/File;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -675,10 +634,8 @@
 
     const-string p1, "renameTo failure"
 
-    .line 6
     invoke-static {p0, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -692,7 +649,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -701,7 +657,6 @@
 
     invoke-static {v1, v2}, Lf/d/i/n;->u1(Landroid/content/Context;I)V
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -710,7 +665,6 @@
 
     invoke-static {v1, v2}, Lf/d/i/n;->x1(Landroid/content/Context;I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -727,10 +681,8 @@
 
     if-ge p1, v0, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->Q()V
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -744,7 +696,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     const-string v1, "XT1032"
@@ -755,7 +706,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -766,7 +716,6 @@
     :try_start_0
     const-string v1, "screen_brightness"
 
-    .line 3
     invoke-static {p1, v1}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;)I
 
     move-result p1
@@ -784,7 +733,6 @@
     :catch_0
     move-exception p1
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     :goto_0
@@ -794,18 +742,14 @@
 
     if-gez v0, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v0
 
-    .line 6
     iput p1, v0, Landroid/view/WindowManager$LayoutParams;->screenBrightness:F
 
-    .line 7
     invoke-virtual {p0, v0}, Landroid/view/Window;->setAttributes(Landroid/view/WindowManager$LayoutParams;)V
 
-    .line 8
     :cond_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -821,10 +765,8 @@
 
     const/16 v1, 0x80
 
-    .line 1
     invoke-virtual {p0, v1, v1}, Landroid/view/Window;->setFlags(II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -840,33 +782,28 @@
     :try_start_0
     const-string v1, "java.lang.Daemons$FinalizerWatchdogDaemon"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
 
     const-string v2, "INSTANCE"
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v2
 
     const/4 v3, 0x1
 
-    .line 3
     invoke-virtual {v2, v3}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     const/4 v4, 0x0
 
-    .line 4
     invoke-virtual {v2, v4}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     :try_start_1
     invoke-virtual {v1}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
 
@@ -878,17 +815,14 @@
 
     move-result-object v5
 
-    .line 6
     invoke-virtual {v5, v3}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 7
     invoke-virtual {v5, v2, v4}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     goto :goto_0
 
-    .line 8
     :catchall_0
     :try_start_2
     invoke-virtual {v1}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
@@ -905,12 +839,10 @@
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {v1, v3}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
     new-array v5, v6, [Ljava/lang/Object;
 
-    .line 10
     sget-object v7, Lcom/commsource/util/x;->j:Lorg/aspectj/lang/c$b;
 
     invoke-static {v7, v4, v1, v2, v5}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -958,10 +890,8 @@
 
     const-string v2, "stopFinalizerWatchdogDaemonThread"
 
-    .line 11
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->p(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 12
     :catchall_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -979,7 +909,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/io/RandomAccessFile;
 
@@ -997,12 +926,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Ljava/nio/channels/FileLock;->close()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Ljava/io/File;->delete()Z
 
@@ -1017,28 +944,23 @@
     :catch_0
     move-exception v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Ljava/io/File;->delete()Z
 
     move-result v1
 
-    .line 7
     :cond_1
     invoke-static {p0, v1}, Lcom/commsource/util/x;->i(Ljava/io/File;Z)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1061,7 +983,6 @@
 
     const/4 v2, 0x1
 
-    .line 1
     :try_start_0
     const-class v3, Ljava/lang/reflect/Field;
 
@@ -1069,10 +990,8 @@
 
     move-result-object v3
 
-    .line 2
     invoke-virtual {v3, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/reflect/Field;->getModifiers()I
 
     move-result v4
@@ -1085,7 +1004,6 @@
 
     goto :goto_0
 
-    .line 4
     :catch_0
     :try_start_1
     const-class v3, Ljava/lang/reflect/Field;
@@ -1096,15 +1014,12 @@
 
     move-result-object v3
 
-    .line 5
     invoke-virtual {v3, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 6
     invoke-virtual {v3, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v4
@@ -1113,10 +1028,8 @@
 
     move-result-object v0
 
-    .line 8
     invoke-virtual {v0, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 9
     invoke-virtual {p0}, Ljava/lang/reflect/Field;->getModifiers()I
 
     move-result p0
@@ -1127,7 +1040,6 @@
     :try_end_1
     .catch Ljava/lang/NoSuchFieldException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 10
     :catch_1
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1142,7 +1054,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/commsource/util/x;
@@ -1337,12 +1248,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -1359,7 +1268,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1377,27 +1285,21 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     new-instance v3, Lcom/meitu/core/MTRtEffectFaceData;
 
     invoke-direct {v3}, Lcom/meitu/core/MTRtEffectFaceData;-><init>()V
 
-    .line 2
     invoke-virtual {v3}, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance()J
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/types/NativeBitmap;->createBitmap()Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v3
 
-    .line 4
     invoke-virtual {v3}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 5
     sput-boolean v1, Lcom/commsource/util/x;->f:Z
 
-    .line 6
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v3
@@ -1417,10 +1319,8 @@
 
     const-string v4, "--\u4e22\u51faUnsatisfiedLinkError-->"
 
-    .line 7
     invoke-static {v3, v4}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     new-instance v3, Ljava/lang/UnsatisfiedLinkError;
 
     const-string v4, "so miss test"
@@ -1431,7 +1331,6 @@
 
     throw v3
 
-    .line 9
     :cond_1
     :goto_0
     invoke-static {v2}, Lf/d/i/e;->W3(I)V
@@ -1440,11 +1339,9 @@
 
     goto :goto_1
 
-    .line 10
     :catchall_0
     sput-boolean v2, Lcom/commsource/util/x;->f:Z
 
-    .line 11
     invoke-static {}, Lf/d/i/e;->S0()I
 
     move-result v2
@@ -1453,7 +1350,6 @@
 
     invoke-static {v2}, Lf/d/i/e;->W3(I)V
 
-    .line 12
     :goto_1
     sget-boolean v1, Lcom/commsource/util/x;->f:Z
 
@@ -1472,17 +1368,14 @@
     :try_start_0
     const-string v1, "android.app.QueuedWork"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Class;->getDeclaredFields()[Ljava/lang/reflect/Field;
 
     move-result-object v1
 
-    .line 3
     array-length v2, v1
 
     const/4 v3, 0x0
@@ -1492,7 +1385,6 @@
 
     aget-object v4, v1, v3
 
-    .line 4
     invoke-virtual {v4}, Ljava/lang/reflect/Field;->getModifiers()I
 
     move-result v5
@@ -1505,7 +1397,6 @@
 
     goto/16 :goto_2
 
-    .line 5
     :cond_0
     sget v5, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -1529,20 +1420,16 @@
 
     if-eqz v9, :cond_2
 
-    .line 6
     invoke-virtual {v4, v7}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 7
     invoke-static {v4}, Lcom/commsource/util/x;->a(Ljava/lang/reflect/Field;)V
 
-    .line 8
     invoke-virtual {v4, v8}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/util/concurrent/ConcurrentLinkedQueue;
 
-    .line 9
     instance-of v1, v1, Lcom/commsource/util/FixSpConcurrentLinkQueue;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1554,12 +1441,10 @@
     :try_start_1
     const-string v1, "clearQueueWork2."
 
-    .line 10
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_3
 
-    .line 11
     :cond_1
     new-instance v1, Lcom/commsource/util/FixSpConcurrentLinkQueue;
 
@@ -1569,7 +1454,6 @@
 
     const-string v1, "clearQueueWork1."
 
-    .line 12
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
@@ -1577,7 +1461,6 @@
     :cond_2
     if-le v5, v6, :cond_6
 
-    .line 13
     invoke-virtual {v4}, Ljava/lang/reflect/Field;->getName()Ljava/lang/String;
 
     move-result-object v5
@@ -1594,33 +1477,27 @@
 
     if-eqz v5, :cond_4
 
-    .line 14
     :try_start_2
     invoke-virtual {v4, v7}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 15
     invoke-static {v4}, Lcom/commsource/util/x;->a(Ljava/lang/reflect/Field;)V
 
-    .line 16
     invoke-virtual {v4, v8}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Ljava/util/LinkedList;
 
-    .line 17
     instance-of v5, v5, Lcom/commsource/util/FixSpLinkList;
 
     if-eqz v5, :cond_3
 
     const-string v5, "finisher clearQueueWork2."
 
-    .line 18
     invoke-static {v6, v5}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 19
     :cond_3
     new-instance v5, Lcom/commsource/util/FixSpLinkList;
 
@@ -1630,10 +1507,8 @@
 
     const-string v5, "finisher clearQueueWork1."
 
-    .line 20
     invoke-static {v6, v5}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 21
     :cond_4
     :goto_1
     invoke-virtual {v4}, Ljava/lang/reflect/Field;->getName()Ljava/lang/String;
@@ -1648,32 +1523,26 @@
 
     if-eqz v5, :cond_6
 
-    .line 22
     invoke-virtual {v4, v7}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 23
     invoke-static {v4}, Lcom/commsource/util/x;->a(Ljava/lang/reflect/Field;)V
 
-    .line 24
     invoke-virtual {v4, v8}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Ljava/util/LinkedList;
 
-    .line 25
     instance-of v5, v5, Lcom/commsource/util/FixSpLinkList;
 
     if-eqz v5, :cond_5
 
     const-string v4, "work clearQueueWork2."
 
-    .line 26
     invoke-static {v6, v4}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
-    .line 27
     :cond_5
     new-instance v5, Lcom/commsource/util/FixSpLinkList;
 
@@ -1683,7 +1552,6 @@
 
     const-string v4, "work clearQueueWork1."
 
-    .line 28
     invoke-static {v6, v4}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -1697,10 +1565,8 @@
     :catchall_0
     move-exception v1
 
-    .line 29
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 30
     :cond_7
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1717,17 +1583,14 @@
 
     const-string v1, "\\."
 
-    .line 1
     invoke-virtual {p0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p1, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     array-length v1, p0
 
     array-length v2, p1
@@ -1745,14 +1608,12 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 4
     aget-object v4, p0, v3
 
     invoke-static {v4, v2}, Lcom/commsource/util/common/i;->D(Ljava/lang/String;I)I
 
     move-result v4
 
-    .line 5
     aget-object v5, p1, v3
 
     invoke-static {v5, v2}, Lcom/commsource/util/common/i;->D(Ljava/lang/String;I)I
@@ -1776,7 +1637,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_2
     array-length p0, p0
 
@@ -1784,7 +1644,6 @@
 
     sub-int v4, p0, p1
 
-    .line 7
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1798,20 +1657,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x1c
 
     if-lt v1, v2, :cond_4
 
-    .line 2
     :try_start_0
     new-instance v1, Ljava/util/HashSet;
 
     invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getDataDir()Ljava/io/File;
 
     move-result-object v2
@@ -1826,7 +1682,6 @@
 
     const-string v5, "/webview_data.lock"
 
-    .line 4
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v6
@@ -1843,7 +1698,6 @@
 
     if-nez v6, :cond_1
 
-    .line 5
     :try_start_1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1855,11 +1709,9 @@
 
     move-result-object p1
 
-    .line 6
     :cond_0
     invoke-static {p1}, Landroid/webkit/WebView;->setDataDirectorySuffix(Ljava/lang/String;)V
 
-    .line 7
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1872,7 +1724,6 @@
 
     move-result-object p0
 
-    .line 8
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1891,7 +1742,6 @@
 
     invoke-interface {v1, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 9
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1912,7 +1762,6 @@
 
     invoke-interface {v1, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 10
     invoke-static {}, Lcom/commsource/util/r2/c;->a()Lcom/commsource/util/r2/c;
 
     move-result-object p1
@@ -1923,7 +1772,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 11
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1944,7 +1792,6 @@
 
     goto/16 :goto_0
 
-    .line 12
     :cond_1
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -1958,7 +1805,6 @@
 
     move-result-object p0
 
-    .line 13
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1975,7 +1821,6 @@
 
     invoke-interface {v1, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 14
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1994,7 +1839,6 @@
 
     invoke-interface {v1, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 15
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2015,7 +1859,6 @@
 
     invoke-interface {v1, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 16
     invoke-static {}, Lcom/commsource/util/r2/c;->a()Lcom/commsource/util/r2/c;
 
     move-result-object p1
@@ -2026,7 +1869,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 17
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2043,7 +1885,6 @@
 
     invoke-interface {v1, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 18
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2062,7 +1903,6 @@
 
     invoke-interface {v1, p0}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 19
     :cond_2
     :goto_0
     invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -2082,19 +1922,16 @@
 
     check-cast p1, Ljava/lang/String;
 
-    .line 20
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 21
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    .line 22
     invoke-static {v1}, Lcom/commsource/util/x;->V(Ljava/io/File;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -2104,10 +1941,8 @@
     :catch_0
     move-exception p0
 
-    .line 23
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 24
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2125,14 +1960,12 @@
     :try_start_0
     const-string v1, "clipboard"
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/content/ClipboardManager;
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/content/ClipboardManager;->setText(Ljava/lang/CharSequence;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -2142,10 +1975,8 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2161,7 +1992,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
@@ -2169,7 +1999,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/File;->createNewFile()Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -2179,10 +2008,8 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 4
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2217,7 +2044,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2237,7 +2063,6 @@
 
     if-nez p0, :cond_4
 
-    .line 2
     invoke-static {p1, p3}, Lcom/commsource/util/x;->f(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p0
@@ -2252,7 +2077,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2266,7 +2090,6 @@
 
     if-nez p0, :cond_4
 
-    .line 4
     invoke-static {p1, p3}, Lcom/commsource/util/x;->f(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p0
@@ -2275,7 +2098,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2289,7 +2111,6 @@
 
     if-nez p0, :cond_4
 
-    .line 6
     invoke-static {p1, p2}, Lcom/commsource/util/x;->f(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p0
@@ -2298,7 +2119,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2312,7 +2132,6 @@
 
     if-nez p0, :cond_4
 
-    .line 8
     invoke-static {p1, p3}, Lcom/commsource/util/x;->f(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p0
@@ -2325,7 +2144,6 @@
     :goto_0
     const/4 v1, 0x0
 
-    .line 9
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2343,7 +2161,6 @@
     :try_start_0
     const-string v1, "android.app.ActivityThread"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -2354,14 +2171,12 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {v1, v2, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v2
 
     new-array v4, v3, [Ljava/lang/Object;
 
-    .line 3
     sget-object v5, Lcom/commsource/util/x;->k:Lorg/aspectj/lang/c$b;
 
     const/4 v6, 0x0
@@ -2408,59 +2223,48 @@
 
     const-string v7, "mH"
 
-    .line 4
     invoke-virtual {v1, v7}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 6
     invoke-virtual {v1, v5}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     const-string v5, "android.os.Handler"
 
-    .line 7
     invoke-static {v5}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v5
 
     const-string v7, "mQueue"
 
-    .line 8
     invoke-virtual {v5, v7}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v5
 
-    .line 9
     invoke-virtual {v5, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 10
     invoke-virtual {v5, v1}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     const-string v5, "android.os.MessageQueue"
 
-    .line 11
     invoke-static {v5}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v5
 
     const-string v7, "mMessages"
 
-    .line 12
     invoke-virtual {v5, v7}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v5
 
-    .line 13
     invoke-virtual {v5, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 14
     invoke-virtual {v5, v1}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -2468,14 +2272,12 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 15
     invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v5
 
     if-eqz p0, :cond_0
 
-    .line 16
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v7
@@ -2492,7 +2294,6 @@
 
     const-string v7, "android.app.Activity"
 
-    .line 17
     invoke-static {v7}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v7
@@ -2501,14 +2302,12 @@
 
     new-array v12, v3, [Ljava/lang/Class;
 
-    .line 18
     invoke-virtual {v7, v11, v12}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v7
 
     new-array v11, v3, [Ljava/lang/Object;
 
-    .line 19
     sget-object v12, Lcom/commsource/util/x;->l:Lorg/aspectj/lang/c$b;
 
     invoke-static {v12, v6, v7, p0, v11}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -2541,7 +2340,6 @@
 
     move-result-object v7
 
-    .line 20
     invoke-virtual {v7}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v7
@@ -2552,12 +2350,10 @@
 
     if-eqz v5, :cond_0
 
-    .line 21
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_1
 
-    .line 22
     :cond_0
     invoke-static {v1}, Lcom/commsource/util/x;->t(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -2570,10 +2366,8 @@
     :catchall_0
     move-exception p0
 
-    .line 23
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 24
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2591,39 +2385,32 @@
     :try_start_0
     const-string v1, "android.gestureboost.GestureBoostManager"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
 
     const-string v2, "sGestureBoostManager"
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v2
 
     const/4 v3, 0x1
 
-    .line 3
     invoke-virtual {v2, v3}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 4
     invoke-virtual {v2, v1}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
     const-string v4, "mContext"
 
-    .line 5
     invoke-virtual {v1, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1, v3}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 7
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -2632,7 +2419,6 @@
 
     const/4 p0, 0x0
 
-    .line 8
     invoke-virtual {v1, v2, p0}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -2644,10 +2430,8 @@
 
     const-string v1, "fixHuaWeiMemoryLeak"
 
-    .line 9
     invoke-static {v1, p0}, Lcom/meitu/library/util/Debug/Debug;->g(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 10
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2665,7 +2449,6 @@
     :try_start_0
     const-string v1, "android.app.ActivityThread"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -2676,14 +2459,12 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {v1, v2, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v2
 
     new-array v4, v3, [Ljava/lang/Object;
 
-    .line 3
     sget-object v5, Lcom/commsource/util/x;->h:Lorg/aspectj/lang/c$b;
 
     const/4 v6, 0x0
@@ -2732,17 +2513,14 @@
 
     new-array v11, v3, [Ljava/lang/Class;
 
-    .line 4
     invoke-virtual {v1, v7, v11}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
     new-array v7, v3, [Ljava/lang/Object;
 
-    .line 6
     sget-object v11, Lcom/commsource/util/x;->i:Lorg/aspectj/lang/c$b;
 
     invoke-static {v11, v6, v1, v5, v7}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -2775,7 +2553,6 @@
 
     move-result-object v1
 
-    .line 7
     const-class v3, Landroid/os/Handler;
 
     const-string v4, "mCallback"
@@ -2784,13 +2561,10 @@
 
     move-result-object v3
 
-    .line 8
     invoke-static {v3}, Lcom/commsource/util/x;->a(Ljava/lang/reflect/Field;)V
 
-    .line 9
     invoke-virtual {v3, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 10
     sget-object v2, Lcom/commsource/util/b;->a:Lcom/commsource/util/b;
 
     invoke-virtual {v3, v1, v2}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -2802,10 +2576,8 @@
     :catchall_0
     move-exception v1
 
-    .line 11
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 12
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2823,12 +2595,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {p0}, Lcom/meitu/library/i/i;->e(Landroid/content/Context;)Ljava/lang/String;
@@ -2842,10 +2612,8 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2859,12 +2627,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     new-instance v3, Ljava/text/SimpleDateFormat;
 
     new-instance v4, Ljava/util/Locale;
@@ -2877,7 +2643,6 @@
 
     invoke-direct {v3, v5, v4}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
-    .line 3
     new-instance v4, Ljava/util/Date;
 
     invoke-direct {v4, v1, v2}, Ljava/util/Date;-><init>(J)V
@@ -2898,21 +2663,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/c0;->t(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, "https://in.api.beautyplus.meitu.com"
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->v(Landroid/content/Context;)Z
 
@@ -2920,14 +2682,12 @@
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, "https://jp.api.beautyplus.meitu.com"
 
     return-object p0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2943,7 +2703,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/content/pm/PackageManager;->getInstalledPackages(I)Ljava/util/List;
 
     move-result-object p0
@@ -2960,7 +2719,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -2976,7 +2734,6 @@
 
     move-result-object p0
 
-    .line 2
     iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
 
     invoke-virtual {p0, p1}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;)Z
@@ -2990,12 +2747,10 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3011,7 +2766,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -3027,7 +2781,6 @@
 
     move-result-object p0
 
-    .line 2
     iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
 
     invoke-virtual {p0, p1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
@@ -3036,7 +2789,6 @@
 
     const-string p0, "zsy"
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -3066,10 +2818,8 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3086,31 +2836,26 @@
     :try_start_0
     const-string v1, "android.os.Message"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
 
     const-string v2, "next"
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 4
     invoke-virtual {v1, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -3118,12 +2863,10 @@
     :catch_0
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -3142,13 +2885,11 @@
 
     const/4 v3, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
 
-    .line 2
     sget-object v4, Lcom/commsource/util/x;->g:Lorg/aspectj/lang/c$b;
 
     invoke-static {v3}, Ln/a/b/b/e;->k(I)Ljava/lang/Object;
@@ -3195,7 +2936,6 @@
 
     check-cast p0, Ljava/util/List;
 
-    .line 3
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -3213,7 +2953,6 @@
 
     check-cast v4, Landroid/content/pm/PackageInfo;
 
-    .line 4
     iget-object v5, v4, Landroid/content/pm/PackageInfo;->packageName:Ljava/lang/String;
 
     invoke-virtual {v5, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -3240,7 +2979,6 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3254,7 +2992,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3271,7 +3008,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3288,7 +3024,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3305,7 +3040,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3322,7 +3056,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0

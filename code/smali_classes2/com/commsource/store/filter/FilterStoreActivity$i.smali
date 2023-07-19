@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$i;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/FilterStoreActivity$i;->e(Ljava/lang/Boolean;)V
@@ -77,17 +75,14 @@
 
     if-eqz p1, :cond_6
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
     if-eqz p1, :cond_5
 
-    .line 3
     sget-object p1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -100,7 +95,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$i;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/store/filter/FilterStoreActivity;->R0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/beautyplus/f0/y;
@@ -148,10 +142,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     check-cast v1, Lcom/commsource/widget/title/c;
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/widget/title/c;->f()Lcom/commsource/widget/IconFrontView;
 
     move-result-object p1
@@ -162,7 +154,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -174,14 +165,12 @@
 
     throw p1
 
-    .line 8
     :cond_3
     :goto_1
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$i;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-virtual {p1}, Lcom/commsource/store/filter/FilterStoreActivity;->V0()V
 
-    .line 9
     :cond_4
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$i;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
@@ -193,12 +182,10 @@
 
     invoke-virtual {p1}, Lcom/commsource/widget/mask/MaskContainer;->b()V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$i;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/store/filter/FilterStoreActivity;->N0(Lcom/commsource/store/filter/FilterStoreActivity;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$i;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/store/filter/FilterStoreActivity;->P0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/store/filter/FilterStoreViewModel;
@@ -209,13 +196,11 @@
 
     goto :goto_2
 
-    .line 12
     :cond_5
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$i;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/store/filter/FilterStoreActivity;->N0(Lcom/commsource/store/filter/FilterStoreActivity;)V
 
-    .line 13
     :cond_6
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

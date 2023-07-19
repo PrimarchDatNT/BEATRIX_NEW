@@ -22,7 +22,6 @@
 .method constructor <init>(Lf/k/k/t/a;Lokio/Sink;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/k/t/a$a;->a:Lf/k/k/t/a;
 
     invoke-direct {p0, p2}, Lokio/ForwardingSink;-><init>(Lokio/Sink;)V
@@ -44,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/k/t/a$a;->a:Lf/k/k/t/a;
 
     invoke-static {v1}, Lf/k/k/t/a;->a(Lf/k/k/t/a;)J
@@ -57,7 +55,6 @@
 
     if-nez v5, :cond_1
 
-    .line 2
     iget-object v1, p0, Lf/k/k/t/a$a;->a:Lf/k/k/t/a;
 
     invoke-static {v1}, Lf/k/k/t/a;->c(Lf/k/k/t/a;)Lf/k/k/j;
@@ -66,7 +63,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lf/k/k/t/a$a;->a:Lf/k/k/t/a;
 
     invoke-static {v1}, Lf/k/k/t/a;->c(Lf/k/k/t/a;)Lf/k/k/j;
@@ -75,7 +71,6 @@
 
     invoke-interface {v1}, Lf/k/k/j;->onStart()V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lf/k/k/t/a$a;->a:Lf/k/k/t/a;
 
@@ -85,7 +80,6 @@
 
     invoke-static {v1, v2, v3}, Lf/k/k/t/a;->b(Lf/k/k/t/a;J)J
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lf/k/k/t/a$a;->a:Lf/k/k/t/a;
 
@@ -97,7 +91,6 @@
 
     invoke-static {v1, v2, v3}, Lf/k/k/t/a;->e(Lf/k/k/t/a;J)J
 
-    .line 6
     iget-object v1, p0, Lf/k/k/t/a$a;->a:Lf/k/k/t/a;
 
     invoke-static {v1}, Lf/k/k/t/a;->c(Lf/k/k/t/a;)Lf/k/k/j;
@@ -106,7 +99,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 7
     iget-object v1, p0, Lf/k/k/t/a$a;->a:Lf/k/k/t/a;
 
     invoke-static {v1}, Lf/k/k/t/a;->c(Lf/k/k/t/a;)Lf/k/k/j;
@@ -127,11 +119,9 @@
 
     invoke-interface {v1, v2, v3, v4, v5}, Lf/k/k/j;->onProgress(JJ)V
 
-    .line 8
     :cond_2
     invoke-super {p0, p1, p2, p3}, Lokio/ForwardingSink;->write(Lokio/Buffer;J)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

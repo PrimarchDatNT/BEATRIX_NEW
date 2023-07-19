@@ -78,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void

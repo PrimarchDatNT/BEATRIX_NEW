@@ -56,12 +56,10 @@
 .method constructor <init>(Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->d:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iget-object v0, p1, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;->header:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
     iget-object v0, v0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;->d:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
@@ -70,10 +68,8 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->b:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
-    .line 4
     iget p1, p1, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;->modCount:I
 
     iput p1, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->c:I
@@ -93,34 +89,28 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
-    .line 2
     iget-object v1, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->d:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;
 
     iget-object v2, v1, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;->header:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
     if-eq v0, v2, :cond_1
 
-    .line 3
     iget v1, v1, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;->modCount:I
 
     iget v2, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->c:I
 
     if-ne v1, v2, :cond_0
 
-    .line 4
     iget-object v1, v0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;->d:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
     iput-object v1, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
-    .line 5
     iput-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->b:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
     return-object v0
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/util/ConcurrentModificationException;
 
@@ -128,7 +118,6 @@
 
     throw v0
 
-    .line 7
     :cond_1
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -140,7 +129,6 @@
 .method public final hasNext()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
     iget-object v1, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->d:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;
@@ -163,12 +151,10 @@
 .method public final remove()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->b:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->d:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;
 
     const/4 v2, 0x1
@@ -177,10 +163,8 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->b:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
-    .line 4
     iget-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->d:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;
 
     iget v0, v0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;->modCount:I
@@ -189,7 +173,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 

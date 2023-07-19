@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer$d;->a:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/PaintMaskLayer;->L0()Z
@@ -63,7 +62,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer$d;->a:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     const-string v2, "it"
@@ -86,7 +84,6 @@
     :goto_0
     invoke-static {v1, p1}, Lcom/commsource/studio/layer/PaintMaskLayer;->B0(Lcom/commsource/studio/layer/PaintMaskLayer;F)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer$d;->a:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
@@ -95,7 +92,6 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -109,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/PaintMaskLayer$d;->a(Ljava/lang/Boolean;)V

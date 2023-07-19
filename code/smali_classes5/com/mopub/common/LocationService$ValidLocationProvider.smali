@@ -41,7 +41,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lcom/mopub/common/LocationService$ValidLocationProvider;
 
     const-string v1, "NETWORK"
@@ -54,7 +53,6 @@
 
     sput-object v0, Lcom/mopub/common/LocationService$ValidLocationProvider;->NETWORK:Lcom/mopub/common/LocationService$ValidLocationProvider;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/LocationService$ValidLocationProvider;
 
     const-string v3, "GPS"
@@ -75,7 +73,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/mopub/common/LocationService$ValidLocationProvider;->$VALUES:[Lcom/mopub/common/LocationService$ValidLocationProvider;
 
     return-void
@@ -95,10 +92,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/common/LocationService$ValidLocationProvider;->name:Ljava/lang/String;
 
     return-void
@@ -107,7 +102,6 @@
 .method static synthetic access$000(Lcom/mopub/common/LocationService$ValidLocationProvider;Landroid/content/Context;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/common/LocationService$ValidLocationProvider;->hasRequiredPermissions(Landroid/content/Context;)Z
 
     move-result p0
@@ -122,7 +116,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/LocationService$1;->$SwitchMap$com$mopub$common$LocationService$ValidLocationProvider:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -145,7 +138,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p1, v2}, Lcom/mopub/common/util/DeviceUtils;->isPermissionGranted(Landroid/content/Context;Ljava/lang/String;)Z
 
@@ -153,7 +145,6 @@
 
     return p1
 
-    .line 3
     :cond_1
     invoke-static {p1, v2}, Lcom/mopub/common/util/DeviceUtils;->isPermissionGranted(Landroid/content/Context;Ljava/lang/String;)Z
 
@@ -163,7 +154,6 @@
 
     const-string v0, "android.permission.ACCESS_COARSE_LOCATION"
 
-    .line 4
     invoke-static {p1, v0}, Lcom/mopub/common/util/DeviceUtils;->isPermissionGranted(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p1
@@ -180,7 +170,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/LocationService$ValidLocationProvider;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/LocationService$ValidLocationProvider;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -195,7 +184,6 @@
 .method public static values()[Lcom/mopub/common/LocationService$ValidLocationProvider;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/LocationService$ValidLocationProvider;->$VALUES:[Lcom/mopub/common/LocationService$ValidLocationProvider;
 
     invoke-virtual {v0}, [Lcom/mopub/common/LocationService$ValidLocationProvider;->clone()Ljava/lang/Object;
@@ -212,7 +200,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/LocationService$ValidLocationProvider;->name:Ljava/lang/String;
 
     return-object v0

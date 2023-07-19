@@ -24,13 +24,10 @@
 .method constructor <init>(Lorg/jsoup/nodes/Element;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/jsoup/c/a$c;->a:Lorg/jsoup/nodes/Element;
 
-    .line 3
     iput p2, p0, Lorg/jsoup/c/a$c;->b:I
 
     return-void

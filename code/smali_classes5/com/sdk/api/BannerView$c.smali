@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/api/BannerView;Lcom/sdk/imp/internal/loader/Ad;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/BannerView$c;->b:Lcom/sdk/api/BannerView;
 
     iput-object p2, p0, Lcom/sdk/api/BannerView$c;->a:Lcom/sdk/imp/internal/loader/Ad;
@@ -42,7 +41,6 @@
 .method public a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/api/BannerView$c;->a:Lcom/sdk/imp/internal/loader/Ad;
 
     if-eqz v0, :cond_0
@@ -55,14 +53,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/BannerView$c;->b:Lcom/sdk/api/BannerView;
 
     const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lcom/sdk/api/BannerView;->e(Lcom/sdk/api/BannerView;Z)Z
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -87,7 +83,6 @@
 
     invoke-static {v1, v0}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/api/BannerView$c;->a:Lcom/sdk/imp/internal/loader/Ad;
 
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->getThirdImpUrl()Ljava/lang/String;
@@ -96,7 +91,6 @@
 
     invoke-static {v0}, Lcom/sdk/imp/z/g;->g(Ljava/lang/String;)V
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/api/BannerView$c;->b:Lcom/sdk/api/BannerView;
 
     invoke-static {v0}, Lcom/sdk/api/BannerView;->b(Lcom/sdk/api/BannerView;)Lcom/sdk/imp/d;
@@ -105,7 +99,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 6
     iget-object v0, p0, Lcom/sdk/api/BannerView$c;->b:Lcom/sdk/api/BannerView;
 
     invoke-static {v0}, Lcom/sdk/api/BannerView;->b(Lcom/sdk/api/BannerView;)Lcom/sdk/imp/d;

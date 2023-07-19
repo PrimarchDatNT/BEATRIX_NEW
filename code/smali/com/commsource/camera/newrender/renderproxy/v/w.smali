@@ -15,20 +15,16 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;-><init>()V
 
     const/high16 v0, -0x40800000    # -1.0f
 
-    .line 2
     iput v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->b:F
 
-    .line 3
     iput v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->c:F
 
     const/16 v0, 0x94
 
-    .line 4
     iput v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->d:I
 
     return-void
@@ -47,12 +43,10 @@
 
     const/16 p1, 0xb
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -66,12 +60,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->d:I
 
     invoke-direct {p0, v1, p1}, Lcom/commsource/camera/newrender/renderproxy/v/w;->u2(IF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -84,10 +76,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/camera/newrender/renderproxy/v/w;->u2(IF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -102,10 +92,8 @@
 
     const/16 v1, 0x90
 
-    .line 1
     invoke-direct {p0, v1, p1}, Lcom/commsource/camera/newrender/renderproxy/v/w;->v2(IF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -118,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -139,7 +126,6 @@
 
     if-eqz v1, :cond_c
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -152,7 +138,6 @@
 
     goto/16 :goto_6
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -178,7 +163,6 @@
 
     if-ne p1, v2, :cond_3
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object p1
@@ -201,17 +185,14 @@
 
     if-eqz v1, :cond_b
 
-    .line 5
     invoke-virtual {v1, p2}, Lcom/commsource/camera/param/MakeupParam;->setAlpha(F)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/camera/param/MakeupParam;->isCloseSuitOtherEffect()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 7
     invoke-static {p1, v3, p2}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->z(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;IF)V
 
     goto :goto_0
@@ -219,10 +200,8 @@
     :cond_1
     const/4 p2, 0x0
 
-    .line 8
     invoke-static {p1, v3, p2}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->z(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;IF)V
 
-    .line 9
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -254,26 +233,22 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 10
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/commsource/camera/param/MakeupParam;
 
-    .line 11
     invoke-virtual {v2}, Lcom/commsource/camera/param/MakeupParam;->isSuitSingleConfig()Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    .line 12
     invoke-virtual {v2}, Lcom/commsource/camera/param/MakeupParam;->getMakeupType()I
 
     move-result v3
 
-    .line 13
     invoke-virtual {v2}, Lcom/commsource/camera/param/MakeupParam;->getAlpha()F
 
     move-result v2
@@ -284,12 +259,10 @@
 
     mul-float v2, v2, v4
 
-    .line 14
     invoke-static {p1, v3, v2}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->C(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;IF)V
 
     goto :goto_1
 
-    .line 15
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -317,7 +290,6 @@
 
     if-ne p1, v5, :cond_5
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v3
@@ -337,10 +309,8 @@
     :cond_5
     if-eqz v4, :cond_6
 
-    .line 17
     invoke-virtual {v4, p2}, Lcom/commsource/camera/param/MakeupParam;->setAlpha(F)V
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v4
@@ -361,14 +331,12 @@
 
     if-eqz v4, :cond_a
 
-    .line 19
     invoke-static {v4, v3, p2}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->z(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;IF)V
 
     const/16 v3, 0xa
 
     if-ne p1, v3, :cond_4
 
-    .line 20
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v3
@@ -397,7 +365,6 @@
 
     if-gt v4, v8, :cond_9
 
-    .line 21
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v8
@@ -418,10 +385,8 @@
 
     if-eqz v8, :cond_8
 
-    .line 22
     invoke-virtual {v8, p2}, Lcom/commsource/camera/param/MakeupParam;->setAlpha(F)V
 
-    .line 23
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v8
@@ -440,7 +405,6 @@
 
     check-cast v8, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
-    .line 24
     invoke-static {v8, v3, p2}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->z(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;IF)V
 
     if-eqz v8, :cond_7
@@ -469,7 +433,6 @@
 
     if-eqz v1, :cond_b
 
-    .line 25
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v3
@@ -488,23 +451,19 @@
 
     check-cast v2, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
-    .line 26
     invoke-virtual {v1}, Lcom/commsource/camera/param/MakeupParam;->getAlpha()F
 
     move-result v1
 
     mul-float v1, v1, p2
 
-    .line 27
     invoke-static {v2, p1, v1}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->C(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;IF)V
 
-    .line 28
     :cond_b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 29
     :cond_c
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -519,7 +478,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -540,7 +498,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -553,7 +510,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -563,7 +519,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v2
@@ -574,7 +529,6 @@
 
     const/4 v3, 0x2
 
-    .line 5
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -585,7 +539,6 @@
 
     check-cast v4, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
-    .line 6
     invoke-interface {v2}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     move-result-object v2
@@ -607,12 +560,10 @@
 
     check-cast v5, Lcom/commsource/camera/param/MakeupParam;
 
-    .line 7
     invoke-virtual {v5}, Lcom/commsource/camera/param/MakeupParam;->getMakeupType()I
 
     move-result v6
 
-    .line 8
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v7
@@ -625,7 +576,6 @@
 
     if-eqz v5, :cond_1
 
-    .line 9
     invoke-virtual {v5}, Lcom/commsource/camera/param/MakeupParam;->getMakeupType()I
 
     move-result v5
@@ -637,18 +587,15 @@
     :cond_1
     if-nez v7, :cond_2
 
-    .line 10
     invoke-static {v4, v6, p1}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->c(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;IZ)V
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-static {v7, v6, p1}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->b(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;IZ)V
 
     goto :goto_0
 
-    .line 12
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -656,12 +603,10 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/newrender/renderproxy/m;->E0()V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 14
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -689,7 +634,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -711,33 +655,28 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/Integer;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->getPartControl()[Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     array-length v3, v1
 
     if-lez v3, :cond_0
 
-    .line 6
     array-length v3, v1
 
     const/4 v4, 0x0
@@ -747,7 +686,6 @@
 
     aget-object v5, v1, v4
 
-    .line 7
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
 
     move-result v6
@@ -762,7 +700,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -776,7 +713,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -799,7 +735,6 @@
 
     goto :goto_5
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -821,12 +756,10 @@
 
     if-nez p1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->getPartControl()[Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
 
@@ -834,7 +767,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 5
     array-length v1, p1
 
     const/4 v2, 0x1
@@ -843,7 +775,6 @@
 
     goto :goto_4
 
-    .line 6
     :cond_2
     array-length v1, p1
 
@@ -856,21 +787,18 @@
 
     aget-object v5, p1, v4
 
-    .line 7
     invoke-virtual {v5}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;->getParamControl()[Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamControlJNI;
 
     move-result-object v5
 
     if-eqz v5, :cond_6
 
-    .line 8
     array-length v6, v5
 
     if-nez v6, :cond_3
 
     goto :goto_3
 
-    .line 9
     :cond_3
     array-length v6, v5
 
@@ -881,17 +809,14 @@
 
     aget-object v8, v5, v7
 
-    .line 10
     invoke-virtual {v8}, Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamControlJNI;->getParamType()I
 
     move-result v9
 
     if-ne v9, v2, :cond_5
 
-    .line 11
     check-cast v8, Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;
 
-    .line 12
     invoke-virtual {v8}, Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamControlJNI;->getParamFlag()I
 
     move-result v9
@@ -908,12 +833,10 @@
 
     goto :goto_2
 
-    .line 13
     :cond_4
     :pswitch_0
     invoke-virtual {v8, p2}, Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->setCurrentValue(F)V
 
-    .line 14
     invoke-virtual {v8}, Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamControlJNI;->dispatch()V
 
     :cond_5
@@ -928,20 +851,17 @@
 
     goto :goto_0
 
-    .line 15
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_8
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 17
     :cond_9
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -966,7 +886,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -989,11 +908,9 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_0
     iput p2, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->b:F
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -1014,12 +931,10 @@
 
     if-nez p1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->getPartControl()[Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
 
@@ -1027,7 +942,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 6
     array-length v1, p1
 
     const/4 v2, 0x1
@@ -1036,7 +950,6 @@
 
     goto :goto_3
 
-    .line 7
     :cond_2
     array-length v1, p1
 
@@ -1049,28 +962,24 @@
 
     aget-object v5, p1, v4
 
-    .line 8
     invoke-static {v5, v2, v3}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->n(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;ZZ)Z
 
     move-result v6
 
     if-eqz v6, :cond_5
 
-    .line 9
     invoke-virtual {v5}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;->getParamControl()[Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamControlJNI;
 
     move-result-object v5
 
     if-eqz v5, :cond_5
 
-    .line 10
     array-length v6, v5
 
     if-nez v6, :cond_3
 
     goto :goto_2
 
-    .line 11
     :cond_3
     array-length v6, v5
 
@@ -1081,31 +990,26 @@
 
     aget-object v8, v5, v7
 
-    .line 12
     invoke-virtual {v8}, Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamControlJNI;->getParamType()I
 
     move-result v9
 
     if-ne v9, v2, :cond_4
 
-    .line 13
     move-object v9, v8
 
     check-cast v9, Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;
 
-    .line 14
     invoke-virtual {v8}, Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamControlJNI;->getParamFlag()I
 
     move-result v8
 
-    .line 15
     invoke-static {v8}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->p(I)Z
 
     move-result v8
 
     if-eqz v8, :cond_4
 
-    .line 16
     invoke-virtual {v9}, Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->getDefaultValue()F
 
     move-result v8
@@ -1114,7 +1018,6 @@
 
     invoke-virtual {v9, v8}, Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->setCurrentValue(F)V
 
-    .line 17
     invoke-virtual {v9}, Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamControlJNI;->dispatch()V
 
     :cond_4
@@ -1128,20 +1031,17 @@
 
     goto :goto_0
 
-    .line 18
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 19
     :cond_7
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 20
     :cond_8
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1200,10 +1100,8 @@
 
     const/16 v1, 0x94
 
-    .line 1
     iput v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->d:I
 
-    .line 2
     iput p1, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->c:F
 
     const/high16 v1, -0x40800000    # -1.0f
@@ -1212,12 +1110,10 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -1229,7 +1125,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->m(Ljava/lang/Runnable;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1242,10 +1137,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->d:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->c:F
 
     const/high16 v1, -0x40800000    # -1.0f
@@ -1254,12 +1147,10 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -1271,7 +1162,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->m(Ljava/lang/Runnable;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1284,7 +1174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->b:F
 
     const/high16 v1, -0x40800000    # -1.0f
@@ -1293,12 +1182,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -1310,7 +1197,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->m(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1323,7 +1209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -1334,7 +1219,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->m(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1347,7 +1231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -1358,7 +1241,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->m(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1384,7 +1266,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Map;->isEmpty()Z
 
     move-result v0
@@ -1393,7 +1274,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -1419,14 +1299,12 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -1439,7 +1317,6 @@
 
     invoke-static {v4, v3}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->f(ILcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v4
@@ -1460,7 +1337,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/camera/param/MakeupParam;->getAlpha()F
 
     move-result v4
@@ -1471,12 +1347,10 @@
 
     const/16 v2, 0x100a
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/camera/param/MakeupParam;->getAlpha()F
 
     move-result v1
 
-    .line 8
     invoke-static {v3, v2, v1}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->z(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;IF)V
 
     goto :goto_0
@@ -1484,7 +1358,6 @@
     :cond_2
     const/16 v0, 0x94
 
-    .line 9
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -1495,10 +1368,8 @@
 
     if-eqz v0, :cond_3
 
-    .line 10
     invoke-static {p1}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->d(Ljava/util/Map;)V
 
-    .line 11
     :cond_3
     iget v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->c:F
 
@@ -1506,12 +1377,10 @@
 
     if-eqz v1, :cond_4
 
-    .line 12
     iget v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->d:I
 
     invoke-direct {p0, v1, v0}, Lcom/commsource/camera/newrender/renderproxy/v/w;->u2(IF)V
 
-    .line 13
     :cond_4
     iget v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/w;->b:F
 
@@ -1521,10 +1390,8 @@
 
     const/16 v1, 0x90
 
-    .line 14
     invoke-direct {p0, v1, v0}, Lcom/commsource/camera/newrender/renderproxy/v/w;->v2(IF)V
 
-    .line 15
     :cond_5
     invoke-static {p1}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->E(Ljava/util/Map;)Z
 
@@ -1532,7 +1399,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 16
     invoke-static {p1}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->I(Ljava/util/Map;)Z
 
     move-result p1
@@ -1541,13 +1407,11 @@
 
     return p1
 
-    .line 17
     :cond_6
     invoke-direct {p0, p1}, Lcom/commsource/camera/newrender/renderproxy/v/w;->o2(Ljava/util/Map;)V
 
     const/4 p1, 0x1
 
-    .line 18
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1556,7 +1420,6 @@
     :goto_1
     const/4 p1, 0x0
 
-    .line 19
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

@@ -37,13 +37,10 @@
 
     const-wide/32 v1, 0xea60
 
-    .line 1
     sput-wide v1, Lf/k/i/a/c;->h:J
 
-    .line 2
     sput-wide v1, Lf/k/i/a/c;->i:J
 
-    .line 3
     sput-wide v1, Lf/k/i/a/c;->j:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -54,32 +51,26 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-wide v0, Lf/k/i/a/c;->h:J
 
     iput-wide v0, p0, Lf/k/i/a/c;->a:J
 
-    .line 3
     sget-wide v0, Lf/k/i/a/c;->i:J
 
     iput-wide v0, p0, Lf/k/i/a/c;->b:J
 
-    .line 4
     sget-wide v0, Lf/k/i/a/c;->j:J
 
     iput-wide v0, p0, Lf/k/i/a/c;->c:J
 
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lf/k/i/a/c;->d:Z
 
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lf/k/i/a/c;->e:Lokhttp3/Dns;
 
     return-void
@@ -94,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/c;->g:Lokhttp3/ConnectionPool;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -109,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/c;->e:Lokhttp3/Dns;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -124,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/c;->f:Ljava/util/concurrent/ExecutorService;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -139,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lf/k/i/a/c;->a:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -154,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lf/k/i/a/c;->b:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lf/k/i/a/c;->c:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -184,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lf/k/i/a/c;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -199,10 +183,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/i/a/c;->g:Lokhttp3/ConnectionPool;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -215,10 +197,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/i/a/c;->e:Lokhttp3/Dns;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -231,10 +211,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/i/a/c;->f:Ljava/util/concurrent/ExecutorService;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -247,10 +225,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lf/k/i/a/c;->a:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -263,10 +239,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lf/k/i/a/c;->b:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -279,10 +253,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lf/k/i/a/c;->c:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -295,10 +267,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lf/k/i/a/c;->d:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

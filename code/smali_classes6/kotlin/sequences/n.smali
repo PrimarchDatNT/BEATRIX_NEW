@@ -66,7 +66,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlin/sequences/o;-><init>()V
 
     return-void
@@ -75,7 +74,6 @@
 .method private final g()Ljava/lang/Throwable;
     .locals 3
 
-    .line 1
     iget v0, p0, Lcotlin/sequences/n;->a:I
 
     const/4 v1, 0x4
@@ -86,7 +84,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/IllegalStateException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -109,7 +106,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -119,7 +115,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -137,7 +132,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/sequences/n;->hasNext()Z
 
     move-result v0
@@ -180,23 +174,18 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/n;->b:Ljava/lang/Object;
 
     const/4 p1, 0x3
 
-    .line 2
     iput p1, p0, Lcotlin/sequences/n;->a:I
 
-    .line 3
     iput-object p2, p0, Lcotlin/sequences/n;->d:Lcotlin/coroutines/c;
 
-    .line 4
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 5
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -246,7 +235,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -257,24 +245,19 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iput-object p1, p0, Lcotlin/sequences/n;->c:Ljava/util/Iterator;
 
     const/4 p1, 0x2
 
-    .line 3
     iput p1, p0, Lcotlin/sequences/n;->a:I
 
-    .line 4
     iput-object p2, p0, Lcotlin/sequences/n;->d:Lcotlin/coroutines/c;
 
-    .line 5
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 6
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -303,7 +286,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     return-object v0
@@ -312,7 +294,6 @@
 .method public hasNext()Z
     .locals 4
 
-    .line 1
     :goto_0
     iget v0, p0, Lcotlin/sequences/n;->a:I
 
@@ -340,7 +321,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcotlin/sequences/n;->g()Ljava/lang/Throwable;
 
@@ -351,7 +331,6 @@
     :cond_1
     return v3
 
-    .line 3
     :cond_2
     iget-object v0, p0, Lcotlin/sequences/n;->c:Ljava/util/Iterator;
 
@@ -363,30 +342,24 @@
 
     if-eqz v0, :cond_3
 
-    .line 4
     iput v2, p0, Lcotlin/sequences/n;->a:I
 
     return v3
 
-    .line 5
     :cond_3
     iput-object v1, p0, Lcotlin/sequences/n;->c:Ljava/util/Iterator;
 
     :cond_4
     const/4 v0, 0x5
 
-    .line 6
     iput v0, p0, Lcotlin/sequences/n;->a:I
 
-    .line 7
     iget-object v0, p0, Lcotlin/sequences/n;->d:Lcotlin/coroutines/c;
 
     invoke-static {v0}, Lcotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
 
-    .line 8
     iput-object v1, p0, Lcotlin/sequences/n;->d:Lcotlin/coroutines/c;
 
-    .line 9
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
     sget-object v2, Lcotlin/Result;->Companion:Lcotlin/Result$a;
@@ -414,7 +387,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/n;->d:Lcotlin/coroutines/c;
 
     return-object v0
@@ -436,7 +408,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/n;->d:Lcotlin/coroutines/c;
 
     return-void
@@ -450,7 +421,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/sequences/n;->a:I
 
     if-eqz v0, :cond_2
@@ -469,20 +439,16 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcotlin/sequences/n;->a:I
 
-    .line 3
     iget-object v0, p0, Lcotlin/sequences/n;->b:Ljava/lang/Object;
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcotlin/sequences/n;->b:Ljava/lang/Object;
 
     return-object v0
 
-    .line 5
     :cond_0
     invoke-direct {p0}, Lcotlin/sequences/n;->g()Ljava/lang/Throwable;
 
@@ -490,11 +456,9 @@
 
     throw v0
 
-    .line 6
     :cond_1
     iput v1, p0, Lcotlin/sequences/n;->a:I
 
-    .line 7
     iget-object v0, p0, Lcotlin/sequences/n;->c:Ljava/util/Iterator;
 
     invoke-static {v0}, Lcotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
@@ -505,7 +469,6 @@
 
     return-object v0
 
-    .line 8
     :cond_2
     invoke-direct {p0}, Lcotlin/sequences/n;->k()Ljava/lang/Object;
 
@@ -533,12 +496,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p1, 0x4
 
-    .line 2
     iput p1, p0, Lcotlin/sequences/n;->a:I
 
     return-void

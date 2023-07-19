@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/tencent/matrix/AppActiveMatrixDelegate;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/AppActiveMatrixDelegate$b;->a:Lcom/tencent/matrix/AppActiveMatrixDelegate;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,14 +37,12 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/AppActiveMatrixDelegate$b;->a:Lcom/tencent/matrix/AppActiveMatrixDelegate;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/tencent/matrix/AppActiveMatrixDelegate;->access$102(Lcom/tencent/matrix/AppActiveMatrixDelegate;Z)Z
 
-    .line 2
     iget-object v0, p0, Lcom/tencent/matrix/AppActiveMatrixDelegate$b;->a:Lcom/tencent/matrix/AppActiveMatrixDelegate;
 
     invoke-static {v0}, Lcom/tencent/matrix/AppActiveMatrixDelegate;->access$200(Lcom/tencent/matrix/AppActiveMatrixDelegate;)Ljava/util/Set;
@@ -54,7 +51,6 @@
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lcom/tencent/matrix/AppActiveMatrixDelegate$b;->a:Lcom/tencent/matrix/AppActiveMatrixDelegate;
 
@@ -79,12 +75,10 @@
 
     check-cast v3, Lcom/tencent/matrix/f/a;
 
-    .line 4
     invoke-interface {v3, v1}, Lcom/tencent/matrix/f/a;->a(Z)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     monitor-exit v0
 

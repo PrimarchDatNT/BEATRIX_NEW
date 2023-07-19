@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/gid/base/u;->x()Lcom/meitu/library/gid/base/u;
 
     move-result-object v1
@@ -47,12 +45,10 @@
 
     const-string v1, "GidContext is null, get Gid failed"
 
-    .line 2
     invoke-static {p1, v1}, Lcom/meitu/library/gid/base/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -60,7 +56,6 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/library/gid/base/u;->B()Z
 
     move-result p1

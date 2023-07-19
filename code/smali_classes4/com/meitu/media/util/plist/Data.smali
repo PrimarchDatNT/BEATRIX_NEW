@@ -31,15 +31,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/util/plist/PListObject;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/meitu/media/util/plist/PListObjectType;->DATA:Lcom/meitu/media/util/plist/PListObjectType;
 
     invoke-virtual {p0, v0}, Lcom/meitu/media/util/plist/PListObject;->setType(Lcom/meitu/media/util/plist/PListObjectType;)V
 
-    .line 3
     new-instance v0, Lcom/meitu/media/util/plist/g;
 
     invoke-direct {v0}, Lcom/meitu/media/util/plist/g;-><init>()V
@@ -58,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/util/plist/Data;->getValue()Ljava/lang/String;
 
     move-result-object v1
@@ -77,7 +73,6 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/meitu/media/util/plist/Data;->getValue(Z)Ljava/lang/String;
 
     move-result-object v1
@@ -94,14 +89,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/media/util/plist/Data;->dataStringer:Lcom/meitu/media/util/plist/g;
 
     invoke-virtual {v1}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/media/util/plist/Data;->dataStringer:Lcom/meitu/media/util/plist/g;
 
     invoke-virtual {p1}, Lcom/meitu/media/util/plist/g;->b()Ljava/lang/StringBuilder;
@@ -112,7 +105,6 @@
 
     iget-object v2, p0, Lcom/meitu/media/util/plist/Data;->rawData:[B
 
-    .line 5
     invoke-static {v2}, Lcom/meitu/media/util/plist/a;->e([B)[B
 
     move-result-object v2
@@ -125,17 +117,14 @@
 
     invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 8
     :cond_0
     iget-object p1, p0, Lcom/meitu/media/util/plist/Data;->dataStringer:Lcom/meitu/media/util/plist/g;
 
@@ -163,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/meitu/media/util/plist/Data;->setValue(Ljava/lang/String;)V
@@ -182,10 +170,8 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1, v1}, Lcom/meitu/media/util/plist/Data;->setValue(Ljava/lang/String;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -200,7 +186,6 @@
 
     if-nez p2, :cond_0
 
-    .line 4
     invoke-static {}, Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;
 
     move-result-object p2
@@ -219,7 +204,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {}, Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;
 
@@ -231,7 +215,6 @@
 
     iput-object p1, p0, Lcom/meitu/media/util/plist/Data;->rawData:[B
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -249,7 +232,6 @@
 
     const/4 p2, 0x0
 
-    .line 7
     invoke-static {p1, p2}, Lcom/meitu/media/util/plist/a;->g([BZ)[B
 
     move-result-object p1
@@ -258,11 +240,9 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iput-object p1, p0, Lcom/meitu/media/util/plist/Data;->rawData:[B
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

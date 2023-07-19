@@ -23,14 +23,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/doodle/DoodleRepository;
 
     invoke-direct {v1}, Lcom/commsource/studio/doodle/DoodleRepository;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/doodle/DoodleRepository;->c:Lcom/commsource/studio/doodle/DoodleRepository;
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/doodle/DoodleRepository$doodleDao$2;->INSTANCE:Lcom/commsource/studio/doodle/DoodleRepository$doodleDao$2;
 
     invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -39,7 +37,6 @@
 
     sput-object v1, Lcom/commsource/studio/doodle/DoodleRepository;->a:Lcotlin/w;
 
-    .line 3
     sget-object v1, Lcom/commsource/studio/doodle/DoodleRepository$doodleCategoryDao$2;->INSTANCE:Lcom/commsource/studio/doodle/DoodleRepository$doodleCategoryDao$2;
 
     invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -56,7 +53,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -127,7 +123,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->f()Lf/k/i0/a/n;
 
     move-result-object v1
@@ -136,7 +131,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/Doodle;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -145,14 +139,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/Doodle;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/n;->j([Lcom/meitu/template/bean/Doodle;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -188,7 +180,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->e()Lf/k/i0/a/l;
 
     move-result-object v1
@@ -197,7 +188,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/f;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -206,14 +196,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/f;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/l;->y([Lcom/meitu/template/bean/f;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -244,7 +232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->e()Lf/k/i0/a/l;
 
     move-result-object v1
@@ -276,7 +263,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->f()Lf/k/i0/a/n;
 
     move-result-object v1
@@ -299,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->e()Lf/k/i0/a/l;
 
     move-result-object v1
@@ -326,7 +311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->f()Lf/k/i0/a/n;
 
     move-result-object v1
@@ -367,7 +351,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->f()Lf/k/i0/a/n;
 
     move-result-object v1
@@ -376,7 +359,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/Doodle;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -385,14 +367,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/Doodle;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/n;->l([Lcom/meitu/template/bean/Doodle;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -428,7 +408,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->e()Lf/k/i0/a/l;
 
     move-result-object v1
@@ -437,7 +416,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/f;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -446,14 +424,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/f;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/l;->Q([Lcom/meitu/template/bean/f;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -481,7 +457,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->e()Lf/k/i0/a/l;
 
     move-result-object v1
@@ -508,7 +483,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->f()Lf/k/i0/a/n;
 
     move-result-object v1
@@ -543,7 +517,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->f()Lf/k/i0/a/n;
 
     move-result-object v1
@@ -552,7 +525,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/Doodle;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -561,14 +533,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/Doodle;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/n;->l0([Lcom/meitu/template/bean/Doodle;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -604,7 +574,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->e()Lf/k/i0/a/l;
 
     move-result-object v1
@@ -613,7 +582,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/f;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -622,14 +590,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/f;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/l;->Q2([Lcom/meitu/template/bean/f;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -657,7 +623,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->e()Lf/k/i0/a/l;
 
     move-result-object v1
@@ -684,7 +649,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleRepository;->f()Lf/k/i0/a/n;
 
     move-result-object v1

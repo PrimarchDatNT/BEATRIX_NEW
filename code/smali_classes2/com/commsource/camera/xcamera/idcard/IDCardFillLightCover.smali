@@ -31,10 +31,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/AbsCover;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$bpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;)V
@@ -45,7 +43,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;->c:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$confitViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$confitViewModel$2;-><init>(Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;)V
@@ -112,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->cover_fill_light:I
@@ -127,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;->C()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
@@ -150,7 +145,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -163,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -15,7 +15,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/camera/newrender/renderproxy/l;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -32,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,12 +43,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/util/SparseBooleanArray;
 
     invoke-direct {v1}, Landroid/util/SparseBooleanArray;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->Slim:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     invoke-virtual {v2}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -61,7 +57,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
-    .line 3
     sget-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->ThinLeg:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     invoke-virtual {v2}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -70,7 +65,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
-    .line 4
     sget-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->LongLeg:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     invoke-virtual {v2}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -79,7 +73,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
-    .line 5
     sget-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->ThinArms:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     invoke-virtual {v2}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -88,7 +81,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
-    .line 6
     sget-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->Taller:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     invoke-virtual {v2}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -99,45 +91,37 @@
 
     if-nez p0, :cond_0
 
-    .line 7
     sget-object v2, Lcom/commsource/camera/newrender/renderproxy/l;->a:Ljava/lang/String;
 
     const-string/jumbo v3, "supprtBodyType, \u8eab\u4f53\u6570\u636e\u4e3a\u7a7a"
 
     invoke-static {v2, v3}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 9
     :cond_0
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/d1/g/f;->j()I
 
     move-result v2
 
-    .line 10
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/d1/g/f;->c()I
 
     move-result v4
 
-    .line 11
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/d1/g/f;->k()[F
 
     move-result-object v5
 
-    .line 12
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/d1/g/f;->d()[F
 
     move-result-object v6
 
-    .line 13
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/d1/g/f;->m()[F
 
     move-result-object v7
 
-    .line 14
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/d1/g/f;->h()[F
 
     move-result-object v8
@@ -154,7 +138,6 @@
 
     if-eqz v8, :cond_25
 
-    .line 15
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/d1/g/f;->l()I
 
     move-result v2
@@ -163,7 +146,6 @@
 
     if-ne v2, v4, :cond_25
 
-    .line 16
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/d1/g/f;->f()I
 
     move-result v2
@@ -186,7 +168,6 @@
 
     if-ge v10, v4, :cond_2
 
-    .line 17
     new-instance v12, Landroid/graphics/PointF;
 
     mul-int/lit8 v13, v10, 0x2
@@ -217,7 +198,6 @@
     :goto_1
     if-ge v5, v9, :cond_3
 
-    .line 18
     new-instance v10, Landroid/graphics/PointF;
 
     mul-int/lit8 v12, v5, 0x2
@@ -241,7 +221,6 @@
     :cond_3
     const/4 v5, 0x2
 
-    .line 19
     aget v6, v7, v5
 
     const v9, 0x3dcccccd    # 0.1f
@@ -274,7 +253,6 @@
 
     new-array v12, v9, [S
 
-    .line 20
     fill-array-data v12, :array_0
 
     const/4 v13, 0x0
@@ -286,7 +264,6 @@
 
     if-ge v13, v9, :cond_8
 
-    .line 21
     aget-short v16, v12, v13
 
     aget v16, v7, v16
@@ -313,7 +290,6 @@
 
     const/16 v13, 0x8
 
-    .line 22
     aget-object v0, v2, v13
 
     iget v0, v0, Landroid/graphics/PointF;->y:F
@@ -330,7 +306,6 @@
 
     const/16 v13, 0xa
 
-    .line 23
     aget-object v13, v2, v13
 
     iget v13, v13, Landroid/graphics/PointF;->y:F
@@ -349,7 +324,6 @@
 
     const/16 v13, 0xc
 
-    .line 24
     aget-object v15, v2, v13
 
     iget v15, v15, Landroid/graphics/PointF;->y:F
@@ -379,7 +353,6 @@
 
     move v13, v10
 
-    .line 25
     :cond_a
     aget-object v10, v2, v3
 
@@ -397,7 +370,6 @@
 
     const-wide/high16 v12, 0x4000000000000000L    # 2.0
 
-    .line 26
     invoke-static {v9, v10, v12, v13}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v9
@@ -416,14 +388,12 @@
 
     float-to-double v5, v15
 
-    .line 27
     invoke-static {v5, v6, v12, v13}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v5
 
     add-double/2addr v9, v5
 
-    .line 28
     invoke-static {v9, v10}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v5
@@ -432,7 +402,6 @@
 
     const/4 v3, 0x2
 
-    .line 29
     aget v6, v7, v3
 
     const/4 v9, 0x3
@@ -491,12 +460,10 @@
 
     new-array v7, v6, [S
 
-    .line 30
     fill-array-data v7, :array_1
 
     new-array v10, v6, [S
 
-    .line 31
     fill-array-data v10, :array_2
 
     const/4 v15, 0x0
@@ -508,7 +475,6 @@
     :goto_9
     if-ge v15, v6, :cond_12
 
-    .line 32
     aget-short v22, v7, v15
 
     aget v3, v8, v22
@@ -537,7 +503,6 @@
     :cond_f
     const/16 v19, 0x0
 
-    .line 33
     :goto_a
     aget-short v3, v10, v15
 
@@ -603,12 +568,10 @@
 
     new-array v7, v6, [S
 
-    .line 34
     fill-array-data v7, :array_3
 
     new-array v10, v6, [S
 
-    .line 35
     fill-array-data v10, :array_4
 
     const/4 v15, 0x0
@@ -616,7 +579,6 @@
     :goto_10
     if-ge v15, v6, :cond_19
 
-    .line 36
     aget-short v19, v7, v15
 
     aget v19, v8, v19
@@ -627,7 +589,6 @@
 
     if-lez v19, :cond_17
 
-    .line 37
     aget-short v19, v7, v15
 
     aget-object v12, v4, v19
@@ -641,7 +602,6 @@
 
     move v6, v15
 
-    .line 38
     aget-short v19, v10, v13
 
     aget v19, v8, v19
@@ -650,7 +610,6 @@
 
     if-lez v19, :cond_15
 
-    .line 39
     aget-short v19, v10, v13
 
     aget-object v15, v4, v19
@@ -694,7 +653,6 @@
 
     goto :goto_10
 
-    .line 40
     :cond_19
     :goto_13
     new-instance v6, Landroid/graphics/PointF;
@@ -746,14 +704,12 @@
 
     if-ge v15, v8, :cond_1a
 
-    .line 41
     new-instance v9, Landroid/graphics/PointF;
 
     invoke-direct {v9, v7, v7}, Landroid/graphics/PointF;-><init>(FF)V
 
     aput-object v9, v12, v15
 
-    .line 42
     new-instance v9, Landroid/graphics/PointF;
 
     invoke-direct {v9, v7, v7}, Landroid/graphics/PointF;-><init>(FF)V
@@ -786,13 +742,11 @@
 
     goto :goto_16
 
-    .line 43
     :cond_1b
     aget-object v22, v4, v19
 
     aput-object v22, v12, v15
 
-    .line 44
     aget-object v22, v4, v9
 
     aput-object v22, v13, v15
@@ -803,7 +757,6 @@
 
     goto :goto_17
 
-    .line 45
     :cond_1c
     :goto_16
     aget-object v8, v12, v15
@@ -824,7 +777,6 @@
 
     iput v7, v8, Landroid/graphics/PointF;->x:F
 
-    .line 46
     aget-object v7, v12, v15
 
     aget-object v8, v4, v23
@@ -841,7 +793,6 @@
 
     iput v8, v7, Landroid/graphics/PointF;->y:F
 
-    .line 47
     aget-object v7, v13, v15
 
     add-int/lit8 v8, v9, -0x1
@@ -862,7 +813,6 @@
 
     iput v11, v7, Landroid/graphics/PointF;->x:F
 
-    .line 48
     aget-object v7, v13, v15
 
     aget-object v8, v4, v8
@@ -914,13 +864,11 @@
 
     goto :goto_19
 
-    .line 49
     :cond_1e
     aget-object v11, v4, v9
 
     aput-object v11, v12, v8
 
-    .line 50
     aget-object v11, v4, v7
 
     aput-object v11, v13, v8
@@ -935,7 +883,6 @@
 
     goto :goto_1a
 
-    .line 51
     :cond_1f
     :goto_19
     aget-object v11, v12, v8
@@ -960,7 +907,6 @@
 
     iput v10, v11, Landroid/graphics/PointF;->x:F
 
-    .line 52
     aget-object v10, v12, v8
 
     aget-object v11, v4, v15
@@ -977,7 +923,6 @@
 
     iput v11, v10, Landroid/graphics/PointF;->y:F
 
-    .line 53
     aget-object v10, v13, v8
 
     add-int/lit8 v11, v7, -0x1
@@ -998,7 +943,6 @@
 
     iput v15, v10, Landroid/graphics/PointF;->x:F
 
-    .line 54
     aget-object v10, v13, v8
 
     aget-object v11, v4, v11
@@ -1038,7 +982,6 @@
 
     if-ge v3, v4, :cond_22
 
-    .line 55
     aget-object v4, v12, v3
 
     iget v4, v4, Landroid/graphics/PointF;->x:F
@@ -1051,7 +994,6 @@
 
     const-wide/high16 v9, 0x4000000000000000L    # 2.0
 
-    .line 56
     invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v7
@@ -1068,14 +1010,12 @@
 
     float-to-double v11, v4
 
-    .line 57
     invoke-static {v11, v12, v9, v10}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v11
 
     add-double/2addr v7, v11
 
-    .line 58
     invoke-static {v7, v8}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v7
@@ -1107,55 +1047,46 @@
     :goto_1c
     const/4 v4, 0x2
 
-    .line 59
     aget-object v4, v2, v4
 
     iget v4, v4, Landroid/graphics/PointF;->y:F
 
     const/4 v5, 0x3
 
-    .line 60
     aget-object v5, v2, v5
 
     iget v5, v5, Landroid/graphics/PointF;->y:F
 
     const/16 v6, 0x8
 
-    .line 61
     aget-object v6, v2, v6
 
     iget v6, v6, Landroid/graphics/PointF;->y:F
 
     const/16 v7, 0x9
 
-    .line 62
     aget-object v7, v2, v7
 
     iget v7, v7, Landroid/graphics/PointF;->y:F
 
     const/16 v8, 0xc
 
-    .line 63
     aget-object v8, v2, v8
 
     iget v8, v8, Landroid/graphics/PointF;->y:F
 
-    .line 64
     aget-object v2, v2, v18
 
     iget v2, v2, Landroid/graphics/PointF;->y:F
 
-    .line 65
     invoke-static {v4, v5}, Ljava/lang/Math;->max(FF)F
 
     move-result v4
 
-    .line 66
     invoke-static {v6, v7}, Ljava/lang/Math;->min(FF)F
 
     move-result v5
 
-    .line 67
     invoke-static {v8, v2}, Ljava/lang/Math;->min(FF)F
 
     move-result v2
@@ -1185,7 +1116,6 @@
     :goto_1d
     const/4 v2, 0x0
 
-    .line 68
     :goto_1e
     sget-object v4, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->Slim:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
@@ -1197,7 +1127,6 @@
 
     invoke-virtual {v1, v4, v11}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
-    .line 69
     sget-object v4, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->ThinLeg:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     invoke-virtual {v4}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -1206,7 +1135,6 @@
 
     invoke-virtual {v1, v4, v14}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
-    .line 70
     sget-object v4, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->LongLeg:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     invoke-virtual {v4}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -1215,7 +1143,6 @@
 
     invoke-virtual {v1, v4, v0}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
-    .line 71
     sget-object v4, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->ThinArms:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     invoke-virtual {v4}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -1224,7 +1151,6 @@
 
     invoke-virtual {v1, v4, v3}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
-    .line 72
     sget-object v4, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->Taller:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     invoke-virtual {v4}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -1233,7 +1159,6 @@
 
     invoke-virtual {v1, v4, v2}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
-    .line 73
     sget-object v4, Lcom/commsource/camera/newrender/renderproxy/l;->a:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -1278,12 +1203,10 @@
 
     const/16 v0, 0x49a4
 
-    .line 74
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 75
     :cond_25
     :goto_1f
     sget-object v0, Lcom/commsource/camera/newrender/renderproxy/l;->a:Ljava/lang/String;
@@ -1294,7 +1217,6 @@
 
     const/16 v0, 0x49a4
 
-    .line 76
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

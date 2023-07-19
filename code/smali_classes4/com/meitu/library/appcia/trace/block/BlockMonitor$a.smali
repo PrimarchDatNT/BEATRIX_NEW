@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor$a;->a:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor$a;->a:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
     invoke-static {v1}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->f(Lcom/meitu/library/appcia/trace/block/BlockMonitor;)Z
@@ -61,7 +59,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor$a;->a:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
@@ -79,7 +76,6 @@
 
     invoke-static {v1, p1, p2}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->i(Lcom/meitu/library/appcia/trace/block/BlockMonitor;J)V
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor$a;->a:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
@@ -109,7 +105,6 @@
 
     if-nez v1, :cond_2
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor$a;->a:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -136,27 +131,23 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->l(Lcom/meitu/library/appcia/trace/block/BlockMonitor;J)V
 
-    .line 5
     :cond_2
     iget-object v1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor$a;->a:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
     invoke-static {v1, p1, p2}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->i(Lcom/meitu/library/appcia/trace/block/BlockMonitor;J)V
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor$a;->a:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
     const/4 p2, 0x0
 
     invoke-static {p1, p2}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->h(Lcom/meitu/library/appcia/trace/block/BlockMonitor;Z)V
 
-    .line 7
     invoke-static {}, Landroid/view/Choreographer;->getInstance()Landroid/view/Choreographer;
 
     move-result-object p1
 
     invoke-virtual {p1, p0}, Landroid/view/Choreographer;->postFrameCallback(Landroid/view/Choreographer$FrameCallback;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -15,7 +15,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/g$c;Lcom/google/android/gms/common/ConnectionResult;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/p1;->b:Lcom/google/android/gms/common/api/internal/g$c;
 
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/p1;->a:Lcom/google/android/gms/common/ConnectionResult;
@@ -30,7 +29,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/p1;->a:Lcom/google/android/gms/common/ConnectionResult;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/ConnectionResult;->Q()Z
@@ -39,14 +37,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/p1;->b:Lcom/google/android/gms/common/api/internal/g$c;
 
     const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/api/internal/g$c;->e(Lcom/google/android/gms/common/api/internal/g$c;Z)Z
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/p1;->b:Lcom/google/android/gms/common/api/internal/g$c;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/g$c;->d(Lcom/google/android/gms/common/api/internal/g$c;)Lcom/google/android/gms/common/api/a$f;
@@ -59,14 +55,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/p1;->b:Lcom/google/android/gms/common/api/internal/g$c;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/g$c;->f(Lcom/google/android/gms/common/api/internal/g$c;)V
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/p1;->b:Lcom/google/android/gms/common/api/internal/g$c;
@@ -77,12 +71,10 @@
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
     move-result-object v2
 
-    .line 7
     invoke-interface {v0, v1, v2}, Lcom/google/android/gms/common/api/a$f;->n(Lcom/google/android/gms/common/internal/q;Ljava/util/Set;)V
     :try_end_0
     .catch Ljava/lang/SecurityException; {:try_start_0 .. :try_end_0} :catch_0
@@ -96,10 +88,8 @@
 
     const-string v2, "Failed to get service from broker. "
 
-    .line 8
     invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 9
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/p1;->b:Lcom/google/android/gms/common/api/internal/g$c;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/g$c;->f:Lcom/google/android/gms/common/api/internal/g;
@@ -110,7 +100,6 @@
 
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/p1;->b:Lcom/google/android/gms/common/api/internal/g$c;
 
-    .line 10
     invoke-static {v1}, Lcom/google/android/gms/common/api/internal/g$c;->h(Lcom/google/android/gms/common/api/internal/g$c;)Lcom/google/android/gms/common/api/internal/z2;
 
     move-result-object v1
@@ -127,12 +116,10 @@
 
     invoke-direct {v1, v2}, Lcom/google/android/gms/common/ConnectionResult;-><init>(I)V
 
-    .line 11
     invoke-virtual {v0, v1}, Lcom/google/android/gms/common/api/internal/g$a;->a1(Lcom/google/android/gms/common/ConnectionResult;)V
 
     return-void
 
-    .line 12
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/p1;->b:Lcom/google/android/gms/common/api/internal/g$c;
 

@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$a0;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
     sget v2, Lcom/res/provider/ResID;->vCrlFilterListContainer:I
@@ -58,17 +57,14 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/widget/ClipRelativeLayout;->setLeftClip(I)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/camera/widget/ClipRelativeLayout;->a()V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$a0;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
@@ -84,7 +80,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

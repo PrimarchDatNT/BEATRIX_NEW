@@ -24,7 +24,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     invoke-static {}, Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;->values()[Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
 
     move-result-object v0
@@ -64,7 +63,6 @@
     :try_end_1
     .catch Ljava/lang/NoSuchFieldError; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 2
     :catch_1
     invoke-static {}, Lio/grpc/okhttp/NegotiationType;->values()[Lio/grpc/okhttp/NegotiationType;
 

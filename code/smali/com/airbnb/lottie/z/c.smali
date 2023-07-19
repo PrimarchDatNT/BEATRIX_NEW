@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -35,7 +34,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -48,7 +46,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/airbnb/lottie/z/c;->b(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -57,7 +54,6 @@
 .method public b(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/z/c;->a:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
@@ -71,10 +67,8 @@
     :cond_0
     const-string v1, "LOTTIE"
 
-    .line 2
     invoke-static {v1, p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 3
     invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     return-void
@@ -85,7 +79,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/airbnb/lottie/z/c;->debug(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -94,14 +87,12 @@
 .method public debug(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 2
     sget-boolean v0, Lcom/airbnb/lottie/e;->a:Z
 
     if-eqz v0, :cond_0
 
     const-string v0, "LOTTIE"
 
-    .line 3
     invoke-static {v0, p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0
@@ -111,14 +102,12 @@
 .method public error(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/airbnb/lottie/e;->a:Z
 
     if-eqz v0, :cond_0
 
     const-string v0, "LOTTIE"
 
-    .line 2
     invoke-static {v0, p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0

@@ -36,7 +36,6 @@
 .method constructor <init>(Lio/jaegertracing/agent/thrift/Agent$d$b;Lorg/apache/thrift/server/AbstractNonblockingServer$AsyncFrameBuffer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/agent/thrift/Agent$d$b$a;->b:Lio/jaegertracing/agent/thrift/Agent$d$b;
 
     iput-object p2, p0, Lio/jaegertracing/agent/thrift/Agent$d$b$a;->a:Lorg/apache/thrift/server/AbstractNonblockingServer$AsyncFrameBuffer;
@@ -57,7 +56,6 @@
 .method public bridge synthetic onComplete(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Void;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/agent/thrift/Agent$d$b$a;->a(Ljava/lang/Void;)V
@@ -68,12 +66,10 @@
 .method public onError(Ljava/lang/Exception;)V
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lorg/apache/thrift/transport/TTransportException;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lio/jaegertracing/agent/thrift/Agent$d;->a()Lorg/slf4j/c;
 
     move-result-object v0
@@ -82,14 +78,12 @@
 
     invoke-interface {v0, v1, p1}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     iget-object p1, p0, Lio/jaegertracing/agent/thrift/Agent$d$b$a;->a:Lorg/apache/thrift/server/AbstractNonblockingServer$AsyncFrameBuffer;
 
     invoke-virtual {p1}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->close()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Lio/jaegertracing/agent/thrift/Agent$d;->a()Lorg/slf4j/c;
 

@@ -52,7 +52,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/o1/a;-><init>()V
 
     iput-object p1, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
@@ -65,7 +64,6 @@
 .method public bridge synthetic add(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/Map$Entry;
 
     invoke-virtual {p0, p1}, Lcotlin/collections/o1/e;->i(Ljava/util/Map$Entry;)Z
@@ -95,7 +93,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -106,7 +103,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
 
     invoke-virtual {v0}, Lcotlin/collections/o1/d;->size()I
@@ -119,7 +115,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
 
     invoke-virtual {v0}, Lcotlin/collections/o1/d;->clear()V
@@ -147,7 +142,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
 
     invoke-virtual {v0, p1}, Lcotlin/collections/o1/d;->q(Ljava/util/Collection;)Z
@@ -175,7 +169,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
 
     invoke-virtual {v0, p1}, Lcotlin/collections/o1/d;->r(Ljava/util/Map$Entry;)Z
@@ -196,7 +189,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
 
     invoke-virtual {v0, p1}, Lcotlin/collections/o1/d;->K(Ljava/util/Map$Entry;)Z
@@ -224,7 +216,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -235,7 +226,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
 
     invoke-virtual {v0}, Lcotlin/collections/o1/d;->isEmpty()Z
@@ -259,7 +249,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
 
     invoke-virtual {v0}, Lcotlin/collections/o1/d;->v()Lcotlin/collections/o1/d$b;
@@ -282,7 +271,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
 
     return-object v0
@@ -308,12 +296,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
 
     invoke-virtual {v0}, Lcotlin/collections/o1/d;->n()V
 
-    .line 2
     invoke-super {p0, p1}, Ljava/util/AbstractSet;->removeAll(Ljava/util/Collection;)Z
 
     move-result p1
@@ -341,12 +327,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
 
     invoke-virtual {v0}, Lcotlin/collections/o1/d;->n()V
 
-    .line 2
     invoke-super {p0, p1}, Ljava/util/AbstractSet;->retainAll(Ljava/util/Collection;)Z
 
     move-result p1

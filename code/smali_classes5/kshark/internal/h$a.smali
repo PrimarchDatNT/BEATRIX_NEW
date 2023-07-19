@@ -29,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 .method public final a(B)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v0}, Lkshark/internal/h;->e(Lkshark/internal/h;)I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v1}, Lkshark/internal/h;->e(Lkshark/internal/h;)I
@@ -62,7 +59,6 @@
 
     invoke-static {v1, v2}, Lkshark/internal/h;->j(Lkshark/internal/h;I)V
 
-    .line 3
     iget-object v1, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v1}, Lkshark/internal/h;->b(Lkshark/internal/h;)I
@@ -87,7 +83,6 @@
     :goto_1
     if-eqz v1, :cond_3
 
-    .line 4
     iget-object v1, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v1}, Lkshark/internal/h;->a(Lkshark/internal/h;)I
@@ -106,7 +101,6 @@
 
     add-int/2addr v1, v0
 
-    .line 5
     iget-object v0, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v0}, Lkshark/internal/h;->c(Lkshark/internal/h;)[B
@@ -122,7 +116,6 @@
 
     return-void
 
-    .line 6
     :cond_3
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -150,7 +143,6 @@
 
     move-result-object p1
 
-    .line 7
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -165,7 +157,6 @@
 .method public final b(J)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v0}, Lkshark/internal/h;->d(Lkshark/internal/h;)Z
@@ -174,7 +165,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lkshark/internal/h$a;->d(J)V
 
     goto :goto_0
@@ -182,7 +172,6 @@
     :cond_0
     long-to-int p2, p1
 
-    .line 3
     invoke-virtual {p0, p2}, Lkshark/internal/h$a;->c(I)V
 
     :goto_0
@@ -192,14 +181,12 @@
 .method public final c(I)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v0}, Lkshark/internal/h;->e(Lkshark/internal/h;)I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v1}, Lkshark/internal/h;->e(Lkshark/internal/h;)I
@@ -214,7 +201,6 @@
 
     if-ltz v0, :cond_0
 
-    .line 3
     iget-object v2, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v2}, Lkshark/internal/h;->b(Lkshark/internal/h;)I
@@ -235,7 +221,6 @@
     :goto_0
     if-eqz v2, :cond_2
 
-    .line 4
     iget-object v2, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v2}, Lkshark/internal/h;->a(Lkshark/internal/h;)I
@@ -254,7 +239,6 @@
 
     add-int/2addr v2, v0
 
-    .line 5
     iget-object v0, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v0}, Lkshark/internal/h;->c(Lkshark/internal/h;)[B
@@ -274,7 +258,6 @@
 
     int-to-byte v3, v3
 
-    .line 6
     aput-byte v3, v0, v2
 
     add-int/lit8 v2, v1, 0x1
@@ -285,7 +268,6 @@
 
     int-to-byte v3, v3
 
-    .line 7
     aput-byte v3, v0, v1
 
     add-int/lit8 v1, v2, 0x1
@@ -296,19 +278,16 @@
 
     int-to-byte v3, v3
 
-    .line 8
     aput-byte v3, v0, v2
 
     and-int/lit16 p1, p1, 0xff
 
     int-to-byte p1, p1
 
-    .line 9
     aput-byte p1, v0, v1
 
     return-void
 
-    .line 10
     :cond_2
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -338,7 +317,6 @@
 
     move-result-object p1
 
-    .line 11
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -353,14 +331,12 @@
 .method public final d(J)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v0}, Lkshark/internal/h;->e(Lkshark/internal/h;)I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v1}, Lkshark/internal/h;->e(Lkshark/internal/h;)I
@@ -377,7 +353,6 @@
 
     if-ltz v0, :cond_0
 
-    .line 3
     iget-object v2, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v2}, Lkshark/internal/h;->b(Lkshark/internal/h;)I
@@ -398,7 +373,6 @@
     :goto_0
     if-eqz v2, :cond_2
 
-    .line 4
     iget-object v2, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v2}, Lkshark/internal/h;->a(Lkshark/internal/h;)I
@@ -417,7 +391,6 @@
 
     add-int/2addr v2, v0
 
-    .line 5
     iget-object v0, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v0}, Lkshark/internal/h;->c(Lkshark/internal/h;)[B
@@ -443,7 +416,6 @@
 
     int-to-byte v4, v5
 
-    .line 6
     aput-byte v4, v0, v2
 
     add-int/lit8 v2, v1, 0x1
@@ -458,7 +430,6 @@
 
     int-to-byte v4, v5
 
-    .line 7
     aput-byte v4, v0, v1
 
     add-int/lit8 v1, v2, 0x1
@@ -473,7 +444,6 @@
 
     int-to-byte v4, v5
 
-    .line 8
     aput-byte v4, v0, v2
 
     add-int/lit8 v2, v1, 0x1
@@ -488,7 +458,6 @@
 
     int-to-byte v4, v5
 
-    .line 9
     aput-byte v4, v0, v1
 
     add-int/lit8 v1, v2, 0x1
@@ -503,7 +472,6 @@
 
     int-to-byte v4, v5
 
-    .line 10
     aput-byte v4, v0, v2
 
     add-int/lit8 v2, v1, 0x1
@@ -518,7 +486,6 @@
 
     int-to-byte v4, v5
 
-    .line 11
     aput-byte v4, v0, v1
 
     add-int/lit8 v1, v2, 0x1
@@ -531,7 +498,6 @@
 
     int-to-byte v3, v4
 
-    .line 12
     aput-byte v3, v0, v2
 
     and-long/2addr p1, v6
@@ -540,12 +506,10 @@
 
     int-to-byte p1, p2
 
-    .line 13
     aput-byte p1, v0, v1
 
     return-void
 
-    .line 14
     :cond_2
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -575,7 +539,6 @@
 
     move-result-object p1
 
-    .line 15
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -590,14 +553,12 @@
 .method public final e(JI)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v0}, Lkshark/internal/h;->e(Lkshark/internal/h;)I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v1}, Lkshark/internal/h;->e(Lkshark/internal/h;)I
@@ -612,7 +573,6 @@
 
     if-ltz v0, :cond_0
 
-    .line 3
     iget-object v2, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v2}, Lkshark/internal/h;->b(Lkshark/internal/h;)I
@@ -633,7 +593,6 @@
     :goto_0
     if-eqz v2, :cond_3
 
-    .line 4
     iget-object v2, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v2}, Lkshark/internal/h;->a(Lkshark/internal/h;)I
@@ -652,7 +611,6 @@
 
     add-int/2addr v2, v0
 
-    .line 5
     iget-object v0, p0, Lkshark/internal/h$a;->a:Lkshark/internal/h;
 
     invoke-static {v0}, Lkshark/internal/h;->c(Lkshark/internal/h;)[B
@@ -685,7 +643,6 @@
 
     int-to-byte v3, v4
 
-    .line 6
     aput-byte v3, v0, v2
 
     add-int/lit8 p3, p3, -0x8
@@ -701,12 +658,10 @@
 
     int-to-byte p1, p2
 
-    .line 7
     aput-byte p1, v0, v2
 
     return-void
 
-    .line 8
     :cond_3
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -736,7 +691,6 @@
 
     move-result-object p1
 
-    .line 9
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;

@@ -21,7 +21,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/p2;
 
     invoke-direct {v0}, Lcotlinx/coroutines/p2;-><init>()V
@@ -34,7 +33,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

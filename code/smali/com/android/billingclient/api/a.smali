@@ -27,13 +27,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/android/billingclient/api/a;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/android/billingclient/api/a;->b:Ljava/lang/String;
 
     return-void
@@ -46,7 +43,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/a;->a:Ljava/lang/String;
 
     return-object v0
@@ -57,7 +53,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/a;->b:Ljava/lang/String;
 
     return-object v0

@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/util/l1;->h(Ljava/io/File;Lcom/commsource/util/cloudstorage/StorageBean;Lcom/commsource/util/l1$d;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -43,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/util/l1;->g(Ljava/io/File;Lcom/commsource/util/cloudstorage/StorageBean;Lcom/commsource/util/l1$d;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -63,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/util/l1;->d(Lcom/commsource/util/cloudstorage/StorageBean;Ljava/lang/String;Lcom/commsource/util/l1$d;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -87,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/util/cloudstorage/StorageBean;->getUrl()Lcom/commsource/util/cloudstorage/StorageBean$UrlBean;
 
     move-result-object v1
@@ -106,7 +101,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/util/cloudstorage/StorageBean;->getUrl()Lcom/commsource/util/cloudstorage/StorageBean$UrlBean;
 
     move-result-object p0
@@ -119,7 +113,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/util/cloudstorage/StorageBean;->getUrl()Lcom/commsource/util/cloudstorage/StorageBean$UrlBean;
 
@@ -137,7 +130,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/util/cloudstorage/StorageBean;->getUrl()Lcom/commsource/util/cloudstorage/StorageBean$UrlBean;
 
     move-result-object p0
@@ -154,11 +146,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-interface {p2, v2, v2}, Lcom/commsource/util/l1$d;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -179,24 +169,20 @@
 
     const-string v1, "\\."
 
-    .line 1
     invoke-virtual {p1, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     array-length v1, p1
 
     if-nez v1, :cond_0
 
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 4
     :cond_0
     array-length v1, p1
 
@@ -207,12 +193,10 @@
 
     aget-object v3, p1, v2
 
-    .line 5
     new-instance v4, Lorg/json/JSONObject;
 
     invoke-direct {v4, p0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v4, v3}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -221,7 +205,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -239,12 +222,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object p0
@@ -253,7 +234,6 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v3
@@ -286,12 +266,10 @@
 
     const-string v3, "104"
 
-    .line 4
     invoke-virtual {p0, v2, v3}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object p0
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -310,7 +288,6 @@
 
     const-string v3, "IjISO4g72kLvXigwe0ykwEYUb_3I1F6c"
 
-    .line 6
     invoke-virtual {p0, v2, v3}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object p0
@@ -319,7 +296,6 @@
 
     const-string v3, "aaf5Jiach6_aPAAyWDsRFhfdAP6N1S8L"
 
-    .line 7
     invoke-virtual {p0, v2, v3}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object p0
@@ -328,7 +304,6 @@
 
     const-string v3, "image/jpeg"
 
-    .line 8
     invoke-virtual {p0, v2, v3}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object p0
@@ -337,7 +312,6 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 9
     invoke-virtual {v1}, Ljava/io/File;->length()J
 
     move-result-wide v3
@@ -358,7 +332,6 @@
 
     move-result-object p0
 
-    .line 10
     invoke-virtual {p0}, Lf/k/k/d;->v()Lf/k/k/d;
 
     move-result-object p0
@@ -367,10 +340,8 @@
 
     invoke-direct {v2, p1, v1}, Lcom/commsource/util/l1$a;-><init>(Lcom/commsource/util/l1$d;Ljava/io/File;)V
 
-    .line 11
     invoke-virtual {p0, v2}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -387,7 +358,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v1}, Lokhttp3/MultipartBody$Builder;-><init>()V
@@ -398,7 +368,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/util/cloudstorage/StorageBean;->getUpload()Lcom/commsource/util/cloudstorage/StorageBean$UploadBean;
 
     move-result-object v2
@@ -409,7 +378,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/util/cloudstorage/StorageBean;->getUpload()Lcom/commsource/util/cloudstorage/StorageBean$UploadBean;
 
     move-result-object v2
@@ -439,7 +407,6 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -456,13 +423,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v2, Lf/k/l0/a/b;
 
     const-string v3, "image/jpeg"
 
-    .line 6
     invoke-static {v3}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object v3
@@ -475,7 +440,6 @@
 
     invoke-direct {v2, v3, p0, v4}, Lf/k/l0/a/b;-><init>(Lokhttp3/MediaType;Ljava/io/File;Lf/k/l0/a/b$a;)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/util/cloudstorage/StorageBean;->getUpload()Lcom/commsource/util/cloudstorage/StorageBean$UploadBean;
 
     move-result-object v3
@@ -490,7 +454,6 @@
 
     invoke-virtual {v1, v3, p0, v2}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;Lokhttp3/RequestBody;)Lokhttp3/MultipartBody$Builder;
 
-    .line 8
     new-instance p0, Lokhttp3/Request$Builder;
 
     invoke-direct {p0}, Lokhttp3/Request$Builder;-><init>()V
@@ -519,7 +482,6 @@
 
     move-result-object p0
 
-    .line 9
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -538,7 +500,6 @@
 
     invoke-interface {p0, v1}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -559,12 +520,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/l0/a/b;
 
     const-string v2, "image/jpeg"
 
-    .line 2
     invoke-static {v2}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object v2
@@ -577,7 +536,6 @@
 
     invoke-direct {v1, v2, p0, v3}, Lf/k/l0/a/b;-><init>(Lokhttp3/MediaType;Ljava/io/File;Lf/k/l0/a/b$a;)V
 
-    .line 3
     new-instance p0, Lokhttp3/Request$Builder;
 
     invoke-direct {p0}, Lokhttp3/Request$Builder;-><init>()V
@@ -602,7 +560,6 @@
 
     move-result-object p0
 
-    .line 4
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -621,7 +578,6 @@
 
     invoke-interface {p0, v1}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

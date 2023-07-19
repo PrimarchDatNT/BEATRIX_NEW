@@ -30,12 +30,10 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/a2/c;->k(Ljava/lang/String;Z)Ljava/util/Timer;
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Lcotlin/a2/c$a;
 
     invoke-direct {v1, p6}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
@@ -72,12 +70,10 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/a2/c;->k(Ljava/lang/String;Z)Ljava/util/Timer;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Lcotlin/a2/c$a;
 
     invoke-direct {p1, p5}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
@@ -113,12 +109,10 @@
     :cond_2
     move-wide v2, p2
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/a2/c;->k(Ljava/lang/String;Z)Ljava/util/Timer;
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Lcotlin/a2/c$a;
 
     invoke-direct {v1, p6}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
@@ -148,13 +142,11 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_1
     invoke-static {p0, p1}, Lcotlin/a2/c;->k(Ljava/lang/String;Z)Ljava/util/Timer;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Lcotlin/a2/c$a;
 
     invoke-direct {p1, p5}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
@@ -183,7 +175,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v6, Lcotlin/a2/c$a;
 
     invoke-direct {v6, p5}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
@@ -196,7 +187,6 @@
 
     move-wide v4, p3
 
-    .line 2
     invoke-virtual/range {v0 .. v5}, Ljava/util/Timer;->schedule(Ljava/util/TimerTask;JJ)V
 
     return-object v6
@@ -221,12 +211,10 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/a2/c$a;
 
     invoke-direct {v0, p3}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
 
-    .line 2
     invoke-virtual {p0, v0, p1, p2}, Ljava/util/Timer;->schedule(Ljava/util/TimerTask;J)V
 
     return-object v0
@@ -252,12 +240,10 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/a2/c$a;
 
     invoke-direct {v0, p4}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
 
-    .line 2
     invoke-virtual {p0, v0, p1, p2, p3}, Ljava/util/Timer;->schedule(Ljava/util/TimerTask;Ljava/util/Date;J)V
 
     return-object v0
@@ -282,12 +268,10 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/a2/c$a;
 
     invoke-direct {v0, p2}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
 
-    .line 2
     invoke-virtual {p0, v0, p1}, Ljava/util/Timer;->schedule(Ljava/util/TimerTask;Ljava/util/Date;)V
 
     return-object v0
@@ -312,7 +296,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v6, Lcotlin/a2/c$a;
 
     invoke-direct {v6, p5}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
@@ -325,7 +308,6 @@
 
     move-wide v4, p3
 
-    .line 2
     invoke-virtual/range {v0 .. v5}, Ljava/util/Timer;->scheduleAtFixedRate(Ljava/util/TimerTask;JJ)V
 
     return-object v6
@@ -351,12 +333,10 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/a2/c$a;
 
     invoke-direct {v0, p4}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
 
-    .line 2
     invoke-virtual {p0, v0, p1, p2, p3}, Ljava/util/Timer;->scheduleAtFixedRate(Ljava/util/TimerTask;Ljava/util/Date;J)V
 
     return-object v0
@@ -376,7 +356,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     new-instance p0, Ljava/util/Timer;
 
     invoke-direct {p0, p1}, Ljava/util/Timer;-><init>(Z)V
@@ -413,12 +392,10 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/a2/c;->k(Ljava/lang/String;Z)Ljava/util/Timer;
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Lcotlin/a2/c$a;
 
     invoke-direct {v1, p6}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
@@ -455,12 +432,10 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/a2/c;->k(Ljava/lang/String;Z)Ljava/util/Timer;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Lcotlin/a2/c$a;
 
     invoke-direct {p1, p5}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
@@ -496,12 +471,10 @@
     :cond_2
     move-wide v2, p2
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/a2/c;->k(Ljava/lang/String;Z)Ljava/util/Timer;
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Lcotlin/a2/c$a;
 
     invoke-direct {v1, p6}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
@@ -531,13 +504,11 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_1
     invoke-static {p0, p1}, Lcotlin/a2/c;->k(Ljava/lang/String;Z)Ljava/util/Timer;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Lcotlin/a2/c$a;
 
     invoke-direct {p1, p5}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V
@@ -564,7 +535,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/a2/c$a;
 
     invoke-direct {v0, p0}, Lcotlin/a2/c$a;-><init>(Lcotlin/jvm/u/l;)V

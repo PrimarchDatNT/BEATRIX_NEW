@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,14 +23,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/g1;->b(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v1
@@ -46,7 +43,6 @@
 
     invoke-virtual {v1, v2, v3, v3}, Landroid/content/pm/PackageManager;->setComponentEnabledSetting(Landroid/content/ComponentName;II)V
 
-    .line 3
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/google/android/play/core/missingsplits/PlayCoreMissingSplitsActivity;
@@ -55,15 +51,12 @@
 
     const/high16 v2, 0x10000000
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -71,7 +64,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -84,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v2, 0x0
@@ -93,24 +84,20 @@
 
     if-lt v1, v3, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/util/g1;->a:Ljava/lang/Boolean;
 
     if-nez v1, :cond_1
 
-    .line 4
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
@@ -123,17 +110,14 @@
 
     if-eqz p0, :cond_1
 
-    .line 6
     iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
 
     if-eqz p0, :cond_1
 
-    .line 7
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     const-string v3, "com.android.vending.splits.required"
 
-    .line 8
     invoke-virtual {p0, v3}, Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -155,10 +139,8 @@
     :catchall_0
     move-exception p0
 
-    .line 9
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 10
     :cond_1
     :goto_0
     sget-object p0, Lcom/commsource/util/g1;->a:Ljava/lang/Boolean;

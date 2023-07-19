@@ -65,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$initViewModel$4$$special$$inlined$run$lambda$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -82,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$initViewModel$4$$special$$inlined$run$lambda$1;->$it$inlined:Lcotlin/Pair;
 
     invoke-virtual {v1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
@@ -103,7 +101,6 @@
 
     if-ne v1, v4, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$initViewModel$4$$special$$inlined$run$lambda$1;->$this_run:Lcom/commsource/editengine/node/b;
 
     iget-object v4, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$initViewModel$4$$special$$inlined$run$lambda$1;->$isNeedPrepare:Lcotlin/jvm/internal/Ref$BooleanRef;
@@ -112,7 +109,6 @@
 
     invoke-static {v1, v4, v3, v2, v3}, Lcom/commsource/editengine/node/b;->C(Lcom/commsource/editengine/node/b;ZLcom/commsource/easyeditor/utils/opengl/f;ILjava/lang/Object;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$initViewModel$4$$special$$inlined$run$lambda$1;->$it$inlined:Lcotlin/Pair;
 
@@ -130,7 +126,6 @@
 
     if-ne v1, v4, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$initViewModel$4$$special$$inlined$run$lambda$1;->$this_run:Lcom/commsource/editengine/node/b;
 
     iget-object v4, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$initViewModel$4$$special$$inlined$run$lambda$1;->$isNeedPrepare:Lcotlin/jvm/internal/Ref$BooleanRef;
@@ -139,7 +134,6 @@
 
     invoke-static {v1, v4, v3, v2, v3}, Lcom/commsource/editengine/node/b;->E(Lcom/commsource/editengine/node/b;ZLcom/commsource/easyeditor/utils/opengl/f;ILjava/lang/Object;)V
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$initViewModel$4$$special$$inlined$run$lambda$1;->this$0:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$initViewModel$4;
 
@@ -157,7 +151,6 @@
 
     invoke-static {v1, v4, v3, v2, v3}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

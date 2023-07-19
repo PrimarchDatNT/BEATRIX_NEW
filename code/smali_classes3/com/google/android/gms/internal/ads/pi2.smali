@@ -26,26 +26,20 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/internal/ads/pi2;->a:F
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/internal/ads/pi2;->b:F
 
     add-float/2addr p1, p3
 
-    .line 4
     iput p1, p0, Lcom/google/android/gms/internal/ads/pi2;->c:F
 
     add-float/2addr p2, p4
 
-    .line 5
     iput p2, p0, Lcom/google/android/gms/internal/ads/pi2;->d:F
 
-    .line 6
     iput p5, p0, Lcom/google/android/gms/internal/ads/pi2;->e:I
 
     return-void
@@ -56,7 +50,6 @@
 .method final a()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/pi2;->a:F
 
     return v0
@@ -65,7 +58,6 @@
 .method final b()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/pi2;->b:F
 
     return v0
@@ -74,7 +66,6 @@
 .method final c()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/pi2;->c:F
 
     return v0
@@ -83,7 +74,6 @@
 .method final d()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/pi2;->d:F
 
     return v0
@@ -92,7 +82,6 @@
 .method final e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/pi2;->e:I
 
     return v0

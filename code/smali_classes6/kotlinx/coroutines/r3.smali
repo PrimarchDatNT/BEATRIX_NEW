@@ -15,7 +15,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/c2;->u:Lcotlinx/coroutines/c2$b;
 
     invoke-interface {p0, v0}, Lcotlin/coroutines/CoroutineContext;->get(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
@@ -26,7 +25,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 2
     invoke-interface {p0}, Lcotlinx/coroutines/c2;->isActive()Z
 
     move-result v0
@@ -67,15 +65,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Lcotlinx/coroutines/r3;->a(Lcotlin/coroutines/CoroutineContext;)V
 
-    .line 3
     invoke-static {p0}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object v1
@@ -91,7 +86,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 4
     iget-object v2, v1, Lcotlinx/coroutines/w0;->p:Lcotlinx/coroutines/CoroutineDispatcher;
 
     invoke-virtual {v2, v0}, Lcotlinx/coroutines/CoroutineDispatcher;->w(Lcotlin/coroutines/CoroutineContext;)Z
@@ -100,20 +94,17 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-virtual {v1, v0, v2}, Lcotlinx/coroutines/w0;->o(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v2, Lcotlinx/coroutines/q3;
 
     invoke-direct {v2}, Lcotlinx/coroutines/q3;-><init>()V
 
-    .line 7
     invoke-interface {v0, v2}, Lcotlin/coroutines/CoroutineContext;->plus(Lcotlin/coroutines/CoroutineContext;)Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
@@ -122,12 +113,10 @@
 
     invoke-virtual {v1, v0, v3}, Lcotlinx/coroutines/w0;->o(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)V
 
-    .line 8
     iget-boolean v0, v2, Lcotlinx/coroutines/q3;->a:Z
 
     if-eqz v0, :cond_2
 
-    .line 9
     invoke-static {v1}, Lcotlinx/coroutines/x0;->g(Lcotlinx/coroutines/w0;)Z
 
     move-result v0
@@ -140,7 +129,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_2
     :goto_0
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
@@ -149,11 +137,9 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     sget-object v3, Lcotlin/t1;->a:Lcotlin/t1;
 
-    .line 12
     :cond_4
     :goto_1
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;

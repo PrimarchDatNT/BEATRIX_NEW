@@ -18,7 +18,6 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/firebase_auth/j6;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/o6;->b:Lcom/google/android/gms/internal/firebase_auth/j6;
 
     const/4 v0, 0x0
@@ -31,7 +30,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/firebase_auth/j6;Lcom/google/android/gms/internal/firebase_auth/m6;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/firebase_auth/o6;-><init>(Lcom/google/android/gms/internal/firebase_auth/j6;)V
 
     return-void
@@ -50,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/l6;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_auth/o6;->b:Lcom/google/android/gms/internal/firebase_auth/j6;

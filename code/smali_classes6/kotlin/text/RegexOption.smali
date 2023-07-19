@@ -66,7 +66,6 @@
 
     move-object v1, v8
 
-    .line 1
     invoke-direct/range {v1 .. v7}, Lcotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILcotlin/jvm/internal/u;)V
 
     sput-object v8, Lcotlin/text/RegexOption;->IGNORE_CASE:Lcotlin/text/RegexOption;
@@ -91,7 +90,6 @@
 
     move-object v9, v1
 
-    .line 2
     invoke-direct/range {v9 .. v15}, Lcotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcotlin/text/RegexOption;->MULTILINE:Lcotlin/text/RegexOption;
@@ -116,7 +114,6 @@
 
     move-object v3, v1
 
-    .line 3
     invoke-direct/range {v3 .. v9}, Lcotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcotlin/text/RegexOption;->LITERAL:Lcotlin/text/RegexOption;
@@ -135,7 +132,6 @@
 
     move-object v3, v1
 
-    .line 4
     invoke-direct/range {v3 .. v9}, Lcotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcotlin/text/RegexOption;->UNIX_LINES:Lcotlin/text/RegexOption;
@@ -154,7 +150,6 @@
 
     move-object v3, v1
 
-    .line 5
     invoke-direct/range {v3 .. v9}, Lcotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcotlin/text/RegexOption;->COMMENTS:Lcotlin/text/RegexOption;
@@ -173,7 +168,6 @@
 
     move-object v3, v1
 
-    .line 6
     invoke-direct/range {v3 .. v9}, Lcotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcotlin/text/RegexOption;->DOT_MATCHES_ALL:Lcotlin/text/RegexOption;
@@ -192,7 +186,6 @@
 
     move-object v3, v1
 
-    .line 7
     invoke-direct/range {v3 .. v9}, Lcotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcotlin/text/RegexOption;->CANON_EQ:Lcotlin/text/RegexOption;
@@ -214,7 +207,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcotlin/text/RegexOption;->value:I
@@ -233,7 +225,6 @@
 
     move p4, p3
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1, p2, p3, p4}, Lcotlin/text/RegexOption;-><init>(Ljava/lang/String;III)V
 
@@ -273,7 +264,6 @@
 .method public getMask()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/text/RegexOption;->mask:I
 
     return v0
@@ -282,7 +272,6 @@
 .method public getValue()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/text/RegexOption;->value:I
 
     return v0

@@ -43,7 +43,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/t3/a$b$b;->b:Lcotlinx/coroutines/m;
 
     iget-object v1, p0, Lcotlinx/coroutines/t3/a$b$b;->a:Lcotlinx/coroutines/t3/a$b;

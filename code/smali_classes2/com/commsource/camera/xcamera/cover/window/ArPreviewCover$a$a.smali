@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;->b()Landroid/graphics/Point;
@@ -57,7 +56,6 @@
 
     int-to-float v1, v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;->b()Landroid/graphics/Point;
@@ -72,7 +70,6 @@
 
     new-array v4, v3, [I
 
-    .line 3
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v5, v5, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -96,19 +93,16 @@
 
     const/4 v5, 0x1
 
-    .line 4
     aget v6, v4, v5
 
     if-lez v6, :cond_1
 
-    .line 5
     aget v4, v4, v5
 
     int-to-float v4, v4
 
     sub-float/2addr v1, v4
 
-    .line 6
     :cond_1
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;
 
@@ -126,7 +120,6 @@
 
     if-eqz v4, :cond_7
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v3, v3, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -177,7 +170,6 @@
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->setPivotX(F)V
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v3, v3, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -199,7 +191,6 @@
 
     invoke-virtual {v3, v2}, Landroid/view/ViewGroup;->setTranslationX(F)V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -258,7 +249,6 @@
 
     goto/16 :goto_0
 
-    .line 10
     :cond_7
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;
 
@@ -270,7 +260,6 @@
 
     if-eqz v4, :cond_f
 
-    .line 11
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v3, v3, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -321,7 +310,6 @@
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->setPivotX(F)V
 
-    .line 12
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v3, v3, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -376,7 +364,6 @@
 
     invoke-virtual {v3, v2}, Landroid/view/ViewGroup;->setTranslationX(F)V
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -421,7 +408,6 @@
 
     int-to-float v3, v3
 
-    .line 14
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v4, v4, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -463,7 +449,6 @@
 
     goto/16 :goto_0
 
-    .line 15
     :cond_f
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
@@ -513,7 +498,6 @@
 
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->setPivotX(F)V
 
-    .line 16
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v4, v4, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -570,7 +554,6 @@
 
     invoke-virtual {v4, v2}, Landroid/view/ViewGroup;->setTranslationX(F)V
 
-    .line 17
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -644,7 +627,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setTranslationX(F)V
 
-    .line 18
     :goto_0
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
@@ -692,7 +674,6 @@
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->setPivotY(F)V
 
-    .line 19
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -716,7 +697,6 @@
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 20
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -738,7 +718,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 21
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -762,7 +741,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 22
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -784,7 +762,6 @@
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->setAlpha(F)V
 
-    .line 23
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -804,7 +781,6 @@
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->setScaleX(F)V
 
-    .line 24
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -824,7 +800,6 @@
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->setScaleY(F)V
 
-    .line 25
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -870,10 +845,8 @@
 
     const/16 v2, 0x1e
 
-    .line 26
     invoke-static {v2}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 27
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -922,7 +895,6 @@
 
     invoke-virtual {v2, v1}, Landroid/view/ViewGroup;->setTranslationY(F)V
 
-    .line 28
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -939,7 +911,6 @@
 
     move-result-object v1
 
-    .line 29
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;->a()Lcom/meitu/template/bean/ArMaterial;
@@ -960,7 +931,6 @@
 
     const/high16 v2, 0x41000000    # 8.0f
 
-    .line 30
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -971,7 +941,6 @@
 
     const/high16 v2, 0x42a00000    # 80.0f
 
-    .line 31
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -980,7 +949,6 @@
 
     move-result-object v1
 
-    .line 32
     new-instance v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a$a;-><init>(Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;)V
@@ -989,7 +957,6 @@
 
     move-result-object v1
 
-    .line 33
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
@@ -1009,7 +976,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 34
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

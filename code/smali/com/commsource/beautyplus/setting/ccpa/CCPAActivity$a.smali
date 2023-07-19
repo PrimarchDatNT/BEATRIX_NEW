@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/ccpa/CCPAActivity$a;->a:Lcom/commsource/beautyplus/setting/ccpa/CCPAActivity;
 
     invoke-static {v0, p2}, Lcom/commsource/beautyplus/setting/ccpa/CCPAActivity;->N0(Lcom/commsource/beautyplus/setting/ccpa/CCPAActivity;Z)V

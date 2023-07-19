@@ -37,7 +37,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/meitu/common/animutil/c;
 
     invoke-direct {v1}, Lcom/meitu/common/animutil/c;-><init>()V
@@ -80,7 +79,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/meitu/common/animutil/ObjAnim;
 
     invoke-direct {v1}, Lcom/meitu/common/animutil/ObjAnim;-><init>()V
@@ -125,7 +123,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/meitu/common/animutil/d;
 
     invoke-direct {v1}, Lcom/meitu/common/animutil/d;-><init>()V

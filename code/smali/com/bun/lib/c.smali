@@ -13,7 +13,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/bun/lib/c;->c()V
 
     return-void
@@ -22,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +33,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
@@ -154,7 +151,6 @@
 .method public static b(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/bun/lib/c;
 
     monitor-enter v0
@@ -179,7 +175,6 @@
 .method private static synthetic c()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/bun/lib/c;
@@ -224,7 +219,6 @@
 .method public static d()Landroid/content/Context;
     .locals 2
 
-    .line 1
     const-class v0, Lcom/bun/lib/c;
 
     monitor-enter v0
@@ -260,7 +254,6 @@
 .method static final synthetic e(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0

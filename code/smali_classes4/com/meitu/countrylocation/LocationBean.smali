@@ -36,7 +36,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,28 +44,20 @@
 .method public constructor <init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/countrylocation/LocationBean;->continent_code:Ljava/lang/Integer;
 
-    .line 4
     iput-object p2, p0, Lcom/meitu/countrylocation/LocationBean;->continent_en:Ljava/lang/String;
 
-    .line 5
     iput-object p3, p0, Lcom/meitu/countrylocation/LocationBean;->continent:Ljava/lang/String;
 
-    .line 6
     iput-object p4, p0, Lcom/meitu/countrylocation/LocationBean;->country_code:Ljava/lang/String;
 
-    .line 7
     iput-object p5, p0, Lcom/meitu/countrylocation/LocationBean;->country_en:Ljava/lang/String;
 
-    .line 8
     iput-object p6, p0, Lcom/meitu/countrylocation/LocationBean;->country:Ljava/lang/String;
 
-    .line 9
     iput-object p7, p0, Lcom/meitu/countrylocation/LocationBean;->area:Ljava/lang/String;
 
     return-void
@@ -75,31 +66,22 @@
 .method public constructor <init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 10
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 11
     iput-object p1, p0, Lcom/meitu/countrylocation/LocationBean;->continent_code:Ljava/lang/Integer;
 
-    .line 12
     iput-object p2, p0, Lcom/meitu/countrylocation/LocationBean;->continent_en:Ljava/lang/String;
 
-    .line 13
     iput-object p3, p0, Lcom/meitu/countrylocation/LocationBean;->continent:Ljava/lang/String;
 
-    .line 14
     iput-object p4, p0, Lcom/meitu/countrylocation/LocationBean;->country_code:Ljava/lang/String;
 
-    .line 15
     iput-object p5, p0, Lcom/meitu/countrylocation/LocationBean;->country_en:Ljava/lang/String;
 
-    .line 16
     iput-object p6, p0, Lcom/meitu/countrylocation/LocationBean;->country:Ljava/lang/String;
 
-    .line 17
     iput-object p7, p0, Lcom/meitu/countrylocation/LocationBean;->area:Ljava/lang/String;
 
-    .line 18
     iput-object p8, p0, Lcom/meitu/countrylocation/LocationBean;->area_code:Ljava/lang/String;
 
     return-void
@@ -114,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/LocationBean;->area:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -129,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/LocationBean;->area_code:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/LocationBean;->continent:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -159,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/LocationBean;->continent_code:Ljava/lang/Integer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/LocationBean;->continent_en:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -189,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/LocationBean;->country:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -204,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/LocationBean;->country_code:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -219,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/LocationBean;->country_en:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -234,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/countrylocation/LocationBean;->latitude:D
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -249,7 +222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/countrylocation/LocationBean;->longitude:D
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -264,10 +236,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/LocationBean;->area:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -280,10 +250,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/LocationBean;->area_code:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -296,10 +264,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/LocationBean;->continent:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -312,10 +278,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/LocationBean;->continent_code:Ljava/lang/Integer;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -328,10 +292,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/LocationBean;->continent_en:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -344,10 +306,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/LocationBean;->country:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -360,10 +320,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/LocationBean;->country_code:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -376,10 +334,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/LocationBean;->country_en:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -392,10 +348,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/countrylocation/LocationBean;->latitude:D
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -408,10 +362,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/countrylocation/LocationBean;->longitude:D
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -424,7 +376,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

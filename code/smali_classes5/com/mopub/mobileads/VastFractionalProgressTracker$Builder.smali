@@ -38,14 +38,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;->content:Ljava/lang/String;
 
     iput p2, p0, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;->trackingFraction:F
 
-    .line 2
     sget-object p1, Lcom/mopub/mobileads/VastTracker$MessageType;->TRACKING_URL:Lcom/mopub/mobileads/VastTracker$MessageType;
 
     iput-object p1, p0, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;->messageType:Lcom/mopub/mobileads/VastTracker$MessageType;
@@ -100,7 +98,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/VastFractionalProgressTracker;
 
     iget v1, p0, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;->trackingFraction:F
@@ -220,7 +217,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;->isRepeatable:Z
 
     return-object p0
@@ -239,7 +235,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;->messageType:Lcom/mopub/mobileads/VastTracker$MessageType;
 
     return-object p0

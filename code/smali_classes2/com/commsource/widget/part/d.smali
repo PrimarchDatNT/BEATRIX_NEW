@@ -24,17 +24,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/g1;-><init>(Lcom/commsource/widget/XSeekBar;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/part/d;->b:Landroid/graphics/RectF;
 
-    .line 3
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
@@ -53,7 +50,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
 
     move-result-object v0
@@ -62,7 +58,6 @@
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
 
     move-result-object v1
@@ -77,7 +72,6 @@
 
     div-float/2addr v1, v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/widget/part/d;->b:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
@@ -138,14 +132,12 @@
 
     invoke-virtual {v3, v4, v5, v0, v1}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/widget/part/d;->c:Landroid/graphics/RectF;
 
     iget-object v1, p0, Lcom/commsource/widget/part/d;->b:Landroid/graphics/RectF;
 
     invoke-virtual {v0, v1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/widget/part/d;->c:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
@@ -174,7 +166,6 @@
 
     invoke-virtual {v0, v1, v3}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -195,7 +186,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
 
     move-result-object v1
@@ -206,7 +196,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/part/d;->b:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
@@ -221,7 +210,6 @@
 
     invoke-virtual {p1, v1, v3, v3, v2}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
 
     move-result-object v1
@@ -232,7 +220,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/part/d;->c:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
@@ -245,7 +232,6 @@
 
     invoke-virtual {p1, v1, v3, v3, v2}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -27,14 +27,12 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v0
 
     sput-boolean v0, Lcom/mopub/volley/VolleyLog;->DEBUG:Z
 
-    .line 2
     const-class v0, Lcom/mopub/volley/VolleyLog;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -49,7 +47,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,7 +59,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
@@ -70,7 +66,6 @@
 
     move-result-object p0
 
-    .line 2
     :goto_0
     new-instance p1, Ljava/lang/Throwable;
 
@@ -88,7 +83,6 @@
 
     const/4 v1, 0x2
 
-    .line 3
     :goto_1
     array-length v2, p1
 
@@ -96,14 +90,12 @@
 
     if-ge v1, v2, :cond_2
 
-    .line 4
     aget-object v2, p1, v1
 
     invoke-virtual {v2}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5
     sget-object v4, Lcom/mopub/volley/VolleyLog;->CLASS_NAME:Ljava/lang/String;
 
     invoke-virtual {v2, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -112,7 +104,6 @@
 
     if-nez v2, :cond_1
 
-    .line 6
     aget-object v2, p1, v1
 
     invoke-virtual {v2}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
@@ -121,7 +112,6 @@
 
     const/16 v4, 0x2e
 
-    .line 7
     invoke-virtual {v2, v4}, Ljava/lang/String;->lastIndexOf(I)I
 
     move-result v4
@@ -134,7 +124,6 @@
 
     const/16 v4, 0x24
 
-    .line 8
     invoke-virtual {v2, v4}, Ljava/lang/String;->lastIndexOf(I)I
 
     move-result v4
@@ -145,7 +134,6 @@
 
     move-result-object v2
 
-    .line 9
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -178,7 +166,6 @@
     :cond_2
     const-string p1, "<unknown>"
 
-    .line 10
     :goto_2
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
 
@@ -218,7 +205,6 @@
 .method public static varargs d(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/volley/VolleyLog;->TAG:Ljava/lang/String;
 
     invoke-static {p0, p1}, Lcom/mopub/volley/VolleyLog;->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -233,7 +219,6 @@
 .method public static varargs e(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/volley/VolleyLog;->TAG:Ljava/lang/String;
 
     invoke-static {p0, p1}, Lcom/mopub/volley/VolleyLog;->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -248,7 +233,6 @@
 .method public static varargs e(Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     sget-object v0, Lcom/mopub/volley/VolleyLog;->TAG:Ljava/lang/String;
 
     invoke-static {p1, p2}, Lcom/mopub/volley/VolleyLog;->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -273,15 +257,12 @@
 
     const-string v1, "Changing log tag to %s"
 
-    .line 1
     invoke-static {v1, v0}, Lcom/mopub/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     sput-object p0, Lcom/mopub/volley/VolleyLog;->TAG:Ljava/lang/String;
 
     const/4 v0, 0x2
 
-    .line 3
     invoke-static {p0, v0}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result p0
@@ -294,12 +275,10 @@
 .method public static varargs v(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/mopub/volley/VolleyLog;->DEBUG:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/mopub/volley/VolleyLog;->TAG:Ljava/lang/String;
 
     invoke-static {p0, p1}, Lcom/mopub/volley/VolleyLog;->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -315,7 +294,6 @@
 .method public static varargs wtf(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/volley/VolleyLog;->TAG:Ljava/lang/String;
 
     invoke-static {p0, p1}, Lcom/mopub/volley/VolleyLog;->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -330,7 +308,6 @@
 .method public static varargs wtf(Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     sget-object v0, Lcom/mopub/volley/VolleyLog;->TAG:Ljava/lang/String;
 
     invoke-static {p1, p2}, Lcom/mopub/volley/VolleyLog;->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

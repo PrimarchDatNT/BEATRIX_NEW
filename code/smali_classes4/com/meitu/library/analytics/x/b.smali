@@ -24,20 +24,16 @@
 .method constructor <init>(Lcom/meitu/library/analytics/sdk/content/f;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/library/analytics/x/b;->d:I
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/library/analytics/sdk/content/f;->Q()Lcom/meitu/library/analytics/y/n/i;
 
     move-result-object p1
 
-    .line 4
     sget-object v0, Lcom/meitu/library/analytics/y/n/d;->z:Lcom/meitu/library/analytics/y/n/d;
 
     invoke-virtual {p1, v0}, Lcom/meitu/library/analytics/y/n/i;->k(Lcom/meitu/library/analytics/y/n/d;)Ljava/lang/Object;
@@ -48,7 +44,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/analytics/x/b;->a:Ljava/lang/String;
 
-    .line 5
     sget-object v0, Lcom/meitu/library/analytics/y/n/d;->A:Lcom/meitu/library/analytics/y/n/d;
 
     invoke-virtual {p1, v0}, Lcom/meitu/library/analytics/y/n/i;->k(Lcom/meitu/library/analytics/y/n/d;)Ljava/lang/Object;
@@ -59,7 +54,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/analytics/x/b;->b:Ljava/lang/String;
 
-    .line 6
     sget-object v0, Lcom/meitu/library/analytics/y/n/d;->B:Lcom/meitu/library/analytics/y/n/d;
 
     invoke-virtual {p1, v0}, Lcom/meitu/library/analytics/y/n/i;->k(Lcom/meitu/library/analytics/y/n/d;)Ljava/lang/Object;
@@ -82,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/analytics/x/b;->d:I
 
     const-string v1, "OnDirectCallCode ->ErrorCode = "
@@ -93,7 +86,6 @@
 
     if-ne p1, v3, :cond_0
 
-    .line 2
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -119,7 +111,6 @@
 
     if-ne p1, v3, :cond_1
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -145,7 +136,6 @@
 
     if-ne p1, v3, :cond_2
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -171,7 +161,6 @@
 
     if-ne p1, v3, :cond_3
 
-    .line 5
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -197,7 +186,6 @@
 
     if-ne p1, v3, :cond_4
 
-    .line 6
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -216,7 +204,6 @@
 
     invoke-static {v2, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -233,12 +220,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-interface {p1}, Lcom/bun/supplier/IdSupplier;->isSupported()Z
@@ -254,10 +239,8 @@
     :try_start_1
     const-string v1, "OnSupport ->MdidSdk \u652f\u6301\u8bbe\u5907"
 
-    .line 3
     invoke-static {v2, v1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
@@ -266,21 +249,18 @@
 
     move-result-object v1
 
-    .line 5
     invoke-interface {p1}, Lcom/bun/supplier/IdSupplier;->getOAID()Ljava/lang/String;
 
     move-result-object v3
 
     iput-object v3, p0, Lcom/meitu/library/analytics/x/b;->a:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
 
     if-nez v3, :cond_1
 
-    .line 7
     iget-object v3, p0, Lcom/meitu/library/analytics/x/b;->a:Ljava/lang/String;
 
     sget-object v4, Lcom/meitu/library/analytics/y/n/d;->z:Lcom/meitu/library/analytics/y/n/d;
@@ -295,7 +275,6 @@
 
     if-nez v3, :cond_1
 
-    .line 8
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -314,12 +293,10 @@
 
     invoke-static {v2, v3}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     iget-object v3, p0, Lcom/meitu/library/analytics/x/b;->a:Ljava/lang/String;
 
     invoke-virtual {v1, v4, v3}, Lcom/meitu/library/analytics/y/n/i;->n(Lcom/meitu/library/analytics/y/n/d;Ljava/lang/Object;)Lcom/meitu/library/analytics/y/n/i;
 
-    .line 10
     :cond_1
     invoke-interface {p1}, Lcom/bun/supplier/IdSupplier;->getVAID()Ljava/lang/String;
 
@@ -327,14 +304,12 @@
 
     iput-object v3, p0, Lcom/meitu/library/analytics/x/b;->b:Ljava/lang/String;
 
-    .line 11
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
 
     if-nez v3, :cond_2
 
-    .line 12
     iget-object v3, p0, Lcom/meitu/library/analytics/x/b;->b:Ljava/lang/String;
 
     sget-object v4, Lcom/meitu/library/analytics/y/n/d;->A:Lcom/meitu/library/analytics/y/n/d;
@@ -349,7 +324,6 @@
 
     if-nez v3, :cond_2
 
-    .line 13
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -368,12 +342,10 @@
 
     invoke-static {v2, v3}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     iget-object v3, p0, Lcom/meitu/library/analytics/x/b;->b:Ljava/lang/String;
 
     invoke-virtual {v1, v4, v3}, Lcom/meitu/library/analytics/y/n/i;->n(Lcom/meitu/library/analytics/y/n/d;Ljava/lang/Object;)Lcom/meitu/library/analytics/y/n/i;
 
-    .line 15
     :cond_2
     invoke-interface {p1}, Lcom/bun/supplier/IdSupplier;->getAAID()Ljava/lang/String;
 
@@ -381,14 +353,12 @@
 
     iput-object p1, p0, Lcom/meitu/library/analytics/x/b;->c:Ljava/lang/String;
 
-    .line 16
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result p1
 
     if-nez p1, :cond_4
 
-    .line 17
     iget-object p1, p0, Lcom/meitu/library/analytics/x/b;->c:Ljava/lang/String;
 
     sget-object v3, Lcom/meitu/library/analytics/y/n/d;->B:Lcom/meitu/library/analytics/y/n/d;
@@ -403,7 +373,6 @@
 
     if-nez p1, :cond_4
 
-    .line 18
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -422,7 +391,6 @@
 
     invoke-static {v2, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 19
     iget-object p1, p0, Lcom/meitu/library/analytics/x/b;->c:Ljava/lang/String;
 
     invoke-virtual {v1, v3, p1}, Lcom/meitu/library/analytics/y/n/i;->n(Lcom/meitu/library/analytics/y/n/d;Ljava/lang/Object;)Lcom/meitu/library/analytics/y/n/i;
@@ -432,7 +400,6 @@
     :cond_3
     const-string p1, "OnSupport ->MdidSdk \u4e0d\u652f\u6301\u8bbe\u5907"
 
-    .line 20
     invoke-static {v2, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -442,10 +409,8 @@
     :catch_0
     move-exception p1
 
-    .line 21
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 22
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -460,7 +425,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/x/b;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -475,7 +439,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/x/b;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -490,7 +453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/x/b;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -505,7 +467,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/x/b;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

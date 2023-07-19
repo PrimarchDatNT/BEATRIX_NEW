@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,10 +35,8 @@
 
     new-array v1, v1, [F
 
-    .line 1
     fill-array-data v1, :array_0
 
-    .line 2
     aget p0, v1, p0
 
     const/high16 v1, 0x42c80000    # 100.0f
@@ -75,14 +72,12 @@
 
     const-string v1, "auto"
 
-    .line 1
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -90,14 +85,12 @@
     :cond_0
     const-string/jumbo v1, "torch"
 
-    .line 3
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -105,19 +98,16 @@
     :cond_1
     const-string v1, "on"
 
-    .line 5
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
     if-eqz p0, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

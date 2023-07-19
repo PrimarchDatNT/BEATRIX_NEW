@@ -33,12 +33,10 @@
 .method public constructor <init>(Lf/r/c/d/b;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/d/b$a;->g:Lf/r/c/d/b;
 
     invoke-direct {p0}, Lf/r/c/e/d;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lf/r/c/d/b$a;->f:Ljava/lang/String;
 
     return-void

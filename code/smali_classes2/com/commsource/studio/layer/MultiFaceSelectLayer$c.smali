@@ -55,14 +55,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$c;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v0}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->q0(Lcom/commsource/studio/layer/MultiFaceSelectLayer;)Ljava/util/LinkedList;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -91,7 +89,6 @@
     :cond_0
     check-cast v3, Lcom/commsource/studio/layer/FaceOval;
 
-    .line 3
     iget-object v5, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$c;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-virtual {v5}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -114,7 +111,6 @@
     :goto_1
     invoke-virtual {v3, v2}, Lcom/commsource/studio/layer/FaceOval;->F(Z)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$c;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
@@ -127,7 +123,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -141,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/MultiFaceSelectLayer$c;->a(Ljava/lang/Integer;)V

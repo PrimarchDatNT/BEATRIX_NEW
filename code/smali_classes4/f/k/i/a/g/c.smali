@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/k/i/a/h/a;-><init>()V
 
     return-void
@@ -18,7 +17,6 @@
 .method public final d(Lf/k/i/a/d;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/i/a/g/c;->h(Lf/k/i/a/d;)V
 
     return-void
@@ -27,7 +25,6 @@
 .method public final e(Lf/k/i/a/d;Ljava/lang/Exception;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
 
     move-result-object p1
@@ -40,12 +37,10 @@
 .method public final f(Lf/k/i/a/e;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p1}, Lf/k/i/a/e;->e()Lf/k/i/a/d;
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     new-instance v1, Lorg/json/JSONObject;
 
@@ -63,7 +58,6 @@
 
     invoke-direct {v1, v2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lf/k/i/a/e;->f()Lokhttp3/Response;
 
     move-result-object v2
@@ -88,19 +82,16 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Lf/k/i/a/d;->Q()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {p0, v0}, Lf/k/i/a/g/c;->h(Lf/k/i/a/d;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
 
@@ -115,19 +106,16 @@
 
     if-eqz v0, :cond_1
 
-    .line 7
     invoke-virtual {v0}, Lf/k/i/a/d;->Q()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-virtual {p0, v0}, Lf/k/i/a/g/c;->d(Lf/k/i/a/d;)V
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-virtual {p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
 

@@ -44,10 +44,8 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Ldagger/internal/d;->d(I)Ljava/util/LinkedHashMap;
 
     move-result-object p1
@@ -71,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ldagger/internal/a$a;->a:Ljava/util/LinkedHashMap;
 
     const-string v1, "key"
@@ -104,15 +101,12 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p1, Ldagger/internal/e;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ldagger/internal/e;
 
-    .line 3
     invoke-virtual {p1}, Ldagger/internal/e;->a()Lj/a/c;
 
     move-result-object p1
@@ -123,11 +117,9 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     check-cast p1, Ldagger/internal/a;
 
-    .line 5
     iget-object v0, p0, Ldagger/internal/a$a;->a:Ljava/util/LinkedHashMap;
 
     invoke-static {p1}, Ldagger/internal/a;->a(Ldagger/internal/a;)Ljava/util/Map;

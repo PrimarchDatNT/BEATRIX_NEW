@@ -24,7 +24,6 @@
 .method public constructor <init>(Landroid/content/Context;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/dialog/l0;-><init>(Landroid/content/Context;I)V
 
     return-void
@@ -39,17 +38,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onWindowFocusChanged(Z)V
 
     if-eqz p1, :cond_0
 
     const-string p1, "eva_popup_imp"
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

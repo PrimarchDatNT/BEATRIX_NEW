@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcotlinx/coroutines/internal/y;-><init>(Lcotlin/coroutines/CoroutineContext;Lcotlin/coroutines/c;)V
 
     return-void

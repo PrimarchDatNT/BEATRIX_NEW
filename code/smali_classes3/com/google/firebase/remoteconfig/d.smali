@@ -22,24 +22,20 @@
 .method private constructor <init>(Lcom/google/firebase/remoteconfig/d$a;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/firebase/remoteconfig/d$a;->e(Lcom/google/firebase/remoteconfig/d$a;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/firebase/remoteconfig/d;->a:Z
 
-    .line 3
     invoke-static {p1}, Lcom/google/firebase/remoteconfig/d$a;->f(Lcom/google/firebase/remoteconfig/d$a;)J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/google/firebase/remoteconfig/d;->b:J
 
-    .line 4
     invoke-static {p1}, Lcom/google/firebase/remoteconfig/d$a;->g(Lcom/google/firebase/remoteconfig/d$a;)J
 
     move-result-wide v0
@@ -52,7 +48,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/remoteconfig/d$a;Lcom/google/firebase/remoteconfig/t;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/google/firebase/remoteconfig/d;-><init>(Lcom/google/firebase/remoteconfig/d$a;)V
 
     return-void
@@ -63,7 +58,6 @@
 .method public a()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/remoteconfig/d;->b:J
 
     return-wide v0
@@ -72,7 +66,6 @@
 .method public b()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/remoteconfig/d;->c:J
 
     return-wide v0
@@ -81,7 +74,6 @@
 .method public c()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/remoteconfig/d;->a:Z
 
     return v0
@@ -90,26 +82,22 @@
 .method public d()Lcom/google/firebase/remoteconfig/d$a;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/firebase/remoteconfig/d$a;
 
     invoke-direct {v0}, Lcom/google/firebase/remoteconfig/d$a;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/remoteconfig/d;->c()Z
 
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/google/firebase/remoteconfig/d$a;->b(Z)Lcom/google/firebase/remoteconfig/d$a;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firebase/remoteconfig/d;->a()J
 
     move-result-wide v1
 
     invoke-virtual {v0, v1, v2}, Lcom/google/firebase/remoteconfig/d$a;->c(J)Lcom/google/firebase/remoteconfig/d$a;
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/firebase/remoteconfig/d;->b()J
 
     move-result-wide v1

@@ -28,7 +28,6 @@
 
     iput-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$b$a;->a:Lcom/commsource/mypage/album/PuzzleComponent$b;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +50,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$b$a;->a:Lcom/commsource/mypage/album/PuzzleComponent$b;
 
     iget-object p1, p1, Lcom/commsource/mypage/album/PuzzleComponent$b;->c:Lcom/commsource/mypage/album/PuzzleComponent;
@@ -78,7 +76,6 @@
 
     check-cast p1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 2
     iget v2, p1, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
     iget-object v3, p0, Lcom/commsource/mypage/album/PuzzleComponent$b$a;->a:Lcom/commsource/mypage/album/PuzzleComponent$b;
@@ -109,7 +106,6 @@
 
     iput v2, p1, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/mypage/album/PuzzleComponent$b$a;->a:Lcom/commsource/mypage/album/PuzzleComponent$b;
 
     iget-object v2, v2, Lcom/commsource/mypage/album/PuzzleComponent$b;->c:Lcom/commsource/mypage/album/PuzzleComponent;
@@ -128,7 +124,6 @@
 
     invoke-virtual {v2, p1}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$b$a;->a:Lcom/commsource/mypage/album/PuzzleComponent$b;
 
     iget-object p1, p1, Lcom/commsource/mypage/album/PuzzleComponent$b;->c:Lcom/commsource/mypage/album/PuzzleComponent;
@@ -145,12 +140,10 @@
 
     invoke-virtual {p1}, Landroid/widget/LinearLayout;->clearAnimation()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -178,7 +171,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -199,7 +191,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

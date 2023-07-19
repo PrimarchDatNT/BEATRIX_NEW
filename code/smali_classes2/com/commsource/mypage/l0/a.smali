@@ -41,7 +41,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,10 +49,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/mypage/l0/a;->a:Ljava/lang/String;
 
     return-void
@@ -62,13 +59,10 @@
 .method public constructor <init>(Ljava/lang/String;F)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/mypage/l0/a;->a:Ljava/lang/String;
 
-    .line 6
     iput p2, p0, Lcom/commsource/mypage/l0/a;->b:F
 
     return-void
@@ -77,16 +71,12 @@
 .method public constructor <init>(Ljava/lang/String;IF)V
     .locals 0
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
     iput-object p1, p0, Lcom/commsource/mypage/l0/a;->a:Ljava/lang/String;
 
-    .line 9
     iput p2, p0, Lcom/commsource/mypage/l0/a;->c:I
 
-    .line 10
     iput p3, p0, Lcom/commsource/mypage/l0/a;->b:F
 
     return-void
@@ -101,25 +91,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/l0/a;->d:Ljava/util/List;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/mypage/l0/a;->d:Ljava/util/List;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/mypage/l0/a;->d:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -132,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/mypage/l0/a;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -147,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/mypage/l0/a;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -162,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/l0/a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -185,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/l0/a;->d:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -204,12 +186,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/mypage/l0/a;->d()Ljava/lang/String;
 
@@ -231,12 +211,10 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     iget v2, p1, Lcom/commsource/mypage/l0/a;->c:I
 
@@ -244,12 +222,10 @@
 
     if-eq v2, v3, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 6
     :cond_2
     iget v2, p1, Lcom/commsource/mypage/l0/a;->b:F
 
@@ -259,12 +235,10 @@
 
     if-eqz v2, :cond_3
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 8
     :cond_3
     iget-object v2, p1, Lcom/commsource/mypage/l0/a;->d:Ljava/util/List;
 
@@ -274,7 +248,6 @@
 
     if-ne v2, v3, :cond_4
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -286,7 +259,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_5
     invoke-interface {v2}, Ljava/util/List;->size()I
 
@@ -300,7 +272,6 @@
 
     if-eq v2, v3, :cond_6
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -308,7 +279,6 @@
     :cond_6
     const/4 v2, 0x0
 
-    .line 12
     :goto_0
     iget-object v3, p0, Lcom/commsource/mypage/l0/a;->d:Ljava/util/List;
 
@@ -318,7 +288,6 @@
 
     if-ge v2, v3, :cond_8
 
-    .line 13
     iget-object v3, p1, Lcom/commsource/mypage/l0/a;->d:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -341,7 +310,6 @@
 
     if-nez v3, :cond_7
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -351,13 +319,11 @@
 
     goto :goto_0
 
-    .line 15
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 16
     :cond_9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -372,10 +338,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/mypage/l0/a;->b:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -388,10 +352,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/mypage/l0/a;->c:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -404,10 +366,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/l0/a;->a:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -428,10 +388,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/l0/a;->d:Ljava/util/List;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

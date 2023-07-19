@@ -68,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/billing/d;
 
     invoke-direct {v1}, Lcom/commsource/billing/d;-><init>()V
@@ -83,7 +82,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -96,12 +94,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/c0;->D(Landroid/content/Context;)Z
 
     move-result v2
@@ -120,14 +116,12 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/util/c0;->w(Landroid/content/Context;)Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 4
     invoke-static {v1}, Lcom/commsource/util/c0;->m(Landroid/content/Context;)Z
 
     move-result v2
@@ -164,12 +158,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/c0;->n(Landroid/content/Context;)Z
 
     move-result v2
@@ -216,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
     invoke-virtual {v1}, Lcom/commsource/statistics/o;->j()Z
@@ -225,7 +216,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/billing/d;->i()Z
 
     move-result v1
@@ -236,7 +226,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/billing/d;->j()Z
 
@@ -256,7 +245,6 @@
     :cond_2
     const-string v1, "com.commsource.beautyplus.subscribtion.1month.fullprice"
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -272,7 +260,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
     invoke-virtual {v1}, Lcom/commsource/statistics/o;->j()Z
@@ -281,7 +268,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/billing/d;->i()Z
 
     move-result v1
@@ -292,7 +278,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/billing/d;->j()Z
 
@@ -312,7 +297,6 @@
     :cond_2
     const-string v1, "com.commsource.beautyplus.subscribtion.1year.fullprice"
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -328,7 +312,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
     invoke-virtual {v1}, Lcom/commsource/statistics/o;->j()Z
@@ -337,7 +320,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/billing/d;->i()Z
 
     move-result v1
@@ -348,7 +330,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/billing/d;->j()Z
 
@@ -368,7 +349,6 @@
     :cond_2
     const-string v1, "com.commsource.beautyplus.subscribtion.1month.25discount"
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -384,7 +364,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
     invoke-virtual {v1}, Lcom/commsource/statistics/o;->j()Z
@@ -393,7 +372,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/billing/d;->i()Z
 
     move-result v1
@@ -404,7 +382,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/billing/d;->j()Z
 
@@ -424,7 +401,6 @@
     :cond_2
     const-string v1, "com.commsource.beautyplus.subscribtion.1year.25discount"
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -440,7 +416,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
     invoke-virtual {v1}, Lcom/commsource/statistics/o;->j()Z
@@ -449,7 +424,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/billing/d;->i()Z
 
     move-result v1
@@ -460,7 +434,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/billing/d;->j()Z
 
@@ -480,7 +453,6 @@
     :cond_2
     const-string v1, "com.commsource.beautyplus.subscribtion.1month.25discount.new.users"
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -496,7 +468,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
     invoke-virtual {v1}, Lcom/commsource/statistics/o;->j()Z
@@ -505,7 +476,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/billing/d;->i()Z
 
     move-result v1
@@ -516,7 +486,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/billing/d;->j()Z
 
@@ -536,7 +505,6 @@
     :cond_2
     const-string v1, "com.commsource.beautyplus.subscribtion.1year.25discount.new.users"
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -552,7 +520,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/billing/d;->i()Z
 
     move-result v1
@@ -563,7 +530,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/commsource/billing/d;->j()Z
 
@@ -578,7 +544,6 @@
     :cond_1
     const-string v1, "beautyplus.subs.month1.func00.lev00.ver7"
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -594,7 +559,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/billing/d;->i()Z
 
     move-result v1
@@ -605,7 +569,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/commsource/billing/d;->j()Z
 
@@ -620,7 +583,6 @@
     :cond_1
     const-string v1, "beautyplus.subs.month12.func00.lev00.ver7"
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

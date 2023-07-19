@@ -24,7 +24,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/util/y1;
 
     invoke-direct {v1}, Lcom/commsource/util/y1;-><init>()V
@@ -39,7 +38,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -68,12 +66,10 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
-    .line 2
     new-instance v1, Landroid/text/SpannableString;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -94,7 +90,6 @@
 
     const-string p2, "drawable"
 
-    .line 3
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
@@ -109,7 +104,6 @@
 
     invoke-virtual {p1, v3, v3, p2, v2}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 4
     new-instance p2, Lcom/commsource/util/y1$a;
 
     invoke-static {p3}, Lcom/meitu/library/p/f/i;->d(F)I
@@ -124,7 +118,6 @@
 
     invoke-virtual {v1, p2, v3, p1, p3}, Landroid/text/SpannableString;->setSpan(Ljava/lang/Object;III)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/text/TextTabView$c;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextTabView;->getSelectPos()I
@@ -51,12 +50,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/text/TextTabView$c;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v0}, Lcom/commsource/studio/text/TextTabView;->c(Lcom/commsource/studio/text/TextTabView;)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

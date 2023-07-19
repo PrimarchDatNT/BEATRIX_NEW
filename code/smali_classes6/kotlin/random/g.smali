@@ -13,7 +13,6 @@
     .annotation build Lcotlin/p;
     .end annotation
 
-    .line 1
     invoke-static {p1, p0}, Lcotlin/v1;->c(II)I
 
     move-result v0
@@ -61,7 +60,6 @@
     .annotation build Lcotlin/p;
     .end annotation
 
-    .line 1
     invoke-static {p2, p3, p0, p1}, Lcotlin/v1;->g(JJ)I
 
     move-result v0
@@ -124,7 +122,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/random/e;->d(I)[B
 
     move-result-object p0
@@ -164,7 +161,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/random/e;->e([B)[B
 
     return-object p1
@@ -198,7 +194,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcotlin/random/e;->f([BII)[B
 
     return-object p1
@@ -218,7 +213,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     invoke-static {p1}, Lcotlin/c1;->s([B)I
 
     move-result p3
@@ -248,7 +242,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/random/e;->l()I
 
     move-result p0
@@ -285,14 +278,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcotlin/g2/t;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Lcotlin/g2/r;->e()I
 
     move-result v0
@@ -325,7 +316,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcotlin/g2/r;->c()I
 
@@ -365,7 +355,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {p0}, Lcotlin/random/g;->g(Lcotlin/random/e;)I
 
@@ -374,7 +363,6 @@
     :goto_0
     return p0
 
-    .line 5
     :cond_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -414,7 +402,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1, p2}, Lcotlin/random/g;->a(II)V
 
     const/high16 v0, -0x80000000
@@ -423,14 +410,12 @@
 
     xor-int/2addr p2, v0
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lcotlin/random/e;->n(II)I
 
     move-result p0
 
     xor-int/2addr p0, v0
 
-    .line 3
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -457,7 +442,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0, p1}, Lcotlin/random/g;->i(Lcotlin/random/e;II)I
 
     move-result p0
@@ -482,7 +466,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/random/e;->o()J
 
     move-result-wide v0
@@ -519,14 +502,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcotlin/g2/w;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Lcotlin/g2/u;->e()J
 
     move-result-wide v0
@@ -571,7 +552,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcotlin/g2/u;->c()J
 
@@ -623,7 +603,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {p0}, Lcotlin/random/g;->k(Lcotlin/random/e;)J
 
@@ -632,7 +611,6 @@
     :goto_0
     return-wide p0
 
-    .line 5
     :cond_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -674,7 +652,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, p1, p2}, Lcotlin/random/g;->n(Lcotlin/random/e;JJ)J
 
     move-result-wide p0
@@ -699,7 +676,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1, p2, p3, p4}, Lcotlin/random/g;->b(JJ)V
 
     const-wide/high16 v0, -0x8000000000000000L
@@ -708,14 +684,12 @@
 
     xor-long/2addr p3, v0
 
-    .line 2
     invoke-virtual {p0, p1, p2, p3, p4}, Lcotlin/random/e;->q(JJ)J
 
     move-result-wide p0
 
     xor-long/2addr p0, v0
 
-    .line 3
     invoke-static {p0, p1}, Lcotlin/j1;->s(J)J
 
     move-result-wide p0

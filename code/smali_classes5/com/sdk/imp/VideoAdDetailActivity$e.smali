@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/VideoAdDetailActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VideoAdDetailActivity$e;->a:Lcom/sdk/imp/VideoAdDetailActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/VideoAdDetailActivity;->e()Lcom/sdk/api/d$d;
 
     move-result-object v0

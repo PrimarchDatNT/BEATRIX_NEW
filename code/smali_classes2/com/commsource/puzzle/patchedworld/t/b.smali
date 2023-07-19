@@ -33,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/t/d;
 
     const-string v2, "1:1"
@@ -46,7 +45,6 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/t/b;->a:Lcom/commsource/puzzle/patchedworld/t/d;
 
-    .line 2
     new-instance v1, Lcom/commsource/puzzle/patchedworld/t/d;
 
     const-string v2, "3:4"
@@ -61,7 +59,6 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/t/b;->b:Lcom/commsource/puzzle/patchedworld/t/d;
 
-    .line 3
     new-instance v1, Lcom/commsource/puzzle/patchedworld/t/d;
 
     const-string v2, "4:3"
@@ -72,7 +69,6 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/t/b;->c:Lcom/commsource/puzzle/patchedworld/t/d;
 
-    .line 4
     new-instance v1, Lcom/commsource/puzzle/patchedworld/t/d;
 
     const-string v2, "9:16"
@@ -85,7 +81,6 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/t/b;->d:Lcom/commsource/puzzle/patchedworld/t/d;
 
-    .line 5
     new-instance v1, Lcom/commsource/puzzle/patchedworld/t/d;
 
     const-string v2, "16:9"
@@ -96,7 +91,6 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/t/b;->e:Lcom/commsource/puzzle/patchedworld/t/d;
 
-    .line 6
     new-instance v1, Lcom/commsource/puzzle/patchedworld/t/d;
 
     const-string v2, "5:4"
@@ -107,7 +101,6 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/t/b;->f:Lcom/commsource/puzzle/patchedworld/t/d;
 
-    .line 7
     new-instance v1, Lcom/commsource/puzzle/patchedworld/t/d;
 
     const-string v2, "4:5"
@@ -126,7 +119,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicLong;-><init>()V
@@ -40,15 +39,12 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;J)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "typeName"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -59,13 +55,10 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 4
     iput-object p1, p0, Lio/grpc/j0;->a:Ljava/lang/String;
 
-    .line 5
     iput-object p2, p0, Lio/grpc/j0;->b:Ljava/lang/String;
 
-    .line 6
     iput-wide p3, p0, Lio/grpc/j0;->c:J
 
     return-void
@@ -88,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lio/grpc/j0;->c(Ljava/lang/Class;)Ljava/lang/String;
 
     move-result-object p0
@@ -107,7 +99,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lio/grpc/j0;
 
     invoke-static {}, Lio/grpc/j0;->f()J
@@ -132,7 +123,6 @@
 
     const-string v0, "type"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -143,7 +133,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -152,7 +141,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
@@ -182,7 +170,6 @@
 .method static f()J
     .locals 2
 
-    .line 1
     sget-object v0, Lio/grpc/j0;->d:Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicLong;->incrementAndGet()J
@@ -199,7 +186,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/j0;->b:Ljava/lang/String;
 
     return-object v0
@@ -208,7 +194,6 @@
 .method public e()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/grpc/j0;->c:J
 
     return-wide v0
@@ -217,7 +202,6 @@
 .method public g()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/j0;->a:Ljava/lang/String;
 
     return-object v0
@@ -226,7 +210,6 @@
 .method public h()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -257,39 +240,32 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lio/grpc/j0;->h()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object v1, p0, Lio/grpc/j0;->b:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
     const-string v1, ": ("
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     iget-object v1, p0, Lio/grpc/j0;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v1, 0x29
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 7
     :cond_0
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 

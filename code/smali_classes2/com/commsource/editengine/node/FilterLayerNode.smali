@@ -44,12 +44,10 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/editengine/i;-><init>(Lcom/commsource/editengine/b;)V
 
     iput-object p2, p0, Lcom/commsource/editengine/node/FilterLayerNode;->h:Lcom/commsource/studio/bean/FilterLayerInfo;
 
-    .line 2
     sget-object p1, Lcom/commsource/editengine/node/FilterLayerNode$filterRender$2;->INSTANCE:Lcom/commsource/editengine/node/FilterLayerNode$filterRender$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -58,7 +56,6 @@
 
     iput-object p1, p0, Lcom/commsource/editengine/node/FilterLayerNode;->c:Lcotlin/w;
 
-    .line 3
     new-instance p1, Landroid/graphics/RectF;
 
     const/4 p2, 0x0
@@ -73,7 +70,6 @@
 
     new-array p1, p1, [F
 
-    .line 4
     fill-array-data p1, :array_0
 
     iput-object p1, p0, Lcom/commsource/editengine/node/FilterLayerNode;->f:[F
@@ -99,7 +95,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v2
@@ -116,7 +111,6 @@
 
     if-nez v2, :cond_4
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v2
@@ -127,13 +121,11 @@
 
     const/4 v4, 0x0
 
-    .line 3
     :try_start_0
     invoke-virtual {v2}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getConfigPath()Ljava/lang/String;
 
     move-result-object v5
@@ -159,7 +151,6 @@
     :cond_1
     const/4 v3, 0x0
 
-    .line 5
     :goto_0
     invoke-static {v2}, Lcom/commsource/util/z;->a(Ljava/io/Closeable;)V
 
@@ -182,12 +173,10 @@
     :goto_1
     if-eqz v3, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 7
     :cond_2
     new-instance v2, Ljava/io/File;
 
@@ -197,7 +186,6 @@
 
     invoke-direct {v2, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result p1
@@ -220,12 +208,10 @@
     :goto_2
     if-nez p1, :cond_4
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 10
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -269,10 +255,8 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/editengine/i;->c(IILcom/commsource/editengine/j;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/editengine/node/FilterLayerNode;->k()Lcom/meitu/render/b;
 
     move-result-object p3
@@ -281,7 +265,6 @@
 
     invoke-virtual {p3, v1}, Lcom/meitu/core/MTFilterGLRender;->setOrientation(I)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/editengine/node/FilterLayerNode;->k()Lcom/meitu/render/b;
 
     move-result-object p3
@@ -306,14 +289,12 @@
     :goto_0
     div-float/2addr p3, v2
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/editengine/node/FilterLayerNode;->f:[F
 
     invoke-static {p3, v2}, Lcom/commsource/util/l0;->r(F[F)F
 
     move-result p3
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/editengine/node/FilterLayerNode;->f:[F
 
     aget v1, v2, v1
@@ -337,7 +318,6 @@
     :cond_1
     const/4 v1, 0x1
 
-    .line 6
     aget v1, v2, v1
 
     cmpg-float v1, p3, v1
@@ -354,7 +334,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     aget v1, v2, v3
 
@@ -372,7 +351,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     invoke-direct {p0}, Lcom/commsource/editengine/node/FilterLayerNode;->k()Lcom/meitu/render/b;
 
@@ -382,7 +360,6 @@
 
     invoke-virtual {p3, v1}, Lcom/meitu/core/MTFilterGLRender;->setFilterScaleType(Lcom/meitu/core/MTFilterType$MTFilterScaleType;)V
 
-    .line 9
     :goto_1
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -416,7 +393,6 @@
 
     invoke-static {p1, p2, p3, v3, p3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -429,17 +405,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/editengine/i;->e()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/editengine/node/FilterLayerNode;->k()Lcom/meitu/render/b;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/core/MTFilterGLRender;->releaseGL()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/editengine/node/FilterLayerNode;->g:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-eqz v1, :cond_0
@@ -449,15 +422,12 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcom/commsource/editengine/node/FilterLayerNode;->g:Lcom/commsource/camera/newrender/renderproxy/m;
 
     const/4 v1, 0x0
 
-    .line 5
     iput v1, p0, Lcom/commsource/editengine/node/FilterLayerNode;->d:I
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -488,57 +458,42 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/editengine/node/FilterLayerNode;->k()Lcom/meitu/render/b;
 
     move-result-object v2
 
-    .line 2
     iget v3, p1, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
-    .line 3
     iget v4, p1, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 4
     iget v5, p2, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
-    .line 5
     iget v6, p2, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 6
     iget v7, p1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
-    .line 7
     iget v8, p1, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
 
-    .line 8
     invoke-virtual/range {v2 .. v8}, Lcom/meitu/core/MTFilterGLRender;->renderToTexture(IIIIII)I
 
     move-result v1
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/editengine/node/FilterLayerNode;->g:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-eqz v2, :cond_1
 
-    .line 10
     iget v6, p1, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
     if-ne v1, v6, :cond_0
 
-    .line 11
     iget v3, p1, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
-    .line 12
     iget v4, p2, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
-    .line 13
     iget v1, p2, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 14
     iget v7, p1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
-    .line 15
     iget v8, p1, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
 
     const/4 v9, 0x1
@@ -547,37 +502,29 @@
 
     move v6, v1
 
-    .line 16
     invoke-virtual/range {v2 .. v9}, Lcom/commsource/camera/newrender/renderproxy/m;->j(IIIIIIZ)I
 
     move-result v1
 
     goto :goto_0
 
-    .line 17
     :cond_0
     iget v3, p2, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
-    .line 18
     iget v4, p1, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
-    .line 19
     iget v5, p2, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 20
     iget v7, p1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
-    .line 21
     iget v8, p1, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
 
     const/4 v9, 0x1
 
-    .line 22
     invoke-virtual/range {v2 .. v9}, Lcom/commsource/camera/newrender/renderproxy/m;->j(IIIIIIZ)I
 
     move-result v1
 
-    .line 23
     :cond_1
     :goto_0
     iget v2, p1, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
@@ -602,7 +549,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v0, p0, Lcom/commsource/editengine/node/FilterLayerNode;->d:I
 
     iget-object v1, p0, Lcom/commsource/editengine/node/FilterLayerNode;->h:Lcom/commsource/studio/bean/FilterLayerInfo;
@@ -617,7 +563,6 @@
 
     if-eq v0, v1, :cond_4
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/editengine/node/FilterLayerNode;->h:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-virtual {v0}, Lcom/commsource/studio/bean/FilterLayerInfo;->getFilter()Lcom/meitu/template/bean/Filter;
@@ -630,12 +575,10 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/commsource/editengine/node/FilterLayerNode;->h:Lcom/commsource/studio/bean/FilterLayerInfo;
 
@@ -649,7 +592,6 @@
 
     iput v0, p0, Lcom/commsource/editengine/node/FilterLayerNode;->d:I
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/editengine/node/FilterLayerNode;->h:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-virtual {v0}, Lcom/commsource/studio/bean/FilterLayerInfo;->getFilter()Lcom/meitu/template/bean/Filter;
@@ -670,7 +612,6 @@
 
     move-result-object v1
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/editengine/node/FilterLayerNode;->h:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-virtual {v2}, Lcom/commsource/studio/bean/FilterLayerInfo;->getFilter()Lcom/meitu/template/bean/Filter;
@@ -683,19 +624,16 @@
 
     const/4 v3, 0x0
 
-    .line 7
     invoke-static {v0, v1, v2, v3}, Lcom/meitu/parse/FilterDataHelper;->parserFilterData(Ljava/lang/String;Ljava/lang/String;II)Lcom/meitu/parse/FilterData;
 
     move-result-object v0
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/editengine/node/FilterLayerNode;->k()Lcom/meitu/render/b;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Lcom/meitu/render/b;->setFilterData(Lcom/meitu/parse/FilterData;)Z
 
-    .line 9
     sget-object v0, Lcom/commsource/camera/xcamera/util/d;->a:Lcom/commsource/camera/xcamera/util/d;
 
     iget-object v1, p0, Lcom/commsource/editengine/node/FilterLayerNode;->h:Lcom/commsource/studio/bean/FilterLayerInfo;
@@ -710,12 +648,10 @@
 
     if-eqz v0, :cond_2
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/editengine/node/FilterLayerNode;->g:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez v1, :cond_1
 
-    .line 11
     new-instance v1, Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-direct {v1}, Lcom/commsource/camera/newrender/renderproxy/m;-><init>()V
@@ -724,16 +660,13 @@
 
     if-eqz v1, :cond_1
 
-    .line 12
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m;->h()V
 
-    .line 13
     :cond_1
     iget-object v1, p0, Lcom/commsource/editengine/node/FilterLayerNode;->g:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-eqz v1, :cond_4
 
-    .line 14
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m;->O()Lcom/commsource/camera/newrender/renderproxy/m$a;
 
     move-result-object v1
@@ -746,24 +679,20 @@
 
     const/16 v3, 0x96
 
-    .line 15
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
 
     invoke-interface {v2, v3, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/m$a;->s(Ljava/util/HashMap;)Lcom/commsource/camera/newrender/renderproxy/m$a;
 
     move-result-object v0
 
-    .line 17
     invoke-virtual {v0}, Lcom/commsource/camera/newrender/renderproxy/m$a;->b()V
 
     goto :goto_0
 
-    .line 18
     :cond_2
     iget-object v0, p0, Lcom/commsource/editengine/node/FilterLayerNode;->g:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -774,10 +703,8 @@
     :cond_3
     const/4 v0, 0x0
 
-    .line 19
     iput-object v0, p0, Lcom/commsource/editengine/node/FilterLayerNode;->g:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    .line 20
     :cond_4
     :goto_0
     iget-object v0, p0, Lcom/commsource/editengine/node/FilterLayerNode;->h:Lcom/commsource/studio/bean/FilterLayerInfo;
@@ -796,7 +723,6 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 21
     invoke-direct {p0}, Lcom/commsource/editengine/node/FilterLayerNode;->k()Lcom/meitu/render/b;
 
     move-result-object v0
@@ -815,7 +741,6 @@
 
     goto :goto_1
 
-    .line 22
     :cond_5
     invoke-direct {p0}, Lcom/commsource/editengine/node/FilterLayerNode;->k()Lcom/meitu/render/b;
 
@@ -833,7 +758,6 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/render/b;->g(F)V
 
-    .line 23
     :goto_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -849,7 +773,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/node/FilterLayerNode;->h:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -872,7 +795,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/editengine/node/FilterLayerNode;->h:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

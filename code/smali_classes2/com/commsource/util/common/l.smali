@@ -90,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/os/HandlerThread;
 
     const-string v2, "SpCommitThread"
@@ -99,10 +98,8 @@
 
     sput-object v1, Lcom/commsource/util/common/l;->m:Landroid/os/HandlerThread;
 
-    .line 2
     invoke-virtual {v1}, Landroid/os/HandlerThread;->start()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -111,10 +108,8 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/util/common/l$b;
 
     const/4 v1, 0x1
@@ -123,7 +118,6 @@
 
     iput-object v0, p0, Lcom/commsource/util/common/l;->c:Lcom/commsource/util/common/l$b;
 
-    .line 3
     new-instance v0, Lcom/commsource/util/common/l$b;
 
     const/4 v1, 0x2
@@ -132,7 +126,6 @@
 
     iput-object v0, p0, Lcom/commsource/util/common/l;->d:Lcom/commsource/util/common/l$b;
 
-    .line 4
     new-instance v0, Lcom/commsource/util/common/l$b;
 
     const/4 v1, 0x5
@@ -141,7 +134,6 @@
 
     iput-object v0, p0, Lcom/commsource/util/common/l;->e:Lcom/commsource/util/common/l$b;
 
-    .line 5
     new-instance v0, Lcom/commsource/util/common/l$b;
 
     const/4 v1, 0x4
@@ -150,7 +142,6 @@
 
     iput-object v0, p0, Lcom/commsource/util/common/l;->f:Lcom/commsource/util/common/l$b;
 
-    .line 6
     new-instance v0, Lcom/commsource/util/common/l$b;
 
     const/4 v1, 0x3
@@ -161,14 +152,12 @@
 
     const/4 v0, 0x0
 
-    .line 7
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/util/common/l;->a:Landroid/content/SharedPreferences;
 
-    .line 8
     new-instance p1, Lcom/commsource/util/common/l$a;
 
     sget-object p2, Lcom/commsource/util/common/l;->m:Landroid/os/HandlerThread;
@@ -195,12 +184,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -208,12 +195,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     invoke-virtual {p0, p1, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
@@ -247,12 +232,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -260,12 +243,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     invoke-virtual {p0, p1, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
@@ -299,12 +280,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -312,12 +291,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     invoke-virtual {p0, p1, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
@@ -351,12 +328,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -364,12 +339,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     invoke-virtual {p0, p1, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
@@ -399,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/util/common/l;->b:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -414,7 +386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/util/common/l;->a:Landroid/content/SharedPreferences;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -429,7 +400,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/util/common/l;->c:Lcom/commsource/util/common/l$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -444,7 +414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/util/common/l;->d:Lcom/commsource/util/common/l$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -459,7 +428,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/util/common/l;->g:Lcom/commsource/util/common/l$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -474,7 +442,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/util/common/l;->e:Lcom/commsource/util/common/l$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -489,7 +456,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/util/common/l;->f:Lcom/commsource/util/common/l$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -506,7 +472,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, p2, v1}, Lcom/commsource/util/common/l;->y(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result p0
@@ -525,7 +490,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, p2, v1}, Lcom/commsource/util/common/l;->v(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;I)I
 
     move-result p0
@@ -546,7 +510,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, p2, v1}, Lcom/commsource/util/common/l;->v(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;I)I
 
     move-result p0
@@ -565,7 +528,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, p2, v1}, Lcom/commsource/util/common/l;->v(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;I)I
 
     move-result p0
@@ -586,7 +548,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, p2, v1}, Lcom/commsource/util/common/l;->x(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -605,12 +566,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 2
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -618,7 +577,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
@@ -626,7 +584,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -649,12 +606,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 2
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -662,7 +617,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
@@ -670,7 +624,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -693,12 +646,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p3
 
-    .line 2
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -706,7 +657,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p3
@@ -714,7 +664,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -737,12 +686,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p3
 
-    .line 2
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -750,7 +697,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p3
@@ -758,7 +704,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -781,12 +726,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 2
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -794,7 +737,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
@@ -802,7 +744,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -827,12 +768,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -840,12 +779,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     invoke-virtual {p0, p1, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
@@ -877,7 +814,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -886,12 +822,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/util/common/l;->d:Lcom/commsource/util/common/l$b;
 
@@ -903,7 +837,6 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -916,7 +849,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -925,12 +857,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/util/common/l;->c:Lcom/commsource/util/common/l$b;
 
@@ -942,7 +872,6 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -955,7 +884,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -964,12 +892,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/util/common/l;->g:Lcom/commsource/util/common/l$b;
 
@@ -981,7 +907,6 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -994,7 +919,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1003,7 +927,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1013,7 +936,6 @@
 
     const-string p2, ""
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/util/common/l;->f:Lcom/commsource/util/common/l$b;
 
@@ -1021,7 +943,6 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1034,7 +955,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1043,12 +963,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/util/common/l;->e:Lcom/commsource/util/common/l$b;
 
@@ -1060,7 +978,6 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1073,7 +990,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1082,12 +998,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/util/common/l;->a:Landroid/content/SharedPreferences;
 
@@ -1095,10 +1009,8 @@
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1, p1}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 5
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     move-result p1
@@ -1115,20 +1027,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/common/l;->a:Landroid/content/SharedPreferences;
 
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v1
 
-    .line 2
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->clear()Landroid/content/SharedPreferences$Editor;
 
-    .line 3
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1141,7 +1049,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1150,12 +1057,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/util/common/l;->a:Landroid/content/SharedPreferences;
 
@@ -1183,7 +1088,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/common/l;->a:Landroid/content/SharedPreferences;
 
     invoke-interface {v1}, Landroid/content/SharedPreferences;->getAll()Ljava/util/Map;
@@ -1202,19 +1106,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/commsource/util/common/l;->e:Lcom/commsource/util/common/l$b;
@@ -1227,7 +1128,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
@@ -1238,7 +1138,6 @@
 
     return p1
 
-    .line 5
     :cond_1
     :try_start_1
     iget-object v1, p0, Lcom/commsource/util/common/l;->a:Landroid/content/SharedPreferences;
@@ -1256,13 +1155,10 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/commsource/util/common/l;->J(Ljava/lang/String;)Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -1275,19 +1171,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/commsource/util/common/l;->d:Lcom/commsource/util/common/l$b;
@@ -1300,7 +1193,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Float;->floatValue()F
 
     move-result p1
@@ -1311,7 +1203,6 @@
 
     return p1
 
-    .line 5
     :cond_1
     :try_start_1
     iget-object v1, p0, Lcom/commsource/util/common/l;->a:Landroid/content/SharedPreferences;
@@ -1329,13 +1220,10 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/commsource/util/common/l;->J(Ljava/lang/String;)Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -1348,19 +1236,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/commsource/util/common/l;->c:Lcom/commsource/util/common/l$b;
@@ -1373,7 +1258,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -1384,7 +1268,6 @@
 
     return p1
 
-    .line 5
     :cond_1
     :try_start_1
     iget-object v1, p0, Lcom/commsource/util/common/l;->a:Landroid/content/SharedPreferences;
@@ -1402,13 +1285,10 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/commsource/util/common/l;->J(Ljava/lang/String;)Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -1421,19 +1301,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p2
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/commsource/util/common/l;->g:Lcom/commsource/util/common/l$b;
@@ -1446,7 +1323,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide p1
@@ -1457,7 +1333,6 @@
 
     return-wide p1
 
-    .line 5
     :cond_1
     :try_start_1
     iget-object v1, p0, Lcom/commsource/util/common/l;->a:Landroid/content/SharedPreferences;
@@ -1475,13 +1350,10 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/commsource/util/common/l;->J(Ljava/lang/String;)Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p2
@@ -1494,19 +1366,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/commsource/util/common/l;->f:Lcom/commsource/util/common/l$b;
@@ -1521,12 +1390,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 5
     :cond_1
     :try_start_1
     iget-object v1, p0, Lcom/commsource/util/common/l;->a:Landroid/content/SharedPreferences;
@@ -1544,13 +1411,10 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/commsource/util/common/l;->J(Ljava/lang/String;)Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2

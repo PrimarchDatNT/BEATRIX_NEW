@@ -6,7 +6,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,12 +19,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
-    .line 2
     sget-object v1, Lcom/google/android/gms/internal/firebase_remote_config/n0;->a:Ljava/nio/charset/Charset;
 
     invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/internal/firebase_remote_config/v;->b(Ljava/io/OutputStream;Ljava/nio/charset/Charset;)Lcom/google/android/gms/internal/firebase_remote_config/y;
@@ -34,19 +31,15 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_remote_config/y;->p()V
 
-    .line 4
     :cond_0
     invoke-virtual {v1, p1}, Lcom/google/android/gms/internal/firebase_remote_config/y;->q(Ljava/lang/Object;)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_remote_config/y;->a()V
 
     const-string p1, "UTF-8"
 
-    .line 6
     invoke-virtual {v0, p1}, Ljava/io/ByteArrayOutputStream;->toString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -66,7 +59,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/firebase_remote_config/v;->e(Ljava/lang/Object;Z)Ljava/lang/String;
 
     move-result-object p1
@@ -116,7 +108,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/firebase_remote_config/v;->e(Ljava/lang/Object;Z)Ljava/lang/String;
 
     move-result-object p1

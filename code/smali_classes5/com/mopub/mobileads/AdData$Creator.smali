@@ -310,7 +310,6 @@
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/AdData$Creator;->createFromParcel(Landroid/os/Parcel;)Lcom/mopub/mobileads/AdData;
 
     move-result-object p1
@@ -331,7 +330,6 @@
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/AdData$Creator;->newArray(I)[Lcom/mopub/mobileads/AdData;
 
     move-result-object p1

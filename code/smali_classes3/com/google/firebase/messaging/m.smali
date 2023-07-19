@@ -34,7 +34,6 @@
 .method public final run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/m;->a:Lcom/google/firebase/messaging/zzf;
 
     iget-object v1, p0, Lcom/google/firebase/messaging/m;->b:Landroid/content/Intent;
@@ -43,13 +42,11 @@
 
     const/4 v3, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {v0, v1}, Lcom/google/firebase/messaging/zzf;->zzc(Landroid/content/Intent;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-virtual {v2, v3}, Lcom/google/android/gms/tasks/l;->c(Ljava/lang/Object;)V
 
     return-void
@@ -57,9 +54,7 @@
     :catchall_0
     move-exception v0
 
-    .line 4
     invoke-virtual {v2, v3}, Lcom/google/android/gms/tasks/l;->c(Ljava/lang/Object;)V
 
-    .line 5
     throw v0
 .end method

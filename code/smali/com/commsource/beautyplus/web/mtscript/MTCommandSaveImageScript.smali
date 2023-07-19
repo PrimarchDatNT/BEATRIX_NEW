@@ -41,7 +41,6 @@
 
     const-string v1, "mtcommand://saveImage"
 
-    .line 1
     sput-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -64,7 +63,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/webview/mtscript/i;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
     return-void
@@ -77,7 +75,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript;->K(Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$Model;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -92,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -107,19 +103,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$Model;->getType()I
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript;->M(Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$Model;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$Model;->getType()I
 
@@ -129,10 +122,8 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript;->L(Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$Model;)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -147,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$Model;->getBase64()Ljava/lang/String;
 
     move-result-object v1
@@ -158,7 +148,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$c;
 
     const-string v2, "SaveImageTask"
@@ -167,7 +156,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -181,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$Model;->getUrl()Ljava/lang/String;
 
     move-result-object v1
@@ -212,7 +199,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$d;
 
@@ -222,7 +208,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -238,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -253,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$b;
 
     const-class v2, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$Model;
@@ -262,7 +245,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/i;->E(Lcom/meitu/webview/mtscript/i$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1

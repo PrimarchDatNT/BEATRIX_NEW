@@ -25,14 +25,12 @@
 
     new-array v1, v0, [Ljava/lang/Class;
 
-    .line 1
     sput-object v1, Lorg/aspectj/lang/b;->a:[Ljava/lang/Class;
 
     const/4 v1, 0x1
 
     new-array v2, v1, [Ljava/lang/Class;
 
-    .line 2
     const-class v3, Ljava/lang/Object;
 
     aput-object v3, v2, v0
@@ -41,7 +39,6 @@
 
     new-array v1, v1, [Ljava/lang/Class;
 
-    .line 3
     const-class v2, Ljava/lang/Class;
 
     aput-object v2, v1, v0
@@ -50,7 +47,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 4
     sput-object v0, Lorg/aspectj/lang/b;->d:[Ljava/lang/Object;
 
     return-void
@@ -59,7 +55,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -83,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lorg/aspectj/lang/b;->j(Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
@@ -105,7 +99,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Lorg/aspectj/lang/NoAspectBoundException;
 
     invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -119,7 +112,6 @@
     :catch_1
     move-exception v0
 
-    .line 3
     new-instance v1, Lorg/aspectj/lang/NoAspectBoundException;
 
     invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -151,7 +143,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lorg/aspectj/lang/b;->h(Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
@@ -179,7 +170,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Lorg/aspectj/lang/NoAspectBoundException;
 
     invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -193,7 +183,6 @@
     :catch_1
     move-exception p1
 
-    .line 3
     new-instance v0, Lorg/aspectj/lang/NoAspectBoundException;
 
     invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -225,7 +214,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lorg/aspectj/lang/b;->f(Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
@@ -253,7 +241,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Lorg/aspectj/lang/NoAspectBoundException;
 
     invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -267,7 +254,6 @@
     :catch_1
     move-exception p1
 
-    .line 3
     new-instance v0, Lorg/aspectj/lang/NoAspectBoundException;
 
     invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -299,17 +285,14 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/reflect/Method;->isAccessible()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/reflect/Method;->getModifiers()I
 
     move-result v0
@@ -320,7 +303,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/reflect/Method;->getModifiers()I
 
     move-result v0
@@ -333,7 +315,6 @@
 
     return-object p0
 
-    .line 5
     :cond_0
     new-instance p0, Ljava/lang/NoSuchMethodException;
 
@@ -370,17 +351,14 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/reflect/Method;->isAccessible()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/reflect/Method;->getModifiers()I
 
     move-result v0
@@ -391,7 +369,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/reflect/Method;->getModifiers()I
 
     move-result v0
@@ -404,7 +381,6 @@
 
     return-object p0
 
-    .line 5
     :cond_0
     new-instance p0, Ljava/lang/NoSuchMethodException;
 
@@ -448,7 +424,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/aspectj/lang/b;->b:[Ljava/lang/Class;
 
     const-string v1, "aspectOf"
@@ -457,7 +432,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p0}, Lorg/aspectj/lang/b;->d(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p0
@@ -473,7 +447,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/aspectj/lang/b;->b:[Ljava/lang/Class;
 
     const-string v1, "hasAspect"
@@ -482,7 +455,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p0}, Lorg/aspectj/lang/b;->e(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p0
@@ -507,7 +479,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/aspectj/lang/b;->c:[Ljava/lang/Class;
 
     const-string v1, "aspectOf"
@@ -516,7 +487,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p0}, Lorg/aspectj/lang/b;->d(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p0
@@ -532,7 +502,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/aspectj/lang/b;->c:[Ljava/lang/Class;
 
     const-string v1, "hasAspect"
@@ -541,7 +510,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p0}, Lorg/aspectj/lang/b;->e(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p0
@@ -566,7 +534,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/aspectj/lang/b;->a:[Ljava/lang/Class;
 
     const-string v1, "aspectOf"
@@ -575,7 +542,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p0}, Lorg/aspectj/lang/b;->d(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p0
@@ -591,7 +557,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/aspectj/lang/b;->a:[Ljava/lang/Class;
 
     const-string v1, "hasAspect"
@@ -600,7 +565,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p0}, Lorg/aspectj/lang/b;->e(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p0
@@ -624,7 +588,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lorg/aspectj/lang/b;->k(Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
@@ -674,7 +637,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lorg/aspectj/lang/b;->i(Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
@@ -726,7 +688,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lorg/aspectj/lang/b;->g(Ljava/lang/Class;)Ljava/lang/reflect/Method;
 

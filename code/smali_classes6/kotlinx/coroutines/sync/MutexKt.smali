@@ -29,7 +29,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "LOCK_FAIL"
@@ -38,7 +37,6 @@
 
     sput-object v0, Lcotlinx/coroutines/sync/MutexKt;->a:Lcotlinx/coroutines/internal/c0;
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "ENQUEUE_FAIL"
@@ -47,7 +45,6 @@
 
     sput-object v0, Lcotlinx/coroutines/sync/MutexKt;->b:Lcotlinx/coroutines/internal/c0;
 
-    .line 3
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "UNLOCK_FAIL"
@@ -56,7 +53,6 @@
 
     sput-object v0, Lcotlinx/coroutines/sync/MutexKt;->c:Lcotlinx/coroutines/internal/c0;
 
-    .line 4
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "SELECT_SUCCESS"
@@ -65,7 +61,6 @@
 
     sput-object v0, Lcotlinx/coroutines/sync/MutexKt;->d:Lcotlinx/coroutines/internal/c0;
 
-    .line 5
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "LOCKED"
@@ -74,7 +69,6 @@
 
     sput-object v0, Lcotlinx/coroutines/sync/MutexKt;->e:Lcotlinx/coroutines/internal/c0;
 
-    .line 6
     new-instance v1, Lcotlinx/coroutines/internal/c0;
 
     const-string v2, "UNLOCKED"
@@ -83,14 +77,12 @@
 
     sput-object v1, Lcotlinx/coroutines/sync/MutexKt;->f:Lcotlinx/coroutines/internal/c0;
 
-    .line 7
     new-instance v2, Lcotlinx/coroutines/sync/b;
 
     invoke-direct {v2, v0}, Lcotlinx/coroutines/sync/b;-><init>(Ljava/lang/Object;)V
 
     sput-object v2, Lcotlinx/coroutines/sync/MutexKt;->g:Lcotlinx/coroutines/sync/b;
 
-    .line 8
     new-instance v0, Lcotlinx/coroutines/sync/b;
 
     invoke-direct {v0, v1}, Lcotlinx/coroutines/sync/b;-><init>(Ljava/lang/Object;)V
@@ -135,7 +127,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/sync/d;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/sync/d;-><init>(Z)V
@@ -152,7 +143,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0}, Lcotlinx/coroutines/sync/MutexKt;->f(Z)Lcotlinx/coroutines/sync/c;
 
@@ -182,7 +172,6 @@
 .method public static final synthetic k()Lcotlinx/coroutines/sync/b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/sync/MutexKt;->g:Lcotlinx/coroutines/sync/b;
 
     return-object v0
@@ -191,7 +180,6 @@
 .method public static final synthetic l()Lcotlinx/coroutines/sync/b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/sync/MutexKt;->h:Lcotlinx/coroutines/sync/b;
 
     return-object v0
@@ -200,7 +188,6 @@
 .method public static final synthetic m()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/sync/MutexKt;->e:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -209,7 +196,6 @@
 .method public static final synthetic n()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/sync/MutexKt;->a:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -218,7 +204,6 @@
 .method public static final synthetic o()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/sync/MutexKt;->d:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -227,7 +212,6 @@
 .method public static final synthetic p()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/sync/MutexKt;->f:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -236,7 +220,6 @@
 .method public static final synthetic q()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/sync/MutexKt;->c:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -312,7 +295,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/sync/MutexKt$withLock$1;->label:I
 
     const/4 v3, 0x1
@@ -337,7 +319,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -347,11 +328,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p0, v0, Lcotlinx/coroutines/sync/MutexKt$withLock$1;->L$0:Ljava/lang/Object;
 
     iput-object p1, v0, Lcotlinx/coroutines/sync/MutexKt$withLock$1;->L$1:Ljava/lang/Object;
@@ -368,7 +347,6 @@
 
     return-object v1
 
-    .line 5
     :cond_3
     :goto_1
     :try_start_0
@@ -380,7 +358,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-interface {p0, p1}, Lcotlinx/coroutines/sync/c;->d(Ljava/lang/Object;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -390,10 +367,8 @@
     :catchall_0
     move-exception p2
 
-    .line 7
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-interface {p0, p1}, Lcotlinx/coroutines/sync/c;->d(Ljava/lang/Object;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -424,7 +399,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
     invoke-interface {p0, p1, p3}, Lcotlinx/coroutines/sync/c;->c(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -437,7 +411,6 @@
 
     invoke-static {p3}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 2
     :try_start_0
     invoke-interface {p2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
@@ -447,7 +420,6 @@
 
     invoke-static {p3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     invoke-interface {p0, p1}, Lcotlinx/coroutines/sync/c;->d(Ljava/lang/Object;)V
 
     invoke-static {p3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -457,10 +429,8 @@
     :catchall_0
     move-exception p2
 
-    .line 4
     invoke-static {p3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-interface {p0, p1}, Lcotlinx/coroutines/sync/c;->d(Ljava/lang/Object;)V
 
     invoke-static {p3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -482,7 +452,6 @@
     :cond_0
     const/4 p4, 0x0
 
-    .line 1
     invoke-static {p4}, Lcotlin/jvm/internal/c0;->e(I)V
 
     invoke-interface {p0, p1, p3}, Lcotlinx/coroutines/sync/c;->c(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -493,7 +462,6 @@
 
     invoke-static {p5}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 2
     :try_start_0
     invoke-interface {p2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
@@ -503,7 +471,6 @@
 
     invoke-static {p5}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     invoke-interface {p0, p1}, Lcotlinx/coroutines/sync/c;->d(Ljava/lang/Object;)V
 
     invoke-static {p5}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -513,10 +480,8 @@
     :catchall_0
     move-exception p2
 
-    .line 4
     invoke-static {p5}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-interface {p0, p1}, Lcotlinx/coroutines/sync/c;->d(Ljava/lang/Object;)V
 
     invoke-static {p5}, Lcotlin/jvm/internal/c0;->c(I)V

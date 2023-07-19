@@ -11,15 +11,12 @@
 .method public constructor <init>(J)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/arkernelinterface/ARKernelInterfaceNativeBasicClass;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
-    .line 3
     iput-wide p1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     return-void
@@ -88,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeGetIsNeedDataRequireType(JI)Z
@@ -107,12 +103,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeControlResetState(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -125,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeGetIsSupportMultiplyInstance(J)Z
@@ -144,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -159,30 +151,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeGetPartControl(J)[J
 
     move-result-object v1
 
-    .line 2
     array-length v2, v1
 
     if-gtz v2, :cond_0
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     new-array v3, v2, [Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
 
-    .line 5
     new-instance v4, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
 
     const-wide/16 v5, 0x0
@@ -194,12 +181,10 @@
     :goto_0
     if-ge v5, v2, :cond_3
 
-    .line 6
     aget-wide v6, v1, v5
 
     invoke-virtual {v4, v6, v7}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;->setNativeInstance(J)V
 
-    .line 7
     invoke-virtual {v4}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;->getPartType()I
 
     move-result v6
@@ -212,7 +197,6 @@
 
     if-eq v6, v7, :cond_1
 
-    .line 8
     new-instance v6, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
 
     aget-wide v7, v1, v5
@@ -223,7 +207,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     new-instance v6, Lcom/meitu/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
 
@@ -235,7 +218,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_2
     new-instance v6, Lcom/meitu/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
 
@@ -250,7 +232,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -264,26 +245,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeGetPlistData(J)[J
 
     move-result-object v1
 
-    .line 2
     array-length v2, v1
 
     if-gtz v2, :cond_0
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     new-array v3, v2, [Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
@@ -292,7 +269,6 @@
     :goto_0
     if-ge v4, v2, :cond_1
 
-    .line 5
     new-instance v5, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     aget-wide v6, v1, v4
@@ -305,7 +281,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -319,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeHasBGM(J)Z
@@ -338,7 +312,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeIsApply(J)Z
@@ -357,7 +330,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeIsPrepare(J)Z
@@ -376,12 +348,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativePauseBGM(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -394,12 +364,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativePlayBGM(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -412,7 +380,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativePrepare(J)Z
@@ -433,12 +400,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeRelease(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -451,12 +416,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeReplayBGM(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -469,12 +432,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeResetState(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -487,12 +448,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeSetApply(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -507,10 +466,8 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     iput-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -523,12 +480,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGroupDataInterfaceJNI;->nativeStopBGM(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -21,17 +21,14 @@
 .method public constructor <init>(J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-wide p1, p0, Lcom/commsource/video/decoder/d;->c:J
 
     const/4 p1, 0x1
 
-    .line 2
     iput p1, p0, Lcom/commsource/video/decoder/d;->a:I
 
-    .line 3
     new-instance p1, Lcom/commsource/video/decoder/d$a;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -48,7 +45,6 @@
 .method public static final synthetic a(Lcom/commsource/video/decoder/d;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/commsource/video/decoder/d;->a:I
 
     return p0
@@ -57,7 +53,6 @@
 .method public static final synthetic b(Lcom/commsource/video/decoder/d;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/video/decoder/d;->f()V
 
     return-void
@@ -66,10 +61,8 @@
 .method private final f()V
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/decoder/d;->c()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/video/decoder/d;->b:Landroid/os/Handler;
 
     iget v1, p0, Lcom/commsource/video/decoder/d;->a:I
@@ -86,7 +79,6 @@
 .method public final c()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/decoder/d;->b:Landroid/os/Handler;
 
     iget v1, p0, Lcom/commsource/video/decoder/d;->a:I
@@ -101,7 +93,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/decoder/d;->b:Landroid/os/Handler;
 
     return-object v0
@@ -110,7 +101,6 @@
 .method public final e()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/commsource/video/decoder/d;->c:J
 
     return-wide v0
@@ -122,14 +112,12 @@
 .method public final h()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/decoder/d;->b:Landroid/os/Handler;
 
     iget v1, p0, Lcom/commsource/video/decoder/d;->a:I
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/video/decoder/d;->b:Landroid/os/Handler;
 
     iget v1, p0, Lcom/commsource/video/decoder/d;->a:I

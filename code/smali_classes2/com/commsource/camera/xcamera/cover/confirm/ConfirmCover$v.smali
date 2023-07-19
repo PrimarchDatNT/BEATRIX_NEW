@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$v;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->G(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)Lcom/commsource/camera/xcamera/FastCaptureViewModel;
@@ -94,12 +93,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$v;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -113,12 +110,10 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -126,23 +121,19 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-static {}, Lf/d/i/e;->Z()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-static {}, Lcom/tencent/bugly/crashreport/CrashReport;->testJavaCrash()V
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$v;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-static {v1, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->K(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;Lcom/commsource/camera/xcamera/bean/c;)Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$v;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -161,7 +152,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$v;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->U()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -176,7 +166,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$v;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -209,7 +198,6 @@
     :goto_0
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$v;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -222,12 +210,10 @@
 
     const-string p1, "movecheck_appr"
 
-    .line 13
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 14
     :cond_4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$v;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -239,7 +225,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->J0(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 15
     :cond_5
     :goto_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$v;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
@@ -250,7 +235,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->X0()V
 
-    .line 16
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -264,7 +248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/bean/c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$v;->a(Lcom/commsource/camera/xcamera/bean/c;)V

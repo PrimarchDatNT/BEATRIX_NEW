@@ -28,37 +28,28 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x8
 
-    .line 2
     iput v0, p0, Lcom/meitu/media/tools/editor/u/a;->b:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/media/tools/editor/u/a;->c:I
 
-    .line 4
     iput v0, p0, Lcom/meitu/media/tools/editor/u/a;->d:I
 
-    .line 5
     iput v0, p0, Lcom/meitu/media/tools/editor/u/a;->e:I
 
     const/4 v0, -0x1
 
-    .line 6
     iput v0, p0, Lcom/meitu/media/tools/editor/u/a;->f:I
 
-    .line 7
     iput v0, p0, Lcom/meitu/media/tools/editor/u/a;->g:I
 
     const/4 v0, 0x0
 
-    .line 8
     iput-boolean v0, p0, Lcom/meitu/media/tools/editor/u/a;->h:Z
 
-    .line 9
     iput-boolean v0, p0, Lcom/meitu/media/tools/editor/u/a;->i:Z
 
     return-void
@@ -67,52 +58,40 @@
 .method public constructor <init>(II)V
     .locals 1
 
-    .line 10
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x8
 
-    .line 11
     iput v0, p0, Lcom/meitu/media/tools/editor/u/a;->b:I
 
-    .line 12
     iput v0, p0, Lcom/meitu/media/tools/editor/u/a;->c:I
 
-    .line 13
     iput v0, p0, Lcom/meitu/media/tools/editor/u/a;->d:I
 
-    .line 14
     iput v0, p0, Lcom/meitu/media/tools/editor/u/a;->e:I
 
     const/4 v0, -0x1
 
-    .line 15
     iput v0, p0, Lcom/meitu/media/tools/editor/u/a;->f:I
 
-    .line 16
     iput v0, p0, Lcom/meitu/media/tools/editor/u/a;->g:I
 
     const/4 v0, 0x0
 
-    .line 17
     iput-boolean v0, p0, Lcom/meitu/media/tools/editor/u/a;->h:Z
 
-    .line 18
     iput-boolean v0, p0, Lcom/meitu/media/tools/editor/u/a;->i:Z
 
     if-lez p1, :cond_0
 
     if-lez p2, :cond_0
 
-    .line 19
     iput p1, p0, Lcom/meitu/media/tools/editor/u/a;->f:I
 
-    .line 20
     iput p2, p0, Lcom/meitu/media/tools/editor/u/a;->g:I
 
     return-void
 
-    .line 21
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -171,7 +150,6 @@
 .method public h(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/media/tools/editor/u/a;->i:Z
 
     return-void
@@ -180,7 +158,6 @@
 .method public i(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/media/tools/editor/u/a;->h:Z
 
     return-void

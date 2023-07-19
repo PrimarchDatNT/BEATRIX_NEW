@@ -50,12 +50,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$f;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
     invoke-static {v0}, Lcom/commsource/home/banner/HomeSmallBannerAdVH;->H(Lcom/commsource/home/banner/HomeSmallBannerAdVH;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$f;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -88,7 +86,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/home/entity/a;->n(Z)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$f;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
@@ -122,18 +119,15 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/home/entity/a;->m(Z)V
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$f;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
     invoke-static {v0, v1}, Lcom/commsource/home/banner/HomeSmallBannerAdVH;->L(Lcom/commsource/home/banner/HomeSmallBannerAdVH;Z)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$f;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
     invoke-static {v0}, Lcom/commsource/home/banner/HomeSmallBannerAdVH;->B(Lcom/commsource/home/banner/HomeSmallBannerAdVH;)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$f;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
     invoke-static {v0}, Lcom/commsource/home/banner/HomeSmallBannerAdVH;->E(Lcom/commsource/home/banner/HomeSmallBannerAdVH;)I
@@ -144,15 +138,12 @@
 
     sget v0, Lcom/res/provider/ResSTRING;->alert_auto_reply:I
 
-    .line 7
     invoke-static {v0}, Lf/k/c/c/f;->r(I)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$f;->b:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

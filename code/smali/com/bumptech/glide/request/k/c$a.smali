@@ -30,7 +30,6 @@
 
     const/16 v0, 0x12c
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/bumptech/glide/request/k/c$a;-><init>(I)V
 
     return-void
@@ -39,10 +38,8 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput p1, p0, Lcom/bumptech/glide/request/k/c$a;->a:I
 
     return-void
@@ -53,7 +50,6 @@
 .method public a()Lcom/bumptech/glide/request/k/c;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/k/c;
 
     iget v1, p0, Lcom/bumptech/glide/request/k/c$a;->a:I
@@ -68,7 +64,6 @@
 .method public b(Z)Lcom/bumptech/glide/request/k/c$a;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/bumptech/glide/request/k/c$a;->b:Z
 
     return-object p0

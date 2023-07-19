@@ -31,10 +31,8 @@
 
     iput-object p2, p0, Lcom/commsource/studio/text/TextStylePanel$b;->c:Lcom/commsource/studio/text/TextStylePanel;
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
-    .line 2
     invoke-static {p2}, Lcom/commsource/studio/text/TextStylePanel;->a(Lcom/commsource/studio/text/TextStylePanel;)Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object p1
@@ -57,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextStylePanel$b;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -104,7 +101,6 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
@@ -119,14 +115,12 @@
 
     if-eq p2, v1, :cond_0
 
-    .line 2
     iget p2, p0, Lcom/commsource/studio/text/TextStylePanel$b;->a:I
 
     invoke-virtual {p1, p2, p4, p4, p4}, Landroid/graphics/Rect;->set(IIII)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget p2, p0, Lcom/commsource/studio/text/TextStylePanel$b;->a:I
 
@@ -138,7 +132,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {p3}, Lcom/meitu/library/p/f/i;->d(F)I
 
@@ -146,7 +139,6 @@
 
     invoke-virtual {p1, p2, p4, p4, p4}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

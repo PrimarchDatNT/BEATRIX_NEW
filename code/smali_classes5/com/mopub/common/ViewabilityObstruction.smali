@@ -50,7 +50,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/mopub/common/ViewabilityObstruction;
 
     sget-object v1, Lcom/iab/omid/library/mopub/adsession/FriendlyObstructionPurpose;->VIDEO_CONTROLS:Lcom/iab/omid/library/mopub/adsession/FriendlyObstructionPurpose;
@@ -63,7 +62,6 @@
 
     sput-object v0, Lcom/mopub/common/ViewabilityObstruction;->VIDEO_CONTROLS:Lcom/mopub/common/ViewabilityObstruction;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/ViewabilityObstruction;
 
     sget-object v2, Lcom/iab/omid/library/mopub/adsession/FriendlyObstructionPurpose;->CLOSE_AD:Lcom/iab/omid/library/mopub/adsession/FriendlyObstructionPurpose;
@@ -76,7 +74,6 @@
 
     sput-object v1, Lcom/mopub/common/ViewabilityObstruction;->CLOSE_BUTTON:Lcom/mopub/common/ViewabilityObstruction;
 
-    .line 3
     new-instance v2, Lcom/mopub/common/ViewabilityObstruction;
 
     sget-object v4, Lcom/iab/omid/library/mopub/adsession/FriendlyObstructionPurpose;->OTHER:Lcom/iab/omid/library/mopub/adsession/FriendlyObstructionPurpose;
@@ -89,7 +86,6 @@
 
     sput-object v2, Lcom/mopub/common/ViewabilityObstruction;->CTA_BUTTON:Lcom/mopub/common/ViewabilityObstruction;
 
-    .line 4
     new-instance v6, Lcom/mopub/common/ViewabilityObstruction;
 
     const-string v8, "SKIP_BUTTON"
@@ -100,7 +96,6 @@
 
     sput-object v6, Lcom/mopub/common/ViewabilityObstruction;->SKIP_BUTTON:Lcom/mopub/common/ViewabilityObstruction;
 
-    .line 5
     new-instance v8, Lcom/mopub/common/ViewabilityObstruction;
 
     const-string v10, "INDUSTRY_ICON"
@@ -111,7 +106,6 @@
 
     sput-object v8, Lcom/mopub/common/ViewabilityObstruction;->INDUSTRY_ICON:Lcom/mopub/common/ViewabilityObstruction;
 
-    .line 6
     new-instance v10, Lcom/mopub/common/ViewabilityObstruction;
 
     const-string v12, "COUNTDOWN_TIMER"
@@ -122,7 +116,6 @@
 
     sput-object v10, Lcom/mopub/common/ViewabilityObstruction;->COUNTDOWN_TIMER:Lcom/mopub/common/ViewabilityObstruction;
 
-    .line 7
     new-instance v12, Lcom/mopub/common/ViewabilityObstruction;
 
     const-string v14, "OVERLAY"
@@ -133,7 +126,6 @@
 
     sput-object v12, Lcom/mopub/common/ViewabilityObstruction;->OVERLAY:Lcom/mopub/common/ViewabilityObstruction;
 
-    .line 8
     new-instance v14, Lcom/mopub/common/ViewabilityObstruction;
 
     const-string v15, "BLUR"
@@ -144,7 +136,6 @@
 
     sput-object v14, Lcom/mopub/common/ViewabilityObstruction;->BLUR:Lcom/mopub/common/ViewabilityObstruction;
 
-    .line 9
     new-instance v15, Lcom/mopub/common/ViewabilityObstruction;
 
     const-string v13, "PROGRESS_BAR"
@@ -155,7 +146,6 @@
 
     sput-object v15, Lcom/mopub/common/ViewabilityObstruction;->PROGRESS_BAR:Lcom/mopub/common/ViewabilityObstruction;
 
-    .line 10
     new-instance v13, Lcom/mopub/common/ViewabilityObstruction;
 
     sget-object v11, Lcom/iab/omid/library/mopub/adsession/FriendlyObstructionPurpose;->NOT_VISIBLE:Lcom/iab/omid/library/mopub/adsession/FriendlyObstructionPurpose;
@@ -168,7 +158,6 @@
 
     sput-object v13, Lcom/mopub/common/ViewabilityObstruction;->NOT_VISIBLE:Lcom/mopub/common/ViewabilityObstruction;
 
-    .line 11
     new-instance v9, Lcom/mopub/common/ViewabilityObstruction;
 
     const-string v11, "OTHER"
@@ -221,7 +210,6 @@
 
     aput-object v9, v4, v7
 
-    .line 12
     sput-object v4, Lcom/mopub/common/ViewabilityObstruction;->$VALUES:[Lcom/mopub/common/ViewabilityObstruction;
 
     return-void
@@ -241,10 +229,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/common/ViewabilityObstruction;->value:Lcom/iab/omid/library/mopub/adsession/FriendlyObstructionPurpose;
 
     return-void
@@ -253,7 +239,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/ViewabilityObstruction;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/ViewabilityObstruction;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -268,7 +253,6 @@
 .method public static values()[Lcom/mopub/common/ViewabilityObstruction;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/ViewabilityObstruction;->$VALUES:[Lcom/mopub/common/ViewabilityObstruction;
 
     invoke-virtual {v0}, [Lcom/mopub/common/ViewabilityObstruction;->clone()Ljava/lang/Object;

@@ -14,7 +14,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/internal/http/AuthenticatorAdapter;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/internal/http/AuthenticatorAdapter;-><init>()V
@@ -27,7 +26,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +41,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/net/Proxy;->type()Ljava/net/Proxy$Type;
 
     move-result-object v0
@@ -52,7 +49,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/net/Proxy;->address()Ljava/net/SocketAddress;
 
     move-result-object p1
@@ -65,7 +61,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Lcom/squareup/okhttp/HttpUrl;->host()Ljava/lang/String;
 
@@ -89,22 +84,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual/range {p2 .. p2}, Lcom/squareup/okhttp/Response;->challenges()Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual/range {p2 .. p2}, Lcom/squareup/okhttp/Response;->request()Lcom/squareup/okhttp/Request;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Lcom/squareup/okhttp/Request;->httpUrl()Lcom/squareup/okhttp/HttpUrl;
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v3
@@ -114,14 +105,12 @@
     :goto_0
     if-ge v4, v3, :cond_2
 
-    .line 5
     invoke-interface {v0, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/squareup/okhttp/Challenge;
 
-    .line 6
     invoke-virtual {v5}, Lcom/squareup/okhttp/Challenge;->getScheme()Ljava/lang/String;
 
     move-result-object v6
@@ -140,7 +129,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     invoke-virtual {v2}, Lcom/squareup/okhttp/HttpUrl;->host()Ljava/lang/String;
 
@@ -162,7 +150,6 @@
 
     move-result-object v10
 
-    .line 8
     invoke-virtual {v5}, Lcom/squareup/okhttp/Challenge;->getRealm()Ljava/lang/String;
 
     move-result-object v11
@@ -177,7 +164,6 @@
 
     sget-object v14, Ljava/net/Authenticator$RequestorType;->SERVER:Ljava/net/Authenticator$RequestorType;
 
-    .line 9
     invoke-static/range {v7 .. v14}, Ljava/net/Authenticator;->requestPasswordAuthentication(Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/net/Authenticator$RequestorType;)Ljava/net/PasswordAuthentication;
 
     move-result-object v5
@@ -189,7 +175,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     invoke-virtual {v5}, Ljava/net/PasswordAuthentication;->getUserName()Ljava/lang/String;
 
@@ -207,19 +192,16 @@
 
     move-result-object v0
 
-    .line 11
     invoke-virtual {v1}, Lcom/squareup/okhttp/Request;->newBuilder()Lcom/squareup/okhttp/Request$Builder;
 
     move-result-object v1
 
     const-string v2, "Authorization"
 
-    .line 12
     invoke-virtual {v1, v2, v0}, Lcom/squareup/okhttp/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/Request$Builder;
 
     move-result-object v0
 
-    .line 13
     invoke-virtual {v0}, Lcom/squareup/okhttp/Request$Builder;->build()Lcom/squareup/okhttp/Request;
 
     move-result-object v0
@@ -242,22 +224,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual/range {p2 .. p2}, Lcom/squareup/okhttp/Response;->challenges()Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual/range {p2 .. p2}, Lcom/squareup/okhttp/Response;->request()Lcom/squareup/okhttp/Request;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Lcom/squareup/okhttp/Request;->httpUrl()Lcom/squareup/okhttp/HttpUrl;
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v3
@@ -267,14 +245,12 @@
     :goto_0
     if-ge v4, v3, :cond_2
 
-    .line 5
     invoke-interface {v0, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/squareup/okhttp/Challenge;
 
-    .line 6
     invoke-virtual {v5}, Lcom/squareup/okhttp/Challenge;->getScheme()Ljava/lang/String;
 
     move-result-object v6
@@ -291,7 +267,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     invoke-virtual/range {p1 .. p1}, Ljava/net/Proxy;->address()Ljava/net/SocketAddress;
 
@@ -299,7 +274,6 @@
 
     check-cast v6, Ljava/net/InetSocketAddress;
 
-    .line 8
     invoke-virtual {v6}, Ljava/net/InetSocketAddress;->getHostName()Ljava/lang/String;
 
     move-result-object v7
@@ -316,7 +290,6 @@
 
     move-result v9
 
-    .line 9
     invoke-virtual {v2}, Lcom/squareup/okhttp/HttpUrl;->scheme()Ljava/lang/String;
 
     move-result-object v10
@@ -337,7 +310,6 @@
 
     move-object v14, v5
 
-    .line 10
     invoke-static/range {v7 .. v14}, Ljava/net/Authenticator;->requestPasswordAuthentication(Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/net/Authenticator$RequestorType;)Ljava/net/PasswordAuthentication;
 
     move-result-object v5
@@ -349,7 +321,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     invoke-virtual {v5}, Ljava/net/PasswordAuthentication;->getUserName()Ljava/lang/String;
 
@@ -367,19 +338,16 @@
 
     move-result-object v0
 
-    .line 12
     invoke-virtual {v1}, Lcom/squareup/okhttp/Request;->newBuilder()Lcom/squareup/okhttp/Request$Builder;
 
     move-result-object v1
 
     const-string v2, "Proxy-Authorization"
 
-    .line 13
     invoke-virtual {v1, v2, v0}, Lcom/squareup/okhttp/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/Request$Builder;
 
     move-result-object v0
 
-    .line 14
     invoke-virtual {v0}, Lcom/squareup/okhttp/Request$Builder;->build()Lcom/squareup/okhttp/Request;
 
     move-result-object v0

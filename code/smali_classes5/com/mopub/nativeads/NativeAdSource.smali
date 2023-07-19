@@ -103,7 +103,6 @@
 
     new-array v0, v0, [I
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lcom/mopub/nativeads/NativeAdSource;->RETRY_TIME_ARRAY_MILLISECONDS:[I
@@ -126,7 +125,6 @@
 .method constructor <init>()V
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     const/4 v1, 0x1
@@ -176,26 +174,20 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/nativeads/NativeAdSource;->mNativeAdCache:Ljava/util/List;
 
-    .line 4
     iput-object p2, p0, Lcom/mopub/nativeads/NativeAdSource;->mReplenishCacheHandler:Landroid/os/Handler;
 
-    .line 5
     new-instance p1, Lcom/mopub/nativeads/NativeAdSource$1;
 
     invoke-direct {p1, p0}, Lcom/mopub/nativeads/NativeAdSource$1;-><init>(Lcom/mopub/nativeads/NativeAdSource;)V
 
     iput-object p1, p0, Lcom/mopub/nativeads/NativeAdSource;->mReplenishCacheRunnable:Ljava/lang/Runnable;
 
-    .line 6
     iput-object p3, p0, Lcom/mopub/nativeads/NativeAdSource;->mAdRendererRegistry:Lcom/mopub/nativeads/AdRendererRegistry;
 
-    .line 7
     new-instance p1, Lcom/mopub/nativeads/NativeAdSource$2;
 
     invoke-direct {p1, p0}, Lcom/mopub/nativeads/NativeAdSource$2;-><init>(Lcom/mopub/nativeads/NativeAdSource;)V
@@ -204,10 +196,8 @@
 
     const/4 p1, 0x0
 
-    .line 8
     iput p1, p0, Lcom/mopub/nativeads/NativeAdSource;->mSequenceNumber:I
 
-    .line 9
     invoke-virtual {p0}, Lcom/mopub/nativeads/NativeAdSource;->resetRetryTime()V
 
     return-void
@@ -216,7 +206,6 @@
 .method static synthetic access$000(Lcom/mopub/nativeads/NativeAdSource;)Lcom/mopub/nativeads/MoPubNative;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/NativeAdSource;->mMoPubNative:Lcom/mopub/nativeads/MoPubNative;
 
     return-object p0
@@ -225,7 +214,6 @@
 .method static synthetic access$100(Lcom/mopub/nativeads/NativeAdSource;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/NativeAdSource;->mNativeAdCache:Ljava/util/List;
 
     return-object p0
@@ -234,7 +222,6 @@
 .method static synthetic access$200(Lcom/mopub/nativeads/NativeAdSource;)Lcom/mopub/nativeads/NativeAdSource$AdSourceListener;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/NativeAdSource;->mAdSourceListener:Lcom/mopub/nativeads/NativeAdSource$AdSourceListener;
 
     return-object p0
@@ -243,7 +230,6 @@
 .method static synthetic access$300(Lcom/mopub/nativeads/NativeAdSource;)Ljava/lang/Runnable;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/NativeAdSource;->mReplenishCacheRunnable:Ljava/lang/Runnable;
 
     return-object p0
@@ -252,7 +238,6 @@
 .method static synthetic access$400(Lcom/mopub/nativeads/NativeAdSource;)Landroid/os/Handler;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/NativeAdSource;->mReplenishCacheHandler:Landroid/os/Handler;
 
     return-object p0
@@ -263,24 +248,19 @@
 .method clear()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mMoPubNative:Lcom/mopub/nativeads/MoPubNative;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/nativeads/MoPubNative;->destroy()V
 
-    .line 3
     iput-object v1, p0, Lcom/mopub/nativeads/NativeAdSource;->mMoPubNative:Lcom/mopub/nativeads/MoPubNative;
 
-    .line 4
     :cond_0
     iput-object v1, p0, Lcom/mopub/nativeads/NativeAdSource;->mRequestParameters:Lcom/mopub/nativeads/RequestParameters;
 
-    .line 5
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mNativeAdCache:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -300,7 +280,6 @@
 
     check-cast v1, Lcom/mopub/nativeads/TimestampWrapper;
 
-    .line 6
     iget-object v1, v1, Lcom/mopub/nativeads/TimestampWrapper;->mInstance:Ljava/lang/Object;
 
     check-cast v1, Lcom/mopub/nativeads/NativeAd;
@@ -309,26 +288,21 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mNativeAdCache:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 8
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mReplenishCacheHandler:Landroid/os/Handler;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 9
     iput-boolean v1, p0, Lcom/mopub/nativeads/NativeAdSource;->mRequestInFlight:Z
 
-    .line 10
     iput v1, p0, Lcom/mopub/nativeads/NativeAdSource;->mSequenceNumber:I
 
-    .line 11
     invoke-virtual {p0}, Lcom/mopub/nativeads/NativeAdSource;->resetRetryTime()V
 
     return-void
@@ -339,12 +313,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     move-result-wide v0
 
-    .line 2
     iget-boolean v2, p0, Lcom/mopub/nativeads/NativeAdSource;->mRequestInFlight:Z
 
     if-nez v2, :cond_0
@@ -353,14 +325,12 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/mopub/nativeads/NativeAdSource;->mReplenishCacheHandler:Landroid/os/Handler;
 
     iget-object v3, p0, Lcom/mopub/nativeads/NativeAdSource;->mReplenishCacheRunnable:Ljava/lang/Runnable;
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/mopub/nativeads/NativeAdSource;->mNativeAdCache:Ljava/util/List;
 
@@ -370,7 +340,6 @@
 
     if-nez v2, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/mopub/nativeads/NativeAdSource;->mNativeAdCache:Ljava/util/List;
 
     const/4 v3, 0x0
@@ -381,7 +350,6 @@
 
     check-cast v2, Lcom/mopub/nativeads/TimestampWrapper;
 
-    .line 6
     iget-wide v3, v2, Lcom/mopub/nativeads/TimestampWrapper;->mCreatedTimestamp:J
 
     sub-long v3, v0, v3
@@ -392,7 +360,6 @@
 
     if-gez v7, :cond_0
 
-    .line 7
     iget-object v0, v2, Lcom/mopub/nativeads/TimestampWrapper;->mInstance:Ljava/lang/Object;
 
     check-cast v0, Lcom/mopub/nativeads/NativeAd;
@@ -408,7 +375,6 @@
 .method getAdRendererCount()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mAdRendererRegistry:Lcom/mopub/nativeads/AdRendererRegistry;
 
     invoke-virtual {v0}, Lcom/mopub/nativeads/AdRendererRegistry;->getAdRendererCount()I
@@ -423,7 +389,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mAdRendererRegistry:Lcom/mopub/nativeads/AdRendererRegistry;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/AdRendererRegistry;->getRendererForViewType(I)Lcom/mopub/nativeads/MoPubAdRenderer;
@@ -444,7 +409,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mMoPubNativeNetworkListener:Lcom/mopub/nativeads/MoPubNative$MoPubNativeNetworkListener;
 
     return-object v0
@@ -455,7 +419,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mCurrentRetries:I
 
     sget-object v1, Lcom/mopub/nativeads/NativeAdSource;->RETRY_TIME_ARRAY_MILLISECONDS:[I
@@ -464,14 +427,12 @@
 
     if-lt v0, v2, :cond_0
 
-    .line 2
     array-length v0, v1
 
     add-int/lit8 v0, v0, -0x1
 
     iput v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mCurrentRetries:I
 
-    .line 3
     :cond_0
     iget v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mCurrentRetries:I
 
@@ -487,7 +448,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mAdRendererRegistry:Lcom/mopub/nativeads/AdRendererRegistry;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/AdRendererRegistry;->getViewTypeForAd(Lcom/mopub/nativeads/NativeAd;)I
@@ -508,7 +468,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcom/mopub/nativeads/MoPubNative;
 
     iget-object v1, p0, Lcom/mopub/nativeads/NativeAdSource;->mMoPubNativeNetworkListener:Lcom/mopub/nativeads/MoPubNative$MoPubNativeNetworkListener;
@@ -525,10 +484,8 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/nativeads/NativeAdSource;->clear()V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mAdRendererRegistry:Lcom/mopub/nativeads/AdRendererRegistry;
 
     invoke-virtual {v0}, Lcom/mopub/nativeads/AdRendererRegistry;->getRendererIterable()Ljava/lang/Iterable;
@@ -552,19 +509,15 @@
 
     check-cast v1, Lcom/mopub/nativeads/MoPubAdRenderer;
 
-    .line 4
     invoke-virtual {p2, v1}, Lcom/mopub/nativeads/MoPubNative;->registerAdRenderer(Lcom/mopub/nativeads/MoPubAdRenderer;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iput-object p1, p0, Lcom/mopub/nativeads/NativeAdSource;->mRequestParameters:Lcom/mopub/nativeads/RequestParameters;
 
-    .line 6
     iput-object p2, p0, Lcom/mopub/nativeads/NativeAdSource;->mMoPubNative:Lcom/mopub/nativeads/MoPubNative;
 
-    .line 7
     invoke-virtual {p0}, Lcom/mopub/nativeads/NativeAdSource;->replenishCache()V
 
     return-void
@@ -577,17 +530,14 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mAdRendererRegistry:Lcom/mopub/nativeads/AdRendererRegistry;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/AdRendererRegistry;->registerAdRenderer(Lcom/mopub/nativeads/MoPubAdRenderer;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mMoPubNative:Lcom/mopub/nativeads/MoPubNative;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubNative;->registerAdRenderer(Lcom/mopub/nativeads/MoPubAdRenderer;)V
 
     :cond_0
@@ -599,7 +549,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mRequestInFlight:Z
 
     if-nez v0, :cond_0
@@ -618,10 +567,8 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     iput-boolean v1, p0, Lcom/mopub/nativeads/NativeAdSource;->mRequestInFlight:Z
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mMoPubNative:Lcom/mopub/nativeads/MoPubNative;
 
     iget-object v1, p0, Lcom/mopub/nativeads/NativeAdSource;->mRequestParameters:Lcom/mopub/nativeads/RequestParameters;
@@ -645,7 +592,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mCurrentRetries:I
 
     return-void
@@ -658,7 +604,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/NativeAdSource;->mAdSourceListener:Lcom/mopub/nativeads/NativeAdSource$AdSourceListener;
 
     return-void
@@ -672,7 +617,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/NativeAdSource;->mMoPubNative:Lcom/mopub/nativeads/MoPubNative;
 
     return-void
@@ -683,7 +627,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mCurrentRetries:I
 
     sget-object v1, Lcom/mopub/nativeads/NativeAdSource;->RETRY_TIME_ARRAY_MILLISECONDS:[I
@@ -696,7 +639,6 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 2
     iput v0, p0, Lcom/mopub/nativeads/NativeAdSource;->mCurrentRetries:I
 
     :cond_0

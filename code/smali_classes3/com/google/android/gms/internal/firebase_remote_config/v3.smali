@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -47,13 +46,10 @@
 .method private constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/v3;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/firebase_remote_config/v3;->b:Ljava/lang/String;
 
     return-void
@@ -64,7 +60,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Ljava/io/FileInputStream;->close()V
     :try_end_0
@@ -90,7 +85,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Ljava/io/FileOutputStream;->close()V
     :try_end_0
@@ -118,7 +112,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/google/android/gms/internal/firebase_remote_config/v3;->c:Ljava/util/Map;
 
@@ -128,14 +121,12 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/google/android/gms/internal/firebase_remote_config/v3;
 
     invoke-direct {v2, p0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/v3;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     :cond_0
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -162,7 +153,6 @@
 .method final a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/v3;->b:Ljava/lang/String;
 
     return-object v0
@@ -183,7 +173,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/v3;->a:Landroid/content/Context;
 
@@ -197,7 +186,6 @@
     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 2
     :try_start_1
     invoke-virtual {v1}, Ljava/io/FileInputStream;->available()I
 
@@ -207,22 +195,18 @@
 
     const/4 v4, 0x0
 
-    .line 3
     invoke-virtual {v1, v3, v4, v2}, Ljava/io/FileInputStream;->read([BII)I
 
-    .line 4
     new-instance v2, Ljava/lang/String;
 
     const-string v4, "UTF-8"
 
     invoke-direct {v2, v3, v4}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
 
-    .line 5
     new-instance v3, Lorg/json/JSONObject;
 
     invoke-direct {v3, v2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v3}, Lcom/google/android/gms/internal/firebase_remote_config/n3;->a(Lorg/json/JSONObject;)Lcom/google/android/gms/internal/firebase_remote_config/n3;
 
     move-result-object v2
@@ -231,7 +215,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 7
     :try_start_2
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/firebase_remote_config/v3;->b(Ljava/lang/Throwable;Ljava/io/FileInputStream;)V
     :try_end_2
@@ -239,7 +222,6 @@
     .catch Ljava/io/FileNotFoundException; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
-    .line 8
     :cond_0
     monitor-exit p0
 
@@ -248,7 +230,6 @@
     :catchall_0
     move-exception v2
 
-    .line 9
     :try_start_3
     throw v2
     :try_end_3
@@ -259,7 +240,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 10
     :try_start_4
     invoke-static {v2, v1}, Lcom/google/android/gms/internal/firebase_remote_config/v3;->b(Ljava/lang/Throwable;Ljava/io/FileInputStream;)V
 
@@ -277,7 +257,6 @@
 
     throw v0
 
-    .line 11
     :catch_0
     monitor-exit p0
 
@@ -289,7 +268,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/v3;->a:Landroid/content/Context;
 
@@ -301,7 +279,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     monitor-exit p0
 
     return-object v0
@@ -324,7 +301,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/v3;->a:Landroid/content/Context;
 
@@ -338,7 +314,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 2
     :try_start_1
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_remote_config/n3;->toString()Ljava/lang/String;
 
@@ -358,13 +333,11 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     :try_start_2
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/firebase_remote_config/v3;->c(Ljava/lang/Throwable;Ljava/io/FileOutputStream;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
-    .line 4
     :cond_0
     monitor-exit p0
 
@@ -373,7 +346,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_3
     throw p1
     :try_end_3
@@ -384,7 +356,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 6
     :try_start_4
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/firebase_remote_config/v3;->c(Ljava/lang/Throwable;Ljava/io/FileOutputStream;)V
 

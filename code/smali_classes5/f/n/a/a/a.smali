@@ -23,7 +23,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-static {}, Lf/n/a/d/e;->b()Landroid/content/Context;
 
@@ -46,28 +45,23 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Throwable;->fillInStackTrace()Ljava/lang/Throwable;
 
     :goto_0
     const/high16 v0, 0x200000
 
-    .line 3
     sput v0, Lf/n/a/a/a;->d:I
 
     const/16 v0, 0x1000
 
-    .line 4
     sput v0, Lf/n/a/a/a;->e:I
 
     const/16 v0, 0xa
 
-    .line 5
     sput v0, Lf/n/a/a/a;->f:I
 
     const-string v0, "https://uplog.qbox.me/log"
 
-    .line 6
     sput-object v0, Lf/n/a/a/a;->g:Ljava/lang/String;
 
     return-void
@@ -76,7 +70,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -87,12 +80,10 @@
 
     const/16 v0, 0x1000
 
-    .line 1
     sput v0, Lf/n/a/a/a;->e:I
 
     const/16 v0, 0xa
 
-    .line 2
     sput v0, Lf/n/a/a/a;->f:I
 
     return-void
@@ -103,12 +94,10 @@
 
     const/16 v0, 0x400
 
-    .line 1
     sput v0, Lf/n/a/a/a;->e:I
 
     const/4 v0, 0x2
 
-    .line 2
     sput v0, Lf/n/a/a/a;->f:I
 
     return-void
@@ -119,12 +108,10 @@
 
     const v0, 0x25800
 
-    .line 1
     sput v0, Lf/n/a/a/a;->e:I
 
     const/16 v0, 0x12c
 
-    .line 2
     sput v0, Lf/n/a/a/a;->f:I
 
     return-void

@@ -46,47 +46,38 @@
 
     const/4 v1, 0x1
 
-    .line 1
     sput v1, Lcom/meitu/media/encoder/a$m;->b:I
 
     const/4 v1, 0x2
 
-    .line 2
     sput v1, Lcom/meitu/media/encoder/a$m;->c:I
 
     const/4 v1, 0x3
 
-    .line 3
     sput v1, Lcom/meitu/media/encoder/a$m;->d:I
 
     const/4 v1, 0x4
 
-    .line 4
     sput v1, Lcom/meitu/media/encoder/a$m;->e:I
 
     const/4 v1, 0x5
 
-    .line 5
     sput v1, Lcom/meitu/media/encoder/a$m;->f:I
 
     const/4 v1, 0x6
 
-    .line 6
     sput v1, Lcom/meitu/media/encoder/a$m;->g:I
 
     const/4 v1, 0x7
 
-    .line 7
     sput v1, Lcom/meitu/media/encoder/a$m;->h:I
 
     const/16 v1, 0x8
 
-    .line 8
     sput v1, Lcom/meitu/media/encoder/a$m;->i:I
 
     const/16 v1, 0x9
 
-    .line 9
     sput v1, Lcom/meitu/media/encoder/a$m;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,7 +88,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

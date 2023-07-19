@@ -48,10 +48,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/abtest/l/s;->a:Ljava/lang/Object;
 
     return-void
@@ -73,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/abtest/l/s;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/abtest/l/s;-><init>(Ljava/lang/Object;)V
@@ -99,17 +96,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/l/s;->b:Lcom/meitu/library/abtest/l/s;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/library/abtest/l/s;->a(Ljava/lang/Object;)Lcom/meitu/library/abtest/l/s;
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/meitu/library/abtest/l/s;
 
@@ -117,7 +111,6 @@
 
     iput-object v1, p0, Lcom/meitu/library/abtest/l/s;->b:Lcom/meitu/library/abtest/l/s;
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -138,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/l/s;->b:Lcom/meitu/library/abtest/l/s;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

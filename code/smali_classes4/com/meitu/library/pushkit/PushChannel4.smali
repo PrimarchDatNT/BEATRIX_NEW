@@ -23,7 +23,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/library/pushkit/PushChannel4;->isTurnOn:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -34,7 +33,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -49,12 +47,10 @@
 
     const-string v1, "debug"
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;)Z
 
     move-result p0
 
-    .line 2
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v1
@@ -75,7 +71,6 @@
 
     invoke-virtual {v1, p0}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/pushkit/PushChannel4;->isTurnOn:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -105,12 +99,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/library/pushkit/PushChannel4;->isTurnOn:Z
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object p0
@@ -119,7 +111,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/library/m/a/b;->f(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -127,17 +118,14 @@
     :cond_0
     const/4 v2, 0x4
 
-    .line 4
     invoke-static {p0, v2}, Lcom/meitu/pushkit/y;->w(Landroid/content/Context;I)Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 5
     invoke-static {p0, v2, v1}, Lcom/meitu/pushkit/y;->M(Landroid/content/Context;IZ)V
 
-    .line 6
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object p0
@@ -146,7 +134,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -162,7 +149,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object p0
@@ -171,12 +157,10 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/library/m/a/b;->f(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
@@ -188,7 +172,6 @@
 
     const/4 v1, 0x1
 
-    .line 4
     sput-boolean v1, Lcom/meitu/library/pushkit/PushChannel4;->isTurnOn:Z
 
     const-string v2, "SP_PushKit"
@@ -197,12 +180,10 @@
 
     const-string v4, ""
 
-    .line 5
     invoke-static {p0, v2, v3, v4}, Lcom/meitu/pushkit/d0;->g(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 6
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v3
@@ -215,7 +196,6 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -233,7 +213,6 @@
 
     const/4 v6, 0x0
 
-    .line 8
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v7
@@ -265,10 +244,8 @@
 
     move-result-object v4
 
-    .line 9
     invoke-virtual {v3, v4}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -277,14 +254,11 @@
 
     if-nez v3, :cond_2
 
-    .line 11
     invoke-static {p0, v2, v4}, Lcom/meitu/pushkit/y;->J(Landroid/content/Context;Ljava/lang/String;I)V
 
-    .line 12
     :cond_2
     invoke-static {p0, v4, v1}, Lcom/meitu/pushkit/y;->M(Landroid/content/Context;IZ)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -26,7 +26,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-direct {p0, v0, p1}, Lorg/jsoup/select/c$o;-><init>(II)V
 
     return-void
@@ -35,13 +34,10 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/select/c;-><init>()V
 
-    .line 2
     iput p1, p0, Lorg/jsoup/select/c$o;->a:I
 
-    .line 3
     iput p2, p0, Lorg/jsoup/select/c$o;->b:I
 
     return-void
@@ -52,7 +48,6 @@
 .method public a(Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)Z
     .locals 4
 
-    .line 1
     invoke-virtual {p2}, Lorg/jsoup/nodes/Element;->L1()Lorg/jsoup/nodes/Element;
 
     move-result-object v0
@@ -61,20 +56,17 @@
 
     if-eqz v0, :cond_3
 
-    .line 2
     instance-of v0, v0, Lorg/jsoup/nodes/Document;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1, p2}, Lorg/jsoup/select/c$o;->b(Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)I
 
     move-result p1
 
-    .line 4
     iget p2, p0, Lorg/jsoup/select/c$o;->a:I
 
     const/4 v0, 0x1
@@ -90,7 +82,6 @@
     :cond_1
     return v1
 
-    .line 5
     :cond_2
     iget v2, p0, Lorg/jsoup/select/c$o;->b:I
 
@@ -122,7 +113,6 @@
 .method public toString()Ljava/lang/String;
     .locals 5
 
-    .line 1
     iget v0, p0, Lorg/jsoup/select/c$o;->a:I
 
     const/4 v1, 0x1
@@ -135,7 +125,6 @@
 
     new-array v0, v3, [Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lorg/jsoup/select/c$o;->c()Ljava/lang/String;
 
     move-result-object v3
@@ -158,7 +147,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget v0, p0, Lorg/jsoup/select/c$o;->b:I
 
@@ -166,7 +154,6 @@
 
     new-array v0, v3, [Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p0}, Lorg/jsoup/select/c$o;->c()Ljava/lang/String;
 
     move-result-object v3
@@ -194,7 +181,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {p0}, Lorg/jsoup/select/c$o;->c()Ljava/lang/String;
 
     move-result-object v4

@@ -29,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->lowestOneBit(I)I
 
     move-result p0
@@ -63,7 +62,6 @@
 
     and-int/2addr p0, v0
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->lowestOneBit(I)I
 
     move-result p0
@@ -97,7 +95,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->numberOfLeadingZeros(I)I
 
     move-result p0
@@ -125,7 +122,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Long;->numberOfLeadingZeros(J)I
 
     move-result p0
@@ -151,7 +147,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->numberOfLeadingZeros(I)I
 
     move-result p0
@@ -181,7 +176,6 @@
 
     and-int/2addr p0, v0
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->numberOfLeadingZeros(I)I
 
     move-result p0
@@ -211,7 +205,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -241,7 +234,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Long;->bitCount(J)I
 
     move-result p0
@@ -267,7 +259,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->bitCount(I)I
 
     move-result p0
@@ -297,7 +288,6 @@
 
     and-int/2addr p0, v0
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -329,7 +319,6 @@
 
     or-int/lit16 p0, p0, 0x100
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->numberOfTrailingZeros(I)I
 
     move-result p0
@@ -355,7 +344,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
 
     move-result p0
@@ -381,7 +369,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->numberOfTrailingZeros(I)I
 
     move-result p0
@@ -411,7 +398,6 @@
 
     or-int/2addr p0, v0
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->numberOfTrailingZeros(I)I
 
     move-result p0
@@ -434,7 +420,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Ljava/lang/Long;->rotateLeft(JI)J
 
     move-result-wide p0
@@ -461,7 +446,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/g0;->p0(BI)B
 
     move-result p0
@@ -488,7 +472,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Integer;->rotateLeft(II)I
 
     move-result p0
@@ -515,7 +498,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/g0;->q0(SI)S
 
     move-result p0
@@ -542,7 +524,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Ljava/lang/Long;->rotateRight(JI)J
 
     move-result-wide p0
@@ -569,7 +550,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/g0;->r0(BI)B
 
     move-result p0
@@ -596,7 +576,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Integer;->rotateRight(II)I
 
     move-result p0
@@ -623,7 +602,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/g0;->s0(SI)S
 
     move-result p0
@@ -655,7 +633,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->highestOneBit(I)I
 
     move-result p0
@@ -687,7 +664,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Long;->highestOneBit(J)J
 
     move-result-wide p0
@@ -717,7 +693,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->highestOneBit(I)I
 
     move-result p0
@@ -751,7 +726,6 @@
 
     and-int/2addr p0, v0
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->highestOneBit(I)I
 
     move-result p0
@@ -785,7 +759,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->lowestOneBit(I)I
 
     move-result p0
@@ -817,7 +790,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Long;->lowestOneBit(J)J
 
     move-result-wide p0

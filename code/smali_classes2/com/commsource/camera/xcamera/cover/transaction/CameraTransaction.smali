@@ -29,10 +29,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$cameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$cameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;)V
@@ -43,7 +41,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->b:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$bpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;)V
@@ -54,7 +51,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->c:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$fastCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$fastCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;)V
@@ -65,7 +61,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->d:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$arViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$arViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;)V
@@ -76,7 +71,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->f:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$lookViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$lookViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;)V
@@ -97,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->H()Lcom/commsource/camera/xcamera/FastCaptureViewModel;
 
     move-result-object p0
@@ -114,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->I()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
 
     move-result-object p0
@@ -131,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->J(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -146,14 +137,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/camera/g0;->g(Lcom/meitu/template/bean/ArMaterial;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/material/h;->o()Lcom/commsource/material/h;
 
     move-result-object v1
@@ -164,14 +153,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/material/h;->n(I)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/camera/z0/e;->x()Lcom/commsource/camera/z0/e;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/z0/e;->w(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->isNoRealPay()Z
 
     move-result v1
@@ -192,7 +179,6 @@
 
     if-nez p1, :cond_0
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p1
@@ -201,7 +187,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->y(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -275,12 +260,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/b0/a;->c()Lcom/commsource/beautyplus/b0/a;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/a;->q()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v2
@@ -297,7 +280,6 @@
 
     invoke-virtual {v1, v2, p1, v3, v4}, Lcom/commsource/beautyplus/b0/a;->j(Landroid/content/Context;ILcom/commsource/widget/dialog/j0$b;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -310,7 +292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->D(Lcom/meitu/template/bean/ArMaterial;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -325,7 +306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p0
@@ -396,7 +376,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -417,7 +396,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/router/RouterEntity;->getLastPathSegment()Ljava/lang/String;
 
     move-result-object p1
@@ -444,14 +422,12 @@
     :cond_1
     const-string v1, "m_video"
 
-    .line 2
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->G()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object p1
@@ -465,14 +441,12 @@
     :cond_2
     const-string v1, "m_movie"
 
-    .line 4
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->G()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object p1
@@ -481,7 +455,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->X(I)V
 
-    .line 6
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -496,7 +469,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->G()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object v1
@@ -519,7 +491,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->F()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
@@ -542,7 +513,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->H()Lcom/commsource/camera/xcamera/FastCaptureViewModel;
 
     move-result-object v1
@@ -565,7 +535,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->G()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object v1
@@ -588,14 +557,12 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     sget-object v1, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     const/4 v2, 0x3
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/XRepository;->c(I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -608,7 +575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

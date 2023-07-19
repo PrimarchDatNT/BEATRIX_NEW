@@ -24,13 +24,10 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/n/a/b/a$b;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lf/n/a/b/a$b;->b:Ljava/lang/String;
 
     return-void
@@ -39,7 +36,6 @@
 .method static synthetic a(Lf/n/a/b/a$b;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/n/a/b/a$b;->a:Ljava/lang/String;
 
     return-object p0
@@ -48,7 +44,6 @@
 .method static synthetic b(Lf/n/a/b/a$b;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/n/a/b/a$b;->b:Ljava/lang/String;
 
     return-object p0
@@ -59,17 +54,14 @@
 
     const-string v0, ":"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
 
     const/4 v1, 0x0
 
-    .line 2
     aget-object v2, p0, v1
 
-    .line 3
     :try_start_0
     new-instance v3, Ljava/lang/String;
 
@@ -85,26 +77,22 @@
 
     invoke-direct {v3, p0, v4}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
 
-    .line 4
     new-instance p0, Lorg/json/JSONObject;
 
     invoke-direct {p0, v3}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
     const-string v3, "scope"
 
-    .line 5
     invoke-virtual {p0, v3}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 6
     invoke-virtual {p0, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
 
     aget-object p0, p0, v1
 
-    .line 7
     new-instance v0, Lf/n/a/b/a$b;
 
     invoke-direct {v0, v2, p0}, Lf/n/a/b/a$b;-><init>(Ljava/lang/String;Ljava/lang/String;)V
@@ -116,7 +104,6 @@
     :catch_0
     move-exception p0
 
-    .line 8
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p0, 0x0
@@ -133,7 +120,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     instance-of v0, p1, Lf/n/a/b/a$b;
 
     if-eqz v0, :cond_0
@@ -144,7 +130,6 @@
 
     iget-object v1, p0, Lf/n/a/b/a$b;->a:Ljava/lang/String;
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -179,7 +164,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/n/a/b/a$b;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I

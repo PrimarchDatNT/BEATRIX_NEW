@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$manualProcessor$2$a;->N:Lcom/commsource/studio/function/relight/NewRelightFragment$manualProcessor$2;
 
     invoke-direct {p0, p2}, Lcom/commsource/studio/processor/m;-><init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
@@ -63,7 +62,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v1
@@ -78,17 +76,14 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->voidOperation(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$manualProcessor$2$a;->N:Lcom/commsource/studio/function/relight/NewRelightFragment$manualProcessor$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/relight/NewRelightFragment$manualProcessor$2;->this$0:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->z1(Lcom/commsource/studio/function/relight/NewRelightFragment;)V
 
-    .line 3
     invoke-super {p0, p1}, Lcom/commsource/studio/processor/m;->s(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

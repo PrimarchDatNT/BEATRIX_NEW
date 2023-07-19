@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$c;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;
 
     iput-object p2, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$c;->b:Ljava/lang/String;
@@ -62,7 +61,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/sharelink/d;->h()Ljava/lang/String;
 
     move-result-object v1
@@ -85,10 +83,8 @@
 
     const-string p1, "\u7ee7\u7eed\u62fc\u56fe"
 
-    .line 2
     invoke-static {v5, v4, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     sget-object p1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {p1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -97,7 +93,6 @@
 
     invoke-virtual {p1, v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->s(Z)V
 
-    .line 4
     sget-object p1, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->a:Lcom/commsource/mypage/album/BpAlbumJumpRouter;
 
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$c;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;
@@ -108,7 +103,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/sharelink/d;->h()Ljava/lang/String;
 
@@ -124,10 +118,8 @@
 
     const-string p1, "\u7f16\u8f91"
 
-    .line 6
     invoke-static {v5, v4, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     sget-object p1, Lcom/commsource/studio/ImageStudioActivity;->b0:Lcom/commsource/studio/ImageStudioActivity$a;
 
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$c;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;
@@ -138,7 +130,6 @@
 
     invoke-virtual {p1, v1, v4, v3, v5}, Lcom/commsource/studio/ImageStudioActivity$a;->b(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/beautyplus/router/RouterEntity;I)V
 
-    .line 8
     sget-object p1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {p1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -147,14 +138,12 @@
 
     invoke-virtual {p1, v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->s(Z)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$c;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
     goto :goto_0
 
-    .line 10
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/sharelink/d;->h()Ljava/lang/String;
 
@@ -170,12 +159,10 @@
 
     const-string p1, "Surprise"
 
-    .line 11
     invoke-static {v5, v4, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 12
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/sharelink/d;->h()Ljava/lang/String;
 
@@ -191,10 +178,8 @@
 
     const-string p1, "\u5206\u4eab"
 
-    .line 13
     invoke-static {v5, v4, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

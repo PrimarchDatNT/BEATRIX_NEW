@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/mtuploader/m;Lcom/meitu/mtuploader/h;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtuploader/m$a;->c:Lcom/meitu/mtuploader/m;
 
     iput-object p2, p0, Lcom/meitu/mtuploader/m$a;->a:Lcom/meitu/mtuploader/h;
@@ -50,14 +49,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/qiniu/android/http/g;->j()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/meitu/mtuploader/m$a;->a:Lcom/meitu/mtuploader/h;
 
     iget-object v1, p0, Lcom/meitu/mtuploader/m$a;->b:Ljava/lang/String;
@@ -70,7 +67,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p3, p0, Lcom/meitu/mtuploader/m$a;->a:Lcom/meitu/mtuploader/h;
 
@@ -84,7 +80,6 @@
 
     invoke-interface {p3, v1, v2, p2}, Lcom/meitu/mtuploader/h;->c(Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 4
     :goto_0
     iget-object p2, p0, Lcom/meitu/mtuploader/m$a;->c:Lcom/meitu/mtuploader/m;
 
@@ -94,7 +89,6 @@
 
     invoke-virtual {p2, p1}, Lcom/meitu/mtuploader/q;->e(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

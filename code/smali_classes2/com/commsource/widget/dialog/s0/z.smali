@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/d/a;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/dialog/s0/z;->X:Lcom/commsource/widget/dialog/s0/z$a;
 
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/s0/z$a;->d()Lcom/commsource/widget/dialog/s0/x;
@@ -49,7 +47,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/widget/dialog/s0/z;->X:Lcom/commsource/widget/dialog/s0/z$a;
 
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/s0/z$a;->d()Lcom/commsource/widget/dialog/s0/x;
@@ -60,11 +57,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -78,7 +73,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/dialog/s0/z;->X:Lcom/commsource/widget/dialog/s0/z$a;
 
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/s0/z$a;->f()Lcom/commsource/widget/dialog/s0/y;
@@ -87,7 +81,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/widget/dialog/s0/z;->X:Lcom/commsource/widget/dialog/s0/z$a;
 
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/s0/z$a;->f()Lcom/commsource/widget/dialog/s0/y;
@@ -98,11 +91,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -116,7 +107,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/dialog/s0/z;->X:Lcom/commsource/widget/dialog/s0/z$a;
 
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/s0/z$a;->h()Z
@@ -125,10 +115,8 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -142,7 +130,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -157,20 +144,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/s0/z;->X:Lcom/commsource/widget/dialog/s0/z$a;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
@@ -178,7 +161,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/beautyplus/f0/k5;->i(Lcom/commsource/widget/dialog/s0/z$a;)V
 
-    .line 5
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/k5;
@@ -191,7 +173,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/k5;
@@ -204,7 +185,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/k5;
@@ -217,7 +197,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/k5;
@@ -228,7 +207,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -241,7 +219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
@@ -256,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_common_subscribe:I
@@ -295,10 +271,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/s0/z;->X:Lcom/commsource/widget/dialog/s0/z$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -311,10 +285,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/widget/dialog/i0;->onDismiss(Landroid/content/DialogInterface;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/dialog/s0/z;->X:Lcom/commsource/widget/dialog/s0/z$a;
 
     if-eqz p1, :cond_0
@@ -325,7 +297,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/dialog/s0/z;->X:Lcom/commsource/widget/dialog/s0/z$a;
 
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/s0/z$a;->c()Lcom/commsource/widget/dialog/s0/w;
@@ -334,7 +305,6 @@
 
     invoke-interface {p1, p0}, Lcom/commsource/widget/dialog/s0/w;->a(Lf/d/a;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/easyeditor/widget/WheelLayoutManager;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager$a;->b:Lcom/commsource/easyeditor/widget/WheelLayoutManager;
 
     iput-object p2, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager$a;->a:Ljava/lang/Runnable;
@@ -43,12 +42,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager$a;->a:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

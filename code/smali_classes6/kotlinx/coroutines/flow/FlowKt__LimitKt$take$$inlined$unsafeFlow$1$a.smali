@@ -45,7 +45,6 @@
 
     iput-object p3, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->c:Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,7 +61,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
     iget v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -77,7 +75,6 @@
 
     if-ge v1, v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->a:Lcotlinx/coroutines/flow/e;
 
     invoke-interface {v0, p1, p2}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -97,7 +94,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->a:Lcotlinx/coroutines/flow/e;
 

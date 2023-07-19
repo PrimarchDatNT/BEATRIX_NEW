@@ -34,12 +34,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
     sget p1, Lcom/res/provider/ResCOLOR;->color_2a333333:I
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -48,7 +46,6 @@
 
     sget p1, Lcom/res/provider/ResCOLOR;->color_333333:I
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -57,7 +54,6 @@
 
     sget p1, Lcom/res/provider/ResCOLOR;->color_e6ffffff:I
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -66,7 +62,6 @@
 
     sget p1, Lcom/res/provider/ResCOLOR;->white:I
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -75,7 +70,6 @@
 
     sget p1, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -94,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/a;->r:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -109,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/a;->s:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -124,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/a;->t:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -139,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/a;->u:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -154,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/a;->q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/a;->v:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -184,7 +172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/a;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -199,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/a;->v:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -214,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/a;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -12,7 +12,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/sdk/content/f;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/library/analytics/sdk/content/f;->J()Lcom/meitu/library/analytics/y/g/a;
 
     move-result-object p1

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ki2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ni2;->a:Lcom/google/android/gms/internal/ads/ki2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,10 +37,8 @@
 .method public final synthetic onReceiveValue(Ljava/lang/Object;)V
     .locals 4
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ni2;->a:Lcom/google/android/gms/internal/ads/ki2;
 
     iget-object v1, v0, Lcom/google/android/gms/internal/ads/ki2;->f:Lcom/google/android/gms/internal/ads/ii2;

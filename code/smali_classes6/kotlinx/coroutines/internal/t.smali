@@ -28,7 +28,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Lcotlinx/coroutines/m2;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/internal/t;->b:Ljava/lang/Throwable;
@@ -47,7 +46,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcotlinx/coroutines/internal/t;-><init>(Ljava/lang/Throwable;Ljava/lang/String;)V
 
@@ -57,12 +55,10 @@
 .method private final E()Ljava/lang/Void;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/t;->b:Ljava/lang/Throwable;
 
     if-eqz v0, :cond_1
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -103,7 +99,6 @@
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Ljava/lang/IllegalStateException;
 
     iget-object v2, p0, Lcotlinx/coroutines/internal/t;->b:Ljava/lang/Throwable;
@@ -112,7 +107,6 @@
 
     throw v1
 
-    .line 4
     :cond_1
     invoke-static {}, Lcotlinx/coroutines/internal/s;->e()Ljava/lang/Void;
 
@@ -144,7 +138,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/t;->E()Ljava/lang/Void;
 
     const/4 p1, 0x0
@@ -172,7 +165,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/t;->E()Ljava/lang/Void;
 
     const/4 p1, 0x0
@@ -183,7 +175,6 @@
 .method public bridge synthetic b(JLcotlinx/coroutines/m;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcotlinx/coroutines/internal/t;->G(JLcotlinx/coroutines/m;)Ljava/lang/Void;
 
     return-void
@@ -209,7 +200,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/t;->E()Ljava/lang/Void;
 
     const/4 p1, 0x0
@@ -226,7 +216,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/t;->E()Ljava/lang/Void;
 
     const/4 p1, 0x0
@@ -239,7 +228,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -290,7 +278,6 @@
 .method public bridge synthetic u(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/internal/t;->C(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)Ljava/lang/Void;
 
     return-void
@@ -303,7 +290,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/t;->E()Ljava/lang/Void;
 
     const/4 p1, 0x0

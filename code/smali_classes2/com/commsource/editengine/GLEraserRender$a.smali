@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/editengine/GLEraserRender$a;->a:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$a;->a:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-virtual {v1}, Lcom/commsource/editengine/GLEraserRender;->o()Lcom/commsource/studio/h;
@@ -71,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -84,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$a;->a:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-virtual {v1}, Lcom/commsource/editengine/GLEraserRender;->o()Lcom/commsource/studio/h;
@@ -107,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$a;->a:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-virtual {v1}, Lcom/commsource/editengine/GLEraserRender;->m()Lcom/commsource/editengine/b;
@@ -126,7 +121,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/easyeditor/utils/opengl/e;->g(Ljava/lang/Runnable;)V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$a;->a:Lcom/commsource/editengine/GLEraserRender;
 
@@ -142,7 +136,6 @@
 
     invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -155,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/studio/v$a;->b(Lcom/commsource/studio/v;)Z
 
     move-result v1
@@ -172,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$a;->a:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-virtual {v1}, Lcom/commsource/editengine/GLEraserRender;->m()Lcom/commsource/editengine/b;
@@ -191,7 +182,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/easyeditor/utils/opengl/e;->g(Ljava/lang/Runnable;)V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$a;->a:Lcom/commsource/editengine/GLEraserRender;
 
@@ -207,7 +197,6 @@
 
     invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -220,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/studio/v$a;->a(Lcom/commsource/studio/v;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

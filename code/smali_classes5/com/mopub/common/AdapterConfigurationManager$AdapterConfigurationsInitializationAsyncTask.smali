@@ -138,41 +138,30 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {p4}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {p5}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 7
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->weakContext:Ljava/lang/ref/WeakReference;
 
-    .line 8
     iput-object p2, p0, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->adapterConfigurationClasses:Ljava/util/Set;
 
-    .line 9
     iput-object p3, p0, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->networkMediationConfigurations:Ljava/util/Map;
 
-    .line 10
     iput-object p4, p0, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->moPubRequestOptions:Ljava/util/Map;
 
-    .line 11
     iput-object p5, p0, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->adapterConfigurationsInitializationListener:Lcom/mopub/common/AdapterConfigurationsInitializationListener;
 
     return-void
@@ -183,7 +172,6 @@
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, [Ljava/lang/Void;
 
     invoke-virtual {p0, p1}, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->doInBackground([Ljava/lang/Void;)Ljava/util/Map;
@@ -207,12 +195,10 @@
         }
     .end annotation
 
-    .line 2
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->adapterConfigurationClasses:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -238,7 +224,6 @@
 
     const/4 v4, 0x0
 
-    .line 4
     :try_start_0
     const-class v5, Lcom/mopub/common/AdapterConfiguration;
 
@@ -250,7 +235,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     iget-object v6, p0, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->weakContext:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v6}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -261,7 +245,6 @@
 
     if-nez v6, :cond_0
 
-    .line 6
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v3, v3, [Ljava/lang/Object;
@@ -286,21 +269,17 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v7, p0, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->networkMediationConfigurations:Ljava/util/Map;
 
-    .line 8
     invoke-interface {v7, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, Ljava/util/Map;
 
-    .line 9
     new-instance v8, Ljava/util/HashMap;
 
-    .line 10
     invoke-interface {v5, v6}, Lcom/mopub/common/AdapterConfiguration;->getCachedInitializationParameters(Landroid/content/Context;)Ljava/util/Map;
 
     move-result-object v9
@@ -309,17 +288,13 @@
 
     if-eqz v7, :cond_1
 
-    .line 11
     invoke-interface {v8, v7}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
 
-    .line 12
     invoke-interface {v5, v6, v8}, Lcom/mopub/common/AdapterConfiguration;->setCachedInitializationParameters(Landroid/content/Context;Ljava/util/Map;)V
 
-    .line 13
     :cond_1
     iget-object v7, p0, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->moPubRequestOptions:Ljava/util/Map;
 
-    .line 14
     invoke-interface {v7, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
@@ -328,10 +303,8 @@
 
     if-eqz v7, :cond_2
 
-    .line 15
     invoke-interface {v5, v7}, Lcom/mopub/common/AdapterConfiguration;->setMoPubRequestOptions(Ljava/util/Map;)V
 
-    .line 16
     :cond_2
     sget-object v7, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -345,14 +318,12 @@
 
     aput-object v1, v11, v4
 
-    .line 17
     invoke-interface {v5}, Lcom/mopub/common/AdapterConfiguration;->getAdapterVersion()Ljava/lang/String;
 
     move-result-object v12
 
     aput-object v12, v11, v3
 
-    .line 18
     invoke-interface {v5}, Lcom/mopub/common/AdapterConfiguration;->getNetworkSdkVersion()Ljava/lang/String;
 
     move-result-object v3
@@ -365,7 +336,6 @@
 
     const-string v2, "Initializing %s version %s with network sdk version %s and with params %s"
 
-    .line 19
     invoke-static {v10, v2, v11}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -374,12 +344,10 @@
 
     invoke-static {v7, v9}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 20
     iget-object v2, p0, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->adapterConfigurationsInitializationListener:Lcom/mopub/common/AdapterConfigurationsInitializationListener;
 
     invoke-interface {v5, v6, v8, v2}, Lcom/mopub/common/AdapterConfiguration;->initializeNetwork(Landroid/content/Context;Ljava/util/Map;Lcom/mopub/common/OnNetworkInitializationFinishedListener;)V
 
-    .line 21
     invoke-interface {p1, v1, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
@@ -387,7 +355,6 @@
     :catch_0
     move-exception v5
 
-    .line 22
     sget-object v6, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v2, v2, [Ljava/lang/Object;
@@ -425,7 +392,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Ljava/util/Map;
 
     invoke-virtual {p0, p1}, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->onPostExecute(Ljava/util/Map;)V
@@ -449,7 +415,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;->adapterConfigurationsInitializationListener:Lcom/mopub/common/AdapterConfigurationsInitializationListener;
 
     invoke-interface {v0, p1}, Lcom/mopub/common/AdapterConfigurationsInitializationListener;->onAdapterConfigurationsInitialized(Ljava/util/Map;)V

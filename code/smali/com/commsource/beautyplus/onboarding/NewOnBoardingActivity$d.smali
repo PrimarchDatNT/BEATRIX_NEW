@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$d;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->S0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/billing/activity/SubscribeViewModel;
@@ -51,7 +50,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/billing/activity/SubscribeViewModel;->f1()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

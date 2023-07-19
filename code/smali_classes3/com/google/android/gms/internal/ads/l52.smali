@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -18,7 +17,6 @@
 
     const-string v0, "java.vm.name"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -31,7 +29,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/e52;
 
     invoke-virtual {p0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -42,7 +39,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/ads/g52;
 

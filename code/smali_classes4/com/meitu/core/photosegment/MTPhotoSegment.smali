@@ -29,7 +29,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/photosegment/MTPhotoSegment$1;
 
     invoke-direct {v1}, Lcom/meitu/core/photosegment/MTPhotoSegment$1;-><init>()V
@@ -38,10 +37,8 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/core/photosegment/MTPhotoSegment;->loadSegmentLibrary(Landroid/content/Context;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -50,19 +47,16 @@
 .method public constructor <init>(Ljava/lang/String;Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;Landroid/content/res/AssetManager;)V
     .locals 4
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 7
     iput-wide v0, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
     const/4 v0, 0x0
 
     const/4 v1, 0x0
 
-    .line 8
     :try_start_0
     iget v2, p2, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;->id:I
 
@@ -76,11 +70,9 @@
 
     goto :goto_0
 
-    .line 9
     :catch_0
     invoke-static {v1}, Lcom/meitu/core/photosegment/MTPhotoSegment;->loadSegmentLibrary(Landroid/content/Context;)V
 
-    .line 10
     iget p2, p2, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;->id:I
 
     invoke-static {p1, p2, p3, v0, v1}, Lcom/meitu/core/photosegment/MTPhotoSegment;->nativeCreate(Ljava/lang/String;ILandroid/content/res/AssetManager;ILjava/lang/String;)J
@@ -96,19 +88,16 @@
 .method public constructor <init>(Ljava/lang/String;Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;Landroid/content/res/AssetManager;Landroid/content/Context;)V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
     const/4 v0, 0x0
 
     const/4 v1, 0x0
 
-    .line 3
     :try_start_0
     iget v2, p2, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;->id:I
 
@@ -122,11 +111,9 @@
 
     goto :goto_0
 
-    .line 4
     :catch_0
     invoke-static {p4}, Lcom/meitu/core/photosegment/MTPhotoSegment;->loadSegmentLibrary(Landroid/content/Context;)V
 
-    .line 5
     iget p2, p2, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;->id:I
 
     invoke-static {p1, p2, p3, v1, v0}, Lcom/meitu/core/photosegment/MTPhotoSegment;->nativeCreate(Ljava/lang/String;ILandroid/content/res/AssetManager;ILjava/lang/String;)J
@@ -142,15 +129,12 @@
 .method public constructor <init>(Ljava/lang/String;Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;Landroid/content/res/AssetManager;Lcom/meitu/core/photosegment/MTPhotoSegment$ShaderPrecisionType;Ljava/lang/String;)V
     .locals 2
 
-    .line 16
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 17
     iput-wide v0, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
-    .line 18
     :try_start_0
     iget v0, p2, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;->id:I
 
@@ -169,10 +153,8 @@
     :catch_0
     const/4 v0, 0x0
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/core/photosegment/MTPhotoSegment;->loadSegmentLibrary(Landroid/content/Context;)V
 
-    .line 20
     iget p2, p2, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;->id:I
 
     iget p4, p4, Lcom/meitu/core/photosegment/MTPhotoSegment$ShaderPrecisionType;->id:I
@@ -190,15 +172,12 @@
 .method public constructor <init>(Ljava/lang/String;Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;Landroid/content/res/AssetManager;Lcom/meitu/core/photosegment/MTPhotoSegment$ShaderPrecisionType;Ljava/lang/String;Landroid/content/Context;)V
     .locals 2
 
-    .line 11
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 12
     iput-wide v0, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
-    .line 13
     :try_start_0
     iget v0, p2, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;->id:I
 
@@ -214,11 +193,9 @@
 
     goto :goto_0
 
-    .line 14
     :catch_0
     invoke-static {p6}, Lcom/meitu/core/photosegment/MTPhotoSegment;->loadSegmentLibrary(Landroid/content/Context;)V
 
-    .line 15
     iget p2, p2, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;->id:I
 
     iget p4, p4, Lcom/meitu/core/photosegment/MTPhotoSegment$ShaderPrecisionType;->id:I
@@ -240,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/photosegment/MTPhotoSegment;->nativeEglInitDisplay()Z
 
     move-result v1
@@ -257,10 +233,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/photosegment/MTPhotoSegment;->nativeEglTermDisplay()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -273,7 +247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/photosegment/MTPhotoSegment;->nativeGl3stubInit()Z
 
     move-result v1
@@ -318,7 +291,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v6, Lcom/meitu/core/photosegment/MTPhotoSegment;->logger:Lcom/getkeepsafe/relinker/d$d;
 
     invoke-static {v6}, Lcom/getkeepsafe/relinker/d;->f(Lcom/getkeepsafe/relinker/d$d;)Lcom/getkeepsafe/relinker/e;
@@ -327,7 +299,6 @@
 
     invoke-virtual {v6, p0, v4}, Lcom/getkeepsafe/relinker/e;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 2
     sget-object v4, Lcom/meitu/core/photosegment/MTPhotoSegment;->logger:Lcom/getkeepsafe/relinker/d$d;
 
     invoke-static {v4}, Lcom/getkeepsafe/relinker/d;->f(Lcom/getkeepsafe/relinker/d$d;)Lcom/getkeepsafe/relinker/e;
@@ -336,7 +307,6 @@
 
     invoke-virtual {v4, p0, v3}, Lcom/getkeepsafe/relinker/e;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 3
     sget-object v3, Lcom/meitu/core/photosegment/MTPhotoSegment;->logger:Lcom/getkeepsafe/relinker/d$d;
 
     invoke-static {v3}, Lcom/getkeepsafe/relinker/d;->f(Lcom/getkeepsafe/relinker/d$d;)Lcom/getkeepsafe/relinker/e;
@@ -345,7 +315,6 @@
 
     invoke-virtual {v3, p0, v2}, Lcom/getkeepsafe/relinker/e;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 4
     sget-object v2, Lcom/meitu/core/photosegment/MTPhotoSegment;->logger:Lcom/getkeepsafe/relinker/d$d;
 
     invoke-static {v2}, Lcom/getkeepsafe/relinker/d;->f(Lcom/getkeepsafe/relinker/d$d;)Lcom/getkeepsafe/relinker/e;
@@ -354,7 +323,6 @@
 
     invoke-virtual {v2, p0, v1}, Lcom/getkeepsafe/relinker/e;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 5
     sget-object v1, Lcom/meitu/core/photosegment/MTPhotoSegment;->logger:Lcom/getkeepsafe/relinker/d$d;
 
     invoke-static {v1}, Lcom/getkeepsafe/relinker/d;->f(Lcom/getkeepsafe/relinker/d$d;)Lcom/getkeepsafe/relinker/e;
@@ -365,23 +333,17 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {v4}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v3}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v5}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -427,7 +389,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
     iget p2, p2, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->id:I
@@ -462,7 +423,6 @@
 
     move v5, p3
 
-    .line 2
     invoke-virtual/range {v2 .. v7}, Lcom/meitu/core/photosegment/MTPhotoSegment;->Run(Landroid/graphics/Bitmap;Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;ZI[Z)Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -479,7 +439,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
     iget v4, p2, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->id:I
@@ -508,7 +467,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
     move v3, p1
@@ -537,12 +495,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/photosegment/MTPhotoSegment;->nativeSetCropAndWarpParam(J[F[[F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -560,16 +516,13 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/meitu/core/photosegment/MTPhotoSegment;->release()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -577,10 +530,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -593,7 +544,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -602,13 +552,10 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-static {v1, v2}, Lcom/meitu/core/photosegment/MTPhotoSegment;->nativeFinalizer(J)V
 
-    .line 3
     iput-wide v3, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

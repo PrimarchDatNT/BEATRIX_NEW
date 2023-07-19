@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/r/c/c/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/c/b$i;->a:Lf/r/c/c/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a(Lf/r/c/d/b;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/b$i;->a:Lf/r/c/c/b;
 
     iget-object v0, v0, Lf/r/c/c/b;->m:Ljava/util/concurrent/ScheduledExecutorService;

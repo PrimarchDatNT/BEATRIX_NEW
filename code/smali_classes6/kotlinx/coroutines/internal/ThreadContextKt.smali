@@ -63,7 +63,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "ZERO"
@@ -72,22 +71,18 @@
 
     sput-object v0, Lcotlinx/coroutines/internal/ThreadContextKt;->a:Lcotlinx/coroutines/internal/c0;
 
-    .line 2
     sget-object v0, Lcotlinx/coroutines/internal/ThreadContextKt$countAll$1;->INSTANCE:Lcotlinx/coroutines/internal/ThreadContextKt$countAll$1;
 
     sput-object v0, Lcotlinx/coroutines/internal/ThreadContextKt;->b:Lcotlin/jvm/u/p;
 
-    .line 3
     sget-object v0, Lcotlinx/coroutines/internal/ThreadContextKt$findOne$1;->INSTANCE:Lcotlinx/coroutines/internal/ThreadContextKt$findOne$1;
 
     sput-object v0, Lcotlinx/coroutines/internal/ThreadContextKt;->c:Lcotlin/jvm/u/p;
 
-    .line 4
     sget-object v0, Lcotlinx/coroutines/internal/ThreadContextKt$updateState$1;->INSTANCE:Lcotlinx/coroutines/internal/ThreadContextKt$updateState$1;
 
     sput-object v0, Lcotlinx/coroutines/internal/ThreadContextKt;->d:Lcotlin/jvm/u/p;
 
-    .line 5
     sget-object v0, Lcotlinx/coroutines/internal/ThreadContextKt$restoreState$1;->INSTANCE:Lcotlinx/coroutines/internal/ThreadContextKt$restoreState$1;
 
     sput-object v0, Lcotlinx/coroutines/internal/ThreadContextKt;->e:Lcotlin/jvm/u/p;
@@ -106,27 +101,23 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/internal/ThreadContextKt;->a:Lcotlinx/coroutines/internal/c0;
 
     if-ne p1, v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     instance-of v0, p1, Lcotlinx/coroutines/internal/m0;
 
     if-eqz v0, :cond_1
 
-    .line 3
     move-object v0, p1
 
     check-cast v0, Lcotlinx/coroutines/internal/m0;
 
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/m0;->c()V
 
-    .line 4
     sget-object v0, Lcotlinx/coroutines/internal/ThreadContextKt;->e:Lcotlin/jvm/u/p;
 
     invoke-interface {p0, p1, v0}, Lcotlin/coroutines/CoroutineContext;->fold(Ljava/lang/Object;Lcotlin/jvm/u/p;)Ljava/lang/Object;
@@ -136,7 +127,6 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 5
     sget-object v1, Lcotlinx/coroutines/internal/ThreadContextKt;->c:Lcotlin/jvm/u/p;
 
     invoke-interface {p0, v0, v1}, Lcotlin/coroutines/CoroutineContext;->fold(Ljava/lang/Object;Lcotlin/jvm/u/p;)Ljava/lang/Object;
@@ -147,13 +137,11 @@
 
     check-cast v0, Lcotlinx/coroutines/g3;
 
-    .line 6
     invoke-interface {v0, p0, p1}, Lcotlinx/coroutines/g3;->B(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)V
 
     :goto_0
     return-void
 
-    .line 7
     :cond_2
     new-instance p0, Lcotlin/TypeCastException;
 
@@ -175,7 +163,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -211,7 +198,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {p0}, Lcotlinx/coroutines/internal/ThreadContextKt;->b(Lcotlin/coroutines/CoroutineContext;)Ljava/lang/Object;
 
@@ -220,7 +206,6 @@
     :goto_0
     const/4 v0, 0x0
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -231,13 +216,11 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     instance-of v0, p1, Ljava/lang/Integer;
 
     if-eqz v0, :cond_2
 
-    .line 4
     new-instance v0, Lcotlinx/coroutines/internal/m0;
 
     check-cast p1, Ljava/lang/Number;
@@ -259,10 +242,8 @@
     :cond_2
     if-eqz p1, :cond_3
 
-    .line 5
     check-cast p1, Lcotlinx/coroutines/g3;
 
-    .line 6
     invoke-interface {p1, p0}, Lcotlinx/coroutines/g3;->W(Lcotlin/coroutines/CoroutineContext;)Ljava/lang/Object;
 
     move-result-object p0
@@ -270,7 +251,6 @@
     :goto_1
     return-object p0
 
-    .line 7
     :cond_3
     new-instance p0, Lcotlin/TypeCastException;
 

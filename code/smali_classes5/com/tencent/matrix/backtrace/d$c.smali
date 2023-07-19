@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/tencent/matrix/backtrace/d;Landroid/os/CancellationSignal;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/backtrace/d$c;->b:Lcom/tencent/matrix/backtrace/d;
 
     iput-object p2, p0, Lcom/tencent/matrix/backtrace/d$c;->a:Landroid/os/CancellationSignal;
@@ -50,15 +49,12 @@
 
     const-string v3, "Going to consume requested QUT."
 
-    .line 1
     invoke-static {v2, v3, v1}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {}, Lcom/tencent/matrix/backtrace/WeChatBacktraceNative;->consumeRequestedQut()[Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     iget-object v3, p0, Lcom/tencent/matrix/backtrace/d$c;->b:Lcom/tencent/matrix/backtrace/d;
 
     invoke-static {v3}, Lcom/tencent/matrix/backtrace/d;->c(Lcom/tencent/matrix/backtrace/d;)Lcom/tencent/matrix/backtrace/e;
@@ -67,7 +63,6 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/tencent/matrix/backtrace/d$c;->b:Lcom/tencent/matrix/backtrace/d;
 
     invoke-static {v1}, Lcom/tencent/matrix/backtrace/d;->b(Lcom/tencent/matrix/backtrace/d;)Lcom/tencent/matrix/backtrace/WarmUpScheduler;
@@ -82,12 +77,10 @@
 
     const-string v1, "Failed to acquire warm-up invoker."
 
-    .line 5
     invoke-static {v2, v1, v0}, Lcom/tencent/matrix/util/b;->h(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
 
-    .line 6
     :cond_0
     :try_start_0
     array-length v4, v1
@@ -101,7 +94,6 @@
 
     const/16 v7, 0x3a
 
-    .line 7
     invoke-virtual {v6, v7}, Ljava/lang/String;->lastIndexOf(I)I
 
     move-result v7
@@ -112,7 +104,6 @@
 
     if-eq v7, v8, :cond_1
 
-    .line 8
     :try_start_1
     invoke-virtual {v6, v0, v7}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
@@ -122,7 +113,6 @@
 
     add-int/lit8 v7, v7, 0x1
 
-    .line 9
     :try_start_2
     invoke-virtual {v6, v7}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
@@ -147,7 +137,6 @@
     :catchall_1
     const/4 v7, 0x0
 
-    .line 10
     :goto_1
     :try_start_3
     iget-object v9, p0, Lcom/tencent/matrix/backtrace/d$c;->b:Lcom/tencent/matrix/backtrace/d;
@@ -158,14 +147,12 @@
 
     if-nez v9, :cond_2
 
-    .line 11
     invoke-interface {v3, v8, v7}, Lcom/tencent/matrix/backtrace/e;->a(Ljava/lang/String;I)Z
 
     move-result v9
 
     if-nez v9, :cond_3
 
-    .line 12
     iget-object v10, p0, Lcom/tencent/matrix/backtrace/d$c;->b:Lcom/tencent/matrix/backtrace/d;
 
     invoke-static {v10, v8, v7}, Lcom/tencent/matrix/backtrace/d;->e(Lcom/tencent/matrix/backtrace/d;Ljava/lang/String;I)V
@@ -185,7 +172,6 @@
 
     aput-object v6, v8, v0
 
-    .line 13
     invoke-static {v9}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v6
@@ -196,7 +182,6 @@
 
     invoke-static {v2, v7, v8}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 14
     iget-object v6, p0, Lcom/tencent/matrix/backtrace/d$c;->a:Landroid/os/CancellationSignal;
 
     if-eqz v6, :cond_4
@@ -211,7 +196,6 @@
 
     new-array v4, v0, [Ljava/lang/Object;
 
-    .line 15
     invoke-static {v2, v1, v4}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_3
@@ -227,17 +211,14 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 16
     invoke-static {v2, v1, v0}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
-    .line 17
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d$c;->b:Lcom/tencent/matrix/backtrace/d;
 
     invoke-static {v0, v3}, Lcom/tencent/matrix/backtrace/d;->f(Lcom/tencent/matrix/backtrace/d;Lcom/tencent/matrix/backtrace/e;)V
 
-    .line 18
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d$c;->b:Lcom/tencent/matrix/backtrace/d;
 
     invoke-static {v0}, Lcom/tencent/matrix/backtrace/d;->b(Lcom/tencent/matrix/backtrace/d;)Lcom/tencent/matrix/backtrace/WarmUpScheduler;
@@ -253,12 +234,10 @@
     :catchall_2
     move-exception v0
 
-    .line 19
     iget-object v1, p0, Lcom/tencent/matrix/backtrace/d$c;->b:Lcom/tencent/matrix/backtrace/d;
 
     invoke-static {v1, v3}, Lcom/tencent/matrix/backtrace/d;->f(Lcom/tencent/matrix/backtrace/d;Lcom/tencent/matrix/backtrace/e;)V
 
-    .line 20
     iget-object v1, p0, Lcom/tencent/matrix/backtrace/d$c;->b:Lcom/tencent/matrix/backtrace/d;
 
     invoke-static {v1}, Lcom/tencent/matrix/backtrace/d;->b(Lcom/tencent/matrix/backtrace/d;)Lcom/tencent/matrix/backtrace/WarmUpScheduler;
@@ -269,6 +248,5 @@
 
     invoke-virtual {v1, v2}, Lcom/tencent/matrix/backtrace/WarmUpScheduler;->f(Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;)V
 
-    .line 21
     throw v0
 .end method

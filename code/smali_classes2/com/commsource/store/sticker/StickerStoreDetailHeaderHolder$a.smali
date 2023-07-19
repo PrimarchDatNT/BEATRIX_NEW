@@ -34,7 +34,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder$a;->d:Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/request/j/e;-><init>()V
 
     return-void
@@ -53,7 +52,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder$a;->d:Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;
 
     invoke-static {v0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->v(Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;)Lcom/commsource/beautyplus/f0/mj;
@@ -68,7 +66,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -81,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder$a;->a(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/k/f;)V
@@ -120,7 +116,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     move-result v0
@@ -135,7 +130,6 @@
 
     div-float/2addr v0, v1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder$a;->d:Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;
 
     invoke-static {v1}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->v(Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;)Lcom/commsource/beautyplus/f0/mj;
@@ -166,12 +160,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     move-object v3, v1
 
     check-cast v3, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
 
-    .line 4
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -188,7 +180,6 @@
 
     iput-object v0, v3, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->dimensionRatio:Ljava/lang/String;
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder$a;->d:Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;
 
     invoke-static {v0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->v(Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;)Lcom/commsource/beautyplus/f0/mj;
@@ -203,7 +194,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -215,7 +205,6 @@
 
     throw p1
 
-    .line 7
     :cond_2
     :goto_1
     iget-object v0, p0, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder$a;->d:Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;
@@ -230,7 +219,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder$a;->d:Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;
 
     invoke-static {v0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->v(Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;)Lcom/commsource/beautyplus/f0/mj;
@@ -241,7 +229,6 @@
 
     invoke-virtual {v0, p1}, Lcom/commsource/widget/CircleImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 9
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

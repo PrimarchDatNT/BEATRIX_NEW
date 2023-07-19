@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lorg/jsoup/parser/TokeniserState;-><init>(Ljava/lang/String;ILorg/jsoup/parser/TokeniserState$1;)V
 
     return-void
@@ -33,27 +32,22 @@
 
     const/16 v0, 0x2f
 
-    .line 1
     invoke-virtual {p2, v0}, Lorg/jsoup/parser/a;->y(C)Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p1, v0}, Lorg/jsoup/parser/h;->k(C)V
 
-    .line 3
     invoke-virtual {p1}, Lorg/jsoup/parser/h;->i()V
 
-    .line 4
     sget-object p2, Lorg/jsoup/parser/TokeniserState;->ScriptDataDoubleEscapeEnd:Lorg/jsoup/parser/TokeniserState;
 
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->a(Lorg/jsoup/parser/TokeniserState;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object p2, Lorg/jsoup/parser/TokeniserState;->ScriptDataDoubleEscaped:Lorg/jsoup/parser/TokeniserState;
 

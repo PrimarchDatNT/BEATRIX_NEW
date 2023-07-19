@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/measurement/zzez;
 
     const-string v1, "SCALAR"
@@ -44,7 +43,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/measurement/zzez;->zza:Lcom/google/android/gms/internal/measurement/zzez;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/measurement/zzez;
 
     const-string v3, "VECTOR"
@@ -55,7 +53,6 @@
 
     sput-object v1, Lcom/google/android/gms/internal/measurement/zzez;->zzb:Lcom/google/android/gms/internal/measurement/zzez;
 
-    .line 3
     new-instance v3, Lcom/google/android/gms/internal/measurement/zzez;
 
     const-string v5, "PACKED_VECTOR"
@@ -66,7 +63,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/measurement/zzez;->zzc:Lcom/google/android/gms/internal/measurement/zzez;
 
-    .line 4
     new-instance v5, Lcom/google/android/gms/internal/measurement/zzez;
 
     const-string v7, "MAP"
@@ -89,7 +85,6 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lcom/google/android/gms/internal/measurement/zzez;->zzf:[Lcom/google/android/gms/internal/measurement/zzez;
 
     return-void
@@ -103,10 +98,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-boolean p3, p0, Lcom/google/android/gms/internal/measurement/zzez;->zze:Z
 
     return-void
@@ -115,7 +108,6 @@
 .method public static values()[Lcom/google/android/gms/internal/measurement/zzez;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/zzez;->zzf:[Lcom/google/android/gms/internal/measurement/zzez;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/measurement/zzez;->clone()Ljava/lang/Object;

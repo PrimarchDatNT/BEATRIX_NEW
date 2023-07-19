@@ -35,15 +35,12 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/FirebaseException;-><init>(Ljava/lang/String;)V
 
     const-string v0, "Provided message must not be null."
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     sget-object p1, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->OK:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const/4 v0, 0x0
@@ -66,7 +63,6 @@
 
     const-string p1, "Provided code must not be null."
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -91,15 +87,12 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 5
     invoke-direct {p0, p1, p3}, Lcom/google/firebase/FirebaseException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const-string p3, "Provided message must not be null."
 
-    .line 6
     invoke-static {p1, p3}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     sget-object p1, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->OK:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const/4 p3, 0x0
@@ -122,7 +115,6 @@
 
     const-string p1, "Provided code must not be null."
 
-    .line 8
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -144,7 +136,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/FirebaseFirestoreException;->code:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     return-object v0

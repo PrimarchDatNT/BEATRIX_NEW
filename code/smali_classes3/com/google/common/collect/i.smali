@@ -70,7 +70,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -100,12 +99,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/i;->cellSet:Ljava/util/Set;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/i;->createCellSet()Ljava/util/Set;
 
     move-result-object v0
@@ -119,7 +116,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/i;->cellSet()Ljava/util/Set;
 
     move-result-object v0
@@ -143,7 +139,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/f2;->columnMap()Ljava/util/Map;
 
     move-result-object v0
@@ -166,7 +161,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/f2;->rowMap()Ljava/util/Map;
 
     move-result-object v0
@@ -179,7 +173,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {p1, p2}, Lcom/google/common/collect/Maps;->o0(Ljava/util/Map;Ljava/lang/Object;)Z
 
     move-result p1
@@ -204,7 +197,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/f2;->columnMap()Ljava/util/Map;
 
     move-result-object v0
@@ -223,7 +215,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/f2;->rowMap()Ljava/util/Map;
 
     move-result-object v0
@@ -242,7 +233,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/f2;->rowMap()Ljava/util/Map;
 
     move-result-object v0
@@ -268,7 +258,6 @@
 
     check-cast v1, Ljava/util/Map;
 
-    .line 2
     invoke-interface {v1, p1}, Ljava/util/Map;->containsValue(Ljava/lang/Object;)Z
 
     move-result v1
@@ -296,7 +285,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/i$b;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/i$b;-><init>(Lcom/google/common/collect/i;)V
@@ -314,7 +302,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/i$c;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/i$c;-><init>(Lcom/google/common/collect/i;)V
@@ -329,7 +316,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Tables;->b(Lcom/google/common/collect/f2;Ljava/lang/Object;)Z
 
     move-result p1
@@ -356,7 +342,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/f2;->rowMap()Ljava/util/Map;
 
     move-result-object v0
@@ -373,7 +358,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1, p2}, Lcom/google/common/collect/Maps;->p0(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -386,7 +370,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/i;->cellSet()Ljava/util/Set;
 
     move-result-object v0
@@ -401,7 +384,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/f2;->size()I
 
     move-result v0
@@ -430,7 +412,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Lcom/google/common/collect/f2;->row(Ljava/lang/Object;)Ljava/util/Map;
 
     move-result-object p1
@@ -452,7 +433,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/collect/f2;->cellSet()Ljava/util/Set;
 
     move-result-object p1
@@ -474,7 +454,6 @@
 
     check-cast v0, Lcom/google/common/collect/f2$a;
 
-    .line 2
     invoke-interface {v0}, Lcom/google/common/collect/f2$a;->getRowKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -517,7 +496,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/f2;->rowMap()Ljava/util/Map;
 
     move-result-object v0
@@ -534,7 +512,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1, p2}, Lcom/google/common/collect/Maps;->q0(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -554,7 +531,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/f2;->rowMap()Ljava/util/Map;
 
     move-result-object v0
@@ -569,7 +545,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/f2;->rowMap()Ljava/util/Map;
 
     move-result-object v0
@@ -591,12 +566,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/i;->values:Ljava/util/Collection;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/i;->createValues()Ljava/util/Collection;
 
     move-result-object v0
@@ -617,7 +590,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/i$a;
 
     invoke-virtual {p0}, Lcom/google/common/collect/i;->cellSet()Ljava/util/Set;

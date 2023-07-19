@@ -46,7 +46,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$a;->b:Lcom/commsource/widget/h1/d;
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -63,7 +62,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     sget-object v0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$a;->b:Lcom/commsource/widget/h1/d;
@@ -86,7 +84,6 @@
 
     invoke-static {v1, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$a;->b:Lcom/commsource/widget/h1/d;
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -99,7 +96,6 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/template/bean/Filter;->setNeedShow(I)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$a;->b:Lcom/commsource/widget/h1/d;
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -112,7 +108,6 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/template/bean/Filter;->setCollectedState(I)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$a;->b:Lcom/commsource/widget/h1/d;
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -123,7 +118,6 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/template/bean/Filter;->setDownloadState(I)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$a;->b:Lcom/commsource/widget/h1/d;
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -134,7 +128,6 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/template/bean/Filter;->setDownloadProgress(I)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$a;->b:Lcom/commsource/widget/h1/d;
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -145,7 +138,6 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/template/bean/Filter;->setDeleteState(Z)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->x(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewModel;
@@ -169,10 +161,8 @@
     :cond_0
     sget v0, Lcom/res/provider/ResSTRING;->filter_not_support_delete:I
 
-    .line 9
     invoke-static {v0}, Lf/k/c/c/f;->r(I)V
 
-    .line 10
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

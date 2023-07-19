@@ -36,7 +36,6 @@
 .method constructor <init>(Lf/k/k/p;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/http/api/OpenLabApi$c;->a:Lf/k/k/p;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/http/api/OpenLabApi$LabResponse;
 
     invoke-virtual {p0, p1}, Lcom/meitu/http/api/OpenLabApi$c;->c(Lcom/meitu/http/api/OpenLabApi$LabResponse;)V
@@ -74,15 +72,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/k/o;->d(Lf/k/k/p;Ljava/lang/Throwable;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/http/api/OpenLabApi$c;->a:Lf/k/k/p;
 
     invoke-interface {v1, p1}, Lf/k/k/p;->b(Ljava/lang/Throwable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -101,7 +96,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/http/api/OpenLabApi$LabResponse;->getMedia_info_list()Ljava/util/List;
 
     move-result-object v1
@@ -122,7 +116,6 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/http/api/OpenLabApi$c;->a:Lf/k/k/p;
 
     invoke-virtual {p1}, Lcom/meitu/http/api/OpenLabApi$LabResponse;->getMedia_info_list()Ljava/util/List;
@@ -131,7 +124,6 @@
 
     invoke-interface {v1, p1}, Lf/k/k/p;->a(Ljava/lang/Object;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -18,7 +18,6 @@
 .method protected constructor <init>(J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/media/mtmvcore/MTITrack;-><init>(J)V
 
     return-void
@@ -33,14 +32,12 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-static/range {p0 .. p6}, Lcom/meitu/media/mtmvcore/MTMVTrack;->createMusicTrack(Ljava/lang/String;JJJ)J
 
     move-result-wide p0
@@ -55,7 +52,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p2, Lcom/meitu/media/mtmvcore/MTMVTrack;
 
@@ -68,7 +64,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -90,14 +85,12 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-static/range {p0 .. p6}, Lcom/meitu/media/mtmvcore/MTMVTrack;->createVideoTrack(Ljava/lang/String;JJJ)J
 
     move-result-wide p0
@@ -112,7 +105,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p2, Lcom/meitu/media/mtmvcore/MTMVTrack;
 
@@ -125,7 +117,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -211,7 +202,6 @@
 
     invoke-static/range {v17 .. v17}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p0 .. p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
@@ -232,7 +222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v2
@@ -263,7 +252,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v2
@@ -294,14 +282,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/mtmvcore/MTMVTrack;->clearSpeedEffect(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -314,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
@@ -335,7 +320,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
@@ -356,7 +340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
@@ -377,7 +360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
@@ -416,7 +398,6 @@
 
     invoke-static/range {v19 .. v19}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p0 .. p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
@@ -437,7 +418,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v2
@@ -470,7 +450,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v2
@@ -503,14 +482,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/media/mtmvcore/MTMVTrack;->removeSpeedEffect(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -523,7 +500,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v2
@@ -542,7 +518,6 @@
 
     invoke-direct/range {v1 .. v13}, Lcom/meitu/media/mtmvcore/MTMVTrack;->setBezierParam(JDDDDD)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

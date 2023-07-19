@@ -25,10 +25,8 @@
 .method private constructor <init>(Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/n51;->a:Landroid/os/Bundle;
 
     return-void
@@ -37,7 +35,6 @@
 .method synthetic constructor <init>(Landroid/os/Bundle;Lcom/google/android/gms/internal/ads/q51;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/n51;-><init>(Landroid/os/Bundle;)V
 
     return-void
@@ -48,10 +45,8 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Landroid/os/Bundle;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/n51;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0}, Landroid/os/Bundle;->isEmpty()Z
@@ -60,7 +55,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/n51;->a:Landroid/os/Bundle;
 
     const-string v1, "installed_adapter_data"

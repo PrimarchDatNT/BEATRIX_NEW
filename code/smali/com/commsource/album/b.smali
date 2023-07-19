@@ -29,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
     return-void
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/album/b;->c:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -57,18 +55,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/album/b;->d:Lcom/commsource/album/b$b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1, p2}, Lcom/commsource/album/b$b;->b(ILcom/commsource/album/provider/BucketInfo;)V
 
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -81,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/album/b;
 
     invoke-direct {v1}, Lcom/commsource/album/b;-><init>()V
@@ -104,14 +98,12 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1, v0, p2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/album/b;->g:Landroid/view/View;
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
@@ -130,7 +122,6 @@
 
     iput-object p1, p0, Lcom/commsource/album/b;->f:Lcom/commsource/album/BucketViewModel;
 
-    .line 3
     new-instance p1, Lcom/commsource/widget/h1/e;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -141,7 +132,6 @@
 
     iput-object p1, p0, Lcom/commsource/album/b;->c:Lcom/commsource/widget/h1/e;
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/album/b;->g:Landroid/view/View;
 
     sget p2, Lcom/res/provider/ResID;->album_list:I
@@ -152,7 +142,6 @@
 
     check-cast p1, Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 5
     new-instance p2, Landroidx/recyclerview/widget/LinearLayoutManager;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -165,12 +154,10 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/album/b;->c:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/album/b;->c:Lcom/commsource/widget/h1/e;
 
     const-class p2, Lcom/commsource/album/provider/BucketInfo;
@@ -181,7 +168,6 @@
 
     invoke-virtual {p1, p2, v0}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/album/b;->f:Lcom/commsource/album/BucketViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/album/BucketViewModel;->y()Landroidx/lifecycle/MutableLiveData;
@@ -198,7 +184,6 @@
 
     invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/album/b;->g:Landroid/view/View;
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -15,7 +15,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -56,7 +55,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -104,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -139,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -174,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -209,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -244,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -279,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -314,7 +305,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -349,7 +339,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -384,7 +373,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -419,7 +407,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -454,7 +441,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -493,12 +479,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -532,7 +516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -567,14 +550,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     new-instance v3, Ljava/io/FileInputStream;
 
@@ -587,7 +568,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_3
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 3
     :try_start_1
     new-instance p0, Ljava/io/InputStreamReader;
 
@@ -596,7 +576,6 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_2
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 4
     :try_start_2
     new-instance v4, Ljava/io/BufferedReader;
 
@@ -605,7 +584,6 @@
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 5
     :goto_0
     :try_start_3
     invoke-virtual {v4}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -614,7 +592,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
@@ -678,29 +655,23 @@
 
     move-object p0, v4
 
-    .line 7
     :goto_2
     :try_start_4
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_3
 
-    .line 8
     :cond_0
     invoke-static {v4}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 9
     invoke-static {p0}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 10
     invoke-static {v3}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 11
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 12
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
@@ -722,17 +693,13 @@
 
     move-object v2, v4
 
-    .line 13
     :goto_3
     invoke-static {v2}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 14
     invoke-static {p0}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 15
     invoke-static {v3}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -745,7 +712,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -780,7 +746,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -815,7 +780,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -850,7 +814,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -897,7 +860,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -938,7 +900,6 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 1
     :pswitch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -946,7 +907,6 @@
 
     return-object p0
 
-    .line 2
     :pswitch_1
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->h(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -956,7 +916,6 @@
 
     return-object p0
 
-    .line 3
     :pswitch_2
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->i(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -966,7 +925,6 @@
 
     return-object p0
 
-    .line 4
     :pswitch_3
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->n(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -976,7 +934,6 @@
 
     return-object p0
 
-    .line 5
     :pswitch_4
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->a(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -986,7 +943,6 @@
 
     return-object p0
 
-    .line 6
     :pswitch_5
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->q(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -996,7 +952,6 @@
 
     return-object p0
 
-    .line 7
     :pswitch_6
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->b(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -1006,7 +961,6 @@
 
     return-object p0
 
-    .line 8
     :pswitch_7
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->p(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -1016,7 +970,6 @@
 
     return-object p0
 
-    .line 9
     :pswitch_8
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->e(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -1026,7 +979,6 @@
 
     return-object p0
 
-    .line 10
     :pswitch_9
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->f(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -1036,7 +988,6 @@
 
     return-object p0
 
-    .line 11
     :pswitch_a
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->k(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -1046,7 +997,6 @@
 
     return-object p0
 
-    .line 12
     :pswitch_b
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->g(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -1056,7 +1006,6 @@
 
     return-object p0
 
-    .line 13
     :pswitch_c
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->c(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -1117,14 +1066,12 @@
 
     if-eq p0, v1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, ""
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->t(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -1134,7 +1081,6 @@
 
     return-object p0
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->r(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -1144,7 +1090,6 @@
 
     return-object p0
 
-    .line 4
     :cond_2
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->l(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -1154,7 +1099,6 @@
 
     return-object p0
 
-    .line 5
     :cond_3
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->j(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -1164,7 +1108,6 @@
 
     return-object p0
 
-    .line 6
     :cond_4
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->d(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
@@ -1182,7 +1125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1209,7 +1151,6 @@
 
     invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -1224,7 +1165,6 @@
 
     move-result-object p0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -1237,7 +1177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1284,14 +1223,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     new-instance v3, Ljava/io/FileInputStream;
 
@@ -1304,7 +1241,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_2
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 3
     :try_start_1
     new-instance v4, Ljava/io/InputStreamReader;
 
@@ -1313,7 +1249,6 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 4
     :try_start_2
     new-instance v5, Ljava/io/BufferedReader;
 
@@ -1322,7 +1257,6 @@
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_3
     .catchall {:try_start_2 .. :try_end_2} :catchall_3
 
-    .line 5
     :goto_0
     :try_start_3
     invoke-virtual {v5}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -1331,7 +1265,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
@@ -1339,7 +1272,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-static {v5}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
@@ -1383,7 +1315,6 @@
 
     move-object v4, v3
 
-    .line 8
     :catch_3
     :goto_1
     :try_start_4
@@ -1401,22 +1332,17 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_3
 
-    .line 9
     invoke-static {v2}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 10
     :goto_2
     invoke-static {v4}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 11
     invoke-static {v3}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 12
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 13
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -1431,18 +1357,15 @@
 
     if-eqz v3, :cond_1
 
-    .line 14
     :try_start_5
     new-instance v3, Lorg/json/JSONObject;
 
     invoke-direct {v3, v1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 15
     invoke-virtual {v3, v2}, Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
 
     move-result v1
 
-    .line 16
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object p0
@@ -1460,10 +1383,8 @@
     :catch_4
     move-exception p0
 
-    .line 17
     invoke-virtual {p0}, Lorg/json/JSONException;->printStackTrace()V
 
-    .line 18
     :cond_1
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1473,17 +1394,13 @@
     :catchall_3
     move-exception p0
 
-    .line 19
     :goto_4
     invoke-static {v2}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 20
     invoke-static {v4}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 21
     invoke-static {v3}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p0

@@ -85,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/flow/internal/g;->b:Lcotlinx/coroutines/flow/internal/g;
 
     sget-object v1, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
@@ -98,7 +97,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -131,21 +129,17 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p2, Lcotlinx/coroutines/flow/internal/c;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p2, Lcotlinx/coroutines/flow/internal/c;
 
     invoke-direct {p0, p2, p3}, Lcotlinx/coroutines/flow/internal/SafeCollector;->exceptionTransparencyViolated(Lcotlinx/coroutines/flow/internal/c;Ljava/lang/Object;)V
 
-    .line 3
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/flow/internal/SafeCollector_commonKt;->a(Lcotlinx/coroutines/flow/internal/SafeCollector;Lcotlin/coroutines/CoroutineContext;)V
 
-    .line 4
     iput-object p1, p0, Lcotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lcotlin/coroutines/CoroutineContext;
 
     return-void
@@ -164,24 +158,19 @@
         }
     .end annotation
 
-    .line 5
     invoke-interface {p1}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
 
-    .line 6
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lcotlin/coroutines/CoroutineContext;
 
     if-eq v1, v0, :cond_0
 
-    .line 7
     invoke-direct {p0, v0, v1, p2}, Lcotlinx/coroutines/flow/internal/SafeCollector;->checkContext(Lcotlin/coroutines/CoroutineContext;Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)V
 
-    .line 8
     :cond_0
     iput-object p1, p0, Lcotlinx/coroutines/flow/internal/SafeCollector;->completion:Lcotlin/coroutines/c;
 
-    .line 9
     invoke-static {}, Lcotlinx/coroutines/flow/internal/SafeCollectorKt;->a()Lcotlin/jvm/u/q;
 
     move-result-object p1
@@ -209,7 +198,6 @@
 .method private final exceptionTransparencyViolated(Lcotlinx/coroutines/flow/internal/c;Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -218,7 +206,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     iget-object p1, p1, Lcotlinx/coroutines/flow/internal/c;->b:Ljava/lang/Throwable;
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
@@ -237,12 +224,10 @@
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1}, Lcotlin/text/m;->p(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 4
     new-instance p2, Ljava/lang/IllegalStateException;
 
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -276,7 +261,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p2, p1}, Lcotlinx/coroutines/flow/internal/SafeCollector;->emit(Lcotlin/coroutines/c;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -284,7 +268,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -310,14 +293,12 @@
     :catchall_0
     move-exception p1
 
-    .line 3
     new-instance p2, Lcotlinx/coroutines/flow/internal/c;
 
     invoke-direct {p2, p1}, Lcotlinx/coroutines/flow/internal/c;-><init>(Ljava/lang/Throwable;)V
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lcotlin/coroutines/CoroutineContext;
 
-    .line 4
     throw p1
 .end method
 
@@ -326,7 +307,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/SafeCollector;->completion:Lcotlin/coroutines/c;
 
     if-eqz v0, :cond_0
@@ -355,7 +335,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
 
     move-result-object v0
@@ -368,7 +347,6 @@
 
     iput-object v1, p0, Lcotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lcotlin/coroutines/CoroutineContext;
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/SafeCollector;->completion:Lcotlin/coroutines/c;
 
@@ -376,7 +354,6 @@
 
     invoke-interface {v0, p1}, Lcotlin/coroutines/c;->resumeWith(Ljava/lang/Object;)V
 
-    .line 3
     :cond_1
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
@@ -388,7 +365,6 @@
 .method public releaseIntercepted()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lcotlin/coroutines/jvm/internal/ContinuationImpl;->releaseIntercepted()V
 
     return-void

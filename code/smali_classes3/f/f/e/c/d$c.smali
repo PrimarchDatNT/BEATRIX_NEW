@@ -36,10 +36,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lf/f/e/c/d;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/s1;->f()Ljava/util/concurrent/ConcurrentLinkedQueue;
 
     move-result-object v0
@@ -52,7 +50,6 @@
 .method synthetic constructor <init>(Lf/f/e/c/d$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lf/f/e/c/d$c;-><init>()V
 
     return-void
@@ -72,10 +69,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     :goto_0
     invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
 
@@ -83,7 +78,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lf/f/e/c/d$c;->a:Ljava/util/concurrent/ConcurrentLinkedQueue;
 
     new-instance v1, Lf/f/e/c/d$c$a;
@@ -102,7 +96,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     :goto_1
     iget-object p1, p0, Lf/f/e/c/d$c;->a:Ljava/util/concurrent/ConcurrentLinkedQueue;
@@ -115,7 +108,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-static {p1}, Lf/f/e/c/d$c$a;->b(Lf/f/e/c/d$c$a;)Lf/f/e/c/g;
 
     move-result-object p2

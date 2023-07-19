@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/graph/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/i$a;->a:Lcom/google/common/graph/i;
 
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/i$a;->a:Lcom/google/common/graph/i;
 
     invoke-static {v0}, Lcom/google/common/graph/i;->j(Lcom/google/common/graph/i;)Ljava/util/List;
@@ -60,12 +58,10 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/util/HashSet;
 
     invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
 
-    .line 3
     new-instance v2, Lcom/google/common/graph/i$a$a;
 
     invoke-direct {v2, p0, v0, v1}, Lcom/google/common/graph/i$a$a;-><init>(Lcom/google/common/graph/i$a;Ljava/util/Iterator;Ljava/util/Set;)V
@@ -80,7 +76,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/i$a;->a:Lcom/google/common/graph/i;
 
     invoke-static {v0}, Lcom/google/common/graph/i;->k(Lcom/google/common/graph/i;)Ljava/util/Map;
@@ -97,7 +92,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/i$a;->b()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -108,7 +102,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/i$a;->a:Lcom/google/common/graph/i;
 
     invoke-static {v0}, Lcom/google/common/graph/i;->k(Lcom/google/common/graph/i;)Ljava/util/Map;

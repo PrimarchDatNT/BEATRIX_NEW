@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/j0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/j0$c;->a:Lcom/commsource/autocamera/j0;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -39,17 +38,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/autocamera/j0$c;->a:Lcom/commsource/autocamera/j0;
 
     const/4 v1, 0x0
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/j0;->d(Lcom/commsource/autocamera/j0;Z)Z
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/autocamera/j0$c;->a:Lcom/commsource/autocamera/j0;
 
     invoke-static {p1}, Lcom/commsource/autocamera/j0;->a(Lcom/commsource/autocamera/j0;)Lcom/commsource/beautyplus/f0/g;
@@ -60,7 +56,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/j0$c;->a:Lcom/commsource/autocamera/j0;
 
     invoke-static {p1}, Lcom/commsource/autocamera/j0;->a(Lcom/commsource/autocamera/j0;)Lcom/commsource/beautyplus/f0/g;
@@ -87,7 +82,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

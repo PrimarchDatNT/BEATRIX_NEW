@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
@@ -77,14 +75,12 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     new-instance p0, Lio/grpc/g1$c;
 
     invoke-direct {p0, p1, p2}, Lio/grpc/g1$c;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 

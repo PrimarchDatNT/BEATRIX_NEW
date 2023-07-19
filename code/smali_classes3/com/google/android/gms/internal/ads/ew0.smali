@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/bw0;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ew0;->b:Lcom/google/android/gms/internal/ads/bw0;
 
     iput-boolean p2, p0, Lcom/google/android/gms/internal/ads/ew0;->a:Z
@@ -44,7 +43,6 @@
 
     const-string p1, "Failed to get signals bundle"
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
 
     return-void
@@ -53,31 +51,26 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 7
 
-    .line 1
     check-cast p1, Landroid/os/Bundle;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ew0;->b:Lcom/google/android/gms/internal/ads/bw0;
 
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/bw0;->b(Lcom/google/android/gms/internal/ads/bw0;Landroid/os/Bundle;)Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ew0;->b:Lcom/google/android/gms/internal/ads/bw0;
 
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/bw0;->e(Lcom/google/android/gms/internal/ads/bw0;Landroid/os/Bundle;)Lcom/google/android/gms/internal/ads/zzty$zzo$zzc;
 
     move-result-object v6
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ew0;->b:Lcom/google/android/gms/internal/ads/bw0;
 
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/bw0;->h(Lcom/google/android/gms/internal/ads/bw0;Landroid/os/Bundle;)Lcom/google/android/gms/internal/ads/zzty$zzm;
 
     move-result-object v5
 
-    .line 5
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ew0;->b:Lcom/google/android/gms/internal/ads/bw0;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/bw0;->a(Lcom/google/android/gms/internal/ads/bw0;)Lcom/google/android/gms/internal/ads/rv0;

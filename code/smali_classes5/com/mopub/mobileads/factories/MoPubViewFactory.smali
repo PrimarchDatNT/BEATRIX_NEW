@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/factories/MoPubViewFactory;
 
     invoke-direct {v0}, Lcom/mopub/mobileads/factories/MoPubViewFactory;-><init>()V
@@ -24,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,7 +31,6 @@
 .method public static create(Landroid/content/Context;)Lcom/mopub/mobileads/MoPubView;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/factories/MoPubViewFactory;->instance:Lcom/mopub/mobileads/factories/MoPubViewFactory;
 
     invoke-virtual {v0, p0}, Lcom/mopub/mobileads/factories/MoPubViewFactory;->internalCreate(Landroid/content/Context;)Lcom/mopub/mobileads/MoPubView;
@@ -51,7 +48,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sput-object p0, Lcom/mopub/mobileads/factories/MoPubViewFactory;->instance:Lcom/mopub/mobileads/factories/MoPubViewFactory;
 
     return-void
@@ -62,7 +58,6 @@
 .method protected internalCreate(Landroid/content/Context;)Lcom/mopub/mobileads/MoPubView;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/MoPubView;
 
     invoke-direct {v0, p1}, Lcom/mopub/mobileads/MoPubView;-><init>(Landroid/content/Context;)V

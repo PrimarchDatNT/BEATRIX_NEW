@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$b;->a:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/SegmentFragment;->z1(Lcom/commsource/studio/function/SegmentFragment;)Lcom/commsource/studio/function/c;
@@ -75,14 +74,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/studio/function/SegmentFragment$b$a;
 
     invoke-direct {v2, p0, v1}, Lcom/commsource/studio/function/SegmentFragment$b$a;-><init>(Lcom/commsource/studio/function/SegmentFragment$b;Landroid/graphics/Bitmap;)V
 
     invoke-static {v2}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

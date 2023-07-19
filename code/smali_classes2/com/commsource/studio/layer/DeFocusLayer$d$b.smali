@@ -25,7 +25,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer$d$b;->a:Lcom/commsource/studio/layer/DeFocusLayer$d;
 
-    .line 1
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
@@ -44,14 +43,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/DeFocusLayer$d$b;->a:Lcom/commsource/studio/layer/DeFocusLayer$d;
 
     iget-object v0, v0, Lcom/commsource/studio/layer/DeFocusLayer$d;->b:Lcotlin/jvm/u/a;
 
     invoke-interface {v0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

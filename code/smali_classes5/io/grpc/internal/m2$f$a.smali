@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/internal/m2$f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/m2$f$a;->a:Lio/grpc/internal/m2$f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

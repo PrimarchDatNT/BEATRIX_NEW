@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method synthetic constructor <init>(Lcom/spotxchange/v4/SpotXAdPlayer$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/spotxchange/v4/SpotXAdPlayer$c;-><init>()V
 
     return-void
@@ -40,7 +38,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object p1, p1, Lcom/spotxchange/v4/SpotXAdPlayer;->a:Lf/r/c/b;
 
     return-object p1
@@ -51,7 +48,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object p1, p1, Lcom/spotxchange/v4/SpotXAdPlayer;->b:Lf/r/c/d/e;
 
     return-object p1
@@ -60,7 +56,6 @@
 .method public c(Lcom/spotxchange/v4/SpotXAdPlayer;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lcom/spotxchange/v4/SpotXAdPlayer;->g()V
 
     return-void
@@ -69,7 +64,6 @@
 .method public d(Lcom/spotxchange/v4/SpotXAdPlayer;Z)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2}, Lcom/spotxchange/v4/SpotXAdPlayer;->i(Z)V
 
     return-void
@@ -78,7 +72,6 @@
 .method public e(Lcom/spotxchange/v4/SpotXAdPlayer;Z)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2}, Lcom/spotxchange/v4/SpotXAdPlayer;->l(Z)V
 
     return-void
@@ -87,7 +80,6 @@
 .method public f(Lcom/spotxchange/v4/SpotXAdPlayer;Landroid/app/Activity;)V
     .locals 0
 
-    .line 1
     iput-object p2, p1, Lcom/spotxchange/v4/SpotXAdPlayer;->d:Landroid/app/Activity;
 
     return-void
@@ -96,7 +88,6 @@
 .method public g(Lcom/spotxchange/v4/SpotXAdPlayer;Z)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2}, Lcom/spotxchange/v4/SpotXAdPlayer;->q(Z)V
 
     return-void

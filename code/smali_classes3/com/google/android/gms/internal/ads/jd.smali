@@ -7,7 +7,6 @@
 .method public static a(Lcom/google/ads/AdRequest$ErrorCode;)I
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/md;->b:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -47,7 +46,6 @@
 .method public static b(Lcom/google/android/gms/internal/ads/zzve;Z)Lcom/google/ads/mediation/b;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzve;->f:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -66,7 +64,6 @@
     :goto_0
     move-object v4, v0
 
-    .line 2
     new-instance v0, Lcom/google/ads/mediation/b;
 
     new-instance v2, Ljava/util/Date;
@@ -85,25 +82,21 @@
 
     if-eq v1, v3, :cond_1
 
-    .line 3
     sget-object v1, Lcom/google/ads/AdRequest$Gender;->UNKNOWN:Lcom/google/ads/AdRequest$Gender;
 
     goto :goto_1
 
-    .line 4
     :cond_1
     sget-object v1, Lcom/google/ads/AdRequest$Gender;->FEMALE:Lcom/google/ads/AdRequest$Gender;
 
     goto :goto_1
 
-    .line 5
     :cond_2
     sget-object v1, Lcom/google/ads/AdRequest$Gender;->MALE:Lcom/google/ads/AdRequest$Gender;
 
     :goto_1
     move-object v3, v1
 
-    .line 6
     iget-object v6, p0, Lcom/google/android/gms/internal/ads/zzve;->M:Landroid/location/Location;
 
     move-object v1, v0

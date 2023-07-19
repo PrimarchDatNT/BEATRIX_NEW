@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/Maps$t$a$a;Ljava/util/Map$Entry;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Maps$t$a$a$a;->b:Lcom/google/common/collect/Maps$t$a$a;
 
     iput-object p2, p0, Lcom/google/common/collect/Maps$t$a$a$a;->a:Ljava/util/Map$Entry;
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$t$a$a$a;->a:Ljava/util/Map$Entry;
 
     return-object v0
@@ -62,7 +60,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$t$a$a$a;->J0()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -78,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$t$a$a$a;->b:Lcom/google/common/collect/Maps$t$a$a;
 
     iget-object v0, v0, Lcom/google/common/collect/Maps$t$a$a;->b:Lcom/google/common/collect/Maps$t$a;
@@ -95,7 +91,6 @@
 
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     invoke-super {p0, p1}, Lcom/google/common/collect/p0;->setValue(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

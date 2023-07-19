@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -16,7 +15,6 @@
 .method public static hasScreenVisibilityChanged(II)Z
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/util/Visibility;->isScreenVisible(I)Z
 
     move-result p0

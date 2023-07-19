@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum$a;-><init>()V
 
     return-void
@@ -46,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->STYLE1:Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;
 
     invoke-virtual {v1}, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->getId()I
@@ -57,7 +54,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object v1, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->STYLE2:Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;
 
@@ -69,7 +65,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object v1, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->STYLE3:Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;
 
@@ -81,11 +76,9 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     sget-object v1, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->STYLE4:Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -101,12 +94,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum$a;->a(I)Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->getOriParams()[F
 
     move-result-object v1
@@ -118,12 +109,10 @@
     :goto_0
     if-ge v2, v1, :cond_1
 
-    .line 3
     rem-int/lit8 v3, v2, 0x2
 
     if-nez v3, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->getParams()[F
 
     move-result-object v3
@@ -140,7 +129,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->getParams()[F
 
@@ -161,7 +149,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->getParams()[F
 

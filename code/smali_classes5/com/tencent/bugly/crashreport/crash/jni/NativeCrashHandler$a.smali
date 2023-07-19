@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler$a;->a:Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final run()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler$a;->a:Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;
 
     invoke-static {v0}, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;->a(Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;)Landroid/content/Context;
@@ -61,12 +59,10 @@
 
     const-string v1, "[Native] Failed to lock file for handling native crash record."
 
-    .line 2
     invoke-static {v1, v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;->b()Z
 
@@ -74,7 +70,6 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler$a;->a:Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;
 
     const/16 v3, 0x3e7
@@ -83,7 +78,6 @@
 
     invoke-static {v0, v3, v4}, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;->a(Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;ILjava/lang/String;)Z
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler$a;->a:Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;
 
@@ -113,10 +107,8 @@
 
     const-string v4, "[Native] Get crash from native record."
 
-    .line 6
     invoke-static {v4, v3}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 7
     iget-object v3, p0, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler$a;->a:Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;
 
     invoke-static {v3}, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;->d(Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;)Lcom/tencent/bugly/crashreport/crash/b;
@@ -129,7 +121,6 @@
 
     if-nez v3, :cond_2
 
-    .line 8
     iget-object v3, p0, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler$a;->a:Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;
 
     invoke-static {v3}, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;->d(Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;)Lcom/tencent/bugly/crashreport/crash/b;
@@ -140,7 +131,6 @@
 
     invoke-virtual {v3, v0, v4, v5, v2}, Lcom/tencent/bugly/crashreport/crash/b;->a(Lcom/tencent/bugly/crashreport/crash/CrashDetailBean;JZ)V
 
-    .line 9
     :cond_2
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler$a;->a:Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;
 
@@ -150,13 +140,11 @@
 
     invoke-static {v2, v0}, Lcom/tencent/bugly/crashreport/crash/jni/b;->a(ZLjava/lang/String;)V
 
-    .line 10
     :cond_3
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler$a;->a:Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;
 
     invoke-virtual {v0}, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;->a()V
 
-    .line 11
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler$a;->a:Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;
 
     invoke-static {v0}, Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;->a(Lcom/tencent/bugly/crashreport/crash/jni/NativeCrashHandler;)Landroid/content/Context;

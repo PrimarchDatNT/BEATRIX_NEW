@@ -40,10 +40,8 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/meitu/library/n/a/o/e;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/camera/render/c;-><init>(Landroid/content/Context;Lcom/meitu/library/n/a/o/e;Z)V
 
-    .line 2
     new-instance p1, Lcom/commsource/camera/montage/l0$b;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/montage/l0$b;-><init>(Lcom/commsource/camera/montage/l0;)V
@@ -52,22 +50,16 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput p1, p0, Lcom/commsource/camera/montage/l0;->O:I
 
-    .line 4
     iput p1, p0, Lcom/commsource/camera/montage/l0;->P:I
 
-    .line 5
     iput p1, p0, Lcom/commsource/camera/montage/l0;->Q:I
 
-    .line 6
     iput p1, p0, Lcom/commsource/camera/montage/l0;->R:I
 
-    .line 7
     iput-boolean p1, p0, Lcom/commsource/camera/montage/l0;->S:Z
 
-    .line 8
     iput-boolean p1, p0, Lcom/commsource/camera/montage/l0;->T:Z
 
     return-void
@@ -80,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/montage/l0;->Q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -95,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/montage/l0;->Q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/montage/l0;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -125,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/montage/l0;->R:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/montage/l0;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/montage/l0;->R:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -170,7 +156,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/montage/l0;->S:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -185,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/montage/l0;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -200,7 +184,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/montage/l0;->V:Lcom/meitu/library/n/a/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -215,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/l0;->V:Lcom/meitu/library/n/a/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -230,7 +212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/montage/l0;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -249,13 +230,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/camera/montage/l0;->T:Z
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/camera/montage/l0;->U:Lcom/commsource/camera/montage/l0$a;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -268,13 +246,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/camera/render/c;->O()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/montage/l0;->X1()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -287,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/l0;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -302,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/l0;->P:I
 
     const/4 v2, 0x1
@@ -315,13 +288,10 @@
 
     aput v1, v4, v3
 
-    .line 2
     invoke-static {v2, v4, v3}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
-    .line 3
     iput v3, p0, Lcom/commsource/camera/montage/l0;->P:I
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/commsource/camera/montage/l0;->O:I
 
@@ -331,29 +301,22 @@
 
     aput v1, v4, v3
 
-    .line 5
     invoke-static {v2, v4, v3}, Landroid/opengl/GLES20;->glDeleteFramebuffers(I[II)V
 
-    .line 6
     iput v3, p0, Lcom/commsource/camera/montage/l0;->O:I
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/montage/l0;->V:Lcom/meitu/library/n/a/i;
 
     if-eqz v1, :cond_2
 
-    .line 8
     invoke-virtual {v1}, Lcom/meitu/library/n/a/i;->b()V
 
-    .line 9
     :cond_2
     iput v3, p0, Lcom/commsource/camera/montage/l0;->Q:I
 
-    .line 10
     iput v3, p0, Lcom/commsource/camera/montage/l0;->R:I
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -368,10 +331,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/camera/montage/l0;->S:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -384,7 +345,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/l0;->N:Lcom/commsource/camera/montage/l0$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

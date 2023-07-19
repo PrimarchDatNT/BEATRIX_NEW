@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/appsflyer/Foreground$3;Landroid/app/Activity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/Foreground$3$3;->$$a:Lcom/appsflyer/Foreground$3;
 
     iput-object p2, p0, Lcom/appsflyer/Foreground$3$3;->AFDateFormat:Landroid/app/Activity;
@@ -42,7 +41,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/Foreground$3$3;->$$a:Lcom/appsflyer/Foreground$3;
 
     iget-boolean v1, v0, Lcom/appsflyer/Foreground$3;->valueOf:Z
@@ -51,7 +49,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, v0, Lcom/appsflyer/Foreground$3;->$$a:Lcom/appsflyer/Foreground$Listener;
 
@@ -68,10 +65,8 @@
 
     const-string v1, "Listener thrown an exception: "
 
-    .line 3
     invoke-static {v1, v0, v2}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;Z)V
 
-    .line 4
     :cond_0
     :goto_0
     iget-object v0, p0, Lcom/appsflyer/Foreground$3$3;->$$a:Lcom/appsflyer/Foreground$3;
@@ -80,7 +75,6 @@
 
     iput-boolean v1, v0, Lcom/appsflyer/Foreground$3;->$$b:Z
 
-    .line 5
     iput-boolean v2, v0, Lcom/appsflyer/Foreground$3;->valueOf:Z
 
     return-void

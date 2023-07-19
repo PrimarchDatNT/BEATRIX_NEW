@@ -26,10 +26,8 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/l40;->a:Lcom/google/android/gms/internal/ads/gq1;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/zzcmi;
 
     sget v2, Lcom/google/android/gms/internal/ads/bi1;->c:I

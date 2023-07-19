@@ -80,14 +80,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->e:Lcom/commsource/studio/effect/c;
 
     iput-object p2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->f:Lcom/commsource/studio/function/BaseSubFragment;
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/d;
 
     invoke-virtual {p1}, Lcom/commsource/studio/effect/c;->D()Lcom/commsource/studio/sub/SubModuleEnum;
@@ -104,14 +102,12 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c:Lcom/commsource/studio/d;
 
-    .line 3
     invoke-virtual {p2}, Landroidx/fragment/app/Fragment;->isAdded()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 4
     new-instance p1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {p1, p2}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -128,7 +124,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     new-instance p2, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;-><init>(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;)V
@@ -146,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->i(Lcom/commsource/studio/e;)Z
 
     move-result p0
@@ -165,7 +159,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->e:Lcom/commsource/studio/effect/c;
 
     invoke-virtual {p1}, Lcom/commsource/studio/effect/c;->x()Landroid/util/SparseIntArray;
@@ -178,7 +171,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/e;->i()Z
 
@@ -211,7 +203,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->e:Lcom/commsource/studio/effect/c;
 
@@ -223,7 +214,6 @@
 
     move-result p1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -252,7 +242,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->j(ZZ)V
 
@@ -274,7 +263,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->m(Lcotlin/jvm/u/a;)Z
 
@@ -304,7 +292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->f:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -321,7 +308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->e:Lcom/commsource/studio/effect/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -338,7 +324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c:Lcom/commsource/studio/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -355,7 +340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->b:Lcom/commsource/studio/function/automanual/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -372,7 +356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->a:Lcom/commsource/studio/function/automanual/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -389,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->d:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -404,7 +386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c:Lcom/commsource/studio/d;
 
     sget-object v2, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$hasManualEffect$1;->INSTANCE:Lcom/commsource/studio/function/automanual/AutoManualStackLogic$hasManualEffect$1;
@@ -429,7 +410,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c:Lcom/commsource/studio/d;
 
     invoke-virtual {p1}, Lcom/commsource/studio/e0;->j()Ljava/lang/Object;
@@ -460,25 +440,21 @@
     :goto_1
     if-eqz p1, :cond_2
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->e:Lcom/commsource/studio/effect/c;
 
     invoke-virtual {p1, v0}, Lcom/commsource/studio/effect/c;->L(Z)V
 
-    .line 4
     new-instance p1, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2;-><init>(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;)V
 
     invoke-static {p1}, Lcom/commsource/util/g2;->g(Ljava/lang/Runnable;)V
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -491,7 +467,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->e:Lcom/commsource/studio/effect/c;
 
     invoke-virtual {v1}, Lcom/commsource/studio/effect/c;->B()Z
@@ -500,14 +475,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->e:Lcom/commsource/studio/effect/c;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/effect/c;->L(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c:Lcom/commsource/studio/d;
 
     invoke-virtual {v1}, Lcom/commsource/studio/e0;->j()Ljava/lang/Object;
@@ -516,7 +489,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->f:Lcom/commsource/studio/function/BaseSubFragment;
 
     new-instance v2, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToAutoMode$1;
@@ -527,7 +499,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c:Lcom/commsource/studio/d;
 
@@ -547,7 +518,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->f:Lcom/commsource/studio/function/BaseSubFragment;
 
     new-instance v2, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToAutoMode$2;
@@ -558,13 +528,11 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->e:Lcom/commsource/studio/effect/c;
 
     invoke-virtual {v1}, Lcom/commsource/studio/effect/c;->u()V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->f:Lcom/commsource/studio/function/BaseSubFragment;
 
     new-instance v2, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToAutoMode$3;
@@ -575,7 +543,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->f:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -591,7 +558,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -617,7 +583,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c:Lcom/commsource/studio/d;
 
     invoke-virtual {v1}, Lcom/commsource/studio/e0;->j()Ljava/lang/Object;
@@ -658,12 +623,10 @@
     :goto_0
     if-eqz v1, :cond_4
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->e:Lcom/commsource/studio/effect/c;
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/effect/c;->M(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c:Lcom/commsource/studio/d;
 
     invoke-virtual {v1}, Lcom/commsource/studio/e0;->j()Ljava/lang/Object;
@@ -678,14 +641,12 @@
 
     if-eqz v1, :cond_3
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->d:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     if-eqz v1, :cond_3
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/component/UndoRedoComponent$c;->H(ZZ)V
 
-    .line 5
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->f:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -695,12 +656,10 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 7
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -722,7 +681,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c:Lcom/commsource/studio/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -743,14 +701,11 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1, p0}, Lcom/commsource/studio/function/automanual/a;->f(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;)V
 
-    .line 2
     :cond_0
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->b:Lcom/commsource/studio/function/automanual/a;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -769,14 +724,11 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1, p0}, Lcom/commsource/studio/function/automanual/d;->g(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;)V
 
-    .line 2
     :cond_0
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->a:Lcom/commsource/studio/function/automanual/d;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -793,7 +745,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->d:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

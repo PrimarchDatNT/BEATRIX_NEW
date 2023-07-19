@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -18,23 +17,19 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     :goto_0
     instance-of v0, p0, Landroid/content/ContextWrapper;
 
     if-eqz v0, :cond_1
 
-    .line 2
     instance-of v0, p0, Landroid/app/Activity;
 
     if-eqz v0, :cond_0
 
-    .line 3
     check-cast p0, Landroid/app/Activity;
 
     return-object p0
 
-    .line 4
     :cond_0
     check-cast p0, Landroid/content/ContextWrapper;
 

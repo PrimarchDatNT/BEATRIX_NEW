@@ -34,13 +34,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/commsource/beautyplus/f0/hg;->c:Landroidx/databinding/ViewDataBinding$IncludedLayouts;
 
-    .line 2
     sput-object v1, Lcom/commsource/beautyplus/f0/hg;->d:Landroid/util/SparseIntArray;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -57,7 +54,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/commsource/beautyplus/f0/hg;->c:Landroidx/databinding/ViewDataBinding$IncludedLayouts;
 
     sget-object v1, Lcom/commsource/beautyplus/f0/hg;->d:Landroid/util/SparseIntArray;
@@ -78,15 +74,12 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/beautyplus/f0/gg;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
     const-wide/16 v1, -0x1
 
-    .line 3
     iput-wide v1, p0, Lcom/commsource/beautyplus/f0/hg;->b:J
 
-    .line 4
     aget-object p1, p3, v0
 
     check-cast p1, Landroid/widget/RelativeLayout;
@@ -95,13 +88,10 @@
 
     const/4 p3, 0x0
 
-    .line 5
     invoke-virtual {p1, p3}, Landroid/widget/RelativeLayout;->setTag(Ljava/lang/Object;)V
 
-    .line 6
     invoke-virtual {p0, p2}, Landroidx/databinding/ViewDataBinding;->setRootTag(Landroid/view/View;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/beautyplus/f0/hg;->invalidateAll()V
 
     return-void
@@ -116,21 +106,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
     const-wide/16 v1, 0x0
 
-    .line 2
     :try_start_0
     iput-wide v1, p0, Lcom/commsource/beautyplus/f0/hg;->b:J
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -138,7 +124,6 @@
     :catchall_0
     move-exception v1
 
-    .line 5
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -156,10 +141,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-wide v1, p0, Lcom/commsource/beautyplus/f0/hg;->b:J
 
@@ -171,7 +154,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -180,7 +162,6 @@
 
     return v1
 
-    .line 4
     :cond_0
     :try_start_1
     monitor-exit p0
@@ -189,7 +170,6 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -197,7 +177,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     :try_start_2
     monitor-exit p0
     :try_end_2
@@ -215,24 +194,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
     const-wide/16 v1, 0x1
 
-    .line 2
     :try_start_0
     iput-wide v1, p0, Lcom/commsource/beautyplus/f0/hg;->b:J
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-virtual {p0}, Landroidx/databinding/ViewDataBinding;->requestRebind()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -240,7 +214,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -258,7 +231,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -277,7 +249,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

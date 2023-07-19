@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/MaskFragment$d;->N:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-direct {p0, p2}, Lcom/commsource/studio/layer/d;-><init>(Landroid/content/Context;)V
@@ -55,10 +54,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->Z(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$d;->N:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
@@ -73,7 +70,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/MaskFragment$d;->N:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
@@ -84,7 +80,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/MaskCompositionView;->N()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -99,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/view/View;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->A()Landroid/content/Context;

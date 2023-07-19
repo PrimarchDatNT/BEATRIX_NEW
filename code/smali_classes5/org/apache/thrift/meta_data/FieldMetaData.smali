@@ -37,7 +37,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -50,16 +49,12 @@
 .method public constructor <init>(Ljava/lang/String;BLorg/apache/thrift/meta_data/FieldValueMetaData;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/meta_data/FieldMetaData;->fieldName:Ljava/lang/String;
 
-    .line 3
     iput-byte p2, p0, Lorg/apache/thrift/meta_data/FieldMetaData;->requirementType:B
 
-    .line 4
     iput-object p3, p0, Lorg/apache/thrift/meta_data/FieldMetaData;->valueMetaData:Lorg/apache/thrift/meta_data/FieldValueMetaData;
 
     return-void
@@ -86,7 +81,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lorg/apache/thrift/meta_data/FieldMetaData;->structMap:Ljava/util/Map;
 
@@ -94,7 +88,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit v0
 
     return-void
@@ -128,7 +121,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lorg/apache/thrift/meta_data/FieldMetaData;->structMap:Ljava/util/Map;
 
@@ -140,7 +132,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     :try_start_1
     invoke-virtual {p0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
     :try_end_1
@@ -153,7 +144,6 @@
     :catch_0
     move-exception v1
 
-    .line 3
     :try_start_2
     new-instance v2, Ljava/lang/RuntimeException;
 
@@ -192,7 +182,6 @@
     :catch_1
     move-exception v1
 
-    .line 4
     new-instance v2, Ljava/lang/RuntimeException;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -227,7 +216,6 @@
 
     throw v2
 
-    .line 5
     :cond_0
     :goto_0
     sget-object v1, Lorg/apache/thrift/meta_data/FieldMetaData;->structMap:Ljava/util/Map;

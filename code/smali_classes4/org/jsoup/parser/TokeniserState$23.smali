@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lorg/jsoup/parser/TokeniserState;-><init>(Ljava/lang/String;ILorg/jsoup/parser/TokeniserState$1;)V
 
     return-void
@@ -31,24 +30,20 @@
 .method read(Lorg/jsoup/parser/h;Lorg/jsoup/parser/a;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p2}, Lorg/jsoup/parser/a;->t()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1, p0}, Lorg/jsoup/parser/h;->s(Lorg/jsoup/parser/TokeniserState;)V
 
-    .line 3
     sget-object p2, Lorg/jsoup/parser/TokeniserState;->Data:Lorg/jsoup/parser/TokeniserState;
 
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->y(Lorg/jsoup/parser/TokeniserState;)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p2}, Lorg/jsoup/parser/a;->e()C
 
@@ -64,17 +59,14 @@
 
     if-eq p2, v0, :cond_1
 
-    .line 5
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->k(C)V
 
-    .line 6
     sget-object p2, Lorg/jsoup/parser/TokeniserState;->ScriptDataEscaped:Lorg/jsoup/parser/TokeniserState;
 
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->y(Lorg/jsoup/parser/TokeniserState;)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     sget-object p2, Lorg/jsoup/parser/TokeniserState;->ScriptDataEscapedLessthanSign:Lorg/jsoup/parser/TokeniserState;
 
@@ -82,27 +74,22 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->k(C)V
 
-    .line 9
     sget-object p2, Lorg/jsoup/parser/TokeniserState;->ScriptDataEscapedDashDash:Lorg/jsoup/parser/TokeniserState;
 
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->y(Lorg/jsoup/parser/TokeniserState;)V
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-virtual {p1, p0}, Lorg/jsoup/parser/h;->u(Lorg/jsoup/parser/TokeniserState;)V
 
     const p2, 0xfffd
 
-    .line 11
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->k(C)V
 
-    .line 12
     sget-object p2, Lorg/jsoup/parser/TokeniserState;->ScriptDataEscaped:Lorg/jsoup/parser/TokeniserState;
 
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->y(Lorg/jsoup/parser/TokeniserState;)V

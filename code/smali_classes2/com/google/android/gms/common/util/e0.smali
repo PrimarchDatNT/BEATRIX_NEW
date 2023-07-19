@@ -29,56 +29,48 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Landroid/os/Process;->myUid()I
 
     move-result v0
 
     sput v0, Lcom/google/android/gms/common/util/e0;->a:I
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/common/util/e0;->n()Ljava/lang/reflect/Method;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/common/util/e0;->b:Ljava/lang/reflect/Method;
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/common/util/e0;->o()Ljava/lang/reflect/Method;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/common/util/e0;->c:Ljava/lang/reflect/Method;
 
-    .line 4
     invoke-static {}, Lcom/google/android/gms/common/util/e0;->p()Ljava/lang/reflect/Method;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/common/util/e0;->d:Ljava/lang/reflect/Method;
 
-    .line 5
     invoke-static {}, Lcom/google/android/gms/common/util/e0;->i()Ljava/lang/reflect/Method;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/common/util/e0;->e:Ljava/lang/reflect/Method;
 
-    .line 6
     invoke-static {}, Lcom/google/android/gms/common/util/e0;->j()Ljava/lang/reflect/Method;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/common/util/e0;->f:Ljava/lang/reflect/Method;
 
-    .line 7
     invoke-static {}, Lcom/google/android/gms/common/util/e0;->k()Ljava/lang/reflect/Method;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/common/util/e0;->g:Ljava/lang/reflect/Method;
 
-    .line 8
     invoke-static {}, Lcom/google/android/gms/common/util/e0;->l()Ljava/lang/reflect/Method;
 
     move-result-object v0
@@ -91,7 +83,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -115,7 +106,6 @@
 
     if-eqz p0, :cond_4
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v2
@@ -126,7 +116,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {p0}, Lcom/google/android/gms/common/p/c;->a(Landroid/content/Context;)Lcom/google/android/gms/common/p/b;
@@ -145,7 +134,6 @@
 
     const-string p0, "Could not get applicationInfo from package: "
 
-    .line 3
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -174,7 +162,6 @@
 
     return-object v1
 
-    .line 4
     :cond_2
     iget p0, p0, Landroid/content/pm/ApplicationInfo;->uid:I
 
@@ -189,7 +176,6 @@
 
     const-string p0, "Could not find package: "
 
-    .line 5
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -232,7 +218,6 @@
 
     if-eqz p0, :cond_5
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v2
@@ -245,7 +230,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_0
     invoke-static {p0, p1}, Lcom/google/android/gms/common/util/e0;->m(Landroid/content/Context;Ljava/lang/String;)I
 
@@ -255,13 +239,11 @@
 
     return-object v0
 
-    .line 3
     :cond_1
     new-instance v0, Landroid/os/WorkSource;
 
     invoke-direct {v0}, Landroid/os/WorkSource;-><init>()V
 
-    .line 4
     sget-object v2, Lcom/google/android/gms/common/util/e0;->g:Ljava/lang/reflect/Method;
 
     if-eqz v2, :cond_4
@@ -278,12 +260,10 @@
     :try_start_0
     new-array v5, v4, [Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {v2, v0, v5}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 6
     sget v5, Lcom/google/android/gms/common/util/e0;->a:I
 
     const/4 v6, 0x1
@@ -294,7 +274,6 @@
 
     new-array v8, v7, [Ljava/lang/Object;
 
-    .line 7
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -308,7 +287,6 @@
     :cond_3
     new-array p0, v7, [Ljava/lang/Object;
 
-    .line 8
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -328,12 +306,10 @@
 
     const-string p1, "Unable to assign chained blame through WorkSource"
 
-    .line 9
     invoke-static {v1, p1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     goto :goto_1
 
-    .line 10
     :cond_4
     :goto_0
     invoke-static {v0, p0, p1}, Lcom/google/android/gms/common/util/e0;->h(Landroid/os/WorkSource;ILjava/lang/String;)V
@@ -345,7 +321,6 @@
     :goto_2
     const-string p0, "Unexpected null arguments"
 
-    .line 11
     invoke-static {v1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-object v0
@@ -379,7 +354,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {p0}, Lcom/google/android/gms/common/util/e0;->e(Landroid/os/WorkSource;)I
 
@@ -388,14 +362,12 @@
     :goto_0
     if-nez v1, :cond_1
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_1
     new-instance v2, Ljava/util/ArrayList;
 
@@ -404,19 +376,16 @@
     :goto_1
     if-ge v0, v1, :cond_3
 
-    .line 4
     invoke-static {p0, v0}, Lcom/google/android/gms/common/util/e0;->g(Landroid/os/WorkSource;I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 5
     invoke-static {v3}, Lcom/google/android/gms/common/util/b0;->b(Ljava/lang/String;)Z
 
     move-result v4
 
     if-nez v4, :cond_2
 
-    .line 6
     invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_2
@@ -439,7 +408,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -449,13 +417,11 @@
 
     return v0
 
-    .line 2
     :cond_1
     invoke-static {p0}, Lcom/google/android/gms/common/p/c;->a(Landroid/content/Context;)Lcom/google/android/gms/common/p/b;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
@@ -479,7 +445,6 @@
 .method private static e(Landroid/os/WorkSource;)I
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/util/e0;->d:Ljava/lang/reflect/Method;
 
     const/4 v1, 0x0
@@ -489,7 +454,6 @@
     :try_start_0
     new-array v2, v1, [Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {v0, p0, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -511,7 +475,6 @@
 
     const-string v2, "Unable to assign blame through WorkSource"
 
-    .line 3
     invoke-static {v0, v2, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0
@@ -521,12 +484,10 @@
 .method private static f(ILjava/lang/String;)Landroid/os/WorkSource;
     .locals 1
 
-    .line 1
     new-instance v0, Landroid/os/WorkSource;
 
     invoke-direct {v0}, Landroid/os/WorkSource;-><init>()V
 
-    .line 2
     invoke-static {v0, p0, p1}, Lcom/google/android/gms/common/util/e0;->h(Landroid/os/WorkSource;ILjava/lang/String;)V
 
     return-object v0
@@ -537,7 +498,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/util/e0;->f:Ljava/lang/reflect/Method;
 
     if-eqz v0, :cond_0
@@ -549,7 +509,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -573,7 +532,6 @@
 
     const-string v0, "Unable to assign blame through WorkSource"
 
-    .line 3
     invoke-static {p1, v0, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0
@@ -589,7 +547,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/util/e0;->c:Ljava/lang/reflect/Method;
 
     const/4 v1, 0x0
@@ -612,7 +569,6 @@
     :try_start_0
     new-array v5, v5, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -630,12 +586,10 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-static {v3, v2, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return-void
 
-    .line 4
     :cond_1
     sget-object p2, Lcom/google/android/gms/common/util/e0;->b:Ljava/lang/reflect/Method;
 
@@ -644,7 +598,6 @@
     :try_start_1
     new-array v0, v4, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -660,7 +613,6 @@
     :catch_1
     move-exception p0
 
-    .line 6
     invoke-static {v3, v2, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_2
@@ -670,7 +622,6 @@
 .method private static i()Ljava/lang/reflect/Method;
     .locals 5
 
-    .line 1
     :try_start_0
     const-class v0, Landroid/os/WorkSource;
 
@@ -704,14 +655,12 @@
 .method private static j()Ljava/lang/reflect/Method;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/util/v;->g()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     const-class v0, Landroid/os/WorkSource;
 
@@ -746,14 +695,12 @@
 .method private static final k()Ljava/lang/reflect/Method;
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/util/v;->o()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     const-class v0, Landroid/os/WorkSource;
 
@@ -778,7 +725,6 @@
 
     const-string v2, "Missing WorkChain API createWorkChain"
 
-    .line 3
     invoke-static {v1, v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0
@@ -796,7 +742,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/util/v;->o()Z
 
     move-result v0
@@ -806,7 +751,6 @@
     :try_start_0
     const-string v0, "android.os.WorkSource$WorkChain"
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -819,7 +763,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     sget-object v4, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     aput-object v4, v2, v3
@@ -845,7 +788,6 @@
 
     const-string v2, "Missing WorkChain class"
 
-    .line 4
     invoke-static {v1, v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0
@@ -862,7 +804,6 @@
 
     const/4 v1, -0x1
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/google/android/gms/common/p/c;->a(Landroid/content/Context;)Lcom/google/android/gms/common/p/b;
 
@@ -880,7 +821,6 @@
 
     const-string p0, "Could not get applicationInfo from package: "
 
-    .line 2
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -909,7 +849,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     iget p0, p0, Landroid/content/pm/ApplicationInfo;->uid:I
 
@@ -920,7 +859,6 @@
 
     const-string p0, "Could not find package: "
 
-    .line 4
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -953,7 +891,6 @@
 .method private static n()Ljava/lang/reflect/Method;
     .locals 5
 
-    .line 1
     :try_start_0
     const-class v0, Landroid/os/WorkSource;
 
@@ -987,14 +924,12 @@
 .method private static o()Ljava/lang/reflect/Method;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/util/v;->g()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     const-class v0, Landroid/os/WorkSource;
 
@@ -1035,7 +970,6 @@
 .method private static p()Ljava/lang/reflect/Method;
     .locals 3
 
-    .line 1
     :try_start_0
     const-class v0, Landroid/os/WorkSource;
 

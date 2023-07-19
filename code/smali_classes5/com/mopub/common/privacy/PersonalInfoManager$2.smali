@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/common/privacy/PersonalInfoManager;Lcom/mopub/common/privacy/ConsentDialogListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager$2;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     iput-object p2, p0, Lcom/mopub/common/privacy/PersonalInfoManager$2;->val$consentDialogListener:Lcom/mopub/common/privacy/ConsentDialogListener;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 5
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const/4 v1, 0x2
@@ -69,7 +67,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$2;->val$consentDialogListener:Lcom/mopub/common/privacy/ConsentDialogListener;
 
     invoke-interface {v0, v2}, Lcom/mopub/common/privacy/ConsentDialogListener;->onConsentDialogLoadFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V

@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOneResult;->nativeBodyMatchFace([Landroid/graphics/RectF;Ljava/util/ArrayList;)[I
 
     move-result-object p0
@@ -82,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -91,12 +88,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOneResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     if-eqz v2, :cond_1
 
-    .line 3
     new-instance v3, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     iget v4, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->width:I
@@ -107,7 +102,6 @@
 
     iput-object v3, v1, Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOneResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOneResult;->body:[Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOne;
 
     if-eqz v2, :cond_1
@@ -116,14 +110,12 @@
 
     if-lez v3, :cond_1
 
-    .line 5
     array-length v2, v2
 
     new-array v2, v2, [Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOne;
 
     const/4 v3, 0x0
 
-    .line 6
     :goto_0
     iget-object v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOneResult;->body:[Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOne;
 
@@ -131,7 +123,6 @@
 
     if-ge v3, v5, :cond_0
 
-    .line 7
     aget-object v4, v4, v3
 
     invoke-virtual {v4}, Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOne;->clone()Ljava/lang/Object;
@@ -146,11 +137,9 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOneResult;->body:[Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOne;
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

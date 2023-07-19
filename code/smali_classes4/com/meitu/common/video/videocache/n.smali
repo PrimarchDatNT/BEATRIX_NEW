@@ -45,7 +45,6 @@
 
     const-string v1, "ProxyCache"
 
-    .line 1
     invoke-static {v1}, Lorg/slf4j/d;->g(Ljava/lang/String;)Lorg/slf4j/c;
 
     move-result-object v1
@@ -60,17 +59,14 @@
 .method public constructor <init>(Lcom/meitu/common/video/videocache/p;Lcom/meitu/common/video/videocache/c;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/common/video/videocache/n;->c:Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -79,10 +75,8 @@
 
     const/4 v0, -0x1
 
-    .line 4
     iput v0, p0, Lcom/meitu/common/video/videocache/n;->h:I
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/common/video/videocache/m;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -91,7 +85,6 @@
 
     iput-object p1, p0, Lcom/meitu/common/video/videocache/n;->a:Lcom/meitu/common/video/videocache/p;
 
-    .line 6
     invoke-static {p2}, Lcom/meitu/common/video/videocache/m;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -100,7 +93,6 @@
 
     iput-object p1, p0, Lcom/meitu/common/video/videocache/n;->b:Lcom/meitu/common/video/videocache/c;
 
-    .line 7
     new-instance p1, Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
@@ -117,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/n;->k()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -137,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/n;->e:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
@@ -148,12 +138,10 @@
 
     if-ge v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/meitu/common/video/videocache/n;->e:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -161,7 +149,6 @@
 
     invoke-virtual {v2, v3}, Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
 
-    .line 4
     new-instance v2, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -196,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/common/video/videocache/n;->a:Lcom/meitu/common/video/videocache/p;
 
@@ -209,7 +195,6 @@
     :catch_0
     move-exception v1
 
-    .line 2
     new-instance v2, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -232,7 +217,6 @@
 
     invoke-virtual {p0, v2}, Lcom/meitu/common/video/videocache/n;->h(Ljava/lang/Throwable;)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -246,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v1
@@ -285,26 +268,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/meitu/common/video/videocache/n;->f(JJ)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/common/video/videocache/n;->c:Ljava/lang/Object;
 
     monitor-enter p1
 
-    .line 3
     :try_start_0
     iget-object p2, p0, Lcom/meitu/common/video/videocache/n;->c:Ljava/lang/Object;
 
     invoke-virtual {p2}, Ljava/lang/Object;->notifyAll()V
 
-    .line 4
     monitor-exit p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -312,7 +290,6 @@
     :catchall_0
     move-exception p2
 
-    .line 6
     :try_start_1
     monitor-exit p1
     :try_end_1
@@ -332,15 +309,12 @@
 
     const/16 v1, 0x64
 
-    .line 1
     iput v1, p0, Lcom/meitu/common/video/videocache/n;->h:I
 
-    .line 2
     iget v1, p0, Lcom/meitu/common/video/videocache/n;->h:I
 
     invoke-virtual {p0, v1}, Lcom/meitu/common/video/videocache/n;->g(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -357,7 +331,6 @@
 
     const-wide/16 v3, 0x0
 
-    .line 1
     :try_start_0
     iget-object v5, p0, Lcom/meitu/common/video/videocache/n;->b:Lcom/meitu/common/video/videocache/c;
 
@@ -365,12 +338,10 @@
 
     move-result-wide v3
 
-    .line 2
     iget-object v5, p0, Lcom/meitu/common/video/videocache/n;->a:Lcom/meitu/common/video/videocache/p;
 
     invoke-interface {v5, v3, v4}, Lcom/meitu/common/video/videocache/p;->a(J)V
 
-    .line 3
     iget-object v5, p0, Lcom/meitu/common/video/videocache/n;->a:Lcom/meitu/common/video/videocache/p;
 
     invoke-interface {v5}, Lcom/meitu/common/video/videocache/p;->length()J
@@ -381,7 +352,6 @@
 
     new-array v5, v5, [B
 
-    .line 4
     :goto_0
     iget-object v6, p0, Lcom/meitu/common/video/videocache/n;->a:Lcom/meitu/common/video/videocache/p;
 
@@ -393,14 +363,12 @@
 
     if-eq v6, v7, :cond_1
 
-    .line 5
     iget-object v7, p0, Lcom/meitu/common/video/videocache/n;->d:Ljava/lang/Object;
 
     monitor-enter v7
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 6
     :try_start_1
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/n;->d()Z
 
@@ -408,30 +376,24 @@
 
     if-eqz v8, :cond_0
 
-    .line 7
     monitor-exit v7
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 8
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/n;->c()V
 
-    .line 9
     invoke-direct {p0, v3, v4, v1, v2}, Lcom/meitu/common/video/videocache/n;->e(JJ)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_0
     :try_start_2
     iget-object v8, p0, Lcom/meitu/common/video/videocache/n;->b:Lcom/meitu/common/video/videocache/c;
 
     invoke-interface {v8, v5, v6}, Lcom/meitu/common/video/videocache/c;->d([BI)V
 
-    .line 12
     monitor-exit v7
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -440,7 +402,6 @@
 
     add-long/2addr v3, v6
 
-    .line 13
     :try_start_3
     invoke-direct {p0, v3, v4, v1, v2}, Lcom/meitu/common/video/videocache/n;->e(JJ)V
     :try_end_3
@@ -451,7 +412,6 @@
     :catchall_0
     move-exception v5
 
-    .line 14
     :try_start_4
     monitor-exit v7
     :try_end_4
@@ -462,11 +422,9 @@
 
     throw v5
 
-    .line 15
     :cond_1
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/n;->n()V
 
-    .line 16
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/n;->i()V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
@@ -476,25 +434,20 @@
     :catchall_1
     move-exception v5
 
-    .line 17
     :try_start_6
     iget-object v6, p0, Lcom/meitu/common/video/videocache/n;->e:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v6}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
 
-    .line 18
     invoke-virtual {p0, v5}, Lcom/meitu/common/video/videocache/n;->h(Ljava/lang/Throwable;)V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_2
 
-    .line 19
     :goto_1
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/n;->c()V
 
-    .line 20
     invoke-direct {p0, v3, v4, v1, v2}, Lcom/meitu/common/video/videocache/n;->e(JJ)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -502,13 +455,10 @@
     :catchall_2
     move-exception v5
 
-    .line 22
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/n;->c()V
 
-    .line 23
     invoke-direct {p0, v3, v4, v1, v2}, Lcom/meitu/common/video/videocache/n;->e(JJ)V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v5
@@ -529,7 +479,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/n;->f:Ljava/util/concurrent/ThreadPoolExecutor;
 
     if-eqz v1, :cond_0
@@ -549,7 +498,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget-boolean v2, p0, Lcom/meitu/common/video/videocache/n;->g:Z
 
@@ -565,7 +513,6 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     sget-object v1, Lcom/meitu/common/video/videocache/s;->a:Lcom/meitu/common/video/videocache/s$a;
 
     invoke-virtual {v1}, Lcom/meitu/common/video/videocache/s$a;->a()Ljava/util/concurrent/ThreadPoolExecutor;
@@ -574,7 +521,6 @@
 
     iput-object v1, p0, Lcom/meitu/common/video/videocache/n;->f:Ljava/util/concurrent/ThreadPoolExecutor;
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/common/video/videocache/n;->f:Ljava/util/concurrent/ThreadPoolExecutor;
 
     new-instance v2, Lcom/meitu/common/video/videocache/n$b;
@@ -585,7 +531,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -615,12 +560,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/n;->d:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/n;->d()Z
 
@@ -644,18 +587,15 @@
 
     if-nez v6, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/common/video/videocache/n;->b:Lcom/meitu/common/video/videocache/c;
 
     invoke-interface {v2}, Lcom/meitu/common/video/videocache/c;->complete()V
 
-    .line 4
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -663,7 +603,6 @@
     :catchall_0
     move-exception v2
 
-    .line 6
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -686,12 +625,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/n;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/common/video/videocache/n;->c:Ljava/lang/Object;
 
@@ -702,13 +639,11 @@
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :try_start_1
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -721,7 +656,6 @@
     :catch_0
     move-exception v2
 
-    .line 5
     :try_start_2
     new-instance v3, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
@@ -733,7 +667,6 @@
 
     throw v3
 
-    .line 6
     :goto_0
     monitor-exit v1
     :try_end_2
@@ -790,7 +723,6 @@
 
     float-to-int p1, p1
 
-    .line 1
     :goto_1
     iget p2, p0, Lcom/meitu/common/video/videocache/n;->h:I
 
@@ -816,14 +748,11 @@
 
     if-eqz p2, :cond_4
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/common/video/videocache/n;->g(I)V
 
-    .line 3
     :cond_4
     iput p1, p0, Lcom/meitu/common/video/videocache/n;->h:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -836,7 +765,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -849,12 +777,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/meitu/common/video/videocache/InterruptedProxyCacheException;
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object p1, Lcom/meitu/common/video/videocache/n;->i:Lorg/slf4j/c;
 
     const-string v1, "ProxyCache is interrupted"
@@ -863,7 +789,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/meitu/common/video/videocache/n;->i:Lorg/slf4j/c;
 
@@ -871,7 +796,6 @@
 
     invoke-interface {v1, v2, p1}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -890,10 +814,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2, p3, p4}, Lcom/meitu/common/video/videocache/o;->a([BJI)V
 
-    .line 2
     :goto_0
     iget-object v1, p0, Lcom/meitu/common/video/videocache/n;->b:Lcom/meitu/common/video/videocache/c;
 
@@ -921,18 +843,14 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/n;->l()V
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/n;->o()V
 
-    .line 5
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/n;->b()V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/meitu/common/video/videocache/n;->b:Lcom/meitu/common/video/videocache/c;
 
@@ -940,7 +858,6 @@
 
     move-result p1
 
-    .line 7
     iget-object p2, p0, Lcom/meitu/common/video/videocache/n;->b:Lcom/meitu/common/video/videocache/c;
 
     invoke-interface {p2}, Lcom/meitu/common/video/videocache/c;->c()Z
@@ -955,13 +872,10 @@
 
     if-eq p2, p3, :cond_1
 
-    .line 8
     iput p3, p0, Lcom/meitu/common/video/videocache/n;->h:I
 
-    .line 9
     invoke-virtual {p0, p3}, Lcom/meitu/common/video/videocache/n;->g(I)V
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -975,12 +889,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/n;->d:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     sget-object v2, Lcom/meitu/common/video/videocache/n;->i:Lorg/slf4j/c;
 
@@ -1006,11 +918,9 @@
 
     const/4 v2, 0x1
 
-    .line 3
     :try_start_1
     iput-boolean v2, p0, Lcom/meitu/common/video/videocache/n;->g:Z
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/common/video/videocache/n;->f:Ljava/util/concurrent/ThreadPoolExecutor;
 
     if-eqz v2, :cond_0
@@ -1023,12 +933,10 @@
 
     if-nez v2, :cond_0
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/common/video/videocache/n;->f:Ljava/util/concurrent/ThreadPoolExecutor;
 
     invoke-virtual {v2}, Ljava/util/concurrent/ThreadPoolExecutor;->shutdownNow()Ljava/util/List;
 
-    .line 6
     :cond_0
     iget-object v2, p0, Lcom/meitu/common/video/videocache/n;->b:Lcom/meitu/common/video/videocache/c;
 
@@ -1042,17 +950,14 @@
     :catch_0
     move-exception v2
 
-    .line 7
     :try_start_2
     invoke-virtual {p0, v2}, Lcom/meitu/common/video/videocache/n;->h(Ljava/lang/Throwable;)V
 
-    .line 8
     :goto_0
     monitor-exit v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1060,7 +965,6 @@
     :catchall_0
     move-exception v2
 
-    .line 10
     :try_start_3
     monitor-exit v1
     :try_end_3

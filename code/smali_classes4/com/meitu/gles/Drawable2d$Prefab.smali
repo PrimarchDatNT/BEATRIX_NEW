@@ -40,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/gles/Drawable2d$Prefab;
 
     const-string v2, "TRIANGLE"
@@ -81,7 +80,6 @@
 
     aput-object v4, v6, v7
 
-    .line 2
     sput-object v6, Lcom/meitu/gles/Drawable2d$Prefab;->$VALUES:[Lcom/meitu/gles/Drawable2d$Prefab;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,7 +95,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -110,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/gles/Drawable2d$Prefab;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -131,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/gles/Drawable2d$Prefab;->$VALUES:[Lcom/meitu/gles/Drawable2d$Prefab;
 
     invoke-virtual {v1}, [Lcom/meitu/gles/Drawable2d$Prefab;->clone()Ljava/lang/Object;

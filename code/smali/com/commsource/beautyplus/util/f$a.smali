@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/util/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/util/f$a;->c:Lcom/commsource/beautyplus/util/f;
 
     invoke-direct {p0}, Lf/k/i/a/g/e;-><init>()V
@@ -39,7 +38,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -64,7 +62,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class p2, Lcom/commsource/beautyplus/util/f$b;
 
     invoke-static {p3, p2}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
@@ -75,17 +72,14 @@
 
     if-eqz p2, :cond_1
 
-    .line 2
     iget-object p2, p2, Lcom/commsource/beautyplus/util/f$b;->c:Lcom/commsource/beautyplus/util/f$b$a;
 
     if-eqz p2, :cond_1
 
-    .line 3
     iget-object p2, p2, Lcom/commsource/beautyplus/util/f$b$a;->a:Ljava/util/Map;
 
     if-eqz p2, :cond_1
 
-    .line 4
     invoke-interface {p2}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object p3
@@ -94,7 +88,6 @@
 
     move-result-object p3
 
-    .line 5
     :cond_0
     :goto_0
     invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
@@ -103,7 +96,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -112,14 +104,12 @@
 
     const-string v1, "level"
 
-    .line 7
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 8
     invoke-interface {p2, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -130,17 +120,14 @@
 
     move-result v0
 
-    .line 9
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
 
     invoke-static {v2, v0}, Lf/d/i/e;->o3(Landroid/content/Context;I)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setEquipmentType(I)V
 
-    .line 11
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -159,7 +146,6 @@
 
     invoke-static {v3, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v0
@@ -170,7 +156,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

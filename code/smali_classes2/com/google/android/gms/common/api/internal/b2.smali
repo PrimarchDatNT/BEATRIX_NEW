@@ -21,7 +21,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/q$a;Lcom/google/android/gms/common/api/internal/l;[Lcom/google/android/gms/common/Feature;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/b2;->d:Lcom/google/android/gms/common/api/internal/q$a;
 
     invoke-direct {p0, p2, p3, p4}, Lcom/google/android/gms/common/api/internal/p;-><init>(Lcom/google/android/gms/common/api/internal/l;[Lcom/google/android/gms/common/Feature;Z)V
@@ -48,7 +47,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/b2;->d:Lcom/google/android/gms/common/api/internal/q$a;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/q$a;->i(Lcom/google/android/gms/common/api/internal/q$a;)Lcom/google/android/gms/common/api/internal/r;

@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/stats/d;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/stats/d;-><init>()V
@@ -31,7 +30,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     sput-boolean v0, Lcom/google/android/gms/common/stats/d;->c:Z
 
     return-void
@@ -40,7 +38,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +48,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/stats/d;->a:Lcom/google/android/gms/common/stats/d;
 
     return-object v0
@@ -60,7 +56,6 @@
 .method private static g(Landroid/content/Context;Lcom/google/android/gms/common/stats/WakeLockEvent;)V
     .locals 2
 
-    .line 1
     :try_start_0
     new-instance v0, Landroid/content/Intent;
 
@@ -68,19 +63,16 @@
 
     sget-object v1, Lcom/google/android/gms/common/stats/b;->a:Landroid/content/ComponentName;
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
     move-result-object v0
 
     const-string v1, "com.google.android.gms.common.stats.EXTRA_LOG_EVENT"
 
-    .line 3
     invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -92,7 +84,6 @@
 
     const-string p1, "WakeLockTracker"
 
-    .line 5
     invoke-static {p1, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return-void
@@ -101,17 +92,14 @@
 .method private static h()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/stats/d;->b:Ljava/lang/Boolean;
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     sput-object v0, Lcom/google/android/gms/common/stats/d;->b:Ljava/lang/Boolean;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/google/android/gms/common/stats/d;->b:Ljava/lang/Boolean;
 
@@ -137,7 +125,6 @@
 
     aput-object p7, v0, v1
 
-    .line 1
     invoke-static {v0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v10
@@ -146,7 +133,6 @@
 
     move-object v1, p2
 
-    .line 2
     invoke-virtual {p2, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -165,7 +151,6 @@
 
     move/from16 v9, p6
 
-    .line 3
     invoke-virtual/range {v2 .. v10}, Lcom/google/android/gms/common/stats/d;->d(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/List;)V
 
     return-void
@@ -190,7 +175,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/stats/d;->h()Z
 
     move-result v0
@@ -199,32 +183,27 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/common/stats/WakeLockEvent;
 
     move-object v1, v0
 
     const/16 v4, 0x10
 
-    .line 4
     invoke-static/range {p6 .. p6}, Lcom/google/android/gms/common/stats/c;->c(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v7
 
     const/4 v8, 0x0
 
-    .line 5
     invoke-static/range {p1 .. p1}, Lcom/google/android/gms/common/util/g0;->a(Landroid/content/Context;)I
 
     move-result v11
 
-    .line 6
     invoke-virtual/range {p1 .. p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v5
@@ -233,7 +212,6 @@
 
     move-result-object v13
 
-    .line 7
     invoke-static/range {p1 .. p1}, Lcom/google/android/gms/common/util/g0;->b(Landroid/content/Context;)F
 
     move-result v14
@@ -256,7 +234,6 @@
 
     move-object/from16 v1, p1
 
-    .line 8
     invoke-static {v1, v0}, Lcom/google/android/gms/common/stats/d;->g(Landroid/content/Context;Lcom/google/android/gms/common/stats/WakeLockEvent;)V
 
     return-void
@@ -303,7 +280,6 @@
 
     move-object/from16 v8, p8
 
-    .line 1
     invoke-virtual/range {v0 .. v10}, Lcom/google/android/gms/common/stats/d;->e(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/List;J)V
 
     return-void
@@ -332,7 +308,6 @@
 
     move/from16 v3, p3
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/stats/d;->h()Z
 
     move-result v0
@@ -341,7 +316,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static/range {p2 .. p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -351,7 +325,6 @@
 
     const-string v0, "missing wakeLock key. "
 
-    .line 3
     invoke-static/range {p2 .. p2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -399,33 +372,27 @@
 
     if-ne v0, v3, :cond_4
 
-    .line 4
     :cond_3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 5
     new-instance v14, Lcom/google/android/gms/common/stats/WakeLockEvent;
 
     move-object v0, v14
 
-    .line 6
     invoke-static/range {p8 .. p8}, Lcom/google/android/gms/common/stats/c;->c(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v6
 
-    .line 7
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v8
 
-    .line 8
     invoke-static/range {p1 .. p1}, Lcom/google/android/gms/common/util/g0;->a(Landroid/content/Context;)I
 
     move-result v10
 
-    .line 9
     invoke-virtual/range {p1 .. p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v4
@@ -434,7 +401,6 @@
 
     move-result-object v12
 
-    .line 10
     invoke-static/range {p1 .. p1}, Lcom/google/android/gms/common/util/g0;->b(Landroid/content/Context;)F
 
     move-result v13
@@ -463,7 +429,6 @@
 
     move-object/from16 v1, v18
 
-    .line 11
     invoke-static {v0, v1}, Lcom/google/android/gms/common/stats/d;->g(Landroid/content/Context;Lcom/google/android/gms/common/stats/WakeLockEvent;)V
 
     :cond_4
@@ -477,7 +442,6 @@
 
     const-string v0, "WAKE_LOCK_KEY"
 
-    .line 1
     invoke-virtual {p2, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -498,7 +462,6 @@
 
     move-object v2, p1
 
-    .line 2
     invoke-virtual/range {v1 .. v9}, Lcom/google/android/gms/common/stats/d;->d(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/List;)V
 
     return-void

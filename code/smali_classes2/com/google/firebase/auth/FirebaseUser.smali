@@ -9,7 +9,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -47,7 +45,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {v0, p0, v1}, Lcom/google/firebase/auth/FirebaseAuth;->O(Lcom/google/firebase/auth/FirebaseUser;Z)Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
@@ -56,7 +53,6 @@
 
     invoke-direct {v1, p0}, Lcom/google/firebase/auth/k0;-><init>(Lcom/google/firebase/auth/FirebaseUser;)V
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/google/android/gms/tasks/k;->o(Lcom/google/android/gms/tasks/c;)Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
@@ -93,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -104,7 +99,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {v0, p0, v1}, Lcom/google/firebase/auth/FirebaseAuth;->O(Lcom/google/firebase/auth/FirebaseUser;Z)Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
@@ -113,7 +107,6 @@
 
     invoke-direct {v1, p0, p1}, Lcom/google/firebase/auth/l0;-><init>(Lcom/google/firebase/auth/FirebaseUser;Lcom/google/firebase/auth/ActionCodeSettings;)V
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/google/android/gms/tasks/k;->o(Lcom/google/android/gms/tasks/c;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -161,13 +154,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -176,7 +166,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0, p1, p2, p0}, Lcom/google/firebase/auth/FirebaseAuth;->H(Landroid/app/Activity;Lcom/google/firebase/auth/d;Lcom/google/firebase/auth/FirebaseUser;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -207,10 +196,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -219,7 +206,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0, p0, p1}, Lcom/google/firebase/auth/FirebaseAuth;->a0(Lcom/google/firebase/auth/FirebaseUser;Lcom/google/firebase/auth/AuthCredential;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -252,13 +238,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -267,7 +250,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0, p1, p2, p0}, Lcom/google/firebase/auth/FirebaseAuth;->T(Landroid/app/Activity;Lcom/google/firebase/auth/d;Lcom/google/firebase/auth/FirebaseUser;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -292,10 +274,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -304,7 +284,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0, p0, p1}, Lcom/google/firebase/auth/FirebaseAuth;->N(Lcom/google/firebase/auth/FirebaseUser;Ljava/lang/String;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -337,10 +316,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -349,7 +326,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0, p0, p1}, Lcom/google/firebase/auth/FirebaseAuth;->V(Lcom/google/firebase/auth/FirebaseUser;Ljava/lang/String;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -387,10 +363,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -399,7 +373,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0, p0, p1}, Lcom/google/firebase/auth/FirebaseAuth;->b0(Lcom/google/firebase/auth/FirebaseUser;Ljava/lang/String;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -424,10 +397,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -436,7 +407,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0, p0, p1}, Lcom/google/firebase/auth/FirebaseAuth;->J(Lcom/google/firebase/auth/FirebaseUser;Lcom/google/firebase/auth/AuthCredential;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -461,7 +431,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -470,7 +439,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, p0, p1}, Lcom/google/firebase/auth/FirebaseAuth;->K(Lcom/google/firebase/auth/FirebaseUser;Lcom/google/firebase/auth/PhoneAuthCredential;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -498,10 +466,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -510,7 +476,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0, p0, p1}, Lcom/google/firebase/auth/FirebaseAuth;->L(Lcom/google/firebase/auth/FirebaseUser;Lcom/google/firebase/auth/UserProfileChangeRequest;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -602,10 +567,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -614,7 +577,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0, p0, p1}, Lcom/google/firebase/auth/FirebaseAuth;->U(Lcom/google/firebase/auth/FirebaseUser;Lcom/google/firebase/auth/AuthCredential;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -644,7 +606,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -653,7 +614,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, p0}, Lcom/google/firebase/auth/FirebaseAuth;->j0(Lcom/google/firebase/auth/FirebaseUser;)Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
@@ -675,7 +635,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -684,7 +643,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, p0}, Lcom/google/firebase/auth/FirebaseAuth;->h0(Lcom/google/firebase/auth/FirebaseUser;)Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
@@ -711,7 +669,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -720,7 +677,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, p0, p1}, Lcom/google/firebase/auth/FirebaseAuth;->O(Lcom/google/firebase/auth/FirebaseUser;Z)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1

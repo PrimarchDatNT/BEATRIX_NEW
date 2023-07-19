@@ -33,10 +33,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/t61;->a:Lcom/google/android/gms/internal/ads/ce1;
 
     return-void
@@ -56,12 +54,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/t61;->a:Lcom/google/android/gms/internal/ads/ce1;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/ce1;->a()Ljava/lang/String;
 
     move-result-object v0
@@ -70,7 +66,6 @@
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/t61;->a:Lcom/google/android/gms/internal/ads/ce1;
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/ce1;->a()Ljava/lang/String;
 
     move-result-object v0
@@ -81,7 +76,6 @@
 
     if-nez v0, :cond_0
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/internal/ads/w61;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/w61;-><init>(Lcom/google/android/gms/internal/ads/t61;)V
@@ -91,7 +85,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
@@ -103,7 +96,6 @@
 .method final synthetic b(Landroid/os/Bundle;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/t61;->a:Lcom/google/android/gms/internal/ads/ce1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/ce1;->a()Ljava/lang/String;

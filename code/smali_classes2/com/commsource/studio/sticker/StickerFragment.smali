@@ -75,10 +75,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->e()I
@@ -95,7 +93,6 @@
 
     iput v0, p0, Lcom/commsource/studio/sticker/StickerFragment;->L:I
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/sticker/StickerFragment$mViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/sticker/StickerFragment$mViewModel$2;-><init>(Lcom/commsource/studio/sticker/StickerFragment;)V
@@ -106,7 +103,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/sticker/StickerFragment;->N:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/widget/h1/e;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -125,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->P:Lcom/commsource/studio/sticker/k;
 
     const-string v2, "mVpAdapter"
@@ -196,7 +191,6 @@
 
     goto :goto_3
 
-    .line 2
     :cond_4
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->P:Lcom/commsource/studio/sticker/k;
 
@@ -253,14 +247,12 @@
     :cond_8
     check-cast v5, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 3
     :cond_9
     :goto_3
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->O:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {p1, v5}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     const-string v1, "mViewBinding"
@@ -284,7 +276,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez p1, :cond_b
@@ -304,7 +295,6 @@
 
     if-gtz p1, :cond_d
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez p1, :cond_c
@@ -322,7 +312,6 @@
 
     goto :goto_4
 
-    .line 7
     :cond_d
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
@@ -341,7 +330,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->O:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {p1}, Lcom/commsource/widget/h1/e;->d()I
@@ -350,7 +338,6 @@
 
     invoke-direct {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment;->v0(I)V
 
-    .line 9
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -364,7 +351,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v1
@@ -381,12 +367,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     instance-of v2, v1, Lcom/commsource/studio/bean/StickerLayerInfo;
 
     if-eqz v2, :cond_0
 
-    .line 3
     check-cast v1, Lcom/commsource/studio/bean/StickerLayerInfo;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -395,10 +379,8 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/bean/ImageLayerInfo;->setTintColor(Ljava/lang/Integer;)V
 
-    .line 4
     invoke-virtual {v1, p2}, Lcom/commsource/studio/bean/ImageLayerInfo;->setTintFormPick(Z)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v2
@@ -415,7 +397,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -426,7 +407,6 @@
 
     invoke-static {p1, v1, p2, v1}, Lcom/commsource/studio/ImageStudioViewModel;->D1(Lcom/commsource/studio/ImageStudioViewModel;Ljava/util/Map;ILjava/lang/Object;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -440,7 +420,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     const-string v2, "mViewBinding"
@@ -458,7 +437,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v1
@@ -475,12 +453,10 @@
 
     if-eqz v1, :cond_6
 
-    .line 3
     instance-of v4, v1, Lcom/commsource/studio/bean/StickerLayerInfo;
 
     if-eqz v4, :cond_6
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/studio/sticker/StickerFragment;->O:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {v4}, Lcom/commsource/widget/h1/e;->e()Ljava/lang/Object;
@@ -491,10 +467,8 @@
 
     if-eqz v4, :cond_5
 
-    .line 5
     check-cast v4, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 6
     check-cast v1, Lcom/commsource/studio/bean/StickerLayerInfo;
 
     invoke-virtual {v1}, Lcom/commsource/studio/bean/StickerLayerInfo;->getSticker()Lcom/meitu/template/bean/Sticker;
@@ -521,7 +495,6 @@
 
     if-eq v1, v4, :cond_6
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v1, :cond_1
@@ -537,7 +510,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v1, :cond_2
@@ -551,7 +523,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -579,7 +550,6 @@
 
     if-ne v1, v4, :cond_6
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v1
@@ -612,7 +582,6 @@
 
     sub-float/2addr v1, v4
 
-    .line 11
     iget-object v4, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v4, :cond_4
@@ -630,7 +599,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_5
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -642,7 +610,6 @@
 
     throw v1
 
-    .line 13
     :cond_6
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -670,7 +637,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/ImageStudioViewModel;->e2([Landroid/view/View;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -683,7 +649,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment;->m0(Lcom/meitu/template/bean/Sticker;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -698,7 +663,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->n0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -713,7 +677,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -728,7 +691,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/StickerFragment;->O:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -743,7 +705,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez p0, :cond_0
@@ -765,7 +726,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object p0
@@ -782,7 +742,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/StickerFragment;->P:Lcom/commsource/studio/sticker/k;
 
     if-nez p0, :cond_0
@@ -804,7 +763,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->t0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -819,7 +777,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment;->v0(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -834,7 +791,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -849,7 +805,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->O:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -864,7 +819,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -879,7 +833,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->P:Lcom/commsource/studio/sticker/k;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -894,7 +847,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/StickerFragment;->w0(ZZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -909,7 +861,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment;->A0(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -924,7 +875,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/StickerFragment;->C0(IZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -939,7 +889,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->D0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -954,7 +903,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -971,12 +919,10 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->t_layers_limited:I
 
-    .line 2
     invoke-static {p1}, Lf/k/c/c/f;->H(I)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/commsource/studio/sticker/StickerFragment$b;
 
@@ -986,7 +932,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v1, :cond_1
@@ -1000,12 +945,10 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->s()V
 
-    .line 5
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/sticker/StickerManager;->n0(Lcom/meitu/template/bean/Sticker;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->P:Lcom/commsource/studio/sticker/k;
 
     if-nez v1, :cond_2
@@ -1017,7 +960,6 @@
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/k;->notifyDataSetChanged()V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v1
@@ -1026,7 +968,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/commsource/studio/sticker/StickerViewModel;->y(Ljava/lang/String;Lcom/meitu/template/bean/Sticker;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1040,7 +981,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->R:Lcom/commsource/widget/s0;
 
     if-eqz v1, :cond_0
@@ -1050,10 +990,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->R:Lcom/commsource/widget/s0;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1086,11 +1024,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     sget-object v1, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v1, p2}, Lcom/commsource/studio/sticker/StickerManager;->P(I)Lcom/meitu/template/bean/Sticker;
@@ -1109,7 +1045,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 3
     :try_start_1
     invoke-virtual {p2}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
 
@@ -1121,7 +1056,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/studio/sticker/StickerFragment;->P:Lcom/commsource/studio/sticker/k;
 
     if-nez v4, :cond_0
@@ -1143,7 +1077,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
@@ -1151,7 +1084,6 @@
 
     invoke-direct {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment;->A0(I)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object p1
@@ -1164,45 +1096,37 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     :goto_0
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->z0()V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v3
 
     invoke-virtual {v3, p1}, Lcom/commsource/studio/sticker/StickerViewModel;->P(Lcom/meitu/template/bean/StickerGroup;)V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v3
 
     invoke-virtual {v3, p2}, Lcom/commsource/studio/sticker/StickerViewModel;->O(Lcom/meitu/template/bean/Sticker;)V
 
-    .line 10
     sget-object v3, Lcom/commsource/studio/k;->V:Lcom/commsource/studio/k;
 
     invoke-virtual {v3}, Lcom/commsource/studio/k;->d()I
 
     move-result v3
 
-    .line 11
     invoke-virtual {v1, p2, v5, v3}, Lcom/commsource/studio/sticker/StickerManager;->I(Lcom/meitu/template/bean/Sticker;ZI)V
 
-    .line 12
     invoke-virtual {v1, p1, v5, v2}, Lcom/commsource/studio/sticker/StickerManager;->J(Lcom/meitu/template/bean/StickerGroup;ZLjava/lang/String;)V
 
-    .line 13
     :goto_1
     sget-object v4, Lcotlin/t1;->a:Lcotlin/t1;
 
     goto :goto_4
 
-    .line 14
     :cond_3
     invoke-virtual {v1, p1}, Lcom/commsource/studio/sticker/StickerManager;->Q(I)Lcom/meitu/template/bean/StickerGroup;
 
@@ -1210,7 +1134,6 @@
 
     if-eqz p2, :cond_7
 
-    .line 15
     iget-object v4, p0, Lcom/commsource/studio/sticker/StickerFragment;->P:Lcom/commsource/studio/sticker/k;
 
     if-nez v4, :cond_4
@@ -1232,32 +1155,26 @@
 
     goto :goto_2
 
-    .line 16
     :cond_5
     invoke-direct {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment;->A0(I)V
 
     goto :goto_3
 
-    .line 17
     :cond_6
     :goto_2
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->z0()V
 
-    .line 18
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object p1
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/sticker/StickerViewModel;->P(Lcom/meitu/template/bean/StickerGroup;)V
 
-    .line 19
     invoke-virtual {v1, p2, v5, v2}, Lcom/commsource/studio/sticker/StickerManager;->J(Lcom/meitu/template/bean/StickerGroup;ZLjava/lang/String;)V
 
-    .line 20
     :goto_3
     sget-object v4, Lcotlin/t1;->a:Lcotlin/t1;
 
-    .line 21
     :cond_7
     :goto_4
     invoke-static {v4}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1281,7 +1198,6 @@
 
     move-result-object p1
 
-    .line 22
     :goto_5
     invoke-static {p1}, Lcotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
 
@@ -1291,7 +1207,6 @@
 
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 23
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1307,10 +1222,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/studio/m0;->Z(Z)V
 
-    .line 2
     new-instance v2, Lcom/commsource/widget/h1/e;
 
     iget-object v3, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1319,7 +1232,6 @@
 
     iput-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment;->O:Lcom/commsource/widget/h1/e;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     const-string v3, "mViewBinding"
@@ -1345,7 +1257,6 @@
 
     invoke-virtual {v2, v5}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v2, :cond_1
@@ -1361,7 +1272,6 @@
 
     invoke-virtual {v2, v5}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v2, :cond_2
@@ -1377,7 +1287,6 @@
 
     invoke-virtual {v2, v5}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v2, :cond_3
@@ -1393,7 +1302,6 @@
 
     invoke-virtual {v2, v4}, Landroidx/recyclerview/widget/RecyclerView;->setItemAnimator(Landroidx/recyclerview/widget/RecyclerView$ItemAnimator;)V
 
-    .line 7
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
     move-result v2
@@ -1420,7 +1328,6 @@
 
     iput v2, p0, Lcom/commsource/studio/sticker/StickerFragment;->Q:I
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v2, :cond_4
@@ -1430,10 +1337,8 @@
     :cond_4
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ma;->b:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
-    .line 9
     invoke-virtual {v2, p0}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->x(Lcom/commsource/studio/sub/BaseSubTabFragment;)Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
-    .line 10
     invoke-static {}, Lcom/meitu/library/p/f/i;->g()F
 
     move-result v5
@@ -1457,10 +1362,8 @@
     :cond_5
     const/4 v5, 0x5
 
-    .line 11
     invoke-virtual {v2, v5}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->setDisplayCount(I)V
 
-    .line 12
     :cond_6
     sget-object v5, Lcom/commsource/studio/doodle/c;->w:Lcom/commsource/studio/doodle/c;
 
@@ -1470,21 +1373,18 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->setColorList(Ljava/util/List;)V
 
-    .line 13
     new-instance v5, Lcom/commsource/studio/sticker/StickerFragment$initView$$inlined$apply$lambda$1;
 
     invoke-direct {v5, p0}, Lcom/commsource/studio/sticker/StickerFragment$initView$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/sticker/StickerFragment;)V
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->q(Lcotlin/jvm/u/l;)V
 
-    .line 14
     new-instance v5, Lcom/commsource/studio/sticker/StickerFragment$initView$$inlined$apply$lambda$2;
 
     invoke-direct {v5, p0}, Lcom/commsource/studio/sticker/StickerFragment$initView$$inlined$apply$lambda$2;-><init>(Lcom/commsource/studio/sticker/StickerFragment;)V
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->r(Lcotlin/jvm/u/l;)V
 
-    .line 15
     new-instance v5, Lcom/commsource/studio/sticker/StickerFragment$initView$$inlined$apply$lambda$3;
 
     invoke-direct {v5, v2, p0}, Lcom/commsource/studio/sticker/StickerFragment$initView$$inlined$apply$lambda$3;-><init>(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;Lcom/commsource/studio/sticker/StickerFragment;)V
@@ -1493,10 +1393,8 @@
 
     const/4 v2, 0x2
 
-    .line 16
     invoke-static {p0, v1, v7, v2, v4}, Lcom/commsource/studio/sticker/StickerFragment;->x0(Lcom/commsource/studio/sticker/StickerFragment;ZZILjava/lang/Object;)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->O:Lcom/commsource/widget/h1/e;
 
     const-class v2, Lcom/meitu/template/bean/StickerGroup;
@@ -1507,7 +1405,6 @@
 
     invoke-virtual {v1, v2, v4}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v1, :cond_7
@@ -1525,7 +1422,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/LineSelectView;->setItemMargin(F)V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->O:Lcom/commsource/widget/h1/e;
 
     const-class v2, Ljava/lang/Integer;
@@ -1536,7 +1432,6 @@
 
     invoke-virtual {v1, v2, v4}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 20
     new-instance v1, Lcom/commsource/studio/sticker/k;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
@@ -1551,7 +1446,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->P:Lcom/commsource/studio/sticker/k;
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v1, :cond_8
@@ -1576,7 +1470,6 @@
     :cond_9
     invoke-virtual {v1, v2}, Landroidx/viewpager/widget/ViewPager;->setAdapter(Landroidx/viewpager/widget/PagerAdapter;)V
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v1, :cond_a
@@ -1592,7 +1485,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/viewpager/widget/ViewPager;->addOnPageChangeListener(Landroidx/viewpager/widget/ViewPager$OnPageChangeListener;)V
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v1, :cond_b
@@ -1608,7 +1500,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v1, :cond_c
@@ -1624,7 +1515,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 25
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1637,7 +1527,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v1
@@ -1660,7 +1549,6 @@
 
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyfilter/NoStickLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v1
@@ -1679,7 +1567,6 @@
 
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v1
@@ -1688,22 +1575,18 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object v2
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     new-instance v4, Lcom/commsource/studio/sticker/StickerFragment$m;
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/sticker/StickerFragment$m;-><init>(Lcom/commsource/studio/sticker/StickerFragment;)V
 
-    .line 6
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v1
@@ -1722,7 +1605,6 @@
 
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v1
@@ -1731,22 +1613,18 @@
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object v2
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 10
     new-instance v4, Lcom/commsource/studio/sticker/StickerFragment$o;
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/sticker/StickerFragment$o;-><init>(Lcom/commsource/studio/sticker/StickerFragment;)V
 
-    .line 11
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v1
@@ -1755,64 +1633,52 @@
 
     move-result-object v1
 
-    .line 13
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object v2
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 14
     new-instance v4, Lcom/commsource/studio/sticker/StickerFragment$p;
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/sticker/StickerFragment$p;-><init>(Lcom/commsource/studio/sticker/StickerFragment;)V
 
-    .line 15
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 16
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerManager;->N()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v2
 
-    .line 17
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object v4
 
     invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 18
     new-instance v5, Lcom/commsource/studio/sticker/StickerFragment$q;
 
     invoke-direct {v5, p0}, Lcom/commsource/studio/sticker/StickerFragment$q;-><init>(Lcom/commsource/studio/sticker/StickerFragment;)V
 
-    .line 19
     invoke-virtual {v2, v4, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 20
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerManager;->L()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v1
 
-    .line 21
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object v2
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 22
     new-instance v4, Lcom/commsource/studio/sticker/StickerFragment$r;
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/sticker/StickerFragment$r;-><init>(Lcom/commsource/studio/sticker/StickerFragment;)V
 
-    .line 23
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 24
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -1831,7 +1697,6 @@
 
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 25
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -1850,7 +1715,6 @@
 
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 26
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -1869,7 +1733,6 @@
 
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 27
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -1888,7 +1751,6 @@
 
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 28
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v1
@@ -1903,22 +1765,18 @@
 
     move-result-object v1
 
-    .line 29
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object v2
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 30
     new-instance v3, Lcom/commsource/studio/sticker/StickerFragment$j;
 
     invoke-direct {v3, p0}, Lcom/commsource/studio/sticker/StickerFragment$j;-><init>(Lcom/commsource/studio/sticker/StickerFragment;)V
 
-    .line 31
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 32
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1933,10 +1791,8 @@
 
     const/4 v1, -0x2
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/studio/sticker/StickerFragment;->u0(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -1955,22 +1811,18 @@
 
     const/4 v5, 0x0
 
-    .line 3
     invoke-static {v1, v2, v3, v4, v5}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameterInt$default(Lcom/commsource/beautyplus/router/RouterEntity;Ljava/lang/String;IILjava/lang/Object;)I
 
     move-result v2
 
     const-string v6, "content"
 
-    .line 4
     invoke-static {v1, v6, v3, v4, v5}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameterInt$default(Lcom/commsource/beautyplus/router/RouterEntity;Ljava/lang/String;IILjava/lang/Object;)I
 
     move-result v1
 
-    .line 5
     invoke-direct {p0, v2, v1}, Lcom/commsource/studio/sticker/StickerFragment;->p0(II)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1984,7 +1836,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v1, :cond_0
@@ -2004,7 +1855,6 @@
 
     invoke-static {v1, p1, v2, v3, v4}, Lcom/commsource/widget/LineSelectView;->j(Lcom/commsource/widget/LineSelectView;IZILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2023,7 +1873,6 @@
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v4
@@ -2040,7 +1889,6 @@
 
     if-eqz v4, :cond_a
 
-    .line 2
     instance-of v5, v4, Lcom/commsource/studio/bean/StickerLayerInfo;
 
     if-eqz v5, :cond_a
@@ -2055,7 +1903,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 3
     sget-object v9, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     move-object v10, v4
@@ -2084,7 +1931,6 @@
 
     if-nez v2, :cond_2
 
-    .line 4
     iget-object v7, v0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v7, :cond_0
@@ -2100,7 +1946,6 @@
 
     invoke-virtual {v7, v9}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->F(Lcotlin/jvm/u/a;)V
 
-    .line 5
     iget-object v7, v0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v7, :cond_1
@@ -2120,7 +1965,6 @@
 
     invoke-virtual {v7, v9, v11}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->E(Ljava/lang/Integer;Z)V
 
-    .line 6
     :cond_2
     iget-object v7, v0, Lcom/commsource/studio/sticker/StickerFragment;->O:Lcom/commsource/widget/h1/e;
 
@@ -2132,10 +1976,8 @@
 
     if-eqz v7, :cond_4
 
-    .line 7
     check-cast v7, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 8
     invoke-virtual {v10}, Lcom/commsource/studio/bean/StickerLayerInfo;->getSticker()Lcom/meitu/template/bean/Sticker;
 
     move-result-object v6
@@ -2160,7 +2002,6 @@
 
     if-eq v6, v7, :cond_a
 
-    .line 9
     iget-object v6, v0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v6, :cond_3
@@ -2190,7 +2031,6 @@
 
     goto/16 :goto_0
 
-    .line 10
     :cond_4
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -2200,7 +2040,6 @@
 
     throw v1
 
-    .line 11
     :cond_5
     sget-object v9, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
@@ -2230,7 +2069,6 @@
 
     if-nez v2, :cond_7
 
-    .line 12
     iget-object v7, v0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v7, :cond_6
@@ -2246,7 +2084,6 @@
 
     invoke-virtual {v7, v9}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->v(Lcotlin/jvm/u/a;)V
 
-    .line 13
     :cond_7
     iget-object v7, v0, Lcom/commsource/studio/sticker/StickerFragment;->O:Lcom/commsource/widget/h1/e;
 
@@ -2258,10 +2095,8 @@
 
     if-eqz v7, :cond_9
 
-    .line 14
     check-cast v7, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 15
     invoke-virtual {v10}, Lcom/commsource/studio/bean/StickerLayerInfo;->getSticker()Lcom/meitu/template/bean/Sticker;
 
     move-result-object v6
@@ -2286,7 +2121,6 @@
 
     if-eq v6, v7, :cond_a
 
-    .line 16
     iget-object v6, v0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v6, :cond_8
@@ -2314,7 +2148,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_9
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -2324,7 +2157,6 @@
 
     throw v1
 
-    .line 18
     :cond_a
     :goto_0
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2345,7 +2177,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/StickerFragment;->w0(ZZ)V
 
@@ -2361,12 +2192,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->R:Lcom/commsource/widget/s0;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/s0$a;
 
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -2381,19 +2210,16 @@
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/widget/s0$a;->f(Z)Lcom/commsource/widget/s0$a;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/widget/s0$a;->a()Lcom/commsource/widget/s0;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->R:Lcom/commsource/widget/s0;
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->R:Lcom/commsource/widget/s0;
 
@@ -2405,14 +2231,12 @@
 
     if-nez v1, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->R:Lcom/commsource/widget/s0;
 
     if-eqz v1, :cond_1
 
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2428,13 +2252,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->B()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->D0()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -2464,7 +2285,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->e2([Landroid/view/View;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2494,14 +2314,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerFragment$animateOut$1;
 
     invoke-direct {v1, p0, p3}, Lcom/commsource/studio/sticker/StickerFragment$animateOut$1;-><init>(Lcom/commsource/studio/sticker/StickerFragment;Lcotlin/jvm/u/a;)V
 
     invoke-super {p0, p1, p2, v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->E(ILandroid/view/View;Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2514,10 +2332,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->H()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v1
@@ -2528,7 +2344,6 @@
 
     invoke-virtual {v1}, Ljava/util/HashMap;->clear()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2541,7 +2356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2556,7 +2370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;
@@ -2589,7 +2402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2604,10 +2416,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->i()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v1
@@ -2616,29 +2426,24 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sticker/StickerViewModel;->O(Lcom/meitu/template/bean/Sticker;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v1
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sticker/StickerViewModel;->P(Lcom/meitu/template/bean/StickerGroup;)V
 
-    .line 4
     iget-boolean v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->S:Z
 
     if-eqz v1, :cond_0
 
     const/4 v1, 0x0
 
-    .line 5
     iput-boolean v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->S:Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
@@ -2650,7 +2455,6 @@
 
     invoke-virtual {v1}, Ljava/util/HashMap;->clear()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2681,7 +2485,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/ma;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/ma;
 
     move-result-object p1
@@ -2696,13 +2499,11 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/ma;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez p1, :cond_1
@@ -2744,13 +2545,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->S:Z
 
-    .line 2
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->onPause()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2763,10 +2561,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->onResume()V
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerConfig;->c0()Z
@@ -2779,7 +2575,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
     if-nez v1, :cond_0
@@ -2795,7 +2590,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->M:Lcom/commsource/beautyplus/f0/ma;
 
@@ -2810,7 +2604,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2836,21 +2629,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->q0()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->r0()V
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {p1}, Lf/d/i/h;->E1(Z)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2863,7 +2651,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->S:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2897,12 +2684,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v1
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerFragment;->o0()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v2
@@ -2911,7 +2696,6 @@
 
     move-result-object v2
 
-    .line 3
     const-class v3, Lcom/commsource/studio/sticker/h;
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
@@ -2920,7 +2704,6 @@
 
     new-array v4, v3, [Ljava/lang/Integer;
 
-    .line 4
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -2937,7 +2720,6 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/sticker/StickerFragment;->O:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
@@ -2946,7 +2728,6 @@
 
     invoke-virtual {v3, v1, v5}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->P:Lcom/commsource/studio/sticker/k;
 
     const-string v3, "mVpAdapter"
@@ -2958,7 +2739,6 @@
     :cond_0
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sticker/k;->f(Ljava/util/List;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment;->P:Lcom/commsource/studio/sticker/k;
 
     if-nez v1, :cond_1
@@ -2968,10 +2748,8 @@
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/k;->notifyDataSetChanged()V
 
-    .line 8
     invoke-direct {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment;->A0(I)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3047,7 +2825,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/sticker/StickerFragment;->S:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

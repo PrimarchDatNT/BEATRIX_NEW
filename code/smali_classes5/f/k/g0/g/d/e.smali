@@ -36,7 +36,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
@@ -51,10 +50,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/k/g0/g/d/e;->a:Landroid/content/Context;
 
     return-void
@@ -67,12 +64,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/d/e;->c:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     if-nez v1, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lf/k/g0/g/d/e;->a:Landroid/content/Context;
 
@@ -84,7 +79,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :catchall_0
     :cond_0
     iget-object v1, p0, Lf/k/g0/g/d/e;->c:Lcom/google/firebase/analytics/FirebaseAnalytics;
@@ -101,12 +95,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/d/e;->b:Lcom/google/firebase/analytics/a/a;
 
     if-nez v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {}, Lcom/google/firebase/analytics/a/b;->e()Lcom/google/firebase/analytics/a/a;
 
@@ -116,7 +108,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :catchall_0
     :cond_0
     iget-object v1, p0, Lf/k/g0/g/d/e;->b:Lcom/google/firebase/analytics/a/a;
@@ -143,14 +134,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/g0/g/d/e;->f()Lcom/google/firebase/analytics/a/a;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     :try_start_0
     invoke-direct {p0}, Lf/k/g0/g/d/e;->f()Lcom/google/firebase/analytics/a/a;
 
@@ -166,12 +155,10 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v2
 
-    .line 4
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3, v2}, Ljava/util/ArrayList;-><init>(I)V
@@ -181,52 +168,43 @@
     :goto_0
     if-ge v4, v2, :cond_0
 
-    .line 5
     invoke-interface {v1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/google/firebase/analytics/a/a$c;
 
-    .line 6
     new-instance v6, Lf/k/g0/g/d/d$a;
 
     invoke-direct {v6}, Lf/k/g0/g/d/d$a;-><init>()V
 
-    .line 7
     iget-wide v7, v5, Lcom/google/firebase/analytics/a/a$c;->m:J
 
     iput-wide v7, v6, Lf/k/g0/g/d/d$a;->d:J
 
-    .line 8
     iget-object v7, v5, Lcom/google/firebase/analytics/a/a$c;->b:Ljava/lang/String;
 
     iput-object v7, v6, Lf/k/g0/g/d/d$a;->a:Ljava/lang/String;
 
-    .line 9
     iget-object v7, v5, Lcom/google/firebase/analytics/a/a$c;->c:Ljava/lang/Object;
 
     iput-object v7, v6, Lf/k/g0/g/d/d$a;->b:Ljava/lang/Object;
 
-    .line 10
     iget-wide v7, v5, Lcom/google/firebase/analytics/a/a$c;->j:J
 
     iput-wide v7, v6, Lf/k/g0/g/d/d$a;->c:J
 
-    .line 11
     invoke-interface {v3, v4, v6}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v4, v4, 0x1
 
     goto :goto_0
 
-    .line 12
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 13
     :catchall_0
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
@@ -236,7 +214,6 @@
 
     return-object v1
 
-    .line 14
     :cond_1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
@@ -258,45 +235,37 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/g0/g/d/e;->f()Lcom/google/firebase/analytics/a/a;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Lcom/google/firebase/analytics/a/a$c;
 
     invoke-direct {v2}, Lcom/google/firebase/analytics/a/a$c;-><init>()V
 
     const-string v3, "app"
 
-    .line 3
     iput-object v3, v2, Lcom/google/firebase/analytics/a/a$c;->a:Ljava/lang/String;
 
-    .line 4
     iget-wide v3, p1, Lf/k/g0/g/d/d$a;->d:J
 
     iput-wide v3, v2, Lcom/google/firebase/analytics/a/a$c;->m:J
 
-    .line 5
     iget-object v3, p1, Lf/k/g0/g/d/d$a;->b:Ljava/lang/Object;
 
     iput-object v3, v2, Lcom/google/firebase/analytics/a/a$c;->c:Ljava/lang/Object;
 
-    .line 6
     iget-wide v3, p1, Lf/k/g0/g/d/d$a;->c:J
 
     iput-wide v3, v2, Lcom/google/firebase/analytics/a/a$c;->j:J
 
-    .line 7
     :try_start_0
     invoke-interface {v1, v2}, Lcom/google/firebase/analytics/a/a;->a(Lcom/google/firebase/analytics/a/a$c;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     :catchall_0
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -315,7 +284,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/g0/g/d/e;->f()Lcom/google/firebase/analytics/a/a;
 
     move-result-object v1
@@ -324,13 +292,11 @@
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     invoke-interface {v1, p1, v2, v2}, Lcom/google/firebase/analytics/a/a;->clearConditionalUserProperty(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :catchall_0
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -353,20 +319,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/g0/g/d/e;->e()Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {v1, p1, p2}, Lcom/google/firebase/analytics/FirebaseAnalytics;->b(Ljava/lang/String;Landroid/os/Bundle;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :catchall_0
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

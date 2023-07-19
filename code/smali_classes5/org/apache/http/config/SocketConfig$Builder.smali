@@ -36,17 +36,14 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lorg/apache/http/config/SocketConfig$Builder;->soLinger:I
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lorg/apache/http/config/SocketConfig$Builder;->tcpNoDelay:Z
 
     return-void
@@ -57,7 +54,6 @@
 .method public build()Lorg/apache/http/config/SocketConfig;
     .locals 10
 
-    .line 1
     new-instance v9, Lorg/apache/http/config/SocketConfig;
 
     iget v1, p0, Lorg/apache/http/config/SocketConfig$Builder;->soTimeout:I
@@ -86,7 +82,6 @@
 .method public setBacklogSize(I)Lorg/apache/http/config/SocketConfig$Builder;
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/http/config/SocketConfig$Builder;->backlogSize:I
 
     return-object p0
@@ -95,7 +90,6 @@
 .method public setRcvBufSize(I)Lorg/apache/http/config/SocketConfig$Builder;
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/http/config/SocketConfig$Builder;->rcvBufSize:I
 
     return-object p0
@@ -104,7 +98,6 @@
 .method public setSndBufSize(I)Lorg/apache/http/config/SocketConfig$Builder;
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/http/config/SocketConfig$Builder;->sndBufSize:I
 
     return-object p0
@@ -113,7 +106,6 @@
 .method public setSoKeepAlive(Z)Lorg/apache/http/config/SocketConfig$Builder;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/apache/http/config/SocketConfig$Builder;->soKeepAlive:Z
 
     return-object p0
@@ -122,7 +114,6 @@
 .method public setSoLinger(I)Lorg/apache/http/config/SocketConfig$Builder;
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/http/config/SocketConfig$Builder;->soLinger:I
 
     return-object p0
@@ -131,7 +122,6 @@
 .method public setSoReuseAddress(Z)Lorg/apache/http/config/SocketConfig$Builder;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/apache/http/config/SocketConfig$Builder;->soReuseAddress:Z
 
     return-object p0
@@ -140,7 +130,6 @@
 .method public setSoTimeout(I)Lorg/apache/http/config/SocketConfig$Builder;
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/http/config/SocketConfig$Builder;->soTimeout:I
 
     return-object p0
@@ -149,7 +138,6 @@
 .method public setTcpNoDelay(Z)Lorg/apache/http/config/SocketConfig$Builder;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/apache/http/config/SocketConfig$Builder;->tcpNoDelay:Z
 
     return-object p0

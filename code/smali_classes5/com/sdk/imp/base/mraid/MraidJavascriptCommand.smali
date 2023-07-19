@@ -48,7 +48,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
     const-string v1, "CLOSE"
@@ -61,7 +60,6 @@
 
     sput-object v0, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->CLOSE:Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
-    .line 2
     new-instance v1, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand$1;
 
     const-string v3, "EXPAND"
@@ -74,7 +72,6 @@
 
     sput-object v1, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->EXPAND:Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
-    .line 3
     new-instance v3, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
     const-string v5, "USE_CUSTOM_CLOSE"
@@ -87,7 +84,6 @@
 
     sput-object v3, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->USE_CUSTOM_CLOSE:Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
-    .line 4
     new-instance v5, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand$2;
 
     const-string v7, "OPEN"
@@ -100,7 +96,6 @@
 
     sput-object v5, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->OPEN:Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
-    .line 5
     new-instance v7, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand$3;
 
     const-string v9, "RESIZE"
@@ -113,7 +108,6 @@
 
     sput-object v7, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->RESIZE:Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
-    .line 6
     new-instance v9, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
     const-string v11, "SET_ORIENTATION_PROPERTIES"
@@ -126,7 +120,6 @@
 
     sput-object v9, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->SET_ORIENTATION_PROPERTIES:Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
-    .line 7
     new-instance v11, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand$4;
 
     const-string v13, "PLAY_VIDEO"
@@ -139,7 +132,6 @@
 
     sput-object v11, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->PLAY_VIDEO:Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
-    .line 8
     new-instance v13, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand$5;
 
     const-string v15, "STORE_PICTURE"
@@ -152,7 +144,6 @@
 
     sput-object v13, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->STORE_PICTURE:Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
-    .line 9
     new-instance v12, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand$6;
 
     const-string v15, "CREATE_CALENDAR_EVENT"
@@ -165,7 +156,6 @@
 
     sput-object v12, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->CREATE_CALENDAR_EVENT:Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
-    .line 10
     new-instance v10, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
     const-string v15, "UNSPECIFIED"
@@ -214,7 +204,6 @@
 
     aput-object v10, v8, v14
 
-    .line 11
     sput-object v8, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->$VALUES:[Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
     return-void
@@ -234,10 +223,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3
     iput-object p3, p0, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->mJavascriptString:Ljava/lang/String;
 
     return-void
@@ -246,7 +233,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;ILjava/lang/String;Lcom/sdk/imp/base/mraid/MraidJavascriptCommand$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     return-void
@@ -259,7 +245,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->values()[Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
     move-result-object v0
@@ -273,7 +258,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget-object v4, v3, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->mJavascriptString:Ljava/lang/String;
 
     invoke-virtual {v4, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -289,7 +273,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p0, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->UNSPECIFIED:Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
@@ -299,7 +282,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -314,7 +296,6 @@
 .method public static values()[Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->$VALUES:[Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
     invoke-virtual {v0}, [Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->clone()Ljava/lang/Object;
@@ -343,7 +324,6 @@
 .method toJavascriptString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->mJavascriptString:Ljava/lang/String;
 
     return-object v0

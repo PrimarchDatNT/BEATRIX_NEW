@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/ar/core/m0;Ljava/util/concurrent/atomic/AtomicBoolean;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ar/core/o0;->b:Lcom/google/ar/core/m0;
 
     iput-object p2, p0, Lcom/google/ar/core/o0;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -31,7 +30,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/o0;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x1
@@ -46,10 +44,8 @@
 
     const-string v1, "requestInstall timed out, launching fullscreen."
 
-    .line 2
     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     iget-object v0, p0, Lcom/google/ar/core/o0;->b:Lcom/google/ar/core/m0;
 
     iget-object v1, v0, Lcom/google/ar/core/m0;->c:Lcom/google/ar/core/e0;

@@ -30,7 +30,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableMultimap$c;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method public bridge synthetic a()Lcom/google/common/collect/ImmutableMultimap;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableListMultimap$a;->l()Lcom/google/common/collect/ImmutableListMultimap;
 
     move-result-object v0
@@ -54,7 +52,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableListMultimap$a;->m(Ljava/util/Comparator;)Lcom/google/common/collect/ImmutableListMultimap$a;
 
     move-result-object p1
@@ -67,7 +64,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableListMultimap$a;->n(Ljava/util/Comparator;)Lcom/google/common/collect/ImmutableListMultimap$a;
 
     move-result-object p1
@@ -80,7 +76,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableListMultimap$a;->o(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableListMultimap$a;
 
     move-result-object p1
@@ -93,7 +88,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableListMultimap$a;->p(Ljava/util/Map$Entry;)Lcom/google/common/collect/ImmutableListMultimap$a;
 
     move-result-object p1
@@ -106,7 +100,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableListMultimap$a;->q(Lcom/google/common/collect/l1;)Lcom/google/common/collect/ImmutableListMultimap$a;
 
     move-result-object p1
@@ -122,7 +115,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableListMultimap$a;->r(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableListMultimap$a;
 
     move-result-object p1
@@ -135,7 +127,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableListMultimap$a;->s(Ljava/lang/Object;Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableListMultimap$a;
 
     move-result-object p1
@@ -148,7 +139,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableListMultimap$a;->t(Ljava/lang/Object;[Ljava/lang/Object;)Lcom/google/common/collect/ImmutableListMultimap$a;
 
     move-result-object p1
@@ -166,7 +156,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/ImmutableMultimap$c;->a()Lcom/google/common/collect/ImmutableMultimap;
 
     move-result-object v0
@@ -191,7 +180,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableMultimap$c;->d(Ljava/util/Comparator;)Lcom/google/common/collect/ImmutableMultimap$c;
 
     return-object p0
@@ -212,7 +200,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableMultimap$c;->e(Ljava/util/Comparator;)Lcom/google/common/collect/ImmutableMultimap$c;
 
     return-object p0
@@ -231,7 +218,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/ImmutableMultimap$c;->f(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMultimap$c;
 
     return-object p0
@@ -252,7 +238,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableMultimap$c;->g(Ljava/util/Map$Entry;)Lcom/google/common/collect/ImmutableMultimap$c;
 
     return-object p0
@@ -273,7 +258,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableMultimap$c;->h(Lcom/google/common/collect/l1;)Lcom/google/common/collect/ImmutableMultimap$c;
 
     return-object p0
@@ -299,7 +283,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableMultimap$c;->i(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMultimap$c;
 
     return-object p0
@@ -320,7 +303,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/ImmutableMultimap$c;->j(Ljava/lang/Object;Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMultimap$c;
 
     return-object p0
@@ -339,7 +321,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/ImmutableMultimap$c;->k(Ljava/lang/Object;[Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMultimap$c;
 
     return-object p0

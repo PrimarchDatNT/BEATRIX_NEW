@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/internal/ManagedChannelImpl$t;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$t$c;->a:Lio/grpc/internal/ManagedChannelImpl$t;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$t$c;->a:Lio/grpc/internal/ManagedChannelImpl$t;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$t;->b:Lio/grpc/internal/ManagedChannelImpl;

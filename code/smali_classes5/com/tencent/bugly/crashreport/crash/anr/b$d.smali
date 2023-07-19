@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/crash/anr/b;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/crash/anr/b$d;->a:Lcom/tencent/bugly/crashreport/crash/anr/b;
 
     const/16 p1, 0x100
@@ -52,10 +51,8 @@
 
     const-string v2, "startWatchingPrivateAnrDir %s"
 
-    .line 1
     invoke-static {v2, v0}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/crash/anr/b$d;->a:Lcom/tencent/bugly/crashreport/crash/anr/b;
 
     invoke-static {v0, p2}, Lcom/tencent/bugly/crashreport/crash/anr/b;->a(Lcom/tencent/bugly/crashreport/crash/anr/b;Ljava/lang/String;)Z
@@ -68,12 +65,10 @@
 
     const-string p2, "trace file not caused by sigquit , ignore "
 
-    .line 3
     invoke-static {p2, p1}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
 
-    .line 4
     :cond_1
     iget-object p2, p0, Lcom/tencent/bugly/crashreport/crash/anr/b$d;->a:Lcom/tencent/bugly/crashreport/crash/anr/b;
 
@@ -83,7 +78,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 5
     iget-object p2, p0, Lcom/tencent/bugly/crashreport/crash/anr/b$d;->a:Lcom/tencent/bugly/crashreport/crash/anr/b;
 
     invoke-static {p2}, Lcom/tencent/bugly/crashreport/crash/anr/b;->b(Lcom/tencent/bugly/crashreport/crash/anr/b;)Lcom/tencent/bugly/proguard/ab;

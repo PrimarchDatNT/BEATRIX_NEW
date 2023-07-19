@@ -54,7 +54,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lokio/BufferedSink;
 
     invoke-virtual {p0, p1}, Lkshark/HprofWriter$write$2;->invoke(Lokio/BufferedSink;)V
@@ -75,7 +74,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lkshark/HprofWriter$write$2;->$record:Lkshark/m;
 
     check-cast v0, Lkshark/m$c;
@@ -86,7 +84,6 @@
 
     invoke-interface {p1, v0}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 3
     iget-object v0, p0, Lkshark/HprofWriter$write$2;->this$0:Lkshark/HprofWriter;
 
     iget-object v1, p0, Lkshark/HprofWriter$write$2;->$record:Lkshark/m;
@@ -99,7 +96,6 @@
 
     invoke-static {v0, p1, v1, v2}, Lkshark/HprofWriter;->a(Lkshark/HprofWriter;Lokio/BufferedSink;J)V
 
-    .line 4
     iget-object v0, p0, Lkshark/HprofWriter$write$2;->$record:Lkshark/m;
 
     check-cast v0, Lkshark/m$c;
@@ -110,7 +106,6 @@
 
     invoke-interface {p1, v0}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 5
     iget-object v0, p0, Lkshark/HprofWriter$write$2;->this$0:Lkshark/HprofWriter;
 
     iget-object v1, p0, Lkshark/HprofWriter$write$2;->$record:Lkshark/m;

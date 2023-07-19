@@ -43,10 +43,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
@@ -77,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/model/v;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/crashlytics/internal/model/v;-><init>(Ljava/util/List;)V
@@ -100,7 +97,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/model/v;
 
     invoke-static {p0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
@@ -126,7 +122,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
@@ -146,7 +141,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -170,7 +164,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->addAll(ILjava/util/Collection;)Z
@@ -194,7 +187,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
@@ -207,7 +199,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
@@ -222,7 +213,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
@@ -246,7 +236,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->containsAll(Ljava/util/Collection;)Z
@@ -263,7 +252,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->equals(Ljava/lang/Object;)Z
@@ -284,7 +272,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -297,7 +284,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->hashCode()I
@@ -314,7 +300,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
@@ -327,7 +312,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -350,7 +334,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -367,7 +350,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->lastIndexOf(Ljava/lang/Object;)I
@@ -390,7 +372,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->listIterator()Ljava/util/ListIterator;
@@ -413,7 +394,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->listIterator(I)Ljava/util/ListIterator;
@@ -431,7 +411,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
@@ -448,7 +427,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
@@ -472,7 +450,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->removeAll(Ljava/util/Collection;)Z
@@ -496,7 +473,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->retainAll(Ljava/util/Collection;)Z
@@ -521,7 +497,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
@@ -534,7 +509,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -557,7 +531,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->subList(II)Ljava/util/List;
@@ -572,7 +545,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->toArray()[Ljava/lang/Object;
@@ -596,7 +568,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/v;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;

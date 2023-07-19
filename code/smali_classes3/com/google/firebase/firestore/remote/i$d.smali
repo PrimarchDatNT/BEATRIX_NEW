@@ -24,14 +24,12 @@
 .method private constructor <init>(Lcom/google/firebase/firestore/remote/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/remote/i$d;->b:Lcom/google/firebase/firestore/remote/i;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/firebase/firestore/remote/i$d;->a:Z
 
     return-void
@@ -40,7 +38,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/firestore/remote/i;Lcom/google/firebase/firestore/remote/i$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/remote/i$d;-><init>(Lcom/google/firebase/firestore/remote/i;)V
 
     return-void
@@ -53,24 +50,20 @@
 
     const-string p2, "connectivity"
 
-    .line 1
     invoke-virtual {p1, p2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/net/ConnectivityManager;
 
-    .line 2
     invoke-virtual {p1}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p1
 
-    .line 3
     iget-boolean p2, p0, Lcom/google/firebase/firestore/remote/i$d;->a:Z
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result p1
@@ -91,7 +84,6 @@
 
     if-nez p2, :cond_2
 
-    .line 5
     iget-object p1, p0, Lcom/google/firebase/firestore/remote/i$d;->b:Lcom/google/firebase/firestore/remote/i;
 
     invoke-static {p1}, Lcom/google/firebase/firestore/remote/i;->d(Lcom/google/firebase/firestore/remote/i;)Ljava/util/List;
@@ -100,7 +92,6 @@
 
     monitor-enter v0
 
-    .line 6
     :try_start_0
     iget-object p1, p0, Lcom/google/firebase/firestore/remote/i$d;->b:Lcom/google/firebase/firestore/remote/i;
 
@@ -125,14 +116,12 @@
 
     check-cast p2, Lcom/google/firebase/firestore/util/m;
 
-    .line 7
     sget-object v1, Lcom/google/firebase/firestore/remote/ConnectivityMonitor$NetworkStatus;->REACHABLE:Lcom/google/firebase/firestore/remote/ConnectivityMonitor$NetworkStatus;
 
     invoke-interface {p2, v1}, Lcom/google/firebase/firestore/util/m;->accept(Ljava/lang/Object;)V
 
     goto :goto_1
 
-    .line 8
     :cond_1
     monitor-exit v0
 
@@ -152,7 +141,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 9
     iget-object p1, p0, Lcom/google/firebase/firestore/remote/i$d;->b:Lcom/google/firebase/firestore/remote/i;
 
     invoke-static {p1}, Lcom/google/firebase/firestore/remote/i;->d(Lcom/google/firebase/firestore/remote/i;)Ljava/util/List;
@@ -161,7 +149,6 @@
 
     monitor-enter p1
 
-    .line 10
     :try_start_1
     iget-object p2, p0, Lcom/google/firebase/firestore/remote/i$d;->b:Lcom/google/firebase/firestore/remote/i;
 
@@ -186,14 +173,12 @@
 
     check-cast v0, Lcom/google/firebase/firestore/util/m;
 
-    .line 11
     sget-object v1, Lcom/google/firebase/firestore/remote/ConnectivityMonitor$NetworkStatus;->UNREACHABLE:Lcom/google/firebase/firestore/remote/ConnectivityMonitor$NetworkStatus;
 
     invoke-interface {v0, v1}, Lcom/google/firebase/firestore/util/m;->accept(Ljava/lang/Object;)V
 
     goto :goto_2
 
-    .line 12
     :cond_3
     monitor-exit p1
 

@@ -56,10 +56,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     sget-object p1, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$consumeData$2;->INSTANCE:Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$consumeData$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -68,7 +66,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->a:Lcotlin/w;
 
-    .line 3
     sget-object p1, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$dialogEvent$2;->INSTANCE:Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$dialogEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -77,7 +74,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->b:Lcotlin/w;
 
-    .line 4
     sget-object p1, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$switchCrashDebugState$2;->INSTANCE:Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$switchCrashDebugState$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -86,7 +82,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->c:Lcotlin/w;
 
-    .line 5
     sget-object p1, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$switchCppCrashDebugState$2;->INSTANCE:Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$switchCppCrashDebugState$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -95,7 +90,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->d:Lcotlin/w;
 
-    .line 6
     sget-object p1, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$switchSoMissState$2;->INSTANCE:Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$switchSoMissState$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -106,13 +100,10 @@
 
     const/4 p1, 0x5
 
-    .line 7
     iput p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->g:I
 
-    .line 8
     iput p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->p:I
 
-    .line 9
     iput p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->J:I
 
     return-void
@@ -282,14 +273,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->p:I
 
     add-int/lit8 v1, v1, -0x1
 
     iput v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->p:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->C()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v1
@@ -302,17 +291,14 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     iget v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->p:I
 
     if-gtz v1, :cond_0
 
     const/4 v1, 0x5
 
-    .line 4
     iput v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->p:I
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -326,14 +312,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->g:I
 
     add-int/lit8 v1, v1, -0x1
 
     iput v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->g:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->D()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v1
@@ -346,17 +330,14 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     iget v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->g:I
 
     if-gtz v1, :cond_0
 
     const/4 v1, 0x5
 
-    .line 4
     iput v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->g:I
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -370,14 +351,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->J:I
 
     add-int/lit8 v1, v1, -0x1
 
     iput v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->J:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->E()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v1
@@ -390,17 +369,14 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     iget v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->J:I
 
     if-gtz v1, :cond_0
 
     const/4 v1, 0x5
 
-    .line 4
     iput v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->J:I
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -448,7 +424,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/GmsManager$a;->a()Lcom/commsource/billing/pro/GmsManager;
@@ -469,7 +444,6 @@
 
     invoke-virtual/range {v2 .. v8}, Lcom/commsource/billing/pro/GmsManager;->r(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcom/commsource/billing/pro/e;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -482,7 +456,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -508,7 +481,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -524,7 +496,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/GmsManager$a;->a()Lcom/commsource/billing/pro/GmsManager;
@@ -533,7 +504,6 @@
 
     invoke-virtual {v1, p0}, Lcom/commsource/billing/pro/GmsManager;->C(Lcom/commsource/billing/b$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -549,7 +519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/GmsManager$a;->a()Lcom/commsource/billing/pro/GmsManager;
@@ -558,7 +527,6 @@
 
     invoke-virtual {v1, p0}, Lcom/commsource/billing/pro/GmsManager;->A(Lcom/commsource/billing/b$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -573,10 +541,8 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->google_play_setup_failure:I
 
-    .line 1
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -601,7 +567,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -614,7 +579,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -627,7 +591,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/GmsManager$a;->a()Lcom/commsource/billing/pro/GmsManager;
@@ -640,7 +603,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/billing/pro/GmsManager;->g(Lf/k/h/a/l/y/c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -653,7 +615,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->B()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -662,7 +623,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$b;
 
     const-string v2, "Test-Create-DUMP"
@@ -671,7 +631,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

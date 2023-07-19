@@ -24,13 +24,10 @@
 .method public constructor <init>(Lcom/bumptech/glide/load/engine/x/d$c;J)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-wide p2, p0, Lcom/bumptech/glide/load/engine/x/d;->c:J
 
-    .line 5
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/x/d;->d:Lcom/bumptech/glide/load/engine/x/d$c;
 
     return-void
@@ -39,7 +36,6 @@
 .method public constructor <init>(Ljava/lang/String;J)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/engine/x/d$a;
 
     invoke-direct {v0, p1}, Lcom/bumptech/glide/load/engine/x/d$a;-><init>(Ljava/lang/String;)V
@@ -52,7 +48,6 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;J)V
     .locals 1
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/load/engine/x/d$b;
 
     invoke-direct {v0, p1, p2}, Lcom/bumptech/glide/load/engine/x/d$b;-><init>(Ljava/lang/String;Ljava/lang/String;)V
@@ -67,7 +62,6 @@
 .method public build()Lcom/bumptech/glide/load/engine/x/a;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/x/d;->d:Lcom/bumptech/glide/load/engine/x/d$c;
 
     invoke-interface {v0}, Lcom/bumptech/glide/load/engine/x/d$c;->a()Ljava/io/File;
@@ -80,7 +74,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
 
@@ -103,7 +96,6 @@
     :cond_1
     return-object v1
 
-    .line 3
     :cond_2
     iget-wide v1, p0, Lcom/bumptech/glide/load/engine/x/d;->c:J
 

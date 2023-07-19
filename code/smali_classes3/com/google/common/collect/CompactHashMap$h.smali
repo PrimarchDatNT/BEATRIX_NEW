@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/CompactHashMap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/CompactHashMap$h;->a:Lcom/google/common/collect/CompactHashMap;
 
     invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
@@ -42,7 +41,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$h;->a:Lcom/google/common/collect/CompactHashMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/CompactHashMap;->clear()V
@@ -60,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$h;->a:Lcom/google/common/collect/CompactHashMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/CompactHashMap;->valuesIterator()Ljava/util/Iterator;
@@ -73,7 +70,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$h;->a:Lcom/google/common/collect/CompactHashMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/CompactHashMap;->size()I

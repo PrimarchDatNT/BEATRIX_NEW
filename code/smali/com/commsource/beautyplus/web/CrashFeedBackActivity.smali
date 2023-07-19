@@ -22,10 +22,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity$f;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/web/CrashFeedBackActivity$f;-><init>(Lcom/commsource/beautyplus/web/CrashFeedBackActivity;)V
@@ -42,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->V0(Ljava/lang/String;)Z
 
     move-result p0
@@ -59,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->P:Landroid/view/View;
 
     if-nez p0, :cond_0
@@ -81,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
 
     if-nez p0, :cond_0
@@ -103,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->O:Lcom/commsource/beautyplus/web/CrashFeedBackViewModel;
 
     if-nez p0, :cond_0
@@ -125,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->P:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->O:Lcom/commsource/beautyplus/web/CrashFeedBackViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -170,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->Y0(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -185,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -196,19 +185,16 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->alert_empty_contact:I
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-static {p1}, Lf/k/c/c/f;->I(Ljava/lang/CharSequence;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->O:Lcom/commsource/beautyplus/web/CrashFeedBackViewModel;
 
@@ -227,14 +213,12 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->email_error:I
 
-    .line 5
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-static {p1}, Lf/k/c/c/f;->I(Ljava/lang/CharSequence;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -242,7 +226,6 @@
     :cond_2
     const/4 p1, 0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -257,7 +240,6 @@
 
     sget v1, Lcom/res/provider/ResLAYOUT;->activity_crash_feed_back:I
 
-    .line 1
     invoke-static {p0, v1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -272,7 +254,6 @@
 
     const v1, 0x1020002
 
-    .line 2
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -297,7 +278,6 @@
 
     const-string v2, "mChildOfContent"
 
-    .line 3
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -309,7 +289,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
 
     const-string v2, "mViewBinding"
@@ -327,7 +306,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/montage/CustomSeekbar;->setOnProgressChangeListener(Lcom/commsource/camera/montage/CustomSeekbar$a;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
 
     if-nez v1, :cond_2
@@ -343,7 +321,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
 
     if-nez v1, :cond_3
@@ -359,7 +336,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
 
     if-nez v1, :cond_4
@@ -377,7 +353,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/montage/CustomSeekbar;->setProgress(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
 
     if-nez v1, :cond_5
@@ -393,12 +368,10 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_6
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -418,7 +391,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {v1, p0}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -441,7 +413,6 @@
 
     const-string v2, "mViewModel"
 
-    .line 2
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -455,7 +426,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -468,7 +438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
 
     const-string v2, "mViewBinding"
@@ -490,7 +459,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
 
     if-nez v1, :cond_1
@@ -537,7 +505,6 @@
 
     if-nez p1, :cond_4
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
 
     if-nez p1, :cond_3
@@ -561,7 +528,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_4
     iget-object v6, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
 
@@ -580,7 +546,6 @@
 
     if-ne p1, v6, :cond_7
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
 
     if-nez p1, :cond_6
@@ -602,7 +567,6 @@
 
     sub-float/2addr v1, p1
 
-    .line 6
     :cond_7
     :goto_0
     iget-object p1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->N:Lcom/commsource/beautyplus/f0/m;
@@ -639,7 +603,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -723,13 +686,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/util/h2;->e(Landroid/app/Activity;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -746,16 +706,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->W0()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->X0()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -768,10 +724,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->P:Landroid/view/View;
 
     if-nez v1, :cond_0
@@ -789,7 +743,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewTreeObserver;->removeGlobalOnLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

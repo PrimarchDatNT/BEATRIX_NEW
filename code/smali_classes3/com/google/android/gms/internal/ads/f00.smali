@@ -14,10 +14,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/um;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/f00;->a:Lcom/google/android/gms/internal/ads/um;
 
     return-void
@@ -39,7 +37,6 @@
 
     const-string v0, "key"
 
-    .line 1
     invoke-interface {p1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -56,14 +53,12 @@
 
     const-string v1, "auto_collect_location"
 
-    .line 2
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/f00;->a:Lcom/google/android/gms/internal/ads/um;
 
     invoke-static {p1}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z

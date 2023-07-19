@@ -86,10 +86,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -98,15 +96,12 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lf/k/g/b/b;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->enableFPSLimiter:Z
 
-    .line 3
     new-instance v1, Lcom/meitu/mtmvcore/application/a;
 
     const/high16 v2, 0x41f00000    # 30.0f
@@ -115,10 +110,8 @@
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->fpsLimiter:Lcom/meitu/mtmvcore/application/a;
 
-    .line 4
     iput-boolean v0, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mFistRecord:Z
 
-    .line 5
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -127,25 +120,20 @@
 
     iput-object v0, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mIsAllowRender:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 6
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
     iput-object v0, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mIsInitOffscreenEnv:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 7
     iput v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mFrameBufferId:I
 
-    .line 8
     iput v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mTextureId:I
 
-    .line 9
     sget-object v0, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_CONTEXT:Ljavax/microedition/khronos/egl/EGLContext;
 
     iput-object v0, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mSharedEglContext:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 10
     sget-object v0, Landroid/opengl/EGL14;->EGL_NO_CONTEXT:Landroid/opengl/EGLContext;
 
     iput-object v0, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mSharedEglContext2:Landroid/opengl/EGLContext;
@@ -169,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/util/Pair;
 
     invoke-static {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->toMultipleOf16(I)I
@@ -212,7 +199,6 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -220,7 +206,6 @@
     :cond_0
     const/4 p1, 0x3
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -228,12 +213,10 @@
     :cond_1
     const/4 p1, 0x6
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -247,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mOffScreenThread:Lcom/meitu/mtmvcore/backend/android/r/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -262,7 +244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->actionCreate(II)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -277,7 +258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeTouchesCancel([I[F[F)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -292,7 +272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeTouchesMove([I[F[F)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -307,7 +286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeSetEGLDelegate(Lcom/meitu/mtmvcore/application/EGLContextDelegate;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -322,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeReleaseGL_stop()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -337,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeReleaseGL_end()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -352,7 +328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeDelete()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -367,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getAudioBufferData(Ljava/nio/ByteBuffer;I)I
 
     move-result p0
@@ -384,7 +358,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->handleRecordError()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -399,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -414,7 +386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mOffscreenLooper:Landroid/os/Looper;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -429,7 +400,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->actionResize(II)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -444,7 +414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->initPlayer()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -459,7 +428,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mFrameBufferId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -474,7 +442,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->actionRender()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -489,7 +456,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->actionPause()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -504,7 +470,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->actionResume()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -519,7 +484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -534,7 +498,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -549,7 +512,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeTouchesBegin(IFF)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -564,7 +526,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeTouchesEnd(IFF)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -579,7 +540,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     if-nez v1, :cond_0
@@ -588,27 +548,21 @@
 
     const-string p2, "player is release, cannot actionCreate"
 
-    .line 2
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeInit(II)V
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->listener:Lcom/meitu/mtmvcore/application/MTMVCoreApplication$t;
 
     if-eqz p1, :cond_1
 
-    .line 6
     invoke-interface {p1, p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$t;->a(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
-    .line 7
     :cond_1
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
@@ -624,12 +578,10 @@
 
     if-lt p1, p2, :cond_2
 
-    .line 8
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/h;->k()V
 
-    .line 9
     :cond_2
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -641,7 +593,6 @@
 
     iput-wide p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->glThreadId:J
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -654,10 +605,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeOnPause()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -670,10 +619,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->checkNativeApplication()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->enableFPSLimiter:Z
 
     if-eqz v1, :cond_0
@@ -686,12 +633,10 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->fpsLimiter:Lcom/meitu/mtmvcore/application/a;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/a;->a()V
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeRender()V
 
@@ -699,10 +644,8 @@
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-static {v1, v2}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -715,15 +658,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeOnSurfaceChanged(II)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->fpsLimiter:Lcom/meitu/mtmvcore/application/a;
 
     invoke-virtual {p1}, Lcom/meitu/mtmvcore/application/a;->b()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -736,10 +676,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeOnResume()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -752,7 +690,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mNativeApplication:J
 
     const-wide/16 v3, 0x0
@@ -761,12 +698,10 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -786,7 +721,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     if-eqz v1, :cond_2
@@ -803,7 +737,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     new-instance v2, Lcom/meitu/media/encoder/b$a;
 
@@ -815,7 +748,6 @@
 
     invoke-direct {v2, v3}, Lcom/meitu/media/encoder/b$a;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getMVSizeWidth()I
 
     move-result v3
@@ -828,7 +760,6 @@
 
     move-result-object v3
 
-    .line 4
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getVideoOutputCodec()I
 
     move-result v4
@@ -841,7 +772,6 @@
 
     move-result-object v3
 
-    .line 5
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getVideoOutputBitrate()J
 
     move-result-wide v4
@@ -852,7 +782,6 @@
 
     move-result-object v3
 
-    .line 6
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getAudioOutputBitrate()J
 
     move-result-wide v4
@@ -863,7 +792,6 @@
 
     move-result-object v3
 
-    .line 7
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getVideoOutputFrameRate()I
 
     move-result v4
@@ -872,7 +800,6 @@
 
     move-result-object v3
 
-    .line 8
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getAudioTSPath()Ljava/lang/String;
 
     move-result-object v4
@@ -881,7 +808,6 @@
 
     move-result-object v3
 
-    .line 9
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getVideoTSPath()Ljava/lang/String;
 
     move-result-object v4
@@ -890,14 +816,12 @@
 
     move-result-object v3
 
-    .line 10
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getTSSegmentDuration()F
 
     move-result v4
 
     invoke-virtual {v3, v4}, Lcom/meitu/media/encoder/b$a;->j(F)Lcom/meitu/media/encoder/b$a;
 
-    .line 11
     invoke-virtual {v2}, Lcom/meitu/media/encoder/b$a;->a()Lcom/meitu/media/encoder/b;
 
     move-result-object v2
@@ -909,7 +833,6 @@
     :catch_0
     move-exception v2
 
-    .line 12
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
 
     move-object v2, v1
@@ -917,12 +840,10 @@
     :goto_0
     if-nez v2, :cond_0
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 14
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
@@ -932,12 +853,10 @@
 
     if-nez v1, :cond_1
 
-    .line 15
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/h;->e(Lcom/meitu/media/encoder/b;)V
 
-    .line 16
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/h;->d()Lcom/meitu/media/encoder/a;
@@ -952,7 +871,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->u0(I)V
 
-    .line 17
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     new-instance v2, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$e;
@@ -961,7 +879,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/h;->i(Lcom/meitu/media/encoder/h$e;)V
 
-    .line 18
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/h;->d()Lcom/meitu/media/encoder/a;
@@ -976,13 +893,11 @@
 
     goto :goto_1
 
-    .line 19
     :cond_1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/h;->h(Lcom/meitu/media/encoder/b;)V
 
-    .line 20
     :cond_2
     :goto_1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
@@ -1002,30 +917,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mInstance:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v2, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     monitor-enter v2
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mInstance:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     if-nez v1, :cond_0
 
-    .line 4
     new-instance v1, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-direct {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;-><init>()V
 
     sput-object v1, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mInstance:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
-    .line 5
     :cond_0
     sget-object v1, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mInstance:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
@@ -1040,7 +950,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     :try_start_1
     monitor-exit v2
     :try_end_1
@@ -1050,7 +959,6 @@
 
     throw v1
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1067,7 +975,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     const-string v2, "MTMVCoreApplication"
@@ -1076,10 +983,8 @@
 
     const-string v1, "cannot call handleRecordError, mtmvplayer object is release"
 
-    .line 2
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1093,25 +998,20 @@
 
     const/4 v6, 0x0
 
-    .line 4
     invoke-virtual {v1, v3, v4, v6, v5}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->postEvent(IIILjava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->stop()V
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     invoke-virtual {v1, v6}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->setHardwareMode(Z)V
 
     const-string v1, "handleRecordError"
 
-    .line 7
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1124,14 +1024,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/concurrent/Semaphore;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mEventHandler:Landroid/os/Handler;
 
     new-instance v3, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$i;
@@ -1140,7 +1038,6 @@
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 3
     :try_start_0
     invoke-virtual {v1}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -1151,10 +1048,8 @@
     :catch_0
     move-exception v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1168,7 +1063,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -1177,17 +1071,14 @@
 
     const-string v4, "prepare to initNativeResource"
 
-    .line 2
     invoke-static {v3, v4}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     new-instance v4, Ljava/util/concurrent/Semaphore;
 
     const/4 v5, 0x0
 
     invoke-direct {v4, v5}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 4
     new-instance v5, Lcom/meitu/mtmvcore/backend/android/r/a;
 
     new-instance v6, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$h;
@@ -1198,10 +1089,8 @@
 
     iput-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mOffScreenThread:Lcom/meitu/mtmvcore/backend/android/r/a;
 
-    .line 5
     invoke-virtual {v5}, Landroid/os/HandlerThread;->start()V
 
-    .line 6
     :try_start_0
     invoke-virtual {v4}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -1212,10 +1101,8 @@
     :catch_0
     move-exception v4
 
-    .line 7
     invoke-virtual {v4}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 8
     :goto_0
     new-instance v4, Landroid/os/HandlerThread;
 
@@ -1225,10 +1112,8 @@
 
     iput-object v4, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mEventThread:Landroid/os/HandlerThread;
 
-    .line 9
     invoke-virtual {v4}, Landroid/os/HandlerThread;->start()V
 
-    .line 10
     iget-object v4, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mEventThread:Landroid/os/HandlerThread;
 
     invoke-virtual {v4}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
@@ -1237,7 +1122,6 @@
 
     iput-object v4, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mEventLooper:Landroid/os/Looper;
 
-    .line 11
     new-instance v4, Landroid/os/Handler;
 
     iget-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mEventLooper:Landroid/os/Looper;
@@ -1248,13 +1132,10 @@
 
     const-string v4, "event thread onInitComplete"
 
-    .line 12
     invoke-static {v3, v4}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->initNativeEnv()V
 
-    .line 14
     new-instance v4, Lcom/meitu/mtmvcore/backend/android/r/b;
 
     iget-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
@@ -1265,17 +1146,14 @@
 
     iput-object v4, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
 
-    .line 15
     sget-object v5, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->app:Landroid/app/Application;
 
     invoke-virtual {v4, v5}, Lcom/meitu/mtmvcore/backend/android/r/b;->m(Landroid/app/Application;)V
 
-    .line 16
     iget-object v4, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
 
     invoke-virtual {v4, p0}, Lcom/meitu/mtmvcore/backend/android/r/b;->n(Lcom/meitu/mtmvcore/backend/android/r/c;)V
 
-    .line 17
     iget-object v4, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
 
     iget-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
@@ -1284,22 +1162,18 @@
 
     const-string v4, "Instantiation BackgroundSaveDelegate object complete"
 
-    .line 18
     invoke-static {v3, v4}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 19
     iget-object v4, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mIsInitOffscreenEnv:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v5, 0x1
 
     invoke-virtual {v4, v5}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 20
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 21
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -1318,7 +1192,6 @@
 
     invoke-static {v3, v1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1331,32 +1204,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeCreate()V
 
-    .line 2
     new-instance v1, Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     invoke-direct {v1, p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer;-><init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
-    .line 3
     invoke-virtual {v1, p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->setOnSaveListenerInternal(Lcom/meitu/mtmvcore/application/MTMVPlayer$i;)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     invoke-virtual {v1, p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->setOnPlayerActionListener(Lcom/meitu/mtmvcore/application/MTMVPlayer$f;)V
 
-    .line 5
     new-instance v1, Lcom/meitu/media/encoder/h;
 
     invoke-direct {v1}, Lcom/meitu/media/encoder/h;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     new-instance v2, Ljava/lang/ref/WeakReference;
@@ -1367,7 +1234,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->setAVRecorder(Ljava/lang/ref/WeakReference;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1389,14 +1255,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$d;
 
     invoke-direct {v1, p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$d;-><init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->syncRunCallableInOffscreenThread(Ljava/util/concurrent/Callable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1450,10 +1314,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTMVConfig;->setLogLevel(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1466,7 +1328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     rem-int/lit8 v1, p0, 0x10
 
     if-eqz v1, :cond_1
@@ -1484,7 +1345,6 @@
 
     add-int/2addr p0, v1
 
-    .line 2
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1503,7 +1363,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v1
@@ -1514,7 +1373,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mIsInitOffscreenEnv:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -1523,7 +1381,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->initNativeResource()V
 
     goto :goto_0
@@ -1533,16 +1390,13 @@
 
     const-string v2, "Cannot init mtmvcore, it has been initialized"
 
-    .line 4
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -1562,24 +1416,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/concurrent/Semaphore;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v3, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$k;
 
@@ -1587,7 +1437,6 @@
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     :try_start_0
     invoke-virtual {v1}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -1598,10 +1447,8 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1617,7 +1464,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v1
@@ -1628,7 +1474,6 @@
 
     if-ne v1, v2, :cond_6
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mIsInitOffscreenEnv:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -1641,10 +1486,8 @@
 
     const-string v1, "Cannot be destroyed without initialization native resource"
 
-    .line 3
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1652,28 +1495,22 @@
     :cond_0
     const-string v1, "prepare to destroyAllResource"
 
-    .line 5
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
     const/4 v1, 0x0
 
-    .line 7
     invoke-virtual {p0, v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->setAllowRender(Z)V
 
-    .line 8
     iget-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     if-eqz v5, :cond_1
 
-    .line 9
     invoke-virtual {v5, v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->stopAndRelease(Z)V
 
-    .line 10
     :cond_1
     iget-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
 
@@ -1681,44 +1518,34 @@
 
     if-eqz v5, :cond_2
 
-    .line 11
     invoke-virtual {v5}, Lcom/meitu/mtmvcore/backend/android/r/b;->h()V
 
-    .line 12
     iput-object v6, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
 
     const-string v5, "release BackgroundSaveDelegate object"
 
-    .line 13
     invoke-static {v2, v5}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     :cond_2
     iget-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mEventHandler:Landroid/os/Handler;
 
     if-eqz v5, :cond_3
 
-    .line 15
     invoke-virtual {v5, v6}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 16
     iput-object v6, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mEventHandler:Landroid/os/Handler;
 
     const-string v5, "release event thread handler and reset obj to null"
 
-    .line 17
     invoke-static {v2, v5}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 18
     :cond_3
     iget-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mEventThread:Landroid/os/HandlerThread;
 
     if-eqz v5, :cond_4
 
-    .line 19
     invoke-virtual {v5}, Landroid/os/HandlerThread;->quit()Z
 
-    .line 20
     :try_start_0
     iget-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mEventThread:Landroid/os/HandlerThread;
 
@@ -1731,10 +1558,8 @@
     :catch_0
     move-exception v5
 
-    .line 21
     invoke-virtual {v5}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 22
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -1755,42 +1580,34 @@
 
     invoke-static {v2, v5}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 23
     :goto_0
     iput-object v6, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mEventThread:Landroid/os/HandlerThread;
 
     const-string v5, "quit event thread and reset obj to null"
 
-    .line 24
     invoke-static {v2, v5}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 25
     :cond_4
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->dispose()V
 
     const-string v5, "call destroy complete"
 
-    .line 26
     invoke-static {v2, v5}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 27
     iget-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-eqz v5, :cond_5
 
     const-string v5, "mHandler object is not null, so remove it"
 
-    .line 28
     invoke-static {v2, v5}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 29
     new-instance v5, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$j;
 
     invoke-direct {v5, p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$j;-><init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
     invoke-virtual {p0, v5}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->syncRunCallableInOffscreenThread(Ljava/util/concurrent/Callable;)V
 
-    .line 30
     iput-object v6, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     goto :goto_1
@@ -1798,24 +1615,19 @@
     :cond_5
     const-string v5, "cannot destroy offscreen egl, Handler object is null"
 
-    .line 31
     invoke-static {v2, v5}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 32
     :goto_1
     iput-object v6, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mOffScreenThread:Lcom/meitu/mtmvcore/backend/android/r/a;
 
-    .line 33
     iget-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mIsInitOffscreenEnv:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v5, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 34
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
 
-    .line 35
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1834,12 +1646,10 @@
 
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 36
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 37
     :cond_6
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -1859,26 +1669,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     iget-object v3, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     const-string v4, "MTMVCoreApplication"
 
     if-eqz v3, :cond_1
 
-    .line 3
     invoke-virtual {v3}, Lcom/meitu/media/encoder/h;->d()Lcom/meitu/media/encoder/a;
 
     move-result-object v3
 
     if-eqz v3, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {v3}, Lcom/meitu/media/encoder/h;->d()Lcom/meitu/media/encoder/a;
@@ -1887,7 +1693,6 @@
 
     invoke-virtual {v3}, Lcom/meitu/media/encoder/a;->O0()V
 
-    .line 5
     iget-object v3, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {v3}, Lcom/meitu/media/encoder/h;->c()Lcom/meitu/media/encoder/b;
@@ -1900,7 +1705,6 @@
 
     invoke-virtual {v3}, Lcom/meitu/media/encoder/Muxer;->l()V
 
-    .line 6
     iget-object v3, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {v3}, Lcom/meitu/media/encoder/h;->d()Lcom/meitu/media/encoder/a;
@@ -1911,10 +1715,8 @@
 
     const-string v3, "dispose(), release mtavrecorder encoder finish"
 
-    .line 7
     invoke-static {v4, v3}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     :cond_0
     new-instance v3, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$p;
 
@@ -1922,7 +1724,6 @@
 
     invoke-virtual {p0, v3}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->syncRunCallableInOffscreenThread(Ljava/util/concurrent/Callable;)V
 
-    .line 9
     :cond_1
     iget-wide v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mNativeApplication:J
 
@@ -1934,20 +1735,16 @@
 
     if-eqz v9, :cond_2
 
-    .line 10
     iget-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     const/4 v6, 0x0
 
     invoke-virtual {v5, v6}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->stopAndRelease(Z)V
 
-    .line 11
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->nativeDestroyOnGL()V
 
-    .line 12
     iput-object v3, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
-    .line 13
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -1966,30 +1763,24 @@
 
     invoke-static {v4, v5}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     :cond_2
     iget-object v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->listener:Lcom/meitu/mtmvcore/application/MTMVCoreApplication$t;
 
     if-eqz v5, :cond_3
 
-    .line 15
     invoke-interface {v5, p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$t;->b(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
-    .line 16
     iput-object v3, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->listener:Lcom/meitu/mtmvcore/application/MTMVCoreApplication$t;
 
     const-string v3, "dispose(), reset listener to null"
 
-    .line 17
     invoke-static {v4, v3}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 18
     :cond_3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
 
-    .line 19
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -2008,7 +1799,6 @@
 
     invoke-static {v4, v1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2021,7 +1811,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mFrameBufferId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2036,7 +1825,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->listener:Lcom/meitu/mtmvcore/application/MTMVCoreApplication$t;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2051,10 +1839,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->checkNativeApplication()V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mNativeApplication:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2071,7 +1857,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getMVSizeHeight()I
 
     move-result v1
@@ -2090,7 +1875,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getMVSizeWidth()I
 
     move-result v1
@@ -2109,7 +1893,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2124,7 +1907,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mSharedEglContext:Ljavax/microedition/khronos/egl/EGLContext;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2139,7 +1921,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mSharedEglContext2:Landroid/opengl/EGLContext;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2156,7 +1937,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -2173,7 +1953,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -2188,7 +1967,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mTextureId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2211,7 +1989,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     if-nez v1, :cond_0
@@ -2220,17 +1997,14 @@
 
     const-string v2, "MTMVPlay is been release"
 
-    .line 2
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/lang/ref/WeakReference;
 
@@ -2253,7 +2027,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
 
     if-eqz v1, :cond_0
@@ -2295,7 +2068,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mNativeApplication:J
 
     const-wide/16 v3, 0x0
@@ -2324,7 +2096,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2337,7 +2108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2354,10 +2124,8 @@
 
     const-string v2, "OnSaveBegan receive!!!"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->getHardwareMode()Z
@@ -2366,10 +2134,8 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->createMTAVRecorderIfNecessary()Lcom/meitu/media/encoder/h;
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     if-eqz v1, :cond_0
@@ -2380,7 +2146,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/h;->d()Lcom/meitu/media/encoder/a;
@@ -2391,13 +2156,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->stop()V
 
-    .line 7
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
@@ -2410,12 +2173,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 8
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtmvcore/backend/android/r/b;->i(Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2433,10 +2194,8 @@
 
     const-string v2, "OnSaveCanceled receive!!!"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->getHardwareMode()Z
@@ -2445,7 +2204,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     if-eqz v1, :cond_0
@@ -2456,7 +2214,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/h;->d()Lcom/meitu/media/encoder/a;
@@ -2465,7 +2222,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/a;->O0()V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/h;->c()Lcom/meitu/media/encoder/b;
@@ -2478,7 +2234,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/Muxer;->l()V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
 
@@ -2490,12 +2245,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtmvcore/backend/android/r/b;->j(Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2513,10 +2266,8 @@
 
     const-string v2, "OnSaveEnded receive!!!"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->getHardwareMode()Z
@@ -2525,7 +2276,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     if-eqz v1, :cond_0
@@ -2536,7 +2286,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/h;->d()Lcom/meitu/media/encoder/a;
@@ -2545,7 +2294,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/a;->O0()V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/h;->c()Lcom/meitu/media/encoder/b;
@@ -2558,7 +2306,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/Muxer;->l()V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
 
@@ -2570,12 +2317,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtmvcore/backend/android/r/b;->k(Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2589,7 +2334,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     invoke-virtual {v0}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->getHardwareMode()Z
@@ -2598,12 +2342,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mMTAVRecorder:Lcom/meitu/media/encoder/h;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getRenderTexture()I
 
     move-result v1
@@ -2620,7 +2362,6 @@
 
     if-nez p2, :cond_0
 
-    .line 4
     :try_start_0
     iget-object p2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->player:Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
@@ -2641,10 +2382,8 @@
     :catch_0
     move-exception p2
 
-    .line 5
     invoke-virtual {p2}, Ljava/lang/NullPointerException;->printStackTrace()V
 
-    .line 6
     :cond_0
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2663,10 +2402,8 @@
 
     const-string v1, "onSaveSegmentComplete receive!!!"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2679,7 +2416,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2698,7 +2434,6 @@
 
     invoke-static {v0, p2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2711,24 +2446,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/concurrent/Semaphore;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v3, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$n;
 
@@ -2736,7 +2467,6 @@
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     :try_start_0
     invoke-virtual {v1}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -2747,10 +2477,8 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2766,20 +2494,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mBackgroundSaveDelegate:Lcom/meitu/mtmvcore/backend/android/r/b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/mtmvcore/backend/android/r/b;->l(Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -2799,7 +2523,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
@@ -2812,12 +2535,10 @@
 
     aput-boolean v3, v2, v3
 
-    .line 2
     new-instance v4, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$c;
 
     invoke-direct {v4, p0, v1, v2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$c;-><init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;Ljava/lang/Object;[Z)V
 
-    .line 3
     iget-wide v5, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->glThreadId:J
 
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
@@ -2832,19 +2553,15 @@
 
     if-nez v9, :cond_0
 
-    .line 4
     invoke-interface {v4}, Ljava/lang/Runnable;->run()V
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-virtual {p0, v4}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->runRunnableInOffscreenThread(Ljava/lang/Runnable;)V
 
-    .line 6
     monitor-enter v1
 
-    .line 7
     :goto_0
     :try_start_0
     aget-boolean v4, v2, v3
@@ -2853,7 +2570,6 @@
 
     if-nez v4, :cond_1
 
-    .line 8
     :try_start_1
     invoke-virtual {v1}, Ljava/lang/Object;->wait()V
     :try_end_1
@@ -2865,19 +2581,16 @@
     :catch_0
     move-exception v4
 
-    .line 9
     :try_start_2
     invoke-virtual {v4}, Ljava/lang/InterruptedException;->printStackTrace()V
 
     goto :goto_0
 
-    .line 10
     :cond_1
     monitor-exit v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 11
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2886,7 +2599,6 @@
     :catchall_0
     move-exception v2
 
-    .line 12
     :try_start_3
     monitor-exit v1
     :try_end_3
@@ -2904,7 +2616,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mIsAllowRender:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -2913,12 +2624,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/util/concurrent/Semaphore;
 
@@ -2926,17 +2635,14 @@
 
     invoke-direct {v1, v2}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-nez v2, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     new-instance v3, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$m;
 
@@ -2944,7 +2650,6 @@
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 7
     :try_start_0
     invoke-virtual {v1}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -2955,10 +2660,8 @@
     :catch_0
     move-exception v1
 
-    .line 8
     invoke-virtual {v1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2972,7 +2675,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-eqz v1, :cond_1
@@ -2983,16 +2685,13 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/mtmvcore/backend/android/r/a;->m(Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3007,32 +2706,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_CONTEXT:Ljavax/microedition/khronos/egl/EGLContext;
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mSharedEglContext:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 2
     sget-object v1, Landroid/opengl/EGL14;->EGL_NO_CONTEXT:Landroid/opengl/EGLContext;
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mSharedEglContext2:Landroid/opengl/EGLContext;
 
     const/4 v1, 0x0
 
-    .line 3
     iput v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mFrameBufferId:I
 
-    .line 4
     iput v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mTextureId:I
 
     const-string v1, "MTMVCoreApplication"
 
     const-string v2, "onDestroy: reset all shared opengl variables"
 
-    .line 5
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3045,24 +2738,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/concurrent/Semaphore;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v3, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$l;
 
@@ -3070,7 +2759,6 @@
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     :try_start_0
     invoke-virtual {v1}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -3081,10 +2769,8 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3098,24 +2784,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/concurrent/Semaphore;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v3, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$o;
 
@@ -3123,7 +2805,6 @@
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     :try_start_0
     invoke-virtual {v1}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -3134,10 +2815,8 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3151,7 +2830,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-eqz v1, :cond_2
@@ -3162,7 +2840,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
@@ -3172,18 +2849,15 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v1, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3195,10 +2869,8 @@
 
     const-string v1, "handler object in offsreen thread not initialized yet, async func"
 
-    .line 6
     invoke-static {p1, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3213,14 +2885,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mFrameBufferId:I
 
     const v2, 0x8d40
 
     invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 2
     invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
 
     move-result v1
@@ -3229,7 +2899,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -3254,18 +2923,15 @@
 
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->actionRender()V
 
-    .line 5
     invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 6
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -3282,13 +2948,11 @@
 
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     :cond_1
     invoke-static {}, Landroid/opengl/GLES20;->glFinish()V
 
     const/4 v1, 0x1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -3305,7 +2969,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->isBackgroundSaving()Z
 
     move-result p1
@@ -3317,7 +2980,6 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 2
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mToggleRenderViewListener:Lcom/meitu/mtmvcore/backend/android/q;
@@ -3326,23 +2988,19 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     invoke-interface {p1}, Lcom/meitu/mtmvcore/backend/android/q;->u()V
 
     goto :goto_1
 
-    .line 4
     :cond_2
     invoke-interface {p1}, Lcom/meitu/mtmvcore/backend/android/q;->r()V
 
-    .line 5
     :cond_3
     :goto_1
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mIsAllowRender:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {p1, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 6
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3361,7 +3019,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3376,7 +3033,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3392,24 +3048,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Ljava/util/concurrent/Semaphore;
 
     const/4 v1, 0x0
 
     invoke-direct {v7, v1}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 2
     iget-object v8, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-nez v8, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v9, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$g;
 
@@ -3429,7 +3081,6 @@
 
     invoke-virtual {v8, v9}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     :try_start_0
     invoke-virtual {v7}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -3440,10 +3091,8 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3457,24 +3106,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/concurrent/Semaphore;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v3, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$b;
 
@@ -3482,7 +3127,6 @@
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     :try_start_0
     invoke-virtual {v1}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -3493,10 +3137,8 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3510,10 +3152,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->enableFPSLimiter:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3526,12 +3166,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->fpsLimiter:Lcom/meitu/mtmvcore/application/a;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtmvcore/application/a;->c(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3544,10 +3182,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mFrameBufferId:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3562,7 +3198,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3575,7 +3210,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3588,10 +3222,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->listener:Lcom/meitu/mtmvcore/application/MTMVCoreApplication$t;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3606,7 +3238,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Please Use MTMVConfig.setMVSize to size output size."
@@ -3627,7 +3258,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Please Use MTMVConfig.setMVSize to size output size."
@@ -3646,13 +3276,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mSharedEglContext:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mSharedEglContext2:Landroid/opengl/EGLContext;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3673,7 +3300,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3694,7 +3320,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3707,10 +3332,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mTextureId:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3723,10 +3346,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mToggleRenderViewListener:Lcom/meitu/mtmvcore/backend/android/q;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3741,7 +3362,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3762,7 +3382,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     const-string v2, "MTMVCoreApplication"
@@ -3775,7 +3394,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
@@ -3785,7 +3403,6 @@
 
     if-ne v1, v3, :cond_1
 
-    .line 3
     :try_start_0
     invoke-interface {p1}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;
     :try_end_0
@@ -3796,10 +3413,8 @@
     :catch_0
     move-exception p1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3822,18 +3437,15 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v1, Ljava/util/concurrent/FutureTask;
 
     invoke-direct {v1, p1}, Ljava/util/concurrent/FutureTask;-><init>(Ljava/util/concurrent/Callable;)V
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 8
     :try_start_1
     invoke-virtual {v1}, Ljava/util/concurrent/FutureTask;->get()Ljava/lang/Object;
 
@@ -3851,10 +3463,8 @@
     :catch_1
     move-exception p1
 
-    .line 9
     invoke-virtual {p1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 10
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3880,10 +3490,8 @@
     :catch_2
     move-exception p1
 
-    .line 11
     invoke-virtual {p1}, Ljava/util/concurrent/ExecutionException;->printStackTrace()V
 
-    .line 12
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3904,7 +3512,6 @@
 
     invoke-static {v2, p1}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3914,10 +3521,8 @@
     :goto_1
     const-string p1, "handler object in offsreen thread not initialized yet, sync func"
 
-    .line 14
     invoke-static {v2, p1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3930,24 +3535,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Ljava/util/concurrent/Semaphore;
 
     const/4 v1, 0x0
 
     invoke-direct {v7, v1}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 2
     iget-object v8, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-nez v8, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v9, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$s;
 
@@ -3967,7 +3568,6 @@
 
     invoke-virtual {v8, v9}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     :try_start_0
     invoke-virtual {v7}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -3978,10 +3578,8 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3995,24 +3593,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Ljava/util/concurrent/Semaphore;
 
     const/4 v1, 0x0
 
     invoke-direct {v7, v1}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 2
     iget-object v8, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-nez v8, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v9, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$q;
 
@@ -4032,7 +3626,6 @@
 
     invoke-virtual {v8, v9}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     :try_start_0
     invoke-virtual {v7}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -4043,10 +3636,8 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4060,24 +3651,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Ljava/util/concurrent/Semaphore;
 
     const/4 v1, 0x0
 
     invoke-direct {v7, v1}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 2
     iget-object v8, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-nez v8, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v9, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$a;
 
@@ -4097,7 +3684,6 @@
 
     invoke-virtual {v8, v9}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     :try_start_0
     invoke-virtual {v7}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -4108,10 +3694,8 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4125,24 +3709,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Ljava/util/concurrent/Semaphore;
 
     const/4 v1, 0x0
 
     invoke-direct {v7, v1}, Ljava/util/concurrent/Semaphore;-><init>(I)V
 
-    .line 2
     iget-object v8, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mHandler:Landroid/os/Handler;
 
     if-nez v8, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v9, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$r;
 
@@ -4162,7 +3742,6 @@
 
     invoke-virtual {v8, v9}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     :try_start_0
     invoke-virtual {v7}, Ljava/util/concurrent/Semaphore;->acquire()V
     :try_end_0
@@ -4173,10 +3752,8 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

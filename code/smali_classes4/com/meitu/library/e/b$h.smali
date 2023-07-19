@@ -25,7 +25,6 @@
 .method constructor <init>(IIIIILcom/meitu/library/e/b$j;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p6}, Lcom/meitu/library/e/b;-><init>(IIIIILcom/meitu/library/e/b$j;)V
 
     return-void
@@ -40,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-array p1, p1, [B
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -57,7 +55,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1, p2, v1, p3}, Landroid/media/AudioRecord;->read([BII)I
 
     move-result p1
@@ -74,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/library/e/b$h;->B(I)[B
 
     move-result-object p1
@@ -91,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, [B
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/meitu/library/e/b$h;->C(Landroid/media/AudioRecord;[BI)I

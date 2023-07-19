@@ -31,7 +31,6 @@
 .method constructor <init>(Ljava/lang/Iterable;Lcom/google/common/base/u;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/h1$e;->b:Ljava/lang/Iterable;
 
     iput-object p2, p0, Lcom/google/common/collect/h1$e;->c:Lcom/google/common/base/u;
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/h1$e;->b:Ljava/lang/Iterable;
 
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;

@@ -60,7 +60,6 @@
     :try_start_0
     const-string/jumbo v1, "utf8"
 
-    .line 1
     invoke-static {p0, v1}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -73,7 +72,6 @@
     :catchall_0
     move-exception p0
 
-    .line 2
     invoke-static {p0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/Throwable;)V
 
     return-object v0
@@ -81,7 +79,6 @@
     :catch_0
     move-exception v1
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     const-string v3, "Illegal "
@@ -108,24 +105,20 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/appsflyer/share/LinkGenerator;->context:Ljava/util/Map;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/appsflyer/share/LinkGenerator;->getRequestListener:Ljava/util/Map;
 
-    .line 4
     iput-object p1, p0, Lcom/appsflyer/share/LinkGenerator;->values:Ljava/lang/String;
 
     return-void
@@ -134,12 +127,10 @@
 .method private values()Ljava/lang/StringBuilder;
     .locals 7
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->$$b:Ljava/lang/String;
 
     if-eqz v1, :cond_0
@@ -152,14 +143,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->$$b:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v1, Lcom/appsflyer/share/Constants;->AFDateFormat:Ljava/lang/String;
 
@@ -169,7 +158,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     :goto_0
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->valueOf:Ljava/lang/String;
 
@@ -177,15 +165,12 @@
 
     const/16 v1, 0x2f
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->valueOf:Ljava/lang/String;
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->getRequestListener:Ljava/util/Map;
 
@@ -197,14 +182,12 @@
 
     const/16 v1, 0x3f
 
-    .line 9
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string v1, "pid="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->values:Ljava/lang/String;
 
     const-string v2, "media source"
@@ -215,28 +198,24 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->dateFormatUTC:Ljava/lang/String;
 
     const/16 v2, 0x26
 
     if-eqz v1, :cond_2
 
-    .line 12
     iget-object v3, p0, Lcom/appsflyer/share/LinkGenerator;->getRequestListener:Ljava/util/Map;
 
     const-string v4, "af_referrer_uid"
 
     invoke-interface {v3, v4, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string v1, "af_referrer_uid="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->dateFormatUTC:Ljava/lang/String;
 
     const-string v3, "referrerUID"
@@ -247,27 +226,23 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     :cond_2
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->$$a:Ljava/lang/String;
 
     if-eqz v1, :cond_3
 
-    .line 16
     iget-object v3, p0, Lcom/appsflyer/share/LinkGenerator;->getRequestListener:Ljava/util/Map;
 
     const-string v4, "af_channel"
 
     invoke-interface {v3, v4, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string v1, "af_channel="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 18
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->$$a:Ljava/lang/String;
 
     const-string v3, "channel"
@@ -278,27 +253,23 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 19
     :cond_3
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->getInstance:Ljava/lang/String;
 
     if-eqz v1, :cond_4
 
-    .line 20
     iget-object v3, p0, Lcom/appsflyer/share/LinkGenerator;->getRequestListener:Ljava/util/Map;
 
     const-string v4, "af_referrer_customer_id"
 
     invoke-interface {v3, v4, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string v1, "af_referrer_customer_id="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 22
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->getInstance:Ljava/lang/String;
 
     const-string v3, "referrerCustomerId"
@@ -309,27 +280,23 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 23
     :cond_4
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->AFDateFormat:Ljava/lang/String;
 
     if-eqz v1, :cond_5
 
-    .line 24
     iget-object v3, p0, Lcom/appsflyer/share/LinkGenerator;->getRequestListener:Ljava/util/Map;
 
     const-string v4, "c"
 
     invoke-interface {v3, v4, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 25
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string v1, "c="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 26
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->AFDateFormat:Ljava/lang/String;
 
     const-string v3, "campaign"
@@ -340,27 +307,23 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 27
     :cond_5
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->getDataFormatter:Ljava/lang/String;
 
     if-eqz v1, :cond_6
 
-    .line 28
     iget-object v3, p0, Lcom/appsflyer/share/LinkGenerator;->getRequestListener:Ljava/util/Map;
 
     const-string v4, "af_referrer_name"
 
     invoke-interface {v3, v4, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 29
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string v1, "af_referrer_name="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 30
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->getDataFormatter:Ljava/lang/String;
 
     const-string v3, "referrerName"
@@ -371,27 +334,23 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 31
     :cond_6
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->collectIntentsFromActivities:Ljava/lang/String;
 
     if-eqz v1, :cond_7
 
-    .line 32
     iget-object v3, p0, Lcom/appsflyer/share/LinkGenerator;->getRequestListener:Ljava/util/Map;
 
     const-string v4, "af_referrer_image_url"
 
     invoke-interface {v3, v4, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 33
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string v1, "af_referrer_image_url="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 34
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->collectIntentsFromActivities:Ljava/lang/String;
 
     const-string v3, "referrerImageURL"
@@ -402,13 +361,11 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 35
     :cond_7
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->AFEvent:Ljava/lang/String;
 
     if-eqz v1, :cond_b
 
-    .line 36
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -417,7 +374,6 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 37
     iget-object v3, p0, Lcom/appsflyer/share/LinkGenerator;->AFEvent:Ljava/lang/String;
 
     const-string v4, "/"
@@ -440,15 +396,12 @@
     :goto_1
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 38
     iget-object v3, p0, Lcom/appsflyer/share/LinkGenerator;->AFDeepLinkManager:Ljava/lang/String;
 
     if-eqz v3, :cond_9
 
-    .line 39
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 40
     :cond_9
     iget-object v3, p0, Lcom/appsflyer/share/LinkGenerator;->getRequestListener:Ljava/util/Map;
 
@@ -460,14 +413,12 @@
 
     invoke-interface {v3, v6, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 41
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string v1, "af_dp="
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 42
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->AFEvent:Ljava/lang/String;
 
     const-string v3, "baseDeeplink"
@@ -478,12 +429,10 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 43
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->AFDeepLinkManager:Ljava/lang/String;
 
     if-eqz v1, :cond_b
 
-    .line 44
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->AFEvent:Ljava/lang/String;
 
     invoke-virtual {v1, v4}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
@@ -504,14 +453,12 @@
 
     const-string v3, "deeplinkPath"
 
-    .line 45
     invoke-static {v1, v3}, Lcom/appsflyer/share/LinkGenerator;->$$a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 46
     :cond_b
     iget-object v1, p0, Lcom/appsflyer/share/LinkGenerator;->context:Ljava/util/Map;
 
@@ -537,7 +484,6 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 47
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v4
@@ -576,14 +522,12 @@
 
     if-nez v4, :cond_c
 
-    .line 48
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v4, 0x3d
 
-    .line 49
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     iget-object v4, p0, Lcom/appsflyer/share/LinkGenerator;->context:Ljava/util/Map;
@@ -611,7 +555,6 @@
 .method public addParameter(Ljava/lang/String;Ljava/lang/String;)Lcom/appsflyer/share/LinkGenerator;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/share/LinkGenerator;->context:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -634,7 +577,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/share/LinkGenerator;->context:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
@@ -646,7 +588,6 @@
 .method public generateLink()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/appsflyer/share/LinkGenerator;->values()Ljava/lang/StringBuilder;
 
     move-result-object v0
@@ -661,7 +602,6 @@
 .method public generateLink(Landroid/content/Context;Lcom/appsflyer/CreateOneLinkHttpTask$ResponseListener;)V
     .locals 8
 
-    .line 2
     invoke-static {}, Lcom/appsflyer/AppsFlyerProperties;->getInstance()Lcom/appsflyer/AppsFlyerProperties;
 
     move-result-object v0
@@ -672,7 +612,6 @@
 
     move-result-object v3
 
-    .line 3
     iget-object v0, p0, Lcom/appsflyer/share/LinkGenerator;->context:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
@@ -681,7 +620,6 @@
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/appsflyer/share/LinkGenerator;->context:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -705,7 +643,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 5
     iget-object v2, p0, Lcom/appsflyer/share/LinkGenerator;->getRequestListener:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -720,16 +657,13 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-direct {p0}, Lcom/appsflyer/share/LinkGenerator;->values()Ljava/lang/StringBuilder;
 
-    .line 7
     iget-object v0, p0, Lcom/appsflyer/share/LinkGenerator;->requestListener:Ljava/lang/String;
 
     iget-object v4, p0, Lcom/appsflyer/share/LinkGenerator;->getRequestListener:Ljava/util/Map;
 
-    .line 8
     invoke-static {}, Lcom/appsflyer/AppsFlyerProperties;->getInstance()Lcom/appsflyer/AppsFlyerProperties;
 
     move-result-object v1
@@ -738,7 +672,6 @@
 
     const-string/jumbo v5, "waitForCustomerId"
 
-    .line 9
     invoke-virtual {v1, v5, v2}, Lcom/appsflyer/AppsFlyerProperties;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v1
@@ -749,12 +682,10 @@
 
     const-string p2, "CustomerUserId not set, generate User Invite Link is disabled"
 
-    .line 10
     invoke-static {p2, p1}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;Z)V
 
     return-void
 
-    .line 11
     :cond_1
     new-instance v1, Lcom/appsflyer/CreateOneLinkHttpTask;
 
@@ -776,20 +707,16 @@
 
     invoke-direct/range {v2 .. v7}, Lcom/appsflyer/CreateOneLinkHttpTask;-><init>(Ljava/lang/String;Ljava/util/Map;Lcom/appsflyer/AppsFlyerLibCore;Landroid/content/Context;Z)V
 
-    .line 12
     new-instance p1, Lcom/appsflyer/OneLinkHttpTask$HttpsUrlConnectionProvider;
 
     invoke-direct {p1}, Lcom/appsflyer/OneLinkHttpTask$HttpsUrlConnectionProvider;-><init>()V
 
     invoke-virtual {v1, p1}, Lcom/appsflyer/OneLinkHttpTask;->setConnProvider(Lcom/appsflyer/OneLinkHttpTask$HttpsUrlConnectionProvider;)V
 
-    .line 13
     invoke-virtual {v1, p2}, Lcom/appsflyer/CreateOneLinkHttpTask;->setListener(Lcom/appsflyer/CreateOneLinkHttpTask$ResponseListener;)V
 
-    .line 14
     invoke-virtual {v1, v0}, Lcom/appsflyer/CreateOneLinkHttpTask;->setBrandDomain(Ljava/lang/String;)V
 
-    .line 15
     invoke-static {}, Lcom/appsflyer/AFExecutor;->getInstance()Lcom/appsflyer/AFExecutor;
 
     move-result-object p1
@@ -806,7 +733,6 @@
 .method public getBrandDomain()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/share/LinkGenerator;->requestListener:Ljava/lang/String;
 
     return-object v0
@@ -815,7 +741,6 @@
 .method public getCampaign()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/share/LinkGenerator;->AFDateFormat:Ljava/lang/String;
 
     return-object v0
@@ -824,7 +749,6 @@
 .method public getChannel()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/share/LinkGenerator;->$$a:Ljava/lang/String;
 
     return-object v0
@@ -833,7 +757,6 @@
 .method public getMediaSource()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/share/LinkGenerator;->values:Ljava/lang/String;
 
     return-object v0
@@ -851,7 +774,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/share/LinkGenerator;->context:Ljava/util/Map;
 
     return-object v0
@@ -860,7 +782,6 @@
 .method public setBaseDeeplink(Ljava/lang/String;)Lcom/appsflyer/share/LinkGenerator;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/share/LinkGenerator;->AFEvent:Ljava/lang/String;
 
     return-object p0
@@ -879,7 +800,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -891,7 +811,6 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 2
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
     move-result p3
@@ -910,12 +829,10 @@
 
     aput-object p1, p3, v0
 
-    .line 3
     invoke-static {v3, p3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 4
     iput-object p1, p0, Lcom/appsflyer/share/LinkGenerator;->$$b:Ljava/lang/String;
 
     goto :goto_1
@@ -926,7 +843,6 @@
 
     const-string p2, "%sapp.%s"
 
-    .line 5
     invoke-static {p2}, Lcom/appsflyer/ServerConfigHandler;->getUrl(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -948,7 +864,6 @@
 .method public setBrandDomain(Ljava/lang/String;)Lcom/appsflyer/share/LinkGenerator;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/share/LinkGenerator;->requestListener:Ljava/lang/String;
 
     return-object p0
@@ -957,7 +872,6 @@
 .method public setCampaign(Ljava/lang/String;)Lcom/appsflyer/share/LinkGenerator;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/share/LinkGenerator;->AFDateFormat:Ljava/lang/String;
 
     return-object p0
@@ -966,7 +880,6 @@
 .method public setChannel(Ljava/lang/String;)Lcom/appsflyer/share/LinkGenerator;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/share/LinkGenerator;->$$a:Ljava/lang/String;
 
     return-object p0
@@ -975,7 +888,6 @@
 .method public setDeeplinkPath(Ljava/lang/String;)Lcom/appsflyer/share/LinkGenerator;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/share/LinkGenerator;->AFDeepLinkManager:Ljava/lang/String;
 
     return-object p0
@@ -984,7 +896,6 @@
 .method public setReferrerCustomerId(Ljava/lang/String;)Lcom/appsflyer/share/LinkGenerator;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/share/LinkGenerator;->getInstance:Ljava/lang/String;
 
     return-object p0
@@ -993,7 +904,6 @@
 .method public setReferrerImageURL(Ljava/lang/String;)Lcom/appsflyer/share/LinkGenerator;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/share/LinkGenerator;->collectIntentsFromActivities:Ljava/lang/String;
 
     return-object p0
@@ -1002,7 +912,6 @@
 .method public setReferrerName(Ljava/lang/String;)Lcom/appsflyer/share/LinkGenerator;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/share/LinkGenerator;->getDataFormatter:Ljava/lang/String;
 
     return-object p0
@@ -1011,7 +920,6 @@
 .method public setReferrerUID(Ljava/lang/String;)Lcom/appsflyer/share/LinkGenerator;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/share/LinkGenerator;->dateFormatUTC:Ljava/lang/String;
 
     return-object p0

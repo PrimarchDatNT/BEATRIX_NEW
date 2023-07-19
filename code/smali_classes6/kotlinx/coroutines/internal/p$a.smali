@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcotlinx/coroutines/internal/p$a;-><init>()V
 
     return-void
@@ -65,7 +63,6 @@
 
     const-wide/32 v0, 0x3fffffff
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0, v1}, Lcotlinx/coroutines/internal/p$a;->e(JJ)J
 
     move-result-wide p1
@@ -86,7 +83,6 @@
 
     const-wide v0, 0xfffffffc0000000L
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0, v1}, Lcotlinx/coroutines/internal/p$a;->e(JJ)J
 
     move-result-wide p1
@@ -142,7 +138,6 @@
 
     long-to-int p2, p1
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1

@@ -11,12 +11,10 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/arkernelinterface/ARKernelInterfaceNativeBasicClass;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     return-void
@@ -52,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -61,10 +58,8 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeDispatch(J)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -78,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -87,7 +81,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeGetChineseName(J)Ljava/lang/String;
 
     move-result-object v1
@@ -99,7 +92,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -112,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -121,7 +112,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeGetEnglishName(J)Ljava/lang/String;
 
     move-result-object v1
@@ -133,7 +123,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -146,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -155,7 +143,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeGetKey(J)Ljava/lang/String;
 
     move-result-object v1
@@ -167,7 +154,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -180,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -189,7 +174,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeGetParamFlag(J)I
 
     move-result v1
@@ -201,7 +185,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -214,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -223,7 +205,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeGetParamType(J)I
 
     move-result v1
@@ -235,7 +216,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -248,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -257,7 +236,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeGetTraditionalName(J)Ljava/lang/String;
 
     move-result-object v1
@@ -269,7 +247,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -282,10 +259,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

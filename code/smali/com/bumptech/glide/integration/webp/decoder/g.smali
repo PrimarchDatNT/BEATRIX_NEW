@@ -49,12 +49,10 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     const-string v1, "com.bumptech.glide.integration.webp.decoder.StreamWebpDecoder.DisableAnimation"
 
-    .line 2
     invoke-static {v1, v0}, Lcom/bumptech/glide/load/e;->g(Ljava/lang/String;Ljava/lang/Object;)Lcom/bumptech/glide/load/e;
 
     move-result-object v0
@@ -78,13 +76,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/integration/webp/decoder/g;->a:Lcom/bumptech/glide/load/g;
 
-    .line 3
     iput-object p2, p0, Lcom/bumptech/glide/integration/webp/decoder/g;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     return-void
@@ -108,7 +103,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/io/InputStream;
 
     invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/integration/webp/decoder/g;->d(Ljava/io/InputStream;Lcom/bumptech/glide/load/f;)Z
@@ -137,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/io/InputStream;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/integration/webp/decoder/g;->c(Ljava/io/InputStream;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -179,7 +172,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/bumptech/glide/integration/webp/decoder/h;->b(Ljava/io/InputStream;)[B
 
     move-result-object p1
@@ -190,13 +182,11 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-static {p1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/g;->a:Lcom/bumptech/glide/load/g;
 
     invoke-interface {v0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/g;->b(Ljava/lang/Object;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -222,7 +212,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/integration/webp/decoder/g;->c:Lcom/bumptech/glide/load/e;
 
     invoke-virtual {p2, v0}, Lcom/bumptech/glide/load/f;->c(Lcom/bumptech/glide/load/e;)Ljava/lang/Object;
@@ -241,7 +230,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     iget-object p2, p0, Lcom/bumptech/glide/integration/webp/decoder/g;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
@@ -249,7 +237,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser;->f(Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;)Z
 
     move-result p1

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/VideoAdDetailActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VideoAdDetailActivity$d;->a:Lcom/sdk/imp/VideoAdDetailActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/VideoAdDetailActivity;->c()Lcom/sdk/imp/VastAgent;
 
     move-result-object v0
@@ -57,14 +55,12 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/sdk/imp/VastAgent;->w(Lcom/sdk/imp/VastAgent$ReportEvent;IJ)V
 
-    .line 2
     invoke-static {}, Lcom/sdk/imp/VideoAdDetailActivity;->d()Lcom/sdk/api/d$e;
 
     move-result-object v0
 
     invoke-interface {v0}, Lcom/sdk/api/d$e;->onFinished()V
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity$d;->a:Lcom/sdk/imp/VideoAdDetailActivity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->finish()V

@@ -32,7 +32,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     sget-object v0, Landroid/graphics/Bitmap$Config;->RGB_565:Landroid/graphics/Bitmap$Config;
 
     sput-object v0, Lcom/bumptech/glide/load/engine/z/d;->e:Landroid/graphics/Bitmap$Config;
@@ -43,12 +42,10 @@
 .method constructor <init>(IILandroid/graphics/Bitmap$Config;I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Config must not be null"
 
-    .line 2
     invoke-static {p3, v0}, Lcom/bumptech/glide/s/k;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p3
@@ -57,13 +54,10 @@
 
     iput-object p3, p0, Lcom/bumptech/glide/load/engine/z/d;->c:Landroid/graphics/Bitmap$Config;
 
-    .line 3
     iput p1, p0, Lcom/bumptech/glide/load/engine/z/d;->a:I
 
-    .line 4
     iput p2, p0, Lcom/bumptech/glide/load/engine/z/d;->b:I
 
-    .line 5
     iput p4, p0, Lcom/bumptech/glide/load/engine/z/d;->d:I
 
     return-void
@@ -74,7 +68,6 @@
 .method a()Landroid/graphics/Bitmap$Config;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/z/d;->c:Landroid/graphics/Bitmap$Config;
 
     return-object v0
@@ -83,7 +76,6 @@
 .method b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/load/engine/z/d;->b:I
 
     return v0
@@ -92,7 +84,6 @@
 .method c()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/load/engine/z/d;->d:I
 
     return v0
@@ -101,7 +92,6 @@
 .method d()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/load/engine/z/d;->a:I
 
     return v0
@@ -110,17 +100,14 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/bumptech/glide/load/engine/z/d;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/bumptech/glide/load/engine/z/d;
 
-    .line 3
     iget v0, p0, Lcom/bumptech/glide/load/engine/z/d;->b:I
 
     iget v2, p1, Lcom/bumptech/glide/load/engine/z/d;->b:I
@@ -154,19 +141,16 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/load/engine/z/d;->a:I
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget v1, p0, Lcom/bumptech/glide/load/engine/z/d;->b:I
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-object v1, p0, Lcom/bumptech/glide/load/engine/z/d;->c:Landroid/graphics/Bitmap$Config;
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap$Config;->hashCode()I
@@ -177,7 +161,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     iget v1, p0, Lcom/bumptech/glide/load/engine/z/d;->d:I
 
     add-int/2addr v0, v1
@@ -188,7 +171,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

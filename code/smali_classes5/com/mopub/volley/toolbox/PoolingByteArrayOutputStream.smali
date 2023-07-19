@@ -17,7 +17,6 @@
 
     const/16 v0, 0x100
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/mopub/volley/toolbox/PoolingByteArrayOutputStream;-><init>(Lcom/mopub/volley/toolbox/ByteArrayPool;I)V
 
     return-void
@@ -26,15 +25,12 @@
 .method public constructor <init>(Lcom/mopub/volley/toolbox/ByteArrayPool;I)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/volley/toolbox/PoolingByteArrayOutputStream;->mPool:Lcom/mopub/volley/toolbox/ByteArrayPool;
 
     const/16 v0, 0x100
 
-    .line 4
     invoke-static {p2, v0}, Ljava/lang/Math;->max(II)I
 
     move-result p2
@@ -51,7 +47,6 @@
 .method private expand(I)V
     .locals 3
 
-    .line 1
     iget v0, p0, Ljava/io/ByteArrayOutputStream;->count:I
 
     add-int v1, v0, p1
@@ -64,7 +59,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/mopub/volley/toolbox/PoolingByteArrayOutputStream;->mPool:Lcom/mopub/volley/toolbox/ByteArrayPool;
 
@@ -76,7 +70,6 @@
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
 
     iget v1, p0, Ljava/io/ByteArrayOutputStream;->count:I
@@ -85,14 +78,12 @@
 
     invoke-static {v0, v2, p1, v2, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/volley/toolbox/PoolingByteArrayOutputStream;->mPool:Lcom/mopub/volley/toolbox/ByteArrayPool;
 
     iget-object v1, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
 
     invoke-virtual {v0, v1}, Lcom/mopub/volley/toolbox/ByteArrayPool;->returnBuf([B)V
 
-    .line 5
     iput-object p1, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
 
     return-void
@@ -108,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/PoolingByteArrayOutputStream;->mPool:Lcom/mopub/volley/toolbox/ByteArrayPool;
 
     iget-object v1, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
@@ -117,10 +107,8 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
 
-    .line 3
     invoke-super {p0}, Ljava/io/ByteArrayOutputStream;->close()V
 
     return-void
@@ -129,7 +117,6 @@
 .method public finalize()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/PoolingByteArrayOutputStream;->mPool:Lcom/mopub/volley/toolbox/ByteArrayPool;
 
     iget-object v1, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
@@ -146,16 +133,13 @@
 
     const/4 v0, 0x1
 
-    .line 4
     :try_start_0
     invoke-direct {p0, v0}, Lcom/mopub/volley/toolbox/PoolingByteArrayOutputStream;->expand(I)V
 
-    .line 5
     invoke-super {p0, p1}, Ljava/io/ByteArrayOutputStream;->write(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     monitor-exit p0
 
     return-void
@@ -173,16 +157,13 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p3}, Lcom/mopub/volley/toolbox/PoolingByteArrayOutputStream;->expand(I)V
 
-    .line 2
     invoke-super {p0, p1, p2, p3}, Ljava/io/ByteArrayOutputStream;->write([BII)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void

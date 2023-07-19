@@ -33,20 +33,16 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Lf/f/e/b/i;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p1}, Lf/f/e/b/b;->c()[[C
 
     move-result-object p1
 
     iput-object p1, p0, Lf/f/e/b/c;->c:[[C
 
-    .line 5
     array-length p1, p1
 
     iput p1, p0, Lf/f/e/b/c;->d:I
@@ -57,11 +53,9 @@
 
     const p2, 0x7fffffff
 
-    .line 6
     :cond_0
     iput p2, p0, Lf/f/e/b/c;->e:I
 
-    .line 7
     iput p3, p0, Lf/f/e/b/c;->f:I
 
     const p1, 0xd800
@@ -70,12 +64,10 @@
 
     const p1, 0xffff
 
-    .line 8
     iput-char p1, p0, Lf/f/e/b/c;->g:C
 
     const/4 p1, 0x0
 
-    .line 9
     iput-char p1, p0, Lf/f/e/b/c;->h:C
 
     goto :goto_0
@@ -83,12 +75,10 @@
     :cond_1
     int-to-char p1, p2
 
-    .line 10
     iput-char p1, p0, Lf/f/e/b/c;->g:C
 
     const p1, 0xd7ff
 
-    .line 11
     invoke-static {p3, p1}, Ljava/lang/Math;->min(II)I
 
     move-result p1
@@ -119,7 +109,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lf/f/e/b/b;->a(Ljava/util/Map;)Lf/f/e/b/b;
 
     move-result-object p1
@@ -134,12 +123,10 @@
 .method public final b(Ljava/lang/String;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -147,12 +134,10 @@
 
     if-ge v0, v1, :cond_3
 
-    .line 3
     invoke-virtual {p1, v0}, Ljava/lang/String;->charAt(I)C
 
     move-result v1
 
-    .line 4
     iget v2, p0, Lf/f/e/b/c;->d:I
 
     if-ge v1, v2, :cond_0
@@ -179,7 +164,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     :goto_1
     invoke-virtual {p0, p1, v0}, Lf/f/e/b/i;->e(Ljava/lang/String;I)Ljava/lang/String;
@@ -193,12 +177,10 @@
 .method protected final d(I)[C
     .locals 1
 
-    .line 1
     iget v0, p0, Lf/f/e/b/c;->d:I
 
     if-ge p1, v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/f/e/b/c;->c:[[C
 
     aget-object v0, v0, p1
@@ -207,7 +189,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget v0, p0, Lf/f/e/b/c;->e:I
 
@@ -221,7 +202,6 @@
 
     return-object p1
 
-    .line 4
     :cond_1
     invoke-virtual {p0, p1}, Lf/f/e/b/c;->h(I)[C
 
@@ -236,12 +216,10 @@
     :goto_0
     if-ge p2, p3, :cond_2
 
-    .line 1
     invoke-interface {p1, p2}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v0
 
-    .line 2
     iget v1, p0, Lf/f/e/b/c;->d:I
 
     if-ge v0, v1, :cond_0

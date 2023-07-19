@@ -34,10 +34,8 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2$a;->b:Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Landroid/graphics/drawable/ColorDrawable;
 
     invoke-direct {p1}, Landroid/graphics/drawable/ColorDrawable;-><init>()V
@@ -56,12 +54,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2$a;->a:Landroid/graphics/drawable/ColorDrawable;
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/ColorDrawable;->setColor(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2$a;->b:Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;->this$0:Lcom/commsource/studio/function/background/BackgroundFragment;
@@ -80,7 +76,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -93,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2$a;->b:Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;->this$0:Lcom/commsource/studio/function/background/BackgroundFragment;
@@ -102,7 +96,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/studio/function/background/BackgroundFragment;->Y(Lcom/commsource/studio/function/background/BackgroundFragment;Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2$a;->b:Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;->this$0:Lcom/commsource/studio/function/background/BackgroundFragment;
@@ -119,7 +112,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     sget-object v1, Lcom/commsource/studio/function/background/c;->e:Lcom/commsource/studio/function/background/c$a;
 
     const/4 v2, 0x1
@@ -128,7 +120,6 @@
 
     move-result-object p1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2$a;->b:Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;->this$0:Lcom/commsource/studio/function/background/BackgroundFragment;
@@ -143,7 +134,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2$a;->b:Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;->this$0:Lcom/commsource/studio/function/background/BackgroundFragment;
@@ -154,7 +144,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/background/BackgroundViewModel;->X(Lcom/commsource/studio/function/background/BackgroundType;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -169,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2$a;->a:Landroid/graphics/drawable/ColorDrawable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

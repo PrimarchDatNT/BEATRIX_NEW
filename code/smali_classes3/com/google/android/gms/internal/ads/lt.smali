@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,10 +31,8 @@
 .method public final synthetic a(Ljava/lang/Object;Ljava/util/Map;)V
     .locals 7
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/yr;
 
-    .line 2
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/yr;->o()Lcom/google/android/gms/internal/ads/dv;
 
     move-result-object v0
@@ -46,7 +43,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     :try_start_0
     invoke-interface {p2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -60,7 +56,6 @@
 
     const-string v3, "customControlsAllowed"
 
-    .line 4
     invoke-interface {p2, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -71,7 +66,6 @@
 
     const-string v4, "clickToExpandAllowed"
 
-    .line 5
     invoke-interface {p2, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -80,17 +74,14 @@
 
     move-result v4
 
-    .line 6
     new-instance v5, Lcom/google/android/gms/internal/ads/dv;
 
     invoke-direct {v5, p1, v0, v3, v4}, Lcom/google/android/gms/internal/ads/dv;-><init>(Lcom/google/android/gms/internal/ads/yr;FZZ)V
 
-    .line 7
     invoke-interface {p1, v5}, Lcom/google/android/gms/internal/ads/yr;->e(Lcom/google/android/gms/internal/ads/dv;)V
 
     move-object v0, v5
 
-    .line 8
     :cond_0
     invoke-interface {p2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -104,7 +95,6 @@
 
     const-string v1, "muted"
 
-    .line 9
     invoke-interface {p2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -115,7 +105,6 @@
 
     const-string v1, "currentTime"
 
-    .line 10
     invoke-interface {p2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -128,7 +117,6 @@
 
     const-string v2, "playbackState"
 
-    .line 11
     invoke-interface {p2, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -161,14 +149,12 @@
     :goto_1
     const-string v2, "aspectRatio"
 
-    .line 12
     invoke-interface {p2, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Ljava/lang/String;
 
-    .line 13
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -188,7 +174,6 @@
 
     move v6, v2
 
-    .line 14
     :goto_2
     invoke-static {v3}, Lcom/google/android/gms/internal/ads/aq;->a(I)Z
 
@@ -196,7 +181,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 15
     invoke-static {p2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -254,7 +238,6 @@
 
     move v5, v6
 
-    .line 16
     invoke-virtual/range {v0 .. v5}, Lcom/google/android/gms/internal/ads/dv;->J5(FFIZF)V
     :try_end_0
     .catch Ljava/lang/NullPointerException; {:try_start_0 .. :try_end_0} :catch_1
@@ -273,10 +256,8 @@
     :goto_3
     const-string p2, "Unable to parse videoMeta message."
 
-    .line 17
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 18
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object p2

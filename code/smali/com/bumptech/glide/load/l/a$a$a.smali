@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/bumptech/glide/load/l/a$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/load/l/a$a$a;->a:Lcom/bumptech/glide/load/l/a$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

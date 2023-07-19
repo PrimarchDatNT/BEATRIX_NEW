@@ -73,7 +73,6 @@
 
     const/4 v0, 0x4
 
-    .line 15
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/gms/internal/ads/b3;-><init>(Lcom/google/android/gms/internal/ads/jb2;Lcom/google/android/gms/internal/ads/tn2;I)V
 
     return-void
@@ -82,12 +81,10 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/jb2;Lcom/google/android/gms/internal/ads/tn2;I)V
     .locals 2
 
-    .line 12
     new-instance p3, Lcom/google/android/gms/internal/ads/zj2;
 
     new-instance v0, Landroid/os/Handler;
 
-    .line 13
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
@@ -98,7 +95,6 @@
 
     const/4 v0, 0x4
 
-    .line 14
     invoke-direct {p0, p1, p2, v0, p3}, Lcom/google/android/gms/internal/ads/b3;-><init>(Lcom/google/android/gms/internal/ads/jb2;Lcom/google/android/gms/internal/ads/tn2;ILcom/google/android/gms/internal/ads/b9;)V
 
     return-void
@@ -107,65 +103,54 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/jb2;Lcom/google/android/gms/internal/ads/tn2;ILcom/google/android/gms/internal/ads/b9;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p3, Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-direct {p3}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
 
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/b3;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 3
     new-instance p3, Ljava/util/HashSet;
 
     invoke-direct {p3}, Ljava/util/HashSet;-><init>()V
 
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/b3;->b:Ljava/util/Set;
 
-    .line 4
     new-instance p3, Ljava/util/concurrent/PriorityBlockingQueue;
 
     invoke-direct {p3}, Ljava/util/concurrent/PriorityBlockingQueue;-><init>()V
 
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/b3;->c:Ljava/util/concurrent/PriorityBlockingQueue;
 
-    .line 5
     new-instance p3, Ljava/util/concurrent/PriorityBlockingQueue;
 
     invoke-direct {p3}, Ljava/util/concurrent/PriorityBlockingQueue;-><init>()V
 
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/b3;->d:Ljava/util/concurrent/PriorityBlockingQueue;
 
-    .line 6
     new-instance p3, Ljava/util/ArrayList;
 
     invoke-direct {p3}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/b3;->j:Ljava/util/List;
 
-    .line 7
     new-instance p3, Ljava/util/ArrayList;
 
     invoke-direct {p3}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/b3;->k:Ljava/util/List;
 
-    .line 8
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/b3;->e:Lcom/google/android/gms/internal/ads/jb2;
 
-    .line 9
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/b3;->f:Lcom/google/android/gms/internal/ads/tn2;
 
     const/4 p1, 0x4
 
     new-array p1, p1, [Lcom/google/android/gms/internal/ads/sm2;
 
-    .line 10
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/b3;->h:[Lcom/google/android/gms/internal/ads/sm2;
 
-    .line 11
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/b3;->g:Lcom/google/android/gms/internal/ads/b9;
 
     return-void
@@ -176,15 +161,12 @@
 .method public final a()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b3;->i:Lcom/google/android/gms/internal/ads/jd2;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/jd2;->b()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b3;->h:[Lcom/google/android/gms/internal/ads/sm2;
 
@@ -201,7 +183,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 4
     invoke-virtual {v4}, Lcom/google/android/gms/internal/ads/sm2;->b()V
 
     :cond_1
@@ -209,7 +190,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     new-instance v0, Lcom/google/android/gms/internal/ads/jd2;
 
@@ -225,10 +205,8 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/b3;->i:Lcom/google/android/gms/internal/ads/jd2;
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
-    .line 7
     :goto_1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b3;->h:[Lcom/google/android/gms/internal/ads/sm2;
 
@@ -236,7 +214,6 @@
 
     if-ge v2, v0, :cond_3
 
-    .line 8
     new-instance v0, Lcom/google/android/gms/internal/ads/sm2;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/b3;->d:Ljava/util/concurrent/PriorityBlockingQueue;
@@ -249,12 +226,10 @@
 
     invoke-direct {v0, v1, v3, v4, v5}, Lcom/google/android/gms/internal/ads/sm2;-><init>(Ljava/util/concurrent/BlockingQueue;Lcom/google/android/gms/internal/ads/tn2;Lcom/google/android/gms/internal/ads/jb2;Lcom/google/android/gms/internal/ads/b9;)V
 
-    .line 9
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/b3;->h:[Lcom/google/android/gms/internal/ads/sm2;
 
     aput-object v0, v1, v2
 
-    .line 10
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
     add-int/lit8 v2, v2, 0x1
@@ -275,12 +250,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b3;->k:Ljava/util/List;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/b3;->k:Ljava/util/List;
 
@@ -301,12 +274,10 @@
 
     check-cast v2, Lcom/google/android/gms/internal/ads/d6;
 
-    .line 3
     invoke-interface {v2, p1, p2}, Lcom/google/android/gms/internal/ads/d6;->a(Lcom/google/android/gms/internal/ads/b;I)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     monitor-exit v0
 
@@ -336,60 +307,49 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p0}, Lcom/google/android/gms/internal/ads/b;->n(Lcom/google/android/gms/internal/ads/b3;)Lcom/google/android/gms/internal/ads/b;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b3;->b:Ljava/util/Set;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/b3;->b:Ljava/util/Set;
 
     invoke-interface {v1, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 4
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b3;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
 
     move-result v0
 
-    .line 6
     invoke-virtual {p1, v0}, Lcom/google/android/gms/internal/ads/b;->H(I)Lcom/google/android/gms/internal/ads/b;
 
     const-string v0, "add-to-queue"
 
-    .line 7
     invoke-virtual {p1, v0}, Lcom/google/android/gms/internal/ads/b;->B(Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
-    .line 8
     invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/internal/ads/b3;->b(Lcom/google/android/gms/internal/ads/b;I)V
 
-    .line 9
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/b;->L()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 10
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b3;->d:Ljava/util/concurrent/PriorityBlockingQueue;
 
     invoke-virtual {v0, p1}, Ljava/util/concurrent/PriorityBlockingQueue;->add(Ljava/lang/Object;)Z
 
     return-object p1
 
-    .line 11
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b3;->c:Ljava/util/concurrent/PriorityBlockingQueue;
 
@@ -400,7 +360,6 @@
     :catchall_0
     move-exception p1
 
-    .line 12
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -421,28 +380,23 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b3;->b:Ljava/util/Set;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/b3;->b:Ljava/util/Set;
 
     invoke-interface {v1, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/b3;->j:Ljava/util/List;
 
     monitor-enter v1
 
-    .line 5
     :try_start_1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b3;->j:Ljava/util/List;
 
@@ -463,12 +417,10 @@
 
     check-cast v2, Lcom/google/android/gms/internal/ads/c5;
 
-    .line 6
     invoke-interface {v2, p1}, Lcom/google/android/gms/internal/ads/c5;->a(Lcom/google/android/gms/internal/ads/b;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     monitor-exit v1
     :try_end_1
@@ -476,7 +428,6 @@
 
     const/4 v0, 0x5
 
-    .line 8
     invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/internal/ads/b3;->b(Lcom/google/android/gms/internal/ads/b;I)V
 
     return-void
@@ -484,7 +435,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     :try_start_2
     monitor-exit v1
     :try_end_2
@@ -495,7 +445,6 @@
     :catchall_1
     move-exception p1
 
-    .line 10
     :try_start_3
     monitor-exit v0
     :try_end_3

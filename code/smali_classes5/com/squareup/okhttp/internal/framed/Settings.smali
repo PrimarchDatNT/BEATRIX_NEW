@@ -57,14 +57,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0xa
 
     new-array v0, v0, [I
 
-    .line 2
     iput-object v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->values:[I
 
     return-void
@@ -77,14 +75,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->persisted:I
 
     iput v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->persistValue:I
 
     iput v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
-    .line 2
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/Settings;->values:[I
 
     invoke-static {v1, v0}, Ljava/util/Arrays;->fill([II)V
@@ -95,7 +91,6 @@
 .method flags(I)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/squareup/okhttp/internal/framed/Settings;->isPersisted(I)Z
 
     move-result v0
@@ -109,7 +104,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0, p1}, Lcom/squareup/okhttp/internal/framed/Settings;->persistValue(I)Z
 
@@ -126,7 +120,6 @@
 .method get(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->values:[I
 
     aget p1, v0, p1
@@ -137,7 +130,6 @@
 .method getClientCertificateVectorSize(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit16 v0, v0, 0x100
@@ -157,7 +149,6 @@
 .method getCurrentCwnd(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit8 v0, v0, 0x20
@@ -177,7 +168,6 @@
 .method getDownloadBandwidth(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit8 v0, v0, 0x4
@@ -197,7 +187,6 @@
 .method getDownloadRetransRate(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit8 v0, v0, 0x40
@@ -217,7 +206,6 @@
 .method getEnablePush(Z)Z
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit8 v0, v0, 0x4
@@ -258,7 +246,6 @@
 .method getHeaderTableSize()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit8 v0, v0, 0x2
@@ -283,7 +270,6 @@
 .method getInitialWindowSize(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit16 v0, v0, 0x80
@@ -303,7 +289,6 @@
 .method getMaxConcurrentStreams(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit8 v0, v0, 0x10
@@ -323,7 +308,6 @@
 .method getMaxFrameSize(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit8 v0, v0, 0x20
@@ -343,7 +327,6 @@
 .method getMaxHeaderListSize(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit8 v0, v0, 0x40
@@ -363,7 +346,6 @@
 .method getRoundTripTime(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit8 v0, v0, 0x8
@@ -383,7 +365,6 @@
 .method getUploadBandwidth(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit8 v0, v0, 0x2
@@ -403,7 +384,6 @@
 .method isFlowControlDisabled()Z
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/lit16 v0, v0, 0x400
@@ -443,7 +423,6 @@
 
     shl-int p1, v0, p1
 
-    .line 1
     iget v1, p0, Lcom/squareup/okhttp/internal/framed/Settings;->persisted:I
 
     and-int/2addr p1, v1
@@ -466,7 +445,6 @@
 
     shl-int p1, v0, p1
 
-    .line 1
     iget v1, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     and-int/2addr p1, v1
@@ -492,7 +470,6 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 1
     invoke-virtual {p1, v0}, Lcom/squareup/okhttp/internal/framed/Settings;->isSet(I)Z
 
     move-result v1
@@ -501,7 +478,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p1, v0}, Lcom/squareup/okhttp/internal/framed/Settings;->flags(I)I
 
@@ -529,7 +505,6 @@
 
     shl-int p1, v0, p1
 
-    .line 1
     iget v1, p0, Lcom/squareup/okhttp/internal/framed/Settings;->persistValue:I
 
     and-int/2addr p1, v1
@@ -548,7 +523,6 @@
 .method set(III)Lcom/squareup/okhttp/internal/framed/Settings;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->values:[I
 
     array-length v1, v0
@@ -562,7 +536,6 @@
 
     shl-int/2addr v1, p1
 
-    .line 2
     iget v2, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     or-int/2addr v2, v1
@@ -573,7 +546,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     iget v2, p0, Lcom/squareup/okhttp/internal/framed/Settings;->persistValue:I
 
     or-int/2addr v2, v1
@@ -582,7 +554,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget v2, p0, Lcom/squareup/okhttp/internal/framed/Settings;->persistValue:I
 
@@ -597,7 +568,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 5
     iget p2, p0, Lcom/squareup/okhttp/internal/framed/Settings;->persisted:I
 
     or-int/2addr p2, v1
@@ -606,7 +576,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     iget p2, p0, Lcom/squareup/okhttp/internal/framed/Settings;->persisted:I
 
@@ -616,7 +585,6 @@
 
     iput p2, p0, Lcom/squareup/okhttp/internal/framed/Settings;->persisted:I
 
-    .line 7
     :goto_1
     aput p3, v0, p1
 
@@ -626,7 +594,6 @@
 .method size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/framed/Settings;->set:I
 
     invoke-static {v0}, Ljava/lang/Integer;->bitCount(I)I

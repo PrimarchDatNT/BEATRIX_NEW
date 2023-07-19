@@ -11,14 +11,12 @@
 .method public constructor <init>(Lorg/apache/thrift/protocol/TProtocol;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->getTransport()Lorg/apache/thrift/transport/TTransport;
 
     move-result-object v0
 
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TProtocol;-><init>(Lorg/apache/thrift/transport/TTransport;)V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     return-void
@@ -34,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readBinary()Ljava/nio/ByteBuffer;
@@ -52,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readBool()Z
@@ -70,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readByte()B
@@ -88,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readDouble()D
@@ -106,7 +100,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readFieldBegin()Lorg/apache/thrift/protocol/TField;
@@ -124,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readFieldEnd()V
@@ -140,7 +132,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readI16()S
@@ -158,7 +149,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readI32()I
@@ -176,7 +166,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readI64()J
@@ -194,7 +183,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readListBegin()Lorg/apache/thrift/protocol/TList;
@@ -212,7 +200,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readListEnd()V
@@ -228,7 +215,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readMapBegin()Lorg/apache/thrift/protocol/TMap;
@@ -246,7 +232,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readMapEnd()V
@@ -262,7 +247,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readMessageBegin()Lorg/apache/thrift/protocol/TMessage;
@@ -280,7 +264,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readMessageEnd()V
@@ -296,7 +279,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readSetBegin()Lorg/apache/thrift/protocol/TSet;
@@ -314,7 +296,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readSetEnd()V
@@ -330,7 +311,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readString()Ljava/lang/String;
@@ -348,7 +328,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readStructBegin()Lorg/apache/thrift/protocol/TStruct;
@@ -366,7 +345,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readStructEnd()V
@@ -382,7 +360,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/protocol/TProtocol;->writeBinary(Ljava/nio/ByteBuffer;)V
@@ -398,7 +375,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/protocol/TProtocol;->writeBool(Z)V
@@ -414,7 +390,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/protocol/TProtocol;->writeByte(B)V
@@ -430,7 +405,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1, p2}, Lorg/apache/thrift/protocol/TProtocol;->writeDouble(D)V
@@ -446,7 +420,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/protocol/TProtocol;->writeFieldBegin(Lorg/apache/thrift/protocol/TField;)V
@@ -462,7 +435,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->writeFieldEnd()V
@@ -478,7 +450,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->writeFieldStop()V
@@ -494,7 +465,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/protocol/TProtocol;->writeI16(S)V
@@ -510,7 +480,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/protocol/TProtocol;->writeI32(I)V
@@ -526,7 +495,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1, p2}, Lorg/apache/thrift/protocol/TProtocol;->writeI64(J)V
@@ -542,7 +510,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/protocol/TProtocol;->writeListBegin(Lorg/apache/thrift/protocol/TList;)V
@@ -558,7 +525,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->writeListEnd()V
@@ -574,7 +540,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/protocol/TProtocol;->writeMapBegin(Lorg/apache/thrift/protocol/TMap;)V
@@ -590,7 +555,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->writeMapEnd()V
@@ -606,7 +570,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/protocol/TProtocol;->writeMessageBegin(Lorg/apache/thrift/protocol/TMessage;)V
@@ -622,7 +585,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->writeMessageEnd()V
@@ -638,7 +600,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/protocol/TProtocol;->writeSetBegin(Lorg/apache/thrift/protocol/TSet;)V
@@ -654,7 +615,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->writeSetEnd()V
@@ -670,7 +630,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/protocol/TProtocol;->writeString(Ljava/lang/String;)V
@@ -686,7 +645,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/protocol/TProtocol;->writeStructBegin(Lorg/apache/thrift/protocol/TStruct;)V
@@ -702,7 +660,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocolDecorator;->concreteProtocol:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->writeStructEnd()V

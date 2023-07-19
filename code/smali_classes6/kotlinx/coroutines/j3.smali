@@ -27,21 +27,18 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/p1;-><init>()V
 
     iput p1, p0, Lcotlinx/coroutines/j3;->g:I
 
     iput-object p2, p0, Lcotlinx/coroutines/j3;->p:Ljava/lang/String;
 
-    .line 2
     new-instance p2, Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-direct {p2}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
 
     iput-object p2, p0, Lcotlinx/coroutines/j3;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 3
     new-instance p2, Lcotlinx/coroutines/j3$a;
 
     invoke-direct {p2, p0}, Lcotlinx/coroutines/j3$a;-><init>(Lcotlinx/coroutines/j3;)V
@@ -52,7 +49,6 @@
 
     iput-object p1, p0, Lcotlinx/coroutines/j3;->f:Ljava/util/concurrent/Executor;
 
-    .line 4
     invoke-virtual {p0}, Lcotlinx/coroutines/p1;->C()V
 
     return-void
@@ -61,7 +57,6 @@
 .method public static final synthetic G(Lcotlinx/coroutines/j3;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcotlinx/coroutines/j3;->g:I
 
     return p0
@@ -70,7 +65,6 @@
 .method public static final synthetic J(Lcotlinx/coroutines/j3;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlinx/coroutines/j3;->p:Ljava/lang/String;
 
     return-object p0
@@ -79,7 +73,6 @@
 .method public static final synthetic K(Lcotlinx/coroutines/j3;)Ljava/util/concurrent/atomic/AtomicInteger;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlinx/coroutines/j3;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
     return-object p0
@@ -92,7 +85,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/j3;->f:Ljava/util/concurrent/Executor;
 
     return-object v0
@@ -101,7 +93,6 @@
 .method public close()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/j3;->A()Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -129,7 +120,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

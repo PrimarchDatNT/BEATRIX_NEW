@@ -36,10 +36,8 @@
 .method public final f(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/ads/y/a;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/ads/y/a;->h()V
 
     return-void

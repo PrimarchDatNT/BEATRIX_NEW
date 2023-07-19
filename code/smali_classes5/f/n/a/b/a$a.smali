@@ -29,7 +29,6 @@
 .method constructor <init>(Lf/n/a/b/a;Lf/n/a/b/a$b;Lf/n/a/b/e$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/b/a$a;->c:Lf/n/a/b/a;
 
     iput-object p2, p0, Lf/n/a/b/a$a;->a:Lf/n/a/b/a$b;
@@ -46,7 +45,6 @@
 .method public a(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Lcom/qiniu/android/http/g;->j()Z
 
     move-result p1
@@ -55,13 +53,11 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {p2}, Lf/n/a/b/a$c;->a(Lorg/json/JSONObject;)Lf/n/a/b/a$c;
 
     move-result-object p1
 
-    .line 3
     invoke-static {}, Lf/n/a/b/a;->f()Ljava/util/Map;
 
     move-result-object p2
@@ -70,12 +66,10 @@
 
     invoke-interface {p2, v0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     iget-object p2, p0, Lf/n/a/b/a$a;->c:Lf/n/a/b/a;
 
     invoke-static {p2, p1}, Lf/n/a/b/a;->g(Lf/n/a/b/a;Lf/n/a/b/a$c;)V
 
-    .line 5
     iget-object p1, p0, Lf/n/a/b/a$a;->b:Lf/n/a/b/e$a;
 
     invoke-interface {p1}, Lf/n/a/b/e$a;->onSuccess()V
@@ -87,10 +81,8 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-virtual {p1}, Lorg/json/JSONException;->printStackTrace()V
 
-    .line 7
     iget-object p1, p0, Lf/n/a/b/a$a;->b:Lf/n/a/b/e$a;
 
     const/4 p2, -0x1

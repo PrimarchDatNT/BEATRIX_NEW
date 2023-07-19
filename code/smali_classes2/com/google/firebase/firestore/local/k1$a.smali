@@ -44,10 +44,8 @@
 .method constructor <init>([B)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -56,10 +54,8 @@
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/firebase/firestore/local/k1$a;->b:Z
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/k1$a;->c([B)V
 
     return-void
@@ -68,7 +64,6 @@
 .method static synthetic b(Lcom/google/firebase/firestore/local/k1$a;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/firebase/firestore/local/k1$a;->b:Z
 
     return p0
@@ -77,12 +72,10 @@
 .method private c([B)V
     .locals 1
 
-    .line 1
     invoke-static {p1}, Lcom/google/protobuf/ByteString;->copyFrom([B)Lcom/google/protobuf/ByteString;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/local/k1$a;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -97,22 +90,18 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getBlob(I)[B
 
     move-result-object p1
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/k1$a;->c([B)V
 
-    .line 3
     array-length p1, p1
 
     const v1, 0xf4240
 
     if-ge p1, v1, :cond_0
 
-    .line 4
     iput-boolean v0, p0, Lcom/google/firebase/firestore/local/k1$a;->b:Z
 
     :cond_0
@@ -122,7 +111,6 @@
 .method public bridge synthetic accept(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Landroid/database/Cursor;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/local/k1$a;->a(Landroid/database/Cursor;)V
@@ -133,7 +121,6 @@
 .method d()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/k1$a;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -146,7 +133,6 @@
 .method e()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/k1$a;->a:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFrom(Ljava/lang/Iterable;)Lcom/google/protobuf/ByteString;

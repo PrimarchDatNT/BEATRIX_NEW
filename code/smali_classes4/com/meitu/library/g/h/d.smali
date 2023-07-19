@@ -27,18 +27,14 @@
 .method protected constructor <init>(Lcom/meitu/library/g/h/e;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/g/h/b;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/library/g/h/d;->c:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/library/g/h/d;->d:I
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/library/g/h/d;->a:Lcom/meitu/library/g/h/e;
 
     return-void
@@ -53,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
 
     if-eqz v1, :cond_1
@@ -66,7 +61,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -78,7 +72,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->a:Lcom/meitu/library/g/h/e;
@@ -89,13 +82,10 @@
 
     iput-object v1, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
 
-    .line 4
     iput p1, p0, Lcom/meitu/library/g/h/d;->c:I
 
-    .line 5
     iput p2, p0, Lcom/meitu/library/g/h/d;->d:I
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -108,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
 
     if-eqz v1, :cond_1
@@ -121,7 +110,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -133,7 +121,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->a:Lcom/meitu/library/g/h/e;
@@ -144,7 +131,6 @@
 
     iput-object p1, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -157,12 +143,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/g/h/d;->d:I
 
     if-gez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->a:Lcom/meitu/library/g/h/e;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
@@ -177,7 +161,6 @@
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -191,12 +174,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/g/h/d;->c:I
 
     if-gez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->a:Lcom/meitu/library/g/h/e;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
@@ -211,7 +192,6 @@
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -225,7 +205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->a:Lcom/meitu/library/g/h/e;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
@@ -246,17 +225,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/meitu/library/g/h/d;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast p1, Lcom/meitu/library/g/h/d;
 
     invoke-virtual {p0, p1}, Lcom/meitu/library/g/h/d;->k(Lcom/meitu/library/g/h/d;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -270,30 +246,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->a:Lcom/meitu/library/g/h/e;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/g/h/e;->m(Lcom/meitu/library/g/h/c;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/library/g/h/c;->b()V
 
     :cond_0
     const/4 v1, -0x1
 
-    .line 4
     iput v1, p0, Lcom/meitu/library/g/h/d;->d:I
 
     iput v1, p0, Lcom/meitu/library/g/h/d;->c:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -311,7 +282,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->a:Lcom/meitu/library/g/h/e;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
@@ -322,17 +292,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/File;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/library/g/h/d;->d()I
 
     move-result v8
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/library/g/h/d;->c()I
 
     move-result v9
@@ -341,12 +308,10 @@
 
     mul-int/lit8 v1, v1, 0x4
 
-    .line 5
     invoke-static {v1}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object v10
 
-    .line 6
     sget-object v1, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-virtual {v10, v1}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
@@ -365,20 +330,16 @@
 
     move-object v7, v10
 
-    .line 7
     invoke-static/range {v1 .. v7}, Landroid/opengl/GLES20;->glReadPixels(IIIIIILjava/nio/Buffer;)V
 
     const-string v1, "glReadPixels"
 
-    .line 8
     invoke-static {v1}, Lcom/meitu/library/g/h/f;->a(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v10}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
     const/4 v1, 0x0
 
-    .line 10
     :try_start_0
     new-instance v2, Ljava/io/BufferedOutputStream;
 
@@ -390,7 +351,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 11
     :try_start_1
     sget-object p1, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
@@ -398,25 +358,20 @@
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1, v10}, Landroid/graphics/Bitmap;->copyPixelsFromBuffer(Ljava/nio/Buffer;)V
 
-    .line 13
     sget-object v1, Landroid/graphics/Bitmap$CompressFormat;->PNG:Landroid/graphics/Bitmap$CompressFormat;
 
     const/16 v3, 0x5a
 
     invoke-virtual {p1, v1, v3, v2}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
-    .line 14
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->recycle()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 15
     invoke-virtual {v2}, Ljava/io/BufferedOutputStream;->close()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -434,7 +389,6 @@
     :goto_0
     if-eqz v1, :cond_0
 
-    .line 17
     invoke-virtual {v1}, Ljava/io/BufferedOutputStream;->close()V
 
     :cond_0
@@ -442,7 +396,6 @@
 
     throw p1
 
-    .line 18
     :cond_1
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -462,14 +415,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->a:Lcom/meitu/library/g/h/e;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
 
     invoke-virtual {v1, v2, p1, p2}, Lcom/meitu/library/g/h/e;->n(Lcom/meitu/library/g/h/c;J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -482,7 +433,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->a:Lcom/meitu/library/g/h/e;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
@@ -491,7 +441,6 @@
 
     move-result v1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -504,7 +453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/d;->a:Lcom/meitu/library/g/h/e;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/d;->b:Lcom/meitu/library/g/h/c;
@@ -513,7 +461,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/meitu/library/g/h/e;->g(Lcom/meitu/library/g/h/c;Lcom/meitu/library/g/h/c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

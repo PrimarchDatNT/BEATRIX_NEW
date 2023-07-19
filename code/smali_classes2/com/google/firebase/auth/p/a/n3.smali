@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/p/a/o3;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/firebase/auth/p/a/n3;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -26,7 +25,6 @@
 .method public final varargs a(Lcom/google/firebase/auth/PhoneAuthProvider$a;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     iget-object p2, p0, Lcom/google/firebase/auth/p/a/n3;->a:Ljava/lang/String;
 
     invoke-static {}, Lcom/google/firebase/auth/PhoneAuthProvider$ForceResendingToken;->y()Lcom/google/firebase/auth/PhoneAuthProvider$ForceResendingToken;

@@ -82,10 +82,8 @@
 
     invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct/range {p0 .. p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-virtual/range {p0 .. p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -114,7 +112,6 @@
 
     iput-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
-    .line 3
     invoke-virtual/range {p0 .. p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -135,27 +132,22 @@
 
     const/4 v2, 0x1
 
-    .line 4
     iput-boolean v2, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->c:Z
 
-    .line 5
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v2
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 6
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->q()V
 
-    .line 7
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 8
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/ym;->c:Landroid/view/View;
 
     invoke-static {}, Lcom/meitu/library/p/f/i;->B()I
@@ -172,7 +164,6 @@
 
     invoke-static {v2, v4}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 9
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/ym;->N:Landroid/view/View;
 
     invoke-static {v5}, Lcom/commsource/util/l0;->n(I)I
@@ -181,7 +172,6 @@
 
     invoke-static {v2, v4}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 10
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/ym;->K:Lcom/commsource/studio/LayerManageListLayout;
 
     const-string v2, "contentBinding.layerList"
@@ -212,7 +202,6 @@
 
     invoke-static/range {v5 .. v11}, Lcom/commsource/util/l0;->W(Landroid/view/View;IIIIILjava/lang/Object;)V
 
-    .line 11
     iget-object v12, v1, Lcom/commsource/beautyplus/f0/ym;->J:Lcom/commsource/widget/IconFrontView;
 
     const-string v1, "contentBinding.ivLayerGuide"
@@ -243,7 +232,6 @@
 
     invoke-static/range {v12 .. v18}, Lcom/commsource/util/l0;->W(Landroid/view/View;IIIIILjava/lang/Object;)V
 
-    .line 12
     :cond_0
     iget-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -257,14 +245,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/a;->d(Lcom/commsource/studio/bean/c;)V
 
-    .line 13
     iget-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->E0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
 
-    .line 14
     invoke-virtual/range {p0 .. p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -273,15 +259,12 @@
 
     check-cast v2, Landroidx/fragment/app/FragmentActivity;
 
-    .line 15
     new-instance v4, Lcom/commsource/studio/gesture/LayerSelectComponent$b;
 
     invoke-direct {v4, v0}, Lcom/commsource/studio/gesture/LayerSelectComponent$b;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    .line 16
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 17
     iget-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->S0()Landroidx/lifecycle/MutableLiveData;
@@ -302,7 +285,6 @@
 
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 18
     iget-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->T0()Landroidx/lifecycle/MutableLiveData;
@@ -323,14 +305,12 @@
 
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 19
     iget-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->G0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
 
-    .line 20
     invoke-virtual/range {p0 .. p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -343,10 +323,8 @@
 
     invoke-direct {v4, v0}, Lcom/commsource/studio/gesture/LayerSelectComponent$e;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    .line 21
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 22
     iget-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->B0()Landroidx/lifecycle/MutableLiveData;
@@ -376,7 +354,6 @@
 
     throw v1
 
-    .line 23
     :cond_2
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -384,7 +361,6 @@
 
     throw v1
 
-    .line 24
     :cond_3
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -392,7 +368,6 @@
 
     throw v1
 
-    .line 25
     :cond_4
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -400,7 +375,6 @@
 
     throw v1
 
-    .line 26
     :cond_5
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -408,7 +382,6 @@
 
     throw v1
 
-    .line 27
     :cond_6
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -442,10 +415,8 @@
 
     invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 28
     invoke-direct/range {p0 .. p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 29
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-virtual/range {p0 .. p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -474,7 +445,6 @@
 
     iput-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
-    .line 30
     invoke-virtual/range {p0 .. p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -495,27 +465,22 @@
 
     const/4 v2, 0x1
 
-    .line 31
     iput-boolean v2, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->c:Z
 
-    .line 32
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v2
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 33
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->q()V
 
-    .line 34
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 35
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/ym;->c:Landroid/view/View;
 
     invoke-static {}, Lcom/meitu/library/p/f/i;->B()I
@@ -532,7 +497,6 @@
 
     invoke-static {v2, v4}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 36
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/ym;->N:Landroid/view/View;
 
     invoke-static {v5}, Lcom/commsource/util/l0;->n(I)I
@@ -541,7 +505,6 @@
 
     invoke-static {v2, v4}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 37
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/ym;->K:Lcom/commsource/studio/LayerManageListLayout;
 
     const-string v2, "contentBinding.layerList"
@@ -572,7 +535,6 @@
 
     invoke-static/range {v5 .. v11}, Lcom/commsource/util/l0;->W(Landroid/view/View;IIIIILjava/lang/Object;)V
 
-    .line 38
     iget-object v12, v1, Lcom/commsource/beautyplus/f0/ym;->J:Lcom/commsource/widget/IconFrontView;
 
     const-string v1, "contentBinding.ivLayerGuide"
@@ -603,7 +565,6 @@
 
     invoke-static/range {v12 .. v18}, Lcom/commsource/util/l0;->W(Landroid/view/View;IIIIILjava/lang/Object;)V
 
-    .line 39
     :cond_0
     iget-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -617,14 +578,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/a;->d(Lcom/commsource/studio/bean/c;)V
 
-    .line 40
     iget-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->E0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
 
-    .line 41
     invoke-virtual/range {p0 .. p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -633,15 +592,12 @@
 
     check-cast v2, Landroidx/fragment/app/FragmentActivity;
 
-    .line 42
     new-instance v4, Lcom/commsource/studio/gesture/LayerSelectComponent$b;
 
     invoke-direct {v4, v0}, Lcom/commsource/studio/gesture/LayerSelectComponent$b;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    .line 43
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 44
     iget-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->S0()Landroidx/lifecycle/MutableLiveData;
@@ -662,7 +618,6 @@
 
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 45
     iget-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->T0()Landroidx/lifecycle/MutableLiveData;
@@ -683,14 +638,12 @@
 
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 46
     iget-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->G0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
 
-    .line 47
     invoke-virtual/range {p0 .. p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -703,10 +656,8 @@
 
     invoke-direct {v4, v0}, Lcom/commsource/studio/gesture/LayerSelectComponent$e;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    .line 48
     invoke-virtual {v1, v2, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 49
     iget-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->B0()Landroidx/lifecycle/MutableLiveData;
@@ -736,7 +687,6 @@
 
     throw v1
 
-    .line 50
     :cond_2
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -744,7 +694,6 @@
 
     throw v1
 
-    .line 51
     :cond_3
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -752,7 +701,6 @@
 
     throw v1
 
-    .line 52
     :cond_4
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -760,7 +708,6 @@
 
     throw v1
 
-    .line 53
     :cond_5
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -768,7 +715,6 @@
 
     throw v1
 
-    .line 54
     :cond_6
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -784,7 +730,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->n(Lcom/commsource/studio/bean/BaseLayerInfo;)Z
 
     move-result p0
@@ -801,7 +746,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -816,7 +760,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->f:Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -831,7 +774,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -846,7 +788,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->o()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -861,7 +802,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->t()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -876,7 +816,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -891,7 +830,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->f:Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -906,7 +844,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -921,7 +858,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->u()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -936,7 +872,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->y()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -951,7 +886,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->G0()Landroidx/lifecycle/MutableLiveData;
@@ -974,12 +908,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     instance-of v1, p1, Lcom/commsource/studio/bean/FilterLayerInfo;
 
@@ -1001,7 +933,6 @@
 
     if-ne v1, v3, :cond_6
 
-    .line 4
     :cond_1
     instance-of v1, p1, Lcom/commsource/studio/bean/BgLayerInfo;
 
@@ -1023,7 +954,6 @@
 
     if-ne v1, v3, :cond_6
 
-    .line 5
     :cond_2
     instance-of v1, p1, Lcom/commsource/studio/bean/DoodleLayerInfo;
 
@@ -1045,7 +975,6 @@
 
     if-ne v1, v3, :cond_6
 
-    .line 6
     :cond_3
     instance-of v1, p1, Lcom/commsource/studio/bean/StickerLayerInfo;
 
@@ -1067,7 +996,6 @@
 
     if-ne v1, v3, :cond_6
 
-    .line 7
     :cond_4
     instance-of v1, p1, Lcom/commsource/studio/bean/TextLayerInfo;
 
@@ -1089,7 +1017,6 @@
 
     if-ne v1, v3, :cond_6
 
-    .line 8
     :cond_5
     instance-of p1, p1, Lcom/commsource/studio/bean/PictureLayerInfo;
 
@@ -1127,7 +1054,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->P:Landroid/widget/LinearLayout;
@@ -1138,7 +1064,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1151,7 +1076,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->L:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -1168,7 +1092,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setTranslationX(F)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->J:Lcom/commsource/widget/IconFrontView;
@@ -1179,7 +1102,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->d:Landroid/view/View;
@@ -1190,12 +1112,10 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->K:Lcom/commsource/studio/LayerManageListLayout;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->C0()Lcom/commsource/studio/bean/a;
@@ -1208,42 +1128,36 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->B(Ljava/util/List;)V
 
-    .line 6
     new-instance v2, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$1;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$1;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setLayerInfosChangeListener(Lcotlin/jvm/u/l;)V
 
-    .line 7
     new-instance v2, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$2;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$2;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setLayerInfoDeleteListener(Lcotlin/jvm/u/l;)V
 
-    .line 8
     new-instance v2, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$3;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$3;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setLayerInfoClickListener(Lcotlin/jvm/u/l;)V
 
-    .line 9
     new-instance v2, Lcom/commsource/studio/gesture/LayerSelectComponent$h;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/gesture/LayerSelectComponent$h;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setDragLayerListener(Lcom/commsource/studio/r;)V
 
-    .line 10
     new-instance v2, Lcom/commsource/studio/gesture/LayerSelectComponent$i;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/gesture/LayerSelectComponent$i;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setOnLayoutChildListener(Lcom/commsource/studio/g0;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->p:Landroid/widget/ImageView;
@@ -1254,14 +1168,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->s0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
 
-    .line 13
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -1270,20 +1182,16 @@
 
     check-cast v2, Landroidx/fragment/app/FragmentActivity;
 
-    .line 14
     new-instance v3, Lcom/commsource/studio/gesture/LayerSelectComponent$m;
 
     invoke-direct {v3, p0}, Lcom/commsource/studio/gesture/LayerSelectComponent$m;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    .line 15
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 17
     :cond_0
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1303,7 +1211,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->P:Landroid/widget/LinearLayout;
@@ -1318,7 +1225,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->K:Lcom/commsource/studio/LayerManageListLayout;
@@ -1349,7 +1255,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ym;->K:Lcom/commsource/studio/LayerManageListLayout;
@@ -1389,19 +1294,16 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/commsource/studio/d0;
 
-    .line 5
     invoke-direct {p0, v2}, Lcom/commsource/studio/gesture/LayerSelectComponent;->z(Lcom/commsource/studio/d0;)V
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1415,14 +1317,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/h;->E0()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1430,10 +1330,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v1}, Lf/d/i/h;->j1(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->K:Lcom/commsource/studio/LayerManageListLayout;
@@ -1444,7 +1342,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1457,7 +1354,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/ym;->p:Landroid/widget/ImageView;
@@ -1480,10 +1376,8 @@
 
     const/4 v1, 0x2
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/studio/m0;->a0(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/ym;->L:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -1498,7 +1392,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->G0()Landroidx/lifecycle/MutableLiveData;
@@ -1509,7 +1402,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1526,7 +1418,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
 
     move-result-object p1
@@ -1535,7 +1426,6 @@
 
     const/4 p1, 0x1
 
-    .line 2
     aget v2, v1, p1
 
     iget v3, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->g:I
@@ -1544,12 +1434,10 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     aget v3, v1, p1
 
@@ -1557,19 +1445,16 @@
 
     const/high16 v3, 0x42700000    # 60.0f
 
-    .line 5
     invoke-static {v3}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v3
 
     const/high16 v4, 0x42800000    # 64.0f
 
-    .line 6
     invoke-static {v4}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v4
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/ym;->P:Landroid/widget/LinearLayout;
@@ -1586,14 +1471,12 @@
 
     check-cast v5, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 8
     iget v7, v5, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
     add-int/2addr v7, v2
 
     iput v7, v5, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ym;->P:Landroid/widget/LinearLayout;
@@ -1604,7 +1487,6 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 10
     aget v5, v1, p1
 
     if-ltz v5, :cond_3
@@ -1635,7 +1517,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     aget v5, v1, p1
 
@@ -1647,7 +1528,6 @@
 
     int-to-float v2, p1
 
-    .line 12
     aget p1, v1, p1
 
     int-to-float p1, p1
@@ -1660,7 +1540,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_2
     aget v5, v1, p1
 
@@ -1688,7 +1567,6 @@
 
     int-to-float v2, p1
 
-    .line 14
     aget p1, v1, p1
 
     int-to-float p1, p1
@@ -1697,7 +1575,6 @@
 
     sub-float/2addr p1, v3
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->K:Lcom/commsource/studio/LayerManageListLayout;
@@ -1722,7 +1599,6 @@
     :goto_0
     const/4 v2, 0x0
 
-    .line 16
     :cond_4
     :goto_1
     iget-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
@@ -1733,12 +1609,10 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/LinearLayout;->setAlpha(F)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 18
     :cond_5
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -1831,7 +1705,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1848,20 +1721,16 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->d:Z
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->c:Z
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->x()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
@@ -1885,7 +1754,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1899,7 +1767,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1914,7 +1781,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1929,7 +1795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1944,7 +1809,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1961,20 +1825,16 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->d:Z
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->c:Z
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->y()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
@@ -2000,7 +1860,6 @@
 
     invoke-static/range {v2 .. v9}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2014,7 +1873,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->c:Z
 
     xor-int/lit8 v1, v1, 0x1
@@ -2023,16 +1881,13 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->x()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->y()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2046,7 +1901,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/ym;->L:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -2073,7 +1927,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->G0()Landroidx/lifecycle/MutableLiveData;
@@ -2084,7 +1937,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

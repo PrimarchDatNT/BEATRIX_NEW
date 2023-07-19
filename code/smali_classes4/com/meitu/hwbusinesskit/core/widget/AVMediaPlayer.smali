@@ -33,12 +33,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/media/MediaPlayer;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     return-void
@@ -51,19 +49,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;
 
     invoke-direct {v1}, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;-><init>()V
 
-    .line 2
     new-instance v2, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer$1;
 
     invoke-direct {v2}, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer$1;-><init>()V
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setOnErrorListener(Landroid/media/MediaPlayer$OnErrorListener;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -78,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     const/4 v2, 0x1
@@ -103,7 +97,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-super {p0}, Landroid/media/MediaPlayer;->getDuration()I
@@ -119,13 +112,11 @@
     :catch_0
     move-exception v1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
     :cond_1
     const/4 v1, -0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -138,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     if-eqz v1, :cond_0
@@ -161,7 +151,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     :try_start_0
     invoke-super {p0}, Landroid/media/MediaPlayer;->isPlaying()Z
 
@@ -176,13 +165,11 @@
     :catch_0
     move-exception v1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -195,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     const/4 v2, 0x3
@@ -250,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     if-ne v1, p1, :cond_0
@@ -275,7 +260,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     const/4 v2, 0x5
@@ -294,11 +278,9 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     :cond_0
     iput v2, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
-    .line 3
     :try_start_0
     invoke-super {p0}, Landroid/media/MediaPlayer;->pause()V
     :try_end_0
@@ -309,10 +291,8 @@
     :catch_0
     move-exception v1
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -327,7 +307,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     const/4 v2, 0x1
@@ -336,16 +315,13 @@
 
     const/4 v1, 0x2
 
-    .line 2
     iput v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
-    .line 3
     :try_start_0
     invoke-super {p0}, Landroid/media/MediaPlayer;->prepare()V
 
     const/4 v1, 0x3
 
-    .line 4
     iput v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -355,10 +331,8 @@
     :catch_0
     move-exception v1
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 6
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -373,7 +347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     const/4 v2, 0x1
@@ -382,10 +355,8 @@
 
     const/4 v1, 0x2
 
-    .line 2
     iput v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
-    .line 3
     :try_start_0
     invoke-super {p0}, Landroid/media/MediaPlayer;->prepareAsync()V
     :try_end_0
@@ -396,10 +367,8 @@
     :catch_0
     move-exception v1
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 5
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -416,10 +385,8 @@
 
     const/16 v1, 0x9
 
-    .line 1
     iput v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
-    .line 2
     :try_start_0
     invoke-super {p0}, Landroid/media/MediaPlayer;->release()V
     :try_end_0
@@ -430,10 +397,8 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -447,13 +412,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Landroid/media/MediaPlayer;->reset()V
 
     const/4 v1, 0x0
 
-    .line 2
     iput v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -463,10 +426,8 @@
     :catch_0
     move-exception v1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -480,7 +441,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     const/4 v2, 0x3
@@ -499,7 +459,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-super {p0, p1}, Landroid/media/MediaPlayer;->seekTo(I)V
@@ -511,10 +470,8 @@
     :catch_0
     move-exception p1
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -536,18 +493,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 6
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     if-nez v1, :cond_0
 
-    .line 7
     :try_start_0
     invoke-super {p0, p1}, Landroid/media/MediaPlayer;->setDataSource(Ljava/io/FileDescriptor;)V
 
     const/4 p1, 0x1
 
-    .line 8
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -557,10 +511,8 @@
     :catch_0
     move-exception p1
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 10
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -575,18 +527,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 11
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     if-nez v1, :cond_0
 
-    .line 12
     :try_start_0
     invoke-super/range {p0 .. p5}, Landroid/media/MediaPlayer;->setDataSource(Ljava/io/FileDescriptor;JJ)V
 
     const/4 p1, 0x1
 
-    .line 13
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -596,10 +545,8 @@
     :catch_0
     move-exception p1
 
-    .line 14
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 15
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -614,18 +561,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     if-nez v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-super {p0, p1}, Landroid/media/MediaPlayer;->setDataSource(Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
-    .line 3
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -635,10 +579,8 @@
     :catch_0
     move-exception p1
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 5
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -653,10 +595,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -669,7 +609,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1, p2}, Landroid/media/MediaPlayer;->setVolume(FF)V
     :try_end_0
@@ -680,10 +619,8 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -697,7 +634,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     const/4 v2, 0x4
@@ -722,11 +658,9 @@
 
     if-ne v1, v3, :cond_1
 
-    .line 2
     :cond_0
     iput v2, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
-    .line 3
     :try_start_0
     invoke-super {p0}, Landroid/media/MediaPlayer;->start()V
     :try_end_0
@@ -737,10 +671,8 @@
     :catch_0
     move-exception v1
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -755,7 +687,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
     if-eqz v1, :cond_0
@@ -774,10 +705,8 @@
 
     const/4 v1, 0x6
 
-    .line 2
     iput v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AVMediaPlayer;->mState:I
 
-    .line 3
     :try_start_0
     invoke-super {p0}, Landroid/media/MediaPlayer;->stop()V
     :try_end_0
@@ -788,10 +717,8 @@
     :catch_0
     move-exception v1
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 5
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

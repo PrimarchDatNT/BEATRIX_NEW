@@ -49,10 +49,8 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Ljava/lang/reflect/Constructor;
 
-    .line 2
     invoke-virtual {p2}, Ljava/lang/reflect/Constructor;->getParameterTypes()[Ljava/lang/Class;
 
     move-result-object p2
@@ -65,7 +63,6 @@
 
     check-cast p1, Ljava/lang/reflect/Constructor;
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/reflect/Constructor;->getParameterTypes()[Ljava/lang/Class;
 
     move-result-object p1

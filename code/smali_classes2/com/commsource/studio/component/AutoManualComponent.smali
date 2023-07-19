@@ -47,7 +47,6 @@
 
     const/4 v0, 0x0
 
-    .line 10
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/component/AutoManualComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -70,7 +69,6 @@
 
     const/4 v0, 0x0
 
-    .line 8
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/component/AutoManualComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -91,19 +89,16 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/ComponentView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     sget p1, Lcom/res/provider/ResSTRING;->beauty_main_not_auto_model:I
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/studio/component/AutoManualComponent;->p:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -116,14 +111,12 @@
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object p2
 
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 5
     iget-object p2, p1, Lcom/commsource/beautyplus/f0/u1;->b:Landroid/view/View;
 
     new-instance p3, Lcom/commsource/studio/component/AutoManualComponent$a;
@@ -134,7 +127,6 @@
 
     const-string p2, "ComponentAutoManualBindi\u2026ualMode!!\n        }\n    }"
 
-    .line 6
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/component/AutoManualComponent;->J:Lcom/commsource/beautyplus/f0/u1;
@@ -158,7 +150,6 @@
 
     const/4 p3, 0x0
 
-    .line 7
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/AutoManualComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -174,7 +165,6 @@
 
     const/4 p2, 0x0
 
-    .line 9
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/component/AutoManualComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -259,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/AutoManualComponent;->d:Lcom/commsource/studio/component/AutoManualComponent$b;
 
     if-nez v1, :cond_0
@@ -283,7 +272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/component/AutoManualComponent;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -298,7 +286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/component/AutoManualComponent;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -313,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/AutoManualComponent;->p:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -330,7 +316,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/AutoManualComponent;->J:Lcom/commsource/beautyplus/f0/u1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -347,7 +332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/AutoManualComponent;->d:Lcom/commsource/studio/component/AutoManualComponent$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -378,7 +362,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     const-class p1, Lcom/commsource/studio/component/AutoManualComponent$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/ComponentView;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -387,7 +370,6 @@
 
     check-cast p1, Lcom/commsource/studio/component/AutoManualComponent$b;
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/component/AutoManualComponent$b;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -398,7 +380,6 @@
 
     invoke-virtual {v1, p2, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     iget-boolean p2, p0, Lcom/commsource/studio/component/AutoManualComponent;->f:Z
 
     if-nez p2, :cond_1
@@ -421,10 +402,8 @@
     :goto_1
     invoke-virtual {p1, p2}, Lcom/commsource/studio/component/AutoManualComponent$b;->C(Z)V
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/studio/component/AutoManualComponent;->d:Lcom/commsource/studio/component/AutoManualComponent$b;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -437,7 +416,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/component/AutoManualComponent;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -452,7 +430,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/component/AutoManualComponent;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -467,7 +444,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/AutoManualComponent;->p:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -482,7 +458,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/AutoManualComponent;->J:Lcom/commsource/beautyplus/f0/u1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u1;->a:Landroid/view/View;
@@ -503,7 +478,6 @@
     :goto_0
     invoke-virtual {v1, p1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -520,7 +494,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/AutoManualComponent;->d:Lcom/commsource/studio/component/AutoManualComponent$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

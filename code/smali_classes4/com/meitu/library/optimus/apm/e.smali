@@ -86,7 +86,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/library/optimus/apm/e;->D:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,91 +96,74 @@
 .method public constructor <init>(Landroid/app/Application;Lcom/meitu/library/optimus/apm/c;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/library/optimus/apm/e;->b:Z
 
     const/4 v1, 0x0
 
-    .line 3
     iput v1, p0, Lcom/meitu/library/optimus/apm/e;->h:I
 
-    .line 4
     iput v1, p0, Lcom/meitu/library/optimus/apm/e;->i:I
 
-    .line 5
     iput-boolean v1, p0, Lcom/meitu/library/optimus/apm/e;->z:Z
 
-    .line 6
     iput-boolean v1, p0, Lcom/meitu/library/optimus/apm/e;->A:Z
 
     if-eqz p1, :cond_1
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/gdprsdk/GDPRManager;->a(Landroid/content/Context;)Z
 
     move-result v1
 
     iput-boolean v1, p0, Lcom/meitu/library/optimus/apm/e;->c:Z
 
-    .line 8
     invoke-virtual {p2}, Lcom/meitu/library/optimus/apm/c;->b()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/optimus/apm/e;->e:Ljava/lang/String;
 
-    .line 9
     invoke-virtual {p2}, Lcom/meitu/library/optimus/apm/c;->d()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/optimus/apm/e;->d:Ljava/lang/String;
 
-    .line 10
     invoke-virtual {p2}, Lcom/meitu/library/optimus/apm/c;->f()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/optimus/apm/e;->g:Ljava/lang/String;
 
-    .line 11
     invoke-virtual {p2}, Lcom/meitu/library/optimus/apm/c;->g()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/optimus/apm/e;->f:Ljava/lang/String;
 
-    .line 12
     invoke-virtual {p2}, Lcom/meitu/library/optimus/apm/c;->e()I
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/library/optimus/apm/e;->h:I
 
-    .line 13
     invoke-virtual {p2}, Lcom/meitu/library/optimus/apm/c;->c()I
 
     move-result p2
 
     iput p2, p0, Lcom/meitu/library/optimus/apm/e;->i:I
 
-    .line 14
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->a:Landroid/app/Application;
 
-    .line 15
     sget-boolean p2, Lcom/meitu/library/optimus/apm/e;->D:Z
 
     if-nez p2, :cond_0
 
-    .line 16
     sput-boolean v0, Lcom/meitu/library/optimus/apm/e;->D:Z
 
-    .line 17
     new-instance p2, Lcom/meitu/library/optimus/apm/f;
 
     invoke-direct {p2}, Lcom/meitu/library/optimus/apm/f;-><init>()V
@@ -191,7 +173,6 @@
     :cond_0
     return-void
 
-    .line 18
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -211,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/optimus/apm/e;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -226,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/optimus/apm/e;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -241,7 +220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/optimus/apm/e;->A:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -256,10 +234,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->v:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -272,10 +248,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->l:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -288,10 +262,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->e:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -304,10 +276,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/optimus/apm/e;->i:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -320,10 +290,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/library/optimus/apm/e;->b:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -336,10 +304,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->m:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -352,10 +318,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->d:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -368,10 +332,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->q:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -384,10 +346,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->p:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -400,7 +360,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -413,10 +372,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->j:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -429,10 +386,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/optimus/apm/e;->h:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -454,10 +409,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->C:Ljava/util/concurrent/ConcurrentHashMap;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -470,10 +423,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->u:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -486,7 +437,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -499,7 +449,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -512,10 +461,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->o:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -528,10 +475,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->x:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -544,10 +489,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->s:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -560,10 +503,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->r:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -576,7 +517,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -589,10 +529,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->n:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -605,10 +543,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->g:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -621,7 +557,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->v:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -636,10 +571,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->k:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -652,7 +585,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -667,10 +599,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->f:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -683,7 +613,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->e:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -698,10 +627,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/library/optimus/apm/e;->z:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -714,7 +641,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/optimus/apm/e;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -729,10 +655,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->B:Lorg/json/JSONObject;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -745,7 +669,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->m:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -760,10 +683,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/library/optimus/apm/e;->A:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -776,7 +697,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -791,10 +711,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->w:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -807,7 +725,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->q:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -822,10 +739,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->t:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -838,7 +753,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->p:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -853,10 +767,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/e;->y:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -869,7 +781,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->j:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -884,7 +795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/optimus/apm/e;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -908,7 +818,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->C:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -923,7 +832,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->u:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -938,7 +846,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->o:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -953,7 +860,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->x:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -968,7 +874,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->s:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -983,7 +888,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->r:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -998,7 +902,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->n:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1013,12 +916,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->a:Landroid/app/Application;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/app/Application;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
@@ -1027,7 +928,6 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1043,7 +943,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1058,7 +957,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1073,7 +971,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1088,7 +985,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->B:Lorg/json/JSONObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1103,7 +999,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->w:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1118,7 +1013,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->t:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1133,7 +1027,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->y:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1142,7 +1035,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/library/optimus/apm/e;->A:Z
 
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/o;->a(Z)Ljava/lang/String;
@@ -1153,7 +1045,6 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->y:Ljava/lang/String;
 
@@ -1169,7 +1060,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/optimus/apm/e;->c:Z
 
     if-nez v1, :cond_7
@@ -1180,57 +1070,48 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->a:Landroid/app/Application;
 
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/d;->f(Landroid/app/Application;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->j:Ljava/lang/String;
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/optimus/apm/d;->b()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/optimus/apm/e;->j:Ljava/lang/String;
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->k:Ljava/lang/String;
 
     if-nez v1, :cond_2
 
-    .line 6
     invoke-static {}, Lcom/meitu/library/optimus/apm/d;->d()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/optimus/apm/e;->k:Ljava/lang/String;
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->m:Ljava/lang/String;
 
     if-nez v1, :cond_3
 
-    .line 8
     invoke-static {}, Lcom/meitu/library/optimus/apm/d;->a()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/optimus/apm/e;->m:Ljava/lang/String;
 
-    .line 9
     :cond_3
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->n:Ljava/lang/String;
 
     if-nez v1, :cond_4
 
-    .line 10
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->a:Landroid/app/Application;
 
     const-string v2, ""
@@ -1241,39 +1122,33 @@
 
     iput-object v1, p0, Lcom/meitu/library/optimus/apm/e;->n:Ljava/lang/String;
 
-    .line 11
     :cond_4
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->o:Ljava/lang/String;
 
     if-nez v1, :cond_5
 
-    .line 12
     invoke-static {}, Lcom/meitu/library/optimus/apm/d;->c()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/optimus/apm/e;->o:Ljava/lang/String;
 
-    .line 13
     :cond_5
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/e;->w:Ljava/lang/String;
 
     if-nez v1, :cond_6
 
-    .line 14
     invoke-static {}, Lcom/meitu/library/optimus/apm/d;->e()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/optimus/apm/e;->w:Ljava/lang/String;
 
-    .line 15
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

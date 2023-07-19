@@ -46,7 +46,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/HeapObject;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/HeapObject$b;->c:Lkshark/HprofHeapGraph;
@@ -65,7 +64,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapObject$b;->c:Lkshark/HprofHeapGraph;
 
     return-object v0
@@ -74,7 +72,6 @@
 .method public g()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/HeapObject$b;->e:J
 
     return-wide v0
@@ -83,7 +80,6 @@
 .method public bridge synthetic h()Lkshark/m$b$c;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lkshark/HeapObject$b;->n()Lkshark/m$b$c$g;
 
     move-result-object v0
@@ -96,7 +92,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lkshark/HeapObject$b;->f()Lkshark/i;
 
     move-result-object v0
@@ -122,7 +117,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -176,7 +170,6 @@
 .method public final k()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapObject$b;->d:Lkshark/internal/d$d;
 
     invoke-virtual {v0}, Lkshark/internal/d$d;->c()I
@@ -191,7 +184,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapObject$b;->d:Lkshark/internal/d$d;
 
     invoke-virtual {v0}, Lkshark/internal/d$d;->b()Lkshark/PrimitiveType;
@@ -204,12 +196,10 @@
 .method public final m()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lkshark/HeapObject$b;->n()Lkshark/m$b$c$g;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lkshark/m$b$c$g$a;
 
     if-eqz v1, :cond_0
@@ -233,7 +223,6 @@
 
     goto/16 :goto_1
 
-    .line 3
     :cond_0
     instance-of v1, v0, Lkshark/m$b$c$g$c;
 
@@ -255,7 +244,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     instance-of v1, v0, Lkshark/m$b$c$g$e;
 
@@ -277,7 +265,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     instance-of v1, v0, Lkshark/m$b$c$g$d;
 
@@ -299,7 +286,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_3
     instance-of v1, v0, Lkshark/m$b$c$g$b;
 
@@ -321,7 +307,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_4
     instance-of v1, v0, Lkshark/m$b$c$g$h;
 
@@ -343,7 +328,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_5
     instance-of v1, v0, Lkshark/m$b$c$g$f;
 
@@ -365,7 +349,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_6
     instance-of v1, v0, Lkshark/m$b$c$g$g;
 
@@ -403,7 +386,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapObject$b;->c:Lkshark/HprofHeapGraph;
 
     invoke-virtual {p0}, Lkshark/HeapObject$b;->g()J
@@ -424,7 +406,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

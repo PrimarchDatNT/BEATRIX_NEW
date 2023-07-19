@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/qiniu/android/http/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/qiniu/android/http/f$a;->a:Lcom/qiniu/android/http/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/qiniu/android/http/f$a;->a:Lcom/qiniu/android/http/f;
 
     iget-object v0, p1, Lcom/qiniu/android/http/f;->c:Ljava/lang/String;
@@ -54,7 +52,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p2}, Lokhttp3/Response;->request()Lokhttp3/Request;
 
     move-result-object p2
@@ -65,7 +62,6 @@
 
     const-string v0, "Proxy-Authorization"
 
-    .line 3
     invoke-virtual {p2, v0, p1}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1
@@ -74,7 +70,6 @@
 
     const-string v0, "Keep-Alive"
 
-    .line 4
     invoke-virtual {p1, p2, v0}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1

@@ -7,7 +7,6 @@
 .method public constructor <init>([Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ln/a/b/b/a;-><init>([Ljava/lang/Object;)V
 
     return-void
@@ -18,7 +17,6 @@
 .method public run([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 5
 
-    .line 1
     iget-object p1, p0, Ln/a/b/b/a;->state:[Ljava/lang/Object;
 
     const/4 v0, 0x0

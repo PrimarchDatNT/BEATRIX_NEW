@@ -19,7 +19,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/zzcf$zza;->s0()Lcom/google/android/gms/internal/ads/zzcf$zza$a;
 
     move-result-object v0
@@ -46,7 +45,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -57,7 +55,6 @@
 .method public final a()Lcom/google/android/gms/internal/ads/zzcf$zza;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/rm1;->a:Lcom/google/android/gms/internal/ads/zzcf$zza;
 
     return-object v0
@@ -71,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
@@ -86,7 +82,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
@@ -97,7 +92,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {p1, v1, v0}, Lcom/google/android/gms/internal/ads/dm1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/internal/ads/zzcf$zza;
 
     move-result-object p1

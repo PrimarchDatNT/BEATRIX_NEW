@@ -29,17 +29,14 @@
 
     const/4 v1, -0x1
 
-    .line 1
     sput v1, Lcom/commsource/util/i0;->a:I
 
     const/4 v1, 0x0
 
-    .line 2
     sput-boolean v1, Lcom/commsource/util/i0;->b:Z
 
     const-string v1, "\u65b0\u7b56\u7565"
 
-    .line 3
     sput-object v1, Lcom/commsource/util/i0;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -50,7 +47,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,10 +59,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/h/j;->m:Lcom/meitu/library/h/j;
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/h/f;->e()I
 
     move-result v1
@@ -83,26 +77,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/util/i0;->a:I
 
     const/4 v2, -0x1
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/commsource/util/i0;->f()V
 
-    .line 4
     sget-object v1, Lcom/meitu/library/h/j;->m:Lcom/meitu/library/h/j;
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -117,7 +106,6 @@
 
     sput v1, Lcom/commsource/util/i0;->a:I
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -130,27 +118,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/util/i0;->a:I
 
     const/4 v2, -0x1
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/i0;->b()I
 
     move-result v1
 
     sput v1, Lcom/commsource/util/i0;->a:I
 
-    .line 3
     :cond_0
     sget v1, Lcom/commsource/util/i0;->a:I
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "\u4f4e\u7aef\u673a"
@@ -162,7 +146,6 @@
 
     if-ne v1, v2, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "\u4e2d\u7aef\u673a"
@@ -174,7 +157,6 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "\u9ad8\u7aef\u673a"
@@ -186,14 +168,12 @@
 
     if-ne v1, v2, :cond_4
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "\u8d85\u9ad8\u7aef\u673a"
 
     return-object v0
 
-    .line 8
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -209,10 +189,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/h/j;->m:Lcom/meitu/library/h/j;
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/h/f;->s()I
 
     move-result v1
@@ -229,10 +207,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/i0;->f()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -250,12 +226,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v2, Lcom/commsource/util/i0;->b:Z
 
     if-nez v2, :cond_0
 
-    .line 2
     sget-object v2, Lcom/meitu/library/h/j;->m:Lcom/meitu/library/h/j;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -266,10 +240,8 @@
 
     const/4 v2, 0x1
 
-    .line 3
     sput-boolean v2, Lcom/commsource/util/i0;->b:Z
 
-    .line 4
     :cond_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -294,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/i0;->b()I
 
     move-result v1
@@ -323,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/i0;->b()I
 
     move-result v1
@@ -350,7 +320,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/i0;->b()I
 
     move-result v1
@@ -377,7 +346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/i0;->b()I
 
     move-result v1

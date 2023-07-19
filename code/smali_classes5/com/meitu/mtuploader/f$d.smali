@@ -43,36 +43,26 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/mtuploader/f$d;->a:I
 
-    .line 3
     iput p7, p0, Lcom/meitu/mtuploader/f$d;->a:I
 
-    .line 4
     iput-object p8, p0, Lcom/meitu/mtuploader/f$d;->b:Lcom/meitu/mtuploader/f$e;
 
-    .line 5
     iput-object p4, p0, Lcom/meitu/mtuploader/f$d;->c:Ljava/lang/String;
 
-    .line 6
     iput-object p5, p0, Lcom/meitu/mtuploader/f$d;->d:Ljava/lang/String;
 
-    .line 7
     iput-object p6, p0, Lcom/meitu/mtuploader/f$d;->e:Lcom/meitu/mtuploader/bean/MtBusinessBean;
 
-    .line 8
     iput-object p2, p0, Lcom/meitu/mtuploader/f$d;->h:Lcom/meitu/mtuploader/bean/MtUploadRequestTokenBean;
 
-    .line 9
     iput-object p1, p0, Lcom/meitu/mtuploader/f$d;->f:Landroid/content/Context;
 
-    .line 10
     iput-object p3, p0, Lcom/meitu/mtuploader/f$d;->g:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     return-void
@@ -91,12 +81,10 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
 
-    .line 2
     :cond_0
     iget v1, p0, Lcom/meitu/mtuploader/f$d;->a:I
 
@@ -108,12 +96,10 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -133,7 +119,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct/range {p0 .. p2}, Lcom/meitu/mtuploader/f$d;->b(ILjava/lang/String;)Z
 
     move-result v3
@@ -142,7 +127,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 2
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -167,7 +151,6 @@
 
     invoke-static {v4, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, v0, Lcom/meitu/mtuploader/f$d;->f:Landroid/content/Context;
 
     iget-object v3, v0, Lcom/meitu/mtuploader/f$d;->h:Lcom/meitu/mtuploader/bean/MtUploadRequestTokenBean;
@@ -230,7 +213,6 @@
 
     invoke-static/range {v5 .. v12}, Lcom/meitu/mtuploader/f;->a(Landroid/content/Context;Lcom/meitu/mtuploader/bean/MtUploadRequestTokenBean;Lcom/meitu/mtuploader/bean/MtUploadBean;Ljava/lang/String;Ljava/lang/String;Lcom/meitu/mtuploader/bean/MtBusinessBean;ILcom/meitu/mtuploader/f$e;)V
 
-    .line 4
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -238,10 +220,8 @@
     :cond_0
     const-string v3, "Token request callback!!!"
 
-    .line 5
     invoke-static {v4, v3}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object v3, v0, Lcom/meitu/mtuploader/f$d;->b:Lcom/meitu/mtuploader/f$e;
 
     move/from16 v4, p1
@@ -250,7 +230,6 @@
 
     invoke-static {v3, v4, v1, v5}, Lcom/meitu/mtuploader/f;->b(Lcom/meitu/mtuploader/f$e;ILjava/lang/String;Lcom/meitu/mtuploader/bean/MtTokenBean;)V
 
-    .line 7
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

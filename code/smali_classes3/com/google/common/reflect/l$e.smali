@@ -26,7 +26,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/reflect/l$e;
 
     invoke-direct {v0}, Lcom/google/common/reflect/l$e;-><init>()V
@@ -39,7 +38,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
@@ -52,10 +50,8 @@
 .method private constructor <init>(Ljava/util/concurrent/atomic/AtomicInteger;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/google/common/reflect/l$e;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
     return-void
@@ -64,7 +60,6 @@
 .method synthetic constructor <init>(Ljava/util/concurrent/atomic/AtomicInteger;Lcom/google/common/reflect/l$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/reflect/l$e;-><init>(Ljava/util/concurrent/atomic/AtomicInteger;)V
 
     return-void
@@ -83,7 +78,6 @@
 
     return-object p1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/common/reflect/l$e;->a(Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;
 
@@ -103,7 +97,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/reflect/l$e$a;
 
     iget-object v1, p0, Lcom/google/common/reflect/l$e;->a:Ljava/util/concurrent/atomic/AtomicInteger;
@@ -116,7 +109,6 @@
 .method private e()Lcom/google/common/reflect/l$e;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/reflect/l$e;
 
     iget-object v1, p0, Lcom/google/common/reflect/l$e;->a:Ljava/util/concurrent/atomic/AtomicInteger;
@@ -131,17 +123,14 @@
 .method final a(Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;
     .locals 6
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     instance-of v0, p1, Ljava/lang/Class;
 
     if-eqz v0, :cond_0
 
     return-object p1
 
-    .line 3
     :cond_0
     instance-of v0, p1, Ljava/lang/reflect/TypeVariable;
 
@@ -149,16 +138,13 @@
 
     return-object p1
 
-    .line 4
     :cond_1
     instance-of v0, p1, Ljava/lang/reflect/GenericArrayType;
 
     if-eqz v0, :cond_2
 
-    .line 5
     check-cast p1, Ljava/lang/reflect/GenericArrayType;
 
-    .line 6
     invoke-direct {p0}, Lcom/google/common/reflect/l$e;->e()Lcom/google/common/reflect/l$e;
 
     move-result-object v0
@@ -171,48 +157,40 @@
 
     move-result-object p1
 
-    .line 7
     invoke-static {p1}, Lcom/google/common/reflect/Types;->k(Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;
 
     move-result-object p1
 
     return-object p1
 
-    .line 8
     :cond_2
     instance-of v0, p1, Ljava/lang/reflect/ParameterizedType;
 
     if-eqz v0, :cond_4
 
-    .line 9
     check-cast p1, Ljava/lang/reflect/ParameterizedType;
 
-    .line 10
     invoke-interface {p1}, Ljava/lang/reflect/ParameterizedType;->getRawType()Ljava/lang/reflect/Type;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/Class;
 
-    .line 11
     invoke-virtual {v0}, Ljava/lang/Class;->getTypeParameters()[Ljava/lang/reflect/TypeVariable;
 
     move-result-object v1
 
-    .line 12
     invoke-interface {p1}, Ljava/lang/reflect/ParameterizedType;->getActualTypeArguments()[Ljava/lang/reflect/Type;
 
     move-result-object v2
 
     const/4 v3, 0x0
 
-    .line 13
     :goto_0
     array-length v4, v2
 
     if-ge v3, v4, :cond_3
 
-    .line 14
     aget-object v4, v1, v3
 
     invoke-direct {p0, v4}, Lcom/google/common/reflect/l$e;->d(Ljava/lang/reflect/TypeVariable;)Lcom/google/common/reflect/l$e;
@@ -231,7 +209,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_3
     invoke-direct {p0}, Lcom/google/common/reflect/l$e;->e()Lcom/google/common/reflect/l$e;
 
@@ -245,35 +222,29 @@
 
     move-result-object p1
 
-    .line 16
     invoke-static {p1, v0, v2}, Lcom/google/common/reflect/Types;->n(Ljava/lang/reflect/Type;Ljava/lang/Class;[Ljava/lang/reflect/Type;)Ljava/lang/reflect/ParameterizedType;
 
     move-result-object p1
 
     return-object p1
 
-    .line 17
     :cond_4
     instance-of v0, p1, Ljava/lang/reflect/WildcardType;
 
     if-eqz v0, :cond_6
 
-    .line 18
     move-object v0, p1
 
     check-cast v0, Ljava/lang/reflect/WildcardType;
 
-    .line 19
     invoke-interface {v0}, Ljava/lang/reflect/WildcardType;->getLowerBounds()[Ljava/lang/reflect/Type;
 
     move-result-object v1
 
-    .line 20
     array-length v1, v1
 
     if-nez v1, :cond_5
 
-    .line 21
     invoke-interface {v0}, Ljava/lang/reflect/WildcardType;->getUpperBounds()[Ljava/lang/reflect/Type;
 
     move-result-object p1
@@ -285,7 +256,6 @@
     :cond_5
     return-object p1
 
-    .line 22
     :cond_6
     new-instance p1, Ljava/lang/AssertionError;
 
@@ -308,7 +278,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -319,7 +288,6 @@
 
     iget-object v1, p0, Lcom/google/common/reflect/l$e;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 2
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
 
     move-result v1
@@ -346,7 +314,6 @@
 
     move-result-object v0
 
-    .line 3
     const-class v1, Lcom/google/common/reflect/l$e;
 
     invoke-static {v1, v0, p1}, Lcom/google/common/reflect/Types;->l(Ljava/lang/reflect/GenericDeclaration;Ljava/lang/String;[Ljava/lang/reflect/Type;)Ljava/lang/reflect/TypeVariable;

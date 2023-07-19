@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/IncentiveVideoPlayActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/IncentiveVideoPlayActivity$b;->a:Lcom/sdk/imp/IncentiveVideoPlayActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onFinished()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/IncentiveVideoPlayActivity$b;->a:Lcom/sdk/imp/IncentiveVideoPlayActivity;
 
     invoke-static {v0}, Lcom/sdk/imp/IncentiveVideoPlayActivity;->b(Lcom/sdk/imp/IncentiveVideoPlayActivity;)V
@@ -49,14 +47,12 @@
 .method public onImpression()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/IncentiveVideoPlayActivity;->a()Lcom/sdk/api/d$e;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/sdk/imp/IncentiveVideoPlayActivity$b$a;
 
     invoke-direct {v0, p0}, Lcom/sdk/imp/IncentiveVideoPlayActivity$b$a;-><init>(Lcom/sdk/imp/IncentiveVideoPlayActivity$b;)V

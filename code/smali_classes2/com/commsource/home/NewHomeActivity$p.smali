@@ -57,7 +57,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
@@ -75,14 +74,12 @@
 
     if-eqz p1, :cond_4
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/billing/bean/subsconfig/Config;->getHomepageBannerBottom()Ljava/lang/String;
 
     move-result-object v4
 
     if-eqz v4, :cond_4
 
-    .line 3
     invoke-interface {v4}, Ljava/lang/CharSequence;->length()I
 
     move-result v5
@@ -107,7 +104,6 @@
     :goto_1
     if-eqz v4, :cond_4
 
-    .line 4
     sget-object v5, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;
 
     invoke-virtual {v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
@@ -116,7 +112,6 @@
 
     invoke-virtual {v5, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;->g(Ljava/lang/String;)V
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/home/NewHomeActivity$p;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v5}, Lcom/commsource/home/NewHomeActivity;->O0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/home/a;
@@ -127,7 +122,6 @@
 
     invoke-virtual {v5, v4}, Lcom/commsource/home/a;->A(Ljava/lang/String;)V
 
-    .line 6
     :cond_3
     iget-object v4, p0, Lcom/commsource/home/NewHomeActivity$p;->a:Lcom/commsource/home/NewHomeActivity;
 
@@ -142,7 +136,6 @@
     :cond_4
     if-eqz p1, :cond_7
 
-    .line 7
     sget-object v4, Lcom/commsource/billing/pro/SubsConfigManager;->o:Lcom/commsource/billing/pro/SubsConfigManager;
 
     invoke-virtual {v4, p1}, Lcom/commsource/billing/pro/SubsConfigManager;->e(Lcom/commsource/billing/bean/subsconfig/Config;)J
@@ -176,12 +169,10 @@
     :cond_6
     if-eqz v1, :cond_7
 
-    .line 8
     invoke-virtual {v1}, Ljava/lang/Number;->longValue()J
 
     move-result-wide v1
 
-    .line 9
     sget-object p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
@@ -196,12 +187,10 @@
 
     invoke-virtual {p1, v3, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;->i(J)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/home/NewHomeActivity$p;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {p1, v1, v2}, Lcom/commsource/home/NewHomeActivity;->g1(Lcom/commsource/home/NewHomeActivity;J)V
 
-    .line 11
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -215,7 +204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/billing/bean/subsconfig/Config;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/NewHomeActivity$p;->a(Lcom/commsource/billing/bean/subsconfig/Config;)V

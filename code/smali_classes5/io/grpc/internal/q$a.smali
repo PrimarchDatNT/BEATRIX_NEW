@@ -26,14 +26,12 @@
 .method constructor <init>(Lio/grpc/internal/q;Lio/grpc/internal/y;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/q$a;->c:Lio/grpc/internal/q;
 
     invoke-direct {p0}, Lio/grpc/internal/p0;-><init>()V
 
     const-string p1, "delegate"
 
-    .line 2
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -44,7 +42,6 @@
 
     const-string p1, "authority"
 
-    .line 3
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -59,7 +56,6 @@
 .method static synthetic j(Lio/grpc/internal/q$a;)Lio/grpc/internal/y;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/q$a;->a:Lio/grpc/internal/y;
 
     return-object p0
@@ -68,7 +64,6 @@
 .method static synthetic k(Lio/grpc/internal/q$a;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/q$a;->b:Ljava/lang/String;
 
     return-object p0
@@ -79,7 +74,6 @@
 .method protected b()Lio/grpc/internal/y;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/q$a;->a:Lio/grpc/internal/y;
 
     return-object v0
@@ -99,26 +93,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p3}, Lio/grpc/f;->c()Lio/grpc/d;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v1, Lio/grpc/internal/q1;
 
     iget-object v2, p0, Lio/grpc/internal/q$a;->a:Lio/grpc/internal/y;
 
     invoke-direct {v1, v2, p1, p2, p3}, Lio/grpc/internal/q1;-><init>(Lio/grpc/internal/v;Lio/grpc/MethodDescriptor;Lio/grpc/y0;Lio/grpc/f;)V
 
-    .line 3
     new-instance p2, Lio/grpc/internal/q$a$a;
 
     invoke-direct {p2, p0, p1, p3}, Lio/grpc/internal/q$a$a;-><init>(Lio/grpc/internal/q$a;Lio/grpc/MethodDescriptor;Lio/grpc/f;)V
 
-    .line 4
     :try_start_0
     invoke-virtual {p3}, Lio/grpc/f;->e()Ljava/util/concurrent/Executor;
 
@@ -136,7 +126,6 @@
 
     check-cast p1, Ljava/util/concurrent/Executor;
 
-    .line 5
     invoke-virtual {v0, p2, p1, v1}, Lio/grpc/d;->a(Lio/grpc/d$b;Ljava/util/concurrent/Executor;Lio/grpc/d$a;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -146,25 +135,20 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     sget-object p2, Lio/grpc/Status;->o:Lio/grpc/Status;
 
     const-string p3, "Credentials should use fail() instead of throwing exceptions"
 
-    .line 7
     invoke-virtual {p2, p3}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object p2
 
-    .line 8
     invoke-virtual {p2, p1}, Lio/grpc/Status;->t(Ljava/lang/Throwable;)Lio/grpc/Status;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {v1, p1}, Lio/grpc/internal/q1;->b(Lio/grpc/Status;)V
 
-    .line 10
     :goto_0
     invoke-virtual {v1}, Lio/grpc/internal/q1;->d()Lio/grpc/internal/u;
 
@@ -172,7 +156,6 @@
 
     return-object p1
 
-    .line 11
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/q$a;->a:Lio/grpc/internal/y;
 

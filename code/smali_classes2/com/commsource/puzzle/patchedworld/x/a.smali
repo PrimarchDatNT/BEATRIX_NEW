@@ -31,14 +31,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/x/a;
 
     invoke-direct {v1}, Lcom/commsource/puzzle/patchedworld/x/a;-><init>()V
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->b:Lcom/commsource/puzzle/patchedworld/x/a;
 
-    .line 2
     new-instance v1, Ljava/util/concurrent/ThreadPoolExecutor;
 
     sget-object v7, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
@@ -73,7 +71,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -86,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->b:Lcom/commsource/puzzle/patchedworld/x/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -112,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1, p1, p2, p3}, Ljava/util/concurrent/ExecutorService;->awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
@@ -135,12 +130,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1, p1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -180,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1, p1}, Ljava/util/concurrent/ExecutorService;->invokeAll(Ljava/util/Collection;)Ljava/util/List;
@@ -232,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1, p1, p2, p3, p4}, Ljava/util/concurrent/ExecutorService;->invokeAll(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/util/List;
@@ -276,7 +267,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1, p1}, Ljava/util/concurrent/ExecutorService;->invokeAny(Ljava/util/Collection;)Ljava/lang/Object;
@@ -324,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1, p1, p2, p3, p4}, Ljava/util/concurrent/ExecutorService;->invokeAny(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
@@ -343,7 +332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1}, Ljava/util/concurrent/ExecutorService;->isShutdown()Z
@@ -362,7 +350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1}, Ljava/util/concurrent/ExecutorService;->isTerminated()Z
@@ -381,12 +368,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1}, Ljava/util/concurrent/ExecutorService;->shutdown()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -410,7 +395,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1}, Ljava/util/concurrent/ExecutorService;->shutdownNow()Ljava/util/List;
@@ -445,7 +429,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1, p1}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
@@ -482,7 +465,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1, p1, p2}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Future;
@@ -519,7 +501,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/x/a;->c:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1, p1}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;

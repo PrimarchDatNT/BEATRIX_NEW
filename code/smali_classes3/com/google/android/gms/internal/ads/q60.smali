@@ -19,16 +19,12 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/ug1;Lcom/google/android/gms/internal/ads/rf;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/q60;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/q60;->b:Lcom/google/android/gms/internal/ads/ug1;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/q60;->c:Lcom/google/android/gms/internal/ads/rf;
 
     return-void
@@ -39,7 +35,6 @@
 .method public final onAdLoaded()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/q60;->b:Lcom/google/android/gms/internal/ads/ug1;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/ug1;->V:Lcom/google/android/gms/internal/ads/pf;
@@ -52,13 +47,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/q60;->b:Lcom/google/android/gms/internal/ads/ug1;
 
     iget-object v1, v1, Lcom/google/android/gms/internal/ads/ug1;->V:Lcom/google/android/gms/internal/ads/pf;
@@ -71,7 +64,6 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/q60;->b:Lcom/google/android/gms/internal/ads/ug1;
 
     iget-object v1, v1, Lcom/google/android/gms/internal/ads/ug1;->V:Lcom/google/android/gms/internal/ads/pf;
@@ -80,7 +72,6 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/q60;->c:Lcom/google/android/gms/internal/ads/rf;
 
@@ -120,7 +111,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/q60;->c:Lcom/google/android/gms/internal/ads/rf;
 
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/rf;->a()V

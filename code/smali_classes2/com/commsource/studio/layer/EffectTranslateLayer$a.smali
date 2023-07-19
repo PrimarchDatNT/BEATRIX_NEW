@@ -40,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/EffectTranslateLayer$a;->J:Lcom/commsource/studio/layer/EffectTranslateLayer;
 
     invoke-direct {p0, p2}, Lcom/bumptech/glide/request/j/f;-><init>(Landroid/view/View;)V
@@ -57,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/layer/EffectTranslateLayer$a;->m(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/k/f;)V
@@ -78,7 +76,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -95,7 +92,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -130,12 +126,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/EffectTranslateLayer$a;->J:Lcom/commsource/studio/layer/EffectTranslateLayer;
 
     check-cast p1, Lcom/bumptech/glide/integration/webp/decoder/k;
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/layer/EffectTranslateLayer$a$a;
 
     invoke-direct {v1}, Lcom/commsource/studio/layer/EffectTranslateLayer$a$a;-><init>()V
@@ -144,24 +138,18 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {p1, v1}, Lcom/bumptech/glide/integration/webp/decoder/k;->s(I)V
 
-    .line 4
     invoke-virtual {p1, v1, v1}, Lcom/bumptech/glide/integration/webp/decoder/k;->setVisible(ZZ)Z
 
-    .line 5
     invoke-virtual {p1}, Lcom/bumptech/glide/integration/webp/decoder/k;->start()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/layer/EffectTranslateLayer$a;->J:Lcom/commsource/studio/layer/EffectTranslateLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/EffectTranslateLayer;->D0(Lcom/commsource/studio/layer/EffectTranslateLayer;)V
 
-    .line 7
     invoke-static {v0, p1}, Lcom/commsource/studio/layer/EffectTranslateLayer;->C0(Lcom/commsource/studio/layer/EffectTranslateLayer;Lcom/bumptech/glide/integration/webp/decoder/k;)V
 
-    .line 8
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/meitu/core/processor/MteBaseEffectUtil;->nativeCASDA_bitmap(Landroid/graphics/Bitmap;III)Z
 
     move-result p0
@@ -44,7 +42,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -60,7 +57,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -74,7 +70,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -90,7 +85,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -116,7 +110,6 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -132,7 +125,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 13
     invoke-static/range {p0 .. p8}, Lcom/meitu/core/processor/MteBaseEffectUtil;->nativeExtractColor(Ljava/nio/ByteBuffer;IIIIII[I[F)Z
 
     move-result p0
@@ -142,7 +134,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 14
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -158,17 +149,14 @@
 
     mul-int/lit8 v1, p1, 0x4
 
-    .line 1
     new-array v1, v1, [I
 
     const/4 v2, -0x1
 
-    .line 2
     invoke-static {v1, v2}, Ljava/util/Arrays;->fill([II)V
 
     if-eqz p0, :cond_2
 
-    .line 3
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->isRecycled()Z
 
     move-result v2
@@ -183,7 +171,6 @@
 
     new-array v4, v3, [F
 
-    .line 4
     iget v5, p4, Landroid/graphics/RectF;->left:F
 
     aput v5, v4, v2
@@ -196,7 +183,6 @@
 
     const/4 v5, 0x2
 
-    .line 5
     invoke-virtual {p4}, Landroid/graphics/RectF;->width()F
 
     move-result v6
@@ -222,7 +208,6 @@
 
     move-object v10, p4
 
-    .line 6
     :goto_0
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -240,15 +225,12 @@
 
     move-result-object p4
 
-    .line 7
     invoke-virtual {p4, v2}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 8
     invoke-virtual {p0, p4}, Landroid/graphics/Bitmap;->copyPixelsToBuffer(Ljava/nio/Buffer;)V
 
     if-eqz p4, :cond_1
 
-    .line 9
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v4
@@ -289,14 +271,11 @@
 
     const-string p1, "run colorExtract fail"
 
-    .line 10
     invoke-static {p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 11
     :cond_1
     invoke-virtual {p4}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
-    .line 12
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -344,7 +323,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 1
     invoke-virtual/range {p0 .. p0}, Ljava/util/ArrayList;->size()I
 
     move-result v5
@@ -353,7 +331,6 @@
 
     const/4 v5, 0x0
 
-    .line 2
     invoke-virtual {v0, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -364,19 +341,16 @@
 
     if-lez v6, :cond_3
 
-    .line 3
     sget-object v6, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     invoke-static {v1, v2, v6}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object v6
 
-    .line 4
     invoke-virtual/range {p0 .. p0}, Ljava/util/ArrayList;->size()I
 
     move-result v7
 
-    .line 5
     invoke-virtual {v0, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -389,7 +363,6 @@
 
     mul-int/lit8 v9, v9, 0x2
 
-    .line 6
     new-array v9, v9, [F
 
     const/4 v10, 0x0
@@ -397,21 +370,18 @@
     :goto_0
     if-ge v10, v7, :cond_2
 
-    .line 7
     invoke-virtual {v0, v10}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v11
 
     check-cast v11, [Landroid/graphics/PointF;
 
-    .line 8
     array-length v12, v11
 
     if-eq v12, v8, :cond_0
 
     const-string v11, "createFaceMask Error, array length error"
 
-    .line 9
     invoke-static {v4, v11}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_2
@@ -422,7 +392,6 @@
     :goto_1
     if-ge v12, v8, :cond_1
 
-    .line 10
     aget-object v13, v11, v12
 
     mul-int v14, v10, v8
@@ -435,7 +404,6 @@
 
     add-int/lit8 v15, v14, 0x0
 
-    .line 11
     iget v5, v13, Landroid/graphics/PointF;->x:F
 
     int-to-float v3, v1
@@ -446,7 +414,6 @@
 
     add-int/lit8 v14, v14, 0x1
 
-    .line 12
     iget v3, v13, Landroid/graphics/PointF;->y:F
 
     int-to-float v5, v2
@@ -473,13 +440,11 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     invoke-static {v6, v9, v7, v8}, Lcom/meitu/core/processor/MteBaseEffectUtil;->nativeCreateFaceMask(Landroid/graphics/Bitmap;[FII)Z
 
     const v0, 0xbbde
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v6
@@ -489,12 +454,10 @@
 
     const-string v1, "createFaceMask fail, param is wrong"
 
-    .line 15
     invoke-static {v4, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     const/4 v1, 0x0
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -509,12 +472,10 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/types/NativeBitmap;->createBitmap()Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v2
@@ -533,14 +494,12 @@
     :goto_0
     move-wide v4, p0
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v6
 
     move v8, p2
 
-    .line 4
     invoke-static/range {v2 .. v8}, Lcom/meitu/core/processor/MteBaseEffectUtil;->nativeCreateSkinMask(JJJI)Z
 
     goto :goto_1
@@ -548,7 +507,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -562,19 +520,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/core/processor/MteBaseEffectUtil;->createSkinMask(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;I)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
     goto :goto_0
@@ -582,7 +537,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -600,7 +554,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -619,7 +572,6 @@
 
     invoke-static/range {v1 .. v8}, Lcom/meitu/core/processor/MteBaseEffectUtil;->nativeDrawFaceData(JJIIII)Z
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -639,7 +591,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -656,7 +607,6 @@
 
     invoke-static/range {v1 .. v7}, Lcom/meitu/core/processor/MteBaseEffectUtil;->nativeDrawInterPoint(JJIII)Z
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -680,7 +630,6 @@
 
     if-gt p1, v1, :cond_0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/core/processor/MteBaseEffectUtil;->nativeFindMaskDownBorderNorm_bitmap(Landroid/graphics/Bitmap;IZ)F
 
     move-result p0
@@ -690,7 +639,6 @@
     :cond_0
     const/high16 p0, 0x3f800000    # 1.0f
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -710,7 +658,6 @@
 
     if-lez p2, :cond_0
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/meitu/core/processor/MteBaseEffectUtil;->nativeLuminanceAverageThread_byte([BII[F)I
 
     move-result p0
@@ -720,7 +667,6 @@
     :cond_0
     const/4 p0, -0x1
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -736,7 +682,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-static {p0, p1}, Lcom/meitu/core/processor/MteBaseEffectUtil;->nativeMaxFilter_bitmap(Landroid/graphics/Bitmap;I)Z
 
     move-result p0
@@ -746,7 +691,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -762,7 +706,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -776,7 +719,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -798,7 +740,6 @@
 
     if-lez p4, :cond_0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcom/meitu/core/processor/MteBaseEffectUtil;->nativeMaxFilter_byte([BIIII)Z
 
     move-result p0
@@ -808,7 +749,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -824,7 +764,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/core/processor/MteBaseEffectUtil;->nativeMinFilter_bitmap(Landroid/graphics/Bitmap;I)Z
 
     move-result p0
@@ -834,7 +773,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -850,7 +788,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -864,7 +801,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

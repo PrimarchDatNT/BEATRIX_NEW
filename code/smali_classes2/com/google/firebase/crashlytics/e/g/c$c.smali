@@ -26,12 +26,10 @@
 .method private constructor <init>(Lcom/google/firebase/crashlytics/e/g/c;Lcom/google/firebase/crashlytics/e/g/c$b;)V
     .locals 1
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
     invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
-    .line 3
     iget v0, p2, Lcom/google/firebase/crashlytics/e/g/c$b;->a:I
 
     add-int/lit8 v0, v0, 0x4
@@ -42,7 +40,6 @@
 
     iput p1, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->a:I
 
-    .line 4
     iget p1, p2, Lcom/google/firebase/crashlytics/e/g/c$b;->b:I
 
     iput p1, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->b:I
@@ -53,7 +50,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/crashlytics/e/g/c;Lcom/google/firebase/crashlytics/e/g/c$b;Lcom/google/firebase/crashlytics/e/g/c$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/firebase/crashlytics/e/g/c$c;-><init>(Lcom/google/firebase/crashlytics/e/g/c;Lcom/google/firebase/crashlytics/e/g/c$b;)V
 
     return-void
@@ -69,7 +65,6 @@
         }
     .end annotation
 
-    .line 8
     iget v0, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->b:I
 
     if-nez v0, :cond_0
@@ -78,7 +73,6 @@
 
     return v0
 
-    .line 9
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
@@ -92,7 +86,6 @@
 
     invoke-virtual {v0, v1, v2}, Ljava/io/RandomAccessFile;->seek(J)V
 
-    .line 10
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
     invoke-static {v0}, Lcom/google/firebase/crashlytics/e/g/c;->d(Lcom/google/firebase/crashlytics/e/g/c;)Ljava/io/RandomAccessFile;
@@ -103,7 +96,6 @@
 
     move-result v0
 
-    .line 11
     iget-object v1, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
     iget v2, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->a:I
@@ -116,7 +108,6 @@
 
     iput v1, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->a:I
 
-    .line 12
     iget v1, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->b:I
 
     add-int/lit8 v1, v1, -0x1
@@ -136,21 +127,18 @@
 
     const-string v0, "buffer"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/firebase/crashlytics/e/g/c;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     or-int v0, p2, p3
 
     if-ltz v0, :cond_2
 
-    .line 2
     array-length v0, p1
 
     sub-int/2addr v0, p2
 
     if-gt p3, v0, :cond_2
 
-    .line 3
     iget v0, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->b:I
 
     if-lez v0, :cond_1
@@ -159,7 +147,6 @@
 
     move p3, v0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
@@ -167,7 +154,6 @@
 
     invoke-static {v0, v1, p1, p2, p3}, Lcom/google/firebase/crashlytics/e/g/c;->c(Lcom/google/firebase/crashlytics/e/g/c;I[BII)V
 
-    .line 5
     iget-object p1, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
     iget p2, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->a:I
@@ -180,7 +166,6 @@
 
     iput p1, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->a:I
 
-    .line 6
     iget p1, p0, Lcom/google/firebase/crashlytics/e/g/c$c;->b:I
 
     sub-int/2addr p1, p3
@@ -194,7 +179,6 @@
 
     return p1
 
-    .line 7
     :cond_2
     new-instance p1, Ljava/lang/ArrayIndexOutOfBoundsException;
 

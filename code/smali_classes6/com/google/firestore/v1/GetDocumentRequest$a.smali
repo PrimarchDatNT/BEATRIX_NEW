@@ -24,7 +24,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     invoke-static {}, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->values()[Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
     move-result-object v0
@@ -160,7 +159,6 @@
     :try_end_7
     .catch Ljava/lang/NoSuchFieldError; {:try_start_7 .. :try_end_7} :catch_7
 
-    .line 2
     :catch_7
     invoke-static {}, Lcom/google/firestore/v1/GetDocumentRequest$ConsistencySelectorCase;->values()[Lcom/google/firestore/v1/GetDocumentRequest$ConsistencySelectorCase;
 

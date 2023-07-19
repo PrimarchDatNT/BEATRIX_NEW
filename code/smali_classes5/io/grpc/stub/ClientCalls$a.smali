@@ -81,7 +81,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lio/grpc/stub/ClientCalls$a;-><init>(Lio/grpc/h;Lio/grpc/stub/ClientCalls$ThreadlessExecutor;)V
 
     return-void
@@ -99,10 +98,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/ArrayBlockingQueue;
 
     const/4 v1, 0x2
@@ -111,17 +108,14 @@
 
     iput-object v0, p0, Lio/grpc/stub/ClientCalls$a;->a:Ljava/util/concurrent/BlockingQueue;
 
-    .line 4
     new-instance v0, Lio/grpc/stub/ClientCalls$a$a;
 
     invoke-direct {v0, p0}, Lio/grpc/stub/ClientCalls$a$a;-><init>(Lio/grpc/stub/ClientCalls$a;)V
 
     iput-object v0, p0, Lio/grpc/stub/ClientCalls$a;->b:Lio/grpc/h$a;
 
-    .line 5
     iput-object p1, p0, Lio/grpc/stub/ClientCalls$a;->c:Lio/grpc/h;
 
-    .line 6
     iput-object p2, p0, Lio/grpc/stub/ClientCalls$a;->d:Lio/grpc/stub/ClientCalls$ThreadlessExecutor;
 
     return-void
@@ -130,7 +124,6 @@
 .method static synthetic a(Lio/grpc/stub/ClientCalls$a;)Ljava/util/concurrent/BlockingQueue;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/stub/ClientCalls$a;->a:Ljava/util/concurrent/BlockingQueue;
 
     return-object p0
@@ -144,12 +137,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$a;->d:Lio/grpc/stub/ClientCalls$ThreadlessExecutor;
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$a;->a:Ljava/util/concurrent/BlockingQueue;
 
     invoke-interface {v0}, Ljava/util/concurrent/BlockingQueue;->take()Ljava/lang/Object;
@@ -158,7 +149,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$a;->a:Ljava/util/concurrent/BlockingQueue;
 
@@ -169,12 +159,10 @@
     :goto_0
     if-nez v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$a;->d:Lio/grpc/stub/ClientCalls$ThreadlessExecutor;
 
     invoke-virtual {v0}, Lio/grpc/stub/ClientCalls$ThreadlessExecutor;->waitAndDrain()V
 
-    .line 5
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$a;->a:Ljava/util/concurrent/BlockingQueue;
 
     invoke-interface {v0}, Ljava/util/concurrent/BlockingQueue;->poll()Ljava/lang/Object;
@@ -199,7 +187,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$a;->b:Lio/grpc/h$a;
 
     return-object v0
@@ -208,12 +195,10 @@
 .method public hasNext()Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$a;->f:Ljava/lang/Object;
 
     if-nez v0, :cond_0
 
-    .line 2
     :try_start_0
     invoke-direct {p0}, Lio/grpc/stub/ClientCalls$a;->c()Ljava/lang/Object;
 
@@ -228,14 +213,12 @@
     :catch_0
     move-exception v0
 
-    .line 3
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v1
 
     invoke-virtual {v1}, Ljava/lang/Thread;->interrupt()V
 
-    .line 4
     sget-object v1, Lio/grpc/Status;->h:Lio/grpc/Status;
 
     const-string v2, "interrupted"
@@ -254,7 +237,6 @@
 
     throw v0
 
-    .line 5
     :cond_0
     :goto_0
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$a;->f:Ljava/lang/Object;
@@ -275,11 +257,9 @@
     :goto_1
     return v0
 
-    .line 6
     :cond_2
     check-cast v0, Lio/grpc/StatusRuntimeException;
 
-    .line 7
     invoke-virtual {v0}, Lio/grpc/StatusRuntimeException;->getStatus()Lio/grpc/Status;
 
     move-result-object v1
@@ -303,7 +283,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/ClientCalls$a;->hasNext()Z
 
     move-result v0
@@ -312,7 +291,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/stub/ClientCalls$a;->c:Lio/grpc/h;
 
@@ -320,12 +298,10 @@
 
     invoke-virtual {v1, v2}, Lio/grpc/h;->e(I)V
 
-    .line 3
     iget-object v1, p0, Lio/grpc/stub/ClientCalls$a;->f:Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     iput-object v0, p0, Lio/grpc/stub/ClientCalls$a;->f:Ljava/lang/Object;
 
     return-object v1
@@ -337,7 +313,6 @@
 
     throw v1
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -349,7 +324,6 @@
 .method public remove()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V

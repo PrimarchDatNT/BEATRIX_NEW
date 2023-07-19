@@ -35,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;
 
     invoke-direct {v1}, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;-><init>()V
@@ -50,15 +49,12 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->mState:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->mRewardedVideo:I
 
     return-void
@@ -71,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->mState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -86,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->mRewardedVideo:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->INSTANCE:Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -118,7 +111,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->mRewardedVideo:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->mState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -148,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->mRewardedVideo:I
 
     if-nez v1, :cond_0
@@ -159,20 +149,16 @@
 
     const/4 v1, 0x1
 
-    .line 2
     iput v1, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->mRewardedVideo:I
 
-    .line 3
     iput v1, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->mState:I
 
-    .line 4
     new-instance v1, Lcom/mopub/common/SdkConfiguration$Builder;
 
     invoke-direct {v1, p2}, Lcom/mopub/common/SdkConfiguration$Builder;-><init>(Ljava/lang/String;)V
 
     sget-object p2, Lcom/mopub/common/logging/MoPubLog$LogLevel;->DEBUG:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 5
     invoke-virtual {v1, p2}, Lcom/mopub/common/SdkConfiguration$Builder;->withLogLevel(Lcom/mopub/common/logging/MoPubLog$LogLevel;)Lcom/mopub/common/SdkConfiguration$Builder;
 
     move-result-object p2
@@ -181,14 +167,12 @@
 
     move-result-object p2
 
-    .line 6
     new-instance v1, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer$2;
 
     invoke-direct {v1, p0}, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer$2;-><init>(Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;)V
 
     invoke-static {p1, p2, v1}, Lcom/mopub/common/MoPub;->initializeSdk(Landroid/content/Context;Lcom/mopub/common/SdkConfiguration;Lcom/mopub/common/SdkInitializationListener;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -202,24 +186,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->mState:I
 
     if-nez v1, :cond_0
 
     const/4 v1, 0x1
 
-    .line 2
     iput v1, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->mState:I
 
-    .line 3
     new-instance v1, Lcom/mopub/common/SdkConfiguration$Builder;
 
     invoke-direct {v1, p2}, Lcom/mopub/common/SdkConfiguration$Builder;-><init>(Ljava/lang/String;)V
 
     sget-object p2, Lcom/mopub/common/logging/MoPubLog$LogLevel;->DEBUG:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 4
     invoke-virtual {v1, p2}, Lcom/mopub/common/SdkConfiguration$Builder;->withLogLevel(Lcom/mopub/common/logging/MoPubLog$LogLevel;)Lcom/mopub/common/SdkConfiguration$Builder;
 
     move-result-object p2
@@ -228,14 +208,12 @@
 
     move-result-object p2
 
-    .line 5
     new-instance v1, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer$1;
 
     invoke-direct {v1, p0}, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer$1;-><init>(Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;)V
 
     invoke-static {p1, p2, v1}, Lcom/mopub/common/MoPub;->initializeSdk(Landroid/content/Context;Lcom/mopub/common/SdkConfiguration;Lcom/mopub/common/SdkInitializationListener;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

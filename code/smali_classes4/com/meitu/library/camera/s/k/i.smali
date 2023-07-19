@@ -17,7 +17,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/camera/s/k/i;
 
     invoke-direct {v1}, Lcom/meitu/library/camera/s/k/i;-><init>()V
@@ -34,7 +33,6 @@
 
     const-string v0, "simpleKey"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/meitu/library/camera/s/k/b;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -45,7 +43,6 @@
 
     const-string v0, "simpleKey"
 
-    .line 2
     invoke-direct {p0, v0, p1, p2}, Lcom/meitu/library/camera/s/k/b;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -60,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/montage/a;->j:Lcom/commsource/camera/xcamera/cover/montage/a$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/montage/a$a;->d()I
@@ -94,7 +93,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     :goto_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/montage/a$a;->b()I
@@ -118,7 +116,6 @@
 
     goto :goto_2
 
-    .line 3
     :cond_3
     :goto_1
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/montage/a$a;->a()I
@@ -134,7 +131,6 @@
 
     move-result p1
 
-    .line 4
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -148,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$a;->a(Ljava/lang/Integer;)V

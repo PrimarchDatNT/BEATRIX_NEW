@@ -21,7 +21,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcotlin/d;->b(C)I
 
     move-result v0
@@ -38,7 +37,6 @@
 
     int-to-short p0, p0
 
-    .line 2
     invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0
@@ -49,7 +47,6 @@
 
     return p0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -75,7 +72,6 @@
 .method public static final synthetic b(C)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcotlin/d;->c(C)I
 
     move-result p0

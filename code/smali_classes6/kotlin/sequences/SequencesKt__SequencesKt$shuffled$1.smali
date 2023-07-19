@@ -158,7 +158,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->label:I
 
     const/4 v2, 0x1
@@ -179,7 +178,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -189,7 +187,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
@@ -197,7 +194,6 @@
 
     check-cast p1, Lcotlin/sequences/o;
 
-    .line 4
     iget-object v1, p0, Lcotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->$this_shuffled:Lcotlin/sequences/m;
 
     invoke-static {v1}, Lcotlin/sequences/p;->W2(Lcotlin/sequences/m;)Ljava/util/List;
@@ -209,7 +205,6 @@
     :goto_0
     move-object p1, p0
 
-    .line 5
     :cond_2
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
 
@@ -219,7 +214,6 @@
 
     if-eqz v4, :cond_4
 
-    .line 6
     iget-object v4, p1, Lcotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->$random:Lcotlin/random/e;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -230,12 +224,10 @@
 
     move-result v4
 
-    .line 7
     invoke-static {v1}, Lcotlin/collections/s;->N0(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object v5
 
-    .line 8
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v6
@@ -246,7 +238,6 @@
 
     move-result-object v5
 
-    .line 9
     :cond_3
     iput-object v3, p1, Lcotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->L$0:Ljava/lang/Object;
 
@@ -262,7 +253,6 @@
 
     return-object v0
 
-    .line 10
     :cond_4
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

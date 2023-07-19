@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/text/TextStylePage$j;->a:Lcom/commsource/studio/text/TextStylePage;
 
     invoke-static {v0}, Lcom/commsource/studio/text/TextStylePage;->a(Lcom/commsource/studio/text/TextStylePage;)Lcom/commsource/studio/text/TextViewModel;
@@ -57,7 +56,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/text/TextViewModel;->z(Lcom/commsource/studio/text/TextTemplate;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/text/TextStylePage$j;->a:Lcom/commsource/studio/text/TextStylePage;
 
     invoke-static {v0}, Lcom/commsource/studio/text/TextStylePage;->a(Lcom/commsource/studio/text/TextStylePage;)Lcom/commsource/studio/text/TextViewModel;
@@ -72,7 +70,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -63,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object v2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->b:Lcotlin/jvm/internal/Ref$FloatRef;
@@ -72,7 +71,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setPivotX(F)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object v2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->c:Lcotlin/jvm/internal/Ref$FloatRef;
@@ -81,56 +79,46 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setPivotY(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setScaleX(F)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setScaleY(F)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v1}, Landroid/view/ViewGroup;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 6
     new-instance v2, Lcom/commsource/studio/gesture/LayerAdjustComponent$b$a;
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/studio/gesture/LayerAdjustComponent$b$a;-><init>(Landroid/view/ViewPropertyAnimator;Lcom/commsource/studio/gesture/LayerAdjustComponent$b;)V
 
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
-    .line 7
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 8
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
-    .line 9
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->scaleX(F)Landroid/view/ViewPropertyAnimator;
 
-    .line 10
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->scaleY(F)Landroid/view/ViewPropertyAnimator;
 
     const-string v2, "animate"
 
-    .line 11
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v2, 0x15e
 
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
-    .line 12
     new-instance v2, Landroid/view/animation/OvershootInterpolator;
 
     const v3, 0x3f4ccccd    # 0.8f
@@ -139,10 +127,8 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
 
-    .line 13
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

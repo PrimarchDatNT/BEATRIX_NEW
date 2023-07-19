@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->e()Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;
 
     move-result-object v1
@@ -78,10 +77,8 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;->a:Lcom/commsource/studio/ImageStudioActivity;
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->e()Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;
 
     move-result-object v2
@@ -90,7 +87,6 @@
 
     move-result v2
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->e()Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;
 
     move-result-object v3
@@ -99,12 +95,10 @@
 
     move-result-object v3
 
-    .line 5
     invoke-static {v1, p1, v2, v3}, Lcom/commsource/studio/ImageStudioActivity;->b1(Lcom/commsource/studio/ImageStudioActivity;Lcom/commsource/studio/formula/convert/g;ILjava/lang/String;)V
 
     goto/16 :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->d()Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -112,7 +106,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -129,7 +122,6 @@
 
     invoke-virtual {v2}, Ljava/util/concurrent/CopyOnWriteArrayList;->clear()V
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -146,7 +138,6 @@
 
     invoke-virtual {v2, v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -155,20 +146,16 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k0;->a:Lcom/commsource/studio/StudioCanvasContainer;
 
-    .line 10
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->c()I
 
     move-result v2
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->b()I
 
     move-result v3
 
-    .line 12
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/StudioCanvasContainer;->z(II)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -191,7 +178,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->h()Z
 
@@ -199,10 +185,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;->a:Lcom/commsource/studio/ImageStudioActivity;
 
-    .line 16
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->e()Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;
 
     move-result-object v2
@@ -211,7 +195,6 @@
 
     move-result v2
 
-    .line 17
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->e()Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;
 
     move-result-object v3
@@ -220,12 +203,10 @@
 
     move-result-object v3
 
-    .line 18
     invoke-static {v1, p1, v2, v3}, Lcom/commsource/studio/ImageStudioActivity;->b1(Lcom/commsource/studio/ImageStudioActivity;Lcom/commsource/studio/formula/convert/g;ILjava/lang/String;)V
 
     goto :goto_0
 
-    .line 19
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -243,13 +224,11 @@
 
     goto :goto_0
 
-    .line 20
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-static {v1}, Lcom/commsource/studio/ImageStudioActivity;->O0(Lcom/commsource/studio/ImageStudioActivity;)V
 
-    .line 21
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->a()Z
 
     move-result v1
@@ -261,39 +240,32 @@
     :cond_4
     sget v1, Lcom/res/provider/ResSTRING;->ai_editor_need_network:I
 
-    .line 22
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v2
 
     sget v1, Lcom/res/provider/ResSTRING;->ai_editor_retry:I
 
-    .line 23
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 24
     new-instance v4, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$a;
 
     invoke-direct {v4, p1, p0, p1}, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$a;-><init>(Lcom/commsource/studio/formula/convert/g;Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;Lcom/commsource/studio/formula/convert/g;)V
 
     sget p1, Lcom/res/provider/ResSTRING;->ai_editor_cancel:I
 
-    .line 25
     invoke-static {p1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 26
     sget-object v6, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$b;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$b;
 
     const/4 v7, 0x0
 
-    .line 27
     invoke-static/range {v2 .. v7}, Lcom/commsource/widget/dialog/s0/t;->m0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;Lcom/commsource/widget/dialog/s0/w;)V
 
-    .line 28
     :cond_5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,7 +280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/formula/convert/g;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;->a(Lcom/commsource/studio/formula/convert/g;)V

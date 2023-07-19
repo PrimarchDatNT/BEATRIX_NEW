@@ -22,19 +22,16 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
 
-    .line 2
     invoke-static {v0}, Lio/grpc/Context$k;->a(Ljava/util/concurrent/atomic/AtomicReference;)Lio/grpc/Context$l;
 
     move-result-object v1
 
     sput-object v1, Lio/grpc/Context$k;->a:Lio/grpc/Context$l;
 
-    .line 3
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -43,7 +40,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     sget-object v1, Lio/grpc/Context;->d:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -59,7 +55,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -81,12 +76,10 @@
     :try_start_0
     const-string v0, "io.grpc.override.ContextStorageOverride"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
 
-    .line 2
     const-class v1, Lio/grpc/Context$l;
 
     invoke-virtual {v0, v1}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
@@ -117,7 +110,6 @@
     :catch_0
     move-exception p0
 
-    .line 3
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Storage override failed to initialize"
@@ -129,10 +121,8 @@
     :catch_1
     move-exception v0
 
-    .line 4
     invoke-virtual {p0, v0}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    .line 5
     new-instance p0, Lio/grpc/x1;
 
     invoke-direct {p0}, Lio/grpc/x1;-><init>()V

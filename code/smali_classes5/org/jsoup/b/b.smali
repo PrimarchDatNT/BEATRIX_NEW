@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -18,7 +17,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v0, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
@@ -37,7 +35,6 @@
 .method public static b(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/b/b;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -54,7 +51,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/b/b;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0

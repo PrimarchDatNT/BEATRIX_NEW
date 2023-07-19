@@ -35,7 +35,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/i2/f;->a:[I
 
     invoke-virtual {p0}, Ljava/util/concurrent/TimeUnit;->ordinal()I
@@ -46,7 +45,6 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 2
     new-instance p0, Lcotlin/NoWhenBranchMatchedException;
 
     invoke-direct {p0}, Lcotlin/NoWhenBranchMatchedException;-><init>()V

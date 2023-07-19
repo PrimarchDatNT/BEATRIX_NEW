@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/airbnb/lottie/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/h$k;->a:Lcom/airbnb/lottie/g;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/p;
 
     iget-object v1, p0, Lcom/airbnb/lottie/h$k;->a:Lcom/airbnb/lottie/g;
@@ -74,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/h$k;->a()Lcom/airbnb/lottie/p;
 
     move-result-object v0

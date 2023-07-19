@@ -12,20 +12,16 @@
 .method constructor <init>([BII)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/firebase_auth/zzgp;-><init>([B)V
 
     add-int v0, p2, p3
 
-    .line 2
     array-length p1, p1
 
     invoke-static {p2, v0, p1}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzc(III)I
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/internal/firebase_auth/zzgm;->zzwa:I
 
-    .line 4
     iput p3, p0, Lcom/google/android/gms/internal/firebase_auth/zzgm;->zzwb:I
 
     return-void
@@ -36,7 +32,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzgm;->zzwb:I
 
     return v0
@@ -45,7 +40,6 @@
 .method protected final zzgf()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzgm;->zzwa:I
 
     return v0
@@ -54,7 +48,6 @@
 .method public final zzp(I)B
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->size()I
 
     move-result v0
@@ -69,7 +62,6 @@
 
     if-gez p1, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/ArrayIndexOutOfBoundsException;
 
     const/16 v1, 0x16
@@ -92,7 +84,6 @@
 
     throw v0
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/ArrayIndexOutOfBoundsException;
 
@@ -122,7 +113,6 @@
 
     throw v1
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzwd:[B
 
@@ -138,7 +128,6 @@
 .method final zzq(I)B
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzwd:[B
 
     iget v1, p0, Lcom/google/android/gms/internal/firebase_auth/zzgm;->zzwa:I

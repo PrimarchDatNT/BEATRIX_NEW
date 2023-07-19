@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,30 +23,25 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
@@ -61,7 +55,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -94,19 +87,16 @@
 
     move-result-object v2
 
-    .line 7
     invoke-static {p0, p1, v2}, Lcom/meitu/library/p/g/a;->d(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;)Z
 
     move-result p0
 
     if-eqz p0, :cond_5
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 9
     :cond_2
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
@@ -120,7 +110,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 10
     invoke-static {p0, p1}, Lcom/meitu/library/p/g/a;->b(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     move-result-object p0
@@ -132,28 +121,24 @@
     :cond_3
     const-string v3, "file"
 
-    .line 11
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
-    .line 12
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     move-result-object p0
 
     const/16 p1, 0x8
 
-    .line 13
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v2
 
     if-le v2, p1, :cond_5
 
-    .line 14
     invoke-virtual {p0, p1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p0
@@ -162,7 +147,6 @@
 
     return-object p0
 
-    .line 15
     :cond_4
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
@@ -176,7 +160,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 16
     invoke-static {p0, p1}, Lcom/meitu/library/p/g/a;->c(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     move-result-object p0
@@ -185,7 +168,6 @@
 
     return-object p0
 
-    .line 17
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -201,7 +183,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
@@ -209,7 +190,6 @@
 
     const-string v2, "%"
 
-    .line 2
     invoke-virtual {p1, v2}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result v2
@@ -218,7 +198,6 @@
 
     add-int/2addr v2, v3
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -229,14 +208,12 @@
 
     const-string v2, "A"
 
-    .line 4
     invoke-virtual {p1, v2}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result v2
 
     add-int/2addr v2, v3
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -251,7 +228,6 @@
 
     aput-object p1, v8, v2
 
-    .line 6
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v4
@@ -276,12 +252,10 @@
     :try_start_1
     const-string p1, "_data"
 
-    .line 7
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result p1
 
-    .line 8
     :goto_0
     invoke-interface {p0}, Landroid/database/Cursor;->moveToNext()Z
 
@@ -289,7 +263,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 9
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -305,7 +278,6 @@
     :cond_1
     if-eqz p0, :cond_3
 
-    .line 10
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
     goto :goto_2
@@ -338,7 +310,6 @@
 
     move-object p0, v1
 
-    .line 11
     :goto_1
     :try_start_2
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
@@ -347,13 +318,11 @@
 
     if-eqz v1, :cond_2
 
-    .line 12
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
     :cond_2
     move-object v1, p0
 
-    .line 13
     :cond_3
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -363,10 +332,8 @@
     :goto_3
     if-eqz v1, :cond_4
 
-    .line 14
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
-    .line 15
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -384,7 +351,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -392,12 +358,10 @@
     :cond_0
     const-string v2, "_data"
 
-    .line 2
     filled-new-array {v2}, [Ljava/lang/String;
 
     move-result-object v5
 
-    .line 3
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -419,30 +383,25 @@
 
     if-eqz p0, :cond_1
 
-    .line 4
     :try_start_1
     invoke-interface {p0, v2}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result p1
 
-    .line 5
     invoke-interface {p0}, Landroid/database/Cursor;->moveToFirst()Z
 
-    .line 6
     invoke-interface {p0}, Landroid/database/Cursor;->getCount()I
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 7
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-virtual {p1}, Landroid/net/Uri;->getPath()Ljava/lang/String;
 
@@ -454,17 +413,14 @@
     :goto_0
     if-eqz p0, :cond_3
 
-    .line 9
     invoke-interface {p0}, Landroid/database/Cursor;->isClosed()Z
 
     move-result p1
 
     if-nez p1, :cond_3
 
-    .line 10
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -483,17 +439,14 @@
     :goto_1
     if-eqz v1, :cond_4
 
-    .line 12
     invoke-interface {v1}, Landroid/database/Cursor;->isClosed()Z
 
     move-result p0
 
     if-nez p0, :cond_4
 
-    .line 13
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
-    .line 14
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -507,7 +460,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/library/p/g/a;->e(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;)Z
 
     move-result p0
@@ -526,7 +478,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -551,13 +502,10 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 3
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

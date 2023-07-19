@@ -19,7 +19,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/appcompat/widget/AppCompatEditText;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -28,7 +27,6 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -37,7 +35,6 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroidx/appcompat/widget/AppCompatEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -52,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v1
@@ -65,15 +61,12 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/ArEditTextView;->a:Lcom/commsource/widget/ArEditTextView$a;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1}, Lcom/commsource/widget/ArEditTextView$a;->a()V
 
-    .line 4
     :cond_0
     invoke-super {p0, p1}, Landroid/widget/EditText;->dispatchKeyEventPreIme(Landroid/view/KeyEvent;)Z
 
@@ -83,7 +76,6 @@
 
     return p1
 
-    .line 5
     :cond_1
     invoke-super {p0, p1}, Landroid/widget/EditText;->dispatchKeyEventPreIme(Landroid/view/KeyEvent;)Z
 
@@ -101,10 +93,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/ArEditTextView;->a:Lcom/commsource/widget/ArEditTextView$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -26,7 +26,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/ardata/j;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lf/d/i/k$a;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -62,7 +60,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/k;->K()Ljava/lang/String;
 
     move-result-object v0
@@ -83,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/beautymain/data/MosaicJsonBean;
 
     invoke-virtual {p0, p1, p2}, Lf/d/i/k$a;->o(Landroid/content/Context;Lcom/commsource/beautymain/data/MosaicJsonBean;)V
@@ -106,7 +102,6 @@
 
     if-eqz p2, :cond_7
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/beautymain/data/MosaicJsonBean;->getData()Ljava/util/List;
 
     move-result-object v0
@@ -129,27 +124,22 @@
 
     if-eqz v0, :cond_7
 
-    .line 2
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    .line 3
     invoke-static {}, Lcom/commsource/beautymain/data/d;->h()Lcom/commsource/beautymain/data/d;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/beautymain/data/d;->g()Ljava/util/List;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/beautymain/data/MosaicJsonBean;->getData()Ljava/util/List;
 
     move-result-object v3
 
-    .line 6
     invoke-static {}, Lf/d/i/k;->S()Ljava/lang/String;
 
     move-result-object v4
@@ -160,19 +150,16 @@
 
     if-eqz v4, :cond_0
 
-    .line 7
     invoke-virtual {p2}, Lcom/commsource/beautymain/data/MosaicJsonBean;->getUpdate()Ljava/lang/String;
 
     move-result-object p2
 
     invoke-static {p2}, Lf/d/i/k;->b0(Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {v1, v3}, Lcom/commsource/beautymain/data/d;->c(Ljava/util/List;)V
 
     goto/16 :goto_2
 
-    .line 9
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/beautymain/data/MosaicJsonBean;->getUpdate()Ljava/lang/String;
 
@@ -180,12 +167,10 @@
 
     invoke-static {p2}, Lf/d/i/k;->b0(Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {v1}, Lcom/commsource/beautymain/data/d;->e()Ljava/util/List;
 
     move-result-object p2
 
-    .line 11
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -204,7 +189,6 @@
 
     check-cast v4, Lcom/commsource/beautymain/data/c;
 
-    .line 12
     invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -229,7 +213,6 @@
 
     check-cast v8, Lcom/commsource/beautymain/data/MosaicJsonBean$a;
 
-    .line 13
     invoke-virtual {v8}, Lcom/commsource/beautymain/data/MosaicJsonBean$a;->g()Ljava/lang/String;
 
     move-result-object v10
@@ -240,7 +223,6 @@
 
     if-nez v10, :cond_4
 
-    .line 14
     invoke-virtual {v8}, Lcom/commsource/beautymain/data/MosaicJsonBean$a;->g()Ljava/lang/String;
 
     move-result-object v9
@@ -253,7 +235,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_3
     invoke-virtual {v8}, Lcom/commsource/beautymain/data/MosaicJsonBean$a;->g()Ljava/lang/String;
 
@@ -261,12 +242,10 @@
 
     invoke-virtual {v0, v9}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 16
     invoke-virtual {v1, v8}, Lcom/commsource/beautymain/data/d;->d(Lcom/commsource/beautymain/data/MosaicJsonBean$a;)V
 
     goto :goto_1
 
-    .line 17
     :cond_4
     invoke-virtual {v4}, Lcom/commsource/beautymain/data/c;->l()Ljava/lang/String;
 
@@ -282,20 +261,16 @@
 
     if-eqz v10, :cond_2
 
-    .line 18
     invoke-virtual {v4}, Lcom/commsource/beautymain/data/c;->u()Z
 
     move-result v7
 
     if-eqz v7, :cond_5
 
-    .line 19
     invoke-virtual {v8, v6}, Lcom/commsource/beautymain/data/MosaicJsonBean$a;->p(I)V
 
-    .line 20
     invoke-virtual {v8, v6}, Lcom/commsource/beautymain/data/MosaicJsonBean$a;->w(I)V
 
-    .line 21
     :cond_5
     invoke-virtual {v1, v8}, Lcom/commsource/beautymain/data/d;->i(Lcom/commsource/beautymain/data/MosaicJsonBean$a;)V
 
@@ -306,25 +281,20 @@
     :cond_6
     if-eqz v7, :cond_1
 
-    .line 22
     invoke-virtual {v4}, Lcom/commsource/beautymain/data/c;->u()Z
 
     move-result v5
 
     if-nez v5, :cond_1
 
-    .line 23
     invoke-virtual {v4, v9}, Lcom/commsource/beautymain/data/c;->B(I)V
 
-    .line 24
     invoke-virtual {v4, v9}, Lcom/commsource/beautymain/data/c;->O(I)V
 
-    .line 25
     invoke-virtual {v1, v4}, Lcom/commsource/beautymain/data/d;->j(Lcom/commsource/beautymain/data/c;)V
 
     goto :goto_0
 
-    .line 26
     :cond_7
     :goto_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

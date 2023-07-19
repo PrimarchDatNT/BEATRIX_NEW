@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/a$a;->a:Lcom/commsource/studio/doodle/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +91,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,7 +103,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/doodle/a$a;->a:Lcom/commsource/studio/doodle/a;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/a;->x(Lcom/commsource/studio/doodle/a;)Lcom/commsource/beautyplus/f0/ie;
@@ -130,7 +125,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/doodle/a$a;->a:Lcom/commsource/studio/doodle/a;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/a;->x(Lcom/commsource/studio/doodle/a;)Lcom/commsource/beautyplus/f0/ie;
@@ -153,7 +147,6 @@
 
     invoke-static {v0, p1}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

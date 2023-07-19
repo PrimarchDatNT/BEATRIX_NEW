@@ -19,7 +19,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/IconFrontView;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -28,7 +27,6 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/IconFrontView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -43,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result p1
@@ -56,27 +53,22 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/widget/CameraContractImageView;->K:Lcom/commsource/camera/widget/CameraContractImageView$a;
 
     if-eqz p1, :cond_2
 
-    .line 3
     invoke-interface {p1}, Lcom/commsource/camera/widget/CameraContractImageView$a;->b()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/widget/CameraContractImageView;->K:Lcom/commsource/camera/widget/CameraContractImageView$a;
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-interface {p1}, Lcom/commsource/camera/widget/CameraContractImageView$a;->a()V
 
-    .line 6
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -91,10 +83,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/widget/CameraContractImageView;->K:Lcom/commsource/camera/widget/CameraContractImageView$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

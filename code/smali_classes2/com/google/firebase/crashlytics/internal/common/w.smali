@@ -25,7 +25,6 @@
 
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -38,10 +37,8 @@
 .method public constructor <init>(Ljava/io/File;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/w;->a:Ljava/io/File;
 
     return-void
@@ -67,22 +64,18 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, p0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance p0, Ljava/util/HashMap;
 
     invoke-direct {p0}, Ljava/util/HashMap;-><init>()V
 
-    .line 3
     invoke-virtual {v0}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 4
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -90,14 +83,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
-    .line 6
     invoke-static {v0, v2}, Lcom/google/firebase/crashlytics/internal/common/w;->i(Lorg/json/JSONObject;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -118,19 +109,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, p0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance p0, Lcom/google/firebase/crashlytics/internal/common/e0;
 
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/common/e0;-><init>()V
 
     const-string v1, "userId"
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/firebase/crashlytics/internal/common/w;->i(Lorg/json/JSONObject;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -159,7 +147,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, p0}, Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
@@ -179,12 +166,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/common/w$a;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/crashlytics/internal/common/w$a;-><init>(Lcom/google/firebase/crashlytics/internal/common/e0;)V
 
-    .line 2
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -195,7 +180,6 @@
 .method private static i(Lorg/json/JSONObject;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/json/JSONObject;->isNull(Ljava/lang/String;)Z
 
     move-result v0
@@ -219,7 +203,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/w;->a:Ljava/io/File;
@@ -252,7 +235,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/w;->a:Ljava/io/File;
@@ -296,19 +278,16 @@
 
     const-string v0, "Failed to close user metadata file."
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/firebase/crashlytics/internal/common/w;->a(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object p1
@@ -318,7 +297,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :try_start_0
     new-instance v2, Ljava/io/FileInputStream;
 
@@ -327,7 +305,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     :try_start_1
     invoke-static {v2}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->Z(Ljava/io/InputStream;)Ljava/lang/String;
 
@@ -340,7 +317,6 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     invoke-static {v2, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
     return-object p1
@@ -367,7 +343,6 @@
     :catch_1
     move-exception p1
 
-    .line 7
     :goto_0
     :try_start_2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
@@ -380,17 +355,14 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 8
     invoke-static {v1, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object p1
 
     return-object p1
 
-    .line 10
     :goto_1
     invoke-static {v1, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
@@ -402,19 +374,16 @@
 
     const-string v0, "Failed to close user metadata file."
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/firebase/crashlytics/internal/common/w;->b(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     new-instance p1, Lcom/google/firebase/crashlytics/internal/common/e0;
 
     invoke-direct {p1}, Lcom/google/firebase/crashlytics/internal/common/e0;-><init>()V
@@ -424,7 +393,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :try_start_0
     new-instance v2, Ljava/io/FileInputStream;
 
@@ -433,7 +401,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     :try_start_1
     invoke-static {v2}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->Z(Ljava/io/InputStream;)Ljava/lang/String;
 
@@ -446,7 +413,6 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     invoke-static {v2, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
     return-object p1
@@ -473,7 +439,6 @@
     :catch_1
     move-exception p1
 
-    .line 7
     :goto_0
     :try_start_2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
@@ -486,17 +451,14 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 8
     invoke-static {v1, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
-    .line 9
     new-instance p1, Lcom/google/firebase/crashlytics/internal/common/e0;
 
     invoke-direct {p1}, Lcom/google/firebase/crashlytics/internal/common/e0;-><init>()V
 
     return-object p1
 
-    .line 10
     :goto_1
     invoke-static {v1, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
@@ -518,20 +480,17 @@
 
     const-string v0, "Failed to close key/value metadata file."
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/firebase/crashlytics/internal/common/w;->a(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object p1
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     invoke-static {p2}, Lcom/google/firebase/crashlytics/internal/common/w;->e(Ljava/util/Map;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 3
     new-instance v2, Ljava/io/BufferedWriter;
 
     new-instance v3, Ljava/io/OutputStreamWriter;
@@ -549,17 +508,14 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 4
     :try_start_1
     invoke-virtual {v2, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v2}, Ljava/io/Writer;->flush()V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     invoke-static {v2, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
     goto :goto_1
@@ -586,7 +542,6 @@
     :catch_1
     move-exception p1
 
-    .line 7
     :goto_0
     :try_start_2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
@@ -599,7 +554,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 8
     invoke-static {v1, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
     :goto_1
@@ -616,20 +570,17 @@
 
     const-string v0, "Failed to close user metadata file."
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/firebase/crashlytics/internal/common/w;->b(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object p1
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     invoke-static {p2}, Lcom/google/firebase/crashlytics/internal/common/w;->h(Lcom/google/firebase/crashlytics/internal/common/e0;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 3
     new-instance v2, Ljava/io/BufferedWriter;
 
     new-instance v3, Ljava/io/OutputStreamWriter;
@@ -647,17 +598,14 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 4
     :try_start_1
     invoke-virtual {v2, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v2}, Ljava/io/Writer;->flush()V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     invoke-static {v2, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
     goto :goto_1
@@ -684,7 +632,6 @@
     :catch_1
     move-exception p1
 
-    .line 7
     :goto_0
     :try_start_2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
@@ -697,7 +644,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 8
     invoke-static {v1, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
     :goto_1

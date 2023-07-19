@@ -29,7 +29,6 @@
 .method private constructor <init>(Lcom/google/common/collect/ConcurrentHashMultiset;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/ConcurrentHashMultiset$d;->b:Lcom/google/common/collect/ConcurrentHashMultiset;
 
     invoke-direct {p0, p1}, Lcom/google/common/collect/d$b;-><init>(Lcom/google/common/collect/d;)V
@@ -40,7 +39,6 @@
 .method synthetic constructor <init>(Lcom/google/common/collect/ConcurrentHashMultiset;Lcom/google/common/collect/ConcurrentHashMultiset$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/ConcurrentHashMultiset$d;-><init>(Lcom/google/common/collect/ConcurrentHashMultiset;)V
 
     return-void
@@ -57,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d$b;->size()I
 
     move-result v0
@@ -66,7 +63,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/d$b;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -81,7 +77,6 @@
 .method bridge synthetic b()Lcom/google/common/collect/m1;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ConcurrentHashMultiset$d;->c()Lcom/google/common/collect/ConcurrentHashMultiset;
 
     move-result-object v0
@@ -99,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ConcurrentHashMultiset$d;->b:Lcom/google/common/collect/ConcurrentHashMultiset;
 
     return-object v0
@@ -108,7 +102,6 @@
 .method public toArray()[Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/ConcurrentHashMultiset$d;->e()Ljava/util/List;
 
     move-result-object v0
@@ -130,7 +123,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/ConcurrentHashMultiset$d;->e()Ljava/util/List;
 
     move-result-object v0

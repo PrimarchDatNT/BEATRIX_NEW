@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/qiniu/android/dns/local/a;->a()V
 
     return-void
@@ -20,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +27,6 @@
 .method private static synthetic a()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/qiniu/android/dns/local/a;
@@ -74,7 +71,6 @@
 .method public static b()Lcom/qiniu/android/dns/c;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/qiniu/android/dns/local/a$a;
 
     invoke-direct {v0}, Lcom/qiniu/android/dns/local/a$a;-><init>()V
@@ -85,7 +81,6 @@
 .method public static c()[Ljava/net/InetAddress;
     .locals 7
 
-    .line 1
     :try_start_0
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
@@ -97,12 +92,10 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Ljava/io/LineNumberReader;
 
     new-instance v2, Ljava/io/InputStreamReader;
@@ -111,14 +104,12 @@
 
     invoke-direct {v1, v2}, Ljava/io/LineNumberReader;-><init>(Ljava/io/Reader;)V
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     const/4 v2, 0x5
 
     invoke-direct {v0, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 5
     :cond_0
     :goto_0
     invoke-virtual {v1}, Ljava/io/LineNumberReader;->readLine()Ljava/lang/String;
@@ -129,7 +120,6 @@
 
     const-string v3, "]: ["
 
-    .line 6
     invoke-virtual {v2, v3}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v3
@@ -143,14 +133,12 @@
     :cond_1
     const/4 v4, 0x1
 
-    .line 7
     invoke-virtual {v2, v4, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v5
 
     add-int/lit8 v3, v3, 0x4
 
-    .line 8
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v6
@@ -163,7 +151,6 @@
 
     const-string v3, ".dns"
 
-    .line 9
     invoke-virtual {v5, v3}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v3
@@ -180,7 +167,6 @@
 
     const-string v3, ".dns2"
 
-    .line 10
     invoke-virtual {v5, v3}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v3
@@ -197,14 +183,12 @@
 
     const-string v3, ".dns4"
 
-    .line 11
     invoke-virtual {v5, v3}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 12
     :cond_2
     invoke-static {v2}, Ljava/net/InetAddress;->getByName(Ljava/lang/String;)Ljava/net/InetAddress;
 
@@ -214,7 +198,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_3
     invoke-virtual {v2}, Ljava/net/InetAddress;->getHostAddress()Ljava/lang/String;
 
@@ -224,7 +207,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_4
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
@@ -234,13 +216,11 @@
 
     goto :goto_0
 
-    .line 15
     :cond_5
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 16
     :cond_6
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -248,7 +228,6 @@
 
     if-lez v1, :cond_7
 
-    .line 17
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     move-result v1
@@ -270,7 +249,6 @@
 
     const-string v1, "AndroidDnsServer"
 
-    .line 18
     invoke-static {v1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
 
     move-result-object v1
@@ -295,7 +273,6 @@
     :try_start_0
     const-string v1, "android.os.SystemProperties"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -306,7 +283,6 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 2
     const-class v5, Ljava/lang/String;
 
     const/4 v6, 0x0
@@ -317,7 +293,6 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     const/4 v4, 0x5
@@ -332,7 +307,6 @@
 
     const-string v8, "net.dns4"
 
-    .line 4
     filled-new-array {v4, v5, v7, v8}, [Ljava/lang/String;
 
     move-result-object v4
@@ -350,7 +324,6 @@
 
     aput-object v8, v9, v6
 
-    .line 5
     sget-object v8, Lcom/qiniu/android/dns/local/a;->a:Lorg/aspectj/lang/c$b;
 
     invoke-static {v8, v0, v1, v0, v9}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -395,7 +368,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     invoke-virtual {v7}, Ljava/lang/String;->length()I
 
@@ -405,7 +377,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     invoke-static {v7}, Ljava/net/InetAddress;->getByName(Ljava/lang/String;)Ljava/net/InetAddress;
 
@@ -415,7 +386,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     invoke-virtual {v7}, Ljava/net/InetAddress;->getHostAddress()Ljava/lang/String;
 
@@ -425,7 +395,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_3
     invoke-virtual {v8}, Ljava/lang/String;->length()I
 
@@ -435,7 +404,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_4
     invoke-virtual {v2, v7}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
 
@@ -445,7 +413,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_5
     invoke-virtual {v2, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -454,7 +421,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_6
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
 
@@ -462,7 +428,6 @@
 
     if-lez v1, :cond_7
 
-    .line 13
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
 
     move-result v1
@@ -484,7 +449,6 @@
 
     const-string v2, "AndroidDnsServer"
 
-    .line 14
     invoke-static {v2}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
 
     move-result-object v2
@@ -502,7 +466,6 @@
 .method static final synthetic e(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0

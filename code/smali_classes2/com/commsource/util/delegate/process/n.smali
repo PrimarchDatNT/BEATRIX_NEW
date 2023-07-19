@@ -60,7 +60,6 @@
 
     invoke-static {p6, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/util/delegate/process/n;->a:Ljava/lang/String;
@@ -97,7 +96,6 @@
 
     if-ne p2, v0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/util/delegate/process/n;->l()V
 
     goto :goto_0
@@ -105,7 +103,6 @@
     :cond_0
     if-ne p1, p3, :cond_1
 
-    .line 2
     iget-boolean p1, p0, Lcom/commsource/util/delegate/process/n;->d:Z
 
     invoke-virtual {p0, p1}, Lcom/commsource/util/delegate/process/n;->k(Z)V
@@ -128,14 +125,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -146,49 +141,42 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/util/delegate/process/n;->a:Ljava/lang/String;
 
     const-string v2, "path"
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     iget v1, p0, Lcom/commsource/util/delegate/process/n;->b:I
 
     const-string v2, "width"
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 5
     iget v1, p0, Lcom/commsource/util/delegate/process/n;->c:I
 
     const-string v2, "height"
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/util/delegate/process/n;->e:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     const-string v2, "AR_VIDEO_INFO"
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 7
     iget-boolean v1, p0, Lcom/commsource/util/delegate/process/n;->d:Z
 
     const-string v2, "VIDEO_MULTI_RECORD"
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 8
     iget v1, p0, Lcom/commsource/util/delegate/process/n;->g:I
 
     const-string v2, "screen_ratio"
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/util/delegate/process/n;->f:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -197,7 +185,6 @@
 
     if-nez v1, :cond_0
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/util/delegate/process/n;->f:Ljava/lang/String;
 
     const-string v2, "OTHER_PAGE_JUMP"
@@ -207,7 +194,6 @@
     :cond_0
     const/16 v1, 0x4d2
 
-    .line 11
     invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
 
     :cond_1
@@ -219,7 +205,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/delegate/process/n;->e:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     return-object v0
@@ -230,7 +215,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/delegate/process/n;->f:Ljava/lang/String;
 
     return-object v0
@@ -239,7 +223,6 @@
 .method public final f()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/util/delegate/process/n;->c:I
 
     return v0
@@ -250,7 +233,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/delegate/process/n;->a:Ljava/lang/String;
 
     return-object v0
@@ -259,7 +241,6 @@
 .method public final h()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/util/delegate/process/n;->g:I
 
     return v0
@@ -268,7 +249,6 @@
 .method public final i()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/util/delegate/process/n;->b:I
 
     return v0
@@ -277,7 +257,6 @@
 .method public final j()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/util/delegate/process/n;->d:Z
 
     return v0

@@ -18,7 +18,6 @@
 .method constructor <init>(Lio/grpc/internal/a2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/internal/t0;-><init>(Lio/grpc/internal/a2;)V
 
     return-void

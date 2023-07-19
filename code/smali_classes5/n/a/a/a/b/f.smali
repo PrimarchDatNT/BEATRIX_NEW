@@ -25,25 +25,20 @@
 .method public constructor <init>(Ljava/lang/String;Lorg/aspectj/lang/reflect/c;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Ln/a/a/a/b/f;->a:Lorg/aspectj/lang/reflect/c;
 
-    .line 3
     iput-object p1, p0, Ln/a/a/a/b/f;->c:Ljava/lang/String;
 
     const-string p2, "("
 
-    .line 4
     invoke-virtual {p1, p2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result p2
@@ -56,7 +51,6 @@
 
     move-result-object p1
 
-    .line 6
     :cond_0
     new-instance p2, Ljava/util/StringTokenizer;
 
@@ -64,7 +58,6 @@
 
     invoke-direct {p2, p1, v0}, Ljava/util/StringTokenizer;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {p2}, Ljava/util/StringTokenizer;->countTokens()I
 
     move-result p1
@@ -75,7 +68,6 @@
 
     const/4 p1, 0x0
 
-    .line 8
     :goto_0
     iget-object v0, p0, Ln/a/a/a/b/f;->b:[Lorg/aspectj/lang/reflect/a0;
 
@@ -83,7 +75,6 @@
 
     if-ge p1, v1, :cond_1
 
-    .line 9
     new-instance v1, Ln/a/a/a/b/s;
 
     invoke-virtual {p2}, Ljava/util/StringTokenizer;->nextToken()Ljava/lang/String;
@@ -111,7 +102,6 @@
 .method public a()Lorg/aspectj/lang/reflect/c;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/f;->a:Lorg/aspectj/lang/reflect/c;
 
     return-object v0
@@ -120,7 +110,6 @@
 .method public b()[Lorg/aspectj/lang/reflect/a0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/f;->b:[Lorg/aspectj/lang/reflect/a0;
 
     return-object v0
@@ -129,7 +118,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

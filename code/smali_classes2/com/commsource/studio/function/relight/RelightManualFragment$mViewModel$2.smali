@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/relight/RelightManualFragment$mViewModel$2;->this$0:Lcom/commsource/studio/function/relight/RelightManualFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/relight/RelightManualFragment;->E()Lcom/commsource/studio/function/relight/g;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment$mViewModel$2;->invoke()Lcom/commsource/studio/function/relight/g;
 
     move-result-object v1

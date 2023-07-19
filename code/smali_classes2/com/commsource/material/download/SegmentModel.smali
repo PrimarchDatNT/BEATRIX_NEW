@@ -61,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v15, Lcom/commsource/material/download/SegmentModel;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -132,7 +131,6 @@
 
     sput-object v15, Lcom/commsource/material/download/SegmentModel;->Human:Lcom/commsource/material/download/SegmentModel;
 
-    .line 2
     new-instance v1, Lcom/commsource/material/download/SegmentModel;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -199,7 +197,6 @@
 
     sput-object v1, Lcom/commsource/material/download/SegmentModel;->Animal:Lcom/commsource/material/download/SegmentModel;
 
-    .line 3
     new-instance v2, Lcom/commsource/material/download/SegmentModel;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -252,7 +249,6 @@
 
     sput-object v2, Lcom/commsource/material/download/SegmentModel;->Face3D:Lcom/commsource/material/download/SegmentModel;
 
-    .line 4
     new-instance v3, Lcom/commsource/material/download/SegmentModel;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -325,7 +321,6 @@
 
     sput-object v3, Lcom/commsource/material/download/SegmentModel;->SoftFocus:Lcom/commsource/material/download/SegmentModel;
 
-    .line 5
     new-instance v4, Lcom/commsource/material/download/SegmentModel;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -400,7 +395,6 @@
 
     sput-object v4, Lcom/commsource/material/download/SegmentModel;->Necklace:Lcom/commsource/material/download/SegmentModel;
 
-    .line 6
     new-instance v5, Lcom/commsource/material/download/SegmentModel;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -499,7 +493,6 @@
 
     aput-object v5, v0, v1
 
-    .line 7
     sput-object v0, Lcom/commsource/material/download/SegmentModel;->$VALUES:[Lcom/commsource/material/download/SegmentModel;
 
     const/16 v0, 0x34c8
@@ -528,40 +521,28 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/commsource/material/download/SegmentModel;->id:I
 
-    .line 3
     iput-object p4, p0, Lcom/commsource/material/download/SegmentModel;->name:Ljava/lang/String;
 
-    .line 4
     iput-boolean p5, p0, Lcom/commsource/material/download/SegmentModel;->isNeedUnzip:Z
 
-    .line 5
     iput-object p6, p0, Lcom/commsource/material/download/SegmentModel;->url:Ljava/lang/String;
 
-    .line 6
     iput-object p7, p0, Lcom/commsource/material/download/SegmentModel;->path:Ljava/lang/String;
 
-    .line 7
     iput-object p8, p0, Lcom/commsource/material/download/SegmentModel;->realPath:Ljava/lang/String;
 
-    .line 8
     iput-object p9, p0, Lcom/commsource/material/download/SegmentModel;->unzipPath:Ljava/lang/String;
 
-    .line 9
     iput-object p10, p0, Lcom/commsource/material/download/SegmentModel;->md5:Ljava/lang/String;
 
-    .line 10
     iput-object p11, p0, Lcom/commsource/material/download/SegmentModel;->realMd5:Ljava/lang/String;
 
-    .line 11
     iput-object p12, p0, Lcom/commsource/material/download/SegmentModel;->spKey:Ljava/lang/String;
 
-    .line 12
     iput-object p13, p0, Lcom/commsource/material/download/SegmentModel;->realSpKey:Ljava/lang/String;
 
     return-void
@@ -574,7 +555,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/material/download/SegmentModel;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -595,7 +575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/download/SegmentModel;->$VALUES:[Lcom/commsource/material/download/SegmentModel;
 
     invoke-virtual {v1}, [Lcom/commsource/material/download/SegmentModel;->clone()Ljava/lang/Object;
@@ -618,7 +597,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/material/download/SegmentModel;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -633,7 +611,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/SegmentModel;->md5:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -648,7 +625,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/SegmentModel;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -663,7 +639,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/SegmentModel;->path:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -678,7 +653,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/SegmentModel;->realMd5:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -693,7 +667,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/SegmentModel;->realPath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -708,7 +681,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/SegmentModel;->realSpKey:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -723,7 +695,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/SegmentModel;->spKey:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -738,7 +709,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/SegmentModel;->unzipPath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -753,7 +723,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/SegmentModel;->url:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -768,7 +737,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/material/download/SegmentModel;->isNeedUnzip:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -783,10 +751,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/material/download/SegmentModel;->id:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -799,10 +765,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/SegmentModel;->md5:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -815,10 +779,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/SegmentModel;->name:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -831,10 +793,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/material/download/SegmentModel;->isNeedUnzip:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -847,10 +807,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/SegmentModel;->path:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -863,10 +821,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/SegmentModel;->realMd5:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -879,10 +835,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/SegmentModel;->realPath:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -895,10 +849,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/SegmentModel;->realSpKey:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -911,10 +863,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/SegmentModel;->spKey:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -927,10 +877,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/SegmentModel;->unzipPath:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -943,10 +891,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/SegmentModel;->url:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

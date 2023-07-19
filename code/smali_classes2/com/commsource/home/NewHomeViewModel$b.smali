@@ -41,7 +41,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/NewHomeViewModel$b;->a:Lcom/commsource/home/NewHomeViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -58,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -77,7 +75,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -96,14 +93,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/j0/c/c$c;->a()Lcom/commsource/push/bean/a;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/NewHomeViewModel$b;->a:Lcom/commsource/home/NewHomeViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/home/NewHomeViewModel;->B()Landroidx/lifecycle/MutableLiveData;
@@ -116,7 +111,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -130,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/j0/c/c$c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/NewHomeViewModel$b;->c(Lcom/commsource/beautyplus/j0/c/c$c;)V

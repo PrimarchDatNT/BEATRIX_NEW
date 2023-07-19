@@ -19,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/mypage/album/BpAlbumJumpRouter;
 
     invoke-direct {v1}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;-><init>()V
@@ -34,7 +33,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,7 +51,6 @@
 
     const/4 p3, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->b(Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;Z)V
 
@@ -75,7 +72,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->n(Landroid/app/Activity;Lcom/commsource/beautyplus/router/RouterEntity;Z)V
 
@@ -97,7 +93,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->s(Landroid/app/Activity;Z)V
 
@@ -119,7 +114,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->u(Landroid/app/Activity;Lcom/commsource/beautyplus/router/RouterEntity;)V
 
@@ -164,48 +158,38 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/4 v1, 0x6
 
-    .line 2
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
-    .line 4
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPreviewBigPhoto(Z)V
 
-    .line 5
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowMoreFunction(Z)V
 
-    .line 6
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackIconIsHome(Z)V
 
     const/4 v1, 0x1
 
-    .line 7
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackUpDownAnimate(Z)V
 
-    .line 8
     new-instance v1, Lcom/commsource/mypage/album/AlbumReturnImageCallback;
 
     invoke-direct {v1}, Lcom/commsource/mypage/album/AlbumReturnImageCallback;-><init>()V
 
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setOnImageSelectCallback(Lcom/commsource/mypage/album/OnImageSelectCallback;)V
 
-    .line 9
     new-instance v1, Lcom/commsource/util/p2/c;
 
     invoke-direct {v1, p1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 10
     new-instance v2, Landroid/content/Intent;
 
     const-class v3, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -214,15 +198,12 @@
 
     const-string v3, "EXTRA_ALBUM_SETTING"
 
-    .line 11
     invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 12
     new-instance v3, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;
 
     invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
 
-    .line 13
     invoke-virtual {v1, v3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
     const/4 v5, 0x0
@@ -235,10 +216,8 @@
 
     move-object v3, p1
 
-    .line 14
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -267,7 +246,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/mypage/album/AlbumSetting;->getBackUpDownAnimate()Z
 
     move-result p2
@@ -276,16 +254,13 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/h2;->c(Landroid/app/Activity;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/commsource/util/h2;->e(Landroid/app/Activity;)V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,33 +283,26 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/4 v1, 0x7
 
-    .line 2
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setDirectToBigPreview(Z)V
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedBucketTips(Z)V
 
-    .line 5
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
-    .line 6
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowAd(Z)V
 
-    .line 7
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -343,10 +311,8 @@
 
     const-string v2, "EXTRA_ALBUM_SETTING"
 
-    .line 8
     invoke-virtual {v1, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 9
     invoke-virtual {p1, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     const/4 v5, 0x0
@@ -359,10 +325,8 @@
 
     move-object v3, p1
 
-    .line 10
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -383,7 +347,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
@@ -397,24 +360,19 @@
     :cond_0
     const/4 v1, 0x2
 
-    .line 2
     :goto_0
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 p2, 0x1
 
-    .line 3
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setDirectToBigPreview(Z)V
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedBucketTips(Z)V
 
-    .line 5
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowAd(Z)V
 
-    .line 6
     new-instance p2, Landroid/content/Intent;
 
     const-class v1, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -423,10 +381,8 @@
 
     const-string v1, "EXTRA_ALBUM_SETTING"
 
-    .line 7
     invoke-virtual {p2, v1, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 8
     invoke-virtual {p1, p2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     const/4 v5, 0x0
@@ -439,10 +395,8 @@
 
     move-object v3, p1
 
-    .line 9
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -463,47 +417,36 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/16 v1, 0xd
 
-    .line 2
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setCanSelectGif(Z)V
 
-    .line 4
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
-    .line 5
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackIconIsHome(Z)V
 
-    .line 6
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackUpDownAnimate(Z)V
 
-    .line 7
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowMoreFunction(Z)V
 
-    .line 8
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowAd(Z)V
 
-    .line 9
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPreviewBigPhoto(Z)V
 
-    .line 10
     new-instance v1, Lcom/commsource/mypage/album/BpAlbumJumpRouter$customStickerSelectImage$$inlined$apply$lambda$1;
 
     invoke-direct {v1, p2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter$customStickerSelectImage$$inlined$apply$lambda$1;-><init>(Z)V
 
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setOnImageSelectCallback(Lcom/commsource/mypage/album/OnImageSelectCallback;)V
 
-    .line 11
     new-instance p2, Landroid/content/Intent;
 
     const-class v1, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -512,10 +455,8 @@
 
     const-string v1, "EXTRA_ALBUM_SETTING"
 
-    .line 12
     invoke-virtual {p2, v1, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 13
     invoke-virtual {p1, p2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     const/4 v5, 0x0
@@ -528,10 +469,8 @@
 
     move-object v3, p1
 
-    .line 14
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -577,58 +516,44 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/4 v1, 0x6
 
-    .line 2
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPreviewBigPhoto(Z)V
 
-    .line 4
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setCanSelectGif(Z)V
 
-    .line 5
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
-    .line 6
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackIconIsHome(Z)V
 
-    .line 7
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackUpDownAnimate(Z)V
 
-    .line 8
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedHasFace(Z)V
 
-    .line 9
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedOnlyOneFace(Z)V
 
-    .line 10
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setNoOneFaceAlert(Z)V
 
-    .line 11
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowMoreFunction(Z)V
 
-    .line 12
     new-instance p2, Lcom/commsource/mypage/album/BpAlbumJumpRouter$h5SelectAspectRatioImage$setting$1$1;
 
     invoke-direct {p2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter$h5SelectAspectRatioImage$setting$1$1;-><init>()V
 
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setOnImageSelectCallback(Lcom/commsource/mypage/album/OnImageSelectCallback;)V
 
-    .line 13
     new-instance p2, Lcom/commsource/util/p2/c;
 
     invoke-direct {p2, p1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 14
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -637,30 +562,24 @@
 
     const-string v2, "EXTRA_ALBUM_SETTING"
 
-    .line 15
     invoke-virtual {v1, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 16
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
 
     const-string v3, "EXTRA_RATIO"
 
-    .line 17
     invoke-virtual {v2, v3, p3}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p3, "EXTRA_BUNDLE"
 
-    .line 18
     invoke-virtual {v1, p3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;
 
-    .line 19
     new-instance p3, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;
 
     invoke-direct {p3, v1, p4}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
 
-    .line 20
     invoke-virtual {p2, p3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
     const/4 v5, 0x0
@@ -673,10 +592,8 @@
 
     move-object v3, p1
 
-    .line 21
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -705,36 +622,28 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/16 v1, 0x8
 
-    .line 2
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setDirectToBigPreview(Z)V
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {v4, v2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
-    .line 5
     invoke-virtual {v4, v2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedBucketTips(Z)V
 
-    .line 6
     invoke-virtual {v4, v2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowAd(Z)V
 
-    .line 7
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setOnlySupportDelete(Z)V
 
-    .line 8
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->x()Ljava/lang/String;
 
     move-result-object v1
@@ -745,10 +654,8 @@
 
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setFilterPathPrefix(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setFilterPathTime(Ljava/lang/String;)V
 
-    .line 10
     new-instance p2, Landroid/content/Intent;
 
     const-class v1, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -757,10 +664,8 @@
 
     const-string v1, "EXTRA_ALBUM_SETTING"
 
-    .line 11
     invoke-virtual {p2, v1, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 12
     invoke-virtual {p1, p2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     const/4 v5, 0x0
@@ -773,10 +678,8 @@
 
     move-object v3, p1
 
-    .line 13
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -797,25 +700,20 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackIconIsHome(Z)V
 
-    .line 4
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackUpDownAnimate(Z)V
 
-    .line 5
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -824,10 +722,8 @@
 
     const-string v2, "EXTRA_ALBUM_SETTING"
 
-    .line 6
     invoke-virtual {v1, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 7
     invoke-virtual {p1, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     const/4 v5, 0x0
@@ -840,10 +736,8 @@
 
     move-object v3, p1
 
-    .line 8
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -883,51 +777,40 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/4 v1, 0x5
 
-    .line 2
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setCanSelectGif(Z)V
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-virtual {v4, v2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedCrop(Z)V
 
-    .line 5
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
-    .line 6
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackIconIsHome(Z)V
 
-    .line 7
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackUpDownAnimate(Z)V
 
-    .line 8
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowMoreFunction(Z)V
 
-    .line 9
     new-instance v1, Lcom/commsource/mypage/album/AlbumReturnImageCallback;
 
     invoke-direct {v1}, Lcom/commsource/mypage/album/AlbumReturnImageCallback;-><init>()V
 
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setOnImageSelectCallback(Lcom/commsource/mypage/album/OnImageSelectCallback;)V
 
-    .line 10
     new-instance v1, Lcom/commsource/util/p2/c;
 
     invoke-direct {v1, p1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 11
     new-instance v2, Landroid/content/Intent;
 
     const-class v3, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -936,15 +819,12 @@
 
     const-string v3, "EXTRA_ALBUM_SETTING"
 
-    .line 12
     invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 13
     new-instance v3, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;
 
     invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
 
-    .line 14
     invoke-virtual {v1, v3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
     const/4 v5, 0x0
@@ -957,10 +837,8 @@
 
     move-object v3, p1
 
-    .line 15
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1002,47 +880,36 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/4 v1, 0x4
 
-    .line 2
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setCanSelectGif(Z)V
 
-    .line 4
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackIconIsHome(Z)V
 
-    .line 5
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackUpDownAnimate(Z)V
 
-    .line 6
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
     const/4 v2, 0x1
 
-    .line 7
     invoke-virtual {v4, v2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedHasFace(Z)V
 
-    .line 8
     invoke-virtual {v4, v2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedBackImage(Z)V
 
-    .line 9
     invoke-virtual {v4, v2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedOnlyOneFace(Z)V
 
-    .line 10
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowMoreFunction(Z)V
 
     sget v1, Lcom/res/provider/ResSTRING;->montage_choose_face_photo:I
 
-    .line 11
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1053,19 +920,16 @@
 
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSelectImageTips(Ljava/lang/String;)V
 
-    .line 12
     new-instance v1, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback;
 
     invoke-direct {v1}, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback;-><init>()V
 
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setOnImageSelectCallback(Lcom/commsource/mypage/album/OnImageSelectCallback;)V
 
-    .line 13
     new-instance v1, Lcom/commsource/util/p2/c;
 
     invoke-direct {v1, p1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 14
     new-instance v2, Landroid/content/Intent;
 
     const-class v3, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -1074,15 +938,12 @@
 
     const-string v3, "EXTRA_ALBUM_SETTING"
 
-    .line 15
     invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 16
     new-instance v3, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;
 
     invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/p;)V
 
-    .line 17
     invoke-virtual {v1, v3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
     const/4 v5, 0x0
@@ -1095,10 +956,8 @@
 
     move-object v3, p1
 
-    .line 18
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1119,22 +978,18 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v1}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedBucketTips(Z)V
 
-    .line 4
     new-instance v2, Landroid/content/Intent;
 
     const-class v3, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -1143,18 +998,14 @@
 
     const-string v3, "EXTRA_ALBUM_SETTING"
 
-    .line 5
     invoke-virtual {v2, v3, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     const/high16 v1, 0x4000000
 
-    .line 6
     invoke-virtual {v2, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 7
     invoke-virtual {p1, v2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1194,57 +1045,44 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/16 v1, 0xc
 
-    .line 2
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPreviewBigPhoto(Z)V
 
-    .line 4
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setCanSelectGif(Z)V
 
-    .line 5
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
-    .line 6
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackIconIsHome(Z)V
 
-    .line 7
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackUpDownAnimate(Z)V
 
-    .line 8
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedBucketTips(Z)V
 
-    .line 9
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowMoreFunction(Z)V
 
     const/4 v1, 0x1
 
-    .line 10
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setDefaultSelectLastBucket(Z)V
 
-    .line 11
     new-instance v1, Lcom/commsource/mypage/album/AlbumReturnImageCallback;
 
     invoke-direct {v1}, Lcom/commsource/mypage/album/AlbumReturnImageCallback;-><init>()V
 
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setOnImageSelectCallback(Lcom/commsource/mypage/album/OnImageSelectCallback;)V
 
-    .line 12
     new-instance v1, Lcom/commsource/util/p2/c;
 
     invoke-direct {v1, p1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 13
     new-instance v2, Landroid/content/Intent;
 
     const-class v3, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -1253,15 +1091,12 @@
 
     const-string v3, "EXTRA_ALBUM_SETTING"
 
-    .line 14
     invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 15
     new-instance v3, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;
 
     invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
 
-    .line 16
     invoke-virtual {v1, v3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
     const/4 v5, 0x0
@@ -1274,10 +1109,8 @@
 
     move-object v3, p1
 
-    .line 17
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1306,35 +1139,28 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
-    .line 2
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setRouterEntity(Lcom/commsource/beautyplus/router/RouterEntity;)V
 
     const/4 v1, 0x6
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
-    .line 5
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowMoreFunction(Z)V
 
     xor-int/lit8 v2, p3, 0x1
 
-    .line 6
     invoke-virtual {v4, v2}, Lcom/commsource/mypage/album/AlbumSetting;->setBackIconIsHome(Z)V
 
     xor-int/lit8 p3, p3, 0x1
 
-    .line 7
     invoke-virtual {v4, p3}, Lcom/commsource/mypage/album/AlbumSetting;->setBackUpDownAnimate(Z)V
 
     const/4 p3, 0x2
@@ -1343,7 +1169,6 @@
 
     const-string v3, "subModule"
 
-    .line 8
     invoke-static {p2, v3, v1, p3, v2}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameterInt$default(Lcom/commsource/beautyplus/router/RouterEntity;Ljava/lang/String;IILjava/lang/Object;)I
 
     move-result p2
@@ -1358,7 +1183,6 @@
 
     sget p2, Lcom/res/provider/ResSTRING;->select_to_try_filter:I
 
-    .line 9
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p2
@@ -1372,7 +1196,6 @@
     :cond_0
     sget p2, Lcom/res/provider/ResSTRING;->select_to_try_feature:I
 
-    .line 10
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p2
@@ -1381,11 +1204,9 @@
 
     invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 11
     :goto_0
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setTopBannerTips(Ljava/lang/String;)V
 
-    .line 12
     new-instance p2, Landroid/content/Intent;
 
     const-class p3, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -1394,10 +1215,8 @@
 
     const-string p3, "EXTRA_ALBUM_SETTING"
 
-    .line 13
     invoke-virtual {p2, p3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 14
     invoke-virtual {p1, p2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     const/4 v5, 0x0
@@ -1410,10 +1229,8 @@
 
     move-object v3, p1
 
-    .line 15
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1453,49 +1270,38 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/16 v1, 0xe
 
-    .line 2
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setCanSelectGif(Z)V
 
-    .line 4
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedCrop(Z)V
 
-    .line 5
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
-    .line 6
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackIconIsHome(Z)V
 
-    .line 7
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setBackUpDownAnimate(Z)V
 
-    .line 8
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowMoreFunction(Z)V
 
-    .line 9
     new-instance v1, Lcom/commsource/mypage/album/AlbumReturnImageCallback;
 
     invoke-direct {v1}, Lcom/commsource/mypage/album/AlbumReturnImageCallback;-><init>()V
 
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setOnImageSelectCallback(Lcom/commsource/mypage/album/OnImageSelectCallback;)V
 
-    .line 10
     new-instance v1, Lcom/commsource/util/p2/c;
 
     invoke-direct {v1, p1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 11
     new-instance v2, Landroid/content/Intent;
 
     const-class v3, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -1504,15 +1310,12 @@
 
     const-string v3, "EXTRA_ALBUM_SETTING"
 
-    .line 12
     invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 13
     new-instance v3, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;
 
     invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
 
-    .line 14
     invoke-virtual {v1, v3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
     const/4 v5, 0x0
@@ -1525,10 +1328,8 @@
 
     move-object v3, p1
 
-    .line 15
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1549,22 +1350,18 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v1}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedBucketTips(Z)V
 
-    .line 4
     new-instance v2, Landroid/content/Intent;
 
     const-class v3, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -1573,18 +1370,14 @@
 
     const-string v3, "EXTRA_ALBUM_SETTING"
 
-    .line 5
     invoke-virtual {v2, v3, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     const/high16 v1, 0x4000000
 
-    .line 6
     invoke-virtual {v2, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 7
     invoke-virtual {p1, v2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1605,7 +1398,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Landroid/os/Bundle;
 
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
@@ -1614,47 +1406,36 @@
 
     invoke-virtual {v1, v2, p2}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 2
     new-instance v5, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v5}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/16 p2, 0xb
 
-    .line 3
     invoke-virtual {v5, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-virtual {v5, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowAd(Z)V
 
-    .line 5
     invoke-virtual {v5, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowMoreFunction(Z)V
 
-    .line 6
     invoke-virtual {v5, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPreviewBigPhoto(Z)V
 
-    .line 7
     invoke-virtual {v5, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setBackIconIsHome(Z)V
 
-    .line 8
     invoke-virtual {v5, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setBackUpDownAnimate(Z)V
 
-    .line 9
     invoke-virtual {v5, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
-    .line 10
     invoke-virtual {v5, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setCanSelectGif(Z)V
 
-    .line 11
     new-instance p2, Lcom/commsource/mypage/album/BpAlbumJumpRouter$toAiEditor$setting$1$1;
 
     invoke-direct {p2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter$toAiEditor$setting$1$1;-><init>()V
 
     invoke-virtual {v5, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setOnImageSelectCallback(Lcom/commsource/mypage/album/OnImageSelectCallback;)V
 
-    .line 12
     new-instance p2, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -1663,15 +1444,12 @@
 
     const-string v2, "EXTRA_ALBUM_SETTING"
 
-    .line 13
     invoke-virtual {p2, v2, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     const-string v2, "EXTRA_BUNDLE"
 
-    .line 14
     invoke-virtual {p2, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;
 
-    .line 15
     invoke-virtual {p1, p2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     const/4 v6, 0x0
@@ -1684,10 +1462,8 @@
 
     move-object v4, p1
 
-    .line 16
     invoke-static/range {v3 .. v8}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1708,47 +1484,36 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/16 v1, 0x9
 
-    .line 2
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowAd(Z)V
 
-    .line 4
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPreviewBigPhoto(Z)V
 
-    .line 5
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowMoreFunction(Z)V
 
-    .line 6
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setCanSelectGif(Z)V
 
-    .line 7
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
-    .line 8
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setBackIconIsHome(Z)V
 
-    .line 9
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setBackUpDownAnimate(Z)V
 
-    .line 10
     new-instance p2, Lcom/commsource/mypage/album/BpAlbumJumpRouter$toEasyEditor$setting$1$1;
 
     invoke-direct {p2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter$toEasyEditor$setting$1$1;-><init>()V
 
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setOnImageSelectCallback(Lcom/commsource/mypage/album/OnImageSelectCallback;)V
 
-    .line 11
     new-instance p2, Landroid/content/Intent;
 
     const-class v1, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -1757,10 +1522,8 @@
 
     const-string v1, "EXTRA_ALBUM_SETTING"
 
-    .line 12
     invoke-virtual {p2, v1, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 13
     invoke-virtual {p1, p2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     const/4 v5, 0x0
@@ -1773,10 +1536,8 @@
 
     move-object v3, p1
 
-    .line 14
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1801,28 +1562,22 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
 
     invoke-direct {v4}, Lcom/commsource/mypage/album/AlbumSetting;-><init>()V
 
     const/4 v1, 0x6
 
-    .line 2
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSource(I)V
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedPuzzle(Z)V
 
-    .line 4
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setDirectToPuzzle(Z)V
 
-    .line 5
     invoke-virtual {v4, p2}, Lcom/commsource/mypage/album/AlbumSetting;->setRouterEntity(Lcom/commsource/beautyplus/router/RouterEntity;)V
 
-    .line 6
     new-instance p2, Landroid/content/Intent;
 
     const-class v1, Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -1831,15 +1586,12 @@
 
     const-string v1, "EXTRA_ALBUM_SETTING"
 
-    .line 7
     invoke-virtual {p2, v1, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     const/high16 v1, 0x4000000
 
-    .line 8
     invoke-virtual {p2, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 9
     invoke-virtual {p1, p2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     const/4 v5, 0x0
@@ -1852,10 +1604,8 @@
 
     move-object v3, p1
 
-    .line 10
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

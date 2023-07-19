@@ -19,12 +19,10 @@
 
     const-string v0, "FirebaseRemoteConfig"
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -34,12 +32,10 @@
 
     const-string p0, "Could not find the resources of the current context while trying to set defaults from an XML."
 
-    .line 3
     invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     return-object v1
 
-    .line 4
     :cond_0
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getXml(I)Landroid/content/res/XmlResourceParser;
 
@@ -49,12 +45,10 @@
 
     const-string p0, "The XML referenced by the resourceId could not be found while trying to set defaults from an XML."
 
-    .line 5
     invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     return-object v1
 
-    .line 6
     :cond_1
     invoke-interface {p0}, Landroid/content/res/XmlResourceParser;->getEventType()I
 
@@ -77,7 +71,6 @@
 
     if-ne p1, v7, :cond_2
 
-    .line 7
     invoke-interface {p0}, Landroid/content/res/XmlResourceParser;->getName()Ljava/lang/String;
 
     move-result-object v3
@@ -89,7 +82,6 @@
 
     if-ne p1, v7, :cond_5
 
-    .line 8
     invoke-interface {p0}, Landroid/content/res/XmlResourceParser;->getName()Ljava/lang/String;
 
     move-result-object p1
@@ -106,7 +98,6 @@
 
     if-eqz v5, :cond_3
 
-    .line 9
     invoke-interface {v1, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
@@ -114,7 +105,6 @@
     :cond_3
     const-string p1, "An entry in the defaults XML has an invalid key and/or value tag."
 
-    .line 10
     invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_1
@@ -136,7 +126,6 @@
 
     const/4 p1, -0x1
 
-    .line 11
     invoke-virtual {v3}, Ljava/lang/String;->hashCode()I
 
     move-result v7
@@ -183,12 +172,10 @@
 
     const-string p1, "Encountered an unexpected tag while parsing the defaults XML."
 
-    .line 12
     invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_3
 
-    .line 13
     :cond_9
     invoke-interface {p0}, Landroid/content/res/XmlResourceParser;->getText()Ljava/lang/String;
 
@@ -196,13 +183,11 @@
 
     goto :goto_3
 
-    .line 14
     :cond_a
     invoke-interface {p0}, Landroid/content/res/XmlResourceParser;->getText()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 15
     :cond_b
     :goto_3
     invoke-interface {p0}, Landroid/content/res/XmlResourceParser;->next()I
@@ -225,7 +210,6 @@
     :goto_4
     const-string p1, "Encountered an error while parsing the defaults XML file."
 
-    .line 16
     invoke-static {v0, p1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_c

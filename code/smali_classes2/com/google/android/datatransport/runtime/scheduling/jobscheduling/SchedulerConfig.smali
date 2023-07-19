@@ -28,7 +28,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
 .method public static a()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;
 
     invoke-direct {v0}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;-><init>()V
@@ -59,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/c;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/c;-><init>(Lcom/google/android/datatransport/k/y/a;Ljava/util/Map;)V
@@ -70,84 +67,70 @@
 .method public static e(Lcom/google/android/datatransport/k/y/a;)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;
     .locals 7
 
-    .line 1
     invoke-static {}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;->a()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;
 
     move-result-object v0
 
     sget-object v1, Lcom/google/android/datatransport/Priority;->DEFAULT:Lcom/google/android/datatransport/Priority;
 
-    .line 2
     invoke-static {}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;->a()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;
 
     move-result-object v2
 
     const-wide/16 v3, 0x7530
 
-    .line 3
     invoke-virtual {v2, v3, v4}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;->b(J)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;
 
     move-result-object v2
 
     const-wide/32 v3, 0x5265c00
 
-    .line 4
     invoke-virtual {v2, v3, v4}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;->d(J)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v2}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;->a()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;
 
     move-result-object v2
 
-    .line 6
     invoke-virtual {v0, v1, v2}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;->a(Lcom/google/android/datatransport/Priority;Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;
 
     move-result-object v0
 
     sget-object v1, Lcom/google/android/datatransport/Priority;->HIGHEST:Lcom/google/android/datatransport/Priority;
 
-    .line 7
     invoke-static {}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;->a()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;
 
     move-result-object v2
 
     const-wide/16 v5, 0x3e8
 
-    .line 8
     invoke-virtual {v2, v5, v6}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;->b(J)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;
 
     move-result-object v2
 
-    .line 9
     invoke-virtual {v2, v3, v4}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;->d(J)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;
 
     move-result-object v2
 
-    .line 10
     invoke-virtual {v2}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;->a()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;
 
     move-result-object v2
 
-    .line 11
     invoke-virtual {v0, v1, v2}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;->a(Lcom/google/android/datatransport/Priority;Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;
 
     move-result-object v0
 
     sget-object v1, Lcom/google/android/datatransport/Priority;->VERY_LOW:Lcom/google/android/datatransport/Priority;
 
-    .line 12
     invoke-static {}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;->a()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;
 
     move-result-object v2
 
-    .line 13
     invoke-virtual {v2, v3, v4}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;->b(J)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;
 
     move-result-object v2
 
-    .line 14
     invoke-virtual {v2, v3, v4}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;->d(J)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;
 
     move-result-object v2
@@ -168,7 +151,6 @@
 
     aput-object v4, v3, v5
 
-    .line 15
     invoke-static {v3}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;->i([Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object v3
@@ -177,22 +159,18 @@
 
     move-result-object v2
 
-    .line 16
     invoke-virtual {v2}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b$a;->a()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;
 
     move-result-object v2
 
-    .line 17
     invoke-virtual {v0, v1, v2}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;->a(Lcom/google/android/datatransport/Priority;Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;
 
     move-result-object v0
 
-    .line 18
     invoke-virtual {v0, p0}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;->c(Lcom/google/android/datatransport/k/y/a;)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;
 
     move-result-object p0
 
-    .line 19
     invoke-virtual {p0}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$a;->b()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;
 
     move-result-object p0
@@ -212,7 +190,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-static {p0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
@@ -244,7 +221,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$Flag;->NETWORK_UNMETERED:Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$Flag;
 
     invoke-interface {p2, v0}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
@@ -257,16 +233,13 @@
 
     const/4 v0, 0x2
 
-    .line 2
     invoke-virtual {p1, v0}, Landroid/app/job/JobInfo$Builder;->setRequiredNetworkType(I)Landroid/app/job/JobInfo$Builder;
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1, v1}, Landroid/app/job/JobInfo$Builder;->setRequiredNetworkType(I)Landroid/app/job/JobInfo$Builder;
 
-    .line 4
     :goto_0
     sget-object v0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$Flag;->DEVICE_CHARGING:Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$Flag;
 
@@ -276,10 +249,8 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/app/job/JobInfo$Builder;->setRequiresCharging(Z)Landroid/app/job/JobInfo$Builder;
 
-    .line 6
     :cond_1
     sget-object v0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$Flag;->DEVICE_IDLE:Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$Flag;
 
@@ -289,7 +260,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 7
     invoke-virtual {p1, v1}, Landroid/app/job/JobInfo$Builder;->setRequiresDeviceIdle(Z)Landroid/app/job/JobInfo$Builder;
 
     :cond_2
@@ -304,15 +274,12 @@
         api = 0x15
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p2, p3, p4, p5}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;->g(Lcom/google/android/datatransport/Priority;JI)J
 
     move-result-wide p3
 
-    .line 2
     invoke-virtual {p1, p3, p4}, Landroid/app/job/JobInfo$Builder;->setMinimumLatency(J)Landroid/app/job/JobInfo$Builder;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;->h()Ljava/util/Map;
 
     move-result-object p3
@@ -348,7 +315,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;->h()Ljava/util/Map;
 
     move-result-object v0
@@ -369,7 +335,6 @@
 .method public g(Lcom/google/android/datatransport/Priority;JI)J
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;->d()Lcom/google/android/datatransport/k/y/a;
 
     move-result-object v0
@@ -380,7 +345,6 @@
 
     sub-long/2addr p2, v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;->h()Ljava/util/Map;
 
     move-result-object v0
@@ -397,7 +361,6 @@
 
     const-wide/high16 v2, 0x4000000000000000L    # 2.0
 
-    .line 3
     invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v0
@@ -414,7 +377,6 @@
 
     move-result-wide p2
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;->d()J
 
     move-result-wide v0

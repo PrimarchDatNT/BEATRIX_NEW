@@ -30,20 +30,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
     const-string v1, "properties"
 
-    .line 3
     invoke-virtual {v0, v1, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 4
     iput-object p1, p0, Lf/k/g0/g/d/f;->b:Lorg/json/JSONArray;
 
     return-void
@@ -61,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/g0/g/d/f;
 
     const-string v2, "properties"
@@ -86,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/d/f;->a:Lorg/json/JSONObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -115,14 +109,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/d/f;->b:Lorg/json/JSONArray;
 
     invoke-virtual {v1}, Lorg/json/JSONArray;->length()I
 
     move-result v1
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2, v1}, Ljava/util/ArrayList;-><init>(I)V
@@ -132,7 +124,6 @@
     :goto_0
     if-ge v3, v1, :cond_0
 
-    .line 3
     iget-object v4, p0, Lf/k/g0/g/d/f;->b:Lorg/json/JSONArray;
 
     invoke-virtual {v4, v3}, Lorg/json/JSONArray;->get(I)Ljava/lang/Object;
@@ -151,7 +142,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -165,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/d/f;->b:Lorg/json/JSONArray;
 
     invoke-virtual {v1}, Lorg/json/JSONArray;->length()I
@@ -189,7 +178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/d/f;->b:Lorg/json/JSONArray;
 
     invoke-virtual {v1, p1}, Lorg/json/JSONArray;->get(I)Ljava/lang/Object;
@@ -198,7 +186,6 @@
 
     check-cast p1, Lorg/json/JSONObject;
 
-    .line 2
     invoke-static {p1}, Lf/k/g0/g/d/f$a;->a(Lorg/json/JSONObject;)Lf/k/g0/g/d/f$a;
 
     move-result-object p1

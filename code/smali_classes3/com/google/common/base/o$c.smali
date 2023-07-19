@@ -34,7 +34,6 @@
 .method constructor <init>([Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/base/o$c;->a:[Ljava/lang/Object;
 
     iput-object p2, p0, Lcom/google/common/base/o$c;->b:Ljava/lang/Object;
@@ -57,7 +56,6 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/o$c;->a:[Ljava/lang/Object;
 
     add-int/lit8 p1, p1, -0x2
@@ -66,13 +64,11 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/google/common/base/o$c;->c:Ljava/lang/Object;
 
     return-object p1
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/google/common/base/o$c;->b:Ljava/lang/Object;
 
@@ -82,7 +78,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/o$c;->a:[Ljava/lang/Object;
 
     array-length v0, v0

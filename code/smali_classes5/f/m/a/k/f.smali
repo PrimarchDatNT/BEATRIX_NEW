@@ -34,18 +34,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "IProcessHandle"
 
-    .line 2
     iput-object v0, p0, Lf/m/a/k/f;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p1, p0, Lf/m/a/k/f;->c:Landroidx/fragment/app/FragmentActivity;
 
-    .line 4
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p1
@@ -66,7 +62,6 @@
 .method public static final synthetic a(Lf/m/a/k/f;)Ljava/lang/ref/WeakReference;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/m/a/k/f;->b:Ljava/lang/ref/WeakReference;
 
     return-object p0
@@ -75,7 +70,6 @@
 .method public static final synthetic b(Lf/m/a/k/f;Ljava/lang/ref/WeakReference;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/m/a/k/f;->b:Ljava/lang/ref/WeakReference;
 
     return-void
@@ -94,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lf/m/a/k/f;->a:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroidx/fragment/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
@@ -113,12 +106,10 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 2
     new-instance v0, Lf/m/a/k/a;
 
     invoke-direct {v0}, Lf/m/a/k/a;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p1
@@ -131,7 +122,6 @@
 
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 4
     :cond_1
     new-instance p1, Ljava/lang/ref/WeakReference;
 
@@ -166,7 +156,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lf/m/a/k/f$a;
 
     invoke-direct {v0, p0, p1}, Lf/m/a/k/f$a;-><init>(Lf/m/a/k/f;Lf/m/a/k/b;)V

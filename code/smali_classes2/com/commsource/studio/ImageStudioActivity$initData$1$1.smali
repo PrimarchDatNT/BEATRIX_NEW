@@ -31,10 +31,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initData$1$1;->g:Lcom/commsource/studio/ImageStudioActivity$initData$1;
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -49,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initData$1$1;->g:Lcom/commsource/studio/ImageStudioActivity$initData$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$initData$1;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -76,12 +73,10 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/DraftDataManager;->i:Lcom/commsource/studio/DraftDataManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/DraftDataManager$a;->a()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initData$1$1;->g:Lcom/commsource/studio/ImageStudioActivity$initData$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$initData$1;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -124,10 +119,8 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initData$1$1;->g:Lcom/commsource/studio/ImageStudioActivity$initData$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$initData$1;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -144,12 +137,10 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initData$1$1;->g:Lcom/commsource/studio/ImageStudioActivity$initData$1;
 
@@ -165,7 +156,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

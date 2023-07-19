@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Landroid/util/ArrayMap;
 
     invoke-direct {v0}, Landroid/util/ArrayMap;-><init>()V
@@ -38,7 +37,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -57,7 +55,6 @@
 
     if-eqz p3, :cond_3
 
-    .line 1
     :try_start_0
     invoke-virtual {p3}, Ljava/lang/String;->isEmpty()Z
 
@@ -70,7 +67,6 @@
     :cond_0
     const-string v2, "(\\d+)\\.(\\d+)\\.(\\d+)"
 
-    .line 2
     invoke-static {v2}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v2
@@ -79,7 +75,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->matches()Z
 
     move-result v3
@@ -90,7 +85,6 @@
 
     const-string v3, "Failed to parse version from: "
 
-    .line 4
     invoke-static {p3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
@@ -119,13 +113,11 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     new-instance v1, Lcom/google/vr/dynamite/client/f;
 
     const/4 v3, 0x1
 
-    .line 6
     invoke-virtual {v2, v3}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v3
@@ -167,7 +159,6 @@
     :goto_1
     if-nez v1, :cond_5
 
-    .line 7
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
     const-string p1, "Improperly formatted minVersion string: "
@@ -200,13 +191,11 @@
 
     throw p0
 
-    .line 8
     :cond_5
     new-instance v1, Lcom/google/vr/dynamite/client/e;
 
     invoke-direct {v1, p1, p2}, Lcom/google/vr/dynamite/client/e;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v1}, Lcom/google/vr/dynamite/client/DynamiteClient;->getRemoteLibraryLoaderFromInfo(Lcom/google/vr/dynamite/client/e;)Lcom/google/vr/dynamite/client/d;
 
     move-result-object p1
@@ -215,18 +204,15 @@
 
     const/4 p2, -0x1
 
-    .line 10
     :try_start_1
     invoke-virtual {p1, p0}, Lcom/google/vr/dynamite/client/d;->c(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object v2
 
-    .line 11
     invoke-virtual {p1, p0}, Lcom/google/vr/dynamite/client/d;->b(Landroid/content/Context;)Lcom/google/vr/dynamite/client/ILoadedInstanceCreator;
 
     move-result-object p1
 
-    .line 12
     invoke-static {v2}, Lcom/google/vr/dynamite/client/ObjectWrapper;->Z(Ljava/lang/Object;)Lcom/google/vr/dynamite/client/IObjectWrapper;
 
     move-result-object v2
@@ -235,7 +221,6 @@
 
     move-result-object p0
 
-    .line 13
     invoke-interface {p1, v2, p0}, Lcom/google/vr/dynamite/client/ILoadedInstanceCreator;->newNativeLibraryLoader(Lcom/google/vr/dynamite/client/IObjectWrapper;Lcom/google/vr/dynamite/client/IObjectWrapper;)Lcom/google/vr/dynamite/client/INativeLibraryLoader;
 
     move-result-object p0
@@ -244,7 +229,6 @@
 
     const-string p0, "DynamiteClient"
 
-    .line 14
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -287,12 +271,10 @@
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 15
     monitor-exit v0
 
     return p2
 
-    .line 16
     :cond_6
     :try_start_2
     invoke-interface {p0, p3}, Lcom/google/vr/dynamite/client/INativeLibraryLoader;->checkVersion(Ljava/lang/String;)I
@@ -343,7 +325,6 @@
     :try_start_3
     const-string p1, "DynamiteClient"
 
-    .line 17
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p3
@@ -380,7 +361,6 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 18
     monitor-exit v0
 
     return p2
@@ -400,7 +380,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     invoke-static {p0, p1, p2}, Lcom/google/vr/dynamite/client/DynamiteClient;->getRemoteContext(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Context;
 
@@ -412,12 +391,10 @@
 
     const/4 p0, 0x0
 
-    .line 2
     monitor-exit v0
 
     return-object p0
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-virtual {p0}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
@@ -447,20 +424,17 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     new-instance v1, Lcom/google/vr/dynamite/client/e;
 
     invoke-direct {v1, p1, p2}, Lcom/google/vr/dynamite/client/e;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v1}, Lcom/google/vr/dynamite/client/DynamiteClient;->getRemoteLibraryLoaderFromInfo(Lcom/google/vr/dynamite/client/e;)Lcom/google/vr/dynamite/client/d;
 
     move-result-object p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :try_start_1
     invoke-virtual {p1, p0}, Lcom/google/vr/dynamite/client/d;->c(Landroid/content/Context;)Landroid/content/Context;
 
@@ -479,7 +453,6 @@
     :try_start_2
     const-string p1, "DynamiteClient"
 
-    .line 4
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
@@ -518,7 +491,6 @@
 
     const/4 p0, 0x0
 
-    .line 5
     monitor-exit v0
 
     return-object p0
@@ -542,7 +514,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p0, p1, v1}, Lcom/google/vr/dynamite/client/DynamiteClient;->getRemoteContext(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Context;
 
@@ -552,12 +523,10 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     monitor-exit v0
 
     return-object v1
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-virtual {p1}, Landroid/content/Context;->getPackageCodePath()Ljava/lang/String;
@@ -566,28 +535,23 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     :try_start_2
     invoke-virtual {p0}, Landroid/content/Context;->getCodeCacheDir()Ljava/io/File;
 
     move-result-object v3
 
-    .line 5
     new-instance v4, Ldalvik/system/DexClassLoader;
 
-    .line 6
     invoke-virtual {v3}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object p1
 
     iget-object p1, p1, Landroid/content/pm/ApplicationInfo;->nativeLibraryDir:Ljava/lang/String;
 
-    .line 8
     invoke-virtual {p0}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object p0
@@ -597,7 +561,6 @@
     .catch Ljava/lang/RuntimeException; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 9
     monitor-exit v0
 
     return-object v4
@@ -610,12 +573,10 @@
 
     const-string v2, "Failed to create class loader for remote package\n "
 
-    .line 10
     invoke-static {p1, v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 11
     monitor-exit v0
 
     return-object v1
@@ -637,7 +598,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/google/vr/dynamite/client/DynamiteClient;->a:Landroid/util/ArrayMap;
 
@@ -649,17 +609,14 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/google/vr/dynamite/client/d;
 
     invoke-direct {v2, p0}, Lcom/google/vr/dynamite/client/d;-><init>(Lcom/google/vr/dynamite/client/e;)V
 
-    .line 3
     invoke-virtual {v1, p0, v2}, Landroid/util/ArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :cond_0
     monitor-exit v0
 
@@ -682,13 +639,11 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     new-instance v1, Lcom/google/vr/dynamite/client/e;
 
     invoke-direct {v1, p1, p2}, Lcom/google/vr/dynamite/client/e;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v1}, Lcom/google/vr/dynamite/client/DynamiteClient;->getRemoteLibraryLoaderFromInfo(Lcom/google/vr/dynamite/client/e;)Lcom/google/vr/dynamite/client/d;
 
     move-result-object p1
@@ -697,18 +652,15 @@
 
     const-wide/16 v2, 0x0
 
-    .line 3
     :try_start_1
     invoke-virtual {p1, p0}, Lcom/google/vr/dynamite/client/d;->c(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object v4
 
-    .line 4
     invoke-virtual {p1, p0}, Lcom/google/vr/dynamite/client/d;->b(Landroid/content/Context;)Lcom/google/vr/dynamite/client/ILoadedInstanceCreator;
 
     move-result-object p1
 
-    .line 5
     invoke-static {v4}, Lcom/google/vr/dynamite/client/ObjectWrapper;->Z(Ljava/lang/Object;)Lcom/google/vr/dynamite/client/IObjectWrapper;
 
     move-result-object v4
@@ -717,7 +669,6 @@
 
     move-result-object p0
 
-    .line 6
     invoke-interface {p1, v4, p0}, Lcom/google/vr/dynamite/client/ILoadedInstanceCreator;->newNativeLibraryLoader(Lcom/google/vr/dynamite/client/IObjectWrapper;Lcom/google/vr/dynamite/client/IObjectWrapper;)Lcom/google/vr/dynamite/client/INativeLibraryLoader;
 
     move-result-object p0
@@ -726,7 +677,6 @@
 
     const-string p0, "DynamiteClient"
 
-    .line 7
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -769,12 +719,10 @@
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 8
     monitor-exit v0
 
     return-wide v2
 
-    .line 9
     :cond_0
     :try_start_2
     invoke-interface {p0, p2}, Lcom/google/vr/dynamite/client/INativeLibraryLoader;->initializeAndLoadNativeLibrary(Ljava/lang/String;)J
@@ -825,7 +773,6 @@
     :try_start_3
     const-string p1, "DynamiteClient"
 
-    .line 10
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
@@ -862,7 +809,6 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 11
     monitor-exit v0
 
     return-wide v2

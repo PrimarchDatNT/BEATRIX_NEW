@@ -29,13 +29,10 @@
 .method private constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/mraid/MraidNativeCommandHandler$MoPubMediaScannerConnectionClient;->mFilename:Ljava/lang/String;
 
-    .line 4
     iput-object p2, p0, Lcom/mopub/mraid/MraidNativeCommandHandler$MoPubMediaScannerConnectionClient;->mMimeType:Ljava/lang/String;
 
     return-void
@@ -44,7 +41,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/mopub/mraid/MraidNativeCommandHandler$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/mopub/mraid/MraidNativeCommandHandler$MoPubMediaScannerConnectionClient;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -53,7 +49,6 @@
 .method static synthetic access$100(Lcom/mopub/mraid/MraidNativeCommandHandler$MoPubMediaScannerConnectionClient;Landroid/media/MediaScannerConnection;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/mraid/MraidNativeCommandHandler$MoPubMediaScannerConnectionClient;->setMediaScannerConnection(Landroid/media/MediaScannerConnection;)V
 
     return-void
@@ -62,7 +57,6 @@
 .method private setMediaScannerConnection(Landroid/media/MediaScannerConnection;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mraid/MraidNativeCommandHandler$MoPubMediaScannerConnectionClient;->mMediaScannerConnection:Landroid/media/MediaScannerConnection;
 
     return-void
@@ -73,12 +67,10 @@
 .method public onMediaScannerConnected()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidNativeCommandHandler$MoPubMediaScannerConnectionClient;->mMediaScannerConnection:Landroid/media/MediaScannerConnection;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mraid/MraidNativeCommandHandler$MoPubMediaScannerConnectionClient;->mFilename:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/mopub/mraid/MraidNativeCommandHandler$MoPubMediaScannerConnectionClient;->mMimeType:Ljava/lang/String;
@@ -92,12 +84,10 @@
 .method public onScanCompleted(Ljava/lang/String;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/mraid/MraidNativeCommandHandler$MoPubMediaScannerConnectionClient;->mMediaScannerConnection:Landroid/media/MediaScannerConnection;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/media/MediaScannerConnection;->disconnect()V
 
     :cond_0

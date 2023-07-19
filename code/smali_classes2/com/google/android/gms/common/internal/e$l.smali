@@ -33,12 +33,10 @@
     .annotation build Landroidx/annotation/BinderThread;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/e$l;->g:Lcom/google/android/gms/common/internal/e;
 
     const/4 p3, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/internal/e$f;-><init>(Lcom/google/android/gms/common/internal/e;ILandroid/os/Bundle;)V
 
     return-void
@@ -49,7 +47,6 @@
 .method protected final f(Lcom/google/android/gms/common/ConnectionResult;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$l;->g:Lcom/google/android/gms/common/internal/e;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/internal/e;->z()Z
@@ -66,7 +63,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/common/internal/e$l;->g:Lcom/google/android/gms/common/internal/e;
 
     const/16 v0, 0x10
@@ -75,7 +71,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$l;->g:Lcom/google/android/gms/common/internal/e;
 
@@ -83,7 +78,6 @@
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/common/internal/e$c;->a(Lcom/google/android/gms/common/ConnectionResult;)V
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$l;->g:Lcom/google/android/gms/common/internal/e;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/common/internal/e;->J(Lcom/google/android/gms/common/ConnectionResult;)V
@@ -94,7 +88,6 @@
 .method protected final g()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$l;->g:Lcom/google/android/gms/common/internal/e;
 
     iget-object v0, v0, Lcom/google/android/gms/common/internal/e;->o:Lcom/google/android/gms/common/internal/e$c;

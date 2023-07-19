@@ -10,7 +10,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/h0;Lcom/google/android/gms/common/api/internal/e1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/j0;->b:Lcom/google/android/gms/common/api/internal/h0;
 
     invoke-direct {p0, p2}, Lcom/google/android/gms/common/api/internal/g1;-><init>(Lcom/google/android/gms/common/api/internal/e1;)V
@@ -23,7 +22,6 @@
 .method public final a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/j0;->b:Lcom/google/android/gms/common/api/internal/h0;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/h0;->a(Lcom/google/android/gms/common/api/internal/h0;)Lcom/google/android/gms/common/api/internal/f1;

@@ -20,7 +20,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
 .method public final synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 10
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->h0(Landroid/os/Parcel;)I
 
     move-result v0
@@ -52,7 +50,6 @@
 
     const/4 v4, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
 
@@ -60,28 +57,23 @@
 
     if-ge v1, v0, :cond_0
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->X(Landroid/os/Parcel;)I
 
     move-result v1
 
-    .line 4
     invoke-static {v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->O(I)I
 
     move-result v2
 
     packed-switch v2, :pswitch_data_0
 
-    .line 5
     invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->g0(Landroid/os/Parcel;I)V
 
     goto :goto_0
 
-    .line 6
     :pswitch_0
     sget-object v2, Landroid/accounts/Account;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    .line 7
     invoke-static {p1, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->C(Landroid/os/Parcel;ILandroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
 
     move-result-object v1
@@ -92,7 +84,6 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_1
     invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->a0(Landroid/os/Parcel;I)Ljava/lang/Integer;
 
@@ -100,7 +91,6 @@
 
     goto :goto_0
 
-    .line 9
     :pswitch_2
     invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->a0(Landroid/os/Parcel;I)Ljava/lang/Integer;
 
@@ -108,11 +98,9 @@
 
     goto :goto_0
 
-    .line 10
     :pswitch_3
     sget-object v2, Lcom/google/android/gms/common/api/Scope;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    .line 11
     invoke-static {p1, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->K(Landroid/os/Parcel;ILandroid/os/Parcelable$Creator;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -123,7 +111,6 @@
 
     goto :goto_0
 
-    .line 12
     :pswitch_4
     invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->Y(Landroid/os/Parcel;I)Landroid/os/IBinder;
 
@@ -131,7 +118,6 @@
 
     goto :goto_0
 
-    .line 13
     :pswitch_5
     invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->Z(Landroid/os/Parcel;I)I
 
@@ -139,11 +125,9 @@
 
     goto :goto_0
 
-    .line 14
     :cond_0
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->N(Landroid/os/Parcel;I)V
 
-    .line 15
     new-instance p1, Lcom/google/android/gms/common/internal/AuthAccountRequest;
 
     move-object v3, p1
@@ -168,7 +152,6 @@
 .method public final synthetic newArray(I)[Ljava/lang/Object;
     .locals 0
 
-    .line 1
     new-array p1, p1, [Lcom/google/android/gms/common/internal/AuthAccountRequest;
 
     return-object p1

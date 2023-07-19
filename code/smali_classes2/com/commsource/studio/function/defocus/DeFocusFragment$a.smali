@@ -57,15 +57,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$a;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->A1(Lcom/commsource/studio/function/defocus/DeFocusFragment;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

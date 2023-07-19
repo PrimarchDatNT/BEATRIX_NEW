@@ -42,16 +42,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/firebase/firestore/local/u;->a:I
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/local/u;->b:Lcom/google/firebase/database/collection/f;
 
-    .line 4
     iput-object p3, p0, Lcom/google/firebase/firestore/local/u;->c:Lcom/google/firebase/database/collection/f;
 
     return-void
@@ -60,35 +56,30 @@
 .method public static a(ILcom/google/firebase/firestore/core/ViewSnapshot;)Lcom/google/firebase/firestore/local/u;
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/f;
 
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/firestore/model/e;->a()Ljava/util/Comparator;
 
     move-result-object v2
 
     invoke-direct {v0, v1, v2}, Lcom/google/firebase/database/collection/f;-><init>(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 3
     new-instance v1, Lcom/google/firebase/database/collection/f;
 
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-static {}, Lcom/google/firebase/firestore/model/e;->a()Ljava/util/Comparator;
 
     move-result-object v3
 
     invoke-direct {v1, v2, v3}, Lcom/google/firebase/database/collection/f;-><init>(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/ViewSnapshot;->d()Ljava/util/List;
 
     move-result-object p1
@@ -110,7 +101,6 @@
 
     check-cast v2, Lcom/google/firebase/firestore/core/DocumentViewChange;
 
-    .line 6
     sget-object v3, Lcom/google/firebase/firestore/local/u$a;->a:[I
 
     invoke-virtual {v2}, Lcom/google/firebase/firestore/core/DocumentViewChange;->c()Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
@@ -133,7 +123,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-virtual {v2}, Lcom/google/firebase/firestore/core/DocumentViewChange;->b()Lcom/google/firebase/firestore/model/Document;
 
@@ -149,7 +138,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-virtual {v2}, Lcom/google/firebase/firestore/core/DocumentViewChange;->b()Lcom/google/firebase/firestore/model/Document;
 
@@ -165,7 +153,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     new-instance p1, Lcom/google/firebase/firestore/local/u;
 
@@ -187,7 +174,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/u;->b:Lcom/google/firebase/database/collection/f;
 
     return-object v0
@@ -204,7 +190,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/u;->c:Lcom/google/firebase/database/collection/f;
 
     return-object v0
@@ -213,7 +198,6 @@
 .method public d()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/local/u;->a:I
 
     return v0

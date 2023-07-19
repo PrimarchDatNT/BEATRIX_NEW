@@ -28,7 +28,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/Sets$j;-><init>()V
 
     return-void
@@ -49,7 +48,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Multisets$h;->b()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -62,7 +60,6 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Multisets$h;->b()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -84,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Multisets$h;->b()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -99,7 +95,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Multisets$h;->b()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -124,7 +119,6 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Multisets$h;->b()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -151,7 +145,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Multisets$h;->b()Lcom/google/common/collect/m1;
 
     move-result-object v0

@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/LayerSelectComponent$transToCollapseState$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$transToCollapseState$1;->this$0:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->s()Z
@@ -79,7 +77,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$transToCollapseState$1;->this$0:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -106,7 +103,6 @@
 
     invoke-static/range {v2 .. v9}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

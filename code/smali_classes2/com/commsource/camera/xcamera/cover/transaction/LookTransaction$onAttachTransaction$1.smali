@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction$onAttachTransaction$1;->a:Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction;->z(Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction;)Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -67,7 +66,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction$onAttachTransaction$1;->a:Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction;->y(Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -76,7 +74,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->L0()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction$onAttachTransaction$1;->a:Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction;
 
@@ -90,7 +87,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->v1(Lcom/meitu/template/bean/LookMaterial;Lcotlin/jvm/u/a;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -103,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/LookMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction$onAttachTransaction$1;->a(Lcom/meitu/template/bean/LookMaterial;)V

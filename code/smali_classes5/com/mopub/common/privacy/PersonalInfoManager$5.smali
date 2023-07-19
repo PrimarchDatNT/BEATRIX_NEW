@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/common/privacy/PersonalInfoManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager$5;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onInitializationFinished()V
     .locals 11
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const/4 v1, 0x1
@@ -53,7 +51,6 @@
 
     invoke-static {v0, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$5;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-static {v0}, Lcom/mopub/common/privacy/PersonalInfoManager;->access$400(Lcom/mopub/common/privacy/PersonalInfoManager;)Landroid/content/Context;
@@ -64,7 +61,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0}, Lcom/mopub/common/ClientMetadata;->getMoPubIdentifier()Lcom/mopub/common/privacy/MoPubIdentifier;
 
     move-result-object v0
@@ -73,7 +69,6 @@
 
     move-result-object v0
 
-    .line 4
     iget-object v2, p0, Lcom/mopub/common/privacy/PersonalInfoManager$5;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-static {v2}, Lcom/mopub/common/privacy/PersonalInfoManager;->access$500(Lcom/mopub/common/privacy/PersonalInfoManager;)Z
@@ -82,28 +77,24 @@
 
     iget-object v2, p0, Lcom/mopub/common/privacy/PersonalInfoManager$5;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
-    .line 5
     invoke-virtual {v2}, Lcom/mopub/common/privacy/PersonalInfoManager;->gdprApplies()Ljava/lang/Boolean;
 
     move-result-object v4
 
     iget-object v2, p0, Lcom/mopub/common/privacy/PersonalInfoManager$5;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
-    .line 6
     invoke-static {v2}, Lcom/mopub/common/privacy/PersonalInfoManager;->access$600(Lcom/mopub/common/privacy/PersonalInfoManager;)Ljava/lang/Long;
 
     move-result-object v6
 
     iget-object v2, p0, Lcom/mopub/common/privacy/PersonalInfoManager$5;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
-    .line 7
     invoke-static {v2}, Lcom/mopub/common/privacy/PersonalInfoManager;->access$700(Lcom/mopub/common/privacy/PersonalInfoManager;)J
 
     move-result-wide v7
 
     iget-object v2, p0, Lcom/mopub/common/privacy/PersonalInfoManager$5;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
-    .line 8
     invoke-static {v2}, Lcom/mopub/common/privacy/PersonalInfoManager;->access$300(Lcom/mopub/common/privacy/PersonalInfoManager;)Lcom/mopub/common/privacy/PersonalInfoData;
 
     move-result-object v2
@@ -112,21 +103,18 @@
 
     move-result-object v9
 
-    .line 9
     invoke-virtual {v0}, Lcom/mopub/common/privacy/AdvertisingId;->isDoNotTrack()Z
 
     move-result v10
 
     const/4 v5, 0x0
 
-    .line 10
     invoke-static/range {v3 .. v10}, Lcom/mopub/common/privacy/PersonalInfoManager;->shouldMakeSyncRequest(ZLjava/lang/Boolean;ZLjava/lang/Long;JLjava/lang/String;Z)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 11
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$5;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-static {v0}, Lcom/mopub/common/privacy/PersonalInfoManager;->access$800(Lcom/mopub/common/privacy/PersonalInfoManager;)Lcom/mopub/common/SdkInitializationListener;
@@ -135,7 +123,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 12
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$5;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-static {v0}, Lcom/mopub/common/privacy/PersonalInfoManager;->access$800(Lcom/mopub/common/privacy/PersonalInfoManager;)Lcom/mopub/common/SdkInitializationListener;
@@ -144,7 +131,6 @@
 
     invoke-interface {v0}, Lcom/mopub/common/SdkInitializationListener;->onInitializationFinished()V
 
-    .line 13
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$5;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     const/4 v2, 0x0
@@ -153,13 +139,11 @@
 
     goto :goto_0
 
-    .line 14
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$5;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-virtual {v0}, Lcom/mopub/common/privacy/PersonalInfoManager;->requestSync()V
 
-    .line 15
     :cond_1
     :goto_0
     new-instance v0, Lcom/mopub/mobileads/MoPubConversionTracker;

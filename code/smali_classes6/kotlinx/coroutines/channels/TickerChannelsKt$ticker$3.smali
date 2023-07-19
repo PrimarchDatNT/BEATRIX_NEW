@@ -169,7 +169,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->label:I
 
     const/4 v2, 0x2
@@ -191,7 +190,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -201,13 +199,11 @@
 
     throw p1
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     iget-object p1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->p$:Lcotlinx/coroutines/channels/w;
 
-    .line 4
     iget-object v1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$mode:Lcotlinx/coroutines/channels/TickerMode;
 
     sget-object v4, Lcotlinx/coroutines/channels/e0;->a:[I
@@ -224,7 +220,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     iget-wide v4, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$delayMillis:J
 
@@ -248,7 +243,6 @@
 
     return-object v0
 
-    .line 6
     :cond_4
     iget-wide v1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$delayMillis:J
 
@@ -276,7 +270,6 @@
 
     return-object v0
 
-    .line 7
     :cond_5
     :goto_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;

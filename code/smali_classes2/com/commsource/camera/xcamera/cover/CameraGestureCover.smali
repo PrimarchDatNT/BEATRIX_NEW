@@ -39,10 +39,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/AbsCover;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$bottomFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$bottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)V
@@ -53,7 +51,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->c:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$bpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)V
@@ -64,7 +61,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->d:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$cameraConfigViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$cameraConfigViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)V
@@ -75,7 +71,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->f:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$arViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$arViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)V
@@ -86,7 +81,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->g:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$arGiphyMaterialViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$arGiphyMaterialViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)V
@@ -97,7 +91,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->p:Lcotlin/w;
 
-    .line 7
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$cameraFilterViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$cameraFilterViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)V
@@ -108,7 +101,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->J:Lcotlin/w;
 
-    .line 8
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$cameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$cameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)V
@@ -119,7 +111,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->K:Lcotlin/w;
 
-    .line 9
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$makeupViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$makeupViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)V
@@ -130,7 +121,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->L:Lcotlin/w;
 
-    .line 10
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)V
@@ -151,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->L()Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;
 
     move-result-object p0
@@ -168,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->M()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p0
@@ -185,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->N()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object p0
@@ -202,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->O()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object p0
@@ -219,7 +205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->P()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object p0
@@ -236,7 +221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->Q()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object p0
@@ -253,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->R()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
 
     move-result-object p0
@@ -270,7 +253,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->S()Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     move-result-object p0
@@ -287,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->T()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object p0
@@ -486,7 +467,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->cover_camera_layout:I
@@ -517,15 +497,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->t(Landroid/graphics/Rect;Landroid/graphics/Rect;)V
 
-    .line 2
     invoke-virtual {p2}, Landroid/graphics/Rect;->centerY()I
 
     move-result p1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p2
@@ -552,7 +529,6 @@
 
     invoke-virtual {p2, p1}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -573,15 +549,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->u(Landroid/graphics/Rect;F)V
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Rect;->centerY()I
 
     move-result p1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p2
@@ -608,7 +581,6 @@
 
     invoke-virtual {p2, p1}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -626,7 +598,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -641,7 +612,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/ExposureSeekBar;->setOnProgressChangeListener(Lcom/commsource/widget/ExposureSeekBar$a;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -656,7 +626,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/mvp/SimpleFocusView;->setOnFocusListener(Lcom/commsource/camera/mvp/SimpleFocusView$b;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -671,7 +640,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -684,7 +652,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->O()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
@@ -707,7 +674,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

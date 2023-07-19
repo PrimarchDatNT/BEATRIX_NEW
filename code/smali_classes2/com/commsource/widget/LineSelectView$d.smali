@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/LineSelectView$d;->a:Lcom/commsource/widget/LineSelectView;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
@@ -53,12 +52,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
     if-nez p2, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/LineSelectView$d;->a:Lcom/commsource/widget/LineSelectView;
 
     invoke-static {p1}, Lcom/commsource/widget/LineSelectView;->e(Lcom/commsource/widget/LineSelectView;)I
@@ -69,7 +66,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/widget/LineSelectView;->i(IZ)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

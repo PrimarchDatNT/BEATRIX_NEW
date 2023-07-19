@@ -28,10 +28,8 @@
 .method public constructor <init>(Lorg/apache/http/protocol/HttpRequestHandlerResolver;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/http/protocol/HttpService$HttpRequestHandlerResolverAdapter;->resolver:Lorg/apache/http/protocol/HttpRequestHandlerResolver;
 
     return-void
@@ -42,7 +40,6 @@
 .method public lookup(Lorg/apache/http/HttpRequest;)Lorg/apache/http/protocol/HttpRequestHandler;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/HttpService$HttpRequestHandlerResolverAdapter;->resolver:Lorg/apache/http/protocol/HttpRequestHandlerResolver;
 
     invoke-interface {p1}, Lorg/apache/http/HttpRequest;->getRequestLine()Lorg/apache/http/RequestLine;

@@ -28,20 +28,16 @@
 .method constructor <init>([BII)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/protobuf/ByteString$LiteralByteString;-><init>([B)V
 
     add-int v0, p2, p3
 
-    .line 2
     array-length p1, p1
 
     invoke-static {p2, v0, p1}, Lcom/google/protobuf/ByteString;->checkRange(III)I
 
-    .line 3
     iput p2, p0, Lcom/google/protobuf/ByteString$BoundedByteString;->bytesOffset:I
 
-    .line 4
     iput p3, p0, Lcom/google/protobuf/ByteString$BoundedByteString;->bytesLength:I
 
     return-void
@@ -55,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/io/InvalidObjectException;
 
     const-string v0, "BoundedByteStream instances are not to be serialized directly"
@@ -70,14 +65,12 @@
 .method public byteAt(I)B
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/ByteString$BoundedByteString;->size()I
 
     move-result v0
 
     invoke-static {p1, v0}, Lcom/google/protobuf/ByteString;->checkIndex(II)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     iget v1, p0, Lcom/google/protobuf/ByteString$BoundedByteString;->bytesOffset:I
@@ -92,7 +85,6 @@
 .method protected copyToInternal([BIII)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     invoke-virtual {p0}, Lcom/google/protobuf/ByteString$BoundedByteString;->getOffsetIntoBytes()I
@@ -109,7 +101,6 @@
 .method protected getOffsetIntoBytes()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/ByteString$BoundedByteString;->bytesOffset:I
 
     return v0
@@ -118,7 +109,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/ByteString$BoundedByteString;->bytesLength:I
 
     return v0
@@ -127,7 +117,6 @@
 .method writeReplace()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/ByteString;->toByteArray()[B
 
     move-result-object v0

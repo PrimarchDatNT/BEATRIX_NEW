@@ -73,7 +73,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     const-string v1, "TRACE_ID_LOW"
@@ -88,7 +87,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Span$_Fields;->TRACE_ID_LOW:Lio/jaegertracing/thriftjava/Span$_Fields;
 
-    .line 2
     new-instance v1, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     const-string v4, "TRACE_ID_HIGH"
@@ -101,7 +99,6 @@
 
     sput-object v1, Lio/jaegertracing/thriftjava/Span$_Fields;->TRACE_ID_HIGH:Lio/jaegertracing/thriftjava/Span$_Fields;
 
-    .line 3
     new-instance v4, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     const-string v6, "SPAN_ID"
@@ -114,7 +111,6 @@
 
     sput-object v4, Lio/jaegertracing/thriftjava/Span$_Fields;->SPAN_ID:Lio/jaegertracing/thriftjava/Span$_Fields;
 
-    .line 4
     new-instance v6, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     const-string v8, "PARENT_SPAN_ID"
@@ -127,7 +123,6 @@
 
     sput-object v6, Lio/jaegertracing/thriftjava/Span$_Fields;->PARENT_SPAN_ID:Lio/jaegertracing/thriftjava/Span$_Fields;
 
-    .line 5
     new-instance v8, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     const-string v10, "OPERATION_NAME"
@@ -140,7 +135,6 @@
 
     sput-object v8, Lio/jaegertracing/thriftjava/Span$_Fields;->OPERATION_NAME:Lio/jaegertracing/thriftjava/Span$_Fields;
 
-    .line 6
     new-instance v10, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     const-string v12, "REFERENCES"
@@ -153,7 +147,6 @@
 
     sput-object v10, Lio/jaegertracing/thriftjava/Span$_Fields;->REFERENCES:Lio/jaegertracing/thriftjava/Span$_Fields;
 
-    .line 7
     new-instance v12, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     const-string v14, "FLAGS"
@@ -166,7 +159,6 @@
 
     sput-object v12, Lio/jaegertracing/thriftjava/Span$_Fields;->FLAGS:Lio/jaegertracing/thriftjava/Span$_Fields;
 
-    .line 8
     new-instance v11, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     const-string v14, "START_TIME"
@@ -179,7 +171,6 @@
 
     sput-object v11, Lio/jaegertracing/thriftjava/Span$_Fields;->START_TIME:Lio/jaegertracing/thriftjava/Span$_Fields;
 
-    .line 9
     new-instance v9, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     const-string v14, "DURATION"
@@ -192,7 +183,6 @@
 
     sput-object v9, Lio/jaegertracing/thriftjava/Span$_Fields;->DURATION:Lio/jaegertracing/thriftjava/Span$_Fields;
 
-    .line 10
     new-instance v7, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     const-string v14, "TAGS"
@@ -205,7 +195,6 @@
 
     sput-object v7, Lio/jaegertracing/thriftjava/Span$_Fields;->TAGS:Lio/jaegertracing/thriftjava/Span$_Fields;
 
-    .line 11
     new-instance v5, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     const-string v14, "LOGS"
@@ -260,17 +249,14 @@
 
     aput-object v5, v3, v13
 
-    .line 12
     sput-object v3, Lio/jaegertracing/thriftjava/Span$_Fields;->$VALUES:[Lio/jaegertracing/thriftjava/Span$_Fields;
 
-    .line 13
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     sput-object v0, Lio/jaegertracing/thriftjava/Span$_Fields;->byName:Ljava/util/Map;
 
-    .line 14
     const-class v0, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     invoke-static {v0}, Ljava/util/EnumSet;->allOf(Ljava/lang/Class;)Ljava/util/EnumSet;
@@ -294,7 +280,6 @@
 
     check-cast v1, Lio/jaegertracing/thriftjava/Span$_Fields;
 
-    .line 15
     sget-object v2, Lio/jaegertracing/thriftjava/Span$_Fields;->byName:Ljava/util/Map;
 
     invoke-virtual {v1}, Lio/jaegertracing/thriftjava/Span$_Fields;->getFieldName()Ljava/lang/String;
@@ -319,13 +304,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-short p3, p0, Lio/jaegertracing/thriftjava/Span$_Fields;->_thriftId:S
 
-    .line 3
     iput-object p4, p0, Lio/jaegertracing/thriftjava/Span$_Fields;->_fieldName:Ljava/lang/String;
 
     return-void
@@ -334,7 +316,6 @@
 .method public static findByName(Ljava/lang/String;)Lio/jaegertracing/thriftjava/Span$_Fields;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Span$_Fields;->byName:Ljava/util/Map;
 
     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -355,67 +336,56 @@
 
     return-object p0
 
-    .line 1
     :pswitch_0
     sget-object p0, Lio/jaegertracing/thriftjava/Span$_Fields;->LOGS:Lio/jaegertracing/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 2
     :pswitch_1
     sget-object p0, Lio/jaegertracing/thriftjava/Span$_Fields;->TAGS:Lio/jaegertracing/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 3
     :pswitch_2
     sget-object p0, Lio/jaegertracing/thriftjava/Span$_Fields;->DURATION:Lio/jaegertracing/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 4
     :pswitch_3
     sget-object p0, Lio/jaegertracing/thriftjava/Span$_Fields;->START_TIME:Lio/jaegertracing/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 5
     :pswitch_4
     sget-object p0, Lio/jaegertracing/thriftjava/Span$_Fields;->FLAGS:Lio/jaegertracing/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 6
     :pswitch_5
     sget-object p0, Lio/jaegertracing/thriftjava/Span$_Fields;->REFERENCES:Lio/jaegertracing/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 7
     :pswitch_6
     sget-object p0, Lio/jaegertracing/thriftjava/Span$_Fields;->OPERATION_NAME:Lio/jaegertracing/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 8
     :pswitch_7
     sget-object p0, Lio/jaegertracing/thriftjava/Span$_Fields;->PARENT_SPAN_ID:Lio/jaegertracing/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 9
     :pswitch_8
     sget-object p0, Lio/jaegertracing/thriftjava/Span$_Fields;->SPAN_ID:Lio/jaegertracing/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 10
     :pswitch_9
     sget-object p0, Lio/jaegertracing/thriftjava/Span$_Fields;->TRACE_ID_HIGH:Lio/jaegertracing/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 11
     :pswitch_a
     sget-object p0, Lio/jaegertracing/thriftjava/Span$_Fields;->TRACE_ID_LOW:Lio/jaegertracing/thriftjava/Span$_Fields;
 
@@ -440,7 +410,6 @@
 .method public static findByThriftIdOrThrow(I)Lio/jaegertracing/thriftjava/Span$_Fields;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lio/jaegertracing/thriftjava/Span$_Fields;->findByThriftId(I)Lio/jaegertracing/thriftjava/Span$_Fields;
 
     move-result-object v0
@@ -449,7 +418,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -479,7 +447,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/jaegertracing/thriftjava/Span$_Fields;
     .locals 1
 
-    .line 1
     const-class v0, Lio/jaegertracing/thriftjava/Span$_Fields;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -494,7 +461,6 @@
 .method public static values()[Lio/jaegertracing/thriftjava/Span$_Fields;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Span$_Fields;->$VALUES:[Lio/jaegertracing/thriftjava/Span$_Fields;
 
     invoke-virtual {v0}, [Lio/jaegertracing/thriftjava/Span$_Fields;->clone()Ljava/lang/Object;
@@ -511,7 +477,6 @@
 .method public getFieldName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Span$_Fields;->_fieldName:Ljava/lang/String;
 
     return-object v0
@@ -520,7 +485,6 @@
 .method public getThriftFieldId()S
     .locals 1
 
-    .line 1
     iget-short v0, p0, Lio/jaegertracing/thriftjava/Span$_Fields;->_thriftId:S
 
     return v0

@@ -37,16 +37,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/android/billingclient/api/Purchase;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/android/billingclient/api/Purchase;->b:Ljava/lang/String;
 
-    .line 4
     new-instance p2, Lorg/json/JSONObject;
 
     invoke-direct {p2, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
@@ -63,7 +59,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->c:Lorg/json/JSONObject;
 
     const-string v1, "obfuscatedAccountId"
@@ -72,7 +67,6 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/android/billingclient/api/Purchase;->c:Lorg/json/JSONObject;
 
     const-string v2, "obfuscatedProfileId"
@@ -89,7 +83,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v2, Lcom/android/billingclient/api/a;
 
@@ -101,7 +94,6 @@
 .method public b()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->c:Lorg/json/JSONObject;
 
     const-string v1, "developerPayload"
@@ -116,7 +108,6 @@
 .method public c()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->c:Lorg/json/JSONObject;
 
     const-string v1, "orderId"
@@ -131,7 +122,6 @@
 .method public d()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->a:Ljava/lang/String;
 
     return-object v0
@@ -140,7 +130,6 @@
 .method public e()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->c:Lorg/json/JSONObject;
 
     const-string v1, "packageName"
@@ -165,7 +154,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/android/billingclient/api/Purchase;
 
@@ -175,11 +163,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/android/billingclient/api/Purchase;
 
-    .line 3
     iget-object v1, p0, Lcom/android/billingclient/api/Purchase;->a:Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase;->d()Ljava/lang/String;
@@ -194,7 +180,6 @@
 
     iget-object v1, p0, Lcom/android/billingclient/api/Purchase;->b:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase;->i()Ljava/lang/String;
 
     move-result-object p1
@@ -214,7 +199,6 @@
 .method public f()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->c:Lorg/json/JSONObject;
 
     const-string v1, "purchaseState"
@@ -240,7 +224,6 @@
 .method public g()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->c:Lorg/json/JSONObject;
 
     const-string v1, "purchaseTime"
@@ -255,7 +238,6 @@
 .method public h()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->c:Lorg/json/JSONObject;
 
     const-string v1, "purchaseToken"
@@ -276,7 +258,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -289,7 +270,6 @@
 .method public i()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->b:Ljava/lang/String;
 
     return-object v0
@@ -300,7 +280,6 @@
     .annotation build Lcom/android/billingclient/api/e0$a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->c:Lorg/json/JSONObject;
 
     const-string v1, "productId"
@@ -315,7 +294,6 @@
 .method public k()Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->c:Lorg/json/JSONObject;
 
     const-string v1, "acknowledged"
@@ -332,7 +310,6 @@
 .method public l()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->c:Lorg/json/JSONObject;
 
     const-string v1, "autoRenewing"
@@ -347,7 +324,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase;->a:Ljava/lang/String;
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;

@@ -178,17 +178,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/studio/text/TextFontMaterial;->id:Ljava/lang/String;
 
     const/4 v0, 0x1
 
-    .line 3
     iput v0, p0, Lcom/commsource/studio/text/TextFontMaterial;->downloadType:I
 
     return-void
@@ -207,7 +204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/studio/text/TextFontMaterial;
 
     if-eqz v1, :cond_0
@@ -246,7 +242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->category:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -261,7 +256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -276,7 +270,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->downloadState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -291,7 +284,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->downloadType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -306,7 +298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->endedAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -323,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->file:Lcom/commsource/repository/FileObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -340,7 +330,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->icon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -357,7 +346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -372,7 +360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->internalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -389,7 +376,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -404,7 +390,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->newState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -419,7 +404,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->newTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -436,7 +420,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->category:Ljava/lang/String;
 
     if-nez v1, :cond_0
@@ -465,7 +448,6 @@
     :cond_1
     const-string v2, "English"
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -479,7 +461,6 @@
     :cond_2
     const-string v2, "Japanese"
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -493,7 +474,6 @@
     :cond_3
     const-string v2, "Korean"
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -508,7 +488,6 @@
     :goto_0
     const-string v1, "BP_cat_FON_0006"
 
-    .line 5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -522,7 +501,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->paidType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -537,7 +515,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->sort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -554,7 +531,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->isSystemFont:Z
 
     const/4 v2, 0x0
@@ -563,7 +539,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/text/TextFontMaterial;->isInternal()Z
 
@@ -583,7 +558,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -600,7 +574,6 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v9, p0, Lcom/commsource/studio/text/TextFontMaterial;->file:Lcom/commsource/repository/FileObject;
 
     if-eqz v9, :cond_1
@@ -643,7 +616,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->file:Lcom/commsource/repository/FileObject;
 
@@ -685,7 +657,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_3
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -709,7 +680,6 @@
 
     move-result-object v2
 
-    .line 7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -725,7 +695,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->file:Lcom/commsource/repository/FileObject;
 
     if-eqz v1, :cond_0
@@ -752,7 +721,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -769,7 +737,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->downloadState:I
 
     const/4 v2, 0x1
@@ -798,7 +765,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->internalState:I
 
     const/4 v2, 0x1
@@ -823,7 +789,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->internalState:I
 
     if-nez v1, :cond_0
@@ -848,7 +813,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->isSystemFont:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -863,7 +827,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->downloadState:I
 
     const/4 v2, 0x1
@@ -888,7 +851,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->paidType:I
 
     if-eqz v1, :cond_0
@@ -913,25 +875,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->newState:I
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 4
     iget-wide v5, p0, Lcom/commsource/studio/text/TextFontMaterial;->newTime:J
 
     const-wide/16 v7, 0x0
@@ -968,7 +926,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->icon:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/commsource/studio/text/TextFontMaterial;->icon:Ljava/lang/String;
@@ -977,7 +934,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->name:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/commsource/studio/text/TextFontMaterial;->name:Ljava/lang/String;
@@ -988,12 +944,10 @@
 
     and-int/2addr v1, v2
 
-    .line 4
     iget v2, p1, Lcom/commsource/studio/text/TextFontMaterial;->internalState:I
 
     if-nez v2, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->file:Lcom/commsource/repository/FileObject;
 
     iget-object v3, p1, Lcom/commsource/studio/text/TextFontMaterial;->file:Lcom/commsource/repository/FileObject;
@@ -1004,12 +958,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     iget v2, p1, Lcom/commsource/studio/text/TextFontMaterial;->downloadState:I
 
     iput v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->downloadState:I
 
-    .line 7
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->file:Lcom/commsource/repository/FileObject;
 
@@ -1023,19 +975,16 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget v2, p1, Lcom/commsource/studio/text/TextFontMaterial;->downloadState:I
 
     iput v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->downloadState:I
 
-    .line 9
     :goto_0
     iget v2, p1, Lcom/commsource/studio/text/TextFontMaterial;->internalState:I
 
     iput v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->internalState:I
 
-    .line 10
     iget-wide v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->newTime:J
 
     iget-wide v4, p1, Lcom/commsource/studio/text/TextFontMaterial;->newTime:J
@@ -1058,7 +1007,6 @@
     :goto_1
     and-int/2addr v1, v2
 
-    .line 11
     iget v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->newState:I
 
     iget v3, p1, Lcom/commsource/studio/text/TextFontMaterial;->newState:I
@@ -1075,7 +1023,6 @@
     :goto_2
     and-int/2addr v1, v2
 
-    .line 12
     iget-wide v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->endedAt:J
 
     iget-wide v4, p1, Lcom/commsource/studio/text/TextFontMaterial;->endedAt:J
@@ -1094,7 +1041,6 @@
     :goto_3
     and-int/2addr v1, v2
 
-    .line 13
     iget v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->downloadType:I
 
     iget v3, p1, Lcom/commsource/studio/text/TextFontMaterial;->downloadType:I
@@ -1111,7 +1057,6 @@
     :goto_4
     and-int/2addr v1, v2
 
-    .line 14
     iget v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->paidType:I
 
     iget v3, p1, Lcom/commsource/studio/text/TextFontMaterial;->paidType:I
@@ -1128,7 +1073,6 @@
     :goto_5
     and-int/2addr v1, v2
 
-    .line 15
     iget v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->sort:I
 
     iget v3, p1, Lcom/commsource/studio/text/TextFontMaterial;->sort:I
@@ -1143,7 +1087,6 @@
     :goto_6
     and-int/2addr v1, v6
 
-    .line 16
     iget-object v2, p0, Lcom/commsource/studio/text/TextFontMaterial;->category:Ljava/lang/String;
 
     iget-object p1, p1, Lcom/commsource/studio/text/TextFontMaterial;->category:Ljava/lang/String;
@@ -1154,7 +1097,6 @@
 
     and-int/2addr p1, v1
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1167,7 +1109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/text/TextFontMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/text/TextFontMaterial;->onCompareLocal(Lcom/commsource/studio/text/TextFontMaterial;)Z
@@ -1194,7 +1135,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/text/TextFontMaterial;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1203,12 +1143,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontMaterial;->id:Ljava/lang/String;
 
@@ -1240,7 +1178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/text/TextFontMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/text/TextFontMaterial;->onSortCompare(Lcom/commsource/studio/text/TextFontMaterial;)I
@@ -1263,7 +1200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->category:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1278,7 +1214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1293,7 +1228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->downloadState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1308,7 +1242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->downloadType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1323,7 +1256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->endedAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1342,7 +1274,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->file:Lcom/commsource/repository/FileObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1361,7 +1292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->icon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1384,7 +1314,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1399,7 +1328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->internalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1418,7 +1346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1433,7 +1360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->newState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1448,7 +1374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->newTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1463,7 +1388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->paidType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1478,7 +1402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->sort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1493,7 +1416,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextFontMaterial;->isSystemFont:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

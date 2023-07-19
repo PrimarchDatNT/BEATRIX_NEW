@@ -27,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/y/o/t;->b()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -38,7 +37,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -56,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x1d
@@ -65,7 +62,6 @@
 
     const-string v1, "android.permission.READ_PHONE_STATE"
 
-    .line 2
     invoke-static {p0, v1}, Lcom/meitu/library/analytics/y/o/z;->j(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
@@ -77,14 +73,12 @@
     :try_start_0
     const-string v2, "phone"
 
-    .line 3
     invoke-virtual {p0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/telephony/TelephonyManager;
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/analytics/y/o/t;->d()I
 
     move-result v2
@@ -93,7 +87,6 @@
 
     if-ne v2, v3, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getServiceState()Landroid/telephony/ServiceState;
 
     move-result-object p0
@@ -105,7 +98,6 @@
     :cond_0
     const/4 v3, 0x0
 
-    .line 6
     :try_start_1
     const-class v4, Landroid/telephony/TelephonyManager;
 
@@ -115,24 +107,20 @@
 
     new-array v7, v6, [Ljava/lang/Class;
 
-    .line 7
     sget-object v8, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     const/4 v9, 0x0
 
     aput-object v8, v7, v9
 
-    .line 8
     invoke-virtual {v4, v5, v7}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v4
 
-    .line 9
     invoke-virtual {v4, v6}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
     new-array v5, v6, [Ljava/lang/Object;
 
-    .line 10
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -189,7 +177,6 @@
     :goto_0
     if-nez v2, :cond_1
 
-    .line 11
     :try_start_2
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getServiceState()Landroid/telephony/ServiceState;
 
@@ -203,7 +190,6 @@
     :goto_1
     if-eqz p0, :cond_3
 
-    .line 12
     invoke-virtual {p0}, Landroid/telephony/ServiceState;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -223,7 +209,6 @@
     :catchall_1
     move-exception p0
 
-    .line 13
     invoke-static {}, Lcom/meitu/library/analytics/y/j/d;->f()I
 
     move-result v2
@@ -232,7 +217,6 @@
 
     if-le v2, v1, :cond_2
 
-    .line 14
     invoke-virtual {p0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -244,10 +228,8 @@
     :cond_2
     const-string p0, "get n type failure!"
 
-    .line 15
     invoke-static {v3, p0}, Lcom/meitu/library/analytics/y/j/d;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     :cond_3
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -262,7 +244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/library/analytics/y/o/t;
@@ -346,14 +327,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     const-string v3, "phone"
 
-    .line 2
     invoke-virtual {p0, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
@@ -362,14 +341,12 @@
 
     const-string v4, "android.permission.READ_PHONE_STATE"
 
-    .line 3
     invoke-static {p0, v4}, Lcom/meitu/library/analytics/y/o/z;->j(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v4
 
     if-nez v4, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -377,7 +354,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 5
     :try_start_0
     invoke-static {}, Lcom/meitu/library/analytics/y/o/t;->d()I
 
@@ -387,7 +363,6 @@
 
     if-ne v4, v5, :cond_1
 
-    .line 6
     invoke-virtual {v3}, Landroid/telephony/TelephonyManager;->getNetworkType()I
 
     move-result p1
@@ -396,7 +371,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     :try_start_1
     const-class v5, Landroid/telephony/TelephonyManager;
@@ -411,17 +385,14 @@
 
     aput-object v9, v8, p1
 
-    .line 8
     invoke-virtual {v5, v6, v8}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v5
 
-    .line 9
     invoke-virtual {v5, v7}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
     new-array v6, v7, [Ljava/lang/Object;
 
-    .line 10
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -486,7 +457,6 @@
     :goto_0
     if-nez p1, :cond_2
 
-    .line 11
     :try_start_2
     invoke-virtual {v3}, Landroid/telephony/TelephonyManager;->getNetworkType()I
 
@@ -505,18 +475,15 @@
 
     if-ne p1, v3, :cond_3
 
-    .line 12
     invoke-static {p0, p1}, Lcom/meitu/library/analytics/y/o/t;->a(Landroid/content/Context;I)I
 
     move-result p1
 
-    .line 13
     :cond_3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 14
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -537,7 +504,6 @@
 
     invoke-static {v1, p0}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -550,14 +516,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x18
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     invoke-static {}, Landroid/telephony/SubscriptionManager;->getDefaultDataSubscriptionId()I
 
     move-result v1
@@ -567,7 +531,6 @@
     :cond_0
     const/4 v1, -0x1
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -581,7 +544,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -598,7 +560,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -615,7 +576,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -624,7 +584,6 @@
 
     const-string v1, "nrState=NOT_RESTRICTED"
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -633,7 +592,6 @@
 
     const-string v1, "nrState=CONNECTED"
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result p0
@@ -648,7 +606,6 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

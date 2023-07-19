@@ -7,7 +7,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,13 +19,11 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/util/concurrent/LinkedBlockingQueue;
 
     invoke-direct {v1}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Ljava/util/logging/Logger;->getLevel()Ljava/util/logging/Level;
 
     move-result-object v2
@@ -53,7 +50,6 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 3
     invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p0
@@ -88,11 +84,9 @@
     :pswitch_5
     const-string p0, "Init error begin"
 
-    .line 4
     :goto_1
     invoke-virtual {p1, p0}, Ljava/util/logging/Logger;->warning(Ljava/lang/String;)V
 
-    .line 5
     :cond_1
     invoke-interface {v1, p2, p3, p4}, Ljava/util/concurrent/BlockingQueue;->poll(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
@@ -100,7 +94,6 @@
 
     check-cast p0, Ljava/lang/String;
 
-    .line 6
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p2
@@ -124,7 +117,6 @@
     :catchall_0
     move-exception p0
 
-    .line 7
     invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object p0

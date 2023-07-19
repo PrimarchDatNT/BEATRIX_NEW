@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/f0$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/f0$c$a;->a:Lcom/google/firebase/crashlytics/internal/common/f0$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -57,7 +56,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/firebase/crashlytics/internal/common/f0$c$a;->b(Lcom/google/android/gms/tasks/k;)Ljava/lang/Void;
 
     move-result-object p1
@@ -86,14 +84,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->v()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/f0$c$a;->a:Lcom/google/firebase/crashlytics/internal/common/f0$c;
 
     iget-object v0, v0, Lcom/google/firebase/crashlytics/internal/common/f0$c;->b:Lcom/google/android/gms/tasks/l;
@@ -106,7 +102,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/f0$c$a;->a:Lcom/google/firebase/crashlytics/internal/common/f0$c;
 

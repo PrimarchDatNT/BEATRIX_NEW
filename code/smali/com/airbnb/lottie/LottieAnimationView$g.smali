@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/airbnb/lottie/RenderMode;->values()[Lcom/airbnb/lottie/RenderMode;
 
     move-result-object v0

@@ -79,10 +79,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->t()I
@@ -93,7 +91,6 @@
 
     iput v0, p0, Lcom/commsource/studio/function/EvenlyFragment;->c0:F
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/effect/c;
 
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Evenly:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -102,13 +99,10 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/commsource/studio/effect/k;->r(Z)V
 
-    .line 5
     iput-object v0, p0, Lcom/commsource/studio/function/EvenlyFragment;->f0:Lcom/commsource/studio/effect/c;
 
-    .line 6
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->q1(Z)V
 
     return-void
@@ -121,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/EvenlyFragment;->e0:Lcom/commsource/studio/processor/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -136,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/EvenlyFragment;->e0:Lcom/commsource/studio/processor/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/EvenlyFragment;->f0:Lcom/commsource/studio/effect/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -178,7 +169,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/EvenlyFragment;->f0:Lcom/commsource/studio/effect/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -193,14 +183,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/EvenlyFragment;->B1()Lcom/commsource/studio/effect/c;
@@ -215,7 +203,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v2
@@ -236,13 +223,10 @@
 
     const-string v2, "beau_concealer_yes"
 
-    .line 4
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G0()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -255,7 +239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -268,12 +251,10 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/processor/m;
 
     new-instance v2, Lcom/commsource/studio/function/EvenlyFragment$b;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v3
@@ -286,7 +267,6 @@
 
     move-result v3
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v4
@@ -301,13 +281,10 @@
 
     invoke-direct {v2, p0, v3, v4}, Lcom/commsource/studio/function/EvenlyFragment$b;-><init>(Lcom/commsource/studio/function/EvenlyFragment;II)V
 
-    .line 5
     invoke-direct {v1, v2}, Lcom/commsource/studio/processor/m;-><init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 6
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v2
@@ -318,7 +295,6 @@
 
     if-nez v2, :cond_0
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v2
@@ -327,7 +303,6 @@
 
     invoke-direct {v3}, Lcom/commsource/camera/d1/g/r;-><init>()V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v4
@@ -342,13 +317,10 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/camera/d1/g/r;->a(Landroid/graphics/Bitmap;)V
 
-    .line 10
     invoke-virtual {v3}, Lcom/commsource/camera/d1/g/r;->m()V
 
-    .line 11
     invoke-virtual {v2, v3}, Lcom/commsource/studio/o;->C(Lcom/commsource/camera/d1/g/r;)V
 
-    .line 12
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->F0()Z
 
@@ -356,19 +328,16 @@
 
     if-nez v2, :cond_1
 
-    .line 13
     new-instance v6, Lcom/commsource/studio/r0/m;
 
     const-string v2, "rt_effect_config/configuration_beauty_dodgeburn.plist"
 
     invoke-direct {v6, v2}, Lcom/commsource/studio/r0/m;-><init>(Ljava/lang/String;)V
 
-    .line 14
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v4
 
-    .line 15
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v2
@@ -381,17 +350,14 @@
 
     const/4 v7, 0x1
 
-    .line 16
     new-instance v8, Lcom/commsource/studio/function/EvenlyFragment$onGlResourceInit$2$2$1;
 
     invoke-direct {v8, v6}, Lcom/commsource/studio/function/EvenlyFragment$onGlResourceInit$2$2$1;-><init>(Lcom/commsource/studio/r0/m;)V
 
     move-object v3, v1
 
-    .line 17
     invoke-virtual/range {v3 .. v8}, Lcom/commsource/studio/processor/BaseEffectProcessor;->u(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/camera/newrender/renderproxy/n;ZLcotlin/jvm/u/a;)V
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/studio/function/EvenlyFragment;->B1()Lcom/commsource/studio/effect/c;
 
     move-result-object v2
@@ -406,7 +372,6 @@
 
     invoke-static {v2, v3, v5, v4, v6}, Lcom/commsource/studio/effect/c;->I(Lcom/commsource/studio/effect/c;IIILjava/lang/Object;)V
 
-    .line 19
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v2
@@ -439,10 +404,8 @@
 
     const/4 v2, 0x3
 
-    .line 20
     invoke-static {v1, v5, v6, v2, v6}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 21
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -456,10 +419,8 @@
 
     invoke-virtual {v2, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 22
     iput-object v1, p0, Lcom/commsource/studio/function/EvenlyFragment;->e0:Lcom/commsource/studio/processor/m;
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -472,10 +433,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->L0()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -488,10 +447,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->M0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/EvenlyFragment;->d0:Lcom/commsource/beautyplus/f0/ab;
 
     if-nez v1, :cond_0
@@ -509,14 +466,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 3
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -535,7 +490,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -553,7 +507,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -567,7 +520,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/EvenlyFragment;->B1()Lcom/commsource/studio/effect/c;
 
     move-result-object v1
@@ -584,7 +536,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/EvenlyFragment;->C1(Lcom/commsource/studio/effect/c;)V
@@ -601,7 +552,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/EvenlyFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -616,7 +566,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/EvenlyFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -649,7 +598,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/ab;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/ab;
 
     move-result-object p1
@@ -660,7 +608,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/EvenlyFragment;->d0:Lcom/commsource/beautyplus/f0/ab;
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->F0()Z
 
     move-result p1
@@ -669,7 +616,6 @@
 
     if-nez p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/EvenlyFragment;->d0:Lcom/commsource/beautyplus/f0/ab;
 
     if-nez p1, :cond_0
@@ -683,7 +629,6 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/function/EvenlyFragment;->d0:Lcom/commsource/beautyplus/f0/ab;
 
@@ -694,7 +639,6 @@
     :cond_2
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/ab;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/EvenlyFragment;->d0:Lcom/commsource/beautyplus/f0/ab;
 
     if-nez p1, :cond_3
@@ -710,7 +654,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/function/EvenlyFragment;->d0:Lcom/commsource/beautyplus/f0/ab;
 
     if-nez p1, :cond_4
@@ -726,7 +669,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/EvenlyFragment;->d0:Lcom/commsource/beautyplus/f0/ab;
 
     if-nez p1, :cond_5

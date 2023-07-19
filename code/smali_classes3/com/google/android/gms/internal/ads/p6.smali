@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/m6;Lcom/google/android/gms/internal/ads/lq;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/p6;->a:Lcom/google/android/gms/internal/ads/lq;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -27,7 +26,6 @@
 .method public final a(Lorg/json/JSONObject;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/p6;->a:Lcom/google/android/gms/internal/ads/lq;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/lq;->a(Ljava/lang/Object;)Z
@@ -42,7 +40,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/p6;->a:Lcom/google/android/gms/internal/ads/lq;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/zzalg;

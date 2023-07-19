@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;-><init>()V
 
     return-void
@@ -106,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResID;->mMTCameraLayout:I
@@ -121,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResID;->mFocusView:I
@@ -136,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -149,7 +145,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -162,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->S0(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -173,7 +167,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardCameraActivity;->X:Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
-    .line 2
     const-class v1, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->S0(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -184,7 +177,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardCameraActivity;->Y:Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->Q0()Lcom/commsource/camera/xcamera/cover/CoverContainer;
 
     move-result-object v1
@@ -205,12 +197,10 @@
 
     invoke-direct/range {v2 .. v7}, Lcom/commsource/camera/xcamera/cover/CoverGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
-    .line 4
     invoke-virtual {v8, p0}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->i(Landroidx/fragment/app/FragmentActivity;)Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     move-result-object v2
 
-    .line 5
     new-instance v3, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-direct {v3}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;-><init>()V
@@ -219,7 +209,6 @@
 
     move-result-object v2
 
-    .line 6
     new-instance v3, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;
 
     invoke-direct {v3}, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;-><init>()V
@@ -228,7 +217,6 @@
 
     move-result-object v2
 
-    .line 7
     new-instance v3, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;
 
     invoke-direct {v3}, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;-><init>()V
@@ -237,7 +225,6 @@
 
     move-result-object v2
 
-    .line 8
     new-instance v3, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;
 
     invoke-direct {v3}, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;-><init>()V
@@ -246,7 +233,6 @@
 
     move-result-object v2
 
-    .line 9
     new-instance v3, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;
 
     invoke-direct {v3}, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;-><init>()V
@@ -255,25 +241,20 @@
 
     move-result-object v2
 
-    .line 10
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->c()V
 
-    .line 11
     invoke-virtual {v1, v8}, Lcom/commsource/camera/xcamera/cover/CoverContainer;->c(Lcom/commsource/camera/xcamera/cover/CoverGroup;)Lcom/commsource/camera/xcamera/cover/CoverContainer;
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverContainer;->m()V
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->Q0()Lcom/commsource/camera/xcamera/cover/CoverContainer;
 
     move-result-object v1
 
     invoke-virtual {v1, p0}, Landroid/widget/FrameLayout;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -286,14 +267,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->Q0()Lcom/commsource/camera/xcamera/cover/CoverContainer;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverContainer;->l()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -310,7 +289,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->Q0()Lcom/commsource/camera/xcamera/cover/CoverContainer;
 
     move-result-object v1
@@ -323,12 +301,10 @@
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z
 
@@ -346,15 +322,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 2
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
-    .line 3
     const-class v2, Lcom/commsource/camera/xcamera/idcard/IDCardCameraActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -363,7 +336,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 4
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -372,7 +344,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -387,13 +358,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v1}, Lf/d/i/e;->V2(Z)V
 
-    .line 2
     invoke-super {p0}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->onDestroy()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -410,14 +378,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->Q0()Lcom/commsource/camera/xcamera/cover/CoverContainer;
 
     move-result-object p3
 
     sub-int/2addr p9, p7
 
-    .line 2
     invoke-virtual {p3}, Landroid/view/View;->getHeight()I
 
     move-result p5
@@ -432,7 +398,6 @@
 
     if-eq p8, p5, :cond_3
 
-    .line 3
     :cond_0
     invoke-virtual {p3}, Landroid/view/View;->getHeight()I
 
@@ -440,7 +405,6 @@
 
     invoke-static {p5}, Lcom/meitu/library/p/f/i;->e0(I)V
 
-    .line 4
     iget-object p5, p0, Lcom/commsource/camera/xcamera/idcard/IDCardCameraActivity;->X:Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     if-nez p5, :cond_1
@@ -456,7 +420,6 @@
 
     invoke-virtual {p5, p6}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->H(I)V
 
-    .line 5
     iget-object p5, p0, Lcom/commsource/camera/xcamera/idcard/IDCardCameraActivity;->Y:Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     if-nez p5, :cond_2
@@ -474,7 +437,6 @@
 
     invoke-virtual {p5, p4, p2}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->T(II)V
 
-    .line 6
     :cond_3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

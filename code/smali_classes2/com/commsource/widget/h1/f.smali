@@ -56,7 +56,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     return-void
@@ -69,7 +68,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-static {p1, p2, p3}, Lcom/commsource/widget/h1/f;->g(Landroid/content/Context;Landroid/view/ViewGroup;I)Landroid/view/View;
 
     move-result-object p3
@@ -87,23 +85,18 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0, p3}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
-    .line 5
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 7
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
@@ -118,7 +111,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object p0
@@ -141,7 +133,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
@@ -150,7 +141,6 @@
 .method public b()Lcom/commsource/widget/h1/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/h1/f;->f:Lcom/commsource/widget/h1/e;
 
     return-object v0
@@ -166,7 +156,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/h1/f;->c:Lcom/commsource/widget/h1/d;
 
     return-object v0
@@ -175,17 +164,14 @@
 .method public e()Landroid/graphics/Point;
     .locals 3
 
-    .line 1
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
-    .line 2
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-virtual {v1, v0}, Landroid/view/View;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
 
-    .line 3
     new-instance v1, Landroid/graphics/Point;
 
     iget v2, v0, Landroid/graphics/Rect;->left:I
@@ -200,12 +186,10 @@
 .method public f()Landroid/graphics/Rect;
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
-    .line 2
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-virtual {v1, v0}, Landroid/view/View;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
@@ -232,7 +216,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p2, p0, Lcom/commsource/widget/h1/f;->c:Lcom/commsource/widget/h1/d;
 
     return-void
@@ -268,14 +251,12 @@
 .method public onClick(Landroid/view/View;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     if-eqz v0, :cond_0
 
     if-ne p1, v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
 
     move-result p1
@@ -292,7 +273,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
 
     move-result v0
@@ -303,7 +283,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
@@ -321,7 +300,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
     move-result-object v0
@@ -348,15 +326,12 @@
 
     const/4 p1, 0x1
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/h1/f;->g:Z
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/widget/h1/f;->b:Lcom/commsource/widget/h1/f$b;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
 
     move-result v1
@@ -372,7 +347,6 @@
 .method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 2
 
-    .line 1
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     move-result p1
@@ -391,18 +365,15 @@
 
     if-ne p1, p2, :cond_2
 
-    .line 2
     :cond_0
     iget-boolean p1, p0, Lcom/commsource/widget/h1/f;->g:Z
 
     if-eqz p1, :cond_2
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/h1/f;->b:Lcom/commsource/widget/h1/f$b;
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
 
     move-result p2
@@ -411,7 +382,6 @@
 
     invoke-interface {p1, v0, p2, v1}, Lcom/commsource/widget/h1/f$b;->a(ZILcom/commsource/widget/h1/d;)V
 
-    .line 5
     :cond_1
     iput-boolean v0, p0, Lcom/commsource/widget/h1/f;->g:Z
 
@@ -422,7 +392,6 @@
 .method public p(Lcom/commsource/widget/h1/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/h1/f;->f:Lcom/commsource/widget/h1/e;
 
     return-void
@@ -431,7 +400,6 @@
 .method public q(Lcom/commsource/widget/h1/f$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/h1/f;->a:Lcom/commsource/widget/h1/f$a;
 
     return-void
@@ -440,7 +408,6 @@
 .method public r(Lcom/commsource/widget/h1/f$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/h1/f;->b:Lcom/commsource/widget/h1/f$b;
 
     return-void

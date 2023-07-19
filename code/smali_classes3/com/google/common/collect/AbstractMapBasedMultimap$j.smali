@@ -43,10 +43,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$j;->c:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/AbstractMapBasedMultimap$e;-><init>(Lcom/google/common/collect/AbstractMapBasedMultimap;Ljava/util/Map;)V
 
     return-void
@@ -66,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/Maps$z;->b()Ljava/util/Map;
 
     move-result-object v0
@@ -86,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$j;->c()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -106,7 +102,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$j;->c()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -128,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/AbstractMapBasedMultimap$j;
 
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$j;->c:Lcom/google/common/collect/AbstractMapBasedMultimap;
@@ -154,7 +148,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$j;->c()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -176,7 +169,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/AbstractMapBasedMultimap$j;
 
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$j;->c:Lcom/google/common/collect/AbstractMapBasedMultimap;
@@ -204,7 +196,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/AbstractMapBasedMultimap$j;
 
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$j;->c:Lcom/google/common/collect/AbstractMapBasedMultimap;

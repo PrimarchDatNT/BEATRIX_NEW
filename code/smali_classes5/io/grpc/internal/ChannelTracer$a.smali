@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/grpc/InternalChannelz$ChannelTrace$Event$Severity;->values()[Lio/grpc/InternalChannelz$ChannelTrace$Event$Severity;
 
     move-result-object v0

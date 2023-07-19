@@ -29,21 +29,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     sput-object v1, Lf/k/i0/b/a;->d:Ljava/lang/Object;
 
-    .line 2
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     sput-object v1, Lf/k/i0/b/a;->e:Ljava/lang/Object;
 
-    .line 3
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
@@ -58,10 +55,8 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object p1, Lcom/meitu/room/database/DBHelper;->c:Lcom/meitu/room/database/DBHelper;
 
     invoke-virtual {p1}, Lcom/meitu/room/database/DBHelper;->c()Lcom/meitu/room/database/MTBeautyplusDatabase;
@@ -74,7 +69,6 @@
 
     iput-object v0, p0, Lf/k/i0/b/a;->b:Lf/k/i0/a/b;
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/room/database/DBHelper;->c()Lcom/meitu/room/database/MTBeautyplusDatabase;
 
     move-result-object v0
@@ -85,7 +79,6 @@
 
     iput-object v0, p0, Lf/k/i0/b/a;->a:Lf/k/i0/a/d;
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/room/database/DBHelper;->c()Lcom/meitu/room/database/MTBeautyplusDatabase;
 
     move-result-object p1
@@ -106,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/i0/b/a;->d:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -121,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/i0/b/a;->a:Lf/k/i0/a/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -136,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/i0/b/a;->b:Lf/k/i0/a/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -151,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/i0/b/a;->e:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -166,30 +155,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/i0/b/a;->g:Lf/k/i0/b/a;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lf/k/i0/b/a;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lf/k/i0/b/a;->g:Lf/k/i0/b/a;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lf/k/i0/b/a;
 
     invoke-direct {v2, p0}, Lf/k/i0/b/a;-><init>(Landroid/content/Context;)V
 
     sput-object v2, Lf/k/i0/b/a;->g:Lf/k/i0/b/a;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -206,7 +190,6 @@
 
     throw p0
 
-    .line 6
     :cond_1
     :goto_0
     sget-object p0, Lf/k/i0/b/a;->g:Lf/k/i0/b/a;
@@ -225,12 +208,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/i0/b/a;->e:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lf/k/i0/b/a;->b:Lf/k/i0/a/b;
 
@@ -240,7 +221,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -258,25 +238,21 @@
 
     check-cast v3, Lcom/meitu/template/bean/ArMaterial;
 
-    .line 4
     iget-object v4, p0, Lf/k/i0/b/a;->b:Lf/k/i0/a/b;
 
     invoke-interface {v4, v3}, Lf/k/i0/a/b;->U2(Lcom/meitu/template/bean/ArMaterial;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 6
     sget-object v2, Lf/k/i0/b/a;->d:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 7
     :try_start_1
     iget-object v1, p0, Lf/k/i0/b/a;->a:Lf/k/i0/a/d;
 
@@ -286,7 +262,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -304,20 +279,17 @@
 
     check-cast v3, Lcom/meitu/template/bean/ArMaterialGroup;
 
-    .line 9
     iget-object v4, p0, Lf/k/i0/b/a;->a:Lf/k/i0/a/d;
 
     invoke-interface {v4, v3}, Lf/k/i0/a/d;->L2(Lcom/meitu/template/bean/ArMaterialGroup;)V
 
     goto :goto_1
 
-    .line 10
     :cond_1
     monitor-exit v2
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -325,7 +297,6 @@
     :catchall_0
     move-exception v1
 
-    .line 12
     :try_start_2
     monitor-exit v2
     :try_end_2
@@ -338,7 +309,6 @@
     :catchall_1
     move-exception v2
 
-    .line 13
     :try_start_3
     monitor-exit v1
     :try_end_3
@@ -358,7 +328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/i0/b/a$b;
 
     const-string v2, "deleteArMaterialSync"
@@ -367,7 +336,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -390,7 +358,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Set;->isEmpty()Z
 
     move-result v1
@@ -399,7 +366,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v1, Lf/k/i0/b/a$a;
 
@@ -409,12 +375,10 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -442,12 +406,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     sget-object v1, Lf/k/i0/b/a;->d:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -466,14 +428,12 @@
 
     check-cast v2, Lcom/meitu/template/bean/ArMaterialGroup;
 
-    .line 3
     iget-object v3, p0, Lf/k/i0/b/a;->a:Lf/k/i0/a/d;
 
     invoke-interface {v3, v2}, Lf/k/i0/a/d;->L2(Lcom/meitu/template/bean/ArMaterialGroup;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     monitor-exit v1
 
@@ -490,7 +450,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -518,7 +477,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -536,14 +494,12 @@
 
     check-cast v1, Lcom/meitu/template/bean/ArMaterialPaidInfo;
 
-    .line 2
     iget-object v2, p0, Lf/k/i0/b/a;->c:Lf/k/i0/a/f;
 
     invoke-interface {v2, v1}, Lf/k/i0/a/f;->X(Lcom/meitu/template/bean/ArMaterialPaidInfo;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -568,12 +524,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/i0/b/a;->e:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -592,20 +546,17 @@
 
     check-cast v2, Lcom/meitu/template/bean/ArMaterial;
 
-    .line 3
     iget-object v3, p0, Lf/k/i0/b/a;->b:Lf/k/i0/a/b;
 
     invoke-interface {v3, v2}, Lf/k/i0/a/b;->U2(Lcom/meitu/template/bean/ArMaterial;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -613,7 +564,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -636,7 +586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lf/k/i0/b/a;->b:Lf/k/i0/a/b;
 
@@ -657,12 +606,10 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -686,7 +633,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lf/k/i0/b/a;->a:Lf/k/i0/a/d;
 
@@ -703,10 +649,8 @@
     :catch_0
     move-exception v1
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -736,7 +680,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     iget-object v2, p0, Lf/k/i0/b/a;->c:Lf/k/i0/a/f;
 
@@ -751,7 +694,6 @@
     :catch_0
     move-exception v2
 
-    .line 2
     invoke-static {v2}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     move-object v2, v1
@@ -759,19 +701,16 @@
     :goto_0
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-interface {v2}, Ljava/util/List;->isEmpty()Z
 
     move-result v3
 
     if-nez v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -796,7 +735,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lf/k/i0/b/a;->b:Lf/k/i0/a/b;
 
@@ -813,10 +751,8 @@
     :catch_0
     move-exception v1
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -844,12 +780,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/i0/b/a;->d:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lf/k/i0/b/a;->a:Lf/k/i0/a/d;
 
@@ -878,22 +812,18 @@
     :catch_0
     move-exception p1
 
-    .line 3
     :try_start_1
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :goto_1
     :try_start_2
     monitor-exit v1
@@ -923,12 +853,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/i0/b/a;->f:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lf/k/i0/b/a;->c:Lf/k/i0/a/f;
 
@@ -944,12 +872,10 @@
 
     invoke-interface {v2, p1}, Lf/k/i0/a/f;->Z0([Lcom/meitu/template/bean/ArMaterialPaidInfo;)V
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -957,7 +883,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -986,12 +911,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/i0/b/a;->e:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lf/k/i0/b/a;->b:Lf/k/i0/a/b;
 
@@ -1020,22 +943,18 @@
     :catch_0
     move-exception p1
 
-    .line 3
     :try_start_1
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :goto_1
     :try_start_2
     monitor-exit v1

@@ -64,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$i;->a:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;->x()Lcom/commsource/repository/child/makeup/e;
@@ -73,7 +72,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     sget-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/e;->e()I
@@ -86,7 +84,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/e;->e()I
 
     move-result v1
@@ -99,7 +96,6 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$i;->a:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;->z()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/d;
@@ -114,7 +110,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$i;->a:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;->B()Lcom/commsource/beautyplus/f0/sb;
@@ -129,7 +124,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$i;->a:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
 
@@ -139,7 +133,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$i;->a:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;->B()Lcom/commsource/beautyplus/f0/sb;
@@ -160,7 +153,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -175,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/util/SparseArray;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$i;->a(Landroid/util/SparseArray;)V

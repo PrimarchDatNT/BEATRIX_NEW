@@ -114,7 +114,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object v1, v0, Lkshark/internal/HprofInMemoryIndex$a;->m:Ljava/util/Set;
@@ -132,11 +131,9 @@
     :cond_0
     const/4 v10, 0x4
 
-    .line 2
     :goto_0
     iput v10, v0, Lkshark/internal/HprofInMemoryIndex$a;->b:I
 
-    .line 3
     sget-object v2, Lkshark/internal/HprofInMemoryIndex;->l:Lkshark/internal/HprofInMemoryIndex$b;
 
     move-wide v3, p2
@@ -147,21 +144,18 @@
 
     iput v11, v0, Lkshark/internal/HprofInMemoryIndex$a;->c:I
 
-    .line 4
     new-instance v2, Lkshark/internal/hppc/LongObjectScatterMap;
 
     invoke-direct {v2}, Lkshark/internal/hppc/LongObjectScatterMap;-><init>()V
 
     iput-object v2, v0, Lkshark/internal/HprofInMemoryIndex$a;->d:Lkshark/internal/hppc/LongObjectScatterMap;
 
-    .line 5
     new-instance v2, Lkshark/internal/hppc/LongLongScatterMap;
 
     invoke-direct {v2}, Lkshark/internal/hppc/LongLongScatterMap;-><init>()V
 
     iput-object v2, v0, Lkshark/internal/HprofInMemoryIndex$a;->e:Lkshark/internal/hppc/LongLongScatterMap;
 
-    .line 6
     new-instance v12, Lkshark/internal/h;
 
     add-int v2, v11, v10
@@ -184,7 +178,6 @@
 
     iput-object v12, v0, Lkshark/internal/HprofInMemoryIndex$a;->f:Lkshark/internal/h;
 
-    .line 7
     new-instance v12, Lkshark/internal/h;
 
     add-int v3, v11, v10
@@ -197,7 +190,6 @@
 
     iput-object v12, v0, Lkshark/internal/HprofInMemoryIndex$a;->g:Lkshark/internal/h;
 
-    .line 8
     new-instance v12, Lkshark/internal/h;
 
     add-int/2addr v10, v11
@@ -212,7 +204,6 @@
 
     iput-object v12, v0, Lkshark/internal/HprofInMemoryIndex$a;->h:Lkshark/internal/h;
 
-    .line 9
     new-instance v10, Lkshark/internal/h;
 
     add-int/lit8 v11, v11, 0x1
@@ -227,21 +218,18 @@
 
     iput-object v10, v0, Lkshark/internal/HprofInMemoryIndex$a;->i:Lkshark/internal/h;
 
-    .line 10
     new-instance v1, Ljava/util/LinkedHashSet;
 
     invoke-direct {v1}, Ljava/util/LinkedHashSet;-><init>()V
 
     iput-object v1, v0, Lkshark/internal/HprofInMemoryIndex$a;->j:Ljava/util/Set;
 
-    .line 11
     new-instance v1, Ljava/util/LinkedHashSet;
 
     invoke-direct {v1}, Ljava/util/LinkedHashSet;-><init>()V
 
     iput-object v1, v0, Lkshark/internal/HprofInMemoryIndex$a;->k:Ljava/util/Set;
 
-    .line 12
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -264,12 +252,10 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p3, Lkshark/m$f;
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {}, Lkshark/internal/HprofInMemoryIndex;->a()Ljava/util/Set;
 
     move-result-object p1
@@ -286,7 +272,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$a;->k:Ljava/util/Set;
 
     invoke-virtual {p3}, Lkshark/m$f;->a()J
@@ -299,7 +284,6 @@
 
     invoke-interface {p1, p2}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$a;->d:Lkshark/internal/hppc/LongObjectScatterMap;
 
@@ -329,13 +313,11 @@
 
     goto/16 :goto_0
 
-    .line 5
     :cond_1
     instance-of v0, p3, Lkshark/m$c;
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$a;->e:Lkshark/internal/hppc/LongLongScatterMap;
 
     check-cast p3, Lkshark/m$c;
@@ -350,7 +332,6 @@
 
     invoke-virtual {p1, v0, v1, v2, v3}, Lkshark/internal/hppc/LongLongScatterMap;->v(JJ)J
 
-    .line 7
     iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$a;->k:Ljava/util/Set;
 
     invoke-virtual {p3}, Lkshark/m$c;->a()J
@@ -367,7 +348,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 8
     iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$a;->j:Ljava/util/Set;
 
     invoke-virtual {p3}, Lkshark/m$c;->c()J
@@ -382,20 +362,17 @@
 
     goto/16 :goto_0
 
-    .line 9
     :cond_2
     instance-of v0, p3, Lkshark/m$b$a;
 
     if-eqz v0, :cond_3
 
-    .line 10
     check-cast p3, Lkshark/m$b$a;
 
     invoke-virtual {p3}, Lkshark/m$b$a;->a()Lkshark/d;
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p1}, Lkshark/d;->a()J
 
     move-result-wide p2
@@ -422,20 +399,17 @@
 
     if-eqz p2, :cond_7
 
-    .line 12
     iget-object p2, p0, Lkshark/internal/HprofInMemoryIndex$a;->l:Ljava/util/List;
 
     invoke-interface {p2, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_0
 
-    .line 13
     :cond_3
     instance-of v0, p3, Lkshark/m$b$c$b;
 
     if-eqz v0, :cond_4
 
-    .line 14
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex$a;->f:Lkshark/internal/h;
 
     check-cast p3, Lkshark/m$b$c$b;
@@ -448,19 +422,16 @@
 
     move-result-object v0
 
-    .line 15
     iget v1, p0, Lkshark/internal/HprofInMemoryIndex$a;->c:I
 
     invoke-virtual {v0, p1, p2, v1}, Lkshark/internal/h$a;->e(JI)V
 
-    .line 16
     invoke-virtual {p3}, Lkshark/m$b$c$b;->i()J
 
     move-result-wide p1
 
     invoke-virtual {v0, p1, p2}, Lkshark/internal/h$a;->b(J)V
 
-    .line 17
     invoke-virtual {p3}, Lkshark/m$b$c$b;->d()I
 
     move-result p1
@@ -469,13 +440,11 @@
 
     goto :goto_0
 
-    .line 18
     :cond_4
     instance-of v0, p3, Lkshark/m$b$c$d;
 
     if-eqz v0, :cond_5
 
-    .line 19
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex$a;->g:Lkshark/internal/h;
 
     check-cast p3, Lkshark/m$b$c$d;
@@ -488,12 +457,10 @@
 
     move-result-object v0
 
-    .line 20
     iget v1, p0, Lkshark/internal/HprofInMemoryIndex$a;->c:I
 
     invoke-virtual {v0, p1, p2, v1}, Lkshark/internal/h$a;->e(JI)V
 
-    .line 21
     invoke-virtual {p3}, Lkshark/m$b$c$d;->a()J
 
     move-result-wide p1
@@ -502,13 +469,11 @@
 
     goto :goto_0
 
-    .line 22
     :cond_5
     instance-of v0, p3, Lkshark/m$b$c$f;
 
     if-eqz v0, :cond_6
 
-    .line 23
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex$a;->h:Lkshark/internal/h;
 
     check-cast p3, Lkshark/m$b$c$f;
@@ -521,19 +486,16 @@
 
     move-result-object v0
 
-    .line 24
     iget v1, p0, Lkshark/internal/HprofInMemoryIndex$a;->c:I
 
     invoke-virtual {v0, p1, p2, v1}, Lkshark/internal/h$a;->e(JI)V
 
-    .line 25
     invoke-virtual {p3}, Lkshark/m$b$c$f;->a()J
 
     move-result-wide p1
 
     invoke-virtual {v0, p1, p2}, Lkshark/internal/h$a;->b(J)V
 
-    .line 26
     invoke-virtual {p3}, Lkshark/m$b$c$f;->c()I
 
     move-result p1
@@ -542,13 +504,11 @@
 
     goto :goto_0
 
-    .line 27
     :cond_6
     instance-of v0, p3, Lkshark/m$b$c$h;
 
     if-eqz v0, :cond_7
 
-    .line 28
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex$a;->i:Lkshark/internal/h;
 
     check-cast p3, Lkshark/m$b$c$h;
@@ -561,12 +521,10 @@
 
     move-result-object v0
 
-    .line 29
     iget v1, p0, Lkshark/internal/HprofInMemoryIndex$a;->c:I
 
     invoke-virtual {v0, p1, p2, v1}, Lkshark/internal/h$a;->e(JI)V
 
-    .line 30
     invoke-virtual {p3}, Lkshark/m$b$c$h;->d()Lkshark/PrimitiveType;
 
     move-result-object p1
@@ -579,7 +537,6 @@
 
     invoke-virtual {v0, p1}, Lkshark/internal/h$a;->a(B)V
 
-    .line 31
     invoke-virtual {p3}, Lkshark/m$b$c$h;->b()I
 
     move-result p1
@@ -600,49 +557,40 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex$a;->g:Lkshark/internal/h;
 
     invoke-virtual {v0}, Lkshark/internal/h;->o()Lkshark/internal/SortedBytesMap;
 
     move-result-object v6
 
-    .line 2
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex$a;->h:Lkshark/internal/h;
 
     invoke-virtual {v0}, Lkshark/internal/h;->o()Lkshark/internal/SortedBytesMap;
 
     move-result-object v7
 
-    .line 3
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex$a;->i:Lkshark/internal/h;
 
     invoke-virtual {v0}, Lkshark/internal/h;->o()Lkshark/internal/SortedBytesMap;
 
     move-result-object v8
 
-    .line 4
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex$a;->f:Lkshark/internal/h;
 
     invoke-virtual {v0}, Lkshark/internal/h;->o()Lkshark/internal/SortedBytesMap;
 
     move-result-object v5
 
-    .line 5
     new-instance v0, Lkshark/internal/HprofInMemoryIndex;
 
-    .line 6
     iget v2, p0, Lkshark/internal/HprofInMemoryIndex$a;->c:I
 
-    .line 7
     iget-object v3, p0, Lkshark/internal/HprofInMemoryIndex$a;->d:Lkshark/internal/hppc/LongObjectScatterMap;
 
     iget-object v4, p0, Lkshark/internal/HprofInMemoryIndex$a;->e:Lkshark/internal/hppc/LongLongScatterMap;
 
-    .line 8
     iget-object v9, p0, Lkshark/internal/HprofInMemoryIndex$a;->l:Ljava/util/List;
 
-    .line 9
     iget-object v11, p0, Lkshark/internal/HprofInMemoryIndex$a;->j:Ljava/util/Set;
 
     const/4 v12, 0x0
@@ -651,7 +599,6 @@
 
     move-object v10, p1
 
-    .line 10
     invoke-direct/range {v1 .. v12}, Lkshark/internal/HprofInMemoryIndex;-><init>(ILkshark/internal/hppc/LongObjectScatterMap;Lkshark/internal/hppc/LongLongScatterMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Ljava/util/List;Lkshark/x;Ljava/util/Set;Lcotlin/jvm/internal/u;)V
 
     return-object v0

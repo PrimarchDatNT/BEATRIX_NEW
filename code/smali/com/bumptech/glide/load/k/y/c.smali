@@ -53,7 +53,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     const-string v1, "http"
@@ -64,7 +63,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
@@ -92,10 +90,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/k/y/c;->a:Lcom/bumptech/glide/load/k/n;
 
     return-void
@@ -110,7 +106,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/k/y/c;->d(Landroid/net/Uri;)Z
@@ -131,7 +126,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/k/y/c;->c(Landroid/net/Uri;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/k/n$a;
@@ -164,7 +158,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/k/y/c;->a:Lcom/bumptech/glide/load/k/n;
 
     new-instance v1, Lcom/bumptech/glide/load/k/g;
@@ -189,7 +182,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/k/y/c;->b:Ljava/util/Set;
 
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;

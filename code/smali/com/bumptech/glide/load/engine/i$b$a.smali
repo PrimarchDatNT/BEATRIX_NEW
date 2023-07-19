@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/bumptech/glide/load/engine/i$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/i$b$a;->a:Lcom/bumptech/glide/load/engine/i$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v8, Lcom/bumptech/glide/load/engine/j;
 
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/i$b$a;->a:Lcom/bumptech/glide/load/engine/i$b;
@@ -83,7 +81,6 @@
 .method public bridge synthetic create()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/load/engine/i$b$a;->a()Lcom/bumptech/glide/load/engine/j;
 
     move-result-object v0

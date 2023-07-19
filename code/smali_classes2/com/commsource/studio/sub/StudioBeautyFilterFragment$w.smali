@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$w;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-direct {p0}, Lcom/commsource/studio/bean/c;-><init>()V
@@ -49,10 +48,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/bean/c;->c(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$w;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/i0/a;->c()Z
@@ -61,12 +58,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     instance-of p1, p1, Lcom/commsource/studio/bean/FilterLayerInfo;
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$w;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     const/4 v1, 0x1
@@ -75,7 +70,6 @@
 
     invoke-static {p1, v2, v1, v2}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->r0(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;Lcom/commsource/studio/bean/BaseLayerInfo;ILjava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$w;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->Z(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -84,7 +78,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->N()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

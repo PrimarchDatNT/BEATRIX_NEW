@@ -80,19 +80,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/r;->a:Lj/a/c;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/r;->b:Lj/a/c;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/r;->c:Lj/a/c;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/r;->d:Lj/a/c;
 
     return-void
@@ -119,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/r;
 
     invoke-direct {v0, p0, p1, p2, p3}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/r;-><init>(Lj/a/c;Lj/a/c;Lj/a/c;Lj/a/c;)V
@@ -130,7 +124,6 @@
 .method public static c(Ljava/util/concurrent/Executor;Lcom/google/android/datatransport/k/x/j/c;Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/s;Lcom/google/android/datatransport/runtime/synchronization/a;)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;
 
     invoke-direct {v0, p0, p1, p2, p3}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;-><init>(Ljava/util/concurrent/Executor;Lcom/google/android/datatransport/k/x/j/c;Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/s;Lcom/google/android/datatransport/runtime/synchronization/a;)V
@@ -143,7 +136,6 @@
 .method public b()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;
 
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/r;->a:Lj/a/c;
@@ -186,7 +178,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/r;->b()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;
 
     move-result-object v0

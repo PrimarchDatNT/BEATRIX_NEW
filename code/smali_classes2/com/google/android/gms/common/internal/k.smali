@@ -48,12 +48,10 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/m;->c(Landroid/content/Context;)Lcom/google/android/gms/common/internal/m;
 
     move-result-object v3
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/common/d;->v()Lcom/google/android/gms/common/d;
 
     move-result-object v4
@@ -72,7 +70,6 @@
 
     move-object v6, p4
 
-    .line 3
     invoke-direct/range {v0 .. v8}, Lcom/google/android/gms/common/internal/k;-><init>(Landroid/content/Context;Landroid/os/Handler;Lcom/google/android/gms/common/internal/m;Lcom/google/android/gms/common/d;ILcom/google/android/gms/common/internal/f;Lcom/google/android/gms/common/api/i$b;Lcom/google/android/gms/common/api/i$c;)V
 
     return-void
@@ -85,12 +82,10 @@
 
     move-object v8, p0
 
-    .line 19
     invoke-static/range {p7 .. p7}, Lcom/google/android/gms/common/internal/k;->n0(Lcom/google/android/gms/common/api/i$b;)Lcom/google/android/gms/common/internal/e$a;
 
     move-result-object v6
 
-    .line 20
     invoke-static/range {p8 .. p8}, Lcom/google/android/gms/common/internal/k;->o0(Lcom/google/android/gms/common/api/i$c;)Lcom/google/android/gms/common/internal/e$b;
 
     move-result-object v7
@@ -107,10 +102,8 @@
 
     move v5, p5
 
-    .line 21
     invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/common/internal/e;-><init>(Landroid/content/Context;Landroid/os/Handler;Lcom/google/android/gms/common/internal/m;Lcom/google/android/gms/common/e;ILcom/google/android/gms/common/internal/e$a;Lcom/google/android/gms/common/internal/e$b;)V
 
-    .line 22
     invoke-static {p6}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -119,14 +112,12 @@
 
     iput-object v0, v8, Lcom/google/android/gms/common/internal/k;->I:Lcom/google/android/gms/common/internal/f;
 
-    .line 23
     invoke-virtual {p6}, Lcom/google/android/gms/common/internal/f;->b()Landroid/accounts/Account;
 
     move-result-object v0
 
     iput-object v0, v8, Lcom/google/android/gms/common/internal/k;->K:Landroid/accounts/Account;
 
-    .line 24
     invoke-virtual {p6}, Lcom/google/android/gms/common/internal/f;->e()Ljava/util/Set;
 
     move-result-object v0
@@ -145,12 +136,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 9
     invoke-static {p1}, Lcom/google/android/gms/common/internal/m;->c(Landroid/content/Context;)Lcom/google/android/gms/common/internal/m;
 
     move-result-object v3
 
-    .line 10
     invoke-static {}, Lcom/google/android/gms/common/d;->v()Lcom/google/android/gms/common/d;
 
     move-result-object v4
@@ -169,7 +158,6 @@
 
     move-object v6, p4
 
-    .line 11
     invoke-direct/range {v0 .. v8}, Lcom/google/android/gms/common/internal/k;-><init>(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/m;Lcom/google/android/gms/common/d;ILcom/google/android/gms/common/internal/f;Lcom/google/android/gms/common/api/i$b;Lcom/google/android/gms/common/api/i$c;)V
 
     return-void
@@ -180,17 +168,14 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/common/internal/m;->c(Landroid/content/Context;)Lcom/google/android/gms/common/internal/m;
 
     move-result-object v3
 
-    .line 5
     invoke-static {}, Lcom/google/android/gms/common/d;->v()Lcom/google/android/gms/common/d;
 
     move-result-object v4
 
-    .line 6
     invoke-static {p5}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p5
@@ -199,7 +184,6 @@
 
     check-cast v7, Lcom/google/android/gms/common/api/i$b;
 
-    .line 7
     invoke-static {p6}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p5
@@ -218,7 +202,6 @@
 
     move-object v6, p4
 
-    .line 8
     invoke-direct/range {v0 .. v8}, Lcom/google/android/gms/common/internal/k;-><init>(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/m;Lcom/google/android/gms/common/d;ILcom/google/android/gms/common/internal/f;Lcom/google/android/gms/common/api/i$b;Lcom/google/android/gms/common/api/i$c;)V
 
     return-void
@@ -231,17 +214,14 @@
 
     move-object v9, p0
 
-    .line 12
     invoke-static/range {p7 .. p7}, Lcom/google/android/gms/common/internal/k;->n0(Lcom/google/android/gms/common/api/i$b;)Lcom/google/android/gms/common/internal/e$a;
 
     move-result-object v6
 
-    .line 13
     invoke-static/range {p8 .. p8}, Lcom/google/android/gms/common/internal/k;->o0(Lcom/google/android/gms/common/api/i$c;)Lcom/google/android/gms/common/internal/e$b;
 
     move-result-object v7
 
-    .line 14
     invoke-virtual/range {p6 .. p6}, Lcom/google/android/gms/common/internal/f;->j()Ljava/lang/String;
 
     move-result-object v8
@@ -258,22 +238,18 @@
 
     move v5, p5
 
-    .line 15
     invoke-direct/range {v0 .. v8}, Lcom/google/android/gms/common/internal/e;-><init>(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/m;Lcom/google/android/gms/common/e;ILcom/google/android/gms/common/internal/e$a;Lcom/google/android/gms/common/internal/e$b;Ljava/lang/String;)V
 
     move-object/from16 v0, p6
 
-    .line 16
     iput-object v0, v9, Lcom/google/android/gms/common/internal/k;->I:Lcom/google/android/gms/common/internal/f;
 
-    .line 17
     invoke-virtual/range {p6 .. p6}, Lcom/google/android/gms/common/internal/f;->b()Landroid/accounts/Account;
 
     move-result-object v1
 
     iput-object v1, v9, Lcom/google/android/gms/common/internal/k;->K:Landroid/accounts/Account;
 
-    .line 18
     invoke-virtual/range {p6 .. p6}, Lcom/google/android/gms/common/internal/f;->e()Ljava/util/Set;
 
     move-result-object v0
@@ -298,7 +274,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance v0, Lcom/google/android/gms/common/internal/q0;
 
@@ -318,7 +293,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance v0, Lcom/google/android/gms/common/internal/r0;
 
@@ -345,12 +319,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/android/gms/common/internal/k;->m0(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -368,7 +340,6 @@
 
     check-cast v2, Lcom/google/android/gms/common/api/Scope;
 
-    .line 3
     invoke-interface {p1, v2}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
     move-result v2
@@ -377,7 +348,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -396,7 +366,6 @@
 .method public final A()Landroid/accounts/Account;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/k;->K:Landroid/accounts/Account;
 
     return-object v0
@@ -413,7 +382,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/k;->J:Ljava/util/Set;
 
     return-object v0
@@ -436,7 +404,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/k;->I:Lcom/google/android/gms/common/internal/f;
 
     return-object v0
@@ -472,7 +439,6 @@
 .method public t()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/common/internal/e;->t()I
 
     move-result v0

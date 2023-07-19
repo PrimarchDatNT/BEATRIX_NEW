@@ -102,83 +102,58 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/high16 v0, -0x40800000    # -1.0f
 
-    .line 2
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupWholeValue:F
 
-    .line 3
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupMouthValue:F
 
-    .line 4
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupCheekValue:F
 
-    .line 5
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupHighLightValue:F
 
-    .line 6
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupHairValue:F
 
-    .line 7
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeBrowValue:F
 
-    .line 8
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeWholeValue:F
 
-    .line 9
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeLashValue:F
 
-    .line 10
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeShadowValue:F
 
-    .line 11
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeLineValue:F
 
-    .line 12
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyePupilValue:F
 
-    .line 13
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupWoCanValue:F
 
-    .line 14
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftWholeValue:F
 
-    .line 15
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftMouthValue:F
 
-    .line 16
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftSlimValue:F
 
-    .line 17
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftEyeValue:F
 
-    .line 18
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftNoseLongerValue:F
 
-    .line 19
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftChinValue:F
 
-    .line 20
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftNoseValue:F
 
-    .line 21
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftHeadScaleValue:F
 
-    .line 22
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftHeadScaleMaxValue:F
 
-    .line 23
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->filterAlphaValue:F
 
     const/4 v0, 0x0
 
-    .line 24
     iput v0, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->softHairBlurAlpha:F
 
-    .line 25
     new-instance v0, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     invoke-direct {v0}, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;-><init>()V
@@ -197,7 +172,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -216,7 +190,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/i0;->h()Z
 
     move-result v3
@@ -240,18 +213,15 @@
     :goto_0
     const/4 v3, 0x1
 
-    .line 3
     :goto_1
     new-instance v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     invoke-direct {v6}, Lcom/commsource/camera/lookwheel/StyleEffectDegree;-><init>()V
 
-    .line 4
     new-instance v7, Lcom/meitu/core/parse/MtePlistParser;
 
     invoke-direct {v7}, Lcom/meitu/core/parse/MtePlistParser;-><init>()V
 
-    .line 5
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -267,7 +237,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 6
     invoke-virtual {v2}, Lcom/meitu/core/parse/MteDict;->size()I
 
     move-result v7
@@ -283,7 +252,6 @@
     :goto_3
     if-ge v8, v7, :cond_18
 
-    .line 7
     invoke-virtual {v2, v8}, Lcom/meitu/core/parse/MteDict;->objectForIndex(I)Ljava/lang/Object;
 
     move-result-object v9
@@ -294,14 +262,12 @@
 
     const-string v10, "Makeup"
 
-    .line 8
     invoke-virtual {v9, v10}, Lcom/meitu/core/parse/MteDict;->dictForKey(Ljava/lang/String;)Lcom/meitu/core/parse/MteDict;
 
     move-result-object v10
 
     if-eqz v10, :cond_3
 
-    .line 9
     invoke-virtual {v10}, Lcom/meitu/core/parse/MteDict;->size()I
 
     move-result v11
@@ -349,25 +315,21 @@
 
     if-ge v12, v11, :cond_9
 
-    .line 10
     :try_start_1
     invoke-virtual {v10, v12}, Lcom/meitu/core/parse/MteDict;->keyForIndex(I)Ljava/lang/String;
 
     move-result-object v15
 
-    .line 11
     invoke-virtual {v10, v12}, Lcom/meitu/core/parse/MteDict;->floatValueForIndex(I)F
 
     move-result v1
 
     move-object/from16 v27, v2
 
-    .line 12
     invoke-virtual {v10, v12}, Lcom/meitu/core/parse/MteDict;->stringValueForIndex(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 13
     invoke-virtual {v15}, Ljava/lang/String;->hashCode()I
 
     move-result v28
@@ -665,67 +627,55 @@
 
     goto/16 :goto_8
 
-    .line 14
     :pswitch_0
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupWoCanValue:F
 
     goto/16 :goto_8
 
-    .line 15
     :pswitch_1
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupHighLightValue:F
 
     goto/16 :goto_8
 
-    .line 16
     :pswitch_2
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyePupilValue:F
 
     goto/16 :goto_8
 
-    .line 17
     :pswitch_3
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeLineValue:F
 
     goto/16 :goto_8
 
-    .line 18
     :pswitch_4
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeShadowValue:F
 
-    .line 19
     iget v2, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeLineValue:F
 
     cmpl-float v2, v2, v4
 
     if-nez v2, :cond_8
 
-    .line 20
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeLineValue:F
 
     goto/16 :goto_8
 
-    .line 21
     :pswitch_5
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeLashValue:F
 
     goto/16 :goto_8
 
-    .line 22
     :pswitch_6
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeWholeValue:F
 
-    .line 23
     iget v2, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeLashValue:F
 
     cmpl-float v2, v2, v4
 
     if-nez v2, :cond_5
 
-    .line 24
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeLashValue:F
 
-    .line 25
     :cond_5
     iget v2, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeShadowValue:F
 
@@ -733,10 +683,8 @@
 
     if-nez v2, :cond_6
 
-    .line 26
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeShadowValue:F
 
-    .line 27
     :cond_6
     iget v2, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyePupilValue:F
 
@@ -744,10 +692,8 @@
 
     if-nez v2, :cond_7
 
-    .line 28
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyePupilValue:F
 
-    .line 29
     :cond_7
     iget v2, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeLineValue:F
 
@@ -755,42 +701,35 @@
 
     if-nez v2, :cond_8
 
-    .line 30
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeLineValue:F
 
     goto/16 :goto_8
 
-    .line 31
     :pswitch_7
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeBrowValue:F
 
     goto/16 :goto_8
 
-    .line 32
     :pswitch_8
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupHairValue:F
 
     goto/16 :goto_8
 
-    .line 33
     :pswitch_9
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupCheekValue:F
 
     goto/16 :goto_8
 
-    .line 34
     :pswitch_a
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupMouthValue:F
 
     goto/16 :goto_8
 
-    .line 35
     :pswitch_b
     iput v1, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupWholeValue:F
 
     goto/16 :goto_8
 
-    .line 36
     :pswitch_c
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -812,7 +751,6 @@
 
     goto/16 :goto_8
 
-    .line 37
     :pswitch_d
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -834,7 +772,6 @@
 
     goto/16 :goto_8
 
-    .line 38
     :pswitch_e
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -856,7 +793,6 @@
 
     goto/16 :goto_8
 
-    .line 39
     :pswitch_f
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -878,7 +814,6 @@
 
     goto/16 :goto_8
 
-    .line 40
     :pswitch_10
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -900,7 +835,6 @@
 
     goto/16 :goto_8
 
-    .line 41
     :pswitch_11
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -922,7 +856,6 @@
 
     goto :goto_8
 
-    .line 42
     :pswitch_12
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -944,7 +877,6 @@
 
     goto :goto_8
 
-    .line 43
     :pswitch_13
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -969,7 +901,6 @@
     :pswitch_14
     if-eqz v3, :cond_8
 
-    .line 44
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -990,7 +921,6 @@
 
     goto :goto_8
 
-    .line 45
     :pswitch_15
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1025,14 +955,12 @@
 
     const-string v1, "FaceLift"
 
-    .line 46
     invoke-virtual {v9, v1}, Lcom/meitu/core/parse/MteDict;->dictForKey(Ljava/lang/String;)Lcom/meitu/core/parse/MteDict;
 
     move-result-object v1
 
     if-eqz v1, :cond_a
 
-    .line 47
     invoke-virtual {v1}, Lcom/meitu/core/parse/MteDict;->size()I
 
     move-result v2
@@ -1047,7 +975,6 @@
 
     const-string v10, "look_material/look_default/facelift/configuration.plist"
 
-    .line 48
     iput-object v10, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftPath:Ljava/lang/String;
 
     :cond_b
@@ -1056,17 +983,14 @@
     :goto_a
     if-ge v10, v2, :cond_d
 
-    .line 49
     invoke-virtual {v1, v10}, Lcom/meitu/core/parse/MteDict;->keyForIndex(I)Ljava/lang/String;
 
     move-result-object v11
 
-    .line 50
     invoke-virtual {v1, v10}, Lcom/meitu/core/parse/MteDict;->floatValueForIndex(I)F
 
     move-result v12
 
-    .line 51
     invoke-virtual {v11}, Ljava/lang/String;->hashCode()I
 
     move-result v15
@@ -1208,55 +1132,46 @@
 
     goto :goto_d
 
-    .line 52
     :pswitch_16
     iput v12, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftHeadScaleMaxValue:F
 
     goto :goto_d
 
-    .line 53
     :pswitch_17
     iput v12, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftHeadScaleValue:F
 
     goto :goto_d
 
-    .line 54
     :pswitch_18
     iput v12, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftChinValue:F
 
     goto :goto_d
 
-    .line 55
     :pswitch_19
     iput v12, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftNoseValue:F
 
     goto :goto_d
 
-    .line 56
     :pswitch_1a
     iput v12, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftNoseLongerValue:F
 
     goto :goto_d
 
-    .line 57
     :pswitch_1b
     iput v12, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftEyeValue:F
 
     goto :goto_d
 
-    .line 58
     :pswitch_1c
     iput v12, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftSlimValue:F
 
     goto :goto_d
 
-    .line 59
     :pswitch_1d
     iput v12, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftMouthValue:F
 
     goto :goto_d
 
-    .line 60
     :pswitch_1e
     iput v12, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftWholeValue:F
 
@@ -1268,7 +1183,6 @@
     :cond_d
     const-string v1, "Filter"
 
-    .line 61
     invoke-virtual {v9, v1}, Lcom/meitu/core/parse/MteDict;->dictForKey(Ljava/lang/String;)Lcom/meitu/core/parse/MteDict;
 
     move-result-object v1
@@ -1277,21 +1191,18 @@
 
     const-string v2, "Alpha"
 
-    .line 62
     invoke-virtual {v1, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v2
 
     iput v2, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->filterAlphaValue:F
 
-    .line 63
     invoke-virtual {v1, v14}, Lcom/meitu/core/parse/MteDict;->stringValueForKey(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_e
 
-    .line 64
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1317,14 +1228,12 @@
     :cond_e
     const-string v2, "FilterIconPath"
 
-    .line 65
     invoke-virtual {v1, v2}, Lcom/meitu/core/parse/MteDict;->stringValueForKey(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_f
 
-    .line 66
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1352,7 +1261,6 @@
     :cond_f
     const-string v1, "Beauty"
 
-    .line 67
     invoke-virtual {v9, v1}, Lcom/meitu/core/parse/MteDict;->dictForKey(Ljava/lang/String;)Lcom/meitu/core/parse/MteDict;
 
     move-result-object v1
@@ -1361,7 +1269,6 @@
 
     if-eqz v3, :cond_10
 
-    .line 68
     invoke-static {}, Lcom/commsource/util/x;->F()Z
 
     move-result v2
@@ -1370,7 +1277,6 @@
 
     const-string v2, "look_material/look_default/beauty/configuration_low.plist"
 
-    .line 69
     iput-object v2, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyPath:Ljava/lang/String;
 
     goto :goto_e
@@ -1378,13 +1284,11 @@
     :cond_10
     const-string v2, "look_material/look_default/beauty/configuration.plist"
 
-    .line 70
     iput-object v2, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyPath:Ljava/lang/String;
 
     :goto_e
     const-string v2, "BeautyDegree"
 
-    .line 71
     invoke-virtual {v1, v2}, Lcom/meitu/core/parse/MteDict;->dictForKey(Ljava/lang/String;)Lcom/meitu/core/parse/MteDict;
 
     move-result-object v2
@@ -1393,14 +1297,12 @@
 
     const-string v2, "BeautyDegree"
 
-    .line 72
     invoke-virtual {v1, v2}, Lcom/meitu/core/parse/MteDict;->dictForKey(Ljava/lang/String;)Lcom/meitu/core/parse/MteDict;
 
     move-result-object v1
 
     if-eqz v1, :cond_11
 
-    .line 73
     invoke-virtual {v1}, Lcom/meitu/core/parse/MteDict;->size()I
 
     move-result v2
@@ -1413,10 +1315,8 @@
     :goto_f
     const/4 v4, 0x0
 
-    .line 74
     iput-object v4, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
-    .line 75
     new-instance v4, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     invoke-direct {v4}, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;-><init>()V
@@ -1428,7 +1328,6 @@
     :goto_10
     if-ge v4, v2, :cond_14
 
-    .line 76
     invoke-virtual {v1, v4}, Lcom/meitu/core/parse/MteDict;->objectForIndex(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -1437,7 +1336,6 @@
 
     if-eqz v5, :cond_13
 
-    .line 77
     invoke-virtual {v1, v4}, Lcom/meitu/core/parse/MteDict;->objectForIndex(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -1446,21 +1344,18 @@
 
     const-string v10, "Name"
 
-    .line 78
     invoke-virtual {v5, v10}, Lcom/meitu/core/parse/MteDict;->stringValueForKey(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v10
 
     const-string v11, "Degree"
 
-    .line 79
     invoke-virtual {v5, v11}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v11
 
     const-string v12, "Switch"
 
-    .line 80
     invoke-virtual {v5, v12}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v12
@@ -1469,7 +1364,6 @@
 
     move-result-object v12
 
-    .line 81
     invoke-virtual {v10}, Ljava/lang/String;->hashCode()I
 
     move-result v15
@@ -1734,7 +1628,6 @@
 
     goto/16 :goto_13
 
-    .line 82
     :pswitch_1f
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
@@ -1742,13 +1635,11 @@
 
     goto/16 :goto_13
 
-    .line 83
     :pswitch_20
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->ambianceAlpha:F
 
-    .line 84
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1757,13 +1648,11 @@
 
     goto/16 :goto_13
 
-    .line 85
     :pswitch_21
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->noiseAlpha:F
 
-    .line 86
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1772,13 +1661,11 @@
 
     goto/16 :goto_13
 
-    .line 87
     :pswitch_22
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->highlightColorAlpha:F
 
-    .line 88
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1787,13 +1674,11 @@
 
     goto/16 :goto_13
 
-    .line 89
     :pswitch_23
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->shadowColorAlpha:F
 
-    .line 90
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1802,7 +1687,6 @@
 
     goto/16 :goto_13
 
-    .line 91
     :pswitch_24
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
@@ -1810,13 +1694,11 @@
 
     goto/16 :goto_13
 
-    .line 92
     :pswitch_25
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->acneCleanAlpha:F
 
-    .line 93
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1825,7 +1707,6 @@
 
     goto/16 :goto_13
 
-    .line 94
     :pswitch_26
     iget-object v10, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
@@ -1835,12 +1716,10 @@
 
     iput-boolean v11, v10, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->fleckFlawSwitch:Z
 
-    .line 95
     iget-object v10, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     const-string v11, "NeedFleckFlawMaskDetect"
 
-    .line 96
     invoke-virtual {v5, v11}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v5
@@ -1849,13 +1728,11 @@
 
     goto/16 :goto_13
 
-    .line 97
     :pswitch_27
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->laughLineNewAlpha:F
 
-    .line 98
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1864,13 +1741,11 @@
 
     goto/16 :goto_13
 
-    .line 99
     :pswitch_28
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->tearTroughAlpha:F
 
-    .line 100
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1879,13 +1754,11 @@
 
     goto :goto_13
 
-    .line 101
     :pswitch_29
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->laughLineAlpha:F
 
-    .line 102
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1894,13 +1767,11 @@
 
     goto :goto_13
 
-    .line 103
     :pswitch_2a
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->shadowLightAlpha:F
 
-    .line 104
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1909,13 +1780,11 @@
 
     goto :goto_13
 
-    .line 105
     :pswitch_2b
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->autoContrastAlpha:F
 
-    .line 106
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1924,13 +1793,11 @@
 
     goto :goto_13
 
-    .line 107
     :pswitch_2c
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->removePouchAlpha:F
 
-    .line 108
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1939,13 +1806,11 @@
 
     goto :goto_13
 
-    .line 109
     :pswitch_2d
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->brightEyeAlpha:F
 
-    .line 110
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1954,13 +1819,11 @@
 
     goto :goto_13
 
-    .line 111
     :pswitch_2e
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->whiteTeethAlpha:F
 
-    .line 112
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1969,13 +1832,11 @@
 
     goto :goto_13
 
-    .line 113
     :pswitch_2f
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->sharpenAlpha:F
 
-    .line 114
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1984,13 +1845,11 @@
 
     goto :goto_13
 
-    .line 115
     :pswitch_30
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->blurAlpha:F
 
-    .line 116
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -1999,13 +1858,11 @@
 
     goto :goto_13
 
-    .line 117
     :pswitch_31
     iget-object v5, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     iput v11, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->faceColorAlpha:F
 
-    .line 118
     invoke-virtual {v12}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v10
@@ -2021,21 +1878,18 @@
     :cond_14
     const-string v1, "AR"
 
-    .line 119
     invoke-virtual {v9, v1}, Lcom/meitu/core/parse/MteDict;->dictForKey(Ljava/lang/String;)Lcom/meitu/core/parse/MteDict;
 
     move-result-object v1
 
     if-eqz v1, :cond_17
 
-    .line 120
     invoke-virtual {v1, v14}, Lcom/meitu/core/parse/MteDict;->stringValueForKey(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_15
 
-    .line 121
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -2058,7 +1912,6 @@
 
     iput-object v2, v6, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->arPath:Ljava/lang/String;
 
-    .line 122
     :cond_15
     invoke-virtual {v1, v13}, Lcom/meitu/core/parse/MteDict;->stringValueForKey(Ljava/lang/String;)Ljava/lang/String;
 
@@ -2068,7 +1921,6 @@
 
     if-eqz v3, :cond_17
 
-    .line 123
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -2115,15 +1967,12 @@
 
     const-string v2, "parseEffectDegreePlist Exception ! maybe plist format is wrong !"
 
-    .line 124
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 125
     invoke-static {v0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const/16 v1, 0x70b6
 
-    .line 126
     :cond_18
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2266,7 +2115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     :try_start_0
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
@@ -2274,7 +2122,6 @@
 
     check-cast v1, Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     invoke-virtual {v2}, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->clone()Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
@@ -2285,7 +2132,6 @@
     :try_end_0
     .catch Ljava/lang/CloneNotSupportedException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -2293,12 +2139,10 @@
     :catch_0
     move-exception v1
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/CloneNotSupportedException;->printStackTrace()V
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -2316,7 +2160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->clone()Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     move-result-object v1

@@ -12,7 +12,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/ContentProvider;-><init>()V
 
     return-void
@@ -23,10 +22,8 @@
 .method public attachInfo(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/content/ContentProvider;->attachInfo(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
 
-    .line 2
     iget-object p1, p2, Landroid/content/pm/ProviderInfo;->authority:Ljava/lang/String;
 
     const-string p2, "com.google.android.gms.measurement.google_measurement_service"
@@ -39,7 +36,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -77,14 +73,12 @@
 .method public onCreate()Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/android/gms/measurement/internal/s5;->a(Landroid/content/Context;Lcom/google/android/gms/internal/measurement/zzv;)Lcom/google/android/gms/measurement/internal/s5;
 
     const/4 v0, 0x0

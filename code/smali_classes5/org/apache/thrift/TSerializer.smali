@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;
 
     invoke-direct {v0}, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;-><init>()V
@@ -28,24 +27,20 @@
 .method public constructor <init>(Lorg/apache/thrift/protocol/TProtocolFactory;)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
     iput-object v0, p0, Lorg/apache/thrift/TSerializer;->baos_:Ljava/io/ByteArrayOutputStream;
 
-    .line 4
     new-instance v1, Lorg/apache/thrift/transport/TIOStreamTransport;
 
     invoke-direct {v1, v0}, Lorg/apache/thrift/transport/TIOStreamTransport;-><init>(Ljava/io/OutputStream;)V
 
     iput-object v1, p0, Lorg/apache/thrift/TSerializer;->transport_:Lorg/apache/thrift/transport/TIOStreamTransport;
 
-    .line 5
     invoke-interface {p1, v1}, Lorg/apache/thrift/protocol/TProtocolFactory;->getProtocol(Lorg/apache/thrift/transport/TTransport;)Lorg/apache/thrift/protocol/TProtocol;
 
     move-result-object p1
@@ -65,17 +60,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/TSerializer;->baos_:Ljava/io/ByteArrayOutputStream;
 
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->reset()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/TSerializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-interface {p1, v0}, Lorg/apache/thrift/TSerializable;->write(Lorg/apache/thrift/protocol/TProtocol;)V
 
-    .line 3
     iget-object p1, p0, Lorg/apache/thrift/TSerializer;->baos_:Ljava/io/ByteArrayOutputStream;
 
     invoke-virtual {p1}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
@@ -93,7 +85,6 @@
         }
     .end annotation
 
-    .line 3
     new-instance v0, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lorg/apache/thrift/TSerializer;->serialize(Lorg/apache/thrift/TBase;)[B
@@ -113,7 +104,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/lang/String;
 
@@ -127,7 +117,6 @@
 
     return-object v0
 
-    .line 2
     :catch_0
     new-instance p1, Lorg/apache/thrift/TException;
 

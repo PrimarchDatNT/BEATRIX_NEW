@@ -60,7 +60,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -75,7 +74,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$c;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-static {v1}, Lcom/commsource/studio/function/composition/CompositionView;->m(Lcom/commsource/studio/function/composition/CompositionView;)Lcom/commsource/studio/MatrixBox;
@@ -84,7 +82,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->reset()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$c;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-static {v1}, Lcom/commsource/studio/function/composition/CompositionView;->m(Lcom/commsource/studio/function/composition/CompositionView;)Lcom/commsource/studio/MatrixBox;
@@ -123,7 +120,6 @@
 
     invoke-virtual {v1, v2, v3, v5}, Lcom/commsource/studio/MatrixBox;->postScale(FFF)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$c;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-static {v1}, Lcom/commsource/studio/function/composition/CompositionView;->m(Lcom/commsource/studio/function/composition/CompositionView;)Lcom/commsource/studio/MatrixBox;
@@ -162,17 +158,14 @@
 
     invoke-virtual {v1, p1, v2, v3}, Lcom/commsource/studio/MatrixBox;->postRotate(FFF)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/composition/CompositionView$c;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

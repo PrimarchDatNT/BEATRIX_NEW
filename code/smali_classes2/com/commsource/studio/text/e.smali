@@ -37,7 +37,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_text_tab:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     return-void
@@ -71,12 +70,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const-string p3, "itemView"
@@ -105,7 +102,6 @@
 
     invoke-virtual {p1, v3, v4, v2, v4}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -122,7 +118,6 @@
 
     invoke-static {p1, v4, v4, v4, v4}, Lcom/commsource/util/l0;->V(Landroid/view/View;IIII)V
 
-    .line 4
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -149,7 +144,6 @@
 
     invoke-static/range {v3 .. v8}, Lcom/commsource/widget/BoldTextView;->g(Lcom/commsource/widget/BoldTextView;ZIIILjava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -178,7 +172,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

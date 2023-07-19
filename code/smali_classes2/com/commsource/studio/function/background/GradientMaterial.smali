@@ -174,17 +174,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/studio/function/background/GradientMaterial;->id:Ljava/lang/String;
 
     const/4 v0, 0x1
 
-    .line 3
     iput v0, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadType:I
 
     return-void
@@ -203,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/studio/function/background/GradientMaterial;
 
     if-eqz v1, :cond_0
@@ -242,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->config:Lcom/commsource/studio/function/background/GradientConfig;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -257,7 +252,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -272,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -287,7 +280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -302,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->endedAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -319,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->file:Lcom/commsource/repository/FileObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -336,7 +326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->icon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -353,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -368,7 +356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->internalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -385,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -400,7 +386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->newState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -415,7 +400,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->newTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -430,7 +414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->paidType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -445,7 +428,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->sort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -462,7 +444,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->file:Lcom/commsource/repository/FileObject;
 
     if-eqz v1, :cond_0
@@ -489,7 +470,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -506,7 +486,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadState:I
 
     const/4 v2, 0x1
@@ -535,7 +514,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->internalState:I
 
     const/4 v2, 0x1
@@ -560,7 +538,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->internalState:I
 
     if-nez v1, :cond_0
@@ -585,7 +562,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadState:I
 
     const/4 v2, 0x1
@@ -616,7 +592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->paidType:I
 
     if-eqz v1, :cond_0
@@ -641,25 +616,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->newState:I
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 4
     iget-wide v5, p0, Lcom/commsource/studio/function/background/GradientMaterial;->newTime:J
 
     const-wide/16 v7, 0x0
@@ -696,7 +667,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->icon:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/commsource/studio/function/background/GradientMaterial;->icon:Ljava/lang/String;
@@ -705,12 +675,10 @@
 
     move-result v1
 
-    .line 3
     iget v2, p1, Lcom/commsource/studio/function/background/GradientMaterial;->internalState:I
 
     if-nez v2, :cond_1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->file:Lcom/commsource/repository/FileObject;
 
     iget-object v3, p1, Lcom/commsource/studio/function/background/GradientMaterial;->file:Lcom/commsource/repository/FileObject;
@@ -721,22 +689,18 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     iget v2, p1, Lcom/commsource/studio/function/background/GradientMaterial;->downloadState:I
 
     iput v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadState:I
 
-    .line 6
     iget-object v2, p1, Lcom/commsource/studio/function/background/GradientMaterial;->config:Lcom/commsource/studio/function/background/GradientConfig;
 
     iput-object v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->config:Lcom/commsource/studio/function/background/GradientConfig;
 
-    .line 7
     iget v2, p1, Lcom/commsource/studio/function/background/GradientMaterial;->downloadState:I
 
     iput v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadState:I
 
-    .line 8
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->file:Lcom/commsource/repository/FileObject;
 
@@ -750,24 +714,20 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     iget v2, p1, Lcom/commsource/studio/function/background/GradientMaterial;->downloadState:I
 
     iput v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadState:I
 
-    .line 10
     iget-object v2, p1, Lcom/commsource/studio/function/background/GradientMaterial;->config:Lcom/commsource/studio/function/background/GradientConfig;
 
     iput-object v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->config:Lcom/commsource/studio/function/background/GradientConfig;
 
-    .line 11
     :goto_0
     iget v2, p1, Lcom/commsource/studio/function/background/GradientMaterial;->internalState:I
 
     iput v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->internalState:I
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->name:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/commsource/studio/function/background/GradientMaterial;->name:Ljava/lang/String;
@@ -778,7 +738,6 @@
 
     and-int/2addr v1, v2
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->file:Lcom/commsource/repository/FileObject;
 
     iget-object v3, p1, Lcom/commsource/studio/function/background/GradientMaterial;->file:Lcom/commsource/repository/FileObject;
@@ -789,7 +748,6 @@
 
     and-int/2addr v1, v2
 
-    .line 14
     iget-wide v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->newTime:J
 
     iget-wide v4, p1, Lcom/commsource/studio/function/background/GradientMaterial;->newTime:J
@@ -812,7 +770,6 @@
     :goto_1
     and-int/2addr v1, v2
 
-    .line 15
     iget v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->newState:I
 
     iget v3, p1, Lcom/commsource/studio/function/background/GradientMaterial;->newState:I
@@ -829,7 +786,6 @@
     :goto_2
     and-int/2addr v1, v2
 
-    .line 16
     iget-wide v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->endedAt:J
 
     iget-wide v4, p1, Lcom/commsource/studio/function/background/GradientMaterial;->endedAt:J
@@ -848,7 +804,6 @@
     :goto_3
     and-int/2addr v1, v2
 
-    .line 17
     iget v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadType:I
 
     iget v3, p1, Lcom/commsource/studio/function/background/GradientMaterial;->downloadType:I
@@ -865,7 +820,6 @@
     :goto_4
     and-int/2addr v1, v2
 
-    .line 18
     iget v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->paidType:I
 
     iget v3, p1, Lcom/commsource/studio/function/background/GradientMaterial;->paidType:I
@@ -882,7 +836,6 @@
     :goto_5
     and-int/2addr v1, v2
 
-    .line 19
     iget v2, p0, Lcom/commsource/studio/function/background/GradientMaterial;->sort:I
 
     iget p1, p1, Lcom/commsource/studio/function/background/GradientMaterial;->sort:I
@@ -897,7 +850,6 @@
     :goto_6
     and-int p1, v1, v6
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -910,7 +862,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/function/background/GradientMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/background/GradientMaterial;->onCompareLocal(Lcom/commsource/studio/function/background/GradientMaterial;)Z
@@ -937,7 +888,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/background/GradientMaterial;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -946,12 +896,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->id:Ljava/lang/String;
 
@@ -983,7 +931,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/function/background/GradientMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/background/GradientMaterial;->onSortCompare(Lcom/commsource/studio/function/background/GradientMaterial;)I
@@ -1006,7 +953,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->config:Lcom/commsource/studio/function/background/GradientConfig;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1021,7 +967,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1036,7 +981,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1051,7 +995,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->downloadType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1066,7 +1009,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->endedAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1085,7 +1027,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->file:Lcom/commsource/repository/FileObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1104,7 +1045,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->icon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1127,7 +1067,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1142,7 +1081,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->internalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1161,7 +1099,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1176,7 +1113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->newState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1191,7 +1127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->newTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1206,7 +1141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->paidType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1221,7 +1155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/GradientMaterial;->sort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

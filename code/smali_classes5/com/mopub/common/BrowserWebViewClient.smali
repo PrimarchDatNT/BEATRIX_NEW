@@ -26,7 +26,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/mopub/common/UrlAction;->HANDLE_PHONE_SCHEME:Lcom/mopub/common/UrlAction;
 
     const/4 v1, 0x5
@@ -79,10 +78,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Landroid/webkit/WebViewClient;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/common/BrowserWebViewClient;->mMoPubBrowser:Lcom/mopub/common/MoPubBrowser;
 
     return-void
@@ -91,7 +88,6 @@
 .method static synthetic access$000(Lcom/mopub/common/BrowserWebViewClient;)Lcom/mopub/common/MoPubBrowser;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/BrowserWebViewClient;->mMoPubBrowser:Lcom/mopub/common/MoPubBrowser;
 
     return-object p0
@@ -102,10 +98,8 @@
 .method public onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/webkit/WebViewClient;->onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Landroid/webkit/WebView;->canGoBack()Z
 
     move-result p2
@@ -116,7 +110,6 @@
 
     iget-object v0, p0, Lcom/mopub/common/BrowserWebViewClient;->mMoPubBrowser:Lcom/mopub/common/MoPubBrowser;
 
-    .line 3
     invoke-virtual {p2, v0}, Lcom/mopub/common/util/Drawables;->createDrawable(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p2
@@ -128,12 +121,10 @@
 
     iget-object v0, p0, Lcom/mopub/common/BrowserWebViewClient;->mMoPubBrowser:Lcom/mopub/common/MoPubBrowser;
 
-    .line 4
     invoke-virtual {p2, v0}, Lcom/mopub/common/util/Drawables;->createDrawable(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p2
 
-    .line 5
     :goto_0
     iget-object v0, p0, Lcom/mopub/common/BrowserWebViewClient;->mMoPubBrowser:Lcom/mopub/common/MoPubBrowser;
 
@@ -143,7 +134,6 @@
 
     invoke-virtual {v0, p2}, Landroid/widget/ImageButton;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 6
     invoke-virtual {p1}, Landroid/webkit/WebView;->canGoForward()Z
 
     move-result p1
@@ -154,7 +144,6 @@
 
     iget-object p2, p0, Lcom/mopub/common/BrowserWebViewClient;->mMoPubBrowser:Lcom/mopub/common/MoPubBrowser;
 
-    .line 7
     invoke-virtual {p1, p2}, Lcom/mopub/common/util/Drawables;->createDrawable(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
@@ -166,12 +155,10 @@
 
     iget-object p2, p0, Lcom/mopub/common/BrowserWebViewClient;->mMoPubBrowser:Lcom/mopub/common/MoPubBrowser;
 
-    .line 8
     invoke-virtual {p1, p2}, Lcom/mopub/common/util/Drawables;->createDrawable(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
-    .line 9
     :goto_1
     iget-object p2, p0, Lcom/mopub/common/BrowserWebViewClient;->mMoPubBrowser:Lcom/mopub/common/MoPubBrowser;
 
@@ -187,7 +174,6 @@
 .method public onPageStarted(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroid/webkit/WebViewClient;->onPageStarted(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V
 
     return-void
@@ -196,7 +182,6 @@
 .method public onReceivedError(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 p2, 0x1
@@ -240,7 +225,6 @@
         value = 0x1a
     .end annotation
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x1
@@ -269,7 +253,6 @@
 
     invoke-static {p1, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/common/BrowserWebViewClient;->mMoPubBrowser:Lcom/mopub/common/MoPubBrowser;
 
     invoke-virtual {p1}, Lcom/mopub/common/MoPubBrowser;->finish()V
@@ -280,7 +263,6 @@
 .method public shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
     .locals 3
 
-    .line 1
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
@@ -291,7 +273,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     new-instance p1, Lcom/mopub/common/UrlHandler$Builder;
 
@@ -299,12 +280,10 @@
 
     sget-object v0, Lcom/mopub/common/BrowserWebViewClient;->SUPPORTED_URL_ACTIONS:Ljava/util/EnumSet;
 
-    .line 3
     invoke-virtual {p1, v0}, Lcom/mopub/common/UrlHandler$Builder;->withSupportedUrlActions(Ljava/util/EnumSet;)Lcom/mopub/common/UrlHandler$Builder;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Lcom/mopub/common/UrlHandler$Builder;->withoutMoPubBrowser()Lcom/mopub/common/UrlHandler$Builder;
 
     move-result-object p1
@@ -313,17 +292,14 @@
 
     invoke-direct {v0, p0}, Lcom/mopub/common/BrowserWebViewClient$1;-><init>(Lcom/mopub/common/BrowserWebViewClient;)V
 
-    .line 5
     invoke-virtual {p1, v0}, Lcom/mopub/common/UrlHandler$Builder;->withResultActions(Lcom/mopub/common/UrlHandler$ResultActions;)Lcom/mopub/common/UrlHandler$Builder;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Lcom/mopub/common/UrlHandler$Builder;->build()Lcom/mopub/common/UrlHandler;
 
     move-result-object p1
 
-    .line 7
     iget-object v0, p0, Lcom/mopub/common/BrowserWebViewClient;->mMoPubBrowser:Lcom/mopub/common/MoPubBrowser;
 
     invoke-virtual {v0}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;

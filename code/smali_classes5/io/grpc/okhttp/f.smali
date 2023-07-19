@@ -235,14 +235,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lio/grpc/okhttp/f;->R()Ljava/util/Map;
 
     move-result-object v0
 
     sput-object v0, Lio/grpc/okhttp/f;->X:Ljava/util/Map;
 
-    .line 2
     const-class v0, Lio/grpc/okhttp/f;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -259,7 +257,6 @@
 
     new-array v0, v0, [Lio/grpc/okhttp/e;
 
-    .line 3
     sput-object v0, Lio/grpc/okhttp/f;->Z:[Lio/grpc/okhttp/e;
 
     return-void
@@ -301,24 +298,20 @@
 
     move-object v1, p2
 
-    .line 30
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 31
     new-instance v2, Ljava/util/Random;
 
     invoke-direct {v2}, Ljava/util/Random;-><init>()V
 
     iput-object v2, v0, Lio/grpc/okhttp/f;->d:Ljava/util/Random;
 
-    .line 32
     new-instance v2, Ljava/lang/Object;
 
     invoke-direct {v2}, Ljava/lang/Object;-><init>()V
 
     iput-object v2, v0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
-    .line 33
     new-instance v2, Ljava/util/HashMap;
 
     invoke-direct {v2}, Ljava/util/HashMap;-><init>()V
@@ -327,51 +320,42 @@
 
     const/4 v2, 0x0
 
-    .line 34
     iput v2, v0, Lio/grpc/okhttp/f;->E:I
 
-    .line 35
     new-instance v3, Ljava/util/LinkedList;
 
     invoke-direct {v3}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v3, v0, Lio/grpc/okhttp/f;->F:Ljava/util/Deque;
 
-    .line 36
     new-instance v3, Lio/grpc/okhttp/f$a;
 
     invoke-direct {v3, p0}, Lio/grpc/okhttp/f$a;-><init>(Lio/grpc/okhttp/f;)V
 
     iput-object v3, v0, Lio/grpc/okhttp/f;->S:Lio/grpc/internal/b1;
 
-    .line 37
     iput-boolean v2, v0, Lio/grpc/okhttp/f;->Q:Z
 
     const/4 v2, 0x0
 
-    .line 38
     iput-object v2, v0, Lio/grpc/okhttp/f;->a:Ljava/net/InetSocketAddress;
 
     move/from16 v3, p11
 
-    .line 39
     iput v3, v0, Lio/grpc/okhttp/f;->r:I
 
     move/from16 v3, p12
 
-    .line 40
     iput v3, v0, Lio/grpc/okhttp/f;->f:I
 
     const-string v3, "notarealauthority:80"
 
-    .line 41
     iput-object v3, v0, Lio/grpc/okhttp/f;->b:Ljava/lang/String;
 
     const-string v3, "okhttp"
 
     move-object v4, p1
 
-    .line 42
     invoke-static {v3, p1}, Lio/grpc/internal/GrpcUtil;->h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -380,7 +364,6 @@
 
     const-string v3, "executor"
 
-    .line 43
     invoke-static {p2, v3}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -389,14 +372,12 @@
 
     iput-object v3, v0, Lio/grpc/okhttp/f;->p:Ljava/util/concurrent/Executor;
 
-    .line 44
     new-instance v3, Lio/grpc/internal/j2;
 
     invoke-direct {v3, p2}, Lio/grpc/internal/j2;-><init>(Ljava/util/concurrent/Executor;)V
 
     iput-object v3, v0, Lio/grpc/okhttp/f;->q:Lio/grpc/internal/j2;
 
-    .line 45
     invoke-static {}, Ljavax/net/SocketFactory;->getDefault()Ljavax/net/SocketFactory;
 
     move-result-object v1
@@ -407,7 +388,6 @@
 
     move-object v3, p3
 
-    .line 46
     invoke-static {p3, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -420,7 +400,6 @@
 
     move-object v3, p4
 
-    .line 47
     invoke-static {p4, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -433,7 +412,6 @@
 
     move-object v3, p5
 
-    .line 48
     invoke-static {p5, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -446,7 +424,6 @@
 
     move-object v3, p7
 
-    .line 49
     invoke-static {p7, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -457,27 +434,22 @@
 
     move v1, p6
 
-    .line 50
     iput v1, v0, Lio/grpc/okhttp/f;->n:I
 
     move-object v1, p8
 
-    .line 51
     iput-object v1, v0, Lio/grpc/okhttp/f;->e:Lcom/google/common/base/z;
 
-    .line 52
     iput-object v2, v0, Lio/grpc/okhttp/f;->G:Lio/grpc/okhttp/internal/a;
 
     move-object v1, p9
 
-    .line 53
     iput-object v1, v0, Lio/grpc/okhttp/f;->V:Ljava/lang/Runnable;
 
     const-string v1, "connectedFuture"
 
     move-object v4, p10
 
-    .line 54
     invoke-static {p10, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -486,14 +458,12 @@
 
     iput-object v1, v0, Lio/grpc/okhttp/f;->W:Lcom/google/common/util/concurrent/v0;
 
-    .line 55
     iput-object v2, v0, Lio/grpc/okhttp/f;->U:Lio/grpc/HttpConnectProxiedSocketAddress;
 
     const-string v1, "tooManyPingsRunnable"
 
     move-object/from16 v2, p13
 
-    .line 56
     invoke-static {v2, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -504,14 +474,12 @@
 
     const v1, 0x7fffffff
 
-    .line 57
     iput v1, v0, Lio/grpc/okhttp/f;->P:I
 
     const-string v1, "transportTracer"
 
     move-object/from16 v2, p14
 
-    .line 58
     invoke-static {v2, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -520,7 +488,6 @@
 
     iput-object v1, v0, Lio/grpc/okhttp/f;->R:Lio/grpc/internal/g3;
 
-    .line 59
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -539,7 +506,6 @@
 
     iput-object v1, v0, Lio/grpc/okhttp/f;->m:Lio/grpc/j0;
 
-    .line 60
     invoke-direct {p0}, Lio/grpc/okhttp/f;->e0()V
 
     return-void
@@ -572,24 +538,20 @@
 
     move-object v1, p5
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v2, Ljava/util/Random;
 
     invoke-direct {v2}, Ljava/util/Random;-><init>()V
 
     iput-object v2, v0, Lio/grpc/okhttp/f;->d:Ljava/util/Random;
 
-    .line 3
     new-instance v2, Ljava/lang/Object;
 
     invoke-direct {v2}, Ljava/lang/Object;-><init>()V
 
     iput-object v2, v0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
-    .line 4
     new-instance v2, Ljava/util/HashMap;
 
     invoke-direct {v2}, Ljava/util/HashMap;-><init>()V
@@ -598,17 +560,14 @@
 
     const/4 v2, 0x0
 
-    .line 5
     iput v2, v0, Lio/grpc/okhttp/f;->E:I
 
-    .line 6
     new-instance v2, Ljava/util/LinkedList;
 
     invoke-direct {v2}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v2, v0, Lio/grpc/okhttp/f;->F:Ljava/util/Deque;
 
-    .line 7
     new-instance v2, Lio/grpc/okhttp/f$a;
 
     invoke-direct {v2, p0}, Lio/grpc/okhttp/f$a;-><init>(Lio/grpc/okhttp/f;)V
@@ -619,7 +578,6 @@
 
     move-object v3, p1
 
-    .line 8
     invoke-static {p1, v2}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -630,22 +588,18 @@
 
     move-object v2, p2
 
-    .line 9
     iput-object v2, v0, Lio/grpc/okhttp/f;->b:Ljava/lang/String;
 
     move v2, p10
 
-    .line 10
     iput v2, v0, Lio/grpc/okhttp/f;->r:I
 
     move v2, p11
 
-    .line 11
     iput v2, v0, Lio/grpc/okhttp/f;->f:I
 
     const-string v2, "executor"
 
-    .line 12
     invoke-static {p5, v2}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -654,7 +608,6 @@
 
     iput-object v2, v0, Lio/grpc/okhttp/f;->p:Ljava/util/concurrent/Executor;
 
-    .line 13
     new-instance v2, Lio/grpc/internal/j2;
 
     invoke-direct {v2, p5}, Lio/grpc/internal/j2;-><init>(Ljava/util/concurrent/Executor;)V
@@ -663,12 +616,10 @@
 
     const/4 v1, 0x3
 
-    .line 14
     iput v1, v0, Lio/grpc/okhttp/f;->n:I
 
     if-nez p6, :cond_0
 
-    .line 15
     invoke-static {}, Ljavax/net/SocketFactory;->getDefault()Ljavax/net/SocketFactory;
 
     move-result-object v1
@@ -683,19 +634,16 @@
 
     move-object v1, p7
 
-    .line 16
     iput-object v1, v0, Lio/grpc/okhttp/f;->B:Ljavax/net/ssl/SSLSocketFactory;
 
     move-object v1, p8
 
-    .line 17
     iput-object v1, v0, Lio/grpc/okhttp/f;->C:Ljavax/net/ssl/HostnameVerifier;
 
     const-string v1, "connectionSpec"
 
     move-object v2, p9
 
-    .line 18
     invoke-static {p9, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -704,7 +652,6 @@
 
     iput-object v1, v0, Lio/grpc/okhttp/f;->G:Lio/grpc/okhttp/internal/a;
 
-    .line 19
     sget-object v1, Lio/grpc/internal/GrpcUtil;->J:Lcom/google/common/base/z;
 
     iput-object v1, v0, Lio/grpc/okhttp/f;->e:Lcom/google/common/base/z;
@@ -713,7 +660,6 @@
 
     move-object v2, p3
 
-    .line 20
     invoke-static {v1, p3}, Lio/grpc/internal/GrpcUtil;->h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -722,14 +668,12 @@
 
     move-object/from16 v1, p12
 
-    .line 21
     iput-object v1, v0, Lio/grpc/okhttp/f;->U:Lio/grpc/HttpConnectProxiedSocketAddress;
 
     const-string v1, "tooManyPingsRunnable"
 
     move-object/from16 v2, p13
 
-    .line 22
     invoke-static {v2, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -740,10 +684,8 @@
 
     move/from16 v1, p14
 
-    .line 23
     iput v1, v0, Lio/grpc/okhttp/f;->P:I
 
-    .line 24
     invoke-static/range {p15 .. p15}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -752,7 +694,6 @@
 
     iput-object v1, v0, Lio/grpc/okhttp/f;->R:Lio/grpc/internal/g3;
 
-    .line 25
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -767,7 +708,6 @@
 
     iput-object v1, v0, Lio/grpc/okhttp/f;->m:Lio/grpc/j0;
 
-    .line 26
     invoke-static {}, Lio/grpc/a;->e()Lio/grpc/a$b;
 
     move-result-object v1
@@ -776,7 +716,6 @@
 
     move-object v3, p4
 
-    .line 27
     invoke-virtual {v1, v2, p4}, Lio/grpc/a$b;->d(Lio/grpc/a$c;Ljava/lang/Object;)Lio/grpc/a$b;
 
     move-result-object v1
@@ -789,10 +728,8 @@
 
     move/from16 v1, p16
 
-    .line 28
     iput-boolean v1, v0, Lio/grpc/okhttp/f;->Q:Z
 
-    .line 29
     invoke-direct {p0}, Lio/grpc/okhttp/f;->e0()V
 
     return-void
@@ -801,7 +738,6 @@
 .method static synthetic A(Lio/grpc/okhttp/f;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lio/grpc/okhttp/f;->s:I
 
     return p0
@@ -810,7 +746,6 @@
 .method static synthetic B(Lio/grpc/okhttp/f;I)I
     .locals 0
 
-    .line 1
     iput p1, p0, Lio/grpc/okhttp/f;->s:I
 
     return p1
@@ -819,7 +754,6 @@
 .method static synthetic C(Lio/grpc/okhttp/f;I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/f;->s:I
 
     add-int/2addr v0, p1
@@ -832,7 +766,6 @@
 .method static synthetic D(Lio/grpc/okhttp/f;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lio/grpc/okhttp/f;->f:I
 
     return p0
@@ -841,7 +774,6 @@
 .method static synthetic E(Lio/grpc/okhttp/f;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lio/grpc/okhttp/f;->P:I
 
     return p0
@@ -850,7 +782,6 @@
 .method static synthetic F(Lio/grpc/okhttp/f;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->o:Ljava/util/Map;
 
     return-object p0
@@ -859,7 +790,6 @@
 .method static synthetic G(Lio/grpc/okhttp/f;)Lio/grpc/internal/a1;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->x:Lio/grpc/internal/a1;
 
     return-object p0
@@ -868,7 +798,6 @@
 .method static synthetic H(Lio/grpc/okhttp/f;Lio/grpc/internal/a1;)Lio/grpc/internal/a1;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/f;->x:Lio/grpc/internal/a1;
 
     return-object p1
@@ -877,7 +806,6 @@
 .method static synthetic I(Lio/grpc/okhttp/f;)Ljava/lang/Runnable;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->O:Ljava/lang/Runnable;
 
     return-object p0
@@ -886,7 +814,6 @@
 .method static synthetic J(Lio/grpc/okhttp/f;)Lio/grpc/okhttp/f$f;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->t:Lio/grpc/okhttp/f$f;
 
     return-object p0
@@ -895,7 +822,6 @@
 .method static synthetic K(Lio/grpc/okhttp/f;Lio/grpc/okhttp/f$f;)Lio/grpc/okhttp/f$f;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/f;->t:Lio/grpc/okhttp/f$f;
 
     return-object p1
@@ -904,7 +830,6 @@
 .method static synthetic L(Lio/grpc/okhttp/f;)Lio/grpc/okhttp/internal/framed/a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->h:Lio/grpc/okhttp/internal/framed/a;
 
     return-object p0
@@ -913,7 +838,6 @@
 .method static synthetic M(Lio/grpc/okhttp/f;)Lio/grpc/okhttp/OkHttpFrameLogger;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->i:Lio/grpc/okhttp/OkHttpFrameLogger;
 
     return-object p0
@@ -922,7 +846,6 @@
 .method static synthetic N(Lio/grpc/okhttp/f;)Ljava/util/concurrent/Executor;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->p:Ljava/util/concurrent/Executor;
 
     return-object p0
@@ -931,7 +854,6 @@
 .method static synthetic O(Lio/grpc/okhttp/f;I)I
     .locals 0
 
-    .line 1
     iput p1, p0, Lio/grpc/okhttp/f;->E:I
 
     return p1
@@ -940,7 +862,6 @@
 .method static synthetic P(Lio/grpc/okhttp/f;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/okhttp/f;->q0()Z
 
     move-result p0
@@ -951,7 +872,6 @@
 .method static synthetic Q(Lio/grpc/okhttp/f;)Ljava/net/InetSocketAddress;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->a:Ljava/net/InetSocketAddress;
 
     return-object p0
@@ -969,180 +889,142 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/EnumMap;
 
     const-class v1, Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     invoke-direct {v0, v1}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 2
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->NO_ERROR:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     sget-object v2, Lio/grpc/Status;->u:Lio/grpc/Status;
 
     const-string v3, "No error: A GRPC status of OK should have been sent"
 
-    .line 3
     invoke-virtual {v2, v3}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v3
 
-    .line 4
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->PROTOCOL_ERROR:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     const-string v3, "Protocol error"
 
-    .line 6
     invoke-virtual {v2, v3}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v3
 
-    .line 7
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->INTERNAL_ERROR:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     const-string v3, "Internal error"
 
-    .line 9
     invoke-virtual {v2, v3}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v3
 
-    .line 10
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->FLOW_CONTROL_ERROR:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     const-string v3, "Flow control error"
 
-    .line 12
     invoke-virtual {v2, v3}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v3
 
-    .line 13
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->STREAM_CLOSED:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     const-string v3, "Stream closed"
 
-    .line 15
     invoke-virtual {v2, v3}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v3
 
-    .line 16
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->FRAME_TOO_LARGE:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     const-string v3, "Frame too large"
 
-    .line 18
     invoke-virtual {v2, v3}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v3
 
-    .line 19
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 20
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->REFUSED_STREAM:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     sget-object v3, Lio/grpc/Status;->v:Lio/grpc/Status;
 
     const-string v4, "Refused stream"
 
-    .line 21
     invoke-virtual {v3, v4}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v3
 
-    .line 22
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 23
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->CANCEL:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     sget-object v3, Lio/grpc/Status;->h:Lio/grpc/Status;
 
     const-string v4, "Cancelled"
 
-    .line 24
     invoke-virtual {v3, v4}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v3
 
-    .line 25
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 26
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->COMPRESSION_ERROR:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     const-string v3, "Compression error"
 
-    .line 27
     invoke-virtual {v2, v3}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v3
 
-    .line 28
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 29
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->CONNECT_ERROR:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     const-string v3, "Connect error"
 
-    .line 30
     invoke-virtual {v2, v3}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v2
 
-    .line 31
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 32
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->ENHANCE_YOUR_CALM:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     sget-object v2, Lio/grpc/Status;->p:Lio/grpc/Status;
 
     const-string v3, "Enhance your calm"
 
-    .line 33
     invoke-virtual {v2, v3}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v2
 
-    .line 34
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 35
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->INADEQUATE_SECURITY:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     sget-object v2, Lio/grpc/Status;->n:Lio/grpc/Status;
 
     const-string v3, "Inadequate security"
 
-    .line 36
     invoke-virtual {v2, v3}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v2
 
-    .line 37
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 38
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
@@ -1153,19 +1035,16 @@
 .method private S(Ljava/net/InetSocketAddress;Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/Request;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/HttpUrl$Builder;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/HttpUrl$Builder;-><init>()V
 
     const-string v1, "https"
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/squareup/okhttp/HttpUrl$Builder;->scheme(Ljava/lang/String;)Lcom/squareup/okhttp/HttpUrl$Builder;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1}, Ljava/net/InetSocketAddress;->getHostName()Ljava/lang/String;
 
     move-result-object v1
@@ -1174,7 +1053,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {p1}, Ljava/net/InetSocketAddress;->getPort()I
 
     move-result p1
@@ -1183,17 +1061,14 @@
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p1}, Lcom/squareup/okhttp/HttpUrl$Builder;->build()Lcom/squareup/okhttp/HttpUrl;
 
     move-result-object p1
 
-    .line 6
     new-instance v0, Lcom/squareup/okhttp/Request$Builder;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/Request$Builder;-><init>()V
 
-    .line 7
     invoke-virtual {v0, p1}, Lcom/squareup/okhttp/Request$Builder;->url(Lcom/squareup/okhttp/HttpUrl;)Lcom/squareup/okhttp/Request$Builder;
 
     move-result-object v0
@@ -1202,7 +1077,6 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 8
     invoke-virtual {p1}, Lcom/squareup/okhttp/HttpUrl;->host()Ljava/lang/String;
 
     move-result-object v2
@@ -1233,7 +1107,6 @@
 
     const-string v1, "User-Agent"
 
-    .line 9
     invoke-virtual {p1, v1, v0}, Lcom/squareup/okhttp/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/Request$Builder;
 
     move-result-object p1
@@ -1242,7 +1115,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 10
     invoke-static {p2, p3}, Lcom/squareup/okhttp/Credentials;->basic(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -1251,7 +1123,6 @@
 
     invoke-virtual {p1, p3, p2}, Lcom/squareup/okhttp/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/Request$Builder;
 
-    .line 11
     :cond_0
     invoke-virtual {p1}, Lcom/squareup/okhttp/Request$Builder;->build()Lcom/squareup/okhttp/Request;
 
@@ -1270,7 +1141,6 @@
 
     const-string v0, "\r\n"
 
-    .line 1
     :try_start_0
     invoke-virtual {p2}, Ljava/net/InetSocketAddress;->getAddress()Ljava/net/InetAddress;
 
@@ -1278,7 +1148,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/okhttp/f;->A:Ljavax/net/SocketFactory;
 
     invoke-virtual {p2}, Ljava/net/InetSocketAddress;->getAddress()Ljava/net/InetAddress;
@@ -1295,11 +1164,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->A:Ljavax/net/SocketFactory;
 
-    .line 4
     invoke-virtual {p2}, Ljava/net/InetSocketAddress;->getHostName()Ljava/lang/String;
 
     move-result-object v2
@@ -1315,15 +1182,12 @@
     :goto_0
     const/4 v1, 0x1
 
-    .line 5
     invoke-virtual {p2, v1}, Ljava/net/Socket;->setTcpNoDelay(Z)V
 
-    .line 6
     invoke-static {p2}, Lokio/Okio;->source(Ljava/net/Socket;)Lokio/Source;
 
     move-result-object v2
 
-    .line 7
     invoke-static {p2}, Lokio/Okio;->sink(Ljava/net/Socket;)Lokio/Sink;
 
     move-result-object v3
@@ -1332,12 +1196,10 @@
 
     move-result-object v3
 
-    .line 8
     invoke-direct {p0, p1, p3, p4}, Lio/grpc/okhttp/f;->S(Ljava/net/InetSocketAddress;Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/Request;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1}, Lcom/squareup/okhttp/Request;->httpUrl()Lcom/squareup/okhttp/HttpUrl;
 
     move-result-object p3
@@ -1348,7 +1210,6 @@
 
     new-array v5, v4, [Ljava/lang/Object;
 
-    .line 10
     invoke-virtual {p3}, Lcom/squareup/okhttp/HttpUrl;->host()Ljava/lang/String;
 
     move-result-object v6
@@ -1371,14 +1232,12 @@
 
     move-result-object p3
 
-    .line 11
     invoke-interface {v3, p3}, Lokio/BufferedSink;->writeUtf8(Ljava/lang/String;)Lokio/BufferedSink;
 
     move-result-object p3
 
     invoke-interface {p3, v0}, Lokio/BufferedSink;->writeUtf8(Ljava/lang/String;)Lokio/BufferedSink;
 
-    .line 12
     invoke-virtual {p1}, Lcom/squareup/okhttp/Request;->headers()Lcom/squareup/okhttp/Headers;
 
     move-result-object p3
@@ -1392,7 +1251,6 @@
     :goto_1
     if-ge p4, p3, :cond_1
 
-    .line 13
     invoke-virtual {p1}, Lcom/squareup/okhttp/Request;->headers()Lcom/squareup/okhttp/Headers;
 
     move-result-object v5
@@ -1407,12 +1265,10 @@
 
     const-string v6, ": "
 
-    .line 14
     invoke-interface {v5, v6}, Lokio/BufferedSink;->writeUtf8(Ljava/lang/String;)Lokio/BufferedSink;
 
     move-result-object v5
 
-    .line 15
     invoke-virtual {p1}, Lcom/squareup/okhttp/Request;->headers()Lcom/squareup/okhttp/Headers;
 
     move-result-object v6
@@ -1425,21 +1281,17 @@
 
     move-result-object v5
 
-    .line 16
     invoke-interface {v5, v0}, Lokio/BufferedSink;->writeUtf8(Ljava/lang/String;)Lokio/BufferedSink;
 
     add-int/lit8 p4, p4, 0x1
 
     goto :goto_1
 
-    .line 17
     :cond_1
     invoke-interface {v3, v0}, Lokio/BufferedSink;->writeUtf8(Ljava/lang/String;)Lokio/BufferedSink;
 
-    .line 18
     invoke-interface {v3}, Lokio/BufferedSink;->flush()V
 
-    .line 19
     invoke-static {v2}, Lio/grpc/okhttp/f;->l0(Lokio/Source;)Ljava/lang/String;
 
     move-result-object p1
@@ -1448,7 +1300,6 @@
 
     move-result-object p1
 
-    .line 20
     :goto_2
     invoke-static {v2}, Lio/grpc/okhttp/f;->l0(Lokio/Source;)Ljava/lang/String;
 
@@ -1464,7 +1315,6 @@
 
     goto :goto_2
 
-    .line 21
     :cond_2
     iget p3, p1, Lcom/squareup/okhttp/internal/http/StatusLine;->code:I
 
@@ -1478,7 +1328,6 @@
 
     return-object p2
 
-    .line 22
     :cond_3
     new-instance p3, Lokio/Buffer;
 
@@ -1486,13 +1335,11 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_2
 
-    .line 23
     :try_start_1
     invoke-virtual {p2}, Ljava/net/Socket;->shutdownOutput()V
 
     const-wide/16 v5, 0x400
 
-    .line 24
     invoke-interface {v2, p3, v5, v6}, Lokio/Source;->read(Lokio/Buffer;J)J
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
@@ -1502,7 +1349,6 @@
     :catch_0
     move-exception p4
 
-    .line 25
     :try_start_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1526,7 +1372,6 @@
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_2
 
-    .line 26
     :goto_3
     :try_start_3
     invoke-virtual {p2}, Ljava/net/Socket;->close()V
@@ -1541,10 +1386,8 @@
 
     new-array p4, p4, [Ljava/lang/Object;
 
-    .line 27
     iget v0, p1, Lcom/squareup/okhttp/internal/http/StatusLine;->code:I
 
-    .line 28
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -1561,12 +1404,10 @@
 
     aput-object p1, p4, v4
 
-    .line 29
     invoke-static {p2, p4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 30
     sget-object p2, Lio/grpc/Status;->v:Lio/grpc/Status;
 
     invoke-virtual {p2, p1}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
@@ -1584,7 +1425,6 @@
     :catch_2
     move-exception p1
 
-    .line 31
     sget-object p2, Lio/grpc/Status;->v:Lio/grpc/Status;
 
     const-string p3, "Failed trying to connect with proxy"
@@ -1597,7 +1437,6 @@
 
     move-result-object p1
 
-    .line 32
     invoke-virtual {p1}, Lio/grpc/Status;->c()Lio/grpc/StatusException;
 
     move-result-object p1
@@ -1608,18 +1447,15 @@
 .method private b0()Ljava/lang/Throwable;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->v:Lio/grpc/Status;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lio/grpc/Status;->c()Lio/grpc/StatusException;
 
     move-result-object v1
@@ -1628,7 +1464,6 @@
 
     return-object v1
 
-    .line 4
     :cond_0
     sget-object v1, Lio/grpc/Status;->v:Lio/grpc/Status;
 
@@ -1649,7 +1484,6 @@
     :catchall_0
     move-exception v1
 
-    .line 5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1660,12 +1494,10 @@
 .method private e0()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->R:Lio/grpc/internal/g3;
 
@@ -1675,7 +1507,6 @@
 
     invoke-virtual {v1, v2}, Lio/grpc/internal/g3;->i(Lio/grpc/internal/g3$c;)V
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -1693,7 +1524,6 @@
 .method private f0()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->a:Ljava/net/InetSocketAddress;
 
     if-nez v0, :cond_0
@@ -1715,14 +1545,12 @@
         value = "lock"
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/okhttp/f;->z:Z
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/f;->F:Ljava/util/Deque;
 
     invoke-interface {v0}, Ljava/util/Deque;->isEmpty()Z
@@ -1739,18 +1567,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iput-boolean v1, p0, Lio/grpc/okhttp/f;->z:Z
 
-    .line 4
     iget-object v0, p0, Lio/grpc/okhttp/f;->J:Lio/grpc/internal/KeepAliveManager;
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-virtual {v0}, Lio/grpc/internal/KeepAliveManager;->p()V
 
-    .line 6
     :cond_0
     invoke-virtual {p1}, Lio/grpc/internal/a;->F()Z
 
@@ -1758,7 +1582,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 7
     iget-object v0, p0, Lio/grpc/okhttp/f;->S:Lio/grpc/internal/b1;
 
     invoke-virtual {v0, p1, v1}, Lio/grpc/internal/b1;->d(Ljava/lang/Object;Z)V
@@ -1770,7 +1593,6 @@
 .method static synthetic j(Lio/grpc/okhttp/f;)Lio/grpc/internal/o1$a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->g:Lio/grpc/internal/o1$a;
 
     return-object p0
@@ -1779,7 +1601,6 @@
 .method static synthetic k(Lio/grpc/okhttp/f;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     return-object p0
@@ -1788,7 +1609,6 @@
 .method private k0(Lio/grpc/okhttp/internal/framed/ErrorCode;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-static {p1}, Lio/grpc/okhttp/f;->u0(Lio/grpc/okhttp/internal/framed/ErrorCode;)Lio/grpc/Status;
 
     move-result-object v0
@@ -1807,7 +1627,6 @@
 .method static synthetic l(Lio/grpc/okhttp/f;)Ljavax/net/SocketFactory;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->A:Ljavax/net/SocketFactory;
 
     return-object p0
@@ -1821,7 +1640,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lokio/Buffer;
 
     invoke-direct {v0}, Lokio/Buffer;-><init>()V
@@ -1829,7 +1647,6 @@
     :cond_0
     const-wide/16 v1, 0x1
 
-    .line 2
     invoke-interface {p0, v0, v1, v2}, Lokio/Source;->read(Lokio/Buffer;J)J
 
     move-result-wide v3
@@ -1840,7 +1657,6 @@
 
     if-eqz v7, :cond_1
 
-    .line 3
     invoke-virtual {v0}, Lokio/Buffer;->size()J
 
     move-result-wide v3
@@ -1855,14 +1671,12 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Lokio/Buffer;->readUtf8LineStrict()Ljava/lang/String;
 
     move-result-object p0
 
     return-object p0
 
-    .line 5
     :cond_1
     new-instance p0, Ljava/io/EOFException;
 
@@ -1901,7 +1715,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lio/grpc/okhttp/f;->T(Ljava/net/InetSocketAddress;Ljava/net/InetSocketAddress;Ljava/lang/String;Ljava/lang/String;)Ljava/net/Socket;
 
     move-result-object p0
@@ -1912,7 +1725,6 @@
 .method static synthetic n(Lio/grpc/okhttp/f;)Ljavax/net/ssl/SSLSocketFactory;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->B:Ljavax/net/ssl/SSLSocketFactory;
 
     return-object p0
@@ -1921,7 +1733,6 @@
 .method static synthetic o(Lio/grpc/okhttp/f;)Ljavax/net/ssl/HostnameVerifier;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->C:Ljavax/net/ssl/HostnameVerifier;
 
     return-object p0
@@ -1933,25 +1744,20 @@
         value = "lock"
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/okhttp/f;->z:Z
 
     const/4 v1, 0x1
 
     if-nez v0, :cond_0
 
-    .line 2
     iput-boolean v1, p0, Lio/grpc/okhttp/f;->z:Z
 
-    .line 3
     iget-object v0, p0, Lio/grpc/okhttp/f;->J:Lio/grpc/internal/KeepAliveManager;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Lio/grpc/internal/KeepAliveManager;->o()V
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lio/grpc/internal/a;->F()Z
 
@@ -1959,7 +1765,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 6
     iget-object v0, p0, Lio/grpc/okhttp/f;->S:Lio/grpc/internal/b1;
 
     invoke-virtual {v0, p1, v1}, Lio/grpc/internal/b1;->d(Ljava/lang/Object;Z)V
@@ -1971,7 +1776,6 @@
 .method static synthetic p(Lio/grpc/okhttp/f;)Lio/grpc/okhttp/internal/a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->G:Lio/grpc/okhttp/internal/a;
 
     return-object p0
@@ -1980,21 +1784,17 @@
 .method private p0(ILio/grpc/okhttp/internal/framed/ErrorCode;Lio/grpc/Status;)V
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->v:Lio/grpc/Status;
 
     if-nez v1, :cond_0
 
-    .line 3
     iput-object p3, p0, Lio/grpc/okhttp/f;->v:Lio/grpc/Status;
 
-    .line 4
     iget-object v1, p0, Lio/grpc/okhttp/f;->g:Lio/grpc/internal/o1$a;
 
     invoke-interface {v1, p3}, Lio/grpc/internal/o1$a;->b(Lio/grpc/Status;)V
@@ -2006,22 +1806,18 @@
 
     if-eqz p2, :cond_1
 
-    .line 5
     iget-boolean v3, p0, Lio/grpc/okhttp/f;->w:Z
 
     if-nez v3, :cond_1
 
-    .line 6
     iput-boolean v1, p0, Lio/grpc/okhttp/f;->w:Z
 
-    .line 7
     iget-object v3, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
     new-array v4, v2, [B
 
     invoke-virtual {v3, v2, p2, v4}, Lio/grpc/okhttp/b;->Aa(ILio/grpc/okhttp/internal/framed/ErrorCode;[B)V
 
-    .line 8
     :cond_1
     iget-object p2, p0, Lio/grpc/okhttp/f;->o:Ljava/util/Map;
 
@@ -2033,7 +1829,6 @@
 
     move-result-object p2
 
-    .line 9
     :cond_2
     :goto_0
     invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
@@ -2042,14 +1837,12 @@
 
     if-eqz v3, :cond_3
 
-    .line 10
     invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 11
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -2062,10 +1855,8 @@
 
     if-le v4, p1, :cond_2
 
-    .line 12
     invoke-interface {p2}, Ljava/util/Iterator;->remove()V
 
-    .line 13
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v4
@@ -2084,7 +1875,6 @@
 
     invoke-virtual {v4, p3, v5, v2, v6}, Lio/grpc/internal/a$c;->O(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;ZLio/grpc/y0;)V
 
-    .line 14
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -2095,7 +1885,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_3
     iget-object p1, p0, Lio/grpc/okhttp/f;->F:Ljava/util/Deque;
 
@@ -2116,7 +1905,6 @@
 
     check-cast p2, Lio/grpc/okhttp/e;
 
-    .line 16
     invoke-virtual {p2}, Lio/grpc/okhttp/e;->Z()Lio/grpc/okhttp/e$b;
 
     move-result-object v2
@@ -2129,21 +1917,17 @@
 
     invoke-virtual {v2, p3, v3, v1, v4}, Lio/grpc/internal/a$c;->O(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;ZLio/grpc/y0;)V
 
-    .line 17
     invoke-direct {p0, p2}, Lio/grpc/okhttp/f;->i0(Lio/grpc/okhttp/e;)V
 
     goto :goto_1
 
-    .line 18
     :cond_4
     iget-object p1, p0, Lio/grpc/okhttp/f;->F:Ljava/util/Deque;
 
     invoke-interface {p1}, Ljava/util/Deque;->clear()V
 
-    .line 19
     invoke-direct {p0}, Lio/grpc/okhttp/f;->s0()V
 
-    .line 20
     monitor-exit v0
 
     return-void
@@ -2161,7 +1945,6 @@
 .method static synthetic q(Lio/grpc/okhttp/f;)Lio/grpc/a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->u:Lio/grpc/a;
 
     return-object p0
@@ -2175,7 +1958,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->F:Ljava/util/Deque;
 
@@ -2195,7 +1977,6 @@
 
     if-ge v1, v2, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/f;->F:Ljava/util/Deque;
 
     invoke-interface {v0}, Ljava/util/Deque;->poll()Ljava/lang/Object;
@@ -2204,7 +1985,6 @@
 
     check-cast v0, Lio/grpc/okhttp/e;
 
-    .line 3
     invoke-direct {p0, v0}, Lio/grpc/okhttp/f;->r0(Lio/grpc/okhttp/e;)V
 
     const/4 v0, 0x1
@@ -2218,7 +1998,6 @@
 .method static synthetic r(Lio/grpc/okhttp/f;Lio/grpc/a;)Lio/grpc/a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/f;->u:Lio/grpc/a;
 
     return-object p1
@@ -2230,7 +2009,6 @@
         value = "lock"
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/okhttp/e;->X()I
 
     move-result v0
@@ -2249,10 +2027,8 @@
     :goto_0
     const-string v1, "StreamId already assigned"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lio/grpc/okhttp/f;->o:Ljava/util/Map;
 
     iget v1, p0, Lio/grpc/okhttp/f;->n:I
@@ -2263,10 +2039,8 @@
 
     invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-direct {p0, p1}, Lio/grpc/okhttp/f;->o0(Lio/grpc/okhttp/e;)V
 
-    .line 5
     invoke-virtual {p1}, Lio/grpc/okhttp/e;->Z()Lio/grpc/okhttp/e$b;
 
     move-result-object v0
@@ -2275,7 +2049,6 @@
 
     invoke-virtual {v0, v1}, Lio/grpc/okhttp/e$b;->f0(I)V
 
-    .line 6
     invoke-virtual {p1}, Lio/grpc/okhttp/e;->W()Lio/grpc/MethodDescriptor$MethodType;
 
     move-result-object v0
@@ -2292,7 +2065,6 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 7
     :cond_1
     invoke-virtual {p1}, Lio/grpc/okhttp/e;->a0()Z
 
@@ -2300,13 +2072,11 @@
 
     if-eqz p1, :cond_3
 
-    .line 8
     :cond_2
     iget-object p1, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
     invoke-virtual {p1}, Lio/grpc/okhttp/b;->flush()V
 
-    .line 9
     :cond_3
     iget p1, p0, Lio/grpc/okhttp/f;->n:I
 
@@ -2316,22 +2086,18 @@
 
     const p1, 0x7fffffff
 
-    .line 10
     iput p1, p0, Lio/grpc/okhttp/f;->n:I
 
-    .line 11
     sget-object v0, Lio/grpc/okhttp/internal/framed/ErrorCode;->NO_ERROR:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     sget-object v1, Lio/grpc/Status;->v:Lio/grpc/Status;
 
     const-string v2, "Stream ids exhausted"
 
-    .line 12
     invoke-virtual {v1, v2}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v1
 
-    .line 13
     invoke-direct {p0, p1, v0, v1}, Lio/grpc/okhttp/f;->p0(ILio/grpc/okhttp/internal/framed/ErrorCode;Lio/grpc/Status;)V
 
     goto :goto_1
@@ -2339,7 +2105,6 @@
     :cond_4
     add-int/lit8 p1, p1, 0x2
 
-    .line 14
     iput p1, p0, Lio/grpc/okhttp/f;->n:I
 
     :goto_1
@@ -2349,7 +2114,6 @@
 .method static synthetic s(Lio/grpc/okhttp/f;ILio/grpc/okhttp/internal/framed/ErrorCode;Lio/grpc/Status;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lio/grpc/okhttp/f;->p0(ILio/grpc/okhttp/internal/framed/ErrorCode;Lio/grpc/Status;)V
 
     return-void
@@ -2361,7 +2125,6 @@
         value = "lock"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->v:Lio/grpc/Status;
 
     if-eqz v0, :cond_5
@@ -2384,7 +2147,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-boolean v0, p0, Lio/grpc/okhttp/f;->y:Z
 
@@ -2395,18 +2157,14 @@
     :cond_1
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lio/grpc/okhttp/f;->y:Z
 
-    .line 4
     iget-object v1, p0, Lio/grpc/okhttp/f;->J:Lio/grpc/internal/KeepAliveManager;
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-virtual {v1}, Lio/grpc/internal/KeepAliveManager;->r()V
 
-    .line 6
     sget-object v1, Lio/grpc/internal/GrpcUtil;->I:Lio/grpc/internal/v2$d;
 
     iget-object v2, p0, Lio/grpc/okhttp/f;->I:Ljava/util/concurrent/ScheduledExecutorService;
@@ -2419,13 +2177,11 @@
 
     iput-object v1, p0, Lio/grpc/okhttp/f;->I:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lio/grpc/okhttp/f;->x:Lio/grpc/internal/a1;
 
     if-eqz v1, :cond_3
 
-    .line 8
     invoke-direct {p0}, Lio/grpc/okhttp/f;->b0()Ljava/lang/Throwable;
 
     move-result-object v2
@@ -2434,19 +2190,15 @@
 
     const/4 v1, 0x0
 
-    .line 9
     iput-object v1, p0, Lio/grpc/okhttp/f;->x:Lio/grpc/internal/a1;
 
-    .line 10
     :cond_3
     iget-boolean v1, p0, Lio/grpc/okhttp/f;->w:Z
 
     if-nez v1, :cond_4
 
-    .line 11
     iput-boolean v0, p0, Lio/grpc/okhttp/f;->w:Z
 
-    .line 12
     iget-object v0, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
     sget-object v1, Lio/grpc/okhttp/internal/framed/ErrorCode;->NO_ERROR:Lio/grpc/okhttp/internal/framed/ErrorCode;
@@ -2457,7 +2209,6 @@
 
     invoke-virtual {v0, v2, v1, v3}, Lio/grpc/okhttp/b;->Aa(ILio/grpc/okhttp/internal/framed/ErrorCode;[B)V
 
-    .line 13
     :cond_4
     iget-object v0, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
@@ -2471,7 +2222,6 @@
 .method static synthetic t(Lio/grpc/okhttp/f;Ljava/net/Socket;)Ljava/net/Socket;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/f;->D:Ljava/net/Socket;
 
     return-object p1
@@ -2480,7 +2230,6 @@
 .method static synthetic u(Lio/grpc/okhttp/f;Lio/grpc/InternalChannelz$e;)Lio/grpc/InternalChannelz$e;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/f;->T:Lio/grpc/InternalChannelz$e;
 
     return-object p1
@@ -2491,7 +2240,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/f;->X:Ljava/util/Map;
 
     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -2504,7 +2252,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object v0, Lio/grpc/Status;->i:Lio/grpc/Status;
 
@@ -2535,7 +2282,6 @@
 .method static synthetic v(Lio/grpc/okhttp/f;)Lio/grpc/internal/KeepAliveManager;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->J:Lio/grpc/internal/KeepAliveManager;
 
     return-object p0
@@ -2544,7 +2290,6 @@
 .method static synthetic w(Lio/grpc/okhttp/f;)Lio/grpc/okhttp/t;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->k:Lio/grpc/okhttp/t;
 
     return-object p0
@@ -2553,7 +2298,6 @@
 .method static synthetic x()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/f;->Y:Ljava/util/logging/Logger;
 
     return-object v0
@@ -2562,7 +2306,6 @@
 .method static synthetic y(Lio/grpc/okhttp/f;)Lio/grpc/okhttp/b;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
     return-object p0
@@ -2571,7 +2314,6 @@
 .method static synthetic z(Lio/grpc/okhttp/f;Lio/grpc/okhttp/internal/framed/ErrorCode;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/okhttp/f;->k0(Lio/grpc/okhttp/internal/framed/ErrorCode;Ljava/lang/String;)V
 
     return-void
@@ -2582,16 +2324,12 @@
 .method U(ZJJZ)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/okhttp/f;->K:Z
 
-    .line 2
     iput-wide p2, p0, Lio/grpc/okhttp/f;->L:J
 
-    .line 3
     iput-wide p4, p0, Lio/grpc/okhttp/f;->M:J
 
-    .line 4
     iput-boolean p6, p0, Lio/grpc/okhttp/f;->N:Z
 
     return-void
@@ -2612,12 +2350,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->o:Ljava/util/Map;
 
@@ -2635,7 +2371,6 @@
 
     if-eqz p5, :cond_0
 
-    .line 3
     iget-object p5, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
     sget-object v2, Lio/grpc/okhttp/internal/framed/ErrorCode;->CANCEL:Lio/grpc/okhttp/internal/framed/ErrorCode;
@@ -2645,7 +2380,6 @@
     :cond_0
     if-eqz p2, :cond_2
 
-    .line 4
     invoke-virtual {v1}, Lio/grpc/okhttp/e;->Z()Lio/grpc/okhttp/e$b;
 
     move-result-object p1
@@ -2654,17 +2388,14 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance p6, Lio/grpc/y0;
 
     invoke-direct {p6}, Lio/grpc/y0;-><init>()V
 
-    .line 6
     :goto_0
     invoke-virtual {p1, p2, p3, p4, p6}, Lio/grpc/internal/a$c;->O(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;ZLio/grpc/y0;)V
 
-    .line 7
     :cond_2
     invoke-direct {p0}, Lio/grpc/okhttp/f;->q0()Z
 
@@ -2672,13 +2403,10 @@
 
     if-nez p1, :cond_3
 
-    .line 8
     invoke-direct {p0}, Lio/grpc/okhttp/f;->s0()V
 
-    .line 9
     invoke-direct {p0, v1}, Lio/grpc/okhttp/f;->i0(Lio/grpc/okhttp/e;)V
 
-    .line 10
     :cond_3
     monitor-exit v0
 
@@ -2697,12 +2425,10 @@
 .method W()[Lio/grpc/okhttp/e;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->o:Ljava/util/Map;
 
@@ -2725,7 +2451,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -2738,7 +2463,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->t:Lio/grpc/okhttp/f$f;
 
     return-object v0
@@ -2749,28 +2473,24 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lio/grpc/internal/GrpcUtil;->c(Ljava/lang/String;)Ljava/net/URI;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/net/URI;->getHost()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/net/URI;->getHost()Ljava/lang/String;
 
     move-result-object v0
 
     return-object v0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lio/grpc/okhttp/f;->b:Ljava/lang/String;
 
@@ -2782,14 +2502,12 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lio/grpc/internal/GrpcUtil;->c(Ljava/lang/String;)Ljava/net/URI;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/net/URI;->getPort()I
 
     move-result v1
@@ -2798,14 +2516,12 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/net/URI;->getPort()I
 
     move-result v0
 
     return v0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lio/grpc/okhttp/f;->a:Ljava/net/InetSocketAddress;
 
@@ -2819,15 +2535,12 @@
 .method public a(Lio/grpc/Status;)V
     .locals 6
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/okhttp/f;->f(Lio/grpc/Status;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->o:Ljava/util/Map;
 
@@ -2839,7 +2552,6 @@
 
     move-result-object v1
 
-    .line 4
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -2847,17 +2559,14 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 6
     invoke-interface {v1}, Ljava/util/Iterator;->remove()V
 
-    .line 7
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -2876,7 +2585,6 @@
 
     invoke-virtual {v3, p1, v4, v5}, Lio/grpc/internal/a$c;->P(Lio/grpc/Status;ZLio/grpc/y0;)V
 
-    .line 8
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -2887,7 +2595,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->F:Ljava/util/Deque;
 
@@ -2908,7 +2615,6 @@
 
     check-cast v2, Lio/grpc/okhttp/e;
 
-    .line 10
     invoke-virtual {v2}, Lio/grpc/okhttp/e;->Z()Lio/grpc/okhttp/e$b;
 
     move-result-object v3
@@ -2921,21 +2627,17 @@
 
     invoke-virtual {v3, p1, v4, v5}, Lio/grpc/internal/a$c;->P(Lio/grpc/Status;ZLio/grpc/y0;)V
 
-    .line 11
     invoke-direct {p0, v2}, Lio/grpc/okhttp/f;->i0(Lio/grpc/okhttp/e;)V
 
     goto :goto_1
 
-    .line 12
     :cond_1
     iget-object p1, p0, Lio/grpc/okhttp/f;->F:Ljava/util/Deque;
 
     invoke-interface {p1}, Ljava/util/Deque;->clear()V
 
-    .line 13
     invoke-direct {p0}, Lio/grpc/okhttp/f;->s0()V
 
-    .line 14
     monitor-exit v0
 
     return-void
@@ -2955,12 +2657,10 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->F:Ljava/util/Deque;
 
@@ -2975,7 +2675,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -2988,17 +2687,14 @@
 
     const-string v0, "failureCause"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     sget-object v0, Lio/grpc/Status;->v:Lio/grpc/Status;
 
     invoke-virtual {v0, p1}, Lio/grpc/Status;->t(Ljava/lang/Throwable;)Lio/grpc/Status;
 
     move-result-object p1
 
-    .line 3
     sget-object v0, Lio/grpc/okhttp/internal/framed/ErrorCode;->INTERNAL_ERROR:Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     const/4 v1, 0x0
@@ -3011,7 +2707,6 @@
 .method public c()Lio/grpc/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->u:Lio/grpc/a;
 
     return-object v0
@@ -3022,7 +2717,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->A:Ljavax/net/SocketFactory;
 
     return-object v0
@@ -3031,7 +2725,6 @@
 .method public d()Lio/grpc/j0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->m:Lio/grpc/j0;
 
     return-object v0
@@ -3040,12 +2733,10 @@
 .method d0(I)Lio/grpc/okhttp/e;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->o:Ljava/util/Map;
 
@@ -3066,7 +2757,6 @@
     :catchall_0
     move-exception p1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -3077,12 +2767,10 @@
 .method public e(Lio/grpc/internal/v$a;Ljava/util/concurrent/Executor;)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
@@ -3102,24 +2790,20 @@
     :goto_0
     invoke-static {v1}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 3
     iget-boolean v1, p0, Lio/grpc/okhttp/f;->y:Z
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-direct {p0}, Lio/grpc/okhttp/f;->b0()Ljava/lang/Throwable;
 
     move-result-object v1
 
     invoke-static {p1, p2, v1}, Lio/grpc/internal/a1;->g(Lio/grpc/internal/v$a;Ljava/util/concurrent/Executor;Ljava/lang/Throwable;)V
 
-    .line 5
     monitor-exit v0
 
     return-void
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lio/grpc/okhttp/f;->x:Lio/grpc/internal/a1;
 
@@ -3131,7 +2815,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lio/grpc/okhttp/f;->d:Ljava/util/Random;
 
@@ -3139,7 +2822,6 @@
 
     move-result-wide v4
 
-    .line 8
     iget-object v1, p0, Lio/grpc/okhttp/f;->e:Lcom/google/common/base/z;
 
     invoke-interface {v1}, Lcom/google/common/base/z;->get()Ljava/lang/Object;
@@ -3148,17 +2830,14 @@
 
     check-cast v1, Lcom/google/common/base/x;
 
-    .line 9
     invoke-virtual {v1}, Lcom/google/common/base/x;->k()Lcom/google/common/base/x;
 
-    .line 10
     new-instance v6, Lio/grpc/internal/a1;
 
     invoke-direct {v6, v4, v5, v1}, Lio/grpc/internal/a1;-><init>(JLcom/google/common/base/x;)V
 
     iput-object v6, p0, Lio/grpc/okhttp/f;->x:Lio/grpc/internal/a1;
 
-    .line 11
     iget-object v1, p0, Lio/grpc/okhttp/f;->R:Lio/grpc/internal/g3;
 
     invoke-virtual {v1}, Lio/grpc/internal/g3;->c()V
@@ -3168,7 +2847,6 @@
     :goto_1
     if-eqz v2, :cond_3
 
-    .line 12
     iget-object v2, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
     const/16 v6, 0x20
@@ -3181,13 +2859,11 @@
 
     invoke-virtual {v2, v3, v7, v5}, Lio/grpc/okhttp/b;->ping(ZII)V
 
-    .line 13
     :cond_3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 14
     invoke-virtual {v1, p1, p2}, Lio/grpc/internal/a1;->a(Lio/grpc/internal/v$a;Ljava/util/concurrent/Executor;)V
 
     return-void
@@ -3195,7 +2871,6 @@
     :catchall_0
     move-exception p1
 
-    .line 15
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -3207,35 +2882,28 @@
 .method public f(Lio/grpc/Status;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->v:Lio/grpc/Status;
 
     if-eqz v1, :cond_0
 
-    .line 3
     monitor-exit v0
 
     return-void
 
-    .line 4
     :cond_0
     iput-object p1, p0, Lio/grpc/okhttp/f;->v:Lio/grpc/Status;
 
-    .line 5
     iget-object v1, p0, Lio/grpc/okhttp/f;->g:Lio/grpc/internal/o1$a;
 
     invoke-interface {v1, p1}, Lio/grpc/internal/o1$a;->b(Lio/grpc/Status;)V
 
-    .line 6
     invoke-direct {p0}, Lio/grpc/okhttp/f;->s0()V
 
-    .line 7
     monitor-exit v0
 
     return-void
@@ -3261,28 +2929,23 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/util/concurrent/v0;->G()Lcom/google/common/util/concurrent/v0;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lio/grpc/okhttp/f;->D:Ljava/net/Socket;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lio/grpc/InternalChannelz$j;
 
     iget-object v3, p0, Lio/grpc/okhttp/f;->R:Lio/grpc/internal/g3;
 
-    .line 5
     invoke-virtual {v3}, Lio/grpc/internal/g3;->b()Lio/grpc/InternalChannelz$m;
 
     move-result-object v4
@@ -3295,7 +2958,6 @@
 
     invoke-direct {v3}, Lio/grpc/InternalChannelz$i$a;-><init>()V
 
-    .line 6
     invoke-virtual {v3}, Lio/grpc/InternalChannelz$i$a;->d()Lio/grpc/InternalChannelz$i;
 
     move-result-object v7
@@ -3306,39 +2968,33 @@
 
     invoke-direct/range {v3 .. v8}, Lio/grpc/InternalChannelz$j;-><init>(Lio/grpc/InternalChannelz$m;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/grpc/InternalChannelz$i;Lio/grpc/InternalChannelz$e;)V
 
-    .line 7
     invoke-virtual {v0, v2}, Lcom/google/common/util/concurrent/v0;->C(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 8
     :cond_0
     new-instance v8, Lio/grpc/InternalChannelz$j;
 
     iget-object v2, p0, Lio/grpc/okhttp/f;->R:Lio/grpc/internal/g3;
 
-    .line 9
     invoke-virtual {v2}, Lio/grpc/internal/g3;->b()Lio/grpc/InternalChannelz$m;
 
     move-result-object v3
 
     iget-object v2, p0, Lio/grpc/okhttp/f;->D:Ljava/net/Socket;
 
-    .line 10
     invoke-virtual {v2}, Ljava/net/Socket;->getLocalSocketAddress()Ljava/net/SocketAddress;
 
     move-result-object v4
 
     iget-object v2, p0, Lio/grpc/okhttp/f;->D:Ljava/net/Socket;
 
-    .line 11
     invoke-virtual {v2}, Ljava/net/Socket;->getRemoteSocketAddress()Ljava/net/SocketAddress;
 
     move-result-object v5
 
     iget-object v2, p0, Lio/grpc/okhttp/f;->D:Ljava/net/Socket;
 
-    .line 12
     invoke-static {v2}, Lio/grpc/okhttp/u;->e(Ljava/net/Socket;)Lio/grpc/InternalChannelz$i;
 
     move-result-object v6
@@ -3349,10 +3005,8 @@
 
     invoke-direct/range {v2 .. v7}, Lio/grpc/InternalChannelz$j;-><init>(Lio/grpc/InternalChannelz$m;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/grpc/InternalChannelz$i;Lio/grpc/InternalChannelz$e;)V
 
-    .line 13
     invoke-virtual {v0, v8}, Lcom/google/common/util/concurrent/v0;->C(Ljava/lang/Object;)Z
 
-    .line 14
     :goto_0
     monitor-exit v1
 
@@ -3361,7 +3015,6 @@
     :catchall_0
     move-exception v0
 
-    .line 15
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -3372,7 +3025,6 @@
 .method g0()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->B:Ljavax/net/ssl/SSLSocketFactory;
 
     if-nez v0, :cond_0
@@ -3393,7 +3045,6 @@
 
     const-string v0, "listener"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -3402,12 +3053,10 @@
 
     iput-object p1, p0, Lio/grpc/okhttp/f;->g:Lio/grpc/internal/o1$a;
 
-    .line 2
     iget-boolean p1, p0, Lio/grpc/okhttp/f;->K:Z
 
     if-eqz p1, :cond_0
 
-    .line 3
     sget-object p1, Lio/grpc/internal/GrpcUtil;->I:Lio/grpc/internal/v2$d;
 
     invoke-static {p1}, Lio/grpc/internal/v2;->d(Lio/grpc/internal/v2$d;)Ljava/lang/Object;
@@ -3418,7 +3067,6 @@
 
     iput-object p1, p0, Lio/grpc/okhttp/f;->I:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 4
     new-instance p1, Lio/grpc/internal/KeepAliveManager;
 
     new-instance v1, Lio/grpc/internal/KeepAliveManager$c;
@@ -3439,10 +3087,8 @@
 
     iput-object p1, p0, Lio/grpc/okhttp/f;->J:Lio/grpc/internal/KeepAliveManager;
 
-    .line 5
     invoke-virtual {p1}, Lio/grpc/internal/KeepAliveManager;->q()V
 
-    .line 6
     :cond_0
     invoke-direct {p0}, Lio/grpc/okhttp/f;->f0()Z
 
@@ -3452,12 +3098,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 7
     iget-object p1, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter p1
 
-    .line 8
     :try_start_0
     new-instance v1, Lio/grpc/okhttp/b;
 
@@ -3469,19 +3113,16 @@
 
     iput-object v1, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
-    .line 9
     new-instance v2, Lio/grpc/okhttp/t;
 
     invoke-direct {v2, p0, v1}, Lio/grpc/okhttp/t;-><init>(Lio/grpc/okhttp/f;Lio/grpc/okhttp/internal/framed/b;)V
 
     iput-object v2, p0, Lio/grpc/okhttp/f;->k:Lio/grpc/okhttp/t;
 
-    .line 10
     monitor-exit p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 11
     iget-object p1, p0, Lio/grpc/okhttp/f;->q:Lio/grpc/internal/j2;
 
     new-instance v1, Lio/grpc/okhttp/f$c;
@@ -3495,7 +3136,6 @@
     :catchall_0
     move-exception v0
 
-    .line 12
     :try_start_1
     monitor-exit p1
     :try_end_1
@@ -3503,7 +3143,6 @@
 
     throw v0
 
-    .line 13
     :cond_1
     iget-object p1, p0, Lio/grpc/okhttp/f;->q:Lio/grpc/internal/j2;
 
@@ -3511,12 +3150,10 @@
 
     move-result-object p1
 
-    .line 14
     new-instance v1, Lio/grpc/okhttp/internal/framed/e;
 
     invoke-direct {v1}, Lio/grpc/okhttp/internal/framed/e;-><init>()V
 
-    .line 15
     invoke-static {p1}, Lokio/Okio;->buffer(Lokio/Sink;)Lokio/BufferedSink;
 
     move-result-object v2
@@ -3527,12 +3164,10 @@
 
     move-result-object v2
 
-    .line 16
     iget-object v4, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v4
 
-    .line 17
     :try_start_2
     new-instance v5, Lio/grpc/okhttp/b;
 
@@ -3540,24 +3175,20 @@
 
     iput-object v5, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
-    .line 18
     new-instance v2, Lio/grpc/okhttp/t;
 
     invoke-direct {v2, p0, v5}, Lio/grpc/okhttp/t;-><init>(Lio/grpc/okhttp/f;Lio/grpc/okhttp/internal/framed/b;)V
 
     iput-object v2, p0, Lio/grpc/okhttp/f;->k:Lio/grpc/okhttp/t;
 
-    .line 19
     monitor-exit v4
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
-    .line 20
     new-instance v2, Ljava/util/concurrent/CountDownLatch;
 
     invoke-direct {v2, v3}, Ljava/util/concurrent/CountDownLatch;-><init>(I)V
 
-    .line 21
     iget-object v3, p0, Lio/grpc/okhttp/f;->q:Lio/grpc/internal/j2;
 
     new-instance v4, Lio/grpc/okhttp/f$d;
@@ -3566,16 +3197,13 @@
 
     invoke-virtual {v3, v4}, Lio/grpc/internal/j2;->execute(Ljava/lang/Runnable;)V
 
-    .line 22
     :try_start_3
     invoke-virtual {p0}, Lio/grpc/okhttp/f;->n0()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 23
     invoke-virtual {v2}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
-    .line 24
     iget-object p1, p0, Lio/grpc/okhttp/f;->q:Lio/grpc/internal/j2;
 
     new-instance v1, Lio/grpc/okhttp/f$e;
@@ -3589,7 +3217,6 @@
     :catchall_1
     move-exception p1
 
-    .line 25
     invoke-virtual {v2}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
     throw p1
@@ -3597,7 +3224,6 @@
     :catchall_2
     move-exception p1
 
-    .line 26
     :try_start_4
     monitor-exit v4
     :try_end_4
@@ -3609,12 +3235,10 @@
 .method h0(I)Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget v1, p0, Lio/grpc/okhttp/f;->n:I
 
@@ -3639,7 +3263,6 @@
     :catchall_0
     move-exception p1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -3650,7 +3273,6 @@
 .method public bridge synthetic i(Lio/grpc/MethodDescriptor;Lio/grpc/y0;Lio/grpc/f;)Lio/grpc/internal/u;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lio/grpc/okhttp/f;->j0(Lio/grpc/MethodDescriptor;Lio/grpc/y0;Lio/grpc/f;)Lio/grpc/okhttp/e;
 
     move-result-object p1
@@ -3680,30 +3302,24 @@
 
     move-object/from16 v2, p1
 
-    .line 1
     invoke-static {v2, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "headers"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v1, v15, Lio/grpc/okhttp/f;->u:Lio/grpc/a;
 
     move-object/from16 v14, p3
 
-    .line 4
     invoke-static {v14, v1, v0}, Lio/grpc/internal/y2;->i(Lio/grpc/f;Lio/grpc/a;Lio/grpc/y0;)Lio/grpc/internal/y2;
 
     move-result-object v12
 
-    .line 5
     iget-object v13, v15, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v13
 
-    .line 6
     :try_start_0
     new-instance v16, Lio/grpc/okhttp/e;
 
@@ -3759,7 +3375,6 @@
 
     move-object/from16 v18, v13
 
-    .line 7
     :goto_0
     monitor-exit v18
     :try_end_1
@@ -3779,12 +3394,10 @@
         value = "lock"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->F:Ljava/util/Deque;
 
     invoke-interface {v0, p1}, Ljava/util/Deque;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-direct {p0, p1}, Lio/grpc/okhttp/f;->i0(Lio/grpc/okhttp/e;)V
 
     return-void
@@ -3795,42 +3408,35 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
     invoke-virtual {v1}, Lio/grpc/okhttp/b;->connectionPreface()V
 
-    .line 3
     new-instance v1, Lio/grpc/okhttp/internal/framed/g;
 
     invoke-direct {v1}, Lio/grpc/okhttp/internal/framed/g;-><init>()V
 
     const/4 v2, 0x7
 
-    .line 4
     iget v3, p0, Lio/grpc/okhttp/f;->f:I
 
     invoke-static {v1, v2, v3}, Lio/grpc/okhttp/p;->c(Lio/grpc/okhttp/internal/framed/g;II)V
 
-    .line 5
     iget-object v2, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
     invoke-virtual {v2, v1}, Lio/grpc/okhttp/b;->L3(Lio/grpc/okhttp/internal/framed/g;)V
 
-    .line 6
     iget v1, p0, Lio/grpc/okhttp/f;->f:I
 
     const v2, 0xffff
 
     if-le v1, v2, :cond_0
 
-    .line 7
     iget-object v3, p0, Lio/grpc/okhttp/f;->j:Lio/grpc/okhttp/b;
 
     const/4 v4, 0x0
@@ -3841,7 +3447,6 @@
 
     invoke-virtual {v3, v4, v1, v2}, Lio/grpc/okhttp/b;->windowUpdate(IJ)V
 
-    .line 8
     :cond_0
     monitor-exit v0
 
@@ -3863,12 +3468,10 @@
         value = "lock"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f;->v:Lio/grpc/Status;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lio/grpc/okhttp/e;->Z()Lio/grpc/okhttp/e$b;
 
     move-result-object p1
@@ -3887,7 +3490,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/grpc/okhttp/f;->o:Ljava/util/Map;
 
@@ -3899,17 +3501,14 @@
 
     if-lt v0, v1, :cond_1
 
-    .line 4
     iget-object v0, p0, Lio/grpc/okhttp/f;->F:Ljava/util/Deque;
 
     invoke-interface {v0, p1}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
 
-    .line 5
     invoke-direct {p0, p1}, Lio/grpc/okhttp/f;->o0(Lio/grpc/okhttp/e;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-direct {p0, p1}, Lio/grpc/okhttp/f;->r0(Lio/grpc/okhttp/e;)V
 
@@ -3920,14 +3519,12 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
     iget-object v1, p0, Lio/grpc/okhttp/f;->m:Lio/grpc/j0;
 
-    .line 2
     invoke-virtual {v1}, Lio/grpc/j0;->e()J
 
     move-result-wide v1
@@ -3942,12 +3539,10 @@
 
     const-string v2, "address"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

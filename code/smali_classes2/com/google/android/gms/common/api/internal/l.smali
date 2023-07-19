@@ -83,10 +83,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/common/api/internal/l$c;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/api/internal/l$c;-><init>(Lcom/google/android/gms/common/api/internal/l;Landroid/os/Looper;)V
@@ -95,14 +93,12 @@
 
     const-string p1, "Listener must not be null"
 
-    .line 3
     invoke-static {p2, p1}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/l;->b:Ljava/lang/Object;
 
-    .line 4
     new-instance p1, Lcom/google/android/gms/common/api/internal/l$a;
 
     invoke-static {p3}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
@@ -125,7 +121,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/l;->b:Ljava/lang/Object;
 
     return-void
@@ -149,7 +144,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/l;->c:Lcom/google/android/gms/common/api/internal/l$a;
 
     return-object v0
@@ -160,7 +154,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/l;->b:Ljava/lang/Object;
 
     if-eqz v0, :cond_0
@@ -192,10 +185,8 @@
 
     const-string v0, "Notifier must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/l;->a:Lcom/google/android/gms/common/api/internal/l$c;
 
     const/4 v1, 0x1
@@ -204,7 +195,6 @@
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/l;->a:Lcom/google/android/gms/common/api/internal/l$c;
 
     invoke-virtual {v0, p1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
@@ -227,17 +217,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/l;->b:Ljava/lang/Object;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p1}, Lcom/google/android/gms/common/api/internal/l$b;->b()V
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_0
     invoke-interface {p1, v0}, Lcom/google/android/gms/common/api/internal/l$b;->a(Ljava/lang/Object;)V
@@ -249,9 +236,7 @@
     :catch_0
     move-exception v0
 
-    .line 4
     invoke-interface {p1}, Lcom/google/android/gms/common/api/internal/l$b;->b()V
 
-    .line 5
     throw v0
 .end method

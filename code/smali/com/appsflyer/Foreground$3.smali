@@ -31,17 +31,14 @@
 .method constructor <init>(Lcom/appsflyer/Foreground$Listener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/Foreground$3;->$$a:Lcom/appsflyer/Foreground$Listener;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/appsflyer/Foreground$3;->$$b:Z
 
-    .line 3
     invoke-static {}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor()Ljava/util/concurrent/ExecutorService;
 
     move-result-object p1
@@ -60,7 +57,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p2, p0, Lcom/appsflyer/Foreground$3;->AFDateFormat:Ljava/util/concurrent/Executor;
 
     new-instance v0, Lcom/appsflyer/Foreground$3$2;
@@ -85,7 +81,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/Foreground$3;->AFDateFormat:Ljava/util/concurrent/Executor;
 
     new-instance v1, Lcom/appsflyer/Foreground$3$5;
@@ -100,7 +95,6 @@
 .method public final onActivityResumed(Landroid/app/Activity;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/Foreground$3;->AFDateFormat:Ljava/util/concurrent/Executor;
 
     new-instance v1, Lcom/appsflyer/Foreground$3$3;

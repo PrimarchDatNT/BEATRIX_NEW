@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lf/f/b/b/h/c/i;
 
     invoke-direct {v0}, Lf/f/b/b/h/c/i;-><init>()V
@@ -24,7 +23,6 @@
 .method public static a(Ljava/io/InputStream;J)Ljava/io/InputStream;
     .locals 2
 
-    .line 1
     new-instance p1, Lf/f/b/b/h/c/l;
 
     const-wide/32 v0, 0x100001
@@ -42,10 +40,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lf/f/b/b/h/c/g;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Ljava/util/ArrayDeque;
 
     const/16 v1, 0x14
@@ -67,14 +63,12 @@
 
     sub-int/2addr v5, v3
 
-    .line 3
     invoke-static {v2, v5}, Ljava/lang/Math;->min(II)I
 
     move-result v5
 
     new-array v6, v5, [B
 
-    .line 4
     invoke-interface {v0, v6}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
 
     const/4 v7, 0x0
@@ -84,14 +78,12 @@
 
     sub-int v8, v5, v7
 
-    .line 5
     invoke-virtual {p0, v6, v7, v8}, Ljava/io/InputStream;->read([BII)I
 
     move-result v8
 
     if-ne v8, v4, :cond_0
 
-    .line 6
     invoke-static {v0, v3}, Lf/f/b/b/h/c/j;->c(Ljava/util/Deque;I)[B
 
     move-result-object p0
@@ -108,14 +100,12 @@
     :cond_1
     const/4 v4, 0x2
 
-    .line 7
     invoke-static {v2, v4}, Lf/f/b/b/h/c/n;->a(II)I
 
     move-result v2
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-virtual {p0}, Ljava/io/InputStream;->read()I
 
@@ -123,14 +113,12 @@
 
     if-ne p0, v4, :cond_3
 
-    .line 9
     invoke-static {v0, v5}, Lf/f/b/b/h/c/j;->c(Ljava/util/Deque;I)[B
 
     move-result-object p0
 
     return-object p0
 
-    .line 10
     :cond_3
     new-instance p0, Ljava/lang/OutOfMemoryError;
 
@@ -151,7 +139,6 @@
         }
     .end annotation
 
-    .line 1
     new-array v0, p1, [B
 
     move v1, p1
@@ -159,14 +146,12 @@
     :goto_0
     if-lez v1, :cond_0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Deque;->removeFirst()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, [B
 
-    .line 3
     array-length v3, v2
 
     invoke-static {v1, v3}, Ljava/lang/Math;->min(II)I
@@ -177,7 +162,6 @@
 
     const/4 v5, 0x0
 
-    .line 4
     invoke-static {v2, v5, v0, v4, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     sub-int/2addr v1, v3

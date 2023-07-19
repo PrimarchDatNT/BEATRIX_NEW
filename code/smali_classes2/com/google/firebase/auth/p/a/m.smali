@@ -40,16 +40,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/firebase/auth/p/a/m;->a:I
 
-    .line 3
     iput p2, p0, Lcom/google/firebase/auth/p/a/m;->b:I
 
-    .line 4
     invoke-static {p3}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -66,7 +62,6 @@
 .method public final a(Ljava/lang/String;)Z
     .locals 4
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/auth/p/a/m;->a:I
 
     const/4 v1, 0x1
@@ -75,7 +70,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget v2, p0, Lcom/google/firebase/auth/p/a/m;->b:I
 
@@ -85,7 +79,6 @@
 
     return v3
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/m;->c:Ljava/util/Map;
 
@@ -97,12 +90,10 @@
 
     if-nez p1, :cond_2
 
-    .line 4
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
-    .line 5
     :cond_2
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 

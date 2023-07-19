@@ -34,24 +34,20 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/common/video/videocache/v/d;->b(Landroid/content/Context;)Lcom/meitu/common/video/videocache/v/c;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/common/video/videocache/h$b;->d:Lcom/meitu/common/video/videocache/v/c;
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/common/video/videocache/r;->c(Landroid/content/Context;)Ljava/io/File;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/common/video/videocache/h$b;->a:Ljava/io/File;
 
-    .line 4
     new-instance p1, Lcom/meitu/common/video/videocache/t/h;
 
     const-wide/32 v0, 0x20000000
@@ -60,14 +56,12 @@
 
     iput-object p1, p0, Lcom/meitu/common/video/videocache/h$b;->c:Lcom/meitu/common/video/videocache/t/a;
 
-    .line 5
     new-instance p1, Lcom/meitu/common/video/videocache/t/f;
 
     invoke-direct {p1}, Lcom/meitu/common/video/videocache/t/f;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/common/video/videocache/h$b;->b:Lcom/meitu/common/video/videocache/t/c;
 
-    .line 6
     new-instance p1, Lcom/meitu/common/video/videocache/u/a;
 
     invoke-direct {p1}, Lcom/meitu/common/video/videocache/u/a;-><init>()V
@@ -84,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/h$b;->c()Lcom/meitu/common/video/videocache/e;
 
     move-result-object p0
@@ -101,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lcom/meitu/common/video/videocache/e;
 
     iget-object v2, p0, Lcom/meitu/common/video/videocache/h$b;->a:Ljava/io/File;
@@ -132,12 +124,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/h$b;->c()Lcom/meitu/common/video/videocache/e;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/meitu/common/video/videocache/h;
 
     const/4 v3, 0x0
@@ -156,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/common/video/videocache/m;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -165,7 +154,6 @@
 
     iput-object p1, p0, Lcom/meitu/common/video/videocache/h$b;->a:Ljava/io/File;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -178,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/common/video/videocache/m;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -187,7 +174,6 @@
 
     iput-object p1, p0, Lcom/meitu/common/video/videocache/h$b;->c:Lcom/meitu/common/video/videocache/t/a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -200,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/common/video/videocache/m;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -209,7 +194,6 @@
 
     iput-object p1, p0, Lcom/meitu/common/video/videocache/h$b;->b:Lcom/meitu/common/video/videocache/t/c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -222,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/common/video/videocache/m;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -231,7 +214,6 @@
 
     iput-object p1, p0, Lcom/meitu/common/video/videocache/h$b;->e:Lcom/meitu/common/video/videocache/u/b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -244,14 +226,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/common/video/videocache/t/g;
 
     invoke-direct {v1, p1}, Lcom/meitu/common/video/videocache/t/g;-><init>(I)V
 
     iput-object v1, p0, Lcom/meitu/common/video/videocache/h$b;->c:Lcom/meitu/common/video/videocache/t/a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -264,14 +244,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/common/video/videocache/t/h;
 
     invoke-direct {v1, p1, p2}, Lcom/meitu/common/video/videocache/t/h;-><init>(J)V
 
     iput-object v1, p0, Lcom/meitu/common/video/videocache/h$b;->c:Lcom/meitu/common/video/videocache/t/a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

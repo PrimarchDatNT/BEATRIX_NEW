@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method public a()Lcom/google/common/cache/a$b;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/cache/a$a;
 
     invoke-direct {v0}, Lcom/google/common/cache/a$a;-><init>()V
@@ -52,7 +50,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/CacheBuilder$b;->a()Lcom/google/common/cache/a$b;
 
     move-result-object v0

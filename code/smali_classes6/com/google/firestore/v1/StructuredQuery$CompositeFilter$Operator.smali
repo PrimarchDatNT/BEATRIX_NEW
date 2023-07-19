@@ -58,7 +58,6 @@
 .method static constructor <clinit>()V
     .locals 8
 
-    .line 1
     new-instance v0, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
 
     const-string v1, "OPERATOR_UNSPECIFIED"
@@ -69,7 +68,6 @@
 
     sput-object v0, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;->OPERATOR_UNSPECIFIED:Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
 
-    .line 2
     new-instance v1, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
 
     const-string v3, "AND"
@@ -80,7 +78,6 @@
 
     sput-object v1, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;->AND:Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
 
-    .line 3
     new-instance v3, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
 
     const-string v5, "UNRECOGNIZED"
@@ -103,10 +100,8 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;->$VALUES:[Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
 
-    .line 5
     new-instance v0, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator$a;
 
     invoke-direct {v0}, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator$a;-><init>()V
@@ -124,10 +119,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;->value:I
 
     return-void
@@ -146,13 +139,11 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;->AND:Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;->OPERATOR_UNSPECIFIED:Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
 
@@ -170,7 +161,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;->internalValueMap:Lcom/google/protobuf/z0$d;
 
     return-object v0
@@ -181,7 +171,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;->forNumber(I)Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
 
     move-result-object p0
@@ -192,7 +181,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -207,7 +195,6 @@
 .method public static values()[Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;->$VALUES:[Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;
 
     invoke-virtual {v0}, [Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;->clone()Ljava/lang/Object;
@@ -224,7 +211,6 @@
 .method public final getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firestore/v1/StructuredQuery$CompositeFilter$Operator;->value:I
 
     return v0

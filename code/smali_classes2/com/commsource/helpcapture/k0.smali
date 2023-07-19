@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -74,7 +73,6 @@
 
     sput-object v1, Lcom/commsource/helpcapture/k0;->x:Ljava/lang/String;
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -91,7 +89,6 @@
 
     sput-object v2, Lcom/commsource/helpcapture/k0;->y:Ljava/lang/String;
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -110,12 +107,10 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 4
     sput v1, Lcom/commsource/helpcapture/k0;->C:F
 
     const/4 v1, 0x0
 
-    .line 5
     sput v1, Lcom/commsource/helpcapture/k0;->D:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -126,7 +121,6 @@
 .method private constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/util/common/l;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
@@ -139,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x2
@@ -154,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const v0, 0x3e4ccccd    # 0.2f
@@ -169,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const v0, 0x3e4ccccd    # 0.2f
@@ -184,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const v0, 0x3f666666    # 0.9f
@@ -199,25 +189,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/helpcapture/k0;->x:Ljava/lang/String;
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result v3
 
     if-nez v3, :cond_0
 
-    .line 4
     invoke-virtual {v2}, Ljava/io/File;->mkdir()Z
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -231,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/helpcapture/k0;->C:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -246,23 +230,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/helpcapture/k0;->n:Lcom/commsource/helpcapture/k0;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/helpcapture/k0;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/helpcapture/k0;->n:Lcom/commsource/helpcapture/k0;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/helpcapture/k0;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -275,7 +255,6 @@
 
     sput-object v2, Lcom/commsource/helpcapture/k0;->n:Lcom/commsource/helpcapture/k0;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -292,7 +271,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/helpcapture/k0;->n:Lcom/commsource/helpcapture/k0;
@@ -309,7 +287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/helpcapture/k0;->Q()Lcom/commsource/helpcapture/k0;
 
     move-result-object v1
@@ -334,7 +311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/helpcapture/k0;->Q()Lcom/commsource/helpcapture/k0;
 
     move-result-object v1
@@ -359,7 +335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/helpcapture/k0;->y:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
@@ -396,7 +371,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     sget-object v2, Lcom/commsource/helpcapture/k0;->y:Ljava/lang/String;
@@ -421,7 +395,6 @@
 
     invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/o0;->b(Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v1
@@ -441,7 +414,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -455,7 +427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/helpcapture/k0;->Q()Lcom/commsource/helpcapture/k0;
 
     move-result-object v1
@@ -480,7 +451,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/helpcapture/k0;->Q()Lcom/commsource/helpcapture/k0;
 
     move-result-object v1
@@ -505,7 +475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/helpcapture/k0;->Q()Lcom/commsource/helpcapture/k0;
 
     move-result-object v1
@@ -530,7 +499,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/helpcapture/k0;->Q()Lcom/commsource/helpcapture/k0;
 
     move-result-object v1
@@ -539,7 +507,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -552,7 +519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/helpcapture/k0;->Q()Lcom/commsource/helpcapture/k0;
 
     move-result-object v1
@@ -563,7 +529,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -576,7 +541,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/helpcapture/k0;->Q()Lcom/commsource/helpcapture/k0;
 
     move-result-object v1
@@ -587,7 +551,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -600,10 +563,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/helpcapture/k0;->C:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -620,7 +581,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/helpcapture/k0;->Q()Lcom/commsource/helpcapture/k0;
 
     move-result-object v1
@@ -629,7 +589,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->F(Ljava/lang/String;I)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -642,7 +601,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/helpcapture/k0;->Q()Lcom/commsource/helpcapture/k0;
 
     move-result-object v1
@@ -651,7 +609,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

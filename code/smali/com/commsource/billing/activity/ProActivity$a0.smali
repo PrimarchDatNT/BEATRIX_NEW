@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/billing/activity/ProActivity$a0;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v0}, Lcom/commsource/billing/activity/ProActivity;->N0(Lcom/commsource/billing/activity/ProActivity;)Ljava/lang/String;
@@ -63,15 +62,12 @@
 
     const-string/jumbo v2, "type"
 
-    .line 2
     invoke-static {v1, v2, v0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/billing/activity/ProActivity$a0;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v0}, Lcom/commsource/billing/activity/ProActivity;->S0(Lcom/commsource/billing/activity/ProActivity;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -22,7 +22,6 @@
 .method constructor <init>(Ljava/lang/String;Lcom/commsource/comic/widget/c;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/commsource/comic/widget/c$a;->g:Lcom/commsource/comic/widget/c;
 
     invoke-direct {p0, p1}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -48,7 +47,6 @@
 
     const-wide/16 v3, 0x3e8
 
-    .line 1
     :try_start_0
     invoke-static {v3, v4}, Ljava/lang/Thread;->sleep(J)V
 
@@ -56,7 +54,6 @@
 
     mul-int/lit8 v3, v3, 0xa
 
-    .line 2
     new-instance v2, Lcom/commsource/comic/widget/c$a$a;
 
     invoke-direct {v2, p0, v3}, Lcom/commsource/comic/widget/c$a$a;-><init>(Lcom/commsource/comic/widget/c$a;I)V
@@ -70,7 +67,6 @@
     :catch_0
     move-exception v2
 
-    .line 3
     invoke-virtual {v2}, Ljava/lang/InterruptedException;->printStackTrace()V
 
     :goto_1
@@ -78,7 +74,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/comic/widget/c$a;->g:Lcom/commsource/comic/widget/c;
 
@@ -90,7 +85,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/g2;->g(Ljava/lang/Runnable;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

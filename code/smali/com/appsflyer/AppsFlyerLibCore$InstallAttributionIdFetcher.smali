@@ -52,7 +52,6 @@
 .method static synthetic $$b(Ljava/util/Map;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "[GCD-A02] Calling onConversionDataSuccess with:\n"
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Lcom/appsflyer/AppsFlyerLibCore;->conversionDataListener:Lcom/appsflyer/AppsFlyerConversionListener;
 
     invoke-interface {v0, p0}, Lcom/appsflyer/AppsFlyerConversionListener;->onConversionDataSuccess(Ljava/util/Map;)V
@@ -88,7 +86,6 @@
 
     const-string v2, "googleplaystore"
 
-    .line 1
     filled-new-array {v0, v1, v2}, [Ljava/lang/String;
 
     move-result-object v0
@@ -105,10 +102,8 @@
 .method private constructor <init>(Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;)V
     .locals 2
 
-    .line 9
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 10
     invoke-static {}, Lcom/appsflyer/AFExecutor;->getInstance()Lcom/appsflyer/AFExecutor;
 
     move-result-object v0
@@ -119,7 +114,6 @@
 
     iput-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->values:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 11
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v1, 0x0
@@ -128,22 +122,18 @@
 
     iput-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDeepLinkManager:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 12
     iget-object v0, p1, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->$$b:Lcom/appsflyer/AppsFlyerLibCore;
 
     iput-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->$$b:Lcom/appsflyer/AppsFlyerLibCore;
 
-    .line 13
     iget-object v0, p1, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDateFormat:Landroid/app/Application;
 
     iput-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDateFormat:Landroid/app/Application;
 
-    .line 14
     iget-object v0, p1, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->valueOf:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->valueOf:Ljava/lang/String;
 
-    .line 15
     iget p1, p1, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->dateFormatUTC:I
 
     add-int/lit8 p1, p1, 0x1
@@ -156,10 +146,8 @@
 .method private constructor <init>(Lcom/appsflyer/AppsFlyerLibCore;Landroid/app/Application;Ljava/lang/String;)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {}, Lcom/appsflyer/AFExecutor;->getInstance()Lcom/appsflyer/AFExecutor;
 
     move-result-object v0
@@ -170,7 +158,6 @@
 
     iput-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->values:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 4
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v1, 0x0
@@ -179,16 +166,12 @@
 
     iput-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDeepLinkManager:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 5
     iput-object p1, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->$$b:Lcom/appsflyer/AppsFlyerLibCore;
 
-    .line 6
     iput-object p2, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDateFormat:Landroid/app/Application;
 
-    .line 7
     iput-object p3, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->valueOf:Ljava/lang/String;
 
-    .line 8
     iput v1, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->dateFormatUTC:I
 
     return-void
@@ -197,7 +180,6 @@
 .method synthetic constructor <init>(Lcom/appsflyer/AppsFlyerLibCore;Landroid/app/Application;Ljava/lang/String;B)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;-><init>(Lcom/appsflyer/AppsFlyerLibCore;Landroid/app/Application;Ljava/lang/String;)V
 
     return-void
@@ -206,7 +188,6 @@
 .method static synthetic AFDateFormat(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->valueOf(Ljava/lang/String;)V
 
     return-void
@@ -224,7 +205,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -247,7 +227,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -277,12 +256,10 @@
 .method private static valueOf(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/appsflyer/AppsFlyerLibCore;->conversionDataListener:Lcom/appsflyer/AppsFlyerConversionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -295,7 +272,6 @@
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 3
     sget-object v0, Lcom/appsflyer/AppsFlyerLibCore;->conversionDataListener:Lcom/appsflyer/AppsFlyerConversionListener;
 
     invoke-interface {v0, p0}, Lcom/appsflyer/AppsFlyerConversionListener;->onConversionDataFail(Ljava/lang/String;)V
@@ -313,7 +289,6 @@
 
     const-string v1, "af_siteid"
 
-    .line 1
     iget-object v2, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->valueOf:Ljava/lang/String;
 
     if-eqz v2, :cond_14
@@ -326,7 +301,6 @@
 
     goto/16 :goto_9
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->$$b:Lcom/appsflyer/AppsFlyerLibCore;
 
@@ -338,17 +312,14 @@
 
     const-string v0, "[GCD-E03] \'isStopTracking\' enabled"
 
-    .line 3
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
     const-string v0, "\'isStopTracking\' enabled"
 
-    .line 4
     invoke-static {v0}, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->valueOf(Ljava/lang/String;)V
 
     return-void
 
-    .line 5
     :cond_1
     iget-object v2, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDeepLinkManager:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -358,7 +329,6 @@
 
     const/4 v3, 0x2
 
-    .line 6
     :try_start_0
     iget-object v4, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDateFormat:Landroid/app/Application;
 
@@ -366,34 +336,28 @@
 
     const-string v0, "[GCD-E06] Context null"
 
-    .line 7
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
     const-string v0, "Context null"
 
-    .line 8
     invoke-static {v0}, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->valueOf(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 9
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDeepLinkManager:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->decrementAndGet()I
 
     return-void
 
-    .line 10
     :cond_2
     :try_start_1
     iget-object v5, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->$$b:Lcom/appsflyer/AppsFlyerLibCore;
 
-    .line 11
     invoke-virtual {v5, v4}, Lcom/appsflyer/AppsFlyerLibCore;->getConfiguredChannel(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 12
     invoke-static {v5, v4, v6}, Lcom/appsflyer/AppsFlyerLibCore;->AFDateFormat(Lcom/appsflyer/AppsFlyerLibCore;Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -408,7 +372,6 @@
 
     if-eqz v4, :cond_4
 
-    .line 13
     :try_start_2
     sget-object v8, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->$$a:Ljava/util/List;
 
@@ -424,7 +387,6 @@
 
     const-string v8, "-"
 
-    .line 14
     invoke-static {v4}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
@@ -442,7 +404,6 @@
 
     aput-object v4, v9, v6
 
-    .line 15
     invoke-static {v8, v9}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
@@ -452,7 +413,6 @@
     :cond_4
     move-object v4, v5
 
-    .line 16
     :goto_0
     new-instance v8, Ljava/lang/StringBuilder;
 
@@ -468,7 +428,6 @@
 
     iget-object v9, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDateFormat:Landroid/app/Application;
 
-    .line 17
     invoke-virtual {v9}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v9
@@ -495,7 +454,6 @@
 
     invoke-direct {v4, v9}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    .line 18
     invoke-static {v4}, Lcom/appsflyer/Installation;->id(Ljava/lang/ref/WeakReference;)Ljava/lang/String;
 
     move-result-object v4
@@ -506,14 +464,12 @@
 
     move-result-object v4
 
-    .line 19
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
     move-result-object v8
 
     const-string v9, "server_request"
 
-    .line 20
     filled-new-array {v5}, [Ljava/lang/String;
 
     move-result-object v5
@@ -522,7 +478,6 @@
 
     const-string v5, "[GCD-B01] URL: "
 
-    .line 21
     invoke-static {v4}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v8
@@ -533,12 +488,10 @@
 
     invoke-static {v5}, Lcom/appsflyer/internal/w;->$$a(Ljava/lang/String;)V
 
-    .line 22
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v8
 
-    .line 23
     new-instance v5, Ljava/net/URL;
 
     invoke-direct {v5, v4}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
@@ -554,37 +507,30 @@
     :try_start_3
     const-string v2, "GET"
 
-    .line 24
     invoke-virtual {v5, v2}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     const/16 v2, 0x2710
 
-    .line 25
     invoke-virtual {v5, v2}, Ljava/net/URLConnection;->setConnectTimeout(I)V
 
     const-string v2, "Connection"
 
     const-string v10, "close"
 
-    .line 26
     invoke-virtual {v5, v2, v10}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 27
     invoke-virtual {v5}, Ljava/net/URLConnection;->connect()V
 
-    .line 28
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v2
 
-    .line 29
     iget-object v10, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->$$b:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-virtual {v10, v5}, Lcom/appsflyer/AppsFlyerLibCore;->readServerResponse(Ljava/net/HttpURLConnection;)Ljava/lang/String;
 
     move-result-object v10
 
-    .line 30
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
     move-result-object v11
@@ -593,7 +539,6 @@
 
     new-array v13, v3, [Ljava/lang/String;
 
-    .line 31
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v14
@@ -623,18 +568,15 @@
 
     if-lt v2, v0, :cond_7
 
-    .line 32
     :cond_6
     iget v0, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->dateFormatUTC:I
 
     if-ge v0, v3, :cond_7
 
-    .line 33
     new-instance v0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;
 
     invoke-direct {v0, p0}, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;-><init>(Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;)V
 
-    .line 34
     iget-object v1, v0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->values:Ljava/util/concurrent/ScheduledExecutorService;
 
     sget-object v2, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
@@ -646,7 +588,6 @@
     :cond_7
     const-string v0, "Error connection to server: "
 
-    .line 35
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -659,7 +600,6 @@
 
     goto/16 :goto_5
 
-    .line 36
     :cond_8
     :goto_1
     new-instance v4, Lorg/json/JSONObject;
@@ -668,7 +608,6 @@
 
     const-string v12, "net"
 
-    .line 37
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v13
@@ -679,12 +618,10 @@
 
     const-string v8, "retries"
 
-    .line 38
     iget v9, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->dateFormatUTC:I
 
     invoke-virtual {v4, v8, v9}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 39
     invoke-static {}, Lcom/appsflyer/AppsFlyerLibCore;->getInstance()Lcom/appsflyer/AppsFlyerLibCore;
 
     move-result-object v8
@@ -701,7 +638,6 @@
 
     const-string v4, "Attribution data: "
 
-    .line 40
     invoke-static {v10}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v8
@@ -712,21 +648,18 @@
 
     invoke-static {v4}, Lcom/appsflyer/internal/w;->$$a(Ljava/lang/String;)V
 
-    .line 41
     invoke-virtual {v10}, Ljava/lang/String;->length()I
 
     move-result v4
 
     if-lez v4, :cond_10
 
-    .line 42
     invoke-static {v10}, Lcom/appsflyer/AppsFlyerLibCore;->values(Ljava/lang/String;)Ljava/util/Map;
 
     move-result-object v4
 
     const-string v8, "iscache"
 
-    .line 43
     invoke-interface {v4, v8}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
@@ -737,39 +670,33 @@
 
     const-string v2, "error_reason"
 
-    .line 44
     invoke-interface {v4, v2}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string/jumbo v2, "status_code"
 
-    .line 45
     invoke-interface {v4, v2}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v2, "af_status"
 
     const-string v9, "Organic"
 
-    .line 46
     invoke-interface {v4, v2, v9}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v2, "af_message"
 
     const-string v9, "organic install"
 
-    .line 47
     invoke-interface {v4, v2, v9}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_9
     if-eqz v8, :cond_a
 
-    .line 48
     invoke-virtual {v8}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v2
 
     if-nez v2, :cond_a
 
-    .line 49
     iget-object v2, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->$$b:Lcom/appsflyer/AppsFlyerLibCore;
 
     iget-object v8, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDateFormat:Landroid/app/Application;
@@ -782,7 +709,6 @@
 
     invoke-static {v2, v8, v9, v11, v12}, Lcom/appsflyer/AppsFlyerLibCore;->$$b(Lcom/appsflyer/AppsFlyerLibCore;Landroid/content/Context;Ljava/lang/String;J)V
 
-    .line 50
     :cond_a
     invoke-interface {v4, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
@@ -796,7 +722,6 @@
 
     if-eqz v2, :cond_c
 
-    .line 51
     :try_start_4
     invoke-interface {v4, v9}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
@@ -804,7 +729,6 @@
 
     if-eqz v2, :cond_b
 
-    .line 52
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
@@ -828,21 +752,18 @@
 
     new-array v11, v7, [Ljava/lang/Object;
 
-    .line 53
     invoke-interface {v4, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v12
 
     aput-object v12, v11, v6
 
-    .line 54
     invoke-static {v2, v11}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
 
     invoke-static {v2}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 55
     :cond_c
     :goto_2
     invoke-interface {v4, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -851,7 +772,6 @@
 
     if-eqz v1, :cond_d
 
-    .line 56
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
@@ -868,13 +788,11 @@
 
     invoke-static {v1}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 57
     :cond_d
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     invoke-interface {v4, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 58
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1, v4}, Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
@@ -889,7 +807,6 @@
 
     if-eqz v1, :cond_e
 
-    .line 59
     :try_start_5
     iget-object v8, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->$$b:Lcom/appsflyer/AppsFlyerLibCore;
 
@@ -899,7 +816,6 @@
 
     goto :goto_3
 
-    .line 60
     :cond_e
     iget-object v1, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->$$b:Lcom/appsflyer/AppsFlyerLibCore;
 
@@ -907,13 +823,11 @@
 
     invoke-static {v1, v8, v2, v10}, Lcom/appsflyer/AppsFlyerLibCore;->AFDateFormat(Lcom/appsflyer/AppsFlyerLibCore;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 61
     :goto_3
     sget-object v1, Lcom/appsflyer/AppsFlyerLibCore;->conversionDataListener:Lcom/appsflyer/AppsFlyerConversionListener;
 
     if-eqz v1, :cond_10
 
-    .line 62
     iget-object v1, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDeepLinkManager:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v1}, Ljava/lang/Number;->intValue()I
@@ -924,7 +838,6 @@
 
     if-gt v1, v7, :cond_10
 
-    .line 63
     :try_start_6
     iget-object v1, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->$$b:Lcom/appsflyer/AppsFlyerLibCore;
 
@@ -934,7 +847,6 @@
 
     move-result-object v1
 
-    .line 64
     iget-object v2, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDateFormat:Landroid/app/Application;
 
     invoke-static {v2}, Lcom/appsflyer/AppsFlyerLibCore;->getSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
@@ -943,14 +855,12 @@
 
     const-string/jumbo v7, "sixtyDayConversionData"
 
-    .line 65
     invoke-interface {v2, v7, v6}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v2
 
     if-nez v2, :cond_f
 
-    .line 66
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-interface {v1, v0, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -969,10 +879,8 @@
     :try_start_7
     const-string v1, "Exception while trying to fetch attribution data. "
 
-    .line 67
     invoke-static {v1, v0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 68
     :goto_4
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -992,14 +900,12 @@
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 69
     sget-object v0, Lcom/appsflyer/AppsFlyerLibCore;->conversionDataListener:Lcom/appsflyer/AppsFlyerConversionListener;
 
     invoke-interface {v0, v4}, Lcom/appsflyer/AppsFlyerConversionListener;->onConversionDataSuccess(Ljava/util/Map;)V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_0
 
-    .line 70
     :cond_10
     :goto_5
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDeepLinkManager:Ljava/util/concurrent/atomic/AtomicInteger;
@@ -1008,7 +914,6 @@
 
     if-eqz v5, :cond_12
 
-    .line 71
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->disconnect()V
 
     goto :goto_8
@@ -1023,19 +928,16 @@
     :catchall_1
     move-exception v0
 
-    .line 72
     :goto_6
     :try_start_8
     iget v1, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->dateFormatUTC:I
 
     if-ge v1, v3, :cond_11
 
-    .line 73
     new-instance v1, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;
 
     invoke-direct {v1, p0}, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;-><init>(Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;)V
 
-    .line 74
     iget-object v3, v1, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->values:Ljava/util/concurrent/ScheduledExecutorService;
 
     sget-object v4, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
@@ -1044,7 +946,6 @@
 
     goto :goto_7
 
-    .line 75
     :cond_11
     invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
@@ -1052,7 +953,6 @@
 
     invoke-static {v1}, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->valueOf(Ljava/lang/String;)V
 
-    .line 76
     :goto_7
     invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
@@ -1062,17 +962,14 @@
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_2
 
-    .line 77
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDeepLinkManager:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->decrementAndGet()I
 
     if-eqz v2, :cond_12
 
-    .line 78
     invoke-virtual {v2}, Ljava/net/HttpURLConnection;->disconnect()V
 
-    .line 79
     :cond_12
     :goto_8
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->values:Ljava/util/concurrent/ScheduledExecutorService;
@@ -1081,7 +978,6 @@
 
     const-string v0, "[GCD-A03] Server retrieving attempt finished"
 
-    .line 80
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
     return-void
@@ -1089,17 +985,14 @@
     :catchall_2
     move-exception v0
 
-    .line 81
     iget-object v1, p0, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->AFDeepLinkManager:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicInteger;->decrementAndGet()I
 
     if-eqz v2, :cond_13
 
-    .line 82
     invoke-virtual {v2}, Ljava/net/HttpURLConnection;->disconnect()V
 
-    .line 83
     :cond_13
     throw v0
 
@@ -1107,12 +1000,10 @@
     :goto_9
     const-string v0, "[GCD-E05] AppsFlyer dev key is missing"
 
-    .line 84
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
     const-string v0, "AppsFlyer dev key is missing"
 
-    .line 85
     invoke-static {v0}, Lcom/appsflyer/AppsFlyerLibCore$InstallAttributionIdFetcher;->valueOf(Ljava/lang/String;)V
 
     return-void

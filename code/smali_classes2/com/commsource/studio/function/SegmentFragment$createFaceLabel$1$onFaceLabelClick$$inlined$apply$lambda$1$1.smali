@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1$onFaceLabelClick$$inlined$apply$lambda$1$1;->invoke(Lcom/commsource/widget/dialog/delegate/b;)V
@@ -87,15 +86,12 @@
 
     const-string v3, "click_start"
 
-    .line 2
     invoke-static {v1, v2, v3}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/studio/m0;->V(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1$onFaceLabelClick$$inlined$apply$lambda$1$1;->this$0:Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1$onFaceLabelClick$$inlined$apply$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1$onFaceLabelClick$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1;
@@ -104,10 +100,8 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/SegmentFragment;->g2()V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

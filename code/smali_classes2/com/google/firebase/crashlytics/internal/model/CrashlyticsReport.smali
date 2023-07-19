@@ -32,7 +32,6 @@
 
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -45,7 +44,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
 .method static synthetic a()Ljava/nio/charset/Charset;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;->a:Ljava/nio/charset/Charset;
 
     return-object v0
@@ -65,7 +62,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/model/b$b;
 
     invoke-direct {v0}, Lcom/google/firebase/crashlytics/internal/model/b$b;-><init>()V
@@ -118,19 +114,16 @@
     .annotation runtime Lcom/google/firebase/encoders/i/a$b;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;->j()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$Type;->JAVA:Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$Type;
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;->g()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d;
 
@@ -138,12 +131,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     sget-object v0, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$Type;->NATIVE:Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$Type;
 
     return-object v0
 
-    .line 5
     :cond_1
     sget-object v0, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$Type;->INCOMPLETE:Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$Type;
 
@@ -174,14 +165,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;->j()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;->l()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$b;
 
     move-result-object v0
@@ -204,7 +193,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -224,7 +212,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;->l()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$b;
 
     move-result-object v0
@@ -255,19 +242,16 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;->l()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$b;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;->g()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d;->d()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d$a;
 
     move-result-object v1
@@ -282,7 +266,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$b;->f(Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d;)Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$b;
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;->j()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;
 
@@ -290,14 +273,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {v1, p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;->p(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;
 
     move-result-object p1
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$b;->i(Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;)Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$b;
 
-    .line 6
     :cond_1
     invoke-virtual {v0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$b;->a()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;
 
@@ -315,19 +296,16 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;->l()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$b;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;->j()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;->j()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;
 
     move-result-object v1
@@ -338,7 +316,6 @@
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$b;->i(Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;)Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$b;
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$b;->a()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;
 

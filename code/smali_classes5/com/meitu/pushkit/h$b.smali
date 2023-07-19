@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/pushkit/h;Landroid/content/IntentFilter;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/pushkit/h$b;->b:Lcom/meitu/pushkit/h;
 
     iput-object p2, p0, Lcom/meitu/pushkit/h$b;->a:Landroid/content/IntentFilter;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/pushkit/x;->a:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/meitu/pushkit/h$b;->b:Lcom/meitu/pushkit/h;
@@ -59,7 +57,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    .line 2
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v1
@@ -82,7 +79,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -35,7 +35,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/w;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/appindexing/internal/r;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/appindexing/internal/t;-><init>()V
 
     return-void
@@ -55,17 +53,14 @@
 .method public synthetic a(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->V()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/firebase/appindexing/internal/t;->c:Lcom/google/android/gms/tasks/l;
 
     const/4 v0, 0x0
@@ -74,18 +69,15 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/appindexing/internal/t;->c:Lcom/google/android/gms/tasks/l;
 
     const-string v1, "User Action indexing error, please try again."
 
-    .line 5
     invoke-static {p1, v1}, Lcom/google/firebase/appindexing/internal/e;->a(Lcom/google/android/gms/common/api/Status;Ljava/lang/String;)Lcom/google/firebase/appindexing/FirebaseAppIndexingException;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/l;->b(Ljava/lang/Exception;)V
 
     return-void
@@ -94,7 +86,6 @@
 .method public b(Lcom/google/android/gms/common/api/Status;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->V()Z
 
     move-result v0
@@ -105,10 +96,8 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->b(ZLjava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/appindexing/internal/t;->c:Lcom/google/android/gms/tasks/l;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->A()Ljava/lang/String;
 
     move-result-object v1
@@ -117,7 +106,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/l;->b(Ljava/lang/Exception;)V
 
     return-void
@@ -131,13 +119,10 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/icing/h;
 
-    .line 2
     iput-object p2, p0, Lcom/google/firebase/appindexing/internal/t;->c:Lcom/google/android/gms/tasks/l;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/common/internal/e;->G()Landroid/os/IInterface;
 
     move-result-object p1

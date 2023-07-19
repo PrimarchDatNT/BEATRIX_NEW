@@ -47,21 +47,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/a$b;->a:Lcom/commsource/studio/bean/a;
 
     iget-object v2, p0, Lcom/commsource/studio/bean/a$b;->b:Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/a;->c0(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/bean/a$b;->a:Lcom/commsource/studio/bean/a;
 
     invoke-static {v1}, Lcom/commsource/studio/bean/a;->a(Lcom/commsource/studio/bean/a;)Ljava/util/LinkedList;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -79,14 +76,12 @@
 
     check-cast v2, Lcom/commsource/studio/bean/c;
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/bean/a$b;->b:Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/bean/c;->c(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

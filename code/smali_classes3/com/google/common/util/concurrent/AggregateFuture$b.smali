@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/AggregateFuture;Lcom/google/common/collect/ImmutableCollection;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/AggregateFuture$b;->b:Lcom/google/common/util/concurrent/AggregateFuture;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/AggregateFuture$b;->a:Lcom/google/common/collect/ImmutableCollection;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/AggregateFuture$b;->b:Lcom/google/common/util/concurrent/AggregateFuture;
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/AggregateFuture$b;->a:Lcom/google/common/collect/ImmutableCollection;

@@ -35,16 +35,12 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/security/cert/Certificate;Ljava/security/cert/Certificate;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/InternalChannelz$l;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lio/grpc/InternalChannelz$l;->b:Ljava/security/cert/Certificate;
 
-    .line 4
     iput-object p3, p0, Lio/grpc/InternalChannelz$l;->c:Ljava/security/cert/Certificate;
 
     return-void
@@ -53,15 +49,12 @@
 .method public constructor <init>(Ljavax/net/ssl/SSLSession;)V
     .locals 8
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     invoke-interface {p1}, Ljavax/net/ssl/SSLSession;->getCipherSuite()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 7
     invoke-interface {p1}, Ljavax/net/ssl/SSLSession;->getLocalCertificates()[Ljava/security/cert/Certificate;
 
     move-result-object v1
@@ -72,7 +65,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 8
     aget-object v1, v1, v3
 
     goto :goto_0
@@ -80,7 +72,6 @@
     :cond_0
     move-object v1, v2
 
-    .line 9
     :goto_0
     :try_start_0
     invoke-interface {p1}, Ljavax/net/ssl/SSLSession;->getPeerCertificates()[Ljava/security/cert/Certificate;
@@ -89,7 +80,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 10
     aget-object p1, v4, v3
     :try_end_0
     .catch Ljavax/net/ssl/SSLPeerUnverifiedException; {:try_start_0 .. :try_end_0} :catch_0
@@ -101,7 +91,6 @@
     :catch_0
     move-exception v4
 
-    .line 11
     invoke-static {}, Lio/grpc/InternalChannelz;->a()Ljava/util/logging/Logger;
 
     move-result-object v5
@@ -112,7 +101,6 @@
 
     new-array v7, v7, [Ljava/lang/Object;
 
-    .line 12
     invoke-interface {p1}, Ljavax/net/ssl/SSLSession;->getPeerHost()Ljava/lang/String;
 
     move-result-object p1
@@ -125,18 +113,14 @@
 
     move-result-object p1
 
-    .line 13
     invoke-virtual {v5, v6, p1, v4}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 14
     :cond_1
     :goto_1
     iput-object v0, p0, Lio/grpc/InternalChannelz$l;->a:Ljava/lang/String;
 
-    .line 15
     iput-object v1, p0, Lio/grpc/InternalChannelz$l;->b:Ljava/security/cert/Certificate;
 
-    .line 16
     iput-object v2, p0, Lio/grpc/InternalChannelz$l;->c:Ljava/security/cert/Certificate;
 
     return-void

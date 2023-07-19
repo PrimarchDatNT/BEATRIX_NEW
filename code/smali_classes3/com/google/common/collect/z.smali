@@ -45,10 +45,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -65,7 +63,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/z;->a:Lcom/google/common/collect/y;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->clear()V
@@ -80,7 +77,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/z;->a:Lcom/google/common/collect/y;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/l1;->containsValue(Ljava/lang/Object;)Z
@@ -100,7 +96,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/z;->a:Lcom/google/common/collect/y;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->entries()Ljava/util/Collection;
@@ -125,14 +120,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/z;->a:Lcom/google/common/collect/y;
 
     invoke-interface {v0}, Lcom/google/common/collect/y;->D0()Lcom/google/common/base/u;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/collect/z;->a:Lcom/google/common/collect/y;
 
     invoke-interface {v1}, Lcom/google/common/collect/y;->s()Lcom/google/common/collect/l1;
@@ -147,7 +140,6 @@
 
     move-result-object v1
 
-    .line 3
     :cond_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -155,14 +147,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 5
     invoke-interface {v0, v2}, Lcom/google/common/base/u;->apply(Ljava/lang/Object;)Z
 
     move-result v3
@@ -179,7 +169,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-interface {v1}, Ljava/util/Iterator;->remove()V
 
     const/4 p1, 0x1
@@ -202,10 +191,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/z;->a:Lcom/google/common/collect/y;
 
-    .line 2
     invoke-interface {v0}, Lcom/google/common/collect/y;->s()Lcom/google/common/collect/l1;
 
     move-result-object v0
@@ -216,7 +203,6 @@
 
     iget-object v1, p0, Lcom/google/common/collect/z;->a:Lcom/google/common/collect/y;
 
-    .line 3
     invoke-interface {v1}, Lcom/google/common/collect/y;->D0()Lcom/google/common/base/u;
 
     move-result-object v1
@@ -229,12 +215,10 @@
 
     move-result-object p1
 
-    .line 4
     invoke-static {v1, p1}, Lcom/google/common/base/Predicates;->d(Lcom/google/common/base/u;Lcom/google/common/base/u;)Lcom/google/common/base/u;
 
     move-result-object p1
 
-    .line 5
     invoke-static {v0, p1}, Lcom/google/common/collect/h1;->J(Ljava/lang/Iterable;Lcom/google/common/base/u;)Z
 
     move-result p1
@@ -252,10 +236,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/z;->a:Lcom/google/common/collect/y;
 
-    .line 2
     invoke-interface {v0}, Lcom/google/common/collect/y;->s()Lcom/google/common/collect/l1;
 
     move-result-object v0
@@ -266,12 +248,10 @@
 
     iget-object v1, p0, Lcom/google/common/collect/z;->a:Lcom/google/common/collect/y;
 
-    .line 3
     invoke-interface {v1}, Lcom/google/common/collect/y;->D0()Lcom/google/common/base/u;
 
     move-result-object v1
 
-    .line 4
     invoke-static {p1}, Lcom/google/common/base/Predicates;->n(Ljava/util/Collection;)Lcom/google/common/base/u;
 
     move-result-object p1
@@ -284,12 +264,10 @@
 
     move-result-object p1
 
-    .line 5
     invoke-static {v1, p1}, Lcom/google/common/base/Predicates;->d(Lcom/google/common/base/u;Lcom/google/common/base/u;)Lcom/google/common/base/u;
 
     move-result-object p1
 
-    .line 6
     invoke-static {v0, p1}, Lcom/google/common/collect/h1;->J(Ljava/lang/Iterable;Lcom/google/common/base/u;)Z
 
     move-result p1
@@ -300,7 +278,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/z;->a:Lcom/google/common/collect/y;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->size()I

@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/AdViewController;Lcom/mopub/mobileads/MoPubAd;Landroid/view/View;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdViewController$5;->this$0:Lcom/mopub/mobileads/AdViewController;
 
     iput-object p2, p0, Lcom/mopub/mobileads/AdViewController$5;->val$moPubAd:Lcom/mopub/mobileads/MoPubAd;
@@ -46,14 +45,12 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdViewController$5;->val$moPubAd:Lcom/mopub/mobileads/MoPubAd;
 
     check-cast v0, Lcom/mopub/mobileads/MoPubView;
 
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->removeAllViews()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/AdViewController$5;->val$moPubAd:Lcom/mopub/mobileads/MoPubAd;
 
     check-cast v0, Lcom/mopub/mobileads/MoPubView;

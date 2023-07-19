@@ -50,7 +50,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar$c;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-static {v1}, Lcom/commsource/widget/title/XTitleBar;->c(Lcom/commsource/widget/title/XTitleBar;)Ljava/util/List;
@@ -74,7 +73,6 @@
 
     check-cast v2, Lcom/commsource/widget/title/a;
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/widget/title/XTitleBar$c;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-virtual {v3}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -87,15 +85,12 @@
 
     if-ne v3, p1, :cond_0
 
-    .line 3
     invoke-virtual {v2, p1}, Lcom/commsource/widget/title/a;->c(Landroid/view/View;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

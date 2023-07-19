@@ -29,7 +29,6 @@
 .method constructor <init>(Ljava/util/Set;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Maps$h;->a:Ljava/util/Set;
 
     invoke-direct {p0}, Lcom/google/common/collect/w0;-><init>()V
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -65,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -76,7 +73,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h;->delegate()Ljava/util/Set;
 
     move-result-object v0
@@ -87,7 +83,6 @@
 .method protected bridge synthetic delegate()Ljava/util/Collection;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h;->delegate()Ljava/util/Set;
 
     move-result-object v0
@@ -105,7 +100,6 @@
         }
     .end annotation
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/Maps$h;->a:Ljava/util/Set;
 
     return-object v0

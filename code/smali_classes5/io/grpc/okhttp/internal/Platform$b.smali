@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +45,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Ljavax/net/ssl/SSLParameters;
 
     const-string v1, "setApplicationProtocols"
@@ -76,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/okhttp/internal/Platform$b;->a()Ljava/lang/reflect/Method;
 
     move-result-object v0

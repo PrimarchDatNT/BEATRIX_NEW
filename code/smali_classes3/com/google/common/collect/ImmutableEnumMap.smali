@@ -50,13 +50,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableMap$IteratorBasedImmutableMap;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/common/collect/ImmutableEnumMap;->delegate:Ljava/util/EnumMap;
 
-    .line 4
     invoke-virtual {p1}, Ljava/util/EnumMap;->isEmpty()Z
 
     move-result p1
@@ -71,7 +68,6 @@
 .method synthetic constructor <init>(Ljava/util/EnumMap;Lcom/google/common/collect/ImmutableEnumMap$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/ImmutableEnumMap;-><init>(Ljava/util/EnumMap;)V
 
     return-void
@@ -93,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/EnumMap;->size()I
 
     move-result v0
@@ -104,14 +99,12 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/ImmutableEnumMap;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/ImmutableEnumMap;-><init>(Ljava/util/EnumMap;)V
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Ljava/util/EnumMap;->entrySet()Ljava/util/Set;
 
@@ -123,7 +116,6 @@
 
     check-cast p0, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {p0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v0
@@ -138,7 +130,6 @@
 
     return-object p0
 
-    .line 5
     :cond_1
     invoke-static {}, Lcom/google/common/collect/ImmutableMap;->of()Lcom/google/common/collect/ImmutableMap;
 
@@ -156,7 +147,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableEnumMap;->delegate:Ljava/util/EnumMap;
 
     invoke-virtual {v0, p1}, Ljava/util/EnumMap;->containsKey(Ljava/lang/Object;)Z
@@ -177,7 +167,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableEnumMap;->delegate:Ljava/util/EnumMap;
 
     invoke-virtual {v0}, Ljava/util/EnumMap;->entrySet()Ljava/util/Set;
@@ -204,18 +193,15 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/google/common/collect/ImmutableEnumMap;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/ImmutableEnumMap;
 
     iget-object p1, p1, Lcom/google/common/collect/ImmutableEnumMap;->delegate:Ljava/util/EnumMap;
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableEnumMap;->delegate:Ljava/util/EnumMap;
 
@@ -236,7 +222,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableEnumMap;->delegate:Ljava/util/EnumMap;
 
     invoke-virtual {v0, p1}, Ljava/util/EnumMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -264,7 +249,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableEnumMap;->delegate:Ljava/util/EnumMap;
 
     invoke-virtual {v0}, Ljava/util/EnumMap;->keySet()Ljava/util/Set;
@@ -285,7 +269,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableEnumMap;->delegate:Ljava/util/EnumMap;
 
     invoke-virtual {v0}, Ljava/util/EnumMap;->size()I
@@ -298,7 +281,6 @@
 .method writeReplace()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/ImmutableEnumMap$EnumSerializedForm;
 
     iget-object v1, p0, Lcom/google/common/collect/ImmutableEnumMap;->delegate:Ljava/util/EnumMap;

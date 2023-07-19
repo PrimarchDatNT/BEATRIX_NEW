@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$f;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->K()Lcom/commsource/studio/doodle/j;
@@ -88,7 +87,6 @@
     :goto_1
     if-eqz v1, :cond_6
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/j;->a()Ljava/lang/String;
 
     move-result-object v3
@@ -101,14 +99,12 @@
 
     if-eqz v3, :cond_3
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$f;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->C(Lcom/commsource/studio/doodle/DoodlePagerFragment;)Lcom/commsource/widget/h1/e;
 
     move-result-object p1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$f;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->K()Lcom/commsource/studio/doodle/j;
@@ -121,19 +117,15 @@
 
     move-result-object v4
 
-    .line 5
     :cond_2
     const-class v1, Lcom/commsource/studio/doodle/g;
 
-    .line 6
     invoke-virtual {p1, v4, v1, v2}, Lcom/commsource/widget/h1/e;->O(Ljava/util/List;Ljava/lang/Class;Z)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$f;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->H(Lcom/commsource/studio/doodle/DoodlePagerFragment;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$f;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->D(Lcom/commsource/studio/doodle/DoodlePagerFragment;)Lcom/commsource/studio/doodle/h;
@@ -152,7 +144,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$f;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->C(Lcom/commsource/studio/doodle/DoodlePagerFragment;)Lcom/commsource/widget/h1/e;
@@ -163,7 +154,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_3
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/j;->d()Ljava/util/List;
 
@@ -211,21 +201,18 @@
 
     if-eqz v4, :cond_6
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCollectTime()J
 
     move-result-wide v1
 
     invoke-virtual {v4, v1, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setCollectTime(J)V
 
-    .line 12
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCollectState()I
 
     move-result p1
 
     invoke-virtual {v4, p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->setCollectState(I)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$f;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->C(Lcom/commsource/studio/doodle/DoodlePagerFragment;)Lcom/commsource/widget/h1/e;
@@ -234,7 +221,6 @@
 
     invoke-virtual {p1, v4}, Lcom/commsource/widget/h1/e;->v(Ljava/lang/Object;)V
 
-    .line 14
     :cond_6
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -249,7 +235,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodlePagerFragment$f;->a(Lcom/commsource/studio/doodle/DoodleMaterial;)V

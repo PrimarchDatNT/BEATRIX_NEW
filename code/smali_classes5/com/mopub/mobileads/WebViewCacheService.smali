@@ -61,19 +61,16 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     invoke-static {v0}, Ljava/util/Collections;->synchronizedMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     sput-object v0, Lcom/mopub/mobileads/WebViewCacheService;->sWebViewConfigs:Ljava/util/Map;
 
-    .line 3
     new-instance v0, Lcom/mopub/mobileads/WebViewCacheService$TrimCacheRunnable;
 
     const/4 v1, 0x0
@@ -82,7 +79,6 @@
 
     sput-object v0, Lcom/mopub/mobileads/WebViewCacheService;->sTrimCacheRunnable:Lcom/mopub/mobileads/WebViewCacheService$TrimCacheRunnable;
 
-    .line 4
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
@@ -95,7 +91,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -109,12 +104,10 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/WebViewCacheService;->sWebViewConfigs:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->clear()V
 
-    .line 2
     sget-object v0, Lcom/mopub/mobileads/WebViewCacheService;->sHandler:Landroid/os/Handler;
 
     sget-object v1, Lcom/mopub/mobileads/WebViewCacheService;->sTrimCacheRunnable:Lcom/mopub/mobileads/WebViewCacheService$TrimCacheRunnable;
@@ -145,7 +138,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/WebViewCacheService;->sWebViewConfigs:Ljava/util/Map;
 
     return-object v0
@@ -160,10 +152,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     sget-object v0, Lcom/mopub/mobileads/WebViewCacheService;->sWebViewConfigs:Ljava/util/Map;
 
     invoke-interface {v0, p0}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -187,7 +177,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sput-object p0, Lcom/mopub/mobileads/WebViewCacheService;->sHandler:Landroid/os/Handler;
 
     return-void
@@ -214,19 +203,14 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {}, Lcom/mopub/mobileads/WebViewCacheService;->trimCache()V
 
-    .line 5
     sget-object v0, Lcom/mopub/mobileads/WebViewCacheService;->sWebViewConfigs:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->size()I
@@ -237,7 +221,6 @@
 
     if-lt v1, v2, :cond_0
 
-    .line 6
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 p1, 0x1
@@ -254,7 +237,6 @@
 
     return-void
 
-    .line 7
     :cond_0
     new-instance v1, Lcom/mopub/mobileads/WebViewCacheService$Config;
 
@@ -274,7 +256,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/mopub/mobileads/WebViewCacheService;->sWebViewConfigs:Ljava/util/Map;
 
@@ -286,7 +267,6 @@
 
     move-result-object v1
 
-    .line 2
     :cond_0
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -295,14 +275,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -319,12 +297,10 @@
 
     if-nez v2, :cond_0
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     sget-object v1, Lcom/mopub/mobileads/WebViewCacheService;->sWebViewConfigs:Ljava/util/Map;
 
@@ -334,14 +310,12 @@
 
     if-nez v1, :cond_2
 
-    .line 7
     sget-object v1, Lcom/mopub/mobileads/WebViewCacheService;->sHandler:Landroid/os/Handler;
 
     sget-object v2, Lcom/mopub/mobileads/WebViewCacheService;->sTrimCacheRunnable:Lcom/mopub/mobileads/WebViewCacheService$TrimCacheRunnable;
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 8
     sget-object v1, Lcom/mopub/mobileads/WebViewCacheService;->sHandler:Landroid/os/Handler;
 
     const-wide/32 v3, 0xdbba0
@@ -350,7 +324,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     :cond_2
     monitor-exit v0
 

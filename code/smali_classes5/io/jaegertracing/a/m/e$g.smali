@@ -27,14 +27,12 @@
 .method constructor <init>(Lio/jaegertracing/a/m/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/a/m/e$g;->b:Lio/jaegertracing/a/m/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lio/jaegertracing/a/m/e$g;->a:Z
 
     return-void
@@ -47,7 +45,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lio/jaegertracing/a/m/e$g;->a:Z
 
     return-void
@@ -56,13 +53,11 @@
 .method public run()V
     .locals 4
 
-    .line 1
     :goto_0
     iget-boolean v0, p0, Lio/jaegertracing/a/m/e$g;->a:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lio/jaegertracing/a/m/e$g;->b:Lio/jaegertracing/a/m/e;
 
@@ -78,7 +73,6 @@
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 3
     :try_start_1
     invoke-interface {v0}, Lio/jaegertracing/a/m/e$e;->execute()V
     :try_end_1
@@ -90,7 +84,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     :try_start_2
     iget-object v1, p0, Lio/jaegertracing/a/m/e$g;->b:Lio/jaegertracing/a/m/e;
 
@@ -115,7 +108,6 @@
     :catch_1
     move-exception v0
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

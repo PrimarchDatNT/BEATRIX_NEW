@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -49,7 +48,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -62,7 +60,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -75,7 +72,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;->B(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -84,7 +80,6 @@
 
     invoke-virtual {v0, p1, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->D(IZ)Lcom/meitu/template/bean/Filter;
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -97,7 +92,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;
 
     invoke-static {p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;->B(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -106,7 +100,6 @@
 
     invoke-virtual {p3, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->C(I)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;
 
     invoke-static {p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;->B(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -125,7 +118,6 @@
 
     if-eqz p3, :cond_3
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;)Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -156,27 +148,23 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0, v4}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 5
     invoke-virtual {p3}, Lcom/meitu/template/bean/Filter;->getFilterStatisticId()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {v0, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-virtual {p3}, Lcom/meitu/template/bean/Filter;->getFilterStatisticCategoryId()Ljava/lang/String;
 
     move-result-object p1
@@ -185,32 +173,27 @@
 
     const-string p1, "selfiemovie_filter_slip"
 
-    .line 8
     invoke-static {p1, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_0
 
-    .line 9
     :cond_1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0, v4}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 10
     invoke-virtual {p3}, Lcom/meitu/template/bean/Filter;->getFilterStatisticId()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {v0, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     invoke-virtual {p3}, Lcom/meitu/template/bean/Filter;->getFilterStatisticCategoryId()Ljava/lang/String;
 
     move-result-object p1
@@ -219,32 +202,27 @@
 
     const-string p1, "selfievideo_filter_slip"
 
-    .line 13
     invoke-static {p1, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_0
 
-    .line 14
     :cond_2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0, v4}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 15
     invoke-virtual {p3}, Lcom/meitu/template/bean/Filter;->getFilterStatisticId()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {v0, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     invoke-virtual {p3}, Lcom/meitu/template/bean/Filter;->getFilterStatisticCategoryId()Ljava/lang/String;
 
     move-result-object p1
@@ -253,10 +231,8 @@
 
     const-string p1, "selfie_filter_slip"
 
-    .line 18
     invoke-static {p1, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 19
     :cond_3
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -37,7 +37,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/mopub/common/MoPub$BrowserAgent;
 
     const-string v1, "IN_APP"
@@ -48,7 +47,6 @@
 
     sput-object v0, Lcom/mopub/common/MoPub$BrowserAgent;->IN_APP:Lcom/mopub/common/MoPub$BrowserAgent;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/MoPub$BrowserAgent;
 
     const-string v3, "NATIVE"
@@ -67,7 +65,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/mopub/common/MoPub$BrowserAgent;->$VALUES:[Lcom/mopub/common/MoPub$BrowserAgent;
 
     return-void
@@ -81,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -101,12 +97,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/mopub/common/MoPub$BrowserAgent;->IN_APP:Lcom/mopub/common/MoPub$BrowserAgent;
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
@@ -130,7 +124,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/MoPub$BrowserAgent;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/MoPub$BrowserAgent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -145,7 +138,6 @@
 .method public static values()[Lcom/mopub/common/MoPub$BrowserAgent;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/MoPub$BrowserAgent;->$VALUES:[Lcom/mopub/common/MoPub$BrowserAgent;
 
     invoke-virtual {v0}, [Lcom/mopub/common/MoPub$BrowserAgent;->clone()Ljava/lang/Object;
@@ -167,7 +159,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/MoPub$BrowserAgent;->IN_APP:Lcom/mopub/common/MoPub$BrowserAgent;
 
     if-ne p0, v0, :cond_0

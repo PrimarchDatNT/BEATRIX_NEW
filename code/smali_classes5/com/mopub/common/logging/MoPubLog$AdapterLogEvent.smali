@@ -72,7 +72,6 @@
 .method static constructor <clinit>()V
     .locals 20
 
-    .line 1
     new-instance v0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$LogLevel;->DEBUG:Lcom/mopub/common/logging/MoPubLog$LogLevel;
@@ -87,7 +86,6 @@
 
     sput-object v0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 2
     new-instance v2, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v4, "LOAD_SUCCESS"
@@ -100,7 +98,6 @@
 
     sput-object v2, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_SUCCESS:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 3
     new-instance v4, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v6, "LOAD_FAILED"
@@ -113,7 +110,6 @@
 
     sput-object v4, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 4
     new-instance v6, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v8, "SHOW_ATTEMPTED"
@@ -126,7 +122,6 @@
 
     sput-object v6, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->SHOW_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 5
     new-instance v8, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v10, "SHOW_SUCCESS"
@@ -139,7 +134,6 @@
 
     sput-object v8, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->SHOW_SUCCESS:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 6
     new-instance v10, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v12, "SHOW_FAILED"
@@ -152,7 +146,6 @@
 
     sput-object v10, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->SHOW_FAILED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 7
     new-instance v12, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v14, "EXPIRED"
@@ -165,7 +158,6 @@
 
     sput-object v12, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->EXPIRED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 8
     new-instance v13, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v14, "CLICKED"
@@ -178,7 +170,6 @@
 
     sput-object v13, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->CLICKED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 9
     new-instance v11, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v14, "WILL_APPEAR"
@@ -191,7 +182,6 @@
 
     sput-object v11, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->WILL_APPEAR:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 10
     new-instance v9, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v14, "DID_APPEAR"
@@ -204,7 +194,6 @@
 
     sput-object v9, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->DID_APPEAR:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 11
     new-instance v7, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v14, "WILL_DISAPPEAR"
@@ -217,7 +206,6 @@
 
     sput-object v7, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->WILL_DISAPPEAR:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 12
     new-instance v5, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v14, "DID_DISAPPEAR"
@@ -230,7 +218,6 @@
 
     sput-object v5, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->DID_DISAPPEAR:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 13
     new-instance v3, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v14, "SHOULD_REWARD"
@@ -245,7 +232,6 @@
 
     sput-object v3, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->SHOULD_REWARD:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 14
     new-instance v5, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v14, "WILL_LEAVE_APPLICATION"
@@ -260,7 +246,6 @@
 
     sput-object v5, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->WILL_LEAVE_APPLICATION:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 15
     new-instance v3, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v14, "CUSTOM"
@@ -275,7 +260,6 @@
 
     sput-object v3, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
-    .line 16
     new-instance v5, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const-string v14, "CUSTOM_WITH_THROWABLE"
@@ -356,7 +340,6 @@
 
     aput-object v5, v1, v15
 
-    .line 17
     sput-object v1, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->$VALUES:[Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     return-void
@@ -381,19 +364,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p4}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p3, p0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->mLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 5
     iput-object p4, p0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->mMessageFormat:Ljava/lang/String;
 
     return-void
@@ -402,7 +380,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -417,7 +394,6 @@
 .method public static values()[Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->$VALUES:[Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     invoke-virtual {v0}, [Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->clone()Ljava/lang/Object;
@@ -436,7 +412,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->mLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     return-object v0
@@ -451,14 +426,12 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/text/MessageFormat;
 
     iget-object v1, p0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->mMessageFormat:Ljava/lang/String;
 
     invoke-direct {v0, v1}, Ljava/text/MessageFormat;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v0}, Ljava/text/MessageFormat;->getFormats()[Ljava/text/Format;
 
     move-result-object v1
@@ -469,12 +442,10 @@
 
     move-result-object v1
 
-    .line 3
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     if-ne p0, v2, :cond_2
 
-    .line 4
     array-length v2, p1
 
     const/4 v3, 0x0
@@ -503,7 +474,6 @@
 
     new-array v2, v5, [Ljava/lang/Object;
 
-    .line 5
     aget-object v6, p1, v5
 
     invoke-virtual {v6}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -522,11 +492,9 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     aput-object v4, v1, v5
 
-    .line 7
     :goto_0
     array-length v2, p1
 
@@ -552,7 +520,6 @@
 
     new-array v2, v5, [Ljava/lang/Object;
 
-    .line 8
     aget-object p1, p1, v6
 
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -571,11 +538,9 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     aput-object v4, v1, v6
 
-    .line 10
     :cond_2
     :goto_1
     invoke-virtual {v0, v1}, Ljava/text/MessageFormat;->format(Ljava/lang/Object;)Ljava/lang/String;

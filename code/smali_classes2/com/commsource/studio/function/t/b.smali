@@ -28,7 +28,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_none_skin_color:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     return-void
@@ -66,10 +65,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result p1
@@ -82,7 +79,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -99,7 +95,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setText(I)V
 
-    .line 4
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -118,7 +113,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 5
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -147,7 +141,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -165,7 +158,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setText(I)V
 
-    .line 7
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -184,7 +176,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 8
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -211,7 +202,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/round/a;->q(I)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

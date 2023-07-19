@@ -42,14 +42,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/StyleFragment$showPrismAnimation$1$b;->a:Lcom/commsource/studio/function/StyleFragment$showPrismAnimation$1;
 
     iget-object v0, v0, Lcom/commsource/studio/function/StyleFragment$showPrismAnimation$1;->this$0:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/StyleFragment;->K1(Lcom/commsource/studio/function/StyleFragment;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -25,10 +25,8 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/te0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ye0;->a:Lcom/google/android/gms/internal/ads/te0;
 
     return-void
@@ -37,7 +35,6 @@
 .method public static a(Lcom/google/android/gms/internal/ads/te0;)Lcom/google/android/gms/internal/ads/ye0;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/ye0;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/ye0;-><init>(Lcom/google/android/gms/internal/ads/te0;)V
@@ -52,10 +49,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ye0;->a:Lcom/google/android/gms/internal/ads/te0;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/te0;->e()Landroid/view/View;
 
     move-result-object v0

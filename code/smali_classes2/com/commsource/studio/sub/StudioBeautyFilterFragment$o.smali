@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$o;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->W(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/widget/h1/e;
@@ -63,15 +62,12 @@
 
     const/4 v2, 0x2
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v1, p1, v2}, Lcom/commsource/widget/h1/e;->s(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -84,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$o;->a(Lcom/meitu/template/bean/Filter;)V

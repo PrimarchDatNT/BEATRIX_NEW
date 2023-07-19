@@ -25,7 +25,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/component/AutoManualPanelComponent$a;->a:Landroid/view/View;
 
-    .line 1
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
@@ -44,12 +43,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/component/AutoManualPanelComponent$a;->a:Landroid/view/View;
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

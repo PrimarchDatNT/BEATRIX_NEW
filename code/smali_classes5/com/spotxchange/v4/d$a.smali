@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/spotxchange/v4/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/d$a;->a:Lcom/spotxchange/v4/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,14 +37,12 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/d$a;->a:Lcom/spotxchange/v4/d;
 
     iget-object v1, v0, Lcom/spotxchange/v4/SpotXAdPlayer;->d:Landroid/app/Activity;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/spotxchange/v4/d;->E0(Lcom/spotxchange/v4/d;)V
 
     :cond_0

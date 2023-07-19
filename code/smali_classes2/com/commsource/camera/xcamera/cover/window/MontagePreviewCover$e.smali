@@ -57,14 +57,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$e;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->N()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -77,7 +75,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$e;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -94,7 +91,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$e;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
@@ -104,7 +100,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$e;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
@@ -122,7 +117,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$e;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
@@ -130,7 +124,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->W(Z)V
 
-    .line 7
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -145,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$e;->a(Ljava/lang/Boolean;)V

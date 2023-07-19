@@ -40,7 +40,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/g2/g;->getStart()Ljava/lang/Comparable;
 
     move-result-object v0
@@ -88,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/g2/g;->getStart()Ljava/lang/Comparable;
 
     move-result-object v0

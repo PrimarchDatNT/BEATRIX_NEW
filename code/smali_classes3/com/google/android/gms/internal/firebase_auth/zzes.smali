@@ -80,7 +80,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/z1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/z1;-><init>()V
@@ -93,10 +92,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -113,7 +110,6 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;)V
     .locals 8
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -167,22 +163,16 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 5
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->a:Ljava/lang/String;
 
-    .line 6
     iput-object p2, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->b:Ljava/lang/String;
 
-    .line 7
     iput-object p3, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->c:Ljava/lang/Long;
 
-    .line 8
     iput-object p4, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->d:Ljava/lang/String;
 
-    .line 9
     iput-object p5, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->f:Ljava/lang/Long;
 
     return-void
@@ -191,13 +181,11 @@
 .method public static M(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzes;
     .locals 5
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, p0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance p0, Lcom/google/android/gms/internal/firebase_auth/zzes;
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_auth/zzes;-><init>()V
@@ -206,7 +194,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -215,7 +202,6 @@
 
     const-string v1, "access_token"
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -224,7 +210,6 @@
 
     const-string v1, "expires_in"
 
-    .line 5
     invoke-virtual {v0, v1}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;)J
 
     move-result-wide v3
@@ -237,7 +222,6 @@
 
     const-string v1, "token_type"
 
-    .line 6
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -246,7 +230,6 @@
 
     const-string v1, "issued_at"
 
-    .line 7
     invoke-virtual {v0, v1}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;)J
 
     move-result-wide v0
@@ -268,10 +251,8 @@
 
     const-string v1, "Failed to read GetTokenResponse from JSONObject"
 
-    .line 8
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzbl;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/firebase_auth/zzbl;-><init>(Ljava/lang/Throwable;)V
@@ -284,7 +265,6 @@
 .method public final A(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -299,7 +279,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->d:Ljava/lang/String;
 
     return-object v0
@@ -308,7 +287,6 @@
 .method public final V()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->f:Ljava/lang/Long;
 
     invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
@@ -321,15 +299,12 @@
 .method public final synthetic j(Lcom/google/android/gms/internal/firebase_auth/s5;)Lcom/google/firebase/auth/p/a/y2;
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lcom/google/android/gms/internal/firebase_auth/q7$b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/q7$b;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/q7$b;->y()Ljava/lang/String;
 
     move-result-object v0
@@ -340,7 +315,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->a:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/q7$b;->u()Ljava/lang/String;
 
     move-result-object v0
@@ -351,7 +325,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->b:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/q7$b;->z()J
 
     move-result-wide v0
@@ -362,7 +335,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->c:Ljava/lang/Long;
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/q7$b;->v()Ljava/lang/String;
 
     move-result-object p1
@@ -373,7 +345,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->d:Ljava/lang/String;
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -386,7 +357,6 @@
 
     return-object p0
 
-    .line 8
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -400,7 +370,6 @@
 .method public final l0()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
@@ -408,40 +377,34 @@
     :try_start_0
     const-string v1, "refresh_token"
 
-    .line 2
     iget-object v2, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v1, "access_token"
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v1, "expires_in"
 
-    .line 4
     iget-object v2, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->c:Ljava/lang/Long;
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v1, "token_type"
 
-    .line 5
     iget-object v2, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->d:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v1, "issued_at"
 
-    .line 6
     iget-object v2, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->f:Ljava/lang/Long;
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 7
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -457,10 +420,8 @@
 
     const-string v2, "Failed to convert GetTokenResponse to JSON"
 
-    .line 8
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     new-instance v1, Lcom/google/android/gms/internal/firebase_auth/zzbl;
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/firebase_auth/zzbl;-><init>(Ljava/lang/Throwable;)V
@@ -479,7 +440,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/q7$b;->x()Lcom/google/android/gms/internal/firebase_auth/c6;
 
     move-result-object v0
@@ -490,7 +450,6 @@
 .method public final w0()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->a:Ljava/lang/String;
 
     return-object v0
@@ -499,30 +458,24 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->a:Ljava/lang/String;
 
     const/4 v1, 0x2
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->b:Ljava/lang/String;
 
     const/4 v1, 0x3
 
-    .line 5
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzes;->y0()J
 
     move-result-wide v0
@@ -533,35 +486,28 @@
 
     const/4 v1, 0x4
 
-    .line 7
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->N(Landroid/os/Parcel;ILjava/lang/Long;Z)V
 
-    .line 8
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->d:Ljava/lang/String;
 
     const/4 v1, 0x5
 
-    .line 9
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 10
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->f:Ljava/lang/Long;
 
     invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v0
 
-    .line 11
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
 
     const/4 v1, 0x6
 
-    .line 12
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->N(Landroid/os/Parcel;ILjava/lang/Long;Z)V
 
-    .line 13
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void
@@ -570,7 +516,6 @@
 .method public final y()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->b:Ljava/lang/String;
 
     return-object v0
@@ -579,7 +524,6 @@
 .method public final y0()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->c:Ljava/lang/Long;
 
     if-nez v0, :cond_0
@@ -599,7 +543,6 @@
 .method public final z()Z
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzes;->f:Ljava/lang/Long;
 
     invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
@@ -618,7 +561,6 @@
 
     add-long/2addr v0, v2
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/common/util/k;->d()Lcom/google/android/gms/common/util/g;
 
     move-result-object v2

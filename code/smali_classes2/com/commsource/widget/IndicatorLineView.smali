@@ -48,7 +48,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/IndicatorLineView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -71,7 +70,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/IndicatorLineView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -92,48 +90,40 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const p1, 0x4effffff    # 2.14748352E9f
 
-    .line 4
     iput p1, p0, Lcom/commsource/widget/IndicatorLineView;->a:I
 
     const-wide p1, 0xffffffffL
 
     long-to-int p2, p1
 
-    .line 5
     iput p2, p0, Lcom/commsource/widget/IndicatorLineView;->b:I
 
-    .line 6
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/IndicatorLineView;->c:Landroid/graphics/RectF;
 
-    .line 7
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/IndicatorLineView;->d:Landroid/graphics/RectF;
 
-    .line 8
     new-instance p1, Landroid/animation/ValueAnimator;
 
     invoke-direct {p1}, Landroid/animation/ValueAnimator;-><init>()V
 
-    .line 9
     new-instance p2, Lcom/commsource/widget/IndicatorLineView$a;
 
     invoke-direct {p2, p0}, Lcom/commsource/widget/IndicatorLineView$a;-><init>(Lcom/commsource/widget/IndicatorLineView;)V
 
     invoke-virtual {p1, p2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 10
     new-instance p2, Landroid/view/animation/DecelerateInterpolator;
 
     invoke-direct {p2}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
@@ -142,13 +132,10 @@
 
     const-wide/16 p2, 0x12c
 
-    .line 11
     invoke-virtual {p1, p2, p3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 12
     iput-object p1, p0, Lcom/commsource/widget/IndicatorLineView;->p:Landroid/animation/ValueAnimator;
 
-    .line 13
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 p2, 0x1
@@ -167,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/IndicatorLineView;->setLineRectFByLeftPosition(F)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -182,23 +168,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorLineView;->K:I
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/IndicatorLineView;->p:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v1
@@ -209,7 +191,6 @@
 
     iput v1, p0, Lcom/commsource/widget/IndicatorLineView;->f:I
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/IndicatorLineView;->c:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
@@ -228,14 +209,12 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/widget/IndicatorLineView;->getLineLeftBySelectIndex()F
 
     move-result v1
 
     invoke-direct {p0, v1}, Lcom/commsource/widget/IndicatorLineView;->setLineRectFByLeftPosition(F)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -254,7 +233,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/IndicatorLineView;->e(IZ)V
 
@@ -270,7 +248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorLineView;->J:I
 
     add-int/lit8 v1, v1, 0x1
@@ -293,7 +270,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/IndicatorLineView;->d:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
@@ -306,7 +282,6 @@
 
     invoke-virtual {v1, v3, v3, p1, v2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -390,20 +365,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/IndicatorLineView;->J:I
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/IndicatorLineView;->p:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/IndicatorLineView;->d:Landroid/graphics/RectF;
 
     iget p1, p1, Landroid/graphics/RectF;->right:F
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/widget/IndicatorLineView;->getLineLeftBySelectIndex()F
 
     move-result v1
@@ -412,7 +383,6 @@
 
     if-nez v2, :cond_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -420,7 +390,6 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/widget/IndicatorLineView;->p:Landroid/animation/ValueAnimator;
 
     const/4 v2, 0x2
@@ -437,21 +406,17 @@
 
     invoke-virtual {p2, v2}, Landroid/animation/ValueAnimator;->setFloatValues([F)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/widget/IndicatorLineView;->p:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-direct {p0, v1}, Lcom/commsource/widget/IndicatorLineView;->setLineRectFByLeftPosition(F)V
 
-    .line 9
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -465,7 +430,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorLineView;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -480,7 +444,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorLineView;->K:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -495,7 +458,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorLineView;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -512,7 +474,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/IndicatorLineView;->L:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -527,7 +488,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorLineView;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -546,10 +506,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/IndicatorLineView;->L:Landroid/graphics/Paint;
 
     iget v2, p0, Lcom/commsource/widget/IndicatorLineView;->a:I
@@ -560,7 +518,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/widget/IndicatorLineView;->c:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
@@ -583,7 +540,6 @@
 
     invoke-virtual {p1, v2, v3, v4, v5}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/commsource/widget/IndicatorLineView;->L:Landroid/graphics/Paint;
 
@@ -593,7 +549,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/widget/IndicatorLineView;->d:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
@@ -616,7 +571,6 @@
 
     invoke-virtual {p1, v2, v3, v4, v1}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -630,13 +584,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/IndicatorLineView;->d()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -649,7 +600,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/IndicatorLineView;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -664,21 +614,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorLineView;->K:I
 
     if-eq v1, p1, :cond_0
 
-    .line 2
     iput p1, p0, Lcom/commsource/widget/IndicatorLineView;->K:I
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/IndicatorLineView;->d()V
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -692,7 +637,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/IndicatorLineView;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -715,7 +659,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/IndicatorLineView;->L:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -730,7 +673,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/IndicatorLineView;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

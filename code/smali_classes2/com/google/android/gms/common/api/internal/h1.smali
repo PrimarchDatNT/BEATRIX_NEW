@@ -10,10 +10,8 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/f1;Landroid/os/Looper;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/h1;->b:Lcom/google/android/gms/common/api/internal/f1;
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/google/android/gms/internal/base/o;-><init>(Landroid/os/Looper;)V
 
     return-void
@@ -24,7 +22,6 @@
 .method public final handleMessage(Landroid/os/Message;)V
     .locals 2
 
-    .line 1
     iget v0, p1, Landroid/os/Message;->what:I
 
     const/4 v1, 0x1
@@ -37,7 +34,6 @@
 
     const/16 p1, 0x1f
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, p1}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -58,7 +54,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
@@ -66,13 +61,11 @@
 
     throw p1
 
-    .line 4
     :cond_1
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     check-cast p1, Lcom/google/android/gms/common/api/internal/g1;
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h1;->b:Lcom/google/android/gms/common/api/internal/f1;
 
     invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/internal/g1;->b(Lcom/google/android/gms/common/api/internal/f1;)V

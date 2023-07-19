@@ -22,7 +22,6 @@
 .method constructor <init>(Lio/grpc/a2/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/a2/e$a;->d:Lio/grpc/a2/e;
 
     invoke-direct {p0}, Lio/grpc/t0;-><init>()V
@@ -35,7 +34,6 @@
 .method public b(Lio/grpc/Status;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a2/e$a;->d:Lio/grpc/a2/e;
 
     invoke-static {v0}, Lio/grpc/a2/e;->i(Lio/grpc/a2/e;)Lio/grpc/t0$d;
@@ -56,7 +54,6 @@
 .method public d(Lio/grpc/t0$g;)V
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "GracefulSwitchLoadBalancer must switch to a load balancing policy before handling ResolvedAddresses"

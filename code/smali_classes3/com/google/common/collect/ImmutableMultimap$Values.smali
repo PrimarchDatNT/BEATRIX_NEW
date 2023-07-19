@@ -55,10 +55,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableCollection;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/ImmutableMultimap$Values;->multimap:Lcom/google/common/collect/ImmutableMultimap;
 
     return-void
@@ -73,7 +71,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMultimap$Values;->multimap:Lcom/google/common/collect/ImmutableMultimap;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/ImmutableMultimap;->containsValue(Ljava/lang/Object;)Z
@@ -88,7 +85,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMultimap$Values;->multimap:Lcom/google/common/collect/ImmutableMultimap;
 
     iget-object v0, v0, Lcom/google/common/collect/ImmutableMultimap;->map:Lcom/google/common/collect/ImmutableMap;
@@ -114,7 +110,6 @@
 
     check-cast v1, Lcom/google/common/collect/ImmutableCollection;
 
-    .line 2
     invoke-virtual {v1, p1, p2}, Lcom/google/common/collect/ImmutableCollection;->copyIntoArray([Ljava/lang/Object;I)I
 
     move-result p2
@@ -143,7 +138,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMultimap$Values;->multimap:Lcom/google/common/collect/ImmutableMultimap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMultimap;->valueIterator()Lcom/google/common/collect/l2;
@@ -156,7 +150,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableMultimap$Values;->iterator()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -167,7 +160,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMultimap$Values;->multimap:Lcom/google/common/collect/ImmutableMultimap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMultimap;->size()I

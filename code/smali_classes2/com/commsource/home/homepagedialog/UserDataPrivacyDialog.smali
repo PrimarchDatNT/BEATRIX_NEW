@@ -70,7 +70,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/d;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->e:Lcom/commsource/beautyplus/BaseActivity;
@@ -85,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->m()Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object p0
@@ -102,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->d:Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->d:Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -132,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog$buildPrivacyConfirmDialog$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog$buildPrivacyConfirmDialog$1;-><init>(Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;)V
@@ -153,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog$buildUserDataPrivacyDialog$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog$buildUserDataPrivacyDialog$1;-><init>(Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;)V
@@ -176,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x2
@@ -191,17 +184,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/e;->k4()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->e:Lcom/commsource/beautyplus/BaseActivity;
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/util/x;->n(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
@@ -234,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->c:Lcom/commsource/widget/dialog/delegate/b;
 
     const/4 v2, 0x1
@@ -311,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->e:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-static {v1}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
@@ -320,7 +308,6 @@
 
     if-nez v1, :cond_3
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->e:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
@@ -339,20 +326,17 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->n()Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->c:Lcom/commsource/widget/dialog/delegate/b;
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->c:Lcom/commsource/widget/dialog/delegate/b;
 
     if-eqz v1, :cond_3
 
-    .line 5
     invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->isAdded()Z
 
     move-result v3
@@ -389,7 +373,6 @@
     :goto_1
     if-eqz v1, :cond_3
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->e:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-virtual {v3}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
@@ -398,7 +381,6 @@
 
     invoke-virtual {v1, v3, v2}, Lf/d/a;->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -414,7 +396,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;->e:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

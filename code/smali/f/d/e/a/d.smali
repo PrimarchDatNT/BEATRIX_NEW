@@ -23,7 +23,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -54,15 +53,12 @@
 .method public constructor <init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/d/e/a/a;-><init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
 
     const/4 p1, 0x7
 
-    .line 2
     sput p1, Lf/d/e/a/d;->A:I
 
-    .line 3
     new-instance p1, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DOption;
 
     invoke-direct {p1}, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DOption;-><init>()V
@@ -81,7 +77,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +89,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,23 +101,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lf/d/e/a/a;->f:Z
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iput-boolean v2, p0, Lf/d/e/a/a;->f:Z
 
-    .line 4
     iget-object v1, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const/16 v3, 0x18
@@ -167,7 +157,6 @@
 
     const-string v4, "DL3DEnable"
 
-    .line 1
     invoke-virtual {v4, v1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -180,12 +169,10 @@
 
     if-eqz v4, :cond_2
 
-    .line 2
     instance-of v4, v2, Ljava/lang/Boolean;
 
     if-eqz v4, :cond_2
 
-    .line 3
     move-object v4, v2
 
     check-cast v4, Ljava/lang/Boolean;
@@ -194,17 +181,14 @@
 
     move-result v4
 
-    .line 4
     iget-object v9, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v10, v9, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DOption;
 
     if-eqz v10, :cond_2
 
-    .line 5
     check-cast v9, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DOption;
 
-    .line 6
     iget-wide v10, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v12, 0x2
@@ -229,7 +213,6 @@
 
     or-long/2addr v10, v12
 
-    .line 7
     iput-wide v10, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_1
@@ -239,29 +222,24 @@
 
     and-long/2addr v10, v12
 
-    .line 8
     iput-wide v10, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 9
     :goto_1
     iput-boolean v8, v0, Lf/d/e/a/a;->f:Z
 
     :cond_2
     const-string v4, "DL3DNetEnable"
 
-    .line 10
     invoke-virtual {v4, v1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-eqz v4, :cond_5
 
-    .line 11
     instance-of v4, v2, Ljava/lang/Boolean;
 
     if-eqz v4, :cond_5
 
-    .line 12
     move-object v4, v2
 
     check-cast v4, Ljava/lang/Boolean;
@@ -270,17 +248,14 @@
 
     move-result v4
 
-    .line 13
     iget-object v9, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v10, v9, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DOption;
 
     if-eqz v10, :cond_5
 
-    .line 14
     check-cast v9, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DOption;
 
-    .line 15
     iget-wide v10, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v12, 0x1
@@ -305,7 +280,6 @@
 
     or-long/2addr v10, v12
 
-    .line 16
     iput-wide v10, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_3
@@ -315,29 +289,24 @@
 
     and-long/2addr v10, v12
 
-    .line 17
     iput-wide v10, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 18
     :goto_3
     iput-boolean v8, v0, Lf/d/e/a/a;->f:Z
 
     :cond_5
     const-string v4, "DL3DExternalFaceEnable"
 
-    .line 19
     invoke-virtual {v4, v1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_8
 
-    .line 20
     instance-of v1, v2, Ljava/lang/Boolean;
 
     if-eqz v1, :cond_8
 
-    .line 21
     move-object v1, v2
 
     check-cast v1, Ljava/lang/Boolean;
@@ -346,17 +315,14 @@
 
     move-result v1
 
-    .line 22
     iget-object v2, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v4, v2, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DOption;
 
     if-eqz v4, :cond_8
 
-    .line 23
     check-cast v2, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DOption;
 
-    .line 24
     iget-wide v9, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v11, 0x8
@@ -376,7 +342,6 @@
 
     or-long v4, v9, v11
 
-    .line 25
     iput-wide v4, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_4
@@ -386,14 +351,11 @@
 
     and-long/2addr v4, v9
 
-    .line 26
     iput-wide v4, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 27
     :goto_4
     iput-boolean v8, v0, Lf/d/e/a/a;->f:Z
 
-    .line 28
     :cond_8
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -407,7 +369,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -420,26 +381,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DOption;
 
     if-eqz v2, :cond_0
 
-    .line 2
     iget-object v2, p0, Lf/d/e/a/a;->c:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     check-cast v1, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DOption;
 
     iput-object v1, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->dl3dOption:Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DOption;
 
-    .line 3
     sget v2, Lf/d/e/a/d;->A:I
 
     iput v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DOption;->DL3DSpeed:I
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -455,10 +412,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lf/d/e/a/a;->f:Z
 
-    .line 2
     iget-object v2, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const/16 v3, 0x18
@@ -487,10 +442,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p1, Lf/d/e/a/d;->A:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -503,7 +456,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/e/a/a;->c:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     if-eqz v1, :cond_1
@@ -518,34 +470,29 @@
 
     if-lez v2, :cond_1
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     array-length v3, v1
 
     invoke-direct {v2, v3}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     array-length v3, v1
 
     new-array v3, v3, [I
 
     const/4 v4, 0x0
 
-    .line 4
     :goto_0
     array-length v5, v1
 
     if-ge v4, v5, :cond_0
 
-    .line 5
     aget-object v5, v1, v4
 
     iget-object v5, v5, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 6
     aget-object v5, v1, v4
 
     iget v5, v5, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->ID:I
@@ -556,33 +503,27 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lf/d/e/a/a;->c:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->facePointsList:Ljava/util/ArrayList;
 
-    .line 8
     iget-object v2, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     iget v4, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->width:I
 
     iput v4, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->nImageWidth:I
 
-    .line 9
     iget v2, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->height:I
 
     iput v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->nImageHeight:I
 
-    .line 10
     iget p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->orientation:I
 
     iput p1, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->nImageOrientation:I
 
-    .line 11
     iput-object v3, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->faceIds:[I
 
-    .line 12
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

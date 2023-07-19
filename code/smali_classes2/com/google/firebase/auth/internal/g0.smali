@@ -12,7 +12,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/auth/f;-><init>()V
 
     return-void
@@ -31,10 +30,8 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/internal/g0;->a:Ljava/lang/String;
 
-    .line 2
     iput-object p2, p0, Lcom/google/firebase/auth/internal/g0;->b:Ljava/lang/String;
 
     return-void
@@ -45,7 +42,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/g0;->a:Ljava/lang/String;
 
     return-object v0
@@ -56,7 +52,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/g0;->b:Ljava/lang/String;
 
     return-object v0
@@ -65,7 +60,6 @@
 .method public final d()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/g0;->a:Ljava/lang/String;
 
     if-eqz v0, :cond_0

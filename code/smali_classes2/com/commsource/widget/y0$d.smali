@@ -22,7 +22,6 @@
 .method private constructor <init>(Lcom/commsource/widget/y0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/y0$d;->j:Lcom/commsource/widget/y0;
 
     invoke-direct {p0}, Lcom/meitu/webview/core/d;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lcom/commsource/widget/y0;Lcom/commsource/widget/y0$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/widget/y0$d;-><init>(Lcom/commsource/widget/y0;)V
 
     return-void
@@ -54,7 +52,6 @@
 
     if-ne p2, v2, :cond_0
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/widget/y0$d;->j:Lcom/commsource/widget/y0;
 
     invoke-static {v2}, Lcom/commsource/widget/y0;->j(Lcom/commsource/widget/y0;)Landroid/widget/ProgressBar;
@@ -65,7 +62,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/widget/y0$d;->j:Lcom/commsource/widget/y0;
 
@@ -79,7 +75,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/y0$d;->j:Lcom/commsource/widget/y0;
 
     invoke-static {v1}, Lcom/commsource/widget/y0;->j(Lcom/commsource/widget/y0;)Landroid/widget/ProgressBar;
@@ -90,7 +85,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/widget/y0$d;->j:Lcom/commsource/widget/y0;
 
@@ -100,11 +94,9 @@
 
     invoke-virtual {v1, p2}, Landroid/widget/ProgressBar;->setProgress(I)V
 
-    .line 5
     :goto_0
     invoke-super {p0, p1, p2}, Landroid/webkit/WebChromeClient;->onProgressChanged(Landroid/webkit/WebView;I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

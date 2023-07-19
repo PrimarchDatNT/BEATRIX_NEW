@@ -33,7 +33,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 .method public final a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/l2;->a:Ljava/lang/String;
 
     return-object v0
@@ -55,7 +53,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/l2;->d:Ljava/lang/String;
 
     return-object v0
@@ -64,7 +61,6 @@
 .method public final c()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/firebase_auth/l2;->f:J
 
     return-wide v0
@@ -73,15 +69,12 @@
 .method public final synthetic j(Lcom/google/android/gms/internal/firebase_auth/s5;)Lcom/google/firebase/auth/p/a/y2;
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lcom/google/android/gms/internal/firebase_auth/w7$o;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/w7$o;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/w7$o;->w()Ljava/lang/String;
 
     move-result-object v0
@@ -92,7 +85,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/l2;->a:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/w7$o;->u()Ljava/lang/String;
 
     move-result-object v0
@@ -103,7 +95,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/l2;->b:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/w7$o;->v()Ljava/lang/String;
 
     move-result-object v0
@@ -114,7 +105,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/l2;->c:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/w7$o;->z()Ljava/lang/String;
 
     move-result-object v0
@@ -125,7 +115,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/l2;->d:Ljava/lang/String;
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/w7$o;->A()J
 
     move-result-wide v0
@@ -134,7 +123,6 @@
 
     return-object p0
 
-    .line 8
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -156,7 +144,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/w7$o;->y()Lcom/google/android/gms/internal/firebase_auth/c6;
 
     move-result-object v0

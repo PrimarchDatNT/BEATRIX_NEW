@@ -29,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$a$a;->d:Lcom/commsource/studio/doodle/DoodleFragment$a;
 
     invoke-direct {p0}, Lcom/commsource/util/delegate/process/a;-><init>()V
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->K(Ljava/lang/String;)Lcom/commsource/studio/doodle/DoodleMaterial;
@@ -73,7 +71,6 @@
     :goto_0
     const/4 v3, -0x1
 
-    .line 2
     iget-object v4, p0, Lcom/commsource/studio/doodle/DoodleFragment$a$a;->d:Lcom/commsource/studio/doodle/DoodleFragment$a;
 
     iget-object v4, v4, Lcom/commsource/studio/doodle/DoodleFragment$a;->a:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -88,7 +85,6 @@
 
     if-eqz v4, :cond_9
 
-    .line 3
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -117,19 +113,16 @@
     :cond_1
     check-cast v7, Lcom/commsource/studio/doodle/j;
 
-    .line 4
     invoke-virtual {v7}, Lcom/commsource/studio/doodle/j;->d()Ljava/util/List;
 
     move-result-object v7
 
     if-eqz v7, :cond_3
 
-    .line 5
     new-instance v9, Ljava/util/ArrayList;
 
     invoke-direct {v9}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     invoke-interface {v7}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v7
@@ -150,7 +143,6 @@
 
     check-cast v11, Lcom/commsource/studio/doodle/DoodleMaterial;
 
-    .line 7
     invoke-virtual {v11}, Lcom/commsource/studio/doodle/DoodleMaterial;->getId()Ljava/lang/String;
 
     move-result-object v11
@@ -173,7 +165,6 @@
 
     if-eqz v9, :cond_6
 
-    .line 8
     invoke-interface {v9}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v10
@@ -214,14 +205,12 @@
     :cond_9
     if-gez v3, :cond_a
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/doodle/DoodleFragment$a$a;->d:Lcom/commsource/studio/doodle/DoodleFragment$a;
 
     iget-object v2, v2, Lcom/commsource/studio/doodle/DoodleFragment$a;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/doodle/DoodleFragment;->f0(Lcom/commsource/studio/doodle/DoodleFragment;)V
 
-    .line 10
     :cond_a
     iget-object v2, p0, Lcom/commsource/studio/doodle/DoodleFragment$a$a;->d:Lcom/commsource/studio/doodle/DoodleFragment$a;
 
@@ -229,7 +218,6 @@
 
     invoke-static {v2, v1, p1}, Lcom/commsource/studio/doodle/DoodleFragment;->p0(Lcom/commsource/studio/doodle/DoodleFragment;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

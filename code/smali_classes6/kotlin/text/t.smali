@@ -28,7 +28,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/lang/NumberFormatException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -73,7 +72,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {p0, v0}, Lcotlin/text/t;->W0(Ljava/lang/String;I)Ljava/lang/Byte;
 
     move-result-object p0
@@ -98,7 +96,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/text/t;->Y0(Ljava/lang/String;I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -124,7 +121,6 @@
     :cond_0
     int-to-byte p0, p0
 
-    .line 2
     invoke-static {p0}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
 
     move-result-object p0
@@ -155,7 +151,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {p0, v0}, Lcotlin/text/t;->Y0(Ljava/lang/String;I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -180,10 +175,8 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -197,14 +190,12 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v3
 
     const/16 v4, 0x30
 
-    .line 4
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result v4
@@ -255,7 +246,6 @@
     :goto_1
     if-ge v6, v0, :cond_9
 
-    .line 5
     invoke-virtual {p0, v6}, Ljava/lang/String;->charAt(I)C
 
     move-result v8
@@ -273,7 +263,6 @@
 
     if-ne v7, v4, :cond_6
 
-    .line 6
     div-int v7, v5, p1
 
     if-ge v2, v7, :cond_7
@@ -300,7 +289,6 @@
     :cond_9
     if-eqz v3, :cond_a
 
-    .line 7
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -337,7 +325,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {p0, v0}, Lcotlin/text/t;->a1(Ljava/lang/String;I)Ljava/lang/Long;
 
     move-result-object p0
@@ -366,10 +353,8 @@
 
     invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static/range {p1 .. p1}, Lcotlin/text/a;->a(I)I
 
-    .line 2
     invoke-virtual/range {p0 .. p0}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -383,14 +368,12 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 3
     invoke-virtual {v0, v4}, Ljava/lang/String;->charAt(I)C
 
     move-result v5
 
     const/16 v6, 0x30
 
-    .line 4
     invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result v6
@@ -442,7 +425,6 @@
     :goto_2
     if-ge v4, v2, :cond_9
 
-    .line 5
     invoke-virtual {v0, v4}, Ljava/lang/String;->charAt(I)C
 
     move-result v14
@@ -466,7 +448,6 @@
 
     int-to-long v12, v1
 
-    .line 6
     div-long v12, v7, v12
 
     cmp-long v15, v10, v12
@@ -503,7 +484,6 @@
     :cond_9
     if-eqz v9, :cond_a
 
-    .line 7
     invoke-static {v10, v11}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
@@ -540,7 +520,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {p0, v0}, Lcotlin/text/t;->c1(Ljava/lang/String;I)Ljava/lang/Short;
 
     move-result-object p0
@@ -565,7 +544,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/text/t;->Y0(Ljava/lang/String;I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -591,7 +569,6 @@
     :cond_0
     int-to-short p0, p0
 
-    .line 2
     invoke-static {p0}, Ljava/lang/Short;->valueOf(S)Ljava/lang/Short;
 
     move-result-object p0

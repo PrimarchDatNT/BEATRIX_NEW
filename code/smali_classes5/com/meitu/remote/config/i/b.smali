@@ -72,14 +72,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     sput-object v1, Lcom/meitu/remote/config/i/b;->e:Ljava/util/Map;
 
-    .line 2
     new-instance v1, Lcom/meitu/remote/config/i/b$d;
 
     invoke-direct {v1}, Lcom/meitu/remote/config/i/b$d;-><init>()V
@@ -94,18 +92,14 @@
 .method private constructor <init>(Ljava/util/concurrent/ExecutorService;Lcom/meitu/remote/config/i/h;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/remote/config/i/b;->a:Ljava/util/concurrent/ExecutorService;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/remote/config/i/b;->b:Lcom/meitu/remote/config/i/h;
 
     const/4 p1, 0x0
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/remote/config/i/b;->c:Lcom/google/android/gms/tasks/k;
 
     return-void
@@ -118,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/remote/config/i/b;->n(Lcom/meitu/remote/config/i/c;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/remote/config/i/b;->b:Lcom/meitu/remote/config/i/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -167,39 +159,32 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/remote/config/i/b$e;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2}, Lcom/meitu/remote/config/i/b$e;-><init>(Lcom/meitu/remote/config/i/b$a;)V
 
-    .line 2
     sget-object v2, Lcom/meitu/remote/config/i/b;->f:Ljava/util/concurrent/Executor;
 
     invoke-virtual {p0, v2, v1}, Lcom/google/android/gms/tasks/k;->l(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/g;)Lcom/google/android/gms/tasks/k;
 
-    .line 3
     invoke-virtual {p0, v2, v1}, Lcom/google/android/gms/tasks/k;->i(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/f;)Lcom/google/android/gms/tasks/k;
 
-    .line 4
     invoke-virtual {p0, v2, v1}, Lcom/google/android/gms/tasks/k;->c(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/d;)Lcom/google/android/gms/tasks/k;
 
-    .line 5
     invoke-virtual {v1, p1, p2, p3}, Lcom/meitu/remote/config/i/b$e;->d(JLjava/util/concurrent/TimeUnit;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/android/gms/tasks/k;->v()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 7
     invoke-virtual {p0}, Lcom/google/android/gms/tasks/k;->r()Ljava/lang/Object;
 
     move-result-object p0
@@ -208,7 +193,6 @@
 
     return-object p0
 
-    .line 8
     :cond_0
     new-instance p1, Ljava/util/concurrent/ExecutionException;
 
@@ -222,7 +206,6 @@
 
     throw p1
 
-    .line 9
     :cond_1
     new-instance p0, Ljava/util/concurrent/TimeoutException;
 
@@ -249,12 +232,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/remote/config/i/b;->e:Ljava/util/Map;
 
     invoke-interface {v2}, Ljava/util/Map;->clear()V
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -283,12 +264,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/remote/config/i/h;->c()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 2
     sget-object v3, Lcom/meitu/remote/config/i/b;->e:Ljava/util/Map;
 
     invoke-interface {v3, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -297,14 +276,12 @@
 
     if-nez v4, :cond_0
 
-    .line 3
     new-instance v4, Lcom/meitu/remote/config/i/b;
 
     invoke-direct {v4, p0, p1}, Lcom/meitu/remote/config/i/b;-><init>(Ljava/util/concurrent/ExecutorService;Lcom/meitu/remote/config/i/h;)V
 
     invoke-interface {v3, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     :cond_0
     invoke-interface {v3, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -338,14 +315,12 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->g(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/remote/config/i/b;->c:Lcom/google/android/gms/tasks/k;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -371,12 +346,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     invoke-static {v1}, Lcom/google/android/gms/tasks/n;->g(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
 
@@ -384,17 +357,14 @@
 
     iput-object v1, p0, Lcom/meitu/remote/config/i/b;->c:Lcom/google/android/gms/tasks/k;
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/remote/config/i/b;->b:Lcom/meitu/remote/config/i/h;
 
     invoke-virtual {v1}, Lcom/meitu/remote/config/i/h;->a()Ljava/lang/Void;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -402,7 +372,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -431,12 +400,10 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/b;->c:Lcom/google/android/gms/tasks/k;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/google/android/gms/tasks/k;->u()Z
 
     move-result v1
@@ -451,7 +418,6 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/remote/config/i/b;->a:Ljava/util/concurrent/ExecutorService;
 
@@ -465,7 +431,6 @@
 
     iput-object v1, p0, Lcom/meitu/remote/config/i/b;->c:Lcom/google/android/gms/tasks/k;
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/meitu/remote/config/i/b;->c:Lcom/google/android/gms/tasks/k;
 
@@ -496,7 +461,6 @@
 
     const-wide/16 v1, 0x5
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Lcom/meitu/remote/config/i/b;->h(J)Lcom/meitu/remote/config/i/c;
 
     move-result-object v1
@@ -518,10 +482,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/meitu/remote/config/i/b;->c:Lcom/google/android/gms/tasks/k;
 
@@ -533,7 +495,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/remote/config/i/b;->c:Lcom/google/android/gms/tasks/k;
 
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->r()Ljava/lang/Object;
@@ -550,14 +511,12 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     :try_start_1
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     :try_start_2
     invoke-virtual {p0}, Lcom/meitu/remote/config/i/b;->f()Lcom/google/android/gms/tasks/k;
 
@@ -597,12 +556,10 @@
 
     const-string v1, "Reading from storage file failed."
 
-    .line 6
     invoke-static {p2, v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const/4 p1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -610,7 +567,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_3
     monitor-exit p0
     :try_end_3
@@ -645,7 +601,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/b;->c:Lcom/google/android/gms/tasks/k;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -683,7 +638,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/meitu/remote/config/i/b;->l(Lcom/meitu/remote/config/i/c;Z)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -710,7 +664,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/b;->a:Ljava/util/concurrent/ExecutorService;
 
     new-instance v2, Lcom/meitu/remote/config/i/b$b;
@@ -727,12 +680,10 @@
 
     invoke-direct {v3, p0, p2, p1}, Lcom/meitu/remote/config/i/b$a;-><init>(Lcom/meitu/remote/config/i/b;ZLcom/meitu/remote/config/i/c;)V
 
-    .line 2
     invoke-virtual {v1, v2, v3}, Lcom/google/android/gms/tasks/k;->x(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/j;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -755,12 +706,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/remote/config/i/b;->n(Lcom/meitu/remote/config/i/c;)V
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, p1, v1}, Lcom/meitu/remote/config/i/b;->l(Lcom/meitu/remote/config/i/c;Z)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1

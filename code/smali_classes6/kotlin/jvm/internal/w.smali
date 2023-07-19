@@ -21,10 +21,8 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/jvm/internal/m0;-><init>(I)V
 
-    .line 2
     new-array p1, p1, [D
 
     iput-object p1, p0, Lcotlin/jvm/internal/w;->d:[D
@@ -37,7 +35,6 @@
 .method public bridge synthetic c(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, [D
 
     invoke-virtual {p0, p1}, Lcotlin/jvm/internal/w;->i([D)I
@@ -50,7 +47,6 @@
 .method public final h(D)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcotlin/jvm/internal/w;->d:[D
 
     invoke-virtual {p0}, Lcotlin/jvm/internal/m0;->b()I
@@ -77,7 +73,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length p1, p1
 
     return p1
@@ -88,7 +83,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/jvm/internal/w;->d:[D
 
     invoke-virtual {p0}, Lcotlin/jvm/internal/m0;->f()I

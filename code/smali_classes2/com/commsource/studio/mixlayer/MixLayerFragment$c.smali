@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$c;->a:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/widget/XSeekBar$b$a;->c(Lcom/commsource/widget/XSeekBar$b;IF)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -63,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -78,14 +75,12 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$c;->a:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->A(Lcom/commsource/studio/mixlayer/MixLayerFragment;)Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$c;->a:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->C(Lcom/commsource/studio/mixlayer/MixLayerFragment;)Lcom/commsource/beautyplus/f0/g9;
@@ -94,7 +89,6 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/g9;->b:Lcom/commsource/widget/XSeekBar;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$c;->a:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->C(Lcom/commsource/studio/mixlayer/MixLayerFragment;)Lcom/commsource/beautyplus/f0/g9;
@@ -113,10 +107,8 @@
 
     int-to-float v2, v2
 
-    .line 4
     invoke-virtual {v0, v1, p2, v2}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->H(Lcom/commsource/widget/XSeekBar;FF)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$c;->a:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->z(Lcom/commsource/studio/mixlayer/MixLayerFragment;)Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -133,7 +125,6 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/bean/FocusLayerInfo;->setAlpha(F)V
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$c;->a:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
@@ -153,7 +144,6 @@
 
     invoke-static {p1, p2, v1, v0, v1}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -166,7 +156,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$c;->a:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-static {p3}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->D(Lcom/commsource/studio/mixlayer/MixLayerFragment;)Lcom/commsource/studio/ImageStudioViewModel;
@@ -185,7 +174,6 @@
 
     invoke-static {p3, v0, v1, v2, v1}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$c;->a:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-static {p3}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->A(Lcom/commsource/studio/mixlayer/MixLayerFragment;)Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
@@ -202,7 +190,6 @@
 
     invoke-static/range {v0 .. v5}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->I(Lcom/commsource/studio/mixlayer/ImageStyleViewModel;Lcom/commsource/widget/XSeekBar;FFILjava/lang/Object;)V
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$c;->a:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-static {p3}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->A(Lcom/commsource/studio/mixlayer/MixLayerFragment;)Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
@@ -211,7 +198,6 @@
 
     invoke-virtual {p3, p1}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->k0(I)V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

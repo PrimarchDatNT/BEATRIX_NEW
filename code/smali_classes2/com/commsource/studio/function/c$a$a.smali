@@ -43,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/c$a$a;->a:Lcom/commsource/studio/function/c$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -60,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/c$a$a;->c(Ljava/util/List;)V
@@ -81,10 +79,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/k/o;->d(Lf/k/k/p;Ljava/lang/Throwable;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/c$a$a;->a:Lcom/commsource/studio/function/c$a;
 
     iget-object v1, v1, Lcom/commsource/studio/function/c$a;->a:Lcom/commsource/studio/function/c;
@@ -101,14 +97,12 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/beautyplus/util/t;->e(Ljava/lang/Throwable;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/c$a$a;->a:Lcom/commsource/studio/function/c$a;
 
     iget-object p1, p1, Lcom/commsource/studio/function/c$a;->a:Lcom/commsource/studio/function/c;
@@ -127,7 +121,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/c$a$a;->a:Lcom/commsource/studio/function/c$a;
 
@@ -145,7 +138,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 6
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/function/c$a$a;->a:Lcom/commsource/studio/function/c$a;
@@ -156,7 +148,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/c;->H(Lf/k/k/d;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -183,7 +174,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -197,7 +187,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/function/c$a$a;->a:Lcom/commsource/studio/function/c$a;
 
@@ -207,7 +196,6 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v3, Ljava/util/ArrayList;
 
     const/16 v4, 0xa
@@ -218,7 +206,6 @@
 
     invoke-direct {v3, v4}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 4
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -234,10 +221,8 @@
 
     move-result-object v4
 
-    .line 5
     check-cast v4, Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;
 
-    .line 6
     iget-object v5, p0, Lcom/commsource/studio/function/c$a$a;->a:Lcom/commsource/studio/function/c$a;
 
     iget-object v6, v5, Lcom/commsource/studio/function/c$a;->a:Lcom/commsource/studio/function/c;
@@ -254,11 +239,9 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/c$a$a;->a:Lcom/commsource/studio/function/c$a;
 
     iget-object p1, p1, Lcom/commsource/studio/function/c$a;->a:Lcom/commsource/studio/function/c;
@@ -267,7 +250,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/c;->H(Lf/k/k/d;)V
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -12,7 +12,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/icing/zzdt;->values()[Lcom/google/android/gms/internal/icing/zzdt;
 
     move-result-object v0
@@ -68,7 +67,6 @@
     :try_end_2
     .catch Ljava/lang/NoSuchFieldError; {:try_start_2 .. :try_end_2} :catch_2
 
-    .line 2
     :catch_2
     invoke-static {}, Lcom/google/android/gms/internal/icing/zzdh;->values()[Lcom/google/android/gms/internal/icing/zzdh;
 

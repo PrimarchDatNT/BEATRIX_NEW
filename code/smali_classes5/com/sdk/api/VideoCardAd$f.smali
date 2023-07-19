@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/sdk/api/VideoCardAd;Landroid/view/View;II)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/VideoCardAd$f;->d:Lcom/sdk/api/VideoCardAd;
 
     iput-object p2, p0, Lcom/sdk/api/VideoCardAd$f;->a:Landroid/view/View;
@@ -50,7 +49,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/api/VideoCardAd$f;->d:Lcom/sdk/api/VideoCardAd;
 
     invoke-static {v0}, Lcom/sdk/api/VideoCardAd;->r(Lcom/sdk/api/VideoCardAd;)Lcom/sdk/api/VideoCardAd$l;
@@ -59,7 +57,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/VideoCardAd$f;->d:Lcom/sdk/api/VideoCardAd;
 
     invoke-static {v0}, Lcom/sdk/api/VideoCardAd;->r(Lcom/sdk/api/VideoCardAd;)Lcom/sdk/api/VideoCardAd$l;

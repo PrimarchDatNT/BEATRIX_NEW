@@ -24,14 +24,12 @@
 .method constructor <init>(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->a:Z
 
     return-void
@@ -44,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getShowTimeSecond()I
@@ -53,7 +50,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->B(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;I)I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->A(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)I
@@ -66,7 +62,6 @@
 
     invoke-static {v1, v2, p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->C(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;Ljava/lang/Integer;Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->A(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)I
@@ -75,7 +70,6 @@
 
     if-lez v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->O(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Ljava/lang/String;
@@ -90,7 +84,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->X()Landroidx/lifecycle/MutableLiveData;
@@ -101,7 +94,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
@@ -117,7 +109,6 @@
 
     invoke-virtual {v1, v2, v3, v4}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -137,15 +128,12 @@
 
     const-string v2, "onAddThirdPartyNativeAdView"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->N(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;Lcom/meitu/hwbusinesskit/core/bean/AdData;)Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getPlatform()Ljava/lang/String;
 
     move-result-object v1
@@ -158,7 +146,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getAdType()Ljava/lang/String;
 
     move-result-object p1
@@ -171,7 +158,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->m0()Landroidx/lifecycle/MutableLiveData;
@@ -180,7 +166,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -198,22 +183,18 @@
 
     const-string v2, "onClick"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->a:Z
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
@@ -223,18 +204,15 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     iget-object v2, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v2, v1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->H(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;Z)Z
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getUrl()Ljava/lang/String;
@@ -255,7 +233,6 @@
 
     invoke-static {v1, v2, v3, v4, v5}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->I(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -302,7 +279,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->R(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Z
@@ -337,7 +313,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
@@ -349,7 +324,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 11
     :cond_3
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
@@ -361,7 +335,6 @@
 
     invoke-static {v1, p1, v2, v3}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->S(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;Lcom/meitu/hwbusinesskit/core/bean/AdData;ZZ)V
 
-    .line 12
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getPlatform()Ljava/lang/String;
 
     move-result-object v1
@@ -374,7 +347,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 13
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -387,7 +359,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 14
     const-class v2, Lcom/commsource/beautyplus/start/StartUpAdvertActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -404,7 +375,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 15
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -425,7 +395,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/hwanalytics/spm/e/a;->p(Ljava/lang/String;)V
 
-    .line 16
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -439,7 +408,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->O(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Ljava/lang/String;
@@ -454,17 +422,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->F(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)V
 
-    .line 3
     iget-boolean p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->a:Z
 
     if-nez p1, :cond_2
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->z(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Z
@@ -496,19 +461,16 @@
     :cond_1
     const-string v1, "mt"
 
-    .line 5
     invoke-virtual {v1, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->F(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)V
 
-    .line 7
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -527,13 +489,10 @@
 
     const-string v2, "onFailed"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-super {p0, p1}, Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;->onFailed(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -550,10 +509,8 @@
 
     const-string v2, "onShowTimeUp"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->O(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Ljava/lang/String;
@@ -570,7 +527,6 @@
 
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->O(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Ljava/lang/String;
 
     move-result-object v1
@@ -591,12 +547,10 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->F(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -610,12 +564,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->N(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;Lcom/meitu/hwbusinesskit/core/bean/AdData;)Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -640,7 +592,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getAdType()Ljava/lang/String;
@@ -649,12 +600,10 @@
 
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->P(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->Q(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->O(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Ljava/lang/String;
@@ -671,7 +620,6 @@
 
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
-    .line 6
     invoke-static {v1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->O(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Ljava/lang/String;
 
     move-result-object v1
@@ -684,10 +632,8 @@
 
     if-nez v1, :cond_0
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->a(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    .line 8
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
@@ -699,14 +645,12 @@
 
     invoke-static {v1, p1, v2, v3}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->S(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;Lcom/meitu/hwbusinesskit/core/bean/AdData;ZZ)V
 
-    .line 9
     invoke-static {}, Lcom/commsource/statistics/n;->a()Lcom/commsource/statistics/n;
 
     move-result-object p1
 
     invoke-virtual {p1, v3}, Lcom/commsource/statistics/n;->h(Z)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->T(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Ljava/util/HashMap;
@@ -719,7 +663,6 @@
 
     invoke-virtual {p1, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->T(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Ljava/util/HashMap;
@@ -732,7 +675,6 @@
 
     invoke-virtual {p1, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->T(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Ljava/util/HashMap;
@@ -759,7 +701,6 @@
 
     invoke-virtual {p1, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->T(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Ljava/util/HashMap;
@@ -798,7 +739,6 @@
 
     invoke-virtual {p1, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->T(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Ljava/util/HashMap;
@@ -809,7 +749,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 15
     sget-object p1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {p1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -822,7 +761,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 16
     const-class v1, Lcom/commsource/beautyplus/start/StartUpAdvertActivity;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -841,10 +779,8 @@
 
     const-string v1, "1010"
 
-    .line 17
     invoke-virtual {p1, v1}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 18
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

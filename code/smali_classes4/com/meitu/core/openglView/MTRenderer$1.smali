@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/meitu/core/openglView/MTRenderer;Landroid/graphics/Bitmap;ZLcom/meitu/core/openglView/MTRenderer$RenderComplete;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/openglView/MTRenderer$1;->this$0:Lcom/meitu/core/openglView/MTRenderer;
 
     iput-object p2, p0, Lcom/meitu/core/openglView/MTRenderer$1;->val$bitmap:Landroid/graphics/Bitmap;
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer$1;->this$0:Lcom/meitu/core/openglView/MTRenderer;
 
     invoke-static {v1}, Lcom/meitu/core/openglView/MTRenderer;->access$400(Lcom/meitu/core/openglView/MTRenderer;)Lcom/meitu/core/openglView/MTOpenGL;
@@ -87,7 +85,6 @@
 
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/meitu/core/openglView/MTOpenGL;->setOutputSize(IIII)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer$1;->this$0:Lcom/meitu/core/openglView/MTRenderer;
 
     iget-object v2, p0, Lcom/meitu/core/openglView/MTRenderer$1;->val$bitmap:Landroid/graphics/Bitmap;
@@ -102,7 +99,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/core/openglView/MTRenderer;->access$502(Lcom/meitu/core/openglView/MTRenderer;I)I
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer$1;->this$0:Lcom/meitu/core/openglView/MTRenderer;
 
     invoke-static {v1}, Lcom/meitu/core/openglView/MTRenderer;->access$200(Lcom/meitu/core/openglView/MTRenderer;)I
@@ -121,7 +117,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/core/openglView/MTRenderer;->access$602(Lcom/meitu/core/openglView/MTRenderer;I)I
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer$1;->this$0:Lcom/meitu/core/openglView/MTRenderer;
 
     invoke-static {v1}, Lcom/meitu/core/openglView/MTRenderer;->access$200(Lcom/meitu/core/openglView/MTRenderer;)I
@@ -140,7 +135,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/core/openglView/MTRenderer;->access$702(Lcom/meitu/core/openglView/MTRenderer;I)I
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer$1;->this$0:Lcom/meitu/core/openglView/MTRenderer;
 
     invoke-static {v1}, Lcom/meitu/core/openglView/MTRenderer;->access$400(Lcom/meitu/core/openglView/MTRenderer;)Lcom/meitu/core/openglView/MTOpenGL;
@@ -161,7 +155,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/core/openglView/MTOpenGL;->copyTexture(II)Z
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer$1;->this$0:Lcom/meitu/core/openglView/MTRenderer;
 
     invoke-static {v1}, Lcom/meitu/core/openglView/MTRenderer;->access$400(Lcom/meitu/core/openglView/MTRenderer;)Lcom/meitu/core/openglView/MTOpenGL;
@@ -182,15 +175,12 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/core/openglView/MTOpenGL;->copyTexture(II)Z
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer$1;->val$complete:Lcom/meitu/core/openglView/MTRenderer$RenderComplete;
 
     if-eqz v1, :cond_0
 
-    .line 8
     invoke-interface {v1}, Lcom/meitu/core/openglView/MTRenderer$RenderComplete;->complete()V
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

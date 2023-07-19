@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/om;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/rm;->a:Lcom/google/android/gms/internal/ads/om;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -27,7 +26,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/rm;->a:Lcom/google/android/gms/internal/ads/om;
 
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
@@ -36,7 +34,6 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/om;->a(Lcom/google/android/gms/internal/ads/om;Ljava/lang/Thread;)Ljava/lang/Thread;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/rm;->a:Lcom/google/android/gms/internal/ads/om;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/om;->b()V

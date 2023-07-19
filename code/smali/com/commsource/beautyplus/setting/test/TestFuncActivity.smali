@@ -20,10 +20,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$viewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$viewModel$2;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncActivity;)V
@@ -44,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->P0()Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
     move-result-object p0
@@ -61,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -76,15 +72,12 @@
 
     check-cast v1, Landroid/app/ActivityManager;
 
-    .line 2
     invoke-virtual {v1}, Landroid/app/ActivityManager;->clearApplicationUserData()Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -124,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->P0()Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
     move-result-object v1
@@ -137,7 +129,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->P0()Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
     move-result-object v1
@@ -150,7 +141,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->P0()Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
     move-result-object v1
@@ -159,15 +149,12 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$c;
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$c;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncActivity;)V
 
-    .line 5
     invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->P0()Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
     move-result-object v1
@@ -176,15 +163,12 @@
 
     move-result-object v1
 
-    .line 7
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$d;
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$d;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncActivity;)V
 
-    .line 8
     invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->P0()Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
     move-result-object v1
@@ -193,15 +177,12 @@
 
     move-result-object v1
 
-    .line 10
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$e;
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$e;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncActivity;)V
 
-    .line 11
     invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 12
     invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v1
@@ -212,7 +193,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -225,7 +205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/res/provider/ResID;->vTvConsume:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -236,7 +215,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2
     sget v1, Lcom/res/provider/ResID;->vTvClear:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -247,7 +225,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     sget v1, Lcom/res/provider/ResID;->vTvABTest:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -258,7 +235,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     sget v1, Lcom/res/provider/ResID;->vTvBugKiller:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -269,7 +245,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     sget v1, Lcom/res/provider/ResID;->xtb:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -290,7 +265,6 @@
 
     invoke-static {v1, v2, v3, v4, v5}, Lcom/commsource/widget/title/XTitleBar;->l(Lcom/commsource/widget/title/XTitleBar;Lcom/commsource/widget/title/a;IILjava/lang/Object;)Lcom/commsource/widget/title/XTitleBar;
 
-    .line 6
     sget v1, Lcom/res/provider/ResID;->llUrlJump:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -301,7 +275,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     sget v1, Lcom/res/provider/ResID;->llOneThingInTheEnd:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -312,7 +285,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     sget v1, Lcom/res/provider/ResID;->vSwitchDebugEffectTool:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -321,7 +293,6 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    .line 9
     invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -332,14 +303,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 10
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$q;
 
     invoke-direct {v2, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$q;-><init>(Lcom/commsource/beautyplus/setting/widget/SwitchView;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    .line 11
     sget v1, Lcom/res/provider/ResID;->crashDebug:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -354,7 +323,6 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 12
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
 
     move-result-object v1
@@ -369,7 +337,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 13
     sget v1, Lcom/res/provider/ResID;->vTvCrashDebug:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -384,7 +351,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 14
     sget v1, Lcom/res/provider/ResID;->ll_dialog:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -399,7 +365,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 15
     sget v1, Lcom/res/provider/ResID;->soMissDebug:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -414,7 +379,6 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 16
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
 
     move-result-object v1
@@ -429,7 +393,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 17
     sget v1, Lcom/res/provider/ResID;->vTvSoMissDebug:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -444,7 +407,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 18
     sget v1, Lcom/res/provider/ResID;->vTvCppCrashDebug:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -459,7 +421,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 19
     sget v1, Lcom/res/provider/ResID;->vSwitchTestPrintFaceInfos:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -468,7 +429,6 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    .line 20
     invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -479,14 +439,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 21
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$a0;
 
     invoke-direct {v2, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$a0;-><init>(Lcom/commsource/beautyplus/setting/widget/SwitchView;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    .line 22
     sget v1, Lcom/res/provider/ResID;->vSwitchArDownload:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -495,7 +453,6 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    .line 23
     invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -506,14 +463,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 24
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$b0;
 
     invoke-direct {v2, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$b0;-><init>(Lcom/commsource/beautyplus/setting/widget/SwitchView;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    .line 25
     sget v1, Lcom/res/provider/ResID;->vSwitchFormalHomeDuration:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -522,7 +477,6 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    .line 26
     invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -533,14 +487,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 27
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$c0;
 
     invoke-direct {v2, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$c0;-><init>(Lcom/commsource/beautyplus/setting/widget/SwitchView;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    .line 28
     sget v1, Lcom/res/provider/ResID;->vSwitchCameraEffeckCheck:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -549,7 +501,6 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    .line 29
     invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -560,14 +511,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 30
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$i;
 
     invoke-direct {v2, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$i;-><init>(Lcom/commsource/beautyplus/setting/widget/SwitchView;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    .line 31
     sget v1, Lcom/res/provider/ResID;->vSwitchFirebaseEventOutput:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -576,19 +525,16 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    .line 32
     invoke-static {}, Lf/d/i/e;->d0()Z
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 33
     sget-object v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$j;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity$j;
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    .line 34
     sget v1, Lcom/res/provider/ResID;->vSwitchUIChecker:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -597,21 +543,18 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    .line 35
     invoke-static {}, Lf/d/i/e;->T0()Z
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 36
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$f;
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$f;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncActivity;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    .line 37
     sget v1, Lcom/res/provider/ResID;->vSwitchDiscount:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -620,19 +563,16 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    .line 38
     invoke-static {}, Lf/d/i/e;->m4()Z
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 39
     sget-object v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$k;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity$k;
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    .line 40
     sget v1, Lcom/res/provider/ResID;->vSwitchFilterDataSource:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -641,19 +581,16 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    .line 41
     invoke-static {}, Lf/d/i/e;->q1()Z
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 42
     sget-object v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$l;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity$l;
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    .line 43
     sget v1, Lcom/res/provider/ResID;->vSwitchProductCenterDebug:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -662,21 +599,18 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    .line 44
     invoke-static {}, Lf/d/i/e;->O1()Z
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 45
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$g;
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$g;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncActivity;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    .line 46
     sget v1, Lcom/res/provider/ResID;->svScanArPerformance:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -685,21 +619,18 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    .line 47
     invoke-static {}, Lf/d/i/e;->y1()Z
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 48
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$initViews$$inlined$run$lambda$3;
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$initViews$$inlined$run$lambda$3;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncActivity;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    .line 49
     sget v1, Lcom/res/provider/ResID;->sw_proxy:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -714,7 +645,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 50
     sget v2, Lcom/res/provider/ResID;->sw_fake:I
 
     invoke-virtual {p0, v2}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -729,7 +659,6 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 51
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
 
     move-result-object v1
@@ -742,7 +671,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 52
     invoke-virtual {p0, v2}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
 
     move-result-object v1
@@ -755,7 +683,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 53
     sget v1, Lcom/res/provider/ResID;->sw_new_user_proxy:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -770,7 +697,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 54
     sget v2, Lcom/res/provider/ResID;->sw_fake_new_user:I
 
     invoke-virtual {p0, v2}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -785,7 +711,6 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 55
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
 
     move-result-object v1
@@ -798,7 +723,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 56
     invoke-virtual {p0, v2}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
 
     move-result-object v1
@@ -811,7 +735,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 57
     sget v1, Lcom/res/provider/ResID;->createDump:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -820,14 +743,12 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    .line 58
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$h;
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$h;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncActivity;)V
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 59
     sget v1, Lcom/res/provider/ResID;->ll_store:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -842,7 +763,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 60
     sget v1, Lcom/res/provider/ResID;->vLlProduct:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -855,7 +775,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 61
     sget v1, Lcom/res/provider/ResID;->et_input:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -874,7 +793,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    .line 62
     sget v1, Lcom/res/provider/ResID;->vLlPurchase:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -889,7 +807,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 63
     sget v1, Lcom/res/provider/ResID;->vOnBoardingSwitch:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
@@ -898,19 +815,16 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    .line 64
     invoke-static {}, Lf/d/i/e;->l4()Z
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 65
     sget-object v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$v;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity$v;
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    .line 66
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1002,7 +916,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result p1
@@ -1011,7 +924,6 @@
 
     goto :goto_0
 
-    .line 2
     :sswitch_0
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->P0()Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
@@ -1021,7 +933,6 @@
 
     goto :goto_0
 
-    .line 3
     :sswitch_1
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->O0()V
 
@@ -1030,12 +941,10 @@
     :sswitch_2
     const-string p1, "https://pixocial.meitu-int.com/home/"
 
-    .line 4
     invoke-static {p0, p1}, Lcom/commsource/util/w0;->u(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 5
     :sswitch_3
     new-instance p1, Landroid/content/Intent;
 
@@ -1050,18 +959,15 @@
     :sswitch_4
     const-string p1, "https://h5.mr.meitu.com/public/factory/?path=beautyplusdeeplinktesthomepage&intl=1"
 
-    .line 6
     invoke-static {p0, p1}, Lcom/commsource/util/w0;->u(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 7
     :sswitch_5
     sget-object p1, Lcom/commsource/beautyplus/router/c;->b:Lcom/commsource/beautyplus/router/c;
 
     const-string v1, "beautyplus://p_edit/f_filter?content=1706&strength=70&photo_type=photo_local&album_instant=true&p_sub_style=compare"
 
-    .line 8
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
@@ -1070,10 +976,8 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {p1, p0, v1}, Lcom/commsource/beautyplus/router/c;->c(Landroid/app/Activity;Landroid/net/Uri;)Z
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1101,21 +1005,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->activity_test_func:I
 
-    .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->Q0()V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->R0()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1128,10 +1027,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onStop()V
 
-    .line 2
     :try_start_0
     sget v1, Lcom/res/provider/ResID;->et_input:I
 
@@ -1166,10 +1063,8 @@
     :catch_0
     move-exception v1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

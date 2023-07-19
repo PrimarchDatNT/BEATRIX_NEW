@@ -20,7 +20,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +57,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/a;->v()V
 
     return-void
@@ -85,7 +83,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/a;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     return-void
@@ -94,7 +91,6 @@
 .method public getBackPressedWeight()I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/f$a;->a(Lcom/commsource/camera/xcamera/cover/f;)I
 
     move-result v0
@@ -105,7 +101,6 @@
 .method public getPhysicKeyEventWeight()I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/f$a;->b(Lcom/commsource/camera/xcamera/cover/f;)I
 
     move-result v0
@@ -156,15 +151,12 @@
 .method public o()V
     .locals 5
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/a;->s()V
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -227,7 +219,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/a;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     if-nez v0, :cond_0
@@ -263,12 +254,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/a;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     if-nez v2, :cond_0
@@ -290,7 +279,6 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -359,7 +347,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/a;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     return-void

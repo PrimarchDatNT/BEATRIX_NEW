@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/commsource/camera/f0;Ljava/lang/String;Ljava/util/List;Lcom/commsource/widget/s0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/f0$a;->J:Lcom/commsource/camera/f0;
 
     iput-object p3, p0, Lcom/commsource/camera/f0$a;->g:Ljava/util/List;
@@ -45,10 +44,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/f0$a;->J:Lcom/commsource/camera/f0;
 
     invoke-static {p1}, Lcom/commsource/camera/f0;->i(Lcom/commsource/camera/f0;)Ljava/util/List;
@@ -57,7 +54,6 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->removeAll(Ljava/util/Collection;)Z
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/f0$a;->J:Lcom/commsource/camera/f0;
 
     invoke-static {p1}, Lcom/commsource/camera/f0;->j(Lcom/commsource/camera/f0;)Lcom/commsource/camera/widget/ArMaterialRecyclerView;
@@ -66,7 +62,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/widget/ArMaterialRecyclerView;->h()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/f0$a;->J:Lcom/commsource/camera/f0;
 
     invoke-static {p1}, Lcom/commsource/camera/f0;->j(Lcom/commsource/camera/f0;)Lcom/commsource/camera/widget/ArMaterialRecyclerView;
@@ -81,17 +76,14 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/widget/ArMaterialRecyclerView;->k(Ljava/util/List;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/f0$a;->J:Lcom/commsource/camera/f0;
 
     invoke-static {p1}, Lcom/commsource/camera/f0;->k(Lcom/commsource/camera/f0;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/f0$a;->J:Lcom/commsource/camera/f0;
 
     invoke-static {p1, p2}, Lcom/commsource/camera/f0;->n(Lcom/commsource/camera/f0;Ljava/util/List;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -106,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object v1
@@ -115,14 +106,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->t(Ljava/util/List;)V
 
-    .line 2
     invoke-static {}, Lf/d/i/g;->o()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/f0$a;->J:Lcom/commsource/camera/f0;
 
     invoke-static {v1}, Lcom/commsource/camera/f0;->h(Lcom/commsource/camera/f0;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -139,7 +128,6 @@
 
     check-cast v1, Lcom/meitu/template/bean/ArMaterial;
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/f0$a;->g:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -160,7 +148,6 @@
 
     check-cast v3, Lcom/meitu/template/bean/ArMaterial;
 
-    .line 5
     invoke-virtual {v3}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v4
@@ -179,7 +166,6 @@
 
     if-nez v4, :cond_1
 
-    .line 6
     invoke-virtual {v3}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v4
@@ -192,14 +178,12 @@
 
     invoke-static {v4, v5}, Lcom/commsource/camera/montage/v;->t0(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v3}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v4
 
     invoke-static {v4, v5}, Lcom/commsource/camera/montage/v;->p0(Ljava/lang/Long;Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {v3}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v4
@@ -215,7 +199,6 @@
     :cond_1
     if-eqz v1, :cond_0
 
-    .line 9
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->getNumber()I
 
     move-result v4
@@ -228,12 +211,10 @@
 
     const/4 v3, 0x0
 
-    .line 10
     invoke-virtual {v1, v3}, Lcom/meitu/template/bean/ArMaterial;->setIsDownload(I)V
 
     goto :goto_0
 
-    .line 11
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/f0$a;->p:Lcom/commsource/widget/s0;
 
@@ -245,7 +226,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

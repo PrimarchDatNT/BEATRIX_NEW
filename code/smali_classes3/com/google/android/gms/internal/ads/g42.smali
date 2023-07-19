@@ -35,12 +35,10 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/e42;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/g42;->b:Lcom/google/android/gms/internal/ads/e42;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/e42;->b(Lcom/google/android/gms/internal/ads/e42;)Lcom/google/android/gms/internal/ads/x12;
 
     move-result-object p1
@@ -59,7 +57,6 @@
 .method public final hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/g42;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -72,7 +69,6 @@
 .method public final synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/g42;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -87,7 +83,6 @@
 .method public final remove()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V

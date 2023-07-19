@@ -31,7 +31,6 @@
 .method constructor <init>(Ljava/util/Map$Entry;Lcom/google/common/collect/Maps$r;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Maps$c;->a:Ljava/util/Map$Entry;
 
     iput-object p2, p0, Lcom/google/common/collect/Maps$c;->b:Lcom/google/common/collect/Maps$r;
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$c;->a:Ljava/util/Map$Entry;
 
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -69,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$c;->b:Lcom/google/common/collect/Maps$r;
 
     iget-object v1, p0, Lcom/google/common/collect/Maps$c;->a:Ljava/util/Map$Entry;

@@ -23,12 +23,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput v0, p0, Lcom/google/android/gms/auth/api/signin/internal/a;->a:I
 
     return-void
@@ -41,7 +39,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget v0, Lcom/google/android/gms/auth/api/signin/internal/a;->b:I
 
     iget v1, p0, Lcom/google/android/gms/auth/api/signin/internal/a;->a:I
@@ -72,7 +69,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/auth/api/signin/internal/a;->a:I
 
     return v0
@@ -81,7 +77,6 @@
 .method public final c(Z)Lcom/google/android/gms/auth/api/signin/internal/a;
     .locals 2
 
-    .line 1
     sget v0, Lcom/google/android/gms/auth/api/signin/internal/a;->b:I
 
     iget v1, p0, Lcom/google/android/gms/auth/api/signin/internal/a;->a:I

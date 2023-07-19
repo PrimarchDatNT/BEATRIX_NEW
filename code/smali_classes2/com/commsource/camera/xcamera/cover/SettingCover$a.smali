@@ -64,7 +64,6 @@
 
     goto/16 :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
@@ -79,14 +78,12 @@
     :cond_1
     const-string v4, "FRONT_FACING"
 
-    .line 2
     invoke-virtual {p1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_5
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$a;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/SettingCover;->L()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -111,7 +108,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$a;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -134,7 +130,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$a;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -158,7 +153,6 @@
 
     goto/16 :goto_1
 
-    .line 6
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$a;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -180,7 +174,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 7
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$a;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -204,7 +197,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_5
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$a;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
@@ -231,7 +223,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$a;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -254,7 +245,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 10
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$a;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -278,7 +268,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$a;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -300,7 +289,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 12
     :cond_8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$a;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -322,7 +310,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 13
     :cond_9
     :goto_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$a;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
@@ -357,7 +344,6 @@
     :goto_2
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 14
     :cond_b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -371,7 +357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/SettingCover$a;->a(Ljava/lang/String;)V

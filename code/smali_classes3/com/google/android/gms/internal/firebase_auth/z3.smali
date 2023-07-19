@@ -46,14 +46,12 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/z3;->c()Ljava/lang/Class;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/z3;->c:Ljava/lang/Class;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/z3;
 
     const/4 v1, 0x1
@@ -68,10 +66,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -84,10 +80,8 @@
 .method private constructor <init>(Z)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object p1
@@ -100,7 +94,6 @@
 .method static b()Lcom/google/android/gms/internal/firebase_auth/z3;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/firebase_auth/z3;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/firebase_auth/j4;->a(Ljava/lang/Class;)Lcom/google/android/gms/internal/firebase_auth/z3;
@@ -123,7 +116,6 @@
     :try_start_0
     const-string v0, "com.google.protobuf.Extension"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -141,30 +133,25 @@
 .method public static d()Lcom/google/android/gms/internal/firebase_auth/z3;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/z3;->d:Lcom/google/android/gms/internal/firebase_auth/z3;
 
     if-nez v0, :cond_1
 
-    .line 2
     const-class v1, Lcom/google/android/gms/internal/firebase_auth/z3;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/z3;->d:Lcom/google/android/gms/internal/firebase_auth/z3;
 
     if-nez v0, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/x3;->c()Lcom/google/android/gms/internal/firebase_auth/z3;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/z3;->d:Lcom/google/android/gms/internal/firebase_auth/z3;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -187,30 +174,25 @@
 .method public static e()Lcom/google/android/gms/internal/firebase_auth/z3;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/z3;->e:Lcom/google/android/gms/internal/firebase_auth/z3;
 
     if-nez v0, :cond_1
 
-    .line 2
     const-class v1, Lcom/google/android/gms/internal/firebase_auth/z3;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/z3;->e:Lcom/google/android/gms/internal/firebase_auth/z3;
 
     if-nez v0, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/x3;->d()Lcom/google/android/gms/internal/firebase_auth/z3;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/z3;->e:Lcom/google/android/gms/internal/firebase_auth/z3;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -244,14 +226,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/z3;->a:Ljava/util/Map;
 
     new-instance v1, Lcom/google/android/gms/internal/firebase_auth/z3$a;
 
     invoke-direct {v1, p1, p2}, Lcom/google/android/gms/internal/firebase_auth/z3$a;-><init>(Ljava/lang/Object;I)V
 
-    .line 2
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

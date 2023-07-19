@@ -57,42 +57,34 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/library/analytics/x/c;->c:Lcom/meitu/library/analytics/x/c;
 
-    .line 2
     sput-object v1, Lcom/meitu/library/analytics/x/c;->d:Lcom/meitu/library/analytics/sdk/content/f;
 
     const/4 v1, 0x0
 
-    .line 3
     sput-boolean v1, Lcom/meitu/library/analytics/x/c;->e:Z
 
-    .line 4
     sput-boolean v1, Lcom/meitu/library/analytics/x/c;->f:Z
 
-    .line 5
     sget-object v1, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/analytics/x/c$c$a;->a(Ljava/lang/String;)Lcom/meitu/library/analytics/x/c$c;
 
     move-result-object v1
 
     sput-object v1, Lcom/meitu/library/analytics/x/c;->b:Lcom/meitu/library/analytics/x/c$c;
 
-    .line 7
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
 
     sput-object v1, Lcom/meitu/library/analytics/x/c;->d:Lcom/meitu/library/analytics/sdk/content/f;
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -101,7 +93,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -114,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/analytics/x/c;->h()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -129,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/analytics/x/c;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/analytics/x/c;->k()Ljava/lang/String;
 
     move-result-object p0
@@ -161,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/analytics/x/c;->l()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -178,7 +165,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     sget-object v2, Lcom/meitu/library/analytics/x/c;->d:Lcom/meitu/library/analytics/sdk/content/f;
     :try_end_0
@@ -190,7 +176,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     :try_start_1
     sget-object v3, Lcom/meitu/library/analytics/x/c;->b:Lcom/meitu/library/analytics/x/c$c;
@@ -203,7 +188,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     :try_start_2
     sget-object v4, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_MSA_IDS:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
@@ -220,7 +204,6 @@
 
     return v1
 
-    .line 4
     :cond_2
     :try_start_3
     sget-object v2, Lcom/meitu/library/analytics/x/c;->d:Lcom/meitu/library/analytics/sdk/content/f;
@@ -239,7 +222,6 @@
 
     return v1
 
-    .line 5
     :catchall_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -253,30 +235,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/x/c;->c:Lcom/meitu/library/analytics/x/c;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/library/analytics/x/c;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/library/analytics/x/c;->c:Lcom/meitu/library/analytics/x/c;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/meitu/library/analytics/x/c;
 
     invoke-direct {v2}, Lcom/meitu/library/analytics/x/c;-><init>()V
 
     sput-object v2, Lcom/meitu/library/analytics/x/c;->c:Lcom/meitu/library/analytics/x/c;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -293,7 +270,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/library/analytics/x/c;->c:Lcom/meitu/library/analytics/x/c;
@@ -310,7 +286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/x/c;->b:Lcom/meitu/library/analytics/x/c$c;
 
     if-eqz v1, :cond_2
@@ -325,7 +300,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/meitu/library/analytics/x/c;->f()Z
 
@@ -335,7 +309,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     sget-object v2, Lcom/meitu/library/analytics/x/c;->d:Lcom/meitu/library/analytics/sdk/content/f;
 
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/content/f;->x()Landroid/content/Context;
@@ -348,13 +321,11 @@
 
     sput-boolean v1, Lcom/meitu/library/analytics/x/c;->e:Z
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -371,7 +342,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     sget-object v2, Lcom/meitu/library/analytics/x/c;->d:Lcom/meitu/library/analytics/sdk/content/f;
     :try_end_0
@@ -383,7 +353,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_1
     sget-object v3, Lcom/meitu/library/analytics/x/c;->b:Lcom/meitu/library/analytics/x/c$c;
@@ -396,7 +365,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/content/f;->x()Landroid/content/Context;
 
@@ -412,14 +380,12 @@
 
     return-object v1
 
-    .line 4
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 5
     :catchall_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -433,7 +399,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
@@ -442,7 +407,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/analytics/gid/d;->s()Ljava/lang/String;
 
     move-result-object v2
@@ -453,10 +417,8 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     sget-object v2, Lcom/meitu/library/analytics/y/n/d;->C:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/meitu/library/analytics/y/n/i;->k(Lcom/meitu/library/analytics/y/n/d;)Ljava/lang/Object;
 
     move-result-object v2
@@ -468,7 +430,6 @@
     :cond_0
     const-string v2, ""
 
-    .line 5
     :goto_0
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -476,7 +437,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     sget-object v2, Lcom/meitu/library/analytics/x/c;->d:Lcom/meitu/library/analytics/sdk/content/f;
 
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/content/f;->x()Landroid/content/Context;
@@ -487,7 +447,6 @@
 
     move-result-object v2
 
-    .line 7
     :cond_1
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -495,15 +454,12 @@
 
     if-nez v3, :cond_2
 
-    .line 8
     invoke-static {v2}, Lcom/meitu/library/analytics/o;->x(Ljava/lang/String;)V
 
-    .line 9
     sget-object v3, Lcom/meitu/library/analytics/y/n/d;->C:Lcom/meitu/library/analytics/y/n/d;
 
     invoke-virtual {v1, v3, v2}, Lcom/meitu/library/analytics/y/n/i;->n(Lcom/meitu/library/analytics/y/n/d;Ljava/lang/Object;)Lcom/meitu/library/analytics/y/n/i;
 
-    .line 10
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -527,7 +483,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v0, Lcom/meitu/library/analytics/x/c$b;
 
@@ -537,7 +492,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     :catchall_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -551,7 +505,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/lang/Thread;
 
@@ -561,12 +514,10 @@
 
     invoke-direct {v1, v2}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Thread;->start()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :catchall_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -580,15 +531,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/analytics/x/c;->h()V
 
-    .line 2
     sget-boolean v1, Lcom/meitu/library/analytics/x/c;->e:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/library/analytics/x/c;->k()Ljava/lang/String;
 
     move-result-object v1
@@ -597,7 +545,6 @@
 
     return-object v1
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

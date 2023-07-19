@@ -31,7 +31,6 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 1
     new-instance v0, Lorg/aspectj/lang/reflect/AdviceKind;
 
     const-string v1, "BEFORE"
@@ -42,7 +41,6 @@
 
     sput-object v0, Lorg/aspectj/lang/reflect/AdviceKind;->BEFORE:Lorg/aspectj/lang/reflect/AdviceKind;
 
-    .line 2
     new-instance v1, Lorg/aspectj/lang/reflect/AdviceKind;
 
     const-string v3, "AFTER"
@@ -53,7 +51,6 @@
 
     sput-object v1, Lorg/aspectj/lang/reflect/AdviceKind;->AFTER:Lorg/aspectj/lang/reflect/AdviceKind;
 
-    .line 3
     new-instance v3, Lorg/aspectj/lang/reflect/AdviceKind;
 
     const-string v5, "AFTER_RETURNING"
@@ -64,7 +61,6 @@
 
     sput-object v3, Lorg/aspectj/lang/reflect/AdviceKind;->AFTER_RETURNING:Lorg/aspectj/lang/reflect/AdviceKind;
 
-    .line 4
     new-instance v5, Lorg/aspectj/lang/reflect/AdviceKind;
 
     const-string v7, "AFTER_THROWING"
@@ -75,7 +71,6 @@
 
     sput-object v5, Lorg/aspectj/lang/reflect/AdviceKind;->AFTER_THROWING:Lorg/aspectj/lang/reflect/AdviceKind;
 
-    .line 5
     new-instance v7, Lorg/aspectj/lang/reflect/AdviceKind;
 
     const-string v9, "AROUND"
@@ -100,7 +95,6 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lorg/aspectj/lang/reflect/AdviceKind;->$VALUES:[Lorg/aspectj/lang/reflect/AdviceKind;
 
     return-void
@@ -114,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -123,7 +116,6 @@
 .method public static valueOf(Ljava/lang/String;)Lorg/aspectj/lang/reflect/AdviceKind;
     .locals 1
 
-    .line 1
     const-class v0, Lorg/aspectj/lang/reflect/AdviceKind;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -138,7 +130,6 @@
 .method public static values()[Lorg/aspectj/lang/reflect/AdviceKind;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/aspectj/lang/reflect/AdviceKind;->$VALUES:[Lorg/aspectj/lang/reflect/AdviceKind;
 
     invoke-virtual {v0}, [Lorg/aspectj/lang/reflect/AdviceKind;->clone()Ljava/lang/Object;

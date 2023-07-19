@@ -16,7 +16,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/icing/v1;-><init>()V
 
     return-void
@@ -34,10 +33,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
-    .line 2
     new-instance p1, Ljava/lang/NoSuchMethodError;
 
     invoke-direct {p1}, Ljava/lang/NoSuchMethodError;-><init>()V
@@ -62,10 +59,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
-    .line 2
     new-instance p1, Ljava/lang/NoSuchMethodError;
 
     invoke-direct {p1}, Ljava/lang/NoSuchMethodError;-><init>()V
@@ -86,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/icing/e2$c;
 
     iget-object p1, p1, Lcom/google/android/gms/internal/icing/e2$c;->zzjz:Lcom/google/android/gms/internal/icing/z1;
@@ -107,10 +101,8 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/icing/e2$c;
 
-    .line 2
     iget-object v0, p1, Lcom/google/android/gms/internal/icing/e2$c;->zzjz:Lcom/google/android/gms/internal/icing/z1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/icing/z1;->c()Z
@@ -119,7 +111,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p1, Lcom/google/android/gms/internal/icing/e2$c;->zzjz:Lcom/google/android/gms/internal/icing/z1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/icing/z1;->clone()Ljava/lang/Object;
@@ -130,7 +121,6 @@
 
     iput-object v0, p1, Lcom/google/android/gms/internal/icing/e2$c;->zzjz:Lcom/google/android/gms/internal/icing/z1;
 
-    .line 4
     :cond_0
     iget-object p1, p1, Lcom/google/android/gms/internal/icing/e2$c;->zzjz:Lcom/google/android/gms/internal/icing/z1;
 
@@ -140,7 +130,6 @@
 .method final e(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/icing/v1;->c(Ljava/lang/Object;)Lcom/google/android/gms/internal/icing/z1;
 
     move-result-object p1
@@ -153,7 +142,6 @@
 .method final f(Lcom/google/android/gms/internal/icing/i3;)Z
     .locals 0
 
-    .line 1
     instance-of p1, p1, Lcom/google/android/gms/internal/icing/e2$c;
 
     return p1

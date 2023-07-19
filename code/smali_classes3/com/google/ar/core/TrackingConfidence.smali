@@ -31,7 +31,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/TrackingConfidence;
 
     const-string v1, "LEVEL_0"
@@ -42,7 +41,6 @@
 
     sput-object v0, Lcom/google/ar/core/TrackingConfidence;->LEVEL_0:Lcom/google/ar/core/TrackingConfidence;
 
-    .line 2
     new-instance v1, Lcom/google/ar/core/TrackingConfidence;
 
     const-string v3, "LEVEL_1"
@@ -53,7 +51,6 @@
 
     sput-object v1, Lcom/google/ar/core/TrackingConfidence;->LEVEL_1:Lcom/google/ar/core/TrackingConfidence;
 
-    .line 3
     new-instance v3, Lcom/google/ar/core/TrackingConfidence;
 
     const-string v5, "LEVEL_2"
@@ -74,7 +71,6 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lcom/google/ar/core/TrackingConfidence;->$VALUES:[Lcom/google/ar/core/TrackingConfidence;
 
     return-void
@@ -88,10 +84,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/ar/core/TrackingConfidence;->nativeCode:I
 
     return-void
@@ -100,7 +94,6 @@
 .method static forNumber(I)Lcom/google/ar/core/TrackingConfidence;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/ar/core/TrackingConfidence;->values()[Lcom/google/ar/core/TrackingConfidence;
 
     move-result-object v0
@@ -114,7 +107,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget v4, v3, Lcom/google/ar/core/TrackingConfidence;->nativeCode:I
 
     if-ne v4, p0, :cond_0
@@ -126,7 +118,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -154,7 +145,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/ar/core/TrackingConfidence;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/ar/core/TrackingConfidence;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -169,7 +159,6 @@
 .method public static values()[Lcom/google/ar/core/TrackingConfidence;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/ar/core/TrackingConfidence;->$VALUES:[Lcom/google/ar/core/TrackingConfidence;
 
     invoke-virtual {v0}, [Lcom/google/ar/core/TrackingConfidence;->clone()Ljava/lang/Object;

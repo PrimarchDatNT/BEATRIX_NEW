@@ -15,7 +15,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/firebase/y/f;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/y/f;
 
     move-result-object p0
@@ -62,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lcom/google/firebase/y/f;
 
     invoke-static {v0}, Lcom/google/firebase/components/f;->h(Ljava/lang/Class;)Lcom/google/firebase/components/f$b;
@@ -71,7 +68,6 @@
 
     const-class v1, Landroid/content/Context;
 
-    .line 2
     invoke-static {v1}, Lcom/google/firebase/components/p;->g(Ljava/lang/Class;)Lcom/google/firebase/components/p;
 
     move-result-object v1
@@ -84,12 +80,10 @@
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {v0, p0}, Lcom/google/firebase/components/f$b;->f(Lcom/google/firebase/components/i;)Lcom/google/firebase/components/f$b;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/firebase/components/f$b;->d()Lcom/google/firebase/components/f;
 
     move-result-object p0
@@ -100,7 +94,6 @@
 .method static synthetic c(Ljava/lang/String;Lcom/google/firebase/y/h$a;Lcom/google/firebase/components/g;)Lcom/google/firebase/y/f;
     .locals 1
 
-    .line 1
     const-class v0, Landroid/content/Context;
 
     invoke-interface {p2, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;

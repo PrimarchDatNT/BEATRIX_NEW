@@ -26,7 +26,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicLong;-><init>()V
@@ -39,7 +38,6 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 4
     new-instance v0, Lorg/apache/http/impl/pool/BasicConnFactory;
 
     sget-object v1, Lorg/apache/http/config/SocketConfig;->DEFAULT:Lorg/apache/http/config/SocketConfig;
@@ -60,7 +58,6 @@
 .method public constructor <init>(Lorg/apache/http/config/SocketConfig;Lorg/apache/http/config/ConnectionConfig;)V
     .locals 1
 
-    .line 3
     new-instance v0, Lorg/apache/http/impl/pool/BasicConnFactory;
 
     invoke-direct {v0, p1, p2}, Lorg/apache/http/impl/pool/BasicConnFactory;-><init>(Lorg/apache/http/config/SocketConfig;Lorg/apache/http/config/ConnectionConfig;)V
@@ -79,7 +76,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     new-instance v0, Lorg/apache/http/impl/pool/BasicConnFactory;
 
     invoke-direct {v0, p1}, Lorg/apache/http/impl/pool/BasicConnFactory;-><init>(Lorg/apache/http/params/HttpParams;)V
@@ -109,7 +105,6 @@
 
     const/16 v1, 0x14
 
-    .line 1
     invoke-direct {p0, p1, v0, v1}, Lorg/apache/http/pool/AbstractConnPool;-><init>(Lorg/apache/http/pool/ConnFactory;II)V
 
     return-void
@@ -120,7 +115,6 @@
 .method protected createEntry(Lorg/apache/http/HttpHost;Lorg/apache/http/HttpClientConnection;)Lorg/apache/http/impl/pool/BasicPoolEntry;
     .locals 3
 
-    .line 2
     new-instance v0, Lorg/apache/http/impl/pool/BasicPoolEntry;
 
     sget-object v1, Lorg/apache/http/impl/pool/BasicConnPool;->COUNTER:Ljava/util/concurrent/atomic/AtomicLong;
@@ -141,7 +135,6 @@
 .method protected bridge synthetic createEntry(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/http/pool/PoolEntry;
     .locals 0
 
-    .line 1
     check-cast p1, Lorg/apache/http/HttpHost;
 
     check-cast p2, Lorg/apache/http/HttpClientConnection;
@@ -156,7 +149,6 @@
 .method protected validate(Lorg/apache/http/impl/pool/BasicPoolEntry;)Z
     .locals 0
 
-    .line 2
     invoke-virtual {p1}, Lorg/apache/http/pool/PoolEntry;->getConnection()Ljava/lang/Object;
 
     move-result-object p1
@@ -175,7 +167,6 @@
 .method protected bridge synthetic validate(Lorg/apache/http/pool/PoolEntry;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lorg/apache/http/impl/pool/BasicPoolEntry;
 
     invoke-virtual {p0, p1}, Lorg/apache/http/impl/pool/BasicConnPool;->validate(Lorg/apache/http/impl/pool/BasicPoolEntry;)Z

@@ -13,7 +13,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/measurement/q4;
 
     const/4 v1, 0x0
@@ -22,7 +21,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/measurement/n4;->a:Lcom/google/android/gms/internal/measurement/n4;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/measurement/o4;
 
     invoke-direct {v0, v1}, Lcom/google/android/gms/internal/measurement/o4;-><init>(Lcom/google/android/gms/internal/measurement/m4;)V
@@ -35,7 +33,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +41,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/measurement/m4;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/n4;-><init>()V
 
     return-void
@@ -53,7 +49,6 @@
 .method static a()Lcom/google/android/gms/internal/measurement/n4;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/n4;->a:Lcom/google/android/gms/internal/measurement/n4;
 
     return-object v0
@@ -62,7 +57,6 @@
 .method static d()Lcom/google/android/gms/internal/measurement/n4;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/n4;->b:Lcom/google/android/gms/internal/measurement/n4;
 
     return-object v0

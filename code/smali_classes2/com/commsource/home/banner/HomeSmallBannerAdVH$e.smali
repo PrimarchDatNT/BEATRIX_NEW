@@ -50,7 +50,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$e;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -83,7 +82,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/home/entity/a;->n(Z)V
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$e;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
@@ -117,21 +115,17 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/home/entity/a;->m(Z)V
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$e;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
     invoke-static {v0, v1}, Lcom/commsource/home/banner/HomeSmallBannerAdVH;->L(Lcom/commsource/home/banner/HomeSmallBannerAdVH;Z)V
 
-    .line 4
     invoke-static {}, Lcom/commsource/util/w0;->n()V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$e;->b:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

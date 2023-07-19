@@ -50,7 +50,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->longValue()J
@@ -69,7 +68,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     new-instance v0, Lkshark/j;
 
     iget-object v1, p0, Lkshark/HeapObject$HeapObjectArray$readElements$1;->this$0:Lkshark/HeapObject$HeapObjectArray;

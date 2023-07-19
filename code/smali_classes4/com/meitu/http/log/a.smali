@@ -16,17 +16,14 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/http/log/a;->a:Ljava/lang/StringBuilder;
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/http/log/a;->b:Ljava/lang/String;
 
     return-void
@@ -41,14 +38,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -56,7 +51,6 @@
     :cond_0
     const-string v1, "--> POST"
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -71,7 +65,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/meitu/http/log/a;->a:Ljava/lang/StringBuilder;
 
@@ -82,7 +75,6 @@
     :cond_2
     const-string v1, "{"
 
-    .line 5
     invoke-virtual {p1, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -100,7 +92,6 @@
     :cond_3
     const-string v1, "["
 
-    .line 6
     invoke-virtual {p1, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -115,7 +106,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 7
     :cond_4
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
@@ -125,7 +115,6 @@
 
     move-result-object p1
 
-    .line 8
     :cond_5
     iget-object v1, p0, Lcom/meitu/http/log/a;->a:Ljava/lang/StringBuilder;
 
@@ -139,14 +128,12 @@
 
     const-string v1, "<-- END HTTP"
 
-    .line 9
     invoke-virtual {p1, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_6
 
-    .line 10
     iget-object p1, p0, Lcom/meitu/http/log/a;->b:Ljava/lang/String;
 
     invoke-static {p1}, Lf/l/a/j;->k(Ljava/lang/String;)Lf/l/a/m;
@@ -161,7 +148,6 @@
 
     invoke-interface {p1, v1}, Lf/l/a/m;->f(Ljava/lang/Object;)V
 
-    .line 11
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -53,7 +53,6 @@
 
     const-string v1, "os.name"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -66,7 +65,6 @@
 
     sput-boolean v2, Lcom/meitu/flymedia/glx/utils/i;->b:Z
 
-    .line 2
     invoke-static {v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -79,7 +77,6 @@
 
     sput-boolean v2, Lcom/meitu/flymedia/glx/utils/i;->c:Z
 
-    .line 3
     invoke-static {v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -94,15 +91,12 @@
 
     const/4 v1, 0x0
 
-    .line 4
     sput-boolean v1, Lcom/meitu/flymedia/glx/utils/i;->e:Z
 
-    .line 5
     sput-boolean v1, Lcom/meitu/flymedia/glx/utils/i;->f:Z
 
     const-string v2, "os.arch"
 
-    .line 6
     invoke-static {v2}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -115,7 +109,6 @@
 
     sput-boolean v3, Lcom/meitu/flymedia/glx/utils/i;->g:Z
 
-    .line 7
     invoke-static {v2}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -130,7 +123,6 @@
 
     if-nez v3, :cond_1
 
-    .line 8
     invoke-static {v2}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -159,7 +151,6 @@
 
     const-string v2, "sun.arch.abi"
 
-    .line 9
     invoke-static {v2}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -180,7 +171,6 @@
 
     const-string v2, "java.runtime.name"
 
-    .line 10
     invoke-static {v2}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -189,29 +179,22 @@
 
     const-string v3, "Android Runtime"
 
-    .line 11
     invoke-virtual {v2, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
-    .line 12
     sput-boolean v4, Lcom/meitu/flymedia/glx/utils/i;->f:Z
 
-    .line 13
     sput-boolean v1, Lcom/meitu/flymedia/glx/utils/i;->b:Z
 
-    .line 14
     sput-boolean v1, Lcom/meitu/flymedia/glx/utils/i;->c:Z
 
-    .line 15
     sput-boolean v1, Lcom/meitu/flymedia/glx/utils/i;->d:Z
 
-    .line 16
     sput-boolean v1, Lcom/meitu/flymedia/glx/utils/i;->h:Z
 
-    .line 17
     :cond_3
     sget-boolean v2, Lcom/meitu/flymedia/glx/utils/i;->f:Z
 
@@ -229,13 +212,10 @@
 
     if-nez v2, :cond_4
 
-    .line 18
     sput-boolean v4, Lcom/meitu/flymedia/glx/utils/i;->e:Z
 
-    .line 19
     sput-boolean v1, Lcom/meitu/flymedia/glx/utils/i;->h:Z
 
-    .line 20
     :cond_4
     new-instance v1, Ljava/util/HashSet;
 
@@ -251,7 +231,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -260,10 +239,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/flymedia/glx/utils/i;->a:Ljava/lang/String;
 
     return-void
@@ -276,7 +253,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/flymedia/glx/utils/i;
@@ -385,7 +361,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     const-class v2, Ljava/io/File;
 
@@ -399,7 +374,6 @@
 
     new-array v3, v1, [Ljava/lang/Object;
 
-    .line 2
     sget-object v4, Lcom/meitu/flymedia/glx/utils/i;->k:Lorg/aspectj/lang/c$b;
 
     invoke-static {v4, p0, v2, p1, v3}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -460,7 +434,6 @@
 
     return v8
 
-    .line 3
     :cond_0
     :try_start_1
     const-class v4, Ljava/io/File;
@@ -481,7 +454,6 @@
 
     new-array v5, v9, [Ljava/lang/Object;
 
-    .line 4
     sget-object v11, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     aput-object v11, v5, v1
@@ -524,7 +496,6 @@
 
     new-array v4, v1, [Ljava/lang/Object;
 
-    .line 5
     sget-object v5, Lcom/meitu/flymedia/glx/utils/i;->m:Lorg/aspectj/lang/c$b;
 
     invoke-static {v5, p0, v2, p1, v4}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -571,7 +542,6 @@
 
     return p1
 
-    .line 6
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -585,12 +555,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v2
@@ -599,7 +567,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 3
     invoke-virtual {p1}, Ljava/io/File;->canWrite()Z
 
     move-result v2
@@ -614,7 +581,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/io/File;
 
@@ -630,18 +596,15 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 6
     :cond_2
     invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
 
-    .line 7
     invoke-virtual {v1}, Ljava/io/File;->isDirectory()Z
 
     move-result v1
@@ -652,7 +615,6 @@
 
     return v3
 
-    .line 8
     :cond_3
     :goto_1
     :try_start_0
@@ -662,7 +624,6 @@
 
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
 
-    .line 9
     invoke-direct {p0, p1}, Lcom/meitu/flymedia/glx/utils/i;->b(Ljava/io/File;)Z
 
     move-result v1
@@ -671,10 +632,8 @@
 
     if-nez v1, :cond_4
 
-    .line 10
     invoke-virtual {p1}, Ljava/io/File;->delete()Z
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -682,19 +641,15 @@
     :cond_4
     const/4 v1, 0x1
 
-    .line 12
     invoke-virtual {p1}, Ljava/io/File;->delete()Z
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 14
     :catchall_0
     invoke-virtual {p1}, Ljava/io/File;->delete()Z
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -712,14 +667,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p3}, Ljava/io/File;->exists()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     :try_start_0
     new-instance v1, Ljava/io/FileInputStream;
 
@@ -740,28 +693,24 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p2
 
     if-nez p2, :cond_2
 
-    .line 4
     :cond_1
     :try_start_1
     invoke-direct {p0, p1}, Lcom/meitu/flymedia/glx/utils/i;->o(Ljava/lang/String;)Ljava/io/InputStream;
 
     move-result-object p2
 
-    .line 5
     invoke-virtual {p3}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
     move-result-object v1
 
     invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
 
-    .line 6
     new-instance v1, Ljava/io/FileOutputStream;
 
     invoke-direct {v1, p3}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
@@ -770,7 +719,6 @@
 
     new-array v2, v2, [B
 
-    .line 7
     :goto_1
     invoke-virtual {p2, v2}, Ljava/io/InputStream;->read([B)I
 
@@ -780,15 +728,12 @@
 
     if-ne v3, v4, :cond_3
 
-    .line 8
     invoke-virtual {p2}, Ljava/io/InputStream;->close()V
 
-    .line 9
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 10
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -797,7 +742,6 @@
     :cond_3
     const/4 v4, 0x0
 
-    .line 11
     :try_start_2
     invoke-virtual {v1, v2, v4, v3}, Ljava/io/FileOutputStream;->write([BII)V
     :try_end_2
@@ -808,7 +752,6 @@
     :catch_1
     move-exception p2
 
-    .line 12
     new-instance v1, Lcom/meitu/flymedia/glx/utils/GlxRuntimeException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -849,7 +792,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -888,7 +830,6 @@
 
     invoke-direct {v1, v2, p2}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, v1}, Lcom/meitu/flymedia/glx/utils/i;->c(Ljava/io/File;)Z
 
     move-result v2
@@ -902,25 +843,21 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 3
     :try_start_0
     invoke-static {p1, v2}, Ljava/io/File;->createTempFile(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2}, Ljava/io/File;->delete()Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 5
     new-instance v3, Ljava/io/File;
 
     invoke-direct {v3, v2, p2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 6
     invoke-direct {p0, v3}, Lcom/meitu/flymedia/glx/utils/i;->c(Ljava/io/File;)Z
 
     move-result v2
@@ -936,7 +873,6 @@
     :catch_0
     nop
 
-    .line 7
     :cond_1
     new-instance v2, Ljava/io/File;
 
@@ -964,7 +900,6 @@
 
     invoke-direct {v2, v3, p2}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-direct {p0, v2}, Lcom/meitu/flymedia/glx/utils/i;->c(Ljava/io/File;)Z
 
     move-result v3
@@ -975,7 +910,6 @@
 
     return-object v2
 
-    .line 9
     :cond_2
     new-instance v2, Ljava/io/File;
 
@@ -995,7 +929,6 @@
 
     invoke-direct {v2, p1, p2}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-direct {p0, v2}, Lcom/meitu/flymedia/glx/utils/i;->c(Ljava/io/File;)Z
 
     move-result p1
@@ -1006,7 +939,6 @@
 
     return-object v2
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1020,7 +952,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -1037,7 +968,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -1054,7 +984,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -1071,7 +1000,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/flymedia/glx/utils/i;->f(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
 
@@ -1087,7 +1015,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -1095,10 +1022,8 @@
     :catchall_0
     move-exception p1
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -1111,7 +1036,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/flymedia/glx/utils/i;->o(Ljava/lang/String;)Ljava/io/InputStream;
 
     move-result-object v1
@@ -1120,7 +1044,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -1129,7 +1052,6 @@
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Ljava/io/File;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1168,14 +1090,12 @@
 
     invoke-direct {v3, v4, v2}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-direct {p0, p1, v1, v3}, Lcom/meitu/flymedia/glx/utils/i;->l(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/lang/Throwable;
 
     move-result-object v3
 
     if-nez v3, :cond_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1183,13 +1103,11 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 6
     :try_start_0
     invoke-static {v1, v4}, Ljava/io/File;->createTempFile(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
 
     move-result-object v4
 
-    .line 7
     invoke-virtual {v4}, Ljava/io/File;->delete()Z
 
     move-result v5
@@ -1211,7 +1129,6 @@
     :catchall_0
     nop
 
-    .line 8
     :cond_1
     new-instance v4, Ljava/io/File;
 
@@ -1239,7 +1156,6 @@
 
     invoke-direct {v4, v5, v2}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-direct {p0, p1, v1, v4}, Lcom/meitu/flymedia/glx/utils/i;->l(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/lang/Throwable;
 
     move-result-object v4
@@ -1250,7 +1166,6 @@
 
     return-void
 
-    .line 10
     :cond_2
     new-instance v4, Ljava/io/File;
 
@@ -1270,7 +1185,6 @@
 
     invoke-direct {v4, v5, v2}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     invoke-direct {p0, p1, v1, v4}, Lcom/meitu/flymedia/glx/utils/i;->l(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/lang/Throwable;
 
     move-result-object v1
@@ -1281,7 +1195,6 @@
 
     return-void
 
-    .line 12
     :cond_3
     new-instance v1, Ljava/io/File;
 
@@ -1293,26 +1206,22 @@
 
     invoke-direct {v1, v2, p1}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result p1
 
     if-eqz p1, :cond_4
 
-    .line 14
     invoke-virtual {v1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object p1
 
     invoke-static {p1}, Ljava/lang/System;->load(Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_4
     new-instance p1, Lcom/meitu/flymedia/glx/utils/GlxRuntimeException;
 
@@ -1332,12 +1241,10 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, p0, Lcom/meitu/flymedia/glx/utils/i;->a:Ljava/lang/String;
 
     if-nez v2, :cond_1
 
-    .line 2
     const-class v0, Lcom/meitu/flymedia/glx/utils/i;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1360,12 +1267,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
 
-    .line 4
     :cond_0
     new-instance v0, Lcom/meitu/flymedia/glx/utils/GlxRuntimeException;
 
@@ -1389,7 +1294,6 @@
 
     throw v0
 
-    .line 5
     :cond_1
     :try_start_0
     new-instance v2, Ljava/util/zip/ZipFile;
@@ -1398,14 +1302,12 @@
 
     invoke-direct {v2, v3}, Ljava/util/zip/ZipFile;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v2, p1}, Ljava/util/zip/ZipFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
 
     move-result-object v3
 
     if-eqz v3, :cond_2
 
-    .line 7
     invoke-virtual {v2, v3}, Ljava/util/zip/ZipFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
 
     move-result-object p1
@@ -1416,7 +1318,6 @@
 
     return-object p1
 
-    .line 8
     :cond_2
     :try_start_1
     new-instance v2, Lcom/meitu/flymedia/glx/utils/GlxRuntimeException;
@@ -1452,7 +1353,6 @@
     :catch_0
     move-exception v2
 
-    .line 9
     new-instance v3, Lcom/meitu/flymedia/glx/utils/GlxRuntimeException;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1493,7 +1393,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     new-instance v1, Ljava/util/zip/CRC32;
 
     invoke-direct {v1}, Ljava/util/zip/CRC32;-><init>()V
@@ -1502,7 +1401,6 @@
 
     new-array v2, v2, [B
 
-    .line 2
     :goto_0
     :try_start_0
     invoke-virtual {p1, v2}, Ljava/io/InputStream;->read([B)I
@@ -1518,18 +1416,15 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 3
     invoke-virtual {v1, v2, v4, v3}, Ljava/util/zip/CRC32;->update([BII)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
-    .line 4
     :catch_0
     invoke-static {p1}, Lcom/meitu/flymedia/glx/utils/k;->a(Ljava/io/Closeable;)V
 
-    .line 5
     :goto_1
     invoke-virtual {v1}, Ljava/util/zip/CRC32;->getValue()J
 
@@ -1545,7 +1440,6 @@
 
     return-object p1
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1570,7 +1464,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p1}, Lcom/meitu/flymedia/glx/utils/i;->o(Ljava/lang/String;)Ljava/io/InputStream;
 
@@ -1584,7 +1477,6 @@
 
     move-object p2, v1
 
-    .line 2
     :cond_0
     new-instance v2, Ljava/io/File;
 
@@ -1598,7 +1490,6 @@
 
     move-result-object p2
 
-    .line 3
     invoke-direct {p0, p1, v1, p2}, Lcom/meitu/flymedia/glx/utils/i;->f(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
 
     move-result-object p1
@@ -1612,7 +1503,6 @@
     :catch_0
     move-exception p2
 
-    .line 4
     new-instance v1, Ljava/io/File;
 
     const-string v2, "java.library.path"
@@ -1623,7 +1513,6 @@
 
     invoke-direct {v1, v2, p1}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result p1
@@ -1634,7 +1523,6 @@
 
     return-object v1
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1651,7 +1539,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/flymedia/glx/utils/i;->e:Z
 
     if-eqz v1, :cond_0
@@ -1664,14 +1551,12 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_1
     invoke-virtual {p0, p1}, Lcom/meitu/flymedia/glx/utils/i;->n(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     sget-object v1, Lcom/meitu/flymedia/glx/utils/i;->j:Ljava/util/HashSet;
 
     invoke-virtual {v1, p1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
@@ -1688,30 +1573,25 @@
 
     return-void
 
-    .line 4
     :cond_1
     :try_start_2
     sget-boolean v2, Lcom/meitu/flymedia/glx/utils/i;->f:Z
 
     if-eqz v2, :cond_2
 
-    .line 5
     invoke-static {p1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-direct {p0, p1}, Lcom/meitu/flymedia/glx/utils/i;->m(Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 7
     :goto_0
     :try_start_3
     invoke-virtual {v1, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
@@ -1723,7 +1603,6 @@
     :catchall_0
     move-exception v1
 
-    .line 9
     :try_start_4
     new-instance v2, Lcom/meitu/flymedia/glx/utils/GlxRuntimeException;
 
@@ -1743,7 +1622,6 @@
 
     const-string p1, "os.name"
 
-    .line 10
     invoke-static {p1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -1791,7 +1669,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/flymedia/glx/utils/i;->b:Z
 
     if-eqz v1, :cond_1
@@ -1824,7 +1701,6 @@
 
     return-object p1
 
-    .line 2
     :cond_1
     sget-boolean v1, Lcom/meitu/flymedia/glx/utils/i;->c:Z
 
@@ -1890,7 +1766,6 @@
 
     return-object p1
 
-    .line 3
     :cond_4
     sget-boolean v1, Lcom/meitu/flymedia/glx/utils/i;->d:Z
 
@@ -1926,7 +1801,6 @@
 
     return-object p1
 
-    .line 4
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

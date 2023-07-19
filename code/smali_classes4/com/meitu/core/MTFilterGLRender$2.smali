@@ -26,7 +26,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/MTFilterType$MTFilterScaleType;->values()[Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
     move-result-object v1

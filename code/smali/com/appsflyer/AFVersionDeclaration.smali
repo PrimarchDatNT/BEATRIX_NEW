@@ -11,7 +11,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
 
     const-string v0, "!SDK-VERSION-STRING!:com.appsflyer:af-android-sdk:6.1.4"
 
-    .line 1
     sput-object v0, Lcom/appsflyer/AFVersionDeclaration;->googleSdkIdentifier:Ljava/lang/String;
 
     return-void

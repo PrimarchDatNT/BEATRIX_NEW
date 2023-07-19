@@ -10,7 +10,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_remote_config/z5$d;->a()[I
 
     move-result-object v0

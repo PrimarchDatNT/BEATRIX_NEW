@@ -27,7 +27,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/k0;-><init>()V
 
     return-void
@@ -38,7 +37,6 @@
 .method protected bridge synthetic J0()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/m0;->M0()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -64,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/m0;->M0()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -77,7 +74,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/m0;->M0()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -88,7 +84,6 @@
 .method public hasPrevious()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/m0;->M0()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -103,7 +98,6 @@
 .method public nextIndex()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/m0;->M0()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -126,7 +120,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/m0;->M0()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -141,7 +134,6 @@
 .method public previousIndex()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/m0;->M0()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -161,7 +153,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/m0;->M0()Ljava/util/ListIterator;
 
     move-result-object v0

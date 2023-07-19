@@ -23,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     new-instance p0, Landroid/os/Bundle;
 
     invoke-direct {p0}, Landroid/os/Bundle;-><init>()V
@@ -68,7 +66,6 @@
 
     move-object/from16 v1, p2
 
-    .line 1
     iget-object v2, v1, Lcom/google/android/gms/internal/ads/ug1;->s:Lorg/json/JSONObject;
 
     const-string v3, "pubid"
@@ -79,27 +76,22 @@
 
     move-result-object v2
 
-    .line 2
     iget-object v3, v0, Lcom/google/android/gms/internal/ads/fh1;->a:Lcom/google/android/gms/internal/ads/ah1;
 
     iget-object v3, v3, Lcom/google/android/gms/internal/ads/ah1;->a:Lcom/google/android/gms/internal/ads/kh1;
 
-    .line 3
     new-instance v4, Lcom/google/android/gms/internal/ads/mh1;
 
     invoke-direct {v4}, Lcom/google/android/gms/internal/ads/mh1;-><init>()V
 
-    .line 4
     invoke-virtual {v4, v3}, Lcom/google/android/gms/internal/ads/mh1;->n(Lcom/google/android/gms/internal/ads/kh1;)Lcom/google/android/gms/internal/ads/mh1;
 
     move-result-object v4
 
-    .line 5
     invoke-virtual {v4, v2}, Lcom/google/android/gms/internal/ads/mh1;->y(Ljava/lang/String;)Lcom/google/android/gms/internal/ads/mh1;
 
     move-result-object v2
 
-    .line 6
     iget-object v4, v3, Lcom/google/android/gms/internal/ads/kh1;->d:Lcom/google/android/gms/internal/ads/zzve;
 
     iget-object v4, v4, Lcom/google/android/gms/internal/ads/zzve;->O:Landroid/os/Bundle;
@@ -110,7 +102,6 @@
 
     const-string v5, "com.google.ads.mediation.admob.AdMobAdapter"
 
-    .line 7
     invoke-virtual {v4, v5}, Landroid/os/Bundle;->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object v6
@@ -123,10 +114,8 @@
 
     const/4 v15, 0x1
 
-    .line 8
     invoke-virtual {v9, v6, v15}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 9
     iget-object v6, v1, Lcom/google/android/gms/internal/ads/ug1;->s:Lorg/json/JSONObject;
 
     const-string v7, "mad_hac"
@@ -139,10 +128,8 @@
 
     if-eqz v6, :cond_0
 
-    .line 10
     invoke-virtual {v9, v7, v6}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     :cond_0
     iget-object v6, v1, Lcom/google/android/gms/internal/ads/ug1;->s:Lorg/json/JSONObject;
 
@@ -156,23 +143,19 @@
 
     const-string v7, "_ad"
 
-    .line 12
     invoke-virtual {v9, v7, v6}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     const-string v6, "_noRefresh"
 
-    .line 13
     invoke-virtual {v9, v6, v15}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 14
     iget-object v6, v1, Lcom/google/android/gms/internal/ads/ug1;->A:Lorg/json/JSONObject;
 
     invoke-virtual {v6}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object v6
 
-    .line 15
     :cond_2
     :goto_0
     invoke-interface {v6}, Ljava/util/Iterator;->hasNext()Z
@@ -181,14 +164,12 @@
 
     if-eqz v7, :cond_3
 
-    .line 16
     invoke-interface {v6}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, Ljava/lang/String;
 
-    .line 17
     iget-object v10, v1, Lcom/google/android/gms/internal/ads/ug1;->A:Lorg/json/JSONObject;
 
     invoke-virtual {v10, v7, v8}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -197,16 +178,13 @@
 
     if-eqz v7, :cond_2
 
-    .line 18
     invoke-virtual {v9, v7, v10}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 19
     :cond_3
     invoke-virtual {v4, v5, v9}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 20
     new-instance v14, Lcom/google/android/gms/internal/ads/zzve;
 
     move-object v5, v14
@@ -285,34 +263,28 @@
 
     invoke-direct/range {v5 .. v28}, Lcom/google/android/gms/internal/ads/zzve;-><init>(IJLandroid/os/Bundle;ILjava/util/List;ZIZLjava/lang/String;Lcom/google/android/gms/internal/ads/zzzw;Landroid/location/Location;Ljava/lang/String;Landroid/os/Bundle;Landroid/os/Bundle;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;ZLcom/google/android/gms/internal/ads/zzuw;ILjava/lang/String;Ljava/util/List;)V
 
-    .line 21
     invoke-virtual {v2, v1}, Lcom/google/android/gms/internal/ads/mh1;->A(Lcom/google/android/gms/internal/ads/zzve;)Lcom/google/android/gms/internal/ads/mh1;
 
     move-result-object v0
 
-    .line 22
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/mh1;->e()Lcom/google/android/gms/internal/ads/kh1;
 
     move-result-object v0
 
-    .line 23
     new-instance v1, Landroid/os/Bundle;
 
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
     move-object/from16 v2, p1
 
-    .line 24
     iget-object v3, v2, Lcom/google/android/gms/internal/ads/fh1;->b:Lcom/google/android/gms/internal/ads/dh1;
 
     iget-object v3, v3, Lcom/google/android/gms/internal/ads/dh1;->b:Lcom/google/android/gms/internal/ads/vg1;
 
-    .line 25
     new-instance v4, Landroid/os/Bundle;
 
     invoke-direct {v4}, Landroid/os/Bundle;-><init>()V
 
-    .line 26
     new-instance v5, Ljava/util/ArrayList;
 
     iget-object v6, v3, Lcom/google/android/gms/internal/ads/vg1;->a:Ljava/util/List;
@@ -323,14 +295,12 @@
 
     invoke-virtual {v4, v6, v5}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
-    .line 27
     iget v5, v3, Lcom/google/android/gms/internal/ads/vg1;->c:I
 
     const-string v6, "refresh_interval"
 
     invoke-virtual {v4, v6, v5}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 28
     iget-object v3, v3, Lcom/google/android/gms/internal/ads/vg1;->b:Ljava/lang/String;
 
     const-string v5, "gws_query_id"
@@ -339,36 +309,30 @@
 
     const-string v3, "parent_common_config"
 
-    .line 29
     invoke-virtual {v1, v3, v4}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 30
     iget-object v2, v2, Lcom/google/android/gms/internal/ads/fh1;->a:Lcom/google/android/gms/internal/ads/ah1;
 
     iget-object v2, v2, Lcom/google/android/gms/internal/ads/ah1;->a:Lcom/google/android/gms/internal/ads/kh1;
 
     iget-object v2, v2, Lcom/google/android/gms/internal/ads/kh1;->f:Ljava/lang/String;
 
-    .line 31
     new-instance v3, Landroid/os/Bundle;
 
     invoke-direct {v3}, Landroid/os/Bundle;-><init>()V
 
     const-string v4, "initial_ad_unit_id"
 
-    .line 32
     invoke-virtual {v3, v4, v2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object/from16 v2, p2
 
-    .line 33
     iget-object v4, v2, Lcom/google/android/gms/internal/ads/ug1;->t:Ljava/lang/String;
 
     const-string v5, "allocation_id"
 
     invoke-virtual {v3, v5, v4}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 34
     new-instance v4, Ljava/util/ArrayList;
 
     iget-object v5, v2, Lcom/google/android/gms/internal/ads/ug1;->c:Ljava/util/List;
@@ -379,7 +343,6 @@
 
     invoke-virtual {v3, v5, v4}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
-    .line 35
     new-instance v4, Ljava/util/ArrayList;
 
     iget-object v5, v2, Lcom/google/android/gms/internal/ads/ug1;->d:Ljava/util/List;
@@ -390,7 +353,6 @@
 
     invoke-virtual {v3, v5, v4}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
-    .line 36
     new-instance v4, Ljava/util/ArrayList;
 
     iget-object v5, v2, Lcom/google/android/gms/internal/ads/ug1;->n:Ljava/util/List;
@@ -401,7 +363,6 @@
 
     invoke-virtual {v3, v5, v4}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
-    .line 37
     new-instance v4, Ljava/util/ArrayList;
 
     iget-object v5, v2, Lcom/google/android/gms/internal/ads/ug1;->m:Ljava/util/List;
@@ -412,7 +373,6 @@
 
     invoke-virtual {v3, v5, v4}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
-    .line 38
     new-instance v4, Ljava/util/ArrayList;
 
     iget-object v5, v2, Lcom/google/android/gms/internal/ads/ug1;->g:Ljava/util/List;
@@ -423,7 +383,6 @@
 
     invoke-virtual {v3, v5, v4}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
-    .line 39
     new-instance v4, Ljava/util/ArrayList;
 
     iget-object v5, v2, Lcom/google/android/gms/internal/ads/ug1;->h:Ljava/util/List;
@@ -434,7 +393,6 @@
 
     invoke-virtual {v3, v5, v4}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
-    .line 40
     new-instance v4, Ljava/util/ArrayList;
 
     iget-object v5, v2, Lcom/google/android/gms/internal/ads/ug1;->i:Ljava/util/List;
@@ -445,38 +403,32 @@
 
     invoke-virtual {v3, v5, v4}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
-    .line 41
     iget-object v4, v2, Lcom/google/android/gms/internal/ads/ug1;->j:Ljava/lang/String;
 
     const-string v5, "transaction_id"
 
     invoke-virtual {v3, v5, v4}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 42
     iget-object v4, v2, Lcom/google/android/gms/internal/ads/ug1;->k:Ljava/lang/String;
 
     const-string v5, "valid_from_timestamp"
 
     invoke-virtual {v3, v5, v4}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 43
     iget-boolean v4, v2, Lcom/google/android/gms/internal/ads/ug1;->H:Z
 
     const-string v5, "is_closable_area_disabled"
 
     invoke-virtual {v3, v5, v4}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 44
     iget-object v4, v2, Lcom/google/android/gms/internal/ads/ug1;->l:Lcom/google/android/gms/internal/ads/zzaub;
 
     if-eqz v4, :cond_4
 
-    .line 45
     new-instance v4, Landroid/os/Bundle;
 
     invoke-direct {v4}, Landroid/os/Bundle;-><init>()V
 
-    .line 46
     iget-object v5, v2, Lcom/google/android/gms/internal/ads/ug1;->l:Lcom/google/android/gms/internal/ads/zzaub;
 
     iget v5, v5, Lcom/google/android/gms/internal/ads/zzaub;->b:I
@@ -485,7 +437,6 @@
 
     invoke-virtual {v4, v6, v5}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 47
     iget-object v2, v2, Lcom/google/android/gms/internal/ads/ug1;->l:Lcom/google/android/gms/internal/ads/zzaub;
 
     iget-object v2, v2, Lcom/google/android/gms/internal/ads/zzaub;->a:Ljava/lang/String;
@@ -504,18 +455,15 @@
 
     const-string v4, "rewards"
 
-    .line 48
     invoke-virtual {v3, v4, v2}, Landroid/os/Bundle;->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
 
     :cond_4
     const-string v2, "parent_ad_config"
 
-    .line 49
     invoke-virtual {v1, v2, v3}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
     move-object/from16 v2, p0
 
-    .line 50
     invoke-virtual {v2, v0, v1}, Lcom/google/android/gms/internal/ads/gz0;->c(Lcom/google/android/gms/internal/ads/kh1;Landroid/os/Bundle;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
@@ -526,7 +474,6 @@
 .method public final b(Lcom/google/android/gms/internal/ads/fh1;Lcom/google/android/gms/internal/ads/ug1;)Z
     .locals 1
 
-    .line 1
     iget-object p1, p2, Lcom/google/android/gms/internal/ads/ug1;->s:Lorg/json/JSONObject;
 
     const-string p2, "pubid"

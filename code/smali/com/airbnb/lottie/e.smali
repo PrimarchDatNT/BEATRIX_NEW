@@ -47,7 +47,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -56,14 +55,12 @@
 .method public static a(Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     sget-boolean v0, Lcom/airbnb/lottie/e;->d:Z
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     sget v0, Lcom/airbnb/lottie/e;->g:I
 
@@ -71,7 +68,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 3
     sget p0, Lcom/airbnb/lottie/e;->h:I
 
     add-int/lit8 p0, p0, 0x1
@@ -80,13 +76,11 @@
 
     return-void
 
-    .line 4
     :cond_1
     sget-object v1, Lcom/airbnb/lottie/e;->e:[Ljava/lang/String;
 
     aput-object p0, v1, v0
 
-    .line 5
     sget-object v1, Lcom/airbnb/lottie/e;->f:[J
 
     invoke-static {}, Ljava/lang/System;->nanoTime()J
@@ -95,10 +89,8 @@
 
     aput-wide v2, v1, v0
 
-    .line 6
     invoke-static {p0}, Landroidx/core/os/TraceCompat;->beginSection(Ljava/lang/String;)V
 
-    .line 7
     sget p0, Lcom/airbnb/lottie/e;->g:I
 
     add-int/lit8 p0, p0, 0x1
@@ -111,7 +103,6 @@
 .method public static b(Ljava/lang/String;)F
     .locals 4
 
-    .line 1
     sget v0, Lcom/airbnb/lottie/e;->h:I
 
     const/4 v1, 0x0
@@ -120,12 +111,10 @@
 
     add-int/lit8 v0, v0, -0x1
 
-    .line 2
     sput v0, Lcom/airbnb/lottie/e;->h:I
 
     return v1
 
-    .line 3
     :cond_0
     sget-boolean v0, Lcom/airbnb/lottie/e;->d:Z
 
@@ -133,7 +122,6 @@
 
     return v1
 
-    .line 4
     :cond_1
     sget v0, Lcom/airbnb/lottie/e;->g:I
 
@@ -145,7 +133,6 @@
 
     if-eq v0, v1, :cond_3
 
-    .line 5
     sget-object v1, Lcom/airbnb/lottie/e;->e:[Ljava/lang/String;
 
     aget-object v0, v1, v0
@@ -156,10 +143,8 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v0
@@ -180,7 +165,6 @@
 
     return p0
 
-    .line 8
     :cond_2
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -218,7 +202,6 @@
 
     throw v0
 
-    .line 9
     :cond_3
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -238,23 +221,19 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/e;->l:Lcom/airbnb/lottie/network/f;
 
     if-nez v0, :cond_2
 
-    .line 2
     const-class v1, Lcom/airbnb/lottie/network/f;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v0, Lcom/airbnb/lottie/e;->l:Lcom/airbnb/lottie/network/f;
 
     if-nez v0, :cond_1
 
-    .line 4
     new-instance v0, Lcom/airbnb/lottie/network/f;
 
     sget-object v2, Lcom/airbnb/lottie/e;->j:Lcom/airbnb/lottie/network/d;
@@ -273,7 +252,6 @@
 
     sput-object v0, Lcom/airbnb/lottie/e;->l:Lcom/airbnb/lottie/network/f;
 
-    .line 5
     :cond_1
     monitor-exit v1
 
@@ -302,23 +280,19 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/e;->k:Lcom/airbnb/lottie/network/g;
 
     if-nez v0, :cond_2
 
-    .line 2
     const-class v1, Lcom/airbnb/lottie/network/g;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v0, Lcom/airbnb/lottie/e;->k:Lcom/airbnb/lottie/network/g;
 
     if-nez v0, :cond_1
 
-    .line 4
     new-instance v0, Lcom/airbnb/lottie/network/g;
 
     invoke-static {p0}, Lcom/airbnb/lottie/e;->c(Landroid/content/Context;)Lcom/airbnb/lottie/network/f;
@@ -341,7 +315,6 @@
 
     sput-object v0, Lcom/airbnb/lottie/e;->k:Lcom/airbnb/lottie/network/g;
 
-    .line 5
     :cond_1
     monitor-exit v1
 
@@ -364,7 +337,6 @@
 .method public static e(Lcom/airbnb/lottie/network/d;)V
     .locals 0
 
-    .line 1
     sput-object p0, Lcom/airbnb/lottie/e;->j:Lcom/airbnb/lottie/network/d;
 
     return-void
@@ -373,7 +345,6 @@
 .method public static f(Lcom/airbnb/lottie/network/e;)V
     .locals 0
 
-    .line 1
     sput-object p0, Lcom/airbnb/lottie/e;->i:Lcom/airbnb/lottie/network/e;
 
     return-void
@@ -382,14 +353,12 @@
 .method public static g(Z)V
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/airbnb/lottie/e;->d:Z
 
     if-ne v0, p0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     sput-boolean p0, Lcom/airbnb/lottie/e;->d:Z
 
@@ -399,12 +368,10 @@
 
     new-array v0, p0, [Ljava/lang/String;
 
-    .line 3
     sput-object v0, Lcom/airbnb/lottie/e;->e:[Ljava/lang/String;
 
     new-array p0, p0, [J
 
-    .line 4
     sput-object p0, Lcom/airbnb/lottie/e;->f:[J
 
     :cond_1

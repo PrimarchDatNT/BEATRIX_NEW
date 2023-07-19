@@ -26,7 +26,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     sput-object v0, Lcom/tencent/bugly/proguard/z;->a:Ljava/util/Map;
 
     return-void
@@ -35,7 +34,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -48,7 +46,6 @@
 
     return-object p0
 
-    .line 129
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -69,7 +66,6 @@
 
     const/4 v0, 0x0
 
-    .line 268
     invoke-virtual {p1, p0, v0}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -89,7 +85,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 253
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result v1
@@ -104,7 +99,6 @@
 
     goto :goto_0
 
-    .line 254
     :cond_0
     :try_start_0
     new-instance v1, Ljava/io/BufferedReader;
@@ -128,7 +122,6 @@
     :catchall_0
     move-exception p0
 
-    .line 255
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     :cond_1
@@ -145,14 +138,12 @@
 
     return-object v0
 
-    .line 256
     :cond_0
     :try_start_0
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 257
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result p0
@@ -167,7 +158,6 @@
 
     goto :goto_0
 
-    .line 258
     :cond_1
     invoke-static {v1}, Lcom/tencent/bugly/proguard/z;->a(Ljava/io/File;)Ljava/io/BufferedReader;
 
@@ -184,7 +174,6 @@
     :catch_0
     move-exception p0
 
-    .line 259
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     return-object v0
@@ -209,23 +198,19 @@
 
     const/4 p2, 0x0
 
-    .line 133
     :try_start_0
     invoke-static {p0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p0
 
-    .line 134
     invoke-virtual {p0, p1, p3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p0
 
     const/4 p1, 0x1
 
-    .line 135
     invoke-virtual {p0, p1}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
-    .line 136
     sget-object p3, Lcom/tencent/bugly/proguard/z;->ajc$tjp_0:Lorg/aspectj/lang/c$b;
 
     invoke-static {p3, p2, p0, p2, p4}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -288,7 +273,6 @@
         }
     .end annotation
 
-    .line 172
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
 
     move-result-object v0
@@ -301,7 +285,6 @@
 
     invoke-virtual {v0, v2}, Landroid/os/Parcel;->setDataPosition(I)V
 
-    .line 173
     :try_start_0
     invoke-interface {p1, v0}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
@@ -311,7 +294,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 174
     invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
 
     :cond_0
@@ -320,7 +302,6 @@
     :catchall_0
     move-exception p0
 
-    .line 175
     :try_start_1
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_1
@@ -328,7 +309,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 176
     invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
 
     :cond_1
@@ -350,7 +330,6 @@
 .method public static a()Ljava/lang/String;
     .locals 2
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -365,7 +344,6 @@
 .method public static a(J)Ljava/lang/String;
     .locals 3
 
-    .line 7
     :try_start_0
     new-instance v0, Ljava/text/SimpleDateFormat;
 
@@ -375,7 +353,6 @@
 
     invoke-direct {v0, v1, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
-    .line 8
     new-instance v1, Ljava/util/Date;
 
     invoke-direct {v1, p0, p1}, Ljava/util/Date;-><init>(J)V
@@ -388,7 +365,6 @@
 
     return-object p0
 
-    .line 9
     :catch_0
     new-instance p0, Ljava/util/Date;
 
@@ -406,7 +382,6 @@
 
     const-string v0, "android.permission.READ_LOGS"
 
-    .line 177
     invoke-static {p0, v0}, Lcom/tencent/bugly/crashreport/common/info/AppInfo;->a(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p0
@@ -421,7 +396,6 @@
 
     const-string p1, "no read_log permission!"
 
-    .line 178
     invoke-static {p1, p0}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v0
@@ -437,7 +411,6 @@
 
     if-nez p2, :cond_1
 
-    .line 179
     filled-new-array {v4, v3, v2, p0}, [Ljava/lang/String;
 
     move-result-object p0
@@ -475,13 +448,11 @@
 
     move-object p0, v5
 
-    .line 180
     :goto_0
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 181
     :try_start_0
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
@@ -491,7 +462,6 @@
 
     move-result-object v0
 
-    .line 182
     new-instance p0, Ljava/io/BufferedReader;
 
     new-instance v2, Ljava/io/InputStreamReader;
@@ -504,7 +474,6 @@
 
     invoke-direct {p0, v2}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 
-    .line 183
     :cond_2
     :goto_1
     invoke-virtual {p0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -513,7 +482,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 184
     invoke-virtual {p2, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "\n"
@@ -522,14 +490,12 @@
 
     if-lez p1, :cond_2
 
-    .line 185
     invoke-virtual {p2}, Ljava/lang/StringBuilder;->length()I
 
     move-result v2
 
     if-le v2, p1, :cond_2
 
-    .line 186
     invoke-virtual {p2}, Ljava/lang/StringBuilder;->length()I
 
     move-result v2
@@ -540,7 +506,6 @@
 
     goto :goto_1
 
-    .line 187
     :cond_3
     invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -550,7 +515,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 188
     :try_start_1
     invoke-virtual {v0}, Ljava/lang/Process;->getOutputStream()Ljava/io/OutputStream;
 
@@ -565,10 +529,8 @@
     :catch_0
     move-exception p1
 
-    .line 189
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 190
     :goto_2
     :try_start_2
     invoke-virtual {v0}, Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
@@ -584,10 +546,8 @@
     :catch_1
     move-exception p1
 
-    .line 191
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 192
     :goto_3
     :try_start_3
     invoke-virtual {v0}, Ljava/lang/Process;->getErrorStream()Ljava/io/InputStream;
@@ -603,7 +563,6 @@
     :catch_2
     move-exception p1
 
-    .line 193
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_4
@@ -613,7 +572,6 @@
     :catchall_0
     move-exception p0
 
-    .line 194
     :try_start_4
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
@@ -621,10 +579,8 @@
 
     if-nez p1, :cond_5
 
-    .line 195
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 196
     :cond_5
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -656,7 +612,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 197
     :try_start_5
     invoke-virtual {v0}, Ljava/lang/Process;->getOutputStream()Ljava/io/OutputStream;
 
@@ -671,10 +626,8 @@
     :catch_3
     move-exception p1
 
-    .line 198
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 199
     :goto_5
     :try_start_6
     invoke-virtual {v0}, Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
@@ -690,10 +643,8 @@
     :catch_4
     move-exception p1
 
-    .line 200
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 201
     :goto_6
     :try_start_7
     invoke-virtual {v0}, Ljava/lang/Process;->getErrorStream()Ljava/io/InputStream;
@@ -709,7 +660,6 @@
     :catch_5
     move-exception p1
 
-    .line 202
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_6
@@ -721,7 +671,6 @@
 
     if-eqz v0, :cond_7
 
-    .line 203
     :try_start_8
     invoke-virtual {v0}, Ljava/lang/Process;->getOutputStream()Ljava/io/OutputStream;
 
@@ -736,10 +685,8 @@
     :catch_6
     move-exception p1
 
-    .line 204
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 205
     :goto_8
     :try_start_9
     invoke-virtual {v0}, Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
@@ -755,10 +702,8 @@
     :catch_7
     move-exception p1
 
-    .line 206
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 207
     :goto_9
     :try_start_a
     invoke-virtual {v0}, Ljava/lang/Process;->getErrorStream()Ljava/io/InputStream;
@@ -774,10 +719,8 @@
     :catch_8
     move-exception p1
 
-    .line 208
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 209
     :cond_7
     :goto_a
     throw p0
@@ -786,7 +729,6 @@
 .method public static a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 8
 
-    .line 113
     const-class v0, Lcom/tencent/bugly/proguard/z;
 
     const-string v1, ""
@@ -805,13 +747,11 @@
 
     goto/16 :goto_1
 
-    .line 114
     :cond_0
     sget-object v1, Lcom/tencent/bugly/proguard/z;->a:Ljava/util/Map;
 
     if-nez v1, :cond_5
 
-    .line 115
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
@@ -820,7 +760,6 @@
 
     const-string v1, "/system/bin/sh"
 
-    .line 116
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -865,14 +804,12 @@
 
     aput-object v1, v2, v5
 
-    .line 117
     invoke-static {p0, v2}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;[Ljava/lang/String;)Ljava/util/ArrayList;
 
     move-result-object p0
 
     if-eqz p0, :cond_5
 
-    .line 118
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -883,17 +820,14 @@
 
     const-string v2, "Successfully get \'getprop\' list."
 
-    .line 119
     invoke-static {v0, v2, v1}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-string v1, "\\[(.+)\\]: \\[(.*)\\]"
 
-    .line 120
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
 
-    .line 121
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -912,19 +846,16 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 122
     invoke-virtual {v1, v2}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v2
 
-    .line 123
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v6
 
     if-eqz v6, :cond_3
 
-    .line 124
     sget-object v6, Lcom/tencent/bugly/proguard/z;->a:Ljava/util/Map;
 
     invoke-virtual {v2, v4}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
@@ -942,7 +873,6 @@
     :cond_4
     new-array p0, v4, [Ljava/lang/Object;
 
-    .line 125
     sget-object v1, Lcom/tencent/bugly/proguard/z;->a:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->size()I
@@ -959,7 +889,6 @@
 
     invoke-static {v0, v1, p0}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 126
     :cond_5
     sget-object p0, Lcom/tencent/bugly/proguard/z;->a:Ljava/util/Map;
 
@@ -969,7 +898,6 @@
 
     if-eqz p0, :cond_6
 
-    .line 127
     sget-object p0, Lcom/tencent/bugly/proguard/z;->a:Ljava/util/Map;
 
     invoke-interface {p0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -997,7 +925,6 @@
 
     if-eqz p0, :cond_6
 
-    .line 236
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result v1
@@ -1012,14 +939,12 @@
 
     goto/16 :goto_6
 
-    .line 237
     :cond_0
     :try_start_0
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 238
     new-instance v2, Ljava/io/BufferedReader;
 
     new-instance v3, Ljava/io/InputStreamReader;
@@ -1036,7 +961,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 239
     :cond_1
     :goto_0
     :try_start_1
@@ -1046,7 +970,6 @@
 
     if-eqz p0, :cond_3
 
-    .line 240
     invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string p0, "\n"
@@ -1055,7 +978,6 @@
 
     if-lez p1, :cond_1
 
-    .line 241
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->length()I
 
     move-result p0
@@ -1064,7 +986,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 242
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->length()I
 
     move-result p0
@@ -1076,7 +997,6 @@
     :cond_2
     const/4 p0, 0x0
 
-    .line 243
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->length()I
 
     move-result v3
@@ -1087,7 +1007,6 @@
 
     goto :goto_0
 
-    .line 244
     :cond_3
     :goto_1
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -1096,7 +1015,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 245
     :try_start_2
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
     :try_end_2
@@ -1107,7 +1025,6 @@
     :catch_0
     move-exception p1
 
-    .line 246
     invoke-static {p1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     :goto_2
@@ -1123,7 +1040,6 @@
 
     move-object v2, v0
 
-    .line 247
     :goto_3
     :try_start_3
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
@@ -1132,7 +1048,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 248
     :try_start_4
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
     :try_end_4
@@ -1143,7 +1058,6 @@
     :catch_1
     move-exception p0
 
-    .line 249
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     :cond_4
@@ -1155,7 +1069,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 250
     :try_start_5
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
     :try_end_5
@@ -1166,10 +1079,8 @@
     :catch_2
     move-exception p1
 
-    .line 251
     invoke-static {p1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
-    .line 252
     :cond_5
     :goto_5
     throw p0
@@ -1188,21 +1099,18 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     :try_start_0
     new-instance v0, Ljava/io/StringWriter;
 
     invoke-direct {v0}, Ljava/io/StringWriter;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/io/PrintWriter;
 
     invoke-direct {v1, v0}, Ljava/io/PrintWriter;-><init>(Ljava/io/Writer;)V
 
     invoke-virtual {p0, v1}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintWriter;)V
 
-    .line 3
     invoke-virtual {v0}, Ljava/io/StringWriter;->getBuffer()Ljava/lang/StringBuffer;
 
     move-result-object p0
@@ -1218,14 +1126,12 @@
     :catchall_0
     move-exception p0
 
-    .line 4
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_1
@@ -1243,7 +1149,6 @@
 
     return-object p0
 
-    .line 10
     :cond_0
     :try_start_0
     new-instance v0, Ljava/text/SimpleDateFormat;
@@ -1254,7 +1159,6 @@
 
     invoke-direct {v0, v1, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
-    .line 11
     invoke-virtual {v0, p0}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object p0
@@ -1263,7 +1167,6 @@
 
     return-object p0
 
-    .line 12
     :catch_0
     new-instance p0, Ljava/util/Date;
 
@@ -1281,7 +1184,6 @@
 
     if-eqz p0, :cond_5
 
-    .line 44
     array-length v0, p0
 
     if-nez v0, :cond_0
@@ -1292,15 +1194,12 @@
     :try_start_0
     const-string v0, "SHA-1"
 
-    .line 45
     invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v0
 
-    .line 46
     invoke-virtual {v0, p0}, Ljava/security/MessageDigest;->update([B)V
 
-    .line 47
     invoke-virtual {v0}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object p0
@@ -1366,14 +1265,12 @@
     :catchall_0
     move-exception p0
 
-    .line 48
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
 
     if-nez v0, :cond_4
 
-    .line 49
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_4
@@ -1391,16 +1288,13 @@
 .method public static a(Ljava/lang/Runnable;Ljava/lang/String;)Ljava/lang/Thread;
     .locals 1
 
-    .line 260
     :try_start_0
     new-instance v0, Ljava/lang/Thread;
 
     invoke-direct {v0, p0}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
 
-    .line 261
     invoke-virtual {v0, p1}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
-    .line 262
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1416,7 +1310,6 @@
 
     const/4 v0, 0x0
 
-    .line 263
     invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object p0
@@ -1447,14 +1340,12 @@
         }
     .end annotation
 
-    .line 88
     invoke-static {p0}, Lcom/tencent/bugly/crashreport/common/info/AppInfo;->e(Landroid/content/Context;)Z
 
     move-result p0
 
     if-eqz p0, :cond_0
 
-    .line 89
     new-instance p0, Ljava/util/ArrayList;
 
     const-string p1, "unknown(low memory)"
@@ -1471,7 +1362,6 @@
 
     return-object p0
 
-    .line 90
     :cond_0
     new-instance p0, Ljava/util/ArrayList;
 
@@ -1479,7 +1369,6 @@
 
     const/4 v0, 0x0
 
-    .line 91
     :try_start_0
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
@@ -1489,7 +1378,6 @@
 
     move-result-object p1
 
-    .line 92
     new-instance v1, Ljava/io/BufferedReader;
 
     new-instance v2, Ljava/io/InputStreamReader;
@@ -1504,7 +1392,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 93
     :goto_0
     :try_start_1
     invoke-virtual {v1}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -1513,12 +1400,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 94
     invoke-virtual {p0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 95
     :cond_1
     new-instance v2, Ljava/io/BufferedReader;
 
@@ -1534,7 +1419,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 96
     :goto_1
     :try_start_2
     invoke-virtual {v2}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -1543,14 +1427,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 97
     invoke-virtual {p0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     goto :goto_1
 
-    .line 98
     :cond_2
     :try_start_3
     invoke-virtual {v1}, Ljava/io/BufferedReader;->close()V
@@ -1562,10 +1444,8 @@
     :catch_0
     move-exception p1
 
-    .line 99
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 100
     :goto_2
     :try_start_4
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
@@ -1577,7 +1457,6 @@
     :catch_1
     move-exception p1
 
-    .line 101
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_3
@@ -1602,7 +1481,6 @@
 
     move-object v2, v1
 
-    .line 102
     :goto_4
     :try_start_5
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
@@ -1611,7 +1489,6 @@
 
     if-nez p1, :cond_3
 
-    .line 103
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_3
@@ -1619,7 +1496,6 @@
     :cond_3
     if-eqz v1, :cond_4
 
-    .line 104
     :try_start_6
     invoke-virtual {v1}, Ljava/io/BufferedReader;->close()V
     :try_end_6
@@ -1630,14 +1506,12 @@
     :catch_2
     move-exception p0
 
-    .line 105
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_4
     :goto_5
     if-eqz v2, :cond_5
 
-    .line 106
     :try_start_7
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
     :try_end_7
@@ -1648,7 +1522,6 @@
     :catch_3
     move-exception p0
 
-    .line 107
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_5
@@ -1660,7 +1533,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 108
     :try_start_8
     invoke-virtual {v1}, Ljava/io/BufferedReader;->close()V
     :try_end_8
@@ -1671,14 +1543,12 @@
     :catch_4
     move-exception p1
 
-    .line 109
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_6
     :goto_7
     if-eqz v2, :cond_7
 
-    .line 110
     :try_start_9
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
     :try_end_9
@@ -1689,10 +1559,8 @@
     :catch_5
     move-exception p1
 
-    .line 111
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 112
     :cond_7
     :goto_8
     throw p0
@@ -1710,14 +1578,12 @@
         }
     .end annotation
 
-    .line 210
     new-instance p1, Ljava/util/HashMap;
 
     const/16 v0, 0xc
 
     invoke-direct {p1, v0}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 211
     invoke-static {}, Ljava/lang/Thread;->getAllStackTraces()Ljava/util/Map;
 
     move-result-object v0
@@ -1728,7 +1594,6 @@
 
     return-object p0
 
-    .line 212
     :cond_0
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
@@ -1738,21 +1603,18 @@
 
     move-result-object v1
 
-    .line 213
     invoke-interface {v0, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 214
     invoke-virtual {v1}, Ljava/lang/Thread;->getStackTrace()[Ljava/lang/StackTraceElement;
 
     move-result-object v2
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 215
     :cond_1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -1760,12 +1622,10 @@
 
     invoke-virtual {v1}, Ljava/lang/Thread;->getId()J
 
-    .line 216
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 217
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -1790,10 +1650,8 @@
 
     const/4 v3, 0x0
 
-    .line 218
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->setLength(I)V
 
-    .line 219
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v4
@@ -1810,7 +1668,6 @@
 
     if-eqz v4, :cond_2
 
-    .line 220
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v4
@@ -1826,14 +1683,12 @@
 
     if-lez p0, :cond_3
 
-    .line 221
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->length()I
 
     move-result v7
 
     if-lt v7, p0, :cond_3
 
-    .line 222
     new-instance v3, Ljava/lang/StringBuilder;
 
     const-string v4, "\n[Stack over limit size :"
@@ -1854,7 +1709,6 @@
 
     goto :goto_2
 
-    .line 223
     :cond_3
     invoke-virtual {v6}, Ljava/lang/StackTraceElement;->toString()Ljava/lang/String;
 
@@ -1870,7 +1724,6 @@
 
     goto :goto_1
 
-    .line 224
     :cond_4
     :goto_2
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1939,7 +1792,6 @@
         }
     .end annotation
 
-    .line 154
     invoke-virtual {p0}, Landroid/os/Parcel;->readBundle()Landroid/os/Bundle;
 
     move-result-object p0
@@ -1950,20 +1802,17 @@
 
     return-object v0
 
-    .line 155
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 156
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     const-string v3, "pluginNum"
 
-    .line 157
     invoke-virtual {p0, v3}, Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
@@ -1981,7 +1830,6 @@
     :goto_0
     if-ge v5, v3, :cond_1
 
-    .line 158
     new-instance v6, Ljava/lang/StringBuilder;
 
     const-string v7, "pluginKey"
@@ -2010,7 +1858,6 @@
     :goto_1
     if-ge v5, v3, :cond_2
 
-    .line 159
     new-instance v6, Ljava/lang/StringBuilder;
 
     const-string v7, "pluginVal"
@@ -2031,7 +1878,6 @@
 
     move-result-object v6
 
-    .line 160
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
@@ -2050,7 +1896,6 @@
 
     move-result-object v8
 
-    .line 161
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
@@ -2069,7 +1914,6 @@
 
     move-result-object v7
 
-    .line 162
     new-instance v9, Lcom/tencent/bugly/crashreport/common/info/PlugInBean;
 
     invoke-direct {v9, v6, v7, v8}, Lcom/tencent/bugly/crashreport/common/info/PlugInBean;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -2080,7 +1924,6 @@
 
     goto :goto_1
 
-    .line 163
     :cond_2
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -2092,7 +1935,6 @@
 
     if-ne p0, v3, :cond_3
 
-    .line 164
     new-instance v0, Ljava/util/HashMap;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -2101,7 +1943,6 @@
 
     invoke-direct {v0, p0}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 165
     :goto_2
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -2109,7 +1950,6 @@
 
     if-ge v4, p0, :cond_4
 
-    .line 166
     invoke-interface {v1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p0
@@ -2135,7 +1975,6 @@
 
     const-string v1, "map plugin parcel error!"
 
-    .line 167
     invoke-static {v1, p0}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     :cond_4
@@ -2157,7 +1996,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 137
     invoke-interface {p1}, Ljava/util/Map;->size()I
 
     move-result v0
@@ -2166,23 +2004,19 @@
 
     goto/16 :goto_3
 
-    .line 138
     :cond_0
     invoke-interface {p1}, Ljava/util/Map;->size()I
 
     move-result v0
 
-    .line 139
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 140
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2, v0}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 141
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -2204,14 +2038,12 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 142
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 143
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -2220,13 +2052,11 @@
 
     goto :goto_0
 
-    .line 144
     :cond_1
     new-instance p1, Landroid/os/Bundle;
 
     invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
 
-    .line 145
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
     move-result v0
@@ -2239,7 +2069,6 @@
 
     const/4 v3, 0x0
 
-    .line 146
     :goto_1
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -2247,7 +2076,6 @@
 
     if-ge v3, v4, :cond_2
 
-    .line 147
     new-instance v4, Ljava/lang/StringBuilder;
 
     const-string v5, "pluginKey"
@@ -2272,7 +2100,6 @@
 
     goto :goto_1
 
-    .line 148
     :cond_2
     :goto_2
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
@@ -2281,7 +2108,6 @@
 
     if-ge v0, v3, :cond_3
 
-    .line 149
     new-instance v3, Ljava/lang/StringBuilder;
 
     const-string v4, "pluginVal"
@@ -2308,7 +2134,6 @@
 
     invoke-virtual {p1, v3, v5}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 150
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
@@ -2333,7 +2158,6 @@
 
     invoke-virtual {p1, v3, v5}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 151
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
@@ -2362,7 +2186,6 @@
 
     goto :goto_2
 
-    .line 152
     :cond_3
     invoke-virtual {p0, p1}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V
 
@@ -2372,7 +2195,6 @@
     :goto_3
     const/4 p1, 0x0
 
-    .line 153
     invoke-virtual {p0, p1}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V
 
     return-void
@@ -2392,7 +2214,6 @@
         }
     .end annotation
 
-    .line 130
     :try_start_0
     invoke-virtual {p0, p1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
@@ -2400,12 +2221,10 @@
 
     const/4 p1, 0x1
 
-    .line 131
     invoke-virtual {p0, p1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     const/4 p1, 0x0
 
-    .line 132
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -2425,7 +2244,6 @@
 
     aput-object p1, p3, v0
 
-    .line 225
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result v1
@@ -2454,7 +2272,6 @@
 
     invoke-static {v1, p3}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 226
     :try_start_0
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -2476,19 +2293,16 @@
 
     move-result-object p3
 
-    .line 227
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 228
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result p3
 
     if-eqz p3, :cond_1
 
-    .line 229
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
@@ -2514,13 +2328,10 @@
 
     aput-object p1, v4, v0
 
-    .line 230
     invoke-static {p3, v4}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 231
     invoke-static {p0, p1}, Lcom/tencent/bugly/proguard/z;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
-    .line 232
     :cond_1
     invoke-virtual {v1}, Ljava/io/File;->createNewFile()Z
 
@@ -2534,7 +2345,6 @@
 
     aput-object p1, p2, v0
 
-    .line 233
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result p1
@@ -2566,7 +2376,6 @@
 
     aput-object p1, p2, v0
 
-    .line 234
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result p1
@@ -2596,7 +2405,6 @@
     :catchall_0
     move-exception p0
 
-    .line 235
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     return v0
@@ -2613,14 +2421,12 @@
 
     const-string v2, "rqdp{  ZF start}"
 
-    .line 50
     invoke-static {v2, v1}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     if-eqz p0, :cond_d
 
     if-eqz p1, :cond_d
 
-    .line 51
     invoke-virtual {p0, p1}, Ljava/io/File;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -2629,7 +2435,6 @@
 
     goto/16 :goto_c
 
-    .line 52
     :cond_0
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
@@ -2645,7 +2450,6 @@
 
     goto/16 :goto_b
 
-    .line 53
     :cond_1
     :try_start_0
     invoke-virtual {p1}, Ljava/io/File;->getParentFile()Ljava/io/File;
@@ -2664,14 +2468,12 @@
 
     if-nez v1, :cond_2
 
-    .line 54
     invoke-virtual {p1}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
     move-result-object v1
 
     invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
 
-    .line 55
     :cond_2
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
@@ -2679,7 +2481,6 @@
 
     if-nez v1, :cond_3
 
-    .line 56
     invoke-virtual {p1}, Ljava/io/File;->createNewFile()Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -2689,17 +2490,14 @@
     :catchall_0
     move-exception v1
 
-    .line 57
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v2
 
     if-nez v2, :cond_3
 
-    .line 58
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 59
     :cond_3
     :goto_0
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
@@ -2719,7 +2517,6 @@
     :cond_4
     const/4 v1, 0x0
 
-    .line 60
     :try_start_1
     new-instance v2, Ljava/io/FileInputStream;
 
@@ -2727,7 +2524,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_3
 
-    .line 61
     :try_start_2
     new-instance v3, Ljava/util/zip/ZipOutputStream;
 
@@ -2745,11 +2541,9 @@
 
     const/16 p1, 0x8
 
-    .line 62
     :try_start_3
     invoke-virtual {v3, p1}, Ljava/util/zip/ZipOutputStream;->setMethod(I)V
 
-    .line 63
     new-instance p1, Ljava/util/zip/ZipEntry;
 
     invoke-virtual {p0}, Ljava/io/File;->getName()Ljava/lang/String;
@@ -2758,14 +2552,12 @@
 
     invoke-direct {p1, p0}, Ljava/util/zip/ZipEntry;-><init>(Ljava/lang/String;)V
 
-    .line 64
     invoke-virtual {v3, p1}, Ljava/util/zip/ZipOutputStream;->putNextEntry(Ljava/util/zip/ZipEntry;)V
 
     const/16 p0, 0x1388
 
     new-array p0, p0, [B
 
-    .line 65
     :goto_1
     invoke-virtual {v2, p0}, Ljava/io/FileInputStream;->read([B)I
 
@@ -2773,21 +2565,17 @@
 
     if-lez p1, :cond_5
 
-    .line 66
     invoke-virtual {v3, p0, v0, p1}, Ljava/util/zip/ZipOutputStream;->write([BII)V
 
     goto :goto_1
 
-    .line 67
     :cond_5
     invoke-virtual {v3}, Ljava/util/zip/ZipOutputStream;->flush()V
 
-    .line 68
     invoke-virtual {v3}, Ljava/util/zip/ZipOutputStream;->closeEntry()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 69
     :try_start_4
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
     :try_end_4
@@ -2798,10 +2586,8 @@
     :catch_0
     move-exception p0
 
-    .line 70
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 71
     :goto_2
     :try_start_5
     invoke-virtual {v3}, Ljava/util/zip/ZipOutputStream;->close()V
@@ -2813,13 +2599,11 @@
     :catch_1
     move-exception p0
 
-    .line 72
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_3
     new-array p0, v0, [Ljava/lang/Object;
 
-    .line 73
     invoke-static {p2, p0}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const/4 p0, 0x1
@@ -2846,7 +2630,6 @@
 
     move-object v3, v1
 
-    .line 74
     :goto_5
     :try_start_6
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
@@ -2855,7 +2638,6 @@
 
     if-nez p1, :cond_6
 
-    .line 75
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_4
@@ -2863,7 +2645,6 @@
     :cond_6
     if-eqz v1, :cond_7
 
-    .line 76
     :try_start_7
     invoke-virtual {v1}, Ljava/io/FileInputStream;->close()V
     :try_end_7
@@ -2874,14 +2655,12 @@
     :catch_2
     move-exception p0
 
-    .line 77
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_7
     :goto_6
     if-eqz v3, :cond_8
 
-    .line 78
     :try_start_8
     invoke-virtual {v3}, Ljava/util/zip/ZipOutputStream;->close()V
     :try_end_8
@@ -2892,14 +2671,12 @@
     :catch_3
     move-exception p0
 
-    .line 79
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_8
     :goto_7
     new-array p0, v0, [Ljava/lang/Object;
 
-    .line 80
     invoke-static {p2, p0}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return v0
@@ -2909,7 +2686,6 @@
 
     if-eqz v1, :cond_9
 
-    .line 81
     :try_start_9
     invoke-virtual {v1}, Ljava/io/FileInputStream;->close()V
     :try_end_9
@@ -2920,14 +2696,12 @@
     :catch_4
     move-exception p1
 
-    .line 82
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_9
     :goto_8
     if-eqz v3, :cond_a
 
-    .line 83
     :try_start_a
     invoke-virtual {v3}, Ljava/util/zip/ZipOutputStream;->close()V
     :try_end_a
@@ -2938,14 +2712,12 @@
     :catch_5
     move-exception p1
 
-    .line 84
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_a
     :goto_9
     new-array p1, v0, [Ljava/lang/Object;
 
-    .line 85
     invoke-static {p2, p1}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     throw p0
@@ -2960,7 +2732,6 @@
 
     const-string p1, "rqdp{  !sFile.exists() || !sFile.canRead(),pls check ,return!}"
 
-    .line 86
     invoke-static {p1, p0}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return v0
@@ -2971,7 +2742,6 @@
 
     const-string p1, "rqdp{  err ZF 1R!}"
 
-    .line 87
     invoke-static {p1, p0}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return v0
@@ -2982,21 +2752,18 @@
 
     if-eqz p0, :cond_1
 
-    .line 264
     invoke-static {}, Lcom/tencent/bugly/proguard/w;->a()Lcom/tencent/bugly/proguard/w;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 265
     invoke-virtual {v0, p0}, Lcom/tencent/bugly/proguard/w;->a(Ljava/lang/Runnable;)Z
 
     move-result p0
 
     return p0
 
-    .line 266
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -3012,7 +2779,6 @@
 
     move-result-object v0
 
-    .line 267
     array-length v1, v0
 
     const/4 v2, 0x1
@@ -3040,7 +2806,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 128
     invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p0
@@ -3064,22 +2829,18 @@
 .method public static a(Landroid/os/Parcelable;)[B
     .locals 2
 
-    .line 168
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 169
     invoke-interface {p0, v0, v1}, Landroid/os/Parcelable;->writeToParcel(Landroid/os/Parcel;I)V
 
-    .line 170
     invoke-virtual {v0}, Landroid/os/Parcel;->marshall()[B
 
     move-result-object p0
 
-    .line 171
     invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
 
     return-object p0
@@ -3094,7 +2855,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 13
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -3110,28 +2870,23 @@
 
     const-string v3, "rqdp{  ZF start}"
 
-    .line 14
     invoke-static {v3, v2}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     :try_start_0
     const-string v2, "UTF-8"
 
-    .line 15
     invoke-virtual {p1, v2}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p1
 
-    .line 16
     new-instance v2, Ljava/io/ByteArrayInputStream;
 
     invoke-direct {v2, p1}, Ljava/io/ByteArrayInputStream;-><init>([B)V
 
-    .line 17
     new-instance p1, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {p1}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
-    .line 18
     new-instance v3, Ljava/util/zip/ZipOutputStream;
 
     invoke-direct {v3, p1}, Ljava/util/zip/ZipOutputStream;-><init>(Ljava/io/OutputStream;)V
@@ -3140,23 +2895,19 @@
 
     const/16 v4, 0x8
 
-    .line 19
     :try_start_1
     invoke-virtual {v3, v4}, Ljava/util/zip/ZipOutputStream;->setMethod(I)V
 
-    .line 20
     new-instance v4, Ljava/util/zip/ZipEntry;
 
     invoke-direct {v4, p2}, Ljava/util/zip/ZipEntry;-><init>(Ljava/lang/String;)V
 
-    .line 21
     invoke-virtual {v3, v4}, Ljava/util/zip/ZipOutputStream;->putNextEntry(Ljava/util/zip/ZipEntry;)V
 
     const/16 p2, 0x400
 
     new-array p2, p2, [B
 
-    .line 22
     :goto_0
     invoke-virtual {v2, p2}, Ljava/io/ByteArrayInputStream;->read([B)I
 
@@ -3164,29 +2915,23 @@
 
     if-lez v4, :cond_1
 
-    .line 23
     invoke-virtual {v3, p2, v1, v4}, Ljava/util/zip/ZipOutputStream;->write([BII)V
 
     goto :goto_0
 
-    .line 24
     :cond_1
     invoke-virtual {v3}, Ljava/util/zip/ZipOutputStream;->closeEntry()V
 
-    .line 25
     invoke-virtual {v3}, Ljava/util/zip/ZipOutputStream;->flush()V
 
-    .line 26
     invoke-virtual {v3}, Ljava/util/zip/ZipOutputStream;->finish()V
 
-    .line 27
     invoke-virtual {p1}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object p1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 28
     :try_start_2
     invoke-virtual {v3}, Ljava/util/zip/ZipOutputStream;->close()V
     :try_end_2
@@ -3197,13 +2942,11 @@
     :catch_0
     move-exception p2
 
-    .line 29
     invoke-virtual {p2}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_1
     new-array p2, v1, [Ljava/lang/Object;
 
-    .line 30
     invoke-static {p0, p2}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object p1
@@ -3218,7 +2961,6 @@
 
     move-object v3, v0
 
-    .line 31
     :goto_2
     :try_start_3
     invoke-static {p1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
@@ -3227,7 +2969,6 @@
 
     if-nez p2, :cond_2
 
-    .line 32
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
@@ -3235,7 +2976,6 @@
     :cond_2
     if-eqz v3, :cond_3
 
-    .line 33
     :try_start_4
     invoke-virtual {v3}, Ljava/util/zip/ZipOutputStream;->close()V
     :try_end_4
@@ -3246,14 +2986,12 @@
     :catch_1
     move-exception p1
 
-    .line 34
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_3
     :goto_3
     new-array p1, v1, [Ljava/lang/Object;
 
-    .line 35
     invoke-static {p0, p1}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v0
@@ -3263,7 +3001,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 36
     :try_start_5
     invoke-virtual {v3}, Ljava/util/zip/ZipOutputStream;->close()V
     :try_end_5
@@ -3274,14 +3011,12 @@
     :catch_2
     move-exception p2
 
-    .line 37
     invoke-virtual {p2}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_4
     :goto_4
     new-array p2, v1, [Ljava/lang/Object;
 
-    .line 38
     invoke-static {p0, p2}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     throw p1
@@ -3305,7 +3040,6 @@
 
     const/4 v1, 0x0
 
-    .line 39
     array-length v2, p0
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3326,7 +3060,6 @@
 
     const/4 v0, 0x0
 
-    .line 40
     :try_start_0
     invoke-static {p1}, Lcom/tencent/bugly/proguard/ad;->a(I)Lcom/tencent/bugly/proguard/ae;
 
@@ -3336,7 +3069,6 @@
 
     return-object v0
 
-    .line 41
     :cond_1
     invoke-interface {p1, p0}, Lcom/tencent/bugly/proguard/ae;->a([B)[B
 
@@ -3349,14 +3081,12 @@
     :catchall_0
     move-exception p0
 
-    .line 42
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result p1
 
     if-nez p1, :cond_2
 
-    .line 43
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_2
@@ -3366,7 +3096,6 @@
 .method private static synthetic ajc$preClinit()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/tencent/bugly/proguard/z;
@@ -3411,7 +3140,6 @@
 .method public static b()J
     .locals 4
 
-    .line 8
     :try_start_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -3431,7 +3159,6 @@
 
     const-wide/32 v2, 0x5265c00
 
-    .line 9
     div-long/2addr v0, v2
 
     mul-long v0, v0, v2
@@ -3455,14 +3182,12 @@
     :catchall_0
     move-exception v0
 
-    .line 10
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 11
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_0
@@ -3480,7 +3205,6 @@
 
     return-wide v0
 
-    .line 17
     :cond_0
     :try_start_0
     new-instance v2, Ljava/lang/String;
@@ -3500,7 +3224,6 @@
     :catch_0
     move-exception p0
 
-    .line 18
     invoke-virtual {p0}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
 
     return-wide v0
@@ -3509,7 +3232,6 @@
 .method public static b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 51
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/info/a;->b()Lcom/tencent/bugly/crashreport/common/info/a;
 
     move-result-object v0
@@ -3524,7 +3246,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 52
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/info/a;->b()Lcom/tencent/bugly/crashreport/common/info/a;
 
     move-result-object v0
@@ -3552,24 +3273,19 @@
 
     return-object p0
 
-    .line 19
     :cond_0
     new-instance v0, Ljava/io/StringWriter;
 
     invoke-direct {v0}, Ljava/io/StringWriter;-><init>()V
 
-    .line 20
     new-instance v1, Ljava/io/PrintWriter;
 
     invoke-direct {v1, v0}, Ljava/io/PrintWriter;-><init>(Ljava/io/Writer;)V
 
-    .line 21
     invoke-virtual {p0, v1}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintWriter;)V
 
-    .line 22
     invoke-virtual {v1}, Ljava/io/PrintWriter;->flush()V
 
-    .line 23
     invoke-virtual {v0}, Ljava/io/StringWriter;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -3591,7 +3307,6 @@
         }
     .end annotation
 
-    .line 36
     invoke-virtual {p0}, Landroid/os/Parcel;->readBundle()Landroid/os/Bundle;
 
     move-result-object p0
@@ -3605,14 +3320,12 @@
     :cond_0
     const-string v1, "keys"
 
-    .line 37
     invoke-virtual {p0, v1}, Landroid/os/Bundle;->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
 
     move-result-object v1
 
     const-string v2, "values"
 
-    .line 38
     invoke-virtual {p0, v2}, Landroid/os/Bundle;->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
 
     move-result-object p0
@@ -3623,7 +3336,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 39
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v3
@@ -3634,7 +3346,6 @@
 
     if-ne v3, v4, :cond_1
 
-    .line 40
     new-instance v0, Ljava/util/HashMap;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -3643,7 +3354,6 @@
 
     invoke-direct {v0, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 41
     :goto_0
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -3651,7 +3361,6 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 42
     invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -3671,7 +3380,6 @@
 
     const-string v1, "map parcel error!"
 
-    .line 43
     invoke-static {v1, p0}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     :cond_2
@@ -3681,7 +3389,6 @@
 .method public static b(J)V
     .locals 0
 
-    .line 12
     :try_start_0
     invoke-static {p0, p1}, Ljava/lang/Thread;->sleep(J)V
     :try_end_0
@@ -3692,7 +3399,6 @@
     :catch_0
     move-exception p0
 
-    .line 13
     invoke-virtual {p0}, Ljava/lang/InterruptedException;->printStackTrace()V
 
     return-void
@@ -3713,7 +3419,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 24
     invoke-interface {p1}, Ljava/util/Map;->size()I
 
     move-result v0
@@ -3722,23 +3427,19 @@
 
     goto :goto_1
 
-    .line 25
     :cond_0
     invoke-interface {p1}, Ljava/util/Map;->size()I
 
     move-result v0
 
-    .line 26
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 27
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2, v0}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 28
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -3760,14 +3461,12 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 29
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 30
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -3776,7 +3475,6 @@
 
     goto :goto_0
 
-    .line 31
     :cond_1
     new-instance p1, Landroid/os/Bundle;
 
@@ -3784,15 +3482,12 @@
 
     const-string v0, "keys"
 
-    .line 32
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
     const-string v0, "values"
 
-    .line 33
     invoke-virtual {p1, v0, v2}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
-    .line 34
     invoke-virtual {p0, p1}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V
 
     return-void
@@ -3801,7 +3496,6 @@
     :goto_1
     const/4 p1, 0x0
 
-    .line 35
     invoke-virtual {p0, p1}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V
 
     return-void
@@ -3814,13 +3508,11 @@
 
     return-void
 
-    .line 14
     :cond_0
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 15
     invoke-virtual {v0}, Ljava/io/File;->isFile()Z
 
     move-result p0
@@ -3839,7 +3531,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 16
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
     :cond_1
@@ -3857,7 +3548,6 @@
 
     aput-object p1, v1, v2
 
-    .line 44
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result v3
@@ -3886,7 +3576,6 @@
 
     invoke-static {v3, v1}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 45
     :try_start_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -3908,19 +3597,16 @@
 
     move-result-object p0
 
-    .line 46
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 47
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result p0
 
     if-eqz p0, :cond_1
 
-    .line 48
     invoke-virtual {v1}, Ljava/io/File;->delete()Z
 
     move-result p0
@@ -3933,7 +3619,6 @@
 
     aput-object p1, v0, v2
 
-    .line 49
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result p1
@@ -3969,7 +3654,6 @@
     :catchall_0
     move-exception p0
 
-    .line 50
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     return v2
@@ -3987,7 +3671,6 @@
 
     new-array v0, p1, [Ljava/lang/Object;
 
-    .line 1
     array-length v1, p0
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4010,7 +3693,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     :try_start_0
     invoke-static {p1}, Lcom/tencent/bugly/proguard/ad;->a(I)Lcom/tencent/bugly/proguard/ae;
 
@@ -4020,7 +3702,6 @@
 
     return-object v0
 
-    .line 3
     :cond_1
     invoke-interface {p1, p0}, Lcom/tencent/bugly/proguard/ae;->b([B)[B
 
@@ -4033,7 +3714,6 @@
     :catchall_0
     move-exception p0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -4052,7 +3732,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object p0
@@ -4063,7 +3742,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
@@ -4071,7 +3749,6 @@
 
     if-nez p1, :cond_3
 
-    .line 7
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_3
@@ -4088,7 +3765,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v2
@@ -4111,7 +3787,6 @@
 
     return v1
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -4127,12 +3802,10 @@
 
     const-string p0, "URL(%s)\'s length is larger than 255."
 
-    .line 5
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return v1
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -4152,7 +3825,6 @@
 
     const-string p0, "URL(%s) is not start with \"http\"."
 
-    .line 7
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return v1
@@ -4164,7 +3836,6 @@
 .method public static c(J)[B
     .locals 1
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -4189,7 +3860,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
 
     const/4 p0, 0x0
@@ -4200,7 +3870,6 @@
 .method static final synthetic invoke_aroundBody0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0

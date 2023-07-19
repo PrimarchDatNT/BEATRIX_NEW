@@ -32,10 +32,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -52,7 +50,6 @@
 .method static synthetic access$000()J
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/mopub/network/RequestRateTracker;->currentTimeMs()J
 
     move-result-wide v0
@@ -63,7 +60,6 @@
 .method private static currentTimeMs()J
     .locals 2
 
-    .line 1
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v0
@@ -76,7 +72,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/network/RequestRateTracker$Helper;->access$100()Lcom/mopub/network/RequestRateTracker;
 
     move-result-object v0
@@ -91,7 +86,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/RequestRateTracker;->mTimeRecordMap:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -106,7 +100,6 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/mopub/network/RequestRateTracker$TimeRecord;->getTargetTime()J
 
@@ -133,7 +126,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/network/RequestRateTracker$Helper;->access$102(Lcom/mopub/network/RequestRateTracker;)Lcom/mopub/network/RequestRateTracker;
 
     return-void
@@ -150,7 +142,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/RequestRateTracker;->mTimeRecordMap:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -169,7 +160,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/network/RequestRateTracker;->getTimeUntilLimitEnds(Ljava/lang/String;)J
 
     move-result-wide v0
@@ -206,7 +196,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -218,14 +207,12 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 2
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
 
     if-lez v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/network/RequestRateTracker;->mTimeRecordMap:Ljava/util/Map;
 
     new-instance v1, Lcom/mopub/network/RequestRateTracker$TimeRecord;
@@ -240,7 +227,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p2, p0, Lcom/mopub/network/RequestRateTracker;->mTimeRecordMap:Ljava/util/Map;
 

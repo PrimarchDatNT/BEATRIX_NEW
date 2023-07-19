@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Companion;-><init>()V
 
     return-void
@@ -49,7 +47,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v2
@@ -70,7 +67,6 @@
     :goto_1
     if-nez v2, :cond_2
 
-    .line 2
     invoke-static {}, Lcom/mopub/mobileads/VastAbsoluteProgressTracker;->access$getAbsolutePattern$cp()Ljava/util/regex/Pattern;
 
     move-result-object v2
@@ -106,7 +102,6 @@
 
     const-string v1, ":"
 
-    .line 1
     filled-new-array {v1}, [Ljava/lang/String;
 
     move-result-object v3
@@ -127,7 +122,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -158,7 +152,6 @@
     :goto_1
     if-eqz p1, :cond_2
 
-    .line 3
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -177,7 +170,6 @@
 
     mul-int/lit16 v0, v0, 0x3e8
 
-    .line 4
     invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -196,7 +188,6 @@
 
     const/4 v2, 0x2
 
-    .line 5
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1

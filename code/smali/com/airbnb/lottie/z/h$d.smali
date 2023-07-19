@@ -25,7 +25,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
 
     return-void
@@ -46,7 +45,6 @@
 .method protected bridge synthetic initialValue()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/z/h$d;->a()[F
 
     move-result-object v0

@@ -68,7 +68,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$f;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->C1(Lcom/commsource/studio/function/defocus/DeFocusFragment;)Lcom/commsource/beautyplus/f0/mb;
@@ -89,7 +88,6 @@
 
     check-cast v0, Lcom/commsource/widget/h1/e;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$f;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->W1()Lcom/commsource/studio/effect/f;
@@ -110,31 +108,26 @@
 
     move-result v2
 
-    .line 3
     sget-object v3, Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;->Blur:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
     invoke-virtual {v0, v3, v2}, Lcom/commsource/widget/h1/e;->c(Ljava/lang/Object;Z)V
 
-    .line 4
     sget-object v3, Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;->Eraser:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
     invoke-virtual {v0, v3, v2}, Lcom/commsource/widget/h1/e;->c(Ljava/lang/Object;Z)V
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-virtual {v0}, Lcom/commsource/widget/h1/e;->e()Ljava/lang/Object;
 
     move-result-object v4
 
     if-ne v4, v3, :cond_0
 
-    .line 6
     sget-object v3, Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;->AiAdd:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
     invoke-virtual {v0, v3}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$f;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {v0, v3}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->K1(Lcom/commsource/studio/function/defocus/DeFocusFragment;Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;)V
@@ -142,15 +135,12 @@
     :cond_0
     xor-int/lit8 v0, v2, 0x1
 
-    .line 8
     invoke-virtual {v1, v0}, Lcom/commsource/studio/effect/f;->w(Z)V
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_1
     new-instance v0, Lcotlin/TypeCastException;
 
@@ -170,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/defocus/DeFocusFragment$f;->a(Lcotlin/Pair;)V

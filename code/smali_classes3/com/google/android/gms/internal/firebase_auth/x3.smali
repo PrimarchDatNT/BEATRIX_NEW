@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/x3;->b()Ljava/lang/Class;
 
     move-result-object v0
@@ -35,14 +34,12 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/x3;->a:Ljava/lang/Class;
 
     const/4 v1, 0x0
 
     new-array v2, v1, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {v0, p0, v2}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p0
@@ -73,7 +70,6 @@
     :try_start_0
     const-string v0, "com.google.protobuf.ExtensionRegistry"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -91,7 +87,6 @@
 .method public static c()Lcom/google/android/gms/internal/firebase_auth/z3;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/x3;->a:Ljava/lang/Class;
 
     if-eqz v0, :cond_0
@@ -99,7 +94,6 @@
     :try_start_0
     const-string v0, "getEmptyRegistry"
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/firebase_auth/x3;->a(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/z3;
 
     move-result-object v0
@@ -108,7 +102,6 @@
 
     return-object v0
 
-    .line 3
     :catch_0
     :cond_0
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/z3;->f:Lcom/google/android/gms/internal/firebase_auth/z3;
@@ -119,7 +112,6 @@
 .method static d()Lcom/google/android/gms/internal/firebase_auth/z3;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/x3;->a:Ljava/lang/Class;
 
     if-eqz v0, :cond_0
@@ -127,7 +119,6 @@
     :try_start_0
     const-string v0, "loadGeneratedRegistry"
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/firebase_auth/x3;->a(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/z3;
 
     move-result-object v0
@@ -143,7 +134,6 @@
     :goto_0
     if-nez v0, :cond_1
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/z3;->b()Lcom/google/android/gms/internal/firebase_auth/z3;
 
     move-result-object v0
@@ -151,7 +141,6 @@
     :cond_1
     if-nez v0, :cond_2
 
-    .line 4
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/x3;->c()Lcom/google/android/gms/internal/firebase_auth/z3;
 
     move-result-object v0

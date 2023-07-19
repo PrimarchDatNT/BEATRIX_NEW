@@ -28,10 +28,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     return-void
@@ -49,7 +47,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/data/l;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/common/data/l;-><init>(Lcom/google/android/gms/common/data/b;)V
@@ -62,7 +59,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/common/data/a;->release()V
 
     return-void
@@ -79,7 +75,6 @@
 .method public getCount()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     if-nez v0, :cond_0
@@ -99,7 +94,6 @@
 .method public getMetadata()Landroid/os/Bundle;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/data/DataHolder;->getMetadata()Landroid/os/Bundle;
@@ -114,7 +108,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     if-eqz v0, :cond_1
@@ -149,7 +142,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/data/c;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/common/data/c;-><init>(Lcom/google/android/gms/common/data/b;)V
@@ -160,12 +152,10 @@
 .method public release()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/common/data/DataHolder;->close()V
 
     :cond_0

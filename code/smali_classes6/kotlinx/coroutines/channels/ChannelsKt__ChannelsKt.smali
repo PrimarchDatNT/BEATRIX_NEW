@@ -23,7 +23,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Lcotlinx/coroutines/channels/c0;->offer(Ljava/lang/Object;)Z
 
     move-result v0
@@ -32,7 +31,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Lcotlinx/coroutines/channels/ChannelsKt__ChannelsKt$sendBlocking$1;
 

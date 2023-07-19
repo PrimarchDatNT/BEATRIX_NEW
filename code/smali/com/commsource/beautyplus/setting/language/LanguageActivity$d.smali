@@ -67,7 +67,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity$d;->a:Lcom/commsource/beautyplus/setting/language/LanguageActivity;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N0()Lcom/commsource/widget/h1/e;
@@ -82,7 +81,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->P(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity$d;->a:Lcom/commsource/beautyplus/setting/language/LanguageActivity;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N0()Lcom/commsource/widget/h1/e;
@@ -93,22 +91,18 @@
 
     move-result-object v2
 
-    .line 3
     const-class v3, Lcom/commsource/beautyplus/setting/language/LanguageViewHolder;
 
     invoke-virtual {v2, p1, v3}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 6
     sget-object v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->b:Lcom/commsource/beautyplus/setting/language/LanguageConfig;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -123,7 +117,6 @@
 
     move-result-object v1
 
-    .line 7
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -167,7 +160,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity$d;->a:Lcom/commsource/beautyplus/setting/language/LanguageActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N0()Lcom/commsource/widget/h1/e;
@@ -176,7 +168,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -190,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/setting/language/LanguageActivity$d;->a(Ljava/util/List;)V

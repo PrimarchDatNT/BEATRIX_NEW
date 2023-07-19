@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/DeFocusLayer$redo$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$redo$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/DeFocusLayer;->Q0()Lcom/commsource/studio/h;
@@ -86,7 +84,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/layer/DeFocusLayer$redo$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-static {v2}, Lcom/commsource/studio/layer/DeFocusLayer;->D0(Lcom/commsource/studio/layer/DeFocusLayer;)Lcom/commsource/beautymain/widget/gesturewidget/g;
@@ -97,7 +94,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$redo$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
@@ -107,7 +103,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->a()Z
 
-    .line 5
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$redo$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
@@ -125,12 +120,10 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/core/processor/ImageSegment;->redo(Landroid/graphics/Bitmap;I)Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$redo$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DeFocusLayer;->H0(Lcom/commsource/studio/layer/DeFocusLayer;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$redo$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
@@ -139,7 +132,6 @@
 
     invoke-virtual {v1}, Landroid/view/View;->postInvalidate()V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$redo$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DeFocusLayer;->E0(Lcom/commsource/studio/layer/DeFocusLayer;)Lcom/commsource/studio/component/UndoRedoComponent$c;
@@ -154,7 +146,6 @@
 
     invoke-static {v1, v3, v3, v2, v4}, Lcom/commsource/studio/component/UndoRedoComponent$c;->I(Lcom/commsource/studio/component/UndoRedoComponent$c;ZZILjava/lang/Object;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$redo$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/DeFocusLayer;->L0()Lcotlin/jvm/u/l;
@@ -182,7 +173,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$redo$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
@@ -200,7 +190,6 @@
 
     invoke-virtual {v1}, Landroid/view/View;->postInvalidate()V
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

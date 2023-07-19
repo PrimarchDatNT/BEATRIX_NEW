@@ -93,17 +93,14 @@
 
     new-array v0, v0, [C
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->q:[C
 
     const-wide/16 v0, -0x1
 
-    .line 2
     sput-wide v0, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->y:J
 
-    .line 3
     new-instance v0, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$a;
 
     invoke-direct {v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$a;-><init>()V
@@ -138,7 +135,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -151,7 +147,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -164,14 +159,12 @@
 
     const-string v0, "string"
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->z(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p1
 
     if-lez p1, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -191,7 +184,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-wide v1, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->y:J
 
@@ -203,7 +195,6 @@
 
     const-wide/16 v1, 0x0
 
-    .line 2
     new-instance v3, Ljava/io/File;
 
     const-string v4, "/proc/meminfo"
@@ -216,14 +207,12 @@
 
     move-result-object v3
 
-    .line 3
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-nez v4, :cond_3
 
-    .line 4
     sget-object v4, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->toUpperCase(Ljava/util/Locale;)Ljava/lang/String;
@@ -235,7 +224,6 @@
     :try_start_1
     const-string v4, "KB"
 
-    .line 5
     invoke-virtual {v3, v4}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v4
@@ -246,7 +234,6 @@
 
     const/16 v5, 0x400
 
-    .line 6
     invoke-static {v3, v4, v5}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->g(Ljava/lang/String;Ljava/lang/String;I)J
 
     move-result-wide v1
@@ -256,7 +243,6 @@
     :cond_0
     const-string v4, "MB"
 
-    .line 7
     invoke-virtual {v3, v4}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v4
@@ -267,7 +253,6 @@
 
     const/high16 v5, 0x100000
 
-    .line 8
     invoke-static {v3, v4, v5}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->g(Ljava/lang/String;Ljava/lang/String;I)J
 
     move-result-wide v1
@@ -277,7 +262,6 @@
     :cond_1
     const-string v4, "GB"
 
-    .line 9
     invoke-virtual {v3, v4}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v4
@@ -288,14 +272,12 @@
 
     const/high16 v5, 0x40000000    # 2.0f
 
-    .line 10
     invoke-static {v3, v4, v5}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->g(Ljava/lang/String;Ljava/lang/String;I)J
 
     move-result-wide v1
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
@@ -325,7 +307,6 @@
     :catch_0
     move-exception v4
 
-    .line 12
     :try_start_2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
@@ -347,12 +328,10 @@
 
     invoke-virtual {v5, v3, v4}, Lcom/google/firebase/crashlytics/e/b;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 13
     :cond_3
     :goto_0
     sput-wide v1, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->y:J
 
-    .line 14
     :cond_4
     sget-wide v1, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->y:J
     :try_end_2
@@ -373,7 +352,6 @@
 .method private static D(Ljava/io/InputStream;Ljava/lang/String;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
@@ -383,7 +361,6 @@
 
     new-array v0, v0, [B
 
-    .line 2
     :goto_0
     invoke-virtual {p0, v0}, Ljava/io/InputStream;->read([B)I
 
@@ -395,12 +372,10 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {p1, v0, v2, v1}, Ljava/security/MessageDigest;->update([BII)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Ljava/security/MessageDigest;->digest()[B
 
@@ -417,7 +392,6 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object p1
@@ -434,7 +408,6 @@
 .method private static E(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
 
     move-result-object p0
@@ -449,7 +422,6 @@
 .method private static F([BLjava/lang/String;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
@@ -457,10 +429,8 @@
     :try_end_0
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     invoke-virtual {p1, p0}, Ljava/security/MessageDigest;->update([B)V
 
-    .line 3
     invoke-virtual {p1}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object p0
@@ -474,7 +444,6 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v0
@@ -497,7 +466,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {v0, p1, p0}, Lcom/google/firebase/crashlytics/e/b;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const-string p0, ""
@@ -508,7 +476,6 @@
 .method public static G([B)Ljava/lang/String;
     .locals 6
 
-    .line 1
     array-length v0, p0
 
     mul-int/lit8 v0, v0, 0x2
@@ -517,20 +484,17 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     array-length v2, p0
 
     if-ge v1, v2, :cond_0
 
-    .line 3
     aget-byte v2, p0, v1
 
     and-int/lit16 v2, v2, 0xff
 
     mul-int/lit8 v3, v1, 0x2
 
-    .line 4
     sget-object v4, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->q:[C
 
     ushr-int/lit8 v5, v2, 0x4
@@ -543,7 +507,6 @@
 
     and-int/lit8 v2, v2, 0xf
 
-    .line 5
     aget-char v2, v4, v2
 
     aput-char v2, v0, v3
@@ -552,7 +515,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p0, Ljava/lang/String;
 
@@ -566,7 +528,6 @@
 
     const-string v0, "input_method"
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -575,7 +536,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object p1
@@ -591,7 +551,6 @@
 .method public static I(Landroid/content/Context;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object p0
@@ -616,7 +575,6 @@
 .method public static J(Landroid/content/Context;)Z
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->p:Ljava/lang/Boolean;
 
     if-nez v0, :cond_0
@@ -625,7 +583,6 @@
 
     const-string v1, "com.crashlytics.Trace"
 
-    .line 2
     invoke-static {p0, v1, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->s(Landroid/content/Context;Ljava/lang/String;Z)Z
 
     move-result p0
@@ -636,7 +593,6 @@
 
     sput-object p0, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->p:Ljava/lang/Boolean;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->p:Ljava/lang/Boolean;
 
@@ -650,7 +606,6 @@
 .method public static K()Z
     .locals 1
 
-    .line 1
     invoke-static {}, Landroid/os/Debug;->isDebuggerConnected()Z
 
     move-result v0
@@ -681,7 +636,6 @@
 .method public static L(Landroid/content/Context;)Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object p0
@@ -692,7 +646,6 @@
 
     move-result-object p0
 
-    .line 2
     sget-object v0, Landroid/os/Build;->PRODUCT:Ljava/lang/String;
 
     const-string v1, "sdk"
@@ -743,7 +696,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result p0
@@ -768,12 +720,10 @@
 .method public static O(Landroid/content/Context;)Z
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->L(Landroid/content/Context;)Z
 
     move-result p0
 
-    .line 2
     sget-object v0, Landroid/os/Build;->TAGS:Ljava/lang/String;
 
     const/4 v1, 0x1
@@ -784,7 +734,6 @@
 
     const-string v2, "test-keys"
 
-    .line 3
     invoke-virtual {v0, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -793,7 +742,6 @@
 
     return v1
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/io/File;
 
@@ -801,7 +749,6 @@
 
     invoke-direct {v0, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -810,7 +757,6 @@
 
     return v1
 
-    .line 6
     :cond_1
     new-instance v0, Ljava/io/File;
 
@@ -820,7 +766,6 @@
 
     if-nez p0, :cond_2
 
-    .line 7
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     move-result p0
@@ -838,14 +783,12 @@
 .method public static P(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->J(Landroid/content/Context;)Z
 
     move-result p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object p0
@@ -859,14 +802,12 @@
 .method public static Q(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->J(Landroid/content/Context;)Z
 
     move-result p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object p0
@@ -880,14 +821,12 @@
 .method public static R(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->J(Landroid/content/Context;)Z
 
     move-result p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object p0
@@ -953,7 +892,6 @@
 
     const-string v0, "input_method"
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -962,7 +900,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object p1
@@ -980,7 +917,6 @@
 
     if-ltz p0, :cond_0
 
-    .line 1
     sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     const/4 v1, 0x1
@@ -1011,7 +947,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -1029,14 +964,12 @@
 
     const-string v1, "string"
 
-    .line 1
     invoke-static {p0, v0, v1}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->z(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
@@ -1045,7 +978,6 @@
 
     move-result-object p0
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v0
@@ -1080,7 +1012,6 @@
 
     const-string v0, "SHA-1"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->D(Ljava/io/InputStream;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -1093,7 +1024,6 @@
 
     const-string v0, "SHA-1"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->E(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -1106,7 +1036,6 @@
 
     const-string v0, "SHA-256"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->E(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -1122,7 +1051,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/Scanner;
 
     invoke-direct {v0, p0}, Ljava/util/Scanner;-><init>(Ljava/io/InputStream;)V
@@ -1133,7 +1061,6 @@
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/util/Scanner;->hasNext()Z
 
     move-result v0
@@ -1156,14 +1083,12 @@
 .method public static a(Landroid/content/Context;)J
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/app/ActivityManager$MemoryInfo;
 
     invoke-direct {v0}, Landroid/app/ActivityManager$MemoryInfo;-><init>()V
 
     const-string v1, "activity"
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1172,7 +1097,6 @@
 
     invoke-virtual {p0, v0}, Landroid/app/ActivityManager;->getMemoryInfo(Landroid/app/ActivityManager$MemoryInfo;)V
 
-    .line 3
     iget-wide v0, v0, Landroid/app/ActivityManager$MemoryInfo;->availMem:J
 
     return-wide v0
@@ -1190,7 +1114,6 @@
     :cond_0
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -1206,19 +1129,16 @@
 .method public static b(Ljava/lang/String;)J
     .locals 7
 
-    .line 1
     new-instance v0, Landroid/os/StatFs;
 
     invoke-direct {v0, p0}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v0}, Landroid/os/StatFs;->getBlockSize()I
 
     move-result p0
 
     int-to-long v1, p0
 
-    .line 3
     invoke-virtual {v0}, Landroid/os/StatFs;->getBlockCount()I
 
     move-result p0
@@ -1227,7 +1147,6 @@
 
     mul-long v3, v3, v1
 
-    .line 4
     invoke-virtual {v0}, Landroid/os/StatFs;->getAvailableBlocks()I
 
     move-result p0
@@ -1251,7 +1170,6 @@
 
     const-string v0, "android.permission.ACCESS_NETWORK_STATE"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->d(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v0
@@ -1262,21 +1180,18 @@
 
     const-string v0, "connectivity"
 
-    .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/net/ConnectivityManager;
 
-    .line 3
     invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Landroid/net/NetworkInfo;->isConnectedOrConnecting()Z
 
     move-result p0
@@ -1296,7 +1211,6 @@
 .method public static d(Landroid/content/Context;Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/content/Context;->checkCallingOrSelfPermission(Ljava/lang/String;)I
 
     move-result p0
@@ -1319,7 +1233,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
     :try_end_0
@@ -1330,7 +1243,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v0
@@ -1347,7 +1259,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
     :try_end_0
@@ -1359,7 +1270,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     throw p0
 
     :catch_1
@@ -1371,7 +1281,6 @@
 .method static g(Ljava/lang/String;Ljava/lang/String;I)J
     .locals 2
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
@@ -1403,7 +1312,6 @@
         }
     .end annotation
 
-    .line 1
     :goto_0
     invoke-virtual {p0, p2}, Ljava/io/InputStream;->read([B)I
 
@@ -1415,7 +1323,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p1, p2, v1, v0}, Ljava/io/OutputStream;->write([BII)V
 
     goto :goto_0
@@ -1435,7 +1342,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance p0, Ljava/security/InvalidKeyException;
 
     const-string p1, "This method is deprecated"
@@ -1452,20 +1358,17 @@
 
     if-eqz p0, :cond_4
 
-    .line 1
     array-length v1, p0
 
     if-nez v1, :cond_0
 
     goto :goto_2
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     array-length v2, p0
 
     const/4 v3, 0x0
@@ -1481,7 +1384,6 @@
 
     const-string v6, ""
 
-    .line 4
     invoke-virtual {v4, v5, v6}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v4
@@ -1499,16 +1401,13 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {v1}, Ljava/util/Collections;->sort(Ljava/util/List;)V
 
-    .line 6
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 7
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1526,18 +1425,15 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 8
     invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
-    .line 9
     :cond_3
     invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 10
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -1556,12 +1452,10 @@
 .method public static k(Ljava/lang/String;)[B
     .locals 7
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
 
-    .line 2
     div-int/lit8 v1, v0, 0x2
 
     new-array v1, v1, [B
@@ -1571,10 +1465,8 @@
     :goto_0
     if-ge v2, v0, :cond_0
 
-    .line 3
     div-int/lit8 v3, v2, 0x2
 
-    .line 4
     invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
@@ -1589,7 +1481,6 @@
 
     add-int/lit8 v6, v2, 0x1
 
-    .line 5
     invoke-virtual {p0, v6}, Ljava/lang/String;->charAt(I)C
 
     move-result v6
@@ -1617,7 +1508,6 @@
 
     const-string v0, "Failed to close system file reader."
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result v1
@@ -1626,7 +1516,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     :try_start_0
     new-instance v1, Ljava/io/BufferedReader;
 
@@ -1641,7 +1530,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-virtual {v1}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -1652,19 +1540,16 @@
 
     const-string v4, "\\s*:\\s*"
 
-    .line 4
     invoke-static {v4}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v4
 
     const/4 v5, 0x2
 
-    .line 5
     invoke-virtual {v4, v3, v5}, Ljava/util/regex/Pattern;->split(Ljava/lang/CharSequence;I)[Ljava/lang/String;
 
     move-result-object v3
 
-    .line 6
     array-length v4, v3
 
     const/4 v5, 0x1
@@ -1681,7 +1566,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 7
     aget-object p0, v3, v5
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -1689,7 +1573,6 @@
 
     move-object v2, p0
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v1, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
@@ -1711,7 +1594,6 @@
 
     move-object v1, v2
 
-    .line 9
     :goto_1
     :try_start_2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
@@ -1743,7 +1625,6 @@
 
     move-object v2, v1
 
-    .line 10
     :goto_2
     invoke-static {v2, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
@@ -1764,7 +1645,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -1772,16 +1652,13 @@
 
     if-lt v0, v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->finishAffinity()V
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setResult(I)V
 
-    .line 4
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     :goto_0
@@ -1794,12 +1671,10 @@
         value = 0x10
     .end annotation
 
-    .line 1
     instance-of v0, p0, Landroid/app/Activity;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, Landroid/app/Activity;
 
     invoke-static {p0, p1}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->m(Landroid/app/Activity;I)V
@@ -1813,7 +1688,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Ljava/io/Flushable;->flush()V
     :try_end_0
@@ -1824,7 +1698,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v0
@@ -1843,7 +1716,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -1860,13 +1732,11 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     :try_start_1
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->W(Ljava/io/InputStream;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     invoke-static {v2}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->N(Ljava/lang/String;)Z
 
     move-result v3
@@ -1881,7 +1751,6 @@
     :cond_0
     move-object v1, v2
 
-    .line 4
     :goto_0
     invoke-static {p0, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
@@ -1908,7 +1777,6 @@
 
     move-object p0, v1
 
-    .line 5
     :goto_1
     :try_start_2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
@@ -1937,7 +1805,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 6
     invoke-static {p0, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->e(Ljava/io/Closeable;Ljava/lang/String;)V
 
     return-object v1
@@ -1954,7 +1821,6 @@
 .method public static q(Landroid/content/Context;)I
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
@@ -1973,21 +1839,18 @@
 
     const-string v0, "activity"
 
-    .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/app/ActivityManager;
 
-    .line 2
     invoke-virtual {p1}, Landroid/app/ActivityManager;->getRunningAppProcesses()Ljava/util/List;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2005,7 +1868,6 @@
 
     check-cast v0, Landroid/app/ActivityManager$RunningAppProcessInfo;
 
-    .line 4
     iget-object v1, v0, Landroid/app/ActivityManager$RunningAppProcessInfo;->processName:Ljava/lang/String;
 
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -2028,7 +1890,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -2037,14 +1898,12 @@
 
     const-string v1, "bool"
 
-    .line 2
     invoke-static {p0, p1, v1}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->z(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
     move-result p0
@@ -2054,14 +1913,12 @@
     :cond_0
     const-string v0, "string"
 
-    .line 4
     invoke-static {p0, p1, v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->z(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p1
 
     if-lez p1, :cond_1
 
-    .line 5
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -2079,7 +1936,6 @@
 .method public static t()I
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->getValue()Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     move-result-object v0
@@ -2094,7 +1950,6 @@
 .method public static u(Landroid/content/Context;)I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->L(Landroid/content/Context;)Z
 
     move-result v0
@@ -2108,7 +1963,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->O(Landroid/content/Context;)Z
 
@@ -2118,7 +1972,6 @@
 
     or-int/lit8 v0, v0, 0x2
 
-    .line 3
     :cond_1
     invoke-static {}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->K()Z
 
@@ -2139,7 +1992,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -2154,7 +2006,6 @@
 
     const-string v1, "string"
 
-    .line 1
     invoke-static {p0, v0, v1}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->z(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v0
@@ -2163,7 +2014,6 @@
 
     const-string v0, "com.crashlytics.android.build_id"
 
-    .line 2
     invoke-static {p0, v0, v1}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->z(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v0
@@ -2171,7 +2021,6 @@
     :cond_0
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
@@ -2192,7 +2041,6 @@
 .method public static x(Landroid/content/Context;)Z
     .locals 2
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->L(Landroid/content/Context;)Z
 
     move-result v0
@@ -2206,7 +2054,6 @@
     :cond_0
     const-string v0, "sensor"
 
-    .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2215,7 +2062,6 @@
 
     const/16 v0, 0x8
 
-    .line 3
     invoke-virtual {p0, v0}, Landroid/hardware/SensorManager;->getDefaultSensor(I)Landroid/hardware/Sensor;
 
     move-result-object p0
@@ -2231,7 +2077,6 @@
 .method public static y(Landroid/content/Context;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2244,7 +2089,6 @@
 
     if-lez v0, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -2258,7 +2102,6 @@
 
     goto :goto_0
 
-    .line 3
     :catch_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -2266,7 +2109,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -2279,12 +2121,10 @@
 .method public static z(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    .line 2
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->y(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0

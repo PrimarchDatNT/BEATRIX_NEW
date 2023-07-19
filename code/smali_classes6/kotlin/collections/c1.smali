@@ -50,7 +50,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     check-cast p0, Lcotlin/collections/o1/h;
 
     invoke-virtual {p0}, Lcotlin/collections/o1/h;->c()Ljava/util/Set;
@@ -91,7 +90,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/c1;->e(I)Ljava/util/Set;
 
     move-result-object p0
@@ -136,7 +134,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/collections/c1;->d()Ljava/util/Set;
 
     move-result-object v0
@@ -175,7 +172,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/o1/h;
 
     invoke-direct {v0}, Lcotlin/collections/o1/h;-><init>()V
@@ -208,7 +204,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/o1/h;
 
     invoke-direct {v0, p0}, Lcotlin/collections/o1/h;-><init>(I)V
@@ -231,7 +226,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Collections;->singleton(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p0
@@ -276,7 +270,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/TreeSet;
 
     invoke-direct {v0, p0}, Ljava/util/TreeSet;-><init>(Ljava/util/Comparator;)V
@@ -313,7 +306,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/TreeSet;
 
     invoke-direct {v0}, Ljava/util/TreeSet;-><init>()V

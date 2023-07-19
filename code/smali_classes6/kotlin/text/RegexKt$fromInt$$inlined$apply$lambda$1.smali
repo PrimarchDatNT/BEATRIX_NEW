@@ -72,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/text/RegexKt$fromInt$$inlined$apply$lambda$1;->$value$inlined:I
 
     check-cast p1, Lcotlin/text/g;

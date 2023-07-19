@@ -47,10 +47,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/stub/e$b$a;->b:Lio/grpc/stub/e$b;
 
-    .line 2
     invoke-direct {p0, p2}, Lio/grpc/x$a;-><init>(Lio/grpc/h;)V
 
     return-void
@@ -70,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/e$b$a;->b:Lio/grpc/stub/e$b;
 
     iget-object v0, v0, Lio/grpc/stub/e$b;->a:Ljava/util/concurrent/atomic/AtomicReference;
@@ -79,14 +76,12 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/stub/e$b$a;->b:Lio/grpc/stub/e$b;
 
     iget-object v0, v0, Lio/grpc/stub/e$b;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    .line 3
     new-instance v0, Lio/grpc/stub/e$b$a$a;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/stub/e$b$a$a;-><init>(Lio/grpc/stub/e$b$a;Lio/grpc/h$a;)V

@@ -68,7 +68,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     const/16 v1, 0x10
@@ -85,7 +84,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/camera/ardata/j;-><init>(Landroid/content/Context;Lcom/commsource/camera/ardata/k;)V
 
     return-void
@@ -102,25 +100,20 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/commsource/camera/ardata/j;->c:Ljava/lang/ref/WeakReference;
 
-    .line 4
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/commsource/camera/ardata/j;->c:Ljava/lang/ref/WeakReference;
 
-    .line 5
     iput-object p2, p0, Lcom/commsource/camera/ardata/j;->d:Lcom/commsource/camera/ardata/k;
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -129,7 +122,6 @@
 
     move-result-object p1
 
-    .line 7
     check-cast p1, Ljava/lang/reflect/ParameterizedType;
 
     invoke-interface {p1}, Ljava/lang/reflect/ParameterizedType;->getActualTypeArguments()[Ljava/lang/reflect/Type;
@@ -138,7 +130,6 @@
 
     const/4 p2, 0x0
 
-    .line 8
     aget-object p1, p1, p2
 
     check-cast p1, Ljava/lang/Class;
@@ -151,7 +142,6 @@
 .method static synthetic b(Lcom/commsource/camera/ardata/j;)Ljava/lang/ref/WeakReference;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/ardata/j;->c:Ljava/lang/ref/WeakReference;
 
     return-object p0
@@ -160,7 +150,6 @@
 .method static synthetic c(Lcom/commsource/camera/ardata/j;)Ljava/lang/Class;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/ardata/j;->b:Ljava/lang/Class;
 
     return-object p0
@@ -192,7 +181,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/k1;->e()Ljava/util/Map;
 
     move-result-object v0
@@ -250,12 +238,10 @@
 .method protected l(Lf/k/i/a/d;Ljava/lang/Exception;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/ardata/j;->d:Lcom/commsource/camera/ardata/k;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object p2
@@ -280,12 +266,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/ardata/j;->d:Lcom/commsource/camera/ardata/k;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {p1, p2}, Lcom/commsource/camera/ardata/k;->onResponse(Ljava/lang/Object;)V
 
     :cond_0
@@ -295,7 +279,6 @@
 .method public n()V
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/commsource/camera/ardata/j;->g:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {p0}, Lcom/commsource/camera/ardata/j;->h()Ljava/lang/String;
@@ -308,7 +291,6 @@
 
     check-cast v0, Ljava/lang/Boolean;
 
-    .line 2
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-virtual {v1, v0}, Ljava/lang/Boolean;->equals(Ljava/lang/Object;)Z
@@ -319,7 +301,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/commsource/camera/ardata/j;->g:Ljava/util/concurrent/ConcurrentHashMap;
 
@@ -329,7 +310,6 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/ardata/j$a;
 
     invoke-virtual {p0}, Lcom/commsource/camera/ardata/j;->h()Ljava/lang/String;

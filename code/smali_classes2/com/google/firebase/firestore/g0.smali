@@ -18,13 +18,10 @@
 .method constructor <init>(ZZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/firebase/firestore/g0;->a:Z
 
-    .line 3
     iput-boolean p2, p0, Lcom/google/firebase/firestore/g0;->b:Z
 
     return-void
@@ -37,7 +34,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/g0;->a:Z
 
     return v0
@@ -48,7 +44,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/g0;->b:Z
 
     return v0
@@ -67,7 +62,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/firebase/firestore/g0;
 
@@ -77,11 +71,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/firestore/g0;
 
-    .line 3
     iget-boolean v1, p0, Lcom/google/firebase/firestore/g0;->a:Z
 
     iget-boolean v3, p1, Lcom/google/firebase/firestore/g0;->a:Z
@@ -106,12 +98,10 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/g0;->a:Z
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-boolean v1, p0, Lcom/google/firebase/firestore/g0;->b:Z
 
     add-int/2addr v0, v1
@@ -122,7 +112,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

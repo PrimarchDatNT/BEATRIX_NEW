@@ -36,7 +36,6 @@
 .method constructor <init>(Lf/k/g0/a;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/g0/a$a;->b:Lf/k/g0/a;
 
     iput-object p2, p0, Lf/k/g0/a$a;->a:Landroid/content/Context;
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/g0/h/d;
 
     iget-object v2, p0, Lf/k/g0/a$a;->a:Landroid/content/Context;
@@ -74,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/g0/a$a;->a()Lf/k/g0/h/d;
 
     move-result-object v1

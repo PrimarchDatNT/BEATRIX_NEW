@@ -37,39 +37,32 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/text/c;->f:Landroid/widget/EditText;
 
-    .line 2
     new-instance v0, Landroid/text/TextPaint;
 
     invoke-direct {v0}, Landroid/text/TextPaint;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Landroid/widget/EditText;->getTypeface()Landroid/graphics/Typeface;
 
     move-result-object p1
 
     invoke-virtual {v0, p1}, Landroid/text/TextPaint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 4
     iput-object v0, p0, Lcom/commsource/studio/text/c;->a:Landroid/text/TextPaint;
 
     const/high16 p1, 0x41c00000    # 24.0f
 
-    .line 5
     iput p1, p0, Lcom/commsource/studio/text/c;->b:F
 
     const/high16 p1, 0x41000000    # 8.0f
 
-    .line 6
     iput p1, p0, Lcom/commsource/studio/text/c;->c:F
 
     const p1, 0x3e4ccccd    # 0.2f
 
-    .line 7
     iput p1, p0, Lcom/commsource/studio/text/c;->d:F
 
     return-void
@@ -82,14 +75,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/c;->f:Landroid/widget/EditText;
 
     invoke-virtual {v1}, Landroid/widget/EditText;->getWidth()I
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/text/c;->a:Landroid/text/TextPaint;
 
     invoke-static {}, Lcom/commsource/util/u1;->f()Landroid/util/DisplayMetrics;
@@ -104,7 +95,6 @@
 
     invoke-virtual {v2, v3}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/text/c;->a:Landroid/text/TextPaint;
 
     invoke-virtual {v2, p1}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
@@ -122,12 +112,10 @@
 
     if-lez v2, :cond_0
 
-    .line 4
     iget v2, p0, Lcom/commsource/studio/text/c;->d:F
 
     sub-float/2addr p2, v2
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/text/c;->a:Landroid/text/TextPaint;
 
     invoke-static {}, Lcom/commsource/util/u1;->f()Landroid/util/DisplayMetrics;
@@ -140,7 +128,6 @@
 
     invoke-virtual {v2, v3}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/text/c;->a:Landroid/text/TextPaint;
 
     invoke-virtual {v2, p1}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
@@ -149,7 +136,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -171,7 +157,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -182,7 +167,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -191,14 +175,12 @@
 
     move-result p1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/text/c;->f:Landroid/widget/EditText;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2, p1}, Landroid/widget/EditText;->setTextSize(IF)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -220,7 +202,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/c;->a:Landroid/text/TextPaint;
 
     iget v2, p0, Lcom/commsource/studio/text/c;->b:F
@@ -245,7 +226,6 @@
 
     const/4 v5, 0x0
 
-    .line 2
     invoke-static {p1, v1, v2, v3, v5}, Lcotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     move-result v3
@@ -254,7 +234,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 3
     filled-new-array {v1}, [Ljava/lang/String;
 
     move-result-object v7
@@ -273,7 +252,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -294,7 +272,6 @@
 
     check-cast v4, Ljava/lang/String;
 
-    .line 5
     iget-object v6, p0, Lcom/commsource/studio/text/c;->a:Landroid/text/TextPaint;
 
     invoke-virtual {v6, v4}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
@@ -319,7 +296,6 @@
     :cond_2
     move-object v3, p1
 
-    .line 6
     :goto_1
     iget-object v1, p0, Lcom/commsource/studio/text/c;->f:Landroid/widget/EditText;
 
@@ -346,7 +322,6 @@
     :cond_3
     if-eqz v4, :cond_4
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/text/c;->a:Landroid/text/TextPaint;
 
     invoke-virtual {v1, p1}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
@@ -367,11 +342,9 @@
 
     goto :goto_2
 
-    .line 8
     :cond_4
     iget p1, p0, Lcom/commsource/studio/text/c;->b:F
 
-    .line 9
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -389,7 +362,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -404,7 +376,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/c;->f:Landroid/widget/EditText;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -423,7 +394,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/http/api/HomeApi$dialogContent$1;
 
     invoke-direct {v1, p1}, Lcom/meitu/http/api/HomeApi$dialogContent$1;-><init>(Ljava/lang/String;)V
@@ -85,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/http/api/a;->d:Lcom/meitu/http/api/a$a;
 
     invoke-virtual {v1}, Lcom/meitu/http/api/a$a;->a()Z
@@ -101,7 +98,6 @@
     :cond_0
     const-string v1, "/v1/home_media"
 
-    .line 2
     :goto_0
     new-instance v2, Lcom/meitu/http/api/HomeApi$homeContent$1;
 

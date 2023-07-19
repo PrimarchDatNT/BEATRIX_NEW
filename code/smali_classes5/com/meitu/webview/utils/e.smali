@@ -17,7 +17,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/webview/utils/e;->a:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -28,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,23 +39,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/webview/utils/e;->a:Landroid/os/Handler;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/webview/utils/e;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/webview/utils/e;->a:Landroid/os/Handler;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -68,7 +62,6 @@
 
     sput-object v2, Lcom/meitu/webview/utils/e;->a:Landroid/os/Handler;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -85,7 +78,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/webview/utils/e;->a:Landroid/os/Handler;
@@ -102,14 +94,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/webview/utils/e;->a()Landroid/os/Handler;
 
     move-result-object v1
 
     invoke-virtual {v1, p0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -122,19 +112,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/webview/utils/e;->e()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/webview/utils/e;->a()Landroid/os/Handler;
 
@@ -142,7 +129,6 @@
 
     invoke-virtual {v1, p0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -156,14 +142,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/webview/utils/e;->a()Landroid/os/Handler;
 
     move-result-object v1
 
     invoke-virtual {v1, p0, p1, p2}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -176,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1

@@ -23,7 +23,6 @@
 
     invoke-static {}, Lcom/commsource/util/r2/p;->a()V
 
-    .line 1
     const-class v1, Lcom/commsource/util/r2/p;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -40,12 +39,10 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "android.os.SystemProperties"
 
-    .line 2
     invoke-direct {p0, v0}, Lcom/commsource/util/r2/p;->c(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -66,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/commsource/util/r2/p;
@@ -117,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
@@ -132,7 +127,6 @@
     :catch_0
     move-exception v1
 
-    .line 2
     sget-object v2, Lcom/commsource/util/r2/p;->a:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/ClassNotFoundException;->getMessage()Ljava/lang/String;
@@ -141,7 +135,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :try_start_1
     invoke-static {}, Ljava/lang/ClassLoader;->getSystemClassLoader()Ljava/lang/ClassLoader;
 
@@ -160,7 +153,6 @@
     :catch_1
     move-exception p1
 
-    .line 4
     sget-object v1, Lcom/commsource/util/r2/p;->a:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/ClassNotFoundException;->getMessage()Ljava/lang/String;
@@ -171,7 +163,6 @@
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -184,30 +175,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/r2/p;->c:Lcom/commsource/util/r2/p;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/util/r2/p;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/util/r2/p;->c:Lcom/commsource/util/r2/p;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/util/r2/p;
 
     invoke-direct {v2}, Lcom/commsource/util/r2/p;-><init>()V
 
     sput-object v2, Lcom/commsource/util/r2/p;->c:Lcom/commsource/util/r2/p;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -224,7 +210,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/util/r2/p;->c:Lcom/commsource/util/r2/p;
@@ -254,7 +239,6 @@
 
     const/4 v4, 0x0
 
-    .line 1
     const-class v5, Ljava/lang/String;
 
     aput-object v5, v3, v4
@@ -270,7 +254,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     sget-object v2, Lcom/commsource/util/r2/p;->a:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
@@ -279,7 +262,6 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -294,7 +276,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -317,12 +298,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_0
     sget-object v2, Lcom/commsource/util/r2/p;->b:Ljava/lang/reflect/Method;
@@ -388,7 +367,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 3
     invoke-virtual {v3}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p1
@@ -399,13 +377,11 @@
 
     return-object p1
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 5
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

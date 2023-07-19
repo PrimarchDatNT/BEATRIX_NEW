@@ -16,7 +16,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,17 +42,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
 
-    .line 3
     invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -72,7 +68,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -85,7 +80,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     new-instance v2, Lcom/meitu/library/i/k;
 
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
@@ -98,12 +92,10 @@
 
     invoke-direct {v2, v3, v4, v1, p2}, Lcom/meitu/library/i/k;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Z)V
 
-    .line 6
     invoke-interface {v0, v2}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -117,7 +109,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 8
     new-instance v3, Lcom/meitu/library/i/k;
 
     iget-object v4, v2, Landroid/util/Pair;->first:Ljava/lang/Object;
@@ -134,7 +125,6 @@
 
     invoke-direct {v3, v4, v2, v1, p2}, Lcom/meitu/library/i/k;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Z)V
 
-    .line 9
     invoke-interface {v0, v3}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     goto :goto_0

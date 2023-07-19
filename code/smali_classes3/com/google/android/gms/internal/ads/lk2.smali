@@ -11,7 +11,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/gk2;Ljava/io/InputStream;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/lk2;->a:Lcom/google/android/gms/internal/ads/gk2;
 
     const/4 p1, 0x1
@@ -33,7 +32,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lk2;->a:Lcom/google/android/gms/internal/ads/gk2;
 
@@ -41,12 +39,10 @@
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/ek2;->b(Lcom/google/android/gms/internal/ads/ek2;)V
 
-    .line 2
     invoke-super {p0}, Ljava/io/PushbackInputStream;->close()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void

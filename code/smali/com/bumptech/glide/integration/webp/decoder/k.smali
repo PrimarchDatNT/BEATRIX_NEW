@@ -73,12 +73,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     new-instance v8, Lcom/bumptech/glide/integration/webp/decoder/o;
 
-    .line 2
     invoke-static {p1}, Lcom/bumptech/glide/c;->d(Landroid/content/Context;)Lcom/bumptech/glide/c;
 
     move-result-object v2
@@ -103,7 +101,6 @@
 
     move-object v1, p0
 
-    .line 3
     invoke-direct {p0, v0}, Lcom/bumptech/glide/integration/webp/decoder/k;-><init>(Lcom/bumptech/glide/integration/webp/decoder/k$a;)V
 
     return-void
@@ -112,26 +109,20 @@
 .method constructor <init>(Lcom/bumptech/glide/integration/webp/decoder/k$a;)V
     .locals 2
 
-    .line 4
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->f:Z
 
     const/4 v1, -0x1
 
-    .line 6
     iput v1, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->p:I
 
-    .line 7
     iput-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->f:Z
 
-    .line 8
     iput v1, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->p:I
 
-    .line 9
     invoke-static {p1}, Lcom/bumptech/glide/s/k;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -148,14 +139,12 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 10
     new-instance v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     invoke-direct {v0, p2, p1}, Lcom/bumptech/glide/integration/webp/decoder/k$a;-><init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/e;Lcom/bumptech/glide/integration/webp/decoder/o;)V
 
     invoke-direct {p0, v0}, Lcom/bumptech/glide/integration/webp/decoder/k;-><init>(Lcom/bumptech/glide/integration/webp/decoder/k$a;)V
 
-    .line 11
     iput-object p3, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->K:Landroid/graphics/Paint;
 
     return-void
@@ -164,18 +153,15 @@
 .method private b()Landroid/graphics/drawable/Drawable$Callback;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getCallback()Landroid/graphics/drawable/Drawable$Callback;
 
     move-result-object v0
 
-    .line 2
     :goto_0
     instance-of v1, v0, Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast v0, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getCallback()Landroid/graphics/drawable/Drawable$Callback;
@@ -191,19 +177,16 @@
 .method private d()Landroid/graphics/Rect;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->L:Landroid/graphics/Rect;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->L:Landroid/graphics/Rect;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->L:Landroid/graphics/Rect;
 
@@ -213,12 +196,10 @@
 .method private k()Landroid/graphics/Paint;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->K:Landroid/graphics/Paint;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroid/graphics/Paint;
 
     const/4 v1, 0x2
@@ -227,7 +208,6 @@
 
     iput-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->K:Landroid/graphics/Paint;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->K:Landroid/graphics/Paint;
 
@@ -237,14 +217,12 @@
 .method private n()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->M:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -252,7 +230,6 @@
     :goto_0
     if-ge v1, v0, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->M:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -276,7 +253,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->g:I
 
     return-void
@@ -285,7 +261,6 @@
 .method private u()V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->d:Z
 
     const/4 v1, 0x1
@@ -296,7 +271,6 @@
 
     invoke-static {v0, v2}, Lcom/bumptech/glide/s/k;->a(ZLjava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -307,28 +281,23 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->b:Z
 
     if-nez v0, :cond_1
 
-    .line 5
     iput-boolean v1, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->b:Z
 
-    .line 6
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
 
     invoke-virtual {v0, p0}, Lcom/bumptech/glide/integration/webp/decoder/o;->w(Lcom/bumptech/glide/integration/webp/decoder/o$b;)V
 
-    .line 7
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     :cond_1
@@ -341,10 +310,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->b:Z
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -359,26 +326,21 @@
 .method public a()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->b()Landroid/graphics/drawable/Drawable$Callback;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->stop()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
-    .line 5
     invoke-virtual {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->g()I
 
     move-result v0
@@ -391,14 +353,12 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 6
     iget v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->g:I
 
     add-int/lit8 v0, v0, 0x1
 
     iput v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->g:I
 
-    .line 7
     :cond_1
     iget v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->p:I
 
@@ -410,10 +370,8 @@
 
     if-lt v1, v0, :cond_2
 
-    .line 8
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->n()V
 
-    .line 9
     invoke-virtual {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->stop()V
 
     :cond_2
@@ -423,7 +381,6 @@
 .method public c()Ljava/nio/ByteBuffer;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -438,12 +395,10 @@
 .method public clearAnimationCallbacks()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->M:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
     :cond_0
@@ -453,7 +408,6 @@
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->m()Z
 
     move-result v0
@@ -462,7 +416,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->J:Z
 
@@ -470,7 +423,6 @@
 
     const/16 v0, 0x77
 
-    .line 3
     invoke-virtual {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->getIntrinsicWidth()I
 
     move-result v1
@@ -491,10 +443,8 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->J:Z
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
@@ -506,7 +456,6 @@
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->d()Landroid/graphics/Rect;
 
     move-result-object v2
@@ -523,7 +472,6 @@
 .method public e()Landroid/graphics/Bitmap;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -538,7 +486,6 @@
 .method public f()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -553,7 +500,6 @@
 .method public g()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -568,7 +514,6 @@
 .method public getConstantState()Landroid/graphics/drawable/Drawable$ConstantState;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     return-object v0
@@ -577,7 +522,6 @@
 .method public getIntrinsicHeight()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -592,7 +536,6 @@
 .method public getIntrinsicWidth()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -623,7 +566,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -638,7 +580,6 @@
 .method public i()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -653,7 +594,6 @@
 .method public isRunning()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->b:Z
 
     return v0
@@ -662,7 +602,6 @@
 .method public j()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->p:I
 
     return v0
@@ -671,7 +610,6 @@
 .method public l()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -686,7 +624,6 @@
 .method m()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->d:Z
 
     return v0
@@ -697,10 +634,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->d:Z
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -713,12 +648,10 @@
 .method protected onBoundsChange(Landroid/graphics/Rect;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;->onBoundsChange(Landroid/graphics/Rect;)V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->J:Z
 
     return-void
@@ -737,7 +670,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -764,20 +696,17 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->M:Ljava/util/List;
 
     if-nez v0, :cond_1
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->M:Ljava/util/List;
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->M:Ljava/util/List;
 
@@ -799,7 +728,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -813,7 +741,6 @@
     :goto_0
     if-nez p1, :cond_3
 
-    .line 2
     iget-object p1, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object p1, p1, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
@@ -829,13 +756,11 @@
     :cond_2
     move v0, p1
 
-    .line 3
     :goto_1
     iput v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->p:I
 
     goto :goto_2
 
-    .line 4
     :cond_3
     iput p1, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->p:I
 
@@ -846,7 +771,6 @@
 .method public setAlpha(I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->k()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -859,7 +783,6 @@
 .method public setColorFilter(Landroid/graphics/ColorFilter;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->k()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -872,7 +795,6 @@
 .method public setVisible(ZZ)Z
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->d:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -881,26 +803,21 @@
 
     invoke-static {v0, v1}, Lcom/bumptech/glide/s/k;->a(ZLjava/lang/String;)V
 
-    .line 2
     iput-boolean p1, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->f:Z
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->v()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->c:Z
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->u()V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-super {p0, p1, p2}, Landroid/graphics/drawable/Drawable;->setVisible(ZZ)Z
@@ -915,18 +832,14 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->c:Z
 
-    .line 2
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->p()V
 
-    .line 3
     iget-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->f:Z
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->u()V
 
     :cond_0
@@ -938,10 +851,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->c:Z
 
-    .line 2
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->v()V
 
     return-void
@@ -950,7 +861,6 @@
 .method public t()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->b:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -959,14 +869,12 @@
 
     invoke-static {v0, v1}, Lcom/bumptech/glide/s/k;->a(ZLjava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->a:Lcom/bumptech/glide/integration/webp/decoder/k$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/integration/webp/decoder/k$a;->b:Lcom/bumptech/glide/integration/webp/decoder/o;
 
     invoke-virtual {v0}, Lcom/bumptech/glide/integration/webp/decoder/o;->s()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/bumptech/glide/integration/webp/decoder/k;->start()V
 
     return-void
@@ -979,7 +887,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/k;->M:Ljava/util/List;
 
     if-eqz v0, :cond_1
@@ -988,7 +895,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 

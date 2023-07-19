@@ -11,7 +11,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/common/util/e;->c(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
 
     move-result-object p0
@@ -31,14 +29,12 @@
 
     if-eqz p0, :cond_2
 
-    .line 2
     iget-object p0, p0, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
 
     if-nez p0, :cond_0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
 
@@ -49,7 +45,6 @@
     :cond_1
     const-string v0, "com.google.android.gms.version"
 
-    .line 4
     invoke-virtual {p0, v0, p1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
     move-result p0
@@ -76,7 +71,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/google/android/gms/common/p/c;->a(Landroid/content/Context;)Lcom/google/android/gms/common/p/b;
 
@@ -84,7 +78,6 @@
 
     const/16 v0, 0x80
 
-    .line 2
     invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/common/p/b;->e(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     move-result-object p0
@@ -104,12 +97,10 @@
 
     const-string v0, "com.google.android.gms"
 
-    .line 1
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     const/4 v0, 0x0
 
-    .line 2
     :try_start_0
     invoke-static {p0}, Lcom/google/android/gms/common/p/c;->a(Landroid/content/Context;)Lcom/google/android/gms/common/p/b;
 
@@ -119,7 +110,6 @@
 
     move-result-object p0
 
-    .line 3
     iget p0, p0, Landroid/content/pm/ApplicationInfo;->flags:I
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0

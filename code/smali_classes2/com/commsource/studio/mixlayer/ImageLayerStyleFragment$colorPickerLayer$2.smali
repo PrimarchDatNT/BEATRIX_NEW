@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$colorPickerLayer$2;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
@@ -85,14 +84,12 @@
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/studio/doodle/ColorPickerLayer;-><init>(Landroid/content/Context;Landroid/graphics/Bitmap;)V
 
-    .line 3
     new-instance v2, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$colorPickerLayer$2$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$colorPickerLayer$2$a;-><init>(Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$colorPickerLayer$2;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/ColorPickerLayer;->L0(Lcom/commsource/studio/doodle/ColorPickerLayer$a;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -105,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$colorPickerLayer$2;->invoke()Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     move-result-object v1

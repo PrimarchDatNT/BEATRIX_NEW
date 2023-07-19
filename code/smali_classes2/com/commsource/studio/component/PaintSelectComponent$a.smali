@@ -28,7 +28,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent$a;->a:Lcom/commsource/studio/component/PaintSelectComponent;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/component/PaintSelectComponent$a;->a:Lcom/commsource/studio/component/PaintSelectComponent;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/PaintSelectComponent;->getPaintSelectViewModel()Lcom/commsource/studio/component/PaintSelectComponent$b;
@@ -58,7 +56,6 @@
 
     invoke-virtual {p2, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -71,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -88,7 +84,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/component/PaintSelectComponent$a;->a:Lcom/commsource/studio/component/PaintSelectComponent;
 
     invoke-virtual {p3}, Lcom/commsource/studio/component/PaintSelectComponent;->getCurrentUsePenMode()Lcom/commsource/studio/component/PaintSelectComponent$c;
@@ -97,7 +92,6 @@
 
     invoke-virtual {p3, p1}, Lcom/commsource/studio/component/PaintSelectComponent$c;->l(I)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent$a;->a:Lcom/commsource/studio/component/PaintSelectComponent;
 
     invoke-virtual {p1}, Lcom/commsource/studio/component/PaintSelectComponent;->getPaintSelectViewModel()Lcom/commsource/studio/component/PaintSelectComponent$b;
@@ -116,7 +110,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/component/PaintSelectComponent$b;->B(F)V
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -130,7 +123,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/component/PaintSelectComponent$a;->a:Lcom/commsource/studio/component/PaintSelectComponent;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/PaintSelectComponent;->getPaintSelectViewModel()Lcom/commsource/studio/component/PaintSelectComponent$b;
@@ -145,7 +137,6 @@
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

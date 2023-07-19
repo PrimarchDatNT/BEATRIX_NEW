@@ -16,13 +16,10 @@
 .method public constructor <init>(Lcom/google/firebase/crashlytics/e/j/c/c;Lcom/google/firebase/crashlytics/e/j/c/d;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/e/j/c/a;->a:Lcom/google/firebase/crashlytics/e/j/c/c;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/crashlytics/e/j/c/a;->b:Lcom/google/firebase/crashlytics/e/j/c/d;
 
     return-void
@@ -33,7 +30,6 @@
 .method public a(Lcom/google/firebase/crashlytics/internal/report/model/a;Z)Z
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/firebase/crashlytics/e/j/c/a$a;->a:[I
 
     iget-object v1, p1, Lcom/google/firebase/crashlytics/internal/report/model/a;->c:Lcom/google/firebase/crashlytics/internal/report/model/Report;
@@ -60,7 +56,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/j/c/a;->b:Lcom/google/firebase/crashlytics/e/j/c/d;
 
@@ -68,7 +63,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/j/c/a;->a:Lcom/google/firebase/crashlytics/e/j/c/c;
 

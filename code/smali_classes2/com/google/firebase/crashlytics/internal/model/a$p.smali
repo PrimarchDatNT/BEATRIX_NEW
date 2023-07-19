@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/model/a$p;
 
     invoke-direct {v0}, Lcom/google/firebase/crashlytics/internal/model/a$p;-><init>()V
@@ -47,7 +46,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$c;
 
     check-cast p2, Lcom/google/firebase/encoders/e;
@@ -81,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$c;->b()Ljava/lang/Double;
 
     move-result-object v0
@@ -90,7 +86,6 @@
 
     invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/e;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/firebase/encoders/e;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$c;->c()I
 
     move-result v0
@@ -99,7 +94,6 @@
 
     invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/e;->d(Ljava/lang/String;I)Lcom/google/firebase/encoders/e;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$c;->g()Z
 
     move-result v0
@@ -108,7 +102,6 @@
 
     invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/e;->a(Ljava/lang/String;Z)Lcom/google/firebase/encoders/e;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$c;->e()I
 
     move-result v0
@@ -117,7 +110,6 @@
 
     invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/e;->d(Ljava/lang/String;I)Lcom/google/firebase/encoders/e;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$c;->f()J
 
     move-result-wide v0
@@ -126,7 +118,6 @@
 
     invoke-interface {p2, v2, v0, v1}, Lcom/google/firebase/encoders/e;->c(Ljava/lang/String;J)Lcom/google/firebase/encoders/e;
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$c;->d()J
 
     move-result-wide v0

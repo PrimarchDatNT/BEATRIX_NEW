@@ -30,12 +30,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$a;->b:Lcom/commsource/mypage/album/PuzzleComponent;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/mypage/album/PuzzleComponent$b;
 
     invoke-direct {v0, p1}, Lcom/commsource/mypage/album/PuzzleComponent$b;-><init>(Lcom/commsource/mypage/album/PuzzleComponent;)V
@@ -68,7 +66,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$a;->b:Lcom/commsource/mypage/album/PuzzleComponent;
 
@@ -90,12 +87,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$a;->a:Lcom/commsource/mypage/album/PuzzleComponent$b;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/PuzzleComponent$b;->a()V
 
-    .line 3
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

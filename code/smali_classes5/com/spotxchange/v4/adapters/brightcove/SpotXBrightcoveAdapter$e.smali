@@ -25,7 +25,6 @@
 .method private constructor <init>(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;->a:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;-><init>(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)V
 
     return-void
@@ -47,7 +45,6 @@
 .method public a(Lcom/brightcove/player/event/Event;)V
     .locals 3
 
-    .line 1
     iget-object v0, p1, Lcom/brightcove/player/event/Event;->properties:Ljava/util/Map;
 
     const-string v1, "cue_points"
@@ -58,7 +55,6 @@
 
     check-cast v0, Ljava/util/ArrayList;
 
-    .line 2
     new-instance v1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;

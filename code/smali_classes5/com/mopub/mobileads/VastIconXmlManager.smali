@@ -41,16 +41,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/mobileads/VastIconXmlManager;->mIconNode:Lorg/w3c/dom/Node;
 
-    .line 4
     new-instance v0, Lcom/mopub/mobileads/VastResourceXmlManager;
 
     invoke-direct {v0, p1}, Lcom/mopub/mobileads/VastResourceXmlManager;-><init>(Lorg/w3c/dom/Node;)V
@@ -67,7 +63,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastIconXmlManager;->mIconNode:Lorg/w3c/dom/Node;
 
     const-string v1, "IconClicks"
@@ -85,12 +80,10 @@
     :cond_0
     const-string v1, "IconClickThrough"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/mopub/mobileads/util/XmlUtils;->getFirstMatchingChildNode(Lorg/w3c/dom/Node;Ljava/lang/String;)Lorg/w3c/dom/Node;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Lcom/mopub/mobileads/util/XmlUtils;->getNodeValue(Lorg/w3c/dom/Node;)Ljava/lang/String;
 
     move-result-object v0
@@ -112,7 +105,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastIconXmlManager;->mIconNode:Lorg/w3c/dom/Node;
 
     const-string v1, "IconClicks"
@@ -121,7 +113,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -133,12 +124,10 @@
     :cond_0
     const-string v2, "IconClickTracking"
 
-    .line 3
     invoke-static {v0, v2}, Lcom/mopub/mobileads/util/XmlUtils;->getMatchingChildNodes(Lorg/w3c/dom/Node;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -157,14 +146,12 @@
 
     check-cast v2, Lorg/w3c/dom/Node;
 
-    .line 5
     invoke-static {v2}, Lcom/mopub/mobileads/util/XmlUtils;->getNodeValue(Lorg/w3c/dom/Node;)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_1
 
-    .line 6
     new-instance v3, Lcom/mopub/mobileads/VastTracker$Builder;
 
     invoke-direct {v3, v2}, Lcom/mopub/mobileads/VastTracker$Builder;-><init>(Ljava/lang/String;)V
@@ -186,7 +173,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastIconXmlManager;->mIconNode:Lorg/w3c/dom/Node;
 
     const-string v1, "duration"
@@ -195,7 +181,6 @@
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/mopub/mobileads/VastAbsoluteProgressTracker;->Companion:Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Companion;
 
@@ -207,7 +192,6 @@
 
     goto :goto_0
 
-    .line 3
     :catch_0
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -242,7 +226,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastIconXmlManager;->mIconNode:Lorg/w3c/dom/Node;
 
     const-string v1, "height"
@@ -259,7 +242,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastIconXmlManager;->mIconNode:Lorg/w3c/dom/Node;
 
     const-string v1, "offset"
@@ -268,7 +250,6 @@
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/mopub/mobileads/VastAbsoluteProgressTracker;->Companion:Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Companion;
 
@@ -280,7 +261,6 @@
 
     goto :goto_0
 
-    .line 3
     :catch_0
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -315,7 +295,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastIconXmlManager;->mResourceXmlManager:Lcom/mopub/mobileads/VastResourceXmlManager;
 
     return-object v0
@@ -335,22 +314,18 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastIconXmlManager;->mIconNode:Lorg/w3c/dom/Node;
 
     const-string v1, "IconViewTracking"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/mopub/mobileads/util/XmlUtils;->getMatchingChildNodes(Lorg/w3c/dom/Node;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -369,14 +344,12 @@
 
     check-cast v2, Lorg/w3c/dom/Node;
 
-    .line 5
     invoke-static {v2}, Lcom/mopub/mobileads/util/XmlUtils;->getNodeValue(Lorg/w3c/dom/Node;)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 6
     new-instance v3, Lcom/mopub/mobileads/VastTracker$Builder;
 
     invoke-direct {v3, v2}, Lcom/mopub/mobileads/VastTracker$Builder;-><init>(Ljava/lang/String;)V
@@ -398,7 +371,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastIconXmlManager;->mIconNode:Lorg/w3c/dom/Node;
 
     const-string v1, "width"

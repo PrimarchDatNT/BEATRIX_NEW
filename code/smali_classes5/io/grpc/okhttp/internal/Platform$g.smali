@@ -41,7 +41,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lio/grpc/okhttp/internal/Platform$g;->c()V
 
     return-void
@@ -58,10 +57,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/okhttp/internal/Platform$g;->a:Ljava/util/List;
 
     return-void
@@ -70,7 +67,6 @@
 .method static synthetic a(Lio/grpc/okhttp/internal/Platform$g;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lio/grpc/okhttp/internal/Platform$g;->b:Z
 
     return p0
@@ -79,7 +75,6 @@
 .method static synthetic b(Lio/grpc/okhttp/internal/Platform$g;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/internal/Platform$g;->c:Ljava/lang/String;
 
     return-object p0
@@ -88,7 +83,6 @@
 .method private static synthetic c()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lio/grpc/okhttp/internal/Platform$g;
@@ -133,7 +127,6 @@
 .method static final synthetic d(Lio/grpc/okhttp/internal/Platform$g;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -151,25 +144,21 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
 
     move-result-object v0
 
     if-nez p3, :cond_0
 
-    .line 3
     sget-object p3, Lio/grpc/okhttp/internal/p;->b:[Ljava/lang/String;
 
     :cond_0
     const-string v1, "supports"
 
-    .line 4
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -180,7 +169,6 @@
 
     if-ne v1, v0, :cond_1
 
-    .line 5
     sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     return-object p1
@@ -188,7 +176,6 @@
     :cond_1
     const-string v1, "unsupported"
 
-    .line 6
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -203,7 +190,6 @@
 
     if-ne v1, v0, :cond_2
 
-    .line 7
     iput-boolean v3, p0, Lio/grpc/okhttp/internal/Platform$g;->b:Z
 
     return-object v2
@@ -211,7 +197,6 @@
     :cond_2
     const-string v1, "protocols"
 
-    .line 8
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -222,7 +207,6 @@
 
     if-nez v1, :cond_3
 
-    .line 9
     iget-object p1, p0, Lio/grpc/okhttp/internal/Platform$g;->a:Ljava/util/List;
 
     return-object p1
@@ -230,7 +214,6 @@
     :cond_3
     const-string v1, "selectProtocol"
 
-    .line 10
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -262,12 +245,10 @@
 
     if-eqz v0, :cond_7
 
-    .line 11
     aget-object p1, p3, v4
 
     check-cast p1, Ljava/util/List;
 
-    .line 12
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -277,7 +258,6 @@
     :goto_0
     if-ge p3, p2, :cond_6
 
-    .line 13
     iget-object v0, p0, Lio/grpc/okhttp/internal/Platform$g;->a:Ljava/util/List;
 
     invoke-interface {p1, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -290,7 +270,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 14
     invoke-interface {p1, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -306,7 +285,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_6
     iget-object p1, p0, Lio/grpc/okhttp/internal/Platform$g;->a:Ljava/util/List;
 
@@ -323,7 +301,6 @@
     :cond_7
     const-string v0, "protocolSelected"
 
-    .line 16
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -343,7 +320,6 @@
 
     if-ne p1, v3, :cond_9
 
-    .line 17
     aget-object p1, p3, v4
 
     check-cast p1, Ljava/lang/String;
@@ -352,7 +328,6 @@
 
     return-object v2
 
-    .line 18
     :cond_9
     sget-object p1, Lio/grpc/okhttp/internal/Platform$g;->d:Lorg/aspectj/lang/c$b;
 

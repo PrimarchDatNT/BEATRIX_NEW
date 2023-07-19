@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/a;->c()I
 
     move-result p1
@@ -95,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyfilter/a;
 
     check-cast p2, Lcom/commsource/beautyfilter/a;

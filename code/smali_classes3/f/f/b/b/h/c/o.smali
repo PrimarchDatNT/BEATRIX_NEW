@@ -31,10 +31,8 @@
 .method constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     const/16 v1, 0x10
@@ -47,7 +45,6 @@
 
     iput-object v0, p0, Lf/f/b/b/h/c/o;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
-    .line 3
     new-instance v0, Ljava/lang/ref/ReferenceQueue;
 
     invoke-direct {v0}, Ljava/lang/ref/ReferenceQueue;-><init>()V
@@ -72,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p2, p0, Lf/f/b/b/h/c/o;->b:Ljava/lang/ref/ReferenceQueue;
 
     invoke-virtual {p2}, Ljava/lang/ref/ReferenceQueue;->poll()Ljava/lang/ref/Reference;
@@ -82,12 +78,10 @@
     :goto_0
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/f/b/b/h/c/o;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v0, p2}, Ljava/util/concurrent/ConcurrentHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object p2, p0, Lf/f/b/b/h/c/o;->b:Ljava/lang/ref/ReferenceQueue;
 
     invoke-virtual {p2}, Ljava/lang/ref/ReferenceQueue;->poll()Ljava/lang/ref/Reference;
@@ -96,7 +90,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p2, Lf/f/b/b/h/c/r;
 
@@ -104,7 +97,6 @@
 
     invoke-direct {p2, p1, v0}, Lf/f/b/b/h/c/r;-><init>(Ljava/lang/Throwable;Ljava/lang/ref/ReferenceQueue;)V
 
-    .line 5
     iget-object v0, p0, Lf/f/b/b/h/c/o;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v0, p2}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -117,7 +109,6 @@
 
     return-object p2
 
-    .line 6
     :cond_1
     new-instance p2, Ljava/util/Vector;
 
@@ -125,7 +116,6 @@
 
     invoke-direct {p2, v0}, Ljava/util/Vector;-><init>(I)V
 
-    .line 7
     iget-object v0, p0, Lf/f/b/b/h/c/o;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     new-instance v1, Lf/f/b/b/h/c/r;

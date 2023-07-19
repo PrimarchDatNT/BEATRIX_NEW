@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$b;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -85,7 +84,6 @@
 
     if-lez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$b;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/RelightFragment;->K1()Lcom/commsource/studio/effect/c;
@@ -96,7 +94,6 @@
 
     invoke-static {v1, v5, v2, v3, v4}, Lcom/commsource/studio/effect/c;->I(Lcom/commsource/studio/effect/c;IIILjava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$b;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->B1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/beautyplus/f0/wb;
@@ -119,7 +116,6 @@
 
     invoke-virtual {v1, v3, v5}, Lcom/commsource/widget/XSeekBar;->t(IZ)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$b;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->z1(Lcom/commsource/studio/function/RelightFragment;)Landroid/app/Activity;
@@ -132,7 +128,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$b;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->z1(Lcom/commsource/studio/function/RelightFragment;)Landroid/app/Activity;
@@ -141,14 +136,12 @@
 
     invoke-static {v1, v2}, Lf/d/i/h;->C1(Landroid/content/Context;Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$b;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->I1(Lcom/commsource/studio/function/RelightFragment;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$b;->a:Lcom/commsource/studio/function/RelightFragment;
 
@@ -163,10 +156,8 @@
     :cond_1
     sget v1, Lcom/res/provider/ResSTRING;->beauty_face_unavailable_tip:I
 
-    .line 8
     invoke-static {v1}, Lf/k/c/c/f;->h(I)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$b;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->B1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/beautyplus/f0/wb;
@@ -177,7 +168,6 @@
 
     invoke-static {v1, v2, v2, v3, v4}, Lcom/commsource/widget/XSeekBar;->w(Lcom/commsource/widget/XSeekBar;ZZILjava/lang/Object;)V
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

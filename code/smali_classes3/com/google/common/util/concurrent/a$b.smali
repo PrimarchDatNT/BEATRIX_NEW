@@ -43,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/common/util/concurrent/a;-><init>(Lcom/google/common/util/concurrent/g0;Ljava/lang/Class;Ljava/lang/Object;)V
 
     return-void
@@ -62,7 +61,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/common/base/n;
 
     invoke-virtual {p0, p1, p2}, Lcom/google/common/util/concurrent/a$b;->S(Lcom/google/common/base/n;Ljava/lang/Throwable;)Ljava/lang/Object;
@@ -84,7 +82,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/util/concurrent/AbstractFuture;->C(Ljava/lang/Object;)Z
 
     return-void
@@ -109,7 +106,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-interface {p1, p2}, Lcom/google/common/base/n;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

@@ -66,7 +66,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/g2;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/g2;-><init>()V
@@ -79,7 +78,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     return-void
@@ -105,16 +103,12 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/zzfd;->a:Ljava/lang/String;
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/internal/firebase_auth/zzfd;->b:Ljava/lang/String;
 
-    .line 5
     iput-object p3, p0, Lcom/google/android/gms/internal/firebase_auth/zzfd;->c:Ljava/lang/String;
 
     return-void
@@ -125,15 +119,12 @@
 .method public final synthetic j(Lcom/google/android/gms/internal/firebase_auth/s5;)Lcom/google/firebase/auth/p/a/y2;
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/android/gms/internal/firebase_auth/w7$j;
 
     if-eqz v0, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/w7$j;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/w7$j;->u()Ljava/lang/String;
 
     move-result-object v0
@@ -144,7 +135,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfd;->a:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/w7$j;->v()Ljava/lang/String;
 
     move-result-object v0
@@ -155,12 +145,10 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfd;->b:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/w7$j;->w()Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     move-result-object p1
 
-    .line 6
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/f2;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -189,13 +177,11 @@
     :cond_1
     const-string p1, "VERIFY_EMAIL"
 
-    .line 7
     :goto_0
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/zzfd;->c:Ljava/lang/String;
 
     return-object p0
 
-    .line 8
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -217,7 +203,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/w7$j;->y()Lcom/google/android/gms/internal/firebase_auth/c6;
 
     move-result-object v0
@@ -228,7 +213,6 @@
 .method public final r()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfd;->a:Ljava/lang/String;
 
     return-object v0
@@ -237,38 +221,30 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfd;->a:Ljava/lang/String;
 
     const/4 v1, 0x2
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfd;->b:Ljava/lang/String;
 
     const/4 v1, 0x3
 
-    .line 5
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfd;->c:Ljava/lang/String;
 
     const/4 v1, 0x4
 
-    .line 7
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 8
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void
@@ -277,7 +253,6 @@
 .method public final y()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfd;->b:Ljava/lang/String;
 
     return-object v0
@@ -286,7 +261,6 @@
 .method public final z()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfd;->c:Ljava/lang/String;
 
     return-object v0

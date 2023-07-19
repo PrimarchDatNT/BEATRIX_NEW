@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/firebase/firestore/local/n1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/local/n1$a;->a:Lcom/google/firebase/firestore/local/n1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onBegin()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1$a;->a:Lcom/google/firebase/firestore/local/n1;
 
     invoke-static {v0}, Lcom/google/firebase/firestore/local/n1;->k(Lcom/google/firebase/firestore/local/n1;)Lcom/google/firebase/firestore/local/y0;
@@ -53,7 +51,6 @@
 .method public onCommit()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1$a;->a:Lcom/google/firebase/firestore/local/n1;
 
     invoke-static {v0}, Lcom/google/firebase/firestore/local/n1;->k(Lcom/google/firebase/firestore/local/n1;)Lcom/google/firebase/firestore/local/y0;

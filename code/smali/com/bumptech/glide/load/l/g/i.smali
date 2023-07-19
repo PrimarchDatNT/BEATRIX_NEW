@@ -29,19 +29,16 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/DecodeFormat;->DEFAULT:Lcom/bumptech/glide/load/DecodeFormat;
 
     const-string v1, "com.bumptech.glide.load.resource.gif.GifOptions.DecodeFormat"
 
-    .line 2
     invoke-static {v1, v0}, Lcom/bumptech/glide/load/e;->g(Ljava/lang/String;Ljava/lang/Object;)Lcom/bumptech/glide/load/e;
 
     move-result-object v0
 
     sput-object v0, Lcom/bumptech/glide/load/l/g/i;->a:Lcom/bumptech/glide/load/e;
 
-    .line 3
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     const-string v1, "com.bumptech.glide.load.resource.gif.GifOptions.DisableAnimation"
@@ -58,7 +55,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

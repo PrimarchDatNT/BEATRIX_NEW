@@ -21,7 +21,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ek2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/hk2;->b:Lcom/google/android/gms/internal/ads/ek2;
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/lq;-><init>()V
@@ -34,12 +33,10 @@
 .method public final cancel(Z)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hk2;->b:Lcom/google/android/gms/internal/ads/ek2;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/ek2;->b(Lcom/google/android/gms/internal/ads/ek2;)V
 
-    .line 2
     invoke-super {p0, p1}, Lcom/google/android/gms/internal/ads/lq;->cancel(Z)Z
 
     move-result p1

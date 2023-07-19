@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,10 +36,8 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lf/k/g0/b;->a(Lf/k/g0/b;)Ljava/lang/String;
 
     move-result-object p1
@@ -61,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/g0/b;
 
     iget-object v2, p0, Lf/k/g0/b$b;->a:Ljava/lang/String;
@@ -92,14 +88,12 @@
 
     const-string v1, "ApplicationId must be set."
 
-    .line 1
     invoke-static {p1, v1}, Lf/k/g0/b;->b(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lf/k/g0/b$b;->a:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -118,10 +112,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/g0/b$b;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

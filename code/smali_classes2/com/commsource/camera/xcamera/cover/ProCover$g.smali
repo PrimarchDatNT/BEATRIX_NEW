@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/ProCover$g;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -79,13 +78,11 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/widget/ProView;->I(ZZ)V
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/ProCover$g;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/ProCover;->F(Lcom/commsource/camera/xcamera/cover/ProCover;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -98,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/ProCover$g;->a(Lcom/meitu/template/bean/Filter;)V

@@ -10,10 +10,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/tasks/o;
 
     invoke-direct {v0}, Lcom/google/android/gms/tasks/o;-><init>()V
@@ -28,7 +26,6 @@
 .method public a()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/b;->a:Lcom/google/android/gms/tasks/o;
 
     invoke-virtual {v0}, Lcom/google/android/gms/tasks/o;->c()V
@@ -39,7 +36,6 @@
 .method public b()Lcom/google/android/gms/tasks/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/b;->a:Lcom/google/android/gms/tasks/o;
 
     return-object v0

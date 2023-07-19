@@ -18,7 +18,6 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lorg/jsoup/select/c$o;-><init>(II)V
 
     return-void
@@ -29,7 +28,6 @@
 .method protected b(Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)I
     .locals 0
 
-    .line 1
     invoke-virtual {p2}, Lorg/jsoup/nodes/Element;->L1()Lorg/jsoup/nodes/Element;
 
     move-result-object p1

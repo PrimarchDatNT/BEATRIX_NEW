@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -77,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerPagerFragment$initView$4;->this$0:Lcom/commsource/studio/sticker/StickerPagerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerPagerFragment;->A(Lcom/commsource/studio/sticker/StickerPagerFragment;)Lcom/commsource/studio/sticker/StickerViewModel;
@@ -94,7 +92,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

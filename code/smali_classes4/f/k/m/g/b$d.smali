@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/k/m/g/b$d;->a:Lf/k/m/g/b;
 
     iput-object p2, p0, Lf/k/m/g/b$d;->b:Lcom/meitu/ipstore/core/c$b;
@@ -66,14 +65,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/m/g/b$d$b;
 
     invoke-direct {v1, p0, p1}, Lf/k/m/g/b$d$b;-><init>(Lf/k/m/g/b$d;Ljava/util/List;)V
 
     invoke-static {v1}, Lf/k/m/j/j;->g(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -86,14 +83,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/m/g/b$d$a;
 
     invoke-direct {v1, p0, p1}, Lf/k/m/g/b$d$a;-><init>(Lf/k/m/g/b$d;I)V
 
     invoke-static {v1}, Lf/k/m/j/j;->i(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

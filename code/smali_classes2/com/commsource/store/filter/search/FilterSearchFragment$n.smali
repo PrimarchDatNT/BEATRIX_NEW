@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$n;->c:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/search/FilterSearchFragment$n;->e(Ljava/lang/Boolean;)V
@@ -77,14 +75,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$n;->c:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-static {p1}, Lcom/commsource/store/filter/search/FilterSearchFragment;->B(Lcom/commsource/store/filter/search/FilterSearchFragment;)Lcom/commsource/beautyplus/f0/e8;
@@ -101,7 +97,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$n;->c:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-static {p1}, Lcom/commsource/store/filter/search/FilterSearchFragment;->B(Lcom/commsource/store/filter/search/FilterSearchFragment;)Lcom/commsource/beautyplus/f0/e8;
@@ -118,7 +113,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$n;->c:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
@@ -140,7 +134,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

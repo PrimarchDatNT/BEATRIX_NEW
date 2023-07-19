@@ -50,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b$a$a;->a:Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b$a;
 
     iget-object v2, v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b$a;->J:Lcom/commsource/beautyplus/web/p$c;
@@ -79,14 +78,12 @@
     :goto_0
     invoke-virtual {v2, v1}, Lcom/commsource/beautyplus/web/p$c;->o(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b$a$a;->b:Lcotlin/jvm/internal/Ref$BooleanRef;
 
     iget-boolean v1, v1, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-eqz v1, :cond_1
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -127,7 +124,6 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b$a$a;->a:Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b$a;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b$a;->g:Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b;
@@ -138,7 +134,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b$a$a;->a:Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b$a;
 
@@ -158,7 +153,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

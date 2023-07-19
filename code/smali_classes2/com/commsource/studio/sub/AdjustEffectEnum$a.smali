@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sub/AdjustEffectEnum$a;-><init>()V
 
     return-void
@@ -46,12 +44,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/sub/AdjustEffectEnum;->values()[Lcom/commsource/studio/sub/AdjustEffectEnum;
 
     move-result-object v1
 
-    .line 2
     array-length v2, v1
 
     const/4 v3, 0x0
@@ -61,14 +57,12 @@
 
     aget-object v4, v1, v3
 
-    .line 3
     invoke-virtual {v4}, Lcom/commsource/studio/sub/AdjustEffectEnum;->getId()I
 
     move-result v5
 
     if-ne v5, p1, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -78,7 +72,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     sget-object p1, Lcom/commsource/studio/sub/AdjustEffectEnum;->Brightness:Lcom/commsource/studio/sub/AdjustEffectEnum;
 

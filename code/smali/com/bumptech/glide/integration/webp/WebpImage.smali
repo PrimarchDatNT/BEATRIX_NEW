@@ -35,7 +35,6 @@
 
     const-string v0, "glide-webp"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     return-void
@@ -46,7 +45,6 @@
     .annotation build Landroidx/annotation/Keep;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
@@ -55,36 +53,26 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     iput p3, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mWidth:I
 
-    .line 3
     iput p4, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mHeigth:I
 
-    .line 4
     iput p5, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mFrameCount:I
 
-    .line 5
     iput p6, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mDurationMs:I
 
-    .line 6
     iput-object p7, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mFrameDurations:[I
 
-    .line 7
     iput p8, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mLoopCount:I
 
-    .line 8
     invoke-direct {p0, p7}, Lcom/bumptech/glide/integration/webp/WebpImage;->fixFrameDurations([I)V
 
-    .line 9
     iput p9, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mBackgroundColor:I
 
-    .line 10
     iput-wide p1, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mNativePtr:J
 
     return-void
 
-    .line 11
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -98,23 +86,18 @@
 .method public static create([B)Lcom/bumptech/glide/integration/webp/WebpImage;
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/bumptech/glide/s/k;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     array-length v0, p0
 
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0, p0}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
-    .line 4
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
-    .line 5
     invoke-static {v0}, Lcom/bumptech/glide/integration/webp/WebpImage;->nativeCreateFromDirectByteBuffer(Ljava/nio/ByteBuffer;)Lcom/bumptech/glide/integration/webp/WebpImage;
 
     move-result-object p0
@@ -127,13 +110,11 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     array-length v1, p1
 
     if-ge v0, v1, :cond_1
 
-    .line 2
     aget v1, p1, v0
 
     const/16 v2, 0x14
@@ -142,7 +123,6 @@
 
     const/16 v1, 0x64
 
-    .line 3
     aput v1, p1, v0
 
     :cond_0
@@ -174,7 +154,6 @@
 .method public dispose()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/WebpImage;->nativeDispose()V
 
     return-void
@@ -188,7 +167,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/WebpImage;->nativeFinalize()V
 
     return-void
@@ -197,7 +175,6 @@
 .method public getBackgroundColor()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mBackgroundColor:I
 
     return v0
@@ -206,7 +183,6 @@
 .method public getDuration()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mDurationMs:I
 
     return v0
@@ -215,7 +191,6 @@
 .method public getFrame(I)Lcom/bumptech/glide/integration/webp/WebpFrame;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bumptech/glide/integration/webp/WebpImage;->nativeGetFrame(I)Lcom/bumptech/glide/integration/webp/WebpFrame;
 
     move-result-object p1
@@ -226,7 +201,6 @@
 .method public getFrameCount()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mFrameCount:I
 
     return v0
@@ -235,7 +209,6 @@
 .method public getFrameDurations()[I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mFrameDurations:[I
 
     return-object v0
@@ -244,12 +217,10 @@
 .method public getFrameInfo(I)Lcom/bumptech/glide/integration/webp/c;
     .locals 2
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/integration/webp/WebpImage;->getFrame(I)Lcom/bumptech/glide/integration/webp/WebpFrame;
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     new-instance v1, Lcom/bumptech/glide/integration/webp/c;
 
@@ -257,7 +228,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/bumptech/glide/integration/webp/WebpFrame;->dispose()V
 
     return-object v1
@@ -273,7 +243,6 @@
 .method public getHeight()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mHeigth:I
 
     return v0
@@ -282,7 +251,6 @@
 .method public getLoopCount()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mLoopCount:I
 
     return v0
@@ -291,7 +259,6 @@
 .method public getSizeInBytes()I
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/integration/webp/WebpImage;->nativeGetSizeInBytes()I
 
     move-result v0
@@ -302,7 +269,6 @@
 .method public getWidth()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/integration/webp/WebpImage;->mWidth:I
 
     return v0

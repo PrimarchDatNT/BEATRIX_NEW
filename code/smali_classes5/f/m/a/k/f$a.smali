@@ -43,7 +43,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/m/a/k/f$a;->a:Lf/m/a/k/f;
 
     invoke-static {v0}, Lf/m/a/k/f;->a(Lf/m/a/k/f;)Ljava/lang/ref/WeakReference;
@@ -60,7 +59,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/m/a/k/f$a;->b:Lf/m/a/k/b;
 
     invoke-virtual {v0, v1}, Lf/m/a/k/a;->q(Lf/m/a/k/b;)V

@@ -23,15 +23,12 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/ads/formats/a$b;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/v2;->a:Lcom/google/android/gms/internal/ads/u2;
 
     const/4 v1, 0x0
 
-    .line 3
     :try_start_0
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/u2;->H2()Lcom/google/android/gms/dynamic/d;
 
@@ -39,7 +36,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/dynamic/f;->B0(Lcom/google/android/gms/dynamic/d;)Ljava/lang/Object;
 
     move-result-object p1
@@ -53,17 +49,14 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
     move-object p1, v1
 
-    .line 6
     :goto_0
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/v2;->b:Landroid/graphics/drawable/Drawable;
 
-    .line 7
     :try_start_1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/v2;->a:Lcom/google/android/gms/internal/ads/u2;
 
@@ -78,16 +71,13 @@
     :catch_1
     move-exception p1
 
-    .line 8
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 9
     :goto_1
     iput-object v1, p0, Lcom/google/android/gms/internal/ads/v2;->c:Landroid/net/Uri;
 
     const-wide/high16 v1, 0x3ff0000000000000L    # 1.0
 
-    .line 10
     :try_start_2
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/v2;->a:Lcom/google/android/gms/internal/ads/u2;
 
@@ -102,16 +92,13 @@
     :catch_2
     move-exception p1
 
-    .line 11
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 12
     :goto_2
     iput-wide v1, p0, Lcom/google/android/gms/internal/ads/v2;->d:D
 
     const/4 p1, -0x1
 
-    .line 13
     :try_start_3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/v2;->a:Lcom/google/android/gms/internal/ads/u2;
 
@@ -126,16 +113,13 @@
     :catch_3
     move-exception v1
 
-    .line 14
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v1, -0x1
 
-    .line 15
     :goto_3
     iput v1, p0, Lcom/google/android/gms/internal/ads/v2;->e:I
 
-    .line 16
     :try_start_4
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/v2;->a:Lcom/google/android/gms/internal/ads/u2;
 
@@ -150,10 +134,8 @@
     :catch_4
     move-exception v1
 
-    .line 17
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 18
     :goto_4
     iput p1, p0, Lcom/google/android/gms/internal/ads/v2;->f:I
 
@@ -165,7 +147,6 @@
 .method public final a()Landroid/graphics/drawable/Drawable;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/v2;->b:Landroid/graphics/drawable/Drawable;
 
     return-object v0
@@ -174,7 +155,6 @@
 .method public final b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/v2;->f:I
 
     return v0
@@ -183,7 +163,6 @@
 .method public final c()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/v2;->d:D
 
     return-wide v0
@@ -192,7 +171,6 @@
 .method public final d()Landroid/net/Uri;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/v2;->c:Landroid/net/Uri;
 
     return-object v0
@@ -201,7 +179,6 @@
 .method public final e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/v2;->e:I
 
     return v0

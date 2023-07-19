@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/camera/a1/h;Ljava/lang/String;Lcom/commsource/camera/a1/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/a1/h$d;->p:Lcom/commsource/camera/a1/h;
 
     iput-object p3, p0, Lcom/commsource/camera/a1/h$d;->g:Lcom/commsource/camera/a1/f;
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/a1/h$d;->p:Lcom/commsource/camera/a1/h;
 
     invoke-static {v1}, Lcom/commsource/camera/a1/h;->b(Lcom/commsource/camera/a1/h;)Ljava/util/concurrent/locks/ReentrantLock;
@@ -52,7 +50,6 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/commsource/camera/a1/h$d;->p:Lcom/commsource/camera/a1/h;
 
@@ -77,13 +74,11 @@
     :catch_0
     move-exception v1
 
-    .line 3
     :try_start_1
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->h(Ljava/lang/Throwable;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     :goto_0
     iget-object v1, p0, Lcom/commsource/camera/a1/h$d;->p:Lcom/commsource/camera/a1/h;
 
@@ -93,12 +88,10 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :goto_1
     iget-object v2, p0, Lcom/commsource/camera/a1/h$d;->p:Lcom/commsource/camera/a1/h;
 
@@ -108,7 +101,6 @@
 
     invoke-virtual {v2}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1

@@ -28,7 +28,6 @@
 .method constructor <init>(Lcom/commsource/push/BPMeituPushReceiver;Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/push/BPMeituPushReceiver$b;->K:Lcom/commsource/push/BPMeituPushReceiver;
 
     iput-object p3, p0, Lcom/commsource/push/BPMeituPushReceiver$b;->g:Landroid/content/Context;
@@ -51,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/push/BPMeituPushReceiver$b;->g:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/commsource/push/BPMeituPushReceiver$b;->p:Ljava/lang/String;
@@ -68,17 +66,14 @@
 
     const-string v2, "UpgradeToken:oldVersionToken"
 
-    .line 2
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/push/BPMeituPushReceiver$b;->g:Landroid/content/Context;
 
     const-string v2, ""
 
     invoke-static {v1, v2}, Lf/d/i/e;->F2(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

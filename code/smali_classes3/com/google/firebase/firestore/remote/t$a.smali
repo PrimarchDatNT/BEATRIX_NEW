@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 8
 
-    .line 1
     invoke-static {}, Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;->values()[Lcom/google/firestore/v1/ListenResponse$ResponseTypeCase;
 
     move-result-object v0
@@ -148,7 +147,6 @@
     :try_end_5
     .catch Ljava/lang/NoSuchFieldError; {:try_start_5 .. :try_end_5} :catch_5
 
-    .line 2
     :catch_5
     invoke-static {}, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->values()[Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
@@ -241,7 +239,6 @@
     :try_end_b
     .catch Ljava/lang/NoSuchFieldError; {:try_start_b .. :try_end_b} :catch_b
 
-    .line 3
     :catch_b
     invoke-static {}, Lcom/google/firestore/v1/StructuredQuery$Direction;->values()[Lcom/google/firestore/v1/StructuredQuery$Direction;
 
@@ -278,7 +275,6 @@
     :try_end_d
     .catch Ljava/lang/NoSuchFieldError; {:try_start_d .. :try_end_d} :catch_d
 
-    .line 4
     :catch_d
     invoke-static {}, Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;->values()[Lcom/google/firestore/v1/StructuredQuery$FieldFilter$Operator;
 
@@ -371,7 +367,6 @@
     :try_end_13
     .catch Ljava/lang/NoSuchFieldError; {:try_start_13 .. :try_end_13} :catch_13
 
-    .line 5
     :catch_13
     invoke-static {}, Lcom/google/firebase/firestore/core/Filter$Operator;->values()[Lcom/google/firebase/firestore/core/Filter$Operator;
 
@@ -464,7 +459,6 @@
     :try_end_19
     .catch Ljava/lang/NoSuchFieldError; {:try_start_19 .. :try_end_19} :catch_19
 
-    .line 6
     :catch_19
     invoke-static {}, Lcom/google/firestore/v1/StructuredQuery$UnaryFilter$Operator;->values()[Lcom/google/firestore/v1/StructuredQuery$UnaryFilter$Operator;
 
@@ -501,7 +495,6 @@
     :try_end_1b
     .catch Ljava/lang/NoSuchFieldError; {:try_start_1b .. :try_end_1b} :catch_1b
 
-    .line 7
     :catch_1b
     invoke-static {}, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->values()[Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
@@ -552,7 +545,6 @@
     :try_end_1e
     .catch Ljava/lang/NoSuchFieldError; {:try_start_1e .. :try_end_1e} :catch_1e
 
-    .line 8
     :catch_1e
     invoke-static {}, Lcom/google/firebase/firestore/local/QueryPurpose;->values()[Lcom/google/firebase/firestore/local/QueryPurpose;
 
@@ -603,7 +595,6 @@
     :try_end_21
     .catch Ljava/lang/NoSuchFieldError; {:try_start_21 .. :try_end_21} :catch_21
 
-    .line 9
     :catch_21
     invoke-static {}, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->values()[Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
@@ -668,7 +659,6 @@
     :try_end_25
     .catch Ljava/lang/NoSuchFieldError; {:try_start_25 .. :try_end_25} :catch_25
 
-    .line 10
     :catch_25
     invoke-static {}, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;->values()[Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
@@ -719,7 +709,6 @@
     :try_end_28
     .catch Ljava/lang/NoSuchFieldError; {:try_start_28 .. :try_end_28} :catch_28
 
-    .line 11
     :catch_28
     invoke-static {}, Lcom/google/firestore/v1/Write$OperationCase;->values()[Lcom/google/firestore/v1/Write$OperationCase;
 
@@ -770,7 +759,6 @@
     :try_end_2b
     .catch Ljava/lang/NoSuchFieldError; {:try_start_2b .. :try_end_2b} :catch_2b
 
-    .line 12
     :catch_2b
     invoke-static {}, Lcom/google/firestore/v1/Value$ValueTypeCase;->values()[Lcom/google/firestore/v1/Value$ValueTypeCase;
 

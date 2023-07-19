@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,15 +19,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;
 
     invoke-direct {v1}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;-><init>()V
 
-    .line 2
     invoke-static {p0, v1}, Lcom/commsource/beautyplus/g0/f;->b(Lcom/meitu/core/types/FaceData;Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -47,10 +43,8 @@
 
     const-string p1, "filterFaceDataCache is empty"
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -58,14 +52,12 @@
     :cond_0
     if-eqz p0, :cond_2
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
 
     invoke-virtual {p1, v1}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->setFaceCount(I)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
@@ -77,12 +69,10 @@
     :goto_0
     if-ge v9, v1, :cond_2
 
-    .line 5
     invoke-virtual {p0, v9}, Lcom/meitu/core/types/FaceData;->getNormalizedFaceRect(I)Landroid/graphics/RectF;
 
     move-result-object v3
 
-    .line 6
     iget v5, v3, Landroid/graphics/RectF;->left:F
 
     iget v6, v3, Landroid/graphics/RectF;->top:F
@@ -103,31 +93,26 @@
 
     const/4 v3, 0x2
 
-    .line 7
     invoke-virtual {p0, v9, v3}, Lcom/meitu/core/types/FaceData;->getFaceLandmarkRatioFloatArray(II)[F
 
     move-result-object v4
 
-    .line 8
     array-length v5, v4
 
     div-int/2addr v5, v3
 
     if-lez v5, :cond_1
 
-    .line 9
     array-length v5, v4
 
     div-int/2addr v5, v3
 
     invoke-virtual {p1, v9, v5}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->setPointCount2D(II)V
 
-    .line 10
     invoke-virtual {p1, v9, v4}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->setFacialLandmark2D(I[F)V
 
     goto :goto_1
 
-    .line 11
     :cond_1
     invoke-virtual {p1, v9, v2}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->setPointCount2D(II)V
 
@@ -136,7 +121,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -154,7 +138,6 @@
 
     if-eqz p0, :cond_4
 
-    .line 1
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     if-eqz v2, :cond_4
@@ -165,10 +148,8 @@
 
     if-lez p3, :cond_4
 
-    .line 2
     array-length p2, v2
 
-    .line 3
     invoke-virtual {p1, p2}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->setFaceCount(I)V
 
     const/4 p3, 0x0
@@ -178,19 +159,16 @@
     :goto_0
     if-ge v8, p2, :cond_3
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     aget-object v9, v2, v8
 
-    .line 5
     iget-object v2, v9, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
 
     iget v4, v2, Landroid/graphics/RectF;->left:F
 
     iget v5, v2, Landroid/graphics/RectF;->top:F
 
-    .line 6
     invoke-virtual {v2}, Landroid/graphics/RectF;->width()F
 
     move-result v6
@@ -205,20 +183,16 @@
 
     move v3, v8
 
-    .line 7
     invoke-virtual/range {v2 .. v7}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->setFaceRect(IFFFF)V
 
-    .line 8
     iget-object v2, v9, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
     array-length v2, v2
 
-    .line 9
     invoke-virtual {p1, v8, v2}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->setPointCount2D(II)V
 
     if-eqz v1, :cond_0
 
-    .line 10
     array-length v3, v1
 
     iget-object v4, v9, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
@@ -229,7 +203,6 @@
 
     if-eq v3, v4, :cond_1
 
-    .line 11
     :cond_0
     iget-object v1, v9, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
@@ -247,7 +220,6 @@
 
     mul-int/lit8 v4, v3, 0x2
 
-    .line 12
     iget-object v5, v9, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
     aget-object v6, v5, v3
@@ -258,7 +230,6 @@
 
     add-int/lit8 v4, v4, 0x1
 
-    .line 13
     aget-object v5, v5, v3
 
     iget v5, v5, Landroid/graphics/PointF;->y:F
@@ -269,7 +240,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_2
     invoke-virtual {p1, v8, v1}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->setFacialLandmark2D(I[F)V
 
@@ -277,7 +247,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -288,10 +257,8 @@
 
     const-string p1, " convert face data error, beacause params wrong! "
 
-    .line 16
     invoke-static {p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

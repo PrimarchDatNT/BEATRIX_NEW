@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;Landroid/content/Context;IZI)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine$1;->this$0:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     iput-object p2, p0, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine$1;->val$context:Landroid/content/Context;
@@ -58,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine$1;->this$0:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     invoke-static {v1}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->access$000(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;)J
@@ -71,7 +69,6 @@
 
     if-nez v5, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine$1;->this$0:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine$1;->val$context:Landroid/content/Context;
@@ -88,7 +85,6 @@
 
     invoke-static {v1, v5, v6}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->access$002(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;J)J
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine$1;->this$0:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->getDefaultModelDirectory()Ljava/lang/String;
@@ -97,7 +93,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->setModelDirectory(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine$1;->this$0:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
@@ -109,7 +104,6 @@
 
     if-nez v5, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine$1;->this$0:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->access$300()J
@@ -118,7 +112,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->access$202(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;J)J
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

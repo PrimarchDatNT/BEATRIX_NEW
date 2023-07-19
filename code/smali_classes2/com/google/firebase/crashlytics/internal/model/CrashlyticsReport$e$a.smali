@@ -28,7 +28,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -39,7 +38,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/model/g$b;
 
     invoke-direct {v0}, Lcom/google/firebase/crashlytics/internal/model/g$b;-><init>()V
@@ -88,14 +86,12 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a;->e()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a$b;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a$b;->c()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a$b$a;
 
     move-result-object v0
@@ -107,7 +103,6 @@
 
     move-result-object v0
 
-    .line 3
     :goto_0
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a;->g()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a$a;
 

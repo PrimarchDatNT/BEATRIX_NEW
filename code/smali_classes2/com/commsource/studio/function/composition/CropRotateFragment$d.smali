@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$d;->a:Lcom/commsource/studio/function/composition/CropRotateFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/composition/CropRotateFragment;->z1(Lcom/commsource/studio/function/composition/CropRotateFragment;)Lcom/commsource/beautyplus/f0/kb;
@@ -57,7 +56,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/widget/VernierView;->o(IZ)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

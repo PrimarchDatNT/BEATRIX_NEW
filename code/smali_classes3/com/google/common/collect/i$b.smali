@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/google/common/collect/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/i$b;->a:Lcom/google/common/collect/i;
 
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
@@ -43,7 +42,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/i$b;->a:Lcom/google/common/collect/i;
 
     invoke-virtual {v0}, Lcom/google/common/collect/i;->clear()V
@@ -54,17 +52,14 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/collect/f2$a;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/f2$a;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/i$b;->a:Lcom/google/common/collect/i;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->rowMap()Ljava/util/Map;
@@ -83,7 +78,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -100,7 +94,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-static {v0, p1}, Lcom/google/common/collect/n;->k(Ljava/util/Collection;Ljava/lang/Object;)Z
 
     move-result p1
@@ -124,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/i$b;->a:Lcom/google/common/collect/i;
 
     invoke-virtual {v0}, Lcom/google/common/collect/i;->cellIterator()Ljava/util/Iterator;
@@ -141,17 +133,14 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/collect/f2$a;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/f2$a;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/i$b;->a:Lcom/google/common/collect/i;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->rowMap()Ljava/util/Map;
@@ -170,7 +159,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -187,7 +175,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-static {v0, p1}, Lcom/google/common/collect/n;->l(Ljava/util/Collection;Ljava/lang/Object;)Z
 
     move-result p1
@@ -203,7 +190,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/i$b;->a:Lcom/google/common/collect/i;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->size()I

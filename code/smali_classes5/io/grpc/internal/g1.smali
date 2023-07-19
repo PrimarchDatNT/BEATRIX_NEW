@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lio/grpc/internal/g1;->d()Ljava/lang/Throwable;
 
     move-result-object v0
@@ -40,7 +39,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -49,7 +47,6 @@
 .method static synthetic c()Ljava/lang/Throwable;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/g1;->a:Ljava/lang/Throwable;
 
     return-object v0
@@ -63,12 +60,10 @@
     :try_start_0
     const-string v0, "javax.naming.directory.InitialDirContext"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     const-string v0, "com.sun.jndi.dns.DnsContextFactory"
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_2
@@ -102,7 +97,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/g1;->b()Ljava/lang/Throwable;
 
     move-result-object v0
@@ -113,7 +107,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Lio/grpc/internal/g1$b;
 
@@ -131,7 +124,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     sget-object v0, Lio/grpc/internal/g1;->a:Ljava/lang/Throwable;
 
     return-object v0

@@ -20,7 +20,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
 .method public c()Landroid/view/View;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/mask/a;->c:Landroid/view/View;
 
     return-object v0
@@ -46,7 +44,6 @@
 .method public d()Landroid/view/ViewStub;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/mask/a;->b:Landroid/view/ViewStub;
 
     return-object v0
@@ -55,7 +52,6 @@
 .method public e()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/mask/a;->b:Landroid/view/ViewStub;
 
     invoke-virtual {v0}, Landroid/view/ViewStub;->isInLayout()Z
@@ -68,13 +64,10 @@
 .method public f(Landroid/view/ViewGroup;Lcom/commsource/widget/mask/e;)V
     .locals 2
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/mask/a;->a:Landroid/view/ViewGroup;
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/widget/mask/a;->d:Lcom/commsource/widget/mask/e;
 
-    .line 3
     new-instance p2, Landroid/view/ViewStub;
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
@@ -89,17 +82,14 @@
 
     iput-object p2, p0, Lcom/commsource/widget/mask/a;->b:Landroid/view/ViewStub;
 
-    .line 4
     invoke-virtual {p2, p0}, Landroid/view/ViewStub;->setOnInflateListener(Landroid/view/ViewStub$OnInflateListener;)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/widget/mask/a;->b:Landroid/view/ViewStub;
 
     const/16 v0, 0x8
 
     invoke-virtual {p2, v0}, Landroid/view/ViewStub;->setVisibility(I)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/widget/mask/a;->b:Landroid/view/ViewStub;
 
     const/4 v0, -0x1
@@ -112,10 +102,8 @@
 .method public onInflate(Landroid/view/ViewStub;Landroid/view/View;)V
     .locals 2
 
-    .line 1
     iput-object p2, p0, Lcom/commsource/widget/mask/a;->c:Landroid/view/View;
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/mask/a;->d:Lcom/commsource/widget/mask/e;
 
     if-eqz p1, :cond_2
@@ -126,7 +114,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/mask/a;->d:Lcom/commsource/widget/mask/e;
 
     invoke-virtual {p1}, Lcom/commsource/widget/mask/e;->d()Ljava/util/Map;
@@ -145,21 +132,18 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/widget/mask/d;->b()Lcom/commsource/widget/mask/g;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/widget/mask/d;->b()Lcom/commsource/widget/mask/g;
 
     move-result-object v0
 
     invoke-interface {v0, p2}, Lcom/commsource/widget/mask/g;->a(Landroid/view/View;)V
 
-    .line 6
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/widget/mask/d;->a()Ljava/util/List;
 
@@ -183,7 +167,6 @@
 
     check-cast v0, Lcom/commsource/widget/mask/c;
 
-    .line 7
     invoke-virtual {v0}, Lcom/commsource/widget/mask/c;->a()I
 
     move-result v0
@@ -194,7 +177,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/mask/a;->d:Lcom/commsource/widget/mask/e;
 
     invoke-virtual {v1}, Lcom/commsource/widget/mask/e;->e()Landroid/view/View$OnClickListener;
@@ -203,7 +185,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/widget/mask/a;->d:Lcom/commsource/widget/mask/e;
 
     invoke-virtual {v1}, Lcom/commsource/widget/mask/e;->e()Landroid/view/View$OnClickListener;

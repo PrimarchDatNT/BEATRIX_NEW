@@ -14,12 +14,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->z()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->A()Ljava/lang/String;
 
     move-result-object v1
@@ -62,10 +60,8 @@
 
     move-result-object v0
 
-    .line 3
     invoke-direct {p0, v0}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/common/api/ApiException;->mStatus:Lcom/google/android/gms/common/api/Status;
 
     return-void
@@ -76,7 +72,6 @@
 .method public getStatusCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/ApiException;->mStatus:Lcom/google/android/gms/common/api/Status;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;->z()I
@@ -94,7 +89,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/ApiException;->mStatus:Lcom/google/android/gms/common/api/Status;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;->A()Ljava/lang/String;

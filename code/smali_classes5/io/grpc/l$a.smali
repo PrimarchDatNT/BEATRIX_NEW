@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/zip/GZIPInputStream;
 
     invoke-direct {v0, p1}, Ljava/util/zip/GZIPInputStream;-><init>(Ljava/io/InputStream;)V
@@ -61,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/zip/GZIPOutputStream;
 
     invoke-direct {v0, p1}, Ljava/util/zip/GZIPOutputStream;-><init>(Ljava/io/OutputStream;)V

@@ -71,7 +71,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/sequences/c;->a:Lcotlin/sequences/m;
@@ -96,7 +95,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/sequences/b;
 
     iget-object v1, p0, Lcotlin/sequences/c;->a:Lcotlin/sequences/m;

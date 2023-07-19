@@ -40,18 +40,14 @@
 .method public constructor <init>(Lcom/meitu/template/bean/ArMaterial;Ljava/lang/String;ILjava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->this$0:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->copyWriting:Ljava/lang/String;
 
-    .line 3
     iput p3, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->rules:I
 
-    .line 4
     iput-object p4, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->url:Ljava/lang/String;
 
     return-void
@@ -64,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->copyWriting:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -79,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->rules:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -94,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->url:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -111,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->copyWriting:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -126,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->rules:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -141,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->url:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -156,10 +146,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->copyWriting:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -172,10 +160,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->rules:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -188,10 +174,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->url:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

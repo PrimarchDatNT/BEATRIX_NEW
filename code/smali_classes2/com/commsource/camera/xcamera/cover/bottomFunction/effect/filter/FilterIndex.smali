@@ -71,7 +71,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->filterId:I
@@ -194,7 +193,6 @@
 
     move-object p7, v4
 
-    .line 2
     invoke-direct/range {p1 .. p8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;)V
 
     return-void
@@ -327,24 +325,18 @@
 
     const/4 v1, -0x1
 
-    .line 1
     iput v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->filterId:I
 
     const/4 v2, 0x0
 
-    .line 2
     iput-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->filter:Lcom/meitu/template/bean/Filter;
 
-    .line 3
     iput v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->categoryIdWhenSelect:I
 
-    .line 4
     iput-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->categoryInfo:Lcom/commsource/beautyfilter/a;
 
-    .line 5
     invoke-virtual {p0, v1, v1, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setSelectPosition(III)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -587,7 +579,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->categoryIdWhenSelect:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -604,7 +595,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->categoryInfo:Lcom/commsource/beautyfilter/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -619,7 +609,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->collectionIndex:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -636,7 +625,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->filter:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -651,7 +639,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->filterId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -666,7 +653,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->index:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -681,7 +667,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->recommendIndex:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -696,7 +681,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->collectionIndex:I
 
     const/4 v2, -0x1
@@ -707,7 +691,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->recommendIndex:I
 
@@ -717,7 +700,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->index:I
 
@@ -730,7 +712,6 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -814,7 +795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->collectionIndex:I
 
     const/4 v2, -0x1
@@ -841,7 +821,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->recommendIndex:I
 
     const/4 v2, -0x1
@@ -868,7 +847,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->categoryIdWhenSelect:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -887,7 +865,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->categoryInfo:Lcom/commsource/beautyfilter/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -902,7 +879,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->collectionIndex:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -921,7 +897,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->filter:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -936,7 +911,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->filterId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -951,7 +925,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->index:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -966,7 +939,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->recommendIndex:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -981,16 +953,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->collectionIndex:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->recommendIndex:I
 
-    .line 3
     iput p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->index:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

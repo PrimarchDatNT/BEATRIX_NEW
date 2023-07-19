@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/g;Landroid/widget/ImageView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/g$b;->b:Lcom/sdk/imp/g;
 
     iput-object p2, p0, Lcom/sdk/imp/g$b;->a:Landroid/widget/ImageView;
@@ -48,14 +47,12 @@
 .method public b(Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/g$b;->a:Landroid/widget/ImageView;
 
     const/4 p3, 0x0
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/g$b;->a:Landroid/widget/ImageView;
 
     invoke-static {p2}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;)Landroid/graphics/Bitmap;

@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-direct {p0}, Lcom/commsource/studio/i$c;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/c$b;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -63,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/c$b;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -86,7 +83,6 @@
 
     invoke-static {p3, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {p2}, Lcom/commsource/studio/layer/c;->s0()Z
@@ -129,7 +125,6 @@
 
     invoke-static {p3, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/c;->s0()Z
@@ -156,7 +151,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -179,7 +173,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -202,7 +195,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -225,7 +217,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/i$e;->isEnable()Z
 
     move-result v1
@@ -234,12 +225,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
@@ -247,14 +236,12 @@
 
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/studio/layer/c$b;->d:Z
 
     const/4 v3, 0x2
 
     new-array v3, v3, [F
 
-    .line 5
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v4
@@ -267,19 +254,16 @@
 
     aput v4, v3, v1
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {v4, v3}, Lcom/commsource/studio/layer/BaseLayer;->U([F)V
 
-    .line 7
     iget-object v4, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-static {v4}, Lcom/commsource/studio/layer/c;->p0(Lcom/commsource/studio/layer/c;)Ljava/util/LinkedList;
 
     move-result-object v4
 
-    .line 8
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -297,7 +281,6 @@
 
     check-cast v5, Lcom/commsource/studio/layer/c$a;
 
-    .line 9
     aget v6, v3, v2
 
     aget v7, v3, v1
@@ -306,7 +289,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
@@ -316,7 +298,6 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -333,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/i$e;->isEnable()Z
 
     move-result v1
@@ -342,16 +322,13 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Lcom/commsource/studio/i$c;->onMajorFingerUp(Landroid/view/MotionEvent;)Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/c;->t0()Z
@@ -360,7 +337,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -374,7 +350,6 @@
 
     new-array v3, v3, [F
 
-    .line 6
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v4
@@ -387,19 +362,16 @@
 
     aput v4, v3, v1
 
-    .line 7
     iget-object v4, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {v4, v3}, Lcom/commsource/studio/layer/BaseLayer;->U([F)V
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-static {v4}, Lcom/commsource/studio/layer/c;->p0(Lcom/commsource/studio/layer/c;)Ljava/util/LinkedList;
 
     move-result-object v4
 
-    .line 9
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -419,7 +391,6 @@
 
     check-cast v6, Lcom/commsource/studio/layer/c$a;
 
-    .line 10
     aget v7, v3, v2
 
     aget v8, v3, v1
@@ -438,13 +409,11 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {p1, v2}, Lcom/commsource/studio/layer/c;->x0(Z)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
@@ -453,7 +422,6 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -482,7 +450,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/i$e;->isEnable()Z
 
     move-result v1
@@ -491,16 +458,13 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-super {p0, p1, p2, p3, p4}, Lcom/commsource/studio/i$c;->onMajorScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {p3}, Lcom/commsource/studio/layer/c;->t0()Z
@@ -509,7 +473,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -517,10 +480,8 @@
     :cond_1
     const/4 p3, 0x1
 
-    .line 6
     iput-boolean p3, p0, Lcom/commsource/studio/layer/c$b;->d:Z
 
-    .line 7
     iget-object p4, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {p4}, Lcom/commsource/studio/layer/c;->u0()Z
@@ -533,7 +494,6 @@
 
     new-array p2, v1, [F
 
-    .line 8
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result p4
@@ -546,19 +506,16 @@
 
     aput p4, p2, p3
 
-    .line 9
     iget-object p4, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {p4, p2}, Lcom/commsource/studio/layer/BaseLayer;->U([F)V
 
-    .line 10
     iget-object p4, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-static {p4}, Lcom/commsource/studio/layer/c;->p0(Lcom/commsource/studio/layer/c;)Ljava/util/LinkedList;
 
     move-result-object p4
 
-    .line 11
     invoke-interface {p4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p4
@@ -576,7 +533,6 @@
 
     check-cast v1, Lcom/commsource/studio/layer/c$a;
 
-    .line 12
     aget v3, p2, v2
 
     aget v4, p2, p3
@@ -585,7 +541,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
@@ -596,7 +551,6 @@
     :cond_3
     new-array p1, v1, [F
 
-    .line 14
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
 
     move-result p4
@@ -609,19 +563,16 @@
 
     aput p4, p1, p3
 
-    .line 15
     iget-object p4, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {p4, p1}, Lcom/commsource/studio/layer/BaseLayer;->U([F)V
 
-    .line 16
     iget-object p4, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-static {p4}, Lcom/commsource/studio/layer/c;->p0(Lcom/commsource/studio/layer/c;)Ljava/util/LinkedList;
 
     move-result-object p4
 
-    .line 17
     invoke-interface {p4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p4
@@ -639,7 +590,6 @@
 
     check-cast v1, Lcom/commsource/studio/layer/c$a;
 
-    .line 18
     aget v3, p1, v2
 
     aget v4, p1, p3
@@ -648,7 +598,6 @@
 
     goto :goto_1
 
-    .line 19
     :cond_4
     :goto_2
     iget-object p1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
@@ -659,7 +608,6 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
@@ -676,7 +624,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/i$e;->isEnable()Z
 
     move-result v1
@@ -685,12 +632,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
@@ -698,17 +643,14 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/layer/c;->w0(Z)V
 
-    .line 4
     iput-boolean v2, p0, Lcom/commsource/studio/layer/c$b;->d:Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/c;->p0(Lcom/commsource/studio/layer/c;)Ljava/util/LinkedList;
 
     move-result-object v1
 
-    .line 6
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -732,7 +674,6 @@
 
     const/4 v6, 0x0
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {v3}, Lcom/commsource/studio/layer/c;->u0()Z
@@ -747,13 +688,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/c;->x0(Z)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
@@ -762,7 +701,6 @@
 
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
 
-    .line 10
     invoke-super {p0, p1}, Lcom/commsource/studio/i$c;->onMinorFingerDown(Landroid/view/MotionEvent;)Z
 
     move-result p1
@@ -787,7 +725,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {p2}, Lcom/commsource/studio/layer/c;->s0()Z
@@ -826,7 +763,6 @@
 
     new-array p2, p2, [F
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -843,19 +779,16 @@
 
     aput v1, p2, v3
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-virtual {v1, p2}, Lcom/commsource/studio/layer/BaseLayer;->U([F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/c$b;->f:Lcom/commsource/studio/layer/c;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/c;->p0(Lcom/commsource/studio/layer/c;)Ljava/util/LinkedList;
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -873,7 +806,6 @@
 
     check-cast v4, Lcom/commsource/studio/layer/c$a;
 
-    .line 5
     aget v5, p2, v2
 
     aget v6, p2, v3
@@ -882,7 +814,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

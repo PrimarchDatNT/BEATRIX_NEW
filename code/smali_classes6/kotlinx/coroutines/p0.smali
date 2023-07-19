@@ -51,7 +51,6 @@
 
     const-string v0, "kotlinx.coroutines.debug"
 
-    .line 1
     invoke-static {v0}, Lcotlinx/coroutines/internal/e0;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -64,7 +63,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
@@ -86,7 +84,6 @@
 
     const-string v3, "auto"
 
-    .line 3
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -101,7 +98,6 @@
     :cond_1
     const-string v3, "off"
 
-    .line 4
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -113,7 +109,6 @@
     :cond_2
     const-string v3, "on"
 
-    .line 5
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -134,7 +129,6 @@
     :goto_1
     const/4 v0, 0x1
 
-    .line 6
     :goto_2
     sput-boolean v0, Lcotlinx/coroutines/p0;->g:Z
 
@@ -142,7 +136,6 @@
 
     const-string v0, "kotlinx.coroutines.stacktrace.recovery"
 
-    .line 7
     invoke-static {v0, v1}, Lcotlinx/coroutines/internal/e0;->e(Ljava/lang/String;Z)Z
 
     move-result v0
@@ -157,7 +150,6 @@
     :goto_3
     sput-boolean v1, Lcotlinx/coroutines/p0;->h:Z
 
-    .line 8
     new-instance v0, Ljava/util/concurrent/atomic/AtomicLong;
 
     const-wide/16 v1, 0x0
@@ -168,7 +160,6 @@
 
     return-void
 
-    .line 9
     :cond_5
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -213,7 +204,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
@@ -249,7 +239,6 @@
 .method public static final b()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcotlinx/coroutines/p0;->f:Z
 
     return v0
@@ -260,7 +249,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/p0;->i:Ljava/util/concurrent/atomic/AtomicLong;
 
     return-object v0
@@ -269,7 +257,6 @@
 .method public static final d()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcotlinx/coroutines/p0;->g:Z
 
     return v0
@@ -278,7 +265,6 @@
 .method public static final e()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcotlinx/coroutines/p0;->h:Z
 
     return v0
@@ -287,7 +273,6 @@
 .method public static final f()V
     .locals 3
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/p0;->i:Ljava/util/concurrent/atomic/AtomicLong;
 
     const-wide/16 v1, 0x0

@@ -54,15 +54,12 @@
         }
     .end annotation
 
-    .line 2
     iput-object p1, p0, Lio/grpc/y0$h;->c:Lio/grpc/y0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p2, p0, Lio/grpc/y0$h;->a:Lio/grpc/y0$i;
 
-    .line 4
     iput p3, p0, Lio/grpc/y0$h;->b:I
 
     return-void
@@ -71,7 +68,6 @@
 .method synthetic constructor <init>(Lio/grpc/y0;Lio/grpc/y0$i;ILio/grpc/y0$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lio/grpc/y0$h;-><init>(Lio/grpc/y0;Lio/grpc/y0$i;I)V
 
     return-void
@@ -80,7 +76,6 @@
 .method static synthetic b(Lio/grpc/y0$h;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lio/grpc/y0$h;->b:I
 
     return p0
@@ -89,7 +84,6 @@
 .method static synthetic c(Lio/grpc/y0$h;)Lio/grpc/y0$i;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/y0$h;->a:Lio/grpc/y0$i;
 
     return-object p0
@@ -107,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/y0$h$a;
 
     invoke-direct {v0, p0}, Lio/grpc/y0$h$a;-><init>(Lio/grpc/y0$h;)V

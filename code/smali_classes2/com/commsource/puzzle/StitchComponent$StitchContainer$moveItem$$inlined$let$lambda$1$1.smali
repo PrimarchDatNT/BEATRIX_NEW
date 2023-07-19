@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
@@ -77,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveItem$$inlined$let$lambda$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveItem$$inlined$let$lambda$1;
 
     iget-object v2, v1, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveItem$$inlined$let$lambda$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer;
@@ -98,7 +96,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveItem$$inlined$let$lambda$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveItem$$inlined$let$lambda$1;
 
     iget-object v2, v2, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveItem$$inlined$let$lambda$1;->$view$inlined:Landroid/view/View;
@@ -123,10 +120,8 @@
 
     const/4 v4, 0x0
 
-    .line 4
     invoke-virtual {v1, v4, v2}, Landroid/graphics/RectF;->offset(FF)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveItem$$inlined$let$lambda$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveItem$$inlined$let$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveItem$$inlined$let$lambda$1;->$view$inlined:Landroid/view/View;
@@ -135,7 +130,6 @@
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

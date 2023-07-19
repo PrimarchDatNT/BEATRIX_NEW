@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/common/animutil/ObjAnim;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$1;->invoke(Lcom/meitu/common/animutil/ObjAnim;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1;
 
     iget-object v1, v1, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1;->this$0:Lcom/commsource/puzzle/StitchComponent;
@@ -96,7 +94,6 @@
 
     new-array v2, v1, [F
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1;
 
     iget-object v3, v3, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1;->this$0:Lcom/commsource/puzzle/StitchComponent;
@@ -121,10 +118,8 @@
 
     aput v2, v1, v4
 
-    .line 4
     invoke-virtual {p1, v1}, Lcom/meitu/common/animutil/ObjAnim;->b0([F)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

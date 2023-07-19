@@ -23,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/meitu/global/billing/net/i;->a:Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -64,7 +62,6 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p1, Lcom/meitu/global/billing/net/DataModel;->c:Ljava/lang/String;
 
     const-string v1, "0"
@@ -77,7 +74,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     iget-object v1, p1, Lcom/meitu/global/billing/net/DataModel;->c:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/meitu/global/billing/net/DataModel;->d:Ljava/lang/String;
@@ -89,7 +85,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 4
     iget-object v1, p1, Lcom/meitu/global/billing/net/DataModel;->c:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/meitu/global/billing/net/DataModel;->d:Ljava/lang/String;

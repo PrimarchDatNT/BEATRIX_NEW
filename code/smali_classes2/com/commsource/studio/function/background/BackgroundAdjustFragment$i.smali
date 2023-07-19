@@ -66,36 +66,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$i;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->D()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 3
     const-class v3, Lcom/commsource/studio/function/composition/a;
 
     invoke-virtual {v2, p1, v3}, Lcom/commsource/widget/h1/c;->g(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/widget/h1/c;->k()Ljava/util/List;
 
     move-result-object p1
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-virtual {v1, p1, v2}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$i;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
@@ -128,7 +122,6 @@
     :goto_0
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -141,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$i;->a(Ljava/util/List;)V

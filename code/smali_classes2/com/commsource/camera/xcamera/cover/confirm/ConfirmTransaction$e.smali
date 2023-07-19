@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->z(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;)Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -72,7 +71,6 @@
 
     const-string v1, "movecheck_edit"
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     goto :goto_0
@@ -84,10 +82,8 @@
 
     const-string v3, "shoot"
 
-    .line 3
     invoke-static {v1, v2, v3}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :goto_0
     new-instance v1, Lcom/commsource/util/p2/c;
 
@@ -103,7 +99,6 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 5
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e$a;
 
     const/4 v6, 0x0
@@ -118,13 +113,10 @@
 
     move-object v8, p0
 
-    .line 6
     invoke-direct/range {v3 .. v8}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e$a;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/beautyplus/router/RouterEntity;ILcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e;)V
 
-    .line 7
     invoke-virtual {v1, v2}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -138,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e;->a(Ljava/lang/String;)V

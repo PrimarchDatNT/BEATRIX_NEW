@@ -36,10 +36,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_camera_beauty_rv:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
@@ -86,10 +84,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -100,12 +96,10 @@
 
     if-nez p2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -119,7 +113,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 5
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result v4
@@ -131,7 +124,6 @@
     :cond_1
     const/16 v4, 0x7b
 
-    .line 6
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -148,7 +140,6 @@
 
     if-eqz p3, :cond_3
 
-    .line 7
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/c;->p:Lcom/commsource/beautyplus/f0/yd;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/yd;->c:Lcom/commsource/widget/AutoFitTextView;
@@ -165,7 +156,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     :goto_0
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/c;->p:Lcom/commsource/beautyplus/f0/yd;
@@ -180,7 +170,6 @@
 
     invoke-virtual {p3, v4}, Landroid/widget/TextView;->setText(I)V
 
-    .line 9
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/c;->p:Lcom/commsource/beautyplus/f0/yd;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/yd;->c:Lcom/commsource/widget/AutoFitTextView;
@@ -193,7 +182,6 @@
 
     invoke-virtual {p3, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 10
     :cond_3
     :goto_1
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/a;->X()Z
@@ -202,7 +190,6 @@
 
     if-eqz p3, :cond_5
 
-    .line 11
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getBeautyType()I
@@ -225,7 +212,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_4
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/c;->p:Lcom/commsource/beautyplus/f0/yd;
 
@@ -243,7 +229,6 @@
 
     invoke-virtual {p3, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 13
     :cond_5
     :goto_2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
@@ -252,7 +237,6 @@
 
     if-eqz p2, :cond_6
 
-    .line 14
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/c;->p:Lcom/commsource/beautyplus/f0/yd;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/yd;->a:Lcom/commsource/widget/IconFrontView;
@@ -263,7 +247,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 15
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/c;->p:Lcom/commsource/beautyplus/f0/yd;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/yd;->c:Lcom/commsource/widget/AutoFitTextView;
@@ -276,7 +259,6 @@
 
     goto :goto_3
 
-    .line 16
     :cond_6
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/a;->Y()Z
 
@@ -284,7 +266,6 @@
 
     if-eqz p2, :cond_7
 
-    .line 17
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/c;->p:Lcom/commsource/beautyplus/f0/yd;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/yd;->a:Lcom/commsource/widget/IconFrontView;
@@ -295,7 +276,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 18
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/c;->p:Lcom/commsource/beautyplus/f0/yd;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/yd;->c:Lcom/commsource/widget/AutoFitTextView;
@@ -308,7 +288,6 @@
 
     goto :goto_3
 
-    .line 19
     :cond_7
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/c;->p:Lcom/commsource/beautyplus/f0/yd;
 
@@ -320,7 +299,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 20
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/c;->p:Lcom/commsource/beautyplus/f0/yd;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/yd;->c:Lcom/commsource/widget/AutoFitTextView;
@@ -331,7 +309,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 21
     :goto_3
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -343,7 +320,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/c;->p:Lcom/commsource/beautyplus/f0/yd;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/yd;->b:Landroid/widget/RelativeLayout;
@@ -356,7 +332,6 @@
 
     goto :goto_4
 
-    .line 23
     :cond_8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/c;->p:Lcom/commsource/beautyplus/f0/yd;
 
@@ -368,13 +343,11 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
-    .line 24
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 25
     :cond_9
     new-instance p1, Lcotlin/TypeCastException;
 

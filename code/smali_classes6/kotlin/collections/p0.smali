@@ -75,7 +75,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/collections/p0;->a:Ljava/util/Map;
@@ -95,26 +94,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->o()Ljava/util/Map;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcotlin/collections/p0;->b:Lcotlin/jvm/u/l;
 
     invoke-interface {v0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
@@ -139,7 +134,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->o()Ljava/util/Map;
 
     move-result-object v0
@@ -164,7 +158,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->o()Ljava/util/Map;
 
     move-result-object v0
@@ -179,7 +172,6 @@
 .method public c()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->o()Ljava/util/Map;
 
     move-result-object v0
@@ -206,7 +198,6 @@
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->o()Ljava/util/Map;
 
     move-result-object v0
@@ -221,7 +212,6 @@
 .method public containsValue(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->o()Ljava/util/Map;
 
     move-result-object v0
@@ -246,7 +236,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->o()Ljava/util/Map;
 
     move-result-object v0
@@ -269,7 +258,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->a()Ljava/util/Set;
 
     move-result-object v0
@@ -284,7 +272,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->o()Ljava/util/Map;
 
     move-result-object v0
@@ -309,7 +296,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->o()Ljava/util/Map;
 
     move-result-object v0
@@ -324,7 +310,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->o()Ljava/util/Map;
 
     move-result-object v0
@@ -339,7 +324,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->o()Ljava/util/Map;
 
     move-result-object v0
@@ -361,7 +345,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->b()Ljava/util/Set;
 
     move-result-object v0
@@ -382,7 +365,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/p0;->a:Ljava/util/Map;
 
     return-object v0
@@ -446,7 +428,6 @@
 .method public final bridge size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->c()I
 
     move-result v0
@@ -459,7 +440,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->o()Ljava/util/Map;
 
     move-result-object v0
@@ -481,7 +461,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/p0;->d()Ljava/util/Collection;
 
     move-result-object v0

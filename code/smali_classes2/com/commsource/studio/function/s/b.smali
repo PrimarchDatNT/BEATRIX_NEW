@@ -60,17 +60,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/function/s/b;->e0:Landroid/util/SparseArray;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/effect/remold/b;
 
     invoke-direct {v0}, Lcom/commsource/studio/effect/remold/b;-><init>()V
@@ -87,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/s/b;->h0:Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -102,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/s/b;->g0:Lcom/commsource/studio/effect/remold/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/s/b;->i0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -132,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/s/b;->e0:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -147,7 +140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/function/s/b;->L1(ILcom/commsource/studio/effect/remold/a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -162,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/s/b;->M1(Lcom/commsource/studio/effect/remold/RemoldPartEnum;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -177,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/s/b;->d0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -192,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/s/b;->h0:Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -207,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/s/b;->g0:Lcom/commsource/studio/effect/remold/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -222,7 +210,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/s/b;->i0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -237,10 +224,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p2, p0, Lcom/commsource/studio/function/s/b;->g0:Lcom/commsource/studio/effect/remold/a;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
     if-nez v1, :cond_0
@@ -252,7 +237,6 @@
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/yb;->M:Lcom/commsource/widget/XSeekBar;
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/studio/effect/remold/a;->b()Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     move-result-object v2
@@ -267,20 +251,16 @@
 
     const/16 v2, -0x64
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->setMinProgress(I)V
 
-    .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/widget/XSeekBar;->setMaxProgress(I)V
 
     const/4 v2, 0x1
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->setEnableCenterPoint(Z)V
 
     const/high16 v2, 0x3f000000    # 0.5f
 
-    .line 7
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->setCenterPointPercent(F)V
 
     goto :goto_0
@@ -288,21 +268,16 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 8
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->setMinProgress(I)V
 
-    .line 9
     invoke-virtual {v1, v3}, Lcom/commsource/widget/XSeekBar;->setMaxProgress(I)V
 
-    .line 10
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->setEnableCenterPoint(Z)V
 
     const/4 v2, 0x0
 
-    .line 11
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->setCenterPointPercent(F)V
 
-    .line 12
     :goto_0
     invoke-virtual {p2}, Lcom/commsource/studio/effect/remold/a;->a()F
 
@@ -316,14 +291,12 @@
 
     invoke-virtual {v1, p2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 13
     iget-object p2, p0, Lcom/commsource/studio/function/s/b;->j0:Landroidx/recyclerview/widget/RecyclerView;
 
     if-eqz p2, :cond_2
 
     invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 14
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -337,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
     const-string v2, "mViewBinding"
@@ -361,10 +333,8 @@
 
     check-cast v1, Lcom/commsource/widget/h1/e;
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
     if-nez v1, :cond_1
@@ -386,10 +356,8 @@
 
     invoke-static {v1, v3, v6, v4, v5}, Lcom/commsource/widget/LineSelectView;->j(Lcom/commsource/widget/LineSelectView;IZILjava/lang/Object;)V
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/studio/function/s/b;->h0:Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
     if-nez v1, :cond_2
@@ -412,7 +380,6 @@
     :goto_0
     if-ge v3, v1, :cond_4
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
     if-nez v4, :cond_3
@@ -436,7 +403,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/function/s/b;->e0:Landroid/util/SparseArray;
 
@@ -458,7 +424,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/function/s/b;->j0:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/s/b;->e0:Landroid/util/SparseArray;
 
     invoke-virtual {p1}, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->getId()I
@@ -479,7 +444,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/function/s/b;->e0:Landroid/util/SparseArray;
 
     invoke-virtual {p1}, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->getId()I
@@ -498,7 +462,6 @@
 
     check-cast v1, Lcom/commsource/widget/h1/e;
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/s/b;->K1()Lcom/commsource/studio/effect/remold/b;
 
     move-result-object v2
@@ -517,27 +480,22 @@
 
     if-eqz p1, :cond_7
 
-    .line 11
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 12
     const-class v3, Lcom/commsource/studio/function/s/a;
 
     invoke-virtual {v2, p1, v3}, Lcom/commsource/widget/h1/c;->g(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 13
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->k()Ljava/util/List;
 
     move-result-object v2
 
-    .line 14
     invoke-virtual {v1, v2, v6}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 15
     iget-object v2, p0, Lcom/commsource/studio/function/s/b;->g0:Lcom/commsource/studio/effect/remold/a;
 
     invoke-static {p1, v2}, Lcotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
@@ -546,10 +504,8 @@
 
     if-ltz v2, :cond_6
 
-    .line 16
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/studio/function/s/b;->g0:Lcom/commsource/studio/effect/remold/a;
 
     if-nez p1, :cond_5
@@ -561,7 +517,6 @@
 
     goto :goto_1
 
-    .line 18
     :cond_6
     invoke-virtual {v1}, Lcom/commsource/widget/h1/e;->d()I
 
@@ -569,7 +524,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 19
     invoke-virtual {v1}, Lcom/commsource/widget/h1/e;->d()I
 
     move-result v2
@@ -586,14 +540,12 @@
 
     invoke-direct {p0, v2, p1}, Lcom/commsource/studio/function/s/b;->L1(ILcom/commsource/studio/effect/remold/a;)V
 
-    .line 20
     :cond_7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 21
     :cond_8
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -613,7 +565,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/s/b;->d0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -630,10 +581,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/s/b;->i0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     if-eqz v1, :cond_0
@@ -648,7 +597,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -662,22 +610,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G0()V
 
-    .line 2
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x20
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/studio/effect/remold/RemoldEnum;->values()[Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     move-result-object v2
 
-    .line 4
     array-length v3, v2
 
     const/4 v4, 0x0
@@ -687,7 +631,6 @@
 
     aget-object v5, v2, v4
 
-    .line 5
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -720,7 +663,6 @@
 
     invoke-interface {v1, v6, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v5
@@ -746,10 +688,8 @@
     :cond_1
     const-string v2, "beaureshapeyes"
 
-    .line 7
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 8
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -758,7 +698,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/statistics/c;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -767,7 +706,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/statistics/c;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -780,7 +718,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/function/s/b$b;
 
     new-instance v2, Lcom/commsource/studio/r0/c;
@@ -789,10 +726,8 @@
 
     invoke-direct {v1, p0, v2}, Lcom/commsource/studio/function/s/b$b;-><init>(Lcom/commsource/studio/function/s/b;Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/s/b;->K1()Lcom/commsource/studio/effect/remold/b;
 
     move-result-object v2
@@ -811,10 +746,8 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/effect/remold/b;->w(Lcom/commsource/camera/d1/g/j;)V
 
-    .line 4
     iput-object v1, p0, Lcom/commsource/studio/function/s/b;->d0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -829,7 +762,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/s/b;->f0:Lcom/commsource/studio/effect/remold/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -844,19 +776,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->n0()Lcom/commsource/beautyplus/router/RouterEntity;
 
     move-result-object v1
 
     if-eqz v1, :cond_4
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getLastPathSegment()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     sget-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->Smile:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     invoke-virtual {v2}, Lcom/commsource/studio/effect/remold/RemoldEnum;->getDictValue()Ljava/lang/String;
@@ -877,7 +806,6 @@
 
     goto :goto_2
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/s/b;->K1()Lcom/commsource/studio/effect/remold/b;
 
@@ -899,7 +827,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 5
     invoke-virtual {v2}, Landroid/util/SparseArray;->size()I
 
     move-result v4
@@ -909,7 +836,6 @@
     :goto_0
     if-ge v5, v4, :cond_2
 
-    .line 6
     invoke-virtual {v2, v5}, Landroid/util/SparseArray;->keyAt(I)I
 
     invoke-virtual {v2, v5}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
@@ -918,7 +844,6 @@
 
     check-cast v6, Lcom/commsource/studio/effect/remold/a;
 
-    .line 7
     invoke-virtual {v6}, Lcom/commsource/studio/effect/remold/a;->b()Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     move-result-object v7
@@ -933,7 +858,6 @@
 
     if-eqz v7, :cond_1
 
-    .line 8
     iput-object v6, p0, Lcom/commsource/studio/function/s/b;->g0:Lcom/commsource/studio/effect/remold/a;
 
     :cond_1
@@ -941,18 +865,15 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/s/b;->g0:Lcom/commsource/studio/effect/remold/a;
 
     if-eqz v1, :cond_4
 
-    .line 10
     invoke-static {}, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->values()[Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
     move-result-object v2
 
-    .line 11
     array-length v4, v2
 
     :goto_1
@@ -960,7 +881,6 @@
 
     aget-object v5, v2, v3
 
-    .line 12
     invoke-virtual {v5}, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->getRemoldEnums()Ljava/util/List;
 
     move-result-object v6
@@ -975,7 +895,6 @@
 
     if-eqz v6, :cond_3
 
-    .line 13
     iput-object v5, p0, Lcom/commsource/studio/function/s/b;->h0:Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
     :cond_3
@@ -983,19 +902,16 @@
 
     goto :goto_1
 
-    .line 14
     :cond_4
     :goto_2
     iget-object v1, p0, Lcom/commsource/studio/function/s/b;->g0:Lcom/commsource/studio/effect/remold/a;
 
     if-nez v1, :cond_5
 
-    .line 15
     sget-object v1, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->FaceLift:Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
     iput-object v1, p0, Lcom/commsource/studio/function/s/b;->h0:Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
-    .line 16
     :cond_5
     iget-object v1, p0, Lcom/commsource/studio/function/s/b;->h0:Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
@@ -1006,7 +922,6 @@
     :cond_6
     invoke-direct {p0, v1}, Lcom/commsource/studio/function/s/b;->M1(Lcom/commsource/studio/effect/remold/RemoldPartEnum;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1027,7 +942,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/s/b;->f0:Lcom/commsource/studio/effect/remold/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1054,14 +968,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/s/b;->K1()Lcom/commsource/studio/effect/remold/b;
 
     move-result-object p1
 
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/studio/function/BaseSubFragment;->V(Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1074,7 +986,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/s/b;->K1()Lcom/commsource/studio/effect/remold/b;
 
     move-result-object v1
@@ -1091,7 +1002,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/remold/b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/s/b;->N1(Lcom/commsource/studio/effect/remold/b;)V
@@ -1108,7 +1018,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v1}, Lcom/commsource/studio/n0;->i()I
@@ -1137,7 +1046,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1168,7 +1076,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p3
@@ -1195,7 +1102,6 @@
 
     if-le p3, v2, :cond_0
 
-    .line 2
     new-instance p3, Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1206,10 +1112,8 @@
 
     invoke-direct {p3, v2}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;-><init>(Landroid/content/Context;)V
 
-    .line 3
     invoke-static {p0, p3, v3, v1, v0}, Lcom/commsource/studio/function/BaseSubFragment;->F(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/layer/d;IILjava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p3}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v2
@@ -1218,10 +1122,8 @@
 
     invoke-virtual {v2, v4}, Landroid/view/View;->setAlpha(F)V
 
-    .line 5
     iput-object p3, p0, Lcom/commsource/studio/function/s/b;->i0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
-    .line 6
     :cond_0
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/yb;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/yb;
 
@@ -1237,21 +1139,17 @@
 
     if-nez p1, :cond_1
 
-    .line 7
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/yb;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/s/b;->e0:Landroid/util/SparseArray;
 
-    .line 9
     invoke-static {}, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->values()[Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
     move-result-object v2
 
-    .line 10
     array-length v4, v2
 
     const/4 v5, 0x0
@@ -1261,7 +1159,6 @@
 
     aget-object v6, v2, v5
 
-    .line 11
     new-instance v7, Lcotlin/Pair;
 
     new-instance v8, Landroidx/recyclerview/widget/RecyclerView;
@@ -1278,7 +1175,6 @@
 
     invoke-direct {v7, v8, v9}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 12
     invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
@@ -1297,7 +1193,6 @@
 
     invoke-virtual {v8, v9}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 13
     invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
@@ -1312,7 +1207,6 @@
 
     invoke-virtual {v8, v9}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 14
     invoke-virtual {v7}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v8
@@ -1327,14 +1221,12 @@
 
     invoke-virtual {v8, v9, v10}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 15
     invoke-virtual {v6}, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->getId()I
 
     move-result v6
 
     invoke-virtual {p1, v6, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 16
     iget-object v6, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
     if-nez v6, :cond_2
@@ -1364,7 +1256,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_3
     iget-object p1, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
@@ -1417,10 +1308,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
     const-string p2, "mViewBinding"
@@ -1438,7 +1327,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
     if-nez p1, :cond_1
@@ -1454,7 +1342,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
     if-nez p1, :cond_2
@@ -1470,7 +1357,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
     if-nez p1, :cond_3
@@ -1498,7 +1384,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
     if-nez p1, :cond_4
@@ -1516,7 +1401,6 @@
 
     invoke-direct {p2, v1}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
-    .line 7
     invoke-static {}, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->values()[Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
     move-result-object v1
@@ -1531,7 +1415,6 @@
 
     invoke-virtual {p2, v1, v2, v3}, Lcom/commsource/widget/h1/e;->O(Ljava/util/List;Ljava/lang/Class;Z)V
 
-    .line 8
     const-class v1, Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
     new-instance v2, Lcom/commsource/studio/function/s/b$c;
@@ -1540,10 +1423,8 @@
 
     invoke-virtual {p2, v1, v2}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 9
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -1566,7 +1447,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

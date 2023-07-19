@@ -36,16 +36,12 @@
 .method constructor <init>(JII)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/google/firebase/firestore/local/z$a;->a:J
 
-    .line 3
     iput p3, p0, Lcom/google/firebase/firestore/local/z$a;->b:I
 
-    .line 4
     iput p4, p0, Lcom/google/firebase/firestore/local/z$a;->c:I
 
     return-void
@@ -54,7 +50,6 @@
 .method public static a()Lcom/google/firebase/firestore/local/z$a;
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/local/z$a;
 
     const-wide/32 v1, 0x6400000
@@ -71,7 +66,6 @@
 .method public static b()Lcom/google/firebase/firestore/local/z$a;
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/local/z$a;
 
     const-wide/16 v1, -0x1
@@ -86,7 +80,6 @@
 .method public static c(J)Lcom/google/firebase/firestore/local/z$a;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/local/z$a;
 
     const/16 v1, 0xa

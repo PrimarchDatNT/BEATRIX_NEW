@@ -34,10 +34,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -62,12 +60,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager$b;->a:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -87,12 +83,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager$b;->a:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -106,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager$b;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -126,12 +119,10 @@
 
     check-cast v2, Lcom/commsource/billing/b$c;
 
-    .line 2
     invoke-interface {v2, p1, p2}, Lcom/commsource/billing/b$c;->k(II)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -159,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager$b;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -179,12 +169,10 @@
 
     check-cast v2, Lcom/commsource/billing/b$c;
 
-    .line 2
     invoke-interface {v2, p1, p2}, Lcom/commsource/billing/b$c;->o(ILjava/util/Map;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -198,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager$b;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -218,12 +205,10 @@
 
     check-cast v2, Lcom/commsource/billing/b$c;
 
-    .line 2
     invoke-interface {v2}, Lcom/commsource/billing/b$c;->q()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -249,7 +234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager$b;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -269,12 +253,10 @@
 
     check-cast v2, Lcom/commsource/billing/b$c;
 
-    .line 2
     invoke-interface {v2, p1, p2}, Lcom/commsource/billing/b$c;->r(ILjava/util/List;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -288,7 +270,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager$b;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -308,12 +289,10 @@
 
     check-cast v2, Lcom/commsource/billing/b$c;
 
-    .line 2
     invoke-interface {v2, p1}, Lcom/commsource/billing/b$c;->s(I)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -61,49 +61,34 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/th2;->a:J
 
-    .line 3
     iput-boolean p3, p0, Lcom/google/android/gms/internal/ads/th2;->b:Z
 
-    .line 4
     iput-boolean p4, p0, Lcom/google/android/gms/internal/ads/th2;->c:Z
 
-    .line 5
     iput p5, p0, Lcom/google/android/gms/internal/ads/th2;->d:I
 
-    .line 6
     iput-object p6, p0, Lcom/google/android/gms/internal/ads/th2;->e:Landroid/graphics/Rect;
 
-    .line 7
     iput-object p7, p0, Lcom/google/android/gms/internal/ads/th2;->f:Landroid/graphics/Rect;
 
-    .line 8
     iput-object p8, p0, Lcom/google/android/gms/internal/ads/th2;->g:Landroid/graphics/Rect;
 
-    .line 9
     iput-boolean p9, p0, Lcom/google/android/gms/internal/ads/th2;->h:Z
 
-    .line 10
     iput-object p10, p0, Lcom/google/android/gms/internal/ads/th2;->i:Landroid/graphics/Rect;
 
-    .line 11
     iput-boolean p11, p0, Lcom/google/android/gms/internal/ads/th2;->j:Z
 
-    .line 12
     iput-object p12, p0, Lcom/google/android/gms/internal/ads/th2;->k:Landroid/graphics/Rect;
 
-    .line 13
     iput p13, p0, Lcom/google/android/gms/internal/ads/th2;->l:F
 
-    .line 14
     iput-boolean p14, p0, Lcom/google/android/gms/internal/ads/th2;->m:Z
 
-    .line 15
     iput-object p15, p0, Lcom/google/android/gms/internal/ads/th2;->n:Ljava/util/List;
 
     return-void

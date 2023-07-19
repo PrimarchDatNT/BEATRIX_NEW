@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,12 +37,10 @@
 .method public a()Lcom/google/firebase/auth/UserProfileChangeRequest;
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/UserProfileChangeRequest;
 
     iget-object v1, p0, Lcom/google/firebase/auth/UserProfileChangeRequest$a;->a:Ljava/lang/String;
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/auth/UserProfileChangeRequest$a;->b:Landroid/net/Uri;
 
     if-nez v2, :cond_0
@@ -78,12 +75,10 @@
 
     const/4 p1, 0x1
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/firebase/auth/UserProfileChangeRequest$a;->c:Z
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iput-object p1, p0, Lcom/google/firebase/auth/UserProfileChangeRequest$a;->a:Ljava/lang/String;
 
@@ -102,12 +97,10 @@
 
     const/4 p1, 0x1
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/firebase/auth/UserProfileChangeRequest$a;->d:Z
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iput-object p1, p0, Lcom/google/firebase/auth/UserProfileChangeRequest$a;->b:Landroid/net/Uri;
 

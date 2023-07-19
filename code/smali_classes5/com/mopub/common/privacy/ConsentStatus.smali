@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 12
 
-    .line 1
     new-instance v0, Lcom/mopub/common/privacy/ConsentStatus;
 
     const-string v1, "EXPLICIT_YES"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/mopub/common/privacy/ConsentStatus;->EXPLICIT_YES:Lcom/mopub/common/privacy/ConsentStatus;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/privacy/ConsentStatus;
 
     const-string v3, "EXPLICIT_NO"
@@ -64,7 +62,6 @@
 
     sput-object v1, Lcom/mopub/common/privacy/ConsentStatus;->EXPLICIT_NO:Lcom/mopub/common/privacy/ConsentStatus;
 
-    .line 3
     new-instance v3, Lcom/mopub/common/privacy/ConsentStatus;
 
     const-string v5, "UNKNOWN"
@@ -77,7 +74,6 @@
 
     sput-object v3, Lcom/mopub/common/privacy/ConsentStatus;->UNKNOWN:Lcom/mopub/common/privacy/ConsentStatus;
 
-    .line 4
     new-instance v5, Lcom/mopub/common/privacy/ConsentStatus;
 
     const-string v7, "POTENTIAL_WHITELIST"
@@ -90,7 +86,6 @@
 
     sput-object v5, Lcom/mopub/common/privacy/ConsentStatus;->POTENTIAL_WHITELIST:Lcom/mopub/common/privacy/ConsentStatus;
 
-    .line 5
     new-instance v7, Lcom/mopub/common/privacy/ConsentStatus;
 
     const-string v9, "DNT"
@@ -117,7 +112,6 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lcom/mopub/common/privacy/ConsentStatus;->$VALUES:[Lcom/mopub/common/privacy/ConsentStatus;
 
     return-void
@@ -137,10 +131,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/common/privacy/ConsentStatus;->mValue:Ljava/lang/String;
 
     return-void
@@ -157,12 +149,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/mopub/common/privacy/ConsentStatus;->UNKNOWN:Lcom/mopub/common/privacy/ConsentStatus;
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/mopub/common/privacy/ConsentStatus;->values()[Lcom/mopub/common/privacy/ConsentStatus;
 
@@ -177,7 +167,6 @@
 
     aget-object v3, v0, v2
 
-    .line 3
     invoke-virtual {v3}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v4
@@ -195,7 +184,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     sget-object p0, Lcom/mopub/common/privacy/ConsentStatus;->UNKNOWN:Lcom/mopub/common/privacy/ConsentStatus;
 
@@ -205,7 +193,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/privacy/ConsentStatus;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/privacy/ConsentStatus;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -220,7 +207,6 @@
 .method public static values()[Lcom/mopub/common/privacy/ConsentStatus;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/privacy/ConsentStatus;->$VALUES:[Lcom/mopub/common/privacy/ConsentStatus;
 
     invoke-virtual {v0}, [Lcom/mopub/common/privacy/ConsentStatus;->clone()Ljava/lang/Object;
@@ -239,7 +225,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/ConsentStatus;->mValue:Ljava/lang/String;
 
     return-object v0

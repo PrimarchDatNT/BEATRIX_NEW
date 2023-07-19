@@ -26,10 +26,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/m6;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/n8;->a:Lcom/google/android/gms/internal/firebase_remote_config/m6;
 
     return-void
@@ -38,7 +36,6 @@
 .method static synthetic b(Lcom/google/android/gms/internal/firebase_remote_config/n8;)Lcom/google/android/gms/internal/firebase_remote_config/m6;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/firebase_remote_config/n8;->a:Lcom/google/android/gms/internal/firebase_remote_config/m6;
 
     return-object p0
@@ -49,7 +46,6 @@
 .method public final G0(Lcom/google/android/gms/internal/firebase_remote_config/zzfx;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -60,7 +56,6 @@
 .method public final b1(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/n8;->a:Lcom/google/android/gms/internal/firebase_remote_config/m6;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/m6;->b1(I)Ljava/lang/Object;
@@ -73,7 +68,6 @@
 .method public final synthetic get(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/n8;->a:Lcom/google/android/gms/internal/firebase_remote_config/m6;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -96,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/q8;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/firebase_remote_config/q8;-><init>(Lcom/google/android/gms/internal/firebase_remote_config/n8;)V
@@ -115,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/r8;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/r8;-><init>(Lcom/google/android/gms/internal/firebase_remote_config/n8;I)V
@@ -133,7 +125,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/n8;->a:Lcom/google/android/gms/internal/firebase_remote_config/m6;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/firebase_remote_config/m6;->p()Ljava/util/List;
@@ -146,7 +137,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/n8;->a:Lcom/google/android/gms/internal/firebase_remote_config/m6;
 
     invoke-interface {v0}, Ljava/util/List;->size()I

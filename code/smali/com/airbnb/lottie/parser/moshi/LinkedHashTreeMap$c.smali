@@ -40,7 +40,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$c;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
     const/4 v1, 0x0
@@ -67,14 +65,11 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     iget-object v2, v0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
-    .line 3
     iput-object v1, v0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
-    .line 4
     iget-object v1, v0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;->c:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
     :goto_0
@@ -86,15 +81,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     iput-object v1, v2, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
-    .line 6
     iget-object v1, v2, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;->b:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iput-object v1, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$c;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
@@ -116,10 +108,8 @@
     :goto_0
     if-eqz p1, :cond_0
 
-    .line 1
     iput-object v0, p1, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
-    .line 2
     iget-object v0, p1, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;->b:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
     move-object v1, v0
@@ -130,7 +120,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iput-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$c;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 

@@ -24,13 +24,10 @@
 .method constructor <init>(Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/appsflyer/internal/p$c;->valueOf:Ljava/lang/String;
 
-    .line 3
     iput-boolean p2, p0, Lcom/appsflyer/internal/p$c;->values:Z
 
     return-void
@@ -41,7 +38,6 @@
 .method public final $$b()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/appsflyer/internal/p$c;->values:Z
 
     return v0

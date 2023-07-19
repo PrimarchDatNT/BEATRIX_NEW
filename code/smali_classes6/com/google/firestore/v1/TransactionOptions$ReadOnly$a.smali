@@ -31,7 +31,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-static {}, Lcom/google/firestore/v1/TransactionOptions$ReadOnly;->ah()Lcom/google/firestore/v1/TransactionOptions$ReadOnly;
 
     move-result-object v0
@@ -44,7 +43,6 @@
 .method synthetic constructor <init>(Lcom/google/firestore/v1/TransactionOptions$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firestore/v1/TransactionOptions$ReadOnly$a;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 .method public I()Lcom/google/firestore/v1/TransactionOptions$ReadOnly$ConsistencySelectorCase;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/TransactionOptions$ReadOnly;
@@ -70,10 +67,8 @@
 .method public Qg()Lcom/google/firestore/v1/TransactionOptions$ReadOnly$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/TransactionOptions$ReadOnly;
@@ -86,10 +81,8 @@
 .method public Rg()Lcom/google/firestore/v1/TransactionOptions$ReadOnly$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/TransactionOptions$ReadOnly;
@@ -102,10 +95,8 @@
 .method public Sg(Lcom/google/protobuf/f2;)Lcom/google/firestore/v1/TransactionOptions$ReadOnly$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/TransactionOptions$ReadOnly;
@@ -118,10 +109,8 @@
 .method public Tg(Lcom/google/protobuf/f2$b;)Lcom/google/firestore/v1/TransactionOptions$ReadOnly$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/TransactionOptions$ReadOnly;
@@ -134,10 +123,8 @@
 .method public Ug(Lcom/google/protobuf/f2;)Lcom/google/firestore/v1/TransactionOptions$ReadOnly$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/TransactionOptions$ReadOnly;
@@ -150,7 +137,6 @@
 .method public c()Lcom/google/protobuf/f2;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firestore/v1/TransactionOptions$ReadOnly;

@@ -51,17 +51,14 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_home_ar_material2:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Landroid/animation/ValueAnimator;
 
     invoke-direct {p1}, Landroid/animation/ValueAnimator;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->J:Landroid/animation/ValueAnimator;
 
-    .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/kf;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/kf;
@@ -70,7 +67,6 @@
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->J:Landroid/animation/ValueAnimator;
 
     new-instance p2, Lcom/commsource/home/material/HomeAr2ModuleVH$f$a;
@@ -79,14 +75,12 @@
 
     invoke-virtual {p1, p2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->J:Landroid/animation/ValueAnimator;
 
     const-wide/16 v0, 0xc8
 
     invoke-virtual {p1, v0, v1}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 6
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const-string p2, "itemView"
@@ -113,7 +107,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setPivotX(F)V
 
-    .line 7
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -138,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->x(F)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const-string v2, "itemView"
@@ -172,7 +163,6 @@
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 2
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -191,7 +181,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/LinearLayout;->setAlpha(F)V
 
-    .line 3
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -210,7 +199,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 4
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -227,14 +215,12 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setScaleX(F)V
 
-    .line 5
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setScaleY(F)V
 
-    .line 6
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -249,10 +235,8 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 7
     iput p1, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->p:F
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -271,7 +255,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->y(IZ)V
 
@@ -308,10 +291,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const-string p3, "itemView"
@@ -340,7 +321,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -364,7 +344,6 @@
     :cond_0
     const/high16 p1, -0x1000000
 
-    .line 4
     :goto_0
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -382,7 +361,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/util/l0;->X(Landroid/view/View;I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
@@ -393,7 +371,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 6
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v3
@@ -416,7 +393,6 @@
 
     move-result-object v1
 
-    .line 7
     sget-object v3, Lcom/commsource/home/c;->y:Lcom/commsource/home/c;
 
     const v4, 0x3e99999a    # 0.3f
@@ -439,7 +415,6 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {v3}, Lcom/commsource/home/c;->u()Lcom/bumptech/glide/request/g;
 
     move-result-object v1
@@ -450,12 +425,10 @@
 
     const/16 v1, 0x190
 
-    .line 9
     invoke-virtual {p1, v1}, Lcom/commsource/util/u0$d;->d(I)Lcom/commsource/util/u0$d;
 
     move-result-object p1
 
-    .line 10
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {v1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -470,7 +443,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -499,7 +471,6 @@
 
     move-result v5
 
-    .line 12
     :cond_3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -543,10 +514,8 @@
     :goto_3
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 13
     invoke-virtual {p0, v5, p3}, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->y(IZ)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -559,7 +528,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
 
     move-result v1
@@ -573,13 +541,11 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     :goto_0
     iget-object v1, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->J:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 3
     iget v1, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->p:F
 
     cmpg-float v2, p1, v1
@@ -588,7 +554,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->J:Landroid/animation/ValueAnimator;
 
     const/4 v2, 0x2
@@ -605,18 +570,15 @@
 
     invoke-virtual {p2, v2}, Landroid/animation/ValueAnimator;->setFloatValues([F)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->J:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-direct {p0, p1}, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->x(F)V
 
-    .line 7
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

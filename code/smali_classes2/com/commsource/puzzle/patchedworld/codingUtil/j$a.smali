@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/puzzle/patchedworld/codingUtil/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/j$a;->a:Lcom/commsource/puzzle/patchedworld/codingUtil/j;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,28 +45,24 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/j$a;->a:Lcom/commsource/puzzle/patchedworld/codingUtil/j;
 
     iget-boolean v1, v0, Lcom/commsource/puzzle/patchedworld/codingUtil/j;->c:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/commsource/puzzle/patchedworld/codingUtil/j;->a(Lcom/commsource/puzzle/patchedworld/codingUtil/j;)I
 
     move-result v1
 
     iput v1, v0, Lcom/commsource/puzzle/patchedworld/codingUtil/j;->b:I
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/j$a;->a:Lcom/commsource/puzzle/patchedworld/codingUtil/j;
 
     const/4 v1, 0x0
 
     iput-boolean v1, v0, Lcom/commsource/puzzle/patchedworld/codingUtil/j;->c:Z
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

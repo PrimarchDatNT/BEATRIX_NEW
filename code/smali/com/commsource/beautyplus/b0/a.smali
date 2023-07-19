@@ -40,17 +40,14 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautyplus/b0/a;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     const/16 v1, 0x10
@@ -79,29 +76,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p2, p1}, Lcom/commsource/beautyplus/b0/a;->d(Lcom/commsource/beautyplus/b0/d/b;Ljava/util/List;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     new-instance p1, Lcom/commsource/beautyplus/b0/b;
 
     invoke-direct {p1, p2}, Lcom/commsource/beautyplus/b0/b;-><init>(Lcom/commsource/beautyplus/b0/c;)V
 
     const/4 p2, 0x1
 
-    .line 3
     invoke-virtual {p1, p2}, Lcom/commsource/beautyplus/b0/b;->r(Z)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/beautyplus/b0/a;->a:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {p2, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -115,30 +107,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/b0/a;->f:Lcom/commsource/beautyplus/b0/a;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/beautyplus/b0/a;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/beautyplus/b0/a;->f:Lcom/commsource/beautyplus/b0/a;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/beautyplus/b0/a;
 
     invoke-direct {v2}, Lcom/commsource/beautyplus/b0/a;-><init>()V
 
     sput-object v2, Lcom/commsource/beautyplus/b0/a;->f:Lcom/commsource/beautyplus/b0/a;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -155,7 +142,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/beautyplus/b0/a;->f:Lcom/commsource/beautyplus/b0/a;
@@ -185,7 +171,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 1
     invoke-interface {p2}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
@@ -199,7 +184,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     invoke-interface {p2}, Ljava/util/List;->size()I
 
@@ -207,7 +191,6 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 3
     invoke-interface {p2, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -216,14 +199,12 @@
 
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-virtual {v3}, Lcom/commsource/beautyplus/b0/f/b/b;->g()Ljava/util/List;
 
     move-result-object v4
 
     if-eqz v4, :cond_1
 
-    .line 5
     invoke-virtual {v3}, Lcom/commsource/beautyplus/b0/f/b/b;->g()Ljava/util/List;
 
     move-result-object v4
@@ -242,10 +223,8 @@
 
     if-eqz v4, :cond_1
 
-    .line 6
     invoke-virtual {p1, v3}, Lcom/commsource/beautyplus/b0/d/b;->h(Lcom/commsource/beautyplus/b0/f/b/b;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -257,13 +236,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 9
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -280,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/b0/f/a;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -291,10 +267,8 @@
 
     iput-object v1, p0, Lcom/commsource/beautyplus/b0/a;->c:Lcom/commsource/beautyplus/b0/f/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/ardata/j;->n()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -315,19 +289,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/b0/a;->a:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautyplus/b0/a;->a:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->values()[Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
@@ -342,21 +313,18 @@
 
     aget-object v4, v1, v3
 
-    .line 4
     invoke-virtual {v4}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->isNeedSDialog()Z
 
     move-result v5
 
     if-eqz v5, :cond_2
 
-    .line 5
     invoke-virtual {v4}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->isOnLine()Z
 
     move-result v5
 
     if-eqz v5, :cond_1
 
-    .line 6
     new-instance v5, Lcom/commsource/beautyplus/b0/a$a;
 
     invoke-direct {v5, p0, v4}, Lcom/commsource/beautyplus/b0/a$a;-><init>(Lcom/commsource/beautyplus/b0/a;Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;)V
@@ -365,7 +333,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     :try_start_0
     iget-object v5, p0, Lcom/commsource/beautyplus/b0/a;->a:Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -395,7 +362,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     iget-object p1, p0, Lcom/commsource/beautyplus/b0/a;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -403,10 +369,8 @@
 
     invoke-virtual {p1, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/beautyplus/b0/a;->f()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -419,7 +383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/b0/a;->a:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     if-eqz v1, :cond_1
@@ -438,7 +401,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/b0/a;->a:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
@@ -459,14 +421,12 @@
 
     check-cast v2, Lcom/commsource/beautyplus/b0/b;
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/beautyplus/b0/b;->o()Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/beautyplus/b0/a;->d:Ljava/util/Map;
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/b0/b;->l()I
@@ -481,7 +441,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -500,7 +459,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v1}, Lcom/commsource/beautyplus/b0/a;->h(Landroid/content/Context;IZ)I
 
     move-result p1
@@ -528,7 +486,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/b0/a;->d:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->isEmpty()Z
@@ -545,7 +502,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/b0/a;->d:Ljava/util/Map;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -560,14 +516,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1, p1, p3}, Lcom/commsource/beautyplus/b0/b;->u(Landroid/content/Context;Z)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -575,7 +529,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -588,7 +541,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/b0/a;->d:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->isEmpty()Z
@@ -605,7 +557,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/b0/a;->d:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -629,7 +580,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -644,7 +594,6 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -652,7 +601,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -665,7 +613,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/b0/a;->d:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->isEmpty()Z
@@ -682,7 +629,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/b0/a;->d:Ljava/util/Map;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -697,10 +643,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p2, p1, p3, p4}, Lcom/commsource/beautyplus/b0/b;->v(Landroid/content/Context;Lcom/commsource/widget/dialog/j0$b;Z)Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

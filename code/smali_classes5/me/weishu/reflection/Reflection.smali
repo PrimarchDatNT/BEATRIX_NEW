@@ -15,7 +15,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lme/weishu/reflection/Reflection;->a()V
 
     return-void
@@ -24,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,7 +31,6 @@
 .method private static synthetic a()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lme/weishu/reflection/Reflection;
@@ -78,7 +75,6 @@
 .method static final synthetic b(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -89,7 +85,6 @@
 .method public static c(Landroid/content/Context;)I
     .locals 3
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v1, 0x0
@@ -100,7 +95,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {}, Lme/weishu/reflection/f;->d()Z
 
@@ -110,7 +104,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     invoke-static {p0}, Lme/weishu/reflection/Reflection;->d(Landroid/content/Context;)Z
 
@@ -133,20 +126,17 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
 
     move-result-object v0
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getCodeCacheDir()Ljava/io/File;
 
     move-result-object p0
 
-    .line 3
     new-instance v3, Ljava/io/File;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -169,29 +159,24 @@
 
     invoke-direct {v3, p0, v4}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 4
     new-instance p0, Ljava/io/FileOutputStream;
 
     invoke-direct {p0, v3}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_3
 
-    .line 5
     :try_start_1
     invoke-virtual {p0, v0}, Ljava/io/FileOutputStream;->write([B)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     :try_start_2
     invoke-virtual {p0}, Ljava/io/FileOutputStream;->close()V
 
-    .line 7
     new-instance p0, Ldalvik/system/DexFile;
 
     invoke-direct {p0, v3}, Ldalvik/system/DexFile;-><init>(Ljava/io/File;)V
 
-    .line 8
     const-class v0, Lme/weishu/reflection/f;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
@@ -208,14 +193,12 @@
 
     new-array v4, v2, [Ljava/lang/Class;
 
-    .line 9
     invoke-virtual {p0, v0, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p0
 
     new-array v0, v2, [Ljava/lang/Object;
 
-    .line 10
     sget-object v4, Lme/weishu/reflection/Reflection;->c:Lorg/aspectj/lang/c$b;
 
     invoke-static {v4, v3, p0, v3, v0}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -269,7 +252,6 @@
     :catchall_0
     move-exception v0
 
-    .line 11
     :try_start_3
     throw v0
     :try_end_3
@@ -278,7 +260,6 @@
     :catchall_1
     move-exception v1
 
-    .line 12
     :try_start_4
     invoke-virtual {p0}, Ljava/io/FileOutputStream;->close()V
     :try_end_4
@@ -300,7 +281,6 @@
     :catchall_3
     move-exception p0
 
-    .line 13
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
     return v2

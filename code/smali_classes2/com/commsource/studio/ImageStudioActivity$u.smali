@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -68,7 +67,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$u;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -99,7 +97,6 @@
 
     invoke-static {p1, v1, v4, v2, v4}, Lcom/commsource/util/l0;->m0(Landroid/view/View;FLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$u;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->h1()Lcom/commsource/studio/function/BaseSubFragment;
@@ -108,7 +105,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$u;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->h1()Lcom/commsource/studio/function/BaseSubFragment;
@@ -172,7 +168,6 @@
     :goto_1
     const/4 p1, 0x1
 
-    .line 5
     :goto_2
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$u;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -184,7 +179,6 @@
 
     invoke-virtual {v2, p1, v1}, Lcom/commsource/widget/ProView;->I(ZZ)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$u;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -199,26 +193,22 @@
 
     const/4 p1, 0x3
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
     goto :goto_3
 
-    .line 8
     :cond_3
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
-    .line 9
     :goto_3
     invoke-virtual {v2, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
     goto :goto_4
 
-    .line 10
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$u;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -232,7 +222,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$u;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -247,7 +236,6 @@
 
     invoke-static {p1, v1, v4, v2, v4}, Lcom/commsource/util/l0;->o0(Landroid/view/View;FLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 12
     :cond_5
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -262,7 +250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$u;->a(Ljava/lang/String;)V

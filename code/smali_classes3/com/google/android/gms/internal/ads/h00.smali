@@ -18,16 +18,12 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/fh1;Lcom/google/android/gms/internal/ads/nl1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/h00;->b:Lcom/google/android/gms/internal/ads/fh1;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/h00;->c:Lcom/google/android/gms/internal/ads/nl1;
 
-    .line 4
     iget-object p1, p1, Lcom/google/android/gms/internal/ads/fh1;->b:Lcom/google/android/gms/internal/ads/dh1;
 
     iget-object p1, p1, Lcom/google/android/gms/internal/ads/dh1;->b:Lcom/google/android/gms/internal/ads/vg1;
@@ -42,7 +38,6 @@
 .method public final a(I)V
     .locals 3
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/h00;->c:Lcom/google/android/gms/internal/ads/nl1;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/h00;->b:Lcom/google/android/gms/internal/ads/fh1;

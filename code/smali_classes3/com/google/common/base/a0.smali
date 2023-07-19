@@ -60,7 +60,6 @@
 
     invoke-static {}, Lcom/google/common/base/a0;->e()V
 
-    .line 1
     invoke-static {}, Lcom/google/common/base/a0;->i()Ljava/lang/Object;
 
     move-result-object v0
@@ -75,7 +74,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/google/common/base/a0;->h()Ljava/lang/reflect/Method;
 
@@ -88,7 +86,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-static {}, Lcom/google/common/base/a0;->l()Ljava/lang/reflect/Method;
 
@@ -103,7 +100,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -112,28 +108,23 @@
 .method public static A(Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     instance-of v0, p0, Ljava/lang/RuntimeException;
 
     if-nez v0, :cond_1
 
-    .line 3
     instance-of v0, p0, Ljava/lang/Error;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 4
     :cond_0
     check-cast p0, Ljava/lang/Error;
 
     throw p0
 
-    .line 5
     :cond_1
     check-cast p0, Ljava/lang/RuntimeException;
 
@@ -143,7 +134,6 @@
 .method static synthetic a()Ljava/lang/reflect/Method;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/base/a0;->d:Ljava/lang/reflect/Method;
 
     return-object v0
@@ -152,7 +142,6 @@
 .method static synthetic b()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/base/a0;->c:Ljava/lang/Object;
 
     return-object v0
@@ -161,7 +150,6 @@
 .method static synthetic c(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/common/base/a0;->n(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -172,7 +160,6 @@
 .method static synthetic d()Ljava/lang/reflect/Method;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/base/a0;->e:Ljava/lang/reflect/Method;
 
     return-object v0
@@ -181,7 +168,6 @@
 .method private static synthetic e()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/google/common/base/a0;
@@ -295,17 +281,14 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     const/4 v1, 0x4
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     invoke-interface {v0, p0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     const/4 v1, 0x0
@@ -314,7 +297,6 @@
 
     move-object v1, p0
 
-    .line 4
     :goto_0
     invoke-virtual {p0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
@@ -322,14 +304,12 @@
 
     if-eqz p0, :cond_2
 
-    .line 5
     invoke-interface {v0, p0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     if-eq p0, v1, :cond_1
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v1
@@ -339,7 +319,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -349,7 +328,6 @@
 
     throw v0
 
-    .line 8
     :cond_2
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
@@ -377,7 +355,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
@@ -396,10 +373,8 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-virtual {p1, p0}, Ljava/lang/ClassCastException;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
-    .line 3
     throw p1
 .end method
 
@@ -417,7 +392,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     const-class v2, Ljava/lang/Throwable;
 
     aput-object v2, v0, v1
@@ -452,7 +426,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v1, v2, v0}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     move-result-object v1
@@ -461,14 +434,12 @@
 
     new-array v4, v2, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {v1, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 
     new-array v3, v2, [Ljava/lang/Object;
 
-    .line 3
     sget-object v4, Lcom/google/common/base/a0;->g:Lorg/aspectj/lang/c$b;
 
     invoke-static {v4, v0, v1, v0, v3}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -520,7 +491,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     throw v0
 .end method
 
@@ -556,7 +526,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v1, v2, v0}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     move-result-object v1
@@ -576,7 +545,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     throw p0
 .end method
 
@@ -589,7 +557,6 @@
 
     move-object v0, p0
 
-    .line 1
     :goto_0
     invoke-virtual {p0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
@@ -601,7 +568,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object p0
@@ -615,7 +581,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -646,7 +611,6 @@
 
     new-array v3, v2, [Ljava/lang/Class;
 
-    .line 1
     const-class v4, Ljava/lang/Throwable;
 
     const/4 v5, 0x0
@@ -661,7 +625,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/google/common/base/a0;->i()Ljava/lang/Object;
 
@@ -728,19 +691,16 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/StringWriter;
 
     invoke-direct {v0}, Ljava/io/StringWriter;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/io/PrintWriter;
 
     invoke-direct {v1, v0}, Ljava/io/PrintWriter;-><init>(Ljava/io/Writer;)V
 
     invoke-virtual {p0, v1}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintWriter;)V
 
-    .line 3
     invoke-virtual {v0}, Ljava/io/StringWriter;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -753,7 +713,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     :try_start_0
     sget-object v0, Lcom/google/common/base/a0;->f:Lorg/aspectj/lang/c$b;
 
@@ -809,7 +768,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
 
     move-result-object p0
@@ -823,7 +781,6 @@
     :catch_1
     move-exception p0
 
-    .line 3
     new-instance p1, Ljava/lang/RuntimeException;
 
     invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -834,7 +791,6 @@
 .method static final synthetic o(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -845,7 +801,6 @@
 .method static final synthetic p(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -856,7 +811,6 @@
 .method static final synthetic q(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -880,10 +834,8 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/base/a0$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/base/a0$a;-><init>(Ljava/lang/Throwable;)V
@@ -910,21 +862,18 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/base/a0;->t()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/google/common/base/a0;->r(Ljava/lang/Throwable;)Ljava/util/List;
 
     move-result-object p0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
 
@@ -950,7 +899,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/base/a0;->d:Ljava/lang/reflect/Method;
 
     if-eqz v0, :cond_0
@@ -981,10 +929,8 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/a0;->A(Ljava/lang/Throwable;)V
 
-    .line 2
     new-instance v0, Ljava/lang/RuntimeException;
 
     invoke-direct {v0, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -1023,7 +969,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/base/a0;->z(Ljava/lang/Throwable;Ljava/lang/Class;)V
 
     :cond_0
@@ -1044,7 +989,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/a0;->A(Ljava/lang/Throwable;)V
 
     :cond_0
@@ -1077,10 +1021,8 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/base/a0;->v(Ljava/lang/Throwable;Ljava/lang/Class;)V
 
-    .line 2
     invoke-static {p0}, Lcom/google/common/base/a0;->w(Ljava/lang/Throwable;)V
 
     return-void
@@ -1117,13 +1059,10 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p0, p1}, Lcom/google/common/base/a0;->v(Ljava/lang/Throwable;Ljava/lang/Class;)V
 
-    .line 3
     invoke-static {p0, p2}, Lcom/google/common/base/a0;->x(Ljava/lang/Throwable;Ljava/lang/Class;)V
 
     return-void
@@ -1151,10 +1090,8 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1, p0}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     move-result v0
@@ -1163,7 +1100,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p1, p0}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
 

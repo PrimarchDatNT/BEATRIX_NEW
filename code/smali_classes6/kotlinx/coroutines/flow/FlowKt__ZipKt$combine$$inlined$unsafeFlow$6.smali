@@ -41,7 +41,6 @@
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$6;->b:Lcotlin/jvm/u/p;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,10 +61,8 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$6;->a:[Lcotlinx/coroutines/flow/d;
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
@@ -74,14 +71,12 @@
 
     invoke-direct {v1, p0}, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$6$lambda$1;-><init>(Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$6;)V
 
-    .line 3
     new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$6$lambda$2;
 
     const/4 v3, 0x0
 
     invoke-direct {v2, v3, p0}, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$6$lambda$2;-><init>(Lcotlin/coroutines/c;Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$6;)V
 
-    .line 4
     invoke-static {p1, v0, v1, v2, p2}, Lcotlinx/coroutines/flow/internal/CombineKt;->f(Lcotlinx/coroutines/flow/e;[Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/a;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
@@ -94,7 +89,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -126,10 +120,8 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$6;->a:[Lcotlinx/coroutines/flow/d;
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
@@ -138,7 +130,6 @@
 
     invoke-direct {v1, p0}, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$6$lambda$1;-><init>(Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$6;)V
 
-    .line 3
     new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$6$lambda$2;
 
     const/4 v3, 0x0
@@ -149,7 +140,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 4
     invoke-static {p1, v0, v1, v2, p2}, Lcotlinx/coroutines/flow/internal/CombineKt;->f(Lcotlinx/coroutines/flow/e;[Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/a;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     const/4 p1, 0x2
@@ -160,7 +150,6 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 5
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1

@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/web/p$c;Ljava/lang/String;Lf/k/o0/c/c$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/p$c$a;->l:Lcom/commsource/beautyplus/web/p$c;
 
     iput-object p3, p0, Lcom/commsource/beautyplus/web/p$c$a;->k:Lf/k/o0/c/c$a;
@@ -43,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/web/p;->v()Ljava/lang/String;
 
     move-result-object p3
@@ -64,15 +62,12 @@
 
     invoke-static {p3, p2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/beautyplus/web/p$c$a;->k:Lf/k/o0/c/c$a;
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-interface {p2}, Lf/k/o0/c/c$a;->onError()V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -86,7 +81,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -99,7 +93,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/web/p;->v()Ljava/lang/String;
 
     move-result-object p4
@@ -120,15 +113,12 @@
 
     invoke-static {p4, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p$c$a;->k:Lf/k/o0/c/c$a;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {p1}, Lf/k/o0/c/c$a;->onSuccess()V
 
-    .line 4
     :cond_0
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -142,7 +132,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

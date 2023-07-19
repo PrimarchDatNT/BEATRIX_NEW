@@ -42,12 +42,10 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 5
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/widget/v0$a;->a:Ljava/lang/ref/WeakReference;
 
     const-string v0, "lottie/terrible_face.json"
@@ -60,14 +58,12 @@
 
     const-string v4, "lottie/terrific_face.json"
 
-    .line 3
     filled-new-array {v0, v1, v2, v3, v4}, [Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/widget/v0$a;->g:[Ljava/lang/String;
 
-    .line 4
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -84,12 +80,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/v0$a;->b:Lcom/commsource/widget/v0$b;
 
     if-eqz v0, :cond_3
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/widget/v0$a;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -108,7 +102,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/widget/v0$a;->b:Lcom/commsource/widget/v0$b;
 
     iget v3, p0, Lcom/commsource/widget/v0$a;->e:I
@@ -125,7 +118,6 @@
 
     goto :goto_2
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/commsource/widget/v0$a;->b:Lcom/commsource/widget/v0$b;
 
@@ -141,12 +133,10 @@
     :goto_1
     invoke-interface {v0, p1, v3, v1}, Lcom/commsource/widget/v0$b;->a(Landroid/content/DialogInterface;II)V
 
-    .line 5
     :cond_3
     :goto_2
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 6
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -159,23 +149,19 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/v0$a;->c:Lcom/commsource/widget/v0$b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/commsource/widget/v0$a;->e:I
 
     const/4 v2, 0x2
 
     invoke-interface {v0, p1, v1, v2}, Lcom/commsource/widget/v0$b;->a(Landroid/content/DialogInterface;II)V
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -188,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     aget-object p0, p0, p1
 
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setComposition(Lcom/airbnb/lottie/g;)V
@@ -205,15 +190,12 @@
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/v0$a;->f:Lcom/airbnb/lottie/LottieAnimationView;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/airbnb/lottie/LottieAnimationView;->k()V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/widget/v0$a;->f:Lcom/airbnb/lottie/LottieAnimationView;
 
     const/4 v1, 0x0
@@ -223,23 +205,18 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 4
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 5
     aget-object p1, p2, p3
 
     invoke-virtual {p1}, Lcom/airbnb/lottie/LottieAnimationView;->z()V
 
-    .line 6
     iput p3, p0, Lcom/commsource/widget/v0$a;->e:I
 
-    .line 7
     aget-object p1, p2, p3
 
     iput-object p1, p0, Lcom/commsource/widget/v0$a;->f:Lcom/airbnb/lottie/LottieAnimationView;
 
-    .line 8
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -254,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/v0$a;->a:Ljava/lang/ref/WeakReference;
 
     const/4 v2, 0x0
@@ -267,10 +243,8 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/v0$a;->a:Ljava/lang/ref/WeakReference;
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v1
@@ -285,7 +259,6 @@
 
     check-cast v1, Landroid/view/LayoutInflater;
 
-    .line 4
     new-instance v3, Lcom/commsource/widget/v0;
 
     iget-object v4, p0, Lcom/commsource/widget/v0$a;->a:Ljava/lang/ref/WeakReference;
@@ -302,19 +275,16 @@
 
     const/4 v4, 0x0
 
-    .line 5
     invoke-virtual {v3, v4}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
     sget v5, Lcom/res/provider/ResLAYOUT;->praise_dialog_new:I
 
-    .line 6
     invoke-virtual {v1, v5, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
     sget v2, Lcom/res/provider/ResID;->bt_submit:I
 
-    .line 7
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -323,33 +293,28 @@
 
     sget v5, Lcom/res/provider/ResID;->tv_later:I
 
-    .line 8
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
     check-cast v5, Landroid/widget/TextView;
 
-    .line 9
     new-instance v6, Lcom/commsource/widget/t;
 
     invoke-direct {v6, p0, v3}, Lcom/commsource/widget/t;-><init>(Lcom/commsource/widget/v0$a;Lcom/commsource/widget/v0;)V
 
     invoke-virtual {v2, v6}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 10
     new-instance v6, Lcom/commsource/widget/u;
 
     invoke-direct {v6, p0, v3}, Lcom/commsource/widget/u;-><init>(Lcom/commsource/widget/v0$a;Lcom/commsource/widget/v0;)V
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 11
     iget-object v5, p0, Lcom/commsource/widget/v0$a;->d:Landroid/content/DialogInterface$OnCancelListener;
 
     if-eqz v5, :cond_0
 
-    .line 12
     invoke-virtual {v3, v5}, Lcom/commsource/widget/dialog/l0;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
     :cond_0
@@ -359,7 +324,6 @@
 
     sget v7, Lcom/res/provider/ResID;->lav_priase_level1:I
 
-    .line 13
     invoke-virtual {v1, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v7
@@ -370,7 +334,6 @@
 
     sget v7, Lcom/res/provider/ResID;->lav_priase_level2:I
 
-    .line 14
     invoke-virtual {v1, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v7
@@ -385,7 +348,6 @@
 
     sget v8, Lcom/res/provider/ResID;->lav_priase_level3:I
 
-    .line 15
     invoke-virtual {v1, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
@@ -398,7 +360,6 @@
 
     sget v8, Lcom/res/provider/ResID;->lav_priase_level4:I
 
-    .line 16
     invoke-virtual {v1, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
@@ -411,7 +372,6 @@
 
     sget v8, Lcom/res/provider/ResID;->lav_priase_level5:I
 
-    .line 17
     invoke-virtual {v1, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
@@ -420,7 +380,6 @@
 
     aput-object v8, v6, v7
 
-    .line 18
     aget-object v7, v6, v4
 
     iput-object v7, p0, Lcom/commsource/widget/v0$a;->f:Lcom/airbnb/lottie/LottieAnimationView;
@@ -428,10 +387,8 @@
     :goto_0
     if-ge v4, v5, :cond_2
 
-    .line 19
     iget-object v7, p0, Lcom/commsource/widget/v0$a;->a:Ljava/lang/ref/WeakReference;
 
-    .line 20
     invoke-virtual {v7}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v7
@@ -448,14 +405,12 @@
 
     if-eqz v7, :cond_1
 
-    .line 21
     invoke-virtual {v7}, Lcom/airbnb/lottie/p;->b()Ljava/lang/Object;
 
     move-result-object v8
 
     if-eqz v8, :cond_1
 
-    .line 22
     aget-object v8, v6, v4
 
     invoke-virtual {v7}, Lcom/airbnb/lottie/p;->b()Ljava/lang/Object;
@@ -468,11 +423,9 @@
 
     goto :goto_1
 
-    .line 23
     :cond_1
     iget-object v7, p0, Lcom/commsource/widget/v0$a;->a:Ljava/lang/ref/WeakReference;
 
-    .line 24
     invoke-virtual {v7}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v7
@@ -487,14 +440,12 @@
 
     move-result-object v7
 
-    .line 25
     new-instance v8, Lcom/commsource/widget/s;
 
     invoke-direct {v8, v6, v4}, Lcom/commsource/widget/s;-><init>([Lcom/airbnb/lottie/LottieAnimationView;I)V
 
     invoke-virtual {v7, v8}, Lcom/airbnb/lottie/q;->f(Lcom/airbnb/lottie/l;)Lcom/airbnb/lottie/q;
 
-    .line 26
     :goto_1
     aget-object v7, v6, v4
 
@@ -508,7 +459,6 @@
 
     goto :goto_0
 
-    .line 27
     :cond_2
     new-instance v2, Landroid/view/ViewGroup$LayoutParams;
 
@@ -516,7 +466,6 @@
 
     iget-object v5, p0, Lcom/commsource/widget/v0$a;->a:Ljava/lang/ref/WeakReference;
 
-    .line 28
     invoke-virtual {v5}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v5
@@ -535,15 +484,12 @@
 
     invoke-direct {v2, v4}, Landroid/view/ViewGroup$LayoutParams;-><init>(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 29
     invoke-virtual {v3, v1, v2}, Landroid/app/Dialog;->setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 30
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 31
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -581,10 +527,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/v0$a;->c:Lcom/commsource/widget/v0$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -597,10 +541,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/v0$a;->d:Landroid/content/DialogInterface$OnCancelListener;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -613,10 +555,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/v0$a;->b:Lcom/commsource/widget/v0$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

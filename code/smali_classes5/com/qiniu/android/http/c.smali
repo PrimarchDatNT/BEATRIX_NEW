@@ -27,16 +27,12 @@
 .method public constructor <init>(Lokhttp3/RequestBody;Lcom/qiniu/android/http/e;Lcom/qiniu/android/http/CancellationHandler;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lokhttp3/RequestBody;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/qiniu/android/http/c;->a:Lokhttp3/RequestBody;
 
-    .line 3
     iput-object p2, p0, Lcom/qiniu/android/http/c;->b:Lcom/qiniu/android/http/e;
 
-    .line 4
     iput-object p3, p0, Lcom/qiniu/android/http/c;->c:Lcom/qiniu/android/http/CancellationHandler;
 
     return-void
@@ -45,7 +41,6 @@
 .method static synthetic a(Lcom/qiniu/android/http/c;)Lcom/qiniu/android/http/CancellationHandler;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/qiniu/android/http/c;->c:Lcom/qiniu/android/http/CancellationHandler;
 
     return-object p0
@@ -54,7 +49,6 @@
 .method static synthetic b(Lcom/qiniu/android/http/c;)Lcom/qiniu/android/http/e;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/qiniu/android/http/c;->b:Lcom/qiniu/android/http/e;
 
     return-object p0
@@ -70,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/http/c;->a:Lokhttp3/RequestBody;
 
     invoke-virtual {v0}, Lokhttp3/RequestBody;->contentLength()J
@@ -83,7 +76,6 @@
 .method public contentType()Lokhttp3/MediaType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/http/c;->a:Lokhttp3/RequestBody;
 
     invoke-virtual {v0}, Lokhttp3/RequestBody;->contentType()Lokhttp3/MediaType;
@@ -101,22 +93,18 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/qiniu/android/http/c$a;
 
     invoke-direct {v0, p0, p1}, Lcom/qiniu/android/http/c$a;-><init>(Lcom/qiniu/android/http/c;Lokio/Sink;)V
 
-    .line 2
     invoke-static {v0}, Lokio/Okio;->buffer(Lokio/Sink;)Lokio/BufferedSink;
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lcom/qiniu/android/http/c;->a:Lokhttp3/RequestBody;
 
     invoke-virtual {v0, p1}, Lokhttp3/RequestBody;->writeTo(Lokio/BufferedSink;)V
 
-    .line 4
     invoke-interface {p1}, Lokio/BufferedSink;->flush()V
 
     return-void

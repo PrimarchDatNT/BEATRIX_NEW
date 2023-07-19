@@ -50,7 +50,6 @@
 
     sget v6, Lcom/res/provider/ResSTRING;->t_selfie_switch_bar_ar:I
 
-    .line 1
     invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;->BAr:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;
@@ -67,7 +66,6 @@
 
     sget v6, Lcom/res/provider/ResSTRING;->ipar_panel_title:I
 
-    .line 2
     invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;->IPAr:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;
@@ -89,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;->drawableResId:I
@@ -148,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;->drawableResId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -163,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;->funcName:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -178,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;->drawableResId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -193,7 +187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;->funcName:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

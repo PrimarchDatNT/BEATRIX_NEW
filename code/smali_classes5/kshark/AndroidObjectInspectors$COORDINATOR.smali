@@ -42,10 +42,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lkshark/AndroidObjectInspectors;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
-    .line 2
     sget-object p1, Lkshark/AndroidObjectInspectors$COORDINATOR$leakingObjectFilter$1;->INSTANCE:Lkshark/AndroidObjectInspectors$COORDINATOR$leakingObjectFilter$1;
 
     iput-object p1, p0, Lkshark/AndroidObjectInspectors$COORDINATOR;->leakingObjectFilter:Lcotlin/jvm/u/l;
@@ -70,7 +68,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/AndroidObjectInspectors$COORDINATOR;->leakingObjectFilter:Lcotlin/jvm/u/l;
 
     return-object v0
@@ -87,7 +84,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lkshark/AndroidObjectInspectors$COORDINATOR$inspect$1;->INSTANCE:Lkshark/AndroidObjectInspectors$COORDINATOR$inspect$1;
 
     const-string v1, "com.squareup.coordinators.Coordinator"

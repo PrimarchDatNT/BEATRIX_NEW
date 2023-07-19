@@ -61,7 +61,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/b1;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -80,10 +79,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lio/grpc/b1$b;
 
     const/4 v1, 0x0
@@ -92,14 +89,12 @@
 
     iput-object v0, p0, Lio/grpc/b1;->a:Lio/grpc/z0$d;
 
-    .line 3
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
     iput-object v0, p0, Lio/grpc/b1;->b:Ljava/util/LinkedHashSet;
 
-    .line 4
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -114,7 +109,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Lio/grpc/a1;->f()Z
 
@@ -124,14 +118,12 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/b1;->b:Ljava/util/LinkedHashSet;
 
     invoke-virtual {v0, p1}, Ljava/util/LinkedHashSet;->add(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -153,18 +145,15 @@
 
     monitor-enter v1
 
-    .line 1
     :try_start_0
     sget-object v2, Lio/grpc/b1;->e:Lio/grpc/b1;
 
     if-nez v2, :cond_3
 
-    .line 2
     invoke-static {}, Lio/grpc/b1;->e()Ljava/util/List;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v3
@@ -175,26 +164,22 @@
 
     invoke-direct {v4, v5}, Lio/grpc/b1$c;-><init>(Lio/grpc/b1$a;)V
 
-    .line 4
     invoke-static {v0, v2, v3, v4}, Lio/grpc/u1;->f(Ljava/lang/Class;Ljava/lang/Iterable;Ljava/lang/ClassLoader;Lio/grpc/u1$b;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 5
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 6
     sget-object v2, Lio/grpc/b1;->d:Ljava/util/logging/Logger;
 
     const-string v3, "No NameResolverProviders found via ServiceLoader, including for DNS. This is probably due to a broken build. If using ProGuard, check your configuration"
 
     invoke-virtual {v2, v3}, Ljava/util/logging/Logger;->warning(Ljava/lang/String;)V
 
-    .line 7
     :cond_0
     new-instance v2, Lio/grpc/b1;
 
@@ -202,7 +187,6 @@
 
     sput-object v2, Lio/grpc/b1;->e:Lio/grpc/b1;
 
-    .line 8
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -221,7 +205,6 @@
 
     check-cast v2, Lio/grpc/a1;
 
-    .line 9
     sget-object v3, Lio/grpc/b1;->d:Ljava/util/logging/Logger;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -240,27 +223,23 @@
 
     invoke-virtual {v3, v4}, Ljava/util/logging/Logger;->fine(Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {v2}, Lio/grpc/a1;->f()Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 11
     sget-object v3, Lio/grpc/b1;->e:Lio/grpc/b1;
 
     invoke-direct {v3, v2}, Lio/grpc/b1;->a(Lio/grpc/a1;)V
 
     goto :goto_0
 
-    .line 12
     :cond_2
     sget-object v0, Lio/grpc/b1;->e:Lio/grpc/b1;
 
     invoke-direct {v0}, Lio/grpc/b1;->g()V
 
-    .line 13
     :cond_3
     sget-object v0, Lio/grpc/b1;->e:Lio/grpc/b1;
     :try_end_0
@@ -292,7 +271,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -300,7 +278,6 @@
     :try_start_0
     const-string v1, "io.grpc.internal.i0"
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -314,7 +291,6 @@
     :catch_0
     move-exception v1
 
-    .line 3
     sget-object v2, Lio/grpc/b1;->d:Ljava/util/logging/Logger;
 
     sget-object v3, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -323,7 +299,6 @@
 
     invoke-virtual {v2, v3, v4, v1}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
@@ -337,7 +312,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/util/ArrayList;
 
@@ -345,7 +319,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 2
     new-instance v1, Lio/grpc/b1$a;
 
     invoke-direct {v1, p0}, Lio/grpc/b1$a;-><init>(Lio/grpc/b1;)V
@@ -356,7 +329,6 @@
 
     invoke-static {v0, v1}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
@@ -365,7 +337,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit p0
 
     return-void
@@ -383,7 +354,6 @@
 .method public b()Lio/grpc/z0$d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/b1;->a:Lio/grpc/z0$d;
 
     return-object v0
@@ -394,18 +364,15 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/b1;->b:Ljava/util/LinkedHashSet;
 
     invoke-virtual {v0, p1}, Ljava/util/LinkedHashSet;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/b1;->g()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -434,7 +401,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/b1;->c:Ljava/util/List;
     :try_end_0
@@ -457,16 +423,13 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p1}, Lio/grpc/b1;->a(Lio/grpc/a1;)V
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/b1;->g()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void

@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/util/delegate/process/g$a;-><init>()V
 
     return-void
@@ -65,12 +63,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -89,7 +85,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/commsource/util/delegate/process/g$a;->d(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
 
     move-result v3
@@ -102,7 +97,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 4
     sget-object v3, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {v3}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -115,7 +109,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 5
     invoke-virtual {v3}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v7
@@ -150,18 +143,15 @@
     :goto_1
     if-eqz v3, :cond_2
 
-    .line 6
     invoke-virtual {v3}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
-    .line 7
     :cond_2
     invoke-virtual {v1, v2}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 8
     :cond_3
     invoke-virtual {p0, p1}, Lcom/commsource/util/delegate/process/g$a;->c(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
 
@@ -169,7 +159,6 @@
 
     if-eqz v3, :cond_7
 
-    .line 9
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -188,7 +177,6 @@
 
     move-result-object v3
 
-    .line 10
     sget-object v7, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {v7}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -201,7 +189,6 @@
 
     if-eqz v7, :cond_6
 
-    .line 11
     invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
@@ -234,18 +221,15 @@
     :goto_3
     if-eqz v7, :cond_6
 
-    .line 12
     invoke-virtual {v7}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/String;
 
-    .line 13
     :cond_6
     invoke-virtual {v1, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 14
     :cond_7
     invoke-virtual {p0, p1}, Lcom/commsource/util/delegate/process/g$a;->f(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
 
@@ -253,7 +237,6 @@
 
     if-eqz v3, :cond_b
 
-    .line 15
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getMakeupWrappers()Landroid/util/SparseArray;
 
     move-result-object v3
@@ -264,7 +247,6 @@
 
     if-eqz v3, :cond_9
 
-    .line 16
     invoke-virtual {v3}, Landroid/util/SparseArray;->size()I
 
     move-result v8
@@ -274,7 +256,6 @@
     :goto_4
     if-ge v9, v8, :cond_9
 
-    .line 17
     invoke-virtual {v3, v9}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v10
@@ -283,14 +264,12 @@
 
     if-eqz v10, :cond_8
 
-    .line 18
     invoke-virtual {v10}, Lcom/commsource/repository/child/makeup/h;->S()Z
 
     move-result v11
 
     if-eqz v11, :cond_8
 
-    .line 19
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -316,7 +295,6 @@
 
     goto :goto_4
 
-    .line 20
     :cond_9
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getMakeupStyleMaterials()Landroid/util/SparseArray;
 
@@ -324,7 +302,6 @@
 
     if-eqz v3, :cond_b
 
-    .line 21
     invoke-virtual {v3}, Landroid/util/SparseArray;->size()I
 
     move-result v8
@@ -332,7 +309,6 @@
     :goto_5
     if-ge v6, v8, :cond_b
 
-    .line 22
     invoke-virtual {v3, v6}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v9
@@ -341,14 +317,12 @@
 
     if-eqz v9, :cond_a
 
-    .line 23
     invoke-virtual {v9}, Lcom/commsource/repository/child/makeup/h;->S()Z
 
     move-result v10
 
     if-eqz v10, :cond_a
 
-    .line 24
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -374,7 +348,6 @@
 
     goto :goto_5
 
-    .line 25
     :cond_b
     invoke-virtual {p0, p1}, Lcom/commsource/util/delegate/process/g$a;->e(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
 
@@ -382,7 +355,6 @@
 
     if-eqz v3, :cond_d
 
-    .line 26
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -412,10 +384,8 @@
 
     move-result-object p1
 
-    .line 27
     invoke-virtual {v1, p1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 28
     :cond_d
     invoke-virtual {v1}, Ljava/util/LinkedList;->isEmpty()Z
 
@@ -423,10 +393,8 @@
 
     if-eqz p1, :cond_e
 
-    .line 29
     invoke-virtual {v1, v2}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 30
     :cond_e
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -448,7 +416,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v1
@@ -457,12 +424,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/util/delegate/process/g$a;->c(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
 
@@ -518,7 +483,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getArMaterial()Lcom/meitu/template/bean/ArMaterial;
 
     move-result-object p1
@@ -555,7 +519,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFilter()Lcom/meitu/template/bean/Filter;
 
     move-result-object p1
@@ -584,7 +547,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getLookMaterial()Lcom/meitu/template/bean/LookMaterial;
 
     move-result-object p1
@@ -621,7 +583,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getMakeupWrappers()Landroid/util/SparseArray;
 
     move-result-object v1
@@ -632,7 +593,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Landroid/util/SparseArray;->size()I
 
     move-result v4
@@ -642,7 +602,6 @@
     :goto_0
     if-ge v5, v4, :cond_1
 
-    .line 3
     invoke-virtual {v1, v5}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -651,14 +610,12 @@
 
     if-eqz v6, :cond_0
 
-    .line 4
     invoke-virtual {v6}, Lcom/commsource/repository/child/makeup/h;->S()Z
 
     move-result v6
 
     if-eqz v6, :cond_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -668,7 +625,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getMakeupStyleMaterials()Landroid/util/SparseArray;
 
@@ -676,7 +632,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 7
     invoke-virtual {p1}, Landroid/util/SparseArray;->size()I
 
     move-result v1
@@ -686,7 +641,6 @@
     :goto_1
     if-ge v4, v1, :cond_3
 
-    .line 8
     invoke-virtual {p1, v4}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -695,14 +649,12 @@
 
     if-eqz v5, :cond_2
 
-    .line 9
     invoke-virtual {v5}, Lcom/commsource/repository/child/makeup/h;->S()Z
 
     move-result v5
 
     if-eqz v5, :cond_2
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -712,7 +664,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -734,7 +685,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getMovieFlareEffect()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/c;
 
     move-result-object p1

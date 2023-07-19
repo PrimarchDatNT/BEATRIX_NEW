@@ -41,10 +41,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/w2;->a:Lio/grpc/internal/v2$d;
 
     return-void
@@ -64,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/internal/w2;
 
     invoke-direct {v0, p0}, Lio/grpc/internal/w2;-><init>(Lio/grpc/internal/v2$d;)V
@@ -82,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/w2;->a:Lio/grpc/internal/v2$d;
 
     invoke-static {v0}, Lio/grpc/internal/v2;->d(Lio/grpc/internal/v2$d;)Ljava/lang/Object;
@@ -102,7 +98,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/w2;->a:Lio/grpc/internal/v2$d;
 
     invoke-static {v0, p1}, Lio/grpc/internal/v2;->f(Lio/grpc/internal/v2$d;Ljava/lang/Object;)Ljava/lang/Object;

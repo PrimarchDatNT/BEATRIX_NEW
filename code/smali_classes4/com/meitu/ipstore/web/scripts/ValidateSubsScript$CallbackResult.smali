@@ -47,16 +47,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/ValidateSubsScript$CallbackResult;->subs:Ljava/util/List;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/ipstore/web/scripts/ValidateSubsScript$CallbackResult;->invalidSubsId:[Ljava/lang/String;
 
-    .line 4
     iput p3, p0, Lcom/meitu/ipstore/web/scripts/ValidateSubsScript$CallbackResult;->usePrice:I
 
     return-void

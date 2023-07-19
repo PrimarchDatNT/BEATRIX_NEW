@@ -71,7 +71,6 @@
 
     const/16 v0, 0xa
 
-    .line 2
     invoke-direct {p0, v0}, Lcotlin/collections/o1/b;-><init>(I)V
 
     return-void
@@ -80,7 +79,6 @@
 .method public constructor <init>(I)V
     .locals 7
 
-    .line 3
     invoke-static {p1}, Lcotlin/collections/o1/c;->d(I)[Ljava/lang/Object;
 
     move-result-object v1
@@ -97,7 +95,6 @@
 
     move-object v0, p0
 
-    .line 4
     invoke-direct/range {v0 .. v6}, Lcotlin/collections/o1/b;-><init>([Ljava/lang/Object;IIZLcotlin/collections/o1/b;Lcotlin/collections/o1/b;)V
 
     return-void
@@ -115,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/e;-><init>()V
 
     iput-object p1, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
@@ -141,17 +137,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/b;->f:Lcotlin/collections/o1/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {v0, p1}, Lcotlin/collections/o1/b;->A(I)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 3
     iget v0, p0, Lcotlin/collections/o1/b;->c:I
 
     add-int/lit8 v0, v0, -0x1
@@ -160,7 +153,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
@@ -168,7 +160,6 @@
 
     add-int/lit8 v2, p1, 0x1
 
-    .line 5
     iget v3, p0, Lcotlin/collections/o1/b;->b:I
 
     iget v4, p0, Lcotlin/collections/o1/b;->c:I
@@ -177,7 +168,6 @@
 
     invoke-static {v0, v0, p1, v2, v3}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
-    .line 6
     iget-object p1, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iget v0, p0, Lcotlin/collections/o1/b;->b:I
@@ -190,7 +180,6 @@
 
     invoke-static {p1, v0}, Lcotlin/collections/o1/c;->f([Ljava/lang/Object;I)V
 
-    .line 7
     iget p1, p0, Lcotlin/collections/o1/b;->c:I
 
     add-int/lit8 p1, p1, -0x1
@@ -203,17 +192,14 @@
 .method private final C(II)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/b;->f:Lcotlin/collections/o1/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {v0, p1, p2}, Lcotlin/collections/o1/b;->C(II)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
@@ -223,7 +209,6 @@
 
     invoke-static {v0, v0, p1, v1, v2}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
-    .line 4
     iget-object p1, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iget v0, p0, Lcotlin/collections/o1/b;->c:I
@@ -232,7 +217,6 @@
 
     invoke-static {p1, v1, v0}, Lcotlin/collections/o1/c;->g([Ljava/lang/Object;II)V
 
-    .line 5
     :goto_0
     iget p1, p0, Lcotlin/collections/o1/b;->c:I
 
@@ -253,17 +237,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/b;->f:Lcotlin/collections/o1/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {v0, p1, p2, p3, p4}, Lcotlin/collections/o1/b;->M(IILjava/util/Collection;Z)I
 
     move-result p1
 
-    .line 3
     iget p2, p0, Lcotlin/collections/o1/b;->c:I
 
     sub-int/2addr p2, p1
@@ -280,7 +261,6 @@
     :goto_0
     if-ge v0, p2, :cond_2
 
-    .line 4
     iget-object v2, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     add-int v3, p1, v0
@@ -293,7 +273,6 @@
 
     if-ne v2, p4, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     add-int/lit8 v4, v1, 0x1
@@ -318,7 +297,6 @@
     :cond_2
     sub-int p3, p2, v1
 
-    .line 6
     iget-object p4, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     add-int/2addr p2, p1
@@ -329,7 +307,6 @@
 
     invoke-static {p4, p4, p1, p2, v0}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
-    .line 7
     iget-object p1, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iget p2, p0, Lcotlin/collections/o1/b;->c:I
@@ -338,7 +315,6 @@
 
     invoke-static {p1, p4, p2}, Lcotlin/collections/o1/c;->g([Ljava/lang/Object;II)V
 
-    .line 8
     iget p1, p0, Lcotlin/collections/o1/b;->c:I
 
     sub-int/2addr p1, p3
@@ -351,7 +327,6 @@
 .method public static final synthetic e(Lcotlin/collections/o1/b;)[Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     return-object p0
@@ -360,7 +335,6 @@
 .method public static final synthetic h(Lcotlin/collections/o1/b;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcotlin/collections/o1/b;->c:I
 
     return p0
@@ -369,7 +343,6 @@
 .method public static final synthetic i(Lcotlin/collections/o1/b;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcotlin/collections/o1/b;->b:I
 
     return p0
@@ -378,7 +351,6 @@
 .method public static final synthetic j(Lcotlin/collections/o1/b;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     return-void
@@ -387,7 +359,6 @@
 .method public static final synthetic k(Lcotlin/collections/o1/b;I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlin/collections/o1/b;->c:I
 
     return-void
@@ -396,7 +367,6 @@
 .method public static final synthetic l(Lcotlin/collections/o1/b;I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlin/collections/o1/b;->b:I
 
     return-void
@@ -412,22 +382,18 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/b;->f:Lcotlin/collections/o1/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {v0, p1, p2, p3}, Lcotlin/collections/o1/b;->m(ILjava/util/Collection;I)V
 
-    .line 3
     iget-object p1, p0, Lcotlin/collections/o1/b;->f:Lcotlin/collections/o1/b;
 
     iget-object p1, p1, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iput-object p1, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
-    .line 4
     iget p1, p0, Lcotlin/collections/o1/b;->c:I
 
     add-int/2addr p1, p3
@@ -436,13 +402,11 @@
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-direct {p0, p1, p3}, Lcotlin/collections/o1/b;->z(II)V
 
     const/4 v0, 0x0
 
-    .line 6
     invoke-interface {p2}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -450,7 +414,6 @@
     :goto_0
     if-ge v0, p3, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     add-int v2, p1, v0
@@ -478,24 +441,20 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/b;->f:Lcotlin/collections/o1/b;
 
     const/4 v1, 0x1
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {v0, p1, p2}, Lcotlin/collections/o1/b;->q(ILjava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lcotlin/collections/o1/b;->f:Lcotlin/collections/o1/b;
 
     iget-object p1, p1, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iput-object p1, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
-    .line 4
     iget p1, p0, Lcotlin/collections/o1/b;->c:I
 
     add-int/2addr p1, v1
@@ -504,11 +463,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-direct {p0, p1, v1}, Lcotlin/collections/o1/b;->z(II)V
 
-    .line 6
     iget-object v0, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     aput-object p2, v0, p1
@@ -520,7 +477,6 @@
 .method private final s()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcotlin/collections/o1/b;->d:Z
 
     if-nez v0, :cond_1
@@ -554,7 +510,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iget v1, p0, Lcotlin/collections/o1/b;->b:I
@@ -571,19 +526,16 @@
 .method private final v(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/b;->f:Lcotlin/collections/o1/b;
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     array-length v1, v0
 
     if-le p1, v1, :cond_0
 
-    .line 3
     sget-object v1, Lcotlin/collections/j;->p:Lcotlin/collections/j$a;
 
     array-length v0, v0
@@ -592,7 +544,6 @@
 
     move-result p1
 
-    .line 4
     iget-object v0, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     invoke-static {v0, p1}, Lcotlin/collections/o1/c;->e([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -604,7 +555,6 @@
     :cond_0
     return-void
 
-    .line 5
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -616,7 +566,6 @@
 .method private final y(I)V
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/b;->c:I
 
     add-int/2addr v0, p1
@@ -629,10 +578,8 @@
 .method private final z(II)V
     .locals 3
 
-    .line 1
     invoke-direct {p0, p2}, Lcotlin/collections/o1/b;->y(I)V
 
-    .line 2
     iget-object v0, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iget v1, p0, Lcotlin/collections/o1/b;->b:I
@@ -645,7 +592,6 @@
 
     invoke-static {v0, v0, v2, p1, v1}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
-    .line 3
     iget p1, p0, Lcotlin/collections/o1/b;->c:I
 
     add-int/2addr p1, p2
@@ -665,17 +611,14 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Lcotlin/collections/o1/b;->s()V
 
-    .line 4
     sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     iget v1, p0, Lcotlin/collections/o1/b;->c:I
 
     invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->c(II)V
 
-    .line 5
     iget v0, p0, Lcotlin/collections/o1/b;->b:I
 
     add-int/2addr v0, p1
@@ -693,10 +636,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/o1/b;->s()V
 
-    .line 2
     iget v0, p0, Lcotlin/collections/o1/b;->b:I
 
     iget v1, p0, Lcotlin/collections/o1/b;->c:I
@@ -728,22 +669,18 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     invoke-direct {p0}, Lcotlin/collections/o1/b;->s()V
 
-    .line 5
     sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     iget v1, p0, Lcotlin/collections/o1/b;->c:I
 
     invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->c(II)V
 
-    .line 6
     invoke-interface {p2}, Ljava/util/Collection;->size()I
 
     move-result v0
 
-    .line 7
     iget v1, p0, Lcotlin/collections/o1/b;->b:I
 
     add-int/2addr v1, p1
@@ -781,15 +718,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/o1/b;->s()V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Collection;->size()I
 
     move-result v0
 
-    .line 3
     iget v1, p0, Lcotlin/collections/o1/b;->b:I
 
     iget v2, p0, Lcotlin/collections/o1/b;->c:I
@@ -814,7 +748,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/b;->c:I
 
     return v0
@@ -828,17 +761,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/o1/b;->s()V
 
-    .line 2
     sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     iget v1, p0, Lcotlin/collections/o1/b;->c:I
 
     invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->b(II)V
 
-    .line 3
     iget v0, p0, Lcotlin/collections/o1/b;->b:I
 
     add-int/2addr v0, p1
@@ -853,10 +783,8 @@
 .method public clear()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/o1/b;->s()V
 
-    .line 2
     iget v0, p0, Lcotlin/collections/o1/b;->b:I
 
     iget v1, p0, Lcotlin/collections/o1/b;->c:I
@@ -875,7 +803,6 @@
 
     if-eq p1, p0, :cond_1
 
-    .line 1
     instance-of v0, p1, Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -911,14 +838,12 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     iget v1, p0, Lcotlin/collections/o1/b;->c:I
 
     invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->b(II)V
 
-    .line 2
     iget-object v0, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iget v1, p0, Lcotlin/collections/o1/b;->b:I
@@ -933,7 +858,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iget v1, p0, Lcotlin/collections/o1/b;->b:I
@@ -952,13 +876,11 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     iget v1, p0, Lcotlin/collections/o1/b;->c:I
 
     if-ge v0, v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iget v2, p0, Lcotlin/collections/o1/b;->b:I
@@ -989,7 +911,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/b;->c:I
 
     if-nez v0, :cond_0
@@ -1018,7 +939,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/o1/b$a;
 
     const/4 v1, 0x0
@@ -1031,7 +951,6 @@
 .method public lastIndexOf(Ljava/lang/Object;)I
     .locals 3
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/b;->c:I
 
     add-int/lit8 v0, v0, -0x1
@@ -1039,7 +958,6 @@
     :goto_0
     if-ltz v0, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iget v2, p0, Lcotlin/collections/o1/b;->b:I
@@ -1080,7 +998,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/o1/b$a;
 
     const/4 v1, 0x0
@@ -1103,14 +1020,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     iget v1, p0, Lcotlin/collections/o1/b;->c:I
 
     invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->c(II)V
 
-    .line 3
     new-instance v0, Lcotlin/collections/o1/b$a;
 
     invoke-direct {v0, p0, p1}, Lcotlin/collections/o1/b$a;-><init>(Lcotlin/collections/o1/b;I)V
@@ -1131,22 +1046,18 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/b;->f:Lcotlin/collections/o1/b;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcotlin/collections/o1/b;->s()V
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcotlin/collections/o1/b;->d:Z
 
     return-object p0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -1158,17 +1069,14 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/o1/b;->s()V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcotlin/collections/o1/b;->indexOf(Ljava/lang/Object;)I
 
     move-result p1
 
     if-ltz p1, :cond_0
 
-    .line 3
     invoke-virtual {p0, p1}, Lcotlin/collections/e;->remove(I)Ljava/lang/Object;
 
     :cond_0
@@ -1205,10 +1113,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/o1/b;->s()V
 
-    .line 2
     iget v0, p0, Lcotlin/collections/o1/b;->b:I
 
     iget v1, p0, Lcotlin/collections/o1/b;->c:I
@@ -1247,10 +1153,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/o1/b;->s()V
 
-    .line 2
     iget v0, p0, Lcotlin/collections/o1/b;->b:I
 
     iget v1, p0, Lcotlin/collections/o1/b;->c:I
@@ -1280,17 +1184,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/o1/b;->s()V
 
-    .line 2
     sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     iget v1, p0, Lcotlin/collections/o1/b;->c:I
 
     invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->b(II)V
 
-    .line 3
     iget-object v0, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iget v1, p0, Lcotlin/collections/o1/b;->b:I
@@ -1301,7 +1202,6 @@
 
     add-int/2addr v1, p1
 
-    .line 4
     aput-object p2, v0, v1
 
     return-object v2
@@ -1320,14 +1220,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     iget v1, p0, Lcotlin/collections/o1/b;->c:I
 
     invoke-virtual {v0, p1, p2, v1}, Lcotlin/collections/c$a;->d(III)V
 
-    .line 2
     new-instance v0, Lcotlin/collections/o1/b;
 
     iget-object v3, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
@@ -1366,7 +1264,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/b;->a:[Ljava/lang/Object;
 
     iget v1, p0, Lcotlin/collections/o1/b;->b:I

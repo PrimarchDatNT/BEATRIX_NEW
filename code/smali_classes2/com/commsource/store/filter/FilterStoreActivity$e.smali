@@ -70,7 +70,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity$e;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/filter/FilterStoreActivity;->Q0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/widget/h1/e;
@@ -81,34 +80,28 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity$e;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/filter/FilterStoreActivity;->Q0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/widget/h1/e;
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v3
 
-    .line 4
     const-class v4, Lcom/commsource/store/e;
 
     invoke-virtual {v3, p1, v4}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v3
 
-    .line 5
     invoke-virtual {v3}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v3
 
-    .line 6
     invoke-virtual {v1, v3}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity$e;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/filter/FilterStoreActivity;->R0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/beautyplus/f0/y;
@@ -129,7 +122,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/viewpager2/widget/ViewPager2;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 8
     sget-object v1, Lcom/commsource/beautyfilter/NewFilterConfig;->A:Lcom/commsource/beautyfilter/NewFilterConfig$a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->l()Z
@@ -142,10 +134,8 @@
 
     if-eqz v3, :cond_3
 
-    .line 9
     invoke-virtual {v1, v5}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->w(Z)V
 
-    .line 10
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -190,7 +180,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -234,7 +223,6 @@
     :cond_6
     check-cast v2, Lcom/commsource/beautyfilter/a;
 
-    .line 12
     :goto_2
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity$e;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
@@ -246,7 +234,6 @@
 
     if-eqz v2, :cond_7
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity$e;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/filter/FilterStoreActivity;->R0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/beautyplus/f0/y;
@@ -261,7 +248,6 @@
 
     invoke-virtual {v1, p1, v5}, Landroidx/viewpager2/widget/ViewPager2;->setCurrentItem(IZ)V
 
-    .line 14
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -275,7 +261,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/ArrayList;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/FilterStoreActivity$e;->a(Ljava/util/ArrayList;)V

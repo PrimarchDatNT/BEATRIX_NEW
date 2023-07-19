@@ -85,7 +85,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/sequences/p;->d(Lcotlin/jvm/u/p;)Ljava/util/Iterator;
 
     move-result-object p0
@@ -135,7 +134,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/sequences/q$a;
 
     invoke-direct {v0, p0}, Lcotlin/sequences/q$a;-><init>(Lcotlin/jvm/u/p;)V
@@ -183,12 +181,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/n;
 
     invoke-direct {v0}, Lcotlin/sequences/n;-><init>()V
 
-    .line 2
     invoke-static {p0, v0, v0}, Lcotlin/coroutines/intrinsics/a;->c(Lcotlin/jvm/u/p;Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p0
@@ -238,7 +234,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/q$b;
 
     invoke-direct {v0, p0}, Lcotlin/sequences/q$b;-><init>(Lcotlin/jvm/u/p;)V

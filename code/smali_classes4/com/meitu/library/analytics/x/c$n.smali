@@ -22,7 +22,6 @@
 
     const-string v1, "IdentifierId/OAID"
 
-    .line 1
     invoke-direct {p0, v0, v1}, Lcom/meitu/library/analytics/x/c$f;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void

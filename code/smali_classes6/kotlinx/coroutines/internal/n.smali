@@ -20,7 +20,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "REMOVE_PREPARED"

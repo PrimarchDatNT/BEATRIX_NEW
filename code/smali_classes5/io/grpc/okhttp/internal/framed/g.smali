@@ -57,14 +57,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0xa
 
     new-array v0, v0, [I
 
-    .line 2
     iput-object v0, p0, Lio/grpc/okhttp/internal/framed/g;->d:[I
 
     return-void
@@ -77,14 +75,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lio/grpc/okhttp/internal/framed/g;->c:I
 
     iput v0, p0, Lio/grpc/okhttp/internal/framed/g;->b:I
 
     iput v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
-    .line 2
     iget-object v1, p0, Lio/grpc/okhttp/internal/framed/g;->d:[I
 
     invoke-static {v1, v0}, Ljava/util/Arrays;->fill([II)V
@@ -95,7 +91,6 @@
 .method b(I)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/okhttp/internal/framed/g;->q(I)Z
 
     move-result v0
@@ -109,7 +104,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0, p1}, Lio/grpc/okhttp/internal/framed/g;->t(I)Z
 
@@ -126,7 +120,6 @@
 .method public c(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/internal/framed/g;->d:[I
 
     aget p1, v0, p1
@@ -137,7 +130,6 @@
 .method d(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit16 v0, v0, 0x100
@@ -157,7 +149,6 @@
 .method e(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit8 v0, v0, 0x20
@@ -177,7 +168,6 @@
 .method f(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit8 v0, v0, 0x4
@@ -197,7 +187,6 @@
 .method g(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit8 v0, v0, 0x40
@@ -217,7 +206,6 @@
 .method h(Z)Z
     .locals 3
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit8 v0, v0, 0x4
@@ -258,7 +246,6 @@
 .method i()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit8 v0, v0, 0x2
@@ -283,7 +270,6 @@
 .method j(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit16 v0, v0, 0x80
@@ -303,7 +289,6 @@
 .method k(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit8 v0, v0, 0x10
@@ -323,7 +308,6 @@
 .method l(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit8 v0, v0, 0x20
@@ -343,7 +327,6 @@
 .method m(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit8 v0, v0, 0x40
@@ -363,7 +346,6 @@
 .method n(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit8 v0, v0, 0x8
@@ -383,7 +365,6 @@
 .method o(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit8 v0, v0, 0x2
@@ -403,7 +384,6 @@
 .method p()Z
     .locals 3
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/lit16 v0, v0, 0x400
@@ -443,7 +423,6 @@
 
     shl-int p1, v0, p1
 
-    .line 1
     iget v1, p0, Lio/grpc/okhttp/internal/framed/g;->c:I
 
     and-int/2addr p1, v1
@@ -466,7 +445,6 @@
 
     shl-int p1, v0, p1
 
-    .line 1
     iget v1, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     and-int/2addr p1, v1
@@ -492,7 +470,6 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 1
     invoke-virtual {p1, v0}, Lio/grpc/okhttp/internal/framed/g;->r(I)Z
 
     move-result v1
@@ -501,7 +478,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p1, v0}, Lio/grpc/okhttp/internal/framed/g;->b(I)I
 
@@ -529,7 +505,6 @@
 
     shl-int p1, v0, p1
 
-    .line 1
     iget v1, p0, Lio/grpc/okhttp/internal/framed/g;->b:I
 
     and-int/2addr p1, v1
@@ -548,7 +523,6 @@
 .method public u(III)Lio/grpc/okhttp/internal/framed/g;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/internal/framed/g;->d:[I
 
     array-length v1, v0
@@ -562,7 +536,6 @@
 
     shl-int/2addr v1, p1
 
-    .line 2
     iget v2, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     or-int/2addr v2, v1
@@ -573,7 +546,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     iget v2, p0, Lio/grpc/okhttp/internal/framed/g;->b:I
 
     or-int/2addr v2, v1
@@ -582,7 +554,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget v2, p0, Lio/grpc/okhttp/internal/framed/g;->b:I
 
@@ -597,7 +568,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 5
     iget p2, p0, Lio/grpc/okhttp/internal/framed/g;->c:I
 
     or-int/2addr p2, v1
@@ -606,7 +576,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     iget p2, p0, Lio/grpc/okhttp/internal/framed/g;->c:I
 
@@ -616,7 +585,6 @@
 
     iput p2, p0, Lio/grpc/okhttp/internal/framed/g;->c:I
 
-    .line 7
     :goto_1
     aput p3, v0, p1
 
@@ -626,7 +594,6 @@
 .method v()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/internal/framed/g;->a:I
 
     invoke-static {v0}, Ljava/lang/Integer;->bitCount(I)I

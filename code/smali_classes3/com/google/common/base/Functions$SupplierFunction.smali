@@ -57,10 +57,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -75,7 +73,6 @@
 .method synthetic constructor <init>(Lcom/google/common/base/z;Lcom/google/common/base/Functions$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/base/Functions$SupplierFunction;-><init>(Lcom/google/common/base/z;)V
 
     return-void
@@ -97,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lcom/google/common/base/z;
 
     invoke-interface {p1}, Lcom/google/common/base/z;->get()Ljava/lang/Object;
@@ -114,15 +110,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/base/Functions$SupplierFunction;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/base/Functions$SupplierFunction;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lcom/google/common/base/z;
 
     iget-object p1, p1, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lcom/google/common/base/z;
@@ -142,7 +135,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lcom/google/common/base/z;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -155,7 +147,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

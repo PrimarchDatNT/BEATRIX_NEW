@@ -65,12 +65,10 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "defaultPort not set"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -85,7 +83,6 @@
 
     const-string p1, "proxyDetector not set"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -96,7 +93,6 @@
 
     const-string p1, "syncContext not set"
 
-    .line 5
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -107,7 +103,6 @@
 
     const-string p1, "serviceConfigParser not set"
 
-    .line 6
     invoke-static {p4, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -116,13 +111,10 @@
 
     iput-object p1, p0, Lio/grpc/z0$b;->d:Lio/grpc/z0$j;
 
-    .line 7
     iput-object p5, p0, Lio/grpc/z0$b;->e:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 8
     iput-object p6, p0, Lio/grpc/z0$b;->f:Lio/grpc/ChannelLogger;
 
-    .line 9
     iput-object p7, p0, Lio/grpc/z0$b;->g:Ljava/util/concurrent/Executor;
 
     return-void
@@ -131,7 +123,6 @@
 .method synthetic constructor <init>(Ljava/lang/Integer;Lio/grpc/h1;Lio/grpc/w1;Lio/grpc/z0$j;Ljava/util/concurrent/ScheduledExecutorService;Lio/grpc/ChannelLogger;Ljava/util/concurrent/Executor;Lio/grpc/z0$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p7}, Lio/grpc/z0$b;-><init>(Ljava/lang/Integer;Lio/grpc/h1;Lio/grpc/w1;Lio/grpc/z0$j;Ljava/util/concurrent/ScheduledExecutorService;Lio/grpc/ChannelLogger;Ljava/util/concurrent/Executor;)V
 
     return-void
@@ -140,7 +131,6 @@
 .method public static h()Lio/grpc/z0$b$a;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/z0$b$a;
 
     invoke-direct {v0}, Lio/grpc/z0$b$a;-><init>()V
@@ -156,14 +146,12 @@
         value = "https://github.com/grpc/grpc-java/issues/6438"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z0$b;->f:Lio/grpc/ChannelLogger;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -177,7 +165,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/z0$b;->a:I
 
     return v0
@@ -192,7 +179,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z0$b;->g:Ljava/util/concurrent/Executor;
 
     return-object v0
@@ -201,7 +187,6 @@
 .method public d()Lio/grpc/h1;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z0$b;->b:Lio/grpc/h1;
 
     return-object v0
@@ -213,14 +198,12 @@
         value = "https://github.com/grpc/grpc-java/issues/6454"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z0$b;->e:Ljava/util/concurrent/ScheduledExecutorService;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -234,7 +217,6 @@
 .method public f()Lio/grpc/z0$j;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z0$b;->d:Lio/grpc/z0$j;
 
     return-object v0
@@ -243,7 +225,6 @@
 .method public g()Lio/grpc/w1;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z0$b;->c:Lio/grpc/w1;
 
     return-object v0
@@ -252,42 +233,34 @@
 .method public i()Lio/grpc/z0$b$a;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/grpc/z0$b$a;
 
     invoke-direct {v0}, Lio/grpc/z0$b$a;-><init>()V
 
-    .line 2
     iget v1, p0, Lio/grpc/z0$b;->a:I
 
     invoke-virtual {v0, v1}, Lio/grpc/z0$b$a;->c(I)Lio/grpc/z0$b$a;
 
-    .line 3
     iget-object v1, p0, Lio/grpc/z0$b;->b:Lio/grpc/h1;
 
     invoke-virtual {v0, v1}, Lio/grpc/z0$b$a;->e(Lio/grpc/h1;)Lio/grpc/z0$b$a;
 
-    .line 4
     iget-object v1, p0, Lio/grpc/z0$b;->c:Lio/grpc/w1;
 
     invoke-virtual {v0, v1}, Lio/grpc/z0$b$a;->h(Lio/grpc/w1;)Lio/grpc/z0$b$a;
 
-    .line 5
     iget-object v1, p0, Lio/grpc/z0$b;->d:Lio/grpc/z0$j;
 
     invoke-virtual {v0, v1}, Lio/grpc/z0$b$a;->g(Lio/grpc/z0$j;)Lio/grpc/z0$b$a;
 
-    .line 6
     iget-object v1, p0, Lio/grpc/z0$b;->e:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-virtual {v0, v1}, Lio/grpc/z0$b$a;->f(Ljava/util/concurrent/ScheduledExecutorService;)Lio/grpc/z0$b$a;
 
-    .line 7
     iget-object v1, p0, Lio/grpc/z0$b;->f:Lio/grpc/ChannelLogger;
 
     invoke-virtual {v0, v1}, Lio/grpc/z0$b$a;->b(Lio/grpc/ChannelLogger;)Lio/grpc/z0$b$a;
 
-    .line 8
     iget-object v1, p0, Lio/grpc/z0$b;->g:Ljava/util/concurrent/Executor;
 
     invoke-virtual {v0, v1}, Lio/grpc/z0$b$a;->d(Ljava/util/concurrent/Executor;)Lio/grpc/z0$b$a;
@@ -298,7 +271,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -307,7 +279,6 @@
 
     const-string v2, "defaultPort"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->d(Ljava/lang/String;I)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -316,7 +287,6 @@
 
     const-string v2, "proxyDetector"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -325,7 +295,6 @@
 
     const-string v2, "syncContext"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -334,7 +303,6 @@
 
     const-string v2, "serviceConfigParser"
 
-    .line 5
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -343,7 +311,6 @@
 
     const-string v2, "scheduledExecutorService"
 
-    .line 6
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -352,7 +319,6 @@
 
     const-string v2, "channelLogger"
 
-    .line 7
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -361,12 +327,10 @@
 
     const-string v2, "executor"
 
-    .line 8
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 9
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

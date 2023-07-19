@@ -13,7 +13,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/content/ContextWrapper;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -37,7 +36,6 @@
 
     return-object v0
 
-    .line 1
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -58,7 +56,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-boolean v2, v1, Landroid/content/pm/ResolveInfo;->isDefault:Z
 
     if-eqz v2, :cond_1
@@ -82,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/ContextWrapper;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
@@ -96,7 +92,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {v0, p1, v2}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;
 
@@ -118,7 +113,6 @@
 .method private c(Landroid/content/Intent;Ljava/lang/String;)V
     .locals 5
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/z/f;->b(Landroid/content/Intent;)Ljava/util/List;
 
     move-result-object v0
@@ -127,7 +121,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-direct {p0, v0}, Lcom/sdk/imp/z/f;->a(Ljava/util/List;)Landroid/content/pm/ResolveInfo;
 
@@ -135,7 +128,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object p2, v1, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     iget-object v0, p2, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
@@ -146,7 +138,6 @@
 
     return-void
 
-    .line 4
     :cond_1
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -167,21 +158,18 @@
 
     check-cast v2, Landroid/content/pm/ResolveInfo;
 
-    .line 5
     iget-object v4, v2, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     if-eqz v4, :cond_2
 
     iget-object v4, v4, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {v4, p2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v4
 
     if-eqz v4, :cond_2
 
-    .line 7
     iget-object p2, v2, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     iget-object v1, p2, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
@@ -200,14 +188,12 @@
     :goto_0
     if-nez p2, :cond_4
 
-    .line 8
     invoke-interface {v0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Landroid/content/pm/ResolveInfo;
 
-    .line 9
     iget-object p2, p2, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     iget-object v0, p2, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
@@ -231,14 +217,12 @@
 .method public registerComponentCallbacks(Landroid/content/ComponentCallbacks;)V
     .locals 2
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xe
 
     if-lt v0, v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/sdk/api/a;->g()Landroid/content/Context;
 
     move-result-object v0
@@ -254,12 +238,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-super {p0, p1}, Landroid/content/ContextWrapper;->startActivity(Landroid/content/Intent;)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
@@ -267,22 +249,18 @@
 
     const/high16 v1, 0x10000000
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const/high16 v1, 0x10000
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 5
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1, p1}, Landroid/content/Intent;-><init>(Landroid/content/Intent;)V
 
     if-eqz v0, :cond_7
 
-    .line 6
     :try_start_0
     invoke-virtual {v0}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
@@ -290,7 +268,6 @@
 
     if-eqz v2, :cond_7
 
-    .line 7
     invoke-virtual {v0}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -303,7 +280,6 @@
 
     move-result-object v0
 
-    .line 8
     invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v2
@@ -318,7 +294,6 @@
 
     const-string v2, "http://"
 
-    .line 9
     invoke-virtual {v0, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v2
@@ -343,14 +318,12 @@
     :cond_1
     const-string v2, "market://"
 
-    .line 10
     invoke-virtual {v0, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_5
 
-    .line 11
     invoke-direct {p0, p1, v3}, Lcom/sdk/imp/z/f;->c(Landroid/content/Intent;Ljava/lang/String;)V
 
     goto :goto_2
@@ -359,7 +332,6 @@
     :goto_0
     const-string v2, "https://play.google.com/store/apps/details"
 
-    .line 12
     invoke-virtual {v0, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v2
@@ -368,7 +340,6 @@
 
     const-string v2, "http://play.google.com/store/apps/details"
 
-    .line 13
     invoke-virtual {v0, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
@@ -380,24 +351,20 @@
     :cond_3
     const-string v0, "com.android.browser"
 
-    .line 14
     invoke-direct {p0, p1, v0}, Lcom/sdk/imp/z/f;->c(Landroid/content/Intent;Ljava/lang/String;)V
 
     goto :goto_2
 
-    .line 15
     :cond_4
     :goto_1
     invoke-direct {p0, p1, v3}, Lcom/sdk/imp/z/f;->c(Landroid/content/Intent;Ljava/lang/String;)V
 
-    .line 16
     :cond_5
     :goto_2
     invoke-super {p0, p1}, Landroid/content/ContextWrapper;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_3
 
-    .line 17
     :cond_6
     new-instance p1, Ljava/lang/Exception;
 
@@ -407,7 +374,6 @@
 
     throw p1
 
-    .line 18
     :cond_7
     new-instance p1, Ljava/lang/Exception;
 
@@ -419,7 +385,6 @@
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 19
     :catch_0
     invoke-super {p0, v1}, Landroid/content/ContextWrapper;->startActivity(Landroid/content/Intent;)V
 
@@ -430,14 +395,12 @@
 .method public unregisterComponentCallbacks(Landroid/content/ComponentCallbacks;)V
     .locals 2
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xe
 
     if-lt v0, v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/sdk/api/a;->g()Landroid/content/Context;
 
     move-result-object v0

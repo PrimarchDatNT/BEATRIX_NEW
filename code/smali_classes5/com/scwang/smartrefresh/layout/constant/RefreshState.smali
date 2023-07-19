@@ -71,7 +71,6 @@
 .method static constructor <clinit>()V
     .locals 39
 
-    .line 1
     new-instance v9, Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     const-string v1, "None"
@@ -96,7 +95,6 @@
 
     sput-object v9, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->None:Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
-    .line 2
     new-instance v0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     const-string v11, "PullDownToRefresh"
@@ -145,7 +143,6 @@
 
     sput-object v1, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->PullUpToLoad:Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
-    .line 3
     new-instance v2, Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     const-string v11, "PullDownCanceled"
@@ -174,7 +171,6 @@
 
     sput-object v3, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->PullUpCanceled:Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
-    .line 4
     new-instance v4, Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     const-string v11, "ReleaseToRefresh"
@@ -207,7 +203,6 @@
 
     sput-object v5, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->ReleaseToLoad:Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
-    .line 5
     new-instance v6, Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     const-string v11, "ReleaseToTwoLevel"
@@ -242,7 +237,6 @@
 
     sput-object v7, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->TwoLevelReleased:Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
-    .line 6
     new-instance v8, Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     const-string v11, "RefreshReleased"
@@ -277,7 +271,6 @@
 
     sput-object v10, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->LoadReleased:Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
-    .line 7
     new-instance v20, Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     const-string v12, "Refreshing"
@@ -340,7 +333,6 @@
 
     sput-object v12, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->TwoLevel:Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
-    .line 8
     new-instance v13, Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     const-string v22, "RefreshFinish"
@@ -465,7 +457,6 @@
 
     aput-object v16, v15, v0
 
-    .line 9
     sput-object v15, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->$VALUES:[Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     return-void
@@ -479,7 +470,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     const/4 p1, 0x0
@@ -495,7 +485,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     iput-boolean v0, p0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->isHeader:Z
 
@@ -505,23 +494,17 @@
 
     const/4 p1, 0x1
 
-    .line 3
     :cond_1
     iput-boolean p1, p0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->isFooter:Z
 
-    .line 4
     iput-boolean p4, p0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->isDragging:Z
 
-    .line 5
     iput-boolean p5, p0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->isOpening:Z
 
-    .line 6
     iput-boolean p6, p0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->isFinishing:Z
 
-    .line 7
     iput-boolean p7, p0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->isTwoLevel:Z
 
-    .line 8
     iput-boolean p8, p0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->isReleaseToOpening:Z
 
     return-void
@@ -530,7 +513,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/scwang/smartrefresh/layout/constant/RefreshState;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -545,7 +527,6 @@
 .method public static values()[Lcom/scwang/smartrefresh/layout/constant/RefreshState;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->$VALUES:[Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     invoke-virtual {v0}, [Lcom/scwang/smartrefresh/layout/constant/RefreshState;->clone()Ljava/lang/Object;
@@ -562,7 +543,6 @@
 .method public toFooter()Lcom/scwang/smartrefresh/layout/constant/RefreshState;
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->isHeader:Z
 
     if-eqz v0, :cond_0
@@ -571,7 +551,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->values()[Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     move-result-object v0
@@ -593,7 +572,6 @@
 .method public toHeader()Lcom/scwang/smartrefresh/layout/constant/RefreshState;
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->isFooter:Z
 
     if-eqz v0, :cond_0
@@ -602,7 +580,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->values()[Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     move-result-object v0

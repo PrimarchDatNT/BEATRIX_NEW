@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer$a;->b:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
@@ -55,7 +54,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer$a;->a:Lcom/commsource/video/view/XVideoContainer;
 
     invoke-virtual {v1}, Lcom/commsource/video/view/XVideoContainer;->getVideoCover()Landroid/widget/ImageView;
@@ -64,7 +62,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

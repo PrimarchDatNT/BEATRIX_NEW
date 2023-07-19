@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
     const-string v1, "ASCENDING"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/google/firebase/firestore/core/OrderBy$Direction;->ASCENDING:Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
     const-string v4, "DESCENDING"
@@ -70,7 +68,6 @@
 
     aput-object v1, v4, v3
 
-    .line 3
     sput-object v4, Lcom/google/firebase/firestore/core/OrderBy$Direction;->$VALUES:[Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
     return-void
@@ -84,10 +81,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firebase/firestore/core/OrderBy$Direction;->comparisonModifier:I
 
     return-void
@@ -96,7 +91,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/firestore/core/OrderBy$Direction;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -111,7 +105,6 @@
 .method public static values()[Lcom/google/firebase/firestore/core/OrderBy$Direction;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/core/OrderBy$Direction;->$VALUES:[Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
     invoke-virtual {v0}, [Lcom/google/firebase/firestore/core/OrderBy$Direction;->clone()Ljava/lang/Object;
@@ -128,7 +121,6 @@
 .method getComparisonModifier()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/core/OrderBy$Direction;->comparisonModifier:I
 
     return v0

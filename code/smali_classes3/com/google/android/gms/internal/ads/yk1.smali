@@ -26,7 +26,6 @@
 .method public final d(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/yk1;->a:Lcom/google/android/gms/internal/ads/rq1;
 
     return-object p1

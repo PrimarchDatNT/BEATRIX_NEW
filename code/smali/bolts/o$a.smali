@@ -43,7 +43,6 @@
 .method constructor <init>(Lbolts/o;Lbolts/p;Lbolts/k;Ljava/util/concurrent/Executor;Lbolts/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/o$a;->e:Lbolts/o;
 
     iput-object p2, p0, Lbolts/o$a;->a:Lbolts/p;
@@ -72,7 +71,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lbolts/o$a;->a:Lbolts/p;
 
     iget-object v1, p0, Lbolts/o$a;->b:Lbolts/k;
@@ -96,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lbolts/o$a;->a(Lbolts/o;)Ljava/lang/Void;
 
     move-result-object p1

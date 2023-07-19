@@ -59,7 +59,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
     invoke-virtual {v0}, Lcom/commsource/billing/pro/GmsManager$a;->a()Lcom/commsource/billing/pro/GmsManager;
@@ -80,7 +79,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -98,7 +96,6 @@
 
     check-cast v1, Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -122,10 +119,8 @@
     :cond_0
     const-string/jumbo v0, "\u5173\u95ed"
 
-    .line 4
     invoke-static {v1, v0}, Lcom/commsource/widget/dialog/s0/t;->g0(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

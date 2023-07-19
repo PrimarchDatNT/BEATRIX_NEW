@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_remote_config/o5;->a()Ljava/lang/Class;
 
     move-result-object v0
@@ -40,7 +39,6 @@
     :try_start_0
     const-string v0, "com.google.protobuf.ExtensionRegistry"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -58,7 +56,6 @@
 .method public static b()Lcom/google/android/gms/internal/firebase_remote_config/n5;
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/o5;->a:Ljava/lang/Class;
 
     if-eqz v0, :cond_0
@@ -70,7 +67,6 @@
 
     new-array v3, v2, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {v0, v1, v3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
@@ -89,7 +85,6 @@
 
     return-object v0
 
-    .line 3
     :catch_0
     :cond_0
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/n5;->e:Lcom/google/android/gms/internal/firebase_remote_config/n5;

@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/n/a/c/f;Lf/n/a/c/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/f$a;->b:Lf/n/a/c/f;
 
     iput-object p2, p0, Lf/n/a/c/f$a;->a:Lf/n/a/c/h;
@@ -42,7 +41,6 @@
 .method public a(Ljava/lang/String;Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lf/n/a/c/f$a;->b:Lf/n/a/c/f;
 
     invoke-static {v0}, Lf/n/a/c/f;->a(Lf/n/a/c/f;)Ljava/io/RandomAccessFile;
@@ -51,7 +49,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lf/n/a/c/f$a;->b:Lf/n/a/c/f;
 
@@ -68,10 +65,8 @@
     :catch_0
     move-exception v0
 
-    .line 3
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 4
     :cond_0
     :goto_0
     iget-object v0, p0, Lf/n/a/c/f$a;->a:Lf/n/a/c/h;

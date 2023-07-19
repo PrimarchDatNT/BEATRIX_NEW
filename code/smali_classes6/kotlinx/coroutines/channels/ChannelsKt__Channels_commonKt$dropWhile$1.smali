@@ -182,7 +182,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
 
     const/4 v2, 0x5
@@ -227,7 +226,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -237,7 +235,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
 
@@ -323,7 +320,6 @@
 
     iget-object p1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->p$:Lcotlinx/coroutines/channels/w;
 
-    .line 4
     iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$this_dropWhile:Lcotlinx/coroutines/channels/y;
 
     invoke-interface {v1}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
@@ -375,7 +371,6 @@
 
     move-result-object p1
 
-    .line 5
     iget-object v9, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$predicate:Lcotlin/jvm/u/p;
 
     iput-object v8, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
@@ -410,7 +405,6 @@
 
     if-nez p1, :cond_8
 
-    .line 6
     iput-object v8, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
 
     iput-object v9, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
@@ -436,7 +430,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_9
     :goto_3
     iget-object p1, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$this_dropWhile:Lcotlinx/coroutines/channels/y;
@@ -480,7 +473,6 @@
 
     move-result-object p1
 
-    .line 8
     iput-object v8, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
 
     iput-object p1, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
@@ -502,7 +494,6 @@
 
     goto :goto_4
 
-    .line 9
     :cond_c
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

@@ -52,13 +52,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/android/billingclient/api/Purchase$b;->a:Ljava/util/List;
 
-    .line 3
     iput-object p1, p0, Lcom/android/billingclient/api/Purchase$b;->b:Lcom/android/billingclient/api/h;
 
     return-void
@@ -69,7 +66,6 @@
 .method public a()Lcom/android/billingclient/api/h;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase$b;->b:Lcom/android/billingclient/api/h;
 
     return-object v0
@@ -89,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/Purchase$b;->a:Ljava/util/List;
 
     return-object v0
@@ -98,7 +93,6 @@
 .method public c()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/android/billingclient/api/Purchase$b;->a()Lcom/android/billingclient/api/h;
 
     move-result-object v0

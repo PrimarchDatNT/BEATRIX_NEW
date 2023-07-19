@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/Date;
 
     const-wide/16 v2, -0x1
@@ -79,7 +78,6 @@
 
     sput-object v1, Lcom/meitu/remote/config/i/g;->e:Ljava/util/Date;
 
-    .line 2
     new-instance v1, Ljava/util/Date;
 
     invoke-direct {v1, v2, v3}, Ljava/util/Date;-><init>(J)V
@@ -94,20 +92,16 @@
 .method public constructor <init>(Landroid/content/SharedPreferences;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
-    .line 3
     new-instance p1, Ljava/lang/Object;
 
     invoke-direct {p1}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/remote/config/i/g;->b:Ljava/lang/Object;
 
-    .line 4
     new-instance p1, Ljava/lang/Object;
 
     invoke-direct {p1}, Ljava/lang/Object;-><init>()V
@@ -128,12 +122,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
@@ -147,12 +139,10 @@
 
     invoke-interface {v2}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -160,7 +150,6 @@
     :catchall_0
     move-exception v2
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -178,12 +167,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     new-instance v2, Lcom/meitu/remote/config/i/g$a;
 
@@ -193,7 +180,6 @@
 
     const/4 v5, 0x0
 
-    .line 3
     invoke-interface {v3, v4, v5}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 
     move-result v3
@@ -206,7 +192,6 @@
 
     const-wide/16 v7, -0x1
 
-    .line 4
     invoke-interface {v5, v6, v7, v8}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v5
@@ -219,7 +204,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -227,7 +211,6 @@
     :catchall_0
     move-exception v2
 
-    .line 6
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -245,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
     const-string v2, "fetch_timeout_in_seconds"
@@ -268,12 +250,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
@@ -281,24 +261,20 @@
 
     const-wide/16 v4, -0x1
 
-    .line 3
     invoke-interface {v2, v3, v4, v5}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v2
 
-    .line 4
     iget-object v4, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
     const-string v5, "last_fetch_status"
 
     const/4 v6, 0x0
 
-    .line 5
     invoke-interface {v4, v5, v6}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 
     move-result v4
 
-    .line 6
     new-instance v5, Lcom/meitu/remote/config/g$b;
 
     invoke-direct {v5}, Lcom/meitu/remote/config/g$b;-><init>()V
@@ -309,12 +285,10 @@
 
     const-wide/16 v8, 0x3c
 
-    .line 7
     invoke-interface {v6, v7, v8, v9}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v6
 
-    .line 8
     invoke-virtual {v5, v6, v7}, Lcom/meitu/remote/config/g$b;->i(J)Lcom/meitu/remote/config/g$b;
 
     move-result-object v5
@@ -325,42 +299,34 @@
 
     sget-wide v8, Lcom/meitu/remote/config/i/d;->k:J
 
-    .line 9
     invoke-interface {v6, v7, v8, v9}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v6
 
-    .line 10
     invoke-virtual {v5, v6, v7}, Lcom/meitu/remote/config/g$b;->j(J)Lcom/meitu/remote/config/g$b;
 
     move-result-object v5
 
-    .line 11
     invoke-virtual {v5}, Lcom/meitu/remote/config/g$b;->d()Lcom/meitu/remote/config/g;
 
     move-result-object v5
 
-    .line 12
     invoke-static {}, Lcom/meitu/remote/config/i/k;->d()Lcom/meitu/remote/config/i/k$b;
 
     move-result-object v6
 
-    .line 13
     invoke-virtual {v6, v4}, Lcom/meitu/remote/config/i/k$b;->c(I)Lcom/meitu/remote/config/i/k$b;
 
     move-result-object v4
 
-    .line 14
     invoke-virtual {v4, v2, v3}, Lcom/meitu/remote/config/i/k$b;->d(J)Lcom/meitu/remote/config/i/k$b;
 
     move-result-object v2
 
-    .line 15
     invoke-virtual {v2, v5}, Lcom/meitu/remote/config/i/k$b;->b(Lcom/meitu/remote/config/g;)Lcom/meitu/remote/config/i/k$b;
 
     move-result-object v2
 
-    .line 16
     invoke-virtual {v2}, Lcom/meitu/remote/config/i/k$b;->a()Lcom/meitu/remote/config/i/k;
 
     move-result-object v2
@@ -369,7 +335,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -377,7 +342,6 @@
     :catchall_0
     move-exception v2
 
-    .line 18
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -397,7 +361,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
     const-string v2, "last_fetch_etag"
@@ -420,7 +383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
     const-string v2, "last_fetch_status"
@@ -443,7 +405,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/Date;
 
     iget-object v2, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
@@ -452,14 +413,12 @@
 
     const-wide/16 v4, -0x1
 
-    .line 2
     invoke-interface {v2, v3, v4, v5}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v2
 
     invoke-direct {v1, v2, v3}, Ljava/util/Date;-><init>(J)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -472,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
     sget-wide v2, Lcom/meitu/remote/config/i/d;->k:J
@@ -495,7 +453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
     const-string v2, "is_auto_fetch_enabled"
@@ -518,14 +475,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/remote/config/i/g;->h:Ljava/util/Date;
 
     const/4 v2, 0x0
 
     invoke-virtual {p0, v2, v1}, Lcom/meitu/remote/config/i/g;->k(ILjava/util/Date;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -538,30 +493,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
-    .line 3
     invoke-interface {v2}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v2
 
     const-string v3, "num_failed_fetches"
 
-    .line 4
     invoke-interface {v2, v3, p1}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
 
     move-result-object p1
 
     const-string v2, "backoff_end_time_in_millis"
 
-    .line 5
     invoke-virtual {p2}, Ljava/util/Date;->getTime()J
 
     move-result-wide v3
@@ -570,15 +520,12 @@
 
     move-result-object p1
 
-    .line 6
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 7
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -586,7 +533,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -606,23 +552,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
-    .line 3
     invoke-interface {v2}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v2
 
     const-string v3, "fetch_timeout_in_seconds"
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/remote/config/g;->c()J
 
     move-result-wide v4
@@ -633,25 +575,20 @@
 
     const-string v3, "minimum_fetch_interval_in_seconds"
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/remote/config/g;->d()J
 
     move-result-wide v4
 
-    .line 6
     invoke-interface {v2, v3, v4, v5}, Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;
 
     move-result-object p1
 
-    .line 7
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    .line 8
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -659,7 +596,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -677,23 +613,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
-    .line 3
     invoke-interface {v2}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v2
 
     const-string v3, "is_auto_fetch_enabled"
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/remote/config/g;->b()Z
 
     move-result v4
@@ -704,7 +636,6 @@
 
     const-string v3, "fetch_timeout_in_seconds"
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/remote/config/g;->c()J
 
     move-result-wide v4
@@ -715,25 +646,20 @@
 
     const-string v3, "minimum_fetch_interval_in_seconds"
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/remote/config/g;->d()J
 
     move-result-wide v4
 
-    .line 7
     invoke-interface {v2, v3, v4, v5}, Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;
 
     move-result-object p1
 
-    .line 8
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 9
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -741,7 +667,6 @@
     :catchall_0
     move-exception p1
 
-    .line 11
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -759,12 +684,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
@@ -780,12 +703,10 @@
 
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -793,7 +714,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -811,12 +731,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
@@ -834,12 +752,10 @@
 
     invoke-interface {v2}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -847,7 +763,6 @@
     :catchall_0
     move-exception v2
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -865,16 +780,13 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
-    .line 3
     invoke-interface {v2}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v2
@@ -883,14 +795,12 @@
 
     const/4 v4, -0x1
 
-    .line 4
     invoke-interface {v2, v3, v4}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
 
     move-result-object v2
 
     const-string v3, "last_fetch_time_in_millis"
 
-    .line 5
     invoke-virtual {p1}, Ljava/util/Date;->getTime()J
 
     move-result-wide v4
@@ -899,15 +809,12 @@
 
     move-result-object p1
 
-    .line 6
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 7
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -915,7 +822,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -933,12 +839,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/remote/config/i/g;->a:Landroid/content/SharedPreferences;
 
@@ -956,12 +860,10 @@
 
     invoke-interface {v2}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -969,7 +871,6 @@
     :catchall_0
     move-exception v2
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1

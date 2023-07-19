@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/common/VisibilityTracker;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/VisibilityTracker$1;->this$0:Lcom/mopub/common/VisibilityTracker;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onPreDraw()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/VisibilityTracker$1;->this$0:Lcom/mopub/common/VisibilityTracker;
 
     invoke-virtual {v0}, Lcom/mopub/common/VisibilityTracker;->scheduleVisibilityCheck()V

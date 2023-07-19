@@ -48,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
     const-string v2, "UNINITIALIZED"
@@ -59,7 +58,6 @@
 
     sput-object v1, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;->UNINITIALIZED:Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
-    .line 2
     new-instance v2, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
     const-string v4, "INITIALIZING"
@@ -70,7 +68,6 @@
 
     sput-object v2, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;->INITIALIZING:Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
-    .line 3
     new-instance v4, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
     const-string v6, "INITIALIZED"
@@ -81,7 +78,6 @@
 
     sput-object v4, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;->INITIALIZED:Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
-    .line 4
     new-instance v6, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
     const-string v8, "RECORDING"
@@ -92,7 +88,6 @@
 
     sput-object v6, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;->RECORDING:Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
-    .line 5
     new-instance v8, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
     const-string v10, "STOPPING"
@@ -103,7 +98,6 @@
 
     sput-object v8, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;->STOPPING:Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
-    .line 6
     new-instance v10, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
     const-string v12, "RELEASING"
@@ -114,7 +108,6 @@
 
     sput-object v10, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;->RELEASING:Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
-    .line 7
     new-instance v12, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
     const-string v14, "RELEASED"
@@ -143,7 +136,6 @@
 
     aput-object v12, v14, v15
 
-    .line 8
     sput-object v14, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;->$VALUES:[Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -159,7 +151,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -172,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -193,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;->$VALUES:[Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;
 
     invoke-virtual {v1}, [Lcom/meitu/media/encoder/TextureMovieEncoder$STATE;->clone()Ljava/lang/Object;

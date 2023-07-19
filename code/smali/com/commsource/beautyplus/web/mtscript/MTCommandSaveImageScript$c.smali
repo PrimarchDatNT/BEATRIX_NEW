@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$c;->g:Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript;
 
     iput-object p2, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$c;->p:Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$Model;
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$c;->p:Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$Model;
 
@@ -68,26 +66,22 @@
 
     const/4 v2, 0x0
 
-    .line 2
     array-length v3, v1
 
     invoke-static {v1, v2, v3}, Landroid/graphics/BitmapFactory;->decodeByteArray([BII)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->J()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->U()Z
 
     move-result v3
@@ -96,7 +90,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 6
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -105,25 +98,19 @@
 
     move-result-object v3
 
-    .line 7
     sget-object v5, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
-    .line 8
     invoke-static {v1, v3, v4, v5}, Lcom/commsource/util/common/e;->B(Landroid/graphics/Bitmap;Landroid/net/Uri;ILandroid/graphics/Bitmap$CompressFormat;)Z
 
     goto :goto_0
 
-    .line 9
     :cond_0
     sget-object v3, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
-    .line 10
     invoke-static {v1, v2, v4, v3}, Lcom/commsource/util/common/e;->D(Landroid/graphics/Bitmap;Ljava/lang/String;ILandroid/graphics/Bitmap$CompressFormat;)Z
 
-    .line 11
     invoke-static {v2}, Lcom/meitu/webview/utils/g;->t(Ljava/lang/String;)V
 
-    .line 12
     :goto_0
     new-instance v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$c$a;
 
@@ -138,17 +125,14 @@
     :catch_0
     move-exception v1
 
-    .line 13
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 14
     new-instance v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$c$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$c$b;-><init>(Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$c;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 15
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

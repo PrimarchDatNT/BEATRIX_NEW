@@ -33,7 +33,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Long;
 
     invoke-virtual {p0, p1}, Lio/grpc/internal/GrpcUtil$h;->d(Ljava/lang/Long;)Ljava/lang/String;
@@ -57,7 +55,6 @@
 .method public bridge synthetic b(Ljava/lang/String;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/internal/GrpcUtil$h;->c(Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object p1
@@ -68,7 +65,6 @@
 .method public c(Ljava/lang/String;)Ljava/lang/Long;
     .locals 5
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -91,7 +87,6 @@
 
     invoke-static {v0, v3}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -112,7 +107,6 @@
 
     invoke-static {v0, v3}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -127,7 +121,6 @@
 
     move-result-wide v3
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -162,14 +155,12 @@
 
     if-ne p1, v0, :cond_2
 
-    .line 5
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
     return-object p1
 
-    .line 6
     :cond_2
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -191,7 +182,6 @@
 
     throw v0
 
-    .line 7
     :cond_3
     sget-object p1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
@@ -205,7 +195,6 @@
 
     return-object p1
 
-    .line 8
     :cond_4
     sget-object p1, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
 
@@ -219,7 +208,6 @@
 
     return-object p1
 
-    .line 9
     :cond_5
     sget-object p1, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
@@ -233,7 +221,6 @@
 
     return-object p1
 
-    .line 10
     :cond_6
     sget-object p1, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
@@ -247,7 +234,6 @@
 
     return-object p1
 
-    .line 11
     :cond_7
     sget-object p1, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
@@ -265,10 +251,8 @@
 .method public d(Ljava/lang/Long;)Ljava/lang/String;
     .locals 6
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v1
@@ -279,7 +263,6 @@
 
     if-ltz v5, :cond_5
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v1
@@ -290,7 +273,6 @@
 
     if-gez v5, :cond_0
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -307,7 +289,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
@@ -319,7 +300,6 @@
 
     if-gez v5, :cond_1
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -344,7 +324,6 @@
 
     return-object p1
 
-    .line 7
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
@@ -356,7 +335,6 @@
 
     if-gez v5, :cond_2
 
-    .line 8
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -381,7 +359,6 @@
 
     return-object p1
 
-    .line 9
     :cond_2
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
@@ -393,7 +370,6 @@
 
     if-gez v5, :cond_3
 
-    .line 10
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -418,7 +394,6 @@
 
     return-object p1
 
-    .line 11
     :cond_3
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
@@ -430,7 +405,6 @@
 
     if-gez v5, :cond_4
 
-    .line 12
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -455,7 +429,6 @@
 
     return-object p1
 
-    .line 13
     :cond_4
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -481,7 +454,6 @@
 
     return-object p1
 
-    .line 14
     :cond_5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

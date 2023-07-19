@@ -46,12 +46,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$a;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {v1}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$a;->b:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_0
@@ -62,7 +60,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

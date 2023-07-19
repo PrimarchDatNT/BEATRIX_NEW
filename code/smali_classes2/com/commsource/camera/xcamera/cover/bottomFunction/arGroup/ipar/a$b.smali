@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +91,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,7 +103,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;->B()Lcom/commsource/beautyplus/f0/id;
@@ -132,7 +127,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;->B()Lcom/commsource/beautyplus/f0/id;
@@ -157,7 +151,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setAlpha(F)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;->B()Lcom/commsource/beautyplus/f0/id;
@@ -182,7 +175,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setTranslationX(F)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;
 
     iget-object v1, v0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -199,7 +191,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/xc;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/fd;->a:Lcom/google/android/gms/internal/ads/xc;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -27,7 +26,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/fd;->a:Lcom/google/android/gms/internal/ads/xc;
 
@@ -46,7 +44,6 @@
 
     const-string v1, "#007 Could not call remote method."
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

@@ -31,7 +31,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/material/g;-><init>(Z)V
 
     return-void
@@ -40,36 +39,30 @@
 .method protected constructor <init>(Z)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-nez p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/material/g;->a:Ljava/util/List;
 
     if-nez p1, :cond_1
 
-    .line 4
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/material/g;->a:Ljava/util/List;
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/material/g;->g()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 6
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/material/g;->a:Ljava/util/List;
 
     const-string v1, ","
@@ -84,7 +77,6 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 8
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -102,7 +94,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 9
     :cond_1
     new-instance p1, Ljava/util/ArrayList;
 
@@ -121,7 +112,6 @@
 .method public b(I)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -134,7 +124,6 @@
 .method public c(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -151,19 +140,16 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/material/g;->b:Ljava/util/List;
 
     if-nez v0, :cond_0
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/material/g;->b:Ljava/util/List;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/commsource/material/g;->b:Ljava/util/List;
 
@@ -173,12 +159,10 @@
 
     if-nez v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/material/g;->b:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -207,7 +191,6 @@
 .method public e(I)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -220,12 +203,10 @@
 .method public f(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/material/g;->b:Ljava/util/List;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -234,7 +215,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
@@ -247,7 +227,6 @@
 .method public h(I)Z
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -262,7 +241,6 @@
 .method public i(Ljava/lang/String;)Z
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -279,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -298,12 +275,10 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/material/g;->b:Ljava/util/List;
 
     if-nez v0, :cond_0
 
-    .line 4
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -314,7 +289,6 @@
 
     return p1
 
-    .line 5
     :cond_0
     invoke-interface {v0, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
@@ -326,7 +300,6 @@
 .method public j(I)Z
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -341,7 +314,6 @@
 .method public k(Ljava/lang/String;)Z
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -360,7 +332,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/material/g;->a:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -395,7 +366,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -413,32 +383,27 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/material/g;->a:Ljava/util/List;
 
     if-nez v0, :cond_0
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/material/g;->a:Ljava/util/List;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/commsource/material/g;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 5
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/material/g;->a:Ljava/util/List;
 
     const-string v1, ","
@@ -453,13 +418,11 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 7
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/material/g;->a(Landroid/content/Context;Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     monitor-exit p0
 
     return-void

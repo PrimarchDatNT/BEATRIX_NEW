@@ -32,7 +32,6 @@
 .method private constructor <init>(Lcom/commsource/camera/render/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/render/b$b;->f:Lcom/commsource/camera/render/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,7 +42,6 @@
 .method synthetic constructor <init>(Lcom/commsource/camera/render/b;Lcom/commsource/camera/render/b$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/camera/render/b$b;-><init>(Lcom/commsource/camera/render/b;)V
 
     return-void

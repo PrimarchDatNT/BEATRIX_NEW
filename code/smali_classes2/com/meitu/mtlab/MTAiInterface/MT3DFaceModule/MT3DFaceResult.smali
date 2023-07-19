@@ -30,7 +30,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -59,12 +57,10 @@
 
     if-eqz v1, :cond_a
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     if-eqz v2, :cond_0
 
-    .line 3
     new-instance v3, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     iget v4, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->width:I
@@ -75,7 +71,6 @@
 
     iput-object v3, v1, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace25Ds_V1:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
@@ -87,14 +82,12 @@
 
     if-lez v4, :cond_2
 
-    .line 5
     array-length v2, v2
 
     new-array v2, v2, [Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
     const/4 v4, 0x0
 
-    .line 6
     :goto_0
     iget-object v5, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace25Ds_V1:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
@@ -102,7 +95,6 @@
 
     if-ge v4, v6, :cond_1
 
-    .line 7
     aget-object v5, v5, v4
 
     invoke-virtual {v5}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;->clone()Ljava/lang/Object;
@@ -117,11 +109,9 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace25Ds_V1:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
-    .line 9
     :cond_2
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace25Ds_V2:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
@@ -131,14 +121,12 @@
 
     if-lez v4, :cond_4
 
-    .line 10
     array-length v2, v2
 
     new-array v2, v2, [Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
     const/4 v4, 0x0
 
-    .line 11
     :goto_1
     iget-object v5, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace25Ds_V2:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
@@ -146,7 +134,6 @@
 
     if-ge v4, v6, :cond_3
 
-    .line 12
     aget-object v5, v5, v4
 
     invoke-virtual {v5}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;->clone()Ljava/lang/Object;
@@ -161,11 +148,9 @@
 
     goto :goto_1
 
-    .line 13
     :cond_3
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace25Ds_V2:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
-    .line 14
     :cond_4
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace2DBackGrounds:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
@@ -175,14 +160,12 @@
 
     if-lez v4, :cond_6
 
-    .line 15
     array-length v2, v2
 
     new-array v2, v2, [Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
     const/4 v4, 0x0
 
-    .line 16
     :goto_2
     iget-object v5, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace2DBackGrounds:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
@@ -190,7 +173,6 @@
 
     if-ge v4, v6, :cond_5
 
-    .line 17
     aget-object v5, v5, v4
 
     invoke-virtual {v5}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;->clone()Ljava/lang/Object;
@@ -205,11 +187,9 @@
 
     goto :goto_2
 
-    .line 18
     :cond_5
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace2DBackGrounds:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
-    .line 19
     :cond_6
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace2DMuitiBackGrounds:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
@@ -219,14 +199,12 @@
 
     if-lez v4, :cond_8
 
-    .line 20
     array-length v2, v2
 
     new-array v2, v2, [Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
     const/4 v4, 0x0
 
-    .line 21
     :goto_3
     iget-object v5, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace2DMuitiBackGrounds:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
@@ -234,7 +212,6 @@
 
     if-ge v4, v6, :cond_7
 
-    .line 22
     aget-object v5, v5, v4
 
     invoke-virtual {v5}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;->clone()Ljava/lang/Object;
@@ -249,11 +226,9 @@
 
     goto :goto_3
 
-    .line 23
     :cond_7
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace2DMuitiBackGrounds:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace2D;
 
-    .line 24
     :cond_8
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace3Ds:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace3D;
 
@@ -263,12 +238,10 @@
 
     if-lez v4, :cond_a
 
-    .line 25
     array-length v2, v2
 
     new-array v2, v2, [Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace3D;
 
-    .line 26
     :goto_4
     iget-object v4, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace3Ds:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace3D;
 
@@ -276,7 +249,6 @@
 
     if-ge v3, v5, :cond_9
 
-    .line 27
     aget-object v4, v4, v3
 
     invoke-virtual {v4}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace3D;->clone()Ljava/lang/Object;
@@ -291,11 +263,9 @@
 
     goto :goto_4
 
-    .line 28
     :cond_9
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceResult;->threeDFace3Ds:[Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFace3D;
 
-    .line 29
     :cond_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

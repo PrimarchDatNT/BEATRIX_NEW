@@ -15,16 +15,12 @@
 .method public constructor <init>(Lcom/meitu/template/bean/ArMaterial;Landroid/graphics/Point;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;->a:Lcom/meitu/template/bean/ArMaterial;
 
-    .line 3
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;->b:Landroid/graphics/Point;
 
-    .line 4
     iput p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;->c:I
 
     return-void
@@ -39,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;->a:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -54,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;->b:Landroid/graphics/Point;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -69,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;->c:I
 
     rem-int/lit8 v1, v1, 0x5
@@ -96,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;->c:I
 
     rem-int/lit8 v1, v1, 0x5
@@ -125,10 +117,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;->a:Lcom/meitu/template/bean/ArMaterial;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -141,10 +131,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;->b:Landroid/graphics/Point;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

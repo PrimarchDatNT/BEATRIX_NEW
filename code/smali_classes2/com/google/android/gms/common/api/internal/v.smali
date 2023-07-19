@@ -21,7 +21,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;-><init>(Landroid/os/Looper;)V
 
     return-void
@@ -30,7 +29,6 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/i;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;-><init>(Lcom/google/android/gms/common/api/i;)V
 
     return-void

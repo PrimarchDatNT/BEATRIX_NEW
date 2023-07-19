@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerConfig;->d0()Z
@@ -51,10 +50,8 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerConfig;->l0()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$e;->a:Lcom/commsource/studio/sticker/manage/StickerManagerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->B(Lcom/commsource/studio/sticker/manage/StickerManagerFragment;)Lcom/commsource/beautyplus/f0/oa;
@@ -71,7 +68,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

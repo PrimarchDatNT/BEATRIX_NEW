@@ -61,7 +61,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/HeapObject;
 
     invoke-virtual {p0, p1}, Lkshark/ObjectInspectors$KEYED_WEAK_REFERENCE$leakingObjectFilter$1;->invoke(Lkshark/HeapObject;)Z
@@ -86,7 +85,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Lkshark/KeyedWeakReferenceFinder;->b:Lkshark/KeyedWeakReferenceFinder;
 
     invoke-virtual {p1}, Lkshark/HeapObject;->f()Lkshark/i;
@@ -97,7 +95,6 @@
 
     move-result-object v0
 
-    .line 3
     instance-of v1, v0, Ljava/util/Collection;
 
     const/4 v2, 0x1
@@ -117,7 +114,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -136,7 +132,6 @@
 
     check-cast v1, Lkshark/internal/e;
 
-    .line 5
     invoke-virtual {v1}, Lkshark/internal/e;->d()Lkshark/b0$i;
 
     move-result-object v1

@@ -65,12 +65,10 @@
 .method private constructor <init>(Lcom/google/common/collect/LinkedListMultimap;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/LinkedListMultimap$e;->f:Lcom/google/common/collect/LinkedListMultimap;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/common/collect/LinkedListMultimap;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -85,14 +83,12 @@
 
     iput-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->a:Ljava/util/Set;
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/collect/LinkedListMultimap;->access$200(Lcom/google/common/collect/LinkedListMultimap;)Lcom/google/common/collect/LinkedListMultimap$g;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->b:Lcom/google/common/collect/LinkedListMultimap$g;
 
-    .line 4
     invoke-static {p1}, Lcom/google/common/collect/LinkedListMultimap;->access$000(Lcom/google/common/collect/LinkedListMultimap;)I
 
     move-result p1
@@ -105,7 +101,6 @@
 .method synthetic constructor <init>(Lcom/google/common/collect/LinkedListMultimap;Lcom/google/common/collect/LinkedListMultimap$a;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/google/common/collect/LinkedListMultimap$e;-><init>(Lcom/google/common/collect/LinkedListMultimap;)V
 
     return-void
@@ -114,7 +109,6 @@
 .method private a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->f:Lcom/google/common/collect/LinkedListMultimap;
 
     invoke-static {v0}, Lcom/google/common/collect/LinkedListMultimap;->access$000(Lcom/google/common/collect/LinkedListMultimap;)I
@@ -127,7 +121,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/util/ConcurrentModificationException;
 
@@ -141,10 +134,8 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/LinkedListMultimap$e;->a()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->b:Lcom/google/common/collect/LinkedListMultimap$g;
 
     if-eqz v0, :cond_0
@@ -168,27 +159,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/LinkedListMultimap$e;->a()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->b:Lcom/google/common/collect/LinkedListMultimap$g;
 
     invoke-static {v0}, Lcom/google/common/collect/LinkedListMultimap;->access$300(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->b:Lcom/google/common/collect/LinkedListMultimap$g;
 
     iput-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->c:Lcom/google/common/collect/LinkedListMultimap$g;
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/LinkedListMultimap$e;->a:Ljava/util/Set;
 
     iget-object v0, v0, Lcom/google/common/collect/LinkedListMultimap$g;->a:Ljava/lang/Object;
 
     invoke-interface {v1, v0}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->b:Lcom/google/common/collect/LinkedListMultimap$g;
 
@@ -198,7 +184,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/google/common/collect/LinkedListMultimap$e;->a:Ljava/util/Set;
 
     iget-object v0, v0, Lcom/google/common/collect/LinkedListMultimap$g;->a:Ljava/lang/Object;
@@ -209,7 +194,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 7
     :cond_1
     iget-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->c:Lcom/google/common/collect/LinkedListMultimap$g;
 
@@ -221,10 +205,8 @@
 .method public remove()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/LinkedListMultimap$e;->a()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->c:Lcom/google/common/collect/LinkedListMultimap$g;
 
     if-eqz v0, :cond_0
@@ -239,7 +221,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/collect/m;->e(Z)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->f:Lcom/google/common/collect/LinkedListMultimap;
 
     iget-object v1, p0, Lcom/google/common/collect/LinkedListMultimap$e;->c:Lcom/google/common/collect/LinkedListMultimap$g;
@@ -250,10 +231,8 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->c:Lcom/google/common/collect/LinkedListMultimap$g;
 
-    .line 5
     iget-object v0, p0, Lcom/google/common/collect/LinkedListMultimap$e;->f:Lcom/google/common/collect/LinkedListMultimap;
 
     invoke-static {v0}, Lcom/google/common/collect/LinkedListMultimap;->access$000(Lcom/google/common/collect/LinkedListMultimap;)I

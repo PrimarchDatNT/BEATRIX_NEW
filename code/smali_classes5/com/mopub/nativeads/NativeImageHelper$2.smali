@@ -25,7 +25,6 @@
 .method constructor <init>(Landroid/widget/ImageView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/NativeImageHelper$2;->val$imageView:Landroid/widget/ImageView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x2
@@ -61,7 +59,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/nativeads/NativeImageHelper$2;->val$imageView:Landroid/widget/ImageView;
 
     const/4 v0, 0x0
@@ -80,7 +77,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     sget-object p2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x1
@@ -95,7 +91,6 @@
 
     invoke-static {p2, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     :cond_0
     iget-object p2, p0, Lcom/mopub/nativeads/NativeImageHelper$2;->val$imageView:Landroid/widget/ImageView;
 

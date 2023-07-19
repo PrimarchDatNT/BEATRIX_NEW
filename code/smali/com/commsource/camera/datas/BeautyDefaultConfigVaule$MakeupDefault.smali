@@ -31,7 +31,6 @@
 .method public constructor <init>(Lcom/commsource/camera/datas/BeautyDefaultConfigVaule;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$MakeupDefault;->this$0:Lcom/commsource/camera/datas/BeautyDefaultConfigVaule;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

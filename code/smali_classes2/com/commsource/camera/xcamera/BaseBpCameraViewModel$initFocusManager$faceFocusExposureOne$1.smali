@@ -120,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-static {p1, p2, p3, p4, p5}, Lcom/meitu/mtlab/beautyplus/utils/FaceDetectUtil;->a([BIIILandroid/graphics/RectF;)I
 
     move-result p1
@@ -137,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     move-object v2, p1
 
     check-cast v2, [B

@@ -18,17 +18,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTShinyFace;->shiny_count:I
 
     const/4 v0, 0x0
 
-    .line 3
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTShinyFace;->skiny_area_percent:F
 
     return-void
@@ -48,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -57,7 +53,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTShinyFace;->shiny_rects:[Landroid/graphics/RectF;
 
     if-eqz v2, :cond_1
@@ -66,14 +61,12 @@
 
     if-lez v3, :cond_1
 
-    .line 3
     array-length v2, v2
 
     new-array v2, v2, [Landroid/graphics/RectF;
 
     const/4 v3, 0x0
 
-    .line 4
     :goto_0
     iget-object v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTShinyFace;->shiny_rects:[Landroid/graphics/RectF;
 
@@ -81,7 +74,6 @@
 
     if-ge v3, v4, :cond_0
 
-    .line 5
     new-instance v4, Landroid/graphics/RectF;
 
     iget-object v5, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTShinyFace;->shiny_rects:[Landroid/graphics/RectF;
@@ -96,11 +88,9 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTShinyFace;->shiny_rects:[Landroid/graphics/RectF;
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

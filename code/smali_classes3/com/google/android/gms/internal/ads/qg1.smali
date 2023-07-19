@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/og1;Lcom/google/android/gms/internal/ads/sn2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/qg1;->b:Lcom/google/android/gms/internal/ads/og1;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/qg1;->a:Lcom/google/android/gms/internal/ads/sn2;
@@ -28,7 +27,6 @@
 .method public final h()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qg1;->b:Lcom/google/android/gms/internal/ads/og1;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/og1;->J5(Lcom/google/android/gms/internal/ads/og1;)Lcom/google/android/gms/internal/ads/ym0;
@@ -37,7 +35,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qg1;->a:Lcom/google/android/gms/internal/ads/sn2;
 
@@ -52,7 +49,6 @@
 
     const-string v1, "#007 Could not call remote method."
 
-    .line 3
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0

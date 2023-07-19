@@ -20,10 +20,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;-><init>()V
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v0
@@ -44,7 +42,6 @@
 
     const/16 v1, 0xb
 
-    .line 3
     invoke-virtual {v0, v1}, Landroid/hardware/SensorManager;->getDefaultSensor(I)Landroid/hardware/Sensor;
 
     move-result-object v0
@@ -57,7 +54,6 @@
     :goto_0
     iput-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/a0;->c:Landroid/hardware/Sensor;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/newrender/renderproxy/v/a0$a;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/newrender/renderproxy/v/a0$a;-><init>(Lcom/commsource/camera/newrender/renderproxy/v/a0;)V
@@ -66,7 +62,6 @@
 
     return-void
 
-    .line 5
     :cond_1
     new-instance v0, Lcotlin/TypeCastException;
 
@@ -84,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/newrender/renderproxy/v/a0;->d:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -99,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/v/a0;->d:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,15 +109,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->a0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/a0;->c:Landroid/hardware/Sensor;
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/newrender/renderproxy/v/a0;->b:Landroid/hardware/SensorManager;
 
     if-eqz v2, :cond_0
@@ -135,7 +125,6 @@
 
     invoke-virtual {v2, v3, v1, v4}, Landroid/hardware/SensorManager;->registerListener(Landroid/hardware/SensorEventListener;Landroid/hardware/Sensor;I)Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -153,15 +142,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/newrender/renderproxy/v/v;->x1(Lcom/meitu/library/renderarch/arch/data/b/d;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/v/a0;->d:[F
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -176,12 +162,10 @@
 
     const/4 v2, 0x0
 
-    .line 4
     aget v2, p1, v2
 
     const/4 v3, 0x1
 
-    .line 5
     aget v3, p1, v3
 
     const/4 v4, 0x2
@@ -192,10 +176,8 @@
 
     aget p1, p1, v5
 
-    .line 6
     invoke-virtual {v1, v2, v3, v4, p1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setGyroscopeQuaternionData(FFFF)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -209,15 +191,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->z0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/a0;->c:Landroid/hardware/Sensor;
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/newrender/renderproxy/v/a0;->b:Landroid/hardware/SensorManager;
 
     if-eqz v2, :cond_0
@@ -226,7 +205,6 @@
 
     invoke-virtual {v2, v3, v1}, Landroid/hardware/SensorManager;->unregisterListener(Landroid/hardware/SensorEventListener;Landroid/hardware/Sensor;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

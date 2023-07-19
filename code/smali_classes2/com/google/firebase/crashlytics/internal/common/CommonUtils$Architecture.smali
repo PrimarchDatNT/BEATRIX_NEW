@@ -61,7 +61,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     const-string v1, "X86_32"
@@ -72,7 +71,6 @@
 
     sput-object v0, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->X86_32:Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     const-string v3, "X86_64"
@@ -83,7 +81,6 @@
 
     sput-object v1, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->X86_64:Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
-    .line 3
     new-instance v3, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     const-string v5, "ARM_UNKNOWN"
@@ -94,7 +91,6 @@
 
     sput-object v3, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->ARM_UNKNOWN:Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
-    .line 4
     new-instance v5, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     const-string v7, "PPC"
@@ -105,7 +101,6 @@
 
     sput-object v5, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->PPC:Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
-    .line 5
     new-instance v7, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     const-string v9, "PPC64"
@@ -116,7 +111,6 @@
 
     sput-object v7, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->PPC64:Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
-    .line 6
     new-instance v9, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     const-string v11, "ARMV6"
@@ -127,7 +121,6 @@
 
     sput-object v9, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->ARMV6:Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
-    .line 7
     new-instance v11, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     const-string v13, "ARMV7"
@@ -138,7 +131,6 @@
 
     sput-object v11, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->ARMV7:Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
-    .line 8
     new-instance v13, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     const-string v15, "UNKNOWN"
@@ -149,7 +141,6 @@
 
     sput-object v13, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->UNKNOWN:Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
-    .line 9
     new-instance v15, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     const-string v14, "ARMV7S"
@@ -160,7 +151,6 @@
 
     sput-object v15, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->ARMV7S:Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
-    .line 10
     new-instance v14, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     const-string v12, "ARM64"
@@ -205,10 +195,8 @@
 
     aput-object v14, v12, v10
 
-    .line 11
     sput-object v12, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->$VALUES:[Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
-    .line 12
     new-instance v2, Ljava/util/HashMap;
 
     invoke-direct {v2, v1}, Ljava/util/HashMap;-><init>(I)V
@@ -217,22 +205,18 @@
 
     const-string v1, "armeabi-v7a"
 
-    .line 13
     invoke-interface {v2, v1, v11}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "armeabi"
 
-    .line 14
     invoke-interface {v2, v1, v9}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "arm64-v8a"
 
-    .line 15
     invoke-interface {v2, v1, v14}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "x86"
 
-    .line 16
     invoke-interface {v2, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
@@ -246,7 +230,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -255,17 +238,14 @@
 .method static getValue()Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
     .locals 2
 
-    .line 1
     sget-object v0, Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v0
@@ -274,12 +254,10 @@
 
     invoke-virtual {v0, v1}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 4
     sget-object v0, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->UNKNOWN:Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     return-object v0
 
-    .line 5
     :cond_0
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
 
@@ -287,7 +265,6 @@
 
     move-result-object v0
 
-    .line 6
     sget-object v1, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->matcher:Ljava/util/Map;
 
     invoke-interface {v1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -298,7 +275,6 @@
 
     if-nez v0, :cond_1
 
-    .line 7
     sget-object v0, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->UNKNOWN:Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     :cond_1
@@ -308,7 +284,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -323,7 +298,6 @@
 .method public static values()[Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->$VALUES:[Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;
 
     invoke-virtual {v0}, [Lcom/google/firebase/crashlytics/internal/common/CommonUtils$Architecture;->clone()Ljava/lang/Object;

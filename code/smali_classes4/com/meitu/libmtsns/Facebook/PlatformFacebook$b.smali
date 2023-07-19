@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;Lcom/facebook/FacebookCallback;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$b;->e:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;-><init>(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;Lcom/facebook/FacebookCallback;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$b;->e:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     invoke-static {v1}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->O(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;)Landroid/util/SparseArray;
@@ -58,7 +56,6 @@
 
     invoke-virtual {v1, v2}, Landroid/util/SparseArray;->remove(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

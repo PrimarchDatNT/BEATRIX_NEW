@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment$a;->d:Lcom/commsource/studio/processor/m;
 
     invoke-direct {p0, p2}, Lcom/commsource/studio/function/automanual/f;-><init>(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
@@ -58,10 +57,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/function/automanual/a;->d(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment$a;->d:Lcom/commsource/studio/processor/m;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
@@ -84,7 +81,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/studio/r0/w;->y(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

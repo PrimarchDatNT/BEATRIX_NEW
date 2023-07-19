@@ -70,17 +70,14 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/library/hwanalytics/spm/a;
 
     invoke-direct {v0}, Lcom/meitu/library/hwanalytics/spm/a;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/library/k/c/d;->a:Lcom/meitu/library/hwanalytics/spm/a;
 
-    .line 3
     sget-object v0, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->b:Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;
 
     invoke-virtual {v0, p1, p2}, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->d(Ljava/lang/String;Landroid/content/Context;)V
@@ -105,7 +102,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
@@ -114,7 +110,6 @@
 
     invoke-virtual {p0, p1, v1}, Lcom/meitu/library/k/c/d;->b(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -159,21 +154,18 @@
 
     move-object/from16 v3, p0
 
-    .line 1
     iget-object v4, v3, Lcom/meitu/library/k/c/d;->a:Lcom/meitu/library/hwanalytics/spm/a;
 
     invoke-virtual {v4}, Lcom/meitu/library/hwanalytics/spm/a;->a()Landroid/os/Bundle;
 
     move-result-object v4
 
-    .line 2
     sget-object v5, Lcom/meitu/library/hwanalytics/spm/f/a;->b:Lcom/meitu/library/hwanalytics/spm/f/a;
 
     invoke-virtual {v5, v1}, Lcom/meitu/library/hwanalytics/spm/f/a;->g(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v1
 
-    .line 3
     sget-object v5, Lcom/meitu/library/k/e/a;->m:Lcom/meitu/library/k/e/a;
 
     invoke-virtual {v5}, Lcom/meitu/library/k/e/a;->c()Z
@@ -184,7 +176,6 @@
 
     if-eqz v6, :cond_0
 
-    .line 4
     sget-object v6, Lcom/meitu/library/k/d/a/k;->b:Lcom/meitu/library/k/d/a/k;
 
     new-instance v8, Ljava/lang/StringBuilder;
@@ -205,7 +196,6 @@
 
     invoke-virtual {v6, v7, v8}, Lcom/meitu/library/k/d/a/k;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-virtual {v5}, Lcom/meitu/library/k/e/a;->j()Z
 
@@ -223,12 +213,10 @@
 
     if-le v6, v8, :cond_5
 
-    .line 6
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 7
     invoke-virtual {v5}, Lcom/meitu/library/k/e/a;->e()I
 
     move-result v5
@@ -237,7 +225,6 @@
 
     mul-int/lit8 v5, v5, 0x64
 
-    .line 8
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v1
@@ -301,12 +288,10 @@
 
     const-string v20, "&~"
 
-    .line 9
     invoke-static/range {v18 .. v23}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v12
 
-    .line 10
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->length()I
 
     move-result v17
@@ -331,7 +316,6 @@
 
     if-gt v1, v5, :cond_3
 
-    .line 11
     invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, ":"
@@ -344,7 +328,6 @@
 
     invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->length()I
 
     move-result v1
@@ -353,7 +336,6 @@
 
     if-lt v1, v8, :cond_2
 
-    .line 13
     sget-object v1, Lcom/meitu/library/k/e/a;->m:Lcom/meitu/library/k/e/a;
 
     invoke-virtual {v1}, Lcom/meitu/library/k/e/a;->e()I
@@ -374,7 +356,6 @@
 
     const/4 v12, 0x0
 
-    .line 14
     invoke-virtual {v6, v12, v1}, Ljava/lang/StringBuilder;->substring(II)Ljava/lang/String;
 
     move-result-object v1
@@ -384,16 +365,13 @@
     :cond_1
     const/4 v12, 0x0
 
-    .line 15
     invoke-virtual {v6, v12, v8}, Ljava/lang/StringBuilder;->substring(II)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 16
     :goto_1
     invoke-virtual {v6, v12, v8}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 17
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -410,10 +388,8 @@
 
     invoke-virtual {v4, v8, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 18
     sget-object v8, Lcom/meitu/library/k/d/a/k;->b:Lcom/meitu/library/k/d/a/k;
 
-    .line 19
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -438,7 +414,6 @@
 
     move-result-object v1
 
-    .line 20
     invoke-virtual {v8, v2, v1}, Lcom/meitu/library/k/d/a/k;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     add-int/lit8 v10, v10, 0x64
@@ -460,7 +435,6 @@
     :cond_3
     const/4 v12, 0x0
 
-    .line 21
     sget-object v1, Lcom/meitu/library/k/e/a;->m:Lcom/meitu/library/k/e/a;
 
     invoke-virtual {v1}, Lcom/meitu/library/k/e/a;->e()I
@@ -488,7 +462,6 @@
 
     if-gt v1, v5, :cond_6
 
-    .line 22
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->length()I
 
     move-result v1
@@ -497,7 +470,6 @@
 
     invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;->deleteCharAt(I)Ljava/lang/StringBuilder;
 
-    .line 23
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -506,7 +478,6 @@
 
     invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 24
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -523,10 +494,8 @@
 
     invoke-virtual {v4, v5, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 25
     sget-object v5, Lcom/meitu/library/k/d/a/k;->b:Lcom/meitu/library/k/d/a/k;
 
-    .line 26
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -551,12 +520,10 @@
 
     move-result-object v1
 
-    .line 27
     invoke-virtual {v5, v2, v1}, Lcom/meitu/library/k/d/a/k;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_4
 
-    .line 28
     :cond_5
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -579,7 +546,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 29
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v5
@@ -596,7 +562,6 @@
 
     goto :goto_3
 
-    .line 30
     :cond_6
     :goto_4
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
@@ -609,7 +574,6 @@
 
     move-result-object v1
 
-    .line 31
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -618,7 +582,6 @@
 
     if-nez v1, :cond_7
 
-    .line 32
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
@@ -626,7 +589,6 @@
 
     invoke-virtual {v4, v2, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 33
     :cond_8
     sget-object v1, Lcom/meitu/library/k/e/a;->m:Lcom/meitu/library/k/e/a;
 
@@ -636,7 +598,6 @@
 
     if-eqz v2, :cond_9
 
-    .line 34
     sget-object v2, Lcom/meitu/library/k/d/a/k;->b:Lcom/meitu/library/k/d/a/k;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -661,7 +622,6 @@
 
     invoke-virtual {v2, v7, v5}, Lcom/meitu/library/k/d/a/k;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 35
     :cond_9
     invoke-virtual {v1}, Lcom/meitu/library/k/e/a;->i()Z
 
@@ -669,7 +629,6 @@
 
     if-eqz v2, :cond_b
 
-    .line 36
     invoke-virtual {v1}, Lcom/meitu/library/k/e/a;->f()Ljava/util/concurrent/CopyOnWriteArrayList;
 
     move-result-object v1
@@ -680,7 +639,6 @@
 
     if-eqz v1, :cond_a
 
-    .line 37
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->b:Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;
 
     invoke-virtual {v1, v0, v4}, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->e(Ljava/lang/String;Landroid/os/Bundle;)V
@@ -690,10 +648,8 @@
     :cond_a
     const-string v1, "event_type"
 
-    .line 38
     invoke-virtual {v4, v1, v0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 39
     sget-object v0, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->b:Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;
 
     const-string v1, "other"
@@ -702,7 +658,6 @@
 
     goto :goto_5
 
-    .line 40
     :cond_b
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->b:Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;
 
@@ -711,7 +666,6 @@
     :goto_5
     const v0, 0xc0e0
 
-    .line 41
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -748,20 +702,16 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-interface {v1, p2, p3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0, p1, v1}, Lcom/meitu/library/k/c/d;->b(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

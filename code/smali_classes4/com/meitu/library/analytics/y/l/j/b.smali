@@ -39,25 +39,18 @@
 .method public varargs constructor <init>(IILjava/lang/String;JI[Lcom/meitu/library/analytics/y/l/j/b$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/meitu/library/analytics/y/l/j/b;->a:I
 
-    .line 3
     iput p2, p0, Lcom/meitu/library/analytics/y/l/j/b;->b:I
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/library/analytics/y/l/j/b;->d:Ljava/lang/String;
 
-    .line 5
     iput-object p7, p0, Lcom/meitu/library/analytics/y/l/j/b;->e:[Lcom/meitu/library/analytics/y/l/j/b$a;
 
-    .line 6
     iput-wide p4, p0, Lcom/meitu/library/analytics/y/l/j/b;->c:J
 
-    .line 7
     iput p6, p0, Lcom/meitu/library/analytics/y/l/j/b;->f:I
 
     return-void
@@ -72,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/y/l/j/b;->f:I
 
     const/4 v2, 0x1

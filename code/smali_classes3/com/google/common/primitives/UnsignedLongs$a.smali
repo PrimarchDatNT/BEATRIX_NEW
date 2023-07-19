@@ -30,20 +30,16 @@
 
     new-array v1, v0, [J
 
-    .line 1
     sput-object v1, Lcom/google/common/primitives/UnsignedLongs$a;->a:[J
 
     new-array v1, v0, [I
 
-    .line 2
     sput-object v1, Lcom/google/common/primitives/UnsignedLongs$a;->b:[I
 
     new-array v0, v0, [I
 
-    .line 3
     sput-object v0, Lcom/google/common/primitives/UnsignedLongs$a;->c:[I
 
-    .line 4
     new-instance v0, Ljava/math/BigInteger;
 
     const-string v1, "10000000000000000"
@@ -59,7 +55,6 @@
 
     if-gt v1, v2, :cond_0
 
-    .line 5
     sget-object v2, Lcom/google/common/primitives/UnsignedLongs$a;->a:[J
 
     int-to-long v3, v1
@@ -72,7 +67,6 @@
 
     aput-wide v7, v2, v1
 
-    .line 6
     sget-object v2, Lcom/google/common/primitives/UnsignedLongs$a;->b:[I
 
     invoke-static {v5, v6, v3, v4}, Lcom/google/common/primitives/UnsignedLongs;->k(JJ)J
@@ -83,7 +77,6 @@
 
     aput v4, v2, v1
 
-    .line 7
     sget-object v2, Lcom/google/common/primitives/UnsignedLongs$a;->c:[I
 
     invoke-virtual {v0, v1}, Ljava/math/BigInteger;->toString(I)Ljava/lang/String;
@@ -109,7 +102,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -126,7 +118,6 @@
 
     if-ltz v3, :cond_3
 
-    .line 1
     sget-object v1, Lcom/google/common/primitives/UnsignedLongs$a;->a:[J
 
     aget-wide v2, v1, p3
@@ -139,7 +130,6 @@
 
     return v4
 
-    .line 2
     :cond_0
     aget-wide v2, v1, p3
 
@@ -149,7 +139,6 @@
 
     return v0
 
-    .line 3
     :cond_1
     sget-object p0, Lcom/google/common/primitives/UnsignedLongs$a;->b:[I
 

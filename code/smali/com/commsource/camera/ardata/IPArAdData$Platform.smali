@@ -43,7 +43,6 @@
 .method public constructor <init>(Lcom/commsource/camera/ardata/IPArAdData;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ardata/IPArAdData$Platform;->this$0:Lcom/commsource/camera/ardata/IPArAdData;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -68,10 +67,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ardata/IPArAdData$Platform;->ad_ids:Ljava/util/List;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -84,10 +81,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ardata/IPArAdData$Platform;->platform:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -100,10 +95,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/ardata/IPArAdData$Platform;->show_times:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -116,10 +109,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ardata/IPArAdData$Platform;->test_id:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -132,10 +123,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ardata/IPArAdData$Platform;->type:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -29,7 +29,6 @@
 
     new-array v0, v0, [I
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lcom/google/android/gms/internal/ads/on1;->d:[I

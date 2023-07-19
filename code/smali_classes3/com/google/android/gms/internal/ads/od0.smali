@@ -37,13 +37,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/od0;->a:Ljava/lang/Object;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/od0;->b:Ljava/util/concurrent/Executor;
 
     return-void
@@ -63,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/od0;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/ads/od0;-><init>(Ljava/lang/Object;Ljava/util/concurrent/Executor;)V

@@ -45,10 +45,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/core/processor/RemoveSpotsProcessor$1;
 
     invoke-direct {v0, p0}, Lcom/meitu/core/processor/RemoveSpotsProcessor$1;-><init>(Lcom/meitu/core/processor/RemoveSpotsProcessor;)V
@@ -65,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/core/processor/RemoveSpotsProcessor;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->nativeCreate()J
 
     move-result-wide v1
@@ -101,19 +97,16 @@
 
     if-nez p0, :cond_0
 
-    .line 13
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore autoRemoveSpots bitmap is null."
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 15
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -129,7 +122,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
@@ -140,25 +132,21 @@
 
     goto :goto_1
 
-    .line 17
     :cond_2
     invoke-virtual {p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
     move-result-wide v4
 
-    .line 18
     :goto_1
     invoke-static {p0, v6, v7, v4, v5}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->nativeAutoRemoveSpots_bitmap(Landroid/graphics/Bitmap;JJ)Z
 
     move-result v1
 
-    .line 19
     :cond_3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
-    .line 20
     sget-object v4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -203,7 +191,6 @@
 
     invoke-static {v4, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -220,19 +207,16 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore autoRemoveSpots bitmap is null."
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -242,7 +226,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
@@ -251,15 +234,12 @@
 
     if-nez p2, :cond_1
 
-    .line 5
     new-instance p2, Lcom/meitu/core/face/InterPoint;
 
     invoke-direct {p2}, Lcom/meitu/core/face/InterPoint;-><init>()V
 
-    .line 6
     invoke-virtual {p2, p0, p1}, Lcom/meitu/core/face/InterPoint;->run(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;)Z
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
@@ -285,7 +265,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     invoke-virtual {p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
@@ -296,18 +275,15 @@
 
     move-wide v8, p1
 
-    .line 9
     invoke-static/range {v4 .. v9}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->nativeAutoRemoveSpots(JJJ)Z
 
     move-result v1
 
-    .line 10
     :cond_4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
-    .line 11
     sget-object v4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -352,7 +328,6 @@
 
     invoke-static {v4, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -367,7 +342,6 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 19
     invoke-static {p0, p1, p2, v1}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->autoRemoveSpots2(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;F)Z
 
     move-result p0
@@ -386,7 +360,6 @@
 
     const/4 v1, 0x0
 
-    .line 20
     invoke-static {p0, p1, p2, p3, v1}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->autoRemoveSpots2(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;FZ)Z
 
     move-result p0
@@ -407,19 +380,16 @@
 
     if-nez p0, :cond_0
 
-    .line 21
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore autoRemoveSpots2 bitmap is null."
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 23
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -429,7 +399,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 24
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
@@ -438,7 +407,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 25
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
     move-result-wide v5
@@ -459,20 +427,17 @@
 
     goto :goto_0
 
-    .line 26
     :cond_1
     invoke-static {p0, p1, p2}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->autoRemoveSpots(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;)Z
 
     move-result v1
 
-    .line 27
     :cond_2
     :goto_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
-    .line 28
     sget-object p3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance p4, Ljava/lang/StringBuilder;
@@ -517,7 +482,6 @@
 
     invoke-static {p3, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 29
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -532,7 +496,6 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 4
     invoke-static {p0, p1, p2, v1}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->autoRemoveSpots2(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;F)Z
 
     move-result p0
@@ -551,7 +514,6 @@
 
     const/4 v1, 0x0
 
-    .line 18
     invoke-static {p0, p1, p2, p3, v1}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->autoRemoveSpots2(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;FZ)Z
 
     move-result p0
@@ -570,7 +532,6 @@
 
     if-nez p0, :cond_0
 
-    .line 5
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore autoRemoveSpots2 bitmap is null."
@@ -579,12 +540,10 @@
 
     const/4 p0, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 7
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -594,7 +553,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 8
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v3
@@ -603,15 +561,12 @@
 
     if-nez p2, :cond_1
 
-    .line 9
     new-instance p2, Lcom/meitu/core/face/InterPoint;
 
     invoke-direct {p2}, Lcom/meitu/core/face/InterPoint;-><init>()V
 
-    .line 10
     invoke-virtual {p2, p0, p1}, Lcom/meitu/core/face/InterPoint;->run(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;)Z
 
-    .line 11
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
@@ -621,7 +576,6 @@
 
     move-result-wide v5
 
-    .line 12
     invoke-virtual {p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
     move-result-wide v7
@@ -630,26 +584,22 @@
 
     move v10, p4
 
-    .line 13
     invoke-static/range {v3 .. v10}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->nativeAutoRemoveSpots2(JJJFZ)Z
 
     move-result p1
 
     goto :goto_0
 
-    .line 14
     :cond_2
     invoke-static {p0, p1, p2}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->autoRemoveSpots(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;)Z
 
     move-result p1
 
-    .line 15
     :goto_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p2
 
-    .line 16
     sget-object p4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -694,7 +644,6 @@
 
     invoke-static {p4, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -711,7 +660,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -719,12 +667,10 @@
     :cond_0
     const-string v1, "needProtectMiddle"
 
-    .line 2
     invoke-virtual {p3, v1}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result p3
 
-    .line 3
     invoke-static {p0, p1, p2, p4, p3}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->autoRemoveSpots2(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;FZ)Z
 
     move-result p0
@@ -792,7 +738,6 @@
 
     move v4, p3
 
-    .line 9
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->removeSpots(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;IIII)Z
 
     move-result p0
@@ -813,19 +758,16 @@
 
     if-nez p0, :cond_0
 
-    .line 10
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore removeSpots bitmap is null."
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 12
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -835,18 +777,15 @@
 
     if-eqz p1, :cond_1
 
-    .line 13
     invoke-static/range {p0 .. p5}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->nativeRemoveSpots_bitmap(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;IIII)Z
 
     move-result v1
 
-    .line 14
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
-    .line 15
     sget-object p3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance p4, Ljava/lang/StringBuilder;
@@ -891,7 +830,6 @@
 
     invoke-static {p3, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -916,7 +854,6 @@
 
     move v4, p3
 
-    .line 1
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->removeSpots(Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;IIII)Z
 
     move-result p0
@@ -937,19 +874,16 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     sget-object v2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v3, "effectcore removeSpots bitmap is null."
 
     invoke-static {v2, v3}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -959,7 +893,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v4
@@ -978,13 +911,11 @@
 
     move-result v1
 
-    .line 6
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 7
     sget-object v6, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -1029,7 +960,6 @@
 
     invoke-static {v6, v2}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1068,7 +998,6 @@
 
     move-object v2, p1
 
-    .line 2
     invoke-static/range {v1 .. v13}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->removeSpots2(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;ZIIIFIIFFIZ)Z
 
     move-result p0
@@ -1089,19 +1018,16 @@
 
     if-nez p0, :cond_0
 
-    .line 10
     sget-object v2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v3, "effectcore removeSpots2 bitmap is null."
 
     invoke-static {v2, v3}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 12
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1111,18 +1037,15 @@
 
     if-eqz p1, :cond_1
 
-    .line 13
     invoke-static/range {p0 .. p12}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->nativeRemoveSpots2_bitmap(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;ZIIIFIIFFIZ)Z
 
     move-result v1
 
-    .line 14
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 15
     sget-object v6, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -1167,7 +1090,6 @@
 
     invoke-static {v6, v2}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1206,7 +1128,6 @@
 
     move-object v2, p1
 
-    .line 1
     invoke-static/range {v1 .. v13}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->removeSpots2(Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;ZIIIFIIFFIZ)Z
 
     move-result p0
@@ -1227,19 +1148,16 @@
 
     if-nez p0, :cond_0
 
-    .line 3
     sget-object v2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v3, "effectcore removeSpots2 bitmap is null."
 
     invoke-static {v2, v3}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1249,7 +1167,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v4
@@ -1282,13 +1199,11 @@
 
     move-result v1
 
-    .line 7
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 8
     sget-object v6, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -1333,7 +1248,6 @@
 
     invoke-static {v6, v2}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1363,7 +1277,6 @@
 
     move v5, p4
 
-    .line 16
     invoke-virtual/range {v1 .. v6}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->autoRemoveSpotsFast(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;FZ)Z
 
     move-result p1
@@ -1400,14 +1313,12 @@
 
     if-nez p1, :cond_0
 
-    .line 17
     sget-object v3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v4, "effectcore autoRemoveSpots2 bitmap is null."
 
     invoke-static {v3, v4}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1416,7 +1327,6 @@
 
     return v2
 
-    .line 19
     :cond_0
     :try_start_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -1427,7 +1337,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 20
     invoke-virtual {p2}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v2
@@ -1436,14 +1345,12 @@
 
     if-eqz p3, :cond_1
 
-    .line 21
     iget-wide v2, v1, Lcom/meitu/core/processor/RemoveSpotsProcessor;->mNativeInstance:J
 
     invoke-virtual {p2}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
     move-result-wide v5
 
-    .line 22
     invoke-virtual/range {p3 .. p3}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
     move-result-wide v7
@@ -1454,27 +1361,23 @@
 
     move/from16 v10, p5
 
-    .line 23
     invoke-static/range {v2 .. v10}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->nativeAutoRemoveSpotsFast_bitmap(JLandroid/graphics/Bitmap;JJFZ)Z
 
     move-result v2
 
     goto :goto_0
 
-    .line 24
     :cond_1
     invoke-static/range {p1 .. p3}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->autoRemoveSpots(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;)Z
 
     move-result v2
 
-    .line 25
     :cond_2
     :goto_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 26
     sget-object v5, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -1519,7 +1422,6 @@
 
     invoke-static {v5, v3}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1558,7 +1460,6 @@
 
     move v5, p4
 
-    .line 4
     invoke-virtual/range {v1 .. v6}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->autoRemoveSpotsFast(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;FZ)Z
 
     move-result p1
@@ -1595,14 +1496,12 @@
 
     if-nez p1, :cond_0
 
-    .line 5
     sget-object v3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v4, "effectcore autoRemoveSpots3 bitmap is null."
 
     invoke-static {v3, v4}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1611,7 +1510,6 @@
 
     return v2
 
-    .line 7
     :cond_0
     :try_start_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -1622,7 +1520,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 8
     invoke-virtual/range {p2 .. p2}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v2
@@ -1631,7 +1528,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 9
     iget-wide v5, v1, Lcom/meitu/core/processor/RemoveSpotsProcessor;->mNativeInstance:J
 
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -1642,7 +1538,6 @@
 
     move-result-wide v9
 
-    .line 10
     invoke-virtual/range {p3 .. p3}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
     move-result-wide v11
@@ -1651,27 +1546,23 @@
 
     move/from16 v14, p5
 
-    .line 11
     invoke-static/range {v5 .. v14}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->nativeAutoRemoveSpotsFast(JJJJFZ)Z
 
     move-result v2
 
     goto :goto_0
 
-    .line 12
     :cond_1
     invoke-static/range {p1 .. p3}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->autoRemoveSpots(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;)Z
 
     move-result v2
 
-    .line 13
     :cond_2
     :goto_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
 
-    .line 14
     sget-object v7, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v8, Ljava/lang/StringBuilder;
@@ -1716,7 +1607,6 @@
 
     invoke-static {v7, v3}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1747,7 +1637,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1760,7 +1649,6 @@
     :try_start_1
     const-string v1, "needProtectMiddle"
 
-    .line 2
     invoke-virtual {p4, v1}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v7
@@ -1775,7 +1663,6 @@
 
     move v6, p5
 
-    .line 3
     invoke-virtual/range {v2 .. v7}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->autoRemoveSpotsFast(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;FZ)Z
 
     move-result p1
@@ -1808,7 +1695,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/processor/RemoveSpotsProcessor;->mNativeInstance:J
 
@@ -1816,13 +1702,10 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1830,10 +1713,8 @@
     :catchall_0
     move-exception v1
 
-    .line 5
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -1849,12 +1730,10 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/RemoveSpotsProcessor;->mNativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->nativeRelease(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/google/common/math/LongMath$MillerRabinTester;-><init>(Ljava/lang/String;ILcom/google/common/math/LongMath$a;)V
 
     return-void
@@ -48,7 +47,6 @@
 
     const/16 v0, 0x20
 
-    .line 1
     :cond_0
     invoke-static {p1, p2}, Ljava/lang/Long;->numberOfLeadingZeros(J)I
 
@@ -60,7 +58,6 @@
 
     shl-long/2addr p1, v1
 
-    .line 2
     invoke-static {p1, p2, p3, p4}, Lcom/google/common/primitives/UnsignedLongs;->k(JJ)J
 
     move-result-wide p1
@@ -95,7 +92,6 @@
 
     mul-long v12, v1, v3
 
-    .line 1
     invoke-direct {p0, v12, v13, v5, v6}, Lcom/google/common/math/LongMath$MillerRabinTester$2;->times2ToThe32Mod(JJ)J
 
     move-result-wide v12
@@ -110,12 +106,10 @@
 
     if-gez v2, :cond_0
 
-    .line 2
     invoke-static {v12, v13, v5, v6}, Lcom/google/common/primitives/UnsignedLongs;->k(JJ)J
 
     move-result-wide v12
 
-    .line 3
     :cond_0
     invoke-static {v10, v11}, Ljava/lang/Long;->signum(J)I
 
@@ -123,14 +117,12 @@
 
     add-long/2addr v12, v3
 
-    .line 4
     invoke-direct {p0, v12, v13, v5, v6}, Lcom/google/common/math/LongMath$MillerRabinTester$2;->times2ToThe32Mod(JJ)J
 
     move-result-wide v1
 
     mul-long v10, v10, v8
 
-    .line 5
     invoke-static {v10, v11, v5, v6}, Lcom/google/common/primitives/UnsignedLongs;->k(JJ)J
 
     move-result-wide v3
@@ -159,7 +151,6 @@
 
     mul-long v2, v0, v0
 
-    .line 1
     invoke-direct {p0, v2, v3, p3, p4}, Lcom/google/common/math/LongMath$MillerRabinTester$2;->times2ToThe32Mod(JJ)J
 
     move-result-wide v2
@@ -176,7 +167,6 @@
 
     if-gez v6, :cond_0
 
-    .line 2
     invoke-static {v0, v1, p3, p4}, Lcom/google/common/primitives/UnsignedLongs;->k(JJ)J
 
     move-result-wide v0
@@ -184,14 +174,12 @@
     :cond_0
     add-long/2addr v2, v0
 
-    .line 3
     invoke-direct {p0, v2, v3, p3, p4}, Lcom/google/common/math/LongMath$MillerRabinTester$2;->times2ToThe32Mod(JJ)J
 
     move-result-wide v5
 
     mul-long p1, p1, p1
 
-    .line 4
     invoke-static {p1, p2, p3, p4}, Lcom/google/common/primitives/UnsignedLongs;->k(JJ)J
 
     move-result-wide v7

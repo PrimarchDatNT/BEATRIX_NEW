@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,10 +45,8 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lsun/misc/Unsafe;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getDeclaredFields()[Ljava/lang/reflect/Field;
 
     move-result-object v1
@@ -65,17 +62,14 @@
 
     const/4 v5, 0x1
 
-    .line 3
     invoke-virtual {v4, v5}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     const/4 v5, 0x0
 
-    .line 4
     invoke-virtual {v4, v5}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
-    .line 5
     invoke-virtual {v0, v4}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     move-result v5
@@ -95,7 +89,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v0, Ljava/lang/NoSuchFieldError;
 
@@ -114,7 +107,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/Striped64$a;->a()Lsun/misc/Unsafe;
 
     move-result-object v0

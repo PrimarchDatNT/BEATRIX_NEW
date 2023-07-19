@@ -23,7 +23,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lorg/apache/http/protocol/RequestExpectContinue;-><init>(Z)V
 
     return-void
@@ -32,10 +31,8 @@
 .method public constructor <init>(Z)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-boolean p1, p0, Lorg/apache/http/protocol/RequestExpectContinue;->activeByDefault:Z
 
     return-void
@@ -54,24 +51,20 @@
 
     const-string p2, "HTTP request"
 
-    .line 1
     invoke-static {p1, p2}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string p2, "Expect"
 
-    .line 2
     invoke-interface {p1, p2}, Lorg/apache/http/HttpMessage;->containsHeader(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     instance-of v0, p1, Lorg/apache/http/HttpEntityEnclosingRequest;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-interface {p1}, Lorg/apache/http/HttpRequest;->getRequestLine()Lorg/apache/http/RequestLine;
 
     move-result-object v0
@@ -80,7 +73,6 @@
 
     move-result-object v0
 
-    .line 5
     move-object v1, p1
 
     check-cast v1, Lorg/apache/http/HttpEntityEnclosingRequest;
@@ -91,7 +83,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-interface {v1}, Lorg/apache/http/HttpEntity;->getContentLength()J
 
     move-result-wide v1
@@ -110,7 +101,6 @@
 
     if-nez v0, :cond_0
 
-    .line 7
     invoke-interface {p1}, Lorg/apache/http/HttpMessage;->getParams()Lorg/apache/http/params/HttpParams;
 
     move-result-object v0
@@ -127,7 +117,6 @@
 
     const-string v0, "100-continue"
 
-    .line 8
     invoke-interface {p1, p2, v0}, Lorg/apache/http/HttpMessage;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0

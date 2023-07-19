@@ -44,7 +44,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->R()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
@@ -79,7 +78,6 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
 
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
@@ -100,12 +98,10 @@
 
     invoke-static/range {v3 .. v10}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z0(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;ZZZZILjava/lang/Object;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->N()V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->h0()Landroidx/lifecycle/MutableLiveData;
@@ -114,18 +110,15 @@
 
     invoke-virtual {v2, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->N()V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->h0()Landroidx/lifecycle/MutableLiveData;
@@ -134,7 +127,6 @@
 
     invoke-virtual {v2, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 8
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/store/filter/search/TagFlowLayout$a;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/store/filter/search/TagFlowLayout$a;->b(III)I
 
     move-result p0
@@ -70,13 +67,11 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {p3, p1}, Ljava/lang/Math;->min(II)I
 
     move-result p1
 
-    .line 2
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

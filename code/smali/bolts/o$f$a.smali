@@ -35,7 +35,6 @@
 .method constructor <init>(Lbolts/o$f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/o$f$a;->a:Lbolts/o$f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lbolts/o$f$a;->a:Lbolts/o$f;
 
     iget-object v0, v0, Lbolts/o$f;->a:Lbolts/g;
@@ -71,7 +69,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lbolts/o$f$a;->a:Lbolts/o$f;
 
     iget-object p1, p1, Lbolts/o$f;->b:Lbolts/p;
@@ -80,7 +77,6 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lbolts/o;->H()Z
 
@@ -88,7 +84,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object p1, p0, Lbolts/o$f$a;->a:Lbolts/o$f;
 
     iget-object p1, p1, Lbolts/o$f;->b:Lbolts/p;
@@ -97,7 +92,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Lbolts/o;->J()Z
 
@@ -105,7 +99,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lbolts/o$f$a;->a:Lbolts/o$f;
 
     iget-object v0, v0, Lbolts/o$f;->b:Lbolts/p;
@@ -118,7 +111,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object v0, p0, Lbolts/o$f$a;->a:Lbolts/o$f;
 
@@ -142,7 +134,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lbolts/o$f$a;->a(Lbolts/o;)Ljava/lang/Void;
 
     move-result-object p1

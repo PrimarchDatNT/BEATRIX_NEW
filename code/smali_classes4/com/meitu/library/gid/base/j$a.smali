@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/library/gid/base/j;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/gid/base/j$a;->b:Lcom/meitu/library/gid/base/j;
 
     iput-boolean p2, p0, Lcom/meitu/library/gid/base/j$a;->a:Z
@@ -46,12 +45,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/gid/base/j$a;->a:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/gid/base/j$a;->b:Lcom/meitu/library/gid/base/j;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/j;->a(Lcom/meitu/library/gid/base/j;)Lcom/meitu/library/gid/base/p0/d;
@@ -68,7 +65,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/gid/base/j$a;->b:Lcom/meitu/library/gid/base/j;
 
@@ -84,7 +80,6 @@
 
     invoke-interface {v1}, Lcom/meitu/library/gid/base/p0/a;->b()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

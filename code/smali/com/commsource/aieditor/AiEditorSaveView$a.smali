@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorSaveView;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     new-instance v2, Landroid/text/TextPaint;
@@ -48,7 +46,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/AiEditorSaveView;->b(Lcom/commsource/aieditor/AiEditorSaveView;Landroid/text/TextPaint;)Landroid/text/TextPaint;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorSaveView;->a(Lcom/commsource/aieditor/AiEditorSaveView;)Landroid/text/TextPaint;
@@ -59,7 +56,6 @@
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setColor(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorSaveView;->a(Lcom/commsource/aieditor/AiEditorSaveView;)Landroid/text/TextPaint;
@@ -70,7 +66,6 @@
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setAntiAlias(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorSaveView;->a(Lcom/commsource/aieditor/AiEditorSaveView;)Landroid/text/TextPaint;
@@ -81,7 +76,6 @@
 
     invoke-virtual {v1, v3}, Landroid/text/TextPaint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorSaveView;->a(Lcom/commsource/aieditor/AiEditorSaveView;)Landroid/text/TextPaint;
@@ -98,7 +92,6 @@
 
     invoke-virtual {v1, v3}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     new-instance v3, Landroid/graphics/Matrix;
@@ -107,7 +100,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/aieditor/AiEditorSaveView;->c(Lcom/commsource/aieditor/AiEditorSaveView;Landroid/graphics/Matrix;)Landroid/graphics/Matrix;
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     sget v3, Lcom/res/provider/ResSTRING;->ai_editor_unsave:I
@@ -118,7 +110,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/aieditor/AiEditorSaveView;->e(Lcom/commsource/aieditor/AiEditorSaveView;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     sget v3, Lcom/res/provider/ResSTRING;->ai_editor_saving:I
@@ -129,7 +120,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/aieditor/AiEditorSaveView;->g(Lcom/commsource/aieditor/AiEditorSaveView;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     invoke-virtual {v1}, Landroid/view/View;->getWidth()I
@@ -166,7 +156,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/aieditor/AiEditorSaveView;->h(Lcom/commsource/aieditor/AiEditorSaveView;I)I
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
@@ -207,7 +196,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/aieditor/AiEditorSaveView;->i(Lcom/commsource/aieditor/AiEditorSaveView;I)I
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     invoke-virtual {v1}, Landroid/view/View;->getWidth()I
@@ -242,7 +230,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/aieditor/AiEditorSaveView;->j(Lcom/commsource/aieditor/AiEditorSaveView;I)I
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
@@ -283,10 +270,8 @@
 
     invoke-static {v1, v3}, Lcom/commsource/aieditor/AiEditorSaveView;->k(Lcom/commsource/aieditor/AiEditorSaveView;I)I
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
-    .line 14
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -301,20 +286,16 @@
 
     move-result-object v3
 
-    .line 15
     invoke-static {v1, v3}, Lcom/commsource/aieditor/AiEditorSaveView;->l(Lcom/commsource/aieditor/AiEditorSaveView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/AiEditorSaveView;->m(Lcom/commsource/aieditor/AiEditorSaveView;Z)Z
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
     invoke-virtual {v1}, Landroid/view/View;->postInvalidate()V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

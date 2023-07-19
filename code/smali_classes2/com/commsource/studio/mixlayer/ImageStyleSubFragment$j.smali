@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$j;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->E(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/studio/ImageStudioViewModel;
@@ -67,7 +66,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/ImageStudioViewModel;->G1(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -80,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$j;->a(Ljava/lang/Boolean;)V

@@ -38,13 +38,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzduk;->zzhof:Lcom/google/android/gms/internal/ads/aq1;
 
-    .line 2
     invoke-direct {p0, p1, p3}, Lcom/google/android/gms/internal/ads/zzdun;-><init>(Lcom/google/android/gms/internal/ads/aq1;Ljava/util/concurrent/Executor;)V
 
-    .line 3
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/lo1;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -66,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzduk;->zzhof:Lcom/google/android/gms/internal/ads/aq1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/zzdtu;->i(Ljava/lang/Object;)Z
@@ -90,10 +86,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/zzdun;->zzhok:Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzduk;->zzhoe:Ljava/util/concurrent/Callable;
 
     invoke-interface {v0}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;
@@ -106,7 +100,6 @@
 .method final zzaxc()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzduk;->zzhoe:Ljava/util/concurrent/Callable;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;

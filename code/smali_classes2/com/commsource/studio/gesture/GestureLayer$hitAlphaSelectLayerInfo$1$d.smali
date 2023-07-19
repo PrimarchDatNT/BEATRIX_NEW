@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1$d;->a:Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;
 
     iget-object v1, v1, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
@@ -57,7 +56,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1$d;->a:Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;
 
     iget-object v1, v1, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;->$hitTask:Lcotlin/jvm/u/l;
@@ -66,7 +64,6 @@
 
     invoke-interface {v1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -24,10 +24,8 @@
 
     new-array v0, v0, [B
 
-    .line 1
     fill-array-data v0, :array_0
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/by1;->j([B)[I
 
     move-result-object v0
@@ -65,29 +63,24 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     array-length v0, p1
 
     const/16 v1, 0x20
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/by1;->j([B)[I
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/by1;->a:[I
 
-    .line 4
     iput p2, p0, Lcom/google/android/gms/internal/ads/by1;->b:I
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/security/InvalidKeyException;
 
@@ -115,7 +108,6 @@
 .method private static d([IIIII)V
     .locals 2
 
-    .line 1
     aget v0, p0, p1
 
     aget v1, p0, p2
@@ -124,7 +116,6 @@
 
     aput v0, p0, p1
 
-    .line 2
     aget v0, p0, p4
 
     aget v1, p0, p1
@@ -139,7 +130,6 @@
 
     aput v0, p0, p4
 
-    .line 3
     aget v0, p0, p3
 
     aget v1, p0, p4
@@ -148,7 +138,6 @@
 
     aput v0, p0, p3
 
-    .line 4
     aget v0, p0, p2
 
     aget v1, p0, p3
@@ -163,7 +152,6 @@
 
     aput v0, p0, p2
 
-    .line 5
     aget v0, p0, p1
 
     aget v1, p0, p2
@@ -172,7 +160,6 @@
 
     aput v0, p0, p1
 
-    .line 6
     aget v0, p0, p4
 
     aget p1, p0, p1
@@ -187,7 +174,6 @@
 
     aput p1, p0, p4
 
-    .line 7
     aget p1, p0, p3
 
     aget p4, p0, p4
@@ -196,7 +182,6 @@
 
     aput p1, p0, p3
 
-    .line 8
     aget p1, p0, p2
 
     aget p3, p0, p3
@@ -217,7 +202,6 @@
 .method static e([I[I)V
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/by1;->c:[I
 
     array-length v1, v0
@@ -226,7 +210,6 @@
 
     invoke-static {v0, v2, p0, v2, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 2
     array-length v0, v0
 
     const/16 v1, 0x8
@@ -256,7 +239,6 @@
 
     const/16 v6, 0xc
 
-    .line 1
     invoke-static {v0, v1, v4, v5, v6}, Lcom/google/android/gms/internal/ads/by1;->d([IIIII)V
 
     const/4 v7, 0x1
@@ -267,7 +249,6 @@
 
     const/16 v10, 0xd
 
-    .line 2
     invoke-static {v0, v7, v8, v9, v10}, Lcom/google/android/gms/internal/ads/by1;->d([IIIII)V
 
     const/4 v11, 0x2
@@ -276,7 +257,6 @@
 
     const/16 v13, 0xe
 
-    .line 3
     invoke-static {v0, v11, v12, v3, v13}, Lcom/google/android/gms/internal/ads/by1;->d([IIIII)V
 
     const/4 v14, 0x3
@@ -287,23 +267,18 @@
 
     const/16 v9, 0xf
 
-    .line 4
     invoke-static {v0, v14, v15, v4, v9}, Lcom/google/android/gms/internal/ads/by1;->d([IIIII)V
 
-    .line 5
     invoke-static {v0, v1, v8, v3, v9}, Lcom/google/android/gms/internal/ads/by1;->d([IIIII)V
 
-    .line 6
     invoke-static {v0, v7, v12, v4, v6}, Lcom/google/android/gms/internal/ads/by1;->d([IIIII)V
 
-    .line 7
     invoke-static {v0, v11, v15, v5, v10}, Lcom/google/android/gms/internal/ads/by1;->d([IIIII)V
 
     const/16 v3, 0x9
 
     const/4 v4, 0x4
 
-    .line 8
     invoke-static {v0, v14, v4, v3, v13}, Lcom/google/android/gms/internal/ads/by1;->d([IIIII)V
 
     add-int/lit8 v2, v2, 0x1
@@ -317,7 +292,6 @@
 .method private static j([B)[I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object p0
@@ -332,14 +306,12 @@
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/nio/IntBuffer;->remaining()I
 
     move-result v0
 
     new-array v0, v0, [I
 
-    .line 3
     invoke-virtual {p0, v0}, Ljava/nio/IntBuffer;->get([I)Ljava/nio/IntBuffer;
 
     return-object v0
@@ -355,7 +327,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p1
 
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/by1;->g()I
@@ -368,7 +339,6 @@
 
     if-gt v0, v2, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/by1;->g()I
 
     move-result v0
@@ -381,17 +351,14 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0, v0, p1}, Lcom/google/android/gms/internal/ads/by1;->c(Ljava/nio/ByteBuffer;[B)V
 
-    .line 4
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object p1
 
     return-object p1
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/security/GeneralSecurityException;
 
@@ -410,7 +377,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v0
@@ -425,7 +391,6 @@
 
     if-lt v0, v1, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/by1;->g()I
 
     move-result v0
@@ -434,20 +399,16 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1, v0}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
-    .line 4
     invoke-static {p2}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object p2
 
-    .line 5
     invoke-virtual {p2}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v1
 
-    .line 6
     div-int/lit8 v2, v1, 0x40
 
     add-int/lit8 v2, v2, 0x1
@@ -457,7 +418,6 @@
     :goto_0
     if-ge v3, v2, :cond_1
 
-    .line 7
     iget v4, p0, Lcom/google/android/gms/internal/ads/by1;->b:I
 
     add-int/2addr v4, v3
@@ -472,14 +432,12 @@
 
     if-ne v3, v5, :cond_0
 
-    .line 8
     rem-int/lit8 v5, v1, 0x40
 
     invoke-static {p1, p2, v4, v5}, Lcom/google/android/gms/internal/ads/zx1;->a(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;I)V
 
     goto :goto_1
 
-    .line 9
     :cond_0
     invoke-static {p1, p2, v4, v6}, Lcom/google/android/gms/internal/ads/zx1;->a(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;I)V
 
@@ -491,7 +449,6 @@
     :cond_1
     return-void
 
-    .line 10
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -511,7 +468,6 @@
 .method final i([BI)Ljava/nio/ByteBuffer;
     .locals 4
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/by1;->j([B)[I
 
     move-result-object p1
@@ -520,27 +476,23 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, [I->clone()Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, [I
 
-    .line 3
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/by1;->h([I)V
 
     const/4 v0, 0x0
 
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     array-length v2, p1
 
     if-ge v1, v2, :cond_0
 
-    .line 5
     aget v2, p1, v1
 
     aget v3, p2, v1
@@ -556,7 +508,6 @@
     :cond_0
     const/16 p2, 0x40
 
-    .line 6
     invoke-static {p2}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object p2
@@ -567,7 +518,6 @@
 
     move-result-object p2
 
-    .line 7
     invoke-virtual {p2}, Ljava/nio/ByteBuffer;->asIntBuffer()Ljava/nio/IntBuffer;
 
     move-result-object v1

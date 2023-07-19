@@ -67,7 +67,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplatePanel$g;->a:Lcom/commsource/studio/text/TextTemplatePanel;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTemplatePanel;->b(Lcom/commsource/studio/text/TextTemplatePanel;)Lcom/commsource/widget/h1/e;
@@ -80,7 +79,6 @@
 
     const-string v3, "BP_TEX_00000000"
 
-    .line 2
     filled-new-array {v3}, [Ljava/lang/String;
 
     move-result-object v3
@@ -89,30 +87,24 @@
 
     move-result-object v3
 
-    .line 3
     const-class v4, Lcom/commsource/studio/function/background/BackgroundNoneViewHolder;
 
-    .line 4
     invoke-virtual {v2, v3, v4}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 5
     const-class v3, Lcom/commsource/studio/text/TextTemplateViewHolder;
 
     invoke-virtual {v2, p1, v3}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -126,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/text/TextTemplatePanel$g;->a(Ljava/util/List;)V

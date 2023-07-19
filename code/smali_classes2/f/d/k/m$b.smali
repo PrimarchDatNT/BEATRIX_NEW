@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/d/k/m;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/k/m$b;->a:Lf/d/k/m;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,26 +41,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/d/k/m;->k:Ljava/lang/String;
 
     const-string v2, "MTMVPlayer.onCompletion"
 
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->getSaveMode()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lf/d/k/m$b;->a:Lf/d/k/m;
 
     invoke-static {v1, p1}, Lf/d/k/m;->b(Lf/d/k/m;Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

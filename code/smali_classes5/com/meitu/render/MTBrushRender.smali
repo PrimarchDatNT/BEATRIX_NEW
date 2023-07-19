@@ -25,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/MTFilterGLRender;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/render/MTBrushRender;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -55,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/render/MTBrushRender;->c:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -72,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/render/MTBrushRender$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -95,7 +91,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/meitu/render/MTBrushRender$BrushType;->Brush_Glitter:Lcom/meitu/render/MTBrushRender$BrushType;
 
@@ -103,7 +98,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Lcom/meitu/render/MTBrushRender$BrushType;->Brush_Matte:Lcom/meitu/render/MTBrushRender$BrushType;
 
@@ -111,13 +105,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     sget-object p1, Lcom/meitu/render/MTBrushRender$BrushType;->Brush_Glow:Lcom/meitu/render/MTBrushRender$BrushType;
 
     iput-object p1, p0, Lcom/meitu/render/MTBrushRender;->d:Lcom/meitu/render/MTBrushRender$BrushType;
 
-    .line 5
     :goto_0
     invoke-static {p2, p3}, Lcom/meitu/parse/FilterDataHelper;->parserFilterData(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/parse/FilterData;
 
@@ -125,10 +117,8 @@
 
     iput-object p1, p0, Lcom/meitu/render/MTBrushRender;->a:Lcom/meitu/parse/FilterData;
 
-    .line 6
     invoke-virtual {p0, p1}, Lcom/meitu/render/MTBrushRender;->setFilterData(Lcom/meitu/parse/FilterData;)Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -141,15 +131,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/render/MTBrushRender;->d:Lcom/meitu/render/MTBrushRender$BrushType;
 
-    .line 2
     sget-object v1, Lcom/meitu/render/MTBrushRender$BrushType;->Brush_Glitter:Lcom/meitu/render/MTBrushRender$BrushType;
 
     if-eq p1, v1, :cond_0
 
-    .line 3
     sget v1, Lcom/meitu/core/MTFilterType;->Filter_AB_Subbrush:I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -164,7 +151,6 @@
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -184,10 +170,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/render/MTBrushRender;->b:F
 
-    .line 2
     sget v1, Lcom/meitu/core/MTFilterType;->Filter_AB_Subbrush:I
 
     sget v2, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
@@ -196,7 +180,6 @@
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -215,10 +198,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/render/MTBrushRender;->c:F
 
-    .line 2
     sget v1, Lcom/meitu/core/MTFilterType;->Filter_AB_Subbrush:I
 
     sget v2, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
@@ -227,7 +208,6 @@
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -240,7 +220,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -255,14 +234,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/core/MTFilterGLRender;->setFilterData(Lcom/meitu/parse/FilterData;)Z
 
     move-result v1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-wide v2, p1, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     const-wide/16 v4, 0x0
@@ -271,27 +248,23 @@
 
     if-eqz v6, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/parse/FilterData;->getSubbrushGlow()F
 
     move-result v2
 
     iput v2, p0, Lcom/meitu/render/MTBrushRender;->b:F
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/parse/FilterData;->getSubbrushMatte()F
 
     move-result p1
 
     iput p1, p0, Lcom/meitu/render/MTBrushRender;->c:F
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/meitu/render/MTBrushRender;->d:Lcom/meitu/render/MTBrushRender$BrushType;
 
     invoke-virtual {p0, p1}, Lcom/meitu/render/MTBrushRender;->d(Lcom/meitu/render/MTBrushRender$BrushType;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

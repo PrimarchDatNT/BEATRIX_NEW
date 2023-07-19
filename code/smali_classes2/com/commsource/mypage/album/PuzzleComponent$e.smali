@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/album/PuzzleComponent$e;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
     invoke-static {v0}, Lcom/commsource/mypage/album/PuzzleComponent;->g(Lcom/commsource/mypage/album/PuzzleComponent;)Z
@@ -105,7 +104,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/mypage/album/PuzzleComponent$e;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
     invoke-virtual {v0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -124,7 +122,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -138,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I

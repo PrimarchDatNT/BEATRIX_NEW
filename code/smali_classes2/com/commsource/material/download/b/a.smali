@@ -79,38 +79,32 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v0}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/material/download/b/a;->a:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 3
     new-instance v0, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v0}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/material/download/b/a;->b:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 4
     new-instance v0, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v0}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/material/download/b/a;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 5
     new-instance v0, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v0}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/material/download/b/a;->d:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 6
     new-instance v0, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v0}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
@@ -127,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/material/download/b/a;->e:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -148,7 +141,6 @@
 
     const/4 p3, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/material/download/b/a;->f(Ljava/lang/Object;Ljava/lang/Throwable;Z)V
 
@@ -176,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/a;->d:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -201,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/a;->a:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -226,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/a;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -251,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/a;->b:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,14 +269,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/material/download/b/a$a;
 
     invoke-direct {v1, p0, p1, p3, p2}, Lcom/commsource/material/download/b/a$a;-><init>(Lcom/commsource/material/download/b/a;Ljava/lang/Object;ZLjava/lang/Throwable;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -310,12 +296,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/a;->a:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyfilter/NoStickLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -337,14 +321,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/material/download/b/a$b;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/material/download/b/a$b;-><init>(Lcom/commsource/material/download/b/a;Ljava/lang/Object;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -366,14 +348,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/material/download/b/a$c;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/material/download/b/a$c;-><init>(Lcom/commsource/material/download/b/a;Ljava/lang/Object;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -402,7 +382,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/a;->e:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     new-instance v2, Lcom/commsource/material/download/b/a$d;
@@ -411,7 +390,6 @@
 
     invoke-virtual {v1, p2, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

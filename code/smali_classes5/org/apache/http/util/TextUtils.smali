@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,7 +24,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
@@ -33,7 +31,6 @@
 
     if-ge v1, v2, :cond_2
 
-    .line 2
     invoke-interface {p0, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v2
@@ -71,7 +68,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :goto_0
     invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
@@ -79,7 +75,6 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 2
     invoke-interface {p0, v2}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v3
@@ -110,7 +105,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 

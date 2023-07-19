@@ -32,10 +32,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/AssertionError;
 
     invoke-direct {v0}, Ljava/lang/AssertionError;-><init>()V
@@ -48,7 +46,6 @@
 .method public b()Lcom/google/common/collect/MapMakerInternalMap$e;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/AssertionError;
 
     invoke-direct {v0}, Ljava/lang/AssertionError;-><init>()V
@@ -59,7 +56,6 @@
 .method public getHash()I
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/AssertionError;
 
     invoke-direct {v0}, Ljava/lang/AssertionError;-><init>()V
@@ -70,7 +66,6 @@
 .method public getKey()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/AssertionError;
 
     invoke-direct {v0}, Ljava/lang/AssertionError;-><init>()V
@@ -81,7 +76,6 @@
 .method public bridge synthetic getNext()Lcom/google/common/collect/MapMakerInternalMap$i;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/MapMakerInternalMap$e;->b()Lcom/google/common/collect/MapMakerInternalMap$e;
 
     move-result-object v0
@@ -92,7 +86,6 @@
 .method public getValue()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/AssertionError;
 
     invoke-direct {v0}, Ljava/lang/AssertionError;-><init>()V

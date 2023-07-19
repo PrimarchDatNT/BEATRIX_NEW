@@ -24,15 +24,12 @@
 .method private constructor <init>(I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-array p1, p1, [B
 
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/proto/a$b;->b:[B
 
-    .line 4
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->Q([B)Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;
 
     move-result-object p1
@@ -45,7 +42,6 @@
 .method synthetic constructor <init>(ILcom/google/firebase/crashlytics/internal/proto/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/crashlytics/internal/proto/a$b;-><init>(I)V
 
     return-void
@@ -56,12 +52,10 @@
 .method public a()Lcom/google/firebase/crashlytics/internal/proto/a;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/proto/a$b;->a:Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;
 
     invoke-virtual {v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->a()V
 
-    .line 2
     new-instance v0, Lcom/google/firebase/crashlytics/internal/proto/a;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/proto/a$b;->b:[B
@@ -76,7 +70,6 @@
 .method public b()Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/proto/a$b;->a:Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;
 
     return-object v0

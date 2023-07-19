@@ -27,10 +27,8 @@
 .method constructor <init>(Ljava/io/InputStream;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V
 
-    .line 2
     iput-wide p2, p0, Lcom/mopub/volley/toolbox/DiskBasedCache$CountingInputStream;->length:J
 
     return-void
@@ -43,7 +41,6 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/mopub/volley/toolbox/DiskBasedCache$CountingInputStream;->bytesRead:J
 
     return-wide v0
@@ -52,7 +49,6 @@
 .method bytesRemaining()J
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/mopub/volley/toolbox/DiskBasedCache$CountingInputStream;->length:J
 
     iget-wide v2, p0, Lcom/mopub/volley/toolbox/DiskBasedCache$CountingInputStream;->bytesRead:J
@@ -70,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Ljava/io/FilterInputStream;->read()I
 
     move-result v0
@@ -79,7 +74,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/mopub/volley/toolbox/DiskBasedCache$CountingInputStream;->bytesRead:J
 
     const-wide/16 v3, 0x1
@@ -100,7 +94,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-super {p0, p1, p2, p3}, Ljava/io/FilterInputStream;->read([BII)I
 
     move-result p1
@@ -109,7 +102,6 @@
 
     if-eq p1, p2, :cond_0
 
-    .line 4
     iget-wide p2, p0, Lcom/mopub/volley/toolbox/DiskBasedCache$CountingInputStream;->bytesRead:J
 
     int-to-long v0, p1

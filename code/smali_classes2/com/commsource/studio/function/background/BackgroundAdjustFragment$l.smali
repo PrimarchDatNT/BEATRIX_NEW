@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$l;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
@@ -73,7 +71,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/doodle/ColorItemView;->setFillColor(I)V
 
-    .line 3
     invoke-static {p1}, Landroid/graphics/Color;->red(I)I
 
     move-result v1
@@ -94,7 +91,6 @@
 
     if-le p1, v2, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$l;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
@@ -109,7 +105,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$l;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
@@ -123,7 +118,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$l;->a(Ljava/lang/Integer;)V

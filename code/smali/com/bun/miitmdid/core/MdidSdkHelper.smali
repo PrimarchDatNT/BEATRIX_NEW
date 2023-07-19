@@ -30,7 +30,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/bun/miitmdid/core/MdidSdkHelper;->ajc$preClinit()V
 
     return-void
@@ -39,7 +38,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "2020011018"
@@ -56,7 +54,6 @@
 
     const v0, 0xf63e7
 
-    .line 1
     :try_start_0
     sget-boolean v1, Lcom/bun/miitmdid/core/MdidSdkHelper;->_OuterIsOk:Z
 
@@ -309,7 +306,6 @@
 .method private static synthetic ajc$preClinit()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/bun/miitmdid/core/MdidSdkHelper;
@@ -354,7 +350,6 @@
 .method static final synthetic invoke_aroundBody0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -369,7 +364,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/bun/miitmdid/core/MdidSdkHelper;->TAG:Ljava/lang/String;
 
@@ -385,7 +379,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/bun/miitmdid/core/MdidSdkHelper;->TAG:Ljava/lang/String;
 

@@ -21,7 +21,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/fm0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,10 +37,8 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/lu;
 
-    .line 2
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/lu;->destroy()V
 
     return-void

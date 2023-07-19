@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/f$a;->b:Lcom/spotxchange/v4/f;
 
     iput p2, p0, Lcom/spotxchange/v4/f$a;->a:F
@@ -47,7 +46,6 @@
 .method public run()V
     .locals 6
 
-    .line 1
     iget v0, p0, Lcom/spotxchange/v4/f$a;->a:F
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -58,7 +56,6 @@
 
     div-float/2addr v1, v0
 
-    .line 2
     iget-object v0, p0, Lcom/spotxchange/v4/f$a;->b:Lcom/spotxchange/v4/f;
 
     invoke-static {v0}, Lcom/spotxchange/v4/f;->I0(Lcom/spotxchange/v4/f;)Landroid/view/View;
@@ -75,7 +72,6 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 3
     iget-object v0, p0, Lcom/spotxchange/v4/f$a;->b:Lcom/spotxchange/v4/f;
 
     invoke-static {v0}, Lcom/spotxchange/v4/f;->J0(Lcom/spotxchange/v4/f;)Landroid/view/View;
@@ -90,7 +86,6 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 4
     iget-object v0, p0, Lcom/spotxchange/v4/f$a;->b:Lcom/spotxchange/v4/f;
 
     invoke-static {v0}, Lcom/spotxchange/v4/f;->K0(Lcom/spotxchange/v4/f;)Landroid/view/View;
@@ -103,7 +98,6 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 5
     iget-object v0, p0, Lcom/spotxchange/v4/f$a;->b:Lcom/spotxchange/v4/f;
 
     invoke-static {v0}, Lcom/spotxchange/v4/f;->L0(Lcom/spotxchange/v4/f;)Landroid/view/View;
@@ -116,7 +110,6 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 6
     iget-object v0, p0, Lcom/spotxchange/v4/f$a;->b:Lcom/spotxchange/v4/f;
 
     iget-object v0, v0, Lcom/spotxchange/v4/c;->o:Landroid/widget/FrameLayout;
@@ -129,7 +122,6 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 7
     iget-object v0, p0, Lcom/spotxchange/v4/f$a;->b:Lcom/spotxchange/v4/f;
 
     invoke-static {v0}, Lcom/spotxchange/v4/f;->M0(Lcom/spotxchange/v4/f;)Landroid/view/View;

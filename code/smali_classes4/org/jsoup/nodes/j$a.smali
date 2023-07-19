@@ -27,16 +27,12 @@
 .method constructor <init>(Ljava/lang/Appendable;Lorg/jsoup/nodes/Document$OutputSettings;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/jsoup/nodes/j$a;->a:Ljava/lang/Appendable;
 
-    .line 3
     iput-object p2, p0, Lorg/jsoup/nodes/j$a;->b:Lorg/jsoup/nodes/Document$OutputSettings;
 
-    .line 4
     invoke-virtual {p2}, Lorg/jsoup/nodes/Document$OutputSettings;->l()Ljava/nio/charset/CharsetEncoder;
 
     return-void
@@ -47,7 +43,6 @@
 .method public a(Lorg/jsoup/nodes/j;I)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lorg/jsoup/nodes/j;->G()Ljava/lang/String;
 
     move-result-object v0
@@ -60,7 +55,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lorg/jsoup/nodes/j$a;->a:Ljava/lang/Appendable;
 
@@ -75,7 +69,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance p2, Lorg/jsoup/SerializationException;
 
     invoke-direct {p2, p1}, Lorg/jsoup/SerializationException;-><init>(Ljava/lang/Throwable;)V
@@ -90,7 +83,6 @@
 .method public b(Lorg/jsoup/nodes/j;I)V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/jsoup/nodes/j$a;->a:Ljava/lang/Appendable;
 
@@ -105,7 +97,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance p2, Lorg/jsoup/SerializationException;
 
     invoke-direct {p2, p1}, Lorg/jsoup/SerializationException;-><init>(Ljava/lang/Throwable;)V

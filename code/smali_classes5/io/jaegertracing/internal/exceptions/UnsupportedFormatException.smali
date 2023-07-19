@@ -18,7 +18,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1

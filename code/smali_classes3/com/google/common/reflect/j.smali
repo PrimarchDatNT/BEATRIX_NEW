@@ -18,7 +18,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method final capture()Ljava/lang/reflect/Type;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -38,14 +36,12 @@
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Ljava/lang/reflect/ParameterizedType;
 
     const-string v2, "%s isn\'t parameterized"
 
     invoke-static {v1, v2, v0}, Lcom/google/common/base/t;->u(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 3
     check-cast v0, Ljava/lang/reflect/ParameterizedType;
 
     invoke-interface {v0}, Ljava/lang/reflect/ParameterizedType;->getActualTypeArguments()[Ljava/lang/reflect/Type;

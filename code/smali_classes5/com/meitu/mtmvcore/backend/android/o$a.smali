@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/mtmvcore/backend/android/o;Lcom/meitu/mtmvcore/backend/android/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/o$a;->b:Lcom/meitu/mtmvcore/backend/android/o;
 
     iput-object p2, p0, Lcom/meitu/mtmvcore/backend/android/o$a;->a:Lcom/meitu/mtmvcore/backend/android/g;
@@ -46,7 +45,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtmvcore/backend/android/o$a;->a:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {v0}, Lcom/meitu/mtmvcore/backend/android/g;->getHandler()Landroid/os/Handler;
@@ -59,7 +57,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

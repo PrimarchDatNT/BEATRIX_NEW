@@ -22,10 +22,8 @@
 .method constructor <init>(Ljava/lang/Number;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/l;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/l$d;->c:Ljava/lang/Number;
 
     return-void
@@ -44,7 +42,6 @@
 .method h()Ljava/lang/Number;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/l$d;->c:Ljava/lang/Number;
 
     return-object v0

@@ -32,22 +32,16 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/ej;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/hg1;->d:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/hg1;->b:Lcom/google/android/gms/internal/ads/zf1;
 
-    .line 4
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/hg1;->c:Lcom/google/android/gms/internal/ads/cf1;
 
-    .line 5
     iput-object p5, p0, Lcom/google/android/gms/internal/ads/hg1;->f:Lcom/google/android/gms/internal/ads/eh1;
 
-    .line 6
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/hg1;->g:Landroid/content/Context;
 
     return-void
@@ -56,7 +50,6 @@
 .method static synthetic J5(Lcom/google/android/gms/internal/ads/hg1;)Lcom/google/android/gms/internal/ads/ym0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/hg1;->p:Lcom/google/android/gms/internal/ads/ym0;
 
     return-object p0
@@ -75,15 +68,12 @@
     :try_start_0
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->c:Lcom/google/android/gms/internal/ads/cf1;
 
     invoke-virtual {v0, p2}, Lcom/google/android/gms/internal/ads/cf1;->p(Lcom/google/android/gms/internal/ads/nj;)V
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/hg1;->g:Landroid/content/Context;
@@ -100,10 +90,8 @@
 
     const-string p1, "Failed to load the ad because app ID is missing."
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
 
-    .line 5
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/hg1;->c:Lcom/google/android/gms/internal/ads/cf1;
 
     const/16 p2, 0x8
@@ -112,12 +100,10 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     monitor-exit p0
 
     return-void
 
-    .line 7
     :cond_0
     :try_start_1
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/hg1;->p:Lcom/google/android/gms/internal/ads/ym0;
@@ -126,12 +112,10 @@
 
     if-eqz p2, :cond_1
 
-    .line 8
     monitor-exit p0
 
     return-void
 
-    .line 9
     :cond_1
     :try_start_2
     new-instance p2, Lcom/google/android/gms/internal/ads/wf1;
@@ -140,12 +124,10 @@
 
     invoke-direct {p2, v0}, Lcom/google/android/gms/internal/ads/wf1;-><init>(Ljava/lang/String;)V
 
-    .line 10
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->b:Lcom/google/android/gms/internal/ads/zf1;
 
     invoke-virtual {v0, p3}, Lcom/google/android/gms/internal/ads/zf1;->h(I)V
 
-    .line 11
     iget-object p3, p0, Lcom/google/android/gms/internal/ads/hg1;->b:Lcom/google/android/gms/internal/ads/zf1;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->d:Ljava/lang/String;
@@ -158,7 +140,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 12
     monitor-exit p0
 
     return-void
@@ -174,7 +155,6 @@
 .method static synthetic c6(Lcom/google/android/gms/internal/ads/hg1;Lcom/google/android/gms/internal/ads/ym0;)Lcom/google/android/gms/internal/ads/ym0;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/hg1;->p:Lcom/google/android/gms/internal/ads/ym0;
 
     return-object p1
@@ -195,20 +175,16 @@
     :try_start_0
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->p:Lcom/google/android/gms/internal/ads/ym0;
 
     if-nez v0, :cond_0
 
     const-string p1, "Rewarded can not be shown before loaded"
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/hg1;->c:Lcom/google/android/gms/internal/ads/cf1;
 
     new-instance p2, Lcom/google/android/gms/internal/ads/zzuy;
@@ -225,12 +201,10 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     monitor-exit p0
 
     return-void
 
-    .line 6
     :cond_0
     :try_start_1
     invoke-static {p1}, Lcom/google/android/gms/dynamic/f;->B0(Lcom/google/android/gms/dynamic/d;)Ljava/lang/Object;
@@ -239,14 +213,12 @@
 
     check-cast p1, Landroid/app/Activity;
 
-    .line 7
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->p:Lcom/google/android/gms/internal/ads/ym0;
 
     invoke-virtual {v0, p2, p1}, Lcom/google/android/gms/internal/ads/ym0;->j(ZLandroid/app/Activity;)Z
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 8
     monitor-exit p0
 
     return-void
@@ -264,7 +236,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/hg1;->c:Lcom/google/android/gms/internal/ads/cf1;
 
     const/4 v0, 0x0
@@ -273,7 +244,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->c:Lcom/google/android/gms/internal/ads/cf1;
 
@@ -294,21 +264,16 @@
     :try_start_0
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->f:Lcom/google/android/gms/internal/ads/eh1;
 
-    .line 3
     iget-object v1, p1, Lcom/google/android/gms/internal/ads/zzauz;->a:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/google/android/gms/internal/ads/eh1;->a:Ljava/lang/String;
 
-    .line 4
     sget-object v1, Lcom/google/android/gms/internal/ads/w;->v0:Lcom/google/android/gms/internal/ads/h;
 
-    .line 5
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v2
@@ -317,7 +282,6 @@
 
     move-result-object v1
 
-    .line 6
     check-cast v1, Ljava/lang/Boolean;
 
     invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -326,14 +290,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 7
     iget-object p1, p1, Lcom/google/android/gms/internal/ads/zzauz;->b:Ljava/lang/String;
 
     iput-object p1, v0, Lcom/google/android/gms/internal/ads/eh1;->b:Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     :cond_0
     monitor-exit p0
 
@@ -354,10 +316,8 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->p:Lcom/google/android/gms/internal/ads/ym0;
 
     if-eqz v0, :cond_0
@@ -384,7 +344,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     sget v0, Lcom/google/android/gms/internal/ads/bh1;->c:I
 
@@ -392,7 +351,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -410,10 +368,8 @@
 
     const-string v0, "setOnPaidEventListener must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->c:Lcom/google/android/gms/internal/ads/cf1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/cf1;->r(Lcom/google/android/gms/internal/ads/xo2;)V
@@ -426,10 +382,8 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->p:Lcom/google/android/gms/internal/ads/ym0;
 
     if-eqz v0, :cond_0
@@ -455,10 +409,8 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->c:Lcom/google/android/gms/internal/ads/cf1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/cf1;->o(Lcom/google/android/gms/internal/ads/gj;)V
@@ -476,7 +428,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     sget v0, Lcom/google/android/gms/internal/ads/bh1;->b:I
 
@@ -484,7 +435,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -507,7 +457,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->p:Lcom/google/android/gms/internal/ads/ym0;
 
@@ -519,7 +468,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->p:Lcom/google/android/gms/internal/ads/ym0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/b40;->d()Lcom/google/android/gms/internal/ads/j70;
@@ -539,7 +487,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     monitor-exit p0
 
     return-object v0
@@ -555,10 +502,8 @@
 .method public final o()Lcom/google/android/gms/internal/ads/yo2;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->K4:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -567,7 +512,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -580,7 +524,6 @@
 
     return-object v1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->p:Lcom/google/android/gms/internal/ads/ym0;
 
@@ -601,10 +544,8 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->p:Lcom/google/android/gms/internal/ads/ym0;
 
     if-eqz v0, :cond_0
@@ -628,10 +569,8 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hg1;->c:Lcom/google/android/gms/internal/ads/cf1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/cf1;->q(Lcom/google/android/gms/internal/ads/oj;)V
@@ -651,13 +590,11 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/internal/ads/hg1;->Ba(Lcom/google/android/gms/dynamic/d;Z)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void

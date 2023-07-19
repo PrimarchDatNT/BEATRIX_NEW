@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/ar/core/InstallActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ar/core/b0;->a:Lcom/google/ar/core/InstallActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -27,7 +26,6 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/google/ar/core/b0;->a:Lcom/google/ar/core/InstallActivity;
 
     new-instance v0, Lcom/google/ar/core/exceptions/UnavailableUserDeclinedInstallationException;

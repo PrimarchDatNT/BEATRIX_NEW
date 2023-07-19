@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RelightFragment$d;->c:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautymain/utils/RelightModelHelper$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/RelightFragment$d;->e(Lcom/commsource/beautymain/utils/RelightModelHelper$a;)V
@@ -74,10 +72,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyfilter/NoStickLiveData$a;->b(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$d;->c:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->A1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/comic/widget/c;
@@ -90,7 +86,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$d;->c:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->A1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/comic/widget/c;
@@ -99,17 +94,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/beautymain/utils/RelightModelHelper$a;->m()I
 
     move-result p1
 
-    .line 5
     invoke-virtual {v1, p1}, Lcom/commsource/comic/widget/c;->n(I)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -121,7 +113,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

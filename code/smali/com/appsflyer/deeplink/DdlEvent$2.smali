@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/appsflyer/internal/referrer/Referrer$State;->values()[Lcom/appsflyer/internal/referrer/Referrer$State;
 
     move-result-object v0

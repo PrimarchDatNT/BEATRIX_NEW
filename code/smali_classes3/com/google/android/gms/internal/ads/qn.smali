@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/nn;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 
     sub-int/2addr p0, p1
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->abs(I)I
 
     move-result p0
@@ -48,10 +46,8 @@
 .method public final h(Landroid/app/Activity;Landroid/content/res/Configuration;)Z
     .locals 9
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->U2:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -60,7 +56,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -73,11 +68,9 @@
 
     return v1
 
-    .line 4
     :cond_0
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->W2:Lcom/google/android/gms/internal/ads/h;
 
-    .line 5
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v2
@@ -86,7 +79,6 @@
 
     move-result-object v0
 
-    .line 6
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -95,59 +87,49 @@
 
     if-eqz v0, :cond_1
 
-    .line 7
     invoke-virtual {p1}, Landroid/app/Activity;->isInMultiWindowMode()Z
 
     move-result p1
 
     return p1
 
-    .line 8
     :cond_1
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->a()Lcom/google/android/gms/internal/ads/pp;
 
-    .line 9
     iget v0, p2, Landroid/content/res/Configuration;->screenHeightDp:I
 
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/pp;->r(Landroid/content/Context;I)I
 
     move-result v0
 
-    .line 10
     iget p2, p2, Landroid/content/res/Configuration;->screenWidthDp:I
 
     invoke-static {p1, p2}, Lcom/google/android/gms/internal/ads/pp;->r(Landroid/content/Context;I)I
 
     move-result p2
 
-    .line 11
     invoke-virtual {p1}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
 
     const-string v3, "window"
 
-    .line 12
     invoke-virtual {v2, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Landroid/view/WindowManager;
 
-    .line 13
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/cn;->b(Landroid/view/WindowManager;)Landroid/util/DisplayMetrics;
 
     move-result-object v2
 
-    .line 14
     iget v3, v2, Landroid/util/DisplayMetrics;->heightPixels:I
 
-    .line 15
     iget v2, v2, Landroid/util/DisplayMetrics;->widthPixels:I
 
-    .line 16
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
@@ -164,7 +146,6 @@
 
     if-lez v4, :cond_2
 
-    .line 17
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
@@ -178,7 +159,6 @@
     :cond_2
     const/4 v4, 0x0
 
-    .line 18
     :goto_0
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
@@ -188,7 +168,6 @@
 
     move-result-object p1
 
-    .line 19
     iget p1, p1, Landroid/util/DisplayMetrics;->density:F
 
     float-to-double v5, p1
@@ -203,10 +182,8 @@
 
     long-to-int p1, v5
 
-    .line 20
     sget-object v5, Lcom/google/android/gms/internal/ads/w;->T2:Lcom/google/android/gms/internal/ads/h;
 
-    .line 21
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v6
@@ -215,7 +192,6 @@
 
     move-result-object v5
 
-    .line 22
     check-cast v5, Ljava/lang/Integer;
 
     invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
@@ -226,7 +202,6 @@
 
     add-int/2addr v0, v4
 
-    .line 23
     invoke-static {v3, v0, p1}, Lcom/google/android/gms/internal/ads/qn;->v(III)Z
 
     move-result v0
@@ -235,7 +210,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 24
     invoke-static {v2, p2, p1}, Lcom/google/android/gms/internal/ads/qn;->v(III)Z
 
     move-result p1

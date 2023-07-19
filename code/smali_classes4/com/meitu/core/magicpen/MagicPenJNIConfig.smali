@@ -23,7 +23,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/core/magicpen/MagicPenJNIConfig;->magicpenJNIConfig:Lcom/meitu/core/magicpen/MagicPenJNIConfig;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -34,7 +33,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/magicpen/NativeBaseClass;-><init>()V
 
     return-void
@@ -47,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/magicpen/MagicPenJNIConfig;->nCheckBlendMaxMinSupport()Z
 
     move-result v1
@@ -64,21 +61,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/magicpen/MagicPenJNIConfig;->nGetNativeVersion()Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "\\|"
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    .line 3
     aget-object v3, v1, v2
 
     const-string v4, "1.1"
@@ -123,7 +117,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 4
     sget-object v3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v9, Ljava/lang/StringBuilder;
@@ -158,12 +151,10 @@
 
     invoke-static {v3, v1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     new-instance v3, Ljava/lang/RuntimeException;
 
@@ -211,19 +202,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/magicpen/MagicPenJNIConfig;->magicpenJNIConfig:Lcom/meitu/core/magicpen/MagicPenJNIConfig;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/core/magicpen/MagicPenJNIConfig;
 
     invoke-direct {v1}, Lcom/meitu/core/magicpen/MagicPenJNIConfig;-><init>()V
 
     sput-object v1, Lcom/meitu/core/magicpen/MagicPenJNIConfig;->magicpenJNIConfig:Lcom/meitu/core/magicpen/MagicPenJNIConfig;
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/meitu/core/magicpen/MagicPenJNIConfig;->magicpenJNIConfig:Lcom/meitu/core/magicpen/MagicPenJNIConfig;
 
@@ -239,7 +227,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/magicpen/MagicPenJNIConfig;->nCheckSecurity()Z
 
     move-result v1
@@ -281,20 +268,17 @@
 
     const-string v3, "ndkInit error: context is null"
 
-    .line 1
     invoke-static {v2, v3}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v2, v1
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
     move-result-object v2
 
-    .line 3
     :goto_0
     invoke-static {}, Lcom/meitu/core/magicpen/MagicPenJNIConfig;->nCheckSecurity()Z
 
@@ -302,7 +286,6 @@
 
     if-nez v3, :cond_1
 
-    .line 4
     :try_start_0
     invoke-static {p1}, Lcom/meitu/core/magicpen/MagicPenJNIConfig;->nCheckDebug(Landroid/content/Context;)Z
     :try_end_0
@@ -313,35 +296,29 @@
     :catchall_0
     move-exception v3
 
-    .line 5
     invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_1
     :goto_1
     if-eqz p2, :cond_4
 
-    .line 6
     new-instance v3, Ljava/io/File;
 
     invoke-direct {v3, p2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v3}, Ljava/io/File;->exists()Z
 
     move-result v4
 
     if-nez v4, :cond_2
 
-    .line 8
     invoke-virtual {v3}, Ljava/io/File;->mkdirs()Z
 
-    .line 9
     :cond_2
     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v3
 
-    .line 10
     :try_start_1
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -355,12 +332,10 @@
 
     if-eqz v3, :cond_3
 
-    .line 11
     iget-object v1, v3, Landroid/content/pm/ApplicationInfo;->sourceDir:Ljava/lang/String;
     :try_end_1
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 12
     :cond_3
     :try_start_2
     invoke-static {p1, v2, v1, p2}, Lcom/meitu/core/magicpen/MagicPenJNIConfig;->nInit(Landroid/content/Context;Landroid/content/res/AssetManager;Ljava/lang/String;Ljava/lang/String;)Z
@@ -374,10 +349,8 @@
     :catch_0
     move-exception p1
 
-    .line 13
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 14
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -386,10 +359,8 @@
     :catch_1
     move-exception p1
 
-    .line 15
     invoke-virtual {p1}, Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
 
-    .line 16
     new-instance p1, Ljava/lang/RuntimeException;
 
     const-string p2, "Unable to locate assets, aborting..."
@@ -400,7 +371,6 @@
 
     throw p1
 
-    .line 17
     :cond_4
     new-instance p1, Ljava/lang/RuntimeException;
 

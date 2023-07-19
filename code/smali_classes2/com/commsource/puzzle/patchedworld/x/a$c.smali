@@ -29,7 +29,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v2, 0x0
@@ -46,7 +45,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 .method synthetic constructor <init>(Lcom/commsource/puzzle/patchedworld/x/a$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/puzzle/patchedworld/x/a$c;-><init>()V
 
     return-void
@@ -74,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/x/a$b;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -99,12 +95,10 @@
 
     invoke-direct {v1, p1, v2}, Lcom/commsource/puzzle/patchedworld/x/a$b;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
 
-    .line 2
     sget-object p1, Lcom/commsource/puzzle/patchedworld/x/a$c;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {p1}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

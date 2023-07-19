@@ -41,7 +41,6 @@
 .method static constructor <clinit>()V
     .locals 14
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/cct/a/zzu;
 
     const-string v1, "DEFAULT"
@@ -52,7 +51,6 @@
 
     sput-object v0, Lcom/google/android/datatransport/cct/a/zzu;->zza:Lcom/google/android/datatransport/cct/a/zzu;
 
-    .line 2
     new-instance v1, Lcom/google/android/datatransport/cct/a/zzu;
 
     const-string v3, "UNMETERED_ONLY"
@@ -63,7 +61,6 @@
 
     sput-object v1, Lcom/google/android/datatransport/cct/a/zzu;->zzb:Lcom/google/android/datatransport/cct/a/zzu;
 
-    .line 3
     new-instance v3, Lcom/google/android/datatransport/cct/a/zzu;
 
     const-string v5, "UNMETERED_OR_DAILY"
@@ -74,7 +71,6 @@
 
     sput-object v3, Lcom/google/android/datatransport/cct/a/zzu;->zzc:Lcom/google/android/datatransport/cct/a/zzu;
 
-    .line 4
     new-instance v5, Lcom/google/android/datatransport/cct/a/zzu;
 
     const-string v7, "FAST_IF_RADIO_AWAKE"
@@ -85,7 +81,6 @@
 
     sput-object v5, Lcom/google/android/datatransport/cct/a/zzu;->zzd:Lcom/google/android/datatransport/cct/a/zzu;
 
-    .line 5
     new-instance v7, Lcom/google/android/datatransport/cct/a/zzu;
 
     const-string v9, "NEVER"
@@ -96,7 +91,6 @@
 
     sput-object v7, Lcom/google/android/datatransport/cct/a/zzu;->zze:Lcom/google/android/datatransport/cct/a/zzu;
 
-    .line 6
     new-instance v9, Lcom/google/android/datatransport/cct/a/zzu;
 
     const-string v11, "UNRECOGNIZED"
@@ -109,29 +103,22 @@
 
     sput-object v9, Lcom/google/android/datatransport/cct/a/zzu;->zzf:Lcom/google/android/datatransport/cct/a/zzu;
 
-    .line 7
     new-instance v11, Landroid/util/SparseArray;
 
     invoke-direct {v11}, Landroid/util/SparseArray;-><init>()V
 
     sput-object v11, Lcom/google/android/datatransport/cct/a/zzu;->zzg:Landroid/util/SparseArray;
 
-    .line 8
     invoke-virtual {v11, v2, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 9
     invoke-virtual {v11, v4, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 10
     invoke-virtual {v11, v6, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 11
     invoke-virtual {v11, v8, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 12
     invoke-virtual {v11, v10, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 13
     invoke-virtual {v11, v13, v9}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     return-void
@@ -145,7 +132,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void

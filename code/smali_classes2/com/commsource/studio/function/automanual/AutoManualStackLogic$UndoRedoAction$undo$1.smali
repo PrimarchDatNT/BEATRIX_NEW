@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction$undo$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction$undo$1;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;
 
     iget-object v1, v1, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
@@ -86,7 +84,6 @@
 
     check-cast v1, Lcom/commsource/studio/e;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction$undo$1;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;
 
     iget-object v3, v2, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
@@ -105,7 +102,6 @@
 
     invoke-virtual {v2, v3, v1, v4}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a(Lcom/commsource/studio/e;Lcom/commsource/studio/e;Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction$undo$1;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;
 
     iget-object v1, v1, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
@@ -142,7 +138,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/component/UndoRedoComponent$c;->H(ZZ)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

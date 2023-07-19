@@ -41,35 +41,28 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->csketchDoPicNoFace:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->csketchDoContour:I
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 4
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->csketchHairSparseCoeffi:F
 
-    .line 5
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->csketchBodySparseCoeffi:F
 
     const-wide/16 v0, 0x0
 
-    .line 6
     iput-wide v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->mNativeInstance:J
 
     cmp-long v2, v0, v0
 
     if-nez v2, :cond_0
 
-    .line 7
     new-instance v0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption$1;
 
     invoke-direct {v0, p0}, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption$1;-><init>(Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;)V
@@ -87,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -102,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->nativeCreateInstance()J
 
     move-result-wide v1
@@ -150,31 +141,24 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     iput-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->mNativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->nativeClearOption(J)V
 
     const/4 v1, 0x0
 
-    .line 3
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->csketchDoPicNoFace:I
 
-    .line 4
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->csketchDoContour:I
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 5
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->csketchHairSparseCoeffi:F
 
-    .line 6
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->csketchBodySparseCoeffi:F
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -187,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 v0, 0xb
@@ -207,7 +190,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->mNativeInstance:J
 
@@ -215,10 +197,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -226,10 +206,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -242,7 +220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -257,14 +234,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 7
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->mNativeInstance:J
 
     iget-wide v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->nativeSetOption(JJ)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -277,32 +252,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->nativeEnableDetectCsketch(JJ)V
 
-    .line 2
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->csketchDoPicNoFace:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->nativeSetCsketchPicNoFace(JI)V
 
-    .line 3
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->csketchDoContour:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->nativeSetCsketchContour(JI)V
 
-    .line 4
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->csketchHairSparseCoeffi:F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->nativeSetCsketchHairSparseCoeffi(JF)V
 
-    .line 5
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->csketchBodySparseCoeffi:F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTCsketchModule/MTCsketchOption;->nativeSetCsketchBodySparseCoeffi(JF)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

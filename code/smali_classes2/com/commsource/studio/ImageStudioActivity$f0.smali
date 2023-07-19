@@ -57,7 +57,6 @@
 
     const-string v1, "contrast"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -76,10 +75,8 @@
 
     const-string p1, "beauty_compare_clk"
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->i1()Lcom/commsource/studio/sub/BaseSubTabFragment;
@@ -102,7 +99,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -113,7 +109,6 @@
 
     move-result-object p1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->j1()Lcom/commsource/studio/sub/d;
@@ -130,16 +125,13 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-virtual {v1, v3}, Lcom/commsource/editengine/i;->i(Z)V
 
-    .line 7
     :cond_0
     invoke-static {p1, v3, v4, v2, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto/16 :goto_0
 
-    .line 8
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -163,7 +155,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -186,7 +177,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/editengine/f;->o(Lcom/commsource/editengine/d;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -207,7 +197,6 @@
 
     goto/16 :goto_0
 
-    .line 11
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -221,7 +210,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/editengine/f;->p(Z)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -238,7 +226,6 @@
 
     goto/16 :goto_0
 
-    .line 13
     :cond_3
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -262,7 +249,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -273,7 +259,6 @@
 
     move-result-object p1
 
-    .line 15
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v5}, Lcom/commsource/studio/ImageStudioActivity;->j1()Lcom/commsource/studio/sub/d;
@@ -290,16 +275,13 @@
 
     if-eqz v5, :cond_4
 
-    .line 16
     invoke-virtual {v5, v1}, Lcom/commsource/editengine/i;->i(Z)V
 
-    .line 17
     :cond_4
     invoke-static {p1, v3, v4, v2, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_0
 
-    .line 18
     :cond_5
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -323,7 +305,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->i1()Lcom/commsource/studio/sub/BaseSubTabFragment;
@@ -332,7 +313,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -353,7 +333,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/editengine/f;->o(Lcom/commsource/editengine/d;)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -374,7 +353,6 @@
 
     goto :goto_0
 
-    .line 22
     :cond_6
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -386,7 +364,6 @@
 
     throw p1
 
-    .line 23
     :cond_7
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -400,7 +377,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/editengine/f;->p(Z)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$f0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -415,7 +391,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/studio/layer/BaseLayer;->n0(Z)V
 
-    .line 25
     :cond_8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -430,7 +405,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$f0;->a(Ljava/lang/Boolean;)V

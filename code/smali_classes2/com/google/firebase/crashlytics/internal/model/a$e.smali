@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/model/a$e;
 
     invoke-direct {v0}, Lcom/google/firebase/crashlytics/internal/model/a$e;-><init>()V
@@ -47,7 +46,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a;
 
     check-cast p2, Lcom/google/firebase/encoders/e;
@@ -81,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a;->c()Ljava/lang/String;
 
     move-result-object v0
@@ -90,7 +86,6 @@
 
     invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/e;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/firebase/encoders/e;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a;->f()Ljava/lang/String;
 
     move-result-object v0
@@ -99,7 +94,6 @@
 
     invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/e;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/firebase/encoders/e;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a;->b()Ljava/lang/String;
 
     move-result-object v0
@@ -108,7 +102,6 @@
 
     invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/e;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/firebase/encoders/e;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a;->e()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a$b;
 
     move-result-object v0
@@ -117,7 +110,6 @@
 
     invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/e;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/firebase/encoders/e;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a;->d()Ljava/lang/String;
 
     move-result-object p1

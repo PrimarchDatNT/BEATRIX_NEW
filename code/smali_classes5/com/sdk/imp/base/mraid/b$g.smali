@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/b;Landroid/view/View;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
     iput-object p2, p0, Lcom/sdk/imp/base/mraid/b$g;->a:Landroid/view/View;
@@ -46,7 +45,6 @@
 .method public run()V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->i(Lcom/sdk/imp/base/mraid/b;)Landroid/content/Context;
@@ -61,7 +59,6 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v1}, Lcom/sdk/imp/base/mraid/b;->d(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/f;
@@ -78,7 +75,6 @@
 
     new-array v0, v0, [I
 
-    .line 3
     iget-object v1, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v1}, Lcom/sdk/imp/base/mraid/b;->e(Lcom/sdk/imp/base/mraid/b;)Landroid/view/ViewGroup;
@@ -89,11 +85,9 @@
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {v1, v0}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 5
     iget-object v2, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v2}, Lcom/sdk/imp/base/mraid/b;->d(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/f;
@@ -108,20 +102,16 @@
 
     aget v6, v0, v5
 
-    .line 6
     invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
     move-result v7
 
-    .line 7
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
 
     move-result v1
 
-    .line 8
     invoke-virtual {v2, v4, v6, v7, v1}, Lcom/sdk/imp/base/mraid/f;->m(IIII)V
 
-    .line 9
     iget-object v1, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v1}, Lcom/sdk/imp/base/mraid/b;->f(Lcom/sdk/imp/base/mraid/b;)Landroid/widget/FrameLayout;
@@ -130,7 +120,6 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/FrameLayout;->getLocationOnScreen([I)V
 
-    .line 10
     iget-object v1, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v1}, Lcom/sdk/imp/base/mraid/b;->d(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/f;
@@ -143,7 +132,6 @@
 
     iget-object v6, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
-    .line 11
     invoke-static {v6}, Lcom/sdk/imp/base/mraid/b;->f(Lcom/sdk/imp/base/mraid/b;)Landroid/widget/FrameLayout;
 
     move-result-object v6
@@ -154,7 +142,6 @@
 
     iget-object v7, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
-    .line 12
     invoke-static {v7}, Lcom/sdk/imp/base/mraid/b;->f(Lcom/sdk/imp/base/mraid/b;)Landroid/widget/FrameLayout;
 
     move-result-object v7
@@ -163,15 +150,12 @@
 
     move-result v7
 
-    .line 13
     invoke-virtual {v1, v2, v4, v6, v7}, Lcom/sdk/imp/base/mraid/f;->l(IIII)V
 
-    .line 14
     iget-object v1, p0, Lcom/sdk/imp/base/mraid/b$g;->a:Landroid/view/View;
 
     invoke-virtual {v1, v0}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 15
     iget-object v1, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v1}, Lcom/sdk/imp/base/mraid/b;->d(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/f;
@@ -184,22 +168,18 @@
 
     iget-object v3, p0, Lcom/sdk/imp/base/mraid/b$g;->a:Landroid/view/View;
 
-    .line 16
     invoke-virtual {v3}, Landroid/view/View;->getWidth()I
 
     move-result v3
 
     iget-object v4, p0, Lcom/sdk/imp/base/mraid/b$g;->a:Landroid/view/View;
 
-    .line 17
     invoke-virtual {v4}, Landroid/view/View;->getHeight()I
 
     move-result v4
 
-    .line 18
     invoke-virtual {v1, v2, v0, v3, v4}, Lcom/sdk/imp/base/mraid/f;->k(IIII)V
 
-    .line 19
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->h(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/MraidBridge;
@@ -214,7 +194,6 @@
 
     invoke-virtual {v0, v1}, Lcom/sdk/imp/base/mraid/MraidBridge;->t(Lcom/sdk/imp/base/mraid/f;)V
 
-    .line 20
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->b(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/MraidBridge;
@@ -227,7 +206,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 21
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$g;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->b(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/MraidBridge;
@@ -242,13 +220,11 @@
 
     invoke-virtual {v0, v1}, Lcom/sdk/imp/base/mraid/MraidBridge;->t(Lcom/sdk/imp/base/mraid/f;)V
 
-    .line 22
     :cond_1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$g;->b:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_2
 
-    .line 23
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
     :cond_2

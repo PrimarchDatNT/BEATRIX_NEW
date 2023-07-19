@@ -21,7 +21,6 @@
 .method constructor <init>(Lcom/tencent/bugly/proguard/w;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,12 +31,10 @@
 .method public final newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/Thread;
 
     invoke-direct {v0, p1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     const-string v1, "BuglyThread-"

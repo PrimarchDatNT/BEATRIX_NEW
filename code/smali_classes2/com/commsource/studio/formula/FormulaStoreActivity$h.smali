@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/formula/FormulaCategory;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/formula/FormulaStoreActivity$h;->b(ILcom/commsource/studio/formula/FormulaCategory;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$h;->a:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
     const-string v1, "entity"
@@ -82,7 +80,6 @@
 
     invoke-static {v0, p2}, Lcom/commsource/studio/formula/FormulaStoreActivity;->R0(Lcom/commsource/studio/formula/FormulaStoreActivity;Lcom/commsource/studio/formula/FormulaCategory;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

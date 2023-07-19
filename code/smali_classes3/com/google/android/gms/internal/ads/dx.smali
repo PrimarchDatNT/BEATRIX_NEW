@@ -26,10 +26,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/xw;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/dx;->a:Lcom/google/android/gms/internal/ads/xw;
 
     return-void
@@ -40,10 +38,8 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/dx;->a:Lcom/google/android/gms/internal/ads/xw;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/xw;->b()Ljava/lang/ref/WeakReference;
 
     move-result-object v0

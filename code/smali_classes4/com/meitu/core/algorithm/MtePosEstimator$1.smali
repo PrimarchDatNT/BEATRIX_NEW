@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/core/algorithm/MtePosEstimator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/algorithm/MtePosEstimator$1;->this$0:Lcom/meitu/core/algorithm/MtePosEstimator;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/algorithm/MtePosEstimator$1;->this$0:Lcom/meitu/core/algorithm/MtePosEstimator;
 
     invoke-static {}, Lcom/meitu/core/algorithm/MtePosEstimator;->access$100()J
@@ -51,7 +49,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/core/algorithm/MtePosEstimator;->access$002(Lcom/meitu/core/algorithm/MtePosEstimator;J)J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

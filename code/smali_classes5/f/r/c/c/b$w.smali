@@ -26,7 +26,6 @@
 .method constructor <init>(Lf/r/c/c/b;Lcom/spotxchange/v4/h/b;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/c/b$w;->f:Lf/r/c/c/b;
 
     iput-object p2, p0, Lf/r/c/c/b$w;->c:Lcom/spotxchange/v4/h/b;
@@ -43,14 +42,12 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/b$l0;->a:Lcom/spotxchange/v4/SpotXAdPlayer$e;
 
     instance-of v1, v0, Lcom/spotxchange/v4/SpotXAdPlayer$f;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast v0, Lcom/spotxchange/v4/SpotXAdPlayer$f;
 
     iget-object v1, p0, Lf/r/c/c/b$w;->c:Lcom/spotxchange/v4/h/b;

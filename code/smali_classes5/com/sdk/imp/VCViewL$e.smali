@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/VCViewL;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VCViewL$e;->a:Lcom/sdk/imp/VCViewL;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VCViewL$e;->a:Lcom/sdk/imp/VCViewL;
 
     invoke-static {v0}, Lcom/sdk/imp/VCViewL;->n(Lcom/sdk/imp/VCViewL;)I
@@ -49,7 +47,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/VCViewL$e;->a:Lcom/sdk/imp/VCViewL;
 
     invoke-static {v0}, Lcom/sdk/imp/VCViewL;->q(Lcom/sdk/imp/VCViewL;)Lcom/sdk/imp/VastAgent;
@@ -74,7 +71,6 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/sdk/imp/VastAgent;->w(Lcom/sdk/imp/VastAgent$ReportEvent;IJ)V
 
-    .line 3
     invoke-static {}, Lcom/sdk/imp/VCViewL;->r()Ljava/lang/String;
 
     move-result-object v0
@@ -101,7 +97,6 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/VCViewL$e;->a:Lcom/sdk/imp/VCViewL;
 
     invoke-static {v0}, Lcom/sdk/imp/VCViewL;->t(Lcom/sdk/imp/VCViewL;)Lcom/sdk/imp/player/Mp4Viewer;
@@ -116,14 +111,12 @@
 
     invoke-virtual {v0, v1}, Lcom/sdk/imp/player/Mp4Viewer;->j(I)V
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/VCViewL$e;->a:Lcom/sdk/imp/VCViewL;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/sdk/imp/VCViewL;->j(Lcom/sdk/imp/VCViewL;Z)Z
 
-    .line 6
     iget-object v0, p0, Lcom/sdk/imp/VCViewL$e;->a:Lcom/sdk/imp/VCViewL;
 
     invoke-static {v0, v1}, Lcom/sdk/imp/VCViewL;->k(Lcom/sdk/imp/VCViewL;Z)Z

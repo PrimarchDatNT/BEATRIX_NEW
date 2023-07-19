@@ -67,7 +67,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$7$1;->this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$7;
 
     iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$7;->$flowArray:[Lcotlinx/coroutines/flow/d;

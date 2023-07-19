@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
     :try_start_0
     const-string p1, "ISO-8859-1"
 
-    .line 1
     :goto_0
     invoke-static {p0, p1}, Ljava/net/URLDecoder;->decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -45,7 +43,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/Throwable;)V
@@ -64,7 +61,6 @@
     :try_start_0
     const-string p1, "ISO-8859-1"
 
-    .line 1
     :goto_0
     invoke-static {p0, p1}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -77,7 +73,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/Throwable;)V
@@ -100,12 +95,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -123,7 +116,6 @@
 
     check-cast v1, Lf/q/a/f;
 
-    .line 3
     invoke-interface {v1}, Lf/q/a/f;->getName()Ljava/lang/String;
 
     move-result-object v2
@@ -132,14 +124,12 @@
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v1}, Lf/q/a/f;->getValue()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-static {v1, p1}, Lf/q/a/h;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -149,7 +139,6 @@
     :cond_0
     const-string v1, ""
 
-    .line 6
     :goto_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
@@ -159,24 +148,19 @@
 
     const-string v3, "&"
 
-    .line 7
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     :cond_1
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "="
 
-    .line 9
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -199,31 +183,26 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Ljava/net/URI;->getRawQuery()Ljava/lang/String;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     new-instance v1, Ljava/util/Scanner;
 
     invoke-direct {v1, p0}, Ljava/util/Scanner;-><init>(Ljava/lang/String;)V
@@ -250,10 +229,8 @@
 
     const-string v0, "&"
 
-    .line 1
     invoke-virtual {p1, v0}, Ljava/util/Scanner;->useDelimiter(Ljava/lang/String;)Ljava/util/Scanner;
 
-    .line 2
     :goto_0
     invoke-virtual {p1}, Ljava/util/Scanner;->hasNext()Z
 
@@ -261,7 +238,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 3
     invoke-virtual {p1}, Ljava/util/Scanner;->next()Ljava/lang/String;
 
     move-result-object v0
@@ -272,7 +248,6 @@
 
     move-result-object v0
 
-    .line 4
     array-length v1, v0
 
     if-eqz v1, :cond_1
@@ -285,7 +260,6 @@
 
     const/4 v1, 0x0
 
-    .line 5
     aget-object v1, v0, v1
 
     invoke-static {v1, p2}, Lf/q/a/h;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -294,21 +268,18 @@
 
     const/4 v3, 0x0
 
-    .line 6
     array-length v4, v0
 
     if-ne v4, v2, :cond_0
 
     const/4 v2, 0x1
 
-    .line 7
     aget-object v0, v0, v2
 
     invoke-static {v0, p2}, Lf/q/a/h;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 8
     :cond_0
     new-instance v0, Lf/q/a/a;
 
@@ -318,7 +289,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 

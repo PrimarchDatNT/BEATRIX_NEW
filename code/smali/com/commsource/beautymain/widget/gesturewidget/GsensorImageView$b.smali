@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView$b;->a:Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView$b;->a:Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->getWidth()I
@@ -61,7 +59,6 @@
 
     invoke-static {v1, v4, v2, v3, v5}, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;->V(Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;ZIIZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

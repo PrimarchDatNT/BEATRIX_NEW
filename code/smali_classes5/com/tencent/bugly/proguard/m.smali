@@ -39,7 +39,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,7 +49,6 @@
 .method public final bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 4
 
-    .line 1
     check-cast p1, Lcom/tencent/bugly/proguard/m;
 
     iget-wide v0, p0, Lcom/tencent/bugly/proguard/m;->c:J

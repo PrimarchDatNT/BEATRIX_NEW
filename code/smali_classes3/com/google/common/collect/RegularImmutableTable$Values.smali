@@ -29,7 +29,6 @@
 .method private constructor <init>(Lcom/google/common/collect/RegularImmutableTable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/RegularImmutableTable$Values;->this$0:Lcom/google/common/collect/RegularImmutableTable;
 
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableList;-><init>()V
@@ -40,7 +39,6 @@
 .method synthetic constructor <init>(Lcom/google/common/collect/RegularImmutableTable;Lcom/google/common/collect/RegularImmutableTable$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/RegularImmutableTable$Values;-><init>(Lcom/google/common/collect/RegularImmutableTable;)V
 
     return-void
@@ -56,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableTable$Values;->this$0:Lcom/google/common/collect/RegularImmutableTable;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/RegularImmutableTable;->getValue(I)Ljava/lang/Object;
@@ -77,7 +74,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableTable$Values;->this$0:Lcom/google/common/collect/RegularImmutableTable;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->size()I

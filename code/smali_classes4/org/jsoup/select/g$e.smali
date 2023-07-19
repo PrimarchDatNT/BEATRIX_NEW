@@ -18,10 +18,8 @@
 .method public constructor <init>(Lorg/jsoup/select/c;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/select/g;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/jsoup/select/g;->a:Lorg/jsoup/select/c;
 
     return-void
@@ -38,13 +36,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     invoke-virtual {p2}, Lorg/jsoup/nodes/Element;->L1()Lorg/jsoup/nodes/Element;
 
     move-result-object p2
 
-    .line 2
     :goto_0
     iget-object v1, p0, Lorg/jsoup/select/g;->a:Lorg/jsoup/select/c;
 
@@ -63,7 +59,6 @@
 
     return v0
 
-    .line 3
     :cond_2
     invoke-virtual {p2}, Lorg/jsoup/nodes/Element;->L1()Lorg/jsoup/nodes/Element;
 
@@ -79,7 +74,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lorg/jsoup/select/g;->a:Lorg/jsoup/select/c;
 
     const/4 v2, 0x0

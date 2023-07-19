@@ -51,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
@@ -64,10 +63,8 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->y(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
@@ -82,7 +79,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
@@ -97,7 +93,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;
 
@@ -109,7 +104,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;->I(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/EffectSuspendFunction;)V
 
-    .line 6
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;
 
@@ -117,14 +111,12 @@
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;)V
 
-    .line 7
     new-instance p1, Ljava/util/HashMap;
 
     const/4 v1, 0x4
 
     invoke-direct {p1, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
@@ -145,22 +137,18 @@
 
     const-string v2, "\u70b9\u51fb\u786e\u8ba4"
 
-    .line 9
     invoke-virtual {p1, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "\u65f6\u673a"
 
     const-string v2, "Look"
 
-    .line 10
     invoke-virtual {p1, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "selfie_cancel_ar"
 
-    .line 11
     invoke-static {v1, p1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

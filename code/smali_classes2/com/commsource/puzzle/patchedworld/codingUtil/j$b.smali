@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/puzzle/patchedworld/codingUtil/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/j$b;->a:Lcom/commsource/puzzle/patchedworld/codingUtil/j;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +45,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -65,7 +63,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/j$b;->a:Lcom/commsource/puzzle/patchedworld/codingUtil/j;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/codingUtil/j;->d:Lcom/commsource/puzzle/patchedworld/codingUtil/f;

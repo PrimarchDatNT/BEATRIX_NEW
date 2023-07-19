@@ -69,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/statistics/FirebaseTestEventOutputController$Companion$writeFileExecutor$2;->invoke()Ljava/util/concurrent/ThreadPoolExecutor;
 
     move-result-object v1
@@ -88,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v8, Ljava/util/concurrent/ThreadPoolExecutor;
 
     sget-object v6, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;

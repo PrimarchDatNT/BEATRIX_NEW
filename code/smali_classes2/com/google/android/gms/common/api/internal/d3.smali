@@ -12,16 +12,12 @@
 .method constructor <init>(Lcom/google/android/gms/common/ConnectionResult;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/d3;->b:Lcom/google/android/gms/common/ConnectionResult;
 
-    .line 4
     iput p2, p0, Lcom/google/android/gms/common/api/internal/d3;->a:I
 
     return-void
@@ -32,7 +28,6 @@
 .method final a()Lcom/google/android/gms/common/ConnectionResult;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/d3;->b:Lcom/google/android/gms/common/ConnectionResult;
 
     return-object v0
@@ -41,7 +36,6 @@
 .method final b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/api/internal/d3;->a:I
 
     return v0

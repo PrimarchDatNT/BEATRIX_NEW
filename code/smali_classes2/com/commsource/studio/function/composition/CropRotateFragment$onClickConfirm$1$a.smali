@@ -46,12 +46,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1$a;->a:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1$a;->b:Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1;
 
     iget-object v2, v1, Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/composition/CropRotateFragment;
@@ -72,7 +70,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1$a;->b:Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1;
 
@@ -80,7 +77,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->U()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

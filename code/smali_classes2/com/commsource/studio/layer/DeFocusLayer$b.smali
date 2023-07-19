@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$b;->a:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DeFocusLayer;->B0(Lcom/commsource/studio/layer/DeFocusLayer;)Lcom/commsource/studio/layer/n;
@@ -75,7 +74,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/n;->r(F)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$b;->a:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DeFocusLayer;->C0(Lcom/commsource/studio/layer/DeFocusLayer;)Lcom/commsource/studio/layer/o;
@@ -88,7 +86,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/o;->n(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$b;->a:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DeFocusLayer;->z0(Lcom/commsource/studio/layer/DeFocusLayer;)Lcom/meitu/core/processor/ImageSegment;
@@ -103,7 +100,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/core/processor/ImageSegment;->setBrushRadius(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer$b;->a:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
@@ -112,7 +108,6 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -125,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Float;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/DeFocusLayer$b;->a(Ljava/lang/Float;)V

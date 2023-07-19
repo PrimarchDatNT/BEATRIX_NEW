@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,29 +25,23 @@
 
     if-nez p3, :cond_0
 
-    .line 1
     invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     sget-object p1, Lcom/meitu/media/mtmvcore/MTMVConfig;->sJavaLogCallback:Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {p1, v1, p2}, Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;->injectLogfunc(ILjava/lang/String;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p1, p2, p3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 5
     sget-object p1, Lcom/meitu/media/mtmvcore/MTMVConfig;->sJavaLogCallback:Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;
 
     if-eqz p1, :cond_1
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -71,7 +64,6 @@
 
     invoke-interface {p1, v1, p2}, Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;->injectLogfunc(ILjava/lang/String;)V
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -90,29 +82,23 @@
 
     if-nez p3, :cond_0
 
-    .line 1
     invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     sget-object p1, Lcom/meitu/media/mtmvcore/MTMVConfig;->sJavaLogCallback:Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {p1, v1, p2}, Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;->injectLogfunc(ILjava/lang/String;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p1, p2, p3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 5
     sget-object p1, Lcom/meitu/media/mtmvcore/MTMVConfig;->sJavaLogCallback:Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;
 
     if-eqz p1, :cond_1
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -135,7 +121,6 @@
 
     invoke-interface {p1, v1, p2}, Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;->injectLogfunc(ILjava/lang/String;)V
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -154,29 +139,23 @@
 
     if-nez p3, :cond_0
 
-    .line 1
     invoke-static {p1, p2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     sget-object p1, Lcom/meitu/media/mtmvcore/MTMVConfig;->sJavaLogCallback:Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {p1, v1, p2}, Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;->injectLogfunc(ILjava/lang/String;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p1, p2, p3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 5
     sget-object p1, Lcom/meitu/media/mtmvcore/MTMVConfig;->sJavaLogCallback:Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;
 
     if-eqz p1, :cond_1
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -199,7 +178,6 @@
 
     invoke-interface {p1, v1, p2}, Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;->injectLogfunc(ILjava/lang/String;)V
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -218,29 +196,23 @@
 
     if-nez p3, :cond_0
 
-    .line 1
     invoke-static {p1, p2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     sget-object p1, Lcom/meitu/media/mtmvcore/MTMVConfig;->sJavaLogCallback:Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {p1, v1, p2}, Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;->injectLogfunc(ILjava/lang/String;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p1, p2, p3}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 5
     sget-object p1, Lcom/meitu/media/mtmvcore/MTMVConfig;->sJavaLogCallback:Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;
 
     if-eqz p1, :cond_1
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -263,7 +235,6 @@
 
     invoke-interface {p1, v1, p2}, Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;->injectLogfunc(ILjava/lang/String;)V
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -282,29 +253,23 @@
 
     if-nez p3, :cond_0
 
-    .line 1
     invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     sget-object p1, Lcom/meitu/media/mtmvcore/MTMVConfig;->sJavaLogCallback:Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {p1, v1, p2}, Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;->injectLogfunc(ILjava/lang/String;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p1, p2, p3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 5
     sget-object p1, Lcom/meitu/media/mtmvcore/MTMVConfig;->sJavaLogCallback:Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;
 
     if-eqz p1, :cond_1
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -327,7 +292,6 @@
 
     invoke-interface {p1, v1, p2}, Lcom/meitu/media/mtmvcore/MTMVConfig$InjectJavaLogCallback;->injectLogfunc(ILjava/lang/String;)V
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

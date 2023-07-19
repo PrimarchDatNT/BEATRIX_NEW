@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/doodle/j;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/store/doodle/DoodleStoreActivity$h;->b(ILcom/commsource/studio/doodle/j;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/store/doodle/DoodleStoreActivity$h;->a:Lcom/commsource/store/doodle/DoodleStoreActivity;
 
     const-string v1, "entity"
@@ -82,7 +80,6 @@
 
     invoke-static {v0, p2}, Lcom/commsource/store/doodle/DoodleStoreActivity;->R0(Lcom/commsource/store/doodle/DoodleStoreActivity;Lcom/commsource/studio/doodle/j;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

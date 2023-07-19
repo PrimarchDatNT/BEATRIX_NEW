@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/google/common/collect/TreeRangeSet$d;Ljava/util/Iterator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/TreeRangeSet$d$a;->d:Lcom/google/common/collect/TreeRangeSet$d;
 
     iput-object p2, p0, Lcom/google/common/collect/TreeRangeSet$d$a;->c:Ljava/util/Iterator;
@@ -50,7 +49,6 @@
 .method protected bridge synthetic a()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeRangeSet$d$a;->d()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -71,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$d$a;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -80,7 +77,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractIterator;->b()Ljava/lang/Object;
 
     move-result-object v0
@@ -89,7 +85,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$d$a;->c:Ljava/util/Iterator;
 
@@ -99,7 +94,6 @@
 
     check-cast v0, Lcom/google/common/collect/Range;
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/TreeRangeSet$d$a;->d:Lcom/google/common/collect/TreeRangeSet$d;
 
     invoke-static {v1}, Lcom/google/common/collect/TreeRangeSet$d;->c(Lcom/google/common/collect/TreeRangeSet$d;)Lcom/google/common/collect/Range;
@@ -116,7 +110,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractIterator;->b()Ljava/lang/Object;
 
     move-result-object v0
@@ -125,7 +118,6 @@
 
     return-object v0
 
-    .line 6
     :cond_1
     iget-object v1, v0, Lcom/google/common/collect/Range;->upperBound:Lcom/google/common/collect/Cut;
 

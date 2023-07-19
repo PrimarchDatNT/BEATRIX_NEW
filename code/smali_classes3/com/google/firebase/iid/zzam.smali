@@ -11,10 +11,8 @@
 .method public constructor <init>(ILjava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p2}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    .line 2
     iput p1, p0, Lcom/google/firebase/iid/zzam;->zza:I
 
     return-void
@@ -25,7 +23,6 @@
 .method public final zza()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/iid/zzam;->zza:I
 
     return v0

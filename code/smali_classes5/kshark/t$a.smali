@@ -29,19 +29,16 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lkshark/t$a;
 
     invoke-direct {v0}, Lkshark/t$a;-><init>()V
 
     sput-object v0, Lkshark/t$a;->b:Lkshark/t$a;
 
-    .line 2
     new-instance v0, Lkshark/t$a$a;
 
     invoke-direct {v0}, Lkshark/t$a$a;-><init>()V
 
-    .line 3
     sput-object v0, Lkshark/t$a;->a:Lkshark/t;
 
     return-void
@@ -50,7 +47,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,7 +59,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lkshark/t$a;->a:Lkshark/t;
 
     return-object v0
@@ -97,7 +92,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lkshark/t$a$b;
 
     invoke-direct {v0, p1}, Lkshark/t$a$b;-><init>(Lcotlin/jvm/u/l;)V

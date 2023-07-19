@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/entity/HomeContentRepository$b$a;->a:Lcom/commsource/home/entity/HomeContentRepository$b;
 
     iget-object v1, v1, Lcom/commsource/home/entity/HomeContentRepository$b;->g:Lcom/commsource/home/entity/HomeContentRepository;

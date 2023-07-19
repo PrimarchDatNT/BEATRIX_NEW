@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,12 +29,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/d/i/l;->c(Landroid/content/Context;)Lcom/commsource/util/common/l;
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -64,10 +61,8 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0, v2, p1}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -80,12 +75,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/d/i/l;->c(Landroid/content/Context;)Lcom/commsource/util/common/l;
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -114,10 +107,8 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0, v2, p1}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -135,12 +126,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lf/d/i/l;->d:Lcom/commsource/util/common/l;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/util/common/l;
 
     const-string v3, "PUSHCONFIG"
@@ -149,7 +138,6 @@
 
     sput-object v2, Lf/d/i/l;->d:Lcom/commsource/util/common/l;
 
-    .line 3
     :cond_0
     sget-object p0, Lf/d/i/l;->d:Lcom/commsource/util/common/l;
 
@@ -176,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/d/i/l;->c(Landroid/content/Context;)Lcom/commsource/util/common/l;
 
     move-result-object p0
@@ -191,7 +178,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -236,7 +222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/d/i/l;->c(Landroid/content/Context;)Lcom/commsource/util/common/l;
 
     move-result-object p0
@@ -251,7 +236,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

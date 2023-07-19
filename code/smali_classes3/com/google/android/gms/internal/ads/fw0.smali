@@ -15,25 +15,21 @@
 
     return v0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/ads/fw0;->d(Landroid/database/sqlite/SQLiteDatabase;I)Landroid/database/Cursor;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Landroid/database/Cursor;->getCount()I
 
     move-result p1
 
     if-lez p1, :cond_1
 
-    .line 3
     invoke-interface {p0}, Landroid/database/Cursor;->moveToNext()Z
 
     const-string p1, "value"
 
-    .line 4
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result p1
@@ -44,7 +40,6 @@
 
     add-int/2addr v0, p1
 
-    .line 5
     :cond_1
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
@@ -64,14 +59,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     const-string v1, "serialized_proto_data"
 
-    .line 2
     filled-new-array {v1}, [Ljava/lang/String;
 
     move-result-object v4
@@ -90,12 +83,10 @@
 
     move-object v2, p0
 
-    .line 3
     invoke-virtual/range {v2 .. v9}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object p0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Landroid/database/Cursor;->moveToNext()Z
 
@@ -103,7 +94,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-interface {p0, v1}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result v2
@@ -112,13 +102,11 @@
 
     move-result-object v2
 
-    .line 6
     :try_start_0
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/zzty$zzo$a;->e0([B)Lcom/google/android/gms/internal/ads/zzty$zzo$a;
 
     move-result-object v2
 
-    .line 7
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
     :try_end_0
     .catch Lcom/google/android/gms/internal/ads/zzegl; {:try_start_0 .. :try_end_0} :catch_0
@@ -130,10 +118,8 @@
 
     const-string v3, "Unable to deserialize proto from offline signals database:"
 
-    .line 8
     invoke-static {v3}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v2}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v2
@@ -142,7 +128,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
@@ -154,12 +139,10 @@
 
     const/4 p1, 0x2
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/ads/fw0;->d(Landroid/database/sqlite/SQLiteDatabase;I)Landroid/database/Cursor;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Landroid/database/Cursor;->getCount()I
 
     move-result p1
@@ -168,12 +151,10 @@
 
     if-lez p1, :cond_0
 
-    .line 3
     invoke-interface {p0}, Landroid/database/Cursor;->moveToNext()Z
 
     const-string p1, "value"
 
-    .line 4
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result p1
@@ -184,7 +165,6 @@
 
     add-long/2addr v0, v2
 
-    .line 5
     :cond_0
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
@@ -196,7 +176,6 @@
 
     const-string v0, "value"
 
-    .line 1
     filled-new-array {v0}, [Ljava/lang/String;
 
     move-result-object v3
@@ -249,7 +228,6 @@
 
     move-object v1, p0
 
-    .line 2
     invoke-virtual/range {v1 .. v8}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object p0

@@ -31,7 +31,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/firestore/proto/d;->ah()Lcom/google/firebase/firestore/proto/d;
 
     move-result-object v0
@@ -44,7 +43,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/firestore/proto/d$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/proto/d$b;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 .method public N1()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firebase/firestore/proto/d;
@@ -70,10 +67,8 @@
 .method public Qg()Lcom/google/firebase/firestore/proto/d$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firebase/firestore/proto/d;
@@ -86,10 +81,8 @@
 .method public Rg()Lcom/google/firebase/firestore/proto/d$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firebase/firestore/proto/d;
@@ -102,10 +95,8 @@
 .method public Sg(I)Lcom/google/firebase/firestore/proto/d$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firebase/firestore/proto/d;
@@ -118,10 +109,8 @@
 .method public Tg(Lcom/google/protobuf/ByteString;)Lcom/google/firebase/firestore/proto/d$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firebase/firestore/proto/d;
@@ -134,7 +123,6 @@
 .method public za()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/firebase/firestore/proto/d;

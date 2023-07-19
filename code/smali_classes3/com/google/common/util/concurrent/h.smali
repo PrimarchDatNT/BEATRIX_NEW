@@ -55,7 +55,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     const-class v0, Lcom/google/common/util/concurrent/h;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -70,7 +69,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     :try_start_0
     new-instance v1, Lcom/google/common/util/concurrent/h$c;
 
@@ -80,7 +78,6 @@
 
     const-string v4, "K"
 
-    .line 3
     invoke-static {v2, v3, v4}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->newUpdater(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     move-result-object v2
@@ -89,7 +86,6 @@
 
     const-string v4, "L"
 
-    .line 4
     invoke-static {v3, v4}, Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;->newUpdater(Ljava/lang/Class;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     move-result-object v3
@@ -103,7 +99,6 @@
     :catchall_0
     move-exception v1
 
-    .line 5
     new-instance v2, Lcom/google/common/util/concurrent/h$d;
 
     invoke-direct {v2, v0}, Lcom/google/common/util/concurrent/h$d;-><init>(Lcom/google/common/util/concurrent/h$a;)V
@@ -112,13 +107,11 @@
 
     move-object v1, v2
 
-    .line 6
     :goto_0
     sput-object v1, Lcom/google/common/util/concurrent/h;->M:Lcom/google/common/util/concurrent/h$b;
 
     if-eqz v0, :cond_0
 
-    .line 7
     sget-object v1, Lcom/google/common/util/concurrent/h;->N:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
@@ -134,15 +127,12 @@
 .method constructor <init>(I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/AbstractFuture$i;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/common/util/concurrent/h;->K:Ljava/util/Set;
 
-    .line 3
     iput p1, p0, Lcom/google/common/util/concurrent/h;->L:I
 
     return-void
@@ -151,7 +141,6 @@
 .method static synthetic G(Lcom/google/common/util/concurrent/h;)Ljava/util/Set;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/util/concurrent/h;->K:Ljava/util/Set;
 
     return-object p0
@@ -160,7 +149,6 @@
 .method static synthetic H(Lcom/google/common/util/concurrent/h;Ljava/util/Set;)Ljava/util/Set;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/h;->K:Ljava/util/Set;
 
     return-object p1
@@ -169,7 +157,6 @@
 .method static synthetic I(Lcom/google/common/util/concurrent/h;)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/util/concurrent/h;->L:I
 
     add-int/lit8 v0, v0, -0x1
@@ -197,7 +184,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/common/util/concurrent/h;->K:Ljava/util/Set;
 
     return-void
@@ -206,7 +192,6 @@
 .method final L()I
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/util/concurrent/h;->M:Lcom/google/common/util/concurrent/h$b;
 
     invoke-virtual {v0, p0}, Lcom/google/common/util/concurrent/h$b;->b(Lcom/google/common/util/concurrent/h;)I
@@ -227,27 +212,22 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/h;->K:Ljava/util/Set;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Sets;->p()Ljava/util/Set;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/google/common/util/concurrent/h;->J(Ljava/util/Set;)V
 
-    .line 4
     sget-object v1, Lcom/google/common/util/concurrent/h;->M:Lcom/google/common/util/concurrent/h$b;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, p0, v2, v0}, Lcom/google/common/util/concurrent/h$b;->a(Lcom/google/common/util/concurrent/h;Ljava/util/Set;Ljava/util/Set;)V
 
-    .line 5
     iget-object v0, p0, Lcom/google/common/util/concurrent/h;->K:Ljava/util/Set;
 
     :cond_0

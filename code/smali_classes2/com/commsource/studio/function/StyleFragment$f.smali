@@ -59,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$f;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/StyleFragment;->b2()Lcom/commsource/studio/effect/w;
@@ -68,14 +67,12 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/effect/w;->u(Lcom/commsource/studio/bean/f;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$f;->a:Lcom/commsource/studio/function/StyleFragment;
 
     const/4 v2, 0x0
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->d()I
 
     move-result v3
@@ -84,7 +81,6 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/function/StyleFragment$f;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-virtual {v3}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -127,12 +123,10 @@
 
     const/4 v5, 0x0
 
-    .line 5
     invoke-static {v1, v3, v2, v4, v5}, Lcom/commsource/studio/function/BaseSubFragment;->y1(Lcom/commsource/studio/function/BaseSubFragment;IZILjava/lang/Object;)V
 
     if-eqz p1, :cond_4
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
     move-result-object v1
@@ -145,7 +139,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$f;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/StyleFragment;->f2()Lcom/commsource/studio/processor/StyleProcessor;
@@ -168,7 +161,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->a()Ljava/util/LinkedHashMap;
 
@@ -176,7 +168,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 9
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v1
@@ -198,7 +189,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/studio/function/StyleFragment$f;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -221,7 +211,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$f;->a:Lcom/commsource/studio/function/StyleFragment;
 
@@ -243,7 +232,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/processor/StyleProcessor;->C0(Lcom/commsource/studio/processor/StyleProcessor;Lcom/commsource/studio/bean/f;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 12
     :cond_3
     :goto_2
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
@@ -254,10 +242,8 @@
 
     const-string v2, "style_id"
 
-    .line 13
     invoke-static {v1, v2, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -271,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/bean/f;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/StyleFragment$f;->a(Lcom/commsource/studio/bean/f;)V

@@ -32,7 +32,6 @@
 
     new-array v0, v0, [B
 
-    .line 1
     sput-object v0, Lcom/google/android/gms/internal/ads/db2;->g:[B
 
     return-void
@@ -41,23 +40,18 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/of2;JJ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/db2;->a:Lcom/google/android/gms/internal/ads/of2;
 
-    .line 3
     iput-wide p2, p0, Lcom/google/android/gms/internal/ads/db2;->c:J
 
-    .line 4
     iput-wide p4, p0, Lcom/google/android/gms/internal/ads/db2;->b:J
 
     const/high16 p1, 0x10000
 
     new-array p1, p1, [B
 
-    .line 5
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/db2;->d:[B
 
     return-void
@@ -72,14 +66,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/lang/Thread;->interrupted()Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/db2;->a:Lcom/google/android/gms/internal/ads/of2;
 
     add-int/2addr p2, p4
@@ -100,7 +92,6 @@
 
     return p2
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/io/EOFException;
 
@@ -113,7 +104,6 @@
 
     return p4
 
-    .line 4
     :cond_2
     new-instance p1, Ljava/lang/InterruptedException;
 
@@ -125,14 +115,12 @@
 .method private final b(I)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/db2;->f:I
 
     invoke-static {v0, p1}, Ljava/lang/Math;->min(II)I
 
     move-result p1
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/db2;->c(I)V
 
     return p1
@@ -141,7 +129,6 @@
 .method private final c(I)V
     .locals 5
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/db2;->f:I
 
     sub-int/2addr v0, p1
@@ -150,13 +137,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iput v1, p0, Lcom/google/android/gms/internal/ads/db2;->e:I
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/db2;->d:[B
 
-    .line 4
     array-length v3, v2
 
     const/high16 v4, 0x80000
@@ -169,7 +153,6 @@
 
     add-int/2addr v3, v0
 
-    .line 5
     new-array v3, v3, [B
 
     goto :goto_0
@@ -177,11 +160,9 @@
     :cond_0
     move-object v3, v2
 
-    .line 6
     :goto_0
     invoke-static {v2, p1, v3, v1, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 7
     iput-object v3, p0, Lcom/google/android/gms/internal/ads/db2;->d:[B
 
     return-void
@@ -194,7 +175,6 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/db2;->c:J
 
     int-to-long v2, p1
@@ -210,7 +190,6 @@
 .method private final e([BII)I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/db2;->f:I
 
     const/4 v1, 0x0
@@ -219,18 +198,15 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {v0, p3}, Ljava/lang/Math;->min(II)I
 
     move-result p3
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/db2;->d:[B
 
     invoke-static {v0, v1, p1, p2, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 4
     invoke-direct {p0, p3}, Lcom/google/android/gms/internal/ads/db2;->c(I)V
 
     return p3
@@ -245,12 +221,10 @@
         }
     .end annotation
 
-    .line 1
     iget p2, p0, Lcom/google/android/gms/internal/ads/db2;->e:I
 
     add-int/2addr p2, p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/db2;->d:[B
 
     array-length v1, v0
@@ -259,7 +233,6 @@
 
     if-le p2, v1, :cond_0
 
-    .line 3
     array-length v0, v0
 
     shl-int/2addr v0, v2
@@ -276,7 +249,6 @@
 
     move-result p2
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/db2;->d:[B
 
     invoke-static {v0, p2}, Ljava/util/Arrays;->copyOf([BI)[B
@@ -285,7 +257,6 @@
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/db2;->d:[B
 
-    .line 5
     :cond_0
     iget p2, p0, Lcom/google/android/gms/internal/ads/db2;->f:I
 
@@ -302,7 +273,6 @@
     :cond_1
     if-ge v7, p1, :cond_2
 
-    .line 6
     iget-object v4, p0, Lcom/google/android/gms/internal/ads/db2;->d:[B
 
     iget v5, p0, Lcom/google/android/gms/internal/ads/db2;->e:I
@@ -325,7 +295,6 @@
 
     return p1
 
-    .line 7
     :cond_2
     iget p2, p0, Lcom/google/android/gms/internal/ads/db2;->e:I
 
@@ -333,7 +302,6 @@
 
     iput p2, p0, Lcom/google/android/gms/internal/ads/db2;->e:I
 
-    .line 8
     iget p1, p0, Lcom/google/android/gms/internal/ads/db2;->f:I
 
     invoke-static {p1, p2}, Ljava/lang/Math;->max(II)I
@@ -356,7 +324,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/db2;->e([BII)I
 
     move-result v0
@@ -380,14 +347,12 @@
 
     move v6, p4
 
-    .line 2
     invoke-direct/range {v1 .. v6}, Lcom/google/android/gms/internal/ads/db2;->a([BIIIZ)I
 
     move-result v5
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0, v5}, Lcom/google/android/gms/internal/ads/db2;->d(I)V
 
@@ -406,7 +371,6 @@
 .method public final getLength()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/db2;->b:J
 
     return-wide v0
@@ -415,7 +379,6 @@
 .method public final getPosition()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/db2;->c:J
 
     return-wide v0
@@ -430,7 +393,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/db2;->e([BII)I
 
     move-result v0
@@ -449,12 +411,10 @@
 
     move v4, p3
 
-    .line 2
     invoke-direct/range {v1 .. v6}, Lcom/google/android/gms/internal/ads/db2;->a([BIIIZ)I
 
     move-result v0
 
-    .line 3
     :cond_0
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/db2;->d(I)V
 
@@ -472,7 +432,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3, v0}, Lcom/google/android/gms/internal/ads/db2;->A([BIIZ)Z
 
     return-void
@@ -483,7 +442,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/google/android/gms/internal/ads/db2;->e:I
 
     return-void
@@ -500,7 +458,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p3, v0}, Lcom/google/android/gms/internal/ads/db2;->f(IZ)Z
 
     move-result v0
@@ -509,7 +466,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/db2;->d:[B
 
@@ -532,7 +488,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/db2;->b(I)I
 
     move-result v0
@@ -546,7 +501,6 @@
 
     if-eq v5, v0, :cond_0
 
-    .line 2
     sget-object v2, Lcom/google/android/gms/internal/ads/db2;->g:[B
 
     neg-int v3, v5
@@ -555,7 +509,6 @@
 
     add-int/2addr v0, v5
 
-    .line 3
     invoke-static {p1, v0}, Ljava/lang/Math;->min(II)I
 
     move-result v4
@@ -564,14 +517,12 @@
 
     move-object v1, p0
 
-    .line 4
     invoke-direct/range {v1 .. v6}, Lcom/google/android/gms/internal/ads/db2;->a([BIIIZ)I
 
     move-result v5
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-direct {p0, v5}, Lcom/google/android/gms/internal/ads/db2;->d(I)V
 
@@ -589,7 +540,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/ads/db2;->f(IZ)Z
 
     return-void
@@ -604,21 +554,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/db2;->b(I)I
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v2, Lcom/google/android/gms/internal/ads/db2;->g:[B
 
     const/4 v3, 0x0
 
     array-length v0, v2
 
-    .line 3
     invoke-static {p1, v0}, Ljava/lang/Math;->min(II)I
 
     move-result v4
@@ -633,7 +580,6 @@
 
     move-result v0
 
-    .line 4
     :cond_0
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/db2;->d(I)V
 

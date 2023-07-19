@@ -50,7 +50,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/ImageTranslateView$a;->a:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -65,7 +64,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/ImageTranslateView$a;->b:Lcom/commsource/widget/ImageTranslateView;
 
     invoke-virtual {v1}, Lcom/commsource/widget/ImageTranslateView;->getOriginRectF()Landroid/graphics/RectF;
@@ -74,7 +72,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/widget/ImageTranslateView;->c(Lcom/commsource/widget/ImageTranslateView;Landroid/graphics/RectF;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/ImageTranslateView$a;->b:Lcom/commsource/widget/ImageTranslateView;
 
     invoke-virtual {v1}, Lcom/commsource/widget/ImageTranslateView;->getTargetRectF()Landroid/graphics/RectF;
@@ -83,7 +80,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/widget/ImageTranslateView;->c(Lcom/commsource/widget/ImageTranslateView;Landroid/graphics/RectF;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/ImageTranslateView$a;->b:Lcom/commsource/widget/ImageTranslateView;
 
     invoke-virtual {v1}, Lcom/commsource/widget/ImageTranslateView;->getAnimateRectF()Landroid/graphics/RectF;
@@ -112,7 +108,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->left:F
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/ImageTranslateView$a;->b:Lcom/commsource/widget/ImageTranslateView;
 
     invoke-virtual {v1}, Lcom/commsource/widget/ImageTranslateView;->getAnimateRectF()Landroid/graphics/RectF;
@@ -141,7 +136,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->right:F
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/ImageTranslateView$a;->b:Lcom/commsource/widget/ImageTranslateView;
 
     invoke-virtual {v1}, Lcom/commsource/widget/ImageTranslateView;->getAnimateRectF()Landroid/graphics/RectF;
@@ -170,7 +164,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->top:F
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/ImageTranslateView$a;->b:Lcom/commsource/widget/ImageTranslateView;
 
     invoke-virtual {v1}, Lcom/commsource/widget/ImageTranslateView;->getAnimateRectF()Landroid/graphics/RectF;
@@ -199,7 +192,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->bottom:F
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/ImageTranslateView$a;->b:Lcom/commsource/widget/ImageTranslateView;
 
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
@@ -210,7 +202,6 @@
 
     if-nez v0, :cond_1
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/widget/ImageTranslateView$a;->c:Lcotlin/jvm/u/a;
 
     if-eqz v0, :cond_0
@@ -221,19 +212,16 @@
 
     check-cast v0, Lcotlin/t1;
 
-    .line 10
     :cond_0
     iget-object v0, p0, Lcom/commsource/widget/ImageTranslateView$a;->b:Lcom/commsource/widget/ImageTranslateView;
 
     invoke-static {v0}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 11
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_2
     new-instance v0, Lcotlin/TypeCastException;
 

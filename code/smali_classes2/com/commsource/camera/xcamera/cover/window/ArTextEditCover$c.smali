@@ -32,7 +32,6 @@
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$c;->b:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,12 +54,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$c;->a:Lcom/commsource/camera/i0;
 
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$c;->b:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -69,7 +66,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->Z2(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -82,12 +78,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$c;->a:Lcom/commsource/camera/i0;
 
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

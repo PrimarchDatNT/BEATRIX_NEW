@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/AutoCameraActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$c;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;->getModel()Lcom/commsource/material/download/SegmentModel;
 
     move-result-object p1
@@ -63,12 +61,10 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$c;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
@@ -90,7 +86,6 @@
 
     if-nez p1, :cond_2
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$c;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
@@ -104,7 +99,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -118,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;
 
     invoke-virtual {p0, p1}, Lcom/commsource/autocamera/AutoCameraActivity$c;->a(Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;)Lcotlin/t1;

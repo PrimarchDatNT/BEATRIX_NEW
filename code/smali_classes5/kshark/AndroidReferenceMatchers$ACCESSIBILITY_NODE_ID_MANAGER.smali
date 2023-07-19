@@ -27,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lkshark/AndroidReferenceMatchers;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
@@ -54,10 +53,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lkshark/AndroidReferenceMatchers;->Companion:Lkshark/AndroidReferenceMatchers$Companion;
 
-    .line 2
     sget-object v1, Lkshark/AndroidReferenceMatchers$ACCESSIBILITY_NODE_ID_MANAGER$add$1;->INSTANCE:Lkshark/AndroidReferenceMatchers$ACCESSIBILITY_NODE_ID_MANAGER$add$1;
 
     const-string v2, "android.view.accessibility.AccessibilityNodeIdManager"
@@ -66,7 +63,6 @@
 
     const-string v4, "Android Q Beta added AccessibilityNodeIdManager which stores all views from their\nonAttachedToWindow() call, until detached. Unfortunately it\'s possible to trigger\nthe view framework to call detach before attach (by having a view removing itself\nfrom its parent in onAttach, which then causes AccessibilityNodeIdManager to keep\nchildren view forever. Future releases of Q will hold weak references."
 
-    .line 3
     invoke-virtual {v0, v2, v3, v4, v1}, Lkshark/AndroidReferenceMatchers$Companion;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object v0

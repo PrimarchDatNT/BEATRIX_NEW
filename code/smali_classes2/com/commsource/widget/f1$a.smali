@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/f1$a;-><init>()V
 
     return-void
@@ -53,7 +51,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     move-result v1
@@ -84,26 +81,20 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/f1;
 
     invoke-direct {v1}, Lcom/commsource/widget/f1;-><init>()V
 
-    .line 2
     invoke-static {v1, p3}, Lcom/commsource/widget/f1;->g(Lcom/commsource/widget/f1;I)V
 
-    .line 3
     invoke-static {v1, p2}, Lcom/commsource/widget/f1;->h(Lcom/commsource/widget/f1;I)V
 
-    .line 4
     invoke-static {v1, p1}, Lcom/commsource/widget/f1;->j(Lcom/commsource/widget/f1;Landroid/view/View;)V
 
     const/4 p1, 0x1
 
-    .line 5
     invoke-static {v1, p1}, Lcom/commsource/widget/f1;->i(Lcom/commsource/widget/f1;I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -126,15 +117,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/f1;
 
     invoke-direct {v1}, Lcom/commsource/widget/f1;-><init>()V
 
-    .line 2
     invoke-static {v1, p2}, Lcom/commsource/widget/f1;->g(Lcom/commsource/widget/f1;I)V
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p2
@@ -147,20 +135,16 @@
 
     invoke-static {v1, p2}, Lcom/commsource/widget/f1;->h(Lcom/commsource/widget/f1;I)V
 
-    .line 4
     invoke-static {v1, p1}, Lcom/commsource/widget/f1;->j(Lcom/commsource/widget/f1;Landroid/view/View;)V
 
     const/4 p1, 0x2
 
-    .line 5
     invoke-static {v1, p1}, Lcom/commsource/widget/f1;->i(Lcom/commsource/widget/f1;I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 7
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -190,7 +174,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result v1
@@ -221,26 +204,20 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/f1;
 
     invoke-direct {v1}, Lcom/commsource/widget/f1;-><init>()V
 
-    .line 2
     invoke-static {v1, p3}, Lcom/commsource/widget/f1;->g(Lcom/commsource/widget/f1;I)V
 
-    .line 3
     invoke-static {v1, p2}, Lcom/commsource/widget/f1;->h(Lcom/commsource/widget/f1;I)V
 
-    .line 4
     invoke-static {v1, p1}, Lcom/commsource/widget/f1;->j(Lcom/commsource/widget/f1;Landroid/view/View;)V
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v1, p1}, Lcom/commsource/widget/f1;->i(Lcom/commsource/widget/f1;I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

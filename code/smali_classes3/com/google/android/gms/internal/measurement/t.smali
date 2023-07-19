@@ -21,7 +21,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/measurement/qc;ZILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/t;->L:Lcom/google/android/gms/internal/measurement/qc;
 
     const/4 p2, 0x5
@@ -55,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/t;->L:Lcom/google/android/gms/internal/measurement/qc;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/measurement/qc;->O(Lcom/google/android/gms/internal/measurement/qc;)Lcom/google/android/gms/internal/measurement/ma;
@@ -68,26 +66,22 @@
 
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/t;->p:Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v4
 
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/t;->J:Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v5
 
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/t;->K:Ljava/lang/Object;
 
-    .line 4
     invoke-static {v0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v6
 
-    .line 5
     invoke-interface/range {v1 .. v6}, Lcom/google/android/gms/internal/measurement/ma;->logHealthData(ILjava/lang/String;Lcom/google/android/gms/dynamic/d;Lcom/google/android/gms/dynamic/d;Lcom/google/android/gms/dynamic/d;)V
 
     return-void

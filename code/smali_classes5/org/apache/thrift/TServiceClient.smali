@@ -15,7 +15,6 @@
 .method public constructor <init>(Lorg/apache/thrift/protocol/TProtocol;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p1}, Lorg/apache/thrift/TServiceClient;-><init>(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)V
 
     return-void
@@ -24,13 +23,10 @@
 .method public constructor <init>(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lorg/apache/thrift/TServiceClient;->iprot_:Lorg/apache/thrift/protocol/TProtocol;
 
-    .line 4
     iput-object p2, p0, Lorg/apache/thrift/TServiceClient;->oprot_:Lorg/apache/thrift/protocol/TProtocol;
 
     return-void
@@ -53,7 +49,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/TServiceClient;->oprot_:Lorg/apache/thrift/protocol/TProtocol;
 
     new-instance v1, Lorg/apache/thrift/protocol/TMessage;
@@ -68,17 +63,14 @@
 
     invoke-virtual {v0, v1}, Lorg/apache/thrift/protocol/TProtocol;->writeMessageBegin(Lorg/apache/thrift/protocol/TMessage;)V
 
-    .line 3
     iget-object p1, p0, Lorg/apache/thrift/TServiceClient;->oprot_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-interface {p2, p1}, Lorg/apache/thrift/TSerializable;->write(Lorg/apache/thrift/protocol/TProtocol;)V
 
-    .line 4
     iget-object p1, p0, Lorg/apache/thrift/TServiceClient;->oprot_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->writeMessageEnd()V
 
-    .line 5
     iget-object p1, p0, Lorg/apache/thrift/TServiceClient;->oprot_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->getTransport()Lorg/apache/thrift/transport/TTransport;
@@ -95,7 +87,6 @@
 .method public getInputProtocol()Lorg/apache/thrift/protocol/TProtocol;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/TServiceClient;->iprot_:Lorg/apache/thrift/protocol/TProtocol;
 
     return-object v0
@@ -104,7 +95,6 @@
 .method public getOutputProtocol()Lorg/apache/thrift/protocol/TProtocol;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/TServiceClient;->oprot_:Lorg/apache/thrift/protocol/TProtocol;
 
     return-object v0
@@ -128,40 +118,34 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/TServiceClient;->iprot_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->readMessageBegin()Lorg/apache/thrift/protocol/TMessage;
 
     move-result-object v0
 
-    .line 2
     iget-byte v1, v0, Lorg/apache/thrift/protocol/TMessage;->type:B
 
     const/4 v2, 0x3
 
     if-eq v1, v2, :cond_1
 
-    .line 3
     iget v1, v0, Lorg/apache/thrift/protocol/TMessage;->seqid:I
 
     iget v3, p0, Lorg/apache/thrift/TServiceClient;->seqid_:I
 
     if-ne v1, v3, :cond_0
 
-    .line 4
     iget-object p2, p0, Lorg/apache/thrift/TServiceClient;->iprot_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-interface {p1, p2}, Lorg/apache/thrift/TSerializable;->read(Lorg/apache/thrift/protocol/TProtocol;)V
 
-    .line 5
     iget-object p1, p0, Lorg/apache/thrift/TServiceClient;->iprot_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readMessageEnd()V
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Lorg/apache/thrift/TApplicationException;
 
@@ -177,7 +161,6 @@
 
     iget v3, p0, Lorg/apache/thrift/TServiceClient;->seqid_:I
 
-    .line 7
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -204,23 +187,19 @@
 
     throw p1
 
-    .line 8
     :cond_1
     new-instance p1, Lorg/apache/thrift/TApplicationException;
 
     invoke-direct {p1}, Lorg/apache/thrift/TApplicationException;-><init>()V
 
-    .line 9
     iget-object p2, p0, Lorg/apache/thrift/TServiceClient;->iprot_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1, p2}, Lorg/apache/thrift/TApplicationException;->read(Lorg/apache/thrift/protocol/TProtocol;)V
 
-    .line 10
     iget-object p2, p0, Lorg/apache/thrift/TServiceClient;->iprot_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p2}, Lorg/apache/thrift/protocol/TProtocol;->readMessageEnd()V
 
-    .line 11
     throw p1
 .end method
 
@@ -243,7 +222,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lorg/apache/thrift/TServiceClient;->sendBase(Ljava/lang/String;Lorg/apache/thrift/TBase;B)V
 
     return-void
@@ -268,7 +246,6 @@
 
     const/4 v0, 0x4
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lorg/apache/thrift/TServiceClient;->sendBase(Ljava/lang/String;Lorg/apache/thrift/TBase;B)V
 
     return-void

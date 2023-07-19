@@ -46,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/sync/d$e$a;->b:Lcotlinx/coroutines/sync/d$e;
 
     invoke-direct {p0}, Lcotlinx/coroutines/internal/v;-><init>()V
@@ -71,7 +70,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/sync/d$e$a;->a:Lcotlinx/coroutines/internal/d;
 
     return-object v0
@@ -86,7 +84,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/sync/d$e$a;->a()Lcotlinx/coroutines/internal/d;
 
     move-result-object v0
@@ -111,7 +108,6 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 2
     check-cast p1, Lcotlinx/coroutines/sync/d;
 
     sget-object v1, Lcotlinx/coroutines/sync/d;->a:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;

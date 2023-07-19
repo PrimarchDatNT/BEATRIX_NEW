@@ -96,14 +96,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/api/j2;
 
     invoke-direct {v0}, Lcom/google/api/j2;-><init>()V
 
     sput-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->ug()V
 
     return-void
@@ -112,10 +110,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageLite;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/protobuf/MapFieldLite;->emptyMapField()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
@@ -124,22 +120,16 @@
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/google/api/j2;->g:Ljava/lang/String;
 
-    .line 4
     iput-object v0, p0, Lcom/google/api/j2;->p:Ljava/lang/String;
 
-    .line 5
     iput-object v0, p0, Lcom/google/api/j2;->M:Ljava/lang/String;
 
-    .line 6
     iput-object v0, p0, Lcom/google/api/j2;->N:Ljava/lang/String;
 
-    .line 7
     iput-object v0, p0, Lcom/google/api/j2;->O:Ljava/lang/String;
 
-    .line 8
     iput-object v0, p0, Lcom/google/api/j2;->Q:Ljava/lang/String;
 
     return-void
@@ -150,7 +140,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     iput-wide v0, p0, Lcom/google/api/j2;->J:J
 
     return-void
@@ -159,7 +148,6 @@
 .method private Bh()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/api/j2;->Jh()Lcom/google/api/j2;
 
     move-result-object v0
@@ -176,7 +164,6 @@
 .method private Ch()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/api/j2;->Jh()Lcom/google/api/j2;
 
     move-result-object v0
@@ -193,7 +180,6 @@
 .method private Dh()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/api/j2;->Jh()Lcom/google/api/j2;
 
     move-result-object v0
@@ -212,7 +198,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     iput-wide v0, p0, Lcom/google/api/j2;->L:J
 
     return-void
@@ -223,7 +208,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     iput-wide v0, p0, Lcom/google/api/j2;->K:J
 
     return-void
@@ -232,7 +216,6 @@
 .method private Gh()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/api/j2;->Jh()Lcom/google/api/j2;
 
     move-result-object v0
@@ -249,7 +232,6 @@
 .method private Hh()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/api/j2;->Jh()Lcom/google/api/j2;
 
     move-result-object v0
@@ -266,7 +248,6 @@
 .method private Ih()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/api/j2;->Jh()Lcom/google/api/j2;
 
     move-result-object v0
@@ -283,7 +264,6 @@
 .method public static Jh()Lcom/google/api/j2;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     return-object v0
@@ -301,7 +281,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Lh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
@@ -321,7 +300,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->P:Lcom/google/protobuf/MapFieldLite;
 
     invoke-virtual {v0}, Lcom/google/protobuf/MapFieldLite;->isMutable()Z
@@ -330,7 +308,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/api/j2;->P:Lcom/google/protobuf/MapFieldLite;
 
     invoke-virtual {v0}, Lcom/google/protobuf/MapFieldLite;->mutableCopy()Lcom/google/protobuf/MapFieldLite;
@@ -339,7 +316,6 @@
 
     iput-object v0, p0, Lcom/google/api/j2;->P:Lcom/google/protobuf/MapFieldLite;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/api/j2;->P:Lcom/google/protobuf/MapFieldLite;
 
@@ -358,7 +334,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->P:Lcom/google/protobuf/MapFieldLite;
 
     return-object v0
@@ -367,7 +342,6 @@
 .method public static Nh()Lcom/google/api/j2$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -382,7 +356,6 @@
 .method public static Oh(Lcom/google/api/j2;)Lcom/google/api/j2$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -408,7 +381,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Ig(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -428,7 +400,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Jg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -448,7 +419,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Kg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -468,7 +438,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Lg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -488,7 +457,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Mg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -508,7 +476,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Ng(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -528,7 +495,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Og(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -548,7 +514,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Pg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -568,7 +533,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Qg(Lcom/google/protobuf/GeneratedMessageLite;[B)Lcom/google/protobuf/GeneratedMessageLite;
@@ -588,7 +552,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Rg(Lcom/google/protobuf/GeneratedMessageLite;[BLcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -611,7 +574,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Qf()Lcom/google/protobuf/s1;
@@ -624,7 +586,6 @@
 .method static synthetic ah()Lcom/google/api/j2;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     return-object v0
@@ -633,7 +594,6 @@
 .method private ai(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/api/j2;->J:J
 
     return-void
@@ -642,7 +602,6 @@
 .method static synthetic bh(Lcom/google/api/j2;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/j2;->li(Ljava/lang/String;)V
 
     return-void
@@ -651,10 +610,8 @@
 .method private bi(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/api/j2;->p:Ljava/lang/String;
 
     return-void
@@ -663,7 +620,6 @@
 .method static synthetic ch(Lcom/google/api/j2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Fh()V
 
     return-void
@@ -672,13 +628,10 @@
 .method private ci(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -691,7 +644,6 @@
 .method static synthetic dh(Lcom/google/api/j2;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/api/j2;->hi(J)V
 
     return-void
@@ -700,10 +652,8 @@
 .method private di(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/api/j2;->Q:Ljava/lang/String;
 
     return-void
@@ -712,7 +662,6 @@
 .method static synthetic eh(Lcom/google/api/j2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Eh()V
 
     return-void
@@ -721,13 +670,10 @@
 .method private ei(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -740,7 +686,6 @@
 .method static synthetic fh(Lcom/google/api/j2;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/j2;->fi(Ljava/lang/String;)V
 
     return-void
@@ -749,10 +694,8 @@
 .method private fi(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/api/j2;->M:Ljava/lang/String;
 
     return-void
@@ -761,7 +704,6 @@
 .method static synthetic gh(Lcom/google/api/j2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Dh()V
 
     return-void
@@ -770,13 +712,10 @@
 .method private gi(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -789,7 +728,6 @@
 .method static synthetic hh(Lcom/google/api/j2;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/j2;->gi(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -798,7 +736,6 @@
 .method private hi(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/api/j2;->L:J
 
     return-void
@@ -807,7 +744,6 @@
 .method static synthetic ih(Lcom/google/api/j2;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/j2;->ji(Ljava/lang/String;)V
 
     return-void
@@ -816,7 +752,6 @@
 .method private ii(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/api/j2;->K:J
 
     return-void
@@ -825,7 +760,6 @@
 .method static synthetic jh(Lcom/google/api/j2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Gh()V
 
     return-void
@@ -834,10 +768,8 @@
 .method private ji(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/api/j2;->N:Ljava/lang/String;
 
     return-void
@@ -846,7 +778,6 @@
 .method static synthetic kh(Lcom/google/api/j2;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/j2;->ki(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -855,13 +786,10 @@
 .method private ki(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -874,7 +802,6 @@
 .method static synthetic lh(Lcom/google/api/j2;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/j2;->ni(Ljava/lang/String;)V
 
     return-void
@@ -883,10 +810,8 @@
 .method private li(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/api/j2;->g:Ljava/lang/String;
 
     return-void
@@ -895,7 +820,6 @@
 .method static synthetic mh(Lcom/google/api/j2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Hh()V
 
     return-void
@@ -904,13 +828,10 @@
 .method private mi(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -923,7 +844,6 @@
 .method static synthetic nh(Lcom/google/api/j2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Ih()V
 
     return-void
@@ -932,10 +852,8 @@
 .method private ni(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/api/j2;->O:Ljava/lang/String;
 
     return-void
@@ -944,7 +862,6 @@
 .method static synthetic oh(Lcom/google/api/j2;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/j2;->oi(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -953,13 +870,10 @@
 .method private oi(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -972,7 +886,6 @@
 .method static synthetic ph(Lcom/google/api/j2;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Kh()Ljava/util/Map;
 
     move-result-object p0
@@ -983,7 +896,6 @@
 .method static synthetic qh(Lcom/google/api/j2;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/j2;->di(Ljava/lang/String;)V
 
     return-void
@@ -992,7 +904,6 @@
 .method static synthetic rh(Lcom/google/api/j2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Ch()V
 
     return-void
@@ -1001,7 +912,6 @@
 .method static synthetic sh(Lcom/google/api/j2;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/j2;->ei(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -1010,7 +920,6 @@
 .method static synthetic th(Lcom/google/api/j2;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/j2;->mi(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -1019,7 +928,6 @@
 .method static synthetic uh(Lcom/google/api/j2;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/j2;->bi(Ljava/lang/String;)V
 
     return-void
@@ -1028,7 +936,6 @@
 .method static synthetic vh(Lcom/google/api/j2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Bh()V
 
     return-void
@@ -1037,7 +944,6 @@
 .method static synthetic wh(Lcom/google/api/j2;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/j2;->ci(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -1046,7 +952,6 @@
 .method static synthetic xh(Lcom/google/api/j2;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/api/j2;->ai(J)V
 
     return-void
@@ -1055,7 +960,6 @@
 .method static synthetic yh(Lcom/google/api/j2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Ah()V
 
     return-void
@@ -1064,7 +968,6 @@
 .method static synthetic zh(Lcom/google/api/j2;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/api/j2;->ii(J)V
 
     return-void
@@ -1075,7 +978,6 @@
 .method public C()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->Q:Ljava/lang/String;
 
     return-object v0
@@ -1093,12 +995,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Mh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
@@ -1109,7 +1009,6 @@
 .method public J9()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->N:Ljava/lang/String;
 
     return-object v0
@@ -1130,7 +1029,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/api/j2;->E3()Ljava/util/Map;
 
     move-result-object v0
@@ -1141,10 +1039,8 @@
 .method public La(Ljava/lang/String;)Z
     .locals 1
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lcom/google/api/j2;->Mh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
@@ -1159,7 +1055,6 @@
 .method public Q()I
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/j2;->Mh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
@@ -1174,7 +1069,6 @@
 .method public S5()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/api/j2;->K:J
 
     return-wide v0
@@ -1183,7 +1077,6 @@
 .method protected final S6(Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 12
 
-    .line 1
     sget-object v0, Lcom/google/api/j2$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1200,14 +1093,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     throw p1
 
-    .line 3
     :pswitch_0
     sget-object p1, Lcom/google/api/j2;->c0:Lcom/google/protobuf/s1;
 
@@ -1217,13 +1108,11 @@
 
     monitor-enter p1
 
-    .line 4
     :try_start_0
     sget-object p2, Lcom/google/api/j2;->c0:Lcom/google/protobuf/s1;
 
     if-nez p2, :cond_0
 
-    .line 5
     new-instance p2, Lcom/google/protobuf/GeneratedMessageLite$c;
 
     sget-object p3, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
@@ -1232,7 +1121,6 @@
 
     sput-object p2, Lcom/google/api/j2;->c0:Lcom/google/protobuf/s1;
 
-    .line 6
     :cond_0
     monitor-exit p1
 
@@ -1247,25 +1135,21 @@
 
     throw p2
 
-    .line 7
     :cond_1
     :goto_0
     sget-object p1, Lcom/google/api/j2;->c0:Lcom/google/protobuf/s1;
 
     return-object p1
 
-    .line 8
     :pswitch_1
     check-cast p2, Lcom/google/protobuf/q;
 
-    .line 9
     check-cast p3, Lcom/google/protobuf/j0;
 
     :cond_2
     :goto_1
     if-nez v1, :cond_4
 
-    .line 10
     :try_start_1
     invoke-virtual {p2}, Lcom/google/protobuf/q;->X()I
 
@@ -1273,25 +1157,21 @@
 
     sparse-switch p1, :sswitch_data_0
 
-    .line 11
     invoke-virtual {p2, p1}, Lcom/google/protobuf/q;->g0(I)Z
 
     move-result p1
 
     goto :goto_3
 
-    .line 12
     :sswitch_0
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 13
     iput-object p1, p0, Lcom/google/api/j2;->Q:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 14
     :sswitch_1
     iget-object p1, p0, Lcom/google/api/j2;->P:Lcom/google/protobuf/MapFieldLite;
 
@@ -1301,7 +1181,6 @@
 
     if-nez p1, :cond_3
 
-    .line 15
     iget-object p1, p0, Lcom/google/api/j2;->P:Lcom/google/protobuf/MapFieldLite;
 
     invoke-virtual {p1}, Lcom/google/protobuf/MapFieldLite;->mutableCopy()Lcom/google/protobuf/MapFieldLite;
@@ -1310,7 +1189,6 @@
 
     iput-object p1, p0, Lcom/google/api/j2;->P:Lcom/google/protobuf/MapFieldLite;
 
-    .line 16
     :cond_3
     sget-object p1, Lcom/google/api/j2$c;->a:Lcom/google/protobuf/h1;
 
@@ -1320,29 +1198,24 @@
 
     goto :goto_1
 
-    .line 17
     :sswitch_2
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 18
     iput-object p1, p0, Lcom/google/api/j2;->O:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 19
     :sswitch_3
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 20
     iput-object p1, p0, Lcom/google/api/j2;->N:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 21
     :sswitch_4
     invoke-virtual {p2}, Lcom/google/protobuf/q;->E()J
 
@@ -1352,29 +1225,24 @@
 
     goto :goto_1
 
-    .line 22
     :sswitch_5
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 23
     iput-object p1, p0, Lcom/google/api/j2;->g:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 24
     :sswitch_6
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 25
     iput-object p1, p0, Lcom/google/api/j2;->M:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 26
     :sswitch_7
     invoke-virtual {p2}, Lcom/google/protobuf/q;->E()J
 
@@ -1384,7 +1252,6 @@
 
     goto :goto_1
 
-    .line 27
     :sswitch_8
     invoke-virtual {p2}, Lcom/google/protobuf/q;->E()J
 
@@ -1394,13 +1261,11 @@
 
     goto :goto_1
 
-    .line 28
     :sswitch_9
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 29
     iput-object p1, p0, Lcom/google/api/j2;->p:Ljava/lang/String;
     :try_end_1
     .catch Lcom/google/protobuf/InvalidProtocolBufferException; {:try_start_1 .. :try_end_1} :catch_1
@@ -1428,13 +1293,11 @@
     :catch_0
     move-exception p1
 
-    .line 30
     :try_start_2
     new-instance p2, Ljava/lang/RuntimeException;
 
     new-instance p3, Lcom/google/protobuf/InvalidProtocolBufferException;
 
-    .line 31
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -1452,7 +1315,6 @@
     :catch_1
     move-exception p1
 
-    .line 32
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-virtual {p1, p0}, Lcom/google/protobuf/InvalidProtocolBufferException;->setUnfinishedMessage(Lcom/google/protobuf/i1;)Lcom/google/protobuf/InvalidProtocolBufferException;
@@ -1465,25 +1327,20 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 33
     :goto_4
     throw p1
 
-    .line 34
     :cond_4
     :pswitch_2
     sget-object p1, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     return-object p1
 
-    .line 35
     :pswitch_3
     check-cast p2, Lcom/google/protobuf/GeneratedMessageLite$k;
 
-    .line 36
     check-cast p3, Lcom/google/api/j2;
 
-    .line 37
     iget-object p1, p0, Lcom/google/api/j2;->g:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -1496,7 +1353,6 @@
 
     iget-object v3, p3, Lcom/google/api/j2;->g:Ljava/lang/String;
 
-    .line 38
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
@@ -1505,14 +1361,12 @@
 
     iget-object v4, p3, Lcom/google/api/j2;->g:Ljava/lang/String;
 
-    .line 39
     invoke-interface {p2, p1, v0, v3, v4}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/api/j2;->g:Ljava/lang/String;
 
-    .line 40
     iget-object p1, p0, Lcom/google/api/j2;->p:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -1525,7 +1379,6 @@
 
     iget-object v3, p3, Lcom/google/api/j2;->p:Ljava/lang/String;
 
-    .line 41
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
@@ -1534,14 +1387,12 @@
 
     iget-object v4, p3, Lcom/google/api/j2;->p:Ljava/lang/String;
 
-    .line 42
     invoke-interface {p2, p1, v0, v3, v4}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/api/j2;->p:Ljava/lang/String;
 
-    .line 43
     iget-wide v5, p0, Lcom/google/api/j2;->J:J
 
     const-wide/16 v10, 0x0
@@ -1580,7 +1431,6 @@
 
     iput-wide v3, p0, Lcom/google/api/j2;->J:J
 
-    .line 44
     iget-wide v5, p0, Lcom/google/api/j2;->K:J
 
     cmp-long p1, v5, v10
@@ -1617,7 +1467,6 @@
 
     iput-wide v3, p0, Lcom/google/api/j2;->K:J
 
-    .line 45
     iget-wide v5, p0, Lcom/google/api/j2;->L:J
 
     cmp-long p1, v5, v10
@@ -1654,7 +1503,6 @@
 
     iput-wide v0, p0, Lcom/google/api/j2;->L:J
 
-    .line 46
     iget-object p1, p0, Lcom/google/api/j2;->M:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -1667,7 +1515,6 @@
 
     iget-object v1, p3, Lcom/google/api/j2;->M:Ljava/lang/String;
 
-    .line 47
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -1676,14 +1523,12 @@
 
     iget-object v3, p3, Lcom/google/api/j2;->M:Ljava/lang/String;
 
-    .line 48
     invoke-interface {p2, p1, v0, v1, v3}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/api/j2;->M:Ljava/lang/String;
 
-    .line 49
     iget-object p1, p0, Lcom/google/api/j2;->N:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -1696,7 +1541,6 @@
 
     iget-object v1, p3, Lcom/google/api/j2;->N:Ljava/lang/String;
 
-    .line 50
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -1705,14 +1549,12 @@
 
     iget-object v3, p3, Lcom/google/api/j2;->N:Ljava/lang/String;
 
-    .line 51
     invoke-interface {p2, p1, v0, v1, v3}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/api/j2;->N:Ljava/lang/String;
 
-    .line 52
     iget-object p1, p0, Lcom/google/api/j2;->O:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -1725,7 +1567,6 @@
 
     iget-object v1, p3, Lcom/google/api/j2;->O:Ljava/lang/String;
 
-    .line 53
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -1734,29 +1575,24 @@
 
     iget-object v3, p3, Lcom/google/api/j2;->O:Ljava/lang/String;
 
-    .line 54
     invoke-interface {p2, p1, v0, v1, v3}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/api/j2;->O:Ljava/lang/String;
 
-    .line 55
     iget-object p1, p0, Lcom/google/api/j2;->P:Lcom/google/protobuf/MapFieldLite;
 
-    .line 56
     invoke-direct {p3}, Lcom/google/api/j2;->Mh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
 
-    .line 57
     invoke-interface {p2, p1, v0}, Lcom/google/protobuf/GeneratedMessageLite$k;->f(Lcom/google/protobuf/MapFieldLite;Lcom/google/protobuf/MapFieldLite;)Lcom/google/protobuf/MapFieldLite;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/api/j2;->P:Lcom/google/protobuf/MapFieldLite;
 
-    .line 58
     iget-object p1, p0, Lcom/google/api/j2;->Q:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -1769,7 +1605,6 @@
 
     iget-object v1, p3, Lcom/google/api/j2;->Q:Ljava/lang/String;
 
-    .line 59
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -1778,19 +1613,16 @@
 
     iget-object v2, p3, Lcom/google/api/j2;->Q:Ljava/lang/String;
 
-    .line 60
     invoke-interface {p2, p1, v0, v1, v2}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/api/j2;->Q:Ljava/lang/String;
 
-    .line 61
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$j;->a:Lcom/google/protobuf/GeneratedMessageLite$j;
 
     if-ne p2, p1, :cond_b
 
-    .line 62
     iget p1, p0, Lcom/google/api/j2;->f:I
 
     iget p2, p3, Lcom/google/api/j2;->f:I
@@ -1802,7 +1634,6 @@
     :cond_b
     return-object p0
 
-    .line 63
     :pswitch_4
     new-instance p1, Lcom/google/api/j2$b;
 
@@ -1810,7 +1641,6 @@
 
     return-object p1
 
-    .line 64
     :pswitch_5
     iget-object p1, p0, Lcom/google/api/j2;->P:Lcom/google/protobuf/MapFieldLite;
 
@@ -1818,13 +1648,11 @@
 
     return-object v0
 
-    .line 65
     :pswitch_6
     sget-object p1, Lcom/google/api/j2;->b0:Lcom/google/api/j2;
 
     return-object p1
 
-    .line 66
     :pswitch_7
     new-instance p1, Lcom/google/api/j2;
 
@@ -1865,7 +1693,6 @@
 .method public S9()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/api/j2;->J:J
 
     return-wide v0
@@ -1874,7 +1701,6 @@
 .method public U1()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->O:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -1887,7 +1713,6 @@
 .method public V()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->Q:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -1900,7 +1725,6 @@
 .method public Y5()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->N:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -1913,7 +1737,6 @@
 .method public Y6()I
     .locals 6
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
     const/4 v1, -0x1
@@ -1925,7 +1748,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     iget-object v1, p0, Lcom/google/api/j2;->p:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
@@ -1936,7 +1758,6 @@
 
     const/4 v1, 0x2
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/api/j2;->getDescription()Ljava/lang/String;
 
     move-result-object v2
@@ -1947,7 +1768,6 @@
 
     add-int/2addr v0, v1
 
-    .line 4
     :cond_1
     iget-wide v1, p0, Lcom/google/api/j2;->J:J
 
@@ -1959,14 +1779,12 @@
 
     const/4 v5, 0x3
 
-    .line 5
     invoke-static {v5, v1, v2}, Lcom/google/protobuf/CodedOutputStream;->E(IJ)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 6
     :cond_2
     iget-wide v1, p0, Lcom/google/api/j2;->K:J
 
@@ -1976,14 +1794,12 @@
 
     const/4 v5, 0x4
 
-    .line 7
     invoke-static {v5, v1, v2}, Lcom/google/protobuf/CodedOutputStream;->E(IJ)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 8
     :cond_3
     iget-object v1, p0, Lcom/google/api/j2;->M:Ljava/lang/String;
 
@@ -1995,7 +1811,6 @@
 
     const/4 v1, 0x5
 
-    .line 9
     invoke-virtual {p0}, Lcom/google/api/j2;->getDuration()Ljava/lang/String;
 
     move-result-object v2
@@ -2006,7 +1821,6 @@
 
     add-int/2addr v0, v1
 
-    .line 10
     :cond_4
     iget-object v1, p0, Lcom/google/api/j2;->g:Ljava/lang/String;
 
@@ -2018,7 +1832,6 @@
 
     const/4 v1, 0x6
 
-    .line 11
     invoke-virtual {p0}, Lcom/google/api/j2;->getName()Ljava/lang/String;
 
     move-result-object v2
@@ -2029,7 +1842,6 @@
 
     add-int/2addr v0, v1
 
-    .line 12
     :cond_5
     iget-wide v1, p0, Lcom/google/api/j2;->L:J
 
@@ -2039,14 +1851,12 @@
 
     const/4 v3, 0x7
 
-    .line 13
     invoke-static {v3, v1, v2}, Lcom/google/protobuf/CodedOutputStream;->E(IJ)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 14
     :cond_6
     iget-object v1, p0, Lcom/google/api/j2;->N:Ljava/lang/String;
 
@@ -2058,7 +1868,6 @@
 
     const/16 v1, 0x8
 
-    .line 15
     invoke-virtual {p0}, Lcom/google/api/j2;->J9()Ljava/lang/String;
 
     move-result-object v2
@@ -2069,7 +1878,6 @@
 
     add-int/2addr v0, v1
 
-    .line 16
     :cond_7
     iget-object v1, p0, Lcom/google/api/j2;->O:Ljava/lang/String;
 
@@ -2081,7 +1889,6 @@
 
     const/16 v1, 0x9
 
-    .line 17
     invoke-virtual {p0}, Lcom/google/api/j2;->c1()Ljava/lang/String;
 
     move-result-object v2
@@ -2092,7 +1899,6 @@
 
     add-int/2addr v0, v1
 
-    .line 18
     :cond_8
     invoke-direct {p0}, Lcom/google/api/j2;->Mh()Lcom/google/protobuf/MapFieldLite;
 
@@ -2119,12 +1925,10 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 19
     sget-object v3, Lcom/google/api/j2$c;->a:Lcom/google/protobuf/h1;
 
     const/16 v4, 0xa
 
-    .line 20
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v5
@@ -2137,7 +1941,6 @@
 
     check-cast v2, Ljava/lang/Long;
 
-    .line 21
     invoke-virtual {v3, v4, v5, v2}, Lcom/google/protobuf/h1;->a(ILjava/lang/Object;Ljava/lang/Object;)I
 
     move-result v2
@@ -2146,7 +1949,6 @@
 
     goto :goto_0
 
-    .line 22
     :cond_9
     iget-object v1, p0, Lcom/google/api/j2;->Q:Ljava/lang/String;
 
@@ -2158,7 +1960,6 @@
 
     const/16 v1, 0xc
 
-    .line 23
     invoke-virtual {p0}, Lcom/google/api/j2;->C()Ljava/lang/String;
 
     move-result-object v2
@@ -2169,7 +1970,6 @@
 
     add-int/2addr v0, v1
 
-    .line 24
     :cond_a
     iput v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
@@ -2179,7 +1979,6 @@
 .method public a()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -2192,7 +1991,6 @@
 .method public b()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->p:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -2205,7 +2003,6 @@
 .method public c1()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->O:Ljava/lang/String;
 
     return-object v0
@@ -2214,15 +2011,12 @@
 .method public f6(Ljava/lang/String;J)J
     .locals 2
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lcom/google/api/j2;->Mh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v1
@@ -2246,7 +2040,6 @@
 .method public getDescription()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->p:Ljava/lang/String;
 
     return-object v0
@@ -2255,7 +2048,6 @@
 .method public getDuration()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->M:Ljava/lang/String;
 
     return-object v0
@@ -2264,7 +2056,6 @@
 .method public getName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->g:Ljava/lang/String;
 
     return-object v0
@@ -2273,7 +2064,6 @@
 .method public r9()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->M:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -2286,22 +2076,18 @@
 .method public ve(Ljava/lang/String;)J
     .locals 2
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lcom/google/api/j2;->Mh()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -2314,7 +2100,6 @@
 
     return-wide v0
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2326,7 +2111,6 @@
 .method public xe()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/api/j2;->L:J
 
     return-wide v0
@@ -2340,7 +2124,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/j2;->p:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
@@ -2351,14 +2134,12 @@
 
     const/4 v0, 0x2
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/api/j2;->getDescription()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->o1(ILjava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-wide v0, p0, Lcom/google/api/j2;->J:J
 
@@ -2370,10 +2151,8 @@
 
     const/4 v4, 0x3
 
-    .line 4
     invoke-virtual {p1, v4, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->Q0(IJ)V
 
-    .line 5
     :cond_1
     iget-wide v0, p0, Lcom/google/api/j2;->K:J
 
@@ -2383,10 +2162,8 @@
 
     const/4 v4, 0x4
 
-    .line 6
     invoke-virtual {p1, v4, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->Q0(IJ)V
 
-    .line 7
     :cond_2
     iget-object v0, p0, Lcom/google/api/j2;->M:Ljava/lang/String;
 
@@ -2398,14 +2175,12 @@
 
     const/4 v0, 0x5
 
-    .line 8
     invoke-virtual {p0}, Lcom/google/api/j2;->getDuration()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->o1(ILjava/lang/String;)V
 
-    .line 9
     :cond_3
     iget-object v0, p0, Lcom/google/api/j2;->g:Ljava/lang/String;
 
@@ -2417,14 +2192,12 @@
 
     const/4 v0, 0x6
 
-    .line 10
     invoke-virtual {p0}, Lcom/google/api/j2;->getName()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->o1(ILjava/lang/String;)V
 
-    .line 11
     :cond_4
     iget-wide v0, p0, Lcom/google/api/j2;->L:J
 
@@ -2434,10 +2207,8 @@
 
     const/4 v2, 0x7
 
-    .line 12
     invoke-virtual {p1, v2, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->Q0(IJ)V
 
-    .line 13
     :cond_5
     iget-object v0, p0, Lcom/google/api/j2;->N:Ljava/lang/String;
 
@@ -2449,14 +2220,12 @@
 
     const/16 v0, 0x8
 
-    .line 14
     invoke-virtual {p0}, Lcom/google/api/j2;->J9()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->o1(ILjava/lang/String;)V
 
-    .line 15
     :cond_6
     iget-object v0, p0, Lcom/google/api/j2;->O:Ljava/lang/String;
 
@@ -2468,14 +2237,12 @@
 
     const/16 v0, 0x9
 
-    .line 16
     invoke-virtual {p0}, Lcom/google/api/j2;->c1()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->o1(ILjava/lang/String;)V
 
-    .line 17
     :cond_7
     invoke-direct {p0}, Lcom/google/api/j2;->Mh()Lcom/google/protobuf/MapFieldLite;
 
@@ -2502,12 +2269,10 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 18
     sget-object v2, Lcom/google/api/j2$c;->a:Lcom/google/protobuf/h1;
 
     const/16 v3, 0xa
 
-    .line 19
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -2520,12 +2285,10 @@
 
     check-cast v1, Ljava/lang/Long;
 
-    .line 20
     invoke-virtual {v2, p1, v3, v4, v1}, Lcom/google/protobuf/h1;->j(Lcom/google/protobuf/CodedOutputStream;ILjava/lang/Object;Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 21
     :cond_8
     iget-object v0, p0, Lcom/google/api/j2;->Q:Ljava/lang/String;
 
@@ -2537,7 +2300,6 @@
 
     const/16 v0, 0xc
 
-    .line 22
     invoke-virtual {p0}, Lcom/google/api/j2;->C()Ljava/lang/String;
 
     move-result-object v1

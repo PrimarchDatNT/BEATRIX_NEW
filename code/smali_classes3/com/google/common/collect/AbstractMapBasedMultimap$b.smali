@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/AbstractMapBasedMultimap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$b;->g:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
     invoke-direct {p0, p1}, Lcom/google/common/collect/AbstractMapBasedMultimap$d;-><init>(Lcom/google/common/collect/AbstractMapBasedMultimap;)V
@@ -44,7 +43,6 @@
 .method bridge synthetic a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/AbstractMapBasedMultimap$b;->b(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
 
     move-result-object p1
@@ -62,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/common/collect/Maps;->O(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;
 
     move-result-object p1

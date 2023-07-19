@@ -38,7 +38,6 @@
 
     const/4 v0, 0x0
 
-    .line 11
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/component/UndoRedoComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -61,7 +60,6 @@
 
     const/4 v0, 0x0
 
-    .line 9
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/component/UndoRedoComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -82,10 +80,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/ComponentView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -100,7 +96,6 @@
 
     const-string p2, "this"
 
-    .line 3
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -109,7 +104,6 @@
 
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 4
     iget-object p2, p1, Lcom/commsource/beautyplus/f0/m2;->b:Lcom/commsource/widget/IconFrontView;
 
     new-instance p3, Lcom/commsource/studio/component/UndoRedoComponent$a;
@@ -118,7 +112,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     iget-object p2, p1, Lcom/commsource/beautyplus/f0/m2;->a:Lcom/commsource/widget/IconFrontView;
 
     new-instance p3, Lcom/commsource/studio/component/UndoRedoComponent$b;
@@ -127,12 +120,10 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     const-string p2, "ComponentUndoRedoBinding\u2026     lifecycleOwner\n    }"
 
-    .line 7
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/component/UndoRedoComponent;->f:Lcom/commsource/beautyplus/f0/m2;
@@ -156,7 +147,6 @@
 
     const/4 p3, 0x0
 
-    .line 8
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/UndoRedoComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -172,7 +162,6 @@
 
     const/4 p2, 0x0
 
-    .line 10
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/component/UndoRedoComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -186,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/component/UndoRedoComponent;->f:Lcom/commsource/beautyplus/f0/m2;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -274,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent;->d:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     if-nez v1, :cond_0
@@ -312,7 +299,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     const-class p1, Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/ComponentView;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -327,7 +313,6 @@
 
     const-string v1, "undoRedoViewModel"
 
-    .line 2
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -341,7 +326,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -362,7 +346,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/UndoRedoComponent;->d:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

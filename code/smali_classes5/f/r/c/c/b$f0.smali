@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/r/c/c/b$f0;->b:Lf/r/c/c/b;
 
     iput-boolean p2, p0, Lf/r/c/c/b$f0;->a:Z
@@ -47,7 +46,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/b$f0;->b:Lf/r/c/c/b;
 
     iget-boolean v1, p0, Lf/r/c/c/b$f0;->a:Z

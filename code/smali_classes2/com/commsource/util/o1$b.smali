@@ -24,7 +24,6 @@
 .method constructor <init>(Ljava/util/List;Ljava/util/List;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/o1$b;->a:Ljava/util/List;
 
     iput-object p2, p0, Lcom/commsource/util/o1$b;->b:Ljava/util/List;
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/o1$b;->b:Ljava/util/List;
 
     invoke-interface {v1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -52,7 +50,6 @@
 
     check-cast p2, Lcom/commsource/util/common/j;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/util/o1$b;->a:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -65,7 +62,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {p2, p1}, Lcom/commsource/util/common/j;->onCompareLocal(Lcom/commsource/util/common/j;)Z
 
     move-result p1
@@ -77,7 +73,6 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -90,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/o1$b;->b:Ljava/util/List;
 
     invoke-interface {v1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -121,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/o1$b;->b:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -140,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/o1$b;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I

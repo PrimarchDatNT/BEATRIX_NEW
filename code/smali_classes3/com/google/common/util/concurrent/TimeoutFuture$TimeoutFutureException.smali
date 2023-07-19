@@ -18,7 +18,6 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Ljava/util/concurrent/TimeoutException;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -27,7 +26,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Lcom/google/common/util/concurrent/TimeoutFuture$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/TimeoutFuture$TimeoutFutureException;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -45,12 +43,10 @@
     :try_start_0
     new-array v0, v0, [Ljava/lang/StackTraceElement;
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/util/concurrent/TimeoutException;->setStackTrace([Ljava/lang/StackTraceElement;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0

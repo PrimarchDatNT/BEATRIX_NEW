@@ -36,7 +36,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;->model:Lcom/commsource/material/download/SegmentModel;
@@ -55,7 +54,6 @@
 
     const/4 p2, 0x0
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;-><init>(Lcom/commsource/material/download/SegmentModel;I)V
 
@@ -211,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;->model:Lcom/commsource/material/download/SegmentModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -226,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;->progress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,7 +277,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;->model:Lcom/commsource/material/download/SegmentModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -296,7 +291,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;->progress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -92,7 +92,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     move v2, p1
@@ -113,7 +112,6 @@
 
     iput-object v1, v0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
-    .line 2
     new-instance v7, Lcom/commsource/studio/c;
 
     const/4 v2, 0x0
@@ -132,7 +130,6 @@
 
     iput-object v7, v0, Lcom/commsource/studio/u;->c:Lcom/commsource/studio/c;
 
-    .line 3
     new-instance v1, Lcom/commsource/studio/c;
 
     const/4 v9, 0x0
@@ -155,7 +152,6 @@
 
     new-array v1, v1, [Lcom/commsource/studio/c;
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/c;
 
     const/high16 v4, 0x40800000    # 4.0f
@@ -168,7 +164,6 @@
 
     aput-object v2, v1, v3
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/c;
 
     const/high16 v3, 0x42b40000    # 90.0f
@@ -179,7 +174,6 @@
 
     aput-object v2, v1, v3
 
-    .line 6
     new-instance v2, Lcom/commsource/studio/c;
 
     const/high16 v3, 0x43340000    # 180.0f
@@ -190,7 +184,6 @@
 
     aput-object v2, v1, v3
 
-    .line 7
     new-instance v2, Lcom/commsource/studio/c;
 
     const/high16 v6, -0x3d4c0000    # -90.0f
@@ -201,17 +194,14 @@
 
     aput-object v2, v1, v4
 
-    .line 8
     iput-object v1, v0, Lcom/commsource/studio/u;->e:[Lcom/commsource/studio/c;
 
-    .line 9
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v1, v0, Lcom/commsource/studio/u;->f:Landroid/graphics/RectF;
 
-    .line 10
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
@@ -220,10 +210,8 @@
 
     new-array v1, v3, [F
 
-    .line 11
     iput-object v1, v0, Lcom/commsource/studio/u;->h:[F
 
-    .line 12
     new-instance v1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v1}, Lcom/commsource/studio/MatrixBox;-><init>()V
@@ -288,7 +276,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 13
     new-instance p5, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p5}, Lcom/commsource/studio/MatrixBox;-><init>()V
@@ -318,17 +305,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
     iget-object v2, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/u;->h:[F
 
-    .line 3
     iget v2, p0, Lcom/commsource/studio/u;->o:F
 
     const/high16 v3, 0x40000000    # 2.0f
@@ -339,7 +323,6 @@
 
     aput v2, v1, v4
 
-    .line 4
     iget v2, p0, Lcom/commsource/studio/u;->p:F
 
     div-float/2addr v2, v3
@@ -348,7 +331,6 @@
 
     aput v2, v1, v3
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -357,12 +339,10 @@
 
     invoke-virtual {v2, v1}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 6
     iget-boolean v1, p0, Lcom/commsource/studio/u;->k:Z
 
     if-eqz v1, :cond_3
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/u;->d:Lcom/commsource/studio/c;
 
     iget-object v2, p0, Lcom/commsource/studio/u;->h:[F
@@ -371,7 +351,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/c;->b(F)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/u;->c:Lcom/commsource/studio/c;
 
     iget-object v2, p0, Lcom/commsource/studio/u;->h:[F
@@ -380,7 +359,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/c;->b(F)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/u;->d:Lcom/commsource/studio/c;
 
     invoke-virtual {v1}, Lcom/commsource/studio/c;->f()Z
@@ -402,7 +380,6 @@
     :cond_0
     const/4 v3, 0x0
 
-    .line 10
     :cond_1
     :goto_0
     iget-boolean v1, p0, Lcom/commsource/studio/u;->l:Z
@@ -411,21 +388,17 @@
 
     if-eqz v3, :cond_2
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 12
     :cond_2
     iput-boolean v3, p0, Lcom/commsource/studio/u;->l:Z
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 14
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
@@ -433,10 +406,8 @@
 
     move-result v1
 
-    .line 15
     iget-object v2, p0, Lcom/commsource/studio/u;->e:[Lcom/commsource/studio/c;
 
-    .line 16
     array-length v5, v2
 
     const/4 v6, 0x0
@@ -448,14 +419,12 @@
 
     aget-object v8, v2, v6
 
-    .line 17
     invoke-virtual {v8, v1}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
     move-result-object v8
 
     if-eqz v8, :cond_5
 
-    .line 18
     iget-object v9, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v8}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -476,7 +445,6 @@
 
     invoke-virtual {v9, v10, v12, v11}, Lcom/commsource/studio/MatrixBox;->postRotate(FFF)V
 
-    .line 19
     invoke-virtual {v8}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v9
@@ -489,7 +457,6 @@
 
     if-eqz v9, :cond_4
 
-    .line 20
     iget-object v9, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v8}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -510,7 +477,6 @@
 
     invoke-virtual {v9, v10, v12, v11}, Lcom/commsource/studio/MatrixBox;->postRotate(FFF)V
 
-    .line 21
     :cond_4
     invoke-virtual {v8}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
@@ -529,11 +495,9 @@
 
     goto :goto_1
 
-    .line 22
     :cond_6
     iget-object v1, p0, Lcom/commsource/studio/u;->d:Lcom/commsource/studio/c;
 
-    .line 23
     iget-object v2, p0, Lcom/commsource/studio/u;->h:[F
 
     aget v2, v2, v3
@@ -546,7 +510,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 24
     iget-object v3, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -561,7 +524,6 @@
 
     invoke-virtual {v3, v2, v5}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 25
     invoke-virtual {v1}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
@@ -574,7 +536,6 @@
 
     if-eqz v3, :cond_7
 
-    .line 26
     iget-object v3, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -589,7 +550,6 @@
 
     invoke-virtual {v3, v2, v5}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 27
     :cond_7
     invoke-virtual {v1}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
@@ -603,11 +563,9 @@
 
     or-int/2addr v7, v1
 
-    .line 28
     :cond_8
     iget-object v1, p0, Lcom/commsource/studio/u;->c:Lcom/commsource/studio/c;
 
-    .line 29
     iget-object v3, p0, Lcom/commsource/studio/u;->h:[F
 
     aget v3, v3, v4
@@ -618,7 +576,6 @@
 
     if-eqz v1, :cond_a
 
-    .line 30
     iget-object v3, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -633,7 +590,6 @@
 
     invoke-virtual {v3, v4, v2}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 31
     invoke-virtual {v1}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
@@ -646,7 +602,6 @@
 
     if-eqz v3, :cond_9
 
-    .line 32
     iget-object v3, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -661,7 +616,6 @@
 
     invoke-virtual {v3, v4, v2}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 33
     :cond_9
     invoke-virtual {v1}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
@@ -675,7 +629,6 @@
 
     or-int/2addr v7, v1
 
-    .line 34
     :cond_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -689,10 +642,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/u;->g:Landroid/graphics/RectF;
 
-    .line 2
     iget v2, p0, Lcom/commsource/studio/u;->m:F
 
     iget v3, p0, Lcom/commsource/studio/u;->n:F
@@ -701,7 +652,6 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
@@ -710,7 +660,6 @@
 
     invoke-virtual {v2, v1}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 4
     iget v1, p0, Lcom/commsource/studio/u;->a:F
 
     iget-object v2, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
@@ -721,20 +670,16 @@
 
     div-float/2addr v1, v2
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/u;->f:Landroid/graphics/RectF;
 
-    .line 6
     iget v3, p0, Lcom/commsource/studio/u;->o:F
 
     iget v5, p0, Lcom/commsource/studio/u;->p:F
 
     invoke-virtual {v2, v4, v4, v3, v5}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 7
     invoke-virtual {v2, v1, v1}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 8
     iget v1, v2, Landroid/graphics/RectF;->left:F
 
     iget v3, v2, Landroid/graphics/RectF;->right:F
@@ -745,7 +690,6 @@
 
     if-lez v1, :cond_0
 
-    .line 9
     iget v1, p0, Lcom/commsource/studio/u;->o:F
 
     int-to-float v3, v5
@@ -754,10 +698,8 @@
 
     iput v1, v2, Landroid/graphics/RectF;->left:F
 
-    .line 10
     iput v1, v2, Landroid/graphics/RectF;->right:F
 
-    .line 11
     :cond_0
     iget v1, v2, Landroid/graphics/RectF;->top:F
 
@@ -767,7 +709,6 @@
 
     if-lez v1, :cond_1
 
-    .line 12
     iget v1, p0, Lcom/commsource/studio/u;->p:F
 
     int-to-float v3, v5
@@ -776,10 +717,8 @@
 
     iput v1, v2, Landroid/graphics/RectF;->top:F
 
-    .line 13
     iput v1, v2, Landroid/graphics/RectF;->bottom:F
 
-    .line 14
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
@@ -791,7 +730,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/u;->f:Landroid/graphics/RectF;
 
     iget v1, v1, Landroid/graphics/RectF;->right:F
@@ -804,14 +742,12 @@
 
     if-gez v3, :cond_2
 
-    .line 16
     iget-object v3, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     neg-float v1, v1
 
     invoke-virtual {v3, v1, v4}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 17
     :cond_2
     iget v1, p0, Lcom/commsource/studio/u;->m:F
 
@@ -825,14 +761,12 @@
 
     if-gez v5, :cond_3
 
-    .line 18
     iget-object v5, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     sub-float/2addr v1, v3
 
     invoke-virtual {v5, v1, v4}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 19
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/u;->f:Landroid/graphics/RectF;
 
@@ -842,14 +776,12 @@
 
     if-gez v3, :cond_4
 
-    .line 20
     iget-object v3, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     neg-float v1, v1
 
     invoke-virtual {v3, v4, v1}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 21
     :cond_4
     iget v1, p0, Lcom/commsource/studio/u;->n:F
 
@@ -863,14 +795,12 @@
 
     if-gez v2, :cond_5
 
-    .line 22
     iget-object v2, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     sub-float/2addr v1, v3
 
     invoke-virtual {v2, v4, v1}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 23
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -899,7 +829,6 @@
 
     move-object p2, v1
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/u;->q(Ljava/lang/Float;Ljava/lang/Float;FF)V
 
@@ -925,7 +854,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -940,7 +868,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/u;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -963,7 +890,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/u;->d:Lcom/commsource/studio/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -980,15 +906,12 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/studio/u;->j:Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1001,23 +924,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/u;->j:Z
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iput-boolean v2, p0, Lcom/commsource/studio/u;->j:Z
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/u;->b()Z
 
     move-result v1
@@ -1042,25 +961,20 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p4}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 3
     iput p1, p0, Lcom/commsource/studio/u;->m:F
 
-    .line 4
     iput p2, p0, Lcom/commsource/studio/u;->n:F
 
-    .line 5
     invoke-virtual {p4}, Lcom/commsource/studio/bean/FocusLayerInfo;->getWidth()I
 
     move-result v1
@@ -1069,7 +983,6 @@
 
     iput v1, p0, Lcom/commsource/studio/u;->o:F
 
-    .line 6
     invoke-virtual {p4}, Lcom/commsource/studio/bean/FocusLayerInfo;->getHeight()I
 
     move-result p4
@@ -1080,7 +993,6 @@
 
     const/16 p4, 0x10
 
-    .line 7
     invoke-static {p4}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p4
@@ -1093,7 +1005,6 @@
 
     const/16 p4, 0xf
 
-    .line 8
     invoke-static {p4}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p4
@@ -1104,10 +1015,8 @@
 
     iput p4, p0, Lcom/commsource/studio/u;->a:F
 
-    .line 9
     iget-object p4, p0, Lcom/commsource/studio/u;->h:[F
 
-    .line 10
     iget v1, p0, Lcom/commsource/studio/u;->o:F
 
     const/high16 v2, 0x40000000    # 2.0f
@@ -1118,7 +1027,6 @@
 
     aput v1, p4, v3
 
-    .line 11
     iget v1, p0, Lcom/commsource/studio/u;->p:F
 
     div-float/2addr v1, v2
@@ -1127,7 +1035,6 @@
 
     aput v1, p4, v4
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -1136,12 +1043,10 @@
 
     invoke-virtual {v1, p4}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 13
     iget-object p4, p0, Lcom/commsource/studio/u;->c:Lcom/commsource/studio/c;
 
     const/16 v1, 0xa
 
-    .line 14
     invoke-static {v1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v5
@@ -1152,7 +1057,6 @@
 
     invoke-virtual {p4, v5}, Lcom/commsource/studio/c;->j(F)V
 
-    .line 15
     invoke-static {v4}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v5
@@ -1165,23 +1069,18 @@
 
     div-float/2addr p1, v2
 
-    .line 16
     invoke-virtual {p4, p1}, Lcom/commsource/studio/c;->i(F)V
 
-    .line 17
     invoke-virtual {p4, v3}, Lcom/commsource/studio/c;->h(Z)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/studio/u;->h:[F
 
     aget p1, p1, v3
 
     invoke-virtual {p4, p1}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/studio/u;->d:Lcom/commsource/studio/c;
 
-    .line 20
     invoke-static {v1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p4
@@ -1192,7 +1091,6 @@
 
     invoke-virtual {p1, p4}, Lcom/commsource/studio/c;->j(F)V
 
-    .line 21
     invoke-static {v4}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p4
@@ -1205,23 +1103,18 @@
 
     div-float/2addr p2, v2
 
-    .line 22
     invoke-virtual {p1, p2}, Lcom/commsource/studio/c;->i(F)V
 
-    .line 23
     invoke-virtual {p1, v3}, Lcom/commsource/studio/c;->h(Z)V
 
-    .line 24
     iget-object p2, p0, Lcom/commsource/studio/u;->h:[F
 
     aget p2, p2, v4
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/studio/u;->e:[Lcom/commsource/studio/c;
 
-    .line 26
     array-length p2, p1
 
     const/4 p3, 0x0
@@ -1231,10 +1124,8 @@
 
     aget-object p4, p1, p3
 
-    .line 27
     invoke-virtual {p4, v3}, Lcom/commsource/studio/c;->h(Z)V
 
-    .line 28
     iget-object v1, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getRotate()F
@@ -1247,7 +1138,6 @@
 
     goto :goto_0
 
-    .line 29
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1261,7 +1151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/u;->n:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1276,7 +1165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/u;->m:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1293,7 +1181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/u;->c:Lcom/commsource/studio/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1308,7 +1195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/u;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1323,7 +1209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/u;->o:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1338,7 +1223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/u;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1355,7 +1239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1370,7 +1253,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/u;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1387,7 +1269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/u;->d:Lcom/commsource/studio/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1402,7 +1283,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/u;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1417,7 +1297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/u;->l:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1432,14 +1311,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     iget-object v2, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1462,12 +1339,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/studio/u;->j:Z
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
 
     move-result p1
@@ -1478,7 +1353,6 @@
 
     if-gez v2, :cond_0
 
-    .line 3
     iget v2, p0, Lcom/commsource/studio/u;->o:F
 
     iget v3, p0, Lcom/commsource/studio/u;->p:F
@@ -1503,7 +1377,6 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 4
     :cond_0
     invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
@@ -1514,13 +1387,11 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 5
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
     if-eqz p1, :cond_2
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
 
     move-result p1
@@ -1530,14 +1401,12 @@
     :cond_2
     if-eqz p2, :cond_3
 
-    .line 7
     invoke-virtual {p2}, Ljava/lang/Number;->floatValue()F
 
     move-result p1
 
     invoke-virtual {v1, p1, p3, p4}, Lcom/commsource/studio/MatrixBox;->postRotate(FFF)V
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1551,7 +1420,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/u;->n:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1566,7 +1434,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/u;->m:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1589,7 +1456,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/u;->c:Lcom/commsource/studio/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1604,7 +1470,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/u;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1619,7 +1484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/u;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1634,7 +1498,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/u;->o:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1649,7 +1512,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/u;->l:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1664,7 +1526,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/u;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

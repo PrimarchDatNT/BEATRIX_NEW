@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$3;->invoke(Lcom/commsource/studio/bean/BaseLayerInfo;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$3;->this$0:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->e(Lcom/commsource/studio/gesture/LayerSelectComponent;)Lcom/commsource/studio/bean/BaseLayerInfo;
@@ -94,14 +92,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$3;->this$0:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->g(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$3;->this$0:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
@@ -111,7 +107,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$3;->this$0:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->e(Lcom/commsource/studio/gesture/LayerSelectComponent;)Lcom/commsource/studio/bean/BaseLayerInfo;
@@ -144,20 +139,17 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$3;->this$0:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->g(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$3;->this$0:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->l(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    .line 8
     :cond_2
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$3;->this$0:Lcom/commsource/studio/gesture/LayerSelectComponent;
@@ -168,7 +160,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/ImageStudioViewModel;->A1(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

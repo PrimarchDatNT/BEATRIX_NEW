@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;
 
@@ -71,7 +70,6 @@
 
     move-result v1
 
-    .line 2
     :goto_0
     iget-object v3, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;
 
@@ -94,7 +92,6 @@
 
     move-result v2
 
-    .line 3
     :goto_1
     iget-object v3, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;->b:Ljava/lang/String;
 
@@ -104,14 +101,12 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {v1, v4}, Lcom/meitu/library/p/e/a;->i(Landroid/graphics/Bitmap;Z)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
     const-string v2, "cropThumb"
 
-    .line 5
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
@@ -128,7 +123,6 @@
 
     move-result-object v1
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;
 
     new-instance v3, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d$a;
@@ -139,7 +133,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 7
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

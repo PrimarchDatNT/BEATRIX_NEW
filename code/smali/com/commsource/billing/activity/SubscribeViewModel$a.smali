@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/billing/activity/SubscribeViewModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -81,7 +79,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
@@ -92,12 +89,10 @@
     :cond_1
     sget p1, Lcom/res/provider/ResSTRING;->web_net_error:I
 
-    .line 3
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
     goto :goto_0
 
-    .line 4
     :cond_2
     sget-object p1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
@@ -107,7 +102,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     sget-object p1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
@@ -115,7 +109,6 @@
 
     invoke-static {p1, v0}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {p1}, Lcom/commsource/billing/activity/SubscribeViewModel;->W(Lcom/commsource/billing/activity/SubscribeViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -126,7 +119,6 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {p1}, Lcom/commsource/billing/activity/SubscribeViewModel;->A(Lcom/commsource/billing/activity/SubscribeViewModel;)Z
@@ -135,14 +127,12 @@
 
     if-eqz p1, :cond_5
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {p1}, Lcom/commsource/billing/activity/SubscribeViewModel;->B(Lcom/commsource/billing/activity/SubscribeViewModel;)V
 
     goto :goto_0
 
-    .line 9
     :cond_4
     sget-object p1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
@@ -150,7 +140,6 @@
 
     invoke-static {p1, v0}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {p1}, Lcom/commsource/billing/activity/SubscribeViewModel;->z(Lcom/commsource/billing/activity/SubscribeViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -171,7 +160,6 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 11
     :cond_5
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -201,7 +189,6 @@
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v4, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -226,14 +213,12 @@
 
     if-eqz v2, :cond_b
 
-    .line 2
     invoke-interface/range {p2 .. p2}, Ljava/util/Map;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_b
 
-    .line 3
     iget-object v1, v0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->K(Lcom/commsource/billing/activity/SubscribeViewModel;)Ljava/lang/String;
@@ -246,7 +231,6 @@
 
     check-cast v1, Lcom/meitu/global/billing/product/data/Product;
 
-    .line 4
     iget-object v4, v0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v4}, Lcom/commsource/billing/activity/SubscribeViewModel;->P(Lcom/commsource/billing/activity/SubscribeViewModel;)Ljava/lang/String;
@@ -263,7 +247,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     sget-object v6, Lcom/commsource/billing/pro/i/c;->a:Lcom/commsource/billing/pro/i/c;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/product/data/Product;->d()Ljava/lang/String;
@@ -286,7 +269,6 @@
     :goto_0
     if-eqz v4, :cond_1
 
-    .line 6
     sget-object v7, Lcom/commsource/billing/pro/i/c;->a:Lcom/commsource/billing/pro/i/c;
 
     invoke-virtual {v4}, Lcom/meitu/global/billing/product/data/Product;->d()Ljava/lang/String;
@@ -306,7 +288,6 @@
     :cond_1
     move-object v7, v5
 
-    .line 7
     :goto_1
     new-instance v8, Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
@@ -322,17 +303,14 @@
 
     move-result-object v8
 
-    .line 8
     invoke-virtual {v8, v6}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setMonthlyPrice(Ljava/lang/String;)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
     move-result-object v8
 
-    .line 9
     invoke-virtual {v8, v7}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setYearlyPrice(Ljava/lang/String;)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
     move-result-object v8
 
-    .line 10
     instance-of v9, v1, Lcom/meitu/global/billing/product/data/SubsProduct;
 
     const-wide/16 v10, 0x0
@@ -341,17 +319,14 @@
 
     if-eqz v9, :cond_3
 
-    .line 11
     move-object v9, v1
 
     check-cast v9, Lcom/meitu/global/billing/product/data/SubsProduct;
 
-    .line 12
     invoke-virtual {v9}, Lcom/meitu/global/billing/product/data/SubsProduct;->k()Ljava/lang/String;
 
     move-result-object v13
 
-    .line 13
     sget-object v14, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     new-instance v15, Ljava/lang/StringBuilder;
@@ -370,7 +345,6 @@
 
     invoke-static {v14, v3}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     sget-object v3, Lcom/commsource/util/ISO8061Period;->e:Lcom/commsource/util/ISO8061Period;
 
     invoke-virtual {v3, v13, v12}, Lcom/commsource/util/ISO8061Period;->e(Ljava/lang/String;I)I
@@ -379,7 +353,6 @@
 
     invoke-virtual {v8, v13}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setMonthlyFreeTrialPeriod(I)V
 
-    .line 15
     sget-object v13, Lcom/commsource/billing/pro/i/c;->a:Lcom/commsource/billing/pro/i/c;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/product/data/Product;->d()Ljava/lang/String;
@@ -394,7 +367,6 @@
 
     move-result-object v1
 
-    .line 16
     invoke-virtual {v9}, Lcom/meitu/global/billing/product/data/SubsProduct;->n()Ljava/lang/String;
 
     move-result-object v13
@@ -403,7 +375,6 @@
 
     move-result v3
 
-    .line 17
     invoke-virtual {v9}, Lcom/meitu/global/billing/product/data/SubsProduct;->l()J
 
     move-result-wide v13
@@ -414,13 +385,10 @@
 
     if-lez v3, :cond_2
 
-    .line 18
     invoke-virtual {v8, v3}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setMonthIntroductoryDay(I)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
-    .line 19
     invoke-virtual {v8, v1}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setMonthIntroductoryPrice(Ljava/lang/String;)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
-    .line 20
     :cond_2
     sget-object v9, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
@@ -440,7 +408,6 @@
 
     invoke-static {v9, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 21
     sget-object v1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     new-instance v9, Ljava/lang/StringBuilder;
@@ -459,23 +426,19 @@
 
     invoke-static {v1, v3}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     :cond_3
     instance-of v1, v4, Lcom/meitu/global/billing/product/data/SubsProduct;
 
     if-eqz v1, :cond_5
 
-    .line 23
     move-object v1, v4
 
     check-cast v1, Lcom/meitu/global/billing/product/data/SubsProduct;
 
-    .line 24
     invoke-virtual {v1}, Lcom/meitu/global/billing/product/data/SubsProduct;->k()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 25
     sget-object v9, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     new-instance v13, Ljava/lang/StringBuilder;
@@ -494,7 +457,6 @@
 
     invoke-static {v9, v13}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 26
     sget-object v9, Lcom/commsource/util/ISO8061Period;->e:Lcom/commsource/util/ISO8061Period;
 
     invoke-virtual {v9, v3, v12}, Lcom/commsource/util/ISO8061Period;->e(Ljava/lang/String;I)I
@@ -503,7 +465,6 @@
 
     invoke-virtual {v8, v3}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setYearlyFreeTrialPeriod(I)V
 
-    .line 27
     sget-object v3, Lcom/commsource/billing/pro/i/c;->a:Lcom/commsource/billing/pro/i/c;
 
     invoke-virtual {v4}, Lcom/meitu/global/billing/product/data/Product;->d()Ljava/lang/String;
@@ -518,7 +479,6 @@
 
     move-result-object v3
 
-    .line 28
     invoke-virtual {v1}, Lcom/meitu/global/billing/product/data/SubsProduct;->n()Ljava/lang/String;
 
     move-result-object v4
@@ -527,7 +487,6 @@
 
     move-result v4
 
-    .line 29
     invoke-virtual {v1}, Lcom/meitu/global/billing/product/data/SubsProduct;->l()J
 
     move-result-wide v12
@@ -538,13 +497,10 @@
 
     if-lez v4, :cond_4
 
-    .line 30
     invoke-virtual {v8, v4}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setYearIntroductoryDay(I)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
-    .line 31
     invoke-virtual {v8, v3}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setYearIntroductoryPrice(Ljava/lang/String;)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
-    .line 32
     :cond_4
     sget-object v1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
@@ -564,7 +520,6 @@
 
     invoke-static {v1, v3}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 33
     sget-object v1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -583,7 +538,6 @@
 
     invoke-static {v1, v3}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 34
     :cond_5
     sget-object v1, Lcom/commsource/billing/d;->k:Lcom/commsource/billing/d;
 
@@ -603,7 +557,6 @@
 
     if-nez v3, :cond_8
 
-    .line 35
     invoke-virtual {v1}, Lcom/commsource/billing/d;->b()Ljava/lang/String;
 
     move-result-object v3
@@ -620,7 +573,6 @@
 
     if-nez v3, :cond_8
 
-    .line 36
     invoke-virtual {v1}, Lcom/commsource/billing/d;->a()Ljava/lang/String;
 
     move-result-object v3
@@ -631,7 +583,6 @@
 
     check-cast v3, Lcom/meitu/global/billing/product/data/Product;
 
-    .line 37
     invoke-virtual {v1}, Lcom/commsource/billing/d;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -644,7 +595,6 @@
 
     if-eqz v3, :cond_6
 
-    .line 38
     sget-object v2, Lcom/commsource/billing/pro/i/c;->a:Lcom/commsource/billing/pro/i/c;
 
     invoke-virtual {v3}, Lcom/meitu/global/billing/product/data/Product;->d()Ljava/lang/String;
@@ -673,7 +623,6 @@
 
     sget-object v3, Lcom/commsource/billing/pro/i/c;->a:Lcom/commsource/billing/pro/i/c;
 
-    .line 39
     invoke-virtual {v1}, Lcom/meitu/global/billing/product/data/Product;->d()Ljava/lang/String;
 
     move-result-object v4
@@ -689,7 +638,6 @@
     :cond_7
     invoke-virtual {v2, v5}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setYearlyFullPrice(Ljava/lang/String;)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
-    .line 40
     :cond_8
     iget-object v1, v0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -719,7 +667,6 @@
 
     if-gez v1, :cond_9
 
-    .line 41
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -744,7 +691,6 @@
 
     invoke-virtual {v8, v1}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setMonthlyDiscount(Ljava/lang/String;)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
-    .line 42
     iget-object v1, v0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->R(Lcom/commsource/billing/activity/SubscribeViewModel;)F
@@ -757,7 +703,6 @@
 
     invoke-virtual {v8, v1}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setMonthlyFullPrice(Ljava/lang/String;)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
-    .line 43
     iget-object v1, v0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->R(Lcom/commsource/billing/activity/SubscribeViewModel;)F
@@ -770,7 +715,6 @@
 
     invoke-virtual {v8, v1}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setMonthlyDiscountValue(I)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
-    .line 44
     :cond_9
     iget-object v1, v0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -792,7 +736,6 @@
 
     if-gez v1, :cond_a
 
-    .line 45
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -817,7 +760,6 @@
 
     invoke-virtual {v8, v1}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setYearlyDiscount(Ljava/lang/String;)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
-    .line 46
     iget-object v1, v0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->S(Lcom/commsource/billing/activity/SubscribeViewModel;)F
@@ -830,7 +772,6 @@
 
     invoke-virtual {v8, v1}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setYearlyDiscountValue(I)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
-    .line 47
     iget-object v1, v0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->S(Lcom/commsource/billing/activity/SubscribeViewModel;)F
@@ -843,7 +784,6 @@
 
     invoke-virtual {v8, v1}, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->setYearlyFullPrice(Ljava/lang/String;)Lcom/commsource/billing/bean/SubPriceInfo$Builder;
 
-    .line 48
     :cond_a
     iget-object v1, v0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -853,7 +793,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/billing/activity/SubscribeViewModel;->U(Lcom/commsource/billing/activity/SubscribeViewModel;Lcom/commsource/billing/bean/SubPriceInfo;)Lcom/commsource/billing/bean/SubPriceInfo;
 
-    .line 49
     iget-object v1, v0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->T(Lcom/commsource/billing/activity/SubscribeViewModel;)Lcom/commsource/billing/bean/SubPriceInfo;
@@ -866,7 +805,6 @@
 
     invoke-static {v1}, Lf/d/i/o;->Q0(I)V
 
-    .line 50
     sget-object v1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -911,7 +849,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 51
     iget-object v1, v0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->V(Lcom/commsource/billing/activity/SubscribeViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -929,7 +866,6 @@
     :cond_b
     const/16 v1, 0x3a04
 
-    .line 52
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -942,21 +878,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     const-string v2, "GoogleService\u5efa\u7acb\u5931\u8d25"
 
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/billing/activity/SubscribeViewModel;->y(Lcom/commsource/billing/activity/SubscribeViewModel;Z)Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->z(Lcom/commsource/billing/activity/SubscribeViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -977,7 +910,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -998,7 +930,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1011,7 +942,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1030,7 +960,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->C(Lcom/commsource/billing/activity/SubscribeViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -1059,7 +988,6 @@
 
     goto/16 :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -1069,7 +997,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {p1}, Lcom/commsource/billing/activity/SubscribeViewModel;->E(Lcom/commsource/billing/activity/SubscribeViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -1084,7 +1011,6 @@
 
     goto/16 :goto_0
 
-    .line 5
     :cond_1
     invoke-static {}, Lf/d/i/o;->o0()Z
 
@@ -1092,19 +1018,16 @@
 
     if-eqz p1, :cond_2
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {p1, v3}, Lcom/commsource/billing/activity/SubscribeViewModel;->F(Lcom/commsource/billing/activity/SubscribeViewModel;Z)Z
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {p1}, Lcom/commsource/billing/activity/SubscribeViewModel;->G(Lcom/commsource/billing/activity/SubscribeViewModel;)V
 
     goto :goto_0
 
-    .line 8
     :cond_2
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -1122,7 +1045,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_3
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -1132,7 +1054,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {p1}, Lcom/commsource/billing/activity/SubscribeViewModel;->E(Lcom/commsource/billing/activity/SubscribeViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -1147,7 +1068,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_4
     invoke-static {}, Lf/d/i/o;->o0()Z
 
@@ -1155,19 +1075,16 @@
 
     if-eqz p1, :cond_5
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {p1, v3}, Lcom/commsource/billing/activity/SubscribeViewModel;->F(Lcom/commsource/billing/activity/SubscribeViewModel;Z)Z
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {p1}, Lcom/commsource/billing/activity/SubscribeViewModel;->G(Lcom/commsource/billing/activity/SubscribeViewModel;)V
 
     goto :goto_0
 
-    .line 14
     :cond_5
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -1185,7 +1102,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_6
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -1199,7 +1115,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 16
     :cond_7
     iget-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$a;->a:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -1215,7 +1130,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 17
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

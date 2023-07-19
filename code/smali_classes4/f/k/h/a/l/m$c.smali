@@ -29,7 +29,6 @@
 .method constructor <init>(Lf/k/h/a/l/m;ILjava/util/List;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/l/m$c;->c:Lf/k/h/a/l/m;
 
     iput p2, p0, Lf/k/h/a/l/m$c;->a:I
@@ -50,12 +49,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lf/k/h/a/l/m$c;->a:I
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/k/h/a/l/m;->s()Ljava/lang/String;
 
     move-result-object v1
@@ -64,7 +61,6 @@
 
     invoke-static {v1, v2}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lf/k/h/a/l/m$c;->c:Lf/k/h/a/l/m;
 
     invoke-static {v1}, Lf/k/h/a/l/m;->t(Lf/k/h/a/l/m;)Ljava/util/List;
@@ -73,7 +69,6 @@
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 4
     iget-object v1, p0, Lf/k/h/a/l/m$c;->c:Lf/k/h/a/l/m;
 
     invoke-static {v1}, Lf/k/h/a/l/m;->t(Lf/k/h/a/l/m;)Ljava/util/List;
@@ -84,7 +79,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lf/k/h/a/l/m$c;->c:Lf/k/h/a/l/m;
 
@@ -96,7 +90,6 @@
 
     invoke-static {v1, v2, v3}, Lf/k/h/a/l/m;->u(Lf/k/h/a/l/m;ILjava/util/List;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -31,7 +31,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/firebase/auth/FirebaseAuthException;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -44,7 +43,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuthUserCollisionException;->zzje:Lcom/google/firebase/auth/AuthCredential;
 
     return-object v0
@@ -53,7 +51,6 @@
 .method public final zza(Lcom/google/firebase/auth/AuthCredential;)Lcom/google/firebase/auth/FirebaseAuthUserCollisionException;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/FirebaseAuthUserCollisionException;->zzje:Lcom/google/firebase/auth/AuthCredential;
 
     return-object p0
@@ -62,7 +59,6 @@
 .method public final zzbt(Ljava/lang/String;)Lcom/google/firebase/auth/FirebaseAuthUserCollisionException;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/FirebaseAuthUserCollisionException;->zzif:Ljava/lang/String;
 
     return-object p0
@@ -71,7 +67,6 @@
 .method public final zzbu(Ljava/lang/String;)Lcom/google/firebase/auth/FirebaseAuthUserCollisionException;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/FirebaseAuthUserCollisionException;->zzhy:Ljava/lang/String;
 
     return-object p0

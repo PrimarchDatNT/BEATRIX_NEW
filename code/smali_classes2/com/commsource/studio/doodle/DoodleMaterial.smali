@@ -276,17 +276,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->id:Ljava/lang/String;
 
     const/4 v0, 0x1
 
-    .line 3
     iput v0, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadType:I
 
     return-void
@@ -305,7 +302,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/studio/doodle/DoodleMaterial;
 
     if-eqz v1, :cond_0
@@ -342,7 +338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->canEditColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -359,7 +354,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->categoryId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -374,7 +368,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->collectState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -389,7 +382,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->collectTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -404,7 +396,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -419,7 +410,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -434,7 +424,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -449,7 +438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->endedAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -466,7 +454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->file:Lcom/commsource/repository/FileObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -481,7 +468,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->hot:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -496,7 +482,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->hotSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -513,7 +498,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->icon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -530,7 +514,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -545,7 +528,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->internalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -560,7 +542,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->listDisplay:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -575,7 +556,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->localInsertTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -592,7 +572,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -607,7 +586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->needShow:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -622,7 +600,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->newState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -637,7 +614,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->newTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -652,7 +628,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->oldId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -667,7 +642,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->paidSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -682,7 +656,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->paidType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -699,7 +672,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->param:Lcom/commsource/studio/doodle/DoodleMaterial$DoodleParam;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -714,12 +686,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->param:Lcom/commsource/studio/doodle/DoodleMaterial$DoodleParam;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/DoodleMaterial$DoodleParam;->getMaxBrushSize()F
 
     move-result v2
@@ -738,7 +708,6 @@
 
     add-float/2addr p1, v2
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -752,7 +721,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->placeHolderColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -767,12 +735,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->placeHolderColor:I
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/Random;
 
     invoke-direct {v1}, Ljava/util/Random;-><init>()V
@@ -783,7 +749,6 @@
 
     move-result v1
 
-    .line 3
     sget-object v2, Lcom/meitu/template/bean/StickerGroup;->Companion:Lcom/meitu/template/bean/StickerGroup$a;
 
     invoke-virtual {v2}, Lcom/meitu/template/bean/StickerGroup$a;->a()[I
@@ -794,7 +759,6 @@
 
     iput v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->placeHolderColor:I
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->placeHolderColor:I
 
@@ -810,7 +774,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->sort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -827,7 +790,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->file:Lcom/commsource/repository/FileObject;
 
     if-eqz v1, :cond_0
@@ -854,7 +816,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -871,7 +832,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadState:I
 
     const/4 v2, 0x1
@@ -900,7 +860,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->hot:I
 
     const/4 v2, 0x1
@@ -925,7 +884,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->internalState:I
 
     const/4 v2, 0x1
@@ -950,7 +908,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->internalState:I
 
     if-nez v1, :cond_0
@@ -975,7 +932,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadState:I
 
     const/4 v2, 0x1
@@ -1006,7 +962,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->paidType:I
 
     if-eqz v1, :cond_0
@@ -1031,25 +986,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->newState:I
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 4
     iget-wide v5, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->newTime:J
 
     const-wide/16 v7, 0x0
@@ -1086,7 +1037,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->icon:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->icon:Ljava/lang/String;
@@ -1095,12 +1045,10 @@
 
     move-result v1
 
-    .line 3
     iget v2, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->internalState:I
 
     if-nez v2, :cond_1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->file:Lcom/commsource/repository/FileObject;
 
     iget-object v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->file:Lcom/commsource/repository/FileObject;
@@ -1111,12 +1059,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     iget v2, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadState:I
 
     iput v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadState:I
 
-    .line 6
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->file:Lcom/commsource/repository/FileObject;
 
@@ -1130,44 +1076,36 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget v2, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadState:I
 
     iput v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadState:I
 
-    .line 8
     :goto_0
     iget v2, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->internalState:I
 
     iput v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->internalState:I
 
-    .line 9
     iget v2, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->collectState:I
 
     iput v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->collectState:I
 
-    .line 10
     iget-wide v2, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->collectTime:J
 
     iput-wide v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->collectTime:J
 
-    .line 11
     iget v2, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->needShow:I
 
     iput v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->needShow:I
 
-    .line 12
     iget v2, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->placeHolderColor:I
 
     iput v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->placeHolderColor:I
 
-    .line 13
     iget-wide v2, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->localInsertTime:J
 
     iput-wide v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->localInsertTime:J
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->name:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->name:Ljava/lang/String;
@@ -1178,7 +1116,6 @@
 
     and-int/2addr v1, v2
 
-    .line 15
     iget-object v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->file:Lcom/commsource/repository/FileObject;
 
     iget-object v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->file:Lcom/commsource/repository/FileObject;
@@ -1189,7 +1126,6 @@
 
     and-int/2addr v1, v2
 
-    .line 16
     iget-wide v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->newTime:J
 
     iget-wide v4, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->newTime:J
@@ -1212,7 +1148,6 @@
     :goto_1
     and-int/2addr v1, v2
 
-    .line 17
     iget v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->newState:I
 
     iget v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->newState:I
@@ -1229,7 +1164,6 @@
     :goto_2
     and-int/2addr v1, v2
 
-    .line 18
     iget-wide v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->endedAt:J
 
     iget-wide v4, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->endedAt:J
@@ -1248,7 +1182,6 @@
     :goto_3
     and-int/2addr v1, v2
 
-    .line 19
     iget v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadType:I
 
     iget v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadType:I
@@ -1265,7 +1198,6 @@
     :goto_4
     and-int/2addr v1, v2
 
-    .line 20
     iget v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->paidType:I
 
     iget v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->paidType:I
@@ -1282,7 +1214,6 @@
     :goto_5
     and-int/2addr v1, v2
 
-    .line 21
     iget v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->paidSort:I
 
     iget v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->paidSort:I
@@ -1299,7 +1230,6 @@
     :goto_6
     and-int/2addr v1, v2
 
-    .line 22
     iget v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->sort:I
 
     iget v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->sort:I
@@ -1316,7 +1246,6 @@
     :goto_7
     and-int/2addr v1, v2
 
-    .line 23
     iget v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->canEditColor:I
 
     iget v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->canEditColor:I
@@ -1333,7 +1262,6 @@
     :goto_8
     and-int/2addr v1, v2
 
-    .line 24
     iget v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->listDisplay:I
 
     iget v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->listDisplay:I
@@ -1350,7 +1278,6 @@
     :goto_9
     and-int/2addr v1, v2
 
-    .line 25
     iget v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->hot:I
 
     iget v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->hot:I
@@ -1367,7 +1294,6 @@
     :goto_a
     and-int/2addr v1, v2
 
-    .line 26
     iget v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->hotSort:I
 
     iget v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->hotSort:I
@@ -1382,7 +1308,6 @@
     :goto_b
     and-int/2addr v1, v6
 
-    .line 27
     iget-object v2, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->categoryId:Ljava/lang/String;
 
     iget-object p1, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->categoryId:Ljava/lang/String;
@@ -1393,7 +1318,6 @@
 
     and-int/2addr p1, v1
 
-    .line 28
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1406,7 +1330,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->onCompareLocal(Lcom/commsource/studio/doodle/DoodleMaterial;)Z
@@ -1433,7 +1356,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1442,12 +1364,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->id:Ljava/lang/String;
 
@@ -1479,7 +1399,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->onSortCompare(Lcom/commsource/studio/doodle/DoodleMaterial;)I
@@ -1498,7 +1417,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->canEditColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1517,7 +1435,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->categoryId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1532,7 +1449,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->collectState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1547,7 +1463,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->collectTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1562,7 +1477,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1577,7 +1491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1592,7 +1505,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->downloadType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1607,7 +1519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->endedAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1626,7 +1537,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->file:Lcom/commsource/repository/FileObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1641,7 +1551,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->hot:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1656,7 +1565,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->hotSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1675,7 +1583,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->icon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1698,7 +1605,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1713,7 +1619,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->internalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1728,7 +1633,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->listDisplay:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1743,7 +1647,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->localInsertTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1762,7 +1665,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1777,7 +1679,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->needShow:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1792,7 +1693,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->newState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1807,7 +1707,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->newTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1822,7 +1721,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->oldId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1837,7 +1735,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->paidSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1852,7 +1749,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->paidType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1871,7 +1767,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->param:Lcom/commsource/studio/doodle/DoodleMaterial$DoodleParam;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1886,7 +1781,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->placeHolderColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1901,7 +1795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->sort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1918,7 +1811,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

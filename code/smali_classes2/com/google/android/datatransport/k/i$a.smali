@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 .method public final a(Ljava/lang/String;I)Lcom/google/android/datatransport/k/i$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i$a;->e()Ljava/util/Map;
 
     move-result-object v0
@@ -49,7 +47,6 @@
 .method public final b(Ljava/lang/String;J)Lcom/google/android/datatransport/k/i$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i$a;->e()Ljava/util/Map;
 
     move-result-object v0
@@ -66,7 +63,6 @@
 .method public final c(Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/datatransport/k/i$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i$a;->e()Ljava/util/Map;
 
     move-result-object v0

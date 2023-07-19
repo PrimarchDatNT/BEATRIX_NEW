@@ -31,19 +31,14 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/util/concurrent/Executor;Lcom/google/android/gms/internal/ads/pf0;Lcom/google/android/gms/internal/ads/sg1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/lx0;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/lx0;->b:Lcom/google/android/gms/internal/ads/pf0;
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/lx0;->c:Ljava/util/concurrent/Executor;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/lx0;->d:Lcom/google/android/gms/internal/ads/sg1;
 
     return-void
@@ -52,7 +47,6 @@
 .method private static d(Lcom/google/android/gms/internal/ads/ug1;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/ug1;->s:Lorg/json/JSONObject;
 
@@ -88,7 +82,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/lx0;->d(Lcom/google/android/gms/internal/ads/ug1;)Ljava/lang/String;
 
     move-result-object v0
@@ -97,7 +90,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
@@ -107,7 +99,6 @@
     :cond_0
     move-object v0, v1
 
-    .line 3
     :goto_0
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
@@ -119,7 +110,6 @@
 
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/lx0;->c:Ljava/util/concurrent/Executor;
 
-    .line 4
     invoke-static {v1, v2, p1}, Lcom/google/android/gms/internal/ads/jq1;->j(Lcom/google/android/gms/internal/ads/rq1;Lcom/google/android/gms/internal/ads/xp1;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p1
@@ -130,14 +120,12 @@
 .method public final b(Lcom/google/android/gms/internal/ads/fh1;Lcom/google/android/gms/internal/ads/ug1;)Z
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/lx0;->a:Landroid/content/Context;
 
     instance-of p1, p1, Landroid/app/Activity;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/common/util/v;->d()Z
 
     move-result p1
@@ -146,14 +134,12 @@
 
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/lx0;->a:Landroid/content/Context;
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/t0;->a(Landroid/content/Context;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/lx0;->d(Lcom/google/android/gms/internal/ads/ug1;)Ljava/lang/String;
 
     move-result-object p1
@@ -182,7 +168,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance p4, Landroidx/browser/customtabs/CustomTabsIntent$Builder;
 
@@ -192,24 +177,20 @@
 
     move-result-object p4
 
-    .line 2
     iget-object v0, p4, Landroidx/browser/customtabs/CustomTabsIntent;->intent:Landroid/content/Intent;
 
     invoke-virtual {v0, p1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 3
     new-instance v2, Lcom/google/android/gms/ads/internal/overlay/zzd;
 
     iget-object p1, p4, Landroidx/browser/customtabs/CustomTabsIntent;->intent:Landroid/content/Intent;
 
     invoke-direct {v2, p1}, Lcom/google/android/gms/ads/internal/overlay/zzd;-><init>(Landroid/content/Intent;)V
 
-    .line 4
     new-instance p1, Lcom/google/android/gms/internal/ads/lq;
 
     invoke-direct {p1}, Lcom/google/android/gms/internal/ads/lq;-><init>()V
 
-    .line 5
     iget-object p4, p0, Lcom/google/android/gms/internal/ads/lx0;->b:Lcom/google/android/gms/internal/ads/pf0;
 
     new-instance v0, Lcom/google/android/gms/internal/ads/r40;
@@ -226,17 +207,14 @@
 
     invoke-direct {p2, p3}, Lcom/google/android/gms/internal/ads/te0;-><init>(Lcom/google/android/gms/internal/ads/xf0;)V
 
-    .line 6
     invoke-virtual {p4, v0, p2}, Lcom/google/android/gms/internal/ads/pf0;->a(Lcom/google/android/gms/internal/ads/r40;Lcom/google/android/gms/internal/ads/te0;)Lcom/google/android/gms/internal/ads/ue0;
 
     move-result-object p2
 
-    .line 7
     new-instance p3, Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;
 
     const/4 v3, 0x0
 
-    .line 8
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/ue0;->j()Lcom/google/android/gms/internal/ads/n90;
 
     move-result-object v4
@@ -253,15 +231,12 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;-><init>(Lcom/google/android/gms/ads/internal/overlay/zzd;Lcom/google/android/gms/internal/ads/sl2;Lcom/google/android/gms/ads/internal/overlay/l;Lcom/google/android/gms/ads/internal/overlay/p;Lcom/google/android/gms/internal/ads/zzbbd;)V
 
-    .line 9
     invoke-virtual {p1, p3}, Lcom/google/android/gms/internal/ads/lq;->a(Ljava/lang/Object;)Z
 
-    .line 10
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/lx0;->d:Lcom/google/android/gms/internal/ads/sg1;
 
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/sg1;->f()V
 
-    .line 11
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/ue0;->i()Lcom/google/android/gms/internal/ads/se0;
 
     move-result-object p1
@@ -279,9 +254,7 @@
 
     const-string p2, "Error in CustomTabsAdRenderer"
 
-    .line 12
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 13
     throw p1
 .end method

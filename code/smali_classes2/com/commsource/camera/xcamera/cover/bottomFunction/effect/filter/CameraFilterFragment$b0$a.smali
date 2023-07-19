@@ -46,12 +46,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$b0$a;->a:Ljava/lang/Object;
 
     check-cast v2, Lcom/meitu/template/bean/Filter;
@@ -68,12 +66,10 @@
 
     const-string v2, "preset"
 
-    .line 3
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$b0$a;->a:Ljava/lang/Object;
 
@@ -89,7 +85,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :goto_0
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$b0$a;->a:Ljava/lang/Object;
 
@@ -113,7 +108,6 @@
 
     if-eq v2, v4, :cond_2
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$b0$a;->b:Lcom/commsource/beautyfilter/a;
 
     if-eqz v2, :cond_1
@@ -143,16 +137,13 @@
     :cond_2
     const-string v2, "null"
 
-    .line 7
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :goto_2
     const-string v2, "selfie_filter_imp"
 
-    .line 8
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

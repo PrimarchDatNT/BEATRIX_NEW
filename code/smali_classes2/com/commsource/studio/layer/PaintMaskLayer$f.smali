@@ -46,7 +46,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/PaintMaskLayer$f;->b:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer$f;->a:Landroid/animation/ValueAnimator;
@@ -65,12 +64,10 @@
 
     invoke-static {v0, v1}, Lcom/commsource/studio/layer/PaintMaskLayer;->B0(Lcom/commsource/studio/layer/PaintMaskLayer;F)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Lcotlin/TypeCastException;
 

@@ -54,7 +54,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/google/common/collect/RegularImmutableSet;
 
     const/4 v0, 0x0
@@ -81,22 +80,16 @@
 .method constructor <init>([Ljava/lang/Object;I[Ljava/lang/Object;II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableSet;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/RegularImmutableSet;->elements:[Ljava/lang/Object;
 
-    .line 3
     iput-object p3, p0, Lcom/google/common/collect/RegularImmutableSet;->table:[Ljava/lang/Object;
 
-    .line 4
     iput p4, p0, Lcom/google/common/collect/RegularImmutableSet;->mask:I
 
-    .line 5
     iput p2, p0, Lcom/google/common/collect/RegularImmutableSet;->hashCode:I
 
-    .line 6
     iput p5, p0, Lcom/google/common/collect/RegularImmutableSet;->size:I
 
     return-void
@@ -111,7 +104,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableSet;->table:[Ljava/lang/Object;
 
     const/4 v1, 0x0
@@ -122,26 +114,22 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/common/collect/e1;->d(Ljava/lang/Object;)I
 
     move-result v2
 
-    .line 3
     :goto_0
     iget v3, p0, Lcom/google/common/collect/RegularImmutableSet;->mask:I
 
     and-int/2addr v2, v3
 
-    .line 4
     aget-object v3, v0, v2
 
     if-nez v3, :cond_1
 
     return v1
 
-    .line 5
     :cond_1
     invoke-virtual {v3, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -166,7 +154,6 @@
 .method copyIntoArray([Ljava/lang/Object;I)I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableSet;->elements:[Ljava/lang/Object;
 
     iget v1, p0, Lcom/google/common/collect/RegularImmutableSet;->size:I
@@ -175,7 +162,6 @@
 
     invoke-static {v0, v2, p1, p2, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 2
     iget p1, p0, Lcom/google/common/collect/RegularImmutableSet;->size:I
 
     add-int/2addr p2, p1
@@ -193,7 +179,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableSet;->elements:[Ljava/lang/Object;
 
     iget v1, p0, Lcom/google/common/collect/RegularImmutableSet;->size:I
@@ -208,7 +193,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/RegularImmutableSet;->hashCode:I
 
     return v0
@@ -217,7 +201,6 @@
 .method internalArray()[Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableSet;->elements:[Ljava/lang/Object;
 
     return-object v0
@@ -226,7 +209,6 @@
 .method internalArrayEnd()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/RegularImmutableSet;->size:I
 
     return v0
@@ -266,7 +248,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableSet;->asList()Lcom/google/common/collect/ImmutableList;
 
     move-result-object v0
@@ -281,7 +262,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/RegularImmutableSet;->iterator()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -292,7 +272,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/RegularImmutableSet;->size:I
 
     return v0

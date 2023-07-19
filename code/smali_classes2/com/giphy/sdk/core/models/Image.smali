@@ -70,7 +70,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/giphy/sdk/core/models/Image$1;
 
     invoke-direct {v0}, Lcom/giphy/sdk/core/models/Image$1;-><init>()V
@@ -83,7 +82,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -92,80 +90,68 @@
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Image;->gifUrl:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/giphy/sdk/core/models/Image;->width:I
 
-    .line 5
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/giphy/sdk/core/models/Image;->height:I
 
-    .line 6
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/giphy/sdk/core/models/Image;->gifSize:I
 
-    .line 7
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/giphy/sdk/core/models/Image;->frames:I
 
-    .line 8
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Image;->mp4Url:Ljava/lang/String;
 
-    .line 9
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/giphy/sdk/core/models/Image;->mp4Size:I
 
-    .line 10
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Image;->webPUrl:Ljava/lang/String;
 
-    .line 11
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/giphy/sdk/core/models/Image;->webPSize:I
 
-    .line 12
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Image;->mediaId:Ljava/lang/String;
 
-    .line 13
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
@@ -174,7 +160,6 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 14
     invoke-static {}, Lcom/giphy/sdk/core/models/enums/RenditionType;->values()[Lcom/giphy/sdk/core/models/enums/RenditionType;
 
     move-result-object v0
@@ -205,7 +190,6 @@
 .method public getFrames()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/giphy/sdk/core/models/Image;->frames:I
 
     return v0
@@ -214,7 +198,6 @@
 .method public getGifSize()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/giphy/sdk/core/models/Image;->gifSize:I
 
     return v0
@@ -223,7 +206,6 @@
 .method public getGifUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Image;->gifUrl:Ljava/lang/String;
 
     return-object v0
@@ -232,7 +214,6 @@
 .method public getHeight()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/giphy/sdk/core/models/Image;->height:I
 
     return v0
@@ -241,7 +222,6 @@
 .method public getMediaId()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Image;->mediaId:Ljava/lang/String;
 
     return-object v0
@@ -250,7 +230,6 @@
 .method public getMp4Size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/giphy/sdk/core/models/Image;->mp4Size:I
 
     return v0
@@ -259,7 +238,6 @@
 .method public getMp4Url()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Image;->mp4Url:Ljava/lang/String;
 
     return-object v0
@@ -268,7 +246,6 @@
 .method public getRenditionType()Lcom/giphy/sdk/core/models/enums/RenditionType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Image;->renditionType:Lcom/giphy/sdk/core/models/enums/RenditionType;
 
     return-object v0
@@ -277,7 +254,6 @@
 .method public getWebPSize()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/giphy/sdk/core/models/Image;->webPSize:I
 
     return v0
@@ -286,7 +262,6 @@
 .method public getWebPUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Image;->webPUrl:Ljava/lang/String;
 
     return-object v0
@@ -295,7 +270,6 @@
 .method public getWidth()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/giphy/sdk/core/models/Image;->width:I
 
     return v0
@@ -304,7 +278,6 @@
 .method setFrames(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/giphy/sdk/core/models/Image;->frames:I
 
     return-void
@@ -313,7 +286,6 @@
 .method setGifUrl(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/models/Image;->gifUrl:Ljava/lang/String;
 
     return-void
@@ -322,7 +294,6 @@
 .method setHeight(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/giphy/sdk/core/models/Image;->height:I
 
     return-void
@@ -331,7 +302,6 @@
 .method setMediaId(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/models/Image;->mediaId:Ljava/lang/String;
 
     return-void
@@ -340,7 +310,6 @@
 .method setMp4Url(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/models/Image;->mp4Url:Ljava/lang/String;
 
     return-void
@@ -349,7 +318,6 @@
 .method setRenditionType(Lcom/giphy/sdk/core/models/enums/RenditionType;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/models/Image;->renditionType:Lcom/giphy/sdk/core/models/enums/RenditionType;
 
     return-void
@@ -358,7 +326,6 @@
 .method setWidth(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/giphy/sdk/core/models/Image;->width:I
 
     return-void
@@ -367,57 +334,46 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
 
-    .line 1
     iget-object p2, p0, Lcom/giphy/sdk/core/models/Image;->gifUrl:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 2
     iget p2, p0, Lcom/giphy/sdk/core/models/Image;->width:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 3
     iget p2, p0, Lcom/giphy/sdk/core/models/Image;->height:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 4
     iget p2, p0, Lcom/giphy/sdk/core/models/Image;->gifSize:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 5
     iget p2, p0, Lcom/giphy/sdk/core/models/Image;->frames:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 6
     iget-object p2, p0, Lcom/giphy/sdk/core/models/Image;->mp4Url:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 7
     iget p2, p0, Lcom/giphy/sdk/core/models/Image;->mp4Size:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 8
     iget-object p2, p0, Lcom/giphy/sdk/core/models/Image;->webPUrl:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 9
     iget p2, p0, Lcom/giphy/sdk/core/models/Image;->webPSize:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 10
     iget-object p2, p0, Lcom/giphy/sdk/core/models/Image;->mediaId:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 11
     iget-object p2, p0, Lcom/giphy/sdk/core/models/Image;->renditionType:Lcom/giphy/sdk/core/models/enums/RenditionType;
 
     if-eqz p2, :cond_0

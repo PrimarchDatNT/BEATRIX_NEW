@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     :try_start_0
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
@@ -29,7 +27,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -65,7 +62,6 @@
 
     new-array v0, v0, [B
 
-    .line 1
     :goto_0
     invoke-virtual {p0, v0}, Ljava/io/InputStream;->read([B)I
 
@@ -77,7 +73,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {p1, v0, v2, v1}, Ljava/io/OutputStream;->write([BII)V
 
     goto :goto_0
@@ -85,7 +80,6 @@
     :cond_0
     return-void
 
-    .line 3
     :cond_1
     new-instance p0, Ljava/io/IOException;
 
@@ -114,7 +108,6 @@
 
     const-wide/16 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-virtual {p0, v0}, Ljava/io/InputStream;->read([B)I
 
@@ -134,12 +127,10 @@
 
     const/4 v4, 0x0
 
-    .line 5
     invoke-virtual {p1, v0, v4, v3}, Ljava/io/OutputStream;->write([BII)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p0, Ljava/io/IOException;
 
@@ -174,7 +165,6 @@
     :cond_1
     return-void
 
-    .line 7
     :cond_2
     new-instance p0, Ljava/io/IOException;
 
@@ -193,12 +183,10 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1, v1, v0}, Ljava/io/InputStream;->read([BII)I
 

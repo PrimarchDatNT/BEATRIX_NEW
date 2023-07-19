@@ -39,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript$a;->c:Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -56,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript$a;->d(Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript$Model;)V
@@ -81,7 +79,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript$a;->c:Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript;->I(Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript;)Ljava/lang/ref/WeakReference;
@@ -98,7 +95,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string/jumbo v3, "source_click_position"
@@ -107,12 +103,10 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript$Model;->getSource()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 4
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -121,7 +115,6 @@
 
     if-nez v3, :cond_0
 
-    .line 5
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -129,7 +122,6 @@
 
     invoke-virtual {v2, v4, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript$Model;->getSource()Ljava/lang/String;
 
@@ -137,7 +129,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/billing/activity/c;->a(Landroid/app/Activity;Ljava/lang/String;)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

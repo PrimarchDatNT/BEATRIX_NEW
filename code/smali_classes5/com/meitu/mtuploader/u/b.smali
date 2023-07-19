@@ -53,7 +53,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -80,14 +79,12 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/meitu/mtuploader/bean/MtTokenBean;->getOrder()Ljava/util/List;
 
     move-result-object v2
 
     const/4 v3, 0x0
 
-    .line 2
     invoke-interface {v2, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -100,7 +97,6 @@
 
     xor-int/lit8 v11, v4, 0x1
 
-    .line 3
     invoke-interface {v2, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -113,7 +109,6 @@
 
     xor-int/lit8 v9, v2, 0x1
 
-    .line 4
     invoke-virtual {p2}, Lcom/meitu/mtuploader/bean/MtTokenBean;->getMtyun()Lcom/meitu/mtuploader/bean/MtTokenItem;
 
     move-result-object v4
@@ -130,14 +125,12 @@
 
     move-object/from16 v10, p6
 
-    .line 5
     invoke-direct/range {v3 .. v10}, Lcom/meitu/mtuploader/u/b;->c(Lcom/meitu/mtuploader/bean/MtTokenItem;Ljava/lang/String;JIILcom/meitu/mtuploader/bean/MtBusinessBean;)Landroid/content/ContentValues;
 
     move-result-object v2
 
     invoke-interface {p1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :cond_0
     invoke-virtual {p2}, Lcom/meitu/mtuploader/bean/MtTokenBean;->getQiniu()Lcom/meitu/mtuploader/bean/MtTokenItem;
 
@@ -155,14 +148,12 @@
 
     move-object/from16 v12, p6
 
-    .line 7
     invoke-direct/range {v5 .. v12}, Lcom/meitu/mtuploader/u/b;->c(Lcom/meitu/mtuploader/bean/MtTokenItem;Ljava/lang/String;JIILcom/meitu/mtuploader/bean/MtBusinessBean;)Landroid/content/ContentValues;
 
     move-result-object v2
 
     invoke-interface {p1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     :cond_1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -178,7 +169,6 @@
 
     const-string v1, "orders"
 
-    .line 1
     invoke-interface {p1, v1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v1
@@ -195,10 +185,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p2, p3}, Lcom/meitu/mtuploader/bean/MtTokenBean;->setMtyun(Lcom/meitu/mtuploader/bean/MtTokenItem;)V
 
-    .line 3
     invoke-virtual {p2}, Lcom/meitu/mtuploader/bean/MtTokenBean;->getOrder()Ljava/util/List;
 
     move-result-object p1
@@ -207,11 +195,9 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p2, p3}, Lcom/meitu/mtuploader/bean/MtTokenBean;->setQiniu(Lcom/meitu/mtuploader/bean/MtTokenItem;)V
 
-    .line 5
     invoke-virtual {p2}, Lcom/meitu/mtuploader/bean/MtTokenBean;->getOrder()Ljava/util/List;
 
     move-result-object p1
@@ -220,7 +206,6 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -234,62 +219,50 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getBackupUrl()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getKey()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getToken()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 4
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getUrl()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 5
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getChunkSize()I
 
     move-result v5
 
-    .line 6
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getConnectTimeout()I
 
     move-result v6
 
-    .line 7
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getSocketTimeout()I
 
     move-result v7
 
-    .line 8
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getTtl()I
 
     move-result v8
 
-    .line 9
     invoke-virtual/range {p7 .. p7}, Lcom/meitu/mtuploader/bean/MtBusinessBean;->getUploadKey()Ljava/lang/String;
 
     move-result-object v9
 
-    .line 10
     invoke-virtual/range {p7 .. p7}, Lcom/meitu/mtuploader/bean/MtBusinessBean;->getFileType()Ljava/lang/String;
 
     move-result-object v10
 
-    .line 11
     invoke-virtual/range {p7 .. p7}, Lcom/meitu/mtuploader/bean/MtBusinessBean;->getSuffix()Ljava/lang/String;
 
     move-result-object v11
 
-    .line 12
     new-instance v12, Landroid/content/ContentValues;
 
     invoke-direct {v12}, Landroid/content/ContentValues;-><init>()V
@@ -298,10 +271,8 @@
 
     move-object/from16 v14, p2
 
-    .line 13
     invoke-virtual {v12, v13, v14}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static/range {p5 .. p5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v13
@@ -310,7 +281,6 @@
 
     invoke-virtual {v12, v14, v13}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
-    .line 15
     invoke-static/range {p6 .. p6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v13
@@ -319,7 +289,6 @@
 
     invoke-virtual {v12, v14, v13}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
-    .line 16
     invoke-static/range {p3 .. p4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v13
@@ -330,25 +299,20 @@
 
     const-string v13, "backup_url"
 
-    .line 17
     invoke-virtual {v12, v13, v1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "key"
 
-    .line 18
     invoke-virtual {v12, v1, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "token"
 
-    .line 19
     invoke-virtual {v12, v1, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "url"
 
-    .line 20
     invoke-virtual {v12, v1, v4}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 21
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -357,7 +321,6 @@
 
     invoke-virtual {v12, v2, v1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
-    .line 22
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -366,7 +329,6 @@
 
     invoke-virtual {v12, v2, v1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
-    .line 23
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -375,7 +337,6 @@
 
     invoke-virtual {v12, v2, v1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
-    .line 24
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -386,20 +347,16 @@
 
     const-string v1, "uploadkey"
 
-    .line 25
     invoke-virtual {v12, v1, v9}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "filetype"
 
-    .line 26
     invoke-virtual {v12, v1, v10}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "suffix"
 
-    .line 27
     invoke-virtual {v12, v1, v11}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 28
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v12
@@ -414,7 +371,6 @@
 
     const-string v1, "groupid"
 
-    .line 1
     invoke-interface {p1, v1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v1
@@ -425,7 +381,6 @@
 
     const-string v2, "sequence"
 
-    .line 2
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v2
@@ -434,12 +389,10 @@
 
     move-result p1
 
-    .line 3
     new-instance v2, Lcom/meitu/mtuploader/u/b$a;
 
     invoke-direct {v2, p0, v1, p1}, Lcom/meitu/mtuploader/u/b$a;-><init>(Lcom/meitu/mtuploader/u/b;II)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -452,14 +405,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtuploader/bean/MtTokenItem;
 
     invoke-direct {v1}, Lcom/meitu/mtuploader/bean/MtTokenItem;-><init>()V
 
     const-string v2, "backup_url"
 
-    .line 2
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v2
@@ -472,7 +423,6 @@
 
     const-string v2, "key"
 
-    .line 3
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v2
@@ -485,7 +435,6 @@
 
     const-string v2, "token"
 
-    .line 4
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v2
@@ -498,7 +447,6 @@
 
     const-string v2, "url"
 
-    .line 5
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v2
@@ -511,7 +459,6 @@
 
     const-string v2, "chunk_size"
 
-    .line 6
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v2
@@ -524,7 +471,6 @@
 
     const-string v2, "connect_timeout"
 
-    .line 7
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v2
@@ -537,7 +483,6 @@
 
     const-string v2, "socket_timeout"
 
-    .line 8
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v2
@@ -548,10 +493,8 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->setSocketTimeout(I)V
 
-    .line 9
     invoke-virtual {v1, p2}, Lcom/meitu/mtuploader/bean/MtTokenItem;->setTtl(I)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -566,7 +509,6 @@
 
     const-string v1, "groupid"
 
-    .line 1
     filled-new-array {v1}, [Ljava/lang/String;
 
     move-result-object v4
@@ -583,12 +525,10 @@
 
     move-object v3, p2
 
-    .line 2
     invoke-static/range {v2 .. v8}, Lcom/meitu/mtuploader/u/a;->e(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object p1
 
-    .line 3
     invoke-interface {p1}, Landroid/database/Cursor;->moveToFirst()Z
 
     move-result p2
@@ -597,7 +537,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 4
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -620,7 +559,6 @@
 
     invoke-static {v2, p2}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-interface {p1, v1}, Landroid/database/Cursor;->getInt(I)I
 
     move-result p1
@@ -629,7 +567,6 @@
 
     return p1
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -643,7 +580,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -660,7 +596,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -668,7 +603,6 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -692,14 +626,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-interface {p2}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -717,7 +649,6 @@
 
     check-cast v1, Lcom/meitu/mtuploader/u/b$a;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/mtuploader/u/b$a;->a()I
 
     move-result v1
@@ -738,12 +669,10 @@
 
     const-string v3, "groupid=?"
 
-    .line 4
     invoke-static {p1, v1, v3, v2}, Lcom/meitu/mtuploader/u/a;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -769,21 +698,17 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-interface {p2}, Landroid/database/Cursor;->isClosed()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-interface {p2}, Landroid/database/Cursor;->close()V
 
-    .line 3
     :cond_0
     invoke-direct {p0, p1, p3}, Lcom/meitu/mtuploader/u/b;->i(Landroid/content/Context;Ljava/util/List;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -802,12 +727,10 @@
 
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v10, Ljava/util/ArrayList;
 
     invoke-direct {v10}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-virtual/range {p3 .. p3}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getUploadKey()Ljava/lang/String;
 
     move-result-object v1
@@ -825,7 +748,6 @@
 
     move-result-object v1
 
-    .line 3
     :goto_0
     invoke-virtual/range {p3 .. p3}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getFileType()Ljava/lang/String;
 
@@ -842,7 +764,6 @@
 
     move-result-object v3
 
-    .line 4
     :goto_1
     invoke-virtual/range {p3 .. p3}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getSuffix()Ljava/lang/String;
 
@@ -886,12 +807,10 @@
 
     move-object/from16 v2, p2
 
-    .line 5
     invoke-static/range {v1 .. v7}, Lcom/meitu/mtuploader/u/a;->e(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -918,7 +837,6 @@
 
     if-eqz v1, :cond_9
 
-    .line 7
     invoke-interface {v1}, Landroid/database/Cursor;->moveToFirst()Z
 
     move-result v4
@@ -927,7 +845,6 @@
 
     const-string v4, "groupid"
 
-    .line 8
     invoke-interface {v1, v4}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v5
@@ -936,26 +853,22 @@
 
     move-result v5
 
-    .line 9
     new-instance v6, Lcom/meitu/mtuploader/bean/MtTokenBean;
 
     invoke-direct {v6}, Lcom/meitu/mtuploader/bean/MtTokenBean;-><init>()V
 
-    .line 10
     invoke-virtual {v6}, Lcom/meitu/mtuploader/bean/MtTokenBean;->getOrder()Ljava/util/List;
 
     move-result-object v7
 
     if-nez v7, :cond_3
 
-    .line 11
     new-instance v7, Ljava/util/ArrayList;
 
     invoke-direct {v7}, Ljava/util/ArrayList;-><init>()V
 
     invoke-virtual {v6, v7}, Lcom/meitu/mtuploader/bean/MtTokenBean;->setOrder(Ljava/util/List;)V
 
-    .line 12
     :cond_3
     :goto_3
     invoke-interface {v1}, Landroid/database/Cursor;->getCount()I
@@ -964,7 +877,6 @@
 
     if-ge v11, v7, :cond_9
 
-    .line 13
     invoke-interface {v1, v4}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v7
@@ -979,7 +891,6 @@
 
     const-string v7, "ttl"
 
-    .line 14
     invoke-interface {v1, v7}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v7
@@ -990,7 +901,6 @@
 
     const-string v14, "starttime"
 
-    .line 15
     invoke-interface {v1, v14}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v14
@@ -999,19 +909,16 @@
 
     move-result-wide v14
 
-    .line 16
     invoke-direct {v0, v1, v7}, Lcom/meitu/mtuploader/u/b;->e(Landroid/database/Cursor;I)Lcom/meitu/mtuploader/bean/MtTokenItem;
 
     move-result-object v12
 
-    .line 17
     invoke-direct {v0, v14, v15, v7}, Lcom/meitu/mtuploader/u/b;->h(JI)Z
 
     move-result v7
 
     if-eqz v7, :cond_5
 
-    .line 18
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -1032,66 +939,54 @@
 
     invoke-static {v3, v7}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 19
     invoke-direct {v0, v1}, Lcom/meitu/mtuploader/u/b;->d(Landroid/database/Cursor;)Lcom/meitu/mtuploader/u/b$a;
 
     move-result-object v7
 
     invoke-interface {v10, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 20
     invoke-interface {v1}, Landroid/database/Cursor;->moveToNext()Z
 
     move-result v7
 
     if-nez v7, :cond_4
 
-    .line 21
     invoke-static/range {p1 .. p2}, Lcom/meitu/mtuploader/u/a;->a(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 22
     invoke-direct {v0, v8, v1, v10}, Lcom/meitu/mtuploader/u/b;->j(Landroid/content/Context;Landroid/database/Cursor;Ljava/util/List;)V
 
-    .line 23
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 24
     :cond_4
     invoke-virtual {v6}, Lcom/meitu/mtuploader/bean/MtTokenBean;->clearBean()V
 
     goto :goto_4
 
-    .line 25
     :cond_5
     invoke-direct {v0, v1, v6, v12}, Lcom/meitu/mtuploader/u/b;->b(Landroid/database/Cursor;Lcom/meitu/mtuploader/bean/MtTokenBean;Lcom/meitu/mtuploader/bean/MtTokenItem;)V
 
-    .line 26
     invoke-direct {v0, v1}, Lcom/meitu/mtuploader/u/b;->d(Landroid/database/Cursor;)Lcom/meitu/mtuploader/u/b$a;
 
     move-result-object v7
 
     invoke-interface {v10, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 27
     invoke-interface {v1}, Landroid/database/Cursor;->moveToNext()Z
 
     move-result v7
 
     if-nez v7, :cond_8
 
-    .line 28
     invoke-virtual {v0, v6}, Lcom/meitu/mtuploader/u/b;->l(Lcom/meitu/mtuploader/bean/MtTokenBean;)Z
 
     move-result v7
 
     if-eqz v7, :cond_8
 
-    .line 29
     invoke-direct {v0, v8, v1, v10}, Lcom/meitu/mtuploader/u/b;->j(Landroid/content/Context;Landroid/database/Cursor;Ljava/util/List;)V
 
-    .line 30
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1110,12 +1005,10 @@
 
     invoke-static {v3, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 31
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v6
 
-    .line 32
     :cond_6
     invoke-virtual {v0, v6}, Lcom/meitu/mtuploader/u/b;->l(Lcom/meitu/mtuploader/bean/MtTokenBean;)Z
 
@@ -1123,10 +1016,8 @@
 
     if-eqz v7, :cond_7
 
-    .line 33
     invoke-direct {v0, v8, v1, v10}, Lcom/meitu/mtuploader/u/b;->j(Landroid/content/Context;Landroid/database/Cursor;Ljava/util/List;)V
 
-    .line 34
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1145,7 +1036,6 @@
 
     invoke-static {v3, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 35
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v6
@@ -1165,11 +1055,9 @@
 
     goto/16 :goto_3
 
-    .line 36
     :cond_9
     invoke-direct {v0, v8, v1, v10}, Lcom/meitu/mtuploader/u/b;->j(Landroid/content/Context;Landroid/database/Cursor;Ljava/util/List;)V
 
-    .line 37
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -1199,7 +1087,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 1
     invoke-interface/range {p2 .. p2}, Ljava/util/List;->size()I
 
     move-result v3
@@ -1208,7 +1095,6 @@
 
     if-le v3, v4, :cond_1
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v12
@@ -1217,14 +1103,12 @@
 
     move-object/from16 v14, p0
 
-    .line 3
     invoke-direct {v14, v0, v3}, Lcom/meitu/mtuploader/u/b;->f(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v5
 
     add-int/2addr v5, v4
 
-    .line 4
     new-instance v15, Ljava/util/ArrayList;
 
     invoke-direct {v15}, Ljava/util/ArrayList;-><init>()V
@@ -1233,7 +1117,6 @@
 
     const/4 v11, 0x1
 
-    .line 5
     :goto_0
     invoke-interface/range {p2 .. p2}, Ljava/util/List;->size()I
 
@@ -1241,7 +1124,6 @@
 
     if-ge v11, v5, :cond_0
 
-    .line 6
     invoke-interface {v1, v11}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -1262,7 +1144,6 @@
 
     move-object/from16 v11, p3
 
-    .line 7
     invoke-direct/range {v5 .. v11}, Lcom/meitu/mtuploader/u/b;->a(Ljava/util/List;Lcom/meitu/mtuploader/bean/MtTokenBean;JILcom/meitu/mtuploader/bean/MtBusinessBean;)V
 
     add-int/lit8 v16, v16, 0x1
@@ -1271,7 +1152,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-static {v0, v3, v15}, Lcom/meitu/mtuploader/u/a;->d(Landroid/content/Context;Ljava/lang/String;Ljava/util/List;)V
 
@@ -1280,7 +1160,6 @@
     :cond_1
     move-object/from16 v14, p0
 
-    .line 9
     :goto_1
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1296,7 +1175,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/mtuploader/bean/MtTokenBean;->getOrder()Ljava/util/List;
 
     move-result-object v1
@@ -1313,7 +1191,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/mtuploader/bean/MtTokenBean;->getMtyun()Lcom/meitu/mtuploader/bean/MtTokenItem;
 
     move-result-object v1
@@ -1329,7 +1206,6 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1337,7 +1213,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

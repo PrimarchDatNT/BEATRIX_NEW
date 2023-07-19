@@ -17,18 +17,14 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/o4;IZZ)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/q4;->d:Lcom/google/android/gms/measurement/internal/o4;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p2, p0, Lcom/google/android/gms/measurement/internal/q4;->a:I
 
-    .line 3
     iput-boolean p3, p0, Lcom/google/android/gms/measurement/internal/q4;->b:Z
 
-    .line 4
     iput-boolean p4, p0, Lcom/google/android/gms/measurement/internal/q4;->c:Z
 
     return-void
@@ -39,7 +35,6 @@
 .method public final a(Ljava/lang/String;)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/q4;->d:Lcom/google/android/gms/measurement/internal/o4;
 
     iget v1, p0, Lcom/google/android/gms/measurement/internal/q4;->a:I
@@ -64,7 +59,6 @@
 .method public final b(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/q4;->d:Lcom/google/android/gms/measurement/internal/o4;
 
     iget v1, p0, Lcom/google/android/gms/measurement/internal/q4;->a:I
@@ -89,7 +83,6 @@
 .method public final c(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/q4;->d:Lcom/google/android/gms/measurement/internal/o4;
 
     iget v1, p0, Lcom/google/android/gms/measurement/internal/q4;->a:I
@@ -114,7 +107,6 @@
 .method public final d(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/q4;->d:Lcom/google/android/gms/measurement/internal/o4;
 
     iget v1, p0, Lcom/google/android/gms/measurement/internal/q4;->a:I

@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/material/HomeFilterModuleVH$b;->a:Lcom/commsource/home/material/HomeFilterModuleVH;
 
     iput-object p2, p0, Lcom/commsource/home/material/HomeFilterModuleVH$b;->b:Landroidx/recyclerview/widget/LinearLayoutManager;
@@ -59,19 +58,16 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/home/material/HomeFilterModuleVH$b;->a:Lcom/commsource/home/material/HomeFilterModuleVH;
 
     invoke-virtual {p1}, Lcom/commsource/home/material/HomeFilterModuleVH;->D()V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/home/material/HomeFilterModuleVH$b;->b:Landroidx/recyclerview/widget/LinearLayoutManager;
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/LinearLayoutManager;->findFirstCompletelyVisibleItemPosition()I
 
     move-result p1
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/home/material/HomeFilterModuleVH$b;->a:Lcom/commsource/home/material/HomeFilterModuleVH;
 
     invoke-virtual {p3}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -92,7 +88,6 @@
 
     invoke-virtual {p3, v0, p1}, Lcom/commsource/widget/h1/d;->a(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

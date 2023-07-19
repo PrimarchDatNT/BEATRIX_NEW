@@ -52,7 +52,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -69,28 +68,23 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     sget-object p1, Lcom/pixocial/uichecker/a;->a:Lcom/pixocial/uichecker/a;
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v1}, Lcom/pixocial/uichecker/a;->a(Z)V
 
-    .line 3
     invoke-static {v1}, Lf/d/i/e;->c4(Z)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object p1, Lcom/pixocial/uichecker/a;->a:Lcom/pixocial/uichecker/a;
 
     invoke-virtual {p1, v1}, Lcom/pixocial/uichecker/a;->a(Z)V
 
-    .line 5
     invoke-static {v1}, Lf/d/i/e;->c4(Z)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$f$a;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity$f;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$f;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
@@ -109,7 +103,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

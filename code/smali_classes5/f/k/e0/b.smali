@@ -21,7 +21,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/e0/b;
 
     invoke-direct {v1}, Lf/k/e0/b;-><init>()V
@@ -36,7 +35,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -73,7 +71,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/e0/b;->b(Landroid/content/Context;)Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     move-result-object p2
@@ -81,7 +78,6 @@
     :cond_0
     if-nez p3, :cond_1
 
-    .line 2
     new-instance p3, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     invoke-direct {p3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
@@ -89,12 +85,10 @@
     :cond_1
     if-nez p4, :cond_2
 
-    .line 3
     invoke-direct {p0, p10}, Lf/k/e0/b;->c(Landroid/graphics/Bitmap;)Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     move-result-object p4
 
-    .line 4
     :cond_2
     new-instance p1, Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethOption;
 
@@ -102,48 +96,38 @@
 
     const-wide/16 v1, 0x7
 
-    .line 5
     iput-wide v1, p1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const v1, 0x3dcccccd    # 0.1f
 
-    .line 6
     iput v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethOption;->fDownThreshold:F
 
     const v1, 0x3ecccccd    # 0.4f
 
-    .line 7
     iput v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethOption;->fUpThreshold:F
 
     const/16 v1, 0x1a
 
-    .line 8
     invoke-virtual {p2, v1, p1}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->registerModule(ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;)I
 
-    .line 9
     iput-object p1, p3, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->teethOption:Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethOption;
 
-    .line 10
     iput-object p6, p3, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->facePointsList:Ljava/util/ArrayList;
 
-    .line 11
     iput-object p7, p3, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->mouthMasks:[Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
-    .line 12
     iput-object p8, p3, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->maskMatrixs:Ljava/util/ArrayList;
 
     const/4 p1, 0x0
 
     if-nez p5, :cond_3
 
-    .line 13
     invoke-virtual {p6}, Ljava/util/ArrayList;->size()I
 
     move-result p5
 
     new-array p5, p5, [I
 
-    .line 14
     invoke-virtual {p6}, Ljava/util/ArrayList;->size()I
 
     move-result p6
@@ -153,27 +137,23 @@
     :goto_0
     if-ge p7, p6, :cond_3
 
-    .line 15
     aput p9, p5, p7
 
     add-int/lit8 p7, p7, 0x1
 
     goto :goto_0
 
-    .line 16
     :cond_3
     iget-object p6, p3, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->teethOption:Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethOption;
 
     iput-object p5, p6, Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethOption;->nStrengths:[I
 
-    .line 17
     invoke-virtual {p2, p4, p3}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->run(Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     move-result-object p3
 
     if-eqz p3, :cond_8
 
-    .line 18
     iget-object p4, p3, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->teethResult:Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethResult;
 
     if-eqz p4, :cond_7
@@ -194,14 +174,11 @@
 
     goto :goto_3
 
-    .line 19
     :cond_4
     iget-object p3, p3, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->teethResult:Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethResult;
 
-    .line 20
     invoke-virtual {p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
-    .line 21
     iget-object p2, p3, Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethResult;->image:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     const-string p4, "teethResult.image"
@@ -218,7 +195,6 @@
 
     new-array p2, p2, [B
 
-    .line 22
     iget-object p5, p3, Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethResult;->image:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     invoke-static {p5, p4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
@@ -229,12 +205,10 @@
 
     invoke-virtual {p4, p2}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
 
-    .line 23
     invoke-static {}, Lcom/meitu/core/types/NativeBitmap;->createBitmap()Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p4
 
-    .line 24
     iget-object p5, p3, Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     iget p6, p5, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->width:I
@@ -245,24 +219,20 @@
 
     const-string p2, "nativeBitmap"
 
-    .line 25
     invoke-static {p4, p2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p4}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
 
     move-result-object p2
 
-    .line 26
     invoke-virtual {p4}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 27
     iget-object p4, p3, Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethResult;->strengths:[I
 
     if-eqz p4, :cond_6
 
     const-string p5, "teethResult.strengths"
 
-    .line 28
     invoke-static {p4, p5}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     array-length p4, p4
@@ -272,7 +242,6 @@
     :goto_1
     if-ge p5, p4, :cond_6
 
-    .line 29
     iget-object p6, p3, Lcom/meitu/mtlab/MTAiInterface/MTTeethModule/MTTeethResult;->strengths:[I
 
     aget p6, p6, p5
@@ -297,7 +266,6 @@
 
     goto :goto_1
 
-    .line 30
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -309,15 +277,12 @@
 
     const-string p2, "MTTeeth Result Error"
 
-    .line 31
     invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 32
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p10
 
-    .line 33
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -331,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const/4 v2, 0x0
@@ -340,10 +304,8 @@
 
     const-string p1, "MTAiModel"
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->setModelDirectory(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -356,20 +318,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->createImageFromBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     move-result-object p1
 
-    .line 2
     new-instance v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     invoke-direct {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;-><init>()V
 
-    .line 3
     iput-object p1, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -424,7 +382,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v2, Lf/k/e0/b;->a:Lf/k/e0/b;
 
     const/4 v5, 0x0
@@ -518,7 +475,6 @@
 
     invoke-static {p5, v1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v2, Lf/k/e0/b;->a:Lf/k/e0/b;
 
     const/4 v8, 0x0
@@ -646,7 +602,6 @@
 
     invoke-static {v11, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, v5
 
     const/4 v2, 0x0
@@ -683,7 +638,6 @@
     :goto_1
     and-int/2addr v0, v4
 
-    .line 2
     array-length v4, v7
 
     invoke-virtual/range {p3 .. p3}, Ljava/util/ArrayList;->size()I
@@ -702,7 +656,6 @@
     :goto_2
     and-int/2addr v0, v4
 
-    .line 3
     invoke-virtual/range {p5 .. p5}, Ljava/util/ArrayList;->size()I
 
     move-result v4
@@ -718,7 +671,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 4
     sget-object v0, Lf/k/e0/b;->a:Lf/k/e0/b;
 
     const/4 v2, 0x0
@@ -764,7 +716,6 @@
 
     move-object/from16 v5, p6
 
-    .line 5
     invoke-static/range {v0 .. v5}, Lf/k/e0/b;->e(Landroid/content/Context;Landroid/graphics/Bitmap;[ILcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;[Ljava/lang/Integer;Ljava/util/ArrayList;)Landroid/graphics/Bitmap;
 
     move-result-object v0
@@ -781,40 +732,32 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;
 
     invoke-direct {v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;-><init>()V
 
     const/4 v2, 0x2
 
-    .line 2
     iput v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->mode:I
 
     const-wide/32 v2, 0x808001
 
-    .line 3
     iput-wide v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {p1, v2, v1}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->registerModule(ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;)I
 
-    .line 5
     iput-object v1, p3, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->faceOption:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;
 
-    .line 6
     invoke-virtual {p1, p2, p3}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->run(Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     move-result-object p2
 
-    .line 7
     invoke-virtual {p1, v2}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     if-eqz p2, :cond_0
 
-    .line 8
     iget-object p1, p2, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     goto :goto_0
@@ -857,24 +800,20 @@
 
     invoke-static {v13}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct/range {p0 .. p1}, Lf/k/e0/b;->b(Landroid/content/Context;)Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     move-result-object v2
 
-    .line 2
     invoke-direct {v12, v10}, Lf/k/e0/b;->c(Landroid/graphics/Bitmap;)Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     move-result-object v4
 
-    .line 3
     new-instance v3, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     invoke-direct {v3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
 
     if-nez p4, :cond_0
 
-    .line 4
     invoke-direct {v12, v2, v4, v3}, Lf/k/e0/b;->g(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-result-object v1
@@ -887,7 +826,6 @@
     :goto_0
     if-eqz v1, :cond_9
 
-    .line 5
     iget-object v5, v1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     if-eqz v5, :cond_9
@@ -912,7 +850,6 @@
 
     if-eqz v5, :cond_2
 
-    .line 6
     array-length v5, v5
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -924,23 +861,19 @@
     :cond_2
     const/4 v5, 0x0
 
-    .line 7
     :goto_2
     new-instance v6, Ljava/util/ArrayList;
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    .line 8
     new-instance v9, Ljava/util/ArrayList;
 
     invoke-direct {v9}, Ljava/util/ArrayList;-><init>()V
 
-    .line 9
     new-instance v11, Ljava/util/ArrayList;
 
     invoke-direct {v11}, Ljava/util/ArrayList;-><init>()V
 
-    .line 10
     invoke-static {v5}, Lcotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
 
     invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
@@ -952,14 +885,12 @@
     :goto_3
     if-ge v14, v5, :cond_7
 
-    .line 11
     iget-object v15, v1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     aget-object v15, v15, v14
 
     if-eqz v0, :cond_6
 
-    .line 12
     array-length v7, v0
 
     if-nez v7, :cond_3
@@ -976,7 +907,6 @@
 
     if-ne v7, v8, :cond_6
 
-    .line 13
     array-length v7, v0
 
     const/4 v8, 0x0
@@ -990,7 +920,6 @@
 
     move-result v13
 
-    .line 14
     iget v0, v15, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->ID:I
 
     if-ne v13, v0, :cond_4
@@ -1016,18 +945,15 @@
 
     goto :goto_7
 
-    .line 15
     :cond_6
     iget-object v0, v15, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
     invoke-virtual {v6, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 16
     iget-object v0, v15, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->lipMask:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     invoke-virtual {v9, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 17
     iget-object v0, v15, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->maskMatrix:[F
 
     invoke-virtual {v11, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -1043,7 +969,6 @@
 
     goto :goto_3
 
-    .line 18
     :cond_7
     invoke-virtual {v9}, Ljava/util/ArrayList;->size()I
 
@@ -1083,7 +1008,6 @@
 
     move-object/from16 v11, p7
 
-    .line 19
     invoke-direct/range {v0 .. v11}, Lf/k/e0/b;->a(Landroid/content/Context;Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;[ILjava/util/ArrayList;[Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;Ljava/util/ArrayList;ILandroid/graphics/Bitmap;Ljava/util/ArrayList;)Landroid/graphics/Bitmap;
 
     move-result-object v0
@@ -1097,7 +1021,6 @@
     :cond_9
     const v1, 0xba57
 
-    .line 20
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v10

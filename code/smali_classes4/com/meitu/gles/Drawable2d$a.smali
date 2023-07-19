@@ -26,7 +26,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/gles/Drawable2d$Prefab;->values()[Lcom/meitu/gles/Drawable2d$Prefab;
 
     move-result-object v1

@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/component/AutoManualComponent$a;->a:Lcom/commsource/studio/component/AutoManualComponent;
 
     invoke-virtual {v0}, Lcom/commsource/studio/component/AutoManualComponent;->getForceManualMode()Z
@@ -68,7 +67,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/component/AutoManualComponent$a;->a:Lcom/commsource/studio/component/AutoManualComponent;
 
     invoke-virtual {v0}, Lcom/commsource/studio/component/AutoManualComponent;->getForceTips()Ljava/lang/String;
@@ -77,12 +75,10 @@
 
     invoke-static {v0}, Lf/k/c/c/f;->m(Ljava/lang/CharSequence;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/commsource/studio/component/AutoManualComponent$a;->a:Lcom/commsource/studio/component/AutoManualComponent;
 
@@ -127,7 +123,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/component/AutoManualComponent$b;->C(Z)V
 
-    .line 5
     :cond_4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

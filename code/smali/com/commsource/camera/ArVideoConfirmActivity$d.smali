@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/camera/ArVideoConfirmActivity;F)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$d;->b:Lcom/commsource/camera/ArVideoConfirmActivity;
 
     iput p2, p0, Lcom/commsource/camera/ArVideoConfirmActivity$d;->a:F
@@ -43,10 +42,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$d;->b:Lcom/commsource/camera/ArVideoConfirmActivity;
 
     invoke-static {p1}, Lcom/commsource/camera/ArVideoConfirmActivity;->W0(Lcom/commsource/camera/ArVideoConfirmActivity;)Landroid/widget/FrameLayout;
@@ -57,7 +54,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

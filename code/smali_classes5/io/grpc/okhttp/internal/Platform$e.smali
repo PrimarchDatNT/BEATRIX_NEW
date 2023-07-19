@@ -30,7 +30,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lio/grpc/okhttp/internal/Platform$e;->b()V
 
     return-void
@@ -39,13 +38,10 @@
 .method private constructor <init>(Ljava/security/Provider;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lio/grpc/okhttp/internal/Platform;-><init>(Ljava/security/Provider;)V
 
-    .line 3
     iput-object p2, p0, Lio/grpc/okhttp/internal/Platform$e;->f:Ljava/lang/reflect/Method;
 
-    .line 4
     iput-object p3, p0, Lio/grpc/okhttp/internal/Platform$e;->g:Ljava/lang/reflect/Method;
 
     return-void
@@ -54,7 +50,6 @@
 .method synthetic constructor <init>(Ljava/security/Provider;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Lio/grpc/okhttp/internal/Platform$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lio/grpc/okhttp/internal/Platform$e;-><init>(Ljava/security/Provider;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;)V
 
     return-void
@@ -63,7 +58,6 @@
 .method private static synthetic b()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lio/grpc/okhttp/internal/Platform$e;
@@ -136,7 +130,6 @@
 .method static final synthetic s(Lio/grpc/okhttp/internal/Platform$e;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -147,7 +140,6 @@
 .method static final synthetic t(Lio/grpc/okhttp/internal/Platform$e;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -170,12 +162,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljavax/net/ssl/SSLSocket;->getSSLParameters()Ljavax/net/ssl/SSLParameters;
 
     move-result-object p2
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-interface {p3}, Ljava/util/List;->size()I
@@ -184,7 +174,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p3
@@ -202,14 +191,12 @@
 
     check-cast v1, Lio/grpc/okhttp/internal/Protocol;
 
-    .line 4
     sget-object v2, Lio/grpc/okhttp/internal/Protocol;->HTTP_1_0:Lio/grpc/okhttp/internal/Protocol;
 
     if-ne v1, v2, :cond_0
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v1}, Lio/grpc/okhttp/internal/Protocol;->toString()Ljava/lang/String;
 
@@ -219,7 +206,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     :try_start_0
     iget-object p3, p0, Lio/grpc/okhttp/internal/Platform$e;->f:Ljava/lang/reflect/Method;
@@ -228,7 +214,6 @@
 
     new-array v2, v1, [Ljava/lang/Object;
 
-    .line 7
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v3
@@ -288,7 +273,6 @@
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 8
     invoke-virtual {p1, p2}, Ljavax/net/ssl/SSLSocket;->setSSLParameters(Ljavax/net/ssl/SSLParameters;)V
 
     return-void
@@ -296,7 +280,6 @@
     :catch_0
     move-exception p1
 
-    .line 9
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -306,7 +289,6 @@
     :catch_1
     move-exception p1
 
-    .line 10
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -317,7 +299,6 @@
 .method public k(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;
     .locals 6
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/internal/Platform$e;->g:Ljava/lang/reflect/Method;
 
@@ -381,7 +362,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/lang/RuntimeException;
 
     invoke-direct {v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -391,7 +371,6 @@
     :catch_1
     move-exception p1
 
-    .line 3
     new-instance v0, Ljava/lang/RuntimeException;
 
     invoke-direct {v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -402,7 +381,6 @@
 .method public l()Lio/grpc/okhttp/internal/Platform$TlsExtensionType;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/Platform$TlsExtensionType;->ALPN_AND_NPN:Lio/grpc/okhttp/internal/Platform$TlsExtensionType;
 
     return-object v0

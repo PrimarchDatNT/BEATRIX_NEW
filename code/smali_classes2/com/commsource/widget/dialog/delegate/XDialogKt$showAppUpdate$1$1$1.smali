@@ -80,19 +80,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p1, Landroid/content/Intent;
 
     invoke-direct {p1}, Landroid/content/Intent;-><init>()V
 
     const-string v1, "android.intent.action.VIEW"
 
-    .line 2
     invoke-virtual {p1, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     sget v1, Lcom/res/provider/ResSTRING;->software_grade_url:I
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v1
@@ -103,7 +100,6 @@
 
     invoke-virtual {p1, v1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$showAppUpdate$1$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$showAppUpdate$1$1;
 
     iget-object v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$showAppUpdate$1$1;->$this_XDialog:Lcom/commsource/widget/dialog/delegate/b;
@@ -118,10 +114,8 @@
 
     const/high16 v1, 0x10000000
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$showAppUpdate$1$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$showAppUpdate$1$1;
 
@@ -135,7 +129,6 @@
 
     invoke-virtual {v1, p1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

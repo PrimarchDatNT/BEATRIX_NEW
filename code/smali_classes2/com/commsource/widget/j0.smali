@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/lifecycle/LiveData;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -47,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -76,22 +73,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/lifecycle/LiveData;->hasObservers()Z
 
     move-result v1
 
     xor-int/lit8 v1, v1, 0x1
 
-    .line 2
     invoke-super {p0, p1, p2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/j0;->a()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -116,22 +109,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/lifecycle/LiveData;->hasObservers()Z
 
     move-result v1
 
     xor-int/lit8 v1, v1, 0x1
 
-    .line 2
     invoke-super {p0, p1}, Landroidx/lifecycle/LiveData;->observeForever(Landroidx/lifecycle/Observer;)V
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/j0;->a()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -156,20 +145,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-virtual {p0}, Landroidx/lifecycle/LiveData;->hasObservers()Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/j0;->b()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

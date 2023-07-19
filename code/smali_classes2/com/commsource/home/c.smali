@@ -86,14 +86,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/home/c;
 
     invoke-direct {v1}, Lcom/commsource/home/c;-><init>()V
 
     sput-object v1, Lcom/commsource/home/c;->y:Lcom/commsource/home/c;
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -104,7 +102,6 @@
 
     sput v1, Lcom/commsource/home/c;->a:I
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/p/f/i;->u()I
 
     move-result v2
@@ -143,7 +140,6 @@
 
     const/high16 v2, 0x41900000    # 18.0f
 
-    .line 4
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -158,14 +154,12 @@
 
     const/high16 v2, 0x41a00000    # 20.0f
 
-    .line 5
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
 
     sput v2, Lcom/commsource/home/c;->d:I
 
-    .line 6
     invoke-static {}, Lcom/meitu/library/p/f/i;->P()Z
 
     move-result v2
@@ -188,7 +182,6 @@
 
     const/high16 v2, 0x40c00000    # 6.0f
 
-    .line 7
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v4
@@ -197,7 +190,6 @@
 
     const/high16 v4, 0x41200000    # 10.0f
 
-    .line 8
     invoke-static {v4}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v5
@@ -212,7 +204,6 @@
 
     const/4 v7, 0x6
 
-    .line 9
     div-int/2addr v5, v7
 
     sput v5, Lcom/commsource/home/c;->h:I
@@ -221,7 +212,6 @@
 
     int-to-float v5, v5
 
-    .line 10
     invoke-static {v4}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v4
@@ -232,12 +222,10 @@
 
     const v4, 0x3faaaaab
 
-    .line 11
     sput v4, Lcom/commsource/home/c;->j:F
 
     mul-float v4, v4, v5
 
-    .line 12
     invoke-static {v4}, Lcotlin/e2/b;->H0(F)I
 
     move-result v4
@@ -246,7 +234,6 @@
 
     const/high16 v8, 0x41f00000    # 30.0f
 
-    .line 13
     invoke-static {v8}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v8
@@ -257,14 +244,12 @@
 
     const/4 v4, 0x1
 
-    .line 14
     sput v4, Lcom/commsource/home/c;->m:I
 
     int-to-float v8, v4
 
     mul-float v8, v8, v5
 
-    .line 15
     invoke-static {v8}, Lcotlin/e2/b;->H0(F)I
 
     move-result v8
@@ -275,7 +260,6 @@
 
     mul-float v5, v5, v8
 
-    .line 16
     invoke-static {v5}, Lcotlin/e2/b;->H0(F)I
 
     move-result v5
@@ -292,14 +276,12 @@
 
     const v5, 0x3f048b5c
 
-    .line 17
     sput v5, Lcom/commsource/home/c;->p:F
 
     int-to-float v1, v1
 
     mul-float v1, v1, v5
 
-    .line 18
     invoke-static {v1}, Lcotlin/e2/b;->H0(F)I
 
     move-result v1
@@ -308,7 +290,6 @@
 
     const/high16 v5, 0x42b60000    # 91.0f
 
-    .line 19
     invoke-static {v5}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v5
@@ -317,7 +298,6 @@
 
     sput v1, Lcom/commsource/home/c;->r:I
 
-    .line 20
     new-instance v1, Lcom/bumptech/glide/load/d;
 
     new-array v5, v3, [Lcom/bumptech/glide/load/i;
@@ -344,7 +324,6 @@
 
     sput-object v1, Lcom/commsource/home/c;->s:Lcom/bumptech/glide/load/d;
 
-    .line 21
     new-instance v2, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v2}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -373,7 +352,6 @@
 
     sput-object v1, Lcom/commsource/home/c;->t:Lcom/bumptech/glide/request/g;
 
-    .line 22
     new-instance v1, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v1}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -410,7 +388,6 @@
 
     sput-object v1, Lcom/commsource/home/c;->u:Lcom/bumptech/glide/request/g;
 
-    .line 23
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
     move-result v1
@@ -459,12 +436,10 @@
 
     aput v3, v1, v6
 
-    .line 24
     sput-object v1, Lcom/commsource/home/c;->w:[I
 
     const/high16 v1, 0x420c0000    # 35.0f
 
-    .line 25
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -479,7 +454,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -496,7 +470,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     sget p2, Lcom/commsource/home/c;->f:F
 
     :cond_0
@@ -518,7 +491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->r:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -533,7 +505,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -548,7 +519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -563,7 +533,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->l:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -578,7 +547,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->j:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -593,7 +561,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -608,7 +575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -623,7 +589,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -638,7 +603,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -655,7 +619,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/c/c/d;->a:Lf/k/c/c/d;
 
     invoke-virtual {v1, p1, p2}, Lf/k/c/c/d;->a(IF)Landroid/graphics/drawable/GradientDrawable;
@@ -674,7 +637,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -689,7 +651,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->x:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -704,7 +665,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->o:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -719,7 +679,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->m:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -734,7 +693,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->n:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -749,7 +707,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->v:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -764,7 +721,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->f:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -779,7 +735,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->i:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -794,7 +749,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -811,7 +765,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/home/c;->t:Lcom/bumptech/glide/request/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -828,7 +781,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/home/c;->u:Lcom/bumptech/glide/request/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -843,7 +795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -858,7 +809,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/c;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -884,7 +834,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/home/c;->s:Lcom/bumptech/glide/load/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -899,7 +848,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/home/c;->w:[I
 
     array-length v2, v1

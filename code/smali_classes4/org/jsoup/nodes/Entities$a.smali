@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lorg/jsoup/nodes/Entities$CoreCharset;->values()[Lorg/jsoup/nodes/Entities$CoreCharset;
 
     move-result-object v0

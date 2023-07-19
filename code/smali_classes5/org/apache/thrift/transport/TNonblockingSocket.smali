@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lorg/apache/thrift/transport/TNonblockingSocket;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -43,7 +42,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lorg/apache/thrift/transport/TNonblockingSocket;-><init>(Ljava/lang/String;II)V
 
     return-void
@@ -57,7 +55,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {}, Ljava/nio/channels/SocketChannel;->open()Ljava/nio/channels/SocketChannel;
 
     move-result-object v0
@@ -83,10 +80,8 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-direct {p0, p1, v0, v1}, Lorg/apache/thrift/transport/TNonblockingSocket;-><init>(Ljava/nio/channels/SocketChannel;ILjava/net/SocketAddress;)V
 
-    .line 4
     invoke-virtual {p1}, Ljava/nio/channels/SocketChannel;->isConnected()Z
 
     move-result p1
@@ -113,37 +108,28 @@
         }
     .end annotation
 
-    .line 5
     invoke-direct {p0}, Lorg/apache/thrift/transport/TNonblockingTransport;-><init>()V
 
-    .line 6
     iput-object p1, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
-    .line 7
     iput-object p3, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketAddress_:Ljava/net/SocketAddress;
 
     const/4 p3, 0x0
 
-    .line 8
     invoke-virtual {p1, p3}, Ljava/nio/channels/SocketChannel;->configureBlocking(Z)Ljava/nio/channels/SelectableChannel;
 
-    .line 9
     invoke-virtual {p1}, Ljava/nio/channels/SocketChannel;->socket()Ljava/net/Socket;
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {p1, p3, p3}, Ljava/net/Socket;->setSoLinger(ZI)V
 
     const/4 p3, 0x1
 
-    .line 11
     invoke-virtual {p1, p3}, Ljava/net/Socket;->setTcpNoDelay(Z)V
 
-    .line 12
     invoke-virtual {p1, p3}, Ljava/net/Socket;->setKeepAlive(Z)V
 
-    .line 13
     invoke-virtual {p0, p2}, Lorg/apache/thrift/transport/TNonblockingSocket;->setTimeout(I)V
 
     return-void
@@ -154,7 +140,6 @@
 .method public close()V
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
@@ -167,7 +152,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     sget-object v1, Lorg/apache/thrift/transport/TNonblockingSocket;->LOGGER:Lorg/slf4j/c;
 
     const-string v2, "Could not close socket."
@@ -186,7 +170,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
     invoke-virtual {v0}, Ljava/nio/channels/SocketChannel;->finishConnect()Z
@@ -210,7 +193,6 @@
 .method public getSocketChannel()Ljava/nio/channels/SocketChannel;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
     return-object v0
@@ -219,7 +201,6 @@
 .method public isOpen()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
     invoke-virtual {v0}, Ljava/nio/channels/SocketChannel;->isOpen()Z
@@ -255,7 +236,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "open() is not implemented for TNonblockingSocket"
@@ -273,7 +253,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
     invoke-virtual {v0, p1}, Ljava/nio/channels/SocketChannel;->read(Ljava/nio/ByteBuffer;)I
@@ -291,7 +270,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
     invoke-virtual {v0}, Ljava/nio/channels/SocketChannel;->validOps()I
@@ -304,7 +282,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
@@ -323,7 +300,6 @@
     :catch_0
     move-exception p1
 
-    .line 4
     new-instance p2, Lorg/apache/thrift/transport/TTransportException;
 
     const/4 p3, 0x0
@@ -332,7 +308,6 @@
 
     throw p2
 
-    .line 5
     :cond_0
     new-instance p1, Lorg/apache/thrift/transport/TTransportException;
 
@@ -351,7 +326,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
     invoke-virtual {v0, p1, p2}, Ljava/nio/channels/SocketChannel;->register(Ljava/nio/channels/Selector;I)Ljava/nio/channels/SelectionKey;
@@ -364,7 +338,6 @@
 .method public setTimeout(I)V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
@@ -381,7 +354,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     sget-object v0, Lorg/apache/thrift/transport/TNonblockingSocket;->LOGGER:Lorg/slf4j/c;
 
     const-string v1, "Could not set socket timeout."
@@ -400,7 +372,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
     iget-object v1, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketAddress_:Ljava/net/SocketAddress;
@@ -420,7 +391,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
     invoke-virtual {v0, p1}, Ljava/nio/channels/SocketChannel;->write(Ljava/nio/ByteBuffer;)I
@@ -438,7 +408,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
     invoke-virtual {v0}, Ljava/nio/channels/SocketChannel;->validOps()I
@@ -451,7 +420,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingSocket;->socketChannel_:Ljava/nio/channels/SocketChannel;
 
@@ -468,7 +436,6 @@
     :catch_0
     move-exception p1
 
-    .line 4
     new-instance p2, Lorg/apache/thrift/transport/TTransportException;
 
     const/4 p3, 0x0
@@ -477,7 +444,6 @@
 
     throw p2
 
-    .line 5
     :cond_0
     new-instance p1, Lorg/apache/thrift/transport/TTransportException;
 

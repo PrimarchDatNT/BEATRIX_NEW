@@ -45,7 +45,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/mopub/common/UrlAction$1;
 
     const-string v1, "HANDLE_MOPUB_SCHEME"
@@ -56,7 +55,6 @@
 
     sput-object v0, Lcom/mopub/common/UrlAction;->HANDLE_MOPUB_SCHEME:Lcom/mopub/common/UrlAction;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/UrlAction$2;
 
     const-string v3, "IGNORE_ABOUT_SCHEME"
@@ -67,7 +65,6 @@
 
     sput-object v1, Lcom/mopub/common/UrlAction;->IGNORE_ABOUT_SCHEME:Lcom/mopub/common/UrlAction;
 
-    .line 3
     new-instance v3, Lcom/mopub/common/UrlAction$3;
 
     const-string v5, "HANDLE_PHONE_SCHEME"
@@ -78,7 +75,6 @@
 
     sput-object v3, Lcom/mopub/common/UrlAction;->HANDLE_PHONE_SCHEME:Lcom/mopub/common/UrlAction;
 
-    .line 4
     new-instance v5, Lcom/mopub/common/UrlAction$4;
 
     const-string v7, "OPEN_NATIVE_BROWSER"
@@ -89,7 +85,6 @@
 
     sput-object v5, Lcom/mopub/common/UrlAction;->OPEN_NATIVE_BROWSER:Lcom/mopub/common/UrlAction;
 
-    .line 5
     new-instance v7, Lcom/mopub/common/UrlAction$5;
 
     const-string v9, "OPEN_APP_MARKET"
@@ -100,7 +95,6 @@
 
     sput-object v7, Lcom/mopub/common/UrlAction;->OPEN_APP_MARKET:Lcom/mopub/common/UrlAction;
 
-    .line 6
     new-instance v9, Lcom/mopub/common/UrlAction$6;
 
     const-string v11, "OPEN_IN_APP_BROWSER"
@@ -111,7 +105,6 @@
 
     sput-object v9, Lcom/mopub/common/UrlAction;->OPEN_IN_APP_BROWSER:Lcom/mopub/common/UrlAction;
 
-    .line 7
     new-instance v11, Lcom/mopub/common/UrlAction$7;
 
     const-string v13, "HANDLE_SHARE_TWEET"
@@ -122,7 +115,6 @@
 
     sput-object v11, Lcom/mopub/common/UrlAction;->HANDLE_SHARE_TWEET:Lcom/mopub/common/UrlAction;
 
-    .line 8
     new-instance v13, Lcom/mopub/common/UrlAction$8;
 
     const-string v15, "FOLLOW_DEEP_LINK_WITH_FALLBACK"
@@ -133,7 +125,6 @@
 
     sput-object v13, Lcom/mopub/common/UrlAction;->FOLLOW_DEEP_LINK_WITH_FALLBACK:Lcom/mopub/common/UrlAction;
 
-    .line 9
     new-instance v15, Lcom/mopub/common/UrlAction$9;
 
     const-string v14, "FOLLOW_DEEP_LINK"
@@ -144,7 +135,6 @@
 
     sput-object v15, Lcom/mopub/common/UrlAction;->FOLLOW_DEEP_LINK:Lcom/mopub/common/UrlAction;
 
-    .line 10
     new-instance v14, Lcom/mopub/common/UrlAction$10;
 
     const-string v12, "NOOP"
@@ -189,7 +179,6 @@
 
     aput-object v14, v12, v10
 
-    .line 11
     sput-object v12, Lcom/mopub/common/UrlAction;->$VALUES:[Lcom/mopub/common/UrlAction;
 
     return-void
@@ -203,10 +192,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3
     iput-boolean p3, p0, Lcom/mopub/common/UrlAction;->mRequiresUserInteraction:Z
 
     return-void
@@ -215,7 +202,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;IZLcom/mopub/common/UrlAction$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/mopub/common/UrlAction;-><init>(Ljava/lang/String;IZ)V
 
     return-void
@@ -224,7 +210,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/UrlAction;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/UrlAction;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -239,7 +224,6 @@
 .method public static values()[Lcom/mopub/common/UrlAction;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/UrlAction;->$VALUES:[Lcom/mopub/common/UrlAction;
 
     invoke-virtual {v0}, [Lcom/mopub/common/UrlAction;->clone()Ljava/lang/Object;
@@ -273,7 +257,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -300,7 +283,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-boolean v0, p0, Lcom/mopub/common/UrlAction;->mRequiresUserInteraction:Z
 
     if-eqz v0, :cond_1
@@ -309,7 +291,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p1, Lcom/mopub/exceptions/IntentNotResolvableException;
 
@@ -319,7 +300,6 @@
 
     throw p1
 
-    .line 4
     :cond_1
     :goto_0
     invoke-virtual {p0, p2, p3, p1, p5}, Lcom/mopub/common/UrlAction;->performAction(Landroid/content/Context;Landroid/net/Uri;Lcom/mopub/common/UrlHandler;Ljava/lang/String;)V

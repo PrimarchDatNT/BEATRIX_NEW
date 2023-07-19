@@ -33,21 +33,18 @@
 
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/internal/ads/oa;->a:Ljava/nio/charset/Charset;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/qa;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/qa;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/oa;->b:Lcom/google/android/gms/internal/ads/pa;
 
-    .line 3
     sget-object v0, Lcom/google/android/gms/internal/ads/ra;->a:Lcom/google/android/gms/internal/ads/na;
 
     sput-object v0, Lcom/google/android/gms/internal/ads/oa;->c:Lcom/google/android/gms/internal/ads/na;
@@ -63,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayInputStream;
 
     invoke-virtual {p0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;

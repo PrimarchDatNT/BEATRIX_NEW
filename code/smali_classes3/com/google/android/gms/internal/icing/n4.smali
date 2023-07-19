@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/icing/zzce;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/icing/n4;->a:Lcom/google/android/gms/internal/icing/zzce;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -26,7 +25,6 @@
 .method public final a(I)B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/n4;->a:Lcom/google/android/gms/internal/icing/zzce;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/icing/zzce;->zzk(I)B
@@ -39,7 +37,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/n4;->a:Lcom/google/android/gms/internal/icing/zzce;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/icing/zzce;->size()I

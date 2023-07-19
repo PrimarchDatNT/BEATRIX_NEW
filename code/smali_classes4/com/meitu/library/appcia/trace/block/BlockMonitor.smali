@@ -30,15 +30,12 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "BlockMonitor"
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->a:Ljava/lang/String;
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -49,10 +46,8 @@
 
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->g:Z
 
-    .line 5
     sget v0, Lcom/meitu/library/appcia/h/b/a;->c:I
 
     mul-int/lit16 v0, v0, 0x3e8
@@ -63,7 +58,6 @@
 
     iput v0, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->h:I
 
-    .line 6
     new-instance v0, Lcom/meitu/library/appcia/trace/block/BlockMonitor$a;
 
     invoke-direct {v0, p0}, Lcom/meitu/library/appcia/trace/block/BlockMonitor$a;-><init>(Lcom/meitu/library/appcia/trace/block/BlockMonitor;)V
@@ -80,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -95,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->f:Landroid/app/Application;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->b:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -125,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->e:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -170,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->f:Landroid/app/Application;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -185,7 +172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -200,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->b:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -215,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -230,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->e:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -245,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->q(J)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -260,12 +242,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/library/appcia/h/b/a;->b:I
 
     int-to-double v1, v1
 
-    .line 2
     invoke-static {}, Ljava/lang/Math;->random()D
 
     move-result-wide v3
@@ -306,19 +286,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->m()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/library/appcia/f/c/a;->b()Lcotlinx/coroutines/m0;
 
@@ -340,7 +317,6 @@
 
     invoke-static/range {v2 .. v7}, Lcotlinx/coroutines/f;->f(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/c2;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -363,20 +339,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->f:Landroid/app/Application;
 
-    .line 2
     sget-boolean p1, Lcom/meitu/library/appcia/h/b/a;->e:Z
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->d:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -388,16 +360,13 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->o()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -412,13 +381,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->g:Z
 
-    .line 2
     iput-boolean v1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->e:Z
 
-    .line 3
     invoke-static {}, Landroid/view/Choreographer;->getInstance()Landroid/view/Choreographer;
 
     move-result-object v1
@@ -427,7 +393,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/Choreographer;->postFrameCallback(Landroid/view/Choreographer$FrameCallback;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -442,10 +407,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->e:Z
 
-    .line 2
     invoke-static {}, Landroid/view/Choreographer;->getInstance()Landroid/view/Choreographer;
 
     move-result-object v1
@@ -454,7 +417,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/Choreographer;->removeFrameCallback(Landroid/view/Choreographer$FrameCallback;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

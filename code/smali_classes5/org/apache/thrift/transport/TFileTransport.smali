@@ -39,44 +39,34 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransport;-><init>()V
 
-    .line 2
     sget-object v0, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;->NOWAIT:Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentPolicy_:Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputFile_:Lorg/apache/thrift/transport/TSeekableFile;
 
-    .line 4
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->outputStream_:Ljava/io/OutputStream;
 
-    .line 5
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentEvent_:Lorg/apache/thrift/transport/TFileTransport$Event;
 
-    .line 6
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputStream_:Ljava/io/InputStream;
 
-    .line 7
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->cs:Lorg/apache/thrift/transport/TFileTransport$ChunkState;
 
     const/4 v0, 0x0
 
-    .line 8
     iput-boolean v0, p0, Lorg/apache/thrift/transport/TFileTransport;->readOnly_:Z
 
-    .line 9
     new-instance v0, Lorg/apache/thrift/transport/TStandardFile;
 
     invoke-direct {v0, p1}, Lorg/apache/thrift/transport/TStandardFile;-><init>(Ljava/lang/String;)V
 
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputFile_:Lorg/apache/thrift/transport/TSeekableFile;
 
-    .line 10
     iput-boolean p2, p0, Lorg/apache/thrift/transport/TFileTransport;->readOnly_:Z
 
     return-void
@@ -85,40 +75,30 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TSeekableFile;Z)V
     .locals 1
 
-    .line 11
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransport;-><init>()V
 
-    .line 12
     sget-object v0, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;->NOWAIT:Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentPolicy_:Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     const/4 v0, 0x0
 
-    .line 13
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputFile_:Lorg/apache/thrift/transport/TSeekableFile;
 
-    .line 14
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->outputStream_:Ljava/io/OutputStream;
 
-    .line 15
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentEvent_:Lorg/apache/thrift/transport/TFileTransport$Event;
 
-    .line 16
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputStream_:Ljava/io/InputStream;
 
-    .line 17
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->cs:Lorg/apache/thrift/transport/TFileTransport$ChunkState;
 
     const/4 v0, 0x0
 
-    .line 18
     iput-boolean v0, p0, Lorg/apache/thrift/transport/TFileTransport;->readOnly_:Z
 
-    .line 19
     iput-object p1, p0, Lorg/apache/thrift/transport/TFileTransport;->inputFile_:Lorg/apache/thrift/transport/TSeekableFile;
 
-    .line 20
     iput-boolean p2, p0, Lorg/apache/thrift/transport/TFileTransport;->readOnly_:Z
 
     return-void
@@ -132,23 +112,19 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputStream_:Ljava/io/InputStream;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast v0, Lorg/apache/thrift/transport/TFileTransport$TruncableBufferedInputStream;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TFileTransport$TruncableBufferedInputStream;->trunc()V
 
-    .line 3
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputStream_:Ljava/io/InputStream;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v0, Lorg/apache/thrift/transport/TFileTransport$TruncableBufferedInputStream;
 
@@ -168,7 +144,6 @@
     :catch_0
     move-exception v0
 
-    .line 5
     sget-object v1, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -191,7 +166,6 @@
 
     invoke-virtual {v1, v2}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 6
     new-instance v1, Lorg/apache/thrift/transport/TTransportException;
 
     invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -211,7 +185,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -234,7 +207,6 @@
 
     const-string v3, "-h"
 
-    .line 2
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -251,17 +223,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     :cond_0
     invoke-static {}, Lorg/apache/thrift/transport/TFileTransport;->printUsage()V
 
-    .line 4
     :cond_1
     array-length v0, p0
 
     if-le v0, v2, :cond_2
 
-    .line 5
     :try_start_0
     aget-object v0, p0, v2
 
@@ -273,7 +242,6 @@
 
     goto :goto_0
 
-    .line 6
     :catch_0
     sget-object v0, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
@@ -295,13 +263,11 @@
 
     invoke-virtual {v0, v3}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 7
     invoke-static {}, Lorg/apache/thrift/transport/TFileTransport;->printUsage()V
 
     :cond_2
     const/16 v0, 0xa
 
-    .line 8
     :goto_0
     new-instance v3, Lorg/apache/thrift/transport/TFileTransport;
 
@@ -309,10 +275,8 @@
 
     invoke-direct {v3, p0, v2}, Lorg/apache/thrift/transport/TFileTransport;-><init>(Ljava/lang/String;Z)V
 
-    .line 9
     invoke-virtual {v3}, Lorg/apache/thrift/transport/TFileTransport;->open()V
 
-    .line 10
     sget-object p0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -335,7 +299,6 @@
 
     invoke-virtual {p0, v4}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 11
     new-instance p0, Ljava/util/Random;
 
     invoke-direct {p0}, Ljava/util/Random;-><init>()V
@@ -349,7 +312,6 @@
 
     new-array v6, v5, [B
 
-    .line 12
     invoke-virtual {v3}, Lorg/apache/thrift/transport/TFileTransport;->getNumChunks()I
 
     move-result v7
@@ -360,7 +322,6 @@
 
     move-result v7
 
-    .line 13
     sget-object v8, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     new-instance v9, Ljava/lang/StringBuilder;
@@ -379,7 +340,6 @@
 
     invoke-virtual {v8, v9}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 14
     invoke-virtual {v3, v7}, Lorg/apache/thrift/transport/TFileTransport;->seekToChunk(I)V
 
     const/4 v7, 0x0
@@ -387,7 +347,6 @@
     :goto_2
     if-ge v7, v5, :cond_3
 
-    .line 15
     invoke-virtual {v3, v6, v1, v5}, Lorg/apache/thrift/transport/TFileTransport;->read([BII)I
 
     add-int/lit8 v7, v7, 0x1
@@ -411,12 +370,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TFileTransport;->getNumChunks()I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lorg/apache/thrift/transport/TFileTransport;->cs:Lorg/apache/thrift/transport/TFileTransport$ChunkState;
 
     invoke-virtual {v1}, Lorg/apache/thrift/transport/TFileTransport$ChunkState;->getChunkNum()I
@@ -436,7 +393,6 @@
     :cond_0
     add-int/2addr v1, v2
 
-    .line 3
     invoke-virtual {p0, v1}, Lorg/apache/thrift/transport/TFileTransport;->seekToChunk(I)V
 
     return v2
@@ -445,14 +401,12 @@
 .method private static printUsage()V
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     const-string v1, "Usage: TFileTransport <filename> [num_chunks]"
 
     invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     const-string v1, "       (Opens and reads num_chunks chunks from file randomly)"
@@ -461,7 +415,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-static {v0}, Ljava/lang/System;->exit(I)V
 
     return-void
@@ -479,7 +432,6 @@
 
     new-array v7, v6, [B
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->cs:Lorg/apache/thrift/transport/TFileTransport$ChunkState;
 
@@ -491,7 +443,6 @@
 
     if-ge v8, v6, :cond_1
 
-    .line 2
     iget-object v1, p0, Lorg/apache/thrift/transport/TFileTransport;->inputStream_:Ljava/io/InputStream;
 
     const/4 v3, 0x0
@@ -512,7 +463,6 @@
 
     return v9
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lorg/apache/thrift/transport/TFileTransport;->inputStream_:Ljava/io/InputStream;
 
@@ -542,7 +492,6 @@
     :goto_0
     if-ltz v0, :cond_3
 
-    .line 4
     aget-byte v1, v7, v0
 
     and-int/lit16 v1, v1, 0xff
@@ -557,7 +506,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->cs:Lorg/apache/thrift/transport/TFileTransport$ChunkState;
 
@@ -569,7 +517,6 @@
 
     if-eqz v8, :cond_0
 
-    .line 6
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentEvent_:Lorg/apache/thrift/transport/TFileTransport$Event;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TFileTransport$Event;->getSize()I
@@ -578,7 +525,6 @@
 
     if-ge v0, v8, :cond_4
 
-    .line 7
     new-instance v0, Lorg/apache/thrift/transport/TFileTransport$Event;
 
     new-array v1, v8, [B
@@ -587,7 +533,6 @@
 
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentEvent_:Lorg/apache/thrift/transport/TFileTransport$Event;
 
-    .line 8
     :cond_4
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentEvent_:Lorg/apache/thrift/transport/TFileTransport$Event;
 
@@ -595,7 +540,6 @@
 
     move-result-object v2
 
-    .line 9
     iget-object v1, p0, Lorg/apache/thrift/transport/TFileTransport;->inputStream_:Ljava/io/InputStream;
 
     const/4 v3, 0x0
@@ -614,7 +558,6 @@
 
     return v9
 
-    .line 10
     :cond_5
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentEvent_:Lorg/apache/thrift/transport/TFileTransport$Event;
 
@@ -624,7 +567,6 @@
 
     return v0
 
-    .line 11
     :cond_6
     new-instance v0, Lorg/apache/thrift/transport/TTransportException;
 
@@ -654,7 +596,6 @@
     :goto_1
     if-lez v1, :cond_4
 
-    .line 1
     :try_start_0
     invoke-virtual {p1, p2, p3, v1}, Ljava/io/InputStream;->read([BII)I
 
@@ -666,7 +607,6 @@
 
     sub-int/2addr v1, v3
 
-    .line 2
     iget-object v2, p0, Lorg/apache/thrift/transport/TFileTransport;->cs:Lorg/apache/thrift/transport/TFileTransport$ChunkState;
 
     invoke-virtual {v2, v3}, Lorg/apache/thrift/transport/TFileTransport$ChunkState;->skip(I)V
@@ -680,7 +620,6 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 3
     iget v3, p5, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;->retries_:I
 
     if-eq v3, v4, :cond_2
@@ -691,7 +630,6 @@
 
     return p4
 
-    .line 4
     :cond_2
     iget v3, p5, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;->timeout_:I
     :try_end_0
@@ -701,7 +639,6 @@
 
     int-to-long v3, v3
 
-    .line 5
     :try_start_1
     invoke-static {v3, v4}, Ljava/lang/Thread;->sleep(J)V
     :try_end_1
@@ -715,7 +652,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_3
     :try_start_2
     new-instance p1, Lorg/apache/thrift/transport/TTransportException;
@@ -743,7 +679,6 @@
     :catch_1
     move-exception p1
 
-    .line 7
     new-instance p2, Lorg/apache/thrift/transport/TTransportException;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -765,14 +700,12 @@
 .method public close()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputFile_:Lorg/apache/thrift/transport/TSeekableFile;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     invoke-interface {v0}, Lorg/apache/thrift/transport/TSeekableFile;->close()V
     :try_end_0
@@ -783,7 +716,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     sget-object v2, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -794,7 +726,6 @@
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -805,20 +736,16 @@
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v2, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 6
     :goto_0
     iput-object v1, p0, Lorg/apache/thrift/transport/TFileTransport;->inputFile_:Lorg/apache/thrift/transport/TSeekableFile;
 
-    .line 7
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->outputStream_:Ljava/io/OutputStream;
 
     if-eqz v0, :cond_1
 
-    .line 8
     :try_start_1
     invoke-virtual {v0}, Ljava/io/OutputStream;->close()V
     :try_end_1
@@ -829,7 +756,6 @@
     :catch_1
     move-exception v0
 
-    .line 9
     sget-object v2, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -840,7 +766,6 @@
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -851,10 +776,8 @@
 
     move-result-object v0
 
-    .line 11
     invoke-virtual {v2, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 12
     :goto_1
     iput-object v1, p0, Lorg/apache/thrift/transport/TFileTransport;->outputStream_:Ljava/io/OutputStream;
 
@@ -870,7 +793,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/transport/TTransportException;
 
     const-string v1, "Not Supported"
@@ -888,14 +810,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TFileTransport;->isOpen()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->cs:Lorg/apache/thrift/transport/TFileTransport$ChunkState;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TFileTransport$ChunkState;->getChunkNum()I
@@ -904,7 +824,6 @@
 
     return v0
 
-    .line 3
     :cond_0
     new-instance v0, Lorg/apache/thrift/transport/TTransportException;
 
@@ -925,7 +844,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TFileTransport;->isOpen()Z
 
     move-result v0
@@ -934,7 +852,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputFile_:Lorg/apache/thrift/transport/TSeekableFile;
 
@@ -952,7 +869,6 @@
 
     return v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->cs:Lorg/apache/thrift/transport/TFileTransport$ChunkState;
 
@@ -975,7 +891,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     new-instance v1, Lorg/apache/thrift/transport/TTransportException;
 
     invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -986,7 +901,6 @@
 
     throw v1
 
-    .line 5
     :cond_1
     new-instance v0, Lorg/apache/thrift/transport/TTransportException;
 
@@ -1000,7 +914,6 @@
 .method public getTailPolicy()Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentPolicy_:Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     return-object v0
@@ -1009,7 +922,6 @@
 .method public isOpen()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputStream_:Ljava/io/InputStream;
 
     if-eqz v0, :cond_1
@@ -1042,14 +954,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TFileTransport;->isOpen()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2
     :try_start_0
     invoke-direct {p0}, Lorg/apache/thrift/transport/TFileTransport;->createInputStream()Ljava/io/InputStream;
 
@@ -1057,14 +967,12 @@
 
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputStream_:Ljava/io/InputStream;
 
-    .line 3
     new-instance v0, Lorg/apache/thrift/transport/TFileTransport$ChunkState;
 
     invoke-direct {v0}, Lorg/apache/thrift/transport/TFileTransport$ChunkState;-><init>()V
 
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->cs:Lorg/apache/thrift/transport/TFileTransport$ChunkState;
 
-    .line 4
     new-instance v0, Lorg/apache/thrift/transport/TFileTransport$Event;
 
     const/16 v1, 0x100
@@ -1075,12 +983,10 @@
 
     iput-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentEvent_:Lorg/apache/thrift/transport/TFileTransport$Event;
 
-    .line 5
     iget-boolean v0, p0, Lorg/apache/thrift/transport/TFileTransport;->readOnly_:Z
 
     if-nez v0, :cond_0
 
-    .line 6
     new-instance v0, Ljava/io/BufferedOutputStream;
 
     iget-object v1, p0, Lorg/apache/thrift/transport/TFileTransport;->inputFile_:Lorg/apache/thrift/transport/TSeekableFile;
@@ -1103,7 +1009,6 @@
     :catch_0
     move-exception v0
 
-    .line 7
     new-instance v1, Lorg/apache/thrift/transport/TTransportException;
 
     const/4 v2, 0x1
@@ -1112,7 +1017,6 @@
 
     throw v1
 
-    .line 8
     :cond_1
     new-instance v0, Lorg/apache/thrift/transport/TTransportException;
 
@@ -1131,14 +1035,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TFileTransport;->isOpen()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentEvent_:Lorg/apache/thrift/transport/TFileTransport$Event;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TFileTransport$Event;->getRemaining()I
@@ -1147,7 +1049,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lorg/apache/thrift/transport/TFileTransport;->readEvent()Z
 
     move-result v0
@@ -1158,7 +1059,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentEvent_:Lorg/apache/thrift/transport/TFileTransport$Event;
 
@@ -1168,7 +1068,6 @@
 
     return p1
 
-    .line 5
     :cond_1
     new-instance p1, Lorg/apache/thrift/transport/TTransportException;
 
@@ -1198,7 +1097,6 @@
 
     sub-int v2, p3, v0
 
-    .line 1
     invoke-virtual {p0, p1, v1, v2}, Lorg/apache/thrift/transport/TFileTransport;->read([BII)I
 
     move-result v1
@@ -1211,7 +1109,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Lorg/apache/thrift/transport/TTransportException;
 
@@ -1223,7 +1120,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     new-instance p1, Lorg/apache/thrift/transport/TTransportException;
 
@@ -1245,7 +1141,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TFileTransport;->isOpen()Z
 
     move-result v0
@@ -1254,7 +1149,6 @@
 
     if-eqz v0, :cond_8
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TFileTransport;->getNumChunks()I
 
     move-result v0
@@ -1290,7 +1184,6 @@
 
     add-int/lit8 p1, p1, -0x1
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputFile_:Lorg/apache/thrift/transport/TSeekableFile;
 
@@ -1305,7 +1198,6 @@
     :catch_0
     move-exception p1
 
-    .line 4
     new-instance v0, Lorg/apache/thrift/transport/TTransportException;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -1316,7 +1208,6 @@
 
     throw v0
 
-    .line 5
     :cond_4
     :goto_1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->cs:Lorg/apache/thrift/transport/TFileTransport$ChunkState;
@@ -1339,7 +1230,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 6
     :try_start_1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->inputFile_:Lorg/apache/thrift/transport/TSeekableFile;
 
@@ -1359,7 +1249,6 @@
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 7
     iget-object p1, p0, Lorg/apache/thrift/transport/TFileTransport;->cs:Lorg/apache/thrift/transport/TFileTransport$ChunkState;
 
     invoke-virtual {p1}, Lorg/apache/thrift/transport/TFileTransport$ChunkState;->getChunkSize()I
@@ -1372,12 +1261,10 @@
 
     invoke-virtual {p1, v5, v6}, Lorg/apache/thrift/transport/TFileTransport$ChunkState;->seek(J)V
 
-    .line 8
     iget-object p1, p0, Lorg/apache/thrift/transport/TFileTransport;->currentEvent_:Lorg/apache/thrift/transport/TFileTransport$Event;
 
     invoke-virtual {p1, v2}, Lorg/apache/thrift/transport/TFileTransport$Event;->setAvailable(I)V
 
-    .line 9
     invoke-direct {p0}, Lorg/apache/thrift/transport/TFileTransport;->createInputStream()Ljava/io/InputStream;
 
     move-result-object p1
@@ -1389,7 +1276,6 @@
     :catch_1
     move-exception v0
 
-    .line 10
     sget-object v1, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1412,7 +1298,6 @@
 
     invoke-virtual {v1, v2}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 11
     new-instance v1, Lorg/apache/thrift/transport/TTransportException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1429,7 +1314,6 @@
 
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -1448,14 +1332,12 @@
     :goto_2
     if-eqz v1, :cond_7
 
-    .line 13
     sget-object p1, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;->WAIT_FOREVER:Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     invoke-virtual {p0, p1}, Lorg/apache/thrift/transport/TFileTransport;->setTailPolicy(Lorg/apache/thrift/transport/TFileTransport$TailPolicy;)Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     move-result-object p1
 
-    .line 14
     :goto_3
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->cs:Lorg/apache/thrift/transport/TFileTransport$ChunkState;
 
@@ -1471,19 +1353,16 @@
 
     goto :goto_3
 
-    .line 15
     :cond_6
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentEvent_:Lorg/apache/thrift/transport/TFileTransport$Event;
 
     invoke-virtual {v0, v2}, Lorg/apache/thrift/transport/TFileTransport$Event;->setAvailable(I)V
 
-    .line 16
     invoke-virtual {p0, p1}, Lorg/apache/thrift/transport/TFileTransport;->setTailPolicy(Lorg/apache/thrift/transport/TFileTransport$TailPolicy;)Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     :cond_7
     return-void
 
-    .line 17
     :cond_8
     new-instance p1, Lorg/apache/thrift/transport/TTransportException;
 
@@ -1502,14 +1381,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TFileTransport;->isOpen()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TFileTransport;->getNumChunks()I
 
     move-result v0
@@ -1518,7 +1395,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Lorg/apache/thrift/transport/TTransportException;
 
@@ -1534,10 +1410,8 @@
 .method public setTailPolicy(Lorg/apache/thrift/transport/TFileTransport$TailPolicy;)Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFileTransport;->currentPolicy_:Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/transport/TFileTransport;->currentPolicy_:Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     return-object v0
@@ -1551,7 +1425,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lorg/apache/thrift/transport/TTransportException;
 
     const-string p2, "Not Supported"

@@ -56,17 +56,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/BoldTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/16 p1, 0x8
 
     new-array p1, p1, [F
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/widget/GradientTextView;->P:[F
 
-    .line 3
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
@@ -75,7 +72,6 @@
 
     const/high16 p1, 0x3fc00000    # 1.5f
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/util/l0;->o(F)F
 
     move-result p1
@@ -84,10 +80,8 @@
 
     const/4 p1, 0x1
 
-    .line 5
     iput-boolean p1, p0, Lcom/commsource/widget/GradientTextView;->S:Z
 
-    .line 6
     new-instance p1, Lcom/commsource/widget/GradientTextView$strokePaint$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/widget/GradientTextView$strokePaint$2;-><init>(Lcom/commsource/widget/GradientTextView;)V
@@ -102,19 +96,16 @@
 
     new-array p2, p1, [I
 
-    .line 7
     fill-array-data p2, :array_0
 
     iput-object p2, p0, Lcom/commsource/widget/GradientTextView;->V:[I
 
     new-array p1, p1, [F
 
-    .line 8
     fill-array-data p1, :array_1
 
     iput-object p1, p0, Lcom/commsource/widget/GradientTextView;->W:[F
 
-    .line 9
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
@@ -151,7 +142,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/widget/GradientTextView;->P:[F
 
     const/4 v0, 0x0
@@ -277,7 +267,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/GradientTextView;->R:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -294,7 +283,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/GradientTextView;->Q:Landroid/graphics/Path;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/GradientTextView;->a0:Landroid/graphics/LinearGradient;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -348,7 +335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/GradientTextView;->P:[F
 
     const/4 v2, 0x6
@@ -357,13 +343,10 @@
 
     const/4 v2, 0x7
 
-    .line 2
     aput p1, v1, v2
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/TextView;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -376,7 +359,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/GradientTextView;->P:[F
 
     const/4 v2, 0x4
@@ -385,13 +367,10 @@
 
     const/4 v2, 0x5
 
-    .line 2
     aput p1, v1, v2
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/TextView;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -404,7 +383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/GradientTextView;->P:[F
 
     const/4 v2, 0x0
@@ -413,13 +391,10 @@
 
     const/4 v2, 0x1
 
-    .line 2
     aput p1, v1, v2
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/TextView;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -432,7 +407,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/GradientTextView;->P:[F
 
     const/4 v2, 0x2
@@ -441,13 +415,10 @@
 
     const/4 v2, 0x3
 
-    .line 2
     aput p1, v1, v2
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/TextView;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -460,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/GradientTextView;->S:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -475,7 +445,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/GradientTextView;->U:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -490,7 +459,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/GradientTextView;->P:[F
 
     const/4 v2, 0x0
@@ -499,43 +467,34 @@
 
     const/4 v2, 0x1
 
-    .line 2
     aput p1, v1, v2
 
     const/4 p1, 0x2
 
-    .line 3
     aput p2, v1, p1
 
     const/4 p1, 0x3
 
-    .line 4
     aput p2, v1, p1
 
     const/4 p1, 0x4
 
-    .line 5
     aput p3, v1, p1
 
     const/4 p1, 0x5
 
-    .line 6
     aput p3, v1, p1
 
     const/4 p1, 0x6
 
-    .line 7
     aput p4, v1, p1
 
     const/4 p1, 0x7
 
-    .line 8
     aput p4, v1, p1
 
-    .line 9
     invoke-virtual {p0}, Landroid/widget/TextView;->postInvalidate()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -552,28 +511,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/TextView;->getPaint()Landroid/text/TextPaint;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/widget/GradientTextView;->a0:Landroid/graphics/LinearGradient;
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Lcom/commsource/widget/BoldTextView;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 4
     iget-boolean v1, p0, Lcom/commsource/widget/GradientTextView;->U:Z
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/widget/GradientTextView;->getStrokePaint()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -582,12 +536,10 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/GradientTextView;->Q:Landroid/graphics/Path;
 
     invoke-virtual {v1}, Landroid/graphics/Path;->reset()V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/GradientTextView;->Q:Landroid/graphics/Path;
 
     iget-object v2, p0, Lcom/commsource/widget/GradientTextView;->b0:Landroid/graphics/RectF;
@@ -600,7 +552,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/GradientTextView;->Q:Landroid/graphics/Path;
 
     invoke-virtual {p0}, Lcom/commsource/widget/GradientTextView;->getStrokePaint()Landroid/graphics/Paint;
@@ -609,7 +560,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -623,10 +573,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Lcom/commsource/widget/AutoFitTextView;->onSizeChanged(IIII)V
 
-    .line 2
     new-instance p3, Landroid/graphics/LinearGradient;
 
     int-to-float p1, p1
@@ -653,14 +601,12 @@
 
     iput-object p3, p0, Lcom/commsource/widget/GradientTextView;->a0:Landroid/graphics/LinearGradient;
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/widget/GradientTextView;->b0:Landroid/graphics/RectF;
 
     const/4 p4, 0x0
 
     invoke-virtual {p3, p4, p4, p1, p2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/GradientTextView;->b0:Landroid/graphics/RectF;
 
     iget p2, p0, Lcom/commsource/widget/GradientTextView;->R:F
@@ -673,7 +619,6 @@
 
     invoke-virtual {p1, p4, p2}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -686,10 +631,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/GradientTextView;->S:Z
 
-    .line 2
     new-instance p1, Landroid/graphics/LinearGradient;
 
     invoke-virtual {p0}, Landroid/widget/TextView;->getMeasuredWidth()I
@@ -720,10 +663,8 @@
 
     iput-object p1, p0, Lcom/commsource/widget/GradientTextView;->a0:Landroid/graphics/LinearGradient;
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/TextView;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -740,7 +681,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/GradientTextView;->a0:Landroid/graphics/LinearGradient;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -755,13 +695,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/GradientTextView;->U:Z
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/TextView;->postInvalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

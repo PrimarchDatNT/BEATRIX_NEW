@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/FullscreenAdController;Landroid/app/Activity;Lcom/mopub/mobileads/AdData;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->this$0:Lcom/mopub/mobileads/FullscreenAdController;
 
     iput-object p2, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->val$activity:Landroid/app/Activity;
@@ -46,7 +45,6 @@
 .method public onClicked()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->this$0:Lcom/mopub/mobileads/FullscreenAdController;
 
     iget-object v1, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->val$activity:Landroid/app/Activity;
@@ -61,7 +59,6 @@
 .method public onClose()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->val$activity:Landroid/app/Activity;
 
     iget-object v1, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->val$adData:Lcom/mopub/mobileads/AdData;
@@ -74,7 +71,6 @@
 
     invoke-static {v0, v1, v2, v3}, Lcom/mopub/mobileads/BaseBroadcastReceiver;->broadcastAction(Landroid/content/Context;JLjava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->this$0:Lcom/mopub/mobileads/FullscreenAdController;
 
     invoke-static {v0}, Lcom/mopub/mobileads/FullscreenAdController;->access$100(Lcom/mopub/mobileads/FullscreenAdController;)Lcom/mopub/mobileads/MoPubWebViewController;
@@ -89,7 +85,6 @@
 
     invoke-virtual {v0, v1}, Lcom/mopub/mobileads/MoPubWebViewController;->loadJavascript(Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->val$activity:Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->finish()V
@@ -106,7 +101,6 @@
 .method public onFailed()V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -121,7 +115,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->val$activity:Landroid/app/Activity;
 
     iget-object v1, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->val$adData:Lcom/mopub/mobileads/AdData;
@@ -134,7 +127,6 @@
 
     invoke-static {v0, v1, v2, v3}, Lcom/mopub/mobileads/BaseBroadcastReceiver;->broadcastAction(Landroid/content/Context;JLjava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->val$activity:Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->finish()V
@@ -151,7 +143,6 @@
 .method public onLoaded(Landroid/view/View;)V
     .locals 1
 
-    .line 1
     sget-object p1, Lcom/mopub/mobileads/FullscreenAdController$ControllerState;->HTML:Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
 
     iget-object v0, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->this$0:Lcom/mopub/mobileads/FullscreenAdController;
@@ -180,7 +171,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->this$0:Lcom/mopub/mobileads/FullscreenAdController;
 
@@ -207,7 +197,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -234,7 +223,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->val$activity:Landroid/app/Activity;
 
     iget-object v0, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->val$adData:Lcom/mopub/mobileads/AdData;
@@ -247,7 +235,6 @@
 
     invoke-static {p1, v0, v1, v2}, Lcom/mopub/mobileads/BaseBroadcastReceiver;->broadcastAction(Landroid/content/Context;JLjava/lang/String;)V
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/mobileads/FullscreenAdController$1;->val$activity:Landroid/app/Activity;
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V

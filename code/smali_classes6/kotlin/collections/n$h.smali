@@ -35,7 +35,6 @@
 .method constructor <init>([C)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/n$h;->b:[C
 
     invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
@@ -48,7 +47,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$h;->b:[C
 
     array-length v0, v0
@@ -59,7 +57,6 @@
 .method public c(C)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$h;->b:[C
 
     invoke-static {v0, p1}, Lcotlin/collections/k;->K7([CC)Z
@@ -72,7 +69,6 @@
 .method public final bridge contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Character;
 
     if-eqz v0, :cond_0
@@ -100,7 +96,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$h;->b:[C
 
     aget-char p1, v0, p1
@@ -115,7 +110,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/collections/n$h;->e(I)Ljava/lang/Character;
 
     move-result-object p1
@@ -126,7 +120,6 @@
 .method public h(C)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$h;->b:[C
 
     invoke-static {v0, p1}, Lcotlin/collections/ArraysKt___ArraysKt;->Ye([CC)I
@@ -139,7 +132,6 @@
 .method public i(C)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$h;->b:[C
 
     invoke-static {v0, p1}, Lcotlin/collections/ArraysKt___ArraysKt;->ch([CC)I
@@ -152,7 +144,6 @@
 .method public final bridge indexOf(Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Character;
 
     if-eqz v0, :cond_0
@@ -178,7 +169,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$h;->b:[C
 
     array-length v0, v0
@@ -199,7 +189,6 @@
 .method public final bridge lastIndexOf(Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Character;
 
     if-eqz v0, :cond_0

@@ -62,17 +62,14 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/common/graph/m;->a:Ljava/lang/Object;
 
-    .line 4
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -85,7 +82,6 @@
 .method synthetic constructor <init>(Ljava/lang/Object;Ljava/lang/Object;Lcom/google/common/graph/m$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/graph/m;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
@@ -105,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/graph/r;->e()Z
 
     move-result p0
@@ -141,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/graph/e0;->e()Z
 
     move-result p0
@@ -175,7 +169,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/m$b;
 
     const/4 v1, 0x0
@@ -197,7 +190,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/m$c;
 
     const/4 v1, 0x0
@@ -219,7 +211,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/m;->a:Ljava/lang/Object;
 
     invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
@@ -228,12 +219,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/common/graph/m;->b:Ljava/lang/Object;
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/graph/m;->b:Ljava/lang/Object;
 
@@ -243,12 +232,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/google/common/graph/m;->a:Ljava/lang/Object;
 
     return-object p1
 
-    .line 5
     :cond_1
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -294,7 +281,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lcom/google/common/graph/m;->a:Ljava/lang/Object;
 
     const/4 v2, 0x0
@@ -329,7 +315,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/m;->a:Ljava/lang/Object;
 
     return-object v0
@@ -346,7 +331,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/m;->b:Ljava/lang/Object;
 
     return-object v0
@@ -355,7 +339,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/m;->e()Lcom/google/common/collect/l2;
 
     move-result-object v0

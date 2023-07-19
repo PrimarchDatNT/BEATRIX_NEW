@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/mopub/mraid/PlacementType;
 
     const-string v1, "INLINE"
@@ -36,7 +35,6 @@
 
     sput-object v0, Lcom/mopub/mraid/PlacementType;->INLINE:Lcom/mopub/mraid/PlacementType;
 
-    .line 2
     new-instance v1, Lcom/mopub/mraid/PlacementType;
 
     const-string v3, "INTERSTITIAL"
@@ -55,7 +53,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/mopub/mraid/PlacementType;->$VALUES:[Lcom/mopub/mraid/PlacementType;
 
     return-void
@@ -69,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -78,7 +74,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/mraid/PlacementType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/mraid/PlacementType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -93,7 +88,6 @@
 .method public static values()[Lcom/mopub/mraid/PlacementType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mraid/PlacementType;->$VALUES:[Lcom/mopub/mraid/PlacementType;
 
     invoke-virtual {v0}, [Lcom/mopub/mraid/PlacementType;->clone()Ljava/lang/Object;
@@ -110,7 +104,6 @@
 .method toJavascriptString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Enum;->toString()Ljava/lang/String;
 
     move-result-object v0

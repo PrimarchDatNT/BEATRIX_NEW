@@ -32,7 +32,6 @@
 
     iput-object p2, p0, Lcom/commsource/home/homepagedialog/j$a;->b:Lcom/commsource/push/NotificationBarPush;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/j$a;->b:Lcom/commsource/push/NotificationBarPush;
 
     invoke-virtual {v1}, Lcom/commsource/push/NotificationBarPush;->getTaskId()Ljava/lang/String;
@@ -58,10 +56,8 @@
 
     const-string v3, "\u673a\u5916pushAPP\u9996\u9875\u56fe\u7247\u5f39\u7a97\u8df3\u8f6c"
 
-    .line 2
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -74,14 +70,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/j$a;->a:Lcom/commsource/home/homepagedialog/j;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/home/homepagedialog/j;->m(Lcom/commsource/home/homepagedialog/j;Lcom/commsource/widget/y0;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -29,12 +29,10 @@
 .method public constructor <init>(Lorg/apache/http/HeaderIterator;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Header iterator"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -45,7 +43,6 @@
 
     const/4 p1, -0x1
 
-    .line 3
     invoke-virtual {p0, p1}, Lorg/apache/http/message/BasicTokenIterator;->findNext(I)I
 
     move-result p1
@@ -60,7 +57,6 @@
 .method protected createToken(Ljava/lang/String;II)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p1
@@ -80,7 +76,6 @@
 
     if-gez p1, :cond_1
 
-    .line 1
     iget-object p1, p0, Lorg/apache/http/message/BasicTokenIterator;->headerIt:Lorg/apache/http/HeaderIterator;
 
     invoke-interface {p1}, Lorg/apache/http/HeaderIterator;->hasNext()Z
@@ -91,7 +86,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lorg/apache/http/message/BasicTokenIterator;->headerIt:Lorg/apache/http/HeaderIterator;
 
@@ -109,13 +103,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-virtual {p0, p1}, Lorg/apache/http/message/BasicTokenIterator;->findTokenSeparator(I)I
 
     move-result p1
 
-    .line 4
     :goto_0
     invoke-virtual {p0, p1}, Lorg/apache/http/message/BasicTokenIterator;->findTokenStart(I)I
 
@@ -125,18 +117,15 @@
 
     const/4 p1, 0x0
 
-    .line 5
     iput-object p1, p0, Lorg/apache/http/message/BasicTokenIterator;->currentToken:Ljava/lang/String;
 
     return v0
 
-    .line 6
     :cond_2
     invoke-virtual {p0, p1}, Lorg/apache/http/message/BasicTokenIterator;->findTokenEnd(I)I
 
     move-result v0
 
-    .line 7
     iget-object v1, p0, Lorg/apache/http/message/BasicTokenIterator;->currentHeader:Ljava/lang/String;
 
     invoke-virtual {p0, v1, p1, v0}, Lorg/apache/http/message/BasicTokenIterator;->createToken(Ljava/lang/String;II)Ljava/lang/String;
@@ -153,10 +142,8 @@
 
     const-string v0, "Search position"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNegative(ILjava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/message/BasicTokenIterator;->currentHeader:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
@@ -168,7 +155,6 @@
 
     if-ge p1, v0, :cond_0
 
-    .line 3
     iget-object v1, p0, Lorg/apache/http/message/BasicTokenIterator;->currentHeader:Ljava/lang/String;
 
     invoke-virtual {v1, p1}, Ljava/lang/String;->charAt(I)C
@@ -192,12 +178,10 @@
 
     const-string v0, "Search position"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNegative(ILjava/lang/String;)I
 
     move-result p1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/message/BasicTokenIterator;->currentHeader:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
@@ -211,14 +195,12 @@
 
     if-ge p1, v0, :cond_3
 
-    .line 3
     iget-object v2, p0, Lorg/apache/http/message/BasicTokenIterator;->currentHeader:Ljava/lang/String;
 
     invoke-virtual {v2, p1}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
 
-    .line 4
     invoke-virtual {p0, v2}, Lorg/apache/http/message/BasicTokenIterator;->isTokenSeparator(C)Z
 
     move-result v3
@@ -229,7 +211,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p0, v2}, Lorg/apache/http/message/BasicTokenIterator;->isWhitespace(C)Z
 
@@ -241,7 +222,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p0, v2}, Lorg/apache/http/message/BasicTokenIterator;->isTokenChar(C)Z
 
@@ -251,7 +231,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 7
     new-instance v0, Lorg/apache/http/ParseException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -278,7 +257,6 @@
 
     throw v0
 
-    .line 8
     :cond_2
     new-instance v0, Lorg/apache/http/ParseException;
 
@@ -315,7 +293,6 @@
 
     const-string v0, "Search position"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNegative(ILjava/lang/String;)I
 
     move-result p1
@@ -328,12 +305,10 @@
     :goto_0
     if-nez v1, :cond_6
 
-    .line 2
     iget-object v2, p0, Lorg/apache/http/message/BasicTokenIterator;->currentHeader:Ljava/lang/String;
 
     if-eqz v2, :cond_6
 
-    .line 3
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -343,14 +318,12 @@
 
     if-ge p1, v2, :cond_4
 
-    .line 4
     iget-object v3, p0, Lorg/apache/http/message/BasicTokenIterator;->currentHeader:Ljava/lang/String;
 
     invoke-virtual {v3, p1}, Ljava/lang/String;->charAt(I)C
 
     move-result v3
 
-    .line 5
     invoke-virtual {p0, v3}, Lorg/apache/http/message/BasicTokenIterator;->isTokenSeparator(C)Z
 
     move-result v4
@@ -365,7 +338,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lorg/apache/http/message/BasicTokenIterator;->currentHeader:Ljava/lang/String;
 
@@ -383,7 +355,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     new-instance v0, Lorg/apache/http/ParseException;
 
@@ -422,7 +393,6 @@
     :cond_4
     if-nez v1, :cond_0
 
-    .line 8
     iget-object v2, p0, Lorg/apache/http/message/BasicTokenIterator;->headerIt:Lorg/apache/http/HeaderIterator;
 
     invoke-interface {v2}, Lorg/apache/http/HeaderIterator;->hasNext()Z
@@ -431,7 +401,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 9
     iget-object p1, p0, Lorg/apache/http/message/BasicTokenIterator;->headerIt:Lorg/apache/http/HeaderIterator;
 
     invoke-interface {p1}, Lorg/apache/http/HeaderIterator;->nextHeader()Lorg/apache/http/Header;
@@ -451,7 +420,6 @@
     :cond_5
     const/4 v2, 0x0
 
-    .line 10
     iput-object v2, p0, Lorg/apache/http/message/BasicTokenIterator;->currentHeader:Ljava/lang/String;
 
     goto :goto_0
@@ -471,7 +439,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicTokenIterator;->currentToken:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -492,7 +459,6 @@
 
     const-string v0, " ,;=()<>@:\\\"/[]?{}\t"
 
-    .line 1
     invoke-virtual {v0, p1}, Ljava/lang/String;->indexOf(I)I
 
     move-result p1
@@ -513,7 +479,6 @@
 .method protected isTokenChar(C)Z
     .locals 3
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Character;->isLetterOrDigit(C)Z
 
     move-result v0
@@ -524,7 +489,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p1}, Ljava/lang/Character;->isISOControl(C)Z
 
@@ -536,7 +500,6 @@
 
     return v2
 
-    .line 3
     :cond_1
     invoke-virtual {p0, p1}, Lorg/apache/http/message/BasicTokenIterator;->isHttpSeparator(C)Z
 
@@ -575,7 +538,6 @@
 
     if-eq p1, v0, :cond_1
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Character;->isSpaceChar(C)Z
 
     move-result p1
@@ -606,7 +568,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/message/BasicTokenIterator;->nextToken()Ljava/lang/String;
 
     move-result-object v0
@@ -623,12 +584,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicTokenIterator;->currentToken:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget v1, p0, Lorg/apache/http/message/BasicTokenIterator;->searchPos:I
 
     invoke-virtual {p0, v1}, Lorg/apache/http/message/BasicTokenIterator;->findNext(I)I
@@ -639,7 +598,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -658,7 +616,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Removing tokens is not supported."

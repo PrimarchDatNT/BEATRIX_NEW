@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/ManagedChannelImpl$y;Lio/grpc/internal/f1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$y$d;->b:Lio/grpc/internal/ManagedChannelImpl$y;
 
     iput-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$y$d;->a:Lio/grpc/internal/f1;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$y$d;->b:Lio/grpc/internal/ManagedChannelImpl$y;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$y;->k:Lio/grpc/internal/ManagedChannelImpl;
@@ -55,7 +53,6 @@
 
     invoke-virtual {v0, v1}, Lio/grpc/InternalChannelz;->h(Lio/grpc/i0;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$y$d;->b:Lio/grpc/internal/ManagedChannelImpl$y;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$y;->k:Lio/grpc/internal/ManagedChannelImpl;

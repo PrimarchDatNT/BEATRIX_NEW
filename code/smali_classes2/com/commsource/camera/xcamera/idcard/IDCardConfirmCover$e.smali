@@ -43,7 +43,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e;->a:Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -60,12 +59,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e;->a:Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;
 
@@ -85,7 +82,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 4
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/bean/c;->c()Lcom/meitu/core/types/FaceData;
 
     move-result-object v1
@@ -112,7 +108,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     new-instance v1, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$a;
 
@@ -124,19 +119,16 @@
 
     goto :goto_2
 
-    .line 6
     :cond_3
     :goto_1
     sget-object v0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$b;->a:Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$b;
 
     invoke-static {v0}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_4
     :goto_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

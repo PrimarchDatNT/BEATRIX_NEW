@@ -31,7 +31,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/AllEqualOrdering;
 
     invoke-direct {v0}, Lcom/google/common/collect/AllEqualOrdering;-><init>()V
@@ -44,7 +43,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/Ordering;-><init>()V
 
     return-void
@@ -53,7 +51,6 @@
 .method private readResolve()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/AllEqualOrdering;->INSTANCE:Lcom/google/common/collect/AllEqualOrdering;
 
     return-object v0
@@ -91,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/collect/ImmutableList;->copyOf(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableList;
 
     move-result-object p1
@@ -128,7 +124,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/collect/Lists;->r(Ljava/lang/Iterable;)Ljava/util/ArrayList;
 
     move-result-object p1

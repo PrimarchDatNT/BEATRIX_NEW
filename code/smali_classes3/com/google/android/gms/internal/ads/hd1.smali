@@ -46,42 +46,32 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/yw;Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/internal/ads/xc1;Lcom/google/android/gms/internal/ads/pd1;Lcom/google/android/gms/internal/ads/zzbbd;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/on2;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->f:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 3
     new-instance v0, Landroid/widget/FrameLayout;
 
     invoke-direct {v0, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->d:Landroid/view/ViewGroup;
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/hd1;->b:Lcom/google/android/gms/internal/ads/yw;
 
-    .line 5
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/hd1;->c:Landroid/content/Context;
 
-    .line 6
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/hd1;->g:Ljava/lang/String;
 
-    .line 7
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/hd1;->p:Lcom/google/android/gms/internal/ads/xc1;
 
-    .line 8
     iput-object p5, p0, Lcom/google/android/gms/internal/ads/hd1;->J:Lcom/google/android/gms/internal/ads/pd1;
 
-    .line 9
     invoke-virtual {p5, p0}, Lcom/google/android/gms/internal/ads/pd1;->c(Lcom/google/android/gms/internal/ads/k90;)V
 
-    .line 10
     iput-object p6, p0, Lcom/google/android/gms/internal/ads/hd1;->K:Lcom/google/android/gms/internal/ads/zzbbd;
 
     return-void
@@ -90,7 +80,6 @@
 .method static synthetic Aa(Lcom/google/android/gms/internal/ads/hd1;)Lcom/google/android/gms/internal/ads/zzvh;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/hd1;->f8()Lcom/google/android/gms/internal/ads/zzvh;
 
     move-result-object p0
@@ -101,7 +90,6 @@
 .method private final Da(Lcom/google/android/gms/internal/ads/t10;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p0}, Lcom/google/android/gms/internal/ads/t10;->g(Lcom/google/android/gms/internal/ads/bj2;)V
 
     return-void
@@ -110,7 +98,6 @@
 .method static synthetic Ea(Lcom/google/android/gms/internal/ads/t10;)Landroid/widget/RelativeLayout$LayoutParams;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/hd1;->v9(Lcom/google/android/gms/internal/ads/t10;)Landroid/widget/RelativeLayout$LayoutParams;
 
     move-result-object p0
@@ -121,7 +108,6 @@
 .method static synthetic Fa(Lcom/google/android/gms/internal/ads/hd1;)Lcom/google/android/gms/internal/ads/pd1;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/hd1;->J:Lcom/google/android/gms/internal/ads/pd1;
 
     return-object p0
@@ -130,7 +116,6 @@
 .method static synthetic J5(Lcom/google/android/gms/internal/ads/hd1;)Landroid/view/ViewGroup;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/hd1;->d:Landroid/view/ViewGroup;
 
     return-object p0
@@ -139,7 +124,6 @@
 .method static synthetic L6(Lcom/google/android/gms/internal/ads/hd1;Lcom/google/android/gms/internal/ads/t10;)Lcom/google/android/gms/ads/internal/overlay/zzq;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/hd1;->c6(Lcom/google/android/gms/internal/ads/t10;)Lcom/google/android/gms/ads/internal/overlay/zzq;
 
     move-result-object p0
@@ -150,7 +134,6 @@
 .method static synthetic L9(Lcom/google/android/gms/internal/ads/hd1;)Lcom/google/android/gms/internal/ads/zzbbd;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/hd1;->K:Lcom/google/android/gms/internal/ads/zzbbd;
 
     return-object p0
@@ -159,7 +142,6 @@
 .method private final W7()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->f:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -172,7 +154,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->N:Lcom/google/android/gms/internal/ads/t10;
 
     if-eqz v0, :cond_0
@@ -183,49 +164,40 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->J:Lcom/google/android/gms/internal/ads/pd1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/hd1;->N:Lcom/google/android/gms/internal/ads/t10;
 
-    .line 4
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/t10;->p()Lcom/google/android/gms/internal/ads/mj2;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/pd1;->h(Lcom/google/android/gms/internal/ads/mj2;)V
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->J:Lcom/google/android/gms/internal/ads/pd1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/pd1;->b()V
 
-    .line 7
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->d:Landroid/view/ViewGroup;
 
     invoke-virtual {v0}, Landroid/view/ViewGroup;->removeAllViews()V
 
-    .line 8
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->M:Lcom/google/android/gms/internal/ads/i10;
 
     if-eqz v0, :cond_1
 
-    .line 9
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->f()Lcom/google/android/gms/internal/ads/ei2;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Lcom/google/android/gms/internal/ads/ei2;->e(Lcom/google/android/gms/internal/ads/ji2;)V
 
-    .line 10
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->N:Lcom/google/android/gms/internal/ads/t10;
 
     if-eqz v0, :cond_2
 
-    .line 11
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->j()Lcom/google/android/gms/common/util/g;
 
     move-result-object v1
@@ -240,7 +212,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/ads/t10;->q(J)V
 
-    .line 12
     :cond_2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/hd1;->destroy()V
 
@@ -251,7 +222,6 @@
 .method static synthetic X9(Lcom/google/android/gms/internal/ads/hd1;Lcom/google/android/gms/internal/ads/t10;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/hd1;->Da(Lcom/google/android/gms/internal/ads/t10;)V
 
     return-void
@@ -260,15 +230,12 @@
 .method private final c6(Lcom/google/android/gms/internal/ads/t10;)Lcom/google/android/gms/ads/internal/overlay/zzq;
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/t10;->i()Z
 
     move-result p1
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->X2:Lcom/google/android/gms/internal/ads/h;
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -277,21 +244,18 @@
 
     move-result-object v0
 
-    .line 4
     check-cast v0, Ljava/lang/Integer;
 
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
 
-    .line 5
     new-instance v1, Lcom/google/android/gms/ads/internal/overlay/m;
 
     invoke-direct {v1}, Lcom/google/android/gms/ads/internal/overlay/m;-><init>()V
 
     const/16 v2, 0x32
 
-    .line 6
     iput v2, v1, Lcom/google/android/gms/ads/internal/overlay/m;->e:I
 
     const/4 v2, 0x0
@@ -305,7 +269,6 @@
     :cond_0
     const/4 v3, 0x0
 
-    .line 7
     :goto_0
     iput v3, v1, Lcom/google/android/gms/ads/internal/overlay/m;->a:I
 
@@ -318,17 +281,13 @@
     :cond_1
     move p1, v0
 
-    .line 8
     :goto_1
     iput p1, v1, Lcom/google/android/gms/ads/internal/overlay/m;->b:I
 
-    .line 9
     iput v2, v1, Lcom/google/android/gms/ads/internal/overlay/m;->c:I
 
-    .line 10
     iput v0, v1, Lcom/google/android/gms/ads/internal/overlay/m;->d:I
 
-    .line 11
     new-instance p1, Lcom/google/android/gms/ads/internal/overlay/zzq;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->c:Landroid/content/Context;
@@ -341,12 +300,10 @@
 .method private final f8()Lcom/google/android/gms/internal/ads/zzvh;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->c:Landroid/content/Context;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/hd1;->N:Lcom/google/android/gms/internal/ads/t10;
 
-    .line 2
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/t10;->m()Lcom/google/android/gms/internal/ads/tg1;
 
     move-result-object v1
@@ -355,7 +312,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/nh1;->b(Landroid/content/Context;Ljava/util/List;)Lcom/google/android/gms/internal/ads/zzvh;
 
     move-result-object v0
@@ -366,7 +322,6 @@
 .method private static v9(Lcom/google/android/gms/internal/ads/t10;)Landroid/widget/RelativeLayout$LayoutParams;
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/widget/RelativeLayout$LayoutParams;
 
     const/4 v1, -0x2
@@ -375,10 +330,8 @@
 
     const/16 v1, 0xa
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/t10;->i()Z
 
     move-result p0
@@ -392,7 +345,6 @@
     :cond_0
     const/16 p0, 0x9
 
-    .line 4
     :goto_0
     invoke-virtual {v0, p0}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
@@ -412,7 +364,6 @@
 
     monitor-enter p0
 
-    .line 1
     monitor-exit p0
 
     return-void
@@ -421,7 +372,6 @@
 .method public final G3()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/hd1;->W7()V
 
     return-void
@@ -432,7 +382,6 @@
 
     monitor-enter p0
 
-    .line 1
     monitor-exit p0
 
     return-void
@@ -443,7 +392,6 @@
 
     monitor-enter p0
 
-    .line 1
     monitor-exit p0
 
     return-void
@@ -452,7 +400,6 @@
 .method public final L3()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/hd1;->W7()V
 
     return-void
@@ -471,10 +418,8 @@
     :try_start_0
     const-string v0, "loadAd must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->c:Landroid/content/Context;
@@ -493,10 +438,8 @@
 
     const-string p1, "Failed to load the ad because app ID is missing."
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/hd1;->J:Lcom/google/android/gms/internal/ads/pd1;
 
     const/16 v0, 0x8
@@ -505,12 +448,10 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     monitor-exit p0
 
     return v1
 
-    .line 6
     :cond_0
     :try_start_1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/hd1;->isLoading()Z
@@ -521,12 +462,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 7
     monitor-exit p0
 
     return v1
 
-    .line 8
     :cond_1
     :try_start_2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -535,12 +474,10 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->f:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 9
     new-instance v0, Lcom/google/android/gms/internal/ads/id1;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/id1;-><init>(Lcom/google/android/gms/internal/ads/hd1;)V
 
-    .line 10
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/hd1;->p:Lcom/google/android/gms/internal/ads/xc1;
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/hd1;->g:Ljava/lang/String;
@@ -570,7 +507,6 @@
 .method public final M5(Lcom/google/android/gms/internal/ads/zzvo;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->p:Lcom/google/android/gms/internal/ads/xc1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/xc1;->f(Lcom/google/android/gms/internal/ads/zzvo;)V
@@ -586,12 +522,10 @@
     :try_start_0
     const-string p1, "setAdSize must be called on the main UI thread."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -615,7 +549,6 @@
 .method public final R1(Lcom/google/android/gms/internal/ads/hj2;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->J:Lcom/google/android/gms/internal/ads/pd1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/pd1;->g(Lcom/google/android/gms/internal/ads/hj2;)V
@@ -638,14 +571,12 @@
 .method public final Z()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->N:Lcom/google/android/gms/internal/ads/t10;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->j()Lcom/google/android/gms/common/util/g;
 
@@ -657,7 +588,6 @@
 
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/hd1;->L:J
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->N:Lcom/google/android/gms/internal/ads/t10;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/t10;->j()I
@@ -668,13 +598,11 @@
 
     return-void
 
-    .line 4
     :cond_1
     new-instance v1, Lcom/google/android/gms/internal/ads/i10;
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/hd1;->b:Lcom/google/android/gms/internal/ads/yw;
 
-    .line 5
     invoke-virtual {v2}, Lcom/google/android/gms/internal/ads/yw;->f()Ljava/util/concurrent/ScheduledExecutorService;
 
     move-result-object v2
@@ -687,7 +615,6 @@
 
     iput-object v1, p0, Lcom/google/android/gms/internal/ads/hd1;->M:Lcom/google/android/gms/internal/ads/i10;
 
-    .line 6
     new-instance v2, Lcom/google/android/gms/internal/ads/jd1;
 
     invoke-direct {v2, p0}, Lcom/google/android/gms/internal/ads/jd1;-><init>(Lcom/google/android/gms/internal/ads/hd1;)V
@@ -702,7 +629,6 @@
 
     monitor-enter p0
 
-    .line 1
     monitor-exit p0
 
     return-void
@@ -722,20 +648,16 @@
     :try_start_0
     const-string v0, "destroy must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->N:Lcom/google/android/gms/internal/ads/t10;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/b40;->a()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :cond_0
     monitor-exit p0
 
@@ -760,7 +682,6 @@
 
     monitor-enter p0
 
-    .line 1
     monitor-exit p0
 
     const/4 v0, 0x0
@@ -776,18 +697,14 @@
     :try_start_0
     const-string v0, "getAdSize must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->N:Lcom/google/android/gms/internal/ads/t10;
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/hd1;->c:Landroid/content/Context;
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/t10;->m()Lcom/google/android/gms/internal/ads/tg1;
 
     move-result-object v0
@@ -796,7 +713,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/nh1;->b(Landroid/content/Context;Ljava/util/List;)Lcom/google/android/gms/internal/ads/zzvh;
 
     move-result-object v0
@@ -810,7 +726,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 6
     monitor-exit p0
 
     return-object v0
@@ -828,7 +743,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->g:Ljava/lang/String;
     :try_end_0
@@ -851,7 +765,6 @@
 
     monitor-enter p0
 
-    .line 1
     monitor-exit p0
 
     const/4 v0, 0x0
@@ -862,7 +775,6 @@
 .method final synthetic h8()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->b:Lcom/google/android/gms/internal/ads/yw;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/yw;->e()Ljava/util/concurrent/Executor;
@@ -889,7 +801,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->p:Lcom/google/android/gms/internal/ads/xc1;
 
@@ -940,7 +851,6 @@
 .method final synthetic m8()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/hd1;->W7()V
 
     return-void
@@ -951,7 +861,6 @@
 
     monitor-enter p0
 
-    .line 1
     monitor-exit p0
 
     const/4 v0, 0x0
@@ -970,7 +879,6 @@
 
     monitor-enter p0
 
-    .line 1
     monitor-exit p0
 
     return-void
@@ -990,12 +898,10 @@
     :try_start_0
     const-string v0, "pause must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -1011,7 +917,6 @@
 .method public final q()Landroid/os/Bundle;
     .locals 1
 
-    .line 1
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
@@ -1024,10 +929,8 @@
 
     const-string v0, "getAdFrame must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hd1;->d:Landroid/view/ViewGroup;
 
     invoke-static {v0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
@@ -1045,12 +948,10 @@
     :try_start_0
     const-string v0, "resume must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -1068,7 +969,6 @@
 
     monitor-enter p0
 
-    .line 1
     monitor-exit p0
 
     const/4 v0, 0x0

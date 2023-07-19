@@ -22,10 +22,8 @@
 .method constructor <init>(Lcom/meitu/library/analytics/sdk/db/e;Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/sdk/db/e$a;->a:Lcom/meitu/library/analytics/sdk/db/e;
 
-    .line 2
     invoke-direct {p0, p2, p3, p4, p5}, Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
 
     return-void
@@ -40,10 +38,8 @@
 
     const-string v1, "CREATE TABLE events ( _id INTEGER PRIMARY KEY AUTOINCREMENT, event_id TEXT NOT NULL DEFAULT \'\', event_type INTEGER NOT NULL DEFAULT 0, event_source TEXT NOT NULL DEFAULT 0, time INTEGER NOT NULL DEFAULT 0, duration INTEGER NOT NULL DEFAULT 0, params TEXT NOT NULL DEFAULT \'\', device_info TEXT NOT NULL DEFAULT \'\', session_id INTEGER NOT NULL DEFAULT 0, event_persistent BOOL NOT NULL DEFAULT 0, event_log_id INTEGER NOT NULL DEFAULT 0, switch_state TEXT NOT NULL DEFAULT \'\', permission_state TEXT NOT NULL DEFAULT \'\', bssid TEXT NOT NULL DEFAULT \'no_wifi\', geo_location_info TEXT NOT NULL DEFAULT \'\',event_priority INTEGER NOT NULL DEFAULT 0  );"
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -58,10 +54,8 @@
 
     const-string v1, "CREATE TABLE sessions(session_id INTEGER PRIMARY KEY AUTOINCREMENT, session_value TEXT NOT NULL DEFAULT \'\');"
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -76,44 +70,36 @@
 
     const-string v1, "ALTER TABLE events ADD COLUMN session_id INTEGER NOT NULL DEFAULT 0;"
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "ALTER TABLE events ADD COLUMN event_persistent BOOL NOT NULL DEFAULT 0;"
 
-    .line 2
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "ALTER TABLE events ADD COLUMN event_log_id INTEGER NOT NULL DEFAULT 0;"
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "ALTER TABLE events ADD COLUMN switch_state TEXT NOT NULL DEFAULT \'\';"
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "ALTER TABLE events ADD COLUMN permission_state TEXT NOT NULL DEFAULT \'\';"
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "ALTER TABLE events ADD COLUMN bssid TEXT NOT NULL DEFAULT \'no_wifi\';"
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "SELECT * from events ORDER BY _id ASC LIMIT 500 offset (SELECT count(_id) from events)-500"
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-virtual {p1, v1, v2}, Landroid/database/sqlite/SQLiteDatabase;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
-    .line 8
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-interface {v1}, Landroid/database/Cursor;->getCount()I
@@ -122,7 +108,6 @@
 
     invoke-direct {v3, v4}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 9
     :goto_0
     invoke-interface {v1}, Landroid/database/Cursor;->moveToNext()Z
 
@@ -130,7 +115,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 10
     new-instance v4, Lcom/meitu/library/analytics/sdk/db/e$b;
 
     invoke-direct {v4, v1}, Lcom/meitu/library/analytics/sdk/db/e$b;-><init>(Landroid/database/Cursor;)V
@@ -139,16 +123,13 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
     const-string v1, "DELETE from events"
 
-    .line 12
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
 
     move-result v1
@@ -162,14 +143,12 @@
     :goto_1
     if-ge v4, v1, :cond_3
 
-    .line 14
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v9
 
     check-cast v9, Lcom/meitu/library/analytics/sdk/db/e$b;
 
-    .line 15
     invoke-static {v9}, Lcom/meitu/library/analytics/sdk/db/e$b;->a(Lcom/meitu/library/analytics/sdk/db/e$b;)I
 
     move-result v10
@@ -182,27 +161,22 @@
 
     if-ne v10, v11, :cond_1
 
-    .line 16
     invoke-static {v9}, Lcom/meitu/library/analytics/sdk/db/e$b;->b(Lcom/meitu/library/analytics/sdk/db/e$b;)Ljava/lang/String;
 
     move-result-object v7
 
-    .line 17
     new-instance v8, Landroid/content/ContentValues;
 
     invoke-direct {v8}, Landroid/content/ContentValues;-><init>()V
 
-    .line 18
     invoke-virtual {v8, v13, v7}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 19
     invoke-virtual {p1, v12, v2, v8}, Landroid/database/sqlite/SQLiteDatabase;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
     move-result-wide v7
 
     goto/16 :goto_2
 
-    .line 20
     :cond_1
     invoke-static {v9}, Lcom/meitu/library/analytics/sdk/db/e$b;->a(Lcom/meitu/library/analytics/sdk/db/e$b;)I
 
@@ -212,30 +186,25 @@
 
     if-ne v10, v11, :cond_2
 
-    .line 21
     new-instance v7, Landroid/content/ContentValues;
 
     invoke-direct {v7}, Landroid/content/ContentValues;-><init>()V
 
     const-string v8, ""
 
-    .line 22
     invoke-virtual {v7, v13, v8}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 23
     invoke-virtual {p1, v12, v2, v7}, Landroid/database/sqlite/SQLiteDatabase;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
     move-wide v7, v5
 
     goto :goto_2
 
-    .line 24
     :cond_2
     new-instance v10, Landroid/content/ContentValues;
 
     invoke-direct {v10}, Landroid/content/ContentValues;-><init>()V
 
-    .line 25
     invoke-static {v9}, Lcom/meitu/library/analytics/sdk/db/e$b;->b(Lcom/meitu/library/analytics/sdk/db/e$b;)Ljava/lang/String;
 
     move-result-object v11
@@ -244,7 +213,6 @@
 
     invoke-virtual {v10, v12, v11}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 26
     invoke-static {v9}, Lcom/meitu/library/analytics/sdk/db/e$b;->a(Lcom/meitu/library/analytics/sdk/db/e$b;)I
 
     move-result v11
@@ -257,7 +225,6 @@
 
     invoke-virtual {v10, v12, v11}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
-    .line 27
     invoke-static {v9}, Lcom/meitu/library/analytics/sdk/db/e$b;->c(Lcom/meitu/library/analytics/sdk/db/e$b;)Ljava/lang/String;
 
     move-result-object v11
@@ -266,7 +233,6 @@
 
     invoke-virtual {v10, v12, v11}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 28
     invoke-static {v9}, Lcom/meitu/library/analytics/sdk/db/e$b;->d(Lcom/meitu/library/analytics/sdk/db/e$b;)J
 
     move-result-wide v11
@@ -279,7 +245,6 @@
 
     invoke-virtual {v10, v12, v11}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 29
     invoke-static {v9}, Lcom/meitu/library/analytics/sdk/db/e$b;->e(Lcom/meitu/library/analytics/sdk/db/e$b;)I
 
     move-result v11
@@ -292,7 +257,6 @@
 
     invoke-virtual {v10, v12, v11}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
-    .line 30
     invoke-static {v9}, Lcom/meitu/library/analytics/sdk/db/e$b;->f(Lcom/meitu/library/analytics/sdk/db/e$b;)Ljava/lang/String;
 
     move-result-object v11
@@ -301,7 +265,6 @@
 
     invoke-virtual {v10, v12, v11}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 31
     invoke-static {v9}, Lcom/meitu/library/analytics/sdk/db/e$b;->g(Lcom/meitu/library/analytics/sdk/db/e$b;)Ljava/lang/String;
 
     move-result-object v9
@@ -310,7 +273,6 @@
 
     invoke-virtual {v10, v11, v9}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 32
     invoke-static {v7, v8}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v9
@@ -319,7 +281,6 @@
 
     invoke-virtual {v10, v11, v9}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 33
     invoke-static {}, Lcom/meitu/library/analytics/sdk/db/h;->i()J
 
     move-result-wide v11
@@ -334,7 +295,6 @@
 
     const-string v9, "events"
 
-    .line 34
     invoke-virtual {p1, v9, v2, v10}, Landroid/database/sqlite/SQLiteDatabase;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
     :goto_2
@@ -342,7 +302,6 @@
 
     goto/16 :goto_1
 
-    .line 35
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -358,10 +317,8 @@
 
     const-string v1, "ALTER TABLE events ADD COLUMN geo_location_info TEXT NOT NULL DEFAULT \'\';"
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -376,10 +333,8 @@
 
     const-string v1, "ALTER TABLE events ADD COLUMN event_priority INTEGER NOT NULL DEFAULT 0;"
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -394,13 +349,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->a(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->b(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -417,17 +369,14 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p1, p3, v0}, Landroid/database/sqlite/SQLiteDatabase;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object p3
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     :goto_0
     invoke-interface {p3}, Landroid/database/Cursor;->moveToNext()Z
 
@@ -437,7 +386,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-interface {p3, v1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -446,11 +394,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-interface {p3}, Landroid/database/Cursor;->close()V
 
-    .line 6
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p3
@@ -471,7 +417,6 @@
 
     const-string v1, "sqlite_"
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -488,7 +433,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -504,10 +448,8 @@
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 10
     sget-object v1, Lcom/meitu/library/analytics/sdk/db/e;->b:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -528,11 +470,9 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     invoke-virtual {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    .line 12
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -551,21 +491,16 @@
 
     if-ne p2, v2, :cond_0
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->a(Landroid/database/sqlite/SQLiteDatabase;)V
 
     const-string p2, "DROP TABLE IF EXISTS sessions"
 
-    .line 3
     invoke-virtual {p1, p2}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->b(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -576,7 +511,6 @@
 
     add-int/lit8 p2, p2, 0x1
 
-    .line 6
     sget-object v3, Lcom/meitu/library/analytics/sdk/db/e;->b:Ljava/lang/String;
 
     const/4 v4, 0x2
@@ -607,10 +541,8 @@
 
     if-ne p2, v4, :cond_1
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->b(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    .line 8
     :try_start_0
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->c(Landroid/database/sqlite/SQLiteDatabase;)V
     :try_end_0
@@ -621,13 +553,10 @@
     :catch_0
     move-exception v3
 
-    .line 9
     invoke-virtual {v3}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 10
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 11
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->a(Landroid/database/sqlite/SQLiteDatabase;)V
 
     goto :goto_1
@@ -635,7 +564,6 @@
     :cond_1
     if-ne p2, v2, :cond_2
 
-    .line 12
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->d(Landroid/database/sqlite/SQLiteDatabase;)V
 
     goto :goto_1
@@ -652,10 +580,8 @@
 
     if-ne p2, v3, :cond_4
 
-    .line 13
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->e(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    .line 14
     :cond_4
     :goto_1
     sget-object v3, Lcom/meitu/library/analytics/sdk/db/e;->b:Ljava/lang/String;
@@ -680,7 +606,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

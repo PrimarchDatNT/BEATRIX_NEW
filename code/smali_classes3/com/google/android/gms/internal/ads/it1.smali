@@ -17,7 +17,6 @@
 .method constructor <init>()V
     .locals 4
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/ads/fx1;
 
     const/4 v1, 0x1
@@ -52,7 +51,6 @@
 .method public final d()Lcom/google/android/gms/internal/ads/zzebf$zza;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/zzebf$zza;->zzhuw:Lcom/google/android/gms/internal/ads/zzebf$zza;
 
     return-object v0
@@ -70,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/lt1;
 
     const-class v1, Lcom/google/android/gms/internal/ads/ix1;
@@ -88,10 +85,8 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/fx1;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/fx1;->z()I
 
     move-result p1
@@ -111,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/t02;->b()Lcom/google/android/gms/internal/ads/t02;
 
     move-result-object v0

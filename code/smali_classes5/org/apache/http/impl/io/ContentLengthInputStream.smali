@@ -26,27 +26,22 @@
 .method public constructor <init>(Lorg/apache/http/io/SessionInputBuffer;J)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->pos:J
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->closed:Z
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
     const-string v0, "Session input buffer"
 
-    .line 5
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -57,7 +52,6 @@
 
     const-string p1, "Content length"
 
-    .line 6
     invoke-static {p2, p3, p1}, Lorg/apache/http/util/Args;->notNegative(JLjava/lang/String;)J
 
     move-result-wide p1
@@ -77,21 +71,18 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
     instance-of v1, v0, Lorg/apache/http/io/BufferInfo;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast v0, Lorg/apache/http/io/BufferInfo;
 
     invoke-interface {v0}, Lorg/apache/http/io/BufferInfo;->length()I
 
     move-result v0
 
-    .line 3
     iget-wide v1, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->contentLength:J
 
     iget-wide v3, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->pos:J
@@ -120,14 +111,12 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->closed:Z
 
     if-nez v0, :cond_1
 
     const/4 v0, 0x1
 
-    .line 2
     :try_start_0
     iget-wide v1, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->pos:J
 
@@ -141,7 +130,6 @@
 
     new-array v1, v1, [B
 
-    .line 3
     :goto_0
     invoke-virtual {p0, v1}, Lorg/apache/http/impl/io/ContentLengthInputStream;->read([B)I
 
@@ -153,7 +141,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iput-boolean v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->closed:Z
 
@@ -179,12 +166,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->closed:Z
 
     if-nez v0, :cond_3
 
-    .line 2
     iget-wide v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->pos:J
 
     iget-wide v2, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->contentLength:J
@@ -197,7 +182,6 @@
 
     return v4
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
@@ -207,7 +191,6 @@
 
     if-ne v0, v4, :cond_2
 
-    .line 4
     iget-wide v1, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->pos:J
 
     iget-wide v3, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->contentLength:J
@@ -218,7 +201,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance v0, Lorg/apache/http/ConnectionClosedException;
 
@@ -250,7 +232,6 @@
 
     throw v0
 
-    .line 6
     :cond_2
     iget-wide v1, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->pos:J
 
@@ -263,7 +244,6 @@
     :goto_0
     return v0
 
-    .line 7
     :cond_3
     new-instance v0, Ljava/io/IOException;
 
@@ -282,7 +262,6 @@
         }
     .end annotation
 
-    .line 15
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -302,12 +281,10 @@
         }
     .end annotation
 
-    .line 8
     iget-boolean v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->closed:Z
 
     if-nez v0, :cond_5
 
-    .line 9
     iget-wide v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->pos:J
 
     iget-wide v2, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->contentLength:J
@@ -333,7 +310,6 @@
 
     long-to-int p3, v2
 
-    .line 10
     :cond_1
     iget-object v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
@@ -343,7 +319,6 @@
 
     if-ne p1, v4, :cond_3
 
-    .line 11
     iget-wide p2, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->pos:J
 
     iget-wide v0, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->contentLength:J
@@ -354,7 +329,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_2
     new-instance p1, Lorg/apache/http/ConnectionClosedException;
 
@@ -390,7 +364,6 @@
     :goto_0
     if-lez p1, :cond_4
 
-    .line 13
     iget-wide p2, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->pos:J
 
     int-to-long v0, p1
@@ -402,7 +375,6 @@
     :cond_4
     return p1
 
-    .line 14
     :cond_5
     new-instance p1, Ljava/io/IOException;
 
@@ -434,7 +406,6 @@
 
     new-array v2, v2, [B
 
-    .line 1
     iget-wide v3, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->contentLength:J
 
     iget-wide v5, p0, Lorg/apache/http/impl/io/ContentLengthInputStream;->pos:J
@@ -456,7 +427,6 @@
 
     const-wide/16 v6, 0x800
 
-    .line 2
     invoke-static {v6, v7, p1, p2}, Ljava/lang/Math;->min(JJ)J
 
     move-result-wide v6

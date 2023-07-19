@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/camera/z0/e$d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/z0/e$d$a;->a:Lcom/commsource/camera/z0/e$d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -50,14 +49,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->F0(Ljava/util/List;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -70,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

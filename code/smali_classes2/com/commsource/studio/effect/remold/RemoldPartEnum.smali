@@ -65,47 +65,40 @@
 
     new-array v3, v3, [Lcom/commsource/studio/effect/remold/RemoldEnum;
 
-    .line 1
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->SlimFace:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     const/4 v10, 0x0
 
     aput-object v4, v3, v10
 
-    .line 2
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->FaceWidth:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     const/4 v11, 0x1
 
     aput-object v4, v3, v11
 
-    .line 3
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->JawReduction:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     const/4 v12, 0x2
 
     aput-object v4, v3, v12
 
-    .line 4
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->BottomHalfOfFace:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     const/4 v13, 0x3
 
     aput-object v4, v3, v13
 
-    .line 5
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->Chin:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     const/4 v14, 0x4
 
     aput-object v4, v3, v14
 
-    .line 6
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->HairLine:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v4, v3, v1
 
-    .line 7
     invoke-static {v3}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v8
@@ -130,27 +123,22 @@
 
     new-array v4, v14, [Lcom/commsource/studio/effect/remold/RemoldEnum;
 
-    .line 8
     sget-object v5, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeEnlarge:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v5, v4, v10
 
-    .line 9
     sget-object v5, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeHeight:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v5, v4, v11
 
-    .line 10
     sget-object v5, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeWidth:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v5, v4, v12
 
-    .line 11
     sget-object v5, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeAngle:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v5, v4, v13
 
-    .line 12
     invoke-static {v4}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v20
@@ -175,22 +163,18 @@
 
     new-array v4, v13, [Lcom/commsource/studio/effect/remold/RemoldEnum;
 
-    .line 13
     sget-object v5, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeBrowHeight:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v5, v4, v10
 
-    .line 14
     sget-object v5, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeBrowAngle:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v5, v4, v11
 
-    .line 15
     sget-object v5, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeBrowSize:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v5, v4, v12
 
-    .line 16
     invoke-static {v4}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v9
@@ -215,32 +199,26 @@
 
     new-array v1, v1, [Lcom/commsource/studio/effect/remold/RemoldEnum;
 
-    .line 17
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->NoseSize:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v4, v1, v10
 
-    .line 18
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->NoseHeight:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v4, v1, v11
 
-    .line 19
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->NoseSwing:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v4, v1, v12
 
-    .line 20
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->NoseBridge:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v4, v1, v13
 
-    .line 21
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->NoseTip:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v4, v1, v14
 
-    .line 22
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v20
@@ -265,27 +243,22 @@
 
     new-array v3, v14, [Lcom/commsource/studio/effect/remold/RemoldEnum;
 
-    .line 23
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->MouthSize:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v4, v3, v10
 
-    .line 24
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->Smile:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v4, v3, v11
 
-    .line 25
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->MouthHeight:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v4, v3, v12
 
-    .line 26
     sget-object v4, Lcom/commsource/studio/effect/remold/RemoldEnum;->MouthThick:Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     aput-object v4, v3, v13
 
-    .line 27
     invoke-static {v3}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v9
@@ -325,7 +298,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->id:I
@@ -386,7 +358,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -401,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->nameRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -427,7 +397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->remoldEnums:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

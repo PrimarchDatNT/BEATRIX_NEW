@@ -26,10 +26,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/miniapp/m;-><init>(Landroid/content/Context;)V
 
-    .line 2
     sget-object p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator$paint$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator$paint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -40,7 +38,6 @@
 
     sget p1, Lcom/res/provider/ResCOLOR;->color_61dae4:I
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -49,14 +46,12 @@
 
     sget p1, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator;->d:I
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator;->c()Landroid/graphics/Paint;
 
     move-result-object p1
@@ -87,7 +82,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->getPosition()F
 
     move-result v1
@@ -112,7 +106,6 @@
 
     add-float/2addr v1, v2
 
-    .line 2
     invoke-virtual {p1}, Landroid/widget/LinearLayout;->getHeight()I
 
     move-result v2
@@ -129,7 +122,6 @@
 
     sub-float/2addr v2, v4
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->getForwardPosition()I
 
     move-result p1
@@ -138,7 +130,6 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator;->c()Landroid/graphics/Paint;
 
     move-result-object p1
@@ -149,7 +140,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator;->c()Landroid/graphics/Paint;
 
@@ -162,7 +152,6 @@
     :goto_0
     if-eqz p2, :cond_1
 
-    .line 6
     invoke-static {v3}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
@@ -173,7 +162,6 @@
 
     invoke-virtual {p2, v1, v2, p1, v3}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -187,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -224,7 +211,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

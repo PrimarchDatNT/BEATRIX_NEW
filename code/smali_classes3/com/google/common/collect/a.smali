@@ -30,7 +30,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/common/collect/a;-><init>(II)V
 
     return-void
@@ -39,16 +38,12 @@
 .method protected constructor <init>(II)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/m2;-><init>()V
 
-    .line 3
     invoke-static {p2, p1}, Lcom/google/common/base/t;->d0(II)I
 
-    .line 4
     iput p1, p0, Lcom/google/common/collect/a;->a:I
 
-    .line 5
     iput p2, p0, Lcom/google/common/collect/a;->b:I
 
     return-void
@@ -67,7 +62,6 @@
 .method public final hasNext()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/a;->b:I
 
     iget v1, p0, Lcom/google/common/collect/a;->a:I
@@ -88,7 +82,6 @@
 .method public final hasPrevious()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/a;->b:I
 
     if-lez v0, :cond_0
@@ -112,14 +105,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/a;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/a;->b:I
 
     add-int/lit8 v1, v0, 0x1
@@ -132,7 +123,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -144,7 +134,6 @@
 .method public final nextIndex()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/a;->b:I
 
     return v0
@@ -158,14 +147,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/a;->hasPrevious()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/a;->b:I
 
     add-int/lit8 v0, v0, -0x1
@@ -178,7 +165,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -190,7 +176,6 @@
 .method public final previousIndex()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/a;->b:I
 
     add-int/lit8 v0, v0, -0x1

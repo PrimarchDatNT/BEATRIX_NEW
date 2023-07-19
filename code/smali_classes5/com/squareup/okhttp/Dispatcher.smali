@@ -45,34 +45,28 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x40
 
-    .line 9
     iput v0, p0, Lcom/squareup/okhttp/Dispatcher;->maxRequests:I
 
     const/4 v0, 0x5
 
-    .line 10
     iput v0, p0, Lcom/squareup/okhttp/Dispatcher;->maxRequestsPerHost:I
 
-    .line 11
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->readyCalls:Ljava/util/Deque;
 
-    .line 12
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->runningCalls:Ljava/util/Deque;
 
-    .line 13
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
@@ -85,41 +79,34 @@
 .method public constructor <init>(Ljava/util/concurrent/ExecutorService;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x40
 
-    .line 2
     iput v0, p0, Lcom/squareup/okhttp/Dispatcher;->maxRequests:I
 
     const/4 v0, 0x5
 
-    .line 3
     iput v0, p0, Lcom/squareup/okhttp/Dispatcher;->maxRequestsPerHost:I
 
-    .line 4
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->readyCalls:Ljava/util/Deque;
 
-    .line 5
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->runningCalls:Ljava/util/Deque;
 
-    .line 6
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->executedCalls:Ljava/util/Deque;
 
-    .line 7
     iput-object p1, p0, Lcom/squareup/okhttp/Dispatcher;->executorService:Ljava/util/concurrent/ExecutorService;
 
     return-void
@@ -128,7 +115,6 @@
 .method private promoteCalls()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->runningCalls:Ljava/util/Deque;
 
     invoke-interface {v0}, Ljava/util/Deque;->size()I
@@ -141,7 +127,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->readyCalls:Ljava/util/Deque;
 
@@ -153,7 +138,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->readyCalls:Ljava/util/Deque;
 
@@ -168,14 +152,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/squareup/okhttp/Call$AsyncCall;
 
-    .line 5
     invoke-direct {p0, v1}, Lcom/squareup/okhttp/Dispatcher;->runningCallsForHost(Lcom/squareup/okhttp/Call$AsyncCall;)I
 
     move-result v2
@@ -184,22 +166,18 @@
 
     if-ge v2, v3, :cond_3
 
-    .line 6
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
-    .line 7
     iget-object v2, p0, Lcom/squareup/okhttp/Dispatcher;->runningCalls:Ljava/util/Deque;
 
     invoke-interface {v2, v1}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
 
-    .line 8
     invoke-virtual {p0}, Lcom/squareup/okhttp/Dispatcher;->getExecutorService()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v2
 
     invoke-interface {v2, v1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 9
     :cond_3
     iget-object v1, p0, Lcom/squareup/okhttp/Dispatcher;->runningCalls:Ljava/util/Deque;
 
@@ -218,7 +196,6 @@
 .method private runningCallsForHost(Lcom/squareup/okhttp/Call$AsyncCall;)I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->runningCalls:Ljava/util/Deque;
 
     invoke-interface {v0}, Ljava/util/Deque;->iterator()Ljava/util/Iterator;
@@ -241,7 +218,6 @@
 
     check-cast v2, Lcom/squareup/okhttp/Call$AsyncCall;
 
-    .line 2
     invoke-virtual {v2}, Lcom/squareup/okhttp/Call$AsyncCall;->host()Ljava/lang/String;
 
     move-result-object v2
@@ -271,7 +247,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->readyCalls:Ljava/util/Deque;
 
@@ -293,7 +268,6 @@
 
     check-cast v1, Lcom/squareup/okhttp/Call$AsyncCall;
 
-    .line 2
     invoke-virtual {v1}, Lcom/squareup/okhttp/Call$AsyncCall;->tag()Ljava/lang/Object;
 
     move-result-object v2
@@ -304,12 +278,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/squareup/okhttp/Call$AsyncCall;->cancel()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->runningCalls:Ljava/util/Deque;
 
@@ -331,7 +303,6 @@
 
     check-cast v1, Lcom/squareup/okhttp/Call$AsyncCall;
 
-    .line 5
     invoke-virtual {v1}, Lcom/squareup/okhttp/Call$AsyncCall;->tag()Ljava/lang/Object;
 
     move-result-object v2
@@ -342,7 +313,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 6
     invoke-virtual {v1}, Lcom/squareup/okhttp/Call$AsyncCall;->get()Lcom/squareup/okhttp/Call;
 
     move-result-object v2
@@ -351,7 +321,6 @@
 
     iput-boolean v3, v2, Lcom/squareup/okhttp/Call;->canceled:Z
 
-    .line 7
     invoke-virtual {v1}, Lcom/squareup/okhttp/Call$AsyncCall;->get()Lcom/squareup/okhttp/Call;
 
     move-result-object v1
@@ -360,12 +329,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 8
     invoke-virtual {v1}, Lcom/squareup/okhttp/internal/http/HttpEngine;->cancel()V
 
     goto :goto_1
 
-    .line 9
     :cond_3
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->executedCalls:Ljava/util/Deque;
 
@@ -387,7 +354,6 @@
 
     check-cast v1, Lcom/squareup/okhttp/Call;
 
-    .line 10
     invoke-virtual {v1}, Lcom/squareup/okhttp/Call;->tag()Ljava/lang/Object;
 
     move-result-object v2
@@ -398,14 +364,12 @@
 
     if-eqz v2, :cond_4
 
-    .line 11
     invoke-virtual {v1}, Lcom/squareup/okhttp/Call;->cancel()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto :goto_2
 
-    .line 12
     :cond_5
     monitor-exit p0
 
@@ -424,7 +388,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->runningCalls:Ljava/util/Deque;
 
@@ -444,12 +407,10 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->runningCalls:Ljava/util/Deque;
 
     invoke-interface {v0, p1}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
 
-    .line 3
     invoke-virtual {p0}, Lcom/squareup/okhttp/Dispatcher;->getExecutorService()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -458,7 +419,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->readyCalls:Ljava/util/Deque;
 
@@ -466,7 +426,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :goto_0
     monitor-exit p0
 
@@ -485,7 +444,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->executedCalls:Ljava/util/Deque;
 
@@ -493,7 +451,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -511,7 +468,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->runningCalls:Ljava/util/Deque;
 
@@ -521,17 +477,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/squareup/okhttp/Dispatcher;->promoteCalls()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     new-instance p1, Ljava/lang/AssertionError;
@@ -557,7 +510,6 @@
 
     monitor-enter p0
 
-    .line 5
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->executedCalls:Ljava/util/Deque;
 
@@ -569,12 +521,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 6
     monitor-exit p0
 
     return-void
 
-    .line 7
     :cond_0
     :try_start_1
     new-instance p1, Ljava/lang/AssertionError;
@@ -600,13 +550,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->executorService:Ljava/util/concurrent/ExecutorService;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ThreadPoolExecutor;
 
     const/4 v2, 0x0
@@ -625,7 +573,6 @@
 
     const/4 v8, 0x0
 
-    .line 3
     invoke-static {v1, v8}, Lcom/squareup/okhttp/internal/Util;->threadFactory(Ljava/lang/String;Z)Ljava/util/concurrent/ThreadFactory;
 
     move-result-object v8
@@ -636,7 +583,6 @@
 
     iput-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->executorService:Ljava/util/concurrent/ExecutorService;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->executorService:Ljava/util/concurrent/ExecutorService;
     :try_end_0
@@ -659,7 +605,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget v0, p0, Lcom/squareup/okhttp/Dispatcher;->maxRequests:I
     :try_end_0
@@ -682,7 +627,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget v0, p0, Lcom/squareup/okhttp/Dispatcher;->maxRequestsPerHost:I
     :try_end_0
@@ -705,7 +649,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->readyCalls:Ljava/util/Deque;
 
@@ -732,7 +675,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/Dispatcher;->runningCalls:Ljava/util/Deque;
 
@@ -763,16 +705,13 @@
 
     if-lt p1, v0, :cond_0
 
-    .line 1
     :try_start_0
     iput p1, p0, Lcom/squareup/okhttp/Dispatcher;->maxRequests:I
 
-    .line 2
     invoke-direct {p0}, Lcom/squareup/okhttp/Dispatcher;->promoteCalls()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -782,7 +721,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     :try_start_1
     new-instance v0, Ljava/lang/IllegalArgumentException;
@@ -822,16 +760,13 @@
 
     if-lt p1, v0, :cond_0
 
-    .line 1
     :try_start_0
     iput p1, p0, Lcom/squareup/okhttp/Dispatcher;->maxRequestsPerHost:I
 
-    .line 2
     invoke-direct {p0}, Lcom/squareup/okhttp/Dispatcher;->promoteCalls()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -841,7 +776,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     :try_start_1
     new-instance v0, Ljava/lang/IllegalArgumentException;

@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/CompactHashMap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/CompactHashMap$f;->a:Lcom/google/common/collect/CompactHashMap;
 
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
@@ -42,7 +41,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$f;->a:Lcom/google/common/collect/CompactHashMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/CompactHashMap;->clear()V
@@ -53,7 +51,6 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$f;->a:Lcom/google/common/collect/CompactHashMap;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/CompactHashMap;->containsKey(Ljava/lang/Object;)Z
@@ -73,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$f;->a:Lcom/google/common/collect/CompactHashMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/CompactHashMap;->keySetIterator()Ljava/util/Iterator;
@@ -90,7 +86,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$f;->a:Lcom/google/common/collect/CompactHashMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/CompactHashMap;->delegateOrNull()Ljava/util/Map;
@@ -99,7 +94,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -113,7 +107,6 @@
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$f;->a:Lcom/google/common/collect/CompactHashMap;
 
-    .line 3
     invoke-static {v0, p1}, Lcom/google/common/collect/CompactHashMap;->access$100(Lcom/google/common/collect/CompactHashMap;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -138,7 +131,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$f;->a:Lcom/google/common/collect/CompactHashMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/CompactHashMap;->size()I

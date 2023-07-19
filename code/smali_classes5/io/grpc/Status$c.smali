@@ -38,7 +38,6 @@
 
     new-array v0, v0, [B
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lio/grpc/Status$c;->a:[B
@@ -69,7 +68,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -78,7 +76,6 @@
 .method synthetic constructor <init>(Lio/grpc/Status$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/Status$c;-><init>()V
 
     return-void
@@ -117,7 +114,6 @@
 .method private static e([B)Ljava/lang/String;
     .locals 7
 
-    .line 1
     array-length v0, p0
 
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
@@ -128,13 +124,11 @@
 
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     array-length v3, p0
 
     if-ge v2, v3, :cond_1
 
-    .line 3
     aget-byte v3, p0, v2
 
     const/16 v4, 0x25
@@ -147,7 +141,6 @@
 
     if-ge v3, v4, :cond_0
 
-    .line 4
     :try_start_0
     new-instance v3, Ljava/lang/String;
 
@@ -175,7 +168,6 @@
 
     goto :goto_0
 
-    .line 5
     :catch_0
     :cond_0
     aget-byte v3, p0, v2
@@ -186,7 +178,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance p0, Ljava/lang/String;
 
@@ -208,7 +199,6 @@
 .method private static g([BI)[B
     .locals 7
 
-    .line 1
     array-length v0, p0
 
     sub-int/2addr v0, p1
@@ -223,22 +213,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {p0, v1, v0, v1, p1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     :cond_0
     move v2, p1
 
-    .line 3
     :goto_0
     array-length v3, p0
 
     if-ge p1, v3, :cond_2
 
-    .line 4
     aget-byte v3, p0, p1
 
-    .line 5
     invoke-static {v3}, Lio/grpc/Status$c;->c(B)Z
 
     move-result v4
@@ -247,12 +233,10 @@
 
     const/16 v4, 0x25
 
-    .line 6
     aput-byte v4, v0, v2
 
     add-int/lit8 v4, v2, 0x1
 
-    .line 7
     sget-object v5, Lio/grpc/Status$c;->a:[B
 
     shr-int/lit8 v6, v3, 0x4
@@ -267,7 +251,6 @@
 
     and-int/lit8 v3, v3, 0xf
 
-    .line 8
     aget-byte v3, v5, v3
 
     aput-byte v3, v0, v4
@@ -279,7 +262,6 @@
     :cond_1
     add-int/lit8 v4, v2, 0x1
 
-    .line 9
     aput-byte v3, v0, v2
 
     move v2, v4
@@ -289,11 +271,9 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     new-array p0, v2, [B
 
-    .line 11
     invoke-static {v0, v1, p0, v1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     return-object p0
@@ -304,7 +284,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)[B
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lio/grpc/Status$c;->f(Ljava/lang/String;)[B
@@ -317,7 +296,6 @@
 .method public bridge synthetic b([B)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/Status$c;->d([B)Ljava/lang/String;
 
     move-result-object p1
@@ -332,13 +310,11 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     array-length v2, p1
 
     if-ge v1, v2, :cond_2
 
-    .line 2
     aget-byte v2, p1, v1
 
     const/16 v3, 0x20
@@ -355,7 +331,6 @@
 
     add-int/lit8 v2, v1, 0x2
 
-    .line 3
     array-length v3, p1
 
     if-ge v2, v3, :cond_0
@@ -367,7 +342,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     :goto_1
     invoke-static {p1}, Lio/grpc/Status$c;->e([B)Ljava/lang/String;
@@ -376,7 +350,6 @@
 
     return-object p1
 
-    .line 5
     :cond_2
     new-instance v1, Ljava/lang/String;
 
@@ -388,7 +361,6 @@
 .method public f(Ljava/lang/String;)[B
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/common/base/c;->c:Ljava/nio/charset/Charset;
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
@@ -397,23 +369,19 @@
 
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     array-length v1, p1
 
     if-ge v0, v1, :cond_1
 
-    .line 3
     aget-byte v1, p1, v0
 
-    .line 4
     invoke-static {v1}, Lio/grpc/Status$c;->c(B)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-static {p1, v0}, Lio/grpc/Status$c;->g([BI)[B
 
     move-result-object p1

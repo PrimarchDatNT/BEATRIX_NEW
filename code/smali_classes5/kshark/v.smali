@@ -65,26 +65,22 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/v;->d:Lkshark/HeapObject;
 
-    .line 2
     new-instance p1, Ljava/util/LinkedHashSet;
 
     invoke-direct {p1}, Ljava/util/LinkedHashSet;-><init>()V
 
     iput-object p1, p0, Lkshark/v;->a:Ljava/util/LinkedHashSet;
 
-    .line 3
     new-instance p1, Ljava/util/LinkedHashSet;
 
     invoke-direct {p1}, Ljava/util/LinkedHashSet;-><init>()V
 
     iput-object p1, p0, Lkshark/v;->b:Ljava/util/Set;
 
-    .line 4
     new-instance p1, Ljava/util/LinkedHashSet;
 
     invoke-direct {p1}, Ljava/util/LinkedHashSet;-><init>()V
@@ -114,7 +110,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/v;->d:Lkshark/HeapObject;
 
     return-object v0
@@ -134,7 +129,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/v;->a:Ljava/util/LinkedHashSet;
 
     return-object v0
@@ -154,7 +148,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/v;->b:Ljava/util/Set;
 
     return-object v0
@@ -174,7 +167,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/v;->b:Ljava/util/Set;
 
     return-object v0
@@ -194,7 +186,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/v;->c:Ljava/util/Set;
 
     return-object v0
@@ -232,10 +223,8 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lkshark/v;->d:Lkshark/HeapObject;
 
-    .line 2
     instance-of v1, v0, Lkshark/HeapObject$HeapInstance;
 
     if-eqz v1, :cond_0
@@ -250,7 +239,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {p2, p0, v0}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
@@ -292,7 +280,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcotlin/jvm/a;->c(Lcotlin/reflect/d;)Ljava/lang/Class;
 
     move-result-object p1

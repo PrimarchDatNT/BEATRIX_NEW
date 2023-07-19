@@ -11,15 +11,12 @@
 .method constructor <init>(Lio/grpc/z0;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/z0;-><init>()V
 
     const-string v0, "delegate can not be null"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lio/grpc/internal/s0;->a:Lio/grpc/z0;
 
     return-void
@@ -30,7 +27,6 @@
 .method public a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/s0;->a:Lio/grpc/z0;
 
     invoke-virtual {v0}, Lio/grpc/z0;->a()Ljava/lang/String;
@@ -43,7 +39,6 @@
 .method public b()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/s0;->a:Lio/grpc/z0;
 
     invoke-virtual {v0}, Lio/grpc/z0;->b()V
@@ -54,7 +49,6 @@
 .method public c()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/s0;->a:Lio/grpc/z0;
 
     invoke-virtual {v0}, Lio/grpc/z0;->c()V
@@ -65,7 +59,6 @@
 .method public d(Lio/grpc/z0$f;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/s0;->a:Lio/grpc/z0;
 
     invoke-virtual {v0, p1}, Lio/grpc/z0;->d(Lio/grpc/z0$f;)V
@@ -78,7 +71,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/s0;->a:Lio/grpc/z0;
 
     invoke-virtual {v0, p1}, Lio/grpc/z0;->e(Lio/grpc/z0$g;)V
@@ -89,7 +81,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0

@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2$onNext$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -79,7 +78,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2$onNext$1;->$t:Ljava/util/List;
 
@@ -103,7 +101,6 @@
     :goto_0
     if-eqz v3, :cond_1
 
-    .line 3
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -120,22 +117,18 @@
 
     move-result-object v3
 
-    .line 4
     array-length v4, v3
 
-    .line 5
     invoke-static {v3, v2, v4}, Landroid/graphics/BitmapFactory;->decodeByteArray([BII)Landroid/graphics/Bitmap;
 
     move-result-object v3
 
-    .line 6
     invoke-static {v3}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 7
     iget-object v4, p0, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2$onNext$1;->this$0:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2;
 
     iget-object v4, v4, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2;->a:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2;
@@ -148,7 +141,6 @@
 
     invoke-static {v3, v4}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2$onNext$1;->this$0:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2;
 
     iget-object v4, v4, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2;->a:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2;
@@ -169,10 +161,8 @@
 
     invoke-static {v4, v3, v6}, Lcom/commsource/studio/processor/StyleProcessor;->J(Lcom/commsource/studio/processor/StyleProcessor;Landroid/graphics/Bitmap;Lcom/commsource/studio/bean/f;)V
 
-    .line 9
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2$onNext$1;->this$0:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2;
 
     iget-object v3, v3, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2;->a:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2;
@@ -188,10 +178,8 @@
     :catch_0
     move-exception v3
 
-    .line 11
     invoke-virtual {v3}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 12
     :cond_1
     :goto_1
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2$onNext$1;->this$0:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2;
@@ -216,7 +204,6 @@
 
     check-cast v3, Lcotlin/t1;
 
-    .line 13
     :cond_2
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2$onNext$1;->this$0:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2;
 
@@ -230,7 +217,6 @@
 
     if-nez v3, :cond_3
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2$onNext$1;->this$0:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2;
 
     iget-object v1, v1, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2;->a:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2;
@@ -265,7 +251,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_3
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2$onNext$1;->this$0:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor$preProcessCloudEffect$2$2;
 
@@ -279,7 +264,6 @@
 
     invoke-static {v3, v2, v1, v4, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 16
     :cond_4
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

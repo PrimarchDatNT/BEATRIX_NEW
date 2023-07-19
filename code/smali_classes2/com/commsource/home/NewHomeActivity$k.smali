@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/home/entity/ContentModule;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/home/NewHomeActivity$k;->b(Lcom/commsource/widget/h1/d;Lcom/commsource/home/entity/ContentModule;)V
@@ -114,7 +113,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/home/entity/ContentModule;->getType()Ljava/lang/Integer;
 
     move-result-object v1
@@ -125,7 +123,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -145,7 +142,6 @@
 
     goto/16 :goto_5
 
-    .line 3
     :cond_2
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -165,7 +161,6 @@
 
     goto/16 :goto_9
 
-    .line 4
     :cond_3
     invoke-virtual {p2}, Lcom/commsource/home/entity/ContentModule;->getStyle()Ljava/lang/Integer;
 
@@ -175,7 +170,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_4
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
@@ -195,7 +189,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_6
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
@@ -209,7 +202,6 @@
 
     goto/16 :goto_9
 
-    .line 7
     :cond_7
     :goto_2
     const-class p2, Lcom/commsource/home/material/HomeFilter2ModuleVH;
@@ -218,7 +210,6 @@
 
     goto/16 :goto_9
 
-    .line 8
     :cond_8
     invoke-virtual {p2}, Lcom/commsource/home/entity/ContentModule;->getStyle()Ljava/lang/Integer;
 
@@ -228,7 +219,6 @@
 
     goto :goto_3
 
-    .line 9
     :cond_9
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
@@ -248,7 +238,6 @@
 
     goto :goto_4
 
-    .line 10
     :cond_b
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
@@ -262,7 +251,6 @@
 
     goto :goto_9
 
-    .line 11
     :cond_c
     :goto_4
     const-class p2, Lcom/commsource/home/material/HomeAr2ModuleVH;
@@ -277,7 +265,6 @@
 
     goto :goto_9
 
-    .line 12
     :cond_e
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -307,7 +294,6 @@
 
     goto :goto_7
 
-    .line 13
     :cond_10
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -317,7 +303,6 @@
 
     if-ne v2, v3, :cond_12
 
-    .line 14
     invoke-virtual {p2}, Lcom/commsource/home/entity/ContentModule;->getBanner()Lcom/commsource/home/entity/c;
 
     move-result-object p2
@@ -340,14 +325,12 @@
 
     if-lez p2, :cond_11
 
-    .line 15
     const-class p2, Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/d;->m(Ljava/lang/Class;)V
 
     goto :goto_9
 
-    .line 16
     :cond_11
     const-class p2, Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -363,7 +346,6 @@
 
     goto :goto_8
 
-    .line 17
     :cond_13
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -371,21 +353,18 @@
 
     if-ne v1, p2, :cond_14
 
-    .line 18
     const-class p2, Lcom/commsource/home/banner/HomeSubscribeModuleVH;
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/d;->m(Ljava/lang/Class;)V
 
     goto :goto_9
 
-    .line 19
     :cond_14
     :goto_8
     const-class p2, Lcom/commsource/home/banner/HomeBannerModuleVH;
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/d;->m(Ljava/lang/Class;)V
 
-    .line 20
     :cond_15
     :goto_9
     invoke-virtual {p1}, Lcom/commsource/widget/h1/d;->e()Ljava/lang/Class;
@@ -394,14 +373,12 @@
 
     if-eqz p2, :cond_16
 
-    .line 21
     invoke-virtual {p2}, Ljava/lang/Class;->hashCode()I
 
     move-result p2
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/d;->j(I)V
 
-    .line 22
     :cond_16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

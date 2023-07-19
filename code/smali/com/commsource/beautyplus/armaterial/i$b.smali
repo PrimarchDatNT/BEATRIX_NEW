@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/armaterial/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/i$b;->a:Lcom/commsource/beautyplus/armaterial/i;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/armaterial/i$b;->a:Lcom/commsource/beautyplus/armaterial/i;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/armaterial/i;->B(Lcom/commsource/beautyplus/armaterial/i;)Ljava/lang/Runnable;
@@ -53,7 +51,6 @@
 
     invoke-static {v0, v1, v2}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -66,7 +63,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -79,7 +75,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/beautyplus/armaterial/i$b;->a:Lcom/commsource/beautyplus/armaterial/i;
 
     invoke-static {p2}, Lcom/commsource/beautyplus/armaterial/i;->B(Lcom/commsource/beautyplus/armaterial/i;)Ljava/lang/Runnable;
@@ -88,7 +83,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

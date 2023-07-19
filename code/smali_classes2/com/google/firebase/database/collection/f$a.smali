@@ -56,10 +56,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/database/collection/f$a;->a:Ljava/util/Iterator;
 
     return-void
@@ -70,7 +68,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/f$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -88,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/f$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -107,7 +103,6 @@
 .method public remove()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/f$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V

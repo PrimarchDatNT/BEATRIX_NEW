@@ -66,10 +66,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/c;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -78,7 +76,6 @@
 
     iput-object p1, p0, Lcom/google/common/collect/w;->a:Lcom/google/common/collect/l1;
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -104,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/w;->b:Lcom/google/common/base/u;
 
     invoke-static {v0}, Lcom/google/common/collect/Maps;->U(Lcom/google/common/base/u;)Lcom/google/common/base/u;
@@ -124,21 +120,18 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/w;->a:Lcom/google/common/collect/l1;
 
     instance-of v0, v0, Lcom/google/common/collect/x1;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/ImmutableSet;->of()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/google/common/collect/ImmutableList;->of()Lcom/google/common/collect/ImmutableList;
 
@@ -150,7 +143,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/c;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -167,7 +159,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/w;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/l1;->containsKey(Ljava/lang/Object;)Z
@@ -176,7 +167,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/w;->b:Lcom/google/common/base/u;
 
     invoke-interface {v0, p1}, Lcom/google/common/base/u;->apply(Ljava/lang/Object;)Z
@@ -203,7 +193,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/w;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->asMap()Ljava/util/Map;
@@ -230,7 +219,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/w$c;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/w$c;-><init>(Lcom/google/common/collect/w;)V
@@ -248,7 +236,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/w;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->keySet()Ljava/util/Set;
@@ -274,7 +261,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/w;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->keys()Lcom/google/common/collect/m1;
@@ -300,7 +286,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/z;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/z;-><init>(Lcom/google/common/collect/y;)V
@@ -319,7 +304,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/AssertionError;
 
     const-string v1, "should never be called"
@@ -339,7 +323,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/w;->b:Lcom/google/common/base/u;
 
     invoke-interface {v0, p1}, Lcom/google/common/base/u;->apply(Ljava/lang/Object;)Z
@@ -348,7 +331,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/w;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/l1;->get(Ljava/lang/Object;)Ljava/util/Collection;
@@ -357,7 +339,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/w;->a:Lcom/google/common/collect/l1;
 
@@ -365,14 +346,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     new-instance v0, Lcom/google/common/collect/w$b;
 
     invoke-direct {v0, p1}, Lcom/google/common/collect/w$b;-><init>(Ljava/lang/Object;)V
 
     return-object v0
 
-    .line 5
     :cond_1
     new-instance v0, Lcom/google/common/collect/w$a;
 
@@ -393,7 +372,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/w;->containsKey(Ljava/lang/Object;)Z
 
     move-result v0
@@ -427,7 +405,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/w;->a:Lcom/google/common/collect/l1;
 
     return-object v0
@@ -436,7 +413,6 @@
 .method public size()I
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/c;->asMap()Ljava/util/Map;
 
     move-result-object v0
@@ -464,7 +440,6 @@
 
     check-cast v2, Ljava/util/Collection;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Collection;->size()I
 
     move-result v2

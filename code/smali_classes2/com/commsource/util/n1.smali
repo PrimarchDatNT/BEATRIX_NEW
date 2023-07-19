@@ -15,7 +15,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/util/n1;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -32,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -65,7 +62,6 @@
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     const-string v2, "android.intent.action.MEDIA_SCANNER_SCAN_FILE"
@@ -81,12 +77,10 @@
     :catch_0
     move-exception p0
 
-    .line 3
     sget-object p1, Lcom/commsource/util/n1;->a:Ljava/lang/String;
 
     invoke-static {p1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -100,21 +94,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
     invoke-static {p0, v1}, Lcom/commsource/util/n1;->d(Ljava/lang/String;Landroid/content/Context;)Landroid/net/Uri;
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
     invoke-static {p0, v1}, Lcom/commsource/util/n1;->a(Ljava/lang/String;Landroid/content/Context;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -130,7 +121,6 @@
     :try_start_0
     const-string v1, "/"
 
-    .line 1
     invoke-virtual {p0, v1}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result v1
@@ -143,36 +133,30 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v3, Landroid/content/ContentValues;
 
     invoke-direct {v3}, Landroid/content/ContentValues;-><init>()V
 
     const-string v4, "title"
 
-    .line 3
     invoke-virtual {v3, v4, v1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v4, "_display_name"
 
-    .line 4
     invoke-virtual {v3, v4, v1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "mime_type"
 
     const-string v4, "video/mp4"
 
-    .line 5
     invoke-virtual {v3, v1, v4}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "_data"
 
-    .line 6
     invoke-virtual {v3, v1, p0}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p0, "duration"
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -181,7 +165,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 8
     array-length p0, p2
 
     const/4 p1, 0x2
@@ -190,7 +173,6 @@
 
     const-string p0, "resolution"
 
-    .line 9
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -215,7 +197,6 @@
 
     invoke-virtual {v3, p0, p1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     :cond_0
     invoke-virtual {p3}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -230,7 +211,6 @@
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -238,14 +218,12 @@
     :catch_0
     move-exception p0
 
-    .line 12
     sget-object p1, Lcom/commsource/util/n1;->a:Ljava/lang/String;
 
     const-string p2, ">>>>insertMedia error Exception"
 
     invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13
     invoke-static {p1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     goto :goto_0
@@ -253,20 +231,17 @@
     :catch_1
     move-exception p0
 
-    .line 14
     sget-object p1, Lcom/commsource/util/n1;->a:Ljava/lang/String;
 
     const-string p2, ">>>>insertMedia error SQLiteException"
 
     invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 15
     invoke-static {p1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :goto_0
     const/4 p0, 0x0
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -282,7 +257,6 @@
     :try_start_0
     const-string v1, "/"
 
-    .line 1
     invoke-virtual {p0, v1}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result v1
@@ -293,34 +267,28 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Landroid/content/ContentValues;
 
     invoke-direct {v2}, Landroid/content/ContentValues;-><init>()V
 
     const-string v3, "title"
 
-    .line 3
     invoke-virtual {v2, v3, v1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v3, "_display_name"
 
-    .line 4
     invoke-virtual {v2, v3, v1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "mime_type"
 
     const-string v3, "image/jpg"
 
-    .line 5
     invoke-virtual {v2, v1, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "_data"
 
-    .line 6
     invoke-virtual {v2, v1, p0}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object p0
@@ -338,12 +306,10 @@
     :catch_0
     move-exception p0
 
-    .line 8
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const/4 p0, 0x0
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -359,14 +325,12 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v2, Ljava/io/File;
 
     move-object/from16 v3, p0
 
     invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result v3
@@ -375,14 +339,12 @@
 
     if-nez v3, :cond_0
 
-    .line 3
     invoke-virtual {v2}, Ljava/io/File;->mkdirs()Z
 
     move-result v3
 
     if-nez v3, :cond_0
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -390,7 +352,6 @@
     :cond_0
     const-wide/16 v5, -0x1
 
-    .line 5
     :try_start_0
     new-instance v3, Landroid/os/StatFs;
 
@@ -400,21 +361,18 @@
 
     invoke-direct {v3, v2}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v3}, Landroid/os/StatFs;->getBlockSize()I
 
     move-result v2
 
     int-to-long v7, v2
 
-    .line 7
     invoke-virtual {v3}, Landroid/os/StatFs;->getBlockCount()I
 
     move-result v2
 
     int-to-long v9, v2
 
-    .line 8
     invoke-virtual {v3}, Landroid/os/StatFs;->getAvailableBlocks()I
 
     move-result v2
@@ -425,10 +383,8 @@
 
     const-wide/16 v13, 0x400
 
-    .line 9
     div-long v5, v11, v13
 
-    .line 10
     sget-object v15, Lcom/commsource/util/n1;->a:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -465,7 +421,6 @@
 
     invoke-static {v15, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 11
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -499,14 +454,12 @@
     :catch_0
     move-exception v0
 
-    .line 12
     sget-object v1, Lcom/commsource/util/n1;->a:Ljava/lang/String;
 
     const-string v2, "SD\u5361\u4e0d\u53ef\u7528"
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13
     invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :goto_0
@@ -531,7 +484,6 @@
 
     const/4 v4, 0x0
 
-    .line 14
     :goto_1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -79,14 +78,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel$toPro$13$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel$toPro$13;
 
     iget-object p1, p1, Lcom/commsource/studio/ImageStudioViewModel$toPro$13;->$callback:Lcotlin/jvm/u/a;
 
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

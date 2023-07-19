@@ -16,7 +16,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
         }
     .end annotation
 
-    .line 5
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
@@ -42,7 +40,6 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v2
@@ -53,7 +50,6 @@
 
     return-object p0
 
-    .line 7
     :cond_0
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -75,7 +71,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
@@ -100,7 +95,6 @@
 
     goto :goto_1
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -108,7 +102,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     array-length v2, p1
 
     const/4 v3, 0x0
@@ -120,12 +113,10 @@
 
     aget-object v5, p1, v4
 
-    .line 3
     invoke-virtual {v5, v1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v6
 
-    .line 4
     invoke-virtual {v6}, Ljava/util/regex/Matcher;->matches()Z
 
     move-result v6
@@ -162,12 +153,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -175,7 +164,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v2
@@ -186,7 +174,6 @@
 
     if-lez v2, :cond_0
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -205,7 +192,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
@@ -231,25 +217,21 @@
 
     const-string p0, "path:%s"
 
-    .line 1
     invoke-static {p0, p1}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v3, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;
 
     invoke-direct {v3}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;-><init>()V
 
-    .line 3
     new-instance v4, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$d;
 
     invoke-direct {v4, v3, p1}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$d;-><init>(Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;Z)V
 
     invoke-static {p0, v4}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper;->readTraceFile(Ljava/lang/String;Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$b;)V
 
-    .line 4
     iget-wide p0, v3, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->a:J
 
     const-wide/16 v4, 0x0
@@ -273,7 +255,6 @@
     :cond_1
     new-array p0, v2, [Ljava/lang/Object;
 
-    .line 5
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -320,20 +301,17 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;
 
     invoke-direct {v1}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;-><init>()V
 
-    .line 2
     new-instance v2, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$c;
 
     invoke-direct {v2, v1, p0, p2}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$c;-><init>(Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;Ljava/lang/String;Z)V
 
     invoke-static {p1, v2}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper;->readTraceFile(Ljava/lang/String;Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$b;)V
 
-    .line 3
     iget-wide p0, v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->a:J
 
     const-wide/16 v2, 0x0
@@ -374,13 +352,11 @@
 
     goto/16 :goto_5
 
-    .line 1
     :cond_0
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -389,7 +365,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-virtual {v1}, Ljava/io/File;->lastModified()J
 
@@ -403,7 +378,6 @@
 
     const/4 v10, 0x1
 
-    .line 4
     :try_start_0
     new-instance v11, Ljava/io/BufferedReader;
 
@@ -419,33 +393,28 @@
     :try_start_1
     const-string v0, "-{5}\\spid\\s\\d+\\sat\\s\\d+-\\d+-\\d+\\s\\d{2}:\\d{2}:\\d{2}\\s-{5}"
 
-    .line 5
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v12
 
     const-string v0, "-{5}\\send\\s\\d+\\s-{5}"
 
-    .line 6
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v13
 
     const-string v0, "Cmd\\sline:\\s(\\S+)"
 
-    .line 7
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v14
 
     const-string v0, "\".+\"\\s(daemon\\s){0,1}prio=\\d+\\stid=\\d+\\s.*"
 
-    .line 8
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v15
 
-    .line 9
     new-instance v5, Ljava/text/SimpleDateFormat;
 
     const-string v0, "yyyy-MM-dd HH:mm:ss"
@@ -459,14 +428,12 @@
 
     aput-object v12, v0, v9
 
-    .line 10
     invoke-static {v11, v0}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper;->a(Ljava/io/BufferedReader;[Ljava/util/regex/Pattern;)[Ljava/lang/Object;
 
     move-result-object v0
 
     if-eqz v0, :cond_9
 
-    .line 11
     aget-object v0, v0, v10
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -477,14 +444,12 @@
 
     move-result-object v0
 
-    .line 12
     aget-object v1, v0, v8
 
     invoke-static {v1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v1
 
-    .line 13
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -509,12 +474,10 @@
 
     move-result-object v0
 
-    .line 14
     invoke-virtual {v5, v0}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v0
 
-    .line 15
     invoke-virtual {v0}, Ljava/util/Date;->getTime()J
 
     move-result-wide v3
@@ -523,7 +486,6 @@
 
     aput-object v14, v0, v9
 
-    .line 16
     invoke-static {v11, v0}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper;->a(Ljava/io/BufferedReader;[Ljava/util/regex/Pattern;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -533,7 +495,6 @@
 
     if-nez v0, :cond_3
 
-    .line 17
     :try_start_2
     invoke-virtual {v11}, Ljava/io/BufferedReader;->close()V
     :try_end_2
@@ -546,20 +507,17 @@
 
     move-object v1, v0
 
-    .line 18
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    .line 19
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_2
     return-void
 
-    .line 20
     :cond_3
     :try_start_3
     aget-object v0, v0, v10
@@ -572,13 +530,10 @@
 
     move-result-object v0
 
-    .line 21
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->find()Z
 
-    .line 22
     invoke-virtual {v0, v10}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
-    .line 23
     invoke-virtual {v0, v10}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v16
@@ -589,7 +544,6 @@
 
     move-object/from16 v5, v16
 
-    .line 24
     invoke-interface/range {v0 .. v5}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$b;->a(JJLjava/lang/String;)Z
 
     move-result v0
@@ -599,7 +553,6 @@
 
     if-nez v0, :cond_5
 
-    .line 25
     :try_start_4
     invoke-virtual {v11}, Ljava/io/BufferedReader;->close()V
     :try_end_4
@@ -612,14 +565,12 @@
 
     move-object v1, v0
 
-    .line 26
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
 
     if-nez v0, :cond_4
 
-    .line 27
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_4
@@ -634,19 +585,16 @@
 
     aput-object v13, v0, v10
 
-    .line 28
     invoke-static {v11, v0}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper;->a(Ljava/io/BufferedReader;[Ljava/util/regex/Pattern;)[Ljava/lang/Object;
 
     move-result-object v0
 
     if-eqz v0, :cond_8
 
-    .line 29
     aget-object v1, v0, v9
 
     if-ne v1, v15, :cond_6
 
-    .line 30
     aget-object v0, v0, v10
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -655,25 +603,20 @@
 
     const-string v1, "\".+\""
 
-    .line 31
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
 
-    .line 32
     invoke-virtual {v1, v0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v1
 
-    .line 33
     invoke-virtual {v1}, Ljava/util/regex/Matcher;->find()Z
 
-    .line 34
     invoke-virtual {v1}, Ljava/util/regex/Matcher;->group()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 35
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -686,32 +629,26 @@
 
     const-string v2, "NATIVE"
 
-    .line 36
     invoke-virtual {v0, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     const-string v2, "tid=\\d+"
 
-    .line 37
     invoke-static {v2}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v2
 
-    .line 38
     invoke-virtual {v2, v0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v0
 
-    .line 39
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->find()Z
 
-    .line 40
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->group()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v2, "="
 
-    .line 41
     invoke-virtual {v0, v2}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v2
@@ -722,27 +659,22 @@
 
     move-result-object v0
 
-    .line 42
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v0
 
-    .line 43
     invoke-static {v11}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper;->a(Ljava/io/BufferedReader;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 44
     invoke-static {v11}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper;->b(Ljava/io/BufferedReader;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 45
     invoke-interface {v6, v1, v0, v2, v3}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$b;->a(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)Z
 
     goto :goto_1
 
-    .line 46
     :cond_6
     aget-object v0, v0, v10
 
@@ -754,14 +686,12 @@
 
     move-result-object v0
 
-    .line 47
     aget-object v0, v0, v8
 
     invoke-static {v0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v0
 
-    .line 48
     invoke-interface {v6, v0, v1}, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$b;->a(J)Z
 
     move-result v0
@@ -771,7 +701,6 @@
 
     if-nez v0, :cond_8
 
-    .line 49
     :try_start_6
     invoke-virtual {v11}, Ljava/io/BufferedReader;->close()V
     :try_end_6
@@ -784,14 +713,12 @@
 
     move-object v1, v0
 
-    .line 50
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
 
     if-nez v0, :cond_7
 
-    .line 51
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_7
@@ -802,7 +729,6 @@
 
     goto/16 :goto_0
 
-    .line 52
     :cond_9
     :try_start_7
     invoke-virtual {v11}, Ljava/io/BufferedReader;->close()V
@@ -816,14 +742,12 @@
 
     move-object v1, v0
 
-    .line 53
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
 
     if-nez v0, :cond_a
 
-    .line 54
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_a
@@ -855,7 +779,6 @@
     :catch_5
     move-exception v0
 
-    .line 55
     :goto_2
     :try_start_8
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
@@ -864,7 +787,6 @@
 
     if-nez v1, :cond_b
 
-    .line 56
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_b
@@ -872,7 +794,6 @@
 
     new-array v3, v8, [Ljava/lang/Object;
 
-    .line 57
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v4
@@ -905,7 +826,6 @@
 
     if-eqz v2, :cond_c
 
-    .line 58
     :try_start_9
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
     :try_end_9
@@ -918,14 +838,12 @@
 
     move-object v1, v0
 
-    .line 59
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
 
     if-nez v0, :cond_c
 
-    .line 60
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_c
@@ -934,7 +852,6 @@
     :goto_3
     if-eqz v2, :cond_d
 
-    .line 61
     :try_start_a
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
     :try_end_a
@@ -947,17 +864,14 @@
 
     move-object v2, v0
 
-    .line 62
     invoke-static {v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
 
     if-nez v0, :cond_d
 
-    .line 63
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 64
     :cond_d
     :goto_4
     throw v1

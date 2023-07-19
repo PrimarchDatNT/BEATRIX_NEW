@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/k/m/f/b;Lcom/android/billingclient/api/Purchase;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/m/f/b$b;->b:Lf/k/m/f/b;
 
     iput-object p2, p0, Lf/k/m/f/b$b;->a:Lcom/android/billingclient/api/Purchase;
@@ -46,14 +45,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/m/f/b$b;->b:Lf/k/m/f/b;
 
     iget-object v2, p0, Lf/k/m/f/b$b;->a:Lcom/android/billingclient/api/Purchase;
 
     invoke-static {v1, v2}, Lf/k/m/f/b;->f(Lf/k/m/f/b;Lcom/android/billingclient/api/Purchase;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

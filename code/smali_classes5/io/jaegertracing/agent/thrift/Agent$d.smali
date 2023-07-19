@@ -39,7 +39,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/jaegertracing/agent/thrift/Agent$d;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -63,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -91,7 +89,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {p2}, Lio/jaegertracing/agent/thrift/Agent$d;->b(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p2
@@ -104,7 +101,6 @@
 .method static synthetic a()Lorg/slf4j/c;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/agent/thrift/Agent$d;->a:Lorg/slf4j/c;
 
     return-object v0
@@ -132,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/jaegertracing/agent/thrift/Agent$d$b;
 
     invoke-direct {v0}, Lio/jaegertracing/agent/thrift/Agent$d$b;-><init>()V
@@ -141,7 +136,6 @@
 
     invoke-interface {p0, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lio/jaegertracing/agent/thrift/Agent$d$a;
 
     invoke-direct {v0}, Lio/jaegertracing/agent/thrift/Agent$d$a;-><init>()V

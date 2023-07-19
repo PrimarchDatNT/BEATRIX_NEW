@@ -26,7 +26,6 @@
 
     const-string v1, "category"
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -55,7 +54,6 @@
 
     const-string v1, "content"
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -84,7 +82,6 @@
 
     const-string/jumbo v1, "style"
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -113,7 +110,6 @@
 
     const-string/jumbo v1, "type"
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0

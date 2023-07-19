@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/u6;Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/k7;->g:Lcom/google/android/gms/measurement/internal/u6;
 
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/k7;->a:Ljava/util/concurrent/atomic/AtomicReference;
@@ -47,12 +46,10 @@
 .method public final run()V
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/k7;->g:Lcom/google/android/gms/measurement/internal/u6;
 
     iget-object v0, v0, Lcom/google/android/gms/measurement/internal/k6;->a:Lcom/google/android/gms/measurement/internal/s5;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/s5;->R()Lcom/google/android/gms/measurement/internal/d8;
 
     move-result-object v1
@@ -67,7 +64,6 @@
 
     iget-boolean v6, p0, Lcom/google/android/gms/measurement/internal/k7;->f:Z
 
-    .line 3
     invoke-virtual/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/d8;->T(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
 
     return-void

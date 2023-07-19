@@ -57,15 +57,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$p;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->U0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -10,7 +10,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/io/BufferedInputStream;
 
@@ -38,7 +36,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-static {v1}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->W(Ljava/io/InputStream;)Ljava/lang/String;
 
@@ -46,7 +43,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 3
     invoke-static {v1}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->f(Ljava/io/Closeable;)V
 
     return-object p0
@@ -77,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object p1

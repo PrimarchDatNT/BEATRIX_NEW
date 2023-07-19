@@ -13,7 +13,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
 .method static synthetic a(Ljava/lang/String;Ljava/lang/Thread;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/util/concurrent/l;->f(Ljava/lang/String;Ljava/lang/Thread;)Z
 
     move-result p0
@@ -52,13 +50,10 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Lcom/google/common/util/concurrent/l$b;
 
     invoke-direct {v0, p1, p0}, Lcom/google/common/util/concurrent/l$b;-><init>(Lcom/google/common/util/concurrent/k0;Ljava/util/concurrent/Callable;)V
@@ -82,7 +77,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/l$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/util/concurrent/l$a;-><init>(Ljava/lang/Object;)V
@@ -106,13 +100,10 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Lcom/google/common/util/concurrent/l$d;
 
     invoke-direct {v0, p1, p0}, Lcom/google/common/util/concurrent/l$d;-><init>(Lcom/google/common/base/z;Ljava/lang/Runnable;)V
@@ -140,13 +131,10 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Lcom/google/common/util/concurrent/l$c;
 
     invoke-direct {v0, p1, p0}, Lcom/google/common/util/concurrent/l$c;-><init>(Lcom/google/common/base/z;Ljava/util/concurrent/Callable;)V
@@ -159,7 +147,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p1, p0}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
     :try_end_0

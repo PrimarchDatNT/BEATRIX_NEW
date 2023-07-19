@@ -51,7 +51,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/sequences/k;->a:Lcotlin/sequences/m;
@@ -62,7 +61,6 @@
 .method public static final synthetic c(Lcotlin/sequences/k;)Lcotlin/sequences/m;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlin/sequences/k;->a:Lcotlin/sequences/m;
 
     return-object p0
@@ -84,7 +82,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/sequences/k$a;
 
     invoke-direct {v0, p0}, Lcotlin/sequences/k$a;-><init>(Lcotlin/sequences/k;)V

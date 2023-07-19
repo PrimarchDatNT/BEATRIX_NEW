@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/base/b$g;
 
     invoke-direct {v0}, Lcom/google/common/base/b$g;-><init>()V
@@ -35,7 +34,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/base/b;-><init>()V
 
     return-void
@@ -122,7 +120,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/lang/Character;
 
     invoke-super {p0, p1}, Lcom/google/common/base/b;->e(Ljava/lang/Character;)Z

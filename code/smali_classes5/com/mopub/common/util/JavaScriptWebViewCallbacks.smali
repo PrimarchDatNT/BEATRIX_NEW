@@ -29,7 +29,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lcom/mopub/common/util/JavaScriptWebViewCallbacks;
 
     const-string v1, "WEB_VIEW_DID_APPEAR"
@@ -42,7 +41,6 @@
 
     sput-object v0, Lcom/mopub/common/util/JavaScriptWebViewCallbacks;->WEB_VIEW_DID_APPEAR:Lcom/mopub/common/util/JavaScriptWebViewCallbacks;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/util/JavaScriptWebViewCallbacks;
 
     const-string v3, "WEB_VIEW_DID_CLOSE"
@@ -63,7 +61,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/mopub/common/util/JavaScriptWebViewCallbacks;->$VALUES:[Lcom/mopub/common/util/JavaScriptWebViewCallbacks;
 
     return-void
@@ -79,10 +76,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/common/util/JavaScriptWebViewCallbacks;->mJavascript:Ljava/lang/String;
 
     return-void
@@ -91,7 +86,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/util/JavaScriptWebViewCallbacks;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/util/JavaScriptWebViewCallbacks;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -106,7 +100,6 @@
 .method public static values()[Lcom/mopub/common/util/JavaScriptWebViewCallbacks;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/util/JavaScriptWebViewCallbacks;->$VALUES:[Lcom/mopub/common/util/JavaScriptWebViewCallbacks;
 
     invoke-virtual {v0}, [Lcom/mopub/common/util/JavaScriptWebViewCallbacks;->clone()Ljava/lang/Object;
@@ -123,7 +116,6 @@
 .method public getJavascript()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/util/JavaScriptWebViewCallbacks;->mJavascript:Ljava/lang/String;
 
     return-object v0
@@ -132,7 +124,6 @@
 .method public getUrl()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

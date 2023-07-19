@@ -20,17 +20,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/http/impl/io/AbstractSessionOutputBuffer;-><init>()V
 
     const-string v0, "Socket"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     if-gez p2, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Ljava/net/Socket;->getSendBufferSize()I
 
     move-result p2
@@ -42,7 +39,6 @@
 
     const/16 p2, 0x400
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Ljava/net/Socket;->getOutputStream()Ljava/io/OutputStream;
 

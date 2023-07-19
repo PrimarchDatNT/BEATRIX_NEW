@@ -28,7 +28,6 @@
 
     const/4 v2, 0x2
 
-    .line 1
     invoke-direct {p0, v0, v1, v2, v1}, Lcom/commsource/studio/r0/s;-><init>(Ljava/lang/String;Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lcom/commsource/studio/r0/f;->j:Lcom/commsource/studio/effect/d;
@@ -45,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/r0/s;->w()Lcom/meitu/render/b;
 
     move-result-object v1
@@ -64,7 +62,6 @@
 
     invoke-virtual {v1, v3, v4, v2, v5}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 2
     invoke-super/range {p0 .. p7}, Lcom/commsource/studio/r0/s;->j(IIIIIIZ)I
 
     move-result p1

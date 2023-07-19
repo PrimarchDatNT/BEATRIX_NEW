@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/t$c;->c:Lio/grpc/internal/t;
 
     iput-wide p2, p0, Lio/grpc/internal/t$c;->a:J
@@ -51,7 +50,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t$c;->c:Lio/grpc/internal/t;
 
     iget-wide v1, p0, Lio/grpc/internal/t$c;->a:J
@@ -60,7 +58,6 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/internal/t$c;->c:Lio/grpc/internal/t;
 
     iget-object v2, p0, Lio/grpc/internal/t$c;->b:Lio/grpc/h$a;

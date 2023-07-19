@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/google/firebase/firestore/util/AsyncQueue;ILjava/util/concurrent/ThreadFactory;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/util/AsyncQueue$a;->a:Lcom/google/firebase/firestore/util/AsyncQueue;
 
     invoke-direct {p0, p2, p3}, Ljava/util/concurrent/ScheduledThreadPoolExecutor;-><init>(ILjava/util/concurrent/ThreadFactory;)V
@@ -35,20 +34,16 @@
 .method protected afterExecute(Ljava/lang/Runnable;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1, p2}, Ljava/util/concurrent/ScheduledThreadPoolExecutor;->afterExecute(Ljava/lang/Runnable;Ljava/lang/Throwable;)V
 
     if-nez p2, :cond_0
 
-    .line 2
     instance-of v0, p1, Ljava/util/concurrent/Future;
 
     if-eqz v0, :cond_0
 
-    .line 3
     check-cast p1, Ljava/util/concurrent/Future;
 
-    .line 4
     :try_start_0
     invoke-interface {p1}, Ljava/util/concurrent/Future;->isDone()Z
 
@@ -56,7 +51,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-interface {p1}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
     :try_end_0
     .catch Ljava/util/concurrent/CancellationException; {:try_start_0 .. :try_end_0} :catch_2
@@ -65,7 +59,6 @@
 
     goto :goto_0
 
-    .line 6
     :catch_0
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -78,7 +71,6 @@
     :catch_1
     move-exception p1
 
-    .line 7
     invoke-virtual {p1}, Ljava/util/concurrent/ExecutionException;->getCause()Ljava/lang/Throwable;
 
     move-result-object p2
@@ -92,7 +84,6 @@
     :goto_0
     if-eqz p2, :cond_1
 
-    .line 8
     iget-object p1, p0, Lcom/google/firebase/firestore/util/AsyncQueue$a;->a:Lcom/google/firebase/firestore/util/AsyncQueue;
 
     invoke-virtual {p1, p2}, Lcom/google/firebase/firestore/util/AsyncQueue;->u(Ljava/lang/Throwable;)V

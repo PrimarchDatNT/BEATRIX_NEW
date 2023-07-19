@@ -58,7 +58,6 @@
 
     move-object v5, p5
 
-    .line 1
     invoke-direct/range {v0 .. v6}, Lf/n/a/c/l;-><init>(Ljava/util/Map;Ljava/lang/String;ZLf/n/a/c/i;Lf/n/a/c/g;Lf/n/a/c/d;)V
 
     return-void
@@ -82,31 +81,26 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lf/n/a/c/l;->b(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p1
 
     iput-object p1, p0, Lf/n/a/c/l;->a:Ljava/util/Map;
 
-    .line 4
     invoke-static {p2}, Lf/n/a/c/l;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lf/n/a/c/l;->b:Ljava/lang/String;
 
-    .line 5
     iput-boolean p3, p0, Lf/n/a/c/l;->c:Z
 
     if-eqz p4, :cond_0
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p4, Lf/n/a/c/l$a;
 
@@ -119,7 +113,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     new-instance p5, Lf/n/a/c/l$b;
 
@@ -132,7 +125,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_2
     new-instance p6, Lf/n/a/c/l$c;
 
@@ -147,7 +139,6 @@
 .method static a()Lf/n/a/c/l;
     .locals 7
 
-    .line 1
     new-instance v6, Lf/n/a/c/l;
 
     const/4 v1, 0x0
@@ -183,7 +174,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -192,7 +182,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -216,7 +205,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -251,7 +239,6 @@
 
     if-nez v2, :cond_1
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -275,7 +262,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0

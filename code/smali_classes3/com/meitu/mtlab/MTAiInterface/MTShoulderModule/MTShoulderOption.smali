@@ -49,70 +49,56 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     const/4 v2, 0x1
 
-    .line 3
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->useMultiThread:Z
 
     const/4 v2, 0x7
 
-    .line 4
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_time_smooth_radius_:I
 
     const/high16 v2, 0x41700000    # 15.0f
 
-    .line 5
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_smooth_sigma_:F
 
     const/4 v2, 0x4
 
-    .line 6
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_detect_period_:I
 
     const v2, 0x3f8ccccd    # 1.1f
 
-    .line 7
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_box_ratio_:F
 
     const/4 v2, 0x5
 
-    .line 8
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_smooth_kernel_size_:I
 
-    .line 9
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_box_smooth_lenth_:I
 
     const/high16 v2, 0x40a00000    # 5.0f
 
-    .line 10
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_box_smooth_sigma_:F
 
     const v2, 0x3f333333    # 0.7f
 
-    .line 11
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_iou_thread_:F
 
     const/4 v2, 0x0
 
-    .line 12
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_detect_photo_:Z
 
-    .line 13
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_is_front_camera_:Z
 
     cmp-long v2, v0, v0
 
     if-nez v2, :cond_0
 
-    .line 14
     new-instance v0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption$1;
 
     invoke-direct {v0, p0}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption$1;-><init>(Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;)V
@@ -130,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -145,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeCreateInstance()J
 
     move-result-wide v1
@@ -214,64 +198,50 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->useMultiThread:Z
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeClearOption(J)V
 
     const/4 v1, 0x5
 
-    .line 4
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_time_smooth_radius_:I
 
     const/high16 v2, 0x41700000    # 15.0f
 
-    .line 5
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_smooth_sigma_:F
 
     const/4 v2, 0x4
 
-    .line 6
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_detect_period_:I
 
     const v2, 0x3f8ccccd    # 1.1f
 
-    .line 7
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_box_ratio_:F
 
-    .line 8
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_smooth_kernel_size_:I
 
-    .line 9
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_box_smooth_lenth_:I
 
     const/high16 v1, 0x40a00000    # 5.0f
 
-    .line 10
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_box_smooth_sigma_:F
 
     const v1, 0x3f333333    # 0.7f
 
-    .line 11
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_iou_thread_:F
 
     const/4 v1, 0x0
 
-    .line 12
     iput-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_detect_photo_:Z
 
-    .line 13
     iput-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_is_front_camera_:Z
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -284,7 +254,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 v0, 0x9
@@ -304,7 +273,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
@@ -312,10 +280,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -323,10 +289,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -339,7 +303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -354,133 +317,114 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->useMultiThread:Z
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetUseMultiThread(JZ)V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_time_smooth_radius_:I
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderTimeSmoothRadius(JI)V
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_smooth_sigma_:F
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderSmoothSigma(JF)V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_detect_period_:I
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderDetectPeriod(JI)V
 
-    .line 5
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_box_ratio_:F
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderBoxRatio(JF)V
 
-    .line 6
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_smooth_kernel_size_:I
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderSmoothKernelSize(JI)V
 
-    .line 7
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_box_smooth_lenth_:I
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderBoxSmoothLenght(JI)V
 
-    .line 8
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_box_smooth_sigma_:F
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderBoxSmoothSigma(JF)V
 
-    .line 9
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_iou_thread_:F
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderIouThread(JF)V
 
-    .line 10
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget-wide v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetOption(JJ)V
 
-    .line 11
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_time_smooth_radius_:I
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderTimeSmoothRadius(JI)V
 
-    .line 12
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_smooth_sigma_:F
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderSmoothSigma(JF)V
 
-    .line 13
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_detect_period_:I
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderDetectPeriod(JI)V
 
-    .line 14
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_box_ratio_:F
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderBoxRatio(JF)V
 
-    .line 15
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_smooth_kernel_size_:I
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderSmoothKernelSize(JI)V
 
-    .line 16
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_box_smooth_lenth_:I
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderBoxSmoothLenght(JI)V
 
-    .line 17
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_box_smooth_sigma_:F
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderBoxSmoothSigma(JF)V
 
-    .line 18
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_iou_thread_:F
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderIouThread(JF)V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -493,22 +437,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 20
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeEnableDetectShoulder(JJ)V
 
-    .line 21
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_detect_photo_:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderDetectPhoto(JZ)V
 
-    .line 22
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->shoulder_is_front_camera_:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;->nativeSetShoulderIsFrontCamera(JZ)V
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$f;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/widget/XSeekBar$b$a;->c(Lcom/commsource/widget/XSeekBar$b;IF)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -63,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +77,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$f;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {p3}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->C1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/beautyplus/f0/ib;
@@ -95,7 +91,6 @@
 
     if-le p1, p3, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$f;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->C1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/beautyplus/f0/ib;
@@ -118,7 +113,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->setStretchProgress(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$f;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->C1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/beautyplus/f0/ib;
@@ -143,19 +137,16 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->beauty_heighten_stretch_reach_limit:I
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
 
     const-wide/16 v0, 0xdac
 
-    .line 5
     invoke-static {p1, v0, v1}, Lf/k/c/c/f;->v(Ljava/lang/String;J)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$f;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
@@ -167,7 +158,6 @@
 
     invoke-virtual {p3, p1}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->setStretchProgress(I)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$f;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->C1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/beautyplus/f0/ib;
@@ -180,7 +170,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->setShowAdjustBar(Z)V
 
-    .line 8
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$f;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
@@ -192,7 +181,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/effect/bodyshape/b;->M(Z)V
 
-    .line 9
     :cond_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -206,7 +194,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$f;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {p3}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->C1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/beautyplus/f0/ib;
@@ -251,7 +238,6 @@
     :goto_1
     invoke-virtual {p3, v1}, Lcom/commsource/widget/PressTextView;->setPressEnable(Z)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$f;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {p3}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->C1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/beautyplus/f0/ib;
@@ -262,7 +248,6 @@
 
     invoke-virtual {p3, v0}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->setShowAdjustBar(Z)V
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$f;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-virtual {p3}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->K1()Lcom/commsource/studio/effect/bodyshape/b;
@@ -271,7 +256,6 @@
 
     invoke-virtual {p3, p1}, Lcom/commsource/studio/effect/bodyshape/b;->K(I)V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

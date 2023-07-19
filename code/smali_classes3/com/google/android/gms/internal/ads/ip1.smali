@@ -14,10 +14,8 @@
 .method public constructor <init>(Ljava/util/regex/Pattern;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/lo1;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -38,7 +36,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ip1;->a:Ljava/util/regex/Pattern;
 
     invoke-virtual {p1, p2}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;

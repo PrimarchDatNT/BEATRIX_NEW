@@ -56,13 +56,10 @@
         }
     .end annotation
 
-    .line 5
     invoke-direct {p0}, Lcom/google/firebase/database/collection/d;-><init>()V
 
-    .line 6
     iput-object p1, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
-    .line 7
     iput-object p2, p0, Lcom/google/firebase/database/collection/l;->b:Ljava/util/Comparator;
 
     return-void
@@ -71,7 +68,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/database/collection/LLRBNode;Ljava/util/Comparator;Lcom/google/firebase/database/collection/l$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/firebase/database/collection/l;-><init>(Lcom/google/firebase/database/collection/LLRBNode;Ljava/util/Comparator;)V
 
     return-void
@@ -87,17 +83,14 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/database/collection/d;-><init>()V
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/database/collection/h;->j()Lcom/google/firebase/database/collection/h;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
-    .line 4
     iput-object p1, p0, Lcom/google/firebase/database/collection/l;->b:Ljava/util/Comparator;
 
     return-void
@@ -127,7 +120,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/google/firebase/database/collection/l$b;->b(Ljava/util/List;Ljava/util/Map;Lcom/google/firebase/database/collection/d$a$a;Ljava/util/Comparator;)Lcom/google/firebase/database/collection/l;
 
     move-result-object p0
@@ -153,22 +145,18 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v1
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/database/collection/d$a;->d()Lcom/google/firebase/database/collection/d$a$a;
 
     move-result-object v1
 
-    .line 4
     invoke-static {v0, p0, v1, p1}, Lcom/google/firebase/database/collection/l$b;->b(Ljava/util/List;Ljava/util/Map;Lcom/google/firebase/database/collection/d$a$a;Ljava/util/Comparator;)Lcom/google/firebase/database/collection/l;
 
     move-result-object p0
@@ -186,10 +174,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
-    .line 2
     :goto_0
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->isEmpty()Z
 
@@ -197,7 +183,6 @@
 
     if-nez v1, :cond_2
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/database/collection/l;->b:Ljava/util/Comparator;
 
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->getKey()Ljava/lang/Object;
@@ -210,7 +195,6 @@
 
     if-gez v1, :cond_0
 
-    .line 4
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object v0
@@ -222,7 +206,6 @@
 
     return-object v0
 
-    .line 5
     :cond_1
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
@@ -246,7 +229,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/database/collection/l;->y(Ljava/lang/Object;)Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p1
@@ -272,14 +254,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/database/collection/l;->y(Ljava/lang/Object;)Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->getValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -303,7 +283,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->b:Ljava/util/Comparator;
 
     return-object v0
@@ -317,7 +296,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->c3()Lcom/google/firebase/database/collection/LLRBNode;
@@ -339,7 +317,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->X2()Lcom/google/firebase/database/collection/LLRBNode;
@@ -361,12 +338,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->isEmpty()Z
 
@@ -374,7 +349,6 @@
 
     if-nez v2, :cond_2
 
-    .line 3
     iget-object v2, p0, Lcom/google/firebase/database/collection/l;->b:Ljava/util/Comparator;
 
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->getKey()Ljava/lang/Object;
@@ -387,7 +361,6 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p1
@@ -403,14 +376,12 @@
     :cond_0
     if-gez v2, :cond_1
 
-    .line 5
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
@@ -424,7 +395,6 @@
 
     add-int/2addr v1, v2
 
-    .line 7
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object v0
@@ -440,7 +410,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->isEmpty()Z
@@ -461,7 +430,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/e;
 
     iget-object v1, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
@@ -485,14 +453,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
     const/4 v1, 0x0
 
     move-object v2, v1
 
-    .line 2
     :goto_0
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->isEmpty()Z
 
@@ -500,7 +466,6 @@
 
     if-nez v3, :cond_5
 
-    .line 3
     iget-object v3, p0, Lcom/google/firebase/database/collection/l;->b:Ljava/util/Comparator;
 
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->getKey()Ljava/lang/Object;
@@ -513,7 +478,6 @@
 
     if-nez v3, :cond_3
 
-    .line 4
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p1
@@ -524,12 +488,10 @@
 
     if-nez p1, :cond_1
 
-    .line 5
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p1
 
-    .line 6
     :goto_1
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
@@ -541,14 +503,12 @@
 
     if-nez v0, :cond_0
 
-    .line 7
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p1
 
     goto :goto_1
 
-    .line 8
     :cond_0
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->getKey()Ljava/lang/Object;
 
@@ -559,7 +519,6 @@
     :cond_1
     if-eqz v2, :cond_2
 
-    .line 9
     invoke-interface {v2}, Lcom/google/firebase/database/collection/LLRBNode;->getKey()Ljava/lang/Object;
 
     move-result-object p1
@@ -572,14 +531,12 @@
     :cond_3
     if-gez v3, :cond_4
 
-    .line 10
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 11
     :cond_4
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
@@ -593,7 +550,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_5
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -624,14 +580,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
     const/4 v1, 0x0
 
     move-object v2, v1
 
-    .line 2
     :goto_0
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->isEmpty()Z
 
@@ -639,7 +593,6 @@
 
     if-nez v3, :cond_5
 
-    .line 3
     iget-object v3, p0, Lcom/google/firebase/database/collection/l;->b:Ljava/util/Comparator;
 
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->getKey()Ljava/lang/Object;
@@ -652,7 +605,6 @@
 
     if-nez v3, :cond_3
 
-    .line 4
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p1
@@ -663,12 +615,10 @@
 
     if-nez p1, :cond_1
 
-    .line 5
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p1
 
-    .line 6
     :goto_1
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
@@ -680,14 +630,12 @@
 
     if-nez v0, :cond_0
 
-    .line 7
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p1
 
     goto :goto_1
 
-    .line 8
     :cond_0
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->getKey()Ljava/lang/Object;
 
@@ -698,7 +646,6 @@
     :cond_1
     if-eqz v2, :cond_2
 
-    .line 9
     invoke-interface {v2}, Lcom/google/firebase/database/collection/LLRBNode;->getKey()Ljava/lang/Object;
 
     move-result-object p1
@@ -711,14 +658,12 @@
     :cond_3
     if-gez v3, :cond_4
 
-    .line 10
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 11
     :cond_4
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
@@ -732,7 +677,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_5
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -765,7 +709,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
     invoke-interface {v0, p1}, Lcom/google/firebase/database/collection/LLRBNode;->c(Lcom/google/firebase/database/collection/LLRBNode$a;)V
@@ -783,12 +726,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
     iget-object v1, p0, Lcom/google/firebase/database/collection/l;->b:Ljava/util/Comparator;
 
-    .line 2
     invoke-interface {v0, p1, p2, v1}, Lcom/google/firebase/database/collection/LLRBNode;->f(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Comparator;)Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object v2
@@ -807,7 +748,6 @@
 
     move-result-object p1
 
-    .line 3
     new-instance p2, Lcom/google/firebase/database/collection/l;
 
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->b:Ljava/util/Comparator;
@@ -828,7 +768,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/e;
 
     iget-object v1, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
@@ -852,7 +791,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/firebase/database/collection/l;->b(Ljava/lang/Object;)Z
 
     move-result v0
@@ -861,13 +799,11 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
     iget-object v1, p0, Lcom/google/firebase/database/collection/l;->b:Ljava/util/Comparator;
 
-    .line 3
     invoke-interface {v0, p1, v1}, Lcom/google/firebase/database/collection/LLRBNode;->g(Ljava/lang/Object;Ljava/util/Comparator;)Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object v2
@@ -886,7 +822,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance v0, Lcom/google/firebase/database/collection/l;
 
     iget-object v1, p0, Lcom/google/firebase/database/collection/l;->b:Ljava/util/Comparator;
@@ -907,7 +842,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/e;
 
     iget-object v1, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
@@ -934,7 +868,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/e;
 
     iget-object v1, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
@@ -951,7 +884,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->size()I
@@ -971,7 +903,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l;->a:Lcom/google/firebase/database/collection/LLRBNode;
 
     return-object v0

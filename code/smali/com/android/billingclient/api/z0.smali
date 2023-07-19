@@ -18,7 +18,6 @@
 .method constructor <init>(Lcom/android/billingclient/api/e;Lcom/android/billingclient/api/j;Lcom/android/billingclient/api/h;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/android/billingclient/api/z0;->a:Lcom/android/billingclient/api/j;
 
     iput-object p3, p0, Lcom/android/billingclient/api/z0;->b:Lcom/android/billingclient/api/h;
@@ -39,10 +38,8 @@
 
     const-string v1, "Successfully consumed purchase."
 
-    .line 1
     invoke-static {v0, v1}, Lf/f/b/b/h/e/b;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/android/billingclient/api/z0;->a:Lcom/android/billingclient/api/j;
 
     iget-object v1, p0, Lcom/android/billingclient/api/z0;->b:Lcom/android/billingclient/api/h;

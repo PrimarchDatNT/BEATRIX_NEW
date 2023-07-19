@@ -30,7 +30,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/mopub/mobileads/RepeatingHandlerRunnable;-><init>(Landroid/os/Handler;)V
 
     iput-object p1, p0, Lcom/mopub/mobileads/VastVideoViewCountdownRunnable;->videoViewController:Lcom/mopub/mobileads/VastVideoViewController;
@@ -43,7 +42,6 @@
 .method public doWork()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewCountdownRunnable;->videoViewController:Lcom/mopub/mobileads/VastVideoViewController;
 
     const/4 v1, 0x0

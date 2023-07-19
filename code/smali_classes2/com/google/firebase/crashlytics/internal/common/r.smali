@@ -11,7 +11,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 .method private static final a(Ljava/lang/String;Ljava/util/concurrent/ExecutorService;)V
     .locals 3
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x2
@@ -33,7 +31,6 @@
 .method public static final b(Ljava/lang/String;Ljava/util/concurrent/ExecutorService;JLjava/util/concurrent/TimeUnit;)V
     .locals 9
 
-    .line 1
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v0
@@ -70,7 +67,6 @@
 
     invoke-direct {v1, v8, p0}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/Runtime;->addShutdownHook(Ljava/lang/Thread;)V
 
     return-void
@@ -79,17 +75,14 @@
 .method public static c(Ljava/lang/String;)Ljava/util/concurrent/ExecutorService;
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/r;->e(Ljava/lang/String;)Ljava/util/concurrent/ThreadFactory;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor(Ljava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 
-    .line 3
     invoke-static {p0, v0}, Lcom/google/firebase/crashlytics/internal/common/r;->a(Ljava/lang/String;Ljava/util/concurrent/ExecutorService;)V
 
     return-object v0
@@ -98,17 +91,14 @@
 .method public static d(Ljava/lang/String;)Ljava/util/concurrent/ScheduledExecutorService;
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/r;->e(Ljava/lang/String;)Ljava/util/concurrent/ThreadFactory;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Ljava/util/concurrent/Executors;->newSingleThreadScheduledExecutor(Ljava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ScheduledExecutorService;
 
     move-result-object v0
 
-    .line 3
     invoke-static {p0, v0}, Lcom/google/firebase/crashlytics/internal/common/r;->a(Ljava/lang/String;Ljava/util/concurrent/ExecutorService;)V
 
     return-object v0
@@ -117,14 +107,12 @@
 .method public static final e(Ljava/lang/String;)Ljava/util/concurrent/ThreadFactory;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicLong;
 
     const-wide/16 v1, 0x1
 
     invoke-direct {v0, v1, v2}, Ljava/util/concurrent/atomic/AtomicLong;-><init>(J)V
 
-    .line 2
     new-instance v1, Lcom/google/firebase/crashlytics/internal/common/r$a;
 
     invoke-direct {v1, p0, v0}, Lcom/google/firebase/crashlytics/internal/common/r$a;-><init>(Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicLong;)V

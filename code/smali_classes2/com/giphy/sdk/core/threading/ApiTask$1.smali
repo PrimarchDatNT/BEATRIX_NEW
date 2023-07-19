@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/giphy/sdk/core/threading/ApiTask;Lcom/giphy/sdk/core/network/api/CompletionHandler;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/threading/ApiTask$1;->this$0:Lcom/giphy/sdk/core/threading/ApiTask;
 
     iput-object p2, p0, Lcom/giphy/sdk/core/threading/ApiTask$1;->val$completionHandler:Lcom/giphy/sdk/core/network/api/CompletionHandler;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/giphy/sdk/core/threading/ApiTask$1;->this$0:Lcom/giphy/sdk/core/threading/ApiTask;
 
@@ -54,7 +52,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v1
@@ -65,7 +62,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/giphy/sdk/core/threading/ApiTask$1;->this$0:Lcom/giphy/sdk/core/threading/ApiTask;
 
     invoke-static {v1}, Lcom/giphy/sdk/core/threading/ApiTask;->access$100(Lcom/giphy/sdk/core/threading/ApiTask;)Ljava/util/concurrent/Executor;
@@ -80,7 +76,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/lang/InterruptedException;
 
@@ -96,7 +91,6 @@
     :catchall_0
     move-exception v0
 
-    .line 5
     iget-object v1, p0, Lcom/giphy/sdk/core/threading/ApiTask$1;->this$0:Lcom/giphy/sdk/core/threading/ApiTask;
 
     invoke-static {v1}, Lcom/giphy/sdk/core/threading/ApiTask;->access$100(Lcom/giphy/sdk/core/threading/ApiTask;)Ljava/util/concurrent/Executor;
@@ -114,7 +108,6 @@
     :catch_0
     move-exception v0
 
-    .line 6
     const-class v1, Lcom/giphy/sdk/core/threading/ApiTask;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -125,7 +118,6 @@
 
     invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 7
     iget-object v1, p0, Lcom/giphy/sdk/core/threading/ApiTask$1;->this$0:Lcom/giphy/sdk/core/threading/ApiTask;
 
     invoke-static {v1}, Lcom/giphy/sdk/core/threading/ApiTask;->access$100(Lcom/giphy/sdk/core/threading/ApiTask;)Ljava/util/concurrent/Executor;

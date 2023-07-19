@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/a2/i$b;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/a2/i$b$h;->b:Lio/grpc/a2/i$b;
 
     iput-boolean p2, p0, Lio/grpc/a2/i$b$h;->a:Z
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a2/i$b$h;->b:Lio/grpc/a2/i$b;
 
     iget-boolean v1, p0, Lio/grpc/a2/i$b$h;->a:Z

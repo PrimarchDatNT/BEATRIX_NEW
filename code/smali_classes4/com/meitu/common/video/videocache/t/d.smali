@@ -25,7 +25,6 @@
 
     const-string v1, "Files"
 
-    .line 1
     invoke-static {v1}, Lorg/slf4j/d;->g(Ljava/lang/String;)Lorg/slf4j/c;
 
     move-result-object v1
@@ -40,7 +39,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,24 +61,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-static {p0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
 
-    .line 4
     new-instance p0, Lcom/meitu/common/video/videocache/t/d$b;
 
     const/4 v2, 0x0
@@ -89,7 +83,6 @@
 
     invoke-static {v1, p0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -108,14 +101,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/File;->isDirectory()Z
 
     move-result v1
@@ -124,7 +115,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/io/IOException;
 
@@ -152,7 +142,6 @@
 
     throw v1
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Ljava/io/File;->mkdirs()Z
 
@@ -160,13 +149,11 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_2
     new-instance v1, Ljava/io/IOException;
 
@@ -207,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->length()J
 
     move-result-wide v1
@@ -218,15 +204,12 @@
 
     if-nez v5, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/common/video/videocache/t/d;->d(Ljava/io/File;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v3, Ljava/io/RandomAccessFile;
 
@@ -238,24 +221,18 @@
 
     sub-long/2addr v1, v4
 
-    .line 5
     invoke-virtual {v3, v1, v2}, Ljava/io/RandomAccessFile;->seek(J)V
 
-    .line 6
     invoke-virtual {v3}, Ljava/io/RandomAccessFile;->readByte()B
 
     move-result p0
 
-    .line 7
     invoke-virtual {v3, v1, v2}, Ljava/io/RandomAccessFile;->seek(J)V
 
-    .line 8
     invoke-virtual {v3, p0}, Ljava/io/RandomAccessFile;->write(I)V
 
-    .line 9
     invoke-virtual {v3}, Ljava/io/RandomAccessFile;->close()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -273,7 +250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->delete()Z
 
     move-result v1
@@ -286,12 +262,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/io/IOException;
 
@@ -328,29 +302,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 3
     invoke-virtual {p0, v1, v2}, Ljava/io/File;->setLastModified(J)Z
 
     move-result v3
 
     if-nez v3, :cond_0
 
-    .line 4
     invoke-static {p0}, Lcom/meitu/common/video/videocache/t/d;->c(Ljava/io/File;)V
 
-    .line 5
     invoke-virtual {p0}, Ljava/io/File;->lastModified()J
 
     move-result-wide v3
@@ -359,7 +328,6 @@
 
     if-gez v5, :cond_0
 
-    .line 6
     sget-object v1, Lcom/meitu/common/video/videocache/t/d;->a:Lorg/slf4j/c;
 
     new-instance v2, Ljava/util/Date;
@@ -378,7 +346,6 @@
 
     invoke-interface {v1, v3, v2, p0}, Lorg/slf4j/c;->warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

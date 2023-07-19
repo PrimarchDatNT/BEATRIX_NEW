@@ -58,19 +58,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/reflect/h;->a:Lcom/google/common/reflect/e;
 
-    .line 3
     iput p2, p0, Lcom/google/common/reflect/h;->b:I
 
-    .line 4
     iput-object p3, p0, Lcom/google/common/reflect/h;->c:Lcom/google/common/reflect/TypeToken;
 
-    .line 5
     invoke-static {p4}, Lcom/google/common/collect/ImmutableList;->copyOf([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
 
     move-result-object p1
@@ -89,17 +84,14 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/reflect/h;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/reflect/h;
 
-    .line 3
     iget v0, p0, Lcom/google/common/reflect/h;->b:I
 
     iget v2, p1, Lcom/google/common/reflect/h;->b:I
@@ -137,10 +129,8 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/reflect/h;->d:Lcom/google/common/collect/ImmutableList;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableList;->iterator()Lcom/google/common/collect/l2;
@@ -160,14 +150,12 @@
 
     check-cast v1, Ljava/lang/annotation/Annotation;
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {p1, v1}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -185,7 +173,6 @@
 .method public getAnnotations()[Ljava/lang/annotation/Annotation;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/reflect/h;->getDeclaredAnnotations()[Ljava/lang/annotation/Annotation;
 
     move-result-object v0
@@ -205,7 +192,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/reflect/h;->getDeclaredAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;
 
     move-result-object p1
@@ -228,10 +214,8 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/reflect/h;->d:Lcom/google/common/collect/ImmutableList;
 
     invoke-static {v0}, Lcom/google/common/collect/b0;->A(Ljava/lang/Iterable;)Lcom/google/common/collect/b0;
@@ -258,7 +242,6 @@
 .method public getDeclaredAnnotations()[Ljava/lang/annotation/Annotation;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/h;->d:Lcom/google/common/collect/ImmutableList;
 
     const/4 v1, 0x0
@@ -286,7 +269,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/h;->d:Lcom/google/common/collect/ImmutableList;
 
     invoke-static {v0}, Lcom/google/common/collect/b0;->A(Ljava/lang/Iterable;)Lcom/google/common/collect/b0;
@@ -316,7 +298,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/h;->a:Lcom/google/common/reflect/e;
 
     return-object v0
@@ -325,7 +306,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/reflect/h;->b:I
 
     return v0
@@ -341,7 +321,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/h;->c:Lcom/google/common/reflect/TypeToken;
 
     return-object v0
@@ -359,7 +338,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/reflect/h;->getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
 
     move-result-object p1
@@ -380,7 +358,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

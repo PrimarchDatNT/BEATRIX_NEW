@@ -22,10 +22,8 @@
 .method private constructor <init>(Lf/i/a/a$c;Ljava/io/OutputStream;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lf/i/a/a$c$a;->a:Lf/i/a/a$c;
 
-    .line 3
     invoke-direct {p0, p2}, Ljava/io/FilterOutputStream;-><init>(Ljava/io/OutputStream;)V
 
     return-void
@@ -34,7 +32,6 @@
 .method synthetic constructor <init>(Lf/i/a/a$c;Ljava/io/OutputStream;Lf/i/a/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lf/i/a/a$c$a;-><init>(Lf/i/a/a$c;Ljava/io/OutputStream;)V
 
     return-void
@@ -45,7 +42,6 @@
 .method public close()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
@@ -55,7 +51,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     iget-object v0, p0, Lf/i/a/a$c$a;->a:Lf/i/a/a$c;
 
@@ -70,7 +65,6 @@
 .method public flush()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
@@ -80,7 +74,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     iget-object v0, p0, Lf/i/a/a$c$a;->a:Lf/i/a/a$c;
 
@@ -95,7 +88,6 @@
 .method public write(I)V
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
@@ -105,7 +97,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     iget-object p1, p0, Lf/i/a/a$c$a;->a:Lf/i/a/a$c;
 
@@ -120,7 +111,6 @@
 .method public write([BII)V
     .locals 1
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
@@ -130,7 +120,6 @@
 
     goto :goto_0
 
-    .line 4
     :catch_0
     iget-object p1, p0, Lf/i/a/a$c$a;->a:Lf/i/a/a$c;
 

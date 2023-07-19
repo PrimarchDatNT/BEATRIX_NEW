@@ -32,7 +32,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -47,28 +46,22 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/scwang/smartrefresh/layout/internal/InternalAbstract;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const v1, -0x111112
 
-    .line 3
     iput v1, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->p:I
 
     const v1, -0x18a6ba
 
-    .line 4
     iput v1, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->J:I
 
     const-wide/16 v1, 0x0
 
-    .line 5
     iput-wide v1, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->L:J
 
-    .line 6
     iput-boolean v0, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->M:Z
 
-    .line 7
     new-instance v1, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v1}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -77,21 +70,18 @@
 
     const/high16 v1, 0x42700000    # 60.0f
 
-    .line 8
     invoke-static {v1}, Lcom/scwang/smartrefresh/layout/e/b;->d(F)I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Landroid/view/View;->setMinimumHeight(I)V
 
-    .line 9
     sget-object v1, Lcom/scwang/smartrefresh/layout/b$e;->a:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object p1
 
-    .line 10
     new-instance p2, Landroid/graphics/Paint;
 
     invoke-direct {p2}, Landroid/graphics/Paint;-><init>()V
@@ -100,29 +90,24 @@
 
     const/4 v1, -0x1
 
-    .line 11
     invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 12
     iget-object p2, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->g:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 13
     iget-object p2, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->g:Landroid/graphics/Paint;
 
     const/4 v1, 0x1
 
     invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 14
     sget-object p2, Lcom/scwang/smartrefresh/layout/constant/b;->d:Lcom/scwang/smartrefresh/layout/constant/b;
 
     iput-object p2, p0, Lcom/scwang/smartrefresh/layout/internal/InternalAbstract;->b:Lcom/scwang/smartrefresh/layout/constant/b;
 
-    .line 15
     sget-object v1, Lcom/scwang/smartrefresh/layout/constant/b;->i:[Lcom/scwang/smartrefresh/layout/constant/b;
 
     sget v2, Lcom/scwang/smartrefresh/layout/b$e;->c:I
@@ -137,7 +122,6 @@
 
     iput-object p2, p0, Lcom/scwang/smartrefresh/layout/internal/InternalAbstract;->b:Lcom/scwang/smartrefresh/layout/constant/b;
 
-    .line 16
     sget p2, Lcom/scwang/smartrefresh/layout/b$e;->d:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->hasValue(I)Z
@@ -146,14 +130,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 17
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result p2
 
     invoke-virtual {p0, p2}, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->q(I)Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;
 
-    .line 18
     :cond_0
     sget p2, Lcom/scwang/smartrefresh/layout/b$e;->b:I
 
@@ -163,20 +145,17 @@
 
     if-eqz v1, :cond_1
 
-    .line 19
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result p2
 
     invoke-virtual {p0, p2}, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->n(I)Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;
 
-    .line 20
     :cond_1
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
     const/high16 p1, 0x40800000    # 4.0f
 
-    .line 21
     invoke-static {p1}, Lcom/scwang/smartrefresh/layout/e/b;->d(F)I
 
     move-result p1
@@ -197,30 +176,25 @@
         .end annotation
     .end param
 
-    .line 1
     iget-boolean p1, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->M:Z
 
     if-eqz p1, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->M:Z
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
     iput-wide p1, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->L:J
 
-    .line 5
     iget-object p1, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->g:Landroid/graphics/Paint;
 
     iget p2, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->J:I
@@ -237,17 +211,14 @@
 
     move-object/from16 v1, p1
 
-    .line 1
     invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getWidth()I
 
     move-result v2
 
-    .line 2
     invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getHeight()I
 
     move-result v3
 
-    .line 3
     invoke-static {v2, v3}, Ljava/lang/Math;->min(II)I
 
     move-result v4
@@ -280,7 +251,6 @@
 
     div-float/2addr v3, v6
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v8
@@ -292,7 +262,6 @@
 
     if-ge v5, v10, :cond_2
 
-    .line 5
     iget-wide v10, v0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->L:J
 
     sub-long v10, v8, v10
@@ -315,7 +284,6 @@
 
     const-wide/16 v13, 0x2ee
 
-    .line 6
     rem-long/2addr v10, v13
 
     long-to-float v10, v10
@@ -329,7 +297,6 @@
     :cond_0
     const/4 v10, 0x0
 
-    .line 7
     :goto_1
     iget-object v11, v0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->N:Landroid/animation/TimeInterpolator;
 
@@ -337,7 +304,6 @@
 
     move-result v10
 
-    .line 8
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->save()I
 
     int-to-float v5, v5
@@ -346,14 +312,12 @@
 
     add-float/2addr v11, v2
 
-    .line 9
     iget v13, v0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->K:F
 
     mul-float v13, v13, v5
 
     add-float/2addr v11, v13
 
-    .line 10
     invoke-virtual {v1, v11, v3}, Landroid/graphics/Canvas;->translate(FF)V
 
     float-to-double v13, v10
@@ -374,7 +338,6 @@
 
     sub-float/2addr v11, v10
 
-    .line 11
     invoke-virtual {v1, v11, v11}, Landroid/graphics/Canvas;->scale(FF)V
 
     goto :goto_2
@@ -388,32 +351,26 @@
 
     sub-float/2addr v10, v5
 
-    .line 12
     invoke-virtual {v1, v10, v10}, Landroid/graphics/Canvas;->scale(FF)V
 
-    .line 13
     :goto_2
     iget-object v5, v0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->g:Landroid/graphics/Paint;
 
     invoke-virtual {v1, v15, v15, v4, v5}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 14
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->restore()V
 
     move v5, v12
 
     goto :goto_0
 
-    .line 15
     :cond_2
     invoke-super/range {p0 .. p1}, Landroid/widget/RelativeLayout;->dispatchDraw(Landroid/graphics/Canvas;)V
 
-    .line 16
     iget-boolean v1, v0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->M:Z
 
     if-eqz v1, :cond_3
 
-    .line 17
     invoke-virtual/range {p0 .. p0}, Landroid/view/View;->invalidate()V
 
     :cond_3
@@ -429,15 +386,12 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-boolean p1, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->M:Z
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->L:J
 
-    .line 3
     iget-object p2, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->g:Landroid/graphics/Paint;
 
     iget v0, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->p:I
@@ -454,20 +408,16 @@
         .end annotation
     .end param
 
-    .line 1
     iput p1, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->J:I
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->f:Z
 
-    .line 3
     iget-boolean v0, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->M:Z
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->g:Landroid/graphics/Paint;
 
     invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColor(I)V
@@ -483,20 +433,16 @@
         .end annotation
     .end param
 
-    .line 1
     iput p1, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->p:I
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->d:Z
 
-    .line 3
     iget-boolean v0, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->M:Z
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->g:Landroid/graphics/Paint;
 
     invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColor(I)V
@@ -514,7 +460,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->f:Z
 
     const/4 v1, 0x1
@@ -527,33 +472,27 @@
 
     if-le v0, v1, :cond_0
 
-    .line 2
     aget v0, p1, v2
 
     invoke-virtual {p0, v0}, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->n(I)Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;
 
-    .line 3
     iput-boolean v2, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->f:Z
 
-    .line 4
     :cond_0
     iget-boolean v0, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->d:Z
 
     if-nez v0, :cond_3
 
-    .line 5
     array-length v0, p1
 
     if-le v0, v1, :cond_1
 
-    .line 6
     aget p1, p1, v1
 
     invoke-virtual {p0, p1}, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->q(I)Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;
 
     goto :goto_0
 
-    .line 7
     :cond_1
     array-length v0, p1
 
@@ -561,7 +500,6 @@
 
     const v0, -0x66000001
 
-    .line 8
     aget p1, p1, v2
 
     invoke-static {v0, p1}, Landroidx/core/graphics/ColorUtils;->compositeColors(II)I
@@ -570,7 +508,6 @@
 
     invoke-virtual {p0, p1}, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->q(I)Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;
 
-    .line 9
     :cond_2
     :goto_0
     iput-boolean v2, p0, Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;->d:Z
@@ -582,7 +519,6 @@
 .method public t(Lcom/scwang/smartrefresh/layout/constant/b;)Lcom/scwang/smartrefresh/layout/footer/BallPulseFooter;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/scwang/smartrefresh/layout/internal/InternalAbstract;->b:Lcom/scwang/smartrefresh/layout/constant/b;
 
     return-object p0

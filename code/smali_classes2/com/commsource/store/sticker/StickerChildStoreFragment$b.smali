@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/sticker/StickerChildStoreFragment$b;->a:Lcom/commsource/store/sticker/StickerChildStoreFragment;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
@@ -77,15 +76,12 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->getItemOffsets(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
-    .line 2
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/store/sticker/StickerChildStoreFragment$b;->a:Lcom/commsource/store/sticker/StickerChildStoreFragment;
 
     invoke-static {p3}, Lcom/commsource/store/sticker/StickerChildStoreFragment;->z(Lcom/commsource/store/sticker/StickerChildStoreFragment;)Z
@@ -102,7 +98,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 4
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p2
@@ -119,7 +114,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
@@ -152,7 +146,6 @@
 
     if-eq p2, p3, :cond_2
 
-    .line 6
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p2
@@ -169,7 +162,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
@@ -189,7 +181,6 @@
 
     invoke-virtual {p1, p2, p3, p4, v1}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

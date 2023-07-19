@@ -35,7 +35,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-direct {p0, v0, v1}, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;-><init>(ZZ)V
 
     return-void
@@ -54,7 +53,6 @@
 
     move-wide v5, p3
 
-    .line 3
     invoke-direct/range {v0 .. v6}, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;-><init>(ZZJJ)V
 
     return-void
@@ -73,7 +71,6 @@
 
     move v2, p2
 
-    .line 2
     invoke-direct/range {v0 .. v6}, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;-><init>(ZZJJ)V
 
     return-void
@@ -82,19 +79,14 @@
 .method public constructor <init>(ZZJJ)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     iput-wide p3, p0, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;->stringLengthLimit_:J
 
-    .line 6
     iput-wide p5, p0, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;->containerLengthLimit_:J
 
-    .line 7
     iput-boolean p1, p0, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;->strictRead_:Z
 
-    .line 8
     iput-boolean p2, p0, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;->strictWrite_:Z
 
     return-void
@@ -105,7 +97,6 @@
 .method public getProtocol(Lorg/apache/thrift/transport/TTransport;)Lorg/apache/thrift/protocol/TProtocol;
     .locals 9
 
-    .line 1
     new-instance v8, Lorg/apache/thrift/protocol/TBinaryProtocol;
 
     iget-wide v2, p0, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;->stringLengthLimit_:J

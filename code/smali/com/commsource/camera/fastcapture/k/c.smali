@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/io/ObjectInputStream;
 
@@ -45,7 +43,6 @@
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_3
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     :try_start_1
     invoke-virtual {v2}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
 
@@ -55,7 +52,6 @@
     .catch Ljava/lang/ClassNotFoundException; {:try_start_1 .. :try_end_1} :catch_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 3
     :try_start_2
     invoke-virtual {v2}, Ljava/io/ObjectInputStream;->close()V
     :try_end_2
@@ -66,7 +62,6 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     goto :goto_2
@@ -97,7 +92,6 @@
     :goto_0
     move-object v2, v1
 
-    .line 5
     :goto_1
     :try_start_3
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
@@ -106,13 +100,11 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     :try_start_4
     invoke-virtual {v2}, Ljava/io/ObjectInputStream;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_0
 
-    .line 7
     :cond_0
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -127,7 +119,6 @@
     :goto_3
     if-eqz v1, :cond_1
 
-    .line 8
     :try_start_5
     invoke-virtual {v1}, Ljava/io/ObjectInputStream;->close()V
     :try_end_5
@@ -138,10 +129,8 @@
     :catch_5
     move-exception v1
 
-    .line 9
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 10
     :cond_1
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -167,7 +156,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/io/ObjectOutputStream;
 
@@ -180,14 +168,12 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_2
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-virtual {v2, p0}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 3
     :try_start_2
     invoke-virtual {v2}, Ljava/io/ObjectOutputStream;->close()V
     :try_end_2
@@ -198,13 +184,11 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     :goto_0
     const/4 p0, 0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -235,7 +219,6 @@
     :try_start_3
     const-string p1, "FASTCAPTURE_TAG"
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -262,7 +245,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 7
     :try_start_4
     invoke-virtual {v1}, Ljava/io/ObjectOutputStream;->close()V
     :try_end_4
@@ -273,10 +255,8 @@
     :catch_3
     move-exception p1
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 9
     :cond_0
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -286,7 +266,6 @@
     :goto_3
     if-eqz v1, :cond_1
 
-    .line 10
     :try_start_5
     invoke-virtual {v1}, Ljava/io/ObjectOutputStream;->close()V
     :try_end_5
@@ -297,10 +276,8 @@
     :catch_4
     move-exception p1
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 12
     :cond_1
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

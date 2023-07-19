@@ -342,7 +342,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     sput v1, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->u0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -361,66 +360,56 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/base/BaseVm;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->a:Landroidx/lifecycle/MutableLiveData;
 
-    .line 3
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->g:Landroidx/lifecycle/MutableLiveData;
 
-    .line 4
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->p:Landroidx/lifecycle/MutableLiveData;
 
-    .line 5
     new-instance p1, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;
 
     invoke-direct {p1}, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->J:Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;
 
-    .line 6
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->K:Landroidx/lifecycle/MutableLiveData;
 
-    .line 7
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->L:Landroidx/lifecycle/MutableLiveData;
 
-    .line 8
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->N:Landroidx/lifecycle/MutableLiveData;
 
-    .line 9
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->P:Landroidx/lifecycle/MutableLiveData;
 
-    .line 10
     new-instance p1, Lcom/commsource/camera/xcamera/i;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -465,14 +454,12 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
-    .line 11
     new-instance p1, Lcom/commsource/camera/xcamera/b;
 
     invoke-direct {p1}, Lcom/commsource/camera/xcamera/b;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->j0:Lcom/commsource/camera/xcamera/b;
 
-    .line 12
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -491,56 +478,48 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->k0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 13
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->l0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 14
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->m0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 15
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->n0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 16
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->o0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 17
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->p0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 18
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->q0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 19
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->r0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 20
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
@@ -557,7 +536,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Y:Lcom/meitu/library/d/d/a/b/a;
 
     if-nez p0, :cond_0
@@ -579,7 +557,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->V:Lcom/meitu/library/renderarch/arch/input/camerainput/e;
 
     if-nez p0, :cond_0
@@ -601,7 +578,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->a0:Lcom/meitu/library/camera/p/d/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -616,7 +592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->t0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -631,7 +606,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->c0:Lcom/meitu/library/n/a/p/b$e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -646,7 +620,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->u0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -669,7 +642,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->E0(Landroid/os/Bundle;)V
 
@@ -677,7 +649,6 @@
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -697,7 +668,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -712,7 +682,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Y:Lcom/meitu/library/d/d/a/b/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -727,7 +696,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->V:Lcom/meitu/library/renderarch/arch/input/camerainput/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -742,7 +710,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->a0:Lcom/meitu/library/camera/p/d/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -757,7 +724,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->c0:Lcom/meitu/library/n/a/p/b$e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -772,19 +738,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/camera/p/d/c$m;
 
     invoke-direct {v1}, Lcom/meitu/library/camera/p/d/c$m;-><init>()V
 
-    .line 2
     new-instance v2, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;-><init>(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)V
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/camera/p/d/b$b;->c(Lcom/meitu/library/camera/p/d/b$f;)Lcom/meitu/library/camera/p/d/b$b;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/library/camera/p/d/c$m;->a()Lcom/meitu/library/camera/p/d/b;
 
     move-result-object v1
@@ -810,12 +773,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/renderarch/arch/input/camerainput/f$e;
 
     invoke-direct {v1}, Lcom/meitu/library/renderarch/arch/input/camerainput/f$e;-><init>()V
 
-    .line 2
     new-instance v2, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$h;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$h;-><init>(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)V
@@ -824,7 +785,6 @@
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$i;
 
     invoke-direct {v3, p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$i;-><init>(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)V
@@ -833,7 +793,6 @@
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/meitu/library/renderarch/arch/input/camerainput/f$e;->j(Z)Lcom/meitu/library/renderarch/arch/input/camerainput/f$e;
 
     move-result-object v1
@@ -848,12 +807,10 @@
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->W:Lcom/meitu/library/renderarch/arch/input/camerainput/f;
 
-    .line 5
     new-instance v1, Lcom/meitu/library/renderarch/arch/input/camerainput/e$d;
 
     invoke-direct {v1}, Lcom/meitu/library/renderarch/arch/input/camerainput/e$d;-><init>()V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->W:Lcom/meitu/library/renderarch/arch/input/camerainput/f;
 
     if-nez v2, :cond_0
@@ -869,7 +826,6 @@
 
     check-cast v1, Lcom/meitu/library/renderarch/arch/input/camerainput/e$d;
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f:Lcom/meitu/library/n/a/n/a;
 
     if-nez v2, :cond_1
@@ -885,7 +841,6 @@
 
     check-cast v1, Lcom/meitu/library/renderarch/arch/input/camerainput/e$d;
 
-    .line 8
     new-instance v2, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$j;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$j;-><init>(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)V
@@ -896,7 +851,6 @@
 
     check-cast v1, Lcom/meitu/library/renderarch/arch/input/camerainput/e$d;
 
-    .line 9
     invoke-virtual {v1}, Lcom/meitu/library/renderarch/arch/input/camerainput/e$d;->y()Lcom/meitu/library/renderarch/arch/input/camerainput/e;
 
     move-result-object v1
@@ -907,7 +861,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->V:Lcom/meitu/library/renderarch/arch/input/camerainput/e;
 
-    .line 10
     new-instance v2, Lcom/meitu/library/camera/component/preview/b$b;
 
     if-nez v1, :cond_2
@@ -919,7 +872,6 @@
     :cond_2
     invoke-direct {v2, p1, p2, v1}, Lcom/meitu/library/camera/component/preview/b$b;-><init>(Ljava/lang/Object;ILcom/meitu/library/renderarch/arch/input/camerainput/a;)V
 
-    .line 11
     invoke-virtual {v2}, Lcom/meitu/library/camera/component/preview/b$b;->l()Lcom/meitu/library/camera/component/preview/b;
 
     move-result-object p1
@@ -940,7 +892,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b:Lcom/meitu/library/camera/MTCamera;
 
     if-nez v1, :cond_0
@@ -952,7 +903,6 @@
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera;->A0(Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1007,14 +957,12 @@
 
     move-object v7, p5
 
-    .line 1
     invoke-virtual/range {v2 .. v9}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->e1(ZZZLcom/commsource/camera/xcamera/m;Lcom/commsource/camera/xcamera/n;ZZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_2
     new-instance v1, Ljava/lang/UnsupportedOperationException;
 
@@ -1036,12 +984,10 @@
 
     const/high16 v1, 0x42340000    # 45.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
 
-    .line 2
     new-instance v2, Lcom/meitu/library/camera/p/c/a$i;
 
     invoke-direct {v2, v1, v1}, Lcom/meitu/library/camera/p/c/a$i;-><init>(II)V
@@ -1054,7 +1000,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {p3, v1, v2}, Lcom/meitu/library/camera/p/c/a$i;->q(Ljava/lang/String;Z)Lcom/meitu/library/camera/p/c/a$i;
 
     move-result-object p3
@@ -1063,17 +1008,14 @@
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-virtual {p3, v1, v2}, Lcom/meitu/library/camera/p/c/a$i;->r(Ljava/lang/String;Z)Lcom/meitu/library/camera/p/c/a$i;
 
     move-result-object p3
 
-    .line 5
     invoke-virtual {p3}, Lcom/meitu/library/camera/p/c/a$i;->c()Lcom/meitu/library/camera/p/c/a;
 
     move-result-object p3
 
-    .line 6
     new-instance v1, Lcom/meitu/library/camera/o/d;
 
     sget-object v2, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$initFocusManager$faceFocusExposureOne$1;->INSTANCE:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$initFocusManager$faceFocusExposureOne$1;
@@ -1095,10 +1037,8 @@
 
     const/16 v3, 0xaa
 
-    .line 7
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/camera/o/d;->a0(II)V
 
-    .line 8
     new-instance v2, Lcom/meitu/library/camera/o/f;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -1107,42 +1047,30 @@
 
     invoke-direct {v2, v3}, Lcom/meitu/library/camera/o/f;-><init>(Landroid/content/Context;)V
 
-    .line 9
     invoke-virtual {v2, v1}, Lcom/meitu/library/camera/o/a;->g(Lcom/meitu/library/camera/o/a$a;)V
 
-    .line 10
     invoke-virtual {v1, v2}, Lcom/meitu/library/camera/o/d;->S0(Lcom/meitu/library/camera/o/d$b;)V
 
-    .line 11
     invoke-virtual {p1, v2}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 12
     invoke-virtual {p2, v2}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 13
     invoke-virtual {p1, v1}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 14
     invoke-virtual {p2, v1}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 15
     invoke-virtual {p1, p3}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 16
     invoke-virtual {p2, p3}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 17
     new-instance p3, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;
 
     invoke-direct {p3, p0, v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;-><init>(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;Lcom/meitu/library/camera/o/d;)V
 
-    .line 18
     invoke-virtual {p1, p3}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 19
     invoke-virtual {p2, p3}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1155,7 +1083,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->P(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1170,7 +1097,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez p0, :cond_0
@@ -1194,7 +1120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_0
@@ -1214,7 +1139,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/i;->j()I
@@ -1225,7 +1149,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
@@ -1238,7 +1161,6 @@
     :goto_0
     const/4 v2, 0x1
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1252,7 +1174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d0:Lcom/meitu/library/camera/MTCamera$h;
 
     if-eqz v1, :cond_1
@@ -1296,7 +1217,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1329,10 +1249,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f0:Lcotlin/jvm/u/p;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1351,10 +1269,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b0:Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_0
@@ -1366,7 +1282,6 @@
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/library/d/f/a;->F(Landroid/os/Bundle;)V
 
-    .line 3
     sget-object p1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -1377,10 +1292,8 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->A(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {}, Lcom/commsource/camera/xcamera/d;->a()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1393,14 +1306,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->A()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_0
@@ -1412,7 +1323,6 @@
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->H()V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1442,7 +1352,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_0
@@ -1454,7 +1363,6 @@
     :cond_0
     invoke-virtual {v1, p1, p2, p3}, Lcom/meitu/library/d/f/a;->I(I[Ljava/lang/String;[I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1475,7 +1383,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_0
@@ -1487,7 +1394,6 @@
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/library/d/f/a;->K(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1500,7 +1406,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_0
@@ -1512,7 +1417,6 @@
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->L()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1525,7 +1429,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f:Lcom/meitu/library/n/a/n/a;
 
     const-string v2, "lifecycleEglEngine"
@@ -1537,7 +1440,6 @@
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/n/a/n/a;->M()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f:Lcom/meitu/library/n/a/n/a;
 
     if-nez v1, :cond_1
@@ -1547,7 +1449,6 @@
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/library/n/a/n/a;->N()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1576,17 +1477,14 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->j0:Lcom/commsource/camera/xcamera/b;
 
     invoke-virtual {p1, v1}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->j0:Lcom/commsource/camera/xcamera/b;
 
     invoke-virtual {p2, p1}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->j0:Lcom/commsource/camera/xcamera/b;
 
     new-instance p2, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$e;
@@ -1595,7 +1493,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/b;->F1(Lcom/commsource/camera/xcamera/p/b;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->j0:Lcom/commsource/camera/xcamera/b;
 
     new-instance p2, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$f;
@@ -1604,7 +1501,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/b;->X1(Lcom/meitu/library/camera/q/i/s;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->j0:Lcom/commsource/camera/xcamera/b;
 
     new-instance p2, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$g;
@@ -1613,7 +1509,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/b;->y1(Lcom/commsource/camera/xcamera/p/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1626,7 +1521,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1641,7 +1535,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->M:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1656,7 +1549,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b:Lcom/meitu/library/camera/MTCamera;
 
     if-nez v1, :cond_0
@@ -1668,12 +1560,10 @@
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera;->z0(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/i;->s(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1686,14 +1576,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
 
     move-result-object v1
 
     const-string v2, "android.permission.READ_EXTERNAL_STORAGE"
 
-    .line 2
     invoke-static {v1, v2}, Lcom/commsource/util/q1;->b(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v1
@@ -1702,7 +1590,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->o0:Landroidx/lifecycle/MutableLiveData;
 
     sget v3, Lcom/res/provider/ResSTRING;->storage_permission_tip:I
@@ -1713,12 +1600,10 @@
 
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
@@ -1742,7 +1627,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b:Lcom/meitu/library/camera/MTCamera;
 
@@ -1774,7 +1658,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1805,7 +1688,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->r0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1824,7 +1706,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->e0:Lcom/meitu/library/d/a/a$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1841,7 +1722,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->e0:Lcom/meitu/library/d/a/a$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1860,7 +1740,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d0:Lcom/meitu/library/camera/MTCamera$h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1877,7 +1756,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_0
@@ -1913,7 +1791,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->g0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1930,7 +1807,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Y:Lcom/meitu/library/d/d/a/b/a;
 
     if-nez v1, :cond_0
@@ -1952,7 +1828,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->T:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$a;
 
     if-nez v1, :cond_0
@@ -1964,7 +1839,6 @@
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/p/a;->x(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1979,7 +1853,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->J:Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1998,7 +1871,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->h0:Lcom/commsource/camera/xcamera/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2024,7 +1896,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->m0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2039,7 +1910,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_0
@@ -2055,7 +1925,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Y:Lcom/meitu/library/d/d/a/b/a;
 
     if-nez v1, :cond_1
@@ -2073,7 +1942,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->V:Lcom/meitu/library/renderarch/arch/input/camerainput/e;
 
@@ -2090,7 +1958,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/library/n/a/f;->g2()V
 
-    .line 4
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->A0()Z
 
@@ -2114,7 +1981,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/i;->n()Ljava/lang/String;
@@ -2123,7 +1989,6 @@
 
     invoke-direct {p0, v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->P(Ljava/lang/String;)V
 
-    .line 6
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2139,7 +2004,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->j0:Lcom/commsource/camera/xcamera/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2166,33 +2030,26 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->a0:Lcom/meitu/library/camera/p/d/b;
 
     if-eqz v1, :cond_c
 
-    .line 2
     new-instance v2, Lcom/meitu/library/camera/p/d/b$g;
 
     invoke-direct {v2, p4}, Lcom/meitu/library/camera/p/d/b$g;-><init>(Ljava/lang/String;)V
 
     const-wide/32 v3, 0x2d2a8
 
-    .line 3
     invoke-virtual {v2, v3, v4}, Lcom/meitu/library/camera/p/d/b$g;->H(J)Lcom/meitu/library/camera/p/d/b$g;
 
     const/4 p4, 0x1
 
-    .line 4
     invoke-virtual {v2, p4}, Lcom/meitu/library/camera/p/d/b$g;->M(Z)Lcom/meitu/library/camera/p/d/b$g;
 
-    .line 5
     invoke-virtual {v2, p4}, Lcom/meitu/library/camera/p/d/b$g;->J(Z)Lcom/meitu/library/camera/p/d/b$g;
 
-    .line 6
     invoke-virtual {v2, p3}, Lcom/meitu/library/camera/p/d/b$g;->I(I)Lcom/meitu/library/camera/p/d/b$g;
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->A0()Z
 
     move-result p3
@@ -2201,7 +2058,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 8
     invoke-virtual {p0}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
 
     move-result-object p3
@@ -2222,20 +2078,16 @@
     :goto_0
     const v4, 0x3d0900
 
-    .line 9
     invoke-virtual {v2, v4}, Lcom/meitu/library/camera/p/d/b$g;->S(I)Lcom/meitu/library/camera/p/d/b$g;
 
     xor-int/2addr p3, p4
 
-    .line 10
     invoke-virtual {v2, p3}, Lcom/meitu/library/camera/p/d/b$g;->D(Z)Lcom/meitu/library/camera/p/d/b$g;
 
     const/4 p3, -0x1
 
-    .line 11
     invoke-virtual {v2, p3}, Lcom/meitu/library/camera/p/d/b$g;->N(I)Lcom/meitu/library/camera/p/d/b$g;
 
-    .line 12
     iget-object p3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez p3, :cond_1
@@ -2251,10 +2103,8 @@
 
     if-eqz p3, :cond_2
 
-    .line 13
     invoke-virtual {v2, v3, v3}, Lcom/meitu/library/camera/p/d/b$g;->U(II)Lcom/meitu/library/camera/p/d/b$g;
 
-    .line 14
     invoke-virtual {v2, v3}, Lcom/meitu/library/camera/p/d/b$g;->S(I)Lcom/meitu/library/camera/p/d/b$g;
 
     goto :goto_1
@@ -2264,12 +2114,10 @@
 
     if-lez p2, :cond_3
 
-    .line 15
     invoke-virtual {v2, p1, p2}, Lcom/meitu/library/camera/p/d/b$g;->U(II)Lcom/meitu/library/camera/p/d/b$g;
 
     goto :goto_1
 
-    .line 16
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Q:Lcom/commsource/camera/xcamera/a;
 
@@ -2286,12 +2134,10 @@
 
     if-eqz p1, :cond_b
 
-    .line 17
     sget-object p1, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     const-string p3, "XT1053"
 
-    .line 18
     invoke-static {p3, p1, p4}, Lcotlin/text/m;->I1(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result p1
@@ -2372,15 +2218,12 @@
 
     const/16 p2, 0x3c0
 
-    .line 19
     invoke-virtual {v2, p1, p2}, Lcom/meitu/library/camera/p/d/b$g;->U(II)Lcom/meitu/library/camera/p/d/b$g;
 
-    .line 20
     :cond_b
     :goto_1
     invoke-virtual {v1, v2}, Lcom/meitu/library/camera/p/d/b;->h2(Lcom/meitu/library/camera/p/d/b$g;)V
 
-    .line 21
     :cond_c
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2405,7 +2248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->L:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2420,7 +2262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     const-string v2, "arCoreCameraSwitchController"
@@ -2436,7 +2277,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->X:Lcom/meitu/library/d/c/a;
 
     if-nez v1, :cond_1
@@ -2450,7 +2290,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
@@ -2465,7 +2304,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->U:Lcom/meitu/library/camera/component/preview/b;
 
     if-nez v1, :cond_4
@@ -2482,10 +2320,8 @@
     :cond_5
     const-string v1, "startPreview error,no camera is active"
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->m(Ljava/lang/String;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2510,7 +2346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->P:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2525,7 +2360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_0
@@ -2541,7 +2375,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Y:Lcom/meitu/library/d/d/a/b/a;
 
     if-nez v1, :cond_1
@@ -2559,7 +2392,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->V:Lcom/meitu/library/renderarch/arch/input/camerainput/e;
 
@@ -2576,7 +2408,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/library/n/a/f;->h2()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2601,7 +2432,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->l0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2616,14 +2446,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->a0:Lcom/meitu/library/camera/p/d/b;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Lcom/meitu/library/camera/p/d/b;->i2()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2639,7 +2467,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2654,7 +2481,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     const-string v2, "arCoreCameraSwitchController"
@@ -2670,7 +2496,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->X:Lcom/meitu/library/d/c/a;
 
     if-nez v1, :cond_1
@@ -2684,7 +2509,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
@@ -2699,7 +2523,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->U:Lcom/meitu/library/camera/component/preview/b;
 
     if-nez v1, :cond_4
@@ -2716,10 +2539,8 @@
     :cond_5
     const-string v1, "stopPreview error,no camera is active"
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->m(Ljava/lang/String;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2744,7 +2565,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->k0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2759,7 +2579,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     const-string v2, "arCoreCameraSwitchController"
@@ -2775,7 +2594,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->c:Lcom/meitu/library/d/a/a;
 
     if-nez v1, :cond_1
@@ -2791,7 +2609,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     invoke-static {}, Lcom/meitu/library/camera/statistics/event/ApmEventReporter;->t()Lcom/meitu/library/camera/statistics/event/ApmEventReporter;
 
@@ -2803,7 +2620,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/library/camera/statistics/event/g;->start()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b:Lcom/meitu/library/camera/MTCamera;
 
     if-nez v1, :cond_3
@@ -2820,14 +2636,12 @@
     :goto_0
     if-eqz v1, :cond_6
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->A0()Z
 
     move-result v3
 
     xor-int/lit8 v3, v3, 0x1
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v4, :cond_4
@@ -2841,21 +2655,18 @@
 
     if-eqz v2, :cond_5
 
-    .line 7
     invoke-virtual {p0}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
 
     move-result-object v2
 
     invoke-static {v2, v3}, Lf/d/i/n;->g1(Landroid/content/Context;I)V
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/xcamera/i;->q(I)V
 
     goto :goto_1
 
-    .line 9
     :cond_5
     invoke-virtual {p0}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
 
@@ -2863,12 +2674,10 @@
 
     invoke-static {v2, v3}, Lf/d/i/n;->m1(Landroid/content/Context;I)V
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/xcamera/i;->r(I)V
 
-    .line 11
     :cond_6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2885,7 +2694,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->V:Lcom/meitu/library/renderarch/arch/input/camerainput/e;
 
     if-nez v1, :cond_0
@@ -2917,7 +2725,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b:Lcom/meitu/library/camera/MTCamera;
 
     if-nez v1, :cond_0
@@ -2933,17 +2740,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/i;->u(Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->l0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2968,7 +2772,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->n0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2987,7 +2790,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v2, :cond_0
@@ -3001,7 +2803,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -3011,7 +2812,6 @@
     :cond_1
     if-eqz p1, :cond_3
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez p1, :cond_2
@@ -3025,7 +2825,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
@@ -3038,7 +2837,6 @@
 
     move-result p1
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3052,7 +2850,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3067,7 +2864,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b:Lcom/meitu/library/camera/MTCamera;
 
     const-string v2, "camera"
@@ -3081,12 +2877,10 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
     invoke-virtual {v3, v1, p1}, Lcom/commsource/camera/xcamera/i;->x(Lcom/meitu/library/camera/MTCamera$r;I)V
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b:Lcom/meitu/library/camera/MTCamera;
 
     if-nez v3, :cond_1
@@ -3100,12 +2894,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/i;->w(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->k0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -3121,7 +2913,6 @@
     :cond_2
     const/4 p1, 0x0
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3135,7 +2926,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->M:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3162,7 +2952,6 @@
 
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, v8, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b0:Z
 
     if-nez v1, :cond_6
@@ -3175,7 +2964,6 @@
 
     goto/16 :goto_2
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/meitu/library/camera/statistics/event/ApmEventReporter;->t()Lcom/meitu/library/camera/statistics/event/ApmEventReporter;
 
@@ -3187,7 +2975,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/library/camera/statistics/event/b;->f()V
 
-    .line 3
     iget-object v1, v8, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_1
@@ -3203,7 +2990,6 @@
 
     if-nez v1, :cond_2
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/camera/statistics/event/ApmEventReporter;->t()Lcom/meitu/library/camera/statistics/event/ApmEventReporter;
 
     move-result-object v1
@@ -3214,7 +3000,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/library/camera/statistics/event/c;->start()V
 
-    .line 5
     :cond_2
     iget-object v1, v8, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->V:Lcom/meitu/library/renderarch/arch/input/camerainput/e;
 
@@ -3231,7 +3016,6 @@
 
     if-nez v0, :cond_4
 
-    .line 6
     iget-object v0, v8, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->a:Landroidx/lifecycle/MutableLiveData;
 
     sget v1, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->u0:I
@@ -3242,7 +3026,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 7
     new-instance v10, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$n;
 
     move-object v0, v10
@@ -3267,11 +3050,9 @@
 
     goto :goto_0
 
-    .line 8
     :cond_4
     iput-object v0, v8, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->c0:Lcom/meitu/library/n/a/p/b$e;
 
-    .line 9
     :goto_0
     iget-object v0, v8, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->m0:Landroidx/lifecycle/MutableLiveData;
 
@@ -3279,7 +3060,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 10
     new-instance v6, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;
 
     move-object v0, v6
@@ -3298,7 +3078,6 @@
 
     if-eqz p6, :cond_5
 
-    .line 11
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
     move-result-object v0
@@ -3313,17 +3092,14 @@
 
     goto :goto_1
 
-    .line 12
     :cond_5
     invoke-interface {v6}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 13
     :goto_1
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 14
     :cond_6
     :goto_2
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3349,7 +3125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->N:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3375,7 +3150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->q0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3392,7 +3166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->s0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3418,7 +3191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->r0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3444,7 +3216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->g:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3461,7 +3232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f:Lcom/meitu/library/n/a/n/a;
 
     if-nez v1, :cond_0
@@ -3485,7 +3255,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->e0:Lcom/meitu/library/d/a/a$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3502,7 +3271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d0:Lcom/meitu/library/camera/MTCamera$h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3517,14 +3285,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d0:Lcom/meitu/library/camera/MTCamera$h;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -3537,7 +3303,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3551,14 +3316,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d0:Lcom/meitu/library/camera/MTCamera$h;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -3571,7 +3334,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3585,7 +3347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->A()Z
 
     move-result v1
@@ -3594,10 +3355,8 @@
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b0:Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_0
@@ -3609,7 +3368,6 @@
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->G()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3623,7 +3381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_0
@@ -3635,10 +3392,8 @@
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->J()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->W0()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3651,14 +3406,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->A()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez v1, :cond_0
@@ -3670,7 +3423,6 @@
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->N()V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3696,7 +3448,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->g0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3722,7 +3473,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->p:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3748,7 +3498,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->K:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3774,7 +3523,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->p0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3800,7 +3548,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->o0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3826,7 +3573,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3843,7 +3589,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->h0:Lcom/commsource/camera/xcamera/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3874,13 +3619,10 @@
 
     const/4 v4, 0x2
 
-    .line 1
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 2
     invoke-static {}, Lcom/commsource/camera/p0;->b()V
 
-    .line 3
     invoke-static {}, Lcom/commsource/camera/p0;->a()Lcom/meitu/library/n/a/n/a;
 
     move-result-object v1
@@ -3891,7 +3633,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f:Lcom/meitu/library/n/a/n/a;
 
-    .line 4
     new-instance v1, Lcom/meitu/library/d/f/a;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -3904,20 +3645,16 @@
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
-    .line 5
     new-instance v1, Lcom/meitu/library/camera/MTCamera$e;
 
     invoke-direct {v1, p1}, Lcom/meitu/library/camera/MTCamera$e;-><init>(Ljava/lang/Object;)V
 
-    .line 6
     new-instance v2, Lcom/meitu/library/d/a/a$e;
 
     invoke-direct {v2, p1}, Lcom/meitu/library/d/a/a$e;-><init>(Ljava/lang/Object;)V
 
-    .line 7
     invoke-virtual {v1, v3}, Lcom/meitu/library/camera/MTCamera$e;->i(Z)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 8
     new-instance v3, Lcom/meitu/library/d/b/c$b;
 
     invoke-direct {v3}, Lcom/meitu/library/d/b/c$b;-><init>()V
@@ -3932,12 +3669,10 @@
 
     iput-object v3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->S:Lcom/meitu/library/d/b/c;
 
-    .line 9
     new-instance v3, Lcom/meitu/library/d/b/e;
 
     invoke-direct {v3}, Lcom/meitu/library/d/b/e;-><init>()V
 
-    .line 10
     iget-object v4, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->S:Lcom/meitu/library/d/b/c;
 
     const-string v5, "mArCoreInfoHitTestProvider"
@@ -3949,10 +3684,8 @@
     :cond_0
     invoke-virtual {v3, v4}, Lcom/meitu/library/camera/q/a;->g(Lcom/meitu/library/camera/q/a;)V
 
-    .line 11
     invoke-virtual {v2, v3}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 12
     new-instance v3, Lcom/commsource/camera/newrender/renderproxy/v/f0;
 
     iget-object v4, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->S:Lcom/meitu/library/d/b/c;
@@ -3966,18 +3699,14 @@
 
     invoke-virtual {v2, v3}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 13
     new-instance v3, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$b;
 
     invoke-direct {v3, p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$b;-><init>(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)V
 
-    .line 14
     invoke-virtual {v1, v3}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 15
     invoke-virtual {v2, v3}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 16
     new-instance v3, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$a;
 
     invoke-direct {v3, p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$a;-><init>(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)V
@@ -3988,13 +3717,11 @@
 
     const-string v4, "mCameraZoomer"
 
-    .line 17
     invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v1, v3}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 18
     invoke-direct {p0, p1, p3}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->N(Landroid/app/Activity;I)Lcom/meitu/library/camera/component/preview/b;
 
     move-result-object v3
@@ -4005,13 +3732,11 @@
 
     const-string v4, "mYuvView"
 
-    .line 19
     invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v1, v3}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 20
     iget-object v3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->V:Lcom/meitu/library/renderarch/arch/input/camerainput/e;
 
     const-string v4, "mCameraRenderManager"
@@ -4023,7 +3748,6 @@
     :cond_4
     invoke-virtual {v1, v3}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 21
     new-instance v3, Lcom/meitu/library/d/d/a/b/a$b;
 
     invoke-direct {v3}, Lcom/meitu/library/d/d/a/b/a$b;-><init>()V
@@ -4045,14 +3769,12 @@
 
     const/4 v5, 0x1
 
-    .line 22
     invoke-virtual {v3, v5}, Lcom/meitu/library/renderarch/arch/input/camerainput/a$j;->m(Z)Lcom/meitu/library/renderarch/arch/input/camerainput/a$j;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/library/d/d/a/b/a$b;
 
-    .line 23
     new-instance v6, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$k;
 
     invoke-direct {v6, p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$k;-><init>(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)V
@@ -4063,7 +3785,6 @@
 
     check-cast v3, Lcom/meitu/library/d/d/a/b/a$b;
 
-    .line 24
     invoke-virtual {v3}, Lcom/meitu/library/d/d/a/b/a$b;->x()Lcom/meitu/library/d/d/a/b/a;
 
     move-result-object v3
@@ -4074,21 +3795,17 @@
 
     iput-object v3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Y:Lcom/meitu/library/d/d/a/b/a;
 
-    .line 25
     new-instance v6, Lcom/meitu/library/d/c/a$b;
 
     const-string v7, "mArCoreCameraRenderManager"
 
     if-nez v3, :cond_6
 
-    .line 26
     invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
-    .line 27
     :cond_6
     invoke-direct {v6, p1, p3, v3}, Lcom/meitu/library/d/c/a$b;-><init>(Ljava/lang/Object;ILcom/meitu/library/renderarch/arch/input/camerainput/a;)V
 
-    .line 28
     invoke-virtual {v6}, Lcom/meitu/library/d/c/a$b;->l()Lcom/meitu/library/d/c/a;
 
     move-result-object p1
@@ -4099,7 +3816,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->X:Lcom/meitu/library/d/c/a;
 
-    .line 29
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Y:Lcom/meitu/library/d/d/a/b/a;
 
     if-nez p1, :cond_7
@@ -4109,7 +3825,6 @@
     :cond_7
     invoke-virtual {v2, p1}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 30
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->X:Lcom/meitu/library/d/c/a;
 
     if-nez p1, :cond_8
@@ -4123,10 +3838,8 @@
 
     if-eqz p2, :cond_9
 
-    .line 31
     invoke-direct {p0, v1, v2, p2}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->x0(Lcom/meitu/library/camera/MTCamera$e;Lcom/meitu/library/d/a/a$e;I)V
 
-    .line 32
     :cond_9
     invoke-static {}, Lf/d/k/k;->e()Z
 
@@ -4134,7 +3847,6 @@
 
     if-eqz p1, :cond_a
 
-    .line 33
     new-instance p1, Lcom/meitu/library/camera/p/d/a$e;
 
     invoke-direct {p1}, Lcom/meitu/library/camera/p/d/a$e;-><init>()V
@@ -4143,39 +3855,29 @@
 
     move-result-object p1
 
-    .line 34
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->M()Lcom/meitu/library/camera/p/d/b;
 
     move-result-object p2
 
-    .line 35
     invoke-virtual {p2, p1}, Lcom/meitu/library/camera/p/d/b;->g2(Lcom/meitu/library/camera/p/d/a;)V
 
-    .line 36
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 37
     invoke-virtual {v1, p2}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 38
     invoke-virtual {v2, p1}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 39
     invoke-virtual {v2, p2}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 40
     iput-object p2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->a0:Lcom/meitu/library/camera/p/d/b;
 
-    .line 41
     :cond_a
     invoke-virtual {p0, v1, v2}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->L(Lcom/meitu/library/camera/MTCamera$e;Lcom/meitu/library/d/a/a$e;)V
 
-    .line 42
     new-instance p1, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$l;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$l;-><init>(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)V
 
-    .line 43
     iget-object p2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->V:Lcom/meitu/library/renderarch/arch/input/camerainput/e;
 
     if-nez p2, :cond_b
@@ -4185,28 +3887,22 @@
     :cond_b
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/a;->t(Lcom/meitu/library/renderarch/arch/input/camerainput/e;)V
 
-    .line 44
     iget-object p2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/a;->s(Lcom/commsource/camera/xcamera/i;)V
 
-    .line 45
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Q:Lcom/commsource/camera/xcamera/a;
 
-    .line 46
     new-instance p1, Lcom/commsource/camera/xcamera/e;
 
     invoke-direct {p1}, Lcom/commsource/camera/xcamera/e;-><init>()V
 
-    .line 47
     iget-object p2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/e;->f(Lcom/commsource/camera/xcamera/i;)V
 
-    .line 48
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->R:Lcom/commsource/camera/xcamera/e;
 
-    .line 49
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Q:Lcom/commsource/camera/xcamera/a;
 
     if-nez p1, :cond_c
@@ -4218,7 +3914,6 @@
     :cond_c
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera$e;->e(Lcom/meitu/library/camera/MTCamera$f;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 50
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->R:Lcom/commsource/camera/xcamera/e;
 
     if-nez p1, :cond_d
@@ -4230,7 +3925,6 @@
     :cond_d
     invoke-virtual {v2, p1}, Lcom/meitu/library/d/a/a$e;->d(Lcom/meitu/library/d/a/a$a;)Lcom/meitu/library/d/a/a$e;
 
-    .line 51
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     const-string p2, "arCoreCameraSwitchController"
@@ -4246,7 +3940,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 52
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
 
     if-nez p1, :cond_f
@@ -4260,7 +3953,6 @@
 
     invoke-virtual {v2, p1}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 53
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f0:Lcotlin/jvm/u/p;
 
     if-eqz p1, :cond_10
@@ -4271,7 +3963,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 54
     :cond_10
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -4279,20 +3970,16 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera$e;->k(Z)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 55
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result p1
 
     invoke-virtual {v2, p1}, Lcom/meitu/library/d/a/a$e;->g(Z)Lcom/meitu/library/d/a/a$e;
 
-    .line 56
     invoke-virtual {v1, v5}, Lcom/meitu/library/camera/MTCamera$e;->f(Z)V
 
-    .line 57
     invoke-virtual {v2, v5}, Lcom/meitu/library/d/a/a$e;->e(Z)V
 
-    .line 58
     invoke-virtual {v2}, Lcom/meitu/library/d/a/a$e;->b()Lcom/meitu/library/d/a/a;
 
     move-result-object p1
@@ -4303,14 +3990,12 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->c:Lcom/meitu/library/d/a/a;
 
-    .line 59
     invoke-static {}, Lf/d/i/n;->D0()Z
 
     move-result p1
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera$e;->m(Z)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 60
     new-instance p1, Lcom/meitu/library/camera/statistics/e$i;
 
     invoke-direct {p1}, Lcom/meitu/library/camera/statistics/e$i;-><init>()V
@@ -4319,7 +4004,6 @@
 
     move-result-object p1
 
-    .line 61
     new-instance p2, Lcom/meitu/library/camera/statistics/i/a;
 
     invoke-direct {p2}, Lcom/meitu/library/camera/statistics/i/a;-><init>()V
@@ -4328,7 +4012,6 @@
 
     move-result-object p1
 
-    .line 62
     invoke-static {}, Lcom/meitu/library/camera/statistics/event/ApmEventReporter;->t()Lcom/meitu/library/camera/statistics/event/ApmEventReporter;
 
     move-result-object p2
@@ -4351,13 +4034,11 @@
 
     const-string p2, "mCameraStatisticsManager"
 
-    .line 63
     invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_11
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 64
     invoke-virtual {v1}, Lcom/meitu/library/camera/MTCamera$e;->b()Lcom/meitu/library/camera/MTCamera;
 
     move-result-object p1
@@ -4368,7 +4049,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b:Lcom/meitu/library/camera/MTCamera;
 
-    .line 65
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4381,7 +4061,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d0:Lcom/meitu/library/camera/MTCamera$h;
 
     if-eqz v1, :cond_1
@@ -4417,7 +4096,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d0:Lcom/meitu/library/camera/MTCamera$h;
 
     if-eqz v1, :cond_1

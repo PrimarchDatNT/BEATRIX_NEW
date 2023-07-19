@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/message/TokenParser;
 
     invoke-direct {v0}, Lorg/apache/http/message/TokenParser;-><init>()V
@@ -41,7 +40,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,12 +48,10 @@
 .method public static varargs INIT_BITSET([I)Ljava/util/BitSet;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/util/BitSet;
 
     invoke-direct {v0}, Ljava/util/BitSet;-><init>()V
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -65,7 +61,6 @@
 
     aget v3, p0, v2
 
-    .line 3
     invoke-virtual {v0, v3}, Ljava/util/BitSet;->set(I)V
 
     add-int/lit8 v2, v2, 0x1
@@ -115,17 +110,14 @@
 .method public copyContent(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;Ljava/util/BitSet;Ljava/lang/StringBuilder;)V
     .locals 5
 
-    .line 1
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getUpperBound()I
 
     move-result v2
@@ -133,14 +125,12 @@
     :goto_0
     if-ge v1, v2, :cond_2
 
-    .line 4
     invoke-virtual {p1, v1}, Lorg/apache/http/util/CharArrayBuffer;->charAt(I)C
 
     move-result v3
 
     if-eqz p3, :cond_0
 
-    .line 5
     invoke-virtual {p3, v3}, Ljava/util/BitSet;->get(I)Z
 
     move-result v4
@@ -159,14 +149,12 @@
     :cond_1
     add-int/lit8 v0, v0, 0x1
 
-    .line 6
     invoke-virtual {p4, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 7
     :cond_2
     :goto_1
     invoke-virtual {p2, v0}, Lorg/apache/http/message/ParserCursor;->updatePos(I)V
@@ -177,7 +165,6 @@
 .method public copyQuotedContent(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;Ljava/lang/StringBuilder;)V
     .locals 9
 
-    .line 1
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->atEnd()Z
 
     move-result v0
@@ -186,23 +173,19 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v0
 
-    .line 3
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v1
 
-    .line 4
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getUpperBound()I
 
     move-result v2
 
-    .line 5
     invoke-virtual {p1, v0}, Lorg/apache/http/util/CharArrayBuffer;->charAt(I)C
 
     move-result v3
@@ -227,7 +210,6 @@
     :goto_0
     if-ge v1, v2, :cond_7
 
-    .line 6
     invoke-virtual {p1, v1}, Lorg/apache/http/util/CharArrayBuffer;->charAt(I)C
 
     move-result v7
@@ -240,10 +222,8 @@
 
     if-eq v7, v8, :cond_2
 
-    .line 7
     invoke-virtual {p3, v8}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 8
     :cond_2
     invoke-virtual {p3, v7}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
@@ -274,7 +254,6 @@
 
     if-eq v7, v8, :cond_6
 
-    .line 9
     invoke-virtual {p3, v7}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     :cond_6
@@ -285,7 +264,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_7
     :goto_2
     invoke-virtual {p2, v0}, Lorg/apache/http/message/ParserCursor;->updatePos(I)V
@@ -296,17 +274,14 @@
 .method public copyUnquotedContent(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;Ljava/util/BitSet;Ljava/lang/StringBuilder;)V
     .locals 5
 
-    .line 1
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getUpperBound()I
 
     move-result v2
@@ -314,14 +289,12 @@
     :goto_0
     if-ge v1, v2, :cond_2
 
-    .line 4
     invoke-virtual {p1, v1}, Lorg/apache/http/util/CharArrayBuffer;->charAt(I)C
 
     move-result v3
 
     if-eqz p3, :cond_0
 
-    .line 5
     invoke-virtual {p3, v3}, Ljava/util/BitSet;->get(I)Z
 
     move-result v4
@@ -344,14 +317,12 @@
     :cond_1
     add-int/lit8 v0, v0, 0x1
 
-    .line 6
     invoke-virtual {p4, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 7
     :cond_2
     :goto_1
     invoke-virtual {p2, v0}, Lorg/apache/http/message/ParserCursor;->updatePos(I)V
@@ -362,7 +333,6 @@
 .method public parseToken(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;Ljava/util/BitSet;)Ljava/lang/String;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -372,7 +342,6 @@
     :goto_0
     const/4 v2, 0x0
 
-    .line 2
     :goto_1
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->atEnd()Z
 
@@ -380,7 +349,6 @@
 
     if-nez v3, :cond_3
 
-    .line 3
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v3
@@ -391,7 +359,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 4
     invoke-virtual {p3, v3}, Ljava/util/BitSet;->get(I)Z
 
     move-result v4
@@ -400,7 +367,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_0
     invoke-static {v3}, Lorg/apache/http/message/TokenParser;->isWhitespace(C)Z
 
@@ -408,7 +374,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/TokenParser;->skipWhiteSpace(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)V
 
     const/4 v2, 0x1
@@ -418,7 +383,6 @@
     :cond_1
     if-eqz v2, :cond_2
 
-    .line 7
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
     move-result v2
@@ -427,16 +391,13 @@
 
     const/16 v2, 0x20
 
-    .line 8
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 9
     :cond_2
     invoke-virtual {p0, p1, p2, p3, v0}, Lorg/apache/http/message/TokenParser;->copyContent(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;Ljava/util/BitSet;Ljava/lang/StringBuilder;)V
 
     goto :goto_0
 
-    .line 10
     :cond_3
     :goto_2
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -449,7 +410,6 @@
 .method public parseValue(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;Ljava/util/BitSet;)Ljava/lang/String;
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -459,7 +419,6 @@
     :goto_0
     const/4 v2, 0x0
 
-    .line 2
     :goto_1
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->atEnd()Z
 
@@ -467,7 +426,6 @@
 
     if-nez v3, :cond_5
 
-    .line 3
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v3
@@ -478,7 +436,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 4
     invoke-virtual {p3, v3}, Ljava/util/BitSet;->get(I)Z
 
     move-result v4
@@ -487,7 +444,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_0
     invoke-static {v3}, Lorg/apache/http/message/TokenParser;->isWhitespace(C)Z
 
@@ -495,7 +451,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 6
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/TokenParser;->skipWhiteSpace(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)V
 
     const/4 v2, 0x1
@@ -511,17 +466,14 @@
 
     if-eqz v2, :cond_2
 
-    .line 7
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
     move-result v2
 
     if-lez v2, :cond_2
 
-    .line 8
     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 9
     :cond_2
     invoke-virtual {p0, p1, p2, v0}, Lorg/apache/http/message/TokenParser;->copyQuotedContent(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;Ljava/lang/StringBuilder;)V
 
@@ -530,23 +482,19 @@
     :cond_3
     if-eqz v2, :cond_4
 
-    .line 10
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
     move-result v2
 
     if-lez v2, :cond_4
 
-    .line 11
     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 12
     :cond_4
     invoke-virtual {p0, p1, p2, p3, v0}, Lorg/apache/http/message/TokenParser;->copyUnquotedContent(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;Ljava/util/BitSet;Ljava/lang/StringBuilder;)V
 
     goto :goto_0
 
-    .line 13
     :cond_5
     :goto_2
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -559,17 +507,14 @@
 .method public skipWhiteSpace(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)V
     .locals 4
 
-    .line 1
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getUpperBound()I
 
     move-result v2
@@ -577,12 +522,10 @@
     :goto_0
     if-ge v1, v2, :cond_1
 
-    .line 4
     invoke-virtual {p1, v1}, Lorg/apache/http/util/CharArrayBuffer;->charAt(I)C
 
     move-result v3
 
-    .line 5
     invoke-static {v3}, Lorg/apache/http/message/TokenParser;->isWhitespace(C)Z
 
     move-result v3
@@ -598,7 +541,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     :goto_1
     invoke-virtual {p2, v0}, Lorg/apache/http/message/ParserCursor;->updatePos(I)V

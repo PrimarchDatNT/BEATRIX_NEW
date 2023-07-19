@@ -78,7 +78,6 @@
 
     const-string v1, "true"
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -89,7 +88,6 @@
 
     sput-boolean v0, Lio/grpc/internal/m1$a;->g:Z
 
-    .line 2
     invoke-static {}, Lio/grpc/internal/m1$a;->e()Ljava/lang/RuntimeException;
 
     move-result-object v0
@@ -116,25 +114,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p3}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
 
     iput-object p1, p0, Lio/grpc/internal/m1$a;->e:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 3
     new-instance p1, Ljava/lang/ref/SoftReference;
 
-    .line 4
     sget-boolean v0, Lio/grpc/internal/m1$a;->g:Z
 
     if-eqz v0, :cond_0
 
-    .line 5
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "ManagedChannel allocation site"
@@ -143,7 +136,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     sget-object v0, Lio/grpc/internal/m1$a;->h:Ljava/lang/RuntimeException;
 
@@ -152,23 +144,18 @@
 
     iput-object p1, p0, Lio/grpc/internal/m1$a;->d:Ljava/lang/ref/Reference;
 
-    .line 7
     invoke-virtual {p2}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lio/grpc/internal/m1$a;->c:Ljava/lang/String;
 
-    .line 8
     iput-object p3, p0, Lio/grpc/internal/m1$a;->a:Ljava/lang/ref/ReferenceQueue;
 
-    .line 9
     iput-object p4, p0, Lio/grpc/internal/m1$a;->b:Ljava/util/concurrent/ConcurrentMap;
 
-    .line 10
     invoke-interface {p4, p0, p0}, Ljava/util/concurrent/ConcurrentMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     invoke-static {p3}, Lio/grpc/internal/m1$a;->b(Ljava/lang/ref/ReferenceQueue;)I
 
     return-void
@@ -177,7 +164,6 @@
 .method static synthetic a(Lio/grpc/internal/m1$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/internal/m1$a;->d()V
 
     return-void
@@ -201,7 +187,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :cond_0
     :goto_0
     invoke-virtual {p0}, Ljava/lang/ref/ReferenceQueue;->poll()Ljava/lang/ref/Reference;
@@ -212,7 +197,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 2
     iget-object v3, v2, Lio/grpc/internal/m1$a;->d:Ljava/lang/ref/Reference;
 
     invoke-virtual {v3}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
@@ -221,10 +205,8 @@
 
     check-cast v3, Ljava/lang/RuntimeException;
 
-    .line 3
     invoke-direct {v2}, Lio/grpc/internal/m1$a;->c()V
 
-    .line 4
     iget-object v4, v2, Lio/grpc/internal/m1$a;->e:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v4}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -235,10 +217,8 @@
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 5
     sget-object v4, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
 
-    .line 6
     invoke-static {}, Lio/grpc/internal/m1;->t()Ljava/util/logging/Logger;
 
     move-result-object v5
@@ -249,7 +229,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 7
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -260,7 +239,6 @@
 
     const-string v6, "line.separator"
 
-    .line 8
     invoke-static {v6}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
@@ -275,12 +253,10 @@
 
     move-result-object v5
 
-    .line 9
     new-instance v6, Ljava/util/logging/LogRecord;
 
     invoke-direct {v6, v4, v5}, Ljava/util/logging/LogRecord;-><init>(Ljava/util/logging/Level;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {}, Lio/grpc/internal/m1;->t()Ljava/util/logging/Logger;
 
     move-result-object v4
@@ -295,17 +271,14 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    .line 11
     iget-object v2, v2, Lio/grpc/internal/m1$a;->c:Ljava/lang/String;
 
     aput-object v2, v4, v0
 
     invoke-virtual {v6, v4}, Ljava/util/logging/LogRecord;->setParameters([Ljava/lang/Object;)V
 
-    .line 12
     invoke-virtual {v6, v3}, Ljava/util/logging/LogRecord;->setThrown(Ljava/lang/Throwable;)V
 
-    .line 13
     invoke-static {}, Lio/grpc/internal/m1;->t()Ljava/util/logging/Logger;
 
     move-result-object v2
@@ -321,15 +294,12 @@
 .method private c()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Ljava/lang/ref/WeakReference;->clear()V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/m1$a;->b:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0, p0}, Ljava/util/concurrent/ConcurrentMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/m1$a;->d:Ljava/lang/ref/Reference;
 
     invoke-virtual {v0}, Ljava/lang/ref/Reference;->clear()V
@@ -340,7 +310,6 @@
 .method private d()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/m1$a;->e:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x1
@@ -351,7 +320,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lio/grpc/internal/m1$a;->clear()V
 
     :cond_0
@@ -361,7 +329,6 @@
 .method private static e()Ljava/lang/RuntimeException;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "ManagedChannel allocation site not recorded.  Set -Dio.grpc.ManagedChannel.enableAllocationTracking=true to enable it"
@@ -372,7 +339,6 @@
 
     new-array v1, v1, [Ljava/lang/StackTraceElement;
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/RuntimeException;->setStackTrace([Ljava/lang/StackTraceElement;)V
 
     return-object v0
@@ -383,10 +349,8 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/internal/m1$a;->c()V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/m1$a;->a:Ljava/lang/ref/ReferenceQueue;
 
     invoke-static {v0}, Lio/grpc/internal/m1$a;->b(Ljava/lang/ref/ReferenceQueue;)I

@@ -46,24 +46,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h$a;->b:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView;->computeVerticalScrollOffset()I
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h$a;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h;
 
     iget v3, v2, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h;->b:I
 
     div-int v4, v1, v3
 
-    .line 3
     rem-int/2addr v1, v3
 
-    .line 4
     iget-object v2, v2, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-virtual {v2}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->getDisplayCount()I
@@ -84,7 +80,6 @@
     :goto_0
     int-to-float v1, v1
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h$a;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h;
 
     iget v5, v3, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h;->b:I
@@ -103,7 +98,6 @@
 
     if-lez v1, :cond_1
 
-    .line 6
     iget-object v1, v3, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->d(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)Lcom/commsource/widget/h1/e;
@@ -128,7 +122,6 @@
 
     add-int/lit8 v4, v4, 0x1
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h$a;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h;
 
@@ -142,7 +135,6 @@
 
     invoke-virtual {v1, v4}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

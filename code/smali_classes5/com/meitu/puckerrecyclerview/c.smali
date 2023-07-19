@@ -23,10 +23,8 @@
 .method public constructor <init>(Lcom/meitu/puckerrecyclerview/h;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/puckerrecyclerview/f;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/c;->a:Lcom/meitu/puckerrecyclerview/h;
 
     return-void
@@ -51,7 +49,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -66,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x2
@@ -81,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/c;->a:Lcom/meitu/puckerrecyclerview/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

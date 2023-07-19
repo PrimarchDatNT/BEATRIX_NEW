@@ -26,10 +26,8 @@
 .method constructor <init>(Lcom/google/common/io/BaseEncoding;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/io/BaseEncoding;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -38,7 +36,6 @@
 
     iput-object p1, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -47,7 +44,6 @@
 
     iput-object p1, p0, Lcom/google/common/io/BaseEncoding$i;->g:Ljava/lang/String;
 
-    .line 4
     iput p3, p0, Lcom/google/common/io/BaseEncoding$i;->h:I
 
     if-lez p3, :cond_0
@@ -62,7 +58,6 @@
     :goto_0
     const-string p2, "Cannot add a separator after every %s chars"
 
-    .line 5
     invoke-static {p1, p2, p3}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
     return-void
@@ -73,7 +68,6 @@
 .method public A(C)Lcom/google/common/io/BaseEncoding;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
     invoke-virtual {v0, p1}, Lcom/google/common/io/BaseEncoding;->A(C)Lcom/google/common/io/BaseEncoding;
@@ -94,7 +88,6 @@
 .method public B(Ljava/lang/String;I)Lcom/google/common/io/BaseEncoding;
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string p2, "Already have a separator"
@@ -107,14 +100,12 @@
 .method public f(Ljava/lang/CharSequence;)Z
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
@@ -122,12 +113,10 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v2
 
-    .line 4
     iget-object v3, p0, Lcom/google/common/io/BaseEncoding$i;->g:Ljava/lang/String;
 
     invoke-virtual {v3, v2}, Ljava/lang/String;->indexOf(I)I
@@ -136,7 +125,6 @@
 
     if-gez v3, :cond_0
 
-    .line 5
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     :cond_0
@@ -144,7 +132,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
@@ -163,7 +150,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-interface {p2}, Ljava/lang/CharSequence;->length()I
@@ -174,7 +160,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-interface {p2}, Ljava/lang/CharSequence;->length()I
 
@@ -182,12 +167,10 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 3
     invoke-interface {p2, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v2
 
-    .line 4
     iget-object v3, p0, Lcom/google/common/io/BaseEncoding$i;->g:Ljava/lang/String;
 
     invoke-virtual {v3, v2}, Ljava/lang/String;->indexOf(I)I
@@ -196,7 +179,6 @@
 
     if-gez v3, :cond_0
 
-    .line 5
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     :cond_0
@@ -204,7 +186,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object p2, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
@@ -220,7 +201,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
     iget-object v1, p0, Lcom/google/common/io/BaseEncoding$i;->g:Ljava/lang/String;
@@ -244,7 +224,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
     iget-object v1, p0, Lcom/google/common/io/BaseEncoding$i;->g:Ljava/lang/String;
@@ -265,7 +244,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
     iget-object v1, p0, Lcom/google/common/io/BaseEncoding$i;->g:Ljava/lang/String;
@@ -286,7 +264,6 @@
 .method public s()Lcom/google/common/io/BaseEncoding;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
     invoke-virtual {v0}, Lcom/google/common/io/BaseEncoding;->s()Lcom/google/common/io/BaseEncoding;
@@ -307,7 +284,6 @@
 .method t(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
     invoke-virtual {v0, p1}, Lcom/google/common/io/BaseEncoding;->t(I)I
@@ -320,7 +296,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -359,17 +334,14 @@
 .method u(I)I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
     invoke-virtual {v0, p1}, Lcom/google/common/io/BaseEncoding;->u(I)I
 
     move-result p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$i;->g:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -400,7 +372,6 @@
 .method public v()Lcom/google/common/io/BaseEncoding;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
     invoke-virtual {v0}, Lcom/google/common/io/BaseEncoding;->v()Lcom/google/common/io/BaseEncoding;
@@ -421,7 +392,6 @@
 .method y(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
     invoke-virtual {v0, p1}, Lcom/google/common/io/BaseEncoding;->y(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
@@ -434,7 +404,6 @@
 .method public z()Lcom/google/common/io/BaseEncoding;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$i;->f:Lcom/google/common/io/BaseEncoding;
 
     invoke-virtual {v0}, Lcom/google/common/io/BaseEncoding;->z()Lcom/google/common/io/BaseEncoding;

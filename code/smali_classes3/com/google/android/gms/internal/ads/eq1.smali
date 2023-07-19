@@ -24,7 +24,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/fq1;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 .method protected synthetic a()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/eq1;->g()Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
@@ -46,7 +44,6 @@
 .method public addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/eq1;->g()Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
@@ -59,7 +56,6 @@
 .method protected synthetic f()Ljava/util/concurrent/Future;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/eq1;->g()Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0

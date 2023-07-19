@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment$b;->P:Lcom/commsource/studio/function/BrightenEyesFragment;
 
     invoke-direct {p0, p2}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;-><init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/r0/v;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/function/BrightenEyesFragment$b;->S(Lcom/commsource/studio/r0/v;ILcom/commsource/easyeditor/utils/opengl/f;)V
@@ -88,7 +86,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/BrightenEyesFragment$b;->P:Lcom/commsource/studio/function/BrightenEyesFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BrightenEyesFragment;->N1()Lcom/commsource/studio/effect/c;
@@ -107,7 +104,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/r0/v;->z(F)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/r0/v;->u()F
 
     move-result p2
@@ -118,14 +114,12 @@
 
     if-lez p2, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/r0/v;->w()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object p2
 
     invoke-virtual {p1, p3, p2}, Lcom/commsource/studio/r0/v;->y(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

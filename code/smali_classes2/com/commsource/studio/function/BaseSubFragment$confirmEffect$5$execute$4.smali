@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$4;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$4;->this$0:Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;->g:Lcom/commsource/studio/function/BaseSubFragment;
@@ -100,21 +98,18 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/ImageStudioViewModel;->y1(Landroid/graphics/Bitmap;Lcom/commsource/studio/effect/k;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$4;->this$0:Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;->g:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->L0()V
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$4$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$4$a;-><init>(Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$4;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$4;->this$0:Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;->g:Lcom/commsource/studio/function/BaseSubFragment;
@@ -131,7 +126,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

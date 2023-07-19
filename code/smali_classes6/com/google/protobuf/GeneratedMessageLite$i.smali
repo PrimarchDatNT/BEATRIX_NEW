@@ -25,12 +25,10 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     return-void
@@ -39,7 +37,6 @@
 .method synthetic constructor <init>(Lcom/google/protobuf/GeneratedMessageLite$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageLite$i;-><init>()V
 
     return-void
@@ -48,7 +45,6 @@
 .method static synthetic C(Lcom/google/protobuf/GeneratedMessageLite$i;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     return p0
@@ -57,7 +53,6 @@
 .method static synthetic D(Lcom/google/protobuf/GeneratedMessageLite$i;I)I
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     return p1
@@ -68,7 +63,6 @@
 .method public A(Lcom/google/protobuf/z0$h;Lcom/google/protobuf/z0$h;)Lcom/google/protobuf/z0$h;
     .locals 1
 
-    .line 1
     iget p2, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p2, p2, 0x35
@@ -87,7 +81,6 @@
 .method public B(ZLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p2, Lcom/google/protobuf/i1;
 
     check-cast p3, Lcom/google/protobuf/i1;
@@ -116,7 +109,6 @@
         }
     .end annotation
 
-    .line 1
     iget p2, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p2, p2, 0x35
@@ -135,7 +127,6 @@
 .method public b(Lcom/google/protobuf/z0$e;Lcom/google/protobuf/z0$e;)Lcom/google/protobuf/z0$e;
     .locals 1
 
-    .line 1
     iget p2, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p2, p2, 0x35
@@ -158,7 +149,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -170,7 +160,6 @@
 .method public d(ZLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -197,7 +186,6 @@
 .method public e(ZLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -231,7 +219,6 @@
         }
     .end annotation
 
-    .line 1
     iget p2, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p2, p2, 0x35
@@ -250,7 +237,6 @@
 .method public g(Lcom/google/protobuf/p2;Lcom/google/protobuf/p2;)Lcom/google/protobuf/p2;
     .locals 1
 
-    .line 1
     iget p2, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p2, p2, 0x35
@@ -269,7 +255,6 @@
 .method public h(ZLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -288,7 +273,6 @@
 .method public i(ZZZZ)Z
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -307,7 +291,6 @@
 .method public j(Lcom/google/protobuf/z0$b;Lcom/google/protobuf/z0$b;)Lcom/google/protobuf/z0$b;
     .locals 1
 
-    .line 1
     iget p2, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p2, p2, 0x35
@@ -326,7 +309,6 @@
 .method public k(ZLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -353,7 +335,6 @@
 .method public l(ZLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -372,7 +353,6 @@
 .method public m(Lcom/google/protobuf/z0$f;Lcom/google/protobuf/z0$f;)Lcom/google/protobuf/z0$f;
     .locals 1
 
-    .line 1
     iget p2, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p2, p2, 0x35
@@ -400,12 +380,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     instance-of p2, p1, Lcom/google/protobuf/GeneratedMessageLite;
 
     if-eqz p2, :cond_0
 
-    .line 2
     move-object p2, p1
 
     check-cast p2, Lcom/google/protobuf/GeneratedMessageLite;
@@ -416,7 +394,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
@@ -427,7 +404,6 @@
     :cond_1
     const/16 p2, 0x25
 
-    .line 4
     :goto_0
     iget v0, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
@@ -443,7 +419,6 @@
 .method public o(ZLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -474,7 +449,6 @@
 .method public p(ZLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -499,7 +473,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/protobuf/b1;->hashCode()I
 
     move-result p2
@@ -509,7 +482,6 @@
     :cond_0
     const/16 p2, 0x25
 
-    .line 2
     :goto_0
     iget v0, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
@@ -525,7 +497,6 @@
 .method public r(Lcom/google/protobuf/z0$a;Lcom/google/protobuf/z0$a;)Lcom/google/protobuf/z0$a;
     .locals 1
 
-    .line 1
     iget p2, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p2, p2, 0x35
@@ -544,7 +515,6 @@
 .method public s(ZIZI)I
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -559,7 +529,6 @@
 .method public t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -578,7 +547,6 @@
 .method public u(ZFZF)F
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -597,7 +565,6 @@
 .method public v(ZLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -637,7 +604,6 @@
         }
     .end annotation
 
-    .line 1
     iget p2, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p2, p2, 0x35
@@ -656,7 +622,6 @@
 .method public x(ZLcom/google/protobuf/ByteString;ZLcom/google/protobuf/ByteString;)Lcom/google/protobuf/ByteString;
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -675,7 +640,6 @@
 .method public y(ZJZJ)J
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35
@@ -694,7 +658,6 @@
 .method public z(ZDZD)D
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/protobuf/GeneratedMessageLite$i;->a:I
 
     mul-int/lit8 p1, p1, 0x35

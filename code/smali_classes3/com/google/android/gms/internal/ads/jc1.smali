@@ -13,13 +13,10 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/zzasm;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/jc1;->a:Lcom/google/android/gms/internal/ads/zzasm;
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/internal/ads/jc1;->b:I
 
     return-void
@@ -30,7 +27,6 @@
 .method public final a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jc1;->a:Lcom/google/android/gms/internal/ads/zzasm;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/zzasm;->d:Ljava/lang/String;
@@ -41,7 +37,6 @@
 .method public final b()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jc1;->a:Lcom/google/android/gms/internal/ads/zzasm;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/zzasm;->a:Landroid/os/Bundle;
@@ -60,7 +55,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jc1;->a:Lcom/google/android/gms/internal/ads/zzasm;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/zzasm;->g:Landroid/content/pm/PackageInfo;
@@ -71,7 +65,6 @@
 .method public final d()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jc1;->a:Lcom/google/android/gms/internal/ads/zzasm;
 
     iget-boolean v0, v0, Lcom/google/android/gms/internal/ads/zzasm;->J:Z
@@ -90,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jc1;->a:Lcom/google/android/gms/internal/ads/zzasm;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/zzasm;->f:Ljava/util/List;
@@ -101,7 +93,6 @@
 .method public final f()Landroid/content/pm/ApplicationInfo;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jc1;->a:Lcom/google/android/gms/internal/ads/zzasm;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/zzasm;->c:Landroid/content/pm/ApplicationInfo;
@@ -112,7 +103,6 @@
 .method public final g()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jc1;->a:Lcom/google/android/gms/internal/ads/zzasm;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/zzasm;->K:Ljava/lang/String;
@@ -123,7 +113,6 @@
 .method public final h()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/jc1;->b:I
 
     return v0

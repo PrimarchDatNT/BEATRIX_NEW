@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Exception;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$4;->invoke(Ljava/lang/Exception;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$4;->this$0:Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;
 
     iget-object p1, p1, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;->$sticker:Lcom/meitu/template/bean/Sticker;
@@ -90,14 +88,12 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$4;->this$0:Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;
 
     iget-object p1, p1, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;->$sticker:Lcom/meitu/template/bean/Sticker;
 
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/e;->setDownloadProgress(I)V
 
-    .line 4
     sget-object p1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$4;->this$0:Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;
@@ -106,14 +102,12 @@
 
     invoke-static {p1, v2}, Lcom/commsource/studio/sticker/StickerManager;->r(Lcom/commsource/studio/sticker/StickerManager;Lcom/meitu/template/bean/Sticker;)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$4;->this$0:Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;
 
     iget-object v2, v2, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;->$sticker:Lcom/meitu/template/bean/Sticker;
 
     invoke-virtual {p1, v2, v1}, Lcom/commsource/studio/sticker/StickerManager;->e0(Lcom/meitu/template/bean/Sticker;Z)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

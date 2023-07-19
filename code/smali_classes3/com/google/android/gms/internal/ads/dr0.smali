@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/ads/dr0;->d(Ljava/lang/Object;Ljava/util/concurrent/Executor;)Ljava/util/Set;
 
     move-result-object p0
@@ -51,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/ads/dr0;->d(Ljava/lang/Object;Ljava/util/concurrent/Executor;)Ljava/util/Set;
 
     move-result-object p0
@@ -74,7 +71,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/ads/dr0;->d(Ljava/lang/Object;Ljava/util/concurrent/Executor;)Ljava/util/Set;
 
     move-result-object p0
@@ -97,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/m1;->a:Lcom/google/android/gms/internal/ads/y0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/y0;->a()Ljava/lang/Object;
@@ -112,7 +107,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/od0;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/ads/od0;-><init>(Ljava/lang/Object;Ljava/util/concurrent/Executor;)V
@@ -123,7 +117,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
@@ -147,7 +140,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/ads/dr0;->d(Ljava/lang/Object;Ljava/util/concurrent/Executor;)Ljava/util/Set;
 
     move-result-object p0
@@ -170,7 +162,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/ads/dr0;->d(Ljava/lang/Object;Ljava/util/concurrent/Executor;)Ljava/util/Set;
 
     move-result-object p0
@@ -193,7 +184,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/ads/dr0;->d(Ljava/lang/Object;Ljava/util/concurrent/Executor;)Ljava/util/Set;
 
     move-result-object p0
@@ -216,7 +206,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/ads/dr0;->d(Ljava/lang/Object;Ljava/util/concurrent/Executor;)Ljava/util/Set;
 
     move-result-object p0
@@ -239,7 +228,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/ads/dr0;->d(Ljava/lang/Object;Ljava/util/concurrent/Executor;)Ljava/util/Set;
 
     move-result-object p0
@@ -262,7 +250,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/ads/dr0;->d(Ljava/lang/Object;Ljava/util/concurrent/Executor;)Ljava/util/Set;
 
     move-result-object p0

@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/kx;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/kx;-><init>()V
@@ -24,7 +23,6 @@
 .method static synthetic a()Lcom/google/android/gms/internal/ads/kx;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/nx;->a:Lcom/google/android/gms/internal/ads/kx;
 
     return-object v0

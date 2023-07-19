@@ -35,10 +35,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -57,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->b:I
 
     iget-object v2, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->a:Ljava/util/LinkedList;
@@ -90,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->b:I
 
     if-lez v1, :cond_0
@@ -123,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -148,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
@@ -161,7 +155,6 @@
 
     if-le v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
@@ -176,7 +169,6 @@
 
     if-lt v1, v2, :cond_0
 
-    .line 3
     :goto_0
     iget-object v3, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->a:Ljava/util/LinkedList;
 
@@ -191,12 +183,10 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->a:Ljava/util/LinkedList;
 
@@ -208,7 +198,6 @@
 
     iput p1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->b:I
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -232,21 +221,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/FaceLabelLayer$a;->a()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->b:I
 
     add-int/lit8 v1, v1, 0x1
 
     iput v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->b:I
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->a:Ljava/util/LinkedList;
 
@@ -281,21 +267,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/FaceLabelLayer$a;->b()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->b:I
 
     add-int/lit8 v1, v1, -0x1
 
     iput v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->b:I
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$a;->a:Ljava/util/LinkedList;
 

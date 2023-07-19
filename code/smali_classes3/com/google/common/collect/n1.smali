@@ -13,7 +13,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -56,7 +54,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     invoke-static {p0, v0}, Lcom/google/common/collect/n1;->c([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -76,7 +73,6 @@
     :goto_0
     if-ge v0, p1, :cond_0
 
-    .line 1
     aget-object v1, p0, v0
 
     invoke-static {v1, v0}, Lcom/google/common/collect/n1;->a(Ljava/lang/Object;I)Ljava/lang/Object;
@@ -103,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x1
@@ -116,10 +111,8 @@
 
     const/4 v2, 0x0
 
-    .line 2
     aput-object p0, v0, v2
 
-    .line 3
     array-length p0, p1
 
     invoke-static {p1, v2, v0, v1, p0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
@@ -141,7 +134,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     add-int/lit8 v0, v0, 0x1
@@ -150,7 +142,6 @@
 
     move-result-object v0
 
-    .line 2
     array-length p0, p0
 
     aput-object p1, v0, p0
@@ -173,7 +164,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     array-length v1, p1
@@ -184,14 +174,12 @@
 
     move-result-object p2
 
-    .line 2
     array-length v0, p0
 
     const/4 v1, 0x0
 
     invoke-static {p0, v1, p2, v1, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 3
     array-length p0, p0
 
     array-length v0, p1
@@ -206,7 +194,6 @@
 
     add-int v0, p1, p2
 
-    .line 1
     array-length v1, p0
 
     invoke-static {p1, v0, v1}, Lcom/google/common/base/t;->f0(III)V
@@ -219,11 +206,9 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-array v1, p2, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {p0, p1, v1, v0, p2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     return-object v1
@@ -245,7 +230,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -265,7 +249,6 @@
 
     add-int/lit8 v2, v0, 0x1
 
-    .line 2
     aput-object v1, p1, v0
 
     move v0, v2
@@ -291,7 +274,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
 
     move-result-object p0
@@ -311,7 +293,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/r1;->c([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p0
@@ -322,15 +303,12 @@
 .method static k([Ljava/lang/Object;II)V
     .locals 2
 
-    .line 1
     aget-object v0, p0, p1
 
-    .line 2
     aget-object v1, p0, p2
 
     aput-object v1, p0, p1
 
-    .line 3
     aput-object v0, p0, p2
 
     return-void
@@ -347,7 +325,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Collection;->size()I
 
     move-result v0
@@ -373,33 +350,27 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Collection;->size()I
 
     move-result v0
 
-    .line 2
     array-length v1, p1
 
     if-ge v1, v0, :cond_0
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/collect/n1;->j([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 4
     :cond_0
     invoke-static {p0, p1}, Lcom/google/common/collect/n1;->h(Ljava/lang/Iterable;[Ljava/lang/Object;)[Ljava/lang/Object;
 
-    .line 5
     array-length p0, p1
 
     if-le p0, v0, :cond_1
 
     const/4 p0, 0x0
 
-    .line 6
     aput-object p0, p1, v0
 
     :cond_1
@@ -420,24 +391,20 @@
 
     add-int v0, p1, p2
 
-    .line 1
     array-length v1, p0
 
     invoke-static {p1, v0, v1}, Lcom/google/common/base/t;->f0(III)V
 
-    .line 2
     array-length v0, p3
 
     if-ge v0, p2, :cond_0
 
-    .line 3
     invoke-static {p3, p2}, Lcom/google/common/collect/n1;->j([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p3
 
     goto :goto_0
 
-    .line 4
     :cond_0
     array-length v0, p3
 
@@ -445,14 +412,12 @@
 
     const/4 v0, 0x0
 
-    .line 5
     aput-object v0, p3, p2
 
     :cond_1
     :goto_0
     const/4 v0, 0x0
 
-    .line 6
     invoke-static {p0, p1, p3, v0, p2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     return-object p3

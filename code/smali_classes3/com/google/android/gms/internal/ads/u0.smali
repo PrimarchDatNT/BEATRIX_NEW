@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/google/android/gms/ads/doubleclick/c;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/s0;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/u0;->b:Lcom/google/android/gms/ads/doubleclick/c;
 
     return-void
@@ -25,7 +23,6 @@
 .method public final F2(Lcom/google/android/gms/internal/ads/o0;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/u0;->b:Lcom/google/android/gms/ads/doubleclick/c;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/l0;

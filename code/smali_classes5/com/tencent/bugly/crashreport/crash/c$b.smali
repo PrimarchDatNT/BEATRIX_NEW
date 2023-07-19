@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/crash/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/crash/c$b;->a:Lcom/tencent/bugly/crashreport/crash/c;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
@@ -37,7 +36,6 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     iget-object v1, v0, Lcom/tencent/bugly/crashreport/crash/c$b;->a:Lcom/tencent/bugly/crashreport/crash/c;
 
     invoke-static {v1}, Lcom/tencent/bugly/crashreport/crash/c;->b(Lcom/tencent/bugly/crashreport/crash/c;)Landroid/content/Context;
@@ -56,7 +54,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, v0, Lcom/tencent/bugly/crashreport/crash/c$b;->a:Lcom/tencent/bugly/crashreport/crash/c;
 
@@ -68,7 +65,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 3
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v3
@@ -79,7 +75,6 @@
 
     new-array v4, v3, [Ljava/lang/Object;
 
-    .line 4
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v5
@@ -96,7 +91,6 @@
 
     invoke-static {v5, v4}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 5
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v4
@@ -109,12 +103,10 @@
 
     if-lez v5, :cond_2
 
-    .line 6
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 7
     invoke-static {v1}, Ljava/util/Collections;->sort(Ljava/util/List;)V
 
     :goto_0
@@ -128,7 +120,6 @@
 
     sub-int/2addr v7, v6
 
-    .line 8
     invoke-interface {v1, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v7
@@ -147,7 +138,6 @@
     :cond_2
     move-object v12, v1
 
-    .line 9
     :goto_1
     iget-object v1, v0, Lcom/tencent/bugly/crashreport/crash/c$b;->a:Lcom/tencent/bugly/crashreport/crash/c;
 
@@ -163,7 +153,6 @@
 
     invoke-virtual/range {v11 .. v17}, Lcom/tencent/bugly/crashreport/crash/b;->a(Ljava/util/List;JZZZ)V
 
-    .line 10
     :cond_3
     iget-object v1, v0, Lcom/tencent/bugly/crashreport/crash/c$b;->a:Lcom/tencent/bugly/crashreport/crash/c;
 

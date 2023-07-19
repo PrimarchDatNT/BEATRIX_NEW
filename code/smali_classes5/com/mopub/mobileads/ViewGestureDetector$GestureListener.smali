@@ -22,12 +22,10 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/view/GestureDetector$SimpleOnGestureListener;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;->mIsClicked:Z
 
     return-void
@@ -38,7 +36,6 @@
 .method isClicked()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;->mIsClicked:Z
 
     return v0
@@ -49,7 +46,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;->mIsClicked:Z
 
     return-void
@@ -60,10 +56,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/mopub/mobileads/ViewGestureDetector$GestureListener;->mIsClicked:Z
 
-    .line 2
     invoke-super {p0, p1}, Landroid/view/GestureDetector$SimpleOnGestureListener;->onSingleTapUp(Landroid/view/MotionEvent;)Z
 
     move-result p1

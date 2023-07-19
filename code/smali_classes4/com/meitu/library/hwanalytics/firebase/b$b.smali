@@ -60,10 +60,8 @@
 
     const/16 v1, 0xa
 
-    .line 1
     invoke-static {v1}, Landroid/os/Process;->setThreadPriority(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

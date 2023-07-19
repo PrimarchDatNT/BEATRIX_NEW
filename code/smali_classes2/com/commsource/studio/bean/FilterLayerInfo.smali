@@ -25,17 +25,14 @@
         .end annotation
     .end param
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/bean/BaseLayerInfo;-><init>()V
 
     const/4 v0, 0x5
 
-    .line 5
     iput v0, p0, Lcom/commsource/studio/bean/FilterLayerInfo;->layerType:I
 
     if-eqz p1, :cond_0
 
-    .line 6
     iget-object v0, p1, Lcom/commsource/studio/bean/FilterLayerInfo;->filter:Lcom/meitu/template/bean/Filter;
 
     if-eqz v0, :cond_0
@@ -58,7 +55,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 7
     iget p1, p1, Lcom/commsource/studio/bean/FilterLayerInfo;->alpha:I
 
     goto :goto_1
@@ -83,15 +79,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/bean/BaseLayerInfo;-><init>()V
 
     const/4 v0, 0x5
 
-    .line 2
     iput v0, p0, Lcom/commsource/studio/bean/FilterLayerInfo;->layerType:I
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/studio/bean/FilterLayerInfo;->filter:Lcom/meitu/template/bean/Filter;
 
     return-void
@@ -106,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/bean/FilterLayerInfo;->alpha:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -123,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/FilterLayerInfo;->filter:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/bean/FilterLayerInfo;->layerType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/FilterLayerInfo;->filter:Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {v1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
@@ -176,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/FilterLayerInfo;->alpha:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -199,7 +187,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FilterLayerInfo;->filter:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -214,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/FilterLayerInfo;->layerType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

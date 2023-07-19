@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$b;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +45,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :goto_0
     iget-object v3, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$b;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
@@ -60,7 +58,6 @@
 
     if-ge v2, v3, :cond_1
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$b;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
     invoke-static {v3}, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;->L0(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)Ljava/util/List;
@@ -83,7 +80,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$b;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;->M0(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)Landroidx/recyclerview/widget/RecyclerView;
@@ -98,7 +94,6 @@
 
     invoke-virtual {p1, v2, v1}, Landroidx/recyclerview/widget/LinearLayoutManager;->scrollToPositionWithOffset(II)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -108,7 +103,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

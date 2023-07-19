@@ -10,7 +10,6 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/sdk/api/g;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
     return-void

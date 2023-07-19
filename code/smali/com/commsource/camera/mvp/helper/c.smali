@@ -15,10 +15,8 @@
 .method public constructor <init>(Landroid/widget/ImageView;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -31,13 +29,10 @@
 
     const/4 v0, -0x1
 
-    .line 3
     iput v0, p0, Lcom/commsource/camera/mvp/helper/c;->c:I
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/camera/mvp/helper/c;->a:Landroid/widget/ImageView;
 
-    .line 5
     invoke-virtual {p1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -48,7 +43,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 6
     iget-object v1, p1, Lcom/commsource/push/bean/e;->h:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -57,7 +51,6 @@
 
     if-nez v1, :cond_0
 
-    .line 7
     iget-object p1, p1, Lcom/commsource/push/bean/e;->h:Ljava/lang/String;
 
     invoke-static {p1, v0}, Lcom/commsource/util/common/i;->D(Ljava/lang/String;I)I
@@ -66,7 +59,6 @@
 
     if-lez p1, :cond_0
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/camera/mvp/helper/c;->a:Landroid/widget/ImageView;
 
     invoke-virtual {v0}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
@@ -79,7 +71,6 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 9
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object v0
@@ -101,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/mvp/helper/c;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -122,7 +112,6 @@
 
     const-string v1, "ar_icon"
 
-    .line 1
     invoke-static {p0, v1}, Lcom/commsource/beautyplus/util/v;->u(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -139,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -180,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/mvp/helper/c;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -195,14 +182,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/mvp/helper/c;->b:Landroid/os/Handler;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -23,28 +23,22 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 2
     iput v0, p0, Lcom/commsource/easyeditor/entity/a;->b:F
 
-    .line 3
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/Rotation;->NORMAL:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     iput-object v1, p0, Lcom/commsource/easyeditor/entity/a;->c:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     const/4 v1, 0x1
 
-    .line 4
     iput v1, p0, Lcom/commsource/easyeditor/entity/a;->d:I
 
-    .line 5
     iput v1, p0, Lcom/commsource/easyeditor/entity/a;->e:I
 
-    .line 6
     new-instance v1, Landroid/graphics/RectF;
 
     const/4 v2, 0x0
@@ -53,7 +47,6 @@
 
     iput-object v1, p0, Lcom/commsource/easyeditor/entity/a;->f:Landroid/graphics/RectF;
 
-    .line 7
     sget-object v0, Lcom/commsource/easyeditor/entity/CropEnum;->Free:Lcom/commsource/easyeditor/entity/CropEnum;
 
     iput-object v0, p0, Lcom/commsource/easyeditor/entity/a;->g:Lcom/commsource/easyeditor/entity/CropEnum;
@@ -64,28 +57,22 @@
 .method public constructor <init>(Lcom/commsource/easyeditor/entity/a;)V
     .locals 3
 
-    .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 9
     iput v0, p0, Lcom/commsource/easyeditor/entity/a;->b:F
 
-    .line 10
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/Rotation;->NORMAL:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     iput-object v1, p0, Lcom/commsource/easyeditor/entity/a;->c:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     const/4 v1, 0x1
 
-    .line 11
     iput v1, p0, Lcom/commsource/easyeditor/entity/a;->d:I
 
-    .line 12
     iput v1, p0, Lcom/commsource/easyeditor/entity/a;->e:I
 
-    .line 13
     new-instance v1, Landroid/graphics/RectF;
 
     const/4 v2, 0x0
@@ -94,54 +81,46 @@
 
     iput-object v1, p0, Lcom/commsource/easyeditor/entity/a;->f:Landroid/graphics/RectF;
 
-    .line 14
     sget-object v0, Lcom/commsource/easyeditor/entity/CropEnum;->Free:Lcom/commsource/easyeditor/entity/CropEnum;
 
     iput-object v0, p0, Lcom/commsource/easyeditor/entity/a;->g:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 15
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/a;->c()F
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/easyeditor/entity/a;->a:F
 
-    .line 16
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/a;->h()F
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/easyeditor/entity/a;->b:F
 
-    .line 17
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/a;->g()Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/easyeditor/entity/a;->c:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
-    .line 18
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/a;->d()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/easyeditor/entity/a;->d:I
 
-    .line 19
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/a;->e()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/easyeditor/entity/a;->e:I
 
-    .line 20
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/a;->b()Landroid/graphics/RectF;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/commsource/easyeditor/entity/a;->m(Landroid/graphics/RectF;)V
 
-    .line 21
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/a;->a()Lcom/commsource/easyeditor/entity/CropEnum;
 
     move-result-object p1
@@ -160,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/a;->g:Lcom/commsource/easyeditor/entity/CropEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -175,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/a;->f:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -190,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/a;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -205,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/a;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -220,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/a;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -239,12 +213,10 @@
 
     if-ne p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p1, Lcom/commsource/easyeditor/entity/a;
 
@@ -252,16 +224,13 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_1
     check-cast p1, Lcom/commsource/easyeditor/entity/a;
 
-    .line 5
     iget v2, p1, Lcom/commsource/easyeditor/entity/a;->a:F
 
     iget v4, p0, Lcom/commsource/easyeditor/entity/a;->a:F
@@ -294,7 +263,6 @@
 
     iget-object p1, p1, Lcom/commsource/easyeditor/entity/a;->f:Landroid/graphics/RectF;
 
-    .line 6
     invoke-static {v2, p1}, Lcom/commsource/util/common/i;->s(Landroid/graphics/RectF;Landroid/graphics/RectF;)Z
 
     move-result p1
@@ -306,7 +274,6 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -320,17 +287,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/a;->b()Landroid/graphics/RectF;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Landroid/graphics/RectF;
 
     invoke-direct {v2}, Landroid/graphics/RectF;-><init>()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/a;->g()Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     move-result-object v3
@@ -341,14 +305,12 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 4
     iget v3, v1, Landroid/graphics/RectF;->top:F
 
     sub-float/2addr v5, v3
 
     iput v5, v2, Landroid/graphics/RectF;->right:F
 
-    .line 5
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
 
     move-result v3
@@ -357,12 +319,10 @@
 
     iput v5, v2, Landroid/graphics/RectF;->left:F
 
-    .line 6
     iget v3, v1, Landroid/graphics/RectF;->left:F
 
     iput v3, v2, Landroid/graphics/RectF;->top:F
 
-    .line 7
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -373,7 +333,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/a;->g()Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
@@ -383,12 +342,10 @@
 
     if-ne v3, v4, :cond_1
 
-    .line 9
     iget v3, v1, Landroid/graphics/RectF;->top:F
 
     iput v3, v2, Landroid/graphics/RectF;->left:F
 
-    .line 10
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
 
     move-result v4
@@ -397,14 +354,12 @@
 
     iput v3, v2, Landroid/graphics/RectF;->right:F
 
-    .line 11
     iget v3, v1, Landroid/graphics/RectF;->left:F
 
     sub-float/2addr v5, v3
 
     iput v5, v2, Landroid/graphics/RectF;->bottom:F
 
-    .line 12
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -415,7 +370,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/a;->g()Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
@@ -425,14 +379,12 @@
 
     if-ne v3, v4, :cond_2
 
-    .line 14
     iget v3, v1, Landroid/graphics/RectF;->right:F
 
     sub-float v3, v5, v3
 
     iput v3, v2, Landroid/graphics/RectF;->left:F
 
-    .line 15
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
     move-result v4
@@ -441,14 +393,12 @@
 
     iput v3, v2, Landroid/graphics/RectF;->right:F
 
-    .line 16
     iget v3, v1, Landroid/graphics/RectF;->top:F
 
     sub-float/2addr v5, v3
 
     iput v5, v2, Landroid/graphics/RectF;->bottom:F
 
-    .line 17
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
 
     move-result v1
@@ -459,11 +409,9 @@
 
     goto :goto_0
 
-    .line 18
     :cond_2
     invoke-virtual {v2, v1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 19
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -477,7 +425,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/a;->c:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -492,7 +439,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/a;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -511,7 +457,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 1
     iget v2, p0, Lcom/commsource/easyeditor/entity/a;->a:F
 
     invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
@@ -570,7 +515,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/a;->f:Landroid/graphics/RectF;
 
     if-eqz v1, :cond_1
@@ -601,7 +545,6 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 2
     invoke-static {v1, v2}, Lcom/commsource/util/common/i;->r(FF)Z
 
     move-result v1
@@ -626,7 +569,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -640,7 +582,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/a;->a:F
 
     const/4 v2, 0x1
@@ -686,38 +627,30 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput v1, p0, Lcom/commsource/easyeditor/entity/a;->d:I
 
-    .line 2
     iput v1, p0, Lcom/commsource/easyeditor/entity/a;->e:I
 
     const/4 v1, 0x0
 
-    .line 3
     iput v1, p0, Lcom/commsource/easyeditor/entity/a;->a:F
 
-    .line 4
     sget-object v2, Lcom/commsource/easyeditor/utils/opengl/Rotation;->NORMAL:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     iput-object v2, p0, Lcom/commsource/easyeditor/entity/a;->c:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/easyeditor/entity/a;->f:Landroid/graphics/RectF;
 
     const/high16 v3, 0x3f800000    # 1.0f
 
     invoke-virtual {v2, v1, v1, v3, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 6
     iput v3, p0, Lcom/commsource/easyeditor/entity/a;->b:F
 
-    .line 7
     sget-object v1, Lcom/commsource/easyeditor/entity/CropEnum;->Free:Lcom/commsource/easyeditor/entity/CropEnum;
 
     iput-object v1, p0, Lcom/commsource/easyeditor/entity/a;->g:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -730,10 +663,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/entity/a;->g:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -746,12 +677,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/a;->f:Landroid/graphics/RectF;
 
     invoke-virtual {v1, p1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -764,10 +693,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/a;->a:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -780,10 +707,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/a;->d:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -796,10 +721,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/a;->e:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -812,10 +735,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/entity/a;->c:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -828,10 +749,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/a;->b:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

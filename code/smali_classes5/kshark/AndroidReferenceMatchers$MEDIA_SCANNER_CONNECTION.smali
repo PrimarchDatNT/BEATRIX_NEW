@@ -27,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lkshark/AndroidReferenceMatchers;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
@@ -54,10 +53,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lkshark/AndroidReferenceMatchers;->Companion:Lkshark/AndroidReferenceMatchers$Companion;
 
-    .line 2
     sget-object v1, Lkshark/AndroidReferenceMatchers$MEDIA_SCANNER_CONNECTION$add$1;->INSTANCE:Lkshark/AndroidReferenceMatchers$MEDIA_SCANNER_CONNECTION$add$1;
 
     const-string v2, "android.media.MediaScannerConnection"
@@ -66,7 +63,6 @@
 
     const-string v4, "The static method MediaScannerConnection.scanFile() takes an activity context but the service might not disconnect after the activity has been destroyed. Tracked here: https://code.google.com/p/android/issues/detail?id=173788 Fix: Create an instance of MediaScannerConnection yourself and pass in the application context. Call connect() and disconnect() manually."
 
-    .line 3
     invoke-virtual {v0, v2, v3, v4, v1}, Lkshark/AndroidReferenceMatchers$Companion;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object v0

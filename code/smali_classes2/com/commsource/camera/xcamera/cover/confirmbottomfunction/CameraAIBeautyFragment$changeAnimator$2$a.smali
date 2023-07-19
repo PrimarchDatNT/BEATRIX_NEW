@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$changeAnimator$2$a;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$changeAnimator$2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +91,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,7 +103,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$changeAnimator$2$a;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$changeAnimator$2;
 
     iget-object v0, v0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$changeAnimator$2;->this$0:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment;
@@ -120,7 +115,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$changeAnimator$2$a;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$changeAnimator$2;
 
     iget-object v0, v0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$changeAnimator$2;->this$0:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment;
@@ -137,7 +131,6 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setScaleX(F)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$changeAnimator$2$a;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$changeAnimator$2;
 
     iget-object v0, v0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment$changeAnimator$2;->this$0:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/CameraAIBeautyFragment;
@@ -152,7 +145,6 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setScaleY(F)V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

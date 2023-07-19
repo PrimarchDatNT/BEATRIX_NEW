@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/AndroidObjectInspectors$a;-><init>()V
 
     return-void
@@ -63,12 +61,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -85,22 +81,18 @@
 
     move-result-object v1
 
-    .line 3
     check-cast v1, Lkshark/AndroidObjectInspectors;
 
-    .line 4
     invoke-virtual {v1}, Lkshark/AndroidObjectInspectors;->getLeakingObjectFilter$shark()Lcotlin/jvm/u/l;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-interface {v0, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/util/ArrayList;
 
@@ -112,7 +104,6 @@
 
     invoke-direct {p1, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 7
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -128,15 +119,12 @@
 
     move-result-object v1
 
-    .line 8
     check-cast v1, Lcotlin/jvm/u/l;
 
-    .line 9
     new-instance v2, Lkshark/AndroidObjectInspectors$a$a;
 
     invoke-direct {v2, v1}, Lkshark/AndroidObjectInspectors$a$a;-><init>(Lcotlin/jvm/u/l;)V
 
-    .line 10
     invoke-interface {p1, v2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
@@ -159,7 +147,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lkshark/ObjectInspectors;->Companion:Lkshark/ObjectInspectors$a;
 
     invoke-virtual {v0}, Lkshark/ObjectInspectors$a;->b()Ljava/util/List;
@@ -191,7 +178,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lkshark/AndroidObjectInspectors;->access$getAppLeakingObjectFilters$cp()Ljava/util/List;
 
     move-result-object v0

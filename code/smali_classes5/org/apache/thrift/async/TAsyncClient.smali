@@ -31,7 +31,6 @@
 
     move-object v3, p3
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lorg/apache/thrift/async/TAsyncClient;-><init>(Lorg/apache/thrift/protocol/TProtocolFactory;Lorg/apache/thrift/async/TAsyncClientManager;Lorg/apache/thrift/transport/TNonblockingTransport;J)V
 
     return-void
@@ -40,19 +39,14 @@
 .method public constructor <init>(Lorg/apache/thrift/protocol/TProtocolFactory;Lorg/apache/thrift/async/TAsyncClientManager;Lorg/apache/thrift/transport/TNonblockingTransport;J)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lorg/apache/thrift/async/TAsyncClient;->___protocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
-    .line 4
     iput-object p2, p0, Lorg/apache/thrift/async/TAsyncClient;->___manager:Lorg/apache/thrift/async/TAsyncClientManager;
 
-    .line 5
     iput-object p3, p0, Lorg/apache/thrift/async/TAsyncClient;->___transport:Lorg/apache/thrift/transport/TNonblockingTransport;
 
-    .line 6
     iput-wide p4, p0, Lorg/apache/thrift/async/TAsyncClient;->___timeout:J
 
     return-void
@@ -63,19 +57,16 @@
 .method protected checkReady()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClient;->___currentMethod:Lorg/apache/thrift/async/TAsyncMethodCall;
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClient;->___error:Ljava/lang/Exception;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -87,7 +78,6 @@
 
     throw v0
 
-    .line 4
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -123,7 +113,6 @@
 .method public getError()Ljava/lang/Exception;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClient;->___error:Ljava/lang/Exception;
 
     return-object v0
@@ -132,7 +121,6 @@
 .method public getProtocolFactory()Lorg/apache/thrift/protocol/TProtocolFactory;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClient;->___protocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     return-object v0
@@ -141,7 +129,6 @@
 .method public getTimeout()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lorg/apache/thrift/async/TAsyncClient;->___timeout:J
 
     return-wide v0
@@ -150,7 +137,6 @@
 .method public hasError()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClient;->___error:Ljava/lang/Exception;
 
     if-eqz v0, :cond_0
@@ -169,7 +155,6 @@
 .method public hasTimeout()Z
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lorg/apache/thrift/async/TAsyncClient;->___timeout:J
 
     const-wide/16 v2, 0x0
@@ -194,7 +179,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lorg/apache/thrift/async/TAsyncClient;->___currentMethod:Lorg/apache/thrift/async/TAsyncMethodCall;
 
     return-void
@@ -203,17 +187,14 @@
 .method protected onError(Ljava/lang/Exception;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClient;->___transport:Lorg/apache/thrift/transport/TNonblockingTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->close()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lorg/apache/thrift/async/TAsyncClient;->___currentMethod:Lorg/apache/thrift/async/TAsyncMethodCall;
 
-    .line 3
     iput-object p1, p0, Lorg/apache/thrift/async/TAsyncClient;->___error:Ljava/lang/Exception;
 
     return-void
@@ -222,7 +203,6 @@
 .method public setTimeout(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lorg/apache/thrift/async/TAsyncClient;->___timeout:J
 
     return-void

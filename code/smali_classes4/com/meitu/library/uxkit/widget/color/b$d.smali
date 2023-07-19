@@ -26,13 +26,10 @@
 .method constructor <init>(Lcom/meitu/library/uxkit/widget/color/b;Landroid/view/View;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/uxkit/widget/color/b$d;->c:Lcom/meitu/library/uxkit/widget/color/b;
 
-    .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/uxkit/widget/color/b;->m(Lcom/meitu/library/uxkit/widget/color/b;)Landroid/view/View$OnClickListener;
 
     move-result-object p1
@@ -49,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/uxkit/widget/color/b$d;->a:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -64,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/uxkit/widget/color/b$d;->a:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -79,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/uxkit/widget/color/b$d;->b:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -94,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/uxkit/widget/color/b$d;->b:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

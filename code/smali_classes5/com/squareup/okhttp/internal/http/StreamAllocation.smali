@@ -23,13 +23,10 @@
 .method public constructor <init>(Lcom/squareup/okhttp/ConnectionPool;Lcom/squareup/okhttp/Address;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionPool:Lcom/squareup/okhttp/ConnectionPool;
 
-    .line 3
     iput-object p2, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->address:Lcom/squareup/okhttp/Address;
 
     return-void
@@ -38,30 +35,25 @@
 .method private connectionFailed(Ljava/io/IOException;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionPool:Lcom/squareup/okhttp/ConnectionPool;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->routeSelector:Lcom/squareup/okhttp/internal/http/RouteSelector;
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
 
     iget v2, v1, Lcom/squareup/okhttp/internal/io/RealConnection;->streamCount:I
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Lcom/squareup/okhttp/internal/io/RealConnection;->getRoute()Lcom/squareup/okhttp/Route;
 
     move-result-object v1
 
-    .line 5
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->routeSelector:Lcom/squareup/okhttp/internal/http/RouteSelector;
 
     invoke-virtual {v2, v1, p1}, Lcom/squareup/okhttp/internal/http/RouteSelector;->connectFailed(Lcom/squareup/okhttp/Route;Ljava/io/IOException;)V
@@ -71,17 +63,14 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 6
     iput-object p1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->routeSelector:Lcom/squareup/okhttp/internal/http/RouteSelector;
 
-    .line 7
     :cond_1
     :goto_0
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     invoke-virtual {p0}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionFailed()V
 
     return-void
@@ -89,7 +78,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -101,7 +89,6 @@
 .method private deallocate(ZZZ)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionPool:Lcom/squareup/okhttp/ConnectionPool;
 
     monitor-enter v0
@@ -110,7 +97,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     :try_start_0
     iput-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->stream:Lcom/squareup/okhttp/internal/http/HttpStream;
 
@@ -127,10 +113,8 @@
 
     if-eqz p2, :cond_1
 
-    .line 3
     iput-boolean p3, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->released:Z
 
-    .line 4
     :cond_1
     iget-object p2, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
 
@@ -138,10 +122,8 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     iput-boolean p3, p2, Lcom/squareup/okhttp/internal/io/RealConnection;->noNewStreams:Z
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->stream:Lcom/squareup/okhttp/internal/http/HttpStream;
 
@@ -155,21 +137,17 @@
 
     if-eqz p1, :cond_6
 
-    .line 7
     :cond_3
     invoke-direct {p0, p2}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->release(Lcom/squareup/okhttp/internal/io/RealConnection;)V
 
-    .line 8
     iget-object p1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
 
     iget p2, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->streamCount:I
 
     if-lez p2, :cond_4
 
-    .line 9
     iput-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->routeSelector:Lcom/squareup/okhttp/internal/http/RouteSelector;
 
-    .line 10
     :cond_4
     iget-object p1, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->allocations:Ljava/util/List;
 
@@ -179,7 +157,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 11
     iget-object p1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
 
     invoke-static {}, Ljava/lang/System;->nanoTime()J
@@ -188,7 +165,6 @@
 
     iput-wide p2, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->idleAtNanos:J
 
-    .line 12
     sget-object p1, Lcom/squareup/okhttp/internal/Internal;->instance:Lcom/squareup/okhttp/internal/Internal;
 
     iget-object p2, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionPool:Lcom/squareup/okhttp/ConnectionPool;
@@ -201,7 +177,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 13
     iget-object p1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
 
     goto :goto_1
@@ -209,13 +184,11 @@
     :cond_5
     move-object p1, v1
 
-    .line 14
     :goto_1
     iput-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
 
     move-object v1, p1
 
-    .line 15
     :cond_6
     monitor-exit v0
     :try_end_0
@@ -223,7 +196,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 16
     invoke-virtual {v1}, Lcom/squareup/okhttp/internal/io/RealConnection;->getSocket()Ljava/net/Socket;
 
     move-result-object p1
@@ -233,7 +205,6 @@
     :cond_7
     return-void
 
-    .line 17
     :goto_2
     :try_start_1
     monitor-exit v0
@@ -252,43 +223,35 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionPool:Lcom/squareup/okhttp/ConnectionPool;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->released:Z
 
     if-nez v1, :cond_6
 
-    .line 3
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->stream:Lcom/squareup/okhttp/internal/http/HttpStream;
 
     if-nez v1, :cond_5
 
-    .line 4
     iget-boolean v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->canceled:Z
 
     if-nez v1, :cond_4
 
-    .line 5
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
 
     if-eqz v1, :cond_0
 
-    .line 6
     iget-boolean v2, v1, Lcom/squareup/okhttp/internal/io/RealConnection;->noNewStreams:Z
 
     if-nez v2, :cond_0
 
-    .line 7
     monitor-exit v0
 
     return-object v1
 
-    .line 8
     :cond_0
     sget-object v1, Lcom/squareup/okhttp/internal/Internal;->instance:Lcom/squareup/okhttp/internal/Internal;
 
@@ -302,21 +265,17 @@
 
     if-eqz v1, :cond_1
 
-    .line 9
     iput-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
 
-    .line 10
     monitor-exit v0
 
     return-object v1
 
-    .line 11
     :cond_1
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->routeSelector:Lcom/squareup/okhttp/internal/http/RouteSelector;
 
     if-nez v1, :cond_2
 
-    .line 12
     new-instance v1, Lcom/squareup/okhttp/internal/http/RouteSelector;
 
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->address:Lcom/squareup/okhttp/Address;
@@ -329,33 +288,27 @@
 
     iput-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->routeSelector:Lcom/squareup/okhttp/internal/http/RouteSelector;
 
-    .line 13
     :cond_2
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 14
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->routeSelector:Lcom/squareup/okhttp/internal/http/RouteSelector;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->next()Lcom/squareup/okhttp/Route;
 
     move-result-object v0
 
-    .line 15
     new-instance v7, Lcom/squareup/okhttp/internal/io/RealConnection;
 
     invoke-direct {v7, v0}, Lcom/squareup/okhttp/internal/io/RealConnection;-><init>(Lcom/squareup/okhttp/Route;)V
 
-    .line 16
     invoke-virtual {p0, v7}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->acquire(Lcom/squareup/okhttp/internal/io/RealConnection;)V
 
-    .line 17
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionPool:Lcom/squareup/okhttp/ConnectionPool;
 
     monitor-enter v1
 
-    .line 18
     :try_start_1
     sget-object v0, Lcom/squareup/okhttp/internal/Internal;->instance:Lcom/squareup/okhttp/internal/Internal;
 
@@ -363,20 +316,16 @@
 
     invoke-virtual {v0, v2, v7}, Lcom/squareup/okhttp/internal/Internal;->put(Lcom/squareup/okhttp/ConnectionPool;Lcom/squareup/okhttp/internal/io/RealConnection;)V
 
-    .line 19
     iput-object v7, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
 
-    .line 20
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->canceled:Z
 
     if-nez v0, :cond_3
 
-    .line 21
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 22
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->address:Lcom/squareup/okhttp/Address;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/Address;->getConnectionSpecs()Ljava/util/List;
@@ -395,7 +344,6 @@
 
     invoke-virtual/range {v1 .. v6}, Lcom/squareup/okhttp/internal/io/RealConnection;->connect(IIILjava/util/List;Z)V
 
-    .line 23
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->routeDatabase()Lcom/squareup/okhttp/internal/RouteDatabase;
 
     move-result-object p1
@@ -408,7 +356,6 @@
 
     return-object v7
 
-    .line 24
     :cond_3
     :try_start_2
     new-instance p1, Ljava/io/IOException;
@@ -422,14 +369,12 @@
     :catchall_0
     move-exception p1
 
-    .line 25
     monitor-exit v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     throw p1
 
-    .line 26
     :cond_4
     :try_start_3
     new-instance p1, Ljava/io/IOException;
@@ -440,7 +385,6 @@
 
     throw p1
 
-    .line 27
     :cond_5
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -450,7 +394,6 @@
 
     throw p1
 
-    .line 28
     :cond_6
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -463,7 +406,6 @@
     :catchall_1
     move-exception p1
 
-    .line 29
     monitor-exit v0
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
@@ -480,35 +422,29 @@
         }
     .end annotation
 
-    .line 1
     :goto_0
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->findConnection(IIIZ)Lcom/squareup/okhttp/internal/io/RealConnection;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionPool:Lcom/squareup/okhttp/ConnectionPool;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget v2, v0, Lcom/squareup/okhttp/internal/io/RealConnection;->streamCount:I
 
     if-nez v2, :cond_0
 
-    .line 4
     monitor-exit v1
 
     return-object v0
 
-    .line 5
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-virtual {v0, p5}, Lcom/squareup/okhttp/internal/io/RealConnection;->isHealthy(Z)Z
 
     move-result v1
@@ -517,7 +453,6 @@
 
     return-object v0
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionFailed()V
 
@@ -526,7 +461,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -538,12 +472,10 @@
 .method private isRecoverable(Lcom/squareup/okhttp/internal/http/RouteException;)Z
     .locals 2
 
-    .line 3
     invoke-virtual {p1}, Lcom/squareup/okhttp/internal/http/RouteException;->getLastConnectException()Ljava/io/IOException;
 
     move-result-object p1
 
-    .line 4
     instance-of v0, p1, Ljava/net/ProtocolException;
 
     const/4 v1, 0x0
@@ -552,24 +484,20 @@
 
     return v1
 
-    .line 5
     :cond_0
     instance-of v0, p1, Ljava/io/InterruptedIOException;
 
     if-eqz v0, :cond_1
 
-    .line 6
     instance-of p1, p1, Ljava/net/SocketTimeoutException;
 
     return p1
 
-    .line 7
     :cond_1
     instance-of v0, p1, Ljavax/net/ssl/SSLHandshakeException;
 
     if-eqz v0, :cond_2
 
-    .line 8
     invoke-virtual {p1}, Ljava/io/IOException;->getCause()Ljava/lang/Throwable;
 
     move-result-object v0
@@ -580,7 +508,6 @@
 
     return v1
 
-    .line 9
     :cond_2
     instance-of p1, p1, Ljavax/net/ssl/SSLPeerUnverifiedException;
 
@@ -597,7 +524,6 @@
 .method private isRecoverable(Ljava/io/IOException;)Z
     .locals 2
 
-    .line 1
     instance-of v0, p1, Ljava/net/ProtocolException;
 
     const/4 v1, 0x0
@@ -606,7 +532,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of p1, p1, Ljava/io/InterruptedIOException;
 
@@ -623,7 +548,6 @@
 .method private release(Lcom/squareup/okhttp/internal/io/RealConnection;)V
     .locals 3
 
-    .line 2
     iget-object v0, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->allocations:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -635,7 +559,6 @@
     :goto_0
     if-ge v1, v0, :cond_1
 
-    .line 3
     iget-object v2, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->allocations:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -644,14 +567,12 @@
 
     check-cast v2, Ljava/lang/ref/Reference;
 
-    .line 4
     invoke-virtual {v2}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     move-result-object v2
 
     if-ne v2, p0, :cond_0
 
-    .line 5
     iget-object p1, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->allocations:Ljava/util/List;
 
     invoke-interface {p1, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
@@ -663,7 +584,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -675,7 +595,6 @@
 .method private routeDatabase()Lcom/squareup/okhttp/internal/RouteDatabase;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/internal/Internal;->instance:Lcom/squareup/okhttp/internal/Internal;
 
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionPool:Lcom/squareup/okhttp/ConnectionPool;
@@ -692,7 +611,6 @@
 .method public acquire(Lcom/squareup/okhttp/internal/io/RealConnection;)V
     .locals 1
 
-    .line 1
     iget-object p1, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->allocations:Ljava/util/List;
 
     new-instance v0, Ljava/lang/ref/WeakReference;
@@ -707,31 +625,25 @@
 .method public cancel()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionPool:Lcom/squareup/okhttp/ConnectionPool;
 
     monitor-enter v0
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     iput-boolean v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->canceled:Z
 
-    .line 3
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->stream:Lcom/squareup/okhttp/internal/http/HttpStream;
 
-    .line 4
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
 
-    .line 5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-interface {v1}, Lcom/squareup/okhttp/internal/http/HttpStream;->cancel()V
 
     goto :goto_0
@@ -739,7 +651,6 @@
     :cond_0
     if-eqz v2, :cond_1
 
-    .line 7
     invoke-virtual {v2}, Lcom/squareup/okhttp/internal/io/RealConnection;->cancel()V
 
     :cond_1
@@ -749,7 +660,6 @@
     :catchall_0
     move-exception v1
 
-    .line 8
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -763,7 +673,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
     :try_end_0
@@ -788,7 +697,6 @@
 
     const/4 v1, 0x0
 
-    .line 10
     invoke-direct {p0, v0, v1, v0}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->deallocate(ZZZ)V
 
     return-void
@@ -803,18 +711,15 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-direct/range {p0 .. p5}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->findHealthyConnection(IIIZZ)Lcom/squareup/okhttp/internal/io/RealConnection;
 
     move-result-object p1
 
-    .line 2
     iget-object p4, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->framedConnection:Lcom/squareup/okhttp/internal/framed/FramedConnection;
 
     if-eqz p4, :cond_0
 
-    .line 3
     new-instance p2, Lcom/squareup/okhttp/internal/http/Http2xStream;
 
     iget-object p3, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->framedConnection:Lcom/squareup/okhttp/internal/framed/FramedConnection;
@@ -823,7 +728,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Lcom/squareup/okhttp/internal/io/RealConnection;->getSocket()Ljava/net/Socket;
 
@@ -831,7 +735,6 @@
 
     invoke-virtual {p4, p2}, Ljava/net/Socket;->setSoTimeout(I)V
 
-    .line 5
     iget-object p4, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->source:Lokio/BufferedSource;
 
     invoke-interface {p4}, Lokio/Source;->timeout()Lokio/Timeout;
@@ -844,7 +747,6 @@
 
     invoke-virtual {p4, v0, v1, p2}, Lokio/Timeout;->timeout(JLjava/util/concurrent/TimeUnit;)Lokio/Timeout;
 
-    .line 6
     iget-object p4, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->sink:Lokio/BufferedSink;
 
     invoke-interface {p4}, Lokio/Sink;->timeout()Lokio/Timeout;
@@ -855,7 +757,6 @@
 
     invoke-virtual {p4, v0, v1, p2}, Lokio/Timeout;->timeout(JLjava/util/concurrent/TimeUnit;)Lokio/Timeout;
 
-    .line 7
     new-instance p2, Lcom/squareup/okhttp/internal/http/Http1xStream;
 
     iget-object p3, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->source:Lokio/BufferedSource;
@@ -864,7 +765,6 @@
 
     invoke-direct {p2, p0, p3, p4}, Lcom/squareup/okhttp/internal/http/Http1xStream;-><init>(Lcom/squareup/okhttp/internal/http/StreamAllocation;Lokio/BufferedSource;Lokio/BufferedSink;)V
 
-    .line 8
     :goto_0
     iget-object p3, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionPool:Lcom/squareup/okhttp/ConnectionPool;
 
@@ -872,7 +772,6 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 9
     :try_start_1
     iget p4, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->streamCount:I
 
@@ -880,10 +779,8 @@
 
     iput p4, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->streamCount:I
 
-    .line 10
     iput-object p2, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->stream:Lcom/squareup/okhttp/internal/http/HttpStream;
 
-    .line 11
     monitor-exit p3
 
     return-object p2
@@ -891,7 +788,6 @@
     :catchall_0
     move-exception p1
 
-    .line 12
     monitor-exit p3
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -904,7 +800,6 @@
     :catch_0
     move-exception p1
 
-    .line 13
     new-instance p2, Lcom/squareup/okhttp/internal/http/RouteException;
 
     invoke-direct {p2, p1}, Lcom/squareup/okhttp/internal/http/RouteException;-><init>(Ljava/io/IOException;)V
@@ -919,7 +814,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, v0, v1, v1}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->deallocate(ZZZ)V
 
     return-void
@@ -928,19 +822,16 @@
 .method public recover(Lcom/squareup/okhttp/internal/http/RouteException;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/squareup/okhttp/internal/http/RouteException;->getLastConnectException()Ljava/io/IOException;
 
     move-result-object v0
 
     invoke-direct {p0, v0}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionFailed(Ljava/io/IOException;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->routeSelector:Lcom/squareup/okhttp/internal/http/RouteSelector;
 
@@ -952,7 +843,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 4
     :cond_1
     invoke-direct {p0, p1}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->isRecoverable(Lcom/squareup/okhttp/internal/http/RouteException;)Z
 
@@ -974,7 +864,6 @@
 .method public recover(Ljava/io/IOException;Lokio/Sink;)Z
     .locals 3
 
-    .line 5
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connection:Lcom/squareup/okhttp/internal/io/RealConnection;
 
     const/4 v1, 0x0
@@ -983,10 +872,8 @@
 
     if-eqz v0, :cond_0
 
-    .line 6
     iget v0, v0, Lcom/squareup/okhttp/internal/io/RealConnection;->streamCount:I
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionFailed(Ljava/io/IOException;)V
 
     if-ne v0, v2, :cond_0
@@ -996,7 +883,6 @@
     :cond_0
     if-eqz p2, :cond_2
 
-    .line 8
     instance-of p2, p2, Lcom/squareup/okhttp/internal/http/RetryableSink;
 
     if-eqz p2, :cond_1
@@ -1012,7 +898,6 @@
     :goto_0
     const/4 p2, 0x1
 
-    .line 9
     :goto_1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->routeSelector:Lcom/squareup/okhttp/internal/http/RouteSelector;
 
@@ -1024,7 +909,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 10
     :cond_3
     invoke-direct {p0, p1}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->isRecoverable(Ljava/io/IOException;)Z
 
@@ -1051,7 +935,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-direct {p0, v0, v1, v0}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->deallocate(ZZZ)V
 
     return-void
@@ -1060,12 +943,10 @@
 .method public stream()Lcom/squareup/okhttp/internal/http/HttpStream;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionPool:Lcom/squareup/okhttp/ConnectionPool;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->stream:Lcom/squareup/okhttp/internal/http/HttpStream;
 
@@ -1076,7 +957,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1087,20 +967,17 @@
 .method public streamFinished(Lcom/squareup/okhttp/internal/http/HttpStream;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->connectionPool:Lcom/squareup/okhttp/ConnectionPool;
 
     monitor-enter v0
 
     if-eqz p1, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->stream:Lcom/squareup/okhttp/internal/http/HttpStream;
 
     if-ne p1, v1, :cond_0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1109,12 +986,10 @@
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-direct {p0, v0, v0, p1}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->deallocate(ZZZ)V
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_1
     new-instance v1, Ljava/lang/IllegalStateException;
@@ -1148,7 +1023,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     monitor-exit v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1159,7 +1033,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/StreamAllocation;->address:Lcom/squareup/okhttp/Address;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;

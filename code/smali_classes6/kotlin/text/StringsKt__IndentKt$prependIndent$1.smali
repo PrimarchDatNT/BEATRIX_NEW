@@ -72,14 +72,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -96,7 +94,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 

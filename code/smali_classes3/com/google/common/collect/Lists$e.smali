@@ -49,13 +49,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/Lists$e;->a:Ljava/util/List;
 
-    .line 3
     iput p2, p0, Lcom/google/common/collect/Lists$e;->b:I
 
     return-void
@@ -73,21 +70,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Lists$e;->size()I
 
     move-result v0
 
     invoke-static {p1, v0}, Lcom/google/common/base/t;->C(II)I
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/Lists$e;->b:I
 
     mul-int p1, p1, v0
 
     add-int/2addr v0, p1
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/Lists$e;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -98,7 +92,6 @@
 
     move-result v0
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/Lists$e;->a:Ljava/util/List;
 
     invoke-interface {v1, p1, v0}, Ljava/util/List;->subList(II)Ljava/util/List;
@@ -111,7 +104,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Lists$e;->b(I)Ljava/util/List;
 
     move-result-object p1
@@ -122,7 +114,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Lists$e;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -135,7 +126,6 @@
 .method public size()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Lists$e;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I

@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -21,7 +20,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     move-result-object v0
@@ -41,7 +39,6 @@
 
     const/4 v5, 0x0
 
-    .line 2
     :goto_0
     invoke-static {}, Lcom/airbnb/lottie/z/h;->e()F
 
@@ -55,12 +52,10 @@
 
     move-object v2, p1
 
-    .line 3
     invoke-static/range {v1 .. v6}, Lcom/airbnb/lottie/y/q;->c(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;FLcom/airbnb/lottie/y/k0;ZZ)Lcom/airbnb/lottie/a0/a;
 
     move-result-object p0
 
-    .line 4
     new-instance v0, Lcom/airbnb/lottie/w/c/h;
 
     invoke-direct {v0, p1, p0}, Lcom/airbnb/lottie/w/c/h;-><init>(Lcom/airbnb/lottie/g;Lcom/airbnb/lottie/a0/a;)V

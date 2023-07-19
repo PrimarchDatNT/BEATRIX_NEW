@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/NativeAd;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/NativeAd$1;->this$0:Lcom/mopub/nativeads/NativeAd;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onAdClicked()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAd$1;->this$0:Lcom/mopub/nativeads/NativeAd;
 
     const/4 v1, 0x0
@@ -51,7 +49,6 @@
 .method public onAdImpressed()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAd$1;->this$0:Lcom/mopub/nativeads/NativeAd;
 
     const/4 v1, 0x0

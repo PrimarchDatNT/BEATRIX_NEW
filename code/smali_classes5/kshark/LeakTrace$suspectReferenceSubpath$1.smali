@@ -51,7 +51,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -82,7 +81,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object p2, p0, Lkshark/LeakTrace$suspectReferenceSubpath$1;->this$0:Lkshark/LeakTrace;
 
     invoke-virtual {p2, p1}, Lkshark/LeakTrace;->referencePathElementIsSuspect(I)Z

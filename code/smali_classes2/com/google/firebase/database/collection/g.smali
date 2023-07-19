@@ -34,12 +34,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/firebase/database/collection/j;-><init>(Ljava/lang/Object;Ljava/lang/Object;Lcom/google/firebase/database/collection/LLRBNode;Lcom/google/firebase/database/collection/LLRBNode;)V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/google/firebase/database/collection/g;->e:I
 
     return-void
@@ -71,7 +69,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/j;->getKey()Ljava/lang/Object;
 
     move-result-object p1
@@ -79,7 +76,6 @@
     :cond_0
     if-nez p2, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/j;->getValue()Ljava/lang/Object;
 
     move-result-object p2
@@ -87,7 +83,6 @@
     :cond_1
     if-nez p3, :cond_2
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/j;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p3
@@ -95,12 +90,10 @@
     :cond_2
     if-nez p4, :cond_3
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/j;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p4
 
-    .line 5
     :cond_3
     new-instance v0, Lcom/google/firebase/database/collection/g;
 
@@ -112,7 +105,6 @@
 .method protected n()Lcom/google/firebase/database/collection/LLRBNode$Color;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/database/collection/LLRBNode$Color;->BLACK:Lcom/google/firebase/database/collection/LLRBNode$Color;
 
     return-object v0
@@ -121,14 +113,12 @@
 .method public size()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/database/collection/g;->e:I
 
     const/4 v1, -0x1
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/j;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object v0
@@ -151,7 +141,6 @@
 
     iput v0, p0, Lcom/google/firebase/database/collection/g;->e:I
 
-    .line 3
     :cond_0
     iget v0, p0, Lcom/google/firebase/database/collection/g;->e:I
 
@@ -168,19 +157,16 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/database/collection/g;->e:I
 
     const/4 v1, -0x1
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-super {p0, p1}, Lcom/google/firebase/database/collection/j;->u(Lcom/google/firebase/database/collection/LLRBNode;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 

@@ -27,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/formula/convert/b$a;
 
     invoke-direct {v1}, Lcom/commsource/studio/formula/convert/b$a;-><init>()V
@@ -42,7 +41,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -67,7 +65,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->f()Lcom/commsource/studio/formula/convert/Formula;
 
     move-result-object p1
@@ -98,7 +95,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -116,7 +112,6 @@
 
     goto :goto_2
 
-    .line 3
     :cond_3
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -136,7 +131,6 @@
 
     goto :goto_3
 
-    .line 4
     :cond_5
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -156,7 +150,6 @@
 
     goto :goto_4
 
-    .line 5
     :cond_7
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -176,7 +169,6 @@
 
     goto :goto_5
 
-    .line 6
     :cond_9
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -196,7 +188,6 @@
 
     goto :goto_6
 
-    .line 7
     :cond_b
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -216,7 +207,6 @@
 
     goto :goto_7
 
-    .line 8
     :cond_d
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -236,7 +226,6 @@
 
     goto :goto_8
 
-    .line 9
     :cond_f
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -250,12 +239,10 @@
 
     goto :goto_9
 
-    .line 10
     :cond_10
     :goto_8
     sget-object p1, Lcom/commsource/easyeditor/entity/CropEnum;->Origin:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 11
     :goto_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

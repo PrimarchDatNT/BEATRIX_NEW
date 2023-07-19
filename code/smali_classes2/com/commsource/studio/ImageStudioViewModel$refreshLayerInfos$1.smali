@@ -66,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -83,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->C0()Lcom/commsource/studio/bean/a;
@@ -94,7 +92,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/a;->V(Ljava/util/List;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->C0()Lcom/commsource/studio/bean/a;
@@ -113,7 +110,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -132,7 +128,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v3}, Lcom/commsource/studio/ImageStudioViewModel;->t0()Lcom/commsource/editengine/d;
@@ -167,14 +162,12 @@
 
     if-eqz v3, :cond_0
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v3}, Lcom/commsource/studio/ImageStudioViewModel;->t0()Lcom/commsource/editengine/d;
 
     move-result-object v3
 
-    .line 7
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v4
@@ -185,7 +178,6 @@
 
     move-result-object v4
 
-    .line 8
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -213,12 +205,10 @@
 
     invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v3, v4, v2}, Lcom/commsource/editengine/d;->g(Ljava/lang/String;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
     goto :goto_0
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -232,14 +222,12 @@
 
     if-nez v1, :cond_3
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->c0()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object v1
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->C0()Lcom/commsource/studio/bean/a;
@@ -266,10 +254,8 @@
 
     div-float/2addr v2, v3
 
-    .line 13
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/background/BackgroundViewModel;->d0(F)V
 
-    .line 14
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -277,7 +263,6 @@
 
     move-result-object v1
 
-    .line 15
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->C0()Lcom/commsource/studio/bean/a;
@@ -288,7 +273,6 @@
 
     move-result v2
 
-    .line 16
     iget-object v3, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v3}, Lcom/commsource/studio/ImageStudioViewModel;->C0()Lcom/commsource/studio/bean/a;
@@ -299,10 +283,8 @@
 
     move-result v3
 
-    .line 17
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/StudioCanvasContainer;->z(II)V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->g0()Lcom/commsource/studio/StudioCanvasContainer;
@@ -323,7 +305,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 19
     iget-object v9, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     const/4 v10, 0x0
@@ -338,7 +319,6 @@
 
     invoke-static/range {v9 .. v14}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->C0()Lcom/commsource/studio/bean/a;
@@ -349,7 +329,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/a;->Y(Ljava/lang/String;)V
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->D0()Landroidx/lifecycle/MutableLiveData;
@@ -364,12 +343,10 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->Q()V
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->$refreshedCallback:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_4
@@ -380,7 +357,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 24
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

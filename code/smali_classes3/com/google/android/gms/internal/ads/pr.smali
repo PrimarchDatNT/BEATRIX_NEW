@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/jr;-><init>()V
 
     return-void
@@ -20,14 +19,12 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget v0, v0, Landroid/content/pm/ApplicationInfo;->targetSdkVersion:I
 
     const/16 v1, 0xb
@@ -52,21 +49,17 @@
 
     return-object v0
 
-    .line 3
     :cond_2
     new-instance v0, Lcom/google/android/gms/internal/ads/bs;
 
-    .line 4
     invoke-interface/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/yr;->c()Lcom/google/android/gms/internal/ads/zzbbd;
 
     move-result-object v3
 
-    .line 5
     invoke-interface/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/yr;->getRequestId()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 6
     invoke-interface/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/yr;->y0()Lcom/google/android/gms/internal/ads/h0;
 
     move-result-object v6
@@ -85,10 +78,8 @@
 
     if-ne v2, v1, :cond_3
 
-    .line 7
     new-instance v8, Lcom/google/android/gms/internal/ads/zzbdi;
 
-    .line 8
     invoke-static/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/jr;->b(Lcom/google/android/gms/internal/ads/yr;)Z
 
     move-result v6
@@ -109,28 +100,23 @@
 
     return-object v8
 
-    .line 9
     :cond_3
     new-instance v0, Lcom/google/android/gms/internal/ads/zzbbz;
 
-    .line 10
     invoke-static/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/jr;->b(Lcom/google/android/gms/internal/ads/yr;)Z
 
     move-result v12
 
     new-instance v14, Lcom/google/android/gms/internal/ads/bs;
 
-    .line 11
     invoke-interface/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/yr;->c()Lcom/google/android/gms/internal/ads/zzbbd;
 
     move-result-object v3
 
-    .line 12
     invoke-interface/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/yr;->getRequestId()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 13
     invoke-interface/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/yr;->y0()Lcom/google/android/gms/internal/ads/h0;
 
     move-result-object v6

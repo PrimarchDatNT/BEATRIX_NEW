@@ -33,7 +33,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,7 +41,6 @@
 .method public static a()Landroid/app/Application;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->b()Lcom/kwai/koom/javaoom/common/d;
 
     move-result-object v0
@@ -55,7 +53,6 @@
 .method private static b()Lcom/kwai/koom/javaoom/common/d;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/kwai/koom/javaoom/common/d;->e:Lcom/kwai/koom/javaoom/common/d;
 
     if-nez v0, :cond_0
@@ -73,7 +70,6 @@
 .method public static c()Lcom/kwai/koom/javaoom/monitor/d;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->b()Lcom/kwai/koom/javaoom/common/d;
 
     move-result-object v0
@@ -90,14 +86,12 @@
 .method public static d()Ljava/lang/String;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/kwai/koom/javaoom/common/d;->k:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -129,7 +123,6 @@
 .method public static e()Lcom/kwai/koom/javaoom/common/b;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->b()Lcom/kwai/koom/javaoom/common/d;
 
     move-result-object v0
@@ -142,14 +135,12 @@
 .method public static f()Ljava/lang/String;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/kwai/koom/javaoom/common/d;->j:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -181,14 +172,12 @@
 .method public static g()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/kwai/koom/javaoom/common/d;->i:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->b()Lcom/kwai/koom/javaoom/common/d;
 
@@ -208,7 +197,6 @@
 .method public static h()Lcom/kwai/koom/javaoom/common/j;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->b()Lcom/kwai/koom/javaoom/common/d;
 
     move-result-object v0
@@ -221,7 +209,6 @@
 .method public static i()Lcom/kwai/koom/javaoom/common/f;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->b()Lcom/kwai/koom/javaoom/common/d;
 
     move-result-object v0
@@ -230,7 +217,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->b()Lcom/kwai/koom/javaoom/common/d;
 
     move-result-object v0
@@ -250,7 +236,6 @@
 .method public static j(Landroid/app/Application;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->b()Lcom/kwai/koom/javaoom/common/d;
 
     move-result-object v0
@@ -263,7 +248,6 @@
 .method public static l(Lcom/kwai/koom/javaoom/common/b;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->b()Lcom/kwai/koom/javaoom/common/d;
 
     move-result-object v0
@@ -276,7 +260,6 @@
 .method public static n(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->b()Lcom/kwai/koom/javaoom/common/d;
 
     move-result-object v0
@@ -291,7 +274,6 @@
 .method public static o(Lcom/kwai/koom/javaoom/common/f;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->b()Lcom/kwai/koom/javaoom/common/d;
 
     move-result-object v0
@@ -306,10 +288,8 @@
 .method public k(Landroid/app/Application;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/kwai/koom/javaoom/common/d;->a:Landroid/app/Application;
 
-    .line 2
     new-instance v0, Lcom/kwai/koom/javaoom/report/a;
 
     invoke-direct {v0, p1}, Lcom/kwai/koom/javaoom/report/a;-><init>(Landroid/app/Application;)V
@@ -322,7 +302,6 @@
 .method public m(Lcom/kwai/koom/javaoom/common/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/kwai/koom/javaoom/common/d;->b:Lcom/kwai/koom/javaoom/common/b;
 
     return-void

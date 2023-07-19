@@ -23,13 +23,10 @@
 
     const-string v1, "MediaRecordCore"
 
-    .line 1
     sput-object v1, Lcom/meitu/media/utils/AudioTempoUtils;->c:Ljava/lang/String;
 
-    .line 2
     invoke-static {}, Lf/k/r/a;->a()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -38,7 +35,6 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 4
     invoke-static {}, Lcom/meitu/media/utils/MediaRecorderModuleJNI;->new_AudioTempoUtils()J
 
     move-result-wide v0
@@ -53,13 +49,10 @@
 .method protected constructor <init>(JZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p3, p0, Lcom/meitu/media/utils/AudioTempoUtils;->b:Z
 
-    .line 3
     iput-wide p1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     return-void
@@ -78,7 +71,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
@@ -100,7 +92,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     const-wide/16 v3, 0x0
@@ -109,24 +100,19 @@
 
     if-eqz v5, :cond_1
 
-    .line 2
     iget-boolean v5, p0, Lcom/meitu/media/utils/AudioTempoUtils;->b:Z
 
     if-eqz v5, :cond_0
 
     const/4 v5, 0x0
 
-    .line 3
     iput-boolean v5, p0, Lcom/meitu/media/utils/AudioTempoUtils;->b:Z
 
-    .line 4
     invoke-static {v1, v2}, Lcom/meitu/media/utils/MediaRecorderModuleJNI;->delete_AudioTempoUtils(J)V
 
-    .line 5
     :cond_0
     iput-wide v3, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -151,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/utils/MediaRecorderModuleJNI;->AudioTempoUtils_flush(JLcom/meitu/media/utils/AudioTempoUtils;)[B
@@ -170,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/utils/MediaRecorderModuleJNI;->AudioTempoUtils_init(JLcom/meitu/media/utils/AudioTempoUtils;)I
@@ -189,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/utils/MediaRecorderModuleJNI;->AudioTempoUtils_release(JLcom/meitu/media/utils/AudioTempoUtils;)I
@@ -208,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     invoke-static {v1, v2, p0, p1, p2}, Lcom/meitu/media/utils/MediaRecorderModuleJNI;->AudioTempoUtils_setDropFrame(JLcom/meitu/media/utils/AudioTempoUtils;[FI)I
@@ -227,10 +209,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/utils/AudioTempoUtils;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -243,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     move-object v3, p0
@@ -270,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/utils/MediaRecorderModuleJNI;->AudioTempoUtils_setLogLevel(JLcom/meitu/media/utils/AudioTempoUtils;I)I
@@ -289,7 +267,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     move-object v3, p0
@@ -320,7 +297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     invoke-static {v1, v2, p0, p1, p2}, Lcom/meitu/media/utils/MediaRecorderModuleJNI;->AudioTempoUtils_setOutDataLimitDuration(JLcom/meitu/media/utils/AudioTempoUtils;J)I
@@ -339,7 +315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/media/utils/AudioTempoUtils;->c:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -358,7 +333,6 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/utils/MediaRecorderModuleJNI;->AudioTempoUtils_setRecordPitch(JLcom/meitu/media/utils/AudioTempoUtils;F)I
@@ -377,7 +351,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/media/utils/AudioTempoUtils;->c:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -396,7 +369,6 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/utils/MediaRecorderModuleJNI;->AudioTempoUtils_setRecordRate(JLcom/meitu/media/utils/AudioTempoUtils;F)I
@@ -415,7 +387,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/utils/AudioTempoUtils;->a:J
 
     invoke-static {v1, v2, p0, p1, p2}, Lcom/meitu/media/utils/MediaRecorderModuleJNI;->AudioTempoUtils_transfer(JLcom/meitu/media/utils/AudioTempoUtils;[BI)[B

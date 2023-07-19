@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/g$b$b;->a:Lcom/commsource/camera/f1/g$b;
 
     iget-object v1, v1, Lcom/commsource/camera/f1/g$b;->c:Lcom/commsource/widget/s0;
@@ -57,14 +56,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/f1/g$b$b;->a:Lcom/commsource/camera/f1/g$b;
 
     iget-object v1, v1, Lcom/commsource/camera/f1/g$b;->c:Lcom/commsource/widget/s0;
 
     invoke-virtual {v1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/f1/g$b$b;->b:Lcom/meitu/template/bean/ArMaterial;
 
@@ -72,10 +69,8 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->t_not_support_material_tip:I
 
-    .line 4
     invoke-static {v1}, Lf/k/c/c/f;->h(I)V
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/f1/g$b$b;->a:Lcom/commsource/camera/f1/g$b;
 
@@ -83,7 +78,6 @@
 
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

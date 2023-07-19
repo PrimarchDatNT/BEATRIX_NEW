@@ -42,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -71,10 +70,8 @@
 
     invoke-direct {p0, p1, v0, v2, v1}, Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
 
-    .line 2
     iput-object p1, p0, Lcom/tencent/bugly/proguard/q;->c:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/tencent/bugly/proguard/q;->d:Ljava/util/List;
 
     return-void
@@ -96,7 +93,6 @@
 
     const-string v4, "t_pf"
 
-    .line 1
     filled-new-array {v2, v3, v4}, [Ljava/lang/String;
 
     move-result-object v2
@@ -106,10 +102,8 @@
     :goto_0
     if-ge v3, v0, :cond_0
 
-    .line 2
     aget-object v4, v2, v3
 
-    .line 3
     new-instance v5, Ljava/lang/StringBuilder;
 
     const-string v6, "DROP TABLE IF EXISTS "
@@ -132,7 +126,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     monitor-exit p0
 
@@ -143,7 +136,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     invoke-static {p1}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/Throwable;)Z
 
@@ -151,12 +143,10 @@
 
     if-nez v0, :cond_1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 7
     :cond_1
     monitor-exit p0
 
@@ -192,7 +182,6 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Landroid/database/sqlite/SQLiteOpenHelper;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
@@ -210,7 +199,6 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v6
@@ -225,7 +213,6 @@
 
     new-array v4, v0, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {v3, v4}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -233,7 +220,6 @@
     :cond_0
     const-wide/16 v3, 0xc8
 
-    .line 4
     :try_start_2
     invoke-static {v3, v4}, Ljava/lang/Thread;->sleep(J)V
     :try_end_2
@@ -245,7 +231,6 @@
     :catch_0
     move-exception v3
 
-    .line 5
     :try_start_3
     invoke-virtual {v3}, Ljava/lang/InterruptedException;->printStackTrace()V
     :try_end_3
@@ -260,7 +245,6 @@
 
     throw v0
 
-    .line 6
     :cond_1
     monitor-exit p0
 
@@ -287,7 +271,6 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
@@ -305,7 +288,6 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v6
@@ -320,7 +302,6 @@
 
     new-array v4, v0, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {v3, v4}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -328,7 +309,6 @@
     :cond_0
     const-wide/16 v3, 0xc8
 
-    .line 4
     :try_start_2
     invoke-static {v3, v4}, Ljava/lang/Thread;->sleep(J)V
     :try_end_2
@@ -340,7 +320,6 @@
     :catch_0
     move-exception v3
 
-    .line 5
     :try_start_3
     invoke-virtual {v3}, Ljava/lang/InterruptedException;->printStackTrace()V
 
@@ -353,7 +332,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 6
     invoke-static {v2, v0}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
@@ -367,7 +345,6 @@
 
     throw v0
 
-    .line 7
     :cond_2
     :goto_1
     monitor-exit p0
@@ -380,7 +357,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -388,12 +364,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->setLength(I)V
 
     const-string v2, " CREATE TABLE IF NOT EXISTS t_ui"
 
-    .line 3
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, " ( _id"
@@ -448,7 +422,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -457,7 +430,6 @@
 
     invoke-static {v2, v3}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -466,12 +438,10 @@
 
     invoke-virtual {p1, v2, v3}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->setLength(I)V
 
     const-string v2, " CREATE TABLE IF NOT EXISTS t_lr"
 
-    .line 7
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, " ( _id"
@@ -526,7 +496,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -535,7 +504,6 @@
 
     invoke-static {v2, v3}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 9
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -544,12 +512,10 @@
 
     invoke-virtual {p1, v2, v3}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 10
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->setLength(I)V
 
     const-string v2, " CREATE TABLE IF NOT EXISTS t_pf"
 
-    .line 11
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, " ( _id"
@@ -596,7 +562,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -605,7 +570,6 @@
 
     invoke-static {v2, v3}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 13
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -614,12 +578,10 @@
 
     invoke-virtual {p1, v2, v3}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 14
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->setLength(I)V
 
     const-string v2, " CREATE TABLE IF NOT EXISTS t_cr"
 
-    .line 15
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, " ( _id"
@@ -682,7 +644,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -691,7 +652,6 @@
 
     invoke-static {v2, v3}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 17
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -700,12 +660,10 @@
 
     invoke-virtual {p1, v2, v3}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 18
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->setLength(I)V
 
     const-string v2, " CREATE TABLE IF NOT EXISTS dl_1002"
 
-    .line 19
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, " (_id"
@@ -740,7 +698,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 20
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -749,7 +706,6 @@
 
     invoke-static {v2, v3}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 21
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -758,12 +714,10 @@
 
     invoke-virtual {p1, v2, v3}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 22
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->setLength(I)V
 
     const-string v2, "CREATE TABLE IF NOT EXISTS ge_1002"
 
-    .line 23
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, " (_id"
@@ -782,7 +736,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 24
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -791,7 +744,6 @@
 
     invoke-static {v2, v3}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 25
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -800,12 +752,10 @@
 
     invoke-virtual {p1, v2, v3}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 26
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->setLength(I)V
 
     const-string v2, " CREATE TABLE IF NOT EXISTS st_1002"
 
-    .line 27
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, " ( _id"
@@ -852,7 +802,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 28
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -861,7 +810,6 @@
 
     invoke-static {v2, v3}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 29
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -877,7 +825,6 @@
     :catchall_0
     move-exception v0
 
-    .line 30
     :try_start_1
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/Throwable;)Z
 
@@ -885,10 +832,8 @@
 
     if-nez v1, :cond_0
 
-    .line 31
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 32
     :cond_0
     :goto_0
     iget-object v0, p0, Lcom/tencent/bugly/proguard/q;->d:Ljava/util/List;
@@ -897,12 +842,10 @@
 
     if-nez v0, :cond_1
 
-    .line 33
     monitor-exit p0
 
     return-void
 
-    .line 34
     :cond_1
     :try_start_2
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -925,7 +868,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
-    .line 35
     :try_start_3
     invoke-virtual {v1, p1}, Lcom/tencent/bugly/a;->onDbCreate(Landroid/database/sqlite/SQLiteDatabase;)V
     :try_end_3
@@ -936,7 +878,6 @@
     :catchall_1
     move-exception v1
 
-    .line 36
     :try_start_4
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/Throwable;)Z
 
@@ -944,14 +885,12 @@
 
     if-nez v2, :cond_2
 
-    .line 37
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_2
 
     goto :goto_1
 
-    .line 38
     :cond_3
     monitor-exit p0
 
@@ -973,7 +912,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/info/b;->c()I
 
@@ -989,7 +927,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -1008,12 +945,10 @@
 
     invoke-static {v0, v1}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 3
     iget-object v0, p0, Lcom/tencent/bugly/proguard/q;->d:Ljava/util/List;
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -1034,7 +969,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     :try_start_1
     invoke-virtual {v1, p1, p2, p3}, Lcom/tencent/bugly/a;->onDbDowngrade(Landroid/database/sqlite/SQLiteDatabase;II)V
     :try_end_1
@@ -1045,7 +979,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     :try_start_2
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/Throwable;)Z
 
@@ -1053,12 +986,10 @@
 
     if-nez v2, :cond_0
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-direct {p0, p1}, Lcom/tencent/bugly/proguard/q;->a(Landroid/database/sqlite/SQLiteDatabase;)Z
 
@@ -1066,7 +997,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 9
     invoke-virtual {p0, p1}, Lcom/tencent/bugly/proguard/q;->onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -1081,10 +1011,8 @@
 
     new-array p2, v3, [Ljava/lang/Object;
 
-    .line 10
     invoke-static {p1, p2}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 11
     iget-object p1, p0, Lcom/tencent/bugly/proguard/q;->c:Landroid/content/Context;
 
     sget-object p2, Lcom/tencent/bugly/proguard/q;->a:Ljava/lang/String;
@@ -1095,19 +1023,16 @@
 
     if-eqz p1, :cond_3
 
-    .line 12
     invoke-virtual {p1}, Ljava/io/File;->canWrite()Z
 
     move-result p2
 
     if-eqz p2, :cond_3
 
-    .line 13
     invoke-virtual {p1}, Ljava/io/File;->delete()Z
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 14
     :cond_3
     monitor-exit p0
 
@@ -1133,7 +1058,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 1
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -1152,12 +1076,10 @@
 
     invoke-static {v0, v1}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/tencent/bugly/proguard/q;->d:Ljava/util/List;
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -1178,7 +1100,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 4
     :try_start_1
     invoke-virtual {v1, p1, p2, p3}, Lcom/tencent/bugly/a;->onDbUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V
     :try_end_1
@@ -1189,7 +1110,6 @@
     :catchall_0
     move-exception v1
 
-    .line 5
     :try_start_2
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/Throwable;)Z
 
@@ -1197,12 +1117,10 @@
 
     if-nez v2, :cond_0
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-direct {p0, p1}, Lcom/tencent/bugly/proguard/q;->a(Landroid/database/sqlite/SQLiteDatabase;)Z
 
@@ -1210,7 +1128,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 8
     invoke-virtual {p0, p1}, Lcom/tencent/bugly/proguard/q;->onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -1225,10 +1142,8 @@
 
     new-array p2, v3, [Ljava/lang/Object;
 
-    .line 9
     invoke-static {p1, p2}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 10
     iget-object p1, p0, Lcom/tencent/bugly/proguard/q;->c:Landroid/content/Context;
 
     sget-object p2, Lcom/tencent/bugly/proguard/q;->a:Ljava/lang/String;
@@ -1239,19 +1154,16 @@
 
     if-eqz p1, :cond_3
 
-    .line 11
     invoke-virtual {p1}, Ljava/io/File;->canWrite()Z
 
     move-result p2
 
     if-eqz p2, :cond_3
 
-    .line 12
     invoke-virtual {p1}, Ljava/io/File;->delete()Z
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 13
     :cond_3
     monitor-exit p0
 

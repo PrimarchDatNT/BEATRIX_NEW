@@ -33,7 +33,6 @@
 
     const-string v1, "AIzaSyDRKQ9d6kfsoZT2lUnZcZnBYvH69HExNPE"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/y0;->e(Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -44,7 +43,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/y0;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0

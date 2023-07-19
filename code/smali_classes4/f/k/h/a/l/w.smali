@@ -15,7 +15,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lf/k/h/a/l/w;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -32,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/h/a/l/w;->g(Ljava/util/List;Ljava/util/List;)Ljava/util/List;
 
     move-result-object p0
@@ -62,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/k/h/a/l/w;->j(Lcom/meitu/global/billing/purchase/data/MTGPurchase;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -89,10 +85,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -106,21 +100,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
     move-result-object v1
 
     invoke-interface {v1}, Lf/k/h/a/l/o;->clear()V
 
-    .line 2
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
     move-result-object v1
 
     invoke-interface {v1}, Lf/k/h/a/l/o;->e()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -141,21 +132,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/l/w;->a:Ljava/lang/String;
 
     const-string v2, "filterOrderCache"
 
     invoke-static {v1, v2}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
     move-result-object v1
 
     invoke-interface {v1, p0}, Lf/k/h/a/l/o;->p(Ljava/util/List;)V
 
-    .line 3
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
     move-result-object v1
@@ -166,24 +154,20 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1, p0}, Ljava/util/List;->removeAll(Ljava/util/Collection;)Z
 
-    .line 5
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result p0
 
     if-lez p0, :cond_0
 
-    .line 6
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
     move-result-object p0
 
     invoke-interface {p0, v1}, Lf/k/h/a/l/o;->g(Ljava/util/List;)Z
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -208,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -226,7 +209,6 @@
 
     check-cast v1, Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/global/billing/net/data/PurchaseInfo;->getProductId()Ljava/lang/String;
 
     move-result-object v2
@@ -241,7 +223,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     sget-object p0, Lf/k/h/a/l/w;->a:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -264,7 +245,6 @@
 
     invoke-static {p0, v2}, Lf/k/h/a/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1, p1}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->reBuild(Lcom/meitu/global/billing/net/data/PurchaseInfo;)Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
     move-result-object p0
@@ -276,7 +256,6 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -303,15 +282,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/h/a/l/w;->h(Ljava/util/List;Ljava/util/List;)V
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -329,7 +305,6 @@
 
     check-cast v2, Lcom/meitu/global/billing/net/data/PurchaseInfo;
 
-    .line 4
     invoke-virtual {v2}, Lcom/meitu/global/billing/net/data/PurchaseInfo;->getPaymentStatus()I
 
     move-result v3
@@ -338,17 +313,14 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 5
     invoke-static {p1, v2}, Lf/k/h/a/l/w;->f(Ljava/util/List;Lcom/meitu/global/billing/net/data/PurchaseInfo;)Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
     move-result-object v2
 
-    .line 6
     invoke-static {v1, v2}, Lf/k/h/a/l/w;->c(Ljava/util/List;Lcom/meitu/global/billing/purchase/data/MTGPurchase;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     sget-object v3, Lf/k/h/a/l/w;->a:Ljava/lang/String;
 
@@ -384,7 +356,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -409,12 +380,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -432,17 +401,14 @@
 
     check-cast v2, Lcom/meitu/global/billing/net/data/PurchaseInfo;
 
-    .line 3
     invoke-static {p1, v2}, Lf/k/h/a/l/w;->f(Ljava/util/List;Lcom/meitu/global/billing/net/data/PurchaseInfo;)Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
     move-result-object v2
 
-    .line 4
     invoke-static {v1, v2}, Lf/k/h/a/l/w;->c(Ljava/util/List;Lcom/meitu/global/billing/purchase/data/MTGPurchase;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -450,14 +416,12 @@
 
     if-lez p0, :cond_1
 
-    .line 6
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
     move-result-object p0
 
     invoke-interface {p0, v1}, Lf/k/h/a/l/o;->d(Ljava/util/List;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -471,12 +435,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/k/h/a/m/g;->a(Lcom/meitu/global/billing/purchase/data/MTGPurchase;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/global/billing/product/data/Product;->e()J
 
     move-result-wide v2
@@ -491,7 +453,6 @@
 
     invoke-static {v1, v2, v3, p1, v4}, Lf/k/h/a/m/g;->d(Ljava/lang/String;JLjava/lang/String;Lcom/meitu/global/billing/net/http/b;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -504,7 +465,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
     move-result-object v1
@@ -515,14 +475,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
     move-result-object p0
 
     invoke-interface {p0}, Lf/k/h/a/l/o;->e()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -547,24 +505,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/l/w;->a:Ljava/lang/String;
 
     const-string v2, "verifyFromCache"
 
     invoke-static {v1, v2}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 4
     :cond_0
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -573,14 +527,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
-    .line 6
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
     move-result-object v3
@@ -599,20 +551,16 @@
 
     if-eqz v3, :cond_0
 
-    .line 7
     invoke-virtual {v2}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->isAutoRenewing()Z
 
     move-result v2
 
     invoke-virtual {v3, v2}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->setAutoRenewing(Z)V
 
-    .line 8
     invoke-interface {v1, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 9
     invoke-interface {p0}, Ljava/util/Iterator;->remove()V
 
-    .line 10
     sget-object v2, Lf/k/h/a/l/w;->a:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -637,11 +585,9 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     invoke-static {v1}, Lf/k/h/a/l/w;->e(Ljava/util/List;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -654,14 +600,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/h/a/l/w$b;
 
     invoke-direct {v1, p1}, Lf/k/h/a/l/w$b;-><init>(Lf/k/h/a/l/y/f;)V
 
     invoke-static {p0, v1}, Lf/k/h/a/m/g;->e(Ljava/lang/String;Lcom/meitu/global/billing/net/http/b;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -686,7 +630,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -695,7 +638,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
@@ -705,40 +647,33 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 3
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 4
     invoke-interface {p1, v1}, Lf/k/h/a/l/y/i;->e(Ljava/util/List;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-static {p0}, Lf/k/h/a/m/g;->b(Ljava/util/List;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 7
     new-instance v3, Lf/k/h/a/l/w$a;
 
     invoke-direct {v3, p0, v1, p1}, Lf/k/h/a/l/w$a;-><init>(Ljava/util/List;Ljava/util/List;Lf/k/h/a/l/y/i;)V
 
     invoke-static {v2, v3}, Lf/k/h/a/l/w;->l(Ljava/lang/String;Lf/k/h/a/l/y/f;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_2
     :goto_0
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
@@ -747,14 +682,12 @@
 
     invoke-interface {p0}, Lf/k/h/a/l/o;->clear()V
 
-    .line 10
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
     move-result-object p0
 
     invoke-interface {p0}, Lf/k/h/a/l/o;->e()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -777,19 +710,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/l/w;->a:Ljava/lang/String;
 
     const-string v2, "verifyRestorePurchase"
 
     invoke-static {v1, v2}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p0}, Lf/k/h/a/m/g;->b(Ljava/util/List;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -810,7 +740,6 @@
 
     invoke-static {v1, v3}, Lf/k/h/a/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -835,14 +764,12 @@
 
     invoke-static {v1, v3}, Lf/k/h/a/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     new-instance v1, Lf/k/h/a/l/w$d;
 
     invoke-direct {v1, p0, p1}, Lf/k/h/a/l/w$d;-><init>(Ljava/util/List;Lf/k/h/a/l/y/i;)V
 
     invoke-static {v2, v1}, Lf/k/h/a/l/w;->l(Ljava/lang/String;Lf/k/h/a/l/y/f;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

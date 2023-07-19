@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/mopub/mraid/MraidController;Landroid/view/View;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
     iput-object p2, p0, Lcom/mopub/mraid/MraidController$7;->val$currentWebView:Landroid/view/View;
@@ -46,7 +45,6 @@
 .method public run()V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v0}, Lcom/mopub/mraid/MraidController;->access$1600(Lcom/mopub/mraid/MraidController;)Landroid/content/Context;
@@ -61,7 +59,6 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v1}, Lcom/mopub/mraid/MraidController;->access$1700(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mraid/MraidScreenMetrics;
@@ -78,17 +75,14 @@
 
     new-array v0, v0, [I
 
-    .line 3
     iget-object v1, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v1}, Lcom/mopub/mraid/MraidController;->access$1800(Lcom/mopub/mraid/MraidController;)Landroid/view/ViewGroup;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1, v0}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 5
     iget-object v2, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v2}, Lcom/mopub/mraid/MraidController;->access$1700(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mraid/MraidScreenMetrics;
@@ -103,20 +97,16 @@
 
     aget v6, v0, v5
 
-    .line 6
     invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
     move-result v7
 
-    .line 7
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
 
     move-result v1
 
-    .line 8
     invoke-virtual {v2, v4, v6, v7, v1}, Lcom/mopub/mraid/MraidScreenMetrics;->setRootViewPosition(IIII)V
 
-    .line 9
     iget-object v1, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v1}, Lcom/mopub/mraid/MraidController;->access$1900(Lcom/mopub/mraid/MraidController;)Landroid/view/ViewGroup;
@@ -125,7 +115,6 @@
 
     invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->getLocationOnScreen([I)V
 
-    .line 10
     iget-object v1, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v1}, Lcom/mopub/mraid/MraidController;->access$1700(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mraid/MraidScreenMetrics;
@@ -138,7 +127,6 @@
 
     iget-object v6, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
-    .line 11
     invoke-static {v6}, Lcom/mopub/mraid/MraidController;->access$2000(Lcom/mopub/mraid/MraidController;)Landroid/view/ViewGroup;
 
     move-result-object v6
@@ -149,7 +137,6 @@
 
     iget-object v7, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
-    .line 12
     invoke-static {v7}, Lcom/mopub/mraid/MraidController;->access$2100(Lcom/mopub/mraid/MraidController;)Landroid/view/ViewGroup;
 
     move-result-object v7
@@ -158,15 +145,12 @@
 
     move-result v7
 
-    .line 13
     invoke-virtual {v1, v2, v4, v6, v7}, Lcom/mopub/mraid/MraidScreenMetrics;->setDefaultAdPosition(IIII)V
 
-    .line 14
     iget-object v1, p0, Lcom/mopub/mraid/MraidController$7;->val$currentWebView:Landroid/view/View;
 
     invoke-virtual {v1, v0}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 15
     iget-object v1, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v1}, Lcom/mopub/mraid/MraidController;->access$1700(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mraid/MraidScreenMetrics;
@@ -179,22 +163,18 @@
 
     iget-object v3, p0, Lcom/mopub/mraid/MraidController$7;->val$currentWebView:Landroid/view/View;
 
-    .line 16
     invoke-virtual {v3}, Landroid/view/View;->getWidth()I
 
     move-result v3
 
     iget-object v4, p0, Lcom/mopub/mraid/MraidController$7;->val$currentWebView:Landroid/view/View;
 
-    .line 17
     invoke-virtual {v4}, Landroid/view/View;->getHeight()I
 
     move-result v4
 
-    .line 18
     invoke-virtual {v1, v2, v0, v3, v4}, Lcom/mopub/mraid/MraidScreenMetrics;->setCurrentAdPosition(IIII)V
 
-    .line 19
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v0}, Lcom/mopub/mraid/MraidController;->access$800(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mraid/MraidBridge;
@@ -209,7 +189,6 @@
 
     invoke-virtual {v0, v1}, Lcom/mopub/mraid/MraidBridge;->notifyScreenMetrics(Lcom/mopub/mraid/MraidScreenMetrics;)V
 
-    .line 20
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v0}, Lcom/mopub/mraid/MraidController;->access$700(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mraid/MraidBridge;
@@ -222,7 +201,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 21
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$7;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v0}, Lcom/mopub/mraid/MraidController;->access$700(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mraid/MraidBridge;
@@ -237,13 +215,11 @@
 
     invoke-virtual {v0, v1}, Lcom/mopub/mraid/MraidBridge;->notifyScreenMetrics(Lcom/mopub/mraid/MraidScreenMetrics;)V
 
-    .line 22
     :cond_0
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$7;->val$successRunnable:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_1
 
-    .line 23
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
     :cond_1

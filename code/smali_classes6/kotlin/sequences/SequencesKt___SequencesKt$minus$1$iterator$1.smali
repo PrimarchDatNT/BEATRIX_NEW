@@ -54,7 +54,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->invoke(Ljava/lang/Object;)Z
 
     move-result p1
@@ -74,7 +73,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->$removed:Lcotlin/jvm/internal/Ref$BooleanRef;
 
     iget-boolean v0, v0, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z

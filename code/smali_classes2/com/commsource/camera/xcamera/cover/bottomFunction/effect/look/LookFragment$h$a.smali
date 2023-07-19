@@ -50,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
@@ -65,7 +64,6 @@
 
     if-nez v1, :cond_4
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
@@ -110,7 +108,6 @@
 
     if-nez v1, :cond_3
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
@@ -133,7 +130,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->a:Ljava/util/List;
 
@@ -146,7 +142,6 @@
     :goto_0
     if-ge v4, v1, :cond_2
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->a:Ljava/util/List;
 
     invoke-interface {v5, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -155,14 +150,12 @@
 
     check-cast v5, Lcom/meitu/template/bean/LookMaterial;
 
-    .line 6
     invoke-virtual {v5}, Lcom/meitu/template/bean/LookMaterial;->getSex()I
 
     move-result v5
 
     if-ne v5, v2, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
     add-int/2addr v4, v2
@@ -176,7 +169,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     :goto_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;
@@ -189,7 +181,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;->f(I)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
@@ -208,7 +199,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;
 
@@ -224,7 +214,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->a:Ljava/util/List;
 
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;
@@ -251,14 +240,12 @@
 
     if-eq v1, v3, :cond_4
 
-    .line 12
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
     add-int/2addr v1, v2
 
     iput v1, v3, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 13
     :cond_4
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

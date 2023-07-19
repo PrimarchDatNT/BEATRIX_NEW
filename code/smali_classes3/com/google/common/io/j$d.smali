@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/io/j$d;
 
     invoke-direct {v0}, Lcom/google/common/io/j$d;-><init>()V
@@ -37,7 +36,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/io/j$e;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -46,7 +44,6 @@
 .method static synthetic u()Lcom/google/common/io/j$d;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/io/j$d;->c:Lcom/google/common/io/j$d;
 
     return-object v0

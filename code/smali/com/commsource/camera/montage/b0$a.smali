@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/camera/montage/b0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/b0$a;->a:Lcom/commsource/camera/montage/b0;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
@@ -55,7 +54,6 @@
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v0
@@ -80,7 +78,6 @@
 
     div-float/2addr v0, v1
 
-    .line 2
     invoke-virtual {p3}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object v1
@@ -91,21 +88,17 @@
 
     float-to-int p2, v0
 
-    .line 3
     invoke-virtual {p1, p2, v2, v2, v2}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 4
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
 
-    .line 6
     invoke-virtual {p3}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object p3
@@ -120,7 +113,6 @@
 
     float-to-int p2, v0
 
-    .line 7
     invoke-virtual {p1, p2, v2, v2, v2}, Landroid/graphics/Rect;->set(IIII)V
 
     goto :goto_0
@@ -128,10 +120,8 @@
     :cond_1
     float-to-int p2, v0
 
-    .line 8
     invoke-virtual {p1, p2, v2, p2, v2}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 9
     :goto_0
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

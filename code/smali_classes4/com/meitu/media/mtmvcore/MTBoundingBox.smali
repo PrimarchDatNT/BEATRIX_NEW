@@ -22,30 +22,24 @@
 .method constructor <init>(Ljava/lang/String;ZFFFF[F)V
     .locals 0
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 7
     iput-object p1, p0, Lcom/meitu/media/mtmvcore/MTBoundingBox;->mName:Ljava/lang/String;
 
-    .line 8
     iput-boolean p2, p0, Lcom/meitu/media/mtmvcore/MTBoundingBox;->mActive:Z
 
-    .line 9
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1, p3, p4, p5, p6}, Landroid/graphics/RectF;-><init>(FFFF)V
 
     iput-object p1, p0, Lcom/meitu/media/mtmvcore/MTBoundingBox;->mRect:Landroid/graphics/RectF;
 
-    .line 10
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/media/mtmvcore/MTBoundingBox;->mTransform:Landroid/graphics/Matrix;
 
-    .line 11
     invoke-virtual {p1, p7}, Landroid/graphics/Matrix;->setValues([F)V
 
     return-void
@@ -54,19 +48,14 @@
 .method constructor <init>(Ljava/lang/String;ZLandroid/graphics/RectF;Landroid/graphics/Matrix;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/media/mtmvcore/MTBoundingBox;->mName:Ljava/lang/String;
 
-    .line 3
     iput-boolean p2, p0, Lcom/meitu/media/mtmvcore/MTBoundingBox;->mActive:Z
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/media/mtmvcore/MTBoundingBox;->mRect:Landroid/graphics/RectF;
 
-    .line 5
     iput-object p4, p0, Lcom/meitu/media/mtmvcore/MTBoundingBox;->mTransform:Landroid/graphics/Matrix;
 
     return-void
@@ -79,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     new-instance v9, Lcom/meitu/media/mtmvcore/MTBoundingBox;
 
     move-object v1, v9
@@ -100,7 +88,6 @@
 
     invoke-direct/range {v1 .. v8}, Lcom/meitu/media/mtmvcore/MTBoundingBox;-><init>(Ljava/lang/String;ZFFFF[F)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v9
@@ -113,12 +100,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/mtmvcore/MTBoundingBox;
 
     invoke-direct {v1, p0, p1, p2, p3}, Lcom/meitu/media/mtmvcore/MTBoundingBox;-><init>(Ljava/lang/String;ZLandroid/graphics/RectF;Landroid/graphics/Matrix;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

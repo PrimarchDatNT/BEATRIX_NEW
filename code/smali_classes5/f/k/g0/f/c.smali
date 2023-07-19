@@ -50,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
@@ -72,15 +71,12 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     sget-object v0, Lf/k/g0/f/c;->c:Ljava/lang/Object;
 
     iput-object v0, p0, Lf/k/g0/f/c;->a:Ljava/lang/Object;
 
-    .line 6
     iput-object p1, p0, Lf/k/g0/f/c;->b:Lf/k/g0/i/a;
 
     return-void
@@ -94,15 +90,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lf/k/g0/f/c;->c:Ljava/lang/Object;
 
     iput-object v0, p0, Lf/k/g0/f/c;->a:Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lf/k/g0/f/c;->a:Ljava/lang/Object;
 
     return-void
@@ -119,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/f/c;->a:Ljava/lang/Object;
 
     sget-object v2, Lf/k/g0/f/c;->c:Ljava/lang/Object;
@@ -151,39 +143,31 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/f/c;->a:Ljava/lang/Object;
 
-    .line 2
     sget-object v2, Lf/k/g0/f/c;->c:Ljava/lang/Object;
 
     if-ne v1, v2, :cond_1
 
-    .line 3
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lf/k/g0/f/c;->a:Ljava/lang/Object;
 
     if-ne v1, v2, :cond_0
 
-    .line 5
     iget-object v1, p0, Lf/k/g0/f/c;->b:Lf/k/g0/i/a;
 
     invoke-interface {v1}, Lf/k/g0/i/a;->get()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 6
     iput-object v1, p0, Lf/k/g0/f/c;->a:Ljava/lang/Object;
 
     const/4 v2, 0x0
 
-    .line 7
     iput-object v2, p0, Lf/k/g0/f/c;->b:Lf/k/g0/i/a;
 
-    .line 8
     :cond_0
     monitor-exit p0
 
@@ -200,7 +184,6 @@
 
     throw v1
 
-    .line 9
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

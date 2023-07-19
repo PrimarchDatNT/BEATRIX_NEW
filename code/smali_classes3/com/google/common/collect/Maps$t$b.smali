@@ -29,10 +29,8 @@
 .method constructor <init>(Lcom/google/common/collect/Maps$t;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Maps$t$b;->b:Lcom/google/common/collect/Maps$t;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/Maps$z;-><init>(Ljava/util/Map;)V
 
     return-void
@@ -43,7 +41,6 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$t$b;->b:Lcom/google/common/collect/Maps$t;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/Maps$n;->containsKey(Ljava/lang/Object;)Z
@@ -52,7 +49,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Maps$t$b;->b:Lcom/google/common/collect/Maps$t;
 
     iget-object v0, v0, Lcom/google/common/collect/Maps$n;->d:Ljava/util/Map;
@@ -79,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$t$b;->b:Lcom/google/common/collect/Maps$t;
 
     iget-object v1, v0, Lcom/google/common/collect/Maps$n;->d:Ljava/util/Map;
@@ -103,7 +98,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$t$b;->b:Lcom/google/common/collect/Maps$t;
 
     iget-object v1, v0, Lcom/google/common/collect/Maps$n;->d:Ljava/util/Map;
@@ -120,7 +114,6 @@
 .method public toArray()[Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$z;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -146,7 +139,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$z;->iterator()Ljava/util/Iterator;
 
     move-result-object v0

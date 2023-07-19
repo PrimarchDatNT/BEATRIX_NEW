@@ -22,12 +22,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$a;->g0:I
 
     return-void
@@ -36,12 +34,10 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;-><init>(II)V
 
     const/4 p1, -0x1
 
-    .line 4
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$a;->g0:I
 
     return-void
@@ -50,12 +46,10 @@
 .method public constructor <init>(IIII)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;-><init>(IIII)V
 
     const/4 p1, -0x1
 
-    .line 6
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$a;->g0:I
 
     return-void
@@ -70,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$a;->k1()Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     move-result-object v1
@@ -87,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$a;->k1()Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     move-result-object v1
@@ -104,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     invoke-direct {v1, p0}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;-><init>(Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$a;)V
@@ -121,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$a;->g0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -136,10 +126,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$a;->g0:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

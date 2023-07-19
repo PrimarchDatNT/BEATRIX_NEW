@@ -26,7 +26,6 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/h71;->a:Lcom/google/android/gms/internal/ads/f71;
 
     check-cast p1, Landroid/location/Location;
@@ -35,7 +34,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iget-object p1, v0, Lcom/google/android/gms/internal/ads/f71;->e:Lcom/google/android/gms/internal/ads/kh1;
 

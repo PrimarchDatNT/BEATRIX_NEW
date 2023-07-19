@@ -42,22 +42,18 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/util/p2/c;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$s;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
     invoke-direct {v0, v1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/util/delegate/process/e;
 
     invoke-direct {v1}, Lcom/commsource/util/delegate/process/e;-><init>()V
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lio/grpc/ChannelLogger$ChannelLogLevel;
 
     const-string v1, "DEBUG"
@@ -49,7 +48,6 @@
 
     sput-object v0, Lio/grpc/ChannelLogger$ChannelLogLevel;->DEBUG:Lio/grpc/ChannelLogger$ChannelLogLevel;
 
-    .line 2
     new-instance v1, Lio/grpc/ChannelLogger$ChannelLogLevel;
 
     const-string v3, "INFO"
@@ -60,7 +58,6 @@
 
     sput-object v1, Lio/grpc/ChannelLogger$ChannelLogLevel;->INFO:Lio/grpc/ChannelLogger$ChannelLogLevel;
 
-    .line 3
     new-instance v3, Lio/grpc/ChannelLogger$ChannelLogLevel;
 
     const-string v5, "WARNING"
@@ -71,7 +68,6 @@
 
     sput-object v3, Lio/grpc/ChannelLogger$ChannelLogLevel;->WARNING:Lio/grpc/ChannelLogger$ChannelLogLevel;
 
-    .line 4
     new-instance v5, Lio/grpc/ChannelLogger$ChannelLogLevel;
 
     const-string v7, "ERROR"
@@ -94,7 +90,6 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lio/grpc/ChannelLogger$ChannelLogLevel;->$VALUES:[Lio/grpc/ChannelLogger$ChannelLogLevel;
 
     return-void
@@ -108,7 +103,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -117,7 +111,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/grpc/ChannelLogger$ChannelLogLevel;
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/ChannelLogger$ChannelLogLevel;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -132,7 +125,6 @@
 .method public static values()[Lio/grpc/ChannelLogger$ChannelLogLevel;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/ChannelLogger$ChannelLogLevel;->$VALUES:[Lio/grpc/ChannelLogger$ChannelLogLevel;
 
     invoke-virtual {v0}, [Lio/grpc/ChannelLogger$ChannelLogLevel;->clone()Ljava/lang/Object;

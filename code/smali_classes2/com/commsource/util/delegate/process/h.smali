@@ -100,7 +100,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/util/delegate/process/h;->a:Ljava/lang/String;
@@ -121,7 +120,6 @@
 
     if-ne p1, p2, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/util/delegate/process/h;->e()V
 
     :cond_0
@@ -141,12 +139,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
-    .line 2
     new-instance v1, Landroid/content/ComponentName;
 
     iget-object v2, p0, Lcom/commsource/util/delegate/process/h;->a:Ljava/lang/String;
@@ -159,12 +155,10 @@
 
     const-string v1, "android.intent.action.VIEW"
 
-    .line 3
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     const/16 v1, 0x65
 
-    .line 4
     invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
 
     return-void
@@ -175,7 +169,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/delegate/process/h;->a:Ljava/lang/String;
 
     return-object v0

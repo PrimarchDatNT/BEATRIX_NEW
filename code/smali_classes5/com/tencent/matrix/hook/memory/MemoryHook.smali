@@ -47,7 +47,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/tencent/matrix/hook/memory/MemoryHook;
 
     invoke-direct {v0}, Lcom/tencent/matrix/hook/memory/MemoryHook;-><init>()V
@@ -60,17 +59,14 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/tencent/matrix/hook/AbsHook;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->b:Ljava/util/Set;
 
-    .line 3
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -79,12 +75,10 @@
 
     const/high16 v0, 0xa00000
 
-    .line 4
     iput v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->f:I
 
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->i:Z
 
     return-void
@@ -145,7 +139,6 @@
 .method public c()Z
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->d:I
 
     if-ltz v0, :cond_1
@@ -156,7 +149,6 @@
 
     if-lt v1, v0, :cond_1
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -182,24 +174,20 @@
 
     invoke-static {v2, v0, v1}, Lcom/tencent/matrix/util/b;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     iget-boolean v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->h:Z
 
     invoke-direct {p0, v0}, Lcom/tencent/matrix/hook/memory/MemoryHook;->enableMmapHookNative(Z)V
 
-    .line 4
     iget v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->d:I
 
     iget v1, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->e:I
 
     invoke-direct {p0, v0, v1}, Lcom/tencent/matrix/hook/memory/MemoryHook;->setTracingAllocSizeRangeNative(II)V
 
-    .line 5
     iget v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->f:I
 
     invoke-direct {p0, v0}, Lcom/tencent/matrix/hook/memory/MemoryHook;->setStacktraceLogThresholdNative(I)V
 
-    .line 6
     iget-boolean v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->g:Z
 
     invoke-direct {p0, v0}, Lcom/tencent/matrix/hook/memory/MemoryHook;->enableStacktraceNative(Z)V
@@ -208,7 +196,6 @@
 
     return v0
 
-    .line 7
     :cond_1
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -244,7 +231,6 @@
 .method protected d(Z)Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->b:Ljava/util/Set;
 
     const/4 v1, 0x0
@@ -259,7 +245,6 @@
 
     invoke-direct {p0, v0}, Lcom/tencent/matrix/hook/memory/MemoryHook;->addHookSoNative([Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->c:Ljava/util/Set;
 
     new-array v1, v1, [Ljava/lang/String;
@@ -272,17 +257,14 @@
 
     invoke-direct {p0, v0}, Lcom/tencent/matrix/hook/memory/MemoryHook;->addIgnoreSoNative([Ljava/lang/String;)V
 
-    .line 3
     iget-boolean v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->i:Z
 
     const/4 v1, 0x1
 
     if-nez v0, :cond_0
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/tencent/matrix/hook/memory/MemoryHook;->installHooksNative(Z)V
 
-    .line 5
     iput-boolean v1, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->i:Z
 
     :cond_0
@@ -292,7 +274,6 @@
 .method public f(Ljava/lang/String;)Lcom/tencent/matrix/hook/memory/MemoryHook;
     .locals 2
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -307,12 +288,10 @@
 
     const-string v1, "thread regex is empty!!!"
 
-    .line 2
     invoke-static {v0, v1, p1}, Lcom/tencent/matrix/util/b;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->b:Ljava/util/Set;
 
@@ -325,7 +304,6 @@
 .method public varargs g([Ljava/lang/String;)Lcom/tencent/matrix/hook/memory/MemoryHook;
     .locals 3
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -335,7 +313,6 @@
 
     aget-object v2, p1, v1
 
-    .line 2
     invoke-virtual {p0, v2}, Lcom/tencent/matrix/hook/memory/MemoryHook;->f(Ljava/lang/String;)Lcom/tencent/matrix/hook/memory/MemoryHook;
 
     add-int/lit8 v1, v1, 0x1
@@ -349,7 +326,6 @@
 .method public h(Ljava/lang/String;)Lcom/tencent/matrix/hook/memory/MemoryHook;
     .locals 1
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -358,7 +334,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->c:Ljava/util/Set;
 
@@ -370,7 +345,6 @@
 .method public varargs i([Ljava/lang/String;)Lcom/tencent/matrix/hook/memory/MemoryHook;
     .locals 3
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -380,7 +354,6 @@
 
     aget-object v2, p1, v1
 
-    .line 2
     invoke-virtual {p0, v2}, Lcom/tencent/matrix/hook/memory/MemoryHook;->h(Ljava/lang/String;)Lcom/tencent/matrix/hook/memory/MemoryHook;
 
     add-int/lit8 v1, v1, 0x1
@@ -394,7 +367,6 @@
 .method public j(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/tencent/matrix/hook/AbsHook;->b()Lcom/tencent/matrix/hook/AbsHook$Status;
 
     move-result-object v0
@@ -403,7 +375,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/tencent/matrix/hook/memory/MemoryHook;->dumpNative(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
@@ -413,7 +384,6 @@
 .method public k(Z)Lcom/tencent/matrix/hook/memory/MemoryHook;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->h:Z
 
     return-object p0
@@ -422,7 +392,6 @@
 .method public l(Z)Lcom/tencent/matrix/hook/memory/MemoryHook;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->g:Z
 
     return-object p0
@@ -436,20 +405,16 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/tencent/matrix/hook/HookManager;->g:Lcom/tencent/matrix/hook/HookManager;
 
-    .line 2
     invoke-virtual {v0}, Lcom/tencent/matrix/hook/HookManager;->b()Lcom/tencent/matrix/hook/HookManager;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0, p0}, Lcom/tencent/matrix/hook/HookManager;->a(Lcom/tencent/matrix/hook/AbsHook;)Lcom/tencent/matrix/hook/HookManager;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/tencent/matrix/hook/HookManager;->c()V
 
     return-void
@@ -458,7 +423,6 @@
 .method public n(I)Lcom/tencent/matrix/hook/memory/MemoryHook;
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->f:I
 
     return-object p0
@@ -467,10 +431,8 @@
 .method public o(II)Lcom/tencent/matrix/hook/memory/MemoryHook;
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->d:I
 
-    .line 2
     iput p2, p0, Lcom/tencent/matrix/hook/memory/MemoryHook;->e:I
 
     return-object p0

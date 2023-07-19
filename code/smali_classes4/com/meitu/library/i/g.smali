@@ -11,10 +11,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/AssertionError;
 
     invoke-direct {v0}, Ljava/lang/AssertionError;-><init>()V
@@ -47,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v1
@@ -60,7 +57,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/i/g;->c(Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v1
@@ -70,7 +66,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -82,17 +77,14 @@
 
     if-eqz p3, :cond_1
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/i/g;->d(Ljava/io/File;)[B
 
     move-result-object p1
 
-    .line 5
     invoke-static {p0}, Lcom/meitu/library/i/j;->a(Landroid/content/Context;)Ljava/security/PublicKey;
 
     move-result-object p0
 
-    .line 6
     invoke-static {v1, p1, p0}, Lcom/meitu/library/i/j;->b(Ljava/lang/String;[BLjava/security/PublicKey;)Z
 
     move-result v2
@@ -100,16 +92,13 @@
     :cond_1
     if-eqz v2, :cond_3
 
-    .line 7
     invoke-static {p2, v1}, Lcom/meitu/library/i/g;->e(Ljava/util/Map;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 8
     :cond_2
     invoke-static {p0, p2}, Lcom/meitu/library/i/g;->g(Landroid/content/Context;Ljava/util/Map;)V
 
-    .line 9
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,22 +133,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/i/g;->c(Ljava/io/File;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {p1, p0}, Lcom/meitu/library/i/g;->e(Ljava/util/Map;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -175,7 +160,6 @@
 
     const v1, 0x71912138
 
-    .line 1
     :try_start_0
     invoke-static {p0, v1}, Lcom/meituan/android/walle/e;->a(Ljava/io/File;I)[B
 
@@ -187,12 +171,10 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 3
     :cond_0
     :try_start_1
     new-instance v1, Ljava/lang/String;
@@ -214,12 +196,10 @@
 
     const-string v2, "PayloadReader failed."
 
-    .line 4
     invoke-static {v1, v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -234,7 +214,6 @@
 
     const v1, 0x71912139
 
-    .line 1
     :try_start_0
     invoke-static {p0, v1}, Lcom/meituan/android/walle/e;->a(Ljava/io/File;I)[B
 
@@ -253,12 +232,10 @@
 
     const-string v2, "PayloadReader Sign failed."
 
-    .line 2
     invoke-static {v1, v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -292,7 +269,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     :try_start_0
     new-instance v1, Lorg/json/JSONObject;
 
@@ -302,7 +278,6 @@
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     :catch_0
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -336,13 +311,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 2
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -350,7 +323,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
@@ -359,14 +331,12 @@
 
     move-result-object v2
 
-    .line 4
     invoke-static {p0, v2, p1}, Lcom/meitu/library/i/g;->h(Ljava/util/Map;Ljava/lang/String;Lorg/json/JSONObject;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
-    .line 5
     :catch_0
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -401,7 +371,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -413,7 +382,6 @@
 
     move-result-object p0
 
-    .line 2
     new-instance v2, Ljava/io/InputStreamReader;
 
     const-string v3, "UTF-8"
@@ -423,13 +391,11 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_2
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 3
     :try_start_1
     new-instance p0, Lcom/meitu/library/i/l;
 
     invoke-direct {p0, v2}, Lcom/meitu/library/i/l;-><init>(Ljava/io/Reader;)V
 
-    .line 4
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1, p0}, Lorg/json/JSONObject;-><init>(Lorg/json/JSONTokener;)V
@@ -439,7 +405,6 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     :try_start_2
     invoke-virtual {v2}, Ljava/io/InputStreamReader;->close()V
     :try_end_2
@@ -470,7 +435,6 @@
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 
-    .line 6
     :catch_1
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -483,13 +447,11 @@
     :goto_1
     if-eqz v1, :cond_1
 
-    .line 7
     :try_start_4
     invoke-virtual {v1}, Ljava/io/InputStreamReader;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_3
 
-    .line 8
     :catch_3
     :cond_1
     :goto_2
@@ -520,14 +482,12 @@
     :try_start_0
     const-string v1, "channel"
 
-    .line 1
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p2, p1}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -539,7 +499,6 @@
     :cond_0
     const/16 v1, 0x2f
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/lang/String;->indexOf(I)I
 
     move-result v1
@@ -550,7 +509,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -558,13 +516,11 @@
     :cond_1
     const/4 v3, 0x0
 
-    .line 5
     :try_start_1
     invoke-virtual {p1, v3, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
 
     move-result v4
@@ -694,7 +650,6 @@
 
     goto :goto_3
 
-    .line 7
     :pswitch_0
     invoke-virtual {p2, p1}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
@@ -702,21 +657,18 @@
 
     if-eqz p2, :cond_5
 
-    .line 8
     invoke-virtual {p2}, Lorg/json/JSONArray;->length()I
 
     move-result v1
 
     if-lez v1, :cond_5
 
-    .line 9
     invoke-virtual {p2}, Lorg/json/JSONArray;->length()I
 
     move-result v1
 
     new-array v1, v1, [I
 
-    .line 10
     :goto_1
     invoke-virtual {p2}, Lorg/json/JSONArray;->length()I
 
@@ -724,7 +676,6 @@
 
     if-ge v3, v2, :cond_3
 
-    .line 11
     invoke-virtual {p2, v3}, Lorg/json/JSONArray;->getInt(I)I
 
     move-result v2
@@ -735,13 +686,11 @@
 
     goto :goto_1
 
-    .line 12
     :cond_3
     invoke-interface {p0, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_3
 
-    .line 13
     :pswitch_1
     invoke-virtual {p2, p1}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
@@ -749,21 +698,18 @@
 
     if-eqz p2, :cond_5
 
-    .line 14
     invoke-virtual {p2}, Lorg/json/JSONArray;->length()I
 
     move-result v1
 
     if-lez v1, :cond_5
 
-    .line 15
     invoke-virtual {p2}, Lorg/json/JSONArray;->length()I
 
     move-result v1
 
     new-array v1, v1, [Ljava/lang/String;
 
-    .line 16
     :goto_2
     invoke-virtual {p2}, Lorg/json/JSONArray;->length()I
 
@@ -771,7 +717,6 @@
 
     if-ge v3, v2, :cond_4
 
-    .line 17
     invoke-virtual {p2, v3}, Lorg/json/JSONArray;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -782,13 +727,11 @@
 
     goto :goto_2
 
-    .line 18
     :cond_4
     invoke-interface {p0, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_3
 
-    .line 19
     :pswitch_2
     invoke-virtual {p2, p1}, Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
 
@@ -802,7 +745,6 @@
 
     goto :goto_3
 
-    .line 20
     :pswitch_3
     invoke-virtual {p2, p1}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -812,7 +754,6 @@
 
     goto :goto_3
 
-    .line 21
     :pswitch_4
     invoke-virtual {p2, p1}, Lorg/json/JSONObject;->getBoolean(Ljava/lang/String;)Z
 
@@ -826,7 +767,6 @@
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 22
     :catch_0
     :cond_5
     :goto_3

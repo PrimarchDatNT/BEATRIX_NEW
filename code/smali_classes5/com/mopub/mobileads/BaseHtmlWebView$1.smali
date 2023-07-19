@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/BaseHtmlWebView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/BaseHtmlWebView$1;->this$0:Lcom/mopub/mobileads/BaseHtmlWebView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/mobileads/BaseHtmlWebView$1;->this$0:Lcom/mopub/mobileads/BaseHtmlWebView;
 
     invoke-static {p1}, Lcom/mopub/mobileads/BaseHtmlWebView;->access$000(Lcom/mopub/mobileads/BaseHtmlWebView;)Lcom/mopub/mobileads/ViewGestureDetector;
@@ -47,7 +45,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/GestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
-    .line 2
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     move-result p1

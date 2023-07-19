@@ -64,34 +64,24 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/nc;->d:Ljava/util/Date;
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/internal/ads/nc;->e:I
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/nc;->f:Ljava/util/Set;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/nc;->h:Landroid/location/Location;
 
-    .line 6
     iput-boolean p5, p0, Lcom/google/android/gms/internal/ads/nc;->g:Z
 
-    .line 7
     iput p6, p0, Lcom/google/android/gms/internal/ads/nc;->i:I
 
-    .line 8
     iput-boolean p7, p0, Lcom/google/android/gms/internal/ads/nc;->j:Z
 
-    .line 9
     iput p8, p0, Lcom/google/android/gms/internal/ads/nc;->k:I
 
-    .line 10
     iput-object p9, p0, Lcom/google/android/gms/internal/ads/nc;->l:Ljava/lang/String;
 
     return-void
@@ -102,7 +92,6 @@
 .method public final c()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/nc;->i:I
 
     return v0
@@ -113,7 +102,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/nc;->j:Z
 
     return v0
@@ -124,7 +112,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nc;->d:Ljava/util/Date;
 
     return-object v0
@@ -133,7 +120,6 @@
 .method public final f()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/nc;->g:Z
 
     return v0
@@ -150,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nc;->f:Ljava/util/Set;
 
     return-object v0
@@ -159,7 +144,6 @@
 .method public final getLocation()Landroid/location/Location;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nc;->h:Landroid/location/Location;
 
     return-object v0
@@ -170,7 +154,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/nc;->e:I
 
     return v0

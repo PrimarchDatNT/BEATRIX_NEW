@@ -36,7 +36,6 @@
 .method constructor <init>(Lbolts/o;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/o$i;->a:Lbolts/o;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -65,21 +64,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lbolts/o;->H()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lbolts/o;->i()Lbolts/o;
 
     move-result-object p1
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lbolts/o;->J()Z
 
@@ -87,7 +83,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Lbolts/o;->E()Ljava/lang/Exception;
 
     move-result-object p1
@@ -101,7 +96,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {p1}, Lbolts/o;->D(Ljava/lang/Object;)Lbolts/o;
 
     move-result-object p1
@@ -117,7 +111,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lbolts/o$i;->a(Lbolts/o;)Lbolts/o;
 
     move-result-object p1

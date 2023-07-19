@@ -29,7 +29,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/sticker/StickerPagerFragment$a;->b:Ljava/util/ArrayList;
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;-><init>()V
 
     return-void
@@ -44,19 +43,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/sticker/StickerPagerFragment$a;->a:Z
 
     const/4 v2, 0x1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerPagerFragment$a;->b:Ljava/util/ArrayList;
 

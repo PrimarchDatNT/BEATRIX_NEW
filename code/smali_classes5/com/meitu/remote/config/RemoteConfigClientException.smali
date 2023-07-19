@@ -11,7 +11,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/remote/config/RemoteConfigException;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -28,7 +27,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/meitu/remote/config/RemoteConfigException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

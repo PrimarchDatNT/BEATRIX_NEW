@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$b;->a:Lcom/commsource/studio/sticker/CustomStickerActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v2, "source_click_position"
@@ -57,7 +55,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -80,17 +77,14 @@
 
     const-string v3, "source_feature_content"
 
-    .line 3
     invoke-virtual {v1, v3, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Lcom/commsource/util/p2/c;
 
     iget-object v2, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$b;->a:Lcom/commsource/studio/sticker/CustomStickerActivity;
 
     invoke-direct {v1, v2}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/sticker/CustomStickerActivity$b$a;
 
     const-string v3, "\u81ea\u5b9a\u4e49\u8d34\u7eb8"
@@ -99,7 +93,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

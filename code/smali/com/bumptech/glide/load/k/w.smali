@@ -56,7 +56,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     const-string v1, "file"
@@ -69,14 +68,12 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
 
     invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object v0
@@ -96,10 +93,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/k/w;->a:Lcom/bumptech/glide/load/k/w$c;
 
     return-void
@@ -114,7 +109,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/k/w;->d(Landroid/net/Uri;)Z
@@ -135,7 +129,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/k/w;->c(Landroid/net/Uri;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/k/n$a;
@@ -167,7 +160,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p2, Lcom/bumptech/glide/load/k/n$a;
 
     new-instance p3, Lcom/bumptech/glide/r/e;
@@ -192,7 +184,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/k/w;->b:Ljava/util/Set;
 
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;

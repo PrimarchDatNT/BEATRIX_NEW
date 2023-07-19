@@ -16,10 +16,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/p80;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -28,7 +26,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/v40;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/v40;->a:Lcom/google/android/gms/internal/ads/p80;
 
     return-void
@@ -39,7 +36,6 @@
 .method public final J()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/v40;->a:Lcom/google/android/gms/internal/ads/p80;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/p80;->J0()V
@@ -50,14 +46,12 @@
 .method public final N()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/v40;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/v40;->a:Lcom/google/android/gms/internal/ads/p80;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/p80;->H0()V
@@ -68,7 +62,6 @@
 .method public final a()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/v40;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z

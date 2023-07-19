@@ -50,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/common/collect/Maps$a0;-><init>(Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)V
 
     return-void
@@ -61,7 +60,6 @@
 .method public bridge synthetic a()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$f0;->a()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -79,7 +77,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/Maps$a0;->a()Ljava/util/Map;
 
     move-result-object v0
@@ -92,7 +89,6 @@
 .method public bridge synthetic b()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$f0;->b()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -110,7 +106,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/Maps$a0;->b()Ljava/util/Map;
 
     move-result-object v0
@@ -123,7 +118,6 @@
 .method public bridge synthetic c()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$f0;->c()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -143,7 +137,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/Maps$a0;->c()Ljava/util/Map;
 
     move-result-object v0
@@ -156,7 +149,6 @@
 .method public bridge synthetic d()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$f0;->d()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -174,7 +166,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/Maps$a0;->d()Ljava/util/Map;
 
     move-result-object v0

@@ -24,13 +24,10 @@
 .method public constructor <init>(JLjava/util/concurrent/TimeUnit;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/google/common/util/concurrent/e$c$b;->a:J
 
-    .line 3
     invoke-static {p3}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -45,7 +42,6 @@
 .method static synthetic a(Lcom/google/common/util/concurrent/e$c$b;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/util/concurrent/e$c$b;->a:J
 
     return-wide v0
@@ -54,7 +50,6 @@
 .method static synthetic b(Lcom/google/common/util/concurrent/e$c$b;)Ljava/util/concurrent/TimeUnit;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/util/concurrent/e$c$b;->b:Ljava/util/concurrent/TimeUnit;
 
     return-object p0

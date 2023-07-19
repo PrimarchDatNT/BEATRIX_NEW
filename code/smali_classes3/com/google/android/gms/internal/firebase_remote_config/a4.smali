@@ -14,7 +14,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -23,7 +22,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/w3;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_remote_config/a4;-><init>()V
 
     return-void
@@ -34,7 +32,6 @@
 .method final a(Lcom/google/firebase/remoteconfig/d;)Lcom/google/android/gms/internal/firebase_remote_config/a4;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/a4;->c:Lcom/google/firebase/remoteconfig/d;
 
     return-object p0
@@ -43,7 +40,6 @@
 .method public final b()Lcom/google/android/gms/internal/firebase_remote_config/x3;
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/google/android/gms/internal/firebase_remote_config/x3;
 
     iget-wide v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/a4;->a:J
@@ -64,7 +60,6 @@
 .method public final c(J)Lcom/google/android/gms/internal/firebase_remote_config/a4;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/a4;->a:J
 
     return-object p0
@@ -73,7 +68,6 @@
 .method final d(I)Lcom/google/android/gms/internal/firebase_remote_config/a4;
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/a4;->b:I
 
     return-object p0

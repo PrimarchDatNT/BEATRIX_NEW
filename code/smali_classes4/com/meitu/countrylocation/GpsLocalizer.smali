@@ -15,7 +15,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/countrylocation/GpsLocalizer;->l()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -26,7 +25,6 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/meitu/countrylocation/h;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/countrylocation/Localizer;-><init>(Landroid/content/Context;Lcom/meitu/countrylocation/h;)V
 
     return-void
@@ -39,7 +37,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/countrylocation/GpsLocalizer;->o(Landroid/location/Location;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -54,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/countrylocation/GpsLocalizer;->m(Landroid/location/Location;)Ljava/util/HashMap;
 
     move-result-object p0
@@ -71,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/countrylocation/GpsLocalizer;
@@ -135,33 +130,28 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, v1, Lcom/meitu/countrylocation/Localizer;->f:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/countrylocation/l/c;->f(Landroid/content/Context;)Ljava/util/HashMap;
 
     move-result-object v3
 
-    .line 2
     new-instance v0, Ljava/util/Date;
 
     invoke-direct {v0}, Ljava/util/Date;-><init>()V
 
-    .line 3
     iget-object v4, v1, Lcom/meitu/countrylocation/Localizer;->g:Lcom/meitu/countrylocation/h;
 
     invoke-virtual {v4}, Lcom/meitu/countrylocation/h;->f()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 4
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
 
     if-eqz v5, :cond_0
 
-    .line 5
     invoke-virtual {v0}, Ljava/util/Date;->getTime()J
 
     move-result-wide v4
@@ -173,10 +163,8 @@
     :cond_0
     const-string v5, "token"
 
-    .line 6
     invoke-virtual {v3, v5, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     iget-object v5, v1, Lcom/meitu/countrylocation/Localizer;->g:Lcom/meitu/countrylocation/h;
 
     invoke-virtual {v5}, Lcom/meitu/countrylocation/h;->d()I
@@ -191,14 +179,12 @@
 
     invoke-virtual {v3, v6, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     iget-object v5, v1, Lcom/meitu/countrylocation/Localizer;->g:Lcom/meitu/countrylocation/h;
 
     invoke-virtual {v5}, Lcom/meitu/countrylocation/h;->c()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 9
     invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v6
@@ -207,10 +193,8 @@
 
     const-string v6, "skin"
 
-    .line 10
     invoke-virtual {v3, v6, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     :cond_1
     iget-object v5, v1, Lcom/meitu/countrylocation/Localizer;->g:Lcom/meitu/countrylocation/h;
 
@@ -218,7 +202,6 @@
 
     move-result-object v5
 
-    .line 12
     invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v6
@@ -227,10 +210,8 @@
 
     const-string v6, "channel"
 
-    .line 13
     invoke-virtual {v3, v6, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     :cond_2
     iget-object v5, v1, Lcom/meitu/countrylocation/Localizer;->g:Lcom/meitu/countrylocation/h;
 
@@ -242,7 +223,6 @@
 
     if-ne v5, v6, :cond_3
 
-    .line 15
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -251,18 +231,15 @@
 
     invoke-virtual {v3, v7, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     :cond_3
     invoke-static {v4}, Lcom/meitu/countrylocation/l/d;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 17
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 18
     invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
@@ -283,14 +260,12 @@
 
     if-le v8, v12, :cond_4
 
-    .line 19
     invoke-virtual {v5, v10}, Ljava/lang/String;->charAt(I)C
 
     move-result v8
 
     invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 20
     invoke-virtual {v5, v9}, Ljava/lang/String;->charAt(I)C
 
     move-result v8
@@ -299,7 +274,6 @@
 
     const/4 v8, 0x7
 
-    .line 21
     invoke-virtual {v5, v8}, Ljava/lang/String;->charAt(I)C
 
     move-result v8
@@ -308,7 +282,6 @@
 
     const/16 v8, 0x9
 
-    .line 22
     invoke-virtual {v5, v8}, Ljava/lang/String;->charAt(I)C
 
     move-result v8
@@ -317,21 +290,18 @@
 
     const/16 v8, 0xc
 
-    .line 23
     invoke-virtual {v5, v8}, Ljava/lang/String;->charAt(I)C
 
     move-result v8
 
     invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 24
     invoke-virtual {v5, v12}, Ljava/lang/String;->charAt(I)C
 
     move-result v5
 
     invoke-virtual {v7, v5}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 25
     new-instance v5, Ljava/text/SimpleDateFormat;
 
     sget-object v8, Ljava/util/Locale;->CHINESE:Ljava/util/Locale;
@@ -342,21 +312,18 @@
 
     const-string v8, "GMT+08"
 
-    .line 26
     invoke-static {v8}, Ljava/util/TimeZone;->getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
 
     move-result-object v8
 
     invoke-virtual {v5, v8}, Ljava/text/SimpleDateFormat;->setTimeZone(Ljava/util/TimeZone;)V
 
-    .line 27
     invoke-virtual {v5, v0}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v7, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 28
     invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v5
@@ -366,7 +333,6 @@
     :cond_4
     move-object v5, v11
 
-    .line 29
     :goto_0
     invoke-static {v4, v5}, Lcom/meitu/secret/MtSecret;->DesEnCrypt(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -382,10 +348,8 @@
     :goto_1
     const-string v7, "secret"
 
-    .line 30
     invoke-virtual {v3, v7, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 31
     invoke-virtual {v0}, Ljava/util/Date;->getTime()J
 
     move-result-wide v7
@@ -402,13 +366,11 @@
 
     invoke-virtual {v3, v4, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 32
     :try_start_0
     new-instance v4, Lorg/json/JSONObject;
 
     invoke-direct {v4}, Lorg/json/JSONObject;-><init>()V
 
-    .line 33
     iget-object v0, v1, Lcom/meitu/countrylocation/Localizer;->g:Lcom/meitu/countrylocation/h;
 
     invoke-virtual {v0}, Lcom/meitu/countrylocation/h;->h()Z
@@ -417,7 +379,6 @@
 
     if-nez v0, :cond_7
 
-    .line 34
     iget-object v0, v1, Lcom/meitu/countrylocation/Localizer;->f:Landroid/content/Context;
 
     const-string v7, "android.permission.READ_PHONE_STATE"
@@ -428,14 +389,12 @@
 
     if-eqz v0, :cond_6
 
-    .line 35
     iget-object v0, v1, Lcom/meitu/countrylocation/Localizer;->f:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/countrylocation/l/c;->h(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 36
     iget-object v7, v1, Lcom/meitu/countrylocation/Localizer;->f:Landroid/content/Context;
 
     invoke-static {v7}, Lcom/meitu/countrylocation/l/c;->g(Landroid/content/Context;)Ljava/lang/String;
@@ -455,7 +414,6 @@
 
     move-object v8, v7
 
-    .line 37
     :goto_2
     :try_start_1
     iget-object v0, v1, Lcom/meitu/countrylocation/Localizer;->f:Landroid/content/Context;
@@ -475,13 +433,11 @@
     :catch_0
     move-exception v0
 
-    .line 38
     :try_start_2
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     move-object v0, v11
 
-    .line 39
     :goto_3
     iget-object v12, v1, Lcom/meitu/countrylocation/Localizer;->f:Landroid/content/Context;
 
@@ -533,12 +489,10 @@
 
     check-cast v6, Ljava/lang/String;
 
-    .line 40
     invoke-static {}, Lcom/meitu/countrylocation/l/c;->i()Ljava/lang/String;
 
     move-result-object v9
 
-    .line 41
     invoke-virtual/range {p1 .. p1}, Landroid/location/Location;->getLatitude()D
 
     move-result-wide v12
@@ -547,7 +501,6 @@
 
     move-result-object v10
 
-    .line 42
     invoke-virtual/range {p1 .. p1}, Landroid/location/Location;->getLongitude()D
 
     move-result-wide v12
@@ -583,7 +536,6 @@
     :cond_8
     move-object v7, v11
 
-    .line 43
     :goto_5
     invoke-virtual {v4, v13, v7}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
@@ -596,7 +548,6 @@
     :cond_9
     move-object v8, v11
 
-    .line 44
     :goto_6
     invoke-virtual {v4, v7, v8}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
@@ -609,7 +560,6 @@
     :cond_a
     move-object v0, v11
 
-    .line 45
     :goto_7
     invoke-virtual {v4, v7, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
@@ -622,7 +572,6 @@
     :cond_b
     move-object v6, v11
 
-    .line 46
     :goto_8
     invoke-virtual {v4, v0, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
@@ -635,21 +584,17 @@
     :cond_c
     move-object v9, v11
 
-    .line 47
     :goto_9
     invoke-virtual {v4, v0, v9}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v0, "lat"
 
-    .line 48
     invoke-virtual {v4, v0, v10}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v0, "lng"
 
-    .line 49
     invoke-virtual {v4, v0, v12}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 50
     invoke-virtual {v4}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -661,12 +606,10 @@
     :catch_1
     move-exception v0
 
-    .line 51
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     move-object v0, v11
 
-    .line 52
     :goto_a
     invoke-static {v0, v5}, Lcom/meitu/secret/MtSecret;->DesEnCrypt(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -679,10 +622,8 @@
     :cond_d
     const-string v0, "info"
 
-    .line 53
     invoke-virtual {v3, v0, v11}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 54
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
@@ -695,7 +636,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Landroid/provider/Settings$System;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -714,10 +654,8 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/countrylocation/Localizer;->e()V
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/location/Location;->getLongitude()D
 
@@ -729,15 +667,12 @@
 
     invoke-virtual {p0, v1, v2, v3, v4}, Lcom/meitu/countrylocation/Localizer;->d(DD)V
 
-    .line 3
     new-instance v1, Lcom/meitu/countrylocation/GpsLocalizer$b;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/countrylocation/GpsLocalizer$b;-><init>(Lcom/meitu/countrylocation/GpsLocalizer;Landroid/location/Location;)V
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Thread;->start()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -752,10 +687,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/meitu/countrylocation/Localizer;->i()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/countrylocation/Localizer;->g:Lcom/meitu/countrylocation/h;
 
     if-eqz v1, :cond_5
@@ -772,7 +705,6 @@
 
     goto :goto_2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/countrylocation/Localizer;->f:Landroid/content/Context;
 
@@ -782,15 +714,12 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/countrylocation/Localizer;->e()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/countrylocation/Localizer;->f:Landroid/content/Context;
 
@@ -806,7 +735,6 @@
 
     const/4 v1, 0x0
 
-    .line 7
     iget-object v3, p0, Lcom/meitu/countrylocation/Localizer;->f:Landroid/content/Context;
 
     const-string v4, "android.permission.ACCESS_COARSE_LOCATION"
@@ -821,7 +749,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 8
     invoke-virtual {v2, v5}, Landroid/location/LocationManager;->isProviderEnabled(Ljava/lang/String;)Z
 
     move-result v3
@@ -832,7 +759,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-object v3, p0, Lcom/meitu/countrylocation/Localizer;->f:Landroid/content/Context;
 
@@ -844,7 +770,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 10
     invoke-virtual {v2, v4}, Landroid/location/LocationManager;->isProviderEnabled(Ljava/lang/String;)Z
 
     move-result v3
@@ -858,7 +783,6 @@
     :cond_3
     move-object v3, v1
 
-    .line 11
     :goto_0
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -866,7 +790,6 @@
 
     if-nez v1, :cond_4
 
-    .line 12
     new-instance v7, Lcom/meitu/countrylocation/GpsLocalizer$a;
 
     invoke-direct {v7, p0, v2}, Lcom/meitu/countrylocation/GpsLocalizer$a;-><init>(Lcom/meitu/countrylocation/GpsLocalizer;Landroid/location/LocationManager;)V
@@ -875,27 +798,22 @@
 
     const/4 v6, 0x0
 
-    .line 13
     invoke-virtual/range {v2 .. v7}, Landroid/location/LocationManager;->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;)V
 
     goto :goto_1
 
-    .line 14
     :cond_4
     invoke-virtual {p0}, Lcom/meitu/countrylocation/Localizer;->e()V
 
-    .line 15
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_5
     :goto_2
     invoke-virtual {p0}, Lcom/meitu/countrylocation/Localizer;->e()V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

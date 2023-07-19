@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/camera/montage/b0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/b0$b;->a:Lcom/commsource/camera/montage/b0;
 
     invoke-direct {p0}, Landroidx/viewpager/widget/ViewPager$SimpleOnPageChangeListener;-><init>()V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/b0$b;->a:Lcom/commsource/camera/montage/b0;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/b0;->A(Lcom/commsource/camera/montage/b0;)Lcom/commsource/camera/montage/e0;
@@ -54,7 +52,6 @@
 
     iget-object v1, p0, Lcom/commsource/camera/montage/b0$b;->a:Lcom/commsource/camera/montage/b0;
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/camera/montage/b0;->A(Lcom/commsource/camera/montage/b0;)Lcom/commsource/camera/montage/e0;
 
     move-result-object v1
@@ -71,7 +68,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/montage/b0$b;->a:Lcom/commsource/camera/montage/b0;
 
@@ -83,7 +79,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/montage/b0$b;->a:Lcom/commsource/camera/montage/b0;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/b0;->A(Lcom/commsource/camera/montage/b0;)Lcom/commsource/camera/montage/e0;
@@ -92,7 +87,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/e0;->e0(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/montage/b0$b;->a:Lcom/commsource/camera/montage/b0;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/b0;->C(Lcom/commsource/camera/montage/b0;)Lcom/commsource/camera/montage/x;
@@ -101,7 +95,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/x;->f(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/montage/b0$b;->a:Lcom/commsource/camera/montage/b0;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/b0;->D(Lcom/commsource/camera/montage/b0;)Lcom/commsource/camera/montage/w;
@@ -114,7 +107,6 @@
 
     iget-object v2, p0, Lcom/commsource/camera/montage/b0$b;->a:Lcom/commsource/camera/montage/b0;
 
-    .line 7
     invoke-static {v2}, Lcom/commsource/camera/montage/b0;->A(Lcom/commsource/camera/montage/b0;)Lcom/commsource/camera/montage/e0;
 
     move-result-object v2
@@ -135,7 +127,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/montage/b0$b;->a:Lcom/commsource/camera/montage/b0;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/b0;->A(Lcom/commsource/camera/montage/b0;)Lcom/commsource/camera/montage/e0;
@@ -144,7 +135,6 @@
 
     iget-object v2, p0, Lcom/commsource/camera/montage/b0$b;->a:Lcom/commsource/camera/montage/b0;
 
-    .line 9
     invoke-static {v2}, Lcom/commsource/camera/montage/b0;->A(Lcom/commsource/camera/montage/b0;)Lcom/commsource/camera/montage/e0;
 
     move-result-object v2
@@ -165,12 +155,10 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/e0;->c0(I)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

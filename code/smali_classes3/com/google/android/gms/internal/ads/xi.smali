@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/google/android/gms/internal/ads/bf;->b:Z
 
     sput-boolean v0, Lcom/google/android/gms/internal/ads/xi;->d:Z
@@ -36,7 +35,6 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/cg;)V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/xh;
 
     const/16 v1, 0x1000
@@ -51,16 +49,12 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/cg;Lcom/google/android/gms/internal/ads/xh;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/xi;->b:Lcom/google/android/gms/internal/ads/cg;
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/xi;->a:Lcom/google/android/gms/internal/ads/ws;
 
-    .line 5
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/xi;->c:Lcom/google/android/gms/internal/ads/xh;
 
     return-void
@@ -85,12 +79,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/b;->O()Lcom/google/android/gms/internal/ads/cc;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/b;->N()I
 
     move-result v1
@@ -101,7 +93,6 @@
 
     const/4 v4, 0x2
 
-    .line 3
     :try_start_0
     invoke-interface {v0, p2}, Lcom/google/android/gms/internal/ads/cc;->a(Lcom/google/android/gms/internal/ads/zzao;)V
     :try_end_0
@@ -111,7 +102,6 @@
 
     aput-object p0, p2, v3
 
-    .line 4
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -135,7 +125,6 @@
 
     aput-object p0, v0, v3
 
-    .line 5
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -148,10 +137,8 @@
 
     move-result-object p0
 
-    .line 6
     invoke-virtual {p1, p0}, Lcom/google/android/gms/internal/ads/b;->B(Ljava/lang/String;)V
 
-    .line 7
     throw p2
 .end method
 
@@ -164,7 +151,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/uw;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/xi;->c:Lcom/google/android/gms/internal/ads/xh;
@@ -179,7 +165,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     :try_start_0
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/xi;->c:Lcom/google/android/gms/internal/ads/xh;
 
@@ -189,7 +174,6 @@
 
     move-result-object v2
 
-    .line 3
     :goto_0
     invoke-virtual {p1, v2}, Ljava/io/InputStream;->read([B)I
 
@@ -199,12 +183,10 @@
 
     if-eq v3, v4, :cond_0
 
-    .line 4
     invoke-virtual {v0, v2, v1, v3}, Lcom/google/android/gms/internal/ads/uw;->write([BII)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
@@ -214,7 +196,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     :try_start_1
     invoke-virtual {p1}, Ljava/io/InputStream;->close()V
     :try_end_1
@@ -225,17 +206,14 @@
     :catch_0
     new-array p1, v1, [Ljava/lang/Object;
 
-    .line 7
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/bf;->c(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 8
     :cond_1
     :goto_1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/xi;->c:Lcom/google/android/gms/internal/ads/xh;
 
     invoke-virtual {p1, v2}, Lcom/google/android/gms/internal/ads/xh;->a([B)V
 
-    .line 9
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/uw;->close()V
 
     return-object v3
@@ -245,7 +223,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_2
     :try_start_2
     new-instance v3, Lcom/google/android/gms/internal/ads/zzam;
@@ -259,7 +236,6 @@
     :goto_2
     if-eqz p1, :cond_3
 
-    .line 11
     :try_start_3
     invoke-virtual {p1}, Ljava/io/InputStream;->close()V
     :try_end_3
@@ -270,20 +246,16 @@
     :catch_1
     new-array p1, v1, [Ljava/lang/Object;
 
-    .line 12
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/bf;->c(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 13
     :cond_3
     :goto_3
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/xi;->c:Lcom/google/android/gms/internal/ads/xh;
 
     invoke-virtual {p1, v2}, Lcom/google/android/gms/internal/ads/xh;->a([B)V
 
-    .line 14
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/uw;->close()V
 
-    .line 15
     throw v3
 .end method
 
@@ -310,12 +282,10 @@
 
     move-object/from16 v2, p1
 
-    .line 1
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v3
 
-    .line 2
     :goto_0
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
@@ -327,7 +297,6 @@
 
     const/4 v9, 0x0
 
-    .line 3
     :try_start_0
     invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/internal/ads/b;->J()Lcom/google/android/gms/internal/ads/ee2;
 
@@ -335,30 +304,25 @@
 
     if-nez v0, :cond_0
 
-    .line 4
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object v0
 
     goto :goto_1
 
-    .line 5
     :cond_0
     new-instance v10, Ljava/util/HashMap;
 
     invoke-direct {v10}, Ljava/util/HashMap;-><init>()V
 
-    .line 6
     iget-object v11, v0, Lcom/google/android/gms/internal/ads/ee2;->b:Ljava/lang/String;
 
     if-eqz v11, :cond_1
 
     const-string v12, "If-None-Match"
 
-    .line 7
     invoke-interface {v10, v12, v11}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     :cond_1
     iget-wide v11, v0, Lcom/google/android/gms/internal/ads/ee2;->d:J
 
@@ -370,18 +334,15 @@
 
     const-string v0, "If-Modified-Since"
 
-    .line 9
     invoke-static {v11, v12}, Lcom/google/android/gms/internal/ads/xq;->b(J)Ljava/lang/String;
 
     move-result-object v11
 
-    .line 10
     invoke-interface {v10, v0, v11}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_2
     move-object v0, v10
 
-    .line 11
     :goto_1
     iget-object v10, v1, Lcom/google/android/gms/internal/ads/xi;->b:Lcom/google/android/gms/internal/ads/cg;
 
@@ -393,13 +354,11 @@
     .catch Ljava/net/MalformedURLException; {:try_start_0 .. :try_end_0} :catch_3
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_2
 
-    .line 12
     :try_start_1
     invoke-virtual {v10}, Lcom/google/android/gms/internal/ads/zp;->c()I
 
     move-result v12
 
-    .line 13
     invoke-virtual {v10}, Lcom/google/android/gms/internal/ads/zp;->d()Ljava/util/List;
 
     move-result-object v5
@@ -408,14 +367,12 @@
 
     if-ne v12, v0, :cond_9
 
-    .line 14
     invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/internal/ads/b;->J()Lcom/google/android/gms/internal/ads/ee2;
 
     move-result-object v0
 
     if-nez v0, :cond_3
 
-    .line 15
     new-instance v0, Lcom/google/android/gms/internal/ads/uo2;
 
     const/16 v14, 0x130
@@ -424,7 +381,6 @@
 
     const/16 v16, 0x1
 
-    .line 16
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v11
@@ -439,7 +395,6 @@
 
     return-object v0
 
-    .line 17
     :cond_3
     new-instance v11, Ljava/util/TreeSet;
 
@@ -447,14 +402,12 @@
 
     invoke-direct {v11, v12}, Ljava/util/TreeSet;-><init>(Ljava/util/Comparator;)V
 
-    .line 18
     invoke-interface {v5}, Ljava/util/List;->isEmpty()Z
 
     move-result v12
 
     if-nez v12, :cond_4
 
-    .line 19
     invoke-interface {v5}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v12
@@ -472,7 +425,6 @@
 
     check-cast v13, Lcom/google/android/gms/internal/ads/yk2;
 
-    .line 20
     invoke-virtual {v13}, Lcom/google/android/gms/internal/ads/yk2;->a()Ljava/lang/String;
 
     move-result-object v13
@@ -481,25 +433,21 @@
 
     goto :goto_2
 
-    .line 21
     :cond_4
     new-instance v12, Ljava/util/ArrayList;
 
     invoke-direct {v12, v5}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 22
     iget-object v13, v0, Lcom/google/android/gms/internal/ads/ee2;->h:Ljava/util/List;
 
     if-eqz v13, :cond_6
 
-    .line 23
     invoke-interface {v13}, Ljava/util/List;->isEmpty()Z
 
     move-result v13
 
     if-nez v13, :cond_8
 
-    .line 24
     iget-object v13, v0, Lcom/google/android/gms/internal/ads/ee2;->h:Ljava/util/List;
 
     invoke-interface {v13}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -520,7 +468,6 @@
 
     check-cast v14, Lcom/google/android/gms/internal/ads/yk2;
 
-    .line 25
     invoke-virtual {v14}, Lcom/google/android/gms/internal/ads/yk2;->a()Ljava/lang/String;
 
     move-result-object v15
@@ -531,12 +478,10 @@
 
     if-nez v15, :cond_5
 
-    .line 26
     invoke-interface {v12, v14}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_3
 
-    .line 27
     :cond_6
     iget-object v13, v0, Lcom/google/android/gms/internal/ads/ee2;->g:Ljava/util/Map;
 
@@ -546,7 +491,6 @@
 
     if-nez v13, :cond_8
 
-    .line 28
     iget-object v13, v0, Lcom/google/android/gms/internal/ads/ee2;->g:Ljava/util/Map;
 
     invoke-interface {v13}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -571,7 +515,6 @@
 
     check-cast v14, Ljava/util/Map$Entry;
 
-    .line 29
     invoke-interface {v14}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v15
@@ -582,7 +525,6 @@
 
     if-nez v15, :cond_7
 
-    .line 30
     new-instance v15, Lcom/google/android/gms/internal/ads/yk2;
 
     invoke-interface {v14}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -605,7 +547,6 @@
 
     goto :goto_4
 
-    .line 31
     :cond_8
     new-instance v8, Lcom/google/android/gms/internal/ads/uo2;
 
@@ -615,7 +556,6 @@
 
     const/16 v17, 0x1
 
-    .line 32
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v13
@@ -632,7 +572,6 @@
 
     return-object v8
 
-    .line 33
     :cond_9
     invoke-virtual {v10}, Lcom/google/android/gms/internal/ads/zp;->a()Ljava/io/InputStream;
 
@@ -640,7 +579,6 @@
 
     if-eqz v0, :cond_a
 
-    .line 34
     invoke-virtual {v10}, Lcom/google/android/gms/internal/ads/zp;->b()I
 
     move-result v8
@@ -661,7 +599,6 @@
     :goto_5
     move-object v8, v0
 
-    .line 35
     :try_start_2
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
@@ -669,7 +606,6 @@
 
     sub-long/2addr v13, v3
 
-    .line 36
     sget-boolean v0, Lcom/google/android/gms/internal/ads/xi;->d:Z
 
     if-nez v0, :cond_b
@@ -689,7 +625,6 @@
 
     aput-object v2, v11, v9
 
-    .line 37
     invoke-static {v13, v14}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v13
@@ -698,7 +633,6 @@
 
     if-eqz v8, :cond_c
 
-    .line 38
     array-length v13, v8
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -715,7 +649,6 @@
 
     const/4 v13, 0x3
 
-    .line 39
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v14
@@ -724,7 +657,6 @@
 
     const/4 v13, 0x4
 
-    .line 40
     invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/internal/ads/b;->O()Lcom/google/android/gms/internal/ads/cc;
 
     move-result-object v14
@@ -739,7 +671,6 @@
 
     aput-object v14, v11, v13
 
-    .line 41
     invoke-static {v0, v11}, Lcom/google/android/gms/internal/ads/bf;->a(Ljava/lang/String;[Ljava/lang/Object;)V
 
     :cond_d
@@ -751,12 +682,10 @@
 
     if-gt v12, v0, :cond_e
 
-    .line 42
     new-instance v0, Lcom/google/android/gms/internal/ads/uo2;
 
     const/4 v14, 0x0
 
-    .line 43
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v15
@@ -773,7 +702,6 @@
 
     return-object v0
 
-    .line 44
     :cond_e
     new-instance v0, Ljava/io/IOException;
 
@@ -818,14 +746,12 @@
     :goto_8
     if-eqz v8, :cond_15
 
-    .line 45
     invoke-virtual {v8}, Lcom/google/android/gms/internal/ads/zp;->c()I
 
     move-result v0
 
     new-array v5, v7, [Ljava/lang/Object;
 
-    .line 46
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v7
@@ -844,12 +770,10 @@
 
     if-eqz v13, :cond_14
 
-    .line 47
     new-instance v5, Lcom/google/android/gms/internal/ads/uo2;
 
     const/4 v14, 0x0
 
-    .line 48
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v6
@@ -883,7 +807,6 @@
 
     goto :goto_9
 
-    .line 49
     :cond_10
     new-instance v0, Lcom/google/android/gms/internal/ads/zzr;
 
@@ -901,14 +824,12 @@
 
     if-gt v0, v2, :cond_12
 
-    .line 50
     new-instance v0, Lcom/google/android/gms/internal/ads/zzam;
 
     invoke-direct {v0, v5}, Lcom/google/android/gms/internal/ads/zzam;-><init>(Lcom/google/android/gms/internal/ads/uo2;)V
 
     throw v0
 
-    .line 51
     :cond_12
     new-instance v0, Lcom/google/android/gms/internal/ads/zzam;
 
@@ -916,7 +837,6 @@
 
     throw v0
 
-    .line 52
     :cond_13
     :goto_a
     new-instance v0, Lcom/google/android/gms/internal/ads/zzl;
@@ -929,7 +849,6 @@
 
     goto/16 :goto_0
 
-    .line 53
     :cond_14
     new-instance v0, Lcom/google/android/gms/internal/ads/zzz;
 
@@ -941,7 +860,6 @@
 
     goto/16 :goto_0
 
-    .line 54
     :cond_15
     new-instance v2, Lcom/google/android/gms/internal/ads/zzab;
 
@@ -952,7 +870,6 @@
     :catch_3
     move-exception v0
 
-    .line 55
     new-instance v3, Ljava/lang/RuntimeException;
 
     const-string v4, "Bad URL "
@@ -987,7 +904,6 @@
 
     throw v3
 
-    .line 56
     :catch_4
     new-instance v0, Lcom/google/android/gms/internal/ads/zzap;
 

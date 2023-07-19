@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 
     sub-float v1, p0, v1
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Math;->abs(F)F
 
     move-result v1
@@ -57,7 +55,6 @@
 
     if-gez p0, :cond_4
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/i0;->h()Z
 
     move-result p0
@@ -66,7 +63,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 3
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
     invoke-direct {p0, v1, v3}, Lcom/meitu/library/camera/MTCamera$s;-><init>(II)V
@@ -75,7 +71,6 @@
 
     return-object p0
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/commsource/util/i0;->i()Z
 
@@ -83,7 +78,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 5
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
     const/16 v1, 0x320
@@ -96,7 +90,6 @@
 
     return-object p0
 
-    .line 6
     :cond_1
     invoke-static {}, Lcom/commsource/util/i0;->g()Z
 
@@ -104,7 +97,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 7
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
     const/16 v1, 0x400
@@ -117,7 +109,6 @@
 
     return-object p0
 
-    .line 8
     :cond_2
     invoke-static {}, Lcom/commsource/util/i0;->j()Z
 
@@ -125,7 +116,6 @@
 
     if-eqz p0, :cond_3
 
-    .line 9
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
     invoke-direct {p0, v2, v5}, Lcom/meitu/library/camera/MTCamera$s;-><init>(II)V
@@ -134,7 +124,6 @@
 
     return-object p0
 
-    .line 10
     :cond_3
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
@@ -144,7 +133,6 @@
 
     return-object p0
 
-    .line 11
     :cond_4
     invoke-static {}, Lcom/commsource/util/i0;->h()Z
 
@@ -152,7 +140,6 @@
 
     if-eqz p0, :cond_5
 
-    .line 12
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
     invoke-direct {p0, v4, v3}, Lcom/meitu/library/camera/MTCamera$s;-><init>(II)V
@@ -161,7 +148,6 @@
 
     return-object p0
 
-    .line 13
     :cond_5
     invoke-static {}, Lcom/commsource/util/i0;->i()Z
 
@@ -171,7 +157,6 @@
 
     if-eqz p0, :cond_6
 
-    .line 14
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
     invoke-direct {p0, v5, v1}, Lcom/meitu/library/camera/MTCamera$s;-><init>(II)V
@@ -180,7 +165,6 @@
 
     return-object p0
 
-    .line 15
     :cond_6
     invoke-static {}, Lcom/commsource/util/i0;->g()Z
 
@@ -188,7 +172,6 @@
 
     if-eqz p0, :cond_7
 
-    .line 16
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
     const/16 v1, 0x2d0
@@ -199,7 +182,6 @@
 
     return-object p0
 
-    .line 17
     :cond_7
     invoke-static {}, Lcom/commsource/util/i0;->j()Z
 
@@ -207,7 +189,6 @@
 
     if-eqz p0, :cond_8
 
-    .line 18
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
     const/16 v1, 0x5a0
@@ -220,7 +201,6 @@
 
     return-object p0
 
-    .line 19
     :cond_8
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
@@ -251,7 +231,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -263,7 +242,6 @@
 
     const/4 v3, 0x0
 
-    .line 2
     :goto_0
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -271,14 +249,12 @@
 
     if-ge v3, v4, :cond_3
 
-    .line 3
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Lcom/meitu/library/camera/MTCamera$q;
 
-    .line 4
     iget v5, v4, Lcom/meitu/library/camera/MTCamera$t;->a:I
 
     int-to-float v5, v5
@@ -291,7 +267,6 @@
 
     sub-float/2addr v5, p1
 
-    .line 5
     invoke-static {v5}, Ljava/lang/Math;->abs(F)F
 
     move-result v6
@@ -304,7 +279,6 @@
 
     move-object v1, v4
 
-    .line 6
     :cond_1
     invoke-static {v5}, Ljava/lang/Math;->abs(F)F
 
@@ -323,7 +297,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -353,7 +326,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 8
     iget p0, v2, Lcom/meitu/library/camera/MTCamera$t;->a:I
 
     iget p1, v1, Lcom/meitu/library/camera/MTCamera$t;->a:I
@@ -366,18 +338,15 @@
 
     if-le p0, p1, :cond_4
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 10
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 11
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -406,7 +375,6 @@
 
     if-eqz p0, :cond_d
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result v3
@@ -415,7 +383,6 @@
 
     goto/16 :goto_2
 
-    .line 2
     :cond_0
     sget-object v3, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
@@ -443,7 +410,6 @@
 
     if-gez v7, :cond_2
 
-    .line 3
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -461,7 +427,6 @@
 
     check-cast v4, Lcom/meitu/library/camera/MTCamera$s;
 
-    .line 4
     iget v5, v4, Lcom/meitu/library/camera/MTCamera$t;->a:I
 
     const/16 v6, 0x400
@@ -474,7 +439,6 @@
 
     if-ne v5, v6, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -482,14 +446,12 @@
     :cond_2
     const v3, 0x3fe38e39
 
-    .line 6
     invoke-static {p1, v3}, Lcom/commsource/camera/e1/a;->d(FF)Z
 
     move-result v3
 
     if-eqz v3, :cond_3
 
-    .line 7
     new-instance v3, Lcom/meitu/library/camera/MTCamera$s;
 
     mul-int/lit8 v4, p2, 0x9
@@ -500,7 +462,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     new-instance v3, Lcom/meitu/library/camera/MTCamera$s;
 
@@ -510,7 +471,6 @@
 
     invoke-direct {v3, p2, v4}, Lcom/meitu/library/camera/MTCamera$s;-><init>(II)V
 
-    .line 9
     :goto_0
     new-instance p2, Ljava/lang/StringBuilder;
 
@@ -536,7 +496,6 @@
 
     move-object v6, v5
 
-    .line 10
     :goto_1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -544,14 +503,12 @@
 
     if-ge p2, v7, :cond_8
 
-    .line 11
     invoke-interface {p0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, Lcom/meitu/library/camera/MTCamera$s;
 
-    .line 12
     iget v8, v7, Lcom/meitu/library/camera/MTCamera$t;->a:I
 
     int-to-float v8, v8
@@ -564,7 +521,6 @@
 
     sub-float/2addr v8, p1
 
-    .line 13
     invoke-static {v8}, Ljava/lang/Math;->abs(F)F
 
     move-result v9
@@ -575,7 +531,6 @@
 
     if-gtz v9, :cond_5
 
-    .line 14
     iget v9, v7, Lcom/meitu/library/camera/MTCamera$t;->a:I
 
     iget v10, v3, Lcom/meitu/library/camera/MTCamera$t;->a:I
@@ -584,7 +539,6 @@
 
     sub-int/2addr v9, v10
 
-    .line 15
     invoke-static {v9}, Ljava/lang/Math;->abs(I)I
 
     move-result v9
@@ -596,7 +550,6 @@
     :cond_4
     move-object v5, v7
 
-    .line 16
     :cond_5
     invoke-static {v8}, Ljava/lang/Math;->abs(F)F
 
@@ -608,7 +561,6 @@
 
     if-gtz v8, :cond_7
 
-    .line 17
     iget v8, v7, Lcom/meitu/library/camera/MTCamera$t;->a:I
 
     iget v9, v3, Lcom/meitu/library/camera/MTCamera$t;->a:I
@@ -617,7 +569,6 @@
 
     sub-int/2addr v8, v9
 
-    .line 18
     invoke-static {v8}, Ljava/lang/Math;->abs(I)I
 
     move-result v8
@@ -634,7 +585,6 @@
 
     goto :goto_1
 
-    .line 19
     :cond_8
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -660,19 +610,16 @@
 
     if-eqz v5, :cond_a
 
-    .line 20
     invoke-static {v5}, Lcom/commsource/camera/e1/a;->h(Lcom/meitu/library/camera/MTCamera$s;)Z
 
     move-result p0
 
     if-eqz p0, :cond_9
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v5
 
-    .line 22
     :cond_9
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
@@ -685,19 +632,16 @@
     :cond_a
     if-eqz v6, :cond_c
 
-    .line 23
     invoke-static {v6}, Lcom/commsource/camera/e1/a;->h(Lcom/meitu/library/camera/MTCamera$s;)Z
 
     move-result p0
 
     if-eqz p0, :cond_b
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v6
 
-    .line 25
     :cond_b
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
@@ -707,7 +651,6 @@
 
     return-object p0
 
-    .line 26
     :cond_c
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
 
@@ -717,7 +660,6 @@
 
     return-object p0
 
-    .line 27
     :cond_d
     :goto_2
     new-instance p0, Lcom/meitu/library/camera/MTCamera$s;
@@ -738,7 +680,6 @@
 
     sub-float/2addr p0, p1
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->abs(F)F
 
     move-result p0
@@ -782,7 +723,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -809,7 +749,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -823,7 +762,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/camera/e1/a;->f(J)Z
 
     move-result v1
@@ -862,12 +800,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget v2, p0, Lcom/meitu/library/camera/MTCamera$t;->a:I
 

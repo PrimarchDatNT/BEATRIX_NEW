@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/Lists$TransformingRandomAccessList;Ljava/util/ListIterator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Lists$TransformingRandomAccessList$a;->b:Lcom/google/common/collect/Lists$TransformingRandomAccessList;
 
     invoke-direct {p0, p2}, Lcom/google/common/collect/i2;-><init>(Ljava/util/ListIterator;)V
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Lists$TransformingRandomAccessList$a;->b:Lcom/google/common/collect/Lists$TransformingRandomAccessList;
 
     iget-object v0, v0, Lcom/google/common/collect/Lists$TransformingRandomAccessList;->function:Lcom/google/common/base/n;

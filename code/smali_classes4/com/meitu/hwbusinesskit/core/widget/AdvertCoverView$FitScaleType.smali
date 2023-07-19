@@ -44,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
     const-string v2, "UNDEFINED"
@@ -57,7 +56,6 @@
 
     sput-object v1, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->UNDEFINED:Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
-    .line 2
     new-instance v2, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
     const-string v4, "FIT_WIDTH_START"
@@ -68,7 +66,6 @@
 
     sput-object v2, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->FIT_WIDTH_START:Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
-    .line 3
     new-instance v4, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
     const-string v6, "FIT_CROP_START"
@@ -89,7 +86,6 @@
 
     aput-object v4, v6, v7
 
-    .line 4
     sput-object v6, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->$VALUES:[Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -105,10 +101,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->mType:I
 
     return-void
@@ -121,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->values()[Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
     move-result-object v1
@@ -135,12 +128,10 @@
 
     aget-object v4, v1, v3
 
-    .line 2
     iget v5, v4, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->mType:I
 
     if-ne v5, p0, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -150,7 +141,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->UNDEFINED:Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
@@ -166,7 +156,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -187,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->$VALUES:[Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
     invoke-virtual {v1}, [Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->clone()Ljava/lang/Object;
@@ -210,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->mType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

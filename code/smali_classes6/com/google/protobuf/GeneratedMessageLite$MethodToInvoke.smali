@@ -46,7 +46,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
     const-string v1, "IS_INITIALIZED"
@@ -57,7 +56,6 @@
 
     sput-object v0, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->IS_INITIALIZED:Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
-    .line 2
     new-instance v1, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
     const-string v3, "VISIT"
@@ -68,7 +66,6 @@
 
     sput-object v1, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->VISIT:Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
-    .line 3
     new-instance v3, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
     const-string v5, "MERGE_FROM_STREAM"
@@ -79,7 +76,6 @@
 
     sput-object v3, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->MERGE_FROM_STREAM:Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
-    .line 4
     new-instance v5, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
     const-string v7, "MAKE_IMMUTABLE"
@@ -90,7 +86,6 @@
 
     sput-object v5, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->MAKE_IMMUTABLE:Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
-    .line 5
     new-instance v7, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
     const-string v9, "NEW_MUTABLE_INSTANCE"
@@ -101,7 +96,6 @@
 
     sput-object v7, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->NEW_MUTABLE_INSTANCE:Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
-    .line 6
     new-instance v9, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
     const-string v11, "NEW_BUILDER"
@@ -112,7 +106,6 @@
 
     sput-object v9, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->NEW_BUILDER:Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
-    .line 7
     new-instance v11, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
     const-string v13, "GET_DEFAULT_INSTANCE"
@@ -123,7 +116,6 @@
 
     sput-object v11, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->GET_DEFAULT_INSTANCE:Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
-    .line 8
     new-instance v13, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
     const-string v15, "GET_PARSER"
@@ -156,7 +148,6 @@
 
     aput-object v13, v15, v14
 
-    .line 9
     sput-object v15, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->$VALUES:[Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
     return-void
@@ -170,7 +161,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -179,7 +169,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -194,7 +183,6 @@
 .method public static values()[Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->$VALUES:[Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 
     invoke-virtual {v0}, [Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->clone()Ljava/lang/Object;

@@ -36,17 +36,14 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     check-cast p1, Lorg/json/JSONObject;
 
     const-string v0, "Ad request signals:"
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
     const/4 v0, 0x2
 
-    .line 3
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->toString(I)Ljava/lang/String;
 
     move-result-object v0

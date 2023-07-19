@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/b0/b;ZLcom/commsource/widget/dialog/j0$b;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/b0/b$a;->d:Lcom/commsource/beautyplus/b0/b;
 
     iput-boolean p2, p0, Lcom/commsource/beautyplus/b0/b$a;->a:Z
@@ -54,14 +53,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/dialog/j0$a;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/j0$a;-><init>()V
 
     iget-object v2, p0, Lcom/commsource/beautyplus/b0/b$a;->d:Lcom/commsource/beautyplus/b0/b;
 
-    .line 2
     invoke-static {v2}, Lcom/commsource/beautyplus/b0/b;->e(Lcom/commsource/beautyplus/b0/b;)Lcom/commsource/beautyplus/b0/c;
 
     move-result-object v2
@@ -76,7 +73,6 @@
 
     iget-object v2, p0, Lcom/commsource/beautyplus/b0/b$a;->d:Lcom/commsource/beautyplus/b0/b;
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/beautyplus/b0/b;->e(Lcom/commsource/beautyplus/b0/b;)Lcom/commsource/beautyplus/b0/c;
 
     move-result-object v2
@@ -91,7 +87,6 @@
 
     iget-object v2, p0, Lcom/commsource/beautyplus/b0/b$a;->d:Lcom/commsource/beautyplus/b0/b;
 
-    .line 4
     invoke-static {v2}, Lcom/commsource/beautyplus/b0/b;->e(Lcom/commsource/beautyplus/b0/b;)Lcom/commsource/beautyplus/b0/c;
 
     move-result-object v2
@@ -106,7 +101,6 @@
 
     iget-object v2, p0, Lcom/commsource/beautyplus/b0/b$a;->d:Lcom/commsource/beautyplus/b0/b;
 
-    .line 5
     invoke-static {v2}, Lcom/commsource/beautyplus/b0/b;->f(Lcom/commsource/beautyplus/b0/b;)Z
 
     move-result v2
@@ -117,7 +111,6 @@
 
     iget-object v2, p0, Lcom/commsource/beautyplus/b0/b$a;->d:Lcom/commsource/beautyplus/b0/b;
 
-    .line 6
     invoke-static {v2}, Lcom/commsource/beautyplus/b0/b;->e(Lcom/commsource/beautyplus/b0/b;)Lcom/commsource/beautyplus/b0/c;
 
     move-result-object v2
@@ -134,19 +127,16 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/b0/b$a$a;-><init>(Lcom/commsource/beautyplus/b0/b$a;)V
 
-    .line 7
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/j0$a;->h(Lcom/commsource/widget/dialog/j0$b;)Lcom/commsource/widget/dialog/j0$a;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/commsource/beautyplus/b0/b$a;->c:Landroid/content/Context;
 
-    .line 8
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/j0$a;->a(Landroid/content/Context;)Lcom/commsource/widget/dialog/j0;
 
     move-result-object v1
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/beautyplus/b0/b$a;->d:Lcom/commsource/beautyplus/b0/b;
 
     iget-object v3, p0, Lcom/commsource/beautyplus/b0/b$a;->c:Landroid/content/Context;
@@ -157,7 +147,6 @@
 
     move-result v2
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/beautyplus/b0/b$a;->d:Lcom/commsource/beautyplus/b0/b;
 
     iget-object v4, p0, Lcom/commsource/beautyplus/b0/b$a;->c:Landroid/content/Context;
@@ -168,10 +157,8 @@
 
     invoke-static {v3, v4, v2, v5}, Lcom/commsource/beautyplus/b0/b;->d(Lcom/commsource/beautyplus/b0/b;Landroid/content/Context;IZ)V
 
-    .line 11
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
-    .line 12
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -196,7 +183,6 @@
 
     move-result-object v1
 
-    .line 13
     new-instance v2, Ljava/util/HashMap;
 
     const/4 v3, 0x4
@@ -205,15 +191,12 @@
 
     const-string/jumbo v3, "\u5b9e\u9a8cabcode"
 
-    .line 14
     invoke-interface {v2, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "Sscore_imp"
 
-    .line 15
     invoke-static {v1, v2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

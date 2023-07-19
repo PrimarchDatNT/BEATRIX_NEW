@@ -62,19 +62,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector;->c:Lcotlin/coroutines/CoroutineContext;
 
-    .line 2
     invoke-static {p2}, Lcotlinx/coroutines/internal/ThreadContextKt;->b(Lcotlin/coroutines/CoroutineContext;)Ljava/lang/Object;
 
     move-result-object p2
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector;->a:Ljava/lang/Object;
 
-    .line 3
     new-instance p2, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;
 
     const/4 v0, 0x0
@@ -108,7 +105,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector;->c:Lcotlin/coroutines/CoroutineContext;
 
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector;->a:Ljava/lang/Object;

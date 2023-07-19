@@ -49,28 +49,20 @@
 .method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILcom/commsource/studio/component/ConfirmCancelComponent;Lcom/commsource/widget/IconFrontView;Landroid/widget/LinearLayout;Landroid/widget/TextView;Lcom/commsource/widget/IconFrontView;Landroid/widget/LinearLayout;Landroid/widget/TextView;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
-    .line 2
     iput-object p4, p0, Lcom/commsource/beautyplus/f0/k8;->a:Lcom/commsource/studio/component/ConfirmCancelComponent;
 
-    .line 3
     iput-object p5, p0, Lcom/commsource/beautyplus/f0/k8;->b:Lcom/commsource/widget/IconFrontView;
 
-    .line 4
     iput-object p6, p0, Lcom/commsource/beautyplus/f0/k8;->c:Landroid/widget/LinearLayout;
 
-    .line 5
     iput-object p7, p0, Lcom/commsource/beautyplus/f0/k8;->d:Landroid/widget/TextView;
 
-    .line 6
     iput-object p8, p0, Lcom/commsource/beautyplus/f0/k8;->f:Lcom/commsource/widget/IconFrontView;
 
-    .line 7
     iput-object p9, p0, Lcom/commsource/beautyplus/f0/k8;->g:Landroid/widget/LinearLayout;
 
-    .line 8
     iput-object p10, p0, Lcom/commsource/beautyplus/f0/k8;->p:Landroid/widget/TextView;
 
     return-void
@@ -83,7 +75,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -110,7 +101,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->fragment_flip:I
 
-    .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -129,7 +119,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -154,7 +143,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -188,7 +176,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->fragment_flip:I
 
-    .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -220,7 +207,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -237,7 +223,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/f0/k8;->J:Landroidx/fragment/app/Fragment;
 
     return-object v0

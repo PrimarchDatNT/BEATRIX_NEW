@@ -106,7 +106,6 @@
 
     const-string v4, "link"
 
-    .line 1
     filled-new-array {v0, v1, v2, v3, v4}, [Ljava/lang/String;
 
     move-result-object v0
@@ -117,7 +116,6 @@
 
     const-string v1, "style"
 
-    .line 2
     filled-new-array {v0, v1}, [Ljava/lang/String;
 
     move-result-object v0
@@ -130,14 +128,12 @@
 
     const-string v3, "html"
 
-    .line 3
     filled-new-array {v0, v2, v3}, [Ljava/lang/String;
 
     move-result-object v4
 
     sput-object v4, Lorg/jsoup/parser/HtmlTreeBuilderState$b;->c:[Ljava/lang/String;
 
-    .line 4
     filled-new-array {v0, v3}, [Ljava/lang/String;
 
     move-result-object v4
@@ -146,7 +142,6 @@
 
     const-string v4, "head"
 
-    .line 5
     filled-new-array {v0, v2, v4, v3}, [Ljava/lang/String;
 
     move-result-object v2
@@ -165,7 +160,6 @@
 
     const-string v10, "style"
 
-    .line 6
     filled-new-array/range {v5 .. v10}, [Ljava/lang/String;
 
     move-result-object v2
@@ -192,7 +186,6 @@
 
     const-string v14, "title"
 
-    .line 7
     filled-new-array/range {v5 .. v14}, [Ljava/lang/String;
 
     move-result-object v2
@@ -243,7 +236,6 @@
 
     const-string v26, "ul"
 
-    .line 8
     filled-new-array/range {v5 .. v26}, [Ljava/lang/String;
 
     move-result-object v2
@@ -262,7 +254,6 @@
 
     const-string v10, "h6"
 
-    .line 9
     filled-new-array/range {v5 .. v10}, [Ljava/lang/String;
 
     move-result-object v2
@@ -275,7 +266,6 @@
 
     const-string v6, "p"
 
-    .line 10
     filled-new-array {v2, v5, v6}, [Ljava/lang/String;
 
     move-result-object v2
@@ -286,7 +276,6 @@
 
     const-string v5, "dt"
 
-    .line 11
     filled-new-array {v2, v5}, [Ljava/lang/String;
 
     move-result-object v2
@@ -317,7 +306,6 @@
 
     const-string v16, "u"
 
-    .line 12
     filled-new-array/range {v5 .. v16}, [Ljava/lang/String;
 
     move-result-object v2
@@ -330,7 +318,6 @@
 
     const-string v6, "object"
 
-    .line 13
     filled-new-array {v2, v5, v6}, [Ljava/lang/String;
 
     move-result-object v2
@@ -349,7 +336,6 @@
 
     const-string v10, "wbr"
 
-    .line 14
     filled-new-array/range {v5 .. v10}, [Ljava/lang/String;
 
     move-result-object v2
@@ -362,7 +348,6 @@
 
     const-string v6, "track"
 
-    .line 15
     filled-new-array {v2, v5, v6}, [Ljava/lang/String;
 
     move-result-object v2
@@ -375,7 +360,6 @@
 
     const-string v6, "prompt"
 
-    .line 16
     filled-new-array {v2, v5, v6}, [Ljava/lang/String;
 
     move-result-object v2
@@ -404,7 +388,6 @@
 
     const-string v15, "tr"
 
-    .line 17
     filled-new-array/range {v5 .. v15}, [Ljava/lang/String;
 
     move-result-object v2
@@ -459,7 +442,6 @@
 
     const-string v28, "ul"
 
-    .line 18
     filled-new-array/range {v5 .. v28}, [Ljava/lang/String;
 
     move-result-object v2
@@ -494,7 +476,6 @@
 
     const-string v18, "u"
 
-    .line 19
     filled-new-array/range {v5 .. v18}, [Ljava/lang/String;
 
     move-result-object v2
@@ -511,14 +492,12 @@
 
     const-string v8, "tr"
 
-    .line 20
     filled-new-array {v2, v5, v6, v7, v8}, [Ljava/lang/String;
 
     move-result-object v9
 
     sput-object v9, Lorg/jsoup/parser/HtmlTreeBuilderState$b;->t:[Ljava/lang/String;
 
-    .line 21
     filled-new-array {v5, v6, v7}, [Ljava/lang/String;
 
     move-result-object v9
@@ -529,7 +508,6 @@
 
     const-string v10, "th"
 
-    .line 22
     filled-new-array {v9, v10, v8}, [Ljava/lang/String;
 
     move-result-object v11
@@ -538,14 +516,12 @@
 
     const-string v11, "script"
 
-    .line 23
     filled-new-array {v11, v1}, [Ljava/lang/String;
 
     move-result-object v1
 
     sput-object v1, Lorg/jsoup/parser/HtmlTreeBuilderState$b;->w:[Ljava/lang/String;
 
-    .line 24
     filled-new-array {v9, v10}, [Ljava/lang/String;
 
     move-result-object v1
@@ -558,14 +534,12 @@
 
     const-string v10, "colgroup"
 
-    .line 25
     filled-new-array {v0, v1, v9, v10, v3}, [Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lorg/jsoup/parser/HtmlTreeBuilderState$b;->y:[Ljava/lang/String;
 
-    .line 26
     filled-new-array {v2, v5, v6, v7, v8}, [Ljava/lang/String;
 
     move-result-object v0
@@ -590,7 +564,6 @@
 
     const-string v17, "tr"
 
-    .line 27
     filled-new-array/range {v9 .. v17}, [Ljava/lang/String;
 
     move-result-object v0
@@ -619,14 +592,12 @@
 
     const-string v19, "tr"
 
-    .line 28
     filled-new-array/range {v9 .. v19}, [Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lorg/jsoup/parser/HtmlTreeBuilderState$b;->B:[Ljava/lang/String;
 
-    .line 29
     filled-new-array {v2, v5, v6, v7, v8}, [Ljava/lang/String;
 
     move-result-object v0
@@ -645,7 +616,6 @@
 
     const-string v13, "thead"
 
-    .line 30
     filled-new-array/range {v8 .. v13}, [Ljava/lang/String;
 
     move-result-object v0
@@ -668,7 +638,6 @@
 
     const-string v15, "tr"
 
-    .line 31
     filled-new-array/range {v8 .. v15}, [Ljava/lang/String;
 
     move-result-object v0
@@ -689,7 +658,6 @@
 
     const-string v14, "tr"
 
-    .line 32
     filled-new-array/range {v8 .. v14}, [Ljava/lang/String;
 
     move-result-object v0
@@ -710,7 +678,6 @@
 
     const-string v14, "th"
 
-    .line 33
     filled-new-array/range {v8 .. v14}, [Ljava/lang/String;
 
     move-result-object v0
@@ -723,7 +690,6 @@
 
     const-string v2, "textarea"
 
-    .line 34
     filled-new-array {v0, v1, v2}, [Ljava/lang/String;
 
     move-result-object v0
@@ -746,14 +712,12 @@
 
     const-string v15, "tr"
 
-    .line 35
     filled-new-array/range {v8 .. v15}, [Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lorg/jsoup/parser/HtmlTreeBuilderState$b;->I:[Ljava/lang/String;
 
-    .line 36
     filled-new-array {v5, v6, v7}, [Ljava/lang/String;
 
     move-result-object v0
@@ -762,7 +726,6 @@
 
     const-string v0, "noscript"
 
-    .line 37
     filled-new-array {v4, v0}, [Ljava/lang/String;
 
     move-result-object v0
@@ -789,7 +752,6 @@
 
     const-string v10, "tr"
 
-    .line 38
     filled-new-array/range {v1 .. v10}, [Ljava/lang/String;
 
     move-result-object v0
@@ -802,7 +764,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

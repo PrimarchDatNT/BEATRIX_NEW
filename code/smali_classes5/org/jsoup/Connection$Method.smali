@@ -50,7 +50,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lorg/jsoup/Connection$Method;
 
     const-string v1, "GET"
@@ -153,7 +152,6 @@
 
     aput-object v13, v15, v14
 
-    .line 2
     sput-object v15, Lorg/jsoup/Connection$Method;->$VALUES:[Lorg/jsoup/Connection$Method;
 
     return-void
@@ -167,10 +165,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-boolean p3, p0, Lorg/jsoup/Connection$Method;->hasBody:Z
 
     return-void
@@ -179,7 +175,6 @@
 .method public static valueOf(Ljava/lang/String;)Lorg/jsoup/Connection$Method;
     .locals 1
 
-    .line 1
     const-class v0, Lorg/jsoup/Connection$Method;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -194,7 +189,6 @@
 .method public static values()[Lorg/jsoup/Connection$Method;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/jsoup/Connection$Method;->$VALUES:[Lorg/jsoup/Connection$Method;
 
     invoke-virtual {v0}, [Lorg/jsoup/Connection$Method;->clone()Ljava/lang/Object;
@@ -211,7 +205,6 @@
 .method public final hasBody()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/jsoup/Connection$Method;->hasBody:Z
 
     return v0

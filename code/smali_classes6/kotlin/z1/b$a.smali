@@ -54,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/z1/b$a;->a:[Lcotlin/jvm/u/l;
 
     invoke-static {p1, p2, v0}, Lcotlin/z1/b;->a(Ljava/lang/Object;Ljava/lang/Object;[Lcotlin/jvm/u/l;)I

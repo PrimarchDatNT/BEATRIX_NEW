@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcom/google/longrunning/Operation$ResultCase;
 
     const-string v1, "ERROR"
@@ -57,7 +56,6 @@
 
     sput-object v0, Lcom/google/longrunning/Operation$ResultCase;->ERROR:Lcom/google/longrunning/Operation$ResultCase;
 
-    .line 2
     new-instance v1, Lcom/google/longrunning/Operation$ResultCase;
 
     const-string v3, "RESPONSE"
@@ -70,7 +68,6 @@
 
     sput-object v1, Lcom/google/longrunning/Operation$ResultCase;->RESPONSE:Lcom/google/longrunning/Operation$ResultCase;
 
-    .line 3
     new-instance v3, Lcom/google/longrunning/Operation$ResultCase;
 
     const-string v5, "RESULT_NOT_SET"
@@ -91,7 +88,6 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lcom/google/longrunning/Operation$ResultCase;->$VALUES:[Lcom/google/longrunning/Operation$ResultCase;
 
     return-void
@@ -105,10 +101,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/longrunning/Operation$ResultCase;->value:I
 
     return-void
@@ -131,19 +125,16 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/longrunning/Operation$ResultCase;->RESPONSE:Lcom/google/longrunning/Operation$ResultCase;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/longrunning/Operation$ResultCase;->ERROR:Lcom/google/longrunning/Operation$ResultCase;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lcom/google/longrunning/Operation$ResultCase;->RESULT_NOT_SET:Lcom/google/longrunning/Operation$ResultCase;
 
@@ -155,7 +146,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/longrunning/Operation$ResultCase;->forNumber(I)Lcom/google/longrunning/Operation$ResultCase;
 
     move-result-object p0
@@ -166,7 +156,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/longrunning/Operation$ResultCase;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/longrunning/Operation$ResultCase;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -181,7 +170,6 @@
 .method public static values()[Lcom/google/longrunning/Operation$ResultCase;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/longrunning/Operation$ResultCase;->$VALUES:[Lcom/google/longrunning/Operation$ResultCase;
 
     invoke-virtual {v0}, [Lcom/google/longrunning/Operation$ResultCase;->clone()Ljava/lang/Object;
@@ -198,7 +186,6 @@
 .method public getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/longrunning/Operation$ResultCase;->value:I
 
     return v0

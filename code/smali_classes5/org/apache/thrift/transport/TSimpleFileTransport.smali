@@ -26,7 +26,6 @@
 
     const/4 v1, 0x0
 
-    .line 11
     invoke-direct {p0, p1, v0, v1, v0}, Lorg/apache/thrift/transport/TSimpleFileTransport;-><init>(Ljava/lang/String;ZZZ)V
 
     return-void
@@ -42,7 +41,6 @@
 
     const/4 v0, 0x1
 
-    .line 10
     invoke-direct {p0, p1, p2, p3, v0}, Lorg/apache/thrift/transport/TSimpleFileTransport;-><init>(Ljava/lang/String;ZZZ)V
 
     return-void
@@ -56,15 +54,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransport;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -77,7 +72,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Lorg/apache/thrift/transport/TTransportException;
 
@@ -87,26 +81,21 @@
 
     throw p1
 
-    .line 5
     :cond_1
     :goto_0
     iput-boolean p2, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->readable:Z
 
-    .line 6
     iput-boolean p3, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->writable:Z
 
-    .line 7
     iput-object p1, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->path_:Ljava/lang/String;
 
     if-eqz p4, :cond_2
 
-    .line 8
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TSimpleFileTransport;->open()V
 
     :cond_2
     return-void
 
-    .line 9
     :cond_3
     new-instance p1, Lorg/apache/thrift/transport/TTransportException;
 
@@ -122,12 +111,10 @@
 .method public close()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {v0}, Ljava/io/RandomAccessFile;->close()V
     :try_end_0
@@ -136,7 +123,6 @@
     :catch_0
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
     :cond_0
@@ -151,7 +137,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
@@ -166,7 +151,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Lorg/apache/thrift/transport/TTransportException;
 
     invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -181,7 +165,6 @@
 .method public isOpen()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
     if-eqz v0, :cond_0
@@ -205,7 +188,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
@@ -220,7 +202,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Lorg/apache/thrift/transport/TTransportException;
 
     invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -240,7 +221,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
     if-nez v0, :cond_1
@@ -248,12 +228,10 @@
     :try_start_0
     const-string v0, "r"
 
-    .line 2
     iget-boolean v1, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->writable:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -268,7 +246,6 @@
 
     move-result-object v0
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/io/RandomAccessFile;
 
@@ -287,10 +264,8 @@
 
     const/4 v1, 0x0
 
-    .line 5
     iput-object v1, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
-    .line 6
     new-instance v1, Lorg/apache/thrift/transport/TTransportException;
 
     invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -314,12 +289,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->readable:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
@@ -336,10 +309,8 @@
 
     const/4 p2, 0x0
 
-    .line 3
     iput-object p2, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
-    .line 4
     new-instance p2, Lorg/apache/thrift/transport/TTransportException;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -350,7 +321,6 @@
 
     throw p2
 
-    .line 5
     :cond_0
     new-instance p1, Lorg/apache/thrift/transport/TTransportException;
 
@@ -369,7 +339,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
@@ -382,7 +351,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance p2, Lorg/apache/thrift/transport/TTransportException;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -402,7 +370,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
@@ -417,10 +384,8 @@
 
     const/4 p2, 0x0
 
-    .line 2
     iput-object p2, p0, Lorg/apache/thrift/transport/TSimpleFileTransport;->file:Ljava/io/RandomAccessFile;
 
-    .line 3
     new-instance p2, Lorg/apache/thrift/transport/TTransportException;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;

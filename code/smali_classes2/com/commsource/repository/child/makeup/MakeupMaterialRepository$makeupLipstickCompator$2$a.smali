@@ -34,7 +34,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/repository/OnlineLocalMaterialCompator;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -72,12 +71,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -97,29 +94,24 @@
 
     check-cast v3, Lcom/commsource/repository/child/makeup/f;
 
-    .line 3
     invoke-virtual {v3}, Lcom/commsource/repository/child/makeup/f;->q()Lcom/commsource/repository/child/makeup/h;
 
     move-result-object v3
 
     add-int/lit8 v4, v2, 0x1
 
-    .line 4
     invoke-virtual {v3, v2}, Lcom/commsource/repository/child/makeup/h;->D0(I)V
 
     const/4 v2, 0x3
 
-    .line 5
     invoke-virtual {v3, v2}, Lcom/commsource/repository/child/makeup/h;->v0(I)V
 
-    .line 6
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     move v2, v4
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -144,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->O()Lf/k/i0/a/g0;
@@ -201,7 +192,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     sget-object v3, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {v3}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->O()Lf/k/i0/a/g0;
@@ -210,7 +200,6 @@
 
     new-array v4, v2, [Lcom/commsource/repository/child/makeup/h;
 
-    .line 2
     invoke-interface {p1, v4}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -219,12 +208,10 @@
 
     check-cast p1, [Lcom/commsource/repository/child/makeup/h;
 
-    .line 3
     invoke-interface {v3, p1}, Lf/k/i0/a/g0;->R2([Lcom/commsource/repository/child/makeup/h;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -238,7 +225,6 @@
     :goto_0
     if-eqz p2, :cond_3
 
-    .line 5
     sget-object p1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->O()Lf/k/i0/a/g0;
@@ -247,7 +233,6 @@
 
     new-array v3, v2, [Lcom/commsource/repository/child/makeup/h;
 
-    .line 6
     invoke-interface {p2, v3}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p2
@@ -256,12 +241,10 @@
 
     check-cast p2, [Lcom/commsource/repository/child/makeup/h;
 
-    .line 7
     invoke-interface {p1, p2}, Lf/k/i0/a/g0;->b0([Lcom/commsource/repository/child/makeup/h;)V
 
     goto :goto_1
 
-    .line 8
     :cond_2
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -275,7 +258,6 @@
     :goto_1
     if-eqz p3, :cond_5
 
-    .line 9
     sget-object p1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->O()Lf/k/i0/a/g0;
@@ -284,7 +266,6 @@
 
     new-array p2, v2, [Lcom/commsource/repository/child/makeup/h;
 
-    .line 10
     invoke-interface {p3, p2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p2
@@ -293,12 +274,10 @@
 
     check-cast p2, [Lcom/commsource/repository/child/makeup/h;
 
-    .line 11
     invoke-interface {p1, p2}, Lf/k/i0/a/g0;->A2([Lcom/commsource/repository/child/makeup/h;)V
 
     goto :goto_2
 
-    .line 12
     :cond_4
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -308,7 +287,6 @@
 
     throw p1
 
-    .line 13
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

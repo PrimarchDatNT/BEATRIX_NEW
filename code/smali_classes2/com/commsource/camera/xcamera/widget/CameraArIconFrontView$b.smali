@@ -33,7 +33,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$b;->d:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/request/j/e;-><init>()V
 
     return-void
@@ -52,7 +51,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -65,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$b;->a(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/k/f;)V
@@ -104,17 +101,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$b;->d:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/f1/o;
 
     invoke-direct {v1, p1}, Lcom/commsource/camera/f1/o;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     const/high16 p1, 0x420c0000    # 35.0f
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v2
@@ -123,7 +117,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
@@ -132,19 +125,16 @@
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/camera/f1/o;->l()Lcom/commsource/camera/f1/o;
 
     move-result-object p1
 
     invoke-virtual {v0, p1}, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->setArDrawable(Lcom/commsource/camera/f1/o;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$b;->d:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;
 
     invoke-virtual {p1}, Landroid/widget/TextView;->invalidate()V
 
-    .line 7
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

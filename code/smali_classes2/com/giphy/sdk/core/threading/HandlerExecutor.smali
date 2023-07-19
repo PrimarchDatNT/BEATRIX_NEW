@@ -18,10 +18,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/giphy/sdk/core/threading/HandlerExecutor;->handler:Landroid/os/Handler;
 
     return-void
@@ -32,7 +30,6 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/threading/HandlerExecutor;->handler:Landroid/os/Handler;
 
     invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z

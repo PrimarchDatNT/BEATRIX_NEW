@@ -61,7 +61,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/internal/d0;
 
     invoke-direct {v0}, Lcom/google/firebase/auth/internal/d0;-><init>()V
@@ -91,29 +90,22 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 4
     iput-object p1, p0, Lcom/google/firebase/auth/internal/zze;->a:Ljava/lang/String;
 
-    .line 5
     iput-object p2, p0, Lcom/google/firebase/auth/internal/zze;->b:Ljava/lang/String;
 
-    .line 6
     invoke-static {p2}, Lcom/google/firebase/auth/internal/q;->d(Ljava/lang/String;)Ljava/util/Map;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/firebase/auth/internal/zze;->c:Ljava/util/Map;
 
-    .line 7
     iput-boolean p3, p0, Lcom/google/firebase/auth/internal/zze;->d:Z
 
     return-void
@@ -122,21 +114,16 @@
 .method public constructor <init>(Z)V
     .locals 0
 
-    .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 9
     iput-boolean p1, p0, Lcom/google/firebase/auth/internal/zze;->d:Z
 
     const/4 p1, 0x0
 
-    .line 10
     iput-object p1, p0, Lcom/google/firebase/auth/internal/zze;->b:Ljava/lang/String;
 
-    .line 11
     iput-object p1, p0, Lcom/google/firebase/auth/internal/zze;->a:Ljava/lang/String;
 
-    .line 12
     iput-object p1, p0, Lcom/google/firebase/auth/internal/zze;->c:Ljava/util/Map;
 
     return-void
@@ -149,7 +136,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/zze;->a:Ljava/lang/String;
 
     return-object v0
@@ -170,7 +156,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/zze;->c:Ljava/util/Map;
 
     return-object v0
@@ -189,7 +174,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/zze;->a:Ljava/lang/String;
 
     const-string v1, "github.com"
@@ -200,7 +184,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/internal/zze;->c:Ljava/util/Map;
 
     const-string v1, "login"
@@ -213,7 +196,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/auth/internal/zze;->a:Ljava/lang/String;
 
@@ -225,7 +207,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/auth/internal/zze;->c:Ljava/util/Map;
 
     const-string v1, "screen_name"
@@ -247,7 +228,6 @@
 .method public final q0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/auth/internal/zze;->d:Z
 
     return v0
@@ -256,12 +236,10 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/auth/internal/zze;->D0()Ljava/lang/String;
 
     move-result-object v0
@@ -270,28 +248,22 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/auth/internal/zze;->b:Ljava/lang/String;
 
     const/4 v1, 0x2
 
-    .line 5
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/firebase/auth/internal/zze;->q0()Z
 
     move-result v0
 
     const/4 v1, 0x3
 
-    .line 7
     invoke-static {p1, v1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->g(Landroid/os/Parcel;IZ)V
 
-    .line 8
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void

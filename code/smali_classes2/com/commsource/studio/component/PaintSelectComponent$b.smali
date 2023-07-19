@@ -57,10 +57,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result p1
@@ -73,7 +71,6 @@
 
     iput p1, p0, Lcom/commsource/studio/component/PaintSelectComponent$b;->a:F
 
-    .line 3
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     iget v0, p0, Lcom/commsource/studio/component/PaintSelectComponent$b;->a:F
@@ -86,7 +83,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent$b;->b:Landroidx/lifecycle/MutableLiveData;
 
-    .line 4
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -116,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/PaintSelectComponent$b;->c:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,10 +126,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/component/PaintSelectComponent$b;->a:F
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/component/PaintSelectComponent$b;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
@@ -143,7 +136,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -156,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/component/PaintSelectComponent$b;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -182,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/PaintSelectComponent$b;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

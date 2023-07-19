@@ -11,7 +11,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/meitu/core/MteApplication;->getInstance()Lcom/meitu/core/MteApplication;
 
@@ -23,7 +22,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/getkeepsafe/relinker/d;->g()Lcom/getkeepsafe/relinker/e;
 
     move-result-object v1
@@ -42,7 +40,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/mtlab/hmacsha/HmacSHA1Sign;->a()V
     :try_end_0
@@ -53,7 +50,6 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -76,7 +72,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -86,7 +81,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -99,19 +93,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x15
 
     if-ge v1, v2, :cond_0
 
-    .line 2
     sget-object v1, Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v1, Landroid/os/Build;->SUPPORTED_ABIS:[Ljava/lang/String;
 
@@ -122,7 +113,6 @@
     :goto_0
     const-string v2, "armeabi-v7a"
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -131,7 +121,6 @@
 
     const-string v1, "gnustl_shared"
 
-    .line 5
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     goto :goto_1
@@ -139,7 +128,6 @@
     :cond_1
     const-string v2, "arm64-v8a"
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -148,12 +136,10 @@
 
     const-string v1, "c++_shared"
 
-    .line 7
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 8
     :cond_2
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -176,10 +162,8 @@
     :goto_1
     const-string v1, "MtlabSign"
 
-    .line 9
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -194,7 +178,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v1, p0, p1, p2, p3}, Lcom/meitu/mtlab/hmacsha/HmacSHA1Sign;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p0
@@ -211,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -238,12 +220,10 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/UnsatisfiedLinkError;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 3
     :goto_0
     invoke-static {p0}, Lcom/meitu/mtlab/hmacsha/HmacSHA1Sign;->d(Ljava/lang/String;)Ljava/lang/String;
 
@@ -267,22 +247,18 @@
 
     const-string v2, "\\s*|\t|\r|\n"
 
-    .line 1
     invoke-static {v2}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v2
 
-    .line 2
     invoke-virtual {v2, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/util/regex/Matcher;->replaceAll(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -103,10 +103,8 @@
 
     invoke-static {}, Lcom/meitu/mtmvcore/backend/android/f;->D()V
 
-    .line 1
     invoke-static {}, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -115,29 +113,24 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->i:Z
 
-    .line 3
     new-instance v0, Lcom/meitu/flymedia/glx/utils/a;
 
     invoke-direct {v0}, Lcom/meitu/flymedia/glx/utils/a;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->j:Lcom/meitu/flymedia/glx/utils/a;
 
-    .line 4
     new-instance v0, Lcom/meitu/flymedia/glx/utils/a;
 
     invoke-direct {v0}, Lcom/meitu/flymedia/glx/utils/a;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->k:Lcom/meitu/flymedia/glx/utils/a;
 
-    .line 5
     new-instance v0, Lcom/meitu/flymedia/glx/utils/a;
 
     invoke-direct {v0}, Lcom/meitu/flymedia/glx/utils/a;-><init>()V
@@ -146,20 +139,16 @@
 
     const/4 v0, 0x2
 
-    .line 6
     iput v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->m:I
 
     const/4 v0, 0x0
 
-    .line 7
     iput-boolean v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->n:Z
 
-    .line 8
     iput-boolean v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->o:Z
 
     const/4 v0, -0x1
 
-    .line 9
     iput v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->p:I
 
     return-void
@@ -172,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/mtmvcore/backend/android/f;
@@ -307,7 +295,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v2, -0x1
@@ -316,10 +303,8 @@
 
     const/16 v2, 0x11
 
-    .line 2
     iput v2, v1, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -332,7 +317,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/backend/android/f;->getVersion()I
 
     move-result v1
@@ -341,10 +325,8 @@
 
     if-lt v1, v2, :cond_3
 
-    .line 2
     iput-object p4, p0, Lcom/meitu/mtmvcore/backend/android/f;->r:Lcom/meitu/mtmvcore/backend/android/r/d;
 
-    .line 3
     new-instance p4, Lcom/meitu/mtmvcore/backend/android/m;
 
     iget-object v1, p2, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;->j:Lcom/meitu/mtmvcore/backend/android/surfaceview/c;
@@ -362,7 +344,6 @@
 
     iput-object p4, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
-    .line 4
     iget-object p4, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p4}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -373,27 +354,22 @@
 
     invoke-virtual {p4}, Landroid/app/Activity;->getFilesDir()Ljava/io/File;
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/f;->g:Lf/k/g/b/c;
 
-    .line 6
     new-instance p1, Landroid/os/Handler;
 
     invoke-direct {p1}, Landroid/os/Handler;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/f;->h:Landroid/os/Handler;
 
-    .line 7
     iget-boolean p1, p2, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;->k:Z
 
     iput-boolean p1, p0, Lcom/meitu/mtmvcore/backend/android/f;->n:Z
 
-    .line 8
     iget-boolean p1, p2, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;->i:Z
 
     iput-boolean p1, p0, Lcom/meitu/mtmvcore/backend/android/f;->o:Z
 
-    .line 9
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/f;->g:Lf/k/g/b/c;
 
     invoke-interface {p1, p0}, Lf/k/g/b/c;->setToggleRenderViewListener(Lcom/meitu/mtmvcore/backend/android/q;)V
@@ -404,7 +380,6 @@
 
     if-nez p3, :cond_1
 
-    .line 10
     :try_start_0
     iget-object p3, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
@@ -425,10 +400,8 @@
 
     const-string v1, "Content already displayed, cannot request FEATURE_NO_TITLE"
 
-    .line 11
     invoke-virtual {p0, p1, v1, p3}, Lcom/meitu/mtmvcore/backend/android/f;->z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 12
     :goto_0
     iget-object p3, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
@@ -446,7 +419,6 @@
 
     invoke-virtual {p3, v1, v1}, Landroid/view/Window;->setFlags(II)V
 
-    .line 13
     iget-object p3, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p3}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -463,7 +435,6 @@
 
     invoke-virtual {p3, v1}, Landroid/view/Window;->clearFlags(I)V
 
-    .line 14
     iget-object p3, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p3}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -484,23 +455,19 @@
 
     invoke-virtual {p3, v1, v2}, Landroid/app/Activity;->setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 15
     :cond_1
     iget-boolean p2, p2, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;->h:Z
 
     invoke-virtual {p0, p2}, Lcom/meitu/mtmvcore/backend/android/f;->G(Z)V
 
-    .line 16
     iget-boolean p2, p0, Lcom/meitu/mtmvcore/backend/android/f;->o:Z
 
     invoke-virtual {p0, p2}, Lcom/meitu/mtmvcore/backend/android/f;->I(Z)V
 
-    .line 17
     iget-boolean p2, p0, Lcom/meitu/mtmvcore/backend/android/f;->n:Z
 
     invoke-virtual {p0, p2}, Lcom/meitu/mtmvcore/backend/android/f;->v(Z)V
 
-    .line 18
     iget-boolean p2, p0, Lcom/meitu/mtmvcore/backend/android/f;->n:Z
 
     if-eqz p2, :cond_2
@@ -516,12 +483,10 @@
     :try_start_1
     const-string p2, "com.meitu.mtmvcore.backend.android.o"
 
-    .line 19
     invoke-static {p2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p2
 
-    .line 20
     invoke-virtual {p2}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
     move-result-object p3
@@ -530,7 +495,6 @@
 
     new-array v2, p4, [Ljava/lang/Class;
 
-    .line 21
     const-class v3, Lcom/meitu/mtmvcore/backend/android/g;
 
     const/4 v4, 0x0
@@ -545,7 +509,6 @@
 
     aput-object p0, v1, v4
 
-    .line 22
     sget-object v2, Lcom/meitu/mtmvcore/backend/android/f;->s:Lorg/aspectj/lang/c$b;
 
     invoke-static {v2, p0, p2, p3, v1}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -597,17 +560,14 @@
 
     const-string p3, "Failed to create AndroidVisibilityListener"
 
-    .line 23
     invoke-virtual {p0, p1, p3, p2}, Lcom/meitu/mtmvcore/backend/android/f;->z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 24
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 25
     :cond_3
     new-instance p1, Lcom/meitu/flymedia/glx/utils/GlxRuntimeException;
 
@@ -627,7 +587,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -644,7 +603,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -661,7 +619,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -678,7 +635,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -697,21 +653,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/backend/android/f;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
@@ -722,7 +675,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v1}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -733,7 +685,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -747,17 +698,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->m:I
 
     const/4 v2, 0x3
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     invoke-static {p1, p2, p3}, Lcom/meitu/debug/Logger;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -779,7 +727,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->l:Lcom/meitu/flymedia/glx/utils/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -803,7 +750,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
     if-eqz v1, :cond_1
@@ -816,7 +762,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -828,7 +773,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     :goto_0
     move-object v1, p1
@@ -837,14 +781,12 @@
 
     invoke-interface {v1, p0}, Lcom/meitu/mtmvcore/backend/android/p;->o(Lcom/meitu/mtmvcore/backend/android/n;)V
 
-    .line 4
     new-instance v1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v1, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -859,7 +801,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -876,7 +817,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/Window;->addFlags(I)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -890,7 +830,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -899,7 +838,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -908,19 +846,16 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    .line 3
     check-cast v1, Lcom/meitu/mtmvcore/backend/android/p;
 
     const/4 v2, 0x0
 
     invoke-interface {v1, v2}, Lcom/meitu/mtmvcore/backend/android/p;->o(Lcom/meitu/mtmvcore/backend/android/n;)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->clear()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -936,7 +871,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/backend/android/f;->getVersion()I
 
     move-result p1
@@ -947,7 +881,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
@@ -965,7 +898,6 @@
 
     move-result-object p1
 
-    .line 3
     :try_start_0
     const-class v1, Landroid/view/View;
 
@@ -985,7 +917,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/backend/android/f;->getVersion()I
 
     move-result v2
@@ -1006,7 +937,6 @@
 
     new-array v2, v3, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -1048,7 +978,6 @@
     :cond_1
     new-array v2, v3, [Ljava/lang/Object;
 
-    .line 6
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -1098,16 +1027,13 @@
 
     const-string v2, "Can\'t hide status bar"
 
-    .line 7
     invoke-virtual {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/backend/android/f;->z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1122,7 +1048,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1135,17 +1060,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;
 
     invoke-direct {v1}, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {p0, p1, v1, v2}, Lcom/meitu/mtmvcore/backend/android/f;->L(Lf/k/g/b/c;Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;Lcom/meitu/mtmvcore/backend/android/r/d;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1160,10 +1082,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v1, p3}, Lcom/meitu/mtmvcore/backend/android/f;->J(Lf/k/g/b/c;Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;ZLcom/meitu/mtmvcore/backend/android/r/d;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1178,10 +1098,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-direct {p0, p1, p2, v1, p3}, Lcom/meitu/mtmvcore/backend/android/f;->J(Lf/k/g/b/c;Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;ZLcom/meitu/mtmvcore/backend/android/r/d;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     invoke-virtual {p1}, Lcom/meitu/mtmvcore/backend/android/m;->q()Landroid/view/View;
@@ -1200,12 +1118,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;
 
     invoke-direct {v1}, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;-><init>()V
 
-    .line 2
     invoke-virtual {p0, p1, v1, p2}, Lcom/meitu/mtmvcore/backend/android/f;->M(Lf/k/g/b/c;Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;Lcom/meitu/mtmvcore/backend/android/r/d;)Landroid/view/View;
 
     move-result-object p1
@@ -1222,7 +1138,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1235,32 +1150,26 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     invoke-virtual {v0}, Lcom/meitu/mtmvcore/backend/android/m;->c()Z
 
     move-result v0
 
-    .line 2
     sget-boolean v1, Lcom/meitu/mtmvcore/backend/android/m;->l0:Z
 
     const/4 v2, 0x1
 
-    .line 3
     sput-boolean v2, Lcom/meitu/mtmvcore/backend/android/m;->l0:Z
 
-    .line 4
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     invoke-virtual {v3, v2}, Lcom/meitu/mtmvcore/backend/android/m;->a(Z)V
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     invoke-virtual {v2}, Lcom/meitu/mtmvcore/backend/android/m;->A()V
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -1275,26 +1184,21 @@
 
     if-eqz v2, :cond_0
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     invoke-virtual {v2}, Lcom/meitu/mtmvcore/backend/android/m;->i()V
 
-    .line 8
     :cond_0
     sput-boolean v1, Lcom/meitu/mtmvcore/backend/android/m;->l0:Z
 
-    .line 9
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     invoke-virtual {v1, v0}, Lcom/meitu/mtmvcore/backend/android/m;->a(Z)V
 
-    .line 10
     iget-object v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     invoke-virtual {v0}, Lcom/meitu/mtmvcore/backend/android/m;->y()V
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1307,21 +1211,17 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/meitu/mtmvcore/backend/android/m;->z()V
 
-    .line 3
     :cond_0
     iget-boolean v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->i:Z
 
     if-nez v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     invoke-virtual {v0}, Lcom/meitu/mtmvcore/backend/android/m;->C()V
@@ -1331,10 +1231,8 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->i:Z
 
-    .line 6
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1348,7 +1246,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/app/Activity;
 
     invoke-virtual {p0, p1}, Lcom/meitu/mtmvcore/backend/android/f;->S(Landroid/app/Activity;)V
@@ -1365,10 +1262,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtmvcore/backend/android/f;->m:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1381,17 +1276,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->m:I
 
     const/4 v2, 0x3
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1413,7 +1305,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->k:Lcom/meitu/flymedia/glx/utils/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1428,7 +1319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -1453,17 +1343,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->m:I
 
     const/4 v2, 0x2
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1477,15 +1364,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/mtmvcore/backend/android/m;->D(Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1499,7 +1383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -1520,7 +1403,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->h:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1535,7 +1417,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->m:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1550,7 +1431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1565,17 +1445,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->m:I
 
     const/4 v2, 0x1
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     invoke-static {p1, p2, p3}, Lcom/meitu/debug/Logger;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1589,7 +1466,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->g:Lf/k/g/b/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1604,12 +1480,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->l:Lcom/meitu/flymedia/glx/utils/a;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/f;->l:Lcom/meitu/flymedia/glx/utils/a;
 
@@ -1617,12 +1491,10 @@
 
     invoke-virtual {v2, p1, v3}, Lcom/meitu/flymedia/glx/utils/a;->z(Ljava/lang/Object;Z)Z
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1630,7 +1502,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1648,7 +1519,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1669,7 +1539,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->j:Lcom/meitu/flymedia/glx/utils/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1684,14 +1553,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/backend/android/f;->i()Lf/k/g/b/c;
 
     move-result-object v1
 
     invoke-interface {v1, p1}, Lf/k/g/b/c;->runRunnableInOffscreenThread(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1704,7 +1571,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/app/Activity;
 
     invoke-virtual {p0, p1}, Lcom/meitu/mtmvcore/backend/android/f;->U(Landroid/app/Activity;)V
@@ -1721,7 +1587,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -1746,7 +1611,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1759,23 +1623,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->l:Lcom/meitu/flymedia/glx/utils/a;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/f;->l:Lcom/meitu/flymedia/glx/utils/a;
 
     invoke-virtual {v2, p1}, Lcom/meitu/flymedia/glx/utils/a;->b(Ljava/lang/Object;)V
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1783,7 +1643,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1801,12 +1660,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/m;->y()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1819,7 +1676,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1834,12 +1690,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->f:Lcom/meitu/mtmvcore/backend/android/m;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/m;->z()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1857,7 +1711,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/backend/android/f;->getVersion()I
 
     move-result p1
@@ -1868,7 +1721,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/f;->q:Ljava/lang/ref/WeakReference;
 
@@ -1886,7 +1738,6 @@
 
     move-result-object p1
 
-    .line 3
     :try_start_0
     const-class v1, Landroid/view/View;
 
@@ -1910,7 +1761,6 @@
 
     new-array v4, v3, [Ljava/lang/Object;
 
-    .line 4
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -1970,16 +1820,13 @@
 
     const-string v2, "Can\'t set immersive mode"
 
-    .line 5
     invoke-virtual {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/backend/android/f;->z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1994,17 +1841,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->m:I
 
     const/4 v2, 0x1
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2018,12 +1862,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->n:Z
 
     invoke-virtual {p0, v0}, Lcom/meitu/mtmvcore/backend/android/f;->v(Z)V
 
-    .line 2
     iget-boolean v0, p0, Lcom/meitu/mtmvcore/backend/android/f;->o:Z
 
     invoke-virtual {p0, v0}, Lcom/meitu/mtmvcore/backend/android/f;->I(Z)V
@@ -2032,7 +1874,6 @@
 
     const/4 p2, 0x1
 
-    .line 3
     iput p2, p0, Lcom/meitu/mtmvcore/backend/android/f;->p:I
 
     goto :goto_0
@@ -2040,10 +1881,8 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 4
     iput p2, p0, Lcom/meitu/mtmvcore/backend/android/f;->p:I
 
-    .line 5
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2057,7 +1896,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/app/Activity;
 
     invoke-virtual {p0, p1}, Lcom/meitu/mtmvcore/backend/android/f;->T(Landroid/app/Activity;)V
@@ -2074,17 +1912,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/f;->m:I
 
     const/4 v2, 0x2
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     invoke-static {p1, p2, p3}, Lcom/meitu/debug/Logger;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

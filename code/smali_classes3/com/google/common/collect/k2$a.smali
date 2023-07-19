@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/base/n;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/k2$a;->a:Lcom/google/common/base/n;
 
     invoke-direct {p0}, Lcom/google/common/collect/k2;-><init>()V
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/k2$a;->a:Lcom/google/common/base/n;
 
     invoke-interface {v0, p1}, Lcom/google/common/base/n;->apply(Ljava/lang/Object;)Ljava/lang/Object;

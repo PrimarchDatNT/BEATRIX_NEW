@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/select/c;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public a(Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)Z
     .locals 4
 
-    .line 1
     invoke-virtual {p2}, Lorg/jsoup/nodes/Element;->L1()Lorg/jsoup/nodes/Element;
 
     move-result-object p1
@@ -38,20 +36,17 @@
 
     if-eqz p1, :cond_3
 
-    .line 2
     instance-of v1, p1, Lorg/jsoup/nodes/Document;
 
     if-eqz v1, :cond_0
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lorg/jsoup/nodes/Element;->A0()Lorg/jsoup/select/Elements;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -72,7 +67,6 @@
 
     check-cast v2, Lorg/jsoup/nodes/Element;
 
-    .line 5
     invoke-virtual {v2}, Lorg/jsoup/nodes/Element;->e2()Lorg/jsoup/parser/f;
 
     move-result-object v2

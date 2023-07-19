@@ -54,12 +54,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$j;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->E(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;Lcom/meitu/template/bean/LookMaterial;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$j;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->K()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -74,19 +72,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getStatisticId()Ljava/lang/String;
 
     move-result-object p1
 
     const-string v1, "videolook_material_download_suc"
 
-    .line 4
     invoke-static {v1, v2, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$j;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
@@ -100,19 +95,16 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getStatisticId()Ljava/lang/String;
 
     move-result-object p1
 
     const-string v1, "movielook_material_download_suc"
 
-    .line 7
     invoke-static {v1, v2, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getStatisticId()Ljava/lang/String;
 
@@ -120,10 +112,8 @@
 
     const-string v1, "selfielook_material_download_suc"
 
-    .line 9
     invoke-static {v1, v2, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -137,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/LookMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$j;->a(Lcom/meitu/template/bean/LookMaterial;)V

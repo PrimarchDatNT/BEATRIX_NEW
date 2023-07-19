@@ -13,7 +13,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     invoke-static {}, Lcom/google/ads/AdRequest$ErrorCode;->values()[Lcom/google/ads/AdRequest$ErrorCode;
 
     move-result-object v0
@@ -85,7 +84,6 @@
     :try_end_3
     .catch Ljava/lang/NoSuchFieldError; {:try_start_3 .. :try_end_3} :catch_3
 
-    .line 2
     :catch_3
     invoke-static {}, Lcom/google/ads/AdRequest$Gender;->values()[Lcom/google/ads/AdRequest$Gender;
 

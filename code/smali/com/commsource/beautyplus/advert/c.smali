@@ -37,13 +37,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/beautyplus/advert/c;->b:Lcom/commsource/beautyplus/advert/k;
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautyplus/advert/c;->d()V
 
     return-void
@@ -56,12 +53,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/advert/c;->b:Lcom/commsource/beautyplus/advert/k;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautyplus/advert/k;->a()Ljava/lang/Object;
 
     move-result-object v1
@@ -70,7 +65,6 @@
 
     iput-object v1, p0, Lcom/commsource/beautyplus/advert/c;->a:Lcom/commsource/beautyplus/advert/l/a;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -86,29 +80,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/advert/c;->d()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/advert/c;->a:Lcom/commsource/beautyplus/advert/l/a;
 
     if-eqz v1, :cond_3
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/beautyplus/advert/l/a;->a()Ljava/util/List;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
-    .line 4
     invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
 
     if-nez v2, :cond_3
 
-    .line 5
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -118,7 +107,6 @@
     :goto_0
     if-ltz v2, :cond_3
 
-    .line 6
     invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -131,7 +119,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 7
     invoke-interface {v3}, Ljava/util/List;->isEmpty()Z
 
     move-result v4
@@ -143,7 +130,6 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 8
     :goto_1
     invoke-interface {v3}, Ljava/util/List;->size()I
 
@@ -151,7 +137,6 @@
 
     if-ge v4, v5, :cond_2
 
-    .line 9
     invoke-interface {v3, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -164,7 +149,6 @@
 
     if-ne v5, p1, :cond_1
 
-    .line 10
     invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -189,7 +173,6 @@
     :cond_3
     const/4 p1, 0x0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -202,19 +185,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/advert/c;->b:Lcom/commsource/beautyplus/advert/k;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/commsource/beautyplus/advert/k;->d(Ljava/lang/Object;)V
 
-    .line 3
     :cond_0
     iput-object p1, p0, Lcom/commsource/beautyplus/advert/c;->a:Lcom/commsource/beautyplus/advert/l/a;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -227,25 +206,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/advert/c;->d()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/advert/c;->a:Lcom/commsource/beautyplus/advert/l/a;
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/beautyplus/advert/l/a;->a()Ljava/util/List;
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 5
     :cond_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -253,14 +227,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
-    .line 7
     invoke-virtual {v2}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getId()I
 
     move-result v2
@@ -271,7 +243,6 @@
 
     if-ne v2, v3, :cond_0
 
-    .line 8
     invoke-interface {v1}, Ljava/util/Iterator;->remove()V
 
     const/4 p1, 0x1
@@ -284,17 +255,14 @@
     :goto_0
     if-eqz p1, :cond_2
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/beautyplus/advert/c;->b:Lcom/commsource/beautyplus/advert/k;
 
     if-eqz p1, :cond_2
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautyplus/advert/c;->a:Lcom/commsource/beautyplus/advert/l/a;
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/advert/k;->d(Ljava/lang/Object;)V
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -19,7 +19,6 @@
 .method constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/room/migration/Migration;-><init>(II)V
 
     return-void
@@ -44,15 +43,12 @@
 
     const-string v1, "CREATE TABLE IF NOT EXISTS \'AR_DIY_MATERIAL_GROUP\' (\'_id\'  INTEGER NOT NULL PRIMARY KEY ,\'VERSION_CONTROL\' INTEGER NOT NULL DEFAULT(0) ,\'MIN_VERSION\' TEXT,\'MAX_VERSION\' TEXT,\'SORT\' INTEGER NOT NULL DEFAULT(-1) ,\'END_TIME\' INTEGER NOT NULL DEFAULT(0) ,\'THUMBNAIL\' TEXT,\'NAME\' TEXT);"
 
-    .line 1
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS \'AR_DIY_MATERIAL\' (\'_id\' INTEGER NOT NULL PRIMARY KEY ,\'GROUP_NUMBER\' INTEGER NOT NULL DEFAULT(0) ,\'SORT\' INTEGER NOT NULL DEFAULT(-1) ,\'THUMBNAIL\' TEXT,\'VERSION_CONTROL\' INTEGER NOT NULL DEFAULT(0) ,\'MIN_VERSION\' TEXT,\'MAX_VERSION\' TEXT,\'END_TIME\' INTEGER NOT NULL DEFAULT(0) ,\'IS_3D\' INTEGER NOT NULL DEFAULT(0) ,\'IS_HAIR_COLOR\' INTEGER NOT NULL DEFAULT(0) ,\'PART\' INTEGER NOT NULL DEFAULT(0) ,\'FILE_PATH\' TEXT,\'IS_MATERIAL_DOWNLOADED\' INTEGER NOT NULL DEFAULT(0),\'IS_3D_DOWNLOADED\' INTEGER NOT NULL DEFAULT(0), \'IS_HAIR_DOWNLOAD\' INTEGER NOT NULL DEFAULT(0), \'DOWNLOAD_TIME\' INTEGER NOT NULL DEFAULT(0))"
 
-    .line 2
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

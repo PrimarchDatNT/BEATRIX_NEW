@@ -50,7 +50,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/TableLayoutManager$a;->a:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -65,7 +64,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/TableLayoutManager$a;->c:Lcom/commsource/widget/TableLayoutManager;
 
     invoke-static {v1}, Lcom/commsource/widget/TableLayoutManager;->a(Lcom/commsource/widget/TableLayoutManager;)I
@@ -76,17 +74,14 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->offsetChildrenHorizontal(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/TableLayoutManager$a;->c:Lcom/commsource/widget/TableLayoutManager;
 
     invoke-static {v1, v0}, Lcom/commsource/widget/TableLayoutManager;->b(Lcom/commsource/widget/TableLayoutManager;I)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     new-instance v0, Lcotlin/TypeCastException;
 

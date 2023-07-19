@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/library/abtest/ABTestingManager$b;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/ABTestingManager$b$a;->b:Lcom/meitu/library/abtest/ABTestingManager$b;
 
     iput-object p2, p0, Lcom/meitu/library/abtest/ABTestingManager$b$a;->a:Ljava/lang/String;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/ABTestingManager$b$a;->a:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -55,7 +53,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -76,7 +73,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/abtest/g/a;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/abtest/ABTestingManager$b$a;->b:Lcom/meitu/library/abtest/ABTestingManager$b;
 
     iget-object v1, v1, Lcom/meitu/library/abtest/ABTestingManager$b;->c:Landroid/content/Context;
@@ -85,7 +81,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/abtest/ABTestingManager;->j(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/abtest/ABTestingManager$b$a;->b:Lcom/meitu/library/abtest/ABTestingManager$b;
 
@@ -93,7 +88,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/abtest/ABTestingManager$b;->c(Lcom/meitu/library/abtest/ABTestingManager$b;Z)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

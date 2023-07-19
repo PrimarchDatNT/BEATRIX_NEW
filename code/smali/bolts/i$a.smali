@@ -25,7 +25,6 @@
 .method constructor <init>(Lbolts/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/i$a;->a:Lbolts/i;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lbolts/i$a;->a:Lbolts/i;
 
     invoke-static {v0}, Lbolts/i;->a(Lbolts/i;)Ljava/lang/Object;
@@ -47,7 +45,6 @@
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lbolts/i$a;->a:Lbolts/i;
 
@@ -55,12 +52,10 @@
 
     invoke-static {v1, v2}, Lbolts/i;->b(Lbolts/i;Ljava/util/concurrent/ScheduledFuture;)Ljava/util/concurrent/ScheduledFuture;
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     iget-object v0, p0, Lbolts/i$a;->a:Lbolts/i;
 
     invoke-virtual {v0}, Lbolts/i;->c()V
@@ -70,7 +65,6 @@
     :catchall_0
     move-exception v1
 
-    .line 5
     :try_start_1
     monitor-exit v0
     :try_end_1

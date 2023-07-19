@@ -19,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtlab/g/g/c;
 
     invoke-direct {v1}, Lcom/meitu/mtlab/g/g/c;-><init>()V
@@ -34,15 +33,12 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/mtlab/g/g/c;->a:Lokhttp3/OkHttpClient$Builder;
 
-    .line 3
     new-instance v0, Lokhttp3/OkHttpClient$Builder;
 
     invoke-direct {v0}, Lokhttp3/OkHttpClient$Builder;-><init>()V
@@ -59,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtlab/g/g/c;->b:Lcom/meitu/mtlab/g/g/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -74,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/c;->a:Lokhttp3/OkHttpClient$Builder;
 
     invoke-virtual {v1}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
@@ -106,12 +100,10 @@
 
     check-cast v2, Lokhttp3/Call;
 
-    .line 2
     invoke-interface {v2}, Lokhttp3/Call;->cancel()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/c;->a:Lokhttp3/OkHttpClient$Builder;
 
@@ -144,12 +136,10 @@
 
     check-cast v2, Lokhttp3/Call;
 
-    .line 4
     invoke-interface {v2}, Lokhttp3/Call;->cancel()V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -165,21 +155,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/c;->a:Lokhttp3/OkHttpClient$Builder;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/meitu/mtlab/g/g/c;->d()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -192,7 +178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/c;->a:Lokhttp3/OkHttpClient$Builder;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

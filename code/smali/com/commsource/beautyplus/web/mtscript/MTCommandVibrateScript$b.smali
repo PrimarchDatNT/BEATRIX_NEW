@@ -39,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandVibrateScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandVibrateScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -56,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/web/mtscript/MTCommandVibrateScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandVibrateScript$b;->d(Lcom/commsource/beautyplus/web/mtscript/MTCommandVibrateScript$Model;)V
@@ -81,7 +79,6 @@
 
     const/4 v1, 0x5
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandVibrateScript$Model;->getLevel()I
 
     move-result v2
@@ -94,7 +91,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandVibrateScript$Model;->getLevel()I
 
@@ -106,12 +102,10 @@
 
     const/16 v1, 0xf
 
-    .line 3
     :cond_1
     :goto_0
     invoke-static {v1}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

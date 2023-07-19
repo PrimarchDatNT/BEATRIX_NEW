@@ -56,10 +56,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/common/collect/MapMakerInternalMap$Segment;-><init>(Lcom/google/common/collect/MapMakerInternalMap;II)V
 
-    .line 2
     new-instance p1, Ljava/lang/ref/ReferenceQueue;
 
     invoke-direct {p1}, Ljava/lang/ref/ReferenceQueue;-><init>()V
@@ -72,7 +70,6 @@
 .method static synthetic access$100(Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueSegment;)Ljava/lang/ref/ReferenceQueue;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueSegment;->queueForValues:Ljava/lang/ref/ReferenceQueue;
 
     return-object p0
@@ -83,7 +80,6 @@
 .method public bridge synthetic castForTesting(Lcom/google/common/collect/MapMakerInternalMap$i;)Lcom/google/common/collect/MapMakerInternalMap$i;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueSegment;->castForTesting(Lcom/google/common/collect/MapMakerInternalMap$i;)Lcom/google/common/collect/MapMakerInternalMap$p;
 
     move-result-object p1
@@ -103,7 +99,6 @@
         }
     .end annotation
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/MapMakerInternalMap$p;
 
     return-object p1
@@ -119,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueSegment;->queueForValues:Ljava/lang/ref/ReferenceQueue;
 
     return-object v0
@@ -139,7 +133,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueSegment;->castForTesting(Lcom/google/common/collect/MapMakerInternalMap$i;)Lcom/google/common/collect/MapMakerInternalMap$p;
 
     move-result-object p1
@@ -154,7 +147,6 @@
 .method maybeClearReferenceQueues()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueSegment;->queueForValues:Ljava/lang/ref/ReferenceQueue;
 
     invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap$Segment;->clearReferenceQueue(Ljava/lang/ref/ReferenceQueue;)V
@@ -165,7 +157,6 @@
 .method maybeDrainReferenceQueues()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueSegment;->queueForValues:Ljava/lang/ref/ReferenceQueue;
 
     invoke-virtual {p0, v0}, Lcom/google/common/collect/MapMakerInternalMap$Segment;->drainValueReferenceQueue(Ljava/lang/ref/ReferenceQueue;)V
@@ -187,7 +178,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/MapMakerInternalMap$y;
 
     iget-object v1, p0, Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueSegment;->queueForValues:Ljava/lang/ref/ReferenceQueue;
@@ -204,7 +194,6 @@
 .method bridge synthetic self()Lcom/google/common/collect/MapMakerInternalMap$Segment;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueSegment;->self()Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueSegment;
 
     move-result-object v0
@@ -239,20 +228,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueSegment;->castForTesting(Lcom/google/common/collect/MapMakerInternalMap$i;)Lcom/google/common/collect/MapMakerInternalMap$p;
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/MapMakerInternalMap$p;->b(Lcom/google/common/collect/MapMakerInternalMap$p;)Lcom/google/common/collect/MapMakerInternalMap$x;
 
     move-result-object v0
 
-    .line 3
     invoke-static {p1, p2}, Lcom/google/common/collect/MapMakerInternalMap$p;->c(Lcom/google/common/collect/MapMakerInternalMap$p;Lcom/google/common/collect/MapMakerInternalMap$x;)Lcom/google/common/collect/MapMakerInternalMap$x;
 
-    .line 4
     invoke-interface {v0}, Lcom/google/common/collect/MapMakerInternalMap$x;->clear()V
 
     return-void

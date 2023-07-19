@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/g;-><init>()V
 
     return-void
@@ -48,7 +47,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/collections/o1/a;->e(Ljava/util/Map$Entry;)Z
 
     move-result p1
@@ -59,7 +57,6 @@
 .method public final bridge contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0
@@ -95,7 +92,6 @@
 .method public bridge h(Ljava/util/Map$Entry;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Ljava/util/AbstractSet;->remove(Ljava/lang/Object;)Z
 
     move-result p1
@@ -106,7 +102,6 @@
 .method public final bridge remove(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0

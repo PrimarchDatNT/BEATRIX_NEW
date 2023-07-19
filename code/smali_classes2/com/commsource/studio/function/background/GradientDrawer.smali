@@ -64,12 +64,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->k:Landroid/view/View;
 
-    .line 2
     sget-object p1, Lcom/commsource/studio/function/background/GradientDrawer$backgroundPaint$2;->INSTANCE:Lcom/commsource/studio/function/background/GradientDrawer$backgroundPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -78,7 +76,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->c:Lcotlin/w;
 
-    .line 3
     sget-object p1, Lcom/commsource/studio/function/background/GradientDrawer$strokePaint$2;->INSTANCE:Lcom/commsource/studio/function/background/GradientDrawer$strokePaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -87,7 +84,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->d:Lcotlin/w;
 
-    .line 4
     sget-object p1, Lcom/commsource/studio/function/background/GradientDrawer$selectPaint$2;->INSTANCE:Lcom/commsource/studio/function/background/GradientDrawer$selectPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -96,14 +92,12 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->e:Lcotlin/w;
 
-    .line 5
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->f:Landroid/graphics/Path;
 
-    .line 6
     new-instance p1, Lcom/commsource/studio/function/background/c;
 
     invoke-direct {p1}, Lcom/commsource/studio/function/background/c;-><init>()V
@@ -126,20 +120,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->g:Lcom/commsource/studio/function/background/BackgroundType;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->h:Lcom/commsource/studio/function/background/c;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/background/c;->a(Lcom/commsource/studio/function/background/BackgroundType;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->k:Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -176,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->g:Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -191,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -221,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -238,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->k:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -255,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->f:Landroid/graphics/Path;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -294,7 +278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->h:Lcom/commsource/studio/function/background/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -331,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -354,14 +336,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->g:Lcom/commsource/studio/function/background/BackgroundType;
 
     const/high16 v2, 0x40000000    # 2.0f
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/GradientDrawer;->b()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -374,7 +354,6 @@
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 3
     iget v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->a:I
 
     int-to-float v1, v1
@@ -397,20 +376,17 @@
 
     invoke-virtual {p1, v1, v4, v3, v5}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 4
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->j:Z
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->a:I
 
     int-to-float v1, v1
 
     div-float/2addr v1, v2
 
-    .line 6
     iget v3, p0, Lcom/commsource/studio/function/background/GradientDrawer;->b:I
 
     int-to-float v4, v3
@@ -421,7 +397,6 @@
 
     div-float/2addr v3, v2
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/GradientDrawer;->k()Landroid/graphics/Paint;
 
     move-result-object v5
@@ -434,21 +409,17 @@
 
     sub-float/2addr v3, v5
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/GradientDrawer;->k()Landroid/graphics/Paint;
 
     move-result-object v5
 
-    .line 9
     invoke-virtual {p1, v1, v4, v3, v5}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 10
     :cond_1
     iget-boolean v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->i:Z
 
     if-eqz v1, :cond_2
 
-    .line 11
     iget v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->a:I
 
     int-to-float v1, v1
@@ -481,7 +452,6 @@
 
     invoke-virtual {p1, v1, v3, v5, v6}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 12
     iget v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->a:I
 
     int-to-float v1, v1
@@ -514,7 +484,6 @@
 
     invoke-virtual {p1, v1, v3, v4, v6}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 13
     iget v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->a:I
 
     int-to-float v1, v1
@@ -547,7 +516,6 @@
 
     invoke-virtual {p1, v1, v3, v4, v2}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 14
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -561,23 +529,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->a:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/studio/function/background/GradientDrawer;->b:I
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->h:Lcom/commsource/studio/function/background/c;
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/studio/function/background/c;->b(II)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->k:Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -594,7 +557,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->g:Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -609,7 +571,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -624,7 +585,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -639,7 +599,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -654,15 +613,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->i:Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->k:Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -683,7 +639,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->h:Lcom/commsource/studio/function/background/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

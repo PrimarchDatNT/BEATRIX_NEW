@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/util/c$a;-><init>()V
 
     return-void
@@ -48,7 +46,6 @@
 
     const/4 p3, -0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/util/c$a;->b(Landroid/util/SparseArray;Landroid/util/SparseArray;I)Ljava/util/HashMap;
 
@@ -70,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/xcamera/util/c;->a()Lcom/commsource/camera/xcamera/util/c;
 
     move-result-object v1
@@ -113,12 +109,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/commsource/camera/a1/g;->g:[I
 
     array-length v3, v2
@@ -132,7 +126,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 3
     invoke-virtual {p1, v5}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -141,21 +134,18 @@
 
     if-eqz v6, :cond_5
 
-    .line 4
     sget-object v7, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;
 
     invoke-virtual {v7, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;->d(I)Ljava/lang/String;
 
     move-result-object v8
 
-    .line 5
     invoke-virtual {v7, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;->c(I)Ljava/lang/String;
 
     move-result-object v9
 
     if-eqz p2, :cond_0
 
-    .line 6
     invoke-virtual {p2, v5}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v10
@@ -167,7 +157,6 @@
     :cond_0
     const/4 v10, 0x0
 
-    .line 7
     :goto_1
     invoke-virtual {v6}, Lcom/commsource/repository/child/makeup/h;->d()Ljava/lang/String;
 
@@ -179,7 +168,6 @@
 
     if-ne p3, v8, :cond_2
 
-    .line 8
     invoke-virtual {v7, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;->j(I)Z
 
     move-result v8
@@ -188,7 +176,6 @@
 
     if-eqz v10, :cond_1
 
-    .line 9
     invoke-virtual {v10}, Lcom/commsource/repository/child/makeup/h;->h()I
 
     move-result v8
@@ -201,7 +188,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_1
     invoke-virtual {v6}, Lcom/commsource/repository/child/makeup/h;->h()I
 
@@ -215,7 +201,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_2
     invoke-virtual {v7, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;->j(I)Z
 
@@ -225,7 +210,6 @@
 
     if-eqz v10, :cond_3
 
-    .line 12
     invoke-virtual {v10, p3}, Lcom/commsource/repository/child/makeup/h;->q(I)I
 
     move-result v8
@@ -238,7 +222,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_3
     invoke-virtual {v6, p3}, Lcom/commsource/repository/child/makeup/h;->q(I)I
 
@@ -253,12 +236,10 @@
     :goto_2
     if-eqz v10, :cond_5
 
-    .line 14
     invoke-virtual {v7, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;->e(I)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 15
     invoke-virtual {v6}, Lcom/commsource/repository/child/makeup/h;->W()Z
 
     move-result v6
@@ -267,7 +248,6 @@
 
     if-eqz v6, :cond_4
 
-    .line 16
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -286,7 +266,6 @@
 
     goto :goto_3
 
-    .line 17
     :cond_4
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -312,7 +291,6 @@
 
     goto/16 :goto_0
 
-    .line 18
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -348,7 +326,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getMakeupWrappers()Landroid/util/SparseArray;
 
     move-result-object v2

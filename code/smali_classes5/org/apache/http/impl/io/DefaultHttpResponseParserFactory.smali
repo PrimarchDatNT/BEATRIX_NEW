@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/io/DefaultHttpResponseParserFactory;
 
     invoke-direct {v0}, Lorg/apache/http/impl/io/DefaultHttpResponseParserFactory;-><init>()V
@@ -49,7 +48,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-direct {p0, v0, v0}, Lorg/apache/http/impl/io/DefaultHttpResponseParserFactory;-><init>(Lorg/apache/http/message/LineParser;Lorg/apache/http/HttpResponseFactory;)V
 
     return-void
@@ -58,14 +56,12 @@
 .method public constructor <init>(Lorg/apache/http/message/LineParser;Lorg/apache/http/HttpResponseFactory;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-eqz p1, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p1, Lorg/apache/http/message/BasicLineParser;->INSTANCE:Lorg/apache/http/message/BasicLineParser;
 
@@ -76,7 +72,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     sget-object p2, Lorg/apache/http/impl/DefaultHttpResponseFactory;->INSTANCE:Lorg/apache/http/impl/DefaultHttpResponseFactory;
 
@@ -102,7 +97,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/io/DefaultHttpResponseParser;
 
     iget-object v1, p0, Lorg/apache/http/impl/io/DefaultHttpResponseParserFactory;->lineParser:Lorg/apache/http/message/LineParser;

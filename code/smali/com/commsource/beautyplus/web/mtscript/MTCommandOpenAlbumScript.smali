@@ -55,17 +55,14 @@
 
     const-string v1, "mtcommand://openPhotoLibrary"
 
-    .line 1
     sput-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->g:Ljava/lang/String;
 
     const/16 v1, 0x2a9
 
-    .line 2
     sput v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->h:I
 
     const-string v1, "0"
 
-    .line 3
     sput-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -100,7 +97,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/webview/mtscript/i;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
     return-void
@@ -113,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->T(Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$Model;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -128,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -143,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -158,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->l:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -173,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -188,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -203,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -218,7 +207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->l:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -233,7 +221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -248,7 +235,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -263,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -278,21 +263,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$Model;->getHeight()I
 
     move-result v1
 
     sput v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->j:I
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$Model;->getWidth()I
 
     move-result v1
 
     sput v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->i:I
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->p()Ljava/lang/String;
 
     move-result-object v1
@@ -303,7 +285,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->k:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$Model;->getData()Ljava/util/Map;
 
     move-result-object v1
@@ -327,7 +308,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$Model;->getData()Ljava/util/Map;
 
     move-result-object v1
@@ -364,7 +344,6 @@
 
     throw p1
 
-    .line 6
     :cond_3
     :goto_0
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
@@ -373,12 +352,10 @@
 
     if-eqz v1, :cond_5
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/webview/mtscript/i;->d:Lf/k/o0/c/c;
 
     if-eqz v2, :cond_4
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$Model;->getData()Ljava/util/Map;
 
     move-result-object p1
@@ -393,12 +370,10 @@
 
     if-eqz p1, :cond_4
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_4
     new-instance p1, Landroid/content/Intent;
 
@@ -408,17 +383,14 @@
 
     const-string v2, "android.intent.category.OPENABLE"
 
-    .line 11
     invoke-virtual {p1, v2}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string v2, "image/*"
 
-    .line 12
     invoke-virtual {p1, v2}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     sget v2, Lcom/res/provider/ResSTRING;->meitu_webview_choose_file:I
 
-    .line 13
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -427,7 +399,6 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {p1, v2}, Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
 
     move-result-object p1
@@ -436,12 +407,10 @@
 
     invoke-virtual {v1, p1, v2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -457,7 +426,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -472,7 +440,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$b;
 
     const-class v2, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$Model;
@@ -481,7 +448,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/i;->E(Lcom/meitu/webview/mtscript/i$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1

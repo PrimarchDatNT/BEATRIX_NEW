@@ -35,7 +35,6 @@
 .method constructor <init>(Ljava/util/concurrent/CountDownLatch;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/f0$d;->a:Ljava/util/concurrent/CountDownLatch;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -66,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/f0$d;->a:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V

@@ -40,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/channels/a$i;->a:Lcotlinx/coroutines/channels/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -78,7 +77,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/a$i;->a:Lcotlinx/coroutines/channels/a;
 
     if-eqz p2, :cond_0

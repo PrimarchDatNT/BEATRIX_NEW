@@ -48,12 +48,10 @@
 .method public constructor <init>(Lorg/apache/thrift/server/AbstractNonblockingServer;Lorg/apache/thrift/transport/TNonblockingTransport;Ljava/nio/channels/SelectionKey;Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->this$0:Lorg/apache/thrift/server/AbstractNonblockingServer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -68,44 +66,36 @@
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->LOGGER:Lorg/slf4j/c;
 
-    .line 3
     sget-object v0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->READING_FRAME_SIZE:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
-    .line 4
     iput-object p2, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->trans_:Lorg/apache/thrift/transport/TNonblockingTransport;
 
-    .line 5
     iput-object p3, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->selectionKey_:Ljava/nio/channels/SelectionKey;
 
-    .line 6
     iput-object p4, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->selectThread_:Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;
 
     const/4 p2, 0x4
 
-    .line 7
     invoke-static {p2}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object p2
 
     iput-object p2, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->buffer_:Ljava/nio/ByteBuffer;
 
-    .line 8
     new-instance p2, Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-direct {p2}, Lorg/apache/thrift/transport/TMemoryInputTransport;-><init>()V
 
     iput-object p2, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->frameTrans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
-    .line 9
     new-instance p3, Lorg/apache/thrift/TByteArrayOutputStream;
 
     invoke-direct {p3}, Lorg/apache/thrift/TByteArrayOutputStream;-><init>()V
 
     iput-object p3, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->response_:Lorg/apache/thrift/TByteArrayOutputStream;
 
-    .line 10
     iget-object p4, p1, Lorg/apache/thrift/server/TServer;->inputTransportFactory_:Lorg/apache/thrift/transport/TTransportFactory;
 
     invoke-virtual {p4, p2}, Lorg/apache/thrift/transport/TTransportFactory;->getTransport(Lorg/apache/thrift/transport/TTransport;)Lorg/apache/thrift/transport/TTransport;
@@ -114,7 +104,6 @@
 
     iput-object p2, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->inTrans_:Lorg/apache/thrift/transport/TTransport;
 
-    .line 11
     iget-object p4, p1, Lorg/apache/thrift/server/TServer;->outputTransportFactory_:Lorg/apache/thrift/transport/TTransportFactory;
 
     new-instance v0, Lorg/apache/thrift/transport/TIOStreamTransport;
@@ -127,7 +116,6 @@
 
     iput-object p3, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->outTrans_:Lorg/apache/thrift/transport/TTransport;
 
-    .line 12
     iget-object p4, p1, Lorg/apache/thrift/server/TServer;->inputProtocolFactory_:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     invoke-interface {p4, p2}, Lorg/apache/thrift/protocol/TProtocolFactory;->getProtocol(Lorg/apache/thrift/transport/TTransport;)Lorg/apache/thrift/protocol/TProtocol;
@@ -136,7 +124,6 @@
 
     iput-object p2, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->inProt_:Lorg/apache/thrift/protocol/TProtocol;
 
-    .line 13
     iget-object p4, p1, Lorg/apache/thrift/server/TServer;->outputProtocolFactory_:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     invoke-interface {p4, p3}, Lorg/apache/thrift/protocol/TProtocolFactory;->getProtocol(Lorg/apache/thrift/transport/TTransport;)Lorg/apache/thrift/protocol/TProtocol;
@@ -145,12 +132,10 @@
 
     iput-object p3, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->outProt_:Lorg/apache/thrift/protocol/TProtocol;
 
-    .line 14
     iget-object p1, p1, Lorg/apache/thrift/server/TServer;->eventHandler_:Lorg/apache/thrift/server/TServerEventHandler;
 
     if-eqz p1, :cond_0
 
-    .line 15
     invoke-interface {p1, p2, p3}, Lorg/apache/thrift/server/TServerEventHandler;->createContext(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/server/ServerContext;
 
     move-result-object p1
@@ -162,7 +147,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 16
     iput-object p1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->context_:Lorg/apache/thrift/server/ServerContext;
 
     :goto_0
@@ -174,7 +158,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->trans_:Lorg/apache/thrift/transport/TNonblockingTransport;
 
@@ -198,7 +181,6 @@
     :catch_0
     move-exception v1
 
-    .line 2
     iget-object v2, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->LOGGER:Lorg/slf4j/c;
 
     const-string v3, "Got an IOException in internalRead!"
@@ -211,7 +193,6 @@
 .method private prepareRead()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->selectionKey_:Ljava/nio/channels/SelectionKey;
 
     const/4 v1, 0x1
@@ -220,14 +201,12 @@
 
     const/4 v0, 0x4
 
-    .line 2
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->buffer_:Ljava/nio/ByteBuffer;
 
-    .line 3
     sget-object v0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->READING_FRAME_SIZE:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
@@ -240,55 +219,46 @@
 .method public changeSelectInterests()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     sget-object v1, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->AWAITING_REGISTER_WRITE:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->selectionKey_:Ljava/nio/channels/SelectionKey;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Ljava/nio/channels/SelectionKey;->interestOps(I)Ljava/nio/channels/SelectionKey;
 
-    .line 3
     sget-object v0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->WRITING:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v1, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->AWAITING_REGISTER_READ:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     if-ne v0, v1, :cond_1
 
-    .line 5
     invoke-direct {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->prepareRead()V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     sget-object v1, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->AWAITING_CLOSE:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     if-ne v0, v1, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->close()V
 
-    .line 8
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->selectionKey_:Ljava/nio/channels/SelectionKey;
 
     invoke-virtual {v0}, Ljava/nio/channels/SelectionKey;->cancel()V
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->LOGGER:Lorg/slf4j/c;
 
@@ -321,7 +291,6 @@
 .method public close()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     sget-object v1, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->READING_FRAME:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
@@ -336,7 +305,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->this$0:Lorg/apache/thrift/server/AbstractNonblockingServer;
 
@@ -356,20 +324,17 @@
 
     invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/atomic/AtomicLong;->addAndGet(J)J
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->trans_:Lorg/apache/thrift/transport/TNonblockingTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->close()V
 
-    .line 4
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->this$0:Lorg/apache/thrift/server/AbstractNonblockingServer;
 
     iget-object v0, v0, Lorg/apache/thrift/server/TServer;->eventHandler_:Lorg/apache/thrift/server/TServerEventHandler;
 
     if-eqz v0, :cond_2
 
-    .line 5
     iget-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->context_:Lorg/apache/thrift/server/ServerContext;
 
     iget-object v2, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->inProt_:Lorg/apache/thrift/protocol/TProtocol;
@@ -385,7 +350,6 @@
 .method public invoke()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->frameTrans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     iget-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->buffer_:Ljava/nio/ByteBuffer;
@@ -396,12 +360,10 @@
 
     invoke-virtual {v0, v1}, Lorg/apache/thrift/transport/TMemoryInputTransport;->reset([B)V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->response_:Lorg/apache/thrift/TByteArrayOutputStream;
 
     invoke-virtual {v0}, Lorg/apache/thrift/TByteArrayOutputStream;->reset()V
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->this$0:Lorg/apache/thrift/server/AbstractNonblockingServer;
 
@@ -409,7 +371,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->context_:Lorg/apache/thrift/server/ServerContext;
 
     iget-object v2, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->inTrans_:Lorg/apache/thrift/transport/TTransport;
@@ -418,7 +379,6 @@
 
     invoke-interface {v0, v1, v2, v3}, Lorg/apache/thrift/server/TServerEventHandler;->processContext(Lorg/apache/thrift/server/ServerContext;Lorg/apache/thrift/transport/TTransport;Lorg/apache/thrift/transport/TTransport;)V
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->this$0:Lorg/apache/thrift/server/AbstractNonblockingServer;
 
@@ -436,7 +396,6 @@
 
     invoke-interface {v0, v1, v2}, Lorg/apache/thrift/TProcessor;->process(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)Z
 
-    .line 6
     invoke-virtual {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->responseReady()V
     :try_end_0
     .catch Lorg/apache/thrift/TException; {:try_start_0 .. :try_end_0} :catch_0
@@ -447,7 +406,6 @@
     :catchall_0
     move-exception v0
 
-    .line 7
     iget-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->LOGGER:Lorg/slf4j/c;
 
     const-string v2, "Unexpected throwable while invoking!"
@@ -459,20 +417,17 @@
     :catch_0
     move-exception v0
 
-    .line 8
     iget-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->LOGGER:Lorg/slf4j/c;
 
     const-string v2, "Exception while invoking!"
 
     invoke-interface {v1, v2, v0}, Lorg/slf4j/c;->warn(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 9
     :goto_0
     sget-object v0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->AWAITING_CLOSE:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
-    .line 10
     invoke-virtual {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->requestSelectInterestChange()V
 
     return-void
@@ -481,7 +436,6 @@
 .method public isFrameFullyRead()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     sget-object v1, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->READ_FRAME_COMPLETE:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
@@ -502,7 +456,6 @@
 .method public read()Z
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     sget-object v1, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->READING_FRAME_SIZE:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
@@ -513,7 +466,6 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 2
     invoke-direct {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->internalRead()Z
 
     move-result v0
@@ -522,7 +474,6 @@
 
     return v3
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->buffer_:Ljava/nio/ByteBuffer;
 
@@ -532,7 +483,6 @@
 
     if-nez v0, :cond_4
 
-    .line 4
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->buffer_:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0, v3}, Ljava/nio/ByteBuffer;->getInt(I)I
@@ -541,7 +491,6 @@
 
     if-gtz v0, :cond_1
 
-    .line 5
     iget-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->LOGGER:Lorg/slf4j/c;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -569,7 +518,6 @@
     :cond_1
     int-to-long v4, v0
 
-    .line 6
     iget-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->this$0:Lorg/apache/thrift/server/AbstractNonblockingServer;
 
     iget-wide v6, v1, Lorg/apache/thrift/server/AbstractNonblockingServer;->MAX_READ_BUFFER_BYTES:J
@@ -578,7 +526,6 @@
 
     if-lez v8, :cond_2
 
-    .line 7
     iget-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->LOGGER:Lorg/slf4j/c;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -603,7 +550,6 @@
 
     return v3
 
-    .line 8
     :cond_2
     iget-object v1, v1, Lorg/apache/thrift/server/AbstractNonblockingServer;->readBufferBytesAllocated:Ljava/util/concurrent/atomic/AtomicLong;
 
@@ -623,7 +569,6 @@
 
     return v2
 
-    .line 9
     :cond_3
     iget-object v1, v1, Lorg/apache/thrift/server/AbstractNonblockingServer;->readBufferBytesAllocated:Ljava/util/concurrent/atomic/AtomicLong;
 
@@ -633,17 +578,14 @@
 
     invoke-virtual {v1, v5, v6}, Ljava/util/concurrent/atomic/AtomicLong;->addAndGet(J)J
 
-    .line 10
     invoke-static {v4}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v1
 
     iput-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->buffer_:Ljava/nio/ByteBuffer;
 
-    .line 11
     invoke-virtual {v1, v0}, Ljava/nio/ByteBuffer;->putInt(I)Ljava/nio/ByteBuffer;
 
-    .line 12
     sget-object v0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->READING_FRAME:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
@@ -653,7 +595,6 @@
     :cond_4
     return v2
 
-    .line 13
     :cond_5
     :goto_0
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
@@ -662,7 +603,6 @@
 
     if-ne v0, v1, :cond_8
 
-    .line 14
     invoke-direct {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->internalRead()Z
 
     move-result v0
@@ -671,7 +611,6 @@
 
     return v3
 
-    .line 15
     :cond_6
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->buffer_:Ljava/nio/ByteBuffer;
 
@@ -681,12 +620,10 @@
 
     if-nez v0, :cond_7
 
-    .line 16
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->selectionKey_:Ljava/nio/channels/SelectionKey;
 
     invoke-virtual {v0, v3}, Ljava/nio/channels/SelectionKey;->interestOps(I)Ljava/nio/channels/SelectionKey;
 
-    .line 17
     sget-object v0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->READ_FRAME_COMPLETE:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
@@ -694,7 +631,6 @@
     :cond_7
     return v2
 
-    .line 18
     :cond_8
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->LOGGER:Lorg/slf4j/c;
 
@@ -726,7 +662,6 @@
 .method protected requestSelectInterestChange()V
     .locals 2
 
-    .line 1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -735,12 +670,10 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->changeSelectInterests()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v1, p0}, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->requestSelectInterestChange(Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;)V
 
@@ -751,7 +684,6 @@
 .method public responseReady()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->this$0:Lorg/apache/thrift/server/AbstractNonblockingServer;
 
     iget-object v0, v0, Lorg/apache/thrift/server/AbstractNonblockingServer;->readBufferBytesAllocated:Ljava/util/concurrent/atomic/AtomicLong;
@@ -770,7 +702,6 @@
 
     invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/atomic/AtomicLong;->addAndGet(J)J
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->response_:Lorg/apache/thrift/TByteArrayOutputStream;
 
     invoke-virtual {v0}, Lorg/apache/thrift/TByteArrayOutputStream;->len()I
@@ -779,19 +710,16 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     sget-object v0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->AWAITING_REGISTER_READ:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->buffer_:Ljava/nio/ByteBuffer;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->response_:Lorg/apache/thrift/TByteArrayOutputStream;
 
@@ -813,12 +741,10 @@
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->buffer_:Ljava/nio/ByteBuffer;
 
-    .line 6
     sget-object v0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->AWAITING_REGISTER_WRITE:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
-    .line 7
     :goto_0
     invoke-virtual {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->requestSelectInterestChange()V
 
@@ -828,7 +754,6 @@
 .method public write()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->state_:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     sget-object v1, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->WRITING:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
@@ -837,7 +762,6 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->trans_:Lorg/apache/thrift/transport/TNonblockingTransport;
 
@@ -853,7 +777,6 @@
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->buffer_:Ljava/nio/ByteBuffer;
 
@@ -863,7 +786,6 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     invoke-direct {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->prepareRead()V
 
     :cond_1
@@ -874,7 +796,6 @@
     :catch_0
     move-exception v0
 
-    .line 5
     iget-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->LOGGER:Lorg/slf4j/c;
 
     const-string v3, "Got an IOException during write!"
@@ -883,7 +804,6 @@
 
     return v2
 
-    .line 6
     :cond_2
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->LOGGER:Lorg/slf4j/c;
 

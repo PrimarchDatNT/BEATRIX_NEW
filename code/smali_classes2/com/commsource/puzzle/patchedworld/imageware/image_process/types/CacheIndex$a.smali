@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     invoke-direct {v1, p1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;-><init>(Landroid/os/Parcel;)V
@@ -62,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-array p1, p1, [Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -77,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex$a;->a(Landroid/os/Parcel;)Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     move-result-object p1
@@ -94,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex$a;->b(I)[Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     move-result-object p1

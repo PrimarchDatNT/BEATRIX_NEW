@@ -37,7 +37,6 @@
 .method constructor <init>(Lbolts/r;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/r$a;->b:Lbolts/r;
 
     iput-object p2, p0, Lbolts/r$a;->a:Landroid/net/Uri;
@@ -67,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lbolts/o;->F()Ljava/lang/Object;
 
     move-result-object p1
@@ -78,7 +76,6 @@
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lbolts/r$a;->a:Landroid/net/Uri;
 
     invoke-static {p1, v0}, Lbolts/r;->b(Ljava/util/Map;Landroid/net/Uri;)Lbolts/b;
@@ -96,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lbolts/r$a;->a(Lbolts/o;)Lbolts/b;
 
     move-result-object p1

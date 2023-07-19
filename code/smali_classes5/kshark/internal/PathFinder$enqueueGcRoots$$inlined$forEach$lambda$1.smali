@@ -65,7 +65,6 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lkshark/internal/PathFinder$enqueueGcRoots$$inlined$forEach$lambda$1;->invoke()Ljava/lang/String;
 
     move-result-object v0
@@ -78,7 +77,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lkshark/internal/PathFinder$enqueueGcRoots$$inlined$forEach$lambda$1;->$threadInstance:Lkshark/HeapObject$HeapInstance;
 
     const-class v1, Ljava/lang/Thread;
@@ -112,7 +110,6 @@
     :cond_0
     const-string v0, ""
 
-    .line 3
     :goto_0
     iget-object v1, p0, Lkshark/internal/PathFinder$enqueueGcRoots$$inlined$forEach$lambda$1;->$threadNames$inlined:Ljava/util/Map;
 

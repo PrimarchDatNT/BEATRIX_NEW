@@ -34,7 +34,6 @@
 .method constructor <init>(Lf/r/c/e/h/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/e/h/a$a;->a:Lf/r/c/e/h/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -55,11 +54,9 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lf/r/c/e/h/a$a;->a:Lf/r/c/e/h/a;
 
-    .line 2
     invoke-static {v0}, Lf/r/c/e/h/a;->a(Lf/r/c/e/h/a;)Lf/r/c/b;
 
     move-result-object v0
@@ -72,7 +69,6 @@
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lf/r/c/e/h/a$a;->a:Lf/r/c/e/h/a;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->isLimitAdTrackingEnabled()Z
@@ -81,7 +77,6 @@
 
     invoke-static {v1, v2}, Lf/r/c/e/h/a;->c(Lf/r/c/e/h/a;Z)Z
 
-    .line 4
     iget-object v1, p0, Lf/r/c/e/h/a$a;->a:Lf/r/c/e/h/a;
 
     invoke-static {v1}, Lf/r/c/e/h/a;->b(Lf/r/c/e/h/a;)Z
@@ -90,7 +85,6 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lf/r/c/e/h/a$a;->a:Lf/r/c/e/h/a;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->getId()Ljava/lang/String;
@@ -99,7 +93,6 @@
 
     invoke-static {v1, v0}, Lf/r/c/e/h/a;->d(Lf/r/c/e/h/a;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 6
     iget-object v0, p0, Lf/r/c/e/h/a$a;->a:Lf/r/c/e/h/a;
 
     const-string v1, "aaid"
@@ -108,7 +101,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v0, p0, Lf/r/c/e/h/a$a;->a:Lf/r/c/e/h/a;
 
@@ -118,7 +110,6 @@
 
     invoke-static {v0, v1}, Lf/r/c/e/h/a;->d(Lf/r/c/e/h/a;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 8
     iget-object v0, p0, Lf/r/c/e/h/a$a;->a:Lf/r/c/e/h/a;
 
     const-string v1, "sessionid"
@@ -132,7 +123,6 @@
 
     goto :goto_0
 
-    .line 9
     :catch_0
     invoke-static {}, Lf/r/c/e/h/a;->g()Ljava/lang/String;
 
@@ -159,7 +149,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lf/r/c/e/h/a$a;->a()Ljava/lang/Void;
 
     move-result-object v0

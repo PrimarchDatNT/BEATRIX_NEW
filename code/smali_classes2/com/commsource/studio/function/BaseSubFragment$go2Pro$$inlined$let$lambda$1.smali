@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -79,7 +78,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$go2Pro$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     const/4 v2, 0x2
@@ -90,13 +88,11 @@
 
     invoke-static {v1, v4, v4, v2, v3}, Lcom/commsource/studio/function/BaseSubFragment;->y1(Lcom/commsource/studio/function/BaseSubFragment;IZILjava/lang/Object;)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$go2Pro$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/BaseSubFragment;->O0(Z)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

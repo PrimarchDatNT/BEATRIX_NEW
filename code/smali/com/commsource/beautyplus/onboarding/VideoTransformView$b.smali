@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$b;->a:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +91,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$b;->a:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->e(Lcom/commsource/beautyplus/onboarding/VideoTransformView;)Lcom/commsource/beautyplus/f0/q1;
@@ -109,7 +105,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/widget/VideoPlayComponent;->t()V
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$b;->a:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
@@ -133,12 +128,10 @@
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->removeView(Landroid/view/View;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$b;->a:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
     invoke-static {v0, v2}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->j(Lcom/commsource/beautyplus/onboarding/VideoTransformView;Lcom/commsource/beautyplus/f0/q1;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -151,7 +144,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$b;->a:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->e(Lcom/commsource/beautyplus/onboarding/VideoTransformView;)Lcom/commsource/beautyplus/f0/q1;
@@ -178,7 +170,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setScaleX(F)V
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$b;->a:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
@@ -206,7 +197,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setScaleY(F)V
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$b;->a:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
@@ -234,7 +224,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 4
     :cond_2
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$b;->a:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
@@ -262,7 +251,6 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setScaleX(F)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$b;->a:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->h(Lcom/commsource/beautyplus/onboarding/VideoTransformView;)Lcom/commsource/beautyplus/f0/q1;
@@ -287,7 +275,6 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setScaleY(F)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$b;->a:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->h(Lcom/commsource/beautyplus/onboarding/VideoTransformView;)Lcom/commsource/beautyplus/f0/q1;
@@ -312,7 +299,6 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 7
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

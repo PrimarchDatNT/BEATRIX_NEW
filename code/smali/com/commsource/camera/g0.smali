@@ -19,7 +19,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/commsource/camera/g0;->a:[I
@@ -44,7 +43,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -65,14 +63,12 @@
 
     if-eq p0, v1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, ""
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -80,7 +76,6 @@
 
     return-object p0
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -104,14 +99,12 @@
 
     if-eq p0, v1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, ""
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -119,7 +112,6 @@
 
     return-object p0
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -137,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object v1
@@ -146,14 +137,12 @@
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/camera/g0;->g(Lcom/meitu/template/bean/ArMaterial;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -161,7 +150,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -182,14 +170,12 @@
 
     if-eq p0, v1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, ""
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -197,7 +183,6 @@
 
     return-object p0
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -213,14 +198,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/camera/g0;->c(I)Lcom/meitu/template/bean/ArMaterial;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIpStoreId()I
 
     move-result p0
@@ -232,7 +215,6 @@
     :cond_0
     const/4 p0, -0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -245,7 +227,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/beautyplus/util/h;->A(I)Z
 
     move-result p0
@@ -264,7 +245,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getGroupNumber()I
 
     move-result p0
@@ -295,7 +275,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object v1
@@ -320,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/g0;->a:[I
 
     array-length v2, v1
@@ -336,7 +314,6 @@
 
     if-ne v5, p0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p0, 0x1
@@ -348,7 +325,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -364,7 +340,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getNumber()I
 
     move-result p0

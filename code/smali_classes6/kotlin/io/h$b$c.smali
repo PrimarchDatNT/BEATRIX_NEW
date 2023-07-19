@@ -44,7 +44,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcotlin/io/h$b$c;->e:Lcotlin/io/h$b;
 
     invoke-direct {p0, p2}, Lcotlin/io/h$a;-><init>(Ljava/io/File;)V
@@ -59,14 +58,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcotlin/io/h$b$c;->b:Z
 
     const/4 v1, 0x0
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcotlin/io/h$b$c;->e:Lcotlin/io/h$b;
 
     iget-object v0, v0, Lcotlin/io/h$b;->d:Lcotlin/io/h;
@@ -98,17 +95,14 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcotlin/io/h$b$c;->b:Z
 
-    .line 4
     invoke-virtual {p0}, Lcotlin/io/h$c;->a()Ljava/io/File;
 
     move-result-object v0
 
     return-object v0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcotlin/io/h$b$c;->c:[Ljava/io/File;
 
@@ -124,7 +118,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     iget-object v0, p0, Lcotlin/io/h$b$c;->e:Lcotlin/io/h$b;
 
@@ -149,14 +142,12 @@
     :cond_3
     return-object v1
 
-    .line 7
     :cond_4
     :goto_0
     iget-object v0, p0, Lcotlin/io/h$b$c;->c:[Ljava/io/File;
 
     if-nez v0, :cond_8
 
-    .line 8
     invoke-virtual {p0}, Lcotlin/io/h$c;->a()Ljava/io/File;
 
     move-result-object v0
@@ -169,7 +160,6 @@
 
     if-nez v0, :cond_5
 
-    .line 9
     iget-object v0, p0, Lcotlin/io/h$b$c;->e:Lcotlin/io/h$b;
 
     iget-object v0, v0, Lcotlin/io/h$b;->d:Lcotlin/io/h;
@@ -208,7 +198,6 @@
 
     check-cast v0, Lcotlin/t1;
 
-    .line 10
     :cond_5
     iget-object v0, p0, Lcotlin/io/h$b$c;->c:[Ljava/io/File;
 
@@ -220,7 +209,6 @@
 
     if-nez v0, :cond_8
 
-    .line 11
     :cond_6
     iget-object v0, p0, Lcotlin/io/h$b$c;->e:Lcotlin/io/h$b;
 
@@ -245,7 +233,6 @@
     :cond_7
     return-object v1
 
-    .line 12
     :cond_8
     iget-object v0, p0, Lcotlin/io/h$b$c;->c:[Ljava/io/File;
 

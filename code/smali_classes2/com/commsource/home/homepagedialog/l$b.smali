@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->a()Landroid/app/Application;
 
     move-result-object v1
@@ -57,7 +56,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/l;->r(Landroid/app/Application;Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/l$b;->a:Lcom/commsource/home/homepagedialog/l;
 
     invoke-virtual {v1}, Lcom/commsource/home/homepagedialog/l;->l()Lcom/commsource/beautyplus/BaseActivity;
@@ -76,7 +74,6 @@
 
     check-cast v1, Lcom/commsource/push/NotificationBarPush;
 
-    .line 3
     new-instance v2, Lcom/commsource/beautyplus/start/w/a$a;
 
     const/4 v3, 0x1
@@ -85,7 +82,6 @@
 
     invoke-direct {v2, v1, v3, v4}, Lcom/commsource/beautyplus/start/w/a$a;-><init>(Lcom/commsource/push/NotificationBarPush;ZZ)V
 
-    .line 4
     invoke-static {}, Lcom/commsource/beautyplus/base/b/b;->c()Lcom/commsource/beautyplus/base/b/b;
 
     move-result-object v1
@@ -98,14 +94,12 @@
 
     invoke-virtual {v1, v4, v2, v5}, Lcom/commsource/beautyplus/base/b/b;->b(Lcom/commsource/beautyplus/base/b/a;Lcom/commsource/beautyplus/base/b/a$a;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
     invoke-static {v1, v3}, Lf/d/i/e;->h2(Landroid/content/Context;Z)V
 
-    .line 6
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -114,12 +108,10 @@
 
     const-string v1, "privacy_yes"
 
-    .line 7
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     if-nez p1, :cond_1
 
-    .line 8
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -142,10 +134,8 @@
 
     const-string v2, "sim\u5361\u72b6\u6001"
 
-    .line 9
     invoke-static {v1, v2, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -154,7 +144,6 @@
 
     invoke-static {p1, v1, v3}, Lf/d/i/e;->O2(Landroid/content/Context;Ljava/lang/String;Z)V
 
-    .line 11
     :cond_1
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
@@ -166,7 +155,6 @@
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

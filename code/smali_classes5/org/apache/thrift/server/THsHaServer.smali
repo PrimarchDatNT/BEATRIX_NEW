@@ -21,10 +21,8 @@
 .method public constructor <init>(Lorg/apache/thrift/server/THsHaServer$Args;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/server/TNonblockingServer;-><init>(Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractNonblockingServerArgs;)V
 
-    .line 2
     invoke-static {p1}, Lorg/apache/thrift/server/THsHaServer$Args;->access$000(Lorg/apache/thrift/server/THsHaServer$Args;)Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -45,7 +43,6 @@
     :goto_0
     iput-object v0, p0, Lorg/apache/thrift/server/THsHaServer;->invoker:Ljava/util/concurrent/ExecutorService;
 
-    .line 3
     iput-object p1, p0, Lorg/apache/thrift/server/THsHaServer;->args:Lorg/apache/thrift/server/THsHaServer$Args;
 
     return-void
@@ -54,28 +51,22 @@
 .method protected static createInvokerPool(Lorg/apache/thrift/server/THsHaServer$Args;)Ljava/util/concurrent/ExecutorService;
     .locals 7
 
-    .line 1
     iget v1, p0, Lorg/apache/thrift/server/THsHaServer$Args;->minWorkerThreads:I
 
-    .line 2
     iget v2, p0, Lorg/apache/thrift/server/THsHaServer$Args;->maxWorkerThreads:I
 
-    .line 3
     invoke-static {p0}, Lorg/apache/thrift/server/THsHaServer$Args;->access$100(Lorg/apache/thrift/server/THsHaServer$Args;)I
 
     move-result v0
 
-    .line 4
     invoke-static {p0}, Lorg/apache/thrift/server/THsHaServer$Args;->access$200(Lorg/apache/thrift/server/THsHaServer$Args;)Ljava/util/concurrent/TimeUnit;
 
     move-result-object v5
 
-    .line 5
     new-instance v6, Ljava/util/concurrent/LinkedBlockingQueue;
 
     invoke-direct {v6}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
 
-    .line 6
     new-instance p0, Ljava/util/concurrent/ThreadPoolExecutor;
 
     int-to-long v3, v0
@@ -92,7 +83,6 @@
 .method protected getInvoker()Ljava/util/concurrent/ExecutorService;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/THsHaServer;->invoker:Ljava/util/concurrent/ExecutorService;
 
     return-object v0
@@ -101,7 +91,6 @@
 .method protected getRunnable(Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;)Ljava/lang/Runnable;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/server/Invocation;
 
     invoke-direct {v0, p1}, Lorg/apache/thrift/server/Invocation;-><init>(Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;)V
@@ -112,12 +101,10 @@
 .method protected gracefullyShutdownInvokerPool()V
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/THsHaServer;->invoker:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/server/THsHaServer;->args:Lorg/apache/thrift/server/THsHaServer$Args;
 
     invoke-static {v0}, Lorg/apache/thrift/server/THsHaServer$Args;->access$200(Lorg/apache/thrift/server/THsHaServer$Args;)Ljava/util/concurrent/TimeUnit;
@@ -136,7 +123,6 @@
 
     move-result-wide v0
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -148,7 +134,6 @@
 
     if-ltz v6, :cond_0
 
-    .line 4
     :try_start_0
     iget-object v4, p0, Lorg/apache/thrift/server/THsHaServer;->invoker:Ljava/util/concurrent/ExecutorService;
 
@@ -160,7 +145,6 @@
 
     goto :goto_1
 
-    .line 5
     :catch_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -182,13 +166,11 @@
 .method protected requestInvoke(Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;)Z
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1}, Lorg/apache/thrift/server/THsHaServer;->getRunnable(Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;)Ljava/lang/Runnable;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/server/THsHaServer;->invoker:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
@@ -202,7 +184,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer;->LOGGER:Lorg/slf4j/c;
 
     const-string v1, "ExecutorService rejected execution!"
@@ -217,10 +198,8 @@
 .method protected waitForShutdown()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/server/TNonblockingServer;->joinSelector()V
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/thrift/server/THsHaServer;->gracefullyShutdownInvokerPool()V
 
     return-void

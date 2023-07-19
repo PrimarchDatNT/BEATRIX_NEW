@@ -19,7 +19,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -59,7 +58,6 @@
 .method private static final b(Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;)Lcotlin/coroutines/jvm/internal/d;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -78,7 +76,6 @@
 .method private static final c(Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;)I
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -92,14 +89,12 @@
 
     const-string v1, "field"
 
-    .line 2
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 3
     invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -159,14 +154,12 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/e;->b(Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;)Lcotlin/coroutines/jvm/internal/d;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-interface {v0}, Lcotlin/coroutines/jvm/internal/d;->v()I
 
     move-result v1
@@ -175,17 +168,14 @@
 
     invoke-static {v2, v1}, Lcotlin/coroutines/jvm/internal/e;->a(II)V
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/e;->c(Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;)I
 
     move-result p0
 
-    .line 5
     invoke-interface {v0}, Lcotlin/coroutines/jvm/internal/d;->i()[I
 
     move-result-object v2
@@ -203,7 +193,6 @@
 
     if-ne v6, p0, :cond_0
 
-    .line 6
     invoke-interface {v0}, Lcotlin/coroutines/jvm/internal/d;->s()[Ljava/lang/String;
 
     move-result-object v6
@@ -212,7 +201,6 @@
 
     invoke-virtual {v1, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 7
     invoke-interface {v0}, Lcotlin/coroutines/jvm/internal/d;->n()[Ljava/lang/String;
 
     move-result-object v6
@@ -229,7 +217,6 @@
     :cond_1
     new-array p0, v4, [Ljava/lang/String;
 
-    .line 8
     invoke-interface {v1, p0}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p0
@@ -269,7 +256,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/e;->b(Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;)Lcotlin/coroutines/jvm/internal/d;
 
     move-result-object v0
@@ -278,14 +264,12 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-interface {v0}, Lcotlin/coroutines/jvm/internal/d;->v()I
 
     move-result v2
 
     invoke-static {v1, v2}, Lcotlin/coroutines/jvm/internal/e;->a(II)V
 
-    .line 3
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/e;->c(Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;)I
 
     move-result v1
@@ -296,7 +280,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-interface {v0}, Lcotlin/coroutines/jvm/internal/d;->l()[I
 
@@ -304,7 +287,6 @@
 
     aget v1, v2, v1
 
-    .line 5
     :goto_0
     sget-object v2, Lcotlin/coroutines/jvm/internal/g;->c:Lcotlin/coroutines/jvm/internal/g;
 
@@ -314,7 +296,6 @@
 
     if-nez p0, :cond_1
 
-    .line 6
     invoke-interface {v0}, Lcotlin/coroutines/jvm/internal/d;->c()Ljava/lang/String;
 
     move-result-object p0
@@ -342,7 +323,6 @@
 
     move-result-object p0
 
-    .line 7
     :goto_1
     new-instance v2, Ljava/lang/StackTraceElement;
 

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/tencent/bugly/proguard/u;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/proguard/u$a;->b:Lcom/tencent/bugly/proguard/u;
 
     iput-object p2, p0, Lcom/tencent/bugly/proguard/u$a;->a:Ljava/lang/Runnable;
@@ -42,12 +41,10 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/proguard/u$a;->a:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 2
     iget-object v0, p0, Lcom/tencent/bugly/proguard/u$a;->b:Lcom/tencent/bugly/proguard/u;
 
     invoke-static {v0}, Lcom/tencent/bugly/proguard/u;->a(Lcom/tencent/bugly/proguard/u;)Ljava/lang/Object;
@@ -56,13 +53,11 @@
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/tencent/bugly/proguard/u$a;->b:Lcom/tencent/bugly/proguard/u;
 
     invoke-static {v1}, Lcom/tencent/bugly/proguard/u;->b(Lcom/tencent/bugly/proguard/u;)I
 
-    .line 4
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

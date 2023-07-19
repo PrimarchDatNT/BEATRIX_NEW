@@ -35,10 +35,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/k/y/d$a;->a:Landroid/content/Context;
 
     return-void
@@ -69,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/bumptech/glide/load/k/y/d;
 
     iget-object v0, p0, Lcom/bumptech/glide/load/k/y/d$a;->a:Landroid/content/Context;

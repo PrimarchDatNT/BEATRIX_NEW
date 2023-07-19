@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lorg/jsoup/parser/TokeniserState;-><init>(Ljava/lang/String;ILorg/jsoup/parser/TokeniserState$1;)V
 
     return-void
@@ -31,7 +30,6 @@
 .method read(Lorg/jsoup/parser/h;Lorg/jsoup/parser/a;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p2}, Lorg/jsoup/parser/a;->E()Z
 
     move-result v0
@@ -40,10 +38,8 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p1, v0}, Lorg/jsoup/parser/h;->h(Z)Lorg/jsoup/parser/Token$i;
 
-    .line 3
     iget-object v0, p1, Lorg/jsoup/parser/h;->i:Lorg/jsoup/parser/Token$i;
 
     invoke-virtual {p2}, Lorg/jsoup/parser/a;->s()C
@@ -52,7 +48,6 @@
 
     invoke-virtual {v0, v1}, Lorg/jsoup/parser/Token$i;->v(C)V
 
-    .line 4
     iget-object v0, p1, Lorg/jsoup/parser/h;->h:Ljava/lang/StringBuilder;
 
     invoke-virtual {p2}, Lorg/jsoup/parser/a;->s()C
@@ -61,7 +56,6 @@
 
     invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 5
     sget-object p2, Lorg/jsoup/parser/TokeniserState;->RCDATAEndTagName:Lorg/jsoup/parser/TokeniserState;
 
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->a(Lorg/jsoup/parser/TokeniserState;)V
@@ -71,10 +65,8 @@
     :cond_0
     const-string p2, "</"
 
-    .line 6
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->l(Ljava/lang/String;)V
 
-    .line 7
     sget-object p2, Lorg/jsoup/parser/TokeniserState;->Rcdata:Lorg/jsoup/parser/TokeniserState;
 
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->y(Lorg/jsoup/parser/TokeniserState;)V

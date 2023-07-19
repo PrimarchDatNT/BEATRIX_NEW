@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/rr1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/gs1;->a:Lcom/google/android/gms/internal/ads/rr1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gs1;->a:Lcom/google/android/gms/internal/ads/rr1;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/rr1;->a()Ljava/lang/Class;
@@ -57,12 +55,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/gs1;->a:Lcom/google/android/gms/internal/ads/rr1;
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/InternalError;
 
@@ -84,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gs1;->a:Lcom/google/android/gms/internal/ads/rr1;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/rr1;->a()Ljava/lang/Class;
@@ -108,7 +103,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gs1;->a:Lcom/google/android/gms/internal/ads/rr1;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -143,7 +137,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gs1;->a:Lcom/google/android/gms/internal/ads/rr1;
 
     return-object v0

@@ -25,7 +25,6 @@
 .method private constructor <init>(Lcom/meitu/common/video/videocache/n;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/video/videocache/n$b;->a:Lcom/meitu/common/video/videocache/n;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/meitu/common/video/videocache/n;Lcom/meitu/common/video/videocache/n$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/n$b;-><init>(Lcom/meitu/common/video/videocache/n;)V
 
     return-void
@@ -51,12 +49,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/n$b;->a:Lcom/meitu/common/video/videocache/n;
 
     invoke-static {v1}, Lcom/meitu/common/video/videocache/n;->a(Lcom/meitu/common/video/videocache/n;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautymain/widget/gesturewidget/d$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/d$a$a;->a:Lcom/commsource/beautymain/widget/gesturewidget/d$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,12 +41,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedFraction()F
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/d$a$a;->a:Lcom/commsource/beautymain/widget/gesturewidget/d$a;
 
     iget v2, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->e:F
@@ -62,7 +59,6 @@
 
     iput v2, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->l:F
 
-    .line 3
     iget v3, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->h:F
 
     iget v4, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->j:F
@@ -75,7 +71,6 @@
 
     iput v3, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->n:F
 
-    .line 4
     iget v4, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->i:F
 
     iget v5, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->k:F
@@ -90,10 +85,8 @@
 
     const/4 v5, 0x0
 
-    .line 5
     iput v5, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->m:F
 
-    .line 6
     iget v6, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->g:F
 
     const/high16 v7, 0x42b40000    # 90.0f
@@ -117,7 +110,6 @@
 
     if-nez v9, :cond_2
 
-    .line 7
     iget v8, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->f:F
 
     cmpl-float v9, v8, v5
@@ -128,7 +120,6 @@
 
     add-float/2addr v7, v5
 
-    .line 8
     iput v7, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->m:F
 
     goto :goto_1
@@ -140,7 +131,6 @@
 
     add-float/2addr v8, v6
 
-    .line 9
     iput v8, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->m:F
 
     goto :goto_1
@@ -150,7 +140,6 @@
 
     if-nez v5, :cond_5
 
-    .line 10
     iget v5, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->f:F
 
     cmpl-float v9, v5, v8
@@ -161,7 +150,6 @@
 
     sub-float/2addr v8, v7
 
-    .line 11
     iput v8, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->m:F
 
     goto :goto_1
@@ -173,12 +161,10 @@
 
     add-float/2addr v5, v6
 
-    .line 12
     iput v5, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->m:F
 
     goto :goto_1
 
-    .line 13
     :cond_4
     :goto_0
     iget v5, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->f:F
@@ -191,7 +177,6 @@
 
     iput v5, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->m:F
 
-    .line 14
     :cond_5
     :goto_1
     iget v5, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->p:F
@@ -200,19 +185,16 @@
 
     iput v5, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->p:F
 
-    .line 15
     iget-object p1, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->q:Lcom/commsource/beautymain/widget/gesturewidget/d;
 
     iget-object p1, p1, Lcom/commsource/beautymain/widget/gesturewidget/d;->b:Lcom/commsource/beautymain/widget/gesturewidget/d$b;
 
     if-eqz p1, :cond_6
 
-    .line 16
     iget v1, v1, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->m:F
 
     invoke-interface {p1, v2, v1, v3, v4}, Lcom/commsource/beautymain/widget/gesturewidget/d$b;->a(FFFF)V
 
-    .line 17
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

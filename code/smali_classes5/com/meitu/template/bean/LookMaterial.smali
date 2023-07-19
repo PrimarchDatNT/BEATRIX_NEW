@@ -308,88 +308,70 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     const/4 v1, 0x1
 
-    .line 2
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->downloadMode:I
 
-    .line 3
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->isAvailable:I
 
-    .line 4
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->status:I
 
     move-wide v1, p1
 
-    .line 5
     iput-wide v1, v0, Lcom/meitu/template/bean/LookMaterial;->onlineId:J
 
     move v1, p3
 
-    .line 6
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->sort:I
 
     move-object v1, p4
 
-    .line 7
     iput-object v1, v0, Lcom/meitu/template/bean/LookMaterial;->title:Ljava/lang/String;
 
     move v1, p5
 
-    .line 8
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->isInside:I
 
     move-object v1, p6
 
-    .line 9
     iput-object v1, v0, Lcom/meitu/template/bean/LookMaterial;->url:Ljava/lang/String;
 
     move-wide v1, p7
 
-    .line 10
     iput-wide v1, v0, Lcom/meitu/template/bean/LookMaterial;->packageSize:J
 
     move-object v1, p9
 
-    .line 11
     iput-object v1, v0, Lcom/meitu/template/bean/LookMaterial;->icon:Ljava/lang/String;
 
     move-object v1, p10
 
-    .line 12
     iput-object v1, v0, Lcom/meitu/template/bean/LookMaterial;->uiColor:Ljava/lang/String;
 
     move v1, p11
 
-    .line 13
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->downloadMode:I
 
     move v1, p12
 
-    .line 14
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->sex:I
 
     move-object/from16 v1, p13
 
-    .line 15
     iput-object v1, v0, Lcom/meitu/template/bean/LookMaterial;->materialMd5:Ljava/lang/String;
 
     move/from16 v1, p14
 
-    .line 16
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->isDownloaded:I
 
     move/from16 v1, p15
 
-    .line 17
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->isNew:I
 
     move/from16 v1, p16
 
-    .line 18
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->paidType:I
 
     return-void
@@ -442,118 +424,94 @@
 
     move-object v0, p0
 
-    .line 19
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     const/4 v1, 0x1
 
-    .line 20
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->downloadMode:I
 
-    .line 21
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->isAvailable:I
 
-    .line 22
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->status:I
 
     move-wide v1, p1
 
-    .line 23
     iput-wide v1, v0, Lcom/meitu/template/bean/LookMaterial;->id:J
 
     move-wide v1, p3
 
-    .line 24
     iput-wide v1, v0, Lcom/meitu/template/bean/LookMaterial;->onlineId:J
 
     move v1, p5
 
-    .line 25
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->sort:I
 
     move-object v1, p6
 
-    .line 26
     iput-object v1, v0, Lcom/meitu/template/bean/LookMaterial;->title:Ljava/lang/String;
 
     move v1, p7
 
-    .line 27
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->isInside:I
 
     move-object v1, p8
 
-    .line 28
     iput-object v1, v0, Lcom/meitu/template/bean/LookMaterial;->url:Ljava/lang/String;
 
     move-wide v1, p9
 
-    .line 29
     iput-wide v1, v0, Lcom/meitu/template/bean/LookMaterial;->packageSize:J
 
     move-object v1, p11
 
-    .line 30
     iput-object v1, v0, Lcom/meitu/template/bean/LookMaterial;->icon:Ljava/lang/String;
 
     move-object v1, p12
 
-    .line 31
     iput-object v1, v0, Lcom/meitu/template/bean/LookMaterial;->uiColor:Ljava/lang/String;
 
     move/from16 v1, p13
 
-    .line 32
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->downloadMode:I
 
     move/from16 v1, p14
 
-    .line 33
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->sex:I
 
     move-object/from16 v1, p15
 
-    .line 34
     iput-object v1, v0, Lcom/meitu/template/bean/LookMaterial;->materialMd5:Ljava/lang/String;
 
     move/from16 v1, p16
 
-    .line 35
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->isAvailable:I
 
     move/from16 v1, p17
 
-    .line 36
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->status:I
 
     move/from16 v1, p18
 
-    .line 37
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->isDownloaded:I
 
     move/from16 v1, p19
 
-    .line 38
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->isNew:I
 
     move/from16 v1, p20
 
-    .line 39
     iput v1, v0, Lcom/meitu/template/bean/LookMaterial;->paidType:I
 
     move-wide/from16 v1, p21
 
-    .line 40
     iput-wide v1, v0, Lcom/meitu/template/bean/LookMaterial;->startedAt:J
 
     move-wide/from16 v1, p23
 
-    .line 41
     iput-wide v1, v0, Lcom/meitu/template/bean/LookMaterial;->endedAt:J
 
     move-object/from16 v1, p25
 
-    .line 42
     iput-object v1, v0, Lcom/meitu/template/bean/LookMaterial;->singleMakeup:Ljava/util/Map;
 
     return-void
@@ -581,18 +539,15 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p1, Lcom/meitu/template/bean/LookMaterial;
 
     if-eqz v2, :cond_2
 
-    .line 3
     iget-wide v2, p0, Lcom/meitu/template/bean/LookMaterial;->onlineId:J
 
     check-cast p1, Lcom/meitu/template/bean/LookMaterial;
@@ -610,7 +565,6 @@
 
     return v1
 
-    .line 4
     :cond_2
     invoke-super {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -628,7 +582,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->downloadMode:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -643,7 +596,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -660,7 +612,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/LookMaterial;->effectBean:Lcom/meitu/template/bean/k;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -675,7 +626,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/LookMaterial;->endedAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -692,7 +642,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/LookMaterial;->icon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -707,7 +656,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/LookMaterial;->id:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -724,7 +672,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/LookMaterial;->materialMd5:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -739,7 +686,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/LookMaterial;->onlineId:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -754,7 +700,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/LookMaterial;->packageSize:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -769,7 +714,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->paidType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -784,7 +728,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->sex:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -811,7 +754,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/LookMaterial;->singleMakeup:Ljava/util/Map;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -826,7 +768,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->sort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -841,7 +782,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/LookMaterial;->startedAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -858,7 +798,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/LookMaterial;->onlineId:J
 
     const-wide/16 v3, 0x0
@@ -867,14 +806,12 @@
 
     if-nez v5, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "00000"
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-static {v1, v2}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
 
@@ -892,7 +829,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->status:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -909,7 +845,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/LookMaterial;->title:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -926,7 +861,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/LookMaterial;->uiColor:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -943,7 +877,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/LookMaterial;->url:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -958,7 +891,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->isAvailable:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -973,7 +905,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/template/bean/LookMaterial;->isDefaultLook:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -988,7 +919,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->isDownloaded:I
 
     const/4 v2, 0x1
@@ -1013,7 +943,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->isDownloaded:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1028,7 +957,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->isDownloading:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1043,7 +971,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->isDownloading:I
 
     const/4 v2, 0x1
@@ -1068,7 +995,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/LookMaterial;->endedAt:J
 
     const/4 v3, 0x1
@@ -1079,18 +1005,15 @@
 
     if-nez v6, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 4
     iget-wide v4, p0, Lcom/meitu/template/bean/LookMaterial;->endedAt:J
 
     cmp-long v6, v1, v4
@@ -1115,7 +1038,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->isInside:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1130,7 +1052,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->isInside:I
 
     const/4 v2, 0x1
@@ -1139,7 +1060,6 @@
 
     const v3, 0x7fffffff
 
-    .line 2
     iput v3, p0, Lcom/meitu/template/bean/LookMaterial;->sort:I
 
     :cond_0
@@ -1150,7 +1070,6 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1164,7 +1083,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->isNew:I
 
     const/4 v2, 0x1
@@ -1189,7 +1107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/LookMaterial;->endedAt:J
 
     const-wide/16 v3, 0x0
@@ -1218,7 +1135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->isNew:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1233,7 +1149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/LookMaterial;->paidType:I
 
     const/4 v2, 0x1
@@ -1258,7 +1173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/LookMaterial;
 
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/LookMaterial;->onCompareLocal(Lcom/meitu/template/bean/LookMaterial;)Z
@@ -1285,12 +1199,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-wide v1, p1, Lcom/meitu/template/bean/LookMaterial;->id:J
 
     iput-wide v1, p0, Lcom/meitu/template/bean/LookMaterial;->id:J
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/template/bean/LookMaterial;->title:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/meitu/template/bean/LookMaterial;->title:Ljava/lang/String;
@@ -1400,7 +1312,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     iget-object v4, p0, Lcom/meitu/template/bean/LookMaterial;->singleMakeup:Ljava/util/Map;
 
@@ -1412,7 +1323,6 @@
 
     if-nez v4, :cond_1
 
-    .line 5
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
@@ -1435,7 +1345,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_3
     iget-object v4, p1, Lcom/meitu/template/bean/LookMaterial;->singleMakeup:Ljava/util/Map;
 
@@ -1465,7 +1374,6 @@
 
     check-cast v5, Ljava/lang/String;
 
-    .line 7
     iget-object v6, p0, Lcom/meitu/template/bean/LookMaterial;->singleMakeup:Ljava/util/Map;
 
     if-nez v6, :cond_6
@@ -1505,7 +1413,6 @@
     :cond_8
     move v3, v1
 
-    .line 8
     :cond_9
     :goto_1
     iget v1, p1, Lcom/meitu/template/bean/LookMaterial;->isInside:I
@@ -1514,7 +1421,6 @@
 
     if-eq v1, v2, :cond_a
 
-    .line 9
     iget-object v1, p0, Lcom/meitu/template/bean/LookMaterial;->url:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/meitu/template/bean/LookMaterial;->url:Ljava/lang/String;
@@ -1525,13 +1431,11 @@
 
     if-eqz v1, :cond_b
 
-    .line 10
     :cond_a
     iget p1, p1, Lcom/meitu/template/bean/LookMaterial;->isDownloaded:I
 
     iput p1, p0, Lcom/meitu/template/bean/LookMaterial;->isDownloaded:I
 
-    .line 11
     :cond_b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1545,7 +1449,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/LookMaterial;
 
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/LookMaterial;->onSortCompare(Lcom/meitu/template/bean/LookMaterial;)I
@@ -1572,7 +1475,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/LookMaterial;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1581,12 +1483,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     iget-wide v1, p0, Lcom/meitu/template/bean/LookMaterial;->onlineId:J
 
@@ -1616,7 +1516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/LookMaterial;->isAvailable:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1631,7 +1530,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/template/bean/LookMaterial;->isDefaultLook:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1646,7 +1544,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/LookMaterial;->downloadMode:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1661,7 +1558,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/LookMaterial;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1676,7 +1572,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/LookMaterial;->isDownloaded:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1691,7 +1586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/LookMaterial;->isDownloading:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1710,7 +1604,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/LookMaterial;->effectBean:Lcom/meitu/template/bean/k;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1725,7 +1618,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/LookMaterial;->endedAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1744,7 +1636,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/LookMaterial;->icon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1759,7 +1650,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/LookMaterial;->id:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1774,7 +1664,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/LookMaterial;->isInside:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1793,7 +1682,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/LookMaterial;->materialMd5:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1808,7 +1696,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/LookMaterial;->isNew:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1823,7 +1710,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/LookMaterial;->onlineId:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1838,7 +1724,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/LookMaterial;->packageSize:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1853,7 +1738,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/LookMaterial;->paidType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1868,7 +1752,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/LookMaterial;->sex:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1896,7 +1779,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/LookMaterial;->singleMakeup:Ljava/util/Map;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1911,7 +1793,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/LookMaterial;->sort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1926,7 +1807,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/LookMaterial;->startedAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1941,7 +1821,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/LookMaterial;->status:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1960,7 +1839,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/LookMaterial;->title:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1979,7 +1857,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/LookMaterial;->uiColor:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1998,7 +1875,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/LookMaterial;->url:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

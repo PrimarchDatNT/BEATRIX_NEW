@@ -46,14 +46,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$tracker$2$a$a;->b:Lcom/commsource/studio/doodle/DoodlePagerFragment$tracker$2$a;
 
     iget-object v2, v2, Lcom/commsource/studio/doodle/DoodlePagerFragment$tracker$2$a;->c:Lcom/commsource/studio/doodle/DoodlePagerFragment$tracker$2;
@@ -77,7 +75,6 @@
     :cond_0
     const-string v2, "-2"
 
-    .line 3
     :goto_0
     iget-object v3, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$tracker$2$a$a;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
@@ -85,7 +82,6 @@
 
     move-result-object v3
 
-    .line 4
     invoke-static {v2, v3}, Lcom/commsource/statistics/q;->i(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -98,7 +94,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$tracker$2$a$a;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getId()Ljava/lang/String;
@@ -111,10 +106,8 @@
 
     const-string v2, "beauty_doodle_imp"
 
-    .line 6
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

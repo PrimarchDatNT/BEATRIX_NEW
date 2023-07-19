@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/google/common/base/u;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Maps$s$a;->a:Lcom/google/common/base/u;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$s$a;->a:Lcom/google/common/base/u;
 
     invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
@@ -79,7 +77,6 @@
 .method public bridge synthetic apply(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/Map$Entry;
 
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Maps$s$a;->a(Ljava/util/Map$Entry;)Z

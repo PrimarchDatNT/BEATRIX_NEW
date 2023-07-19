@@ -58,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/z1/b$n;->a:Ljava/util/Comparator;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
@@ -69,7 +68,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcotlin/z1/b$n;->b:Ljava/util/Comparator;
 

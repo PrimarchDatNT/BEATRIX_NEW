@@ -72,28 +72,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/text/TextFontMaterial;
 
     invoke-direct {v1}, Lcom/commsource/studio/text/TextFontMaterial;-><init>()V
 
     const-string v2, "BP_FON_00000000"
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextFontMaterial;->setId(Ljava/lang/String;)V
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextFontMaterial;->setInternalState(I)V
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextFontMaterial;->setSystemFont(Z)V
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextFontMaterial;->setDownloadState(I)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -106,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/repository/child/TextFontRepository$SysFont$2;->invoke()Lcom/commsource/studio/text/TextFontMaterial;
 
     move-result-object v1

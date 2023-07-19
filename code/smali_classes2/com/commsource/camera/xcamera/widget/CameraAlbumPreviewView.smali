@@ -76,7 +76,6 @@
 
     const/high16 v1, 0x3fc00000    # 1.5f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -85,7 +84,6 @@
 
     const/high16 v1, 0x41c00000    # 24.0f
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -106,7 +104,6 @@
 
     add-float/2addr v1, v2
 
-    .line 3
     sput v1, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->V:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -125,24 +122,20 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/IconFrontView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->M:Landroid/graphics/RectF;
 
-    .line 3
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->N:Landroid/graphics/RectF;
 
-    .line 4
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 p2, 0x1
@@ -151,31 +144,26 @@
 
     sget p2, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
-    .line 5
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p2
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 6
     sget p2, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->T:F
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 7
     sget-object p2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 8
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->O:Landroid/graphics/Paint;
 
     const/4 p1, 0x2
 
     new-array p1, p1, [F
 
-    .line 9
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -184,12 +172,10 @@
 
     const-wide/16 v0, 0x12c
 
-    .line 10
     invoke-virtual {p1, v0, v1}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
-    .line 11
     new-instance p2, Lcom/commsource/camera/xcamera/widget/a;
 
     invoke-direct {p2}, Lcom/commsource/camera/xcamera/widget/a;-><init>()V
@@ -198,7 +184,6 @@
 
     move-result-object p1
 
-    .line 12
     new-instance p2, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$c;
 
     invoke-direct {p2, p0}, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$c;-><init>(Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;)V
@@ -225,7 +210,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->T:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -240,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->U:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -255,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->V:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -270,7 +252,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->T:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -285,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->U:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -300,7 +280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->V:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -321,7 +300,6 @@
 
     const-wide/16 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->m(J)V
 
@@ -410,7 +388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->O:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -427,7 +404,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->M:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -442,7 +418,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->Q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -457,7 +432,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -472,7 +446,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->R:Lcom/commsource/camera/f1/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -489,7 +462,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->L:Lcom/commsource/camera/f1/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -506,7 +478,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->K:Lcom/commsource/camera/f1/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -523,7 +494,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->N:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -540,14 +510,12 @@
 
     const-string v1, "android.permission.WRITE_EXTERNAL_STORAGE"
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/q2/b;->d(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$b;-><init>(Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;)V
@@ -558,16 +526,13 @@
 
     if-lez v4, :cond_0
 
-    .line 3
     invoke-virtual {p0, v1, p1, p2}, Landroid/widget/TextView;->postDelayed(Ljava/lang/Runnable;J)Z
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -590,7 +555,6 @@
 
     const-string v1, "android.permission.WRITE_EXTERNAL_STORAGE"
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/q2/b;->d(Ljava/lang/String;)Z
 
     move-result v1
@@ -607,7 +571,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;-><init>(Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;Ljava/lang/String;)V
@@ -616,7 +579,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/c2;->f(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -638,7 +600,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->K:Lcom/commsource/camera/f1/o;
 
     if-nez v1, :cond_0
@@ -647,16 +608,13 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-super {p0, p1}, Lcom/commsource/widget/IconFrontView;->onDraw(Landroid/graphics/Canvas;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 4
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->P:I
 
     int-to-float v1, v1
@@ -673,14 +631,12 @@
 
     invoke-virtual {p1, v1, v3}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->K:Lcom/commsource/camera/f1/o;
 
     if-eqz v1, :cond_1
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/o;->c(Landroid/graphics/Canvas;)V
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->L:Lcom/commsource/camera/f1/o;
 
@@ -688,20 +644,17 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/o;->c(Landroid/graphics/Canvas;)V
 
-    .line 7
     :cond_2
     iget-boolean v1, p0, Lcom/commsource/widget/IconFrontView;->d:Z
 
     if-eqz v1, :cond_3
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->N:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/widget/IconFrontView;->p:Landroid/text/TextPaint;
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawOval(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 9
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->M:Landroid/graphics/RectF;
 
@@ -709,10 +662,8 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawOval(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 10
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -726,19 +677,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/TextView;->onSizeChanged(IIII)V
 
-    .line 2
     iput p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->P:I
 
-    .line 3
     iput p2, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->Q:I
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->M:Landroid/graphics/RectF;
 
-    .line 5
     sget p2, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->U:F
 
     neg-float p3, p2
@@ -755,13 +701,10 @@
 
     div-float/2addr p2, p4
 
-    .line 6
     invoke-virtual {p1, p3, v1, v2, p2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->N:Landroid/graphics/RectF;
 
-    .line 8
     sget p2, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->V:F
 
     neg-float p3, p2
@@ -776,10 +719,8 @@
 
     div-float/2addr p2, p4
 
-    .line 9
     invoke-virtual {p1, p3, v1, v2, p2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -800,7 +741,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->O:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -823,7 +763,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->M:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -838,7 +777,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->Q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -853,7 +791,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -872,7 +809,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->L:Lcom/commsource/camera/f1/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -891,7 +827,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->K:Lcom/commsource/camera/f1/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -914,7 +849,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->N:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -929,15 +863,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->O:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 2
     invoke-super {p0, p1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

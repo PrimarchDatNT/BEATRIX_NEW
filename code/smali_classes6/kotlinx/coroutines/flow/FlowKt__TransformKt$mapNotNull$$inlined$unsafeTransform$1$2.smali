@@ -41,7 +41,6 @@
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1$2;->b:Lcotlinx/coroutines/flow/FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -70,10 +69,8 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1$2;->a:Lcotlinx/coroutines/flow/e;
 
-    .line 2
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1$2;->b:Lcotlinx/coroutines/flow/FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1;
 
     iget-object v1, v1, Lcotlinx/coroutines/flow/FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1;->b:Lcotlin/jvm/u/p;
@@ -86,7 +83,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->e(I)V
 
     invoke-interface {v0, p1, p2}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -103,7 +99,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -120,10 +115,8 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1$2;->a:Lcotlinx/coroutines/flow/e;
 
-    .line 2
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1$2;->b:Lcotlinx/coroutines/flow/FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1;
 
     iget-object v1, v1, Lcotlinx/coroutines/flow/FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1;->b:Lcotlin/jvm/u/p;
@@ -134,7 +127,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {v0, p1, p2}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
@@ -152,7 +144,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 

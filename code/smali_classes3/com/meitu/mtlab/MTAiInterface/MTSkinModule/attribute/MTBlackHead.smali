@@ -29,17 +29,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTBlackHead;->blackheads_count:I
 
     const/4 v0, 0x0
 
-    .line 3
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTBlackHead;->blackheads_area_percent:F
 
     return-void
@@ -59,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -68,7 +64,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTBlackHead;->path_points:Ljava/util/ArrayList;
 
     const/4 v3, 0x0
@@ -81,14 +76,12 @@
 
     if-lez v2, :cond_2
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v4, 0x0
 
-    .line 4
     :goto_0
     iget-object v5, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTBlackHead;->path_points:Ljava/util/ArrayList;
 
@@ -98,12 +91,10 @@
 
     if-ge v4, v5, :cond_1
 
-    .line 5
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     iget-object v6, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTBlackHead;->path_points:Ljava/util/ArrayList;
 
     invoke-virtual {v6, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -114,7 +105,6 @@
 
     const/4 v7, 0x0
 
-    .line 7
     :goto_1
     invoke-virtual {v6}, Ljava/util/ArrayList;->size()I
 
@@ -122,7 +112,6 @@
 
     if-ge v7, v8, :cond_0
 
-    .line 8
     new-instance v8, Landroid/graphics/PointF;
 
     invoke-virtual {v6, v7}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -149,7 +138,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_0
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -157,11 +145,9 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTBlackHead;->path_points:Ljava/util/ArrayList;
 
-    .line 11
     :cond_2
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTBlackHead;->blackheads_rect:[Landroid/graphics/RectF;
 
@@ -171,12 +157,10 @@
 
     if-lez v4, :cond_4
 
-    .line 12
     array-length v2, v2
 
     new-array v2, v2, [Landroid/graphics/RectF;
 
-    .line 13
     :goto_2
     iget-object v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTBlackHead;->blackheads_rect:[Landroid/graphics/RectF;
 
@@ -184,7 +168,6 @@
 
     if-ge v3, v4, :cond_3
 
-    .line 14
     new-instance v4, Landroid/graphics/RectF;
 
     iget-object v5, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTBlackHead;->blackheads_rect:[Landroid/graphics/RectF;
@@ -199,11 +182,9 @@
 
     goto :goto_2
 
-    .line 15
     :cond_3
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTSkinModule/attribute/MTBlackHead;->blackheads_rect:[Landroid/graphics/RectF;
 
-    .line 16
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

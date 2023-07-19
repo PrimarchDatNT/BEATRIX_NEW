@@ -26,7 +26,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$DrawMode;->values()[Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$DrawMode;
 
     move-result-object v1

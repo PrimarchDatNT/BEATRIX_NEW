@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -61,7 +60,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -80,14 +78,12 @@
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover$a$a;
 
     invoke-direct {v3, p0, v1, v2}, Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover$a$a;-><init>(Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover$a;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

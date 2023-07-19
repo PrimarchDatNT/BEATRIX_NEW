@@ -54,10 +54,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/h$a;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/stub/ClientCalls$e;->a:Lio/grpc/stub/ClientCalls$c;
 
     return-void
@@ -68,39 +66,32 @@
 .method public a(Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/Status;->r()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object p1, p0, Lio/grpc/stub/ClientCalls$e;->b:Ljava/lang/Object;
 
     if-nez p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lio/grpc/stub/ClientCalls$e;->a:Lio/grpc/stub/ClientCalls$c;
 
     sget-object v0, Lio/grpc/Status;->u:Lio/grpc/Status;
 
     const-string v1, "No value received for unary call"
 
-    .line 4
     invoke-virtual {v0, v1}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0, p2}, Lio/grpc/Status;->f(Lio/grpc/y0;)Lio/grpc/StatusRuntimeException;
 
     move-result-object p2
 
-    .line 6
     invoke-virtual {p1, p2}, Lio/grpc/stub/ClientCalls$c;->D(Ljava/lang/Throwable;)Z
 
-    .line 7
     :cond_0
     iget-object p1, p0, Lio/grpc/stub/ClientCalls$e;->a:Lio/grpc/stub/ClientCalls$c;
 
@@ -110,7 +101,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$e;->a:Lio/grpc/stub/ClientCalls$c;
 
@@ -138,17 +128,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$e;->b:Ljava/lang/Object;
 
     if-nez v0, :cond_0
 
-    .line 2
     iput-object p1, p0, Lio/grpc/stub/ClientCalls$e;->b:Ljava/lang/Object;
 
     return-void
 
-    .line 3
     :cond_0
     sget-object p1, Lio/grpc/Status;->u:Lio/grpc/Status;
 
@@ -158,7 +145,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Lio/grpc/Status;->e()Lio/grpc/StatusRuntimeException;
 
     move-result-object p1

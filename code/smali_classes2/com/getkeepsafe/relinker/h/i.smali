@@ -12,17 +12,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/getkeepsafe/relinker/h/c$d;-><init>()V
 
     const/4 v0, 0x4
 
-    .line 2
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 3
     iget-boolean v1, p2, Lcom/getkeepsafe/relinker/h/c$b;->a:Z
 
     if-eqz v1, :cond_0
@@ -37,7 +34,6 @@
     :goto_0
     invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
-    .line 4
     iget-wide v1, p2, Lcom/getkeepsafe/relinker/h/c$b;->d:J
 
     iget p2, p2, Lcom/getkeepsafe/relinker/h/c$b;->g:I

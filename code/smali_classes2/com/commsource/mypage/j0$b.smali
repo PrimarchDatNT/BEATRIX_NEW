@@ -28,20 +28,16 @@
 .method public constructor <init>(Lcom/commsource/mypage/j0;ILjava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/j0$b;->d:Lcom/commsource/mypage/j0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/commsource/mypage/j0$b;->a:I
 
-    .line 3
     iput p2, p0, Lcom/commsource/mypage/j0$b;->a:I
 
-    .line 4
     iput-object p3, p0, Lcom/commsource/mypage/j0$b;->c:Ljava/lang/String;
 
     return-void
@@ -50,20 +46,16 @@
 .method public constructor <init>(Lcom/commsource/mypage/j0;Lcom/commsource/cloudalbum/bean/CAImageInfo;Ljava/lang/String;)V
     .locals 0
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/mypage/j0$b;->d:Lcom/commsource/mypage/j0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, -0x1
 
-    .line 6
     iput p1, p0, Lcom/commsource/mypage/j0$b;->a:I
 
-    .line 7
     iput-object p2, p0, Lcom/commsource/mypage/j0$b;->b:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    .line 8
     iput-object p3, p0, Lcom/commsource/mypage/j0$b;->c:Ljava/lang/String;
 
     return-void
@@ -78,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/j0$b;->b:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -93,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/mypage/j0$b;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -108,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/j0$b;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

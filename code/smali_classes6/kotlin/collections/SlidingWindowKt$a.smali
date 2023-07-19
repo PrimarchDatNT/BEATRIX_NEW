@@ -54,7 +54,6 @@
 
     iput-boolean p5, p0, Lcotlin/collections/SlidingWindowKt$a;->e:Z
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -76,7 +75,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/SlidingWindowKt$a;->a:Lcotlin/sequences/m;
 
     invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;

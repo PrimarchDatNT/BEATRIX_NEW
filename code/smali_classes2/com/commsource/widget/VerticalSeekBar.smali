@@ -27,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/widget/VerticalSeekBar;->a()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -38,19 +37,16 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/SeekBar;-><init>(Landroid/content/Context;)V
 
     const/16 v0, 0x5a
 
-    .line 2
     iput v0, p0, Lcom/commsource/widget/VerticalSeekBar;->c:I
 
     const/4 v0, 0x0
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-direct {p0, p1, v0, v1, v1}, Lcom/commsource/widget/VerticalSeekBar;->c(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     return-void
@@ -59,17 +55,14 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    .line 4
     invoke-direct {p0, p1, p2}, Landroid/widget/SeekBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/16 v0, 0x5a
 
-    .line 5
     iput v0, p0, Lcom/commsource/widget/VerticalSeekBar;->c:I
 
     const/4 v0, 0x0
 
-    .line 6
     invoke-direct {p0, p1, p2, v0, v0}, Lcom/commsource/widget/VerticalSeekBar;->c(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     return-void
@@ -78,17 +71,14 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
 
-    .line 7
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/SeekBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/16 v0, 0x5a
 
-    .line 8
     iput v0, p0, Lcom/commsource/widget/VerticalSeekBar;->c:I
 
     const/4 v0, 0x0
 
-    .line 9
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/commsource/widget/VerticalSeekBar;->c(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     return-void
@@ -101,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/commsource/widget/VerticalSeekBar;
@@ -152,17 +141,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/SeekBar;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -178,39 +164,31 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1}, Landroidx/core/view/ViewCompat;->setLayoutDirection(Landroid/view/View;I)V
 
     if-eqz p2, :cond_1
 
-    .line 2
     sget-object v2, Lcom/res/provider/ResSTYLEABLE;->u2:[I
 
-    .line 3
     invoke-virtual {p1, p2, v2, p3, p4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1, v1, v1}, Landroid/content/res/TypedArray;->getInteger(II)I
 
     move-result p2
 
-    .line 5
     invoke-static {p2}, Lcom/commsource/widget/VerticalSeekBar;->e(I)Z
 
     move-result p3
 
     if-eqz p3, :cond_0
 
-    .line 6
     iput p2, p0, Lcom/commsource/widget/VerticalSeekBar;->c:I
 
-    .line 7
     :cond_0
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -224,7 +202,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -260,7 +237,6 @@
     :goto_0
     const/4 p0, 0x1
 
-    .line 1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -276,10 +252,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/widget/VerticalSeekBar;->a:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -294,10 +268,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/widget/VerticalSeekBar;->a:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -310,17 +282,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/SeekBar;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
 
-    .line 2
     instance-of v2, v1, Lcom/commsource/widget/VerticalSeekBarWrapper;
 
     if-eqz v2, :cond_0
 
-    .line 3
     check-cast v1, Lcom/commsource/widget/VerticalSeekBarWrapper;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -330,7 +299,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -343,7 +311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/SeekBar;->isEnabled()Z
 
     move-result v1
@@ -352,12 +319,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -379,88 +344,67 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     iget-boolean p1, p0, Lcom/commsource/widget/VerticalSeekBar;->a:Z
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/widget/VerticalSeekBar;->g()V
 
-    .line 6
     invoke-virtual {p0, v2}, Landroid/widget/SeekBar;->setPressed(Z)V
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Landroid/widget/SeekBar;->invalidate()V
 
     goto :goto_1
 
-    .line 8
     :cond_3
     iget-boolean v1, p0, Lcom/commsource/widget/VerticalSeekBar;->a:Z
 
     if-eqz v1, :cond_7
 
-    .line 9
     invoke-direct {p0, p1}, Lcom/commsource/widget/VerticalSeekBar;->l(Landroid/view/MotionEvent;)V
 
     goto :goto_1
 
-    .line 10
     :cond_4
     iget-boolean v1, p0, Lcom/commsource/widget/VerticalSeekBar;->a:Z
 
     if-eqz v1, :cond_5
 
-    .line 11
     invoke-direct {p0, p1}, Lcom/commsource/widget/VerticalSeekBar;->l(Landroid/view/MotionEvent;)V
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/widget/VerticalSeekBar;->g()V
 
-    .line 13
     invoke-virtual {p0, v2}, Landroid/widget/SeekBar;->setPressed(Z)V
 
     goto :goto_0
 
-    .line 14
     :cond_5
     invoke-direct {p0}, Lcom/commsource/widget/VerticalSeekBar;->f()V
 
-    .line 15
     invoke-direct {p0, p1}, Lcom/commsource/widget/VerticalSeekBar;->l(Landroid/view/MotionEvent;)V
 
-    .line 16
     invoke-direct {p0}, Lcom/commsource/widget/VerticalSeekBar;->g()V
 
-    .line 17
     invoke-direct {p0, v2}, Lcom/commsource/widget/VerticalSeekBar;->b(Z)V
 
-    .line 18
     :goto_0
     invoke-virtual {p0}, Landroid/widget/SeekBar;->invalidate()V
 
     goto :goto_1
 
-    .line 19
     :cond_6
     invoke-virtual {p0, v3}, Landroid/widget/SeekBar;->setPressed(Z)V
 
-    .line 20
     invoke-direct {p0}, Lcom/commsource/widget/VerticalSeekBar;->f()V
 
-    .line 21
     invoke-direct {p0, p1}, Lcom/commsource/widget/VerticalSeekBar;->l(Landroid/view/MotionEvent;)V
 
-    .line 22
     invoke-direct {p0, v3}, Lcom/commsource/widget/VerticalSeekBar;->b(Z)V
 
-    .line 23
     invoke-virtual {p0}, Landroid/widget/SeekBar;->invalidate()V
 
-    .line 24
     :cond_7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -475,14 +419,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/SeekBar;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result p1
@@ -502,16 +444,13 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/commsource/widget/VerticalSeekBar;->b(Z)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-direct {p0, v2}, Lcom/commsource/widget/VerticalSeekBar;->b(Z)V
 
-    .line 5
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -526,7 +465,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/widget/SeekBar;->getWidth()I
 
     move-result v1
@@ -539,7 +477,6 @@
 
     invoke-virtual {p0, v1, v2, v3, v3}, Lcom/commsource/widget/VerticalSeekBar;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -555,7 +492,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/VerticalSeekBar;->b:Ljava/lang/reflect/Method;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -568,7 +504,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     :try_start_1
     const-class v1, Landroid/widget/ProgressBar;
 
@@ -588,16 +523,13 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1, v4}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
-    .line 4
     iput-object v1, p0, Lcom/commsource/widget/VerticalSeekBar;->b:Ljava/lang/reflect/Method;
     :try_end_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     :catch_0
     :cond_0
     :try_start_2
@@ -610,7 +542,6 @@
     :try_start_3
     new-array v5, v3, [Ljava/lang/Object;
 
-    .line 6
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -670,17 +601,14 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     :try_start_4
     invoke-super {p0, p1}, Landroid/widget/SeekBar;->setProgress(I)V
 
-    .line 8
     :catch_1
     :goto_0
     invoke-direct {p0}, Lcom/commsource/widget/VerticalSeekBar;->j()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
@@ -704,17 +632,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/widget/SeekBar;->getPaddingLeft()I
 
     move-result v1
 
-    .line 2
     invoke-super {p0}, Landroid/widget/SeekBar;->getPaddingRight()I
 
     move-result v2
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/SeekBar;->getHeight()I
 
     move-result v3
@@ -723,14 +648,12 @@
 
     sub-int v2, v3, v2
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result p1
 
     float-to-int p1, p1
 
-    .line 5
     iget v4, p0, Lcom/commsource/widget/VerticalSeekBar;->c:I
 
     const/16 v5, 0x5a
@@ -796,7 +719,6 @@
     :goto_1
     const/4 v6, 0x0
 
-    .line 6
     :goto_2
     invoke-virtual {p0}, Landroid/widget/SeekBar;->getMax()I
 
@@ -810,10 +732,8 @@
 
     const/4 v1, 0x1
 
-    .line 7
     invoke-direct {p0, p1, v1}, Lcom/commsource/widget/VerticalSeekBar;->k(IZ)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -828,7 +748,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/VerticalSeekBar;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -843,14 +762,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/SeekBar;->isInEditMode()Z
 
     move-result v1
 
     xor-int/lit8 v1, v1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -866,14 +783,12 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/VerticalSeekBar;->m()Z
 
     move-result v1
 
     if-nez v1, :cond_2
 
-    .line 2
     iget v1, p0, Lcom/commsource/widget/VerticalSeekBar;->c:I
 
     const/16 v2, 0x5a
@@ -891,10 +806,8 @@
     :cond_0
     const/high16 v1, -0x3d4c0000    # -90.0f
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->rotate(F)V
 
-    .line 4
     invoke-super {p0}, Landroid/widget/SeekBar;->getHeight()I
 
     move-result v1
@@ -910,10 +823,8 @@
     :cond_1
     const/high16 v1, 0x42b40000    # 90.0f
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->rotate(F)V
 
-    .line 6
     invoke-super {p0}, Landroid/widget/SeekBar;->getWidth()I
 
     move-result v1
@@ -924,12 +835,10 @@
 
     invoke-virtual {p1, v3, v1}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 7
     :cond_2
     :goto_0
     invoke-super {p0, p1}, Landroid/widget/SeekBar;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -953,7 +862,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/SeekBar;->isEnabled()Z
 
     move-result v1
@@ -972,13 +880,11 @@
 
     goto :goto_1
 
-    .line 2
     :pswitch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :pswitch_1
     iget v2, p0, Lcom/commsource/widget/VerticalSeekBar;->c:I
 
@@ -988,7 +894,6 @@
 
     goto :goto_0
 
-    .line 4
     :pswitch_2
     iget v2, p0, Lcom/commsource/widget/VerticalSeekBar;->c:I
 
@@ -1005,12 +910,10 @@
     :goto_1
     if-eqz v2, :cond_2
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/SeekBar;->getKeyProgressIncrement()I
 
     move-result p1
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/SeekBar;->getProgress()I
 
     move-result p2
@@ -1021,23 +924,19 @@
 
     if-ltz p2, :cond_1
 
-    .line 7
     invoke-virtual {p0}, Landroid/widget/SeekBar;->getMax()I
 
     move-result p1
 
     if-gt p2, p1, :cond_1
 
-    .line 8
     invoke-direct {p0, p2, v3}, Lcom/commsource/widget/VerticalSeekBar;->k(IZ)V
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 10
     :cond_2
     invoke-super {p0, p1, p2}, Landroid/widget/SeekBar;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
@@ -1068,28 +967,23 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/VerticalSeekBar;->m()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-super {p0, p1, p2}, Landroid/widget/SeekBar;->onMeasure(II)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-super {p0, p2, p1}, Landroid/widget/SeekBar;->onMeasure(II)V
 
-    .line 4
     invoke-virtual {p0}, Landroid/widget/SeekBar;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/SeekBar;->isInEditMode()Z
 
     move-result p2
@@ -1102,7 +996,6 @@
 
     if-ltz p2, :cond_1
 
-    .line 6
     invoke-super {p0}, Landroid/widget/SeekBar;->getMeasuredHeight()I
 
     move-result p2
@@ -1113,7 +1006,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-super {p0}, Landroid/widget/SeekBar;->getMeasuredHeight()I
 
@@ -1125,7 +1017,6 @@
 
     invoke-virtual {p0, p1, p2}, Landroid/widget/SeekBar;->setMeasuredDimension(II)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -1150,23 +1041,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/VerticalSeekBar;->m()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/SeekBar;->onSizeChanged(IIII)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-super {p0, p2, p1, p4, p3}, Landroid/widget/SeekBar;->onSizeChanged(IIII)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1180,14 +1067,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/VerticalSeekBar;->m()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/widget/VerticalSeekBar;->i(Landroid/view/MotionEvent;)Z
 
     move-result p1
@@ -1196,7 +1081,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-direct {p0, p1}, Lcom/commsource/widget/VerticalSeekBar;->h(Landroid/view/MotionEvent;)Z
 
@@ -1217,20 +1101,16 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/SeekBar;->setProgress(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/VerticalSeekBar;->m()Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/VerticalSeekBar;->j()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -1255,58 +1135,48 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/widget/VerticalSeekBar;->e(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    .line 2
     iget v1, p0, Lcom/commsource/widget/VerticalSeekBar;->c:I
 
     if-ne v1, p1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iput p1, p0, Lcom/commsource/widget/VerticalSeekBar;->c:I
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/widget/VerticalSeekBar;->m()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/widget/VerticalSeekBar;->getWrapper()Lcom/commsource/widget/VerticalSeekBarWrapper;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/widget/VerticalSeekBarWrapper;->a()V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-virtual {p0}, Landroid/widget/SeekBar;->requestLayout()V
 
-    .line 9
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_3
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
@@ -1338,10 +1208,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/SeekBar;->setThumb(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

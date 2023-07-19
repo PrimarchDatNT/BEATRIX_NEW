@@ -44,10 +44,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/d;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Ljava/util/LinkedList;
 
     invoke-direct {p1}, Ljava/util/LinkedList;-><init>()V
@@ -60,7 +58,6 @@
 .method public static final synthetic p0(Lcom/commsource/studio/layer/c;)Ljava/util/LinkedList;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/c;->O:Ljava/util/LinkedList;
 
     return-object p0
@@ -77,13 +74,11 @@
 
     const/4 p2, -0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/layer/c;->q0(Lcom/commsource/studio/layer/c$a;I)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -101,7 +96,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/layer/c$b;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/layer/c$b;-><init>(Lcom/commsource/studio/layer/c;)V
@@ -128,7 +122,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     const-class p1, Lcom/commsource/studio/component/d;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -143,13 +136,11 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/studio/component/d;->A(Lcom/commsource/studio/layer/BaseLayer;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/layer/c;->N:Lcom/commsource/studio/component/d;
 
     if-nez p1, :cond_1
@@ -183,14 +174,12 @@
 
     if-ne p2, v0, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/layer/c;->O:Ljava/util/LinkedList;
 
     invoke-virtual {p2, p1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p2, p0, Lcom/commsource/studio/layer/c;->O:Ljava/util/LinkedList;
 
@@ -205,7 +194,6 @@
 .method public s0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/layer/c;->Q:Z
 
     return v0
@@ -214,7 +202,6 @@
 .method public final t0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/layer/c;->R:Z
 
     return v0
@@ -223,7 +210,6 @@
 .method public final u0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/layer/c;->P:Z
 
     return v0
@@ -232,7 +218,6 @@
 .method public v0(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/c;->Q:Z
 
     return-void
@@ -241,7 +226,6 @@
 .method public final w0(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/c;->R:Z
 
     return-void
@@ -250,7 +234,6 @@
 .method public final x0(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/c;->P:Z
 
     return-void

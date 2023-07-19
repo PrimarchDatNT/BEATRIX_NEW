@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/home/entity/i;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/home/banner/HomeSlideShowModuleVH$d;->b(ILcom/commsource/home/entity/i;)Z
@@ -77,7 +76,6 @@
 
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, v0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$d;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     invoke-virtual {v1}, Lcom/commsource/home/BaseHomeModuleVH;->y()Lcom/commsource/home/NewHomeContentViewModel;
@@ -113,7 +111,6 @@
     :cond_0
     invoke-virtual {v1, v2, v3, v9}, Lcom/commsource/home/NewHomeContentViewModel;->Q(Landroid/app/Activity;Lcom/commsource/home/entity/ContentModule;Lcom/commsource/home/entity/i;)V
 
-    .line 2
     iget-object v1, v0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$d;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     invoke-virtual {v1}, Lcom/commsource/home/BaseHomeModuleVH;->y()Lcom/commsource/home/NewHomeContentViewModel;
@@ -162,7 +159,6 @@
 
     invoke-static/range {v1 .. v8}, Lcom/commsource/home/d;->b(Lcom/commsource/home/d;ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;ILjava/lang/Object;)V
 
-    .line 3
     iget-object v1, v0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$d;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     invoke-virtual {v1}, Lcom/commsource/home/BaseHomeModuleVH;->y()Lcom/commsource/home/NewHomeContentViewModel;
@@ -213,7 +209,6 @@
 
     invoke-static/range {v1 .. v9}, Lcom/commsource/home/d;->m(Lcom/commsource/home/d;Ljava/lang/String;ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;ILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v12

@@ -47,7 +47,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/mopub/common/CloseableLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -64,10 +63,8 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object p1
@@ -76,10 +73,8 @@
 
     const/4 p3, 0x1
 
-    .line 4
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    .line 5
     sget p1, Lcom/mopub/mobileads/base/R$id;->mopub_closeable_layout_close_button:I
 
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -90,14 +85,12 @@
 
     iput-object p1, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
-    .line 6
     new-instance p2, Lcom/mopub/common/a;
 
     invoke-direct {p2, p0}, Lcom/mopub/common/a;-><init>(Lcom/mopub/common/CloseableLayout;)V
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object p1, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
     new-instance p2, Lcom/mopub/common/b;
@@ -106,14 +99,12 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageButton;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
-    .line 8
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
     sget p2, Lcom/mopub/mobileads/base/R$dimen;->closeable_layout_region_size:I
 
-    .line 9
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result p1
@@ -122,13 +113,10 @@
 
     const/4 p1, 0x0
 
-    .line 10
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->setWillNotDraw(Z)V
 
-    .line 11
     iput-boolean p3, p0, Lcom/mopub/common/CloseableLayout;->mCloseAlwaysInteractable:Z
 
-    .line 12
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
@@ -139,7 +127,6 @@
 
     move-result p1
 
-    .line 13
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->setBackgroundColor(I)V
 
     return-void
@@ -148,7 +135,6 @@
 .method private synthetic a(Landroid/view/View;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/mopub/common/CloseableLayout;->onClosePressed()V
 
     return-void
@@ -157,7 +143,6 @@
 .method static synthetic access$100(Lcom/mopub/common/CloseableLayout;)Landroid/widget/ImageButton;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
     return-object p0
@@ -168,7 +153,6 @@
 
     const/16 v0, 0x35
 
-    .line 1
     invoke-static {v0, p1, p1, p2, p3}, Landroid/view/Gravity;->apply(IIILandroid/graphics/Rect;Landroid/graphics/Rect;)V
 
     return-void
@@ -177,7 +161,6 @@
 .method private synthetic c(Landroid/view/View;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/mopub/common/CloseableLayout;->onClosePressed()V
 
     const/4 p1, 0x1
@@ -188,17 +171,14 @@
 .method private synthetic e(Landroid/view/View;)V
     .locals 2
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageButton;->setEnabled(Z)V
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/common/CloseableLayout;->performClose()V
 
-    .line 3
     new-instance p1, Lcom/mopub/common/CloseableLayout$UnsetPressedState;
 
     const/4 v0, 0x0
@@ -207,7 +187,6 @@
 
     iput-object p1, p0, Lcom/mopub/common/CloseableLayout;->mUnsetPressedState:Lcom/mopub/common/CloseableLayout$UnsetPressedState;
 
-    .line 4
     invoke-static {}, Landroid/view/ViewConfiguration;->getPressedStateDuration()I
 
     move-result v0
@@ -222,17 +201,14 @@
 .method private onClosePressed()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setEnabled(Z)V
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/common/CloseableLayout;->performClose()V
 
-    .line 3
     new-instance v0, Lcom/mopub/common/CloseableLayout$UnsetPressedState;
 
     const/4 v1, 0x0
@@ -241,7 +217,6 @@
 
     iput-object v0, p0, Lcom/mopub/common/CloseableLayout;->mUnsetPressedState:Lcom/mopub/common/CloseableLayout$UnsetPressedState;
 
-    .line 4
     invoke-static {}, Landroid/view/ViewConfiguration;->getPressedStateDuration()I
 
     move-result v1
@@ -258,15 +233,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->playSoundEffect(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/CloseableLayout;->mOnCloseListener:Lcom/mopub/common/CloseableLayout$OnCloseListener;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {v0}, Lcom/mopub/common/CloseableLayout$OnCloseListener;->onClose()V
 
     :cond_0
@@ -278,10 +250,8 @@
 .method public addView(Landroid/view/View;I)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;I)V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->bringChildToFront(Landroid/view/View;)V
@@ -292,10 +262,8 @@
 .method public addView(Landroid/view/View;II)V
     .locals 0
 
-    .line 3
     invoke-super {p0, p1, p2, p3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;II)V
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->bringChildToFront(Landroid/view/View;)V
@@ -306,10 +274,8 @@
 .method public addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
     .locals 0
 
-    .line 5
     invoke-super {p0, p1, p2, p3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->bringChildToFront(Landroid/view/View;)V
@@ -320,7 +286,6 @@
 .method public applyCloseRegionBounds(Landroid/graphics/Rect;Landroid/graphics/Rect;)V
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/common/CloseableLayout;->mCloseRegionSize:I
 
     invoke-direct {p0, v0, p1, p2}, Lcom/mopub/common/CloseableLayout;->applyCloseBoundsWithSize(ILandroid/graphics/Rect;Landroid/graphics/Rect;)V
@@ -341,7 +306,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
     if-eqz v0, :cond_0
@@ -386,7 +350,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
     if-eqz v0, :cond_0
@@ -413,12 +376,10 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Landroid/widget/ImageButton;->getVisibility()I
 
     move-result v0
@@ -445,15 +406,12 @@
 .method public removeAllViews()V
     .locals 3
 
-    .line 1
     invoke-super {p0}, Landroid/widget/FrameLayout;->removeAllViews()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v0
@@ -462,10 +420,8 @@
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    .line 5
     sget v0, Lcom/mopub/mobileads/base/R$id;->mopub_closeable_layout_close_button:I
 
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -476,7 +432,6 @@
 
     iput-object v0, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
-    .line 6
     new-instance v1, Lcom/mopub/common/c;
 
     invoke-direct {v1, p0}, Lcom/mopub/common/c;-><init>(Lcom/mopub/common/CloseableLayout;)V
@@ -489,7 +444,6 @@
 .method public setCloseAlwaysInteractable(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/common/CloseableLayout;->mCloseAlwaysInteractable:Z
 
     return-void
@@ -498,7 +452,6 @@
 .method public setCloseVisible(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
     if-nez v0, :cond_0
@@ -508,7 +461,6 @@
     :cond_0
     if-nez p1, :cond_2
 
-    .line 2
     iget-boolean p1, p0, Lcom/mopub/common/CloseableLayout;->mCloseAlwaysInteractable:Z
 
     if-eqz p1, :cond_1
@@ -528,10 +480,8 @@
     :cond_2
     const/4 p1, 0x0
 
-    .line 3
     invoke-virtual {v0, p1}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 4
     :goto_1
     iget-object p1, p0, Lcom/mopub/common/CloseableLayout;->mCloseButton:Landroid/widget/ImageButton;
 
@@ -547,7 +497,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/CloseableLayout;->mOnCloseListener:Lcom/mopub/common/CloseableLayout$OnCloseListener;
 
     return-void
@@ -558,7 +507,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/common/CloseableLayout;->mCloseAlwaysInteractable:Z
 
     if-nez v0, :cond_1
@@ -567,7 +515,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {v0}, Landroid/widget/ImageButton;->getVisibility()I
 
     move-result v0

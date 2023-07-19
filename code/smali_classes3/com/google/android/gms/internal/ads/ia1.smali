@@ -30,12 +30,10 @@
 .method public final run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ia1;->a:Lcom/google/android/gms/internal/ads/ga1;
 
     iget-wide v1, p0, Lcom/google/android/gms/internal/ads/ia1;->b:J
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -44,7 +42,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->j()Lcom/google/android/gms/common/util/g;
 
     move-result-object v3
@@ -85,7 +82,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
     return-void

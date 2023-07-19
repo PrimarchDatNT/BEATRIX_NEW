@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/api/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/h$b;->a:Lcom/sdk/api/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/api/h$b;->a:Lcom/sdk/api/h;
 
     invoke-static {v0}, Lcom/sdk/api/h;->h(Lcom/sdk/api/h;)Lcom/sdk/api/h$d;
@@ -47,7 +45,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/h$b;->a:Lcom/sdk/api/h;
 
     invoke-static {v0}, Lcom/sdk/api/h;->h(Lcom/sdk/api/h;)Lcom/sdk/api/h$d;

@@ -29,15 +29,12 @@
 .method constructor <init>(Lcom/meitu/library/analytics/core/provider/d;JLjava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/core/provider/d$c;->c:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p2, p0, Lcom/meitu/library/analytics/core/provider/d$c;->a:J
 
-    .line 3
     iput-object p4, p0, Lcom/meitu/library/analytics/core/provider/d$c;->b:Ljava/lang/String;
 
     return-void
@@ -52,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/core/provider/d$c;->c:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-static {v1}, Lcom/meitu/library/analytics/core/provider/d;->f(Lcom/meitu/library/analytics/core/provider/d;)Ljava/util/concurrent/atomic/AtomicReference;
@@ -63,7 +59,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/analytics/core/provider/d$c;->c:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-static {v1}, Lcom/meitu/library/analytics/core/provider/d;->g(Lcom/meitu/library/analytics/core/provider/d;)Lcom/meitu/library/analytics/core/provider/d$b;
@@ -72,7 +67,6 @@
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget-object v3, p0, Lcom/meitu/library/analytics/core/provider/d$c;->c:Lcom/meitu/library/analytics/core/provider/d;
 
@@ -82,7 +76,6 @@
 
     iget-object v3, v3, Lcom/meitu/library/analytics/core/provider/d$b;->b:Ljava/lang/String;
 
-    .line 4
     iget-object v4, p0, Lcom/meitu/library/analytics/core/provider/d$c;->b:Ljava/lang/String;
 
     invoke-static {v4, v3}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
@@ -91,7 +84,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 5
     iget-object v4, p0, Lcom/meitu/library/analytics/core/provider/d$c;->c:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-static {v4}, Lcom/meitu/library/analytics/core/provider/d;->g(Lcom/meitu/library/analytics/core/provider/d;)Lcom/meitu/library/analytics/core/provider/d$b;
@@ -102,7 +94,6 @@
 
     iput-boolean v5, v4, Lcom/meitu/library/analytics/core/provider/d$b;->c:Z
 
-    .line 6
     iget-object v4, p0, Lcom/meitu/library/analytics/core/provider/d$c;->c:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-static {v4}, Lcom/meitu/library/analytics/core/provider/d;->g(Lcom/meitu/library/analytics/core/provider/d;)Lcom/meitu/library/analytics/core/provider/d$b;
@@ -111,7 +102,6 @@
 
     iput-object v2, v4, Lcom/meitu/library/analytics/core/provider/d$b;->b:Ljava/lang/String;
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/library/analytics/core/provider/d$c;->c:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-static {v2}, Lcom/meitu/library/analytics/core/provider/d;->g(Lcom/meitu/library/analytics/core/provider/d;)Lcom/meitu/library/analytics/core/provider/d$b;
@@ -132,7 +122,6 @@
 
     iput-wide v4, v2, Lcom/meitu/library/analytics/core/provider/d$b;->a:J
 
-    .line 8
     iget-object v2, p0, Lcom/meitu/library/analytics/core/provider/d$c;->c:Lcom/meitu/library/analytics/core/provider/d;
 
     const-string v4, "com.meitu.library.analytics.ACTION_SESSION_END"
@@ -145,13 +134,11 @@
 
     invoke-static {v2, v4, v5, v6, v3}, Lcom/meitu/library/analytics/core/provider/d;->i(Lcom/meitu/library/analytics/core/provider/d;Ljava/lang/String;JLjava/lang/String;)V
 
-    .line 9
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -159,7 +146,6 @@
     :catchall_0
     move-exception v2
 
-    .line 11
     :try_start_1
     monitor-exit v1
     :try_end_1

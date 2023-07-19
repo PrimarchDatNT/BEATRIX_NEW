@@ -72,7 +72,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_camera_filter_category:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     return-void
@@ -85,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
@@ -103,7 +101,6 @@
     :cond_0
     const/4 v1, 0x3
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -140,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     const-string v2, "mContext"
@@ -153,7 +149,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/category/c;->y()Z
 
     move-result p1
@@ -169,7 +164,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/category/c;->y()Z
 
@@ -184,7 +178,6 @@
     :cond_2
     sget p1, Lcom/res/provider/ResCOLOR;->color_cc333333:I
 
-    .line 4
     :goto_0
     invoke-virtual {v1, p1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -202,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/category/c;->v()I
 
     move-result v1
@@ -252,12 +244,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_2
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -266,7 +256,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     iget-object p3, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     instance-of v1, p3, Landroid/widget/TextView;
@@ -275,7 +264,6 @@
 
     const-string v1, "itemView"
 
-    .line 4
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p3, Landroid/widget/TextView;
@@ -290,7 +278,6 @@
 
     invoke-virtual {p3, v2}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result p3
@@ -303,7 +290,6 @@
 
     if-eq p3, v2, :cond_0
 
-    .line 6
     iget-object p3, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -318,7 +304,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -336,7 +321,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -352,7 +336,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 9
     :goto_0
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -368,7 +351,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 10
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -379,7 +361,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setCompoundDrawablePadding(I)V
 
-    .line 11
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     check-cast p1, Landroid/widget/TextView;
@@ -388,7 +369,6 @@
 
     invoke-virtual {p1, p2, p2, p2, p2}, Landroid/widget/TextView;->setCompoundDrawables(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
 
-    .line 12
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

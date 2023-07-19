@@ -11,7 +11,6 @@
 
     const-string v0, "com.google.android.gms.appdatasearch.internal.ILightweightAppDataSearchCallbacks"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/icing/b0;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -47,7 +46,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     sget-object p1, Lcom/google/android/gms/internal/icing/zzp;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -57,12 +55,10 @@
 
     check-cast p1, Lcom/google/android/gms/internal/icing/zzp;
 
-    .line 2
     invoke-interface {p0, p1}, Lcom/google/android/gms/internal/icing/e;->o7(Lcom/google/android/gms/internal/icing/zzp;)V
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Lcom/google/android/gms/common/api/Status;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -72,17 +68,14 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    .line 4
     invoke-static {p2}, Lcom/google/android/gms/internal/icing/a1;->d(Landroid/os/Parcel;)Z
 
     move-result p2
 
-    .line 5
     invoke-interface {p0, p1, p2}, Lcom/google/android/gms/internal/icing/e;->C5(Lcom/google/android/gms/common/api/Status;Z)V
 
     goto :goto_0
 
-    .line 6
     :cond_2
     sget-object p1, Lcom/google/android/gms/common/api/Status;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -92,7 +85,6 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    .line 7
     sget-object p4, Landroid/os/ParcelFileDescriptor;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-static {p2, p4}, Lcom/google/android/gms/internal/icing/a1;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
@@ -101,12 +93,10 @@
 
     check-cast p2, Landroid/os/ParcelFileDescriptor;
 
-    .line 8
     invoke-interface {p0, p1, p2}, Lcom/google/android/gms/internal/icing/e;->fa(Lcom/google/android/gms/common/api/Status;Landroid/os/ParcelFileDescriptor;)V
 
     goto :goto_0
 
-    .line 9
     :cond_3
     sget-object p1, Lcom/google/android/gms/common/api/Status;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -116,7 +106,6 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    .line 10
     invoke-interface {p0, p1}, Lcom/google/android/gms/internal/icing/e;->x0(Lcom/google/android/gms/common/api/Status;)V
 
     :goto_0

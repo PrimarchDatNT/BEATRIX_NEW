@@ -43,21 +43,18 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/d;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/f;->e:Lcom/commsource/beautyplus/BaseActivity;
 
     iput-object p2, p0, Lcom/commsource/home/homepagedialog/f;->f:Lcom/commsource/push/bean/a;
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/commsource/home/homepagedialog/f;->p(Lcom/commsource/push/bean/a;)Lcom/commsource/widget/y0;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/f;->c:Lcom/commsource/widget/y0;
 
-    .line 3
     invoke-direct {p0, p2}, Lcom/commsource/home/homepagedialog/f;->o(Lcom/commsource/push/bean/a;)Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object p1
@@ -74,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/home/homepagedialog/f;->d:Lcom/commsource/widget/dialog/s0/t;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -89,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/f;->s()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -104,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/f;->t()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -119,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/f;->d:Lcom/commsource/widget/dialog/s0/t;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -134,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/home/homepagedialog/f;->u(Lcom/commsource/push/bean/a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -149,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/dialog/s0/t$a;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
@@ -160,7 +151,6 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v3, p1, Lcom/commsource/push/bean/a;->p:Ljava/util/List;
 
     const/4 v4, 0x0
@@ -197,7 +187,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p1, Lcom/commsource/push/bean/a;->p:Ljava/util/List;
 
     if-eqz v2, :cond_1
@@ -227,14 +216,12 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p1, Lcom/commsource/push/bean/a;->q:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/s0/t$a;->x(Ljava/lang/String;)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Lcom/commsource/home/homepagedialog/f$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/home/homepagedialog/f$a;-><init>(Lcom/commsource/home/homepagedialog/f;)V
@@ -243,14 +230,12 @@
 
     move-result-object v1
 
-    .line 6
     iget-object v2, p1, Lcom/commsource/push/bean/a;->r:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/s0/t$a;->q(Ljava/lang/String;)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v1
 
-    .line 7
     new-instance v2, Lcom/commsource/home/homepagedialog/f$b;
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/home/homepagedialog/f$b;-><init>(Lcom/commsource/home/homepagedialog/f;Lcom/commsource/push/bean/a;)V
@@ -259,7 +244,6 @@
 
     move-result-object v1
 
-    .line 8
     new-instance v2, Lcom/commsource/home/homepagedialog/f$c;
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/home/homepagedialog/f$c;-><init>(Lcom/commsource/home/homepagedialog/f;Lcom/commsource/push/bean/a;)V
@@ -268,7 +252,6 @@
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object p1
@@ -289,7 +272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Lcom/commsource/push/bean/a;->n:I
 
     const/4 v2, 0x1
@@ -304,7 +286,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/y0;
 
     iget-object v3, p0, Lcom/commsource/home/homepagedialog/f;->e:Lcom/commsource/beautyplus/BaseActivity;
@@ -334,7 +315,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -347,7 +327,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Landroid/content/Intent;
 
@@ -355,10 +334,8 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    .line 2
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/f;->f:Lcom/commsource/push/bean/a;
 
     iget-object v2, v2, Lcom/commsource/push/bean/a;->h:Ljava/lang/String;
@@ -369,7 +346,6 @@
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/f;->e:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-virtual {v2, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
@@ -381,10 +357,8 @@
     :catch_0
     sget v1, Lcom/res/provider/ResSTRING;->open_failed:I
 
-    .line 5
     invoke-static {v1}, Lf/k/c/c/f;->h(I)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -398,12 +372,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/f;->f:Lcom/commsource/push/bean/a;
 
     iget-object v2, v2, Lcom/commsource/push/bean/a;->h:Ljava/lang/String;
@@ -436,7 +408,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 3
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -449,7 +420,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -470,7 +440,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->p(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     sget-object v1, Lcom/commsource/beautyplus/router/g;->a:Lcom/commsource/beautyplus/router/g;
 
@@ -484,7 +453,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v2, "source_click_position"
@@ -493,7 +461,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f;->e:Lcom/commsource/beautyplus/BaseActivity;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -526,7 +493,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     sget-object v1, Lcom/commsource/beautyplus/router/c;->b:Lcom/commsource/beautyplus/router/c;
 
@@ -540,7 +506,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/f;->e:Lcom/commsource/beautyplus/BaseActivity;
 
@@ -548,7 +513,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/f;->f:Lcom/commsource/push/bean/a;
 
     iget-object v2, v2, Lcom/commsource/push/bean/a;->h:Ljava/lang/String;
@@ -557,12 +521,10 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/f;->e:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-virtual {v2, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f;->f:Lcom/commsource/push/bean/a;
 
     iget v1, v1, Lcom/commsource/push/bean/a;->g:I
@@ -575,10 +537,8 @@
 
     const-string v3, "WebView"
 
-    .line 13
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -592,7 +552,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Lcom/commsource/push/bean/a;->s:I
 
     const/4 v2, 0x1
@@ -609,7 +568,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     iget p1, p1, Lcom/commsource/push/bean/a;->g:I
 
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -622,7 +580,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget p1, p1, Lcom/commsource/push/bean/a;->g:I
 
@@ -636,7 +593,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget p1, p1, Lcom/commsource/push/bean/a;->g:I
 
@@ -648,7 +604,6 @@
 
     invoke-static {v3, v1, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -664,7 +619,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 v0, 0x9
@@ -679,7 +633,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -690,7 +643,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -733,14 +685,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f;->c:Lcom/commsource/widget/y0;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v1
@@ -755,7 +705,6 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f;->d:Lcom/commsource/widget/dialog/s0/t;
 
     if-eqz v1, :cond_2
@@ -782,7 +731,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f;->e:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-static {v1}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
@@ -791,17 +739,14 @@
 
     if-nez v1, :cond_5
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f;->c:Lcom/commsource/widget/y0;
 
     if-eqz v1, :cond_1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
-    .line 4
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -813,13 +758,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f;->d:Lcom/commsource/widget/dialog/s0/t;
 
     if-nez v1, :cond_2
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f;->f:Lcom/commsource/push/bean/a;
 
     invoke-direct {p0, v1}, Lcom/commsource/home/homepagedialog/f;->o(Lcom/commsource/push/bean/a;)Lcom/commsource/widget/dialog/s0/t;
@@ -828,7 +771,6 @@
 
     iput-object v1, p0, Lcom/commsource/home/homepagedialog/f;->d:Lcom/commsource/widget/dialog/s0/t;
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f;->d:Lcom/commsource/widget/dialog/s0/t;
 
@@ -842,7 +784,6 @@
 
     if-eq v1, v2, :cond_5
 
-    .line 8
     :cond_3
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f;->d:Lcom/commsource/widget/dialog/s0/t;
 
@@ -850,7 +791,6 @@
 
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 9
     :cond_4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -860,14 +800,12 @@
 
     invoke-static {v1, v2}, Lcom/commsource/push/c/a;->g(Landroid/content/Context;Lcom/commsource/push/bean/a;)V
 
-    .line 10
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x2
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/f;->f:Lcom/commsource/push/bean/a;
 
     iget v2, v2, Lcom/commsource/push/bean/a;->g:I
@@ -880,14 +818,12 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     sget-object v2, Lcom/meitu/library/analytics/EventType;->AUTO:Lcom/meitu/library/analytics/EventType;
 
     const-string v3, "inapp_push_imp"
 
     invoke-static {v3, v2, v1}, Lcom/commsource/statistics/i;->q(Ljava/lang/String;Lcom/meitu/library/analytics/EventType;Ljava/util/Map;)V
 
-    .line 13
     :cond_5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -904,7 +840,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f;->e:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -921,7 +856,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f;->f:Lcom/commsource/push/bean/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

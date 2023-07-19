@@ -38,7 +38,6 @@
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$filterIsInstance$$inlined$filter$1;->a:Lcotlinx/coroutines/flow/d;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -59,10 +58,8 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$filterIsInstance$$inlined$filter$1;->a:Lcotlinx/coroutines/flow/d;
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
 
     new-instance v1, Lcotlinx/coroutines/flow/FlowKt__TransformKt$filterIsInstance$$inlined$filter$1$2;
@@ -81,7 +78,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -113,10 +109,8 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$filterIsInstance$$inlined$filter$1;->a:Lcotlinx/coroutines/flow/d;
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
 
     new-instance v1, Lcotlinx/coroutines/flow/FlowKt__TransformKt$filterIsInstance$$inlined$filter$1$2;
@@ -137,7 +131,6 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 3
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1

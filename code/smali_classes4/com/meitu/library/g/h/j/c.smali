@@ -27,23 +27,18 @@
 .method protected constructor <init>(Lcom/meitu/library/g/h/e;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/g/h/b;-><init>()V
 
-    .line 2
     sget-object v0, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
 
     iput-object v0, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
 
     const/4 v0, -0x1
 
-    .line 3
     iput v0, p0, Lcom/meitu/library/g/h/j/c;->c:I
 
-    .line 4
     iput v0, p0, Lcom/meitu/library/g/h/j/c;->d:I
 
-    .line 5
     check-cast p1, Lcom/meitu/library/g/h/j/b;
 
     iput-object p1, p0, Lcom/meitu/library/g/h/j/c;->a:Lcom/meitu/library/g/h/j/b;
@@ -60,14 +55,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
 
     sget-object v2, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/g/h/j/c;->a:Lcom/meitu/library/g/h/j/b;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/library/g/h/j/b;->q(II)Landroid/opengl/EGLSurface;
@@ -76,18 +69,14 @@
 
     iput-object v1, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
 
-    .line 3
     iput p1, p0, Lcom/meitu/library/g/h/j/c;->c:I
 
-    .line 4
     iput p2, p0, Lcom/meitu/library/g/h/j/c;->d:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -107,14 +96,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
 
     sget-object v2, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/g/h/j/c;->a:Lcom/meitu/library/g/h/j/b;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/g/h/j/b;->r(Ljava/lang/Object;)Landroid/opengl/EGLSurface;
@@ -123,12 +110,10 @@
 
     iput-object p1, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -148,12 +133,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/g/h/j/c;->d:I
 
     if-gez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/g/h/j/c;->a:Lcom/meitu/library/g/h/j/b;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
@@ -168,7 +151,6 @@
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -182,12 +164,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/g/h/j/c;->c:I
 
     if-gez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/g/h/j/c;->a:Lcom/meitu/library/g/h/j/b;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
@@ -202,7 +182,6 @@
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -216,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/j/c;->a:Lcom/meitu/library/g/h/j/b;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
@@ -237,17 +215,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/meitu/library/g/h/j/c;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast p1, Lcom/meitu/library/g/h/j/c;
 
     invoke-virtual {p0, p1}, Lcom/meitu/library/g/h/j/c;->k(Lcom/meitu/library/g/h/j/c;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -261,26 +236,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/j/c;->a:Lcom/meitu/library/g/h/j/b;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/g/h/j/b;->z(Landroid/opengl/EGLSurface;)Z
 
-    .line 2
     sget-object v1, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
 
     iput-object v1, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
 
     const/4 v1, -0x1
 
-    .line 3
     iput v1, p0, Lcom/meitu/library/g/h/j/c;->d:I
 
     iput v1, p0, Lcom/meitu/library/g/h/j/c;->c:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -298,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/j/c;->a:Lcom/meitu/library/g/h/j/b;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
@@ -309,17 +279,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/File;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/library/g/h/j/c;->d()I
 
     move-result v8
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/library/g/h/j/c;->c()I
 
     move-result v9
@@ -328,12 +295,10 @@
 
     mul-int/lit8 v1, v1, 0x4
 
-    .line 5
     invoke-static {v1}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object v10
 
-    .line 6
     sget-object v1, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-virtual {v10, v1}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
@@ -352,20 +317,16 @@
 
     move-object v7, v10
 
-    .line 7
     invoke-static/range {v1 .. v7}, Landroid/opengl/GLES20;->glReadPixels(IIIIIILjava/nio/Buffer;)V
 
     const-string v1, "glReadPixels"
 
-    .line 8
     invoke-static {v1}, Lcom/meitu/library/g/h/f;->a(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v10}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
     const/4 v1, 0x0
 
-    .line 10
     :try_start_0
     new-instance v2, Ljava/io/BufferedOutputStream;
 
@@ -377,7 +338,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 11
     :try_start_1
     sget-object p1, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
@@ -385,25 +345,20 @@
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1, v10}, Landroid/graphics/Bitmap;->copyPixelsFromBuffer(Ljava/nio/Buffer;)V
 
-    .line 13
     sget-object v1, Landroid/graphics/Bitmap$CompressFormat;->PNG:Landroid/graphics/Bitmap$CompressFormat;
 
     const/16 v3, 0x5a
 
     invoke-virtual {p1, v1, v3, v2}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
-    .line 14
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->recycle()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 15
     invoke-virtual {v2}, Ljava/io/BufferedOutputStream;->close()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -421,7 +376,6 @@
     :goto_0
     if-eqz v1, :cond_0
 
-    .line 17
     invoke-virtual {v1}, Ljava/io/BufferedOutputStream;->close()V
 
     :cond_0
@@ -429,7 +383,6 @@
 
     throw p1
 
-    .line 18
     :cond_1
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -449,14 +402,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/j/c;->a:Lcom/meitu/library/g/h/j/b;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
 
     invoke-virtual {v1, v2, p1, p2}, Lcom/meitu/library/g/h/j/b;->A(Landroid/opengl/EGLSurface;J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -469,7 +420,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/j/c;->a:Lcom/meitu/library/g/h/j/b;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
@@ -478,7 +428,6 @@
 
     move-result v1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -491,7 +440,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/j/c;->a:Lcom/meitu/library/g/h/j/b;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/j/c;->b:Landroid/opengl/EGLSurface;
@@ -500,7 +448,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/meitu/library/g/h/j/b;->w(Landroid/opengl/EGLSurface;Landroid/opengl/EGLSurface;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

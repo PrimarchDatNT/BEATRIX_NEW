@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/j0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/j0$a;->a:Lcom/commsource/autocamera/j0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/j0$a;->a:Lcom/commsource/autocamera/j0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/j0;->a(Lcom/commsource/autocamera/j0;)Lcom/commsource/beautyplus/f0/g;
@@ -51,7 +49,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/j0$a;->a:Lcom/commsource/autocamera/j0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/j0;->a(Lcom/commsource/autocamera/j0;)Lcom/commsource/beautyplus/f0/g;
@@ -66,7 +63,6 @@
 
     invoke-virtual {v1, p0}, Landroid/view/ViewTreeObserver;->removeOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/autocamera/j0$a;->a:Lcom/commsource/autocamera/j0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/j0;->a(Lcom/commsource/autocamera/j0;)Lcom/commsource/beautyplus/f0/g;
@@ -81,7 +77,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/autocamera/j0;->b(Lcom/commsource/autocamera/j0;I)I
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/autocamera/j0$a;->a:Lcom/commsource/autocamera/j0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/j0;->a(Lcom/commsource/autocamera/j0;)Lcom/commsource/beautyplus/f0/g;
@@ -99,7 +94,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

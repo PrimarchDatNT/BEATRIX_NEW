@@ -19,22 +19,16 @@
 .method private constructor <init>(Ljava/nio/ByteBuffer;JJJLjava/nio/ByteBuffer;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/mv1;->a:Ljava/nio/ByteBuffer;
 
-    .line 3
     iput-wide p2, p0, Lcom/google/android/gms/internal/ads/mv1;->b:J
 
-    .line 4
     iput-wide p4, p0, Lcom/google/android/gms/internal/ads/mv1;->c:J
 
-    .line 5
     iput-wide p6, p0, Lcom/google/android/gms/internal/ads/mv1;->d:J
 
-    .line 6
     iput-object p8, p0, Lcom/google/android/gms/internal/ads/mv1;->e:Ljava/nio/ByteBuffer;
 
     return-void
@@ -43,7 +37,6 @@
 .method synthetic constructor <init>(Ljava/nio/ByteBuffer;JJJLjava/nio/ByteBuffer;Lcom/google/android/gms/internal/ads/a;)V
     .locals 0
 
-    .line 7
     invoke-direct/range {p0 .. p8}, Lcom/google/android/gms/internal/ads/mv1;-><init>(Ljava/nio/ByteBuffer;JJJLjava/nio/ByteBuffer;)V
 
     return-void
@@ -52,7 +45,6 @@
 .method static synthetic a(Lcom/google/android/gms/internal/ads/mv1;)Ljava/nio/ByteBuffer;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/mv1;->a:Ljava/nio/ByteBuffer;
 
     return-object p0
@@ -61,7 +53,6 @@
 .method static synthetic b(Lcom/google/android/gms/internal/ads/mv1;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/mv1;->b:J
 
     return-wide v0
@@ -70,7 +61,6 @@
 .method static synthetic c(Lcom/google/android/gms/internal/ads/mv1;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/mv1;->c:J
 
     return-wide v0
@@ -79,7 +69,6 @@
 .method static synthetic d(Lcom/google/android/gms/internal/ads/mv1;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/mv1;->d:J
 
     return-wide v0
@@ -88,7 +77,6 @@
 .method static synthetic e(Lcom/google/android/gms/internal/ads/mv1;)Ljava/nio/ByteBuffer;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/mv1;->e:Ljava/nio/ByteBuffer;
 
     return-object p0

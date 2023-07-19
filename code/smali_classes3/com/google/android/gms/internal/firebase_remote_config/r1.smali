@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/u1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_remote_config/u1;-><init>()V
@@ -30,7 +29,6 @@
 .method static a()[C
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/r1;->a:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;

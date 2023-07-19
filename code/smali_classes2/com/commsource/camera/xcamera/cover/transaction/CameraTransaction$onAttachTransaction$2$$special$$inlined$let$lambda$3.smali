@@ -61,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$3;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -78,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/camera/xcamera/util/c;->c:Lcom/commsource/camera/xcamera/util/c$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/util/c$a;->a()Lcom/commsource/camera/xcamera/util/c;
@@ -89,14 +87,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/util/c;->f(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$3;->$selfiePhotoData:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     const/4 v2, 0x3
 
     invoke-static {v2, v1}, Lcom/commsource/statistics/e;->a(ILcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$3;->$selfiePhotoData:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isAr()Z
@@ -113,13 +109,11 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$3;->$selfiePhotoData:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-static {v1}, Lcom/commsource/camera/beauty/ArAnalyAgent;->g(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$3;->$selfiePhotoData:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getArFaceCount()I
@@ -132,7 +126,6 @@
 
     move-result-object v3
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$3;->$selfiePhotoData:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getArMaterialId()I
@@ -145,14 +138,12 @@
 
     move-result v5
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$3;->$selfiePhotoData:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isUseArFilter()Z
 
     move-result v6
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$3;->$selfiePhotoData:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isArVideoReward()Z
@@ -165,7 +156,6 @@
 
     move-result-wide v8
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$3;->$selfiePhotoData:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getArMaterialGroup()I
@@ -178,7 +168,6 @@
 
     move-result v11
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$3;->$selfiePhotoData:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isArCore()Z
@@ -204,11 +193,9 @@
 
     const/4 v12, 0x0
 
-    .line 12
     :goto_0
     invoke-static/range {v2 .. v12}, Lcom/commsource/camera/beauty/ArAnalyAgent;->f(ILcom/meitu/template/bean/Filter;IIZZJIZZ)V
 
-    .line 13
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$3;->this$0:Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2;
 
@@ -222,7 +209,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->y(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$3;->this$0:Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2;->a:Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;
@@ -235,7 +221,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->F(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

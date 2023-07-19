@@ -32,26 +32,22 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/bean/ImageLayerInfo;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/bean/StickerLayerInfo;->sticker:Lcom/meitu/template/bean/Sticker;
 
     const/4 v0, 0x2
 
-    .line 2
     iput v0, p0, Lcom/commsource/studio/bean/StickerLayerInfo;->layerType:I
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-virtual {p1, v0}, Lcom/meitu/template/bean/Sticker;->getStickerPath(Z)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/studio/bean/StickerLayerInfo;->originalImagePath:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/commsource/studio/bean/ImageLayerInfo;->setTexturePath(Ljava/lang/String;)V
 
     return-void
@@ -66,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/bean/StickerLayerInfo;->layerType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -83,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/StickerLayerInfo;->originalImagePath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -100,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/StickerLayerInfo;->sticker:Lcom/meitu/template/bean/Sticker;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/bean/ImageLayerInfo;->getTexturePath()Ljava/lang/String;
 
     move-result-object v1
@@ -130,7 +122,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/bean/StickerLayerInfo;->sticker:Lcom/meitu/template/bean/Sticker;
 
     const/4 v2, 0x1
@@ -141,13 +132,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/bean/ImageLayerInfo;->getTexturePath()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -161,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     iget-object v2, p0, Lcom/commsource/studio/bean/StickerLayerInfo;->sticker:Lcom/meitu/template/bean/Sticker;
@@ -182,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/StickerLayerInfo;->layerType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -205,7 +192,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/StickerLayerInfo;->originalImagePath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

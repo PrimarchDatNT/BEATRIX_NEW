@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/google/common/cache/CacheLoader$a;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/cache/CacheLoader$a$a;->c:Lcom/google/common/cache/CacheLoader$a;
 
     iput-object p2, p0, Lcom/google/common/cache/CacheLoader$a$a;->a:Ljava/lang/Object;
@@ -65,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/CacheLoader$a$a;->c:Lcom/google/common/cache/CacheLoader$a;
 
     iget-object v0, v0, Lcom/google/common/cache/CacheLoader$a;->a:Lcom/google/common/cache/CacheLoader;

@@ -21,34 +21,26 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/nodes/i;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p2}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {p3}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
     const-string v0, "name"
 
-    .line 5
     invoke-virtual {p0, v0, p1}, Lorg/jsoup/nodes/f;->h(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/j;
 
     const-string p1, "publicId"
 
-    .line 6
     invoke-virtual {p0, p1, p2}, Lorg/jsoup/nodes/f;->h(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/j;
 
     const-string p1, "systemId"
 
-    .line 7
     invoke-virtual {p0, p1, p3}, Lorg/jsoup/nodes/f;->h(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/j;
 
-    .line 8
     invoke-direct {p0}, Lorg/jsoup/nodes/f;->q0()V
 
     return-void
@@ -57,7 +49,6 @@
 .method private l0(Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/jsoup/nodes/f;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -76,7 +67,6 @@
 
     const-string v0, "publicId"
 
-    .line 1
     invoke-direct {p0, v0}, Lorg/jsoup/nodes/f;->l0(Ljava/lang/String;)Z
 
     move-result v0
@@ -87,7 +77,6 @@
 
     const-string v0, "PUBLIC"
 
-    .line 2
     invoke-virtual {p0, v1, v0}, Lorg/jsoup/nodes/f;->h(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/j;
 
     goto :goto_0
@@ -95,7 +84,6 @@
     :cond_0
     const-string v0, "systemId"
 
-    .line 3
     invoke-direct {p0, v0}, Lorg/jsoup/nodes/f;->l0(Ljava/lang/String;)Z
 
     move-result v0
@@ -104,7 +92,6 @@
 
     const-string v0, "SYSTEM"
 
-    .line 4
     invoke-virtual {p0, v1, v0}, Lorg/jsoup/nodes/f;->h(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/j;
 
     :cond_1
@@ -130,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p3}, Lorg/jsoup/nodes/Document$OutputSettings;->o()Lorg/jsoup/nodes/Document$OutputSettings$Syntax;
 
     move-result-object p2
@@ -157,7 +143,6 @@
 
     const-string p2, "<!doctype"
 
-    .line 2
     invoke-interface {p1, p2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
     goto :goto_0
@@ -165,13 +150,11 @@
     :cond_0
     const-string p2, "<!DOCTYPE"
 
-    .line 3
     invoke-interface {p1, p2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
     :goto_0
     const-string p2, "name"
 
-    .line 4
     invoke-direct {p0, p2}, Lorg/jsoup/nodes/f;->l0(Ljava/lang/String;)Z
 
     move-result p3
@@ -180,7 +163,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 5
     invoke-interface {p1, v2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
     move-result-object p3
@@ -194,14 +176,12 @@
     :cond_1
     const-string p2, "pubSysKey"
 
-    .line 6
     invoke-direct {p0, p2}, Lorg/jsoup/nodes/f;->l0(Ljava/lang/String;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2
 
-    .line 7
     invoke-interface {p1, v2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
     move-result-object p3
@@ -212,7 +192,6 @@
 
     invoke-interface {p3, p2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
-    .line 8
     :cond_2
     invoke-direct {p0, v1}, Lorg/jsoup/nodes/f;->l0(Ljava/lang/String;)Z
 
@@ -224,7 +203,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 9
     invoke-interface {p1, v2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
     move-result-object p2
@@ -239,7 +217,6 @@
 
     invoke-interface {p2, p3}, Ljava/lang/Appendable;->append(C)Ljava/lang/Appendable;
 
-    .line 10
     :cond_3
     invoke-direct {p0, v0}, Lorg/jsoup/nodes/f;->l0(Ljava/lang/String;)Z
 
@@ -247,7 +224,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 11
     invoke-interface {p1, v2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
     move-result-object p2
@@ -265,7 +241,6 @@
     :cond_4
     const/16 p2, 0x3e
 
-    .line 12
     invoke-interface {p1, p2}, Ljava/lang/Appendable;->append(C)Ljava/lang/Appendable;
 
     return-void
@@ -280,7 +255,6 @@
 .method public bridge synthetic S(Ljava/lang/String;)Lorg/jsoup/nodes/j;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lorg/jsoup/nodes/i;->S(Ljava/lang/String;)Lorg/jsoup/nodes/j;
 
     move-result-object p1
@@ -291,7 +265,6 @@
 .method public bridge synthetic a(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lorg/jsoup/nodes/i;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -302,7 +275,6 @@
 .method public bridge synthetic g(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lorg/jsoup/nodes/i;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -313,7 +285,6 @@
 .method public bridge synthetic h(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/j;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Lorg/jsoup/nodes/i;->h(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/j;
 
     move-result-object p1
@@ -324,7 +295,6 @@
 .method public bridge synthetic j()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lorg/jsoup/nodes/i;->j()Ljava/lang/String;
 
     move-result-object v0
@@ -337,7 +307,6 @@
 
     const-string v0, "name"
 
-    .line 1
     invoke-virtual {p0, v0}, Lorg/jsoup/nodes/f;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -348,7 +317,6 @@
 .method public bridge synthetic n()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lorg/jsoup/nodes/i;->n()I
 
     move-result v0
@@ -361,7 +329,6 @@
 
     const-string v0, "publicId"
 
-    .line 1
     invoke-virtual {p0, v0}, Lorg/jsoup/nodes/f;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -376,7 +343,6 @@
 
     const-string v0, "pubSysKey"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lorg/jsoup/nodes/f;->h(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/j;
 
     :cond_0
@@ -388,7 +354,6 @@
 
     const-string v0, "systemId"
 
-    .line 1
     invoke-virtual {p0, v0}, Lorg/jsoup/nodes/f;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -399,7 +364,6 @@
 .method public bridge synthetic v()Lorg/jsoup/nodes/j;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lorg/jsoup/nodes/i;->v()Lorg/jsoup/nodes/j;
 
     move-result-object v0
@@ -410,7 +374,6 @@
 .method public bridge synthetic z(Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lorg/jsoup/nodes/i;->z(Ljava/lang/String;)Z
 
     move-result p1

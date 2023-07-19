@@ -26,15 +26,12 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/dynamite/DynamiteModule$c;->a:I
 
     const/4 p1, 0x0
 
-    .line 3
     iput p1, p0, Lcom/google/android/gms/dynamite/DynamiteModule$c;->b:I
 
     return-void
@@ -53,7 +50,6 @@
 .method public final b(Landroid/content/Context;Ljava/lang/String;)I
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/google/android/gms/dynamite/DynamiteModule$c;->a:I
 
     return p1

@@ -29,10 +29,8 @@
 .method public constructor <init>(Lcom/google/android/gms/common/d;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/d$a;->c:Lcom/google/android/gms/common/d;
 
-    .line 2
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object p1
@@ -53,7 +51,6 @@
     :goto_0
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/base/o;-><init>(Landroid/os/Looper;)V
 
-    .line 3
     invoke-virtual {p2}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
@@ -68,7 +65,6 @@
 .method public final handleMessage(Landroid/os/Message;)V
     .locals 2
 
-    .line 1
     iget p1, p1, Landroid/os/Message;->what:I
 
     const/4 v0, 0x1
@@ -77,7 +73,6 @@
 
     const/16 v0, 0x32
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -98,7 +93,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/common/d$a;->c:Lcom/google/android/gms/common/d;
 
@@ -108,7 +102,6 @@
 
     move-result p1
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/common/d$a;->c:Lcom/google/android/gms/common/d;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/common/d;->o(I)Z
@@ -117,7 +110,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/common/d$a;->c:Lcom/google/android/gms/common/d;
 
     iget-object v1, p0, Lcom/google/android/gms/common/d$a;->b:Landroid/content/Context;

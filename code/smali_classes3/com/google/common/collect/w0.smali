@@ -27,7 +27,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/d0;-><init>()V
 
     return-void
@@ -38,7 +37,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/w0;->delegate()Ljava/util/Set;
 
     move-result-object v0
@@ -49,7 +47,6 @@
 .method protected bridge synthetic delegate()Ljava/util/Collection;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/w0;->delegate()Ljava/util/Set;
 
     move-result-object v0
@@ -76,7 +73,6 @@
 
     if-eq p1, p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/w0;->delegate()Ljava/util/Set;
 
     move-result-object v0
@@ -105,7 +101,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/w0;->delegate()Ljava/util/Set;
 
     move-result-object v0
@@ -124,7 +119,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Sets;->g(Ljava/util/Set;Ljava/lang/Object;)Z
 
     move-result p1
@@ -135,7 +129,6 @@
 .method protected standardHashCode()I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/collect/Sets;->k(Ljava/util/Set;)I
 
     move-result v0
@@ -153,7 +146,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

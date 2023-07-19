@@ -43,12 +43,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     iget-object v3, p0, Lcom/commsource/studio/sticker/StickerPagerFragment$tracker$2$a$a;->a:Lcom/meitu/template/bean/Sticker;
@@ -63,7 +61,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/template/bean/StickerGroup;->getCategoryId()I
 
     move-result v2
@@ -76,7 +73,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerPagerFragment$tracker$2$a$a;->a:Lcom/meitu/template/bean/Sticker;
 
@@ -94,10 +90,8 @@
 
     const-string v2, "beauty_sticker_imp"
 
-    .line 5
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/icing/a4;->y()Ljava/lang/Class;
 
     move-result-object v0
@@ -53,7 +52,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/icing/a4;->M(Z)Lcom/google/android/gms/internal/icing/p4;
 
     move-result-object v0
@@ -62,14 +60,12 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/internal/icing/a4;->M(Z)Lcom/google/android/gms/internal/icing/p4;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/internal/icing/a4;->c:Lcom/google/android/gms/internal/icing/p4;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/internal/icing/r4;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/r4;-><init>()V
@@ -90,7 +86,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -101,13 +96,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/icing/f2;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/icing/f2;
 
     const/4 v2, 0x0
@@ -115,7 +108,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/icing/f2;->getInt(I)I
 
     move-result v3
@@ -136,7 +128,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -182,14 +173,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->i(ILjava/util/List;Z)V
 
     :cond_0
@@ -207,7 +196,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -218,13 +206,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/icing/f2;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/icing/f2;
 
     const/4 v2, 0x0
@@ -232,7 +218,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/icing/f2;->getInt(I)I
 
     move-result v3
@@ -253,7 +238,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -299,14 +283,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->r(ILjava/util/List;Z)V
 
     :cond_0
@@ -323,7 +305,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/icing/e2;
 
     invoke-virtual {v0, p0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
@@ -336,7 +317,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {v0, p0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     move-result p0
@@ -345,7 +325,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -371,7 +350,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -382,13 +360,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/icing/f2;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/icing/f2;
 
     const/4 v2, 0x0
@@ -396,7 +372,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/icing/f2;->getInt(I)I
 
     move-result v3
@@ -417,7 +392,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -463,14 +437,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->o(ILjava/util/List;Z)V
 
     :cond_0
@@ -487,7 +459,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p0
@@ -518,14 +489,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->a(ILjava/util/List;Z)V
 
     :cond_0
@@ -542,7 +511,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p0
@@ -573,14 +541,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->p(ILjava/util/List;Z)V
 
     :cond_0
@@ -597,7 +563,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p0
@@ -617,7 +582,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/google/android/gms/internal/icing/a4;->z()Ljava/lang/Class;
 
@@ -632,7 +596,6 @@
 
     new-array v3, v2, [Ljava/lang/Class;
 
-    .line 2
     sget-object v4, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
     const/4 v5, 0x0
@@ -686,14 +649,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->j(ILjava/util/List;Z)V
 
     :cond_0
@@ -721,14 +682,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->e(ILjava/util/List;Z)V
 
     :cond_0
@@ -756,14 +715,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->q(ILjava/util/List;Z)V
 
     :cond_0
@@ -791,14 +748,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->n(ILjava/util/List;Z)V
 
     :cond_0
@@ -826,14 +781,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->m(ILjava/util/List;Z)V
 
     :cond_0
@@ -851,7 +804,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -862,13 +814,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/icing/a4;->a(Ljava/util/List;)I
 
     move-result p2
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
@@ -895,7 +845,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -906,13 +855,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/icing/a4;->h(Ljava/util/List;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/icing/zzct;->w0(I)I
 
     move-result p0
@@ -935,7 +882,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -946,13 +892,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/icing/a4;->o(Ljava/util/List;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/icing/zzct;->w0(I)I
 
     move-result p0
@@ -975,7 +919,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -986,13 +929,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/icing/a4;->s(Ljava/util/List;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/icing/zzct;->w0(I)I
 
     move-result p0
@@ -1015,7 +956,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -1026,13 +966,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/icing/a4;->A(Ljava/util/List;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/icing/zzct;->w0(I)I
 
     move-result p0
@@ -1055,7 +993,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -1066,13 +1003,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/icing/a4;->C(Ljava/util/List;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/icing/zzct;->w0(I)I
 
     move-result p0
@@ -1095,7 +1030,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -1106,13 +1040,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/icing/a4;->F(Ljava/util/List;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/icing/zzct;->w0(I)I
 
     move-result p0
@@ -1134,7 +1066,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
@@ -1145,7 +1076,6 @@
 
     return p2
 
-    .line 2
     :cond_0
     invoke-static {p0, p2}, Lcom/google/android/gms/internal/icing/zzct;->o0(II)I
 
@@ -1167,7 +1097,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1178,13 +1107,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/icing/y2;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/icing/y2;
 
     const/4 v2, 0x0
@@ -1192,7 +1119,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/icing/y2;->getLong(I)J
 
     move-result-wide v3
@@ -1213,7 +1139,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1248,7 +1173,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
@@ -1262,7 +1186,6 @@
     :cond_0
     const-wide/16 v0, 0x0
 
-    .line 2
     invoke-static {p0, v0, v1}, Lcom/google/android/gms/internal/icing/zzct;->f0(IJ)I
 
     move-result p0
@@ -1293,14 +1216,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1}, Lcom/google/android/gms/internal/icing/c5;->l(ILjava/util/List;)V
 
     :cond_0
@@ -1317,7 +1238,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
@@ -1331,7 +1251,6 @@
     :cond_0
     const/4 p2, 0x1
 
-    .line 2
     invoke-static {p0, p2}, Lcom/google/android/gms/internal/icing/zzct;->C(IZ)I
 
     move-result p0
@@ -1362,14 +1281,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->N(ILjava/util/List;Lcom/google/android/gms/internal/icing/y3;)V
 
     :cond_0
@@ -1397,14 +1314,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->t(ILjava/util/List;Z)V
 
     :cond_0
@@ -1425,24 +1340,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/icing/v1;->c(Ljava/lang/Object;)Lcom/google/android/gms/internal/icing/z1;
 
     move-result-object p2
 
-    .line 2
     invoke-virtual {p2}, Lcom/google/android/gms/internal/icing/z1;->b()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/icing/v1;->d(Ljava/lang/Object;)Lcom/google/android/gms/internal/icing/z1;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/icing/z1;->i(Lcom/google/android/gms/internal/icing/z1;)V
 
     :cond_0
@@ -1461,7 +1372,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p3, p4}, Lcom/google/android/gms/internal/icing/v4;->H(Ljava/lang/Object;J)Ljava/lang/Object;
 
     move-result-object v0
@@ -1470,12 +1380,10 @@
 
     move-result-object p2
 
-    .line 2
     invoke-interface {p0, v0, p2}, Lcom/google/android/gms/internal/icing/d3;->d(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 3
     invoke-static {p1, p3, p4, p0}, Lcom/google/android/gms/internal/icing/v4;->g(Ljava/lang/Object;JLjava/lang/Object;)V
 
     return-void
@@ -1497,22 +1405,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/icing/p4;->g(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/icing/p4;->g(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    .line 3
     invoke-virtual {p0, v0, p2}, Lcom/google/android/gms/internal/icing/p4;->e(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    .line 4
     invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/icing/p4;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
@@ -1529,7 +1433,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1540,13 +1443,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/icing/y2;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/icing/y2;
 
     const/4 v2, 0x0
@@ -1554,7 +1455,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/icing/y2;->getLong(I)J
 
     move-result-wide v3
@@ -1575,7 +1475,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1621,14 +1520,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1}, Lcom/google/android/gms/internal/icing/c5;->k(ILjava/util/List;)V
 
     :cond_0
@@ -1656,14 +1553,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->M(ILjava/util/List;Lcom/google/android/gms/internal/icing/y3;)V
 
     :cond_0
@@ -1691,14 +1586,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->u(ILjava/util/List;Z)V
 
     :cond_0
@@ -1708,12 +1601,10 @@
 .method static l(ILjava/lang/Object;Lcom/google/android/gms/internal/icing/y3;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/android/gms/internal/icing/q2;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/android/gms/internal/icing/q2;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/icing/zzct;->b(ILcom/google/android/gms/internal/icing/q2;)I
@@ -1722,7 +1613,6 @@
 
     return p0
 
-    .line 3
     :cond_0
     check-cast p1, Lcom/google/android/gms/internal/icing/i3;
 
@@ -1743,7 +1633,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1754,7 +1643,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/google/android/gms/internal/icing/zzct;->w0(I)I
 
@@ -1762,28 +1650,23 @@
 
     mul-int p0, p0, v0
 
-    .line 3
     instance-of v2, p1, Lcom/google/android/gms/internal/icing/t2;
 
     if-eqz v2, :cond_2
 
-    .line 4
     check-cast p1, Lcom/google/android/gms/internal/icing/t2;
 
     :goto_0
     if-ge v1, v0, :cond_4
 
-    .line 5
     invoke-interface {p1, v1}, Lcom/google/android/gms/internal/icing/t2;->F(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 6
     instance-of v3, v2, Lcom/google/android/gms/internal/icing/zzce;
 
     if-eqz v3, :cond_1
 
-    .line 7
     check-cast v2, Lcom/google/android/gms/internal/icing/zzce;
 
     invoke-static {v2}, Lcom/google/android/gms/internal/icing/zzct;->D(Lcom/google/android/gms/internal/icing/zzce;)I
@@ -1792,7 +1675,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     check-cast v2, Ljava/lang/String;
 
@@ -1811,17 +1693,14 @@
     :goto_2
     if-ge v1, v0, :cond_4
 
-    .line 9
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 10
     instance-of v3, v2, Lcom/google/android/gms/internal/icing/zzce;
 
     if-eqz v3, :cond_3
 
-    .line 11
     check-cast v2, Lcom/google/android/gms/internal/icing/zzce;
 
     invoke-static {v2}, Lcom/google/android/gms/internal/icing/zzct;->D(Lcom/google/android/gms/internal/icing/zzce;)I
@@ -1830,7 +1709,6 @@
 
     goto :goto_3
 
-    .line 12
     :cond_3
     check-cast v2, Ljava/lang/String;
 
@@ -1861,7 +1739,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1872,7 +1749,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/google/android/gms/internal/icing/zzct;->w0(I)I
 
@@ -1883,17 +1759,14 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 4
     instance-of v3, v2, Lcom/google/android/gms/internal/icing/q2;
 
     if-eqz v3, :cond_1
 
-    .line 5
     check-cast v2, Lcom/google/android/gms/internal/icing/q2;
 
     invoke-static {v2}, Lcom/google/android/gms/internal/icing/zzct;->c(Lcom/google/android/gms/internal/icing/q2;)I
@@ -1902,7 +1775,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     check-cast v2, Lcom/google/android/gms/internal/icing/i3;
 
@@ -1932,7 +1804,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1943,13 +1814,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/icing/y2;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/icing/y2;
 
     const/4 v2, 0x0
@@ -1957,7 +1826,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/icing/y2;->getLong(I)J
 
     move-result-wide v3
@@ -1978,7 +1846,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -2024,14 +1891,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->d(ILjava/util/List;Z)V
 
     :cond_0
@@ -2049,7 +1914,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -2060,7 +1924,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/google/android/gms/internal/icing/zzct;->w0(I)I
 
@@ -2068,7 +1931,6 @@
 
     mul-int v0, v0, p0
 
-    .line 3
     :goto_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -2076,7 +1938,6 @@
 
     if-ge v1, p0, :cond_1
 
-    .line 4
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p0
@@ -2110,7 +1971,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -2127,7 +1987,6 @@
     :goto_0
     if-ge v1, v0, :cond_1
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -2159,7 +2018,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -2170,13 +2028,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/icing/f2;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/icing/f2;
 
     const/4 v2, 0x0
@@ -2184,7 +2040,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/icing/f2;->getInt(I)I
 
     move-result v3
@@ -2205,7 +2060,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -2251,14 +2105,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/icing/c5;->s(ILjava/util/List;Z)V
 
     :cond_0
@@ -2272,7 +2124,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -2303,7 +2154,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/a4;->b:Lcom/google/android/gms/internal/icing/p4;
 
     return-object v0
@@ -2319,7 +2169,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/a4;->c:Lcom/google/android/gms/internal/icing/p4;
 
     return-object v0
@@ -2335,7 +2184,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/a4;->d:Lcom/google/android/gms/internal/icing/p4;
 
     return-object v0
@@ -2354,7 +2202,6 @@
     :try_start_0
     const-string v0, "com.google.protobuf.GeneratedMessage"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -2382,7 +2229,6 @@
     :try_start_0
     const-string v0, "com.google.protobuf.UnknownFieldSetSchema"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0

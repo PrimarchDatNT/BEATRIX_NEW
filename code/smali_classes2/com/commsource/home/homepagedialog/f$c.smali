@@ -54,17 +54,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f$c;->a:Lcom/commsource/home/homepagedialog/f;
 
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/f$c;->b:Lcom/commsource/push/bean/a;
 
     invoke-static {v1, v2}, Lcom/commsource/home/homepagedialog/f;->n(Lcom/commsource/home/homepagedialog/f;Lcom/commsource/push/bean/a;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

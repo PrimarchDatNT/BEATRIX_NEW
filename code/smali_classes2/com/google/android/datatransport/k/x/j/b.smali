@@ -15,26 +15,20 @@
 .method constructor <init>(JLcom/google/android/datatransport/k/n;Lcom/google/android/datatransport/k/i;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/k/x/j/i;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/google/android/datatransport/k/x/j/b;->a:J
 
     const-string p1, "Null transportContext"
 
-    .line 3
     invoke-static {p3, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/datatransport/k/x/j/b;->b:Lcom/google/android/datatransport/k/n;
 
     const-string p1, "Null event"
 
-    .line 5
     invoke-static {p4, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 6
     iput-object p4, p0, Lcom/google/android/datatransport/k/x/j/b;->c:Lcom/google/android/datatransport/k/i;
 
     return-void
@@ -45,7 +39,6 @@
 .method public b()Lcom/google/android/datatransport/k/i;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/x/j/b;->c:Lcom/google/android/datatransport/k/i;
 
     return-object v0
@@ -54,7 +47,6 @@
 .method public c()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/datatransport/k/x/j/b;->a:J
 
     return-wide v0
@@ -63,7 +55,6 @@
 .method public d()Lcom/google/android/datatransport/k/n;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/x/j/b;->b:Lcom/google/android/datatransport/k/n;
 
     return-object v0
@@ -78,7 +69,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/datatransport/k/x/j/i;
 
@@ -86,10 +76,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/android/datatransport/k/x/j/i;
 
-    .line 3
     iget-wide v3, p0, Lcom/google/android/datatransport/k/x/j/b;->a:J
 
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/x/j/i;->c()J
@@ -102,7 +90,6 @@
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/x/j/b;->b:Lcom/google/android/datatransport/k/n;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/x/j/i;->d()Lcom/google/android/datatransport/k/n;
 
     move-result-object v3
@@ -115,7 +102,6 @@
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/x/j/b;->c:Lcom/google/android/datatransport/k/i;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/x/j/i;->b()Lcom/google/android/datatransport/k/i;
 
     move-result-object p1
@@ -141,7 +127,6 @@
 .method public hashCode()I
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/datatransport/k/x/j/b;->a:J
 
     const/16 v2, 0x20
@@ -158,7 +143,6 @@
 
     mul-int v1, v1, v0
 
-    .line 2
     iget-object v2, p0, Lcom/google/android/datatransport/k/x/j/b;->b:Lcom/google/android/datatransport/k/n;
 
     invoke-virtual {v2}, Ljava/lang/Object;->hashCode()I
@@ -169,7 +153,6 @@
 
     mul-int v1, v1, v0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/datatransport/k/x/j/b;->c:Lcom/google/android/datatransport/k/i;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -184,7 +167,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

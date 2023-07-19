@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetNativeBitmapBackgroundCallback;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$5;->this$0:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     iput-object p2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$5;->val$bitmap:Lcom/meitu/core/types/NativeBitmap;
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$5;->this$0:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     invoke-static {v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->access$000(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;)Lcom/meitu/core/magicpen/NativeGLMagicPen;
@@ -61,15 +59,12 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->backGroundInit(Lcom/meitu/core/types/NativeBitmap;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$5;->val$callback:Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetNativeBitmapBackgroundCallback;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetNativeBitmapBackgroundCallback;->successfulSetBackground()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

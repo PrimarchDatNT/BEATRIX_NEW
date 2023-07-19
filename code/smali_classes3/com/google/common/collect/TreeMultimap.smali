@@ -62,17 +62,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/TreeMap;
 
     invoke-direct {v0, p1}, Ljava/util/TreeMap;-><init>(Ljava/util/Comparator;)V
 
     invoke-direct {p0, v0}, Lcom/google/common/collect/AbstractSortedKeySortedSetMultimap;-><init>(Ljava/util/SortedMap;)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/TreeMultimap;->keyComparator:Ljava/util/Comparator;
 
-    .line 3
     iput-object p2, p0, Lcom/google/common/collect/TreeMultimap;->valueComparator:Ljava/util/Comparator;
 
     return-void
@@ -92,10 +89,8 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/TreeMultimap;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;)V
 
-    .line 5
     invoke-virtual {p0, p3}, Lcom/google/common/collect/TreeMultimap;->putAll(Lcom/google/common/collect/l1;)Z
 
     return-void
@@ -115,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/TreeMultimap;
 
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
@@ -147,7 +141,6 @@
         }
     .end annotation
 
-    .line 3
     new-instance v0, Lcom/google/common/collect/TreeMultimap;
 
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
@@ -181,7 +174,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/TreeMultimap;
 
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
@@ -213,10 +205,8 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->defaultReadObject()V
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
 
     move-result-object v0
@@ -231,7 +221,6 @@
 
     iput-object v0, p0, Lcom/google/common/collect/TreeMultimap;->keyComparator:Ljava/util/Comparator;
 
-    .line 3
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
 
     move-result-object v0
@@ -246,7 +235,6 @@
 
     iput-object v0, p0, Lcom/google/common/collect/TreeMultimap;->valueComparator:Ljava/util/Comparator;
 
-    .line 4
     new-instance v0, Ljava/util/TreeMap;
 
     iget-object v1, p0, Lcom/google/common/collect/TreeMultimap;->keyComparator:Ljava/util/Comparator;
@@ -255,7 +243,6 @@
 
     invoke-virtual {p0, v0}, Lcom/google/common/collect/AbstractMapBasedMultimap;->setMap(Ljava/util/Map;)V
 
-    .line 5
     invoke-static {p0, p1}, Lcom/google/common/collect/w1;->d(Lcom/google/common/collect/l1;Ljava/io/ObjectInputStream;)V
 
     return-void
@@ -272,24 +259,20 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectOutputStream;->defaultWriteObject()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/TreeMultimap;->keyComparator()Ljava/util/Comparator;
 
     move-result-object v0
 
     invoke-virtual {p1, v0}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/TreeMultimap;->valueComparator()Ljava/util/Comparator;
 
     move-result-object v0
 
     invoke-virtual {p1, v0}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {p0, p1}, Lcom/google/common/collect/w1;->j(Lcom/google/common/collect/l1;Ljava/io/ObjectOutputStream;)V
 
     return-void
@@ -300,7 +283,6 @@
 .method public bridge synthetic asMap()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeMultimap;->asMap()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -320,7 +302,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-super {p0}, Lcom/google/common/collect/AbstractSortedKeySortedSetMultimap;->asMap()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -333,7 +314,6 @@
 .method public bridge synthetic asMap()Ljava/util/SortedMap;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/TreeMultimap;->asMap()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -344,7 +324,6 @@
 .method public bridge synthetic clear()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap;->clear()V
 
     return-void
@@ -361,7 +340,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/c;->containsEntry(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -376,7 +354,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/AbstractMapBasedMultimap;->containsKey(Ljava/lang/Object;)Z
 
     move-result p1
@@ -391,7 +368,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/c;->containsValue(Ljava/lang/Object;)Z
 
     move-result p1
@@ -411,7 +387,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap;->createMaybeNavigableAsMap()Ljava/util/Map;
 
     move-result-object v0
@@ -422,7 +397,6 @@
 .method bridge synthetic createCollection()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeMultimap;->createCollection()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -446,14 +420,12 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/TreeMultimap;->keyComparator()Ljava/util/Comparator;
 
     move-result-object v0
 
     invoke-interface {v0, p1, p1}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
-    .line 5
     :cond_0
     invoke-super {p0, p1}, Lcom/google/common/collect/AbstractMapBasedMultimap;->createCollection(Ljava/lang/Object;)Ljava/util/Collection;
 
@@ -465,7 +437,6 @@
 .method bridge synthetic createCollection()Ljava/util/Set;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/TreeMultimap;->createCollection()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -483,7 +454,6 @@
         }
     .end annotation
 
-    .line 3
     new-instance v0, Ljava/util/TreeSet;
 
     iget-object v1, p0, Lcom/google/common/collect/TreeMultimap;->valueComparator:Ljava/util/Comparator;
@@ -496,7 +466,6 @@
 .method public bridge synthetic entries()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/AbstractSetMultimap;->entries()Ljava/util/Set;
 
     move-result-object v0
@@ -511,7 +480,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/AbstractSetMultimap;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -528,7 +496,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/TreeMultimap;->get(Ljava/lang/Object;)Ljava/util/NavigableSet;
 
     move-result-object p1
@@ -553,7 +520,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 4
     invoke-super {p0, p1}, Lcom/google/common/collect/AbstractSortedSetMultimap;->get(Ljava/lang/Object;)Ljava/util/SortedSet;
 
     move-result-object p1
@@ -572,7 +538,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/common/collect/TreeMultimap;->get(Ljava/lang/Object;)Ljava/util/NavigableSet;
 
     move-result-object p1
@@ -589,7 +554,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/google/common/collect/TreeMultimap;->get(Ljava/lang/Object;)Ljava/util/NavigableSet;
 
     move-result-object p1
@@ -600,7 +564,6 @@
 .method public bridge synthetic hashCode()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c;->hashCode()I
 
     move-result v0
@@ -611,7 +574,6 @@
 .method public bridge synthetic isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c;->isEmpty()Z
 
     move-result v0
@@ -632,7 +594,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/TreeMultimap;->keyComparator:Ljava/util/Comparator;
 
     return-object v0
@@ -648,7 +609,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-super {p0}, Lcom/google/common/collect/AbstractSortedKeySortedSetMultimap;->keySet()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -661,7 +621,6 @@
 .method public bridge synthetic keySet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeMultimap;->keySet()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -672,7 +631,6 @@
 .method public bridge synthetic keySet()Ljava/util/SortedSet;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/TreeMultimap;->keySet()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -683,7 +641,6 @@
 .method public bridge synthetic keys()Lcom/google/common/collect/m1;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c;->keys()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -704,7 +661,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/AbstractSetMultimap;->put(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -717,7 +673,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/c;->putAll(Lcom/google/common/collect/l1;)Z
 
     move-result p1
@@ -734,7 +689,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 2
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/c;->putAll(Ljava/lang/Object;Ljava/lang/Iterable;)Z
 
     move-result p1
@@ -755,7 +709,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/c;->remove(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -772,7 +725,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/AbstractSortedSetMultimap;->removeAll(Ljava/lang/Object;)Ljava/util/SortedSet;
 
     move-result-object p1
@@ -789,7 +741,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/AbstractSortedSetMultimap;->replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/SortedSet;
 
     move-result-object p1
@@ -800,7 +751,6 @@
 .method public bridge synthetic size()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap;->size()I
 
     move-result v0
@@ -811,7 +761,6 @@
 .method public bridge synthetic toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -829,7 +778,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/TreeMultimap;->valueComparator:Ljava/util/Comparator;
 
     return-object v0
@@ -838,7 +786,6 @@
 .method public bridge synthetic values()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/AbstractSortedSetMultimap;->values()Ljava/util/Collection;
 
     move-result-object v0

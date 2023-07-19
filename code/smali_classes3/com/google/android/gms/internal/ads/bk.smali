@@ -19,7 +19,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-interface {p1}, Lcom/google/android/gms/ads/z/b;->getType()Ljava/lang/String;
 
     move-result-object v0
@@ -32,7 +31,6 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-interface {p1}, Lcom/google/android/gms/ads/z/b;->r()I
 
     move-result p1
@@ -42,7 +40,6 @@
     :cond_1
     const/4 p1, 0x1
 
-    .line 6
     :goto_1
     invoke-direct {p0, v0, p1}, Lcom/google/android/gms/internal/ads/bk;-><init>(Ljava/lang/String;I)V
 
@@ -58,7 +55,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v0, p1, Lcom/google/android/gms/internal/ads/zzaub;->a:Ljava/lang/String;
 
     goto :goto_0
@@ -69,7 +65,6 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget p1, p1, Lcom/google/android/gms/internal/ads/zzaub;->b:I
 
     goto :goto_1
@@ -77,7 +72,6 @@
     :cond_1
     const/4 p1, 0x1
 
-    .line 3
     :goto_1
     invoke-direct {p0, v0, p1}, Lcom/google/android/gms/internal/ads/bk;-><init>(Ljava/lang/String;I)V
 
@@ -87,13 +81,10 @@
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
 
-    .line 7
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/dj;-><init>()V
 
-    .line 8
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/bk;->b:Ljava/lang/String;
 
-    .line 9
     iput p2, p0, Lcom/google/android/gms/internal/ads/bk;->c:I
 
     return-void
@@ -109,7 +100,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bk;->b:Ljava/lang/String;
 
     return-object v0
@@ -123,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/bk;->c:I
 
     return v0

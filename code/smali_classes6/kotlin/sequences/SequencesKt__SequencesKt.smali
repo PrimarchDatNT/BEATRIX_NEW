@@ -34,7 +34,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt__SequencesKt$a;
 
     invoke-direct {v0, p0}, Lcotlin/sequences/SequencesKt__SequencesKt$a;-><init>(Lcotlin/jvm/u/a;)V
@@ -67,7 +66,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt__SequencesKt$b;
 
     invoke-direct {v0, p0}, Lcotlin/sequences/SequencesKt__SequencesKt$b;-><init>(Ljava/util/Iterator;)V
@@ -104,7 +102,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p0, Lcotlin/sequences/a;
 
     if-eqz v0, :cond_0
@@ -137,7 +134,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/sequences/g;->a:Lcotlin/sequences/g;
 
     return-object v0
@@ -196,7 +192,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt__SequencesKt$flatMapIndexed$1;
 
     const/4 v1, 0x0
@@ -237,7 +232,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/sequences/SequencesKt__SequencesKt$flatten$1;->INSTANCE:Lcotlin/sequences/SequencesKt__SequencesKt$flatten$1;
 
     invoke-static {p0, v0}, Lcotlin/sequences/SequencesKt__SequencesKt;->m(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
@@ -267,12 +261,10 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlin/sequences/w;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, Lcotlin/sequences/w;
 
     invoke-virtual {p0, p1}, Lcotlin/sequences/w;->e(Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
@@ -281,7 +273,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Lcotlin/sequences/i;
 
@@ -323,7 +314,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/sequences/SequencesKt__SequencesKt$flatten$2;->INSTANCE:Lcotlin/sequences/SequencesKt__SequencesKt$flatten$2;
 
     invoke-static {p0, v0}, Lcotlin/sequences/SequencesKt__SequencesKt;->m(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
@@ -367,12 +357,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcotlin/sequences/g;->a:Lcotlin/sequences/g;
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcotlin/sequences/j;
 
@@ -413,7 +401,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/j;
 
     new-instance v1, Lcotlin/sequences/SequencesKt__SequencesKt$generateSequence$1;
@@ -464,7 +451,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/j;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/j;-><init>(Lcotlin/jvm/u/a;Lcotlin/jvm/u/l;)V
@@ -513,7 +499,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt__SequencesKt$ifEmpty$1;
 
     const/4 v1, 0x0
@@ -552,7 +537,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {}, Lcotlin/sequences/p;->j()Lcotlin/sequences/m;
 
@@ -585,7 +569,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p0
 
     if-nez v0, :cond_0
@@ -644,7 +627,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/random/e;->b:Lcotlin/random/e$a;
 
     invoke-static {p0, v0}, Lcotlin/sequences/SequencesKt__SequencesKt;->v(Lcotlin/sequences/m;Lcotlin/random/e;)Lcotlin/sequences/m;
@@ -693,7 +675,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt__SequencesKt$shuffled$1;
 
     const/4 v1, 0x0
@@ -739,17 +720,14 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -767,14 +745,12 @@
 
     check-cast v2, Lcotlin/Pair;
 
-    .line 4
     invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
 
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 5
     invoke-virtual {v2}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v2
@@ -783,7 +759,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {v0, v1}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 
     move v7, p5
 
-    .line 10
     invoke-static/range {v1 .. v7}, Lcom/meitu/core/processor/MteDrawTextProcessor;->drawTextWithMultiply(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;IIFFF)Z
 
     move-result p0
@@ -57,18 +55,15 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 12
     invoke-static/range {p0 .. p6}, Lcom/meitu/core/processor/MteDrawTextProcessor;->nativeDrawTextWithMultiply_bitmap(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;IIFFF)Z
 
     move-result p1
 
-    .line 13
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance p3, Ljava/lang/StringBuilder;
@@ -99,7 +94,6 @@
 
     invoke-virtual {p3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p4
@@ -116,15 +110,12 @@
 
     move-result-object p0
 
-    .line 15
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 17
     :cond_1
     :goto_0
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
@@ -135,7 +126,6 @@
 
     const/4 p0, 0x0
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -162,7 +152,6 @@
 
     move v7, p5
 
-    .line 1
     invoke-static/range {v1 .. v7}, Lcom/meitu/core/processor/MteDrawTextProcessor;->drawTextWithMultiply(Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;IIFFF)Z
 
     move-result p0
@@ -185,13 +174,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v9
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -212,7 +199,6 @@
 
     move-result v1
 
-    .line 4
     sget-object v2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -243,7 +229,6 @@
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
@@ -260,15 +245,12 @@
 
     move-result-object v3
 
-    .line 6
     invoke-static {v2, v3}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 8
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
@@ -279,7 +261,6 @@
 
     const/4 v1, 0x0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

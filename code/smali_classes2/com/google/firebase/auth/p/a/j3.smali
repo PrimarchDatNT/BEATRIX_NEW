@@ -12,10 +12,8 @@
 .method private constructor <init>(Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/firebase/auth/p/a/j3;->b(Ljava/lang/String;)I
 
     move-result p1
@@ -24,7 +22,6 @@
 
     const/4 p1, -0x1
 
-    .line 3
     iput p1, p0, Lcom/google/firebase/auth/p/a/j3;->b:I
 
     return-void
@@ -33,7 +30,6 @@
 .method private static a(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/internal/y;->a()Lcom/google/android/gms/common/internal/y;
 
     move-result-object v0
@@ -42,7 +38,6 @@
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -69,7 +64,6 @@
 
     const-string v0, "."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/firebase_auth/n;->d(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/n;
 
     move-result-object v0
@@ -78,7 +72,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -87,14 +80,12 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     invoke-static {p0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result p0
 
     return p0
 
-    .line 4
     :cond_0
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -106,7 +97,6 @@
 
     const/4 p0, 0x0
 
-    .line 5
     invoke-interface {v0, p0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p0
@@ -121,7 +111,6 @@
 
     mul-int p0, p0, v1
 
-    .line 6
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -138,7 +127,6 @@
 
     const/4 v1, 0x2
 
-    .line 7
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -153,7 +141,6 @@
 
     return p0
 
-    .line 8
     :cond_1
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -174,7 +161,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 9
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -204,7 +190,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -218,7 +203,6 @@
 
     const-string v0, "firebase-auth"
 
-    .line 1
     invoke-static {v0}, Lcom/google/firebase/auth/p/a/j3;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -229,12 +213,10 @@
 .method public static e()Lcom/google/firebase/auth/p/a/j3;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/p/a/j3;
 
     const-string v1, "firebase-auth-impl"
 
-    .line 2
     invoke-static {v1}, Lcom/google/firebase/auth/p/a/j3;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -251,7 +233,6 @@
 .method public final c()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/auth/p/a/j3;->a:I
 
     const-string v1, "16.2.1"

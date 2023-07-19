@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/StandardTable$g;Ljava/util/Map$Entry;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/StandardTable$g$b;->b:Lcom/google/common/collect/StandardTable$g;
 
     iput-object p2, p0, Lcom/google/common/collect/StandardTable$g$b;->a:Ljava/util/Map$Entry;
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$g$b;->a:Ljava/util/Map$Entry;
 
     return-object v0
@@ -62,7 +60,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/StandardTable$g$b;->J0()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -73,7 +70,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/p0;->standardEquals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -89,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

@@ -42,10 +42,8 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -54,7 +52,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/firestore/q;->a:Landroid/content/Context;
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -69,14 +66,12 @@
 
     iput-object p1, p0, Lcom/google/firebase/firestore/q;->b:Lcom/google/firebase/firestore/model/b;
 
-    .line 4
     new-instance p1, Lcom/google/firebase/firestore/k0;
 
     invoke-direct {p1, p2}, Lcom/google/firebase/firestore/k0;-><init>(Lcom/google/firebase/firestore/model/b;)V
 
     iput-object p1, p0, Lcom/google/firebase/firestore/q;->g:Lcom/google/firebase/firestore/k0;
 
-    .line 5
     invoke-static {p3}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -85,7 +80,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/firestore/q;->c:Ljava/lang/String;
 
-    .line 6
     invoke-static {p4}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -94,7 +88,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/firestore/q;->d:Lcom/google/firebase/firestore/m0/a;
 
-    .line 7
     invoke-static {p5}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -103,10 +96,8 @@
 
     iput-object p1, p0, Lcom/google/firebase/firestore/q;->e:Lcom/google/firebase/firestore/util/AsyncQueue;
 
-    .line 8
     iput-object p6, p0, Lcom/google/firebase/firestore/q;->f:Lcom/google/firebase/d;
 
-    .line 9
     new-instance p1, Lcom/google/firebase/firestore/r$b;
 
     invoke-direct {p1}, Lcom/google/firebase/firestore/r$b;-><init>()V
@@ -127,14 +118,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/google/firebase/firestore/util/Logger$Level;->DEBUG:Lcom/google/firebase/firestore/util/Logger$Level;
 
     invoke-static {p0}, Lcom/google/firebase/firestore/util/Logger;->d(Lcom/google/firebase/firestore/util/Logger$Level;)V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p0, Lcom/google/firebase/firestore/util/Logger$Level;->WARN:Lcom/google/firebase/firestore/util/Logger$Level;
 
@@ -147,31 +136,26 @@
 .method private h()V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->i:Lcom/google/firebase/firestore/core/y;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->b:Lcom/google/firebase/firestore/model/b;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/google/firebase/firestore/q;->i:Lcom/google/firebase/firestore/core/y;
 
     if-eqz v1, :cond_1
 
-    .line 4
     monitor-exit v0
 
     return-void
 
-    .line 5
     :cond_1
     new-instance v4, Lcom/google/firebase/firestore/core/h;
 
@@ -181,7 +165,6 @@
 
     iget-object v3, p0, Lcom/google/firebase/firestore/q;->h:Lcom/google/firebase/firestore/r;
 
-    .line 6
     invoke-virtual {v3}, Lcom/google/firebase/firestore/r;->g()Ljava/lang/String;
 
     move-result-object v3
@@ -194,7 +177,6 @@
 
     invoke-direct {v4, v1, v2, v3, v5}, Lcom/google/firebase/firestore/core/h;-><init>(Lcom/google/firebase/firestore/model/b;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 7
     new-instance v1, Lcom/google/firebase/firestore/core/y;
 
     iget-object v3, p0, Lcom/google/firebase/firestore/q;->a:Landroid/content/Context;
@@ -211,7 +193,6 @@
 
     iput-object v1, p0, Lcom/google/firebase/firestore/q;->i:Lcom/google/firebase/firestore/core/y;
 
-    .line 8
     monitor-exit v0
 
     return-void
@@ -234,7 +215,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/d;->n()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -243,14 +223,12 @@
 
     const-string v1, "(default)"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/firebase/firestore/q;->q(Lcom/google/firebase/d;Ljava/lang/String;)Lcom/google/firebase/firestore/q;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -275,7 +253,6 @@
 
     const-string v0, "(default)"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/firebase/firestore/q;->q(Lcom/google/firebase/d;Ljava/lang/String;)Lcom/google/firebase/firestore/q;
 
     move-result-object p0
@@ -298,10 +275,8 @@
 
     const-string v0, "Provided FirebaseApp must not be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     const-class v0, Lcom/google/firebase/firestore/s;
 
     invoke-virtual {p0, v0}, Lcom/google/firebase/d;->j(Ljava/lang/Class;)Ljava/lang/Object;
@@ -312,10 +287,8 @@
 
     const-string v0, "Firestore component is not present."
 
-    .line 3
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/s;->a(Ljava/lang/String;)Lcom/google/firebase/firestore/q;
 
     move-result-object p0
@@ -326,7 +299,6 @@
 .method static synthetic r(Lcom/google/firebase/firestore/q;Lcom/google/android/gms/tasks/l;)V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->i:Lcom/google/firebase/firestore/core/y;
 
@@ -342,7 +314,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p0, Lcom/google/firebase/firestore/FirebaseFirestoreException;
 
@@ -354,7 +325,6 @@
 
     throw p0
 
-    .line 3
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->a:Landroid/content/Context;
@@ -367,7 +337,6 @@
 
     const/4 p0, 0x0
 
-    .line 4
     invoke-virtual {p1, p0}, Lcom/google/android/gms/tasks/l;->c(Ljava/lang/Object;)V
     :try_end_0
     .catch Lcom/google/firebase/firestore/FirebaseFirestoreException; {:try_start_0 .. :try_end_0} :catch_0
@@ -377,7 +346,6 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-virtual {p1, p0}, Lcom/google/android/gms/tasks/l;->b(Ljava/lang/Exception;)V
 
     :goto_1
@@ -387,7 +355,6 @@
 .method static synthetic s(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lf/f/b/b/k/a;->a(Landroid/content/Context;)V
     :try_end_0
@@ -405,7 +372,6 @@
 
     const-string v1, "Failed to update ssl context"
 
-    .line 2
     invoke-static {v0, v1, p0}, Lcom/google/firebase/firestore/util/Logger;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :goto_0
@@ -420,7 +386,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/j0;
 
     invoke-direct {v0, p2, p0}, Lcom/google/firebase/firestore/j0;-><init>(Lcom/google/firebase/firestore/core/o0;Lcom/google/firebase/firestore/q;)V
@@ -435,7 +400,6 @@
 .method static synthetic u(Lcom/google/firebase/firestore/q;Ljava/util/concurrent/Executor;Lcom/google/firebase/firestore/j0$a;Lcom/google/firebase/firestore/core/o0;)Lcom/google/android/gms/tasks/k;
     .locals 0
 
-    .line 1
     invoke-static {p0, p2, p3}, Lcom/google/firebase/firestore/p;->a(Lcom/google/firebase/firestore/q;Lcom/google/firebase/firestore/j0$a;Lcom/google/firebase/firestore/core/o0;)Ljava/util/concurrent/Callable;
 
     move-result-object p0
@@ -468,7 +432,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/d;->q()Lcom/google/firebase/l;
 
     move-result-object v0
@@ -479,12 +442,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {v0, p3}, Lcom/google/firebase/firestore/model/b;->f(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/firestore/model/b;
 
     move-result-object v3
 
-    .line 3
     new-instance v6, Lcom/google/firebase/firestore/util/AsyncQueue;
 
     invoke-direct {v6}, Lcom/google/firebase/firestore/util/AsyncQueue;-><init>()V
@@ -499,10 +460,8 @@
 
     const-string v0, "Firebase Auth not available, falling back to unauthenticated usage."
 
-    .line 4
     invoke-static {p3, v0, p2}, Lcom/google/firebase/firestore/util/Logger;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 5
     new-instance p2, Lcom/google/firebase/firestore/m0/b;
 
     invoke-direct {p2}, Lcom/google/firebase/firestore/m0/b;-><init>()V
@@ -511,7 +470,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p3, Lcom/google/firebase/firestore/m0/e;
 
@@ -519,7 +477,6 @@
 
     move-object v5, p3
 
-    .line 7
     :goto_0
     invoke-static {p0}, Lcom/google/firebase/firestore/m;->a(Landroid/content/Context;)Ljava/lang/Runnable;
 
@@ -527,12 +484,10 @@
 
     invoke-virtual {v6, p2}, Lcom/google/firebase/firestore/util/AsyncQueue;->j(Ljava/lang/Runnable;)V
 
-    .line 8
     invoke-virtual {p1}, Lcom/google/firebase/d;->p()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 9
     new-instance p2, Lcom/google/firebase/firestore/q;
 
     move-object v1, p2
@@ -545,7 +500,6 @@
 
     return-object p2
 
-    .line 10
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -572,15 +526,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/q;->h()V
 
-    .line 2
     invoke-static {p0, p2, p1}, Lcom/google/firebase/firestore/n;->a(Lcom/google/firebase/firestore/q;Ljava/util/concurrent/Executor;Lcom/google/firebase/firestore/j0$a;)Lcom/google/common/base/n;
 
     move-result-object p1
 
-    .line 3
     iget-object p2, p0, Lcom/google/firebase/firestore/q;->i:Lcom/google/firebase/firestore/core/y;
 
     const/4 v0, 0x5
@@ -608,10 +559,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/q;->h()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->i:Lcom/google/firebase/firestore/core/y;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/y;->A()Lcom/google/android/gms/tasks/k;
@@ -626,10 +575,8 @@
 
     const-string v0, "Provided DocumentReference must not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/firestore/h;->n()Lcom/google/firebase/firestore/q;
 
     move-result-object p1
@@ -638,7 +585,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -657,10 +603,8 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/q;->h()V
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/l0;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/firestore/l0;-><init>(Lcom/google/firebase/firestore/q;)V
@@ -679,12 +623,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/tasks/l;
 
     invoke-direct {v0}, Lcom/google/android/gms/tasks/l;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/firestore/q;->e:Lcom/google/firebase/firestore/util/AsyncQueue;
 
     invoke-static {p0, v0}, Lcom/google/firebase/firestore/o;->a(Lcom/google/firebase/firestore/q;Lcom/google/android/gms/tasks/l;)Ljava/lang/Runnable;
@@ -693,7 +635,6 @@
 
     invoke-virtual {v1, v2}, Lcom/google/firebase/firestore/util/AsyncQueue;->j(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/tasks/l;->a()Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
@@ -715,13 +656,10 @@
 
     const-string v0, "Provided collection path must not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/firestore/q;->h()V
 
-    .line 3
     new-instance v0, Lcom/google/firebase/firestore/d;
 
     invoke-static {p1}, Lcom/google/firebase/firestore/model/k;->J(Ljava/lang/String;)Lcom/google/firebase/firestore/model/k;
@@ -747,22 +685,18 @@
 
     const-string v0, "Provided collection ID must not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "/"
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/google/firebase/firestore/q;->h()V
 
-    .line 4
     new-instance v0, Lcom/google/firebase/firestore/Query;
 
     new-instance v1, Lcom/google/firebase/firestore/core/e0;
@@ -775,7 +709,6 @@
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -789,7 +722,6 @@
 
     const-string p1, "Invalid collectionId \'%s\'. Collection IDs must not contain \'/\'."
 
-    .line 6
     invoke-static {p1, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -813,10 +745,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/q;->h()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->i:Lcom/google/firebase/firestore/core/y;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/y;->g()Lcom/google/android/gms/tasks/k;
@@ -840,13 +770,10 @@
 
     const-string v0, "Provided document path must not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/firestore/q;->h()V
 
-    .line 3
     invoke-static {p1}, Lcom/google/firebase/firestore/model/k;->J(Ljava/lang/String;)Lcom/google/firebase/firestore/model/k;
 
     move-result-object p1
@@ -872,10 +799,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/q;->h()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->i:Lcom/google/firebase/firestore/core/y;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/y;->h()Lcom/google/android/gms/tasks/k;
@@ -893,7 +818,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->f:Lcom/google/firebase/d;
 
     return-object v0
@@ -904,7 +828,6 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->e:Lcom/google/firebase/firestore/util/AsyncQueue;
 
     return-object v0
@@ -913,7 +836,6 @@
 .method k()Lcom/google/firebase/firestore/core/y;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->i:Lcom/google/firebase/firestore/core/y;
 
     return-object v0
@@ -922,7 +844,6 @@
 .method l()Lcom/google/firebase/firestore/k0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->g:Lcom/google/firebase/firestore/k0;
 
     return-object v0
@@ -931,7 +852,6 @@
 .method m()Lcom/google/firebase/firestore/model/b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->b:Lcom/google/firebase/firestore/model/b;
 
     return-object v0
@@ -945,7 +865,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->h:Lcom/google/firebase/firestore/r;
 
     return-object v0
@@ -974,15 +893,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/q;->a()Lcom/google/firebase/firestore/l0;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p1, v0}, Lcom/google/firebase/firestore/l0$a;->a(Lcom/google/firebase/firestore/l0;)V
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/firebase/firestore/l0;->a()Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -1016,15 +932,12 @@
 
     const-string v0, "Provided transaction update function must not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/firestore/core/o0;->d()Ljava/util/concurrent/Executor;
 
     move-result-object v0
 
-    .line 3
     invoke-direct {p0, p1, v0}, Lcom/google/firebase/firestore/q;->y(Lcom/google/firebase/firestore/j0$a;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -1041,7 +954,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/q;->b:Lcom/google/firebase/firestore/model/b;
 
     monitor-enter v0
@@ -1049,10 +961,8 @@
     :try_start_0
     const-string v1, "Provided settings must not be null."
 
-    .line 2
     invoke-static {p1, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/firestore/q;->i:Lcom/google/firebase/firestore/core/y;
 
     if-eqz v1, :cond_1
@@ -1067,7 +977,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1077,12 +986,10 @@
 
     throw p1
 
-    .line 5
     :cond_1
     :goto_0
     iput-object p1, p0, Lcom/google/firebase/firestore/q;->h:Lcom/google/firebase/firestore/r;
 
-    .line 6
     monitor-exit v0
 
     return-void

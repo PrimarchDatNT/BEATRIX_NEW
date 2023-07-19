@@ -47,7 +47,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v13, Lcom/google/android/gms/internal/ads/z40;
 
     move-object v0, v13
@@ -86,7 +85,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/NoSuchMethodError;
 
     invoke-direct {v0}, Ljava/lang/NoSuchMethodError;-><init>()V

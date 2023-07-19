@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterialGroup;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/montage/a$b$a;->b(Lcom/meitu/template/bean/ArMaterialGroup;)V
@@ -77,12 +76,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterialGroup;->getMaterials()Ljava/util/List;
 
@@ -92,7 +89,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -126,13 +122,11 @@
     :cond_1
     const-wide/32 v2, 0x3938700
 
-    .line 4
     :goto_0
     new-instance p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-direct {p1}, Lcom/meitu/template/bean/ArMaterial;-><init>()V
 
-    .line 5
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v4
@@ -141,57 +135,44 @@
 
     long-to-int v3, v2
 
-    .line 6
     invoke-virtual {p1, v3}, Lcom/meitu/template/bean/ArMaterial;->setNumber(I)V
 
     const/4 v2, 0x6
 
-    .line 7
     invoke-virtual {p1, v2}, Lcom/meitu/template/bean/ArMaterial;->setGroupNumber(I)V
 
-    .line 8
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/ArMaterial;->setIsHot(I)V
 
-    .line 9
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/ArMaterial;->setSort(I)V
 
     const/16 v2, 0x64
 
-    .line 10
     invoke-virtual {p1, v2}, Lcom/meitu/template/bean/ArMaterial;->setDownloadProgress(I)V
 
     const/4 v2, 0x1
 
-    .line 11
     invoke-virtual {p1, v2}, Lcom/meitu/template/bean/ArMaterial;->setIsDownload(I)V
 
-    .line 12
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/ArMaterial;->setBgmFlag(I)V
 
     const/4 v3, -0x1
 
-    .line 13
     invoke-virtual {p1, v3}, Lcom/meitu/template/bean/ArMaterial;->setRegionHotSort(I)V
 
-    .line 14
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/ArMaterial;->setIsDownloading(I)V
 
-    .line 15
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
     invoke-virtual {p1, v3, v4}, Lcom/meitu/template/bean/ArMaterial;->setDownloadTime(J)V
 
-    .line 16
     invoke-virtual {p1, v2}, Lcom/meitu/template/bean/ArMaterial;->setArTipType(I)V
 
-    .line 17
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->m(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 18
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/montage/a$b$a;->a:Lcom/commsource/camera/xcamera/cover/montage/a$b;
 
     iget-object v3, v3, Lcom/commsource/camera/xcamera/cover/montage/a$b;->b:Lcotlin/jvm/internal/Ref$ObjectRef;
@@ -204,7 +185,6 @@
 
     move-result v3
 
-    .line 19
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -223,7 +203,6 @@
 
     move-result-object v4
 
-    .line 20
     invoke-static {v4}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v4
@@ -238,7 +217,6 @@
     :goto_1
     if-nez v1, :cond_3
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a$b$a;->a:Lcom/commsource/camera/xcamera/cover/montage/a$b;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/montage/a$b;->a:Lcom/commsource/camera/xcamera/cover/montage/a;
@@ -259,7 +237,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a$b$a;->a:Lcom/commsource/camera/xcamera/cover/montage/a$b;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/montage/a$b;->b:Lcotlin/jvm/internal/Ref$ObjectRef;
@@ -270,25 +247,20 @@
 
     invoke-static {p1}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 23
     invoke-static {v2}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 25
     :cond_3
     :try_start_0
     invoke-static {p1}, Lcom/commsource/camera/montage/bean/c;->C(Lcom/meitu/template/bean/ArMaterial;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 26
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->y(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 27
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/a$b$a;->a:Lcom/commsource/camera/xcamera/cover/montage/a$b;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/a$b;->b:Lcotlin/jvm/internal/Ref$ObjectRef;
@@ -299,7 +271,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 28
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/a$b$a;->a:Lcom/commsource/camera/xcamera/cover/montage/a$b;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/a$b;->a:Lcom/commsource/camera/xcamera/cover/montage/a;
@@ -310,12 +281,10 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 29
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 30
     :catch_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a$b$a;->a:Lcom/commsource/camera/xcamera/cover/montage/a$b;
 
@@ -337,7 +306,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 31
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a$b$a;->a:Lcom/commsource/camera/xcamera/cover/montage/a$b;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/montage/a$b;->b:Lcotlin/jvm/internal/Ref$ObjectRef;
@@ -348,10 +316,8 @@
 
     invoke-static {p1}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 32
     invoke-static {v2}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 33
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

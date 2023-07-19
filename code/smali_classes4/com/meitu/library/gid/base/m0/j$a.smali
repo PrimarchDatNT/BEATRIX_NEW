@@ -24,15 +24,12 @@
 .method constructor <init>(Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/gid/base/m0/j$a;->a:Ljava/lang/Runnable;
 
     const-wide/16 v0, -0x1
 
-    .line 3
     iput-wide v0, p0, Lcom/meitu/library/gid/base/m0/j$a;->b:J
 
     return-void
@@ -41,13 +38,10 @@
 .method constructor <init>(Ljava/lang/Runnable;J)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/library/gid/base/m0/j$a;->a:Ljava/lang/Runnable;
 
-    .line 6
     iput-wide p2, p0, Lcom/meitu/library/gid/base/m0/j$a;->b:J
 
     return-void
@@ -62,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/meitu/library/gid/base/m0/j$a;
 
     if-eqz v1, :cond_0
@@ -73,7 +66,6 @@
 
     iget-object p1, p1, Lcom/meitu/library/gid/base/m0/j$a;->a:Ljava/lang/Runnable;
 
-    .line 2
     invoke-virtual {v1, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -87,7 +79,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

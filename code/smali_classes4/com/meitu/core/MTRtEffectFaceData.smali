@@ -27,10 +27,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/core/MTRtEffectFaceData;->nativeCreate()J
 
     move-result-wide v0
@@ -130,12 +128,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeClear(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -153,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
@@ -161,10 +156,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -172,10 +165,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -188,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/MTRtEffectFaceData;->nativeGetAge(JI)I
@@ -207,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeGetDetectHeight(J)I
@@ -226,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeGetDetectWidth(J)I
@@ -245,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeGetFaceCount(J)I
@@ -264,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/MTRtEffectFaceData;->nativeGetFaceID(JI)I
@@ -283,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     const/4 v3, 0x2
@@ -294,12 +279,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     array-length v1, p1
 
     if-lez v1, :cond_1
 
-    .line 3
     array-length v1, p1
 
     div-int/2addr v1, v3
@@ -308,7 +291,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     array-length v4, p1
 
@@ -316,7 +298,6 @@
 
     if-ge v2, v4, :cond_0
 
-    .line 5
     aget-object v4, v1, v2
 
     mul-int/lit8 v5, v2, 0x2
@@ -325,7 +306,6 @@
 
     iput v6, v4, Landroid/graphics/PointF;->x:F
 
-    .line 6
     aget-object v4, v1, v2
 
     add-int/lit8 v5, v5, 0x1
@@ -338,7 +318,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -347,7 +326,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -360,7 +338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/MTRtEffectFaceData;->nativeGetFaceRect(JI)[F
@@ -369,14 +346,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     array-length v1, p1
 
     const/4 v2, 0x4
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     new-instance v1, Landroid/graphics/RectF;
 
     const/4 v2, 0x0
@@ -410,7 +385,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -424,7 +398,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/MTRtEffectFaceData;->nativeGetGender(JI)I
@@ -437,14 +410,12 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 2
     sget-object p1, Lcom/meitu/core/MTRtEffectFaceData$RtEffectGender;->UNDEFINE_GENDER:Lcom/meitu/core/MTRtEffectFaceData$RtEffectGender;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     sget-object p1, Lcom/meitu/core/MTRtEffectFaceData$RtEffectGender;->MALE:Lcom/meitu/core/MTRtEffectFaceData$RtEffectGender;
 
@@ -452,7 +423,6 @@
 
     return-object p1
 
-    .line 4
     :cond_1
     sget-object p1, Lcom/meitu/core/MTRtEffectFaceData$RtEffectGender;->FEMALE:Lcom/meitu/core/MTRtEffectFaceData$RtEffectGender;
 
@@ -468,7 +438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/MTRtEffectFaceData;->nativeGetRace(JI)I
@@ -485,14 +454,12 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 2
     sget-object p1, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->UNDEFINE_SKIN_RACE:Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     sget-object p1, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->YELLOW_SKIN_RACE:Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
@@ -500,7 +467,6 @@
 
     return-object p1
 
-    .line 4
     :cond_1
     sget-object p1, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->WHITE_SKIN_RACE:Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
@@ -508,7 +474,6 @@
 
     return-object p1
 
-    .line 5
     :cond_2
     sget-object p1, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->BLACK_SKIN_RACE:Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
@@ -524,7 +489,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -539,12 +503,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetAge(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -557,12 +519,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetDetectSize(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -575,12 +535,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetFaceCount(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -593,12 +551,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetFaceID(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -613,12 +569,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     array-length v1, p1
 
     if-lez v1, :cond_1
 
-    .line 2
     array-length v1, p1
 
     const/4 v2, 0x2
@@ -629,7 +583,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     :goto_0
     array-length v4, p1
 
@@ -637,7 +590,6 @@
 
     mul-int/lit8 v4, v3, 0x2
 
-    .line 4
     aget-object v5, p1, v3
 
     iget v5, v5, Landroid/graphics/PointF;->x:F
@@ -646,7 +598,6 @@
 
     add-int/lit8 v4, v4, 0x1
 
-    .line 5
     aget-object v5, p1, v3
 
     iget v5, v5, Landroid/graphics/PointF;->y:F
@@ -657,13 +608,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-wide v3, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v3, v4, v2, p2, v1}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetLandmark(JII[F)Z
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -679,19 +628,16 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     array-length v1, p1
 
     if-lez v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     const/4 v3, 0x2
 
     invoke-static {v1, v2, v3, p2, p1}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetLandmarkVisible(JII[F)Z
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -707,7 +653,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -719,21 +664,18 @@
 
     const/4 v2, 0x0
 
-    .line 2
     iget v3, p2, Landroid/graphics/RectF;->left:F
 
     aput v3, v1, v2
 
     const/4 v2, 0x1
 
-    .line 3
     iget v3, p2, Landroid/graphics/RectF;->top:F
 
     aput v3, v1, v2
 
     const/4 v2, 0x2
 
-    .line 4
     invoke-virtual {p2}, Landroid/graphics/RectF;->width()F
 
     move-result v3
@@ -742,19 +684,16 @@
 
     const/4 v2, 0x3
 
-    .line 5
     invoke-virtual {p2}, Landroid/graphics/RectF;->height()F
 
     move-result p2
 
     aput p2, v1, v2
 
-    .line 6
     iget-wide v2, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v2, v3, p1, v1}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetFaceRect(JI[F)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -769,12 +708,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     array-length v1, p1
 
     if-lez v1, :cond_1
 
-    .line 2
     array-length v1, p1
 
     mul-int/lit8 v1, v1, 0x2
@@ -783,7 +720,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     array-length v3, p1
 
@@ -791,7 +727,6 @@
 
     mul-int/lit8 v3, v2, 0x2
 
-    .line 4
     aget-object v4, p1, v2
 
     iget v4, v4, Landroid/graphics/PointF;->x:F
@@ -800,7 +735,6 @@
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 5
     aget-object v4, p1, v2
 
     iget v4, v4, Landroid/graphics/PointF;->y:F
@@ -811,13 +745,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-wide v2, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v2, v3, p2, v1}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetFullFaceMaskPoint(JI[F)Z
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -831,7 +763,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     move v3, p1
@@ -844,7 +775,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetFullFaceMaskTexture(JIIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -857,14 +787,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     iget p2, p2, Lcom/meitu/core/MTRtEffectFaceData$RtEffectGender;->id:I
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetGender(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -877,12 +805,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetHasGlasses(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -895,12 +821,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetPitchAngle(JIF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -913,14 +837,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     iget p2, p2, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->id:I
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetRace(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -933,12 +855,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetRollAngle(JIF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -951,12 +871,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/MTRtEffectFaceData;->nativeSetYawAngle(JIF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -969,7 +887,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -978,7 +895,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/MTRtEffectFaceData;->getFaceCount()I
 
     move-result v2
@@ -999,7 +915,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/MTRtEffectFaceData;->getDetectHeight()I
 
     move-result v2
@@ -1014,7 +929,6 @@
 
     const/4 v3, 0x0
 
-    .line 4
     :goto_0
     invoke-virtual {p0}, Lcom/meitu/core/MTRtEffectFaceData;->getFaceCount()I
 
@@ -1022,7 +936,6 @@
 
     if-ge v3, v4, :cond_0
 
-    .line 5
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -1033,7 +946,6 @@
 
     invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {p0, v3}, Lcom/meitu/core/MTRtEffectFaceData;->getFaceLandmark2D(I)[Landroid/graphics/PointF;
 
     move-result-object v1
@@ -1046,7 +958,6 @@
 
     invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {p0, v3}, Lcom/meitu/core/MTRtEffectFaceData;->getFaceLandmark2D(I)[Landroid/graphics/PointF;
 
     move-result-object v1
@@ -1079,7 +990,6 @@
 
     invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-virtual {p0, v3}, Lcom/meitu/core/MTRtEffectFaceData;->getGender(I)Lcom/meitu/core/MTRtEffectFaceData$RtEffectGender;
 
     move-result-object v1
@@ -1098,7 +1008,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

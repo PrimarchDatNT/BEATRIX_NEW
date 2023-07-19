@@ -66,7 +66,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "MakeupColor List : \n"
@@ -75,7 +74,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {p1}, Landroid/util/SparseArray;->size()I
 
     move-result v3
@@ -83,14 +81,12 @@
     :goto_0
     if-ge v2, v3, :cond_0
 
-    .line 3
     invoke-virtual {p1, v2}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Lcom/commsource/repository/child/makeup/h;
 
-    .line 4
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -125,14 +121,12 @@
 
     const-string v4, "\n"
 
-    .line 5
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover$c;->a:Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover;
 
@@ -154,7 +148,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -168,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/util/SparseArray;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover$c;->a(Landroid/util/SparseArray;)V

@@ -27,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lkshark/AndroidReferenceMatchers;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
@@ -54,29 +53,24 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lkshark/AndroidReferenceMatchers;->Companion:Lkshark/AndroidReferenceMatchers$Companion;
 
-    .line 2
     sget-object v1, Lkshark/AndroidReferenceMatchers$SEM_CLIPBOARD_MANAGER__MCONTEXT$add$1;->INSTANCE:Lkshark/AndroidReferenceMatchers$SEM_CLIPBOARD_MANAGER__MCONTEXT$add$1;
 
     const-string v2, "com.samsung.android.content.clipboard.SemClipboardManager$1"
 
     const-string v3, "SemClipboardManager inner classes are held by native references due to IPC calls "
 
-    .line 3
     invoke-virtual {v0, v2, v3, v1}, Lkshark/AndroidReferenceMatchers$Companion;->i(Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object v1
 
     invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 4
     sget-object v1, Lkshark/AndroidReferenceMatchers$SEM_CLIPBOARD_MANAGER__MCONTEXT$add$2;->INSTANCE:Lkshark/AndroidReferenceMatchers$SEM_CLIPBOARD_MANAGER__MCONTEXT$add$2;
 
     const-string v2, "com.samsung.android.content.clipboard.SemClipboardManager$3"
 
-    .line 5
     invoke-virtual {v0, v2, v3, v1}, Lkshark/AndroidReferenceMatchers$Companion;->i(Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object v0

@@ -30,7 +30,6 @@
 .method public final a(Ljava/lang/Object;Ljava/util/Map;)V
     .locals 3
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/yi0;->a:Lcom/google/android/gms/internal/ads/zi0;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yi0;->b:Lcom/google/android/gms/internal/ads/q4;
@@ -38,7 +37,6 @@
     :try_start_0
     const-string v1, "timestamp"
 
-    .line 2
     invoke-interface {p2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -62,13 +60,11 @@
     :catch_0
     const-string v1, "Failed to call parse unconfirmedClickTimestamp."
 
-    .line 3
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
 
     :goto_0
     const-string v1, "id"
 
-    .line 4
     invoke-interface {p2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -79,7 +75,6 @@
 
     const-string p1, "asset_id"
 
-    .line 5
     invoke-interface {p2, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -90,12 +85,10 @@
 
     const-string p1, "Received unconfirmed click but UnconfirmedClickListener is null."
 
-    .line 6
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
     return-void
 
-    .line 7
     :cond_0
     :try_start_1
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/ads/q4;->y0(Ljava/lang/String;)V
@@ -109,7 +102,6 @@
 
     const-string p2, "#007 Could not call remote method."
 
-    .line 8
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

@@ -59,26 +59,20 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/zzvh;Ljava/lang/String;Lcom/google/android/gms/internal/ads/zzbbd;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/on2;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/ads/internal/k;->f:Landroid/content/Context;
 
-    .line 3
     iput-object p4, p0, Lcom/google/android/gms/ads/internal/k;->b:Lcom/google/android/gms/internal/ads/zzbbd;
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/ads/internal/k;->c:Lcom/google/android/gms/internal/ads/zzvh;
 
-    .line 5
     new-instance p2, Landroid/webkit/WebView;
 
     invoke-direct {p2, p1}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V
 
     iput-object p2, p0, Lcom/google/android/gms/ads/internal/k;->p:Landroid/webkit/WebView;
 
-    .line 6
     sget-object p2, Lcom/google/android/gms/internal/ads/dq;->a:Lcom/google/android/gms/internal/ads/uq1;
 
     new-instance p4, Lcom/google/android/gms/ads/internal/l;
@@ -89,10 +83,8 @@
 
     move-result-object p2
 
-    .line 7
     iput-object p2, p0, Lcom/google/android/gms/ads/internal/k;->d:Ljava/util/concurrent/Future;
 
-    .line 8
     new-instance p2, Lcom/google/android/gms/ads/internal/n;
 
     invoke-direct {p2, p1, p3}, Lcom/google/android/gms/ads/internal/n;-><init>(Landroid/content/Context;Ljava/lang/String;)V
@@ -101,15 +93,12 @@
 
     const/4 p1, 0x0
 
-    .line 9
     invoke-virtual {p0, p1}, Lcom/google/android/gms/ads/internal/k;->L9(I)V
 
-    .line 10
     iget-object p2, p0, Lcom/google/android/gms/ads/internal/k;->p:Landroid/webkit/WebView;
 
     invoke-virtual {p2, p1}, Landroid/webkit/WebView;->setVerticalScrollBarEnabled(Z)V
 
-    .line 11
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/k;->p:Landroid/webkit/WebView;
 
     invoke-virtual {p1}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -120,7 +109,6 @@
 
     invoke-virtual {p1, p2}, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
 
-    .line 12
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/k;->p:Landroid/webkit/WebView;
 
     new-instance p2, Lcom/google/android/gms/ads/internal/j;
@@ -129,7 +117,6 @@
 
     invoke-virtual {p1, p2}, Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
 
-    .line 13
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/k;->p:Landroid/webkit/WebView;
 
     new-instance p2, Lcom/google/android/gms/ads/internal/m;
@@ -144,7 +131,6 @@
 .method static synthetic Aa(Lcom/google/android/gms/ads/internal/k;)Landroid/content/Context;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/internal/k;->f:Landroid/content/Context;
 
     return-object p0
@@ -153,7 +139,6 @@
 .method static synthetic Da(Lcom/google/android/gms/ads/internal/k;)Ljava/util/concurrent/Future;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/internal/k;->d:Ljava/util/concurrent/Future;
 
     return-object p0
@@ -162,7 +147,6 @@
 .method static synthetic Ea(Lcom/google/android/gms/ads/internal/k;)Landroid/webkit/WebView;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/internal/k;->p:Landroid/webkit/WebView;
 
     return-object p0
@@ -171,7 +155,6 @@
 .method static synthetic J5(Lcom/google/android/gms/ads/internal/k;Lcom/google/android/gms/internal/ads/d12;)Lcom/google/android/gms/internal/ads/d12;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/ads/internal/k;->K:Lcom/google/android/gms/internal/ads/d12;
 
     return-object p1
@@ -180,7 +163,6 @@
 .method static synthetic L6(Lcom/google/android/gms/ads/internal/k;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/ads/internal/k;->m8(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -191,7 +173,6 @@
 .method static synthetic W7(Lcom/google/android/gms/ads/internal/k;)Lcom/google/android/gms/internal/ads/d12;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/internal/k;->K:Lcom/google/android/gms/internal/ads/d12;
 
     return-object p0
@@ -200,7 +181,6 @@
 .method static synthetic X9(Lcom/google/android/gms/ads/internal/k;)Lcom/google/android/gms/internal/ads/zzbbd;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/internal/k;->b:Lcom/google/android/gms/internal/ads/zzbbd;
 
     return-object p0
@@ -209,7 +189,6 @@
 .method static synthetic c6(Lcom/google/android/gms/ads/internal/k;)Lcom/google/android/gms/internal/ads/cn2;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/internal/k;->J:Lcom/google/android/gms/internal/ads/cn2;
 
     return-object p0
@@ -218,7 +197,6 @@
 .method static synthetic f8(Lcom/google/android/gms/ads/internal/k;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/ads/internal/k;->v9(Ljava/lang/String;)V
 
     return-void
@@ -227,20 +205,17 @@
 .method private final m8(Ljava/lang/String;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/k;->K:Lcom/google/android/gms/internal/ads/d12;
 
     if-nez v0, :cond_0
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/k;->K:Lcom/google/android/gms/internal/ads/d12;
 
@@ -248,7 +223,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {v0, p1, v1, v2, v2}, Lcom/google/android/gms/internal/ads/d12;->b(Landroid/net/Uri;Landroid/content/Context;Landroid/view/View;Landroid/app/Activity;)Landroid/net/Uri;
 
     move-result-object p1
@@ -262,10 +236,8 @@
 
     const-string v1, "Unable to process ad data"
 
-    .line 5
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     :goto_0
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
@@ -277,21 +249,18 @@
 .method private final v9(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.intent.action.VIEW"
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
 
     invoke-virtual {v0, p1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/k;->f:Landroid/content/Context;
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
@@ -309,7 +278,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/ads/internal/k;->J:Lcom/google/android/gms/internal/ads/cn2;
 
     return-void
@@ -331,21 +299,18 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/net/Uri$Builder;
 
     invoke-direct {v0}, Landroid/net/Uri$Builder;-><init>()V
 
     const-string v1, "https://"
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/net/Uri$Builder;->scheme(Ljava/lang/String;)Landroid/net/Uri$Builder;
 
     move-result-object v1
 
     sget-object v2, Lcom/google/android/gms/internal/ads/d1;->d:Lcom/google/android/gms/internal/ads/y0;
 
-    .line 3
     invoke-virtual {v2}, Lcom/google/android/gms/internal/ads/y0;->a()Ljava/lang/Object;
 
     move-result-object v2
@@ -354,7 +319,6 @@
 
     invoke-virtual {v1, v2}, Landroid/net/Uri$Builder;->appendEncodedPath(Ljava/lang/String;)Landroid/net/Uri$Builder;
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/ads/internal/k;->g:Lcom/google/android/gms/ads/internal/n;
 
     invoke-virtual {v1}, Lcom/google/android/gms/ads/internal/n;->a()Ljava/lang/String;
@@ -365,7 +329,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/ads/internal/k;->g:Lcom/google/android/gms/ads/internal/n;
 
     invoke-virtual {v1}, Lcom/google/android/gms/ads/internal/n;->d()Ljava/lang/String;
@@ -376,14 +339,12 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
 
-    .line 6
     iget-object v1, p0, Lcom/google/android/gms/ads/internal/k;->g:Lcom/google/android/gms/ads/internal/n;
 
     invoke-virtual {v1}, Lcom/google/android/gms/ads/internal/n;->e()Ljava/util/Map;
 
     move-result-object v1
 
-    .line 7
     invoke-interface {v1}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v2
@@ -405,7 +366,6 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 8
     invoke-interface {v1, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -416,18 +376,15 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-virtual {v0}, Landroid/net/Uri$Builder;->build()Landroid/net/Uri;
 
     move-result-object v0
 
-    .line 10
     iget-object v1, p0, Lcom/google/android/gms/ads/internal/k;->K:Lcom/google/android/gms/internal/ads/d12;
 
     if-eqz v1, :cond_1
 
-    .line 11
     :try_start_0
     iget-object v2, p0, Lcom/google/android/gms/ads/internal/k;->f:Landroid/content/Context;
 
@@ -444,10 +401,8 @@
 
     const-string v2, "Unable to process ad data"
 
-    .line 12
     invoke-static {v2, v1}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 13
     :cond_1
     :goto_1
     invoke-virtual {p0}, Lcom/google/android/gms/ads/internal/k;->Ga()Ljava/lang/String;
@@ -502,14 +457,12 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/k;->g:Lcom/google/android/gms/ads/internal/n;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/internal/n;->c()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -518,7 +471,6 @@
 
     const-string v0, "www.google.com"
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/google/android/gms/internal/ads/d1;->d:Lcom/google/android/gms/internal/ads/y0;
 
@@ -570,7 +522,6 @@
 .method public final H8(Lcom/google/android/gms/internal/ads/zzaaa;)V
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -588,7 +539,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -606,21 +556,18 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/k;->p:Landroid/webkit/WebView;
 
     const-string v1, "This Search Ad has already been torn down"
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/k;->g:Lcom/google/android/gms/ads/internal/n;
 
     iget-object v1, p0, Lcom/google/android/gms/ads/internal/k;->b:Lcom/google/android/gms/internal/ads/zzbbd;
 
     invoke-virtual {v0, p1, v1}, Lcom/google/android/gms/ads/internal/n;->b(Lcom/google/android/gms/internal/ads/zzve;Lcom/google/android/gms/internal/ads/zzbbd;)V
 
-    .line 3
     new-instance p1, Lcom/google/android/gms/ads/internal/o;
 
     const/4 v0, 0x0
@@ -647,14 +594,12 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/k;->p:Landroid/webkit/WebView;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Landroid/view/ViewGroup$LayoutParams;
 
@@ -662,7 +607,6 @@
 
     invoke-direct {v0, v1, p1}, Landroid/view/ViewGroup$LayoutParams;-><init>(II)V
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/k;->p:Landroid/webkit/WebView;
 
     invoke-virtual {p1, v0}, Landroid/webkit/WebView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
@@ -673,7 +617,6 @@
 .method public final M5(Lcom/google/android/gms/internal/ads/zzvo;)V
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -691,7 +634,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "AdSize must be set before initialization"
@@ -704,7 +646,6 @@
 .method public final P7()Lcom/google/android/gms/internal/ads/cn2;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "getIAdListener not implemented"
@@ -722,7 +663,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -746,7 +686,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -764,7 +703,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Unused method"
@@ -777,7 +715,6 @@
 .method public final b1(Lcom/google/android/gms/internal/ads/sn2;)V
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -797,29 +734,24 @@
 
     const-string v0, "destroy must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/k;->L:Landroid/os/AsyncTask;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Landroid/os/AsyncTask;->cancel(Z)Z
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/k;->d:Ljava/util/concurrent/Future;
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Future;->cancel(Z)Z
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/k;->p:Landroid/webkit/WebView;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->destroy()V
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/google/android/gms/ads/internal/k;->p:Landroid/webkit/WebView;
 
     return-void
@@ -833,7 +765,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -867,7 +798,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/k;->c:Lcom/google/android/gms/internal/ads/zzvh;
 
     return-object v0
@@ -876,7 +806,6 @@
 .method public final getAdUnitId()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "getAdUnitId not implemented"
@@ -901,7 +830,6 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -912,7 +840,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -923,7 +850,6 @@
 
     return v1
 
-    .line 3
     :cond_0
     :try_start_0
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->a()Lcom/google/android/gms/internal/ads/pp;
@@ -954,7 +880,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -993,7 +918,6 @@
 .method public final j1(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -1006,7 +930,6 @@
 .method public final l(Z)V
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -1024,7 +947,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -1052,7 +974,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string p2, "Unused method"
@@ -1070,7 +991,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -1083,7 +1003,6 @@
 .method public final pa(Lcom/google/android/gms/internal/ads/zzyo;)V
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"
@@ -1103,7 +1022,6 @@
 
     const-string v0, "pause must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
     return-void
@@ -1112,7 +1030,6 @@
 .method public final q()Landroid/os/Bundle;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Unused method"
@@ -1132,10 +1049,8 @@
 
     const-string v0, "getAdFrame must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/k;->p:Landroid/webkit/WebView;
 
     invoke-static {v0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
@@ -1155,7 +1070,6 @@
 
     const-string v0, "resume must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
     return-void
@@ -1180,7 +1094,6 @@
 .method public final s7()Lcom/google/android/gms/internal/ads/yn2;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "getIAppEventListener not implemented"
@@ -1198,7 +1111,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Unused method"
@@ -1216,7 +1128,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Unused method"

@@ -29,7 +29,6 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-direct/range {v0 .. v6}, Lcom/appsflyer/internal/model/event/BackgroundEvent;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Landroid/content/Context;)V
 
     return-void
@@ -64,7 +63,6 @@
 
     if-eqz p5, :cond_0
 
-    .line 2
     invoke-virtual {p5}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p5
@@ -85,7 +83,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 3
     invoke-virtual {p3}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p2
@@ -100,7 +97,6 @@
 
     if-eqz p4, :cond_2
 
-    .line 4
     invoke-virtual {p4}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
@@ -116,7 +112,6 @@
 .method public body()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/appsflyer/AFEvent;->params()Ljava/util/Map;
 
     move-result-object v0
@@ -135,7 +130,6 @@
 .method public proxyMode()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/appsflyer/internal/model/event/BackgroundEvent;->getRequestListener:Z
 
     return v0
@@ -144,7 +138,6 @@
 .method public readResponse()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/appsflyer/internal/model/event/BackgroundEvent;->dateFormatUTC:Z
 
     return v0
@@ -153,7 +146,6 @@
 .method public trackingStopped(Z)Lcom/appsflyer/internal/model/event/BackgroundEvent;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/appsflyer/internal/model/event/BackgroundEvent;->getDataFormatter:Z
 
     return-object p0
@@ -162,7 +154,6 @@
 .method public trackingStopped()Z
     .locals 1
 
-    .line 2
     iget-boolean v0, p0, Lcom/appsflyer/internal/model/event/BackgroundEvent;->getDataFormatter:Z
 
     return v0

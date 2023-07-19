@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/android/billingclient/api/e$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method private final a()Ljava/lang/Void;
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     invoke-static {v0}, Lcom/android/billingclient/api/e$a;->a(Lcom/android/billingclient/api/e$a;)Ljava/lang/Object;
@@ -45,7 +43,6 @@
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
@@ -57,12 +54,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     monitor-exit v0
 
     return-object v2
 
-    .line 4
     :cond_0
     monitor-exit v0
     :try_end_0
@@ -72,7 +67,6 @@
 
     const/4 v1, 0x0
 
-    .line 5
     :try_start_1
     iget-object v3, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
@@ -97,13 +91,11 @@
     :goto_0
     if-lt v5, v0, :cond_2
 
-    .line 6
     :try_start_2
     iget-object v7, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     iget-object v7, v7, Lcom/android/billingclient/api/e$a;->d:Lcom/android/billingclient/api/e;
 
-    .line 7
     invoke-static {v7}, Lcom/android/billingclient/api/e;->M(Lcom/android/billingclient/api/e;)Lf/f/b/b/h/e/a;
 
     move-result-object v7
@@ -126,7 +118,6 @@
     :cond_2
     const/4 v5, 0x0
 
-    .line 8
     :goto_1
     iget-object v7, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
@@ -148,7 +139,6 @@
     :goto_2
     invoke-static {v7, v8}, Lcom/android/billingclient/api/e;->E(Lcom/android/billingclient/api/e;Z)Z
 
-    .line 9
     iget-object v7, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     iget-object v7, v7, Lcom/android/billingclient/api/e$a;->d:Lcom/android/billingclient/api/e;
@@ -171,7 +161,6 @@
 
     const-string v7, "In-app billing API does not support subscription on this device."
 
-    .line 10
     invoke-static {v5, v7}, Lf/f/b/b/h/e/b;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_5
@@ -180,12 +169,10 @@
     :goto_4
     if-lt v5, v0, :cond_7
 
-    .line 11
     iget-object v7, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     iget-object v7, v7, Lcom/android/billingclient/api/e$a;->d:Lcom/android/billingclient/api/e;
 
-    .line 12
     invoke-static {v7}, Lcom/android/billingclient/api/e;->M(Lcom/android/billingclient/api/e;)Lf/f/b/b/h/e/a;
 
     move-result-object v7
@@ -208,7 +195,6 @@
     :cond_7
     const/4 v5, 0x0
 
-    .line 13
     :goto_5
     iget-object v3, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
@@ -226,7 +212,6 @@
     :goto_6
     invoke-static {v3, v4}, Lcom/android/billingclient/api/e;->N(Lcom/android/billingclient/api/e;Z)Z
 
-    .line 14
     iget-object v3, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     iget-object v3, v3, Lcom/android/billingclient/api/e$a;->d:Lcom/android/billingclient/api/e;
@@ -245,7 +230,6 @@
     :goto_7
     invoke-static {v3, v4}, Lcom/android/billingclient/api/e;->P(Lcom/android/billingclient/api/e;Z)Z
 
-    .line 15
     iget-object v3, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     iget-object v3, v3, Lcom/android/billingclient/api/e$a;->d:Lcom/android/billingclient/api/e;
@@ -264,7 +248,6 @@
     :goto_8
     invoke-static {v3, v4}, Lcom/android/billingclient/api/e;->R(Lcom/android/billingclient/api/e;Z)Z
 
-    .line 16
     iget-object v3, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     iget-object v3, v3, Lcom/android/billingclient/api/e$a;->d:Lcom/android/billingclient/api/e;
@@ -283,7 +266,6 @@
     :goto_9
     invoke-static {v3, v4}, Lcom/android/billingclient/api/e;->T(Lcom/android/billingclient/api/e;Z)Z
 
-    .line 17
     iget-object v3, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     iget-object v3, v3, Lcom/android/billingclient/api/e$a;->d:Lcom/android/billingclient/api/e;
@@ -302,7 +284,6 @@
     :goto_a
     invoke-static {v3, v4}, Lcom/android/billingclient/api/e;->U(Lcom/android/billingclient/api/e;Z)Z
 
-    .line 18
     iget-object v3, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     iget-object v3, v3, Lcom/android/billingclient/api/e$a;->d:Lcom/android/billingclient/api/e;
@@ -325,13 +306,11 @@
 
     const-string v3, "In-app billing API version 3 is not supported on this device."
 
-    .line 19
     invoke-static {v0, v3}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_e
     if-nez v6, :cond_f
 
-    .line 20
     iget-object v0, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     iget-object v0, v0, Lcom/android/billingclient/api/e$a;->d:Lcom/android/billingclient/api/e;
@@ -342,7 +321,6 @@
 
     goto :goto_c
 
-    .line 21
     :cond_f
     iget-object v0, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
@@ -350,7 +328,6 @@
 
     invoke-static {v0, v1}, Lcom/android/billingclient/api/e;->q(Lcom/android/billingclient/api/e;I)I
 
-    .line 22
     iget-object v0, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     iget-object v0, v0, Lcom/android/billingclient/api/e$a;->d:Lcom/android/billingclient/api/e;
@@ -369,17 +346,14 @@
 
     const-string v4, "Exception while checking if billing is supported; try to reconnect"
 
-    .line 23
     invoke-static {v3, v4}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 24
     iget-object v3, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     iget-object v3, v3, Lcom/android/billingclient/api/e$a;->d:Lcom/android/billingclient/api/e;
 
     invoke-static {v3, v1}, Lcom/android/billingclient/api/e;->q(Lcom/android/billingclient/api/e;I)I
 
-    .line 25
     iget-object v1, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     iget-object v1, v1, Lcom/android/billingclient/api/e$a;->d:Lcom/android/billingclient/api/e;
@@ -391,7 +365,6 @@
     :goto_c
     if-nez v6, :cond_10
 
-    .line 26
     iget-object v0, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
     sget-object v1, Lcom/android/billingclient/api/a0;->p:Lcom/android/billingclient/api/h;
@@ -400,7 +373,6 @@
 
     goto :goto_d
 
-    .line 27
     :cond_10
     iget-object v0, p0, Lcom/android/billingclient/api/x;->a:Lcom/android/billingclient/api/e$a;
 
@@ -414,7 +386,6 @@
     :catchall_0
     move-exception v1
 
-    .line 28
     :try_start_3
     monitor-exit v0
     :try_end_3
@@ -433,7 +404,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/android/billingclient/api/x;->a()Ljava/lang/Void;
 
     move-result-object v0

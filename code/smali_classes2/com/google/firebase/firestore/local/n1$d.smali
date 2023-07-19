@@ -26,13 +26,10 @@
 .method constructor <init>(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/local/n1$d;->a:Landroid/database/sqlite/SQLiteDatabase;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/local/n1$d;->b:Ljava/lang/String;
 
     return-void
@@ -41,10 +38,8 @@
 .method static synthetic f([Ljava/lang/Object;Landroid/database/sqlite/SQLiteDatabase;Landroid/database/sqlite/SQLiteCursorDriver;Ljava/lang/String;Landroid/database/sqlite/SQLiteQuery;)Landroid/database/Cursor;
     .locals 0
 
-    .line 1
     invoke-static {p4, p0}, Lcom/google/firebase/firestore/local/n1;->l(Landroid/database/sqlite/SQLiteProgram;[Ljava/lang/Object;)V
 
-    .line 2
     new-instance p0, Landroid/database/sqlite/SQLiteCursor;
 
     invoke-direct {p0, p2, p3, p4}, Landroid/database/sqlite/SQLiteCursor;-><init>(Landroid/database/sqlite/SQLiteCursorDriver;Ljava/lang/String;Landroid/database/sqlite/SQLiteQuery;)V
@@ -55,14 +50,12 @@
 .method private g()Landroid/database/Cursor;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1$d;->c:Landroid/database/sqlite/SQLiteDatabase$CursorFactory;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/firestore/local/n1$d;->a:Landroid/database/sqlite/SQLiteDatabase;
 
     iget-object v3, p0, Lcom/google/firebase/firestore/local/n1$d;->b:Ljava/lang/String;
@@ -73,7 +66,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1$d;->a:Landroid/database/sqlite/SQLiteDatabase;
 
@@ -91,7 +83,6 @@
 .method varargs a([Ljava/lang/Object;)Lcom/google/firebase/firestore/local/n1$d;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/firestore/local/o1;->a([Ljava/lang/Object;)Landroid/database/sqlite/SQLiteDatabase$CursorFactory;
 
     move-result-object p1
@@ -112,7 +103,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/google/firebase/firestore/local/n1$d;->g()Landroid/database/Cursor;
 
@@ -120,7 +110,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-interface {v0}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -128,7 +117,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-interface {p1, v0}, Lcom/google/firebase/firestore/util/m;->accept(Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -137,7 +125,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
     :cond_0
@@ -190,7 +177,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/google/firebase/firestore/local/n1$d;->g()Landroid/database/Cursor;
 
@@ -198,7 +184,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-interface {v1}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -206,7 +191,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-interface {p1, v1}, Lcom/google/common/base/n;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -215,7 +199,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
     :cond_0
@@ -259,7 +242,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/google/firebase/firestore/local/n1$d;->g()Landroid/database/Cursor;
 
@@ -267,7 +249,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :goto_0
     :try_start_1
     invoke-interface {v0}, Landroid/database/Cursor;->moveToNext()Z
@@ -276,7 +257,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {p1, v0}, Lcom/google/firebase/firestore/util/m;->accept(Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -286,7 +266,6 @@
     :cond_0
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
     :cond_1
@@ -314,7 +293,6 @@
 .method e()Z
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/google/firebase/firestore/local/n1$d;->g()Landroid/database/Cursor;
 
@@ -322,7 +300,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-interface {v0}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -334,7 +311,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
     :cond_0

@@ -30,7 +30,6 @@
 
     iput-object p4, p0, Lcom/commsource/studio/function/CleanOilFragment$onGlResourceInit$$inlined$apply$lambda$1;->f:Lcom/commsource/studio/function/CleanOilFragment;
 
-    .line 1
     invoke-direct {p0, p2, p3}, Lcom/commsource/studio/function/automanual/c;-><init>(Lcom/commsource/studio/processor/f;Lcom/commsource/studio/layer/PaintMaskLayer;)V
 
     return-void
@@ -61,7 +60,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v5, Lcom/commsource/studio/r0/g;
 
     const-string v1, "rt_effect_config/configuration_beauty_ShinyClean_Manual.plist"
@@ -70,15 +68,12 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {v5, v1}, Lcom/commsource/studio/r0/g;->I(Z)V
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v5, v1}, Lcom/commsource/studio/r0/x;->z(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/CleanOilFragment$onGlResourceInit$$inlined$apply$lambda$1;->f:Lcom/commsource/studio/function/CleanOilFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/CleanOilFragment;->A1(Lcom/commsource/studio/function/CleanOilFragment;)Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
@@ -89,7 +84,6 @@
 
     const/4 v6, 0x1
 
-    .line 5
     new-instance v7, Lcom/commsource/studio/function/CleanOilFragment$onGlResourceInit$$inlined$apply$lambda$1$1;
 
     invoke-direct {v7, v5}, Lcom/commsource/studio/function/CleanOilFragment$onGlResourceInit$$inlined$apply$lambda$1$1;-><init>(Lcom/commsource/studio/r0/g;)V
@@ -98,10 +92,8 @@
 
     move-object v4, p2
 
-    .line 6
     invoke-virtual/range {v2 .. v7}, Lcom/commsource/studio/processor/BaseEffectProcessor;->u(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/camera/newrender/renderproxy/n;ZLcotlin/jvm/u/a;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

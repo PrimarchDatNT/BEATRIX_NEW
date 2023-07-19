@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/FirebaseAuth;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/h0;->a:Lcom/google/firebase/auth/FirebaseAuth;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -35,7 +34,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/h0;->a:Lcom/google/firebase/auth/FirebaseAuth;
 
     const/4 v1, 0x1
@@ -48,7 +46,6 @@
 .method public final x0(Lcom/google/android/gms/common/api/Status;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->z()I
 
     move-result p1
@@ -65,7 +62,6 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/google/firebase/auth/h0;->a:Lcom/google/firebase/auth/FirebaseAuth;
 

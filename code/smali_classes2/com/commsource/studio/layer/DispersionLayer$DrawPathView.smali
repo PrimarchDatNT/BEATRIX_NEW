@@ -41,7 +41,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
@@ -133,7 +132,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/DispersionLayer;->L0()Z
@@ -146,10 +144,8 @@
 
     long-to-int v2, v1
 
-    .line 2
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->drawColor(I)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
@@ -165,7 +161,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -182,7 +177,6 @@
 
     invoke-virtual {p1, v3, v3, v1, v2}, Landroid/graphics/Canvas;->clipRect(FFFF)Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/DispersionLayer;->L0()Z
@@ -195,7 +189,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->F0(Lcom/commsource/studio/layer/DispersionLayer;)Landroid/text/TextPaint;
@@ -220,7 +213,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->move_circle_to_try:I
 
-    .line 7
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
@@ -275,7 +267,6 @@
 
     invoke-virtual {p1, v1, v4, v5, v6}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
@@ -289,7 +280,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->B0(Lcom/commsource/studio/layer/DispersionLayer;)Landroid/graphics/Paint;
@@ -312,7 +302,6 @@
 
     invoke-virtual {v1, v6}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->B0(Lcom/commsource/studio/layer/DispersionLayer;)Landroid/graphics/Paint;
@@ -323,7 +312,6 @@
 
     invoke-virtual {v1, v6}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->B0(Lcom/commsource/studio/layer/DispersionLayer;)Landroid/graphics/Paint;
@@ -332,7 +320,6 @@
 
     invoke-virtual {v1, v5}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->z0(Lcom/commsource/studio/layer/DispersionLayer;)[F
@@ -371,7 +358,6 @@
 
     invoke-virtual {p1, v1, v6, v7, v8}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->B0(Lcom/commsource/studio/layer/DispersionLayer;)Landroid/graphics/Paint;
@@ -394,7 +380,6 @@
 
     invoke-virtual {v1, v6}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->B0(Lcom/commsource/studio/layer/DispersionLayer;)Landroid/graphics/Paint;
@@ -405,7 +390,6 @@
 
     invoke-virtual {v1, v6}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->B0(Lcom/commsource/studio/layer/DispersionLayer;)Landroid/graphics/Paint;
@@ -416,7 +400,6 @@
 
     invoke-virtual {v1, v6}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->z0(Lcom/commsource/studio/layer/DispersionLayer;)[F
@@ -455,7 +438,6 @@
 
     invoke-virtual {p1, v1, v6, v7, v8}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->B0(Lcom/commsource/studio/layer/DispersionLayer;)Landroid/graphics/Paint;
@@ -464,7 +446,6 @@
 
     invoke-virtual {v1, v5}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->B0(Lcom/commsource/studio/layer/DispersionLayer;)Landroid/graphics/Paint;
@@ -475,7 +456,6 @@
 
     invoke-virtual {v1, v5}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->z0(Lcom/commsource/studio/layer/DispersionLayer;)[F
@@ -528,7 +508,6 @@
 
     goto/16 :goto_0
 
-    .line 20
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
@@ -552,7 +531,6 @@
 
     invoke-virtual {v1, v6}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->B0(Lcom/commsource/studio/layer/DispersionLayer;)Landroid/graphics/Paint;
@@ -563,7 +541,6 @@
 
     invoke-virtual {v1, v6}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->B0(Lcom/commsource/studio/layer/DispersionLayer;)Landroid/graphics/Paint;
@@ -572,7 +549,6 @@
 
     invoke-virtual {v1, v5}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->B0(Lcom/commsource/studio/layer/DispersionLayer;)Landroid/graphics/Paint;
@@ -583,7 +559,6 @@
 
     invoke-virtual {v1, v5}, Landroid/graphics/Paint;->setStrokeCap(Landroid/graphics/Paint$Cap;)V
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DispersionLayer;->y0(Lcom/commsource/studio/layer/DispersionLayer;)F
@@ -598,7 +573,6 @@
 
     div-float/2addr v1, v5
 
-    .line 25
     iget-object v5, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v5}, Lcom/commsource/studio/layer/DispersionLayer;->z0(Lcom/commsource/studio/layer/DispersionLayer;)[F
@@ -649,7 +623,6 @@
 
     invoke-virtual/range {v6 .. v11}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 26
     iget-object v5, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v5}, Lcom/commsource/studio/layer/DispersionLayer;->z0(Lcom/commsource/studio/layer/DispersionLayer;)[F
@@ -694,7 +667,6 @@
 
     invoke-virtual/range {v6 .. v11}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 27
     iget-object v5, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v5}, Lcom/commsource/studio/layer/DispersionLayer;->z0(Lcom/commsource/studio/layer/DispersionLayer;)[F
@@ -739,7 +711,6 @@
 
     invoke-virtual/range {v6 .. v11}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 28
     iget-object v5, p0, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-static {v5}, Lcom/commsource/studio/layer/DispersionLayer;->z0(Lcom/commsource/studio/layer/DispersionLayer;)[F
@@ -784,7 +755,6 @@
 
     invoke-virtual/range {v6 .. v11}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 29
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

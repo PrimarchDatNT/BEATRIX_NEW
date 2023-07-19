@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TServerTransport;->acceptImpl()Lorg/apache/thrift/transport/TTransport;
 
     move-result-object v0
@@ -43,7 +41,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Lorg/apache/thrift/transport/TTransportException;
 

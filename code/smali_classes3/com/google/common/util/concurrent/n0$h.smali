@@ -25,10 +25,8 @@
 .method constructor <init>(Ljava/util/concurrent/ExecutorService;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/d;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -50,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$h;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0, p1, p2, p3}, Ljava/util/concurrent/ExecutorService;->awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
@@ -63,7 +60,6 @@
 .method public final execute(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$h;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
@@ -74,7 +70,6 @@
 .method public final isShutdown()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$h;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->isShutdown()Z
@@ -87,7 +82,6 @@
 .method public final isTerminated()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$h;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->isTerminated()Z
@@ -100,7 +94,6 @@
 .method public final shutdown()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$h;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
@@ -119,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$h;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdownNow()Ljava/util/List;

@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$vpAdapter$2$a;->a:Lcom/commsource/store/sticker/StickerStoreActivity$vpAdapter$2;
 
     invoke-direct {p0, p2}, Landroidx/viewpager2/adapter/FragmentStateAdapter;-><init>(Landroidx/fragment/app/FragmentActivity;)V
@@ -50,12 +49,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/store/sticker/StickerChildStoreFragment;
 
     invoke-direct {v1}, Lcom/commsource/store/sticker/StickerChildStoreFragment;-><init>()V
 
-    .line 2
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
@@ -66,7 +63,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -79,7 +75,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$vpAdapter$2$a;->a:Lcom/commsource/store/sticker/StickerStoreActivity$vpAdapter$2;
 
     iget-object v1, v1, Lcom/commsource/store/sticker/StickerStoreActivity$vpAdapter$2;->this$0:Lcom/commsource/store/sticker/StickerStoreActivity;

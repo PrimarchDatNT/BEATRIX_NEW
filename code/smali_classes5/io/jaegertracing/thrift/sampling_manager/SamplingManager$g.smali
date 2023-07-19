@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$g;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -66,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -94,7 +92,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {p2}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$g;->a(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p2
@@ -126,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$g$a;
 
     invoke-direct {v0}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$g$a;-><init>()V

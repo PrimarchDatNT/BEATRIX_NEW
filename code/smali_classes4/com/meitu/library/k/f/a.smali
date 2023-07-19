@@ -68,12 +68,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/library/k/f/a;->g:Ljava/lang/String;
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/library/k/f/a;->e()V
 
     return-void
@@ -86,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/Random;
 
     invoke-direct {v1}, Ljava/util/Random;-><init>()V
@@ -100,7 +97,6 @@
 
     if-gt v3, v4, :cond_0
 
-    .line 2
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -123,13 +119,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -150,7 +144,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/k/d/a/g;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -196,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/k/f/a;->g:Ljava/lang/String;
 
     invoke-direct {p0, v1}, Lcom/meitu/library/k/f/a;->a(Ljava/lang/String;)Ljava/lang/String;
@@ -207,10 +199,8 @@
 
     const/4 v1, 0x1
 
-    .line 2
     iput v1, p0, Lcom/meitu/library/k/f/a;->b:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -225,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/k/f/a;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -242,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/k/f/a;->a:Ljava/lang/String;
 
     if-nez v1, :cond_0
@@ -264,14 +252,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/k/f/a;->b:I
 
     add-int/lit8 v1, v1, 0x1
 
     iput v1, p0, Lcom/meitu/library/k/f/a;->b:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -296,7 +282,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -317,7 +302,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -338,7 +322,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -359,7 +342,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -388,7 +370,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -409,7 +390,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget p1, p0, Lcom/meitu/library/k/f/a;->c:I
 
     if-gtz p1, :cond_0
@@ -438,17 +418,14 @@
 
     if-lez p1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/library/k/f/a;->e()V
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/k/f/a;->f:J
 
-    .line 4
     :cond_0
     iget p1, p0, Lcom/meitu/library/k/f/a;->d:I
 
@@ -456,12 +433,10 @@
 
     add-int/lit8 p1, p1, 0x1
 
-    .line 5
     iput p1, p0, Lcom/meitu/library/k/f/a;->d:I
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget p1, p0, Lcom/meitu/library/k/f/a;->c:I
 
@@ -469,7 +444,6 @@
 
     iput p1, p0, Lcom/meitu/library/k/f/a;->c:I
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -491,14 +465,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/app/Activity;->isChangingConfigurations()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget p1, p0, Lcom/meitu/library/k/f/a;->d:I
 
     add-int/lit8 p1, p1, -0x1
@@ -507,7 +479,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget p1, p0, Lcom/meitu/library/k/f/a;->c:I
 
@@ -517,14 +488,12 @@
 
     if-gtz p1, :cond_1
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/k/f/a;->f:J
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

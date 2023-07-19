@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/ProStoreViewHolder$d;->a:Lcom/commsource/store/ProStoreViewHolder;
 
     iput-wide p2, p0, Lcom/commsource/store/ProStoreViewHolder$d;->b:J
@@ -49,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder$d;->a:Lcom/commsource/store/ProStoreViewHolder;
 
     invoke-static {v1}, Lcom/commsource/store/ProStoreViewHolder;->v(Lcom/commsource/store/ProStoreViewHolder;)Lcom/commsource/beautyplus/f0/y0;
@@ -64,7 +62,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -78,7 +75,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder$d;->a:Lcom/commsource/store/ProStoreViewHolder;
 
     invoke-static {v1}, Lcom/commsource/store/ProStoreViewHolder;->v(Lcom/commsource/store/ProStoreViewHolder;)Lcom/commsource/beautyplus/f0/y0;
@@ -97,7 +93,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

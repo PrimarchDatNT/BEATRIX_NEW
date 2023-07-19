@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;Lcom/google/android/gms/ads/y/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;
 
     iput-object p2, p0, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager$1;->val$rewardedVideoAd:Lcom/google/android/gms/ads/y/c;
@@ -48,15 +47,12 @@
 
     const-string v0, "Admob \u4e0b\u53d1\u5956\u52b1"
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;->access$200(Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,12 +65,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;->access$100(Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -87,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -108,7 +101,6 @@
 
     invoke-static {v1, v2, p1}, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;->access$400(Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;ILjava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -121,12 +113,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;->access$300(Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -139,14 +129,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;
 
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager$1;->val$rewardedVideoAd:Lcom/google/android/gms/ads/y/c;
 
     invoke-static {v1, v2}, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;->access$000(Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -159,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -172,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -185,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

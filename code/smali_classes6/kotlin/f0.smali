@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->numberOfLeadingZeros(I)I
 
     move-result p0
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Long;->numberOfLeadingZeros(J)I
 
     move-result p0
@@ -76,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->bitCount(I)I
 
     move-result p0
@@ -99,7 +96,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Long;->bitCount(J)I
 
     move-result p0
@@ -122,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->numberOfTrailingZeros(I)I
 
     move-result p0
@@ -145,7 +140,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
 
     move-result p0
@@ -162,7 +156,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Double;->longBitsToDouble(J)D
 
     move-result-wide p0
@@ -179,7 +172,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Float;->intBitsToFloat(I)F
 
     move-result p0
@@ -192,7 +184,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Double;->isInfinite(D)Z
 
     move-result v0
@@ -221,7 +212,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Float;->isInfinite(F)Z
 
     move-result v0
@@ -250,7 +240,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Double;->isInfinite(D)Z
 
     move-result p0
@@ -263,7 +252,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Float;->isInfinite(F)Z
 
     move-result p0
@@ -276,7 +264,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Double;->isNaN(D)Z
 
     move-result p0
@@ -289,7 +276,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Float;->isNaN(F)Z
 
     move-result p0
@@ -309,7 +295,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Integer;->rotateLeft(II)I
 
     move-result p0
@@ -329,7 +314,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Ljava/lang/Long;->rotateLeft(JI)J
 
     move-result-wide p0
@@ -349,7 +333,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Integer;->rotateRight(II)I
 
     move-result p0
@@ -369,7 +352,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Ljava/lang/Long;->rotateRight(JI)J
 
     move-result-wide p0
@@ -392,7 +374,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->highestOneBit(I)I
 
     move-result p0
@@ -415,7 +396,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Long;->highestOneBit(J)J
 
     move-result-wide p0
@@ -438,7 +418,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->lowestOneBit(I)I
 
     move-result p0
@@ -461,7 +440,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Long;->lowestOneBit(J)J
 
     move-result-wide p0
@@ -478,7 +456,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Float;->floatToIntBits(F)I
 
     move-result p0
@@ -495,7 +472,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Double;->doubleToLongBits(D)J
 
     move-result-wide p0
@@ -512,7 +488,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
     move-result p0
@@ -529,7 +504,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Double;->doubleToRawLongBits(D)J
 
     move-result-wide p0

@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/e/g/c;Ljava/lang/StringBuilder;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/e/g/c$a;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/e/g/c$a;->b:Ljava/lang/StringBuilder;
@@ -38,7 +37,6 @@
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/firebase/crashlytics/e/g/c$a;->a:Z
 
     return-void
@@ -54,19 +52,16 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean p1, p0, Lcom/google/firebase/crashlytics/e/g/c$a;->a:Z
 
     if-eqz p1, :cond_0
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/firebase/crashlytics/e/g/c$a;->a:Z
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/google/firebase/crashlytics/e/g/c$a;->b:Ljava/lang/StringBuilder;
 
@@ -74,7 +69,6 @@
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     :goto_0
     iget-object p1, p0, Lcom/google/firebase/crashlytics/e/g/c$a;->b:Ljava/lang/StringBuilder;
 

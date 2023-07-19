@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;->values()[Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;
 
     move-result-object v0

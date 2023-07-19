@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/i$a;->b:Lcom/commsource/home/homepagedialog/i;
 
     invoke-virtual {v1}, Lcom/commsource/home/homepagedialog/i;->j()Lcom/commsource/beautyplus/BaseActivity;
@@ -59,12 +58,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/i$a;->b:Lcom/commsource/home/homepagedialog/i;
 
@@ -80,7 +77,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/home/homepagedialog/i;->l(Lcom/commsource/widget/dialog/delegate/b;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/i$a;->b:Lcom/commsource/home/homepagedialog/i;
 
     invoke-virtual {v1}, Lcom/commsource/home/homepagedialog/i;->k()Lcom/commsource/widget/dialog/delegate/b;
@@ -97,7 +93,6 @@
 
     invoke-virtual {v1, v2}, Lf/d/a;->G(Landroid/content/Context;)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

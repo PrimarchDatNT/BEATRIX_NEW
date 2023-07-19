@@ -30,10 +30,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/app/Service;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$windowManager$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$windowManager$2;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;)V
@@ -44,7 +42,6 @@
 
     iput-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->a:Lcotlin/w;
 
-    .line 3
     sget-object v0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$layoutParams$2;->INSTANCE:Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$layoutParams$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -55,14 +52,12 @@
 
     const/high16 v0, 0x42200000    # 40.0f
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->d:I
 
-    .line 5
     new-instance v0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$processStatusChangeBroadcastReceiver$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$processStatusChangeBroadcastReceiver$2;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;)V
@@ -83,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->f()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -98,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->g()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -173,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->c:Lcom/commsource/widget/CircleImageView;
 
     if-eqz v1, :cond_0
@@ -190,7 +182,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->e()Landroid/view/WindowManager;
 
     move-result-object v1
@@ -199,7 +190,6 @@
 
     invoke-interface {v1, v2}, Landroid/view/WindowManager;->removeView(Landroid/view/View;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -218,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x17
@@ -231,13 +220,11 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->c:Lcom/commsource/widget/CircleImageView;
 
     if-nez v1, :cond_1
 
-    .line 3
     new-instance v1, Lcom/commsource/widget/CircleImageView;
 
     invoke-virtual {p0}, Landroid/app/Service;->getApplicationContext()Landroid/content/Context;
@@ -248,20 +235,16 @@
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/widget/CircleImageView;->setFullCircle(Z)V
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->setting_test_func_entry_ic:I
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/widget/CircleImageView;->setImageResource(I)V
 
-    .line 6
     iput-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->c:Lcom/commsource/widget/CircleImageView;
 
     if-eqz v1, :cond_1
 
-    .line 7
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$a;
 
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->e()Landroid/view/WindowManager;
@@ -276,14 +259,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 8
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$c;
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$c;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;)V
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 9
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->c:Lcom/commsource/widget/CircleImageView;
 
@@ -301,7 +282,6 @@
     :goto_0
     if-nez v1, :cond_3
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->e()Landroid/view/WindowManager;
 
     move-result-object v1
@@ -314,7 +294,6 @@
 
     invoke-interface {v1, v2, v3}, Landroid/view/WindowManager;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -336,7 +315,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -351,15 +329,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/app/Service;->onCreate()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->c()Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v1
 
-    .line 3
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v3, 0x1a
@@ -378,28 +353,22 @@
 
     const/4 v2, 0x1
 
-    .line 4
     iput v2, v1, Landroid/view/WindowManager$LayoutParams;->format:I
 
     const v2, 0x800033
 
-    .line 5
     iput v2, v1, Landroid/view/WindowManager$LayoutParams;->gravity:I
 
     const/16 v2, 0x28
 
-    .line 6
     iput v2, v1, Landroid/view/WindowManager$LayoutParams;->flags:I
 
-    .line 7
     iget v2, p0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->d:I
 
     iput v2, v1, Landroid/view/WindowManager$LayoutParams;->width:I
 
-    .line 8
     iput v2, v1, Landroid/view/WindowManager$LayoutParams;->height:I
 
-    .line 9
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v2
@@ -410,7 +379,6 @@
 
     iput v2, v1, Landroid/view/WindowManager$LayoutParams;->x:I
 
-    .line 10
     invoke-static {}, Lcom/meitu/library/p/f/i;->F()I
 
     move-result v2
@@ -423,7 +391,6 @@
 
     iput v2, v1, Landroid/view/WindowManager$LayoutParams;->y:I
 
-    .line 11
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->d()Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$b;
 
     move-result-object v1
@@ -436,7 +403,6 @@
 
     invoke-virtual {p0, v1, v2}, Landroid/app/Service;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -449,25 +415,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/app/Service;->onDestroy()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->f()V
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->c:Lcom/commsource/widget/CircleImageView;
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->d()Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$b;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Landroid/app/Service;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -484,10 +445,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->g()V
 
-    .line 2
     invoke-super {p0, p1, p2, p3}, Landroid/app/Service;->onStartCommand(Landroid/content/Intent;II)I
 
     move-result p1

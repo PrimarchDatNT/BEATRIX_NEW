@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     const-string v1, "MERGE"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->MERGE:Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
-    .line 2
     new-instance v1, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     const-string v3, "ADD"
@@ -62,7 +60,6 @@
 
     sput-object v1, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->ADD:Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
-    .line 3
     new-instance v3, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     const-string v5, "SUBTRACT"
@@ -73,7 +70,6 @@
 
     sput-object v3, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->SUBTRACT:Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
-    .line 4
     new-instance v5, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     const-string v7, "INTERSECT"
@@ -84,7 +80,6 @@
 
     sput-object v5, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->INTERSECT:Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
-    .line 5
     new-instance v7, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     const-string v9, "EXCLUDE_INTERSECTIONS"
@@ -109,7 +104,6 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->$VALUES:[Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     return-void
@@ -123,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -152,36 +145,30 @@
 
     if-eq p0, v0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->MERGE:Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     return-object p0
 
-    .line 2
     :cond_0
     sget-object p0, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->EXCLUDE_INTERSECTIONS:Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     return-object p0
 
-    .line 3
     :cond_1
     sget-object p0, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->INTERSECT:Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     return-object p0
 
-    .line 4
     :cond_2
     sget-object p0, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->SUBTRACT:Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     return-object p0
 
-    .line 5
     :cond_3
     sget-object p0, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->ADD:Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     return-object p0
 
-    .line 6
     :cond_4
     sget-object p0, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->MERGE:Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
@@ -191,7 +178,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -206,7 +192,6 @@
 .method public static values()[Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->$VALUES:[Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;
 
     invoke-virtual {v0}, [Lcom/airbnb/lottie/model/content/MergePaths$MergePathsMode;->clone()Ljava/lang/Object;

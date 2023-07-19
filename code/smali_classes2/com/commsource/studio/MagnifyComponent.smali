@@ -74,7 +74,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/MagnifyComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -97,7 +96,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/MagnifyComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -118,12 +116,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/ComponentView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/high16 p1, 0x42c80000    # 100.0f
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
@@ -132,21 +128,18 @@
 
     const/high16 p2, 0x41a00000    # 20.0f
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p3
 
     iput p3, p0, Lcom/commsource/studio/MagnifyComponent;->f:I
 
-    .line 6
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p2
 
     iput p2, p0, Lcom/commsource/studio/MagnifyComponent;->g:I
 
-    .line 7
     new-instance p3, Lcom/commsource/studio/MagnifyComponent$MagnifyDecorateView;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -165,17 +158,14 @@
 
     new-array v0, v0, [F
 
-    .line 8
     iput-object v0, p0, Lcom/commsource/studio/MagnifyComponent;->K:[F
 
-    .line 9
     new-instance v0, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v0}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/MagnifyComponent;->L:Lcom/commsource/studio/MatrixBox;
 
-    .line 10
     new-instance v0, Lcom/commsource/studio/MagnifyComponent$viewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/MagnifyComponent$viewModel$2;-><init>(Lcom/commsource/studio/MagnifyComponent;)V
@@ -186,10 +176,8 @@
 
     iput-object v0, p0, Lcom/commsource/studio/MagnifyComponent;->Q:Lcotlin/w;
 
-    .line 11
     invoke-virtual {p0, p3, p1, p1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;II)V
 
-    .line 12
     invoke-static {p3, p2}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
     return-void
@@ -202,7 +190,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/studio/MagnifyComponent;->h(FFLandroid/view/MotionEvent;Lcom/commsource/studio/layer/BaseLayer;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -217,7 +204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -250,7 +236,6 @@
 
     if-gez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/MagnifyComponent;->p:Lcom/commsource/studio/MagnifyGLView;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
@@ -267,7 +252,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/MagnifyComponent;->J:Lcom/commsource/studio/MagnifyComponent$MagnifyDecorateView;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
@@ -286,7 +270,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/MagnifyComponent;->p:Lcom/commsource/studio/MagnifyGLView;
 
@@ -294,20 +277,17 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/MagnifyComponent;->J:Lcom/commsource/studio/MagnifyComponent$MagnifyDecorateView;
 
     iget v1, p0, Lcom/commsource/studio/MagnifyComponent;->f:I
 
     invoke-static {p1, v1}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 6
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/MagnifyComponent;->J:Lcom/commsource/studio/MagnifyComponent$MagnifyDecorateView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -326,7 +306,6 @@
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v4, v0, Lcom/commsource/studio/MagnifyComponent;->d:I
 
     div-int/lit8 v4, v4, 0x2
@@ -339,7 +318,6 @@
 
     div-float/2addr v4, v5
 
-    .line 2
     iget-object v5, v0, Lcom/commsource/studio/MagnifyComponent;->K:[F
 
     invoke-virtual/range {p4 .. p4}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -356,7 +334,6 @@
 
     aput v6, v5, v7
 
-    .line 3
     iget-object v5, v0, Lcom/commsource/studio/MagnifyComponent;->K:[F
 
     invoke-virtual/range {p4 .. p4}, Lcom/commsource/studio/layer/BaseLayer;->J()F
@@ -373,12 +350,10 @@
 
     aput v6, v5, v8
 
-    .line 4
     iget-object v5, v0, Lcom/commsource/studio/MagnifyComponent;->L:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v5}, Lcom/commsource/studio/MatrixBox;->reset()V
 
-    .line 5
     iget-object v5, v0, Lcom/commsource/studio/MagnifyComponent;->L:Lcom/commsource/studio/MatrixBox;
 
     iget-object v6, v0, Lcom/commsource/studio/MagnifyComponent;->K:[F
@@ -397,7 +372,6 @@
 
     invoke-virtual {v5, v9, v4}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 6
     iget-object v4, v0, Lcom/commsource/studio/MagnifyComponent;->L:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual/range {p4 .. p4}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -408,7 +382,6 @@
 
     invoke-virtual {v4, v5, v6, v6}, Lcom/commsource/studio/MatrixBox;->postScale(FFF)V
 
-    .line 7
     iget-object v4, v0, Lcom/commsource/studio/MagnifyComponent;->p:Lcom/commsource/studio/MagnifyGLView;
 
     if-eqz v4, :cond_0
@@ -432,7 +405,6 @@
     :cond_0
     move-object/from16 v4, p4
 
-    .line 8
     invoke-virtual {v4, v1, v2}, Lcom/commsource/studio/layer/BaseLayer;->P(FF)Z
 
     move-result v1
@@ -441,15 +413,12 @@
 
     move-object/from16 v1, p3
 
-    .line 9
     invoke-direct {v0, v1}, Lcom/commsource/studio/MagnifyComponent;->g(Landroid/view/MotionEvent;)V
 
-    .line 10
     iget-boolean v1, v0, Lcom/commsource/studio/MagnifyComponent;->O:Z
 
     if-nez v1, :cond_4
 
-    .line 11
     iget-object v9, v0, Lcom/commsource/studio/MagnifyComponent;->J:Lcom/commsource/studio/MagnifyComponent$MagnifyDecorateView;
 
     const/4 v10, 0x0
@@ -466,7 +435,6 @@
 
     invoke-static/range {v9 .. v16}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 12
     iget-object v1, v0, Lcom/commsource/studio/MagnifyComponent;->p:Lcom/commsource/studio/MagnifyGLView;
 
     if-eqz v1, :cond_1
@@ -487,19 +455,16 @@
 
     invoke-static/range {v17 .. v24}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 13
     :cond_1
     iput-boolean v8, v0, Lcom/commsource/studio/MagnifyComponent;->O:Z
 
     goto :goto_0
 
-    .line 14
     :cond_2
     iget-boolean v1, v0, Lcom/commsource/studio/MagnifyComponent;->O:Z
 
     if-eqz v1, :cond_4
 
-    .line 15
     iget-object v8, v0, Lcom/commsource/studio/MagnifyComponent;->p:Lcom/commsource/studio/MagnifyGLView;
 
     if-eqz v8, :cond_3
@@ -516,7 +481,6 @@
 
     invoke-static/range {v8 .. v14}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 16
     :cond_3
     iget-object v15, v0, Lcom/commsource/studio/MagnifyComponent;->J:Lcom/commsource/studio/MagnifyComponent$MagnifyDecorateView;
 
@@ -532,10 +496,8 @@
 
     invoke-static/range {v15 .. v21}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 17
     iput-boolean v7, v0, Lcom/commsource/studio/MagnifyComponent;->O:Z
 
-    .line 18
     :cond_4
     :goto_0
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -623,7 +585,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent;->P:Lcom/commsource/studio/component/d;
 
     if-nez v1, :cond_0
@@ -645,7 +606,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/MagnifyComponent;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -660,7 +620,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/MagnifyComponent;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -675,7 +634,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/MagnifyComponent;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -692,7 +650,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent;->N:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -709,7 +666,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent;->J:Lcom/commsource/studio/MagnifyComponent$MagnifyDecorateView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -726,7 +682,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent;->p:Lcom/commsource/studio/MagnifyGLView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -743,7 +698,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent;->L:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -796,14 +750,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/MagnifyComponent$b;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/commsource/studio/MagnifyComponent$b;-><init>(Lcom/commsource/studio/MagnifyComponent;Landroid/opengl/EGLContext;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -816,7 +768,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/MagnifyComponent;->M:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -831,7 +782,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/MagnifyComponent;->O:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -862,10 +812,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/component/ComponentView;->p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 2
     const-class p1, Lcom/commsource/studio/component/d;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/ComponentView;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -874,17 +822,14 @@
 
     check-cast p1, Lcom/commsource/studio/component/d;
 
-    .line 3
     new-instance p2, Lcom/commsource/studio/MagnifyComponent$c;
 
     invoke-direct {p2, p1, p0}, Lcom/commsource/studio/MagnifyComponent$c;-><init>(Lcom/commsource/studio/component/d;Lcom/commsource/studio/MagnifyComponent;)V
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/component/d;->y(Lcom/commsource/studio/layer/c$a;)V
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/studio/MagnifyComponent;->P:Lcom/commsource/studio/component/d;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -905,7 +850,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MagnifyComponent;->P:Lcom/commsource/studio/component/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -924,7 +868,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MagnifyComponent;->N:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -943,7 +886,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MagnifyComponent;->p:Lcom/commsource/studio/MagnifyGLView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -958,7 +900,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/MagnifyComponent;->M:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -973,7 +914,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/MagnifyComponent;->O:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

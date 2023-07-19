@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ua;Lcom/google/android/gms/internal/ads/w9;Ljava/lang/Object;Lcom/google/android/gms/internal/ads/lq;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/xa;->d:Lcom/google/android/gms/internal/ads/ua;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/xa;->a:Lcom/google/android/gms/internal/ads/w9;
@@ -50,10 +49,8 @@
 .method public final synthetic a(Ljava/lang/Object;)V
     .locals 4
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/ia;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xa;->d:Lcom/google/android/gms/internal/ads/ua;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/xa;->a:Lcom/google/android/gms/internal/ads/w9;

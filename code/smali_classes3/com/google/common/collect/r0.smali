@@ -33,7 +33,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/d0;-><init>()V
 
     return-void
@@ -52,7 +51,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->delegate()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -67,7 +65,6 @@
 .method public count(Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->delegate()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -92,7 +89,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->delegate()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -103,7 +99,6 @@
 .method protected bridge synthetic delegate()Ljava/util/Collection;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->delegate()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -121,7 +116,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->delegate()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -144,7 +138,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->delegate()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -165,7 +158,6 @@
 
     if-eq p1, p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->delegate()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -194,7 +186,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->delegate()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -211,7 +202,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->delegate()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -234,7 +224,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->delegate()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -257,7 +246,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->delegate()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -279,7 +267,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/common/collect/r0;->add(Ljava/lang/Object;I)I
 
     return v0
@@ -298,7 +285,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Multisets;->c(Lcom/google/common/collect/m1;Ljava/util/Collection;)Z
 
     move-result p1
@@ -309,7 +295,6 @@
 .method protected standardClear()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -330,7 +315,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/r0;->count(Ljava/lang/Object;)I
 
     move-result p1
@@ -357,7 +341,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -379,7 +362,6 @@
 
     check-cast v1, Lcom/google/common/collect/m1$a;
 
-    .line 2
     invoke-interface {v1}, Lcom/google/common/collect/m1$a;->getElement()Ljava/lang/Object;
 
     move-result-object v2
@@ -390,7 +372,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-interface {v1}, Lcom/google/common/collect/m1$a;->getCount()I
 
     move-result p1
@@ -410,7 +391,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Multisets;->i(Lcom/google/common/collect/m1;Ljava/lang/Object;)Z
 
     move-result p1
@@ -421,7 +401,6 @@
 .method protected standardHashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -443,7 +422,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/collect/Multisets;->n(Lcom/google/common/collect/m1;)Ljava/util/Iterator;
 
     move-result-object v0
@@ -456,7 +434,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/common/collect/r0;->remove(Ljava/lang/Object;I)I
 
     move-result p1
@@ -482,7 +459,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Multisets;->p(Lcom/google/common/collect/m1;Ljava/util/Collection;)Z
 
     move-result p1
@@ -500,7 +476,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Multisets;->s(Lcom/google/common/collect/m1;Ljava/util/Collection;)Z
 
     move-result p1
@@ -516,7 +491,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/common/collect/Multisets;->v(Lcom/google/common/collect/m1;Ljava/lang/Object;I)I
 
     move-result p1
@@ -532,7 +506,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {p0, p1, p2, p3}, Lcom/google/common/collect/Multisets;->w(Lcom/google/common/collect/m1;Ljava/lang/Object;II)Z
 
     move-result p1
@@ -543,7 +516,6 @@
 .method protected standardSize()I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/collect/Multisets;->o(Lcom/google/common/collect/m1;)I
 
     move-result v0
@@ -554,7 +526,6 @@
 .method protected standardToString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/r0;->entrySet()Ljava/util/Set;
 
     move-result-object v0

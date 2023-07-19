@@ -34,17 +34,14 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/camera/q/a;-><init>()V
 
     const/4 v0, 0x2
 
     new-array v0, v0, [I
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/helpcapture/j0;->L:[I
 
-    .line 3
     new-instance v0, Lcom/commsource/helpcapture/j0$a;
 
     const-string v1, "Help-Selfie-init-Model"
@@ -63,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/helpcapture/j0;->K:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -78,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/helpcapture/j0;->K:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -93,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/helpcapture/j0;->L:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -108,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/helpcapture/j0;->u1(Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$MTAnchorArray;F)Ljava/util/List;
 
     move-result-object p0
@@ -125,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/helpcapture/j0;->g:Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -152,7 +144,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget v1, p1, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$MTAnchorArray;->size:I
 
     if-ltz v1, :cond_1
@@ -161,23 +152,19 @@
 
     const-string v2, "=======================\u951a\u70b9\u4fe1\u606f start========================"
 
-    .line 2
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v3, 0x0
 
-    .line 4
     :goto_0
     iget v4, p1, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$MTAnchorArray;->size:I
 
     if-ge v3, v4, :cond_0
 
-    .line 5
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -206,7 +193,6 @@
 
     invoke-static {v1, v4}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -233,7 +219,6 @@
 
     invoke-static {v1, v4}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -260,7 +245,6 @@
 
     invoke-static {v1, v4}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     new-instance v4, Landroid/graphics/PointF;
 
     iget-object v5, p1, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$MTAnchorArray;->anchor_point:[Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$MTAnchorArray$MTAnchorPoint;
@@ -279,10 +263,8 @@
 
     invoke-direct {v4, v6, v5}, Landroid/graphics/PointF;-><init>(FF)V
 
-    .line 9
     invoke-interface {v2, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 10
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -316,10 +298,8 @@
     :cond_0
     const-string p1, "=======================\u951a\u70b9\u4fe1\u606fend========================"
 
-    .line 11
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -327,7 +307,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -340,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/helpcapture/j0;->g:Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -357,10 +335,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/helpcapture/j0;->J:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -373,7 +349,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "ProviderKey_AnchorManager"
@@ -388,7 +363,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -416,7 +390,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v3, v0, Lcom/commsource/helpcapture/j0;->L:[I
 
     const/4 v4, 0x0
@@ -431,7 +404,6 @@
 
     if-nez v5, :cond_1
 
-    .line 2
     :cond_0
     iget-object v5, v1, Lcom/meitu/library/renderarch/arch/data/b/c;->b:Lcom/meitu/library/renderarch/arch/data/b/f;
 
@@ -439,7 +411,6 @@
 
     aput v7, v3, v4
 
-    .line 3
     iget v5, v5, Lcom/meitu/library/renderarch/arch/data/b/f;->c:I
 
     aput v5, v3, v6
@@ -447,7 +418,6 @@
     :cond_1
     if-eqz v1, :cond_5
 
-    .line 4
     iget-object v3, v1, Lcom/meitu/library/renderarch/arch/data/b/c;->b:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     if-eqz v3, :cond_5
@@ -456,18 +426,14 @@
 
     if-eqz v5, :cond_5
 
-    .line 5
     iget-boolean v7, v0, Lcom/commsource/helpcapture/j0;->J:Z
 
     if-eqz v7, :cond_5
 
-    .line 6
     iget v10, v3, Lcom/meitu/library/renderarch/arch/data/b/f;->b:I
 
-    .line 7
     iget v11, v3, Lcom/meitu/library/renderarch/arch/data/b/f;->c:I
 
-    .line 8
     invoke-virtual {v5}, Ljava/nio/ByteBuffer;->capacity()I
 
     move-result v3
@@ -476,38 +442,32 @@
 
     move-result-object v3
 
-    .line 9
     iget-object v5, v1, Lcom/meitu/library/renderarch/arch/data/b/c;->b:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     iget-object v5, v5, Lcom/meitu/library/renderarch/arch/data/b/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v5}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
-    .line 10
     iget-object v5, v1, Lcom/meitu/library/renderarch/arch/data/b/c;->b:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     iget-object v5, v5, Lcom/meitu/library/renderarch/arch/data/b/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v3, v5}, Ljava/nio/ByteBuffer;->put(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
-    .line 11
     iget-object v5, v1, Lcom/meitu/library/renderarch/arch/data/b/c;->b:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     iget-object v5, v5, Lcom/meitu/library/renderarch/arch/data/b/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v5}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
-    .line 12
     invoke-virtual {v3}, Ljava/nio/ByteBuffer;->flip()Ljava/nio/Buffer;
 
-    .line 13
     invoke-virtual {v3}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v5
 
     new-array v5, v5, [B
 
-    .line 14
     invoke-virtual {v3, v5}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
 
     mul-int v3, v10, v11
@@ -516,23 +476,18 @@
 
     mul-int/lit8 v3, v3, 0x4
 
-    .line 15
     new-array v9, v3, [B
 
-    .line 16
     aput-byte v4, v9, v4
 
-    .line 17
     aput-byte v4, v9, v6
 
     const/4 v3, 0x2
 
-    .line 18
     aput-byte v4, v9, v3
 
     const/4 v8, 0x3
 
-    .line 19
     aput-byte v4, v9, v8
 
     const/4 v12, 0x0
@@ -540,7 +495,6 @@
     :goto_0
     if-ge v12, v11, :cond_4
 
-    .line 20
     iget-object v13, v1, Lcom/meitu/library/renderarch/arch/data/b/c;->b:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     iget v13, v13, Lcom/meitu/library/renderarch/arch/data/b/f;->d:I
@@ -563,7 +517,6 @@
 
     add-int v16, v15, v13
 
-    .line 21
     aget-byte v16, v5, v16
 
     aput-byte v16, v9, v7
@@ -574,7 +527,6 @@
 
     add-int v16, v16, v13
 
-    .line 22
     aget-byte v16, v5, v16
 
     aput-byte v16, v9, v7
@@ -585,7 +537,6 @@
 
     add-int/2addr v15, v13
 
-    .line 23
     aget-byte v15, v5, v15
 
     aput-byte v15, v9, v7
@@ -594,7 +545,6 @@
 
     const/4 v15, -0x1
 
-    .line 24
     aput-byte v15, v9, v7
 
     add-int/2addr v7, v6
@@ -609,7 +559,6 @@
 
     goto :goto_0
 
-    .line 25
     :cond_4
     iget-object v8, v0, Lcom/commsource/helpcapture/j0;->g:Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;
 
@@ -617,33 +566,28 @@
 
     const/4 v13, 0x1
 
-    .line 26
     invoke-virtual/range {v8 .. v13}, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;->DetectMatch([BIIII)Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$MTAnchorMatchingResult;
 
     move-result-object v1
 
     if-eqz v1, :cond_5
 
-    .line 27
     iget-object v3, v1, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$MTAnchorMatchingResult;->match_array:[Z
 
     if-eqz v3, :cond_5
 
     array-length v3, v3
 
-    .line 28
     invoke-static {}, Lcom/commsource/helpcapture/k0;->K()I
 
     move-result v4
 
     if-ne v3, v4, :cond_5
 
-    .line 29
     iget-object v3, v0, Lcom/commsource/helpcapture/j0;->p:Lcom/commsource/helpcapture/j0$d;
 
     if-eqz v3, :cond_5
 
-    .line 30
     iget-object v1, v1, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$MTAnchorMatchingResult;->match_array:[Z
 
     invoke-interface {v3, v1}, Lcom/commsource/helpcapture/j0$d;->a([Z)V
@@ -651,7 +595,6 @@
     :cond_5
     const/4 v1, 0x0
 
-    .line 31
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -668,7 +611,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -681,7 +623,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -696,7 +637,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x2
@@ -711,7 +651,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "AnchorManager"
@@ -726,7 +665,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -741,7 +679,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/helpcapture/j0$b;
 
     const-string v2, "detectAnchor"
@@ -750,7 +687,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -763,10 +699,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/helpcapture/j0;->p:Lcom/commsource/helpcapture/j0$d;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

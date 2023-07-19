@@ -49,15 +49,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "omid"
 
-    .line 2
     iput-object v0, p0, Lcom/mopub/common/ViewabilityVendor$Builder;->apiFramework:Ljava/lang/String;
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/common/ViewabilityVendor$Builder;->javascriptResourceUrl:Ljava/lang/String;
 
     return-void
@@ -66,7 +63,6 @@
 .method static synthetic access$000(Lcom/mopub/common/ViewabilityVendor$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/ViewabilityVendor$Builder;->apiFramework:Ljava/lang/String;
 
     return-object p0
@@ -75,7 +71,6 @@
 .method static synthetic access$100(Lcom/mopub/common/ViewabilityVendor$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/ViewabilityVendor$Builder;->javascriptResourceUrl:Ljava/lang/String;
 
     return-object p0
@@ -84,7 +79,6 @@
 .method static synthetic access$200(Lcom/mopub/common/ViewabilityVendor$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/ViewabilityVendor$Builder;->vendorKey:Ljava/lang/String;
 
     return-object p0
@@ -93,7 +87,6 @@
 .method static synthetic access$300(Lcom/mopub/common/ViewabilityVendor$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/ViewabilityVendor$Builder;->verificationParameters:Ljava/lang/String;
 
     return-object p0
@@ -102,7 +95,6 @@
 .method static synthetic access$400(Lcom/mopub/common/ViewabilityVendor$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/ViewabilityVendor$Builder;->verificationNotExecuted:Ljava/lang/String;
 
     return-object p0
@@ -117,7 +109,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     new-instance v1, Lcom/mopub/common/ViewabilityVendor;
 
@@ -130,7 +121,6 @@
     :catch_0
     move-exception v1
 
-    .line 2
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v3, 0x1
@@ -173,7 +163,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/ViewabilityVendor$Builder;->apiFramework:Ljava/lang/String;
 
     return-object p0
@@ -188,7 +177,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/ViewabilityVendor$Builder;->vendorKey:Ljava/lang/String;
 
     return-object p0
@@ -203,7 +191,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/ViewabilityVendor$Builder;->verificationNotExecuted:Ljava/lang/String;
 
     return-object p0
@@ -218,7 +205,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/ViewabilityVendor$Builder;->verificationParameters:Ljava/lang/String;
 
     return-object p0

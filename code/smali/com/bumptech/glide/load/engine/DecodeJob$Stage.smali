@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 13
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
     const-string v1, "INITIALIZE"
@@ -53,7 +52,6 @@
 
     sput-object v0, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;->INITIALIZE:Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
-    .line 2
     new-instance v1, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
     const-string v3, "RESOURCE_CACHE"
@@ -64,7 +62,6 @@
 
     sput-object v1, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;->RESOURCE_CACHE:Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
-    .line 3
     new-instance v3, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
     const-string v5, "DATA_CACHE"
@@ -75,7 +72,6 @@
 
     sput-object v3, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;->DATA_CACHE:Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
-    .line 4
     new-instance v5, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
     const-string v7, "SOURCE"
@@ -86,7 +82,6 @@
 
     sput-object v5, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;->SOURCE:Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
-    .line 5
     new-instance v7, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
     const-string v9, "ENCODE"
@@ -97,7 +92,6 @@
 
     sput-object v7, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;->ENCODE:Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
-    .line 6
     new-instance v9, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
     const-string v11, "FINISHED"
@@ -124,7 +118,6 @@
 
     aput-object v9, v11, v12
 
-    .line 7
     sput-object v11, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;->$VALUES:[Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
     return-void
@@ -138,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -147,7 +139,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -162,7 +153,6 @@
 .method public static values()[Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/engine/DecodeJob$Stage;->$VALUES:[Lcom/bumptech/glide/load/engine/DecodeJob$Stage;
 
     invoke-virtual {v0}, [Lcom/bumptech/glide/load/engine/DecodeJob$Stage;->clone()Ljava/lang/Object;

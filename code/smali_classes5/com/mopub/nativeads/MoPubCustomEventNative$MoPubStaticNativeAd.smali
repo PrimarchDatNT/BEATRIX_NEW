@@ -96,29 +96,22 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/mopub/nativeads/StaticNativeAd;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mJsonObject:Lorg/json/JSONObject;
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mContext:Landroid/content/Context;
 
-    .line 4
     iput-object p3, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mImpressionTracker:Lcom/mopub/nativeads/ImpressionTracker;
 
-    .line 5
     iput-object p4, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mNativeClickHandler:Lcom/mopub/nativeads/NativeClickHandler;
 
-    .line 6
     iput-object p5, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mCustomEventNativeListener:Lcom/mopub/nativeads/CustomEventNative$CustomEventNativeListener;
 
-    .line 7
     new-instance p1, Ljava/util/HashSet;
 
     invoke-direct {p1}, Ljava/util/HashSet;-><init>()V
@@ -131,7 +124,6 @@
 .method static synthetic access$000(Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;Ljava/util/Set;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->setViewabilityVendors(Ljava/util/Set;)V
 
     return-void
@@ -140,7 +132,6 @@
 .method static synthetic access$100(Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;)Lcom/mopub/nativeads/CustomEventNative$CustomEventNativeListener;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mCustomEventNativeListener:Lcom/mopub/nativeads/CustomEventNative$CustomEventNativeListener;
 
     return-object p0
@@ -168,7 +159,6 @@
 
     const/4 v2, 0x2
 
-    .line 1
     :try_start_0
     sget-object v3, Lcom/mopub/nativeads/MoPubCustomEventNative$1;->$SwitchMap$com$mopub$nativeads$MoPubCustomEventNative$MoPubStaticNativeAd$Parameter:[I
 
@@ -182,7 +172,6 @@
 
     goto :goto_0
 
-    .line 2
     :pswitch_0
     check-cast p2, Ljava/lang/String;
 
@@ -190,7 +179,6 @@
 
     goto :goto_0
 
-    .line 3
     :pswitch_1
     check-cast p2, Ljava/lang/String;
 
@@ -198,7 +186,6 @@
 
     goto/16 :goto_1
 
-    .line 4
     :pswitch_2
     check-cast p2, Ljava/lang/String;
 
@@ -206,7 +193,6 @@
 
     goto/16 :goto_1
 
-    .line 5
     :pswitch_3
     invoke-static {p2}, Lcom/mopub/common/util/Numbers;->parseDouble(Ljava/lang/Object;)Ljava/lang/Double;
 
@@ -216,7 +202,6 @@
 
     goto/16 :goto_1
 
-    .line 6
     :pswitch_4
     check-cast p2, Ljava/lang/String;
 
@@ -224,7 +209,6 @@
 
     goto/16 :goto_1
 
-    .line 7
     :pswitch_5
     check-cast p2, Ljava/lang/String;
 
@@ -232,7 +216,6 @@
 
     goto :goto_1
 
-    .line 8
     :pswitch_6
     check-cast p2, Ljava/lang/String;
 
@@ -240,13 +223,11 @@
 
     goto :goto_1
 
-    .line 9
     :pswitch_7
     invoke-direct {p0, p2}, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->parseClickTrackers(Ljava/lang/Object;)V
 
     goto :goto_1
 
-    .line 10
     :pswitch_8
     check-cast p2, Ljava/lang/String;
 
@@ -254,13 +235,11 @@
 
     goto :goto_1
 
-    .line 11
     :pswitch_9
     invoke-virtual {p0, p2}, Lcom/mopub/nativeads/BaseNativeAd;->addImpressionTrackers(Ljava/lang/Object;)V
 
     goto :goto_1
 
-    .line 12
     :pswitch_a
     check-cast p2, Ljava/lang/String;
 
@@ -268,7 +247,6 @@
 
     goto :goto_1
 
-    .line 13
     :pswitch_b
     check-cast p2, Ljava/lang/String;
 
@@ -276,7 +254,6 @@
 
     goto :goto_1
 
-    .line 14
     :goto_0
     sget-object p2, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
@@ -313,12 +290,10 @@
     :catch_0
     move-exception p2
 
-    .line 15
     iget-boolean v3, p1, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd$Parameter;->required:Z
 
     if-nez v3, :cond_0
 
-    .line 16
     sget-object p2, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     new-array v2, v2, [Ljava/lang/Object;
@@ -350,7 +325,6 @@
     :goto_1
     return-void
 
-    .line 17
     :cond_0
     throw p2
 
@@ -380,17 +354,14 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object p1
 
-    .line 3
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -398,7 +369,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -407,7 +377,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object p1, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd$Parameter;->requiredKeys:Ljava/util/Set;
 
@@ -427,7 +396,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
@@ -460,17 +428,14 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lorg/json/JSONArray;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/mopub/nativeads/BaseNativeAd;->addClickTrackers(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     check-cast p1, Ljava/lang/String;
 
@@ -495,7 +460,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->viewabilityVendorsSet:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
@@ -512,12 +476,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mImpressionTracker:Lcom/mopub/nativeads/ImpressionTracker;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/ImpressionTracker;->removeView(Landroid/view/View;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mNativeClickHandler:Lcom/mopub/nativeads/NativeClickHandler;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/NativeClickHandler;->clearOnClickListener(Landroid/view/View;)V
@@ -528,17 +490,14 @@
 .method public destroy()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mImpressionTracker:Lcom/mopub/nativeads/ImpressionTracker;
 
     invoke-virtual {v0}, Lcom/mopub/nativeads/ImpressionTracker;->destroy()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->viewabilitySessionManager:Lcom/mopub/common/ExternalViewabilitySessionManager;
 
     if-eqz v0, :cond_0
 
-    .line 3
     new-instance v1, Landroid/view/View;
 
     iget-object v2, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mContext:Landroid/content/Context;
@@ -547,17 +506,14 @@
 
     invoke-virtual {v0, v1}, Lcom/mopub/common/ExternalViewabilitySessionManager;->registerTrackedView(Landroid/view/View;)V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->viewabilitySessionManager:Lcom/mopub/common/ExternalViewabilitySessionManager;
 
     invoke-virtual {v0}, Lcom/mopub/common/ExternalViewabilitySessionManager;->endSession()V
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->viewabilitySessionManager:Lcom/mopub/common/ExternalViewabilitySessionManager;
 
-    .line 6
     :cond_0
     invoke-super {p0}, Lcom/mopub/nativeads/StaticNativeAd;->destroy()V
 
@@ -578,12 +534,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/nativeads/StaticNativeAd;->getMainImageUrl()Ljava/lang/String;
 
     move-result-object v1
@@ -594,14 +548,12 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/mopub/nativeads/StaticNativeAd;->getMainImageUrl()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/mopub/nativeads/StaticNativeAd;->getIconImageUrl()Ljava/lang/String;
 
@@ -613,14 +565,12 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/mopub/nativeads/StaticNativeAd;->getIconImageUrl()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcom/mopub/nativeads/StaticNativeAd;->getPrivacyInformationIconImageUrl()Ljava/lang/String;
 
@@ -632,14 +582,12 @@
 
     if-nez v1, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Lcom/mopub/nativeads/StaticNativeAd;->getPrivacyInformationIconImageUrl()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     :cond_2
     invoke-virtual {p0}, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->getExtrasImageUrls()Ljava/util/List;
 
@@ -664,7 +612,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-virtual {p0}, Lcom/mopub/nativeads/StaticNativeAd;->getExtras()Ljava/util/Map;
@@ -677,7 +624,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/nativeads/StaticNativeAd;->getExtras()Ljava/util/Map;
 
     move-result-object v1
@@ -704,7 +650,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
@@ -725,7 +670,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -747,7 +691,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->CLICKED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const/4 v1, 0x1
@@ -762,10 +705,8 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/nativeads/BaseNativeAd;->notifyAdClicked()V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mNativeClickHandler:Lcom/mopub/nativeads/NativeClickHandler;
 
     invoke-virtual {p0}, Lcom/mopub/nativeads/StaticNativeAd;->getClickDestinationUrl()Ljava/lang/String;
@@ -785,7 +726,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mJsonObject:Lorg/json/JSONObject;
 
     invoke-direct {p0, v0}, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->containsRequiredKeys(Lorg/json/JSONObject;)Z
@@ -794,14 +734,12 @@
 
     if-eqz v0, :cond_3
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mJsonObject:Lorg/json/JSONObject;
 
     invoke-virtual {v0}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 3
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -809,21 +747,18 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/String;
 
-    .line 5
     invoke-static {v1}, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd$Parameter;->from(Ljava/lang/String;)Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd$Parameter;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 6
     :try_start_0
     iget-object v3, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mJsonObject:Lorg/json/JSONObject;
 
@@ -837,7 +772,6 @@
 
     goto :goto_0
 
-    .line 7
     :catch_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -863,7 +797,6 @@
 
     throw v0
 
-    .line 8
     :cond_0
     iget-object v2, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mJsonObject:Lorg/json/JSONObject;
 
@@ -875,7 +808,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-virtual {p0}, Lcom/mopub/nativeads/StaticNativeAd;->getPrivacyInformationIconClickThroughUrl()Ljava/lang/String;
 
@@ -889,10 +821,8 @@
 
     const-string v0, "https://www.mopub.com/optout"
 
-    .line 10
     invoke-virtual {p0, v0}, Lcom/mopub/nativeads/StaticNativeAd;->setPrivacyInformationIconClickThroughUrl(Ljava/lang/String;)V
 
-    .line 11
     :cond_2
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mContext:Landroid/content/Context;
 
@@ -908,7 +838,6 @@
 
     return-void
 
-    .line 12
     :cond_3
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -926,41 +855,34 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mImpressionTracker:Lcom/mopub/nativeads/ImpressionTracker;
 
     invoke-virtual {v0, p1, p0}, Lcom/mopub/nativeads/ImpressionTracker;->addView(Landroid/view/View;Lcom/mopub/nativeads/ImpressionInterface;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->mNativeClickHandler:Lcom/mopub/nativeads/NativeClickHandler;
 
     invoke-virtual {v0, p1, p0}, Lcom/mopub/nativeads/NativeClickHandler;->setOnClickListener(Landroid/view/View;Lcom/mopub/nativeads/ClickInterface;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->viewabilitySessionManager:Lcom/mopub/common/ExternalViewabilitySessionManager;
 
     if-nez v0, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/mopub/common/ExternalViewabilitySessionManager;->create()Lcom/mopub/common/ExternalViewabilitySessionManager;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->viewabilitySessionManager:Lcom/mopub/common/ExternalViewabilitySessionManager;
 
-    .line 5
     iget-object v1, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->viewabilityVendorsSet:Ljava/util/Set;
 
     invoke-virtual {v0, p1, v1}, Lcom/mopub/common/ExternalViewabilitySessionManager;->createNativeSession(Landroid/view/View;Ljava/util/Set;)V
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->viewabilitySessionManager:Lcom/mopub/common/ExternalViewabilitySessionManager;
 
     invoke-virtual {p1}, Lcom/mopub/common/ExternalViewabilitySessionManager;->startSession()V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-virtual {v0, p1}, Lcom/mopub/common/ExternalViewabilitySessionManager;->registerTrackedView(Landroid/view/View;)V
 
@@ -975,15 +897,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/nativeads/BaseNativeAd;->notifyAdImpressed()V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->viewabilitySessionManager:Lcom/mopub/common/ExternalViewabilitySessionManager;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/common/ExternalViewabilitySessionManager;->trackImpression()V
 
     :cond_0

@@ -28,13 +28,10 @@
 .method public constructor <init>(Ljava/util/concurrent/Executor;Lcom/google/android/gms/internal/ads/ws0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/r41;->a:Ljava/util/concurrent/Executor;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/r41;->b:Lcom/google/android/gms/internal/ads/ws0;
 
     return-void
@@ -50,17 +47,14 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/zzasm;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/r41;->b:Lcom/google/android/gms/internal/ads/ws0;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/ws0;->b(Lcom/google/android/gms/internal/ads/zzasm;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Lcom/google/android/gms/internal/ads/q41;
 
     invoke-direct {v1, p1}, Lcom/google/android/gms/internal/ads/q41;-><init>(Lcom/google/android/gms/internal/ads/zzasm;)V

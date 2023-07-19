@@ -33,7 +33,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/ImageStudioActivity$d;->b:Ljava/lang/String;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -56,14 +55,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$d;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -88,7 +85,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/sharelink/d;->h()Ljava/lang/String;
 
     move-result-object p1
@@ -108,7 +104,6 @@
     :sswitch_0
     const-string v2, "BEAUTY_EDITOR"
 
-    .line 4
     invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -117,10 +112,8 @@
 
     const-string p1, "\u7ee7\u7eed\u4fee\u56fe"
 
-    .line 5
     invoke-interface {v1, v4, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     sget-object p1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {p1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -129,14 +122,12 @@
 
     invoke-virtual {p1, v3}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->s(Z)V
 
-    .line 7
     sget-object p1, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->a:Lcom/commsource/mypage/album/BpAlbumJumpRouter;
 
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$d;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1, v2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->q(Landroid/app/Activity;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$d;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
@@ -146,7 +137,6 @@
     :sswitch_1
     const-string v2, "TAKE_PHOTO"
 
-    .line 9
     invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -155,10 +145,8 @@
 
     const-string p1, "\u7ee7\u7eed\u62cd\u7167"
 
-    .line 10
     invoke-interface {v1, v4, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$d;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -173,25 +161,21 @@
 
     if-ne p1, v2, :cond_1
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$d;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-static {p1}, Lcom/commsource/util/w0;->a(Landroid/app/Activity;)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$d;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
     goto :goto_1
 
-    .line 14
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$d;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$d;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -205,7 +189,6 @@
     :sswitch_2
     const-string v2, "SHARE"
 
-    .line 16
     invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -214,7 +197,6 @@
 
     const-string p1, "\u5206\u4eab"
 
-    .line 17
     invoke-interface {v1, v4, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
@@ -222,7 +204,6 @@
     :sswitch_3
     const-string v2, "AD"
 
-    .line 18
     invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -231,7 +212,6 @@
 
     const-string p1, "Surprise"
 
-    .line 19
     invoke-interface {v1, v4, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
@@ -239,7 +219,6 @@
     :sswitch_4
     const-string v2, "PUZZLE_IMAGE"
 
-    .line 20
     invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -248,10 +227,8 @@
 
     const-string p1, "\u62fc\u56fe"
 
-    .line 21
     invoke-interface {v1, v4, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 22
     sget-object p1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {p1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -260,7 +237,6 @@
 
     invoke-virtual {p1, v3}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->s(Z)V
 
-    .line 23
     sget-object p1, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->a:Lcom/commsource/mypage/album/BpAlbumJumpRouter;
 
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$d;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -271,7 +247,6 @@
 
     invoke-static {p1, v2, v4, v3, v4}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->v(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/beautyplus/router/RouterEntity;ILjava/lang/Object;)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$d;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
@@ -280,10 +255,8 @@
     :goto_1
     const-string p1, "beautifysave_page_clk"
 
-    .line 25
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 26
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

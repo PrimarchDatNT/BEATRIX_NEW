@@ -60,7 +60,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/xl;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/xl;-><init>()V
@@ -95,19 +94,14 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzawx;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/zzawx;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/zzawx;->c:Lcom/google/android/gms/internal/ads/zzvh;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/zzawx;->d:Lcom/google/android/gms/internal/ads/zzve;
 
     return-void
@@ -118,12 +112,10 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzawx;->a:Ljava/lang/String;
 
     const/4 v2, 0x1
@@ -132,28 +124,24 @@
 
     invoke-static {p1, v2, v1, v3}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzawx;->b:Ljava/lang/String;
 
     const/4 v2, 0x2
 
     invoke-static {p1, v2, v1, v3}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzawx;->c:Lcom/google/android/gms/internal/ads/zzvh;
 
     const/4 v2, 0x3
 
     invoke-static {p1, v2, v1, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/a;->S(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzawx;->d:Lcom/google/android/gms/internal/ads/zzve;
 
     const/4 v2, 0x4
 
     invoke-static {p1, v2, v1, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/a;->S(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
-    .line 6
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void

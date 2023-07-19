@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/RelightManualFragment$c$a;->a:Lcom/commsource/studio/function/relight/RelightManualFragment$c;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -53,17 +52,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/relight/RelightManualFragment$c$a;->a:Lcom/commsource/studio/function/relight/RelightManualFragment$c;
 
     iget-object p1, p1, Lcom/commsource/studio/function/relight/RelightManualFragment$c;->b:Lcotlin/jvm/u/a;
 
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -15,7 +15,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getState()[I
 
@@ -52,7 +50,6 @@
 
     move-result p0
 
-    .line 2
     new-instance p1, Landroid/graphics/PorterDuffColorFilter;
 
     invoke-direct {p1, p0, p2}, Landroid/graphics/PorterDuffColorFilter;-><init>(ILandroid/graphics/PorterDuff$Mode;)V

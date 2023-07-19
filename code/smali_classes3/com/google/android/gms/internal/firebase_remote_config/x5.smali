@@ -13,7 +13,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/x5;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_remote_config/x5;-><init>()V
@@ -26,7 +25,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +33,6 @@
 .method public static c()Lcom/google/android/gms/internal/firebase_remote_config/x5;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/x5;->a:Lcom/google/android/gms/internal/firebase_remote_config/x5;
 
     return-object v0
@@ -53,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/firebase_remote_config/z5;
 
     invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
@@ -74,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/firebase_remote_config/z5;
 
     invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
@@ -83,7 +78,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     const-string v1, "Unsupported message type: "
@@ -118,29 +112,24 @@
 
     throw v0
 
-    .line 3
     :cond_1
     :try_start_0
     invoke-virtual {p1, v0}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
 
     move-result-object v0
 
-    .line 4
     invoke-static {v0}, Lcom/google/android/gms/internal/firebase_remote_config/z5;->s(Ljava/lang/Class;)Lcom/google/android/gms/internal/firebase_remote_config/z5;
 
     move-result-object v0
 
-    .line 5
     sget v1, Lcom/google/android/gms/internal/firebase_remote_config/z5$d;->c:I
 
     const/4 v2, 0x0
 
-    .line 6
     invoke-virtual {v0, v1, v2, v2}, Lcom/google/android/gms/internal/firebase_remote_config/z5;->p(ILjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 7
     check-cast v0, Lcom/google/android/gms/internal/firebase_remote_config/z6;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -150,7 +139,6 @@
     :catch_0
     move-exception v0
 
-    .line 8
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "Unable to get message info for "

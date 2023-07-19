@@ -32,12 +32,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/airbnb/lottie/i$b;->c:Z
 
     return-void
@@ -50,7 +48,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/i;
 
     iget-object v1, p0, Lcom/airbnb/lottie/i$b;->a:Lcom/airbnb/lottie/network/e;
@@ -71,7 +68,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/airbnb/lottie/i$b;->c:Z
 
     return-object p0
@@ -86,12 +82,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/i$b;->b:Lcom/airbnb/lottie/network/d;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/airbnb/lottie/i$b$a;
 
     invoke-direct {v0, p0, p1}, Lcom/airbnb/lottie/i$b$a;-><init>(Lcom/airbnb/lottie/i$b;Ljava/io/File;)V
@@ -100,7 +94,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -120,12 +113,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/i$b;->b:Lcom/airbnb/lottie/network/d;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/airbnb/lottie/i$b$b;
 
     invoke-direct {v0, p0, p1}, Lcom/airbnb/lottie/i$b$b;-><init>(Lcom/airbnb/lottie/i$b;Lcom/airbnb/lottie/network/d;)V
@@ -134,7 +125,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -154,7 +144,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/i$b;->a:Lcom/airbnb/lottie/network/e;
 
     return-object p0

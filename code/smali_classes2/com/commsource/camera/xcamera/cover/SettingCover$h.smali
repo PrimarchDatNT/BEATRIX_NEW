@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$h;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -94,7 +93,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_2
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -112,7 +110,6 @@
 
     goto :goto_2
 
-    .line 3
     :cond_4
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -130,7 +127,6 @@
 
     goto :goto_4
 
-    .line 4
     :cond_6
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -138,7 +134,6 @@
 
     if-ne p1, v1, :cond_8
 
-    .line 5
     :goto_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$h;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -156,7 +151,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 6
     :cond_7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$h;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -176,7 +170,6 @@
 
     goto :goto_5
 
-    .line 7
     :cond_8
     :goto_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$h;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
@@ -195,7 +188,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 8
     :cond_9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$h;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -213,7 +205,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 9
     :cond_a
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -228,7 +219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/SettingCover$h;->a(Ljava/lang/Integer;)V

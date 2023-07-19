@@ -28,7 +28,6 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/i;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/icing/j$b;-><init>(Lcom/google/android/gms/common/api/i;)V
 
     return-void

@@ -19,7 +19,6 @@
 .method constructor <init>(Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/router/a;-><init>(Ljava/lang/Class;)V
 
     return-void
@@ -50,7 +49,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/widget/q0;->e(Landroid/content/Context;)Z
 
     move-result v1
@@ -79,18 +77,15 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/commsource/beautyplus/router/g$i$a;->a:Lcom/commsource/beautyplus/router/g$i$a;
 
     invoke-static {p1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_1
     invoke-super {p0, p1, p2}, Lcom/commsource/beautyplus/router/a;->a(Landroid/app/Activity;Lcom/commsource/beautyplus/router/RouterEntity;)Z
 

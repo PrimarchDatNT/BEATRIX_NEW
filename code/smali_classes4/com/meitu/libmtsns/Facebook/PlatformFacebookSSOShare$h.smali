@@ -43,12 +43,10 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/libmtsns/framwork/i/a$a;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/libmtsns/framwork/i/d$l;->a:Z
 
     return-void
@@ -57,7 +55,6 @@
 .method synthetic constructor <init>(Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;-><init>()V
 
     return-void
@@ -70,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;->k:Lcom/meitu/libmtsns/framwork/i/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -85,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;->k:Lcom/meitu/libmtsns/framwork/i/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -100,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;->h:Landroid/net/Uri;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -115,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;->h:Landroid/net/Uri;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -130,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;->i:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -145,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;->i:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -162,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 v0, 0x177c
@@ -177,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;->h:Landroid/net/Uri;
 
     invoke-static {v1}, Lcom/facebook/internal/Utility;->isFileUri(Landroid/net/Uri;)Z
@@ -218,7 +207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;->k()Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h$a;
 
     move-result-object v1
@@ -235,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h$a;
 
     invoke-direct {v1, p0}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h$a;-><init>(Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;)V

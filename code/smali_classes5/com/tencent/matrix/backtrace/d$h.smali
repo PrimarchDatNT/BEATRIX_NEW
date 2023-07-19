@@ -22,10 +22,8 @@
 .method constructor <init>(Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/tencent/matrix/backtrace/d$h;->a:Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;
 
     return-void
@@ -44,10 +42,8 @@
 
     const-string v3, "Warm-up received."
 
-    .line 1
     invoke-static {v2, v3, v1}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object p2
@@ -56,7 +52,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Ljava/lang/String;->hashCode()I
 
@@ -73,15 +68,12 @@
     :cond_1
     const/4 p2, 0x1
 
-    .line 4
     invoke-static {p2}, Lcom/tencent/matrix/backtrace/WeChatBacktraceNative;->setWarmedUp(Z)V
 
-    .line 5
     iget-object p2, p0, Lcom/tencent/matrix/backtrace/d$h;->a:Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;
 
     invoke-static {p2}, Lcom/tencent/matrix/backtrace/d;->h(Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;)V
 
-    .line 6
     :try_start_0
     invoke-virtual {p1, p0}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
     :try_end_0
@@ -96,7 +88,6 @@
 
     const-string v0, "Unregister receiver twice."
 
-    .line 7
     invoke-static {v2, p1, v0, p2}, Lcom/tencent/matrix/util/b;->e(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :goto_0

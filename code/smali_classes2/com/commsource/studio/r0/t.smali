@@ -26,10 +26,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/n;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -59,10 +57,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/t;->g:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -79,7 +75,6 @@
 
     check-cast v1, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 3
     invoke-virtual {v1, p1}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
     move-result p1
@@ -91,7 +86,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -104,10 +98,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/t;->g:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -125,12 +117,10 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/camera/newrender/renderproxy/n;->h()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -144,10 +134,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/t;->g:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -165,12 +153,10 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/camera/newrender/renderproxy/n;->i()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -186,10 +172,8 @@
 
     move-object v1, p0
 
-    .line 1
     iget-object v2, v1, Lcom/commsource/studio/r0/t;->g:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -229,7 +213,6 @@
 
     move/from16 v12, p7
 
-    .line 3
     invoke-virtual/range {v5 .. v12}, Lcom/commsource/camera/newrender/renderproxy/n;->j(IIIIIIZ)I
 
     move-result v3
@@ -251,14 +234,12 @@
 
     move/from16 v12, p7
 
-    .line 4
     invoke-virtual/range {v5 .. v12}, Lcom/commsource/camera/newrender/renderproxy/n;->j(IIIIIIZ)I
 
     move-result v3
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -276,10 +257,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/t;->g:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -297,12 +276,10 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 3
     invoke-virtual {v2, p1}, Lcom/commsource/camera/newrender/renderproxy/n;->k(Lcom/meitu/library/renderarch/arch/data/b/d;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -329,10 +306,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/t;->g:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -350,12 +325,10 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 3
     invoke-virtual {v2, p1, p2}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -380,7 +353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/t;->g:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

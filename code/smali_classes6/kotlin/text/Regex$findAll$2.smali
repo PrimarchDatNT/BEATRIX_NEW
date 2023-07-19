@@ -70,7 +70,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/text/k;
 
     invoke-virtual {p0, p1}, Lcotlin/text/Regex$findAll$2;->invoke(Lcotlin/text/k;)Lcotlin/text/k;
@@ -93,7 +92,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-interface {p1}, Lcotlin/text/k;->next()Lcotlin/text/k;
 
     move-result-object p1

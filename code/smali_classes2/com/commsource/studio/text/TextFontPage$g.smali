@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/text/TextFontMaterial;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/text/TextFontPage$g;->b(ILcom/commsource/studio/text/TextFontMaterial;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/text/TextFontPage$g;->a:Lcom/commsource/studio/text/TextFontPage;
 
     invoke-static {v0}, Lcom/commsource/studio/text/TextFontPage;->a(Lcom/commsource/studio/text/TextFontPage;)Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a;
@@ -94,7 +92,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/text/TextFontPage$g;->a:Lcom/commsource/studio/text/TextFontPage;
 
     invoke-static {v0}, Lcom/commsource/studio/text/TextFontPage;->b(Lcom/commsource/studio/text/TextFontPage;)Lcom/commsource/studio/text/TextViewModel;
@@ -107,7 +104,6 @@
 
     invoke-virtual {v0, p2}, Lcom/commsource/studio/text/TextViewModel;->y(Lcom/commsource/studio/text/TextFontMaterial;)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

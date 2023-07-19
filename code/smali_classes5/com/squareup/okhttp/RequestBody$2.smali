@@ -28,7 +28,6 @@
 .method constructor <init>(Lcom/squareup/okhttp/MediaType;I[BI)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/RequestBody$2;->val$contentType:Lcom/squareup/okhttp/MediaType;
 
     iput p2, p0, Lcom/squareup/okhttp/RequestBody$2;->val$byteCount:I
@@ -47,7 +46,6 @@
 .method public contentLength()J
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/RequestBody$2;->val$byteCount:I
 
     int-to-long v0, v0
@@ -58,7 +56,6 @@
 .method public contentType()Lcom/squareup/okhttp/MediaType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/RequestBody$2;->val$contentType:Lcom/squareup/okhttp/MediaType;
 
     return-object v0
@@ -72,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/RequestBody$2;->val$content:[B
 
     iget v1, p0, Lcom/squareup/okhttp/RequestBody$2;->val$offset:I

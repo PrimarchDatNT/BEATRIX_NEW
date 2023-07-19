@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/qiniu/android/http/a;Lcom/qiniu/android/http/a$j;Lf/n/a/c/j;Lcom/qiniu/android/http/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/qiniu/android/http/a$e;->d:Lcom/qiniu/android/http/a;
 
     iput-object p2, p0, Lcom/qiniu/android/http/a$e;->a:Lcom/qiniu/android/http/a$j;
@@ -54,15 +53,12 @@
 
     move-object/from16 v1, p2
 
-    .line 1
     invoke-virtual/range {p2 .. p2}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 2
     invoke-virtual/range {p2 .. p2}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     instance-of v3, v1, Lcom/qiniu/android/http/CancellationHandler$CancellationException;
 
     if-eqz v3, :cond_0
@@ -73,7 +69,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     instance-of v3, v1, Ljava/net/UnknownHostException;
 
@@ -90,7 +85,6 @@
 
     const-string v3, "Broken pipe"
 
-    .line 5
     invoke-virtual {v2, v3}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v2
@@ -103,7 +97,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     instance-of v2, v1, Ljava/net/SocketTimeoutException;
 
@@ -115,7 +108,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     instance-of v2, v1, Ljava/net/ConnectException;
 
@@ -132,7 +124,6 @@
 
     const/4 v4, -0x1
 
-    .line 8
     :goto_0
     invoke-interface/range {p1 .. p1}, Lokhttp3/Call;->request()Lokhttp3/Request;
 
@@ -144,12 +135,10 @@
 
     const/4 v3, 0x0
 
-    .line 9
     invoke-virtual {v2}, Lokhttp3/HttpUrl;->host()Ljava/lang/String;
 
     move-result-object v8
 
-    .line 10
     invoke-virtual {v2}, Lokhttp3/HttpUrl;->encodedPath()Ljava/lang/String;
 
     move-result-object v9
@@ -182,12 +171,10 @@
 
     move-object/from16 v17, v1
 
-    .line 11
     invoke-static/range {v3 .. v17}, Lcom/qiniu/android/http/g;->b(Lorg/json/JSONObject;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IDJLjava/lang/String;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object v1
 
-    .line 12
     iget-object v2, v0, Lcom/qiniu/android/http/a$e;->c:Lcom/qiniu/android/http/b;
 
     invoke-interface {v2, v1, v3}, Lcom/qiniu/android/http/b;->a(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)V
@@ -203,7 +190,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Lokhttp3/Response;->request()Lokhttp3/Request;
 
     move-result-object p1
@@ -214,7 +200,6 @@
 
     check-cast p1, Lcom/qiniu/android/http/a$j;
 
-    .line 2
     iget-object v1, p1, Lcom/qiniu/android/http/a$j;->a:Ljava/lang/String;
 
     iget-wide v2, p1, Lcom/qiniu/android/http/a$j;->b:J

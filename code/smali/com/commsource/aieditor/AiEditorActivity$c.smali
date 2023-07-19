@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorActivity$c;->a:Lcom/commsource/aieditor/AiEditorActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorActivity$c;->a:Lcom/commsource/aieditor/AiEditorActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorActivity;->L0(Lcom/commsource/aieditor/AiEditorActivity;)Lcom/commsource/beautyplus/f0/c;
@@ -69,7 +67,6 @@
 
     iput v2, v1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

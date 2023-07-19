@@ -34,7 +34,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
 .method public a()Lio/grpc/z0$b;
     .locals 10
 
-    .line 1
     new-instance v9, Lio/grpc/z0$b;
 
     iget-object v1, p0, Lio/grpc/z0$b$a;->a:Ljava/lang/Integer;
@@ -77,7 +75,6 @@
         value = "https://github.com/grpc/grpc-java/issues/6438"
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -92,7 +89,6 @@
 .method public c(I)Lio/grpc/z0$b$a;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -108,7 +104,6 @@
         value = "https://github.com/grpc/grpc-java/issues/6279"
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/z0$b$a;->g:Ljava/util/concurrent/Executor;
 
     return-object p0
@@ -117,7 +112,6 @@
 .method public e(Lio/grpc/h1;)Lio/grpc/z0$b$a;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -135,7 +129,6 @@
         value = "https://github.com/grpc/grpc-java/issues/6454"
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -150,7 +143,6 @@
 .method public g(Lio/grpc/z0$j;)Lio/grpc/z0$b$a;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -165,7 +157,6 @@
 .method public h(Lio/grpc/w1;)Lio/grpc/z0$b$a;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

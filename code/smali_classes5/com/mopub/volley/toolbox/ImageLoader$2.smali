@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/mopub/volley/toolbox/ImageLoader;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/toolbox/ImageLoader$2;->this$0:Lcom/mopub/volley/toolbox/ImageLoader;
 
     iput-object p2, p0, Lcom/mopub/volley/toolbox/ImageLoader$2;->val$cacheKey:Ljava/lang/String;
@@ -51,7 +50,6 @@
 .method public onResponse(Landroid/graphics/Bitmap;)V
     .locals 2
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/volley/toolbox/ImageLoader$2;->this$0:Lcom/mopub/volley/toolbox/ImageLoader;
 
     iget-object v1, p0, Lcom/mopub/volley/toolbox/ImageLoader$2;->val$cacheKey:Ljava/lang/String;
@@ -64,7 +62,6 @@
 .method public bridge synthetic onResponse(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1}, Lcom/mopub/volley/toolbox/ImageLoader$2;->onResponse(Landroid/graphics/Bitmap;)V

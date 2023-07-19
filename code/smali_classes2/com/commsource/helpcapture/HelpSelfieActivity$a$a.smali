@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/helpcapture/HelpSelfieActivity$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a$a;->a:Lcom/commsource/helpcapture/HelpSelfieActivity$a;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -39,7 +38,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a$a;->a:Lcom/commsource/helpcapture/HelpSelfieActivity$a;
 
     iget-object v0, v0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
@@ -56,7 +54,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a$a;->a:Lcom/commsource/helpcapture/HelpSelfieActivity$a;
 
     iget-object v0, v0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
@@ -71,7 +68,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setScaleX(F)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a$a;->a:Lcom/commsource/helpcapture/HelpSelfieActivity$a;
 
     iget-object v0, v0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
@@ -86,7 +82,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setScaleY(F)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a$a;->a:Lcom/commsource/helpcapture/HelpSelfieActivity$a;
 
     iget-object v0, v0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
@@ -103,7 +98,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a$a;->a:Lcom/commsource/helpcapture/HelpSelfieActivity$a;
 
     iget-object v0, v0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
@@ -118,7 +112,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a$a;->a:Lcom/commsource/helpcapture/HelpSelfieActivity$a;
 
     iget-object v0, v0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
@@ -135,7 +128,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a$a;->a:Lcom/commsource/helpcapture/HelpSelfieActivity$a;
 
     iget-object v0, v0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
@@ -152,17 +144,14 @@
 
     sget v1, Lcom/res/provider/ResCOLOR;->color_e6000000:I
 
-    .line 8
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a$a;->a:Lcom/commsource/helpcapture/HelpSelfieActivity$a;
 
     iget-object v0, v0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
 
     invoke-static {v0}, Lcom/commsource/helpcapture/HelpSelfieActivity;->c1(Lcom/commsource/helpcapture/HelpSelfieActivity;)V
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

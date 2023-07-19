@@ -58,10 +58,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$a;->b:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;
 
     iget-object p1, p1, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -70,21 +68,18 @@
 
     move-result-object v1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$a;->a:Lcom/commsource/studio/formula/convert/g;
 
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->j()Lcom/commsource/studio/formula/JsFormula;
 
     move-result-object v2
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$a;->a:Lcom/commsource/studio/formula/convert/g;
 
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->l()Lcom/commsource/studio/bean/PictureLayerInfo;
 
     move-result-object v3
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$a;->a:Lcom/commsource/studio/formula/convert/g;
 
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->k()Lcom/commsource/studio/bean/a;
@@ -101,10 +96,8 @@
 
     const/4 v9, 0x0
 
-    .line 6
     invoke-static/range {v1 .. v9}, Lcom/commsource/studio/formula/FormulaViewModel;->F(Lcom/commsource/studio/formula/FormulaViewModel;Lcom/commsource/studio/formula/JsFormula;Lcom/commsource/studio/bean/PictureLayerInfo;Lcom/commsource/studio/bean/a;ZZZILjava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

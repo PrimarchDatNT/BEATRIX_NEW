@@ -31,7 +31,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/util/u0$b;
 
     invoke-direct {v1}, Lcom/commsource/util/u0$b;-><init>()V
@@ -46,7 +45,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -59,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/u0;->c:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -76,17 +73,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p0, Landroid/app/Activity;
 
     if-eqz v1, :cond_1
 
-    .line 2
     move-object v1, p0
 
     check-cast v1, Landroid/app/Activity;
 
-    .line 3
     invoke-virtual {v1}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v2
@@ -99,13 +93,11 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     invoke-static {p0}, Lcom/bumptech/glide/c;->D(Landroid/content/Context;)Lcom/bumptech/glide/j;
 
@@ -113,7 +105,6 @@
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/j;->q(Landroid/view/View;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -126,14 +117,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v1}, Lcom/bumptech/glide/request/g;-><init>()V
 
     invoke-static {p0, v1}, Lcom/commsource/util/u0;->f(Ljava/lang/String;Lcom/bumptech/glide/request/g;)Ljava/io/File;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -146,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -157,7 +145,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -167,22 +154,18 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/beautyplus/a0;->c0()Lcom/commsource/beautyplus/z;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/z;->l2(Ljava/lang/String;)Lcom/commsource/beautyplus/z;
 
     move-result-object p0
 
-    .line 5
     invoke-virtual {p0, v1, v1}, Lcom/bumptech/glide/i;->C1(II)Lcom/bumptech/glide/request/c;
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -192,22 +175,18 @@
 
     move-result-object v2
 
-    .line 7
     invoke-virtual {v2}, Lcom/commsource/beautyplus/a0;->c0()Lcom/commsource/beautyplus/z;
 
     move-result-object v2
 
-    .line 8
     invoke-virtual {v2, p0}, Lcom/commsource/beautyplus/z;->l2(Ljava/lang/String;)Lcom/commsource/beautyplus/z;
 
     move-result-object p0
 
-    .line 9
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/z;->I1(Lcom/bumptech/glide/request/a;)Lcom/commsource/beautyplus/z;
 
     move-result-object p0
 
-    .line 10
     invoke-virtual {p0, v1, v1}, Lcom/bumptech/glide/i;->C1(II)Lcom/bumptech/glide/request/c;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -217,10 +196,8 @@
     :catch_0
     move-exception p0
 
-    .line 11
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 12
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -237,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v1}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -260,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -270,29 +245,24 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautyplus/a0;->c0()Lcom/commsource/beautyplus/z;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1, p0}, Lcom/commsource/beautyplus/z;->l2(Ljava/lang/String;)Lcom/commsource/beautyplus/z;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/z;->I1(Lcom/bumptech/glide/request/a;)Lcom/commsource/beautyplus/z;
 
     move-result-object p0
 
     const/high16 p1, -0x80000000
 
-    .line 5
     invoke-virtual {p0, p1, p1}, Lcom/bumptech/glide/i;->C1(II)Lcom/bumptech/glide/request/c;
 
     move-result-object p0
 
-    .line 6
     invoke-interface {p0}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
 
     move-result-object p0
@@ -306,12 +276,10 @@
     :catch_0
     move-exception p0
 
-    .line 7
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const/4 p0, 0x0
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -327,30 +295,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/commsource/beautyplus/x;->i(Landroid/content/Context;)Lcom/commsource/beautyplus/a0;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/a0;->c0()Lcom/commsource/beautyplus/z;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/z;->l2(Ljava/lang/String;)Lcom/commsource/beautyplus/z;
 
     move-result-object p0
 
     const/high16 p1, -0x80000000
 
-    .line 4
     invoke-virtual {p0, p1, p1}, Lcom/bumptech/glide/i;->C1(II)Lcom/bumptech/glide/request/c;
 
     move-result-object p0
 
-    .line 5
     invoke-interface {p0}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
 
     move-result-object p0
@@ -359,7 +322,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -367,12 +329,10 @@
     :catchall_0
     move-exception p0
 
-    .line 7
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const/4 p0, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -387,7 +347,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v1
@@ -402,7 +361,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/commsource/util/u0$d;
 
@@ -416,7 +374,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     :goto_0
     new-instance p0, Lcom/commsource/util/u0$d;
@@ -437,12 +394,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p0, Landroid/app/Activity;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast p0, Landroid/app/Activity;
 
     invoke-static {p0}, Lcom/commsource/util/u0;->h(Landroid/app/Activity;)Lcom/commsource/util/u0$d;
@@ -453,7 +408,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/commsource/util/u0$d;
 
@@ -475,7 +429,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/util/u0$d;
 
     invoke-static {p0}, Lcom/commsource/beautyplus/x;->k(Landroidx/fragment/app/Fragment;)Lcom/commsource/beautyplus/a0;

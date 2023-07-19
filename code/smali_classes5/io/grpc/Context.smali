@@ -52,7 +52,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/Context;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -65,7 +64,6 @@
 
     sput-object v0, Lio/grpc/Context;->d:Ljava/util/logging/Logger;
 
-    .line 2
     new-instance v0, Lio/grpc/Context;
 
     invoke-direct {v0}, Lio/grpc/Context;-><init>()V
@@ -78,23 +76,18 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 12
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 13
     iput-object v0, p0, Lio/grpc/Context;->a:Lio/grpc/Context$f;
 
-    .line 14
     iput-object v0, p0, Lio/grpc/Context;->b:Lio/grpc/g1$d;
 
     const/4 v0, 0x0
 
-    .line 15
     iput v0, p0, Lio/grpc/Context;->c:I
 
-    .line 16
     invoke-static {v0}, Lio/grpc/Context;->v(I)V
 
     return-void
@@ -114,27 +107,22 @@
         }
     .end annotation
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
     invoke-static {p1}, Lio/grpc/Context;->d(Lio/grpc/Context;)Lio/grpc/Context$f;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/grpc/Context;->a:Lio/grpc/Context$f;
 
-    .line 9
     iput-object p2, p0, Lio/grpc/Context;->b:Lio/grpc/g1$d;
 
-    .line 10
     iget p1, p1, Lio/grpc/Context;->c:I
 
     add-int/lit8 p1, p1, 0x1
 
     iput p1, p0, Lio/grpc/Context;->c:I
 
-    .line 11
     invoke-static {p1}, Lio/grpc/Context;->v(I)V
 
     return-void
@@ -143,7 +131,6 @@
 .method synthetic constructor <init>(Lio/grpc/Context;Lio/grpc/g1$d;Lio/grpc/Context$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/Context;-><init>(Lio/grpc/Context;Lio/grpc/g1$d;)V
 
     return-void
@@ -162,21 +149,16 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lio/grpc/Context;->a:Lio/grpc/Context$f;
 
-    .line 4
     iput-object p1, p0, Lio/grpc/Context;->b:Lio/grpc/g1$d;
 
-    .line 5
     iput p2, p0, Lio/grpc/Context;->c:I
 
-    .line 6
     invoke-static {p2}, Lio/grpc/Context;->v(I)V
 
     return-void
@@ -185,17 +167,14 @@
 .method static d(Lio/grpc/Context;)Lio/grpc/Context$f;
     .locals 1
 
-    .line 1
     instance-of v0, p0, Lio/grpc/Context$f;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, Lio/grpc/Context$f;
 
     return-object p0
 
-    .line 3
     :cond_0
     iget-object p0, p0, Lio/grpc/Context;->a:Lio/grpc/Context$f;
 
@@ -221,7 +200,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -237,7 +215,6 @@
 .method public static g()Lio/grpc/Context;
     .locals 1
 
-    .line 1
     invoke-static {}, Lio/grpc/Context;->u()Lio/grpc/Context$l;
 
     move-result-object v0
@@ -248,7 +225,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lio/grpc/Context;->g:Lio/grpc/Context;
 
     :cond_0
@@ -258,7 +234,6 @@
 .method public static h(Ljava/util/concurrent/Executor;)Ljava/util/concurrent/Executor;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/Context$b;
 
     invoke-direct {v0, p0}, Lio/grpc/Context$b;-><init>(Ljava/util/concurrent/Executor;)V
@@ -280,7 +255,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/Context$j;
 
     invoke-direct {v0, p0}, Lio/grpc/Context$j;-><init>(Ljava/lang/String;)V
@@ -302,7 +276,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/Context$j;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/Context$j;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
@@ -313,7 +286,6 @@
 .method static u()Lio/grpc/Context$l;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/Context$k;->a:Lio/grpc/Context$l;
 
     return-object v0
@@ -326,7 +298,6 @@
 
     if-ne p0, v0, :cond_0
 
-    .line 1
     sget-object p0, Lio/grpc/Context;->d:Ljava/util/logging/Logger;
 
     sget-object v0, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
@@ -362,20 +333,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Context;->b:Lio/grpc/g1$d;
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/g1;->b(Lio/grpc/g1$d;Ljava/lang/Object;Ljava/lang/Object;)Lio/grpc/g1$d;
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1, p3, p4}, Lio/grpc/g1;->b(Lio/grpc/g1$d;Ljava/lang/Object;Ljava/lang/Object;)Lio/grpc/g1$d;
 
     move-result-object p1
 
-    .line 4
     new-instance p2, Lio/grpc/Context;
 
     invoke-direct {p2, p0, p1}, Lio/grpc/Context;-><init>(Lio/grpc/Context;Lio/grpc/g1$d;)V
@@ -404,25 +371,20 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Context;->b:Lio/grpc/g1$d;
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/g1;->b(Lio/grpc/g1$d;Ljava/lang/Object;Ljava/lang/Object;)Lio/grpc/g1$d;
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1, p3, p4}, Lio/grpc/g1;->b(Lio/grpc/g1$d;Ljava/lang/Object;Ljava/lang/Object;)Lio/grpc/g1$d;
 
     move-result-object p1
 
-    .line 4
     invoke-static {p1, p5, p6}, Lio/grpc/g1;->b(Lio/grpc/g1$d;Ljava/lang/Object;Ljava/lang/Object;)Lio/grpc/g1$d;
 
     move-result-object p1
 
-    .line 5
     new-instance p2, Lio/grpc/Context;
 
     invoke-direct {p2, p0, p1}, Lio/grpc/Context;-><init>(Lio/grpc/Context;Lio/grpc/g1$d;)V
@@ -455,30 +417,24 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Context;->b:Lio/grpc/g1$d;
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/g1;->b(Lio/grpc/g1$d;Ljava/lang/Object;Ljava/lang/Object;)Lio/grpc/g1$d;
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1, p3, p4}, Lio/grpc/g1;->b(Lio/grpc/g1$d;Ljava/lang/Object;Ljava/lang/Object;)Lio/grpc/g1$d;
 
     move-result-object p1
 
-    .line 4
     invoke-static {p1, p5, p6}, Lio/grpc/g1;->b(Lio/grpc/g1$d;Ljava/lang/Object;Ljava/lang/Object;)Lio/grpc/g1$d;
 
     move-result-object p1
 
-    .line 5
     invoke-static {p1, p7, p8}, Lio/grpc/g1;->b(Lio/grpc/g1$d;Ljava/lang/Object;Ljava/lang/Object;)Lio/grpc/g1$d;
 
     move-result-object p1
 
-    .line 6
     new-instance p2, Lio/grpc/Context;
 
     invoke-direct {p2, p0, p1}, Lio/grpc/Context;-><init>(Lio/grpc/Context;Lio/grpc/g1$d;)V
@@ -489,7 +445,6 @@
 .method public D(Ljava/lang/Runnable;)Ljava/lang/Runnable;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/Context$a;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/Context$a;-><init>(Lio/grpc/Context;Ljava/lang/Runnable;)V
@@ -511,7 +466,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/Context$d;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/Context$d;-><init>(Lio/grpc/Context;Ljava/util/concurrent/Callable;)V
@@ -524,22 +478,18 @@
 
     const-string v0, "cancellationListener"
 
-    .line 1
     invoke-static {p1, v0}, Lio/grpc/Context;->f(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "executor"
 
-    .line 2
     invoke-static {p2, v0}, Lio/grpc/Context;->f(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lio/grpc/Context;->a:Lio/grpc/Context$f;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Lio/grpc/Context$i;
 
@@ -553,7 +503,6 @@
 .method public b()Lio/grpc/Context;
     .locals 1
 
-    .line 1
     invoke-static {}, Lio/grpc/Context;->u()Lio/grpc/Context$l;
 
     move-result-object v0
@@ -564,7 +513,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lio/grpc/Context;->g:Lio/grpc/Context;
 
     :cond_0
@@ -592,12 +540,10 @@
     .annotation build Lio/grpc/Context$e;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/Context;->b()Lio/grpc/Context;
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     invoke-interface {p1}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;
 
@@ -605,7 +551,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-virtual {p0, v0}, Lio/grpc/Context;->i(Lio/grpc/Context;)V
 
     return-object p1
@@ -621,7 +566,6 @@
 .method public e()Ljava/lang/Throwable;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Context;->a:Lio/grpc/Context$f;
 
     if-nez v0, :cond_0
@@ -630,7 +574,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lio/grpc/Context$f;->e()Ljava/lang/Throwable;
 
@@ -644,10 +587,8 @@
 
     const-string v0, "toAttach"
 
-    .line 1
     invoke-static {p1, v0}, Lio/grpc/Context;->f(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {}, Lio/grpc/Context;->u()Lio/grpc/Context$l;
 
     move-result-object v0
@@ -660,7 +601,6 @@
 .method public j(Ljava/util/concurrent/Executor;)Ljava/util/concurrent/Executor;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/Context$c;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/Context$c;-><init>(Lio/grpc/Context;Ljava/util/concurrent/Executor;)V
@@ -671,7 +611,6 @@
 .method public k()Lio/grpc/Context;
     .locals 3
 
-    .line 1
     new-instance v0, Lio/grpc/Context;
 
     iget-object v1, p0, Lio/grpc/Context;->b:Lio/grpc/g1$d;
@@ -688,7 +627,6 @@
 .method public l()Lio/grpc/q;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Context;->a:Lio/grpc/Context$f;
 
     if-nez v0, :cond_0
@@ -697,7 +635,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lio/grpc/Context$f;->l()Lio/grpc/q;
 
@@ -709,7 +646,6 @@
 .method public m()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Context;->a:Lio/grpc/Context$f;
 
     if-nez v0, :cond_0
@@ -718,7 +654,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lio/grpc/Context$f;->m()Z
 
@@ -730,7 +665,6 @@
 .method n()Z
     .locals 1
 
-    .line 1
     invoke-static {}, Lio/grpc/Context;->g()Lio/grpc/Context;
 
     move-result-object v0
@@ -751,7 +685,6 @@
 .method q()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Context;->a:Lio/grpc/Context$f;
 
     if-nez v0, :cond_0
@@ -760,7 +693,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lio/grpc/Context$f;->q()I
 
@@ -772,14 +704,12 @@
 .method public r(Lio/grpc/Context$g;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Context;->a:Lio/grpc/Context$f;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {v0, p1, p0}, Lio/grpc/Context$f;->H(Lio/grpc/Context$f;Lio/grpc/Context$g;Lio/grpc/Context;)V
 
@@ -789,18 +719,15 @@
 .method public t(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/Context;->b()Lio/grpc/Context;
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-virtual {p0, v0}, Lio/grpc/Context;->i(Lio/grpc/Context;)V
 
     return-void
@@ -816,7 +743,6 @@
 .method public w()Lio/grpc/Context$f;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/grpc/Context$f;
 
     const/4 v1, 0x0
@@ -831,22 +757,18 @@
 
     const-string v0, "deadline"
 
-    .line 1
     invoke-static {p1, v0}, Lio/grpc/Context;->f(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "scheduler"
 
-    .line 2
     invoke-static {p2, v0}, Lio/grpc/Context;->f(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lio/grpc/Context;->l()Lio/grpc/q;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {v0, p1}, Lio/grpc/q;->n(Lio/grpc/q;)I
 
     move-result v1
@@ -864,7 +786,6 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 5
     :goto_0
     new-instance v1, Lio/grpc/Context$f;
 
@@ -874,7 +795,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-static {v1, p1, p2}, Lio/grpc/Context$f;->F(Lio/grpc/Context$f;Lio/grpc/q;Ljava/util/concurrent/ScheduledExecutorService;)V
 
     :cond_1
@@ -884,7 +804,6 @@
 .method public y(JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)Lio/grpc/Context$f;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2, p3}, Lio/grpc/q;->a(JLjava/util/concurrent/TimeUnit;)Lio/grpc/q;
 
     move-result-object p1
@@ -909,15 +828,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Context;->b:Lio/grpc/g1$d;
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/g1;->b(Lio/grpc/g1$d;Ljava/lang/Object;Ljava/lang/Object;)Lio/grpc/g1$d;
 
     move-result-object p1
 
-    .line 3
     new-instance p2, Lio/grpc/Context;
 
     invoke-direct {p2, p0, p1}, Lio/grpc/Context;-><init>(Lio/grpc/Context;Lio/grpc/g1$d;)V

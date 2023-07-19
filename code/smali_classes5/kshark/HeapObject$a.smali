@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/HeapObject$a;-><init>()V
 
     return-void
@@ -38,7 +36,6 @@
 .method public static final synthetic a(Lkshark/HeapObject$a;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lkshark/HeapObject$a;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -61,7 +58,6 @@
 
     move-object v0, p1
 
-    .line 1
     invoke-static/range {v0 .. v5}, Lcotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result v0
@@ -77,7 +73,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p1

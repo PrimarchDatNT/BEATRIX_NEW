@@ -27,17 +27,14 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/kg;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/kg;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/ads/x/d$a;->a:Lcom/google/android/gms/internal/ads/kg;
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/kg;->d(Landroid/view/View;)Lcom/google/android/gms/internal/ads/kg;
 
     return-void
@@ -46,7 +43,6 @@
 .method static synthetic c(Lcom/google/android/gms/ads/x/d$a;)Lcom/google/android/gms/internal/ads/kg;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/x/d$a;->a:Lcom/google/android/gms/internal/ads/kg;
 
     return-object p0
@@ -59,7 +55,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/ads/x/d;
 
     const/4 v1, 0x0
@@ -85,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/x/d$a;->a:Lcom/google/android/gms/internal/ads/kg;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/kg;->c(Ljava/util/Map;)Lcom/google/android/gms/internal/ads/kg;

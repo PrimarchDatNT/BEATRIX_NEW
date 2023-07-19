@@ -62,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent$b;->b:Lcom/commsource/studio/component/ConfirmCancelComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/component/ConfirmCancelComponent;->g(Lcom/commsource/studio/component/ConfirmCancelComponent;)Lcom/commsource/beautyplus/f0/w1;
@@ -85,7 +84,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent$b;->b:Lcom/commsource/studio/component/ConfirmCancelComponent;
 
     iget-object v1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent$b;->a:Lcom/commsource/studio/component/ConfirmCancelComponent$a;
@@ -108,7 +106,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent$b;->b:Lcom/commsource/studio/component/ConfirmCancelComponent;
 
     invoke-static {p1}, Lcom/commsource/studio/component/ConfirmCancelComponent;->g(Lcom/commsource/studio/component/ConfirmCancelComponent;)Lcom/commsource/beautyplus/f0/w1;
@@ -123,7 +120,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent$b;->b:Lcom/commsource/studio/component/ConfirmCancelComponent;
 
@@ -137,7 +133,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -151,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/ConfirmCancelComponent$b;->a(Lcom/commsource/studio/sub/SubModuleEnum;)V

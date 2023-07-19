@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/function/relight/b;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/relight/RelightAutoFragment$e;->b(ILcom/commsource/studio/function/relight/b;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/RelightAutoFragment$e;->a:Lcom/commsource/studio/function/relight/RelightAutoFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/relight/RelightAutoFragment;->A(Lcom/commsource/studio/function/relight/RelightAutoFragment;)Lcom/commsource/widget/h1/e;
@@ -82,7 +80,6 @@
 
     invoke-virtual {v1, p2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/relight/RelightAutoFragment$e;->a:Lcom/commsource/studio/function/relight/RelightAutoFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/relight/RelightAutoFragment;->B(Lcom/commsource/studio/function/relight/RelightAutoFragment;)Lcom/commsource/beautyplus/f0/aa;
@@ -93,7 +90,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/relight/RelightAutoFragment$e;->a:Lcom/commsource/studio/function/relight/RelightAutoFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/RelightAutoFragment;->C(Lcom/commsource/studio/function/relight/RelightAutoFragment;)Lcom/commsource/studio/function/relight/g;
@@ -106,7 +102,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

@@ -86,67 +86,52 @@
 .method public constructor <init>(Ljava/lang/String;IIIIIZZLjava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const v0, 0x7fffffff
 
-    .line 2
     iput v0, p0, Lcom/commsource/beautyplus/miniapp/k;->c:I
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/commsource/beautyplus/miniapp/k;->e:Ljava/lang/String;
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/commsource/beautyplus/miniapp/k;->j:Z
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/k;->a:Ljava/lang/String;
 
-    .line 6
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/k;->d:Ljava/lang/String;
 
-    .line 7
     invoke-static {p3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/k;->e:Ljava/lang/String;
 
-    .line 8
     invoke-static {p4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/k;->f:Ljava/lang/String;
 
-    .line 9
     iput p5, p0, Lcom/commsource/beautyplus/miniapp/k;->g:I
 
-    .line 10
     iput p6, p0, Lcom/commsource/beautyplus/miniapp/k;->n:I
 
-    .line 11
     iput-boolean p7, p0, Lcom/commsource/beautyplus/miniapp/k;->h:Z
 
-    .line 12
     iput-boolean p8, p0, Lcom/commsource/beautyplus/miniapp/k;->i:Z
 
-    .line 13
     iput-object p9, p0, Lcom/commsource/beautyplus/miniapp/k;->l:Ljava/lang/String;
 
-    .line 14
     iput-object p10, p0, Lcom/commsource/beautyplus/miniapp/k;->m:Ljava/lang/String;
 
-    .line 15
     invoke-virtual {p0}, Lcom/commsource/beautyplus/miniapp/k;->f()Ljava/lang/String;
 
     move-result-object p1
@@ -184,7 +169,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p0 .. p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -193,12 +177,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 3
     :cond_0
     invoke-virtual/range {p0 .. p0}, Ljava/lang/String;->hashCode()I
 
@@ -405,12 +387,10 @@
     :goto_0
     packed-switch v2, :pswitch_data_0
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 5
     :pswitch_0
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
@@ -442,7 +422,6 @@
 
     return-object v0
 
-    .line 6
     :pswitch_1
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
@@ -474,7 +453,6 @@
 
     return-object v0
 
-    .line 7
     :pswitch_2
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
@@ -506,7 +484,6 @@
 
     return-object v0
 
-    .line 8
     :pswitch_3
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
@@ -538,7 +515,6 @@
 
     return-object v0
 
-    .line 9
     :pswitch_4
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
@@ -570,7 +546,6 @@
 
     return-object v0
 
-    .line 10
     :pswitch_5
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
@@ -602,7 +577,6 @@
 
     return-object v0
 
-    .line 11
     :pswitch_6
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
@@ -634,7 +608,6 @@
 
     return-object v0
 
-    .line 12
     :pswitch_7
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
@@ -666,7 +639,6 @@
 
     return-object v0
 
-    .line 13
     :pswitch_8
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
@@ -698,7 +670,6 @@
 
     return-object v0
 
-    .line 14
     :pswitch_9
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
@@ -730,7 +701,6 @@
 
     return-object v0
 
-    .line 15
     :pswitch_a
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
@@ -762,7 +732,6 @@
 
     return-object v0
 
-    .line 16
     :pswitch_b
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
@@ -838,7 +807,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/k;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -853,7 +821,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/k;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -868,7 +835,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/k;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -883,7 +849,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/k;->m:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -898,7 +863,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/k;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -913,7 +877,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/k;->o:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -928,7 +891,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/k;->n:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -943,7 +905,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/k;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -958,7 +919,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/k;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -973,7 +933,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/k;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -988,7 +947,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/k;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1003,7 +961,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/k;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1018,7 +975,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/k;->a:Ljava/lang/String;
 
     const-string v2, "HandoverMode"
@@ -1029,7 +985,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/helpcapture/k0;->T()Z
 
     move-result v1
@@ -1041,7 +996,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1054,7 +1008,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/k;->a:Ljava/lang/String;
 
     const-string v2, "HandoverMode"
@@ -1065,7 +1018,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/helpcapture/k0;->U()Z
 
     move-result v1
@@ -1077,7 +1029,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1090,7 +1041,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/k;->a:Ljava/lang/String;
 
     const-string v2, "HandoverMode"
@@ -1111,7 +1061,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/miniapp/k;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1126,7 +1075,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/miniapp/k;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1141,7 +1089,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/miniapp/k;->h:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1156,7 +1103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/miniapp/k;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1171,10 +1117,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/k;->p:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1187,10 +1131,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/k;->o:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1203,10 +1145,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/k;->a:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1219,10 +1159,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/k;->c:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1235,10 +1173,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/k;->b:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

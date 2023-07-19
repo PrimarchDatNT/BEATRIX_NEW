@@ -33,16 +33,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/cct/e$a;->a:Ljava/net/URL;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/datatransport/cct/e$a;->b:Lcom/google/android/datatransport/cct/a/j;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/datatransport/cct/e$a;->c:Ljava/lang/String;
 
     return-void
@@ -53,7 +49,6 @@
 .method a(Ljava/net/URL;)Lcom/google/android/datatransport/cct/e$a;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/cct/e$a;
 
     iget-object v1, p0, Lcom/google/android/datatransport/cct/e$a;->b:Lcom/google/android/datatransport/cct/a/j;

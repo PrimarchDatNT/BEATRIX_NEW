@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/settings/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/settings/c$a;->a:Lcom/google/firebase/crashlytics/internal/settings/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -60,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/lang/Void;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/crashlytics/internal/settings/c$a;->b(Ljava/lang/Void;)Lcom/google/android/gms/tasks/k;
@@ -96,10 +94,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/crashlytics/internal/settings/c$a;->a:Lcom/google/firebase/crashlytics/internal/settings/c;
 
-    .line 2
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/settings/c;->d(Lcom/google/firebase/crashlytics/internal/settings/c;)Lcom/google/firebase/crashlytics/internal/settings/j/e;
 
     move-result-object p1
@@ -118,10 +114,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/settings/c$a;->a:Lcom/google/firebase/crashlytics/internal/settings/c;
 
-    .line 4
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/settings/c;->e(Lcom/google/firebase/crashlytics/internal/settings/c;)Lcom/google/firebase/crashlytics/internal/settings/f;
 
     move-result-object v0
@@ -130,29 +124,24 @@
 
     move-result-object v0
 
-    .line 5
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/settings/c$a;->a:Lcom/google/firebase/crashlytics/internal/settings/c;
 
     invoke-static {v1}, Lcom/google/firebase/crashlytics/internal/settings/c;->f(Lcom/google/firebase/crashlytics/internal/settings/c;)Lcom/google/firebase/crashlytics/internal/settings/a;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/firebase/crashlytics/internal/settings/i/f;->c()J
 
     move-result-wide v2
 
-    .line 7
     invoke-virtual {v1, v2, v3, p1}, Lcom/google/firebase/crashlytics/internal/settings/a;->c(JLorg/json/JSONObject;)V
 
-    .line 8
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/settings/c$a;->a:Lcom/google/firebase/crashlytics/internal/settings/c;
 
     const-string v2, "Loaded settings: "
 
     invoke-static {v1, p1, v2}, Lcom/google/firebase/crashlytics/internal/settings/c;->g(Lcom/google/firebase/crashlytics/internal/settings/c;Lorg/json/JSONObject;Ljava/lang/String;)V
 
-    .line 9
     iget-object p1, p0, Lcom/google/firebase/crashlytics/internal/settings/c$a;->a:Lcom/google/firebase/crashlytics/internal/settings/c;
 
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/settings/c;->c(Lcom/google/firebase/crashlytics/internal/settings/c;)Lcom/google/firebase/crashlytics/internal/settings/i/g;
@@ -163,7 +152,6 @@
 
     invoke-static {p1, v1}, Lcom/google/firebase/crashlytics/internal/settings/c;->h(Lcom/google/firebase/crashlytics/internal/settings/c;Ljava/lang/String;)Z
 
-    .line 10
     iget-object p1, p0, Lcom/google/firebase/crashlytics/internal/settings/c$a;->a:Lcom/google/firebase/crashlytics/internal/settings/c;
 
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/settings/c;->i(Lcom/google/firebase/crashlytics/internal/settings/c;)Ljava/util/concurrent/atomic/AtomicReference;
@@ -172,7 +160,6 @@
 
     invoke-virtual {p1, v0}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    .line 11
     iget-object p1, p0, Lcom/google/firebase/crashlytics/internal/settings/c$a;->a:Lcom/google/firebase/crashlytics/internal/settings/c;
 
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/settings/c;->j(Lcom/google/firebase/crashlytics/internal/settings/c;)Ljava/util/concurrent/atomic/AtomicReference;
@@ -191,19 +178,16 @@
 
     invoke-virtual {p1, v1}, Lcom/google/android/gms/tasks/l;->e(Ljava/lang/Object;)Z
 
-    .line 12
     new-instance p1, Lcom/google/android/gms/tasks/l;
 
     invoke-direct {p1}, Lcom/google/android/gms/tasks/l;-><init>()V
 
-    .line 13
     invoke-virtual {v0}, Lcom/google/firebase/crashlytics/internal/settings/i/f;->g()Lcom/google/firebase/crashlytics/internal/settings/i/b;
 
     move-result-object v0
 
     invoke-virtual {p1, v0}, Lcom/google/android/gms/tasks/l;->e(Ljava/lang/Object;)Z
 
-    .line 14
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/settings/c$a;->a:Lcom/google/firebase/crashlytics/internal/settings/c;
 
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/settings/c;->j(Lcom/google/firebase/crashlytics/internal/settings/c;)Ljava/util/concurrent/atomic/AtomicReference;
@@ -215,7 +199,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 15
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->g(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1

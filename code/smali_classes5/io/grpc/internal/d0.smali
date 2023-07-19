@@ -14,10 +14,8 @@
 .method protected constructor <init>(Lio/grpc/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/d0;->a:Lio/grpc/Context;
 
     return-void
@@ -31,20 +29,17 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/d0;->a:Lio/grpc/Context;
 
     invoke-virtual {v0}, Lio/grpc/Context;->b()Lio/grpc/Context;
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lio/grpc/internal/d0;->a()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iget-object v1, p0, Lio/grpc/internal/d0;->a:Lio/grpc/Context;
 
     invoke-virtual {v1, v0}, Lio/grpc/Context;->i(Lio/grpc/Context;)V

@@ -48,7 +48,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -57,7 +56,6 @@
 .method static synthetic a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -92,7 +90,6 @@
 .method public static a()V
     .locals 5
 
-    .line 20
     sget-object v0, Lcom/tencent/bugly/crashreport/biz/b;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
     if-eqz v0, :cond_0
@@ -103,7 +100,6 @@
 
     const-wide/16 v3, 0x0
 
-    .line 21
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/bugly/crashreport/biz/a;->a(IZJ)V
 
     :cond_0
@@ -119,7 +115,6 @@
 
     if-gez v2, :cond_0
 
-    .line 10
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/strategy/a;->a()Lcom/tencent/bugly/crashreport/common/strategy/a;
 
     move-result-object p0
@@ -130,7 +125,6 @@
 
     iget-wide p0, p0, Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;->o:J
 
-    .line 11
     :cond_0
     sput-wide p0, Lcom/tencent/bugly/crashreport/biz/b;->f:J
 
@@ -140,7 +134,6 @@
 .method public static a(Landroid/content/Context;)V
     .locals 3
 
-    .line 22
     sget-boolean v0, Lcom/tencent/bugly/crashreport/biz/b;->b:Z
 
     if-eqz v0, :cond_3
@@ -152,7 +145,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 23
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0xe
@@ -204,7 +196,6 @@
     :goto_0
     const/4 p0, 0x0
 
-    .line 24
     sput-boolean p0, Lcom/tencent/bugly/crashreport/biz/b;->b:Z
 
     :cond_3
@@ -215,14 +206,12 @@
 .method public static a(Landroid/content/Context;Lcom/tencent/bugly/BuglyStrategy;)V
     .locals 5
 
-    .line 2
     sget-boolean v0, Lcom/tencent/bugly/crashreport/biz/b;->b:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/tencent/bugly/crashreport/common/info/a;->a(Landroid/content/Context;)Lcom/tencent/bugly/crashreport/common/info/a;
 
@@ -232,7 +221,6 @@
 
     sput-boolean v0, Lcom/tencent/bugly/crashreport/biz/b;->m:Z
 
-    .line 4
     new-instance v1, Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-direct {v1, p0, v0}, Lcom/tencent/bugly/crashreport/biz/a;-><init>(Landroid/content/Context;Z)V
@@ -241,21 +229,18 @@
 
     const/4 v0, 0x1
 
-    .line 5
     sput-boolean v0, Lcom/tencent/bugly/crashreport/biz/b;->b:Z
 
     const-wide/16 v0, 0x0
 
     if-eqz p1, :cond_1
 
-    .line 6
     invoke-virtual {p1}, Lcom/tencent/bugly/BuglyStrategy;->getUserInfoActivity()Ljava/lang/Class;
 
     move-result-object v2
 
     sput-object v2, Lcom/tencent/bugly/crashreport/biz/b;->l:Ljava/lang/Class;
 
-    .line 7
     invoke-virtual {p1}, Lcom/tencent/bugly/BuglyStrategy;->getAppReportDelay()J
 
     move-result-wide v2
@@ -270,12 +255,10 @@
 
     if-gtz v4, :cond_2
 
-    .line 8
     invoke-static {p0, p1}, Lcom/tencent/bugly/crashreport/biz/b;->c(Landroid/content/Context;Lcom/tencent/bugly/BuglyStrategy;)V
 
     return-void
 
-    .line 9
     :cond_2
     invoke-static {}, Lcom/tencent/bugly/proguard/w;->a()Lcom/tencent/bugly/proguard/w;
 
@@ -293,14 +276,12 @@
 .method public static a(Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;Z)V
     .locals 4
 
-    .line 12
     sget-object v0, Lcom/tencent/bugly/crashreport/biz/b;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
     if-eqz v0, :cond_0
 
     if-nez p1, :cond_0
 
-    .line 13
     invoke-static {}, Lcom/tencent/bugly/proguard/w;->a()Lcom/tencent/bugly/proguard/w;
 
     move-result-object p1
@@ -318,7 +299,6 @@
 
     return-void
 
-    .line 14
     :cond_1
     iget-wide v0, p0, Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;->o:J
 
@@ -328,19 +308,15 @@
 
     if-lez p1, :cond_2
 
-    .line 15
     sput-wide v0, Lcom/tencent/bugly/crashreport/biz/b;->e:J
 
-    .line 16
     :cond_2
     iget p1, p0, Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;->t:I
 
     if-lez p1, :cond_3
 
-    .line 17
     sput p1, Lcom/tencent/bugly/crashreport/biz/b;->c:I
 
-    .line 18
     :cond_3
     iget-wide p0, p0, Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;->u:J
 
@@ -348,7 +324,6 @@
 
     if-lez v0, :cond_4
 
-    .line 19
     sput-wide p0, Lcom/tencent/bugly/crashreport/biz/b;->d:J
 
     :cond_4
@@ -358,7 +333,6 @@
 .method static synthetic b(J)J
     .locals 0
 
-    .line 1
     sput-wide p0, Lcom/tencent/bugly/crashreport/biz/b;->j:J
 
     return-wide p0
@@ -367,7 +341,6 @@
 .method static synthetic b()Ljava/lang/Class;
     .locals 1
 
-    .line 2
     sget-object v0, Lcom/tencent/bugly/crashreport/biz/b;->l:Ljava/lang/Class;
 
     return-object v0
@@ -376,7 +349,6 @@
 .method static synthetic b(Landroid/content/Context;Lcom/tencent/bugly/BuglyStrategy;)V
     .locals 0
 
-    .line 3
     invoke-static {p0, p1}, Lcom/tencent/bugly/crashreport/biz/b;->c(Landroid/content/Context;Lcom/tencent/bugly/BuglyStrategy;)V
 
     return-void
@@ -385,7 +357,6 @@
 .method static synthetic c()J
     .locals 2
 
-    .line 1
     sget-wide v0, Lcom/tencent/bugly/crashreport/biz/b;->i:J
 
     return-wide v0
@@ -394,7 +365,6 @@
 .method static synthetic c(J)J
     .locals 0
 
-    .line 2
     sput-wide p0, Lcom/tencent/bugly/crashreport/biz/b;->h:J
 
     return-wide p0
@@ -409,12 +379,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/tencent/bugly/BuglyStrategy;->recordUserInfoOnceADay()Z
 
     move-result v2
 
-    .line 4
     invoke-virtual {p1}, Lcom/tencent/bugly/BuglyStrategy;->isEnableUserInfo()Z
 
     move-result p1
@@ -431,7 +399,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 5
     invoke-static {p0}, Lcom/tencent/bugly/crashreport/common/info/a;->a(Landroid/content/Context;)Lcom/tencent/bugly/crashreport/common/info/a;
 
     move-result-object p1
@@ -530,7 +497,6 @@
     :cond_4
     const/4 p1, 0x0
 
-    .line 6
     :cond_5
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/info/a;->b()Lcom/tencent/bugly/crashreport/common/info/a;
 
@@ -620,7 +586,6 @@
     :cond_b
     if-eqz p1, :cond_e
 
-    .line 7
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0xe
@@ -677,14 +642,12 @@
 
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 8
     :cond_e
     :goto_5
     sget-boolean p0, Lcom/tencent/bugly/crashreport/biz/b;->m:Z
 
     if-eqz p0, :cond_f
 
-    .line 9
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p0
@@ -701,12 +664,10 @@
 
     invoke-static {p1, p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 10
     sget-object p0, Lcom/tencent/bugly/crashreport/biz/b;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-virtual {p0}, Lcom/tencent/bugly/crashreport/biz/a;->a()V
 
-    .line 11
     sget-object p0, Lcom/tencent/bugly/crashreport/biz/b;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
     const-wide/32 v0, 0x1499700
@@ -728,7 +689,6 @@
 .method static synthetic d()J
     .locals 2
 
-    .line 1
     sget-wide v0, Lcom/tencent/bugly/crashreport/biz/b;->h:J
 
     return-wide v0
@@ -737,7 +697,6 @@
 .method static synthetic e()J
     .locals 2
 
-    .line 1
     sget-wide v0, Lcom/tencent/bugly/crashreport/biz/b;->f:J
 
     return-wide v0
@@ -746,7 +705,6 @@
 .method static synthetic f()J
     .locals 2
 
-    .line 1
     sget-wide v0, Lcom/tencent/bugly/crashreport/biz/b;->e:J
 
     return-wide v0
@@ -755,7 +713,6 @@
 .method static synthetic g()I
     .locals 2
 
-    .line 1
     sget v0, Lcom/tencent/bugly/crashreport/biz/b;->g:I
 
     add-int/lit8 v1, v0, 0x1
@@ -768,7 +725,6 @@
 .method static synthetic h()I
     .locals 1
 
-    .line 1
     sget v0, Lcom/tencent/bugly/crashreport/biz/b;->g:I
 
     return v0
@@ -777,7 +733,6 @@
 .method static synthetic i()I
     .locals 1
 
-    .line 1
     sget v0, Lcom/tencent/bugly/crashreport/biz/b;->c:I
 
     return v0
@@ -786,7 +741,6 @@
 .method static synthetic j()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/tencent/bugly/crashreport/biz/b;->m:Z
 
     return v0
@@ -795,7 +749,6 @@
 .method static synthetic k()J
     .locals 2
 
-    .line 1
     sget-wide v0, Lcom/tencent/bugly/crashreport/biz/b;->j:J
 
     return-wide v0
@@ -804,7 +757,6 @@
 .method static synthetic l()J
     .locals 2
 
-    .line 1
     sget-wide v0, Lcom/tencent/bugly/crashreport/biz/b;->d:J
 
     return-wide v0

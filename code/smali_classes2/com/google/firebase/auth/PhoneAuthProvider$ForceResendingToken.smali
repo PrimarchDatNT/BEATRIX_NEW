@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/y;
 
     invoke-direct {v0}, Lcom/google/firebase/auth/y;-><init>()V
@@ -48,7 +47,6 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     return-void
@@ -57,7 +55,6 @@
 .method public static y()Lcom/google/firebase/auth/PhoneAuthProvider$ForceResendingToken;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/PhoneAuthProvider$ForceResendingToken;
 
     invoke-direct {v0}, Lcom/google/firebase/auth/PhoneAuthProvider$ForceResendingToken;-><init>()V
@@ -70,12 +67,10 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void

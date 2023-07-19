@@ -17,7 +17,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -48,7 +47,6 @@
 .method public constructor <init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/d/e/a/f;-><init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
 
     return-void
@@ -63,7 +61,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -76,7 +73,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -91,19 +87,16 @@
 
     const-string v1, "handGestureEnable"
 
-    .line 1
     invoke-virtual {v1, p1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result p1
 
     if-eqz p1, :cond_4
 
-    .line 2
     instance-of p1, p2, Ljava/lang/Boolean;
 
     if-eqz p1, :cond_4
 
-    .line 3
     check-cast p2, Ljava/lang/Boolean;
 
     invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
@@ -127,7 +120,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     :goto_0
     iget-object v2, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
@@ -135,10 +127,8 @@
 
     if-eqz v3, :cond_4
 
-    .line 5
     check-cast v2, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
 
-    .line 6
     iget-wide v3, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v5, 0x1
@@ -160,12 +150,10 @@
 
     or-long/2addr v3, v5
 
-    .line 7
     iput-wide v3, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const/4 v3, 0x2
 
-    .line 8
     iput v3, v2, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;->maxHandNum:I
 
     goto :goto_1
@@ -175,16 +163,13 @@
 
     and-long/2addr v3, v5
 
-    .line 9
     iput-wide v3, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 10
     :goto_1
     iget-boolean v2, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz v2, :cond_3
 
-    .line 11
     sget-object v2, Lf/d/e/a/g;->z:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -209,11 +194,9 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 12
     :cond_3
     iput-boolean v1, p0, Lf/d/e/a/a;->f:Z
 
-    .line 13
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -227,7 +210,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -246,7 +228,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -265,7 +246,6 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -284,7 +264,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v2
@@ -297,28 +276,24 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 6
     iget-object v2, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const-string v3, "MTAIENGINE_MODEL_HAND_GESTURE"
 
     invoke-virtual {v2, v3, v0}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->setSingleModelPath(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     iget-object v0, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const-string v2, "MTAIENGINE_MODEL_HAND_GESTURE_A"
 
     invoke-virtual {v0, v2, v1}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->setSingleModelPath(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     iget-object v0, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const-string v1, "MTAIENGINE_MODEL_HAND_GESTURE_B"
@@ -327,15 +302,12 @@
 
     const/4 p1, 0x1
 
-    .line 9
     iput-boolean p1, p0, Lf/d/e/a/a;->e:Z
 
-    .line 10
     iget-boolean p1, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz p1, :cond_1
 
-    .line 11
     sget-object p1, Lf/d/e/a/g;->z:Ljava/lang/String;
 
     const-string/jumbo v0, "\u8bbe\u7f6e\u624b\u52bf\u6a21\u578b \u6210\u529f\uff01\uff01"
@@ -344,7 +316,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_0
     sget-object p1, Lf/d/e/a/g;->z:Ljava/lang/String;
 
@@ -364,7 +335,6 @@
 
     invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13
     :cond_1
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V

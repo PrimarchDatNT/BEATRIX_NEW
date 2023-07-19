@@ -30,10 +30,8 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     const/16 v1, 0xa
@@ -44,7 +42,6 @@
 
     const-string v0, "{}"
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/library/analytics/sdk/db/a;->b:Ljava/lang/String;
 
     return-void
@@ -57,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
@@ -66,14 +62,12 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/a;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 
     move-result-object v2
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -93,7 +87,6 @@
 
     check-cast v4, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v4}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v5
@@ -114,7 +107,6 @@
 
     if-lt v3, v4, :cond_0
 
-    .line 5
     :cond_1
     invoke-interface {v1}, Lcom/meitu/library/analytics/y/o/p$a;->get()Lorg/json/JSONObject;
 
@@ -126,7 +118,6 @@
 
     iput-object v1, p0, Lcom/meitu/library/analytics/sdk/db/a;->b:Ljava/lang/String;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -145,14 +136,12 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     array-length v2, p1
 
     if-nez v2, :cond_0
 
     goto :goto_1
 
-    .line 2
     :cond_0
     array-length v2, p1
 
@@ -163,7 +152,6 @@
 
     aget-object v4, p1, v1
 
-    .line 3
     iget-object v5, p0, Lcom/meitu/library/analytics/sdk/db/a;->a:Ljava/util/HashMap;
 
     invoke-virtual {v5, v4}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -182,16 +170,13 @@
     :cond_2
     if-lez v3, :cond_3
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/library/analytics/sdk/db/a;->e()V
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 6
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/a;->a:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->size()I
@@ -225,12 +209,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/content/ContentValues;->valueSet()Ljava/util/Set;
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -252,7 +234,6 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -273,7 +254,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/meitu/library/analytics/sdk/db/a;->a:Ljava/util/HashMap;
 
@@ -289,7 +269,6 @@
 
     new-array p1, p1, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -305,10 +284,8 @@
     :cond_1
     if-lez v2, :cond_2
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/library/analytics/sdk/db/a;->e()V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -322,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -335,7 +311,6 @@
 
     const/16 v5, 0x64
 
-    .line 2
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v6
@@ -350,12 +325,10 @@
 
     invoke-static {v2, v7, v1}, Lcom/meitu/library/analytics/y/j/d;->k(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p1, v4, v5}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 4
     :cond_0
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
@@ -369,15 +342,12 @@
 
     const-string v6, "value length exceeded %d"
 
-    .line 5
     invoke-static {v2, v6, v1}, Lcom/meitu/library/analytics/y/j/d;->k(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 6
     invoke-virtual {p2, v4, v5}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 7
     :cond_1
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
@@ -385,20 +355,17 @@
 
     if-nez v1, :cond_2
 
-    .line 8
     iget-object p2, p0, Lcom/meitu/library/analytics/sdk/db/a;->a:Ljava/util/HashMap;
 
     invoke-virtual {p2, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/a;->a:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -412,7 +379,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/a;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

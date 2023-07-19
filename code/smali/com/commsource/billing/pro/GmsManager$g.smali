@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/pro/GmsManager$g;->a:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -60,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager$g;->a:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-static {v1}, Lcom/commsource/billing/pro/GmsManager;->c(Lcom/commsource/billing/pro/GmsManager;)Lcom/commsource/billing/pro/GmsManager$c;
@@ -69,7 +67,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/billing/pro/GmsManager$c;->F(Ljava/util/List;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager$g;->a:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-static {p1}, Lcom/commsource/billing/pro/GmsManager;->c(Lcom/commsource/billing/pro/GmsManager;)Lcom/commsource/billing/pro/GmsManager$c;
@@ -78,7 +75,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/billing/pro/GmsManager$c;->b()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -91,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager$g;->a:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-static {v1}, Lcom/commsource/billing/pro/GmsManager;->c(Lcom/commsource/billing/pro/GmsManager;)Lcom/commsource/billing/pro/GmsManager$c;
@@ -100,7 +95,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/billing/pro/GmsManager$c;->a(I)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager$g;->a:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-static {p1}, Lcom/commsource/billing/pro/GmsManager;->c(Lcom/commsource/billing/pro/GmsManager;)Lcom/commsource/billing/pro/GmsManager$c;
@@ -109,7 +103,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/billing/pro/GmsManager$c;->b()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

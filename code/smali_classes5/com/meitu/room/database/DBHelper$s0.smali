@@ -19,7 +19,6 @@
 .method constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/room/migration/Migration;-><init>(II)V
 
     return-void
@@ -44,25 +43,20 @@
 
     const-string v1, "ALTER TABLE STICKER_MATERIAL ADD COLUMN \'custom\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 1
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "ALTER TABLE STICKER_MATERIAL_GROUP ADD COLUMN \'StickerEnableTint\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 2
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "ALTER TABLE STICKER_MATERIAL_GROUP ADD COLUMN \'StickerCreator\' TEXT"
 
-    .line 3
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "ALTER TABLE STICKER_MATERIAL_GROUP ADD COLUMN \'StickerBg\' TEXT"
 
-    .line 4
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -35,15 +35,12 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/coroutines/jvm/internal/h;
 
     invoke-direct {v0}, Lcotlin/coroutines/jvm/internal/h;-><init>()V
 
-    .line 2
     invoke-static {p0, v0}, Lcotlin/coroutines/e;->h(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)V
 
-    .line 3
     invoke-virtual {v0}, Lcotlin/coroutines/jvm/internal/h;->b()V
 
     return-void

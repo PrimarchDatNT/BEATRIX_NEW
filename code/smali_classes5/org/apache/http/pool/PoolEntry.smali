@@ -68,7 +68,6 @@
         }
     .end annotation
 
-    .line 12
     sget-object v6, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v4, 0x0
@@ -98,34 +97,26 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Route"
 
-    .line 2
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Connection"
 
-    .line 3
     invoke-static {p3, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Time unit"
 
-    .line 4
     invoke-static {p6, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 5
     iput-object p1, p0, Lorg/apache/http/pool/PoolEntry;->id:Ljava/lang/String;
 
-    .line 6
     iput-object p2, p0, Lorg/apache/http/pool/PoolEntry;->route:Ljava/lang/Object;
 
-    .line 7
     iput-object p3, p0, Lorg/apache/http/pool/PoolEntry;->conn:Ljava/lang/Object;
 
-    .line 8
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
@@ -138,7 +129,6 @@
 
     if-lez p3, :cond_0
 
-    .line 9
     invoke-virtual {p6, p4, p5}, Ljava/util/concurrent/TimeUnit;->toMillis(J)J
 
     move-result-wide p3
@@ -152,10 +142,8 @@
     :cond_0
     const-wide p1, 0x7fffffffffffffffL
 
-    .line 10
     iput-wide p1, p0, Lorg/apache/http/pool/PoolEntry;->validityDeadline:J
 
-    .line 11
     :goto_0
     iget-wide p1, p0, Lorg/apache/http/pool/PoolEntry;->validityDeadline:J
 
@@ -177,7 +165,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/PoolEntry;->conn:Ljava/lang/Object;
 
     return-object v0
@@ -186,7 +173,6 @@
 .method public getCreated()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lorg/apache/http/pool/PoolEntry;->created:J
 
     return-wide v0
@@ -197,7 +183,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-wide v0, p0, Lorg/apache/http/pool/PoolEntry;->expiry:J
     :try_end_0
@@ -218,7 +203,6 @@
 .method public getId()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/PoolEntry;->id:Ljava/lang/String;
 
     return-object v0
@@ -232,7 +216,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/PoolEntry;->route:Ljava/lang/Object;
 
     return-object v0
@@ -241,7 +224,6 @@
 .method public getState()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/PoolEntry;->state:Ljava/lang/Object;
 
     return-object v0
@@ -252,7 +234,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-wide v0, p0, Lorg/apache/http/pool/PoolEntry;->updated:J
     :try_end_0
@@ -275,7 +256,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lorg/apache/http/pool/PoolEntry;->validityDeadline:J
 
     return-wide v0
@@ -284,7 +264,6 @@
 .method public getValidityDeadline()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lorg/apache/http/pool/PoolEntry;->validityDeadline:J
 
     return-wide v0
@@ -298,7 +277,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-wide v0, p0, Lorg/apache/http/pool/PoolEntry;->expiry:J
     :try_end_0
@@ -331,7 +309,6 @@
 .method public setState(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/http/pool/PoolEntry;->state:Ljava/lang/Object;
 
     return-void
@@ -340,47 +317,38 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v1, "[id:"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object v1, p0, Lorg/apache/http/pool/PoolEntry;->id:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, "][route:"
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     iget-object v1, p0, Lorg/apache/http/pool/PoolEntry;->route:Ljava/lang/Object;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string v1, "][state:"
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     iget-object v1, p0, Lorg/apache/http/pool/PoolEntry;->state:Ljava/lang/Object;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string v1, "]"
 
-    .line 8
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -396,10 +364,8 @@
     :try_start_0
     const-string v0, "Time unit"
 
-    .line 1
     invoke-static {p3, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -412,7 +378,6 @@
 
     if-lez v4, :cond_0
 
-    .line 3
     invoke-virtual {p3, p1, p2}, Ljava/util/concurrent/TimeUnit;->toMillis(J)J
 
     move-result-wide p1
@@ -424,7 +389,6 @@
     :cond_0
     const-wide v0, 0x7fffffffffffffffL
 
-    .line 4
     :goto_0
     iget-wide p1, p0, Lorg/apache/http/pool/PoolEntry;->validityDeadline:J
 
@@ -436,7 +400,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     monitor-exit p0
 
     return-void

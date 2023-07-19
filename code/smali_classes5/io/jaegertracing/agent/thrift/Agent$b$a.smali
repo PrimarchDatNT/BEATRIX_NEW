@@ -36,13 +36,10 @@
 .method public constructor <init>(Lorg/apache/thrift/async/TAsyncClientManager;Lorg/apache/thrift/protocol/TProtocolFactory;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/jaegertracing/agent/thrift/Agent$b$a;->a:Lorg/apache/thrift/async/TAsyncClientManager;
 
-    .line 3
     iput-object p2, p0, Lio/jaegertracing/agent/thrift/Agent$b$a;->b:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     return-void
@@ -53,7 +50,6 @@
 .method public a(Lorg/apache/thrift/transport/TNonblockingTransport;)Lio/jaegertracing/agent/thrift/Agent$b;
     .locals 3
 
-    .line 1
     new-instance v0, Lio/jaegertracing/agent/thrift/Agent$b;
 
     iget-object v1, p0, Lio/jaegertracing/agent/thrift/Agent$b$a;->b:Lorg/apache/thrift/protocol/TProtocolFactory;
@@ -68,7 +64,6 @@
 .method public bridge synthetic getAsyncClient(Lorg/apache/thrift/transport/TNonblockingTransport;)Lorg/apache/thrift/async/TAsyncClient;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/agent/thrift/Agent$b$a;->a(Lorg/apache/thrift/transport/TNonblockingTransport;)Lio/jaegertracing/agent/thrift/Agent$b;
 
     move-result-object p1

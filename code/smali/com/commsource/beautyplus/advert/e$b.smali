@@ -30,10 +30,8 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/advert/e;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/advert/e$b;->d:Lcom/commsource/beautyplus/advert/e;
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/commsource/beautyplus/advert/k;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -48,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/advert/e$b;->d:Lcom/commsource/beautyplus/advert/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyplus/advert/e;->f(Landroid/content/Context;)Ljava/lang/String;
@@ -67,12 +64,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/advert/e$b;->d:Lcom/commsource/beautyplus/advert/e;
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/beautyplus/advert/e;->m(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

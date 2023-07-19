@@ -50,7 +50,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/internal/a1;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -69,20 +68,16 @@
 .method public constructor <init>(JLcom/google/common/base/x;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     iput-object v0, p0, Lio/grpc/internal/a1;->c:Ljava/util/Map;
 
-    .line 3
     iput-wide p1, p0, Lio/grpc/internal/a1;->a:J
 
-    .line 4
     iput-object p3, p0, Lio/grpc/internal/a1;->b:Lcom/google/common/base/x;
 
     return-void
@@ -91,7 +86,6 @@
 .method private static b(Lio/grpc/internal/v$a;J)Ljava/lang/Runnable;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/internal/a1$a;
 
     invoke-direct {v0, p0, p1, p2}, Lio/grpc/internal/a1$a;-><init>(Lio/grpc/internal/v$a;J)V
@@ -102,7 +96,6 @@
 .method private static c(Lio/grpc/internal/v$a;Ljava/lang/Throwable;)Ljava/lang/Runnable;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/internal/a1$b;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/internal/a1$b;-><init>(Lio/grpc/internal/v$a;Ljava/lang/Throwable;)V
@@ -113,7 +106,6 @@
 .method private static e(Ljava/util/concurrent/Executor;Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-interface {p0, p1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
     :try_end_0
@@ -124,7 +116,6 @@
     :catchall_0
     move-exception p0
 
-    .line 2
     sget-object p1, Lio/grpc/internal/a1;->g:Ljava/util/logging/Logger;
 
     sget-object v0, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
@@ -140,7 +131,6 @@
 .method public static g(Lio/grpc/internal/v$a;Ljava/util/concurrent/Executor;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p2}, Lio/grpc/internal/a1;->c(Lio/grpc/internal/v$a;Ljava/lang/Throwable;)Ljava/lang/Runnable;
 
     move-result-object p0
@@ -155,26 +145,21 @@
 .method public a(Lio/grpc/internal/v$a;Ljava/util/concurrent/Executor;)V
     .locals 2
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lio/grpc/internal/a1;->d:Z
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/a1;->c:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     monitor-exit p0
 
     return-void
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/a1;->e:Ljava/lang/Throwable;
 
@@ -186,7 +171,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-wide v0, p0, Lio/grpc/internal/a1;->f:J
 
@@ -194,13 +178,11 @@
 
     move-result-object p1
 
-    .line 7
     :goto_0
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     invoke-static {p2, p1}, Lio/grpc/internal/a1;->e(Ljava/util/concurrent/Executor;Ljava/lang/Runnable;)V
 
     return-void
@@ -208,7 +190,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -220,10 +201,8 @@
 .method public d()Z
     .locals 6
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lio/grpc/internal/a1;->d:Z
 
@@ -231,7 +210,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     monitor-exit p0
 
     return v0
@@ -239,10 +217,8 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lio/grpc/internal/a1;->d:Z
 
-    .line 5
     iget-object v1, p0, Lio/grpc/internal/a1;->b:Lcom/google/common/base/x;
 
     sget-object v2, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
@@ -253,20 +229,16 @@
 
     iput-wide v1, p0, Lio/grpc/internal/a1;->f:J
 
-    .line 6
     iget-object v3, p0, Lio/grpc/internal/a1;->c:Ljava/util/Map;
 
     const/4 v4, 0x0
 
-    .line 7
     iput-object v4, p0, Lio/grpc/internal/a1;->c:Ljava/util/Map;
 
-    .line 8
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     invoke-interface {v3}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v3
@@ -288,7 +260,6 @@
 
     check-cast v4, Ljava/util/Map$Entry;
 
-    .line 10
     invoke-interface {v4}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v5
@@ -315,7 +286,6 @@
     :catchall_0
     move-exception v0
 
-    .line 11
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -327,16 +297,13 @@
 .method public f(Ljava/lang/Throwable;)V
     .locals 3
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lio/grpc/internal/a1;->d:Z
 
     if-eqz v0, :cond_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -344,26 +311,20 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lio/grpc/internal/a1;->d:Z
 
-    .line 5
     iput-object p1, p0, Lio/grpc/internal/a1;->e:Ljava/lang/Throwable;
 
-    .line 6
     iget-object v0, p0, Lio/grpc/internal/a1;->c:Ljava/util/Map;
 
     const/4 v1, 0x0
 
-    .line 7
     iput-object v1, p0, Lio/grpc/internal/a1;->c:Ljava/util/Map;
 
-    .line 8
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -385,7 +346,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 10
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -408,7 +368,6 @@
     :catchall_0
     move-exception p1
 
-    .line 11
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -420,7 +379,6 @@
 .method public h()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/grpc/internal/a1;->a:J
 
     return-wide v0

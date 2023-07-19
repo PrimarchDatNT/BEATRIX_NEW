@@ -102,10 +102,8 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     const-class v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ThreadPoolExecutor;
 
     const/4 v2, 0x0
@@ -124,7 +122,6 @@
 
     const-string v8, "OkHttp FramedConnection"
 
-    .line 3
     invoke-static {v8, v1}, Lcom/squareup/okhttp/internal/Util;->threadFactory(Ljava/lang/String;Z)Ljava/util/concurrent/ThreadFactory;
 
     move-result-object v8
@@ -148,17 +145,14 @@
 
     move-object/from16 v0, p0
 
-    .line 2
     invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     iput-object v1, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->streams:Ljava/util/Map;
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v1
@@ -167,17 +161,14 @@
 
     const-wide/16 v1, 0x0
 
-    .line 5
     iput-wide v1, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->unacknowledgedBytesRead:J
 
-    .line 6
     new-instance v1, Lcom/squareup/okhttp/internal/framed/Settings;
 
     invoke-direct {v1}, Lcom/squareup/okhttp/internal/framed/Settings;-><init>()V
 
     iput-object v1, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->okHttpSettings:Lcom/squareup/okhttp/internal/framed/Settings;
 
-    .line 7
     new-instance v1, Lcom/squareup/okhttp/internal/framed/Settings;
 
     invoke-direct {v1}, Lcom/squareup/okhttp/internal/framed/Settings;-><init>()V
@@ -186,45 +177,38 @@
 
     const/4 v2, 0x0
 
-    .line 8
     iput-boolean v2, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->receivedInitialPeerSettings:Z
 
-    .line 9
     new-instance v3, Ljava/util/LinkedHashSet;
 
     invoke-direct {v3}, Ljava/util/LinkedHashSet;-><init>()V
 
     iput-object v3, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->currentPushRequests:Ljava/util/Set;
 
-    .line 10
     invoke-static/range {p1 .. p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;->access$000(Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;)Lcom/squareup/okhttp/Protocol;
 
     move-result-object v3
 
     iput-object v3, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->protocol:Lcom/squareup/okhttp/Protocol;
 
-    .line 11
     invoke-static/range {p1 .. p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;->access$100(Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;)Lcom/squareup/okhttp/internal/framed/PushObserver;
 
     move-result-object v4
 
     iput-object v4, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pushObserver:Lcom/squareup/okhttp/internal/framed/PushObserver;
 
-    .line 12
     invoke-static/range {p1 .. p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;->access$200(Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;)Z
 
     move-result v4
 
     iput-boolean v4, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->client:Z
 
-    .line 13
     invoke-static/range {p1 .. p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;->access$300(Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;)Lcom/squareup/okhttp/internal/framed/FramedConnection$Listener;
 
     move-result-object v5
 
     iput-object v5, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->listener:Lcom/squareup/okhttp/internal/framed/FramedConnection$Listener;
 
-    .line 14
     invoke-static/range {p1 .. p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;->access$200(Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;)Z
 
     move-result v5
@@ -245,7 +229,6 @@
     :goto_0
     iput v5, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->nextStreamId:I
 
-    .line 15
     invoke-static/range {p1 .. p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;->access$200(Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;)Z
 
     move-result v5
@@ -256,14 +239,12 @@
 
     if-ne v3, v5, :cond_1
 
-    .line 16
     iget v5, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->nextStreamId:I
 
     add-int/2addr v5, v6
 
     iput v5, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->nextStreamId:I
 
-    .line 17
     :cond_1
     invoke-static/range {p1 .. p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;->access$200(Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;)Z
 
@@ -276,7 +257,6 @@
     :cond_2
     iput v6, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->nextPingId:I
 
-    .line 18
     invoke-static/range {p1 .. p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;->access$200(Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;)Z
 
     move-result v5
@@ -285,14 +265,12 @@
 
     if-eqz v5, :cond_3
 
-    .line 19
     iget-object v5, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->okHttpSettings:Lcom/squareup/okhttp/internal/framed/Settings;
 
     const/high16 v8, 0x1000000
 
     invoke-virtual {v5, v6, v2, v8}, Lcom/squareup/okhttp/internal/framed/Settings;->set(III)Lcom/squareup/okhttp/internal/framed/Settings;
 
-    .line 20
     :cond_3
     invoke-static/range {p1 .. p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;->access$400(Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;)Ljava/lang/String;
 
@@ -300,21 +278,18 @@
 
     iput-object v5, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->hostName:Ljava/lang/String;
 
-    .line 21
     sget-object v8, Lcom/squareup/okhttp/Protocol;->HTTP_2:Lcom/squareup/okhttp/Protocol;
 
     const/4 v9, 0x0
 
     if-ne v3, v8, :cond_4
 
-    .line 22
     new-instance v3, Lcom/squareup/okhttp/internal/framed/Http2;
 
     invoke-direct {v3}, Lcom/squareup/okhttp/internal/framed/Http2;-><init>()V
 
     iput-object v3, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->variant:Lcom/squareup/okhttp/internal/framed/Variant;
 
-    .line 23
     new-instance v3, Ljava/util/concurrent/ThreadPoolExecutor;
 
     const/4 v11, 0x0
@@ -335,7 +310,6 @@
 
     const-string v5, "OkHttp %s Push Observer"
 
-    .line 24
     invoke-static {v5, v8}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v5
@@ -352,38 +326,32 @@
 
     const v3, 0xffff
 
-    .line 25
     invoke-virtual {v1, v6, v2, v3}, Lcom/squareup/okhttp/internal/framed/Settings;->set(III)Lcom/squareup/okhttp/internal/framed/Settings;
 
     const/4 v3, 0x5
 
     const/16 v5, 0x4000
 
-    .line 26
     invoke-virtual {v1, v3, v2, v5}, Lcom/squareup/okhttp/internal/framed/Settings;->set(III)Lcom/squareup/okhttp/internal/framed/Settings;
 
     goto :goto_1
 
-    .line 27
     :cond_4
     sget-object v2, Lcom/squareup/okhttp/Protocol;->SPDY_3:Lcom/squareup/okhttp/Protocol;
 
     if-ne v3, v2, :cond_5
 
-    .line 28
     new-instance v2, Lcom/squareup/okhttp/internal/framed/Spdy3;
 
     invoke-direct {v2}, Lcom/squareup/okhttp/internal/framed/Spdy3;-><init>()V
 
     iput-object v2, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->variant:Lcom/squareup/okhttp/internal/framed/Variant;
 
-    .line 29
     iput-object v9, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pushExecutor:Ljava/util/concurrent/ExecutorService;
 
     :goto_1
     const/high16 v2, 0x10000
 
-    .line 30
     invoke-virtual {v1, v2}, Lcom/squareup/okhttp/internal/framed/Settings;->getInitialWindowSize(I)I
 
     move-result v1
@@ -392,14 +360,12 @@
 
     iput-wide v1, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->bytesLeftInWriteWindow:J
 
-    .line 31
     invoke-static/range {p1 .. p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;->access$500(Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;)Ljava/net/Socket;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->socket:Ljava/net/Socket;
 
-    .line 32
     iget-object v1, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->variant:Lcom/squareup/okhttp/internal/framed/Variant;
 
     invoke-static/range {p1 .. p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;->access$600(Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;)Lokio/BufferedSink;
@@ -412,7 +378,6 @@
 
     iput-object v1, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
-    .line 33
     new-instance v1, Lcom/squareup/okhttp/internal/framed/FramedConnection$Reader;
 
     iget-object v2, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->variant:Lcom/squareup/okhttp/internal/framed/Variant;
@@ -429,7 +394,6 @@
 
     iput-object v1, v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->readerRunnable:Lcom/squareup/okhttp/internal/framed/FramedConnection$Reader;
 
-    .line 34
     new-instance v2, Ljava/lang/Thread;
 
     invoke-direct {v2, v1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
@@ -438,7 +402,6 @@
 
     return-void
 
-    .line 35
     :cond_5
     new-instance v1, Ljava/lang/AssertionError;
 
@@ -455,7 +418,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection;-><init>(Lcom/squareup/okhttp/internal/framed/FramedConnection$Builder;)V
 
     return-void
@@ -464,7 +426,6 @@
 .method static synthetic access$1100(Lcom/squareup/okhttp/internal/framed/FramedConnection;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->hostName:Ljava/lang/String;
 
     return-object p0
@@ -478,7 +439,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->close(Lcom/squareup/okhttp/internal/framed/ErrorCode;Lcom/squareup/okhttp/internal/framed/ErrorCode;)V
 
     return-void
@@ -487,7 +447,6 @@
 .method static synthetic access$1300(Lcom/squareup/okhttp/internal/framed/FramedConnection;I)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pushedStream(I)Z
 
     move-result p0
@@ -503,7 +462,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pushDataLater(ILokio/BufferedSource;IZ)V
 
     return-void
@@ -512,7 +470,6 @@
 .method static synthetic access$1500(Lcom/squareup/okhttp/internal/framed/FramedConnection;ILjava/util/List;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pushHeadersLater(ILjava/util/List;Z)V
 
     return-void
@@ -521,7 +478,6 @@
 .method static synthetic access$1600(Lcom/squareup/okhttp/internal/framed/FramedConnection;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->shutdown:Z
 
     return p0
@@ -530,7 +486,6 @@
 .method static synthetic access$1602(Lcom/squareup/okhttp/internal/framed/FramedConnection;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->shutdown:Z
 
     return p1
@@ -539,7 +494,6 @@
 .method static synthetic access$1700(Lcom/squareup/okhttp/internal/framed/FramedConnection;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->lastGoodStreamId:I
 
     return p0
@@ -548,7 +502,6 @@
 .method static synthetic access$1702(Lcom/squareup/okhttp/internal/framed/FramedConnection;I)I
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->lastGoodStreamId:I
 
     return p1
@@ -557,7 +510,6 @@
 .method static synthetic access$1800(Lcom/squareup/okhttp/internal/framed/FramedConnection;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->nextStreamId:I
 
     return p0
@@ -566,7 +518,6 @@
 .method static synthetic access$1900(Lcom/squareup/okhttp/internal/framed/FramedConnection;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->streams:Ljava/util/Map;
 
     return-object p0
@@ -575,7 +526,6 @@
 .method static synthetic access$2000(Lcom/squareup/okhttp/internal/framed/FramedConnection;)Lcom/squareup/okhttp/internal/framed/FramedConnection$Listener;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->listener:Lcom/squareup/okhttp/internal/framed/FramedConnection$Listener;
 
     return-object p0
@@ -584,7 +534,6 @@
 .method static synthetic access$2100()Ljava/util/concurrent/ExecutorService;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->executor:Ljava/util/concurrent/ExecutorService;
 
     return-object v0
@@ -593,7 +542,6 @@
 .method static synthetic access$2200(Lcom/squareup/okhttp/internal/framed/FramedConnection;ILcom/squareup/okhttp/internal/framed/ErrorCode;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pushResetLater(ILcom/squareup/okhttp/internal/framed/ErrorCode;)V
 
     return-void
@@ -602,7 +550,6 @@
 .method static synthetic access$2300(Lcom/squareup/okhttp/internal/framed/FramedConnection;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->receivedInitialPeerSettings:Z
 
     return p0
@@ -611,7 +558,6 @@
 .method static synthetic access$2302(Lcom/squareup/okhttp/internal/framed/FramedConnection;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->receivedInitialPeerSettings:Z
 
     return p1
@@ -620,7 +566,6 @@
 .method static synthetic access$2400(Lcom/squareup/okhttp/internal/framed/FramedConnection;I)Lcom/squareup/okhttp/internal/framed/Ping;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->removePing(I)Lcom/squareup/okhttp/internal/framed/Ping;
 
     move-result-object p0
@@ -631,7 +576,6 @@
 .method static synthetic access$2500(Lcom/squareup/okhttp/internal/framed/FramedConnection;ZIILcom/squareup/okhttp/internal/framed/Ping;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->writePingLater(ZIILcom/squareup/okhttp/internal/framed/Ping;)V
 
     return-void
@@ -640,7 +584,6 @@
 .method static synthetic access$2600(Lcom/squareup/okhttp/internal/framed/FramedConnection;ILjava/util/List;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pushRequestLater(ILjava/util/List;)V
 
     return-void
@@ -649,7 +592,6 @@
 .method static synthetic access$2700(Lcom/squareup/okhttp/internal/framed/FramedConnection;)Lcom/squareup/okhttp/internal/framed/PushObserver;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pushObserver:Lcom/squareup/okhttp/internal/framed/PushObserver;
 
     return-object p0
@@ -658,7 +600,6 @@
 .method static synthetic access$2800(Lcom/squareup/okhttp/internal/framed/FramedConnection;)Ljava/util/Set;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->currentPushRequests:Ljava/util/Set;
 
     return-object p0
@@ -672,7 +613,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->writePing(ZIILcom/squareup/okhttp/internal/framed/Ping;)V
 
     return-void
@@ -688,7 +628,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0, p1}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->shutdown(Lcom/squareup/okhttp/internal/framed/ErrorCode;)V
     :try_end_0
@@ -701,11 +640,9 @@
     :catch_0
     move-exception p1
 
-    .line 3
     :goto_0
     monitor-enter p0
 
-    .line 4
     :try_start_1
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->streams:Ljava/util/Map;
 
@@ -717,7 +654,6 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->streams:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->values()Ljava/util/Collection;
@@ -738,12 +674,10 @@
 
     check-cast v1, [Lcom/squareup/okhttp/internal/framed/FramedStream;
 
-    .line 6
     iget-object v3, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->streams:Ljava/util/Map;
 
     invoke-interface {v3}, Ljava/util/Map;->clear()V
 
-    .line 7
     invoke-direct {p0, v2}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->setIdle(Z)V
 
     goto :goto_1
@@ -751,13 +685,11 @@
     :cond_0
     move-object v1, v0
 
-    .line 8
     :goto_1
     iget-object v3, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pings:Ljava/util/Map;
 
     if-eqz v3, :cond_1
 
-    .line 9
     invoke-interface {v3}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     move-result-object v3
@@ -776,12 +708,10 @@
 
     check-cast v3, [Lcom/squareup/okhttp/internal/framed/Ping;
 
-    .line 10
     iput-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pings:Ljava/util/Map;
 
     move-object v0, v3
 
-    .line 11
     :cond_1
     monitor-exit p0
     :try_end_1
@@ -789,7 +719,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 12
     array-length v3, v1
 
     const/4 v4, 0x0
@@ -799,7 +728,6 @@
 
     aget-object v5, v1, v4
 
-    .line 13
     :try_start_2
     invoke-virtual {v5, p2}, Lcom/squareup/okhttp/internal/framed/FramedStream;->close(Lcom/squareup/okhttp/internal/framed/ErrorCode;)V
     :try_end_2
@@ -823,7 +751,6 @@
     :cond_3
     if-eqz v0, :cond_4
 
-    .line 14
     array-length p2, v0
 
     :goto_4
@@ -831,14 +758,12 @@
 
     aget-object v1, v0, v2
 
-    .line 15
     invoke-virtual {v1}, Lcom/squareup/okhttp/internal/framed/Ping;->cancel()V
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_4
 
-    .line 16
     :cond_4
     :try_start_3
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
@@ -856,7 +781,6 @@
 
     move-object p1, p2
 
-    .line 17
     :cond_5
     :goto_5
     :try_start_4
@@ -876,14 +800,12 @@
 
     return-void
 
-    .line 18
     :cond_6
     throw p1
 
     :catchall_0
     move-exception p1
 
-    .line 19
     :try_start_5
     monitor-exit p0
     :try_end_5
@@ -914,32 +836,26 @@
 
     xor-int/lit8 p4, p4, 0x1
 
-    .line 2
     iget-object v7, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     monitor-enter v7
 
-    .line 3
     :try_start_0
     monitor-enter p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 4
     :try_start_1
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->shutdown:Z
 
     if-nez v0, :cond_4
 
-    .line 5
     iget v8, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->nextStreamId:I
 
     add-int/lit8 v0, v8, 0x2
 
-    .line 6
     iput v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->nextStreamId:I
 
-    .line 7
     new-instance v9, Lcom/squareup/okhttp/internal/framed/FramedStream;
 
     move-object v0, v9
@@ -956,14 +872,12 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/squareup/okhttp/internal/framed/FramedStream;-><init>(ILcom/squareup/okhttp/internal/framed/FramedConnection;ZZLjava/util/List;)V
 
-    .line 8
     invoke-virtual {v9}, Lcom/squareup/okhttp/internal/framed/FramedStream;->isOpen()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 9
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->streams:Ljava/util/Map;
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -974,10 +888,8 @@
 
     const/4 v0, 0x0
 
-    .line 10
     invoke-direct {p0, v0}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->setIdle(Z)V
 
-    .line 11
     :cond_0
     monitor-exit p0
     :try_end_1
@@ -985,7 +897,6 @@
 
     if-nez p1, :cond_1
 
-    .line 12
     :try_start_2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
@@ -1003,18 +914,15 @@
 
     goto :goto_0
 
-    .line 13
     :cond_1
     iget-boolean p4, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->client:Z
 
     if-nez p4, :cond_3
 
-    .line 14
     iget-object p4, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     invoke-interface {p4, p1, v8, p2}, Lcom/squareup/okhttp/internal/framed/FrameWriter;->pushPromise(IILjava/util/List;)V
 
-    .line 15
     :goto_0
     monitor-exit v7
     :try_end_2
@@ -1022,7 +930,6 @@
 
     if-nez p3, :cond_2
 
-    .line 16
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     invoke-interface {p1}, Lcom/squareup/okhttp/internal/framed/FrameWriter;->flush()V
@@ -1030,7 +937,6 @@
     :cond_2
     return-object v9
 
-    .line 17
     :cond_3
     :try_start_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
@@ -1043,7 +949,6 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 18
     :cond_4
     :try_start_4
     new-instance p1, Ljava/io/IOException;
@@ -1057,7 +962,6 @@
     :catchall_0
     move-exception p1
 
-    .line 19
     monitor-exit p0
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
@@ -1068,7 +972,6 @@
     :catchall_1
     move-exception p1
 
-    .line 20
     monitor-exit v7
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
@@ -1084,20 +987,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Lokio/Buffer;
 
     invoke-direct {v5}, Lokio/Buffer;-><init>()V
 
     int-to-long v0, p3
 
-    .line 2
     invoke-interface {p2, v0, v1}, Lokio/BufferedSource;->require(J)V
 
-    .line 3
     invoke-interface {p2, v5, v0, v1}, Lokio/Source;->read(Lokio/Buffer;J)J
 
-    .line 4
     invoke-virtual {v5}, Lokio/Buffer;->size()J
 
     move-result-wide v2
@@ -1106,7 +1005,6 @@
 
     if-nez p2, :cond_0
 
-    .line 5
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pushExecutor:Ljava/util/concurrent/ExecutorService;
 
     new-instance v8, Lcom/squareup/okhttp/internal/framed/FramedConnection$6;
@@ -1147,7 +1045,6 @@
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/io/IOException;
 
@@ -1187,7 +1084,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pushExecutor:Ljava/util/concurrent/ExecutorService;
 
     new-instance v8, Lcom/squareup/okhttp/internal/framed/FramedConnection$5;
@@ -1240,10 +1136,8 @@
         }
     .end annotation
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->currentPushRequests:Ljava/util/Set;
 
@@ -1257,17 +1151,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     sget-object p2, Lcom/squareup/okhttp/internal/framed/ErrorCode;->PROTOCOL_ERROR:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     invoke-virtual {p0, p1, p2}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->writeSynResetLater(ILcom/squareup/okhttp/internal/framed/ErrorCode;)V
 
-    .line 4
     monitor-exit p0
 
     return-void
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->currentPushRequests:Ljava/util/Set;
 
@@ -1277,12 +1168,10 @@
 
     invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 6
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pushExecutor:Ljava/util/concurrent/ExecutorService;
 
     new-instance v7, Lcom/squareup/okhttp/internal/framed/FramedConnection$4;
@@ -1324,7 +1213,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1336,7 +1224,6 @@
 .method private pushResetLater(ILcom/squareup/okhttp/internal/framed/ErrorCode;)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pushExecutor:Ljava/util/concurrent/ExecutorService;
 
     new-instance v7, Lcom/squareup/okhttp/internal/framed/FramedConnection$7;
@@ -1379,7 +1266,6 @@
 .method private pushedStream(I)Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->protocol:Lcom/squareup/okhttp/Protocol;
 
     sget-object v1, Lcom/squareup/okhttp/Protocol;->HTTP_2:Lcom/squareup/okhttp/Protocol;
@@ -1408,7 +1294,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pings:Ljava/util/Map;
 
@@ -1451,7 +1336,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     :try_start_0
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
@@ -1472,7 +1356,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -1491,24 +1374,20 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     monitor-enter v0
 
     if-eqz p4, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {p4}, Lcom/squareup/okhttp/internal/framed/Ping;->send()V
 
-    .line 3
     :cond_0
     iget-object p4, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     invoke-interface {p4, p1, p2, p3}, Lcom/squareup/okhttp/internal/framed/FrameWriter;->ping(ZII)V
 
-    .line 4
     monitor-exit v0
 
     return-void
@@ -1526,7 +1405,6 @@
 .method private writePingLater(ZIILcom/squareup/okhttp/internal/framed/Ping;)V
     .locals 10
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->executor:Ljava/util/concurrent/ExecutorService;
 
     new-instance v9, Lcom/squareup/okhttp/internal/framed/FramedConnection$3;
@@ -1541,7 +1419,6 @@
 
     aput-object v1, v4, v2
 
-    .line 2
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -1574,7 +1451,6 @@
 
     invoke-direct/range {v1 .. v8}, Lcom/squareup/okhttp/internal/framed/FramedConnection$3;-><init>(Lcom/squareup/okhttp/internal/framed/FramedConnection;Ljava/lang/String;[Ljava/lang/Object;ZIILcom/squareup/okhttp/internal/framed/Ping;)V
 
-    .line 3
     invoke-interface {v0, v9}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
     return-void
@@ -1585,7 +1461,6 @@
 .method addBytesToWriteWindow(J)V
     .locals 3
 
-    .line 1
     iget-wide v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->bytesLeftInWriteWindow:J
 
     add-long/2addr v0, p1
@@ -1598,7 +1473,6 @@
 
     if-lez v2, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
 
     :cond_0
@@ -1613,7 +1487,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/internal/framed/ErrorCode;->NO_ERROR:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     sget-object v1, Lcom/squareup/okhttp/internal/framed/ErrorCode;->CANCEL:Lcom/squareup/okhttp/internal/framed/ErrorCode;
@@ -1631,7 +1504,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     invoke-interface {v0}, Lcom/squareup/okhttp/internal/framed/FrameWriter;->flush()V
@@ -1644,7 +1516,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-wide v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->idleStartTimeNs:J
     :try_end_0
@@ -1665,7 +1536,6 @@
 .method public getProtocol()Lcom/squareup/okhttp/Protocol;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->protocol:Lcom/squareup/okhttp/Protocol;
 
     return-object v0
@@ -1676,7 +1546,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->streams:Ljava/util/Map;
 
@@ -1709,7 +1578,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-wide v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->idleStartTimeNs:J
     :try_end_0
@@ -1746,7 +1614,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->peerSettings:Lcom/squareup/okhttp/internal/framed/Settings;
 
@@ -1790,7 +1657,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0, p1, p2, p3}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->newStream(ILjava/util/List;ZZ)Lcom/squareup/okhttp/internal/framed/FramedStream;
 
     move-result-object p1
@@ -1803,7 +1669,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->streams:Ljava/util/Map;
 
@@ -1833,29 +1698,23 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/internal/framed/Ping;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/internal/framed/Ping;-><init>()V
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-boolean v1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->shutdown:Z
 
     if-nez v1, :cond_1
 
-    .line 4
     iget v1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->nextPingId:I
 
     add-int/lit8 v2, v1, 0x2
 
-    .line 5
     iput v2, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->nextPingId:I
 
-    .line 6
     iget-object v2, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pings:Ljava/util/Map;
 
     if-nez v2, :cond_0
@@ -1866,7 +1725,6 @@
 
     iput-object v2, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pings:Ljava/util/Map;
 
-    .line 7
     :cond_0
     iget-object v2, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->pings:Ljava/util/Map;
 
@@ -1876,7 +1734,6 @@
 
     invoke-interface {v2, v3, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1885,12 +1742,10 @@
 
     const v3, 0x4f4b6f6b
 
-    .line 9
     invoke-direct {p0, v2, v1, v3, v0}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->writePing(ZIILcom/squareup/okhttp/internal/framed/Ping;)V
 
     return-object v0
 
-    .line 10
     :cond_1
     :try_start_1
     new-instance v0, Ljava/io/IOException;
@@ -1904,7 +1759,6 @@
     :catchall_0
     move-exception v0
 
-    .line 11
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1930,12 +1784,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->client:Z
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->protocol:Lcom/squareup/okhttp/Protocol;
 
     sget-object v1, Lcom/squareup/okhttp/Protocol;->HTTP_2:Lcom/squareup/okhttp/Protocol;
@@ -1944,14 +1796,12 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->newStream(ILjava/util/List;ZZ)Lcom/squareup/okhttp/internal/framed/FramedStream;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1961,7 +1811,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1977,7 +1826,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->streams:Ljava/util/Map;
 
@@ -1993,7 +1841,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->streams:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
@@ -2004,16 +1851,13 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-direct {p0, v0}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->setIdle(Z)V
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     monitor-exit p0
 
     return-object p1
@@ -2034,19 +1878,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     invoke-interface {v0}, Lcom/squareup/okhttp/internal/framed/FrameWriter;->connectionPreface()V
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->okHttpSettings:Lcom/squareup/okhttp/internal/framed/Settings;
 
     invoke-interface {v0, v1}, Lcom/squareup/okhttp/internal/framed/FrameWriter;->settings(Lcom/squareup/okhttp/internal/framed/Settings;)V
 
-    .line 3
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->okHttpSettings:Lcom/squareup/okhttp/internal/framed/Settings;
 
     const/high16 v1, 0x10000
@@ -2057,7 +1898,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     const/4 v3, 0x0
@@ -2080,39 +1920,32 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     monitor-enter p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 3
     :try_start_1
     iget-boolean v1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->shutdown:Z
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->okHttpSettings:Lcom/squareup/okhttp/internal/framed/Settings;
 
     invoke-virtual {v1, p1}, Lcom/squareup/okhttp/internal/framed/Settings;->merge(Lcom/squareup/okhttp/internal/framed/Settings;)V
 
-    .line 5
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     invoke-interface {v1, p1}, Lcom/squareup/okhttp/internal/framed/FrameWriter;->settings(Lcom/squareup/okhttp/internal/framed/Settings;)V
 
-    .line 6
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     :try_start_2
     monitor-exit v0
     :try_end_2
@@ -2120,7 +1953,6 @@
 
     return-void
 
-    .line 8
     :cond_0
     :try_start_3
     new-instance p1, Ljava/io/IOException;
@@ -2134,7 +1966,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     monitor-exit p0
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -2145,7 +1976,6 @@
     :catchall_1
     move-exception p1
 
-    .line 10
     monitor-exit v0
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
@@ -2161,24 +1991,20 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     monitor-enter p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 3
     :try_start_1
     iget-boolean v1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->shutdown:Z
 
     if-eqz v1, :cond_0
 
-    .line 4
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -2193,19 +2019,15 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 5
     :try_start_3
     iput-boolean v1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->shutdown:Z
 
-    .line 6
     iget v1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->lastGoodStreamId:I
 
-    .line 7
     monitor-exit p0
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 8
     :try_start_4
     iget-object v2, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
@@ -2213,7 +2035,6 @@
 
     invoke-interface {v2, v1, p1, v3}, Lcom/squareup/okhttp/internal/framed/FrameWriter;->goAway(ILcom/squareup/okhttp/internal/framed/ErrorCode;[B)V
 
-    .line 9
     monitor-exit v0
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
@@ -2223,7 +2044,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     :try_start_5
     monitor-exit p0
     :try_end_5
@@ -2235,7 +2055,6 @@
     :catchall_1
     move-exception p1
 
-    .line 11
     monitor-exit v0
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_1
@@ -2259,7 +2078,6 @@
 
     if-nez v3, :cond_0
 
-    .line 1
     iget-object p4, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     invoke-interface {p4, p2, p1, p3, v0}, Lcom/squareup/okhttp/internal/framed/FrameWriter;->data(ZILokio/Buffer;I)V
@@ -2272,10 +2090,8 @@
 
     if-lez v3, :cond_4
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :goto_1
     :try_start_0
     iget-wide v3, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->bytesLeftInWriteWindow:J
@@ -2284,7 +2100,6 @@
 
     if-gtz v5, :cond_2
 
-    .line 4
     iget-object v3, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->streams:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2297,12 +2112,10 @@
 
     if-eqz v3, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/Object;->wait()V
 
     goto :goto_1
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/io/IOException;
 
@@ -2315,7 +2128,6 @@
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     :cond_2
     :try_start_1
     invoke-static {p4, p5, v3, v4}, Ljava/lang/Math;->min(JJ)J
@@ -2324,7 +2136,6 @@
 
     long-to-int v4, v3
 
-    .line 8
     iget-object v3, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     invoke-interface {v3}, Lcom/squareup/okhttp/internal/framed/FrameWriter;->maxDataLength()I
@@ -2335,7 +2146,6 @@
 
     move-result v3
 
-    .line 9
     iget-wide v4, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->bytesLeftInWriteWindow:J
 
     int-to-long v6, v3
@@ -2344,14 +2154,12 @@
 
     iput-wide v4, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->bytesLeftInWriteWindow:J
 
-    .line 10
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     sub-long/2addr p4, v6
 
-    .line 11
     iget-object v4, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     if-eqz p2, :cond_3
@@ -2377,7 +2185,6 @@
 
     goto :goto_3
 
-    .line 12
     :catch_0
     :try_start_2
     new-instance p1, Ljava/io/InterruptedIOException;
@@ -2386,7 +2193,6 @@
 
     throw p1
 
-    .line 13
     :goto_3
     monitor-exit p0
     :try_end_2
@@ -2415,7 +2221,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     invoke-interface {v0, p2, p1, p3}, Lcom/squareup/okhttp/internal/framed/FrameWriter;->synReply(ZILjava/util/List;)V
@@ -2431,7 +2236,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->frameWriter:Lcom/squareup/okhttp/internal/framed/FrameWriter;
 
     invoke-interface {v0, p1, p2}, Lcom/squareup/okhttp/internal/framed/FrameWriter;->rstStream(ILcom/squareup/okhttp/internal/framed/ErrorCode;)V
@@ -2442,7 +2246,6 @@
 .method writeSynResetLater(ILcom/squareup/okhttp/internal/framed/ErrorCode;)V
     .locals 8
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->executor:Ljava/util/concurrent/ExecutorService;
 
     new-instance v7, Lcom/squareup/okhttp/internal/framed/FramedConnection$1;
@@ -2485,7 +2288,6 @@
 .method writeWindowUpdateLater(IJ)V
     .locals 9
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/internal/framed/FramedConnection;->executor:Ljava/util/concurrent/ExecutorService;
 
     new-instance v8, Lcom/squareup/okhttp/internal/framed/FramedConnection$2;

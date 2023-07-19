@@ -58,7 +58,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/jvm/internal/l0;->a:Ljava/lang/Class;
@@ -84,7 +83,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/jvm/KotlinReflectionNotSupportedError;
 
     invoke-direct {v0}, Lcotlin/jvm/KotlinReflectionNotSupportedError;-><init>()V
@@ -99,7 +97,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlin/jvm/internal/l0;
 
     if-eqz v0, :cond_0
@@ -134,7 +131,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/jvm/internal/l0;->q()Ljava/lang/Class;
 
     move-result-object v0
@@ -159,7 +155,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/jvm/internal/l0;->a:Ljava/lang/Class;
 
     return-object v0
@@ -170,7 +165,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

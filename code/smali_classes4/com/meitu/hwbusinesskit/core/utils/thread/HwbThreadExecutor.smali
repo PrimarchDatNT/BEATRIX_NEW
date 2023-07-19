@@ -45,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -56,13 +55,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     sput-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mFastExecutor:Ljava/util/concurrent/ThreadPoolExecutor;
 
-    .line 3
     sput-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mSlowExecutor:Ljava/util/concurrent/ThreadPoolExecutor;
 
-    .line 4
     new-instance v1, Ljava/util/concurrent/atomic/AtomicLong;
 
     const-wide/16 v2, 0x0
@@ -71,14 +67,12 @@
 
     sput-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mFastIdentity:Ljava/util/concurrent/atomic/AtomicLong;
 
-    .line 5
     new-instance v1, Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-direct {v1, v2, v3}, Ljava/util/concurrent/atomic/AtomicLong;-><init>(J)V
 
     sput-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mSlowIdentity:Ljava/util/concurrent/atomic/AtomicLong;
 
-    .line 6
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/a;->a:Lcom/meitu/hwbusinesskit/core/utils/thread/a;
 
     sput-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->FIFO:Ljava/util/Comparator;
@@ -91,10 +85,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
@@ -111,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;
 
     if-eqz v1, :cond_1
@@ -120,13 +111,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p0, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;
 
-    .line 3
     check-cast p1, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->getPriority()I
 
     move-result v1
@@ -139,7 +127,6 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->getIdentify()J
 
     move-result-wide v1
@@ -160,7 +147,6 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -173,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->TAG:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -188,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mFastIdentity:Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicLong;->getAndIncrement()J
@@ -197,14 +181,12 @@
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->setIdentify(J)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->getFastExecutor()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
     invoke-interface {v1, p0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -217,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mSlowIdentity:Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicLong;->getAndIncrement()J
@@ -226,14 +207,12 @@
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->setIdentify(J)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->getSlowExecutor()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
     invoke-interface {v1, p0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -246,23 +225,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mFastExecutor:Ljava/util/concurrent/ThreadPoolExecutor;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mFastExecutor:Ljava/util/concurrent/ThreadPoolExecutor;
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v2
@@ -275,7 +250,6 @@
 
     add-int/lit8 v4, v2, -0x1
 
-    .line 5
     invoke-static {v3, v4}, Ljava/lang/Math;->max(II)I
 
     move-result v6
@@ -286,12 +260,10 @@
 
     add-int/2addr v2, v3
 
-    .line 6
     invoke-static {v6, v2}, Ljava/lang/Math;->max(II)I
 
     move-result v7
 
-    .line 7
     new-instance v2, Ljava/util/concurrent/ThreadPoolExecutor;
 
     const-wide/16 v8, 0xa
@@ -318,12 +290,10 @@
 
     sput-object v2, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mFastExecutor:Ljava/util/concurrent/ThreadPoolExecutor;
 
-    .line 8
     sget-object v2, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mFastExecutor:Ljava/util/concurrent/ThreadPoolExecutor;
 
     invoke-virtual {v2, v3}, Ljava/util/concurrent/ThreadPoolExecutor;->allowCoreThreadTimeOut(Z)V
 
-    .line 9
     :cond_0
     monitor-exit v1
 
@@ -340,7 +310,6 @@
 
     throw v2
 
-    .line 10
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mFastExecutor:Ljava/util/concurrent/ThreadPoolExecutor;
@@ -357,23 +326,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mSlowExecutor:Ljava/util/concurrent/ThreadPoolExecutor;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mSlowExecutor:Ljava/util/concurrent/ThreadPoolExecutor;
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v2
@@ -388,7 +353,6 @@
 
     add-int/lit8 v6, v2, 0x1
 
-    .line 5
     new-instance v2, Ljava/util/concurrent/ThreadPoolExecutor;
 
     const/4 v5, 0x2
@@ -419,12 +383,10 @@
 
     sput-object v2, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mSlowExecutor:Ljava/util/concurrent/ThreadPoolExecutor;
 
-    .line 6
     sget-object v2, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mSlowExecutor:Ljava/util/concurrent/ThreadPoolExecutor;
 
     invoke-virtual {v2, v3}, Ljava/util/concurrent/ThreadPoolExecutor;->allowCoreThreadTimeOut(Z)V
 
-    .line 7
     :cond_0
     monitor-exit v1
 
@@ -441,7 +403,6 @@
 
     throw v2
 
-    .line 8
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->mSlowExecutor:Ljava/util/concurrent/ThreadPoolExecutor;

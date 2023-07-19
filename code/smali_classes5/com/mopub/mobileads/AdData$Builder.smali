@@ -128,30 +128,24 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x7530
 
-    .line 2
     iput v0, p0, Lcom/mopub/mobileads/AdData$Builder;->timeoutDelayMillis:I
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->dspCreativeId:Ljava/lang/String;
 
-    .line 4
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adPayload:Ljava/lang/String;
 
-    .line 5
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->extras:Ljava/util/Map;
 
-    .line 6
     sget-object v0, Lcom/mopub/mobileads/CreativeExperienceSettings;->Companion:Lcom/mopub/mobileads/CreativeExperienceSettings$Companion;
 
     const/4 v1, 0x0
@@ -176,7 +170,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->adHeight:Ljava/lang/Integer;
 
     return-object p0
@@ -195,7 +188,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->adPayload:Ljava/lang/String;
 
     return-object p0
@@ -210,7 +202,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->adType:Ljava/lang/String;
 
     return-object p0
@@ -225,7 +216,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->adUnit:Ljava/lang/String;
 
     return-object p0
@@ -240,7 +230,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->adWidth:Ljava/lang/Integer;
 
     return-object p0
@@ -251,7 +240,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-wide p1, p0, Lcom/mopub/mobileads/AdData$Builder;->broadcastIdentifier:J
 
     return-object p0
@@ -262,7 +250,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/AdData;
 
     const/4 v1, 0x0
@@ -285,7 +272,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->creativeExperienceSettings:Lcom/mopub/mobileads/CreativeExperienceSettings;
 
     return-object p0
@@ -296,7 +282,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/mopub/mobileads/AdData$Builder;->currencyAmount:I
 
     return-object p0
@@ -311,7 +296,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->currencyName:Ljava/lang/String;
 
     return-object p0
@@ -326,7 +310,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->customerId:Ljava/lang/String;
 
     return-object p0
@@ -341,7 +324,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->dspCreativeId:Ljava/lang/String;
 
     return-object p0
@@ -371,7 +353,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/TreeMap;
 
     invoke-direct {v0, p1}, Ljava/util/TreeMap;-><init>(Ljava/util/Map;)V
@@ -394,140 +375,120 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getVastVideoConfigString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->vastVideoConfigString:Ljava/lang/String;
 
-    .line 2
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getOrientation()Lcom/mopub/common/CreativeOrientation;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->orientation:Lcom/mopub/common/CreativeOrientation;
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getBroadcastIdentifier()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/mopub/mobileads/AdData$Builder;->broadcastIdentifier:J
 
-    .line 4
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getTimeoutDelayMillis()I
 
     move-result v0
 
     iput v0, p0, Lcom/mopub/mobileads/AdData$Builder;->timeoutDelayMillis:I
 
-    .line 5
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getImpressionMinVisibleDips()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->impressionMinVisibleDips:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getImpressionMinVisibleMs()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->impressionMinVisibleMs:Ljava/lang/String;
 
-    .line 7
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getDspCreativeId()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->dspCreativeId:Ljava/lang/String;
 
-    .line 8
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getAdPayload()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adPayload:Ljava/lang/String;
 
-    .line 9
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getExtras()Ljava/util/Map;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->extras:Ljava/util/Map;
 
-    .line 10
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->isRewarded()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/mopub/mobileads/AdData$Builder;->isRewarded:Z
 
-    .line 11
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getCurrencyName()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->currencyName:Ljava/lang/String;
 
-    .line 12
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getCurrencyAmount()I
 
     move-result v0
 
     iput v0, p0, Lcom/mopub/mobileads/AdData$Builder;->currencyAmount:I
 
-    .line 13
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getAdWidth()Ljava/lang/Integer;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adWidth:Ljava/lang/Integer;
 
-    .line 14
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getAdHeight()Ljava/lang/Integer;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adHeight:Ljava/lang/Integer;
 
-    .line 15
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getAdUnit()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adUnit:Ljava/lang/String;
 
-    .line 16
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getAdType()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adType:Ljava/lang/String;
 
-    .line 17
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getFullAdType()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->fullAdType:Ljava/lang/String;
 
-    .line 18
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getCustomerId()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->customerId:Ljava/lang/String;
 
-    .line 19
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getViewabilityVendors()Ljava/util/Set;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->viewabilityVendors:Ljava/util/Set;
 
-    .line 20
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getCreativeExperienceSettings()Lcom/mopub/mobileads/CreativeExperienceSettings;
 
     move-result-object p1
@@ -546,7 +507,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->fullAdType:Ljava/lang/String;
 
     return-object p0
@@ -557,7 +517,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adHeight:Ljava/lang/Integer;
 
     return-object v0
@@ -568,7 +527,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adPayload:Ljava/lang/String;
 
     return-object v0
@@ -579,7 +537,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adType:Ljava/lang/String;
 
     return-object v0
@@ -590,7 +547,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adUnit:Ljava/lang/String;
 
     return-object v0
@@ -601,7 +557,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adWidth:Ljava/lang/Integer;
 
     return-object v0
@@ -610,7 +565,6 @@
 .method public final getBroadcastIdentifier()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/mopub/mobileads/AdData$Builder;->broadcastIdentifier:J
 
     return-wide v0
@@ -621,7 +575,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->creativeExperienceSettings:Lcom/mopub/mobileads/CreativeExperienceSettings;
 
     return-object v0
@@ -630,7 +583,6 @@
 .method public final getCurrencyAmount()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/AdData$Builder;->currencyAmount:I
 
     return v0
@@ -641,7 +593,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->currencyName:Ljava/lang/String;
 
     return-object v0
@@ -652,7 +603,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->customerId:Ljava/lang/String;
 
     return-object v0
@@ -663,7 +613,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->dspCreativeId:Ljava/lang/String;
 
     return-object v0
@@ -684,7 +633,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->extras:Ljava/util/Map;
 
     return-object v0
@@ -695,7 +643,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->fullAdType:Ljava/lang/String;
 
     return-object v0
@@ -706,7 +653,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->impressionMinVisibleDips:Ljava/lang/String;
 
     return-object v0
@@ -717,7 +663,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->impressionMinVisibleMs:Ljava/lang/String;
 
     return-object v0
@@ -728,7 +673,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->orientation:Lcom/mopub/common/CreativeOrientation;
 
     return-object v0
@@ -737,7 +681,6 @@
 .method public final getTimeoutDelayMillis()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/AdData$Builder;->timeoutDelayMillis:I
 
     return v0
@@ -748,7 +691,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->vastVideoConfigString:Ljava/lang/String;
 
     return-object v0
@@ -768,7 +710,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->viewabilityVendors:Ljava/util/Set;
 
     return-object v0
@@ -783,7 +724,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->impressionMinVisibleDips:Ljava/lang/String;
 
     return-object p0
@@ -798,7 +738,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->impressionMinVisibleMs:Ljava/lang/String;
 
     return-object p0
@@ -809,7 +748,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     iput-boolean p1, p0, Lcom/mopub/mobileads/AdData$Builder;->isRewarded:Z
 
     return-object p0
@@ -818,7 +756,6 @@
 .method public final isRewarded()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/AdData$Builder;->isRewarded:Z
 
     return v0
@@ -833,7 +770,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->orientation:Lcom/mopub/common/CreativeOrientation;
 
     return-object p0
@@ -844,7 +780,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/mopub/mobileads/AdData$Builder;->timeoutDelayMillis:I
 
     return-object p0
@@ -859,7 +794,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->vastVideoConfigString:Ljava/lang/String;
 
     return-object p0
@@ -887,7 +821,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-static {p1}, Lcotlin/collections/s;->f2(Ljava/lang/Iterable;)Ljava/util/List;
@@ -901,7 +834,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     iput-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->viewabilityVendors:Ljava/util/Set;
 

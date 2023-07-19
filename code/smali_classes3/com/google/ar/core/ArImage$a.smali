@@ -26,15 +26,12 @@
 .method public constructor <init>(Lcom/google/ar/core/ArImage;JI)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ar/core/ArImage$a;->c:Lcom/google/ar/core/ArImage;
 
     invoke-direct {p0}, Lc/a/a;-><init>()V
 
-    .line 2
     iput-wide p2, p0, Lcom/google/ar/core/ArImage$a;->a:J
 
-    .line 3
     iput p4, p0, Lcom/google/ar/core/ArImage$a;->b:I
 
     return-void
@@ -45,7 +42,6 @@
 .method public final getBuffer()Ljava/nio/ByteBuffer;
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ArImage$a;->c:Lcom/google/ar/core/ArImage;
 
     iget-object v1, v0, Lcom/google/ar/core/ArImage;->session:Lcom/google/ar/core/Session;
@@ -60,7 +56,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->asReadOnlyBuffer()Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -71,7 +66,6 @@
 .method public final getPixelStride()I
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ArImage$a;->c:Lcom/google/ar/core/ArImage;
 
     iget-object v1, v0, Lcom/google/ar/core/ArImage;->session:Lcom/google/ar/core/Session;
@@ -92,7 +86,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -106,7 +99,6 @@
 .method public final getRowStride()I
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ArImage$a;->c:Lcom/google/ar/core/ArImage;
 
     iget-object v1, v0, Lcom/google/ar/core/ArImage;->session:Lcom/google/ar/core/Session;
@@ -127,7 +119,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 

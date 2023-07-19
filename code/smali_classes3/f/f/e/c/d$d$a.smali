@@ -31,7 +31,6 @@
 .method constructor <init>(Lf/f/e/c/d$d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/f/e/c/d$d$a;->a:Lf/f/e/c/d$d;
 
     invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
@@ -52,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/s1;->d()Ljava/util/ArrayDeque;
 
     move-result-object v0
@@ -63,7 +61,6 @@
 .method protected bridge synthetic initialValue()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lf/f/e/c/d$d$a;->a()Ljava/util/Queue;
 
     move-result-object v0

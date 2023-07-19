@@ -17,17 +17,14 @@
 .method protected constructor <init>()V
     .locals 2
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     const-wide/16 v0, 0x0
 
-    .line 6
     iput-wide v0, p0, Lcom/google/ar/core/Camera;->nativeHandle:J
 
     return-void
@@ -36,13 +33,10 @@
 .method constructor <init>(Lcom/google/ar/core/Session;Lcom/google/ar/core/Frame;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
-    .line 3
     iget-wide v0, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide p1, p2, Lcom/google/ar/core/Frame;->nativeHandle:J
@@ -94,7 +88,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
 
-    .line 1
     instance-of v0, p1, Lcom/google/ar/core/Camera;
 
     const/4 v1, 0x0
@@ -103,11 +96,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/ar/core/Camera;
 
-    .line 3
     iget-wide v2, p1, Lcom/google/ar/core/Camera;->nativeHandle:J
 
     iget-wide v4, p0, Lcom/google/ar/core/Camera;->nativeHandle:J
@@ -132,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/Camera;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -141,10 +131,8 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/ar/core/Camera;->nativeReleaseCamera(J)V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -154,7 +142,6 @@
 .method public getDisplayOrientedPose()Lcom/google/ar/core/Pose;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -171,7 +158,6 @@
 .method public getImageIntrinsics()Lcom/google/ar/core/CameraIntrinsics;
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -180,14 +166,12 @@
 
     move-result-wide v0
 
-    .line 2
     new-instance v2, Lcom/google/ar/core/CameraIntrinsics;
 
     iget-object v3, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     invoke-direct {v2, v0, v1, v3}, Lcom/google/ar/core/CameraIntrinsics;-><init>(JLcom/google/ar/core/Session;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     iget-wide v4, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -206,7 +190,6 @@
 .method public getPose()Lcom/google/ar/core/Pose;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -223,7 +206,6 @@
 .method public getProjectionMatrix([FIFF)V
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -248,7 +230,6 @@
 .method public getTextureIntrinsics()Lcom/google/ar/core/CameraIntrinsics;
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -257,14 +238,12 @@
 
     move-result-wide v0
 
-    .line 2
     new-instance v2, Lcom/google/ar/core/CameraIntrinsics;
 
     iget-object v3, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     invoke-direct {v2, v0, v1, v3}, Lcom/google/ar/core/CameraIntrinsics;-><init>(JLcom/google/ar/core/Session;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     iget-wide v4, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -283,19 +262,16 @@
 .method public getTrackingFailureReason()Lcom/google/ar/core/TrackingFailureReason;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/Camera;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/Camera;->nativeGetTrackingFailureReason(JJ)I
 
     move-result v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/TrackingFailureReason;->forNumber(I)Lcom/google/ar/core/TrackingFailureReason;
 
     move-result-object v0
@@ -306,19 +282,16 @@
 .method public getTrackingState()Lcom/google/ar/core/TrackingState;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/Camera;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/Camera;->nativeGetTrackingState(JJ)I
 
     move-result v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/TrackingState;->forNumber(I)Lcom/google/ar/core/TrackingState;
 
     move-result-object v0
@@ -329,7 +302,6 @@
 .method public getViewMatrix([FI)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Camera;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -350,7 +322,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/Camera;->nativeHandle:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;

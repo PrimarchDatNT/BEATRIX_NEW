@@ -10,10 +10,8 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_auth/e;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_auth/k;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -30,7 +28,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/g;->a:Ljava/lang/String;
 
     return-object v0

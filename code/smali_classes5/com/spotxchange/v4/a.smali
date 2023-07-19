@@ -24,7 +24,6 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    .line 1
     sput-object v0, Lcom/spotxchange/v4/a;->b:[Ljava/lang/String;
 
     return-void
@@ -33,7 +32,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

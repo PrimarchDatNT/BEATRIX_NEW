@@ -19,7 +19,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method public getName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/slf4j/helpers/NamedLoggerBase;->name:Ljava/lang/String;
 
     return-object v0
@@ -44,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/slf4j/helpers/NamedLoggerBase;->getName()Ljava/lang/String;
 
     move-result-object v0

@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/sr1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ks1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lcom/google/android/gms/internal/ads/qr1;
 
@@ -59,7 +57,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/security/GeneralSecurityException;
 
     const-string v1, "Primitive type not supported"
@@ -80,7 +77,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ks1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/sr1;->e()Ljava/util/Set;
@@ -100,7 +96,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ks1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -135,12 +130,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/qr1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ks1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
-    .line 2
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/sr1;->f()Ljava/lang/Class;
 
     move-result-object v2

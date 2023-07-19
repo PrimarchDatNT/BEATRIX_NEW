@@ -65,13 +65,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/protobuf/z0$g;->a:Ljava/util/List;
 
-    .line 3
     iput-object p2, p0, Lcom/google/protobuf/z0$g;->b:Lcom/google/protobuf/z0$g$a;
 
     return-void
@@ -87,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/z0$g;->b:Lcom/google/protobuf/z0$g$a;
 
     iget-object v1, p0, Lcom/google/protobuf/z0$g;->a:Ljava/util/List;
@@ -106,7 +102,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/z0$g;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I

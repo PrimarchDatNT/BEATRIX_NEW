@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;
 
     invoke-direct {p0, p2}, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;-><init>(Ljava/lang/String;)V
@@ -39,12 +38,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;->access$000()Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;
 
@@ -52,14 +49,12 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;->access$300()Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;
 
     move-result-object v2
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;->access$002(Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;)Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;->access$000()Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;
 
@@ -67,7 +62,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;
 
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;->access$000()Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;
@@ -90,7 +84,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;
 
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;->access$000()Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;
@@ -113,7 +106,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 7
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -134,7 +126,6 @@
 
     invoke-static {v3}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 8
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;
 
     invoke-static {v3}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;->access$700(Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;)Lcom/meitu/hwbusinesskit/core/bean/AdData;
@@ -147,12 +138,10 @@
 
     invoke-virtual {v3, v4}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setShowTimeSecond(I)V
 
-    .line 9
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;
 
     invoke-static {v3, v2}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;->access$800(Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;Ljava/lang/Object;)V
 
-    .line 10
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -161,14 +150,12 @@
 
     return-void
 
-    .line 11
     :cond_1
     :try_start_1
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 12
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;
 
     const/16 v2, 0x4b5
@@ -177,7 +164,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;->access$900(Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;ILjava/lang/String;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -185,7 +171,6 @@
     :catchall_0
     move-exception v2
 
-    .line 14
     :try_start_2
     monitor-exit v1
     :try_end_2

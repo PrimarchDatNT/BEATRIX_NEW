@@ -75,10 +75,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/e;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -87,10 +85,8 @@
 
     iput-object v0, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;
 
-    .line 3
     iput-object p2, p0, Lcom/google/common/collect/Maps$u;->b:Lcom/google/common/base/u;
 
-    .line 4
     new-instance v0, Lcom/google/common/collect/Maps$t;
 
     invoke-direct {v0, p1, p2}, Lcom/google/common/collect/Maps$t;-><init>(Ljava/util/Map;Lcom/google/common/base/u;)V
@@ -103,7 +99,6 @@
 .method static synthetic c(Lcom/google/common/collect/Maps$u;)Lcom/google/common/base/u;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/collect/Maps$u;->b:Lcom/google/common/base/u;
 
     return-object p0
@@ -112,7 +107,6 @@
 .method static synthetic d(Lcom/google/common/collect/Maps$u;)Ljava/util/NavigableMap;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;
 
     return-object p0
@@ -131,7 +125,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;
 
     invoke-interface {v0}, Ljava/util/NavigableMap;->entrySet()Ljava/util/Set;
@@ -162,7 +155,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;
 
     invoke-interface {v0}, Ljava/util/NavigableMap;->descendingMap()Ljava/util/NavigableMap;
@@ -189,7 +181,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->c:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->clear()V
@@ -207,7 +198,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;
 
     invoke-interface {v0}, Ljava/util/NavigableMap;->comparator()Ljava/util/Comparator;
@@ -224,7 +214,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->c:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -244,7 +233,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;
 
     invoke-interface {v0}, Ljava/util/NavigableMap;->descendingMap()Ljava/util/NavigableMap;
@@ -271,7 +259,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->c:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -298,7 +285,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->c:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -318,7 +304,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;
 
     invoke-interface {v0, p1, p2}, Ljava/util/NavigableMap;->headMap(Ljava/lang/Object;Z)Ljava/util/NavigableMap;
@@ -337,7 +322,6 @@
 .method public isEmpty()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;
 
     invoke-interface {v0}, Ljava/util/NavigableMap;->entrySet()Ljava/util/Set;
@@ -365,7 +349,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Maps$u$a;
 
     invoke-direct {v0, p0, p0}, Lcom/google/common/collect/Maps$u$a;-><init>(Lcom/google/common/collect/Maps$u;Ljava/util/NavigableMap;)V
@@ -383,7 +366,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;
 
     invoke-interface {v0}, Ljava/util/NavigableMap;->entrySet()Ljava/util/Set;
@@ -411,7 +393,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;
 
     invoke-interface {v0}, Ljava/util/NavigableMap;->descendingMap()Ljava/util/NavigableMap;
@@ -441,7 +422,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->c:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -461,7 +441,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->c:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
@@ -483,7 +462,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->c:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -496,7 +474,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->c:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->size()I
@@ -516,17 +493,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;
 
-    .line 2
     invoke-interface {v0, p1, p2, p3, p4}, Ljava/util/NavigableMap;->subMap(Ljava/lang/Object;ZLjava/lang/Object;Z)Ljava/util/NavigableMap;
 
     move-result-object p1
 
     iget-object p2, p0, Lcom/google/common/collect/Maps$u;->b:Lcom/google/common/base/u;
 
-    .line 3
     invoke-static {p1, p2}, Lcom/google/common/collect/Maps;->z(Ljava/util/NavigableMap;Lcom/google/common/base/u;)Ljava/util/NavigableMap;
 
     move-result-object p1
@@ -544,7 +518,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;
 
     invoke-interface {v0, p1, p2}, Ljava/util/NavigableMap;->tailMap(Ljava/lang/Object;Z)Ljava/util/NavigableMap;
@@ -570,7 +543,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Maps$x;
 
     iget-object v1, p0, Lcom/google/common/collect/Maps$u;->a:Ljava/util/NavigableMap;

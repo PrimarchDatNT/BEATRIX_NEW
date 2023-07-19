@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/b$a;->a:Lcom/commsource/studio/sub/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +91,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,7 +103,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/sub/b$a;->a:Lcom/commsource/studio/sub/b;
 
     invoke-virtual {v0}, Lcom/commsource/studio/sub/b;->g()Lcom/commsource/beautyplus/f0/g8;
@@ -132,7 +127,6 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setTranslationY(F)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/sub/b$a;->a:Lcom/commsource/studio/sub/b;
 
     invoke-virtual {v0}, Lcom/commsource/studio/sub/b;->g()Lcom/commsource/beautyplus/f0/g8;
@@ -155,7 +149,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/sub/b$a;->a:Lcom/commsource/studio/sub/b;
 
     invoke-virtual {v0}, Lcom/commsource/studio/sub/b;->g()Lcom/commsource/beautyplus/f0/g8;
@@ -180,7 +173,6 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/FrameLayout;->setAlpha(F)V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

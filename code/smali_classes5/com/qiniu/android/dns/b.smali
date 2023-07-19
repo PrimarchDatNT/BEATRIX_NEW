@@ -19,7 +19,6 @@
 
     const/4 v0, 0x0
 
-    .line 8
     invoke-direct {p0, p1, v0, v0, v0}, Lcom/qiniu/android/dns/b;-><init>(Ljava/lang/String;ZZI)V
 
     return-void
@@ -30,7 +29,6 @@
 
     const/4 v0, 0x0
 
-    .line 7
     invoke-direct {p0, p1, p2, v0, v0}, Lcom/qiniu/android/dns/b;-><init>(Ljava/lang/String;ZZI)V
 
     return-void
@@ -41,7 +39,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/qiniu/android/dns/b;-><init>(Ljava/lang/String;ZZI)V
 
     return-void
@@ -50,19 +47,14 @@
 .method public constructor <init>(Ljava/lang/String;ZZI)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/qiniu/android/dns/b;->a:Ljava/lang/String;
 
-    .line 4
     iput-boolean p2, p0, Lcom/qiniu/android/dns/b;->b:Z
 
-    .line 5
     iput-boolean p3, p0, Lcom/qiniu/android/dns/b;->d:Z
 
-    .line 6
     iput p4, p0, Lcom/qiniu/android/dns/b;->c:I
 
     return-void

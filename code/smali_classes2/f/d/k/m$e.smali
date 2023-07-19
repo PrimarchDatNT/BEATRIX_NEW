@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/d/k/m;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/k/m$e;->a:Lf/d/k/m;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object p3, Lf/d/k/m;->k:Ljava/lang/String;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -65,7 +63,6 @@
 
     if-ne p2, v0, :cond_1
 
-    .line 2
     iget-object p2, p0, Lf/d/k/m$e;->a:Lf/d/k/m;
 
     invoke-static {p2}, Lf/d/k/m;->e(Lf/d/k/m;)Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -82,10 +79,8 @@
 
     const-string p2, "MTMVPlayerManager.onError what: stop"
 
-    .line 3
     invoke-static {p3, p2}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object p2, p0, Lf/d/k/m$e;->a:Lf/d/k/m;
 
     invoke-static {p2}, Lf/d/k/m;->i(Lf/d/k/m;)Lcom/meitu/mtmvcore/application/MTMVPlayer;
@@ -94,18 +89,15 @@
 
     invoke-virtual {p2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->stop()V
 
-    .line 5
     iget-object p2, p0, Lf/d/k/m$e;->a:Lf/d/k/m;
 
     invoke-static {p2}, Lf/d/k/m;->f(Lf/d/k/m;)V
 
-    .line 6
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
 
-    .line 7
     :cond_1
     iget-object p2, p0, Lf/d/k/m$e;->a:Lf/d/k/m;
 
@@ -113,7 +105,6 @@
 
     const/4 p2, 0x0
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

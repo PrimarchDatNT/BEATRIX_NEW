@@ -54,34 +54,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
     const-string v2, "TARGET_DOODLE_ID"
 
-    .line 2
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/store/doodle/DoodleStoreActivity$b;->a:Lcom/commsource/store/doodle/DoodleStoreActivity;
 
     const/4 v2, -0x1
 
     invoke-virtual {p1, v2, v1}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/store/doodle/DoodleStoreActivity$b;->a:Lcom/commsource/store/doodle/DoodleStoreActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/store/doodle/DoodleStoreActivity$b;->a:Lcom/commsource/store/doodle/DoodleStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/util/h2;->e(Landroid/app/Activity;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/doodle/DoodleStoreActivity$b;->a(Ljava/lang/String;)V

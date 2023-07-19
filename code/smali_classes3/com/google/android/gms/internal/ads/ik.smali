@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/fk;Lcom/google/android/gms/internal/ads/rq1;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ik;->a:Lcom/google/android/gms/internal/ads/rq1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final a(Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/fk;->q()Ljava/util/List;
 
     move-result-object p1
@@ -53,10 +51,8 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     check-cast p1, Ljava/lang/Void;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/fk;->q()Ljava/util/List;
 
     move-result-object p1

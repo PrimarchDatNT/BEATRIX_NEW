@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/inprocess/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/inprocess/d$c;->a:Lio/grpc/inprocess/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,12 +37,10 @@
 .method public run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lio/grpc/inprocess/d$c;->a:Lio/grpc/inprocess/d;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     invoke-static {}, Lio/grpc/a;->e()Lio/grpc/a$b;
 
@@ -55,7 +52,6 @@
 
     iget-object v4, p0, Lio/grpc/inprocess/d$c;->a:Lio/grpc/inprocess/d;
 
-    .line 3
     invoke-static {v4}, Lio/grpc/inprocess/d;->t(Lio/grpc/inprocess/d;)Ljava/lang/String;
 
     move-result-object v4
@@ -72,7 +68,6 @@
 
     iget-object v4, p0, Lio/grpc/inprocess/d$c;->a:Lio/grpc/inprocess/d;
 
-    .line 4
     invoke-static {v4}, Lio/grpc/inprocess/d;->t(Lio/grpc/inprocess/d;)Ljava/lang/String;
 
     move-result-object v4
@@ -83,12 +78,10 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Lio/grpc/a$b;->a()Lio/grpc/a;
 
     move-result-object v1
 
-    .line 6
     iget-object v2, p0, Lio/grpc/inprocess/d$c;->a:Lio/grpc/inprocess/d;
 
     invoke-static {v2}, Lio/grpc/inprocess/d;->w(Lio/grpc/inprocess/d;)Lio/grpc/internal/r2;
@@ -101,7 +94,6 @@
 
     invoke-static {v2, v1}, Lio/grpc/inprocess/d;->v(Lio/grpc/inprocess/d;Lio/grpc/a;)Lio/grpc/a;
 
-    .line 7
     iget-object v1, p0, Lio/grpc/inprocess/d$c;->a:Lio/grpc/inprocess/d;
 
     invoke-static {v1}, Lio/grpc/inprocess/d;->b(Lio/grpc/inprocess/d;)Lio/grpc/internal/o1$a;
@@ -110,7 +102,6 @@
 
     invoke-interface {v1}, Lio/grpc/internal/o1$a;->c()V
 
-    .line 8
     monitor-exit v0
 
     return-void

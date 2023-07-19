@@ -28,7 +28,6 @@
 
     const-string v0, "com.google.android.gms.common.internal.IResolveAccountCallbacks"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/base/b;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -46,22 +45,18 @@
     :cond_0
     const-string v0, "com.google.android.gms.common.internal.IResolveAccountCallbacks"
 
-    .line 1
     invoke-interface {p0, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcom/google/android/gms/common/internal/u;
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v0, Lcom/google/android/gms/common/internal/u;
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/android/gms/common/internal/u$a$a;
 
@@ -84,7 +79,6 @@
 
     if-ne p1, p4, :cond_0
 
-    .line 1
     sget-object p1, Lcom/google/android/gms/common/internal/ResolveAccountResponse;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/base/c;->b(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
@@ -93,10 +87,8 @@
 
     check-cast p1, Lcom/google/android/gms/common/internal/ResolveAccountResponse;
 
-    .line 2
     invoke-interface {p0, p1}, Lcom/google/android/gms/common/internal/u;->V9(Lcom/google/android/gms/common/internal/ResolveAccountResponse;)V
 
-    .line 3
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     const/4 p1, 0x1

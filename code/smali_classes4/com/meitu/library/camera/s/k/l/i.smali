@@ -56,12 +56,10 @@
 
     const-string v0, "camera_"
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/meitu/library/camera/s/k/a;-><init>(Ljava/lang/String;Ljava/util/Map;)V
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, v0}, Lcom/meitu/library/camera/s/k/l/i;->B(Ljava/util/Map;Lcom/meitu/library/camera/s/k/c;)V
 
     return-void
@@ -83,10 +81,8 @@
 
     const-string v0, "camera_"
 
-    .line 3
     invoke-direct {p0, v0, p1, p2}, Lcom/meitu/library/camera/s/k/a;-><init>(Ljava/lang/String;Ljava/util/Map;Lcom/meitu/library/camera/s/k/c;)V
 
-    .line 4
     invoke-direct {p0, p1, p2}, Lcom/meitu/library/camera/s/k/l/i;->B(Ljava/util/Map;Lcom/meitu/library/camera/s/k/c;)V
 
     return-void
@@ -110,42 +106,36 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/camera/s/k/l/e;
 
     invoke-direct {v1, p1, p2}, Lcom/meitu/library/camera/s/k/l/e;-><init>(Ljava/util/Map;Lcom/meitu/library/camera/s/k/c;)V
 
     iput-object v1, p0, Lcom/meitu/library/camera/s/k/l/i;->g:Lcom/meitu/library/camera/s/k/l/e;
 
-    .line 2
     new-instance p2, Lcom/meitu/library/camera/s/k/l/b;
 
     invoke-direct {p2, p1}, Lcom/meitu/library/camera/s/k/l/b;-><init>(Ljava/util/Map;)V
 
     iput-object p2, p0, Lcom/meitu/library/camera/s/k/l/i;->h:Lcom/meitu/library/camera/s/k/l/b;
 
-    .line 3
     new-instance p2, Lcom/meitu/library/camera/s/k/l/c;
 
     invoke-direct {p2, p1}, Lcom/meitu/library/camera/s/k/l/c;-><init>(Ljava/util/Map;)V
 
     iput-object p2, p0, Lcom/meitu/library/camera/s/k/l/i;->i:Lcom/meitu/library/camera/s/k/l/c;
 
-    .line 4
     new-instance p2, Lcom/meitu/library/camera/s/k/l/a;
 
     invoke-direct {p2, p1}, Lcom/meitu/library/camera/s/k/l/a;-><init>(Ljava/util/Map;)V
 
     iput-object p2, p0, Lcom/meitu/library/camera/s/k/l/i;->j:Lcom/meitu/library/camera/s/k/l/a;
 
-    .line 5
     new-instance p2, Lcom/meitu/library/camera/s/k/l/h;
 
     invoke-direct {p2, p1}, Lcom/meitu/library/camera/s/k/l/h;-><init>(Ljava/util/Map;)V
 
     iput-object p2, p0, Lcom/meitu/library/camera/s/k/l/i;->k:Lcom/meitu/library/camera/s/k/l/h;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -160,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/camera/s/k/l/i;->k:Lcom/meitu/library/camera/s/k/l/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -175,10 +164,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/camera/s/k/l/i;->j:Lcom/meitu/library/camera/s/k/l/a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -191,10 +178,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/camera/s/k/l/i;->h:Lcom/meitu/library/camera/s/k/l/b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -207,10 +192,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/camera/s/k/l/i;->i:Lcom/meitu/library/camera/s/k/l/c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -223,10 +206,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/camera/s/k/l/i;->g:Lcom/meitu/library/camera/s/k/l/e;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -239,7 +220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/camera/s/k/l/i;->j:Lcom/meitu/library/camera/s/k/l/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -254,7 +234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/camera/s/k/l/i;->h:Lcom/meitu/library/camera/s/k/l/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -269,7 +248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/camera/s/k/l/i;->i:Lcom/meitu/library/camera/s/k/l/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -284,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/camera/s/k/l/i;->g:Lcom/meitu/library/camera/s/k/l/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -19,7 +19,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/t0$a;
 
     invoke-direct {v0}, Lcom/google/common/util/concurrent/t0$a;-><init>()V
@@ -32,7 +31,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
 .method public static a()Ljava/lang/Runnable;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/util/concurrent/t0;->a:Ljava/lang/Runnable;
 
     return-object v0

@@ -62,7 +62,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     const-string v1, "NULL_VALUE"
@@ -75,7 +74,6 @@
 
     sput-object v0, Lcom/google/firestore/v1/Value$ValueTypeCase;->NULL_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
-    .line 2
     new-instance v1, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     const-string v4, "BOOLEAN_VALUE"
@@ -86,7 +84,6 @@
 
     sput-object v1, Lcom/google/firestore/v1/Value$ValueTypeCase;->BOOLEAN_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
-    .line 3
     new-instance v4, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     const-string v6, "INTEGER_VALUE"
@@ -97,7 +94,6 @@
 
     sput-object v4, Lcom/google/firestore/v1/Value$ValueTypeCase;->INTEGER_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
-    .line 4
     new-instance v6, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     const-string v8, "DOUBLE_VALUE"
@@ -108,7 +104,6 @@
 
     sput-object v6, Lcom/google/firestore/v1/Value$ValueTypeCase;->DOUBLE_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
-    .line 5
     new-instance v8, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     const-string v10, "TIMESTAMP_VALUE"
@@ -121,7 +116,6 @@
 
     sput-object v8, Lcom/google/firestore/v1/Value$ValueTypeCase;->TIMESTAMP_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
-    .line 6
     new-instance v10, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     const-string v13, "STRING_VALUE"
@@ -134,7 +128,6 @@
 
     sput-object v10, Lcom/google/firestore/v1/Value$ValueTypeCase;->STRING_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
-    .line 7
     new-instance v13, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     const-string v15, "BYTES_VALUE"
@@ -147,7 +140,6 @@
 
     sput-object v13, Lcom/google/firestore/v1/Value$ValueTypeCase;->BYTES_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
-    .line 8
     new-instance v9, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     const-string v15, "REFERENCE_VALUE"
@@ -158,7 +150,6 @@
 
     sput-object v9, Lcom/google/firestore/v1/Value$ValueTypeCase;->REFERENCE_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
-    .line 9
     new-instance v15, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     const-string v7, "GEO_POINT_VALUE"
@@ -169,7 +160,6 @@
 
     sput-object v15, Lcom/google/firestore/v1/Value$ValueTypeCase;->GEO_POINT_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
-    .line 10
     new-instance v7, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     const-string v14, "ARRAY_VALUE"
@@ -180,7 +170,6 @@
 
     sput-object v7, Lcom/google/firestore/v1/Value$ValueTypeCase;->ARRAY_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
-    .line 11
     new-instance v14, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     const-string v5, "MAP_VALUE"
@@ -189,7 +178,6 @@
 
     sput-object v14, Lcom/google/firestore/v1/Value$ValueTypeCase;->MAP_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
-    .line 12
     new-instance v5, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     const-string v12, "VALUETYPE_NOT_SET"
@@ -244,7 +232,6 @@
 
     aput-object v5, v12, v3
 
-    .line 13
     sput-object v12, Lcom/google/firestore/v1/Value$ValueTypeCase;->$VALUES:[Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     return-void
@@ -258,10 +245,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->value:I
 
     return-void
@@ -306,73 +291,61 @@
 
     return-object p0
 
-    .line 1
     :pswitch_0
     sget-object p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->NULL_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     return-object p0
 
-    .line 2
     :pswitch_1
     sget-object p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->TIMESTAMP_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     return-object p0
 
-    .line 3
     :pswitch_2
     sget-object p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->ARRAY_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     return-object p0
 
-    .line 4
     :pswitch_3
     sget-object p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->GEO_POINT_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     return-object p0
 
-    .line 5
     :cond_0
     sget-object p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->BYTES_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     return-object p0
 
-    .line 6
     :cond_1
     sget-object p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->STRING_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     return-object p0
 
-    .line 7
     :cond_2
     sget-object p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->MAP_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     return-object p0
 
-    .line 8
     :cond_3
     sget-object p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->REFERENCE_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     return-object p0
 
-    .line 9
     :cond_4
     sget-object p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->DOUBLE_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     return-object p0
 
-    .line 10
     :cond_5
     sget-object p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->INTEGER_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     return-object p0
 
-    .line 11
     :cond_6
     sget-object p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->BOOLEAN_VALUE:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     return-object p0
 
-    .line 12
     :cond_7
     sget-object p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->VALUETYPE_NOT_SET:Lcom/google/firestore/v1/Value$ValueTypeCase;
 
@@ -392,7 +365,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/firestore/v1/Value$ValueTypeCase;->forNumber(I)Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     move-result-object p0
@@ -403,7 +375,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firestore/v1/Value$ValueTypeCase;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -418,7 +389,6 @@
 .method public static values()[Lcom/google/firestore/v1/Value$ValueTypeCase;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/Value$ValueTypeCase;->$VALUES:[Lcom/google/firestore/v1/Value$ValueTypeCase;
 
     invoke-virtual {v0}, [Lcom/google/firestore/v1/Value$ValueTypeCase;->clone()Ljava/lang/Object;
@@ -435,7 +405,6 @@
 .method public getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firestore/v1/Value$ValueTypeCase;->value:I
 
     return v0

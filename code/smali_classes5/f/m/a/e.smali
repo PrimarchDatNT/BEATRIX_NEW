@@ -51,14 +51,12 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lf/m/a/e;
 
     invoke-direct {v0}, Lf/m/a/e;-><init>()V
 
     sput-object v0, Lf/m/a/e;->K:Lf/m/a/e;
 
-    .line 2
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -69,7 +67,6 @@
 
     sput-object v0, Lf/m/a/e;->g:Landroid/os/Handler;
 
-    .line 3
     sget-object v0, Lf/m/a/e$a;->a:Lf/m/a/e$a;
 
     sput-object v0, Lf/m/a/e;->J:Ljava/lang/Runnable;
@@ -80,7 +77,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -89,7 +85,6 @@
 .method public static final synthetic a(Lf/m/a/e;)Lcotlin/jvm/u/l;
     .locals 0
 
-    .line 1
     sget-object p0, Lf/m/a/e;->d:Lcotlin/jvm/u/l;
 
     return-object p0
@@ -98,7 +93,6 @@
 .method public static final synthetic b(Lf/m/a/e;)I
     .locals 0
 
-    .line 1
     sget p0, Lf/m/a/e;->c:I
 
     return p0
@@ -107,7 +101,6 @@
 .method public static final synthetic c(Lf/m/a/e;)Z
     .locals 0
 
-    .line 1
     sget-boolean p0, Lf/m/a/e;->p:Z
 
     return p0
@@ -116,7 +109,6 @@
 .method public static final synthetic d(Lf/m/a/e;Lcotlin/jvm/u/l;)V
     .locals 0
 
-    .line 1
     sput-object p1, Lf/m/a/e;->d:Lcotlin/jvm/u/l;
 
     return-void
@@ -125,7 +117,6 @@
 .method public static final synthetic e(Lf/m/a/e;I)V
     .locals 0
 
-    .line 1
     sput p1, Lf/m/a/e;->c:I
 
     return-void
@@ -134,7 +125,6 @@
 .method public static final synthetic f(Lf/m/a/e;Z)V
     .locals 0
 
-    .line 1
     sput-boolean p1, Lf/m/a/e;->p:Z
 
     return-void
@@ -147,7 +137,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lf/m/a/e;->f:Ljava/lang/ref/WeakReference;
 
     if-eqz v0, :cond_0
@@ -178,7 +167,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-boolean v0, Lf/m/a/e;->b:Z
 
     if-eqz v0, :cond_0
@@ -188,10 +176,8 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2
     sput-boolean v0, Lf/m/a/e;->b:Z
 
-    .line 3
     invoke-virtual {p1, p0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 
     return-void
@@ -200,7 +186,6 @@
 .method public final i()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lf/m/a/e;->p:Z
 
     return v0
@@ -227,7 +212,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sput-object p1, Lf/m/a/e;->d:Lcotlin/jvm/u/l;
 
     return-void
@@ -326,14 +310,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     sput-object v0, Lf/m/a/e;->f:Ljava/lang/ref/WeakReference;
 
-    .line 2
     sget p1, Lf/m/a/e;->c:I
 
     const/4 v0, 0x1
@@ -344,19 +326,16 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     sget-object p1, Lf/m/a/e;->g:Landroid/os/Handler;
 
     sget-object v0, Lf/m/a/e;->J:Ljava/lang/Runnable;
 
     invoke-virtual {p1, v0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 4
     sget-boolean p1, Lf/m/a/e;->p:Z
 
     if-nez p1, :cond_0
 
-    .line 5
     sget-object p1, Lf/m/a/e;->g:Landroid/os/Handler;
 
     sget-object v0, Lf/m/a/e;->J:Ljava/lang/Runnable;
@@ -380,7 +359,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget p1, Lf/m/a/e;->c:I
 
     add-int/lit8 p1, p1, -0x1
@@ -391,22 +369,18 @@
 
     const/4 p1, 0x0
 
-    .line 2
     sput-object p1, Lf/m/a/e;->f:Ljava/lang/ref/WeakReference;
 
-    .line 3
     sget-object p1, Lf/m/a/e;->g:Landroid/os/Handler;
 
     sget-object v0, Lf/m/a/e;->J:Ljava/lang/Runnable;
 
     invoke-virtual {p1, v0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 4
     sget-boolean p1, Lf/m/a/e;->p:Z
 
     if-eqz p1, :cond_0
 
-    .line 5
     sget-object p1, Lf/m/a/e;->g:Landroid/os/Handler;
 
     sget-object v0, Lf/m/a/e;->J:Ljava/lang/Runnable;

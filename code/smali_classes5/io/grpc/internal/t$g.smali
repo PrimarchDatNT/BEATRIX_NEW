@@ -41,12 +41,10 @@
         }
     .end annotation
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/t$g;->b:Lio/grpc/internal/t;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p2, p0, Lio/grpc/internal/t$g;->a:Lio/grpc/h$a;
 
     return-void
@@ -55,7 +53,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/t;Lio/grpc/h$a;Lio/grpc/internal/t$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/internal/t$g;-><init>(Lio/grpc/internal/t;Lio/grpc/h$a;)V
 
     return-void
@@ -66,7 +63,6 @@
 .method public a(Lio/grpc/Context;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/Context;->l()Lio/grpc/q;
 
     move-result-object v0
@@ -85,13 +81,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lio/grpc/p;->b(Lio/grpc/Context;)Lio/grpc/Status;
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/t$g;->b:Lio/grpc/internal/t;
 
     iget-object v1, p0, Lio/grpc/internal/t$g;->a:Lio/grpc/h$a;
@@ -100,7 +94,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     iget-object v0, p0, Lio/grpc/internal/t$g;->b:Lio/grpc/internal/t;

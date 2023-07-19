@@ -26,7 +26,6 @@
 .method constructor <init>(IIIIILcom/meitu/library/e/b$j;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p6}, Lcom/meitu/library/e/b;-><init>(IIIIILcom/meitu/library/e/b$j;)V
 
     return-void
@@ -41,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object p1
@@ -68,10 +66,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p2, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 2
     invoke-virtual {p1, p2, p3}, Landroid/media/AudioRecord;->read(Ljava/nio/ByteBuffer;I)I
 
     move-result p1
@@ -88,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/library/e/b$i;->B(I)Ljava/nio/ByteBuffer;
 
     move-result-object p1
@@ -105,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Ljava/nio/ByteBuffer;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/meitu/library/e/b$i;->C(Landroid/media/AudioRecord;Ljava/nio/ByteBuffer;I)I

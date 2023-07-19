@@ -27,10 +27,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$stickerStoreViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment$stickerStoreViewModel$2;-><init>(Lcom/commsource/store/sticker/StickerStoreDetailFragment;)V
@@ -41,7 +39,6 @@
 
     iput-object v0, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->c:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$viewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment$viewBinding$2;-><init>(Lcom/commsource/store/sticker/StickerStoreDetailFragment;)V
@@ -52,7 +49,6 @@
 
     iput-object v0, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->d:Lcotlin/w;
 
-    .line 4
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v0
@@ -63,7 +59,6 @@
 
     iput-object v0, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->f:Lcom/commsource/widget/h1/c;
 
-    .line 5
     new-instance v0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$stickerAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment$stickerAdapter$2;-><init>(Lcom/commsource/store/sticker/StickerStoreDetailFragment;)V
@@ -84,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->p:Lcom/meitu/template/bean/StickerGroup;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -99,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -114,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->L()Lcom/commsource/widget/h1/e;
 
     move-result-object p0
@@ -131,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->M()Lcom/commsource/store/sticker/StickerStoreViewModel;
 
     move-result-object p0
@@ -148,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->O()Lcom/commsource/beautyplus/f0/ka;
 
     move-result-object p0
@@ -165,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->Q(Lcom/meitu/template/bean/StickerGroup;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -180,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->U(Lcom/meitu/template/bean/StickerGroup;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -195,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->f:Lcom/commsource/widget/h1/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -210,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->p:Lcom/meitu/template/bean/StickerGroup;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -225,7 +211,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -242,7 +227,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getAvailable()I
 
     move-result v1
@@ -261,7 +245,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -275,18 +258,14 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/StickerGroup;->setDownloadAllState(Z)V
 
     const/4 v1, -0x1
 
-    .line 4
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/StickerGroup;->setGroupDownloadStatus(I)V
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->U(Lcom/meitu/template/bean/StickerGroup;)V
 
-    .line 6
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     const/4 v2, 0x0
@@ -297,7 +276,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
@@ -305,7 +283,6 @@
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->Y(Landroid/content/Context;)V
 
-    .line 8
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -380,7 +357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->O()Lcom/commsource/beautyplus/f0/ka;
 
     move-result-object v1
@@ -401,7 +377,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->O()Lcom/commsource/beautyplus/f0/ka;
 
     move-result-object v2
@@ -414,7 +389,6 @@
 
     invoke-static {v1, v2, v3, v4, v5}, Lcom/commsource/widget/title/XTitleBar;->p(Lcom/commsource/widget/title/XTitleBar;Landroidx/recyclerview/widget/RecyclerView;ZILjava/lang/Object;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->O()Lcom/commsource/beautyplus/f0/ka;
 
     move-result-object v1
@@ -427,7 +401,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -440,7 +413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->isPaidMaterial()Z
 
     move-result v1
@@ -449,10 +421,8 @@
 
     xor-int/2addr v1, v2
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->updateGroupDownloadState()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->O()Lcom/commsource/beautyplus/f0/ka;
 
     move-result-object v3
@@ -465,14 +435,12 @@
 
     const/16 v4, 0xe
 
-    .line 4
     invoke-virtual {v3, v4}, Lcom/commsource/store/XDownloadButton$Executer;->G(I)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v3
 
     sget v4, Lcom/res/provider/ResSTRING;->t_download_all:I
 
-    .line 5
     invoke-static {v4}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v4
@@ -503,7 +471,6 @@
 
     if-nez v1, :cond_1
 
-    .line 6
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v4
@@ -548,12 +515,10 @@
 
     const/4 v4, 0x0
 
-    .line 7
     invoke-virtual {v3, v4}, Lcom/commsource/store/XDownloadButton$Executer;->w(Z)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v3
 
-    .line 8
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupDownloadStatus()I
 
     move-result v4
@@ -566,7 +531,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_2
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupDownloadStatus()I
 
@@ -579,7 +543,6 @@
     :cond_3
     const/4 v2, 0x2
 
-    .line 10
     :goto_2
     invoke-virtual {v3, v2}, Lcom/commsource/store/XDownloadButton$Executer;->E(I)Lcom/commsource/store/XDownloadButton$Executer;
 
@@ -589,13 +552,11 @@
 
     const/4 v5, 0x4
 
-    .line 11
     :cond_4
     invoke-virtual {v2, v5}, Lcom/commsource/store/XDownloadButton$Executer;->y(I)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupProgress()I
 
     move-result p1
@@ -604,10 +565,8 @@
 
     move-result-object p1
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/store/XDownloadButton$Executer;->s()V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -620,7 +579,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->O()Lcom/commsource/beautyplus/f0/ka;
 
     move-result-object v1
@@ -639,17 +597,14 @@
 
     invoke-direct {v3, v4, v5}, Landroidx/recyclerview/widget/GridLayoutManager;-><init>(Landroid/content/Context;I)V
 
-    .line 2
     new-instance v4, Lcom/commsource/store/sticker/StickerStoreDetailFragment$c;
 
     invoke-direct {v4, v3}, Lcom/commsource/store/sticker/StickerStoreDetailFragment$c;-><init>(Landroidx/recyclerview/widget/GridLayoutManager;)V
 
     invoke-virtual {v3, v4}, Landroidx/recyclerview/widget/GridLayoutManager;->setSpanSizeLookup(Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;)V
 
-    .line 3
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->O()Lcom/commsource/beautyplus/f0/ka;
 
     move-result-object v1
@@ -662,7 +617,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->M()Lcom/commsource/store/sticker/StickerStoreViewModel;
 
     move-result-object v1
@@ -681,7 +635,6 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->M()Lcom/commsource/store/sticker/StickerStoreViewModel;
 
     move-result-object v1
@@ -700,7 +653,6 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->O()Lcom/commsource/beautyplus/f0/ka;
 
     move-result-object v1
@@ -715,7 +667,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -728,10 +679,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->updateGroupDownloadState()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupDownloadStatus()I
 
     move-result v1
@@ -740,7 +689,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->O()Lcom/commsource/beautyplus/f0/ka;
 
     move-result-object v1
@@ -751,12 +699,10 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/store/XDownloadButton$Executer;->w(Z)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupProgress()I
 
     move-result p1
@@ -767,17 +713,14 @@
 
     const/4 v1, 0x3
 
-    .line 6
     invoke-virtual {p1, v1}, Lcom/commsource/store/XDownloadButton$Executer;->E(I)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/store/XDownloadButton$Executer;->s()V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->isDownloadAllState()Z
 
@@ -785,7 +728,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->O()Lcom/commsource/beautyplus/f0/ka;
 
     move-result-object v1
@@ -796,12 +738,10 @@
 
     move-result-object v1
 
-    .line 10
     invoke-virtual {v1, v2}, Lcom/commsource/store/XDownloadButton$Executer;->w(Z)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v1
 
-    .line 11
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupProgress()I
 
     move-result p1
@@ -812,17 +752,14 @@
 
     const/4 v1, 0x2
 
-    .line 12
     invoke-virtual {p1, v1}, Lcom/commsource/store/XDownloadButton$Executer;->E(I)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object p1
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/store/XDownloadButton$Executer;->s()V
 
     goto :goto_0
 
-    .line 14
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupDownloadStatus()I
 
@@ -830,7 +767,6 @@
 
     if-nez v1, :cond_2
 
-    .line 15
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->O()Lcom/commsource/beautyplus/f0/ka;
 
     move-result-object v1
@@ -841,12 +777,10 @@
 
     move-result-object v1
 
-    .line 16
     invoke-virtual {v1, v2}, Lcom/commsource/store/XDownloadButton$Executer;->w(Z)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v1
 
-    .line 17
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupProgress()I
 
     move-result p1
@@ -855,15 +789,12 @@
 
     move-result-object p1
 
-    .line 18
     invoke-virtual {p1, v2}, Lcom/commsource/store/XDownloadButton$Executer;->E(I)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object p1
 
-    .line 19
     invoke-virtual {p1}, Lcom/commsource/store/XDownloadButton$Executer;->s()V
 
-    .line 20
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -878,7 +809,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->K(Lcom/meitu/template/bean/StickerGroup;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -893,7 +823,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->f:Lcom/commsource/widget/h1/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -928,7 +857,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->O()Lcom/commsource/beautyplus/f0/ka;
 
     move-result-object p1
@@ -977,13 +905,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->T()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->P()V
 
-    .line 3
     sget-object p1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {p1}, Lcom/commsource/studio/sticker/StickerManager;->h0()Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -1004,7 +929,6 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

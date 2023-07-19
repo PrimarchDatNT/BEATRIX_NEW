@@ -17,7 +17,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/y3;Lcom/google/android/gms/internal/firebase_remote_config/h;Lcom/google/android/gms/internal/firebase_remote_config/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/t5;->c:Lcom/google/android/gms/internal/firebase_remote_config/y3;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/firebase_remote_config/t5;->a:Lcom/google/android/gms/internal/firebase_remote_config/h;
@@ -39,15 +38,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t5;->a:Lcom/google/android/gms/internal/firebase_remote_config/h;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/h;->a(Lcom/google/android/gms/internal/firebase_remote_config/d;)V
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_remote_config/d;->h()Z
 
@@ -65,7 +61,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t5;->c:Lcom/google/android/gms/internal/firebase_remote_config/y3;
 

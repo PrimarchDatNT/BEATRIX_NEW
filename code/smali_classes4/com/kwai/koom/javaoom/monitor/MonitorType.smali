@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcom/kwai/koom/javaoom/monitor/MonitorType;
 
     const-string v1, "HEAP"
@@ -68,7 +67,6 @@
 
     aput-object v3, v5, v6
 
-    .line 2
     sput-object v5, Lcom/kwai/koom/javaoom/monitor/MonitorType;->$VALUES:[Lcom/kwai/koom/javaoom/monitor/MonitorType;
 
     return-void
@@ -82,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -91,7 +88,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/kwai/koom/javaoom/monitor/MonitorType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/kwai/koom/javaoom/monitor/MonitorType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -106,7 +102,6 @@
 .method public static values()[Lcom/kwai/koom/javaoom/monitor/MonitorType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/kwai/koom/javaoom/monitor/MonitorType;->$VALUES:[Lcom/kwai/koom/javaoom/monitor/MonitorType;
 
     invoke-virtual {v0}, [Lcom/kwai/koom/javaoom/monitor/MonitorType;->clone()Ljava/lang/Object;

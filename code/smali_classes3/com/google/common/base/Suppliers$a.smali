@@ -66,10 +66,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -91,46 +89,37 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/base/Suppliers$a;->b:Z
 
     if-nez v0, :cond_1
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-boolean v0, p0, Lcom/google/common/base/Suppliers$a;->b:Z
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/base/Suppliers$a;->a:Lcom/google/common/base/z;
 
     invoke-interface {v0}, Lcom/google/common/base/z;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 5
     iput-object v0, p0, Lcom/google/common/base/Suppliers$a;->c:Ljava/lang/Object;
 
     const/4 v1, 0x1
 
-    .line 6
     iput-boolean v1, p0, Lcom/google/common/base/Suppliers$a;->b:Z
 
     const/4 v1, 0x0
 
-    .line 7
     iput-object v1, p0, Lcom/google/common/base/Suppliers$a;->a:Lcom/google/common/base/z;
 
-    .line 8
     monitor-exit p0
 
     return-object v0
 
-    .line 9
     :cond_0
     monitor-exit p0
 
@@ -145,7 +134,6 @@
 
     throw v0
 
-    .line 10
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/google/common/base/Suppliers$a;->c:Ljava/lang/Object;
@@ -156,10 +144,8 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/Suppliers$a;->a:Lcom/google/common/base/z;
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

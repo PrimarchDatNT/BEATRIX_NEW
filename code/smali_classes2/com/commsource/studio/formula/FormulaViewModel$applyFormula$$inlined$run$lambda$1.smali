@@ -78,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/formula/convert/g;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/FormulaViewModel$applyFormula$$inlined$run$lambda$1;->invoke(Lcom/commsource/studio/formula/convert/g;)V
@@ -105,7 +104,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->j()Lcom/commsource/studio/formula/JsFormula;
 
     move-result-object v1
@@ -122,7 +120,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel$applyFormula$$inlined$run$lambda$1;->this$0:Lcom/commsource/studio/formula/FormulaViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/formula/FormulaViewModel;->N()Landroidx/lifecycle/MutableLiveData;
@@ -131,7 +128,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

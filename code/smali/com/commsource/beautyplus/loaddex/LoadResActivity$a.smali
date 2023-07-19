@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/loaddex/LoadResActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/loaddex/LoadResActivity$a;->a:Lcom/commsource/beautyplus/loaddex/LoadResActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -64,7 +62,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/loaddex/LoadResActivity$a;->a:Lcom/commsource/beautyplus/loaddex/LoadResActivity;
@@ -75,22 +72,18 @@
 
     const v1, 0x10008000
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     const-string/jumbo v1, "start_main_process"
 
     const/16 v2, 0x22b7
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/loaddex/LoadResActivity$a;->a:Lcom/commsource/beautyplus/loaddex/LoadResActivity;
 
     invoke-virtual {v1, v0, v2}, Landroidx/fragment/app/FragmentActivity;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/beautyplus/loaddex/LoadResActivity$a;->a:Lcom/commsource/beautyplus/loaddex/LoadResActivity;
 
     const/4 v1, 0x0
@@ -99,15 +92,12 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/beautyplus/loaddex/LoadResActivity$a;->a:Lcom/commsource/beautyplus/loaddex/LoadResActivity;
 
     invoke-virtual {v0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 7
     invoke-static {v1}, Ljava/lang/System;->exit(I)V
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -120,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/loaddex/LoadResActivity$b$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/loaddex/LoadResActivity$a;->b(Lcom/commsource/beautyplus/loaddex/LoadResActivity$b$b;)V

@@ -52,10 +52,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->t()I
@@ -66,7 +64,6 @@
 
     iput v0, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->c0:F
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/BrightenEyesFragment$undoRedoViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/BrightenEyesFragment$undoRedoViewModel$2;-><init>(Lcom/commsource/studio/function/BrightenEyesFragment;)V
@@ -77,7 +74,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->i0:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/effect/c;
 
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->EyeBrightness:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -86,13 +82,10 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-virtual {v0, v1}, Lcom/commsource/studio/effect/k;->r(Z)V
 
-    .line 6
     iput-object v0, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->j0:Lcom/commsource/studio/effect/c;
 
-    .line 7
     new-instance v0, Lcom/commsource/studio/function/BrightenEyesFragment$autoManualStackLogic$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/BrightenEyesFragment$autoManualStackLogic$2;-><init>(Lcom/commsource/studio/function/BrightenEyesFragment;)V
@@ -103,7 +96,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->k0:Lcotlin/w;
 
-    .line 8
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->q1(Z)V
 
     return-void
@@ -116,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->e0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->h0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -146,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p0, :cond_0
@@ -168,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->g0:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     if-nez p0, :cond_0
@@ -190,7 +178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->f0:Lcom/commsource/studio/processor/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -205,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->P1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -220,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->Q1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -235,7 +220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->e0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -250,7 +234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->h0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -265,7 +248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -280,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->g0:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -295,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->f0:Lcom/commsource/studio/processor/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -350,14 +330,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->M1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->l()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v1, :cond_0
@@ -387,7 +365,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -400,7 +377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->M1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object v1
@@ -417,7 +393,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v1, :cond_0
@@ -431,7 +406,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
@@ -448,7 +422,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v1, :cond_3
@@ -464,7 +437,6 @@
     :goto_0
     const-string v1, "KEY_FIRST_MANUAL_TIP_BRIGHTEN"
 
-    .line 5
     invoke-static {v1}, Lf/d/i/h;->C0(Ljava/lang/String;)Z
 
     move-result v2
@@ -473,15 +445,12 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->t_toast_beauty_brighten_eyes:I
 
-    .line 6
     invoke-static {v2}, Lf/k/c/c/f;->r(I)V
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {v1, v2}, Lf/d/i/h;->v1(Ljava/lang/String;Z)V
 
-    .line 8
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -495,7 +464,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->M1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object p0
@@ -514,10 +482,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->h0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     if-eqz v1, :cond_0
@@ -532,7 +498,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -546,14 +511,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->N1()Lcom/commsource/studio/effect/c;
@@ -568,7 +531,6 @@
 
     invoke-interface {v1, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->N1()Lcom/commsource/studio/effect/c;
 
     move-result-object v3
@@ -583,10 +545,8 @@
 
     const-string v2, "beaubrightenyes"
 
-    .line 4
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->N1()Lcom/commsource/studio/effect/c;
 
     move-result-object v4
@@ -603,7 +563,6 @@
 
     invoke-static/range {v3 .. v8}, Lcom/commsource/studio/function/BaseSubFragment;->W(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;ZILjava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -616,7 +575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -629,7 +587,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/function/BrightenEyesFragment$b;
 
     new-instance v2, Lcom/commsource/studio/r0/e;
@@ -662,37 +619,30 @@
 
     invoke-direct {v1, p0, v2}, Lcom/commsource/studio/function/BrightenEyesFragment$b;-><init>(Lcom/commsource/studio/function/BrightenEyesFragment;Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->M1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object v2
 
-    .line 5
     new-instance v3, Lcom/commsource/studio/function/BrightenEyesFragment$c;
 
     invoke-direct {v3, v1, v1}, Lcom/commsource/studio/function/BrightenEyesFragment$c;-><init>(Lcom/commsource/studio/function/BrightenEyesFragment$b;Lcom/commsource/studio/processor/MultiFaceEffectProcessor;)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v4
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/function/BrightenEyesFragment$c;->d(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 7
     invoke-virtual {v2, v3}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->p(Lcom/commsource/studio/function/automanual/a;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->F0()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v2
@@ -723,18 +673,15 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/r0/v;->z(F)V
 
-    .line 10
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->e()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->s(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 11
     :cond_0
     iput-object v1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->e0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
-    .line 12
     new-instance v1, Lcom/commsource/studio/processor/f;
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -763,10 +710,8 @@
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/studio/processor/f;-><init>(II)V
 
-    .line 13
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 14
     invoke-direct {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->M1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object v2
@@ -786,17 +731,14 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->q(Lcom/commsource/studio/function/automanual/d;)V
 
-    .line 15
     iput-object v1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->f0:Lcom/commsource/studio/processor/f;
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->s0()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
 
     if-eqz v1, :cond_4
 
-    .line 17
     iget-object v2, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v2, :cond_2
@@ -849,7 +791,6 @@
 
     throw v1
 
-    .line 18
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -864,17 +805,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->L0()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->O1()Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/studio/component/UndoRedoComponent$c;->B()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -887,17 +825,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->M0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->f0:Lcom/commsource/studio/processor/f;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p0}, Lcom/commsource/studio/processor/f;->L(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     :cond_0
     const-class v1, Lcom/commsource/studio/component/AutoManualComponent$b;
 
@@ -907,7 +842,6 @@
 
     check-cast v1, Lcom/commsource/studio/component/AutoManualComponent$b;
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/component/AutoManualComponent$b;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -922,7 +856,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -945,7 +878,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -960,7 +892,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->j0:Lcom/commsource/studio/effect/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -983,7 +914,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->j0:Lcom/commsource/studio/effect/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -998,7 +928,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->N1()Lcom/commsource/studio/effect/c;
 
     move-result-object v1
@@ -1015,7 +944,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BrightenEyesFragment;->R1(Lcom/commsource/studio/effect/c;)V
@@ -1032,7 +960,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1047,7 +974,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1080,7 +1006,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p3, Lcom/commsource/studio/layer/PaintMaskLayer;
 
     iget-object v0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1093,27 +1018,22 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p3, v0}, Lcom/commsource/studio/layer/PaintMaskLayer;->R0(Z)V
 
     const/4 v1, 0x2
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {p0, p3, v0, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->F(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/layer/d;IILjava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/function/BrightenEyesFragment$onCreateView$$inlined$apply$lambda$1;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/BrightenEyesFragment$onCreateView$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/function/BrightenEyesFragment;)V
 
     invoke-virtual {p3, v0}, Lcom/commsource/studio/layer/PaintMaskLayer;->Q0(Lcotlin/jvm/u/p;)V
 
-    .line 5
     iput-object p3, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->g0:Lcom/commsource/studio/layer/PaintMaskLayer;
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/cb;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/cb;
 
     move-result-object p1
@@ -1128,20 +1048,17 @@
 
     if-nez p1, :cond_0
 
-    .line 7
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/cb;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->F0()Z
 
     move-result p1
 
     if-nez p1, :cond_1
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->N1()Lcom/commsource/studio/effect/c;
 
     move-result-object p1
@@ -1158,7 +1075,6 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/commsource/studio/effect/c;->G(II)V
 
-    .line 10
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
@@ -1211,13 +1127,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/BrightenEyesFragment;->O1()Lcom/commsource/studio/component/UndoRedoComponent$c;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     const-string p2, "mViewBinding"
@@ -1235,7 +1148,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_1
@@ -1251,7 +1163,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_2
@@ -1267,7 +1178,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_3
@@ -1283,7 +1193,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_4
@@ -1297,7 +1206,6 @@
 
     const/high16 v2, 0x41200000    # 10.0f
 
-    .line 8
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v2
@@ -1310,7 +1218,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Lcom/commsource/studio/component/PaintEraserComponent;->m(IFF)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_5
@@ -1326,7 +1233,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/component/AutoManualComponent;->setForceManualMode(Z)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -1347,7 +1253,6 @@
 
     if-le p1, v1, :cond_6
 
-    .line 11
     new-instance p1, Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1364,13 +1269,10 @@
 
     const/4 v3, 0x0
 
-    .line 12
     invoke-static {p0, p1, v3, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->F(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/layer/d;IILjava/lang/Object;)V
 
-    .line 13
     invoke-virtual {p1, v3}, Lcom/commsource/studio/layer/BaseLayer;->n0(Z)V
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v1
@@ -1379,10 +1281,8 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 15
     iput-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->h0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
-    .line 16
     :cond_6
     iget-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
@@ -1399,7 +1299,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

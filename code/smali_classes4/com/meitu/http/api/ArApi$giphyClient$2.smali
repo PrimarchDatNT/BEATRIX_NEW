@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/giphy/sdk/core/network/api/GPHApiClient;
 
     const-string v2, "0gN0D95L86SCIeXU3DYFUxkSReDhlTGn"
@@ -90,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/http/api/ArApi$giphyClient$2;->invoke()Lcom/giphy/sdk/core/network/api/GPHApiClient;
 
     move-result-object v1

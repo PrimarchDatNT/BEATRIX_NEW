@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;Lokio/Source;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/internal/framed/NameValueBlockReader$1;->this$0:Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;
 
     invoke-direct {p0, p2}, Lokio/ForwardingSource;-><init>(Lokio/Source;)V
@@ -40,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/NameValueBlockReader$1;->this$0:Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;
 
     invoke-static {v0}, Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;->access$000(Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;)I
@@ -53,7 +51,6 @@
 
     return-wide v1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/NameValueBlockReader$1;->this$0:Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;
 
@@ -77,7 +74,6 @@
 
     return-wide v1
 
-    .line 3
     :cond_1
     iget-object p3, p0, Lcom/squareup/okhttp/internal/framed/NameValueBlockReader$1;->this$0:Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;
 

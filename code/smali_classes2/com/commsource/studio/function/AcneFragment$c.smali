@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/AcneFragment$c;->a:Lcom/commsource/studio/function/AcneFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/AcneFragment;->z1(Lcom/commsource/studio/function/AcneFragment;)Lcom/commsource/studio/layer/PaintMaskLayer;
@@ -75,7 +74,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/n;->o(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/AcneFragment$c;->a(Ljava/lang/Boolean;)V

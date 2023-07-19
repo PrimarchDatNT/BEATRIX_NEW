@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/webview/MarketAppWebActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$c;->a:Lcom/sdk/imp/webview/MarketAppWebActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,12 +37,10 @@
 .method public onClick(Landroid/view/View;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$c;->a:Lcom/sdk/imp/webview/MarketAppWebActivity;
 
     invoke-virtual {p1}, Lcom/sdk/imp/webview/MarketAppWebActivity;->d()V
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$c;->a:Lcom/sdk/imp/webview/MarketAppWebActivity;
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V

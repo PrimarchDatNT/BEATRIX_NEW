@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 13
 
-    .line 1
     new-instance v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
     const-string v1, "NORMAL"
@@ -53,7 +52,6 @@
 
     sput-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->NORMAL:Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
-    .line 2
     new-instance v1, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
     const-string v3, "EXPIRED_DATE"
@@ -64,7 +62,6 @@
 
     sput-object v1, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->EXPIRED_DATE:Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
-    .line 3
     new-instance v3, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
     const-string v5, "EXPIRED_TIMES"
@@ -75,7 +72,6 @@
 
     sput-object v3, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->EXPIRED_TIMES:Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
-    .line 4
     new-instance v5, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
     const-string v7, "SPACE_NOT_ENOUGH"
@@ -86,7 +82,6 @@
 
     sput-object v5, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->SPACE_NOT_ENOUGH:Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
-    .line 5
     new-instance v7, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
     const-string v9, "PROCESS_NOT_ENABLED"
@@ -97,7 +92,6 @@
 
     sput-object v7, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->PROCESS_NOT_ENABLED:Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
-    .line 6
     new-instance v9, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
     const-string v11, "OS_VERSION_NO_COMPATIBILITY"
@@ -124,7 +118,6 @@
 
     aput-object v9, v11, v12
 
-    .line 7
     sput-object v11, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->$VALUES:[Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
     return-void
@@ -138,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -147,7 +139,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -162,7 +153,6 @@
 .method public static values()[Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->$VALUES:[Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
     invoke-virtual {v0}, [Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->clone()Ljava/lang/Object;

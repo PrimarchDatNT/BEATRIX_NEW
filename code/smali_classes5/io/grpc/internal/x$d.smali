@@ -24,7 +24,6 @@
 .method constructor <init>(Lio/grpc/internal/x;Ljava/nio/ByteBuffer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/x$d;->d:Lio/grpc/internal/x;
 
     iput-object p2, p0, Lio/grpc/internal/x$d;->c:Ljava/nio/ByteBuffer;
@@ -41,14 +40,12 @@
 .method public c(Lio/grpc/internal/a2;I)I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/x$d;->c:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->limit()I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/internal/x$d;->c:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->position()I
@@ -59,12 +56,10 @@
 
     invoke-virtual {v1, v2}, Ljava/nio/Buffer;->limit(I)Ljava/nio/Buffer;
 
-    .line 3
     iget-object p2, p0, Lio/grpc/internal/x$d;->c:Ljava/nio/ByteBuffer;
 
     invoke-interface {p1, p2}, Lio/grpc/internal/a2;->J5(Ljava/nio/ByteBuffer;)V
 
-    .line 4
     iget-object p1, p0, Lio/grpc/internal/x$d;->c:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1, v0}, Ljava/nio/Buffer;->limit(I)Ljava/nio/Buffer;

@@ -22,7 +22,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/library/abtest/h/f;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -39,7 +38,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtest/a;->r()Lcom/meitu/library/abtest/a;
 
     move-result-object v1
@@ -63,19 +60,16 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/library/abtest/h/f;->a:Ljava/lang/String;
 
     const-string v3, "ab context is not ready!"
 
     invoke-static {v1, v3}, Lcom/meitu/library/abtest/g/a;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 4
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/abtest/a;->f()Ljava/lang/String;
 
@@ -87,14 +81,12 @@
 
     if-eqz v1, :cond_3
 
-    .line 5
     array-length v3, v1
 
     if-nez v3, :cond_1
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-static {}, Lcom/meitu/library/abtest/a;->r()Lcom/meitu/library/abtest/a;
 
@@ -113,7 +105,6 @@
     :cond_2
     const-string v2, "https://ext.meepo.miraclevision.sg/absdk_status"
 
-    .line 7
     :goto_0
     sget-object v3, Lcom/meitu/library/abtest/h/f;->a:Ljava/lang/String;
 
@@ -133,19 +124,16 @@
 
     invoke-static {v3, v4}, Lcom/meitu/library/abtest/g/a;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     new-instance v3, Lokhttp3/Request$Builder;
 
     invoke-direct {v3}, Lokhttp3/Request$Builder;-><init>()V
 
-    .line 9
     invoke-virtual {v3, v2}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object v2
 
     sget-object v3, Lcom/meitu/library/abtest/h/k;->l:Lokhttp3/MediaType;
 
-    .line 10
     invoke-static {v3, v1}, Lokhttp3/RequestBody;->create(Lokhttp3/MediaType;[B)Lokhttp3/RequestBody;
 
     move-result-object v1
@@ -154,17 +142,14 @@
 
     move-result-object v1
 
-    .line 11
     invoke-virtual {v1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v1
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 13
     :cond_3
     :goto_1
     sget-object v1, Lcom/meitu/library/abtest/h/f;->a:Ljava/lang/String;
@@ -173,7 +158,6 @@
 
     invoke-static {v1, v3}, Lcom/meitu/library/abtest/g/a;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -186,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtest/a;->r()Lcom/meitu/library/abtest/a;
 
     move-result-object v1
@@ -195,19 +178,16 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/library/abtest/h/f;->a:Ljava/lang/String;
 
     const-string v3, "ABTesting ABContext=null"
 
     invoke-static {v1, v3}, Lcom/meitu/library/abtest/g/a;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/abtest/a;->s()Z
 
@@ -215,12 +195,10 @@
 
     if-eqz v3, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/library/abtest/a;->u()Z
 
@@ -228,19 +206,16 @@
 
     if-nez v3, :cond_2
 
-    .line 7
     sget-object v1, Lcom/meitu/library/abtest/h/f;->a:Ljava/lang/String;
 
     const-string v3, "ABTesting cancelled refreshing since current NETWORK switcher is Off"
 
     invoke-static {v1, v3}, Lcom/meitu/library/abtest/g/a;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 9
     :cond_2
     invoke-virtual {v1}, Lcom/meitu/library/abtest/a;->f()Ljava/lang/String;
 
@@ -269,12 +244,10 @@
     :cond_3
     const/4 v1, 0x1
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 11
     :cond_4
     :goto_0
     sget-object v1, Lcom/meitu/library/abtest/h/f;->a:Ljava/lang/String;
@@ -283,7 +256,6 @@
 
     invoke-static {v1, v3}, Lcom/meitu/library/abtest/g/a;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2

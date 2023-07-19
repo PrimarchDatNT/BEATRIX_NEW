@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment$b;->a:Lcom/commsource/studio/function/AIBeautyFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/AIBeautyFragment;->z1(Lcom/commsource/studio/function/AIBeautyFragment;)Lf/d/d/o;
@@ -51,7 +50,6 @@
 
     invoke-virtual {v1}, Lf/d/d/o;->i0()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

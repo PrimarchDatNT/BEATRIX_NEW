@@ -26,7 +26,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/e$d;->a:Lcom/google/android/gms/common/internal/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,14 +42,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/common/ConnectionResult;->Q()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/common/internal/e$d;->a:Lcom/google/android/gms/common/internal/e;
 
     const/4 v0, 0x0
@@ -63,7 +60,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$d;->a:Lcom/google/android/gms/common/internal/e;
 
@@ -73,7 +69,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$d;->a:Lcom/google/android/gms/common/internal/e;
 
     invoke-static {v0}, Lcom/google/android/gms/common/internal/e;->g0(Lcom/google/android/gms/common/internal/e;)Lcom/google/android/gms/common/internal/e$b;

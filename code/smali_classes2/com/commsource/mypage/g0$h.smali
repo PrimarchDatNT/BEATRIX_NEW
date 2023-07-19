@@ -30,12 +30,10 @@
 .method private constructor <init>(Lcom/commsource/mypage/g0;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/g0$h;->e:Lcom/commsource/mypage/g0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -48,10 +46,8 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/mypage/g0$h;->c:Z
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/mypage/g0$h;->d:Z
 
     return-void
@@ -60,7 +56,6 @@
 .method synthetic constructor <init>(Lcom/commsource/mypage/g0;Lcom/commsource/mypage/g0$a;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/mypage/g0$h;-><init>(Lcom/commsource/mypage/g0;)V
 
     return-void
@@ -73,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/mypage/g0$h;->a:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -88,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/mypage/g0$h;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -103,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/mypage/g0$h;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -118,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/mypage/g0$h;->e:Lcom/commsource/mypage/g0;
 
@@ -130,12 +121,10 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautyplus/a0;->X()Lcom/commsource/beautyplus/z;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->m()Landroid/net/Uri;
 
     move-result-object v2
@@ -146,7 +135,6 @@
 
     iget-object v2, p0, Lcom/commsource/mypage/g0$h;->e:Lcom/commsource/mypage/g0;
 
-    .line 4
     invoke-static {v2}, Lcom/commsource/mypage/g0;->G(Lcom/commsource/mypage/g0;)Lcom/bumptech/glide/request/g;
 
     move-result-object v2
@@ -159,7 +147,6 @@
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/mypage/g0$h$a;-><init>(Lcom/commsource/mypage/g0$h;Lcom/commsource/cloudalbum/bean/CAImageInfo;)V
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/bumptech/glide/i;->i1(Lcom/bumptech/glide/request/j/p;)Lcom/bumptech/glide/request/j/p;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -169,10 +156,8 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -190,10 +175,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/mypage/g0$h;->d:Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0$h;->e:Lcom/commsource/mypage/g0;
 
     invoke-static {v1}, Lcom/commsource/mypage/g0;->w(Lcom/commsource/mypage/g0;)Lcom/commsource/beautyplus/f0/i7;
@@ -206,7 +189,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -221,10 +203,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/mypage/g0$h;->d:Z
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/mypage/g0$h;->e:Lcom/commsource/mypage/g0;
 
     invoke-static {v2}, Lcom/commsource/mypage/g0;->w(Lcom/commsource/mypage/g0;)Lcom/commsource/beautyplus/f0/i7;
@@ -245,7 +225,6 @@
     :goto_0
     invoke-virtual {v2, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -260,7 +239,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-static {}, Lf/d/d/p;->N()Z
 
     move-result v1
@@ -278,13 +256,10 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/mypage/g0$h;->c:Z
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/mypage/g0$h;->a:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/mypage/g0$h;->e:Lcom/commsource/mypage/g0;
 
     invoke-static {v1}, Lcom/commsource/mypage/g0;->w(Lcom/commsource/mypage/g0;)Lcom/commsource/beautyplus/f0/i7;
@@ -299,7 +274,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/mypage/g0$h;->e:Lcom/commsource/mypage/g0;
 
     invoke-static {v1}, Lcom/commsource/mypage/g0;->w(Lcom/commsource/mypage/g0;)Lcom/commsource/beautyplus/f0/i7;
@@ -312,19 +286,16 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 6
     invoke-static {p1}, Lf/d/d/p;->b0(Lcom/commsource/cloudalbum/bean/CAImageInfo;)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/mypage/g0$h;->b:Landroid/os/Handler;
 
@@ -332,7 +303,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/mypage/g0$h;->b:Landroid/os/Handler;
 
     new-instance v2, Lcom/commsource/mypage/n;
@@ -343,12 +313,10 @@
 
     invoke-virtual {v1, v2, v3, v4}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -371,14 +339,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0$h;->b:Landroid/os/Handler;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -60,14 +60,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->e:Lcom/commsource/beautyplus/f0/cc;
 
     iput-object p2, p0, Lcom/commsource/studio/text/TextTemplatePanel;->f:Lcom/commsource/studio/sticker/TextFragment;
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/text/TextTemplatePanel$mViewModel$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/text/TextTemplatePanel$mViewModel$2;-><init>(Lcom/commsource/studio/text/TextTemplatePanel;)V
@@ -78,7 +76,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->a:Lcotlin/w;
 
-    .line 3
     new-instance p1, Lcom/commsource/widget/h1/e;
 
     invoke-virtual {p2}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -89,13 +86,10 @@
 
     iput-object p1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->b:Lcom/commsource/widget/h1/e;
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/text/TextTemplatePanel;->j()V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/text/TextTemplatePanel;->k()V
 
-    .line 6
     new-instance p1, Lcom/commsource/studio/text/TextTemplatePanel$i;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/text/TextTemplatePanel$i;-><init>(Lcom/commsource/studio/text/TextTemplatePanel;)V
@@ -112,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/text/TextTemplatePanel;->f()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object p0
@@ -129,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/text/TextTemplatePanel;->b:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/text/TextTemplatePanel;->d:Lcom/commsource/util/common/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -179,12 +170,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->e:Lcom/commsource/beautyplus/f0/cc;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cc;->P:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 2
     new-instance v2, Landroidx/recyclerview/widget/GridLayoutManager;
 
     iget-object v3, p0, Lcom/commsource/studio/text/TextTemplatePanel;->f:Lcom/commsource/studio/sticker/TextFragment;
@@ -199,10 +188,8 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/text/TextTemplatePanel;->b:Lcom/commsource/widget/h1/e;
 
-    .line 4
     const-class v3, Lcom/commsource/studio/text/TextTemplateMaterial;
 
     new-instance v4, Lcom/commsource/studio/text/TextTemplatePanel$a;
@@ -211,7 +198,6 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 5
     const-class v3, Ljava/lang/String;
 
     new-instance v4, Lcom/commsource/studio/text/TextTemplatePanel$b;
@@ -220,24 +206,20 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 6
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 7
     new-instance v2, Lcom/commsource/studio/sticker/i;
 
     invoke-direct {v2}, Lcom/commsource/studio/sticker/i;-><init>()V
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 8
     new-instance v2, Lcom/commsource/studio/text/TextTemplatePanel$c;
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/studio/text/TextTemplatePanel$c;-><init>(Landroidx/recyclerview/widget/RecyclerView;Lcom/commsource/studio/text/TextTemplatePanel;)V
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -250,7 +232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextTemplateRepository;->s:Lcom/commsource/repository/child/TextTemplateRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextTemplateRepository;->z()Landroidx/lifecycle/MutableLiveData;
@@ -269,12 +250,10 @@
 
     invoke-virtual {v2, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextTemplateRepository;->B()Lcom/commsource/material/download/b/a;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/material/download/b/a;->c()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v2
@@ -295,7 +274,6 @@
 
     invoke-virtual {v2, v3, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/material/download/b/a;->e()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v2
@@ -314,7 +292,6 @@
 
     invoke-virtual {v2, v3, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/material/download/b/a;->b()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v1
@@ -333,7 +310,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -356,10 +332,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->c:Lcom/commsource/studio/text/TextTemplateMaterial;
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->needDownload()Z
 
     move-result v1
@@ -368,7 +342,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -379,7 +352,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->f:Lcom/commsource/studio/sticker/TextFragment;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -390,7 +362,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object v1, Lcom/commsource/repository/child/TextTemplateRepository;->s:Lcom/commsource/repository/child/TextTemplateRepository;
 
@@ -400,13 +371,11 @@
 
     invoke-static {v1, p1, v3, v4, v2}, Lcom/commsource/repository/child/TextTemplateRepository;->y(Lcom/commsource/repository/child/TextTemplateRepository;Lcom/commsource/studio/text/TextTemplateMaterial;ZILjava/lang/Object;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     sget-object v1, Lcom/commsource/repository/child/TextTemplateRepository;->s:Lcom/commsource/repository/child/TextTemplateRepository;
 
@@ -416,7 +385,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/text/TextTemplatePanel;->f()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v1
@@ -446,7 +414,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 9
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getTemplateId()Ljava/lang/String;
 
     move-result-object v1
@@ -455,10 +422,8 @@
 
     const-string v3, "text_id"
 
-    .line 10
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     :cond_3
     invoke-direct {p0}, Lcom/commsource/studio/text/TextTemplatePanel;->f()Lcom/commsource/studio/text/TextViewModel;
 
@@ -484,7 +449,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 12
     :cond_4
     invoke-direct {p0}, Lcom/commsource/studio/text/TextTemplatePanel;->f()Lcom/commsource/studio/text/TextViewModel;
 
@@ -492,13 +456,11 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/text/TextViewModel;->z(Lcom/commsource/studio/text/TextTemplate;)V
 
-    .line 13
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 14
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -514,7 +476,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->f:Lcom/commsource/studio/sticker/TextFragment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -531,7 +492,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->c:Lcom/commsource/studio/text/TextTemplateMaterial;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -548,7 +508,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->e:Lcom/commsource/beautyplus/f0/cc;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -563,7 +522,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->e:Lcom/commsource/beautyplus/f0/cc;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cc;->f:Landroid/view/View;
@@ -574,7 +532,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->e:Lcom/commsource/beautyplus/f0/cc;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cc;->P:Landroidx/recyclerview/widget/RecyclerView;
@@ -585,7 +542,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -602,7 +558,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->c:Lcom/commsource/studio/text/TextTemplateMaterial;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -617,7 +572,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->e:Lcom/commsource/beautyplus/f0/cc;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cc;->f:Landroid/view/View;
@@ -628,7 +582,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplatePanel;->e:Lcom/commsource/beautyplus/f0/cc;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cc;->P:Landroidx/recyclerview/widget/RecyclerView;
@@ -639,14 +592,12 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/studio/text/TextTemplatePanel$h;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/text/TextTemplatePanel$h;-><init>(Lcom/commsource/studio/text/TextTemplatePanel;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->g(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

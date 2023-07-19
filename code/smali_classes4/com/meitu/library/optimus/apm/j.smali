@@ -26,15 +26,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/library/optimus/apm/j;->a:Z
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -55,10 +52,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/meitu/library/optimus/apm/j;->b:Lcom/meitu/library/optimus/apm/b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -71,10 +66,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/j;->b:Lcom/meitu/library/optimus/apm/b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -95,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/j;->c:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,12 +102,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/optimus/apm/j;->a:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -123,18 +113,14 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/meitu/library/optimus/apm/j;->a:Z
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/j;->b:Lcom/meitu/library/optimus/apm/b;
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {v1}, Lcom/meitu/library/optimus/apm/b;->cancel()V
 
-    .line 6
     :cond_1
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
@@ -144,10 +130,8 @@
 
     const-string v1, "apm canceled!"
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -161,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/optimus/apm/j;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

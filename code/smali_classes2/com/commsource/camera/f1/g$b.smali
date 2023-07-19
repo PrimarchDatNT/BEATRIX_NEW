@@ -40,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/f1/g$b;->a:Lcom/commsource/camera/f1/g;
 
     iput p2, p0, Lcom/commsource/camera/f1/g$b;->b:I
@@ -63,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/g$b;->a:Lcom/commsource/camera/f1/g;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/g;->e()Ljava/lang/Runnable;
@@ -72,7 +70,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/f1/g$b;->a:Lcom/commsource/camera/f1/g;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/g;->d()Lcom/commsource/camera/f1/g$a;
@@ -81,7 +78,6 @@
 
     invoke-static {v1}, Lcom/commsource/camera/ardata/e;->y(Lcom/commsource/camera/f1/g$a;)V
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -96,14 +92,12 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/commsource/camera/f1/g$b$b;
 
     invoke-direct {v2, p0, v1}, Lcom/commsource/camera/f1/g$b$b;-><init>(Lcom/commsource/camera/f1/g$b;Lcom/meitu/template/bean/ArMaterial;)V
 
     invoke-static {v2}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -116,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/g$b;->a:Lcom/commsource/camera/f1/g;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/g;->e()Ljava/lang/Runnable;
@@ -125,7 +118,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/f1/g$b;->a:Lcom/commsource/camera/f1/g;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/g;->d()Lcom/commsource/camera/f1/g$a;
@@ -134,14 +126,12 @@
 
     invoke-static {v1}, Lcom/commsource/camera/ardata/e;->y(Lcom/commsource/camera/f1/g$a;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/camera/f1/g$b$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/f1/g$b$a;-><init>(Lcom/commsource/camera/f1/g$b;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -29,7 +29,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/reflect/a;->a:Ljava/lang/reflect/Type;
@@ -46,7 +45,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/lang/reflect/GenericArrayType;
 
     if-eqz v0, :cond_0
@@ -83,7 +81,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/reflect/a;->a:Ljava/lang/reflect/Type;
 
     return-object v0
@@ -94,7 +91,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -121,7 +117,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/reflect/a;->getGenericComponentType()Ljava/lang/reflect/Type;
 
     move-result-object v0
@@ -138,7 +133,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/reflect/a;->getTypeName()Ljava/lang/String;
 
     move-result-object v0

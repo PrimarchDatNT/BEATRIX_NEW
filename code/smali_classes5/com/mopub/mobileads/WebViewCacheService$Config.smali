@@ -55,26 +55,20 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p1, p0, Lcom/mopub/mobileads/WebViewCacheService$Config;->mWebView:Lcom/mopub/mobileads/BaseWebView;
 
-    .line 5
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object p1, p0, Lcom/mopub/mobileads/WebViewCacheService$Config;->mWeakBaseAd:Ljava/lang/ref/WeakReference;
 
-    .line 6
     iput-object p3, p0, Lcom/mopub/mobileads/WebViewCacheService$Config;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
     return-void
@@ -87,7 +81,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/WebViewCacheService$Config;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
     return-object v0
@@ -107,7 +100,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/WebViewCacheService$Config;->mWeakBaseAd:Ljava/lang/ref/WeakReference;
 
     return-object v0
@@ -118,7 +110,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/WebViewCacheService$Config;->mWebView:Lcom/mopub/mobileads/BaseWebView;
 
     return-object v0
@@ -127,22 +118,18 @@
 .method public invalidate()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/WebViewCacheService$Config;->mWebView:Lcom/mopub/mobileads/BaseWebView;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/BaseWebView;->destroy()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/WebViewCacheService$Config;->mWeakBaseAd:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->clear()V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/WebViewCacheService$Config;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Lcom/mopub/mobileads/MoPubWebViewController;->destroy()V
 
     :cond_0

@@ -7,10 +7,8 @@
 .method public static a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->l1:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -19,7 +17,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -37,7 +34,6 @@
 
     return-object v1
 
-    .line 4
     :cond_1
     invoke-virtual {p0, p2}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
@@ -50,7 +46,6 @@
     :cond_2
     const/4 p2, 0x0
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
@@ -58,7 +53,6 @@
 
     if-ge p2, v0, :cond_4
 
-    .line 6
     invoke-virtual {p0, p2}, Lorg/json/JSONArray;->optJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -67,19 +61,16 @@
 
     const-string v2, "including"
 
-    .line 7
     invoke-virtual {v0, v2}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object v2
 
     const-string v3, "excluding"
 
-    .line 8
     invoke-virtual {v0, v3}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object v3
 
-    .line 9
     invoke-static {v2, p1}, Lcom/google/android/gms/internal/ads/so0;->b(Lorg/json/JSONArray;Ljava/lang/String;)Z
 
     move-result v2
@@ -94,7 +85,6 @@
 
     const-string p0, "effective_ad_unit_id"
 
-    .line 10
     invoke-virtual {v0, p0, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -124,7 +114,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
@@ -132,12 +121,10 @@
 
     if-ge v1, v2, :cond_2
 
-    .line 2
     invoke-virtual {p0, v1}, Lorg/json/JSONArray;->optString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     :try_start_0
     invoke-static {v2}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
@@ -162,7 +149,6 @@
     :catch_0
     move-exception v2
 
-    .line 4
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object v3

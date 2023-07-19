@@ -47,7 +47,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/CacheControl$Builder;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/CacheControl$Builder;-><init>()V
@@ -62,12 +61,10 @@
 
     sput-object v0, Lcom/squareup/okhttp/CacheControl;->FORCE_NETWORK:Lcom/squareup/okhttp/CacheControl;
 
-    .line 2
     new-instance v0, Lcom/squareup/okhttp/CacheControl$Builder;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/CacheControl$Builder;-><init>()V
 
-    .line 3
     invoke-virtual {v0}, Lcom/squareup/okhttp/CacheControl$Builder;->onlyIfCached()Lcom/squareup/okhttp/CacheControl$Builder;
 
     move-result-object v0
@@ -76,12 +73,10 @@
 
     const v2, 0x7fffffff
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Lcom/squareup/okhttp/CacheControl$Builder;->maxStale(ILjava/util/concurrent/TimeUnit;)Lcom/squareup/okhttp/CacheControl$Builder;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/squareup/okhttp/CacheControl$Builder;->build()Lcom/squareup/okhttp/CacheControl;
 
     move-result-object v0
@@ -94,56 +89,44 @@
 .method private constructor <init>(Lcom/squareup/okhttp/CacheControl$Builder;)V
     .locals 1
 
-    .line 15
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 16
     iget-boolean v0, p1, Lcom/squareup/okhttp/CacheControl$Builder;->noCache:Z
 
     iput-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->noCache:Z
 
-    .line 17
     iget-boolean v0, p1, Lcom/squareup/okhttp/CacheControl$Builder;->noStore:Z
 
     iput-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->noStore:Z
 
-    .line 18
     iget v0, p1, Lcom/squareup/okhttp/CacheControl$Builder;->maxAgeSeconds:I
 
     iput v0, p0, Lcom/squareup/okhttp/CacheControl;->maxAgeSeconds:I
 
     const/4 v0, -0x1
 
-    .line 19
     iput v0, p0, Lcom/squareup/okhttp/CacheControl;->sMaxAgeSeconds:I
 
     const/4 v0, 0x0
 
-    .line 20
     iput-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->isPrivate:Z
 
-    .line 21
     iput-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->isPublic:Z
 
-    .line 22
     iput-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->mustRevalidate:Z
 
-    .line 23
     iget v0, p1, Lcom/squareup/okhttp/CacheControl$Builder;->maxStaleSeconds:I
 
     iput v0, p0, Lcom/squareup/okhttp/CacheControl;->maxStaleSeconds:I
 
-    .line 24
     iget v0, p1, Lcom/squareup/okhttp/CacheControl$Builder;->minFreshSeconds:I
 
     iput v0, p0, Lcom/squareup/okhttp/CacheControl;->minFreshSeconds:I
 
-    .line 25
     iget-boolean v0, p1, Lcom/squareup/okhttp/CacheControl$Builder;->onlyIfCached:Z
 
     iput-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->onlyIfCached:Z
 
-    .line 26
     iget-boolean p1, p1, Lcom/squareup/okhttp/CacheControl$Builder;->noTransform:Z
 
     iput-boolean p1, p0, Lcom/squareup/okhttp/CacheControl;->noTransform:Z
@@ -154,7 +137,6 @@
 .method synthetic constructor <init>(Lcom/squareup/okhttp/CacheControl$Builder;Lcom/squareup/okhttp/CacheControl$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/squareup/okhttp/CacheControl;-><init>(Lcom/squareup/okhttp/CacheControl$Builder;)V
 
     return-void
@@ -163,43 +145,30 @@
 .method private constructor <init>(ZZIIZZZIIZZLjava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-boolean p1, p0, Lcom/squareup/okhttp/CacheControl;->noCache:Z
 
-    .line 4
     iput-boolean p2, p0, Lcom/squareup/okhttp/CacheControl;->noStore:Z
 
-    .line 5
     iput p3, p0, Lcom/squareup/okhttp/CacheControl;->maxAgeSeconds:I
 
-    .line 6
     iput p4, p0, Lcom/squareup/okhttp/CacheControl;->sMaxAgeSeconds:I
 
-    .line 7
     iput-boolean p5, p0, Lcom/squareup/okhttp/CacheControl;->isPrivate:Z
 
-    .line 8
     iput-boolean p6, p0, Lcom/squareup/okhttp/CacheControl;->isPublic:Z
 
-    .line 9
     iput-boolean p7, p0, Lcom/squareup/okhttp/CacheControl;->mustRevalidate:Z
 
-    .line 10
     iput p8, p0, Lcom/squareup/okhttp/CacheControl;->maxStaleSeconds:I
 
-    .line 11
     iput p9, p0, Lcom/squareup/okhttp/CacheControl;->minFreshSeconds:I
 
-    .line 12
     iput-boolean p10, p0, Lcom/squareup/okhttp/CacheControl;->onlyIfCached:Z
 
-    .line 13
     iput-boolean p11, p0, Lcom/squareup/okhttp/CacheControl;->noTransform:Z
 
-    .line 14
     iput-object p12, p0, Lcom/squareup/okhttp/CacheControl;->headerValue:Ljava/lang/String;
 
     return-void
@@ -208,12 +177,10 @@
 .method private headerValue()Ljava/lang/String;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/squareup/okhttp/CacheControl;->noCache:Z
 
     if-eqz v1, :cond_0
@@ -222,7 +189,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     :cond_0
     iget-boolean v1, p0, Lcom/squareup/okhttp/CacheControl;->noStore:Z
 
@@ -232,7 +198,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     :cond_1
     iget v1, p0, Lcom/squareup/okhttp/CacheControl;->maxAgeSeconds:I
 
@@ -252,7 +217,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     :cond_2
     iget v1, p0, Lcom/squareup/okhttp/CacheControl;->sMaxAgeSeconds:I
 
@@ -268,7 +232,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     :cond_3
     iget-boolean v1, p0, Lcom/squareup/okhttp/CacheControl;->isPrivate:Z
 
@@ -278,7 +241,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     :cond_4
     iget-boolean v1, p0, Lcom/squareup/okhttp/CacheControl;->isPublic:Z
 
@@ -288,7 +250,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     :cond_5
     iget-boolean v1, p0, Lcom/squareup/okhttp/CacheControl;->mustRevalidate:Z
 
@@ -298,7 +259,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     :cond_6
     iget v1, p0, Lcom/squareup/okhttp/CacheControl;->maxStaleSeconds:I
 
@@ -314,7 +274,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     :cond_7
     iget v1, p0, Lcom/squareup/okhttp/CacheControl;->minFreshSeconds:I
 
@@ -330,7 +289,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     :cond_8
     iget-boolean v1, p0, Lcom/squareup/okhttp/CacheControl;->onlyIfCached:Z
 
@@ -340,7 +298,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     :cond_9
     iget-boolean v1, p0, Lcom/squareup/okhttp/CacheControl;->noTransform:Z
 
@@ -350,7 +307,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 13
     :cond_a
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
@@ -362,7 +318,6 @@
 
     return-object v0
 
-    .line 14
     :cond_b
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
@@ -376,7 +331,6 @@
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 15
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -389,7 +343,6 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     invoke-virtual/range {p0 .. p0}, Lcom/squareup/okhttp/Headers;->size()I
 
     move-result v1
@@ -425,19 +378,16 @@
     :goto_0
     if-ge v6, v1, :cond_11
 
-    .line 2
     invoke-virtual {v0, v6}, Lcom/squareup/okhttp/Headers;->name(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v0, v6}, Lcom/squareup/okhttp/Headers;->value(I)Ljava/lang/String;
 
     move-result-object v4
 
     const-string v3, "Cache-Control"
 
-    .line 4
     invoke-virtual {v2, v3}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v3
@@ -456,7 +406,6 @@
     :cond_1
     const-string v3, "Pragma"
 
-    .line 5
     invoke-virtual {v2, v3}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v2
@@ -469,7 +418,6 @@
     :goto_2
     const/4 v2, 0x0
 
-    .line 6
     :goto_3
     invoke-virtual {v4}, Ljava/lang/String;->length()I
 
@@ -479,12 +427,10 @@
 
     const-string v3, "=,;"
 
-    .line 7
     invoke-static {v4, v2, v3}, Lcom/squareup/okhttp/internal/http/HeaderParser;->skipUntil(Ljava/lang/String;ILjava/lang/String;)I
 
     move-result v3
 
-    .line 8
     invoke-virtual {v4, v2, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v2
@@ -493,7 +439,6 @@
 
     move-result-object v2
 
-    .line 9
     invoke-virtual {v4}, Ljava/lang/String;->length()I
 
     move-result v5
@@ -521,12 +466,10 @@
     :cond_2
     add-int/lit8 v3, v3, 0x1
 
-    .line 10
     invoke-static {v4, v3}, Lcom/squareup/okhttp/internal/http/HeaderParser;->skipWhitespace(Ljava/lang/String;I)I
 
     move-result v0
 
-    .line 11
     invoke-virtual {v4}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -545,12 +488,10 @@
 
     const-string v3, "\""
 
-    .line 12
     invoke-static {v4, v0, v3}, Lcom/squareup/okhttp/internal/http/HeaderParser;->skipUntil(Ljava/lang/String;ILjava/lang/String;)I
 
     move-result v3
 
-    .line 13
     invoke-virtual {v4, v0, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v0
@@ -566,12 +507,10 @@
 
     const-string v3, ",;"
 
-    .line 14
     invoke-static {v4, v0, v3}, Lcom/squareup/okhttp/internal/http/HeaderParser;->skipUntil(Ljava/lang/String;ILjava/lang/String;)I
 
     move-result v3
 
-    .line 15
     invoke-virtual {v4, v0, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v0
@@ -593,7 +532,6 @@
     :goto_5
     const-string v5, "no-cache"
 
-    .line 16
     invoke-virtual {v5, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v5
@@ -609,7 +547,6 @@
     :cond_5
     const-string v5, "no-store"
 
-    .line 17
     invoke-virtual {v5, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v5
@@ -625,7 +562,6 @@
     :cond_6
     const-string v5, "max-age"
 
-    .line 18
     invoke-virtual {v5, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v5
@@ -634,7 +570,6 @@
 
     const/4 v5, -0x1
 
-    .line 19
     invoke-static {v0, v5}, Lcom/squareup/okhttp/internal/http/HeaderParser;->parseSeconds(Ljava/lang/String;I)I
 
     move-result v11
@@ -644,7 +579,6 @@
     :cond_7
     const-string v5, "s-maxage"
 
-    .line 20
     invoke-virtual {v5, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v5
@@ -653,7 +587,6 @@
 
     const/4 v5, -0x1
 
-    .line 21
     invoke-static {v0, v5}, Lcom/squareup/okhttp/internal/http/HeaderParser;->parseSeconds(Ljava/lang/String;I)I
 
     move-result v12
@@ -663,7 +596,6 @@
     :cond_8
     const-string v5, "private"
 
-    .line 22
     invoke-virtual {v5, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v5
@@ -679,7 +611,6 @@
     :cond_9
     const-string v5, "public"
 
-    .line 23
     invoke-virtual {v5, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v5
@@ -695,7 +626,6 @@
     :cond_a
     const-string v5, "must-revalidate"
 
-    .line 24
     invoke-virtual {v5, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v5
@@ -711,7 +641,6 @@
     :cond_b
     const-string v5, "max-stale"
 
-    .line 25
     invoke-virtual {v5, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v5
@@ -720,7 +649,6 @@
 
     const v2, 0x7fffffff
 
-    .line 26
     invoke-static {v0, v2}, Lcom/squareup/okhttp/internal/http/HeaderParser;->parseSeconds(Ljava/lang/String;I)I
 
     move-result v16
@@ -732,7 +660,6 @@
     :cond_c
     const-string v5, "min-fresh"
 
-    .line 27
     invoke-virtual {v5, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v5
@@ -741,7 +668,6 @@
 
     const/4 v5, -0x1
 
-    .line 28
     invoke-static {v0, v5}, Lcom/squareup/okhttp/internal/http/HeaderParser;->parseSeconds(Ljava/lang/String;I)I
 
     move-result v17
@@ -753,7 +679,6 @@
 
     const-string v0, "only-if-cached"
 
-    .line 29
     invoke-virtual {v0, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v0
@@ -767,7 +692,6 @@
     :cond_e
     const-string v0, "no-transform"
 
-    .line 30
     invoke-virtual {v0, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v0
@@ -803,7 +727,6 @@
     :cond_12
     move-object/from16 v20, v8
 
-    .line 31
     :goto_7
     new-instance v0, Lcom/squareup/okhttp/CacheControl;
 
@@ -819,7 +742,6 @@
 .method public isPrivate()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->isPrivate:Z
 
     return v0
@@ -828,7 +750,6 @@
 .method public isPublic()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->isPublic:Z
 
     return v0
@@ -837,7 +758,6 @@
 .method public maxAgeSeconds()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/CacheControl;->maxAgeSeconds:I
 
     return v0
@@ -846,7 +766,6 @@
 .method public maxStaleSeconds()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/CacheControl;->maxStaleSeconds:I
 
     return v0
@@ -855,7 +774,6 @@
 .method public minFreshSeconds()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/CacheControl;->minFreshSeconds:I
 
     return v0
@@ -864,7 +782,6 @@
 .method public mustRevalidate()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->mustRevalidate:Z
 
     return v0
@@ -873,7 +790,6 @@
 .method public noCache()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->noCache:Z
 
     return v0
@@ -882,7 +798,6 @@
 .method public noStore()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->noStore:Z
 
     return v0
@@ -891,7 +806,6 @@
 .method public noTransform()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->noTransform:Z
 
     return v0
@@ -900,7 +814,6 @@
 .method public onlyIfCached()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/CacheControl;->onlyIfCached:Z
 
     return v0
@@ -909,7 +822,6 @@
 .method public sMaxAgeSeconds()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/CacheControl;->sMaxAgeSeconds:I
 
     return v0
@@ -918,14 +830,12 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/CacheControl;->headerValue:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/squareup/okhttp/CacheControl;->headerValue()Ljava/lang/String;
 

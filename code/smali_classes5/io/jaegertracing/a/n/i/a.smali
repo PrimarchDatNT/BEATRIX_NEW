@@ -31,16 +31,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lio/jaegertracing/a/n/i/a;->a:D
 
-    .line 3
     iput-wide p3, p0, Lio/jaegertracing/a/n/i/a;->b:D
 
-    .line 4
     iput-object p5, p0, Lio/jaegertracing/a/n/i/a;->c:Ljava/util/List;
 
     return-void
@@ -51,7 +47,6 @@
 .method public a()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/a/n/i/a;->b:D
 
     return-wide v0
@@ -60,7 +55,6 @@
 .method public b()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/a/n/i/a;->a:D
 
     return-wide v0
@@ -77,7 +71,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/n/i/a;->c:Ljava/util/List;
 
     return-object v0
@@ -86,7 +79,6 @@
 .method public d(D)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/a/n/i/a;->b:D
 
     return-void
@@ -95,7 +87,6 @@
 .method public e(D)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/a/n/i/a;->a:D
 
     return-void
@@ -112,7 +103,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/a/n/i/a;->c:Ljava/util/List;
 
     return-void
@@ -121,7 +111,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

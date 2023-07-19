@@ -38,7 +38,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController$$special$$inlined$also$lambda$3$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController$$special$$inlined$also$lambda$3;
 
     iget-object v0, v0, Lcom/mopub/mobileads/VastVideoViewController$$special$$inlined$also$lambda$3;->this$0:Lcom/mopub/mobileads/VastVideoViewController;

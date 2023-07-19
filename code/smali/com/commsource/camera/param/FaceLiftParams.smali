@@ -38,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/param/FaceLiftParams$a;
 
     invoke-direct {v1}, Lcom/commsource/camera/param/FaceLiftParams$a;-><init>()V
@@ -53,7 +52,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,10 +60,8 @@
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     const-class v0, Lcom/meitu/mtlab/arkernelinterface/core/ParamControl/ARKernelParamType$ParamFlagEnum;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
@@ -90,12 +86,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/param/FaceLiftParams;->a:Landroid/util/SparseArray;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -109,7 +103,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -130,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/param/FaceLiftParams;->a:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -145,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/param/FaceLiftParams;->a:Landroid/util/SparseArray;
 
     if-eqz v1, :cond_1
@@ -180,12 +171,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/param/FaceLiftParams;->a:Landroid/util/SparseArray;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/util/SparseArray;
 
     const/16 v2, 0xc
@@ -194,7 +183,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/param/FaceLiftParams;->a:Landroid/util/SparseArray;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/param/FaceLiftParams;->a:Landroid/util/SparseArray;
 
@@ -204,7 +192,6 @@
 
     invoke-virtual {v1, p1, p2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -217,7 +204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -240,10 +226,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/param/FaceLiftParams;->a:Landroid/util/SparseArray;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -256,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/param/FaceLiftParams;->a:Landroid/util/SparseArray;
 
     if-nez v1, :cond_0
@@ -283,12 +266,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/param/FaceLiftParams;->a:Landroid/util/SparseArray;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeSparseArray(Landroid/util/SparseArray;)V
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

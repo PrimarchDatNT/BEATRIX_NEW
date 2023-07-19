@@ -69,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/beautyplus/web/p;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -86,18 +85,14 @@
 .method public constructor <init>(Landroid/app/Activity;Lcom/commsource/beautyplus/web/o$b;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/commsource/beautyplus/web/p;->m:I
 
-    .line 3
     iput-object p2, p0, Lcom/commsource/beautyplus/web/p;->b:Lcom/commsource/beautyplus/web/o$b;
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
     return-void
@@ -106,24 +101,18 @@
 .method public constructor <init>(Landroid/app/Activity;Lcom/commsource/beautyplus/web/o$b;ILjava/lang/String;)V
     .locals 1
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 6
     iput v0, p0, Lcom/commsource/beautyplus/web/p;->m:I
 
-    .line 7
     iput-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
-    .line 8
     iput-object p2, p0, Lcom/commsource/beautyplus/web/p;->b:Lcom/commsource/beautyplus/web/o$b;
 
-    .line 9
     iput p3, p0, Lcom/commsource/beautyplus/web/p;->c:I
 
-    .line 10
     iput-object p4, p0, Lcom/commsource/beautyplus/web/p;->d:Ljava/lang/String;
 
     return-void
@@ -136,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/beautyplus/web/p;->m:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -151,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautyplus/web/p;->m:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -166,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/p;->i:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -181,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/p;->i:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -196,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/p;->f:Lcom/commsource/beautyplus/router/RouterEntity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -211,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/p;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -226,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/p;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -241,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/p;->b:Lcom/commsource/beautyplus/web/o$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -256,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/p;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -271,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/p;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -286,7 +265,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/p;->j:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -301,7 +279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/p;->j:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -316,7 +293,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/beautyplus/web/p$b;
 
     const-string v1, "DownloadShareImageTask"
@@ -325,7 +301,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -340,14 +315,12 @@
 
     const-string v1, "BeautyPlusSouthKorea"
 
-    .line 1
     invoke-virtual {p1, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_keroea_url:I
@@ -363,14 +336,12 @@
     :cond_0
     const-string v1, "BeautyPlusJapan"
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_japan_url:I
@@ -386,14 +357,12 @@
     :cond_1
     const-string v1, "BeautyPlusIndonesia"
 
-    .line 5
     invoke-virtual {p1, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_indonesia_url:I
@@ -409,14 +378,12 @@
     :cond_2
     const-string v1, "BeautyPlusThailand"
 
-    .line 7
     invoke-virtual {p1, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_thailand_url:I
@@ -432,14 +399,12 @@
     :cond_3
     const-string v1, "BeautyPlusPhilippines"
 
-    .line 9
     invoke-virtual {p1, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_philippines_url:I
@@ -455,14 +420,12 @@
     :cond_4
     const-string v1, "BeautyPlusMeIndia"
 
-    .line 11
     invoke-virtual {p1, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_5
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_meIndia_url:I
@@ -478,14 +441,12 @@
     :cond_5
     const-string v1, "BeautyPlusAppVietnam"
 
-    .line 13
     invoke-virtual {p1, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_6
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_vietnam_url:I
@@ -498,7 +459,6 @@
 
     return-object p1
 
-    .line 15
     :cond_6
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
@@ -520,14 +480,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     iget v2, p0, Lcom/commsource/beautyplus/web/p;->c:I
 
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -538,25 +496,20 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
     const-string/jumbo v4, "webviewtrans"
 
     invoke-static {v2, v4, v1}, Lcom/commsource/statistics/m;->j(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 4
     iget v1, p0, Lcom/commsource/beautyplus/web/p;->c:I
 
-    .line 5
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 6
     invoke-static {v4, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -569,7 +522,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/web/p;->M(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -584,7 +536,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -599,7 +550,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/p;->g:Lcom/commsource/beautyplus/web/mtscript/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -614,7 +564,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/p;->g:Lcom/commsource/beautyplus/web/mtscript/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -629,7 +578,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/p;->h:Lcom/commsource/util/common/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -644,7 +592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/p;->h:Lcom/commsource/util/common/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -659,7 +606,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/web/p;->N(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -676,7 +622,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/web/p;->n:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -691,7 +636,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/web/p;->s:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -706,7 +650,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/commsource/beautyplus/web/p;->s:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -721,7 +664,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/p;->e:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -736,7 +678,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/p;->e:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -753,7 +694,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p;->d:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -762,7 +702,6 @@
 
     if-nez v1, :cond_3
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p;->d:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
@@ -832,39 +771,31 @@
 
     goto :goto_1
 
-    .line 3
     :pswitch_0
     invoke-direct {p0}, Lcom/commsource/beautyplus/web/p;->P()V
 
     goto :goto_1
 
-    .line 4
     :pswitch_1
     iget v2, p0, Lcom/commsource/beautyplus/web/p;->c:I
 
-    .line 5
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 6
     invoke-static {v3, v1, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 7
     :pswitch_2
     iget v2, p0, Lcom/commsource/beautyplus/web/p;->c:I
 
-    .line 8
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 9
     invoke-static {v3, v1, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -893,7 +824,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/web/p;->s:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -908,7 +838,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/util/p2/c;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
@@ -925,7 +854,6 @@
 
     move-result-object v3
 
-    .line 2
     invoke-static {v3}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v3
@@ -936,7 +864,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -949,15 +876,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p;->h:Lcom/commsource/util/common/a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/util/common/a;->a()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

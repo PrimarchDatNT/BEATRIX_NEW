@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/n/a/c/l;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/b$a;->a:Lf/n/a/c/l;
 
     iput-object p2, p0, Lf/n/a/c/b$a;->b:Ljava/lang/String;
@@ -56,7 +55,6 @@
 
     move-wide v0, p1
 
-    .line 1
     :cond_0
     iget-object p1, p0, Lf/n/a/c/b$a;->a:Lf/n/a/c/l;
 

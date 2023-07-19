@@ -11,10 +11,8 @@
 .method constructor <init>(Lcom/google/firebase/Timestamp;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/model/value/e;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/model/value/n;->M:Lcom/google/firebase/Timestamp;
 
     return-void
@@ -23,7 +21,6 @@
 .method public static p(Lcom/google/firebase/Timestamp;)Lcom/google/firebase/firestore/model/value/n;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/model/value/n;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/firestore/model/value/n;-><init>(Lcom/google/firebase/Timestamp;)V
@@ -36,12 +33,10 @@
 .method public a(Lcom/google/firebase/firestore/model/value/e;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/model/value/n;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/model/value/n;->M:Lcom/google/firebase/Timestamp;
 
     check-cast p1, Lcom/google/firebase/firestore/model/value/n;
@@ -54,7 +49,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     instance-of v0, p1, Lcom/google/firebase/firestore/model/value/l;
 
@@ -64,7 +58,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/value/e;->f(Lcom/google/firebase/firestore/model/value/e;)I
 
@@ -76,7 +69,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/firebase/firestore/model/value/e;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/value/n;->a(Lcom/google/firebase/firestore/model/value/e;)I
@@ -89,7 +81,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/model/value/n;
 
     if-eqz v0, :cond_0
@@ -100,7 +91,6 @@
 
     iget-object p1, p1, Lcom/google/firebase/firestore/model/value/n;->M:Lcom/google/firebase/Timestamp;
 
-    .line 2
     invoke-virtual {v0, p1}, Lcom/google/firebase/Timestamp;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -131,7 +121,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/value/n;->M:Lcom/google/firebase/Timestamp;
 
     return-object v0
@@ -140,7 +129,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/value/n;->M:Lcom/google/firebase/Timestamp;
 
     invoke-virtual {v0}, Lcom/google/firebase/Timestamp;->hashCode()I
@@ -153,19 +141,16 @@
 .method public n(Lcom/google/firebase/firestore/model/value/FieldValueOptions;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/value/FieldValueOptions;->a()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/firebase/firestore/model/value/n;->M:Lcom/google/firebase/Timestamp;
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/google/firebase/firestore/model/value/n;->M:Lcom/google/firebase/Timestamp;
 
@@ -179,7 +164,6 @@
 .method public o()Lcom/google/firebase/Timestamp;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/value/n;->M:Lcom/google/firebase/Timestamp;
 
     return-object v0
@@ -188,7 +172,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/value/n;->M:Lcom/google/firebase/Timestamp;
 
     invoke-virtual {v0}, Lcom/google/firebase/Timestamp;->toString()Ljava/lang/String;

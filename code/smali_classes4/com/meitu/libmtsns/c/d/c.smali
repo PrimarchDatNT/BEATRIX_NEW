@@ -31,20 +31,16 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
-    .line 2
     sput-object v1, Lcom/meitu/libmtsns/c/d/c;->b:Ljava/lang/ref/WeakReference;
 
     const/4 v1, 0x0
 
-    .line 3
     sput v1, Lcom/meitu/libmtsns/c/d/c;->c:I
 
     const/4 v1, 0x1
 
-    .line 4
     sput v1, Lcom/meitu/libmtsns/c/d/c;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -55,7 +51,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -68,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/c/d/c;->b:Ljava/lang/ref/WeakReference;
 
     if-eqz v1, :cond_0
@@ -83,7 +77,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/lang/ref/WeakReference;
 
@@ -95,14 +88,12 @@
 
     const-string v2, ""
 
-    .line 3
     invoke-static {p0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     move-result-object p0
 
     sput-object p0, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -118,13 +109,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->gc()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -137,13 +125,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
     invoke-virtual {v1, p0}, Landroid/widget/Toast;->setText(I)V
 
-    .line 2
     sget-object p0, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
     invoke-virtual {p0}, Landroid/widget/Toast;->show()V
@@ -155,10 +141,8 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/NullPointerException;->printStackTrace()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -172,13 +156,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
     invoke-virtual {v1, p0}, Landroid/widget/Toast;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     sget-object p0, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
     invoke-virtual {p0}, Landroid/widget/Toast;->show()V
@@ -190,10 +172,8 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/NullPointerException;->printStackTrace()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -216,26 +196,21 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1
     :cond_1
     sget-object v1, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {v1, p1}, Landroid/widget/Toast;->setDuration(I)V
 
-    .line 3
     sget-object p1, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
     invoke-virtual {p1, p0}, Landroid/widget/Toast;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     sget-object p0, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
     invoke-virtual {p0}, Landroid/widget/Toast;->show()V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -249,24 +224,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Landroid/widget/Toast;->setDuration(I)V
 
-    .line 2
     sget-object v1, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
     invoke-virtual {v1, p0}, Landroid/widget/Toast;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     sget-object p0, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
     invoke-virtual {p0}, Landroid/widget/Toast;->show()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

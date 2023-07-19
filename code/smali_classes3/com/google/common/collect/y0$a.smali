@@ -32,10 +32,8 @@
 .method public constructor <init>(Lcom/google/common/collect/y0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/y0$a;->b:Lcom/google/common/collect/y0;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/Maps$e0;-><init>(Ljava/util/SortedMap;)V
 
     return-void

@@ -58,15 +58,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->w(Lcom/commsource/studio/doodle/NewDoodleRepository;)V
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->x(Lcom/commsource/studio/doodle/NewDoodleRepository;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

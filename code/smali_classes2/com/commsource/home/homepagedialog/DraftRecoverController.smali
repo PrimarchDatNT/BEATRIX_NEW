@@ -30,7 +30,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/d;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/DraftRecoverController;->d:Lcom/commsource/beautyplus/BaseActivity;
@@ -45,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/home/homepagedialog/DraftRecoverController$buildDraftDialog$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/home/homepagedialog/DraftRecoverController$buildDraftDialog$1;-><init>(Lcom/commsource/home/homepagedialog/DraftRecoverController;)V
@@ -68,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 v0, 0xa
@@ -83,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -94,7 +90,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -131,29 +126,24 @@
 
     move-result v1
 
-    .line 3
     invoke-static {}, Lcom/commsource/studio/m0;->T()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/DraftDataManager;->i:Lcom/commsource/studio/DraftDataManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/DraftDataManager$a;->a()V
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/studio/m0;->e0(Z)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -167,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/DraftRecoverController;->c:Lcom/commsource/widget/dialog/delegate/b;
 
     if-eqz v1, :cond_0
@@ -194,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/DraftRecoverController;->d:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-static {v1}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
@@ -203,19 +191,16 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/DraftRecoverController;->c:Lcom/commsource/widget/dialog/delegate/b;
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/DraftRecoverController;->j()Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/home/homepagedialog/DraftRecoverController;->c:Lcom/commsource/widget/dialog/delegate/b;
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/DraftRecoverController;->c:Lcom/commsource/widget/dialog/delegate/b;
 
@@ -223,7 +208,6 @@
 
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -239,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/DraftRecoverController;->d:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -256,7 +239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/DraftRecoverController;->c:Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -275,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/DraftRecoverController;->c:Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -34,7 +34,6 @@
 .method public constructor <init>(J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/k0;-><init>()V
 
     iput-wide p1, p0, Lcotlinx/coroutines/k1$d;->b:J

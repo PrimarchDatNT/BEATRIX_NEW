@@ -43,17 +43,14 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/util/concurrent/ExecutorService;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
     iput-object v0, p0, Lf/k/g0/g/d/c;->c:Ljava/util/Map;
 
-    .line 3
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -64,17 +61,14 @@
 
     iput-object v0, p0, Lf/k/g0/g/d/c;->d:Landroid/os/Handler;
 
-    .line 4
     iput-object p1, p0, Lf/k/g0/g/d/c;->a:Landroid/content/Context;
 
-    .line 5
     iput-object p2, p0, Lf/k/g0/g/d/c;->b:Ljava/util/concurrent/ExecutorService;
 
     const-string p2, "meituRemoteAnalyticsConditionalUserProperty"
 
     const/4 v0, 0x0
 
-    .line 6
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p1
@@ -101,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v1
@@ -122,7 +115,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -139,7 +131,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -164,7 +155,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-virtual {p2}, Landroid/os/Bundle;->size()I
 
     move-result v2
@@ -174,7 +164,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     new-instance v3, Ljava/util/ArrayList;
 
@@ -188,14 +177,12 @@
 
     invoke-direct {v3, v4}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     iget-object v4, p0, Lf/k/g0/g/d/c;->c:Ljava/util/Map;
 
     invoke-interface {v4}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v4
 
-    .line 4
     invoke-interface {v4}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -213,7 +200,6 @@
 
     check-cast v5, Ljava/util/Map$Entry;
 
-    .line 5
     new-instance v6, Lcom/meitu/library/analytics/y/l/j/b$a;
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -251,12 +237,10 @@
     :cond_1
     if-lez v2, :cond_2
 
-    .line 6
     invoke-virtual {p2}, Landroid/os/Bundle;->keySet()Ljava/util/Set;
 
     move-result-object v2
 
-    .line 7
     invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -274,12 +258,10 @@
 
     check-cast v4, Ljava/lang/String;
 
-    .line 8
     invoke-virtual {p2, v4}, Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v5
 
-    .line 9
     new-instance v6, Lcom/meitu/library/analytics/y/l/j/b$a;
 
     invoke-static {v5}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -295,7 +277,6 @@
     :cond_2
     new-array p2, v1, [Lcom/meitu/library/analytics/y/l/j/b$a;
 
-    .line 10
     invoke-interface {v3, p2}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p2
@@ -304,7 +285,6 @@
 
     invoke-static {p1, p2}, Lcom/meitu/library/analytics/o;->W(Ljava/lang/String;[Lcom/meitu/library/analytics/y/l/j/b$a;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

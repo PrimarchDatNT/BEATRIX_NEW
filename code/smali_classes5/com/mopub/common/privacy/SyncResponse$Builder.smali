@@ -50,7 +50,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,7 +62,6 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     new-instance v18, Lcom/mopub/common/privacy/SyncResponse;
 
     move-object/from16 v1, v18
@@ -118,7 +116,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->callAgainAfterSecs:Ljava/lang/String;
 
     return-object p0
@@ -131,7 +128,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->consentChangeReason:Ljava/lang/String;
 
     return-object p0
@@ -144,7 +140,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->currentPrivacyPolicyLink:Ljava/lang/String;
 
     return-object p0
@@ -157,7 +152,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->currentPrivacyPolicyVersion:Ljava/lang/String;
 
     return-object p0
@@ -170,7 +164,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->currentVendorListIabFormat:Ljava/lang/String;
 
     return-object p0
@@ -183,7 +176,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->currentVendorListIabHash:Ljava/lang/String;
 
     return-object p0
@@ -196,7 +188,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->currentVendorListLink:Ljava/lang/String;
 
     return-object p0
@@ -209,7 +200,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->currentVendorListVersion:Ljava/lang/String;
 
     return-object p0
@@ -222,7 +212,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->extras:Ljava/lang/String;
 
     return-object p0
@@ -235,7 +224,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->forceExplicitNo:Ljava/lang/String;
 
     return-object p0
@@ -248,7 +236,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->forceGdprApplies:Ljava/lang/String;
 
     return-object p0
@@ -261,7 +248,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->invalidateConsent:Ljava/lang/String;
 
     return-object p0
@@ -274,7 +260,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->isGdprRegion:Ljava/lang/String;
 
     return-object p0
@@ -287,7 +272,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->isWhitelisted:Ljava/lang/String;
 
     return-object p0
@@ -300,7 +284,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/SyncResponse$Builder;->reacquireConsent:Ljava/lang/String;
 
     return-object p0

@@ -29,7 +29,6 @@
 .method constructor <init>(Ljava/util/concurrent/atomic/AtomicInteger;Ljava/util/concurrent/atomic/AtomicBoolean;Lcom/mopub/nativeads/NativeImageHelper$ImageListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/NativeImageHelper$1;->val$imageCounter:Ljava/util/concurrent/atomic/AtomicInteger;
 
     iput-object p2, p0, Lcom/mopub/nativeads/NativeImageHelper$1;->val$anyFailures:Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -50,7 +49,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x2
@@ -69,21 +67,18 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/nativeads/NativeImageHelper$1;->val$anyFailures:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {p1, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;->getAndSet(Z)Z
 
     move-result p1
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/nativeads/NativeImageHelper$1;->val$imageCounter:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->decrementAndGet()I
 
     if-nez p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/nativeads/NativeImageHelper$1;->val$imageListener:Lcom/mopub/nativeads/NativeImageHelper$ImageListener;
 
     sget-object v0, Lcom/mopub/nativeads/NativeErrorCode;->IMAGE_DOWNLOAD_FAILURE:Lcom/mopub/nativeads/NativeErrorCode;
@@ -101,14 +96,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lcom/mopub/network/MoPubImageLoader$ImageContainer;->getBitmap()Landroid/graphics/Bitmap;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/nativeads/NativeImageHelper$1;->val$imageCounter:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {p1}, Ljava/util/concurrent/atomic/AtomicInteger;->decrementAndGet()I
@@ -117,7 +110,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/nativeads/NativeImageHelper$1;->val$anyFailures:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {p1}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -126,7 +118,6 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/nativeads/NativeImageHelper$1;->val$imageListener:Lcom/mopub/nativeads/NativeImageHelper$ImageListener;
 
     invoke-interface {p1}, Lcom/mopub/nativeads/NativeImageHelper$ImageListener;->onImagesCached()V

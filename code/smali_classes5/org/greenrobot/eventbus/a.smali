@@ -16,13 +16,10 @@
 .method constructor <init>(Lorg/greenrobot/eventbus/c;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/greenrobot/eventbus/a;->b:Lorg/greenrobot/eventbus/c;
 
-    .line 3
     new-instance p1, Lorg/greenrobot/eventbus/i;
 
     invoke-direct {p1}, Lorg/greenrobot/eventbus/i;-><init>()V
@@ -37,17 +34,14 @@
 .method public a(Lorg/greenrobot/eventbus/n;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Lorg/greenrobot/eventbus/h;->a(Lorg/greenrobot/eventbus/n;Ljava/lang/Object;)Lorg/greenrobot/eventbus/h;
 
     move-result-object p1
 
-    .line 2
     iget-object p2, p0, Lorg/greenrobot/eventbus/a;->a:Lorg/greenrobot/eventbus/i;
 
     invoke-virtual {p2, p1}, Lorg/greenrobot/eventbus/i;->a(Lorg/greenrobot/eventbus/h;)V
 
-    .line 3
     iget-object p1, p0, Lorg/greenrobot/eventbus/a;->b:Lorg/greenrobot/eventbus/c;
 
     invoke-virtual {p1}, Lorg/greenrobot/eventbus/c;->h()Ljava/util/concurrent/ExecutorService;
@@ -62,7 +56,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/eventbus/a;->a:Lorg/greenrobot/eventbus/i;
 
     invoke-virtual {v0}, Lorg/greenrobot/eventbus/i;->b()Lorg/greenrobot/eventbus/h;
@@ -71,14 +64,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lorg/greenrobot/eventbus/a;->b:Lorg/greenrobot/eventbus/c;
 
     invoke-virtual {v1, v0}, Lorg/greenrobot/eventbus/c;->l(Lorg/greenrobot/eventbus/h;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 

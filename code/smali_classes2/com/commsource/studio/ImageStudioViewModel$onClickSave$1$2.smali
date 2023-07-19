@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1$2;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,26 +69,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1$2;->this$0:Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->V()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1$2;->this$0:Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1;
 
     iget-boolean v2, v1, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1;->c:Z
 
     if-eqz v2, :cond_0
 
-    .line 4
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-static {v1}, Lcom/commsource/studio/ImageStudioViewModel;->D(Lcom/commsource/studio/ImageStudioViewModel;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

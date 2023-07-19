@@ -38,7 +38,6 @@
 .method constructor <init>(Lcom/google/common/collect/t$b$a;Lcom/google/common/base/u;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/t$b$a$a;->b:Lcom/google/common/collect/t$b$a;
 
     iput-object p2, p0, Lcom/google/common/collect/t$b$a$a;->a:Lcom/google/common/base/u;
@@ -62,10 +61,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$b$a$a;->a:Lcom/google/common/base/u;
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -84,7 +81,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-interface {v0, p1}, Lcom/google/common/base/u;->apply(Ljava/lang/Object;)Z
 
     move-result p1
@@ -95,7 +91,6 @@
 .method public bridge synthetic apply(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/Map$Entry;
 
     invoke-virtual {p0, p1}, Lcom/google/common/collect/t$b$a$a;->a(Ljava/util/Map$Entry;)Z

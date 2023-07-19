@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$b;->a:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
@@ -60,14 +58,12 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$b;->a:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->y(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -77,12 +73,10 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$b;->a:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->y(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,7 +91,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$b;->a:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->z(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)Z
@@ -106,12 +99,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$b;->a:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->L(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -125,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/start/w/a$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$b;->b(Lcom/commsource/beautyplus/start/w/a$b;)V

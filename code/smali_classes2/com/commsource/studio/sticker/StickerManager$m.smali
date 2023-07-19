@@ -23,7 +23,6 @@
 .method constructor <init>(Lcom/meitu/template/bean/Sticker;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerManager$m;->g:Lcom/meitu/template/bean/Sticker;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -40,14 +39,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerManager$m;->g:Lcom/meitu/template/bean/Sticker;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sticker/StickerRepository;->o(Lcom/meitu/template/bean/Sticker;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

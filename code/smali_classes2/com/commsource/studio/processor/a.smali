@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/b;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/processor/a;->V(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
@@ -66,17 +64,14 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1, p2}, Lcom/meitu/core/processor/RemoveSpotsProcessor;->removeSpots2(Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;)Z
 
     const-string p2, "nativeBitmap"
 
-    .line 3
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
@@ -89,10 +84,8 @@
 
     invoke-virtual {p0, p2}, Lcom/commsource/studio/processor/b;->S(Landroid/graphics/Bitmap;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

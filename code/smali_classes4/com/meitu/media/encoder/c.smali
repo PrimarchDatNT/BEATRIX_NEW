@@ -39,15 +39,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/media/encoder/c;->g:Z
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/meitu/media/encoder/c;->c(Lcom/meitu/media/encoder/b;)V
 
     return-void
@@ -65,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     invoke-direct {v1, p1}, Lcom/meitu/media/encoder/TextureMovieEncoder;-><init>(Lcom/meitu/media/encoder/b;)V
@@ -74,7 +70,6 @@
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     new-instance v2, Lcom/meitu/media/encoder/i;
 
@@ -96,11 +91,9 @@
     :catch_0
     move-exception v2
 
-    .line 3
     :try_start_1
     invoke-virtual {v2}, Ljava/lang/IllegalStateException;->printStackTrace()V
 
-    .line 4
     iput-boolean v1, p0, Lcom/meitu/media/encoder/c;->g:Z
 
     goto :goto_0
@@ -108,43 +101,35 @@
     :catch_1
     move-exception v2
 
-    .line 5
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 6
     iput-boolean v1, p0, Lcom/meitu/media/encoder/c;->g:Z
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     :goto_0
     iput-object p1, p0, Lcom/meitu/media/encoder/c;->c:Lcom/meitu/media/encoder/b;
 
     const/4 p1, 0x0
 
-    .line 8
     iput-boolean p1, p0, Lcom/meitu/media/encoder/c;->d:Z
 
-    .line 9
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->b:Lcom/meitu/media/encoder/i;
 
     if-eqz v1, :cond_0
 
-    .line 10
     iget-object p1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     iget v1, p0, Lcom/meitu/media/encoder/c;->f:I
 
     invoke-virtual {p1, v1}, Lcom/meitu/media/encoder/TextureMovieEncoder;->u(I)V
 
-    .line 11
     iget-object p1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     invoke-virtual {p1, p0}, Lcom/meitu/media/encoder/TextureMovieEncoder;->w(Lcom/meitu/media/encoder/TextureMovieEncoder$b;)V
 
     goto :goto_1
 
-    .line 12
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
@@ -152,16 +137,13 @@
 
     const/4 p1, 0x0
 
-    .line 13
     iput-object p1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
-    .line 14
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -177,15 +159,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->e:Lcom/meitu/media/encoder/c$a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/meitu/media/encoder/c$a;->a(I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -199,15 +178,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1, p2}, Lcom/meitu/media/encoder/TextureMovieEncoder;->g(J)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -221,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/encoder/c;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -236,17 +211,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     if-eqz v1, :cond_0
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/TextureMovieEncoder;->p(Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -265,25 +237,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     invoke-virtual {v1, p1}, Lcom/meitu/media/encoder/TextureMovieEncoder;->s(Lcom/meitu/media/encoder/b;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->b:Lcom/meitu/media/encoder/i;
 
     invoke-virtual {v1, p1}, Lcom/meitu/media/encoder/i;->g(Lcom/meitu/media/encoder/b;)V
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/media/encoder/c;->c:Lcom/meitu/media/encoder/b;
 
     const/4 p1, 0x0
 
-    .line 4
     iput-boolean p1, p0, Lcom/meitu/media/encoder/c;->d:Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -305,19 +272,15 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v1}, Lcom/meitu/common/base/a;->d(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->b:Lcom/meitu/media/encoder/i;
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1, p1}, Lcom/meitu/media/encoder/i;->i(Lcom/meitu/media/encoder/i$a;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -331,29 +294,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/encoder/c;->d:Z
 
     if-nez v1, :cond_1
 
-    .line 2
     iput p1, p0, Lcom/meitu/media/encoder/c;->f:I
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v1, p1}, Lcom/meitu/media/encoder/TextureMovieEncoder;->u(I)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -373,10 +330,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/c;->e:Lcom/meitu/media/encoder/c$a;
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/media/encoder/c;->g:Z
 
     if-eqz v1, :cond_0
@@ -385,15 +340,12 @@
 
     const v1, 0x20001
 
-    .line 3
     invoke-interface {p1, v1}, Lcom/meitu/media/encoder/c$a;->a(I)V
 
     const/4 p1, 0x0
 
-    .line 4
     iput-boolean p1, p0, Lcom/meitu/media/encoder/c;->g:Z
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -407,18 +359,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/media/encoder/c;->k(I)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/media/encoder/TextureMovieEncoder;->C()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -444,15 +392,12 @@
     :goto_0
     const-string v2, "textName must not be 0."
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/common/base/a;->e(ZLjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     if-eqz v1, :cond_1
 
-    .line 3
     :try_start_0
     invoke-virtual {v1, p1}, Lcom/meitu/media/encoder/TextureMovieEncoder;->v(I)V
     :try_end_0
@@ -463,20 +408,16 @@
     :catch_0
     move-exception p1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/IllegalStateException;->printStackTrace()V
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/media/encoder/c;->e:Lcom/meitu/media/encoder/c$a;
 
     if-eqz p1, :cond_1
 
     const v1, 0x10003
 
-    .line 6
     invoke-interface {p1, v1}, Lcom/meitu/media/encoder/c$a;->a(I)V
 
-    .line 7
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -500,19 +441,15 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v1}, Lcom/meitu/common/base/a;->d(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1, p1}, Lcom/meitu/media/encoder/TextureMovieEncoder;->x(Lcom/meitu/media/encoder/TextureMovieEncoder$c;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -528,20 +465,16 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/meitu/media/encoder/c;->d:Z
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->b:Lcom/meitu/media/encoder/i;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/i;->j()V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/TextureMovieEncoder;->z()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -554,7 +487,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/encoder/c;->d:Z
 
     if-nez v1, :cond_0
@@ -563,23 +495,19 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->b:Lcom/meitu/media/encoder/i;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/i;->l()V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/TextureMovieEncoder;->A()V
 
     const/4 v1, 0x0
 
-    .line 4
     iput-boolean v1, p0, Lcom/meitu/media/encoder/c;->d:Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -592,7 +520,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/encoder/c;->d:Z
 
     if-nez v1, :cond_0
@@ -601,23 +528,19 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->b:Lcom/meitu/media/encoder/i;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/i;->l()V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->b:Lcom/meitu/media/encoder/i;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/i;->m()V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/TextureMovieEncoder;->A()V
 
-    .line 5
     :goto_0
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->b:Lcom/meitu/media/encoder/i;
 
@@ -637,7 +560,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->c:Lcom/meitu/media/encoder/b;
 
@@ -649,10 +571,8 @@
 
     const/4 v1, 0x0
 
-    .line 7
     iput-boolean v1, p0, Lcom/meitu/media/encoder/c;->d:Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -661,7 +581,6 @@
     :goto_1
     const-wide/16 v1, 0xa
 
-    .line 9
     :try_start_0
     invoke-static {v1, v2}, Ljava/lang/Thread;->sleep(J)V
     :try_end_0
@@ -672,7 +591,6 @@
     :catch_0
     move-exception v1
 
-    .line 10
     invoke-virtual {v1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
     goto :goto_0
@@ -685,17 +603,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     if-eqz v1, :cond_0
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/TextureMovieEncoder;->p(Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -709,12 +624,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/c;->a:Lcom/meitu/media/encoder/TextureMovieEncoder;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/TextureMovieEncoder;->B()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

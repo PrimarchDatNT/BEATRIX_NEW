@@ -27,7 +27,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/effect/t;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/effect/d;->e:Lcom/commsource/studio/sub/AdjustEffectEnum;
@@ -46,7 +45,6 @@
 
     const/4 p2, 0x0
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/effect/d;-><init>(Lcom/commsource/studio/sub/AdjustEffectEnum;F)V
 
@@ -100,12 +98,10 @@
 
     if-ne p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p1, Lcom/commsource/studio/effect/d;
 
@@ -113,12 +109,10 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_1
     iget-object v2, p0, Lcom/commsource/studio/effect/d;->e:Lcom/commsource/studio/sub/AdjustEffectEnum;
 
@@ -128,12 +122,10 @@
 
     if-eq v2, p1, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -147,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/d;->f:F
 
     const/4 v2, 0x0
@@ -176,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/d;->e:Lcom/commsource/studio/sub/AdjustEffectEnum;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->hashCode()I
@@ -253,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/d;->e:Lcom/commsource/studio/sub/AdjustEffectEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -268,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/d;->f:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -285,10 +273,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput v1, p0, Lcom/commsource/studio/effect/d;->f:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -301,7 +287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/effect/d;->f:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -324,12 +309,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget p1, p1, Lcom/commsource/studio/effect/d;->f:F
 
     iput p1, p0, Lcom/commsource/studio/effect/d;->f:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -30,7 +30,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/f8;->F()Lcom/google/android/gms/internal/firebase_auth/f8;
 
     move-result-object v0
@@ -43,7 +42,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/firebase_auth/e8;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_auth/f8$a;-><init>()V
 
     return-void

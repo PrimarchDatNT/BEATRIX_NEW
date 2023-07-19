@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$p;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment$p;->e(Ljava/lang/Boolean;)V
@@ -74,10 +72,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyfilter/NoStickLiveData$a;->b(Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$p;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/StickerFragment;->X(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/beautyplus/f0/ma;
@@ -90,13 +86,10 @@
 
     const-string p1, "beauty_sticker_customize_clk"
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 4
     sget-object p1, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->a:Lcom/commsource/mypage/album/BpAlbumJumpRouter;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$p;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -107,7 +100,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment$p;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {v2}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -122,10 +114,8 @@
 
     xor-int/2addr v2, v3
 
-    .line 7
     invoke-virtual {p1, v1, v2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->f(Landroidx/fragment/app/FragmentActivity;Z)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$p;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
@@ -136,7 +126,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/widget/ProView;->setHasShowProBanner(Z)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$p;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -145,7 +134,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/studio/ImageStudioViewModel;->i2(Z)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

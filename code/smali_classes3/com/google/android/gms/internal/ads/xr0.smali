@@ -30,10 +30,8 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xr0;->b:Lcom/google/android/gms/internal/ads/lq;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object v1
@@ -50,19 +48,16 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/lq;->a(Ljava/lang/Object;)Z
 
     return-void
 
-    .line 5
     :cond_0
     new-instance v1, Ljava/lang/Exception;
 

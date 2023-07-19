@@ -91,7 +91,6 @@
 
     const/4 v4, -0x1
 
-    .line 1
     invoke-direct {v1, v2, v3, v4}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->UNDEFINED:Lcotlin/text/CharDirectionality;
@@ -104,7 +103,6 @@
 
     const/4 v4, 0x1
 
-    .line 2
     invoke-direct {v1, v2, v4, v3}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->LEFT_TO_RIGHT:Lcotlin/text/CharDirectionality;
@@ -117,7 +115,6 @@
 
     const/4 v3, 0x2
 
-    .line 3
     invoke-direct {v1, v2, v3, v4}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->RIGHT_TO_LEFT:Lcotlin/text/CharDirectionality;
@@ -130,7 +127,6 @@
 
     const/4 v4, 0x3
 
-    .line 4
     invoke-direct {v1, v2, v4, v3}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->RIGHT_TO_LEFT_ARABIC:Lcotlin/text/CharDirectionality;
@@ -143,7 +139,6 @@
 
     const/4 v3, 0x4
 
-    .line 5
     invoke-direct {v1, v2, v3, v4}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->EUROPEAN_NUMBER:Lcotlin/text/CharDirectionality;
@@ -156,7 +151,6 @@
 
     const/4 v4, 0x5
 
-    .line 6
     invoke-direct {v1, v2, v4, v3}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->EUROPEAN_NUMBER_SEPARATOR:Lcotlin/text/CharDirectionality;
@@ -169,7 +163,6 @@
 
     const/4 v3, 0x6
 
-    .line 7
     invoke-direct {v1, v2, v3, v4}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->EUROPEAN_NUMBER_TERMINATOR:Lcotlin/text/CharDirectionality;
@@ -182,7 +175,6 @@
 
     const/4 v4, 0x7
 
-    .line 8
     invoke-direct {v1, v2, v4, v3}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->ARABIC_NUMBER:Lcotlin/text/CharDirectionality;
@@ -195,7 +187,6 @@
 
     const/16 v3, 0x8
 
-    .line 9
     invoke-direct {v1, v2, v3, v4}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->COMMON_NUMBER_SEPARATOR:Lcotlin/text/CharDirectionality;
@@ -208,7 +199,6 @@
 
     const/16 v4, 0x9
 
-    .line 10
     invoke-direct {v1, v2, v4, v3}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->NONSPACING_MARK:Lcotlin/text/CharDirectionality;
@@ -221,7 +211,6 @@
 
     const/16 v3, 0xa
 
-    .line 11
     invoke-direct {v1, v2, v3, v4}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->BOUNDARY_NEUTRAL:Lcotlin/text/CharDirectionality;
@@ -234,7 +223,6 @@
 
     const/16 v4, 0xb
 
-    .line 12
     invoke-direct {v1, v2, v4, v3}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->PARAGRAPH_SEPARATOR:Lcotlin/text/CharDirectionality;
@@ -247,7 +235,6 @@
 
     const/16 v3, 0xc
 
-    .line 13
     invoke-direct {v1, v2, v3, v4}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->SEGMENT_SEPARATOR:Lcotlin/text/CharDirectionality;
@@ -260,7 +247,6 @@
 
     const/16 v4, 0xd
 
-    .line 14
     invoke-direct {v1, v2, v4, v3}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->WHITESPACE:Lcotlin/text/CharDirectionality;
@@ -273,7 +259,6 @@
 
     const/16 v3, 0xe
 
-    .line 15
     invoke-direct {v1, v2, v3, v4}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->OTHER_NEUTRALS:Lcotlin/text/CharDirectionality;
@@ -286,7 +271,6 @@
 
     const/16 v4, 0xf
 
-    .line 16
     invoke-direct {v1, v2, v4, v3}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->LEFT_TO_RIGHT_EMBEDDING:Lcotlin/text/CharDirectionality;
@@ -299,7 +283,6 @@
 
     const/16 v3, 0x10
 
-    .line 17
     invoke-direct {v1, v2, v3, v4}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->LEFT_TO_RIGHT_OVERRIDE:Lcotlin/text/CharDirectionality;
@@ -312,7 +295,6 @@
 
     const/16 v4, 0x11
 
-    .line 18
     invoke-direct {v1, v2, v4, v3}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->RIGHT_TO_LEFT_EMBEDDING:Lcotlin/text/CharDirectionality;
@@ -325,7 +307,6 @@
 
     const/16 v3, 0x12
 
-    .line 19
     invoke-direct {v1, v2, v3, v4}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->RIGHT_TO_LEFT_OVERRIDE:Lcotlin/text/CharDirectionality;
@@ -338,7 +319,6 @@
 
     const/16 v4, 0x13
 
-    .line 20
     invoke-direct {v1, v2, v4, v3}, Lcotlin/text/CharDirectionality;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcotlin/text/CharDirectionality;->POP_DIRECTIONAL_FORMAT:Lcotlin/text/CharDirectionality;
@@ -355,7 +335,6 @@
 
     sput-object v0, Lcotlin/text/CharDirectionality;->Companion:Lcotlin/text/CharDirectionality$a;
 
-    .line 21
     sget-object v0, Lcotlin/text/CharDirectionality$Companion$directionalityMap$2;->INSTANCE:Lcotlin/text/CharDirectionality$Companion$directionalityMap$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -375,7 +354,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcotlin/text/CharDirectionality;->value:I
@@ -386,7 +364,6 @@
 .method public static final synthetic access$getDirectionalityMap$cp()Lcotlin/w;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/text/CharDirectionality;->directionalityMap$delegate:Lcotlin/w;
 
     return-object v0
@@ -425,7 +402,6 @@
 .method public final getValue()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/text/CharDirectionality;->value:I
 
     return v0

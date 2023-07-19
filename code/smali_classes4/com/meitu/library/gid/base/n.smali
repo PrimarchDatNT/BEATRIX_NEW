@@ -22,7 +22,6 @@
 
     const/4 v1, 0x7
 
-    .line 1
     sput v1, Lcom/meitu/library/gid/base/n;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -33,7 +32,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -48,12 +46,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/library/gid/base/n;->a:I
 
     if-ge p1, v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -79,7 +75,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -97,7 +92,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -115,7 +109,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -133,7 +126,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -149,7 +141,6 @@
 
     invoke-static {p1, p3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -163,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/library/gid/base/n;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -52,20 +52,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->mContainers:Ljava/util/List;
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->mRequest:Lcom/mopub/volley/Request;
 
-    .line 4
     invoke-interface {v0, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     return-void
@@ -74,7 +70,6 @@
 .method static synthetic access$000(Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;)Landroid/graphics/Bitmap;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->mResponseBitmap:Landroid/graphics/Bitmap;
 
     return-object p0
@@ -83,7 +78,6 @@
 .method static synthetic access$002(Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->mResponseBitmap:Landroid/graphics/Bitmap;
 
     return-object p1
@@ -92,7 +86,6 @@
 .method static synthetic access$300(Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->mContainers:Ljava/util/List;
 
     return-object p0
@@ -103,7 +96,6 @@
 .method public addContainer(Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->mContainers:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -114,7 +106,6 @@
 .method public getError()Lcom/mopub/volley/VolleyError;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->mError:Lcom/mopub/volley/VolleyError;
 
     return-object v0
@@ -123,12 +114,10 @@
 .method public removeContainerAndCancelIfNecessary(Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->mContainers:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->mContainers:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
@@ -137,7 +126,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->mRequest:Lcom/mopub/volley/Request;
 
     invoke-virtual {p1}, Lcom/mopub/volley/Request;->cancel()V
@@ -155,7 +143,6 @@
 .method public setError(Lcom/mopub/volley/VolleyError;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->mError:Lcom/mopub/volley/VolleyError;
 
     return-void

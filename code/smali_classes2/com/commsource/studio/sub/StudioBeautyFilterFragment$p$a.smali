@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$p$a;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment$p;
 
     iget-object v1, v1, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$p;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
@@ -59,7 +58,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->B(Lcom/meitu/template/bean/Filter;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

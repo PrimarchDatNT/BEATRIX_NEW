@@ -14,7 +14,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/setting/ccpa/CCPAActivity;->O0(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -42,17 +40,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lf/d/i/e;->p2(Z)V
 
     const/4 v1, 0x1
 
     xor-int/2addr p1, v1
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setCCPAAgree(Z)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->getInstance()Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;
 
     move-result-object v2
@@ -71,14 +66,12 @@
 
     if-ne v2, v3, :cond_3
 
-    .line 4
     invoke-static {}, Lcom/mopub/common/MoPub;->getPersonalInformationManager()Lcom/mopub/common/privacy/PersonalInfoManager;
 
     move-result-object v2
 
     if-eqz v2, :cond_4
 
-    .line 5
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->isAgreeGDPRProtocol()Z
 
     move-result v3
@@ -97,16 +90,13 @@
     :goto_0
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-virtual {v2}, Lcom/mopub/common/privacy/PersonalInfoManager;->grantConsent()V
 
     goto :goto_1
 
-    .line 7
     :cond_1
     invoke-virtual {v2}, Lcom/mopub/common/privacy/PersonalInfoManager;->revokeConsent()V
 
-    .line 8
     :goto_1
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -139,10 +129,8 @@
     :cond_3
     const-string v2, "CCPA Mopub\u672a\u521d\u59cb\u5316\u5b8c\u6210\uff0c\u4e0d\u7528\u8bbe\u7f6e"
 
-    .line 9
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 10
     :cond_4
     :goto_3
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->isAgreeGDPRProtocol()Z
@@ -163,16 +151,13 @@
     :goto_4
     if-nez v2, :cond_6
 
-    .line 11
     invoke-static {p0, v1, v4}, Lcom/sdk/api/a;->r(Landroid/content/Context;ZZ)V
 
     goto :goto_5
 
-    .line 12
     :cond_6
     invoke-static {p0, v4, v1}, Lcom/sdk/api/a;->r(Landroid/content/Context;ZZ)V
 
-    .line 13
     :goto_5
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -204,7 +189,6 @@
 
     const-string p1, "LDU"
 
-    .line 14
     filled-new-array {p1}, [Ljava/lang/String;
 
     move-result-object p1
@@ -213,7 +197,6 @@
 
     const-string p1, "FacebookSdk \u5f00\u542fLDU\u9650\u5236"
 
-    .line 15
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
     goto :goto_7
@@ -221,15 +204,12 @@
     :cond_8
     new-array p1, v4, [Ljava/lang/String;
 
-    .line 16
     invoke-static {p1}, Lcom/facebook/FacebookSdk;->setDataProcessingOptions([Ljava/lang/String;)V
 
     const-string p1, "FacebookSdk \u672a\u5f00\u542fLDU\u9650\u5236"
 
-    .line 17
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 18
     :goto_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -318,17 +298,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->activity_ccpa_setting:I
 
-    .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V
 
     sget p1, Lcom/res/provider/ResID;->switch_choose_country:I
 
-    .line 3
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -345,7 +322,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 
-    .line 4
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -360,7 +336,6 @@
 
     sget p1, Lcom/res/provider/ResID;->ibtn_left:I
 
-    .line 5
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -371,7 +346,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

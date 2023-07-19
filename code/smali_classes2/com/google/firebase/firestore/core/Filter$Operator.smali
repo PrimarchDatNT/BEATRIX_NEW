@@ -46,7 +46,6 @@
 .method static constructor <clinit>()V
     .locals 14
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/core/Filter$Operator;
 
     const-string v1, "LESS_THAN"
@@ -59,7 +58,6 @@
 
     sput-object v0, Lcom/google/firebase/firestore/core/Filter$Operator;->LESS_THAN:Lcom/google/firebase/firestore/core/Filter$Operator;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/firestore/core/Filter$Operator;
 
     const-string v3, "LESS_THAN_OR_EQUAL"
@@ -72,7 +70,6 @@
 
     sput-object v1, Lcom/google/firebase/firestore/core/Filter$Operator;->LESS_THAN_OR_EQUAL:Lcom/google/firebase/firestore/core/Filter$Operator;
 
-    .line 3
     new-instance v3, Lcom/google/firebase/firestore/core/Filter$Operator;
 
     const-string v5, "EQUAL"
@@ -85,7 +82,6 @@
 
     sput-object v3, Lcom/google/firebase/firestore/core/Filter$Operator;->EQUAL:Lcom/google/firebase/firestore/core/Filter$Operator;
 
-    .line 4
     new-instance v5, Lcom/google/firebase/firestore/core/Filter$Operator;
 
     const-string v7, "GREATER_THAN"
@@ -98,7 +94,6 @@
 
     sput-object v5, Lcom/google/firebase/firestore/core/Filter$Operator;->GREATER_THAN:Lcom/google/firebase/firestore/core/Filter$Operator;
 
-    .line 5
     new-instance v7, Lcom/google/firebase/firestore/core/Filter$Operator;
 
     const-string v9, "GREATER_THAN_OR_EQUAL"
@@ -111,7 +106,6 @@
 
     sput-object v7, Lcom/google/firebase/firestore/core/Filter$Operator;->GREATER_THAN_OR_EQUAL:Lcom/google/firebase/firestore/core/Filter$Operator;
 
-    .line 6
     new-instance v9, Lcom/google/firebase/firestore/core/Filter$Operator;
 
     const-string v11, "ARRAY_CONTAINS"
@@ -140,7 +134,6 @@
 
     aput-object v9, v11, v12
 
-    .line 7
     sput-object v11, Lcom/google/firebase/firestore/core/Filter$Operator;->$VALUES:[Lcom/google/firebase/firestore/core/Filter$Operator;
 
     return-void
@@ -156,10 +149,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/google/firebase/firestore/core/Filter$Operator;->text:Ljava/lang/String;
 
     return-void
@@ -168,7 +159,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/firestore/core/Filter$Operator;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/firestore/core/Filter$Operator;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +173,6 @@
 .method public static values()[Lcom/google/firebase/firestore/core/Filter$Operator;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/core/Filter$Operator;->$VALUES:[Lcom/google/firebase/firestore/core/Filter$Operator;
 
     invoke-virtual {v0}, [Lcom/google/firebase/firestore/core/Filter$Operator;->clone()Ljava/lang/Object;
@@ -200,7 +189,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/Filter$Operator;->text:Ljava/lang/String;
 
     return-object v0

@@ -11,7 +11,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,10 +19,8 @@
 .method protected constructor <init>(Lorg/apache/thrift/transport/TTransport;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     return-void
@@ -43,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/apache/thrift/scheme/StandardScheme;
 
     return-object v0
@@ -52,7 +48,6 @@
 .method public getTransport()Lorg/apache/thrift/transport/TTransport;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     return-object v0

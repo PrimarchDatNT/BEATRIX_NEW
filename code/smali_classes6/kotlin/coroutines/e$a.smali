@@ -37,7 +37,6 @@
 .method public constructor <init>(Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/coroutines/e$a;->a:Lcotlin/coroutines/CoroutineContext;
 
     iput-object p2, p0, Lcotlin/coroutines/e$a;->b:Lcotlin/jvm/u/l;
@@ -54,7 +53,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/coroutines/e$a;->a:Lcotlin/coroutines/CoroutineContext;
 
     return-object v0
@@ -67,7 +65,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlin/coroutines/e$a;->b:Lcotlin/jvm/u/l;
 
     invoke-static {p1}, Lcotlin/Result;->box-impl(Ljava/lang/Object;)Lcotlin/Result;

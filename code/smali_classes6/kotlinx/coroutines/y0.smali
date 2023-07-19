@@ -61,12 +61,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcotlinx/coroutines/internal/y;-><init>(Lcotlin/coroutines/CoroutineContext;Lcotlin/coroutines/c;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcotlinx/coroutines/y0;->_decision:I
 
     return-void
@@ -75,7 +73,6 @@
 .method private final A1()Z
     .locals 3
 
-    .line 1
     :cond_0
     iget v0, p0, Lcotlinx/coroutines/y0;->_decision:I
 
@@ -89,7 +86,6 @@
 
     return v1
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -103,7 +99,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     sget-object v0, Lcotlinx/coroutines/y0;->f:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
@@ -121,7 +116,6 @@
 .method private final z1()Z
     .locals 4
 
-    .line 1
     :cond_0
     iget v0, p0, Lcotlinx/coroutines/y0;->_decision:I
 
@@ -135,7 +129,6 @@
 
     return v1
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -149,7 +142,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     sget-object v0, Lcotlinx/coroutines/y0;->f:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
@@ -173,7 +165,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/y0;->p1(Ljava/lang/Object;)V
 
     return-void
@@ -186,7 +177,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/y0;->z1()Z
 
     move-result v0
@@ -195,7 +185,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcotlinx/coroutines/internal/y;->d:Lcotlin/coroutines/c;
 
@@ -219,7 +208,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/y0;->A1()Z
 
     move-result v0
@@ -232,7 +220,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcotlinx/coroutines/JobSupport;->D0()Ljava/lang/Object;
 
@@ -242,7 +229,6 @@
 
     move-result-object v0
 
-    .line 3
     instance-of v1, v0, Lcotlinx/coroutines/z;
 
     if-nez v1, :cond_1

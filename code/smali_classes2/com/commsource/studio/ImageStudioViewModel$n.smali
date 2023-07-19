@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->b1()Lcom/commsource/studio/bean/e;
@@ -71,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -84,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->b1()Lcom/commsource/studio/bean/e;
@@ -109,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->b1()Lcom/commsource/studio/bean/e;
@@ -122,7 +117,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->b1()Lcom/commsource/studio/bean/e;
@@ -148,7 +142,6 @@
     :cond_0
     move-object v1, v3
 
-    .line 3
     :goto_0
     iget-object v4, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -160,7 +153,6 @@
 
     move-result-object v4
 
-    .line 4
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v5}, Lcom/commsource/studio/ImageStudioViewModel;->b1()Lcom/commsource/studio/bean/e;
@@ -182,7 +174,6 @@
     :cond_1
     move-object v2, v3
 
-    .line 5
     :goto_1
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -196,7 +187,6 @@
 
     invoke-static {v5, v7, v7, v6, v3}, Lcom/commsource/studio/component/UndoRedoComponent$c;->I(Lcom/commsource/studio/component/UndoRedoComponent$c;ZZILjava/lang/Object;)V
 
-    .line 6
     iget-object v8, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v4}, Lcom/commsource/studio/bean/Step;->getLayerInfos()Ljava/util/ArrayList;
@@ -213,7 +203,6 @@
 
     invoke-static/range {v8 .. v13}, Lcom/commsource/studio/ImageStudioViewModel;->K1(Lcom/commsource/studio/ImageStudioViewModel;Ljava/util/List;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -222,14 +211,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     const/4 v2, 0x2
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->O(I)V
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -243,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/studio/v$a;->b(Lcom/commsource/studio/v;)Z
 
     move-result v1
@@ -262,7 +248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->b1()Lcom/commsource/studio/bean/e;
@@ -275,7 +260,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->b1()Lcom/commsource/studio/bean/e;
@@ -301,7 +285,6 @@
     :cond_0
     move-object v1, v3
 
-    .line 3
     :goto_0
     iget-object v4, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -313,7 +296,6 @@
 
     move-result-object v4
 
-    .line 4
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v5}, Lcom/commsource/studio/ImageStudioViewModel;->b1()Lcom/commsource/studio/bean/e;
@@ -335,7 +317,6 @@
     :cond_1
     move-object v2, v3
 
-    .line 5
     :goto_1
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -349,7 +330,6 @@
 
     invoke-static {v5, v7, v7, v6, v3}, Lcom/commsource/studio/component/UndoRedoComponent$c;->I(Lcom/commsource/studio/component/UndoRedoComponent$c;ZZILjava/lang/Object;)V
 
-    .line 6
     iget-object v8, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v4}, Lcom/commsource/studio/bean/Step;->getLayerInfos()Ljava/util/ArrayList;
@@ -366,7 +346,6 @@
 
     invoke-static/range {v8 .. v13}, Lcom/commsource/studio/ImageStudioViewModel;->K1(Lcom/commsource/studio/ImageStudioViewModel;Ljava/util/List;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -375,14 +354,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     const/4 v2, 0x2
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->O(I)V
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -396,7 +373,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$n;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->b1()Lcom/commsource/studio/bean/e;
@@ -405,7 +381,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/bean/e;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

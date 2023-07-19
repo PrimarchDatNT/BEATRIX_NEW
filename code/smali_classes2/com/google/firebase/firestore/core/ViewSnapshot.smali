@@ -63,31 +63,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->a:Lcom/google/firebase/firestore/core/e0;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->b:Lcom/google/firebase/firestore/model/g;
 
-    .line 4
     iput-object p3, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->c:Lcom/google/firebase/firestore/model/g;
 
-    .line 5
     iput-object p4, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->d:Ljava/util/List;
 
-    .line 6
     iput-boolean p5, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->e:Z
 
-    .line 7
     iput-object p6, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->f:Lcom/google/firebase/database/collection/f;
 
-    .line 8
     iput-boolean p7, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->g:Z
 
-    .line 9
     iput-boolean p8, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->h:Z
 
     return-void
@@ -107,12 +98,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/g;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -130,7 +119,6 @@
 
     check-cast v1, Lcom/google/firebase/firestore/model/Document;
 
-    .line 3
     sget-object v2, Lcom/google/firebase/firestore/core/DocumentViewChange$Type;->ADDED:Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
     invoke-static {v2, v1}, Lcom/google/firebase/firestore/core/DocumentViewChange;->a(Lcom/google/firebase/firestore/core/DocumentViewChange$Type;Lcom/google/firebase/firestore/model/Document;)Lcom/google/firebase/firestore/core/DocumentViewChange;
@@ -141,11 +129,9 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v9, Lcom/google/firebase/firestore/core/ViewSnapshot;
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/firebase/firestore/core/e0;->c()Ljava/util/Comparator;
 
     move-result-object v0
@@ -178,7 +164,6 @@
 .method public a()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->g:Z
 
     return v0
@@ -187,7 +172,6 @@
 .method public b()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->h:Z
 
     return v0
@@ -204,7 +188,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->d:Ljava/util/List;
 
     return-object v0
@@ -213,7 +196,6 @@
 .method public e()Lcom/google/firebase/firestore/model/g;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->b:Lcom/google/firebase/firestore/model/g;
 
     return-object v0
@@ -228,7 +210,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/google/firebase/firestore/core/ViewSnapshot;
 
@@ -238,11 +219,9 @@
 
     return v1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/firestore/core/ViewSnapshot;
 
-    .line 3
     iget-boolean v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->e:Z
 
     iget-boolean v2, p1, Lcom/google/firebase/firestore/core/ViewSnapshot;->e:Z
@@ -251,7 +230,6 @@
 
     return v1
 
-    .line 4
     :cond_2
     iget-boolean v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->g:Z
 
@@ -261,7 +239,6 @@
 
     return v1
 
-    .line 5
     :cond_3
     iget-boolean v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->h:Z
 
@@ -271,7 +248,6 @@
 
     return v1
 
-    .line 6
     :cond_4
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->a:Lcom/google/firebase/firestore/core/e0;
 
@@ -285,7 +261,6 @@
 
     return v1
 
-    .line 7
     :cond_5
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->f:Lcom/google/firebase/database/collection/f;
 
@@ -299,7 +274,6 @@
 
     return v1
 
-    .line 8
     :cond_6
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->b:Lcom/google/firebase/firestore/model/g;
 
@@ -313,7 +287,6 @@
 
     return v1
 
-    .line 9
     :cond_7
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->c:Lcom/google/firebase/firestore/model/g;
 
@@ -327,7 +300,6 @@
 
     return v1
 
-    .line 10
     :cond_8
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->d:Ljava/util/List;
 
@@ -351,7 +323,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->f:Lcom/google/firebase/database/collection/f;
 
     return-object v0
@@ -360,7 +331,6 @@
 .method public g()Lcom/google/firebase/firestore/model/g;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->c:Lcom/google/firebase/firestore/model/g;
 
     return-object v0
@@ -369,7 +339,6 @@
 .method public h()Lcom/google/firebase/firestore/core/e0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->a:Lcom/google/firebase/firestore/core/e0;
 
     return-object v0
@@ -378,7 +347,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/e0;->hashCode()I
@@ -387,7 +355,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->b:Lcom/google/firebase/firestore/model/g;
 
     invoke-virtual {v1}, Lcom/google/firebase/firestore/model/g;->hashCode()I
@@ -398,7 +365,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->c:Lcom/google/firebase/firestore/model/g;
 
     invoke-virtual {v1}, Lcom/google/firebase/firestore/model/g;->hashCode()I
@@ -409,7 +375,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     iget-object v1, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->d:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->hashCode()I
@@ -420,7 +385,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 5
     iget-object v1, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->f:Lcom/google/firebase/database/collection/f;
 
     invoke-virtual {v1}, Lcom/google/firebase/database/collection/f;->hashCode()I
@@ -431,21 +395,18 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 6
     iget-boolean v1, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->e:Z
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 7
     iget-boolean v1, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->g:Z
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 8
     iget-boolean v1, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->h:Z
 
     add-int/2addr v0, v1
@@ -456,7 +417,6 @@
 .method public i()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->f:Lcom/google/firebase/database/collection/f;
 
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/f;->isEmpty()Z
@@ -471,7 +431,6 @@
 .method public j()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->e:Z
 
     return v0
@@ -480,7 +439,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -527,7 +485,6 @@
 
     iget-object v1, p0, Lcom/google/firebase/firestore/core/ViewSnapshot;->f:Lcom/google/firebase/database/collection/f;
 
-    .line 2
     invoke-virtual {v1}, Lcom/google/firebase/database/collection/f;->size()I
 
     move-result v1

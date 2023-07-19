@@ -43,7 +43,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$j;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
@@ -54,7 +53,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -71,10 +69,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v0, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$j;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
@@ -91,7 +87,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$j;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->F()Lcom/commsource/widget/h1/e;
@@ -102,7 +97,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$j;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->J()Lcom/commsource/widget/h1/e;
@@ -111,7 +105,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 7
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

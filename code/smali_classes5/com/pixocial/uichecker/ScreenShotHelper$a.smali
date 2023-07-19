@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/pixocial/uichecker/ScreenShotHelper$a;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/pixocial/uichecker/ScreenShotHelper;->b()[Ljava/lang/String;
 
     move-result-object v0
@@ -54,7 +51,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/pixocial/uichecker/ScreenShotHelper;->d()[Ljava/lang/String;
 
     move-result-object v0

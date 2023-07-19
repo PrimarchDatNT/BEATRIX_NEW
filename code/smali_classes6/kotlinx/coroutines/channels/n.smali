@@ -36,14 +36,12 @@
 
     if-eq p0, v0, :cond_0
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/channels/h;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/channels/h;-><init>(I)V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcotlinx/coroutines/channels/u;
 
@@ -51,7 +49,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance v0, Lcotlinx/coroutines/channels/a0;
 
@@ -59,7 +56,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     new-instance v0, Lcotlinx/coroutines/channels/r;
 
@@ -67,7 +63,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     new-instance v0, Lcotlinx/coroutines/channels/h;
 
@@ -92,7 +87,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0}, Lcotlinx/coroutines/channels/n;->a(I)Lcotlinx/coroutines/channels/l;
 

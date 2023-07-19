@@ -27,10 +27,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/store/doodle/DoodleChildStoreFragment$doodleStoreViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment$doodleStoreViewModel$2;-><init>(Lcom/commsource/store/doodle/DoodleChildStoreFragment;)V
@@ -41,7 +39,6 @@
 
     iput-object v0, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->c:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/store/doodle/DoodleChildStoreFragment$mViewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment$mViewBinding$2;-><init>(Lcom/commsource/store/doodle/DoodleChildStoreFragment;)V
@@ -52,7 +49,6 @@
 
     iput-object v0, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->d:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/store/doodle/DoodleChildStoreFragment$groupAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment$groupAdapter$2;-><init>(Lcom/commsource/store/doodle/DoodleChildStoreFragment;)V
@@ -63,7 +59,6 @@
 
     iput-object v0, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->f:Lcotlin/w;
 
-    .line 5
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v0
@@ -82,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->I()Lcom/commsource/widget/h1/e;
 
     move-result-object p0
@@ -99,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -114,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -129,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->K()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->J:Lcom/commsource/studio/doodle/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -159,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -249,12 +237,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->J:Lcom/commsource/studio/doodle/j;
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->I()Lcom/commsource/widget/h1/e;
 
     move-result-object v2
@@ -263,7 +249,6 @@
 
     move-result-object v3
 
-    .line 3
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v4
@@ -276,7 +261,6 @@
 
     const-string v4, ""
 
-    .line 4
     filled-new-array {v4}, [Ljava/lang/String;
 
     move-result-object v4
@@ -289,7 +273,6 @@
 
     invoke-virtual {v3, v4, v5}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
-    .line 5
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/j;->d()Ljava/util/List;
 
@@ -301,15 +284,12 @@
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v2, v1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -323,7 +303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->H()Lcom/commsource/store/doodle/DoodleStoreViewModel;
 
     move-result-object p0
@@ -340,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->J:Lcom/commsource/studio/doodle/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -375,7 +353,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object p1
@@ -392,7 +369,6 @@
 
     iput p1, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->g:I
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->J()Lcom/commsource/beautyplus/f0/a8;
 
@@ -446,10 +422,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->J()Lcom/commsource/beautyplus/f0/a8;
 
     move-result-object p1
@@ -470,17 +444,14 @@
 
     invoke-direct {v1, v2, v3}, Landroidx/recyclerview/widget/GridLayoutManager;-><init>(Landroid/content/Context;I)V
 
-    .line 3
     new-instance v2, Lcom/commsource/store/doodle/DoodleChildStoreFragment$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment$a;-><init>(Lcom/commsource/store/doodle/DoodleChildStoreFragment;)V
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/GridLayoutManager;->setSpanSizeLookup(Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;)V
 
-    .line 4
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->J()Lcom/commsource/beautyplus/f0/a8;
 
     move-result-object p1
@@ -501,7 +472,6 @@
 
     invoke-virtual {p1, v2, v3, v1, v3}, Landroid/view/ViewGroup;->setPadding(IIII)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->J()Lcom/commsource/beautyplus/f0/a8;
 
     move-result-object p1
@@ -514,7 +484,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->J()Lcom/commsource/beautyplus/f0/a8;
 
     move-result-object p1
@@ -529,7 +498,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 8
     sget-object p1, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->R()Lcom/commsource/material/download/b/a;
@@ -554,7 +522,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->I()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -567,7 +534,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->I()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -580,7 +546,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 11
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->H()Lcom/commsource/store/doodle/DoodleStoreViewModel;
 
     move-result-object p1
@@ -599,7 +564,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->H()Lcom/commsource/store/doodle/DoodleStoreViewModel;
 
     move-result-object p1
@@ -618,7 +582,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

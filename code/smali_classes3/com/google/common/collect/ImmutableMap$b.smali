@@ -54,7 +54,6 @@
 
     const/4 v0, 0x4
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/collect/ImmutableMap$b;-><init>(I)V
 
     return-void
@@ -63,22 +62,18 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     mul-int/lit8 p1, p1, 0x2
 
-    .line 3
     new-array p1, p1, [Ljava/lang/Object;
 
     iput-object p1, p0, Lcom/google/common/collect/ImmutableMap$b;->b:[Ljava/lang/Object;
 
     const/4 p1, 0x0
 
-    .line 4
     iput p1, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
-    .line 5
     iput-boolean p1, p0, Lcom/google/common/collect/ImmutableMap$b;->d:Z
 
     return-void
@@ -89,22 +84,18 @@
 
     mul-int/lit8 p1, p1, 0x2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMap$b;->b:[Ljava/lang/Object;
 
     array-length v1, v0
 
     if-le p1, v1, :cond_0
 
-    .line 2
     array-length v1, v0
 
-    .line 3
     invoke-static {v1, p1}, Lcom/google/common/collect/ImmutableCollection$b;->f(II)I
 
     move-result p1
 
-    .line 4
     invoke-static {v0, p1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p1
@@ -113,7 +104,6 @@
 
     const/4 p1, 0x0
 
-    .line 5
     iput-boolean p1, p0, Lcom/google/common/collect/ImmutableMap$b;->d:Z
 
     :cond_0
@@ -132,15 +122,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableMap$b;->h()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/common/collect/ImmutableMap$b;->d:Z
 
-    .line 3
     iget v0, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
     iget-object v1, p0, Lcom/google/common/collect/ImmutableMap$b;->b:[Ljava/lang/Object;
@@ -170,7 +157,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMap$b;->a:Ljava/util/Comparator;
 
     if-nez v0, :cond_0
@@ -189,7 +175,6 @@
 
     const-string v0, "valueComparator"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -214,17 +199,14 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
     add-int/lit8 v0, v0, 0x1
 
     invoke-direct {p0, v0}, Lcom/google/common/collect/ImmutableMap$b;->b(I)V
 
-    .line 2
     invoke-static {p1, p2}, Lcom/google/common/collect/m;->a(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMap$b;->b:[Ljava/lang/Object;
 
     iget v1, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
@@ -237,12 +219,10 @@
 
     add-int/lit8 p1, p1, 0x1
 
-    .line 4
     aput-object p2, v0, p1
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 5
     iput v1, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
     return-object p0
@@ -263,7 +243,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v0
@@ -299,12 +278,10 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     instance-of v0, p1, Ljava/util/Collection;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
     move-object v1, p1
@@ -319,7 +296,6 @@
 
     invoke-direct {p0, v0}, Lcom/google/common/collect/ImmutableMap$b;->b(I)V
 
-    .line 3
     :cond_0
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -338,7 +314,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-virtual {p0, v0}, Lcom/google/common/collect/ImmutableMap$b;->e(Ljava/util/Map$Entry;)Lcom/google/common/collect/ImmutableMap$b;
 
     goto :goto_0
@@ -362,7 +337,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -377,17 +351,14 @@
 .method h()V
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMap$b;->a:Ljava/util/Comparator;
 
     if-eqz v0, :cond_2
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/common/collect/ImmutableMap$b;->d:Z
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMap$b;->b:[Ljava/lang/Object;
 
     iget v1, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
@@ -400,7 +371,6 @@
 
     iput-object v0, p0, Lcom/google/common/collect/ImmutableMap$b;->b:[Ljava/lang/Object;
 
-    .line 4
     :cond_0
     iget v0, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
@@ -410,13 +380,11 @@
 
     const/4 v2, 0x0
 
-    .line 5
     :goto_0
     iget v3, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
     if-ge v2, v3, :cond_1
 
-    .line 6
     new-instance v3, Ljava/util/AbstractMap$SimpleImmutableEntry;
 
     iget-object v4, p0, Lcom/google/common/collect/ImmutableMap$b;->b:[Ljava/lang/Object;
@@ -437,11 +405,9 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v2, p0, Lcom/google/common/collect/ImmutableMap$b;->a:Ljava/util/Comparator;
 
-    .line 8
     invoke-static {v2}, Lcom/google/common/collect/Ordering;->from(Ljava/util/Comparator;)Lcom/google/common/collect/Ordering;
 
     move-result-object v2
@@ -454,16 +420,13 @@
 
     move-result-object v2
 
-    .line 9
     invoke-static {v0, v1, v3, v2}, Ljava/util/Arrays;->sort([Ljava/lang/Object;IILjava/util/Comparator;)V
 
-    .line 10
     :goto_1
     iget v2, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
     if-ge v1, v2, :cond_2
 
-    .line 11
     iget-object v2, p0, Lcom/google/common/collect/ImmutableMap$b;->b:[Ljava/lang/Object;
 
     mul-int/lit8 v3, v1, 0x2
@@ -476,7 +439,6 @@
 
     aput-object v4, v2, v3
 
-    .line 12
     iget-object v2, p0, Lcom/google/common/collect/ImmutableMap$b;->b:[Ljava/lang/Object;
 
     add-int/lit8 v3, v3, 0x1

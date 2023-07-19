@@ -33,7 +33,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0, v1}, Lcom/google/common/util/concurrent/f$k;-><init>(Lcom/google/common/util/concurrent/Service$State;ZLjava/lang/Throwable;)V
 
     return-void
@@ -46,7 +45,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
@@ -55,7 +53,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 3
     sget-object v2, Lcom/google/common/util/concurrent/Service$State;->STARTING:Lcom/google/common/util/concurrent/Service$State;
 
     if-ne p1, v2, :cond_0
@@ -85,7 +82,6 @@
     :cond_2
     const/4 v2, 0x0
 
-    .line 4
     :goto_2
     sget-object v3, Lcom/google/common/util/concurrent/Service$State;->FAILED:Lcom/google/common/util/concurrent/Service$State;
 
@@ -102,13 +98,10 @@
 
     invoke-static {v0, v1, p1, p3}, Lcom/google/common/base/t;->y(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 5
     iput-object p1, p0, Lcom/google/common/util/concurrent/f$k;->a:Lcom/google/common/util/concurrent/Service$State;
 
-    .line 6
     iput-boolean p2, p0, Lcom/google/common/util/concurrent/f$k;->b:Z
 
-    .line 7
     iput-object p3, p0, Lcom/google/common/util/concurrent/f$k;->c:Ljava/lang/Throwable;
 
     return-void
@@ -119,7 +112,6 @@
 .method a()Lcom/google/common/util/concurrent/Service$State;
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/util/concurrent/f$k;->b:Z
 
     if-eqz v0, :cond_0
@@ -130,12 +122,10 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     sget-object v0, Lcom/google/common/util/concurrent/Service$State;->STOPPING:Lcom/google/common/util/concurrent/Service$State;
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/f$k;->a:Lcom/google/common/util/concurrent/Service$State;
 
@@ -145,7 +135,6 @@
 .method b()Ljava/lang/Throwable;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/f$k;->a:Lcom/google/common/util/concurrent/Service$State;
 
     sget-object v1, Lcom/google/common/util/concurrent/Service$State;->FAILED:Lcom/google/common/util/concurrent/Service$State;
@@ -164,7 +153,6 @@
 
     invoke-static {v1, v2, v0}, Lcom/google/common/base/t;->x0(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/util/concurrent/f$k;->c:Ljava/lang/Throwable;
 
     return-object v0

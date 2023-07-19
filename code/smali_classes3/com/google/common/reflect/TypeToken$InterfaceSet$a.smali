@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/google/common/reflect/TypeToken$InterfaceSet;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/reflect/TypeToken$InterfaceSet$a;->a:Lcom/google/common/reflect/TypeToken$InterfaceSet;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Class;->isInterface()Z
 
     move-result p1
@@ -65,7 +63,6 @@
 .method public bridge synthetic apply(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Class;
 
     invoke-virtual {p0, p1}, Lcom/google/common/reflect/TypeToken$InterfaceSet$a;->a(Ljava/lang/Class;)Z

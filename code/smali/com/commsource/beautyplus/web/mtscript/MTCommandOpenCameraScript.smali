@@ -56,12 +56,10 @@
 
     const-string v1, "mtcommand://openCamera"
 
-    .line 1
     sput-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->g:Ljava/lang/String;
 
     const-string v1, "0"
 
-    .line 2
     sput-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -96,7 +94,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/webview/mtscript/i;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
     return-void
@@ -109,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->U(Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$Model;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -124,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -139,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->m:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -154,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->i:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -184,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -199,7 +190,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -214,7 +204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->m:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -229,7 +218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -244,7 +232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->i:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -259,7 +246,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -274,7 +260,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -289,21 +274,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$Model;->getHeight()I
 
     move-result v1
 
     sput v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->k:I
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$Model;->getWidth()I
 
     move-result v1
 
     sput v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->j:I
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->p()Ljava/lang/String;
 
     move-result-object v1
@@ -314,7 +296,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->l:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$Model;->getData()Ljava/util/HashMap;
 
     move-result-object v1
@@ -338,7 +319,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$Model;->getData()Ljava/util/HashMap;
 
     move-result-object v1
@@ -375,7 +355,6 @@
 
     throw p1
 
-    .line 6
     :cond_3
     :goto_0
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
@@ -384,12 +363,10 @@
 
     if-eqz v1, :cond_6
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/webview/mtscript/i;->d:Lf/k/o0/c/c;
 
     if-eqz v2, :cond_4
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$Model;->getData()Ljava/util/HashMap;
 
     move-result-object p1
@@ -404,12 +381,10 @@
 
     if-eqz p1, :cond_4
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_4
     invoke-static {}, Lcom/meitu/library/p/g/d;->r()Z
 
@@ -423,7 +398,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 11
     :try_start_0
     invoke-static {}, Lcom/meitu/webview/utils/b;->d()Ljava/lang/String;
 
@@ -431,14 +405,12 @@
 
     sput-object p1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->i:Ljava/lang/String;
 
-    .line 12
     new-instance p1, Landroid/content/Intent;
 
     const-string v2, "android.media.action.IMAGE_CAPTURE"
 
     invoke-direct {p1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->A()Lcom/meitu/webview/core/CommonWebView;
 
     move-result-object v2
@@ -455,17 +427,14 @@
 
     const-string v3, "output"
 
-    .line 14
     invoke-virtual {p1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     const/4 v2, 0x3
 
-    .line 15
     invoke-virtual {p1, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     const/16 v2, 0x2a8
 
-    .line 16
     invoke-virtual {v1, p1, v2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -475,7 +444,6 @@
     :catch_0
     move-exception p1
 
-    .line 17
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     goto :goto_1
@@ -485,16 +453,13 @@
 
     const-string/jumbo v1, "\u65e0\u6cd5\u8bfb\u5199\u5b58\u50a8\u5361, \u4e0d\u80fd\u542f\u52a8\u76f8\u673a"
 
-    .line 18
     invoke-static {p1, v1}, Lcom/meitu/webview/utils/g;->y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 19
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 20
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -510,7 +475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -525,7 +489,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$b;
 
     const-class v2, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$Model;
@@ -534,7 +497,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/i;->E(Lcom/meitu/webview/mtscript/i$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1

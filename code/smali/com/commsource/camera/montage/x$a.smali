@@ -44,13 +44,10 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/x$a;->f:Lcom/commsource/camera/montage/x;
 
-    .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    .line 3
     invoke-virtual {p0, p2}, Lcom/commsource/camera/montage/x$a;->b(Landroid/view/View;)V
 
     return-void
@@ -63,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/montage/x$a;->a:Lcom/commsource/widget/SelectImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -78,7 +74,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/montage/x$a;->f:Lcom/commsource/camera/montage/x;
 
     invoke-static {v0}, Lcom/commsource/camera/montage/x;->c(Lcom/commsource/camera/montage/x;)Lcom/commsource/camera/montage/x$b;
@@ -87,14 +82,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
 
     move-result v0
 
     if-ltz v0, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/montage/x$a;->f:Lcom/commsource/camera/montage/x;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/x;->b(Lcom/commsource/camera/montage/x;)Ljava/util/List;
@@ -107,7 +100,6 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/montage/x$a;->f:Lcom/commsource/camera/montage/x;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/x;->c(Lcom/commsource/camera/montage/x;)Lcom/commsource/camera/montage/x$b;
@@ -132,7 +124,6 @@
 
     invoke-interface {v1, v2, v0}, Lcom/commsource/camera/montage/x$b;->a(Ljava/lang/String;I)V
 
-    .line 5
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -148,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/x$a;->f:Lcom/commsource/camera/montage/x;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/x;->a(Lcom/commsource/camera/montage/x;)Z
@@ -157,7 +147,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
@@ -166,14 +155,12 @@
 
     iput v2, v1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
     iput v2, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/commsource/camera/montage/d;
 
@@ -181,7 +168,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     invoke-static {}, Lcom/commsource/camera/montage/bean/c;->v()Lcom/commsource/camera/montage/bean/c;
 
     move-result-object v1
@@ -190,7 +176,6 @@
 
     sget v1, Lcom/res/provider/ResID;->montage_group_red_dot:I
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -201,7 +186,6 @@
 
     sget v1, Lcom/res/provider/ResID;->group_indicator:I
 
-    .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -210,7 +194,6 @@
 
     sget v1, Lcom/res/provider/ResID;->montage_group_icon:I
 
-    .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -221,10 +204,8 @@
 
     const/4 v1, 0x1
 
-    .line 9
     invoke-virtual {p1, v1}, Lcom/commsource/widget/SelectImageView;->setSelectState(I)V
 
-    .line 10
     new-instance p1, Lcom/commsource/camera/montage/x$a$a;
 
     iget-object v1, p0, Lcom/commsource/camera/montage/x$a;->a:Lcom/commsource/widget/SelectImageView;
@@ -233,7 +214,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/montage/x$a;->c:Lcom/bumptech/glide/request/j/j;
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -254,7 +234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getTag()Ljava/lang/Object;
@@ -265,7 +244,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/montage/x$a;->f:Lcom/commsource/camera/montage/x;
 
     invoke-static {v2}, Lcom/commsource/camera/montage/x;->b(Lcom/commsource/camera/montage/x;)Ljava/util/List;
@@ -292,7 +270,6 @@
 
     if-nez v1, :cond_2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -318,7 +295,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/montage/x$a;->f:Lcom/commsource/camera/montage/x;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/x;->b(Lcom/commsource/camera/montage/x;)Ljava/util/List;
@@ -341,7 +317,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/montage/x$a;->a:Lcom/commsource/widget/SelectImageView;
 
     sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_montage_nose_icon:I
@@ -350,7 +325,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {p1}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
 
@@ -384,7 +358,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/util/u0$d;->h(Lcom/bumptech/glide/request/j/p;)V
 
-    .line 7
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/montage/x$a;->e:Lcom/commsource/camera/montage/bean/c;
@@ -401,7 +374,6 @@
 
     if-ne p1, v3, :cond_4
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/montage/x$a;->d:Landroid/widget/ImageView;
 
     iget-object v4, p0, Lcom/commsource/camera/montage/x$a;->f:Lcom/commsource/camera/montage/x;
@@ -436,7 +408,6 @@
 
     goto :goto_3
 
-    .line 9
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/montage/x$a;->d:Landroid/widget/ImageView;
 
@@ -470,7 +441,6 @@
     :goto_2
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 10
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -484,7 +454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/x$a;->f:Lcom/commsource/camera/montage/x;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/x;->b(Lcom/commsource/camera/montage/x;)Ljava/util/List;
@@ -507,21 +476,18 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/x$a;->a:Lcom/commsource/widget/SelectImageView;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/SelectImageView;->setSelectState(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/montage/x$a;->b:Landroid/view/View;
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/montage/x$a;->a:Lcom/commsource/widget/SelectImageView;
 
@@ -529,14 +495,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/SelectImageView;->setSelectState(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/montage/x$a;->b:Landroid/view/View;
 
     const/16 v2, 0x8
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

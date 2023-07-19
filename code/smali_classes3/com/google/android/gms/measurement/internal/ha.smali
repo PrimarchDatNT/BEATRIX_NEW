@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;Lcom/google/android/gms/internal/measurement/nb;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/ha;->b:Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;
 
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/ha;->a:Lcom/google/android/gms/internal/measurement/nb;
@@ -31,12 +30,10 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/ha;->b:Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;
 
     iget-object v0, v0, Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;->b:Lcom/google/android/gms/measurement/internal/s5;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/s5;->I()Lcom/google/android/gms/measurement/internal/ia;
 
     move-result-object v0
@@ -47,7 +44,6 @@
 
     iget-object v2, v2, Lcom/google/android/gms/measurement/internal/AppMeasurementDynamiteService;->b:Lcom/google/android/gms/measurement/internal/s5;
 
-    .line 3
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/s5;->l()Z
 
     move-result v2

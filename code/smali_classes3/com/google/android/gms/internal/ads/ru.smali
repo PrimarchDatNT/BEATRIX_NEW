@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ou;Ljava/util/List;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ru;->c:Lcom/google/android/gms/internal/ads/ou;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ru;->a:Ljava/util/List;
@@ -54,10 +53,8 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 3
 
-    .line 1
     check-cast p1, Ljava/util/Map;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ru;->c:Lcom/google/android/gms/internal/ads/ou;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ru;->a:Ljava/util/List;

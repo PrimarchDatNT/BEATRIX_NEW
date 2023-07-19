@@ -25,10 +25,8 @@
 .method public constructor <init>(Landroid/location/Location;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ac1;->a:Landroid/location/Location;
 
     return-void
@@ -39,21 +37,17 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 9
 
-    .line 1
     check-cast p1, Lorg/json/JSONObject;
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ac1;->a:Landroid/location/Location;
 
     if-eqz v0, :cond_0
 
-    .line 3
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ac1;->a:Landroid/location/Location;
 
     invoke-virtual {v1}, Landroid/location/Location;->getAccuracy()F
@@ -68,7 +62,6 @@
 
     move-result-object v1
 
-    .line 5
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/ac1;->a:Landroid/location/Location;
 
     invoke-virtual {v2}, Landroid/location/Location;->getTime()J
@@ -83,7 +76,6 @@
 
     move-result-object v2
 
-    .line 6
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/ac1;->a:Landroid/location/Location;
 
     invoke-virtual {v3}, Landroid/location/Location;->getLatitude()D
@@ -100,7 +92,6 @@
 
     move-result-object v3
 
-    .line 7
     iget-object v4, p0, Lcom/google/android/gms/internal/ads/ac1;->a:Landroid/location/Location;
 
     invoke-virtual {v4}, Landroid/location/Location;->getLongitude()D
@@ -117,27 +108,22 @@
 
     const-string v5, "radius"
 
-    .line 8
     invoke-virtual {v0, v5, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v1, "lat"
 
-    .line 9
     invoke-virtual {v0, v1, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v1, "long"
 
-    .line 10
     invoke-virtual {v0, v1, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v1, "time"
 
-    .line 11
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v1, "uule"
 
-    .line 12
     invoke-virtual {p1, v1, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
@@ -150,7 +136,6 @@
 
     const-string v0, "Failed adding location to the request JSON."
 
-    .line 13
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/sm;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

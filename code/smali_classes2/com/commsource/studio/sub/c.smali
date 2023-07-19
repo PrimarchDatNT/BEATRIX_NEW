@@ -53,7 +53,6 @@
 
     const/high16 v1, 0x42480000    # 50.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -68,7 +67,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;-><init>()V
 
     return-void
@@ -81,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/sub/c;->e0(Landroid/view/View;)Z
 
     move-result p0
@@ -98,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sub/c;->O:Lcom/commsource/studio/sub/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -113,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sub/c;->M:Lcom/commsource/widget/h1/e;
 
     if-nez p0, :cond_0
@@ -135,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sub/c;->N:Lcom/commsource/studio/sub/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -150,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/sub/c;->R:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -165,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sub/c;->P:Lcom/commsource/studio/sub/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -180,7 +172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/c;->O:Lcom/commsource/studio/sub/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -195,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/c;->M:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -210,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/c;->N:Lcom/commsource/studio/sub/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -225,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/c;->P:Lcom/commsource/studio/sub/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -242,7 +230,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getLeft()I
 
     move-result v1
@@ -306,14 +293,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->R()Z
 
     move-result v1
 
     if-nez v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sub/c;->M:Lcom/commsource/widget/h1/e;
 
     if-nez v1, :cond_0
@@ -329,7 +314,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/sub/c;->L:Lcom/commsource/beautyplus/f0/gc;
 
     if-nez v2, :cond_1
@@ -347,7 +331,6 @@
 
     invoke-virtual {v2, v3}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -363,10 +346,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->B()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sub/c;->N:Lcom/commsource/studio/sub/h;
 
     const/4 v2, 0x0
@@ -393,14 +374,12 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sub/c;->N:Lcom/commsource/studio/sub/h;
 
     if-eqz v1, :cond_1
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/h;->A()V
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/sub/c;->O:Lcom/commsource/studio/sub/h;
 
@@ -426,14 +405,12 @@
 
     if-nez v1, :cond_3
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/sub/c;->O:Lcom/commsource/studio/sub/h;
 
     if-eqz v1, :cond_3
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/h;->A()V
 
-    .line 6
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/sub/c;->P:Lcom/commsource/studio/sub/h;
 
@@ -454,14 +431,12 @@
 
     if-nez v1, :cond_5
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/sub/c;->P:Lcom/commsource/studio/sub/h;
 
     if-eqz v1, :cond_5
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/h;->A()V
 
-    .line 8
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -475,10 +450,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->H()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sub/c;->N:Lcom/commsource/studio/sub/h;
 
     const/4 v2, 0x0
@@ -487,7 +460,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sub/h;->y(Z)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sub/c;->O:Lcom/commsource/studio/sub/h;
 
@@ -495,7 +467,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sub/h;->y(Z)V
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/sub/c;->P:Lcom/commsource/studio/sub/h;
 
@@ -503,7 +474,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sub/h;->y(Z)V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -519,7 +489,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/c;->L:Lcom/commsource/beautyplus/f0/gc;
 
     if-nez v1, :cond_0
@@ -549,7 +518,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/c;->L:Lcom/commsource/beautyplus/f0/gc;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -582,7 +550,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/gc;->c(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/gc;
 
     move-result-object p1
@@ -597,7 +564,6 @@
 
     const-string p3, "viewBinding"
 
-    .line 2
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -649,10 +615,8 @@
 
     invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super/range {p0 .. p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     new-instance v2, Lcom/commsource/widget/h1/e;
 
     iget-object v3, v0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -661,7 +625,6 @@
 
     iput-object v2, v0, Lcom/commsource/studio/sub/c;->M:Lcom/commsource/widget/h1/e;
 
-    .line 3
     iget-object v2, v0, Lcom/commsource/studio/sub/c;->L:Lcom/commsource/beautyplus/f0/gc;
 
     const-string v3, "viewBinding"
@@ -688,7 +651,6 @@
     :cond_1
     invoke-virtual {v2, v5}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 4
     sget-object v2, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->BEAUTY_SUB_SORT_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->getCode()I
@@ -741,7 +703,6 @@
 
     if-eqz v2, :cond_6
 
-    .line 5
     sget-object v2, Lcom/commsource/studio/sub/SubTabEnum;->Companion:Lcom/commsource/studio/sub/SubTabEnum$a;
 
     invoke-virtual {v2}, Lcom/commsource/studio/sub/SubTabEnum$a;->a()Ljava/util/ArrayList;
@@ -750,98 +711,80 @@
 
     invoke-virtual/range {v22 .. v22}, Ljava/util/ArrayList;->clear()V
 
-    .line 6
     invoke-virtual {v2}, Lcom/commsource/studio/sub/SubTabEnum$a;->a()Ljava/util/ArrayList;
 
     move-result-object v7
 
     new-array v1, v1, [Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 7
     sget-object v22, Lcom/commsource/studio/sub/SubModuleEnum;->OneKeyBeauty:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v22, v1, v5
 
-    .line 8
     sget-object v5, Lcom/commsource/studio/sub/SubModuleEnum;->AiBeauty:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v5, v1, v21
 
-    .line 9
     sget-object v21, Lcom/commsource/studio/sub/SubModuleEnum;->Makeup:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v21, v1, v20
 
-    .line 10
     sget-object v8, Lcom/commsource/studio/sub/SubModuleEnum;->Smooth:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v8, v1, v19
 
-    .line 11
     sget-object v19, Lcom/commsource/studio/sub/SubModuleEnum;->Evenly:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v19, v1, v18
 
-    .line 12
     sget-object v18, Lcom/commsource/studio/sub/SubModuleEnum;->Remold:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v18, v1, v17
 
-    .line 13
     sget-object v17, Lcom/commsource/studio/sub/SubModuleEnum;->Slim:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v17, v1, v16
 
-    .line 14
     sget-object v16, Lcom/commsource/studio/sub/SubModuleEnum;->Tones:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v16, v1, v15
 
-    .line 15
     sget-object v15, Lcom/commsource/studio/sub/SubModuleEnum;->RemoveWrinkle:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v15, v1, v14
 
-    .line 16
     sget-object v14, Lcom/commsource/studio/sub/SubModuleEnum;->Acne:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v14, v1, v13
 
-    .line 17
     sget-object v13, Lcom/commsource/studio/sub/SubModuleEnum;->Shrink:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v13, v1, v12
 
-    .line 18
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->Relight:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v1, v11
 
-    .line 19
     sget-object v11, Lcom/commsource/studio/sub/SubModuleEnum;->Countouring:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v11, v1, v10
 
-    .line 20
     sget-object v10, Lcom/commsource/studio/sub/SubModuleEnum;->CleanOil:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v10, v1, v9
 
-    .line 21
     sget-object v9, Lcom/commsource/studio/sub/SubModuleEnum;->NoseSwing:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v10, 0xe
 
     aput-object v9, v1, v10
 
-    .line 22
     sget-object v10, Lcom/commsource/studio/sub/SubModuleEnum;->EyeEnlarge:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v11, 0xf
 
     aput-object v10, v1, v11
 
-    .line 23
     sget-object v10, Lcom/commsource/studio/sub/SubModuleEnum;->BodyShape:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v11, 0x10
@@ -850,41 +793,34 @@
 
     const/16 v10, 0x11
 
-    .line 24
     sget-object v11, Lcom/commsource/studio/sub/SubModuleEnum;->DarkCircles:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v11, v1, v10
 
     const/16 v10, 0x12
 
-    .line 25
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->EyeBrightness:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v1, v10
 
     const/16 v10, 0x13
 
-    .line 26
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->TeethCorrect:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v1, v10
 
     const/16 v10, 0x14
 
-    .line 27
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->TeethWhiten:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v1, v10
 
-    .line 28
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 29
     invoke-virtual {v7, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 30
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -895,14 +831,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 31
     invoke-virtual {v2}, Lcom/commsource/studio/sub/SubTabEnum$a;->a()Ljava/util/ArrayList;
 
     move-result-object v1
 
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 32
     :cond_2
     iget-object v1, v0, Lcom/commsource/studio/sub/c;->L:Lcom/commsource/beautyplus/f0/gc;
 
@@ -927,7 +861,6 @@
 
     invoke-virtual {v1, v5}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 33
     iget-object v1, v0, Lcom/commsource/studio/sub/c;->L:Lcom/commsource/beautyplus/f0/gc;
 
     if-nez v1, :cond_4
@@ -951,7 +884,6 @@
 
     invoke-virtual {v1, v5}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 34
     iget-object v1, v0, Lcom/commsource/studio/sub/c;->L:Lcom/commsource/beautyplus/f0/gc;
 
     if-nez v1, :cond_5
@@ -977,7 +909,6 @@
 
     goto/16 :goto_0
 
-    .line 35
     :cond_6
     sget-object v2, Lcom/commsource/studio/sub/SubTabEnum;->Companion:Lcom/commsource/studio/sub/SubTabEnum$a;
 
@@ -987,100 +918,82 @@
 
     invoke-virtual {v5}, Ljava/util/ArrayList;->clear()V
 
-    .line 36
     invoke-virtual {v2}, Lcom/commsource/studio/sub/SubTabEnum$a;->a()Ljava/util/ArrayList;
 
     move-result-object v5
 
     new-array v1, v1, [Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 37
     sget-object v7, Lcom/commsource/studio/sub/SubModuleEnum;->OneKeyBeauty:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/4 v8, 0x0
 
     aput-object v7, v1, v8
 
-    .line 38
     sget-object v7, Lcom/commsource/studio/sub/SubModuleEnum;->AiBeauty:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v7, v1, v21
 
-    .line 39
     sget-object v8, Lcom/commsource/studio/sub/SubModuleEnum;->Makeup:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v8, v1, v20
 
-    .line 40
     sget-object v20, Lcom/commsource/studio/sub/SubModuleEnum;->Smooth:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v20, v1, v19
 
-    .line 41
     sget-object v19, Lcom/commsource/studio/sub/SubModuleEnum;->Evenly:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v19, v1, v18
 
-    .line 42
     sget-object v18, Lcom/commsource/studio/sub/SubModuleEnum;->CleanOil:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v18, v1, v17
 
-    .line 43
     sget-object v17, Lcom/commsource/studio/sub/SubModuleEnum;->Slim:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v17, v1, v16
 
-    .line 44
     sget-object v16, Lcom/commsource/studio/sub/SubModuleEnum;->Tones:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v16, v1, v15
 
-    .line 45
     sget-object v15, Lcom/commsource/studio/sub/SubModuleEnum;->Remold:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v15, v1, v14
 
-    .line 46
     sget-object v14, Lcom/commsource/studio/sub/SubModuleEnum;->Shrink:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v14, v1, v13
 
-    .line 47
     sget-object v13, Lcom/commsource/studio/sub/SubModuleEnum;->Relight:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v13, v1, v12
 
-    .line 48
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->RemoveWrinkle:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v1, v11
 
-    .line 49
     sget-object v11, Lcom/commsource/studio/sub/SubModuleEnum;->EyeEnlarge:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v11, v1, v10
 
-    .line 50
     sget-object v10, Lcom/commsource/studio/sub/SubModuleEnum;->Acne:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v10, v1, v9
 
-    .line 51
     sget-object v9, Lcom/commsource/studio/sub/SubModuleEnum;->Countouring:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v10, 0xe
 
     aput-object v9, v1, v10
 
-    .line 52
     sget-object v9, Lcom/commsource/studio/sub/SubModuleEnum;->NoseSwing:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v10, 0xf
 
     aput-object v9, v1, v10
 
-    .line 53
     sget-object v9, Lcom/commsource/studio/sub/SubModuleEnum;->BodyShape:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v10, 0x10
@@ -1089,41 +1002,34 @@
 
     const/16 v9, 0x11
 
-    .line 54
     sget-object v10, Lcom/commsource/studio/sub/SubModuleEnum;->DarkCircles:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v10, v1, v9
 
     const/16 v9, 0x12
 
-    .line 55
     sget-object v10, Lcom/commsource/studio/sub/SubModuleEnum;->EyeBrightness:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v10, v1, v9
 
     const/16 v9, 0x13
 
-    .line 56
     sget-object v10, Lcom/commsource/studio/sub/SubModuleEnum;->TeethCorrect:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v10, v1, v9
 
     const/16 v9, 0x14
 
-    .line 57
     sget-object v10, Lcom/commsource/studio/sub/SubModuleEnum;->TeethWhiten:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v10, v1, v9
 
-    .line 58
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 59
     invoke-virtual {v5, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 60
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1134,14 +1040,12 @@
 
     if-eqz v1, :cond_7
 
-    .line 61
     invoke-virtual {v2}, Lcom/commsource/studio/sub/SubTabEnum$a;->a()Ljava/util/ArrayList;
 
     move-result-object v1
 
     invoke-virtual {v1, v7}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 62
     :cond_7
     iget-object v1, v0, Lcom/commsource/studio/sub/c;->L:Lcom/commsource/beautyplus/f0/gc;
 
@@ -1166,7 +1070,6 @@
 
     invoke-virtual {v1, v5}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 63
     :goto_0
     iget-object v1, v0, Lcom/commsource/studio/sub/c;->L:Lcom/commsource/beautyplus/f0/gc;
 
@@ -1189,14 +1092,12 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 64
     iget-object v1, v0, Lcom/commsource/studio/sub/c;->M:Lcom/commsource/widget/h1/e;
 
     if-nez v1, :cond_a
 
     invoke-static {v6}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
-    .line 65
     :cond_a
     sget-object v2, Lcom/commsource/studio/sub/SubTabEnum;->Companion:Lcom/commsource/studio/sub/SubTabEnum$a;
 
@@ -1204,13 +1105,10 @@
 
     move-result-object v2
 
-    .line 66
     const-class v3, Lcom/commsource/studio/sub/h;
 
-    .line 67
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->N(Ljava/util/List;Ljava/lang/Class;)V
 
-    .line 68
     iget-object v1, v0, Lcom/commsource/studio/sub/c;->M:Lcom/commsource/widget/h1/e;
 
     if-nez v1, :cond_b
@@ -1226,7 +1124,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 69
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -1245,12 +1142,10 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 70
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/sub/c;->g0()V
 
     const/16 v1, 0x1845
 
-    .line 71
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

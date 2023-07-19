@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +53,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Ljava/net/InetAddress;->getAllByName(Ljava/lang/String;)[Ljava/net/InetAddress;
 
@@ -74,7 +72,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v1, Lcom/meitu/hubble/exception/MissingNetPermissionException;
 
     invoke-virtual {p1}, Ljava/lang/SecurityException;->getMessage()Ljava/lang/String;
@@ -83,10 +80,8 @@
 
     invoke-direct {v1, v2}, Lcom/meitu/hubble/exception/MissingNetPermissionException;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, p1}, Ljava/net/UnknownHostException;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -94,7 +89,6 @@
     :catch_1
     move-exception v1
 
-    .line 5
     new-instance v2, Ljava/net/UnknownHostException;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -113,15 +107,12 @@
 
     invoke-direct {v2, p1}, Ljava/net/UnknownHostException;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v2, v1}, Ljava/net/UnknownHostException;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v2
 
-    .line 8
     :cond_0
     new-instance p1, Ljava/net/UnknownHostException;
 

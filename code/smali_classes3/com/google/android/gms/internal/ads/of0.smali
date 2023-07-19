@@ -21,7 +21,6 @@
 .method public static a(Lcom/google/android/gms/internal/ads/a40;Landroid/content/Context;Lcom/google/android/gms/internal/ads/lu;Lcom/google/android/gms/internal/ads/ed0;Lcom/google/android/gms/internal/ads/xf0;Lcom/google/android/gms/internal/ads/v40;Lcom/google/android/gms/internal/ads/hm1;Lcom/google/android/gms/internal/ads/v70;)Lcom/google/android/gms/internal/ads/se0;
     .locals 10
 
-    .line 1
     new-instance v9, Lcom/google/android/gms/internal/ads/se0;
 
     move-object v0, v9
@@ -52,7 +51,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/NoSuchMethodError;
 
     invoke-direct {v0}, Ljava/lang/NoSuchMethodError;-><init>()V

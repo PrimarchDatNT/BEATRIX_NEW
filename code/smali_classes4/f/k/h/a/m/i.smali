@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,14 +19,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p0
 
     const/4 v2, 0x4
 
     if-ge v1, v2, :cond_1
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -39,7 +36,6 @@
 
     aget-object v4, p0, v2
 
-    .line 3
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -56,13 +52,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 5
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -88,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p1
 
     const/4 v2, 0x0
@@ -98,14 +91,12 @@
 
     aget-object v3, p1, v2
 
-    .line 2
     invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -41,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -56,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/camera/s/n/a;->b:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/meitu/library/camera/s/n/a;->d(Landroid/content/Context;)I
@@ -75,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
@@ -88,19 +83,16 @@
 
     move-result-object p0
 
-    .line 2
     iget v1, p0, Landroid/util/DisplayMetrics;->widthPixels:I
 
     iget p0, p0, Landroid/util/DisplayMetrics;->heightPixels:I
 
     if-le v1, p0, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -114,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/camera/s/n/a;->b:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/meitu/library/camera/s/n/a;->f(Landroid/content/Context;)I
@@ -133,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
@@ -146,19 +136,16 @@
 
     move-result-object p0
 
-    .line 2
     iget v1, p0, Landroid/util/DisplayMetrics;->widthPixels:I
 
     iget p0, p0, Landroid/util/DisplayMetrics;->heightPixels:I
 
     if-le v1, p0, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -172,10 +159,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/library/camera/s/n/a;->b:Landroid/content/Context;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

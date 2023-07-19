@@ -18,7 +18,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/squareup/okhttp/ResponseBody;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
 .method public source()Lokio/BufferedSource;
     .locals 1
 
-    .line 1
     new-instance v0, Lokio/Buffer;
 
     invoke-direct {v0}, Lokio/Buffer;-><init>()V

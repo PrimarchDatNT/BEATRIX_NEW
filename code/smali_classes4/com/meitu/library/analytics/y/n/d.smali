@@ -301,7 +301,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v3, Ljava/util/HashSet;
 
     const/4 v4, 0x2
@@ -310,7 +309,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->e:Ljava/util/HashSet;
 
-    .line 2
     new-instance v3, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v4, "GID"
@@ -323,7 +321,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->f:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 3
     new-instance v3, Lcom/meitu/library/analytics/y/n/d;
 
     const-wide/16 v7, 0x0
@@ -338,7 +335,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->g:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 4
     new-instance v3, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v7, "D_IMEI"
@@ -347,7 +343,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->h:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 5
     new-instance v3, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v7, "D_IMEI_2"
@@ -356,7 +351,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->i:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 6
     new-instance v3, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v7, "D_ICC_ID"
@@ -365,7 +359,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->j:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 7
     new-instance v3, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v7, "D_MAC"
@@ -374,7 +367,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->k:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 8
     new-instance v3, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v7, "D_ANDROID_ID"
@@ -383,7 +375,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->l:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 9
     new-instance v3, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v7, "D_G_UUID"
@@ -392,7 +383,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->m:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 10
     new-instance v3, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v7, "N_ANDROID_UPDATE_COUNT"
@@ -401,7 +391,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->n:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 11
     new-instance v3, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v7, "SWITCHER"
@@ -412,7 +401,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->o:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 12
     new-instance v3, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v7, "LAST_TIME_GET_APPS"
@@ -421,7 +409,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->p:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 13
     new-instance v3, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v7, "LAST_TIME_LAUNCH_STARTED"
@@ -430,7 +417,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/y/n/d;->q:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 14
     new-instance v0, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v3, "CLOUD_CONTROL"
@@ -439,7 +425,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/y/n/d;->r:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 15
     new-instance v0, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v3, "EMERGENCY_CLOUD_CONTROL"
@@ -448,7 +433,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/y/n/d;->s:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 16
     new-instance v0, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v3, "O_IMEI"
@@ -457,7 +441,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/y/n/d;->t:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 17
     new-instance v0, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v3, "O_ICC_ID"
@@ -466,7 +449,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/y/n/d;->u:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 18
     new-instance v0, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v3, "O_ANDROID_ID"
@@ -475,7 +457,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/y/n/d;->v:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 19
     new-instance v0, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v3, "O_ADS"
@@ -484,7 +465,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/y/n/d;->w:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 20
     new-instance v0, Lcom/meitu/library/analytics/y/n/d;
 
     sget-object v3, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
@@ -497,7 +477,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/y/n/d;->x:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 21
     new-instance v0, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v3, "DEVICE_ID_UDID"
@@ -508,7 +487,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/y/n/d;->y:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 22
     new-instance v0, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v3, "DEVICE_ID_OAID"
@@ -517,7 +495,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/y/n/d;->z:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 23
     new-instance v0, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v3, "DEVICE_ID_VAID"
@@ -526,7 +503,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/y/n/d;->A:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 24
     new-instance v0, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v3, "DEVICE_ID_AAID"
@@ -535,7 +511,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/y/n/d;->B:Lcom/meitu/library/analytics/y/n/d;
 
-    .line 25
     new-instance v0, Lcom/meitu/library/analytics/y/n/d;
 
     const-string v3, "DEVICE_ID_ADVERTISINGID"
@@ -561,24 +536,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/analytics/y/n/d;->a:Ljava/lang/String;
 
-    .line 3
     iput-boolean p2, p0, Lcom/meitu/library/analytics/y/n/d;->b:Z
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/library/analytics/y/n/d;->c:Ljava/lang/Object;
 
-    .line 5
     iput-object p4, p0, Lcom/meitu/library/analytics/y/n/d;->d:Ljava/lang/Class;
 
     if-eqz p2, :cond_0
 
-    .line 6
     sget-object p2, Lcom/meitu/library/analytics/y/n/d;->e:Ljava/util/HashSet;
 
     invoke-virtual {p2, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -594,7 +563,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/y/n/d;->e:Ljava/util/HashSet;
 
     invoke-virtual {v1, p0}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z

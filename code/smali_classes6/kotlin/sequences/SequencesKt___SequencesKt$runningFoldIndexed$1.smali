@@ -175,7 +175,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->label:I
 
     const/4 v2, 0x2
@@ -208,7 +207,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -218,7 +216,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
 
@@ -237,7 +234,6 @@
 
     check-cast v1, Lcotlin/sequences/o;
 
-    .line 4
     iget-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$initial:Ljava/lang/Object;
 
     iput-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
@@ -256,10 +252,8 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 5
     iget-object v3, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$initial:Ljava/lang/Object;
 
-    .line 6
     iget-object v4, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$this_runningFoldIndexed:Lcotlin/sequences/m;
 
     invoke-interface {v4}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
@@ -286,7 +280,6 @@
 
     move-result-object v6
 
-    .line 7
     iget-object v7, v4, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$operation:Lcotlin/jvm/u/q;
 
     add-int/lit8 v8, p1, 0x1
@@ -304,7 +297,6 @@
 
     move-result-object p1
 
-    .line 8
     iput-object v5, v4, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
 
     iput-object p1, v4, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$1:Ljava/lang/Object;
@@ -330,7 +322,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_6
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

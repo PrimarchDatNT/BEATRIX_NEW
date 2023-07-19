@@ -10,10 +10,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_remote_config/b3;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/a3;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_remote_config/a3;-><init>()V
@@ -28,10 +26,8 @@
 .method public final a(Ljava/lang/Throwable;)V
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/c3;->b:Lcom/google/android/gms/internal/firebase_remote_config/a3;
 
     const/4 v1, 0x0
@@ -44,11 +40,9 @@
 
     return-void
 
-    .line 3
     :cond_0
     monitor-enter p1
 
-    .line 4
     :try_start_0
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -67,19 +61,16 @@
 
     check-cast v1, Ljava/lang/Throwable;
 
-    .line 5
     sget-object v2, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     const-string v3, "Suppressed: "
 
     invoke-virtual {v2, v3}, Ljava/io/PrintStream;->print(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     monitor-exit p1
 
@@ -102,10 +93,8 @@
 
     const-string v0, "The suppressed exception cannot be null."
 
-    .line 1
     invoke-static {p2, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/c3;->b:Lcom/google/android/gms/internal/firebase_remote_config/a3;
 
     const/4 v1, 0x1
@@ -118,7 +107,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/dynamic/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/dynamic/n;->a:Lcom/google/android/gms/dynamic/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -26,7 +25,6 @@
 .method public final a(Lcom/google/android/gms/dynamic/e;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/dynamic/n;->a:Lcom/google/android/gms/dynamic/a;
 
     invoke-static {p1}, Lcom/google/android/gms/dynamic/a;->t(Lcom/google/android/gms/dynamic/a;)Lcom/google/android/gms/dynamic/e;

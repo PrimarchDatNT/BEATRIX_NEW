@@ -31,14 +31,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/u1$b;->c:Lio/grpc/internal/u1;
 
     iput-object p2, p0, Lio/grpc/internal/u1$b;->b:Lio/grpc/o;
 
     invoke-direct {p0}, Lio/grpc/t0$i;-><init>()V
 
-    .line 2
     invoke-virtual {p2}, Lio/grpc/o;->d()Lio/grpc/Status;
 
     move-result-object p1
@@ -57,7 +55,6 @@
 .method public a(Lio/grpc/t0$f;)Lio/grpc/t0$e;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lio/grpc/internal/u1$b;->a:Lio/grpc/t0$e;
 
     return-object p1
@@ -66,7 +63,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     const-class v0, Lio/grpc/internal/u1$b;
 
     invoke-static {v0}, Lcom/google/common/base/p;->b(Ljava/lang/Class;)Lcom/google/common/base/p$b;
@@ -77,12 +73,10 @@
 
     const-string v2, "errorResult"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

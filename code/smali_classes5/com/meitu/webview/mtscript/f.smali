@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,14 +23,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/Thread;
 
     new-instance v2, Lcom/meitu/webview/mtscript/f$a;
@@ -42,10 +39,8 @@
 
     invoke-direct {v1, v2, p0}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/Thread;->start()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -61,10 +56,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1}, Lcom/meitu/webview/mtscript/f;->a(Ljava/lang/String;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -79,10 +72,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p0, v1}, Lcom/meitu/webview/mtscript/f;->a(Ljava/lang/String;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -33,7 +33,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/zzdtu;-><init>()V
 
     return-void
@@ -59,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/zzdtu;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
     move-result-object p1

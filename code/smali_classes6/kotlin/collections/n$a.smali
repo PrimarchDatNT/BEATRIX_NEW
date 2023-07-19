@@ -35,7 +35,6 @@
 .method constructor <init>([B)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/n$a;->b:[B
 
     invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
@@ -48,7 +47,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$a;->b:[B
 
     array-length v0, v0
@@ -59,7 +57,6 @@
 .method public c(B)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$a;->b:[B
 
     invoke-static {v0, p1}, Lcotlin/collections/k;->J7([BB)Z
@@ -72,7 +69,6 @@
 .method public final bridge contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Byte;
 
     if-eqz v0, :cond_0
@@ -100,7 +96,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$a;->b:[B
 
     aget-byte p1, v0, p1
@@ -115,7 +110,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/collections/n$a;->e(I)Ljava/lang/Byte;
 
     move-result-object p1
@@ -126,7 +120,6 @@
 .method public h(B)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$a;->b:[B
 
     invoke-static {v0, p1}, Lcotlin/collections/k;->Xe([BB)I
@@ -139,7 +132,6 @@
 .method public i(B)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$a;->b:[B
 
     invoke-static {v0, p1}, Lcotlin/collections/k;->bh([BB)I
@@ -152,7 +144,6 @@
 .method public final bridge indexOf(Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Byte;
 
     if-eqz v0, :cond_0
@@ -178,7 +169,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$a;->b:[B
 
     array-length v0, v0
@@ -199,7 +189,6 @@
 .method public final bridge lastIndexOf(Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Byte;
 
     if-eqz v0, :cond_0

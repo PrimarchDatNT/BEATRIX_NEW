@@ -55,29 +55,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/ProView$viewBinding$2;->this$0:Lcom/commsource/widget/ProView;
 
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/widget/ProView$viewBinding$2;->this$0:Lcom/commsource/widget/ProView;
 
     const/4 v3, 0x0
 
-    .line 5
     invoke-static {v1, v2, v3}, Lcom/commsource/beautyplus/f0/sl;->d(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/commsource/beautyplus/f0/sl;
 
     move-result-object v1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -90,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/ProView$viewBinding$2;->invoke()Lcom/commsource/beautyplus/f0/sl;
 
     move-result-object v1

@@ -66,14 +66,12 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/l$c;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/l$c;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/icing/l$c;->zzbn:Lcom/google/android/gms/internal/icing/l$c;
 
-    .line 2
     const-class v1, Lcom/google/android/gms/internal/icing/l$c;
 
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/icing/e2;->l(Ljava/lang/Class;Lcom/google/android/gms/internal/icing/e2;)V
@@ -84,15 +82,12 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/icing/e2;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/google/android/gms/internal/icing/l$c;->zzbl:Ljava/lang/String;
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/icing/e2;->q()Lcom/google/android/gms/internal/icing/l2;
 
     move-result-object v0
@@ -105,10 +100,8 @@
 .method private final s(Lcom/google/android/gms/internal/icing/l$b;)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/l$c;->zzbm:Lcom/google/android/gms/internal/icing/l2;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/icing/l2;->E0()Z
@@ -117,10 +110,8 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/l$c;->zzbm:Lcom/google/android/gms/internal/icing/l2;
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -134,16 +125,13 @@
     :cond_0
     shl-int/lit8 v1, v1, 0x1
 
-    .line 5
     :goto_0
     invoke-interface {v0, v1}, Lcom/google/android/gms/internal/icing/l2;->g0(I)Lcom/google/android/gms/internal/icing/l2;
 
     move-result-object v0
 
-    .line 6
     iput-object v0, p0, Lcom/google/android/gms/internal/icing/l$c;->zzbm:Lcom/google/android/gms/internal/icing/l2;
 
-    .line 7
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/l$c;->zzbm:Lcom/google/android/gms/internal/icing/l2;
 
@@ -155,7 +143,6 @@
 .method static synthetic t(Lcom/google/android/gms/internal/icing/l$c;Lcom/google/android/gms/internal/icing/l$b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/icing/l$c;->s(Lcom/google/android/gms/internal/icing/l$b;)V
 
     return-void
@@ -164,7 +151,6 @@
 .method static synthetic u(Lcom/google/android/gms/internal/icing/l$c;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/icing/l$c;->v(Ljava/lang/String;)V
 
     return-void
@@ -173,17 +159,14 @@
 .method private final v(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget v0, p0, Lcom/google/android/gms/internal/icing/l$c;->zzbd:I
 
     or-int/lit8 v0, v0, 0x1
 
     iput v0, p0, Lcom/google/android/gms/internal/icing/l$c;->zzbd:I
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/icing/l$c;->zzbl:Ljava/lang/String;
 
     return-void
@@ -192,23 +175,18 @@
 .method public static w()Lcom/google/android/gms/internal/icing/l$c$a;
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/l$c;->zzbn:Lcom/google/android/gms/internal/icing/l$c;
 
-    .line 2
     sget v1, Lcom/google/android/gms/internal/icing/e2$d;->e:I
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v0, v1, v2, v2}, Lcom/google/android/gms/internal/icing/e2;->i(ILjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     check-cast v0, Lcom/google/android/gms/internal/icing/e2$a;
 
-    .line 5
     check-cast v0, Lcom/google/android/gms/internal/icing/l$c$a;
 
     return-object v0
@@ -217,7 +195,6 @@
 .method static synthetic x()Lcom/google/android/gms/internal/icing/l$c;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/l$c;->zzbn:Lcom/google/android/gms/internal/icing/l$c;
 
     return-object v0
@@ -228,7 +205,6 @@
 .method protected final i(ILjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object p2, Lcom/google/android/gms/internal/icing/m;->a:[I
 
     const/4 p3, 0x1
@@ -241,7 +217,6 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -251,7 +226,6 @@
     :pswitch_0
     return-object p2
 
-    .line 3
     :pswitch_1
     invoke-static {p3}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
 
@@ -259,34 +233,28 @@
 
     return-object p1
 
-    .line 4
     :pswitch_2
     sget-object p1, Lcom/google/android/gms/internal/icing/l$c;->zzbc:Lcom/google/android/gms/internal/icing/t3;
 
     if-nez p1, :cond_1
 
-    .line 5
     const-class p2, Lcom/google/android/gms/internal/icing/l$c;
 
     monitor-enter p2
 
-    .line 6
     :try_start_0
     sget-object p1, Lcom/google/android/gms/internal/icing/l$c;->zzbc:Lcom/google/android/gms/internal/icing/t3;
 
     if-nez p1, :cond_0
 
-    .line 7
     new-instance p1, Lcom/google/android/gms/internal/icing/e2$b;
 
     sget-object p3, Lcom/google/android/gms/internal/icing/l$c;->zzbn:Lcom/google/android/gms/internal/icing/l$c;
 
     invoke-direct {p1, p3}, Lcom/google/android/gms/internal/icing/e2$b;-><init>(Lcom/google/android/gms/internal/icing/e2;)V
 
-    .line 8
     sput-object p1, Lcom/google/android/gms/internal/icing/l$c;->zzbc:Lcom/google/android/gms/internal/icing/t3;
 
-    .line 9
     :cond_0
     monitor-exit p2
 
@@ -305,7 +273,6 @@
     :goto_0
     return-object p1
 
-    .line 10
     :pswitch_3
     sget-object p1, Lcom/google/android/gms/internal/icing/l$c;->zzbn:Lcom/google/android/gms/internal/icing/l$c;
 
@@ -334,14 +301,12 @@
 
     const/4 p2, 0x3
 
-    .line 11
     const-class p3, Lcom/google/android/gms/internal/icing/l$b;
 
     aput-object p3, p1, p2
 
     const-string p2, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u0008\u0000\u0002\u001b"
 
-    .line 12
     sget-object p3, Lcom/google/android/gms/internal/icing/l$c;->zzbn:Lcom/google/android/gms/internal/icing/l$c;
 
     invoke-static {p3, p2, p1}, Lcom/google/android/gms/internal/icing/e2;->j(Lcom/google/android/gms/internal/icing/i3;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
@@ -350,7 +315,6 @@
 
     return-object p1
 
-    .line 13
     :pswitch_5
     new-instance p1, Lcom/google/android/gms/internal/icing/l$c$a;
 
@@ -358,7 +322,6 @@
 
     return-object p1
 
-    .line 14
     :pswitch_6
     new-instance p1, Lcom/google/android/gms/internal/icing/l$c;
 

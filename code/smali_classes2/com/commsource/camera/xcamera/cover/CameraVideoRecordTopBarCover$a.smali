@@ -57,14 +57,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$a;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -85,7 +83,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$a;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
@@ -99,7 +96,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$a;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -118,13 +114,11 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$a;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->E(Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;)V
 
-    .line 6
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -139,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$a;->a(Ljava/lang/Boolean;)V

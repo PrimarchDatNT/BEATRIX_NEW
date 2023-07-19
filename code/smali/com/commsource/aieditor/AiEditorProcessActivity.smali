@@ -39,12 +39,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->R:I
 
     return-void
@@ -57,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -72,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -87,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->v1(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -102,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,7 +111,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->t1()Z
 
     move-result p0
@@ -134,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->w1(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -156,7 +148,6 @@
 
     sget v1, Lcom/res/provider/ResLAYOUT;->activity_ai_editor_process:I
 
-    .line 1
     invoke-static {p0, v1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -165,7 +156,6 @@
 
     iput-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
-    .line 2
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v1
@@ -182,17 +172,14 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-direct {p0, v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->v1(Z)V
 
-    .line 4
     iget v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
     const/4 v2, 0x6
 
     if-ne v1, v2, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->f:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;
@@ -201,7 +188,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setBackgroundColor(I)V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
@@ -213,7 +199,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->P:Landroid/widget/TextView;
@@ -224,7 +209,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->M:Lcom/commsource/aieditor/AiEditorSaveView;
@@ -235,7 +219,6 @@
 
     invoke-virtual {v1, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->M:Lcom/commsource/aieditor/AiEditorSaveView;
@@ -246,7 +229,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/aieditor/AiEditorSaveView;->setOnSaveAniEndListener(Lcom/commsource/aieditor/AiEditorSaveView$b;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->d:Landroid/widget/ImageButton;
@@ -257,12 +239,10 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageButton;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 11
     iget v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
     if-ne v1, v2, :cond_1
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->f:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;
@@ -271,7 +251,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->d:Landroid/widget/ImageButton;
@@ -280,14 +259,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->J:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->J:Lcom/commsource/aieditor/EffectContactView;
@@ -298,7 +275,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/aieditor/EffectContactView;->setOnTouchHotListener(Lcom/commsource/aieditor/EffectContactView$c;)V
 
-    .line 16
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -312,7 +288,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroidx/lifecycle/ViewModelProviders;->of(Landroidx/fragment/app/FragmentActivity;)Landroidx/lifecycle/ViewModelProvider;
 
     move-result-object v1
@@ -327,14 +302,12 @@
 
     iput-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->P:Ljava/lang/String;
 
     iget v3, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/aieditor/d0;->V(Ljava/lang/String;I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     invoke-virtual {v1}, Lcom/commsource/aieditor/d0;->K()Landroidx/lifecycle/MutableLiveData;
@@ -347,7 +320,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     invoke-virtual {v1}, Lcom/commsource/aieditor/d0;->M()Landroidx/lifecycle/MutableLiveData;
@@ -360,7 +332,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     invoke-virtual {v1}, Lcom/commsource/aieditor/d0;->L()Landroidx/lifecycle/MutableLiveData;
@@ -373,7 +344,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     invoke-virtual {v1}, Lcom/commsource/aieditor/d0;->N()Landroidx/lifecycle/MutableLiveData;
@@ -386,7 +356,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     invoke-virtual {v1}, Lcom/commsource/aieditor/d0;->H()Landroidx/lifecycle/MutableLiveData;
@@ -399,7 +368,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     invoke-virtual {v1}, Lcom/commsource/aieditor/d0;->J()Landroidx/lifecycle/MutableLiveData;
@@ -412,7 +380,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     invoke-virtual {v1}, Lcom/commsource/aieditor/d0;->I()Landroidx/lifecycle/MutableLiveData;
@@ -425,7 +392,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     invoke-virtual {v1}, Lcom/commsource/aieditor/d0;->O()Landroidx/lifecycle/MutableLiveData;
@@ -438,7 +404,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     invoke-virtual {v1}, Lcom/commsource/aieditor/d0;->P()Landroidx/lifecycle/MutableLiveData;
@@ -451,7 +416,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -464,7 +428,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->onBackPressed()V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -481,17 +444,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/aieditor/c0;->P(I)Ljava/lang/String;
 
     move-result-object p1
@@ -500,10 +460,8 @@
 
     const-string v2, "miniapp_feature"
 
-    .line 4
     invoke-static {v1, v2, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     sget-object p1, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {p1}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -512,7 +470,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/home/HomeDeepLinkAnalyze;->h()V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/e;->M:Lcom/commsource/aieditor/AiEditorSaveView;
@@ -523,7 +480,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
@@ -533,7 +489,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/aieditor/AiEditorSaveView;->setSaveStatus(I)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/e;->p:Landroid/view/View;
@@ -544,14 +499,12 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->save_share_save_fail:I
 
-    .line 9
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-static {p1}, Lf/k/c/c/f;->t(Ljava/lang/CharSequence;)V
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -565,7 +518,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
     const/4 v2, 0x6
@@ -574,14 +526,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
 
     invoke-direct {p0, p1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->u1(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -616,7 +566,6 @@
     :cond_3
     sget v1, Lcom/res/provider/ResDRAWABLE;->miniapp_restore_icon:I
 
-    .line 4
     :goto_0
     new-instance v2, Lcom/commsource/widget/dialog/j0$a;
 
@@ -624,7 +573,6 @@
 
     iget v3, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
-    .line 5
     invoke-static {v3}, Lcom/commsource/aieditor/c0;->Q(I)Ljava/lang/String;
 
     move-result-object v3
@@ -635,7 +583,6 @@
 
     iget v3, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
-    .line 6
     invoke-static {v3}, Lcom/commsource/aieditor/c0;->R(I)Ljava/lang/String;
 
     move-result-object v3
@@ -644,7 +591,6 @@
 
     move-result-object v2
 
-    .line 7
     invoke-virtual {v2, v1}, Lcom/commsource/widget/dialog/j0$a;->c(I)Lcom/commsource/widget/dialog/j0$a;
 
     move-result-object v1
@@ -653,27 +599,22 @@
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/aieditor/AiEditorProcessActivity$m;-><init>(Lcom/commsource/aieditor/AiEditorProcessActivity;Ljava/lang/Integer;)V
 
-    .line 8
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/j0$a;->h(Lcom/commsource/widget/dialog/j0$b;)Lcom/commsource/widget/dialog/j0$a;
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {v1, p0}, Lcom/commsource/widget/dialog/j0$a;->a(Landroid/content/Context;)Lcom/commsource/widget/dialog/j0;
 
     move-result-object v1
 
-    .line 10
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
-    .line 11
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 12
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -682,7 +623,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     iget p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
     invoke-static {p1}, Lcom/commsource/aieditor/c0;->P(I)Ljava/lang/String;
@@ -695,10 +635,8 @@
 
     const-string p1, "Sscore_imp"
 
-    .line 14
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -711,20 +649,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/aieditor/d0;->S(Ljava/lang/String;Z)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -739,10 +673,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->T:Z
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -755,20 +687,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->R:I
 
     const/4 v2, -0x1
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     invoke-direct {p0, v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->w1(I)V
 
-    .line 3
     iput v2, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->R:I
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
@@ -776,10 +704,8 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/aieditor/d0;->S(Ljava/lang/String;Z)V
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -792,20 +718,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/aieditor/d0;->S(Ljava/lang/String;Z)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -818,20 +740,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/aieditor/d0;->S(Ljava/lang/String;Z)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -844,14 +762,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/aieditor/d0;->S(Ljava/lang/String;Z)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->P:Ljava/lang/String;
@@ -860,10 +776,8 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/aieditor/d0;->V(Ljava/lang/String;I)V
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -876,20 +790,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/aieditor/d0;->S(Ljava/lang/String;Z)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -902,20 +812,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/aieditor/d0;->S(Ljava/lang/String;Z)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -928,14 +834,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/aieditor/d0;->S(Ljava/lang/String;Z)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->P:Ljava/lang/String;
@@ -944,10 +848,8 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/aieditor/d0;->V(Ljava/lang/String;I)V
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -960,7 +862,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
@@ -973,7 +874,6 @@
 
     iput-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->P:Ljava/lang/String;
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
@@ -988,7 +888,6 @@
 
     iput v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1001,12 +900,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     iget-wide v3, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->S:J
 
     sub-long v3, v1, v3
@@ -1019,18 +916,15 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_0
     iput-wide v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->S:J
 
     const/4 v1, 0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1043,7 +937,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/b0/a;->c()Lcom/commsource/beautyplus/b0/a;
 
     move-result-object v1
@@ -1056,7 +949,6 @@
 
     invoke-virtual {v1, p0, p1, v2, v3}, Lcom/commsource/beautyplus/b0/a;->j(Landroid/content/Context;ILcom/commsource/widget/dialog/j0$b;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1069,7 +961,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->Q:Landroid/view/View;
@@ -1090,7 +981,6 @@
     :goto_0
     invoke-virtual {v1, v4}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->P:Landroid/widget/TextView;
@@ -1107,7 +997,6 @@
     :goto_1
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->a:Landroid/widget/TextView;
@@ -1124,7 +1013,6 @@
     :goto_2
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->L:Landroid/widget/TextView;
@@ -1141,7 +1029,6 @@
     :goto_3
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->K:Landroid/widget/ProgressBar;
@@ -1156,7 +1043,6 @@
     :goto_4
     invoke-virtual {v1, v2}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1169,22 +1055,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v1
 
     if-nez v1, :cond_6
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->T:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     iput p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->R:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1218,12 +1100,10 @@
 
     sget v3, Lcom/res/provider/ResSTRING;->ai_editor_process_fail:I
 
-    .line 5
     new-instance v6, Lcom/commsource/aieditor/k;
 
     invoke-direct {v6, p0, p1}, Lcom/commsource/aieditor/k;-><init>(Lcom/commsource/aieditor/AiEditorProcessActivity;Ljava/lang/String;)V
 
-    .line 6
     new-instance v7, Lcom/commsource/aieditor/r;
 
     invoke-direct {v7, p0, p1}, Lcom/commsource/aieditor/r;-><init>(Lcom/commsource/aieditor/AiEditorProcessActivity;Ljava/lang/String;)V
@@ -1235,7 +1115,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->ai_editor_unkown_error:I
 
-    .line 7
     new-instance v6, Lcom/commsource/aieditor/m;
 
     invoke-direct {v6, p0, p1}, Lcom/commsource/aieditor/m;-><init>(Lcom/commsource/aieditor/AiEditorProcessActivity;Ljava/lang/String;)V
@@ -1255,12 +1134,10 @@
 
     sget v3, Lcom/res/provider/ResSTRING;->ai_editor_need_network:I
 
-    .line 8
     new-instance v6, Lcom/commsource/aieditor/l;
 
     invoke-direct {v6, p0, p1}, Lcom/commsource/aieditor/l;-><init>(Lcom/commsource/aieditor/AiEditorProcessActivity;Ljava/lang/String;)V
 
-    .line 9
     new-instance v7, Lcom/commsource/aieditor/h;
 
     invoke-direct {v7, p0, p1}, Lcom/commsource/aieditor/h;-><init>(Lcom/commsource/aieditor/AiEditorProcessActivity;Ljava/lang/String;)V
@@ -1274,7 +1151,6 @@
 
     const/4 v2, 0x0
 
-    .line 10
     new-instance v6, Lcom/commsource/aieditor/o;
 
     invoke-direct {v6, p0, p1}, Lcom/commsource/aieditor/o;-><init>(Lcom/commsource/aieditor/AiEditorProcessActivity;Ljava/lang/String;)V
@@ -1296,12 +1172,10 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->ai_editor_remain_confirm:I
 
-    .line 11
     new-instance v6, Lcom/commsource/aieditor/i;
 
     invoke-direct {v6, p0, p1}, Lcom/commsource/aieditor/i;-><init>(Lcom/commsource/aieditor/AiEditorProcessActivity;Ljava/lang/String;)V
 
-    .line 12
     new-instance v7, Lcom/commsource/aieditor/j;
 
     invoke-direct {v7, p0, p1}, Lcom/commsource/aieditor/j;-><init>(Lcom/commsource/aieditor/AiEditorProcessActivity;Ljava/lang/String;)V
@@ -1311,11 +1185,9 @@
 
     move-object v10, v7
 
-    .line 13
     :goto_1
     iput-boolean v4, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->T:Z
 
-    .line 14
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v6
@@ -1346,10 +1218,8 @@
 
     const-string/jumbo v2, "type"
 
-    .line 15
     invoke-static {v1, v2, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1445,7 +1315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->O:Lcom/commsource/aieditor/d0;
 
     if-eqz v1, :cond_0
@@ -1456,10 +1325,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/aieditor/c0;->P(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1468,24 +1335,19 @@
 
     const-string v3, "miniapp_feature"
 
-    .line 4
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
-    .line 5
     invoke-direct {p0, v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->w1(I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_0
     invoke-super {p0}, Landroidx/activity/ComponentActivity;->onBackPressed()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1498,19 +1360,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->s1()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->R0()V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->S0()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1523,13 +1380,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 2
     invoke-static {}, Lcom/commsource/aieditor/e0;->j()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1542,10 +1396,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onResume()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->N:Lcom/commsource/beautyplus/f0/e;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->c:Lcom/commsource/widget/PressImageView;
@@ -1558,43 +1410,35 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->t1()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/aieditor/c0;->P(I)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v3, "ai_editor_save_imp"
 
-    .line 6
     invoke-static {v3, v2, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q:I
 
-    .line 8
     invoke-static {v1}, Lcom/commsource/aieditor/c0;->P(I)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v3, "ai_editor_processing_imp"
 
-    .line 9
     invoke-static {v3, v2, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

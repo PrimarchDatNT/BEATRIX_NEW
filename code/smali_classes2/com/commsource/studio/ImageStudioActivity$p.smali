@@ -59,7 +59,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$p;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->b1()Lcom/commsource/studio/bean/e;
@@ -83,7 +82,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$p;->b:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -101,7 +99,6 @@
 
     if-eqz v1, :cond_9
 
-    .line 3
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -124,7 +121,6 @@
 
     if-eqz v0, :cond_9
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-virtual {v1, v0}, Lcom/commsource/studio/formula/FormulaRepo;->C(Ljava/lang/String;)Lcom/commsource/studio/formula/JsFormula;
@@ -133,7 +129,6 @@
 
     if-eqz v0, :cond_9
 
-    .line 5
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -154,7 +149,6 @@
 
     invoke-virtual {v1, v6, v0}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$p;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->b1()Lcom/commsource/studio/bean/e;
@@ -182,13 +176,11 @@
 
     goto/16 :goto_4
 
-    .line 7
     :cond_2
     instance-of v0, v1, Lcom/commsource/studio/bean/DoodleLayerInfo;
 
     if-eqz v0, :cond_5
 
-    .line 8
     sget-object v0, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     new-instance v2, Ljava/util/ArrayList;
@@ -209,7 +201,6 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 9
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -227,7 +218,6 @@
 
     check-cast v7, Lcom/commsource/studio/doodle/i;
 
-    .line 10
     invoke-virtual {v7}, Lcom/commsource/studio/doodle/i;->b()Lcom/commsource/studio/doodle/DoodleMaterial;
 
     move-result-object v7
@@ -242,7 +232,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -252,10 +241,8 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 12
     invoke-virtual {v0, v6, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     sget-object v0, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     new-instance v2, Ljava/util/ArrayList;
@@ -274,7 +261,6 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 14
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -292,7 +278,6 @@
 
     check-cast v6, Lcom/commsource/studio/doodle/i;
 
-    .line 15
     invoke-virtual {v6}, Lcom/commsource/studio/doodle/i;->c()Ljava/lang/String;
 
     move-result-object v6
@@ -303,7 +288,6 @@
 
     goto :goto_2
 
-    .line 16
     :cond_4
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -311,18 +295,15 @@
 
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 17
     invoke-virtual {v0, v5, v1}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_4
 
-    .line 18
     :cond_5
     instance-of v0, v1, Lcom/commsource/studio/bean/StickerLayerInfo;
 
     if-eqz v0, :cond_6
 
-    .line 19
     sget-object v0, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -355,13 +336,11 @@
 
     goto :goto_4
 
-    .line 20
     :cond_6
     instance-of v0, v1, Lcom/commsource/studio/bean/TextLayerInfo;
 
     if-eqz v0, :cond_8
 
-    .line 21
     sget-object v0, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     check-cast v1, Lcom/commsource/studio/bean/TextLayerInfo;
@@ -388,18 +367,15 @@
     :goto_3
     invoke-virtual {v0, v6, v1}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     invoke-virtual {v0, v5, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_4
 
-    .line 23
     :cond_8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 24
     :cond_9
     :goto_4
     sget-object v0, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
@@ -410,14 +386,12 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 25
     new-instance v0, Lcom/commsource/util/p2/c;
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$p;->b:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-direct {v0, v1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 26
     new-instance v1, Lcom/commsource/studio/ImageStudioActivity$p$a;
 
     const-string v2, "\u7f16\u8f91_"
@@ -426,7 +400,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 27
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -439,7 +412,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$p;->a(Ljava/lang/Boolean;)V

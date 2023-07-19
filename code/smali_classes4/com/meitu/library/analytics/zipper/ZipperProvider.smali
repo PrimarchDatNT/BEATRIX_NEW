@@ -93,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/library/analytics/zipper/ZipperProvider;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -110,10 +109,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Landroid/content/ContentProvider;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/content/UriMatcher;
 
     const/4 v1, -0x1
@@ -132,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
@@ -151,14 +147,12 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     sget-object v1, Lcom/meitu/library/analytics/zipper/ZipperProvider;->X:Ljava/lang/String;
 
     const-string v2, "YOU SHOULD NOT USE THIS IN MAIN PROCESS AND IN MAIN THREAD!!!"
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/j/d;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
@@ -183,7 +177,6 @@
 
     if-ge v1, v2, :cond_3
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v5
@@ -201,7 +194,6 @@
     :cond_2
     const-wide/16 v5, 0x1f4
 
-    .line 5
     :try_start_0
     invoke-static {v5, v6}, Ljava/lang/Thread;->sleep(J)V
     :try_end_0
@@ -209,7 +201,6 @@
 
     goto :goto_2
 
-    .line 6
     :catch_0
     sget-object v2, Lcom/meitu/library/analytics/zipper/ZipperProvider;->X:Ljava/lang/String;
 
@@ -231,7 +222,6 @@
     :cond_4
     const/4 v3, 0x0
 
-    .line 7
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -261,7 +251,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/content/ContentUris;->parseId(Landroid/net/Uri;)J
 
     move-result-wide p4
@@ -274,7 +263,6 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 2
     sget-object p2, Lcom/meitu/library/analytics/zipper/ZipperProvider;->X:Ljava/lang/String;
 
     new-instance p4, Ljava/lang/StringBuilder;
@@ -295,7 +283,6 @@
 
     goto/16 :goto_0
 
-    .line 3
     :pswitch_0
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
@@ -311,10 +298,8 @@
 
     const-string p2, "\u6d4b\u8bd5\u6d4b\u8bd5!"
 
-    .line 4
     invoke-static {p1, p2}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {}, Lcom/meitu/library/analytics/o;->j()Lcom/meitu/library/analytics/gid/GidRelatedInfo;
 
@@ -322,7 +307,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     new-instance p2, Lcom/meitu/library/analytics/zipper/c;
 
     invoke-static {p1}, Lcom/meitu/library/analytics/y/o/l;->d(Ljava/lang/Object;)Ljava/lang/String;
@@ -335,7 +319,6 @@
 
     return-object p2
 
-    .line 7
     :cond_1
     new-instance p1, Lcom/meitu/library/analytics/zipper/c;
 
@@ -345,7 +328,6 @@
 
     return-object p1
 
-    .line 8
     :pswitch_1
     new-instance p1, Lcom/meitu/library/analytics/zipper/c;
 
@@ -361,7 +343,6 @@
 
     return-object p1
 
-    .line 9
     :pswitch_2
     new-instance p1, Lcom/meitu/library/analytics/zipper/c;
 
@@ -373,13 +354,11 @@
 
     return-object p1
 
-    .line 10
     :pswitch_3
     invoke-static {}, Lcom/meitu/library/analytics/o;->l()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 11
     new-instance p2, Lcom/meitu/library/analytics/zipper/c;
 
     if-eqz p1, :cond_2
@@ -393,13 +372,11 @@
 
     return-object p2
 
-    .line 12
     :pswitch_4
     invoke-static {}, Lcom/meitu/library/analytics/o;->k()I
 
     move-result p1
 
-    .line 13
     new-instance p2, Lcom/meitu/library/analytics/zipper/c;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -412,13 +389,11 @@
 
     return-object p2
 
-    .line 14
     :pswitch_5
     invoke-static {}, Lcom/meitu/library/analytics/o;->i()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 15
     new-instance p2, Lcom/meitu/library/analytics/zipper/c;
 
     if-eqz p1, :cond_3
@@ -435,17 +410,14 @@
     :pswitch_6
     if-eqz p2, :cond_8
 
-    .line 16
     array-length p1, p2
 
     if-lez p1, :cond_8
 
     const/4 p1, 0x0
 
-    .line 17
     aget-object p2, p2, p1
 
-    .line 18
     sget-object p4, Lcom/meitu/library/analytics/sdk/content/Switcher;->NETWORK:Lcom/meitu/library/analytics/sdk/content/Switcher;
 
     invoke-virtual {p4}, Lcom/meitu/library/analytics/sdk/content/Switcher;->getName()Ljava/lang/String;
@@ -458,7 +430,6 @@
 
     if-eqz p5, :cond_4
 
-    .line 19
     new-instance p1, Lcom/meitu/library/analytics/zipper/c;
 
     invoke-static {p4}, Lcom/meitu/library/analytics/o;->r(Lcom/meitu/library/analytics/sdk/content/Switcher;)Z
@@ -475,7 +446,6 @@
 
     return-object p1
 
-    .line 20
     :cond_4
     sget-object p4, Lcom/meitu/library/analytics/sdk/content/Switcher;->LOCATION:Lcom/meitu/library/analytics/sdk/content/Switcher;
 
@@ -489,7 +459,6 @@
 
     if-eqz p5, :cond_5
 
-    .line 21
     new-instance p1, Lcom/meitu/library/analytics/zipper/c;
 
     invoke-static {p4}, Lcom/meitu/library/analytics/o;->r(Lcom/meitu/library/analytics/sdk/content/Switcher;)Z
@@ -506,7 +475,6 @@
 
     return-object p1
 
-    .line 22
     :cond_5
     sget-object p4, Lcom/meitu/library/analytics/sdk/content/Switcher;->WIFI:Lcom/meitu/library/analytics/sdk/content/Switcher;
 
@@ -520,7 +488,6 @@
 
     if-eqz p5, :cond_6
 
-    .line 23
     new-instance p1, Lcom/meitu/library/analytics/zipper/c;
 
     invoke-static {p4}, Lcom/meitu/library/analytics/o;->r(Lcom/meitu/library/analytics/sdk/content/Switcher;)Z
@@ -537,7 +504,6 @@
 
     return-object p1
 
-    .line 24
     :cond_6
     sget-object p4, Lcom/meitu/library/analytics/sdk/content/Switcher;->APP_LIST:Lcom/meitu/library/analytics/sdk/content/Switcher;
 
@@ -551,7 +517,6 @@
 
     if-eqz p2, :cond_7
 
-    .line 25
     new-instance p1, Lcom/meitu/library/analytics/zipper/c;
 
     invoke-static {p4}, Lcom/meitu/library/analytics/o;->r(Lcom/meitu/library/analytics/sdk/content/Switcher;)Z
@@ -568,7 +533,6 @@
 
     return-object p1
 
-    .line 26
     :cond_7
     new-instance p2, Lcom/meitu/library/analytics/zipper/c;
 
@@ -582,7 +546,6 @@
 
     return-object p2
 
-    .line 27
     :cond_8
     :goto_0
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -610,29 +573,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/content/f;->Q()Lcom/meitu/library/analytics/y/n/i;
 
     move-result-object v3
 
-    .line 4
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v4
 
     const/4 v5, 0x0
 
-    .line 5
     :try_start_0
     sget-object v6, Lcom/meitu/library/analytics/y/n/d;->h:Lcom/meitu/library/analytics/y/n/d;
 
@@ -642,7 +600,6 @@
 
     check-cast v7, Ljava/lang/String;
 
-    .line 6
     invoke-static {v7}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
@@ -651,23 +608,19 @@
 
     if-eqz v8, :cond_0
 
-    .line 7
     invoke-static {v4, v9}, Lcom/meitu/library/analytics/y/o/g$d;->h(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
     if-eqz v7, :cond_0
 
-    .line 8
     invoke-virtual {v3, v6, v7}, Lcom/meitu/library/analytics/y/n/i;->n(Lcom/meitu/library/analytics/y/n/d;Ljava/lang/Object;)Lcom/meitu/library/analytics/y/n/i;
 
     :cond_0
     const-string v6, "a"
 
-    .line 9
     invoke-virtual {v1, v6, v7}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 10
     sget-object v6, Lcom/meitu/library/analytics/y/n/d;->l:Lcom/meitu/library/analytics/y/n/d;
 
     invoke-virtual {v3, v6}, Lcom/meitu/library/analytics/y/n/i;->k(Lcom/meitu/library/analytics/y/n/d;)Ljava/lang/Object;
@@ -676,30 +629,25 @@
 
     check-cast v7, Ljava/lang/String;
 
-    .line 11
     invoke-static {v7}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
 
     if-eqz v8, :cond_1
 
-    .line 12
     invoke-static {v4, v9}, Lcom/meitu/library/analytics/y/o/g$d;->c(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
     if-eqz v7, :cond_1
 
-    .line 13
     invoke-virtual {v3, v6, v7}, Lcom/meitu/library/analytics/y/n/i;->n(Lcom/meitu/library/analytics/y/n/d;Ljava/lang/Object;)Lcom/meitu/library/analytics/y/n/i;
 
     :cond_1
     const-string v6, "b"
 
-    .line 14
     invoke-virtual {v1, v6, v7}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 15
     sget-object v6, Lcom/meitu/library/analytics/y/n/d;->j:Lcom/meitu/library/analytics/y/n/d;
 
     invoke-virtual {v3, v6}, Lcom/meitu/library/analytics/y/n/i;->k(Lcom/meitu/library/analytics/y/n/d;)Ljava/lang/Object;
@@ -708,30 +656,25 @@
 
     check-cast v7, Ljava/lang/String;
 
-    .line 16
     invoke-static {v7}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
 
     if-eqz v8, :cond_2
 
-    .line 17
     invoke-static {v4, v9}, Lcom/meitu/library/analytics/y/o/g$d;->g(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
     if-eqz v7, :cond_2
 
-    .line 18
     invoke-virtual {v3, v6, v7}, Lcom/meitu/library/analytics/y/n/i;->n(Lcom/meitu/library/analytics/y/n/d;Ljava/lang/Object;)Lcom/meitu/library/analytics/y/n/i;
 
     :cond_2
     const-string v4, "c"
 
-    .line 19
     invoke-virtual {v1, v4, v7}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 20
     sget-object v4, Lcom/meitu/library/analytics/y/n/d;->z:Lcom/meitu/library/analytics/y/n/d;
 
     invoke-virtual {v3, v4}, Lcom/meitu/library/analytics/y/n/i;->k(Lcom/meitu/library/analytics/y/n/d;)Ljava/lang/Object;
@@ -742,12 +685,10 @@
 
     const-string v4, "d"
 
-    .line 21
     invoke-virtual {v1, v4, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v3, "e"
 
-    .line 22
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/content/f;->s()Ljava/lang/String;
 
     move-result-object v4
@@ -756,7 +697,6 @@
 
     const-string v3, "f"
 
-    .line 23
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/content/f;->L()Ljava/lang/String;
 
     move-result-object v4
@@ -765,7 +705,6 @@
 
     const-string v3, "g"
 
-    .line 24
     invoke-static {}, Lcom/meitu/library/analytics/o;->i()Ljava/lang/String;
 
     move-result-object v4
@@ -774,14 +713,12 @@
 
     const-string v3, "h"
 
-    .line 25
     invoke-static {}, Lcom/meitu/library/analytics/sdk/db/h;->p()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-virtual {v1, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 26
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v3
@@ -802,7 +739,6 @@
 
     const-string v4, "i"
 
-    .line 27
     new-instance v6, Ljava/lang/String;
 
     invoke-static {v3, v5}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
@@ -813,7 +749,6 @@
 
     invoke-virtual {v1, v4, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 28
     :cond_3
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/content/f;->O()Z
 
@@ -825,7 +760,6 @@
 
     const-string v4, "j"
 
-    .line 29
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/content/f;->i0()Z
 
     move-result v6
@@ -836,7 +770,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 30
     invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v3
@@ -851,7 +784,6 @@
 
     const-string v3, "l"
 
-    .line 31
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/content/f;->V()Z
 
     move-result v2
@@ -865,7 +797,6 @@
     :catch_0
     move-exception v2
 
-    .line 32
     sget-object v3, Lcom/meitu/library/analytics/zipper/ZipperProvider;->X:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -888,13 +819,11 @@
 
     invoke-static {v3, v2}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 33
     :goto_1
     invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 34
     invoke-virtual {v1}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v2
@@ -907,7 +836,6 @@
 
     move-result-object v2
 
-    .line 35
     sget-object v3, Lcom/meitu/library/analytics/zipper/ZipperProvider;->X:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -932,7 +860,6 @@
 
     invoke-static {v3, v1}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 36
     new-instance v1, Lcom/meitu/library/analytics/zipper/d;
 
     invoke-direct {v1, v2}, Lcom/meitu/library/analytics/zipper/d;-><init>(Ljava/lang/String;)V
@@ -949,7 +876,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -958,7 +884,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 2
     iget-object v3, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->b:Ljava/lang/String;
 
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -969,7 +894,6 @@
 
     goto :goto_3
 
-    .line 3
     :cond_0
     iget-object v3, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->b:Ljava/lang/String;
 
@@ -979,26 +903,22 @@
 
     if-eqz v3, :cond_1
 
-    .line 4
     sget-object v1, Lcom/meitu/library/analytics/zipper/ZipperProvider;->X:Ljava/lang/String;
 
     const-string v3, "You Don\'t Get the permission!"
 
     invoke-static {v1, v3}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_1
     :try_start_0
     invoke-virtual {v1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
@@ -1009,18 +929,15 @@
 
     move-result-object v1
 
-    .line 8
     iget-object v1, v1, Landroid/content/pm/PackageInfo;->permissions:[Landroid/content/pm/PermissionInfo;
 
     const/4 v4, 0x0
 
-    .line 9
     :goto_0
     array-length v5, v1
 
     if-ge v4, v5, :cond_4
 
-    .line 10
     iget-object v5, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->b:Ljava/lang/String;
 
     aget-object v6, v1, v4
@@ -1035,7 +952,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     aget-object v5, v1, v4
 
@@ -1047,7 +963,6 @@
 
     iget v5, v5, Landroid/content/pm/PermissionInfo;->protectionLevel:I
 
-    .line 12
     aget-object v6, v1, v4
 
     iget v6, v6, Landroid/content/pm/PermissionInfo;->protectionLevel:I
@@ -1074,7 +989,6 @@
     :catch_0
     move-exception v1
 
-    .line 13
     sget-object v3, Lcom/meitu/library/analytics/zipper/ZipperProvider;->X:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1097,13 +1011,11 @@
 
     invoke-static {v3, v1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 15
     :cond_5
     :goto_3
     sget-object v1, Lcom/meitu/library/analytics/zipper/ZipperProvider;->X:Ljava/lang/String;
@@ -1112,7 +1024,6 @@
 
     invoke-static {v1, v3}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -1139,7 +1050,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance p2, Ljava/lang/UnsupportedOperationException;
 
     const-string p3, "Not Support!"
@@ -1164,7 +1074,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p1, "text/plain"
@@ -1189,7 +1098,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance p2, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Not Support!"
@@ -1208,7 +1116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1234,7 +1141,6 @@
 
     iput-object v1, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->b:Ljava/lang/String;
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->a:Landroid/content/UriMatcher;
 
     const-string v3, "pack_data"
@@ -1243,7 +1149,6 @@
 
     invoke-virtual {v2, v1, v3, v4}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->a:Landroid/content/UriMatcher;
 
     iget-object v2, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->b:Ljava/lang/String;
@@ -1254,7 +1159,6 @@
 
     invoke-virtual {v1, v2, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->a:Landroid/content/UriMatcher;
 
     iget-object v2, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->b:Ljava/lang/String;
@@ -1265,7 +1169,6 @@
 
     invoke-virtual {v1, v2, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->a:Landroid/content/UriMatcher;
 
     iget-object v2, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->b:Ljava/lang/String;
@@ -1278,7 +1181,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -1286,7 +1188,6 @@
     :catch_0
     move-exception v1
 
-    .line 7
     sget-object v2, Lcom/meitu/library/analytics/zipper/ZipperProvider;->X:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1311,7 +1212,6 @@
 
     const/4 v1, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1346,14 +1246,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->a:Landroid/content/UriMatcher;
 
     invoke-virtual {v1, p1}, Landroid/content/UriMatcher;->match(Landroid/net/Uri;)I
 
     move-result v1
 
-    .line 2
     sget-object v2, Lcom/meitu/library/analytics/zipper/ZipperProvider;->X:Ljava/lang/String;
 
     const/4 v3, 0x2
@@ -1386,12 +1284,10 @@
 
     const-string p1, "query unknown code!"
 
-    .line 3
     invoke-static {v2, p1}, Lcom/meitu/library/analytics/y/j/d;->j(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
@@ -1403,7 +1299,6 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1424,12 +1319,10 @@
 
     invoke-static {v2, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 7
     :cond_1
     invoke-direct/range {p0 .. p5}, Lcom/meitu/library/analytics/zipper/ZipperProvider;->b(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -1437,7 +1330,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-direct {p0}, Lcom/meitu/library/analytics/zipper/ZipperProvider;->d()Z
 
@@ -1447,15 +1339,12 @@
 
     const-string p1, "Update permission check failure!"
 
-    .line 9
     invoke-static {v2, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 11
     :cond_3
     invoke-direct {p0}, Lcom/meitu/library/analytics/zipper/ZipperProvider;->a()Z
 
@@ -1465,21 +1354,17 @@
 
     const-string p1, "Teemo env is not ready!"
 
-    .line 12
     invoke-static {v2, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 14
     :cond_4
     invoke-direct {p0}, Lcom/meitu/library/analytics/zipper/ZipperProvider;->c()Landroid/database/Cursor;
 
     move-result-object v3
 
-    .line 15
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1509,14 +1394,12 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p4, p0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->a:Landroid/content/UriMatcher;
 
     invoke-virtual {p4, p1}, Landroid/content/UriMatcher;->match(Landroid/net/Uri;)I
 
     move-result p4
 
-    .line 2
     sget-object v0, Lcom/meitu/library/analytics/zipper/ZipperProvider;->X:Ljava/lang/String;
 
     const-string v1, "On Update:%s with:%s"
@@ -1539,7 +1422,6 @@
 
     invoke-static {v0, v1, v3}, Lcom/meitu/library/analytics/y/j/d;->c(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/library/analytics/zipper/ZipperProvider;->d()Z
 
     move-result p1
@@ -1548,15 +1430,12 @@
 
     const-string p1, "Update permission check failure!"
 
-    .line 4
     invoke-static {v0, p1}, Lcom/meitu/library/analytics/y/j/d;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 6
     :cond_0
     invoke-direct {p0}, Lcom/meitu/library/analytics/zipper/ZipperProvider;->a()Z
 
@@ -1566,10 +1445,8 @@
 
     const-string p1, "Teemo env is not ready!"
 
-    .line 7
     invoke-static {v0, p1}, Lcom/meitu/library/analytics/y/j/d;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
@@ -1586,7 +1463,6 @@
     :cond_2
     const-string p1, "b"
 
-    .line 9
     invoke-virtual {p2, p1}, Landroid/content/ContentValues;->getAsBoolean(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object p1
@@ -1595,16 +1471,13 @@
 
     const-string p1, "Send Null Value From Debug App!"
 
-    .line 10
     invoke-static {v0, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 11
     :cond_3
     monitor-enter v0
 
-    .line 12
     :try_start_0
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -1616,12 +1489,10 @@
 
     invoke-virtual {p2, p4}, Lcom/meitu/library/analytics/sdk/content/f;->q0(Z)V
 
-    .line 13
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 14
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1643,7 +1514,6 @@
     :goto_0
     const-string p1, "update unknown code!"
 
-    .line 15
     invoke-static {v0, p1}, Lcom/meitu/library/analytics/y/j/d;->j(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
@@ -1651,7 +1521,6 @@
     :catchall_0
     move-exception p1
 
-    .line 16
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -1664,7 +1533,6 @@
     :cond_4
     const-string p1, "a"
 
-    .line 17
     invoke-virtual {p2, p1}, Landroid/content/ContentValues;->getAsBoolean(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object p1
@@ -1673,16 +1541,13 @@
 
     const-string p1, "Send Null Value From Debug App!"
 
-    .line 18
     invoke-static {v0, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 19
     :cond_5
     monitor-enter v0
 
-    .line 20
     :try_start_2
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -1694,12 +1559,10 @@
 
     invoke-virtual {p2, p4}, Lcom/meitu/library/analytics/sdk/content/f;->p0(Z)V
 
-    .line 21
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 22
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1718,7 +1581,6 @@
 
     const/4 v5, 0x1
 
-    .line 23
     :goto_1
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1727,7 +1589,6 @@
     :catchall_1
     move-exception p1
 
-    .line 24
     :try_start_3
     monitor-exit v0
     :try_end_3

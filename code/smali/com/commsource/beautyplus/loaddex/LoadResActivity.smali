@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
     return-void
@@ -38,13 +37,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->requestWindowFeature(I)Z
 
-    .line 2
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object p1
@@ -55,15 +51,12 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1, p1}, Landroid/app/Activity;->overridePendingTransition(II)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->activity_wait_load_dex:I
 
-    .line 5
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V
 
-    .line 6
     new-instance p1, Lcom/commsource/beautyplus/loaddex/LoadResActivity$b$a;
 
     new-instance v1, Ljava/lang/ref/WeakReference;
@@ -72,7 +65,6 @@
 
     invoke-direct {p1, v1}, Lcom/commsource/beautyplus/loaddex/LoadResActivity$b$a;-><init>(Ljava/lang/ref/WeakReference;)V
 
-    .line 7
     invoke-static {}, Lcom/commsource/beautyplus/base/b/b;->c()Lcom/commsource/beautyplus/base/b/b;
 
     move-result-object v1
@@ -89,7 +81,6 @@
 
     invoke-virtual {v1, v2, p1, v3}, Lcom/commsource/beautyplus/base/b/b;->b(Lcom/commsource/beautyplus/base/b/a;Lcom/commsource/beautyplus/base/b/a$a;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

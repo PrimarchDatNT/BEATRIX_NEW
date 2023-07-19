@@ -59,7 +59,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "OFFER_SUCCESS"
@@ -68,7 +67,6 @@
 
     sput-object v0, Lcotlinx/coroutines/channels/b;->d:Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "OFFER_FAILED"
@@ -77,7 +75,6 @@
 
     sput-object v0, Lcotlinx/coroutines/channels/b;->e:Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "POLL_FAILED"
@@ -86,7 +83,6 @@
 
     sput-object v0, Lcotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
 
-    .line 4
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "ENQUEUE_FAILED"
@@ -95,7 +91,6 @@
 
     sput-object v0, Lcotlinx/coroutines/channels/b;->g:Ljava/lang/Object;
 
-    .line 5
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "ON_CLOSE_HANDLER_INVOKED"
@@ -140,7 +135,6 @@
 .method public static final synthetic f(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/channels/b;->h(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -151,7 +145,6 @@
 .method public static final synthetic g(Lcotlinx/coroutines/channels/p;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/channels/b;->i(Lcotlinx/coroutines/channels/p;)Ljava/lang/Object;
 
     move-result-object p0
@@ -176,7 +169,6 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/channels/p;
 
     if-eqz v0, :cond_0
@@ -187,7 +179,6 @@
 
     iget-object p0, p0, Lcotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/channels/f0$a;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/channels/f0$a;-><init>(Ljava/lang/Throwable;)V
@@ -198,11 +189,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v0, Lcotlinx/coroutines/channels/f0;->b:Lcotlinx/coroutines/channels/f0$b;
 
-    .line 4
     invoke-static {p0}, Lcotlinx/coroutines/channels/f0;->c(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -228,12 +217,10 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/channels/f0;->b:Lcotlinx/coroutines/channels/f0$b;
 
     iget-object p0, p0, Lcotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/channels/f0$a;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/channels/f0$a;-><init>(Ljava/lang/Throwable;)V

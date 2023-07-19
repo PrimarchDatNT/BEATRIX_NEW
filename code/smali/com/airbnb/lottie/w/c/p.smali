@@ -49,7 +49,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/airbnb/lottie/w/c/p;-><init>(Lcom/airbnb/lottie/a0/j;Ljava/lang/Object;)V
 
     return-void
@@ -69,24 +68,20 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
 
     invoke-direct {p0, v0}, Lcom/airbnb/lottie/w/c/a;-><init>(Ljava/util/List;)V
 
-    .line 3
     new-instance v0, Lcom/airbnb/lottie/a0/b;
 
     invoke-direct {v0}, Lcom/airbnb/lottie/a0/b;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/w/c/p;->i:Lcom/airbnb/lottie/a0/b;
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/w/c/a;->n(Lcom/airbnb/lottie/a0/j;)V
 
-    .line 5
     iput-object p2, p0, Lcom/airbnb/lottie/w/c/p;->j:Ljava/lang/Object;
 
     return-void
@@ -110,7 +105,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/c/a;->e:Lcom/airbnb/lottie/a0/j;
 
     iget-object v4, p0, Lcom/airbnb/lottie/w/c/p;->j:Ljava/lang/Object;
@@ -150,7 +144,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/w/c/p;->h()Ljava/lang/Object;
 
     move-result-object p1
@@ -161,12 +154,10 @@
 .method public k()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/c/a;->e:Lcom/airbnb/lottie/a0/j;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-super {p0}, Lcom/airbnb/lottie/w/c/a;->k()V
 
     :cond_0
@@ -176,7 +167,6 @@
 .method public m(F)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/airbnb/lottie/w/c/a;->d:F
 
     return-void

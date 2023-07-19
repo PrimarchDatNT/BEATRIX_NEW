@@ -57,7 +57,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/y;->a:Ljava/io/InputStream;
@@ -80,7 +79,6 @@
 
     move-object v0, p1
 
-    .line 1
     invoke-static/range {v0 .. v5}, Lcotlin/text/m;->n3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     move-result v0
@@ -106,7 +104,6 @@
 
     move v4, v0
 
-    .line 2
     invoke-static/range {v2 .. v7}, Lcotlin/text/m;->n3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     move-result v2
@@ -120,7 +117,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 3
     invoke-virtual {p1, v0, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v0
@@ -145,7 +141,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 4
     invoke-virtual {p1, v2}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p1
@@ -164,7 +159,6 @@
 
     move-result-object p1
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -185,7 +179,6 @@
 
     return-void
 
-    .line 6
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -200,7 +193,6 @@
 
     throw p1
 
-    .line 7
     :cond_4
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -231,7 +223,6 @@
 
     move-object v0, p1
 
-    .line 1
     invoke-static/range {v0 .. v5}, Lcotlin/text/m;->n3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     move-result v0
@@ -259,7 +250,6 @@
 
     move v5, v9
 
-    .line 2
     invoke-static/range {v3 .. v8}, Lcotlin/text/m;->n3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     move-result v3
@@ -275,7 +265,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 3
     invoke-virtual {p1, v1, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v0
@@ -298,7 +287,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 4
     invoke-virtual {p1, v9, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p1
@@ -315,12 +303,10 @@
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p2, p1, v0}, Lkshark/x;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object p1
 
-    .line 6
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -335,7 +321,6 @@
 
     throw p1
 
-    .line 7
     :cond_4
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -366,12 +351,10 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lkshark/x;
 
     invoke-direct {v0}, Lkshark/x;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lkshark/y;->a:Ljava/io/InputStream;
 
     sget-object v2, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
@@ -402,7 +385,6 @@
 
     move-object v2, v1
 
-    .line 3
     :cond_1
     :goto_1
     :try_start_0
@@ -424,7 +406,6 @@
 
     if-eqz v4, :cond_6
 
-    .line 4
     invoke-interface {v4}, Ljava/lang/CharSequence;->length()I
 
     move-result v5
@@ -458,14 +439,12 @@
     :cond_3
     const-string v5, ":"
 
-    .line 5
     invoke-static {v4, v5, v6, v7, v1}, Lcotlin/text/m;->H1(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v5
 
     if-eqz v5, :cond_4
 
-    .line 6
     invoke-direct {p0, v4, v0}, Lkshark/y;->b(Ljava/lang/String;Lkshark/x;)Ljava/lang/String;
 
     move-result-object v2
@@ -477,19 +456,16 @@
 
     const-string v5, "("
 
-    .line 7
     invoke-static {v4, v5, v6, v7, v1}, Lcotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     move-result v5
 
     if-nez v5, :cond_1
 
-    .line 8
     invoke-direct {p0, v4, v2, v0}, Lkshark/y;->a(Ljava/lang/String;Ljava/lang/String;Lkshark/x;)V
 
     goto :goto_1
 
-    .line 9
     :cond_5
     new-instance v0, Lcotlin/TypeCastException;
 
@@ -499,13 +475,11 @@
 
     throw v0
 
-    .line 10
     :cond_6
     sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 11
     invoke-static {v3, v1}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-object v0

@@ -34,7 +34,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/core/content/pm/ShortcutInfoCompat$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/shortcut/core/j$b;->a:Landroidx/core/content/pm/ShortcutInfoCompat;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -62,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/meitu/shortcut/core/j$b;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -81,10 +78,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/shortcut/core/j$b;->b:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -99,19 +94,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/shortcut/core/j$b;->c:[Landroid/content/Intent;
 
     invoke-super {p0, v1}, Landroidx/core/content/pm/ShortcutInfoCompat$Builder;->setIntents([Landroid/content/Intent;)Landroidx/core/content/pm/ShortcutInfoCompat$Builder;
 
-    .line 2
     invoke-super {p0}, Landroidx/core/content/pm/ShortcutInfoCompat$Builder;->build()Landroidx/core/content/pm/ShortcutInfoCompat;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/shortcut/core/j$b;->a:Landroidx/core/content/pm/ShortcutInfoCompat;
 
-    .line 3
     new-instance v1, Lcom/meitu/shortcut/core/j;
 
     const/4 v2, 0x0
@@ -132,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/shortcut/core/j$b;->c:[Landroid/content/Intent;
 
     array-length v2, v1
@@ -167,7 +158,6 @@
 
     aput-object p1, v1, v2
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/meitu/shortcut/core/j$b;->g([Landroid/content/Intent;)Lcom/meitu/shortcut/core/j$b;
 
     move-result-object p1
@@ -190,10 +180,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/shortcut/core/j$b;->c:[Landroid/content/Intent;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -212,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/shortcut/core/j$b;->f(Landroid/content/Intent;)Lcom/meitu/shortcut/core/j$b;
 
     move-result-object p1
@@ -235,7 +222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/shortcut/core/j$b;->g([Landroid/content/Intent;)Lcom/meitu/shortcut/core/j$b;
 
     move-result-object p1

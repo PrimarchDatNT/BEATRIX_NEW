@@ -36,10 +36,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_language:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Lcom/commsource/beautyplus/setting/language/LanguageViewHolder$mViewBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/beautyplus/setting/language/LanguageViewHolder$mViewBinding$2;-><init>(Lcom/commsource/beautyplus/setting/language/LanguageViewHolder;)V
@@ -81,12 +79,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_2
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -95,7 +91,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/widget/h1/f;->f:Lcom/commsource/widget/h1/e;
 
     const-string v1, "adapter"
@@ -110,7 +105,6 @@
 
     check-cast p3, Lcom/commsource/beautyplus/setting/language/b;
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageViewHolder;->v()Lcom/commsource/beautyplus/f0/ig;
 
     move-result-object v1
@@ -135,7 +129,6 @@
 
     invoke-virtual {v1, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageViewHolder;->v()Lcom/commsource/beautyplus/f0/ig;
 
     move-result-object p3
@@ -156,7 +149,6 @@
 
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 6
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result p1
@@ -165,7 +157,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageViewHolder;->v()Lcom/commsource/beautyplus/f0/ig;
 
     move-result-object p1
@@ -176,7 +167,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageViewHolder;->v()Lcom/commsource/beautyplus/f0/ig;
 
     move-result-object p1
@@ -193,7 +183,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageViewHolder;->v()Lcom/commsource/beautyplus/f0/ig;
 
@@ -205,7 +194,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageViewHolder;->v()Lcom/commsource/beautyplus/f0/ig;
 
     move-result-object p1
@@ -222,7 +210,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -234,7 +221,6 @@
 
     throw p1
 
-    .line 12
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

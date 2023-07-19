@@ -27,7 +27,6 @@
 .method constructor <init>(Ljava/util/concurrent/BlockingQueue;Lcom/google/common/util/concurrent/g0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/n0$a;->a:Ljava/util/concurrent/BlockingQueue;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/n0$a;->b:Lcom/google/common/util/concurrent/g0;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$a;->a:Ljava/util/concurrent/BlockingQueue;
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/n0$a;->b:Lcom/google/common/util/concurrent/g0;

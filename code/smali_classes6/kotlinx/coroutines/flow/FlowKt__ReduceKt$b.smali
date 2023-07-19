@@ -37,7 +37,6 @@
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$b;->a:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,12 +53,10 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$b;->a:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iput-object p1, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 2
     new-instance p1, Lcotlinx/coroutines/flow/internal/AbortFlowException;
 
     sget-object p2, Lcotlinx/coroutines/flow/internal/h;->a:Lcotlinx/coroutines/flow/internal/h;

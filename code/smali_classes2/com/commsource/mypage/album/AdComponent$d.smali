@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -63,7 +62,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/album/AdComponent$d;->a:Lcom/commsource/mypage/album/AdComponent;
 
     invoke-static {p1}, Lcom/commsource/mypage/album/AdComponent;->f(Lcom/commsource/mypage/album/AdComponent;)Lcom/commsource/mypage/e0;
@@ -76,7 +74,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/mypage/album/AdComponent$d;->a:Lcom/commsource/mypage/album/AdComponent;
 
@@ -90,7 +87,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/mypage/e0;->b(Z)V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -105,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/mypage/album/AdComponent$d;->a(Ljava/lang/Boolean;)V

@@ -28,19 +28,14 @@
 .method public constructor <init>(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->a:Landroid/graphics/Bitmap;
 
-    .line 3
     iput-object p2, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->b:Landroid/graphics/Bitmap;
 
-    .line 4
     iput-object p3, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->c:Lcom/meitu/core/types/FaceData;
 
-    .line 5
     iput p4, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->d:I
 
     return-void
@@ -55,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->b:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -70,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->c:Lcom/meitu/core/types/FaceData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -85,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->a:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -100,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

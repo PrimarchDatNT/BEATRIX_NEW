@@ -18,7 +18,6 @@
 .method static constructor <clinit>()V
     .locals 8
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "RESUMED"
@@ -27,7 +26,6 @@
 
     sput-object v0, Lcotlinx/coroutines/sync/SemaphoreKt;->a:Lcotlinx/coroutines/internal/c0;
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "CANCELLED"
@@ -48,7 +46,6 @@
 
     const/4 v7, 0x0
 
-    .line 3
     invoke-static/range {v2 .. v7}, Lcotlinx/coroutines/internal/e0;->f(Ljava/lang/String;IIIILjava/lang/Object;)I
 
     move-result v0
@@ -81,7 +78,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/sync/f;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/sync/f;-><init>(II)V
@@ -98,7 +94,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/sync/SemaphoreKt;->d(II)Lcotlinx/coroutines/sync/e;
 
@@ -110,7 +105,6 @@
 .method public static final synthetic f()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/sync/SemaphoreKt;->b:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -119,7 +113,6 @@
 .method public static final synthetic g()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/sync/SemaphoreKt;->a:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -128,7 +121,6 @@
 .method public static final synthetic h()I
     .locals 1
 
-    .line 1
     sget v0, Lcotlinx/coroutines/sync/SemaphoreKt;->c:I
 
     return v0
@@ -199,7 +191,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->label:I
 
     const/4 v3, 0x1
@@ -222,7 +213,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -232,11 +222,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p0, v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->L$0:Ljava/lang/Object;
 
     iput-object p1, v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->L$1:Ljava/lang/Object;
@@ -251,7 +239,6 @@
 
     return-object v1
 
-    .line 5
     :cond_3
     :goto_1
     :try_start_0
@@ -263,7 +250,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-interface {p0}, Lcotlinx/coroutines/sync/e;->release()V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -273,10 +259,8 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-interface {p0}, Lcotlinx/coroutines/sync/e;->release()V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -303,7 +287,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
     invoke-interface {p0, p2}, Lcotlinx/coroutines/sync/e;->c(Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -316,7 +299,6 @@
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 2
     :try_start_0
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
@@ -326,7 +308,6 @@
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     invoke-interface {p0}, Lcotlinx/coroutines/sync/e;->release()V
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -336,10 +317,8 @@
     :catchall_0
     move-exception p1
 
-    .line 4
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-interface {p0}, Lcotlinx/coroutines/sync/e;->release()V
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->c(I)V

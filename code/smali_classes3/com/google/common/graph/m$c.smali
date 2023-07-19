@@ -35,7 +35,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/common/graph/m;-><init>(Ljava/lang/Object;Ljava/lang/Object;Lcom/google/common/graph/m$a;)V
 
     return-void
@@ -44,7 +43,6 @@
 .method synthetic constructor <init>(Ljava/lang/Object;Ljava/lang/Object;Lcom/google/common/graph/m$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/graph/m$c;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
@@ -73,7 +71,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/common/graph/m;
 
@@ -83,11 +80,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/common/graph/m;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/graph/m$c;->c()Z
 
     move-result v1
@@ -100,7 +95,6 @@
 
     return v2
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lcom/google/common/graph/m;->h()Ljava/lang/Object;
 
@@ -116,7 +110,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/common/graph/m;->i()Ljava/lang/Object;
 
     move-result-object v0
@@ -131,7 +124,6 @@
 
     return p1
 
-    .line 6
     :cond_3
     invoke-virtual {p0}, Lcom/google/common/graph/m;->h()Ljava/lang/Object;
 
@@ -173,7 +165,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/m;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -198,7 +189,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/graph/m;->e()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -214,7 +204,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Cannot call source()/target() on a EndpointPair from an undirected graph. Consider calling adjacentNode(node) if you already have a node, or nodeU()/nodeV() if you don\'t."
@@ -232,7 +221,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Cannot call source()/target() on a EndpointPair from an undirected graph. Consider calling adjacentNode(node) if you already have a node, or nodeU()/nodeV() if you don\'t."
@@ -245,7 +233,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

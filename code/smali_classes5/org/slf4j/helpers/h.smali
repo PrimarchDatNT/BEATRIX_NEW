@@ -23,10 +23,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
@@ -41,7 +39,6 @@
 .method public a(Ljava/lang/String;)Lorg/slf4j/c;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/slf4j/helpers/h;->a:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -52,12 +49,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lorg/slf4j/helpers/g;
 
     invoke-direct {v0, p1}, Lorg/slf4j/helpers/g;-><init>(Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lorg/slf4j/helpers/h;->a:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v1, p1, v0}, Ljava/util/concurrent/ConcurrentMap;->putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -77,7 +72,6 @@
 .method public b()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/slf4j/helpers/h;->a:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0}, Ljava/util/concurrent/ConcurrentMap;->clear()V
@@ -96,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p0, Lorg/slf4j/helpers/h;->a:Ljava/util/concurrent/ConcurrentMap;
@@ -121,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p0, Lorg/slf4j/helpers/h;->a:Ljava/util/concurrent/ConcurrentMap;

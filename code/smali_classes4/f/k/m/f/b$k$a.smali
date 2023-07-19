@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/k/m/f/b$k;Lcom/android/billingclient/api/Purchase;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/m/f/b$k$a;->b:Lf/k/m/f/b$k;
 
     iput-object p2, p0, Lf/k/m/f/b$k$a;->a:Lcom/android/billingclient/api/Purchase;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
 
     move-result v1
@@ -55,10 +53,8 @@
 
     const-string p1, "acknowledge over"
 
-    .line 2
     invoke-static {p1}, Lf/k/m/j/e;->a(Ljava/lang/String;)V
 
-    .line 3
     iget-object p1, p0, Lf/k/m/f/b$k$a;->b:Lf/k/m/f/b$k;
 
     iget-object p1, p1, Lf/k/m/f/b$k;->b:Lf/k/m/f/b;
@@ -69,7 +65,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -97,7 +92,6 @@
 
     invoke-static {v1}, Lf/k/m/j/e;->c(Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lf/k/m/f/b$k$a;->b:Lf/k/m/f/b$k;
 
     iget-object v1, v1, Lf/k/m/f/b$k;->b:Lf/k/m/f/b;
@@ -112,7 +106,6 @@
 
     invoke-static {v1, v2, v3, p1}, Lf/k/m/f/b;->d(Lf/k/m/f/b;Lcom/android/billingclient/api/Purchase;ILjava/lang/String;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

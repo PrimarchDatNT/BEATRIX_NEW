@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a$a$a;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a$a;->h:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a;
@@ -57,7 +56,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->U()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a$a$a;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a$a;->h:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a;
@@ -72,7 +70,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->T()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a$a$a;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a$a;->h:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a;
@@ -101,7 +98,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

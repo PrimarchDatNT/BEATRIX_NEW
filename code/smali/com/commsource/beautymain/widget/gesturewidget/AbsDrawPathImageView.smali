@@ -24,24 +24,20 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/AbsWindowImageView;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->T1:Landroid/graphics/Path;
 
-    .line 3
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->U1:Landroid/graphics/Path;
 
-    .line 4
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
@@ -54,24 +50,20 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/AbsWindowImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 6
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->T1:Landroid/graphics/Path;
 
-    .line 7
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->U1:Landroid/graphics/Path;
 
-    .line 8
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
@@ -84,24 +76,20 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 9
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/beautymain/widget/gesturewidget/AbsWindowImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 10
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->T1:Landroid/graphics/Path;
 
-    .line 11
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->U1:Landroid/graphics/Path;
 
-    .line 12
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
@@ -117,24 +105,20 @@
         value = 0x15
     .end annotation
 
-    .line 13
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/beautymain/widget/gesturewidget/AbsWindowImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
-    .line 14
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->T1:Landroid/graphics/Path;
 
-    .line 15
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->U1:Landroid/graphics/Path;
 
-    .line 16
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
@@ -153,7 +137,6 @@
 
     move v4, p2
 
-    .line 1
     iget-object v0, v7, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->T1:Landroid/graphics/Path;
 
     add-float v1, v3, p3
@@ -186,18 +169,14 @@
 
     aput p4, v0, v6
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getImageInvertMatrix()Landroid/graphics/Matrix;
 
     move-result-object v8
 
-    .line 3
     invoke-virtual {v8, v1}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 4
     invoke-virtual {v8, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 5
     iget-object v8, v7, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->U1:Landroid/graphics/Path;
 
     aget v9, v1, v5
@@ -222,7 +201,6 @@
 
     invoke-virtual {v8, v9, v10, v11, v1}, Landroid/graphics/Path;->quadTo(FFFF)V
 
-    .line 6
     iget-object v1, v7, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->T1:Landroid/graphics/Path;
 
     iget-object v2, v7, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->U1:Landroid/graphics/Path;
@@ -241,22 +219,18 @@
 .method private X(FF)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->T1:Landroid/graphics/Path;
 
     invoke-virtual {v0}, Landroid/graphics/Path;->reset()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->U1:Landroid/graphics/Path;
 
     invoke-virtual {v0}, Landroid/graphics/Path;->reset()V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->T1:Landroid/graphics/Path;
 
     invoke-virtual {v0, p1, p2}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getImageInvertMatrix()Landroid/graphics/Matrix;
 
     move-result-object v0
@@ -273,10 +247,8 @@
 
     aput p2, v1, p1
 
-    .line 5
     invoke-virtual {v0, v1}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->U1:Landroid/graphics/Path;
 
     aget v0, v1, v2
@@ -335,7 +307,6 @@
 .method protected getBitmapPath()Landroid/graphics/Path;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->U1:Landroid/graphics/Path;
 
     return-object v0
@@ -344,7 +315,6 @@
 .method protected getViewPath()Landroid/graphics/Path;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->T1:Landroid/graphics/Path;
 
     return-object v0
@@ -353,12 +323,10 @@
 .method public onMajorFingerDown(Landroid/view/MotionEvent;)Z
     .locals 4
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/AbsWindowImageView;->onMajorFingerDown(Landroid/view/MotionEvent;)Z
 
     move-result p1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getMajorPoint()Landroid/graphics/PointF;
 
     move-result-object v0
@@ -373,7 +341,6 @@
 
     invoke-direct {p0, v0, v1}, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->X(FF)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->T1:Landroid/graphics/Path;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->U1:Landroid/graphics/Path;
@@ -398,12 +365,10 @@
 .method public onMajorFingerUp(Landroid/view/MotionEvent;)Z
     .locals 4
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/AbsWindowImageView;->onMajorFingerUp(Landroid/view/MotionEvent;)Z
 
     move-result p1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->V1:Landroid/graphics/PointF;
 
     iget v1, v0, Landroid/graphics/PointF;->x:F
@@ -424,7 +389,6 @@
 
     invoke-direct {p0, v1, v0, v2, v3}, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->T(FFFF)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->T1:Landroid/graphics/Path;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->U1:Landroid/graphics/Path;
@@ -449,12 +413,10 @@
 .method public onMajorScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Lcom/commsource/beautymain/widget/gesturewidget/AbsWindowImageView;->onMajorScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result p1
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->V1:Landroid/graphics/PointF;
 
     iget p3, p2, Landroid/graphics/PointF;->x:F
@@ -481,10 +443,8 @@
 .method protected u(FFFF)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->u(FFFF)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/AbsDrawPathImageView;->V1:Landroid/graphics/PointF;
 
     invoke-virtual {p3, p1, p2}, Landroid/graphics/PointF;->set(FF)V

@@ -43,7 +43,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser;->g()Z
 
     move-result v0
@@ -56,7 +55,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -70,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$c;->a()I
 
     move-result v0
@@ -95,7 +92,6 @@
 
     if-eq v0, v2, :cond_0
 
-    .line 2
     sget-object p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;->NONE_WEBP:Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
     return-object p0
@@ -103,10 +99,8 @@
     :cond_0
     const-wide/16 v4, 0x4
 
-    .line 3
     invoke-interface {p0, v4, v5}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$c;->skip(J)J
 
-    .line 4
     invoke-interface {p0}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$c;->a()I
 
     move-result v0
@@ -127,12 +121,10 @@
 
     if-eq v0, v2, :cond_1
 
-    .line 5
     sget-object p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;->NONE_WEBP:Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
     return-object p0
 
-    .line 6
     :cond_1
     invoke-interface {p0}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$c;->a()I
 
@@ -154,7 +146,6 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 7
     sget-object p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;->WEBP_SIMPLE:Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
     return-object p0
@@ -164,10 +155,8 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 8
     invoke-interface {p0, v4, v5}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$c;->skip(J)J
 
-    .line 9
     invoke-interface {p0}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$c;->b()I
 
     move-result p0
@@ -191,10 +180,8 @@
 
     if-ne v0, v1, :cond_7
 
-    .line 10
     invoke-interface {p0, v4, v5}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$c;->skip(J)J
 
-    .line 11
     invoke-interface {p0}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$c;->b()I
 
     move-result p0
@@ -203,7 +190,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 12
     sget-object p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;->WEBP_EXTENDED_ANIMATED:Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
     return-object p0
@@ -213,18 +199,15 @@
 
     if-eqz p0, :cond_6
 
-    .line 13
     sget-object p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;->WEBP_EXTENDED_WITH_ALPHA:Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
     return-object p0
 
-    .line 14
     :cond_6
     sget-object p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;->WEBP_EXTENDED:Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
     return-object p0
 
-    .line 15
     :cond_7
     sget-object p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;->NONE_WEBP:Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
@@ -241,12 +224,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;->NONE_WEBP:Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Ljava/io/InputStream;->markSupported()Z
 
@@ -254,7 +235,6 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;
 
     invoke-direct {v0, p0, p1}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;-><init>(Ljava/io/InputStream;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)V
@@ -264,10 +244,8 @@
     :cond_1
     const/16 p1, 0x15
 
-    .line 4
     invoke-virtual {p0, p1}, Ljava/io/InputStream;->mark(I)V
 
-    .line 5
     :try_start_0
     new-instance p1, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$d;
 
@@ -285,7 +263,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-virtual {p0}, Ljava/io/InputStream;->reset()V
 
     return-object p1
@@ -308,12 +285,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;->NONE_WEBP:Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$b;
 
@@ -340,7 +315,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -360,7 +334,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;-><init>([BII)V
@@ -375,7 +348,6 @@
 .method public static f(Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;)Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;->WEBP_EXTENDED_ANIMATED:Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
     if-ne p0, v0, :cond_0
@@ -394,7 +366,6 @@
 .method public static g()Z
     .locals 5
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x11
@@ -412,25 +383,20 @@
 
     const-string v0, "UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="
 
-    .line 2
     invoke-static {v0, v2}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Landroid/graphics/BitmapFactory$Options;
 
     invoke-direct {v1}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
-    .line 4
     iput-boolean v3, v1, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
-    .line 5
     array-length v4, v0
 
     invoke-static {v0, v2, v4, v1}, Landroid/graphics/BitmapFactory;->decodeByteArray([BIILandroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
-    .line 6
     iget v0, v1, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
     if-ne v0, v3, :cond_1
@@ -449,7 +415,6 @@
 .method public static h(Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;)Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;->NONE_WEBP:Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
     if-eq p0, v0, :cond_0
@@ -472,7 +437,6 @@
 .method public static i(Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;)Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;->WEBP_SIMPLE:Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
     if-eq p0, v0, :cond_1

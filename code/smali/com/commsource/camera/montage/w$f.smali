@@ -30,10 +30,8 @@
 .method constructor <init>(Lcom/commsource/camera/montage/w;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/w$f;->h:Lcom/commsource/camera/montage/w;
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/commsource/camera/ardata/j;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -50,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/camera/montage/w$f;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -69,7 +66,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/montage/v;->U()Ljava/lang/String;
 
     move-result-object v0
@@ -86,7 +82,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/camera/montage/w$f;->h:Lcom/commsource/camera/montage/w;
 
     invoke-static {p2}, Lcom/commsource/camera/montage/w;->H(Lcom/commsource/camera/montage/w;)Lcom/meitu/template/bean/ArMaterial;
@@ -95,7 +90,6 @@
 
     invoke-virtual {p2, v0}, Lcom/commsource/camera/montage/w;->L(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -112,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/camera/montage/MontageMaterialJsonBean;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/montage/w$f;->o(Landroid/content/Context;Lcom/commsource/camera/montage/MontageMaterialJsonBean;)V
@@ -135,14 +128,12 @@
 
     if-eqz p2, :cond_a
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/camera/montage/MontageMaterialJsonBean;->getMontageMaterialData()Ljava/util/List;
 
     move-result-object v0
 
     if-eqz v0, :cond_a
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/camera/montage/MontageMaterialJsonBean;->getMontageMaterialData()Ljava/util/List;
 
     move-result-object v0
@@ -153,12 +144,10 @@
 
     if-lez v0, :cond_a
 
-    .line 3
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/montage/w$f;->h:Lcom/commsource/camera/montage/w;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/w;->A(Lcom/commsource/camera/montage/w;)Lcom/commsource/camera/montage/h0;
@@ -169,12 +158,10 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/camera/montage/MontageMaterialJsonBean;->getMontageMaterialData()Ljava/util/List;
 
     move-result-object v2
 
-    .line 6
     invoke-static {}, Lcom/commsource/camera/montage/v;->T()Ljava/lang/String;
 
     move-result-object v3
@@ -185,14 +172,12 @@
 
     if-eqz v3, :cond_0
 
-    .line 7
     invoke-virtual {p2}, Lcom/commsource/camera/montage/MontageMaterialJsonBean;->getUpdate()Ljava/lang/String;
 
     move-result-object p2
 
     invoke-static {p2}, Lcom/commsource/camera/montage/v;->o0(Ljava/lang/String;)V
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/camera/montage/w$f;->h:Lcom/commsource/camera/montage/w;
 
     invoke-static {p2}, Lcom/commsource/camera/montage/w;->A(Lcom/commsource/camera/montage/w;)Lcom/commsource/camera/montage/h0;
@@ -203,7 +188,6 @@
 
     goto/16 :goto_4
 
-    .line 9
     :cond_0
     invoke-static {}, Lcom/commsource/camera/montage/v;->T()Ljava/lang/String;
 
@@ -215,14 +199,12 @@
 
     if-nez v3, :cond_9
 
-    .line 10
     invoke-virtual {p2}, Lcom/commsource/camera/montage/MontageMaterialJsonBean;->getUpdate()Ljava/lang/String;
 
     move-result-object p2
 
     invoke-static {p2}, Lcom/commsource/camera/montage/v;->o0(Ljava/lang/String;)V
 
-    .line 11
     iget-object p2, p0, Lcom/commsource/camera/montage/w$f;->h:Lcom/commsource/camera/montage/w;
 
     invoke-static {p2}, Lcom/commsource/camera/montage/w;->A(Lcom/commsource/camera/montage/w;)Lcom/commsource/camera/montage/h0;
@@ -233,7 +215,6 @@
 
     move-result-object p2
 
-    .line 12
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -252,7 +233,6 @@
 
     check-cast v3, Lcom/commsource/camera/montage/a0;
 
-    .line 13
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -277,7 +257,6 @@
 
     check-cast v7, Lcom/commsource/camera/montage/MontageMaterialJsonBean$MontageMaterialData;
 
-    .line 14
     invoke-virtual {v7}, Lcom/commsource/camera/montage/MontageMaterialJsonBean$MontageMaterialData;->getMaterialId()Ljava/lang/String;
 
     move-result-object v9
@@ -288,7 +267,6 @@
 
     if-nez v9, :cond_5
 
-    .line 15
     invoke-virtual {v7}, Lcom/commsource/camera/montage/MontageMaterialJsonBean$MontageMaterialData;->getMaterialId()Ljava/lang/String;
 
     move-result-object v8
@@ -301,7 +279,6 @@
 
     goto :goto_1
 
-    .line 16
     :cond_3
     invoke-virtual {v7}, Lcom/commsource/camera/montage/MontageMaterialJsonBean$MontageMaterialData;->getGender()I
 
@@ -311,17 +288,14 @@
 
     if-ne v8, v9, :cond_4
 
-    .line 17
     invoke-static {v5, v5}, Lcom/commsource/camera/montage/v;->n0(IZ)V
 
     const/4 v8, 0x2
 
-    .line 18
     invoke-static {v8, v5}, Lcom/commsource/camera/montage/v;->n0(IZ)V
 
     goto :goto_2
 
-    .line 19
     :cond_4
     invoke-virtual {v7}, Lcom/commsource/camera/montage/MontageMaterialJsonBean$MontageMaterialData;->getGender()I
 
@@ -329,7 +303,6 @@
 
     invoke-static {v8, v5}, Lcom/commsource/camera/montage/v;->n0(IZ)V
 
-    .line 20
     :goto_2
     invoke-virtual {v7}, Lcom/commsource/camera/montage/MontageMaterialJsonBean$MontageMaterialData;->getMaterialId()Ljava/lang/String;
 
@@ -337,14 +310,12 @@
 
     invoke-virtual {v0, v8}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 21
     invoke-virtual {v7}, Lcom/commsource/camera/montage/MontageMaterialJsonBean$MontageMaterialData;->getGender()I
 
     move-result v8
 
     invoke-static {v8, v5}, Lcom/commsource/camera/montage/v;->n0(IZ)V
 
-    .line 22
     iget-object v8, p0, Lcom/commsource/camera/montage/w$f;->h:Lcom/commsource/camera/montage/w;
 
     invoke-static {v8}, Lcom/commsource/camera/montage/w;->A(Lcom/commsource/camera/montage/w;)Lcom/commsource/camera/montage/h0;
@@ -353,7 +324,6 @@
 
     invoke-virtual {v8, v7}, Lcom/commsource/camera/montage/h0;->p(Lcom/commsource/camera/montage/MontageMaterialJsonBean$MontageMaterialData;)V
 
-    .line 23
     iget-object v8, p0, Lcom/commsource/camera/montage/w$f;->h:Lcom/commsource/camera/montage/w;
 
     invoke-static {v8}, Lcom/commsource/camera/montage/w;->A(Lcom/commsource/camera/montage/w;)Lcom/commsource/camera/montage/h0;
@@ -364,17 +334,14 @@
 
     move-result-object v9
 
-    .line 24
     invoke-virtual {v7}, Lcom/commsource/camera/montage/MontageMaterialJsonBean$MontageMaterialData;->getGender()I
 
     move-result v7
 
-    .line 25
     invoke-virtual {v8, v9, v5, v7}, Lcom/commsource/camera/montage/h0;->r(Ljava/lang/String;II)V
 
     goto :goto_1
 
-    .line 26
     :cond_5
     invoke-virtual {v3}, Lcom/commsource/camera/montage/a0;->o()Ljava/lang/String;
 
@@ -390,7 +357,6 @@
 
     if-eqz v9, :cond_2
 
-    .line 27
     invoke-virtual {v3}, Lcom/commsource/camera/montage/a0;->f()Ljava/lang/String;
 
     move-result-object v6
@@ -405,19 +371,16 @@
 
     if-nez v6, :cond_6
 
-    .line 28
     invoke-virtual {v3}, Lcom/commsource/camera/montage/a0;->H()Z
 
     move-result v6
 
     if-eqz v6, :cond_7
 
-    .line 29
     invoke-virtual {v3}, Lcom/commsource/camera/montage/a0;->a()V
 
     goto :goto_3
 
-    .line 30
     :cond_6
     invoke-virtual {v3}, Lcom/commsource/camera/montage/a0;->H()Z
 
@@ -425,13 +388,10 @@
 
     if-eqz v6, :cond_7
 
-    .line 31
     invoke-virtual {v7, v5}, Lcom/commsource/camera/montage/MontageMaterialJsonBean$MontageMaterialData;->setIsAvailable(I)V
 
-    .line 32
     invoke-virtual {v7, v5}, Lcom/commsource/camera/montage/MontageMaterialJsonBean$MontageMaterialData;->setStatus(I)V
 
-    .line 33
     :cond_7
     :goto_3
     iget-object v6, p0, Lcom/commsource/camera/montage/w$f;->h:Lcom/commsource/camera/montage/w;
@@ -449,20 +409,16 @@
     :cond_8
     if-eqz v6, :cond_1
 
-    .line 34
     invoke-virtual {v3}, Lcom/commsource/camera/montage/a0;->H()Z
 
     move-result v4
 
     if-nez v4, :cond_1
 
-    .line 35
     invoke-virtual {v3, v8}, Lcom/commsource/camera/montage/a0;->T(I)V
 
-    .line 36
     invoke-virtual {v3, v8}, Lcom/commsource/camera/montage/a0;->h0(I)V
 
-    .line 37
     iget-object v4, p0, Lcom/commsource/camera/montage/w$f;->h:Lcom/commsource/camera/montage/w;
 
     invoke-static {v4}, Lcom/commsource/camera/montage/w;->A(Lcom/commsource/camera/montage/w;)Lcom/commsource/camera/montage/h0;
@@ -473,14 +429,12 @@
 
     goto/16 :goto_0
 
-    .line 38
     :cond_9
     :goto_4
     iget-object p2, p0, Lcom/commsource/camera/montage/w$f;->h:Lcom/commsource/camera/montage/w;
 
     invoke-static {p2}, Lcom/commsource/camera/montage/w;->J(Lcom/commsource/camera/montage/w;)V
 
-    .line 39
     :cond_a
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

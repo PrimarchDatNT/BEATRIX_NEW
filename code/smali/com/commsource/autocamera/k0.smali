@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/d/a;-><init>()V
 
     return-void
@@ -34,24 +33,20 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    .line 3
     const-class v2, Lcom/commsource/beautyplus/web/WebActivity;
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
-    .line 4
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v0
@@ -93,7 +88,6 @@
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object v3
@@ -111,16 +105,12 @@
     :goto_0
     const-string/jumbo v2, "url"
 
-    .line 6
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 7
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->startActivity(Landroid/content/Intent;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/autocamera/k0;->dismiss()V
 
-    .line 9
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -134,7 +124,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/autocamera/k0;->dismiss()V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -149,7 +138,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/autocamera/k0;->dismiss()V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -164,7 +152,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -179,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/m6;
@@ -192,7 +178,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/m6;
@@ -205,7 +190,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/m6;
@@ -218,7 +202,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/m6;
@@ -229,7 +212,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -242,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_shortcut_error:I
@@ -281,10 +262,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/k0;->X:Landroid/content/DialogInterface$OnDismissListener;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -297,22 +276,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/k0;->X:Landroid/content/DialogInterface$OnDismissListener;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->getDialog()Landroid/app/Dialog;
 
     move-result-object v2
 
     invoke-interface {v1, v2}, Landroid/content/DialogInterface$OnDismissListener;->onDismiss(Landroid/content/DialogInterface;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

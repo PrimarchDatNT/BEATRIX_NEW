@@ -84,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -101,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/album/BucketViewModel$bucketDataEvent$2;->invoke()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1

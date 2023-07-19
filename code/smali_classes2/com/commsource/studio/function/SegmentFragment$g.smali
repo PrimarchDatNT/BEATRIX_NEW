@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$g;->a:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/SegmentFragment;->V1()Lcom/commsource/widget/dialog/h0;
@@ -65,7 +64,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$g;->a:Lcom/commsource/studio/function/SegmentFragment;
 
@@ -81,7 +79,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -99,7 +96,6 @@
     :goto_0
     sget p1, Lcom/res/provider/ResSTRING;->ai_editor_need_network:I
 
-    .line 4
     :goto_1
     iget-object v3, p0, Lcom/commsource/studio/function/SegmentFragment$g;->a:Lcom/commsource/studio/function/SegmentFragment;
 
@@ -107,34 +103,28 @@
 
     move-result-object v4
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/SegmentFragment$g;->a:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-virtual {p1, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 6
     new-instance v6, Lcom/commsource/studio/function/SegmentFragment$g$a;
 
     invoke-direct {v6, p0}, Lcom/commsource/studio/function/SegmentFragment$g$a;-><init>(Lcom/commsource/studio/function/SegmentFragment$g;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/SegmentFragment$g;->a:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-virtual {p1, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v7
 
-    .line 8
     sget-object v8, Lcom/commsource/studio/function/SegmentFragment$g$b;->a:Lcom/commsource/studio/function/SegmentFragment$g$b;
 
     const/4 v9, 0x0
 
-    .line 9
     invoke-static/range {v4 .. v9}, Lcom/commsource/widget/dialog/s0/t;->m0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;Lcom/commsource/widget/dialog/s0/w;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -147,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/SegmentFragment$g;->a(Ljava/lang/Integer;)V

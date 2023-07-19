@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/start/StartUpAdvertActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/start/StartUpAdvertActivity$a;->a:Lcom/commsource/beautyplus/start/StartUpAdvertActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -62,7 +60,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->s(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartUpAdvertActivity$a;->a:Lcom/commsource/beautyplus/start/StartUpAdvertActivity;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -81,7 +78,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/billing/activity/c;->a(Landroid/app/Activity;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/start/StartUpAdvertActivity$a;->a(Ljava/lang/String;)V

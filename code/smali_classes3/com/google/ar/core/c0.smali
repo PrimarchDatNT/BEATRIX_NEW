@@ -20,7 +20,6 @@
 .method constructor <init>(Lcom/google/ar/core/InstallActivity;III)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ar/core/c0;->d:Lcom/google/ar/core/InstallActivity;
 
     iput p2, p0, Lcom/google/ar/core/c0;->a:I
@@ -39,7 +38,6 @@
 .method public final onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedFraction()F
 
     move-result v0
@@ -48,12 +46,10 @@
 
     sub-float/2addr v1, v0
 
-    .line 2
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedFraction()F
 
     move-result p1
 
-    .line 3
     iget v0, p0, Lcom/google/ar/core/c0;->a:I
 
     int-to-float v0, v0
@@ -70,7 +66,6 @@
 
     float-to-int v0, v0
 
-    .line 4
     iget v3, p0, Lcom/google/ar/core/c0;->c:I
 
     int-to-float v3, v3
@@ -85,7 +80,6 @@
 
     float-to-int p1, v3
 
-    .line 5
     iget-object v1, p0, Lcom/google/ar/core/c0;->d:Lcom/google/ar/core/InstallActivity;
 
     invoke-virtual {v1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
@@ -94,7 +88,6 @@
 
     invoke-virtual {v1, v0, p1}, Landroid/view/Window;->setLayout(II)V
 
-    .line 6
     iget-object p1, p0, Lcom/google/ar/core/c0;->d:Lcom/google/ar/core/InstallActivity;
 
     invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;

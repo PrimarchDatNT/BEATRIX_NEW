@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/giphy/sdk/core/models/json/MainAdapterFactory;Lcom/google/gson/TypeAdapter;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/models/json/MainAdapterFactory$1;->this$0:Lcom/giphy/sdk/core/models/json/MainAdapterFactory;
 
     iput-object p2, p0, Lcom/giphy/sdk/core/models/json/MainAdapterFactory$1;->val$delegateAdapter:Lcom/google/gson/TypeAdapter;
@@ -59,19 +58,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/json/MainAdapterFactory$1;->val$delegateAdapter:Lcom/google/gson/TypeAdapter;
 
     invoke-virtual {v0, p1}, Lcom/google/gson/TypeAdapter;->read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 2
     instance-of v0, p1, Lcom/giphy/sdk/core/models/Media;
 
     if-eqz v0, :cond_0
 
-    .line 3
     move-object v0, p1
 
     check-cast v0, Lcom/giphy/sdk/core/models/Media;
@@ -98,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/json/MainAdapterFactory$1;->val$delegateAdapter:Lcom/google/gson/TypeAdapter;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/gson/TypeAdapter;->write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V

@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$f;->a:Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->B(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -116,7 +115,6 @@
     :goto_1
     if-eqz p1, :cond_2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$f;->a:Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->C(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)Lcom/commsource/camera/xcamera/cover/tips/a;
@@ -147,7 +145,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Lcom/commsource/camera/xcamera/cover/tips/a;->Q(Ljava/lang/String;J)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$f;->a:Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->B(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -166,7 +163,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->z(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;ILcom/commsource/repository/child/makeup/h;ZILjava/lang/Object;)V
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -180,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$f;->a(Lcom/meitu/template/bean/Filter;)V

@@ -32,14 +32,12 @@
 .method constructor <init>(Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$b;->f:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     const/high16 p1, 0x40800000    # 4.0f
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
@@ -48,7 +46,6 @@
 
     const/high16 p1, 0x41000000    # 8.0f
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
@@ -57,14 +54,12 @@
 
     const/high16 p1, 0x42700000    # 60.0f
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$b;->c:I
 
-    .line 5
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
@@ -73,7 +68,6 @@
 
     const/4 v0, -0x1
 
-    .line 6
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V
 
     return-void
@@ -88,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$b;->d:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -115,19 +108,16 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$b;->e:Landroid/graphics/RectF;
 
     if-nez p3, :cond_0
 
-    .line 2
     new-instance p3, Landroid/graphics/RectF;
 
     invoke-direct {p3}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$b;->e:Landroid/graphics/RectF;
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$b;->f:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
 
     invoke-virtual {v0}, Landroid/view/ViewGroup;->getWidth()I
@@ -146,7 +136,6 @@
 
     iput v0, p3, Landroid/graphics/RectF;->left:F
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$b;->e:Landroid/graphics/RectF;
 
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$b;->f:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
@@ -165,7 +154,6 @@
 
     iput v0, p3, Landroid/graphics/RectF;->right:F
 
-    .line 5
     iget-object p3, p0, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$b;->e:Landroid/graphics/RectF;
 
     iget v0, p0, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$b;->a:I
@@ -174,7 +162,6 @@
 
     iput v0, p3, Landroid/graphics/RectF;->top:F
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$b;->f:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
 
     invoke-virtual {v0}, Landroid/view/ViewGroup;->getHeight()I
@@ -189,7 +176,6 @@
 
     iput v0, p3, Landroid/graphics/RectF;->bottom:F
 
-    .line 7
     :cond_0
     iget-object p3, p0, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$b;->e:Landroid/graphics/RectF;
 
@@ -203,7 +189,6 @@
 
     invoke-virtual {p1, p3, v1, v0, v2}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 8
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

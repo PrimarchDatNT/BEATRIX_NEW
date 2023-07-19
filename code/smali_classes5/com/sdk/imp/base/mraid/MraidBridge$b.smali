@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/MraidBridge;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/MraidBridge$b;->a:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/MraidBridge$b;->a:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     const/4 v1, 0x0
@@ -51,7 +49,6 @@
 .method public b()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/MraidBridge$b;->a:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/MraidBridge;->b(Lcom/sdk/imp/base/mraid/MraidBridge;)Z
@@ -64,7 +61,6 @@
 .method public c()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/MraidBridge$b;->a:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     const/4 v1, 0x1

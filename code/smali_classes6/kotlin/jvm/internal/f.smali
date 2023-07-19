@@ -24,7 +24,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/l0;-><init>()V
 
     iput-object p1, p0, Lcotlin/jvm/internal/f;->b:[I
@@ -37,7 +36,6 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlin/jvm/internal/f;->a:I
 
     iget-object v1, p0, Lcotlin/jvm/internal/f;->b:[I
@@ -60,7 +58,6 @@
 .method public nextInt()I
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcotlin/jvm/internal/f;->b:[I
 

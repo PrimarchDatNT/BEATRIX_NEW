@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/network/MoPubNetworkError$Companion;-><init>()V
 
     return-void
@@ -45,7 +43,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     instance-of v0, p1, Lcom/mopub/volley/NoConnectionError;
 
     const/4 v1, 0x0
@@ -56,7 +53,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     instance-of v0, p1, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;
 
@@ -75,13 +71,11 @@
     :cond_1
     move-object v0, v1
 
-    .line 3
     :goto_0
     instance-of v2, p1, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;
 
     if-eqz v2, :cond_2
 
-    .line 4
     move-object v3, p1
 
     check-cast v3, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;
@@ -95,12 +89,10 @@
     :cond_2
     if-eqz p1, :cond_3
 
-    .line 5
     iget-object v3, p1, Lcom/mopub/volley/VolleyError;->networkResponse:Lcom/mopub/volley/NetworkResponse;
 
     if-eqz v3, :cond_3
 
-    .line 6
     new-instance v4, Lcom/mopub/network/MoPubNetworkResponse;
 
     iget v5, v3, Lcom/mopub/volley/NetworkResponse;->statusCode:I
@@ -125,7 +117,6 @@
     :goto_1
     if-eqz v2, :cond_4
 
-    .line 7
     move-object v2, p1
 
     check-cast v2, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;
@@ -139,7 +130,6 @@
     :cond_4
     move-object v2, v1
 
-    .line 8
     :goto_2
     new-instance v4, Lcom/mopub/network/MoPubNetworkError$Builder;
 
@@ -164,22 +154,18 @@
     :cond_6
     invoke-direct {v4, v5, v1}, Lcom/mopub/network/MoPubNetworkError$Builder;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 9
     invoke-virtual {v4, v0}, Lcom/mopub/network/MoPubNetworkError$Builder;->reason(Lcom/mopub/network/MoPubNetworkError$Reason;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {p1, v3}, Lcom/mopub/network/MoPubNetworkError$Builder;->networkResponse(Lcom/mopub/network/MoPubNetworkResponse;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p1, v2}, Lcom/mopub/network/MoPubNetworkError$Builder;->refreshTimeMillis(Ljava/lang/Integer;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkError$Builder;->build()Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object p1

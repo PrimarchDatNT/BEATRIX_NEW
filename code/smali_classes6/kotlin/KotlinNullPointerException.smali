@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/NullPointerException;-><init>()V
 
     return-void
@@ -23,7 +22,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     return-void

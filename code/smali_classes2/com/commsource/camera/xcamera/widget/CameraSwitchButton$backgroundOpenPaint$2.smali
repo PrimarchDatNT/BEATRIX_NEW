@@ -56,14 +56,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x1
 
     invoke-direct {v1, v2}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$backgroundOpenPaint$2;->this$0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->getGradient()Landroid/graphics/LinearGradient;
@@ -72,17 +70,14 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 4
     sget-object v2, Landroid/graphics/Paint$Style;->FILL_AND_STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -95,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$backgroundOpenPaint$2;->invoke()Landroid/graphics/Paint;
 
     move-result-object v1

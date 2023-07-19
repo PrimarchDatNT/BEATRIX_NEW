@@ -69,12 +69,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->N:Ljava/lang/String;
 
     return-void
@@ -87,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->P:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -102,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->Q:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/web/CropPhotoActivity;->V0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -132,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/beautyplus/web/CropPhotoActivity;->W0(IIII)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -147,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->P:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -162,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->Q:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -177,12 +169,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->O:Lcom/commsource/beautyplus/f0/o;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/o;->b:Lcom/commsource/beautymain/widget/EditCropView;
 
     invoke-virtual {v2}, Lcom/commsource/beautymain/widget/EditCropView;->u()Z
@@ -191,10 +181,8 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->J0()V
 
-    .line 4
     new-instance v2, Lcom/commsource/beautyplus/web/CropPhotoActivity$b;
 
     const-string v3, "CropImageTask"
@@ -203,7 +191,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -217,10 +204,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->J0()V
 
-    .line 2
     new-instance v8, Lcom/commsource/beautyplus/web/CropPhotoActivity$f;
 
     const-string v7, "MONTAGE-CROP-BG"
@@ -241,7 +226,6 @@
 
     invoke-static {v8}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -327,7 +311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->N:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -344,7 +327,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->O:Lcom/commsource/beautyplus/f0/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -367,7 +349,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->N:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -386,7 +367,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->O:Lcom/commsource/beautyplus/f0/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -405,12 +385,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->activity_crop_photo:I
 
-    .line 2
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -419,7 +397,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->O:Lcom/commsource/beautyplus/f0/o;
 
-    .line 3
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -432,7 +409,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -451,7 +427,6 @@
     :goto_0
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->N:Ljava/lang/String;
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
@@ -465,7 +440,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 6
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -478,7 +452,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->P:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    .line 7
     :cond_2
     iget-object p1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->P:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
@@ -494,13 +467,11 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     iget-object p1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity;->O:Lcom/commsource/beautyplus/f0/o;
 
     if-eqz p1, :cond_5
 
-    .line 9
     iget-object v1, p1, Lcom/commsource/beautyplus/f0/o;->b:Lcom/commsource/beautymain/widget/EditCropView;
 
     new-instance v2, Lcom/commsource/beautyplus/web/CropPhotoActivity$c;
@@ -509,7 +480,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->post(Ljava/lang/Runnable;)Z
 
-    .line 10
     iget-object v1, p1, Lcom/commsource/beautyplus/f0/o;->d:Landroid/widget/ImageButton;
 
     new-instance v2, Lcom/commsource/beautyplus/web/CropPhotoActivity$d;
@@ -518,7 +488,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 11
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/o;->c:Landroid/widget/ImageButton;
 
     new-instance v1, Lcom/commsource/beautyplus/web/CropPhotoActivity$e;
@@ -529,12 +498,10 @@
 
     goto :goto_2
 
-    .line 12
     :cond_4
     :goto_1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 13
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/grpc/ChannelLogger$ChannelLogLevel;->values()[Lio/grpc/ChannelLogger$ChannelLogLevel;
 
     move-result-object v0

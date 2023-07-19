@@ -53,14 +53,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/composition/CompositionView$a;->b:Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;
 
     iput-object p2, p0, Lcom/commsource/studio/function/composition/CompositionView$a;->c:Landroid/graphics/Bitmap;
 
-    .line 2
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
@@ -81,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$a;->b:Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -98,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$a;->c:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -115,7 +111,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$a;->a:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -130,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/studio/function/composition/CompositionView$a;->a:Landroid/graphics/RectF;
@@ -139,7 +133,6 @@
 
     const/high16 v2, 0x40a00000    # 5.0f
 
-    .line 2
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v3
@@ -154,7 +147,6 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 3
     invoke-virtual {v1, p1, p2}, Landroid/graphics/RectF;->contains(FF)Z
 
     move-result p1

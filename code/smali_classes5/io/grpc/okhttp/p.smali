@@ -13,7 +13,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
 .method public static a(Lio/grpc/okhttp/internal/framed/g;I)I
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/okhttp/internal/framed/g;->c(I)I
 
     move-result p0
@@ -33,7 +31,6 @@
 .method public static b(Lio/grpc/okhttp/internal/framed/g;I)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/okhttp/internal/framed/g;->r(I)Z
 
     move-result p0
@@ -46,7 +43,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0, p2}, Lio/grpc/okhttp/internal/framed/g;->u(III)Lio/grpc/okhttp/internal/framed/g;
 
     return-void

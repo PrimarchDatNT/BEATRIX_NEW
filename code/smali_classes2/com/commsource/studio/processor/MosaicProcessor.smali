@@ -42,22 +42,18 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;-><init>()V
 
     const/4 v0, 0x2
 
     new-array v0, v0, [F
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/studio/processor/MosaicProcessor;->O:[F
 
     const/high16 v0, 0x3f000000    # 0.5f
 
-    .line 3
     iput v0, p0, Lcom/commsource/studio/processor/MosaicProcessor;->P:F
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/k0;
 
     invoke-direct {v0}, Lcom/commsource/studio/k0;-><init>()V
@@ -74,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/processor/MosaicProcessor;->M:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez p0, :cond_0
@@ -96,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/processor/MosaicProcessor;->Q:Lcom/commsource/beautymain/data/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -111,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/processor/MosaicProcessor;->P:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -126,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/processor/MosaicProcessor;->O:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -141,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->M:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -156,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->Q:Lcom/commsource/beautymain/data/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -171,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->P:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -196,7 +185,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {v1, p1}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -211,17 +199,14 @@
 
     check-cast v2, Lcom/commsource/studio/component/UndoRedoComponent$c;
 
-    .line 2
     invoke-virtual {v2, p0}, Lcom/commsource/studio/component/UndoRedoComponent$c;->y(Lcom/commsource/studio/v;)V
 
     const-string v3, "ViewModelProvider(fragme\u2026osaicProcessor)\n        }"
 
-    .line 3
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v2, p0, Lcom/commsource/studio/processor/MosaicProcessor;->N:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
-    .line 4
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {v1, p1}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -234,14 +219,12 @@
 
     check-cast p1, Lcom/commsource/studio/component/d;
 
-    .line 5
     new-instance v1, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;
 
     invoke-direct {v1, p1, p0}, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/component/d;Lcom/commsource/studio/processor/MosaicProcessor;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/component/d;->y(Lcom/commsource/studio/layer/c$a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -262,10 +245,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->Q:Lcom/commsource/beautymain/data/c;
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/beautymain/data/c;->k()I
 
     move-result v1
@@ -283,7 +264,6 @@
 
     const/4 v6, 0x0
 
-    .line 3
     :goto_0
     iget-object v3, p0, Lcom/commsource/studio/processor/MosaicProcessor;->M:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
@@ -328,7 +308,6 @@
 
     invoke-virtual/range {v2 .. v8}, Lcom/commsource/studio/processor/MosaicProcessor;->W(Lcom/meitu/core/magicpen/NativeGLMagicPen;ILjava/lang/String;ZLjava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -352,7 +331,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->R:Lcom/commsource/studio/k0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -369,7 +347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->N:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     if-nez v1, :cond_0
@@ -391,7 +368,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->R:Lcom/commsource/studio/k0;
 
     invoke-virtual {v1}, Lcom/commsource/studio/k0;->p()Ljava/util/List;
@@ -423,7 +399,6 @@
 
     if-eqz v5, :cond_1
 
-    .line 2
     invoke-virtual {v5}, Lcom/commsource/beautymain/data/c;->g()I
 
     move-result v5
@@ -450,7 +425,6 @@
 
     const/4 v3, 0x1
 
-    .line 3
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -480,7 +454,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->R:Lcom/commsource/studio/k0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -523,14 +496,12 @@
 
     invoke-static {p6, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcom/meitu/core/magicpen/parser/PEXXmlParser;
 
     invoke-direct {v0}, Lcom/meitu/core/magicpen/parser/PEXXmlParser;-><init>()V
 
     if-eqz p4, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -550,7 +521,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/io/FileInputStream;
 
@@ -568,7 +538,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_0
@@ -576,7 +545,6 @@
     :catch_1
     move-exception v0
 
-    .line 5
     invoke-virtual {v0}, Lorg/xmlpull/v1/XmlPullParserException;->printStackTrace()V
 
     :goto_0
@@ -585,7 +553,6 @@
     :goto_1
     if-nez v0, :cond_1
 
-    .line 6
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -604,18 +571,15 @@
 
     invoke-static {p3, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     invoke-virtual {v0}, Lcom/meitu/core/magicpen/parser/PEXXmlParser$PEXEntity;->GetFloatBuffer()[F
 
     move-result-object v1
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/studio/processor/MosaicProcessor;->M:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v0, :cond_2
@@ -635,7 +599,6 @@
 
     invoke-virtual/range {v0 .. v5}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->MosaicPenInit([FLjava/lang/String;Ljava/lang/String;IZ)Z
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -648,10 +611,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->P:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -672,7 +633,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->N:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -687,10 +647,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->a()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
@@ -699,7 +657,6 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-direct {v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;-><init>()V
@@ -710,7 +667,6 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -718,7 +674,6 @@
 
     invoke-virtual {v2, v4}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->setMobileLevel(Z)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/processor/MosaicProcessor;->M:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v2, :cond_1
@@ -736,7 +691,6 @@
 
     invoke-virtual {v2, v1, v3, v4}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->backGroundInit(Landroid/graphics/Bitmap;II)Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -749,7 +703,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->M:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v1, :cond_0
@@ -775,10 +728,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->c()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->M:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     const-string v2, "magicPen"
@@ -790,7 +741,6 @@
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->GLRelease()Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->M:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v1, :cond_1
@@ -800,7 +750,6 @@
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->Release()Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -813,7 +762,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -826,7 +774,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->M:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v1, :cond_0
@@ -852,12 +799,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->R:Lcom/commsource/studio/k0;
 
     invoke-virtual {v1}, Lcom/commsource/studio/e0;->m()Ljava/lang/Object;
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/processor/MosaicProcessor$redo$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/processor/MosaicProcessor$redo$1;-><init>(Lcom/commsource/studio/processor/MosaicProcessor;)V
@@ -870,10 +815,8 @@
 
     const/4 v3, 0x3
 
-    .line 3
     invoke-static {p0, v1, v2, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -886,7 +829,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/studio/v$a;->b(Lcom/commsource/studio/v;)Z
 
     move-result v1
@@ -903,12 +845,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/MosaicProcessor;->R:Lcom/commsource/studio/k0;
 
     invoke-virtual {v1}, Lcom/commsource/studio/e0;->o()Ljava/lang/Object;
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/processor/MosaicProcessor$undo$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/processor/MosaicProcessor$undo$1;-><init>(Lcom/commsource/studio/processor/MosaicProcessor;)V
@@ -921,10 +861,8 @@
 
     const/4 v3, 0x3
 
-    .line 3
     invoke-static {p0, v1, v2, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -937,7 +875,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/studio/v$a;->a(Lcom/commsource/studio/v;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -960,19 +897,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->j()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/processor/MosaicProcessor;->M:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
@@ -1013,7 +947,6 @@
 
     invoke-virtual/range {v2 .. v8}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->OnDrawFrame(IIIIII)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

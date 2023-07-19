@@ -48,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/Pair;->first:Ljava/lang/Object;
@@ -187,7 +186,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/Pair;->first:Ljava/lang/Object;
 
     return-object v0
@@ -201,7 +199,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/Pair;->second:Ljava/lang/Object;
 
     return-object v0
@@ -247,7 +244,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

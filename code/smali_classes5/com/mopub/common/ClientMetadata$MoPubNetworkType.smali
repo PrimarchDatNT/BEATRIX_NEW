@@ -50,7 +50,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     const-string v1, "UNKNOWN"
@@ -61,7 +60,6 @@
 
     sput-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->UNKNOWN:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     const-string v3, "ETHERNET"
@@ -72,7 +70,6 @@
 
     sput-object v1, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->ETHERNET:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
-    .line 3
     new-instance v3, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     const-string v5, "WIFI"
@@ -83,7 +80,6 @@
 
     sput-object v3, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->WIFI:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
-    .line 4
     new-instance v5, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     const-string v7, "MOBILE"
@@ -94,7 +90,6 @@
 
     sput-object v5, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->MOBILE:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
-    .line 5
     new-instance v7, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     const-string v9, "GG"
@@ -105,7 +100,6 @@
 
     sput-object v7, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->GG:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
-    .line 6
     new-instance v9, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     const-string v11, "GGG"
@@ -116,7 +110,6 @@
 
     sput-object v9, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->GGG:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
-    .line 7
     new-instance v11, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     const-string v13, "GGGG"
@@ -127,7 +120,6 @@
 
     sput-object v11, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->GGGG:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
-    .line 8
     new-instance v13, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     const-string v15, "GGGGG"
@@ -160,7 +152,6 @@
 
     aput-object v13, v15, v14
 
-    .line 9
     sput-object v15, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->$VALUES:[Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     return-void
@@ -174,10 +165,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->mId:I
 
     return-void
@@ -186,7 +175,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -201,7 +189,6 @@
 .method public static values()[Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->$VALUES:[Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     invoke-virtual {v0}, [Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->clone()Ljava/lang/Object;
@@ -218,7 +205,6 @@
 .method public getId()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->mId:I
 
     return v0
@@ -227,7 +213,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->mId:I
 
     invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;

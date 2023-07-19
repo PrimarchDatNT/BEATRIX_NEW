@@ -80,19 +80,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/k/x/j/d0;->a:Lj/a/c;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/datatransport/k/x/j/d0;->b:Lj/a/c;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/datatransport/k/x/j/d0;->c:Lj/a/c;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/datatransport/k/x/j/d0;->d:Lj/a/c;
 
     return-void
@@ -119,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/k/x/j/d0;
 
     invoke-direct {v0, p0, p1, p2, p3}, Lcom/google/android/datatransport/k/x/j/d0;-><init>(Lj/a/c;Lj/a/c;Lj/a/c;Lj/a/c;)V
@@ -130,7 +124,6 @@
 .method public static c(Lcom/google/android/datatransport/k/y/a;Lcom/google/android/datatransport/k/y/a;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/android/datatransport/k/x/j/c0;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/k/x/j/c0;
 
     check-cast p2, Lcom/google/android/datatransport/k/x/j/d;
@@ -147,7 +140,6 @@
 .method public b()Lcom/google/android/datatransport/k/x/j/c0;
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/k/x/j/c0;
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/x/j/d0;->a:Lj/a/c;
@@ -190,7 +182,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/x/j/d0;->b()Lcom/google/android/datatransport/k/x/j/c0;
 
     move-result-object v0

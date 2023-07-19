@@ -39,7 +39,6 @@
 .method private constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/util/common/l;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -65,7 +63,6 @@
 
     move-result v1
 
-    .line 2
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v3
@@ -74,7 +71,6 @@
 
     invoke-virtual {v3, v2, v4}, Lcom/commsource/util/common/l;->F(Ljava/lang/String;I)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -87,12 +83,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/m0;->n:Lcom/commsource/studio/m0;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/m0;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -105,7 +99,6 @@
 
     sput-object v1, Lcom/commsource/studio/m0;->n:Lcom/commsource/studio/m0;
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/studio/m0;->n:Lcom/commsource/studio/m0;
 
@@ -121,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -146,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -177,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -208,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -243,7 +232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -280,7 +268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -311,7 +298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -336,7 +322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -361,7 +346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -386,7 +370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -395,7 +378,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -408,7 +390,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -417,7 +398,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -430,7 +410,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -439,7 +418,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -452,7 +430,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -461,7 +438,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -474,7 +450,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -483,7 +458,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -500,7 +474,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -523,7 +496,6 @@
 
     invoke-virtual {v1, p0, v2}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -540,7 +512,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -563,7 +534,6 @@
 
     invoke-virtual {v1, p0, v2}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -576,7 +546,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -585,7 +554,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -598,7 +566,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -607,7 +574,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -620,7 +586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -629,7 +594,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

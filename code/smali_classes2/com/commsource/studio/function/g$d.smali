@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/g$d;->c:Lcom/commsource/studio/function/g;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/g$d;->e(Ljava/lang/Integer;)V
@@ -77,10 +75,8 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/g$d;->c:Lcom/commsource/studio/function/g;
 
     invoke-static {v1}, Lcom/commsource/studio/function/g;->z1(Lcom/commsource/studio/function/g;)Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
@@ -95,7 +91,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->Q(I)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/g$d;->c:Lcom/commsource/studio/function/g;
 
@@ -121,7 +116,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

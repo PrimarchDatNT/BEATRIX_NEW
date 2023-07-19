@@ -66,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -85,10 +84,8 @@
 
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v0, v6, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;->$layerInfos:Ljava/util/List;
 
-    .line 3
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -110,7 +107,6 @@
 
     check-cast v1, Lcom/commsource/studio/bean/FocusLayerInfo;
 
-    .line 4
     instance-of v4, v1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     const/4 v5, 0x0
@@ -119,7 +115,6 @@
 
     if-eqz v4, :cond_3
 
-    .line 5
     iget-object v4, v6, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v4}, Lcom/commsource/studio/gesture/GestureLayer;->I0()Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -151,11 +146,9 @@
 
     if-eqz v4, :cond_0
 
-    .line 6
     :cond_2
     invoke-static {v2, v3}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 7
     new-instance v9, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1$a;
 
     const/16 v4, 0xa
@@ -172,21 +165,17 @@
 
     invoke-static {v9}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 8
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_3
     instance-of v4, v1, Lcom/commsource/studio/bean/TextLayerInfo;
 
     if-eqz v4, :cond_4
 
-    .line 10
     invoke-static {v2, v3}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 11
     new-instance v9, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1$b;
 
     const/16 v4, 0xa
@@ -203,12 +192,10 @@
 
     invoke-static {v9}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 12
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :cond_4
     invoke-virtual {v1}, Lcom/commsource/studio/bean/BaseLayerInfo;->getLayerNode()Lcom/commsource/editengine/i;
 
@@ -218,17 +205,14 @@
 
     if-eqz v4, :cond_0
 
-    .line 14
     invoke-virtual {v1}, Lcom/commsource/studio/bean/BaseLayerInfo;->getLayerNode()Lcom/commsource/editengine/i;
 
     move-result-object v4
 
     if-eqz v4, :cond_9
 
-    .line 15
     check-cast v4, Lcom/commsource/editengine/node/b;
 
-    .line 16
     invoke-virtual {v4}, Lcom/commsource/editengine/node/b;->r()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v9
@@ -258,7 +242,6 @@
 
     new-array v4, v4, [F
 
-    .line 17
     iget-object v9, v6, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;->$hitPosition:[F
 
     aget v10, v9, v3
@@ -271,7 +254,6 @@
 
     aput v9, v4, v10
 
-    .line 18
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v9
@@ -282,17 +264,14 @@
 
     invoke-virtual {v9, v4}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 19
     invoke-static {v8}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object v9
 
-    .line 20
     iget v5, v5, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
     invoke-static {v2, v5}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 21
     aget v5, v4, v3
 
     const/4 v11, 0x5
@@ -323,7 +302,6 @@
 
     invoke-static/range {v11 .. v17}, Landroid/opengl/GLES20;->glReadPixels(IIIIIILjava/nio/Buffer;)V
 
-    .line 22
     invoke-virtual {v9}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object v4
@@ -337,7 +315,6 @@
 
     add-int/lit8 v11, v11, 0x3
 
-    .line 23
     aget-byte v11, v4, v11
 
     invoke-static {v11}, Lcom/commsource/util/common/e;->k(B)F
@@ -359,7 +336,6 @@
 
     goto :goto_1
 
-    .line 24
     :cond_8
     invoke-virtual {v9}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
@@ -369,10 +345,8 @@
 
     if-ltz v4, :cond_0
 
-    .line 25
     invoke-static {v2, v3}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 26
     new-instance v9, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1$c;
 
     const/16 v4, 0xa
@@ -389,12 +363,10 @@
 
     invoke-static {v9}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 27
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 28
     :cond_9
     new-instance v0, Lcotlin/TypeCastException;
 
@@ -406,18 +378,15 @@
 
     throw v0
 
-    .line 29
     :cond_a
     invoke-static {v2, v3}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 30
     new-instance v0, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1$d;
 
     invoke-direct {v0, v6}, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1$d;-><init>(Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;)V
 
     invoke-static {v0}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 31
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

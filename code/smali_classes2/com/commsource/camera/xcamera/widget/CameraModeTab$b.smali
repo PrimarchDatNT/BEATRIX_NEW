@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraModeTab$b;->a:Lcom/commsource/camera/xcamera/widget/CameraModeTab;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -49,10 +48,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/f1/l$a;->d(Lcom/commsource/camera/f1/l;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraModeTab$b;->a:Lcom/commsource/camera/xcamera/widget/CameraModeTab;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/widget/CameraModeTab;->i(Lcom/commsource/camera/xcamera/widget/CameraModeTab;)[Ljava/lang/Float;
@@ -73,7 +70,6 @@
 
     aput-object v1, p1, v2
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraModeTab$b;->a:Lcom/commsource/camera/xcamera/widget/CameraModeTab;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/widget/CameraModeTab;->i(Lcom/commsource/camera/xcamera/widget/CameraModeTab;)[Ljava/lang/Float;
@@ -94,7 +90,6 @@
 
     aput-object v1, p1, v2
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraModeTab$b;->a:Lcom/commsource/camera/xcamera/widget/CameraModeTab;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/widget/CameraModeTab;->i(Lcom/commsource/camera/xcamera/widget/CameraModeTab;)[Ljava/lang/Float;
@@ -115,7 +110,6 @@
 
     aput-object v1, p1, v2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -128,10 +122,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/f1/l$a;->e(FF)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/widget/CameraModeTab$b;->a:Lcom/commsource/camera/xcamera/widget/CameraModeTab;
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/widget/CameraModeTab;->getTranslateXValuer()Lcom/commsource/camera/f1/n;
@@ -144,12 +136,10 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/camera/xcamera/widget/CameraModeTab;->setTranslateX(F)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraModeTab$b;->a:Lcom/commsource/camera/xcamera/widget/CameraModeTab;
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

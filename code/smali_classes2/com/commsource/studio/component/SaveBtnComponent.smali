@@ -63,7 +63,6 @@
 
     const/4 v0, 0x0
 
-    .line 27
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/component/SaveBtnComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -86,7 +85,6 @@
 
     const/4 v0, 0x0
 
-    .line 25
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/component/SaveBtnComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -107,10 +105,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/ComponentView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result p1
@@ -129,7 +125,6 @@
 
     const/16 p1, 0x2e
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p1
@@ -138,14 +133,12 @@
 
     const/16 p1, 0xc
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p2
 
     iput p2, p0, Lcom/commsource/studio/component/SaveBtnComponent;->g:F
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p1
@@ -154,7 +147,6 @@
 
     iput p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->p:F
 
-    .line 6
     sget-object p1, Lcom/commsource/util/n2;->a:Lcom/commsource/util/n2;
 
     sget p2, Lcom/res/provider/ResCOLOR;->color_80000000:I
@@ -177,7 +169,6 @@
 
     const/16 p2, 0xf
 
-    .line 7
     invoke-static {p2}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p2
@@ -190,14 +181,12 @@
 
     const/high16 p2, 0x42200000    # 40.0f
 
-    .line 8
     invoke-virtual {p1, p3, p2}, Lcom/commsource/util/n2;->b(FF)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->N:Landroid/graphics/drawable/GradientDrawable;
 
-    .line 9
     new-instance p1, Landroid/text/TextPaint;
 
     invoke-direct {p1}, Landroid/text/TextPaint;-><init>()V
@@ -222,7 +211,6 @@
 
     iput p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->O:F
 
-    .line 10
     new-instance p1, Landroid/text/TextPaint;
 
     invoke-direct {p1}, Landroid/text/TextPaint;-><init>()V
@@ -245,7 +233,6 @@
 
     iput p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->P:F
 
-    .line 11
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -258,7 +245,6 @@
 
     move-result-object p1
 
-    .line 12
     new-instance p2, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 p3, -0x1
@@ -269,12 +255,10 @@
 
     const/4 p3, 0x5
 
-    .line 13
     iput p3, p2, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
     const-string p3, "this"
 
-    .line 14
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -283,14 +267,12 @@
 
     invoke-virtual {p0, p3, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 15
     iget-object p2, p1, Lcom/commsource/beautyplus/f0/k2;->a:Landroid/widget/FrameLayout;
 
     iget-object p3, p0, Lcom/commsource/studio/component/SaveBtnComponent;->L:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-virtual {p2, p3}, Landroid/widget/FrameLayout;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 16
     iget-object p2, p1, Lcom/commsource/beautyplus/f0/k2;->J:Landroid/view/View;
 
     iget-object p3, p0, Lcom/commsource/studio/component/SaveBtnComponent;->M:Landroid/graphics/drawable/GradientDrawable;
@@ -299,12 +281,10 @@
 
     const-string p2, "ComponentSaveBtnBinding.\u2026(normalBtnDrawable)\n    }"
 
-    .line 17
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->R:Lcom/commsource/beautyplus/f0/k2;
 
-    .line 18
     iget p2, p0, Lcom/commsource/studio/component/SaveBtnComponent;->O:F
 
     const/16 p3, 0x24
@@ -327,7 +307,6 @@
 
     iput p2, p0, Lcom/commsource/studio/component/SaveBtnComponent;->J:F
 
-    .line 19
     iget p2, p0, Lcom/commsource/studio/component/SaveBtnComponent;->P:F
 
     const/16 v0, 0x14
@@ -348,7 +327,6 @@
 
     iput p2, p0, Lcom/commsource/studio/component/SaveBtnComponent;->K:F
 
-    .line 20
     iget-object p2, p1, Lcom/commsource/beautyplus/f0/k2;->a:Landroid/widget/FrameLayout;
 
     const-string p3, "viewBinding.flBackground"
@@ -367,7 +345,6 @@
 
     invoke-static {p2, v0, v1}, Lcom/commsource/util/l0;->Z(Landroid/view/View;II)V
 
-    .line 21
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k2;->J:Landroid/view/View;
 
     const-string p2, "viewBinding.vBackground"
@@ -384,14 +361,12 @@
 
     invoke-static {p1, p2, p3}, Lcom/commsource/util/l0;->Z(Landroid/view/View;II)V
 
-    .line 22
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->S:Lcom/commsource/camera/f1/n;
 
-    .line 23
     new-instance p1, Lcom/commsource/studio/component/SaveBtnComponent$b;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/component/SaveBtnComponent$b;-><init>(Lcom/commsource/studio/component/SaveBtnComponent;)V
@@ -417,7 +392,6 @@
 
     const/4 p3, 0x0
 
-    .line 24
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/SaveBtnComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -433,7 +407,6 @@
 
     const/4 p2, 0x0
 
-    .line 26
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/component/SaveBtnComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -447,7 +420,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/component/SaveBtnComponent;->f:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -462,7 +434,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/component/SaveBtnComponent;->d:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -477,7 +448,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/component/SaveBtnComponent;->L:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -492,7 +462,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/component/SaveBtnComponent;->K:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -507,7 +476,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/component/SaveBtnComponent;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -522,7 +490,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/component/SaveBtnComponent;->J:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -537,7 +504,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/component/SaveBtnComponent;->g:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -552,7 +518,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/component/SaveBtnComponent;->R:Lcom/commsource/beautyplus/f0/k2;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -567,7 +532,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->L:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -582,7 +546,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->K:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -597,7 +560,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -612,7 +574,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->J:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -700,7 +661,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->S:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -717,7 +677,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->T:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -748,12 +707,10 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->R:Lcom/commsource/beautyplus/f0/k2;
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
-    .line 2
     const-class p1, Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/ComponentView;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -762,7 +719,6 @@
 
     check-cast p1, Lcom/commsource/studio/ImageStudioViewModel;
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioViewModel;->M0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -773,7 +729,6 @@
 
     invoke-virtual {v1, p2, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -786,7 +741,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -801,7 +755,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -816,7 +769,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->U:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -831,19 +783,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->U:Z
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->R:Lcom/commsource/beautyplus/f0/k2;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k2;->c:Landroid/widget/ImageView;
@@ -852,7 +801,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->R:Lcom/commsource/beautyplus/f0/k2;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k2;->J:Landroid/view/View;
@@ -863,7 +811,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->R:Lcom/commsource/beautyplus/f0/k2;
 
@@ -873,7 +820,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->R:Lcom/commsource/beautyplus/f0/k2;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k2;->J:Landroid/view/View;
@@ -882,7 +828,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -896,7 +841,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->U:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -911,17 +855,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->Q:Z
 
     if-ne v1, p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-boolean p1, p0, Lcom/commsource/studio/component/SaveBtnComponent;->Q:Z
 
@@ -929,7 +870,6 @@
 
     const/4 v5, 0x0
 
-    .line 4
     new-instance v6, Lcom/commsource/studio/component/SaveBtnComponent$transToProMode$1;
 
     invoke-direct {v6, p0}, Lcom/commsource/studio/component/SaveBtnComponent$transToProMode$1;-><init>(Lcom/commsource/studio/component/SaveBtnComponent;)V
@@ -950,7 +890,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/f1/k;->o(Lcotlin/jvm/u/l;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

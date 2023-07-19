@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$b$a;->a:Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$b$a;->a:Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$b;
 
     iget-object v1, v1, Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$b;->c:Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript;
@@ -53,7 +51,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -66,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$b$a;->a:Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$b;
 
     iget-object v1, v1, Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$b;->c:Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript;
@@ -83,7 +79,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -96,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$b$a;->a:Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$b;
 
     iget-object v1, v1, Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$b;->c:Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript;
@@ -129,7 +123,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -58,7 +58,6 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
     const-string v1, "SAFE"
@@ -69,7 +68,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->zzils:Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
     const-string v3, "DANGEROUS"
@@ -80,7 +78,6 @@
 
     sput-object v1, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->zzilt:Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
-    .line 3
     new-instance v3, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
     const-string v5, "UNKNOWN"
@@ -91,7 +88,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->zzilu:Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
-    .line 4
     new-instance v5, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
     const-string v7, "POTENTIALLY_UNWANTED"
@@ -102,7 +98,6 @@
 
     sput-object v5, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->zzilv:Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
-    .line 5
     new-instance v7, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
     const-string v9, "DANGEROUS_HOST"
@@ -127,10 +122,8 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->zzilx:[Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
-    .line 7
     new-instance v0, Lcom/google/android/gms/internal/ads/r42;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/r42;-><init>()V
@@ -148,10 +141,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->value:I
 
     return-void
@@ -160,7 +151,6 @@
 .method public static values()[Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->zzilx:[Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->clone()Ljava/lang/Object;
@@ -197,31 +187,26 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->zzilw:Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->zzilv:Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->zzilu:Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
     return-object p0
 
-    .line 4
     :cond_3
     sget-object p0, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->zzilt:Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
     return-object p0
 
-    .line 5
     :cond_4
     sget-object p0, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->zzils:Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
@@ -231,7 +216,6 @@
 .method public static zzx()Lcom/google/android/gms/internal/ads/m12;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/q42;->a:Lcom/google/android/gms/internal/ads/m12;
 
     return-object v0
@@ -242,14 +226,12 @@
 .method public final toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "<"
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 2
     const-class v1, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -262,12 +244,10 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result v1
 
-    .line 4
     invoke-static {v1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -276,21 +256,16 @@
 
     const-string v1, " number="
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->value:I
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v1, " name="
 
-    .line 8
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-virtual {p0}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
@@ -311,7 +286,6 @@
 .method public final zzw()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzejv$zza$zzc;->value:I
 
     return v0

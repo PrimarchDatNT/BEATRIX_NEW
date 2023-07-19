@@ -59,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->O()Lf/k/i0/a/g0;
@@ -70,24 +69,20 @@
 
     new-array v3, v2, [Lcom/commsource/repository/child/makeup/h;
 
-    .line 2
     new-instance v4, Lcom/commsource/repository/child/makeup/h;
 
     invoke-direct {v4}, Lcom/commsource/repository/child/makeup/h;-><init>()V
 
     const v5, 0xdbba1
 
-    .line 3
     invoke-virtual {v4, v5}, Lcom/commsource/repository/child/makeup/h;->t0(I)V
 
     const-string v5, "BP_PUP_00000002"
 
-    .line 4
     invoke-virtual {v4, v5}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
     sget v5, Lcom/res/provider/ResSTRING;->t_beauty_pupil_ash_gray:I
 
-    .line 5
     invoke-static {v5}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v5
@@ -96,74 +91,58 @@
 
     const/4 v5, 0x5
 
-    .line 6
     invoke-virtual {v4, v5}, Lcom/commsource/repository/child/makeup/h;->v0(I)V
 
-    .line 7
     invoke-virtual {v4, v2}, Lcom/commsource/repository/child/makeup/h;->h0(I)V
 
     const/4 v6, 0x1
 
-    .line 8
     invoke-virtual {v4, v6}, Lcom/commsource/repository/child/makeup/h;->u0(I)V
 
     const/16 v7, 0x50
 
-    .line 9
     invoke-virtual {v4, v7}, Lcom/commsource/repository/child/makeup/h;->k0(I)V
 
-    .line 10
     invoke-virtual {v4, v6}, Lcom/commsource/repository/child/makeup/h;->o0(I)V
 
     const/4 v8, 0x0
 
     aput-object v4, v3, v8
 
-    .line 11
     new-instance v4, Lcom/commsource/repository/child/makeup/h;
 
     invoke-direct {v4}, Lcom/commsource/repository/child/makeup/h;-><init>()V
 
     const v8, 0xdbba2
 
-    .line 12
     invoke-virtual {v4, v8}, Lcom/commsource/repository/child/makeup/h;->t0(I)V
 
     const-string v8, "BP_PUP_00000003"
 
-    .line 13
     invoke-virtual {v4, v8}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
     sget v8, Lcom/res/provider/ResSTRING;->t_beauty_pupil_lilac:I
 
-    .line 14
     invoke-static {v8}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v8
 
     invoke-virtual {v4, v8}, Lcom/commsource/repository/child/makeup/h;->w0(Ljava/lang/String;)V
 
-    .line 15
     invoke-virtual {v4, v5}, Lcom/commsource/repository/child/makeup/h;->v0(I)V
 
-    .line 16
     invoke-virtual {v4, v2}, Lcom/commsource/repository/child/makeup/h;->h0(I)V
 
-    .line 17
     invoke-virtual {v4, v6}, Lcom/commsource/repository/child/makeup/h;->u0(I)V
 
-    .line 18
     invoke-virtual {v4, v7}, Lcom/commsource/repository/child/makeup/h;->k0(I)V
 
-    .line 19
     invoke-virtual {v4, v6}, Lcom/commsource/repository/child/makeup/h;->o0(I)V
 
     aput-object v4, v3, v6
 
-    .line 20
     invoke-interface {v1, v3}, Lf/k/i0/a/g0;->R2([Lcom/commsource/repository/child/makeup/h;)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

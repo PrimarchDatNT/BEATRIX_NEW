@@ -23,24 +23,20 @@
 .method private constructor <init>(Lcom/google/android/gms/ads/v$a;)V
     .locals 1
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     invoke-static {p1}, Lcom/google/android/gms/ads/v$a;->e(Lcom/google/android/gms/ads/v$a;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/android/gms/ads/v;->a:Z
 
-    .line 7
     invoke-static {p1}, Lcom/google/android/gms/ads/v$a;->f(Lcom/google/android/gms/ads/v$a;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/android/gms/ads/v;->b:Z
 
-    .line 8
     invoke-static {p1}, Lcom/google/android/gms/ads/v$a;->g(Lcom/google/android/gms/ads/v$a;)Z
 
     move-result p1
@@ -53,7 +49,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/ads/v$a;Lcom/google/android/gms/ads/e0;)V
     .locals 0
 
-    .line 9
     invoke-direct {p0, p1}, Lcom/google/android/gms/ads/v;-><init>(Lcom/google/android/gms/ads/v$a;)V
 
     return-void
@@ -62,20 +57,16 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/zzaaa;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iget-boolean v0, p1, Lcom/google/android/gms/internal/ads/zzaaa;->a:Z
 
     iput-boolean v0, p0, Lcom/google/android/gms/ads/v;->a:Z
 
-    .line 3
     iget-boolean v0, p1, Lcom/google/android/gms/internal/ads/zzaaa;->b:Z
 
     iput-boolean v0, p0, Lcom/google/android/gms/ads/v;->b:Z
 
-    .line 4
     iget-boolean p1, p1, Lcom/google/android/gms/internal/ads/zzaaa;->c:Z
 
     iput-boolean p1, p0, Lcom/google/android/gms/ads/v;->c:Z
@@ -88,7 +79,6 @@
 .method public final a()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/ads/v;->c:Z
 
     return v0
@@ -97,7 +87,6 @@
 .method public final b()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/ads/v;->b:Z
 
     return v0
@@ -106,7 +95,6 @@
 .method public final c()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/ads/v;->a:Z
 
     return v0

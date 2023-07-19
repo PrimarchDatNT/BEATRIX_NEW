@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/y/a$b;Lcom/sdk/imp/y/a$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/y/a$b$b;->b:Lcom/sdk/imp/y/a$b;
 
     iput-object p2, p0, Lcom/sdk/imp/y/a$b$b;->a:Lcom/sdk/imp/y/a$a;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/y/a$b$b;->a:Lcom/sdk/imp/y/a$a;
 
     if-eqz v0, :cond_0
@@ -61,7 +59,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/y/a$b$b;->b:Lcom/sdk/imp/y/a$b;
 
     invoke-static {v0}, Lcom/sdk/imp/y/a$b;->a(Lcom/sdk/imp/y/a$b;)Ljava/util/ArrayList;

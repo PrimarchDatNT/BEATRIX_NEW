@@ -171,7 +171,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcom/mopub/common/CacheService$putToDiskCacheAsync$2;->label:I
 
     const/4 v2, 0x2
@@ -188,7 +187,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -198,7 +196,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
@@ -207,7 +204,6 @@
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/common/CacheService$putToDiskCacheAsync$2;->this$0:Lcom/mopub/common/CacheService;
 
     iget-object v1, p0, Lcom/mopub/common/CacheService$putToDiskCacheAsync$2;->$context:Landroid/content/Context;
@@ -220,7 +216,6 @@
 
     if-nez p1, :cond_4
 
-    .line 5
     iget-object p1, p0, Lcom/mopub/common/CacheService$putToDiskCacheAsync$2;->$supervisorJob:Lcotlinx/coroutines/y;
 
     invoke-static {}, Lcotlinx/coroutines/c1;->g()Lcotlinx/coroutines/m2;
@@ -245,14 +240,12 @@
 
     return-object v0
 
-    .line 6
     :cond_3
     :goto_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 
-    .line 7
     :cond_4
     new-instance p1, Lcotlin/jvm/internal/Ref$BooleanRef;
 
@@ -270,7 +263,6 @@
 
     iput-boolean v3, p1, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    .line 8
     iget-object v3, p0, Lcom/mopub/common/CacheService$putToDiskCacheAsync$2;->$supervisorJob:Lcotlinx/coroutines/y;
 
     invoke-static {}, Lcotlinx/coroutines/c1;->g()Lcotlinx/coroutines/m2;
@@ -295,7 +287,6 @@
 
     return-object v0
 
-    .line 9
     :cond_5
     :goto_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;

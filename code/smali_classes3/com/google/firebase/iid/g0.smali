@@ -20,16 +20,12 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
-    .line 3
     iput-wide p2, p0, Lcom/google/firebase/iid/g0;->a:J
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/firebase/iid/g0;->a()Landroid/content/Context;
 
     move-result-object p1
@@ -46,7 +42,6 @@
 
     const-string p3, "fiid-sync"
 
-    .line 5
     invoke-virtual {p1, p2, p3}, Landroid/os/PowerManager;->newWakeLock(ILjava/lang/String;)Landroid/os/PowerManager$WakeLock;
 
     move-result-object p1
@@ -55,7 +50,6 @@
 
     const/4 p2, 0x0
 
-    .line 6
     invoke-virtual {p1, p2}, Landroid/os/PowerManager$WakeLock;->setReferenceCounted(Z)V
 
     return-void
@@ -74,14 +68,12 @@
 
     const-string v0, "FirebaseInstanceId"
 
-    .line 1
     iget-object v1, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v1}, Lcom/google/firebase/iid/FirebaseInstanceId;->w()Lcom/google/firebase/iid/c0;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v2, v1}, Lcom/google/firebase/iid/FirebaseInstanceId;->v(Lcom/google/firebase/iid/c0;)Z
@@ -97,7 +89,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 3
     :try_start_0
     iget-object v4, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
@@ -109,7 +100,6 @@
 
     const-string v1, "Token retrieval failed: null"
 
-    .line 4
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     return v2
@@ -117,7 +107,6 @@
     :cond_1
     const/4 v5, 0x3
 
-    .line 5
     invoke-static {v0, v5}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v6
@@ -126,7 +115,6 @@
 
     const-string v6, "Token successfully retrieved"
 
-    .line 6
     invoke-static {v0, v6}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_2
@@ -134,7 +122,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 7
     iget-object v1, v1, Lcom/google/firebase/iid/c0;->a:Ljava/lang/String;
 
     invoke-virtual {v4, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -146,7 +133,6 @@
     :cond_3
     const-string v1, "[DEFAULT]"
 
-    .line 8
     iget-object v6, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v6}, Lcom/google/firebase/iid/FirebaseInstanceId;->m()Lcom/google/firebase/d;
@@ -163,7 +149,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 9
     invoke-static {v0, v5}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v1
@@ -172,7 +157,6 @@
 
     const-string v1, "Invoking onNewToken for app: "
 
-    .line 10
     iget-object v5, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v5}, Lcom/google/firebase/iid/FirebaseInstanceId;->m()Lcom/google/firebase/d;
@@ -209,7 +193,6 @@
     :goto_0
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 11
     :cond_5
     new-instance v1, Landroid/content/Intent;
 
@@ -219,32 +202,26 @@
 
     const-string v5, "token"
 
-    .line 12
     invoke-virtual {v1, v5, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 13
     invoke-virtual {p0}, Lcom/google/firebase/iid/g0;->a()Landroid/content/Context;
 
     move-result-object v4
 
     const-string v5, "com.google.firebase.MESSAGING_EVENT"
 
-    .line 14
     new-instance v6, Landroid/content/Intent;
 
     const-class v7, Lcom/google/firebase/iid/FirebaseInstanceIdReceiver;
 
     invoke-direct {v6, v4, v7}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 15
     invoke-virtual {v6, v5}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string v5, "wrapped_intent"
 
-    .line 16
     invoke-virtual {v6, v5, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    .line 17
     invoke-virtual {v4, v6}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
@@ -256,7 +233,6 @@
     :catch_0
     const-string v1, "Token retrieval failed with SecurityException. Will retry token retrieval"
 
-    .line 18
     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return v2
@@ -264,14 +240,12 @@
     :catch_1
     move-exception v1
 
-    .line 19
     invoke-virtual {v1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v4
 
     const-string v5, "SERVICE_NOT_AVAILABLE"
 
-    .line 20
     invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
@@ -280,7 +254,6 @@
 
     const-string v5, "INTERNAL_SERVER_ERROR"
 
-    .line 21
     invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
@@ -289,7 +262,6 @@
 
     const-string v5, "InternalServerError"
 
-    .line 22
     invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -305,7 +277,6 @@
     :goto_1
     if-eqz v3, :cond_9
 
-    .line 23
     invoke-virtual {v1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v1
@@ -342,7 +313,6 @@
 
     return v2
 
-    .line 24
     :cond_9
     invoke-virtual {v1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
@@ -352,12 +322,10 @@
 
     const-string v1, "Token retrieval failed without exception message. Will retry token retrieval"
 
-    .line 25
     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return v2
 
-    .line 26
     :cond_a
     throw v1
 .end method
@@ -367,7 +335,6 @@
 .method final a()Landroid/content/Context;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v0}, Lcom/google/firebase/iid/FirebaseInstanceId;->m()Lcom/google/firebase/d;
@@ -384,7 +351,6 @@
 .method final b()Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/iid/g0;->a()Landroid/content/Context;
 
     move-result-object v0
@@ -399,7 +365,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object v0
@@ -412,7 +377,6 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result v0
@@ -437,7 +401,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/iid/a0;->b()Lcom/google/firebase/iid/a0;
 
     move-result-object v0
@@ -452,7 +415,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/iid/g0;->b:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->acquire()V
@@ -460,7 +422,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
@@ -468,7 +429,6 @@
 
     invoke-virtual {v1, v2}, Lcom/google/firebase/iid/FirebaseInstanceId;->u(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v1}, Lcom/google/firebase/iid/FirebaseInstanceId;->D()Z
@@ -477,7 +437,6 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     iget-object v1, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v1, v0}, Lcom/google/firebase/iid/FirebaseInstanceId;->u(Z)V
@@ -485,7 +444,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {}, Lcom/google/firebase/iid/a0;->b()Lcom/google/firebase/iid/a0;
 
     move-result-object v0
@@ -500,7 +458,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 7
     iget-object v0, p0, Lcom/google/firebase/iid/g0;->b:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->release()V
@@ -508,7 +465,6 @@
     :cond_1
     return-void
 
-    .line 8
     :cond_2
     :try_start_1
     invoke-static {}, Lcom/google/firebase/iid/a0;->b()Lcom/google/firebase/iid/a0;
@@ -525,25 +481,21 @@
 
     if-eqz v1, :cond_4
 
-    .line 9
     invoke-virtual {p0}, Lcom/google/firebase/iid/g0;->b()Z
 
     move-result v1
 
     if-nez v1, :cond_4
 
-    .line 10
     new-instance v1, Lcom/google/firebase/iid/f0;
 
     invoke-direct {v1, p0}, Lcom/google/firebase/iid/f0;-><init>(Lcom/google/firebase/iid/g0;)V
 
-    .line 11
     invoke-virtual {v1}, Lcom/google/firebase/iid/f0;->a()V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 12
     invoke-static {}, Lcom/google/firebase/iid/a0;->b()Lcom/google/firebase/iid/a0;
 
     move-result-object v0
@@ -558,7 +510,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 13
     iget-object v0, p0, Lcom/google/firebase/iid/g0;->b:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->release()V
@@ -566,7 +517,6 @@
     :cond_3
     return-void
 
-    .line 14
     :cond_4
     :try_start_2
     invoke-direct {p0}, Lcom/google/firebase/iid/g0;->c()Z
@@ -575,14 +525,12 @@
 
     if-eqz v1, :cond_5
 
-    .line 15
     iget-object v1, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v1, v0}, Lcom/google/firebase/iid/FirebaseInstanceId;->u(Z)V
 
     goto :goto_0
 
-    .line 16
     :cond_5
     iget-object v1, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
@@ -593,7 +541,6 @@
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 17
     :goto_0
     invoke-static {}, Lcom/google/firebase/iid/a0;->b()Lcom/google/firebase/iid/a0;
 
@@ -609,7 +556,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 18
     iget-object v0, p0, Lcom/google/firebase/iid/g0;->b:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->release()V
@@ -627,7 +573,6 @@
     :try_start_3
     const-string v2, "FirebaseInstanceId"
 
-    .line 19
     invoke-virtual {v1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v1
@@ -660,17 +605,14 @@
 
     move-result-object v1
 
-    .line 20
     invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 21
     iget-object v1, p0, Lcom/google/firebase/iid/g0;->c:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v1, v0}, Lcom/google/firebase/iid/FirebaseInstanceId;->u(Z)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 22
     invoke-static {}, Lcom/google/firebase/iid/a0;->b()Lcom/google/firebase/iid/a0;
 
     move-result-object v0
@@ -685,7 +627,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 23
     iget-object v0, p0, Lcom/google/firebase/iid/g0;->b:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->release()V
@@ -693,7 +634,6 @@
     :cond_6
     return-void
 
-    .line 24
     :goto_1
     invoke-static {}, Lcom/google/firebase/iid/a0;->b()Lcom/google/firebase/iid/a0;
 
@@ -709,12 +649,10 @@
 
     if-eqz v1, :cond_7
 
-    .line 25
     iget-object v1, p0, Lcom/google/firebase/iid/g0;->b:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v1}, Landroid/os/PowerManager$WakeLock;->release()V
 
-    .line 26
     :cond_7
     throw v0
 .end method

@@ -18,7 +18,6 @@
 
     const-string v0, "Fetch was throttled."
 
-    .line 1
     invoke-direct {p0, v0, p1, p2}, Lcom/meitu/remote/config/RemoteConfigFetchThrottledException;-><init>(Ljava/lang/String;J)V
 
     return-void
@@ -32,10 +31,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/remote/config/RemoteConfigException;-><init>(Ljava/lang/String;)V
 
-    .line 3
     iput-wide p2, p0, Lcom/meitu/remote/config/RemoteConfigFetchThrottledException;->throttleEndTimeMillis:J
 
     return-void
@@ -50,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/remote/config/RemoteConfigFetchThrottledException;->throttleEndTimeMillis:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

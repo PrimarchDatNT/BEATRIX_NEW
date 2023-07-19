@@ -54,10 +54,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/function/relight/RelightManualFragment$mViewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/relight/RelightManualFragment$mViewBinding$2;-><init>(Lcom/commsource/studio/function/relight/RelightManualFragment;)V
@@ -68,7 +66,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/relight/RelightManualFragment;->d:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/relight/RelightManualFragment$mViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/relight/RelightManualFragment$mViewModel$2;-><init>(Lcom/commsource/studio/function/relight/RelightManualFragment;)V
@@ -89,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object p0
@@ -106,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->D()Lcom/commsource/studio/function/relight/g;
 
     move-result-object p0
@@ -167,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getParentFragment()Landroidx/fragment/app/Fragment;
@@ -223,7 +217,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object p1
@@ -276,10 +269,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object p1
@@ -294,7 +285,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/LineSelectView;->setItemMargin(F)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object p1
@@ -309,7 +299,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/viewpager2/widget/ViewPager2;->setUserInputEnabled(Z)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object p1
@@ -322,7 +311,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/viewpager2/widget/ViewPager2;->setOffscreenPageLimit(I)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object p1
@@ -337,7 +325,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/viewpager2/widget/ViewPager2;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object p1
@@ -350,7 +337,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/viewpager2/widget/ViewPager2;->registerOnPageChangeCallback(Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object p1
@@ -367,14 +353,12 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/viewpager2/widget/ViewPager2;->setCurrentItem(IZ)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object p1
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ga;->c:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 9
     new-instance p2, Lcom/commsource/widget/h1/e;
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
@@ -383,7 +367,6 @@
 
     invoke-direct {p2, v3}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
-    .line 10
     const-class v3, Ljava/lang/Integer;
 
     new-instance v4, Lcom/commsource/studio/function/relight/RelightManualFragment$d;
@@ -392,7 +375,6 @@
 
     invoke-virtual {p2, v3, v4}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 11
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v3
@@ -403,7 +385,6 @@
 
     sget v5, Lcom/res/provider/ResSTRING;->t_highlight_face:I
 
-    .line 12
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -412,7 +393,6 @@
 
     sget v5, Lcom/res/provider/ResSTRING;->t_highlight_background:I
 
-    .line 13
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -421,7 +401,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->t_highlight_atmosphere:I
 
-    .line 14
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -430,28 +409,22 @@
 
     aput-object v2, v4, v5
 
-    .line 15
     invoke-static {v4}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v2
 
-    .line 16
     const-class v4, Lcom/commsource/studio/function/background/a;
 
-    .line 17
     invoke-virtual {v3, v2, v4}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 18
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v2
 
-    .line 19
     invoke-virtual {p2, v2}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 20
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->D()Lcom/commsource/studio/function/relight/g;
 
     move-result-object v2
@@ -462,7 +435,6 @@
 
     invoke-virtual {p2, v2}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 21
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object v2
@@ -479,10 +451,8 @@
 
     invoke-virtual {v2, v3, v1}, Lcom/commsource/widget/LineSelectView;->i(IZ)V
 
-    .line 22
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 23
     new-instance p2, Landroidx/recyclerview/widget/LinearLayoutManager;
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
@@ -493,7 +463,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -604,10 +573,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;->x(Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object p1
@@ -626,7 +593,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object p1
@@ -647,7 +613,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object p1
@@ -666,7 +631,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -695,7 +659,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object v1
@@ -714,7 +677,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/RelightManualFragment;->C()Lcom/commsource/beautyplus/f0/ga;
 
     move-result-object v1
@@ -733,7 +695,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

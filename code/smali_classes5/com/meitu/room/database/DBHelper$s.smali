@@ -19,7 +19,6 @@
 .method constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/room/migration/Migration;-><init>(II)V
 
     return-void
@@ -44,45 +43,36 @@
 
     const-string v1, "alter table MONTAGE_GROUP_ENTITY ADD COLUMN \'group_is_new_girl\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 1
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table MONTAGE_GROUP_ENTITY ADD COLUMN \'group_is_new_man\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 2
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table MONTAGE_MATERIAL_ENTITY ADD COLUMN \'material_is_new_girl\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 3
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table MONTAGE_MATERIAL_ENTITY ADD COLUMN \'material_is_new_man\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 4
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table MONTAGE_MATERIAL_ENTITY ADD COLUMN \'material_is_paid\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 5
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table MONTAGE_MATERIAL_ENTITY ADD COLUMN \'material_goods_id\' TEXT"
 
-    .line 6
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table MONTAGE_MATERIAL_ENTITY ADD COLUMN \'material_sample_url\' TEXT"
 
-    .line 7
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table MONTAGE_MATERIAL_ENTITY ADD COLUMN \'material_limit_version\' TEXT"
 
-    .line 8
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

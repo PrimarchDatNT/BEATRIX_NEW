@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/h0;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$3;->invoke(Lcom/commsource/studio/h0;)V
@@ -85,7 +84,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$3;->this$0:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -100,7 +98,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$3;->this$0:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -117,7 +114,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/bean/a;->W(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$3;->this$0:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
@@ -132,7 +128,6 @@
 
     invoke-static {p1, v2, v1, v3, v2}, Lcom/commsource/studio/PictureSelectView;->p(Lcom/commsource/studio/PictureSelectView;Lcom/commsource/studio/PictureAnimationWrapper;ZILjava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$3;->this$0:Lcom/commsource/studio/formula/FormulaFragment;
 
     iget-object v2, p0, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$3;->$entity:Lcom/commsource/studio/formula/JsFormula;
@@ -141,7 +136,6 @@
 
     invoke-static {p1, v2, v1, v3}, Lcom/commsource/studio/formula/FormulaFragment;->T(Lcom/commsource/studio/formula/FormulaFragment;Lcom/commsource/studio/formula/JsFormula;ZZ)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

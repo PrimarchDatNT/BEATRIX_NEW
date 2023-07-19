@@ -53,12 +53,10 @@
 
     new-array v1, v1, [B
 
-    .line 1
     sput-object v1, Lcom/meitu/library/gid/base/k0/b/f;->d:[B
 
     const-string v1, "UTF-8"
 
-    .line 2
     invoke-static {v1}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v1
@@ -67,7 +65,6 @@
 
     const-string v1, "java.version"
 
-    .line 3
     invoke-static {v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -94,7 +91,6 @@
     :goto_0
     sput-object v1, Lcom/meitu/library/gid/base/k0/b/f;->g:Lcom/meitu/library/gid/base/k0/b/f$c;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -103,27 +99,22 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/meitu/library/gid/base/k0/b/f;->d:[B
 
     iput-object v0, p0, Lcom/meitu/library/gid/base/k0/b/f;->a:[B
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/gid/base/k0/b/f;->n(Ljava/lang/String;)[B
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/library/gid/base/k0/b/f;->a:[B
 
-    .line 4
     array-length v0, v0
 
     iput v0, p0, Lcom/meitu/library/gid/base/k0/b/f;->b:I
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/library/gid/base/k0/b/f;->c:Ljava/lang/String;
 
     return-void
@@ -136,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/gid/base/k0/b/f;->f:Ljava/nio/charset/Charset;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -151,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/gid/base/k0/b/f;->g:Lcom/meitu/library/gid/base/k0/b/f$c;
 
     invoke-virtual {v1, p0}, Lcom/meitu/library/gid/base/k0/b/f$c;->b(Ljava/lang/String;)[B
@@ -172,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/gid/base/k0/b/f;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -193,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/library/gid/base/k0/b/f;
 
     invoke-virtual {p0, p1}, Lcom/meitu/library/gid/base/k0/b/f;->f(Lcom/meitu/library/gid/base/k0/b/f;)I
@@ -216,12 +203,10 @@
 
     if-ne p1, p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p1, Lcom/meitu/library/gid/base/k0/b/f;
 
@@ -229,40 +214,33 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_1
     check-cast p1, Lcom/meitu/library/gid/base/k0/b/f;
 
-    .line 5
     iget v2, p0, Lcom/meitu/library/gid/base/k0/b/f;->b:I
 
     iget v4, p1, Lcom/meitu/library/gid/base/k0/b/f;->b:I
 
     if-eq v2, v4, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 7
     :cond_2
     iget-object p1, p1, Lcom/meitu/library/gid/base/k0/b/f;->a:[B
 
     const/4 v2, 0x0
 
-    .line 8
     :goto_0
     iget v4, p0, Lcom/meitu/library/gid/base/k0/b/f;->b:I
 
     if-ge v2, v4, :cond_4
 
-    .line 9
     iget-object v4, p0, Lcom/meitu/library/gid/base/k0/b/f;->a:[B
 
     aget-byte v4, v4, v2
@@ -271,7 +249,6 @@
 
     if-eq v4, v5, :cond_3
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -281,7 +258,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -295,7 +271,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -310,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/gid/base/k0/b/f;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -325,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/k0/b/f;->a:[B
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -344,7 +317,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :goto_0
     iget v3, p0, Lcom/meitu/library/gid/base/k0/b/f;->b:I
 
@@ -352,7 +324,6 @@
 
     mul-int/lit8 v2, v2, 0x1f
 
-    .line 2
     iget-object v3, p0, Lcom/meitu/library/gid/base/k0/b/f;->a:[B
 
     aget-byte v3, v3, v1
@@ -363,7 +334,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -377,7 +347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/gid/base/k0/b/f;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -398,7 +367,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/gid/base/k0/b/f;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -419,25 +387,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/gid/base/k0/b/f;->b:I
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, ""
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/meitu/library/gid/base/k0/b/f;->c:Ljava/lang/String;
 
     if-nez v2, :cond_1
 
-    .line 4
     sget-object v2, Lcom/meitu/library/gid/base/k0/b/f;->g:Lcom/meitu/library/gid/base/k0/b/f$c;
 
     iget-object v3, p0, Lcom/meitu/library/gid/base/k0/b/f;->a:[B
@@ -448,7 +412,6 @@
 
     iput-object v1, p0, Lcom/meitu/library/gid/base/k0/b/f;->c:Ljava/lang/String;
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/meitu/library/gid/base/k0/b/f;->c:Ljava/lang/String;
 

@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,13 +39,11 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Lcom/google/common/collect/w1$b;
 
     const/4 v0, 0x0
@@ -60,7 +57,6 @@
     :catch_0
     move-exception p0
 
-    .line 3
     new-instance p1, Ljava/lang/AssertionError;
 
     invoke-direct {p1, p0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
@@ -91,12 +87,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
 
     move-result v0
 
-    .line 2
     invoke-static {p0, p1, v0}, Lcom/google/common/collect/w1;->c(Ljava/util/Map;Ljava/io/ObjectInputStream;I)V
 
     return-void
@@ -130,17 +124,14 @@
     :goto_0
     if-ge v0, p2, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 3
     invoke-interface {p0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v0, v0, 0x1
@@ -174,12 +165,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
 
     move-result v0
 
-    .line 2
     invoke-static {p0, p1, v0}, Lcom/google/common/collect/w1;->e(Lcom/google/common/collect/l1;Ljava/io/ObjectInputStream;I)V
 
     return-void
@@ -215,17 +204,14 @@
     :goto_0
     if-ge v1, p2, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p0, v2}, Lcom/google/common/collect/l1;->get(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
 
     move-result v3
@@ -235,12 +221,10 @@
     :goto_1
     if-ge v4, v3, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
 
     move-result-object v5
 
-    .line 5
     invoke-interface {v2, v5}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v4, v4, 0x1
@@ -277,12 +261,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
 
     move-result v0
 
-    .line 2
     invoke-static {p0, p1, v0}, Lcom/google/common/collect/w1;->g(Lcom/google/common/collect/m1;Ljava/io/ObjectInputStream;I)V
 
     return-void
@@ -314,17 +296,14 @@
     :goto_0
     if-ge v0, p2, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
 
     move-result v2
 
-    .line 3
     invoke-interface {p0, v1, v2}, Lcom/google/common/collect/m1;->add(Ljava/lang/Object;I)I
 
     add-int/lit8 v0, v0, 0x1
@@ -343,7 +322,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/ObjectInputStream;->readInt()I
 
     move-result p0
@@ -373,14 +351,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->size()I
 
     move-result v0
 
     invoke-virtual {p1, v0}, Ljava/io/ObjectOutputStream;->writeInt(I)V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -402,14 +378,12 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
 
     invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -444,7 +418,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/l1;->asMap()Ljava/util/Map;
 
     move-result-object v0
@@ -455,7 +428,6 @@
 
     invoke-virtual {p1, v0}, Ljava/io/ObjectOutputStream;->writeInt(I)V
 
-    .line 2
     invoke-interface {p0}, Lcom/google/common/collect/l1;->asMap()Ljava/util/Map;
 
     move-result-object p0
@@ -481,14 +453,12 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
 
     invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -501,7 +471,6 @@
 
     invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeInt(I)V
 
-    .line 5
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -523,7 +492,6 @@
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
 
     goto :goto_0
@@ -552,7 +520,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/m1;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -561,10 +528,8 @@
 
     move-result v0
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/io/ObjectOutputStream;->writeInt(I)V
 
-    .line 3
     invoke-interface {p0}, Lcom/google/common/collect/m1;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -586,14 +551,12 @@
 
     check-cast v0, Lcom/google/common/collect/m1$a;
 
-    .line 4
     invoke-interface {v0}, Lcom/google/common/collect/m1$a;->getElement()Ljava/lang/Object;
 
     move-result-object v1
 
     invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
 
-    .line 5
     invoke-interface {v0}, Lcom/google/common/collect/m1$a;->getCount()I
 
     move-result v0

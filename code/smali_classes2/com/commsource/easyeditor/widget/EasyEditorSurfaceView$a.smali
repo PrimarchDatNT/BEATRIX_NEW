@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView$a;->a:Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,22 +41,18 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView$a;->a:Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;
 
     invoke-static {p2, p3}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->b(Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;I)I
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView$a;->a:Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;
 
     invoke-static {p2, p4}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->c(Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;I)I
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView$a;->a:Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;
 
     invoke-static {p2}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->d(Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -70,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView$a;->a:Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;
 
     invoke-interface {p1}, Landroid/view/SurfaceHolder;->getSurface()Landroid/view/Surface;
@@ -79,7 +73,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a(Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;Landroid/view/Surface;)Landroid/view/Surface;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -92,19 +85,16 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView$a;->a:Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a(Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;Landroid/view/Surface;)Landroid/view/Surface;
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView$a;->a:Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;
 
     invoke-static {v0}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->e(Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

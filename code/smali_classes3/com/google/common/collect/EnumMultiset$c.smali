@@ -40,19 +40,16 @@
 .method constructor <init>(Lcom/google/common/collect/EnumMultiset;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/EnumMultiset$c;->c:Lcom/google/common/collect/EnumMultiset;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/google/common/collect/EnumMultiset$c;->a:I
 
     const/4 p1, -0x1
 
-    .line 3
     iput p1, p0, Lcom/google/common/collect/EnumMultiset$c;->b:I
 
     return-void
@@ -71,7 +68,6 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 1
     :goto_0
     iget v0, p0, Lcom/google/common/collect/EnumMultiset$c;->a:I
 
@@ -85,7 +81,6 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/EnumMultiset$c;->c:Lcom/google/common/collect/EnumMultiset;
 
     invoke-static {v0}, Lcom/google/common/collect/EnumMultiset;->access$100(Lcom/google/common/collect/EnumMultiset;)[I
@@ -105,7 +100,6 @@
     :cond_0
     add-int/lit8 v1, v1, 0x1
 
-    .line 3
     iput v1, p0, Lcom/google/common/collect/EnumMultiset$c;->a:I
 
     goto :goto_0
@@ -124,33 +118,28 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/EnumMultiset$c;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/EnumMultiset$c;->a:I
 
     invoke-virtual {p0, v0}, Lcom/google/common/collect/EnumMultiset$c;->a(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 3
     iget v1, p0, Lcom/google/common/collect/EnumMultiset$c;->a:I
 
     iput v1, p0, Lcom/google/common/collect/EnumMultiset$c;->b:I
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 4
     iput v1, p0, Lcom/google/common/collect/EnumMultiset$c;->a:I
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -162,7 +151,6 @@
 .method public remove()V
     .locals 6
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/EnumMultiset$c;->b:I
 
     const/4 v1, 0x0
@@ -179,7 +167,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/collect/m;->e(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/EnumMultiset$c;->c:Lcom/google/common/collect/EnumMultiset;
 
     invoke-static {v0}, Lcom/google/common/collect/EnumMultiset;->access$100(Lcom/google/common/collect/EnumMultiset;)[I
@@ -192,12 +179,10 @@
 
     if-lez v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/EnumMultiset$c;->c:Lcom/google/common/collect/EnumMultiset;
 
     invoke-static {v0}, Lcom/google/common/collect/EnumMultiset;->access$210(Lcom/google/common/collect/EnumMultiset;)I
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/collect/EnumMultiset$c;->c:Lcom/google/common/collect/EnumMultiset;
 
     invoke-static {v0}, Lcom/google/common/collect/EnumMultiset;->access$300(Lcom/google/common/collect/EnumMultiset;)J
@@ -220,7 +205,6 @@
 
     invoke-static {v0, v2, v3}, Lcom/google/common/collect/EnumMultiset;->access$302(Lcom/google/common/collect/EnumMultiset;J)J
 
-    .line 5
     iget-object v0, p0, Lcom/google/common/collect/EnumMultiset$c;->c:Lcom/google/common/collect/EnumMultiset;
 
     invoke-static {v0}, Lcom/google/common/collect/EnumMultiset;->access$100(Lcom/google/common/collect/EnumMultiset;)[I
@@ -234,7 +218,6 @@
     :cond_1
     const/4 v0, -0x1
 
-    .line 6
     iput v0, p0, Lcom/google/common/collect/EnumMultiset$c;->b:I
 
     return-void

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/core/processor/ImageSegment;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/processor/ImageSegment$1;->this$0:Lcom/meitu/core/processor/ImageSegment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/processor/ImageSegment$1;->this$0:Lcom/meitu/core/processor/ImageSegment;
 
     invoke-static {}, Lcom/meitu/core/processor/ImageSegment;->access$000()J
@@ -51,7 +49,6 @@
 
     iput-wide v2, v1, Lcom/meitu/core/processor/ImageSegment;->nativeImageSegment:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

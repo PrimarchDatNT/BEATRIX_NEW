@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -16,22 +15,18 @@
 .method public static a(Ljava/lang/String;Ljava/lang/String;Lorg/jsoup/c/b;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lorg/jsoup/a;->o(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Lorg/jsoup/c/a;
 
     invoke-direct {p1, p2}, Lorg/jsoup/c/a;-><init>(Lorg/jsoup/c/b;)V
 
-    .line 3
     invoke-virtual {p1, p0}, Lorg/jsoup/c/a;->c(Lorg/jsoup/nodes/Document;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0}, Lorg/jsoup/nodes/Document;->q2()Lorg/jsoup/nodes/Element;
 
     move-result-object p0
@@ -46,25 +41,20 @@
 .method public static b(Ljava/lang/String;Ljava/lang/String;Lorg/jsoup/c/b;Lorg/jsoup/nodes/Document$OutputSettings;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lorg/jsoup/a;->o(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Lorg/jsoup/c/a;
 
     invoke-direct {p1, p2}, Lorg/jsoup/c/a;-><init>(Lorg/jsoup/c/b;)V
 
-    .line 3
     invoke-virtual {p1, p0}, Lorg/jsoup/c/a;->c(Lorg/jsoup/nodes/Document;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0, p3}, Lorg/jsoup/nodes/Document;->G2(Lorg/jsoup/nodes/Document$OutputSettings;)Lorg/jsoup/nodes/Document;
 
-    .line 5
     invoke-virtual {p0}, Lorg/jsoup/nodes/Document;->q2()Lorg/jsoup/nodes/Element;
 
     move-result-object p0
@@ -81,7 +71,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-static {p0, v0, p1}, Lorg/jsoup/a;->a(Ljava/lang/String;Ljava/lang/String;Lorg/jsoup/c/b;)Ljava/lang/String;
 
     move-result-object p0
@@ -92,7 +81,6 @@
 .method public static d(Ljava/lang/String;)Lorg/jsoup/Connection;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/helper/b;->H(Ljava/lang/String;)Lorg/jsoup/Connection;
 
     move-result-object p0
@@ -103,7 +91,6 @@
 .method public static e(Ljava/lang/String;Lorg/jsoup/c/b;)Z
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/jsoup/c/a;
 
     invoke-direct {v0, p1}, Lorg/jsoup/c/a;-><init>(Lorg/jsoup/c/b;)V
@@ -123,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v0
@@ -143,7 +129,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lorg/jsoup/helper/a;->e(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0
@@ -159,7 +144,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lorg/jsoup/helper/a;->f(Ljava/io/InputStream;Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0
@@ -175,7 +159,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lorg/jsoup/helper/a;->g(Ljava/io/InputStream;Ljava/lang/String;Ljava/lang/String;Lorg/jsoup/parser/e;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0
@@ -188,7 +171,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-static {p0, v0}, Lorg/jsoup/parser/e;->e(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0
@@ -199,7 +181,6 @@
 .method public static k(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lorg/jsoup/parser/e;->e(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0
@@ -210,7 +191,6 @@
 .method public static l(Ljava/lang/String;Ljava/lang/String;Lorg/jsoup/parser/e;)Lorg/jsoup/nodes/Document;
     .locals 0
 
-    .line 1
     invoke-virtual {p2, p0, p1}, Lorg/jsoup/parser/e;->k(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0
@@ -226,15 +206,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/helper/b;->I(Ljava/net/URL;)Lorg/jsoup/Connection;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0, p1}, Lorg/jsoup/Connection;->d(I)Lorg/jsoup/Connection;
 
-    .line 3
     invoke-interface {p0}, Lorg/jsoup/Connection;->get()Lorg/jsoup/nodes/Document;
 
     move-result-object p0
@@ -247,7 +224,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-static {p0, v0}, Lorg/jsoup/parser/e;->f(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0
@@ -258,7 +234,6 @@
 .method public static o(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lorg/jsoup/parser/e;->f(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0

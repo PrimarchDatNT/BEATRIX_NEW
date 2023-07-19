@@ -75,7 +75,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0, v0}, Lcom/google/common/collect/TreeBasedTable$c;-><init>(Lcom/google/common/collect/TreeBasedTable;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
@@ -97,23 +96,18 @@
         }
     .end annotation
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/TreeBasedTable$c;->p:Lcom/google/common/collect/TreeBasedTable;
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/StandardTable$g;-><init>(Lcom/google/common/collect/StandardTable;Ljava/lang/Object;)V
 
-    .line 4
     iput-object p3, p0, Lcom/google/common/collect/TreeBasedTable$c;->d:Ljava/lang/Object;
 
-    .line 5
     iput-object p4, p0, Lcom/google/common/collect/TreeBasedTable$c;->f:Ljava/lang/Object;
 
     if-eqz p3, :cond_1
 
     if-eqz p4, :cond_1
 
-    .line 6
     invoke-virtual {p0, p3, p4}, Lcom/google/common/collect/TreeBasedTable$c;->g(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result p1
@@ -131,7 +125,6 @@
     :goto_0
     const/4 p1, 0x1
 
-    .line 7
     :goto_1
     invoke-static {p1}, Lcom/google/common/base/t;->d(Z)V
 
@@ -143,7 +136,6 @@
 .method bridge synthetic b()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeBasedTable$c;->f()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -154,7 +146,6 @@
 .method bridge synthetic c()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeBasedTable$c;->h()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -172,7 +163,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/TreeBasedTable$c;->p:Lcom/google/common/collect/TreeBasedTable;
 
     invoke-virtual {v0}, Lcom/google/common/collect/TreeBasedTable;->columnComparator()Ljava/util/Comparator;
@@ -185,7 +175,6 @@
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/TreeBasedTable$c;->j(Ljava/lang/Object;)Z
 
     move-result v0
@@ -212,7 +201,6 @@
 .method d()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeBasedTable$c;->k()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -227,7 +215,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/TreeBasedTable$c;->p:Lcom/google/common/collect/TreeBasedTable;
 
     iget-object v0, v0, Lcom/google/common/collect/StandardTable;->backingMap:Ljava/util/Map;
@@ -238,10 +225,8 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/collect/TreeBasedTable$c;->g:Ljava/util/SortedMap;
 
-    .line 4
     iput-object v0, p0, Lcom/google/common/collect/StandardTable$g;->b:Ljava/util/Map;
 
     :cond_0
@@ -258,7 +243,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/StandardTable$g;->b()Ljava/util/Map;
 
     move-result-object v0
@@ -276,14 +260,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeBasedTable$c;->f()Ljava/util/SortedMap;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/TreeBasedTable$c;->f()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -294,7 +276,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -306,12 +287,10 @@
 .method g(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeBasedTable$c;->comparator()Ljava/util/Comparator;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0, p1, p2}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result p1
@@ -329,30 +308,25 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeBasedTable$c;->k()Ljava/util/SortedMap;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/collect/TreeBasedTable$c;->d:Ljava/lang/Object;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v0, v1}, Ljava/util/SortedMap;->tailMap(Ljava/lang/Object;)Ljava/util/SortedMap;
 
     move-result-object v0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/google/common/collect/TreeBasedTable$c;->f:Ljava/lang/Object;
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {v0, v1}, Ljava/util/SortedMap;->headMap(Ljava/lang/Object;)Ljava/util/SortedMap;
 
     move-result-object v0
@@ -376,7 +350,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -387,7 +360,6 @@
 
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/TreeBasedTable$c;
 
     iget-object v1, p0, Lcom/google/common/collect/TreeBasedTable$c;->p:Lcom/google/common/collect/TreeBasedTable;
@@ -411,7 +383,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Maps$e0;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/Maps$e0;-><init>(Ljava/util/SortedMap;)V
@@ -428,12 +399,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/TreeBasedTable$c;->d:Ljava/lang/Object;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0, v0, p1}, Lcom/google/common/collect/TreeBasedTable$c;->g(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result v0
@@ -445,7 +414,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {p0, v0, p1}, Lcom/google/common/collect/TreeBasedTable$c;->g(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result p1
@@ -474,7 +442,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/TreeBasedTable$c;->g:Ljava/util/SortedMap;
 
     if-eqz v0, :cond_0
@@ -497,7 +464,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/TreeBasedTable$c;->p:Lcom/google/common/collect/TreeBasedTable;
 
@@ -513,7 +479,6 @@
 
     iput-object v0, p0, Lcom/google/common/collect/TreeBasedTable$c;->g:Ljava/util/SortedMap;
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/google/common/collect/TreeBasedTable$c;->g:Ljava/util/SortedMap;
 
@@ -523,7 +488,6 @@
 .method public bridge synthetic keySet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeBasedTable$c;->i()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -539,14 +503,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeBasedTable$c;->f()Ljava/util/SortedMap;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/TreeBasedTable$c;->f()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -557,7 +519,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -574,7 +535,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -585,7 +545,6 @@
 
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/StandardTable$g;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -603,7 +562,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -634,7 +592,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/TreeBasedTable$c;
 
     iget-object v1, p0, Lcom/google/common/collect/TreeBasedTable$c;->p:Lcom/google/common/collect/TreeBasedTable;
@@ -656,7 +613,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -667,7 +623,6 @@
 
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/TreeBasedTable$c;
 
     iget-object v1, p0, Lcom/google/common/collect/TreeBasedTable$c;->p:Lcom/google/common/collect/TreeBasedTable;

@@ -24,13 +24,10 @@
 .method constructor <init>(ZJ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p1, p0, Lio/grpc/internal/g2$w;->a:Z
 
-    .line 3
     iput-wide p2, p0, Lio/grpc/internal/g2$w;->b:J
 
     return-void

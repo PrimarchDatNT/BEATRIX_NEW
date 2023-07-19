@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$g;->g:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     iput-object p2, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$g;->p:Lcom/commsource/album/provider/BucketInfo;
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$g;->g:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {v1}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
@@ -73,7 +71,6 @@
 
     move-result-object v1
 
-    .line 2
     sget-object v2, Lcom/commsource/mypage/album/BpAlbumViewModel;->m:Lcom/commsource/mypage/album/BpAlbumViewModel$a;
 
     iget-object v3, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$g;->p:Lcom/commsource/album/provider/BucketInfo;
@@ -88,7 +85,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/mypage/album/BpAlbumViewModel$a;->b(Ljava/lang/String;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$g;->g:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {v2}, Lcom/commsource/mypage/album/BpAlbumViewModel;->F()Landroidx/lifecycle/MutableLiveData;
@@ -113,7 +109,6 @@
 
     invoke-virtual {v2, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

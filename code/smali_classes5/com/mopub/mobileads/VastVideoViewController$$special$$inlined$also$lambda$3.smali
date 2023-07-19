@@ -40,7 +40,6 @@
 
     const-string p1, "event"
 
-    .line 1
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
@@ -53,7 +52,6 @@
 
     return p2
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/mopub/mobileads/VastVideoViewController$$special$$inlined$also$lambda$3;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
@@ -63,12 +61,10 @@
 
     invoke-virtual {p1, v0}, Lcom/mopub/mobileads/VastVideoViewController;->setClosing(Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/mobileads/VastVideoViewController$$special$$inlined$also$lambda$3;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastVideoViewController;->handleExitTrackers()V
 
-    .line 4
     new-instance p1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;

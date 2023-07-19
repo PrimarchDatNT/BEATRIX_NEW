@@ -55,10 +55,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->k()I
@@ -67,7 +65,6 @@
 
     iput v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->L:I
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$fBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$fBinding$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
@@ -78,7 +75,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->M:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$mViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$mViewModel$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
@@ -89,7 +85,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->N:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$groupAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$groupAdapter$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
@@ -100,7 +95,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->O:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$recentChildAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$recentChildAdapter$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
@@ -111,7 +105,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->P:Lcotlin/w;
 
-    .line 7
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$childAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$childAdapter$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
@@ -122,7 +115,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->Q:Lcotlin/w;
 
-    .line 8
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$childLayoutManager$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$childLayoutManager$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
@@ -133,7 +125,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->R:Lcotlin/w;
 
-    .line 9
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$groupLayoutManager$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$groupLayoutManager$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
@@ -144,14 +135,12 @@
 
     iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->S:Lcotlin/w;
 
-    .line 10
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$m;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$m;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
 
     iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->T:Lcom/commsource/util/common/b;
 
-    .line 11
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$n;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$n;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
@@ -168,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/formula/FormulaFragment;->g0(Lcom/commsource/studio/formula/JsFormula;ZZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -183,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->i0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -198,7 +185,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->j0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -213,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->l0()Lcom/commsource/widget/h1/e;
 
     move-result-object p0
@@ -230,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->m0()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
     move-result-object p0
@@ -247,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object p0
@@ -264,7 +247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->o0()Lcom/commsource/widget/h1/e;
 
     move-result-object p0
@@ -281,7 +263,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -296,7 +277,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->q0()Lcom/commsource/studio/formula/FormulaViewModel;
 
     move-result-object p0
@@ -313,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->r0()Lcom/commsource/widget/h1/e;
 
     move-result-object p0
@@ -330,7 +309,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -345,7 +323,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/formula/FormulaFragment;->w0(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -360,14 +337,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->q0()Lcom/commsource/studio/formula/FormulaViewModel;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/formula/FormulaViewModel;->a0(Lcom/commsource/studio/formula/JsFormula;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -399,7 +374,6 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -410,7 +384,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -423,12 +396,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/a;->W(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->q0()Lcom/commsource/studio/formula/FormulaViewModel;
 
     move-result-object v2
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -449,16 +420,13 @@
 
     move v8, p2
 
-    .line 7
     invoke-static/range {v2 .. v10}, Lcom/commsource/studio/formula/FormulaViewModel;->F(Lcom/commsource/studio/formula/FormulaViewModel;Lcom/commsource/studio/formula/JsFormula;Lcom/commsource/studio/bean/PictureLayerInfo;Lcom/commsource/studio/bean/a;ZZZILjava/lang/Object;)V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_2
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -479,7 +447,6 @@
 
     if-eq v1, p2, :cond_3
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p2
@@ -490,7 +457,6 @@
 
     move-result-object p2
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p3
@@ -503,7 +469,6 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p3
@@ -516,7 +481,6 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p2
@@ -533,14 +497,12 @@
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p2
 
     iget-object v1, p2, Lcom/commsource/beautyplus/f0/k0;->b0:Lcom/commsource/studio/PictureSelectView;
 
-    .line 15
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v2
@@ -549,7 +511,6 @@
 
     invoke-static {v2, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p2
@@ -562,17 +523,14 @@
 
     const/4 v5, 0x1
 
-    .line 17
     new-instance v6, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$3;
 
     invoke-direct {v6, p0, p1}, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$3;-><init>(Lcom/commsource/studio/formula/FormulaFragment;Lcom/commsource/studio/formula/JsFormula;)V
 
-    .line 18
     invoke-virtual/range {v1 .. v6}, Lcom/commsource/studio/PictureSelectView;->r(Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLcotlin/jvm/u/l;)V
 
     goto :goto_1
 
-    .line 19
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -598,7 +556,6 @@
 
     const/4 p2, 0x0
 
-    .line 20
     invoke-direct {p0, p1, p2, p2}, Lcom/commsource/studio/formula/FormulaFragment;->g0(Lcom/commsource/studio/formula/JsFormula;ZZ)V
 
     goto :goto_1
@@ -606,34 +563,28 @@
     :cond_4
     sget v1, Lcom/res/provider/ResSTRING;->t_import_photo:I
 
-    .line 21
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v1
 
     sget v2, Lcom/res/provider/ResSTRING;->t_import:I
 
-    .line 22
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 23
     new-instance v3, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$1;
 
     invoke-direct {v3, p0, p1, p2, p3}, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$1;-><init>(Lcom/commsource/studio/formula/FormulaFragment;Lcom/commsource/studio/formula/JsFormula;ZZ)V
 
     sget p1, Lcom/res/provider/ResSTRING;->selfie_ai_cancel:I
 
-    .line 24
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 25
     invoke-static {v1, v2, v3, p1}, Lcom/commsource/widget/dialog/s0/t;->j0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;)V
 
-    .line 26
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -660,7 +611,6 @@
 
     if-eqz p4, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p3
@@ -720,7 +670,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->g()Lcom/commsource/camera/xcamera/cover/bottomFunction/e;
 
     move-result-object v1
@@ -735,12 +684,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
@@ -758,7 +705,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/l0;->r0(Landroidx/recyclerview/widget/RecyclerView;ZLcom/commsource/util/common/b;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -771,7 +717,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->g()Lcom/commsource/camera/xcamera/cover/bottomFunction/e;
 
     move-result-object v1
@@ -786,12 +731,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
@@ -809,7 +752,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/l0;->r0(Landroidx/recyclerview/widget/RecyclerView;ZLcom/commsource/util/common/b;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -962,70 +904,60 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object v1
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/m8;->g:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->p0()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->o0()Lcom/commsource/widget/h1/e;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/formula/a;
 
     invoke-direct {v2}, Lcom/commsource/studio/formula/a;-><init>()V
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object v1
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/m8;->d:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->m0()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->l0()Lcom/commsource/widget/h1/e;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 8
     new-instance v2, Lcom/commsource/studio/formula/d;
 
     invoke-direct {v2}, Lcom/commsource/studio/formula/d;-><init>()V
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object v1
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/m8;->p:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 10
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
     iget-object v3, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1036,13 +968,10 @@
 
     const/4 v3, 0x2
 
-    .line 11
     invoke-virtual {v2, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;->f(I)V
 
-    .line 12
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 13
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->r0()Lcom/commsource/widget/h1/e;
 
     move-result-object v2
@@ -1051,17 +980,14 @@
 
     const/4 v2, 0x0
 
-    .line 14
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setItemAnimator(Landroidx/recyclerview/widget/RecyclerView$ItemAnimator;)V
 
-    .line 15
     new-instance v2, Lcom/commsource/studio/formula/d;
 
     invoke-direct {v2}, Lcom/commsource/studio/formula/d;-><init>()V
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 16
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object v1
@@ -1082,7 +1008,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setTranslationX(F)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1095,7 +1020,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object v1
@@ -1108,7 +1032,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object v1
@@ -1121,7 +1044,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object v1
@@ -1134,7 +1056,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->o0()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
@@ -1147,7 +1068,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->l0()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
@@ -1160,7 +1080,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->r0()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
@@ -1173,7 +1092,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object v1
@@ -1186,7 +1104,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/formula/DragToSwitchLayout;->setOnDragEnd(Lcotlin/jvm/u/l;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object v1
@@ -1199,7 +1116,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/formula/DragToSwitchLayout;->setOnDragEnd(Lcotlin/jvm/u/l;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1212,12 +1128,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->q0()Lcom/commsource/studio/formula/FormulaViewModel;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v2
@@ -1228,7 +1142,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/formula/FormulaViewModel;->U(Lcom/commsource/beautyplus/router/RouterEntity;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/formula/FormulaViewModel;->L()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -1243,7 +1156,6 @@
 
     invoke-virtual {v2, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/formula/FormulaViewModel;->R()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -1258,7 +1170,6 @@
 
     invoke-virtual {v2, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/studio/formula/FormulaViewModel;->I()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -1273,7 +1184,6 @@
 
     invoke-virtual {v2, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/studio/formula/FormulaViewModel;->P()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -1288,7 +1198,6 @@
 
     invoke-virtual {v2, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/studio/formula/FormulaViewModel;->O()Landroidx/lifecycle/MediatorLiveData;
 
     move-result-object v2
@@ -1303,7 +1212,6 @@
 
     invoke-virtual {v2, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/studio/formula/FormulaViewModel;->S()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -1318,7 +1226,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1337,7 +1244,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object v3
@@ -1372,7 +1278,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object v3
@@ -1383,7 +1288,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->q0()Lcom/commsource/studio/formula/FormulaViewModel;
 
     move-result-object v3
@@ -1398,7 +1302,6 @@
 
     invoke-virtual {v3, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object p1
@@ -1419,7 +1322,6 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object p1
@@ -1442,12 +1344,10 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->i0()V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
@@ -1463,7 +1363,6 @@
 
     if-nez v3, :cond_1
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object v3
@@ -1474,7 +1373,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->q0()Lcom/commsource/studio/formula/FormulaViewModel;
 
     move-result-object v3
@@ -1489,7 +1387,6 @@
 
     invoke-virtual {v3, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object p1
@@ -1510,7 +1407,6 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 11
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object p1
@@ -1539,10 +1435,8 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->j0()V
 
-    .line 13
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1559,7 +1453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1574,7 +1467,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/formula/FormulaFragment;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1589,10 +1481,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->m()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->g()Lcom/commsource/camera/xcamera/cover/bottomFunction/e;
 
     move-result-object v1
@@ -1607,7 +1497,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->q0()Lcom/commsource/studio/formula/FormulaViewModel;
 
     move-result-object v1
@@ -1618,14 +1507,11 @@
 
     invoke-virtual {v1}, Ljava/util/HashMap;->clear()V
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->j0()V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->i0()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1656,7 +1542,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
 
     move-result-object p1
@@ -1713,19 +1598,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->s0()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->u0()V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->t0()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1765,7 +1645,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -1789,7 +1668,6 @@
     :cond_0
     move-object v1, v2
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -1821,7 +1699,6 @@
     :cond_2
     const/4 v2, 0x0
 
-    .line 3
     :goto_1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 

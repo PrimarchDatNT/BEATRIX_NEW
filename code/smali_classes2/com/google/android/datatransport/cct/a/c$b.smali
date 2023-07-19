@@ -36,7 +36,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/cct/a/a$a;-><init>()V
 
     return-void
@@ -51,7 +50,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/c$b;->a:Ljava/lang/Integer;
 
     return-object p0
@@ -64,7 +62,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/c$b;->d:Ljava/lang/String;
 
     return-object p0
@@ -73,7 +70,6 @@
 .method public c()Lcom/google/android/datatransport/cct/a/a;
     .locals 11
 
-    .line 1
     new-instance v10, Lcom/google/android/datatransport/cct/a/c;
 
     iget-object v1, p0, Lcom/google/android/datatransport/cct/a/c$b;->a:Ljava/lang/Integer;
@@ -108,7 +104,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/c$b;->h:Ljava/lang/String;
 
     return-object p0
@@ -121,7 +116,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/c$b;->c:Ljava/lang/String;
 
     return-object p0
@@ -134,7 +128,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/c$b;->g:Ljava/lang/String;
 
     return-object p0
@@ -147,7 +140,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/c$b;->b:Ljava/lang/String;
 
     return-object p0
@@ -160,7 +152,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/c$b;->f:Ljava/lang/String;
 
     return-object p0
@@ -173,7 +164,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/c$b;->e:Ljava/lang/String;
 
     return-object p0

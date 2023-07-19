@@ -76,22 +76,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p4}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lio/grpc/InternalChannelz$i;->b:Ljava/lang/Integer;
 
-    .line 4
     iput-object p2, p0, Lio/grpc/InternalChannelz$i;->c:Ljava/lang/Integer;
 
-    .line 5
     iput-object p3, p0, Lio/grpc/InternalChannelz$i;->d:Lio/grpc/InternalChannelz$k;
 
-    .line 6
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1, p4}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V

@@ -31,7 +31,6 @@
 .method constructor <init>(Lbolts/g;Lbolts/p;Lbolts/k;Lbolts/o;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/o$e;->a:Lbolts/g;
 
     iput-object p2, p0, Lbolts/o$e;->b:Lbolts/p;
@@ -50,7 +49,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lbolts/o$e;->a:Lbolts/g;
 
     if-eqz v0, :cond_0
@@ -61,14 +59,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lbolts/o$e;->b:Lbolts/p;
 
     invoke-virtual {v0}, Lbolts/p;->b()V
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v0, p0, Lbolts/o$e;->c:Lbolts/k;
@@ -79,7 +75,6 @@
 
     move-result-object v0
 
-    .line 4
     iget-object v1, p0, Lbolts/o$e;->b:Lbolts/p;
 
     invoke-virtual {v1, v0}, Lbolts/p;->d(Ljava/lang/Object;)V
@@ -92,14 +87,12 @@
     :catch_0
     move-exception v0
 
-    .line 5
     iget-object v1, p0, Lbolts/o$e;->b:Lbolts/p;
 
     invoke-virtual {v1, v0}, Lbolts/p;->c(Ljava/lang/Exception;)V
 
     goto :goto_0
 
-    .line 6
     :catch_1
     iget-object v0, p0, Lbolts/o$e;->b:Lbolts/p;
 

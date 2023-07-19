@@ -36,7 +36,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,52 +50,42 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/dialog/j0;
 
     invoke-direct {v1, p1}, Lcom/commsource/widget/dialog/j0;-><init>(Landroid/content/Context;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/dialog/j0$a;->c:Ljava/lang/String;
 
     invoke-static {v1, p1}, Lcom/commsource/widget/dialog/j0;->a(Lcom/commsource/widget/dialog/j0;Ljava/lang/String;)V
 
-    .line 3
     iget p1, p0, Lcom/commsource/widget/dialog/j0$a;->a:I
 
     invoke-static {v1, p1}, Lcom/commsource/widget/dialog/j0;->b(Lcom/commsource/widget/dialog/j0;I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/dialog/j0$a;->b:Ljava/lang/String;
 
     invoke-static {v1, p1}, Lcom/commsource/widget/dialog/j0;->c(Lcom/commsource/widget/dialog/j0;Ljava/lang/String;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/widget/dialog/j0$a;->h:Lcom/commsource/widget/dialog/j0$b;
 
     invoke-static {v1, p1}, Lcom/commsource/widget/dialog/j0;->d(Lcom/commsource/widget/dialog/j0;Lcom/commsource/widget/dialog/j0$b;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/widget/dialog/j0$a;->d:Ljava/lang/String;
 
     invoke-static {v1, p1}, Lcom/commsource/widget/dialog/j0;->e(Lcom/commsource/widget/dialog/j0;Ljava/lang/String;)V
 
-    .line 7
     iget-boolean p1, p0, Lcom/commsource/widget/dialog/j0$a;->e:Z
 
     invoke-static {v1, p1}, Lcom/commsource/widget/dialog/j0;->f(Lcom/commsource/widget/dialog/j0;Z)V
 
-    .line 8
     iget-boolean p1, p0, Lcom/commsource/widget/dialog/j0$a;->f:Z
 
     invoke-static {v1, p1}, Lcom/commsource/widget/dialog/j0;->g(Lcom/commsource/widget/dialog/j0;Z)V
 
-    .line 9
     iget-boolean p1, p0, Lcom/commsource/widget/dialog/j0$a;->g:Z
 
     invoke-static {v1, p1}, Lcom/commsource/widget/dialog/j0;->h(Lcom/commsource/widget/dialog/j0;Z)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -109,10 +98,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/j0$a;->c:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -125,10 +112,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/dialog/j0$a;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -141,10 +126,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/j0$a;->d:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -157,10 +140,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/j0$a;->f:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -173,10 +154,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/j0$a;->g:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -189,10 +168,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/j0$a;->e:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -205,10 +182,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/j0$a;->h:Lcom/commsource/widget/dialog/j0$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -221,10 +196,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/j0$a;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

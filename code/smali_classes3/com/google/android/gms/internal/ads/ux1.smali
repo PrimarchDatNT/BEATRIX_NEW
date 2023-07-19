@@ -17,7 +17,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 .method private static a()Ljavax/crypto/Cipher;
     .locals 2
 
-    .line 1
     :try_start_0
     sget-object v0, Lcom/google/android/gms/internal/ads/oy1;->f:Lcom/google/android/gms/internal/ads/oy1;
 
@@ -45,7 +43,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Ljava/lang/IllegalStateException;
 
     invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
@@ -58,7 +55,6 @@
 .method protected final synthetic initialValue()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/ux1;->a()Ljavax/crypto/Cipher;
 
     move-result-object v0

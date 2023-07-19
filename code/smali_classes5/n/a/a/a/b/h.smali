@@ -25,10 +25,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Ln/a/a/a/b/i;-><init>(Lorg/aspectj/lang/reflect/c;Ljava/lang/String;I)V
 
-    .line 2
     iput-object p4, p0, Ln/a/a/a/b/h;->e:Ljava/lang/reflect/Method;
 
     return-void
@@ -46,14 +44,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/h;->e:Ljava/lang/reflect/Method;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
 
     move-result-object v0
 
-    .line 2
     array-length v1, v0
 
     const/4 v2, 0x1
@@ -62,7 +58,6 @@
 
     new-array v1, v1, [Lorg/aspectj/lang/reflect/c;
 
-    .line 3
     :goto_0
     array-length v3, v0
 
@@ -70,7 +65,6 @@
 
     add-int/lit8 v3, v2, -0x1
 
-    .line 4
     aget-object v4, v0, v2
 
     invoke-static {v4}, Lorg/aspectj/lang/reflect/d;->a(Ljava/lang/Class;)Lorg/aspectj/lang/reflect/c;
@@ -97,27 +91,23 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/h;->e:Ljava/lang/reflect/Method;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->getExceptionTypes()[Ljava/lang/Class;
 
     move-result-object v0
 
-    .line 2
     array-length v1, v0
 
     new-array v1, v1, [Lorg/aspectj/lang/reflect/c;
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     array-length v3, v0
 
     if-ge v2, v3, :cond_0
 
-    .line 4
     aget-object v3, v0, v2
 
     invoke-static {v3}, Lorg/aspectj/lang/reflect/d;->a(Ljava/lang/Class;)Lorg/aspectj/lang/reflect/c;
@@ -137,14 +127,12 @@
 .method public e()[Ljava/lang/reflect/Type;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/h;->e:Ljava/lang/reflect/Method;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->getGenericParameterTypes()[Ljava/lang/reflect/Type;
 
     move-result-object v0
 
-    .line 2
     array-length v1, v0
 
     const/4 v2, 0x1
@@ -153,13 +141,11 @@
 
     new-array v1, v1, [Lorg/aspectj/lang/reflect/c;
 
-    .line 3
     :goto_0
     array-length v3, v0
 
     if-ge v2, v3, :cond_1
 
-    .line 4
     aget-object v3, v0, v2
 
     instance-of v3, v3, Ljava/lang/Class;
@@ -168,7 +154,6 @@
 
     add-int/lit8 v3, v2, -0x1
 
-    .line 5
     aget-object v4, v0, v2
 
     check-cast v4, Ljava/lang/Class;
@@ -184,7 +169,6 @@
     :cond_0
     add-int/lit8 v3, v2, -0x1
 
-    .line 6
     aget-object v4, v0, v2
 
     aput-object v4, v1, v3
@@ -201,12 +185,10 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Ln/a/a/a/b/i;->getModifiers()I
 
     move-result v1
@@ -219,32 +201,26 @@
 
     const-string v1, " "
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 4
     iget-object v1, p0, Ln/a/a/a/b/i;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     const-string v1, ".new"
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     const-string v1, "("
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 7
     invoke-virtual {p0}, Ln/a/a/a/b/h;->c()[Lorg/aspectj/lang/reflect/c;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    .line 8
     :goto_0
     array-length v3, v1
 
@@ -252,7 +228,6 @@
 
     if-ge v2, v3, :cond_0
 
-    .line 9
     aget-object v3, v1, v2
 
     invoke-virtual {v3}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -263,20 +238,17 @@
 
     const-string v3, ", "
 
-    .line 10
     invoke-virtual {v0, v3}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 11
     :cond_0
     array-length v2, v1
 
     if-lez v2, :cond_1
 
-    .line 12
     array-length v2, v1
 
     add-int/lit8 v2, v2, -0x1
@@ -292,10 +264,8 @@
     :cond_1
     const-string v1, ")"
 
-    .line 13
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 14
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object v0

@@ -72,14 +72,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/d;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/selects/b$a;->c:Lcotlinx/coroutines/selects/b;
 
     iput-object p2, p0, Lcotlinx/coroutines/selects/b$a;->d:Lcotlinx/coroutines/internal/b;
 
-    .line 2
     invoke-static {}, Lcotlinx/coroutines/selects/g;->e()Lcotlinx/coroutines/selects/i;
 
     move-result-object p1
@@ -90,7 +88,6 @@
 
     iput-wide v0, p0, Lcotlinx/coroutines/selects/b$a;->b:J
 
-    .line 3
     invoke-virtual {p2, p0}, Lcotlinx/coroutines/internal/b;->d(Lcotlinx/coroutines/internal/d;)V
 
     return-void
@@ -115,11 +112,9 @@
 
     goto :goto_1
 
-    .line 1
     :cond_1
     iget-object v0, p0, Lcotlinx/coroutines/selects/b$a;->c:Lcotlinx/coroutines/selects/b;
 
-    .line 2
     :goto_1
     iget-object v1, p0, Lcotlinx/coroutines/selects/b$a;->c:Lcotlinx/coroutines/selects/b;
 
@@ -133,7 +128,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     iget-object p1, p0, Lcotlinx/coroutines/selects/b$a;->c:Lcotlinx/coroutines/selects/b;
 
     invoke-static {p1}, Lcotlinx/coroutines/selects/b;->i0(Lcotlinx/coroutines/selects/b;)V
@@ -145,10 +139,8 @@
 .method private final j()Ljava/lang/Object;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/selects/b$a;->c:Lcotlinx/coroutines/selects/b;
 
-    .line 2
     :cond_0
     :goto_0
     iget-object v1, v0, Lcotlinx/coroutines/selects/b;->_state:Ljava/lang/Object;
@@ -159,7 +151,6 @@
 
     return-object v2
 
-    .line 3
     :cond_1
     instance-of v3, v1, Lcotlinx/coroutines/internal/v;
 
@@ -173,13 +164,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     iget-object v3, p0, Lcotlinx/coroutines/selects/b$a;->c:Lcotlinx/coroutines/selects/b;
 
     if-ne v1, v3, :cond_3
 
-    .line 5
     sget-object v1, Lcotlinx/coroutines/selects/b;->f:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v1, v3, v3, p0}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -190,7 +179,6 @@
 
     return-object v2
 
-    .line 6
     :cond_3
     invoke-static {}, Lcotlinx/coroutines/selects/g;->g()Ljava/lang/Object;
 
@@ -202,7 +190,6 @@
 .method private final k()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/selects/b$a;->c:Lcotlinx/coroutines/selects/b;
 
     sget-object v1, Lcotlinx/coroutines/selects/b;->f:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
@@ -225,10 +212,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p2}, Lcotlinx/coroutines/selects/b$a;->i(Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcotlinx/coroutines/selects/b$a;->d:Lcotlinx/coroutines/internal/b;
 
     invoke-virtual {p1, p0, p2}, Lcotlinx/coroutines/internal/b;->a(Lcotlinx/coroutines/internal/d;Ljava/lang/Object;)V
@@ -239,7 +224,6 @@
 .method public f()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/selects/b$a;->b:J
 
     return-wide v0
@@ -256,7 +240,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/selects/b$a;->j()Ljava/lang/Object;
 
     move-result-object v0
@@ -265,7 +248,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     :try_start_0
     iget-object v0, p0, Lcotlinx/coroutines/selects/b$a;->d:Lcotlinx/coroutines/internal/b;
@@ -283,10 +265,8 @@
 
     if-nez p1, :cond_1
 
-    .line 3
     invoke-direct {p0}, Lcotlinx/coroutines/selects/b$a;->k()V
 
-    .line 4
     :cond_1
     throw v0
 .end method
@@ -296,7 +276,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

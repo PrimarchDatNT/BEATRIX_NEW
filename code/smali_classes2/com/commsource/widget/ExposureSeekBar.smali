@@ -134,20 +134,16 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, -0x1
 
-    .line 3
     iput p1, p0, Lcom/commsource/widget/ExposureSeekBar;->c:I
 
     const/16 p1, -0x100
 
-    .line 4
     iput p1, p0, Lcom/commsource/widget/ExposureSeekBar;->d:I
 
-    .line 5
     new-instance p2, Landroid/graphics/Paint;
 
     const/4 p3, 0x1
@@ -158,7 +154,6 @@
 
     const/high16 p2, 0x40400000    # 3.0f
 
-    .line 6
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p2
@@ -167,7 +162,6 @@
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 7
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p2
@@ -178,48 +172,40 @@
 
     const/16 p2, 0x32
 
-    .line 8
     iput p2, p0, Lcom/commsource/widget/ExposureSeekBar;->J:I
 
     const/16 p3, 0x64
 
-    .line 9
     iput p3, p0, Lcom/commsource/widget/ExposureSeekBar;->K:I
 
-    .line 10
     new-instance p3, Landroid/graphics/RectF;
 
     invoke-direct {p3}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/widget/ExposureSeekBar;->M:Landroid/graphics/RectF;
 
-    .line 11
     new-instance p3, Landroid/graphics/RectF;
 
     invoke-direct {p3}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/widget/ExposureSeekBar;->N:Landroid/graphics/RectF;
 
-    .line 12
     new-instance p3, Landroid/graphics/RectF;
 
     invoke-direct {p3}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/widget/ExposureSeekBar;->O:Landroid/graphics/RectF;
 
-    .line 13
     iput p2, p0, Lcom/commsource/widget/ExposureSeekBar;->P:I
 
     sget p2, Lcom/res/provider/ResDRAWABLE;->selfie_icon_exposure_white:I
 
-    .line 14
     invoke-static {p2}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/commsource/widget/ExposureSeekBar;->Q:Landroid/graphics/drawable/Drawable;
 
-    .line 15
     new-instance p2, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p2}, Lcom/commsource/camera/f1/n;-><init>()V
@@ -230,14 +216,12 @@
 
     new-array p3, p2, [F
 
-    .line 16
     fill-array-data p3, :array_0
 
     invoke-static {p3}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
 
     move-result-object p3
 
-    .line 17
     new-instance v0, Lcom/commsource/widget/ExposureSeekBar$c;
 
     invoke-direct {v0, p0}, Lcom/commsource/widget/ExposureSeekBar$c;-><init>(Lcom/commsource/widget/ExposureSeekBar;)V
@@ -248,7 +232,6 @@
 
     const-wide/16 v0, 0x12c
 
-    .line 18
     invoke-virtual {p3, v0, v1}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p3
@@ -257,14 +240,12 @@
 
     new-array p2, p2, [F
 
-    .line 19
     fill-array-data p2, :array_1
 
     invoke-static {p2}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
 
     move-result-object p2
 
-    .line 20
     new-instance p3, Lcom/commsource/widget/ExposureSeekBar$b;
 
     invoke-direct {p3, p0}, Lcom/commsource/widget/ExposureSeekBar$b;-><init>(Lcom/commsource/widget/ExposureSeekBar;)V
@@ -273,19 +254,16 @@
 
     move-result-object p2
 
-    .line 21
     invoke-virtual {p2, v0, v1}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/commsource/widget/ExposureSeekBar;->U:Lcom/commsource/camera/f1/l;
 
-    .line 22
     iget-object p2, p0, Lcom/commsource/widget/ExposureSeekBar;->f:Landroid/graphics/Paint;
 
     invoke-virtual {p2, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/widget/ExposureSeekBar;->f:Landroid/graphics/Paint;
 
     iget p2, p0, Lcom/commsource/widget/ExposureSeekBar;->R:F
@@ -333,7 +311,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/ExposureSeekBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -347,7 +324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/ExposureSeekBar;->S:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -362,7 +338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/widget/ExposureSeekBar;->R:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -377,7 +352,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/ExposureSeekBar;->S:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -392,7 +366,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/ExposureSeekBar;->R:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -409,7 +382,6 @@
 
     int-to-float p1, p1
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/ExposureSeekBar;->K:I
 
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->L:I
@@ -468,7 +440,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/ExposureSeekBar;->g:I
 
     int-to-float v1, v1
@@ -485,7 +456,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->Q:Landroid/graphics/drawable/Drawable;
 
     const-string v2, "thumbDrawable"
@@ -514,7 +484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/ExposureSeekBar;->a:I
 
     int-to-float v1, v1
@@ -523,7 +492,6 @@
 
     div-float/2addr v1, v2
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/ExposureSeekBar;->getThumbOffset()F
 
     move-result v2
@@ -538,7 +506,6 @@
 
     if-gez v2, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/ExposureSeekBar;->getThumbOffset()F
 
     move-result p1
@@ -551,7 +518,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->b:I
 
@@ -573,7 +539,6 @@
 
     if-lez v2, :cond_1
 
-    .line 5
     iget p1, p0, Lcom/commsource/widget/ExposureSeekBar;->b:I
 
     int-to-float p1, p1
@@ -590,7 +555,6 @@
 
     sub-float/2addr p1, v2
 
-    .line 6
     :cond_1
     :goto_0
     invoke-direct {p0}, Lcom/commsource/widget/ExposureSeekBar;->getThumbRadius()F
@@ -641,12 +605,10 @@
 
     float-to-int v2, v2
 
-    .line 7
     iget v3, p0, Lcom/commsource/widget/ExposureSeekBar;->K:I
 
     sub-int/2addr v3, v2
 
-    .line 8
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->P:I
 
     add-int/lit8 v4, v2, -0x2
@@ -657,35 +619,29 @@
 
     if-gt v3, v4, :cond_2
 
-    .line 9
     invoke-direct {p0, v2}, Lcom/commsource/widget/ExposureSeekBar;->g(I)F
 
     move-result p1
 
     move v3, v2
 
-    .line 10
     :cond_2
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->J:I
 
     if-eq v2, v3, :cond_4
 
-    .line 11
     iput v3, p0, Lcom/commsource/widget/ExposureSeekBar;->J:I
 
-    .line 12
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->P:I
 
     if-ne v3, v2, :cond_3
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/widget/ExposureSeekBar;->V:Lcom/commsource/widget/ExposureSeekBar$a;
 
     if-eqz v2, :cond_3
 
     invoke-interface {v2, v3}, Lcom/commsource/widget/ExposureSeekBar$a;->b(I)V
 
-    .line 14
     :cond_3
     iget-object v2, p0, Lcom/commsource/widget/ExposureSeekBar;->V:Lcom/commsource/widget/ExposureSeekBar$a;
 
@@ -695,7 +651,6 @@
 
     invoke-interface {v2, v3, p2}, Lcom/commsource/widget/ExposureSeekBar$a;->a(IZ)V
 
-    .line 15
     :cond_4
     iget p2, p0, Lcom/commsource/widget/ExposureSeekBar;->J:I
 
@@ -703,14 +658,12 @@
 
     if-ne p2, v2, :cond_5
 
-    .line 16
     iget-object p2, p0, Lcom/commsource/widget/ExposureSeekBar;->f:Landroid/graphics/Paint;
 
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->c:I
 
     invoke-virtual {p2, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 17
     iget-object p2, p0, Lcom/commsource/widget/ExposureSeekBar;->Q:Landroid/graphics/drawable/Drawable;
 
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->c:I
@@ -721,7 +674,6 @@
 
     goto :goto_1
 
-    .line 18
     :cond_5
     iget-object p2, p0, Lcom/commsource/widget/ExposureSeekBar;->f:Landroid/graphics/Paint;
 
@@ -729,7 +681,6 @@
 
     invoke-virtual {p2, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 19
     iget-object p2, p0, Lcom/commsource/widget/ExposureSeekBar;->Q:Landroid/graphics/drawable/Drawable;
 
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->d:I
@@ -738,7 +689,6 @@
 
     invoke-virtual {p2, v2, v3}, Landroid/graphics/drawable/Drawable;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 
-    .line 20
     :goto_1
     iget-object p2, p0, Lcom/commsource/widget/ExposureSeekBar;->O:Landroid/graphics/RectF;
 
@@ -768,7 +718,6 @@
 
     invoke-virtual {p2, v2, v3, v4, v5}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 21
     iget-object p2, p0, Lcom/commsource/widget/ExposureSeekBar;->M:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->p:F
@@ -793,7 +742,6 @@
 
     invoke-virtual {p2, v3, v4, v2, v5}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 22
     iget-object p2, p0, Lcom/commsource/widget/ExposureSeekBar;->N:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->p:F
@@ -822,10 +770,8 @@
 
     invoke-virtual {p2, v2, p1, v1, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 23
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -838,7 +784,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/ExposureSeekBar;->g(I)F
 
     move-result p1
@@ -847,7 +792,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/widget/ExposureSeekBar;->j(FZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -933,7 +877,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->V:Lcom/commsource/widget/ExposureSeekBar$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -948,7 +891,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/ExposureSeekBar;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -963,18 +905,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/ExposureSeekBar;->a:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/widget/ExposureSeekBar;->b:I
 
     const/16 p1, 0x32
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/commsource/widget/ExposureSeekBar;->setProgressInner(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -987,32 +925,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->U:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->T:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 3
     invoke-static {p0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->T:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->U:Lcom/commsource/camera/f1/l;
 
     const-wide/16 v2, 0xaf0
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/f1/l;->k(J)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1029,7 +961,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/ExposureSeekBar;->R:F
 
     const/4 v2, 0x0
@@ -1038,18 +969,15 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->f:Landroid/graphics/Paint;
 
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->R:F
@@ -1064,7 +992,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->Q:Landroid/graphics/drawable/Drawable;
 
     const-string v2, "thumbDrawable"
@@ -1079,7 +1006,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->M:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->p:F
@@ -1088,7 +1014,6 @@
 
     invoke-virtual {p1, v1, v2, v2, v3}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->Q:Landroid/graphics/drawable/Drawable;
 
     iget-object v2, p0, Lcom/commsource/widget/ExposureSeekBar;->O:Landroid/graphics/RectF;
@@ -1111,12 +1036,10 @@
 
     invoke-virtual {v1, v3, v4, v5, v2}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->Q:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->N:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/widget/ExposureSeekBar;->p:F
@@ -1125,7 +1048,6 @@
 
     invoke-virtual {p1, v1, v2, v2, v3}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1139,17 +1061,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super/range {p0 .. p5}, Landroid/view/View;->onLayout(ZIIII)V
 
     sub-int/2addr p4, p2
 
     sub-int/2addr p5, p3
 
-    .line 2
     invoke-virtual {p0, p4, p5}, Lcom/commsource/widget/ExposureSeekBar;->h(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1162,13 +1081,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/ExposureSeekBar;->h(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1185,7 +1101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->isEnabled()Z
 
     move-result v1
@@ -1202,7 +1117,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->U:Lcom/commsource/camera/f1/l;
 
@@ -1210,7 +1124,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v1
@@ -1219,7 +1132,6 @@
 
     invoke-direct {p0, v1, v2}, Lcom/commsource/widget/ExposureSeekBar;->j(FZ)V
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
@@ -1238,19 +1150,16 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_2
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->U:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/ExposureSeekBar;->U:Lcom/commsource/camera/f1/l;
 
     const-wide/16 v2, 0x9c4
@@ -1259,13 +1168,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 9
     :cond_4
     :goto_0
     invoke-super {p0, p1}, Landroid/view/View;->onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -1276,7 +1183,6 @@
 
     return p1
 
-    .line 10
     :cond_5
     :goto_1
     invoke-super {p0, p1}, Landroid/view/View;->onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -1299,7 +1205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/ExposureSeekBar;->V:Lcom/commsource/widget/ExposureSeekBar$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1314,7 +1219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/ExposureSeekBar;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

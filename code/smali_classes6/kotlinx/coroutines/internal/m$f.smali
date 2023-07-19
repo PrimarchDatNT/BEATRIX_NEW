@@ -26,7 +26,6 @@
 .method public constructor <init>(Lcotlin/jvm/u/a;Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/internal/m$f;->d:Lcotlin/jvm/u/a;
 
     iput-object p2, p0, Lcotlinx/coroutines/internal/m$f;->e:Lcotlinx/coroutines/internal/m;
@@ -41,7 +40,6 @@
 .method public bridge synthetic h(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlinx/coroutines/internal/m;
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/internal/m$f;->j(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
@@ -60,7 +58,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/internal/m$f;->d:Lcotlin/jvm/u/a;
 
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;

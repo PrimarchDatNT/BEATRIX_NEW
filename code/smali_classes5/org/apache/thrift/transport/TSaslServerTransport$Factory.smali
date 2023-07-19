@@ -45,12 +45,10 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/WeakHashMap;
 
     invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
 
-    .line 2
     invoke-static {v0}, Ljava/util/Collections;->synchronizedMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
@@ -63,10 +61,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransportFactory;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -93,17 +89,14 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransportFactory;-><init>()V
 
-    .line 4
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lorg/apache/thrift/transport/TSaslServerTransport$Factory;->serverDefinitionMap:Ljava/util/Map;
 
-    .line 5
     invoke-virtual/range {p0 .. p5}, Lorg/apache/thrift/transport/TSaslServerTransport$Factory;->addServerDefinition(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljavax/security/auth/callback/CallbackHandler;)V
 
     return-void
@@ -128,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TSaslServerTransport$Factory;->serverDefinitionMap:Ljava/util/Map;
 
     new-instance v7, Lorg/apache/thrift/transport/TSaslServerTransport$TSaslServerDefinition;
@@ -155,7 +147,6 @@
 .method public getTransport(Lorg/apache/thrift/transport/TTransport;)Lorg/apache/thrift/transport/TTransport;
     .locals 4
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/transport/TSaslServerTransport$Factory;->transportMap:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -166,7 +157,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v1
@@ -175,7 +165,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lorg/apache/thrift/transport/TSaslServerTransport;->access$000()Lorg/slf4j/c;
 
@@ -187,7 +176,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {}, Lorg/apache/thrift/transport/TSaslServerTransport;->access$000()Lorg/slf4j/c;
@@ -198,7 +186,6 @@
 
     invoke-interface {v0, v1, p1}, Lorg/slf4j/c;->debug(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 5
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     new-instance v1, Lorg/apache/thrift/transport/TSaslServerTransport;
@@ -211,7 +198,6 @@
 
     invoke-direct {v0, v1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    .line 6
     :try_start_0
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
@@ -223,12 +209,10 @@
     :try_end_0
     .catch Lorg/apache/thrift/transport/TTransportException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 7
     sget-object v1, Lorg/apache/thrift/transport/TSaslServerTransport$Factory;->transportMap:Ljava/util/Map;
 
     invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     :goto_1
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
@@ -241,7 +225,6 @@
     :catch_0
     move-exception p1
 
-    .line 9
     invoke-static {}, Lorg/apache/thrift/transport/TSaslServerTransport;->access$000()Lorg/slf4j/c;
 
     move-result-object v0
@@ -250,7 +233,6 @@
 
     invoke-interface {v0, v1, p1}, Lorg/slf4j/c;->debug(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 10
     new-instance v0, Ljava/lang/RuntimeException;
 
     invoke-direct {v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V

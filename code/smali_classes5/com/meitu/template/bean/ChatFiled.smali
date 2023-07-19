@@ -50,7 +50,6 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     return-void
@@ -61,10 +60,8 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/template/bean/ChatFiled;->id:Ljava/lang/Long;
 
     return-void
@@ -73,22 +70,16 @@
 .method public constructor <init>(Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/template/bean/ChatFiled;->id:Ljava/lang/Long;
 
-    .line 6
     iput-object p2, p0, Lcom/meitu/template/bean/ChatFiled;->uid:Ljava/lang/String;
 
-    .line 7
     iput-object p3, p0, Lcom/meitu/template/bean/ChatFiled;->token:Ljava/lang/String;
 
-    .line 8
     iput-object p4, p0, Lcom/meitu/template/bean/ChatFiled;->imagePath:Ljava/lang/String;
 
-    .line 9
     iput-object p5, p0, Lcom/meitu/template/bean/ChatFiled;->uploadState:Ljava/lang/Integer;
 
     return-void
@@ -103,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ChatFiled;->id:Ljava/lang/Long;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -118,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ChatFiled;->imagePath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ChatFiled;->token:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -148,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ChatFiled;->uid:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -163,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ChatFiled;->uploadState:Ljava/lang/Integer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -178,10 +164,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ChatFiled;->id:Ljava/lang/Long;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -194,10 +178,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ChatFiled;->imagePath:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -210,10 +192,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ChatFiled;->token:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -226,10 +206,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ChatFiled;->uid:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -242,10 +220,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ChatFiled;->uploadState:Ljava/lang/Integer;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

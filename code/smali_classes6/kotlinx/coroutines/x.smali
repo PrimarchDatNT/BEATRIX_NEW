@@ -23,7 +23,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/CompletableDeferredImpl;
 
     const/4 v1, 0x0
@@ -56,7 +55,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/CompletableDeferredImpl;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/CompletableDeferredImpl;-><init>(Lcotlinx/coroutines/c2;)V
@@ -73,7 +71,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0}, Lcotlinx/coroutines/x;->b(Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/w;
 
@@ -107,7 +104,6 @@
     .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
 
     move-result-object v0

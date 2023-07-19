@@ -109,32 +109,26 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x100
 
     new-array v0, v0, [I
 
-    .line 2
     iput-object v0, p0, Lcom/sdk/imp/l;->b:[I
 
     const/4 v0, 0x0
 
-    .line 3
     iput v0, p0, Lcom/sdk/imp/l;->f:I
 
-    .line 4
     iput v0, p0, Lcom/sdk/imp/l;->g:I
 
-    .line 5
     new-instance v0, Lcom/sdk/imp/l$a;
 
     invoke-direct {v0, p0}, Lcom/sdk/imp/l$a;-><init>(Lcom/sdk/imp/l;)V
 
     iput-object v0, p0, Lcom/sdk/imp/l;->q:Lcom/sdk/imp/l$a;
 
-    .line 6
     new-instance v0, Lcom/sdk/imp/l$c;
 
     invoke-direct {v0, p0}, Lcom/sdk/imp/l$c;-><init>(Lcom/sdk/imp/l;)V
@@ -150,7 +144,6 @@
         value = 0xc
     .end annotation
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xc
@@ -159,7 +152,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-virtual {p0, v0}, Landroid/graphics/Bitmap;->setHasAlpha(Z)V
 
     :cond_0
@@ -175,14 +167,12 @@
 
     move-object/from16 v2, p2
 
-    .line 1
     iget-object v10, v0, Lcom/sdk/imp/l;->m:[I
 
     const/4 v11, 0x0
 
     if-nez v2, :cond_0
 
-    .line 2
     invoke-static {v10, v11}, Ljava/util/Arrays;->fill([II)V
 
     :cond_0
@@ -194,24 +184,20 @@
 
     if-eqz v2, :cond_6
 
-    .line 3
     iget v3, v2, Lcom/sdk/imp/l$b;->g:I
 
     if-lez v3, :cond_6
 
     if-ne v3, v13, :cond_4
 
-    .line 4
     iget-boolean v3, v1, Lcom/sdk/imp/l$b;->f:Z
 
     if-nez v3, :cond_1
 
-    .line 5
     iget-object v3, v0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
     iget v4, v3, Lcom/sdk/imp/l$c;->l:I
 
-    .line 6
     iget-object v5, v1, Lcom/sdk/imp/l$b;->k:[I
 
     if-eqz v5, :cond_3
@@ -224,20 +210,17 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget v3, v0, Lcom/sdk/imp/l;->n:I
 
     if-nez v3, :cond_2
 
-    .line 8
     iput-boolean v14, v0, Lcom/sdk/imp/l;->x:Z
 
     :cond_2
     :goto_0
     const/4 v4, 0x0
 
-    .line 9
     :cond_3
     invoke-direct {v0, v10, v2, v4}, Lcom/sdk/imp/l;->e([ILcom/sdk/imp/l$b;I)V
 
@@ -246,17 +229,14 @@
     :cond_4
     if-ne v3, v12, :cond_6
 
-    .line 10
     iget-object v3, v0, Lcom/sdk/imp/l;->r:Landroid/graphics/Bitmap;
 
     if-nez v3, :cond_5
 
-    .line 11
     invoke-direct {v0, v10, v2, v11}, Lcom/sdk/imp/l;->e([ILcom/sdk/imp/l$b;I)V
 
     goto :goto_1
 
-    .line 12
     :cond_5
     iget v4, v2, Lcom/sdk/imp/l$b;->d:I
 
@@ -264,22 +244,18 @@
 
     div-int v9, v4, v5
 
-    .line 13
     iget v4, v2, Lcom/sdk/imp/l$b;->b:I
 
     div-int v7, v4, v5
 
-    .line 14
     iget v4, v2, Lcom/sdk/imp/l$b;->c:I
 
     div-int v8, v4, v5
 
-    .line 15
     iget v2, v2, Lcom/sdk/imp/l$b;->a:I
 
     div-int v6, v2, v5
 
-    .line 16
     iget v5, v0, Lcom/sdk/imp/l;->w:I
 
     mul-int v2, v7, v5
@@ -290,39 +266,32 @@
 
     move-object v3, v10
 
-    .line 17
     invoke-virtual/range {v2 .. v9}, Landroid/graphics/Bitmap;->getPixels([IIIIIII)V
 
-    .line 18
     :cond_6
     :goto_1
     invoke-direct/range {p0 .. p1}, Lcom/sdk/imp/l;->d(Lcom/sdk/imp/l$b;)V
 
-    .line 19
     iget v2, v1, Lcom/sdk/imp/l$b;->d:I
 
     iget v3, v0, Lcom/sdk/imp/l;->u:I
 
     div-int/2addr v2, v3
 
-    .line 20
     iget v4, v1, Lcom/sdk/imp/l$b;->b:I
 
     div-int/2addr v4, v3
 
-    .line 21
     iget v5, v1, Lcom/sdk/imp/l$b;->c:I
 
     div-int/2addr v5, v3
 
-    .line 22
     iget v6, v1, Lcom/sdk/imp/l$b;->a:I
 
     div-int/2addr v6, v3
 
     const/16 v3, 0x8
 
-    .line 23
     iget v7, v0, Lcom/sdk/imp/l;->n:I
 
     if-nez v7, :cond_7
@@ -342,7 +311,6 @@
     :goto_3
     if-ge v11, v2, :cond_12
 
-    .line 24
     iget-boolean v15, v1, Lcom/sdk/imp/l$b;->e:Z
 
     if-eqz v15, :cond_c
@@ -392,12 +360,10 @@
     :goto_5
     add-int/2addr v8, v4
 
-    .line 25
     iget v12, v0, Lcom/sdk/imp/l;->v:I
 
     if-ge v8, v12, :cond_11
 
-    .line 26
     iget v12, v0, Lcom/sdk/imp/l;->w:I
 
     mul-int v8, v8, v12
@@ -412,7 +378,6 @@
 
     add-int v13, v8, v12
 
-    .line 27
     :cond_d
     iget v8, v0, Lcom/sdk/imp/l;->u:I
 
@@ -435,7 +400,6 @@
 
     move/from16 p2, v2
 
-    .line 28
     iget v2, v0, Lcom/sdk/imp/l;->u:I
 
     move/from16 v16, v3
@@ -444,21 +408,18 @@
 
     if-ne v2, v3, :cond_e
 
-    .line 29
     iget-object v2, v0, Lcom/sdk/imp/l;->l:[B
 
     aget-byte v2, v2, v12
 
     and-int/lit16 v2, v2, 0xff
 
-    .line 30
     iget-object v3, v0, Lcom/sdk/imp/l;->a:[I
 
     aget v2, v3, v2
 
     goto :goto_7
 
-    .line 31
     :cond_e
     iget v2, v1, Lcom/sdk/imp/l$b;->c:I
 
@@ -469,12 +430,10 @@
     :goto_7
     if-eqz v2, :cond_f
 
-    .line 32
     aput v2, v10, v8
 
     goto :goto_8
 
-    .line 33
     :cond_f
     iget-boolean v2, v0, Lcom/sdk/imp/l;->x:Z
 
@@ -484,10 +443,8 @@
 
     const/4 v2, 0x1
 
-    .line 34
     iput-boolean v2, v0, Lcom/sdk/imp/l;->x:Z
 
-    .line 35
     :cond_10
     :goto_8
     iget v2, v0, Lcom/sdk/imp/l;->u:I
@@ -523,7 +480,6 @@
 
     goto/16 :goto_3
 
-    .line 36
     :cond_12
     iget-boolean v2, v0, Lcom/sdk/imp/l;->s:Z
 
@@ -537,20 +493,17 @@
 
     if-ne v1, v2, :cond_15
 
-    .line 37
     :cond_13
     iget-object v1, v0, Lcom/sdk/imp/l;->r:Landroid/graphics/Bitmap;
 
     if-nez v1, :cond_14
 
-    .line 38
     invoke-direct/range {p0 .. p0}, Lcom/sdk/imp/l;->o()Landroid/graphics/Bitmap;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/sdk/imp/l;->r:Landroid/graphics/Bitmap;
 
-    .line 39
     :cond_14
     iget-object v1, v0, Lcom/sdk/imp/l;->r:Landroid/graphics/Bitmap;
 
@@ -570,7 +523,6 @@
 
     invoke-virtual/range {v1 .. v8}, Landroid/graphics/Bitmap;->setPixels([IIIIIII)V
 
-    .line 40
     :cond_15
     invoke-direct/range {p0 .. p0}, Lcom/sdk/imp/l;->o()Landroid/graphics/Bitmap;
 
@@ -578,7 +530,6 @@
 
     const/4 v3, 0x0
 
-    .line 41
     iget v7, v0, Lcom/sdk/imp/l;->w:I
 
     const/4 v5, 0x0
@@ -615,7 +566,6 @@
 
     const/4 v6, 0x0
 
-    .line 1
     :goto_0
     iget v7, p0, Lcom/sdk/imp/l;->u:I
 
@@ -631,12 +581,10 @@
 
     if-ge v1, p2, :cond_1
 
-    .line 2
     aget-byte v7, v7, v1
 
     and-int/lit16 v7, v7, 0xff
 
-    .line 3
     iget-object v8, p0, Lcom/sdk/imp/l;->a:[I
 
     aget v7, v8, v7
@@ -677,7 +625,6 @@
 
     move p3, p1
 
-    .line 4
     :goto_1
     iget v1, p0, Lcom/sdk/imp/l;->u:I
 
@@ -693,12 +640,10 @@
 
     if-ge p3, p2, :cond_3
 
-    .line 5
     aget-byte v1, v1, p3
 
     and-int/lit16 v1, v1, 0xff
 
-    .line 6
     iget-object v7, p0, Lcom/sdk/imp/l;->a:[I
 
     aget v1, v7, v1
@@ -739,7 +684,6 @@
 
     return v0
 
-    .line 7
     :cond_4
     div-int/2addr v2, v6
 
@@ -773,15 +717,12 @@
 
     const/4 v2, 0x0
 
-    .line 1
     iput v2, v0, Lcom/sdk/imp/l;->f:I
 
-    .line 2
     iput v2, v0, Lcom/sdk/imp/l;->g:I
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v3, v0, Lcom/sdk/imp/l;->c:Ljava/nio/ByteBuffer;
 
     iget v4, v1, Lcom/sdk/imp/l$b;->j:I
@@ -791,7 +732,6 @@
     :cond_0
     if-nez v1, :cond_1
 
-    .line 4
     iget-object v1, v0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
     iget v3, v1, Lcom/sdk/imp/l$c;->f:I
@@ -808,7 +748,6 @@
     :goto_0
     mul-int v3, v3, v1
 
-    .line 5
     iget-object v1, v0, Lcom/sdk/imp/l;->l:[B
 
     if-eqz v1, :cond_2
@@ -817,7 +756,6 @@
 
     if-ge v1, v3, :cond_3
 
-    .line 6
     :cond_2
     iget-object v1, v0, Lcom/sdk/imp/l;->q:Lcom/sdk/imp/l$a;
 
@@ -827,7 +765,6 @@
 
     iput-object v1, v0, Lcom/sdk/imp/l;->l:[B
 
-    .line 7
     :cond_3
     iget-object v1, v0, Lcom/sdk/imp/l;->i:[S
 
@@ -837,10 +774,8 @@
 
     new-array v1, v4, [S
 
-    .line 8
     iput-object v1, v0, Lcom/sdk/imp/l;->i:[S
 
-    .line 9
     :cond_4
     iget-object v1, v0, Lcom/sdk/imp/l;->j:[B
 
@@ -848,10 +783,8 @@
 
     new-array v1, v4, [B
 
-    .line 10
     iput-object v1, v0, Lcom/sdk/imp/l;->j:[B
 
-    .line 11
     :cond_5
     iget-object v1, v0, Lcom/sdk/imp/l;->k:[B
 
@@ -861,10 +794,8 @@
 
     new-array v1, v1, [B
 
-    .line 12
     iput-object v1, v0, Lcom/sdk/imp/l;->k:[B
 
-    .line 13
     :cond_6
     invoke-direct/range {p0 .. p0}, Lcom/sdk/imp/l;->w()I
 
@@ -889,12 +820,10 @@
     :goto_1
     if-ge v10, v6, :cond_7
 
-    .line 14
     iget-object v11, v0, Lcom/sdk/imp/l;->i:[S
 
     aput-short v2, v11, v10
 
-    .line 15
     iget-object v11, v0, Lcom/sdk/imp/l;->j:[B
 
     int-to-byte v12, v10
@@ -939,14 +868,12 @@
 
     if-nez v12, :cond_9
 
-    .line 16
     invoke-direct/range {p0 .. p0}, Lcom/sdk/imp/l;->v()I
 
     move-result v12
 
     if-gtz v12, :cond_8
 
-    .line 17
     iput v2, v0, Lcom/sdk/imp/l;->t:I
 
     goto/16 :goto_8
@@ -954,7 +881,6 @@
     :cond_8
     const/4 v13, 0x0
 
-    .line 18
     :cond_9
     iget-object v4, v0, Lcom/sdk/imp/l;->d:[B
 
@@ -1010,7 +936,6 @@
 
     const/4 v1, 0x3
 
-    .line 19
     iput v1, v0, Lcom/sdk/imp/l;->t:I
 
     goto :goto_4
@@ -1040,7 +965,6 @@
 
     if-ne v10, v1, :cond_d
 
-    .line 20
     iget-object v10, v0, Lcom/sdk/imp/l;->k:[B
 
     add-int/lit8 v19, v22, 0x1
@@ -1066,7 +990,6 @@
     :cond_d
     if-lt v2, v4, :cond_e
 
-    .line 21
     iget-object v1, v0, Lcom/sdk/imp/l;->k:[B
 
     add-int/lit8 v19, v22, 0x1
@@ -1093,7 +1016,6 @@
     :goto_5
     if-lt v1, v6, :cond_f
 
-    .line 22
     iget-object v2, v0, Lcom/sdk/imp/l;->k:[B
 
     add-int/lit8 v19, v22, 0x1
@@ -1106,7 +1028,6 @@
 
     aput-byte v6, v2, v22
 
-    .line 23
     iget-object v2, v0, Lcom/sdk/imp/l;->i:[S
 
     aget-short v1, v2, v1
@@ -1120,14 +1041,12 @@
     :cond_f
     move/from16 v23, v6
 
-    .line 24
     iget-object v2, v0, Lcom/sdk/imp/l;->j:[B
 
     aget-byte v1, v2, v1
 
     and-int/lit16 v1, v1, 0xff
 
-    .line 25
     iget-object v6, v0, Lcom/sdk/imp/l;->k:[B
 
     add-int/lit8 v19, v22, 0x1
@@ -1142,14 +1061,12 @@
 
     if-ge v4, v6, :cond_10
 
-    .line 26
     iget-object v6, v0, Lcom/sdk/imp/l;->i:[S
 
     int-to-short v10, v10
 
     aput-short v10, v6, v4
 
-    .line 27
     aput-byte v7, v2, v4
 
     add-int/lit8 v4, v4, 0x1
@@ -1172,7 +1089,6 @@
     :goto_6
     if-lez v22, :cond_11
 
-    .line 28
     iget-object v2, v0, Lcom/sdk/imp/l;->l:[B
 
     add-int/lit8 v7, v16, 0x1
@@ -1235,7 +1151,6 @@
     :goto_9
     if-ge v1, v3, :cond_14
 
-    .line 29
     iget-object v2, v0, Lcom/sdk/imp/l;->l:[B
 
     const/4 v4, 0x0
@@ -1253,29 +1168,24 @@
 .method private e([ILcom/sdk/imp/l$b;I)V
     .locals 4
 
-    .line 1
     iget v0, p2, Lcom/sdk/imp/l$b;->d:I
 
     iget v1, p0, Lcom/sdk/imp/l;->u:I
 
     div-int/2addr v0, v1
 
-    .line 2
     iget v2, p2, Lcom/sdk/imp/l$b;->b:I
 
     div-int/2addr v2, v1
 
-    .line 3
     iget v3, p2, Lcom/sdk/imp/l$b;->c:I
 
     div-int/2addr v3, v1
 
-    .line 4
     iget p2, p2, Lcom/sdk/imp/l$b;->a:I
 
     div-int/2addr p2, v1
 
-    .line 5
     iget v1, p0, Lcom/sdk/imp/l;->w:I
 
     mul-int v2, v2, v1
@@ -1296,14 +1206,12 @@
     :goto_1
     if-ge v1, p2, :cond_0
 
-    .line 6
     aput p3, p1, v1
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_1
 
-    .line 7
     :cond_0
     iget p2, p0, Lcom/sdk/imp/l;->w:I
 
@@ -1318,19 +1226,16 @@
 .method private k()Lcom/sdk/imp/l$d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/l;->h:Lcom/sdk/imp/l$d;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/sdk/imp/l$d;
 
     invoke-direct {v0, p0}, Lcom/sdk/imp/l$d;-><init>(Lcom/sdk/imp/l;)V
 
     iput-object v0, p0, Lcom/sdk/imp/l;->h:Lcom/sdk/imp/l$d;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/l;->h:Lcom/sdk/imp/l$d;
 
@@ -1340,7 +1245,6 @@
 .method private o()Landroid/graphics/Bitmap;
     .locals 4
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/l;->x:Z
 
     if-eqz v0, :cond_0
@@ -1352,7 +1256,6 @@
     :cond_0
     sget-object v0, Landroid/graphics/Bitmap$Config;->RGB_565:Landroid/graphics/Bitmap$Config;
 
-    .line 2
     :goto_0
     iget-object v1, p0, Lcom/sdk/imp/l;->q:Lcom/sdk/imp/l$a;
 
@@ -1364,7 +1267,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Lcom/sdk/imp/l;->A(Landroid/graphics/Bitmap;)V
 
     return-object v0
@@ -1373,7 +1275,6 @@
 .method private v()I
     .locals 7
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/l;->w()I
 
     move-result v0
@@ -1382,13 +1283,11 @@
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/sdk/imp/l;->d:[B
 
     if-nez v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/sdk/imp/l;->q:Lcom/sdk/imp/l$a;
 
     const/16 v3, 0xff
@@ -1399,7 +1298,6 @@
 
     iput-object v2, p0, Lcom/sdk/imp/l;->d:[B
 
-    .line 4
     :cond_0
     iget v2, p0, Lcom/sdk/imp/l;->f:I
 
@@ -1411,14 +1309,12 @@
 
     if-lt v2, v0, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/sdk/imp/l;->e:[B
 
     iget-object v5, p0, Lcom/sdk/imp/l;->d:[B
 
     invoke-static {v2, v3, v5, v4, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 6
     iget v2, p0, Lcom/sdk/imp/l;->g:I
 
     add-int/2addr v2, v0
@@ -1427,7 +1323,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v3, p0, Lcom/sdk/imp/l;->c:Ljava/nio/ByteBuffer;
 
@@ -1439,7 +1334,6 @@
 
     if-lt v3, v0, :cond_2
 
-    .line 8
     iget-object v3, p0, Lcom/sdk/imp/l;->e:[B
 
     iget v5, p0, Lcom/sdk/imp/l;->g:I
@@ -1448,24 +1342,20 @@
 
     invoke-static {v3, v5, v6, v4, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 9
     iget v3, p0, Lcom/sdk/imp/l;->f:I
 
     iput v3, p0, Lcom/sdk/imp/l;->g:I
 
-    .line 10
     invoke-direct {p0}, Lcom/sdk/imp/l;->x()V
 
     sub-int v3, v0, v2
 
-    .line 11
     iget-object v5, p0, Lcom/sdk/imp/l;->e:[B
 
     iget-object v6, p0, Lcom/sdk/imp/l;->d:[B
 
     invoke-static {v5, v4, v6, v2, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 12
     iget v2, p0, Lcom/sdk/imp/l;->g:I
 
     add-int/2addr v2, v3
@@ -1474,7 +1364,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     iput v1, p0, Lcom/sdk/imp/l;->t:I
     :try_end_0
@@ -1485,14 +1374,12 @@
     :catch_0
     move-exception v2
 
-    .line 14
     sget-object v3, Lcom/sdk/imp/l;->y:Ljava/lang/String;
 
     const-string v4, "Error Reading Block"
 
     invoke-static {v3, v4, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 15
     iput v1, p0, Lcom/sdk/imp/l;->t:I
 
     :cond_3
@@ -1503,11 +1390,9 @@
 .method private w()I
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/sdk/imp/l;->x()V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/l;->e:[B
 
     iget v1, p0, Lcom/sdk/imp/l;->g:I
@@ -1527,7 +1412,6 @@
     :catch_0
     const/4 v0, 0x1
 
-    .line 3
     iput v0, p0, Lcom/sdk/imp/l;->t:I
 
     const/4 v0, 0x0
@@ -1538,7 +1422,6 @@
 .method private x()V
     .locals 4
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/l;->f:I
 
     iget v1, p0, Lcom/sdk/imp/l;->g:I
@@ -1547,7 +1430,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/l;->e:[B
 
@@ -1555,7 +1437,6 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/l;->q:Lcom/sdk/imp/l$a;
 
     invoke-virtual {v0, v1}, Lcom/sdk/imp/l$a;->b(I)[B
@@ -1567,10 +1448,8 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 4
     iput v0, p0, Lcom/sdk/imp/l;->g:I
 
-    .line 5
     iget-object v2, p0, Lcom/sdk/imp/l;->c:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v2}, Ljava/nio/ByteBuffer;->remaining()I
@@ -1583,7 +1462,6 @@
 
     iput v1, p0, Lcom/sdk/imp/l;->f:I
 
-    .line 6
     iget-object v2, p0, Lcom/sdk/imp/l;->c:Ljava/nio/ByteBuffer;
 
     iget-object v3, p0, Lcom/sdk/imp/l;->e:[B
@@ -1602,13 +1480,11 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1, p2, v0}, Lcom/sdk/imp/l;->C(Lcom/sdk/imp/l$c;Ljava/nio/ByteBuffer;I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -1628,7 +1504,6 @@
 
     if-lez p3, :cond_2
 
-    .line 1
     :try_start_0
     invoke-static {p3}, Ljava/lang/Integer;->highestOneBit(I)I
 
@@ -1636,44 +1511,34 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/sdk/imp/l;->t:I
 
-    .line 3
     iput-object p1, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
-    .line 4
     iput-boolean v0, p0, Lcom/sdk/imp/l;->x:Z
 
     const/4 v1, -0x1
 
-    .line 5
     iput v1, p0, Lcom/sdk/imp/l;->n:I
 
-    .line 6
     invoke-virtual {p0}, Lcom/sdk/imp/l;->z()V
 
-    .line 7
     invoke-virtual {p2}, Ljava/nio/ByteBuffer;->asReadOnlyBuffer()Ljava/nio/ByteBuffer;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/sdk/imp/l;->c:Ljava/nio/ByteBuffer;
 
-    .line 8
     invoke-virtual {p2, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 9
     iget-object p2, p0, Lcom/sdk/imp/l;->c:Ljava/nio/ByteBuffer;
 
     sget-object v1, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-virtual {p2, v1}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
-    .line 10
     iput-boolean v0, p0, Lcom/sdk/imp/l;->s:Z
 
-    .line 11
     iget-object p2, p1, Lcom/sdk/imp/l$c;->e:Ljava/util/List;
 
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1693,7 +1558,6 @@
 
     check-cast v0, Lcom/sdk/imp/l$b;
 
-    .line 12
     iget v0, v0, Lcom/sdk/imp/l$b;->g:I
 
     const/4 v1, 0x3
@@ -1702,28 +1566,23 @@
 
     const/4 p2, 0x1
 
-    .line 13
     iput-boolean p2, p0, Lcom/sdk/imp/l;->s:Z
 
-    .line 14
     :cond_1
     iput p3, p0, Lcom/sdk/imp/l;->u:I
 
-    .line 15
     iget p2, p1, Lcom/sdk/imp/l$c;->f:I
 
     div-int v0, p2, p3
 
     iput v0, p0, Lcom/sdk/imp/l;->w:I
 
-    .line 16
     iget p1, p1, Lcom/sdk/imp/l$c;->g:I
 
     div-int p3, p1, p3
 
     iput p3, p0, Lcom/sdk/imp/l;->v:I
 
-    .line 17
     iget-object p3, p0, Lcom/sdk/imp/l;->q:Lcom/sdk/imp/l$a;
 
     mul-int p2, p2, p1
@@ -1734,7 +1593,6 @@
 
     iput-object p1, p0, Lcom/sdk/imp/l;->l:[B
 
-    .line 18
     iget-object p1, p0, Lcom/sdk/imp/l;->q:Lcom/sdk/imp/l$a;
 
     iget p2, p0, Lcom/sdk/imp/l;->w:I
@@ -1751,7 +1609,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 19
     monitor-exit p0
 
     return-void
@@ -1761,7 +1618,6 @@
 
     goto :goto_0
 
-    .line 20
     :cond_2
     :try_start_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
@@ -1797,7 +1653,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-static {p2}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
@@ -1807,7 +1662,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -1827,7 +1681,6 @@
 
     if-lt p1, v0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Lcom/sdk/imp/l;->j()I
 
     move-result v0
@@ -1836,7 +1689,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iput p1, p0, Lcom/sdk/imp/l;->n:I
 
@@ -1854,7 +1706,6 @@
 .method a()Z
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
     iget v0, v0, Lcom/sdk/imp/l$c;->c:I
@@ -1865,7 +1716,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget v0, p0, Lcom/sdk/imp/l;->n:I
 
@@ -1879,14 +1729,12 @@
 
     if-ne v0, v2, :cond_1
 
-    .line 3
     iget v0, p0, Lcom/sdk/imp/l;->o:I
 
     add-int/2addr v0, v3
 
     iput v0, p0, Lcom/sdk/imp/l;->o:I
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
@@ -1902,7 +1750,6 @@
 
     return v1
 
-    .line 5
     :cond_2
     iget v1, p0, Lcom/sdk/imp/l;->n:I
 
@@ -1922,70 +1769,56 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
-    .line 2
     iget-object v1, p0, Lcom/sdk/imp/l;->l:[B
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/sdk/imp/l;->q:Lcom/sdk/imp/l$a;
 
     invoke-virtual {v2, v1}, Lcom/sdk/imp/l$a;->e([B)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/sdk/imp/l;->m:[I
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/sdk/imp/l;->q:Lcom/sdk/imp/l$a;
 
     invoke-virtual {v2, v1}, Lcom/sdk/imp/l$a;->f([I)V
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/sdk/imp/l;->r:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_2
 
-    .line 7
     iget-object v2, p0, Lcom/sdk/imp/l;->q:Lcom/sdk/imp/l$a;
 
     invoke-virtual {v2, v1}, Lcom/sdk/imp/l$a;->d(Landroid/graphics/Bitmap;)V
 
-    .line 8
     :cond_2
     iput-object v0, p0, Lcom/sdk/imp/l;->r:Landroid/graphics/Bitmap;
 
-    .line 9
     iput-object v0, p0, Lcom/sdk/imp/l;->c:Ljava/nio/ByteBuffer;
 
     const/4 v0, 0x0
 
-    .line 10
     iput-boolean v0, p0, Lcom/sdk/imp/l;->x:Z
 
-    .line 11
     iget-object v0, p0, Lcom/sdk/imp/l;->d:[B
 
     if-eqz v0, :cond_3
 
-    .line 12
     iget-object v1, p0, Lcom/sdk/imp/l;->q:Lcom/sdk/imp/l$a;
 
     invoke-virtual {v1, v0}, Lcom/sdk/imp/l$a;->e([B)V
 
-    .line 13
     :cond_3
     iget-object v0, p0, Lcom/sdk/imp/l;->e:[B
 
     if-eqz v0, :cond_4
 
-    .line 14
     iget-object v1, p0, Lcom/sdk/imp/l;->q:Lcom/sdk/imp/l$a;
 
     invoke-virtual {v1, v0}, Lcom/sdk/imp/l$a;->e([B)V
@@ -1997,7 +1830,6 @@
 .method f()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/l;->c:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->limit()I
@@ -2024,7 +1856,6 @@
 .method g()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/l;->n:I
 
     return v0
@@ -2033,7 +1864,6 @@
 .method h()Ljava/nio/ByteBuffer;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/l;->c:Ljava/nio/ByteBuffer;
 
     return-object v0
@@ -2044,14 +1874,12 @@
 
     if-ltz p1, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
     iget v1, v0, Lcom/sdk/imp/l$c;->c:I
 
     if-ge p1, v1, :cond_0
 
-    .line 2
     iget-object v0, v0, Lcom/sdk/imp/l$c;->e:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -2074,7 +1902,6 @@
 .method j()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
     iget v0, v0, Lcom/sdk/imp/l$c;->c:I
@@ -2085,7 +1912,6 @@
 .method l()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
     iget v0, v0, Lcom/sdk/imp/l$c;->g:I
@@ -2096,7 +1922,6 @@
 .method m()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
     iget v0, v0, Lcom/sdk/imp/l$c;->m:I
@@ -2107,7 +1932,6 @@
 .method n()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/l;->o:I
 
     return v0
@@ -2116,7 +1940,6 @@
 .method p()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
     iget v0, v0, Lcom/sdk/imp/l$c;->c:I
@@ -2129,7 +1952,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0, v0}, Lcom/sdk/imp/l;->i(I)I
 
@@ -2149,7 +1971,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
@@ -2165,7 +1986,6 @@
 
     if-gez v0, :cond_2
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/sdk/imp/l;->y:Ljava/lang/String;
 
@@ -2175,7 +1995,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -2204,11 +2023,9 @@
 
     invoke-static {v0, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     :cond_1
     iput v2, p0, Lcom/sdk/imp/l;->t:I
 
-    .line 5
     :cond_2
     iget v0, p0, Lcom/sdk/imp/l;->t:I
 
@@ -2225,10 +2042,8 @@
     :cond_3
     const/4 v0, 0x0
 
-    .line 6
     iput v0, p0, Lcom/sdk/imp/l;->t:I
 
-    .line 7
     iget-object v4, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
     iget-object v4, v4, Lcom/sdk/imp/l$c;->e:Ljava/util/List;
@@ -2241,14 +2056,12 @@
 
     check-cast v4, Lcom/sdk/imp/l$b;
 
-    .line 8
     iget v5, p0, Lcom/sdk/imp/l;->n:I
 
     sub-int/2addr v5, v2
 
     if-ltz v5, :cond_4
 
-    .line 9
     iget-object v6, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
     iget-object v6, v6, Lcom/sdk/imp/l$c;->e:Ljava/util/List;
@@ -2264,7 +2077,6 @@
     :cond_4
     move-object v5, v3
 
-    .line 10
     :goto_0
     iget-object v6, v4, Lcom/sdk/imp/l$b;->k:[I
 
@@ -2282,7 +2094,6 @@
 
     if-nez v6, :cond_7
 
-    .line 11
     sget-object v0, Lcom/sdk/imp/l;->y:Ljava/lang/String;
 
     invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
@@ -2291,7 +2102,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 12
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2310,42 +2120,35 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13
     :cond_6
     iput v2, p0, Lcom/sdk/imp/l;->t:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 14
     monitor-exit p0
 
     return-object v3
 
-    .line 15
     :cond_7
     :try_start_1
     iget-boolean v1, v4, Lcom/sdk/imp/l$b;->f:Z
 
     if-eqz v1, :cond_8
 
-    .line 16
     iget-object v1, p0, Lcom/sdk/imp/l;->b:[I
 
     array-length v2, v6
 
     invoke-static {v6, v0, v1, v0, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 17
     iget-object v1, p0, Lcom/sdk/imp/l;->b:[I
 
     iput-object v1, p0, Lcom/sdk/imp/l;->a:[I
 
-    .line 18
     iget v2, v4, Lcom/sdk/imp/l$b;->h:I
 
     aput v0, v1, v2
 
-    .line 19
     :cond_8
     invoke-direct {p0, v4, v5}, Lcom/sdk/imp/l;->F(Lcom/sdk/imp/l$b;Lcom/sdk/imp/l$b;)Landroid/graphics/Bitmap;
 
@@ -2357,7 +2160,6 @@
 
     return-object v0
 
-    .line 20
     :cond_9
     :goto_2
     :try_start_2
@@ -2369,7 +2171,6 @@
 
     if-eqz v1, :cond_a
 
-    .line 21
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2390,7 +2191,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 22
     :cond_a
     monitor-exit p0
 
@@ -2407,7 +2207,6 @@
 .method r()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/l;->t:I
 
     return v0
@@ -2416,7 +2215,6 @@
 .method s()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/l;->p:Lcom/sdk/imp/l$c;
 
     iget v0, v0, Lcom/sdk/imp/l$c;->f:I
@@ -2440,7 +2238,6 @@
     :cond_0
     const/16 p2, 0x4000
 
-    .line 1
     :goto_0
     :try_start_0
     new-instance v1, Ljava/io/ByteArrayOutputStream;
@@ -2452,7 +2249,6 @@
     :goto_1
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {p1, p2, v2, v0}, Ljava/io/InputStream;->read([BII)I
 
     move-result v3
@@ -2461,16 +2257,13 @@
 
     if-eq v3, v4, :cond_1
 
-    .line 3
     invoke-virtual {v1, p2, v2, v3}, Ljava/io/ByteArrayOutputStream;->write([BII)V
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->flush()V
 
-    .line 5
     invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object p2
@@ -2484,7 +2277,6 @@
     :catch_0
     move-exception p2
 
-    .line 6
     sget-object v0, Lcom/sdk/imp/l;->y:Ljava/lang/String;
 
     const-string v1, "Error reading data from stream"
@@ -2496,13 +2288,11 @@
     :cond_2
     const/4 p2, 0x2
 
-    .line 7
     iput p2, p0, Lcom/sdk/imp/l;->t:I
 
     :goto_2
     if-eqz p1, :cond_3
 
-    .line 8
     :try_start_1
     invoke-virtual {p1}, Ljava/io/InputStream;->close()V
     :try_end_1
@@ -2513,14 +2303,12 @@
     :catch_1
     move-exception p1
 
-    .line 9
     sget-object p2, Lcom/sdk/imp/l;->y:Ljava/lang/String;
 
     const-string v0, "Error closing stream"
 
     invoke-static {p2, v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 10
     :cond_3
     :goto_3
     iget p1, p0, Lcom/sdk/imp/l;->t:I
@@ -2533,7 +2321,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/sdk/imp/l;->k()Lcom/sdk/imp/l$d;
 
@@ -2551,10 +2338,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p0, v0, p1}, Lcom/sdk/imp/l;->D(Lcom/sdk/imp/l$c;[B)V
 
-    .line 3
     :cond_0
     iget p1, p0, Lcom/sdk/imp/l;->t:I
     :try_end_0
@@ -2577,7 +2362,6 @@
 
     const/4 v0, -0x1
 
-    .line 1
     iput v0, p0, Lcom/sdk/imp/l;->n:I
 
     return-void
@@ -2588,7 +2372,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/sdk/imp/l;->o:I
 
     return-void

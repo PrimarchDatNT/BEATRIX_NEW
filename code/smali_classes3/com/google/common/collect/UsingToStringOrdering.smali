@@ -31,7 +31,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/UsingToStringOrdering;
 
     invoke-direct {v0}, Lcom/google/common/collect/UsingToStringOrdering;-><init>()V
@@ -44,7 +43,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/Ordering;-><init>()V
 
     return-void
@@ -53,7 +51,6 @@
 .method private readResolve()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/UsingToStringOrdering;->INSTANCE:Lcom/google/common/collect/UsingToStringOrdering;
 
     return-object v0
@@ -64,7 +61,6 @@
 .method public compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1

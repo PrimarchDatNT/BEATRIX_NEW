@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/text/MatcherMatchResult$a;->b:Lcotlin/text/MatcherMatchResult;
 
     invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
@@ -49,7 +48,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/MatcherMatchResult$a;->b:Lcotlin/text/MatcherMatchResult;
 
     invoke-static {v0}, Lcotlin/text/MatcherMatchResult;->d(Lcotlin/text/MatcherMatchResult;)Ljava/util/regex/MatchResult;
@@ -68,7 +66,6 @@
 .method public bridge c(Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcotlin/collections/AbstractCollection;->contains(Ljava/lang/Object;)Z
 
     move-result p1
@@ -79,7 +76,6 @@
 .method public final bridge contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -103,7 +99,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/MatcherMatchResult$a;->b:Lcotlin/text/MatcherMatchResult;
 
     invoke-static {v0}, Lcotlin/text/MatcherMatchResult;->d(Lcotlin/text/MatcherMatchResult;)Ljava/util/regex/MatchResult;
@@ -128,7 +123,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/text/MatcherMatchResult$a;->e(I)Ljava/lang/String;
 
     move-result-object p1
@@ -139,7 +133,6 @@
 .method public bridge h(Ljava/lang/String;)I
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcotlin/collections/c;->indexOf(Ljava/lang/Object;)I
 
     move-result p1
@@ -150,7 +143,6 @@
 .method public bridge i(Ljava/lang/String;)I
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcotlin/collections/c;->lastIndexOf(Ljava/lang/Object;)I
 
     move-result p1
@@ -161,7 +153,6 @@
 .method public final bridge indexOf(Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -183,7 +174,6 @@
 .method public final bridge lastIndexOf(Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/String;
 
     if-eqz v0, :cond_0

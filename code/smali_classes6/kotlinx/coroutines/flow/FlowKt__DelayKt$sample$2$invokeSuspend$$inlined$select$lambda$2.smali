@@ -153,7 +153,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$2;->label:I
 
     const/4 v2, 0x1
@@ -170,7 +169,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -180,13 +178,11 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$2;->p$0:Lcotlin/t1;
 
-    .line 4
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$2;->$lastValue$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iget-object v3, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -195,10 +191,8 @@
 
     const/4 v4, 0x0
 
-    .line 5
     iput-object v4, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 6
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$2;->$downstream$inlined:Lcotlinx/coroutines/flow/e;
 
     sget-object v5, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
@@ -210,7 +204,6 @@
     :cond_2
     move-object v4, v3
 
-    .line 7
     :goto_0
     iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$2;->L$0:Ljava/lang/Object;
 
@@ -218,7 +211,6 @@
 
     iput v2, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$2;->label:I
 
-    .line 8
     invoke-interface {v1, v4, p0}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
@@ -227,14 +219,12 @@
 
     return-object v0
 
-    .line 9
     :cond_3
     :goto_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 
-    .line 10
     :cond_4
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

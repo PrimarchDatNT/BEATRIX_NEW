@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;Ljava/lang/ref/WeakReference;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$c;->b:Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;
 
     iput-object p2, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$c;->a:Ljava/lang/ref/WeakReference;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$c;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -57,12 +55,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$c;->b:Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;
 
     invoke-interface {v1, v2}, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$e;->c(Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

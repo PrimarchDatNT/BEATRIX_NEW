@@ -23,12 +23,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     sput-boolean v1, Lcom/meitu/hubble/f;->b:Z
 
     const/4 v1, 0x0
 
-    .line 2
     sput-boolean v1, Lcom/meitu/hubble/f;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -39,7 +37,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,10 +49,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/hubble/j/a;->a([Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -70,12 +65,10 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     array-length v1, p0
 
     if-lez v1, :cond_2
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -87,7 +80,6 @@
 
     const-string v4, "meitu"
 
-    .line 3
     invoke-virtual {v3, v4}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -96,7 +88,6 @@
 
     const-string v4, "meipai"
 
-    .line 4
     invoke-virtual {v3, v4}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -105,7 +96,6 @@
 
     const-string v4, "meiyan"
 
-    .line 5
     invoke-virtual {v3, v4}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -114,18 +104,15 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     sget-object v4, Lcom/meitu/hubble/k/b;->c:Ljava/util/List;
 
-    .line 7
     invoke-interface {v4, v3}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-nez v5, :cond_1
 
-    .line 8
     invoke-interface {v4, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_1
@@ -134,7 +121,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -148,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hubble/f;->a:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -163,10 +148,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/hubble/e;->l(Lokhttp3/OkHttpClient;Lcom/meitu/hubble/j/b;[Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -179,10 +162,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/hubble/e;->m(Lokhttp3/OkHttpClient;[Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -197,7 +178,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -212,7 +192,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {v0}, Ljava/lang/Class;->getFields()[Ljava/lang/reflect/Field;
 
@@ -220,14 +199,12 @@
 
     if-eqz v2, :cond_5
 
-    .line 2
     array-length v3, v2
 
     if-nez v3, :cond_0
 
     goto :goto_3
 
-    .line 3
     :cond_0
     array-length v3, v2
 
@@ -240,7 +217,6 @@
 
     aget-object v6, v2, v4
 
-    .line 4
     invoke-virtual {v6}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
 
     move-result-object v7
@@ -249,7 +225,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-virtual {v6}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
 
@@ -273,7 +248,6 @@
     :goto_2
     if-nez v6, :cond_4
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -281,11 +255,9 @@
     :cond_4
     const/4 v0, 0x1
 
-    .line 7
     :try_start_1
     invoke-virtual {v6, v0}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 8
     invoke-static {}, Lcom/meitu/hubble/f;->q()Lokhttp3/Dns;
 
     move-result-object v0
@@ -296,7 +268,6 @@
 
     goto :goto_4
 
-    .line 9
     :cond_5
     :goto_3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -306,7 +277,6 @@
     :catchall_0
     move-exception v0
 
-    .line 10
     invoke-static {}, Lcom/meitu/hubble/k/a;->a()Lcom/meitu/library/m/a/b;
 
     move-result-object v2
@@ -315,7 +285,6 @@
 
     invoke-virtual {v2, v3, v0}, Lcom/meitu/library/m/a/b;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 11
     :goto_4
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -329,7 +298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/hubble/j/f;->c()Lcom/meitu/hubble/j/f;
 
     move-result-object v1
@@ -350,7 +318,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/hubble/f;->j()Lcom/meitu/hubble/e;
 
     move-result-object v1
@@ -371,17 +338,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hubble/f;->d:Lcom/meitu/hubble/e;
 
     if-nez v1, :cond_0
 
-    .line 2
     const-class v1, Lcom/meitu/hubble/f;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     new-instance v2, Lcom/meitu/hubble/e;
 
@@ -389,7 +353,6 @@
 
     sput-object v2, Lcom/meitu/hubble/f;->d:Lcom/meitu/hubble/e;
 
-    .line 4
     monitor-exit v1
 
     goto :goto_0
@@ -405,7 +368,6 @@
 
     throw v2
 
-    .line 5
     :cond_0
     :goto_0
     sget-object v1, Lcom/meitu/hubble/f;->d:Lcom/meitu/hubble/e;
@@ -426,14 +388,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
     sput-object p0, Lcom/meitu/hubble/f;->a:Landroid/content/Context;
 
-    .line 2
     invoke-static {}, Lcom/meitu/hubble/f;->j()Lcom/meitu/hubble/e;
 
     move-result-object p0
@@ -450,7 +410,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/hubble/f;->j()Lcom/meitu/hubble/e;
 
     move-result-object v1
@@ -479,7 +438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p1, Lcom/meitu/hubble/d;->a:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -488,19 +446,16 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/hubble/f;->k(Landroid/content/Context;)Lcom/meitu/hubble/e;
 
     move-result-object p0
 
     invoke-virtual {p0, p1}, Lcom/meitu/hubble/e;->w(Lcom/meitu/hubble/d;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p0, Landroid/util/AndroidRuntimeException;
 
@@ -520,7 +475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/hubble/j/a;->b(Ljava/lang/String;)Z
 
     move-result p0
@@ -537,7 +491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/hubble/e;->A()Z
 
     move-result v1
@@ -558,7 +511,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/hubble/k/b;->s()Z
 
     move-result v1
@@ -575,7 +527,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/hubble/f$a;
 
     invoke-direct {v1}, Lcom/meitu/hubble/f$a;-><init>()V
@@ -592,14 +543,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/hubble/f;->j()Lcom/meitu/hubble/e;
 
     move-result-object v1
 
     invoke-virtual {v1, p0}, Lcom/meitu/hubble/e;->C(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -612,13 +561,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/meitu/hubble/e;->e0:Lokhttp3/OkHttpClient;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lokhttp3/OkHttpClient$Builder;
 
     invoke-direct {v1}, Lokhttp3/OkHttpClient$Builder;-><init>()V
@@ -629,13 +576,11 @@
 
     sput-object v1, Lcom/meitu/hubble/e;->e0:Lokhttp3/OkHttpClient;
 
-    .line 3
     :cond_0
     new-instance v2, Lokhttp3/OkUrlFactory;
 
     invoke-direct {v2, v1}, Lokhttp3/OkUrlFactory;-><init>(Lokhttp3/OkHttpClient;)V
 
-    .line 4
     const-class v1, Ljava/net/URL;
 
     const-string v3, "factory"
@@ -646,33 +591,27 @@
 
     const/4 v3, 0x1
 
-    .line 5
     invoke-virtual {v1, v3}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     const/4 v3, 0x0
 
-    .line 6
     invoke-virtual {v1, v3}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
     if-nez v4, :cond_1
 
-    .line 7
     invoke-static {v2}, Ljava/net/URL;->setURLStreamHandlerFactory(Ljava/net/URLStreamHandlerFactory;)V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     instance-of v4, v4, Lokhttp3/OkUrlFactory;
 
     if-nez v4, :cond_2
 
-    .line 9
     invoke-virtual {v1, v3, v3}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 10
     invoke-static {v2}, Ljava/net/URL;->setURLStreamHandlerFactory(Ljava/net/URLStreamHandlerFactory;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -682,7 +621,6 @@
     :catch_0
     move-exception v1
 
-    .line 11
     invoke-static {}, Lcom/meitu/hubble/k/a;->a()Lcom/meitu/library/m/a/b;
 
     move-result-object v2
@@ -691,7 +629,6 @@
 
     invoke-virtual {v2, v3, v1}, Lcom/meitu/library/m/a/b;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 12
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -706,10 +643,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/hubble/e;->d0:Lcom/meitu/hubble/a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -722,14 +657,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/hubble/f;->j()Lcom/meitu/hubble/e;
 
     move-result-object v1
 
     invoke-virtual {v1, p0}, Lcom/meitu/hubble/e;->P(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -742,14 +675,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/hubble/f;->j()Lcom/meitu/hubble/e;
 
     move-result-object v1
 
     invoke-virtual {v1, p0}, Lcom/meitu/hubble/e;->Q(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -762,14 +693,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -789,7 +718,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {p0}, Landroid/webkit/URLUtil;->isNetworkUrl(Ljava/lang/String;)Z
 
@@ -797,12 +725,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-static {p0}, Lcom/meitu/hubble/k/b;->i(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 5
     :cond_2
     sget-object v1, Lcom/meitu/hubble/e;->c0:Ljava/util/HashMap;
 
@@ -812,7 +738,6 @@
 
     invoke-virtual {v1, p0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-static {}, Lcom/meitu/hubble/k/a;->a()Lcom/meitu/library/m/a/b;
 
     move-result-object v1
@@ -827,7 +752,6 @@
 
     const/4 p0, 0x1
 
-    .line 7
     invoke-static {p1, p2}, Ljava/lang/Double;->toString(D)Ljava/lang/String;
 
     move-result-object p1
@@ -836,19 +760,16 @@
 
     const-string p0, "setUploadRate %s:%s"
 
-    .line 8
     invoke-static {p0, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
     invoke-virtual {v1, p0}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -863,17 +784,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hubble/f;->d:Lcom/meitu/hubble/e;
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/hubble/f;->d:Lcom/meitu/hubble/e;
 
     invoke-virtual {v1}, Lcom/meitu/hubble/e;->S()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -887,7 +805,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/hubble/f;->j()Lcom/meitu/hubble/e;
 
     move-result-object v1

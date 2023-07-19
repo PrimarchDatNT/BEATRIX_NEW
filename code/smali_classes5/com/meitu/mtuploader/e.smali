@@ -25,7 +25,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -58,7 +57,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -71,17 +69,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     sget-object v3, Lcom/meitu/mtuploader/e;->c:Ljava/lang/String;
 
     invoke-static {v3, p0}, Lcom/meitu/mtuploader/w/a;->a(Ljava/lang/String;Z)V
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -94,7 +89,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 4
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -111,7 +105,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -130,10 +123,8 @@
     :goto_0
     const-string v1, "MtRecorderManager"
 
-    .line 6
     invoke-static {v1, p0}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -146,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->lastModified()J
 
     move-result-wide v1

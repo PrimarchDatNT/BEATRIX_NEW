@@ -27,7 +27,6 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/title/a;-><init>()V
 
     iput p1, p0, Lcom/commsource/widget/title/c;->c:I
@@ -46,7 +45,6 @@
 
     new-array v0, v0, [I
 
-    .line 1
     fill-array-data v0, :array_0
 
     return-object v0
@@ -65,7 +63,6 @@
 .method public bridge synthetic d(Landroid/content/Context;)Landroid/view/View;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/widget/title/c;->g(Landroid/content/Context;)Lcom/commsource/widget/IconFrontView;
 
     move-result-object p1
@@ -76,7 +73,6 @@
 .method public final e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/widget/title/c;->c:I
 
     return v0
@@ -87,7 +83,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/title/c;->b:Lcom/commsource/widget/IconFrontView;
 
     return-object v0
@@ -106,12 +101,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/title/c;->b:Lcom/commsource/widget/IconFrontView;
 
     if-nez v0, :cond_5
 
-    .line 2
     new-instance v0, Lcom/commsource/widget/IconFrontView;
 
     invoke-direct {v0, p1}, Lcom/commsource/widget/IconFrontView;-><init>(Landroid/content/Context;)V
@@ -120,7 +113,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -128,7 +120,6 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setId(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/title/c;->b:Lcom/commsource/widget/IconFrontView;
 
     if-nez p1, :cond_1
@@ -140,7 +131,6 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/widget/title/c;->b:Lcom/commsource/widget/IconFrontView;
 
     if-nez p1, :cond_2
@@ -156,7 +146,6 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/widget/title/c;->b:Lcom/commsource/widget/IconFrontView;
 
     if-nez p1, :cond_3
@@ -168,7 +157,6 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 7
     new-instance p1, Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
@@ -183,10 +171,8 @@
 
     const/16 v0, 0x10
 
-    .line 8
     iput v0, p1, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/widget/title/c;->b:Lcom/commsource/widget/IconFrontView;
 
     if-nez v0, :cond_4
@@ -196,7 +182,6 @@
     :cond_4
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 10
     :cond_5
     iget-object p1, p0, Lcom/commsource/widget/title/c;->b:Lcom/commsource/widget/IconFrontView;
 
@@ -215,7 +200,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/title/c;->b:Lcom/commsource/widget/IconFrontView;
 
     return-void

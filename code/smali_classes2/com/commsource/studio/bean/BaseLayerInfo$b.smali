@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/BaseLayerInfo$b;->a:Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-virtual {v1}, Lcom/commsource/studio/bean/BaseLayerInfo;->getLayerNode()Lcom/commsource/editengine/i;
@@ -59,7 +58,6 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/editengine/i;->h(Lcom/commsource/editengine/i;ZILjava/lang/Object;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

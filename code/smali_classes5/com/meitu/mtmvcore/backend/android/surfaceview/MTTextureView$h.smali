@@ -28,7 +28,6 @@
 
     const-string v1, "GLThreadManager"
 
-    .line 1
     sput-object v1, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$h;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -39,7 +38,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -48,7 +46,6 @@
 .method synthetic constructor <init>(Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$h;-><init>()V
 
     return-void
@@ -63,10 +60,8 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -84,13 +79,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p1, v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->b(Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;Z)Z
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

@@ -62,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/NewSkinColorFragment$onViewCreated$$inlined$apply$lambda$3;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -79,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment$onViewCreated$$inlined$apply$lambda$3;->this$0:Lcom/commsource/studio/function/NewSkinColorFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->n0()Lcom/commsource/beautyplus/router/RouterEntity;
@@ -94,7 +92,6 @@
 
     const-string v4, "content"
 
-    .line 3
     invoke-virtual {v1, v4}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -103,7 +100,6 @@
 
     if-eqz v4, :cond_2
 
-    .line 4
     iget-object v6, p0, Lcom/commsource/studio/function/NewSkinColorFragment$onViewCreated$$inlined$apply$lambda$3;->$effects:Ljava/util/List;
 
     invoke-interface {v6}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -143,7 +139,6 @@
     :cond_2
     const-string v4, "strength"
 
-    .line 5
     invoke-virtual {v1, v4}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -152,7 +147,6 @@
 
     if-eqz v5, :cond_3
 
-    .line 6
     invoke-static {v4}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v4
@@ -162,7 +156,6 @@
     :cond_3
     if-nez v5, :cond_5
 
-    .line 7
     iget-object v4, p0, Lcom/commsource/studio/function/NewSkinColorFragment$onViewCreated$$inlined$apply$lambda$3;->$this_apply:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v4}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
@@ -175,14 +168,12 @@
 
     invoke-virtual {v4, v2}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/studio/function/NewSkinColorFragment$onViewCreated$$inlined$apply$lambda$3;->this$0:Lcom/commsource/studio/function/NewSkinColorFragment;
 
     invoke-static {v4}, Lcom/commsource/studio/function/NewSkinColorFragment;->z1(Lcom/commsource/studio/function/NewSkinColorFragment;)V
 
     goto :goto_0
 
-    .line 9
     :cond_4
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -192,7 +183,6 @@
 
     throw v1
 
-    .line 10
     :cond_5
     iget-object v4, p0, Lcom/commsource/studio/function/NewSkinColorFragment$onViewCreated$$inlined$apply$lambda$3;->$this_apply:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -206,7 +196,6 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 11
     iget-object v4, p0, Lcom/commsource/studio/function/NewSkinColorFragment$onViewCreated$$inlined$apply$lambda$3;->this$0:Lcom/commsource/studio/function/NewSkinColorFragment;
 
     invoke-static {v4}, Lcom/commsource/studio/function/NewSkinColorFragment;->C1(Lcom/commsource/studio/function/NewSkinColorFragment;)Lcom/commsource/beautyplus/f0/u9;
@@ -231,14 +220,12 @@
 
     invoke-virtual {v4, v6}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 12
     iget-object v4, p0, Lcom/commsource/studio/function/NewSkinColorFragment$onViewCreated$$inlined$apply$lambda$3;->this$0:Lcom/commsource/studio/function/NewSkinColorFragment;
 
     invoke-static {v4, v5}, Lcom/commsource/studio/function/NewSkinColorFragment;->A1(Lcom/commsource/studio/function/NewSkinColorFragment;Lcom/commsource/studio/function/t/c;)V
 
     goto :goto_0
 
-    .line 13
     :cond_6
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -248,7 +235,6 @@
 
     throw v1
 
-    .line 14
     :cond_7
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -262,7 +248,6 @@
     :goto_0
     if-nez v1, :cond_a
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment$onViewCreated$$inlined$apply$lambda$3;->$this_apply:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
@@ -286,7 +271,6 @@
 
     throw v1
 
-    .line 16
     :cond_a
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

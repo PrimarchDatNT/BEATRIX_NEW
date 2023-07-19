@@ -15,7 +15,6 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/util/common/l;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
@@ -33,12 +32,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lf/d/i/d;->o:Lf/d/i/d;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lf/d/i/d;
 
     const-string v3, "AlbumConfig"
@@ -47,7 +44,6 @@
 
     sput-object v2, Lf/d/i/d;->o:Lf/d/i/d;
 
-    .line 3
     :cond_0
     sget-object p0, Lf/d/i/d;->o:Lf/d/i/d;
 
@@ -78,12 +74,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lf/d/i/d;->K(Landroid/content/Context;)Lcom/commsource/util/common/l;
 
@@ -111,12 +105,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lf/d/i/d;->K(Landroid/content/Context;)Lcom/commsource/util/common/l;
 
@@ -126,7 +118,6 @@
 
     invoke-virtual {p0, v1, p1}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

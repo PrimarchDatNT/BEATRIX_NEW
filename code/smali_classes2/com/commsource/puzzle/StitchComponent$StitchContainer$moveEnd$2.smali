@@ -74,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/common/animutil/d;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->invoke(Lcom/meitu/common/animutil/d;)V
@@ -103,14 +102,12 @@
 
     const-wide/16 v1, 0xc8
 
-    .line 2
     invoke-virtual {p1, v1, v2}, Lcom/meitu/common/animutil/a;->q(J)V
 
     const/4 v1, 0x2
 
     new-array v1, v1, [F
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->$selectedView:Landroid/view/View;
 
     const-string v3, "selectedView"
@@ -133,21 +130,18 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/common/animutil/d;->I(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v1, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2$1;-><init>(Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;)V
 
     invoke-virtual {p1, v1}, Lcom/meitu/common/animutil/d;->F(Lcotlin/jvm/u/l;)V
 
-    .line 5
     new-instance v1, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2$2;
 
     invoke-direct {v1, p0}, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2$2;-><init>(Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;)V
 
     invoke-virtual {p1, v1}, Lcom/meitu/common/animutil/a;->t(Lcotlin/jvm/u/l;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

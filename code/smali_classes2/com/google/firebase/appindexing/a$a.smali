@@ -65,17 +65,14 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/appindexing/a$a;->a:Landroid/os/Bundle;
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/appindexing/a$a;->b:Ljava/lang/String;
 
     return-void
@@ -86,19 +83,16 @@
 .method public a()Lcom/google/firebase/appindexing/a;
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/appindexing/a$a;->c:Ljava/lang/String;
 
     const-string v1, "setObject is required before calling build()."
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/appindexing/a$a;->d:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Lcom/google/firebase/appindexing/internal/zza;
 
     iget-object v3, p0, Lcom/google/firebase/appindexing/a$a;->b:Ljava/lang/String;
@@ -109,7 +103,6 @@
 
     iget-object v6, p0, Lcom/google/firebase/appindexing/a$a;->e:Ljava/lang/String;
 
-    .line 4
     iget-object v1, p0, Lcom/google/firebase/appindexing/a$a;->f:Lcom/google/firebase/appindexing/internal/zzb;
 
     if-nez v1, :cond_0
@@ -147,21 +140,16 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/appindexing/a$a;->a:Landroid/os/Bundle;
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     array-length v1, p2
 
     if-lez v1, :cond_1
 
-    .line 5
     array-length v1, p2
 
     const/16 v2, 0x64
@@ -173,15 +161,12 @@
     :cond_0
     const-string v1, "Input Array of elements is too big, cutting off."
 
-    .line 6
     invoke-static {v1}, Lcom/google/firebase/appindexing/internal/w;->b(Ljava/lang/String;)I
 
-    .line 7
     invoke-static {p2, v2}, Ljava/util/Arrays;->copyOf([DI)[D
 
     move-result-object p2
 
-    .line 8
     :goto_0
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putDoubleArray(Ljava/lang/String;[D)V
 
@@ -190,7 +175,6 @@
     :cond_1
     const-string p1, "Double array is empty and is ignored by put method."
 
-    .line 9
     invoke-static {p1}, Lcom/google/firebase/appindexing/internal/w;->b(Ljava/lang/String;)I
 
     :goto_1
@@ -208,7 +192,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/appindexing/a$a;->a:Landroid/os/Bundle;
 
     invoke-static {v0, p1, p2}, Lcom/google/firebase/appindexing/g/i;->n(Landroid/os/Bundle;Ljava/lang/String;[J)V
@@ -232,7 +215,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/appindexing/a$a;->a:Landroid/os/Bundle;
 
     invoke-static {v0, p1, p2}, Lcom/google/firebase/appindexing/g/i;->o(Landroid/os/Bundle;Ljava/lang/String;[Lcom/google/firebase/appindexing/e;)V
@@ -251,7 +233,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/appindexing/a$a;->a:Landroid/os/Bundle;
 
     invoke-static {v0, p1, p2}, Lcom/google/firebase/appindexing/g/i;->q(Landroid/os/Bundle;Ljava/lang/String;[Ljava/lang/String;)V
@@ -270,7 +251,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/appindexing/a$a;->a:Landroid/os/Bundle;
 
     invoke-static {v0, p1, p2}, Lcom/google/firebase/appindexing/g/i;->r(Landroid/os/Bundle;Ljava/lang/String;[Z)V
@@ -285,10 +265,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/appindexing/a$a;->g:Ljava/lang/String;
 
     return-object p0
@@ -301,10 +279,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/appindexing/a$b$a;->b()Lcom/google/firebase/appindexing/internal/zzb;
 
     move-result-object p1
@@ -321,10 +297,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/appindexing/a$a;->c:Ljava/lang/String;
 
     const/4 v0, 0x1
@@ -337,7 +311,6 @@
 
     const-string p1, "name"
 
-    .line 3
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/appindexing/a$a;->e(Ljava/lang/String;[Ljava/lang/String;)Lcom/google/firebase/appindexing/a$a;
 
     move-result-object p1
@@ -356,16 +329,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/appindexing/a$a;->c:Ljava/lang/String;
 
-    .line 4
     iput-object p2, p0, Lcom/google/firebase/appindexing/a$a;->d:Ljava/lang/String;
 
     return-object p0
@@ -386,22 +355,16 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {p3}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     iput-object p1, p0, Lcom/google/firebase/appindexing/a$a;->c:Ljava/lang/String;
 
-    .line 5
     iput-object p2, p0, Lcom/google/firebase/appindexing/a$a;->d:Ljava/lang/String;
 
-    .line 6
     iput-object p3, p0, Lcom/google/firebase/appindexing/a$a;->e:Ljava/lang/String;
 
     return-object p0
@@ -414,10 +377,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/appindexing/a$a;->d:Ljava/lang/String;
 
     const/4 v0, 0x1
@@ -430,7 +391,6 @@
 
     const-string p1, "url"
 
-    .line 3
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/appindexing/a$a;->e(Ljava/lang/String;[Ljava/lang/String;)Lcom/google/firebase/appindexing/a$a;
 
     move-result-object p1

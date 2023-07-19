@@ -21,15 +21,12 @@
 .method constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     sget-object v1, Lcom/google/android/gms/internal/ads/w;->x:Lcom/google/android/gms/internal/ads/h;
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v2
@@ -38,7 +35,6 @@
 
     move-result-object v1
 
-    .line 4
     check-cast v1, Ljava/lang/Long;
 
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
@@ -53,7 +49,6 @@
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/sr;->c:Z
 
     return-void
@@ -68,13 +63,11 @@
 
     return-void
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Landroid/graphics/SurfaceTexture;->getTimestamp()J
 
     move-result-wide v0
 
-    .line 2
     iget-boolean p1, p0, Lcom/google/android/gms/internal/ads/sr;->c:Z
 
     if-nez p1, :cond_1
@@ -96,13 +89,10 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 3
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/sr;->c:Z
 
-    .line 4
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/sr;->b:J
 
-    .line 5
     sget-object p1, Lcom/google/android/gms/internal/ads/cn;->h:Lcom/google/android/gms/internal/ads/vn1;
 
     new-instance v0, Lcom/google/android/gms/internal/ads/rr;
@@ -120,7 +110,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/sr;->c:Z
 
     return-void

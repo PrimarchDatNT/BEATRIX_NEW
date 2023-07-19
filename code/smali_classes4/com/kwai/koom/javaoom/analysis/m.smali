@@ -29,7 +29,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/kwai/koom/javaoom/analysis/i;-><init>()V
 
     return-void
@@ -38,24 +37,20 @@
 .method public constructor <init>(Lkshark/i;)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Lcom/kwai/koom/javaoom/analysis/i;-><init>()V
 
     const-string v0, "android.view.Window"
 
-    .line 3
     invoke-interface {p1, v0}, Lkshark/i;->d(Ljava/lang/String;)Lkshark/HeapObject$HeapClass;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Lkshark/HeapObject$HeapClass;->g()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/kwai/koom/javaoom/analysis/m;->c:J
 
-    .line 5
     new-instance p1, Lcom/kwai/koom/javaoom/analysis/d;
 
     invoke-direct {p1}, Lcom/kwai/koom/javaoom/analysis/d;-><init>()V
@@ -70,7 +65,6 @@
 .method public a()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/kwai/koom/javaoom/analysis/m;->c:J
 
     return-wide v0
@@ -94,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Landroid/view/Window;
 
     return-object v0
@@ -111,7 +104,6 @@
 .method public e()Lcom/kwai/koom/javaoom/analysis/d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/analysis/m;->d:Lcom/kwai/koom/javaoom/analysis/d;
 
     return-object v0
@@ -120,7 +112,6 @@
 .method public f(Lkshark/HeapObject$HeapInstance;)Z
     .locals 1
 
-    .line 1
     iget-boolean p1, p0, Lcom/kwai/koom/javaoom/analysis/i;->a:Z
 
     if-eqz p1, :cond_0
@@ -129,10 +120,8 @@
 
     const-string v0, "run isLeak"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/kwai/koom/javaoom/common/e;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/kwai/koom/javaoom/analysis/m;->d:Lcom/kwai/koom/javaoom/analysis/d;
 

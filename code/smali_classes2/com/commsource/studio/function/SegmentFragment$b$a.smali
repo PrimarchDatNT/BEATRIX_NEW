@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$b$a;->a:Lcom/commsource/studio/function/SegmentFragment$b;
 
     iget-object v1, v1, Lcom/commsource/studio/function/SegmentFragment$b;->a:Lcom/commsource/studio/function/SegmentFragment;
@@ -65,7 +64,6 @@
 
     invoke-virtual {v1, v2, v4, v3}, Lcom/commsource/studio/layer/DeFocusLayer;->J0(Landroid/graphics/Bitmap;Lcom/commsource/studio/layer/FaceOval;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

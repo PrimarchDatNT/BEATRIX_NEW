@@ -69,7 +69,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TStruct;
 
     const-string v1, "ProbabilisticSamplingStrategy"
@@ -78,7 +77,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v1, "samplingRate"
@@ -91,7 +89,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->SAMPLING_RATE_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 3
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$c;
 
     const/4 v4, 0x0
@@ -100,21 +97,18 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->STANDARD_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 4
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$e;
 
     invoke-direct {v0, v4}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$e;-><init>(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$a;)V
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->TUPLE_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 5
     new-instance v0, Ljava/util/EnumMap;
 
     const-class v4, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;
 
     invoke-direct {v0, v4}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 6
     sget-object v4, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;->SAMPLING_RATE:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;
 
     new-instance v5, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -127,14 +121,12 @@
 
     invoke-interface {v0, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->metaDataMap:Ljava/util/Map;
 
-    .line 8
     const-class v1, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     invoke-static {v1, v0}, Lorg/apache/thrift/meta_data/FieldMetaData;->addStructMetaDataMap(Ljava/lang/Class;Ljava/util/Map;)V
@@ -145,12 +137,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->__isset_bitfield:B
 
     return-void
@@ -159,15 +149,12 @@
 .method public constructor <init>(D)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;-><init>()V
 
-    .line 4
     iput-wide p1, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->samplingRate:D
 
     const/4 p1, 0x1
 
-    .line 5
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->setSamplingRateIsSet(Z)V
 
     return-void
@@ -176,20 +163,16 @@
 .method public constructor <init>(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;)V
     .locals 2
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 7
     iput-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->__isset_bitfield:B
 
-    .line 8
     iget-byte v0, p1, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->__isset_bitfield:B
 
     iput-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->__isset_bitfield:B
 
-    .line 9
     iget-wide v0, p1, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->samplingRate:D
 
     iput-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->samplingRate:D
@@ -200,7 +183,6 @@
 .method static synthetic access$300()Lorg/apache/thrift/protocol/TStruct;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
     return-object v0
@@ -209,7 +191,6 @@
 .method static synthetic access$400()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->SAMPLING_RATE_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -226,11 +207,9 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iput-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->__isset_bitfield:B
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
     new-instance v1, Lorg/apache/thrift/transport/TIOStreamTransport;
@@ -248,7 +227,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -268,7 +246,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/apache/thrift/scheme/StandardScheme;
 
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TProtocol;->getScheme()Ljava/lang/Class;
@@ -304,7 +281,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -323,7 +299,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -338,12 +313,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->setSamplingRateIsSet(Z)V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->samplingRate:D
 
     return-void
@@ -352,7 +325,6 @@
 .method public compareTo(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;)I
     .locals 4
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -367,7 +339,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -390,7 +361,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->isSetSamplingRate()Z
 
@@ -416,7 +386,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->isSetSamplingRate()Z
 
@@ -424,7 +393,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->samplingRate:D
 
     iget-wide v2, p1, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->samplingRate:D
@@ -446,7 +414,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->compareTo(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;)I
@@ -459,7 +426,6 @@
 .method public deepCopy()Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
     .locals 1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     invoke-direct {v0, p0}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;-><init>(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;)V
@@ -470,7 +436,6 @@
 .method public bridge synthetic deepCopy()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->deepCopy()Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     move-result-object v0
@@ -494,7 +459,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     iget-wide v2, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->samplingRate:D
 
@@ -519,13 +483,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->equals(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;)Z
@@ -541,7 +503,6 @@
 .method public fieldForId(I)Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;->findByThriftId(I)Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;
 
     move-result-object p1
@@ -552,7 +513,6 @@
 .method public bridge synthetic fieldForId(I)Lorg/apache/thrift/TFieldIdEnum;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->fieldForId(I)Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;
 
     move-result-object p1
@@ -563,7 +523,6 @@
 .method public getFieldValue(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;)Ljava/lang/Object;
     .locals 2
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -576,7 +535,6 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->getSamplingRate()D
 
     move-result-wide v0
@@ -587,7 +545,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -599,7 +556,6 @@
 .method public bridge synthetic getFieldValue(Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->getFieldValue(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;)Ljava/lang/Object;
@@ -612,7 +568,6 @@
 .method public getSamplingRate()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->samplingRate:D
 
     return-wide v0
@@ -621,7 +576,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->samplingRate:D
 
     invoke-static {v0, v1}, Lorg/apache/thrift/TBaseHelper;->hashCode(D)I
@@ -640,7 +594,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -653,14 +606,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->isSetSamplingRate()Z
 
     move-result p1
 
     return p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -668,7 +619,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -680,7 +630,6 @@
 .method public bridge synthetic isSet(Lorg/apache/thrift/TFieldIdEnum;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->isSet(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;)Z
@@ -693,7 +642,6 @@
 .method public isSetSamplingRate()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -713,7 +661,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0
@@ -726,7 +673,6 @@
 .method public setFieldValue(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -744,12 +690,10 @@
     :cond_0
     if-nez p2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->unsetSamplingRate()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     check-cast p2, Ljava/lang/Double;
 
@@ -766,7 +710,6 @@
 .method public bridge synthetic setFieldValue(Lorg/apache/thrift/TFieldIdEnum;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->setFieldValue(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$_Fields;Ljava/lang/Object;)V
@@ -777,12 +720,10 @@
 .method public setSamplingRate(D)Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->samplingRate:D
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->setSamplingRateIsSet(Z)V
 
     return-object p0
@@ -791,7 +732,6 @@
 .method public setSamplingRateIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -808,7 +748,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "ProbabilisticSamplingStrategy("
@@ -817,20 +756,16 @@
 
     const-string v1, "samplingRate:"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-wide v1, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->samplingRate:D
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
     const-string v1, ")"
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -841,7 +776,6 @@
 .method public unsetSamplingRate()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -874,7 +808,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0

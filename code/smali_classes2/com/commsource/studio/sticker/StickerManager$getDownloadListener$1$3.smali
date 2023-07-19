@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$3;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$3;->this$0:Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;
@@ -81,7 +79,6 @@
 
     invoke-static {v1, v3, v2}, Lcom/commsource/studio/sticker/StickerManager;->h(Lcom/commsource/studio/sticker/StickerManager;Lcom/meitu/template/bean/Sticker;I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

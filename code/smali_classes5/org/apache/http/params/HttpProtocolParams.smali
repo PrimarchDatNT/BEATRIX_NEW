@@ -15,7 +15,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,12 +25,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.protocol.content-charset"
 
-    .line 2
     invoke-interface {p0, v0}, Lorg/apache/http/params/HttpParams;->getParameter(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -40,7 +37,6 @@
 
     if-nez p0, :cond_0
 
-    .line 3
     sget-object p0, Lorg/apache/http/protocol/HTTP;->DEF_CONTENT_CHARSET:Ljava/nio/charset/Charset;
 
     invoke-virtual {p0}, Ljava/nio/charset/Charset;->name()Ljava/lang/String;
@@ -56,12 +52,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.protocol.element-charset"
 
-    .line 2
     invoke-interface {p0, v0}, Lorg/apache/http/params/HttpParams;->getParameter(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -70,7 +64,6 @@
 
     if-nez p0, :cond_0
 
-    .line 3
     sget-object p0, Lorg/apache/http/protocol/HTTP;->DEF_PROTOCOL_CHARSET:Ljava/nio/charset/Charset;
 
     invoke-virtual {p0}, Ljava/nio/charset/Charset;->name()Ljava/lang/String;
@@ -86,24 +79,20 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.malformed.input.action"
 
-    .line 2
     invoke-interface {p0, v0}, Lorg/apache/http/params/HttpParams;->getParameter(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     if-nez p0, :cond_0
 
-    .line 3
     sget-object p0, Ljava/nio/charset/CodingErrorAction;->REPORT:Ljava/nio/charset/CodingErrorAction;
 
     return-object p0
 
-    .line 4
     :cond_0
     check-cast p0, Ljava/nio/charset/CodingErrorAction;
 
@@ -115,24 +104,20 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.unmappable.input.action"
 
-    .line 2
     invoke-interface {p0, v0}, Lorg/apache/http/params/HttpParams;->getParameter(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     if-nez p0, :cond_0
 
-    .line 3
     sget-object p0, Ljava/nio/charset/CodingErrorAction;->REPORT:Ljava/nio/charset/CodingErrorAction;
 
     return-object p0
 
-    .line 4
     :cond_0
     check-cast p0, Ljava/nio/charset/CodingErrorAction;
 
@@ -144,12 +129,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.useragent"
 
-    .line 2
     invoke-interface {p0, v0}, Lorg/apache/http/params/HttpParams;->getParameter(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -164,24 +147,20 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.protocol.version"
 
-    .line 2
     invoke-interface {p0, v0}, Lorg/apache/http/params/HttpParams;->getParameter(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     if-nez p0, :cond_0
 
-    .line 3
     sget-object p0, Lorg/apache/http/HttpVersion;->HTTP_1_1:Lorg/apache/http/HttpVersion;
 
     return-object p0
 
-    .line 4
     :cond_0
     check-cast p0, Lorg/apache/http/ProtocolVersion;
 
@@ -193,12 +172,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.protocol.content-charset"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -209,12 +186,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.protocol.element-charset"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -225,12 +200,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.malformed.input.action"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -241,12 +214,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.unmappable.input.action"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -257,12 +228,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.protocol.expect-continue"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setBooleanParameter(Ljava/lang/String;Z)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -273,12 +242,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.useragent"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -289,12 +256,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.protocol.version"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -305,14 +270,12 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.protocol.expect-continue"
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {p0, v0, v1}, Lorg/apache/http/params/HttpParams;->getBooleanParameter(Ljava/lang/String;Z)Z
 
     move-result p0

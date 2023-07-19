@@ -67,7 +67,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/channels/ProduceKt$awaitClose$4$1;->$cont:Lcotlinx/coroutines/m;
 
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;

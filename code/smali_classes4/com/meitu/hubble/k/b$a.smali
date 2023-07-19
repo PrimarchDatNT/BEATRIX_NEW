@@ -27,7 +27,6 @@
 .method constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hubble/k/b$a;->a:Landroid/content/Context;
 
     iput-object p2, p0, Lcom/meitu/hubble/k/b$a;->b:Ljava/lang/String;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hubble/k/b$a;->a:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/meitu/hubble/k/b$a;->b:Ljava/lang/String;
@@ -59,7 +57,6 @@
 
     invoke-virtual {v1}, Landroid/widget/Toast;->show()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

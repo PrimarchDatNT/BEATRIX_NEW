@@ -66,17 +66,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/collections/o1/b$a;->a:Lcotlin/collections/o1/b;
 
-    .line 2
     iput p2, p0, Lcotlin/collections/o1/b$a;->b:I
 
     const/4 p1, -0x1
 
-    .line 3
     iput p1, p0, Lcotlin/collections/o1/b$a;->c:I
 
     return-void
@@ -92,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/b$a;->a:Lcotlin/collections/o1/b;
 
     iget v1, p0, Lcotlin/collections/o1/b$a;->b:I
@@ -105,7 +101,6 @@
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcotlin/collections/o1/b$a;->c:I
 
     return-void
@@ -114,7 +109,6 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/b$a;->b:I
 
     iget-object v1, p0, Lcotlin/collections/o1/b$a;->a:Lcotlin/collections/o1/b;
@@ -139,7 +133,6 @@
 .method public hasPrevious()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/b$a;->b:I
 
     if-lez v0, :cond_0
@@ -163,7 +156,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/b$a;->b:I
 
     iget-object v1, p0, Lcotlin/collections/o1/b$a;->a:Lcotlin/collections/o1/b;
@@ -174,7 +166,6 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     iget v0, p0, Lcotlin/collections/o1/b$a;->b:I
 
     add-int/lit8 v1, v0, 0x1
@@ -183,7 +174,6 @@
 
     iput v0, p0, Lcotlin/collections/o1/b$a;->c:I
 
-    .line 3
     iget-object v0, p0, Lcotlin/collections/o1/b$a;->a:Lcotlin/collections/o1/b;
 
     invoke-static {v0}, Lcotlin/collections/o1/b;->e(Lcotlin/collections/o1/b;)[Ljava/lang/Object;
@@ -204,7 +194,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -216,7 +205,6 @@
 .method public nextIndex()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/b$a;->b:I
 
     return v0
@@ -230,19 +218,16 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/b$a;->b:I
 
     if-lez v0, :cond_0
 
     add-int/lit8 v0, v0, -0x1
 
-    .line 2
     iput v0, p0, Lcotlin/collections/o1/b$a;->b:I
 
     iput v0, p0, Lcotlin/collections/o1/b$a;->c:I
 
-    .line 3
     iget-object v0, p0, Lcotlin/collections/o1/b$a;->a:Lcotlin/collections/o1/b;
 
     invoke-static {v0}, Lcotlin/collections/o1/b;->e(Lcotlin/collections/o1/b;)[Ljava/lang/Object;
@@ -263,7 +248,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -275,7 +259,6 @@
 .method public previousIndex()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/b$a;->b:I
 
     add-int/lit8 v0, v0, -0x1
@@ -286,7 +269,6 @@
 .method public remove()V
     .locals 3
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/b$a;->c:I
 
     const/4 v1, -0x1
@@ -303,22 +285,18 @@
     :goto_0
     if-eqz v2, :cond_1
 
-    .line 2
     iget-object v2, p0, Lcotlin/collections/o1/b$a;->a:Lcotlin/collections/o1/b;
 
     invoke-virtual {v2, v0}, Lcotlin/collections/e;->remove(I)Ljava/lang/Object;
 
-    .line 3
     iget v0, p0, Lcotlin/collections/o1/b$a;->c:I
 
     iput v0, p0, Lcotlin/collections/o1/b$a;->b:I
 
-    .line 4
     iput v1, p0, Lcotlin/collections/o1/b$a;->c:I
 
     return-void
 
-    .line 5
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -341,7 +319,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/b$a;->c:I
 
     const/4 v1, -0x1
@@ -358,14 +335,12 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcotlin/collections/o1/b$a;->a:Lcotlin/collections/o1/b;
 
     invoke-virtual {v1, v0, p1}, Lcotlin/collections/o1/b;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     return-void
 
-    .line 3
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 

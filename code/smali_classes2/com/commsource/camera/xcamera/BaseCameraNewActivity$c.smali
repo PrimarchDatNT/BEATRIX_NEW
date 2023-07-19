@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
     iput-boolean p2, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->h:Z
@@ -73,7 +72,6 @@
 
     if-eqz p1, :cond_d
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -115,7 +113,6 @@
     :goto_0
     check-cast v2, Lcom/commsource/util/q2/e;
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -152,11 +149,9 @@
     :cond_3
     move-object v5, v4
 
-    .line 3
     :goto_1
     check-cast v5, Lcom/commsource/util/q2/e;
 
-    .line 4
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -190,13 +185,11 @@
 
     move-object v4, v5
 
-    .line 5
     :cond_5
     check-cast v4, Lcom/commsource/util/q2/e;
 
     if-eqz v2, :cond_6
 
-    .line 6
     invoke-virtual {v2}, Lcom/commsource/util/q2/e;->b()Z
 
     move-result v1
@@ -213,7 +206,6 @@
 
     if-ne v1, v5, :cond_6
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->Q0()Lcom/commsource/camera/xcamera/cover/CoverContainer;
@@ -227,29 +219,24 @@
     :cond_6
     if-eqz v2, :cond_8
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/util/q2/e;->b()Z
 
     move-result p1
 
     if-nez p1, :cond_8
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
-    .line 10
     invoke-virtual {v2}, Lcom/commsource/util/q2/e;->a()Ljava/lang/String;
 
     move-result-object p2
 
-    .line 11
     invoke-static {p1, p2}, Landroidx/core/app/ActivityCompat;->shouldShowRequestPermissionRationale(Landroid/app/Activity;Ljava/lang/String;)Z
 
     move-result p1
 
     if-nez p1, :cond_8
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
     invoke-static {p1}, Lcom/commsource/util/x0;->a(Landroid/content/Context;)Z
@@ -262,17 +249,14 @@
 
     if-nez p1, :cond_7
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->a0(Landroid/app/Activity;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
@@ -283,29 +267,24 @@
     :cond_8
     if-eqz v4, :cond_a
 
-    .line 16
     invoke-virtual {v4}, Lcom/commsource/util/q2/e;->b()Z
 
     move-result p1
 
     if-nez p1, :cond_a
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
-    .line 18
     invoke-virtual {v4}, Lcom/commsource/util/q2/e;->a()Ljava/lang/String;
 
     move-result-object p2
 
-    .line 19
     invoke-static {p1, p2}, Landroidx/core/app/ActivityCompat;->shouldShowRequestPermissionRationale(Landroid/app/Activity;Ljava/lang/String;)Z
 
     move-result p1
 
     if-nez p1, :cond_a
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
     invoke-static {p1}, Lcom/commsource/util/x0;->a(Landroid/content/Context;)Z
@@ -318,17 +297,14 @@
 
     if-nez p1, :cond_9
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->a0(Landroid/app/Activity;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 23
     :cond_9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
@@ -341,7 +317,6 @@
 
     if-eqz v2, :cond_b
 
-    .line 24
     invoke-virtual {v2}, Lcom/commsource/util/q2/e;->b()Z
 
     move-result p2
@@ -356,15 +331,12 @@
 
     if-nez p2, :cond_b
 
-    .line 25
     iget-object p2, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
-    .line 26
     filled-new-array {v3, v6}, [Ljava/lang/String;
 
     move-result-object v1
 
-    .line 27
     invoke-static {p2, p1, v1}, Lcom/commsource/widget/dialog/s0/t;->d0(Landroid/app/Activity;I[Ljava/lang/String;)V
 
     goto :goto_2
@@ -372,22 +344,18 @@
     :cond_b
     if-eqz v4, :cond_c
 
-    .line 28
     invoke-virtual {v4}, Lcom/commsource/util/q2/e;->b()Z
 
     move-result p2
 
     if-nez p2, :cond_c
 
-    .line 29
     iget-object p2, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
-    .line 30
     filled-new-array {v6}, [Ljava/lang/String;
 
     move-result-object v1
 
-    .line 31
     invoke-static {p2, p1, v1}, Lcom/commsource/widget/dialog/s0/t;->d0(Landroid/app/Activity;I[Ljava/lang/String;)V
 
     goto :goto_2
@@ -395,25 +363,20 @@
     :cond_c
     if-eqz v2, :cond_d
 
-    .line 32
     invoke-virtual {v2}, Lcom/commsource/util/q2/e;->b()Z
 
     move-result p2
 
     if-nez p2, :cond_d
 
-    .line 33
     iget-object p2, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$c;->g:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
-    .line 34
     filled-new-array {v3}, [Ljava/lang/String;
 
     move-result-object v1
 
-    .line 35
     invoke-static {p2, p1, v1}, Lcom/commsource/widget/dialog/s0/t;->d0(Landroid/app/Activity;I[Ljava/lang/String;)V
 
-    .line 36
     :cond_d
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

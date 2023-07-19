@@ -26,13 +26,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput v1, Lcom/meitu/core/MTFilterLibrary;->abCode:I
 
-    .line 2
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -41,7 +38,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/MTFilterGLNativeBaseClass;-><init>()V
 
     return-void
@@ -54,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/core/MTFilterLibrary;->abCode:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -69,12 +64,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/MTFilterLibrary;->applicationContext:Landroid/content/Context;
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/meitu/core/MteApplication;->getInstance()Lcom/meitu/core/MteApplication;
 
     move-result-object v1
@@ -87,12 +80,10 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/meitu/core/MteApplication;->getInstance()Lcom/meitu/core/MteApplication;
 
@@ -110,7 +101,6 @@
 
     return-object v1
 
-    .line 5
     :cond_1
     invoke-virtual {v1}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -130,7 +120,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/core/MTFilterLibrary;->applicationContext:Landroid/content/Context;
 
     const-string v3, "filtergl"
@@ -147,7 +136,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {v2, v7}, Lcom/getkeepsafe/relinker/d;->b(Landroid/content/Context;Ljava/lang/String;)V
     :try_end_0
@@ -158,10 +146,8 @@
     :catchall_0
     const-string v0, "Relink load gnustl_shared Fail !"
 
-    .line 3
     invoke-static {v8, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     :try_start_1
     invoke-static {v7}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_1
@@ -172,10 +158,8 @@
     :catchall_1
     const-string v0, "Relink load gnustl_shared fail , System load fail again"
 
-    .line 5
     invoke-static {v8, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     :goto_0
     :try_start_2
     sget-object v0, Lcom/meitu/core/MTFilterLibrary;->applicationContext:Landroid/content/Context;
@@ -189,10 +173,8 @@
     :catchall_2
     const-string v0, "Relink load c++_shared Fail !"
 
-    .line 7
     invoke-static {v8, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     :try_start_3
     invoke-static {v6}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_3
@@ -203,17 +185,14 @@
     :catchall_3
     const-string v0, "Relink load c++_shared fail , System load fail again"
 
-    .line 9
     invoke-static {v8, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 10
     :goto_1
     :try_start_4
     sget-object v0, Lcom/meitu/core/MTFilterLibrary;->applicationContext:Landroid/content/Context;
 
     invoke-static {v0, v5}, Lcom/getkeepsafe/relinker/d;->b(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 11
     sget-object v0, Lcom/meitu/core/MTFilterLibrary;->applicationContext:Landroid/content/Context;
 
     invoke-static {v0, v4}, Lcom/getkeepsafe/relinker/d;->b(Landroid/content/Context;Ljava/lang/String;)V
@@ -225,14 +204,11 @@
     :catchall_4
     const-string v0, "Relink load mttypes&skia Fail !"
 
-    .line 12
     invoke-static {v8, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13
     :try_start_5
     invoke-static {v5}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v4}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_5
@@ -242,10 +218,8 @@
     :catchall_5
     const-string v0, "Relink load mttypes&skia fail , System load fail again"
 
-    .line 15
     invoke-static {v8, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 16
     :goto_2
     :try_start_6
     sget-object v0, Lcom/meitu/core/MTFilterLibrary;->applicationContext:Landroid/content/Context;
@@ -259,10 +233,8 @@
     :catchall_6
     const-string v0, "Relink load filtergl Fail !"
 
-    .line 17
     invoke-static {v8, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 18
     :try_start_7
     invoke-static {v3}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_7
@@ -273,12 +245,10 @@
     :catchall_7
     const-string v0, "Relink load filtergl fail , System load fail again"
 
-    .line 19
     invoke-static {v8, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_6
 
-    .line 20
     :cond_0
     :try_start_8
     invoke-static {v7}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
@@ -290,13 +260,10 @@
     :catchall_8
     move-exception v2
 
-    .line 21
     invoke-static {v8, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 22
     invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 23
     :goto_3
     :try_start_9
     invoke-static {v6}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
@@ -308,18 +275,14 @@
     :catchall_9
     move-exception v2
 
-    .line 24
     invoke-static {v8, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 25
     invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 26
     :goto_4
     :try_start_a
     invoke-static {v5}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 27
     invoke-static {v4}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_a
     .catchall {:try_start_a .. :try_end_a} :catchall_a
@@ -331,13 +294,10 @@
 
     const-string v2, " System load mttypes Fail !"
 
-    .line 28
     invoke-static {v8, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 29
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 30
     :goto_5
     :try_start_b
     invoke-static {v3}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
@@ -351,13 +311,10 @@
 
     const-string v2, " System loadMTFilterLibrary Fail !"
 
-    .line 31
     invoke-static {v8, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 32
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 33
     :goto_6
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -375,19 +332,16 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
 
     sput-object v2, Lcom/meitu/core/MTFilterLibrary;->applicationContext:Landroid/content/Context;
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v2
 
-    .line 3
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -399,7 +353,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 4
     iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->sourceDir:Ljava/lang/String;
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
@@ -409,10 +362,8 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-virtual {p0}, Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
 
-    .line 6
     new-instance p0, Ljava/lang/RuntimeException;
 
     const-string v1, "Unable to locate assets, aborting..."
@@ -423,7 +374,6 @@
 
     throw p0
 
-    .line 7
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -438,10 +388,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/meitu/core/MTFilterLibrary;->abCode:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -454,30 +402,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
     :try_end_0
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :catch_0
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
 
-    .line 5
     sget-object p0, Lcom/meitu/core/MTFilterLibrary;->applicationContext:Landroid/content/Context;
 
     if-eqz p0, :cond_0
 
-    .line 6
     new-instance p0, Ljava/lang/IllegalStateException;
 
     sget-object v1, Lcom/meitu/core/MTFilterLibrary;->applicationContext:Landroid/content/Context;
@@ -499,10 +441,8 @@
 
     const-string v1, "ToolMtEncode, applicationContext == null"
 
-    .line 7
     invoke-static {p0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     new-instance p0, Ljava/lang/IllegalStateException;
 
     invoke-direct {p0}, Ljava/lang/IllegalStateException;-><init>()V

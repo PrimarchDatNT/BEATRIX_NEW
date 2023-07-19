@@ -37,7 +37,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, v0}, Lcom/google/common/graph/n;-><init>(Lcom/google/common/graph/h;Lcom/google/common/graph/n$a;)V
 
     return-void
@@ -46,7 +45,6 @@
 .method synthetic constructor <init>(Lcom/google/common/graph/h;Lcom/google/common/graph/n$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/graph/n$b;-><init>(Lcom/google/common/graph/h;)V
 
     return-void
@@ -57,7 +55,6 @@
 .method protected bridge synthetic a()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/n$b;->f()Lcom/google/common/graph/m;
 
     move-result-object v0
@@ -75,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/google/common/graph/n;->g:Ljava/util/Iterator;
 
@@ -85,7 +81,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/n;->f:Ljava/lang/Object;
 
     iget-object v1, p0, Lcom/google/common/graph/n;->g:Ljava/util/Iterator;
@@ -100,7 +95,6 @@
 
     return-object v0
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/google/common/graph/n;->d()Z
 
@@ -108,7 +102,6 @@
 
     if-nez v0, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractIterator;->b()Ljava/lang/Object;
 
     move-result-object v0

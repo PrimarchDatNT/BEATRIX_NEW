@@ -41,7 +41,6 @@
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$catch$$inlined$unsafeFlow$1;->b:Lcotlin/jvm/u/q;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -96,7 +95,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$catch$$inlined$unsafeFlow$1$1;->label:I
 
     const/4 v3, 0x2
@@ -133,7 +131,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -143,7 +140,6 @@
 
     throw p1
 
-    .line 3
     :cond_2
     iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$catch$$inlined$unsafeFlow$1$1;->L$3:Ljava/lang/Object;
 
@@ -168,7 +164,6 @@
     :cond_3
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$catch$$inlined$unsafeFlow$1;->a:Lcotlinx/coroutines/flow/d;
 
     iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$catch$$inlined$unsafeFlow$1$1;->L$0:Ljava/lang/Object;
@@ -196,13 +191,11 @@
 
     move-object v2, v0
 
-    .line 5
     :goto_1
     check-cast p2, Ljava/lang/Throwable;
 
     if-eqz p2, :cond_5
 
-    .line 6
     iget-object v6, v5, Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$catch$$inlined$unsafeFlow$1;->b:Lcotlin/jvm/u/q;
 
     iput-object v5, v0, Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$catch$$inlined$unsafeFlow$1$1;->L$0:Ljava/lang/Object;
@@ -225,7 +218,6 @@
 
     return-object v1
 
-    .line 7
     :cond_5
     :goto_2
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;

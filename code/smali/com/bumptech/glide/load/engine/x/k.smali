@@ -14,7 +14,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -66,7 +65,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/bumptech/glide/load/engine/x/k;->a:Lcom/bumptech/glide/load/engine/x/j$a;
 
     invoke-interface {p1, p2}, Lcom/bumptech/glide/load/engine/x/j$a;->a(Lcom/bumptech/glide/load/engine/s;)V
@@ -124,7 +122,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/x/k;->a:Lcom/bumptech/glide/load/engine/x/j$a;
 
     return-void

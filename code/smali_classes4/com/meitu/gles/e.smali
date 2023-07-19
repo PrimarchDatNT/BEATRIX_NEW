@@ -13,10 +13,8 @@
 .method public constructor <init>(Lcom/meitu/gles/a;Landroid/graphics/SurfaceTexture;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/meitu/gles/b;-><init>(Lcom/meitu/gles/a;)V
 
-    .line 6
     invoke-virtual {p0, p2}, Lcom/meitu/gles/b;->b(Ljava/lang/Object;)V
 
     return-void
@@ -25,16 +23,12 @@
 .method public constructor <init>(Lcom/meitu/gles/a;Landroid/view/Surface;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/gles/b;-><init>(Lcom/meitu/gles/a;)V
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/meitu/gles/b;->b(Ljava/lang/Object;)V
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/gles/e;->f:Landroid/view/Surface;
 
-    .line 4
     iput-boolean p3, p0, Lcom/meitu/gles/e;->g:Z
 
     return-void
@@ -49,23 +43,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/gles/e;->f:Landroid/view/Surface;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/gles/b;->a:Lcom/meitu/gles/a;
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/meitu/gles/b;->b(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -85,29 +74,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/gles/b;->g()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/gles/e;->f:Landroid/view/Surface;
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-boolean v2, p0, Lcom/meitu/gles/e;->g:Z
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Landroid/view/Surface;->release()V
 
     :cond_0
     const/4 v1, 0x0
 
-    .line 5
     iput-object v1, p0, Lcom/meitu/gles/e;->f:Landroid/view/Surface;
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

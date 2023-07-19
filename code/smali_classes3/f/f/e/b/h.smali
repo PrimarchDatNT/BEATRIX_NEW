@@ -24,7 +24,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lf/f/e/b/h$a;
 
     invoke-direct {v0}, Lf/f/e/b/h$a;-><init>()V
@@ -37,7 +36,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +44,6 @@
 .method static a()[C
     .locals 1
 
-    .line 1
     sget-object v0, Lf/f/e/b/h;->a:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;

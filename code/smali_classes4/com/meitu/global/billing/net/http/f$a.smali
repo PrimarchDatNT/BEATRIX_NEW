@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/global/billing/net/http/f;Lcom/meitu/global/billing/net/DataModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/global/billing/net/http/f$a;->b:Lcom/meitu/global/billing/net/http/f;
 
     iput-object p2, p0, Lcom/meitu/global/billing/net/http/f$a;->a:Lcom/meitu/global/billing/net/DataModel;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/global/billing/net/i;->a:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -71,7 +69,6 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/f$a;->a:Lcom/meitu/global/billing/net/DataModel;
 
     iget-object v1, v1, Lcom/meitu/global/billing/net/DataModel;->c:Ljava/lang/String;
@@ -84,7 +81,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/f$a;->b:Lcom/meitu/global/billing/net/http/f;
 
     const/4 v2, 0x1
@@ -99,7 +95,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/f$a;->b:Lcom/meitu/global/billing/net/http/f;
 
@@ -113,7 +108,6 @@
 
     invoke-interface {v1, v2, v4, v5, v3}, Lcom/meitu/global/billing/net/i;->b(ZLjava/lang/String;Ljava/lang/String;Lcom/meitu/global/billing/net/DataModel;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

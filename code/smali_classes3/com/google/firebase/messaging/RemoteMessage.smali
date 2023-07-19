@@ -66,7 +66,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/messaging/a0;
 
     invoke-direct {v0}, Lcom/google/firebase/messaging/a0;-><init>()V
@@ -86,10 +85,8 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     return-void
@@ -100,7 +97,6 @@
 
     const-string v0, "high"
 
-    .line 1
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -114,7 +110,6 @@
     :cond_0
     const-string v0, "normal"
 
-    .line 2
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -138,7 +133,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const-string v1, "from"
@@ -155,7 +149,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const-string v1, "google.to"
@@ -170,7 +163,6 @@
 .method public final L0()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const-string v1, "google.ttl"
@@ -179,12 +171,10 @@
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Ljava/lang/Integer;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast v0, Ljava/lang/Integer;
 
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
@@ -193,13 +183,11 @@
 
     return v0
 
-    .line 4
     :cond_0
     instance-of v1, v0, Ljava/lang/String;
 
     if-eqz v1, :cond_1
 
-    .line 5
     :try_start_0
     move-object v1, v0
 
@@ -213,7 +201,6 @@
 
     return v0
 
-    .line 6
     :catch_0
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -258,7 +245,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const-string v1, "google.message_id"
@@ -269,7 +255,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const-string v1, "message_id"
@@ -287,12 +272,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->putExtras(Landroid/os/Bundle;)Landroid/content/Intent;
@@ -305,7 +288,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const-string v1, "message_type"
@@ -322,7 +304,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->c:Lcom/google/firebase/messaging/RemoteMessage$c;
 
     if-nez v0, :cond_0
@@ -335,7 +316,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/firebase/messaging/RemoteMessage$c;
 
     new-instance v1, Lcom/google/firebase/messaging/y;
@@ -350,7 +330,6 @@
 
     iput-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->c:Lcom/google/firebase/messaging/RemoteMessage$c;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->c:Lcom/google/firebase/messaging/RemoteMessage$c;
 
@@ -360,7 +339,6 @@
 .method public final l0()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const-string v1, "google.original_priority"
@@ -371,7 +349,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const-string v1, "google.priority"
@@ -380,7 +357,6 @@
 
     move-result-object v0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/google/firebase/messaging/RemoteMessage;->W0(Ljava/lang/String;)I
 
@@ -392,7 +368,6 @@
 .method public final w0()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const-string v1, "google.delivered_priority"
@@ -403,7 +378,6 @@
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const-string v1, "google.priority_reduced"
@@ -424,7 +398,6 @@
 
     return v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
@@ -434,7 +407,6 @@
 
     move-result-object v0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/google/firebase/messaging/RemoteMessage;->W0(Ljava/lang/String;)I
 
@@ -450,12 +422,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const/4 v1, 0x2
@@ -464,7 +434,6 @@
 
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->k(Landroid/os/Parcel;ILandroid/os/Bundle;Z)V
 
-    .line 3
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void
@@ -475,7 +444,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const-string v1, "collapse_key"
@@ -490,7 +458,6 @@
 .method public final y0()J
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     const-string v1, "google.sent_time"
@@ -499,12 +466,10 @@
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Ljava/lang/Long;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast v0, Ljava/lang/Long;
 
     invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
@@ -513,13 +478,11 @@
 
     return-wide v0
 
-    .line 4
     :cond_0
     instance-of v1, v0, Ljava/lang/String;
 
     if-eqz v1, :cond_1
 
-    .line 5
     :try_start_0
     move-object v1, v0
 
@@ -533,7 +496,6 @@
 
     return-wide v0
 
-    .line 6
     :catch_0
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -588,20 +550,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->b:Ljava/util/Map;
 
     if-nez v0, :cond_2
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
-    .line 3
     new-instance v1, Landroidx/collection/ArrayMap;
 
     invoke-direct {v1}, Landroidx/collection/ArrayMap;-><init>()V
 
-    .line 4
     invoke-virtual {v0}, Landroid/os/Bundle;->keySet()Ljava/util/Set;
 
     move-result-object v2
@@ -624,22 +582,18 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 5
     invoke-virtual {v0, v3}, Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v4
 
-    .line 6
     instance-of v5, v4, Ljava/lang/String;
 
     if-eqz v5, :cond_0
 
-    .line 7
     check-cast v4, Ljava/lang/String;
 
     const-string v5, "google."
 
-    .line 8
     invoke-virtual {v3, v5}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v5
@@ -648,7 +602,6 @@
 
     const-string v5, "gcm."
 
-    .line 9
     invoke-virtual {v3, v5}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v5
@@ -657,7 +610,6 @@
 
     const-string v5, "from"
 
-    .line 10
     invoke-virtual {v3, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
@@ -666,7 +618,6 @@
 
     const-string v5, "message_type"
 
-    .line 11
     invoke-virtual {v3, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
@@ -675,23 +626,19 @@
 
     const-string v5, "collapse_key"
 
-    .line 12
     invoke-virtual {v3, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-nez v5, :cond_0
 
-    .line 13
     invoke-virtual {v1, v3, v4}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 14
     :cond_1
     iput-object v1, p0, Lcom/google/firebase/messaging/RemoteMessage;->b:Ljava/util/Map;
 
-    .line 15
     :cond_2
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage;->b:Ljava/util/Map;
 

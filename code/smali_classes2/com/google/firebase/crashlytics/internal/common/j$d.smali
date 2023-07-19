@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/j$d;->a:Lcom/google/firebase/crashlytics/internal/common/j;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/j$d;->a:Lcom/google/firebase/crashlytics/internal/common/j;
 
@@ -64,7 +62,6 @@
 
     move-result v0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v1
@@ -85,7 +82,6 @@
 
     invoke-virtual {v1, v2}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
@@ -97,17 +93,14 @@
     :catch_0
     move-exception v0
 
-    .line 4
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v1
 
     const-string v2, "Problem encountered deleting Crashlytics initialization marker."
 
-    .line 5
     invoke-virtual {v1, v2, v0}, Lcom/google/firebase/crashlytics/e/b;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     return-object v0
@@ -121,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/common/j$d;->a()Ljava/lang/Boolean;
 
     move-result-object v0

@@ -37,7 +37,6 @@
 
     iput-object p5, p0, Lcom/commsource/util/l0$e;->d:Lcotlin/jvm/u/a;
 
-    .line 1
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
@@ -56,10 +55,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/util/l0$e;->d:Lcotlin/jvm/u/a;
 
     if-eqz p1, :cond_0
@@ -70,7 +67,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/util/l0$e;->a:Landroid/view/ViewPropertyAnimator;
 
@@ -78,7 +74,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

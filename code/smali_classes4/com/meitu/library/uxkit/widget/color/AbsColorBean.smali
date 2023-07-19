@@ -16,10 +16,8 @@
 .method public constructor <init>([F)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/uxkit/widget/color/AbsColorBean;->color:[F
 
     return-void
@@ -38,16 +36,13 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/meitu/library/uxkit/widget/color/AbsColorBean;
 
-    .line 3
     iget-object p1, p1, Lcom/meitu/library/uxkit/widget/color/AbsColorBean;->color:[F
 
     aget v2, p1, v1
@@ -97,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/AbsColorBean;->color:[F
 
     const/4 v2, 0x0
@@ -134,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v1

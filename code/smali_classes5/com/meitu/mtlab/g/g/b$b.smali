@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/mtlab/g/g/b;Lcom/meitu/mtlab/g/c/e;Lcom/meitu/mtlab/g/d/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/g/g/b$b;->c:Lcom/meitu/mtlab/g/g/b;
 
     iput-object p2, p0, Lcom/meitu/mtlab/g/g/b$b;->a:Lcom/meitu/mtlab/g/c/e;
@@ -50,7 +49,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtlab/g/g/b$b;->c:Lcom/meitu/mtlab/g/g/b;
 
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/b$b;->a:Lcom/meitu/mtlab/g/c/e;
@@ -61,21 +59,18 @@
 
     invoke-static {v0, v1, v2}, Lcom/meitu/mtlab/g/g/b;->a(Lcom/meitu/mtlab/g/g/b;Lcom/meitu/mtlab/g/c/e;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/mtlab/g/g/b$b;->b:Lcom/meitu/mtlab/g/d/a;
 
     if-eqz v0, :cond_0
 
     const/16 v1, -0x63
 
-    .line 3
     invoke-virtual {p2}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object p2
 
     invoke-interface {v0, v1, p2}, Lcom/meitu/mtlab/g/d/a;->a(ILjava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -89,7 +84,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p2}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
@@ -99,7 +93,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p2}, Lokhttp3/Response;->code()I
 
     move-result v1
@@ -108,24 +101,20 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p2, p0, Lcom/meitu/mtlab/g/g/b$b;->c:Lcom/meitu/mtlab/g/g/b;
 
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/b$b;->a:Lcom/meitu/mtlab/g/c/e;
 
     invoke-static {p2, v1}, Lcom/meitu/mtlab/g/g/b;->b(Lcom/meitu/mtlab/g/g/b;Lcom/meitu/mtlab/g/c/e;)V
 
-    .line 4
     iget-object p2, p0, Lcom/meitu/mtlab/g/g/b$b;->b:Lcom/meitu/mtlab/g/d/a;
 
     if-eqz p2, :cond_1
 
-    .line 5
     invoke-interface {p2, v0}, Lcom/meitu/mtlab/g/d/a;->onResponse(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/b$b;->c:Lcom/meitu/mtlab/g/g/b;
 
@@ -157,12 +146,10 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/g/g/b;->a(Lcom/meitu/mtlab/g/g/b;Lcom/meitu/mtlab/g/c/e;Ljava/lang/String;)V
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/b$b;->b:Lcom/meitu/mtlab/g/d/a;
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-virtual {p2}, Lokhttp3/Response;->code()I
 
     move-result p2
@@ -176,21 +163,18 @@
     :catch_0
     move-exception p2
 
-    .line 9
     iget-object v0, p0, Lcom/meitu/mtlab/g/g/b$b;->b:Lcom/meitu/mtlab/g/d/a;
 
     if-eqz v0, :cond_1
 
     const/16 v1, -0x63
 
-    .line 10
     invoke-virtual {p2}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object p2
 
     invoke-interface {v0, v1, p2}, Lcom/meitu/mtlab/g/d/a;->a(ILjava/lang/String;)V
 
-    .line 11
     :cond_1
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

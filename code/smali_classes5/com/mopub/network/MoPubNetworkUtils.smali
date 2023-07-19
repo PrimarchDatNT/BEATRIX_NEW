@@ -20,7 +20,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/network/MoPubNetworkUtils;
 
     invoke-direct {v0}, Lcom/mopub/network/MoPubNetworkUtils;-><init>()V
@@ -33,7 +32,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -67,14 +65,12 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p0
 
     const-string v0, "uri"
 
-    .line 2
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p0}, Lcom/mopub/network/MoPubNetworkUtils;->getQueryParamMap(Landroid/net/Uri;)Ljava/util/Map;
@@ -109,7 +105,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
 
     move-result v0
@@ -118,13 +113,11 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v1
@@ -146,7 +139,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 4
     :try_start_0
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -158,7 +150,6 @@
 
     goto :goto_0
 
-    .line 5
     :catch_0
     sget-object v3, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -192,7 +183,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
@@ -235,12 +225,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/net/Uri;->getQueryParameterNames()Ljava/util/Set;
 
     move-result-object v1
@@ -264,7 +252,6 @@
 
     const-string v3, "queryParam"
 
-    .line 3
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, v2}, Landroid/net/Uri;->getQueryParameters(Ljava/lang/String;)Ljava/util/List;
@@ -316,7 +303,6 @@
 
     const-string v0, "Content-Type"
 
-    .line 1
     invoke-interface {p0, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -331,7 +317,6 @@
     :goto_0
     if-eqz p0, :cond_e
 
-    .line 2
     new-instance v0, Lcotlin/text/Regex;
 
     const-string v1, ";"
@@ -344,7 +329,6 @@
 
     move-result-object p0
 
-    .line 3
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -353,7 +337,6 @@
 
     if-nez v0, :cond_3
 
-    .line 4
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -362,7 +345,6 @@
 
     move-result-object v0
 
-    .line 5
     :cond_1
     invoke-interface {v0}, Ljava/util/ListIterator;->hasPrevious()Z
 
@@ -370,14 +352,12 @@
 
     if-eqz v3, :cond_3
 
-    .line 6
     invoke-interface {v0}, Ljava/util/ListIterator;->previous()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/String;
 
-    .line 7
     invoke-interface {v3}, Ljava/lang/CharSequence;->length()I
 
     move-result v3
@@ -394,7 +374,6 @@
     :goto_1
     if-nez v3, :cond_1
 
-    .line 8
     invoke-interface {v0}, Ljava/util/ListIterator;->nextIndex()I
 
     move-result v0
@@ -407,7 +386,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_3
     invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
@@ -416,7 +394,6 @@
     :goto_2
     new-array v0, v1, [Ljava/lang/String;
 
-    .line 10
     invoke-interface {p0, v0}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p0
@@ -425,10 +402,8 @@
 
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 11
     check-cast p0, [Ljava/lang/String;
 
-    .line 12
     array-length v3, p0
 
     const/4 v4, 0x1
@@ -436,10 +411,8 @@
     :goto_3
     if-ge v4, v3, :cond_e
 
-    .line 13
     aget-object v5, p0, v4
 
-    .line 14
     invoke-interface {v5}, Ljava/lang/CharSequence;->length()I
 
     move-result v6
@@ -462,7 +435,6 @@
     :cond_4
     move v9, v6
 
-    .line 15
     :goto_5
     invoke-interface {v5, v9}, Ljava/lang/CharSequence;->charAt(I)C
 
@@ -470,7 +442,6 @@
 
     const/16 v10, 0x20
 
-    .line 16
     invoke-static {v9, v10}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result v9
@@ -512,17 +483,14 @@
     :goto_7
     add-int/lit8 v6, v6, 0x1
 
-    .line 17
     invoke-interface {v5, v7, v6}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
 
     move-result-object v5
 
-    .line 18
     invoke-virtual {v5}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 19
     new-instance v6, Lcotlin/text/Regex;
 
     const-string v7, "="
@@ -533,14 +501,12 @@
 
     move-result-object v5
 
-    .line 20
     invoke-interface {v5}, Ljava/util/List;->isEmpty()Z
 
     move-result v6
 
     if-nez v6, :cond_c
 
-    .line 21
     invoke-interface {v5}, Ljava/util/List;->size()I
 
     move-result v6
@@ -549,7 +515,6 @@
 
     move-result-object v6
 
-    .line 22
     :cond_a
     invoke-interface {v6}, Ljava/util/ListIterator;->hasPrevious()Z
 
@@ -557,14 +522,12 @@
 
     if-eqz v7, :cond_c
 
-    .line 23
     invoke-interface {v6}, Ljava/util/ListIterator;->previous()Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, Ljava/lang/String;
 
-    .line 24
     invoke-interface {v7}, Ljava/lang/CharSequence;->length()I
 
     move-result v7
@@ -581,7 +544,6 @@
     :goto_8
     if-nez v7, :cond_a
 
-    .line 25
     invoke-interface {v6}, Ljava/util/ListIterator;->nextIndex()I
 
     move-result v6
@@ -594,7 +556,6 @@
 
     goto :goto_9
 
-    .line 26
     :cond_c
     invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
@@ -603,17 +564,14 @@
     :goto_9
     new-array v6, v1, [Ljava/lang/String;
 
-    .line 27
     invoke-interface {v5, v6}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v5
 
     invoke-static {v5, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 28
     check-cast v5, [Ljava/lang/String;
 
-    .line 29
     array-length v6, v5
 
     const/4 v7, 0x2
@@ -642,7 +600,6 @@
 
     if-eqz v6, :cond_d
 
-    .line 30
     aget-object p0, v5, v2
 
     return-object p0

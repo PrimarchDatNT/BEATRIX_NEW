@@ -34,14 +34,12 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/icing/u1;->a()Ljava/lang/Class;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/internal/icing/u1;->c:Ljava/lang/Class;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/icing/u1;
 
     const/4 v1, 0x1
@@ -56,10 +54,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -72,10 +68,8 @@
 .method private constructor <init>(Z)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object p1
@@ -98,7 +92,6 @@
     :try_start_0
     const-string v0, "com.google.protobuf.Extension"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -116,7 +109,6 @@
 .method public static b()Lcom/google/android/gms/internal/icing/u1;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/icing/t1;->b()Lcom/google/android/gms/internal/icing/u1;
 
     move-result-object v0

@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/AdAdapter;Lcom/mopub/mobileads/MoPubErrorCode;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$8;->val$errorCode:Lcom/mopub/mobileads/MoPubErrorCode;
 
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager$ForEachAdUnitIdRunnable;-><init>(Lcom/mopub/mobileads/AdAdapter;)V
@@ -39,7 +38,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$8;->val$errorCode:Lcom/mopub/mobileads/MoPubErrorCode;
 
     invoke-static {p1, v0}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$1000(Ljava/lang/String;Lcom/mopub/mobileads/MoPubErrorCode;)V

@@ -23,7 +23,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -42,7 +41,6 @@
 
     const/high16 v1, 0x43480000    # 200.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1

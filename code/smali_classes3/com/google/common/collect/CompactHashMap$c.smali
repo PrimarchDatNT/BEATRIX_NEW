@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/CompactHashMap;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/CompactHashMap$c;->f:Lcom/google/common/collect/CompactHashMap;
 
     const/4 v0, 0x0
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$c;->f:Lcom/google/common/collect/CompactHashMap;
 
     iget-object v0, v0, Lcom/google/common/collect/CompactHashMap;->values:[Ljava/lang/Object;

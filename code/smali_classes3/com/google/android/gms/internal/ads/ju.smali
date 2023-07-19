@@ -16,7 +16,6 @@
 .method constructor <init>(Landroid/webkit/JsPromptResult;Landroid/widget/EditText;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ju;->a:Landroid/webkit/JsPromptResult;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ju;->b:Landroid/widget/EditText;
@@ -31,7 +30,6 @@
 .method public final onClick(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ju;->a:Landroid/webkit/JsPromptResult;
 
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/ju;->b:Landroid/widget/EditText;

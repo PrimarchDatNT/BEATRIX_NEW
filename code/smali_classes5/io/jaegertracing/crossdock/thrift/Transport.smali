@@ -35,7 +35,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lio/jaegertracing/crossdock/thrift/Transport;
 
     const-string v1, "HTTP"
@@ -46,7 +45,6 @@
 
     sput-object v0, Lio/jaegertracing/crossdock/thrift/Transport;->HTTP:Lio/jaegertracing/crossdock/thrift/Transport;
 
-    .line 2
     new-instance v1, Lio/jaegertracing/crossdock/thrift/Transport;
 
     const-string v3, "TCHANNEL"
@@ -57,7 +55,6 @@
 
     sput-object v1, Lio/jaegertracing/crossdock/thrift/Transport;->TCHANNEL:Lio/jaegertracing/crossdock/thrift/Transport;
 
-    .line 3
     new-instance v3, Lio/jaegertracing/crossdock/thrift/Transport;
 
     const-string v5, "DUMMY"
@@ -78,7 +75,6 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lio/jaegertracing/crossdock/thrift/Transport;->$VALUES:[Lio/jaegertracing/crossdock/thrift/Transport;
 
     return-void
@@ -92,10 +88,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lio/jaegertracing/crossdock/thrift/Transport;->value:I
 
     return-void
@@ -118,19 +112,16 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lio/jaegertracing/crossdock/thrift/Transport;->DUMMY:Lio/jaegertracing/crossdock/thrift/Transport;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lio/jaegertracing/crossdock/thrift/Transport;->TCHANNEL:Lio/jaegertracing/crossdock/thrift/Transport;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lio/jaegertracing/crossdock/thrift/Transport;->HTTP:Lio/jaegertracing/crossdock/thrift/Transport;
 
@@ -140,7 +131,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/jaegertracing/crossdock/thrift/Transport;
     .locals 1
 
-    .line 1
     const-class v0, Lio/jaegertracing/crossdock/thrift/Transport;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -155,7 +145,6 @@
 .method public static values()[Lio/jaegertracing/crossdock/thrift/Transport;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/crossdock/thrift/Transport;->$VALUES:[Lio/jaegertracing/crossdock/thrift/Transport;
 
     invoke-virtual {v0}, [Lio/jaegertracing/crossdock/thrift/Transport;->clone()Ljava/lang/Object;
@@ -172,7 +161,6 @@
 .method public getValue()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/jaegertracing/crossdock/thrift/Transport;->value:I
 
     return v0

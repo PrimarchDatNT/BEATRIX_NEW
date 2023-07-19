@@ -31,7 +31,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mIsInit:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -42,20 +41,16 @@
 .method public constructor <init>(Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mSDKConfig:Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;
 
-    .line 3
     new-instance p1, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     invoke-direct {p1}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mStartupLifecycleManager:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
     return-void
@@ -72,10 +67,8 @@
 
     const-string p1, "\u8fdc\u7a0b\u914d\u7f6e\u62c9\u53d6\u65e0\u6548"
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -83,30 +76,24 @@
     :cond_0
     const-string v1, "\u8fdc\u7a0b\u914d\u7f6e\u62c9\u53d6\u6210\u529f"
 
-    .line 3
     invoke-static {v1, p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->logBusinessAds(Ljava/lang/String;Lcom/meitu/hwbusinesskit/core/bean/Business;)V
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
-    .line 5
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->getAdSlotFilter()Lcom/meitu/hwbusinesskit/core/utils/AdSlotFilter;
 
     move-result-object v1
 
     invoke-static {p1, v1}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->filterBusinessIfNeed(Lcom/meitu/hwbusinesskit/core/bean/Business;Lcom/meitu/hwbusinesskit/core/utils/AdSlotFilter;)V
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;->updateData(Lcom/meitu/hwbusinesskit/core/bean/Business;)V
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->updateData(Lcom/meitu/hwbusinesskit/core/bean/Business;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -119,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -142,7 +128,6 @@
 
     float-to-int v1, v1
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getDiffTimeSecond()I
 
     move-result p1
@@ -169,35 +154,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mIsInit:Z
 
     if-nez v1, :cond_2
 
-    .line 2
     const-class v1, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-boolean v2, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mIsInit:Z
 
     if-nez v2, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->loadBusinessConfig()Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
-    .line 5
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;->getInstance()Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     move-result-object v2
 
-    .line 6
     new-instance v3, Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     iget-object v4, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
@@ -206,7 +185,6 @@
 
     iput-object v3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
-    .line 7
     new-instance v3, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     iget-object v4, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mSDKConfig:Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;
@@ -217,7 +195,6 @@
 
     iput-object v3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
-    .line 8
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mSDKConfig:Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;
 
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->isGoogleServiceAvailable()Z
@@ -226,16 +203,13 @@
 
     if-eqz v2, :cond_0
 
-    .line 9
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->initGoogleAdvertisingInfo()V
 
     :cond_0
     const/4 v2, 0x1
 
-    .line 10
     sput-boolean v2, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mIsInit:Z
 
-    .line 11
     :cond_1
     monitor-exit v1
 
@@ -252,7 +226,6 @@
 
     throw v2
 
-    .line 12
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -267,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor$1;
 
     const-string v2, "InitGAIDTask"
@@ -276,7 +248,6 @@
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->executorFastTask(Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -295,20 +266,17 @@
 
     goto :goto_1
 
-    .line 1
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getPlatforms()Ljava/util/ArrayList;
 
     move-result-object p1
 
     if-eqz p1, :cond_3
 
-    .line 3
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -329,7 +297,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getPlatform()Ljava/lang/String;
 
     move-result-object v3
@@ -342,7 +309,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getPlatform()Ljava/lang/String;
 
@@ -358,40 +324,33 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-virtual {v3}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getShow_times()I
 
     move-result v4
 
     if-lez v4, :cond_1
 
-    .line 7
     invoke-virtual {v3}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->clone()Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
     move-result-object v3
 
-    .line 8
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getAd_ids()Ljava/util/ArrayList;
 
     move-result-object v2
 
     invoke-virtual {v3, v2}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->setAd_ids(Ljava/util/ArrayList;)V
 
-    .line 9
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-virtual {p0, v1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->setPlatforms(Ljava/util/ArrayList;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -416,15 +375,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;->clearIntervalTime(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -437,15 +393,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;->countIntervalTime(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -458,22 +411,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     const/4 v2, 0x2
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/bean/Business;->getAdSlotById(Ljava/lang/String;)Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
@@ -481,12 +430,10 @@
 
     if-nez p1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getMode()I
 
@@ -504,10 +451,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     if-eqz v1, :cond_0
@@ -521,25 +466,21 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     new-instance v2, Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;
 
     invoke-direct {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;-><init>(Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     invoke-virtual {v2, v1, p1, v3}, Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;->init(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;)V
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mGlobalAdListener:Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;
 
     invoke-virtual {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setGlobalAdListener(Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -552,10 +493,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     if-eqz v1, :cond_0
@@ -569,25 +508,21 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     new-instance v2, Lcom/meitu/hwbusinesskit/core/ad/MixAd;
 
     invoke-direct {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/MixAd;-><init>(Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     invoke-virtual {v2, v1, p1, v3}, Lcom/meitu/hwbusinesskit/core/ad/MixAd;->init(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;)V
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mGlobalAdListener:Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;
 
     invoke-virtual {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setGlobalAdListener(Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -600,10 +535,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     if-eqz v1, :cond_0
@@ -617,25 +550,21 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     new-instance v2, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;
 
     invoke-direct {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;-><init>(Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     invoke-virtual {v2, v1, p1, v3}, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;->init(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;)V
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mGlobalAdListener:Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;
 
     invoke-virtual {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setGlobalAdListener(Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -648,10 +577,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     if-eqz v1, :cond_0
@@ -665,18 +592,15 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     new-instance v1, Lcom/meitu/hwbusinesskit/core/ad/ProtocolAd;
 
     invoke-direct {v1}, Lcom/meitu/hwbusinesskit/core/ad/ProtocolAd;-><init>()V
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     invoke-virtual {v1, p1, v2}, Lcom/meitu/hwbusinesskit/core/ad/ProtocolAd;->init(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -689,10 +613,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     if-eqz v1, :cond_0
@@ -706,25 +628,21 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     new-instance v2, Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;
 
     invoke-direct {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;-><init>(Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     invoke-virtual {v2, v1, p1, v3}, Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;->init(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;)V
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mGlobalAdListener:Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;
 
     invoke-virtual {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setGlobalAdListener(Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -737,22 +655,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/bean/Business;->getAdSlotById(Ljava/lang/String;)Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
@@ -760,7 +674,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->isAd_switch()Z
 
     move-result v3
@@ -769,7 +682,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
@@ -779,7 +691,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-virtual {p1, v1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->hasCacheAd(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)Z
 
     move-result p1
@@ -793,7 +704,6 @@
 
     return v2
 
-    .line 8
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -808,22 +718,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/bean/Business;->getAdSlotById(Ljava/lang/String;)Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
@@ -831,7 +737,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->isAd_switch()Z
 
     move-result p1
@@ -853,7 +758,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mStartupLifecycleManager:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->isHotStartup()Z
@@ -876,7 +780,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mStartupLifecycleManager:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->isHotStartup()Z
@@ -885,26 +788,21 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     if-nez v2, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 6
     :cond_1
     invoke-virtual {v2, p1}, Lcom/meitu/hwbusinesskit/core/bean/Business;->getAdSlotById(Ljava/lang/String;)Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
@@ -912,7 +810,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 7
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->isAd_switch()Z
 
     move-result v2
@@ -921,7 +818,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
@@ -939,18 +835,15 @@
 
     if-eqz p3, :cond_3
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 10
     :cond_3
     invoke-direct {p0, p1}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->checkDiffTime(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)Z
 
     move-result p1
 
-    .line 11
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -967,12 +860,10 @@
 
     invoke-static {p2}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 13
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -981,10 +872,8 @@
     :cond_5
     const-string p1, "\u5224\u65ad\u5f00\u5c4f\u5e7f\u544a\u6761\u4ef6\uff1a\u83b7\u53d6\u4e0d\u5230\u5c55\u793a\u5e73\u53f0"
 
-    .line 14
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -993,10 +882,8 @@
     :goto_0
     const-string p1, "\u5224\u65ad\u5f00\u5c4f\u5e7f\u544a\u6761\u4ef6\uff1aAdSlot\u4e3a\u7a7a\u6216\u8005\u5e7f\u544a\u5f00\u5173\u5173\u95ed"
 
-    .line 16
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1009,10 +896,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     if-eqz v1, :cond_0
@@ -1043,7 +928,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mSDKConfig:Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;
 
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->isGoogleServiceAvailable()Z
@@ -1052,21 +936,17 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
     const-string v1, "\u8fdc\u7a0b\u914d\u7f6e\u5f00\u59cb\u62c9\u53d6"
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 5
     :try_start_0
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
@@ -1089,10 +969,8 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 7
     :goto_0
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
@@ -1100,7 +978,6 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->resetIfDayChanged(Lcom/meitu/hwbusinesskit/core/bean/Business;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1113,46 +990,37 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/bean/Business;->getAdSlotById(Ljava/lang/String;)Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;
 
     invoke-direct {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;-><init>(Ljava/lang/String;)V
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     invoke-virtual {v2, v1, p1, v3}, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;->init(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;)V
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mGlobalAdListener:Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;
 
     invoke-virtual {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setGlobalAdListener(Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;)V
 
-    .line 8
     invoke-virtual {v2, p2}, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;->preload(Z)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1165,10 +1033,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     if-eqz v1, :cond_0
@@ -1182,28 +1048,23 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     new-instance v2, Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;
 
     invoke-direct {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;-><init>(Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     invoke-virtual {v2, v1, p1, v3}, Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;->init(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;)V
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mGlobalAdListener:Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;
 
     invoke-virtual {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setGlobalAdListener(Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;)V
 
-    .line 6
     invoke-virtual {v2, p2}, Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;->preload(Z)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1216,46 +1077,37 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/bean/Business;->getAdSlotById(Ljava/lang/String;)Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Lcom/meitu/hwbusinesskit/core/ad/MixAd;
 
     invoke-direct {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/MixAd;-><init>(Ljava/lang/String;)V
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     invoke-virtual {v2, v1, p1, v3}, Lcom/meitu/hwbusinesskit/core/ad/MixAd;->init(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;)V
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mGlobalAdListener:Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;
 
     invoke-virtual {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setGlobalAdListener(Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;)V
 
-    .line 8
     invoke-virtual {v2, p2}, Lcom/meitu/hwbusinesskit/core/ad/MixAd;->preload(Z)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1268,46 +1120,37 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/bean/Business;->getAdSlotById(Ljava/lang/String;)Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;
 
     invoke-direct {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;-><init>(Ljava/lang/String;)V
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     invoke-virtual {v2, v1, p1, v3}, Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;->init(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;)V
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mGlobalAdListener:Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;
 
     invoke-virtual {v2, p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setGlobalAdListener(Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;)V
 
-    .line 8
     invoke-virtual {v2, p2}, Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;->preload(Z)Z
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1320,7 +1163,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mSDKConfig:Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;
 
     invoke-virtual {v0}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->isGoogleServiceAvailable()Z
@@ -1329,27 +1171,22 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
     const-string v0, "\u5237\u65b0Business\u6570\u636e\u5f00\u59cb"
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 5
     :try_start_0
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-static {p2, v0}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->refreshDefaultBusiness(Ljava/lang/String;Ljava/lang/Boolean;)Lcom/meitu/hwbusinesskit/core/bean/Business;
 
-    .line 6
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/utils/SingleInstanceUtil;->getGson()Lcom/google/gson/Gson;
 
     move-result-object p2
@@ -1376,12 +1213,10 @@
 
     invoke-direct {v0, p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor$2;-><init>(Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;)V
 
-    .line 7
     invoke-virtual {v0}, Lcom/google/gson/reflect/TypeToken;->getType()Ljava/lang/reflect/Type;
 
     move-result-object v0
 
-    .line 8
     invoke-virtual {p2, p3, v0}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object p2
@@ -1390,7 +1225,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 9
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -1408,7 +1242,6 @@
 
     check-cast p3, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
-    .line 10
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     invoke-virtual {p3}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
@@ -1421,12 +1254,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 11
     invoke-static {v0, p3}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->refreshCurrentAdSlot(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)V
 
     goto :goto_0
 
-    .line 12
     :cond_1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
@@ -1434,7 +1265,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
@@ -1444,21 +1274,18 @@
 
     invoke-static {p2, p3}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->filterBusinessIfNeed(Lcom/meitu/hwbusinesskit/core/bean/Business;Lcom/meitu/hwbusinesskit/core/utils/AdSlotFilter;)V
 
-    .line 14
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mAdSlotShowHelper:Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;
 
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     invoke-virtual {p2, p3}, Lcom/meitu/hwbusinesskit/core/helper/AdSlotShowHelper;->updateData(Lcom/meitu/hwbusinesskit/core/bean/Business;)V
 
-    .line 15
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     invoke-virtual {p2, p3}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->updateData(Lcom/meitu/hwbusinesskit/core/bean/Business;)V
 
-    .line 16
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mPlatformChooserHelper:Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;
 
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
@@ -1467,7 +1294,6 @@
 
     const-string p2, "\u5237\u65b0Business\u6210\u529f"
 
-    .line 17
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     invoke-static {p2, p3}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->logBusinessAds(Ljava/lang/String;Lcom/meitu/hwbusinesskit/core/bean/Business;)V
@@ -1479,15 +1305,12 @@
     :catch_0
     move-exception p2
 
-    .line 18
     invoke-static {p2}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
     const-string p2, "\u5237\u65b0Businesss\u5931\u8d25"
 
-    .line 19
     invoke-static {p2}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 20
     :cond_3
     :goto_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1502,13 +1325,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->init()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->mGlobalAdListener:Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1521,17 +1341,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setCountryCode(Ljava/lang/String;)V
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1548,7 +1365,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioViewModel$b;-><init>()V
 
     return-void
@@ -42,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/ImageStudioViewModel$b;->b(Landroid/content/Intent;)Ljava/lang/String;
 
     move-result-object p0
@@ -61,24 +58,20 @@
 
     const-string v1, "extra_path"
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -86,7 +79,6 @@
 
     const-string v3, "android.intent.action.VIEW"
 
-    .line 5
     invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
@@ -116,7 +108,6 @@
     :cond_1
     const-string v3, "android.intent.action.SEND"
 
-    .line 6
     invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -125,7 +116,6 @@
 
     const-string v2, "android.intent.extra.STREAM"
 
-    .line 7
     invoke-virtual {p1, v2}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
 
     move-result-object p1
@@ -139,7 +129,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     :goto_0
     invoke-virtual {p1}, Landroid/content/Intent;->getData()Landroid/net/Uri;
@@ -149,11 +138,9 @@
     :goto_1
     if-eqz p1, :cond_6
 
-    .line 9
     :try_start_0
     sget-object v2, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    .line 10
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -162,10 +149,8 @@
 
     move-result-object v1
 
-    .line 11
     sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    .line 12
     invoke-static {v2}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -183,7 +168,6 @@
 
     invoke-static {v2}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     :goto_2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -207,12 +191,10 @@
 
     if-eqz v2, :cond_4
 
-    .line 14
     invoke-virtual {p1}, Landroid/net/Uri;->getPath()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 15
     :cond_4
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -220,12 +202,10 @@
 
     if-eqz v2, :cond_6
 
-    .line 16
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->P()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 17
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -243,7 +223,6 @@
 
     move-object v1, v4
 
-    .line 18
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -44,20 +44,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Ln/a/a/a/b/g;->a:Lorg/aspectj/lang/reflect/c;
 
-    .line 3
     new-instance v0, Ln/a/a/a/b/n;
 
     invoke-direct {v0, p2}, Ln/a/a/a/b/n;-><init>(Ljava/lang/String;)V
 
     iput-object v0, p0, Ln/a/a/a/b/g;->b:Lorg/aspectj/lang/reflect/x;
 
-    .line 4
     :try_start_0
     invoke-interface {p1}, Lorg/aspectj/lang/reflect/c;->f0()Ljava/lang/Class;
 
@@ -69,7 +65,6 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-static {p3, p2, p1}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     move-result-object p1
@@ -84,7 +79,6 @@
 
     goto :goto_0
 
-    .line 6
     :catch_0
     iput-object p3, p0, Ln/a/a/a/b/g;->d:Ljava/lang/String;
 
@@ -97,7 +91,6 @@
 .method public a()Lorg/aspectj/lang/reflect/c;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/g;->a:Lorg/aspectj/lang/reflect/c;
 
     return-object v0
@@ -106,7 +99,6 @@
 .method public b()Lorg/aspectj/lang/reflect/x;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/g;->b:Lorg/aspectj/lang/reflect/x;
 
     return-object v0
@@ -120,17 +112,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/g;->d:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Ln/a/a/a/b/g;->c:Lorg/aspectj/lang/reflect/c;
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/ClassNotFoundException;
 
@@ -144,22 +133,18 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
 
     const-string v1, "declare soft : "
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 3
     iget-object v1, p0, Ln/a/a/a/b/g;->d:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Ln/a/a/a/b/g;->c:Lorg/aspectj/lang/reflect/c;
 
     invoke-interface {v1}, Lorg/aspectj/lang/reflect/c;->getName()Ljava/lang/String;
@@ -170,17 +155,14 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     :goto_0
     const-string v1, " : "
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 7
     invoke-virtual {p0}, Ln/a/a/a/b/g;->b()Lorg/aspectj/lang/reflect/x;
 
     move-result-object v1
@@ -191,7 +173,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 8
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object v0

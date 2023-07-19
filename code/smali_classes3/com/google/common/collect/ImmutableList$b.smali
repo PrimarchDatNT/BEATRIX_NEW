@@ -46,14 +46,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/util/AbstractCollection;->size()I
 
     move-result v0
 
     invoke-direct {p0, v0, p2}, Lcom/google/common/collect/a;-><init>(II)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/ImmutableList$b;->c:Lcom/google/common/collect/ImmutableList;
 
     return-void
@@ -69,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableList$b;->c:Lcom/google/common/collect/ImmutableList;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;

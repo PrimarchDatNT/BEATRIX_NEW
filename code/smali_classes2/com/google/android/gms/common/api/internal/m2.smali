@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->r()Ljava/lang/Object;
 
     move-result-object p1
@@ -58,7 +56,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     new-instance p1, Lcom/google/android/gms/common/api/ApiException;
 

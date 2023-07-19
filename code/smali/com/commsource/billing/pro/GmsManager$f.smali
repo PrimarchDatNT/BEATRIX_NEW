@@ -41,7 +41,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/pro/GmsManager$f;->a:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -58,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/billing/pro/GmsManager$f;->b(Ljava/util/List;)V
@@ -91,14 +89,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x10
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -116,7 +112,6 @@
 
     check-cast v2, Lcom/meitu/global/billing/product/data/Product;
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/global/billing/product/data/Product;->g()Ljava/lang/String;
 
     move-result-object v3
@@ -129,7 +124,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager$f;->a:Lcom/commsource/billing/pro/GmsManager;
 
@@ -141,7 +135,6 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/commsource/billing/pro/GmsManager$b;->o(ILjava/util/Map;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -158,7 +151,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

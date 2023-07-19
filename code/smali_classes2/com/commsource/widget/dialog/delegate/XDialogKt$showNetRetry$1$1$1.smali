@@ -80,10 +80,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$showNetRetry$1$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$showNetRetry$1$1;
 
     iget-object v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$showNetRetry$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$showNetRetry$1;
@@ -92,7 +90,6 @@
 
     invoke-interface {v1, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

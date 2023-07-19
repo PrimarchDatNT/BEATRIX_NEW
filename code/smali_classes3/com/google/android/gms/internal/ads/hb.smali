@@ -30,12 +30,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/hb;->b:Lcom/google/android/gms/internal/ads/fb;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/hb;->a:Lcom/google/android/gms/internal/ads/lq;
 
     return-void
@@ -46,7 +44,6 @@
 .method public final a(Lorg/json/JSONObject;)V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hb;->a:Lcom/google/android/gms/internal/ads/lq;
 
@@ -70,7 +67,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hb;->a:Lcom/google/android/gms/internal/ads/lq;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/lq;->c(Ljava/lang/Throwable;)Z
@@ -88,7 +84,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     :try_start_0
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/hb;->a:Lcom/google/android/gms/internal/ads/lq;
 
@@ -100,7 +95,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hb;->a:Lcom/google/android/gms/internal/ads/lq;
 

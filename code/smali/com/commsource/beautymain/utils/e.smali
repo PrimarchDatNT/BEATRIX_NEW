@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/i/a/b;->f()Lf/k/i/a/b;
 
     move-result-object v1
@@ -39,7 +37,6 @@
 
     invoke-virtual {v1, v2}, Lf/k/i/a/b;->c(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -57,12 +54,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/commsource/beautymain/utils/e;->b:Lcom/commsource/util/common/l;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/util/common/l;
 
     const-string v3, "HelpInfo"
@@ -71,7 +66,6 @@
 
     sput-object v2, Lcom/commsource/beautymain/utils/e;->b:Lcom/commsource/util/common/l;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/commsource/beautymain/utils/e;->b:Lcom/commsource/util/common/l;
 
@@ -98,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/AdViewController;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdViewController$2;->this$0:Lcom/mopub/mobileads/AdViewController;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdViewController$2;->this$0:Lcom/mopub/mobileads/AdViewController;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdViewController;->getMoPubAd()Lcom/mopub/mobileads/MoPubAd;
@@ -47,7 +45,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mobileads/AdViewController$2;->this$0:Lcom/mopub/mobileads/AdViewController;
 
     invoke-interface {v0}, Lcom/mopub/mobileads/MoPubAd;->resolveAdSize()Landroid/graphics/Point;
@@ -56,7 +53,6 @@
 
     invoke-virtual {v1, v0}, Lcom/mopub/mobileads/AdViewController;->setRequestedAdSize(Landroid/graphics/Point;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/AdViewController$2;->this$0:Lcom/mopub/mobileads/AdViewController;
 

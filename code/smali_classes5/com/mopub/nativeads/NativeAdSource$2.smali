@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/NativeAdSource;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/NativeAdSource$2;->this$0:Lcom/mopub/nativeads/NativeAdSource;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,14 +37,12 @@
 .method public onNativeFail(Lcom/mopub/nativeads/NativeErrorCode;)V
     .locals 3
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/nativeads/NativeAdSource$2;->this$0:Lcom/mopub/nativeads/NativeAdSource;
 
     const/4 v0, 0x0
 
     iput-boolean v0, p1, Lcom/mopub/nativeads/NativeAdSource;->mRequestInFlight:Z
 
-    .line 2
     iget v0, p1, Lcom/mopub/nativeads/NativeAdSource;->mCurrentRetries:I
 
     sget-object v1, Lcom/mopub/nativeads/NativeAdSource;->RETRY_TIME_ARRAY_MILLISECONDS:[I
@@ -58,21 +55,17 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/nativeads/NativeAdSource;->resetRetryTime()V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Lcom/mopub/nativeads/NativeAdSource;->updateRetryTime()V
 
-    .line 5
     iget-object p1, p0, Lcom/mopub/nativeads/NativeAdSource$2;->this$0:Lcom/mopub/nativeads/NativeAdSource;
 
     iput-boolean v2, p1, Lcom/mopub/nativeads/NativeAdSource;->mRetryInFlight:Z
 
-    .line 6
     invoke-static {p1}, Lcom/mopub/nativeads/NativeAdSource;->access$400(Lcom/mopub/nativeads/NativeAdSource;)Landroid/os/Handler;
 
     move-result-object p1
@@ -103,7 +96,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource$2;->this$0:Lcom/mopub/nativeads/NativeAdSource;
 
     invoke-static {v0}, Lcom/mopub/nativeads/NativeAdSource;->access$000(Lcom/mopub/nativeads/NativeAdSource;)Lcom/mopub/nativeads/MoPubNative;
@@ -114,7 +106,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource$2;->this$0:Lcom/mopub/nativeads/NativeAdSource;
 
@@ -122,7 +113,6 @@
 
     iput-boolean v1, v0, Lcom/mopub/nativeads/NativeAdSource;->mRequestInFlight:Z
 
-    .line 3
     iget v1, v0, Lcom/mopub/nativeads/NativeAdSource;->mSequenceNumber:I
 
     const/4 v2, 0x1
@@ -131,10 +121,8 @@
 
     iput v1, v0, Lcom/mopub/nativeads/NativeAdSource;->mSequenceNumber:I
 
-    .line 4
     invoke-virtual {v0}, Lcom/mopub/nativeads/NativeAdSource;->resetRetryTime()V
 
-    .line 5
     iget-object v0, p0, Lcom/mopub/nativeads/NativeAdSource$2;->this$0:Lcom/mopub/nativeads/NativeAdSource;
 
     invoke-static {v0}, Lcom/mopub/nativeads/NativeAdSource;->access$100(Lcom/mopub/nativeads/NativeAdSource;)Ljava/util/List;
@@ -147,7 +135,6 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/nativeads/NativeAdSource$2;->this$0:Lcom/mopub/nativeads/NativeAdSource;
 
     invoke-static {p1}, Lcom/mopub/nativeads/NativeAdSource;->access$100(Lcom/mopub/nativeads/NativeAdSource;)Ljava/util/List;
@@ -168,7 +155,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 7
     iget-object p1, p0, Lcom/mopub/nativeads/NativeAdSource$2;->this$0:Lcom/mopub/nativeads/NativeAdSource;
 
     invoke-static {p1}, Lcom/mopub/nativeads/NativeAdSource;->access$200(Lcom/mopub/nativeads/NativeAdSource;)Lcom/mopub/nativeads/NativeAdSource$AdSourceListener;
@@ -177,7 +163,6 @@
 
     invoke-interface {p1}, Lcom/mopub/nativeads/NativeAdSource$AdSourceListener;->onAdsAvailable()V
 
-    .line 8
     :cond_1
     iget-object p1, p0, Lcom/mopub/nativeads/NativeAdSource$2;->this$0:Lcom/mopub/nativeads/NativeAdSource;
 

@@ -84,12 +84,10 @@
 
     invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->l:Lcom/meitu/library/n/a/n/a;
 
-    .line 2
     sget-object p3, Lcom/commsource/camera/xcamera/CameraEffectManager$softHairRenderProxy$2;->INSTANCE:Lcom/commsource/camera/xcamera/CameraEffectManager$softHairRenderProxy$2;
 
     invoke-static {p3}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -98,31 +96,24 @@
 
     iput-object p3, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->e:Lcotlin/w;
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->q(Lcom/meitu/library/camera/MTCamera$e;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/CameraEffectManager;->h()Lcom/meitu/library/f/a/e;
 
     move-result-object p3
 
     iput-object p3, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->i:Lcom/meitu/library/f/a/e;
 
-    .line 5
     invoke-virtual {p1, p3}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 6
     iget-object p3, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->i:Lcom/meitu/library/f/a/e;
 
     invoke-virtual {p2, p3}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 7
     invoke-direct {p0, p1, p2, p4}, Lcom/commsource/camera/xcamera/CameraEffectManager;->p(Lcom/meitu/library/camera/MTCamera$e;Lcom/meitu/library/d/a/a$e;Lcom/commsource/camera/mvp/f/b;)V
 
-    .line 8
     invoke-direct {p0, p1, p2}, Lcom/commsource/camera/xcamera/CameraEffectManager;->r(Lcom/meitu/library/camera/MTCamera$e;Lcom/meitu/library/d/a/a$e;)V
 
-    .line 9
     invoke-direct {p0, p1, p2}, Lcom/commsource/camera/xcamera/CameraEffectManager;->o(Lcom/meitu/library/camera/MTCamera$e;Lcom/meitu/library/d/a/a$e;)V
 
     return-void
@@ -135,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->g:Lcom/commsource/camera/d1/f;
 
     if-nez p0, :cond_0
@@ -157,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->i:Lcom/meitu/library/f/a/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -172,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->g:Lcom/commsource/camera/d1/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -187,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->i:Lcom/meitu/library/f/a/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -202,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Lcom/meitu/library/f/a/e;
 
@@ -214,15 +200,12 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/meitu/library/f/a/e;->s2(I)V
 
     const-string v3, "segment/rhb2.0.6..16_1d13.manis"
 
-    .line 3
     invoke-virtual {v1, v3, v2}, Lcom/meitu/library/f/a/e;->t2(Ljava/lang/String;I)V
 
-    .line 4
     invoke-static {}, Lcom/commsource/material/ImageSegmentExecutor;->m()Ljava/lang/String;
 
     move-result-object v2
@@ -231,7 +214,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/f/a/e;->t2(Ljava/lang/String;I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
@@ -241,12 +223,10 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const/4 v1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -259,7 +239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/x0/c;
 
     invoke-direct {v1}, Lcom/commsource/camera/x0/c;-><init>()V
@@ -270,7 +249,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -288,7 +266,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/x0/c;->S0(Lf/d/e/a/m;)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/camera/f1/e;->b()Lcom/commsource/camera/f1/e;
 
     move-result-object v1
@@ -297,7 +274,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/f1/e;->c(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->k:Lcom/commsource/camera/x0/c;
 
     if-nez v1, :cond_1
@@ -307,7 +283,6 @@
     :cond_1
     invoke-virtual {p1, v1}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->k:Lcom/commsource/camera/x0/c;
 
     if-nez p1, :cond_2
@@ -317,7 +292,6 @@
     :cond_2
     invoke-virtual {p2, p1}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -330,7 +304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/d1/f;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->l:Lcom/meitu/library/n/a/n/a;
@@ -339,7 +312,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->g:Lcom/commsource/camera/d1/f;
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/newrender/renderproxy/m;
 
     const/4 v2, 0x0
@@ -352,13 +324,11 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1, p2, p3}, Lcom/commsource/camera/newrender/renderproxy/m;->N(Lcom/meitu/library/camera/MTCamera$e;Lcom/meitu/library/d/a/a$e;Lcom/commsource/camera/mvp/f/b;)V
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->g:Lcom/commsource/camera/d1/f;
 
     const-string v1, "cameraRenderNode"
@@ -377,7 +347,6 @@
     :cond_2
     invoke-virtual {p3, v3}, Lcom/commsource/camera/d1/f;->f(Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 5
     iget-object p3, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->g:Lcom/commsource/camera/d1/f;
 
     if-nez p3, :cond_3
@@ -387,7 +356,6 @@
     :cond_3
     invoke-virtual {p1, p3}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->g:Lcom/commsource/camera/d1/f;
 
     if-nez p1, :cond_4
@@ -397,7 +365,6 @@
     :cond_4
     invoke-virtual {p2, p1}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -410,7 +377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/t/b$b;
 
     invoke-direct {v1}, Lf/k/t/b$b;-><init>()V
@@ -429,13 +395,11 @@
 
     const-string v2, "mtAnimalDetectionManager"
 
-    .line 2
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, v1}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -448,34 +412,29 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v0
 
     invoke-static {v0}, Lcom/meitu/core/MTRtEffectConfigJNI;->ndkInit(Landroid/content/Context;)Z
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     sget-object v0, Lcom/meitu/core/MTRtEffectConfigJNI$MTRtEffectLogLevel;->MTRTEFFECT_LOG_LEVEL_DEBUG:Lcom/meitu/core/MTRtEffectConfigJNI$MTRtEffectLogLevel;
 
     invoke-static {v0}, Lcom/meitu/core/MTRtEffectConfigJNI;->setLogLevel(Lcom/meitu/core/MTRtEffectConfigJNI$MTRtEffectLogLevel;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v0, Lcom/meitu/core/MTRtEffectConfigJNI$MTRtEffectLogLevel;->MTRTEFFECT_LOG_LEVEL_INFO:Lcom/meitu/core/MTRtEffectConfigJNI$MTRtEffectLogLevel;
 
     invoke-static {v0}, Lcom/meitu/core/MTRtEffectConfigJNI;->setLogLevel(Lcom/meitu/core/MTRtEffectConfigJNI$MTRtEffectLogLevel;)V
 
-    .line 5
     :goto_0
     new-instance v0, Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -487,7 +446,6 @@
 
     if-nez v0, :cond_1
 
-    .line 6
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
@@ -495,7 +453,6 @@
 
     invoke-virtual {v0, v2}, Lcom/commsource/camera/newrender/renderproxy/o;->R(Z)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->g:Lcom/commsource/camera/d1/f;
 
     const-string v3, "cameraRenderNode"
@@ -514,7 +471,6 @@
     :cond_3
     invoke-virtual {v0, v4}, Lcom/commsource/camera/d1/f;->f(Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 8
     new-instance v0, Lcom/commsource/camera/newrender/renderproxy/r;
 
     const/4 v1, 0x0
@@ -523,7 +479,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->b:Lcom/commsource/camera/newrender/renderproxy/r;
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->g:Lcom/commsource/camera/d1/f;
 
     if-nez v0, :cond_4
@@ -542,7 +497,6 @@
     :cond_5
     invoke-virtual {v0, v1}, Lcom/commsource/camera/d1/f;->f(Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 10
     iget-object v0, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->g:Lcom/commsource/camera/d1/f;
 
     if-nez v0, :cond_6
@@ -556,7 +510,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/d1/f;->f(Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 11
     new-instance v0, Lcom/commsource/camera/render/MTGifRenderProxy$f;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -585,25 +538,21 @@
 
     const-string v1, "mtGifRenderProxy"
 
-    .line 12
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     invoke-virtual {p1, v0}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 13
     invoke-static {}, Lf/d/i/g;->o()Z
 
     move-result v0
 
     if-eqz v0, :cond_8
 
-    .line 14
     iget-object v0, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->j:Lcom/commsource/camera/montage/m0;
 
     if-nez v0, :cond_8
 
-    .line 15
     new-instance v0, Lcom/commsource/camera/montage/l0;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -618,10 +567,8 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->f:Lcom/commsource/camera/montage/l0;
 
-    .line 16
     invoke-virtual {p1, v0}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 17
     :cond_8
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -645,7 +592,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -660,7 +606,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->i:Lcom/meitu/library/f/a/e;
 
@@ -681,10 +626,8 @@
     :catch_0
     move-exception v1
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -703,7 +646,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
     if-nez v1, :cond_0
@@ -717,7 +659,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/camera/newrender/renderproxy/o;->O(IZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -736,7 +677,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getUserAlpha()I
 
     move-result v1
@@ -746,7 +686,6 @@
     :cond_0
     const/16 v1, 0x64
 
-    .line 2
     :goto_0
     iget-object v2, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->b:Lcom/commsource/camera/newrender/renderproxy/r;
 
@@ -759,7 +698,6 @@
     :cond_1
     invoke-virtual {v2, p1, v1}, Lcom/commsource/camera/newrender/renderproxy/r;->M(Lcom/meitu/template/bean/Filter;I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -778,7 +716,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getNeedNewMode()I
 
     move-result p1
@@ -797,7 +734,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->b:Lcom/commsource/camera/newrender/renderproxy/r;
 
     if-nez v1, :cond_1
@@ -809,7 +745,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->b:Lcom/commsource/camera/newrender/renderproxy/r;
 
@@ -820,7 +755,6 @@
     :cond_3
     invoke-virtual {v1, p2}, Lcom/commsource/camera/newrender/renderproxy/r;->N(I)V
 
-    .line 4
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -835,7 +769,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez v1, :cond_0
@@ -847,7 +780,6 @@
     :cond_0
     invoke-virtual {v1, p1}, Lcom/commsource/camera/newrender/renderproxy/m;->L0(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -860,7 +792,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez v1, :cond_0
@@ -876,7 +807,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/newrender/renderproxy/v/c0;->j2(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -889,14 +819,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/material/ImageSegmentExecutor;->F()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->k:Lcom/commsource/camera/x0/c;
 
     const-string v2, "mAiEngineManger"
@@ -914,7 +842,6 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/commsource/camera/x0/c;->j1(Ljava/lang/String;Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->k:Lcom/commsource/camera/x0/c;
 
     if-nez v1, :cond_1
@@ -928,7 +855,6 @@
 
     invoke-virtual {v1, v2, v4}, Lcom/commsource/camera/x0/c;->u1(Ljava/lang/String;Z)V
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -950,7 +876,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->d:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -965,7 +890,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->k:Lcom/commsource/camera/x0/c;
 
     if-nez v1, :cond_0
@@ -985,7 +909,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/x0/c;->y1(Ljava/lang/String;Z)V
 
-    .line 2
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1007,7 +930,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez v1, :cond_0
@@ -1019,7 +941,6 @@
     :cond_0
     invoke-virtual {v1, p1}, Lcom/commsource/camera/newrender/renderproxy/m;->K0(Lcom/commsource/camera/l0;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1036,7 +957,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->f:Lcom/commsource/camera/montage/l0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1051,7 +971,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->g:Lcom/commsource/camera/d1/f;
 
     if-nez v1, :cond_0
@@ -1063,7 +982,6 @@
     :cond_0
     invoke-virtual {v1, p1}, Lcom/commsource/camera/d1/f;->a0(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1076,14 +994,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/CameraEffectManager;->n()Lcom/commsource/camera/newrender/renderproxy/u;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/newrender/renderproxy/u;->z(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1100,14 +1016,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/util/q;->f(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1159,7 +1073,6 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez p2, :cond_3
@@ -1179,7 +1092,6 @@
 
     goto/16 :goto_2
 
-    .line 4
     :pswitch_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -1196,7 +1108,6 @@
 
     goto/16 :goto_2
 
-    .line 5
     :pswitch_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -1213,7 +1124,6 @@
 
     goto/16 :goto_2
 
-    .line 6
     :pswitch_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -1228,7 +1138,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/newrender/renderproxy/o;->T(F)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
     if-nez p1, :cond_7
@@ -1240,7 +1149,6 @@
 
     goto/16 :goto_2
 
-    .line 8
     :pswitch_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -1257,7 +1165,6 @@
 
     goto/16 :goto_2
 
-    .line 9
     :pswitch_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -1277,7 +1184,6 @@
 
     goto/16 :goto_2
 
-    .line 10
     :pswitch_5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -1300,7 +1206,6 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/commsource/camera/newrender/renderproxy/v/z;->l2(IF)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez p1, :cond_c
@@ -1318,7 +1223,6 @@
 
     invoke-virtual {p1, v5, v1}, Lcom/commsource/camera/newrender/renderproxy/v/z;->l2(IF)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez p1, :cond_d
@@ -1336,7 +1240,6 @@
 
     goto/16 :goto_2
 
-    .line 13
     :pswitch_6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -1357,7 +1260,6 @@
 
     goto :goto_2
 
-    .line 14
     :pswitch_7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -1368,7 +1270,6 @@
     :cond_f
     invoke-virtual {p1, v7}, Lcom/commsource/camera/newrender/renderproxy/n;->p(Z)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
     if-nez p1, :cond_10
@@ -1380,7 +1281,6 @@
 
     goto :goto_2
 
-    .line 16
     :cond_11
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/CameraEffectManager;->n()Lcom/commsource/camera/newrender/renderproxy/u;
 
@@ -1390,7 +1290,6 @@
 
     goto :goto_2
 
-    .line 17
     :cond_12
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -1401,7 +1300,6 @@
     :cond_13
     invoke-virtual {p1, v7}, Lcom/commsource/camera/newrender/renderproxy/n;->p(Z)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
     if-nez p1, :cond_14
@@ -1415,7 +1313,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/newrender/renderproxy/o;->W(F)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
     if-nez p1, :cond_15
@@ -1427,7 +1324,6 @@
 
     goto :goto_2
 
-    .line 20
     :cond_16
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -1452,7 +1348,6 @@
 
     goto :goto_2
 
-    .line 21
     :cond_18
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -1475,7 +1370,6 @@
 
     invoke-virtual {p1, v2, p2}, Lcom/commsource/camera/newrender/renderproxy/v/z;->l2(IF)V
 
-    .line 22
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1503,7 +1397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez v1, :cond_0
@@ -1527,7 +1420,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/commsource/camera/newrender/renderproxy/v/w;->s2(IF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1548,7 +1440,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez v1, :cond_0
@@ -1578,7 +1469,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/commsource/camera/newrender/renderproxy/v/w;->s2(IF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1593,7 +1483,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez v1, :cond_0
@@ -1617,7 +1506,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
     if-nez v1, :cond_0
@@ -1641,7 +1529,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->d:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     if-nez v1, :cond_0
@@ -1665,7 +1552,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->f:Lcom/commsource/camera/montage/l0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1691,7 +1577,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -1708,7 +1593,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/CameraEffectManager;->n()Lcom/commsource/camera/newrender/renderproxy/u;
 
     move-result-object p1
@@ -1719,7 +1603,6 @@
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->b:Lcom/commsource/camera/newrender/renderproxy/r;
 
     if-nez p1, :cond_0
@@ -1733,19 +1616,16 @@
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->f:Lcom/commsource/camera/montage/l0;
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/camera/montage/l0;->v1()Lcom/meitu/library/n/a/m/c$b;
 
     move-result-object p1
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -1753,7 +1633,6 @@
 
     invoke-static {v6}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
-    .line 7
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -1768,7 +1647,6 @@
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->d:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     if-nez p1, :cond_4
@@ -1782,7 +1660,6 @@
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
     if-nez p1, :cond_5
@@ -1798,20 +1675,17 @@
 
     goto :goto_0
 
-    .line 10
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->f:Lcom/commsource/camera/montage/l0;
 
     if-eqz p1, :cond_7
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/camera/montage/l0;->v1()Lcom/meitu/library/n/a/m/c$b;
 
     move-result-object p1
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 12
     :cond_7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/CameraEffectManager;->n()Lcom/commsource/camera/newrender/renderproxy/u;
 
@@ -1823,14 +1697,12 @@
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez p1, :cond_8
 
     invoke-static {v6}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
-    .line 14
     :cond_8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -1845,7 +1717,6 @@
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->d:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     if-nez p1, :cond_a
@@ -1859,7 +1730,6 @@
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->b:Lcom/commsource/camera/newrender/renderproxy/r;
 
     if-nez p1, :cond_b
@@ -1873,7 +1743,6 @@
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->c:Lcom/commsource/camera/newrender/renderproxy/o;
 
     if-nez p1, :cond_c
@@ -1887,7 +1756,6 @@
 
     invoke-virtual {v1, v3, p1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 18
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1923,7 +1791,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/CameraEffectManager;->n()Lcom/commsource/camera/newrender/renderproxy/u;
 
     move-result-object v1
@@ -1961,7 +1828,6 @@
 
     add-float/2addr p1, v1
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1992,7 +1858,6 @@
 
     add-float/2addr p1, v1
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2006,7 +1871,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->g:Lcom/commsource/camera/d1/f;
 
     if-nez v1, :cond_0
@@ -2022,7 +1886,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/d1/f;->g(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2035,7 +1898,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->h:Lf/k/t/b;
 
     if-nez v1, :cond_0
@@ -2051,7 +1913,6 @@
 
     invoke-virtual {v1, v2}, Lf/k/t/b;->d2(Ljava/util/List;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2064,7 +1925,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez v1, :cond_0
@@ -2080,7 +1940,6 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/camera/newrender/renderproxy/v/w;->q2(IF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2093,7 +1952,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez v1, :cond_0
@@ -2109,7 +1967,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/newrender/renderproxy/v/w;->r2(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2130,7 +1987,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager;->a:Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

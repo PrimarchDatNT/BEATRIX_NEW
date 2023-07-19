@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/app/job/JobService;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Landroid/app/job/JobService;->jobFinished(Landroid/app/job/JobParameters;Z)V
 
     return-void
@@ -35,7 +33,6 @@
 .method public onStartJob(Landroid/app/job/JobParameters;)Z
     .locals 5
 
-    .line 1
     invoke-virtual {p1}, Landroid/app/job/JobParameters;->getExtras()Landroid/os/PersistableBundle;
 
     move-result-object v0
@@ -46,7 +43,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p1}, Landroid/app/job/JobParameters;->getExtras()Landroid/os/PersistableBundle;
 
     move-result-object v1
@@ -57,7 +53,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p1}, Landroid/app/job/JobParameters;->getExtras()Landroid/os/PersistableBundle;
 
     move-result-object v2
@@ -68,7 +63,6 @@
 
     move-result v2
 
-    .line 4
     invoke-virtual {p1}, Landroid/app/job/JobParameters;->getExtras()Landroid/os/PersistableBundle;
 
     move-result-object v3
@@ -79,24 +73,20 @@
 
     move-result v3
 
-    .line 5
     invoke-virtual {p0}, Landroid/app/job/JobService;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v4
 
     invoke-static {v4}, Lcom/google/android/datatransport/k/s;->f(Landroid/content/Context;)V
 
-    .line 6
     invoke-static {}, Lcom/google/android/datatransport/k/n;->a()Lcom/google/android/datatransport/k/n$a;
 
     move-result-object v4
 
-    .line 7
     invoke-virtual {v4, v0}, Lcom/google/android/datatransport/k/n$a;->b(Ljava/lang/String;)Lcom/google/android/datatransport/k/n$a;
 
     move-result-object v0
 
-    .line 8
     invoke-static {v2}, Lcom/google/android/datatransport/k/z/a;->b(I)Lcom/google/android/datatransport/Priority;
 
     move-result-object v2
@@ -109,25 +99,21 @@
 
     const/4 v2, 0x0
 
-    .line 9
     invoke-static {v1, v2}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Lcom/google/android/datatransport/k/n$a;->c([B)Lcom/google/android/datatransport/k/n$a;
 
-    .line 10
     :cond_0
     invoke-static {}, Lcom/google/android/datatransport/k/s;->c()Lcom/google/android/datatransport/k/s;
 
     move-result-object v1
 
-    .line 11
     invoke-virtual {v1}, Lcom/google/android/datatransport/k/s;->e()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/m;
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {v0}, Lcom/google/android/datatransport/k/n$a;->a()Lcom/google/android/datatransport/k/n;
 
     move-result-object v0

@@ -33,7 +33,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,7 +41,6 @@
 .method synthetic constructor <init>(Lorg/greenrobot/eventbus/util/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/greenrobot/eventbus/util/a$b;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0}, Lorg/greenrobot/eventbus/util/a$b;->c(Ljava/lang/Object;)Lorg/greenrobot/eventbus/util/a;
 
     move-result-object v0
@@ -66,7 +63,6 @@
 .method public b(Landroid/app/Activity;)Lorg/greenrobot/eventbus/util/a;
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -81,43 +77,36 @@
 .method public c(Ljava/lang/Object;)Lorg/greenrobot/eventbus/util/a;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/eventbus/util/a$b;->c:Lorg/greenrobot/eventbus/c;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lorg/greenrobot/eventbus/c;->g()Lorg/greenrobot/eventbus/c;
 
     move-result-object v0
 
     iput-object v0, p0, Lorg/greenrobot/eventbus/util/a$b;->c:Lorg/greenrobot/eventbus/c;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/greenrobot/eventbus/util/a$b;->a:Ljava/util/concurrent/Executor;
 
     if-nez v0, :cond_1
 
-    .line 4
     invoke-static {}, Ljava/util/concurrent/Executors;->newCachedThreadPool()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 
     iput-object v0, p0, Lorg/greenrobot/eventbus/util/a$b;->a:Ljava/util/concurrent/Executor;
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lorg/greenrobot/eventbus/util/a$b;->b:Ljava/lang/Class;
 
     if-nez v0, :cond_2
 
-    .line 6
     const-class v0, Lorg/greenrobot/eventbus/util/f;
 
     iput-object v0, p0, Lorg/greenrobot/eventbus/util/a$b;->b:Ljava/lang/Class;
 
-    .line 7
     :cond_2
     new-instance v0, Lorg/greenrobot/eventbus/util/a;
 
@@ -141,7 +130,6 @@
 .method public d(Lorg/greenrobot/eventbus/c;)Lorg/greenrobot/eventbus/util/a$b;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/greenrobot/eventbus/util/a$b;->c:Lorg/greenrobot/eventbus/c;
 
     return-object p0
@@ -158,7 +146,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/greenrobot/eventbus/util/a$b;->b:Ljava/lang/Class;
 
     return-object p0
@@ -167,7 +154,6 @@
 .method public f(Ljava/util/concurrent/Executor;)Lorg/greenrobot/eventbus/util/a$b;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/greenrobot/eventbus/util/a$b;->a:Ljava/util/concurrent/Executor;
 
     return-object p0

@@ -31,7 +31,6 @@
 
     const/high16 v0, 0x500000
 
-    .line 11
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/ads/wj;-><init>(Lcom/google/android/gms/internal/ads/yn;I)V
 
     return-void
@@ -40,10 +39,8 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/yn;I)V
     .locals 3
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 7
     new-instance p2, Ljava/util/LinkedHashMap;
 
     const/16 v0, 0x10
@@ -58,15 +55,12 @@
 
     const-wide/16 v0, 0x0
 
-    .line 8
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/wj;->b:J
 
-    .line 9
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/wj;->c:Lcom/google/android/gms/internal/ads/yn;
 
     const/high16 p1, 0x500000
 
-    .line 10
     iput p1, p0, Lcom/google/android/gms/internal/ads/wj;->d:I
 
     return-void
@@ -75,10 +69,8 @@
 .method public constructor <init>(Ljava/io/File;I)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p2, Ljava/util/LinkedHashMap;
 
     const/16 v0, 0x10
@@ -93,10 +85,8 @@
 
     const-wide/16 v0, 0x0
 
-    .line 3
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/wj;->b:J
 
-    .line 4
     new-instance p2, Lcom/google/android/gms/internal/ads/xm;
 
     invoke-direct {p2, p0, p1}, Lcom/google/android/gms/internal/ads/xm;-><init>(Lcom/google/android/gms/internal/ads/wj;Ljava/io/File;)V
@@ -105,7 +95,6 @@
 
     const/high16 p1, 0x1400000
 
-    .line 5
     iput p1, p0, Lcom/google/android/gms/internal/ads/wj;->d:I
 
     return-void
@@ -116,7 +105,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/wj;->q(Ljava/lang/String;)Ljava/io/File;
 
@@ -126,7 +114,6 @@
 
     move-result v0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/wj;->b(Ljava/lang/String;)V
 
     if-nez v0, :cond_0
@@ -143,19 +130,16 @@
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/wj;->p(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     aput-object p1, v1, v2
 
-    .line 4
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/bf;->a(Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :cond_0
     monitor-exit p0
 
@@ -172,7 +156,6 @@
 .method private final b(Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/wj;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -183,7 +166,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/wj;->b:J
 
     iget-wide v2, p1, Lcom/google/android/gms/internal/ads/wl;->a:J
@@ -204,7 +186,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/InputStream;->read()I
 
     move-result p0
@@ -215,7 +196,6 @@
 
     return p0
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/io/EOFException;
 
@@ -235,7 +215,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
@@ -251,17 +230,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->o(Ljava/io/InputStream;)J
 
     move-result-wide v0
 
-    .line 2
     invoke-static {p0, v0, v1}, Lcom/google/android/gms/internal/ads/wj;->l(Lcom/google/android/gms/internal/ads/yo;J)[B
 
     move-result-object p0
 
-    .line 3
     new-instance v0, Ljava/lang/String;
 
     const-string v1, "UTF-8"
@@ -281,26 +257,22 @@
 
     and-int/lit16 v0, p1, 0xff
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
 
     shr-int/lit8 v0, p1, 0x8
 
     and-int/lit16 v0, v0, 0xff
 
-    .line 2
     invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
 
     shr-int/lit8 v0, p1, 0x10
 
     and-int/lit16 v0, v0, 0xff
 
-    .line 3
     invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
 
     ushr-int/lit8 p1, p1, 0x18
 
-    .line 4
     invoke-virtual {p0, p1}, Ljava/io/OutputStream;->write(I)V
 
     return-void
@@ -318,7 +290,6 @@
 
     int-to-byte v0, v0
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
 
     const/16 v0, 0x8
@@ -329,7 +300,6 @@
 
     int-to-byte v0, v1
 
-    .line 2
     invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
 
     const/16 v0, 0x10
@@ -340,7 +310,6 @@
 
     int-to-byte v0, v1
 
-    .line 3
     invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
 
     const/16 v0, 0x18
@@ -351,7 +320,6 @@
 
     int-to-byte v0, v1
 
-    .line 4
     invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
 
     const/16 v0, 0x20
@@ -362,7 +330,6 @@
 
     int-to-byte v0, v1
 
-    .line 5
     invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
 
     const/16 v0, 0x28
@@ -373,7 +340,6 @@
 
     int-to-byte v0, v1
 
-    .line 6
     invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
 
     const/16 v0, 0x30
@@ -384,7 +350,6 @@
 
     int-to-byte v0, v1
 
-    .line 7
     invoke-virtual {p0, v0}, Ljava/io/OutputStream;->write(I)V
 
     const/16 v0, 0x38
@@ -395,7 +360,6 @@
 
     int-to-byte p1, p2
 
-    .line 8
     invoke-virtual {p0, p1}, Ljava/io/OutputStream;->write(I)V
 
     return-void
@@ -411,19 +375,16 @@
 
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-virtual {p1, v0}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p1
 
-    .line 2
     array-length v0, p1
 
     int-to-long v0, v0
 
     invoke-static {p0, v0, v1}, Lcom/google/android/gms/internal/ads/wj;->i(Ljava/io/OutputStream;J)V
 
-    .line 3
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -436,7 +397,6 @@
 .method private final k(Ljava/lang/String;Lcom/google/android/gms/internal/ads/wl;)V
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/wj;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -445,7 +405,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/wj;->b:J
 
     iget-wide v2, p2, Lcom/google/android/gms/internal/ads/wl;->a:J
@@ -456,7 +415,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/wj;->a:Ljava/util/Map;
 
@@ -466,7 +424,6 @@
 
     check-cast v0, Lcom/google/android/gms/internal/ads/wl;
 
-    .line 4
     iget-wide v1, p0, Lcom/google/android/gms/internal/ads/wj;->b:J
 
     iget-wide v3, p2, Lcom/google/android/gms/internal/ads/wl;->a:J
@@ -479,7 +436,6 @@
 
     iput-wide v1, p0, Lcom/google/android/gms/internal/ads/wj;->b:J
 
-    .line 5
     :goto_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/wj;->a:Ljava/util/Map;
 
@@ -499,7 +455,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/yo;->a()J
 
     move-result-wide v0
@@ -522,10 +477,8 @@
 
     if-nez v5, :cond_0
 
-    .line 2
     new-array p1, v2, [B
 
-    .line 3
     new-instance p2, Ljava/io/DataInputStream;
 
     invoke-direct {p2, p0}, Ljava/io/DataInputStream;-><init>(Ljava/io/InputStream;)V
@@ -534,7 +487,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p0, Ljava/io/IOException;
 
@@ -573,14 +525,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->c(Ljava/io/InputStream;)I
 
     move-result v0
 
     or-int/lit8 v0, v0, 0x0
 
-    .line 2
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->c(Ljava/io/InputStream;)I
 
     move-result v1
@@ -589,7 +539,6 @@
 
     or-int/2addr v0, v1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->c(Ljava/io/InputStream;)I
 
     move-result v1
@@ -598,7 +547,6 @@
 
     or-int/2addr v0, v1
 
-    .line 4
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->c(Ljava/io/InputStream;)I
 
     move-result p0
@@ -629,7 +577,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->m(Ljava/io/InputStream;)I
 
     move-result v0
@@ -638,7 +585,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v1
@@ -656,7 +602,6 @@
     :goto_1
     if-ge v2, v0, :cond_1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->e(Lcom/google/android/gms/internal/ads/yo;)Ljava/lang/String;
 
     move-result-object v3
@@ -665,7 +610,6 @@
 
     move-result-object v3
 
-    .line 4
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->e(Lcom/google/android/gms/internal/ads/yo;)Ljava/lang/String;
 
     move-result-object v4
@@ -674,7 +618,6 @@
 
     move-result-object v4
 
-    .line 5
     new-instance v5, Lcom/google/android/gms/internal/ads/yk2;
 
     invoke-direct {v5, v3, v4}, Lcom/google/android/gms/internal/ads/yk2;-><init>(Ljava/lang/String;Ljava/lang/String;)V
@@ -688,7 +631,6 @@
     :cond_1
     return-object v1
 
-    .line 6
     :cond_2
     new-instance p0, Ljava/io/IOException;
 
@@ -721,7 +663,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->c(Ljava/io/InputStream;)I
 
     move-result v0
@@ -736,7 +677,6 @@
 
     or-long/2addr v0, v4
 
-    .line 2
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->c(Ljava/io/InputStream;)I
 
     move-result v4
@@ -751,7 +691,6 @@
 
     or-long/2addr v0, v4
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->c(Ljava/io/InputStream;)I
 
     move-result v4
@@ -766,7 +705,6 @@
 
     or-long/2addr v0, v4
 
-    .line 4
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->c(Ljava/io/InputStream;)I
 
     move-result v4
@@ -781,7 +719,6 @@
 
     or-long/2addr v0, v4
 
-    .line 5
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->c(Ljava/io/InputStream;)I
 
     move-result v4
@@ -796,7 +733,6 @@
 
     or-long/2addr v0, v4
 
-    .line 6
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->c(Ljava/io/InputStream;)I
 
     move-result v4
@@ -811,7 +747,6 @@
 
     or-long/2addr v0, v4
 
-    .line 7
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->c(Ljava/io/InputStream;)I
 
     move-result v4
@@ -826,7 +761,6 @@
 
     or-long/2addr v0, v4
 
-    .line 8
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wj;->c(Ljava/io/InputStream;)I
 
     move-result p0
@@ -847,7 +781,6 @@
 .method private static p(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -856,7 +789,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, v1, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v1
@@ -869,7 +801,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -913,7 +844,6 @@
 .method private final q(Ljava/lang/String;)Ljava/io/File;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/wj;->c:Lcom/google/android/gms/internal/ads/yn;
@@ -938,7 +868,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/wj;->a:Ljava/util/Map;
 
@@ -954,12 +883,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     monitor-exit p0
 
     return-object v1
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/wj;->q(Ljava/lang/String;)Ljava/io/File;
@@ -974,13 +901,11 @@
 
     const/4 v5, 0x2
 
-    .line 4
     :try_start_2
     new-instance v6, Lcom/google/android/gms/internal/ads/yo;
 
     new-instance v7, Ljava/io/BufferedInputStream;
 
-    .line 5
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/wj;->d(Ljava/io/File;)Ljava/io/InputStream;
 
     move-result-object v8
@@ -996,13 +921,11 @@
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 6
     :try_start_3
     invoke-static {v6}, Lcom/google/android/gms/internal/ads/wl;->b(Lcom/google/android/gms/internal/ads/yo;)Lcom/google/android/gms/internal/ads/wl;
 
     move-result-object v7
 
-    .line 7
     iget-object v8, v7, Lcom/google/android/gms/internal/ads/wl;->b:Ljava/lang/String;
 
     invoke-static {p1, v8}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
@@ -1017,7 +940,6 @@
 
     new-array v8, v8, [Ljava/lang/Object;
 
-    .line 8
     invoke-virtual {v2}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v9
@@ -1030,27 +952,22 @@
 
     aput-object v7, v8, v5
 
-    .line 9
     invoke-static {v0, v8}, Lcom/google/android/gms/internal/ads/bf;->a(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 10
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/wj;->b(Ljava/lang/String;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 11
     :try_start_4
     invoke-virtual {v6}, Ljava/io/FilterInputStream;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_0
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    .line 12
     monitor-exit p0
 
     return-object v1
 
-    .line 13
     :cond_1
     :try_start_5
     invoke-virtual {v6}, Lcom/google/android/gms/internal/ads/yo;->a()J
@@ -1061,50 +978,40 @@
 
     move-result-object v7
 
-    .line 14
     new-instance v8, Lcom/google/android/gms/internal/ads/ee2;
 
     invoke-direct {v8}, Lcom/google/android/gms/internal/ads/ee2;-><init>()V
 
-    .line 15
     iput-object v7, v8, Lcom/google/android/gms/internal/ads/ee2;->a:[B
 
-    .line 16
     iget-object v7, v0, Lcom/google/android/gms/internal/ads/wl;->c:Ljava/lang/String;
 
     iput-object v7, v8, Lcom/google/android/gms/internal/ads/ee2;->b:Ljava/lang/String;
 
-    .line 17
     iget-wide v9, v0, Lcom/google/android/gms/internal/ads/wl;->d:J
 
     iput-wide v9, v8, Lcom/google/android/gms/internal/ads/ee2;->c:J
 
-    .line 18
     iget-wide v9, v0, Lcom/google/android/gms/internal/ads/wl;->e:J
 
     iput-wide v9, v8, Lcom/google/android/gms/internal/ads/ee2;->d:J
 
-    .line 19
     iget-wide v9, v0, Lcom/google/android/gms/internal/ads/wl;->f:J
 
     iput-wide v9, v8, Lcom/google/android/gms/internal/ads/ee2;->e:J
 
-    .line 20
     iget-wide v9, v0, Lcom/google/android/gms/internal/ads/wl;->g:J
 
     iput-wide v9, v8, Lcom/google/android/gms/internal/ads/ee2;->f:J
 
-    .line 21
     iget-object v7, v0, Lcom/google/android/gms/internal/ads/wl;->h:Ljava/util/List;
 
-    .line 22
     new-instance v9, Ljava/util/TreeMap;
 
     sget-object v10, Ljava/lang/String;->CASE_INSENSITIVE_ORDER:Ljava/util/Comparator;
 
     invoke-direct {v9, v10}, Ljava/util/TreeMap;-><init>(Ljava/util/Comparator;)V
 
-    .line 23
     invoke-interface {v7}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v7
@@ -1122,7 +1029,6 @@
 
     check-cast v10, Lcom/google/android/gms/internal/ads/yk2;
 
-    .line 24
     invoke-virtual {v10}, Lcom/google/android/gms/internal/ads/yk2;->a()Ljava/lang/String;
 
     move-result-object v11
@@ -1135,11 +1041,9 @@
 
     goto :goto_0
 
-    .line 25
     :cond_2
     iput-object v9, v8, Lcom/google/android/gms/internal/ads/ee2;->g:Ljava/util/Map;
 
-    .line 26
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/wl;->h:Ljava/util/List;
 
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
@@ -1150,14 +1054,12 @@
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
-    .line 27
     :try_start_6
     invoke-virtual {v6}, Ljava/io/FilterInputStream;->close()V
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_0
     .catchall {:try_start_6 .. :try_end_6} :catchall_1
 
-    .line 28
     monitor-exit p0
 
     return-object v8
@@ -1165,11 +1067,9 @@
     :catchall_0
     move-exception v0
 
-    .line 29
     :try_start_7
     invoke-virtual {v6}, Ljava/io/FilterInputStream;->close()V
 
-    .line 30
     throw v0
     :try_end_7
     .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_0
@@ -1183,7 +1083,6 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    .line 31
     invoke-virtual {v2}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v2
@@ -1198,12 +1097,10 @@
 
     invoke-static {v6, v5}, Lcom/google/android/gms/internal/ads/bf;->a(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 32
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/wj;->a(Ljava/lang/String;)V
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_1
 
-    .line 33
     monitor-exit p0
 
     return-object v1
@@ -1227,7 +1124,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-wide v3, v1, Lcom/google/android/gms/internal/ads/wj;->b:J
 
@@ -1263,12 +1159,10 @@
 
     if-lez v3, :cond_0
 
-    .line 2
     monitor-exit p0
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-direct/range {p0 .. p1}, Lcom/google/android/gms/internal/ads/wj;->q(Ljava/lang/String;)Ljava/io/File;
@@ -1281,49 +1175,39 @@
 
     const/4 v5, 0x0
 
-    .line 4
     :try_start_2
     new-instance v6, Ljava/io/BufferedOutputStream;
 
-    .line 5
     new-instance v7, Ljava/io/FileOutputStream;
 
     invoke-direct {v7, v3}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
 
-    .line 6
     invoke-direct {v6, v7}, Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
 
-    .line 7
     new-instance v7, Lcom/google/android/gms/internal/ads/wl;
 
     invoke-direct {v7, v0, v2}, Lcom/google/android/gms/internal/ads/wl;-><init>(Ljava/lang/String;Lcom/google/android/gms/internal/ads/ee2;)V
 
-    .line 8
     invoke-virtual {v7, v6}, Lcom/google/android/gms/internal/ads/wl;->a(Ljava/io/OutputStream;)Z
 
     move-result v8
 
     if-eqz v8, :cond_6
 
-    .line 9
     iget-object v2, v2, Lcom/google/android/gms/internal/ads/ee2;->a:[B
 
     invoke-virtual {v6, v2}, Ljava/io/BufferedOutputStream;->write([B)V
 
-    .line 10
     invoke-virtual {v6}, Ljava/io/BufferedOutputStream;->close()V
 
-    .line 11
     invoke-virtual {v3}, Ljava/io/File;->length()J
 
     move-result-wide v10
 
     iput-wide v10, v7, Lcom/google/android/gms/internal/ads/wl;->a:J
 
-    .line 12
     invoke-direct {p0, v0, v7}, Lcom/google/android/gms/internal/ads/wj;->k(Ljava/lang/String;Lcom/google/android/gms/internal/ads/wl;)V
 
-    .line 13
     iget-wide v6, v1, Lcom/google/android/gms/internal/ads/wj;->b:J
 
     iget v0, v1, Lcom/google/android/gms/internal/ads/wj;->d:I
@@ -1334,7 +1218,6 @@
 
     if-ltz v0, :cond_5
 
-    .line 14
     sget-boolean v0, Lcom/google/android/gms/internal/ads/bf;->b:Z
 
     if-eqz v0, :cond_1
@@ -1343,19 +1226,15 @@
 
     new-array v2, v5, [Ljava/lang/Object;
 
-    .line 15
     invoke-static {v0, v2}, Lcom/google/android/gms/internal/ads/bf;->c(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 16
     :cond_1
     iget-wide v6, v1, Lcom/google/android/gms/internal/ads/wj;->b:J
 
-    .line 17
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v10
 
-    .line 18
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/wj;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -1368,7 +1247,6 @@
 
     const/4 v2, 0x0
 
-    .line 19
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -1378,21 +1256,18 @@
 
     if-eqz v8, :cond_4
 
-    .line 20
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v8
 
     check-cast v8, Ljava/util/Map$Entry;
 
-    .line 21
     invoke-interface {v8}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v8
 
     check-cast v8, Lcom/google/android/gms/internal/ads/wl;
 
-    .line 22
     iget-object v13, v8, Lcom/google/android/gms/internal/ads/wl;->b:Ljava/lang/String;
 
     invoke-direct {p0, v13}, Lcom/google/android/gms/internal/ads/wj;->q(Ljava/lang/String;)Ljava/io/File;
@@ -1405,7 +1280,6 @@
 
     if-eqz v13, :cond_2
 
-    .line 23
     iget-wide v13, v1, Lcom/google/android/gms/internal/ads/wj;->b:J
 
     move-wide/from16 p1, v10
@@ -1425,28 +1299,23 @@
 
     new-array v10, v12, [Ljava/lang/Object;
 
-    .line 24
     iget-object v8, v8, Lcom/google/android/gms/internal/ads/wl;->b:Ljava/lang/String;
 
     aput-object v8, v10, v5
 
-    .line 25
     invoke-static {v8}, Lcom/google/android/gms/internal/ads/wj;->p(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v8
 
     aput-object v8, v10, v4
 
-    .line 26
     invoke-static {v9, v10}, Lcom/google/android/gms/internal/ads/bf;->a(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 27
     :goto_1
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 28
     iget-wide v8, v1, Lcom/google/android/gms/internal/ads/wj;->b:J
 
     long-to-float v8, v8
@@ -1475,7 +1344,6 @@
     :cond_4
     move-wide/from16 p1, v10
 
-    .line 29
     :goto_2
     sget-boolean v0, Lcom/google/android/gms/internal/ads/bf;->b:Z
 
@@ -1487,7 +1355,6 @@
 
     new-array v8, v8, [Ljava/lang/Object;
 
-    .line 30
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -1516,19 +1383,16 @@
 
     aput-object v2, v8, v12
 
-    .line 31
     invoke-static {v0, v8}, Lcom/google/android/gms/internal/ads/bf;->c(Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 32
     :cond_5
     monitor-exit p0
 
     return-void
 
-    .line 33
     :cond_6
     :try_start_3
     invoke-virtual {v6}, Ljava/io/BufferedOutputStream;->close()V
@@ -1537,7 +1401,6 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    .line 34
     invoke-virtual {v3}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v6
@@ -1546,7 +1409,6 @@
 
     invoke-static {v0, v2}, Lcom/google/android/gms/internal/ads/bf;->a(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 35
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0}, Ljava/io/IOException;-><init>()V
@@ -1556,7 +1418,6 @@
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_0
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 36
     :catch_0
     :try_start_4
     invoke-virtual {v3}, Ljava/io/File;->delete()Z
@@ -1569,7 +1430,6 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    .line 37
     invoke-virtual {v3}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v3
@@ -1580,7 +1440,6 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
-    .line 38
     :cond_7
     monitor-exit p0
 
@@ -1599,7 +1458,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/wj;->c:Lcom/google/android/gms/internal/ads/yn;
 
@@ -1607,7 +1465,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     move-result v1
@@ -1616,7 +1473,6 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
 
     move-result v1
@@ -1629,7 +1485,6 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {v0}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v0
@@ -1640,13 +1495,11 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     :cond_0
     monitor-exit p0
 
     return-void
 
-    .line 6
     :cond_1
     :try_start_1
     invoke-virtual {v0}, Ljava/io/File;->listFiles()[Ljava/io/File;
@@ -1657,12 +1510,10 @@
 
     if-nez v0, :cond_2
 
-    .line 7
     monitor-exit p0
 
     return-void
 
-    .line 8
     :cond_2
     :try_start_2
     array-length v1, v0
@@ -1674,18 +1525,15 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 9
     :try_start_3
     invoke-virtual {v3}, Ljava/io/File;->length()J
 
     move-result-wide v4
 
-    .line 10
     new-instance v6, Lcom/google/android/gms/internal/ads/yo;
 
     new-instance v7, Ljava/io/BufferedInputStream;
 
-    .line 11
     invoke-static {v3}, Lcom/google/android/gms/internal/ads/wj;->d(Ljava/io/File;)Ljava/io/InputStream;
 
     move-result-object v8
@@ -1697,23 +1545,19 @@
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_0
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 12
     :try_start_4
     invoke-static {v6}, Lcom/google/android/gms/internal/ads/wl;->b(Lcom/google/android/gms/internal/ads/yo;)Lcom/google/android/gms/internal/ads/wl;
 
     move-result-object v7
 
-    .line 13
     iput-wide v4, v7, Lcom/google/android/gms/internal/ads/wl;->a:J
 
-    .line 14
     iget-object v4, v7, Lcom/google/android/gms/internal/ads/wl;->b:Ljava/lang/String;
 
     invoke-direct {p0, v4, v7}, Lcom/google/android/gms/internal/ads/wj;->k(Ljava/lang/String;Lcom/google/android/gms/internal/ads/wl;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
-    .line 15
     :try_start_5
     invoke-virtual {v6}, Ljava/io/FilterInputStream;->close()V
 
@@ -1722,16 +1566,13 @@
     :catchall_0
     move-exception v4
 
-    .line 16
     invoke-virtual {v6}, Ljava/io/FilterInputStream;->close()V
 
-    .line 17
     throw v4
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_0
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 
-    .line 18
     :catch_0
     :try_start_6
     invoke-virtual {v3}, Ljava/io/File;->delete()Z
@@ -1743,7 +1584,6 @@
 
     goto :goto_0
 
-    .line 19
     :cond_3
     monitor-exit p0
 

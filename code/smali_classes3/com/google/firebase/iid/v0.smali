@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,14 +31,12 @@
 .method public final synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/firebase/iid/zzj;
 
     invoke-direct {v0, p1}, Lcom/google/firebase/iid/zzj;-><init>(Landroid/os/IBinder;)V
@@ -55,7 +52,6 @@
 .method public final synthetic newArray(I)[Ljava/lang/Object;
     .locals 0
 
-    .line 1
     new-array p1, p1, [Lcom/google/firebase/iid/zzj;
 
     return-object p1

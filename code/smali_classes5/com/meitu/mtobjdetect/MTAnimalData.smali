@@ -21,10 +21,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeCreate()J
 
     move-result-wide v0
@@ -85,12 +83,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeAnimalFeatureMirror(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -103,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeGetAllAnimalRects(J)[F
@@ -122,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeGetAllAnimalLabel(J)[I
@@ -141,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeGetAllAnimalLandmark(J)[F
@@ -160,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeGetAllScore(J)[F
@@ -179,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeGetAnimalCount(J)I
@@ -203,16 +194,13 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/meitu/mtobjdetect/MTAnimalData;->l()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -220,10 +208,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -236,7 +222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeGetAnimalFaceID(JI)I
@@ -255,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeGetAnimalRects(JI)[F
@@ -274,7 +258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeGetAnimalLabel(JI)I
@@ -293,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeGetAnimalLandmark(JI)[F
@@ -312,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeGetScore(JI)F
@@ -331,12 +312,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeRelease(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -349,7 +328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     move-object v1, p0
@@ -366,7 +344,6 @@
 
     invoke-direct/range {v1 .. v8}, Lcom/meitu/mtobjdetect/MTAnimalData;->nativeSetNormalizeParams(JIIFFI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

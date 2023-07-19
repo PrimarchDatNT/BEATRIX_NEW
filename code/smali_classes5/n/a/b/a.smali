@@ -13,7 +13,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Ln/a/b/a;-><init>(Ljava/lang/Object;)V
 
     return-void
@@ -22,10 +21,8 @@
 .method public constructor <init>(Ljava/lang/Object;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Ln/a/b/a;->a:Ljava/lang/Object;
 
     return-void
@@ -44,7 +41,6 @@
 .method public b()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/a;->a:Ljava/lang/Object;
 
     return-object v0
@@ -53,7 +49,6 @@
 .method public c(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Ln/a/b/a;->a:Ljava/lang/Object;
 
     return-void

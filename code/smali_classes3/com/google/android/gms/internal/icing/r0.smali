@@ -58,7 +58,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -71,34 +70,28 @@
 .method private constructor <init>(Landroid/content/SharedPreferences;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/icing/s0;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/icing/s0;-><init>(Lcom/google/android/gms/internal/icing/r0;)V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/icing/r0;->b:Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;
 
-    .line 3
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     iput-object v1, p0, Lcom/google/android/gms/internal/icing/r0;->c:Ljava/lang/Object;
 
-    .line 4
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/google/android/gms/internal/icing/r0;->e:Ljava/util/List;
 
-    .line 5
     iput-object p1, p0, Lcom/google/android/gms/internal/icing/r0;->a:Landroid/content/SharedPreferences;
 
-    .line 6
     invoke-interface {p1, v0}, Landroid/content/SharedPreferences;->registerOnSharedPreferenceChangeListener(Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V
 
     return-void
@@ -107,7 +100,6 @@
 .method static b(Landroid/content/Context;Ljava/lang/String;)Lcom/google/android/gms/internal/icing/r0;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/icing/c0;->d()Z
 
     move-result v0
@@ -116,14 +108,12 @@
 
     const-string v0, "direct_boot:"
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/icing/c0;->a(Landroid/content/Context;)Z
 
     move-result v0
@@ -140,13 +130,11 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     const-class v0, Lcom/google/android/gms/internal/icing/r0;
 
     monitor-enter v0
 
-    .line 5
     :try_start_0
     sget-object v1, Lcom/google/android/gms/internal/icing/r0;->f:Ljava/util/Map;
 
@@ -158,12 +146,10 @@
 
     if-nez v2, :cond_4
 
-    .line 6
     new-instance v2, Lcom/google/android/gms/internal/icing/r0;
 
     const-string v3, "direct_boot:"
 
-    .line 7
     invoke-virtual {p1, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v3
@@ -172,14 +158,12 @@
 
     if-eqz v3, :cond_3
 
-    .line 8
     invoke-static {}, Lcom/google/android/gms/internal/icing/c0;->d()Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    .line 9
     invoke-virtual {p0}, Landroid/content/Context;->createDeviceProtectedStorageContext()Landroid/content/Context;
 
     move-result-object p0
@@ -187,32 +171,26 @@
     :cond_2
     const/16 v3, 0xc
 
-    .line 10
     invoke-virtual {p1, v3}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 11
     invoke-virtual {p0, v3, v4}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
 
     goto :goto_1
 
-    .line 12
     :cond_3
     invoke-virtual {p0, p1, v4}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
 
-    .line 13
     :goto_1
     invoke-direct {v2, p0}, Lcom/google/android/gms/internal/icing/r0;-><init>(Landroid/content/SharedPreferences;)V
 
-    .line 14
     invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 15
     :cond_4
     monitor-exit v0
 
@@ -221,7 +199,6 @@
     :catchall_0
     move-exception p0
 
-    .line 16
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -234,33 +211,27 @@
 .method public final a(Ljava/lang/String;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/r0;->d:Ljava/util/Map;
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/icing/r0;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/r0;->d:Ljava/util/Map;
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/r0;->a:Landroid/content/SharedPreferences;
 
     invoke-interface {v0}, Landroid/content/SharedPreferences;->getAll()Ljava/util/Map;
 
     move-result-object v0
 
-    .line 5
     iput-object v0, p0, Lcom/google/android/gms/internal/icing/r0;->d:Ljava/util/Map;
 
-    .line 6
     :cond_0
     monitor-exit v1
 
@@ -279,7 +250,6 @@
     :goto_0
     if-eqz v0, :cond_2
 
-    .line 7
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -295,29 +265,23 @@
 .method final synthetic c(Landroid/content/SharedPreferences;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/icing/r0;->c:Ljava/lang/Object;
 
     monitor-enter p1
 
     const/4 p2, 0x0
 
-    .line 2
     :try_start_0
     iput-object p2, p0, Lcom/google/android/gms/internal/icing/r0;->d:Ljava/util/Map;
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/icing/n0;->h()V
 
-    .line 4
     monitor-exit p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     monitor-enter p0
 
-    .line 6
     :try_start_1
     iget-object p1, p0, Lcom/google/android/gms/internal/icing/r0;->e:Ljava/util/List;
 
@@ -338,12 +302,10 @@
 
     check-cast p2, Lcom/google/android/gms/internal/icing/g0;
 
-    .line 7
     invoke-interface {p2}, Lcom/google/android/gms/internal/icing/g0;->zzw()V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     monitor-exit p0
 
@@ -361,7 +323,6 @@
     :catchall_1
     move-exception p2
 
-    .line 9
     :try_start_2
     monitor-exit p1
     :try_end_2

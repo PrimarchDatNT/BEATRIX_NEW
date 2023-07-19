@@ -7,10 +7,8 @@
 .method public constructor <init>(Lcom/meitu/library/g/h/e;II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/g/h/d;-><init>(Lcom/meitu/library/g/h/e;)V
 
-    .line 2
     invoke-virtual {p0, p2, p3}, Lcom/meitu/library/g/h/d;->a(II)V
 
     return-void
@@ -25,10 +23,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/g/h/d;->g()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

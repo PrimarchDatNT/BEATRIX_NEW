@@ -46,47 +46,38 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0xa
 
-    .line 3
     iput v0, p0, Lcom/meitu/mtuploader/GlobalConfig;->uploadCloudConnectTimeout:I
 
     const/16 v0, 0x3c
 
-    .line 4
     iput v0, p0, Lcom/meitu/mtuploader/GlobalConfig;->uploadCloudResponseTimeout:I
 
-    .line 5
     sget-wide v0, Lf/k/i/a/c;->h:J
 
     iput-wide v0, p0, Lcom/meitu/mtuploader/GlobalConfig;->tokenConnectTimeOut:J
 
-    .line 6
     sget-wide v0, Lf/k/i/a/c;->i:J
 
     iput-wide v0, p0, Lcom/meitu/mtuploader/GlobalConfig;->tokenSocketReadTimeOut:J
 
-    .line 7
     sget-wide v0, Lf/k/i/a/c;->j:J
 
     iput-wide v0, p0, Lcom/meitu/mtuploader/GlobalConfig;->tokenSocketWriteTimeOut:J
 
     const/high16 v0, 0x40000
 
-    .line 8
     iput v0, p0, Lcom/meitu/mtuploader/GlobalConfig;->chunkSize:I
 
     const/high16 v0, 0x80000
 
-    .line 9
     iput v0, p0, Lcom/meitu/mtuploader/GlobalConfig;->chunkedPutThreshold:I
 
     const/4 v0, 0x0
 
-    .line 10
     iput-boolean v0, p0, Lcom/meitu/mtuploader/GlobalConfig;->isFastdnsEnabled:Z
 
     return-void
@@ -95,7 +86,6 @@
 .method synthetic constructor <init>(Lcom/meitu/mtuploader/GlobalConfig$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtuploader/GlobalConfig;-><init>()V
 
     return-void
@@ -108,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/mtuploader/GlobalConfig;->isFastdnsEnabled:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -125,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtuploader/GlobalConfig;->chunkSize:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtuploader/GlobalConfig;->chunkedPutThreshold:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtuploader/GlobalConfig;->tokenConnectTimeOut:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -170,7 +156,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtuploader/GlobalConfig;->tokenSocketReadTimeOut:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -185,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtuploader/GlobalConfig;->tokenSocketWriteTimeOut:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -200,7 +184,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtuploader/GlobalConfig;->uploadCloudConnectTimeout:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -215,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtuploader/GlobalConfig;->uploadCloudResponseTimeout:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -230,7 +212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/mtuploader/GlobalConfig;->isFastdnsEnabled:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -245,10 +226,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtuploader/GlobalConfig;->chunkSize:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -261,10 +240,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtuploader/GlobalConfig;->chunkedPutThreshold:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -277,10 +254,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/mtuploader/GlobalConfig;->isFastdnsEnabled:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -293,10 +268,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/mtuploader/GlobalConfig;->tokenConnectTimeOut:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -309,10 +282,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/mtuploader/GlobalConfig;->tokenSocketReadTimeOut:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -325,10 +296,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/mtuploader/GlobalConfig;->tokenSocketWriteTimeOut:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -341,10 +310,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtuploader/GlobalConfig;->uploadCloudConnectTimeout:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -357,10 +324,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtuploader/GlobalConfig;->uploadCloudResponseTimeout:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

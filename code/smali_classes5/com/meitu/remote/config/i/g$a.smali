@@ -24,13 +24,10 @@
 .method constructor <init>(ILjava/util/Date;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/meitu/remote/config/i/g$a;->a:I
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/remote/config/i/g$a;->b:Ljava/util/Date;
 
     return-void
@@ -45,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/g$a;->b:Ljava/util/Date;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -60,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/remote/config/i/g$a;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

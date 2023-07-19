@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->max(II)I
 
     move-result v2
@@ -90,7 +88,6 @@
 
     aput p3, v1, v4
 
-    .line 2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -108,7 +105,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/f;->d(Lcom/meitu/core/types/NativeBitmap;)Z
 
     move-result v2
@@ -125,23 +121,19 @@
 
     aput p0, v1, v4
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v2
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result p0
 
-    .line 5
     invoke-static {v2, p0}, Ljava/lang/Math;->max(II)I
 
     move-result v5
@@ -199,7 +191,6 @@
 
     aput p2, v1, v3
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -217,7 +208,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/f;->d(Lcom/meitu/core/types/NativeBitmap;)Z
 
     move-result v2
@@ -234,13 +224,11 @@
 
     aput v2, v1, v4
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v2
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result p0
@@ -294,7 +282,6 @@
 
     aput p2, v1, v3
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -309,7 +296,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->isRecycled()Z
 
     move-result v1
@@ -326,7 +312,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v1
@@ -346,7 +331,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -360,17 +344,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/f;->d(Lcom/meitu/core/types/NativeBitmap;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -384,24 +365,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/f;->d(Lcom/meitu/core/types/NativeBitmap;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v2
 
-    .line 4
     invoke-static {v1, v2}, Ljava/lang/Math;->max(II)I
 
     move-result v3
@@ -443,7 +420,6 @@
 
     move p1, v4
 
-    .line 5
     :goto_0
     invoke-virtual {p0, p1, v1}, Lcom/meitu/core/types/NativeBitmap;->scale(II)Lcom/meitu/core/types/NativeBitmap;
 
@@ -453,7 +429,6 @@
 
     return-object p0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -462,7 +437,6 @@
     :cond_2
     const/4 p0, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

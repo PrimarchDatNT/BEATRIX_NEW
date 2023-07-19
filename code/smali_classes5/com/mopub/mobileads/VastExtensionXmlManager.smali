@@ -23,13 +23,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/mobileads/VastExtensionXmlManager;->mExtensionNode:Lorg/w3c/dom/Node;
 
     return-void
@@ -42,7 +39,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastExtensionXmlManager;->mExtensionNode:Lorg/w3c/dom/Node;
 
     const-string v1, "type"
@@ -59,12 +55,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastExtensionXmlManager;->mExtensionNode:Lorg/w3c/dom/Node;
 
     const-string v1, "MoPubViewabilityTracker"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/mopub/mobileads/util/XmlUtils;->getFirstMatchingChildNode(Lorg/w3c/dom/Node;Ljava/lang/String;)Lorg/w3c/dom/Node;
 
     move-result-object v0
@@ -75,23 +69,19 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v2, Lcom/mopub/mobileads/VideoViewabilityTrackerXmlManager;
 
     invoke-direct {v2, v0}, Lcom/mopub/mobileads/VideoViewabilityTrackerXmlManager;-><init>(Lorg/w3c/dom/Node;)V
 
-    .line 4
     invoke-virtual {v2}, Lcom/mopub/mobileads/VideoViewabilityTrackerXmlManager;->getViewablePlaytimeMS()Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v2}, Lcom/mopub/mobileads/VideoViewabilityTrackerXmlManager;->getPercentViewable()Ljava/lang/Integer;
 
     move-result-object v3
 
-    .line 6
     invoke-virtual {v2}, Lcom/mopub/mobileads/VideoViewabilityTrackerXmlManager;->getVideoViewabilityTrackerUrl()Ljava/lang/String;
 
     move-result-object v2
@@ -100,7 +90,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 7
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -109,11 +98,9 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     new-instance v1, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;
 
-    .line 9
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     move-result v0

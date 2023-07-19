@@ -50,7 +50,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -63,7 +62,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$a;->a:Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->c(Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;)Landroid/graphics/Paint;
@@ -82,17 +80,14 @@
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$a;->a:Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

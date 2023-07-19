@@ -17,10 +17,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/effect/k;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/util/SparseIntArray;
 
     invoke-direct {v0}, Landroid/util/SparseIntArray;-><init>()V
@@ -43,7 +41,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/effect/x;->s(I)I
 
@@ -67,7 +64,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/effect/x;->w(II)V
 
@@ -85,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/x;->i:Landroid/util/SparseIntArray;
 
     invoke-static {v1}, Lcom/commsource/util/l0;->t0(Landroid/util/SparseIntArray;)Z
@@ -104,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/x;->i:Landroid/util/SparseIntArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseIntArray;->get(I)I
@@ -125,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/x;->i:Landroid/util/SparseIntArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/x;->i:Landroid/util/SparseIntArray;
 
     invoke-virtual {v1}, Landroid/util/SparseIntArray;->size()I
@@ -154,7 +146,6 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 2
     iget-object v4, p0, Lcom/commsource/studio/effect/x;->i:Landroid/util/SparseIntArray;
 
     invoke-virtual {v4, v3}, Landroid/util/SparseIntArray;->valueAt(I)I
@@ -163,7 +154,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/effect/x;->i:Landroid/util/SparseIntArray;
 
     invoke-virtual {v1, v3}, Landroid/util/SparseIntArray;->valueAt(I)I
@@ -179,7 +169,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -193,12 +182,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/x;->i:Landroid/util/SparseIntArray;
 
     invoke-virtual {v1, p2, p1}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -219,7 +206,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/effect/x;->i:Landroid/util/SparseIntArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

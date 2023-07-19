@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup$a;->a:Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -39,15 +38,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationCancel(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup$a;->a:Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->access$000(Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -60,15 +56,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup$a;->a:Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->access$000(Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

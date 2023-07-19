@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/utils/internal/a$a$a;Ljava/util/List;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/utils/internal/a$a$a$a;->b:Lcom/sdk/utils/internal/a$a$a;
 
     iput-object p2, p0, Lcom/sdk/utils/internal/a$a$a$a;->a:Ljava/util/List;
@@ -42,7 +41,6 @@
 .method public a(Lcom/sdk/imp/webview/i;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/utils/internal/a$a$a$a;->b:Lcom/sdk/utils/internal/a$a$a;
 
     iget-object v0, v0, Lcom/sdk/utils/internal/a$a$a;->c:Lcom/sdk/utils/internal/a$a;

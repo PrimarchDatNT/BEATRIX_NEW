@@ -32,7 +32,6 @@
 .method constructor <init>(Lcom/sdk/imp/VCViewP;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VCViewP$d;->a:Lcom/sdk/imp/VCViewP;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
@@ -45,7 +44,6 @@
 .method protected varargs doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     :try_start_0
     iget-object p1, p0, Lcom/sdk/imp/VCViewP$d;->a:Lcom/sdk/imp/VCViewP;
 
@@ -72,19 +70,16 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     instance-of v0, p1, Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_1
 
-    .line 2
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x10
 
     if-lt v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/VCViewP$d;->a:Lcom/sdk/imp/VCViewP;
 
     invoke-static {v0}, Lcom/sdk/imp/VCViewP;->m(Lcom/sdk/imp/VCViewP;)Landroid/view/View;
@@ -101,7 +96,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/VCViewP$d;->a:Lcom/sdk/imp/VCViewP;
 

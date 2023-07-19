@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/ar/StudioMyArFragment$c;->b(ILcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;)Z
@@ -75,7 +74,6 @@
 
     const-string v0, "entity"
 
-    .line 1
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;->a()I
@@ -92,7 +90,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :cond_0
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment$c;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment;
 
@@ -102,7 +99,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->K0()V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment$c;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioMyArFragment;->B()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -115,7 +111,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment$c;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment;
 
@@ -125,7 +120,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->K0()V
 
-    .line 5
     new-instance p2, Lcom/commsource/camera/f0;
 
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment$c;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment;
@@ -150,14 +144,12 @@
 
     invoke-direct {p2, v1, v2}, Lcom/commsource/camera/f0;-><init>(Landroidx/fragment/app/FragmentActivity;Z)V
 
-    .line 6
     new-instance v1, Lcom/commsource/studio/function/ar/StudioMyArFragment$c$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/ar/StudioMyArFragment$c$a;-><init>(Lcom/commsource/studio/function/ar/StudioMyArFragment$c;)V
 
     invoke-virtual {p2, v1}, Lcom/commsource/widget/dialog/l0;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment$c;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioMyArFragment;->B()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -172,7 +164,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->O0(Z)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment$c;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioMyArFragment;->B()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -183,10 +174,8 @@
 
     const-string v1, "arstickermanage"
 
-    .line 9
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 10
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1, v0}, Ljava/util/HashMap;-><init>(I)V
@@ -195,47 +184,39 @@
 
     const-string v2, "kARMaterialNumberDelete"
 
-    .line 11
     invoke-interface {v1, v0, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "AR\u5206\u7c7b"
 
     const-string v2, "My"
 
-    .line 12
     invoke-interface {v1, v0, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "AR\u7d20\u6750ID"
 
     const-string v2, "0"
 
-    .line 13
     invoke-interface {v1, v0, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "AR\u7d20\u6750\u4f4d\u7f6e"
 
     const-string v2, "My_0"
 
-    .line 14
     invoke-interface {v1, v0, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "beauty_ar_clk"
 
-    .line 15
     invoke-static {v0, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 16
     invoke-virtual {p2}, Landroid/app/Dialog;->show()V
 
     :goto_0
     const/4 p2, 0x0
 
-    .line 17
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 18
     :cond_2
     new-instance p2, Lcotlin/TypeCastException;
 

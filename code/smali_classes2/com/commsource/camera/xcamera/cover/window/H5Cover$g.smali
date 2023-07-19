@@ -56,7 +56,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -65,7 +64,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$g;->a:Lcom/commsource/camera/xcamera/cover/window/H5Cover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -84,7 +82,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$g;->a:Lcom/commsource/camera/xcamera/cover/window/H5Cover;
 
@@ -102,7 +99,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$g;->a(Ljava/lang/Boolean;)V

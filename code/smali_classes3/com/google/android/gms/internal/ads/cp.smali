@@ -13,7 +13,6 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     move-result-object v0
@@ -30,17 +29,14 @@
 .method private constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/om;-><init>()V
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/ads/cq;
 
     invoke-direct {v0, p2}, Lcom/google/android/gms/internal/ads/cq;-><init>(Ljava/lang/String;)V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/cp;->d:Lcom/google/android/gms/internal/ads/cq;
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/cp;->e:Ljava/lang/String;
 
     return-void
@@ -51,7 +47,6 @@
 .method public final b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/cp;->d:Lcom/google/android/gms/internal/ads/cq;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/cp;->e:Ljava/lang/String;

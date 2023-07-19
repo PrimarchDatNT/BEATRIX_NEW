@@ -21,17 +21,14 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput v1, Lcom/meitu/media/tools/editor/w/c;->a:I
 
     const/4 v1, 0x1
 
-    .line 2
     sput v1, Lcom/meitu/media/tools/editor/w/c;->b:I
 
     const/4 v1, 0x2
 
-    .line 3
     sput v1, Lcom/meitu/media/tools/editor/w/c;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -42,7 +39,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -61,14 +57,12 @@
 
     mul-int v3, v0, v1
 
-    .line 1
     div-int/lit8 v4, v3, 0x4
 
     add-int/2addr v4, v3
 
     mul-int/lit8 v5, v3, 0x3
 
-    .line 2
     new-array v5, v5, [B
 
     const/4 v7, 0x0
@@ -78,7 +72,6 @@
 
     mul-int v8, v7, v0
 
-    .line 3
     div-int/lit8 v9, v7, 0x2
 
     div-int/lit8 v10, v0, 0x2
@@ -96,7 +89,6 @@
 
     add-int v12, v8, v11
 
-    .line 4
     div-int/lit8 v13, v11, 0x2
 
     add-int v14, v10, v13
@@ -105,7 +97,6 @@
 
     mul-int/lit8 v15, v12, 0x3
 
-    .line 5
     sget v16, Lcom/meitu/media/tools/editor/w/c;->c:I
 
     add-int v16, v15, v16
@@ -138,7 +129,6 @@
 
     aput-byte v0, v5, v16
 
-    .line 6
     sget v0, Lcom/meitu/media/tools/editor/w/c;->b:I
 
     add-int/2addr v0, v15
@@ -189,7 +179,6 @@
 
     aput-byte v1, v5, v0
 
-    .line 7
     sget v0, Lcom/meitu/media/tools/editor/w/c;->a:I
 
     add-int/2addr v15, v0
@@ -256,7 +245,6 @@
     :cond_1
     const v0, 0xe43d
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v5

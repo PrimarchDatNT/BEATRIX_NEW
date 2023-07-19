@@ -37,22 +37,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lorg/greenrobot/greendao/h;->a:I
 
-    .line 3
     iput-object p2, p0, Lorg/greenrobot/greendao/h;->b:Ljava/lang/Class;
 
-    .line 4
     iput-object p3, p0, Lorg/greenrobot/greendao/h;->c:Ljava/lang/String;
 
-    .line 5
     iput-boolean p4, p0, Lorg/greenrobot/greendao/h;->d:Z
 
-    .line 6
     iput-object p5, p0, Lorg/greenrobot/greendao/h;->e:Ljava/lang/String;
 
     return-void
@@ -75,7 +69,6 @@
 
     aput-object p2, v0, p1
 
-    .line 1
     new-instance p1, Lorg/greenrobot/greendao/l/m$b;
 
     const-string p2, " BETWEEN ? AND ?"
@@ -88,7 +81,6 @@
 .method public b(Ljava/lang/Object;)Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/l/m$b;
 
     const-string v1, "=?"
@@ -101,7 +93,6 @@
 .method public c(Ljava/lang/Object;)Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/l/m$b;
 
     const-string v1, ">=?"
@@ -114,7 +105,6 @@
 .method public d(Ljava/lang/Object;)Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/l/m$b;
 
     const-string v1, ">?"
@@ -135,7 +125,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->toArray()[Ljava/lang/Object;
 
     move-result-object p1
@@ -150,14 +139,12 @@
 .method public varargs f([Ljava/lang/Object;)Lorg/greenrobot/greendao/l/m;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, " IN ("
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 2
     array-length v1, p1
 
     invoke-static {v0, v1}, Lorg/greenrobot/greendao/k/d;->g(Ljava/lang/StringBuilder;I)Ljava/lang/StringBuilder;
@@ -168,7 +155,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 3
     new-instance v1, Lorg/greenrobot/greendao/l/m$b;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -183,7 +169,6 @@
 .method public g()Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/l/m$b;
 
     const-string v1, " IS NOT NULL"
@@ -196,7 +181,6 @@
 .method public h()Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/l/m$b;
 
     const-string v1, " IS NULL"
@@ -209,7 +193,6 @@
 .method public i(Ljava/lang/Object;)Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/l/m$b;
 
     const-string v1, "<=?"
@@ -222,7 +205,6 @@
 .method public j(Ljava/lang/String;)Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/l/m$b;
 
     const-string v1, " LIKE ?"
@@ -235,7 +217,6 @@
 .method public k(Ljava/lang/Object;)Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/l/m$b;
 
     const-string v1, "<?"
@@ -248,7 +229,6 @@
 .method public l(Ljava/lang/Object;)Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/l/m$b;
 
     const-string v1, "<>?"
@@ -269,7 +249,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->toArray()[Ljava/lang/Object;
 
     move-result-object p1
@@ -284,14 +263,12 @@
 .method public varargs n([Ljava/lang/Object;)Lorg/greenrobot/greendao/l/m;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, " NOT IN ("
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 2
     array-length v1, p1
 
     invoke-static {v0, v1}, Lorg/greenrobot/greendao/k/d;->g(Ljava/lang/StringBuilder;I)Ljava/lang/StringBuilder;
@@ -302,7 +279,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 3
     new-instance v1, Lorg/greenrobot/greendao/l/m$b;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;

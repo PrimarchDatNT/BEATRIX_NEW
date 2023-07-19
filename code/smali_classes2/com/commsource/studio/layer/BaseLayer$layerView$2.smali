@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/BaseLayer$layerView$2;->this$0:Lcom/commsource/studio/layer/BaseLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->c0()Landroid/view/View;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer$layerView$2;->invoke()Landroid/view/View;
 
     move-result-object v1

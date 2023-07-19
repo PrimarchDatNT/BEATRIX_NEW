@@ -56,10 +56,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/graph/Traverser;-><init>(Lcom/google/common/graph/Traverser$a;)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -74,7 +72,6 @@
 .method static synthetic i(Lcom/google/common/graph/Traverser$c;)Lcom/google/common/graph/n0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/graph/Traverser$c;->a:Lcom/google/common/graph/n0;
 
     return-object p0
@@ -88,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/Traverser$c;->a:Lcom/google/common/graph/n0;
 
     invoke-interface {v0, p1}, Lcom/google/common/graph/n0;->b(Ljava/lang/Object;)Ljava/lang/Iterable;
@@ -110,24 +106,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/h1;->C(Ljava/lang/Iterable;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/common/collect/ImmutableSet;->of()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -144,12 +136,10 @@
 
     move-result-object v1
 
-    .line 5
     invoke-direct {p0, v1}, Lcom/google/common/graph/Traverser$c;->j(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v0, Lcom/google/common/graph/Traverser$c$a;
 
@@ -168,10 +158,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/ImmutableSet;->of(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p1
@@ -195,24 +183,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/h1;->C(Ljava/lang/Iterable;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/common/collect/ImmutableSet;->of()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -229,12 +213,10 @@
 
     move-result-object v1
 
-    .line 5
     invoke-direct {p0, v1}, Lcom/google/common/graph/Traverser$c;->j(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v0, Lcom/google/common/graph/Traverser$c$c;
 
@@ -253,10 +235,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/ImmutableSet;->of(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p1
@@ -280,24 +260,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/h1;->C(Ljava/lang/Iterable;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/common/collect/ImmutableSet;->of()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -314,12 +290,10 @@
 
     move-result-object v1
 
-    .line 5
     invoke-direct {p0, v1}, Lcom/google/common/graph/Traverser$c;->j(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v0, Lcom/google/common/graph/Traverser$c$b;
 
@@ -338,10 +312,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/ImmutableSet;->of(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p1

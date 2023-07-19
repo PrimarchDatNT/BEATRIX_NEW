@@ -11,10 +11,8 @@
 .method public constructor <init>(Ljava/security/interfaces/ECPublicKey;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ly1;->a:Ljava/security/interfaces/ECPublicKey;
 
     return-void
@@ -30,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ly1;->a:Ljava/security/interfaces/ECPublicKey;
 
     invoke-interface {v0}, Ljava/security/interfaces/ECPublicKey;->getParams()Ljava/security/spec/ECParameterSpec;
@@ -41,35 +38,29 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/security/KeyPair;->getPublic()Ljava/security/PublicKey;
 
     move-result-object v1
 
     check-cast v1, Ljava/security/interfaces/ECPublicKey;
 
-    .line 3
     invoke-virtual {v0}, Ljava/security/KeyPair;->getPrivate()Ljava/security/PrivateKey;
 
     move-result-object v0
 
     check-cast v0, Ljava/security/interfaces/ECPrivateKey;
 
-    .line 4
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/ly1;->a:Ljava/security/interfaces/ECPublicKey;
 
-    .line 5
     :try_start_0
     invoke-interface {v2}, Ljava/security/interfaces/ECPublicKey;->getParams()Ljava/security/spec/ECParameterSpec;
 
     move-result-object v3
 
-    .line 6
     invoke-interface {v0}, Ljava/security/interfaces/ECPrivateKey;->getParams()Ljava/security/spec/ECParameterSpec;
 
     move-result-object v4
 
-    .line 7
     invoke-virtual {v3}, Ljava/security/spec/ECParameterSpec;->getCurve()Ljava/security/spec/EllipticCurve;
 
     move-result-object v5
@@ -88,7 +79,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 8
     invoke-virtual {v3}, Ljava/security/spec/ECParameterSpec;->getGenerator()Ljava/security/spec/ECPoint;
 
     move-result-object v5
@@ -103,7 +93,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 9
     invoke-virtual {v3}, Ljava/security/spec/ECParameterSpec;->getOrder()Ljava/math/BigInteger;
 
     move-result-object v5
@@ -118,7 +107,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 10
     invoke-virtual {v3}, Ljava/security/spec/ECParameterSpec;->getCofactor()I
 
     move-result v3
@@ -142,7 +130,6 @@
     :goto_0
     if-eqz v3, :cond_b
 
-    .line 11
     invoke-interface {v2}, Ljava/security/interfaces/ECPublicKey;->getW()Ljava/security/spec/ECPoint;
 
     move-result-object v2
@@ -151,7 +138,6 @@
 
     move-result-object v0
 
-    .line 12
     invoke-interface {v1}, Ljava/security/interfaces/ECPublicKey;->getParams()Ljava/security/spec/ECParameterSpec;
 
     move-result-object v2
@@ -164,10 +150,8 @@
 
     move-result-object v1
 
-    .line 13
     invoke-static {v1, v2}, Lcom/google/android/gms/internal/ads/ny1;->f(Ljava/security/spec/ECPoint;Ljava/security/spec/EllipticCurve;)V
 
-    .line 14
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/ny1;->a(Ljava/security/spec/EllipticCurve;)Ljava/math/BigInteger;
 
     move-result-object v2
@@ -184,10 +168,8 @@
 
     add-int/lit8 v2, v2, 0x7
 
-    .line 15
     div-int/lit8 v2, v2, 0x8
 
-    .line 16
     sget-object v3, Lcom/google/android/gms/internal/ads/my1;->a:[I
 
     invoke-virtual {p5}, Ljava/lang/Enum;->ordinal()I
@@ -208,10 +190,8 @@
 
     add-int/2addr v2, v6
 
-    .line 17
     new-array p5, v2, [B
 
-    .line 18
     invoke-virtual {v1}, Ljava/security/spec/ECPoint;->getAffineX()Ljava/math/BigInteger;
 
     move-result-object v3
@@ -220,7 +200,6 @@
 
     move-result-object v3
 
-    .line 19
     array-length v8, v3
 
     sub-int/2addr v2, v8
@@ -229,7 +208,6 @@
 
     invoke-static {v3, v7, p5, v2, v8}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 20
     invoke-virtual {v1}, Ljava/security/spec/ECPoint;->getAffineY()Ljava/math/BigInteger;
 
     move-result-object v1
@@ -252,7 +230,6 @@
 
     goto/16 :goto_3
 
-    .line 21
     :cond_2
     new-instance p1, Ljava/security/GeneralSecurityException;
 
@@ -291,10 +268,8 @@
     :cond_3
     mul-int/lit8 p5, v2, 0x2
 
-    .line 22
     new-array v3, p5, [B
 
-    .line 23
     invoke-virtual {v1}, Ljava/security/spec/ECPoint;->getAffineX()Ljava/math/BigInteger;
 
     move-result-object v5
@@ -303,12 +278,10 @@
 
     move-result-object v5
 
-    .line 24
     array-length v8, v5
 
     if-le v8, v2, :cond_4
 
-    .line 25
     array-length v8, v5
 
     sub-int/2addr v8, v2
@@ -319,7 +292,6 @@
 
     move-result-object v5
 
-    .line 26
     :cond_4
     invoke-virtual {v1}, Ljava/security/spec/ECPoint;->getAffineY()Ljava/math/BigInteger;
 
@@ -329,12 +301,10 @@
 
     move-result-object v1
 
-    .line 27
     array-length v8, v1
 
     if-le v8, v2, :cond_5
 
-    .line 28
     array-length v8, v1
 
     sub-int/2addr v8, v2
@@ -345,7 +315,6 @@
 
     move-result-object v1
 
-    .line 29
     :cond_5
     array-length v8, v1
 
@@ -355,7 +324,6 @@
 
     invoke-static {v1, v7, v3, p5, v8}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 30
     array-length p5, v5
 
     sub-int/2addr v2, p5
@@ -371,10 +339,8 @@
 
     add-int/2addr p5, v6
 
-    .line 31
     new-array v3, p5, [B
 
-    .line 32
     invoke-virtual {v1}, Ljava/security/spec/ECPoint;->getAffineX()Ljava/math/BigInteger;
 
     move-result-object v5
@@ -383,7 +349,6 @@
 
     move-result-object v5
 
-    .line 33
     invoke-virtual {v1}, Ljava/security/spec/ECPoint;->getAffineY()Ljava/math/BigInteger;
 
     move-result-object v1
@@ -392,7 +357,6 @@
 
     move-result-object v1
 
-    .line 34
     array-length v8, v1
 
     sub-int/2addr p5, v8
@@ -403,7 +367,6 @@
 
     add-int/2addr v2, v6
 
-    .line 35
     array-length p5, v5
 
     sub-int/2addr v2, p5
@@ -414,7 +377,6 @@
 
     const/4 p5, 0x4
 
-    .line 36
     aput-byte p5, v3, v7
 
     :goto_2
@@ -427,12 +389,10 @@
 
     aput-object v0, v1, v6
 
-    .line 37
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/zx1;->c([[B)[B
 
     move-result-object v0
 
-    .line 38
     sget-object v1, Lcom/google/android/gms/internal/ads/oy1;->g:Lcom/google/android/gms/internal/ads/oy1;
 
     invoke-virtual {v1, p1}, Lcom/google/android/gms/internal/ads/oy1;->a(Ljava/lang/String;)Ljava/lang/Object;
@@ -441,7 +401,6 @@
 
     check-cast v1, Ljavax/crypto/Mac;
 
-    .line 39
     invoke-virtual {v1}, Ljavax/crypto/Mac;->getMacLength()I
 
     move-result v2
@@ -452,14 +411,12 @@
 
     if-eqz p2, :cond_8
 
-    .line 40
     array-length v2, p2
 
     if-nez v2, :cond_7
 
     goto :goto_4
 
-    .line 41
     :cond_7
     new-instance v2, Ljavax/crypto/spec/SecretKeySpec;
 
@@ -469,7 +426,6 @@
 
     goto :goto_5
 
-    .line 42
     :cond_8
     :goto_4
     new-instance p2, Ljavax/crypto/spec/SecretKeySpec;
@@ -484,16 +440,13 @@
 
     invoke-virtual {v1, p2}, Ljavax/crypto/Mac;->init(Ljava/security/Key;)V
 
-    .line 43
     :goto_5
     invoke-virtual {v1, v0}, Ljavax/crypto/Mac;->doFinal([B)[B
 
     move-result-object p2
 
-    .line 44
     new-array v0, p4, [B
 
-    .line 45
     new-instance v2, Ljavax/crypto/spec/SecretKeySpec;
 
     invoke-direct {v2, p2, p1}, Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V
@@ -504,36 +457,29 @@
 
     const/4 p2, 0x0
 
-    .line 46
     :goto_6
     invoke-virtual {v1, p1}, Ljavax/crypto/Mac;->update([B)V
 
-    .line 47
     invoke-virtual {v1, p3}, Ljavax/crypto/Mac;->update([B)V
 
     int-to-byte p1, v6
 
-    .line 48
     invoke-virtual {v1, p1}, Ljavax/crypto/Mac;->update(B)V
 
-    .line 49
     invoke-virtual {v1}, Ljavax/crypto/Mac;->doFinal()[B
 
     move-result-object p1
 
-    .line 50
     array-length v2, p1
 
     add-int/2addr v2, p2
 
     if-ge v2, p4, :cond_9
 
-    .line 51
     array-length v2, p1
 
     invoke-static {p1, v7, v0, p2, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 52
     array-length v2, p1
 
     add-int/2addr p2, v2
@@ -545,17 +491,14 @@
     :cond_9
     sub-int/2addr p4, p2
 
-    .line 53
     invoke-static {p1, v7, v0, p2, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 54
     new-instance p1, Lcom/google/android/gms/internal/ads/jy1;
 
     invoke-direct {p1, p5, v0}, Lcom/google/android/gms/internal/ads/jy1;-><init>([B[B)V
 
     return-object p1
 
-    .line 55
     :cond_a
     new-instance p1, Ljava/security/GeneralSecurityException;
 
@@ -565,7 +508,6 @@
 
     throw p1
 
-    .line 56
     :cond_b
     :try_start_1
     new-instance p1, Ljava/security/GeneralSecurityException;
@@ -587,7 +529,6 @@
     :catch_1
     move-exception p1
 
-    .line 57
     :goto_7
     new-instance p2, Ljava/security/GeneralSecurityException;
 

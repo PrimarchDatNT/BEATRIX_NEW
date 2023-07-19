@@ -17,7 +17,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/commsource/util/g2;->a:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -28,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,23 +39,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/g2;->a:Landroid/os/Handler;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/util/g2;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/util/g2;->a:Landroid/os/Handler;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -68,7 +62,6 @@
 
     sput-object v2, Lcom/commsource/util/g2;->a:Landroid/os/Handler;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -85,7 +78,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/util/g2;->a:Landroid/os/Handler;
@@ -102,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/g2;->m()Z
 
     move-result v1
@@ -119,10 +110,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p0, 0x0
@@ -137,20 +126,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
 
     move-result p0
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     :cond_0
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -163,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->myQueue()Landroid/os/MessageQueue;
 
     move-result-object v1
@@ -186,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->myQueue()Landroid/os/MessageQueue;
 
     move-result-object v1
@@ -209,14 +193,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
     move-result-object v1
 
     invoke-virtual {v1, p0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -229,14 +211,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
     move-result-object v1
 
     invoke-virtual {v1, p0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -251,14 +231,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lcom/commsource/util/m;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/util/m;-><init>(Landroid/content/Context;Ljava/lang/Runnable;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -274,14 +252,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     new-instance v1, Lcom/commsource/util/o;
 
     invoke-direct {v1, p0}, Lcom/commsource/util/o;-><init>(Ljava/lang/Runnable;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -295,19 +271,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/g2;->m()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
@@ -315,7 +288,6 @@
 
     invoke-virtual {v1, p0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -329,14 +301,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
     move-result-object v1
 
     invoke-virtual {v1, p0, p1, p2}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -349,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1

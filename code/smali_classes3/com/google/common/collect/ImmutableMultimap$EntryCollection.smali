@@ -56,10 +56,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableCollection;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/ImmutableMultimap$EntryCollection;->multimap:Lcom/google/common/collect/ImmutableMultimap;
 
     return-void
@@ -70,15 +68,12 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/util/Map$Entry;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMultimap$EntryCollection;->multimap:Lcom/google/common/collect/ImmutableMultimap;
 
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -104,7 +99,6 @@
 .method isPartialView()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMultimap$EntryCollection;->multimap:Lcom/google/common/collect/ImmutableMultimap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMultimap;->isPartialView()Z
@@ -125,7 +119,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMultimap$EntryCollection;->multimap:Lcom/google/common/collect/ImmutableMultimap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMultimap;->entryIterator()Lcom/google/common/collect/l2;
@@ -138,7 +131,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableMultimap$EntryCollection;->iterator()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -149,7 +141,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMultimap$EntryCollection;->multimap:Lcom/google/common/collect/ImmutableMultimap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMultimap;->size()I

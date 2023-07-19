@@ -13,7 +13,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/jn;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/hn;-><init>()V
 
     return-void
@@ -37,7 +35,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/lu;->onPause()V
 
@@ -55,7 +52,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/lu;->onResume()V
 
@@ -71,7 +67,6 @@
 
     if-lt p0, v0, :cond_0
 
-    .line 1
     new-instance p0, Lcom/google/android/gms/internal/ads/sn;
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/sn;-><init>()V
@@ -83,7 +78,6 @@
 
     if-lt p0, v0, :cond_1
 
-    .line 2
     new-instance p0, Lcom/google/android/gms/internal/ads/pn;
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/pn;-><init>()V
@@ -95,7 +89,6 @@
 
     if-lt p0, v0, :cond_2
 
-    .line 3
     new-instance p0, Lcom/google/android/gms/internal/ads/qn;
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/qn;-><init>()V
@@ -107,7 +100,6 @@
 
     if-lt p0, v0, :cond_3
 
-    .line 4
     new-instance p0, Lcom/google/android/gms/internal/ads/nn;
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/nn;-><init>()V
@@ -119,7 +111,6 @@
 
     if-lt p0, v0, :cond_4
 
-    .line 5
     new-instance p0, Lcom/google/android/gms/internal/ads/on;
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/on;-><init>()V
@@ -131,7 +122,6 @@
 
     if-lt p0, v0, :cond_5
 
-    .line 6
     new-instance p0, Lcom/google/android/gms/internal/ads/ln;
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/ln;-><init>()V
@@ -143,14 +133,12 @@
 
     if-lt p0, v0, :cond_6
 
-    .line 7
     new-instance p0, Lcom/google/android/gms/internal/ads/mn;
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/mn;-><init>()V
 
     return-object p0
 
-    .line 8
     :cond_6
     new-instance p0, Lcom/google/android/gms/internal/ads/hn;
 
@@ -162,7 +150,6 @@
 .method public static s()Z
     .locals 2
 
-    .line 1
     invoke-static {}, Landroid/os/Process;->myUid()I
 
     move-result v0
@@ -200,7 +187,6 @@
 .method public b(Landroid/view/View;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v0
@@ -236,7 +222,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p1, v0, v1}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
     move-result p1
@@ -247,7 +232,6 @@
 .method public d(Landroid/content/Context;Landroid/graphics/Bitmap;ZF)Landroid/graphics/drawable/Drawable;
     .locals 0
 
-    .line 1
     new-instance p3, Landroid/graphics/drawable/BitmapDrawable;
 
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -278,7 +262,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p3, Landroid/webkit/WebResourceResponse;
 
     invoke-direct {p3, p1, p2, p6}, Landroid/webkit/WebResourceResponse;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)V
@@ -289,7 +272,6 @@
 .method public f(Lcom/google/android/gms/internal/ads/lu;Lcom/google/android/gms/internal/ads/mk2;Z)Lcom/google/android/gms/internal/ads/ou;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/ov;
 
     invoke-direct {v0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/ov;-><init>(Lcom/google/android/gms/internal/ads/lu;Lcom/google/android/gms/internal/ads/mk2;Z)V
@@ -300,7 +282,6 @@
 .method public g(Landroid/content/Context;Landroid/telephony/TelephonyManager;)Lcom/google/android/gms/internal/ads/zzui;
     .locals 0
 
-    .line 1
     sget-object p1, Lcom/google/android/gms/internal/ads/zzui;->zzcbj:Lcom/google/android/gms/internal/ads/zzui;
 
     return-object p1
@@ -317,7 +298,6 @@
 .method public i(Landroid/content/Context;Landroid/webkit/WebSettings;)Z
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/kn;
 
     invoke-direct {v0, p1, p2}, Lcom/google/android/gms/internal/ads/kn;-><init>(Landroid/content/Context;Landroid/webkit/WebSettings;)V
@@ -326,10 +306,8 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-virtual {p2, p1}, Landroid/webkit/WebSettings;->setAllowFileAccessFromFileURLs(Z)V
 
-    .line 3
     invoke-virtual {p2, p1}, Landroid/webkit/WebSettings;->setAllowUniversalAccessFromFileURLs(Z)V
 
     const/4 p1, 0x1
@@ -344,7 +322,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p1, v0, v1}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
     move-result p1
@@ -361,7 +338,6 @@
 .method public n(Landroid/content/Context;)Landroid/webkit/CookieManager;
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/hn;->s()Z
 
     move-result v0
@@ -372,12 +348,10 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {p1}, Landroid/webkit/CookieSyncManager;->createInstance(Landroid/content/Context;)Landroid/webkit/CookieSyncManager;
 
-    .line 3
     invoke-static {}, Landroid/webkit/CookieManager;->getInstance()Landroid/webkit/CookieManager;
 
     move-result-object p1
@@ -391,10 +365,8 @@
 
     const-string v0, "Failed to obtain CookieManager."
 
-    .line 4
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 5
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object v0
@@ -423,7 +395,6 @@
 .method public r()Landroid/view/ViewGroup$LayoutParams;
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/view/ViewGroup$LayoutParams;
 
     const/4 v1, -0x2

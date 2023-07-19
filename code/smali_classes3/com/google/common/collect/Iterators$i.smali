@@ -37,7 +37,6 @@
 .method constructor <init>(ILjava/util/Iterator;)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/common/collect/Iterators$i;->b:I
 
     iput-object p2, p0, Lcom/google/common/collect/Iterators$i;->c:Ljava/util/Iterator;
@@ -52,7 +51,6 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/Iterators$i;->a:I
 
     iget v1, p0, Lcom/google/common/collect/Iterators$i;->b:I
@@ -86,21 +84,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Iterators$i;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/Iterators$i;->a:I
 
     add-int/lit8 v0, v0, 0x1
 
     iput v0, p0, Lcom/google/common/collect/Iterators$i;->a:I
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/Iterators$i;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -109,7 +104,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -121,7 +115,6 @@
 .method public remove()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Iterators$i;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V

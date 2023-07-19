@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/Hprof$a;-><init>()V
 
     return-void
@@ -50,7 +48,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/File;->length()J
 
     move-result-wide v8
@@ -61,17 +58,14 @@
 
     if-eqz v2, :cond_3
 
-    .line 2
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, p1}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
 
-    .line 3
     invoke-virtual {v0}, Ljava/io/FileInputStream;->getChannel()Ljava/nio/channels/FileChannel;
 
     move-result-object v2
 
-    .line 4
     invoke-static {v0}, Lokio/Okio;->source(Ljava/io/InputStream;)Lokio/Source;
 
     move-result-object p1
@@ -82,17 +76,14 @@
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-interface {v3, p1}, Lokio/BufferedSource;->indexOf(B)J
 
     move-result-wide v0
 
-    .line 6
     invoke-interface {v3, v0, v1}, Lokio/BufferedSource;->readUtf8(J)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 7
     invoke-static {}, Lkshark/Hprof;->a()Ljava/util/Map;
 
     move-result-object v5
@@ -114,25 +105,20 @@
 
     const-wide/16 v4, 0x1
 
-    .line 8
     invoke-interface {v3, v4, v5}, Lokio/BufferedSource;->skip(J)V
 
-    .line 9
     invoke-interface {v3}, Lokio/BufferedSource;->readInt()I
 
     move-result p1
 
-    .line 10
     sget-object v6, Lkshark/a0;->b:Lkshark/a0;
 
-    .line 11
     invoke-virtual {v6}, Lkshark/a0;->c()Lkshark/a0$a;
 
     move-result-object v6
 
     if-eqz v6, :cond_1
 
-    .line 12
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -149,7 +135,6 @@
 
     invoke-interface {v6, v10}, Lkshark/a0$a;->a(Ljava/lang/String;)V
 
-    .line 13
     :cond_1
     invoke-interface {v3}, Lokio/BufferedSource;->readLong()J
 
@@ -169,7 +154,6 @@
 
     add-long/2addr v0, v4
 
-    .line 14
     new-instance v4, Lkshark/l;
 
     const-string v5, "source"
@@ -178,12 +162,10 @@
 
     invoke-direct {v4, v3, p1, v0, v1}, Lkshark/l;-><init>(Lokio/BufferedSource;IJ)V
 
-    .line 15
     new-instance p1, Lkshark/Hprof;
 
     const-string v0, "channel"
 
-    .line 16
     invoke-static {v2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
@@ -194,12 +176,10 @@
 
     move-object v10, v0
 
-    .line 17
     invoke-direct/range {v1 .. v10}, Lkshark/Hprof;-><init>(Ljava/nio/channels/FileChannel;Lokio/BufferedSource;Lkshark/l;JLkshark/Hprof$HprofVersion;JLcotlin/jvm/internal/u;)V
 
     return-object p1
 
-    .line 18
     :cond_2
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -229,7 +209,6 @@
 
     move-result-object p1
 
-    .line 19
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -240,7 +219,6 @@
 
     throw v0
 
-    .line 20
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

@@ -29,10 +29,8 @@
 .method public constructor <init>(Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase$ProtocolType;I)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -51,12 +49,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->a:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Lorg/apache/thrift/protocol/TCompactProtocol$Factory;
 
@@ -66,7 +62,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance p1, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;
 
@@ -82,10 +77,8 @@
     :cond_2
     add-int/lit8 p1, p2, -0x21
 
-    .line 6
     iput p1, p0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->c:I
 
-    .line 7
     new-instance p1, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;
 
     const-wide/high16 v0, 0x4000000000000000L    # 2.0
@@ -94,7 +87,6 @@
 
     iput-object p1, p0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->d:Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;
 
-    .line 8
     new-instance p1, Lorg/apache/thrift/TSerializer;
 
     iget-object p2, p0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->a:Lorg/apache/thrift/protocol/TProtocolFactory;
@@ -111,7 +103,6 @@
 .method protected b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->c:I
 
     return v0
@@ -133,12 +124,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->d:Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->reset()V
 
-    .line 2
     iget-object v0, p0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->a:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     iget-object v1, p0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->d:Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;
@@ -149,7 +138,6 @@
 
     invoke-interface {p1, v0}, Lorg/apache/thrift/TSerializable;->write(Lorg/apache/thrift/protocol/TProtocol;)V
 
-    .line 3
     iget-object p1, p0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->d:Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;
 
     invoke-virtual {p1}, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->getPos()I
@@ -175,7 +163,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->b:Lorg/apache/thrift/TSerializer;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/TSerializer;->serialize(Lorg/apache/thrift/TBase;)[B
@@ -188,7 +175,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/meitu/library/abtesting/ABTestingManager$INIT_MODES;Z[Lcom/meitu/library/abtesting/k;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/u/h$a;->a:Lcom/meitu/library/abtesting/ABTestingManager$INIT_MODES;
 
     iput-boolean p2, p0, Lcom/meitu/library/analytics/u/h$a;->b:Z
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/u/h$a;->a:Lcom/meitu/library/abtesting/ABTestingManager$INIT_MODES;
 
     iget-boolean v2, p0, Lcom/meitu/library/analytics/u/h$a;->b:Z
@@ -67,7 +65,6 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/library/analytics/u/h;->d(Lcom/meitu/library/abtesting/ABTestingManager$INIT_MODES;Z[Lcom/meitu/library/abtesting/k;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

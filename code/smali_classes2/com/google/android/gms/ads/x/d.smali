@@ -22,10 +22,8 @@
 .method private constructor <init>(Lcom/google/android/gms/ads/x/d$a;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/jg;
 
     invoke-static {p1}, Lcom/google/android/gms/ads/x/d$a;->c(Lcom/google/android/gms/ads/x/d$a;)Lcom/google/android/gms/internal/ads/kg;
@@ -42,7 +40,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/ads/x/d$a;Lcom/google/android/gms/ads/x/g;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/android/gms/ads/x/d;-><init>(Lcom/google/android/gms/ads/x/d$a;)V
 
     return-void
@@ -55,7 +52,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/x/d;->a:Lcom/google/android/gms/internal/ads/jg;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/jg;->a(Landroid/view/MotionEvent;)V
@@ -68,7 +64,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/x/d;->a:Lcom/google/android/gms/internal/ads/jg;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/ads/jg;->b(Landroid/net/Uri;Lcom/google/android/gms/ads/x/e;)V
@@ -92,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/x/d;->a:Lcom/google/android/gms/internal/ads/jg;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/ads/jg;->c(Ljava/util/List;Lcom/google/android/gms/ads/x/f;)V

@@ -34,7 +34,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/text/k$b;->a:Lcotlin/text/k;
@@ -47,7 +46,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
@@ -72,7 +70,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
@@ -97,7 +94,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
@@ -122,7 +118,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
@@ -147,7 +142,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
@@ -172,7 +166,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
@@ -197,7 +190,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
@@ -222,7 +214,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
@@ -247,7 +238,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
@@ -272,7 +262,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
@@ -299,7 +288,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/k$b;->a:Lcotlin/text/k;
 
     return-object v0
@@ -319,7 +307,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/k$b;->a:Lcotlin/text/k;
 
     invoke-interface {v0}, Lcotlin/text/k;->b()Ljava/util/List;

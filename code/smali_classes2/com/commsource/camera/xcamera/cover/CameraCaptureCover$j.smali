@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$j;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->S()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -73,7 +72,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$j;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->S()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -90,7 +88,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/r0;->D(I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -104,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$j;->a(Ljava/lang/Integer;)V

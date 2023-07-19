@@ -92,7 +92,6 @@
 
     const/high16 v1, 0x40f00000    # 7.5f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -101,17 +100,14 @@
 
     const/4 v1, 0x1
 
-    .line 2
     sput v1, Lcom/commsource/widget/GuideMaskView;->a0:I
 
     const/4 v1, 0x2
 
-    .line 3
     sput v1, Lcom/commsource/widget/GuideMaskView;->b0:I
 
     const/4 v1, 0x3
 
-    .line 4
     sput v1, Lcom/commsource/widget/GuideMaskView;->c0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -192,15 +188,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->setWillNotDraw(Z)V
 
-    .line 4
     sget-object p1, Lcom/commsource/widget/GuideMaskView$mMaskPaint$2;->INSTANCE:Lcom/commsource/widget/GuideMaskView$mMaskPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -209,7 +202,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/GuideMaskView;->a:Lcotlin/w;
 
-    .line 5
     sget-object p1, Lcom/commsource/widget/GuideMaskView$mLinePaint$2;->INSTANCE:Lcom/commsource/widget/GuideMaskView$mLinePaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -218,7 +210,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/GuideMaskView;->b:Lcotlin/w;
 
-    .line 6
     sget-object p1, Lcom/commsource/widget/GuideMaskView$mPointPaint$2;->INSTANCE:Lcom/commsource/widget/GuideMaskView$mPointPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -229,47 +220,40 @@
 
     const/4 p1, 0x1
 
-    .line 7
     iput-boolean p1, p0, Lcom/commsource/widget/GuideMaskView;->d:Z
 
     const/high16 p2, 0x40200000    # 2.5f
 
-    .line 8
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p2
 
     iput p2, p0, Lcom/commsource/widget/GuideMaskView;->f:F
 
-    .line 9
     new-instance p2, Landroid/graphics/Path;
 
     invoke-direct {p2}, Landroid/graphics/Path;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/widget/GuideMaskView;->g:Landroid/graphics/Path;
 
-    .line 10
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/widget/GuideMaskView;->p:Landroid/graphics/RectF;
 
-    .line 11
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/widget/GuideMaskView;->J:Landroid/graphics/RectF;
 
-    .line 12
     new-instance p2, Landroid/graphics/PointF;
 
     invoke-direct {p2}, Landroid/graphics/PointF;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/widget/GuideMaskView;->K:Landroid/graphics/PointF;
 
-    .line 13
     new-instance p2, Landroid/graphics/PointF;
 
     invoke-direct {p2}, Landroid/graphics/PointF;-><init>()V
@@ -278,35 +262,30 @@
 
     const/high16 p2, 0x41c80000    # 25.0f
 
-    .line 14
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p2
 
     iput p2, p0, Lcom/commsource/widget/GuideMaskView;->M:I
 
-    .line 15
     sget p2, Lcom/commsource/widget/GuideMaskView;->a0:I
 
     iput p2, p0, Lcom/commsource/widget/GuideMaskView;->O:I
 
     const/high16 p2, 0x41700000    # 15.0f
 
-    .line 16
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p3
 
     iput p3, p0, Lcom/commsource/widget/GuideMaskView;->P:F
 
-    .line 17
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p2
 
     iput p2, p0, Lcom/commsource/widget/GuideMaskView;->Q:F
 
-    .line 18
     iput-boolean p1, p0, Lcom/commsource/widget/GuideMaskView;->T:Z
 
     return-void
@@ -328,7 +307,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/GuideMaskView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -342,7 +320,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/GuideMaskView;->J:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -357,7 +334,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/widget/GuideMaskView;->c0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -372,7 +348,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/widget/GuideMaskView;->W:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -387,7 +362,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/widget/GuideMaskView;->b0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -402,7 +376,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/widget/GuideMaskView;->a0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -477,7 +450,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/widget/GuideMaskView;->V:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -492,7 +464,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/widget/GuideMaskView;->R:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -507,7 +478,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/widget/GuideMaskView;->S:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -522,7 +492,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/GuideMaskView;->R:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -537,7 +506,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/GuideMaskView;->S:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -623,7 +591,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/GuideMaskView;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -638,7 +605,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/GuideMaskView;->P:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -653,7 +619,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/GuideMaskView;->Q:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -670,7 +635,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->N:Lcom/commsource/widget/GuideMaskView$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -685,20 +649,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/GuideMaskView;->d:Z
 
     if-eqz v1, :cond_3
 
-    .line 2
     iget v1, p0, Lcom/commsource/widget/GuideMaskView;->O:I
 
-    .line 3
     sget v2, Lcom/commsource/widget/GuideMaskView;->W:I
 
     if-ne v1, v2, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->K:Landroid/graphics/PointF;
 
     iget-object v2, p0, Lcom/commsource/widget/GuideMaskView;->J:Landroid/graphics/RectF;
@@ -725,7 +685,6 @@
 
     invoke-virtual {v1, v2, v4}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->L:Landroid/graphics/PointF;
 
     iget-object v2, p0, Lcom/commsource/widget/GuideMaskView;->J:Landroid/graphics/RectF;
@@ -758,13 +717,11 @@
 
     goto/16 :goto_0
 
-    .line 6
     :cond_0
     sget v2, Lcom/commsource/widget/GuideMaskView;->a0:I
 
     if-ne v1, v2, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->K:Landroid/graphics/PointF;
 
     iget-object v2, p0, Lcom/commsource/widget/GuideMaskView;->J:Landroid/graphics/RectF;
@@ -791,7 +748,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->L:Landroid/graphics/PointF;
 
     iget-object v2, p0, Lcom/commsource/widget/GuideMaskView;->J:Landroid/graphics/RectF;
@@ -824,13 +780,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     sget v2, Lcom/commsource/widget/GuideMaskView;->b0:I
 
     if-ne v1, v2, :cond_2
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->K:Landroid/graphics/PointF;
 
     iget-object v2, p0, Lcom/commsource/widget/GuideMaskView;->J:Landroid/graphics/RectF;
@@ -857,7 +811,6 @@
 
     invoke-virtual {v1, v2, v4}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->L:Landroid/graphics/PointF;
 
     iget-object v2, p0, Lcom/commsource/widget/GuideMaskView;->J:Landroid/graphics/RectF;
@@ -890,13 +843,11 @@
 
     goto :goto_0
 
-    .line 12
     :cond_2
     sget v2, Lcom/commsource/widget/GuideMaskView;->c0:I
 
     if-ne v1, v2, :cond_3
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->K:Landroid/graphics/PointF;
 
     iget-object v2, p0, Lcom/commsource/widget/GuideMaskView;->J:Landroid/graphics/RectF;
@@ -923,7 +874,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->L:Landroid/graphics/PointF;
 
     iget-object v2, p0, Lcom/commsource/widget/GuideMaskView;->J:Landroid/graphics/RectF;
@@ -954,7 +904,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 15
     :cond_3
     :goto_0
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->N:Lcom/commsource/widget/GuideMaskView$b;
@@ -967,7 +916,6 @@
 
     invoke-interface {v1, v2, v3}, Lcom/commsource/widget/GuideMaskView$b;->a(Landroid/graphics/RectF;Landroid/graphics/PointF;)V
 
-    .line 16
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -991,14 +939,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v0, Lcom/commsource/widget/GuideMaskView$c;
 
     invoke-direct {v0, p1, p0}, Lcom/commsource/widget/GuideMaskView$c;-><init>(Landroid/view/View;Lcom/commsource/widget/GuideMaskView;)V
 
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1012,7 +958,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->p:Landroid/graphics/RectF;
 
     int-to-float p1, p1
@@ -1023,7 +968,6 @@
 
     invoke-virtual {v1, v2, v2, p1, p2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1040,15 +984,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->g:Landroid/graphics/Path;
 
     invoke-virtual {v1}, Landroid/graphics/Path;->reset()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->g:Landroid/graphics/Path;
 
     iget-object v2, p0, Lcom/commsource/widget/GuideMaskView;->p:Landroid/graphics/RectF;
@@ -1057,12 +998,10 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/graphics/Path;->addRect(Landroid/graphics/RectF;Landroid/graphics/Path$Direction;)V
 
-    .line 4
     iget-boolean v1, p0, Lcom/commsource/widget/GuideMaskView;->T:Z
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->g:Landroid/graphics/Path;
 
     iget-object v2, p0, Lcom/commsource/widget/GuideMaskView;->J:Landroid/graphics/RectF;
@@ -1073,7 +1012,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->g:Landroid/graphics/Path;
 
@@ -1096,7 +1034,6 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->g:Landroid/graphics/Path;
 
     invoke-direct {p0}, Lcom/commsource/widget/GuideMaskView;->getMMaskPaint()Landroid/graphics/Paint;
@@ -1105,7 +1042,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 8
     :cond_1
     iget-boolean v1, p0, Lcom/commsource/widget/GuideMaskView;->d:Z
 
@@ -1113,7 +1049,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->K:Landroid/graphics/PointF;
 
     iget v2, v1, Landroid/graphics/PointF;->x:F
@@ -1131,7 +1066,6 @@
     :cond_2
     if-eqz p1, :cond_3
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/widget/GuideMaskView;->K:Landroid/graphics/PointF;
 
     iget v3, v1, Landroid/graphics/PointF;->x:F
@@ -1152,7 +1086,6 @@
 
     invoke-virtual/range {v2 .. v7}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1166,17 +1099,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super/range {p0 .. p5}, Landroid/widget/FrameLayout;->onLayout(ZIIII)V
 
     sub-int/2addr p4, p2
 
     sub-int/2addr p5, p3
 
-    .line 2
     invoke-virtual {p0, p4, p5}, Lcom/commsource/widget/GuideMaskView;->o(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1189,13 +1119,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/GuideMaskView;->o(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1208,7 +1135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/GuideMaskView;->T:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1223,16 +1149,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/GuideMaskView;->O:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/GuideMaskView;->m()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1245,13 +1167,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/GuideMaskView;->P:F
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1264,13 +1183,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/GuideMaskView;->Q:F
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1287,7 +1203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/GuideMaskView;->N:Lcom/commsource/widget/GuideMaskView$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1302,13 +1217,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/GuideMaskView;->T:Z
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

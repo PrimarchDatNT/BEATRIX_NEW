@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p2}, Lcom/meitu/library/gid/base/k0/a/b;->i(Ljava/lang/String;)Ljava/security/interfaces/RSAPublicKey;
 
@@ -34,18 +32,14 @@
 
     const-string v1, "MD5withRSA"
 
-    .line 2
     invoke-static {v1}, Ljava/security/Signature;->getInstance(Ljava/lang/String;)Ljava/security/Signature;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1, p2}, Ljava/security/Signature;->initVerify(Ljava/security/PublicKey;)V
 
-    .line 4
     invoke-virtual {v1, p0}, Ljava/security/Signature;->update([B)V
 
-    .line 5
     invoke-virtual {v1, p1}, Ljava/security/Signature;->verify([B)Z
 
     move-result p0
@@ -59,12 +53,10 @@
     :catch_0
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -85,17 +77,14 @@
     :try_start_0
     const-string v1, "RSA/ECB/PKCS1Padding"
 
-    .line 1
     invoke-static {v1}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v1
 
     const/4 v2, 0x2
 
-    .line 2
     invoke-virtual {v1, v2, p0}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 3
     invoke-virtual {v1, p1}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
     move-result-object p0
@@ -110,7 +99,6 @@
 
     return-object p0
 
-    .line 4
     :catch_0
     new-instance p0, Ljava/lang/Exception;
 
@@ -122,7 +110,6 @@
 
     throw p0
 
-    .line 5
     :catch_1
     new-instance p0, Ljava/lang/Exception;
 
@@ -134,7 +121,6 @@
 
     throw p0
 
-    .line 6
     :catch_2
     new-instance p0, Ljava/lang/Exception;
 
@@ -146,7 +132,6 @@
 
     throw p0
 
-    .line 7
     :catch_3
     new-instance p0, Ljava/lang/Exception;
 
@@ -158,7 +143,6 @@
 
     throw p0
 
-    .line 8
     :catch_4
     new-instance p0, Ljava/lang/Exception;
 
@@ -186,17 +170,14 @@
     :try_start_0
     const-string v1, "RSA/ECB/PKCS1Padding"
 
-    .line 1
     invoke-static {v1}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v1
 
     const/4 v2, 0x2
 
-    .line 2
     invoke-virtual {v1, v2, p0}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 3
     invoke-virtual {v1, p1}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
     move-result-object p0
@@ -211,7 +192,6 @@
 
     return-object p0
 
-    .line 4
     :catch_0
     new-instance p0, Ljava/lang/Exception;
 
@@ -223,7 +203,6 @@
 
     throw p0
 
-    .line 5
     :catch_1
     new-instance p0, Ljava/lang/Exception;
 
@@ -235,7 +214,6 @@
 
     throw p0
 
-    .line 6
     :catch_2
     new-instance p0, Ljava/lang/Exception;
 
@@ -247,7 +225,6 @@
 
     throw p0
 
-    .line 7
     :catch_3
     new-instance p0, Ljava/lang/Exception;
 
@@ -259,7 +236,6 @@
 
     throw p0
 
-    .line 8
     :catch_4
     new-instance p0, Ljava/lang/Exception;
 
@@ -286,48 +262,40 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
 
     move-result-object p0
 
-    .line 2
     new-instance v2, Ljava/security/spec/PKCS8EncodedKeySpec;
 
     invoke-direct {v2, p0}, Ljava/security/spec/PKCS8EncodedKeySpec;-><init>([B)V
 
     const-string p0, "RSA"
 
-    .line 3
     invoke-static {p0}, Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0, v2}, Ljava/security/KeyFactory;->generatePrivate(Ljava/security/spec/KeySpec;)Ljava/security/PrivateKey;
 
     move-result-object p0
 
     const-string v2, "RSA/ECB/PKCS1Padding"
 
-    .line 5
     invoke-static {v2}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v2
 
     const/4 v3, 0x2
 
-    .line 6
     invoke-virtual {v2, v3, p0}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 7
     array-length p0, p1
 
     const/4 v3, 0x1
 
     const/4 v4, 0x0
 
-    .line 8
     :try_start_0
     new-instance v5, Ljava/io/ByteArrayOutputStream;
 
@@ -348,7 +316,6 @@
 
     if-le v7, v8, :cond_0
 
-    .line 9
     :try_start_1
     invoke-virtual {v2, p1, v4, v8}, Ljavax/crypto/Cipher;->doFinal([BII)[B
 
@@ -356,13 +323,11 @@
 
     goto :goto_1
 
-    .line 10
     :cond_0
     invoke-virtual {v2, p1, v4, v7}, Ljavax/crypto/Cipher;->doFinal([BII)[B
 
     move-result-object v4
 
-    .line 11
     :goto_1
     array-length v7, v4
 
@@ -374,7 +339,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_1
     invoke-virtual {v5}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
@@ -386,10 +350,8 @@
 
     aput-object v5, p1, v1
 
-    .line 13
     invoke-static {p1}, Lcom/meitu/library/gid/base/x;->a([Ljava/io/Closeable;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -409,10 +371,8 @@
 
     aput-object v4, p1, v1
 
-    .line 15
     invoke-static {p1}, Lcom/meitu/library/gid/base/x;->a([Ljava/io/Closeable;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p0
@@ -433,17 +393,14 @@
     :try_start_0
     const-string v1, "RSA/ECB/PKCS1Padding"
 
-    .line 1
     invoke-static {v1}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {v1, v2, p0}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 3
     invoke-virtual {v1, p1}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
     move-result-object p0
@@ -458,7 +415,6 @@
 
     return-object p0
 
-    .line 4
     :catch_0
     new-instance p0, Ljava/lang/Exception;
 
@@ -470,7 +426,6 @@
 
     throw p0
 
-    .line 5
     :catch_1
     new-instance p0, Ljava/lang/Exception;
 
@@ -482,7 +437,6 @@
 
     throw p0
 
-    .line 6
     :catch_2
     new-instance p0, Ljava/lang/Exception;
 
@@ -494,7 +448,6 @@
 
     throw p0
 
-    .line 7
     :catch_3
     new-instance p0, Ljava/lang/Exception;
 
@@ -506,7 +459,6 @@
 
     throw p0
 
-    .line 8
     :catch_4
     new-instance p0, Ljava/lang/Exception;
 
@@ -534,17 +486,14 @@
     :try_start_0
     const-string v1, "RSA/ECB/PKCS1Padding"
 
-    .line 1
     invoke-static {v1}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {v1, v2, p0}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 3
     invoke-virtual {v1, p1}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
     move-result-object p0
@@ -559,7 +508,6 @@
 
     return-object p0
 
-    .line 4
     :catch_0
     new-instance p0, Ljava/lang/Exception;
 
@@ -571,7 +519,6 @@
 
     throw p0
 
-    .line 5
     :catch_1
     new-instance p0, Ljava/lang/Exception;
 
@@ -583,7 +530,6 @@
 
     throw p0
 
-    .line 6
     :catch_2
     new-instance p0, Ljava/lang/Exception;
 
@@ -595,7 +541,6 @@
 
     throw p0
 
-    .line 7
     :catch_3
     new-instance p0, Ljava/lang/Exception;
 
@@ -607,7 +552,6 @@
 
     throw p0
 
-    .line 8
     :catch_4
     new-instance p0, Ljava/lang/Exception;
 
@@ -634,46 +578,38 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
 
     move-result-object p0
 
-    .line 2
     new-instance v2, Ljava/security/spec/X509EncodedKeySpec;
 
     invoke-direct {v2, p0}, Ljava/security/spec/X509EncodedKeySpec;-><init>([B)V
 
     const-string p0, "RSA"
 
-    .line 3
     invoke-static {p0}, Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0, v2}, Ljava/security/KeyFactory;->generatePublic(Ljava/security/spec/KeySpec;)Ljava/security/PublicKey;
 
     move-result-object p0
 
     const-string v2, "RSA/ECB/PKCS1Padding"
 
-    .line 5
     invoke-static {v2}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v2
 
     const/4 v3, 0x1
 
-    .line 6
     invoke-virtual {v2, v3, p0}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 7
     array-length p0, p1
 
     const/4 v4, 0x0
 
-    .line 8
     :try_start_0
     new-instance v5, Ljava/io/ByteArrayOutputStream;
 
@@ -694,7 +630,6 @@
 
     if-le v7, v8, :cond_0
 
-    .line 9
     :try_start_1
     invoke-virtual {v2, p1, v4, v8}, Ljavax/crypto/Cipher;->doFinal([BII)[B
 
@@ -702,13 +637,11 @@
 
     goto :goto_1
 
-    .line 10
     :cond_0
     invoke-virtual {v2, p1, v4, v7}, Ljavax/crypto/Cipher;->doFinal([BII)[B
 
     move-result-object v4
 
-    .line 11
     :goto_1
     array-length v7, v4
 
@@ -720,7 +653,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_1
     invoke-virtual {v5}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
@@ -732,10 +664,8 @@
 
     aput-object v5, p1, v1
 
-    .line 13
     invoke-static {p1}, Lcom/meitu/library/gid/base/x;->a([Ljava/io/Closeable;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -755,10 +685,8 @@
 
     aput-object v4, p1, v1
 
-    .line 15
     invoke-static {p1}, Lcom/meitu/library/gid/base/x;->a([Ljava/io/Closeable;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p0
@@ -778,25 +706,21 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p0, v1}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Ljava/security/spec/PKCS8EncodedKeySpec;
 
     invoke-direct {v1, p0}, Ljava/security/spec/PKCS8EncodedKeySpec;-><init>([B)V
 
     const-string p0, "RSA"
 
-    .line 3
     invoke-static {p0}, Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0, v1}, Ljava/security/KeyFactory;->generatePrivate(Ljava/security/spec/KeySpec;)Ljava/security/PrivateKey;
 
     move-result-object p0
@@ -811,7 +735,6 @@
 
     return-object p0
 
-    .line 5
     :catch_0
     new-instance p0, Ljava/lang/Exception;
 
@@ -823,7 +746,6 @@
 
     throw p0
 
-    .line 6
     :catch_1
     new-instance p0, Ljava/lang/Exception;
 
@@ -835,7 +757,6 @@
 
     throw p0
 
-    .line 7
     :catch_2
     new-instance p0, Ljava/lang/Exception;
 
@@ -862,7 +783,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p0, v1}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
 
@@ -870,17 +790,14 @@
 
     const-string v1, "RSA"
 
-    .line 2
     invoke-static {v1}, Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/security/spec/X509EncodedKeySpec;
 
     invoke-direct {v2, p0}, Ljava/security/spec/X509EncodedKeySpec;-><init>([B)V
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/security/KeyFactory;->generatePublic(Ljava/security/spec/KeySpec;)Ljava/security/PublicKey;
 
     move-result-object p0
@@ -895,7 +812,6 @@
 
     return-object p0
 
-    .line 5
     :catch_0
     new-instance p0, Ljava/lang/Exception;
 
@@ -907,7 +823,6 @@
 
     throw p0
 
-    .line 6
     :catch_1
     new-instance p0, Ljava/lang/Exception;
 
@@ -919,7 +834,6 @@
 
     throw p0
 
-    .line 7
     :catch_2
     new-instance p0, Ljava/lang/Exception;
 
@@ -939,7 +853,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Lcom/meitu/library/gid/base/k0/a/b;->h(Ljava/lang/String;)Ljava/security/interfaces/RSAPrivateKey;
 
@@ -947,18 +860,14 @@
 
     const-string v1, "MD5withRSA"
 
-    .line 2
     invoke-static {v1}, Ljava/security/Signature;->getInstance(Ljava/lang/String;)Ljava/security/Signature;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1, p1}, Ljava/security/Signature;->initSign(Ljava/security/PrivateKey;)V
 
-    .line 4
     invoke-virtual {v1, p0}, Ljava/security/Signature;->update([B)V
 
-    .line 5
     invoke-virtual {v1}, Ljava/security/Signature;->sign()[B
 
     move-result-object p0
@@ -972,12 +881,10 @@
     :catch_0
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

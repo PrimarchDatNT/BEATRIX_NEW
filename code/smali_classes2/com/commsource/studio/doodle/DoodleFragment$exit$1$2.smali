@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
     check-cast p2, [F
@@ -85,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
 
     move-result v1
@@ -96,7 +94,6 @@
 
     goto/16 :goto_0
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/studio/doodle/c;->w:Lcom/commsource/studio/doodle/c;
 
@@ -104,14 +101,12 @@
 
     move-result-object v1
 
-    .line 4
     sget-object v2, Lcom/commsource/util/m0;->a:Lcom/commsource/util/m0;
 
     const/4 v3, 0x1
 
     invoke-virtual {v2, p1, v1, v3}, Lcom/commsource/util/m0;->b(Landroid/graphics/Bitmap;Ljava/lang/String;Z)Z
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/bean/DoodleLayerInfo;
 
     iget-object v4, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$2;->this$0:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
@@ -133,15 +128,12 @@
 
     invoke-direct {v2, v4}, Lcom/commsource/studio/bean/DoodleLayerInfo;-><init>(Ljava/util/List;)V
 
-    .line 6
     invoke-virtual {v2, v1}, Lcom/commsource/studio/bean/ImageLayerInfo;->setTexturePath(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v2, v1}, Lcom/commsource/studio/bean/DoodleLayerInfo;->setOriginTexturePath(Ljava/lang/String;)V
 
     const/4 v4, 0x2
 
-    .line 8
     aget v4, p2, v4
 
     float-to-int v4, v4
@@ -150,14 +142,12 @@
 
     const/4 v4, 0x3
 
-    .line 9
     aget v4, p2, v4
 
     float-to-int v4, v4
 
     invoke-virtual {v2, v4}, Lcom/commsource/studio/bean/FocusLayerInfo;->setHeight(I)V
 
-    .line 10
     invoke-virtual {v2}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v4
@@ -170,7 +160,6 @@
 
     invoke-virtual {v4, v5, p2}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 11
     iget-object p2, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$2;->this$0:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object p2, p2, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -187,7 +176,6 @@
 
     move-result p2
 
-    .line 12
     iget-object v4, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$2;->this$0:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object v4, v4, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -204,10 +192,8 @@
 
     move-result v4
 
-    .line 13
     invoke-virtual {v2, p2, v4}, Lcom/commsource/studio/bean/FocusLayerInfo;->onUpdateMatrix(II)V
 
-    .line 14
     iget-object p2, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$2;->this$0:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object p2, p2, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -232,7 +218,6 @@
 
     invoke-static/range {v4 .. v9}, Lcom/commsource/studio/bean/a;->c(Lcom/commsource/studio/bean/a;Lcom/commsource/studio/bean/BaseLayerInfo;IZILjava/lang/Object;)V
 
-    .line 15
     iget-object p2, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$2;->this$0:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object p2, p2, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -245,7 +230,6 @@
 
     move-result-object p2
 
-    .line 16
     invoke-static {p1}, Lcom/commsource/easyeditor/utils/opengl/n;->i(Landroid/graphics/Bitmap;)Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object p1
@@ -254,10 +238,8 @@
 
     invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 17
     invoke-virtual {p2, v1, p1}, Lcom/commsource/editengine/d;->g(Ljava/lang/String;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$2;->this$0:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object p1, p1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -274,7 +256,6 @@
 
     invoke-static/range {v4 .. v9}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$2;->this$0:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object p1, p1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -287,7 +268,6 @@
 
     invoke-static {p1, p2, v3, p2}, Lcom/commsource/studio/ImageStudioViewModel;->D1(Lcom/commsource/studio/ImageStudioViewModel;Ljava/util/Map;ILjava/lang/Object;)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$2;->this$0:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object p1, p1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -302,12 +282,10 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/studio/bean/a;->W(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 22
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

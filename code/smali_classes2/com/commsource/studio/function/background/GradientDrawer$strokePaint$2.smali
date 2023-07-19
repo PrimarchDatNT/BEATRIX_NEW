@@ -72,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x1
@@ -81,24 +80,20 @@
 
     const/high16 v2, 0x3f000000    # 0.5f
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/util/l0;->o(F)F
 
     move-result v2
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 4
     sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     const/high16 v2, 0x33000000
 
-    .line 5
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -111,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/GradientDrawer$strokePaint$2;->invoke()Landroid/graphics/Paint;
 
     move-result-object v1

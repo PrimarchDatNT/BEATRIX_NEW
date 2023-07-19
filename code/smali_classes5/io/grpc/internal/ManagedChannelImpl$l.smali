@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/internal/ManagedChannelImpl;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$l;->a:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     move-result-object p1
 
-    .line 1
     sget-object p2, Lio/grpc/internal/ManagedChannelImpl;->l0:Ljava/util/logging/Logger;
 
     sget-object v0, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
@@ -57,7 +55,6 @@
 
     iget-object v2, p0, Lio/grpc/internal/ManagedChannelImpl$l;->a:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 2
     invoke-virtual {v2}, Lio/grpc/internal/ManagedChannelImpl;->d()Lio/grpc/j0;
 
     move-result-object v2
@@ -72,10 +69,8 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p2, v0, v1, p1}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 4
     iget-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$l;->a:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-virtual {p2, p1}, Lio/grpc/internal/ManagedChannelImpl;->c1(Ljava/lang/Throwable;)V

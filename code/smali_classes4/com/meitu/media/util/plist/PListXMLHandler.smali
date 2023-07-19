@@ -32,10 +32,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/xml/sax/ext/DefaultHandler2;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/media/util/plist/g;
 
     invoke-direct {v0}, Lcom/meitu/media/util/plist/g;-><init>()V
@@ -54,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->b:Lcom/meitu/media/util/plist/PListXMLHandler$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -69,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->d:Lcom/meitu/media/util/plist/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -84,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->c:Lcom/meitu/media/util/plist/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -99,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->a:Lcom/meitu/media/util/plist/g;
 
     invoke-virtual {v1}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
@@ -114,14 +108,12 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->a:Lcom/meitu/media/util/plist/g;
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
 
     move-result-object v2
@@ -132,24 +124,20 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, p3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 6
     invoke-static {v1, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->c:Lcom/meitu/media/util/plist/g;
 
     invoke-virtual {v1}, Lcom/meitu/media/util/plist/g;->b()Ljava/lang/StringBuilder;
@@ -162,7 +150,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -175,10 +162,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->b:Lcom/meitu/media/util/plist/PListXMLHandler$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -191,10 +176,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->d:Lcom/meitu/media/util/plist/e;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -212,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->a:Lcom/meitu/media/util/plist/g;
 
     invoke-virtual {v1}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
@@ -227,14 +209,12 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->a:Lcom/meitu/media/util/plist/g;
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
 
     move-result-object v2
@@ -243,7 +223,6 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v3, "|"
@@ -252,17 +231,14 @@
 
     invoke-virtual {v2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->c:Lcom/meitu/media/util/plist/g;
 
-    .line 7
     invoke-virtual {p1}, Lcom/meitu/media/util/plist/g;->b()Ljava/lang/StringBuilder;
 
     move-result-object p1
@@ -277,19 +253,16 @@
 
     move-result-object p1
 
-    .line 8
     invoke-static {v1, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     const-string p1, "key"
 
-    .line 9
     invoke-virtual {p2, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 10
     iget-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->c:Lcom/meitu/media/util/plist/g;
 
     invoke-virtual {p1}, Lcom/meitu/media/util/plist/g;->b()Ljava/lang/StringBuilder;
@@ -311,7 +284,6 @@
     :cond_0
     const-string p1, "dict"
 
-    .line 11
     invoke-virtual {p2, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
@@ -320,7 +292,6 @@
 
     const-string p1, "array"
 
-    .line 12
     invoke-virtual {p2, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
@@ -332,20 +303,17 @@
     :cond_1
     const-string p1, "plist"
 
-    .line 13
     invoke-virtual {p2, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p3
 
     if-nez p3, :cond_2
 
-    .line 14
     :try_start_0
     iget-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->d:Lcom/meitu/media/util/plist/e;
 
     iget-object p3, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->c:Lcom/meitu/media/util/plist/g;
 
-    .line 15
     invoke-virtual {p3}, Lcom/meitu/media/util/plist/g;->b()Ljava/lang/StringBuilder;
 
     move-result-object p3
@@ -354,12 +322,10 @@
 
     move-result-object p3
 
-    .line 16
     invoke-virtual {p1, p2, p3}, Lcom/meitu/media/util/plist/e;->d(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/media/util/plist/PListObject;
 
     move-result-object p1
 
-    .line 17
     iget-object p2, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->d:Lcom/meitu/media/util/plist/e;
 
     iget-object p3, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->e:Ljava/lang/String;
@@ -370,7 +336,6 @@
 
     const/4 p1, 0x0
 
-    .line 18
     iput-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->e:Ljava/lang/String;
 
     goto :goto_1
@@ -378,7 +343,6 @@
     :catch_0
     move-exception p1
 
-    .line 19
     new-instance p2, Lorg/xml/sax/SAXException;
 
     invoke-direct {p2, p1}, Lorg/xml/sax/SAXException;-><init>(Ljava/lang/Exception;)V
@@ -387,7 +351,6 @@
 
     throw p2
 
-    .line 20
     :cond_2
     invoke-virtual {p2, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
@@ -395,12 +358,10 @@
 
     if-eqz p1, :cond_4
 
-    .line 21
     iget-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->b:Lcom/meitu/media/util/plist/PListXMLHandler$a;
 
     if-eqz p1, :cond_4
 
-    .line 22
     iget-object p2, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->d:Lcom/meitu/media/util/plist/e;
 
     sget-object p3, Lcom/meitu/media/util/plist/PListXMLHandler$ParseMode;->END_TAG:Lcom/meitu/media/util/plist/PListXMLHandler$ParseMode;
@@ -409,21 +370,18 @@
 
     goto :goto_1
 
-    .line 23
     :cond_3
     :goto_0
     iget-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->d:Lcom/meitu/media/util/plist/e;
 
     invoke-virtual {p1}, Lcom/meitu/media/util/plist/e;->f()Lcom/meitu/media/util/plist/PListObject;
 
-    .line 24
     :cond_4
     :goto_1
     iget-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->c:Lcom/meitu/media/util/plist/g;
 
     invoke-virtual {p1}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
 
-    .line 25
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -436,10 +394,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->c:Lcom/meitu/media/util/plist/g;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -457,10 +413,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lorg/xml/sax/ext/DefaultHandler2;->startDocument()V
 
-    .line 2
     new-instance v1, Lcom/meitu/media/util/plist/g;
 
     invoke-direct {v1}, Lcom/meitu/media/util/plist/g;-><init>()V
@@ -469,13 +423,10 @@
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->d:Lcom/meitu/media/util/plist/e;
 
-    .line 4
     iput-object v1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->e:Ljava/lang/String;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -493,7 +444,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->a:Lcom/meitu/media/util/plist/g;
 
     invoke-virtual {v0}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
@@ -508,24 +458,20 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->a:Lcom/meitu/media/util/plist/g;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
 
     move-result-object v1
 
     const-string v2, "Start Element lname|uri|attr.length :"
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "|"
@@ -534,7 +480,6 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-interface {p4}, Lorg/xml/sax/Attributes;->getLength()I
@@ -543,34 +488,28 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 8
     invoke-static {v0, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     iget-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->c:Lcom/meitu/media/util/plist/g;
 
     invoke-virtual {p1}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
 
     const-string p1, "plist"
 
-    .line 10
     invoke-virtual {p2, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 11
     iget-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->d:Lcom/meitu/media/util/plist/e;
 
     if-nez p1, :cond_0
 
-    .line 12
     new-instance p1, Lcom/meitu/media/util/plist/e;
 
     invoke-direct {p1}, Lcom/meitu/media/util/plist/e;-><init>()V
@@ -579,7 +518,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_0
     new-instance p1, Lorg/xml/sax/SAXException;
 
@@ -591,7 +529,6 @@
 
     throw p1
 
-    .line 14
     :cond_1
     iget-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->d:Lcom/meitu/media/util/plist/e;
 
@@ -599,7 +536,6 @@
 
     const-string p1, "dict"
 
-    .line 15
     invoke-virtual {p2, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
@@ -608,21 +544,18 @@
 
     const-string p1, "array"
 
-    .line 16
     invoke-virtual {p2, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    .line 17
     :cond_2
     :try_start_0
     iget-object p1, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->d:Lcom/meitu/media/util/plist/e;
 
     iget-object p4, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->c:Lcom/meitu/media/util/plist/g;
 
-    .line 18
     invoke-virtual {p4}, Lcom/meitu/media/util/plist/g;->b()Ljava/lang/StringBuilder;
 
     move-result-object p4
@@ -631,12 +564,10 @@
 
     move-result-object p4
 
-    .line 19
     invoke-virtual {p1, p2, p4}, Lcom/meitu/media/util/plist/e;->d(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/media/util/plist/PListObject;
 
     move-result-object p1
 
-    .line 20
     iget-object p2, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->d:Lcom/meitu/media/util/plist/e;
 
     iget-object p4, p0, Lcom/meitu/media/util/plist/PListXMLHandler;->e:Ljava/lang/String;
@@ -645,7 +576,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 21
     :cond_3
     :goto_0
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -655,7 +585,6 @@
     :catch_0
     move-exception p1
 
-    .line 22
     new-instance p2, Lorg/xml/sax/SAXException;
 
     invoke-direct {p2, p1}, Lorg/xml/sax/SAXException;-><init>(Ljava/lang/Exception;)V
@@ -664,7 +593,6 @@
 
     throw p2
 
-    .line 23
     :cond_4
     new-instance p1, Lorg/xml/sax/SAXException;
 

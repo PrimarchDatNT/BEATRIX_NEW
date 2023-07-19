@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$16$2;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$16$2;->this$0:Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$16;
 
     iget-object v1, v1, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$16;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
@@ -93,7 +91,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$16$2;->this$0:Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$16;
 
     iget-object v2, v2, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$16;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
@@ -128,19 +125,16 @@
 
     move-result-object v1
 
-    .line 4
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/m$a;->c(Ljava/lang/Boolean;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$16$2;->this$0:Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$16;
 
     iget-object v1, v1, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$16;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->z1(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

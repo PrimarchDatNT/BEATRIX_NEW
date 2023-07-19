@@ -68,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontPage$j;->a:Lcom/commsource/studio/text/TextFontPage;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextFontPage;->c(Lcom/commsource/studio/text/TextFontPage;)Lcom/commsource/beautyplus/f0/ef;
@@ -117,7 +116,6 @@
     :cond_2
     const-string p1, "viewHolder"
 
-    .line 2
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -132,7 +130,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 3
     instance-of p2, p1, Lcom/commsource/studio/text/TextFontMaterial;
 
     if-eqz p2, :cond_3
@@ -151,7 +148,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/text/TextFontPage$j;->a:Lcom/commsource/studio/text/TextFontPage;
 
     invoke-static {p2}, Lcom/commsource/studio/text/TextFontPage;->b(Lcom/commsource/studio/text/TextFontPage;)Lcom/commsource/studio/text/TextViewModel;
@@ -160,14 +156,12 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/text/TextViewModel;->Y(Lcom/commsource/studio/text/TextFontMaterial;)V
 
-    .line 5
     new-instance p2, Ljava/util/HashMap;
 
     const/16 v1, 0x8
 
     invoke-direct {p2, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextFontMaterial;->getId()Ljava/lang/String;
 
     move-result-object p1
@@ -178,10 +172,8 @@
 
     const-string p1, "beauty_font_imp"
 
-    .line 7
     invoke-static {p1, p2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 8
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -196,7 +188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     check-cast p2, Lcom/commsource/widget/h1/f;

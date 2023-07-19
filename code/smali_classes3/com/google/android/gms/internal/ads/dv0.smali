@@ -7,7 +7,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/pu0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
     return-void

@@ -55,17 +55,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/effect/n;
 
     invoke-direct {v0}, Lcom/commsource/studio/effect/n;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/function/MaskFragment;->d0:Lcom/commsource/studio/effect/n;
 
-    .line 3
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->t()I
@@ -76,7 +73,6 @@
 
     iput v0, p0, Lcom/commsource/studio/function/MaskFragment;->e0:F
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/function/MaskFragment$mViewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/MaskFragment$mViewBinding$2;-><init>(Lcom/commsource/studio/function/MaskFragment;)V
@@ -87,7 +83,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/MaskFragment;->f0:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/function/MaskFragment$mViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/MaskFragment$mViewModel$2;-><init>(Lcom/commsource/studio/function/MaskFragment;)V
@@ -98,7 +93,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/MaskFragment;->g0:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/studio/function/MaskFragment$mAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/MaskFragment$mAdapter$2;-><init>(Lcom/commsource/studio/function/MaskFragment;)V
@@ -111,7 +105,6 @@
 
     const/4 v0, 0x1
 
-    .line 7
     invoke-virtual {p0, v0}, Lcom/commsource/studio/function/BaseSubFragment;->r1(Z)V
 
     return-void
@@ -124,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->I0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -139,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -158,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment;->d0:Lcom/commsource/studio/effect/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -247,7 +237,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/MaskFragment;->d0:Lcom/commsource/studio/effect/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -262,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object v1
@@ -275,12 +263,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -292,7 +278,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object v1
@@ -303,7 +288,6 @@
 
     move-result-object v3
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object v1
@@ -314,7 +298,6 @@
 
     move-result-object v4
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object v1
@@ -325,7 +308,6 @@
 
     move-result-object v5
 
-    .line 7
     sget-object v1, Lcom/commsource/studio/i0;->h:Lcom/commsource/studio/i0$a;
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
@@ -354,7 +336,6 @@
 
     move-result v6
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v1
@@ -365,7 +346,6 @@
 
     move-result v7
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v1
@@ -376,10 +356,8 @@
 
     move-result v8
 
-    .line 10
     invoke-virtual/range {v2 .. v8}, Lcom/commsource/studio/bean/FocusLayerInfo;->updateMaskCropInfo(Landroid/graphics/Rect;Landroid/graphics/RectF;Lcom/commsource/studio/MatrixBox;III)V
 
-    .line 11
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -399,7 +377,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/bean/GroupLayerInfo;->refreshGroupSizeAndPosition()V
 
-    .line 12
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
@@ -425,14 +402,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/b;->T(Lcom/commsource/studio/bean/FocusLayerInfo;)V
 
-    .line 13
     new-instance v1, Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1;-><init>(Lcom/commsource/studio/function/MaskFragment;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -466,7 +441,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object v0
@@ -475,7 +449,6 @@
 
     invoke-super {p0, v0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->I(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object p2
@@ -488,7 +461,6 @@
 
     invoke-virtual {p2, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -501,7 +473,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object v1
@@ -514,12 +485,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -535,7 +504,6 @@
 
     move-result v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->E1()Lcom/commsource/studio/function/MaskFragment$b;
 
     move-result-object v2
@@ -552,7 +520,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 5
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -574,7 +541,6 @@
 
     check-cast v5, Lcom/commsource/studio/i0;
 
-    .line 6
     invoke-virtual {v5}, Lcom/commsource/studio/i0;->f()I
 
     move-result v5
@@ -602,13 +568,11 @@
     :cond_3
     const/4 v3, 0x0
 
-    .line 7
     :goto_1
     check-cast v3, Lcom/commsource/studio/i0;
 
     if-eqz v3, :cond_4
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object v1
@@ -617,7 +581,6 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/commsource/studio/MaskCompositionView;->u(Lcom/commsource/studio/i0;Z)V
 
-    .line 9
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
@@ -631,7 +594,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MaskCompositionView;->K(Lcotlin/jvm/u/a;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -665,7 +627,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object v0
@@ -674,7 +635,6 @@
 
     invoke-super {p0, v0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->K(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object p2
@@ -687,29 +647,24 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-virtual {p2, v0}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p2
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-virtual {p2, v0}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p2
 
     const-wide/16 v0, 0x12c
 
-    .line 5
     invoke-virtual {p2, v0, v1}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p2
 
-    .line 6
     invoke-virtual {p2}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -722,10 +677,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->Q()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -738,10 +691,8 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/FocusLayerInfo;->setMaskEdit(Z)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v3
@@ -758,7 +709,6 @@
 
     invoke-static/range {v3 .. v8}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -772,7 +722,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->B1()Lcom/commsource/studio/effect/n;
 
     move-result-object v1
@@ -789,7 +738,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/MaskFragment;->c0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -804,7 +752,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/n;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/MaskFragment;->F1(Lcom/commsource/studio/effect/n;)V
@@ -821,7 +768,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/MaskFragment;->c0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -836,7 +782,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/MaskFragment;->e0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -851,7 +796,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/MaskFragment;->e0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -884,7 +828,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object p1
@@ -895,7 +838,6 @@
 
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/e9;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object p1
@@ -946,10 +888,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/function/MaskFragment$d;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -975,14 +915,12 @@
 
     invoke-static {p0, p1, v1, p2, v2}, Lcom/commsource/studio/function/BaseSubFragment;->F(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/layer/d;IILjava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object p1
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/e9;->c:Lcom/commsource/studio/MaskCompositionView;
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p2
@@ -1008,7 +946,6 @@
     :cond_1
     move-object v4, v2
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -1053,7 +990,6 @@
     :cond_3
     const/4 v6, 0x0
 
-    .line 6
     :goto_2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -1075,7 +1011,6 @@
 
     move-result-object v7
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p2
@@ -1097,7 +1032,6 @@
     :cond_4
     move-object v8, v2
 
-    .line 8
     :goto_3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -1118,10 +1052,8 @@
 
     move-object v3, p1
 
-    .line 9
     invoke-virtual/range {v3 .. v9}, Lcom/commsource/studio/MaskCompositionView;->I(Ljava/lang/Float;ZZLcom/commsource/studio/bean/d;Lcom/commsource/studio/MatrixBox;Landroid/graphics/RectF;)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p2
@@ -1132,7 +1064,6 @@
 
     if-eqz p2, :cond_6
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/studio/MaskCompositionView;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v2
@@ -1143,7 +1074,6 @@
 
     invoke-virtual {v2, p2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 12
     :cond_6
     invoke-virtual {p1}, Lcom/commsource/studio/MaskCompositionView;->getCanvasInitMatrixBox()Lcom/commsource/studio/MatrixBox;
 
@@ -1161,7 +1091,6 @@
 
     invoke-virtual {p2, v2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/studio/MaskCompositionView;->getCanvasChangeMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object p1
@@ -1178,7 +1107,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object p1
@@ -1187,7 +1115,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/MaskCompositionView;->N()V
 
-    .line 15
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object p1
@@ -1196,7 +1123,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/MaskCompositionView;->O()V
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object p1
@@ -1211,7 +1137,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 17
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object p1
@@ -1232,7 +1157,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object p1
@@ -1245,7 +1169,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 19
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
 
     move-result-object p1
@@ -1260,7 +1183,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 20
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->C1()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -1273,7 +1195,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 21
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->E1()Lcom/commsource/studio/function/MaskFragment$b;
 
     move-result-object p1
@@ -1292,7 +1213,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 22
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment;->E1()Lcom/commsource/studio/function/MaskFragment$b;
 
     move-result-object p1
@@ -1311,7 +1231,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

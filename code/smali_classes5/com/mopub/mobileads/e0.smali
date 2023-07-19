@@ -10,7 +10,6 @@
     .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -39,7 +38,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -65,7 +63,6 @@
     .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -94,7 +91,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -133,7 +129,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -170,7 +165,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -199,7 +193,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/MoPub;->canCollectPersonalInformation()Z
 
     move-result v0
@@ -208,7 +201,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -229,21 +221,18 @@
     .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->resolveAdSize()Landroid/graphics/Point;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Lcom/mopub/mobileads/AdViewController;->setRequestedAdSize(Landroid/graphics/Point;)V
 
-    .line 3
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdViewController;->loadAd()V
 
     :cond_0
@@ -263,7 +252,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -289,7 +277,6 @@
     .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -308,7 +295,6 @@
     .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -334,7 +320,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -360,7 +345,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -382,7 +366,6 @@
     .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -419,7 +402,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0
@@ -441,7 +423,6 @@
     .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
 
     move-result-object v0

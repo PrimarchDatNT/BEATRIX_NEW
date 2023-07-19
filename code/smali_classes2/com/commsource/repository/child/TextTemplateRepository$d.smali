@@ -58,14 +58,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextTemplateRepository;->s:Lcom/commsource/repository/child/TextTemplateRepository;
 
     invoke-static {v1}, Lcom/commsource/repository/child/TextTemplateRepository;->t(Lcom/commsource/repository/child/TextTemplateRepository;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextTemplateRepository;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -76,14 +74,12 @@
 
     invoke-virtual {v3, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/repository/child/TextTemplateRepository;->p(Lcom/commsource/repository/child/TextTemplateRepository;)Lcom/commsource/repository/f;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/repository/f;->d()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

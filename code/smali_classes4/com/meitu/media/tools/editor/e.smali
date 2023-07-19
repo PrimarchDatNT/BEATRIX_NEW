@@ -95,42 +95,32 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/media/tools/editor/e;->b:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/media/tools/editor/e;->c:I
 
-    .line 4
     iput v0, p0, Lcom/meitu/media/tools/editor/e;->d:I
 
-    .line 5
     iput v0, p0, Lcom/meitu/media/tools/editor/e;->e:I
 
     const-wide/16 v1, 0x0
 
-    .line 6
     iput-wide v1, p0, Lcom/meitu/media/tools/editor/e;->f:D
 
     const-wide v1, 0x7fefffffffffffffL    # Double.MAX_VALUE
 
-    .line 7
     iput-wide v1, p0, Lcom/meitu/media/tools/editor/e;->g:D
 
     const/4 v1, 0x0
 
-    .line 8
     iput v1, p0, Lcom/meitu/media/tools/editor/e;->r:F
 
-    .line 9
     iput v0, p0, Lcom/meitu/media/tools/editor/e;->s:I
 
-    .line 10
     new-instance v1, Ljava/util/ArrayList;
 
     const/4 v2, 0x2
@@ -139,7 +129,6 @@
 
     iput-object v1, p0, Lcom/meitu/media/tools/editor/e;->t:Ljava/util/ArrayList;
 
-    .line 11
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
@@ -148,35 +137,26 @@
 
     const-string v1, "VideoSetParm"
 
-    .line 12
     iput-object v1, p0, Lcom/meitu/media/tools/editor/e;->v:Ljava/lang/String;
 
-    .line 13
     iput v0, p0, Lcom/meitu/media/tools/editor/e;->w:I
 
     const/4 v1, 0x1
 
-    .line 14
     iput v1, p0, Lcom/meitu/media/tools/editor/e;->x:I
 
-    .line 15
     iput v2, p0, Lcom/meitu/media/tools/editor/e;->y:I
 
     const/4 v2, 0x3
 
-    .line 16
     iput v2, p0, Lcom/meitu/media/tools/editor/e;->z:I
 
-    .line 17
     iput v0, p0, Lcom/meitu/media/tools/editor/e;->A:I
 
-    .line 18
     iput v1, p0, Lcom/meitu/media/tools/editor/e;->B:I
 
-    .line 19
     iput v0, p0, Lcom/meitu/media/tools/editor/e;->C:I
 
-    .line 20
     iput v1, p0, Lcom/meitu/media/tools/editor/e;->E:I
 
     return-void
@@ -195,16 +175,13 @@
 
     const-string v1, "[VideoSetParm]watermark inputstram not exit"
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/e;->u:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -217,38 +194,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/tools/editor/e$a;
 
     invoke-direct {v1}, Lcom/meitu/media/tools/editor/e$a;-><init>()V
 
-    .line 2
     iput p2, v1, Lcom/meitu/media/tools/editor/e$a;->b:F
 
-    .line 3
     iput p3, v1, Lcom/meitu/media/tools/editor/e$a;->c:F
 
-    .line 4
     iput p4, v1, Lcom/meitu/media/tools/editor/e$a;->d:F
 
-    .line 5
     iput p5, v1, Lcom/meitu/media/tools/editor/e$a;->e:F
 
-    .line 6
     iput-wide p8, v1, Lcom/meitu/media/tools/editor/e$a;->g:D
 
-    .line 7
     iput-wide p6, v1, Lcom/meitu/media/tools/editor/e$a;->f:D
 
-    .line 8
     iput-object p1, v1, Lcom/meitu/media/tools/editor/e$a;->a:Landroid/graphics/Bitmap;
 
-    .line 9
     iget-object p1, p0, Lcom/meitu/media/tools/editor/e;->t:Ljava/util/ArrayList;
 
     invoke-virtual {p1, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 10
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -283,7 +250,6 @@
 
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->J(Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -296,27 +262,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/tools/editor/e$a;
 
     invoke-direct {v1}, Lcom/meitu/media/tools/editor/e$a;-><init>()V
 
-    .line 2
     iput p2, v1, Lcom/meitu/media/tools/editor/e$a;->b:F
 
-    .line 3
     iput p3, v1, Lcom/meitu/media/tools/editor/e$a;->c:F
 
-    .line 4
     iput p4, v1, Lcom/meitu/media/tools/editor/e$a;->d:F
 
-    .line 5
     iput p5, v1, Lcom/meitu/media/tools/editor/e$a;->e:F
 
-    .line 6
     iput-wide p8, v1, Lcom/meitu/media/tools/editor/e$a;->g:D
 
-    .line 7
     iput-wide p6, v1, Lcom/meitu/media/tools/editor/e$a;->f:D
 
     const-string p4, "VideoSetParm"
@@ -325,15 +284,12 @@
 
     const-string p1, "watermark inputstram not exit"
 
-    .line 8
     invoke-static {p4, p1}, Lcom/meitu/media/tools/utils/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_0
     new-instance p5, Landroid/graphics/BitmapFactory$Options;
 
@@ -341,15 +297,12 @@
 
     const/4 v2, 0x1
 
-    .line 11
     iput-boolean v2, p5, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
     const/4 v2, 0x0
 
-    .line 12
     invoke-static {p1, v2, p5}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;Landroid/graphics/Rect;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
-    .line 13
     iget v3, p5, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
     if-lez v3, :cond_2
@@ -363,10 +316,8 @@
     :cond_1
     const/4 p4, 0x0
 
-    .line 14
     iput-boolean p4, p5, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
-    .line 15
     :try_start_0
     invoke-virtual {p1}, Ljava/io/InputStream;->reset()V
     :try_end_0
@@ -377,24 +328,19 @@
     :catch_0
     move-exception p4
 
-    .line 16
     invoke-virtual {p4}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 17
     :goto_0
     invoke-static {p1, v2, p5}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;Landroid/graphics/Rect;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    .line 18
     iput-object p1, v1, Lcom/meitu/media/tools/editor/e$a;->a:Landroid/graphics/Bitmap;
 
-    .line 19
     iget-object p1, p0, Lcom/meitu/media/tools/editor/e;->t:Ljava/util/ArrayList;
 
     invoke-virtual {p1, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 20
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -429,12 +375,10 @@
 
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->J(Ljava/lang/String;)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 22
     :cond_2
     :goto_1
     new-instance p1, Ljava/lang/StringBuilder;
@@ -463,7 +407,6 @@
 
     invoke-static {p4, p1}, Lcom/meitu/media/tools/utils/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -476,7 +419,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/e;->D:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -491,7 +433,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/e;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -506,7 +447,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/e;->E:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -521,7 +461,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/e;->r:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -536,7 +475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/e;->s:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -551,25 +489,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/tools/editor/e;->d:I
 
-    .line 2
     iput p2, p0, Lcom/meitu/media/tools/editor/e;->e:I
 
-    .line 3
     iput p3, p0, Lcom/meitu/media/tools/editor/e;->b:I
 
-    .line 4
     iput p4, p0, Lcom/meitu/media/tools/editor/e;->c:I
 
-    .line 5
     iput-wide p5, p0, Lcom/meitu/media/tools/editor/e;->f:D
 
-    .line 6
     iput-wide p7, p0, Lcom/meitu/media/tools/editor/e;->g:D
 
-    .line 7
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -616,7 +547,6 @@
 
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->J(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -629,16 +559,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/tools/editor/e;->m:I
 
-    .line 2
     iput p2, p0, Lcom/meitu/media/tools/editor/e;->n:I
 
-    .line 3
     iput p3, p0, Lcom/meitu/media/tools/editor/e;->o:I
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -659,7 +585,6 @@
 
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->J(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -672,16 +597,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/tools/editor/e;->D:Ljava/lang/String;
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/media/tools/editor/e;->a:Ljava/lang/String;
 
-    .line 3
     iput p3, p0, Lcom/meitu/media/tools/editor/e;->C:I
 
-    .line 4
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
@@ -704,7 +625,6 @@
 
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->J(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -717,10 +637,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/tools/editor/e;->p:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -733,10 +651,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/tools/editor/e;->E:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -749,10 +665,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/tools/editor/e;->a:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -771,15 +685,12 @@
 
     const-string p2, "Out file name is null"
 
-    .line 1
     invoke-static {p1, p2}, Lcom/meitu/media/tools/utils/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/meitu/media/tools/editor/e;->E:I
 
@@ -787,18 +698,14 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/media/tools/editor/e;->a:Ljava/lang/String;
 
-    .line 5
     iput p2, p0, Lcom/meitu/media/tools/editor/e;->p:I
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -824,15 +731,12 @@
 
     const-string p2, "Out file name is null"
 
-    .line 1
     invoke-static {p1, p2}, Lcom/meitu/media/tools/utils/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/meitu/media/tools/editor/e;->E:I
 
@@ -840,16 +744,12 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/media/tools/editor/e;->a:Ljava/lang/String;
 
-    .line 5
     iput p3, p0, Lcom/meitu/media/tools/editor/e;->i:I
 
-    .line 6
     iput p2, p0, Lcom/meitu/media/tools/editor/e;->h:I
 
-    .line 7
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -876,12 +776,10 @@
 
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->J(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -901,13 +799,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/tools/editor/e;->j:F
 
-    .line 2
     iput p2, p0, Lcom/meitu/media/tools/editor/e;->k:F
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -920,10 +815,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/tools/editor/e;->l:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -936,10 +829,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/media/tools/editor/e;->q:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -952,10 +843,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/tools/editor/e;->r:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -968,10 +857,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/tools/editor/e;->s:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

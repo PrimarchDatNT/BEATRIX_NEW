@@ -28,7 +28,6 @@
 .method constructor <init>(Lcom/commsource/referral/MTReferral$a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/referral/MTReferral$a$b;->O:Lcom/commsource/referral/MTReferral$a;
 
     iput-object p3, p0, Lcom/commsource/referral/MTReferral$a$b;->L:Ljava/lang/String;
@@ -49,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/referral/MTReferral$a$b;->O:Lcom/commsource/referral/MTReferral$a;
 
     iget-object v1, v1, Lcom/commsource/referral/MTReferral$a;->c:Lcom/commsource/referral/MTReferral;
@@ -60,7 +58,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/web/WebActivity;->P0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/referral/MTReferral$a$b;->O:Lcom/commsource/referral/MTReferral$a;
 
     iget-object v1, v1, Lcom/commsource/referral/MTReferral$a;->c:Lcom/commsource/referral/MTReferral;
@@ -87,7 +84,6 @@
 
     invoke-static {v1, p3, v2, p1, p2}, Lcom/commsource/util/common/m;->c(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -102,17 +98,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/referral/MTReferral$a$b;->L:Ljava/lang/String;
 
     const-string v2, "html"
 
-    .line 2
     invoke-static {v1, v2}, Lcom/commsource/util/n0;->d(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -121,24 +114,20 @@
 
     const-string v2, "!"
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5
     array-length v3, v2
 
     const/4 v4, 0x1
 
     if-le v3, v4, :cond_1
 
-    .line 6
     new-instance v3, Ljava/io/File;
 
     invoke-direct {v3, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 7
     new-instance v1, Ljava/io/File;
 
     const/4 v4, 0x0
@@ -155,7 +144,6 @@
 
     const-string v1, "rename succeeded"
 
-    .line 8
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->d(Ljava/lang/String;)V
 
     goto :goto_0
@@ -163,14 +151,11 @@
     :cond_0
     const-string v1, "rename failed"
 
-    .line 9
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->d(Ljava/lang/String;)V
 
-    .line 10
     :goto_0
     aget-object v1, v2, v4
 
-    .line 11
     :cond_1
     iget-object v2, p0, Lcom/commsource/referral/MTReferral$a$b;->M:Ljava/lang/String;
 
@@ -182,7 +167,6 @@
 
     invoke-static {v4}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

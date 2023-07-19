@@ -33,14 +33,12 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/p;->a:Landroid/hardware/camera2/CameraDevice$StateCallback;
 
     iget-object v1, p0, Lcom/google/ar/core/p;->b:Landroid/hardware/camera2/CameraDevice;
 
     iget v2, p0, Lcom/google/ar/core/p;->c:I
 
-    .line 2
     invoke-virtual {v0, v1, v2}, Landroid/hardware/camera2/CameraDevice$StateCallback;->onError(Landroid/hardware/camera2/CameraDevice;I)V
 
     return-void

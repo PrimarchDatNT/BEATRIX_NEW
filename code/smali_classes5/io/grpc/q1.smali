@@ -40,12 +40,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "serviceDescriptor"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -54,7 +52,6 @@
 
     iput-object p1, p0, Lio/grpc/q1;->a:Lio/grpc/t1;
 
-    .line 4
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1, p2}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
@@ -71,7 +68,6 @@
 .method synthetic constructor <init>(Lio/grpc/t1;Ljava/util/Map;Lio/grpc/q1$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/q1;-><init>(Lio/grpc/t1;Ljava/util/Map;)V
 
     return-void
@@ -80,7 +76,6 @@
 .method public static a(Lio/grpc/t1;)Lio/grpc/q1$b;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/grpc/q1$b;
 
     const/4 v1, 0x0
@@ -93,7 +88,6 @@
 .method public static b(Ljava/lang/String;)Lio/grpc/q1$b;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/grpc/q1$b;
 
     const/4 v1, 0x0
@@ -120,7 +114,6 @@
     .annotation build Lio/grpc/d0;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/q1;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -143,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/q1;->b:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
@@ -156,7 +148,6 @@
 .method public e()Lio/grpc/t1;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/q1;->a:Lio/grpc/t1;
 
     return-object v0

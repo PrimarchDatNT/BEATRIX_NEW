@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$a;Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$Model;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$a$a;->b:Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$a;
 
     iput-object p2, p0, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$a$a;->a:Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$Model;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$a$a;->b:Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$a;
 
     iget-object v1, v1, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandDrawImageScript;
@@ -55,7 +53,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript;->I(Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$Model;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

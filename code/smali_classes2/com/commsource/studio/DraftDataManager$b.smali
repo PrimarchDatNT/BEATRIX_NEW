@@ -39,7 +39,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/DraftDataManager$b;->a:Lcom/commsource/studio/DraftDataManager;
 
     invoke-direct {p0, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
@@ -64,7 +63,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/DraftDataManager$b;->a:Lcom/commsource/studio/DraftDataManager;
 
     invoke-static {p1}, Lcom/commsource/studio/DraftDataManager;->a(Lcom/commsource/studio/DraftDataManager;)Ljava/lang/Object;
@@ -73,7 +71,6 @@
 
     monitor-enter p1
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/commsource/studio/DraftDataManager$b;->a:Lcom/commsource/studio/DraftDataManager;
 
@@ -89,17 +86,14 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p1
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/DraftDataManager$b;->a:Lcom/commsource/studio/DraftDataManager;
 
     invoke-static {p1, v1}, Lcom/commsource/studio/DraftDataManager;->d(Lcom/commsource/studio/DraftDataManager;Lcom/commsource/studio/DraftDataManager$DraftData;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/DraftDataManager$b;->a:Lcom/commsource/studio/DraftDataManager;
 
     invoke-static {p1, v1}, Lcom/commsource/studio/DraftDataManager;->c(Lcom/commsource/studio/DraftDataManager;Lcom/commsource/studio/DraftDataManager$DraftData;)V
@@ -107,7 +101,6 @@
     :cond_0
     if-eqz v1, :cond_1
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/DraftDataManager$b;->a:Lcom/commsource/studio/DraftDataManager;
 
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
@@ -124,7 +117,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/studio/DraftDataManager;->e(Lcom/commsource/studio/DraftDataManager;Ljava/lang/String;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -133,7 +125,6 @@
     :catchall_0
     move-exception v1
 
-    .line 8
     monitor-exit p1
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

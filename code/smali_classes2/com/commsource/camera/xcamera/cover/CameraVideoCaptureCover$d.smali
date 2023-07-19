@@ -60,7 +60,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -84,7 +83,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_2
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -106,7 +104,6 @@
 
     goto :goto_2
 
-    .line 3
     :cond_4
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -118,7 +115,6 @@
 
     invoke-static {p1, v2}, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;->E(Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;Z)V
 
-    .line 4
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$d;->a(Ljava/lang/Integer;)V

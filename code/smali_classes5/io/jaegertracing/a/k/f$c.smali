@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/jaegertracing/a/k/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/a/k/f$c;->a:Lio/jaegertracing/a/k/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

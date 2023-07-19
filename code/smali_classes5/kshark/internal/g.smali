@@ -23,7 +23,6 @@
 
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -40,30 +39,25 @@
 .method private static final a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 4
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v0
 
-    .line 2
     invoke-static {p0}, Lkshark/internal/g;->c(Ljava/lang/String;)[B
 
     move-result-object p0
 
     invoke-virtual {v0, p0}, Ljava/security/MessageDigest;->update([B)V
 
-    .line 3
     invoke-virtual {v0}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object p0
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 5
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -75,7 +69,6 @@
 
     and-int/lit16 v3, v3, 0xff
 
-    .line 6
     invoke-static {v3}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     move-result-object v3
@@ -86,7 +79,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -100,7 +92,6 @@
 
     return-object p0
 
-    .line 8
     :catch_0
     new-instance p0, Ljava/lang/AssertionError;
 
@@ -138,7 +129,6 @@
 
     const-string v0, "SHA-1"
 
-    .line 1
     invoke-static {p0, v0}, Lkshark/internal/g;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -159,7 +149,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lkshark/internal/g;->a:Ljava/nio/charset/Charset;
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
@@ -198,7 +187,6 @@
 
     move v2, p1
 
-    .line 1
     invoke-static/range {v1 .. v6}, Lcotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result p1
@@ -212,7 +200,6 @@
     :cond_0
     add-int/lit8 p1, p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p0

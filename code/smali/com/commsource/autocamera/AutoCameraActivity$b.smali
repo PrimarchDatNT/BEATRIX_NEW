@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/AutoCameraActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$b;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -39,10 +38,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$b;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     iget-object p1, p1, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
@@ -55,7 +52,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$b;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     iget-object p1, p1, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
@@ -66,7 +62,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$b;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     iget-object p1, p1, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
@@ -77,7 +72,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

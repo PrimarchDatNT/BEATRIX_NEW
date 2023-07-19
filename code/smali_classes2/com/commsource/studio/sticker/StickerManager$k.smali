@@ -19,7 +19,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -34,13 +33,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerManager;->W()V
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerManager;->o(Lcom/commsource/studio/sticker/StickerManager;)V
     :try_end_0
     .catch Landroid/database/sqlite/SQLiteDiskIOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -50,10 +47,8 @@
     :catch_0
     move-exception v1
 
-    .line 3
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDiskIOException;->printStackTrace()V
 
-    .line 4
     :goto_0
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
@@ -63,10 +58,8 @@
 
     if-nez v2, :cond_0
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerManager;->k0()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

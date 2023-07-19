@@ -79,12 +79,10 @@
 
     const-string v1, "director"
 
-    .line 1
     sput-object v1, Lcom/meitu/library/appcia/director/Director;->j:Ljava/lang/String;
 
     const-string v1, "app_performance"
 
-    .line 2
     sput-object v1, Lcom/meitu/library/appcia/director/Director;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -111,7 +109,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/library/appcia/director/Director;->h:Landroid/app/Application;
@@ -124,14 +121,12 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {v0, v1, v2}, Lcotlinx/coroutines/sync/MutexKt;->g(ZILjava/lang/Object;)Lcotlinx/coroutines/sync/c;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/library/appcia/director/Director;->a:Lcotlinx/coroutines/sync/c;
 
-    .line 3
     new-instance v0, Lcom/meitu/library/appcia/i/a;
 
     invoke-virtual {p2}, Lcom/meitu/library/appcia/a$a;->c()Z
@@ -158,47 +153,40 @@
 
     iput-object v0, p0, Lcom/meitu/library/appcia/director/Director;->b:Lcom/meitu/library/appcia/i/a;
 
-    .line 4
     new-instance v0, Lcom/meitu/library/appcia/d/a;
 
     invoke-direct {v0, p0}, Lcom/meitu/library/appcia/d/a;-><init>(Lcom/meitu/library/appcia/d/a$a;)V
 
     iput-object v0, p0, Lcom/meitu/library/appcia/director/Director;->c:Lcom/meitu/library/appcia/d/a;
 
-    .line 5
     new-instance v1, Lcom/meitu/library/appcia/director/Director$b;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/appcia/director/Director$b;-><init>(Lcom/meitu/library/appcia/director/Director;)V
 
     iput-object v1, p0, Lcom/meitu/library/appcia/director/Director;->d:Lcom/meitu/library/appcia/director/Director$b;
 
-    .line 6
     new-instance v2, Ljava/util/LinkedList;
 
     invoke-direct {v2}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v2, p0, Lcom/meitu/library/appcia/director/Director;->e:Ljava/util/LinkedList;
 
-    .line 7
     new-instance v3, Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
     invoke-direct {v3}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;-><init>()V
 
     iput-object v3, p0, Lcom/meitu/library/appcia/director/Director;->f:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
-    .line 8
     new-instance v3, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
     invoke-direct {v3, p1, v1}, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;-><init>(Landroid/content/Context;Lcom/meitu/library/appcia/f/e/d;)V
 
     iput-object v3, p0, Lcom/meitu/library/appcia/director/Director;->g:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
-    .line 9
     iget-object v4, p0, Lcom/meitu/library/appcia/director/Director;->f:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
     invoke-virtual {v4, p1}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->n(Landroid/app/Application;)V
 
-    .line 10
     new-instance v4, Lcom/meitu/library/appcia/g/a;
 
     invoke-virtual {p2}, Lcom/meitu/library/appcia/a$a;->a()Lcom/meitu/library/appcia/g/c;
@@ -209,20 +197,16 @@
 
     invoke-virtual {v2, v4}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 11
     invoke-virtual {v2, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 12
     invoke-virtual {p1, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 
-    .line 13
     invoke-virtual {p2}, Lcom/meitu/library/appcia/a$a;->f()Lcom/meitu/library/appcia/f/d/b;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 14
     invoke-virtual {p2}, Lcom/meitu/library/appcia/a$a;->f()Lcom/meitu/library/appcia/f/d/b;
 
     move-result-object v0
@@ -231,7 +215,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_0
     new-instance v0, Lcom/meitu/library/appcia/f/d/c;
 
@@ -241,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/f/d/a;->j(Lcom/meitu/library/appcia/f/d/b;)V
 
-    .line 16
     :goto_0
     invoke-virtual {p2}, Lcom/meitu/library/appcia/a$a;->e()I
 
@@ -249,7 +231,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/f/d/a;->i(I)V
 
-    .line 17
     invoke-direct {p0, p1}, Lcom/meitu/library/appcia/director/Director;->l(Landroid/app/Application;)V
 
     return-void
@@ -262,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/director/Director;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -277,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/appcia/director/Director;->e:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -292,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/appcia/director/Director;->b:Lcom/meitu/library/appcia/i/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -307,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/appcia/director/Director;->a:Lcotlinx/coroutines/sync/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -322,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/appcia/director/Director;->i:Lcom/meitu/library/appcia/a$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -337,7 +313,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/director/Director;->j:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -352,10 +327,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->e:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -373,12 +346,10 @@
 
     check-cast v2, Lcom/meitu/library/appcia/f/e/b;
 
-    .line 3
     invoke-interface {v2, p1}, Lcom/meitu/library/appcia/f/e/c;->u(Landroid/content/Context;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -394,10 +365,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->e:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -415,18 +384,15 @@
 
     check-cast v2, Lcom/meitu/library/appcia/f/e/b;
 
-    .line 3
     invoke-interface {v2}, Lcom/meitu/library/appcia/f/e/c;->a()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->f:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
     invoke-virtual {v1}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->o()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -439,10 +405,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->e:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -460,18 +424,15 @@
 
     check-cast v2, Lcom/meitu/library/appcia/f/e/b;
 
-    .line 3
     invoke-interface {v2}, Lcom/meitu/library/appcia/f/e/c;->b()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->f:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
     invoke-virtual {v1}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->p()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -484,10 +445,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->e:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -505,12 +464,10 @@
 
     check-cast v2, Lcom/meitu/library/appcia/f/e/b;
 
-    .line 3
     invoke-interface {v2}, Lcom/meitu/library/appcia/f/e/c;->s()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -532,12 +489,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->g:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->x(Lcom/meitu/library/appcia/diskspace/c/a$b;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -562,7 +517,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     iget-object v2, p0, Lcom/meitu/library/appcia/director/Director;->e:Ljava/util/LinkedList;
@@ -575,10 +529,8 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/appcia/director/Director;->e:Ljava/util/LinkedList;
 
-    .line 3
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -596,7 +548,6 @@
 
     check-cast v3, Lcom/meitu/library/appcia/f/e/b;
 
-    .line 4
     invoke-interface {v3}, Lcom/meitu/library/appcia/f/e/c;->getName()Ljava/lang/String;
 
     move-result-object v4
@@ -609,7 +560,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -623,14 +573,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->h:Landroid/app/Application;
 
     iget-object v2, p0, Lcom/meitu/library/appcia/director/Director;->c:Lcom/meitu/library/appcia/d/a;
 
     invoke-virtual {v1, v2}, Landroid/app/Application;->unregisterActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -647,17 +595,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->i:Lcom/meitu/library/appcia/a$a;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/appcia/a$a;->k(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->b:Lcom/meitu/library/appcia/i/a;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/appcia/i/a;->b(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -674,17 +619,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->i:Lcom/meitu/library/appcia/a$a;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/appcia/a$a;->o(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->b:Lcom/meitu/library/appcia/i/a;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/appcia/i/a;->c(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -701,17 +643,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->i:Lcom/meitu/library/appcia/a$a;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/appcia/a$a;->z(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->b:Lcom/meitu/library/appcia/i/a;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/appcia/i/a;->d(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -724,12 +663,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/director/Director;->g:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
     invoke-virtual {v1}, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->y()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -742,7 +679,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/appcia/f/c/a;->b()Lcotlinx/coroutines/m0;
 
     move-result-object v1
@@ -761,7 +697,6 @@
 
     invoke-static/range {v1 .. v6}, Lcotlinx/coroutines/f;->f(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/c2;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -15,7 +15,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,17 +23,14 @@
 .method private static b(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {v0, p0}, Landroid/content/pm/PackageManager;->getInstallerPackageName(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -54,13 +50,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/v;->a:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/common/v;->b(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
@@ -70,7 +64,6 @@
     :cond_0
     const-string p1, ""
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/v;->a:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

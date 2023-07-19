@@ -37,10 +37,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/function/ar/StudioArChildFragment$arViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment$arViewModel$2;-><init>(Lcom/commsource/studio/function/ar/StudioArChildFragment;)V
@@ -51,7 +49,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment;->c:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/ar/StudioArChildFragment$adapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment$adapter$2;-><init>(Lcom/commsource/studio/function/ar/StudioArChildFragment;)V
@@ -62,7 +59,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment;->f:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/function/ar/StudioArChildFragment$rv$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment$rv$2;-><init>(Lcom/commsource/studio/function/ar/StudioArChildFragment;)V
@@ -87,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment;->g:Lcom/meitu/template/bean/ArMaterialGroup;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -102,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -143,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment;->g:Lcom/meitu/template/bean/ArMaterialGroup;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -158,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -173,17 +165,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->m()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->x()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/e;->p()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -214,7 +203,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object p1
@@ -223,14 +211,12 @@
 
     const-string p3, "position"
 
-    .line 2
     invoke-virtual {p1, p3}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment;->d:I
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->C()Landroidx/recyclerview/widget/RecyclerView;
 
@@ -276,10 +262,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->C()Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object p1
@@ -296,7 +280,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->C()Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object p1
@@ -307,7 +290,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->z()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p1
@@ -330,7 +312,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->x()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -343,7 +324,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->x()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -356,7 +336,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->z()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p1
@@ -377,7 +356,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->z()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p1
@@ -398,7 +376,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->z()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p1
@@ -419,7 +396,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->z()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p1
@@ -440,7 +416,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->z()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p1
@@ -461,7 +436,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->z()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p1
@@ -482,7 +456,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

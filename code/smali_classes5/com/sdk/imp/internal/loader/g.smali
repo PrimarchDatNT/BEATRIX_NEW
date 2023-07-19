@@ -31,7 +31,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/internal/loader/g;
 
     invoke-direct {v0}, Lcom/sdk/imp/internal/loader/g;-><init>()V
@@ -40,7 +39,6 @@
 
     const-string v0, ""
 
-    .line 2
     sput-object v0, Lcom/sdk/imp/internal/loader/g;->e:Ljava/lang/String;
 
     return-void
@@ -49,7 +47,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +55,6 @@
 .method public static a()Lcom/sdk/imp/internal/loader/g;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/internal/loader/g;->b:Lcom/sdk/imp/internal/loader/g;
 
     return-object v0

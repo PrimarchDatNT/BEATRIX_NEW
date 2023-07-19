@@ -117,7 +117,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/internal/PathFinder$b;->g:Ljava/util/Set;
@@ -126,42 +125,36 @@
 
     iput-boolean p3, p0, Lkshark/internal/PathFinder$b;->i:Z
 
-    .line 2
     new-instance p1, Ljava/util/ArrayDeque;
 
     invoke-direct {p1}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object p1, p0, Lkshark/internal/PathFinder$b;->a:Ljava/util/Deque;
 
-    .line 3
     new-instance p1, Ljava/util/ArrayDeque;
 
     invoke-direct {p1}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object p1, p0, Lkshark/internal/PathFinder$b;->b:Ljava/util/Deque;
 
-    .line 4
     new-instance p1, Ljava/util/HashSet;
 
     invoke-direct {p1}, Ljava/util/HashSet;-><init>()V
 
     iput-object p1, p0, Lkshark/internal/PathFinder$b;->c:Ljava/util/HashSet;
 
-    .line 5
     new-instance p1, Ljava/util/HashSet;
 
     invoke-direct {p1}, Ljava/util/HashSet;-><init>()V
 
     iput-object p1, p0, Lkshark/internal/PathFinder$b;->d:Ljava/util/HashSet;
 
-    .line 6
     new-instance p1, Lkshark/internal/hppc/b;
 
     invoke-direct {p1}, Lkshark/internal/hppc/b;-><init>()V
 
     iput-object p1, p0, Lkshark/internal/PathFinder$b;->e:Lkshark/internal/hppc/b;
 
-    .line 7
     new-instance p1, Lkshark/internal/hppc/LongLongScatterMap;
 
     invoke-direct {p1}, Lkshark/internal/hppc/LongLongScatterMap;-><init>()V
@@ -176,7 +169,6 @@
 .method public final a()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lkshark/internal/PathFinder$b;->i:Z
 
     return v0
@@ -187,7 +179,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->f:Lkshark/internal/hppc/LongLongScatterMap;
 
     return-object v0
@@ -207,7 +198,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->g:Ljava/util/Set;
 
     return-object v0
@@ -216,7 +206,6 @@
 .method public final d()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->a:Ljava/util/Deque;
 
     invoke-interface {v0}, Ljava/util/Collection;->isEmpty()Z
@@ -252,7 +241,6 @@
 .method public final e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/internal/PathFinder$b;->h:I
 
     return v0
@@ -272,7 +260,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->b:Ljava/util/Deque;
 
     return-object v0
@@ -292,7 +279,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->d:Ljava/util/HashSet;
 
     return-object v0
@@ -312,7 +298,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->a:Ljava/util/Deque;
 
     return-object v0
@@ -332,7 +317,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->c:Ljava/util/HashSet;
 
     return-object v0
@@ -343,7 +327,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->e:Lkshark/internal/hppc/b;
 
     return-object v0

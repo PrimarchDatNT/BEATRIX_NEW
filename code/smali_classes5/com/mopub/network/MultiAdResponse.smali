@@ -82,20 +82,16 @@
 
     move-object/from16 v11, p4
 
-    .line 1
     invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static/range {p2 .. p2}, Lcom/mopub/network/MultiAdResponse;->parseStringBody(Lcom/mopub/network/MoPubNetworkResponse;)Ljava/lang/String;
 
     move-result-object v12
 
-    .line 3
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, v12}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 4
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->FAIL_URL:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-virtual {v2}, Lcom/mopub/common/util/ResponseHeader;->getKey()Ljava/lang/String;
@@ -108,7 +104,6 @@
 
     iput-object v2, v1, Lcom/mopub/network/MultiAdResponse;->mFailUrl:Ljava/lang/String;
 
-    .line 5
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->ADUNIT_FORMAT:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-virtual {v2}, Lcom/mopub/common/util/ResponseHeader;->getKey()Ljava/lang/String;
@@ -119,7 +114,6 @@
 
     move-result-object v13
 
-    .line 6
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->REQUEST_ID:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-virtual {v2}, Lcom/mopub/common/util/ResponseHeader;->getKey()Ljava/lang/String;
@@ -130,28 +124,24 @@
 
     move-result-object v14
 
-    .line 7
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->BACKOFF_MS:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v0, v2}, Lcom/mopub/network/HeaderUtils;->extractIntegerHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/Integer;
 
     move-result-object v2
 
-    .line 8
     sget-object v3, Lcom/mopub/common/util/ResponseHeader;->BACKOFF_REASON:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v0, v3}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 9
     invoke-static {}, Lcom/mopub/network/RequestRateTracker;->getInstance()Lcom/mopub/network/RequestRateTracker;
 
     move-result-object v4
 
     invoke-virtual {v4, v11, v2, v3}, Lcom/mopub/network/RequestRateTracker;->registerRateLimit(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
 
-    .line 10
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->INVALIDATE_CONSENT:Lcom/mopub/common/util/ResponseHeader;
 
     const/4 v15, 0x0
@@ -160,48 +150,41 @@
 
     move-result v2
 
-    .line 11
     sget-object v3, Lcom/mopub/common/util/ResponseHeader;->FORCE_EXPLICIT_NO:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v0, v3, v15}, Lcom/mopub/network/HeaderUtils;->extractBooleanHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;Z)Z
 
     move-result v3
 
-    .line 12
     sget-object v4, Lcom/mopub/common/util/ResponseHeader;->REACQUIRE_CONSENT:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v0, v4, v15}, Lcom/mopub/network/HeaderUtils;->extractBooleanHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;Z)Z
 
     move-result v4
 
-    .line 13
     sget-object v5, Lcom/mopub/common/util/ResponseHeader;->CONSENT_CHANGE_REASON:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v0, v5}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 14
     sget-object v6, Lcom/mopub/common/util/ResponseHeader;->FORCE_GDPR_APPLIES:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v0, v6, v15}, Lcom/mopub/network/HeaderUtils;->extractBooleanHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;Z)Z
 
     move-result v6
 
-    .line 15
     sget-object v7, Lcom/mopub/network/MultiAdResponse;->sServerOverrideListener:Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;
 
     if-eqz v7, :cond_4
 
     if-eqz v6, :cond_0
 
-    .line 16
     invoke-interface {v7}, Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;->onForceGdprApplies()V
 
     :cond_0
     if-eqz v3, :cond_1
 
-    .line 17
     sget-object v2, Lcom/mopub/network/MultiAdResponse;->sServerOverrideListener:Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;
 
     invoke-interface {v2, v5}, Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;->onForceExplicitNo(Ljava/lang/String;)V
@@ -211,7 +194,6 @@
     :cond_1
     if-eqz v2, :cond_2
 
-    .line 18
     sget-object v2, Lcom/mopub/network/MultiAdResponse;->sServerOverrideListener:Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;
 
     invoke-interface {v2, v5}, Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;->onInvalidateConsent(Ljava/lang/String;)V
@@ -221,19 +203,16 @@
     :cond_2
     if-eqz v4, :cond_3
 
-    .line 19
     sget-object v2, Lcom/mopub/network/MultiAdResponse;->sServerOverrideListener:Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;
 
     invoke-interface {v2, v5}, Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;->onReacquireConsent(Ljava/lang/String;)V
 
-    .line 20
     :cond_3
     :goto_0
     sget-object v2, Lcom/mopub/network/MultiAdResponse;->sServerOverrideListener:Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;
 
     invoke-interface {v2, v11}, Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;->onRequestSuccess(Ljava/lang/String;)V
 
-    .line 21
     :cond_4
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->ENABLE_DEBUG_LOGGING:Lcom/mopub/common/util/ResponseHeader;
 
@@ -243,12 +222,10 @@
 
     if-eqz v2, :cond_5
 
-    .line 22
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$LogLevel;->DEBUG:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     invoke-static {v2}, Lcom/mopub/common/logging/MoPubLog;->setLogLevel(Lcom/mopub/common/logging/MoPubLog$LogLevel;)V
 
-    .line 23
     :cond_5
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->REWARDED:Lcom/mopub/common/util/ResponseHeader;
 
@@ -256,14 +233,12 @@
 
     move-result v16
 
-    .line 24
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->CREATIVE_EXPERIENCE_SETTINGS:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v0, v2}, Lcom/mopub/network/HeaderUtils;->extractJsonObjectHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Lorg/json/JSONObject;
 
     move-result-object v17
 
-    .line 25
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->AD_RESPONSES:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-virtual {v2}, Lcom/mopub/common/util/ResponseHeader;->getKey()Ljava/lang/String;
@@ -276,7 +251,6 @@
 
     const/4 v0, 0x3
 
-    .line 26
     new-instance v9, Ljava/util/ArrayList;
 
     invoke-direct {v9, v0}, Ljava/util/ArrayList;-><init>(I)V
@@ -287,7 +261,6 @@
 
     const/4 v8, 0x0
 
-    .line 27
     :goto_1
     invoke-virtual {v10}, Lorg/json/JSONArray;->length()I
 
@@ -297,13 +270,11 @@
 
     const/4 v7, 0x1
 
-    .line 28
     :try_start_0
     invoke-virtual {v10, v8}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v0
 
-    .line 29
     invoke-static/range {v16 .. v16}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v19
@@ -338,7 +309,6 @@
 
     move-object/from16 v10, v17
 
-    .line 30
     :try_start_1
     invoke-static/range {v2 .. v10}, Lcom/mopub/network/MultiAdResponse;->parseSingleAdResponse(Landroid/content/Context;Lcom/mopub/network/MoPubNetworkResponse;Lorg/json/JSONObject;Ljava/lang/String;Lcom/mopub/common/AdFormat;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lorg/json/JSONObject;)Lcom/mopub/network/AdResponse;
 
@@ -346,7 +316,6 @@
 
     const-string v3, "clear"
 
-    .line 31
     invoke-virtual {v2}, Lcom/mopub/network/AdResponse;->getAdType()Ljava/lang/String;
 
     move-result-object v4
@@ -357,7 +326,6 @@
 
     if-nez v3, :cond_6
 
-    .line 32
     invoke-interface {v15, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_3
@@ -365,14 +333,12 @@
     :cond_6
     const-string v3, ""
 
-    .line 33
     iput-object v3, v1, Lcom/mopub/network/MultiAdResponse;->mFailUrl:Ljava/lang/String;
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_8
     .catch Lcom/mopub/network/MoPubNetworkError; {:try_start_1 .. :try_end_1} :catch_4
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_3
 
-    .line 34
     :try_start_2
     invoke-static {v0}, Lcom/mopub/network/MultiAdResponse;->extractWarmup(Lorg/json/JSONObject;)Z
 
@@ -384,7 +350,6 @@
 
     goto/16 :goto_7
 
-    .line 35
     :cond_7
     new-instance v0, Lcom/mopub/network/MoPubNetworkError$Builder;
 
@@ -394,12 +359,10 @@
 
     sget-object v3, Lcom/mopub/network/MoPubNetworkError$Reason;->WARMING_UP:Lcom/mopub/network/MoPubNetworkError$Reason;
 
-    .line 36
     invoke-virtual {v0, v3}, Lcom/mopub/network/MoPubNetworkError$Builder;->reason(Lcom/mopub/network/MoPubNetworkError$Reason;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object v0
 
-    .line 37
     invoke-virtual {v2}, Lcom/mopub/network/AdResponse;->getRefreshTimeMillis()Ljava/lang/Integer;
 
     move-result-object v3
@@ -408,7 +371,6 @@
 
     move-result-object v0
 
-    .line 38
     invoke-virtual {v0}, Lcom/mopub/network/MoPubNetworkError$Builder;->build()Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object v0
@@ -457,7 +419,6 @@
 
     move-object/from16 v19, v10
 
-    .line 39
     :goto_2
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
@@ -503,7 +464,6 @@
 
     move-object/from16 v19, v10
 
-    .line 40
     :goto_4
     invoke-virtual {v0}, Lcom/mopub/network/MoPubNetworkError;->getReason()Lcom/mopub/network/MoPubNetworkError$Reason;
 
@@ -513,7 +473,6 @@
 
     if-eq v2, v3, :cond_8
 
-    .line 41
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v3, 0x1
@@ -546,7 +505,6 @@
 
     goto :goto_3
 
-    .line 42
     :cond_8
     throw v0
 
@@ -557,7 +515,6 @@
 
     move-object/from16 v19, v10
 
-    .line 43
     :catch_8
     :goto_5
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
@@ -600,7 +557,6 @@
     :cond_9
     move-object v15, v9
 
-    .line 44
     :goto_7
     invoke-interface {v15}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -608,7 +564,6 @@
 
     iput-object v0, v1, Lcom/mopub/network/MultiAdResponse;->mResponseIterator:Ljava/util/Iterator;
 
-    .line 45
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -617,19 +572,16 @@
 
     const/16 v0, 0x7530
 
-    .line 46
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
     if-eqz v18, :cond_a
 
-    .line 47
     invoke-virtual/range {v18 .. v18}, Lcom/mopub/network/AdResponse;->getRefreshTimeMillis()Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 48
     :cond_a
     new-instance v2, Lcom/mopub/network/MoPubNetworkError$Builder;
 
@@ -639,17 +591,14 @@
 
     sget-object v3, Lcom/mopub/network/MoPubNetworkError$Reason;->NO_FILL:Lcom/mopub/network/MoPubNetworkError$Reason;
 
-    .line 49
     invoke-virtual {v2, v3}, Lcom/mopub/network/MoPubNetworkError$Builder;->reason(Lcom/mopub/network/MoPubNetworkError$Reason;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object v2
 
-    .line 50
     invoke-virtual {v2, v0}, Lcom/mopub/network/MoPubNetworkError$Builder;->refreshTimeMillis(Ljava/lang/Integer;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object v0
 
-    .line 51
     invoke-virtual {v0}, Lcom/mopub/network/MoPubNetworkError$Builder;->build()Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object v0
@@ -673,7 +622,6 @@
 
     const-string v0, "mraid"
 
-    .line 1
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -690,7 +638,6 @@
 
     const-string v0, "interstitial"
 
-    .line 2
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -705,7 +652,6 @@
 
     if-nez v1, :cond_4
 
-    .line 3
     :cond_0
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -724,7 +670,6 @@
     :cond_1
     const-string v0, "rewarded_video"
 
-    .line 4
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -740,7 +685,6 @@
     :cond_2
     const-string p1, "rewarded_playable"
 
-    .line 5
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -749,7 +693,6 @@
 
     const-string p1, "fullscreen"
 
-    .line 6
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -786,10 +729,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->METADATA:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-virtual {v0}, Lcom/mopub/common/util/ResponseHeader;->getKey()Ljava/lang/String;
@@ -800,7 +741,6 @@
 
     move-result-object p0
 
-    .line 3
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->REFRESH_TIME:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {p0, v0}, Lcom/mopub/network/HeaderUtils;->extractIntegerHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/Integer;
@@ -813,7 +753,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
@@ -836,10 +775,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->METADATA:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-virtual {v0}, Lcom/mopub/common/util/ResponseHeader;->getKey()Ljava/lang/String;
@@ -850,7 +787,6 @@
 
     move-result-object p0
 
-    .line 3
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->WARMUP:Lcom/mopub/common/util/ResponseHeader;
 
     const/4 v1, 0x0
@@ -916,25 +852,18 @@
 
     const-string v2, "adm"
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static/range {p4 .. p4}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static/range {p5 .. p5}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static/range {p7 .. p7}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 7
     sget-object v3, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->RESPONSE_RECEIVED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v4, 0x1
@@ -951,12 +880,10 @@
 
     invoke-static {v3, v5}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 8
     new-instance v3, Lcom/mopub/network/AdResponse$Builder;
 
     invoke-direct {v3}, Lcom/mopub/network/AdResponse$Builder;-><init>()V
 
-    .line 9
     sget-object v5, Lcom/mopub/common/util/ResponseHeader;->CONTENT:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-virtual {v5}, Lcom/mopub/common/util/ResponseHeader;->getKey()Ljava/lang/String;
@@ -967,7 +894,6 @@
 
     move-result-object v5
 
-    .line 10
     sget-object v6, Lcom/mopub/common/util/ResponseHeader;->METADATA:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-virtual {v6}, Lcom/mopub/common/util/ResponseHeader;->getKey()Ljava/lang/String;
@@ -980,67 +906,54 @@
 
     move-object/from16 v8, p3
 
-    .line 11
     invoke-virtual {v3, v8}, Lcom/mopub/network/AdResponse$Builder;->setAdUnitId(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 12
     invoke-virtual {v3, v5}, Lcom/mopub/network/AdResponse$Builder;->setResponseBody(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 13
     sget-object v8, Lcom/mopub/common/util/ResponseHeader;->AD_TYPE:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v8}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v8
 
-    .line 14
     sget-object v9, Lcom/mopub/common/util/ResponseHeader;->AD_GROUP_ID:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v9}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v9
 
-    .line 15
     sget-object v10, Lcom/mopub/common/util/ResponseHeader;->FULL_AD_TYPE:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v10}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v10
 
-    .line 16
     invoke-virtual {v3, v8}, Lcom/mopub/network/AdResponse$Builder;->setAdType(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 17
     invoke-virtual {v3, v9}, Lcom/mopub/network/AdResponse$Builder;->setAdGroupId(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 18
     invoke-virtual {v3, v10}, Lcom/mopub/network/AdResponse$Builder;->setFullAdType(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 19
     invoke-static {p2}, Lcom/mopub/network/MultiAdResponse;->extractRefreshTimeMS(Lorg/json/JSONObject;)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 20
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setRefreshTimeMilliseconds(Ljava/lang/Integer;)Lcom/mopub/network/AdResponse$Builder;
 
     const-string v0, "clear"
 
-    .line 21
     invoke-virtual {v0, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 22
     invoke-virtual {v3}, Lcom/mopub/network/AdResponse$Builder;->build()Lcom/mopub/network/AdResponse;
 
     move-result-object v0
 
     return-object v0
 
-    .line 23
     :cond_0
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->DSP_CREATIVE_ID:Lcom/mopub/common/util/ResponseHeader;
 
@@ -1048,41 +961,34 @@
 
     move-result-object v0
 
-    .line 24
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setDspCreativeId(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 25
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->NETWORK_TYPE:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 26
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setNetworkType(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 27
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->IMPRESSION_DATA:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractJsonObjectHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Lorg/json/JSONObject;
 
     move-result-object v0
 
-    .line 28
     invoke-static {v0}, Lcom/mopub/network/ImpressionData;->create(Lorg/json/JSONObject;)Lcom/mopub/network/ImpressionData;
 
     move-result-object v0
 
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setImpressionData(Lcom/mopub/network/ImpressionData;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 29
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->CLICK_TRACKING_URL:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractStringArray(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/util/List;
 
     move-result-object v9
 
-    .line 30
     invoke-interface {v9}, Ljava/util/List;->isEmpty()Z
 
     move-result v11
@@ -1091,12 +997,10 @@
 
     if-eqz v11, :cond_1
 
-    .line 31
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 32
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v11
@@ -1109,35 +1013,29 @@
 
     if-nez v11, :cond_1
 
-    .line 33
     invoke-interface {v9, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 34
     :cond_1
     invoke-virtual {v3, v9}, Lcom/mopub/network/AdResponse$Builder;->setClickTrackingUrls(Ljava/util/List;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 35
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->IMPRESSION_URLS:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractStringArray(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 36
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v9
 
     if-eqz v9, :cond_2
 
-    .line 37
     sget-object v9, Lcom/mopub/common/util/ResponseHeader;->IMPRESSION_URL:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v9}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v9
 
-    .line 38
     invoke-static {v9}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v11
@@ -1150,33 +1048,27 @@
 
     if-nez v11, :cond_2
 
-    .line 39
     invoke-interface {v0, v9}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 40
     :cond_2
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setImpressionTrackingUrls(Ljava/util/List;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 41
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->BEFORE_LOAD_URL:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractStringArray(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/util/List;
 
     move-result-object v9
 
-    .line 42
     invoke-interface {v9}, Ljava/util/List;->isEmpty()Z
 
     move-result v11
 
     if-eqz v11, :cond_3
 
-    .line 43
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 44
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v11
@@ -1189,33 +1081,27 @@
 
     if-nez v11, :cond_3
 
-    .line 45
     invoke-interface {v9, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 46
     :cond_3
     invoke-virtual {v3, v9}, Lcom/mopub/network/AdResponse$Builder;->setBeforeLoadUrls(Ljava/util/List;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 47
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->AFTER_LOAD_URL:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractStringArray(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/util/List;
 
     move-result-object v9
 
-    .line 48
     invoke-interface {v9}, Ljava/util/List;->isEmpty()Z
 
     move-result v11
 
     if-eqz v11, :cond_4
 
-    .line 49
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 50
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v11
@@ -1228,33 +1114,27 @@
 
     if-nez v11, :cond_4
 
-    .line 51
     invoke-interface {v9, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 52
     :cond_4
     invoke-virtual {v3, v9}, Lcom/mopub/network/AdResponse$Builder;->setAfterLoadUrls(Ljava/util/List;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 53
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->AFTER_LOAD_SUCCESS_URL:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractStringArray(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/util/List;
 
     move-result-object v9
 
-    .line 54
     invoke-interface {v9}, Ljava/util/List;->isEmpty()Z
 
     move-result v11
 
     if-eqz v11, :cond_5
 
-    .line 55
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 56
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v11
@@ -1267,33 +1147,27 @@
 
     if-nez v11, :cond_5
 
-    .line 57
     invoke-interface {v9, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 58
     :cond_5
     invoke-virtual {v3, v9}, Lcom/mopub/network/AdResponse$Builder;->setAfterLoadSuccessUrls(Ljava/util/List;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 59
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->AFTER_LOAD_FAIL_URL:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractStringArray(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/util/List;
 
     move-result-object v9
 
-    .line 60
     invoke-interface {v9}, Ljava/util/List;->isEmpty()Z
 
     move-result v11
 
     if-eqz v11, :cond_6
 
-    .line 61
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 62
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v11
@@ -1306,55 +1180,45 @@
 
     if-nez v11, :cond_6
 
-    .line 63
     invoke-interface {v9, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 64
     :cond_6
     invoke-virtual {v3, v9}, Lcom/mopub/network/AdResponse$Builder;->setAfterLoadFailUrls(Ljava/util/List;)Lcom/mopub/network/AdResponse$Builder;
 
     move-object/from16 v0, p6
 
-    .line 65
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setRequestId(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 66
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->WIDTH:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractIntegerHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 67
     sget-object v9, Lcom/mopub/common/util/ResponseHeader;->HEIGHT:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v9}, Lcom/mopub/network/HeaderUtils;->extractIntegerHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/Integer;
 
     move-result-object v9
 
-    .line 68
     invoke-virtual {v3, v0, v9}, Lcom/mopub/network/AdResponse$Builder;->setDimensions(Ljava/lang/Integer;Ljava/lang/Integer;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 69
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->AD_TIMEOUT:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractIntegerHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 70
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setAdTimeoutDelayMilliseconds(Ljava/lang/Integer;)Lcom/mopub/network/AdResponse$Builder;
 
     const-string v0, "json"
 
-    .line 71
     invoke-virtual {v0, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v9
 
     if-eqz v9, :cond_7
 
-    .line 72
     :try_start_0
     new-instance v9, Lorg/json/JSONObject;
 
@@ -1369,7 +1233,6 @@
     :catch_0
     move-exception v0
 
-    .line 73
     new-instance v1, Lcom/mopub/network/MoPubNetworkError$Builder;
 
     const-string v2, "Failed to decode body JSON for native ad format"
@@ -1378,69 +1241,56 @@
 
     sget-object v0, Lcom/mopub/network/MoPubNetworkError$Reason;->BAD_BODY:Lcom/mopub/network/MoPubNetworkError$Reason;
 
-    .line 74
     invoke-virtual {v1, v0}, Lcom/mopub/network/MoPubNetworkError$Builder;->reason(Lcom/mopub/network/MoPubNetworkError$Reason;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object v0
 
-    .line 75
     invoke-virtual {v0}, Lcom/mopub/network/MoPubNetworkError$Builder;->build()Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object v0
 
     throw v0
 
-    .line 76
     :cond_7
     :goto_0
     invoke-static {v1, v8, v10, v6}, Lcom/mopub/mobileads/AdTypeTranslator;->getBaseAdClassName(Lcom/mopub/common/AdFormat;Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
 
     move-result-object v9
 
-    .line 77
     invoke-virtual {v3, v9}, Lcom/mopub/network/AdResponse$Builder;->setBaseAdClassName(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 78
     sget-object v9, Lcom/mopub/common/util/ResponseHeader;->BROWSER_AGENT:Lcom/mopub/common/util/ResponseHeader;
 
-    .line 79
     invoke-static {v6, v9}, Lcom/mopub/network/HeaderUtils;->extractIntegerHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/Integer;
 
     move-result-object v9
 
-    .line 80
     invoke-static {v9}, Lcom/mopub/common/BrowserAgentManager$BrowserAgent;->fromHeader(Ljava/lang/Integer;)Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 
     move-result-object v9
 
-    .line 81
     invoke-static {v9}, Lcom/mopub/common/BrowserAgentManager;->setBrowserAgentFromAdServer(Lcom/mopub/common/BrowserAgentManager$BrowserAgent;)V
 
-    .line 82
     invoke-virtual {v3, v9}, Lcom/mopub/network/AdResponse$Builder;->setBrowserAgent(Lcom/mopub/common/BrowserAgentManager$BrowserAgent;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 83
     sget-object v9, Lcom/mopub/common/util/ResponseHeader;->CUSTOM_EVENT_DATA:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v9}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v9
 
-    .line 84
     invoke-static {v9}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v11
 
     if-eqz v11, :cond_8
 
-    .line 85
     sget-object v9, Lcom/mopub/common/util/ResponseHeader;->NATIVE_PARAMS:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v9}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v9
 
-    .line 86
     :cond_8
     :try_start_1
     invoke-static {v9}, Lcom/mopub/common/util/Json;->jsonStringToMap(Ljava/lang/String;)Ljava/util/Map;
@@ -1449,7 +1299,6 @@
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_3
 
-    .line 87
     :try_start_2
     invoke-virtual {v6, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -1461,7 +1310,6 @@
 
     if-nez v11, :cond_9
 
-    .line 88
     invoke-virtual {v6, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v11
@@ -1470,7 +1318,6 @@
     :try_end_2
     .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_2
 
-    .line 89
     :cond_9
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->VAST_CLICK_ENABLED:Lcom/mopub/common/util/ResponseHeader;
 
@@ -1491,7 +1338,6 @@
     :cond_a
     const/4 v2, 0x0
 
-    .line 90
     :goto_1
     invoke-static {v2}, Ljava/lang/Boolean;->toString(Z)Ljava/lang/String;
 
@@ -1499,17 +1345,14 @@
 
     const-string v11, "com_mopub_vast_click_exp_enabled"
 
-    .line 91
     invoke-interface {v9, v11, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v2, "adunit_format"
 
     move-object/from16 v11, p5
 
-    .line 92
     invoke-interface {v9, v2, v11}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 93
     invoke-static {v8, v10}, Lcom/mopub/network/MultiAdResponse;->eventDataIsInResponseBody(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v2
@@ -1518,10 +1361,8 @@
 
     const-string v2, "html-response-body"
 
-    .line 94
     invoke-interface {v9, v2, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 95
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->ORIENTATION:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v2}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
@@ -1532,7 +1373,6 @@
 
     invoke-interface {v9, v5, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 96
     :cond_b
     invoke-virtual {v0, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1540,28 +1380,24 @@
 
     if-eqz v0, :cond_e
 
-    .line 97
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->IMPRESSION_MIN_VISIBLE_PERCENT:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractPercentHeaderString(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 98
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->IMPRESSION_VISIBLE_MS:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v2}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 99
     sget-object v5, Lcom/mopub/common/util/ResponseHeader;->IMPRESSION_MIN_VISIBLE_PX:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v5}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 100
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
@@ -1570,10 +1406,8 @@
 
     const-string v8, "impression-min-visible-percent"
 
-    .line 101
     invoke-interface {v9, v8, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 102
     :cond_c
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1583,10 +1417,8 @@
 
     const-string v0, "impression-visible-ms"
 
-    .line 103
     invoke-interface {v9, v0, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 104
     :cond_d
     invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1596,10 +1428,8 @@
 
     const-string v0, "impression-min-visible-px"
 
-    .line 105
     invoke-interface {v9, v0, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 106
     :cond_e
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->VIDEO_TRACKERS:Lcom/mopub/common/util/ResponseHeader;
 
@@ -1607,7 +1437,6 @@
 
     move-result-object v0
 
-    .line 107
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -1616,10 +1445,8 @@
 
     const-string v2, "video-trackers"
 
-    .line 108
     invoke-interface {v9, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 109
     :cond_f
     sget-object v0, Lcom/mopub/common/AdFormat;->BANNER:Lcom/mopub/common/AdFormat;
 
@@ -1629,29 +1456,22 @@
 
     if-eqz v0, :cond_10
 
-    .line 110
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->BANNER_IMPRESSION_MIN_VISIBLE_MS:Lcom/mopub/common/util/ResponseHeader;
 
-    .line 111
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 112
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setBannerImpressionMinVisibleMs(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 113
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->BANNER_IMPRESSION_MIN_VISIBLE_DIPS:Lcom/mopub/common/util/ResponseHeader;
 
-    .line 114
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 115
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setBannerImpressionMinVisibleDips(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 116
     :cond_10
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->DISABLE_VIEWABILITY:Lcom/mopub/common/util/ResponseHeader;
 
@@ -1659,14 +1479,12 @@
 
     move-result-object v0
 
-    .line 117
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_11
 
-    .line 118
     :try_start_3
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -1674,14 +1492,12 @@
 
     if-lez v0, :cond_11
 
-    .line 119
     invoke-static {}, Lcom/mopub/common/MoPub;->disableViewability()V
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
 
     goto :goto_2
 
-    .line 120
     :catch_1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
@@ -1693,7 +1509,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 121
     :cond_11
     :goto_2
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->VIEWABILITY_VERIFICATION:Lcom/mopub/common/util/ResponseHeader;
@@ -1702,65 +1517,52 @@
 
     move-result-object v0
 
-    .line 122
     invoke-static {v0}, Lcom/mopub/common/ViewabilityVendor;->createFromJsonArray(Lorg/json/JSONArray;)Ljava/util/Set;
 
     move-result-object v0
 
-    .line 123
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setViewabilityVendors(Ljava/util/Set;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 124
     invoke-virtual {v3, v9}, Lcom/mopub/network/AdResponse$Builder;->setServerExtras(Ljava/util/Map;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 125
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->REWARDED_VIDEO_CURRENCY_NAME:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v0}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 126
     sget-object v1, Lcom/mopub/common/util/ResponseHeader;->REWARDED_VIDEO_CURRENCY_AMOUNT:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v1}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 127
     sget-object v2, Lcom/mopub/common/util/ResponseHeader;->REWARDED_CURRENCIES:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v2}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 128
     sget-object v4, Lcom/mopub/common/util/ResponseHeader;->REWARDED_VIDEO_COMPLETION_URL:Lcom/mopub/common/util/ResponseHeader;
 
     invoke-static {v6, v4}, Lcom/mopub/network/HeaderUtils;->extractHeader(Lorg/json/JSONObject;Lcom/mopub/common/util/ResponseHeader;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 129
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setRewardedAdCurrencyName(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 130
     invoke-virtual {v3, v1}, Lcom/mopub/network/AdResponse$Builder;->setRewardedAdCurrencyAmount(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 131
     invoke-virtual {v3, v2}, Lcom/mopub/network/AdResponse$Builder;->setRewardedCurrencies(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 132
     invoke-virtual {v3, v4}, Lcom/mopub/network/AdResponse$Builder;->setRewardedAdCompletionUrl(Ljava/lang/String;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 133
     invoke-virtual/range {p7 .. p7}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v0
 
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setRewarded(Z)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 134
     invoke-virtual/range {p7 .. p7}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v0
@@ -1771,10 +1573,8 @@
 
     move-result-object v0
 
-    .line 135
     invoke-virtual {v3, v0}, Lcom/mopub/network/AdResponse$Builder;->setCreativeExperienceSettings(Lcom/mopub/mobileads/CreativeExperienceSettings;)Lcom/mopub/network/AdResponse$Builder;
 
-    .line 136
     invoke-virtual {v3}, Lcom/mopub/network/AdResponse$Builder;->build()Lcom/mopub/network/AdResponse;
 
     move-result-object v0
@@ -1784,7 +1584,6 @@
     :catch_2
     move-exception v0
 
-    .line 137
     new-instance v1, Lcom/mopub/network/MoPubNetworkError$Builder;
 
     const-string v2, "Failed to parse ADM for advanced bidding"
@@ -1793,12 +1592,10 @@
 
     sget-object v0, Lcom/mopub/network/MoPubNetworkError$Reason;->BAD_BODY:Lcom/mopub/network/MoPubNetworkError$Reason;
 
-    .line 138
     invoke-virtual {v1, v0}, Lcom/mopub/network/MoPubNetworkError$Builder;->reason(Lcom/mopub/network/MoPubNetworkError$Reason;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object v0
 
-    .line 139
     invoke-virtual {v0}, Lcom/mopub/network/MoPubNetworkError$Builder;->build()Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object v0
@@ -1810,7 +1607,6 @@
 
     move-object v1, v0
 
-    .line 140
     new-instance v0, Lcom/mopub/network/MoPubNetworkError$Builder;
 
     const-string v2, "Failed to decode server extras for base ad data."
@@ -1819,12 +1615,10 @@
 
     sget-object v1, Lcom/mopub/network/MoPubNetworkError$Reason;->BAD_HEADER_DATA:Lcom/mopub/network/MoPubNetworkError$Reason;
 
-    .line 141
     invoke-virtual {v0, v1}, Lcom/mopub/network/MoPubNetworkError$Builder;->reason(Lcom/mopub/network/MoPubNetworkError$Reason;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object v0
 
-    .line 142
     invoke-virtual {v0}, Lcom/mopub/network/MoPubNetworkError$Builder;->build()Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object v0
@@ -1839,10 +1633,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     :try_start_0
     new-instance v0, Ljava/lang/String;
 
@@ -1850,7 +1642,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0}, Lcom/mopub/network/MoPubNetworkResponse;->getHeaders()Ljava/util/Map;
 
     move-result-object v2
@@ -1865,7 +1656,6 @@
 
     goto :goto_0
 
-    .line 4
     :catch_0
     new-instance v0, Ljava/lang/String;
 
@@ -1886,7 +1676,6 @@
         .end annotation
     .end param
 
-    .line 1
     sput-object p0, Lcom/mopub/network/MultiAdResponse;->sServerOverrideListener:Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;
 
     return-void
@@ -1899,7 +1688,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MultiAdResponse;->mFailUrl:Ljava/lang/String;
 
     return-object v0
@@ -1908,7 +1696,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MultiAdResponse;->mResponseIterator:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -1921,7 +1708,6 @@
 .method isWaterfallFinished()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MultiAdResponse;->mFailUrl:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1936,7 +1722,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/MultiAdResponse;->mResponseIterator:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -1953,7 +1738,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/network/MultiAdResponse;->next()Lcom/mopub/network/AdResponse;
 
     move-result-object v0

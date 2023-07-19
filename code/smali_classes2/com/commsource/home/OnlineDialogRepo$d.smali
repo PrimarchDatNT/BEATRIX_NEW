@@ -26,12 +26,10 @@
 .method constructor <init>(Ljava/util/List;Lcom/commsource/home/entity/DialogDataEntity;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/OnlineDialogRepo$d;->g:Ljava/util/List;
 
     iput-object p2, p0, Lcom/commsource/home/OnlineDialogRepo$d;->p:Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 2
     invoke-direct {p0, p3}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -46,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/OnlineDialogRepo$d;->g:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
@@ -59,7 +56,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/OnlineDialogRepo$d;->g:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -107,10 +103,8 @@
     :goto_1
     if-nez v3, :cond_5
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/home/OnlineDialogRepo$d;->g:Ljava/util/List;
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -128,12 +122,10 @@
 
     check-cast v2, Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 5
     invoke-virtual {v2, v4}, Lcom/commsource/home/entity/DialogDataEntity;->setBout(I)V
 
     goto :goto_2
 
-    .line 6
     :cond_3
     sget-object v1, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
@@ -145,7 +137,6 @@
 
     new-array v3, v4, [Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 7
     invoke-interface {v2, v3}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v2
@@ -154,15 +145,12 @@
 
     check-cast v2, [Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 8
     invoke-interface {v1, v2}, Lf/k/i0/a/s0;->A([Lcom/commsource/home/entity/DialogDataEntity;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_4
     new-instance v1, Ljava/lang/NullPointerException;
 
@@ -174,7 +162,6 @@
 
     throw v1
 
-    .line 11
     :cond_5
     sget-object v1, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
@@ -186,7 +173,6 @@
 
     invoke-interface {v1, v2}, Lf/k/i0/a/s0;->F0(Lcom/commsource/home/entity/DialogDataEntity;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

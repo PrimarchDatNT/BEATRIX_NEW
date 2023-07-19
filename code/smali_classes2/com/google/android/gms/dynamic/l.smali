@@ -21,7 +21,6 @@
 .method constructor <init>(Lcom/google/android/gms/dynamic/a;Landroid/widget/FrameLayout;Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/dynamic/l;->e:Lcom/google/android/gms/dynamic/a;
 
     iput-object p2, p0, Lcom/google/android/gms/dynamic/l;->a:Landroid/widget/FrameLayout;
@@ -42,12 +41,10 @@
 .method public final a(Lcom/google/android/gms/dynamic/e;)V
     .locals 4
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/dynamic/l;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {p1}, Landroid/widget/FrameLayout;->removeAllViews()V
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/dynamic/l;->a:Landroid/widget/FrameLayout;
 
     iget-object v0, p0, Lcom/google/android/gms/dynamic/l;->e:Lcom/google/android/gms/dynamic/a;

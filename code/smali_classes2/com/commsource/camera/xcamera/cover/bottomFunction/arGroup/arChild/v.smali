@@ -43,10 +43,8 @@
 .method public constructor <init>(Landroid/content/Context;Landroidx/lifecycle/LifecycleOwner;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Landroidx/viewpager/widget/PagerAdapter;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
@@ -55,17 +53,14 @@
 
     const/4 v0, -0x1
 
-    .line 3
     iput v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->c:I
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->e:Ljava/util/List;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;
 
     const/4 v1, 0x0
@@ -86,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->b:Landroid/util/SparseArray;
 
     iget v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->c:I
@@ -129,10 +121,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel;->p()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -146,13 +136,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->c:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->c()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -173,35 +160,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p3, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel;
 
     if-eqz v1, :cond_0
 
-    .line 2
     move-object v1, p3
 
     check-cast v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel;->q()V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;->b(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->b:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p2}, Landroid/util/SparseArray;->remove(I)V
 
-    .line 5
     :cond_0
     check-cast p3, Landroid/view/View;
 
     invoke-virtual {p1, p3}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -214,10 +195,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -238,18 +217,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->e:Ljava/util/List;
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->b:Landroid/util/SparseArray;
 
     invoke-virtual {p1}, Landroid/util/SparseArray;->clear()V
 
-    .line 3
     invoke-virtual {p0}, Landroidx/viewpager/widget/PagerAdapter;->notifyDataSetChanged()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -262,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->e:Ljava/util/List;
 
     if-nez v1, :cond_0
@@ -295,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->e:Ljava/util/List;
 
     if-eqz v1, :cond_7
@@ -308,7 +281,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->e:Ljava/util/List;
 
@@ -318,7 +290,6 @@
 
     check-cast v1, Lcom/meitu/template/bean/ArMaterialGroup;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterialGroup;->getGroupType()I
 
     move-result v2
@@ -327,7 +298,6 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;
 
     const-class v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/MyArGroupPanel;
@@ -338,7 +308,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterialGroup;->getGroupType()I
 
@@ -348,7 +317,6 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;
 
     const-class v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/HotArGroupPanel;
@@ -359,7 +327,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterialGroup;->getGroupType()I
 
@@ -369,7 +336,6 @@
 
     if-ne v2, v3, :cond_3
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;
 
     const-class v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/MontageArPanel;
@@ -380,7 +346,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterialGroup;->getGroupType()I
 
@@ -390,7 +355,6 @@
 
     if-ne v2, v3, :cond_4
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;
 
     const-class v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/NewArGroupPanel;
@@ -401,7 +365,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_4
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterialGroup;->getGroupType()I
 
@@ -411,7 +374,6 @@
 
     if-ne v2, v3, :cond_5
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;
 
     const-class v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/IPStoreSubsGroupPanel;
@@ -422,7 +384,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_5
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterialGroup;->getGroupType()I
 
@@ -432,7 +393,6 @@
 
     if-ne v2, v3, :cond_6
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;
 
     const-class v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/IPStoreNormalGroupPanel;
@@ -443,7 +403,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_6
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;
 
@@ -453,24 +412,19 @@
 
     move-result-object v2
 
-    .line 16
     :goto_0
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->b:Landroid/util/SparseArray;
 
     invoke-virtual {v3, p2, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 17
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 18
     invoke-virtual {v2, p2, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel;->m(ILcom/meitu/template/bean/ArMaterialGroup;)V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 20
     :cond_7
     :goto_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;
@@ -510,7 +464,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

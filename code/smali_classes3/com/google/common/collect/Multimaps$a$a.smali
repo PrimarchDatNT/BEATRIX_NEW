@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/Multimaps$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Multimaps$a$a;->a:Lcom/google/common/collect/Multimaps$a;
 
     invoke-direct {p0}, Lcom/google/common/collect/Maps$q;-><init>()V
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$a$a;->a:Lcom/google/common/collect/Multimaps$a;
 
     return-object v0
@@ -72,10 +70,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$a$a;->a:Lcom/google/common/collect/Multimaps$a;
 
-    .line 2
     invoke-static {v0}, Lcom/google/common/collect/Multimaps$a;->d(Lcom/google/common/collect/Multimaps$a;)Lcom/google/common/collect/l1;
 
     move-result-object v0
@@ -88,7 +84,6 @@
 
     invoke-direct {v1, p0}, Lcom/google/common/collect/Multimaps$a$a$a;-><init>(Lcom/google/common/collect/Multimaps$a$a;)V
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/common/collect/Maps;->m(Ljava/util/Set;Lcom/google/common/base/n;)Ljava/util/Iterator;
 
     move-result-object v0
@@ -99,7 +94,6 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Maps$q;->contains(Ljava/lang/Object;)Z
 
     move-result v0
@@ -110,11 +104,9 @@
 
     return p1
 
-    .line 2
     :cond_0
     check-cast p1, Ljava/util/Map$Entry;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$a$a;->a:Lcom/google/common/collect/Multimaps$a;
 
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;

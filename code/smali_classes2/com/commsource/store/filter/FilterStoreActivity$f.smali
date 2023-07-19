@@ -54,14 +54,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/util/p2/c;
 
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity$f;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-direct {v0, v1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/store/filter/FilterStoreActivity$f$a;
 
     sget-object v2, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;->CAMERA_TAKE:Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;
@@ -72,7 +70,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -85,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/FilterStoreActivity$f;->a(Ljava/lang/Boolean;)V

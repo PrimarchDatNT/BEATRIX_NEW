@@ -45,7 +45,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/bj;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/bj;-><init>()V
@@ -58,7 +57,6 @@
 .method public constructor <init>(Lcom/google/android/gms/ads/y/b;)V
     .locals 1
 
-    .line 1
     invoke-interface {p1}, Lcom/google/android/gms/ads/y/b;->getType()Ljava/lang/String;
 
     move-result-object v0
@@ -87,13 +85,10 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzaub;->a:Ljava/lang/String;
 
-    .line 4
     iput p2, p0, Lcom/google/android/gms/internal/ads/zzaub;->b:I
 
     return-void
@@ -112,7 +107,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
     move-result v0
@@ -121,13 +115,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/ads/zzaub;
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {p0, v1}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v2
@@ -138,7 +130,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p0, v1}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object p0
@@ -169,18 +160,15 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     instance-of v1, p1, Lcom/google/android/gms/internal/ads/zzaub;
 
     if-nez v1, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/android/gms/internal/ads/zzaub;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzaub;->a:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/google/android/gms/internal/ads/zzaub;->a:Ljava/lang/String;
@@ -193,7 +181,6 @@
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzaub;->b:I
 
-    .line 4
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -226,7 +213,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzaub;->a:Ljava/lang/String;
 
     const/4 v2, 0x0
@@ -253,12 +239,10 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzaub;->a:Ljava/lang/String;
 
     const/4 v1, 0x2
@@ -267,14 +251,12 @@
 
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 3
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzaub;->b:I
 
     const/4 v1, 0x3
 
     invoke-static {p1, v1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->F(Landroid/os/Parcel;II)V
 
-    .line 4
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void

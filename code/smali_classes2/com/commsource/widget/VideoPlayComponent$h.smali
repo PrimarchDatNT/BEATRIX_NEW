@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayComponent$h;->a:Lcom/commsource/widget/VideoPlayComponent;
 
     invoke-virtual {v1}, Lcom/commsource/widget/VideoPlayComponent;->getOnPlayListener()Lcom/commsource/widget/VideoPlayComponent$a;
@@ -52,7 +51,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayComponent$h;->a:Lcom/commsource/widget/VideoPlayComponent;
 
     invoke-static {v1}, Lcom/commsource/widget/VideoPlayComponent;->d(Lcom/commsource/widget/VideoPlayComponent;)Landroid/media/MediaPlayer;
@@ -73,12 +71,10 @@
     :goto_0
     if-gez v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     iget-object v2, p0, Lcom/commsource/widget/VideoPlayComponent$h;->a:Lcom/commsource/widget/VideoPlayComponent;
 
@@ -90,7 +86,6 @@
 
     invoke-interface {v2, v1}, Lcom/commsource/widget/VideoPlayComponent$a;->b(I)V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

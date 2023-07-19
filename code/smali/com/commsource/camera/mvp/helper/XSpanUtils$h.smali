@@ -25,10 +25,8 @@
 .method private constructor <init>(Landroid/graphics/Shader;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Landroid/text/style/CharacterStyle;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$h;->a:Landroid/graphics/Shader;
 
     return-void
@@ -37,7 +35,6 @@
 .method synthetic constructor <init>(Landroid/graphics/Shader;Lcom/commsource/camera/mvp/helper/XSpanUtils$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/mvp/helper/XSpanUtils$h;-><init>(Landroid/graphics/Shader;)V
 
     return-void
@@ -52,12 +49,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$h;->a:Landroid/graphics/Shader;
 
     invoke-virtual {p1, v1}, Landroid/text/TextPaint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

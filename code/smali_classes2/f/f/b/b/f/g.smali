@@ -12,17 +12,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lf/f/b/b/f/g;->a:Z
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lf/f/b/b/f/g;->b:Lf/f/b/b/f/h;
 
     return-void
@@ -33,49 +30,41 @@
 .method public final a(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lf/f/b/b/f/g;->a:Z
 
     if-eqz v0, :cond_0
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     sget-object v0, Lcom/google/android/gms/dynamite/DynamiteModule;->l:Lcom/google/android/gms/dynamite/DynamiteModule$a;
 
     const-string v1, "com.google.android.gms.flags"
 
-    .line 5
     invoke-static {p1, v0, v1}, Lcom/google/android/gms/dynamite/DynamiteModule;->e(Landroid/content/Context;Lcom/google/android/gms/dynamite/DynamiteModule$a;Ljava/lang/String;)Lcom/google/android/gms/dynamite/DynamiteModule;
 
     move-result-object v0
 
     const-string v1, "com.google.android.gms.flags.impl.FlagProviderImpl"
 
-    .line 6
     invoke-virtual {v0, v1}, Lcom/google/android/gms/dynamite/DynamiteModule;->d(Ljava/lang/String;)Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 7
     invoke-static {v0}, Lf/f/b/b/f/i;->asInterface(Landroid/os/IBinder;)Lf/f/b/b/f/h;
 
     move-result-object v0
 
     iput-object v0, p0, Lf/f/b/b/f/g;->b:Lf/f/b/b/f/h;
 
-    .line 8
     invoke-static {p1}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object p1
@@ -84,7 +73,6 @@
 
     const/4 p1, 0x1
 
-    .line 9
     iput-boolean p1, p0, Lf/f/b/b/f/g;->a:Z
     :try_end_1
     .catch Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException; {:try_start_1 .. :try_end_1} :catch_1
@@ -107,10 +95,8 @@
 
     const-string v1, "Failed to initialize flags module."
 
-    .line 10
     invoke-static {v0, v1, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 11
     :goto_1
     monitor-exit p0
 
@@ -138,16 +124,13 @@
         }
     .end annotation
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lf/f/b/b/f/g;->a:Z
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lf/f/b/b/f/a;->i()Ljava/lang/Object;
 
     move-result-object p1
@@ -156,13 +139,11 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     iget-object v0, p0, Lf/f/b/b/f/g;->b:Lf/f/b/b/f/h;
 
     invoke-virtual {p1, v0}, Lf/f/b/b/f/a;->h(Lf/f/b/b/f/h;)Ljava/lang/Object;
@@ -174,7 +155,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     monitor-exit p0
     :try_end_1

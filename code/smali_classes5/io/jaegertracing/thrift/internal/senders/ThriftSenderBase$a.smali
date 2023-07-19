@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase$ProtocolType;->values()[Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase$ProtocolType;
 
     move-result-object v0

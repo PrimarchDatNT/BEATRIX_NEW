@@ -11,7 +11,6 @@
 .method public constructor <init>(J)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/t/e;-><init>()V
 
     const-wide/16 v0, 0x0
@@ -20,12 +19,10 @@
 
     if-lez v2, :cond_0
 
-    .line 2
     iput-wide p1, p0, Lcom/meitu/common/video/videocache/t/h;->c:J
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -45,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v0, p0, Lcom/meitu/common/video/videocache/t/h;->c:J
 
     cmp-long p4, p2, v0

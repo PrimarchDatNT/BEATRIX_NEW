@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/yl;Landroid/content/Context;Lcom/google/android/gms/internal/ads/lq;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/bm;->a:Landroid/content/Context;
 
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/bm;->b:Lcom/google/android/gms/internal/ads/lq;
@@ -31,7 +30,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bm;->a:Landroid/content/Context;
 
@@ -39,7 +37,6 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/bm;->b:Lcom/google/android/gms/internal/ads/lq;
 
     invoke-virtual {v1, v0}, Lcom/google/android/gms/internal/ads/lq;->a(Ljava/lang/Object;)Z
@@ -69,7 +66,6 @@
     :catch_3
     move-exception v0
 
-    .line 3
     :goto_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/bm;->b:Lcom/google/android/gms/internal/ads/lq;
 
@@ -77,7 +73,6 @@
 
     const-string v1, "Exception while getting advertising Id info"
 
-    .line 4
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

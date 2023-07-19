@@ -48,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/tools/utils/debug/Logger$LoggerLevel;
 
     const-string v2, "NONE"
@@ -125,10 +124,8 @@
 
     aput-object v10, v12, v13
 
-    .line 2
     sput-object v12, Lcom/meitu/media/tools/utils/debug/Logger$LoggerLevel;->$VALUES:[Lcom/meitu/media/tools/utils/debug/Logger$LoggerLevel;
 
-    .line 3
     sput-object v10, Lcom/meitu/media/tools/utils/debug/Logger$LoggerLevel;->ALL:Lcom/meitu/media/tools/utils/debug/Logger$LoggerLevel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,7 +141,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -157,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/media/tools/utils/debug/Logger$LoggerLevel;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -178,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/media/tools/utils/debug/Logger$LoggerLevel;->$VALUES:[Lcom/meitu/media/tools/utils/debug/Logger$LoggerLevel;
 
     invoke-virtual {v1}, [Lcom/meitu/media/tools/utils/debug/Logger$LoggerLevel;->clone()Ljava/lang/Object;
@@ -201,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/Enum;->compareTo(Ljava/lang/Enum;)I
 
     move-result p1

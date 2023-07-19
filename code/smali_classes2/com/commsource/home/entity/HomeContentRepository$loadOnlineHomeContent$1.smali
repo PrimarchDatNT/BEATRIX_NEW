@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lf/k/k/u/a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1;->invoke(Lf/k/k/u/a;)V
@@ -93,21 +92,18 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1$1;-><init>(Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1;)V
 
     invoke-virtual {p1, v1}, Lf/k/k/u/a;->j(Lcotlin/jvm/u/l;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1$2;
 
     invoke-direct {v1, p0}, Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1$2;-><init>(Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1;)V
 
     invoke-virtual {p1, v1}, Lf/k/k/u/a;->i(Lcotlin/jvm/u/l;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

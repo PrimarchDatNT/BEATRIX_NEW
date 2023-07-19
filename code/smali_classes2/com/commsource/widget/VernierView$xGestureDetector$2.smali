@@ -59,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     iget-object v2, p0, Lcom/commsource/widget/VernierView$xGestureDetector$2;->$context:Landroid/content/Context;
@@ -70,7 +69,6 @@
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/beautymain/widget/gesturewidget/e;-><init>(Landroid/content/Context;Lcom/commsource/beautymain/widget/gesturewidget/e$b;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -83,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/VernierView$xGestureDetector$2;->invoke()Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     move-result-object v1

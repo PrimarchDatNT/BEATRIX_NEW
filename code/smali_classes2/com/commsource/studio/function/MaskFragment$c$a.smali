@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/MaskFragment$c$a;->a:Lcom/commsource/studio/function/MaskFragment$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -70,7 +68,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/MaskFragment$c$a;->a:Lcom/commsource/studio/function/MaskFragment$c;
 
     iget-object v0, v0, Lcom/commsource/studio/function/MaskFragment$c;->a:Lcom/commsource/studio/function/MaskFragment;
@@ -87,10 +84,8 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->setMaskEdit(Z)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/function/MaskFragment$c$a;->a:Lcom/commsource/studio/function/MaskFragment$c;
 
     iget-object v0, v0, Lcom/commsource/studio/function/MaskFragment$c;->a:Lcom/commsource/studio/function/MaskFragment;
@@ -111,7 +106,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/function/MaskFragment$c$a;->a:Lcom/commsource/studio/function/MaskFragment$c;
 
     iget-object v0, v0, Lcom/commsource/studio/function/MaskFragment$c;->a:Lcom/commsource/studio/function/MaskFragment;
@@ -126,7 +120,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/editengine/f;->l()V
 
-    .line 5
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -144,7 +137,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -161,7 +153,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

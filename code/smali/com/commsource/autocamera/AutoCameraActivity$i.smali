@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/AutoCameraActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$i;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/autocamera/AutoCameraActivity$i;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     iget-object v0, v0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
@@ -53,7 +51,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity$i;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     iget-object v1, v1, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
@@ -64,7 +61,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/autocamera/AutoCameraActivity$i;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     iget-object v2, v2, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
@@ -85,19 +81,16 @@
 
     check-cast v0, Lcom/commsource/autocamera/AutoCameraViewModel;
 
-    .line 4
     invoke-virtual {v0}, Lcom/commsource/autocamera/AutoCameraViewModel;->h1()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/autocamera/AutoCameraActivity$i;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-virtual {v0}, Lcom/commsource/autocamera/AutoCameraActivity;->a2()V
 
-    .line 6
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

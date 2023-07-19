@@ -78,7 +78,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -89,54 +88,42 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/scwang/smartrefresh/layout/internal/InternalAbstract;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     iput-boolean v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->K:Z
 
     const/4 v1, -0x1
 
-    .line 4
     iput v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->P:I
 
-    .line 5
     iput v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->Q:I
 
-    .line 6
     iput v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->V:I
 
     const/4 v0, 0x0
 
-    .line 7
     iput v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->W:F
 
-    .line 8
     iput v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->a0:F
 
-    .line 9
     iput v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->b0:F
 
-    .line 10
     new-instance v2, Landroid/graphics/RectF;
 
     invoke-direct {v2, v0, v0, v0, v0}, Landroid/graphics/RectF;-><init>(FFFF)V
 
     iput-object v2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->d0:Landroid/graphics/RectF;
 
-    .line 11
     sget-object v2, Lcom/scwang/smartrefresh/layout/constant/b;->f:Lcom/scwang/smartrefresh/layout/constant/b;
 
     iput-object v2, p0, Lcom/scwang/smartrefresh/layout/internal/InternalAbstract;->b:Lcom/scwang/smartrefresh/layout/constant/b;
 
-    .line 12
     new-instance v2, Landroid/graphics/Path;
 
     invoke-direct {v2}, Landroid/graphics/Path;-><init>()V
 
     iput-object v2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->L:Landroid/graphics/Path;
 
-    .line 13
     new-instance v2, Landroid/graphics/Paint;
 
     invoke-direct {v2}, Landroid/graphics/Paint;-><init>()V
@@ -145,12 +132,10 @@
 
     const/4 v3, 0x1
 
-    .line 14
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     const/high16 v2, 0x40e00000    # 7.0f
 
-    .line 15
     invoke-static {v2}, Lcom/scwang/smartrefresh/layout/e/b;->d(F)I
 
     move-result v3
@@ -161,7 +146,6 @@
 
     const/high16 v3, 0x41a00000    # 20.0f
 
-    .line 16
     invoke-static {v3}, Lcom/scwang/smartrefresh/layout/e/b;->d(F)I
 
     move-result v3
@@ -170,7 +154,6 @@
 
     iput v3, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->W:F
 
-    .line 17
     invoke-static {v2}, Lcom/scwang/smartrefresh/layout/e/b;->d(F)I
 
     move-result v2
@@ -179,7 +162,6 @@
 
     iput v2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->a0:F
 
-    .line 18
     iget-object v2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     const/high16 v3, 0x40400000    # 3.0f
@@ -194,14 +176,12 @@
 
     const/high16 v2, 0x42c80000    # 100.0f
 
-    .line 19
     invoke-static {v2}, Lcom/scwang/smartrefresh/layout/e/b;->d(F)I
 
     move-result v2
 
     invoke-virtual {p0, v2}, Landroid/view/View;->setMinimumHeight(I)V
 
-    .line 20
     invoke-virtual {p0}, Landroid/view/View;->isInEditMode()Z
 
     move-result v2
@@ -210,26 +190,21 @@
 
     const/16 v0, 0x3e8
 
-    .line 21
     iput v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->N:I
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 22
     iput v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->b0:F
 
     const/16 v0, 0x10e
 
-    .line 23
     iput v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->V:I
 
     goto :goto_0
 
-    .line 24
     :cond_0
     iput v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->b0:F
 
-    .line 25
     :goto_0
     sget-object v0, Lcom/scwang/smartrefresh/layout/b$e;->e:[I
 
@@ -237,7 +212,6 @@
 
     move-result-object p1
 
-    .line 26
     sget p2, Lcom/scwang/smartrefresh/layout/b$e;->g:I
 
     iget-boolean v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->K:Z
@@ -248,7 +222,6 @@
 
     iput-boolean p2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->K:Z
 
-    .line 27
     sget p2, Lcom/scwang/smartrefresh/layout/b$e;->f:I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getColor(II)I
@@ -257,7 +230,6 @@
 
     invoke-virtual {p0, v0}, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->v(I)Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;
 
-    .line 28
     sget v0, Lcom/scwang/smartrefresh/layout/b$e;->h:I
 
     const v1, -0xddddde
@@ -268,21 +240,18 @@
 
     invoke-virtual {p0, v1}, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->y(I)Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;
 
-    .line 29
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->p:Z
 
-    .line 30
     invoke-virtual {p1, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->g:Z
 
-    .line 31
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
     return-void
@@ -293,12 +262,10 @@
 .method protected dispatchDraw(Landroid/graphics/Canvas;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->isInEditMode()Z
 
     move-result v1
@@ -314,20 +281,15 @@
     :cond_0
     iget v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->Q:I
 
-    .line 3
     :goto_0
     invoke-virtual {p0, p1, v0}, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->u(Landroid/graphics/Canvas;I)V
 
-    .line 4
     invoke-virtual {p0, p1, v0, v1}, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->n(Landroid/graphics/Canvas;II)V
 
-    .line 5
     invoke-virtual {p0, p1, v0, v1}, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->q(Landroid/graphics/Canvas;II)V
 
-    .line 6
     invoke-virtual {p0, p1, v0, v1}, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->t(Landroid/graphics/Canvas;II)V
 
-    .line 7
     invoke-super {p0, p1}, Landroid/widget/RelativeLayout;->dispatchDraw(Landroid/graphics/Canvas;)V
 
     return-void
@@ -340,31 +302,25 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->c0:Landroid/animation/Animator;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/animation/Animator;->removeAllListeners()V
 
-    .line 3
     iget-object p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->c0:Landroid/animation/Animator;
 
     invoke-virtual {p1}, Landroid/animation/Animator;->end()V
 
     const/4 p1, 0x0
 
-    .line 4
     iput-object p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->c0:Landroid/animation/Animator;
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result p1
 
-    .line 6
     iget p2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->Q:I
 
     mul-int p1, p1, p1
@@ -375,7 +331,6 @@
 
     int-to-double p1, p1
 
-    .line 7
     invoke-static {p1, p2}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide p1
@@ -388,7 +343,6 @@
 
     const/4 v0, 0x0
 
-    .line 8
     iget v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->W:F
 
     aput v1, p2, v0
@@ -403,10 +357,8 @@
 
     const-wide/16 v0, 0x190
 
-    .line 9
     invoke-virtual {p1, v0, v1}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 10
     new-instance p2, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader$b;
 
     const/4 v0, 0x3
@@ -415,7 +367,6 @@
 
     invoke-virtual {p1, p2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 11
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
     const/16 p1, 0x190
@@ -438,7 +389,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object p1, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader$a;->a:[I
 
     invoke-virtual {p3}, Ljava/lang/Enum;->ordinal()I
@@ -460,15 +410,12 @@
     :cond_0
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 2
     iput p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->R:F
 
     const/4 p1, 0x0
 
-    .line 3
     iput p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->b0:F
 
-    .line 4
     iput p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->U:F
 
     :goto_0
@@ -478,10 +425,8 @@
 .method public m(FII)V
     .locals 0
 
-    .line 1
     iput p2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->P:I
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
@@ -492,7 +437,6 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     iget v1, v0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->R:F
 
     const/4 v2, 0x0
@@ -501,14 +445,12 @@
 
     if-lez v1, :cond_3
 
-    .line 2
     iget-object v1, v0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     iget v3, v0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->d:I
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 3
     invoke-static/range {p3 .. p3}, Lcom/scwang/smartrefresh/layout/e/b;->j(I)F
 
     move-result v1
@@ -525,7 +467,6 @@
 
     div-float/2addr v5, v6
 
-    .line 4
     iget v7, v0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->S:F
 
     mul-float v8, v5, v7
@@ -586,7 +527,6 @@
 
     const/high16 v10, 0x437f0000    # 255.0f
 
-    .line 5
     invoke-static {v7}, Ljava/lang/Math;->abs(F)F
 
     move-result v11
@@ -599,7 +539,6 @@
 
     mul-float v11, v11, v10
 
-    .line 6
     iget-object v10, v0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     iget v12, v0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->R:F
@@ -636,7 +575,6 @@
 
     invoke-virtual {v10, v6}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 7
     iget v6, v0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->T:F
 
     const/high16 v7, 0x41200000    # 10.0f
@@ -663,7 +601,6 @@
 
     div-float v10, v5, v9
 
-    .line 8
     iget-object v11, v0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     move-object/from16 v12, p1
@@ -676,7 +613,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     iget-object v1, v0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
@@ -691,7 +627,6 @@
 .method public o()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->K:Z
 
     return v0
@@ -700,25 +635,20 @@
 .method protected onDetachedFromWindow()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Landroid/widget/RelativeLayout;->onDetachedFromWindow()V
 
-    .line 2
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->c0:Landroid/animation/Animator;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Landroid/animation/Animator;->removeAllListeners()V
 
-    .line 4
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->c0:Landroid/animation/Animator;
 
     invoke-virtual {v0}, Landroid/animation/Animator;->end()V
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->c0:Landroid/animation/Animator;
 
     :cond_0
@@ -736,15 +666,12 @@
 
     sub-int/2addr p2, p1
 
-    .line 1
     iput p2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->N:I
 
     const/4 p2, 0x0
 
-    .line 2
     iput-boolean p2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->J:Z
 
-    .line 3
     new-instance p3, Lcom/scwang/smartrefresh/layout/e/b;
 
     sget v0, Lcom/scwang/smartrefresh/layout/e/b;->c:I
@@ -755,17 +682,14 @@
 
     new-array v1, v0, [F
 
-    .line 4
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1, p3}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 6
     new-instance v2, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader$b;
 
     invoke-direct {v2, p0, v0}, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader$b;-><init>(Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;B)V
@@ -774,17 +698,14 @@
 
     new-array v2, v0, [F
 
-    .line 7
     fill-array-data v2, :array_1
 
     invoke-static {v2}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
 
     move-result-object v2
 
-    .line 8
     invoke-virtual {v1, p3}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 9
     new-instance p3, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader$b;
 
     invoke-direct {p3, p0, p2}, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader$b;-><init>(Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;B)V
@@ -793,7 +714,6 @@
 
     new-array p3, v0, [I
 
-    .line 10
     fill-array-data p3, :array_2
 
     invoke-static {p3}, Landroid/animation/ValueAnimator;->ofInt([I)Landroid/animation/ValueAnimator;
@@ -802,22 +722,18 @@
 
     const-wide/16 v3, 0x2d0
 
-    .line 11
     invoke-virtual {p3, v3, v4}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
     const/4 v3, -0x1
 
-    .line 12
     invoke-virtual {p3, v3}, Landroid/animation/ValueAnimator;->setRepeatCount(I)V
 
-    .line 13
     new-instance v3, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v3}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
 
     invoke-virtual {p3, v3}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 14
     new-instance v3, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader$b;
 
     const/4 v4, 0x4
@@ -826,7 +742,6 @@
 
     invoke-virtual {p3, v3}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 15
     new-instance v3, Landroid/animation/AnimatorSet;
 
     invoke-direct {v3}, Landroid/animation/AnimatorSet;-><init>()V
@@ -841,17 +756,14 @@
 
     aput-object p3, v6, v0
 
-    .line 16
     invoke-virtual {v3, v6}, Landroid/animation/AnimatorSet;->playSequentially([Landroid/animation/Animator;)V
 
-    .line 17
     invoke-virtual {v3}, Landroid/animation/AnimatorSet;->start()V
 
     const/4 p3, 0x6
 
     new-array p3, p3, [I
 
-    .line 18
     iget v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->O:I
 
     aput v1, p3, p2
@@ -892,14 +804,12 @@
 
     move-result-object p2
 
-    .line 19
     new-instance p3, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader$b;
 
     invoke-direct {p3, p0, p1}, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader$b;-><init>(Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;B)V
 
     invoke-virtual {p2, p3}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 20
     new-instance p1, Lcom/scwang/smartrefresh/layout/e/b;
 
     sget p3, Lcom/scwang/smartrefresh/layout/e/b;->c:I
@@ -910,13 +820,10 @@
 
     const-wide/16 v0, 0x320
 
-    .line 21
     invoke-virtual {p2, v0, v1}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 22
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 23
     iput-object v3, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->c0:Landroid/animation/Animator;
 
     return-void
@@ -945,7 +852,6 @@
 .method protected q(Landroid/graphics/Canvas;II)V
     .locals 12
 
-    .line 1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->c0:Landroid/animation/Animator;
 
     if-nez v0, :cond_0
@@ -956,7 +862,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     :cond_0
     iget v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->W:F
 
@@ -964,19 +869,16 @@
 
     mul-float v0, v0, v1
 
-    .line 3
     iget v2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->a0:F
 
     mul-float v2, v2, v1
 
-    .line 4
     iget-object v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     iget v3, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->d:I
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     sget-object v3, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
@@ -993,12 +895,10 @@
 
     div-float/2addr p3, v1
 
-    .line 6
     iget-object v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     invoke-virtual {p1, p2, p3, v0, v1}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 7
     iget-object v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     sget-object v3, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
@@ -1007,12 +907,10 @@
 
     add-float/2addr v2, v0
 
-    .line 8
     iget-object v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     invoke-virtual {p1, p2, p3, v2, v1}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 9
     iget-object v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     iget v3, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->f:I
@@ -1027,14 +925,12 @@
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 10
     iget-object v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     sget-object v3, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 11
     iget-object v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->d0:Landroid/graphics/RectF;
 
     sub-float v3, p2, v0
@@ -1047,7 +943,6 @@
 
     invoke-virtual {v1, v3, v4, v5, v0}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 12
     iget-object v7, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->d0:Landroid/graphics/RectF;
 
     const/high16 v8, 0x43870000    # 270.0f
@@ -1064,14 +959,12 @@
 
     invoke-virtual/range {v6 .. v11}, Landroid/graphics/Canvas;->drawArc(Landroid/graphics/RectF;FFZLandroid/graphics/Paint;)V
 
-    .line 13
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 14
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->d0:Landroid/graphics/RectF;
 
     sub-float v1, p2, v2
@@ -1084,7 +977,6 @@
 
     invoke-virtual {v0, v1, v3, p2, p3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 15
     iget-object v5, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->d0:Landroid/graphics/RectF;
 
     const/high16 v6, 0x43870000    # 270.0f
@@ -1101,7 +993,6 @@
 
     invoke-virtual/range {v4 .. v9}, Landroid/graphics/Canvas;->drawArc(Landroid/graphics/RectF;FFZLandroid/graphics/Paint;)V
 
-    .line 16
     iget-object p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     sget-object p2, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
@@ -1115,12 +1006,10 @@
 .method public s(ZFIII)V
     .locals 0
 
-    .line 1
     iput p3, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->Q:I
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-boolean p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->J:Z
 
     if-eqz p1, :cond_1
@@ -1128,10 +1017,8 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->J:Z
 
-    .line 4
     invoke-static {p4, p3}, Ljava/lang/Math;->min(II)I
 
     move-result p1
@@ -1144,7 +1031,6 @@
 
     sub-int/2addr p3, p4
 
-    .line 5
     invoke-static {p5, p3}, Ljava/lang/Math;->max(II)I
 
     move-result p3
@@ -1157,10 +1043,8 @@
 
     iput p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->O:I
 
-    .line 6
     iput p2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->S:F
 
-    .line 7
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     :cond_1
@@ -1176,7 +1060,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -1187,15 +1070,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     aget v0, p1, v1
 
     invoke-virtual {p0, v0}, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->y(I)Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;
 
-    .line 3
     iput-boolean v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->g:Z
 
-    .line 4
     :cond_0
     array-length v0, p1
 
@@ -1207,12 +1087,10 @@
 
     if-nez v0, :cond_1
 
-    .line 5
     aget p1, p1, v2
 
     invoke-virtual {p0, p1}, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->v(I)Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;
 
-    .line 6
     iput-boolean v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->p:Z
 
     :cond_1
@@ -1222,7 +1100,6 @@
 .method protected t(Landroid/graphics/Canvas;II)V
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->U:F
 
     const/4 v1, 0x0
@@ -1231,7 +1108,6 @@
 
     if-lez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     iget v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->d:I
@@ -1248,7 +1124,6 @@
 
     div-float/2addr p3, v0
 
-    .line 3
     iget v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->U:F
 
     iget-object v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
@@ -1262,12 +1137,10 @@
 .method protected u(Landroid/graphics/Canvas;I)V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->L:Landroid/graphics/Path;
 
     invoke-virtual {v0}, Landroid/graphics/Path;->reset()V
 
-    .line 2
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->L:Landroid/graphics/Path;
 
     iget v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->N:I
@@ -1278,7 +1151,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 3
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->L:Landroid/graphics/Path;
 
     iget v1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->P:I
@@ -1311,19 +1183,16 @@
 
     invoke-virtual {v0, v1, v4, p2, v3}, Landroid/graphics/Path;->quadTo(FFFF)V
 
-    .line 4
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->L:Landroid/graphics/Path;
 
     invoke-virtual {v0, p2, v2}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 5
     iget-object p2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
 
     iget v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->f:I
 
     invoke-virtual {p2, v0}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 6
     iget-object p2, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->L:Landroid/graphics/Path;
 
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->M:Landroid/graphics/Paint;
@@ -1340,12 +1209,10 @@
         .end annotation
     .end param
 
-    .line 1
     iput p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->d:I
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->p:Z
 
     return-object p0
@@ -1358,7 +1225,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -1375,14 +1241,12 @@
 .method public x(Z)Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->K:Z
 
     if-nez p1, :cond_0
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->P:I
 
     :cond_0
@@ -1396,12 +1260,10 @@
         .end annotation
     .end param
 
-    .line 1
     iput p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->f:I
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/scwang/smartrefresh/layout/header/BezierRadarHeader;->g:Z
 
     return-object p0
@@ -1414,7 +1276,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v0

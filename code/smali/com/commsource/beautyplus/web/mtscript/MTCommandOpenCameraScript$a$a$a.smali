@@ -49,27 +49,22 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->T(I)V
 
-    .line 2
     invoke-static {}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->O()I
 
     move-result v2
 
     invoke-static {v2}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->S(I)V
 
-    .line 3
     sget-object v2, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->n:Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a;
 
     const-string v3, "0"
 
     invoke-virtual {v2, v3}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a;->f(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v2, v1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a;->e(Z)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a$a$a;->a:Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a$a;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a$a;->p:Landroid/webkit/WebView;
@@ -80,7 +75,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 6
     array-length v3, v2
 
     const/4 v4, 0x1
@@ -111,7 +105,6 @@
     :goto_1
     if-nez v2, :cond_2
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a$a$a;->a:Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a$a;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a$a;->p:Landroid/webkit/WebView;
@@ -122,7 +115,6 @@
 
     invoke-virtual {v2, v3}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 8
     :cond_2
     iget-object v2, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a$a$a;->b:[Ljava/lang/String;
 
@@ -146,7 +138,6 @@
     :cond_4
     if-nez v1, :cond_5
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a$a$a;->a:Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a$a;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$a$a;->p:Landroid/webkit/WebView;
@@ -157,7 +148,6 @@
 
     invoke-virtual {v1, v2}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 10
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

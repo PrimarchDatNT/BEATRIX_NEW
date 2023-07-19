@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$f;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -53,7 +51,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->s(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$f;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->T0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Lcom/commsource/beautyplus/router/RouterEntity;
@@ -72,7 +69,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$f;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->U0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Ljava/util/List;
@@ -85,7 +81,6 @@
 
     move-result v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$f;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {v2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->M0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
@@ -110,7 +105,6 @@
 
     invoke-virtual {v2, v1, v3, v4, v5}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->P(ILcom/commsource/beautyplus/miniapp/k;Landroidx/fragment/app/FragmentActivity;I)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

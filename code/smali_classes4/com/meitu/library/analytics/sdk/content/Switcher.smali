@@ -39,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/analytics/sdk/content/Switcher;
 
     const-string v2, "NETWORK"
@@ -50,7 +49,6 @@
 
     sput-object v1, Lcom/meitu/library/analytics/sdk/content/Switcher;->NETWORK:Lcom/meitu/library/analytics/sdk/content/Switcher;
 
-    .line 2
     new-instance v2, Lcom/meitu/library/analytics/sdk/content/Switcher;
 
     const-string v4, "LOCATION"
@@ -61,7 +59,6 @@
 
     sput-object v2, Lcom/meitu/library/analytics/sdk/content/Switcher;->LOCATION:Lcom/meitu/library/analytics/sdk/content/Switcher;
 
-    .line 3
     new-instance v4, Lcom/meitu/library/analytics/sdk/content/Switcher;
 
     const-string v6, "WIFI"
@@ -72,7 +69,6 @@
 
     sput-object v4, Lcom/meitu/library/analytics/sdk/content/Switcher;->WIFI:Lcom/meitu/library/analytics/sdk/content/Switcher;
 
-    .line 4
     new-instance v6, Lcom/meitu/library/analytics/sdk/content/Switcher;
 
     const-string v8, "APP_LIST"
@@ -95,7 +91,6 @@
 
     aput-object v6, v8, v9
 
-    .line 5
     sput-object v8, Lcom/meitu/library/analytics/sdk/content/Switcher;->$VALUES:[Lcom/meitu/library/analytics/sdk/content/Switcher;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -113,13 +108,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/meitu/library/analytics/sdk/content/Switcher;->mName:Ljava/lang/String;
 
-    .line 3
     iput-boolean p4, p0, Lcom/meitu/library/analytics/sdk/content/Switcher;->cloudControlOnly:Z
 
     return-void
@@ -132,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/library/analytics/sdk/content/Switcher;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -153,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/Switcher;->$VALUES:[Lcom/meitu/library/analytics/sdk/content/Switcher;
 
     invoke-virtual {v1}, [Lcom/meitu/library/analytics/sdk/content/Switcher;->clone()Ljava/lang/Object;
@@ -176,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/content/Switcher;->mName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -191,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/analytics/sdk/content/Switcher;->cloudControlOnly:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

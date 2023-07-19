@@ -37,10 +37,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -49,10 +47,8 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     :try_start_0
     invoke-static {}, Lcom/meitu/core/types/FaceData;->nativeCreate()J
 
@@ -61,7 +57,6 @@
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :goto_0
     iput-wide v0, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
@@ -76,13 +71,10 @@
     :try_start_1
     const-string v0, "FaceData nativeCreate fail, try again!"
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 6
     invoke-static {}, Lcom/meitu/core/types/FaceData;->nativeCreate()J
 
     move-result-wide v0
@@ -97,22 +89,18 @@
     :goto_2
     const-wide/16 v1, 0x0
 
-    .line 7
     iput-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
-    .line 8
     throw v0
 .end method
 
 .method private constructor <init>(Lcom/meitu/core/types/FaceData;)V
     .locals 4
 
-    .line 9
     invoke-direct {p0}, Lcom/meitu/core/types/FaceData;-><init>()V
 
     if-eqz p1, :cond_0
 
-    .line 10
     :try_start_0
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
@@ -129,13 +117,10 @@
     :catch_0
     const-string v0, "FaceData nativeCopy fail, try again!"
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 12
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 13
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
     move-result-wide v0
@@ -152,12 +137,10 @@
 .method private constructor <init>(Lcom/meitu/core/types/FaceData;[I)V
     .locals 4
 
-    .line 14
     invoke-direct {p0}, Lcom/meitu/core/types/FaceData;-><init>()V
 
     if-eqz p1, :cond_0
 
-    .line 15
     :try_start_0
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
@@ -174,13 +157,10 @@
     :catch_0
     const-string v0, "FaceData nativeCopyWithFaceIndex fail, try again!"
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 17
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 18
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
     move-result-wide v0
@@ -197,14 +177,12 @@
 .method private constructor <init>(Lcom/meitu/core/types/FaceData;[IZ)V
     .locals 4
 
-    .line 19
     invoke-direct {p0}, Lcom/meitu/core/types/FaceData;-><init>()V
 
     if-eqz p1, :cond_0
 
     if-eqz p3, :cond_0
 
-    .line 20
     :try_start_0
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
@@ -221,13 +199,10 @@
     :catch_0
     const-string p3, "FaceData nativeAllCopyWithFaceIndex fail, try again!"
 
-    .line 21
     invoke-static {p3}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 22
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 23
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
     move-result-wide v0
@@ -251,7 +226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -395,10 +369,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p1 .. p16}, Lcom/meitu/core/types/FaceData;->nativeAddMTFaceFeatureToFaceData(JIIIFFFF[FFFFIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -411,7 +383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/types/FaceData;
 
     const/4 v2, 0x1
@@ -430,12 +401,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/FaceData;->nativeClear(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -448,7 +417,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/types/FaceData;
 
     invoke-direct {v1, p0}, Lcom/meitu/core/types/FaceData;-><init>(Lcom/meitu/core/types/FaceData;)V
@@ -465,7 +433,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/meitu/core/types/FaceData;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/types/FaceData;-><init>(Lcom/meitu/core/types/FaceData;[I)V
@@ -482,7 +449,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeCopyFaceDataFromByte(J[B)Z
@@ -501,7 +467,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/FaceData;->nativeCopyFaceDataToByte(J)[B
@@ -520,7 +485,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
     move-result-wide v1
@@ -550,7 +514,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
@@ -558,10 +521,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -569,10 +530,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -585,7 +544,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetAge(JI)I
@@ -604,7 +562,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/FaceData;->nativeGetAvgBrightness(J)I
@@ -623,7 +580,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetClusterID(JI)I
@@ -642,7 +598,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/FaceData;->nativeGetDetectHeight(J)I
@@ -661,7 +616,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/FaceData;->nativeGetDetectWidth(J)I
@@ -680,7 +634,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetFaceCode(JI)[F
@@ -699,7 +652,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/FaceData;->nativeGetFaceCount(J)I
@@ -718,7 +670,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetFaceID(JI)I
@@ -745,7 +696,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/meitu/core/types/FaceData;->getDetectWidth()I
 
     move-result v1
@@ -778,7 +728,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetLandmark(JII)[F
@@ -787,19 +736,16 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     array-length p2, p1
 
     if-lez p2, :cond_0
 
-    .line 3
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     array-length v2, p1
 
@@ -807,7 +753,6 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 5
     new-instance v2, Landroid/graphics/PointF;
 
     mul-int/lit8 v3, v1, 0x2
@@ -828,7 +773,6 @@
 
     invoke-direct {v2, v4, v3}, Landroid/graphics/PointF;-><init>(FF)V
 
-    .line 6
     invoke-virtual {p2, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v1, v1, 0x1
@@ -838,7 +782,6 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -852,7 +795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetLandmark(JII)[F
@@ -861,7 +803,6 @@
 
     const/4 p2, 0x0
 
-    .line 2
     :goto_0
     array-length v1, p1
 
@@ -871,7 +812,6 @@
 
     mul-int/lit8 v1, p2, 0x2
 
-    .line 3
     aget v2, p1, v1
 
     int-to-float v3, p3
@@ -882,7 +822,6 @@
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 4
     aget v2, p1, v1
 
     int-to-float v3, p4
@@ -895,7 +834,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -917,7 +855,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetLandmark(JII)[F
@@ -926,19 +863,16 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     array-length p2, p1
 
     if-lez p2, :cond_0
 
-    .line 3
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     array-length v2, p1
 
@@ -946,7 +880,6 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 5
     new-instance v2, Landroid/graphics/PointF;
 
     mul-int/lit8 v3, v1, 0x2
@@ -959,7 +892,6 @@
 
     invoke-direct {v2, v4, v3}, Landroid/graphics/PointF;-><init>(FF)V
 
-    .line 6
     invoke-virtual {p2, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v1, v1, 0x1
@@ -969,7 +901,6 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -983,7 +914,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetLandmark(JII)[F
@@ -1002,7 +932,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/FaceData;->getDetectWidth()I
 
     move-result v1
@@ -1027,7 +956,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetFaceRect(JI)[F
@@ -1036,14 +964,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     array-length v1, p1
 
     const/4 v2, 0x4
 
     if-ne v1, v2, :cond_0
 
-    .line 4
     new-instance v1, Landroid/graphics/Rect;
 
     const/4 v2, 0x0
@@ -1089,7 +1015,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1111,14 +1036,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
@@ -1128,7 +1051,6 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 3
     invoke-virtual {p0, v3}, Lcom/meitu/core/types/FaceData;->getFaceRect(I)Landroid/graphics/Rect;
 
     move-result-object v4
@@ -1142,7 +1064,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1156,7 +1077,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetGender(JI)I
@@ -1169,14 +1089,12 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 2
     sget-object p1, Lcom/meitu/core/types/FaceData$MTGender;->UNDEFINE_GENDER:Lcom/meitu/core/types/FaceData$MTGender;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     sget-object p1, Lcom/meitu/core/types/FaceData$MTGender;->MALE:Lcom/meitu/core/types/FaceData$MTGender;
 
@@ -1184,7 +1102,6 @@
 
     return-object p1
 
-    .line 4
     :cond_1
     sget-object p1, Lcom/meitu/core/types/FaceData$MTGender;->FEMALE:Lcom/meitu/core/types/FaceData$MTGender;
 
@@ -1200,7 +1117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetFaceRect(JI)[F
@@ -1209,14 +1125,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     array-length v1, p1
 
     const/4 v2, 0x4
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     new-instance v1, Landroid/graphics/RectF;
 
     const/4 v2, 0x0
@@ -1242,7 +1156,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1256,7 +1169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetPitchAngle(JI)F
@@ -1275,7 +1187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetRace(JI)I
@@ -1292,14 +1203,12 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 2
     sget-object p1, Lcom/meitu/core/types/FaceData$MTRace;->UNDEFINE_SKIN_RACE:Lcom/meitu/core/types/FaceData$MTRace;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     sget-object p1, Lcom/meitu/core/types/FaceData$MTRace;->YELLOW_SKIN_RACE:Lcom/meitu/core/types/FaceData$MTRace;
 
@@ -1307,7 +1216,6 @@
 
     return-object p1
 
-    .line 4
     :cond_1
     sget-object p1, Lcom/meitu/core/types/FaceData$MTRace;->WHITE_SKIN_RACE:Lcom/meitu/core/types/FaceData$MTRace;
 
@@ -1315,7 +1223,6 @@
 
     return-object p1
 
-    .line 5
     :cond_2
     sget-object p1, Lcom/meitu/core/types/FaceData$MTRace;->BLACK_SKIN_RACE:Lcom/meitu/core/types/FaceData$MTRace;
 
@@ -1331,7 +1238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetRollAngle(JI)F
@@ -1350,7 +1256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeGetYawAngle(JI)F
@@ -1369,7 +1274,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1384,12 +1288,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/types/FaceData;->nativeSetAge(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1402,12 +1304,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeSetDetectHeight(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1420,12 +1320,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/FaceData;->nativeSetDetectWidth(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1440,12 +1338,10 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     array-length v1, p2
 
     if-lez v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/types/FaceData;->nativeSetFaceCode(JI[F)Z
@@ -1457,7 +1353,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1471,12 +1366,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/types/FaceData;->nativeSetFaceID(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1501,14 +1394,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     move-result v2
 
     if-lez v2, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     move-result v2
@@ -1517,7 +1408,6 @@
 
     new-array v2, v2, [F
 
-    .line 3
     :goto_0
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
@@ -1527,7 +1417,6 @@
 
     mul-int/lit8 v3, v1, 0x2
 
-    .line 4
     invoke-virtual {p1, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -1544,7 +1433,6 @@
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 5
     invoke-virtual {p1, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -1563,7 +1451,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-wide p4, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
@@ -1571,7 +1458,6 @@
 
     move-result v1
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1589,7 +1475,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     iget v2, p1, Landroid/graphics/Rect;->left:I
 
     int-to-float v2, v2
@@ -1602,7 +1487,6 @@
 
     aput v2, v1, v3
 
-    .line 2
     iget v2, p1, Landroid/graphics/Rect;->top:I
 
     int-to-float v2, v2
@@ -1615,7 +1499,6 @@
 
     aput v2, v1, v3
 
-    .line 3
     iget v2, p1, Landroid/graphics/Rect;->right:I
 
     int-to-float v2, v2
@@ -1626,7 +1509,6 @@
 
     aput v2, v1, p3
 
-    .line 4
     iget p1, p1, Landroid/graphics/Rect;->bottom:I
 
     int-to-float p1, p1
@@ -1637,12 +1519,10 @@
 
     aput p1, v1, p3
 
-    .line 5
     iget-wide p3, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {p3, p4, p2, v1}, Lcom/meitu/core/types/FaceData;->nativeSetFaceRect(JI[F)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1655,14 +1535,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     iget p2, p2, Lcom/meitu/core/types/FaceData$MTGender;->id:I
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/types/FaceData;->nativeSetGender(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1687,14 +1565,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     move-result v2
 
     if-lez v2, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     move-result v2
@@ -1703,7 +1579,6 @@
 
     new-array v2, v2, [F
 
-    .line 3
     :goto_0
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
@@ -1713,7 +1588,6 @@
 
     mul-int/lit8 v3, v1, 0x2
 
-    .line 4
     invoke-virtual {p1, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -1726,7 +1600,6 @@
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 5
     invoke-virtual {p1, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -1741,7 +1614,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-wide v3, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
@@ -1749,7 +1621,6 @@
 
     move-result v1
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1767,7 +1638,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     iget v2, p1, Landroid/graphics/Rect;->left:I
 
     int-to-float v2, v2
@@ -1776,7 +1646,6 @@
 
     aput v2, v1, v3
 
-    .line 2
     iget v2, p1, Landroid/graphics/Rect;->top:I
 
     int-to-float v2, v2
@@ -1785,7 +1654,6 @@
 
     aput v2, v1, v3
 
-    .line 3
     iget v2, p1, Landroid/graphics/Rect;->right:I
 
     int-to-float v2, v2
@@ -1794,7 +1662,6 @@
 
     aput v2, v1, v3
 
-    .line 4
     iget p1, p1, Landroid/graphics/Rect;->bottom:I
 
     int-to-float p1, p1
@@ -1803,12 +1670,10 @@
 
     aput p1, v1, v2
 
-    .line 5
     iget-wide v2, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v2, v3, p2, v1}, Lcom/meitu/core/types/FaceData;->nativeSetFaceRect(JI[F)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1821,12 +1686,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/types/FaceData;->nativeSetPitchAngle(JIF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1839,14 +1702,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     iget p2, p2, Lcom/meitu/core/types/FaceData$MTRace;->id:I
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/types/FaceData;->nativeSetRace(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1859,12 +1720,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/types/FaceData;->nativeSetRollAngle(JIF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1877,12 +1736,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/FaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/types/FaceData;->nativeSetYawAngle(JIF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1895,7 +1752,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1924,7 +1780,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/FaceData;->getDetectHeight()I
 
     move-result v2
@@ -1939,7 +1794,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {p0}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
@@ -1947,7 +1801,6 @@
 
     if-ge v3, v4, :cond_0
 
-    .line 4
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -1970,7 +1823,6 @@
 
     const/4 v1, 0x2
 
-    .line 5
     invoke-virtual {p0, v3, v1}, Lcom/meitu/core/types/FaceData;->getFaceLandmark(II)Ljava/util/ArrayList;
 
     move-result-object v5
@@ -1985,7 +1837,6 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {p0, v3, v1}, Lcom/meitu/core/types/FaceData;->getFaceLandmark(II)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -2010,7 +1861,6 @@
 
     invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {p0, v3}, Lcom/meitu/core/types/FaceData;->getClusterID(I)I
 
     move-result v1
@@ -2041,7 +1891,6 @@
 
     invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-virtual {p0, v3}, Lcom/meitu/core/types/FaceData;->getRollAngle(I)F
 
     move-result v1
@@ -2062,7 +1911,6 @@
 
     invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-virtual {p0, v3}, Lcom/meitu/core/types/FaceData;->getYawAngle(I)F
 
     move-result v1
@@ -2081,7 +1929,6 @@
 
     goto/16 :goto_0
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/pu0;Lcom/google/android/gms/internal/ads/gh;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/cv0;->a:Lcom/google/android/gms/internal/ads/gh;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final a(Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/cv0;->a:Lcom/google/android/gms/internal/ads/gh;
 
@@ -57,7 +55,6 @@
 
     const-string v0, "Service can\'t call client"
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/sm;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -66,10 +63,8 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     check-cast p1, Landroid/os/ParcelFileDescriptor;
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/cv0;->a:Lcom/google/android/gms/internal/ads/gh;
 
@@ -84,7 +79,6 @@
 
     const-string v0, "Service can\'t call client"
 
-    .line 3
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/sm;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/gid/base/u;->B()Z
 
     move-result v1
@@ -31,15 +29,12 @@
 
     const-string p0, "Cancel refresh current isn\'t main process."
 
-    .line 2
     invoke-static {p1, p0}, Lcom/meitu/library/gid/base/v;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     sget-object v1, Lcom/meitu/library/gid/base/Switcher;->NETWORK:Lcom/meitu/library/gid/base/Switcher;
 
@@ -51,15 +46,12 @@
 
     const-string p0, "Cancel refresh current NETWORK switcher Off."
 
-    .line 5
     invoke-static {p1, p0}, Lcom/meitu/library/gid/base/v;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/library/gid/base/u;->l()Landroid/content/Context;
 
@@ -75,15 +67,12 @@
 
     const-string p0, "Cancel refresh current miss net permission."
 
-    .line 8
     invoke-static {p1, p0}, Lcom/meitu/library/gid/base/v;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 10
     :cond_2
     invoke-virtual {p0}, Lcom/meitu/library/gid/base/u;->l()Landroid/content/Context;
 
@@ -97,10 +86,8 @@
 
     const-string p0, "Cancel refresh current miss network."
 
-    .line 11
     invoke-static {p1, p0}, Lcom/meitu/library/gid/base/v;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -108,7 +95,6 @@
     :cond_3
     const/4 p0, 0x1
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -121,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/library/gid/base/q0/b;->h(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result p0
@@ -138,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/library/gid/base/q0/a;->b(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result p0
@@ -165,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/gid/base/q0/b;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/gid/base/q0/b;-><init>(Landroid/content/Context;)V
@@ -182,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/gid/base/q0/b;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/gid/base/q0/b;-><init>(Landroid/content/Context;)V

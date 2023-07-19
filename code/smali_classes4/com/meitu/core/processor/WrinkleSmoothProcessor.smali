@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -40,14 +39,12 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v8
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-virtual {p3}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
     move-result-wide v2
@@ -72,7 +69,6 @@
 
     move-result v2
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -124,12 +120,10 @@
     :cond_1
     const-string v2, "ERROR:wrinkleCleanerAuto, image is null"
 
-    .line 4
     invoke-static {v1, v2}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 
-    .line 5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -149,12 +143,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 2
     iget v6, p2, Landroid/graphics/Rect;->left:I
 
     iget v7, p2, Landroid/graphics/Rect;->top:I
@@ -177,7 +169,6 @@
 
     move-result p1
 
-    .line 3
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -229,12 +220,10 @@
     :cond_0
     const-string p0, "ERROR:wrinkleCleanerManual, image is null"
 
-    .line 4
     invoke-static {v1, p0}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -254,17 +243,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 7
     invoke-static {p0, p1, p2}, Lcom/meitu/core/processor/WrinkleSmoothProcessor;->nativeWrinkleSmooth_bitmap(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;I)Z
 
     move-result p1
 
-    .line 8
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -316,12 +302,10 @@
     :cond_0
     const-string p0, "ERROR:WrinkleSmoothProcessor wrinkleSmooth data is null"
 
-    .line 9
     invoke-static {v1, p0}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -341,12 +325,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v4
@@ -355,7 +337,6 @@
 
     move-result p1
 
-    .line 3
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -407,12 +388,10 @@
     :cond_0
     const-string p0, "ERROR:WrinkleSmoothProcessor wrinkleSmooth data is null"
 
-    .line 4
     invoke-static {v1, p0}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

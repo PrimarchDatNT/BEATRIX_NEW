@@ -40,7 +40,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;->content:Ljava/lang/String;
@@ -49,7 +48,6 @@
 
     iput p3, p0, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;->percentViewable:I
 
-    .line 2
     sget-object p1, Lcom/mopub/mobileads/VastTracker$MessageType;->TRACKING_URL:Lcom/mopub/mobileads/VastTracker$MessageType;
 
     iput-object p1, p0, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;->messageType:Lcom/mopub/mobileads/VastTracker$MessageType;
@@ -103,27 +101,20 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v6, Lcom/mopub/mobileads/VideoViewabilityTracker;
 
-    .line 2
     iget v1, p0, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;->viewablePlaytimeMS:I
 
-    .line 3
     iget v2, p0, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;->percentViewable:I
 
-    .line 4
     iget-object v3, p0, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;->content:Ljava/lang/String;
 
-    .line 5
     iget-object v4, p0, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;->messageType:Lcom/mopub/mobileads/VastTracker$MessageType;
 
-    .line 6
     iget-boolean v5, p0, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;->isRepeatable:Z
 
     move-object v0, v6
 
-    .line 7
     invoke-direct/range {v0 .. v5}, Lcom/mopub/mobileads/VideoViewabilityTracker;-><init>(IILjava/lang/String;Lcom/mopub/mobileads/VastTracker$MessageType;Z)V
 
     return-object v6
@@ -219,7 +210,6 @@
 .method public final getPercentViewable()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;->percentViewable:I
 
     return v0
@@ -228,7 +218,6 @@
 .method public final getViewablePlaytimeMS()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;->viewablePlaytimeMS:I
 
     return v0
@@ -271,7 +260,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;->isRepeatable:Z
 
     return-object p0
@@ -290,7 +278,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/VideoViewabilityTracker$Builder;->messageType:Lcom/mopub/mobileads/VastTracker$MessageType;
 
     return-object p0

@@ -30,10 +30,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -46,7 +44,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/firestore/core/ActivityScope$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lcom/google/firebase/firestore/core/ActivityScope$b;-><init>()V
 
     return-void
@@ -59,7 +56,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ActivityScope$b;->a:Ljava/util/List;
 
@@ -67,7 +63,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -83,7 +78,6 @@
 .method b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/ActivityScope$b;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -106,7 +100,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0

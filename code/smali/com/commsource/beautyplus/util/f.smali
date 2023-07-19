@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
@@ -62,7 +60,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     invoke-static {}, Lcom/meitu/template/feedback/util/e;->M()Z
 
@@ -79,7 +76,6 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -98,7 +94,6 @@
 
     move-result-object v1
 
-    .line 4
     :goto_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -116,7 +111,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/util/Debug/Debug;->d(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -129,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -144,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/f/i;->r()J
 
     move-result-wide v1
@@ -155,7 +147,6 @@
 
     if-gtz v5, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v1
@@ -178,7 +169,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -192,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -209,19 +198,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -235,14 +221,12 @@
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
 
     invoke-static {v2, v1}, Lf/d/i/e;->o3(Landroid/content/Context;I)V
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -251,7 +235,6 @@
 
     invoke-static {v2, v3}, Lf/d/i/e;->i3(Landroid/content/Context;Z)V
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -270,7 +253,6 @@
 
     invoke-static {v3, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
@@ -281,15 +263,12 @@
 
     invoke-static {v3, v4, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setEquipmentType(I)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -301,12 +280,10 @@
 
     if-nez v1, :cond_2
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_2
     new-instance v1, Lf/k/i/a/d;
 
@@ -322,7 +299,6 @@
 
     invoke-direct {v1, v4, v2, v3}, Lf/k/i/a/d;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 13
     :try_start_0
     invoke-static {}, Lf/k/i/a/b;->f()Lf/k/i/a/b;
 
@@ -341,10 +317,8 @@
     :catch_0
     move-exception v1
 
-    .line 14
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 15
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

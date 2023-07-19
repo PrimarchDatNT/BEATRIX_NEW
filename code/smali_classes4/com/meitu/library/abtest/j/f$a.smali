@@ -27,13 +27,10 @@
 .method public constructor <init>(Lcom/meitu/library/abtest/j/a;Lcom/meitu/library/abtest/j/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/abtest/j/f$a;->w:Lcom/meitu/library/abtest/j/a;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/library/abtest/j/f$a;->x:Lcom/meitu/library/abtest/j/a;
 
     return-void
@@ -52,10 +49,8 @@
 
     const-string v1, "SharedStorage file changed, try overlay."
 
-    .line 1
     invoke-static {v0, v1}, Lcom/meitu/library/abtest/g/a;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/library/abtest/j/f$a;->w:Lcom/meitu/library/abtest/j/a;
 
     iget-object v1, p0, Lcom/meitu/library/abtest/j/f$a;->x:Lcom/meitu/library/abtest/j/a;
@@ -66,10 +61,8 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/meitu/library/abtest/j/a;->i(Lcom/meitu/library/abtest/j/a;ZZ)V
 
-    .line 3
     sget-object v0, Lcom/meitu/library/abtest/l/r;->f:Lcom/meitu/library/abtest/l/r;
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/abtest/j/f$a;->w:Lcom/meitu/library/abtest/j/a;
 
     iget-object v0, v0, Lcom/meitu/library/abtest/l/r;->a:Ljava/lang/String;
@@ -82,7 +75,6 @@
 
     invoke-virtual {v1, v0, v2, v3}, Lcom/meitu/library/abtest/j/a;->d(Ljava/lang/String;J)Lcom/meitu/library/abtest/j/e;
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

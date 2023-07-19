@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$d0;->b(ILcom/meitu/template/bean/Filter;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$d0;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -104,12 +102,10 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->t_layers_limited:I
 
-    .line 2
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$d0;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -119,7 +115,6 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->K(ILcom/meitu/template/bean/Filter;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$d0;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->Y(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/studio/sub/d;
@@ -131,7 +126,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

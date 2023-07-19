@@ -54,10 +54,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p3}, Lcom/google/common/collect/Maps$n;-><init>(Ljava/util/Map;Lcom/google/common/base/u;)V
 
-    .line 2
     iput-object p2, p0, Lcom/google/common/collect/Maps$w;->g:Lcom/google/common/base/u;
 
     return-void
@@ -76,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$n;->d:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -102,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$n;->d:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
@@ -121,7 +117,6 @@
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$n;->d:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z

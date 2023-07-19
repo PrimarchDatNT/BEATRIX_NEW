@@ -32,7 +32,6 @@
 
     const-string v0, "io.grpc.config-selector"
 
-    .line 1
     invoke-static {v0}, Lio/grpc/a$c;->a(Ljava/lang/String;)Lio/grpc/a$c;
 
     move-result-object v0
@@ -45,7 +44,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

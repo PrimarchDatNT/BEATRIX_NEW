@@ -33,33 +33,26 @@
 .method constructor <init>(Lokio/BufferedSink;Z)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
-    .line 3
     iput-boolean p2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->client:Z
 
-    .line 4
     new-instance p1, Ljava/util/zip/Deflater;
 
     invoke-direct {p1}, Ljava/util/zip/Deflater;-><init>()V
 
-    .line 5
     sget-object p2, Lcom/squareup/okhttp/internal/framed/Spdy3;->DICTIONARY:[B
 
     invoke-virtual {p1, p2}, Ljava/util/zip/Deflater;->setDictionary([B)V
 
-    .line 6
     new-instance p2, Lokio/Buffer;
 
     invoke-direct {p2}, Lokio/Buffer;-><init>()V
 
     iput-object p2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockBuffer:Lokio/Buffer;
 
-    .line 7
     new-instance v0, Lokio/DeflaterSink;
 
     invoke-direct {v0, p2, p1}, Lokio/DeflaterSink;-><init>(Lokio/Sink;Ljava/util/zip/Deflater;)V
@@ -90,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockOut:Lokio/BufferedSink;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
@@ -99,7 +91,6 @@
 
     invoke-interface {v0, v1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -109,7 +100,6 @@
     :goto_0
     if-ge v1, v0, :cond_0
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -118,7 +108,6 @@
 
     iget-object v2, v2, Lcom/squareup/okhttp/internal/framed/Header;->name:Lokio/ByteString;
 
-    .line 4
     iget-object v3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockOut:Lokio/BufferedSink;
 
     invoke-virtual {v2}, Lokio/ByteString;->size()I
@@ -127,12 +116,10 @@
 
     invoke-interface {v3, v4}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 5
     iget-object v3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockOut:Lokio/BufferedSink;
 
     invoke-interface {v3, v2}, Lokio/BufferedSink;->write(Lokio/ByteString;)Lokio/BufferedSink;
 
-    .line 6
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -141,7 +128,6 @@
 
     iget-object v2, v2, Lcom/squareup/okhttp/internal/framed/Header;->value:Lokio/ByteString;
 
-    .line 7
     iget-object v3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockOut:Lokio/BufferedSink;
 
     invoke-virtual {v2}, Lokio/ByteString;->size()I
@@ -150,7 +136,6 @@
 
     invoke-interface {v3, v4}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 8
     iget-object v3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockOut:Lokio/BufferedSink;
 
     invoke-interface {v3, v2}, Lokio/BufferedSink;->write(Lokio/ByteString;)Lokio/BufferedSink;
@@ -159,7 +144,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockOut:Lokio/BufferedSink;
 
@@ -188,11 +172,9 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     iput-boolean v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->closed:Z
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockOut:Lokio/BufferedSink;
@@ -201,7 +183,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -219,7 +200,6 @@
 
     monitor-enter p0
 
-    .line 1
     monitor-exit p0
 
     return-void
@@ -244,14 +224,12 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1
     :goto_0
     :try_start_0
     invoke-virtual {p0, p2, p1, p3, p4}, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sendDataFrame(IILokio/Buffer;I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -274,25 +252,21 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->closed:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {v0}, Lokio/BufferedSink;->flush()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     new-instance v0, Ljava/io/IOException;
@@ -323,58 +297,49 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean p3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->closed:Z
 
     if-nez p3, :cond_1
 
-    .line 2
     iget p3, p2, Lcom/squareup/okhttp/internal/framed/ErrorCode;->spdyGoAwayCode:I
 
     const/4 v0, -0x1
 
     if-eq p3, v0, :cond_0
 
-    .line 3
     iget-object p3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const v0, -0x7ffcfff9
 
     invoke-interface {p3, v0}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 4
     iget-object p3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const/16 v0, 0x8
 
     invoke-interface {p3, v0}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 5
     iget-object p3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {p3, p1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 6
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     iget p2, p2, Lcom/squareup/okhttp/internal/framed/ErrorCode;->spdyGoAwayCode:I
 
     invoke-interface {p1, p2}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 7
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {p1}, Lokio/BufferedSink;->flush()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     monitor-exit p0
 
     return-void
 
-    .line 9
     :cond_0
     :try_start_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
@@ -385,7 +350,6 @@
 
     throw p1
 
-    .line 10
     :cond_1
     new-instance p1, Ljava/io/IOException;
 
@@ -424,16 +388,13 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->closed:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->writeNameValueBlockToBuffer(Ljava/util/List;)V
 
-    .line 3
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockBuffer:Lokio/Buffer;
 
     invoke-virtual {p2}, Lokio/Buffer;->size()J
@@ -446,14 +407,12 @@
 
     long-to-int p2, v0
 
-    .line 4
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const v1, -0x7ffcfff8
 
     invoke-interface {v0, v1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 5
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const/4 v1, 0x0
@@ -466,7 +425,6 @@
 
     invoke-interface {v0, p2}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 6
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const v0, 0x7fffffff
@@ -475,7 +433,6 @@
 
     invoke-interface {p2, p1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 7
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockBuffer:Lokio/Buffer;
@@ -484,12 +441,10 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     monitor-exit p0
 
     return-void
 
-    .line 9
     :cond_0
     :try_start_1
     new-instance p1, Ljava/io/IOException;
@@ -528,13 +483,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean p3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->closed:Z
 
     if-nez p3, :cond_3
 
-    .line 2
     iget-boolean p3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->client:Z
 
     and-int/lit8 v0, p2, 0x1
@@ -560,38 +513,32 @@
     :cond_1
     if-ne p1, v1, :cond_2
 
-    .line 3
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const p3, -0x7ffcfffa
 
     invoke-interface {p1, p3}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 4
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const/4 p3, 0x4
 
     invoke-interface {p1, p3}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 5
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {p1, p2}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 6
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {p1}, Lokio/BufferedSink;->flush()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     monitor-exit p0
 
     return-void
 
-    .line 8
     :cond_2
     :try_start_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
@@ -602,7 +549,6 @@
 
     throw p1
 
-    .line 9
     :cond_3
     new-instance p1, Ljava/io/IOException;
 
@@ -652,34 +598,29 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->closed:Z
 
     if-nez v0, :cond_1
 
-    .line 2
     iget v0, p2, Lcom/squareup/okhttp/internal/framed/ErrorCode;->spdyRstCode:I
 
     const/4 v1, -0x1
 
     if-eq v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const v1, -0x7ffcfffd
 
     invoke-interface {v0, v1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 4
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const/16 v1, 0x8
 
     invoke-interface {v0, v1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 5
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const v1, 0x7fffffff
@@ -688,26 +629,22 @@
 
     invoke-interface {v0, p1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 6
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     iget p2, p2, Lcom/squareup/okhttp/internal/framed/ErrorCode;->spdyRstCode:I
 
     invoke-interface {p1, p2}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 7
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {p1}, Lokio/BufferedSink;->flush()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     monitor-exit p0
 
     return-void
 
-    .line 9
     :cond_0
     :try_start_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
@@ -716,7 +653,6 @@
 
     throw p1
 
-    .line 10
     :cond_1
     new-instance p1, Ljava/io/IOException;
 
@@ -744,7 +680,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->closed:Z
 
     if-nez v0, :cond_2
@@ -757,7 +692,6 @@
 
     if-gtz v4, :cond_1
 
-    .line 2
     iget-object v2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const v3, 0x7fffffff
@@ -766,7 +700,6 @@
 
     invoke-interface {v2, p1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 3
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     and-int/lit16 p2, p2, 0xff
@@ -783,7 +716,6 @@
 
     if-lez p4, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {p1, p3, v0, v1}, Lokio/Sink;->write(Lokio/Buffer;J)V
@@ -791,7 +723,6 @@
     :cond_0
     return-void
 
-    .line 5
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -813,7 +744,6 @@
 
     throw p1
 
-    .line 6
     :cond_2
     new-instance p1, Ljava/io/IOException;
 
@@ -834,13 +764,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->closed:Z
 
     if-nez v0, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Lcom/squareup/okhttp/internal/framed/Settings;->size()I
 
     move-result v0
@@ -849,14 +777,12 @@
 
     add-int/lit8 v1, v1, 0x4
 
-    .line 3
     iget-object v2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const v3, -0x7ffcfffc
 
     invoke-interface {v2, v3}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 4
     iget-object v2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const v3, 0xffffff
@@ -869,7 +795,6 @@
 
     invoke-interface {v2, v1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 5
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {v1, v0}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
@@ -879,7 +804,6 @@
 
     if-gt v4, v0, :cond_1
 
-    .line 6
     invoke-virtual {p1, v4}, Lcom/squareup/okhttp/internal/framed/Settings;->isSet(I)Z
 
     move-result v0
@@ -888,13 +812,11 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     invoke-virtual {p1, v4}, Lcom/squareup/okhttp/internal/framed/Settings;->flags(I)I
 
     move-result v0
 
-    .line 8
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     and-int/lit16 v0, v0, 0xff
@@ -907,7 +829,6 @@
 
     invoke-interface {v1, v0}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 9
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-virtual {p1, v4}, Lcom/squareup/okhttp/internal/framed/Settings;->get(I)I
@@ -921,7 +842,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
@@ -929,12 +849,10 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 11
     monitor-exit p0
 
     return-void
 
-    .line 12
     :cond_2
     :try_start_1
     new-instance p1, Ljava/io/IOException;
@@ -974,13 +892,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->closed:Z
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-direct {p0, p3}, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->writeNameValueBlockToBuffer(Ljava/util/List;)V
 
     if-eqz p1, :cond_0
@@ -992,7 +908,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     iget-object p3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockBuffer:Lokio/Buffer;
 
@@ -1006,14 +921,12 @@
 
     long-to-int p3, v0
 
-    .line 4
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const v1, -0x7ffcfffe
 
     invoke-interface {v0, v1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 5
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     and-int/lit16 p1, p1, 0xff
@@ -1028,7 +941,6 @@
 
     invoke-interface {v0, p1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 6
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const p3, 0x7fffffff
@@ -1037,26 +949,22 @@
 
     invoke-interface {p1, p2}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 7
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockBuffer:Lokio/Buffer;
 
     invoke-interface {p1, p2}, Lokio/BufferedSink;->writeAll(Lokio/Source;)J
 
-    .line 8
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {p1}, Lokio/BufferedSink;->flush()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     monitor-exit p0
 
     return-void
 
-    .line 10
     :cond_1
     :try_start_1
     new-instance p1, Ljava/io/IOException;
@@ -1096,18 +1004,15 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->closed:Z
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-direct {p0, p5}, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->writeNameValueBlockToBuffer(Ljava/util/List;)V
 
     const-wide/16 v0, 0xa
 
-    .line 3
     iget-object p5, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockBuffer:Lokio/Buffer;
 
     invoke-virtual {p5}, Lokio/Buffer;->size()J
@@ -1132,14 +1037,12 @@
     :goto_0
     or-int/2addr p1, p2
 
-    .line 4
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const v1, -0x7ffcffff
 
     invoke-interface {p2, v1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 5
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     and-int/lit16 p1, p1, 0xff
@@ -1154,7 +1057,6 @@
 
     invoke-interface {p2, p1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 6
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const p2, 0x7fffffff
@@ -1163,38 +1065,32 @@
 
     invoke-interface {p1, p3}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 7
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     and-int/2addr p2, p4
 
     invoke-interface {p1, p2}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 8
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {p1, v0}, Lokio/BufferedSink;->writeShort(I)Lokio/BufferedSink;
 
-    .line 9
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->headerBlockBuffer:Lokio/Buffer;
 
     invoke-interface {p1, p2}, Lokio/BufferedSink;->writeAll(Lokio/Source;)J
 
-    .line 10
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {p1}, Lokio/BufferedSink;->flush()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 11
     monitor-exit p0
 
     return-void
 
-    .line 12
     :cond_1
     :try_start_1
     new-instance p1, Ljava/io/IOException;
@@ -1225,7 +1121,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->closed:Z
 
@@ -1243,45 +1138,38 @@
 
     if-gtz v2, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const v1, -0x7ffcfff7
 
     invoke-interface {v0, v1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 3
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     const/16 v1, 0x8
 
     invoke-interface {v0, v1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 4
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {v0, p1}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 5
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     long-to-int p3, p2
 
     invoke-interface {p1, p3}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 6
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Writer;->sink:Lokio/BufferedSink;
 
     invoke-interface {p1}, Lokio/BufferedSink;->flush()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     monitor-exit p0
 
     return-void
 
-    .line 8
     :cond_0
     :try_start_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
@@ -1304,7 +1192,6 @@
 
     throw p1
 
-    .line 9
     :cond_1
     new-instance p1, Ljava/io/IOException;
 

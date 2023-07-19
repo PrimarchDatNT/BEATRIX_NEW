@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/d;Lcom/sdk/imp/internal/loader/Ad;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/d$e;->b:Lcom/sdk/imp/d;
 
     iput-object p2, p0, Lcom/sdk/imp/d$e;->a:Lcom/sdk/imp/internal/loader/Ad;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/d$e;->b:Lcom/sdk/imp/d;
 
     invoke-static {v0}, Lcom/sdk/imp/d;->n(Lcom/sdk/imp/d;)Ljava/lang/String;

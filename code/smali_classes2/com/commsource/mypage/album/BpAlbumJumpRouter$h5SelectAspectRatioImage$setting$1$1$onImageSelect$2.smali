@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-virtual {p0, p1}, Lcom/commsource/mypage/album/BpAlbumJumpRouter$h5SelectAspectRatioImage$setting$1$1$onImageSelect$2;->invoke(Lcom/commsource/cloudalbum/bean/CAImageInfo;)V
@@ -82,7 +81,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumJumpRouter$h5SelectAspectRatioImage$setting$1$1$onImageSelect$2;->$activity:Landroid/app/Activity;
 
     new-instance v2, Landroid/content/Intent;
@@ -91,20 +89,16 @@
 
     const-string v3, "EXTRA_IMAGE"
 
-    .line 3
     invoke-virtual {v2, v3, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     const/4 p1, -0x1
 
-    .line 4
     invoke-virtual {v1, p1, v2}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumJumpRouter$h5SelectAspectRatioImage$setting$1$1$onImageSelect$2;->$activity:Landroid/app/Activity;
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/b$a;->a:Lcom/commsource/beautyplus/setting/language/b;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/setting/language/b;->B()Ljava/util/ArrayList;
@@ -66,7 +65,6 @@
 
     check-cast v2, Lcom/commsource/beautyplus/setting/language/a;
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/beautyplus/setting/language/b$a;->a:Lcom/commsource/beautyplus/setting/language/b;
 
     invoke-virtual {v3}, Lcom/commsource/beautyplus/setting/language/b;->A()Ljava/util/HashMap;
@@ -99,7 +97,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/b$a;->a:Lcom/commsource/beautyplus/setting/language/b;
 
@@ -115,7 +112,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

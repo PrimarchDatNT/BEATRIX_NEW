@@ -31,7 +31,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bumptech/glide/request/j/f;-><init>(Landroid/view/View;)V
 
     return-void

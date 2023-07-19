@@ -65,12 +65,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/i$a;->c:Lcotlin/sequences/i;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcotlin/sequences/i;->d(Lcotlin/sequences/i;)Lcotlin/sequences/m;
 
     move-result-object p1
@@ -87,7 +85,6 @@
 .method private final a()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/i$a;->b:Ljava/util/Iterator;
 
     if-eqz v0, :cond_0
@@ -100,10 +97,8 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcotlin/sequences/i$a;->b:Ljava/util/Iterator;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcotlin/sequences/i$a;->b:Ljava/util/Iterator;
 
@@ -111,7 +106,6 @@
 
     if-nez v0, :cond_2
 
-    .line 4
     iget-object v0, p0, Lcotlin/sequences/i$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -124,7 +118,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcotlin/sequences/i$a;->a:Ljava/util/Iterator;
 
@@ -132,7 +125,6 @@
 
     move-result-object v0
 
-    .line 6
     iget-object v2, p0, Lcotlin/sequences/i$a;->c:Lcotlin/sequences/i;
 
     invoke-static {v2}, Lcotlin/sequences/i;->c(Lcotlin/sequences/i;)Lcotlin/jvm/u/l;
@@ -155,14 +147,12 @@
 
     check-cast v0, Ljava/util/Iterator;
 
-    .line 7
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 8
     iput-object v0, p0, Lcotlin/sequences/i$a;->b:Ljava/util/Iterator;
 
     :cond_2
@@ -184,7 +174,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/i$a;->b:Ljava/util/Iterator;
 
     return-object v0
@@ -203,7 +192,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/i$a;->a:Ljava/util/Iterator;
 
     return-object v0
@@ -223,7 +211,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/i$a;->b:Ljava/util/Iterator;
 
     return-void
@@ -232,7 +219,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcotlin/sequences/i$a;->a()Z
 
     move-result v0
@@ -248,14 +234,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlin/sequences/i$a;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcotlin/sequences/i$a;->b:Ljava/util/Iterator;
 
     invoke-static {v0}, Lcotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
@@ -266,7 +250,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 

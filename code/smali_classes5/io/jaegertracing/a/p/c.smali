@@ -19,7 +19,6 @@
 .method public constructor <init>(DD)V
     .locals 6
 
-    .line 1
     new-instance v5, Lio/jaegertracing/a/j/b;
 
     invoke-direct {v5}, Lio/jaegertracing/a/j/b;-><init>()V
@@ -38,23 +37,18 @@
 .method public constructor <init>(DDLio/jaegertracing/a/j/a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p5, p0, Lio/jaegertracing/a/p/c;->b:Lio/jaegertracing/a/j/a;
 
-    .line 4
     iput-wide p3, p0, Lio/jaegertracing/a/p/c;->c:D
 
-    .line 5
     iput-wide p3, p0, Lio/jaegertracing/a/p/c;->d:D
 
     const-wide p3, 0x41cdcd6500000000L    # 1.0E9
 
     div-double/2addr p1, p3
 
-    .line 6
     iput-wide p1, p0, Lio/jaegertracing/a/p/c;->a:D
 
     return-void
@@ -65,24 +59,20 @@
 .method public a(D)Z
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/p/c;->b:Lio/jaegertracing/a/j/a;
 
     invoke-interface {v0}, Lio/jaegertracing/a/j/a;->a()J
 
     move-result-wide v0
 
-    .line 2
     iget-wide v2, p0, Lio/jaegertracing/a/p/c;->e:J
 
     sub-long v2, v0, v2
 
     long-to-double v2, v2
 
-    .line 3
     iput-wide v0, p0, Lio/jaegertracing/a/p/c;->e:J
 
-    .line 4
     iget-wide v0, p0, Lio/jaegertracing/a/p/c;->c:D
 
     iget-wide v4, p0, Lio/jaegertracing/a/p/c;->a:D
@@ -93,17 +83,14 @@
 
     iput-wide v0, p0, Lio/jaegertracing/a/p/c;->c:D
 
-    .line 5
     iget-wide v2, p0, Lio/jaegertracing/a/p/c;->d:D
 
     cmpl-double v4, v0, v2
 
     if-lez v4, :cond_0
 
-    .line 6
     iput-wide v2, p0, Lio/jaegertracing/a/p/c;->c:D
 
-    .line 7
     :cond_0
     iget-wide v0, p0, Lio/jaegertracing/a/p/c;->c:D
 
@@ -113,7 +100,6 @@
 
     sub-double/2addr v0, p1
 
-    .line 8
     iput-wide v0, p0, Lio/jaegertracing/a/p/c;->c:D
 
     const/4 p1, 0x1

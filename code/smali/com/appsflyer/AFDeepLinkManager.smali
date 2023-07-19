@@ -60,7 +60,6 @@
 .method private static $$a(Ljava/lang/String;)Z
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/appsflyer/AFDeepLinkManager;->AFDateFormat:[Ljava/lang/String;
 
     const/4 v1, 0x0
@@ -72,7 +71,6 @@
     :cond_0
     const-string v0, "af_tranid="
 
-    .line 2
     invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -81,7 +79,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -97,7 +94,6 @@
 
     sget-object v2, Lcom/appsflyer/AFDeepLinkManager;->AFDateFormat:[Ljava/lang/String;
 
-    .line 4
     invoke-static {v2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
@@ -108,10 +104,8 @@
 
     move-result-object v0
 
-    .line 5
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afRDLog(Ljava/lang/String;)V
 
-    .line 6
     :try_start_0
     sget-object v0, Lcom/appsflyer/AFDeepLinkManager;->AFDateFormat:[Ljava/lang/String;
 
@@ -142,7 +136,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x2
@@ -163,10 +156,8 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -192,7 +183,6 @@
         }
     .end annotation
 
-    .line 11
     :goto_0
     sget-object v0, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
@@ -202,7 +192,6 @@
 
     return-object v1
 
-    .line 12
     :cond_0
     invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
 
@@ -210,7 +199,6 @@
 
     if-nez v0, :cond_2
 
-    .line 13
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -221,7 +209,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 14
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object p2
@@ -239,7 +226,6 @@
     :cond_1
     return-object v1
 
-    .line 15
     :cond_2
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
@@ -250,7 +236,6 @@
 
     invoke-direct {v0, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 16
     invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object p1
@@ -272,7 +257,6 @@
 .method static synthetic AFDateFormat(Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/appsflyer/AFDeepLinkManager;->$$a(Ljava/lang/String;)Z
 
     move-result p0
@@ -283,19 +267,16 @@
 .method public static getInstance()Lcom/appsflyer/AFDeepLinkManager;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/appsflyer/AFDeepLinkManager;->instance:Lcom/appsflyer/AFDeepLinkManager;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/appsflyer/AFDeepLinkManager;
 
     invoke-direct {v0}, Lcom/appsflyer/AFDeepLinkManager;-><init>()V
 
     sput-object v0, Lcom/appsflyer/AFDeepLinkManager;->instance:Lcom/appsflyer/AFDeepLinkManager;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/appsflyer/AFDeepLinkManager;->instance:Lcom/appsflyer/AFDeepLinkManager;
 
@@ -319,7 +300,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p3}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -332,20 +312,16 @@
 
     const/4 v0, 0x1
 
-    .line 3
     sput-boolean v0, Lcom/appsflyer/AFDeepLinkManager;->valueOf:Z
 
-    .line 4
     invoke-static {}, Lcom/appsflyer/AFExecutor;->getInstance()Lcom/appsflyer/AFExecutor;
 
     move-result-object v0
 
-    .line 5
     iget-object v1, v0, Lcom/appsflyer/AFExecutor;->AFDateFormat:Ljava/util/concurrent/ScheduledExecutorService;
 
     if-nez v1, :cond_0
 
-    .line 6
     iget-object v1, v0, Lcom/appsflyer/AFExecutor;->valueOf:Ljava/util/concurrent/ThreadFactory;
 
     invoke-static {v1}, Ljava/util/concurrent/Executors;->newSingleThreadScheduledExecutor(Ljava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ScheduledExecutorService;
@@ -354,11 +330,9 @@
 
     iput-object v1, v0, Lcom/appsflyer/AFExecutor;->AFDateFormat:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 7
     :cond_0
     iget-object v0, v0, Lcom/appsflyer/AFExecutor;->AFDateFormat:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 8
     new-instance v1, Lcom/appsflyer/AFDeepLinkManager$3;
 
     invoke-direct {v1, p0, p3, p2, p1}, Lcom/appsflyer/AFDeepLinkManager$3;-><init>(Lcom/appsflyer/AFDeepLinkManager;Landroid/net/Uri;Ljava/util/Map;Landroid/content/Context;)V
@@ -367,7 +341,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-static {}, Lcom/appsflyer/AppsFlyerLibCore;->getInstance()Lcom/appsflyer/AppsFlyerLibCore;
 
@@ -378,7 +351,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 10
     sput-object p1, Lcom/appsflyer/AFDeepLinkManager;->trampolineIntent:Landroid/content/Intent;
 
     return-void
@@ -404,7 +376,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 17
     invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v2
@@ -415,7 +386,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 18
     invoke-virtual {p1}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
     move-result-object v2
@@ -425,13 +395,11 @@
     :cond_0
     move-object v2, v1
 
-    .line 19
     :goto_0
     sget-object v3, Lcom/appsflyer/AFDeepLinkManager;->trampolineIntent:Landroid/content/Intent;
 
     if-eqz v3, :cond_1
 
-    .line 20
     invoke-virtual {v3}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v4
@@ -442,7 +410,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 21
     invoke-virtual {v3}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
     move-result-object v0
@@ -452,13 +419,11 @@
     :cond_1
     move-object v0, v1
 
-    .line 22
     :goto_1
     invoke-virtual {p1}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
 
     move-result-object v3
 
-    .line 23
     iget-object v4, p0, Lcom/appsflyer/AFDeepLinkManager;->deepLinkSearchPaths:Ljava/util/List;
 
     if-eqz v4, :cond_7
@@ -473,7 +438,6 @@
 
     goto :goto_4
 
-    .line 24
     :cond_2
     iget-object v4, p0, Lcom/appsflyer/AFDeepLinkManager;->deepLinkSearchPaths:Ljava/util/List;
 
@@ -501,13 +465,11 @@
 
     goto :goto_3
 
-    .line 25
     :cond_4
     invoke-interface {v5}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v6
 
-    .line 26
     invoke-interface {v6}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v7
@@ -516,7 +478,6 @@
 
     goto :goto_2
 
-    .line 27
     :cond_5
     invoke-interface {v6}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -532,7 +493,6 @@
 
     goto :goto_2
 
-    .line 28
     :cond_6
     invoke-direct {p0, v7, v6}, Lcom/appsflyer/AFDeepLinkManager;->AFDateFormat(Ljava/lang/Object;Ljava/util/Iterator;)Landroid/net/Uri;
 
@@ -541,7 +501,6 @@
     :goto_3
     if-eqz v6, :cond_3
 
-    .line 29
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v3, "Found deeplink in push payload at "
@@ -560,7 +519,6 @@
 
     invoke-static {v1}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 30
     invoke-static {p3}, Lcom/appsflyer/AppsFlyerLibCore;->values(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v1
@@ -585,26 +543,22 @@
 
     if-eqz v2, :cond_9
 
-    .line 31
     invoke-virtual {p1, v6}, Landroid/content/Intent;->hasExtra(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_8
 
-    .line 32
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
     invoke-virtual {p1, v6, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 33
     invoke-virtual {p0, p2, p3, v2}, Lcom/appsflyer/AFDeepLinkManager;->AFDateFormat(Landroid/content/Context;Ljava/util/Map;Landroid/net/Uri;)V
 
     return v3
 
-    .line 34
     :cond_8
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -612,7 +566,6 @@
 
     invoke-direct {p1, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 35
     invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -625,7 +578,6 @@
 
     move-result-object p1
 
-    .line 36
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;)V
 
     return v5
@@ -633,7 +585,6 @@
     :cond_9
     if-eqz v0, :cond_b
 
-    .line 37
     sget-object p1, Lcom/appsflyer/AFDeepLinkManager;->trampolineIntent:Landroid/content/Intent;
 
     invoke-virtual {p1, v6}, Landroid/content/Intent;->hasExtra(Ljava/lang/String;)Z
@@ -642,7 +593,6 @@
 
     if-nez p1, :cond_a
 
-    .line 38
     sget-object p1, Lcom/appsflyer/AFDeepLinkManager;->trampolineIntent:Landroid/content/Intent;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -651,12 +601,10 @@
 
     invoke-virtual {p1, v6, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 39
     invoke-virtual {p0, p2, p3, v0}, Lcom/appsflyer/AFDeepLinkManager;->AFDateFormat(Landroid/content/Context;Ljava/util/Map;Landroid/net/Uri;)V
 
     return v3
 
-    .line 40
     :cond_a
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -664,7 +612,6 @@
 
     invoke-direct {p1, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 41
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -677,7 +624,6 @@
 
     move-result-object p1
 
-    .line 42
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;)V
 
     return v5
@@ -685,26 +631,22 @@
     :cond_b
     if-eqz v1, :cond_d
 
-    .line 43
     invoke-virtual {p1, v6}, Landroid/content/Intent;->hasExtra(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_c
 
-    .line 44
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
     invoke-virtual {p1, v6, v4, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 45
     invoke-virtual {p0, p2, p3, v1}, Lcom/appsflyer/AFDeepLinkManager;->AFDateFormat(Landroid/content/Context;Ljava/util/Map;Landroid/net/Uri;)V
 
     return v3
 
-    .line 46
     :cond_c
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -712,7 +654,6 @@
 
     invoke-direct {p1, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 47
     invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -725,7 +666,6 @@
 
     move-result-object p1
 
-    .line 48
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;)V
 
     return v5
@@ -733,7 +673,6 @@
     :cond_d
     const-string p1, "No deep link detected"
 
-    .line 49
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
     return v5
@@ -744,7 +683,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v0
@@ -757,7 +695,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
     move-result-object v0
@@ -770,12 +707,10 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 3
     sget-object v0, Lcom/appsflyer/AFDeepLinkManager;->trampolineIntent:Landroid/content/Intent;
 
     if-eq p1, v0, :cond_1
 
-    .line 4
     sput-object p1, Lcom/appsflyer/AFDeepLinkManager;->trampolineIntent:Landroid/content/Intent;
 
     :cond_1

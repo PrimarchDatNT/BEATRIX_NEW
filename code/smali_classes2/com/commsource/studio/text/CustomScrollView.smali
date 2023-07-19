@@ -35,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/text/CustomScrollView;->c()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -56,7 +55,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/text/CustomScrollView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -79,10 +77,8 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/text/CustomScrollView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     sget-object v1, Lcom/res/provider/ResSTYLEABLE;->g0:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -93,14 +89,12 @@
 
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {p1, v0, v0}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/commsource/studio/text/CustomScrollView;->g:Z
 
-    .line 5
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
     return-void
@@ -121,7 +115,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 6
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/ScrollView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -134,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/commsource/studio/text/CustomScrollView;
@@ -185,7 +177,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -204,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/CustomScrollView;->p:Ljava/util/HashMap;
 
     if-eqz v1, :cond_0
@@ -224,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/CustomScrollView;->p:Ljava/util/HashMap;
 
     if-nez v1, :cond_0
@@ -283,7 +272,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
@@ -296,18 +284,15 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v2
 
-    .line 4
     iget v3, p0, Lcom/commsource/studio/text/CustomScrollView;->b:F
 
     iget v4, p0, Lcom/commsource/studio/text/CustomScrollView;->c:F
@@ -322,7 +307,6 @@
 
     iput v3, p0, Lcom/commsource/studio/text/CustomScrollView;->b:F
 
-    .line 5
     iget v3, p0, Lcom/commsource/studio/text/CustomScrollView;->a:F
 
     iget v4, p0, Lcom/commsource/studio/text/CustomScrollView;->d:F
@@ -337,13 +321,10 @@
 
     iput v3, p0, Lcom/commsource/studio/text/CustomScrollView;->a:F
 
-    .line 6
     iput v1, p0, Lcom/commsource/studio/text/CustomScrollView;->c:F
 
-    .line 7
     iput v2, p0, Lcom/commsource/studio/text/CustomScrollView;->d:F
 
-    .line 8
     iget v1, p0, Lcom/commsource/studio/text/CustomScrollView;->b:F
 
     cmpl-float v1, v1, v3
@@ -352,7 +333,6 @@
 
     const/4 p1, 0x0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -360,27 +340,22 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 10
     iput v1, p0, Lcom/commsource/studio/text/CustomScrollView;->a:F
 
-    .line 11
     iput v1, p0, Lcom/commsource/studio/text/CustomScrollView;->b:F
 
-    .line 12
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/studio/text/CustomScrollView;->c:F
 
-    .line 13
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/studio/text/CustomScrollView;->d:F
 
-    .line 14
     :cond_2
     :goto_0
     invoke-super {p0, p1}, Landroid/widget/ScrollView;->onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
@@ -399,7 +374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/CustomScrollView;->g:Z
 
     const/4 v2, 0x1
@@ -410,7 +384,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     :try_start_0
     const-class p1, Landroid/widget/FrameLayout;
 
@@ -420,7 +393,6 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 3
     sget-object v5, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     const/4 v6, 0x0
@@ -437,28 +409,24 @@
 
     aput-object v5, v4, v8
 
-    .line 4
     sget-object v5, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
     const/4 v9, 0x4
 
     aput-object v5, v4, v9
 
-    .line 5
     invoke-virtual {p1, v1, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p1
 
     const-string v1, "method"
 
-    .line 6
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, v2}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    .line 7
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -528,23 +496,18 @@
     :catch_0
     move-exception p1
 
-    .line 8
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_0
     invoke-super/range {p0 .. p5}, Landroid/widget/ScrollView;->onLayout(ZIIII)V
 
-    .line 11
     iput-boolean v2, p0, Lcom/commsource/studio/text/CustomScrollView;->f:Z
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

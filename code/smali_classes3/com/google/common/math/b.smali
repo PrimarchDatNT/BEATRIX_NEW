@@ -37,7 +37,6 @@
 
     const-wide/high16 v0, 0x4000000000000000L    # 2.0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide v0
@@ -48,7 +47,6 @@
 
     new-array v0, v0, [D
 
-    .line 2
     fill-array-data v0, :array_0
 
     sput-object v0, Lcom/google/common/math/b;->g:[D
@@ -74,7 +72,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -88,7 +85,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/math/c;->d(D)Z
 
     move-result v0
@@ -103,7 +99,6 @@
 
     const-string v0, "n"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/math/f;->e(Ljava/lang/String;I)I
 
     const/16 v0, 0xaa
@@ -130,7 +125,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     sget-object v2, Lcom/google/common/math/b;->g:[D
 
@@ -146,7 +140,6 @@
 .method public static c(DDD)I
     .locals 0
 
-    .line 1
     invoke-static/range {p0 .. p5}, Lcom/google/common/math/b;->d(DDD)Z
 
     move-result p4
@@ -175,7 +168,6 @@
 
     return p0
 
-    .line 2
     :cond_2
     invoke-static {p0, p1}, Ljava/lang/Double;->isNaN(D)Z
 
@@ -197,14 +189,12 @@
 
     const-string v0, "tolerance"
 
-    .line 1
     invoke-static {v0, p4, p5}, Lcom/google/common/math/f;->d(Ljava/lang/String;D)D
 
     sub-double v0, p0, p2
 
     const-wide/high16 v2, 0x3ff0000000000000L    # 1.0
 
-    .line 2
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->copySign(DD)D
 
     move-result-wide v0
@@ -217,7 +207,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 3
     invoke-static {p0, p1}, Ljava/lang/Double;->isNaN(D)Z
 
     move-result p0
@@ -250,7 +239,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/math/c;->d(D)Z
 
     move-result v0
@@ -263,7 +251,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/google/common/math/c;->c(D)J
 
     move-result-wide v0
@@ -305,14 +292,12 @@
 
     if-lez v3, :cond_0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/math/c;->d(D)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/google/common/math/c;->c(D)J
 
     move-result-wide p0
@@ -338,7 +323,6 @@
 .method public static g(D)D
     .locals 2
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide p0
@@ -365,7 +349,6 @@
 
     if-lez v4, :cond_0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/math/c;->d(D)Z
 
     move-result v2
@@ -384,12 +367,10 @@
 
     invoke-static {v2, v3}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-static {p0, p1}, Ljava/lang/Math;->getExponent(D)I
 
     move-result v2
 
-    .line 3
     invoke-static {p0, p1}, Lcom/google/common/math/c;->e(D)Z
 
     move-result v3
@@ -400,7 +381,6 @@
 
     mul-double p0, p0, v0
 
-    .line 4
     invoke-static {p0, p1, p2}, Lcom/google/common/math/b;->h(DLjava/math/RoundingMode;)I
 
     move-result p0
@@ -409,7 +389,6 @@
 
     return p0
 
-    .line 5
     :cond_1
     sget-object v3, Lcom/google/common/math/b$a;->a:[I
 
@@ -421,14 +400,12 @@
 
     packed-switch p2, :pswitch_data_0
 
-    .line 6
     new-instance p0, Ljava/lang/AssertionError;
 
     invoke-direct {p0}, Ljava/lang/AssertionError;-><init>()V
 
     throw p0
 
-    .line 7
     :pswitch_0
     invoke-static {p0, p1}, Lcom/google/common/math/c;->g(D)D
 
@@ -451,7 +428,6 @@
 
     const/4 v0, 0x1
 
-    .line 8
     :cond_2
     invoke-static {p0, p1}, Lcom/google/common/math/b;->f(D)Z
 
@@ -464,7 +440,6 @@
 
     const/4 v0, 0x1
 
-    .line 9
     :cond_3
     invoke-static {p0, p1}, Lcom/google/common/math/b;->f(D)Z
 
@@ -477,7 +452,6 @@
 
     goto :goto_2
 
-    .line 10
     :pswitch_3
     invoke-static {p0, p1}, Lcom/google/common/math/b;->f(D)Z
 
@@ -487,7 +461,6 @@
 
     goto :goto_2
 
-    .line 11
     :pswitch_4
     invoke-static {p0, p1}, Lcom/google/common/math/b;->f(D)Z
 
@@ -538,7 +511,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -568,7 +540,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -577,7 +548,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -596,7 +566,6 @@
 
     move-wide v4, v2
 
-    .line 3
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -604,7 +573,6 @@
 
     if-eqz v6, :cond_0
 
-    .line 4
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v6
@@ -643,7 +611,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -664,7 +631,6 @@
 
     invoke-static {v0, v3}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     aget-wide v0, p0, v1
 
     invoke-static {v0, v1}, Lcom/google/common/math/b;->a(D)D
@@ -675,20 +641,17 @@
 
     move-wide v5, v3
 
-    .line 3
     :goto_1
     array-length v7, p0
 
     if-ge v2, v7, :cond_1
 
-    .line 4
     aget-wide v7, p0, v2
 
     invoke-static {v7, v8}, Lcom/google/common/math/b;->a(D)D
 
     add-long/2addr v5, v3
 
-    .line 5
     aget-wide v7, p0, v2
 
     sub-double/2addr v7, v0
@@ -712,7 +675,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -733,13 +695,11 @@
 
     const-wide/16 v2, 0x0
 
-    .line 2
     :goto_1
     array-length v0, p0
 
     if-ge v1, v0, :cond_1
 
-    .line 3
     aget v0, p0, v1
 
     int-to-long v4, v0
@@ -753,7 +713,6 @@
     :cond_1
     long-to-double v0, v2
 
-    .line 4
     array-length p0, p0
 
     int-to-double v2, p0
@@ -768,7 +727,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -789,7 +747,6 @@
 
     invoke-static {v0, v3}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     aget-wide v0, p0, v1
 
     long-to-double v0, v0
@@ -798,7 +755,6 @@
 
     move-wide v5, v3
 
-    .line 3
     :goto_1
     array-length v7, p0
 
@@ -806,7 +762,6 @@
 
     add-long/2addr v5, v3
 
-    .line 4
     aget-wide v7, p0, v2
 
     long-to-double v7, v7
@@ -832,14 +787,12 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/math/c;->d(D)Z
 
     move-result v0
 
     if-eqz v0, :cond_8
 
-    .line 2
     sget-object v0, Lcom/google/common/math/b$a;->a:[I
 
     invoke-virtual {p2}, Ljava/math/RoundingMode;->ordinal()I
@@ -856,14 +809,12 @@
 
     packed-switch p2, :pswitch_data_0
 
-    .line 3
     new-instance p0, Ljava/lang/AssertionError;
 
     invoke-direct {p0}, Ljava/lang/AssertionError;-><init>()V
 
     throw p0
 
-    .line 4
     :pswitch_0
     invoke-static {p0, p1}, Ljava/lang/Math;->rint(D)D
 
@@ -871,7 +822,6 @@
 
     sub-double v4, p0, v0
 
-    .line 5
     invoke-static {v4, v5}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide v4
@@ -885,7 +835,6 @@
     :cond_0
     return-wide v0
 
-    .line 6
     :pswitch_1
     invoke-static {p0, p1}, Ljava/lang/Math;->rint(D)D
 
@@ -893,7 +842,6 @@
 
     sub-double v4, p0, v0
 
-    .line 7
     invoke-static {v4, v5}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide v4
@@ -902,7 +850,6 @@
 
     if-nez p2, :cond_1
 
-    .line 8
     invoke-static {v2, v3, p0, p1}, Ljava/lang/Math;->copySign(DD)D
 
     move-result-wide v0
@@ -914,7 +861,6 @@
     :cond_1
     return-wide v0
 
-    .line 9
     :pswitch_2
     invoke-static {p0, p1}, Ljava/lang/Math;->rint(D)D
 
@@ -922,7 +868,6 @@
 
     return-wide p0
 
-    .line 10
     :pswitch_3
     invoke-static {p0, p1}, Lcom/google/common/math/b;->e(D)Z
 
@@ -961,7 +906,6 @@
 
     if-lez p2, :cond_5
 
-    .line 11
     invoke-static {p0, p1}, Lcom/google/common/math/b;->e(D)Z
 
     move-result p2
@@ -986,7 +930,6 @@
 
     if-gez p2, :cond_7
 
-    .line 12
     invoke-static {p0, p1}, Lcom/google/common/math/b;->e(D)Z
 
     move-result p2
@@ -1006,7 +949,6 @@
     :goto_2
     return-wide p0
 
-    .line 13
     :pswitch_7
     invoke-static {p0, p1}, Lcom/google/common/math/b;->e(D)Z
 
@@ -1016,7 +958,6 @@
 
     return-wide p0
 
-    .line 14
     :cond_8
     new-instance p0, Ljava/lang/ArithmeticException;
 
@@ -1044,7 +985,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/common/math/b;->n(DLjava/math/RoundingMode;)D
 
     move-result-wide p0
@@ -1089,25 +1029,21 @@
 
     double-to-long p0, p0
 
-    .line 2
     invoke-static {p0, p1}, Ljava/math/BigInteger;->valueOf(J)Ljava/math/BigInteger;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_2
     invoke-static {p0, p1}, Ljava/lang/Math;->getExponent(D)I
 
     move-result p2
 
-    .line 4
     invoke-static {p0, p1}, Lcom/google/common/math/c;->c(D)J
 
     move-result-wide v0
 
-    .line 5
     invoke-static {v0, v1}, Ljava/math/BigInteger;->valueOf(J)Ljava/math/BigInteger;
 
     move-result-object v0
@@ -1124,7 +1060,6 @@
 
     if-gez v2, :cond_3
 
-    .line 6
     invoke-virtual {p2}, Ljava/math/BigInteger;->negate()Ljava/math/BigInteger;
 
     move-result-object p2
@@ -1138,7 +1073,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/common/math/b;->n(DLjava/math/RoundingMode;)D
 
     move-result-wide v0
@@ -1175,7 +1109,6 @@
     :goto_1
     and-int/2addr v2, v4
 
-    .line 2
     invoke-static {v2, p0, p1, p2}, Lcom/google/common/math/f;->a(ZDLjava/math/RoundingMode;)V
 
     double-to-int p0, v0
@@ -1188,7 +1121,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/common/math/b;->n(DLjava/math/RoundingMode;)D
 
     move-result-wide v0
@@ -1229,7 +1161,6 @@
     :goto_1
     and-int/2addr v2, v4
 
-    .line 2
     invoke-static {v2, p0, p1, p2}, Lcom/google/common/math/f;->a(ZDLjava/math/RoundingMode;)V
 
     double-to-long p0, v0

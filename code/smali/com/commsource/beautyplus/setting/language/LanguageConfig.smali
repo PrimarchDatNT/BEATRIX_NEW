@@ -24,14 +24,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig;
 
     invoke-direct {v1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;-><init>()V
 
     sput-object v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->b:Lcom/commsource/beautyplus/setting/language/LanguageConfig;
 
-    .line 2
     sget-object v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig$spConfig$2;->INSTANCE:Lcom/commsource/beautyplus/setting/language/LanguageConfig$spConfig$2;
 
     invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -48,7 +46,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -61,14 +58,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x18
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     new-instance v1, Landroid/os/LocaleList;
 
     const/4 v2, 0x1
@@ -81,22 +76,17 @@
 
     invoke-direct {v1, v2}, Landroid/os/LocaleList;-><init>([Ljava/util/Locale;)V
 
-    .line 3
     invoke-static {v1}, Landroid/os/LocaleList;->setDefault(Landroid/os/LocaleList;)V
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/content/res/Configuration;->setLocales(Landroid/os/LocaleList;)V
 
-    .line 5
     invoke-virtual {p1, p2}, Landroid/content/res/Configuration;->setLocale(Ljava/util/Locale;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {p1, p2}, Landroid/content/res/Configuration;->setLocale(Ljava/util/Locale;)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -122,39 +112,32 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->c()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     new-instance v2, Landroid/content/res/Configuration;
 
     invoke-direct {v2}, Landroid/content/res/Configuration;-><init>()V
 
-    .line 4
     invoke-static {v1}, Ljava/util/Locale;->forLanguageTag(Ljava/lang/String;)Ljava/util/Locale;
 
     move-result-object v1
 
-    .line 5
     invoke-static {v1}, Ljava/util/Locale;->setDefault(Ljava/util/Locale;)V
 
     const-string v3, "locale"
 
-    .line 6
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v2, v1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->h(Landroid/content/res/Configuration;Ljava/util/Locale;)V
 
-    .line 7
     invoke-virtual {p1, v2}, Landroid/content/Context;->createConfigurationContext(Landroid/content/res/Configuration;)Landroid/content/Context;
 
     move-result-object p1
@@ -167,7 +150,6 @@
 
     return-object p1
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -189,7 +171,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->c()Ljava/lang/String;
 
     move-result-object v1
@@ -210,12 +191,10 @@
     :goto_0
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    .line 3
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v3, 0x18
@@ -226,7 +205,6 @@
 
     if-lt v2, v3, :cond_1
 
-    .line 4
     invoke-static {p1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
@@ -251,7 +229,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-static {p1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -265,7 +242,6 @@
 
     move-result-object v2
 
-    .line 6
     :goto_1
     invoke-static {v2, v1}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -273,15 +249,12 @@
 
     if-nez v2, :cond_2
 
-    .line 7
     invoke-static {v1}, Ljava/util/Locale;->forLanguageTag(Ljava/lang/String;)Ljava/util/Locale;
 
     move-result-object v1
 
-    .line 8
     invoke-static {v1}, Ljava/util/Locale;->setDefault(Ljava/util/Locale;)V
 
-    .line 9
     sget-object v2, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->b:Lcom/commsource/beautyplus/setting/language/LanguageConfig;
 
     invoke-virtual {p1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
@@ -296,7 +269,6 @@
 
     invoke-direct {v2, v3, v1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->h(Landroid/content/res/Configuration;Ljava/util/Locale;)V
 
-    .line 10
     invoke-virtual {p1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     move-result-object v3
@@ -307,25 +279,20 @@
 
     invoke-virtual {p1, v3, v4}, Landroid/content/res/Resources;->updateConfiguration(Landroid/content/res/Configuration;Landroid/util/DisplayMetrics;)V
 
-    .line 11
     invoke-static {}, Lf/k/c/a;->a()Landroid/app/Application;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    .line 12
     new-instance v3, Landroid/content/res/Configuration;
 
     invoke-direct {v3}, Landroid/content/res/Configuration;-><init>()V
 
-    .line 13
     invoke-direct {v2, v3, v1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->h(Landroid/content/res/Configuration;Ljava/util/Locale;)V
 
-    .line 14
     invoke-virtual {p1, v3}, Landroid/app/Application;->createConfigurationContext(Landroid/content/res/Configuration;)Landroid/content/Context;
 
-    .line 15
     invoke-virtual {p1}, Landroid/app/Application;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
@@ -344,7 +311,6 @@
 
     invoke-virtual {v1, v3, p1}, Landroid/content/res/Resources;->updateConfiguration(Landroid/content/res/Configuration;Landroid/util/DisplayMetrics;)V
 
-    .line 16
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -360,7 +326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->f()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -403,7 +368,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-virtual {p1, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p1
@@ -422,7 +386,6 @@
 
     move-object v1, p1
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -446,7 +409,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -455,10 +417,8 @@
 
     invoke-direct {v2}, Landroid/content/res/Configuration;-><init>()V
 
-    .line 2
     invoke-virtual {v2, p1}, Landroid/content/res/Configuration;->setLocale(Ljava/util/Locale;)V
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/content/Context;->createConfigurationContext(Landroid/content/res/Configuration;)Landroid/content/Context;
 
     move-result-object p1
@@ -517,14 +477,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig$a;
 
     invoke-direct {v1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig$a;-><init>()V
 
     invoke-virtual {p1, v1}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -547,39 +505,32 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->d(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     new-instance v2, Landroid/content/res/Configuration;
 
     invoke-direct {v2}, Landroid/content/res/Configuration;-><init>()V
 
-    .line 4
     invoke-static {v1}, Ljava/util/Locale;->forLanguageTag(Ljava/lang/String;)Ljava/util/Locale;
 
     move-result-object v1
 
-    .line 5
     invoke-static {v1}, Ljava/util/Locale;->setDefault(Ljava/util/Locale;)V
 
     const-string v3, "locale"
 
-    .line 6
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v2, v1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->h(Landroid/content/res/Configuration;Ljava/util/Locale;)V
 
-    .line 7
     invoke-virtual {p1, v2}, Landroid/content/Context;->createConfigurationContext(Landroid/content/res/Configuration;)Landroid/content/Context;
 
     move-result-object p1
@@ -592,7 +543,6 @@
 
     return-object p1
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -614,7 +564,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->f()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -623,7 +572,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

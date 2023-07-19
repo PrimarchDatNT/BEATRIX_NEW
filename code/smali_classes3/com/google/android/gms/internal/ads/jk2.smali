@@ -38,7 +38,6 @@
 .method public final run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jk2;->a:Lcom/google/android/gms/internal/ads/gk2;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/jk2;->b:Lcom/google/android/gms/internal/ads/yj2;
@@ -47,25 +46,21 @@
 
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/jk2;->d:Lcom/google/android/gms/internal/ads/lq;
 
-    .line 2
     :try_start_0
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/yj2;->k0()Lcom/google/android/gms/internal/ads/dk2;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v1, v2}, Lcom/google/android/gms/internal/ads/dk2;->q1(Lcom/google/android/gms/internal/ads/zzsy;)Lcom/google/android/gms/internal/ads/zzsx;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzsx;->y()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 5
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "No entry contents."
@@ -74,18 +69,15 @@
 
     invoke-virtual {v3, v1}, Lcom/google/android/gms/internal/ads/lq;->c(Ljava/lang/Throwable;)Z
 
-    .line 6
     iget-object v1, v0, Lcom/google/android/gms/internal/ads/gk2;->c:Lcom/google/android/gms/internal/ads/ek2;
 
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/ek2;->b(Lcom/google/android/gms/internal/ads/ek2;)V
 
     return-void
 
-    .line 7
     :cond_0
     new-instance v2, Lcom/google/android/gms/internal/ads/lk2;
 
-    .line 8
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzsx;->z()Ljava/io/InputStream;
 
     move-result-object v1
@@ -94,7 +86,6 @@
 
     invoke-direct {v2, v0, v1, v4}, Lcom/google/android/gms/internal/ads/lk2;-><init>(Lcom/google/android/gms/internal/ads/gk2;Ljava/io/InputStream;I)V
 
-    .line 9
     invoke-virtual {v2}, Ljava/io/PushbackInputStream;->read()I
 
     move-result v1
@@ -103,15 +94,12 @@
 
     if-eq v1, v4, :cond_1
 
-    .line 10
     invoke-virtual {v2, v1}, Ljava/io/PushbackInputStream;->unread(I)V
 
-    .line 11
     invoke-virtual {v3, v2}, Lcom/google/android/gms/internal/ads/lq;->a(Ljava/lang/Object;)Z
 
     return-void
 
-    .line 12
     :cond_1
     new-instance v1, Ljava/io/IOException;
 
@@ -135,13 +123,10 @@
     :goto_0
     const-string v2, "Unable to obtain a cache service instance."
 
-    .line 13
     invoke-static {v2, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 14
     invoke-virtual {v3, v1}, Lcom/google/android/gms/internal/ads/lq;->c(Ljava/lang/Throwable;)Z
 
-    .line 15
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/gk2;->c:Lcom/google/android/gms/internal/ads/ek2;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/ek2;->b(Lcom/google/android/gms/internal/ads/ek2;)V

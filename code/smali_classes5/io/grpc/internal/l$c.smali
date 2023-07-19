@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/l;Lio/grpc/internal/a2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/l$c;->b:Lio/grpc/internal/l;
 
     iput-object p2, p0, Lio/grpc/internal/l$c;->a:Lio/grpc/internal/a2;
@@ -42,7 +41,6 @@
 .method public close()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l$c;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0}, Lio/grpc/internal/a2;->close()V

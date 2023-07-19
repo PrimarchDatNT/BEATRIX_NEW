@@ -10,7 +10,6 @@
 .method public static final synthetic a(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/io/e;->b(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -21,7 +20,6 @@
 .method private static final b(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-virtual {p0}, Ljava/io/File;->toString()Ljava/lang/String;
@@ -32,7 +30,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -52,7 +49,6 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 3
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -69,7 +65,6 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     :cond_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 

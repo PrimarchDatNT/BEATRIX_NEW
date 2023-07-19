@@ -25,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/f1;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 .method public bridge synthetic a()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lio/grpc/f1;->a()V
 
     return-void
@@ -45,7 +43,6 @@
 .method public bridge synthetic b()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lio/grpc/f1;->b()V
 
     return-void
@@ -54,7 +51,6 @@
 .method public bridge synthetic c()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lio/grpc/f1;->c()V
 
     return-void
@@ -68,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/a0;->f()Lio/grpc/k1$a;
 
     move-result-object v0
@@ -81,7 +76,6 @@
 .method public bridge synthetic e()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lio/grpc/f1;->e()V
 
     return-void
@@ -100,7 +94,6 @@
 .method public bridge synthetic toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lio/grpc/f1;->toString()Ljava/lang/String;
 
     move-result-object v0

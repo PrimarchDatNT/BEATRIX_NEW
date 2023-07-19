@@ -60,48 +60,36 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->i:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->j:Z
 
     const/4 v1, 0x0
 
-    .line 4
     iput-boolean v1, p0, Lcom/tencent/bugly/BuglyStrategy;->k:Z
 
-    .line 5
     iput-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->l:Z
 
     const/4 v2, 0x0
 
-    .line 6
     iput-object v2, p0, Lcom/tencent/bugly/BuglyStrategy;->m:Ljava/lang/Class;
 
-    .line 7
     iput-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->n:Z
 
-    .line 8
     iput-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->o:Z
 
-    .line 9
     iput-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->p:Z
 
-    .line 10
     iput-boolean v1, p0, Lcom/tencent/bugly/BuglyStrategy;->q:Z
 
     const/16 v0, 0x1f
 
-    .line 11
     iput v0, p0, Lcom/tencent/bugly/BuglyStrategy;->a:I
 
-    .line 12
     iput-boolean v1, p0, Lcom/tencent/bugly/BuglyStrategy;->b:Z
 
     return-void
@@ -114,7 +102,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/tencent/bugly/BuglyStrategy;->d:Ljava/lang/String;
 
@@ -150,7 +137,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/tencent/bugly/BuglyStrategy;->e:Ljava/lang/String;
 
@@ -186,7 +172,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-wide v0, p0, Lcom/tencent/bugly/BuglyStrategy;->f:J
     :try_end_0
@@ -209,7 +194,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/tencent/bugly/BuglyStrategy;->c:Ljava/lang/String;
 
@@ -245,7 +229,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget v0, p0, Lcom/tencent/bugly/BuglyStrategy;->a:I
     :try_end_0
@@ -268,7 +251,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->b:Z
     :try_end_0
@@ -291,7 +273,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/tencent/bugly/BuglyStrategy;->r:Lcom/tencent/bugly/BuglyStrategy$a;
     :try_end_0
@@ -314,7 +295,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/tencent/bugly/BuglyStrategy;->h:Ljava/lang/String;
     :try_end_0
@@ -337,7 +317,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/tencent/bugly/BuglyStrategy;->g:Ljava/lang/String;
     :try_end_0
@@ -367,7 +346,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/tencent/bugly/BuglyStrategy;->m:Ljava/lang/Class;
     :try_end_0
@@ -390,7 +368,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->n:Z
     :try_end_0
@@ -413,7 +390,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->j:Z
     :try_end_0
@@ -436,7 +412,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->k:Z
     :try_end_0
@@ -459,7 +434,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->i:Z
     :try_end_0
@@ -482,7 +456,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->l:Z
     :try_end_0
@@ -503,7 +476,6 @@
 .method public isReplaceOldChannel()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->o:Z
 
     return v0
@@ -514,7 +486,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->p:Z
     :try_end_0
@@ -537,7 +508,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->q:Z
     :try_end_0
@@ -560,13 +530,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-object p1, p0, Lcom/tencent/bugly/BuglyStrategy;->d:Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -584,13 +552,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-object p1, p0, Lcom/tencent/bugly/BuglyStrategy;->e:Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -608,13 +574,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-wide p1, p0, Lcom/tencent/bugly/BuglyStrategy;->f:J
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -632,13 +596,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-object p1, p0, Lcom/tencent/bugly/BuglyStrategy;->c:Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -656,13 +618,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-boolean p1, p0, Lcom/tencent/bugly/BuglyStrategy;->n:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -680,13 +640,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput p1, p0, Lcom/tencent/bugly/BuglyStrategy;->a:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -704,13 +662,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-boolean p1, p0, Lcom/tencent/bugly/BuglyStrategy;->b:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -728,13 +684,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-object p1, p0, Lcom/tencent/bugly/BuglyStrategy;->r:Lcom/tencent/bugly/BuglyStrategy$a;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -752,13 +706,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-object p1, p0, Lcom/tencent/bugly/BuglyStrategy;->h:Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -776,13 +728,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-boolean p1, p0, Lcom/tencent/bugly/BuglyStrategy;->j:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -798,7 +748,6 @@
 .method public setEnableCatchAnrTrace(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/tencent/bugly/BuglyStrategy;->k:Z
 
     return-void
@@ -809,13 +758,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-boolean p1, p0, Lcom/tencent/bugly/BuglyStrategy;->i:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -833,13 +780,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-boolean p1, p0, Lcom/tencent/bugly/BuglyStrategy;->l:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -857,13 +802,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-object p1, p0, Lcom/tencent/bugly/BuglyStrategy;->g:Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -881,13 +824,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-boolean p1, p0, Lcom/tencent/bugly/BuglyStrategy;->q:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -903,7 +844,6 @@
 .method public setReplaceOldChannel(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/tencent/bugly/BuglyStrategy;->o:Z
 
     return-void
@@ -914,13 +854,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-boolean p1, p0, Lcom/tencent/bugly/BuglyStrategy;->p:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -946,13 +884,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-object p1, p0, Lcom/tencent/bugly/BuglyStrategy;->m:Ljava/lang/Class;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0

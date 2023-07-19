@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/k/h/a/l/x/i;Lf/k/h/a/l/y/m;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/l/x/i$a;->b:Lf/k/h/a/l/x/i;
 
     iput-object p2, p0, Lf/k/h/a/l/x/i$a;->a:Lf/k/h/a/l/y/m;
@@ -48,21 +47,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/x/i$a;->b:Lf/k/h/a/l/x/i;
 
     iget-object v1, v1, Lf/k/h/a/l/x/k;->a:Lf/k/h/a/l/q;
 
     invoke-interface {v1, p0}, Lf/k/h/a/l/y/a;->b(Lf/k/h/a/l/y/b;)V
 
-    .line 2
     iget-object v1, p0, Lf/k/h/a/l/x/i$a;->a:Lf/k/h/a/l/y/m;
 
     const/4 v2, 0x0
 
     invoke-interface {v1, p1, v2}, Lf/k/h/a/l/y/m;->a(ILjava/util/List;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -76,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -101,7 +96,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Lf/k/h/a/l/x/i;->e()Ljava/lang/String;
 
     move-result-object v2
@@ -122,7 +116,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Lf/k/h/a/l/x/i;->e()Ljava/lang/String;
 
@@ -142,7 +135,6 @@
 
     invoke-static {v2, v1}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :goto_0
     iget-object v1, p0, Lf/k/h/a/l/x/i$a;->b:Lf/k/h/a/l/x/i;
 
@@ -150,12 +142,10 @@
 
     invoke-interface {v1, p0}, Lf/k/h/a/l/y/a;->b(Lf/k/h/a/l/y/b;)V
 
-    .line 4
     iget-object v1, p0, Lf/k/h/a/l/x/i$a;->a:Lf/k/h/a/l/y/m;
 
     invoke-interface {v1, p1, p2}, Lf/k/h/a/l/y/m;->a(ILjava/util/List;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

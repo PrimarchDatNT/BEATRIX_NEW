@@ -25,16 +25,12 @@
 .method constructor <init>([Ljava/lang/Object;II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/zzdss;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzdtj;->zzhmi:[Ljava/lang/Object;
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/internal/ads/zzdtj;->offset:I
 
-    .line 4
     iput p3, p0, Lcom/google/android/gms/internal/ads/zzdtj;->size:I
 
     return-void
@@ -45,12 +41,10 @@
 .method public final get(I)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzdtj;->size:I
 
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/lo1;->g(II)I
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdtj;->zzhmi:[Ljava/lang/Object;
 
     mul-int/lit8 p1, p1, 0x2
@@ -67,7 +61,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzdtj;->size:I
 
     return v0

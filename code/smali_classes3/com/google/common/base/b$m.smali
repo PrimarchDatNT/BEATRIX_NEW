@@ -22,10 +22,8 @@
 .method constructor <init>(C)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/base/b$i;-><init>()V
 
-    .line 2
     iput-char p1, p0, Lcom/google/common/base/b$m;->b:C
 
     return-void
@@ -36,7 +34,6 @@
 .method public B(C)Z
     .locals 1
 
-    .line 1
     iget-char v0, p0, Lcom/google/common/base/b$m;->b:C
 
     if-ne p1, v0, :cond_0
@@ -55,7 +52,6 @@
 .method public F()Lcom/google/common/base/b;
     .locals 1
 
-    .line 1
     iget-char v0, p0, Lcom/google/common/base/b$m;->b:C
 
     invoke-static {v0}, Lcom/google/common/base/b;->s(C)Lcom/google/common/base/b;
@@ -68,7 +64,6 @@
 .method public I(Lcom/google/common/base/b;)Lcom/google/common/base/b;
     .locals 1
 
-    .line 1
     iget-char v0, p0, Lcom/google/common/base/b$m;->b:C
 
     invoke-virtual {p1, v0}, Lcom/google/common/base/b;->B(C)Z
@@ -91,7 +86,6 @@
 .method public N(Ljava/lang/CharSequence;C)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -110,7 +104,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     iget-char v0, p0, Lcom/google/common/base/b$m;->b:C
 
     invoke-virtual {p1, v0}, Ljava/util/BitSet;->set(I)V
@@ -121,7 +114,6 @@
 .method public b(Lcom/google/common/base/b;)Lcom/google/common/base/b;
     .locals 1
 
-    .line 1
     iget-char v0, p0, Lcom/google/common/base/b$m;->b:C
 
     invoke-virtual {p1, v0}, Lcom/google/common/base/b;->B(C)Z
@@ -146,7 +138,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

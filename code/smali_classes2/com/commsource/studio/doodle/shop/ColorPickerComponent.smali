@@ -101,17 +101,14 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 2
     new-instance p2, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p2}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->a:Lcom/commsource/camera/f1/n;
 
-    .line 3
     invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object p1
@@ -128,7 +125,6 @@
 
     const/high16 v0, 0x40400000    # 3.0f
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
@@ -137,10 +133,8 @@
 
     const/4 v0, 0x7
 
-    .line 5
     iput v0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->O:I
 
-    .line 6
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v0
@@ -149,7 +143,6 @@
 
     const/high16 v0, 0x41c00000    # 24.0f
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v0
@@ -162,7 +155,6 @@
 
     invoke-virtual {p2, v0, v1}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 8
     new-instance p2, Lcom/commsource/widget/h1/e;
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -185,7 +177,6 @@
 
     new-array p1, p1, [F
 
-    .line 9
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -194,12 +185,10 @@
 
     const-wide/16 v0, 0xc8
 
-    .line 10
     invoke-virtual {p1, v0, v1}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
-    .line 11
     new-instance p2, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$i;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$i;-><init>(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)V
@@ -226,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->O:I
 
     const/4 v2, 0x7
@@ -240,7 +228,6 @@
     :cond_0
     const/4 v1, 0x2
 
-    .line 2
     :goto_0
     iget-object v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->b:Lcom/commsource/widget/h1/e;
 
@@ -270,7 +257,6 @@
 
     if-ge v2, v4, :cond_6
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->b:Lcom/commsource/widget/h1/e;
 
     if-nez v2, :cond_3
@@ -304,7 +290,6 @@
     :cond_5
     const/4 v2, 0x0
 
-    .line 4
     :goto_1
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
@@ -314,7 +299,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_6
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
@@ -333,7 +317,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 6
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -353,7 +336,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->setImage(Landroid/graphics/Bitmap;)V
 
@@ -375,7 +357,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->F(Lcotlin/jvm/u/a;)V
 
@@ -391,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->u()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -406,7 +386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->b:Lcom/commsource/widget/h1/e;
 
     if-nez p0, :cond_0
@@ -428,7 +407,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->g:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -443,7 +421,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->a:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -458,7 +435,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->p:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -473,7 +449,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->f:Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -488,7 +463,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -503,7 +477,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->J:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -518,7 +491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->C()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -533,7 +505,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->b:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -548,7 +519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->g:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -563,7 +533,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->p:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -578,7 +547,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->f:Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -593,7 +561,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->J:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -616,7 +583,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v4, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -629,7 +595,6 @@
 
     invoke-static {v4, v6}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 2
     iget-object v4, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -640,7 +605,6 @@
 
     invoke-static {v4, v5}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -651,7 +615,6 @@
 
     invoke-virtual {v4, v1}, Landroid/view/View;->setSelected(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -662,7 +625,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/doodle/ColorItemView;->setFillColor(I)V
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
@@ -695,7 +657,6 @@
 
     if-le p1, v4, :cond_0
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/gl;->d:Lcom/commsource/widget/IconFrontView;
@@ -704,7 +665,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
@@ -714,7 +674,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
@@ -722,14 +681,12 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/studio/doodle/ColorItemView;->setFillColor(I)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -740,7 +697,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setSelected(Z)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -753,7 +709,6 @@
 
     invoke-static {p1, v2}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -764,7 +719,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 13
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -780,10 +734,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->P:Z
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -794,7 +746,6 @@
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setSelected(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->b:Lcom/commsource/widget/h1/e;
 
     if-nez v1, :cond_0
@@ -808,24 +759,19 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->R:Lcom/commsource/camera/f1/l;
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->d()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 7
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -844,7 +790,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->v(Lcotlin/jvm/u/a;)V
 
@@ -860,7 +805,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     iget-object v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
@@ -885,10 +829,8 @@
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/studio/doodle/ColorPickerLayer;-><init>(Landroid/content/Context;Landroid/graphics/Bitmap;)V
 
-    .line 2
     invoke-virtual {p1, v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->A(Lcom/commsource/studio/layer/d;)V
 
-    .line 3
     new-instance v2, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$b;
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$b;-><init>(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;Lcom/commsource/studio/sub/BaseSubTabFragment;)V
@@ -899,22 +841,18 @@
 
     invoke-static {v1, v2, v4, v5, v3}, Lcom/commsource/studio/layer/c;->r0(Lcom/commsource/studio/layer/c;Lcom/commsource/studio/layer/c$a;IILjava/lang/Object;)V
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$c;
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$c;-><init>(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;Lcom/commsource/studio/sub/BaseSubTabFragment;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/ColorPickerLayer;->L0(Lcom/commsource/studio/doodle/ColorPickerLayer$a;)V
 
-    .line 5
     iput-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->f:Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-virtual {v1, v4}, Lcom/commsource/studio/doodle/ColorPickerLayer;->j0(Z)V
 
-    .line 7
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
@@ -926,7 +864,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -941,7 +878,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
@@ -952,10 +888,8 @@
 
     iput-object v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->c:Lcom/commsource/widget/h1/c;
 
-    .line 2
     new-instance v2, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     invoke-virtual {v3}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -974,7 +908,6 @@
 
     const/4 v5, 0x0
 
-    .line 4
     invoke-direct {v2, v3, v4, v5}, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;-><init>(Landroid/content/Context;IZ)V
 
     iput-object v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->d:Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
@@ -983,13 +916,11 @@
 
     if-nez v2, :cond_0
 
-    .line 5
     invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v2, v5}, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;->d(I)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/gl;->b:Lcom/commsource/studio/doodle/FadingEdgeRecycleView;
@@ -1007,7 +938,6 @@
     :cond_1
     invoke-virtual {v2, v5}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->c:Lcom/commsource/widget/h1/c;
 
     const-string v3, "builder"
@@ -1021,7 +951,6 @@
 
     invoke-virtual {v2, v0, v5}, Lcom/commsource/widget/h1/c;->f(Ljava/lang/Class;Lcom/commsource/widget/h1/c$a;)Lcom/commsource/widget/h1/c;
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/gl;->b:Lcom/commsource/studio/doodle/FadingEdgeRecycleView;
@@ -1032,7 +961,6 @@
 
     invoke-virtual {v2, v5}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->b:Lcom/commsource/widget/h1/e;
 
     const-string v5, "colorAdapter"
@@ -1048,7 +976,6 @@
 
     invoke-virtual {v2, v0, v6}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 10
     iget-object v0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/gl;->b:Lcom/commsource/studio/doodle/FadingEdgeRecycleView;
@@ -1059,7 +986,6 @@
 
     invoke-virtual {v0, v2}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/gl;->b:Lcom/commsource/studio/doodle/FadingEdgeRecycleView;
@@ -1075,7 +1001,6 @@
     :cond_4
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->b:Lcom/commsource/widget/h1/e;
 
     if-nez p1, :cond_5
@@ -1109,7 +1034,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 13
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1142,10 +1066,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->J:Lcotlin/jvm/u/l;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1158,7 +1080,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->f:Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     if-eqz v1, :cond_0
@@ -1175,7 +1096,6 @@
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/p/e/a;->T(Landroid/graphics/Bitmap;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1198,7 +1118,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     iget-object v3, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->L:Ljava/util/List;
 
     if-nez v3, :cond_0
@@ -1207,7 +1126,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
-    .line 2
     :cond_0
     invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -1228,14 +1146,12 @@
 
     move-result-object v6
 
-    .line 3
     check-cast v6, Ljava/lang/String;
 
     const/4 v7, 0x2
 
     const-string v8, "#"
 
-    .line 4
     invoke-static {v6, v8, v4, v7, v1}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v7
@@ -1287,7 +1203,6 @@
 
     goto :goto_5
 
-    .line 5
     :cond_5
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
@@ -1303,7 +1218,6 @@
 
     if-gtz p1, :cond_6
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/gl;->b:Lcom/commsource/studio/doodle/FadingEdgeRecycleView;
@@ -1316,7 +1230,6 @@
 
     goto :goto_4
 
-    .line 7
     :cond_6
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->b:Lcom/commsource/widget/h1/e;
 
@@ -1327,16 +1240,13 @@
     :cond_7
     invoke-virtual {p1, v5}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->C()V
 
-    .line 9
     :goto_4
     invoke-direct {p0, v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->setPickerIconState(Ljava/lang/Integer;)V
 
     goto :goto_6
 
-    .line 10
     :cond_8
     :goto_5
     iget-object p2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->b:Lcom/commsource/widget/h1/e;
@@ -1348,10 +1258,8 @@
     :cond_9
     invoke-virtual {p2, v2}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 11
     invoke-direct {p0, p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->setPickerIconState(Ljava/lang/Integer;)V
 
-    .line 12
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1377,33 +1285,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
     const-wide/16 v2, 0x12c
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 4
     iget v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->Q:F
 
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->translationX(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$k;
 
     invoke-direct {v2, p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$k;-><init>(Lcotlin/jvm/u/a;)V
@@ -1412,13 +1315,10 @@
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 7
     invoke-static {p0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1500,12 +1400,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->P:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -1516,7 +1414,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->b:Lcom/commsource/widget/h1/e;
@@ -1536,7 +1433,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     check-cast v1, Ljava/lang/String;
 
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -1563,13 +1459,11 @@
     :catch_0
     move-exception v1
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     :cond_3
     const/high16 v1, -0x1000000
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1583,7 +1477,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1598,7 +1491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->Q:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1613,7 +1505,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getMode(I)I
 
     move-result v0
@@ -1624,14 +1515,12 @@
 
     const/high16 v0, 0x42000000    # 32.0f
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
@@ -1648,7 +1537,6 @@
 
     const/high16 v2, 0x40c00000    # 6.0f
 
-    .line 4
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -1667,18 +1555,14 @@
 
     const/high16 v2, 0x40000000    # 2.0f
 
-    .line 5
     invoke-static {v1, v2}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v2
 
-    .line 6
     invoke-virtual {p0, v0, v1}, Landroid/widget/FrameLayout;->setMeasuredDimension(II)V
 
-    .line 7
     invoke-super {p0, p1, v2}, Landroid/widget/FrameLayout;->onMeasure(II)V
 
-    .line 8
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1691,10 +1575,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result p1
@@ -1703,10 +1585,8 @@
 
     add-int/2addr p1, p2
 
-    .line 3
     invoke-direct {p0, p2, p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->z(II)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1737,17 +1617,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->P:Z
 
     if-eqz v1, :cond_0
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->P:Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -1756,7 +1633,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/ColorItemView;->setFillColor(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gl;->d:Lcom/commsource/widget/IconFrontView;
@@ -1765,11 +1641,9 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 5
     :cond_0
     iput-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->g:Lcotlin/jvm/u/l;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1800,10 +1674,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->p:Lcotlin/jvm/u/l;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1816,7 +1688,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->f:Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     if-eqz v1, :cond_1
@@ -1829,7 +1700,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->f:Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     if-eqz v1, :cond_0
@@ -1838,7 +1708,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/ColorPickerLayer;->j0(Z)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->J:Lcotlin/jvm/u/l;
 
@@ -1852,7 +1721,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1882,10 +1750,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->L:Ljava/util/List;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1898,7 +1764,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1917,17 +1782,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->B()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->f:Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/doodle/ColorPickerLayer;->K0(Landroid/graphics/Bitmap;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1941,7 +1803,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->Q:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1956,12 +1817,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->P:Z
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->f:Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     const/4 v2, 0x0
@@ -1970,7 +1829,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/ColorPickerLayer;->j0(Z)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->J:Lcotlin/jvm/u/l;
 
@@ -1984,11 +1842,9 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 4
     :cond_1
     iput-boolean v2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->P:Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -1999,7 +1855,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setSelected(Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -2012,7 +1867,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->M:Lcom/commsource/beautyplus/f0/gl;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gl;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -2025,7 +1879,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2051,14 +1904,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -2071,7 +1922,6 @@
 
     const/high16 v2, 0x42380000    # 46.0f
 
-    .line 3
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v2
@@ -2080,7 +1930,6 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$a;
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$a;-><init>(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;Lcotlin/jvm/u/a;)V
@@ -2089,10 +1938,8 @@
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2115,13 +1962,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->K:Lcom/commsource/studio/sub/BaseSubTabFragment;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->y(Lcom/commsource/studio/sub/BaseSubTabFragment;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

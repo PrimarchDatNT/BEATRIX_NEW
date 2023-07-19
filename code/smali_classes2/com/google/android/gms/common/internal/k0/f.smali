@@ -6,7 +6,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/internal/k0/e;Lcom/google/android/gms/common/api/i;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/google/android/gms/common/internal/k0/i;-><init>(Lcom/google/android/gms/common/api/i;)V
 
     return-void
@@ -22,10 +21,8 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/common/internal/k0/j;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/common/internal/e;->G()Landroid/os/IInterface;
 
     move-result-object p1

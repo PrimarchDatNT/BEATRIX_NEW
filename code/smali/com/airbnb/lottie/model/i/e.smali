@@ -35,10 +35,8 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/airbnb/lottie/a0/a;
 
     new-instance v1, Landroid/graphics/PointF;
@@ -70,10 +68,8 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/airbnb/lottie/model/i/e;->a:Ljava/util/List;
 
     return-void
@@ -93,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/e;->a:Ljava/util/List;
 
     const/4 v1, 0x0
@@ -110,7 +105,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/airbnb/lottie/w/c/j;
 
     iget-object v1, p0, Lcom/airbnb/lottie/model/i/e;->a:Ljava/util/List;
@@ -119,7 +113,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/airbnb/lottie/w/c/i;
 
@@ -142,7 +135,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/e;->a:Ljava/util/List;
 
     return-object v0
@@ -151,7 +143,6 @@
 .method public c()Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/e;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I

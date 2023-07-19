@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/google/common/base/n;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Maps$m;->a:Lcom/google/common/base/n;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/common/collect/Maps$m;->a:Lcom/google/common/base/n;
 
     invoke-interface {p1, p2}, Lcom/google/common/base/n;->apply(Ljava/lang/Object;)Ljava/lang/Object;

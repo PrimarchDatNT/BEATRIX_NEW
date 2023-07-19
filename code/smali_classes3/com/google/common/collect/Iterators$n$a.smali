@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/google/common/collect/Iterators$n;Ljava/util/Comparator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Iterators$n$a;->b:Lcom/google/common/collect/Iterators$n;
 
     iput-object p2, p0, Lcom/google/common/collect/Iterators$n$a;->a:Ljava/util/Comparator;
@@ -60,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Iterators$n$a;->a:Ljava/util/Comparator;
 
     invoke-interface {p1}, Lcom/google/common/collect/q1;->peek()Ljava/lang/Object;
@@ -81,7 +79,6 @@
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/common/collect/q1;
 
     check-cast p2, Lcom/google/common/collect/q1;

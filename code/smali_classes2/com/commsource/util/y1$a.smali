@@ -31,7 +31,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/text/style/ImageSpan;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     iput p2, p0, Lcom/commsource/util/y1$a;->a:I
@@ -48,7 +47,6 @@
 
     const/4 p2, 0x0
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/util/y1$a;-><init>(Landroid/graphics/drawable/Drawable;I)V
 
@@ -64,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/util/y1$a;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -99,7 +96,6 @@
 
     invoke-static {p9, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p9}, Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
 
     move-result-object p3
@@ -152,25 +148,20 @@
 
     sub-int/2addr p3, p4
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
     int-to-float p3, p3
 
-    .line 3
     invoke-virtual {p1, p5, p3}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 4
     invoke-virtual {p0}, Landroid/text/style/ImageSpan;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object p3
 
     invoke-virtual {p3, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 5
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 6
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -199,7 +190,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/text/style/ImageSpan;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object p1

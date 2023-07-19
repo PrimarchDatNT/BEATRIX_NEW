@@ -31,7 +31,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
 
     return-void
@@ -52,7 +51,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Multimaps$b;->b()Lcom/google/common/collect/l1;
 
     move-result-object v0
@@ -69,15 +67,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/Multimaps$b;->b()Lcom/google/common/collect/l1;
 
     move-result-object v0
@@ -109,15 +104,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/Multimaps$b;->b()Lcom/google/common/collect/l1;
 
     move-result-object v0
@@ -145,7 +137,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Multimaps$b;->b()Lcom/google/common/collect/l1;
 
     move-result-object v0

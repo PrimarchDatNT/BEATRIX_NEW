@@ -133,10 +133,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 3
     sget-object p2, Lcom/commsource/video/view/XVideoRenderView$player$2;->INSTANCE:Lcom/commsource/video/view/XVideoRenderView$player$2;
 
     invoke-static {p2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -145,7 +143,6 @@
 
     iput-object p2, p0, Lcom/commsource/video/view/XVideoRenderView;->K:Lcotlin/w;
 
-    .line 4
     new-instance p2, Lcom/commsource/video/view/XVideoRenderView$render$2;
 
     invoke-direct {p2, p0, p1}, Lcom/commsource/video/view/XVideoRenderView$render$2;-><init>(Lcom/commsource/video/view/XVideoRenderView;Landroid/content/Context;)V
@@ -156,7 +153,6 @@
 
     iput-object p2, p0, Lcom/commsource/video/view/XVideoRenderView;->L:Lcotlin/w;
 
-    .line 5
     new-instance p2, Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2;
 
     invoke-direct {p2, p0, p1}, Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2;-><init>(Lcom/commsource/video/view/XVideoRenderView;Landroid/content/Context;)V
@@ -167,14 +163,12 @@
 
     iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->M:Lcotlin/w;
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getRender()Lcom/commsource/video/render/a;
 
     move-result-object p1
 
     invoke-interface {p1}, Lcom/commsource/video/render/a;->prepare()V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getRender()Lcom/commsource/video/render/a;
 
     move-result-object p1
@@ -193,7 +187,6 @@
 
     invoke-virtual {p0, p1, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getRender()Lcom/commsource/video/render/a;
 
     move-result-object p1
@@ -202,7 +195,6 @@
 
     invoke-interface {p1, p2}, Lcom/commsource/video/render/a;->d(I)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getRender()Lcom/commsource/video/render/a;
 
     move-result-object p1
@@ -213,7 +205,6 @@
 
     invoke-interface {p1, p2, v0}, Lcom/commsource/video/render/a;->b(II)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getVideoUiGroup()Lcom/commsource/video/view/XVideoUIGroup;
 
     move-result-object p1
@@ -234,7 +225,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/video/view/XVideoRenderView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -248,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/video/view/XVideoRenderView;->g()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -263,7 +252,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/video/view/XVideoRenderView;->j(I)I
 
     move-result p0
@@ -280,7 +268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/video/view/XVideoRenderView;->m(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -295,7 +282,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->J:Lcom/commsource/video/render/c;
 
     if-eqz v1, :cond_0
@@ -306,7 +292,6 @@
 
     invoke-interface {v1, v2}, Lcom/commsource/video/render/c;->a(Lcom/commsource/video/decoder/b;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -350,7 +335,6 @@
     :pswitch_3
     const/4 v1, 0x4
 
-    .line 1
     :goto_0
     :pswitch_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -384,22 +368,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/video/view/XVideoRenderView;->c:I
 
     if-eq v1, p1, :cond_0
 
-    .line 2
     iput p1, p0, Lcom/commsource/video/view/XVideoRenderView;->c:I
 
-    .line 3
     new-instance v1, Lcom/commsource/video/view/XVideoRenderView$a;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/video/view/XVideoRenderView$a;-><init>(Lcom/commsource/video/view/XVideoRenderView;I)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -484,60 +464,50 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->k()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getPlayer()Lcom/commsource/video/decoder/a;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$1;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$1;-><init>(Lcom/commsource/video/view/XVideoRenderView;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->G(Lcotlin/jvm/u/p;)V
 
-    .line 4
     new-instance v2, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$2;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$2;-><init>(Lcom/commsource/video/view/XVideoRenderView;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->E(Lcotlin/jvm/u/l;)V
 
-    .line 5
     new-instance v2, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$3;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$3;-><init>(Lcom/commsource/video/view/XVideoRenderView;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->F(Lcotlin/jvm/u/l;)V
 
-    .line 6
     new-instance v2, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$4;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$4;-><init>(Lcom/commsource/video/view/XVideoRenderView;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->D(Lcotlin/jvm/u/l;)V
 
-    .line 7
     new-instance v2, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$5;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$5;-><init>(Lcom/commsource/video/view/XVideoRenderView;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->C(Lcotlin/jvm/u/l;)V
 
-    .line 8
     new-instance v2, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$6;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$6;-><init>(Lcom/commsource/video/view/XVideoRenderView;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->B(Lcotlin/jvm/u/l;)V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/video/view/XVideoRenderView;->g()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -561,7 +531,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->p:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -588,7 +557,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->g:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -616,7 +584,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->f:Lcotlin/jvm/u/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -643,7 +610,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->d:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -704,7 +670,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->J:Lcom/commsource/video/render/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -719,7 +684,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/video/view/XVideoRenderView;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -734,7 +698,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/video/view/XVideoRenderView;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -771,7 +734,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/video/view/XVideoRenderView;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -794,14 +756,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getVideoUiGroup()Lcom/commsource/video/view/XVideoUIGroup;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Lcom/commsource/video/view/XVideoUIGroup;->c(Lcom/commsource/video/f;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -816,22 +776,18 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, v1}, Lcom/commsource/video/view/XVideoRenderView;->m(I)V
 
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->d:Lcotlin/jvm/u/l;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getRender()Lcom/commsource/video/render/a;
 
     move-result-object v1
 
     invoke-interface {v1}, Lcom/commsource/video/render/a;->release()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -844,32 +800,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getPlayer()Lcom/commsource/video/decoder/a;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->G(Lcotlin/jvm/u/p;)V
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->E(Lcotlin/jvm/u/l;)V
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->D(Lcotlin/jvm/u/l;)V
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->C(Lcotlin/jvm/u/l;)V
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->B(Lcotlin/jvm/u/l;)V
 
-    .line 7
     invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->F(Lcotlin/jvm/u/l;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -886,14 +834,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getRender()Lcom/commsource/video/render/a;
 
     move-result-object v1
 
     invoke-interface {v1, p1}, Lcom/commsource/video/render/a;->d(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -918,7 +864,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->p:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -947,7 +892,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->g:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -978,7 +922,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->f:Lcotlin/jvm/u/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1007,7 +950,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->d:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1026,7 +968,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->J:Lcom/commsource/video/render/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1041,7 +982,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/video/view/XVideoRenderView;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1056,7 +996,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/video/view/XVideoRenderView;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1071,7 +1010,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/video/view/XVideoRenderView;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

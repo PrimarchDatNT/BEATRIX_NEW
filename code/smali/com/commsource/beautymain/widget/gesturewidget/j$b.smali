@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/beautymain/widget/gesturewidget/j;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$b;->b:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     iput-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$b;->a:Ljava/lang/Runnable;
@@ -46,7 +45,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -59,15 +57,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$b;->a:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$b;->b:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
@@ -75,7 +70,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->f(Lcom/commsource/beautymain/widget/gesturewidget/j;Z)Z
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,7 +82,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -101,7 +94,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

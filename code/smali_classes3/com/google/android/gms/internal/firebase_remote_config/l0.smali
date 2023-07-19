@@ -34,17 +34,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/l0;->b:Ljava/util/ArrayList;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/l0;->a:Ljava/lang/Class;
 
     return-void
@@ -55,7 +52,6 @@
 .method final a()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/l0;->b:Ljava/util/ArrayList;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/l0;->a:Ljava/lang/Class;

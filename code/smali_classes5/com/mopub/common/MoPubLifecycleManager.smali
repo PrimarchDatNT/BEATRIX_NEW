@@ -42,17 +42,14 @@
 .method private constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArraySet;
 
     invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArraySet;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/common/MoPubLifecycleManager;->mLifecycleListeners:Ljava/util/Set;
 
-    .line 3
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -71,20 +68,17 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/mopub/common/MoPubLifecycleManager;->sInstance:Lcom/mopub/common/MoPubLifecycleManager;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/mopub/common/MoPubLifecycleManager;
 
     invoke-direct {v1, p0}, Lcom/mopub/common/MoPubLifecycleManager;-><init>(Landroid/app/Activity;)V
 
     sput-object v1, Lcom/mopub/common/MoPubLifecycleManager;->sInstance:Lcom/mopub/common/MoPubLifecycleManager;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/mopub/common/MoPubLifecycleManager;->sInstance:Lcom/mopub/common/MoPubLifecycleManager;
     :try_end_0
@@ -115,7 +109,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/MoPubLifecycleManager;->mLifecycleListeners:Ljava/util/Set;
 
@@ -125,7 +118,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/MoPubLifecycleManager;->mMainActivity:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -136,10 +128,8 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-interface {p1, v0}, Lcom/mopub/common/LifecycleListener;->onCreate(Landroid/app/Activity;)V
 
-    .line 4
     invoke-interface {p1, v0}, Lcom/mopub/common/LifecycleListener;->onStart(Landroid/app/Activity;)V
 
     :cond_1
@@ -153,7 +143,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/MoPubLifecycleManager;->mLifecycleListeners:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -173,7 +162,6 @@
 
     check-cast v1, Lcom/mopub/common/LifecycleListener;
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/mopub/common/LifecycleListener;->onBackPressed(Landroid/app/Activity;)V
 
     goto :goto_0
@@ -189,7 +177,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/MoPubLifecycleManager;->mLifecycleListeners:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -209,7 +196,6 @@
 
     check-cast v1, Lcom/mopub/common/LifecycleListener;
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/mopub/common/LifecycleListener;->onCreate(Landroid/app/Activity;)V
 
     goto :goto_0
@@ -225,7 +211,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/MoPubLifecycleManager;->mLifecycleListeners:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -245,7 +230,6 @@
 
     check-cast v1, Lcom/mopub/common/LifecycleListener;
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/mopub/common/LifecycleListener;->onDestroy(Landroid/app/Activity;)V
 
     goto :goto_0
@@ -261,7 +245,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/MoPubLifecycleManager;->mLifecycleListeners:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -281,7 +264,6 @@
 
     check-cast v1, Lcom/mopub/common/LifecycleListener;
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/mopub/common/LifecycleListener;->onPause(Landroid/app/Activity;)V
 
     goto :goto_0
@@ -297,7 +279,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/MoPubLifecycleManager;->mLifecycleListeners:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -317,7 +298,6 @@
 
     check-cast v1, Lcom/mopub/common/LifecycleListener;
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/mopub/common/LifecycleListener;->onRestart(Landroid/app/Activity;)V
 
     goto :goto_0
@@ -333,7 +313,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/MoPub;->getPersonalInformationManager()Lcom/mopub/common/privacy/PersonalInfoManager;
 
     move-result-object v0
@@ -342,10 +321,8 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/mopub/common/privacy/PersonalInfoManager;->requestSync(Z)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/MoPubLifecycleManager;->mLifecycleListeners:Ljava/util/Set;
 
@@ -366,7 +343,6 @@
 
     check-cast v1, Lcom/mopub/common/LifecycleListener;
 
-    .line 4
     invoke-interface {v1, p1}, Lcom/mopub/common/LifecycleListener;->onResume(Landroid/app/Activity;)V
 
     goto :goto_0
@@ -382,7 +358,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/MoPubLifecycleManager;->mLifecycleListeners:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -402,7 +377,6 @@
 
     check-cast v1, Lcom/mopub/common/LifecycleListener;
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/mopub/common/LifecycleListener;->onStart(Landroid/app/Activity;)V
 
     goto :goto_0
@@ -418,7 +392,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/MoPubLifecycleManager;->mLifecycleListeners:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -438,7 +411,6 @@
 
     check-cast v1, Lcom/mopub/common/LifecycleListener;
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/mopub/common/LifecycleListener;->onStop(Landroid/app/Activity;)V
 
     goto :goto_0

@@ -35,12 +35,10 @@
     :cond_0
     if-nez p1, :cond_1
 
-    .line 1
     invoke-interface {p0}, Ljava/lang/AutoCloseable;->close()V
 
     goto :goto_0
 
-    .line 2
     :cond_1
     :try_start_0
     invoke-interface {p0}, Ljava/lang/AutoCloseable;->close()V
@@ -52,7 +50,6 @@
     :catchall_0
     move-exception p0
 
-    .line 3
     invoke-virtual {p1, p0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     :goto_0
@@ -82,7 +79,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -94,7 +90,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {p0, v1}, Lcotlin/c2/a;->a(Ljava/lang/AutoCloseable;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -104,7 +99,6 @@
     :catchall_0
     move-exception p1
 
-    .line 3
     :try_start_1
     throw p1
     :try_end_1
@@ -113,10 +107,8 @@
     :catchall_1
     move-exception v1
 
-    .line 4
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, p1}, Lcotlin/c2/a;->a(Ljava/lang/AutoCloseable;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V

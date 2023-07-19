@@ -39,7 +39,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bun/miitmdid/c/i/b/c;->g()V
 
     new-instance v0, Ljava/lang/Object;
@@ -54,7 +53,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,7 +61,6 @@
 .method public static a(Landroid/content/Context;)Lcom/bun/miitmdid/c/i/b/c;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bun/miitmdid/c/i/b/c;->c:Lcom/bun/miitmdid/c/i/b/c;
 
     if-nez v0, :cond_0
@@ -97,7 +94,6 @@
 .method public static d(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 8
 
-    .line 1
     const-class v0, Ljava/lang/String;
 
     const-string v1, "android.os.SystemProperties"
@@ -213,7 +209,6 @@
 
     goto :goto_1
 
-    .line 1
     :cond_0
     new-instance p1, Lcom/bun/miitmdid/c/i/b/d;
 
@@ -319,7 +314,6 @@
 .method private static synthetic g()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/bun/miitmdid/c/i/b/c;
@@ -364,7 +358,6 @@
 .method private i(ILjava/lang/String;)V
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/bun/miitmdid/c/i/b/c;->j:Landroid/os/Handler;
 
     invoke-virtual {v0}, Landroid/os/Handler;->obtainMessage()Landroid/os/Message;
@@ -409,7 +402,6 @@
 .method static synthetic k()Lcom/bun/miitmdid/c/i/b/a;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bun/miitmdid/c/i/b/c;->d:Lcom/bun/miitmdid/c/i/b/a;
 
     return-object v0
@@ -418,7 +410,6 @@
 .method static synthetic l(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     sput-object p0, Lcom/bun/miitmdid/c/i/b/c;->k:Ljava/lang/String;
 
     return-object p0
@@ -427,7 +418,6 @@
 .method static synthetic m()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bun/miitmdid/c/i/b/c;->h:Ljava/lang/Object;
 
     return-object v0
@@ -440,7 +430,6 @@
 
     const-string v1, "0"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/bun/miitmdid/c/i/b/c;->d(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -459,7 +448,6 @@
 .method private static o()V
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/os/HandlerThread;
 
     const-string v1, "SqlWorkThread"
@@ -488,7 +476,6 @@
 .method static final synthetic p(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -501,7 +488,6 @@
 .method public b()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/bun/miitmdid/c/i/b/c;->j()Z
 
     move-result v0
@@ -541,7 +527,6 @@
 .method public c(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/bun/miitmdid/c/i/b/c;->j()Z
 
     move-result v0
@@ -585,7 +570,6 @@
 .method public e(ILjava/lang/String;)V
     .locals 7
 
-    .line 1
     sget-object v0, Lcom/bun/miitmdid/c/i/b/c;->h:Ljava/lang/Object;
 
     monitor-enter v0
@@ -712,7 +696,6 @@
 .method public h(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/bun/miitmdid/c/i/b/c;->j()Z
 
     move-result v0
@@ -756,7 +739,6 @@
 .method public j()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/bun/miitmdid/c/i/b/c;->b:Z
 
     return v0

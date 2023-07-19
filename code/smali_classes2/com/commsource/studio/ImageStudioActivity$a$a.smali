@@ -29,7 +29,6 @@
 .method constructor <init>(Landroid/app/Activity;Ljava/lang/String;ILcom/commsource/beautyplus/router/RouterEntity;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$a$a;->g:Landroid/app/Activity;
 
     iput-object p2, p0, Lcom/commsource/studio/ImageStudioActivity$a$a;->p:Ljava/lang/String;
@@ -54,24 +53,20 @@
 
     const/16 v1, 0xc8
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/w1;->j(I)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/ImageStudioActivity$a$a$a;->a:Lcom/commsource/studio/ImageStudioActivity$a$a$a;
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/commsource/studio/ImageStudioActivity$a$a$b;
 
@@ -79,7 +74,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -70,7 +70,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/HeapAnalysis;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/HeapAnalysisFailure;->heapDumpFile:Ljava/io/File;
@@ -324,7 +323,6 @@
 .method public getAnalysisDurationMillis()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/HeapAnalysisFailure;->analysisDurationMillis:J
 
     return-wide v0
@@ -333,7 +331,6 @@
 .method public getCreatedAtTimeMillis()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/HeapAnalysisFailure;->createdAtTimeMillis:J
 
     return-wide v0
@@ -344,7 +341,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapAnalysisFailure;->exception:Lkshark/HeapAnalysisException;
 
     return-object v0
@@ -355,7 +351,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapAnalysisFailure;->heapDumpFile:Ljava/io/File;
 
     return-object v0
@@ -433,7 +428,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -442,7 +436,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     iget-object v1, p0, Lkshark/HeapAnalysisFailure;->exception:Lkshark/HeapAnalysisException;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
@@ -451,7 +444,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-static {}, Lkshark/f;->b()I
 
     move-result v1
@@ -462,7 +454,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-static {}, Lkshark/f;->a()Ljava/lang/String;
 
     move-result-object v1
@@ -473,7 +464,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-static {}, Lkshark/f;->c()Ljava/lang/String;
 
     move-result-object v1
@@ -484,7 +474,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {p0}, Lkshark/HeapAnalysisFailure;->getAnalysisDurationMillis()J
 
     move-result-wide v1
@@ -495,7 +484,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {p0}, Lkshark/HeapAnalysisFailure;->getHeapDumpFile()Ljava/io/File;
 
     move-result-object v1
@@ -510,7 +498,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-virtual {p0}, Lkshark/HeapAnalysisFailure;->getCreatedAtTimeMillis()J
 
     move-result-wide v1

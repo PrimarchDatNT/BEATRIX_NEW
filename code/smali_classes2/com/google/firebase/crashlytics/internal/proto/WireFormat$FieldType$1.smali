@@ -30,7 +30,6 @@
 
     move v4, p4
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$FieldType;-><init>(Ljava/lang/String;ILcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;ILcom/google/firebase/crashlytics/internal/proto/WireFormat$a;)V
 
     return-void

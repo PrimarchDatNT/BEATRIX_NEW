@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/NewHomeViewModel$a;->d:Lcom/commsource/home/NewHomeViewModel;
 
     invoke-direct {p0}, Lcom/commsource/beautyplus/base/b/a;-><init>()V
@@ -58,7 +57,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/statistics/n;->a()Lcom/commsource/statistics/n;
 
     move-result-object v0
@@ -77,21 +75,18 @@
 
     if-nez v4, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/home/NewHomeViewModel$a;->d:Lcom/commsource/home/NewHomeViewModel;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/commsource/home/NewHomeViewModel;->z(Lcom/commsource/home/NewHomeViewModel;Z)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/statistics/n;->a()Lcom/commsource/statistics/n;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/commsource/statistics/n;->j()V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

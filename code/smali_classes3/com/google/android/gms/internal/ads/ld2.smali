@@ -10,7 +10,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -19,7 +18,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/hd2;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/ld2;-><init>()V
 
     return-void
@@ -40,7 +38,6 @@
 
     const-string p2, "video/avc"
 
-    .line 1
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -51,7 +48,6 @@
 .method public final getCodecCount()I
     .locals 1
 
-    .line 1
     invoke-static {}, Landroid/media/MediaCodecList;->getCodecCount()I
 
     move-result v0
@@ -62,7 +58,6 @@
 .method public final getCodecInfoAt(I)Landroid/media/MediaCodecInfo;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Landroid/media/MediaCodecList;->getCodecInfoAt(I)Landroid/media/MediaCodecInfo;
 
     move-result-object p1

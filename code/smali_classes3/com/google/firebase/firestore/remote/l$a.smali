@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/grpc/Status$Code;->values()[Lio/grpc/Status$Code;
 
     move-result-object v0

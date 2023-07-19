@@ -82,7 +82,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_2
     iget-object v0, p0, Lcotlin/z1/b$f;->a:Ljava/util/Comparator;
 

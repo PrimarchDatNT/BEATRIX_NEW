@@ -30,10 +30,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Sets;->u()Ljava/util/HashSet;
 
     move-result-object v0
@@ -56,12 +54,10 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Ljava/net/URLClassLoader;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, Ljava/net/URLClassLoader;
 
     invoke-virtual {p0}, Ljava/net/URLClassLoader;->getURLs()[Ljava/net/URL;
@@ -74,7 +70,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/ClassLoader;->getSystemClassLoader()Ljava/lang/ClassLoader;
 
@@ -86,14 +81,12 @@
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/google/common/reflect/b$e;->e()Lcom/google/common/collect/ImmutableList;
 
     move-result-object p0
 
     return-object p0
 
-    .line 5
     :cond_1
     invoke-static {}, Lcom/google/common/collect/ImmutableList;->of()Lcom/google/common/collect/ImmutableList;
 
@@ -119,26 +112,22 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Maps;->c0()Ljava/util/LinkedHashMap;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/ClassLoader;->getParent()Ljava/lang/ClassLoader;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v1}, Lcom/google/common/reflect/b$e;->b(Ljava/lang/ClassLoader;)Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/util/LinkedHashMap;->putAll(Ljava/util/Map;)V
 
-    .line 4
     :cond_0
     invoke-static {p0}, Lcom/google/common/reflect/b$e;->a(Ljava/lang/ClassLoader;)Lcom/google/common/collect/ImmutableList;
 
@@ -162,7 +151,6 @@
 
     check-cast v2, Ljava/net/URL;
 
-    .line 5
     invoke-virtual {v2}, Ljava/net/URL;->getProtocol()Ljava/lang/String;
 
     move-result-object v3
@@ -175,24 +163,20 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-static {v2}, Lcom/google/common/reflect/b;->j(Ljava/net/URL;)Ljava/io/File;
 
     move-result-object v2
 
-    .line 7
     invoke-virtual {v0, v2}, Ljava/util/LinkedHashMap;->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_1
 
-    .line 8
     invoke-virtual {v0, v2, p0}, Ljava/util/LinkedHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/google/common/collect/ImmutableMap;->copyOf(Ljava/util/Map;)Lcom/google/common/collect/ImmutableMap;
 
@@ -212,7 +196,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/net/URL;
 
     invoke-virtual {p0}, Ljava/io/File;->toURI()Ljava/net/URI;
@@ -251,20 +234,17 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableSet;->of()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p0
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/google/common/collect/ImmutableSet;->builder()Lcom/google/common/collect/ImmutableSet$a;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1}, Ljava/util/jar/Manifest;->getMainAttributes()Ljava/util/jar/Attributes;
 
     move-result-object p1
@@ -281,7 +261,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-static {}, Lcom/google/common/reflect/b;->b()Lcom/google/common/base/w;
 
     move-result-object v1
@@ -308,7 +287,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 5
     :try_start_0
     invoke-static {p0, v1}, Lcom/google/common/reflect/b$e;->c(Ljava/io/File;Ljava/lang/String;)Ljava/net/URL;
 
@@ -316,7 +294,6 @@
     :try_end_0
     .catch Ljava/net/MalformedURLException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6
     invoke-virtual {v1}, Ljava/net/URL;->getProtocol()Ljava/lang/String;
 
     move-result-object v2
@@ -329,7 +306,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 7
     invoke-static {v1}, Lcom/google/common/reflect/b;->j(Ljava/net/URL;)Ljava/io/File;
 
     move-result-object v1
@@ -338,7 +314,6 @@
 
     goto :goto_0
 
-    .line 8
     :catch_0
     invoke-static {}, Lcom/google/common/reflect/b;->a()Ljava/util/logging/Logger;
 
@@ -362,7 +337,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableSet$a;->n()Lcom/google/common/collect/ImmutableSet;
 
@@ -385,12 +359,10 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableList;->builder()Lcom/google/common/collect/ImmutableList$a;
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lcom/google/common/base/StandardSystemProperty;->PATH_SEPARATOR:Lcom/google/common/base/StandardSystemProperty;
 
     invoke-virtual {v1}, Lcom/google/common/base/StandardSystemProperty;->value()Ljava/lang/String;
@@ -428,7 +400,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 3
     :try_start_0
     new-instance v3, Ljava/io/File;
 
@@ -454,7 +425,6 @@
 
     goto :goto_1
 
-    .line 4
     :catch_1
     :try_start_1
     new-instance v3, Ljava/net/URL;
@@ -479,7 +449,6 @@
 
     goto :goto_0
 
-    .line 5
     :goto_1
     invoke-static {}, Lcom/google/common/reflect/b;->a()Ljava/util/logging/Logger;
 
@@ -505,7 +474,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableList$a;->m()Lcom/google/common/collect/ImmutableList;
 
@@ -522,7 +490,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
@@ -534,7 +501,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/io/File;->isDirectory()Z
 
@@ -542,12 +508,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {p0, p2, p1}, Lcom/google/common/reflect/b$e;->h(Ljava/lang/ClassLoader;Ljava/io/File;)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-direct {p0, p1, p2}, Lcom/google/common/reflect/b$e;->j(Ljava/io/File;Ljava/lang/ClassLoader;)V
 
@@ -557,7 +521,6 @@
     :catch_0
     move-exception p2
 
-    .line 5
     invoke-static {}, Lcom/google/common/reflect/b;->a()Ljava/util/logging/Logger;
 
     move-result-object v0
@@ -595,7 +558,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/util/jar/JarFile;
 
@@ -603,7 +565,6 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_2
 
-    .line 2
     :try_start_1
     invoke-virtual {v0}, Ljava/util/jar/JarFile;->getManifest()Ljava/util/jar/Manifest;
 
@@ -630,18 +591,15 @@
 
     check-cast v1, Ljava/io/File;
 
-    .line 3
     invoke-virtual {p0, v1, p2}, Lcom/google/common/reflect/b$e;->f(Ljava/io/File;Ljava/lang/ClassLoader;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0, p2, v0}, Lcom/google/common/reflect/b$e;->k(Ljava/lang/ClassLoader;Ljava/util/jar/JarFile;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     :try_start_2
     invoke-virtual {v0}, Ljava/util/jar/JarFile;->close()V
     :try_end_2
@@ -658,7 +616,6 @@
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 
-    .line 6
     :catch_1
     throw p1
 
@@ -679,7 +636,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/b$e;->a:Ljava/util/Set;
 
     invoke-virtual {p1}, Ljava/io/File;->getCanonicalFile()Ljava/io/File;
@@ -692,7 +648,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/google/common/reflect/b$e;->i(Ljava/io/File;Ljava/lang/ClassLoader;)V
 
     :cond_0
@@ -707,7 +662,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/reflect/b$e;->b(Ljava/lang/ClassLoader;)Lcom/google/common/collect/ImmutableMap;
 
     move-result-object p1
@@ -733,7 +687,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1

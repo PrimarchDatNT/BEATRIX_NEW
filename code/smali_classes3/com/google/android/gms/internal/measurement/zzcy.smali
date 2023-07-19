@@ -22,7 +22,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/measurement/zzda;
 
     invoke-static {p0}, Lcom/google/android/gms/internal/measurement/x1;->a(Ljava/lang/Object;)Ljava/lang/Object;
@@ -64,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/zzcw;->zza:Lcom/google/android/gms/internal/measurement/zzcw;
 
     return-object v0

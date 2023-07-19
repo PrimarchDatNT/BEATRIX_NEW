@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/hash/Murmur3_128HashFunction;
 
     const/4 v1, 0x0
@@ -42,7 +41,6 @@
 
     sput-object v0, Lcom/google/common/hash/Murmur3_128HashFunction;->MURMUR3_128:Lcom/google/common/hash/i;
 
-    .line 2
     new-instance v0, Lcom/google/common/hash/Murmur3_128HashFunction;
 
     sget v1, Lcom/google/common/hash/Hashing;->a:I
@@ -57,10 +55,8 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/hash/c;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/common/hash/Murmur3_128HashFunction;->seed:I
 
     return-void
@@ -83,17 +79,14 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/hash/Murmur3_128HashFunction;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/hash/Murmur3_128HashFunction;
 
-    .line 3
     iget v0, p0, Lcom/google/common/hash/Murmur3_128HashFunction;->seed:I
 
     iget p1, p1, Lcom/google/common/hash/Murmur3_128HashFunction;->seed:I
@@ -109,7 +102,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     const-class v0, Lcom/google/common/hash/Murmur3_128HashFunction;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -126,7 +118,6 @@
 .method public newHasher()Lcom/google/common/hash/j;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/hash/Murmur3_128HashFunction$a;
 
     iget v1, p0, Lcom/google/common/hash/Murmur3_128HashFunction;->seed:I
@@ -139,7 +130,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

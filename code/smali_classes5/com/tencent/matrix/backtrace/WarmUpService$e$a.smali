@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/tencent/matrix/backtrace/WarmUpService$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$a;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
     .locals 2
 
-    .line 1
     iget-object p1, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$a;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
     new-instance v0, Landroid/os/Messenger;
@@ -47,7 +45,6 @@
 
     iput-object v0, p1, Lcom/tencent/matrix/backtrace/WarmUpService$e;->b:Landroid/os/Messenger;
 
-    .line 2
     iget-object p1, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$a;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
     invoke-static {p1}, Lcom/tencent/matrix/backtrace/WarmUpService$e;->d(Lcom/tencent/matrix/backtrace/WarmUpService$e;)[Z
@@ -56,7 +53,6 @@
 
     monitor-enter p1
 
-    .line 3
     :try_start_0
     iget-object p2, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$a;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
@@ -70,7 +66,6 @@
 
     aput-boolean v0, p2, v1
 
-    .line 4
     iget-object p2, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$a;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
     invoke-static {p2}, Lcom/tencent/matrix/backtrace/WarmUpService$e;->d(Lcom/tencent/matrix/backtrace/WarmUpService$e;)[Z
@@ -79,7 +74,6 @@
 
     invoke-virtual {p2}, Ljava/lang/Object;->notifyAll()V
 
-    .line 5
     monitor-exit p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -92,7 +86,6 @@
 
     aput-object p0, v0, v1
 
-    .line 6
     invoke-static {p1, p2, v0}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -100,7 +93,6 @@
     :catchall_0
     move-exception p2
 
-    .line 7
     :try_start_1
     monitor-exit p1
     :try_end_1
@@ -112,14 +104,12 @@
 .method public onServiceDisconnected(Landroid/content/ComponentName;)V
     .locals 4
 
-    .line 1
     iget-object p1, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$a;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
     const/4 v0, 0x0
 
     iput-object v0, p1, Lcom/tencent/matrix/backtrace/WarmUpService$e;->b:Landroid/os/Messenger;
 
-    .line 2
     iget-object p1, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$a;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
     invoke-static {p1}, Lcom/tencent/matrix/backtrace/WarmUpService$e;->d(Lcom/tencent/matrix/backtrace/WarmUpService$e;)[Z
@@ -128,7 +118,6 @@
 
     monitor-enter p1
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$a;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
@@ -140,7 +129,6 @@
 
     aput-boolean v2, v1, v2
 
-    .line 4
     iget-object v1, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$a;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
     invoke-static {v1}, Lcom/tencent/matrix/backtrace/WarmUpService$e;->d(Lcom/tencent/matrix/backtrace/WarmUpService$e;)[Z
@@ -149,7 +137,6 @@
 
     invoke-virtual {v1}, Ljava/lang/Object;->notifyAll()V
 
-    .line 5
     monitor-exit p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
@@ -164,17 +151,14 @@
 
     aput-object p0, v3, v2
 
-    .line 6
     invoke-static {p1, v1, v3}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 7
     iget-object p1, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$a;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
     iget-object v1, p1, Lcom/tencent/matrix/backtrace/WarmUpService$e;->c:[Landroid/os/Bundle;
 
     monitor-enter v1
 
-    .line 8
     :try_start_1
     iget-object p1, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$a;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
@@ -182,10 +166,8 @@
 
     aput-object v0, p1, v2
 
-    .line 9
     invoke-virtual {p1}, Ljava/lang/Object;->notifyAll()V
 
-    .line 10
     monitor-exit v1
 
     return-void
@@ -202,7 +184,6 @@
     :catchall_1
     move-exception v0
 
-    .line 11
     :try_start_2
     monitor-exit p1
     :try_end_2

@@ -50,7 +50,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lio/grpc/internal/GzipInflatingBuffer$State;
 
     const-string v1, "HEADER"
@@ -61,7 +60,6 @@
 
     sput-object v0, Lio/grpc/internal/GzipInflatingBuffer$State;->HEADER:Lio/grpc/internal/GzipInflatingBuffer$State;
 
-    .line 2
     new-instance v1, Lio/grpc/internal/GzipInflatingBuffer$State;
 
     const-string v3, "HEADER_EXTRA_LEN"
@@ -72,7 +70,6 @@
 
     sput-object v1, Lio/grpc/internal/GzipInflatingBuffer$State;->HEADER_EXTRA_LEN:Lio/grpc/internal/GzipInflatingBuffer$State;
 
-    .line 3
     new-instance v3, Lio/grpc/internal/GzipInflatingBuffer$State;
 
     const-string v5, "HEADER_EXTRA"
@@ -83,7 +80,6 @@
 
     sput-object v3, Lio/grpc/internal/GzipInflatingBuffer$State;->HEADER_EXTRA:Lio/grpc/internal/GzipInflatingBuffer$State;
 
-    .line 4
     new-instance v5, Lio/grpc/internal/GzipInflatingBuffer$State;
 
     const-string v7, "HEADER_NAME"
@@ -94,7 +90,6 @@
 
     sput-object v5, Lio/grpc/internal/GzipInflatingBuffer$State;->HEADER_NAME:Lio/grpc/internal/GzipInflatingBuffer$State;
 
-    .line 5
     new-instance v7, Lio/grpc/internal/GzipInflatingBuffer$State;
 
     const-string v9, "HEADER_COMMENT"
@@ -105,7 +100,6 @@
 
     sput-object v7, Lio/grpc/internal/GzipInflatingBuffer$State;->HEADER_COMMENT:Lio/grpc/internal/GzipInflatingBuffer$State;
 
-    .line 6
     new-instance v9, Lio/grpc/internal/GzipInflatingBuffer$State;
 
     const-string v11, "HEADER_CRC"
@@ -116,7 +110,6 @@
 
     sput-object v9, Lio/grpc/internal/GzipInflatingBuffer$State;->HEADER_CRC:Lio/grpc/internal/GzipInflatingBuffer$State;
 
-    .line 7
     new-instance v11, Lio/grpc/internal/GzipInflatingBuffer$State;
 
     const-string v13, "INITIALIZE_INFLATER"
@@ -127,7 +120,6 @@
 
     sput-object v11, Lio/grpc/internal/GzipInflatingBuffer$State;->INITIALIZE_INFLATER:Lio/grpc/internal/GzipInflatingBuffer$State;
 
-    .line 8
     new-instance v13, Lio/grpc/internal/GzipInflatingBuffer$State;
 
     const-string v15, "INFLATING"
@@ -138,7 +130,6 @@
 
     sput-object v13, Lio/grpc/internal/GzipInflatingBuffer$State;->INFLATING:Lio/grpc/internal/GzipInflatingBuffer$State;
 
-    .line 9
     new-instance v15, Lio/grpc/internal/GzipInflatingBuffer$State;
 
     const-string v14, "INFLATER_NEEDS_INPUT"
@@ -149,7 +140,6 @@
 
     sput-object v15, Lio/grpc/internal/GzipInflatingBuffer$State;->INFLATER_NEEDS_INPUT:Lio/grpc/internal/GzipInflatingBuffer$State;
 
-    .line 10
     new-instance v14, Lio/grpc/internal/GzipInflatingBuffer$State;
 
     const-string v12, "TRAILER"
@@ -194,7 +184,6 @@
 
     aput-object v14, v12, v10
 
-    .line 11
     sput-object v12, Lio/grpc/internal/GzipInflatingBuffer$State;->$VALUES:[Lio/grpc/internal/GzipInflatingBuffer$State;
 
     return-void
@@ -208,7 +197,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -217,7 +205,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/grpc/internal/GzipInflatingBuffer$State;
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/internal/GzipInflatingBuffer$State;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -232,7 +219,6 @@
 .method public static values()[Lio/grpc/internal/GzipInflatingBuffer$State;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/GzipInflatingBuffer$State;->$VALUES:[Lio/grpc/internal/GzipInflatingBuffer$State;
 
     invoke-virtual {v0}, [Lio/grpc/internal/GzipInflatingBuffer$State;->clone()Ljava/lang/Object;

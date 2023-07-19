@@ -26,7 +26,6 @@
 .method constructor <init>(Lf/k/h/a/l/y/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/pro/i/b$b;->a:Lf/k/h/a/l/y/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -59,7 +58,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -68,20 +66,17 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
 
-    .line 3
     new-instance v3, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v3}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
     iput v1, v3, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 4
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -99,7 +94,6 @@
 
     check-cast v1, Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
-    .line 5
     invoke-static {}, Lf/k/h/a/h;->b()Lf/k/h/a/h;
 
     move-result-object v4
@@ -112,14 +106,12 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     :goto_1
     iget-object p1, p0, Lcom/commsource/billing/pro/i/b$b;->a:Lf/k/h/a/l/y/c;
 
     invoke-interface {p1, v1}, Lf/k/h/a/l/y/c;->a(I)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -133,14 +125,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/billing/pro/i/b$b;->a:Lf/k/h/a/l/y/c;
 
     const/4 v1, 0x6
 
     invoke-interface {v0, v1}, Lf/k/h/a/l/y/c;->a(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

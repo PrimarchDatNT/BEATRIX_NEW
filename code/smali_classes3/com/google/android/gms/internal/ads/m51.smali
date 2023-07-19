@@ -42,10 +42,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/m51;->a:Ljava/util/Set;
 
     return-void
@@ -65,12 +63,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/m51;->a:Ljava/util/Set;
 
     invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -90,12 +86,10 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 3
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/google/android/gms/internal/ads/l51;
 

@@ -50,14 +50,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$p;->b:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->D(Lcom/commsource/studio/doodle/DoodleMaterial;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$p;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/DoodleFragment;->Z(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/beautyplus/f0/o7;
@@ -72,7 +70,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->post(Ljava/lang/Runnable;)Z
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

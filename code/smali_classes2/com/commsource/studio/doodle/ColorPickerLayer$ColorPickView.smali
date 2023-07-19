@@ -63,47 +63,40 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->N:Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->d:Landroid/graphics/Rect;
 
-    .line 3
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->f:Landroid/graphics/Rect;
 
-    .line 4
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
 
-    .line 5
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->p:Landroid/graphics/Paint;
 
-    .line 6
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
-    .line 7
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
@@ -112,7 +105,6 @@
 
     const/high16 p1, 0x41700000    # 15.0f
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
@@ -121,10 +113,8 @@
 
     const-wide v0, 0x3ff921fb54442d18L    # 1.5707963267948966
 
-    .line 9
     iput-wide v0, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->M:D
 
-    .line 10
     new-instance p1, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView$a;
 
     const-string v0, "DECODE-COLOR-PICKER_IMAGE"
@@ -143,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->c:Landroid/graphics/Bitmap;
 
     if-nez p0, :cond_0
@@ -165,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->f:Landroid/graphics/Rect;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -180,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->a:Landroid/graphics/Bitmap;
 
     if-nez p0, :cond_0
@@ -202,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->d:Landroid/graphics/Rect;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -217,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->p:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -232,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->b:Landroid/graphics/Bitmap;
 
     if-nez p0, :cond_0
@@ -254,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->c:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -269,7 +252,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->a:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -284,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->b:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -299,7 +280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->d:Landroid/graphics/Rect;
@@ -338,7 +318,6 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 2
     iget v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->L:F
 
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->N:Lcom/commsource/studio/doodle/ColorPickerLayer;
@@ -349,12 +328,10 @@
 
     div-float/2addr v1, v2
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->K:Landroid/graphics/Matrix;
 
     invoke-virtual {v2}, Landroid/graphics/Matrix;->reset()V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->K:Landroid/graphics/Matrix;
 
     iget-object v3, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->N:Lcom/commsource/studio/doodle/ColorPickerLayer;
@@ -395,21 +372,18 @@
 
     invoke-virtual {v2, v3, v4}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->K:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->p:Landroid/graphics/Paint;
 
     const/4 v2, -0x1
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
@@ -420,7 +394,6 @@
 
     div-float/2addr v1, v2
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
 
     invoke-virtual {v3}, Landroid/graphics/RectF;->width()F
@@ -433,7 +406,6 @@
 
     mul-float v3, v3, v4
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
 
     iget v5, v4, Landroid/graphics/RectF;->top:F
@@ -446,7 +418,6 @@
 
     add-float/2addr v5, v4
 
-    .line 10
     iget-wide v6, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->M:D
 
     const/4 v2, 0x2
@@ -465,7 +436,6 @@
 
     add-float/2addr v2, v5
 
-    .line 11
     iget-object v4, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
 
     invoke-virtual {v4}, Landroid/graphics/RectF;->centerX()F
@@ -476,12 +446,10 @@
 
     invoke-virtual {p1, v4, v5, v1, v6}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 12
     iget-object v4, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     invoke-virtual {v4}, Landroid/graphics/Path;->reset()V
 
-    .line 13
     iget-object v4, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     iget-object v6, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
@@ -520,7 +488,6 @@
 
     invoke-virtual {v4, v6, v7}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 14
     iget-object v4, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     iget-object v6, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
@@ -559,7 +526,6 @@
 
     invoke-virtual {v4, v6, v7}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 15
     iget-object v4, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     iget-object v6, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
@@ -578,7 +544,6 @@
 
     invoke-virtual {v4, v6, v10}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 16
     iget-object v4, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     iget-object v6, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
@@ -597,19 +562,16 @@
 
     invoke-virtual {v4, v6, v2, v11, v10}, Landroid/graphics/Path;->quadTo(FFFF)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     invoke-virtual {v1}, Landroid/graphics/Path;->close()V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->p:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->p:Landroid/graphics/Paint;
 
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->N:Lcom/commsource/studio/doodle/ColorPickerLayer;
@@ -620,7 +582,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
@@ -631,7 +592,6 @@
 
     invoke-virtual {p1, v1, v5, v3, v2}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 21
     iget-wide v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->M:D
 
     div-double/2addr v1, v8
@@ -646,12 +606,10 @@
 
     add-float/2addr v1, v5
 
-    .line 22
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     invoke-virtual {v2}, Landroid/graphics/Path;->reset()V
 
-    .line 23
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     iget-object v4, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
@@ -690,7 +648,6 @@
 
     invoke-virtual {v2, v4, v6}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 24
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     iget-object v4, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
@@ -729,7 +686,6 @@
 
     invoke-virtual {v2, v4, v5}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 25
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     iget-object v4, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
@@ -746,7 +702,6 @@
 
     invoke-virtual {v2, v4, v5}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 26
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     iget-object v4, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
@@ -765,19 +720,16 @@
 
     invoke-virtual {v2, v4, v1, v6, v5}, Landroid/graphics/Path;->quadTo(FFFF)V
 
-    .line 27
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     invoke-virtual {v1}, Landroid/graphics/Path;->close()V
 
-    .line 28
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->J:Landroid/graphics/Path;
 
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->p:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 29
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -869,7 +821,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->N:Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->u()Lcom/commsource/studio/MatrixBox;
@@ -882,7 +833,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->d:Landroid/graphics/Rect;
 
     invoke-virtual {v1}, Landroid/graphics/Rect;->isEmpty()Z
@@ -895,10 +845,8 @@
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {p0, v2, v1}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->N:Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->K()F
@@ -913,10 +861,8 @@
 
     invoke-virtual {p1, v1, v3}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->l(Landroid/graphics/Canvas;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
 
     iget-object v3, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->f:Landroid/graphics/Rect;
@@ -955,12 +901,10 @@
 
     invoke-virtual {v1, v5, v5, v3, v4}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->K:Landroid/graphics/Matrix;
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->K:Landroid/graphics/Matrix;
 
     iget-object v3, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->N:Lcom/commsource/studio/doodle/ColorPickerLayer;
@@ -999,14 +943,12 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->K:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->g:Landroid/graphics/RectF;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->c:Landroid/graphics/Bitmap;
 
     if-nez v1, :cond_0
@@ -1024,7 +966,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 11
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

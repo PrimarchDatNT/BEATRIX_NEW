@@ -28,16 +28,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/android/billingclient/api/PurchaseHistoryRecord;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/android/billingclient/api/PurchaseHistoryRecord;->b:Ljava/lang/String;
 
-    .line 4
     new-instance p2, Lorg/json/JSONObject;
 
     invoke-direct {p2, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
@@ -52,7 +48,6 @@
 .method public a()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/PurchaseHistoryRecord;->c:Lorg/json/JSONObject;
 
     const-string v1, "developerPayload"
@@ -67,7 +62,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/PurchaseHistoryRecord;->a:Ljava/lang/String;
 
     return-object v0
@@ -76,7 +70,6 @@
 .method public c()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/PurchaseHistoryRecord;->c:Lorg/json/JSONObject;
 
     const-string v1, "purchaseTime"
@@ -91,7 +84,6 @@
 .method public d()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/PurchaseHistoryRecord;->c:Lorg/json/JSONObject;
 
     const-string v1, "purchaseToken"
@@ -112,7 +104,6 @@
 .method public e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/PurchaseHistoryRecord;->b:Ljava/lang/String;
 
     return-object v0
@@ -131,7 +122,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/android/billingclient/api/PurchaseHistoryRecord;
 
@@ -141,11 +131,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/android/billingclient/api/PurchaseHistoryRecord;
 
-    .line 3
     iget-object v1, p0, Lcom/android/billingclient/api/PurchaseHistoryRecord;->a:Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/android/billingclient/api/PurchaseHistoryRecord;->b()Ljava/lang/String;
@@ -160,7 +148,6 @@
 
     iget-object v1, p0, Lcom/android/billingclient/api/PurchaseHistoryRecord;->b:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/android/billingclient/api/PurchaseHistoryRecord;->e()Ljava/lang/String;
 
     move-result-object p1
@@ -180,7 +167,6 @@
 .method public f()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/PurchaseHistoryRecord;->c:Lorg/json/JSONObject;
 
     const-string v1, "productId"
@@ -195,7 +181,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/PurchaseHistoryRecord;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -208,7 +193,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/PurchaseHistoryRecord;->a:Ljava/lang/String;
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;

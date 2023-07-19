@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/o2;
 
     invoke-direct {v0}, Lcotlinx/coroutines/o2;-><init>()V
@@ -30,7 +29,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/c2;->u:Lcotlinx/coroutines/c2$b;
 
     invoke-direct {p0, v0}, Lcotlin/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext$b;)V
@@ -95,7 +93,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "This job is always active"
@@ -110,7 +107,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "This job is always active"
@@ -132,7 +128,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object p1, Lcotlinx/coroutines/p2;->a:Lcotlinx/coroutines/p2;
 
     return-object p1
@@ -169,7 +164,6 @@
         message = "Since 1.2.0, binary compatibility with versions <= 1.1.x"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/c2$a;->a(Lcotlinx/coroutines/c2;)V
 
     return-void
@@ -217,7 +211,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/sequences/p;->j()Lcotlin/sequences/m;
 
     move-result-object v0
@@ -249,7 +242,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object p1, Lcotlinx/coroutines/p2;->a:Lcotlinx/coroutines/p2;
 
     return-object p1
@@ -263,7 +255,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "This job is always active"
@@ -307,7 +298,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/c2$a;->i(Lcotlinx/coroutines/c2;Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/c2;
 
     move-result-object p1
@@ -339,7 +329,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object p1, Lcotlinx/coroutines/p2;->a:Lcotlinx/coroutines/p2;
 
     return-object p1

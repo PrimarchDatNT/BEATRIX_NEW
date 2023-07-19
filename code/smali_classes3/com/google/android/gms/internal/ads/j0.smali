@@ -47,24 +47,20 @@
 .method public constructor <init>(ZLjava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Ljava/util/LinkedList;
 
     invoke-direct {p1}, Ljava/util/LinkedList;-><init>()V
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/j0;->b:Ljava/util/List;
 
-    .line 3
     new-instance p1, Ljava/util/LinkedHashMap;
 
     invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/j0;->c:Ljava/util/Map;
 
-    .line 4
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -73,17 +69,14 @@
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/j0;->a:Z
 
     const-string v0, "action"
 
-    .line 6
     invoke-interface {p1, v0, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p2, "ad_format"
 
-    .line 7
     invoke-interface {p1, p2, p3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
@@ -94,12 +87,10 @@
 .method public final varargs a(Lcom/google/android/gms/internal/ads/h0;J[Ljava/lang/String;)Z
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j0;->d:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     array-length v1, p4
 
@@ -110,12 +101,10 @@
 
     aget-object v3, p4, v2
 
-    .line 3
     new-instance v4, Lcom/google/android/gms/internal/ads/h0;
 
     invoke-direct {v4, p2, p3, v3, p1}, Lcom/google/android/gms/internal/ads/h0;-><init>(JLjava/lang/String;Lcom/google/android/gms/internal/ads/h0;)V
 
-    .line 4
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/j0;->b:Ljava/util/List;
 
     invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -124,7 +113,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     monitor-exit v0
 
@@ -135,7 +123,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -150,16 +137,13 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j0;->d:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/j0;->e:Lcom/google/android/gms/internal/ads/j0;
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -179,7 +163,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/j0;->a:Z
 
     const/4 v1, 0x0
@@ -188,7 +171,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/ads/h0;
 
@@ -200,7 +182,6 @@
 .method public final d(Ljava/lang/String;Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/j0;->a:Z
 
     if-eqz v0, :cond_2
@@ -213,7 +194,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
@@ -227,13 +207,11 @@
 
     return-void
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/j0;->d:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 4
     :try_start_0
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/z;->e(Ljava/lang/String;)Lcom/google/android/gms/internal/ads/d0;
 
@@ -241,7 +219,6 @@
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/j0;->c:Ljava/util/Map;
 
-    .line 5
     invoke-interface {v2, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -254,7 +231,6 @@
 
     invoke-interface {v2, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     monitor-exit v1
 
     return-void
@@ -276,17 +252,14 @@
 .method public final e()Ljava/lang/String;
     .locals 10
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/j0;->d:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/j0;->b:Ljava/util/List;
 
@@ -308,17 +281,14 @@
 
     check-cast v3, Lcom/google/android/gms/internal/ads/h0;
 
-    .line 4
     invoke-virtual {v3}, Lcom/google/android/gms/internal/ads/h0;->a()J
 
     move-result-wide v4
 
-    .line 5
     invoke-virtual {v3}, Lcom/google/android/gms/internal/ads/h0;->b()Ljava/lang/String;
 
     move-result-object v6
 
-    .line 6
     invoke-virtual {v3}, Lcom/google/android/gms/internal/ads/h0;->c()Lcom/google/android/gms/internal/ads/h0;
 
     move-result-object v3
@@ -331,14 +301,12 @@
 
     if-lez v9, :cond_0
 
-    .line 7
     invoke-virtual {v3}, Lcom/google/android/gms/internal/ads/h0;->a()J
 
     move-result-wide v7
 
     sub-long/2addr v4, v7
 
-    .line 8
     invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v3, 0x2e
@@ -353,7 +321,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/j0;->b:Ljava/util/List;
 
@@ -361,19 +328,16 @@
 
     const/4 v2, 0x0
 
-    .line 10
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-nez v3, :cond_2
 
-    .line 11
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
-    .line 12
     :cond_2
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
@@ -381,7 +345,6 @@
 
     if-lez v2, :cond_3
 
-    .line 13
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
     move-result v2
@@ -390,7 +353,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->setLength(I)V
 
-    .line 14
     :cond_3
     :goto_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -404,7 +366,6 @@
     :catchall_0
     move-exception v0
 
-    .line 15
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -427,12 +388,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j0;->d:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
@@ -444,14 +403,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/j0;->e:Lcom/google/android/gms/internal/ads/j0;
 
     if-nez v2, :cond_0
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/j0;->c:Ljava/util/Map;
 
@@ -467,7 +424,6 @@
 
     return-object v1
 
-    .line 5
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/j0;->c:Ljava/util/Map;
@@ -479,7 +435,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

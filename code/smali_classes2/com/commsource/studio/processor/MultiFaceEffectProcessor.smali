@@ -43,7 +43,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/processor/m;-><init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
 
     return-void
@@ -58,7 +57,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object p1
@@ -75,7 +73,6 @@
 
     return-void
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -93,7 +90,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->N:Lcom/commsource/easyeditor/utils/opengl/f;
 
     return-object v0
@@ -102,7 +98,6 @@
 .method public final M()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->O:I
 
     return v0
@@ -131,7 +126,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
@@ -149,7 +143,6 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 2
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v2
@@ -170,7 +163,6 @@
 
     new-array v2, v2, [Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 3
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->g()Lcom/commsource/studio/s;
 
     move-result-object v3
@@ -231,7 +223,6 @@
 
     aput-object v3, v2, v5
 
-    .line 4
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->o()Lcom/commsource/studio/shader/n;
 
     move-result-object v3
@@ -240,7 +231,6 @@
 
     invoke-virtual {v3, v0, v5}, Lcom/commsource/studio/shader/n;->k(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 5
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v3
@@ -253,7 +243,6 @@
 
     move-result v3
 
-    .line 6
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v5
@@ -277,7 +266,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
@@ -289,7 +277,6 @@
 
     invoke-virtual {v7, v4}, Lcom/commsource/camera/d1/g/j;->v(I)V
 
-    .line 8
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v7
@@ -318,7 +305,6 @@
 
     invoke-virtual {v8, v7, v4, v14}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->R(Lcom/commsource/camera/newrender/renderproxy/n;ILcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 9
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v7
@@ -333,7 +319,6 @@
 
     invoke-virtual {v7, v9}, Lcom/commsource/camera/newrender/renderproxy/n;->k(Lcom/meitu/library/renderarch/arch/data/b/d;)V
 
-    .line 10
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v10
@@ -378,7 +363,6 @@
 
     move-result v9
 
-    .line 11
     aget-object v10, v2, v6
 
     iget v10, v10, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
@@ -396,7 +380,6 @@
     :cond_3
     move-object/from16 v8, p0
 
-    .line 12
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v0
@@ -407,7 +390,6 @@
 
     invoke-virtual {v0, v3}, Lcom/commsource/camera/d1/g/j;->v(I)V
 
-    .line 13
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->o()Lcom/commsource/studio/shader/n;
 
     move-result-object v0
@@ -416,7 +398,6 @@
 
     invoke-virtual {v0, v3, v1}, Lcom/commsource/studio/shader/n;->k(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 14
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->g()Lcom/commsource/studio/s;
 
     move-result-object v0
@@ -427,7 +408,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/s;->j(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 15
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->g()Lcom/commsource/studio/s;
 
     move-result-object v0
@@ -446,7 +426,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->N:Lcom/commsource/easyeditor/utils/opengl/f;
 
     return-void
@@ -455,10 +434,8 @@
 .method public final Q(I)V
     .locals 1
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->O:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object p1
@@ -471,12 +448,10 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/camera/d1/g/j;->v(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->N:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz p1, :cond_0
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/processor/MultiFaceEffectProcessor$selectFaceIndex$$inlined$let$lambda$1;
 
     invoke-direct {v0, p1, p0}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor$selectFaceIndex$$inlined$let$lambda$1;-><init>(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/studio/processor/MultiFaceEffectProcessor;)V
@@ -508,10 +483,8 @@
 .method public a()V
     .locals 3
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/m;->a()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v0
@@ -528,7 +501,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v0
@@ -545,7 +517,6 @@
 
     if-le v0, v1, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v0
@@ -560,7 +531,6 @@
 
     invoke-virtual {p0, v0}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->Q(I)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->g()Lcom/commsource/studio/s;
 
     move-result-object v0
@@ -584,10 +554,8 @@
 .method public c()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/m;->c()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->g()Lcom/commsource/studio/s;
 
     move-result-object v0
@@ -610,10 +578,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->r(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->N:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz v0, :cond_0
@@ -639,7 +605,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->j()Z
 
     move-result v0
@@ -648,7 +613,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->N:Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -656,7 +620,6 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
@@ -682,7 +645,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     invoke-super {p0, p1}, Lcom/commsource/studio/processor/m;->s(Lcom/commsource/easyeditor/utils/opengl/f;)V
 

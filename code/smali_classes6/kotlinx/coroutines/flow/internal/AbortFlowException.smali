@@ -38,7 +38,6 @@
 
     const-string v0, "Flow was aborted, no more elements needed"
 
-    .line 1
     invoke-direct {p0, v0}, Ljava/util/concurrent/CancellationException;-><init>(Ljava/lang/String;)V
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/internal/AbortFlowException;->owner:Lcotlinx/coroutines/flow/e;
@@ -53,7 +52,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/p0;->d()Z
 
     move-result v0
@@ -71,7 +69,6 @@
 
     new-array v0, v0, [Ljava/lang/StackTraceElement;
 
-    .line 2
     invoke-virtual {p0, v0}, Ljava/util/concurrent/CancellationException;->setStackTrace([Ljava/lang/StackTraceElement;)V
 
     return-object p0
@@ -90,7 +87,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/AbortFlowException;->owner:Lcotlinx/coroutines/flow/e;
 
     return-object v0

@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/r/c/d/d$b;->c:Lf/r/c/d/d;
 
     iput-object p2, p0, Lf/r/c/d/d$b;->a:Lf/r/c/d/b;
@@ -53,7 +52,6 @@
 
     const-string v0, "status"
 
-    .line 1
     invoke-virtual {p1, v0}, Lf/r/c/d/b;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -66,7 +64,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     new-instance v0, Lcom/spotxchange/v4/exceptions/SPXRuntimeException;
 
     const-string v1, "message"
@@ -77,7 +74,6 @@
 
     invoke-direct {v0, p1}, Lcom/spotxchange/v4/exceptions/SPXRuntimeException;-><init>(Ljava/lang/String;)V
 
-    .line 3
     iget-object p1, p0, Lf/r/c/d/d$b;->a:Lf/r/c/d/b;
 
     iget-object p1, p1, Lf/r/c/d/b;->f:Ljava/util/ArrayList;
@@ -99,12 +95,10 @@
 
     check-cast v1, Lf/r/c/d/b$a;
 
-    .line 4
     invoke-virtual {v1, v0}, Lf/r/c/e/d;->b(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lf/r/c/d/d$b;->c:Lf/r/c/d/d;
 

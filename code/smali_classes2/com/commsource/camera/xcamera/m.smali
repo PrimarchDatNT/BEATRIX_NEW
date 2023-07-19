@@ -26,14 +26,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/library/n/a/p/b$e;-><init>()V
 
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/commsource/camera/xcamera/m;->a:Z
 
-    .line 5
     iput-boolean v0, p0, Lcom/commsource/camera/xcamera/m;->b:Z
 
     return-void
@@ -46,15 +44,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/n/a/p/b$e;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/camera/xcamera/m;->g:Lcom/commsource/camera/xcamera/n;
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/m;->a:Z
 
-    .line 3
     iput-boolean p2, p0, Lcom/commsource/camera/xcamera/m;->b:Z
 
     return-void
@@ -69,26 +64,22 @@
 
     return-object p1
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/commsource/camera/xcamera/m;->e:Lcom/meitu/core/types/FaceData;
 
     if-nez v0, :cond_1
 
-    .line 2
     new-instance v0, Lcom/meitu/core/types/FaceData;
 
     invoke-direct {v0}, Lcom/meitu/core/types/FaceData;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/m;->e:Lcom/meitu/core/types/FaceData;
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/m;->e:Lcom/meitu/core/types/FaceData;
 
     invoke-static {p1, v0}, Lcom/commsource/beautyplus/g0/d;->c(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/meitu/core/types/FaceData;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/m;->e:Lcom/meitu/core/types/FaceData;
 
     return-object p1
@@ -107,10 +98,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/meitu/library/n/a/p/b$e;->b(Landroid/graphics/Bitmap;ILcom/meitu/library/n/a/s/a$b;)V
 
-    .line 2
     iget-boolean v0, p0, Lcom/commsource/camera/xcamera/m;->a:Z
 
     const/4 v1, 0x0
@@ -121,17 +110,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/camera/xcamera/m;->c:Landroid/graphics/Bitmap;
 
     if-nez v3, :cond_0
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/camera/xcamera/m;->d:Landroid/graphics/Bitmap;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance p3, Lcom/commsource/camera/xcamera/bean/c;
 
@@ -153,7 +139,6 @@
 
     invoke-virtual {p0, p3}, Lcom/commsource/camera/xcamera/m;->f(Lcom/commsource/camera/xcamera/bean/c;)V
 
-    .line 6
     iput-object v1, p0, Lcom/commsource/camera/xcamera/m;->c:Landroid/graphics/Bitmap;
 
     goto :goto_0
@@ -161,14 +146,12 @@
     :cond_1
     if-eqz p3, :cond_2
 
-    .line 7
     iget-object p3, p3, Lcom/meitu/library/n/a/s/a$b;->a:Ljava/util/Map;
 
     if-eqz p3, :cond_2
 
     const-string v0, "MTAiEngineDetectorManager_mtai"
 
-    .line 8
     invoke-interface {p3, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p3
@@ -177,7 +160,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 9
     iget-object p3, p3, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-object v1, p3
@@ -185,7 +167,6 @@
     :cond_2
     move-object v6, v1
 
-    .line 10
     new-instance p3, Lcom/commsource/camera/xcamera/bean/c;
 
     invoke-direct {p0, v6}, Lcom/commsource/camera/xcamera/m;->e(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/meitu/core/types/FaceData;
@@ -219,21 +200,18 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/meitu/library/n/a/p/b$e;->d(Landroid/graphics/Bitmap;ILcom/meitu/library/n/a/s/a$b;)V
 
     const/4 v0, 0x0
 
     if-eqz p3, :cond_0
 
-    .line 2
     iget-object p3, p3, Lcom/meitu/library/n/a/s/a$b;->a:Ljava/util/Map;
 
     if-eqz p3, :cond_0
 
     const-string v1, "MTAiEngineDetectorManager_mtai"
 
-    .line 3
     invoke-interface {p3, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p3
@@ -242,7 +220,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 4
     iget-object p3, p3, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-object v0, p3
@@ -252,10 +229,8 @@
 
     add-int/lit8 p2, p2, 0x5a
 
-    .line 5
     rem-int/lit16 v11, p2, 0x168
 
-    .line 6
     iget-boolean p2, p0, Lcom/commsource/camera/xcamera/m;->a:Z
 
     if-eqz p2, :cond_2
@@ -264,20 +239,16 @@
 
     if-eqz p2, :cond_2
 
-    .line 7
     iput-object v5, p0, Lcom/commsource/camera/xcamera/m;->f:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
-    .line 8
     iget-object v8, p0, Lcom/commsource/camera/xcamera/m;->d:Landroid/graphics/Bitmap;
 
     if-nez v8, :cond_1
 
-    .line 9
     iput-object p1, p0, Lcom/commsource/camera/xcamera/m;->c:Landroid/graphics/Bitmap;
 
     goto :goto_0
 
-    .line 10
     :cond_1
     new-instance p2, Lcom/commsource/camera/xcamera/bean/c;
 
@@ -297,7 +268,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     new-instance p2, Lcom/commsource/camera/xcamera/bean/c;
 

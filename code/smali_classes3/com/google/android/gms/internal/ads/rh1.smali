@@ -13,14 +13,11 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     :try_start_0
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->N4:Lcom/google/android/gms/internal/ads/h;
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -29,7 +26,6 @@
 
     move-result-object v0
 
-    .line 4
     check-cast v0, Ljava/lang/String;
 
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
@@ -43,7 +39,6 @@
     :catch_0
     const/4 v0, 0x0
 
-    .line 5
     :goto_0
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/rh1;->a:Ljava/util/regex/Pattern;
 
@@ -61,7 +56,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/rh1;->a:Ljava/util/regex/Pattern;
 
     const/4 v1, 0x0
@@ -72,20 +66,17 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Ljava/util/regex/Matcher;->group()Ljava/lang/String;
 
     move-result-object p1

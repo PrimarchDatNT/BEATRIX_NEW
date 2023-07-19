@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/core/b$e$a;Ljava/util/List;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/core/b$e$a$a;->b:Lcom/meitu/ipstore/core/b$e$a;
 
     iput-object p2, p0, Lcom/meitu/ipstore/core/b$e$a$a;->a:Ljava/util/List;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$e$a$a;->b:Lcom/meitu/ipstore/core/b$e$a;
 
     iget-object v1, v1, Lcom/meitu/ipstore/core/b$e$a;->c:Lcom/meitu/ipstore/core/b$e;
@@ -61,7 +59,6 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/ipstore/core/b$e$a$a;->b:Lcom/meitu/ipstore/core/b$e$a;
 
     iget-object v2, v2, Lcom/meitu/ipstore/core/b$e$a;->b:Lf/k/m/d;
@@ -70,7 +67,6 @@
 
     invoke-interface {v2, v1, v3}, Lf/k/m/d;->e(Landroid/app/Activity;Ljava/util/List;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

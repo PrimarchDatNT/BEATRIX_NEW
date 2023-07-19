@@ -17,7 +17,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Ljava/io/BufferedReader;
 
     if-eqz v0, :cond_0
@@ -42,7 +41,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Ljava/io/BufferedWriter;
 
     if-eqz v0, :cond_0
@@ -71,7 +69,6 @@
 
     const/16 p1, 0x2000
 
-    .line 1
     :cond_0
     instance-of p2, p0, Ljava/io/BufferedReader;
 
@@ -101,7 +98,6 @@
 
     const/16 p1, 0x2000
 
-    .line 1
     :cond_0
     instance-of p2, p0, Ljava/io/BufferedWriter;
 
@@ -141,10 +137,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-array p2, p2, [C
 
-    .line 2
     invoke-virtual {p0, p2}, Ljava/io/Reader;->read([C)I
 
     move-result v0
@@ -156,14 +150,12 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {p1, p2, v3, v0}, Ljava/io/Writer;->write([CII)V
 
     int-to-long v3, v0
 
     add-long/2addr v1, v3
 
-    .line 4
     invoke-virtual {p0, p2}, Ljava/io/Reader;->read([C)I
 
     move-result v0
@@ -183,7 +175,6 @@
 
     const/16 p2, 0x2000
 
-    .line 1
     :cond_0
     invoke-static {p0, p1, p2}, Lcotlin/io/TextStreamsKt;->e(Ljava/io/Reader;Ljava/io/Writer;I)J
 
@@ -222,7 +213,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p0, Ljava/io/BufferedReader;
 
     if-eqz v0, :cond_0
@@ -248,7 +238,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-interface {v1}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -268,13 +257,11 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {p0, v0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-void
@@ -319,7 +306,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/io/n;
 
     invoke-direct {v0, p0}, Lcotlin/io/n;-><init>(Ljava/io/BufferedReader;)V
@@ -344,7 +330,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/net/URL;->openStream()Ljava/io/InputStream;
 
     move-result-object p0
@@ -406,12 +391,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v1, Lcotlin/io/TextStreamsKt$readLines$1;
 
     invoke-direct {v1, v0}, Lcotlin/io/TextStreamsKt$readLines$1;-><init>(Ljava/util/ArrayList;)V
@@ -434,7 +417,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/StringWriter;
 
     invoke-direct {v0}, Ljava/io/StringWriter;-><init>()V
@@ -445,10 +427,8 @@
 
     const/4 v3, 0x0
 
-    .line 2
     invoke-static {p0, v0, v1, v2, v3}, Lcotlin/io/TextStreamsKt;->f(Ljava/io/Reader;Ljava/io/Writer;IILjava/lang/Object;)J
 
-    .line 3
     invoke-virtual {v0}, Ljava/io/StringWriter;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -465,7 +445,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/io/TextStreamsKt;->i(Ljava/net/URL;)[B
 
     move-result-object p0
@@ -484,7 +463,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
@@ -504,7 +482,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/StringReader;
 
     invoke-direct {v0, p0}, Ljava/io/StringReader;-><init>(Ljava/lang/String;)V
@@ -544,7 +521,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p0, Ljava/io/BufferedReader;
 
     if-eqz v0, :cond_0

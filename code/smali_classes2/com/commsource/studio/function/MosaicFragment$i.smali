@@ -50,7 +50,6 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment$i;->a:Lcom/commsource/studio/function/MosaicFragment;
 
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment$i;->b:Lcom/commsource/beautymain/data/c;
@@ -59,7 +58,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment$i;->a:Lcom/commsource/studio/function/MosaicFragment;
 
@@ -69,7 +67,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/viewmodel/MosaicViewModel;->d0(I)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

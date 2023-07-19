@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/FullscreenAdController;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/FullscreenAdController$2;->this$0:Lcom/mopub/mobileads/FullscreenAdController;
 
     iput-object p2, p0, Lcom/mopub/mobileads/FullscreenAdController$2;->val$imageUrl:Ljava/lang/String;
@@ -46,7 +45,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x1
@@ -81,12 +79,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lcom/mopub/network/MoPubImageLoader$ImageContainer;->getBitmap()Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    .line 2
     iget-object p2, p0, Lcom/mopub/mobileads/FullscreenAdController$2;->this$0:Lcom/mopub/mobileads/FullscreenAdController;
 
     invoke-static {p2}, Lcom/mopub/mobileads/FullscreenAdController;->access$200(Lcom/mopub/mobileads/FullscreenAdController;)Landroid/widget/ImageView;
@@ -99,7 +95,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p2, p0, Lcom/mopub/mobileads/FullscreenAdController$2;->this$0:Lcom/mopub/mobileads/FullscreenAdController;
 
     invoke-static {p2}, Lcom/mopub/mobileads/FullscreenAdController;->access$200(Lcom/mopub/mobileads/FullscreenAdController;)Landroid/widget/ImageView;
@@ -108,7 +103,6 @@
 
     invoke-virtual {p2, v0}, Landroid/widget/ImageView;->setAdjustViewBounds(Z)V
 
-    .line 4
     iget-object p2, p0, Lcom/mopub/mobileads/FullscreenAdController$2;->this$0:Lcom/mopub/mobileads/FullscreenAdController;
 
     invoke-static {p2}, Lcom/mopub/mobileads/FullscreenAdController;->access$200(Lcom/mopub/mobileads/FullscreenAdController;)Landroid/widget/ImageView;
@@ -121,10 +115,8 @@
 
     const/16 p2, 0xa0
 
-    .line 5
     invoke-virtual {p1, p2}, Landroid/graphics/Bitmap;->setDensity(I)V
 
-    .line 6
     iget-object p2, p0, Lcom/mopub/mobileads/FullscreenAdController$2;->this$0:Lcom/mopub/mobileads/FullscreenAdController;
 
     invoke-static {p2}, Lcom/mopub/mobileads/FullscreenAdController;->access$200(Lcom/mopub/mobileads/FullscreenAdController;)Landroid/widget/ImageView;
@@ -135,7 +127,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 

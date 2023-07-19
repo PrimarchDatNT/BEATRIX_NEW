@@ -65,13 +65,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTITrack;->native_init()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -80,15 +77,12 @@
 .method protected constructor <init>(J)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/media/mtmvcore/MTITrack;->nativeReleased:Z
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/meitu/media/mtmvcore/MTITrack;->native_setup(J)V
 
     return-void
@@ -107,7 +101,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
@@ -177,10 +170,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->nativeCleanVolumeArray()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -193,10 +184,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->nativeCleanVolumeTimeRange()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -209,10 +198,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->native_cleanup()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -239,20 +226,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->nativeReleased:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -331,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->nativeReleased:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -358,26 +340,21 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->nativeReleased:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->native_finalize()V
 
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->nativeReleased:Z
 
     :cond_0
     const-wide/16 v1, 0x0
 
-    .line 4
     iput-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -512,14 +489,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/media/mtmvcore/MTITrack;->setVFXFuncA(JLcom/meitu/media/mtmvcore/MTITrack$VFXFuncCallback;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -532,14 +507,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/media/mtmvcore/MTITrack;->setVFXFuncB(JLcom/meitu/media/mtmvcore/MTITrack$VFXFuncCallback;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -559,10 +532,8 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v1, v2}, Lcom/meitu/media/mtmvcore/MTITrack;->setVolumeAtTime(FJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -586,10 +557,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/media/mtmvcore/MTITrack;->nativeSetVolumeAtTime(FJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -624,7 +593,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct/range {p0 .. p6}, Lcom/meitu/media/mtmvcore/MTITrack;->nativeSetVolumeRampFromStartVolume(FFJJ)Z
 
     move-result p1
@@ -650,14 +618,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/media/mtmvcore/MTITrack;->set_after_fl_image(JLcom/meitu/media/mtmvcore/MTITrack$after_fl_image;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -670,7 +636,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
@@ -679,7 +644,6 @@
 
     invoke-direct {p0, v1, v2, p1, v3}, Lcom/meitu/media/mtmvcore/MTITrack;->set_before_fl_image(JLcom/meitu/media/mtmvcore/MTITrack$before_fl_image;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -692,14 +656,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/media/mtmvcore/MTITrack;->set_before_fl_image(JLcom/meitu/media/mtmvcore/MTITrack$before_fl_image;Z)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

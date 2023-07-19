@@ -13,13 +13,10 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/t10;Lcom/google/android/gms/internal/ads/pn2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/fj2;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/v10;->b:Lcom/google/android/gms/internal/ads/t10;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/v10;->c:Lcom/google/android/gms/internal/ads/pn2;
 
     return-void
@@ -30,7 +27,6 @@
 .method public final p9(Lcom/google/android/gms/internal/ads/mj2;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/v10;->b:Lcom/google/android/gms/internal/ads/t10;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/t10;->h(Lcom/google/android/gms/internal/ads/mj2;)V
@@ -41,7 +37,6 @@
 .method public final z0()Lcom/google/android/gms/internal/ads/pn2;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/v10;->c:Lcom/google/android/gms/internal/ads/pn2;
 
     return-object v0

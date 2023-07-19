@@ -67,7 +67,6 @@
 
     sput-object v1, Lcom/commsource/home/entity/HomeContentRepository;->g:Lcom/commsource/home/entity/HomeContentRepository$a;
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -92,10 +91,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v0}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -112,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/home/entity/HomeContentRepository;->c(Lcom/commsource/home/entity/e;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -127,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/home/entity/HomeContentRepository;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,19 +139,16 @@
 
     if-eqz p1, :cond_b
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/home/entity/e;->e()Ljava/util/List;
 
     move-result-object p1
 
     if-eqz p1, :cond_b
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
-    .line 3
     :cond_0
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
@@ -165,14 +157,12 @@
 
     if-eqz v1, :cond_b
 
-    .line 4
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/commsource/home/entity/ContentModule;
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/home/entity/ContentModule;->getType()Ljava/lang/Integer;
 
     move-result-object v2
@@ -183,7 +173,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
 
@@ -191,7 +180,6 @@
 
     if-ne v4, v3, :cond_2
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/home/entity/ContentModule;->getSlideshowList()Ljava/util/List;
 
     move-result-object v1
@@ -204,7 +192,6 @@
 
     if-ne v1, v3, :cond_0
 
-    .line 8
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
@@ -215,7 +202,6 @@
 
     goto :goto_4
 
-    .line 9
     :cond_3
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
 
@@ -225,7 +211,6 @@
 
     if-ne v4, v5, :cond_8
 
-    .line 10
     invoke-virtual {v1}, Lcom/commsource/home/entity/ContentModule;->getMaterialList()Ljava/util/List;
 
     move-result-object v2
@@ -270,7 +255,6 @@
 
     if-eq v1, v5, :cond_0
 
-    .line 11
     :cond_7
     :goto_3
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
@@ -283,7 +267,6 @@
 
     goto :goto_5
 
-    .line 12
     :cond_9
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
 
@@ -293,26 +276,22 @@
 
     if-ne v2, v3, :cond_a
 
-    .line 13
     invoke-virtual {v1}, Lcom/commsource/home/entity/ContentModule;->getBanner()Lcom/commsource/home/entity/c;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 14
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 15
     :cond_a
     :goto_5
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 16
     :cond_b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -339,7 +318,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/entity/HomeContentRepository;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -354,7 +332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/home/entity/HomeContentRepository;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -369,12 +346,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/home/entity/HomeContentRepository;->a:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -382,10 +357,8 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/home/entity/HomeContentRepository;->a:Z
 
-    .line 4
     new-instance v1, Lcom/commsource/home/entity/HomeContentRepository$b;
 
     const-string v2, ""
@@ -394,7 +367,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -407,12 +379,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/home/entity/HomeContentRepository;->a:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -420,20 +390,16 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/home/entity/HomeContentRepository;->a:Z
 
-    .line 4
     const-class v1, Lcom/meitu/http/api/HomeApi;
 
-    .line 5
     invoke-static {v1}, Lf/k/k/u/b;->h(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/http/api/HomeApi;
 
-    .line 6
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -450,19 +416,16 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Lf/k/k/u/c;->c()Lf/k/k/u/c;
 
     move-result-object v1
 
-    .line 8
     new-instance v2, Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1;
 
     invoke-direct {v2, p0}, Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1;-><init>(Lcom/commsource/home/entity/HomeContentRepository;)V
 
     invoke-static {v1, v2}, Lf/k/k/u/b;->m(Lf/k/k/u/c;Lcotlin/jvm/u/l;)Lf/k/k/u/c;
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -475,7 +438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/home/entity/HomeContentRepository;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

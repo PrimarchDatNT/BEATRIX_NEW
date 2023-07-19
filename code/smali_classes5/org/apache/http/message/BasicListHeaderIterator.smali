@@ -43,12 +43,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Header list"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -57,19 +55,16 @@
 
     iput-object p1, p0, Lorg/apache/http/message/BasicListHeaderIterator;->allHeaders:Ljava/util/List;
 
-    .line 3
     iput-object p2, p0, Lorg/apache/http/message/BasicListHeaderIterator;->headerName:Ljava/lang/String;
 
     const/4 p1, -0x1
 
-    .line 4
     invoke-virtual {p0, p1}, Lorg/apache/http/message/BasicListHeaderIterator;->findNext(I)I
 
     move-result p2
 
     iput p2, p0, Lorg/apache/http/message/BasicListHeaderIterator;->currentIndex:I
 
-    .line 5
     iput p1, p0, Lorg/apache/http/message/BasicListHeaderIterator;->lastIndex:I
 
     return-void
@@ -80,7 +75,6 @@
 .method protected filterHeader(I)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicListHeaderIterator;->headerName:Ljava/lang/String;
 
     if-nez v0, :cond_0
@@ -89,7 +83,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lorg/apache/http/message/BasicListHeaderIterator;->allHeaders:Ljava/util/List;
 
@@ -103,7 +96,6 @@
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lorg/apache/http/message/BasicListHeaderIterator;->headerName:Ljava/lang/String;
 
     invoke-virtual {v0, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
@@ -122,7 +114,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     iget-object v1, p0, Lorg/apache/http/message/BasicListHeaderIterator;->allHeaders:Ljava/util/List;
 
@@ -141,7 +132,6 @@
 
     add-int/lit8 p1, p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lorg/apache/http/message/BasicListHeaderIterator;->filterHeader(I)Z
 
     move-result v2
@@ -160,7 +150,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/http/message/BasicListHeaderIterator;->currentIndex:I
 
     if-ltz v0, :cond_0
@@ -184,7 +173,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/message/BasicListHeaderIterator;->nextHeader()Lorg/apache/http/Header;
 
     move-result-object v0
@@ -200,22 +188,18 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lorg/apache/http/message/BasicListHeaderIterator;->currentIndex:I
 
     if-ltz v0, :cond_0
 
-    .line 2
     iput v0, p0, Lorg/apache/http/message/BasicListHeaderIterator;->lastIndex:I
 
-    .line 3
     invoke-virtual {p0, v0}, Lorg/apache/http/message/BasicListHeaderIterator;->findNext(I)I
 
     move-result v1
 
     iput v1, p0, Lorg/apache/http/message/BasicListHeaderIterator;->currentIndex:I
 
-    .line 4
     iget-object v1, p0, Lorg/apache/http/message/BasicListHeaderIterator;->allHeaders:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -226,7 +210,6 @@
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -245,7 +228,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lorg/apache/http/message/BasicListHeaderIterator;->lastIndex:I
 
     const/4 v1, 0x1
@@ -264,7 +246,6 @@
 
     invoke-static {v0, v2}, Lorg/apache/http/util/Asserts;->check(ZLjava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/message/BasicListHeaderIterator;->allHeaders:Ljava/util/List;
 
     iget v2, p0, Lorg/apache/http/message/BasicListHeaderIterator;->lastIndex:I
@@ -273,10 +254,8 @@
 
     const/4 v0, -0x1
 
-    .line 3
     iput v0, p0, Lorg/apache/http/message/BasicListHeaderIterator;->lastIndex:I
 
-    .line 4
     iget v0, p0, Lorg/apache/http/message/BasicListHeaderIterator;->currentIndex:I
 
     sub-int/2addr v0, v1

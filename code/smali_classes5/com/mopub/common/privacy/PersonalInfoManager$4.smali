@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/mopub/common/privacy/PersonalInfoManager;Lcom/mopub/common/privacy/ConsentStatusChangeListener;Lcom/mopub/common/privacy/ConsentStatus;Lcom/mopub/common/privacy/ConsentStatus;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager$4;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     iput-object p2, p0, Lcom/mopub/common/privacy/PersonalInfoManager$4;->val$stateChangeListener:Lcom/mopub/common/privacy/ConsentStatusChangeListener;
@@ -54,7 +53,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$4;->val$stateChangeListener:Lcom/mopub/common/privacy/ConsentStatusChangeListener;
 
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager$4;->val$oldConsentStatus:Lcom/mopub/common/privacy/ConsentStatus;

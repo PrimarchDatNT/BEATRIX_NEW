@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/animation/Animator;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1$2;->invoke(Landroid/animation/Animator;)V
@@ -77,7 +76,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1$2;->this$0:Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;
 
     iget-object v0, v0, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;->this$0:Lcom/commsource/puzzle/StitchComponent;
@@ -86,7 +84,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/puzzle/StitchComponent;->y(Lcom/commsource/puzzle/StitchComponent;Z)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1$2;->this$0:Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;
 
     iget-object v0, v0, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;->this$0:Lcom/commsource/puzzle/StitchComponent;
@@ -101,7 +98,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/puzzle/StitchComponent$StitchContainer;->Q(Landroid/graphics/Matrix;)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1$2;->this$0:Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;
 
     iget-object v0, v0, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;->this$0:Lcom/commsource/puzzle/StitchComponent;
@@ -114,7 +110,6 @@
 
     move-result-object v0
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1$2;->this$0:Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;
 
     iget-object v1, v1, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;->this$0:Lcom/commsource/puzzle/StitchComponent;
@@ -129,7 +124,6 @@
 
     iget v1, v1, Landroid/graphics/Rect;->left:I
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1$2;->this$0:Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;
 
     iget-object v2, v2, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;->$targetY:Lcotlin/jvm/internal/Ref$FloatRef;
@@ -138,10 +132,8 @@
 
     float-to-int v2, v2
 
-    .line 7
     invoke-virtual {v0, v1, v2}, Landroid/graphics/Rect;->offsetTo(II)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1$2;->this$0:Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;
 
     iget-object v0, v0, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;->this$0:Lcom/commsource/puzzle/StitchComponent;
@@ -150,7 +142,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/puzzle/StitchComponent;->z(Lcom/commsource/puzzle/StitchComponent;I)V
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

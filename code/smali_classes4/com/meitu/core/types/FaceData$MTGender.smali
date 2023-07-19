@@ -44,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/types/FaceData$MTGender;
 
     const-string v2, "UNDEFINE_GENDER"
@@ -67,7 +66,6 @@
 
     sput-object v2, Lcom/meitu/core/types/FaceData$MTGender;->FEMALE:Lcom/meitu/core/types/FaceData$MTGender;
 
-    .line 2
     new-instance v4, Lcom/meitu/core/types/FaceData$MTGender;
 
     const-string v6, "MALE"
@@ -88,7 +86,6 @@
 
     aput-object v4, v6, v7
 
-    .line 3
     sput-object v6, Lcom/meitu/core/types/FaceData$MTGender;->$VALUES:[Lcom/meitu/core/types/FaceData$MTGender;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -104,10 +101,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/meitu/core/types/FaceData$MTGender;->id:I
 
     return-void
@@ -120,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/core/types/FaceData$MTGender;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -141,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/types/FaceData$MTGender;->$VALUES:[Lcom/meitu/core/types/FaceData$MTGender;
 
     invoke-virtual {v1}, [Lcom/meitu/core/types/FaceData$MTGender;->clone()Ljava/lang/Object;
@@ -164,14 +157,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/types/FaceData$MTGender;->id:I
 
     const/4 v2, -0x1
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "UNDEFINE_GENDER"
@@ -181,7 +172,6 @@
     :cond_0
     if-nez v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "FEMALE"
@@ -193,14 +183,12 @@
 
     if-ne v1, v2, :cond_2
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "MALE"
 
     return-object v0
 
-    .line 5
     :cond_2
     invoke-super {p0}, Ljava/lang/Enum;->toString()Ljava/lang/String;
 

@@ -58,10 +58,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/stub/g$g;->a:Lio/grpc/stub/g$f;
 
     return-void
@@ -83,22 +81,18 @@
         }
     .end annotation
 
-    .line 1
     new-instance p2, Lio/grpc/stub/g$d;
 
     invoke-direct {p2, p1}, Lio/grpc/stub/g$d;-><init>(Lio/grpc/k1;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/stub/g$g;->a:Lio/grpc/stub/g$f;
 
     invoke-interface {v0, p2}, Lio/grpc/stub/g$f;->b(Lio/grpc/stub/h;)Lio/grpc/stub/h;
 
     move-result-object v0
 
-    .line 3
     invoke-static {p2}, Lio/grpc/stub/g$d;->l(Lio/grpc/stub/g$d;)V
 
-    .line 4
     invoke-static {p2}, Lio/grpc/stub/g$d;->o(Lio/grpc/stub/g$d;)Z
 
     move-result v1
@@ -107,10 +101,8 @@
 
     const/4 v1, 0x1
 
-    .line 5
     invoke-virtual {p1, v1}, Lio/grpc/k1;->g(I)V
 
-    .line 6
     :cond_0
     new-instance v1, Lio/grpc/stub/g$g$a;
 

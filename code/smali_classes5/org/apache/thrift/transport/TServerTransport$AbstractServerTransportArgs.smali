@@ -35,15 +35,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lorg/apache/thrift/transport/TServerTransport$AbstractServerTransportArgs;->backlog:I
 
-    .line 3
     iput v0, p0, Lorg/apache/thrift/transport/TServerTransport$AbstractServerTransportArgs;->clientTimeout:I
 
     return-void
@@ -59,7 +56,6 @@
         }
     .end annotation
 
-    .line 1
     iput p1, p0, Lorg/apache/thrift/transport/TServerTransport$AbstractServerTransportArgs;->backlog:I
 
     return-object p0
@@ -75,7 +71,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/transport/TServerTransport$AbstractServerTransportArgs;->bindAddr:Ljava/net/InetSocketAddress;
 
     return-object p0
@@ -89,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     iput p1, p0, Lorg/apache/thrift/transport/TServerTransport$AbstractServerTransportArgs;->clientTimeout:I
 
     return-object p0
@@ -103,7 +97,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/net/InetSocketAddress;
 
     invoke-direct {v0, p1}, Ljava/net/InetSocketAddress;-><init>(I)V

@@ -44,10 +44,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_new_makeup_title:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupGroupTitleViewHolder$mViewBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupGroupTitleViewHolder$mViewBinding$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupGroupTitleViewHolder;)V
@@ -89,12 +87,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_4
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -103,7 +99,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
     move-result-object p3
@@ -112,7 +107,6 @@
 
     check-cast p3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupGroupTitleViewHolder;->v()Lcom/commsource/beautyplus/f0/oh;
 
     move-result-object v1
@@ -129,7 +123,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result p1
@@ -140,7 +133,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupGroupTitleViewHolder;->v()Lcom/commsource/beautyplus/f0/oh;
 
     move-result-object p1
@@ -163,7 +155,6 @@
 
     invoke-virtual {p1, p2}, Landroid/text/TextPaint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupGroupTitleViewHolder;->v()Lcom/commsource/beautyplus/f0/oh;
 
     move-result-object p1
@@ -192,7 +183,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupGroupTitleViewHolder;->v()Lcom/commsource/beautyplus/f0/oh;
 
@@ -216,7 +206,6 @@
 
     invoke-virtual {p1, p2}, Landroid/text/TextPaint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupGroupTitleViewHolder;->v()Lcom/commsource/beautyplus/f0/oh;
 
     move-result-object p1
@@ -245,7 +234,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_3
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -257,7 +245,6 @@
 
     throw p1
 
-    .line 11
     :cond_4
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

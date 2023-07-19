@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$goNext$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$goNext$1;->$gallery:Lcom/commsource/beautyplus/onboarding/b/a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/onboarding/b/a;->d()Ljava/util/ArrayList;
@@ -93,7 +91,6 @@
 
     check-cast v1, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$goNext$1;->this$0:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v2}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/beautyplus/f0/s0;
@@ -116,7 +113,6 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/beautyplus/onboarding/NewTextPageView;->k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$goNext$1;->this$0:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v2}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/beautyplus/f0/s0;
@@ -131,7 +127,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->setIconFontResWithAnim(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$goNext$1;->this$0:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/beautyplus/f0/s0;
@@ -148,7 +143,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->setImageWithAnim(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

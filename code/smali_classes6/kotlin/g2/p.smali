@@ -30,7 +30,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -84,7 +83,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     check-cast p0, Lcotlin/g2/g;
 
     check-cast p1, Ljava/lang/Comparable;
@@ -124,7 +122,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/g2/d;
 
     invoke-direct {v0, p0, p1, p2, p3}, Lcotlin/g2/d;-><init>(DD)V
@@ -150,7 +147,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/g2/e;
 
     invoke-direct {v0, p0, p1}, Lcotlin/g2/e;-><init>(FF)V
@@ -189,7 +185,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/g2/h;
 
     invoke-direct {v0, p0, p1}, Lcotlin/g2/h;-><init>(Ljava/lang/Comparable;Ljava/lang/Comparable;)V

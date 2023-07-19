@@ -54,15 +54,12 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event;->a:Ljava/lang/String;
 
     const-string p1, "severity"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -71,13 +68,10 @@
 
     iput-object p1, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event;->b:Lio/grpc/InternalChannelz$ChannelTrace$Event$Severity;
 
-    .line 5
     iput-wide p3, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event;->c:J
 
-    .line 6
     iput-object p5, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event;->d:Lio/grpc/r0;
 
-    .line 7
     iput-object p6, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event;->e:Lio/grpc/r0;
 
     return-void
@@ -86,7 +80,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Lio/grpc/InternalChannelz$ChannelTrace$Event$Severity;JLio/grpc/r0;Lio/grpc/r0;Lio/grpc/InternalChannelz$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p6}, Lio/grpc/InternalChannelz$ChannelTrace$Event;-><init>(Ljava/lang/String;Lio/grpc/InternalChannelz$ChannelTrace$Event$Severity;JLio/grpc/r0;Lio/grpc/r0;)V
 
     return-void
@@ -97,17 +90,14 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
 
-    .line 1
     instance-of v0, p1, Lio/grpc/InternalChannelz$ChannelTrace$Event;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lio/grpc/InternalChannelz$ChannelTrace$Event;
 
-    .line 3
     iget-object v0, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event;->a:Ljava/lang/String;
 
     iget-object v2, p1, Lio/grpc/InternalChannelz$ChannelTrace$Event;->a:Ljava/lang/String;
@@ -122,7 +112,6 @@
 
     iget-object v2, p1, Lio/grpc/InternalChannelz$ChannelTrace$Event;->b:Lio/grpc/InternalChannelz$ChannelTrace$Event$Severity;
 
-    .line 4
     invoke-static {v0, v2}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
@@ -141,7 +130,6 @@
 
     iget-object v2, p1, Lio/grpc/InternalChannelz$ChannelTrace$Event;->d:Lio/grpc/r0;
 
-    .line 5
     invoke-static {v0, v2}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
@@ -152,7 +140,6 @@
 
     iget-object p1, p1, Lio/grpc/InternalChannelz$ChannelTrace$Event;->e:Lio/grpc/r0;
 
-    .line 6
     invoke-static {v0, p1}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -172,7 +159,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event;->a:Ljava/lang/String;
 
     const/4 v2, 0x0
@@ -217,7 +203,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -226,7 +211,6 @@
 
     const-string v2, "description"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -235,7 +219,6 @@
 
     const-string v2, "severity"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -244,7 +227,6 @@
 
     const-string v3, "timestampNanos"
 
-    .line 4
     invoke-virtual {v0, v3, v1, v2}, Lcom/google/common/base/p$b;->e(Ljava/lang/String;J)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -253,7 +235,6 @@
 
     const-string v2, "channelRef"
 
-    .line 5
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -262,12 +243,10 @@
 
     const-string v2, "subchannelRef"
 
-    .line 6
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 7
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

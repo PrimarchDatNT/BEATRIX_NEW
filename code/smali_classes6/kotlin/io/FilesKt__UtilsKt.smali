@@ -59,7 +59,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -70,7 +69,6 @@
 
     if-nez v0, :cond_1
 
-    .line 2
     new-instance p1, Lcotlin/io/NoSuchFileException;
 
     const/4 v5, 0x0
@@ -105,7 +103,6 @@
     :goto_0
     return v1
 
-    .line 3
     :cond_1
     :try_start_0
     invoke-static {p0}, Lcotlin/io/l;->M(Ljava/io/File;)Lcotlin/io/h;
@@ -138,14 +135,12 @@
 
     check-cast v3, Ljava/io/File;
 
-    .line 4
     invoke-virtual {v3}, Ljava/io/File;->exists()Z
 
     move-result v4
 
     if-nez v4, :cond_3
 
-    .line 5
     new-instance v10, Lcotlin/io/NoSuchFileException;
 
     const/4 v6, 0x0
@@ -174,18 +169,15 @@
 
     return v2
 
-    .line 6
     :cond_3
     invoke-static {v3, p0}, Lcotlin/io/FilesKt__UtilsKt;->n0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 7
     new-instance v5, Ljava/io/File;
 
     invoke-direct {v5, p1, v4}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {v5}, Ljava/io/File;->exists()Z
 
     move-result v4
@@ -212,7 +204,6 @@
 
     goto :goto_3
 
-    .line 9
     :cond_5
     invoke-virtual {v5}, Ljava/io/File;->isDirectory()Z
 
@@ -220,7 +211,6 @@
 
     if-eqz v4, :cond_6
 
-    .line 10
     invoke-static {v5}, Lcotlin/io/FilesKt__UtilsKt;->V(Ljava/io/File;)Z
 
     move-result v4
@@ -229,7 +219,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_6
     invoke-virtual {v5}, Ljava/io/File;->delete()Z
 
@@ -245,7 +234,6 @@
     :goto_3
     if-eqz v4, :cond_8
 
-    .line 12
     new-instance v4, Lcotlin/io/FileAlreadyExistsException;
 
     const-string v6, "The destination file already exists."
@@ -264,7 +252,6 @@
 
     return v2
 
-    .line 13
     :cond_8
     invoke-virtual {v3}, Ljava/io/File;->isDirectory()Z
 
@@ -272,7 +259,6 @@
 
     if-eqz v4, :cond_9
 
-    .line 14
     invoke-virtual {v5}, Ljava/io/File;->mkdirs()Z
 
     goto :goto_1
@@ -288,7 +274,6 @@
 
     move v6, p2
 
-    .line 15
     invoke-static/range {v4 .. v9}, Lcotlin/io/FilesKt__UtilsKt;->Q(Ljava/io/File;Ljava/io/File;ZIILjava/lang/Object;)Ljava/io/File;
 
     move-result-object v4
@@ -305,7 +290,6 @@
 
     if-eqz v8, :cond_2
 
-    .line 16
     new-instance v4, Ljava/io/IOException;
 
     const-string v5, "Source file wasn\'t copied completely, length of destination file differs."
@@ -347,7 +331,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     sget-object p3, Lcotlin/io/FilesKt__UtilsKt$copyRecursively$1;->INSTANCE:Lcotlin/io/FilesKt__UtilsKt$copyRecursively$1;
 
     :cond_1
@@ -379,14 +362,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result v0
 
     if-eqz v0, :cond_6
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -395,7 +376,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Ljava/io/File;->delete()Z
 
     move-result p2
@@ -404,7 +384,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p2, Lcotlin/io/FileAlreadyExistsException;
 
@@ -414,7 +393,6 @@
 
     throw p2
 
-    .line 5
     :cond_1
     new-instance p2, Lcotlin/io/FileAlreadyExistsException;
 
@@ -424,7 +402,6 @@
 
     throw p2
 
-    .line 6
     :cond_2
     :goto_0
     invoke-virtual {p0}, Ljava/io/File;->isDirectory()Z
@@ -433,7 +410,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 7
     invoke-virtual {p1}, Ljava/io/File;->mkdirs()Z
 
     move-result p2
@@ -442,7 +418,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     new-instance p2, Lcotlin/io/FileSystemException;
 
@@ -452,7 +427,6 @@
 
     throw p2
 
-    .line 9
     :cond_4
     invoke-virtual {p1}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
@@ -462,13 +436,11 @@
 
     invoke-virtual {p2}, Ljava/io/File;->mkdirs()Z
 
-    .line 10
     :cond_5
     new-instance p2, Ljava/io/FileInputStream;
 
     invoke-direct {p2, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
 
-    .line 11
     :try_start_0
     new-instance p0, Ljava/io/FileOutputStream;
 
@@ -476,7 +448,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 12
     :try_start_1
     invoke-static {p2, p0, p3}, Lcotlin/io/a;->k(Ljava/io/InputStream;Ljava/io/OutputStream;I)J
     :try_end_1
@@ -484,13 +455,11 @@
 
     const/4 p3, 0x0
 
-    .line 13
     :try_start_2
     invoke-static {p0, p3}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
-    .line 14
     invoke-static {p2, p3}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     :goto_1
@@ -499,7 +468,6 @@
     :catchall_0
     move-exception p1
 
-    .line 15
     :try_start_3
     throw p1
     :try_end_3
@@ -518,7 +486,6 @@
     :catchall_2
     move-exception p0
 
-    .line 16
     :try_start_5
     throw p0
     :try_end_5
@@ -531,7 +498,6 @@
 
     throw p1
 
-    .line 17
     :cond_6
     new-instance p1, Lcotlin/io/NoSuchFileException;
 
@@ -568,7 +534,6 @@
 
     const/16 p3, 0x2000
 
-    .line 1
     :cond_1
     invoke-static {p0, p1, p2, p3}, Lcotlin/io/FilesKt__UtilsKt;->P(Ljava/io/File;Ljava/io/File;ZI)Ljava/io/File;
 
@@ -602,15 +567,12 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Ljava/io/File;->createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/File;->delete()Z
 
-    .line 3
     invoke-virtual {p0}, Ljava/io/File;->mkdir()Z
 
     move-result p1
@@ -619,12 +581,10 @@
 
     const-string p1, "dir"
 
-    .line 4
     invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/io/IOException;
 
@@ -676,7 +636,6 @@
 
     move-object p2, v0
 
-    .line 1
     :cond_2
     invoke-static {p0, p1, p2}, Lcotlin/io/FilesKt__UtilsKt;->R(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
 
@@ -710,7 +669,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Ljava/io/File;->createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
 
     move-result-object p0
@@ -747,7 +705,6 @@
 
     move-object p2, v0
 
-    .line 1
     :cond_2
     invoke-static {p0, p1, p2}, Lcotlin/io/FilesKt__UtilsKt;->T(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
 
@@ -767,12 +724,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/io/l;->L(Ljava/io/File;)Lcotlin/io/h;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -795,7 +750,6 @@
 
     check-cast v2, Ljava/io/File;
 
-    .line 3
     invoke-virtual {v2}, Ljava/io/File;->delete()Z
 
     move-result v3
@@ -841,31 +795,26 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object v0
 
-    .line 2
     invoke-static {p1}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Lcotlin/io/g;->i()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p0
 
     return p0
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Lcotlin/io/g;->h()I
 
@@ -883,7 +832,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {v0}, Lcotlin/io/g;->g()Ljava/util/List;
 
@@ -928,7 +876,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -953,7 +900,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object p0
@@ -986,7 +932,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-char v0, Ljava/io/File;->separatorChar:C
 
     const-string v1, "path"
@@ -1041,7 +986,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object p0
@@ -1076,7 +1020,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object p0
@@ -1139,7 +1082,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-interface {p0}, Ljava/util/List;->size()I
@@ -1148,7 +1090,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -1166,7 +1107,6 @@
 
     check-cast v1, Ljava/io/File;
 
-    .line 3
     invoke-virtual {v1}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object v2
@@ -1193,7 +1133,6 @@
     :cond_1
     const-string v3, ".."
 
-    .line 4
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -1242,7 +1181,6 @@
     :cond_3
     const-string v3, "."
 
-    .line 5
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -1251,7 +1189,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     :goto_1
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -1265,7 +1202,6 @@
 .method private static final d0(Lcotlin/io/g;)Lcotlin/io/g;
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlin/io/g;
 
     invoke-virtual {p0}, Lcotlin/io/g;->e()Ljava/io/File;
@@ -1306,7 +1242,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-static {p0, p1}, Lcotlin/io/FilesKt__UtilsKt;->n0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
@@ -1339,17 +1274,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/io/FilesKt__UtilsKt;->o0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     new-instance p1, Ljava/io/File;
 
-    .line 3
     invoke-direct {p1, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     goto :goto_0
@@ -1382,17 +1314,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/io/FilesKt__UtilsKt;->o0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     new-instance p0, Ljava/io/File;
 
-    .line 3
     invoke-direct {p0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     :cond_0
@@ -1420,7 +1349,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcotlin/io/k;->d(Ljava/io/File;)Z
 
     move-result v0
@@ -1429,7 +1357,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Ljava/io/File;->toString()Ljava/lang/String;
 
@@ -1439,7 +1366,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
@@ -1538,7 +1464,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -1571,12 +1496,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Lcotlin/io/g;->h()I
 
     move-result v0
@@ -1604,7 +1527,6 @@
 
     move-result-object v0
 
-    .line 3
     :goto_0
     invoke-virtual {p0}, Lcotlin/io/g;->e()Ljava/io/File;
 
@@ -1642,7 +1564,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -1673,17 +1594,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object p0
 
-    .line 2
     invoke-static {p1}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0}, Lcotlin/io/g;->e()Ljava/io/File;
 
     move-result-object v0
@@ -1704,7 +1622,6 @@
 
     return v1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcotlin/io/g;->h()I
 
@@ -1718,7 +1635,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lcotlin/io/g;->g()Ljava/util/List;
 
@@ -1763,7 +1679,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -1796,7 +1711,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/io/FilesKt__UtilsKt;->o0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v0
@@ -1840,7 +1754,6 @@
 .method private static final o0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
     .locals 17
 
-    .line 1
     invoke-static/range {p0 .. p0}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object v0
@@ -1849,7 +1762,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static/range {p1 .. p1}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object v1
@@ -1858,7 +1770,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v0}, Lcotlin/io/g;->e()Ljava/io/File;
 
     move-result-object v2
@@ -1879,20 +1790,17 @@
 
     return-object v3
 
-    .line 4
     :cond_0
     invoke-virtual {v1}, Lcotlin/io/g;->h()I
 
     move-result v2
 
-    .line 5
     invoke-virtual {v0}, Lcotlin/io/g;->h()I
 
     move-result v4
 
     const/4 v5, 0x0
 
-    .line 6
     invoke-static {v4, v2}, Ljava/lang/Math;->min(II)I
 
     move-result v6
@@ -1900,7 +1808,6 @@
     :goto_0
     if-ge v5, v6, :cond_1
 
-    .line 7
     invoke-virtual {v0}, Lcotlin/io/g;->g()Ljava/util/List;
 
     move-result-object v7
@@ -1931,7 +1838,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -1941,7 +1847,6 @@
 
     if-lt v7, v5, :cond_4
 
-    .line 9
     :goto_1
     invoke-virtual {v1}, Lcotlin/io/g;->g()Ljava/util/List;
 
@@ -1967,13 +1872,11 @@
 
     return-object v3
 
-    .line 10
     :cond_2
     invoke-virtual {v6, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     if-eq v7, v5, :cond_3
 
-    .line 11
     sget-char v8, Ljava/io/File;->separatorChar:C
 
     invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
@@ -1990,12 +1893,10 @@
 
     if-ge v5, v2, :cond_5
 
-    .line 12
     sget-char v1, Ljava/io/File;->separatorChar:C
 
     invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 13
     :cond_5
     invoke-virtual {v0}, Lcotlin/io/g;->g()Ljava/util/List;
 
@@ -2029,7 +1930,6 @@
 
     invoke-static/range {v7 .. v16}, Lcotlin/collections/s;->V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
 
-    .line 14
     :cond_6
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 

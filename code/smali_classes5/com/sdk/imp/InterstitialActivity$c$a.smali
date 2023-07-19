@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/InterstitialActivity$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/InterstitialActivity$c$a;->a:Lcom/sdk/imp/InterstitialActivity$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/InterstitialActivity$c$a;->a:Lcom/sdk/imp/InterstitialActivity$c;
 
     iget-object v0, v0, Lcom/sdk/imp/InterstitialActivity$c;->a:Lcom/sdk/imp/InterstitialActivity;
@@ -53,7 +51,6 @@
 
     invoke-static {v0, v1}, Lcom/sdk/imp/InterstitialActivity;->e(Lcom/sdk/imp/InterstitialActivity;I)I
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/InterstitialActivity$c$a;->a:Lcom/sdk/imp/InterstitialActivity$c;
 
     iget-object v0, v0, Lcom/sdk/imp/InterstitialActivity$c;->a:Lcom/sdk/imp/InterstitialActivity;
@@ -64,7 +61,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/InterstitialActivity$c$a;->a:Lcom/sdk/imp/InterstitialActivity$c;
 
     iget-object v0, v0, Lcom/sdk/imp/InterstitialActivity$c;->a:Lcom/sdk/imp/InterstitialActivity;
@@ -77,7 +73,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/InterstitialActivity$c$a;->a:Lcom/sdk/imp/InterstitialActivity$c;
 
     iget-object v0, v0, Lcom/sdk/imp/InterstitialActivity$c;->a:Lcom/sdk/imp/InterstitialActivity;
@@ -110,7 +105,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/InterstitialActivity$c$a;->a:Lcom/sdk/imp/InterstitialActivity$c;
 
@@ -122,14 +116,12 @@
 
     if-gtz v0, :cond_1
 
-    .line 6
     iget-object v0, p0, Lcom/sdk/imp/InterstitialActivity$c$a;->a:Lcom/sdk/imp/InterstitialActivity$c;
 
     iget-object v0, v0, Lcom/sdk/imp/InterstitialActivity$c;->a:Lcom/sdk/imp/InterstitialActivity;
 
     invoke-static {v0}, Lcom/sdk/imp/InterstitialActivity;->g(Lcom/sdk/imp/InterstitialActivity;)V
 
-    .line 7
     iget-object v0, p0, Lcom/sdk/imp/InterstitialActivity$c$a;->a:Lcom/sdk/imp/InterstitialActivity$c;
 
     iget-object v0, v0, Lcom/sdk/imp/InterstitialActivity$c;->a:Lcom/sdk/imp/InterstitialActivity;

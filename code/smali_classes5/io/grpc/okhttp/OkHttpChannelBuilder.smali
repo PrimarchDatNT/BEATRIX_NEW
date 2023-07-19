@@ -77,7 +77,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lio/grpc/okhttp/internal/a$b;
 
     sget-object v1, Lio/grpc/okhttp/internal/a;->f:Lio/grpc/okhttp/internal/a;
@@ -136,7 +135,6 @@
 
     aput-object v2, v1, v5
 
-    .line 2
     invoke-virtual {v0, v1}, Lio/grpc/okhttp/internal/a$b;->f([Lio/grpc/okhttp/internal/CipherSuite;)Lio/grpc/okhttp/internal/a$b;
 
     move-result-object v0
@@ -147,24 +145,20 @@
 
     aput-object v2, v1, v3
 
-    .line 3
     invoke-virtual {v0, v1}, Lio/grpc/okhttp/internal/a$b;->i([Lio/grpc/okhttp/internal/TlsVersion;)Lio/grpc/okhttp/internal/a$b;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0, v4}, Lio/grpc/okhttp/internal/a$b;->h(Z)Lio/grpc/okhttp/internal/a$b;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lio/grpc/okhttp/internal/a$b;->e()Lio/grpc/okhttp/internal/a;
 
     move-result-object v0
 
     sput-object v0, Lio/grpc/okhttp/OkHttpChannelBuilder;->h0:Lio/grpc/okhttp/internal/a;
 
-    .line 6
     sget-object v0, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x3e8
@@ -175,7 +169,6 @@
 
     sput-wide v0, Lio/grpc/okhttp/OkHttpChannelBuilder;->i0:J
 
-    .line 7
     new-instance v0, Lio/grpc/okhttp/OkHttpChannelBuilder$a;
 
     invoke-direct {v0}, Lio/grpc/okhttp/OkHttpChannelBuilder$a;-><init>()V
@@ -188,42 +181,34 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 2
 
-    .line 2
     invoke-direct {p0, p1}, Lio/grpc/internal/d;-><init>(Ljava/lang/String;)V
 
-    .line 3
     sget-object p1, Lio/grpc/okhttp/OkHttpChannelBuilder;->h0:Lio/grpc/okhttp/internal/a;
 
     iput-object p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->Y:Lio/grpc/okhttp/internal/a;
 
-    .line 4
     sget-object p1, Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;->TLS:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
 
     iput-object p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->Z:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
 
     const-wide v0, 0x7fffffffffffffffL
 
-    .line 5
     iput-wide v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->a0:J
 
-    .line 6
     sget-wide v0, Lio/grpc/internal/GrpcUtil;->y:J
 
     iput-wide v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->b0:J
 
     const p1, 0xffff
 
-    .line 7
     iput p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->c0:I
 
     const p1, 0x7fffffff
 
-    .line 8
     iput p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->e0:I
 
     const/4 p1, 0x0
 
-    .line 9
     iput-boolean p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->f0:Z
 
     return-void
@@ -232,7 +217,6 @@
 .method protected constructor <init>(Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Lio/grpc/internal/GrpcUtil;->b(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
@@ -245,7 +229,6 @@
 .method static synthetic C0()Lio/grpc/internal/v2$d;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/OkHttpChannelBuilder;->j0:Lio/grpc/internal/v2$d;
 
     return-object v0
@@ -254,7 +237,6 @@
 .method public static G0(Ljava/lang/String;I)Lio/grpc/okhttp/OkHttpChannelBuilder;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/okhttp/OkHttpChannelBuilder;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/okhttp/OkHttpChannelBuilder;-><init>(Ljava/lang/String;I)V
@@ -265,7 +247,6 @@
 .method public static forTarget(Ljava/lang/String;)Lio/grpc/okhttp/OkHttpChannelBuilder;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/okhttp/OkHttpChannelBuilder;
 
     invoke-direct {v0, p0}, Lio/grpc/okhttp/OkHttpChannelBuilder;-><init>(Ljava/lang/String;)V
@@ -278,7 +259,6 @@
 .method public final D0(Lcom/squareup/okhttp/ConnectionSpec;)Lio/grpc/okhttp/OkHttpChannelBuilder;
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lcom/squareup/okhttp/ConnectionSpec;->isTls()Z
 
     move-result v0
@@ -287,7 +267,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lio/grpc/okhttp/u;->c(Lcom/squareup/okhttp/ConnectionSpec;)Lio/grpc/okhttp/internal/a;
 
     move-result-object p1
@@ -305,7 +284,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/OkHttpChannelBuilder$b;->b:[I
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->Z:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
@@ -324,7 +302,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->W:Ljavax/net/ssl/SSLSocketFactory;
 
@@ -332,7 +309,6 @@
 
     const-string v0, "Default"
 
-    .line 3
     invoke-static {}, Lio/grpc/okhttp/internal/Platform;->g()Lio/grpc/okhttp/internal/Platform;
 
     move-result-object v1
@@ -345,14 +321,12 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Ljavax/net/ssl/SSLContext;->getSocketFactory()Ljavax/net/ssl/SSLSocketFactory;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->W:Ljavax/net/ssl/SSLSocketFactory;
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->W:Ljavax/net/ssl/SSLSocketFactory;
     :try_end_0
@@ -363,7 +337,6 @@
     :catch_0
     move-exception v0
 
-    .line 6
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "TLS Provider failure"
@@ -372,7 +345,6 @@
 
     throw v1
 
-    .line 7
     :cond_1
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -417,10 +389,8 @@
     :goto_0
     const-string v1, "flowControlWindow must be positive"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     iput p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->c0:I
 
     return-object p0
@@ -429,7 +399,6 @@
 .method public bridge synthetic G()Lio/grpc/x0;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/okhttp/OkHttpChannelBuilder;->P0()Lio/grpc/okhttp/OkHttpChannelBuilder;
 
     move-result-object v0
@@ -440,7 +409,6 @@
 .method public bridge synthetic H()Lio/grpc/x0;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/okhttp/OkHttpChannelBuilder;->Q0()Lio/grpc/okhttp/OkHttpChannelBuilder;
 
     move-result-object v0
@@ -455,7 +423,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->X:Ljavax/net/ssl/HostnameVerifier;
 
     return-object p0
@@ -480,24 +447,20 @@
     :goto_0
     const-string v1, "keepalive time must be positive"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p3, p1, p2}, Ljava/util/concurrent/TimeUnit;->toNanos(J)J
 
     move-result-wide p1
 
     iput-wide p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->a0:J
 
-    .line 3
     invoke-static {p1, p2}, Lio/grpc/internal/KeepAliveManager;->l(J)J
 
     move-result-wide p1
 
     iput-wide p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->a0:J
 
-    .line 4
     sget-wide v0, Lio/grpc/okhttp/OkHttpChannelBuilder;->i0:J
 
     cmp-long p3, p1, v0
@@ -506,7 +469,6 @@
 
     const-wide p1, 0x7fffffffffffffffL
 
-    .line 5
     iput-wide p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->a0:J
 
     :cond_1
@@ -532,17 +494,14 @@
     :goto_0
     const-string v1, "keepalive timeout must be positive"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p3, p1, p2}, Ljava/util/concurrent/TimeUnit;->toNanos(J)J
 
     move-result-wide p1
 
     iput-wide p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->b0:J
 
-    .line 3
     invoke-static {p1, p2}, Lio/grpc/internal/KeepAliveManager;->m(J)J
 
     move-result-wide p1
@@ -559,7 +518,6 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     iget-wide v1, v0, Lio/grpc/okhttp/OkHttpChannelBuilder;->a0:J
 
     const-wide v3, 0x7fffffffffffffffL
@@ -579,7 +537,6 @@
 
     const/4 v10, 0x0
 
-    .line 2
     :goto_0
     new-instance v1, Lio/grpc/okhttp/OkHttpChannelBuilder$c;
 
@@ -591,7 +548,6 @@
 
     iget-object v5, v0, Lio/grpc/okhttp/OkHttpChannelBuilder;->V:Ljavax/net/SocketFactory;
 
-    .line 3
     invoke-virtual/range {p0 .. p0}, Lio/grpc/okhttp/OkHttpChannelBuilder;->E0()Ljavax/net/ssl/SSLSocketFactory;
 
     move-result-object v6
@@ -600,7 +556,6 @@
 
     iget-object v8, v0, Lio/grpc/okhttp/OkHttpChannelBuilder;->Y:Lio/grpc/okhttp/internal/a;
 
-    .line 4
     invoke-virtual/range {p0 .. p0}, Lio/grpc/internal/d;->k0()I
 
     move-result v9
@@ -637,7 +592,6 @@
 .method public K0(Z)Lio/grpc/okhttp/OkHttpChannelBuilder;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->d0:Z
 
     return-object p0
@@ -658,10 +612,8 @@
     :goto_0
     const-string v1, "maxInboundMetadataSize must be > 0"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     iput p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->e0:I
 
     return-object p0
@@ -674,10 +626,8 @@
 
     const-string v0, "type"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     sget-object v0, Lio/grpc/okhttp/OkHttpChannelBuilder$b;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -694,14 +644,12 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     sget-object p1, Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;->PLAINTEXT:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
 
     iput-object p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->Z:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/lang/AssertionError;
 
@@ -723,7 +671,6 @@
 
     throw v0
 
-    .line 5
     :cond_1
     sget-object p1, Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;->TLS:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
 
@@ -738,7 +685,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/d;->y:Lio/grpc/internal/g3$b;
 
     return-object p0
@@ -751,7 +697,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->V:Ljavax/net/SocketFactory;
 
     return-object p0
@@ -760,7 +705,6 @@
 .method public final P0()Lio/grpc/okhttp/OkHttpChannelBuilder;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;->PLAINTEXT:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
 
     iput-object v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->Z:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
@@ -771,7 +715,6 @@
 .method public final Q0()Lio/grpc/okhttp/OkHttpChannelBuilder;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;->TLS:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
 
     iput-object v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->Z:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
@@ -782,7 +725,6 @@
 .method protected Y()I
     .locals 3
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/OkHttpChannelBuilder$b;->b:[I
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->Z:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
@@ -805,7 +747,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/AssertionError;
 
@@ -838,7 +779,6 @@
 .method public bridge synthetic q(JLjava/util/concurrent/TimeUnit;)Lio/grpc/x0;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lio/grpc/okhttp/OkHttpChannelBuilder;->I0(JLjava/util/concurrent/TimeUnit;)Lio/grpc/okhttp/OkHttpChannelBuilder;
 
     move-result-object p1
@@ -849,7 +789,6 @@
 .method public bridge synthetic r(JLjava/util/concurrent/TimeUnit;)Lio/grpc/x0;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lio/grpc/okhttp/OkHttpChannelBuilder;->J0(JLjava/util/concurrent/TimeUnit;)Lio/grpc/okhttp/OkHttpChannelBuilder;
 
     move-result-object p1
@@ -860,7 +799,6 @@
 .method public bridge synthetic s(Z)Lio/grpc/x0;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/okhttp/OkHttpChannelBuilder;->K0(Z)Lio/grpc/okhttp/OkHttpChannelBuilder;
 
     move-result-object p1
@@ -873,7 +811,6 @@
 
     const-string v0, "scheduledExecutorService"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -888,10 +825,8 @@
 .method public final sslSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)Lio/grpc/okhttp/OkHttpChannelBuilder;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->W:Ljavax/net/ssl/SSLSocketFactory;
 
-    .line 2
     sget-object p1, Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;->TLS:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
 
     iput-object p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->Z:Lio/grpc/okhttp/OkHttpChannelBuilder$NegotiationType;
@@ -906,7 +841,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder;->T:Ljava/util/concurrent/Executor;
 
     return-object p0
@@ -915,7 +849,6 @@
 .method public bridge synthetic v(I)Lio/grpc/x0;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/okhttp/OkHttpChannelBuilder;->L0(I)Lio/grpc/okhttp/OkHttpChannelBuilder;
 
     move-result-object p1

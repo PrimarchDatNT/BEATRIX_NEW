@@ -182,7 +182,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/JobSupport$children$1;->label:I
 
     const/4 v2, 0x2
@@ -223,7 +222,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -233,7 +231,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcotlinx/coroutines/JobSupport$children$1;->L$0:Ljava/lang/Object;
 
@@ -248,14 +245,12 @@
 
     iget-object p1, p0, Lcotlinx/coroutines/JobSupport$children$1;->p$:Lcotlin/sequences/o;
 
-    .line 4
     iget-object v1, p0, Lcotlinx/coroutines/JobSupport$children$1;->this$0:Lcotlinx/coroutines/JobSupport;
 
     invoke-virtual {v1}, Lcotlinx/coroutines/JobSupport;->D0()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 5
     instance-of v4, v1, Lcotlinx/coroutines/t;
 
     if-eqz v4, :cond_3
@@ -280,7 +275,6 @@
 
     return-object v0
 
-    .line 6
     :cond_3
     instance-of v4, v1, Lcotlinx/coroutines/w1;
 
@@ -296,7 +290,6 @@
 
     if-eqz v4, :cond_6
 
-    .line 7
     invoke-virtual {v4}, Lcotlinx/coroutines/internal/m;->P()Ljava/lang/Object;
 
     move-result-object v5
@@ -315,7 +308,6 @@
 
     move-object v5, v4
 
-    .line 8
     :goto_0
     invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -325,7 +317,6 @@
 
     if-eqz v8, :cond_6
 
-    .line 9
     instance-of v8, v1, Lcotlinx/coroutines/t;
 
     if-eqz v8, :cond_4
@@ -334,7 +325,6 @@
 
     check-cast v8, Lcotlinx/coroutines/t;
 
-    .line 10
     iget-object v9, v8, Lcotlinx/coroutines/t;->f:Lcotlinx/coroutines/u;
 
     iput-object v7, p1, Lcotlinx/coroutines/JobSupport$children$1;->L$0:Ljava/lang/Object;
@@ -359,7 +349,6 @@
 
     return-object v0
 
-    .line 11
     :cond_4
     :goto_1
     invoke-virtual {v1}, Lcotlinx/coroutines/internal/m;->Q()Lcotlinx/coroutines/internal/m;
@@ -368,7 +357,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_5
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -378,7 +366,6 @@
 
     throw p1
 
-    .line 13
     :cond_6
     :goto_2
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;

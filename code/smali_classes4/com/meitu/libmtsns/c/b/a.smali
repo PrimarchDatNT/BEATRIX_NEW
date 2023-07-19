@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,14 +19,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {p0, p1}, Lcom/meitu/secret/MtSecret;->ToolMtEncode(Ljava/lang/String;Z)Ljava/lang/String;
 
@@ -40,7 +37,6 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -50,7 +46,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

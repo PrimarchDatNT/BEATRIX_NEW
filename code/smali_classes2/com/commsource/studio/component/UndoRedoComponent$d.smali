@@ -67,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$d;->a:Lcom/commsource/studio/component/UndoRedoComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/component/UndoRedoComponent;->f(Lcom/commsource/studio/component/UndoRedoComponent;)Lcom/commsource/beautyplus/f0/m2;
@@ -92,7 +91,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/IconFrontView;->setClickable(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$d;->a:Lcom/commsource/studio/component/UndoRedoComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/component/UndoRedoComponent;->f(Lcom/commsource/studio/component/UndoRedoComponent;)Lcom/commsource/beautyplus/f0/m2;
@@ -129,7 +127,6 @@
     :goto_0
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$d;->a:Lcom/commsource/studio/component/UndoRedoComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/component/UndoRedoComponent;->f(Lcom/commsource/studio/component/UndoRedoComponent;)Lcom/commsource/beautyplus/f0/m2;
@@ -154,7 +151,6 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/widget/IconFrontView;->setClickable(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$d;->a:Lcom/commsource/studio/component/UndoRedoComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/component/UndoRedoComponent;->f(Lcom/commsource/studio/component/UndoRedoComponent;)Lcom/commsource/beautyplus/f0/m2;
@@ -185,7 +181,6 @@
     :goto_1
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -198,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/UndoRedoComponent$d;->a(Lcotlin/Pair;)V

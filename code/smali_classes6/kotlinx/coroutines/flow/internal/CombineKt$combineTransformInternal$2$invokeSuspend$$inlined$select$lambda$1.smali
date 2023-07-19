@@ -167,7 +167,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$1;->label:I
 
     const/4 v2, 0x1
@@ -180,7 +179,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -190,25 +188,21 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     iget-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$1;->p$0:Ljava/lang/Object;
 
-    .line 4
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$1;->$firstValue$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iput-object p1, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$1;->$secondValue$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iget-object v1, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     if-eqz v1, :cond_4
 
-    .line 6
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$1;->this$0:Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;
 
     iget-object v3, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$transform:Lcotlin/jvm/u/r;
@@ -245,7 +239,6 @@
     :cond_3
     move-object v6, v7
 
-    .line 7
     :goto_0
     iput-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$1;->L$0:Ljava/lang/Object;
 
@@ -259,7 +252,6 @@
 
     return-object v0
 
-    .line 8
     :cond_4
     :goto_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;

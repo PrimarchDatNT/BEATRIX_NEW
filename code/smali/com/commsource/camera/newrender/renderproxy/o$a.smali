@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/camera/newrender/renderproxy/o;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/o$a;->a:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +43,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, v0, Lcom/commsource/camera/newrender/renderproxy/o$a;->a:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-static {v2}, Lcom/commsource/camera/newrender/renderproxy/o;->u(Lcom/commsource/camera/newrender/renderproxy/o;)Lcom/meitu/core/MTRtEffectRender;
@@ -53,7 +51,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 2
     iget-object v2, v0, Lcom/commsource/camera/newrender/renderproxy/o$a;->a:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-static {v2}, Lcom/commsource/camera/newrender/renderproxy/o;->v(Lcom/commsource/camera/newrender/renderproxy/o;)Lcom/meitu/libmt3dface/MTFace2DInterface;
@@ -62,7 +59,6 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     iget-object v2, v0, Lcom/commsource/camera/newrender/renderproxy/o$a;->a:Lcom/commsource/camera/newrender/renderproxy/o;
 
     new-instance v3, Lcom/meitu/libmt3dface/MTFace2DInterface;
@@ -75,7 +71,6 @@
 
     invoke-static {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/o;->w(Lcom/commsource/camera/newrender/renderproxy/o;Lcom/meitu/libmt3dface/MTFace2DInterface;)Lcom/meitu/libmt3dface/MTFace2DInterface;
 
-    .line 4
     :cond_0
     iget-object v2, v0, Lcom/commsource/camera/newrender/renderproxy/o$a;->a:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -97,7 +92,6 @@
 
     move-result-object v2
 
-    .line 5
     iget-object v3, v0, Lcom/commsource/camera/newrender/renderproxy/o$a;->a:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-static {v3}, Lcom/commsource/camera/newrender/renderproxy/o;->v(Lcom/commsource/camera/newrender/renderproxy/o;)Lcom/meitu/libmt3dface/MTFace2DInterface;
@@ -116,7 +110,6 @@
 
     if-lez v5, :cond_1
 
-    .line 6
     iget-object v3, v0, Lcom/commsource/camera/newrender/renderproxy/o$a;->a:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-static {v3}, Lcom/commsource/camera/newrender/renderproxy/o;->u(Lcom/commsource/camera/newrender/renderproxy/o;)Lcom/meitu/core/MTRtEffectRender;
@@ -143,7 +136,6 @@
 
     const/4 v2, 0x1
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -151,7 +143,6 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 8
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -164,7 +155,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -179,7 +169,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -192,7 +181,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -205,7 +193,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

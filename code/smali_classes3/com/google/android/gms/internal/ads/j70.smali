@@ -13,7 +13,6 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/ug1;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/bp2;-><init>()V
 
     const/4 v0, 0x0
@@ -24,7 +23,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p1, Lcom/google/android/gms/internal/ads/ug1;->T:Ljava/lang/String;
 
@@ -33,7 +31,6 @@
 
     const-string v1, "com.google.android.gms.ads.mediation.customevent.CustomEventAdapter"
 
-    .line 3
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -42,7 +39,6 @@
 
     const-string v1, "com.google.ads.mediation.customevent.CustomEventAdapter"
 
-    .line 4
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -63,7 +59,6 @@
     :goto_2
     if-eqz v1, :cond_3
 
-    .line 5
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/j70;->J5(Lcom/google/android/gms/internal/ads/ug1;)Ljava/lang/String;
 
     move-result-object v0
@@ -76,7 +71,6 @@
     :cond_4
     move-object p2, v0
 
-    .line 6
     :goto_3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/j70;->b:Ljava/lang/String;
 
@@ -86,7 +80,6 @@
 .method private static J5(Lcom/google/android/gms/internal/ads/ug1;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/ug1;->s:Lorg/json/JSONObject;
 
@@ -111,7 +104,6 @@
 .method public final e9()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j70;->c:Ljava/lang/String;
 
     return-object v0
@@ -120,7 +112,6 @@
 .method public final f()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j70;->b:Ljava/lang/String;
 
     return-object v0

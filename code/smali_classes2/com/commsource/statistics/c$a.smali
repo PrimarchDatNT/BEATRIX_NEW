@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -49,7 +48,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -75,14 +73,11 @@
     :cond_0
     const-string v2, "onAppOpenAttribution: null"
 
-    .line 2
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :goto_0
     sput-object p1, Lcom/commsource/statistics/c;->c:Ljava/util/Map;
 
-    .line 4
     invoke-static {}, Lorg/greenrobot/eventbus/c;->g()Lorg/greenrobot/eventbus/c;
 
     move-result-object p1
@@ -93,7 +88,6 @@
 
     invoke-virtual {p1, v1}, Lorg/greenrobot/eventbus/c;->q(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -106,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -125,7 +118,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -138,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -157,7 +148,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -183,7 +173,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -209,14 +198,11 @@
     :cond_0
     const-string v2, "onInstallConversionDataLoaded: null"
 
-    .line 2
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :goto_0
     sput-object p1, Lcom/commsource/statistics/c;->b:Ljava/util/Map;
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/util/b2;->b(Ljava/util/Map;)Ljava/lang/String;
 
     move-result-object p1
@@ -227,7 +213,6 @@
 
     invoke-static {p1, v1, v2}, Lf/d/i/o;->N0(Ljava/lang/String;J)V
 
-    .line 5
     invoke-static {}, Lorg/greenrobot/eventbus/c;->g()Lorg/greenrobot/eventbus/c;
 
     move-result-object p1
@@ -238,7 +223,6 @@
 
     invoke-virtual {p1, v1}, Lorg/greenrobot/eventbus/c;->q(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

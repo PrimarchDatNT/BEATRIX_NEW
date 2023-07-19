@@ -13,7 +13,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/round/RoundIconfontTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -24,7 +23,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/round/RoundIconfontTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -33,10 +31,8 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/IconFrontView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 4
     new-instance p3, Lcom/commsource/widget/round/a;
 
     invoke-direct {p3, p0, p1, p2}, Lcom/commsource/widget/round/a;-><init>(Landroid/view/View;Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -55,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/round/RoundIconfontTextView;->K:Lcom/commsource/widget/round/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -70,10 +65,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super/range {p0 .. p5}, Landroidx/appcompat/widget/AppCompatTextView;->onLayout(ZIIII)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/round/RoundIconfontTextView;->K:Lcom/commsource/widget/round/a;
 
     invoke-virtual {p1}, Lcom/commsource/widget/round/a;->n()Z
@@ -82,7 +75,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/round/RoundIconfontTextView;->K:Lcom/commsource/widget/round/a;
 
     invoke-virtual {p0}, Landroid/widget/TextView;->getHeight()I
@@ -95,13 +87,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/widget/round/RoundIconfontTextView;->K:Lcom/commsource/widget/round/a;
 
     invoke-virtual {p1}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -115,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/round/RoundIconfontTextView;->K:Lcom/commsource/widget/round/a;
 
     invoke-virtual {v1}, Lcom/commsource/widget/round/a;->o()Z
@@ -136,7 +125,6 @@
 
     if-lez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/TextView;->getWidth()I
 
     move-result p1
@@ -151,24 +139,19 @@
 
     const/high16 p2, 0x40000000    # 2.0f
 
-    .line 3
     invoke-static {p1, p2}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result p1
 
-    .line 4
     invoke-super {p0, p1, p1}, Landroidx/appcompat/widget/AppCompatTextView;->onMeasure(II)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;->onMeasure(II)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v1
@@ -53,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v1
@@ -80,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v1
@@ -107,12 +103,10 @@
 
     const-string v1, "\n"
 
-    .line 1
     invoke-virtual {p0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -121,7 +115,6 @@
 
     if-le v1, v3, :cond_0
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -142,20 +135,17 @@
 
     return-object p0
 
-    .line 4
     :cond_0
     array-length v1, p0
 
     if-ne v1, v3, :cond_1
 
-    .line 5
     aget-object p0, p0, v2
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -173,7 +163,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1}, Lcom/meitu/library/analytics/y/o/w;->f([Ljava/lang/StackTraceElement;I)Ljava/lang/String;
 
     move-result-object p0
@@ -190,26 +179,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     :goto_0
     array-length v2, p0
 
     if-ge p1, v2, :cond_0
 
-    .line 3
     aget-object v2, p0, p1
 
     invoke-virtual {v2}, Ljava/lang/StackTraceElement;->toString()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "\n"
@@ -220,7 +205,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -235,7 +219,6 @@
     :catch_0
     const/4 p0, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -248,12 +231,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     array-length v2, p0
 
     const/4 v3, 0x0
@@ -263,7 +244,6 @@
 
     aget-object v4, p0, v3
 
-    .line 3
     invoke-virtual {v4}, Ljava/lang/StackTraceElement;->toString()Ljava/lang/String;
 
     move-result-object v4
@@ -278,7 +258,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 

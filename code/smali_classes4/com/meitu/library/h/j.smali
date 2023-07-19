@@ -35,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/h/j;
 
     invoke-direct {v1}, Lcom/meitu/library/h/j;-><init>()V
@@ -50,7 +49,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/h/f;-><init>()V
 
     return-void
@@ -63,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Lcom/meitu/library/g/f;
 
@@ -95,19 +92,16 @@
 
     const/4 v7, 0x0
 
-    .line 2
     invoke-static/range {v2 .. v7}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "gpu_level_mapping.json"
 
-    .line 3
     invoke-static {p1, v2}, Lcom/meitu/library/devicelevellib/utils/a;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 4
     invoke-direct {p0, v1, p1}, Lcom/meitu/library/h/j;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p1
@@ -116,7 +110,6 @@
 
     return p1
 
-    .line 5
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -133,7 +126,6 @@
     :catch_0
     const/4 p1, 0x4
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -150,7 +142,6 @@
 
     if-eqz p1, :cond_b
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object p1
@@ -177,7 +168,6 @@
 
     const/4 v5, 0x2
 
-    .line 2
     invoke-static {p1, v3, v4, v5, v2}, Lcotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     move-result v2
@@ -192,7 +182,6 @@
 
     const-string v2, "MTK\\s?([A-Z]?\\d+)"
 
-    .line 3
     invoke-static {v2}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v2
@@ -201,7 +190,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v2
@@ -214,7 +202,6 @@
 
     if-lt v2, v7, :cond_6
 
-    .line 5
     invoke-virtual {p1, v7}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object p1
@@ -238,7 +225,6 @@
     :cond_1
     const-string v2, "(MSM|SDM|APQ|MT|EXYNOS|UNIVERSAL|KIRIN|HI|SC)\\s?(\\d+)[_]?(\\w+)?"
 
-    .line 6
     invoke-static {v2}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v2
@@ -247,7 +233,6 @@
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v2
@@ -260,7 +245,6 @@
 
     if-lt v2, v5, :cond_6
 
-    .line 8
     invoke-virtual {p1, v7}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v2
@@ -272,7 +256,6 @@
     :cond_2
     move-object v2, v8
 
-    .line 9
     :goto_1
     invoke-virtual {p1, v5}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
@@ -288,7 +271,6 @@
     :goto_2
     const-string v9, "UNIVERSAL"
 
-    .line 10
     invoke-static {v2, v9}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v9
@@ -297,7 +279,6 @@
 
     const-string v2, "EXYNOS"
 
-    .line 11
     :cond_4
     invoke-virtual {p1}, Ljava/util/regex/Matcher;->groupCount()I
 
@@ -305,7 +286,6 @@
 
     if-lt v9, v6, :cond_5
 
-    .line 12
     invoke-virtual {p1, v6}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object p1
@@ -333,7 +313,6 @@
 
     if-eqz v3, :cond_9
 
-    .line 13
     invoke-virtual {v3}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v3
@@ -395,7 +374,6 @@
 
     throw p1
 
-    .line 14
     :cond_a
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -424,7 +402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v1
@@ -443,7 +420,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -467,7 +443,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -485,12 +460,10 @@
 
     if-le p1, v1, :cond_0
 
-    .line 1
     div-int/lit8 p1, p1, 0xa
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -504,7 +477,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Lcotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -513,14 +485,12 @@
 
     if-nez v1, :cond_8
 
-    .line 2
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1, p2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
     const-string p2, "low"
 
-    .line 3
     invoke-virtual {v1, p2}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p2
@@ -537,7 +507,6 @@
 
     const-string v4, "mid"
 
-    .line 4
     invoke-virtual {v1, v4}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v4
@@ -552,7 +521,6 @@
 
     const-string v5, "high"
 
-    .line 5
     invoke-virtual {v1, v5}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v5
@@ -567,7 +535,6 @@
 
     const-string v6, "vhigh"
 
-    .line 6
     invoke-virtual {v1, v6}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
@@ -580,7 +547,6 @@
 
     move-result-object v1
 
-    .line 7
     invoke-interface {p2, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result p2
@@ -591,7 +557,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-interface {v4, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
@@ -603,7 +568,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-interface {v5, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
@@ -615,7 +579,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-interface {v1, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
@@ -625,14 +588,12 @@
 
     const/4 v2, 0x3
 
-    .line 11
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 12
     :cond_4
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -642,7 +603,6 @@
 
     throw p1
 
-    .line 13
     :cond_5
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -652,7 +612,6 @@
 
     throw p1
 
-    .line 14
     :cond_6
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -662,7 +621,6 @@
 
     throw p1
 
-    .line 15
     :cond_7
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -672,7 +630,6 @@
 
     throw p1
 
-    .line 16
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -686,7 +643,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/g/b;
 
     invoke-direct {v1}, Lcom/meitu/library/g/b;-><init>()V
@@ -695,7 +651,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/meitu/library/g/e;
 
     invoke-direct {v2, p1}, Lcom/meitu/library/g/e;-><init>(Landroid/content/Context;)V
@@ -704,17 +659,14 @@
 
     move-result-object v2
 
-    .line 3
     sget-object v3, Landroid/os/Build;->HARDWARE:Ljava/lang/String;
 
-    .line 4
     invoke-static {v1}, Lcotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-nez v4, :cond_0
 
-    .line 5
     invoke-direct {p0, v1}, Lcom/meitu/library/h/j;->B(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v1
@@ -731,7 +683,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     aget-object v6, v1, v5
 
     invoke-interface {v6}, Ljava/lang/CharSequence;->length()I
@@ -775,7 +726,6 @@
 
     const-string v1, "board"
 
-    .line 7
     invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v2}, Lcom/meitu/library/h/j;->B(Ljava/lang/String;)[Ljava/lang/String;
@@ -785,7 +735,6 @@
     :cond_5
     if-eqz v1, :cond_7
 
-    .line 8
     aget-object v2, v1, v5
 
     invoke-interface {v2}, Ljava/lang/CharSequence;->length()I
@@ -829,7 +778,6 @@
 
     const-string v1, "hardware"
 
-    .line 9
     invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v3}, Lcom/meitu/library/h/j;->B(Ljava/lang/String;)[Ljava/lang/String;
@@ -841,7 +789,6 @@
 
     if-eqz v1, :cond_10
 
-    .line 10
     aget-object v3, v1, v5
 
     invoke-interface {v3}, Ljava/lang/CharSequence;->length()I
@@ -865,30 +812,25 @@
     :cond_c
     const-string v3, "cpu_level_mapping.json"
 
-    .line 11
     invoke-static {p1, v3}, Lcom/meitu/library/devicelevellib/utils/a;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 12
     invoke-static {p1}, Lcotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-eqz v3, :cond_d
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 14
     :cond_d
     invoke-static {p1}, Lcom/meitu/library/devicelevellib/utils/b;->a(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 15
     aget-object v3, v1, v4
 
     aget-object v6, v1, v5
@@ -903,10 +845,8 @@
 
     if-ne v3, v2, :cond_e
 
-    .line 16
     invoke-virtual {p0, v7}, Lcom/meitu/library/h/f;->t(I)V
 
-    .line 17
     aget-object v3, v1, v4
 
     aget-object v4, v1, v5
@@ -919,28 +859,23 @@
 
     if-eq v3, v2, :cond_f
 
-    .line 18
     invoke-virtual {p0, v7}, Lcom/meitu/library/h/f;->u(I)V
 
     goto :goto_8
 
-    .line 19
     :cond_e
     invoke-virtual {p0, v4}, Lcom/meitu/library/h/f;->t(I)V
 
-    .line 20
     :cond_f
     :goto_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 21
     :cond_10
     :goto_9
     invoke-virtual {p0, v5}, Lcom/meitu/library/h/f;->t(I)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -968,7 +903,6 @@
     :cond_0
     const/4 p1, 0x4
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -993,7 +927,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1006,7 +939,6 @@
 
     move-result-object p1
 
-    .line 2
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1019,7 +951,6 @@
 
     move-result-object p2
 
-    .line 3
     invoke-interface {p4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p3
@@ -1042,7 +973,6 @@
 
     check-cast v2, Lcom/meitu/library/h/n/a;
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -1063,7 +993,6 @@
 
     move-result-object v3
 
-    .line 5
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -1080,21 +1009,18 @@
 
     move-result-object v4
 
-    .line 6
     invoke-static {v4, p2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 7
     invoke-virtual {v2}, Lcom/meitu/library/h/n/a;->i()I
 
     move-result p1
 
     goto :goto_1
 
-    .line 8
     :cond_1
     invoke-static {v3, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1108,7 +1034,6 @@
 
     if-le v3, v1, :cond_0
 
-    .line 9
     invoke-virtual {v2}, Lcom/meitu/library/h/n/a;->i()I
 
     move-result v1
@@ -1123,7 +1048,6 @@
 
     const/4 p2, 0x0
 
-    .line 10
     invoke-virtual {p0, p2}, Lcom/meitu/library/h/f;->u(I)V
 
     move v1, p1
@@ -1135,7 +1059,6 @@
 
     const/4 p1, 0x1
 
-    .line 11
     invoke-virtual {p0, p1}, Lcom/meitu/library/h/f;->u(I)V
 
     goto :goto_2
@@ -1143,7 +1066,6 @@
     :cond_4
     const/4 v1, 0x4
 
-    .line 12
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1170,7 +1092,6 @@
 
     const-string v1, "sdm"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -1181,7 +1102,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {p2}, Lcotlin/text/m;->X0(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object p2
@@ -1192,19 +1112,16 @@
 
     move-result p2
 
-    .line 3
     sget-object p3, Lcom/meitu/library/h/j;->m:Lcom/meitu/library/h/j;
 
     invoke-direct {p3, p2}, Lcom/meitu/library/h/j;->D(I)I
 
     move-result p3
 
-    .line 4
     new-instance v1, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v1}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
-    .line 5
     invoke-interface {p4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p4
@@ -1223,7 +1140,6 @@
 
     check-cast v4, Lcom/meitu/library/h/n/a;
 
-    .line 6
     invoke-virtual {v4}, Lcom/meitu/library/h/n/a;->l()Ljava/lang/String;
 
     move-result-object v5
@@ -1232,7 +1148,6 @@
 
     move-result-object v5
 
-    .line 7
     invoke-virtual {v4}, Lcom/meitu/library/h/n/a;->h()Ljava/lang/String;
 
     move-result-object v6
@@ -1245,7 +1160,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 8
     invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
 
     move-result v6
@@ -1258,7 +1172,6 @@
 
     sget-object v6, Lcom/meitu/library/h/j;->m:Lcom/meitu/library/h/j;
 
-    .line 9
     invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
 
     move-result v7
@@ -1269,7 +1182,6 @@
 
     if-ne p3, v6, :cond_0
 
-    .line 10
     invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
 
     move-result v5
@@ -1284,7 +1196,6 @@
 
     if-ge v5, v2, :cond_0
 
-    .line 11
     invoke-virtual {v4}, Lcom/meitu/library/h/n/a;->i()I
 
     move-result v2
@@ -1298,14 +1209,12 @@
     :cond_1
     const-string v1, "hi"
 
-    .line 12
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    .line 13
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1320,7 +1229,6 @@
 
     move-result-object p1
 
-    .line 14
     invoke-interface {p4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -1338,7 +1246,6 @@
 
     check-cast p3, Lcom/meitu/library/h/n/a;
 
-    .line 15
     invoke-virtual {p3}, Lcom/meitu/library/h/n/a;->l()Ljava/lang/String;
 
     move-result-object p4
@@ -1349,12 +1256,10 @@
 
     if-eqz p4, :cond_2
 
-    .line 16
     invoke-virtual {p3}, Lcom/meitu/library/h/n/a;->i()I
 
     move-result p1
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1362,7 +1267,6 @@
     :cond_3
     const-string p3, "mtk"
 
-    .line 18
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -1389,24 +1293,20 @@
     :goto_1
     if-eqz p1, :cond_7
 
-    .line 19
     invoke-virtual {p2, v1}, Ljava/lang/String;->charAt(I)C
 
     move-result p1
 
-    .line 20
     invoke-direct {p0, p2}, Lcom/meitu/library/h/j;->C(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object p2
 
-    .line 21
     new-instance v4, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v4}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
     if-eqz p2, :cond_7
 
-    .line 22
     invoke-interface {p4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p4
@@ -1425,7 +1325,6 @@
 
     check-cast v5, Lcom/meitu/library/h/n/a;
 
-    .line 23
     invoke-virtual {v5}, Lcom/meitu/library/h/n/a;->h()Ljava/lang/String;
 
     move-result-object v6
@@ -1438,7 +1337,6 @@
 
     if-eqz v6, :cond_5
 
-    .line 24
     invoke-virtual {v5}, Lcom/meitu/library/h/n/a;->l()Ljava/lang/String;
 
     move-result-object v6
@@ -1459,7 +1357,6 @@
     :goto_3
     if-eqz v6, :cond_5
 
-    .line 25
     invoke-virtual {v5}, Lcom/meitu/library/h/n/a;->l()Ljava/lang/String;
 
     move-result-object v6
@@ -1470,7 +1367,6 @@
 
     if-ne p1, v6, :cond_5
 
-    .line 26
     sget-object v6, Lcom/meitu/library/h/j;->m:Lcom/meitu/library/h/j;
 
     invoke-virtual {v5}, Lcom/meitu/library/h/n/a;->l()Ljava/lang/String;
@@ -1483,10 +1379,8 @@
 
     if-eqz v6, :cond_5
 
-    .line 27
     invoke-virtual {v6}, Ljava/lang/Number;->intValue()I
 
-    .line 28
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
     move-result v7
@@ -1505,7 +1399,6 @@
 
     if-ge v6, v2, :cond_5
 
-    .line 29
     invoke-virtual {v5}, Lcom/meitu/library/h/n/a;->i()I
 
     move-result v2
@@ -1516,7 +1409,6 @@
 
     goto :goto_2
 
-    .line 30
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1542,7 +1434,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/h/j;->w(Landroid/content/Context;)I
 
     move-result v1
@@ -1551,20 +1442,17 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/library/h/j;->A(Landroid/content/Context;)I
 
     move-result v1
 
     const/4 p1, 0x3
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/meitu/library/h/f;->u(I)V
 
     :cond_0
     if-ne v1, v2, :cond_1
 
-    .line 4
     new-instance p1, Lcom/meitu/library/g/b;
 
     invoke-direct {p1}, Lcom/meitu/library/g/b;-><init>()V
@@ -1587,10 +1475,8 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 5
     invoke-virtual {p0, v2}, Lcom/meitu/library/h/f;->u(I)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

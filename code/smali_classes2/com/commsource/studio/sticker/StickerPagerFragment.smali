@@ -31,10 +31,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/sticker/StickerPagerFragment$mViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/sticker/StickerPagerFragment$mViewModel$2;-><init>(Lcom/commsource/studio/sticker/StickerPagerFragment;)V
@@ -45,7 +43,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->g:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/sticker/StickerPagerFragment$tracker$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/sticker/StickerPagerFragment$tracker$2;-><init>(Lcom/commsource/studio/sticker/StickerPagerFragment;)V
@@ -66,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerPagerFragment;->D()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object p0
@@ -83,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -98,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->d:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->f:Lcom/meitu/template/bean/StickerGroup;
 
     const/4 v2, 0x0
@@ -156,7 +149,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v5
@@ -193,7 +185,6 @@
 
     if-ne v5, v6, :cond_4
 
-    .line 3
     iget-object v5, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->c:Lcom/commsource/beautyplus/f0/qa;
 
     if-nez v5, :cond_3
@@ -209,7 +200,6 @@
 
     goto :goto_3
 
-    .line 4
     :cond_4
     iget-object v5, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->c:Lcom/commsource/beautyplus/f0/qa;
 
@@ -224,7 +214,6 @@
 
     invoke-static {v5}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 5
     :goto_3
     invoke-virtual {p0}, Lcom/commsource/studio/sticker/StickerPagerFragment;->F()Lcom/commsource/util/h1;
 
@@ -245,7 +234,6 @@
 
     invoke-virtual {v5, v7}, Lcom/commsource/util/h1;->f(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    .line 6
     new-instance v5, Lcom/commsource/widget/h1/e;
 
     iget-object v7, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -254,7 +242,6 @@
 
     iput-object v5, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->d:Lcom/commsource/widget/h1/e;
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->f:Lcom/meitu/template/bean/StickerGroup;
 
     const/4 v7, -0x2
@@ -283,7 +270,6 @@
     :cond_8
     const/4 v3, 0x0
 
-    .line 8
     :cond_9
     :goto_4
     iget-object v5, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->c:Lcom/commsource/beautyplus/f0/qa;
@@ -305,17 +291,14 @@
 
     invoke-direct {v6, v10, v11}, Landroidx/recyclerview/widget/GridLayoutManager;-><init>(Landroid/content/Context;I)V
 
-    .line 9
     new-instance v10, Lcom/commsource/studio/sticker/StickerPagerFragment$a;
 
     invoke-direct {v10, v3, v1}, Lcom/commsource/studio/sticker/StickerPagerFragment$a;-><init>(ZLjava/util/ArrayList;)V
 
     invoke-virtual {v6, v10}, Landroidx/recyclerview/widget/GridLayoutManager;->setSpanSizeLookup(Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;)V
 
-    .line 10
     invoke-virtual {v5, v6}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 11
     iget-object v5, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->c:Lcom/commsource/beautyplus/f0/qa;
 
     if-nez v5, :cond_b
@@ -341,7 +324,6 @@
     :goto_5
     invoke-virtual {v5, v6}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 12
     iget-object v5, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->c:Lcom/commsource/beautyplus/f0/qa;
 
     if-nez v5, :cond_d
@@ -364,12 +346,10 @@
     :cond_e
     invoke-virtual {v5, v6}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 13
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v5
 
-    .line 14
     iget-object v6, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->f:Lcom/meitu/template/bean/StickerGroup;
 
     if-eqz v6, :cond_f
@@ -380,7 +360,6 @@
 
     if-ne v6, v7, :cond_f
 
-    .line 15
     new-instance v6, Lcom/commsource/studio/sticker/f;
 
     sget v7, Lcom/res/provider/ResDRAWABLE;->edit_sticker_icon_custom:I
@@ -395,7 +374,6 @@
 
     invoke-virtual {v5, v6, v7}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
-    .line 16
     :cond_f
     const-class v6, Lcom/commsource/studio/sticker/l;
 
@@ -405,7 +383,6 @@
 
     if-eqz v3, :cond_11
 
-    .line 17
     new-instance v3, Lcom/commsource/studio/sticker/c;
 
     iget-object v5, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->f:Lcom/meitu/template/bean/StickerGroup;
@@ -427,7 +404,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
-    .line 18
     :cond_11
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->d:Lcom/commsource/widget/h1/e;
 
@@ -442,7 +418,6 @@
 
     invoke-virtual {v2, v1, v4}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->d:Lcom/commsource/widget/h1/e;
 
     if-nez v1, :cond_13
@@ -458,7 +433,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->d:Lcom/commsource/widget/h1/e;
 
     if-nez v1, :cond_14
@@ -474,7 +448,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 21
     new-instance v1, Lcom/commsource/util/v1;
 
     invoke-direct {v1}, Lcom/commsource/util/v1;-><init>()V
@@ -500,7 +473,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/v1;->g(Lcotlin/jvm/u/l;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -513,7 +485,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerPagerFragment;->D()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v1
@@ -536,7 +507,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -549,7 +519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -564,7 +533,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->d:Lcom/commsource/widget/h1/e;
 
     if-nez p0, :cond_0
@@ -590,7 +558,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->f:Lcom/meitu/template/bean/StickerGroup;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -640,7 +607,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerPagerFragment;->f:Lcom/meitu/template/bean/StickerGroup;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -655,10 +621,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->m()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/sticker/StickerPagerFragment;->F()Lcom/commsource/util/h1;
 
     move-result-object v1
@@ -680,7 +644,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/h1;->g(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -711,7 +674,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/qa;->c(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/qa;
 
     move-result-object p1
@@ -726,7 +688,6 @@
 
     const-string p3, "mViewBinding"
 
-    .line 2
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -774,16 +735,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerPagerFragment;->G()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerPagerFragment;->H()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

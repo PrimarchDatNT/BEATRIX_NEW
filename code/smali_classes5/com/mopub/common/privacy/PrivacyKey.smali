@@ -58,7 +58,6 @@
 .method static constructor <clinit>()V
     .locals 18
 
-    .line 1
     new-instance v0, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v1, "IS_GDPR_REGION"
@@ -71,7 +70,6 @@
 
     sput-object v0, Lcom/mopub/common/privacy/PrivacyKey;->IS_GDPR_REGION:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v3, "IS_WHITELISTED"
@@ -84,7 +82,6 @@
 
     sput-object v1, Lcom/mopub/common/privacy/PrivacyKey;->IS_WHITELISTED:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 3
     new-instance v3, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v5, "FORCE_GDPR_APPLIES"
@@ -97,7 +94,6 @@
 
     sput-object v3, Lcom/mopub/common/privacy/PrivacyKey;->FORCE_GDPR_APPLIES:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 4
     new-instance v5, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v7, "FORCE_EXPLICIT_NO"
@@ -110,7 +106,6 @@
 
     sput-object v5, Lcom/mopub/common/privacy/PrivacyKey;->FORCE_EXPLICIT_NO:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 5
     new-instance v7, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v9, "INVALIDATE_CONSENT"
@@ -123,7 +118,6 @@
 
     sput-object v7, Lcom/mopub/common/privacy/PrivacyKey;->INVALIDATE_CONSENT:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 6
     new-instance v9, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v11, "REACQUIRE_CONSENT"
@@ -136,7 +130,6 @@
 
     sput-object v9, Lcom/mopub/common/privacy/PrivacyKey;->REACQUIRE_CONSENT:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 7
     new-instance v11, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v13, "EXTRAS"
@@ -149,7 +142,6 @@
 
     sput-object v11, Lcom/mopub/common/privacy/PrivacyKey;->EXTRAS:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 8
     new-instance v13, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v15, "CURRENT_VENDOR_LIST_VERSION"
@@ -162,7 +154,6 @@
 
     sput-object v13, Lcom/mopub/common/privacy/PrivacyKey;->CURRENT_VENDOR_LIST_VERSION:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 9
     new-instance v12, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v15, "CURRENT_VENDOR_LIST_LINK"
@@ -175,7 +166,6 @@
 
     sput-object v12, Lcom/mopub/common/privacy/PrivacyKey;->CURRENT_VENDOR_LIST_LINK:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 10
     new-instance v10, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v15, "CURRENT_PRIVACY_POLICY_VERSION"
@@ -188,7 +178,6 @@
 
     sput-object v10, Lcom/mopub/common/privacy/PrivacyKey;->CURRENT_PRIVACY_POLICY_VERSION:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 11
     new-instance v8, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v15, "CURRENT_PRIVACY_POLICY_LINK"
@@ -201,7 +190,6 @@
 
     sput-object v8, Lcom/mopub/common/privacy/PrivacyKey;->CURRENT_PRIVACY_POLICY_LINK:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 12
     new-instance v6, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v15, "CURRENT_VENDOR_LIST_IAB_FORMAT"
@@ -214,7 +202,6 @@
 
     sput-object v6, Lcom/mopub/common/privacy/PrivacyKey;->CURRENT_VENDOR_LIST_IAB_FORMAT:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 13
     new-instance v4, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v15, "CURRENT_VENDOR_LIST_IAB_HASH"
@@ -227,7 +214,6 @@
 
     sput-object v4, Lcom/mopub/common/privacy/PrivacyKey;->CURRENT_VENDOR_LIST_IAB_HASH:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 14
     new-instance v2, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v15, "CALL_AGAIN_AFTER_SECS"
@@ -242,7 +228,6 @@
 
     sput-object v2, Lcom/mopub/common/privacy/PrivacyKey;->CALL_AGAIN_AFTER_SECS:Lcom/mopub/common/privacy/PrivacyKey;
 
-    .line 15
     new-instance v4, Lcom/mopub/common/privacy/PrivacyKey;
 
     const-string v15, "CONSENT_CHANGE_REASON"
@@ -319,7 +304,6 @@
 
     aput-object v4, v2, v14
 
-    .line 16
     sput-object v2, Lcom/mopub/common/privacy/PrivacyKey;->$VALUES:[Lcom/mopub/common/privacy/PrivacyKey;
 
     return-void
@@ -339,10 +323,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/common/privacy/PrivacyKey;->key:Ljava/lang/String;
 
     return-void
@@ -351,7 +333,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/privacy/PrivacyKey;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/privacy/PrivacyKey;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -366,7 +347,6 @@
 .method public static values()[Lcom/mopub/common/privacy/PrivacyKey;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/privacy/PrivacyKey;->$VALUES:[Lcom/mopub/common/privacy/PrivacyKey;
 
     invoke-virtual {v0}, [Lcom/mopub/common/privacy/PrivacyKey;->clone()Ljava/lang/Object;
@@ -385,7 +365,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PrivacyKey;->key:Ljava/lang/String;
 
     return-object v0

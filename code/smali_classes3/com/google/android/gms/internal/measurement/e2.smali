@@ -30,15 +30,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
 
     const-string p2, "The referent cannot be null"
 
-    .line 2
     invoke-static {p1, p2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {p1}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result p1
@@ -57,7 +54,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -75,11 +71,9 @@
 
     return v1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/internal/measurement/e2;
 
-    .line 3
     iget v2, p0, Lcom/google/android/gms/internal/measurement/e2;->a:I
 
     iget v3, p1, Lcom/google/android/gms/internal/measurement/e2;->a:I
@@ -106,7 +100,6 @@
 .method public final hashCode()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/measurement/e2;->a:I
 
     return v0

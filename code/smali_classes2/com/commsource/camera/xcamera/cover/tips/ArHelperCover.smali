@@ -33,10 +33,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$arViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$arViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;)V
@@ -47,7 +45,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->d:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$bpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;)V
@@ -58,7 +55,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->f:Lcotlin/w;
 
-    .line 4
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -79,7 +75,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->I()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object p0
@@ -96,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->g:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -111,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->K(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -168,19 +161,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1}, Ljava/lang/StringBuffer;-><init>()V
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 3
     :try_start_0
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
@@ -191,12 +181,10 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 5
     :cond_0
     :try_start_1
     new-instance v3, Ljava/io/FileInputStream;
@@ -206,7 +194,6 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_4
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
-    .line 6
     :try_start_2
     new-instance v2, Ljava/io/InputStreamReader;
 
@@ -219,7 +206,6 @@
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_3
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 7
     :try_start_3
     new-instance v4, Ljava/io/BufferedReader;
 
@@ -228,7 +214,6 @@
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_2
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 8
     :goto_0
     :try_start_4
     invoke-virtual {v4}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -237,26 +222,21 @@
 
     if-eqz p1, :cond_1
 
-    .line 9
     invoke-virtual {v1, p1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     goto :goto_0
 
-    .line 10
     :cond_1
     invoke-virtual {v4}, Ljava/io/BufferedReader;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_1
     .catchall {:try_start_4 .. :try_end_4} :catchall_3
 
-    .line 11
     :try_start_5
     invoke-virtual {v4}, Ljava/io/BufferedReader;->close()V
 
-    .line 12
     invoke-virtual {v2}, Ljava/io/InputStreamReader;->close()V
 
-    .line 13
     invoke-virtual {v3}, Ljava/io/FileInputStream;->close()V
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_0
@@ -266,7 +246,6 @@
     :catch_0
     move-exception p1
 
-    .line 14
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     goto :goto_4
@@ -336,7 +315,6 @@
 
     move-object v2, v4
 
-    .line 15
     :goto_3
     :try_start_6
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
@@ -345,25 +323,21 @@
 
     if-eqz v4, :cond_2
 
-    .line 16
     :try_start_7
     invoke-virtual {v4}, Ljava/io/BufferedReader;->close()V
 
     :cond_2
     if-eqz v2, :cond_3
 
-    .line 17
     invoke-virtual {v2}, Ljava/io/InputStreamReader;->close()V
 
     :cond_3
     if-eqz v3, :cond_4
 
-    .line 18
     invoke-virtual {v3}, Ljava/io/FileInputStream;->close()V
     :try_end_7
     .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_0
 
-    .line 19
     :cond_4
     :goto_4
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
@@ -380,7 +354,6 @@
     :goto_5
     if-eqz v4, :cond_5
 
-    .line 20
     :try_start_8
     invoke-virtual {v4}, Ljava/io/BufferedReader;->close()V
 
@@ -395,24 +368,20 @@
     :goto_6
     if-eqz v2, :cond_6
 
-    .line 21
     invoke-virtual {v2}, Ljava/io/InputStreamReader;->close()V
 
     :cond_6
     if-eqz v3, :cond_7
 
-    .line 22
     invoke-virtual {v3}, Ljava/io/FileInputStream;->close()V
     :try_end_8
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_5
 
     goto :goto_8
 
-    .line 23
     :goto_7
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 24
     :cond_7
     :goto_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -429,7 +398,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
@@ -446,21 +414,17 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, p3, p2, v2, v2}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -492,7 +456,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -512,7 +475,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->g:Landroid/os/Handler;
 
@@ -524,7 +486,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 3
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -557,7 +518,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -571,7 +531,6 @@
 
     move-result-object v3
 
-    .line 2
     :cond_1
     invoke-static {}, Lcom/commsource/camera/mvp/c;->a()I
 
@@ -593,12 +552,10 @@
 
     double-to-int p1, v4
 
-    .line 3
     invoke-direct {p0, v3, p1, v2}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->M(Landroid/view/View;II)V
 
     goto :goto_0
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -627,7 +584,6 @@
 
     invoke-direct {p0, v3, p1, v2}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->M(Landroid/view/View;II)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -641,7 +597,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->H()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object v1
@@ -664,7 +619,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -699,7 +653,6 @@
 
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->I()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
@@ -714,7 +667,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/CameraEffectManager;->K(Lcom/commsource/camera/l0;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -727,7 +679,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->cover_ar_help:I
@@ -742,7 +693,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -755,7 +705,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->I()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
@@ -778,7 +727,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

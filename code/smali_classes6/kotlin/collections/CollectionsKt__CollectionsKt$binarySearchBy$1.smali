@@ -60,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;->$selector:Lcotlin/jvm/u/l;
 
     invoke-interface {v0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;

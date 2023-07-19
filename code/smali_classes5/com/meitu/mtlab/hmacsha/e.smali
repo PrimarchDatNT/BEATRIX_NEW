@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,7 +24,6 @@
     :try_start_0
     const-string v3, "Asia/Beijing"
 
-    .line 1
     invoke-static {v3}, Ljava/util/TimeZone;->getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
 
     move-result-object v3
@@ -34,7 +32,6 @@
 
     move-result-object v3
 
-    .line 2
     invoke-virtual {v3}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v3
@@ -50,10 +47,8 @@
     :catch_0
     move-exception v3
 
-    .line 3
     invoke-virtual {v3}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3

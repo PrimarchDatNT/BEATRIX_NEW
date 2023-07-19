@@ -33,7 +33,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -44,7 +43,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -53,23 +51,18 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p2, 0x0
 
-    .line 4
     iput p2, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mTotalWidth:I
 
-    .line 5
     iput p2, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mTotalHeight:I
 
     const/4 p2, 0x0
 
-    .line 6
     iput p2, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mCornerRound:F
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->init(Landroid/content/Context;)V
 
     return-void
@@ -78,23 +71,18 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
     .locals 0
 
-    .line 8
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     const/4 p2, 0x0
 
-    .line 9
     iput p2, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mTotalWidth:I
 
-    .line 10
     iput p2, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mTotalHeight:I
 
     const/4 p2, 0x0
 
-    .line 11
     iput p2, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mCornerRound:F
 
-    .line 12
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->init(Landroid/content/Context;)V
 
     return-void
@@ -109,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x1
@@ -118,7 +105,6 @@
 
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mPaint:Landroid/graphics/Paint;
 
-    .line 2
     new-instance v2, Landroid/graphics/PorterDuffXfermode;
 
     sget-object v3, Landroid/graphics/PorterDuff$Mode;->CLEAR:Landroid/graphics/PorterDuff$Mode;
@@ -129,14 +115,12 @@
 
     const/high16 v1, 0x40c00000    # 6.0f
 
-    .line 3
     invoke-static {p1, v1}, Lcom/meitu/library/p/f/i;->c(Landroid/content/Context;F)F
 
     move-result p1
 
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mCornerRound:F
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -149,10 +133,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/ImageView;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mTotalHeight:I
 
     int-to-float v2, v1
@@ -202,17 +184,14 @@
 
     move-object v4, p1
 
-    .line 3
     invoke-virtual/range {v4 .. v10}, Landroid/graphics/Canvas;->saveLayer(FFFFLandroid/graphics/Paint;I)I
 
     move-result v1
 
     const/4 v2, -0x1
 
-    .line 4
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->drawColor(I)V
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mRoundRectF:Landroid/graphics/RectF;
 
     iget v3, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mCornerRound:F
@@ -221,15 +200,12 @@
 
     invoke-virtual {p1, v2, v3, v3, v4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -244,16 +220,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/ImageView;->onSizeChanged(IIII)V
 
-    .line 2
     iput p2, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mTotalHeight:I
 
-    .line 3
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mTotalWidth:I
 
-    .line 4
     new-instance p1, Landroid/graphics/RectF;
 
     iget p2, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mTotalWidth:I
@@ -270,7 +242,6 @@
 
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/widget/CircleImageView;->mRoundRectF:Landroid/graphics/RectF;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

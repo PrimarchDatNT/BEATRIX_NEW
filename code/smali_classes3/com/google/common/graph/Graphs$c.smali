@@ -48,10 +48,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/graph/q;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/graph/Graphs$c;->a:Lcom/google/common/graph/r0;
 
     return-void
@@ -60,7 +58,6 @@
 .method static synthetic S(Lcom/google/common/graph/Graphs$c;)Lcom/google/common/graph/r0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/graph/Graphs$c;->a:Lcom/google/common/graph/r0;
 
     return-object p0
@@ -78,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/Graphs$c;->a:Lcom/google/common/graph/r0;
 
     return-object v0
@@ -87,7 +83,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Ljava/lang/Iterable;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/Graphs$c;->a(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -105,7 +100,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/graph/Graphs$c;->R()Lcom/google/common/graph/r0;
 
     move-result-object v0
@@ -120,7 +114,6 @@
 .method public bridge synthetic b(Ljava/lang/Object;)Ljava/lang/Iterable;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/Graphs$c;->b(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -138,7 +131,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/graph/Graphs$c;->R()Lcom/google/common/graph/r0;
 
     move-result-object v0
@@ -158,7 +150,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/Graphs$c;->R()Lcom/google/common/graph/r0;
 
     move-result-object v0
@@ -180,7 +171,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/Graphs$c;->R()Lcom/google/common/graph/r0;
 
     move-result-object v0
@@ -204,7 +194,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/Graphs$c;->R()Lcom/google/common/graph/r0;
 
     move-result-object v0
@@ -224,7 +213,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/Graphs$c;->R()Lcom/google/common/graph/r0;
 
     move-result-object v0
@@ -253,7 +241,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/Graphs$c;->R()Lcom/google/common/graph/r0;
 
     move-result-object v0
@@ -284,7 +271,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/Graphs$c;->R()Lcom/google/common/graph/r0;
 
     move-result-object v0

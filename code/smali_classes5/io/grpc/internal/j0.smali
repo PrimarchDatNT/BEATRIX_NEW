@@ -32,17 +32,14 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/Random;
 
     invoke-direct {v0}, Ljava/util/Random;-><init>()V
 
     iput-object v0, p0, Lio/grpc/internal/j0;->a:Ljava/util/Random;
 
-    .line 3
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x1
@@ -53,7 +50,6 @@
 
     iput-wide v0, p0, Lio/grpc/internal/j0;->b:J
 
-    .line 4
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x2
@@ -66,15 +62,12 @@
 
     const-wide v0, 0x3ff999999999999aL    # 1.6
 
-    .line 5
     iput-wide v0, p0, Lio/grpc/internal/j0;->d:D
 
     const-wide v0, 0x3fc999999999999aL    # 0.2
 
-    .line 6
     iput-wide v0, p0, Lio/grpc/internal/j0;->e:D
 
-    .line 7
     iget-wide v0, p0, Lio/grpc/internal/j0;->b:J
 
     iput-wide v0, p0, Lio/grpc/internal/j0;->f:J
@@ -96,13 +89,11 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
     sub-double/2addr p3, p1
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/j0;->a:Ljava/util/Random;
 
     invoke-virtual {v0}, Ljava/util/Random;->nextDouble()D
@@ -123,12 +114,10 @@
 .method public a()J
     .locals 8
 
-    .line 1
     iget-wide v0, p0, Lio/grpc/internal/j0;->f:J
 
     long-to-double v2, v0
 
-    .line 2
     iget-wide v4, p0, Lio/grpc/internal/j0;->d:D
 
     mul-double v4, v4, v2
@@ -143,7 +132,6 @@
 
     iput-wide v4, p0, Lio/grpc/internal/j0;->f:J
 
-    .line 3
     iget-wide v4, p0, Lio/grpc/internal/j0;->e:D
 
     neg-double v6, v4
@@ -152,7 +140,6 @@
 
     mul-double v4, v4, v2
 
-    .line 4
     invoke-direct {p0, v6, v7, v4, v5}, Lio/grpc/internal/j0;->g(DD)J
 
     move-result-wide v2
@@ -167,7 +154,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iput-wide p1, p0, Lio/grpc/internal/j0;->b:J
 
     return-object p0
@@ -178,7 +164,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iput-wide p1, p0, Lio/grpc/internal/j0;->e:D
 
     return-object p0
@@ -189,7 +174,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iput-wide p1, p0, Lio/grpc/internal/j0;->c:J
 
     return-object p0
@@ -200,7 +184,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iput-wide p1, p0, Lio/grpc/internal/j0;->d:D
 
     return-object p0
@@ -211,7 +194,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/j0;->a:Ljava/util/Random;
 
     return-object p0

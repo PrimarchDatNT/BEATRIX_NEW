@@ -35,73 +35,62 @@
 .method public constructor <init>(Lcom/meitu/mtlab/g/c/e$a;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/mtlab/g/c/e$a;->a(Lcom/meitu/mtlab/g/c/e$a;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/mtlab/g/c/e;->a:Ljava/lang/String;
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/mtlab/g/c/e$a;->b(Lcom/meitu/mtlab/g/c/e$a;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/mtlab/g/c/e;->b:Ljava/lang/String;
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/mtlab/g/c/e$a;->c(Lcom/meitu/mtlab/g/c/e$a;)Lcom/meitu/mtlab/g/c/f;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/mtlab/g/c/e;->c:Lcom/meitu/mtlab/g/c/f;
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/mtlab/g/c/e$a;->d(Lcom/meitu/mtlab/g/c/e$a;)Lcom/meitu/mtlab/g/c/f;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/mtlab/g/c/e;->d:Lcom/meitu/mtlab/g/c/f;
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/mtlab/g/c/e$a;->e(Lcom/meitu/mtlab/g/c/e$a;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/meitu/mtlab/g/c/e;->e:Z
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/mtlab/g/c/e$a;->f(Lcom/meitu/mtlab/g/c/e$a;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/meitu/mtlab/g/c/e;->f:Z
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/mtlab/g/c/e$a;->g(Lcom/meitu/mtlab/g/c/e$a;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/meitu/mtlab/g/c/e;->g:Z
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/mtlab/g/c/e$a;->h(Lcom/meitu/mtlab/g/c/e$a;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/meitu/mtlab/g/c/e;->h:Z
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/mtlab/g/c/e$a;->i(Lcom/meitu/mtlab/g/c/e$a;)Z
 
     move-result p1
 
     iput-boolean p1, p0, Lcom/meitu/mtlab/g/c/e;->i:Z
 
-    .line 11
     invoke-direct {p0}, Lcom/meitu/mtlab/g/c/e;->i()V
 
     return-void
@@ -114,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/g/c/e;->a:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -123,7 +111,6 @@
 
     if-nez v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/g/c/e;->c:Lcom/meitu/mtlab/g/c/f;
 
     if-eqz v1, :cond_1
@@ -148,7 +135,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
@@ -166,7 +152,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
@@ -177,7 +162,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/g/h/a;->m(Ljava/lang/String;)V
 
-    .line 5
     :cond_2
     :goto_1
     iget-object v1, p0, Lcom/meitu/mtlab/g/c/e;->b:Ljava/lang/String;
@@ -188,7 +172,6 @@
 
     if-nez v1, :cond_5
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/mtlab/g/c/e;->d:Lcom/meitu/mtlab/g/c/f;
 
     if-eqz v1, :cond_4
@@ -213,7 +196,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_3
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
@@ -231,7 +213,6 @@
 
     goto :goto_3
 
-    .line 8
     :cond_4
     :goto_2
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
@@ -242,7 +223,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/g/h/a;->i(Ljava/lang/String;)V
 
-    .line 9
     :cond_5
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -259,14 +239,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/g/h/a;->c()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -279,14 +257,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/g/h/a;->d()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -299,26 +275,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/mtlab/g/c/e;->f:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/g/h/a;->c()V
 
-    .line 3
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/g/h/a;->d()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -332,7 +304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/mtlab/g/c/e;->h:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -347,7 +318,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/mtlab/g/c/e;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -362,7 +332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/mtlab/g/c/e;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -377,7 +346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/mtlab/g/c/e;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -392,7 +360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/mtlab/g/c/e;->e:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

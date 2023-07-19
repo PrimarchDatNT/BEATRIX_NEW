@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -83,7 +82,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$onCreateView$$inlined$apply$lambda$3;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodleFragment;->e0(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/studio/layer/ScrawlLayer;
@@ -94,7 +92,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/layer/BaseLayer;->j0(Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$onCreateView$$inlined$apply$lambda$3;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodleFragment;->X(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/studio/processor/DoodleProcessor;
@@ -105,7 +102,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->p0(Z)V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$onCreateView$$inlined$apply$lambda$3;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -121,7 +117,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$onCreateView$$inlined$apply$lambda$3;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -133,7 +128,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/layer/BaseLayer;->j0(Z)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$onCreateView$$inlined$apply$lambda$3;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodleFragment;->X(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/studio/processor/DoodleProcessor;
@@ -144,7 +138,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->p0(Z)V
 
-    .line 7
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$onCreateView$$inlined$apply$lambda$3;->$this_apply:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
@@ -152,7 +145,6 @@
 
     invoke-static {p1, v2, v1, v2}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->G(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

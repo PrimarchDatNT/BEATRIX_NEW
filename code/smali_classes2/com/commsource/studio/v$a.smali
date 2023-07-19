@@ -23,7 +23,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -36,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p0}, Lcom/commsource/studio/v;->b()Z
 
     move-result v1

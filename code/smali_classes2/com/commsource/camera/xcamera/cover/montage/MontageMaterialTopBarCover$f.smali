@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$f;->h:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$f;->i:Lcom/commsource/camera/montage/bean/c;
@@ -59,7 +58,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$f;->h:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->H()Lcom/commsource/camera/montage/w;
@@ -72,12 +70,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$f;->i:Lcom/commsource/camera/montage/bean/c;
 
@@ -103,7 +99,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/montage/bean/c;->W(Landroid/app/Activity;Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/bean/c;->b()Landroid/graphics/Bitmap;
 
     move-result-object v1
@@ -114,12 +109,10 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/bean/c;->b()Landroid/graphics/Bitmap;
 
@@ -131,7 +124,6 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/bean/c;->e()I
 
     move-result p1
@@ -144,7 +136,6 @@
 
     move-result-object p1
 
-    .line 8
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -157,19 +148,16 @@
 
     int-to-float v1, v1
 
-    .line 9
     invoke-static {p1, v1, v1, v2, v2}, Lcom/commsource/util/common/e;->r(Landroid/graphics/Bitmap;FFZZ)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
     const/high16 v1, 0x40a00000    # 5.0f
 
-    .line 10
     invoke-static {p1, v1, v2}, Lcom/meitu/library/p/e/a;->x(Landroid/graphics/Bitmap;FZ)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$f;->h:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->H()Lcom/commsource/camera/montage/w;
@@ -184,7 +172,6 @@
 
     move-result-object v1
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$f;->h:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->H()Lcom/commsource/camera/montage/w;
@@ -203,12 +190,10 @@
 
     const/16 v2, 0x64
 
-    .line 13
     sget-object v3, Landroid/graphics/Bitmap$CompressFormat;->PNG:Landroid/graphics/Bitmap$CompressFormat;
 
     invoke-static {p1, v1, v2, v3}, Lcom/commsource/util/common/e;->D(Landroid/graphics/Bitmap;Ljava/lang/String;ILandroid/graphics/Bitmap$CompressFormat;)Z
 
-    .line 14
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object p1
@@ -225,7 +210,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->L(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$f;->h:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->F()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
@@ -234,7 +218,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->T()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

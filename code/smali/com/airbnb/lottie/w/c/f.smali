@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/w/c/a;-><init>(Ljava/util/List;)V
 
     return-void

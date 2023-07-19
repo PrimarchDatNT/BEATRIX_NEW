@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/j;Lcom/google/firebase/crashlytics/internal/settings/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/j$b;->b:Lcom/google/firebase/crashlytics/internal/common/j;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/j$b;->a:Lcom/google/firebase/crashlytics/internal/settings/d;
@@ -66,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/j$b;->b:Lcom/google/firebase/crashlytics/internal/common/j;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/j$b;->a:Lcom/google/firebase/crashlytics/internal/settings/d;
@@ -86,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/common/j$b;->a()Lcom/google/android/gms/tasks/k;
 
     move-result-object v0

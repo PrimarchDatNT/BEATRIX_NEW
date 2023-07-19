@@ -29,10 +29,8 @@
 .method protected constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lf/f/e/b/f$a;
 
     invoke-direct {v0, p0}, Lf/f/e/b/f$a;-><init>(Lf/f/e/b/f;)V
@@ -56,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lf/f/e/b/f;->a:Lcom/google/common/base/n;
 
     return-object v0

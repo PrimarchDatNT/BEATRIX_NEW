@@ -208,7 +208,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "DEFAULT"
@@ -269,7 +268,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->DATA_ERROR:Lcom/sdk/api/Const$Event;
 
-    .line 2
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "GET_VIEW"
@@ -310,7 +308,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->SHOW_SUCCESS:Lcom/sdk/api/Const$Event;
 
-    .line 3
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "PARSE_START"
@@ -351,7 +348,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->LOAD_KB:Lcom/sdk/api/Const$Event;
 
-    .line 4
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "REPORT_SHOW"
@@ -372,7 +368,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->REPORT_CLICK:Lcom/sdk/api/Const$Event;
 
-    .line 5
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "DATA_LOADED"
@@ -403,7 +398,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->GIF_IMAGE_LOADED:Lcom/sdk/api/Const$Event;
 
-    .line 6
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "DATA_STATIC_IMAGE_LOADED"
@@ -424,7 +418,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->DATA_GIF_IMAGE_LOADED:Lcom/sdk/api/Const$Event;
 
-    .line 7
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "IMPRESSION"
@@ -465,7 +458,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->CLICKSKIP:Lcom/sdk/api/Const$Event;
 
-    .line 8
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "TIPS_IMPRESSION"
@@ -496,7 +488,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->MEDIA_PLAYBACK_ERROR:Lcom/sdk/api/Const$Event;
 
-    .line 9
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "BS_LOAD"
@@ -527,7 +518,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->BS_LOAD_FAIL:Lcom/sdk/api/Const$Event;
 
-    .line 10
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "BS_PRELOAD"
@@ -558,7 +548,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->BS_PRELOAD_FAIL:Lcom/sdk/api/Const$Event;
 
-    .line 11
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "BS_IMAGE_DOWNLOAD_SUCCESS"
@@ -579,7 +568,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->BS_IMAGE_DOWNLOAD_FAIL:Lcom/sdk/api/Const$Event;
 
-    .line 12
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "BS_VIDEO_DOWNLOAD_SUCCESS"
@@ -600,7 +588,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->BS_VIDEO_DOWNLOAD_FAIL:Lcom/sdk/api/Const$Event;
 
-    .line 13
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "BS_IMPRESSION"
@@ -641,7 +628,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->BS_SKIP:Lcom/sdk/api/Const$Event;
 
-    .line 14
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "BS_FINISHED"
@@ -672,7 +658,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->BS_LIMITE_FREQUENCY:Lcom/sdk/api/Const$Event;
 
-    .line 15
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "VAST_PARSE_SUCCESS"
@@ -703,7 +688,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->VAST_PARSE_FAIL:Lcom/sdk/api/Const$Event;
 
-    .line 16
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "DOWNLOAD_START"
@@ -714,7 +698,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->DOWNLOAD_START:Lcom/sdk/api/Const$Event;
 
-    .line 17
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "DOWNLOAD_SUCCESS"
@@ -725,7 +708,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->DOWNLOAD_SUCCESS:Lcom/sdk/api/Const$Event;
 
-    .line 18
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "DOWNLOAD_FAIL"
@@ -736,7 +718,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->DOWNLOAD_FAIL:Lcom/sdk/api/Const$Event;
 
-    .line 19
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "GET_Ad"
@@ -747,7 +728,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->GET_Ad:Lcom/sdk/api/Const$Event;
 
-    .line 20
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "AD_EXPIRED"
@@ -758,7 +738,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->AD_EXPIRED:Lcom/sdk/api/Const$Event;
 
-    .line 21
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "CREATE_VIEW_SUCCESS"
@@ -769,7 +748,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->CREATE_VIEW_SUCCESS:Lcom/sdk/api/Const$Event;
 
-    .line 22
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "CREATE_VIEW_FAIL"
@@ -780,7 +758,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->CREATE_VIEW_FAIL:Lcom/sdk/api/Const$Event;
 
-    .line 23
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "CREATE_VIEW_DETAIL_INFO"
@@ -791,7 +768,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->CREATE_VIEW_DETAIL_INFO:Lcom/sdk/api/Const$Event;
 
-    .line 24
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "LOAD_START"
@@ -802,7 +778,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->LOAD_START:Lcom/sdk/api/Const$Event;
 
-    .line 25
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "LOAD_PICKS_AD_START"
@@ -813,7 +788,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->LOAD_PICKS_AD_START:Lcom/sdk/api/Const$Event;
 
-    .line 26
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "LOAD_PICKS_AD_SUCCESS"
@@ -824,7 +798,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->LOAD_PICKS_AD_SUCCESS:Lcom/sdk/api/Const$Event;
 
-    .line 27
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "LOAD_PICKS_AD_FAIL"
@@ -835,7 +808,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->LOAD_PICKS_AD_FAIL:Lcom/sdk/api/Const$Event;
 
-    .line 28
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "LOAD_TOTAL"
@@ -846,7 +818,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->LOAD_TOTAL:Lcom/sdk/api/Const$Event;
 
-    .line 29
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "CALLBACK_SUCCESS"
@@ -857,7 +828,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->CALLBACK_SUCCESS:Lcom/sdk/api/Const$Event;
 
-    .line 30
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "CALLBACK_FAILED"
@@ -868,7 +838,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->CALLBACK_FAILED:Lcom/sdk/api/Const$Event;
 
-    .line 31
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "CLICKED"
@@ -879,7 +848,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->CLICKED:Lcom/sdk/api/Const$Event;
 
-    .line 32
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "GET_AD_SUCCESS"
@@ -890,7 +858,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->GET_AD_SUCCESS:Lcom/sdk/api/Const$Event;
 
-    .line 33
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "GET_AD_FAIL"
@@ -901,7 +868,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->GET_AD_FAIL:Lcom/sdk/api/Const$Event;
 
-    .line 34
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "FEED_IMAGE_LOAD"
@@ -912,7 +878,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->FEED_IMAGE_LOAD:Lcom/sdk/api/Const$Event;
 
-    .line 35
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "FEED_IMAGE_LOADED"
@@ -923,7 +888,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->FEED_IMAGE_LOADED:Lcom/sdk/api/Const$Event;
 
-    .line 36
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "FEED_IMAGE_LOADFAIL"
@@ -934,7 +898,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->FEED_IMAGE_LOADFAIL:Lcom/sdk/api/Const$Event;
 
-    .line 37
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "FEED_BIT_SAVE"
@@ -945,7 +908,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->FEED_BIT_SAVE:Lcom/sdk/api/Const$Event;
 
-    .line 38
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "FEED_BIT_SAVE_SUCCESS"
@@ -956,7 +918,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->FEED_BIT_SAVE_SUCCESS:Lcom/sdk/api/Const$Event;
 
-    .line 39
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "FEED_BIT_SAVE_FAIL"
@@ -967,7 +928,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->FEED_BIT_SAVE_FAIL:Lcom/sdk/api/Const$Event;
 
-    .line 40
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "LOAD_PICKS_NET_SUCCESS"
@@ -978,7 +938,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->LOAD_PICKS_NET_SUCCESS:Lcom/sdk/api/Const$Event;
 
-    .line 41
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "LOAD_PICKS_NET_FAIL"
@@ -989,7 +948,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->LOAD_PICKS_NET_FAIL:Lcom/sdk/api/Const$Event;
 
-    .line 42
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "LOAD_PICKS_CACHE_SUCCESS"
@@ -1000,7 +958,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->LOAD_PICKS_CACHE_SUCCESS:Lcom/sdk/api/Const$Event;
 
-    .line 43
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "LOAD_PICKS_CACHE_FAIL"
@@ -1011,7 +968,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->LOAD_PICKS_CACHE_FAIL:Lcom/sdk/api/Const$Event;
 
-    .line 44
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "BannerView_loadAd"
@@ -1072,7 +1028,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->BannerView_onClicked:Lcom/sdk/api/Const$Event;
 
-    .line 45
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "BannerViewController_loadAd"
@@ -1123,7 +1078,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->BannerViewController_parseHtmlData:Lcom/sdk/api/Const$Event;
 
-    .line 46
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "HtmlBanner_loadBanner"
@@ -1134,7 +1088,6 @@
 
     sput-object v0, Lcom/sdk/api/Const$Event;->HtmlBanner_loadBanner:Lcom/sdk/api/Const$Event;
 
-    .line 47
     new-instance v0, Lcom/sdk/api/Const$Event;
 
     const-string v1, "START_NET_REQUEST"
@@ -1149,7 +1102,6 @@
 
     new-array v0, v0, [Lcom/sdk/api/Const$Event;
 
-    .line 48
     sget-object v1, Lcom/sdk/api/Const$Event;->DEFAULT:Lcom/sdk/api/Const$Event;
 
     aput-object v1, v0, v2
@@ -1671,7 +1623,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -1680,7 +1631,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/sdk/api/Const$Event;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/sdk/api/Const$Event;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -1695,7 +1645,6 @@
 .method public static values()[Lcom/sdk/api/Const$Event;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/api/Const$Event;->$VALUES:[Lcom/sdk/api/Const$Event;
 
     invoke-virtual {v0}, [Lcom/sdk/api/Const$Event;->clone()Ljava/lang/Object;

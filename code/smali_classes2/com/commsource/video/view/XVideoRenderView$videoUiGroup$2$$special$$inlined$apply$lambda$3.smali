@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -81,14 +80,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2$$special$$inlined$apply$lambda$3;->$this_apply:Lcom/commsource/video/view/XVideoUIGroup;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/view/XVideoUIGroup;->l(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2$$special$$inlined$apply$lambda$3;->this$0:Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2;
 
     iget-object v1, v1, Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2;->this$0:Lcom/commsource/video/view/XVideoRenderView;
@@ -99,7 +96,6 @@
 
     invoke-interface {v1, p1}, Lcom/commsource/video/decoder/b;->m(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2$$special$$inlined$apply$lambda$3;->this$0:Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2;
 
     iget-object v1, v1, Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2;->this$0:Lcom/commsource/video/view/XVideoRenderView;
@@ -110,7 +106,6 @@
 
     invoke-interface {v1, p1}, Lcom/commsource/video/decoder/b;->a(I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -30,19 +30,14 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/firebase/firestore/DocumentChange;->a:Lcom/google/firebase/firestore/DocumentChange$Type;
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/firestore/DocumentChange;->b:Lcom/google/firebase/firestore/b0;
 
-    .line 4
     iput p3, p0, Lcom/google/firebase/firestore/DocumentChange;->c:I
 
-    .line 5
     iput p4, p0, Lcom/google/firebase/firestore/DocumentChange;->d:I
 
     return-void
@@ -63,12 +58,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-virtual {p2}, Lcom/google/firebase/firestore/core/ViewSnapshot;->g()Lcom/google/firebase/firestore/model/g;
 
     move-result-object v1
@@ -87,7 +80,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-virtual {p2}, Lcom/google/firebase/firestore/core/ViewSnapshot;->d()Ljava/util/List;
 
     move-result-object v1
@@ -111,17 +103,14 @@
 
     check-cast v6, Lcom/google/firebase/firestore/core/DocumentViewChange;
 
-    .line 4
     invoke-virtual {v6}, Lcom/google/firebase/firestore/core/DocumentViewChange;->b()Lcom/google/firebase/firestore/model/Document;
 
     move-result-object v7
 
-    .line 5
     invoke-virtual {p2}, Lcom/google/firebase/firestore/core/ViewSnapshot;->j()Z
 
     move-result v8
 
-    .line 6
     invoke-virtual {p2}, Lcom/google/firebase/firestore/core/ViewSnapshot;->f()Lcom/google/firebase/database/collection/f;
 
     move-result-object v9
@@ -134,12 +123,10 @@
 
     move-result v9
 
-    .line 7
     invoke-static {p0, v7, v8, v9}, Lcom/google/firebase/firestore/b0;->M(Lcom/google/firebase/firestore/q;Lcom/google/firebase/firestore/model/Document;ZZ)Lcom/google/firebase/firestore/b0;
 
     move-result-object v8
 
-    .line 8
     invoke-virtual {v6}, Lcom/google/firebase/firestore/core/DocumentViewChange;->c()Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
     move-result-object v6
@@ -160,12 +147,10 @@
 
     const-string v10, "Invalid added event for first snapshot"
 
-    .line 9
     invoke-static {v6, v10, v9}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     if-eqz p1, :cond_2
 
-    .line 10
     invoke-virtual {p2}, Lcom/google/firebase/firestore/core/ViewSnapshot;->h()Lcom/google/firebase/firestore/core/e0;
 
     move-result-object v6
@@ -196,10 +181,8 @@
 
     const-string v9, "Got added events in wrong order"
 
-    .line 11
     invoke-static {p1, v9, v6}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 12
     new-instance p1, Lcom/google/firebase/firestore/DocumentChange;
 
     sget-object v6, Lcom/google/firebase/firestore/DocumentChange$Type;->ADDED:Lcom/google/firebase/firestore/DocumentChange$Type;
@@ -216,13 +199,11 @@
 
     goto :goto_0
 
-    .line 13
     :cond_3
     invoke-virtual {p2}, Lcom/google/firebase/firestore/core/ViewSnapshot;->g()Lcom/google/firebase/firestore/model/g;
 
     move-result-object v1
 
-    .line 14
     invoke-virtual {p2}, Lcom/google/firebase/firestore/core/ViewSnapshot;->d()Ljava/util/List;
 
     move-result-object v5
@@ -244,12 +225,10 @@
 
     check-cast v6, Lcom/google/firebase/firestore/core/DocumentViewChange;
 
-    .line 15
     sget-object v7, Lcom/google/firebase/firestore/MetadataChanges;->EXCLUDE:Lcom/google/firebase/firestore/MetadataChanges;
 
     if-ne p1, v7, :cond_4
 
-    .line 16
     invoke-virtual {v6}, Lcom/google/firebase/firestore/core/DocumentViewChange;->c()Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
     move-result-object v7
@@ -260,18 +239,15 @@
 
     goto :goto_4
 
-    .line 17
     :cond_4
     invoke-virtual {v6}, Lcom/google/firebase/firestore/core/DocumentViewChange;->b()Lcom/google/firebase/firestore/model/Document;
 
     move-result-object v7
 
-    .line 18
     invoke-virtual {p2}, Lcom/google/firebase/firestore/core/ViewSnapshot;->j()Z
 
     move-result v8
 
-    .line 19
     invoke-virtual {p2}, Lcom/google/firebase/firestore/core/ViewSnapshot;->f()Lcom/google/firebase/database/collection/f;
 
     move-result-object v9
@@ -284,24 +260,20 @@
 
     move-result v9
 
-    .line 20
     invoke-static {p0, v7, v8, v9}, Lcom/google/firebase/firestore/b0;->M(Lcom/google/firebase/firestore/q;Lcom/google/firebase/firestore/model/Document;ZZ)Lcom/google/firebase/firestore/b0;
 
     move-result-object v8
 
-    .line 21
     invoke-static {v6}, Lcom/google/firebase/firestore/DocumentChange;->f(Lcom/google/firebase/firestore/core/DocumentViewChange;)Lcom/google/firebase/firestore/DocumentChange$Type;
 
     move-result-object v6
 
-    .line 22
     sget-object v9, Lcom/google/firebase/firestore/DocumentChange$Type;->ADDED:Lcom/google/firebase/firestore/DocumentChange$Type;
 
     const-string v10, "Index for document not found"
 
     if-eq v6, v9, :cond_6
 
-    .line 23
     invoke-virtual {v7}, Lcom/google/firebase/firestore/model/i;->a()Lcom/google/firebase/firestore/model/e;
 
     move-result-object v9
@@ -322,10 +294,8 @@
     :goto_5
     new-array v12, v4, [Ljava/lang/Object;
 
-    .line 24
     invoke-static {v11, v10, v12}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 25
     invoke-virtual {v7}, Lcom/google/firebase/firestore/model/i;->a()Lcom/google/firebase/firestore/model/e;
 
     move-result-object v11
@@ -339,18 +309,15 @@
     :cond_6
     const/4 v9, -0x1
 
-    .line 26
     :goto_6
     sget-object v11, Lcom/google/firebase/firestore/DocumentChange$Type;->REMOVED:Lcom/google/firebase/firestore/DocumentChange$Type;
 
     if-eq v6, v11, :cond_8
 
-    .line 27
     invoke-virtual {v1, v7}, Lcom/google/firebase/firestore/model/g;->b(Lcom/google/firebase/firestore/model/Document;)Lcom/google/firebase/firestore/model/g;
 
     move-result-object v1
 
-    .line 28
     invoke-virtual {v7}, Lcom/google/firebase/firestore/model/i;->a()Lcom/google/firebase/firestore/model/e;
 
     move-result-object v7
@@ -371,7 +338,6 @@
     :goto_7
     new-array v12, v4, [Ljava/lang/Object;
 
-    .line 29
     invoke-static {v11, v10, v12}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_8
@@ -379,7 +345,6 @@
     :cond_8
     const/4 v7, -0x1
 
-    .line 30
     :goto_8
     new-instance v10, Lcom/google/firebase/firestore/DocumentChange;
 
@@ -396,7 +361,6 @@
 .method private static f(Lcom/google/firebase/firestore/core/DocumentViewChange;)Lcom/google/firebase/firestore/DocumentChange$Type;
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/DocumentChange$a;->a:[I
 
     invoke-virtual {p0}, Lcom/google/firebase/firestore/core/DocumentViewChange;->c()Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
@@ -425,12 +389,10 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     sget-object p0, Lcom/google/firebase/firestore/DocumentChange$Type;->REMOVED:Lcom/google/firebase/firestore/DocumentChange$Type;
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -456,13 +418,11 @@
 
     throw v0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/google/firebase/firestore/DocumentChange$Type;->MODIFIED:Lcom/google/firebase/firestore/DocumentChange$Type;
 
     return-object p0
 
-    .line 5
     :cond_2
     sget-object p0, Lcom/google/firebase/firestore/DocumentChange$Type;->ADDED:Lcom/google/firebase/firestore/DocumentChange$Type;
 
@@ -479,7 +439,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/DocumentChange;->b:Lcom/google/firebase/firestore/b0;
 
     return-object v0
@@ -490,7 +449,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/DocumentChange;->d:I
 
     return v0
@@ -501,7 +459,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/DocumentChange;->c:I
 
     return v0
@@ -515,7 +472,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/DocumentChange;->a:Lcom/google/firebase/firestore/DocumentChange$Type;
 
     return-object v0
@@ -528,17 +484,14 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/DocumentChange;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/firebase/firestore/DocumentChange;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/firestore/DocumentChange;->a:Lcom/google/firebase/firestore/DocumentChange$Type;
 
     iget-object v2, p1, Lcom/google/firebase/firestore/DocumentChange;->a:Lcom/google/firebase/firestore/DocumentChange$Type;
@@ -553,7 +506,6 @@
 
     iget-object v2, p1, Lcom/google/firebase/firestore/DocumentChange;->b:Lcom/google/firebase/firestore/b0;
 
-    .line 4
     invoke-virtual {v0, v2}, Lcom/google/firebase/firestore/DocumentSnapshot;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -581,7 +533,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/DocumentChange;->a:Lcom/google/firebase/firestore/DocumentChange$Type;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->hashCode()I
@@ -590,7 +541,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/firestore/DocumentChange;->b:Lcom/google/firebase/firestore/b0;
 
     invoke-virtual {v1}, Lcom/google/firebase/firestore/DocumentSnapshot;->hashCode()I
@@ -601,14 +551,12 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget v1, p0, Lcom/google/firebase/firestore/DocumentChange;->c:I
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     iget v1, p0, Lcom/google/firebase/firestore/DocumentChange;->d:I
 
     add-int/2addr v0, v1

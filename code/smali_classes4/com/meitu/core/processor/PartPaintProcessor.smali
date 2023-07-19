@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -53,7 +51,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
@@ -63,7 +60,6 @@
 
     const/4 p0, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

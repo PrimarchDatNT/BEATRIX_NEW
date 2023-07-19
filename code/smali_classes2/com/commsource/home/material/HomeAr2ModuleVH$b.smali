@@ -29,7 +29,6 @@
 
     iput-object p2, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$b;->b:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
 
     return-void
@@ -52,7 +51,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
     const/4 p1, 0x2
@@ -67,7 +65,6 @@
 
     if-nez p2, :cond_1
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$b;->a:Lcom/commsource/home/material/HomeAr2ModuleVH;
 
     invoke-static {p2}, Lcom/commsource/home/material/HomeAr2ModuleVH;->E(Lcom/commsource/home/material/HomeAr2ModuleVH;)Lcom/commsource/widget/h1/e;
@@ -86,7 +83,6 @@
 
     invoke-virtual {p2, v3, v5}, Lcom/commsource/widget/h1/e;->b(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$b;->a:Lcom/commsource/home/material/HomeAr2ModuleVH;
 
     iget-object p2, p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -122,7 +118,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$b;->b:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
     invoke-virtual {v2}, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;->i()I
@@ -133,7 +128,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p2, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$b;->a:Lcom/commsource/home/material/HomeAr2ModuleVH;
 
@@ -149,7 +143,6 @@
 
     invoke-virtual {p2, v3, v6}, Lcom/commsource/widget/h1/e;->b(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$b;->a:Lcom/commsource/home/material/HomeAr2ModuleVH;
 
     iget-object p2, p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -185,10 +178,8 @@
 
     if-eqz p2, :cond_3
 
-    .line 7
     invoke-static {p2, v5, v1, p1, v4}, Lcom/commsource/home/material/HomeAr2ModuleVH$f;->z(Lcom/commsource/home/material/HomeAr2ModuleVH$f;IZILjava/lang/Object;)V
 
-    .line 8
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -211,12 +202,10 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$b;->a:Lcom/commsource/home/material/HomeAr2ModuleVH;
 
     invoke-virtual {p1}, Lcom/commsource/home/material/HomeAr2ModuleVH;->I()V
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

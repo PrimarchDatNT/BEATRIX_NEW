@@ -54,7 +54,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     const-string v1, "OOB_REQ_TYPE_UNSPECIFIED"
@@ -65,7 +64,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvd:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     const-string v3, "PASSWORD_RESET"
@@ -76,7 +74,6 @@
 
     sput-object v1, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzve:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
-    .line 3
     new-instance v3, Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     const-string v5, "OLD_EMAIL_AGREE"
@@ -87,7 +84,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvf:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
-    .line 4
     new-instance v5, Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     const-string v7, "NEW_EMAIL_ACCEPT"
@@ -98,7 +94,6 @@
 
     sput-object v5, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvg:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
-    .line 5
     new-instance v7, Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     const-string v9, "VERIFY_EMAIL"
@@ -109,7 +104,6 @@
 
     sput-object v7, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvh:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
-    .line 6
     new-instance v9, Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     const-string v11, "RECOVER_EMAIL"
@@ -120,7 +114,6 @@
 
     sput-object v9, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvi:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
-    .line 7
     new-instance v11, Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     const-string v13, "EMAIL_SIGNIN"
@@ -131,7 +124,6 @@
 
     sput-object v11, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvj:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
-    .line 8
     new-instance v13, Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     const-string v15, "VERIFY_AND_CHANGE_EMAIL"
@@ -164,10 +156,8 @@
 
     aput-object v13, v15, v14
 
-    .line 9
     sput-object v15, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvl:[Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
-    .line 10
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/t2;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/t2;-><init>()V
@@ -185,10 +175,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->value:I
 
     return-void
@@ -197,7 +185,6 @@
 .method public static values()[Lcom/google/android/gms/internal/firebase_auth/zzfw;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvl:[Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/firebase_auth/zzfw;->clone()Ljava/lang/Object;
@@ -212,7 +199,6 @@
 .method public static zzbr()Lcom/google/android/gms/internal/firebase_auth/q4;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/v2;->a:Lcom/google/android/gms/internal/firebase_auth/q4;
 
     return-object v0
@@ -227,49 +213,41 @@
 
     return-object p0
 
-    .line 1
     :pswitch_0
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvk:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     return-object p0
 
-    .line 2
     :pswitch_1
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvj:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     return-object p0
 
-    .line 3
     :pswitch_2
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvi:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     return-object p0
 
-    .line 4
     :pswitch_3
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvh:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     return-object p0
 
-    .line 5
     :pswitch_4
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvg:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     return-object p0
 
-    .line 6
     :pswitch_5
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvf:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     return-object p0
 
-    .line 7
     :pswitch_6
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzve:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     return-object p0
 
-    .line 8
     :pswitch_7
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzvd:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
@@ -295,7 +273,6 @@
 .method public final zzbq()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->value:I
 
     return v0

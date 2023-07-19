@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/PaintEraserComponent$c;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/component/PaintEraserComponent$c;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/PaintEraserComponent;->getHideIconOnMove()Z
@@ -57,7 +55,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/component/PaintEraserComponent$c;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/PaintEraserComponent;->getViewBinding()Lcom/commsource/beautyplus/f0/e2;
@@ -74,7 +71,6 @@
 
     invoke-virtual {p2, v0}, Landroid/view/View;->setAlpha(F)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/component/PaintEraserComponent$c;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/PaintEraserComponent;->h()Z
@@ -83,7 +79,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/component/PaintEraserComponent$c;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/PaintEraserComponent;->getViewBinding()Lcom/commsource/beautyplus/f0/e2;
@@ -100,7 +95,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p2, p0, Lcom/commsource/studio/component/PaintEraserComponent$c;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
@@ -116,7 +110,6 @@
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -146,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->b(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -163,7 +154,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/component/PaintEraserComponent$c;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/PaintEraserComponent;->getHideIconOnMove()Z
@@ -172,7 +162,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/component/PaintEraserComponent$c;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/PaintEraserComponent;->getViewBinding()Lcom/commsource/beautyplus/f0/e2;
@@ -189,7 +178,6 @@
 
     invoke-virtual {p2, p3}, Landroid/view/View;->setAlpha(F)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/component/PaintEraserComponent$c;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/PaintEraserComponent;->h()Z
@@ -198,7 +186,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/component/PaintEraserComponent$c;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/PaintEraserComponent;->getViewBinding()Lcom/commsource/beautyplus/f0/e2;
@@ -215,7 +202,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p2, p0, Lcom/commsource/studio/component/PaintEraserComponent$c;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
@@ -231,7 +217,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

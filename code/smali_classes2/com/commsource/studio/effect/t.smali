@@ -45,12 +45,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x2
 
-    .line 2
     iput v0, p0, Lcom/commsource/studio/effect/t;->a:I
 
     return-void
@@ -61,7 +59,6 @@
 .method public a()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/effect/t;->a:I
 
     const/4 v1, -0x2
@@ -96,7 +93,6 @@
 .method public final c()V
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/effect/t;->a:I
 
     const/4 v1, -0x2
@@ -108,14 +104,12 @@
     :cond_0
     add-int/lit8 v0, v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/commsource/studio/effect/t;->a:I
 
     if-gez v0, :cond_1
 
     const/4 v0, 0x0
 
-    .line 3
     iput v0, p0, Lcom/commsource/studio/effect/t;->a:I
 
     :cond_1
@@ -125,7 +119,6 @@
 .method public final d()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/effect/t;->a:I
 
     return v0
@@ -136,7 +129,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/effect/t;->b:Ljava/lang/String;
 
     return-object v0
@@ -148,7 +140,6 @@
 .method public final g(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/effect/t;->a:I
 
     return-void
@@ -161,7 +152,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/effect/t;->b:Ljava/lang/String;
 
     return-void
@@ -170,7 +160,6 @@
 .method public final i()V
     .locals 4
 
-    .line 1
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v0
@@ -179,12 +168,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iput v1, p0, Lcom/commsource/studio/effect/t;->a:I
 
     goto/16 :goto_2
 
-    .line 3
     :cond_0
     instance-of v0, p0, Lcom/commsource/studio/effect/c;
 
@@ -192,7 +179,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     move-object v0, p0
 
     check-cast v0, Lcom/commsource/studio/effect/c;
@@ -213,7 +199,6 @@
 
     goto :goto_1
 
-    .line 5
     :pswitch_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -230,7 +215,6 @@
     :pswitch_1
     const-string v0, "com.commsource.beautyplus.relight"
 
-    .line 6
     invoke-static {v0}, Lf/d/i/n;->c0(Ljava/lang/String;)Z
 
     move-result v0
@@ -242,7 +226,6 @@
     :pswitch_2
     const-string v0, "com.commsource.beautyplus.unlock_remover"
 
-    .line 7
     invoke-static {v0}, Lf/d/i/n;->c0(Ljava/lang/String;)Z
 
     move-result v0
@@ -254,7 +237,6 @@
     :pswitch_3
     const-string v0, "com.commsource.beautyplus.unlock_ai_portrait"
 
-    .line 8
     invoke-static {v0}, Lf/d/i/n;->c0(Ljava/lang/String;)Z
 
     move-result v0
@@ -266,7 +248,6 @@
     :pswitch_4
     const-string v0, "com.commsource.beautyplus.unlock_enhance"
 
-    .line 9
     invoke-static {v0}, Lf/d/i/n;->c0(Ljava/lang/String;)Z
 
     move-result v0
@@ -275,7 +256,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_1
     instance-of v0, p0, Lcom/commsource/studio/effect/x;
 
@@ -288,13 +268,11 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     instance-of v0, p0, Lcom/commsource/studio/effect/remold/b;
 
     if-eqz v0, :cond_4
 
-    .line 12
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v0
@@ -307,7 +285,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_4
     instance-of v0, p0, Lcom/commsource/studio/effect/g;
 
@@ -315,7 +292,6 @@
 
     const-string v0, "com.commsource.beautyplus.unlock_disperse"
 
-    .line 14
     invoke-static {v0}, Lf/d/i/n;->c0(Ljava/lang/String;)Z
 
     move-result v0
@@ -324,7 +300,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_5
     instance-of v0, p0, Lcom/commsource/studio/effect/bodyshape/b;
 
@@ -332,11 +307,9 @@
 
     goto :goto_0
 
-    .line 16
     :cond_6
     iget v1, p0, Lcom/commsource/studio/effect/t;->a:I
 
-    .line 17
     :goto_1
     iput v1, p0, Lcom/commsource/studio/effect/t;->a:I
 

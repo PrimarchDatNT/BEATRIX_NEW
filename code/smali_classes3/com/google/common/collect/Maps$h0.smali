@@ -49,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/Maps$i0;-><init>(Ljava/util/SortedMap;Lcom/google/common/collect/Maps$r;)V
 
     return-void
@@ -80,7 +79,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/Maps$g0;->b:Lcom/google/common/collect/Maps$r;
 
@@ -97,7 +95,6 @@
 .method protected bridge synthetic b()Ljava/util/SortedMap;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -115,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/Maps$i0;->b()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -135,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -159,7 +154,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -183,7 +177,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/common/collect/Maps$h0;->headMap(Ljava/lang/Object;Z)Ljava/util/NavigableMap;
 
     move-result-object p1
@@ -201,7 +194,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -223,7 +215,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -255,7 +246,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0, p2, v1}, Lcom/google/common/collect/Maps$h0;->subMap(Ljava/lang/Object;ZLjava/lang/Object;Z)Ljava/util/NavigableMap;
 
     move-result-object p1
@@ -275,7 +265,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/common/collect/Maps$h0;->tailMap(Ljava/lang/Object;Z)Ljava/util/NavigableMap;
 
     move-result-object p1
@@ -293,7 +282,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -319,7 +307,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -343,7 +330,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -365,7 +351,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -386,7 +371,6 @@
 .method public bridge synthetic headMap(Ljava/lang/Object;)Ljava/util/SortedMap;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Maps$h0;->d(Ljava/lang/Object;)Ljava/util/NavigableMap;
 
     move-result-object p1
@@ -404,7 +388,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -428,7 +411,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -450,7 +432,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -476,7 +457,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -500,7 +480,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -522,7 +501,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -544,7 +522,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -570,7 +547,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -596,7 +572,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -607,7 +582,6 @@
 
     iget-object p2, p0, Lcom/google/common/collect/Maps$g0;->b:Lcom/google/common/collect/Maps$r;
 
-    .line 3
     invoke-static {p1, p2}, Lcom/google/common/collect/Maps;->y0(Ljava/util/NavigableMap;Lcom/google/common/collect/Maps$r;)Ljava/util/NavigableMap;
 
     move-result-object p1
@@ -618,7 +592,6 @@
 .method public bridge synthetic subMap(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/SortedMap;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/Maps$h0;->e(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/NavigableMap;
 
     move-result-object p1
@@ -636,7 +609,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$h0;->c()Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -657,7 +629,6 @@
 .method public bridge synthetic tailMap(Ljava/lang/Object;)Ljava/util/SortedMap;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Maps$h0;->f(Ljava/lang/Object;)Ljava/util/NavigableMap;
 
     move-result-object p1

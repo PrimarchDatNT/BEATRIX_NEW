@@ -31,7 +31,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/internal/a;->c:[B
@@ -42,7 +41,6 @@
 
     add-int/lit8 p3, p3, -0x1
 
-    .line 2
     iput p3, p0, Lkshark/internal/a;->a:I
 
     return-void
@@ -53,15 +51,12 @@
 .method public final a()B
     .locals 3
 
-    .line 1
     iget v0, p0, Lkshark/internal/a;->b:I
 
     add-int/lit8 v1, v0, 0x1
 
-    .line 2
     iput v1, p0, Lkshark/internal/a;->b:I
 
-    .line 3
     iget v1, p0, Lkshark/internal/a;->a:I
 
     if-gez v0, :cond_0
@@ -82,7 +77,6 @@
     :goto_1
     if-eqz v1, :cond_2
 
-    .line 4
     iget-object v1, p0, Lkshark/internal/a;->c:[B
 
     iget v2, p0, Lkshark/internal/a;->d:I
@@ -93,7 +87,6 @@
 
     return v0
 
-    .line 5
     :cond_2
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -117,7 +110,6 @@
 
     move-result-object v0
 
-    .line 6
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -132,19 +124,16 @@
 .method public final b()J
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lkshark/internal/a;->e:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lkshark/internal/a;->d()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lkshark/internal/a;->c()I
 
@@ -159,17 +148,14 @@
 .method public final c()I
     .locals 3
 
-    .line 1
     iget v0, p0, Lkshark/internal/a;->b:I
 
     add-int/lit8 v1, v0, 0x4
 
-    .line 2
     iput v1, p0, Lkshark/internal/a;->b:I
 
     if-ltz v0, :cond_0
 
-    .line 3
     iget v1, p0, Lkshark/internal/a;->a:I
 
     add-int/lit8 v1, v1, -0x3
@@ -186,7 +172,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lkshark/internal/a;->c:[B
 
     iget v2, p0, Lkshark/internal/a;->d:I
@@ -199,7 +184,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -225,7 +209,6 @@
 
     move-result-object v0
 
-    .line 6
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -240,17 +223,14 @@
 .method public final d()J
     .locals 3
 
-    .line 1
     iget v0, p0, Lkshark/internal/a;->b:I
 
     add-int/lit8 v1, v0, 0x8
 
-    .line 2
     iput v1, p0, Lkshark/internal/a;->b:I
 
     if-ltz v0, :cond_0
 
-    .line 3
     iget v1, p0, Lkshark/internal/a;->a:I
 
     add-int/lit8 v1, v1, -0x7
@@ -267,7 +247,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lkshark/internal/a;->c:[B
 
     iget v2, p0, Lkshark/internal/a;->d:I
@@ -280,7 +259,6 @@
 
     return-wide v0
 
-    .line 5
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -306,7 +284,6 @@
 
     move-result-object v0
 
-    .line 6
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -321,19 +298,16 @@
 .method public final e(I)J
     .locals 10
 
-    .line 1
     iget v0, p0, Lkshark/internal/a;->b:I
 
     add-int v1, v0, p1
 
-    .line 2
     iput v1, p0, Lkshark/internal/a;->b:I
 
     const/4 v1, 0x1
 
     if-ltz v0, :cond_0
 
-    .line 3
     iget v2, p0, Lkshark/internal/a;->a:I
 
     add-int/lit8 v3, p1, -0x1
@@ -352,12 +326,10 @@
     :goto_0
     if-eqz v2, :cond_2
 
-    .line 4
     iget v2, p0, Lkshark/internal/a;->d:I
 
     add-int/2addr v2, v0
 
-    .line 5
     iget-object v0, p0, Lkshark/internal/a;->c:[B
 
     const-wide/16 v3, 0x0
@@ -375,7 +347,6 @@
 
     add-int/lit8 v7, v2, 0x1
 
-    .line 6
     aget-byte v2, v0, v2
 
     int-to-long v8, v2
@@ -392,7 +363,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     aget-byte p1, v0, v2
 
@@ -404,7 +374,6 @@
 
     return-wide v0
 
-    .line 8
     :cond_2
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -432,7 +401,6 @@
 
     move-result-object p1
 
-    .line 9
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;

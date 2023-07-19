@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/core/openglEffect/MTDeformationEffect;Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;F)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/openglEffect/MTDeformationEffect$2;->this$0:Lcom/meitu/core/openglEffect/MTDeformationEffect;
 
     iput-object p2, p0, Lcom/meitu/core/openglEffect/MTDeformationEffect$2;->val$type:Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglEffect/MTDeformationEffect$2;->this$0:Lcom/meitu/core/openglEffect/MTDeformationEffect;
 
     invoke-static {v1}, Lcom/meitu/core/openglEffect/MTDeformationEffect;->access$300(Lcom/meitu/core/openglEffect/MTDeformationEffect;)Lcom/meitu/core/processor/ImageDeformationProcessor;
@@ -65,7 +63,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/core/processor/ImageDeformationProcessor;->setModelValues(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/core/openglEffect/MTDeformationEffect$2;->this$0:Lcom/meitu/core/openglEffect/MTDeformationEffect;
 
     invoke-static {v1}, Lcom/meitu/core/openglEffect/MTDeformationEffect;->access$300(Lcom/meitu/core/openglEffect/MTDeformationEffect;)Lcom/meitu/core/processor/ImageDeformationProcessor;
@@ -76,7 +73,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/core/processor/ImageDeformationProcessor;->setEffectValues(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/core/openglEffect/MTDeformationEffect$2;->this$0:Lcom/meitu/core/openglEffect/MTDeformationEffect;
 
     invoke-static {v1}, Lcom/meitu/core/openglEffect/MTDeformationEffect;->access$300(Lcom/meitu/core/openglEffect/MTDeformationEffect;)Lcom/meitu/core/processor/ImageDeformationProcessor;
@@ -125,7 +121,6 @@
 
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/meitu/core/processor/ImageDeformationProcessor;->drawToTexture(IIII)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

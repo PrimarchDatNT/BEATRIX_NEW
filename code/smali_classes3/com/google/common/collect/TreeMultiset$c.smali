@@ -52,12 +52,10 @@
 .method constructor <init>(Lcom/google/common/collect/TreeMultiset;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/TreeMultiset$c;->c:Lcom/google/common/collect/TreeMultiset;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/TreeMultiset;->access$1600(Lcom/google/common/collect/TreeMultiset;)Lcom/google/common/collect/TreeMultiset$e;
 
     move-result-object p1
@@ -66,7 +64,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lcom/google/common/collect/TreeMultiset$c;->b:Lcom/google/common/collect/m1$a;
 
     return-void
@@ -84,14 +81,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeMultiset$c;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/TreeMultiset$c;->c:Lcom/google/common/collect/TreeMultiset;
 
     iget-object v1, p0, Lcom/google/common/collect/TreeMultiset$c;->a:Lcom/google/common/collect/TreeMultiset$e;
@@ -100,10 +95,8 @@
 
     move-result-object v0
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/collect/TreeMultiset$c;->b:Lcom/google/common/collect/m1$a;
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/TreeMultiset$c;->a:Lcom/google/common/collect/TreeMultiset$e;
 
     invoke-static {v1}, Lcom/google/common/collect/TreeMultiset$e;->n(Lcom/google/common/collect/TreeMultiset$e;)Lcom/google/common/collect/TreeMultiset$e;
@@ -120,12 +113,10 @@
 
     const/4 v1, 0x0
 
-    .line 5
     iput-object v1, p0, Lcom/google/common/collect/TreeMultiset$c;->a:Lcom/google/common/collect/TreeMultiset$e;
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/google/common/collect/TreeMultiset$c;->a:Lcom/google/common/collect/TreeMultiset$e;
 
@@ -138,7 +129,6 @@
     :goto_0
     return-object v0
 
-    .line 7
     :cond_1
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -150,7 +140,6 @@
 .method public hasNext()Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/TreeMultiset$c;->a:Lcom/google/common/collect/TreeMultiset$e;
 
     const/4 v1, 0x0
@@ -159,7 +148,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/TreeMultiset$c;->c:Lcom/google/common/collect/TreeMultiset;
 
@@ -181,7 +169,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/collect/TreeMultiset$c;->a:Lcom/google/common/collect/TreeMultiset$e;
 
     return v1
@@ -195,7 +182,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeMultiset$c;->a()Lcom/google/common/collect/m1$a;
 
     move-result-object v0
@@ -206,7 +192,6 @@
 .method public remove()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/TreeMultiset$c;->b:Lcom/google/common/collect/m1$a;
 
     const/4 v1, 0x0
@@ -223,7 +208,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/collect/m;->e(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/TreeMultiset$c;->c:Lcom/google/common/collect/TreeMultiset;
 
     iget-object v2, p0, Lcom/google/common/collect/TreeMultiset$c;->b:Lcom/google/common/collect/m1$a;
@@ -236,7 +220,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/collect/TreeMultiset$c;->b:Lcom/google/common/collect/m1$a;
 
     return-void

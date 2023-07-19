@@ -49,10 +49,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$p;->a:Ljava/lang/Object;
 
     return-void
@@ -119,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$p;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -135,7 +132,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$p;->a:Ljava/lang/Object;
 
     return-object v0

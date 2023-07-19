@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -98,7 +96,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     instance-of v2, v1, Lcom/commsource/editengine/node/b;
 
     if-eqz v2, :cond_0
@@ -113,10 +110,8 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     check-cast v1, Lcom/commsource/editengine/node/b;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/BaseSubFragment;->s0()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -125,7 +120,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/editengine/node/b;->F(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -146,7 +140,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -158,7 +151,6 @@
 
     throw v1
 
-    .line 8
     :cond_2
     :goto_1
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2$3;
@@ -167,7 +159,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

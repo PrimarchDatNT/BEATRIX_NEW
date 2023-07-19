@@ -18,20 +18,16 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/MTFilterLibrary;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 3
     iput v0, p0, Lcom/meitu/core/MTFilterGLRender;->falpha:F
 
-    .line 4
     new-instance v0, Lcom/meitu/core/MTFilterGLRender$1;
 
     invoke-direct {v0, p0}, Lcom/meitu/core/MTFilterGLRender$1;-><init>(Lcom/meitu/core/MTFilterGLRender;)V
@@ -48,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/MTFilterGLRender;->nCreate()J
 
     move-result-wide v1
@@ -146,10 +141,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/core/MTFilterGLRender;->falpha:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -164,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     :try_start_0
     iget-wide v2, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -189,13 +181,10 @@
 
     const-string v2, " MTFilterGLRender nChangeUniformValue link error. try again!"
 
-    .line 4
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 6
     iget-wide v4, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     move-object v3, p0
@@ -210,7 +199,6 @@
 
     invoke-direct/range {v3 .. v9}, Lcom/meitu/core/MTFilterGLRender;->nChangeUniformValue(JILjava/lang/String;FI)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -228,10 +216,8 @@
 
     const/4 v2, 0x1
 
-    .line 1
     invoke-virtual {p0, v1, p1, p2, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -244,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v2, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -269,13 +254,10 @@
 
     const-string v2, " MTFilterGLRender nChangeUniformValue_floatArray link error. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v4, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     move-object v3, p0
@@ -290,7 +272,6 @@
 
     invoke-direct/range {v3 .. v9}, Lcom/meitu/core/MTFilterGLRender;->nChangeUniformValue_floatArray(JILjava/lang/String;[FI)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -304,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTFilterGLRender;->nCreateEGLContext(J)V
@@ -326,7 +306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -334,10 +313,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -345,10 +322,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -361,7 +336,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -376,18 +350,14 @@
 
     const-string v2, " MTFilterGLRender nIsNeedBlurAlongMask link error. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTFilterGLRender;->nIsNeedBlurAlongMask(JZ)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -401,7 +371,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -416,18 +385,14 @@
 
     const-string v2, " MTFilterGLRender nIsNeedEyeMouthMask link error. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTFilterGLRender;->nIsNeedEyeMouthMask(JZ)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -441,7 +406,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/MTFilterGLRender;->nPreLoadMaterialTexture(JII)Z
@@ -460,7 +424,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTFilterGLRender;->nGLRelease(J)V
@@ -477,12 +440,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTFilterGLRender;->nRenderCutOutMaskBinarProcessToBitmap(JLandroid/graphics/Bitmap;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -495,12 +456,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/MTFilterGLRender;->nRenderCutOutMaskBlurProcessToBitmap(JLandroid/graphics/Bitmap;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -525,7 +484,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     aget v2, p4, v1
 
     float-to-int v2, v2
@@ -548,7 +506,6 @@
 
     aput p4, v8, v1
 
-    .line 2
     iget-wide v3, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     move-object v2, p0
@@ -561,7 +518,6 @@
 
     invoke-direct/range {v2 .. v8}, Lcom/meitu/core/MTFilterGLRender;->nRenderCutOutTearFilterProcessToBitmap(JLandroid/graphics/Bitmap;Landroid/graphics/Bitmap;I[I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -580,7 +536,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-wide v2, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -600,7 +555,6 @@
 
     return-object p1
 
-    .line 2
     :cond_1
     :goto_0
     sget-object p1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
@@ -611,7 +565,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -624,14 +577,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     iget v3, p0, Lcom/meitu/core/MTFilterGLRender;->falpha:F
 
     invoke-direct {p0, v1, v2, p1, v3}, Lcom/meitu/core/MTFilterGLRender;->nRenderToBitmap(JLandroid/graphics/Bitmap;F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -644,7 +595,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -657,7 +607,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/core/MTFilterGLRender;->nRenderToNativeBitmap(JJF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -674,7 +623,6 @@
 
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, v10, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -709,13 +657,10 @@
 
     const-string v1, " MTFilterGLRender nRenderToOutTexture link error. try again!"
 
-    .line 2
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, v10, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     iget v9, v10, Lcom/meitu/core/MTFilterGLRender;->falpha:F
@@ -752,7 +697,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -767,18 +711,14 @@
 
     const-string v2, " MTFilterGLRender nSetFabbyTexture link error. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTFilterGLRender;->nSetFabbyTexture(JI)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -796,7 +736,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     iget v2, p1, Landroid/graphics/RectF;->left:F
 
     const/4 v3, 0x0
@@ -821,7 +760,6 @@
 
     aput p1, v1, v2
 
-    .line 2
     :try_start_0
     iget-wide v2, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -836,18 +774,14 @@
 
     const-string v2, " MTFilterGLRender nSetDisPlayView link error. try again!"
 
-    .line 3
     invoke-static {p1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 5
     iget-wide v2, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v2, v3, v1}, Lcom/meitu/core/MTFilterGLRender;->nSetDisPlayView(J[F)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -863,7 +797,6 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     :try_start_0
     iget-wide v3, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -892,13 +825,10 @@
 
     const-string v4, " MTFilterGLRender nSetFaceData link error. try again!"
 
-    .line 2
     invoke-static {v3, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v3, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     if-eqz p1, :cond_1
@@ -910,7 +840,6 @@
     :cond_1
     invoke-direct {p0, v3, v4, v1, v2}, Lcom/meitu/core/MTFilterGLRender;->nSetFaceData(JJ)V
 
-    .line 5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -926,7 +855,6 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     :try_start_0
     iget-wide v3, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -957,13 +885,10 @@
 
     const-string v4, " MTFilterGLRender nSetFilterData link error. try again!"
 
-    .line 2
     invoke-static {v3, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v3, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     if-eqz p1, :cond_1
@@ -987,7 +912,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/MTFilterGLRender$2;->$SwitchMap$com$meitu$core$MTFilterType$MTFilterScaleType:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1029,7 +953,6 @@
     :cond_2
     const/4 v1, 0x1
 
-    .line 2
     :cond_3
     :goto_0
     :try_start_0
@@ -1046,18 +969,14 @@
 
     const-string v2, " MTFilterGLRender nSetFilterScaleType link error. try again!"
 
-    .line 3
     invoke-static {p1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 5
     iget-wide v2, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v2, v3, v1}, Lcom/meitu/core/MTFilterGLRender;->nSetFilterScaleType(JI)V
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1073,7 +992,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -1088,18 +1006,14 @@
 
     const-string v2, " MTFilterGLRender nSetHairTexture link error. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTFilterGLRender;->nSetHairTexture(JI)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1113,7 +1027,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -1122,10 +1035,8 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTFilterGLRender;->nSetInputImageData(JLandroid/graphics/Bitmap;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1139,7 +1050,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -1154,18 +1064,14 @@
 
     const-string v2, " MTFilterGLRender nSetInputCustomMask link error. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/MTFilterGLRender;->nSetInputCustomMask(JLjava/lang/String;I)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1179,7 +1085,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
@@ -1194,18 +1099,14 @@
 
     const-string v2, " MTFilterGLRender nSetOrientation link error. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTFilterGLRender;->nSetOrientation(JI)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1221,7 +1122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTFilterGLRender;->nSetSkinTexture(JI)V
@@ -1238,7 +1138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTFilterGLRender;->nTerminateEGL(J)V

@@ -69,10 +69,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/squareup/okhttp/HttpUrl$Builder;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/HttpUrl$Builder;-><init>()V
@@ -86,23 +84,19 @@
     :cond_0
     const-string v1, "http"
 
-    .line 3
     :goto_0
     invoke-virtual {v0, v1}, Lcom/squareup/okhttp/HttpUrl$Builder;->scheme(Ljava/lang/String;)Lcom/squareup/okhttp/HttpUrl$Builder;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0, p1}, Lcom/squareup/okhttp/HttpUrl$Builder;->host(Ljava/lang/String;)Lcom/squareup/okhttp/HttpUrl$Builder;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p1, p2}, Lcom/squareup/okhttp/HttpUrl$Builder;->port(I)Lcom/squareup/okhttp/HttpUrl$Builder;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Lcom/squareup/okhttp/HttpUrl$Builder;->build()Lcom/squareup/okhttp/HttpUrl;
 
     move-result-object p1
@@ -111,22 +105,18 @@
 
     if-eqz p3, :cond_6
 
-    .line 7
     iput-object p3, p0, Lcom/squareup/okhttp/Address;->dns:Lcom/squareup/okhttp/Dns;
 
     if-eqz p4, :cond_5
 
-    .line 8
     iput-object p4, p0, Lcom/squareup/okhttp/Address;->socketFactory:Ljavax/net/SocketFactory;
 
     if-eqz p8, :cond_4
 
-    .line 9
     iput-object p8, p0, Lcom/squareup/okhttp/Address;->authenticator:Lcom/squareup/okhttp/Authenticator;
 
     if-eqz p10, :cond_3
 
-    .line 10
     invoke-static {p10}, Lcom/squareup/okhttp/internal/Util;->immutableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
@@ -135,7 +125,6 @@
 
     if-eqz p11, :cond_2
 
-    .line 11
     invoke-static {p11}, Lcom/squareup/okhttp/internal/Util;->immutableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
@@ -144,24 +133,18 @@
 
     if-eqz p12, :cond_1
 
-    .line 12
     iput-object p12, p0, Lcom/squareup/okhttp/Address;->proxySelector:Ljava/net/ProxySelector;
 
-    .line 13
     iput-object p9, p0, Lcom/squareup/okhttp/Address;->proxy:Ljava/net/Proxy;
 
-    .line 14
     iput-object p5, p0, Lcom/squareup/okhttp/Address;->sslSocketFactory:Ljavax/net/ssl/SSLSocketFactory;
 
-    .line 15
     iput-object p6, p0, Lcom/squareup/okhttp/Address;->hostnameVerifier:Ljavax/net/ssl/HostnameVerifier;
 
-    .line 16
     iput-object p7, p0, Lcom/squareup/okhttp/Address;->certificatePinner:Lcom/squareup/okhttp/CertificatePinner;
 
     return-void
 
-    .line 17
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -171,7 +154,6 @@
 
     throw p1
 
-    .line 18
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -181,7 +163,6 @@
 
     throw p1
 
-    .line 19
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -191,7 +172,6 @@
 
     throw p1
 
-    .line 20
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -201,7 +181,6 @@
 
     throw p1
 
-    .line 21
     :cond_5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -211,7 +190,6 @@
 
     throw p1
 
-    .line 22
     :cond_6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -227,17 +205,14 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/squareup/okhttp/Address;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/squareup/okhttp/Address;
 
-    .line 3
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->url:Lcom/squareup/okhttp/HttpUrl;
 
     iget-object v2, p1, Lcom/squareup/okhttp/Address;->url:Lcom/squareup/okhttp/HttpUrl;
@@ -252,7 +227,6 @@
 
     iget-object v2, p1, Lcom/squareup/okhttp/Address;->dns:Lcom/squareup/okhttp/Dns;
 
-    .line 4
     invoke-virtual {v0, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -263,7 +237,6 @@
 
     iget-object v2, p1, Lcom/squareup/okhttp/Address;->authenticator:Lcom/squareup/okhttp/Authenticator;
 
-    .line 5
     invoke-virtual {v0, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -274,7 +247,6 @@
 
     iget-object v2, p1, Lcom/squareup/okhttp/Address;->protocols:Ljava/util/List;
 
-    .line 6
     invoke-interface {v0, v2}, Ljava/util/List;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -285,7 +257,6 @@
 
     iget-object v2, p1, Lcom/squareup/okhttp/Address;->connectionSpecs:Ljava/util/List;
 
-    .line 7
     invoke-interface {v0, v2}, Ljava/util/List;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -296,7 +267,6 @@
 
     iget-object v2, p1, Lcom/squareup/okhttp/Address;->proxySelector:Ljava/net/ProxySelector;
 
-    .line 8
     invoke-virtual {v0, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -307,7 +277,6 @@
 
     iget-object v2, p1, Lcom/squareup/okhttp/Address;->proxy:Ljava/net/Proxy;
 
-    .line 9
     invoke-static {v0, v2}, Lcom/squareup/okhttp/internal/Util;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
@@ -318,7 +287,6 @@
 
     iget-object v2, p1, Lcom/squareup/okhttp/Address;->sslSocketFactory:Ljavax/net/ssl/SSLSocketFactory;
 
-    .line 10
     invoke-static {v0, v2}, Lcom/squareup/okhttp/internal/Util;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
@@ -329,7 +297,6 @@
 
     iget-object v2, p1, Lcom/squareup/okhttp/Address;->hostnameVerifier:Ljavax/net/ssl/HostnameVerifier;
 
-    .line 11
     invoke-static {v0, v2}, Lcom/squareup/okhttp/internal/Util;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
@@ -340,7 +307,6 @@
 
     iget-object p1, p1, Lcom/squareup/okhttp/Address;->certificatePinner:Lcom/squareup/okhttp/CertificatePinner;
 
-    .line 12
     invoke-static {v0, p1}, Lcom/squareup/okhttp/internal/Util;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -356,7 +322,6 @@
 .method public getAuthenticator()Lcom/squareup/okhttp/Authenticator;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->authenticator:Lcom/squareup/okhttp/Authenticator;
 
     return-object v0
@@ -365,7 +330,6 @@
 .method public getCertificatePinner()Lcom/squareup/okhttp/CertificatePinner;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->certificatePinner:Lcom/squareup/okhttp/CertificatePinner;
 
     return-object v0
@@ -382,7 +346,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->connectionSpecs:Ljava/util/List;
 
     return-object v0
@@ -391,7 +354,6 @@
 .method public getDns()Lcom/squareup/okhttp/Dns;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->dns:Lcom/squareup/okhttp/Dns;
 
     return-object v0
@@ -400,7 +362,6 @@
 .method public getHostnameVerifier()Ljavax/net/ssl/HostnameVerifier;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->hostnameVerifier:Ljavax/net/ssl/HostnameVerifier;
 
     return-object v0
@@ -417,7 +378,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->protocols:Ljava/util/List;
 
     return-object v0
@@ -426,7 +386,6 @@
 .method public getProxy()Ljava/net/Proxy;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->proxy:Ljava/net/Proxy;
 
     return-object v0
@@ -435,7 +394,6 @@
 .method public getProxySelector()Ljava/net/ProxySelector;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->proxySelector:Ljava/net/ProxySelector;
 
     return-object v0
@@ -444,7 +402,6 @@
 .method public getSocketFactory()Ljavax/net/SocketFactory;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->socketFactory:Ljavax/net/SocketFactory;
 
     return-object v0
@@ -453,7 +410,6 @@
 .method public getSslSocketFactory()Ljavax/net/ssl/SSLSocketFactory;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->sslSocketFactory:Ljavax/net/ssl/SSLSocketFactory;
 
     return-object v0
@@ -464,7 +420,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->url:Lcom/squareup/okhttp/HttpUrl;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/HttpUrl;->host()Ljava/lang/String;
@@ -479,7 +434,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->url:Lcom/squareup/okhttp/HttpUrl;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/HttpUrl;->port()I
@@ -492,7 +446,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->url:Lcom/squareup/okhttp/HttpUrl;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/HttpUrl;->hashCode()I
@@ -505,7 +458,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->dns:Lcom/squareup/okhttp/Dns;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -516,7 +468,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 3
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->authenticator:Lcom/squareup/okhttp/Authenticator;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -527,7 +478,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 4
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->protocols:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->hashCode()I
@@ -538,7 +488,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 5
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->connectionSpecs:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->hashCode()I
@@ -549,7 +498,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 6
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->proxySelector:Ljava/net/ProxySelector;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -560,7 +508,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 7
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->proxy:Ljava/net/Proxy;
 
     const/4 v2, 0x0
@@ -581,7 +528,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 8
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->sslSocketFactory:Ljavax/net/ssl/SSLSocketFactory;
 
     if-eqz v0, :cond_1
@@ -600,7 +546,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 9
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->hostnameVerifier:Ljavax/net/ssl/HostnameVerifier;
 
     if-eqz v0, :cond_2
@@ -619,7 +564,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 10
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->certificatePinner:Lcom/squareup/okhttp/CertificatePinner;
 
     if-eqz v0, :cond_3
@@ -637,7 +581,6 @@
 .method public url()Lcom/squareup/okhttp/HttpUrl;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Address;->url:Lcom/squareup/okhttp/HttpUrl;
 
     return-object v0

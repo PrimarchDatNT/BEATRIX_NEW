@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/network/MoPubImageLoader$ImageCache;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/MoPubImageLoader$volleyImageCache$1;->$cache:Lcom/mopub/network/MoPubImageLoader$ImageCache;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubImageLoader$volleyImageCache$1;->$cache:Lcom/mopub/network/MoPubImageLoader$ImageCache;
 
     invoke-interface {v0, p1}, Lcom/mopub/network/MoPubImageLoader$ImageCache;->getBitmap(Ljava/lang/String;)Landroid/graphics/Bitmap;
@@ -79,7 +77,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubImageLoader$volleyImageCache$1;->$cache:Lcom/mopub/network/MoPubImageLoader$ImageCache;
 
     invoke-interface {v0, p1, p2}, Lcom/mopub/network/MoPubImageLoader$ImageCache;->putBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;)V

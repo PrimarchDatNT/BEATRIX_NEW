@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/armaterial/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/i$a;->a:Lcom/commsource/beautyplus/armaterial/i;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +43,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     const-class v1, Lcom/meitu/http/api/ArApi;
 
     invoke-static {v1}, Lf/k/k/s;->n(Ljava/lang/Class;)Ljava/lang/Object;
@@ -55,7 +53,6 @@
 
     iget-object v2, p0, Lcom/commsource/beautyplus/armaterial/i$a;->a:Lcom/commsource/beautyplus/armaterial/i;
 
-    .line 2
     invoke-static {v2}, Lcom/commsource/beautyplus/armaterial/i;->A(Lcom/commsource/beautyplus/armaterial/i;)Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;
 
     move-result-object v2
@@ -82,7 +79,6 @@
 
     invoke-virtual {v1, v2, v3, p1, v4}, Lcom/meitu/http/api/ArApi;->d(Ljava/lang/String;ZLjava/lang/String;Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

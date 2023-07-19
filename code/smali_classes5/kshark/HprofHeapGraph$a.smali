@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/HprofHeapGraph$a;-><init>()V
 
     return-void
@@ -56,7 +54,6 @@
 
     const/4 p4, 0x0
 
-    .line 1
     const-class v0, Lkshark/d$e;
 
     invoke-static {v0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -67,7 +64,6 @@
 
     const/4 p4, 0x1
 
-    .line 2
     const-class v0, Lkshark/d$d;
 
     invoke-static {v0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -76,7 +72,6 @@
 
     aput-object v0, p3, p4
 
-    .line 3
     const-class p4, Lkshark/d$f;
 
     invoke-static {p4}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -89,7 +84,6 @@
 
     const/4 p4, 0x3
 
-    .line 4
     const-class v0, Lkshark/d$h;
 
     invoke-static {v0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -98,7 +92,6 @@
 
     aput-object v0, p3, p4
 
-    .line 5
     const-class p4, Lkshark/d$i;
 
     invoke-static {p4}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -109,7 +102,6 @@
 
     const/4 p4, 0x5
 
-    .line 6
     const-class p5, Lkshark/d$k;
 
     invoke-static {p5}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -120,7 +112,6 @@
 
     const/4 p4, 0x6
 
-    .line 7
     const-class p5, Lkshark/d$l;
 
     invoke-static {p5}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -131,7 +122,6 @@
 
     const/4 p4, 0x7
 
-    .line 8
     const-class p5, Lkshark/d$m;
 
     invoke-static {p5}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -142,7 +132,6 @@
 
     const/16 p4, 0x8
 
-    .line 9
     const-class p5, Lkshark/d$g;
 
     invoke-static {p5}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -151,7 +140,6 @@
 
     aput-object p5, p3, p4
 
-    .line 10
     invoke-static {p3}, Lcotlin/collections/b1;->u([Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p3
@@ -206,14 +194,12 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lkshark/internal/HprofInMemoryIndex;->l:Lkshark/internal/HprofInMemoryIndex$b;
 
     invoke-virtual {v0, p1, p2, p3}, Lkshark/internal/HprofInMemoryIndex$b;->c(Lkshark/Hprof;Lkshark/x;Ljava/util/Set;)Lkshark/internal/HprofInMemoryIndex;
 
     move-result-object p2
 
-    .line 2
     new-instance p3, Lkshark/HprofHeapGraph;
 
     invoke-direct {p3, p1, p2}, Lkshark/HprofHeapGraph;-><init>(Lkshark/Hprof;Lkshark/internal/HprofInMemoryIndex;)V

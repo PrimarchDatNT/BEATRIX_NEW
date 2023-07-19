@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/internal/f1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/f1$b;->a:Lio/grpc/internal/f1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,14 +37,12 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f1$b;->a:Lio/grpc/internal/f1;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lio/grpc/internal/f1;->K(Lio/grpc/internal/f1;Lio/grpc/w1$c;)Lio/grpc/w1$c;
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/f1$b;->a:Lio/grpc/internal/f1;
 
     invoke-static {v0}, Lio/grpc/internal/f1;->A(Lio/grpc/internal/f1;)Lio/grpc/ChannelLogger;
@@ -58,14 +55,12 @@
 
     invoke-virtual {v0, v1, v2}, Lio/grpc/ChannelLogger;->a(Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/f1$b;->a:Lio/grpc/internal/f1;
 
     sget-object v1, Lio/grpc/ConnectivityState;->CONNECTING:Lio/grpc/ConnectivityState;
 
     invoke-static {v0, v1}, Lio/grpc/internal/f1;->I(Lio/grpc/internal/f1;Lio/grpc/ConnectivityState;)V
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/f1$b;->a:Lio/grpc/internal/f1;
 
     invoke-static {v0}, Lio/grpc/internal/f1;->J(Lio/grpc/internal/f1;)V

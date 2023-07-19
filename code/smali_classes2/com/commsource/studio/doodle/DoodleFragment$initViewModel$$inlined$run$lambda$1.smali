@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$run$lambda$1;->invoke(Lcom/commsource/studio/doodle/DoodleMaterial;)V
@@ -80,7 +79,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getListDisplay()I
 
     move-result v1
@@ -101,13 +99,11 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$run$lambda$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->f0(Lcom/commsource/studio/doodle/DoodleFragment;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$run$lambda$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->d0(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/comic/widget/c;
@@ -122,7 +118,6 @@
 
     if-ne v1, v3, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$run$lambda$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCategoryId()Ljava/lang/String;
@@ -135,7 +130,6 @@
 
     invoke-static {v1, v2, v4}, Lcom/commsource/studio/doodle/DoodleFragment;->p0(Lcom/commsource/studio/doodle/DoodleFragment;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$run$lambda$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -175,12 +169,10 @@
     :goto_0
     if-eqz v1, :cond_3
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$run$lambda$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {p1, v1}, Lcom/commsource/studio/doodle/DoodleFragment;->T(Lcom/commsource/studio/doodle/DoodleFragment;Lcom/commsource/studio/doodle/i;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$run$lambda$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodleFragment;->Z(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/beautyplus/f0/o7;
@@ -195,7 +187,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$run$lambda$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodleFragment;->Z(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/beautyplus/f0/o7;
@@ -206,7 +197,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/component/PaintEraserComponent;->j()V
 
-    .line 10
     :cond_3
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$run$lambda$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -222,7 +212,6 @@
 
     if-ne p1, v3, :cond_4
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$run$lambda$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodleFragment;->d0(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/comic/widget/c;
@@ -233,7 +222,6 @@
 
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 12
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

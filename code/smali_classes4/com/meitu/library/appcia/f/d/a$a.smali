@@ -30,22 +30,16 @@
 .method public constructor <init>(ILjava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/meitu/library/appcia/f/d/a$a;->a:I
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/library/appcia/f/d/a$a;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/library/appcia/f/d/a$a;->c:Ljava/lang/Throwable;
 
-    .line 5
     iput-object p4, p0, Lcom/meitu/library/appcia/f/d/a$a;->d:Ljava/lang/String;
 
-    .line 6
     iput-object p5, p0, Lcom/meitu/library/appcia/f/d/a$a;->e:[Ljava/lang/Object;
 
     return-void
@@ -60,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v2, p0, Lcom/meitu/library/appcia/f/d/a$a;->a:I
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -89,7 +82,6 @@
 
     invoke-interface/range {v1 .. v6}, Lcom/meitu/library/appcia/f/d/b;->a(ILjava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

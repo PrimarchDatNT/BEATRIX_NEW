@@ -31,7 +31,6 @@
 
     const/4 v0, 0x0
 
-    .line 5
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/component/AutoManualPanelComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -54,7 +53,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/component/AutoManualPanelComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -75,7 +73,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/ComponentView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -97,7 +94,6 @@
 
     const/4 p3, 0x0
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/AutoManualPanelComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -113,7 +109,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/component/AutoManualPanelComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -127,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/component/AutoManualPanelComponent;->d:Lcom/commsource/studio/component/AutoManualComponent$b;
 
     if-nez p0, :cond_0
@@ -149,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/component/AutoManualPanelComponent;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -164,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/component/AutoManualPanelComponent;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -179,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/AutoManualPanelComponent;->d:Lcom/commsource/studio/component/AutoManualComponent$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -200,7 +191,6 @@
 
     move-object p1, p0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/AutoManualPanelComponent;->j(Landroid/view/View;)V
 
@@ -222,7 +212,6 @@
 
     move-object p1, p0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/AutoManualPanelComponent;->m(Landroid/view/View;)V
 
@@ -317,7 +306,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -330,12 +318,10 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/commsource/studio/component/AutoManualPanelComponent$a;
 
     invoke-direct {v2, p1}, Lcom/commsource/studio/component/AutoManualPanelComponent$a;-><init>(Landroid/view/View;)V
@@ -344,7 +330,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance v1, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v1}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -355,7 +340,6 @@
 
     const/high16 v1, 0x41a00000    # 20.0f
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -366,22 +350,18 @@
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const-wide/16 v1, 0xc8
 
-    .line 7
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -394,7 +374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/component/AutoManualPanelComponent;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -417,24 +396,20 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->setAlpha(F)V
 
     const/high16 v2, 0x41a00000    # 20.0f
 
-    .line 3
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v2
 
     invoke-virtual {p1, v2}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v2
@@ -447,12 +422,10 @@
 
     invoke-virtual {v2}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 5
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 6
     new-instance v2, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v2}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -461,29 +434,24 @@
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 8
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const-wide/16 v1, 0xc8
 
-    .line 9
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -512,7 +480,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     const-class p1, Lcom/commsource/studio/component/AutoManualComponent$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/ComponentView;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -523,14 +490,12 @@
 
     iput-object p1, p0, Lcom/commsource/studio/component/AutoManualPanelComponent;->d:Lcom/commsource/studio/component/AutoManualComponent$b;
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/component/AutoManualPanelComponent$b;
 
     invoke-direct {p1, p0, p2}, Lcom/commsource/studio/component/AutoManualPanelComponent$b;-><init>(Lcom/commsource/studio/component/AutoManualPanelComponent;Landroidx/lifecycle/LifecycleOwner;)V
 
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->post(Ljava/lang/Runnable;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -543,7 +508,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/component/AutoManualPanelComponent;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

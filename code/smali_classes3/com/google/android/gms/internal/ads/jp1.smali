@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/kp1;-><init>(Lcom/google/android/gms/internal/ads/rq1;Ljava/lang/Class;Ljava/lang/Object;)V
 
     return-void
@@ -47,10 +46,8 @@
 .method final synthetic I(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/rq1;
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/ads/zzdtu;->k(Lcom/google/android/gms/internal/ads/rq1;)Z
 
     return-void
@@ -64,17 +61,14 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/xp1;
 
-    .line 2
     invoke-interface {p1, p2}, Lcom/google/android/gms/internal/ads/xp1;->d(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p2
 
     const-string v0, "AsyncFunction.apply returned null instead of a Future. Did you mean to return immediateFuture(null)? %s"
 
-    .line 3
     invoke-static {p2, v0, p1}, Lcom/google/android/gms/internal/ads/lo1;->d(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p2

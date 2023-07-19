@@ -7,7 +7,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/appsflyer/internal/referrer/Referrer;-><init>(Ljava/lang/String;Ljava/lang/Runnable;)V
 
     return-void

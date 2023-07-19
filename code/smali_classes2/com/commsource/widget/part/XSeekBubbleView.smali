@@ -100,17 +100,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     new-instance p2, Landroid/widget/TextView;
 
     invoke-direct {p2, p1}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
     iput-object p2, p0, Lcom/commsource/widget/part/XSeekBubbleView;->a:Landroid/widget/TextView;
 
-    .line 4
     new-instance p3, Landroid/widget/ImageView;
 
     invoke-direct {p3, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
@@ -119,10 +116,8 @@
 
     sget p1, Lcom/res/provider/ResDRAWABLE;->common_slider_icon_segmented_bubble:I
 
-    .line 5
     invoke-virtual {p3, p1}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
-    .line 6
     new-instance p1, Landroid/widget/RelativeLayout$LayoutParams;
 
     const/4 v0, -0x2
@@ -133,28 +128,22 @@
 
     const/4 v2, -0x1
 
-    .line 7
     invoke-virtual {p1, v1, v2}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
-    .line 8
     invoke-virtual {p0, p3, p1}, Landroid/widget/RelativeLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     const/high16 p1, -0x1000000
 
-    .line 9
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setTextColor(I)V
 
     const/high16 p1, 0x41880000    # 17.0f
 
-    .line 10
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setTextSize(F)V
 
     const/16 p1, 0x11
 
-    .line 11
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setGravity(I)V
 
-    .line 12
     new-instance p1, Landroid/widget/RelativeLayout$LayoutParams;
 
     const/high16 p3, 0x42480000    # 50.0f
@@ -165,15 +154,12 @@
 
     invoke-direct {p1, p3, v0}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 13
     invoke-virtual {p1, v1, v2}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
-    .line 14
     invoke-virtual {p0, p2, p1}, Landroid/widget/RelativeLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     const/4 p1, 0x0
 
-    .line 15
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
     return-void
@@ -195,7 +181,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/part/XSeekBubbleView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -211,15 +196,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/widget/XSeekBar$b$a;->c(Lcom/commsource/widget/XSeekBar$b;IF)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/part/XSeekBubbleView;->c:Lcom/commsource/widget/XSeekBar;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/view/View;->getTop()I
 
     move-result v1
@@ -236,7 +218,6 @@
 
     invoke-virtual {p0, v1}, Landroid/widget/RelativeLayout;->setTranslationY(F)V
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getWidth()I
 
@@ -252,7 +233,6 @@
 
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->setTranslationX(F)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/widget/part/XSeekBubbleView;->a:Landroid/widget/TextView;
 
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -261,14 +241,12 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 7
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -281,22 +259,18 @@
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 8
     invoke-virtual {p1, p2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const-wide/16 v1, 0xc8
 
-    .line 9
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -309,10 +283,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getWidth()I
 
     move-result p3
@@ -327,7 +299,6 @@
 
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->setTranslationX(F)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/widget/part/XSeekBubbleView;->a:Landroid/widget/TextView;
 
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -336,7 +307,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -349,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->b(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -437,15 +406,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/part/XSeekBubbleView;->c:Lcom/commsource/widget/XSeekBar;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1, p0}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -461,7 +427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/part/XSeekBubbleView;->b:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -478,7 +443,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/part/XSeekBubbleView;->a:Landroid/widget/TextView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -493,10 +457,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->d(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getWidth()I
 
     move-result p3
@@ -511,7 +473,6 @@
 
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->setTranslationX(F)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/widget/part/XSeekBubbleView;->a:Landroid/widget/TextView;
 
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -522,17 +483,14 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -545,22 +503,18 @@
 
     const-wide/16 p2, 0xc8
 
-    .line 7
     invoke-virtual {p1, p2, p3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const/4 p2, 0x0
 
-    .line 8
     invoke-virtual {p1, p2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

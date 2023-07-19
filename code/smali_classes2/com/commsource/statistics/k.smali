@@ -19,12 +19,10 @@
 
     const-string v1, "MTFacebookAgent"
 
-    .line 1
     sput-object v1, Lcom/commsource/statistics/k;->a:Ljava/lang/String;
 
     const/4 v1, 0x0
 
-    .line 2
     sput-object v1, Lcom/commsource/statistics/k;->b:Lcom/facebook/appevents/AppEventsLogger;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -35,7 +33,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -48,17 +45,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/statistics/k;->b:Lcom/facebook/appevents/AppEventsLogger;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/statistics/k;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/statistics/k;->b:Lcom/facebook/appevents/AppEventsLogger;
 
@@ -72,14 +66,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 4
     invoke-static {p0}, Lcom/facebook/appevents/AppEventsLogger;->newLogger(Landroid/content/Context;)Lcom/facebook/appevents/AppEventsLogger;
 
     move-result-object p0
 
     sput-object p0, Lcom/commsource/statistics/k;->b:Lcom/facebook/appevents/AppEventsLogger;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -96,7 +88,6 @@
 
     throw p0
 
-    .line 6
     :cond_1
     :goto_0
     sget-object p0, Lcom/commsource/statistics/k;->b:Lcom/facebook/appevents/AppEventsLogger;
@@ -115,12 +106,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -128,12 +117,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     invoke-static {p0}, Lcom/commsource/statistics/k;->a(Landroid/content/Context;)Lcom/facebook/appevents/AppEventsLogger;
 
@@ -141,19 +128,16 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     sget-object v1, Lcom/commsource/statistics/k;->a:Ljava/lang/String;
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {p0}, Lcom/commsource/statistics/k;->a(Landroid/content/Context;)Lcom/facebook/appevents/AppEventsLogger;
 
     move-result-object p0
 
     invoke-virtual {p0, p1}, Lcom/facebook/appevents/AppEventsLogger;->logEvent(Ljava/lang/String;)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -169,12 +153,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -182,12 +164,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     invoke-static {p0}, Lcom/commsource/statistics/k;->a(Landroid/content/Context;)Lcom/facebook/appevents/AppEventsLogger;
 
@@ -197,14 +177,12 @@
 
     if-eqz p4, :cond_2
 
-    .line 5
     invoke-static {p0}, Lcom/commsource/statistics/k;->a(Landroid/content/Context;)Lcom/facebook/appevents/AppEventsLogger;
 
     move-result-object p0
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/facebook/appevents/AppEventsLogger;->logEvent(Ljava/lang/String;DLandroid/os/Bundle;)V
 
-    .line 6
     sget-object p0, Lcom/commsource/statistics/k;->a:Ljava/lang/String;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -227,7 +205,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {p0}, Lcom/commsource/statistics/k;->a(Landroid/content/Context;)Lcom/facebook/appevents/AppEventsLogger;
 
@@ -235,12 +212,10 @@
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/facebook/appevents/AppEventsLogger;->logEvent(Ljava/lang/String;D)V
 
-    .line 8
     sget-object p0, Lcom/commsource/statistics/k;->a:Ljava/lang/String;
 
     invoke-static {p0, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -257,12 +232,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -270,12 +243,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     invoke-static {p0}, Lcom/commsource/statistics/k;->a(Landroid/content/Context;)Lcom/facebook/appevents/AppEventsLogger;
 
@@ -285,14 +256,12 @@
 
     if-eqz p2, :cond_2
 
-    .line 5
     invoke-static {p0}, Lcom/commsource/statistics/k;->a(Landroid/content/Context;)Lcom/facebook/appevents/AppEventsLogger;
 
     move-result-object p0
 
     invoke-virtual {p0, p1, p2}, Lcom/facebook/appevents/AppEventsLogger;->logEvent(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 6
     sget-object p0, Lcom/commsource/statistics/k;->a:Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -315,7 +284,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {p0}, Lcom/commsource/statistics/k;->a(Landroid/content/Context;)Lcom/facebook/appevents/AppEventsLogger;
 
@@ -323,12 +291,10 @@
 
     invoke-virtual {p0, p1}, Lcom/facebook/appevents/AppEventsLogger;->logEvent(Ljava/lang/String;)V
 
-    .line 8
     sget-object p0, Lcom/commsource/statistics/k;->a:Ljava/lang/String;
 
     invoke-static {p0, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

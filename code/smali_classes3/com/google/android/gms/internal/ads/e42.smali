@@ -27,10 +27,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/x12;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/e42;->a:Lcom/google/android/gms/internal/ads/x12;
 
     return-void
@@ -39,7 +37,6 @@
 .method static synthetic b(Lcom/google/android/gms/internal/ads/e42;)Lcom/google/android/gms/internal/ads/x12;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/e42;->a:Lcom/google/android/gms/internal/ads/x12;
 
     return-object p0
@@ -56,7 +53,6 @@
 .method public final V0(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/e42;->a:Lcom/google/android/gms/internal/ads/x12;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/ads/x12;->V0(I)Ljava/lang/Object;
@@ -76,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/e42;->a:Lcom/google/android/gms/internal/ads/x12;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/x12;->b0()Ljava/util/List;
@@ -89,7 +84,6 @@
 .method public final synthetic get(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/e42;->a:Lcom/google/android/gms/internal/ads/x12;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -112,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/g42;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/g42;-><init>(Lcom/google/android/gms/internal/ads/e42;)V
@@ -131,7 +124,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/d42;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/ads/d42;-><init>(Lcom/google/android/gms/internal/ads/e42;I)V
@@ -142,7 +134,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/e42;->a:Lcom/google/android/gms/internal/ads/x12;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -155,7 +146,6 @@
 .method public final x0(Lcom/google/android/gms/internal/ads/zzeer;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V

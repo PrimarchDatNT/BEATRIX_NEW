@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$e;->e:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/delegate/process/m;-><init>(Ljava/lang/String;)V
@@ -49,7 +48,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance p1, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$e$a;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$e$a;-><init>(Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$e;)V
@@ -58,7 +56,6 @@
 
     invoke-static {p1, v1, v2}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

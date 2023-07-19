@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/squareup/okhttp/internal/DiskLruCache;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/internal/DiskLruCache$1;->this$0:Lcom/squareup/okhttp/internal/DiskLruCache;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,12 +37,10 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/DiskLruCache$1;->this$0:Lcom/squareup/okhttp/internal/DiskLruCache;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/squareup/okhttp/internal/DiskLruCache$1;->this$0:Lcom/squareup/okhttp/internal/DiskLruCache;
 
@@ -73,21 +70,18 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return-void
 
-    .line 4
     :cond_1
     :try_start_1
     iget-object v1, p0, Lcom/squareup/okhttp/internal/DiskLruCache$1;->this$0:Lcom/squareup/okhttp/internal/DiskLruCache;
 
     invoke-static {v1}, Lcom/squareup/okhttp/internal/DiskLruCache;->access$200(Lcom/squareup/okhttp/internal/DiskLruCache;)V
 
-    .line 5
     iget-object v1, p0, Lcom/squareup/okhttp/internal/DiskLruCache$1;->this$0:Lcom/squareup/okhttp/internal/DiskLruCache;
 
     invoke-static {v1}, Lcom/squareup/okhttp/internal/DiskLruCache;->access$300(Lcom/squareup/okhttp/internal/DiskLruCache;)Z
@@ -96,12 +90,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     iget-object v1, p0, Lcom/squareup/okhttp/internal/DiskLruCache$1;->this$0:Lcom/squareup/okhttp/internal/DiskLruCache;
 
     invoke-static {v1}, Lcom/squareup/okhttp/internal/DiskLruCache;->access$400(Lcom/squareup/okhttp/internal/DiskLruCache;)V
 
-    .line 7
     iget-object v1, p0, Lcom/squareup/okhttp/internal/DiskLruCache$1;->this$0:Lcom/squareup/okhttp/internal/DiskLruCache;
 
     invoke-static {v1, v2}, Lcom/squareup/okhttp/internal/DiskLruCache;->access$502(Lcom/squareup/okhttp/internal/DiskLruCache;I)I
@@ -109,7 +101,6 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 8
     :cond_2
     :try_start_2
     monitor-exit v0
@@ -119,7 +110,6 @@
     :catch_0
     move-exception v1
 
-    .line 9
     new-instance v2, Ljava/lang/RuntimeException;
 
     invoke-direct {v2, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -129,7 +119,6 @@
     :catchall_0
     move-exception v1
 
-    .line 10
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0

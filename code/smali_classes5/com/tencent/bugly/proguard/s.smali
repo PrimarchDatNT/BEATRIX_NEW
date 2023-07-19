@@ -26,15 +26,12 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/tencent/bugly/proguard/s;->a:Ljava/util/Map;
 
-    .line 3
     iput-object p1, p0, Lcom/tencent/bugly/proguard/s;->c:Landroid/content/Context;
 
     return-void
@@ -43,19 +40,16 @@
 .method public static a(Landroid/content/Context;)Lcom/tencent/bugly/proguard/s;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/tencent/bugly/proguard/s;->b:Lcom/tencent/bugly/proguard/s;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/tencent/bugly/proguard/s;
 
     invoke-direct {v0, p0}, Lcom/tencent/bugly/proguard/s;-><init>(Landroid/content/Context;)V
 
     sput-object v0, Lcom/tencent/bugly/proguard/s;->b:Lcom/tencent/bugly/proguard/s;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/tencent/bugly/proguard/s;->b:Lcom/tencent/bugly/proguard/s;
 
@@ -65,20 +59,17 @@
 .method private static a(Ljava/lang/String;Ljava/lang/String;)Ljava/net/HttpURLConnection;
     .locals 2
 
-    .line 66
     :try_start_0
     new-instance v0, Ljava/net/URL;
 
     invoke-direct {v0, p1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 67
     invoke-static {}, Lcom/tencent/bugly/proguard/a;->b()Ljava/net/Proxy;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 68
     invoke-static {}, Lcom/tencent/bugly/proguard/a;->b()Ljava/net/Proxy;
 
     move-result-object p0
@@ -94,7 +85,6 @@
     :cond_0
     if-eqz p0, :cond_1
 
-    .line 69
     sget-object p1, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     invoke-virtual {p0, p1}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
@@ -111,19 +101,16 @@
 
     const-string p0, "http.proxyHost"
 
-    .line 70
     invoke-static {p0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
     const-string p1, "http.proxyPort"
 
-    .line 71
     invoke-static {p1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 72
     new-instance v1, Ljava/net/InetSocketAddress;
 
     invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -132,14 +119,12 @@
 
     invoke-direct {v1, p0, p1}, Ljava/net/InetSocketAddress;-><init>(Ljava/lang/String;I)V
 
-    .line 73
     new-instance p0, Ljava/net/Proxy;
 
     sget-object p1, Ljava/net/Proxy$Type;->HTTP:Ljava/net/Proxy$Type;
 
     invoke-direct {p0, p1, v1}, Ljava/net/Proxy;-><init>(Ljava/net/Proxy$Type;Ljava/net/SocketAddress;)V
 
-    .line 74
     invoke-virtual {v0, p0}, Ljava/net/URL;->openConnection(Ljava/net/Proxy;)Ljava/net/URLConnection;
 
     move-result-object p0
@@ -148,7 +133,6 @@
 
     goto :goto_0
 
-    .line 75
     :cond_1
     invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
@@ -159,33 +143,26 @@
     :goto_0
     const/16 p1, 0x7530
 
-    .line 76
     invoke-virtual {p0, p1}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
 
     const/16 p1, 0x2710
 
-    .line 77
     invoke-virtual {p0, p1}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
 
     const/4 p1, 0x1
 
-    .line 78
     invoke-virtual {p0, p1}, Ljava/net/HttpURLConnection;->setDoOutput(Z)V
 
-    .line 79
     invoke-virtual {p0, p1}, Ljava/net/HttpURLConnection;->setDoInput(Z)V
 
     const-string p1, "POST"
 
-    .line 80
     invoke-virtual {p0, p1}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 81
     invoke-virtual {p0, p1}, Ljava/net/HttpURLConnection;->setUseCaches(Z)V
 
-    .line 82
     invoke-virtual {p0, p1}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -195,14 +172,12 @@
     :catchall_0
     move-exception p0
 
-    .line 83
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result p1
 
     if-nez p1, :cond_2
 
-    .line 84
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_2
@@ -237,7 +212,6 @@
 
     const-string p2, "destUrl is null."
 
-    .line 50
     invoke-static {p2, p1}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v0
@@ -247,7 +221,6 @@
 
     new-array v2, v2, [Ljavax/net/ssl/TrustManager;
 
-    .line 51
     new-instance v3, Lcom/tencent/bugly/proguard/s$a;
 
     invoke-direct {v3}, Lcom/tencent/bugly/proguard/s$a;-><init>()V
@@ -282,7 +255,6 @@
 
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 52
     :goto_0
     invoke-static {p3, p1}, Lcom/tencent/bugly/proguard/s;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/net/HttpURLConnection;
 
@@ -294,7 +266,6 @@
 
     const-string p2, "Failed to get HttpURLConnection object."
 
-    .line 53
     invoke-static {p2, p1}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v0
@@ -305,7 +276,6 @@
 
     const-string v3, "3.0"
 
-    .line 54
     invoke-virtual {p1, v2, v3}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -314,7 +284,6 @@
 
     if-eqz p4, :cond_2
 
-    .line 55
     :try_start_2
     invoke-interface {p4}, Ljava/util/Map;->size()I
 
@@ -322,7 +291,6 @@
 
     if-lez v3, :cond_2
 
-    .line 56
     invoke-interface {p4}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p4
@@ -344,7 +312,6 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 57
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -368,7 +335,6 @@
     :cond_2
     const-string p4, "A37"
 
-    .line 58
     invoke-static {p3, v2}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -377,26 +343,22 @@
 
     const-string p4, "A38"
 
-    .line 59
     invoke-static {p3, v2}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p3
 
     invoke-virtual {p1, p4, p3}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 60
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
 
     move-result-object p3
 
     if-nez p2, :cond_3
 
-    .line 61
     invoke-virtual {p3, v1}, Ljava/io/OutputStream;->write(I)V
 
     goto :goto_2
 
-    .line 62
     :cond_3
     invoke-virtual {p3, p2}, Ljava/io/OutputStream;->write([B)V
     :try_end_2
@@ -408,14 +370,12 @@
     :catchall_0
     move-exception p1
 
-    .line 63
     invoke-static {p1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result p2
 
     if-nez p2, :cond_4
 
-    .line 64
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_4
@@ -423,7 +383,6 @@
 
     const-string p2, "Failed to upload, please check your network."
 
-    .line 65
     invoke-static {p2, p1}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v0
@@ -443,19 +402,16 @@
         }
     .end annotation
 
-    .line 43
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 44
     invoke-virtual {p0}, Ljava/net/HttpURLConnection;->getHeaderFields()Ljava/util/Map;
 
     move-result-object p0
 
     if-eqz p0, :cond_3
 
-    .line 45
     invoke-interface {p0}, Ljava/util/Map;->size()I
 
     move-result v1
@@ -464,7 +420,6 @@
 
     goto :goto_1
 
-    .line 46
     :cond_0
     invoke-interface {p0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
@@ -488,14 +443,12 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 47
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/util/List;
 
-    .line 48
     invoke-interface {v3}, Ljava/util/List;->size()I
 
     move-result v4
@@ -504,7 +457,6 @@
 
     const/4 v4, 0x0
 
-    .line 49
     invoke-interface {v3, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -532,7 +484,6 @@
 
     return-object v0
 
-    .line 1
     :cond_0
     :try_start_0
     new-instance v1, Ljava/io/BufferedInputStream;
@@ -545,7 +496,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 2
     :try_start_1
     new-instance p0, Ljava/io/ByteArrayOutputStream;
 
@@ -555,7 +505,6 @@
 
     new-array v2, v2, [B
 
-    .line 3
     :goto_0
     invoke-virtual {v1, v2}, Ljava/io/BufferedInputStream;->read([B)I
 
@@ -565,23 +514,19 @@
 
     const/4 v4, 0x0
 
-    .line 4
     invoke-virtual {p0, v2, v4, v3}, Ljava/io/ByteArrayOutputStream;->write([BII)V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Ljava/io/ByteArrayOutputStream;->flush()V
 
-    .line 6
     invoke-virtual {p0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 7
     :try_start_2
     invoke-virtual {v1}, Ljava/io/BufferedInputStream;->close()V
     :try_end_2
@@ -592,7 +537,6 @@
     :catchall_0
     move-exception v0
 
-    .line 8
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_1
@@ -608,7 +552,6 @@
 
     move-object v1, v0
 
-    .line 9
     :goto_2
     :try_start_3
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
@@ -617,7 +560,6 @@
 
     if-nez v2, :cond_2
 
-    .line 10
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_4
@@ -625,7 +567,6 @@
     :cond_2
     if-eqz v1, :cond_3
 
-    .line 11
     :try_start_4
     invoke-virtual {v1}, Ljava/io/BufferedInputStream;->close()V
     :try_end_4
@@ -636,7 +577,6 @@
     :catchall_3
     move-exception p0
 
-    .line 12
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_3
@@ -648,7 +588,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 13
     :try_start_5
     invoke-virtual {v1}, Ljava/io/BufferedInputStream;->close()V
     :try_end_5
@@ -659,10 +598,8 @@
     :catchall_5
     move-exception v0
 
-    .line 14
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 15
     :cond_4
     :goto_4
     throw p0
@@ -701,7 +638,6 @@
 
     const-string v2, "Failed for no URL."
 
-    .line 4
     invoke-static {v2, v0}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v4
@@ -713,7 +649,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     array-length v0, v2
 
@@ -726,7 +661,6 @@
 
     aput-object p1, v0, v5
 
-    .line 6
     invoke-static {v8, v9}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v10
@@ -789,7 +723,6 @@
 
     if-le v0, v11, :cond_3
 
-    .line 7
     new-instance v15, Ljava/lang/StringBuilder;
 
     const-string v6, "try time: "
@@ -806,7 +739,6 @@
 
     invoke-static {v6, v7}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 8
     new-instance v6, Ljava/util/Random;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -827,13 +759,11 @@
 
     add-long v11, v11, v18
 
-    .line 9
     invoke-static {v11, v12}, Landroid/os/SystemClock;->sleep(J)V
 
     :cond_3
     move v6, v0
 
-    .line 10
     :goto_2
     iget-object v0, v1, Lcom/tencent/bugly/proguard/s;->c:Landroid/content/Context;
 
@@ -847,7 +777,6 @@
 
     const-string v11, "Failed to request for network not avail"
 
-    .line 11
     invoke-static {v11, v0}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     move v0, v6
@@ -859,20 +788,17 @@
 
     goto :goto_1
 
-    .line 12
     :cond_4
     invoke-virtual {v3, v8, v9}, Lcom/tencent/bugly/proguard/v;->a(J)V
 
     move-object/from16 v11, p4
 
-    .line 13
     invoke-direct {v1, v10, v2, v0, v11}, Lcom/tencent/bugly/proguard/s;->a(Ljava/lang/String;[BLjava/lang/String;Ljava/util/Map;)Ljava/net/HttpURLConnection;
 
     move-result-object v12
 
     if-eqz v12, :cond_11
 
-    .line 14
     :try_start_0
     invoke-virtual {v12}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
@@ -882,14 +808,12 @@
 
     if-ne v0, v7, :cond_7
 
-    .line 15
     invoke-static {v12}, Lcom/tencent/bugly/proguard/s;->a(Ljava/net/HttpURLConnection;)Ljava/util/Map;
 
     move-result-object v0
 
     iput-object v0, v1, Lcom/tencent/bugly/proguard/s;->a:Ljava/util/Map;
 
-    .line 16
     invoke-static {v12}, Lcom/tencent/bugly/proguard/s;->b(Ljava/net/HttpURLConnection;)[B
 
     move-result-object v7
@@ -900,7 +824,6 @@
 
     goto :goto_4
 
-    .line 17
     :cond_5
     array-length v0, v7
 
@@ -912,7 +835,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_6
     .catchall {:try_start_0 .. :try_end_0} :catchall_3
 
-    .line 18
     :try_start_1
     invoke-virtual {v12}, Ljava/net/HttpURLConnection;->disconnect()V
     :try_end_1
@@ -925,14 +847,12 @@
 
     move-object v2, v0
 
-    .line 19
     invoke-static {v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
 
     if-nez v0, :cond_6
 
-    .line 20
     invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_6
@@ -973,7 +893,6 @@
     :try_start_2
     const-string v4, "Location"
 
-    .line 21
     invoke-virtual {v12, v4}, Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -983,7 +902,6 @@
 
     if-nez v4, :cond_b
 
-    .line 22
     :try_start_3
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -1006,7 +924,6 @@
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_0
     .catchall {:try_start_3 .. :try_end_3} :catchall_3
 
-    .line 23
     :try_start_4
     invoke-virtual {v12}, Ljava/net/HttpURLConnection;->disconnect()V
     :try_end_4
@@ -1023,14 +940,12 @@
 
     move-object v2, v0
 
-    .line 24
     invoke-static {v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
 
     if-nez v0, :cond_a
 
-    .line 25
     invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_8
@@ -1061,7 +976,6 @@
     :try_start_6
     new-array v6, v7, [Ljava/lang/Object;
 
-    .line 26
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v10
@@ -1133,7 +1047,6 @@
 
     const/4 v15, 0x1
 
-    .line 27
     :goto_d
     :try_start_8
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1154,7 +1067,6 @@
 
     invoke-static {v0, v5}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 28
     invoke-virtual {v12}, Ljava/net/HttpURLConnection;->getContentLength()I
 
     move-result v0
@@ -1169,14 +1081,12 @@
 
     const-wide/16 v4, 0x0
 
-    .line 29
     :cond_d
     invoke-virtual {v3, v4, v5}, Lcom/tencent/bugly/proguard/v;->b(J)V
     :try_end_8
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_5
     .catchall {:try_start_8 .. :try_end_8} :catchall_3
 
-    .line 30
     :try_start_9
     invoke-virtual {v12}, Ljava/net/HttpURLConnection;->disconnect()V
     :try_end_9
@@ -1189,7 +1099,6 @@
 
     move-object v4, v0
 
-    .line 31
     invoke-static {v4}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
@@ -1218,7 +1127,6 @@
     :goto_e
     const/4 v15, 0x1
 
-    .line 32
     :goto_f
     :try_start_a
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
@@ -1227,12 +1135,10 @@
 
     if-nez v4, :cond_e
 
-    .line 33
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
     :try_end_a
     .catchall {:try_start_a .. :try_end_a} :catchall_3
 
-    .line 34
     :cond_e
     :try_start_b
     invoke-virtual {v12}, Ljava/net/HttpURLConnection;->disconnect()V
@@ -1246,14 +1152,12 @@
 
     move-object v4, v0
 
-    .line 35
     invoke-static {v4}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
 
     if-nez v0, :cond_f
 
-    .line 36
     :goto_10
     invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
@@ -1265,7 +1169,6 @@
 
     goto :goto_14
 
-    .line 37
     :goto_12
     :try_start_c
     invoke-virtual {v12}, Ljava/net/HttpURLConnection;->disconnect()V
@@ -1279,17 +1182,14 @@
 
     move-object v3, v0
 
-    .line 38
     invoke-static {v3}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v0
 
     if-nez v0, :cond_10
 
-    .line 39
     invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 40
     :cond_10
     :goto_13
     throw v2
@@ -1305,12 +1205,10 @@
 
     const-string v5, "Failed to execute post."
 
-    .line 41
     invoke-static {v5, v0}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-wide/16 v4, 0x0
 
-    .line 42
     invoke-virtual {v3, v4, v5}, Lcom/tencent/bugly/proguard/v;->b(J)V
 
     move v0, v6

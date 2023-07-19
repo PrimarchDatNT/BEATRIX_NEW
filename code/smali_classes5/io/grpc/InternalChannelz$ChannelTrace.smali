@@ -52,16 +52,12 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-wide p1, p0, Lio/grpc/InternalChannelz$ChannelTrace;->a:J
 
-    .line 4
     iput-wide p3, p0, Lio/grpc/InternalChannelz$ChannelTrace;->b:J
 
-    .line 5
     iput-object p5, p0, Lio/grpc/InternalChannelz$ChannelTrace;->c:Ljava/util/List;
 
     return-void
@@ -70,7 +66,6 @@
 .method synthetic constructor <init>(JJLjava/util/List;Lio/grpc/InternalChannelz$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lio/grpc/InternalChannelz$ChannelTrace;-><init>(JJLjava/util/List;)V
 
     return-void

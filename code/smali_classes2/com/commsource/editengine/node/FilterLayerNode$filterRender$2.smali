@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/meitu/render/b;
 
     invoke-direct {v1}, Lcom/meitu/render/b;-><init>()V
@@ -88,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/editengine/node/FilterLayerNode$filterRender$2;->invoke()Lcom/meitu/render/b;
 
     move-result-object v1

@@ -44,7 +44,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/function/relight/AtmosphereRelightFragment$a;->a:Lcom/commsource/studio/function/relight/AtmosphereRelightFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/function/relight/AtmosphereRelightFragment;->z(Lcom/commsource/studio/function/relight/AtmosphereRelightFragment;)Lcom/commsource/studio/function/relight/g;
@@ -71,7 +70,6 @@
 
     invoke-virtual {p2, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

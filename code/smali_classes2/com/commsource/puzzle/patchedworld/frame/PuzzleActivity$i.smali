@@ -54,40 +54,34 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$i;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;
 
     invoke-static {v0}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;->R0(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;)V
 
     sget v0, Lcom/res/provider/ResSTRING;->unable_to_save:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v1
 
     sget v0, Lcom/res/provider/ResSTRING;->unable_to_save_explain:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v2
 
     sget v0, Lcom/res/provider/ResSTRING;->clean_now:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 5
     new-instance v4, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$i$a;
 
     invoke-direct {v4, p0}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$i$a;-><init>(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$i;)V
 
     sget v0, Lcom/res/provider/ResSTRING;->unable_to_save_later:I
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v5
@@ -96,10 +90,8 @@
 
     const/4 v7, 0x1
 
-    .line 7
     invoke-static/range {v1 .. v7}, Lcom/commsource/widget/dialog/s0/t;->u0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;Z)V
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -112,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$i;->a(Ljava/lang/Boolean;)V

@@ -30,12 +30,10 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qp2;->a:Lcom/google/android/gms/internal/ads/np2;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/qp2;->b:Landroid/content/Context;
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/np2;->d(Landroid/content/Context;)Lcom/google/android/gms/ads/y/c;
 
     return-void

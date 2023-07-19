@@ -34,32 +34,26 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/l;-><init>(Lcom/commsource/studio/layer/c;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 v0, 0x1
 
     invoke-direct {p1, v0}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 3
     sget-object v0, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 4
     sget-object v0, Landroid/graphics/Paint$Cap;->ROUND:Landroid/graphics/Paint$Cap;
 
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeCap(Landroid/graphics/Paint$Cap;)V
 
     const/4 v0, 0x0
 
-    .line 5
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 6
     new-instance v0, Landroid/graphics/PorterDuffXfermode;
 
     sget-object v1, Landroid/graphics/PorterDuff$Mode;->SRC_IN:Landroid/graphics/PorterDuff$Mode;
@@ -68,17 +62,14 @@
 
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 7
     iput-object p1, p0, Lcom/commsource/studio/layer/f;->c:Landroid/graphics/Paint;
 
-    .line 8
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/f;->d:Landroid/graphics/Path;
 
-    .line 9
     new-instance p1, Landroid/graphics/PointF;
 
     const/high16 v0, -0x40800000    # -1.0f
@@ -107,19 +98,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/f;->p:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/f;->c:Landroid/graphics/Paint;
 
     sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/f;->c:Landroid/graphics/Paint;
 
     iget v2, p0, Lcom/commsource/studio/layer/f;->g:F
@@ -142,7 +130,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/layer/f;->d:Landroid/graphics/Path;
 
     iget-object v2, p0, Lcom/commsource/studio/layer/f;->c:Landroid/graphics/Paint;
@@ -151,7 +138,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/layer/f;->f:Landroid/graphics/PointF;
 
@@ -171,14 +157,12 @@
 
     if-lez v1, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/layer/f;->c:Landroid/graphics/Paint;
 
     sget-object v2, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/layer/f;->f:Landroid/graphics/PointF;
 
     iget v2, v1, Landroid/graphics/PointF;->x:F
@@ -201,7 +185,6 @@
 
     invoke-virtual {p1, v2, v1, v3, v4}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -224,22 +207,18 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/layer/f;->d:Landroid/graphics/Path;
 
     invoke-virtual {p3, p1, p2}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/layer/f;->f:Landroid/graphics/PointF;
 
     invoke-virtual {p3, p1, p2}, Landroid/graphics/PointF;->set(FF)V
 
     const/4 p1, 0x0
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/studio/layer/f;->p:Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -260,7 +239,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/layer/f;->d:Landroid/graphics/Path;
 
     iget-object v1, p0, Lcom/commsource/studio/layer/f;->f:Landroid/graphics/PointF;
@@ -281,17 +259,14 @@
 
     invoke-virtual {p3, v2, v1, v3, v5}, Landroid/graphics/Path;->quadTo(FFFF)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/layer/f;->f:Landroid/graphics/PointF;
 
     invoke-virtual {p3, p1, p2}, Landroid/graphics/PointF;->set(FF)V
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/studio/layer/f;->p:Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -306,7 +281,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/f;->c:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -329,7 +303,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/layer/f;->d:Landroid/graphics/Path;
 
     iget-object v1, p0, Lcom/commsource/studio/layer/f;->f:Landroid/graphics/PointF;
@@ -350,17 +323,14 @@
 
     invoke-virtual {p3, v2, v1, v3, v5}, Landroid/graphics/Path;->quadTo(FFFF)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/layer/f;->f:Landroid/graphics/PointF;
 
     invoke-virtual {p3, p1, p2}, Landroid/graphics/PointF;->set(FF)V
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/studio/layer/f;->p:Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -373,7 +343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/layer/f;->g:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -388,7 +357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/layer/f;->g:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -407,19 +375,16 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/layer/f;->d:Landroid/graphics/Path;
 
     invoke-virtual {p2}, Landroid/graphics/Path;->reset()V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/layer/f;->f:Landroid/graphics/PointF;
 
     const/high16 p3, -0x40800000    # -1.0f
 
     invoke-virtual {p2, p3, p3}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/network/MoPubRequestQueue;Lcom/mopub/network/MoPubImageLoader$volleyImageCache$1;Lcom/mopub/volley/RequestQueue;Lcom/mopub/volley/toolbox/ImageLoader$ImageCache;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/MoPubImageLoader$1;->$queue:Lcom/mopub/network/MoPubRequestQueue;
 
     iput-object p2, p0, Lcom/mopub/network/MoPubImageLoader$1;->$volleyImageCache:Lcom/mopub/network/MoPubImageLoader$volleyImageCache$1;

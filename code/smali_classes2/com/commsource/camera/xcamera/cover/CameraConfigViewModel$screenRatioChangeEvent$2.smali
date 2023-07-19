@@ -81,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -110,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel$screenRatioChangeEvent$2;->invoke()Lcom/commsource/camera/xcamera/cover/e;
 
     move-result-object v1

@@ -62,29 +62,24 @@
 .method public constructor <init>(Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;Lcom/meitu/core/MTRtEffectRender$MTRTDevicePlatformType;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
-    .line 3
     new-instance v0, Lcom/meitu/core/MTRtEffectRender$RtEffectMaskTexture;
 
     invoke-direct {v0}, Lcom/meitu/core/MTRtEffectRender$RtEffectMaskTexture;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/core/MTRtEffectRender;->mRtEffectMaskTexture:Lcom/meitu/core/MTRtEffectRender$RtEffectMaskTexture;
 
-    .line 4
     new-instance v0, Lcom/meitu/core/MTRtEffectRender$RtEffectConfig;
 
     invoke-direct {v0}, Lcom/meitu/core/MTRtEffectRender$RtEffectConfig;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/core/MTRtEffectRender;->mRtEffectConfig:Lcom/meitu/core/MTRtEffectRender$RtEffectConfig;
 
-    .line 5
     new-instance v0, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     invoke-direct {v0}, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;-><init>()V
@@ -95,31 +90,26 @@
 
     new-array v1, v0, [Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
-    .line 6
     iput-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mAnattaParameterForFace:[Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
-    .line 7
     new-instance v1, Lcom/meitu/core/MTRtEffectRender$CommonParameter;
 
     invoke-direct {v1}, Lcom/meitu/core/MTRtEffectRender$CommonParameter;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mCommonParameter:Lcom/meitu/core/MTRtEffectRender$CommonParameter;
 
-    .line 8
     new-instance v1, Lcom/meitu/core/MTRtEffectRender$SpliceFilterData;
 
     invoke-direct {v1}, Lcom/meitu/core/MTRtEffectRender$SpliceFilterData;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mSpliceFilterData:Lcom/meitu/core/MTRtEffectRender$SpliceFilterData;
 
-    .line 9
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
-    .line 10
     :try_start_0
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
@@ -139,11 +129,9 @@
 
     goto :goto_0
 
-    .line 11
     :catch_0
     invoke-static {}, Lcom/meitu/core/MTRtEffectConfigJNI;->loadLibrary()V
 
-    .line 12
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
@@ -164,7 +152,6 @@
     :goto_1
     if-ge p1, v0, :cond_0
 
-    .line 13
     iget-object p2, p0, Lcom/meitu/core/MTRtEffectRender;->mAnattaParameterForFace:[Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     new-instance v1, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
@@ -188,35 +175,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/ByteArrayInputStream;
 
     invoke-direct {v1, p0}, Ljava/io/ByteArrayInputStream;-><init>([B)V
 
-    .line 2
     new-instance p0, Landroid/graphics/BitmapFactory$Options;
 
     invoke-direct {p0}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 3
     iput-boolean v2, p0, Landroid/graphics/BitmapFactory$Options;->inPremultiplied:Z
 
-    .line 4
     iput-boolean v2, p0, Landroid/graphics/BitmapFactory$Options;->inScaled:Z
 
-    .line 5
     sget-object v2, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     iput-object v2, p0, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
-    .line 6
     new-instance v2, Landroid/graphics/Rect;
 
     invoke-direct {v2}, Landroid/graphics/Rect;-><init>()V
 
-    .line 7
     :try_start_0
     invoke-static {v1, v2, p0}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;Landroid/graphics/Rect;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
@@ -224,7 +204,6 @@
     :try_end_0
     .catch Ljava/lang/OutOfMemoryError; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -232,12 +211,10 @@
     :catch_0
     move-exception p0
 
-    .line 9
     invoke-virtual {p0}, Ljava/lang/OutOfMemoryError;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -415,12 +392,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
@@ -441,7 +416,6 @@
 
     check-cast v3, Ljava/lang/Long;
 
-    .line 3
     iget-wide v4, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-virtual {v3}, Ljava/lang/Long;->longValue()J
@@ -452,18 +426,15 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->clear()V
 
-    .line 5
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -471,7 +442,6 @@
     :catchall_0
     move-exception v2
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -491,12 +461,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTRtEffectRender;->nActiveEffect(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -514,7 +482,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
@@ -523,7 +490,6 @@
 
     if-lez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -548,7 +514,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
@@ -557,10 +522,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -568,10 +531,8 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -584,14 +545,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     iget-object v3, p0, Lcom/meitu/core/MTRtEffectRender;->mAnattaParameter:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/core/MTRtEffectRender;->nSetAnattaParameter(JLcom/meitu/core/MTRtEffectRender$AnattaParameter;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -604,14 +563,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     iget-object v3, p0, Lcom/meitu/core/MTRtEffectRender;->mCommonParameter:Lcom/meitu/core/MTRtEffectRender$CommonParameter;
 
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/core/MTRtEffectRender;->nSetCommonParameter(JLcom/meitu/core/MTRtEffectRender$CommonParameter;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -624,14 +581,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     iget-object v3, p0, Lcom/meitu/core/MTRtEffectRender;->mRtEffectConfig:Lcom/meitu/core/MTRtEffectRender$RtEffectConfig;
 
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/core/MTRtEffectRender;->nSetRtEffectConfig(JLcom/meitu/core/MTRtEffectRender$RtEffectConfig;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -644,14 +599,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     iget-object v3, p0, Lcom/meitu/core/MTRtEffectRender;->mRtEffectMaskTexture:Lcom/meitu/core/MTRtEffectRender$RtEffectMaskTexture;
 
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/core/MTRtEffectRender;->nSetRtEffectMaskTexture(JLcom/meitu/core/MTRtEffectRender$RtEffectMaskTexture;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -664,14 +617,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     iget-object v3, p0, Lcom/meitu/core/MTRtEffectRender;->mSpliceFilterData:Lcom/meitu/core/MTRtEffectRender$SpliceFilterData;
 
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/core/MTRtEffectRender;->nSetSpliceFilterData(JLcom/meitu/core/MTRtEffectRender$SpliceFilterData;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -684,14 +635,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     iget-object v3, p0, Lcom/meitu/core/MTRtEffectRender;->mAnattaParameter:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/core/MTRtEffectRender;->nGetAnattaParameter(JLcom/meitu/core/MTRtEffectRender$AnattaParameter;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mAnattaParameter:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -706,14 +655,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     iget-object v3, p0, Lcom/meitu/core/MTRtEffectRender;->mAnattaParameterForFace:[Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/core/MTRtEffectRender;->nGetAnattaParameterForFace(J[Lcom/meitu/core/MTRtEffectRender$AnattaParameter;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mAnattaParameterForFace:[Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -728,14 +675,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     iget-object v3, p0, Lcom/meitu/core/MTRtEffectRender;->mCommonParameter:Lcom/meitu/core/MTRtEffectRender$CommonParameter;
 
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/core/MTRtEffectRender;->nGetCommonParameter(JLcom/meitu/core/MTRtEffectRender$CommonParameter;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mCommonParameter:Lcom/meitu/core/MTRtEffectRender$CommonParameter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -750,7 +695,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTRtEffectRender;->nGetDarkAlpha(J)F
@@ -769,7 +713,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTRtEffectRender;->nGetFaceLum(J)F
@@ -788,7 +731,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTRtEffectRender;->nGetOtherLum(J)F
@@ -807,7 +749,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mRtEffectConfig:Lcom/meitu/core/MTRtEffectRender$RtEffectConfig;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -822,7 +763,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mRtEffectMaskTexture:Lcom/meitu/core/MTRtEffectRender$RtEffectMaskTexture;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -837,7 +777,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTRtEffectRender;->nGetSkinSmoothType(J)I
@@ -856,7 +795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mSpliceFilterData:Lcom/meitu/core/MTRtEffectRender$SpliceFilterData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -871,12 +809,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTRtEffectRender;->nInit(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -889,7 +825,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTRtEffectRender;->nGetIsNeedBodySegment(J)Z
@@ -908,7 +843,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTRtEffectRender;->nGetIsNeedRunCompactBeautyBlurData(J)Z
@@ -927,7 +861,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTRtEffectRender;->nGetIsNeedFaceDetector(J)Z
@@ -946,7 +879,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nLoadBeautyConfig(JLjava/lang/String;)Z
@@ -965,7 +897,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nLoadFilterConfig(JLjava/lang/String;)Z
@@ -984,15 +915,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/MTRtEffectRender;->releaseCompactBeautyDataArrayList()V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/MTRtEffectRender;->nRelease(J)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1009,7 +937,6 @@
 
     move-object v10, p0
 
-    .line 1
     iget-wide v2, v10, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     move-object v1, p0
@@ -1030,7 +957,6 @@
 
     move-result v1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1043,7 +969,6 @@
 
     invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     move-object v0, p0
@@ -1060,12 +985,10 @@
 
     move-result-wide p1
 
-    .line 2
     iget-object p3, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
     monitor-enter p3
 
-    .line 3
     :try_start_0
     iget-object p4, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
@@ -1075,12 +998,10 @@
 
     invoke-virtual {p4, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 4
     monitor-exit p3
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p1
@@ -1088,7 +1009,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     monitor-exit p3
     :try_end_1
@@ -1106,14 +1026,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     iget-object v3, p0, Lcom/meitu/core/MTRtEffectRender;->mAnattaParameterForFace:[Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/core/MTRtEffectRender;->nSetAnattaParameterForFace(J[Lcom/meitu/core/MTRtEffectRender$AnattaParameter;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1126,7 +1044,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     move-object v1, p0
@@ -1139,7 +1056,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/core/MTRtEffectRender;->nSetBodyMaskData(J[BII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1152,7 +1068,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     move-object v1, p0
@@ -1169,7 +1084,6 @@
 
     invoke-direct/range {v1 .. v8}, Lcom/meitu/core/MTRtEffectRender;->nSetBodySegmentDataWithBytebuffer(JLjava/nio/ByteBuffer;IIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1184,7 +1098,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     move-object v1, p0
@@ -1197,7 +1110,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/core/MTRtEffectRender;->nSetBodyTexture(JIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1210,12 +1122,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
@@ -1229,7 +1139,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -1242,7 +1151,6 @@
 
     if-lez v2, :cond_1
 
-    .line 4
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
@@ -1252,7 +1160,6 @@
     :goto_0
     if-ge v4, v2, :cond_0
 
-    .line 5
     iget-object v5, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
     invoke-virtual {v5, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1265,14 +1172,12 @@
 
     move-result-wide v5
 
-    .line 6
     invoke-static {v5, v6}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v7
 
     invoke-interface {v3, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     iget-wide v7, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-static {v7, v8, v5, v6}, Lcom/meitu/core/MTRtEffectRender;->nReleaseCompactBeautyData(JJ)V
@@ -1281,13 +1186,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object v2, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->removeAll(Ljava/util/Collection;)Z
 
-    .line 9
     :cond_1
     iget-object v2, p0, Lcom/meitu/core/MTRtEffectRender;->mCompactBeautyBlurDataList:Ljava/util/ArrayList;
 
@@ -1302,18 +1205,15 @@
     :cond_2
     const-wide/16 p1, 0x0
 
-    .line 10
     :goto_1
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 11
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/MTRtEffectRender;->nSetCompactBeautyData(JJ)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1321,7 +1221,6 @@
     :catchall_0
     move-exception p1
 
-    .line 13
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1339,7 +1238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1348,7 +1246,6 @@
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nSetDeviceGrade(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1361,12 +1258,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nSetDeviceOrientation(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1379,12 +1274,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nSetDodgeBurnDeviceType(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1397,12 +1290,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nSetDodgeBurnEffectType(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1427,10 +1318,8 @@
 
     move-object v5, p4
 
-    .line 1
     invoke-virtual/range {v1 .. v6}, Lcom/meitu/core/MTRtEffectRender;->setExternalData(Ljava/nio/ByteBuffer;IILcom/meitu/core/MTRtEffectRender$RtEffectExternDataType;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1457,10 +1346,8 @@
 
     move v6, p5
 
-    .line 3
     invoke-virtual/range {v1 .. v7}, Lcom/meitu/core/MTRtEffectRender;->setExternalData(Ljava/nio/ByteBuffer;IILcom/meitu/core/MTRtEffectRender$RtEffectExternDataType;II)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1475,7 +1362,6 @@
 
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 5
     sget-object v0, Lcom/meitu/core/MTRtEffectRender$1;->$SwitchMap$com$meitu$core$MTRtEffectRender$RtEffectExternDataType:[I
 
     invoke-virtual {p4}, Ljava/lang/Enum;->ordinal()I
@@ -1486,7 +1372,6 @@
 
     packed-switch v0, :pswitch_data_0
 
-    .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1509,7 +1394,6 @@
 
     goto/16 :goto_0
 
-    .line 7
     :pswitch_0
     iget-wide v1, v9, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
@@ -1531,7 +1415,6 @@
 
     goto/16 :goto_0
 
-    .line 8
     :pswitch_1
     iget-wide v1, v9, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
@@ -1553,7 +1436,6 @@
 
     goto :goto_0
 
-    .line 9
     :pswitch_2
     iget-wide v1, v9, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
@@ -1575,7 +1457,6 @@
 
     goto :goto_0
 
-    .line 10
     :pswitch_3
     iget-wide v1, v9, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
@@ -1597,7 +1478,6 @@
 
     goto :goto_0
 
-    .line 11
     :pswitch_4
     iget-wide v1, v9, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
@@ -1619,7 +1499,6 @@
 
     goto :goto_0
 
-    .line 12
     :pswitch_5
     iget-wide v1, v9, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
@@ -1639,7 +1518,6 @@
 
     invoke-direct/range {v0 .. v8}, Lcom/meitu/core/MTRtEffectRender;->nSetExternalData(JLjava/nio/ByteBuffer;IIIII)V
 
-    .line 13
     :goto_0
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1665,7 +1543,6 @@
 
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     sget-object v0, Lcom/meitu/core/MTRtEffectRender$1;->$SwitchMap$com$meitu$core$MTRtEffectRender$RtEffectExternDataType:[I
 
     invoke-virtual {p4}, Ljava/lang/Enum;->ordinal()I
@@ -1676,7 +1553,6 @@
 
     packed-switch v0, :pswitch_data_0
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1697,7 +1573,6 @@
 
     goto/16 :goto_0
 
-    .line 5
     :pswitch_0
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
@@ -1717,7 +1592,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
@@ -1737,7 +1611,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_2
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
@@ -1757,7 +1630,6 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_3
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
@@ -1777,7 +1649,6 @@
 
     goto :goto_0
 
-    .line 9
     :pswitch_4
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
@@ -1797,7 +1668,6 @@
 
     goto :goto_0
 
-    .line 10
     :pswitch_5
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
@@ -1815,7 +1685,6 @@
 
     invoke-direct/range {v0 .. v7}, Lcom/meitu/core/MTRtEffectRender;->nSetExternalTexture(JIIIII)V
 
-    .line 11
     :goto_0
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1851,10 +1720,8 @@
 
     move-object v5, p4
 
-    .line 1
     invoke-virtual/range {v1 .. v6}, Lcom/meitu/core/MTRtEffectRender;->setExternalData(Ljava/nio/ByteBuffer;IILcom/meitu/core/MTRtEffectRender$RtEffectExternDataType;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1869,7 +1736,6 @@
 
     move-object/from16 v14, p0
 
-    .line 1
     iget-wide v2, v14, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     move-object/from16 v1, p0
@@ -1892,7 +1758,6 @@
 
     invoke-direct/range {v1 .. v15}, Lcom/meitu/core/MTRtEffectRender;->nSetFace2DStructData(JIIIJJIJJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1927,7 +1792,6 @@
 
     move-object/from16 v1, p0
 
-    .line 1
     iget-wide v2, v1, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     move-wide v1, v2
@@ -1936,7 +1800,6 @@
 
     invoke-direct/range {v0 .. v16}, Lcom/meitu/core/MTRtEffectRender;->nSetFace3DStructData(JIIIJJIJJJ)V
 
-    .line 2
     invoke-static/range {v17 .. v17}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1949,7 +1812,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     if-eqz p1, :cond_0
@@ -1966,7 +1828,6 @@
     :goto_0
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/meitu/core/MTRtEffectRender;->nSetFaceData(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1979,12 +1840,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nSetFaceIndex(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1997,12 +1856,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/MTRtEffectRender;->nSetFilterStatusAtIndex(JZI)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2015,12 +1872,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/MTRtEffectRender;->nSetFilterStatusAtName(JZLjava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2033,7 +1888,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     move-object v1, p0
@@ -2046,7 +1900,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/core/MTRtEffectRender;->nSetHairSegmentData(JLjava/nio/ByteBuffer;II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2061,7 +1914,6 @@
 
     move-object v10, p0
 
-    .line 1
     iget-wide v2, v10, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     move-object v1, p0
@@ -2080,7 +1932,6 @@
 
     invoke-direct/range {v1 .. v9}, Lcom/meitu/core/MTRtEffectRender;->nSetImagePixelsData(J[BIIIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2095,7 +1946,6 @@
 
     move-object v10, p0
 
-    .line 1
     iget-wide v2, v10, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     move-object v1, p0
@@ -2114,7 +1964,6 @@
 
     invoke-direct/range {v1 .. v9}, Lcom/meitu/core/MTRtEffectRender;->nSetImageWithByteBuffer(JLjava/nio/ByteBuffer;IIIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2127,12 +1976,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nSetIsNeedShadowDarkAlpha(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2145,12 +1992,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nSetNeedHookPMS(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2163,12 +2008,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nSetNeedSeparateFaceIndex(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2183,7 +2026,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     move-object v1, p0
@@ -2196,7 +2038,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/core/MTRtEffectRender;->nSetNevusMaskTexture(JIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2209,15 +2050,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/MTRtEffectRender;->mRtEffectListener:Lcom/meitu/core/MTRtEffectRender$MTRtEffectListener;
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nSetMTRtEffectListener(JLcom/meitu/core/MTRtEffectRender$MTRtEffectListener;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2230,12 +2068,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nSetSkinBlanceModelPath(JLjava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2248,7 +2084,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     move-object v1, p0
@@ -2261,7 +2096,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/core/MTRtEffectRender;->nSetSkinSegmentData(JLjava/nio/ByteBuffer;II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2274,12 +2108,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTRtEffectRender;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/MTRtEffectRender;->nSetSpliceFilterStatus(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

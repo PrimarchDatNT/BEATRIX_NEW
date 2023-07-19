@@ -96,12 +96,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$showNetError$1$1;->INSTANCE:Lcom/commsource/widget/dialog/delegate/XDialogKt$showNetError$1$1;
 
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->i(Lcom/commsource/widget/dialog/delegate/b;Lcotlin/jvm/u/l;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

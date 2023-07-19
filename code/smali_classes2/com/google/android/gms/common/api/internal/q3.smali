@@ -27,7 +27,6 @@
 .method private constructor <init>(Lcom/google/android/gms/common/api/internal/o3;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/common/api/internal/o3;Lcom/google/android/gms/common/api/internal/p3;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/q3;-><init>(Lcom/google/android/gms/common/api/internal/o3;)V
 
     return-void
@@ -64,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/o3;->l(Lcom/google/android/gms/common/api/internal/o3;)Ljava/util/concurrent/locks/Lock;
@@ -73,7 +70,6 @@
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
@@ -85,7 +81,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/o3;->l(Lcom/google/android/gms/common/api/internal/o3;)Ljava/util/concurrent/locks/Lock;
@@ -96,7 +91,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->v()Z
@@ -105,7 +99,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     new-instance v0, Landroidx/collection/ArrayMap;
@@ -122,7 +115,6 @@
 
     invoke-static {p1, v0}, Lcom/google/android/gms/common/api/internal/o3;->k(Lcom/google/android/gms/common/api/internal/o3;Ljava/util/Map;)Ljava/util/Map;
 
-    .line 6
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/o3;->w(Lcom/google/android/gms/common/api/internal/o3;)Ljava/util/Map;
@@ -150,7 +142,6 @@
 
     check-cast v0, Lcom/google/android/gms/common/api/internal/n3;
 
-    .line 7
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {v1}, Lcom/google/android/gms/common/api/internal/o3;->x(Lcom/google/android/gms/common/api/internal/o3;)Ljava/util/Map;
@@ -167,7 +158,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->q()Ljava/lang/Exception;
 
@@ -177,14 +167,12 @@
 
     if-eqz v0, :cond_5
 
-    .line 9
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->q()Ljava/lang/Exception;
 
     move-result-object p1
 
     check-cast p1, Lcom/google/android/gms/common/api/AvailabilityException;
 
-    .line 10
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/o3;->y(Lcom/google/android/gms/common/api/internal/o3;)Z
@@ -193,7 +181,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 11
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     new-instance v1, Landroidx/collection/ArrayMap;
@@ -210,7 +197,6 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/api/internal/o3;->k(Lcom/google/android/gms/common/api/internal/o3;Ljava/util/Map;)Ljava/util/Map;
 
-    .line 12
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/o3;->w(Lcom/google/android/gms/common/api/internal/o3;)Ljava/util/Map;
@@ -238,17 +224,14 @@
 
     check-cast v1, Lcom/google/android/gms/common/api/internal/n3;
 
-    .line 13
     invoke-virtual {v1}, Lcom/google/android/gms/common/api/h;->w()Lcom/google/android/gms/common/api/internal/z2;
 
     move-result-object v2
 
-    .line 14
     invoke-virtual {p1, v1}, Lcom/google/android/gms/common/api/AvailabilityException;->getConnectionResult(Lcom/google/android/gms/common/api/h;)Lcom/google/android/gms/common/ConnectionResult;
 
     move-result-object v3
 
-    .line 15
     iget-object v4, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {v4, v1, v3}, Lcom/google/android/gms/common/api/internal/o3;->n(Lcom/google/android/gms/common/api/internal/o3;Lcom/google/android/gms/common/api/internal/n3;Lcom/google/android/gms/common/ConnectionResult;)Z
@@ -257,7 +240,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 16
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {v1}, Lcom/google/android/gms/common/api/internal/o3;->x(Lcom/google/android/gms/common/api/internal/o3;)Ljava/util/Map;
@@ -274,7 +256,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_2
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
@@ -286,7 +267,6 @@
 
     goto :goto_1
 
-    .line 18
     :cond_3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
@@ -296,7 +276,6 @@
 
     invoke-static {v0, p1}, Lcom/google/android/gms/common/api/internal/o3;->k(Lcom/google/android/gms/common/api/internal/o3;Ljava/util/Map;)Ljava/util/Map;
 
-    .line 19
     :cond_4
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
@@ -313,14 +292,12 @@
 
     const-string v1, "Unexpected availability exception"
 
-    .line 20
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->q()Ljava/lang/Exception;
 
     move-result-object p1
 
     invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 21
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
@@ -329,7 +306,6 @@
 
     invoke-static {p1, v0}, Lcom/google/android/gms/common/api/internal/o3;->k(Lcom/google/android/gms/common/api/internal/o3;Ljava/util/Map;)Ljava/util/Map;
 
-    .line 22
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     new-instance v0, Lcom/google/android/gms/common/ConnectionResult;
@@ -340,7 +316,6 @@
 
     invoke-static {p1, v0}, Lcom/google/android/gms/common/api/internal/o3;->j(Lcom/google/android/gms/common/api/internal/o3;Lcom/google/android/gms/common/ConnectionResult;)Lcom/google/android/gms/common/ConnectionResult;
 
-    .line 23
     :cond_6
     :goto_2
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
@@ -351,7 +326,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 24
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/o3;->x(Lcom/google/android/gms/common/api/internal/o3;)Ljava/util/Map;
@@ -366,7 +340,6 @@
 
     invoke-interface {p1, v0}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
 
-    .line 25
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/o3;->z(Lcom/google/android/gms/common/api/internal/o3;)Lcom/google/android/gms/common/ConnectionResult;
@@ -375,7 +348,6 @@
 
     invoke-static {p1, v0}, Lcom/google/android/gms/common/api/internal/o3;->j(Lcom/google/android/gms/common/api/internal/o3;Lcom/google/android/gms/common/ConnectionResult;)Lcom/google/android/gms/common/ConnectionResult;
 
-    .line 26
     :cond_7
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
@@ -385,19 +357,16 @@
 
     if-nez p1, :cond_8
 
-    .line 27
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/o3;->C(Lcom/google/android/gms/common/api/internal/o3;)V
 
-    .line 28
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/o3;->D(Lcom/google/android/gms/common/api/internal/o3;)V
 
     goto :goto_3
 
-    .line 29
     :cond_8
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
@@ -405,7 +374,6 @@
 
     invoke-static {p1, v0}, Lcom/google/android/gms/common/api/internal/o3;->o(Lcom/google/android/gms/common/api/internal/o3;Z)Z
 
-    .line 30
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/o3;->E(Lcom/google/android/gms/common/api/internal/o3;)Lcom/google/android/gms/common/api/internal/w0;
@@ -420,7 +388,6 @@
 
     invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/internal/w0;->b(Lcom/google/android/gms/common/ConnectionResult;)V
 
-    .line 31
     :goto_3
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
@@ -432,7 +399,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 32
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/o3;->l(Lcom/google/android/gms/common/api/internal/o3;)Ljava/util/concurrent/locks/Lock;
@@ -446,7 +412,6 @@
     :catchall_0
     move-exception p1
 
-    .line 33
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q3;->a:Lcom/google/android/gms/common/api/internal/o3;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/o3;->l(Lcom/google/android/gms/common/api/internal/o3;)Ljava/util/concurrent/locks/Lock;

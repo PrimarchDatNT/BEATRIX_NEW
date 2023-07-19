@@ -47,10 +47,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/k1$a;->f:Lcotlinx/coroutines/k1;
 
-    .line 2
     invoke-direct {p0, p2, p3}, Lcotlinx/coroutines/k1$c;-><init>(J)V
 
     iput-object p4, p0, Lcotlinx/coroutines/k1$a;->d:Lcotlinx/coroutines/m;
@@ -63,7 +61,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/k1$a;->d:Lcotlinx/coroutines/m;
 
     iget-object v1, p0, Lcotlinx/coroutines/k1$a;->f:Lcotlinx/coroutines/k1;
@@ -80,7 +77,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

@@ -15,10 +15,8 @@
 .method public constructor <init>(Lcom/squareup/okhttp/internal/tls/TrustRootIndex;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/squareup/okhttp/internal/tls/CertificateChainCleaner;->trustRootIndex:Lcom/squareup/okhttp/internal/tls/TrustRootIndex;
 
     return-void
@@ -27,7 +25,6 @@
 .method private verifySignature(Ljava/security/cert/X509Certificate;Ljava/security/cert/X509Certificate;)Z
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Ljava/security/cert/X509Certificate;->getIssuerDN()Ljava/security/Principal;
 
     move-result-object v0
@@ -46,7 +43,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-virtual {p2}, Ljava/security/cert/X509Certificate;->getPublicKey()Ljava/security/PublicKey;
@@ -87,17 +83,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0, p1}, Ljava/util/ArrayDeque;-><init>(Ljava/util/Collection;)V
 
-    .line 2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Deque;->removeFirst()Ljava/lang/Object;
 
     move-result-object v1
@@ -113,7 +106,6 @@
 
     if-ge v1, v3, :cond_7
 
-    .line 4
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v3
@@ -128,7 +120,6 @@
 
     check-cast v3, Ljava/security/cert/X509Certificate;
 
-    .line 5
     iget-object v5, p0, Lcom/squareup/okhttp/internal/tls/CertificateChainCleaner;->trustRootIndex:Lcom/squareup/okhttp/internal/tls/TrustRootIndex;
 
     invoke-interface {v5, v3}, Lcom/squareup/okhttp/internal/tls/TrustRootIndex;->findByIssuerAndSignature(Ljava/security/cert/X509Certificate;)Ljava/security/cert/X509Certificate;
@@ -137,7 +128,6 @@
 
     if-eqz v5, :cond_3
 
-    .line 6
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -150,11 +140,9 @@
 
     if-nez v2, :cond_1
 
-    .line 7
     :cond_0
     invoke-interface {p1, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     :cond_1
     invoke-direct {p0, v5, v5}, Lcom/squareup/okhttp/internal/tls/CertificateChainCleaner;->verifySignature(Ljava/security/cert/X509Certificate;Ljava/security/cert/X509Certificate;)Z
 
@@ -169,7 +157,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_3
     invoke-interface {v0}, Ljava/util/Deque;->iterator()Ljava/util/Iterator;
 
@@ -182,24 +169,20 @@
 
     if-eqz v5, :cond_5
 
-    .line 10
     invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Ljava/security/cert/X509Certificate;
 
-    .line 11
     invoke-direct {p0, v3, v5}, Lcom/squareup/okhttp/internal/tls/CertificateChainCleaner;->verifySignature(Ljava/security/cert/X509Certificate;Ljava/security/cert/X509Certificate;)Z
 
     move-result v6
 
     if-eqz v6, :cond_4
 
-    .line 12
     invoke-interface {v4}, Ljava/util/Iterator;->remove()V
 
-    .line 13
     invoke-interface {p1, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :goto_1
@@ -212,7 +195,6 @@
 
     return-object p1
 
-    .line 14
     :cond_6
     new-instance p1, Ljavax/net/ssl/SSLPeerUnverifiedException;
 
@@ -234,7 +216,6 @@
 
     throw p1
 
-    .line 15
     :cond_7
     new-instance v0, Ljavax/net/ssl/SSLPeerUnverifiedException;
 

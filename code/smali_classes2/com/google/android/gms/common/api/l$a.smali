@@ -42,14 +42,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v0
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;-><init>(Landroid/os/Looper;)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/l$a;->q:Lcom/google/android/gms/common/api/p;
 
     return-void
@@ -67,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->z()I
 
     move-result p1
@@ -84,12 +81,10 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/common/api/l$a;->q:Lcom/google/android/gms/common/api/p;
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 

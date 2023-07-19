@@ -193,39 +193,28 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTFacialFeatures;->eyebrowType:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTFacialFeatures;->eyebrowThick:I
 
-    .line 4
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTFacialFeatures;->eyebrowDistribute:I
 
-    .line 5
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTFacialFeatures;->eyebrowSpacing:I
 
-    .line 6
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTFacialFeatures;->eyeSpacing:I
 
-    .line 7
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTFacialFeatures;->eyeArea:I
 
-    .line 8
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTFacialFeatures;->noseWing:I
 
-    .line 9
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTFacialFeatures;->lipThick:I
 
-    .line 10
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTFacialFeatures;->lipPeak:I
 
-    .line 11
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTFacialFeatures;->faceType:I
 
     return-void

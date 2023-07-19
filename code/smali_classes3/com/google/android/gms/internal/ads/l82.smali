@@ -20,10 +20,8 @@
 .method protected constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/os/Binder;-><init>()V
 
-    .line 2
     invoke-virtual {p0, p0, p1}, Landroid/os/Binder;->attachInterface(Landroid/os/IInterface;Ljava/lang/String;)V
 
     return-void
@@ -49,14 +47,12 @@
 
     if-le p1, v0, :cond_0
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/os/Binder;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
 
     move-result v0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/os/Binder;->getInterfaceDescriptor()Ljava/lang/String;
 
@@ -73,7 +69,6 @@
 
     return p1
 
-    .line 3
     :cond_1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/ads/l82;->p5(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
 

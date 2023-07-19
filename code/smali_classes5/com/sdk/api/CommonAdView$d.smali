@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/sdk/api/CommonAdView;III)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/CommonAdView$d;->d:Lcom/sdk/api/CommonAdView;
 
     iput p2, p0, Lcom/sdk/api/CommonAdView$d;->a:I
@@ -50,7 +49,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/sdk/api/CommonAdView$d;->a:I
 
     const-string v1, "CommonAdView"
@@ -59,7 +57,6 @@
 
     if-ne v0, v2, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/CommonAdView$d;->d:Lcom/sdk/api/CommonAdView;
 
     invoke-static {v0}, Lcom/sdk/api/CommonAdView;->j(Lcom/sdk/api/CommonAdView;)Lcom/sdk/api/CommonAdView$j;
@@ -72,7 +69,6 @@
 
     const-string v0, "CommonAd ad notifyPreloadResult success"
 
-    .line 3
     invoke-static {v1, v0}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
@@ -82,7 +78,6 @@
 
     if-ne v0, v2, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/api/CommonAdView$d;->d:Lcom/sdk/api/CommonAdView;
 
     invoke-static {v0}, Lcom/sdk/api/CommonAdView;->j(Lcom/sdk/api/CommonAdView;)Lcom/sdk/api/CommonAdView$j;
@@ -93,7 +88,6 @@
 
     invoke-interface {v0, v2}, Lcom/sdk/api/CommonAdView$j;->b(I)V
 
-    .line 5
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

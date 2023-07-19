@@ -61,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$3;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -78,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$3;->this$0:Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
@@ -91,7 +89,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$3;->this$0:Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
@@ -106,7 +103,6 @@
 
     invoke-virtual {v1, v3, v4, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->OnFingerMove(FFZ)Z
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$3;->this$0:Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;
 
@@ -122,7 +118,6 @@
 
     invoke-virtual {v1, v3, v4, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->OnFingerUp(FFZ)Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$3;->this$0:Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
@@ -141,7 +136,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$3;->this$0:Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
@@ -158,14 +152,12 @@
 
     invoke-static {v1, v4, v4, v2, v3}, Lcom/commsource/studio/component/UndoRedoComponent$c;->I(Lcom/commsource/studio/component/UndoRedoComponent$c;ZZILjava/lang/Object;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$3;->this$0:Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {v1}, Lcom/commsource/studio/processor/DoodleProcessor;->J(Lcom/commsource/studio/processor/DoodleProcessor;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

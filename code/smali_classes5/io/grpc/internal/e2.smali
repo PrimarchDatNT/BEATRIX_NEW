@@ -39,7 +39,6 @@
 
     invoke-static {}, Lio/grpc/internal/e2;->a()V
 
-    .line 1
     const-class v0, Lio/grpc/internal/e2;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -57,7 +56,6 @@
     :try_start_0
     const-string v1, "java.util.concurrent.atomic.LongAdder"
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -68,7 +66,6 @@
 
     new-array v3, v3, [Ljava/lang/Class;
 
-    .line 3
     sget-object v4, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
 
     const/4 v5, 0x0
@@ -86,20 +83,17 @@
 
     new-array v4, v5, [Ljava/lang/Class;
 
-    .line 4
     invoke-virtual {v1, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v3
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 5
     :try_start_2
     invoke-virtual {v1}, Ljava/lang/Class;->getConstructors()[Ljava/lang/reflect/Constructor;
 
     move-result-object v1
 
-    .line 6
     array-length v4, v1
 
     :goto_0
@@ -107,7 +101,6 @@
 
     aget-object v6, v1, v5
 
-    .line 7
     invoke-virtual {v6}, Ljava/lang/reflect/Constructor;->getParameterTypes()[Ljava/lang/Class;
 
     move-result-object v7
@@ -152,7 +145,6 @@
 
     move-object v3, v2
 
-    .line 8
     :goto_2
     sget-object v4, Lio/grpc/internal/e2;->b:Ljava/util/logging/Logger;
 
@@ -169,31 +161,23 @@
 
     if-eqz v6, :cond_2
 
-    .line 9
     sput-object v6, Lio/grpc/internal/e2;->c:Ljava/lang/reflect/Constructor;
 
-    .line 10
     sput-object v2, Lio/grpc/internal/e2;->d:Ljava/lang/reflect/Method;
 
-    .line 11
     sput-object v3, Lio/grpc/internal/e2;->e:Ljava/lang/reflect/Method;
 
-    .line 12
     sput-object v0, Lio/grpc/internal/e2;->f:Ljava/lang/RuntimeException;
 
     goto :goto_4
 
-    .line 13
     :cond_2
     sput-object v0, Lio/grpc/internal/e2;->c:Ljava/lang/reflect/Constructor;
 
-    .line 14
     sput-object v0, Lio/grpc/internal/e2;->d:Ljava/lang/reflect/Method;
 
-    .line 15
     sput-object v0, Lio/grpc/internal/e2;->e:Ljava/lang/reflect/Method;
 
-    .line 16
     new-instance v0, Ljava/lang/RuntimeException;
 
     invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -207,15 +191,12 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lio/grpc/internal/e2;->f:Ljava/lang/RuntimeException;
 
     if-nez v0, :cond_0
 
-    .line 3
     :try_start_0
     sget-object v0, Lio/grpc/internal/e2;->c:Ljava/lang/reflect/Constructor;
 
@@ -238,7 +219,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -248,7 +228,6 @@
     :catch_1
     move-exception v0
 
-    .line 5
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -258,14 +237,12 @@
     :catch_2
     move-exception v0
 
-    .line 6
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
 
     throw v1
 
-    .line 7
     :cond_0
     throw v0
 .end method
@@ -273,7 +250,6 @@
 .method private static synthetic a()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lio/grpc/internal/e2;
@@ -346,7 +322,6 @@
 .method static final synthetic b(Lio/grpc/internal/e2;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -357,7 +332,6 @@
 .method static final synthetic c(Lio/grpc/internal/e2;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -368,7 +342,6 @@
 .method static d()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/e2;->f:Ljava/lang/RuntimeException;
 
     if-nez v0, :cond_0
@@ -389,7 +362,6 @@
 .method public add(J)V
     .locals 6
 
-    .line 1
     :try_start_0
     sget-object v0, Lio/grpc/internal/e2;->d:Ljava/lang/reflect/Method;
 
@@ -457,7 +429,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -467,7 +438,6 @@
     :catch_1
     move-exception p1
 
-    .line 3
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -478,7 +448,6 @@
 .method public value()J
     .locals 7
 
-    .line 1
     :try_start_0
     sget-object v0, Lio/grpc/internal/e2;->e:Ljava/lang/reflect/Method;
 
@@ -545,7 +514,6 @@
 
     return-wide v0
 
-    .line 2
     :catch_0
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -553,7 +521,6 @@
 
     throw v0
 
-    .line 3
     :catch_1
     new-instance v0, Ljava/lang/RuntimeException;
 

@@ -28,19 +28,14 @@
 .method public constructor <init>(FFFF)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;->a:F
 
-    .line 3
     iput p2, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;->b:F
 
-    .line 4
     iput p3, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;->c:F
 
-    .line 5
     iput p4, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;->d:F
 
     return-void
@@ -49,19 +44,14 @@
 .method public constructor <init>(FFFFF)V
     .locals 0
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 7
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;->a:F
 
-    .line 8
     iput p2, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;->b:F
 
-    .line 9
     iput p3, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;->c:F
 
-    .line 10
     iput p4, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;->d:F
 
     return-void
@@ -74,7 +64,6 @@
         .end annotation
     .end param
 
-    .line 11
     iget v0, p1, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;->a:F
 
     iget v1, p1, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;->b:F
@@ -97,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;
 
     iget v2, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;->a:F

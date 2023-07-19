@@ -20,10 +20,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lf/f/b/b/h/b/e;
 
     invoke-direct {v0, p1}, Lf/f/b/b/h/b/e;-><init>(Landroid/os/Looper;)V
@@ -42,7 +40,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/util/f0/a;->a:Landroid/os/Handler;
 
     invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z

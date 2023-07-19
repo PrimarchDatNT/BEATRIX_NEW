@@ -23,10 +23,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/util/Timer$State;->STOPPED:Lcom/mopub/common/util/Timer$State;
 
     iput-object v0, p0, Lcom/mopub/common/util/Timer;->mState:Lcom/mopub/common/util/Timer$State;
@@ -39,25 +37,21 @@
 .method public getTime()J
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/util/Timer;->mState:Lcom/mopub/common/util/Timer$State;
 
     sget-object v1, Lcom/mopub/common/util/Timer$State;->STARTED:Lcom/mopub/common/util/Timer$State;
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-wide v0, p0, Lcom/mopub/common/util/Timer;->mStopTimeNanos:J
 
-    .line 4
     :goto_0
     sget-object v2, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
@@ -77,14 +71,12 @@
 .method public start()V
     .locals 2
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/mopub/common/util/Timer;->mStartTimeNanos:J
 
-    .line 2
     sget-object v0, Lcom/mopub/common/util/Timer$State;->STARTED:Lcom/mopub/common/util/Timer$State;
 
     iput-object v0, p0, Lcom/mopub/common/util/Timer;->mState:Lcom/mopub/common/util/Timer$State;
@@ -95,19 +87,16 @@
 .method public stop()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/util/Timer;->mState:Lcom/mopub/common/util/Timer$State;
 
     sget-object v1, Lcom/mopub/common/util/Timer$State;->STARTED:Lcom/mopub/common/util/Timer$State;
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     sget-object v0, Lcom/mopub/common/util/Timer$State;->STOPPED:Lcom/mopub/common/util/Timer$State;
 
     iput-object v0, p0, Lcom/mopub/common/util/Timer;->mState:Lcom/mopub/common/util/Timer$State;
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v0
@@ -116,7 +105,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 

@@ -90,10 +90,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     new-instance p1, Lcom/commsource/studio/function/background/BackgroundDrawer;
 
     invoke-direct {p1}, Lcom/commsource/studio/function/background/BackgroundDrawer;-><init>()V
@@ -104,7 +102,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-virtual {p0, p1, p2}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
     return-void
@@ -126,7 +123,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/function/background/BackgroundView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -213,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundView;->a:Lcom/commsource/studio/function/background/BackgroundDrawer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -236,15 +231,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundView;->a:Lcom/commsource/studio/function/background/BackgroundDrawer;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/background/BackgroundDrawer;->j(Landroid/graphics/Canvas;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -257,15 +249,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/function/background/BackgroundView;->a:Lcom/commsource/studio/function/background/BackgroundDrawer;
 
     invoke-virtual {p3, p1, p2}, Lcom/commsource/studio/function/background/BackgroundDrawer;->k(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -286,31 +275,26 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v5, p0, Lcom/commsource/studio/function/background/BackgroundView;->a:Lcom/commsource/studio/function/background/BackgroundDrawer;
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/bean/BgLayerInfo;->getBackgroundType()Lcom/commsource/studio/function/background/BackgroundType;
 
     move-result-object v1
 
     invoke-virtual {v5, v1}, Lcom/commsource/studio/function/background/BackgroundDrawer;->n(Lcom/commsource/studio/function/background/BackgroundType;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/bean/BgLayerInfo;->getBackgroundTexture()Lcom/commsource/studio/function/background/BackgroundTexture;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/bean/BgLayerInfo;->getBackgroundTexture()Lcom/commsource/studio/function/background/BackgroundTexture;
 
     move-result-object v3
 
     if-eqz v3, :cond_1
 
-    .line 5
     new-instance v1, Lcom/commsource/studio/function/background/BackgroundView$a;
 
     const-string v4, "backgroundTextureLoad"
@@ -332,13 +316,10 @@
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {v5, v1, v1, p1, v1}, Lcom/commsource/studio/function/background/BackgroundDrawer;->w(Lcom/commsource/studio/function/background/BackgroundDrawer;Landroid/graphics/Bitmap;Lcom/commsource/studio/function/background/BackgroundTexture;ILjava/lang/Object;)V
 
-    .line 7
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

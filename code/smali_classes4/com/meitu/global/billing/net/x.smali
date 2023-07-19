@@ -36,15 +36,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/global/billing/net/w;-><init>(Lcom/meitu/global/billing/net/j;)V
 
     if-eqz p2, :cond_0
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/global/billing/net/x;->h:Ljava/io/File;
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/global/billing/net/DataModel;->f:Ljava/util/Map;
 
     invoke-virtual {p2}, Ljava/io/File;->getName()Ljava/lang/String;
@@ -57,7 +54,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

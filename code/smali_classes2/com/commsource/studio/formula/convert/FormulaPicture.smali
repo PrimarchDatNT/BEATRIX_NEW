@@ -17,7 +17,6 @@
 .method public constructor <init>(Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-boolean p1, p0, Lcom/commsource/studio/formula/convert/FormulaPicture;->isMain:Z
@@ -150,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/formula/convert/FormulaPicture;->isMain:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

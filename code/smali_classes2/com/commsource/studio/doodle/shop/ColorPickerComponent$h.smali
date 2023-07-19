@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     iput p2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h;->b:I
@@ -63,7 +62,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$h;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {p2}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->i(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)Lcom/commsource/beautyplus/f0/gl;
@@ -80,7 +78,6 @@
 
     invoke-virtual {p2, v1, v2, v3}, Landroid/view/ViewGroup;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

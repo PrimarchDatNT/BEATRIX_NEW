@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/libmtsns/framwork/i/PlatformConfig;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookConfig;->Scope:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -47,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookConfig;->UserInterval:J
 
     const-wide/16 v3, 0x0
@@ -71,10 +68,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookConfig;->Scope:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -89,14 +84,12 @@
 
     const-wide/16 v1, 0xe10
 
-    .line 1
     invoke-static {p1, p2, v1, v2}, Ljava/lang/Math;->max(JJ)J
 
     move-result-wide p1
 
     iput-wide p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookConfig;->UserInterval:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

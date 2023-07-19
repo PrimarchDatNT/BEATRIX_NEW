@@ -24,10 +24,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/common/animutil/a;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/animation/AnimatorSet;
 
     invoke-direct {v0}, Landroid/animation/AnimatorSet;-><init>()V
@@ -44,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/common/animutil/c;->d()Landroid/animation/Animator;
 
     move-result-object v1
@@ -86,7 +83,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/c;->m:Landroid/animation/AnimatorSet$Builder;
 
     if-eqz v1, :cond_0
@@ -114,7 +110,6 @@
 
     invoke-virtual {v1, p1}, Landroid/animation/AnimatorSet$Builder;->with(Landroid/animation/Animator;)Landroid/animation/AnimatorSet$Builder;
 
-    .line 2
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -147,12 +142,10 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Landroid/animation/AnimatorSet;
 
     invoke-direct {v1}, Landroid/animation/AnimatorSet;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/common/animutil/c;->m:Landroid/animation/AnimatorSet$Builder;
 
     if-eqz v2, :cond_0
@@ -172,7 +165,6 @@
 
     invoke-virtual {v2, v1}, Landroid/animation/AnimatorSet$Builder;->before(Landroid/animation/Animator;)Landroid/animation/AnimatorSet$Builder;
 
-    .line 3
     :cond_1
     :goto_0
     invoke-virtual {p2}, Lcom/meitu/common/animutil/a;->d()Landroid/animation/Animator;
@@ -185,10 +177,8 @@
 
     iput-object p2, p0, Lcom/meitu/common/animutil/c;->m:Landroid/animation/AnimatorSet$Builder;
 
-    .line 4
     iput-object v1, p0, Lcom/meitu/common/animutil/c;->l:Landroid/animation/AnimatorSet;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -223,12 +213,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/c;->j:Landroid/animation/AnimatorSet$Builder;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/common/animutil/c;->B()Landroid/animation/AnimatorSet;
 
     move-result-object v1
@@ -257,7 +245,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/meitu/common/animutil/ObjAnim;
 
@@ -269,7 +256,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/a;->a()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -305,12 +291,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/c;->j:Landroid/animation/AnimatorSet$Builder;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/common/animutil/c;->B()Landroid/animation/AnimatorSet;
 
     move-result-object v1
@@ -339,7 +323,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/meitu/common/animutil/d;
 
@@ -351,7 +334,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/d;->z()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -383,7 +365,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/c;->m:Landroid/animation/AnimatorSet$Builder;
 
     if-eqz v1, :cond_0
@@ -411,7 +392,6 @@
 
     invoke-virtual {v1, p2}, Landroid/animation/AnimatorSet$Builder;->with(Landroid/animation/Animator;)Landroid/animation/AnimatorSet$Builder;
 
-    .line 2
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -428,7 +408,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/c;->k:Landroid/animation/Animator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -451,7 +430,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/c;->k:Landroid/animation/Animator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -474,12 +452,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     new-instance v1, Landroid/animation/AnimatorSet;
 
     invoke-direct {v1}, Landroid/animation/AnimatorSet;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/common/animutil/c;->m:Landroid/animation/AnimatorSet$Builder;
 
     if-eqz v2, :cond_0
@@ -499,7 +475,6 @@
 
     invoke-virtual {v2, v1}, Landroid/animation/AnimatorSet$Builder;->before(Landroid/animation/Animator;)Landroid/animation/AnimatorSet$Builder;
 
-    .line 3
     :cond_1
     :goto_0
     invoke-virtual {p1}, Lcom/meitu/common/animutil/a;->d()Landroid/animation/Animator;
@@ -512,10 +487,8 @@
 
     iput-object p1, p0, Lcom/meitu/common/animutil/c;->m:Landroid/animation/AnimatorSet$Builder;
 
-    .line 4
     iput-object v1, p0, Lcom/meitu/common/animutil/c;->l:Landroid/animation/AnimatorSet;
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

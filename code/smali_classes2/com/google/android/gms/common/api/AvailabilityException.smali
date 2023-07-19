@@ -30,10 +30,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Exception;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/AvailabilityException;->zaay:Landroidx/collection/ArrayMap;
 
     return-void
@@ -54,15 +52,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/h;->w()Lcom/google/android/gms/common/api/internal/z2;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/AvailabilityException;->zaay:Landroidx/collection/ArrayMap;
 
-    .line 3
     invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -79,10 +74,8 @@
     :goto_0
     const-string v1, "The given API was not part of the availability request."
 
-    .line 4
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->b(ZLjava/lang/Object;)V
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/common/api/AvailabilityException;->zaay:Landroidx/collection/ArrayMap;
 
     invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -97,12 +90,10 @@
 .method public getMessage()Ljava/lang/String;
     .locals 7
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/common/api/AvailabilityException;->zaay:Landroidx/collection/ArrayMap;
 
     invoke-virtual {v1}, Landroidx/collection/ArrayMap;->keySet()Ljava/util/Set;
@@ -128,7 +119,6 @@
 
     check-cast v3, Lcom/google/android/gms/common/api/internal/z2;
 
-    .line 3
     iget-object v4, p0, Lcom/google/android/gms/common/api/AvailabilityException;->zaay:Landroidx/collection/ArrayMap;
 
     invoke-virtual {v4, v3}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -137,7 +127,6 @@
 
     check-cast v4, Lcom/google/android/gms/common/ConnectionResult;
 
-    .line 4
     invoke-virtual {v4}, Lcom/google/android/gms/common/ConnectionResult;->Q()Z
 
     move-result v5
@@ -146,7 +135,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     :cond_0
     invoke-virtual {v3}, Lcom/google/android/gms/common/api/internal/z2;->c()Ljava/lang/String;
 
@@ -196,7 +184,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -206,7 +193,6 @@
 
     const-string v2, "None of the queried APIs are available. "
 
-    .line 7
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_1
@@ -214,20 +200,17 @@
     :cond_2
     const-string v2, "Some of the queried APIs are unavailable. "
 
-    .line 8
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :goto_1
     const-string v2, "; "
 
-    .line 9
     invoke-static {v2, v0}, Landroid/text/TextUtils;->join(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -248,7 +231,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/AvailabilityException;->zaay:Landroidx/collection/ArrayMap;
 
     return-object v0

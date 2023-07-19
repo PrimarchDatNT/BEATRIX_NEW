@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lf/k/m/j/j$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lf/k/m/j/j$c;-><init>()V
 
     return-void
@@ -45,14 +43,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Ljava/util/concurrent/ThreadPoolExecutor;->isShutdown()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-virtual {p2}, Ljava/util/concurrent/ThreadPoolExecutor;->getQueue()Ljava/util/concurrent/BlockingQueue;
 
     move-result-object v1
@@ -63,21 +59,17 @@
 
     check-cast v1, Ljava/lang/Runnable;
 
-    .line 3
     instance-of v2, v1, Lf/k/m/j/j$d;
 
     if-eqz v2, :cond_0
 
-    .line 4
     check-cast v1, Lf/k/m/j/j$d;
 
     invoke-interface {v1}, Lf/k/m/j/j$d;->f()V
 
-    .line 5
     :cond_0
     invoke-virtual {p2, p1}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

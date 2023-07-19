@@ -39,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lf/k/h/a/l/n;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -56,17 +55,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lf/k/h/a/l/n;->a:Ljava/util/Map;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -85,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/n;->b:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -106,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/n;->a:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -138,14 +132,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     if-eqz p1, :cond_3
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -154,7 +146,6 @@
 
     goto/16 :goto_1
 
-    .line 3
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -173,12 +164,10 @@
 
     check-cast v2, Lcom/android/billingclient/api/Purchase;
 
-    .line 4
     new-instance v3, Lcom/meitu/global/billing/purchase/data/MTGPurchase$a;
 
     invoke-direct {v3}, Lcom/meitu/global/billing/purchase/data/MTGPurchase$a;-><init>()V
 
-    .line 5
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->c()Ljava/lang/String;
 
     move-result-object v4
@@ -187,7 +176,6 @@
 
     move-result-object v3
 
-    .line 6
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->j()Ljava/lang/String;
 
     move-result-object v4
@@ -196,7 +184,6 @@
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->g()J
 
     move-result-wide v4
@@ -205,7 +192,6 @@
 
     move-result-object v3
 
-    .line 8
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->h()Ljava/lang/String;
 
     move-result-object v4
@@ -214,7 +200,6 @@
 
     move-result-object v3
 
-    .line 9
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->f()I
 
     move-result v4
@@ -223,7 +208,6 @@
 
     move-result-object v3
 
-    .line 10
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->f()I
 
     move-result v4
@@ -232,7 +216,6 @@
 
     move-result-object v3
 
-    .line 11
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->l()Z
 
     move-result v4
@@ -241,14 +224,12 @@
 
     move-result-object v3
 
-    .line 12
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->a()Lcom/android/billingclient/api/a;
 
     move-result-object v4
 
     if-eqz v4, :cond_1
 
-    .line 13
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->a()Lcom/android/billingclient/api/a;
 
     move-result-object v4
@@ -261,7 +242,6 @@
 
     move-result-object v4
 
-    .line 14
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->a()Lcom/android/billingclient/api/a;
 
     move-result-object v5
@@ -272,7 +252,6 @@
 
     invoke-virtual {v4, v5}, Lcom/meitu/global/billing/purchase/data/MTGPurchase$a;->d(Ljava/lang/String;)Lcom/meitu/global/billing/purchase/data/MTGPurchase$a;
 
-    .line 15
     :cond_1
     invoke-virtual {v3}, Lcom/meitu/global/billing/purchase/data/MTGPurchase$a;->a()Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
@@ -280,7 +259,6 @@
 
     invoke-interface {v1, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 16
     iget-object v3, p0, Lf/k/h/a/l/n;->b:Ljava/util/Map;
 
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->c()Ljava/lang/String;
@@ -289,7 +267,6 @@
 
     invoke-interface {v3, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     sget-object v3, Lf/k/h/a/l/n;->c:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -314,13 +291,11 @@
 
     goto/16 :goto_0
 
-    .line 18
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 19
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -346,12 +321,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -369,12 +342,10 @@
 
     check-cast v2, Lcom/android/billingclient/api/SkuDetails;
 
-    .line 3
     new-instance v3, Lcom/meitu/global/billing/product/data/Product$b;
 
     invoke-direct {v3}, Lcom/meitu/global/billing/product/data/Product$b;-><init>()V
 
-    .line 4
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->b()Ljava/lang/String;
 
     move-result-object v4
@@ -383,7 +354,6 @@
 
     move-result-object v3
 
-    .line 5
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->k()Ljava/lang/String;
 
     move-result-object v4
@@ -392,7 +362,6 @@
 
     move-result-object v3
 
-    .line 6
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->l()J
 
     move-result-wide v4
@@ -401,7 +370,6 @@
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->i()Ljava/lang/String;
 
     move-result-object v4
@@ -410,7 +378,6 @@
 
     move-result-object v3
 
-    .line 8
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->j()J
 
     move-result-wide v4
@@ -419,7 +386,6 @@
 
     move-result-object v3
 
-    .line 9
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->n()Ljava/lang/String;
 
     move-result-object v4
@@ -428,7 +394,6 @@
 
     move-result-object v3
 
-    .line 10
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->m()Ljava/lang/String;
 
     move-result-object v4
@@ -437,7 +402,6 @@
 
     move-result-object v3
 
-    .line 11
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->q()Ljava/lang/String;
 
     move-result-object v4
@@ -446,7 +410,6 @@
 
     move-result-object v3
 
-    .line 12
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->o()Ljava/lang/String;
 
     move-result-object v4
@@ -455,7 +418,6 @@
 
     move-result-object v3
 
-    .line 13
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->p()Ljava/lang/String;
 
     move-result-object v4
@@ -464,7 +426,6 @@
 
     move-result-object v3
 
-    .line 14
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->a()Ljava/lang/String;
 
     move-result-object v4
@@ -473,7 +434,6 @@
 
     move-result-object v3
 
-    .line 15
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->e()J
 
     move-result-wide v4
@@ -482,7 +442,6 @@
 
     move-result-object v3
 
-    .line 16
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->g()Ljava/lang/String;
 
     move-result-object v4
@@ -491,7 +450,6 @@
 
     move-result-object v3
 
-    .line 17
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->f()I
 
     move-result v4
@@ -500,15 +458,12 @@
 
     move-result-object v3
 
-    .line 18
     invoke-virtual {v3}, Lcom/meitu/global/billing/product/data/Product$b;->a()Lcom/meitu/global/billing/product/data/Product;
 
     move-result-object v3
 
-    .line 19
     invoke-interface {v1, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 20
     iget-object v3, p0, Lf/k/h/a/l/n;->a:Ljava/util/Map;
 
     invoke-virtual {v2}, Lcom/android/billingclient/api/SkuDetails;->n()Ljava/lang/String;
@@ -517,7 +472,6 @@
 
     invoke-interface {v3, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     sget-object v3, Lf/k/h/a/l/n;->c:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -542,7 +496,6 @@
 
     goto/16 :goto_0
 
-    .line 22
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -556,7 +509,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/n;->b:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;

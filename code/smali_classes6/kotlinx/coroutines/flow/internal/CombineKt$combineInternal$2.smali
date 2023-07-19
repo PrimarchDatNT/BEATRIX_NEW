@@ -203,7 +203,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v2, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2;->label:I
 
     const/4 v3, 0x0
@@ -268,7 +267,6 @@
 
     goto/16 :goto_8
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -278,18 +276,15 @@
 
     throw v0
 
-    .line 3
     :cond_1
     invoke-static/range {p1 .. p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     iget-object v2, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2;->p$:Lcotlinx/coroutines/m0;
 
-    .line 4
     iget-object v5, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2;->$flows:[Lcotlinx/coroutines/flow/d;
 
     array-length v5, v5
 
-    .line 5
     new-array v6, v5, [Lcotlinx/coroutines/channels/y;
 
     const/4 v7, 0x0
@@ -319,11 +314,9 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     new-array v7, v5, [Ljava/lang/Object;
 
-    .line 7
     new-array v8, v5, [Ljava/lang/Boolean;
 
     const/4 v9, 0x0
@@ -347,7 +340,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     new-instance v9, Lcotlin/jvm/internal/Ref$IntRef;
 
@@ -355,7 +347,6 @@
 
     iput v5, v9, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 9
     new-instance v10, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v10}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -380,13 +371,11 @@
 
     move-object v2, v0
 
-    .line 10
     :goto_2
     iget v0, v14, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     if-eqz v0, :cond_8
 
-    .line 11
     iput-object v9, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2;->L$0:Ljava/lang/Object;
 
     iput v10, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2;->I$0:I
@@ -405,7 +394,6 @@
 
     iput v4, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2;->label:I
 
-    .line 12
     new-instance v7, Lcotlinx/coroutines/selects/b;
 
     invoke-direct {v7, v8}, Lcotlinx/coroutines/selects/b;-><init>(Lcotlin/coroutines/c;)V
@@ -415,7 +403,6 @@
     :goto_3
     if-ge v0, v10, :cond_5
 
-    .line 13
     :try_start_0
     aget-object v5, v13, v0
 
@@ -468,7 +455,6 @@
 
     goto :goto_4
 
-    .line 14
     :cond_4
     invoke-interface/range {v17 .. v17}, Lcotlinx/coroutines/channels/y;->K()Lcotlinx/coroutines/selects/d;
 
@@ -574,7 +560,6 @@
     :goto_5
     move-object/from16 v17, v15
 
-    .line 15
     :goto_6
     invoke-virtual {v3, v0}, Lcotlinx/coroutines/selects/b;->n0(Ljava/lang/Throwable;)V
 
@@ -599,13 +584,11 @@
 
     move-object/from16 v17, v15
 
-    .line 16
     :goto_7
     invoke-virtual {v3}, Lcotlinx/coroutines/selects/b;->m0()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 17
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v3
@@ -643,7 +626,6 @@
 
     goto/16 :goto_2
 
-    .line 18
     :cond_8
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 

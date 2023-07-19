@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/measurement/qc$d;Landroid/app/Activity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/i0;->g:Lcom/google/android/gms/internal/measurement/qc$d;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/measurement/i0;->f:Landroid/app/Activity;
@@ -35,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/i0;->g:Lcom/google/android/gms/internal/measurement/qc$d;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/measurement/qc$d;->a:Lcom/google/android/gms/internal/measurement/qc;

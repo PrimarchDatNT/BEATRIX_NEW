@@ -26,7 +26,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
 .method protected a()Landroid/graphics/Path;
     .locals 1
 
-    .line 1
     new-instance v0, Landroid/graphics/Path;
 
     invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
@@ -48,7 +46,6 @@
 .method protected bridge synthetic initialValue()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/z/h$c;->a()Landroid/graphics/Path;
 
     move-result-object v0

@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/sdk/imp/w;ZLcom/sdk/imp/w$e;Lcom/sdk/imp/VastModel;Lcom/sdk/api/InternalAdError;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/w$a;->g:Lcom/sdk/imp/w;
 
     iput-boolean p2, p0, Lcom/sdk/imp/w$a;->a:Z
@@ -58,19 +57,16 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/w$a;->a:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/sdk/imp/w;->c:Ljava/lang/String;
 
     const-string v1, "vast:xml parse success"
 
     invoke-static {v0, v1}, Lf/q/b/g;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/w$a;->b:Lcom/sdk/imp/w$e;
 
     iget-object v1, p0, Lcom/sdk/imp/w$a;->c:Lcom/sdk/imp/VastModel;
@@ -79,7 +75,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v0, Lcom/sdk/imp/w;->c:Ljava/lang/String;
 
@@ -113,7 +108,6 @@
 
     invoke-static {v0, v1}, Lf/q/b/g;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/w$a;->b:Lcom/sdk/imp/w$e;
 
     iget-object v1, p0, Lcom/sdk/imp/w$a;->c:Lcom/sdk/imp/VastModel;

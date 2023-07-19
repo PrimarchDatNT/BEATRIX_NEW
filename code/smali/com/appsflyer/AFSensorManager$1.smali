@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/appsflyer/AFSensorManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AFSensorManager$1;->$$b:Lcom/appsflyer/AFSensorManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,14 +37,12 @@
 .method public final run()V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/AFSensorManager$1;->$$b:Lcom/appsflyer/AFSensorManager;
 
     iget-object v0, v0, Lcom/appsflyer/AFSensorManager;->$$b:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/appsflyer/AFSensorManager$1;->$$b:Lcom/appsflyer/AFSensorManager;
 
@@ -55,14 +52,12 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/appsflyer/AFSensorManager$1;->$$b:Lcom/appsflyer/AFSensorManager;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lcom/appsflyer/AFSensorManager;->valueOf(Lcom/appsflyer/AFSensorManager;I)I
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/appsflyer/AFSensorManager$1;->$$b:Lcom/appsflyer/AFSensorManager;
 
@@ -82,7 +77,6 @@
 
     invoke-virtual {v2, v3, v6, v7}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

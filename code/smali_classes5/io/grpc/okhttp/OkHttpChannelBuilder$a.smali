@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method public a(Ljava/util/concurrent/Executor;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {p1}, Ljava/util/concurrent/ExecutorService;->shutdown()V
@@ -52,7 +50,6 @@
 .method public bridge synthetic b(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/concurrent/Executor;
 
     invoke-virtual {p0, p1}, Lio/grpc/okhttp/OkHttpChannelBuilder$a;->a(Ljava/util/concurrent/Executor;)V
@@ -67,7 +64,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {v0, v1}, Lio/grpc/internal/GrpcUtil;->j(Ljava/lang/String;Z)Ljava/util/concurrent/ThreadFactory;
 
     move-result-object v0
@@ -82,7 +78,6 @@
 .method public bridge synthetic create()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/okhttp/OkHttpChannelBuilder$a;->c()Ljava/util/concurrent/Executor;
 
     move-result-object v0

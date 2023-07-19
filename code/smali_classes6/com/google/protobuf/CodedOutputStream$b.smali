@@ -30,14 +30,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/protobuf/CodedOutputStream;-><init>(Lcom/google/protobuf/CodedOutputStream$a;)V
 
     if-ltz p1, :cond_0
 
     const/16 v0, 0x14
 
-    .line 2
     invoke-static {p1, v0}, Ljava/lang/Math;->max(II)I
 
     move-result p1
@@ -46,14 +44,12 @@
 
     iput-object p1, p0, Lcom/google/protobuf/CodedOutputStream$b;->i:[B
 
-    .line 3
     array-length p1, p1
 
     iput p1, p0, Lcom/google/protobuf/CodedOutputStream$b;->j:I
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -69,14 +65,12 @@
 .method final A1(I)V
     .locals 8
 
-    .line 1
     invoke-static {}, Lcom/google/protobuf/CodedOutputStream;->f()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/google/protobuf/CodedOutputStream;->g()J
 
     move-result-wide v0
@@ -96,7 +90,6 @@
 
     if-nez v4, :cond_0
 
-    .line 3
     iget-object v4, p0, Lcom/google/protobuf/CodedOutputStream$b;->i:[B
 
     add-long/2addr v5, v2
@@ -109,14 +102,12 @@
 
     long-to-int p1, v5
 
-    .line 4
     iget v0, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
     add-int/2addr v0, p1
 
     iput v0, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
-    .line 5
     iget v0, p0, Lcom/google/protobuf/CodedOutputStream$b;->l:I
 
     add-int/2addr v0, p1
@@ -125,7 +116,6 @@
 
     return-void
 
-    .line 6
     :cond_0
     iget-object v4, p0, Lcom/google/protobuf/CodedOutputStream$b;->i:[B
 
@@ -151,7 +141,6 @@
 
     if-nez v0, :cond_2
 
-    .line 7
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$b;->i:[B
 
     iget v1, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
@@ -164,7 +153,6 @@
 
     aput-byte p1, v0, v1
 
-    .line 8
     iget p1, p0, Lcom/google/protobuf/CodedOutputStream$b;->l:I
 
     add-int/lit8 p1, p1, 0x1
@@ -173,7 +161,6 @@
 
     return-void
 
-    .line 9
     :cond_2
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$b;->i:[B
 
@@ -191,7 +178,6 @@
 
     aput-byte v2, v0, v1
 
-    .line 10
     iget v0, p0, Lcom/google/protobuf/CodedOutputStream$b;->l:I
 
     add-int/lit8 v0, v0, 0x1
@@ -208,7 +194,6 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     invoke-static {}, Lcom/google/protobuf/CodedOutputStream;->f()Z
 
     move-result v1
@@ -221,7 +206,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/google/protobuf/CodedOutputStream;->g()J
 
     move-result-wide v7
@@ -245,7 +229,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, v0, Lcom/google/protobuf/CodedOutputStream$b;->i:[B
 
     add-long/2addr v15, v11
@@ -260,14 +243,12 @@
 
     long-to-int v2, v1
 
-    .line 4
     iget v1, v0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
     add-int/2addr v1, v2
 
     iput v1, v0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
-    .line 5
     iget v1, v0, Lcom/google/protobuf/CodedOutputStream$b;->l:I
 
     add-int/2addr v1, v2
@@ -276,7 +257,6 @@
 
     return-void
 
-    .line 6
     :cond_0
     iget-object v1, v0, Lcom/google/protobuf/CodedOutputStream$b;->i:[B
 
@@ -308,7 +288,6 @@
 
     if-nez v1, :cond_2
 
-    .line 7
     iget-object v1, v0, Lcom/google/protobuf/CodedOutputStream$b;->i:[B
 
     iget v2, v0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
@@ -323,7 +302,6 @@
 
     aput-byte v3, v1, v2
 
-    .line 8
     iget v1, v0, Lcom/google/protobuf/CodedOutputStream$b;->l:I
 
     add-int/lit8 v1, v1, 0x1
@@ -332,7 +310,6 @@
 
     return-void
 
-    .line 9
     :cond_2
     iget-object v1, v0, Lcom/google/protobuf/CodedOutputStream$b;->i:[B
 
@@ -352,7 +329,6 @@
 
     aput-byte v10, v1, v9
 
-    .line 10
     iget v1, v0, Lcom/google/protobuf/CodedOutputStream$b;->l:I
 
     add-int/lit8 v1, v1, 0x1
@@ -367,7 +343,6 @@
 .method public final j0()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/CodedOutputStream$b;->l:I
 
     return v0
@@ -376,7 +351,6 @@
 .method public final s0()I
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "spaceLeft() can only be called on CodedOutputStreams that are writing to a flat array or ByteBuffer."
@@ -389,7 +363,6 @@
 .method final v1(B)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$b;->i:[B
 
     iget v1, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
@@ -400,7 +373,6 @@
 
     aput-byte p1, v0, v1
 
-    .line 2
     iget p1, p0, Lcom/google/protobuf/CodedOutputStream$b;->l:I
 
     add-int/lit8 p1, p1, 0x1
@@ -413,7 +385,6 @@
 .method final w1(I)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$b;->i:[B
 
     iget v1, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
@@ -430,7 +401,6 @@
 
     add-int/lit8 v1, v2, 0x1
 
-    .line 2
     iput v1, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
     shr-int/lit8 v3, p1, 0x8
@@ -443,7 +413,6 @@
 
     add-int/lit8 v2, v1, 0x1
 
-    .line 3
     iput v2, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
     shr-int/lit8 v3, p1, 0x10
@@ -456,7 +425,6 @@
 
     add-int/lit8 v1, v2, 0x1
 
-    .line 4
     iput v1, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
     shr-int/lit8 p1, p1, 0x18
@@ -467,7 +435,6 @@
 
     aput-byte p1, v0, v2
 
-    .line 5
     iget p1, p0, Lcom/google/protobuf/CodedOutputStream$b;->l:I
 
     add-int/lit8 p1, p1, 0x4
@@ -480,7 +447,6 @@
 .method final x1(J)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$b;->i:[B
 
     iget v1, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
@@ -501,7 +467,6 @@
 
     add-int/lit8 v1, v2, 0x1
 
-    .line 2
     iput v1, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
     const/16 v5, 0x8
@@ -518,7 +483,6 @@
 
     add-int/lit8 v2, v1, 0x1
 
-    .line 3
     iput v2, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
     const/16 v6, 0x10
@@ -535,7 +499,6 @@
 
     add-int/lit8 v1, v2, 0x1
 
-    .line 4
     iput v1, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
     const/16 v6, 0x18
@@ -552,7 +515,6 @@
 
     add-int/lit8 v2, v1, 0x1
 
-    .line 5
     iput v2, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
     const/16 v3, 0x20
@@ -569,7 +531,6 @@
 
     add-int/lit8 v1, v2, 0x1
 
-    .line 6
     iput v1, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
     const/16 v3, 0x28
@@ -586,7 +547,6 @@
 
     add-int/lit8 v2, v1, 0x1
 
-    .line 7
     iput v2, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
     const/16 v3, 0x30
@@ -603,7 +563,6 @@
 
     add-int/lit8 v1, v2, 0x1
 
-    .line 8
     iput v1, p0, Lcom/google/protobuf/CodedOutputStream$b;->k:I
 
     const/16 v1, 0x38
@@ -618,7 +577,6 @@
 
     aput-byte p1, v0, v2
 
-    .line 9
     iget p1, p0, Lcom/google/protobuf/CodedOutputStream$b;->l:I
 
     add-int/2addr p1, v5
@@ -633,7 +591,6 @@
 
     if-ltz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream$b;->A1(I)V
 
     goto :goto_0
@@ -641,7 +598,6 @@
     :cond_0
     int-to-long v0, p1
 
-    .line 2
     invoke-virtual {p0, v0, v1}, Lcom/google/protobuf/CodedOutputStream$b;->B1(J)V
 
     :goto_0
@@ -651,7 +607,6 @@
 .method final z1(II)V
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/protobuf/WireFormat;->c(II)I
 
     move-result p1

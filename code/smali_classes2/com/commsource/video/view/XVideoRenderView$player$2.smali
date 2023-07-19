@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/video/XPlayer;->f:Lcom/commsource/video/XPlayer;
 
     invoke-virtual {v1}, Lcom/commsource/video/XPlayer;->a()Lcom/commsource/video/decoder/a;
@@ -90,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView$player$2;->invoke()Lcom/commsource/video/decoder/a;
 
     move-result-object v1

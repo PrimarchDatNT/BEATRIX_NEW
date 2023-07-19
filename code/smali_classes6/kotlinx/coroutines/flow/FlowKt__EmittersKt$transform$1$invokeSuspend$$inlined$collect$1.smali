@@ -41,7 +41,6 @@
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1$invokeSuspend$$inlined$collect$1;->b:Lcotlinx/coroutines/flow/e;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1$invokeSuspend$$inlined$collect$1;->a:Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1;
 
     iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1;->$transform:Lcotlin/jvm/u/q;
@@ -93,7 +91,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1$invokeSuspend$$inlined$collect$1;->a:Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1;
 
     iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1;->$transform:Lcotlin/jvm/u/q;

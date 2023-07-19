@@ -41,7 +41,6 @@
 
     const/high16 v1, 0x41200000    # 10.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -50,14 +49,12 @@
 
     const/high16 v2, 0x42480000    # 50.0f
 
-    .line 2
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
 
     sput v2, Lcom/commsource/studio/sticker/i;->b:I
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v2
@@ -78,7 +75,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     return-void
@@ -91,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/sticker/i;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -106,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/sticker/i;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -121,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/sticker/i;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -170,21 +163,18 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p3}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object p4
 
     if-eqz p4, :cond_2
 
-    .line 2
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
 
     const-string p3, "it"
 
-    .line 3
     invoke-static {p4, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p4}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->getItemCount()I
@@ -202,7 +192,6 @@
     :cond_0
     move v1, p3
 
-    .line 4
     :goto_0
     invoke-virtual {p4}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->getItemCount()I
 
@@ -214,7 +203,6 @@
 
     if-lt p2, p3, :cond_1
 
-    .line 5
     sget p2, Lcom/commsource/studio/sticker/i;->a:I
 
     sget p3, Lcom/commsource/studio/sticker/i;->b:I
@@ -223,13 +211,11 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     sget p2, Lcom/commsource/studio/sticker/i;->a:I
 
     invoke-virtual {p1, p2, p2, p4, p4}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 7
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

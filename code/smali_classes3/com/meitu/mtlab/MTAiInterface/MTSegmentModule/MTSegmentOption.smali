@@ -140,43 +140,32 @@
 .method public constructor <init>()V
     .locals 6
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mode:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskWidth:I
 
-    .line 4
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskHeight:I
 
     const/4 v1, -0x1
 
-    .line 5
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->binaryThreshold:I
 
-    .line 6
     iput-boolean v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->useGLSync:Z
 
-    .line 7
     iput-boolean v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->isFstFrameInit:Z
 
     const/4 v1, 0x1
 
-    .line 8
     iput-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->enableFaceCrop:Z
 
-    .line 9
     iput-boolean v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->debugMerge:Z
 
-    .line 10
     iput-boolean v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->rtNeedCpuData:Z
 
-    .line 11
     sget-object v2, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;->MTSegmentModuleMode_MAX_NUM:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;
 
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
@@ -187,7 +176,6 @@
 
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->modeArray:[I
 
-    .line 12
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
@@ -196,7 +184,6 @@
 
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->needSetModeArray:[Z
 
-    .line 13
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
@@ -205,7 +192,6 @@
 
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->useOptFlowArray:[Z
 
-    .line 14
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
@@ -214,7 +200,6 @@
 
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->enableMaskThresholdArray:[Z
 
-    .line 15
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
@@ -223,7 +208,6 @@
 
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskThresholdArray:[I
 
-    .line 16
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
@@ -232,7 +216,6 @@
 
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->enableMaskMapArray:[Z
 
-    .line 17
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
@@ -241,7 +224,6 @@
 
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskMapDataArray:[F
 
-    .line 18
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
@@ -250,7 +232,6 @@
 
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->neuralFrameArray:[I
 
-    .line 19
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
@@ -259,7 +240,6 @@
 
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->intervalFrameArray:[I
 
-    .line 20
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
@@ -268,7 +248,6 @@
 
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->optFlowThresholdFrameArray:[F
 
-    .line 21
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
@@ -279,14 +258,12 @@
 
     const-wide/16 v2, 0x0
 
-    .line 22
     iput-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mNativeInstance:J
 
     cmp-long v4, v2, v2
 
     if-nez v4, :cond_0
 
-    .line 23
     new-instance v2, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$1;
 
     invoke-direct {v2, p0}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$1;-><init>(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;)V
@@ -296,7 +273,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 24
     :goto_0
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->useOptFlowArray:[Z
 
@@ -304,55 +280,46 @@
 
     if-ge v2, v4, :cond_1
 
-    .line 25
     aput-boolean v0, v3, v2
 
-    .line 26
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->enableMaskMapArray:[Z
 
     aput-boolean v0, v3, v2
 
-    .line 27
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskMapDataArray:[F
 
     const v4, 0x3ecccccd    # 0.4f
 
     aput v4, v3, v2
 
-    .line 28
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->neuralFrameArray:[I
 
     const/4 v4, 0x2
 
     aput v4, v3, v2
 
-    .line 29
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->intervalFrameArray:[I
 
     const/16 v4, 0x14
 
     aput v4, v3, v2
 
-    .line 30
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->optFlowThresholdFrameArray:[F
 
     const/high16 v5, 0x42c80000    # 100.0f
 
     aput v5, v3, v2
 
-    .line 31
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mergeByAlphaArray:[F
 
     const v5, 0x3f733333    # 0.95f
 
     aput v5, v3, v2
 
-    .line 32
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->enableMaskThresholdArray:[Z
 
     aput-boolean v0, v3, v2
 
-    .line 33
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskThresholdArray:[I
 
     aput v4, v3, v2
@@ -361,7 +328,6 @@
 
     goto :goto_0
 
-    .line 34
     :cond_1
     sget-object v2, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;->MTSegmentModuleMode_HALFBODY:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;
 
@@ -371,7 +337,6 @@
 
     aput-boolean v1, v3, v2
 
-    .line 35
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->useOptFlowArray:[Z
 
     sget-object v3, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;->MTSegmentModuleMode_HAIR:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;
@@ -382,7 +347,6 @@
 
     aput-boolean v1, v2, v3
 
-    .line 36
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->useOptFlowArray:[Z
 
     sget-object v3, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;->MTSegmentModuleMode_SKY:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;
@@ -395,7 +359,6 @@
 
     const/4 v1, 0x0
 
-    .line 37
     :goto_1
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->modeArray:[I
 
@@ -403,10 +366,8 @@
 
     if-ge v1, v3, :cond_2
 
-    .line 38
     aput v0, v2, v1
 
-    .line 39
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->needSetModeArray:[Z
 
     aput-boolean v0, v2, v1
@@ -426,7 +387,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -441,7 +401,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeCreateInstance()J
 
     move-result-wide v1
@@ -535,24 +494,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->modeArray:[I
 
     aput p2, v1, p1
 
-    .line 3
     iget-object p2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->needSetModeArray:[Z
 
     const/4 v1, 0x1
 
     aput-boolean v1, p2, p1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -565,22 +520,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    .line 2
     invoke-virtual {p2}, Ljava/lang/Enum;->ordinal()I
 
     move-result p2
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mNativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetSegmentPrecision(JII)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -593,17 +544,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mNativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetShaderFilePath(JILjava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -618,39 +566,30 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     iput-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mNativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeClearOption(J)V
 
     const/4 v1, 0x0
 
-    .line 3
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskWidth:I
 
-    .line 4
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskHeight:I
 
-    .line 5
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mode:I
 
     const/4 v2, -0x1
 
-    .line 6
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->binaryThreshold:I
 
-    .line 7
     iput-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->useGLSync:Z
 
-    .line 8
     iput-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->isFstFrameInit:Z
 
     const/4 v2, 0x0
 
-    .line 9
     :goto_0
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->useOptFlowArray:[Z
 
@@ -658,55 +597,46 @@
 
     if-ge v2, v4, :cond_0
 
-    .line 10
     aput-boolean v1, v3, v2
 
-    .line 11
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->enableMaskMapArray:[Z
 
     aput-boolean v1, v3, v2
 
-    .line 12
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskMapDataArray:[F
 
     const v4, 0x3ecccccd    # 0.4f
 
     aput v4, v3, v2
 
-    .line 13
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->neuralFrameArray:[I
 
     const/4 v4, 0x2
 
     aput v4, v3, v2
 
-    .line 14
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->intervalFrameArray:[I
 
     const/16 v4, 0x14
 
     aput v4, v3, v2
 
-    .line 15
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->optFlowThresholdFrameArray:[F
 
     const/high16 v5, 0x42c80000    # 100.0f
 
     aput v5, v3, v2
 
-    .line 16
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mergeByAlphaArray:[F
 
     const v5, 0x3f733333    # 0.95f
 
     aput v5, v3, v2
 
-    .line 17
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->enableMaskThresholdArray:[Z
 
     aput-boolean v1, v3, v2
 
-    .line 18
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskThresholdArray:[I
 
     aput v4, v3, v2
@@ -715,7 +645,6 @@
 
     goto :goto_0
 
-    .line 19
     :cond_0
     sget-object v2, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;->MTSegmentModuleMode_HALFBODY:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;
 
@@ -727,7 +656,6 @@
 
     aput-boolean v4, v3, v2
 
-    .line 20
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->useOptFlowArray:[Z
 
     sget-object v3, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;->MTSegmentModuleMode_HAIR:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;
@@ -738,7 +666,6 @@
 
     aput-boolean v4, v2, v3
 
-    .line 21
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->useOptFlowArray:[Z
 
     sget-object v3, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;->MTSegmentModuleMode_SKY:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;
@@ -751,7 +678,6 @@
 
     const/4 v2, 0x0
 
-    .line 22
     :goto_1
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->modeArray:[I
 
@@ -759,12 +685,10 @@
 
     if-ge v2, v4, :cond_1
 
-    .line 23
     iget v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mode:I
 
     aput v4, v3, v2
 
-    .line 24
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->needSetModeArray:[Z
 
     aput-boolean v1, v3, v2
@@ -773,7 +697,6 @@
 
     goto :goto_1
 
-    .line 25
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -787,7 +710,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x4
@@ -807,7 +729,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mNativeInstance:J
 
@@ -815,10 +736,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -826,10 +745,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -842,7 +759,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -857,17 +773,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->enableMaskThresholdArray:[Z
 
     aput-boolean p2, v1, p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -880,17 +793,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->intervalFrameArray:[I
 
     aput p2, v1, p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -903,17 +813,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->enableMaskMapArray:[Z
 
     aput-boolean p2, v1, p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -926,17 +833,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskMapDataArray:[F
 
     aput p2, v1, p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -949,17 +853,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskThresholdArray:[I
 
     aput p2, v1, p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -972,17 +873,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mergeByAlphaArray:[F
 
     aput p2, v1, p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -995,17 +893,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->neuralFrameArray:[I
 
     aput p2, v1, p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1018,17 +913,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->useOptFlowArray:[Z
 
     aput-boolean p2, v1, p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1041,17 +933,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->optFlowThresholdFrameArray:[F
 
     aput p2, v1, p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1064,7 +953,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mode:I
@@ -1073,7 +961,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->needSetModeArray:[Z
 
@@ -1081,12 +968,10 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 3
     aget-boolean v2, v2, v1
 
     if-eqz v2, :cond_0
 
-    .line 4
     iget-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mNativeInstance:J
 
     iget-object v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->modeArray:[I
@@ -1100,7 +985,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mNativeInstance:J
 
@@ -1108,14 +992,12 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetOption(JJ)V
 
-    .line 6
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mNativeInstance:J
 
     iget-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->isFstFrameInit:Z
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetFstFrameInit(JZ)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1128,89 +1010,72 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 8
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeEnableDetectSegment(JJ)V
 
-    .line 9
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskWidth:I
 
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskHeight:I
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetMaskSize(JII)V
 
-    .line 10
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->binaryThreshold:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetBinaryThreshold(JI)V
 
-    .line 11
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->useGLSync:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetGLSync(JZ)V
 
-    .line 12
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->useOptFlowArray:[Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetOptFlow(J[Z)V
 
-    .line 13
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->enableFaceCrop:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetEnableFaceCrop(JZ)V
 
-    .line 14
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->debugMerge:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetDebugMerge(JZ)V
 
-    .line 15
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->rtNeedCpuData:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetRTNeedCpuData(JZ)V
 
-    .line 16
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->enableMaskMapArray:[Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetMaskMap(J[Z)V
 
-    .line 17
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskMapDataArray:[F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetMaskMapData(J[F)V
 
-    .line 18
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->neuralFrameArray:[I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetNeuralFrame(J[I)V
 
-    .line 19
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->intervalFrameArray:[I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetIntervalFrame(J[I)V
 
-    .line 20
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->optFlowThresholdFrameArray:[F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetOptFlowThreshold(J[F)V
 
-    .line 21
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mergeByAlphaArray:[F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetMergeByAlpha(J[F)V
 
-    .line 22
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->enableMaskThresholdArray:[Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetEnableMaskThreshold(J[Z)V
 
-    .line 23
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskThresholdArray:[I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->nativeSetMaskThreshold(J[I)V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

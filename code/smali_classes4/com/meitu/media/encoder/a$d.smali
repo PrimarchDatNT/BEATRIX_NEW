@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/media/encoder/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/a;->f0()Z
@@ -51,12 +49,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
@@ -92,7 +88,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v1}, Lcom/meitu/media/encoder/a;->G(Lcom/meitu/media/encoder/a;)Lcom/meitu/media/encoder/a$o;
@@ -101,12 +96,10 @@
 
     invoke-interface {v1}, Lcom/meitu/media/encoder/a$o;->a()V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v1, v2}, Lcom/meitu/media/encoder/a;->D(Lcom/meitu/media/encoder/a;Z)Z
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
@@ -116,18 +109,15 @@
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     iget v3, v1, Lcom/meitu/media/encoder/a;->e0:I
 
-    .line 9
     iget v4, v1, Lcom/meitu/media/encoder/a;->d0:I
 
     if-ne v3, v4, :cond_3
@@ -142,10 +132,8 @@
 
     const-string v2, "empty audio buffer write to codec"
 
-    .line 10
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -153,7 +141,6 @@
     :cond_3
     const/4 v1, 0x5
 
-    .line 12
     :try_start_0
     iget-object v4, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
@@ -167,12 +154,10 @@
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 13
     iget-object v5, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v5}, Lcom/meitu/media/encoder/a;->n(Lcom/meitu/media/encoder/a;)V
 
-    .line 14
     :try_start_1
     iget-object v5, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
@@ -190,7 +175,6 @@
 
     if-gez v9, :cond_4
 
-    .line 15
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v1}, Lcom/meitu/media/encoder/a;->p(Lcom/meitu/media/encoder/a;)Landroid/os/Handler;
@@ -205,7 +189,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 16
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v1}, Lcom/meitu/media/encoder/a;->p(Lcom/meitu/media/encoder/a;)Landroid/os/Handler;
@@ -224,16 +207,13 @@
 
     goto/16 :goto_4
 
-    .line 17
     :cond_4
     aget-object v1, v4, v9
 
-    .line 18
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v4
 
-    .line 19
     iget-object v5, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     iget v6, v5, Lcom/meitu/media/encoder/a;->d0:I
@@ -244,7 +224,6 @@
 
     goto :goto_0
 
-    .line 20
     :cond_5
     iget-object v7, v5, Lcom/meitu/media/encoder/a;->c0:[B
 
@@ -270,13 +249,11 @@
 
     const/4 v3, 0x0
 
-    .line 21
     :goto_1
     invoke-static {v5, v11}, Lcom/meitu/media/encoder/a;->q(Lcom/meitu/media/encoder/a;I)J
 
     move-result-wide v4
 
-    .line 22
     iget-object v7, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v7}, Lcom/meitu/media/encoder/a;->r(Lcom/meitu/media/encoder/a;)I
@@ -287,7 +264,6 @@
 
     if-ne v7, v8, :cond_7
 
-    .line 23
     iget-object v7, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v7}, Lcom/meitu/media/encoder/a;->s(Lcom/meitu/media/encoder/a;)J
@@ -298,7 +274,6 @@
 
     invoke-static {v7, v12, v13}, Lcom/meitu/media/encoder/a;->t(Lcom/meitu/media/encoder/a;J)J
 
-    .line 24
     iget-object v7, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v7}, Lcom/meitu/media/encoder/a;->u(Lcom/meitu/media/encoder/a;)V
@@ -306,7 +281,6 @@
     :cond_7
     if-eqz v11, :cond_a
 
-    .line 25
     iget-object v7, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     iget v8, v7, Lcom/meitu/media/encoder/a;->d0:I
@@ -325,7 +299,6 @@
 
     goto :goto_2
 
-    .line 26
     :cond_8
     array-length v10, v7
 
@@ -336,20 +309,17 @@
     :goto_2
     if-eqz v10, :cond_9
 
-    .line 27
     invoke-virtual {v1, v7, v8, v10}, Ljava/nio/ByteBuffer;->put([BII)Ljava/nio/ByteBuffer;
 
     :cond_9
     if-eqz v12, :cond_a
 
-    .line 28
     iget-object v7, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     iget-object v7, v7, Lcom/meitu/media/encoder/a;->c0:[B
 
     invoke-virtual {v1, v7, v6, v12}, Ljava/nio/ByteBuffer;->put([BII)Ljava/nio/ByteBuffer;
 
-    .line 29
     :cond_a
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
@@ -367,7 +337,6 @@
 
     if-eqz v3, :cond_b
 
-    .line 30
     invoke-static {v1}, Lcom/meitu/media/encoder/a;->l(Lcom/meitu/media/encoder/a;)Landroid/media/MediaCodec;
 
     move-result-object v8
@@ -384,7 +353,6 @@
 
     invoke-virtual/range {v8 .. v14}, Landroid/media/MediaCodec;->queueInputBuffer(IIIJI)V
 
-    .line 31
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v1}, Lcom/meitu/media/encoder/a;->p(Lcom/meitu/media/encoder/a;)Landroid/os/Handler;
@@ -399,7 +367,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 32
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v1}, Lcom/meitu/media/encoder/a;->p(Lcom/meitu/media/encoder/a;)Landroid/os/Handler;
@@ -416,7 +383,6 @@
 
     goto :goto_3
 
-    .line 33
     :cond_b
     invoke-static {v1}, Lcom/meitu/media/encoder/a;->J(Lcom/meitu/media/encoder/a;)Z
 
@@ -424,14 +390,12 @@
 
     if-eqz v1, :cond_c
 
-    .line 34
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v1, v2}, Lcom/meitu/media/encoder/a;->I(Lcom/meitu/media/encoder/a;Z)Z
 
     const-string v1, "AVEncoder"
 
-    .line 35
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -454,7 +418,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 36
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v1}, Lcom/meitu/media/encoder/a;->l(Lcom/meitu/media/encoder/a;)Landroid/media/MediaCodec;
@@ -475,7 +438,6 @@
 
     goto :goto_3
 
-    .line 37
     :cond_c
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
@@ -495,7 +457,6 @@
 
     invoke-virtual/range {v8 .. v14}, Landroid/media/MediaCodec;->queueInputBuffer(IIIJI)V
 
-    .line 38
     :goto_3
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
@@ -507,7 +468,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/media/encoder/a;->w(Lcom/meitu/media/encoder/a;J)J
 
-    .line 39
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v1}, Lcom/meitu/media/encoder/a;->y(Lcom/meitu/media/encoder/a;)Ljava/lang/Object;
@@ -516,7 +476,6 @@
 
     monitor-enter v2
 
-    .line 40
     :try_start_2
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
@@ -526,12 +485,10 @@
 
     invoke-virtual {v1}, Ljava/lang/Object;->notify()V
 
-    .line 41
     monitor-exit v2
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 42
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -540,7 +497,6 @@
     :catchall_0
     move-exception v1
 
-    .line 43
     :try_start_3
     monitor-exit v2
     :try_end_3
@@ -557,23 +513,18 @@
 
     const-string v4, "dequeueInputBuffer throw exception"
 
-    .line 44
     invoke-static {v3, v4}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 45
     invoke-virtual {v2}, Ljava/lang/IllegalStateException;->printStackTrace()V
 
-    .line 46
     iget-object v2, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v2, v1}, Lcom/meitu/media/encoder/a;->m(Lcom/meitu/media/encoder/a;I)I
 
-    .line 47
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/a;->N0()V
 
-    .line 48
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -585,23 +536,18 @@
 
     const-string v4, "getInputBuffers throw exception"
 
-    .line 49
     invoke-static {v3, v4}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 50
     invoke-virtual {v2}, Ljava/lang/IllegalStateException;->printStackTrace()V
 
-    .line 51
     iget-object v2, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v2, v1}, Lcom/meitu/media/encoder/a;->m(Lcom/meitu/media/encoder/a;I)I
 
-    .line 52
     iget-object v1, p0, Lcom/meitu/media/encoder/a$d;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/a;->N0()V
 
-    .line 53
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

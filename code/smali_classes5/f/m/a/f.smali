@@ -13,10 +13,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "u can\'t instantiate me..."
@@ -29,7 +27,6 @@
 .method public static a()Landroid/app/Application;
     .locals 1
 
-    .line 1
     sget-object v0, Lf/m/a/f;->b:Landroid/app/Application;
 
     return-object v0
@@ -38,7 +35,6 @@
 .method public static b()Landroid/content/Context;
     .locals 1
 
-    .line 1
     sget-object v0, Lf/m/a/f;->a:Landroid/content/Context;
 
     return-object v0
@@ -47,10 +43,8 @@
 .method public static c(Landroid/app/Application;)V
     .locals 0
 
-    .line 1
     sput-object p0, Lf/m/a/f;->b:Landroid/app/Application;
 
-    .line 2
     sput-object p0, Lf/m/a/f;->a:Landroid/content/Context;
 
     return-void

@@ -31,17 +31,14 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/bumptech/glide/load/engine/x/c;->a:Ljava/util/Map;
 
-    .line 3
     new-instance v0, Lcom/bumptech/glide/load/engine/x/c$b;
 
     invoke-direct {v0}, Lcom/bumptech/glide/load/engine/x/c$b;-><init>()V
@@ -56,10 +53,8 @@
 .method a(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/x/c;->a:Ljava/util/Map;
 
@@ -71,19 +66,16 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/x/c;->b:Lcom/bumptech/glide/load/engine/x/c$b;
 
     invoke-virtual {v0}, Lcom/bumptech/glide/load/engine/x/c$b;->a()Lcom/bumptech/glide/load/engine/x/c$a;
 
     move-result-object v0
 
-    .line 4
     iget-object v1, p0, Lcom/bumptech/glide/load/engine/x/c;->a:Ljava/util/Map;
 
     invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :cond_0
     iget p1, v0, Lcom/bumptech/glide/load/engine/x/c$a;->b:I
 
@@ -91,12 +83,10 @@
 
     iput p1, v0, Lcom/bumptech/glide/load/engine/x/c$a;->b:I
 
-    .line 6
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     iget-object p1, v0, Lcom/bumptech/glide/load/engine/x/c$a;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->lock()V
@@ -106,7 +96,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -118,10 +107,8 @@
 .method b(Ljava/lang/String;)V
     .locals 5
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/x/c;->a:Ljava/util/Map;
 
@@ -135,7 +122,6 @@
 
     check-cast v0, Lcom/bumptech/glide/load/engine/x/c$a;
 
-    .line 3
     iget v1, v0, Lcom/bumptech/glide/load/engine/x/c$a;->b:I
 
     const/4 v2, 0x1
@@ -144,12 +130,10 @@
 
     sub-int/2addr v1, v2
 
-    .line 4
     iput v1, v0, Lcom/bumptech/glide/load/engine/x/c$a;->b:I
 
     if-nez v1, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/bumptech/glide/load/engine/x/c;->a:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -158,21 +142,18 @@
 
     check-cast v1, Lcom/bumptech/glide/load/engine/x/c$a;
 
-    .line 6
     invoke-virtual {v1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 7
     iget-object p1, p0, Lcom/bumptech/glide/load/engine/x/c;->b:Lcom/bumptech/glide/load/engine/x/c$b;
 
     invoke-virtual {p1, v1}, Lcom/bumptech/glide/load/engine/x/c$b;->b(Lcom/bumptech/glide/load/engine/x/c$a;)V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     new-instance v2, Ljava/lang/IllegalStateException;
 
@@ -206,21 +187,18 @@
 
     throw v2
 
-    .line 9
     :cond_1
     :goto_0
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     iget-object p1, v0, Lcom/bumptech/glide/load/engine/x/c$a;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     return-void
 
-    .line 11
     :cond_2
     :try_start_1
     new-instance v1, Ljava/lang/IllegalStateException;
@@ -254,7 +232,6 @@
     :catchall_0
     move-exception p1
 
-    .line 12
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0

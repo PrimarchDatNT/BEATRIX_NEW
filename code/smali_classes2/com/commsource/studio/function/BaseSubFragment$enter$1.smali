@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment$enter$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$enter$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-static {v1}, Lcom/commsource/util/b2;->f(Lcom/commsource/studio/function/BaseSubFragment;)Z
@@ -83,7 +81,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$enter$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -114,7 +111,6 @@
 
     invoke-virtual {v1, v4}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$enter$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -124,17 +120,14 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$enter$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
-    .line 6
     invoke-static {v1}, Lcom/commsource/util/b2;->f(Lcom/commsource/studio/function/BaseSubFragment;)Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 7
     iget-object v4, p0, Lcom/commsource/studio/function/BaseSubFragment$enter$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v4}, Lcom/commsource/studio/function/BaseSubFragment;->f0()Lcom/commsource/studio/effect/t;
@@ -147,14 +140,12 @@
 
     if-nez v4, :cond_1
 
-    .line 8
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v4
 
     if-nez v4, :cond_1
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/studio/function/BaseSubFragment$enter$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     instance-of v4, v4, Lcom/commsource/studio/function/AIBeautyFragment;
@@ -173,10 +164,8 @@
 
     const/4 v6, 0x0
 
-    .line 10
     invoke-static {v1, v4, v3, v5, v6}, Lcom/commsource/studio/function/BaseSubFragment;->y1(Lcom/commsource/studio/function/BaseSubFragment;IZILjava/lang/Object;)V
 
-    .line 11
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$enter$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -186,12 +175,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->g2(Z)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$enter$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->G()V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -18,7 +18,6 @@
 .method public constructor <init>(Ljava/lang/Runnable;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     return-void
@@ -33,10 +32,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Thread;->run()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -26,7 +26,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/squareup/okhttp/internal/DiskLruCache;
 
     return-void
@@ -35,7 +34,6 @@
 .method constructor <init>(Lcom/squareup/okhttp/internal/DiskLruCache;Lokio/Sink;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/internal/DiskLruCache$2;->this$0:Lcom/squareup/okhttp/internal/DiskLruCache;
 
     invoke-direct {p0, p2}, Lcom/squareup/okhttp/internal/FaultHidingSink;-><init>(Lokio/Sink;)V
@@ -48,7 +46,6 @@
 .method protected onException(Ljava/io/IOException;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/squareup/okhttp/internal/DiskLruCache$2;->this$0:Lcom/squareup/okhttp/internal/DiskLruCache;
 
     const/4 v0, 0x1

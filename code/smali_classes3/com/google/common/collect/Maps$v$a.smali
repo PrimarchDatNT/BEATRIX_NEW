@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/google/common/collect/Maps$v;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Maps$v$a;->c:Lcom/google/common/collect/Maps$v;
 
     invoke-direct {p0, p1}, Lcom/google/common/collect/Maps$t$b;-><init>(Lcom/google/common/collect/Maps$t;)V
@@ -54,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$v$a;->c:Lcom/google/common/collect/Maps$v;
 
     invoke-virtual {v0}, Lcom/google/common/collect/Maps$v;->i()Ljava/util/SortedMap;
@@ -76,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$v$a;->c:Lcom/google/common/collect/Maps$v;
 
     invoke-virtual {v0}, Lcom/google/common/collect/Maps$v;->firstKey()Ljava/lang/Object;
@@ -96,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$v$a;->c:Lcom/google/common/collect/Maps$v;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/Maps$v;->headMap(Ljava/lang/Object;)Ljava/util/SortedMap;
@@ -120,7 +116,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$v$a;->c:Lcom/google/common/collect/Maps$v;
 
     invoke-virtual {v0}, Lcom/google/common/collect/Maps$v;->lastKey()Ljava/lang/Object;
@@ -140,7 +135,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$v$a;->c:Lcom/google/common/collect/Maps$v;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/common/collect/Maps$v;->subMap(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/SortedMap;
@@ -166,7 +160,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$v$a;->c:Lcom/google/common/collect/Maps$v;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/Maps$v;->tailMap(Ljava/lang/Object;)Ljava/util/SortedMap;

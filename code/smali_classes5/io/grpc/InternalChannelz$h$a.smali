@@ -39,10 +39,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -69,10 +67,8 @@
 
     const-string v0, "listenSockets"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -90,7 +86,6 @@
 
     check-cast v0, Lio/grpc/i0;
 
-    .line 3
     iget-object v1, p0, Lio/grpc/InternalChannelz$h$a;->e:Ljava/util/List;
 
     const-string v2, "null listen socket"
@@ -110,7 +105,6 @@
 .method public b()Lio/grpc/InternalChannelz$h;
     .locals 11
 
-    .line 1
     new-instance v10, Lio/grpc/InternalChannelz$h;
 
     iget-wide v1, p0, Lio/grpc/InternalChannelz$h$a;->a:J
@@ -133,7 +127,6 @@
 .method public c(J)Lio/grpc/InternalChannelz$h$a;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/grpc/InternalChannelz$h$a;->c:J
 
     return-object p0
@@ -142,7 +135,6 @@
 .method public d(J)Lio/grpc/InternalChannelz$h$a;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/grpc/InternalChannelz$h$a;->a:J
 
     return-object p0
@@ -151,7 +143,6 @@
 .method public e(J)Lio/grpc/InternalChannelz$h$a;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/grpc/InternalChannelz$h$a;->b:J
 
     return-object p0
@@ -160,7 +151,6 @@
 .method public f(J)Lio/grpc/InternalChannelz$h$a;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/grpc/InternalChannelz$h$a;->d:J
 
     return-object p0

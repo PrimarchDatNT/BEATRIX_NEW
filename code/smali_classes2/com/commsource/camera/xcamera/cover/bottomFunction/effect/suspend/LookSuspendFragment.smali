@@ -77,7 +77,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     sput v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->N:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -88,10 +87,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$lookIndicator$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$lookIndicator$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;)V
@@ -102,7 +99,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->f:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$lookViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$lookViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;)V
@@ -113,7 +109,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->g:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$bpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;)V
@@ -124,7 +119,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->p:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$beautyViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$beautyViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;)V
@@ -135,7 +129,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->J:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$cameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$cameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;)V
@@ -146,7 +139,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->K:Lcotlin/w;
 
-    .line 7
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$makeupViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$makeupViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;)V
@@ -167,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->H()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -182,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->I()Z
 
     move-result p0
@@ -199,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->N:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -214,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -229,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->V()Z
 
     move-result p0
@@ -246,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->W(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -261,7 +247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -276,7 +261,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/d;
 
     move-result-object v1
@@ -291,7 +275,6 @@
 
     if-eqz v1, :cond_13
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->V()Z
 
     move-result v2
@@ -316,14 +299,12 @@
 
     if-nez v2, :cond_b
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->c()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v2, :cond_0
@@ -339,7 +320,6 @@
 
     invoke-virtual {v2, v12}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 5
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->isEnable()Z
 
@@ -347,7 +327,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_2
@@ -359,7 +338,6 @@
 
     invoke-static {v1, v9, v10, v7, v6}, Lcom/commsource/widget/XSeekBar;->w(Lcom/commsource/widget/XSeekBar;ZZILjava/lang/Object;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_3
@@ -373,7 +351,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_4
@@ -387,7 +364,6 @@
 
     invoke-virtual {v1, v10}, Landroid/view/View;->setClickable(Z)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_5
@@ -403,7 +379,6 @@
 
     goto/16 :goto_0
 
-    .line 10
     :cond_6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
@@ -416,7 +391,6 @@
 
     invoke-static {v1, v10, v10, v7, v6}, Lcom/commsource/widget/XSeekBar;->w(Lcom/commsource/widget/XSeekBar;ZZILjava/lang/Object;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_8
@@ -430,7 +404,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_9
@@ -444,7 +417,6 @@
 
     invoke-virtual {v1, v9}, Landroid/view/View;->setClickable(Z)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_a
@@ -460,7 +432,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_b
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
@@ -473,7 +444,6 @@
 
     invoke-static {v2, v9, v10, v7, v6}, Lcom/commsource/widget/XSeekBar;->w(Lcom/commsource/widget/XSeekBar;ZZILjava/lang/Object;)V
 
-    .line 15
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v2, :cond_d
@@ -487,14 +457,12 @@
 
     invoke-virtual {v2, v10}, Landroid/view/View;->setClickable(Z)V
 
-    .line 16
     invoke-virtual {v1}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->isEnable()Z
 
     move-result v1
 
     if-eqz v1, :cond_10
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_e
@@ -508,7 +476,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_f
@@ -524,7 +491,6 @@
 
     goto :goto_0
 
-    .line 19
     :cond_10
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
@@ -539,7 +505,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_12
@@ -553,7 +518,6 @@
 
     invoke-virtual {v1, v2, v10}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->setPositionEnable(IZ)V
 
-    .line 21
     :cond_13
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -568,7 +532,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/d;
 
     move-result-object v1
@@ -583,14 +546,12 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->M()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object v2
@@ -607,29 +568,24 @@
 
     const-string v3, "\u8c03\u8282Look\u7f8e\u989c"
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v2, "\u72b6\u6001"
 
     const-string v3, "\u5c55\u793a"
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v2, "selfielook_restore_auto_beauty"
 
-    .line 6
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 7
     new-instance v1, Lcom/commsource/widget/dialog/s0/t$a;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
     sget v2, Lcom/res/provider/ResSTRING;->reset_to_auto_beauty:I
 
-    .line 8
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
@@ -640,7 +596,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
-    .line 9
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
@@ -651,7 +606,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 10
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
@@ -662,12 +616,10 @@
 
     const/4 v2, 0x1
 
-    .line 11
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/s0/t$a;->p(Z)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v1
 
-    .line 12
     new-instance v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$d;
 
     invoke-direct {v3, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$d;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;)V
@@ -676,7 +628,6 @@
 
     move-result-object v1
 
-    .line 13
     new-instance v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$e;
 
     invoke-direct {v3, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$e;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;)V
@@ -685,7 +636,6 @@
 
     move-result-object v1
 
-    .line 14
     new-instance v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$f;
 
     invoke-direct {v3, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$f;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;)V
@@ -694,15 +644,12 @@
 
     move-result-object v1
 
-    .line 15
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object v1
 
-    .line 16
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -710,7 +657,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -723,7 +669,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_0
@@ -767,21 +712,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x10
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->V()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -792,7 +734,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -802,7 +743,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->P()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
 
@@ -820,7 +760,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getStatisticId()Ljava/lang/String;
 
     move-result-object v2
@@ -829,7 +768,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSex()I
 
     move-result p1
@@ -859,7 +797,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->M()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
@@ -877,7 +814,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->M()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
@@ -898,10 +834,8 @@
     :cond_5
     const-string p1, "selfielook_material_slip"
 
-    .line 10
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 11
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -921,7 +855,6 @@
 
     if-nez p1, :cond_1
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez p1, :cond_0
@@ -943,7 +876,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
@@ -964,7 +896,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/XSeekBar;->setMThumbIndicatorColor(I)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1090,7 +1021,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_0
@@ -1134,7 +1064,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     const-string v2, "mViewBinding"
@@ -1158,7 +1087,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_1
@@ -1176,7 +1104,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_2
@@ -1198,22 +1125,18 @@
 
     const-wide/16 v2, 0x1f4
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setStartDelay(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
     const-wide/16 v2, 0xc8
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1234,7 +1157,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1249,7 +1171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     const-string v2, "mViewBinding"
@@ -1273,7 +1194,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_1
@@ -1295,12 +1215,10 @@
 
     const-wide/16 v2, 0xc8
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$n;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$n;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;)V
@@ -1309,10 +1227,8 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1347,7 +1263,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p1, v0, p2, v1}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -1364,7 +1279,6 @@
 
     const-string p2, "mViewBinding"
 
-    .line 2
     invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -1412,10 +1326,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     const-string p2, "mViewBinding"
@@ -1433,7 +1345,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->addIndicator(Lcom/commsource/beautyplus/miniapp/m;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez p1, :cond_1
@@ -1447,7 +1358,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->setSelected(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez p1, :cond_2
@@ -1469,7 +1379,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->J(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez p1, :cond_3
@@ -1485,7 +1394,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->P()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
 
     move-result-object p1
@@ -1504,7 +1412,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->P()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
 
     move-result-object p1
@@ -1523,7 +1430,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/d;
 
     move-result-object p1
@@ -1546,7 +1452,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez p1, :cond_4
@@ -1562,7 +1467,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->setOnPreSelectListener(Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup$c;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez p1, :cond_5
@@ -1578,7 +1482,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->setOnSelectListener(Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup$b;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez p1, :cond_6
@@ -1588,15 +1491,12 @@
     :cond_6
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/y8;->f:Lcom/commsource/widget/XSeekBar;
 
-    .line 12
     new-instance p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$m;
 
     invoke-direct {p2, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$m;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;)V
 
-    .line 13
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1707,10 +1607,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;->x(Lcotlin/jvm/u/a;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     const-string v1, "mViewBinding"
@@ -1736,7 +1634,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez p1, :cond_1
@@ -1760,7 +1657,6 @@
 
     invoke-virtual {p1, v3}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez p1, :cond_2
@@ -1778,7 +1674,6 @@
 
     invoke-virtual {p1, v2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez p1, :cond_3
@@ -1796,7 +1691,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1825,7 +1719,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     const-string v2, "mViewBinding"
@@ -1851,7 +1744,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment;->d:Lcom/commsource/beautyplus/f0/y8;
 
     if-nez v1, :cond_1
@@ -1869,7 +1761,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

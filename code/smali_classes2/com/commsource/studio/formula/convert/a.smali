@@ -29,7 +29,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/commsource/studio/formula/convert/b;-><init>(ILcom/commsource/studio/formula/convert/d;)V
 
     return-void
@@ -44,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/bean/BgLayerInfo;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/convert/a;->i(Lcom/commsource/studio/bean/BgLayerInfo;)Lcom/commsource/studio/formula/convert/FormulaLayer;
@@ -63,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/formula/convert/a;->j(Lcom/commsource/studio/formula/convert/g;Lcom/commsource/studio/formula/convert/FormulaLayer;)Lcom/commsource/studio/bean/BgLayerInfo;
 
     move-result-object p1
@@ -90,7 +87,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -127,12 +123,10 @@
 
     invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v2, Lcom/commsource/studio/bean/BgLayerInfo;
 
     invoke-direct {v2}, Lcom/commsource/studio/bean/BgLayerInfo;-><init>()V
 
-    .line 2
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getPosition()Lcom/commsource/studio/formula/convert/Position;
 
     move-result-object v4
@@ -153,7 +147,6 @@
     :goto_0
     invoke-virtual {v2, v4}, Lcom/commsource/studio/bean/BgLayerInfo;->setWidth(I)V
 
-    .line 3
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getPosition()Lcom/commsource/studio/formula/convert/Position;
 
     move-result-object v4
@@ -167,7 +160,6 @@
     :cond_1
     invoke-virtual {v2, v5}, Lcom/commsource/studio/bean/BgLayerInfo;->setHeight(I)V
 
-    .line 4
     sget-object v4, Lcom/commsource/studio/formula/convert/b$a;->a:Lcom/commsource/studio/formula/convert/b$a;
 
     invoke-virtual {v4, v0}, Lcom/commsource/studio/formula/convert/b$a;->a(Lcom/commsource/studio/formula/convert/g;)Lcom/commsource/easyeditor/entity/CropEnum;
@@ -176,7 +168,6 @@
 
     invoke-virtual {v2, v0}, Lcom/commsource/studio/bean/BgLayerInfo;->setCropEnum(Lcom/commsource/easyeditor/entity/CropEnum;)V
 
-    .line 5
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getEffectParams()Lcom/commsource/studio/formula/convert/EffectParams;
 
     move-result-object v0
@@ -195,10 +186,8 @@
     :goto_1
     if-eqz v0, :cond_3
 
-    .line 6
     sget-object v0, Lcom/commsource/studio/function/background/c;->e:Lcom/commsource/studio/function/background/c$a;
 
-    .line 7
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getEffectParams()Lcom/commsource/studio/formula/convert/EffectParams;
 
     move-result-object v4
@@ -231,14 +220,12 @@
 
     const/4 v5, 0x1
 
-    .line 8
     invoke-virtual {v0, v4, v5}, Lcom/commsource/studio/function/background/c$a;->a(IZ)Lcom/commsource/studio/function/background/BackgroundType;
 
     move-result-object v0
 
     invoke-virtual {v2, v0}, Lcom/commsource/studio/bean/BgLayerInfo;->setBackgroundType(Lcom/commsource/studio/function/background/BackgroundType;)V
 
-    .line 9
     :cond_3
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getProducts()Ljava/util/List;
 
@@ -246,7 +233,6 @@
 
     if-eqz v0, :cond_a
 
-    .line 10
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -265,7 +251,6 @@
 
     check-cast v3, Lcom/commsource/studio/formula/convert/FormulaProduct;
 
-    .line 11
     invoke-virtual {v3}, Lcom/commsource/studio/formula/convert/FormulaProduct;->getType()I
 
     move-result v4
@@ -280,7 +265,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_5
     sget-object v4, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
 
@@ -294,14 +278,12 @@
 
     if-eqz v3, :cond_4
 
-    .line 13
     invoke-virtual {v3}, Lcom/commsource/studio/function/background/TextureMaterial;->getConfig()Lcom/commsource/studio/function/background/TextureConfig;
 
     move-result-object v5
 
     if-nez v5, :cond_6
 
-    .line 14
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -328,7 +310,6 @@
 
     move-result-object v5
 
-    .line 15
     const-class v6, Lcom/commsource/studio/function/background/TextureConfig;
 
     invoke-static {v5, v6}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
@@ -339,7 +320,6 @@
 
     invoke-virtual {v3, v5}, Lcom/commsource/studio/function/background/TextureMaterial;->setConfig(Lcom/commsource/studio/function/background/TextureConfig;)V
 
-    .line 16
     :cond_6
     invoke-virtual {v3}, Lcom/commsource/studio/function/background/TextureMaterial;->getConfig()Lcom/commsource/studio/function/background/TextureConfig;
 
@@ -347,7 +327,6 @@
 
     if-eqz v5, :cond_4
 
-    .line 17
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -370,7 +349,6 @@
 
     move-result-object v17
 
-    .line 18
     new-instance v4, Lcom/commsource/studio/function/background/BackgroundTexture;
 
     invoke-virtual {v3}, Lcom/commsource/studio/function/background/TextureMaterial;->getId()Ljava/lang/String;
@@ -417,7 +395,6 @@
 
     goto/16 :goto_2
 
-    .line 19
     :cond_7
     sget-object v4, Lcom/commsource/repository/child/GradientRepository;->s:Lcom/commsource/repository/child/GradientRepository;
 
@@ -431,14 +408,12 @@
 
     if-eqz v3, :cond_4
 
-    .line 20
     invoke-virtual {v3}, Lcom/commsource/studio/function/background/GradientMaterial;->getConfig()Lcom/commsource/studio/function/background/GradientConfig;
 
     move-result-object v5
 
     if-nez v5, :cond_8
 
-    .line 21
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -463,12 +438,10 @@
 
     move-result-object v4
 
-    .line 22
     invoke-static {v4}, Lcom/meitu/library/p/g/b;->F(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 23
     const-class v5, Lcom/commsource/studio/function/background/GradientConfig;
 
     invoke-static {v4, v5}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
@@ -479,7 +452,6 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/function/background/GradientMaterial;->setConfig(Lcom/commsource/studio/function/background/GradientConfig;)V
 
-    .line 24
     :cond_8
     invoke-virtual {v3}, Lcom/commsource/studio/function/background/GradientMaterial;->getConfig()Lcom/commsource/studio/function/background/GradientConfig;
 
@@ -487,7 +459,6 @@
 
     if-eqz v4, :cond_4
 
-    .line 25
     new-instance v14, Lcom/commsource/studio/function/background/BackgroundColor;
 
     invoke-virtual {v3}, Lcom/commsource/studio/function/background/GradientMaterial;->getId()Ljava/lang/String;
@@ -536,7 +507,6 @@
 
     invoke-direct/range {v5 .. v13}, Lcom/commsource/studio/function/background/BackgroundColor;-><init>(Ljava/lang/String;Ljava/lang/String;IZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[F)V
 
-    .line 26
     sget-object v3, Lcom/commsource/studio/function/background/c;->e:Lcom/commsource/studio/function/background/c$a;
 
     invoke-virtual {v3, v14}, Lcom/commsource/studio/function/background/c$a;->c(Lcom/commsource/studio/function/background/BackgroundColor;)Lcom/commsource/studio/function/background/BackgroundType;
@@ -547,7 +517,6 @@
 
     goto/16 :goto_2
 
-    .line 27
     :cond_a
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -45,12 +45,10 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/common/util/v;->j()Z
 
     move-result v1
@@ -61,17 +59,14 @@
 
     const-string v2, "android.permission.RECORD_AUDIO"
 
-    .line 3
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "android.webkit.resource.VIDEO_CAPTURE"
 
     const-string v2, "android.permission.CAMERA"
 
-    .line 4
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :cond_0
     sput-object v0, Lcom/google/android/gms/internal/ads/sk;->d:Ljava/util/Map;
 
@@ -92,16 +87,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/sk;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/sk;->b:Ljava/util/List;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/sk;->c:Lcom/google/android/gms/internal/ads/fk;
 
     return-void
@@ -122,12 +113,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     array-length v1, p1
 
     const/4 v2, 0x0
@@ -139,7 +128,6 @@
 
     aget-object v4, p1, v3
 
-    .line 3
     iget-object v5, p0, Lcom/google/android/gms/internal/ads/sk;->b:Ljava/util/List;
 
     invoke-interface {v5}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -161,7 +149,6 @@
 
     check-cast v6, Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v6, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v8
@@ -176,7 +163,6 @@
     :cond_1
     const-string v8, "android.webkit.resource."
 
-    .line 5
     invoke-static {v6}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v6
@@ -198,7 +184,6 @@
 
     invoke-direct {v6, v8}, Ljava/lang/String;-><init>(Ljava/lang/String;)V
 
-    .line 6
     :goto_2
     invoke-virtual {v6, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -214,7 +199,6 @@
     :goto_3
     if-eqz v5, :cond_7
 
-    .line 7
     sget-object v5, Lcom/google/android/gms/internal/ads/sk;->d:Ljava/util/Map;
 
     invoke-interface {v5, v4}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -223,19 +207,16 @@
 
     if-eqz v6, :cond_5
 
-    .line 8
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     iget-object v6, p0, Lcom/google/android/gms/internal/ads/sk;->a:Landroid/content/Context;
 
-    .line 9
     invoke-interface {v5, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Ljava/lang/String;
 
-    .line 10
     invoke-static {v6, v5}, Lcom/google/android/gms/internal/ads/cn;->l0(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v5
@@ -251,12 +232,10 @@
     :goto_4
     if-eqz v7, :cond_6
 
-    .line 11
     invoke-interface {v0, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_5
 
-    .line 12
     :cond_6
     iget-object v5, p0, Lcom/google/android/gms/internal/ads/sk;->c:Lcom/google/android/gms/internal/ads/fk;
 
@@ -264,7 +243,6 @@
 
     goto :goto_5
 
-    .line 13
     :cond_7
     iget-object v5, p0, Lcom/google/android/gms/internal/ads/sk;->c:Lcom/google/android/gms/internal/ads/fk;
 

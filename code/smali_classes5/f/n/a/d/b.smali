@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lf/n/a/d/b;->a()V
 
     return-void
@@ -20,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +27,6 @@
 .method private static synthetic a()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lf/n/a/d/b;
@@ -74,7 +71,6 @@
 .method static final synthetic b(Landroid/net/ConnectivityManager;Lorg/aspectj/lang/c;)Landroid/net/NetworkInfo;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -85,7 +81,6 @@
 .method public static c()Z
     .locals 6
 
-    .line 1
     invoke-static {}, Lf/n/a/d/e;->b()Landroid/content/Context;
 
     move-result-object v0
@@ -99,14 +94,12 @@
     :cond_0
     const-string v2, "connectivity"
 
-    .line 2
     invoke-virtual {v0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroid/net/ConnectivityManager;
 
-    .line 3
     :try_start_0
     sget-object v2, Lf/n/a/d/b;->a:Lorg/aspectj/lang/c$b;
 
@@ -148,7 +141,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result v0

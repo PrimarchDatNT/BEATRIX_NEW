@@ -20,7 +20,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
 .method public final synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 7
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->h0(Landroid/os/Parcel;)I
 
     move-result v0
@@ -44,7 +42,6 @@
 
     const/4 v3, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
 
@@ -52,12 +49,10 @@
 
     if-ge v4, v0, :cond_3
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->X(Landroid/os/Parcel;)I
 
     move-result v4
 
-    .line 4
     invoke-static {v4}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->O(I)I
 
     move-result v5
@@ -74,12 +69,10 @@
 
     if-eq v5, v6, :cond_0
 
-    .line 5
     invoke-static {p1, v4}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->g0(Landroid/os/Parcel;I)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {p1, v4}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->P(Landroid/os/Parcel;I)Z
 
@@ -87,7 +80,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {p1, v4}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->G(Landroid/os/Parcel;I)Ljava/lang/String;
 
@@ -95,7 +87,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-static {p1, v4}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->G(Landroid/os/Parcel;I)Ljava/lang/String;
 
@@ -103,11 +94,9 @@
 
     goto :goto_0
 
-    .line 9
     :cond_3
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->N(Landroid/os/Parcel;I)V
 
-    .line 10
     new-instance p1, Lcom/google/firebase/auth/internal/zze;
 
     invoke-direct {p1, v1, v2, v3}, Lcom/google/firebase/auth/internal/zze;-><init>(Ljava/lang/String;Ljava/lang/String;Z)V
@@ -118,7 +107,6 @@
 .method public final synthetic newArray(I)[Ljava/lang/Object;
     .locals 0
 
-    .line 1
     new-array p1, p1, [Lcom/google/firebase/auth/internal/zze;
 
     return-object p1

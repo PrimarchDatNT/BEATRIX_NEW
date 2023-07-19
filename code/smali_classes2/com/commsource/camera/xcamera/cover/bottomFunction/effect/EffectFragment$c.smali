@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->W()Lcom/commsource/beautyplus/f0/w7;
@@ -65,12 +64,10 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->withLayer()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/d;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/d;-><init>()V
@@ -79,7 +76,6 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->T()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
@@ -102,7 +98,6 @@
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$c$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$c$a;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$c;)V
@@ -111,10 +106,8 @@
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

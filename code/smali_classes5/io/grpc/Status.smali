@@ -117,7 +117,6 @@
 
     const-string v1, "false"
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -128,14 +127,12 @@
 
     sput-boolean v0, Lio/grpc/Status;->e:Z
 
-    .line 2
     invoke-static {}, Lio/grpc/Status;->h()Ljava/util/List;
 
     move-result-object v0
 
     sput-object v0, Lio/grpc/Status;->f:Ljava/util/List;
 
-    .line 3
     sget-object v0, Lio/grpc/Status$Code;->OK:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -144,7 +141,6 @@
 
     sput-object v0, Lio/grpc/Status;->g:Lio/grpc/Status;
 
-    .line 4
     sget-object v0, Lio/grpc/Status$Code;->CANCELLED:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -153,7 +149,6 @@
 
     sput-object v0, Lio/grpc/Status;->h:Lio/grpc/Status;
 
-    .line 5
     sget-object v0, Lio/grpc/Status$Code;->UNKNOWN:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -162,7 +157,6 @@
 
     sput-object v0, Lio/grpc/Status;->i:Lio/grpc/Status;
 
-    .line 6
     sget-object v0, Lio/grpc/Status$Code;->INVALID_ARGUMENT:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -171,7 +165,6 @@
 
     sput-object v0, Lio/grpc/Status;->j:Lio/grpc/Status;
 
-    .line 7
     sget-object v0, Lio/grpc/Status$Code;->DEADLINE_EXCEEDED:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -180,7 +173,6 @@
 
     sput-object v0, Lio/grpc/Status;->k:Lio/grpc/Status;
 
-    .line 8
     sget-object v0, Lio/grpc/Status$Code;->NOT_FOUND:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -189,7 +181,6 @@
 
     sput-object v0, Lio/grpc/Status;->l:Lio/grpc/Status;
 
-    .line 9
     sget-object v0, Lio/grpc/Status$Code;->ALREADY_EXISTS:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -198,7 +189,6 @@
 
     sput-object v0, Lio/grpc/Status;->m:Lio/grpc/Status;
 
-    .line 10
     sget-object v0, Lio/grpc/Status$Code;->PERMISSION_DENIED:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -207,7 +197,6 @@
 
     sput-object v0, Lio/grpc/Status;->n:Lio/grpc/Status;
 
-    .line 11
     sget-object v0, Lio/grpc/Status$Code;->UNAUTHENTICATED:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -216,7 +205,6 @@
 
     sput-object v0, Lio/grpc/Status;->o:Lio/grpc/Status;
 
-    .line 12
     sget-object v0, Lio/grpc/Status$Code;->RESOURCE_EXHAUSTED:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -225,17 +213,14 @@
 
     sput-object v0, Lio/grpc/Status;->p:Lio/grpc/Status;
 
-    .line 13
     sget-object v0, Lio/grpc/Status$Code;->FAILED_PRECONDITION:Lio/grpc/Status$Code;
 
-    .line 14
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
 
     move-result-object v0
 
     sput-object v0, Lio/grpc/Status;->q:Lio/grpc/Status;
 
-    .line 15
     sget-object v0, Lio/grpc/Status$Code;->ABORTED:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -244,7 +229,6 @@
 
     sput-object v0, Lio/grpc/Status;->r:Lio/grpc/Status;
 
-    .line 16
     sget-object v0, Lio/grpc/Status$Code;->OUT_OF_RANGE:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -253,7 +237,6 @@
 
     sput-object v0, Lio/grpc/Status;->s:Lio/grpc/Status;
 
-    .line 17
     sget-object v0, Lio/grpc/Status$Code;->UNIMPLEMENTED:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -262,7 +245,6 @@
 
     sput-object v0, Lio/grpc/Status;->t:Lio/grpc/Status;
 
-    .line 18
     sget-object v0, Lio/grpc/Status$Code;->INTERNAL:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -271,7 +253,6 @@
 
     sput-object v0, Lio/grpc/Status;->u:Lio/grpc/Status;
 
-    .line 19
     sget-object v0, Lio/grpc/Status$Code;->UNAVAILABLE:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -280,7 +261,6 @@
 
     sput-object v0, Lio/grpc/Status;->v:Lio/grpc/Status;
 
-    .line 20
     sget-object v0, Lio/grpc/Status$Code;->DATA_LOSS:Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
@@ -289,7 +269,6 @@
 
     sput-object v0, Lio/grpc/Status;->w:Lio/grpc/Status;
 
-    .line 21
     new-instance v0, Lio/grpc/Status$b;
 
     const/4 v1, 0x0
@@ -300,14 +279,12 @@
 
     const/4 v3, 0x0
 
-    .line 22
     invoke-static {v2, v3, v0}, Lio/grpc/y0$i;->i(Ljava/lang/String;ZLio/grpc/y0$m;)Lio/grpc/y0$i;
 
     move-result-object v0
 
     sput-object v0, Lio/grpc/Status;->x:Lio/grpc/y0$i;
 
-    .line 23
     new-instance v0, Lio/grpc/Status$c;
 
     invoke-direct {v0, v1}, Lio/grpc/Status$c;-><init>(Lio/grpc/Status$a;)V
@@ -316,7 +293,6 @@
 
     const-string v1, "grpc-message"
 
-    .line 24
     invoke-static {v1, v3, v0}, Lio/grpc/y0$i;->i(Ljava/lang/String;ZLio/grpc/y0$m;)Lio/grpc/y0$i;
 
     move-result-object v0
@@ -331,7 +307,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0, v0}, Lio/grpc/Status;-><init>(Lio/grpc/Status$Code;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -348,12 +323,10 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "code"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -362,10 +335,8 @@
 
     iput-object p1, p0, Lio/grpc/Status;->a:Lio/grpc/Status$Code;
 
-    .line 4
     iput-object p2, p0, Lio/grpc/Status;->b:Ljava/lang/String;
 
-    .line 5
     iput-object p3, p0, Lio/grpc/Status;->c:Ljava/lang/Throwable;
 
     return-void
@@ -374,7 +345,6 @@
 .method static synthetic a()Ljava/util/List;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/Status;->f:Ljava/util/List;
 
     return-object v0
@@ -383,7 +353,6 @@
 .method static synthetic b([B)Lio/grpc/Status;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lio/grpc/Status;->l([B)Lio/grpc/Status;
 
     move-result-object p0
@@ -402,12 +371,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/TreeMap;
 
     invoke-direct {v0}, Ljava/util/TreeMap;-><init>()V
 
-    .line 2
     invoke-static {}, Lio/grpc/Status$Code;->values()[Lio/grpc/Status$Code;
 
     move-result-object v1
@@ -421,7 +388,6 @@
 
     aget-object v4, v1, v3
 
-    .line 3
     invoke-virtual {v4}, Lio/grpc/Status$Code;->value()I
 
     move-result v5
@@ -446,7 +412,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -458,7 +423,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {v5}, Lio/grpc/Status;->p()Lio/grpc/Status$Code;
 
     move-result-object v2
@@ -487,7 +451,6 @@
 
     throw v0
 
-    .line 6
     :cond_1
     new-instance v1, Ljava/util/ArrayList;
 
@@ -507,12 +470,10 @@
 .method static i(Lio/grpc/Status;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Status;->b:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object p0, p0, Lio/grpc/Status;->a:Lio/grpc/Status$Code;
 
     invoke-virtual {p0}, Ljava/lang/Enum;->toString()Ljava/lang/String;
@@ -521,7 +482,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -549,7 +509,6 @@
 .method public static j(Lio/grpc/Status$Code;)Lio/grpc/Status;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/Status$Code;->toStatus()Lio/grpc/Status;
 
     move-result-object p0
@@ -562,7 +521,6 @@
 
     if-ltz p0, :cond_1
 
-    .line 1
     sget-object v0, Lio/grpc/Status;->f:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -573,7 +531,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {v0, p0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -583,7 +540,6 @@
 
     return-object p0
 
-    .line 3
     :cond_1
     :goto_0
     sget-object v0, Lio/grpc/Status;->i:Lio/grpc/Status;
@@ -612,7 +568,6 @@
 .method private static l([B)Lio/grpc/Status;
     .locals 2
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x1
@@ -627,12 +582,10 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     sget-object p0, Lio/grpc/Status;->g:Lio/grpc/Status;
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lio/grpc/Status;->m([B)Lio/grpc/Status;
 
@@ -644,7 +597,6 @@
 .method private static m([B)Lio/grpc/Status;
     .locals 6
 
-    .line 1
     array-length v0, p0
 
     const/16 v1, 0x39
@@ -663,7 +615,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     aget-byte v0, p0, v3
 
@@ -675,7 +626,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     aget-byte v0, p0, v3
 
@@ -690,7 +640,6 @@
     :cond_2
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     aget-byte v0, p0, v2
 
@@ -702,7 +651,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_3
     aget-byte v0, p0, v2
 
@@ -710,7 +658,6 @@
 
     add-int/2addr v3, v0
 
-    .line 6
     sget-object v0, Lio/grpc/Status;->f:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -719,7 +666,6 @@
 
     if-ge v3, v1, :cond_4
 
-    .line 7
     invoke-interface {v0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p0
@@ -728,7 +674,6 @@
 
     return-object p0
 
-    .line 8
     :cond_4
     :goto_1
     sget-object v0, Lio/grpc/Status;->i:Lio/grpc/Status;
@@ -765,7 +710,6 @@
 
     const-string v0, "t"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -775,12 +719,10 @@
     :goto_0
     if-eqz v0, :cond_2
 
-    .line 2
     instance-of v1, v0, Lio/grpc/StatusException;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast v0, Lio/grpc/StatusException;
 
     invoke-virtual {v0}, Lio/grpc/StatusException;->getStatus()Lio/grpc/Status;
@@ -789,13 +731,11 @@
 
     return-object p0
 
-    .line 4
     :cond_0
     instance-of v1, v0, Lio/grpc/StatusRuntimeException;
 
     if-eqz v1, :cond_1
 
-    .line 5
     check-cast v0, Lio/grpc/StatusRuntimeException;
 
     invoke-virtual {v0}, Lio/grpc/StatusRuntimeException;->getStatus()Lio/grpc/Status;
@@ -804,7 +744,6 @@
 
     return-object p0
 
-    .line 6
     :cond_1
     invoke-virtual {v0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
@@ -812,7 +751,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     sget-object v0, Lio/grpc/Status;->i:Lio/grpc/Status;
 
@@ -831,7 +769,6 @@
 
     const-string v0, "t"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -841,12 +778,10 @@
     :goto_0
     if-eqz p0, :cond_2
 
-    .line 2
     instance-of v0, p0, Lio/grpc/StatusException;
 
     if-eqz v0, :cond_0
 
-    .line 3
     check-cast p0, Lio/grpc/StatusException;
 
     invoke-virtual {p0}, Lio/grpc/StatusException;->getTrailers()Lio/grpc/y0;
@@ -855,13 +790,11 @@
 
     return-object p0
 
-    .line 4
     :cond_0
     instance-of v0, p0, Lio/grpc/StatusRuntimeException;
 
     if-eqz v0, :cond_1
 
-    .line 5
     check-cast p0, Lio/grpc/StatusRuntimeException;
 
     invoke-virtual {p0}, Lio/grpc/StatusRuntimeException;->getTrailers()Lio/grpc/y0;
@@ -870,7 +803,6 @@
 
     return-object p0
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
@@ -889,7 +821,6 @@
 .method public c()Lio/grpc/StatusException;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/StatusException;
 
     invoke-direct {v0, p0}, Lio/grpc/StatusException;-><init>(Lio/grpc/Status;)V
@@ -907,7 +838,6 @@
         value = "https://github.com/grpc/grpc-java/issues/4683"
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/StatusException;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/StatusException;-><init>(Lio/grpc/Status;Lio/grpc/y0;)V
@@ -918,7 +848,6 @@
 .method public e()Lio/grpc/StatusRuntimeException;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/StatusRuntimeException;
 
     invoke-direct {v0, p0}, Lio/grpc/StatusRuntimeException;-><init>(Lio/grpc/Status;)V
@@ -929,7 +858,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -947,7 +875,6 @@
         value = "https://github.com/grpc/grpc-java/issues/4683"
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/StatusRuntimeException;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/StatusRuntimeException;-><init>(Lio/grpc/Status;Lio/grpc/y0;)V
@@ -962,13 +889,11 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lio/grpc/Status;->b:Ljava/lang/String;
 
     if-nez v0, :cond_1
 
-    .line 2
     new-instance v0, Lio/grpc/Status;
 
     iget-object v1, p0, Lio/grpc/Status;->a:Lio/grpc/Status$Code;
@@ -979,7 +904,6 @@
 
     return-object v0
 
-    .line 3
     :cond_1
     new-instance v0, Lio/grpc/Status;
 
@@ -1013,7 +937,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v0
@@ -1026,7 +949,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Status;->c:Ljava/lang/Throwable;
 
     return-object v0
@@ -1035,7 +957,6 @@
 .method public p()Lio/grpc/Status$Code;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Status;->a:Lio/grpc/Status$Code;
 
     return-object v0
@@ -1046,7 +967,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Status;->b:Ljava/lang/String;
 
     return-object v0
@@ -1055,7 +975,6 @@
 .method public r()Z
     .locals 2
 
-    .line 1
     sget-object v0, Lio/grpc/Status$Code;->OK:Lio/grpc/Status$Code;
 
     iget-object v1, p0, Lio/grpc/Status;->a:Lio/grpc/Status$Code;
@@ -1076,7 +995,6 @@
 .method public t(Ljava/lang/Throwable;)Lio/grpc/Status;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Status;->c:Ljava/lang/Throwable;
 
     invoke-static {v0, p1}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -1087,7 +1005,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Lio/grpc/Status;
 
@@ -1103,14 +1020,12 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
     iget-object v1, p0, Lio/grpc/Status;->a:Lio/grpc/Status$Code;
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
@@ -1125,12 +1040,10 @@
 
     const-string v2, "description"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 4
     iget-object v1, p0, Lio/grpc/Status;->c:Ljava/lang/Throwable;
 
     if-eqz v1, :cond_0
@@ -1146,7 +1059,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -1157,7 +1069,6 @@
 .method public u(Ljava/lang/String;)Lio/grpc/Status;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Status;->b:Ljava/lang/String;
 
     invoke-static {v0, p1}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -1168,7 +1079,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Lio/grpc/Status;
 

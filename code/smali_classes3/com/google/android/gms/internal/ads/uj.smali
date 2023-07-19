@@ -36,7 +36,6 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     check-cast p1, Landroid/os/IBinder;
 
     if-nez p1, :cond_0
@@ -48,22 +47,18 @@
     :cond_0
     const-string v0, "com.google.android.gms.ads.internal.rewarded.client.IRewardedAdCreator"
 
-    .line 2
     invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 3
     instance-of v1, v0, Lcom/google/android/gms/internal/ads/lj;
 
     if-eqz v1, :cond_1
 
-    .line 4
     check-cast v0, Lcom/google/android/gms/internal/ads/lj;
 
     return-object v0
 
-    .line 5
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/ads/kj;
 

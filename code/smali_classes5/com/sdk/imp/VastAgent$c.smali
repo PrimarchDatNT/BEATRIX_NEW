@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/VastAgent;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastAgent$c;->a:Lcom/sdk/imp/VastAgent;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastAgent$c;->a:Lcom/sdk/imp/VastAgent;
 
     invoke-static {v0}, Lcom/sdk/imp/VastAgent;->b(Lcom/sdk/imp/VastAgent;)Z
@@ -47,14 +45,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/VastAgent$c;->a:Lcom/sdk/imp/VastAgent;
 
     const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lcom/sdk/imp/VastAgent;->c(Lcom/sdk/imp/VastAgent;Z)Z
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/VastAgent$c;->a:Lcom/sdk/imp/VastAgent;
 
     invoke-static {v0}, Lcom/sdk/imp/VastAgent;->a(Lcom/sdk/imp/VastAgent;)Lcom/sdk/imp/k;
@@ -63,7 +59,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/VastAgent$c;->a:Lcom/sdk/imp/VastAgent;
 
     invoke-static {v0}, Lcom/sdk/imp/VastAgent;->a(Lcom/sdk/imp/VastAgent;)Lcom/sdk/imp/k;

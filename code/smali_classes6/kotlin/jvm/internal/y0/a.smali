@@ -10,7 +10,6 @@
 .method private static final a(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "This function can only be used privately"
@@ -23,7 +22,6 @@
 .method private static final b(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "This function can only be used privately"

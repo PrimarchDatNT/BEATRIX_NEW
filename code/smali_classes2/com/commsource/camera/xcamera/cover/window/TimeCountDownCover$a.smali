@@ -54,12 +54,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->z()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;->F()Lcom/commsource/camera/xcamera/g;
@@ -68,7 +66,6 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;
 
     new-instance v2, Lcom/commsource/camera/xcamera/g;
@@ -93,7 +90,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;->G(Lcom/commsource/camera/xcamera/g;)V
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;
 
@@ -113,7 +109,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/g;->b(I)V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -127,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover$a;->a(Ljava/lang/Integer;)V

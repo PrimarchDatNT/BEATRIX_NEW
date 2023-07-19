@@ -46,7 +46,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/e;-><init>()V
 
     iput-object p1, p0, Lcotlin/collections/y0;->a:Ljava/util/List;
@@ -64,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/y0;->a:Ljava/util/List;
 
     invoke-static {p0, p1}, Lcotlin/collections/z;->X0(Ljava/util/List;I)I
@@ -79,7 +77,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/y0;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -97,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/y0;->a:Ljava/util/List;
 
     invoke-static {p0, p1}, Lcotlin/collections/z;->W0(Ljava/util/List;I)I
@@ -114,7 +110,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/y0;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
@@ -130,7 +125,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/y0;->a:Ljava/util/List;
 
     invoke-static {p0, p1}, Lcotlin/collections/z;->W0(Ljava/util/List;I)I
@@ -152,7 +146,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/y0;->a:Ljava/util/List;
 
     invoke-static {p0, p1}, Lcotlin/collections/z;->W0(Ljava/util/List;I)I

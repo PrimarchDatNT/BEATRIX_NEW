@@ -37,24 +37,20 @@
 .method constructor <init>(Lcom/bumptech/glide/load/engine/DecodeJob$e;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/load/engine/i$a$a;
 
     invoke-direct {v0, p0}, Lcom/bumptech/glide/load/engine/i$a$a;-><init>(Lcom/bumptech/glide/load/engine/i$a;)V
 
     const/16 v1, 0x96
 
-    .line 3
     invoke-static {v1, v0}, Lcom/bumptech/glide/s/o/a;->e(ILcom/bumptech/glide/s/o/a$d;)Landroidx/core/util/Pools$Pool;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/bumptech/glide/load/engine/i$a;->b:Landroidx/core/util/Pools$Pool;
 
-    .line 4
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/i$a;->a:Lcom/bumptech/glide/load/engine/DecodeJob$e;
 
     return-void
@@ -127,7 +123,6 @@
 
     move-object/from16 v17, p16
 
-    .line 1
     iget-object v1, v0, Lcom/bumptech/glide/load/engine/i$a;->b:Landroidx/core/util/Pools$Pool;
 
     invoke-interface {v1}, Landroidx/core/util/Pools$Pool;->acquire()Ljava/lang/Object;
@@ -144,7 +139,6 @@
 
     move-object/from16 p1, v1
 
-    .line 2
     iget v1, v0, Lcom/bumptech/glide/load/engine/i$a;->c:I
 
     move/from16 v18, v1

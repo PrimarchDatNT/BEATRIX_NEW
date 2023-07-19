@@ -46,7 +46,6 @@
     .annotation runtime Lj/a/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/backends/k$a;
 
     invoke-direct {v0, p1}, Lcom/google/android/datatransport/runtime/backends/k$a;-><init>(Landroid/content/Context;)V
@@ -59,20 +58,16 @@
 .method constructor <init>(Lcom/google/android/datatransport/runtime/backends/k$a;Lcom/google/android/datatransport/runtime/backends/i;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/datatransport/runtime/backends/k;->c:Ljava/util/Map;
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/datatransport/runtime/backends/k;->a:Lcom/google/android/datatransport/runtime/backends/k$a;
 
-    .line 5
     iput-object p2, p0, Lcom/google/android/datatransport/runtime/backends/k;->b:Lcom/google/android/datatransport/runtime/backends/i;
 
     return-void
@@ -87,7 +82,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/k;->c:Ljava/util/Map;
 
@@ -97,7 +91,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/k;->c:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -112,7 +105,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     :try_start_1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/k;->a:Lcom/google/android/datatransport/runtime/backends/k$a;
@@ -127,12 +119,10 @@
 
     const/4 p1, 0x0
 
-    .line 4
     monitor-exit p0
 
     return-object p1
 
-    .line 5
     :cond_1
     :try_start_2
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/backends/k;->b:Lcom/google/android/datatransport/runtime/backends/i;
@@ -145,14 +135,12 @@
 
     move-result-object v0
 
-    .line 6
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/backends/k;->c:Ljava/util/Map;
 
     invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 7
     monitor-exit p0
 
     return-object v0

@@ -27,7 +27,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,7 +52,6 @@
 
     int-to-byte v3, v4
 
-    .line 1
     aput-byte v3, v1, v2
 
     shr-long/2addr p0, v0
@@ -76,7 +74,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/primitives/Longs;->C(Ljava/lang/String;I)Ljava/lang/Long;
 
     move-result-object p0
@@ -96,7 +93,6 @@
 
     move/from16 v1, p1
 
-    .line 1
     invoke-static/range {p0 .. p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -124,7 +120,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
@@ -135,7 +130,6 @@
 
     const/4 v2, 0x1
 
-    .line 3
     :cond_1
     invoke-virtual/range {p0 .. p0}, Ljava/lang/String;->length()I
 
@@ -148,7 +142,6 @@
     :cond_2
     add-int/lit8 v4, v2, 0x1
 
-    .line 4
     invoke-virtual {v0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v5
@@ -172,10 +165,8 @@
 
     const-wide/high16 v9, -0x8000000000000000L
 
-    .line 5
     div-long v11, v9, v7
 
-    .line 6
     :goto_0
     invoke-virtual/range {p0 .. p0}, Ljava/lang/String;->length()I
 
@@ -185,7 +176,6 @@
 
     add-int/lit8 v13, v4, 0x1
 
-    .line 7
     invoke-virtual {v0, v4}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
@@ -231,7 +221,6 @@
     :cond_7
     if-eqz v2, :cond_8
 
-    .line 8
     invoke-static {v5, v6}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
@@ -248,7 +237,6 @@
     :cond_9
     neg-long v0, v5
 
-    .line 9
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
@@ -259,7 +247,6 @@
     :goto_2
     return-object v3
 
-    .line 10
     :cond_b
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -285,7 +272,6 @@
 .method static synthetic a([JJII)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcom/google/common/primitives/Longs;->m([JJII)I
 
     move-result p0
@@ -296,7 +282,6 @@
 .method static synthetic b([JJII)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcom/google/common/primitives/Longs;->q([JJII)I
 
     move-result p0
@@ -315,19 +300,16 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/common/primitives/Longs$LongArrayAsList;
 
@@ -364,7 +346,6 @@
 .method public static varargs e([[J)[J
     .locals 7
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -378,7 +359,6 @@
 
     aget-object v4, p0, v2
 
-    .line 2
     array-length v4, v4
 
     add-int/2addr v3, v4
@@ -387,11 +367,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-array v0, v3, [J
 
-    .line 4
     array-length v2, p0
 
     const/4 v3, 0x0
@@ -403,12 +381,10 @@
 
     aget-object v5, p0, v3
 
-    .line 5
     array-length v6, v5
 
     invoke-static {v5, v1, v0, v4, v6}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 6
     array-length v5, v5
 
     add-int/2addr v4, v5
@@ -448,10 +424,8 @@
 
     move-wide v5, p4
 
-    .line 1
     invoke-static/range {v1 .. v6}, Lcom/google/common/base/t;->s(ZLjava/lang/String;JJ)V
 
-    .line 2
     invoke-static {p0, p1, p2, p3}, Ljava/lang/Math;->max(JJ)J
 
     move-result-wide p0
@@ -466,7 +440,6 @@
 .method public static g([JJ)Z
     .locals 6
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -514,7 +487,6 @@
     :goto_0
     const-string v3, "Invalid minLength: %s"
 
-    .line 1
     invoke-static {v2, v3, p1}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
     if-ltz p2, :cond_1
@@ -527,10 +499,8 @@
     :goto_1
     const-string v1, "Invalid padding: %s"
 
-    .line 2
     invoke-static {v0, v1, p2}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
-    .line 3
     array-length v0, p0
 
     if-ge v0, p1, :cond_2
@@ -548,7 +518,6 @@
 .method public static i([B)J
     .locals 14
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x1
@@ -573,7 +542,6 @@
 
     invoke-static {v0, v5, v4, v3}, Lcom/google/common/base/t;->m(ZLjava/lang/String;II)V
 
-    .line 2
     aget-byte v6, p0, v2
 
     aget-byte v7, p0, v1
@@ -708,7 +676,6 @@
 .method public static l([JJ)I
     .locals 2
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -726,7 +693,6 @@
     :goto_0
     if-ge p3, p4, :cond_1
 
-    .line 1
     aget-wide v0, p0, p3
 
     cmp-long v2, v0, p1
@@ -751,15 +717,12 @@
 
     const-string v0, "array"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "target"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -771,7 +734,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 4
     :goto_0
     array-length v2, p0
 
@@ -785,7 +747,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     :goto_1
     array-length v3, p1
 
@@ -793,7 +754,6 @@
 
     add-int v3, v0, v2
 
-    .line 6
     aget-wide v3, p0, v3
 
     aget-wide v5, p1, v2
@@ -823,10 +783,8 @@
 .method public static varargs o(Ljava/lang/String;[J)Ljava/lang/String;
     .locals 4
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     array-length v0, p1
 
     if-nez v0, :cond_0
@@ -835,7 +793,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -847,20 +804,17 @@
 
     const/4 v1, 0x0
 
-    .line 4
     aget-wide v1, p1, v1
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     const/4 v1, 0x1
 
-    .line 5
     :goto_0
     array-length v2, p1
 
     if-ge v1, v2, :cond_1
 
-    .line 6
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     aget-wide v2, p1, v1
@@ -871,7 +825,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -883,7 +836,6 @@
 .method public static p([JJ)I
     .locals 2
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -903,7 +855,6 @@
     :goto_0
     if-lt p4, p3, :cond_1
 
-    .line 1
     aget-wide v0, p0, p4
 
     cmp-long v2, v0, p1
@@ -933,7 +884,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/primitives/Longs$LexicographicalComparator;->INSTANCE:Lcom/google/common/primitives/Longs$LexicographicalComparator;
 
     return-object v0
@@ -942,7 +892,6 @@
 .method public static varargs s([J)J
     .locals 6
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -961,23 +910,19 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     aget-wide v0, p0, v1
 
-    .line 3
     :goto_1
     array-length v3, p0
 
     if-ge v2, v3, :cond_2
 
-    .line 4
     aget-wide v3, p0, v2
 
     cmp-long v5, v3, v0
 
     if-lez v5, :cond_1
 
-    .line 5
     aget-wide v0, p0, v2
 
     :cond_1
@@ -992,7 +937,6 @@
 .method public static varargs t([J)J
     .locals 6
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -1011,23 +955,19 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     aget-wide v0, p0, v1
 
-    .line 3
     :goto_1
     array-length v3, p0
 
     if-ge v2, v3, :cond_2
 
-    .line 4
     aget-wide v3, p0, v2
 
     cmp-long v5, v3, v0
 
     if-gez v5, :cond_1
 
-    .line 5
     aget-wide v0, p0, v2
 
     :cond_1
@@ -1042,10 +982,8 @@
 .method public static u([J)V
     .locals 2
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -1058,10 +996,8 @@
 .method public static v([JII)V
     .locals 4
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     array-length v0, p0
 
     invoke-static {p1, p2, v0}, Lcom/google/common/base/t;->f0(III)V
@@ -1071,15 +1007,12 @@
     :goto_0
     if-ge p1, p2, :cond_0
 
-    .line 3
     aget-wide v0, p0, p1
 
-    .line 4
     aget-wide v2, p0, p2
 
     aput-wide v2, p0, p1
 
-    .line 5
     aput-wide v0, p0, p2
 
     add-int/lit8 p1, p1, 0x1
@@ -1095,10 +1028,8 @@
 .method public static w([J)V
     .locals 2
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -1111,18 +1042,14 @@
 .method public static x([JII)V
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     array-length v0, p0
 
     invoke-static {p1, p2, v0}, Lcom/google/common/base/t;->f0(III)V
 
-    .line 3
     invoke-static {p0, p1, p2}, Ljava/util/Arrays;->sort([JII)V
 
-    .line 4
     invoke-static {p0, p1, p2}, Lcom/google/common/primitives/Longs;->v([JII)V
 
     return-void
@@ -1143,7 +1070,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/primitives/Longs$LongConverter;->INSTANCE:Lcom/google/common/primitives/Longs$LongConverter;
 
     return-object v0
@@ -1161,12 +1087,10 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcom/google/common/primitives/Longs$LongArrayAsList;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, Lcom/google/common/primitives/Longs$LongArrayAsList;
 
     invoke-virtual {p0}, Lcom/google/common/primitives/Longs$LongArrayAsList;->toLongArray()[J
@@ -1175,16 +1099,13 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Collection;->toArray()[Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 4
     array-length v0, p0
 
-    .line 5
     new-array v1, v0, [J
 
     const/4 v2, 0x0
@@ -1192,7 +1113,6 @@
     :goto_0
     if-ge v2, v0, :cond_1
 
-    .line 6
     aget-object v3, p0, v2
 
     invoke-static {v3}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;

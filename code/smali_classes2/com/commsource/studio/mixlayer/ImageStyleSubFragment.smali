@@ -74,15 +74,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
     const/4 v0, 0x2
 
-    .line 2
     iput v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->c:I
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$imageStyleViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$imageStyleViewModel$2;-><init>(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)V
@@ -93,7 +90,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->f:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$studioViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$studioViewModel$2;-><init>(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)V
@@ -104,7 +100,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->g:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;-><init>(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)V
@@ -125,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object p0
@@ -157,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -172,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez p0, :cond_0
@@ -194,7 +185,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->W()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p0
@@ -211,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->K:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -226,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->a0(Landroid/view/View;)I
 
     move-result p0
@@ -243,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->b0(IIZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -258,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -273,7 +259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -288,7 +273,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -303,7 +287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->f0(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -318,7 +301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->K:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -333,7 +315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->g0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -352,14 +333,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;-><init>(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;Lcom/commsource/widget/XSeekBar;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -372,12 +351,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->p:Lcom/commsource/studio/bean/FocusLayerInfo;
 
     if-eqz v1, :cond_9
 
-    .line 2
     instance-of v2, v1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     const/4 v3, 0x1
@@ -390,14 +367,12 @@
 
     if-eqz v2, :cond_5
 
-    .line 3
     check-cast v1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     invoke-virtual {v1}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSubLayerInfos()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -424,7 +399,6 @@
     :cond_0
     check-cast v7, Lcotlin/Pair;
 
-    .line 5
     invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
@@ -448,7 +422,6 @@
 
     if-ne p1, v3, :cond_2
 
-    .line 6
     invoke-virtual {v2, p2}, Lcom/commsource/editengine/node/b;->X(Z)V
 
     goto :goto_1
@@ -456,10 +429,8 @@
     :cond_2
     if-ne p1, v5, :cond_3
 
-    .line 7
     invoke-virtual {v2, p2}, Lcom/commsource/editengine/node/b;->Z(Z)V
 
-    .line 8
     :cond_3
     :goto_1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->W()Lcom/commsource/studio/ImageStudioViewModel;
@@ -477,13 +448,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_5
     instance-of v2, v1, Lcom/commsource/studio/bean/ImageLayerInfo;
 
     if-eqz v2, :cond_9
 
-    .line 10
     invoke-virtual {v1}, Lcom/commsource/studio/bean/BaseLayerInfo;->getLayerNode()Lcom/commsource/editengine/i;
 
     move-result-object v1
@@ -501,7 +470,6 @@
 
     if-ne p1, v3, :cond_7
 
-    .line 11
     invoke-virtual {v1, p2}, Lcom/commsource/editengine/node/b;->X(Z)V
 
     goto :goto_2
@@ -509,10 +477,8 @@
     :cond_7
     if-ne p1, v5, :cond_8
 
-    .line 12
     invoke-virtual {v1, p2}, Lcom/commsource/editengine/node/b;->Z(Z)V
 
-    .line 13
     :cond_8
     :goto_2
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->W()Lcom/commsource/studio/ImageStudioViewModel;
@@ -525,7 +491,6 @@
 
     invoke-static {p1, v4, v6, v5, v6}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 14
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -545,7 +510,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->Q(IZ)V
 
@@ -621,7 +585,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     const-string v2, "mViewBinding"
@@ -633,7 +596,6 @@
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u8;->f:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 2
     iget v3, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->c:I
 
     const/4 v4, 0x1
@@ -646,7 +608,6 @@
 
     const/4 v3, 0x6
 
-    .line 3
     invoke-direct {p0, v1, v3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
     goto :goto_0
@@ -654,7 +615,6 @@
     :cond_1
     const/16 v3, 0x9
 
-    .line 4
     invoke-direct {p0, v1, v3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
     goto :goto_0
@@ -662,10 +622,8 @@
     :cond_2
     const/4 v3, 0x7
 
-    .line 5
     invoke-direct {p0, v1, v3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
-    .line 6
     :goto_0
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->U()Lcom/commsource/widget/h1/e;
 
@@ -673,14 +631,12 @@
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 7
     new-instance v3, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$c;
 
     invoke-direct {v3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$c;-><init>()V
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 8
     new-instance v3, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
     iget-object v4, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -691,7 +647,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v1, :cond_3
@@ -707,7 +662,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v1, :cond_4
@@ -723,7 +677,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -736,7 +689,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v1
@@ -751,7 +703,6 @@
 
     const-string v5, "IMAGE_STYLE_TYPE"
 
-    .line 2
     invoke-virtual {v1, v5}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
 
     move-result v1
@@ -784,7 +735,6 @@
 
     if-eq v5, v11, :cond_8
 
-    .line 3
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_0
@@ -800,7 +750,6 @@
 
     invoke-direct {p0, v5, v7}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
-    .line 4
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_1
@@ -814,7 +763,6 @@
 
     invoke-direct {p0, v5, v12}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_2
@@ -828,7 +776,6 @@
 
     invoke-direct {p0, v5, v6}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
-    .line 6
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_3
@@ -842,7 +789,6 @@
 
     invoke-static {v5}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_4
@@ -856,7 +802,6 @@
 
     invoke-static {v5}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 8
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_5
@@ -868,7 +813,6 @@
 
     invoke-virtual {v5, v12}, Lcom/commsource/widget/XSeekBar;->setMinProgress(I)V
 
-    .line 9
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_6
@@ -888,7 +832,6 @@
 
     invoke-virtual {v5, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 10
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_7
@@ -908,7 +851,6 @@
 
     goto/16 :goto_0
 
-    .line 11
     :cond_8
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
@@ -923,7 +865,6 @@
 
     invoke-static {v5}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 12
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_a
@@ -937,7 +878,6 @@
 
     invoke-static {v5}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 13
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_b
@@ -957,7 +897,6 @@
 
     invoke-virtual {v5, v9}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 14
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_c
@@ -975,7 +914,6 @@
 
     invoke-virtual {v5, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 15
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_d
@@ -987,7 +925,6 @@
 
     invoke-virtual {v5, v12}, Lcom/commsource/widget/XSeekBar;->setMinProgress(I)V
 
-    .line 16
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_e
@@ -1001,7 +938,6 @@
 
     invoke-direct {p0, v5, v7}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
-    .line 17
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_f
@@ -1017,7 +953,6 @@
 
     invoke-direct {p0, v5, v7}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
-    .line 18
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_10
@@ -1033,7 +968,6 @@
 
     goto :goto_0
 
-    .line 19
     :cond_11
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
@@ -1050,7 +984,6 @@
 
     invoke-direct {p0, v5, v7}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
-    .line 20
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_13
@@ -1068,7 +1001,6 @@
 
     invoke-virtual {v5, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 21
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v5, :cond_14
@@ -1084,18 +1016,15 @@
 
     invoke-direct {p0, v5, v7}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
-    .line 22
     :goto_0
     invoke-direct {p0, v6}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->f0(Z)V
 
-    .line 23
     invoke-virtual {v1}, Ljava/lang/Number;->intValue()I
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->c:I
 
-    .line 24
     :cond_15
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
@@ -1110,7 +1039,6 @@
 
     invoke-direct {p0, v1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->P(Lcom/commsource/widget/XSeekBar;)V
 
-    .line 25
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v1, :cond_17
@@ -1124,7 +1052,6 @@
 
     invoke-direct {p0, v1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->P(Lcom/commsource/widget/XSeekBar;)V
 
-    .line 26
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1137,7 +1064,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -1160,7 +1086,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -1179,7 +1104,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -1198,7 +1122,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -1217,7 +1140,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -1236,7 +1158,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -1255,7 +1176,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1272,7 +1192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object p1
@@ -1308,14 +1227,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v1}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
     iput p2, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 2
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->c:I
 
     const/4 v3, 0x1
@@ -1328,7 +1245,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
@@ -1344,7 +1260,6 @@
 
     invoke-virtual {p2, p1, p3}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->o0(I[I)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->W()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -1379,13 +1294,11 @@
 
     float-to-int p2, p2
 
-    .line 5
     iput p2, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     :cond_2
     if-eqz p3, :cond_3
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->W()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p2
@@ -1398,7 +1311,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->W()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -1410,7 +1322,6 @@
 
     invoke-virtual {p2, v2}, Lcom/commsource/studio/ImageStudioViewModel;->G1(Ljava/lang/Runnable;)V
 
-    .line 8
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1430,7 +1341,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->b0(IIZ)V
 
@@ -1450,14 +1360,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1470,7 +1378,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     const-string v2, "mViewBinding"
@@ -1486,7 +1393,6 @@
 
     invoke-virtual {v1, p1, v3}, Lcom/commsource/widget/XSeekBar;->v(ZZ)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v1, :cond_1
@@ -1516,7 +1422,6 @@
     :goto_0
     invoke-virtual {v1, v6}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v1, :cond_3
@@ -1528,7 +1433,6 @@
 
     invoke-virtual {v1, p1, v3}, Lcom/commsource/widget/XSeekBar;->v(ZZ)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v1, :cond_4
@@ -1552,12 +1456,10 @@
     :goto_1
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 5
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->c:I
 
     if-ne v1, v3, :cond_6
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -1575,7 +1477,6 @@
     :cond_6
     if-nez p1, :cond_8
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez p1, :cond_7
@@ -1593,7 +1494,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setSelected(Z)V
 
-    .line 8
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1607,7 +1507,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -1637,14 +1536,12 @@
 
     invoke-virtual {v1, v2, v5}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->o0(I[I)V
 
-    .line 2
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->c:I
 
     const/4 v2, 0x1
 
     if-ne v1, v2, :cond_2
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -1657,7 +1554,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -1683,7 +1579,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->o0(I[I)V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1697,7 +1592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -1708,7 +1602,6 @@
 
     move-result v1
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v2
@@ -1742,12 +1635,10 @@
 
     if-eqz v2, :cond_5
 
-    .line 3
     invoke-virtual {v2}, Ljava/lang/Number;->intValue()I
 
     move-result v6
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v7
@@ -1781,7 +1672,6 @@
 
     if-ne v7, v5, :cond_5
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v3, :cond_2
@@ -1797,7 +1687,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v3, :cond_3
@@ -1811,7 +1700,6 @@
 
     invoke-virtual {v3, v5}, Landroid/view/View;->setSelected(Z)V
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v3, :cond_4
@@ -1828,14 +1716,12 @@
     :cond_5
     if-nez v3, :cond_7
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->U()Lcom/commsource/widget/h1/e;
 
     move-result-object v3
 
     invoke-virtual {v3, v2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->U()Lcom/commsource/widget/h1/e;
 
     move-result-object v2
@@ -1846,7 +1732,6 @@
 
     if-ltz v2, :cond_7
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v2, :cond_6
@@ -1862,7 +1747,6 @@
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->post(Ljava/lang/Runnable;)Z
 
-    .line 11
     :cond_7
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
@@ -1895,7 +1779,6 @@
 
     move-result v2
 
-    .line 12
     iget-object v3, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v3, :cond_9
@@ -1907,7 +1790,6 @@
 
     invoke-virtual {v3, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 13
     :cond_a
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->c:I
 
@@ -1917,7 +1799,6 @@
 
     if-ne v2, v3, :cond_e
 
-    .line 14
     :cond_b
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
@@ -1950,7 +1831,6 @@
 
     move-result v2
 
-    .line 15
     iget-object v3, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v3, :cond_d
@@ -1962,11 +1842,9 @@
 
     invoke-virtual {v3, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 16
     :cond_e
     invoke-direct {p0, v1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->f0(Z)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1979,7 +1857,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->Q(IZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1994,7 +1871,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->U()Lcom/commsource/widget/h1/e;
 
     move-result-object p0
@@ -2031,7 +1907,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/u8;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/u8;
 
     move-result-object p1
@@ -2042,7 +1917,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->W()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -2061,7 +1935,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->p:Lcom/commsource/studio/bean/FocusLayerInfo;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez p1, :cond_0
@@ -2107,10 +1980,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->onResume()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -2158,7 +2029,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->V()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -2190,15 +2060,12 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     iget-boolean v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->J:Z
 
     if-nez v1, :cond_4
 
-    .line 5
     iput-boolean v5, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->J:Z
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->U()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
@@ -2209,7 +2076,6 @@
 
     if-ltz v1, :cond_4
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
     if-nez v1, :cond_3
@@ -2225,7 +2091,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->post(Ljava/lang/Runnable;)Z
 
-    .line 8
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2251,19 +2116,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->Y()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->X()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->Z()V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->h0()V
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

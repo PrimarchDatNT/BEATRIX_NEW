@@ -33,10 +33,8 @@
 .method public constructor <init>(Landroid/graphics/Bitmap;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -63,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/j0/c/a$a;->a:Ljava/lang/ref/WeakReference;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

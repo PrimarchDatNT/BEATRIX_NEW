@@ -11,7 +11,6 @@
 
     if-ne p0, v0, :cond_0
 
-    .line 1
     new-instance p0, Lcom/tencent/bugly/proguard/ag;
 
     invoke-direct {p0}, Lcom/tencent/bugly/proguard/ag;-><init>()V
@@ -23,7 +22,6 @@
 
     if-ne p0, v0, :cond_1
 
-    .line 2
     new-instance p0, Lcom/tencent/bugly/proguard/af;
 
     invoke-direct {p0}, Lcom/tencent/bugly/proguard/af;-><init>()V

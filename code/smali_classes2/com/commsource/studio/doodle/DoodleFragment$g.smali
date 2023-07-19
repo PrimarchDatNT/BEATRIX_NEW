@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -64,7 +63,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$g;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodleFragment;->W(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/studio/doodle/b;
@@ -75,14 +73,12 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/doodle/b;->F(Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$g;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodleFragment;->U(Lcom/commsource/studio/doodle/DoodleFragment;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$g;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -94,7 +90,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/doodle/b;->F(Z)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$g;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodleFragment;->a0(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/studio/doodle/h;
@@ -113,12 +108,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$g;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/studio/doodle/DoodleFragment;->T(Lcom/commsource/studio/doodle/DoodleFragment;Lcom/commsource/studio/doodle/i;)V
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodleFragment$g;->a(Ljava/lang/Boolean;)V

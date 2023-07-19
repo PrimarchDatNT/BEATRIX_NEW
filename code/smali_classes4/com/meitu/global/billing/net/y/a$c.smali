@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lcom/meitu/global/billing/net/y/a$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/global/billing/net/y/a$c;-><init>()V
 
     return-void
@@ -45,7 +43,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
@@ -54,7 +51,6 @@
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -62,7 +58,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

@@ -44,7 +44,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-interface {p0}, Lcom/commsource/studio/component/c;->getStoreOwner()Landroidx/lifecycle/ViewModelStoreOwner;

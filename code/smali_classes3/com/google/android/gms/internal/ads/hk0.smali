@@ -15,16 +15,12 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/uq1;Lcom/google/android/gms/internal/ads/lk0;Lcom/google/android/gms/internal/ads/vk0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/hk0;->a:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/hk0;->b:Lcom/google/android/gms/internal/ads/lk0;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/hk0;->c:Lcom/google/android/gms/internal/ads/vk0;
 
     return-void
@@ -51,7 +47,6 @@
 
     move-object/from16 v7, p3
 
-    .line 1
     iget-object v0, v11, Lcom/google/android/gms/internal/ads/hk0;->a:Lcom/google/android/gms/internal/ads/uq1;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/kk0;
@@ -62,32 +57,26 @@
 
     invoke-direct {v1, p0, p1, v3, v7}, Lcom/google/android/gms/internal/ads/kk0;-><init>(Lcom/google/android/gms/internal/ads/hk0;Lcom/google/android/gms/internal/ads/fh1;Lcom/google/android/gms/internal/ads/ug1;Lorg/json/JSONObject;)V
 
-    .line 2
     invoke-interface {v0, v1}, Lcom/google/android/gms/internal/ads/uq1;->q0(Ljava/util/concurrent/Callable;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v2
 
-    .line 3
     iget-object v0, v11, Lcom/google/android/gms/internal/ads/hk0;->b:Lcom/google/android/gms/internal/ads/lk0;
 
     const-string v1, "images"
 
-    .line 4
     invoke-virtual {v0, v7, v1}, Lcom/google/android/gms/internal/ads/lk0;->h(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v3
 
-    .line 5
     iget-object v0, v11, Lcom/google/android/gms/internal/ads/hk0;->b:Lcom/google/android/gms/internal/ads/lk0;
 
     const-string v1, "secondary_image"
 
-    .line 6
     invoke-virtual {v0, v7, v1}, Lcom/google/android/gms/internal/ads/lk0;->g(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v5
 
-    .line 7
     iget-object v0, v11, Lcom/google/android/gms/internal/ads/hk0;->b:Lcom/google/android/gms/internal/ads/lk0;
 
     const-string v1, "app_icon"
@@ -96,29 +85,24 @@
 
     move-result-object v4
 
-    .line 8
     iget-object v0, v11, Lcom/google/android/gms/internal/ads/hk0;->b:Lcom/google/android/gms/internal/ads/lk0;
 
     const-string v1, "attribution"
 
-    .line 9
     invoke-virtual {v0, v7, v1}, Lcom/google/android/gms/internal/ads/lk0;->i(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v6
 
-    .line 10
     iget-object v0, v11, Lcom/google/android/gms/internal/ads/hk0;->b:Lcom/google/android/gms/internal/ads/lk0;
 
     invoke-virtual {v0, v7}, Lcom/google/android/gms/internal/ads/lk0;->n(Lorg/json/JSONObject;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v8
 
-    .line 11
     iget-object v0, v11, Lcom/google/android/gms/internal/ads/hk0;->b:Lcom/google/android/gms/internal/ads/lk0;
 
     const-string v1, "enable_omid"
 
-    .line 12
     invoke-virtual {v7, v1}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;)Z
 
     move-result v1
@@ -127,7 +111,6 @@
 
     if-nez v1, :cond_0
 
-    .line 13
     invoke-static {v9}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
@@ -140,14 +123,12 @@
     :cond_0
     const-string v1, "omid_settings"
 
-    .line 14
     invoke-virtual {v7, v1}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v1
 
     if-nez v1, :cond_1
 
-    .line 15
     invoke-static {v9}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
@@ -157,26 +138,22 @@
     :cond_1
     const-string v10, "omid_html"
 
-    .line 16
     invoke-virtual {v1, v10}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 17
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v10
 
     if-eqz v10, :cond_2
 
-    .line 18
     invoke-static {v9}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 19
     :cond_2
     invoke-static {v9}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
@@ -188,20 +165,17 @@
 
     sget-object v0, Lcom/google/android/gms/internal/ads/dq;->e:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 20
     invoke-static {v9, v10, v0}, Lcom/google/android/gms/internal/ads/jq1;->j(Lcom/google/android/gms/internal/ads/rq1;Lcom/google/android/gms/internal/ads/xp1;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 21
     :goto_1
     iget-object v0, v11, Lcom/google/android/gms/internal/ads/hk0;->c:Lcom/google/android/gms/internal/ads/vk0;
 
     const-string v1, "custom_assets"
 
-    .line 22
     invoke-virtual {v0, v7, v1}, Lcom/google/android/gms/internal/ads/vk0;->a(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v10
@@ -242,7 +216,6 @@
 
     aput-object v10, v0, v1
 
-    .line 23
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/jq1;->b([Lcom/google/android/gms/internal/ads/rq1;)Lcom/google/android/gms/internal/ads/kq1;
 
     move-result-object v12
@@ -259,7 +232,6 @@
 
     iget-object v0, v11, Lcom/google/android/gms/internal/ads/hk0;->a:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 24
     invoke-virtual {v12, v13, v0}, Lcom/google/android/gms/internal/ads/kq1;->a(Ljava/util/concurrent/Callable;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0

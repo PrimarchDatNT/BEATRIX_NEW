@@ -40,12 +40,10 @@
 .method constructor <init>(Lcom/google/common/collect/Sets$m;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Sets$m$a;->c:Lcom/google/common/collect/Sets$m;
 
     invoke-direct {p0}, Lcom/google/common/collect/l2;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/Sets$m;->b(Lcom/google/common/collect/Sets$m;)Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v0
@@ -60,7 +58,6 @@
 
     iput-object v0, p0, Lcom/google/common/collect/Sets$m$a;->a:Lcom/google/common/collect/ImmutableList;
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/collect/Sets$m;->c(Lcom/google/common/collect/Sets$m;)I
 
     move-result p1
@@ -75,7 +72,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/Sets$m$a;->b:I
 
     if-eqz v0, :cond_0
@@ -99,7 +95,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/Sets$m$a;->b:I
 
     invoke-static {v0}, Ljava/lang/Integer;->numberOfTrailingZeros(I)I
@@ -110,7 +105,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/google/common/collect/Sets$m$a;->b:I
 
     const/4 v2, 0x1
@@ -123,7 +117,6 @@
 
     iput v1, p0, Lcom/google/common/collect/Sets$m$a;->b:I
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/Sets$m$a;->a:Lcom/google/common/collect/ImmutableList;
 
     invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -132,7 +125,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 

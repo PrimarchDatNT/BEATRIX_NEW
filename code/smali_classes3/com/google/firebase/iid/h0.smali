@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/google/firebase/iid/j0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/os/Binder;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/iid/h0;->a:Lcom/google/firebase/iid/j0;
 
     return-void
@@ -25,7 +23,6 @@
 .method final a(Lcom/google/firebase/iid/l0;)V
     .locals 3
 
-    .line 1
     invoke-static {}, Landroid/os/Binder;->getCallingUid()I
 
     move-result v0
@@ -40,7 +37,6 @@
 
     const-string v1, "FirebaseInstanceId"
 
-    .line 2
     invoke-static {v1, v0}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v0
@@ -49,21 +45,17 @@
 
     const-string v0, "service received new intent via bind strategy"
 
-    .line 3
     invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/iid/h0;->a:Lcom/google/firebase/iid/j0;
 
     iget-object v1, p1, Lcom/google/firebase/iid/l0;->a:Landroid/content/Intent;
 
-    .line 5
     invoke-interface {v0, v1}, Lcom/google/firebase/iid/j0;->a(Landroid/content/Intent;)Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
 
-    .line 6
     invoke-static {}, Lcom/google/firebase/iid/u0;->a()Ljava/util/concurrent/Executor;
 
     move-result-object v1
@@ -76,7 +68,6 @@
 
     return-void
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/SecurityException;
 

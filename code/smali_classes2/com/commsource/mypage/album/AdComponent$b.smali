@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/AdComponent$b;->a:Lcom/commsource/mypage/album/AdComponent;
 
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;-><init>()V
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v1
@@ -53,7 +51,6 @@
     :goto_0
     if-ge v2, v1, :cond_2
 
-    .line 2
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v3
@@ -62,7 +59,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -85,7 +81,6 @@
 
     invoke-static {v3, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent$b;->a:Lcom/commsource/mypage/album/AdComponent;
 
     new-instance v3, Ljava/lang/ref/WeakReference;
@@ -102,12 +97,10 @@
 
     invoke-static {v1, v3}, Lcom/commsource/mypage/album/AdComponent;->o(Lcom/commsource/mypage/album/AdComponent;Ljava/lang/ref/WeakReference;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -124,7 +117,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -156,7 +148,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent$b;->a:Lcom/commsource/mypage/album/AdComponent;
 
     invoke-static {v1}, Lcom/commsource/mypage/album/AdComponent;->f(Lcom/commsource/mypage/album/AdComponent;)Lcom/commsource/mypage/e0;
@@ -167,7 +158,6 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/mypage/e0;->e(Lcom/meitu/hwbusinesskit/core/bean/AdData;Landroid/view/View;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -189,7 +179,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent$b;->a:Lcom/commsource/mypage/album/AdComponent;
 
     invoke-static {v1}, Lcom/commsource/mypage/album/AdComponent;->f(Lcom/commsource/mypage/album/AdComponent;)Lcom/commsource/mypage/e0;
@@ -203,10 +192,8 @@
     :cond_0
     const-string v1, "ad_album_banner_click"
 
-    .line 2
     invoke-static {v1, p1}, Lcom/commsource/advertisiting/g/b;->c(Ljava/lang/String;Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -223,17 +210,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;->onClosed(Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/album/AdComponent$b;->a:Lcom/commsource/mypage/album/AdComponent;
 
     const/4 v1, 0x0
 
     invoke-static {p1, v1}, Lcom/commsource/mypage/album/AdComponent;->l(Lcom/commsource/mypage/album/AdComponent;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -254,7 +238,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent$b;->a:Lcom/commsource/mypage/album/AdComponent;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -277,10 +260,8 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {v1, p1, v2, v2}, Lcom/commsource/advertisiting/g/b;->d(Ljava/lang/String;Lcom/meitu/hwbusinesskit/core/bean/AdData;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/mypage/album/AdComponent$b;->a:Lcom/commsource/mypage/album/AdComponent;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -301,14 +282,12 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/mypage/album/AdComponent$b;->a:Lcom/commsource/mypage/album/AdComponent;
 
     const/4 v1, 0x1
 
     invoke-static {p1, v1}, Lcom/commsource/mypage/album/AdComponent;->l(Lcom/commsource/mypage/album/AdComponent;Z)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

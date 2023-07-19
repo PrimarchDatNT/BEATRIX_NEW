@@ -19,7 +19,6 @@
 
     move-object v3, p3
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/internal/measurement/zzim;-><init>(Ljava/lang/String;ILcom/google/android/gms/internal/measurement/zzip;ILcom/google/android/gms/internal/measurement/y6;)V
 
     return-void

@@ -24,7 +24,6 @@
 .method constructor <init>(Lf/k/i0/b/a;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i0/b/a$b;->p:Lf/k/i0/b/a;
 
     iput p3, p0, Lf/k/i0/b/a$b;->g:I
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lf/k/i0/b/a$b;->p:Lf/k/i0/b/a;
 
@@ -63,7 +61,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/k/i0/b/a;->d()Ljava/lang/Object;
 
     move-result-object v2
@@ -72,7 +69,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3
     :try_start_1
     iget-object v3, p0, Lf/k/i0/b/a$b;->p:Lf/k/i0/b/a;
 
@@ -82,7 +78,6 @@
 
     invoke-interface {v3, v1}, Lf/k/i0/a/b;->U2(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 4
     monitor-exit v2
 
     goto :goto_0
@@ -104,10 +99,8 @@
     :catch_0
     move-exception v1
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 6
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

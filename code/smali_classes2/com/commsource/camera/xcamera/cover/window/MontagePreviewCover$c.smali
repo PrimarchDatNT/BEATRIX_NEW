@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->k:Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;->c()I
@@ -74,7 +73,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     :goto_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;->d()I
@@ -94,7 +92,6 @@
 
     goto :goto_2
 
-    .line 3
     :cond_3
     :goto_1
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;->b()I
@@ -112,7 +109,6 @@
 
     if-ne p1, v1, :cond_5
 
-    .line 4
     :goto_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$c;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
@@ -122,7 +118,6 @@
 
     goto :goto_4
 
-    .line 5
     :cond_5
     :goto_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$c;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
@@ -131,7 +126,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->W(Z)V
 
-    .line 6
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -145,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$c;->a(Ljava/lang/Integer;)V

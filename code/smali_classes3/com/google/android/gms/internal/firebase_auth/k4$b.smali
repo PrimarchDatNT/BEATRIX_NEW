@@ -45,10 +45,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_auth/k4;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/c4;->r()Lcom/google/android/gms/internal/firebase_auth/c4;
 
     move-result-object v0

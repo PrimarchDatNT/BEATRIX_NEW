@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/internal/KeepAliveManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/KeepAliveManager$b;->a:Lio/grpc/internal/KeepAliveManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,12 +37,10 @@
 .method public run()V
     .locals 11
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager$b;->a:Lio/grpc/internal/KeepAliveManager;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/internal/KeepAliveManager$b;->a:Lio/grpc/internal/KeepAliveManager;
 
@@ -51,7 +48,6 @@
 
     invoke-static {v1, v2}, Lio/grpc/internal/KeepAliveManager;->d(Lio/grpc/internal/KeepAliveManager;Ljava/util/concurrent/ScheduledFuture;)Ljava/util/concurrent/ScheduledFuture;
 
-    .line 3
     iget-object v1, p0, Lio/grpc/internal/KeepAliveManager$b;->a:Lio/grpc/internal/KeepAliveManager;
 
     invoke-static {v1}, Lio/grpc/internal/KeepAliveManager;->a(Lio/grpc/internal/KeepAliveManager;)Lio/grpc/internal/KeepAliveManager$State;
@@ -64,14 +60,12 @@
 
     const/4 v1, 0x1
 
-    .line 4
     iget-object v2, p0, Lio/grpc/internal/KeepAliveManager$b;->a:Lio/grpc/internal/KeepAliveManager;
 
     sget-object v3, Lio/grpc/internal/KeepAliveManager$State;->PING_SENT:Lio/grpc/internal/KeepAliveManager$State;
 
     invoke-static {v2, v3}, Lio/grpc/internal/KeepAliveManager;->b(Lio/grpc/internal/KeepAliveManager;Lio/grpc/internal/KeepAliveManager$State;)Lio/grpc/internal/KeepAliveManager$State;
 
-    .line 5
     iget-object v2, p0, Lio/grpc/internal/KeepAliveManager$b;->a:Lio/grpc/internal/KeepAliveManager;
 
     invoke-static {v2}, Lio/grpc/internal/KeepAliveManager;->h(Lio/grpc/internal/KeepAliveManager;)Ljava/util/concurrent/ScheduledExecutorService;
@@ -100,7 +94,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lio/grpc/internal/KeepAliveManager$b;->a:Lio/grpc/internal/KeepAliveManager;
 
@@ -112,7 +105,6 @@
 
     if-ne v1, v3, :cond_1
 
-    .line 7
     iget-object v1, p0, Lio/grpc/internal/KeepAliveManager$b;->a:Lio/grpc/internal/KeepAliveManager;
 
     invoke-static {v1}, Lio/grpc/internal/KeepAliveManager;->h(Lio/grpc/internal/KeepAliveManager;)Ljava/util/concurrent/ScheduledExecutorService;
@@ -121,14 +113,12 @@
 
     iget-object v4, p0, Lio/grpc/internal/KeepAliveManager$b;->a:Lio/grpc/internal/KeepAliveManager;
 
-    .line 8
     invoke-static {v4}, Lio/grpc/internal/KeepAliveManager;->i(Lio/grpc/internal/KeepAliveManager;)Ljava/lang/Runnable;
 
     move-result-object v4
 
     iget-object v5, p0, Lio/grpc/internal/KeepAliveManager$b;->a:Lio/grpc/internal/KeepAliveManager;
 
-    .line 9
     invoke-static {v5}, Lio/grpc/internal/KeepAliveManager;->j(Lio/grpc/internal/KeepAliveManager;)J
 
     move-result-wide v5
@@ -147,14 +137,12 @@
 
     sub-long/2addr v5, v9
 
-    .line 10
     invoke-interface {v3, v4, v5, v6, v8}, Ljava/util/concurrent/ScheduledExecutorService;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
 
     move-result-object v3
 
     invoke-static {v1, v3}, Lio/grpc/internal/KeepAliveManager;->d(Lio/grpc/internal/KeepAliveManager;Ljava/util/concurrent/ScheduledFuture;)Ljava/util/concurrent/ScheduledFuture;
 
-    .line 11
     iget-object v1, p0, Lio/grpc/internal/KeepAliveManager$b;->a:Lio/grpc/internal/KeepAliveManager;
 
     invoke-static {v1, v2}, Lio/grpc/internal/KeepAliveManager;->b(Lio/grpc/internal/KeepAliveManager;Lio/grpc/internal/KeepAliveManager$State;)Lio/grpc/internal/KeepAliveManager$State;
@@ -162,7 +150,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 12
     :goto_0
     monitor-exit v0
     :try_end_0
@@ -170,7 +157,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 13
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager$b;->a:Lio/grpc/internal/KeepAliveManager;
 
     invoke-static {v0}, Lio/grpc/internal/KeepAliveManager;->c(Lio/grpc/internal/KeepAliveManager;)Lio/grpc/internal/KeepAliveManager$d;
@@ -185,7 +171,6 @@
     :catchall_0
     move-exception v1
 
-    .line 14
     :try_start_1
     monitor-exit v0
     :try_end_1

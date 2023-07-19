@@ -26,7 +26,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/z3;->d()Lcom/google/android/gms/internal/firebase_auth/z3;
 
     move-result-object v0
@@ -39,7 +38,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -66,20 +64,16 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     sget-object p1, Lcom/google/android/gms/internal/firebase_auth/l4;->c:[B
 
-    .line 2
     array-length v1, p1
 
-    .line 3
     invoke-static {p1, v0, v1, v0}, Lcom/google/android/gms/internal/firebase_auth/l3;->e([BIIZ)Lcom/google/android/gms/internal/firebase_auth/l3;
 
     move-result-object p1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/google/android/gms/internal/firebase_auth/q3;
 
@@ -91,7 +85,6 @@
 
     move-object p1, v1
 
-    .line 5
     :goto_0
     invoke-interface {p0, p1, p2}, Lcom/google/android/gms/internal/firebase_auth/c6;->a(Lcom/google/android/gms/internal/firebase_auth/l3;Lcom/google/android/gms/internal/firebase_auth/z3;)Ljava/lang/Object;
 
@@ -99,7 +92,6 @@
 
     check-cast p2, Lcom/google/android/gms/internal/firebase_auth/s5;
 
-    .line 6
     :try_start_0
     invoke-virtual {p1, v0}, Lcom/google/android/gms/internal/firebase_auth/l3;->x(I)V
     :try_end_0
@@ -110,7 +102,6 @@
     :catch_0
     move-exception p1
 
-    .line 7
     invoke-virtual {p1, p2}, Lcom/google/android/gms/internal/firebase_auth/zzic;->zzh(Lcom/google/android/gms/internal/firebase_auth/s5;)Lcom/google/android/gms/internal/firebase_auth/zzic;
 
     move-result-object p1
@@ -128,43 +119,36 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/firebase_auth/a3;->c(Ljava/io/InputStream;Lcom/google/android/gms/internal/firebase_auth/z3;)Lcom/google/android/gms/internal/firebase_auth/s5;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    .line 2
     invoke-interface {p1}, Lcom/google/android/gms/internal/firebase_auth/u5;->isInitialized()Z
 
     move-result p2
 
     if-nez p2, :cond_2
 
-    .line 3
     instance-of p2, p1, Lcom/google/android/gms/internal/firebase_auth/u2;
 
     if-nez p2, :cond_1
 
-    .line 4
     instance-of p2, p1, Lcom/google/android/gms/internal/firebase_auth/w2;
 
     if-eqz p2, :cond_0
 
-    .line 5
     move-object p2, p1
 
     check-cast p2, Lcom/google/android/gms/internal/firebase_auth/w2;
 
-    .line 6
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzkl;
 
     invoke-direct {v0, p2}, Lcom/google/android/gms/internal/firebase_auth/zzkl;-><init>(Lcom/google/android/gms/internal/firebase_auth/s5;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzkl;
 
@@ -172,18 +156,15 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     move-object p2, p1
 
     check-cast p2, Lcom/google/android/gms/internal/firebase_auth/u2;
 
-    .line 9
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzkl;
 
     invoke-direct {v0, p2}, Lcom/google/android/gms/internal/firebase_auth/zzkl;-><init>(Lcom/google/android/gms/internal/firebase_auth/s5;)V
 
-    .line 10
     :goto_0
     new-instance p2, Lcom/google/android/gms/internal/firebase_auth/zzic;
 
@@ -193,7 +174,6 @@
 
     invoke-direct {p2, v0}, Lcom/google/android/gms/internal/firebase_auth/zzic;-><init>(Ljava/lang/String;)V
 
-    .line 11
     invoke-virtual {p2, p1}, Lcom/google/android/gms/internal/firebase_auth/zzic;->zzh(Lcom/google/android/gms/internal/firebase_auth/s5;)Lcom/google/android/gms/internal/firebase_auth/zzic;
 
     move-result-object p1

@@ -43,7 +43,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/commsource/studio/formula/convert/b;->a:I
@@ -70,7 +69,6 @@
 
     aput v2, v0, v3
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getWidth()I
 
     move-result v2
@@ -91,7 +89,6 @@
 
     aput v2, v0, v5
 
-    .line 2
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v2
@@ -102,7 +99,6 @@
 
     invoke-virtual {v2, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 3
     aget v2, v0, v1
 
     aget v6, v0, v3
@@ -119,7 +115,6 @@
 
     div-float/2addr v2, v6
 
-    .line 4
     aget v7, v0, v1
 
     aget v8, v0, v4
@@ -128,7 +123,6 @@
 
     div-float/2addr v7, v6
 
-    .line 5
     aget v8, v0, v3
 
     aget v0, v0, v5
@@ -137,7 +131,6 @@
 
     div-float/2addr v8, v6
 
-    .line 6
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/formula/convert/g;->c()I
 
     move-result v0
@@ -160,17 +153,14 @@
 
     div-float/2addr v0, v2
 
-    .line 7
     new-instance v5, Landroid/graphics/Matrix;
 
     invoke-direct {v5}, Landroid/graphics/Matrix;-><init>()V
 
     neg-float v0, v0
 
-    .line 8
     invoke-virtual {v5, v0, v0, v7, v8}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 9
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/LayerStyle;->getShadowDistance()F
 
     move-result v0
@@ -213,7 +203,6 @@
 
     double-to-float v0, v9
 
-    .line 10
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/LayerStyle;->getShadowDistance()F
 
     move-result v7
@@ -256,10 +245,8 @@
 
     aput v2, v3, v0
 
-    .line 11
     invoke-virtual {v5, v3}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 12
     aget v2, v3, v1
 
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/formula/convert/g;->c()I
@@ -284,7 +271,6 @@
 
     aput v2, v3, v1
 
-    .line 13
     aget v1, v3, v0
 
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/formula/convert/g;->b()I
@@ -339,35 +325,30 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p3}, Lcom/commsource/studio/formula/convert/Position;->getWidth()I
 
     move-result v0
 
     invoke-virtual {p2, v0}, Lcom/commsource/studio/bean/FocusLayerInfo;->setWidth(I)V
 
-    .line 2
     invoke-virtual {p3}, Lcom/commsource/studio/formula/convert/Position;->getHeight()I
 
     move-result v0
 
     invoke-virtual {p2, v0}, Lcom/commsource/studio/bean/FocusLayerInfo;->setHeight(I)V
 
-    .line 3
     invoke-virtual {p3}, Lcom/commsource/studio/formula/convert/Position;->getFlipX()Z
 
     move-result v0
 
     invoke-virtual {p2, v0}, Lcom/commsource/studio/bean/FocusLayerInfo;->setFlipX(Z)V
 
-    .line 4
     invoke-virtual {p3}, Lcom/commsource/studio/formula/convert/Position;->getFlipY()Z
 
     move-result v0
 
     invoke-virtual {p2, v0}, Lcom/commsource/studio/bean/FocusLayerInfo;->setFlipY(Z)V
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/studio/bean/FocusLayerInfo;->getPosition()Lcom/commsource/studio/layer/Position;
 
     move-result-object v0
@@ -386,7 +367,6 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 6
     invoke-virtual {p2}, Lcom/commsource/studio/bean/FocusLayerInfo;->getPosition()Lcom/commsource/studio/layer/Position;
 
     move-result-object v0
@@ -397,7 +377,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/layer/Position;->setRatio(F)V
 
-    .line 7
     invoke-virtual {p2}, Lcom/commsource/studio/bean/FocusLayerInfo;->getPosition()Lcom/commsource/studio/layer/Position;
 
     move-result-object v0
@@ -408,42 +387,34 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/layer/Position;->setRotate(F)V
 
-    .line 8
     invoke-virtual {p2}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v0
 
-    .line 9
     invoke-virtual {p2}, Lcom/commsource/studio/bean/FocusLayerInfo;->getPosition()Lcom/commsource/studio/layer/Position;
 
     move-result-object p2
 
-    .line 10
     invoke-virtual {p3}, Lcom/commsource/studio/formula/convert/Position;->getWidth()I
 
     move-result v1
 
-    .line 11
     invoke-virtual {p3}, Lcom/commsource/studio/formula/convert/Position;->getHeight()I
 
     move-result p3
 
-    .line 12
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->c()I
 
     move-result v2
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->b()I
 
     move-result p1
 
-    .line 14
     invoke-virtual {p2, v1, p3, v2, p1}, Lcom/commsource/studio/layer/Position;->toMatrixBox(IIII)Lcom/commsource/studio/MatrixBox;
 
     move-result-object p1
 
-    .line 15
     invoke-virtual {v0, p1}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
     :cond_0
@@ -525,7 +496,6 @@
 
     invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v4, Lcom/commsource/studio/mixlayer/ImageStyleConfig;
 
     invoke-direct {v4}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;-><init>()V
@@ -534,12 +504,10 @@
 
     if-eqz v3, :cond_2
 
-    .line 2
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/bean/ImageLayerInfo;->getImageStyleConfig()Lcom/commsource/studio/mixlayer/ImageStyleConfig;
 
     move-result-object v4
 
-    .line 3
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/formula/convert/LayerStyle;->getOverlayColor()Ljava/lang/String;
 
     move-result-object v5
@@ -558,7 +526,6 @@
 
     const-string v7, "#"
 
-    .line 4
     invoke-static/range {v5 .. v10}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v5
@@ -573,10 +540,8 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->setMixColor(Ljava/lang/Integer;)V
 
-    .line 5
     invoke-virtual {v4, v11}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->setPickMixColor(I)V
 
-    .line 6
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/formula/convert/LayerStyle;->getOverlayAlpha()F
 
     move-result v5
@@ -589,7 +554,6 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->setMixColorAlpha(I)V
 
-    .line 7
     :cond_0
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/formula/convert/LayerStyle;->getShadowColor()Ljava/lang/String;
 
@@ -607,7 +571,6 @@
 
     const-string v14, "#"
 
-    .line 8
     invoke-static/range {v12 .. v17}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v5
@@ -622,10 +585,8 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->setShadowColor(Ljava/lang/Integer;)V
 
-    .line 9
     invoke-virtual {v4, v11}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->setPickShadowColor(I)V
 
-    .line 10
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/formula/convert/LayerStyle;->getShadowBlur()F
 
     move-result v5
@@ -634,7 +595,6 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->setShadowBlur(I)V
 
-    .line 11
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/formula/convert/LayerStyle;->getShadowAlpha()F
 
     move-result v5
@@ -649,7 +609,6 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->setShadowAlpha(I)V
 
-    .line 12
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/formula/convert/LayerStyle;->getShadowRotate()F
 
     move-result v5
@@ -664,31 +623,26 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->setShadowAngle(I)V
 
-    .line 13
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/formula/convert/LayerStyle;->getShadowDistance()F
 
     move-result v5
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->setShadowDistanceFactor(F)V
 
-    .line 14
     invoke-direct {v0, v2, v3, v1}, Lcom/commsource/studio/formula/convert/b;->g(Lcom/commsource/studio/bean/ImageLayerInfo;Lcom/commsource/studio/formula/convert/LayerStyle;Lcom/commsource/studio/formula/convert/g;)[F
 
     move-result-object v1
 
     const/4 v5, 0x0
 
-    .line 15
     aget v5, v1, v5
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->setOffsetCenterX(F)V
 
-    .line 16
     aget v1, v1, v11
 
     invoke-virtual {v4, v1}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->setOffsetCenterY(F)V
 
-    .line 17
     :cond_1
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/formula/convert/LayerStyle;->getBlendType()I
 
@@ -700,7 +654,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->setMixMode(Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;)V
 
-    .line 18
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/formula/convert/LayerStyle;->getBlendAlpha()F
 
     move-result v1
@@ -718,60 +671,50 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 1
     sget-object p1, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Normal:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     goto :goto_0
 
-    .line 2
     :pswitch_0
     sget-object p1, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Divide:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     goto :goto_0
 
-    .line 3
     :pswitch_1
     sget-object p1, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Screen:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     goto :goto_0
 
-    .line 4
     :pswitch_2
     sget-object p1, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Different:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     goto :goto_0
 
-    .line 5
     :pswitch_3
     sget-object p1, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_HardLight:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     goto :goto_0
 
-    .line 6
     :pswitch_4
     sget-object p1, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_SoftLight:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     goto :goto_0
 
-    .line 7
     :pswitch_5
     sget-object p1, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Overlay:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     goto :goto_0
 
-    .line 8
     :pswitch_6
     sget-object p1, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_ColorDeep:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     goto :goto_0
 
-    .line 9
     :pswitch_7
     sget-object p1, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Multiply:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     goto :goto_0
 
-    .line 10
     :pswitch_8
     sget-object p1, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Normal:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
@@ -799,7 +742,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/formula/convert/b;->b:Lcom/commsource/studio/formula/convert/d;
 
     return-object v0
@@ -808,7 +750,6 @@
 .method public final h()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/formula/convert/b;->a:I
 
     return v0

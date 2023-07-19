@@ -44,10 +44,8 @@
 
     const-string v0, "template_shop_clk"
 
-    .line 1
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 2
     :try_start_0
     new-instance v0, Lcom/commsource/util/p2/c;
 
@@ -63,7 +61,6 @@
 
     invoke-direct {v0, v1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/studio/formula/FormulaFragment$a$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/formula/FormulaFragment$a$a;-><init>(Lcom/commsource/studio/formula/FormulaFragment$a;)V
@@ -72,7 +69,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :catchall_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

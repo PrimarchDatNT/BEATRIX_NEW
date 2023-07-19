@@ -21,7 +21,6 @@
 
     const-string v1, "T?"
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     new-array v0, v0, [Ljava/lang/Object;

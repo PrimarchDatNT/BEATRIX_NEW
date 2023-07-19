@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/gj2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/ads/appopen/a;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/nj2;->c:Lcom/google/android/gms/internal/ads/gj2;
 
     return-void
@@ -25,7 +23,6 @@
 .method protected final c(Lcom/google/android/gms/internal/ads/mj2;)V
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nj2;->c:Lcom/google/android/gms/internal/ads/gj2;
 
@@ -40,7 +37,6 @@
 
     const-string v0, ""
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -49,7 +45,6 @@
 .method protected final d()Lcom/google/android/gms/internal/ads/pn2;
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nj2;->c:Lcom/google/android/gms/internal/ads/gj2;
 
@@ -66,7 +61,6 @@
 
     const-string v1, ""
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0

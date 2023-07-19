@@ -68,10 +68,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$subViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$subViewModel$2;-><init>(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)V
@@ -82,7 +80,6 @@
 
     iput-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->O:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$mViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$mViewModel$2;-><init>(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)V
@@ -95,7 +92,6 @@
 
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->Q:Z
 
     return-void
@@ -108,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -123,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->T:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez p0, :cond_0
@@ -160,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->i1()Lcom/commsource/beautyplus/onboarding/BoardingViewModel;
 
     move-result-object p0
@@ -177,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->U:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -192,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->j1()Lcom/commsource/billing/activity/SubscribeViewModel;
 
     move-result-object p0
@@ -209,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->S:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -224,7 +213,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->k1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -239,7 +227,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->l1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -254,7 +241,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->V:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -269,7 +255,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -284,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->T:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -299,7 +283,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -314,7 +297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->U:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -329,7 +311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->V:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -344,7 +325,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->p1(Lcom/commsource/billing/bean/SubPriceInfo;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -359,7 +339,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->S:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -374,7 +353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->q1(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -389,7 +367,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->r1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -404,7 +381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->s1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -459,7 +435,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -468,13 +443,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v1}, Lf/d/i/e;->R3(Z)V
 
-    .line 3
     invoke-static {v1}, Lf/d/i/e;->P3(Z)V
 
-    .line 4
     new-instance v2, Landroid/content/Intent;
 
     const-class v3, Lcom/commsource/home/NewHomeActivity;
@@ -483,21 +455,16 @@
 
     const/high16 v3, 0x24000000
 
-    .line 5
     invoke-virtual {v2, v3}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 6
     invoke-virtual {p0, v2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->finish()V
 
     sget v2, Lcom/res/provider/ResANIM;->slide_out_to_bottom:I
 
-    .line 8
     invoke-virtual {p0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -510,7 +477,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     const-string v2, "mViewBinding"
@@ -528,12 +494,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->i1()Lcom/commsource/beautyplus/onboarding/BoardingViewModel;
 
@@ -545,31 +509,25 @@
 
     if-nez v1, :cond_3
 
-    .line 4
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->k1()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_2
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->r1()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_3
     iget-object v3, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
@@ -590,7 +548,6 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->q(Ljava/lang/String;Lcotlin/jvm/u/a;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -603,7 +560,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     const-string v2, "mViewBinding"
@@ -627,7 +583,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_1
@@ -643,7 +598,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_2
@@ -659,7 +613,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/FrameLayout;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_3
@@ -675,7 +628,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_4
@@ -691,7 +643,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_5
@@ -707,7 +658,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_6
@@ -723,7 +673,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_7
@@ -739,7 +688,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->setOnPlayChangeListener(Lcom/commsource/widget/VideoPlayComponent$a;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -752,12 +700,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->j1()Lcom/commsource/billing/activity/SubscribeViewModel;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->h0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -768,7 +714,6 @@
 
     invoke-virtual {v2, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->u0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -779,7 +724,6 @@
 
     invoke-virtual {v2, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->y0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -788,7 +732,6 @@
 
     invoke-virtual {v2, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->t0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -799,7 +742,6 @@
 
     invoke-virtual {v2, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->d0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -810,7 +752,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->j1()Lcom/commsource/billing/activity/SubscribeViewModel;
 
     move-result-object v1
@@ -823,7 +764,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/billing/activity/SubscribeViewModel;->g1(Ljava/lang/String;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->j1()Lcom/commsource/billing/activity/SubscribeViewModel;
 
     move-result-object v1
@@ -832,14 +772,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/billing/activity/SubscribeViewModel;->i1(Z)V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->i1()Lcom/commsource/beautyplus/onboarding/BoardingViewModel;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->E()V
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->i1()Lcom/commsource/beautyplus/onboarding/BoardingViewModel;
 
     move-result-object v1
@@ -854,7 +792,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -867,7 +804,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/f/i;->V()Z
 
     move-result v1
@@ -876,7 +812,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v1
@@ -889,7 +824,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/library/p/f/i;->P()Z
 
@@ -897,7 +831,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v1
@@ -907,12 +840,10 @@
     :cond_1
     const/16 v1, -0x3e
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v1
 
-    .line 6
     :goto_0
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
@@ -922,7 +853,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v2, :cond_2
@@ -942,7 +872,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     iget-object v2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
@@ -961,7 +890,6 @@
 
     invoke-static {v2, v4}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 9
     :goto_1
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
@@ -971,7 +899,6 @@
 
     div-int/lit16 v2, v2, 0x465
 
-    .line 10
     iget-object v4, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v4, :cond_5
@@ -983,7 +910,6 @@
 
     invoke-static {v4, v2}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 11
     iget-object v4, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v4, :cond_6
@@ -995,7 +921,6 @@
 
     invoke-static {v4, v1}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 12
     iget-object v4, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v4, :cond_7
@@ -1009,7 +934,6 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->setScaleAnimEnable(Z)V
 
-    .line 13
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v4
@@ -1024,17 +948,14 @@
 
     mul-int/lit16 v4, v4, 0x190
 
-    .line 14
     div-int/lit16 v4, v4, 0x13b
 
     sub-int v5, v2, v4
 
-    .line 15
     div-int/lit8 v5, v5, 0x2
 
     add-int/2addr v5, v1
 
-    .line 16
     iget-object v6, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v6, :cond_8
@@ -1046,7 +967,6 @@
 
     invoke-static {v6, v4}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 17
     iget-object v4, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v4, :cond_9
@@ -1060,7 +980,6 @@
 
     const/16 v4, 0x13d
 
-    .line 18
     invoke-static {v4}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v4
@@ -1071,7 +990,6 @@
 
     add-int/2addr v2, v1
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_a
@@ -1083,12 +1001,10 @@
 
     invoke-static {v1, v2}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 20
     iget-boolean v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->V:Z
 
     if-eqz v1, :cond_d
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_b
@@ -1104,7 +1020,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_c
@@ -1120,7 +1035,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 23
     :cond_d
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1134,12 +1048,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getYearlyFreeTrialPeriod()I
 
     move-result v1
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/billing/bean/SubPriceInfo;->isPriceEmpty()Z
 
     move-result v2
@@ -1156,7 +1068,6 @@
 
     if-nez v2, :cond_7
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/billing/bean/SubPriceInfo;->hasYearIntroductoryPric()Z
 
     move-result v2
@@ -1165,7 +1076,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v2, :cond_0
@@ -1181,12 +1091,10 @@
 
     invoke-virtual {v2, v9}, Landroid/widget/TextView;->setMaxLines(I)V
 
-    .line 5
     sget-object v2, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     sget v2, Lcom/res/provider/ResSTRING;->t_onboarding_price:I
 
-    .line 6
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
@@ -1199,14 +1107,12 @@
 
     new-array v11, v10, [Ljava/lang/Object;
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getYearIntroductoryPrice()Ljava/lang/String;
 
     move-result-object v12
 
     aput-object v12, v11, v5
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getYearIntroductoryDay()I
 
     move-result v12
@@ -1217,14 +1123,12 @@
 
     aput-object v12, v11, v6
 
-    .line 9
     invoke-virtual {p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getYearlyPrice()Ljava/lang/String;
 
     move-result-object p1
 
     aput-object p1, v11, v9
 
-    .line 10
     invoke-static {v11, v10}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p1
@@ -1240,12 +1144,10 @@
     :cond_1
     if-lez v1, :cond_2
 
-    .line 11
     sget-object v2, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     sget v2, Lcom/res/provider/ResSTRING;->t_sub_year_per_month_price:I
 
-    .line 12
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
@@ -1256,14 +1158,12 @@
 
     new-array v9, v6, [Ljava/lang/Object;
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getYearlyPrice()Ljava/lang/String;
 
     move-result-object p1
 
     aput-object p1, v9, v5
 
-    .line 14
     invoke-static {v9, v6}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p1
@@ -1276,13 +1176,11 @@
 
     goto :goto_0
 
-    .line 15
     :cond_2
     sget-object v2, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     sget v2, Lcom/res/provider/ResSTRING;->t_sub_price_tip:I
 
-    .line 16
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
@@ -1293,14 +1191,12 @@
 
     new-array v9, v6, [Ljava/lang/Object;
 
-    .line 17
     invoke-virtual {p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getYearlyPrice()Ljava/lang/String;
 
     move-result-object p1
 
     aput-object p1, v9, v5
 
-    .line 18
     invoke-static {v9, v6}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p1
@@ -1311,7 +1207,6 @@
 
     invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 19
     :goto_0
     iget-object v2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
@@ -1326,12 +1221,10 @@
 
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 20
     iget-boolean p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->R:Z
 
     if-eqz p1, :cond_7
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez p1, :cond_4
@@ -1347,7 +1240,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez p1, :cond_5
@@ -1361,7 +1253,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez p1, :cond_6
@@ -1378,7 +1269,6 @@
     :cond_7
     if-gtz v1, :cond_9
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez p1, :cond_8
@@ -1400,13 +1290,11 @@
 
     goto :goto_1
 
-    .line 25
     :cond_9
     sget-object p1, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     sget p1, Lcom/res/provider/ResSTRING;->free_use_7_day:I
 
-    .line 26
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1417,14 +1305,12 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    .line 27
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
 
     aput-object v1, v2, v5
 
-    .line 28
     invoke-static {v2, v6}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object v1
@@ -1435,7 +1321,6 @@
 
     invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 29
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_a
@@ -1449,7 +1334,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 30
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1492,7 +1376,6 @@
     :cond_0
     sget p1, Lcom/res/provider/ResSTRING;->not_subs_no_restore:I
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1510,7 +1393,6 @@
     :cond_1
     sget p1, Lcom/res/provider/ResSTRING;->restored:I
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1530,7 +1412,6 @@
     :cond_2
     sget p1, Lcom/res/provider/ResSTRING;->half_restored:I
 
-    .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1545,7 +1426,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -1559,19 +1439,16 @@
 
     if-eqz p1, :cond_4
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/widget/q0;->e(Landroid/content/Context;)Z
 
     move-result p1
 
     if-nez p1, :cond_4
 
-    .line 7
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1582,17 +1459,14 @@
 
     move-result-object v2
 
-    .line 8
     new-instance v3, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$r;
 
     invoke-direct {v3, p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$r;-><init>(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)V
 
-    .line 9
     invoke-static {p1, v2, v3, v1}, Lcom/commsource/widget/dialog/s0/t;->p0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Z)V
 
     goto :goto_0
 
-    .line 10
     :cond_4
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1602,7 +1476,6 @@
 
     invoke-static {p1, v1}, Lf/k/c/c/f;->z(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1616,17 +1489,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->R:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
@@ -1650,7 +1520,6 @@
 
     new-array v3, v2, [Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 4
     sget-object v4, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->V2_SUB_STARTUP_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     aput-object v4, v3, v5
@@ -1661,10 +1530,8 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/statistics/o;->a([Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;)V
 
-    .line 5
     iput-boolean v6, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->R:Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     const-string v3, "mViewBinding"
@@ -1682,7 +1549,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_2
@@ -1698,7 +1564,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_3
@@ -1716,7 +1581,6 @@
 
     move-result-object v1
 
-    .line 9
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1725,7 +1589,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_4
@@ -1741,7 +1604,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_5
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
@@ -1756,7 +1618,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_7
@@ -1772,7 +1633,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_8
@@ -1786,7 +1646,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 14
     :goto_0
     new-instance v1, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$s;
 
@@ -1796,15 +1655,12 @@
 
     invoke-static {v1, v4, v5}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 15
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->t1()V
 
-    .line 16
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 17
     const-class v4, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-virtual {v4}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -1813,10 +1669,8 @@
 
     invoke-virtual {v1, v4}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 18
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
-    .line 19
     iget-boolean v4, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->V:Z
 
     if-eqz v4, :cond_9
@@ -1831,7 +1685,6 @@
     :goto_1
     invoke-virtual {v1, v4}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 20
     sget-object v4, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string/jumbo v5, "source_click_position"
@@ -1842,12 +1695,10 @@
 
     const-string/jumbo v7, "source_feature_content"
 
-    .line 21
     invoke-virtual {v4, v7}, Lcom/meitu/library/hwanalytics/spm/d;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v8
 
-    .line 22
     invoke-static {v6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v9
@@ -1856,13 +1707,11 @@
 
     if-nez v6, :cond_a
 
-    .line 23
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_a
     invoke-virtual {v1, v5, v6}, Lcom/meitu/library/hwanalytics/spm/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 24
     :cond_b
     invoke-static {v8}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1872,7 +1721,6 @@
 
     if-nez v8, :cond_c
 
-    .line 25
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_c
@@ -1881,12 +1729,10 @@
     :cond_d
     const-string v5, "prf_func"
 
-    .line 26
     invoke-virtual {v4, v5}, Lcom/meitu/library/hwanalytics/spm/d;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 27
     invoke-static {v6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v7
@@ -1895,7 +1741,6 @@
 
     if-nez v6, :cond_e
 
-    .line 28
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_e
@@ -1904,12 +1749,10 @@
     :cond_f
     const-string v5, "mids_material"
 
-    .line 29
     invoke-virtual {v4, v5}, Lcom/meitu/library/hwanalytics/spm/d;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 30
     invoke-static {v6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v7
@@ -1918,7 +1761,6 @@
 
     if-nez v6, :cond_10
 
-    .line 31
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_10
@@ -1927,12 +1769,10 @@
     :cond_11
     const-string v5, "mids_material_tag"
 
-    .line 32
     invoke-virtual {v4, v5}, Lcom/meitu/library/hwanalytics/spm/d;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 33
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v6
@@ -1941,13 +1781,11 @@
 
     if-nez v4, :cond_12
 
-    .line 34
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_12
     invoke-virtual {v1, v5, v4}, Lcom/meitu/library/hwanalytics/spm/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 35
     :cond_13
     iget-boolean v4, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->V:Z
 
@@ -1957,7 +1795,6 @@
 
     const-string/jumbo v4, "x"
 
-    .line 36
     invoke-virtual {v1, v5, v4}, Lcom/meitu/library/hwanalytics/spm/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
@@ -1965,10 +1802,8 @@
     :cond_14
     const-string v4, "0"
 
-    .line 37
     invoke-virtual {v1, v5, v4}, Lcom/meitu/library/hwanalytics/spm/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 38
     :goto_2
     sget-object v4, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
@@ -1978,7 +1813,6 @@
 
     invoke-virtual {v4, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 39
     new-instance v1, Lcom/commsource/beautyplus/onboarding/a;
 
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->i1()Lcom/commsource/beautyplus/onboarding/BoardingViewModel;
@@ -1991,7 +1825,6 @@
 
     invoke-direct {v1, p0, v4}, Lcom/commsource/beautyplus/onboarding/a;-><init>(Landroid/app/Activity;Ljava/util/List;)V
 
-    .line 40
     iget-object v4, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v4, :cond_15
@@ -2009,7 +1842,6 @@
 
     const/16 v1, 0x112
 
-    .line 41
     invoke-static {v1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v1
@@ -2026,7 +1858,6 @@
 
     sub-int/2addr v1, v4
 
-    .line 42
     iget-object v2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v2, :cond_16
@@ -2042,7 +1873,6 @@
 
     invoke-virtual {v2, v4}, Landroid/view/ViewGroup;->post(Ljava/lang/Runnable;)Z
 
-    .line 43
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_17
@@ -2058,7 +1888,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 44
     new-instance v1, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$v;
 
     invoke-direct {v1, p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$v;-><init>(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)V
@@ -2067,7 +1896,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 45
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2080,7 +1908,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     const-string v2, "mViewBinding"
@@ -2108,7 +1935,6 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_1
@@ -2134,7 +1960,6 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_2
@@ -2146,7 +1971,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->m()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_3
@@ -2158,7 +1982,6 @@
 
     sget v3, Lcom/res/provider/ResSTRING;->t_welcome_edit_photo:I
 
-    .line 5
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
@@ -2169,7 +1992,6 @@
 
     sget v4, Lcom/res/provider/ResSTRING;->t_welcome_gergeous:I
 
-    .line 6
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
@@ -2178,10 +2000,8 @@
 
     invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v1, v3, v4}, Lcom/commsource/beautyplus/onboarding/NewTextPageView;->k(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_4
@@ -2207,7 +2027,6 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_5
@@ -2243,7 +2062,6 @@
 
     const/16 v4, 0x14
 
-    .line 10
     invoke-static {v4}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v4
@@ -2262,12 +2080,10 @@
 
     const-wide/16 v3, 0x2bc
 
-    .line 11
     invoke-virtual {v1, v3, v4}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object v1
 
-    .line 12
     new-instance v3, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$w;
 
     invoke-direct {v3, p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$w;-><init>(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)V
@@ -2276,10 +2092,8 @@
 
     move-result-object v1
 
-    .line 13
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_6
@@ -2293,7 +2107,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->h(I)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2306,7 +2119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->Q:Z
 
     if-eqz v1, :cond_2
@@ -2315,7 +2127,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->j1()Lcom/commsource/billing/activity/SubscribeViewModel;
 
     move-result-object v1
@@ -2342,7 +2153,6 @@
 
     if-lez v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->j1()Lcom/commsource/billing/activity/SubscribeViewModel;
 
     move-result-object v1
@@ -2360,14 +2170,12 @@
 
     aget-object v6, v1, v5
 
-    .line 4
     invoke-static {v3, v2, v6}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     add-int/lit8 v5, v5, 0x1
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->j1()Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -2377,16 +2185,13 @@
 
     move-result-object v1
 
-    .line 6
     invoke-static {v3, v2, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     const-string/jumbo v1, "sub_page_imp"
 
-    .line 7
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2471,7 +2276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -2482,22 +2286,18 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->s(Z)V
 
-    .line 2
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 3
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/spm/d;->a()V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->j1()Lcom/commsource/billing/activity/SubscribeViewModel;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->e1()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2510,17 +2310,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->V:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 3
     const-class v2, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -2529,15 +2326,12 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
     const-string v2, "1008"
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 6
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -2546,7 +2340,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2560,15 +2353,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->R:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->k1()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2586,7 +2376,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
@@ -2601,15 +2390,12 @@
 
     iput-boolean v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->V:Z
 
-    .line 2
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 3
     iget-boolean p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->V:Z
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->j1()Lcom/commsource/billing/activity/SubscribeViewModel;
 
     move-result-object p1
@@ -2625,7 +2411,6 @@
     :cond_0
     sget p1, Lcom/res/provider/ResLAYOUT;->activity_new_on_boarding:I
 
-    .line 5
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -2638,16 +2423,12 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->o1()V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->m1()V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->n1()V
 
-    .line 9
     sget-object p1, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
     const/4 v1, 0x2
@@ -2666,7 +2447,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/statistics/o;->a([Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2679,7 +2459,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     const-string v2, "mViewBinding"
@@ -2693,7 +2472,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->o()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_1
@@ -2705,10 +2483,8 @@
 
     invoke-virtual {v1}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->i()V
 
-    .line 3
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2721,23 +2497,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onStart()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->t1()V
 
-    .line 3
     iget-boolean v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->Q:Z
 
     if-nez v1, :cond_0
 
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->Q:Z
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

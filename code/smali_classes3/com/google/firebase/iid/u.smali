@@ -36,12 +36,10 @@
 .method public final a(Lcom/google/firebase/components/g;)Ljava/lang/Object;
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/google/firebase/iid/FirebaseInstanceId;
 
     const-class v0, Lcom/google/firebase/d;
 
-    .line 2
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -52,7 +50,6 @@
 
     const-class v0, Lcom/google/firebase/p/d;
 
-    .line 3
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -63,7 +60,6 @@
 
     const-class v0, Lcom/google/firebase/y/i;
 
-    .line 4
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -74,7 +70,6 @@
 
     const-class v0, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo;
 
-    .line 5
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -85,7 +80,6 @@
 
     const-class v0, Lcom/google/firebase/installations/j;
 
-    .line 6
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1

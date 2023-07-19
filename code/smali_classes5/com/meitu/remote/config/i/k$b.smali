@@ -26,7 +26,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 .method synthetic constructor <init>(Lcom/meitu/remote/config/i/k$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/remote/config/i/k$b;-><init>()V
 
     return-void
@@ -50,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lcom/meitu/remote/config/i/k;
 
     iget-wide v2, p0, Lcom/meitu/remote/config/i/k$b;->a:J
@@ -77,10 +74,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/remote/config/i/k$b;->c:Lcom/meitu/remote/config/g;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -93,10 +88,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/remote/config/i/k$b;->b:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -109,10 +102,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/remote/config/i/k$b;->a:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

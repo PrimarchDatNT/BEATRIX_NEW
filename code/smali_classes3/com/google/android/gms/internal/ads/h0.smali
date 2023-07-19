@@ -34,16 +34,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/h0;->a:J
 
-    .line 3
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/h0;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/h0;->c:Lcom/google/android/gms/internal/ads/h0;
 
     return-void
@@ -54,7 +50,6 @@
 .method public final a()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/h0;->a:J
 
     return-wide v0
@@ -63,7 +58,6 @@
 .method public final b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/h0;->b:Ljava/lang/String;
 
     return-object v0
@@ -74,7 +68,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/h0;->c:Lcom/google/android/gms/internal/ads/h0;
 
     return-object v0

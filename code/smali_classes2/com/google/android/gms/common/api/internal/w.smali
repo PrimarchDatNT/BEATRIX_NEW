@@ -39,17 +39,14 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/w;->a:[Lcom/google/android/gms/common/Feature;
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/w;->b:Z
 
     return-void
@@ -60,13 +57,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/w;->a:[Lcom/google/android/gms/common/Feature;
 
-    .line 6
     iput-boolean p2, p0, Lcom/google/android/gms/common/api/internal/w;->b:Z
 
     return-void
@@ -75,7 +69,6 @@
 .method synthetic constructor <init>([Lcom/google/android/gms/common/Feature;ZLcom/google/android/gms/common/api/internal/j2;)V
     .locals 0
 
-    .line 7
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/api/internal/w;-><init>([Lcom/google/android/gms/common/Feature;Z)V
 
     return-void
@@ -98,7 +91,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/internal/w$a;
 
     const/4 v1, 0x0
@@ -134,7 +126,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/w;->b:Z
 
     return v0
@@ -145,7 +136,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/w;->a:[Lcom/google/android/gms/common/Feature;
 
     return-object v0

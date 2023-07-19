@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 10
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
 
     const-string v1, "DEVELOPER"
@@ -46,7 +45,6 @@
 
     sput-object v0, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;->DEVELOPER:Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
 
     const-string v4, "USER_SIDELOAD"
@@ -57,7 +55,6 @@
 
     sput-object v1, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;->USER_SIDELOAD:Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
 
-    .line 3
     new-instance v4, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
 
     const-string v6, "TEST_DISTRIBUTION"
@@ -68,7 +65,6 @@
 
     sput-object v4, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;->TEST_DISTRIBUTION:Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
 
-    .line 4
     new-instance v6, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
 
     const-string v8, "APP_STORE"
@@ -89,7 +85,6 @@
 
     aput-object v6, v8, v7
 
-    .line 5
     sput-object v8, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;->$VALUES:[Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
 
     return-void
@@ -103,10 +98,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;->id:I
 
     return-void
@@ -117,7 +110,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;->APP_STORE:Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
 
     goto :goto_0
@@ -132,7 +124,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -147,7 +138,6 @@
 .method public static values()[Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;->$VALUES:[Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;
 
     invoke-virtual {v0}, [Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;->clone()Ljava/lang/Object;
@@ -164,7 +154,6 @@
 .method public getId()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;->id:I
 
     return v0
@@ -173,7 +162,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/crashlytics/internal/common/DeliveryMechanism;->id:I
 
     invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;

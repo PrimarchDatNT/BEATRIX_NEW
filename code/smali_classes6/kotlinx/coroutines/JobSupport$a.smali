@@ -53,7 +53,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
     iput-object p2, p0, Lcotlinx/coroutines/JobSupport$a;->J:Lcotlinx/coroutines/JobSupport;
@@ -82,14 +81,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/JobSupport$a;->J:Lcotlinx/coroutines/JobSupport;
 
     invoke-virtual {v0}, Lcotlinx/coroutines/JobSupport;->D0()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcotlinx/coroutines/JobSupport$c;
 
     if-eqz v1, :cond_0
@@ -106,7 +103,6 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     instance-of v1, v0, Lcotlinx/coroutines/z;
 
@@ -118,7 +114,6 @@
 
     return-object p1
 
-    .line 4
     :cond_1
     invoke-interface {p1}, Lcotlinx/coroutines/c2;->p()Ljava/util/concurrent/CancellationException;
 

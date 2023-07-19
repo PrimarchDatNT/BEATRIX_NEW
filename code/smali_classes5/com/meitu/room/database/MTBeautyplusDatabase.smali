@@ -50,7 +50,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/room/RoomDatabase;-><init>()V
 
     return-void
@@ -124,7 +123,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1}, Landroidx/room/RoomDatabase;->query(Landroidx/sqlite/db/SupportSQLiteQuery;)Landroid/database/Cursor;
 
@@ -137,10 +135,8 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 3
     new-instance p1, Lcom/meitu/room/database/a;
 
     invoke-direct {p1}, Lcom/meitu/room/database/a;-><init>()V
@@ -161,7 +157,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 4
     :try_start_0
     invoke-super {p0, p1, p2}, Landroidx/room/RoomDatabase;->query(Landroidx/sqlite/db/SupportSQLiteQuery;Landroid/os/CancellationSignal;)Landroid/database/Cursor;
 
@@ -174,10 +169,8 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 6
     new-instance p1, Lcom/meitu/room/database/a;
 
     invoke-direct {p1}, Lcom/meitu/room/database/a;-><init>()V
@@ -198,7 +191,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 7
     :try_start_0
     invoke-super {p0, p1, p2}, Landroidx/room/RoomDatabase;->query(Ljava/lang/String;[Ljava/lang/Object;)Landroid/database/Cursor;
 
@@ -211,10 +203,8 @@
     :catch_0
     move-exception p1
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 9
     new-instance p1, Lcom/meitu/room/database/a;
 
     invoke-direct {p1}, Lcom/meitu/room/database/a;-><init>()V

@@ -34,17 +34,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/d;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/layer/ContrastLayer;->P:Landroid/graphics/Rect;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;
 
     invoke-direct {v0, p0, p1}, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;-><init>(Lcom/commsource/studio/layer/ContrastLayer;Landroid/content/Context;)V
@@ -61,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/ContrastLayer;->P:Landroid/graphics/Rect;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -76,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/ContrastLayer;->O:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -91,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/ContrastLayer;->N:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -106,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/ContrastLayer;->O:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -121,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/ContrastLayer;->N:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,12 +132,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/ContrastLayer;->Q:Lcom/commsource/studio/layer/ContrastLayer$ContrastView;
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/ContrastLayer;->Q:Lcom/commsource/studio/layer/ContrastLayer$ContrastView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -160,12 +150,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/ContrastLayer;->Q:Lcom/commsource/studio/layer/ContrastLayer$ContrastView;
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -190,13 +178,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/ContrastLayer;->N:Landroid/graphics/Bitmap;
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/studio/layer/ContrastLayer;->O:Landroid/graphics/Bitmap;
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/layer/ContrastLayer;->P:Landroid/graphics/Rect;
 
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
@@ -211,12 +196,10 @@
 
     invoke-virtual {p2, v2, v2, v1, p1}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/layer/ContrastLayer;->Q:Lcom/commsource/studio/layer/ContrastLayer$ContrastView;
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -21,7 +21,6 @@
 
     const-string v0, "HuaweiCameraStrategyConfig"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/meitu/library/camera/s/k/a;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -36,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/camera/s/k/l/j;->g:Ljava/lang/Boolean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -51,10 +49,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/camera/s/k/l/j;->g:Ljava/lang/Boolean;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -22,7 +22,6 @@
 .method private constructor <init>(Lcom/spotxchange/internal/view/InAppBrowserActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity$c;->a:Lcom/spotxchange/internal/view/InAppBrowserActivity;
 
     invoke-direct {p0}, Landroid/webkit/WebViewClient;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lcom/spotxchange/internal/view/InAppBrowserActivity;Lcom/spotxchange/internal/view/InAppBrowserActivity$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/spotxchange/internal/view/InAppBrowserActivity$c;-><init>(Lcom/spotxchange/internal/view/InAppBrowserActivity;)V
 
     return-void
@@ -44,10 +42,8 @@
 .method public onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/webkit/WebViewClient;->onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity$c;->a:Lcom/spotxchange/internal/view/InAppBrowserActivity;
 
     invoke-static {p1}, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a(Lcom/spotxchange/internal/view/InAppBrowserActivity;)Landroid/webkit/WebView;
@@ -56,7 +52,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity$c;->a:Lcom/spotxchange/internal/view/InAppBrowserActivity;
 
     invoke-static {p1}, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a(Lcom/spotxchange/internal/view/InAppBrowserActivity;)Landroid/webkit/WebView;
@@ -65,7 +60,6 @@
 
     invoke-virtual {p1}, Landroid/webkit/WebView;->destroy()V
 
-    .line 4
     iget-object p1, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity$c;->a:Lcom/spotxchange/internal/view/InAppBrowserActivity;
 
     const/4 p2, 0x0

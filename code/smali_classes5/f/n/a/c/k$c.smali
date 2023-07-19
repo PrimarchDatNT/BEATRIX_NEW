@@ -35,7 +35,6 @@
 .method constructor <init>(Lf/n/a/c/k;[BLjava/lang/String;Lf/n/a/c/j;Lf/n/a/c/h;Lf/n/a/c/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/k$c;->f:Lf/n/a/c/k;
 
     iput-object p2, p0, Lf/n/a/c/k$c;->a:[B
@@ -60,12 +59,10 @@
 
     const-string p1, "invalid token"
 
-    .line 1
     invoke-static {p1}, Lcom/qiniu/android/http/g;->f(Ljava/lang/String;)Lcom/qiniu/android/http/g;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lf/n/a/c/k$c;->d:Lf/n/a/c/h;
 
     iget-object v1, p0, Lf/n/a/c/k$c;->b:Ljava/lang/String;
@@ -80,7 +77,6 @@
 .method public onSuccess()V
     .locals 1
 
-    .line 1
     new-instance v0, Lf/n/a/c/k$c$a;
 
     invoke-direct {v0, p0}, Lf/n/a/c/k$c$a;-><init>(Lf/n/a/c/k$c;)V

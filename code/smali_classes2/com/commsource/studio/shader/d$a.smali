@@ -49,7 +49,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -64,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/shader/d$a;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -81,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/shader/d$a;->f:[F
 
     if-nez v1, :cond_0
@@ -92,13 +89,10 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {v1, v2}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/studio/shader/d$a;->f:[F
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/shader/d$a;->f:[F
 
@@ -116,12 +110,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/shader/d$a;->b:Ljava/nio/FloatBuffer;
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/shader/d$a;->d()[F
 
     move-result-object v1
@@ -141,7 +133,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     move-result-object v2
@@ -150,20 +141,17 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/studio/shader/d$a;->b:Ljava/nio/FloatBuffer;
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/shader/d$a;->b:Ljava/nio/FloatBuffer;
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/shader/d$a;->d()[F
 
     move-result-object v2
@@ -172,10 +160,8 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-virtual {v1, v2}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/shader/d$a;->b:Ljava/nio/FloatBuffer;
 
@@ -193,30 +179,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/shader/d$a;->d:[F
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/studio/shader/d$a;->a:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/p;->d:[F
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/p;->b:[F
 
-    .line 5
     :goto_0
     iput-object v1, p0, Lcom/commsource/studio/shader/d$a;->d:[F
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/shader/d$a;->d:[F
 
@@ -234,12 +214,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/shader/d$a;->c:Ljava/nio/FloatBuffer;
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/shader/d$a;->f()[F
 
     move-result-object v1
@@ -259,7 +237,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     move-result-object v2
@@ -268,20 +245,17 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/studio/shader/d$a;->c:Ljava/nio/FloatBuffer;
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/shader/d$a;->c:Ljava/nio/FloatBuffer;
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/shader/d$a;->f()[F
 
     move-result-object v2
@@ -290,10 +264,8 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-virtual {v1, v2}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/shader/d$a;->c:Ljava/nio/FloatBuffer;
 
@@ -311,17 +283,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/shader/d$a;->e:[F
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/p;->c:[F
 
     iput-object v1, p0, Lcom/commsource/studio/shader/d$a;->e:[F
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/shader/d$a;->e:[F
 
@@ -337,7 +306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/shader/d$a;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -356,7 +324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/shader/d$a;->f:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -375,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/shader/d$a;->b:Ljava/nio/FloatBuffer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -394,7 +360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/shader/d$a;->d:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -413,7 +378,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/shader/d$a;->c:Ljava/nio/FloatBuffer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -432,7 +396,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/shader/d$a;->e:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

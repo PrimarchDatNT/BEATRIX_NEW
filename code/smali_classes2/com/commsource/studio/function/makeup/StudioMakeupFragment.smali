@@ -115,10 +115,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupViewModel$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
@@ -129,7 +127,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->c0:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$tipsViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$tipsViewModel$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
@@ -140,7 +137,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->d0:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mViewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mViewBinding$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
@@ -151,7 +147,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->e0:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mGroupAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mGroupAdapter$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
@@ -162,7 +157,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->f0:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mGroupLayoutManager$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mGroupLayoutManager$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
@@ -173,7 +167,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->g0:Lcotlin/w;
 
-    .line 7
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mVpAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mVpAdapter$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
@@ -184,7 +177,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->h0:Lcotlin/w;
 
-    .line 8
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$studioProViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$studioProViewModel$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
@@ -195,7 +187,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->i0:Lcotlin/w;
 
-    .line 9
     sget-object v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$itemDecoration$2;->INSTANCE:Lcom/commsource/studio/function/makeup/StudioMakeupFragment$itemDecoration$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -204,7 +195,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->l0:Lcotlin/w;
 
-    .line 10
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$fm$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$fm$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
@@ -215,7 +205,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->p0:Lcotlin/w;
 
-    .line 11
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
@@ -236,7 +225,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->r0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -251,7 +239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -266,7 +253,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->r0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,7 +267,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -296,7 +281,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->j2(Lcom/commsource/repository/child/makeup/e;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,7 +295,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->q2(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -338,7 +321,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->L1()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
@@ -349,7 +331,6 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {p1}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
@@ -367,7 +348,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/RuntimeException;->printStackTrace()V
 
     goto :goto_0
@@ -375,10 +355,8 @@
     :catch_1
     move-exception p1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/IllegalAccessException;->printStackTrace()V
 
-    .line 5
     :cond_0
     :goto_0
     check-cast p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
@@ -395,7 +373,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->U1()Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     move-result-object v1
@@ -414,19 +391,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->U1()Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/studio/o;->f()Lcom/commsource/camera/d1/g/l;
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->U1()Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
@@ -446,7 +420,6 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->U1()Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     move-result-object v1
@@ -465,20 +438,17 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->U1()Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/studio/o;->d()Lcom/commsource/camera/d1/g/h;
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -492,12 +462,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->m0:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->L1()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
@@ -515,12 +483,10 @@
 
     sget v3, Lcom/res/provider/ResANIM;->beauty_right_menu_down:I
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Landroidx/fragment/app/FragmentTransaction;->setCustomAnimations(II)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->m0:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     if-nez v2, :cond_1
@@ -532,15 +498,12 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I
 
     const/4 v1, 0x0
 
-    .line 6
     iput-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->m0:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -554,7 +517,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->n0:Lcom/commsource/repository/child/makeup/e;
 
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -563,21 +525,17 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->n0:Lcom/commsource/repository/child/makeup/e;
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->Y1()V
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/e;->a()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -598,7 +556,6 @@
     :goto_0
     if-eqz p1, :cond_2
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -617,7 +574,6 @@
 
     move-result-object v1
 
-    .line 7
     const-class v2, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupVerticalFragment;
 
     invoke-direct {p0, v2, v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->G1(Ljava/lang/Class;Ljava/lang/String;)Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
@@ -626,14 +582,12 @@
 
     if-eqz v2, :cond_2
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/e;->e()I
 
     move-result p1
 
     invoke-direct {p0, v2, v1, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->o2(Lcom/commsource/camera/xcamera/cover/bottomFunction/a;Ljava/lang/String;I)V
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -649,7 +603,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -658,7 +611,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object v1
@@ -671,7 +623,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
@@ -683,7 +634,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object v1
@@ -706,7 +656,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/round/a;->q(I)V
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
@@ -732,7 +681,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object v1
@@ -745,7 +693,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object v1
@@ -758,7 +705,6 @@
 
     invoke-virtual {v1, v5}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object v1
@@ -771,7 +717,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object v1
@@ -795,7 +740,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/RelativeLayout;->setTranslationX(F)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object v1
@@ -808,22 +752,18 @@
 
     const/high16 v4, 0x3f800000    # 1.0f
 
-    .line 11
     invoke-virtual {v1, v4}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setStartDelay(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 13
     invoke-virtual {v1, v5}, Landroid/view/ViewPropertyAnimator;->translationX(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 14
     new-instance v2, Landroid/view/animation/DecelerateInterpolator;
 
     invoke-direct {v2}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
@@ -834,12 +774,10 @@
 
     const-wide/16 v2, 0x3e8
 
-    .line 15
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 16
     new-instance v2, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$m;
 
     invoke-direct {v2, p0, p3, p1, p2}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$m;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;Ljava/lang/String;Ljava/lang/String;Z)V
@@ -848,10 +786,8 @@
 
     move-result-object p1
 
-    .line 17
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 18
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -878,7 +814,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->k2(Ljava/lang/String;ZLjava/lang/String;)V
 
@@ -896,32 +831,26 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     new-instance v1, Landroid/os/Bundle;
 
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
     const-string v2, "MakeupType"
 
-    .line 2
     invoke-virtual {v1, v2, p3}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     const/4 p3, 0x0
 
     const-string v2, "isCamera"
 
-    .line 3
     invoke-virtual {v1, v2, p3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 4
     invoke-virtual {p1, v1}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->m0:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     if-nez p1, :cond_0
 
-    .line 6
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -935,7 +864,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->L1()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p1
@@ -944,12 +872,10 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1, v1, p3}, Landroidx/fragment/app/FragmentTransaction;->setCustomAnimations(II)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p1
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->m0:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     if-nez p2, :cond_1
@@ -961,12 +887,10 @@
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->L1()Landroidx/fragment/app/FragmentManager;
 
@@ -976,14 +900,12 @@
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1, v1, p3}, Landroidx/fragment/app/FragmentTransaction;->setCustomAnimations(II)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p1
 
     sget p3, Lcom/res/provider/ResID;->fl_right:I
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->m0:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     if-nez v1, :cond_3
@@ -995,10 +917,8 @@
 
     move-result-object p1
 
-    .line 14
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I
 
-    .line 15
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1013,21 +933,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->s0:Z
 
     if-ne v1, p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-boolean p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->s0:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -1040,14 +956,12 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 5
     iget-boolean p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->s0:Z
 
     const-wide/16 v1, 0xfa
 
     if-eqz p1, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -1070,20 +984,16 @@
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 7
     invoke-virtual {p1, v3}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -1104,17 +1014,14 @@
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
     goto :goto_0
 
-    .line 13
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
@@ -1138,20 +1045,16 @@
 
     const/4 v3, 0x0
 
-    .line 14
     invoke-virtual {p1, v3}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 15
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 16
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 17
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -1166,15 +1069,12 @@
 
     move-result-object p1
 
-    .line 18
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 19
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 20
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
@@ -1208,7 +1108,6 @@
 
     invoke-static/range {v1 .. v7}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1221,7 +1120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->H1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1238,10 +1136,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1
@@ -1252,7 +1148,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1
@@ -1277,10 +1172,8 @@
 
     const/4 v4, 0x0
 
-    .line 4
     invoke-static {p0, v1, v2, v3, v4}, Lcom/commsource/studio/function/BaseSubFragment;->y1(Lcom/commsource/studio/function/BaseSubFragment;IZILjava/lang/Object;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -1309,7 +1202,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->k0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
@@ -1325,7 +1217,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1339,7 +1230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1
@@ -1356,7 +1246,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v2, "source_click_position"
@@ -1365,7 +1254,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->W1()Lcom/commsource/studio/component/StudioProViewModel;
 
     move-result-object v1
@@ -1396,7 +1284,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v1, Lcom/commsource/studio/effect/m;->m:Lcom/commsource/studio/effect/m$a;
 
@@ -1408,7 +1295,6 @@
 
     move-result-object v1
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Map;->isEmpty()Z
 
     move-result v2
@@ -1419,10 +1305,8 @@
 
     const-string v2, "beauty_makeup_material_yes"
 
-    .line 6
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
@@ -1444,7 +1328,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/function/BaseSubFragment;->W(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;ZILjava/lang/Object;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1458,7 +1341,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->o0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1475,7 +1357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1
@@ -1496,14 +1377,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->U1()Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->U1()Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     move-result-object v1
@@ -1518,7 +1397,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->o(Lcom/commsource/camera/d1/b;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1533,7 +1411,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->k0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1548,10 +1425,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->L0()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1588,7 +1463,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->n0:Lcom/commsource/repository/child/makeup/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1614,7 +1488,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->j0:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1653,7 +1526,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->m0:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1853,7 +1725,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->t0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1868,7 +1739,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->o0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1891,7 +1761,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1908,7 +1777,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->k0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1923,7 +1791,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->J1()Lcom/commsource/studio/effect/m;
 
     move-result-object v1
@@ -1944,7 +1811,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->n0:Lcom/commsource/repository/child/makeup/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1971,7 +1837,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->j0:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1986,7 +1851,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/m;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->d2(Lcom/commsource/studio/effect/m;)V
@@ -2007,7 +1871,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->m0:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2022,7 +1885,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->t0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2037,7 +1899,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->s0:Z
 
     if-eqz v1, :cond_0
@@ -2082,7 +1943,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2113,7 +1973,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -2134,7 +1993,6 @@
 
     if-le p1, p3, :cond_0
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     iget-object p3, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -2151,10 +2009,8 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {p0, p1, p3, v0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->F(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/layer/d;IILjava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p3
@@ -2163,10 +2019,8 @@
 
     invoke-virtual {p3, v0}, Landroid/view/View;->setAlpha(F)V
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->k0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
-    .line 6
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
@@ -2178,7 +2032,6 @@
 
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/qb;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2229,10 +2082,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2245,7 +2096,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2258,7 +2108,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 4
     sget-object p1, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
     const/4 p2, 0x3
@@ -2285,14 +2134,12 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/statistics/o;->a([Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;)V
 
-    .line 5
     new-instance p1, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$1;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$1;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->m1(Lcotlin/jvm/u/l;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -2309,7 +2156,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2326,7 +2172,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2339,7 +2184,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2354,7 +2198,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2367,7 +2210,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/viewpager2/widget/ViewPager2;->setUserInputEnabled(Z)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2382,7 +2224,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/viewpager2/widget/ViewPager2;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object p1
@@ -2401,7 +2242,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object p1
@@ -2420,7 +2260,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object p1
@@ -2439,7 +2278,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 15
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object p1
@@ -2458,7 +2296,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2471,7 +2308,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/viewpager2/widget/ViewPager2;->registerOnPageChangeCallback(Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;)V
 
-    .line 17
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2484,7 +2320,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->Q1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;
 
     move-result-object p1
@@ -2497,7 +2332,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 19
     invoke-static {}, Lcom/commsource/camera/a1/h;->j()Lcom/commsource/camera/a1/h;
 
     move-result-object p1
@@ -2520,7 +2354,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 20
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -2543,7 +2376,6 @@
 
     invoke-virtual {p1, p2, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 21
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object p1
@@ -2562,7 +2394,6 @@
 
     invoke-virtual {p1, p2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 22
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object p1
@@ -2581,7 +2412,6 @@
 
     invoke-virtual {p1, p2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 23
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object p1
@@ -2600,7 +2430,6 @@
 
     invoke-virtual {p1, p2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 24
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->X1()Lcom/commsource/camera/xcamera/cover/tips/a;
 
     move-result-object p1
@@ -2619,7 +2448,6 @@
 
     invoke-virtual {p1, p2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 25
     sget-object p1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->B()Lcom/commsource/material/download/b/a;
@@ -2642,7 +2470,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lcotlin/jvm/u/l;)V
 
-    .line 26
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object p1
@@ -2661,14 +2488,12 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 27
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object p1
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->k0(Z)V
 
-    .line 28
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2681,23 +2506,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->t0:Z
 
     if-ne v1, p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-boolean p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->t0:Z
 
     if-eqz p1, :cond_1
 
-    .line 4
     sget-object p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->i:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->m()Z
@@ -2706,12 +2527,10 @@
 
     if-nez p1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
@@ -2725,7 +2544,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 7
     iget-boolean p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->t0:Z
 
     const-wide/16 v1, 0xc8
@@ -2734,7 +2552,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2743,7 +2560,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2774,7 +2590,6 @@
 
     invoke-virtual {p1, v6}, Landroid/widget/RelativeLayout;->setPivotY(F)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2799,7 +2614,6 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/RelativeLayout;->setPivotX(F)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2808,7 +2622,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/RelativeLayout;->setScaleX(F)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2817,7 +2630,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/RelativeLayout;->setScaleY(F)V
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2848,7 +2660,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
     move-result-object p1
@@ -2865,7 +2676,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
@@ -2895,7 +2705,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 16
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

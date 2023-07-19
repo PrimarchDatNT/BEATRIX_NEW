@@ -44,10 +44,8 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/Ordering;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v1, 0x0
@@ -56,12 +54,10 @@
 
     iput-object v0, p0, Lcom/google/common/collect/Ordering$a;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 3
     new-instance v0, Lcom/google/common/collect/MapMaker;
 
     invoke-direct {v0}, Lcom/google/common/collect/MapMaker;-><init>()V
 
-    .line 4
     invoke-static {v0}, Lcom/google/common/collect/r1;->l(Lcom/google/common/collect/MapMaker;)Lcom/google/common/collect/MapMaker;
 
     move-result-object v0
@@ -78,7 +74,6 @@
 .method private a(Ljava/lang/Object;)Ljava/lang/Integer;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Ordering$a;->b:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -89,7 +84,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Ordering$a;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
@@ -100,7 +94,6 @@
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/Ordering$a;->b:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v1, p1, v0}, Ljava/util/concurrent/ConcurrentMap;->putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -122,7 +115,6 @@
 .method b(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result p1
@@ -153,13 +145,11 @@
 
     return v1
 
-    .line 1
     :cond_2
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Ordering$a;->b(Ljava/lang/Object;)I
 
     move-result v2
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/google/common/collect/Ordering$a;->b(Ljava/lang/Object;)I
 
     move-result v3
@@ -176,7 +166,6 @@
     :goto_0
     return v0
 
-    .line 3
     :cond_4
     invoke-direct {p0, p1}, Lcom/google/common/collect/Ordering$a;->a(Ljava/lang/Object;)Ljava/lang/Integer;
 
@@ -194,7 +183,6 @@
 
     return p1
 
-    .line 4
     :cond_5
     new-instance p1, Ljava/lang/AssertionError;
 

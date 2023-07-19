@@ -50,7 +50,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -73,10 +72,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/e;->g:Ljava/lang/String;
 
-    .line 2
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -85,10 +82,8 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/p/g/b;->j(Ljava/io/File;Z)Z
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/p/g/b;->g(Ljava/lang/String;)Ljava/io/File;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/e;->b:Lcom/commsource/studio/g;
 
     const-string v2, "autoEffect"
@@ -113,7 +108,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/g;->a(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/e;->c:Lcom/commsource/studio/g;
 
@@ -139,7 +133,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/g;->a(Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/e;->d:Lcom/commsource/studio/g;
 
@@ -165,7 +158,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/g;->a(Ljava/lang/String;)V
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/e;->e:Lcom/commsource/studio/g;
 
@@ -191,7 +183,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/g;->a(Ljava/lang/String;)V
 
-    .line 8
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/e;->b:Lcom/commsource/studio/g;
 
@@ -215,7 +206,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/g;->a(Ljava/lang/String;)V
 
-    .line 9
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/e;->f:Lcom/commsource/studio/g;
 
@@ -241,7 +231,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/g;->a(Ljava/lang/String;)V
 
-    .line 10
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -257,7 +246,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/e;->b:Lcom/commsource/studio/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -274,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/e;->c:Lcom/commsource/studio/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -291,7 +278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/e;->h:Landroid/util/SparseIntArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/e;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -325,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/e;->d:Lcom/commsource/studio/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -342,7 +326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/e;->e:Lcom/commsource/studio/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -359,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/e;->f:Lcom/commsource/studio/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -374,7 +356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/e;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -389,12 +370,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/e;->g:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -403,7 +382,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/p/g/b;->j(Ljava/io/File;Z)Z
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -421,7 +399,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/e;->b:Lcom/commsource/studio/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -436,7 +413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/e;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -455,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/e;->c:Lcom/commsource/studio/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -474,7 +449,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/e;->h:Landroid/util/SparseIntArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -493,7 +467,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/e;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -512,7 +485,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/e;->d:Lcom/commsource/studio/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -531,7 +503,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/e;->e:Lcom/commsource/studio/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -550,7 +521,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/e;->f:Lcom/commsource/studio/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

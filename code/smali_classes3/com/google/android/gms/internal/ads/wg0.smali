@@ -33,10 +33,8 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/ug0;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -49,7 +47,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/ug0;Lcom/google/android/gms/internal/ads/xg0;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/wg0;-><init>(Lcom/google/android/gms/internal/ads/ug0;)V
 
     return-void
@@ -70,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/wg0;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -86,7 +82,6 @@
     :cond_0
     const-string v0, "eventName"
 
-    .line 2
     invoke-interface {p2, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -95,14 +90,12 @@
 
     const-string v0, "_ac"
 
-    .line 3
     invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p2
 
     if-eqz p2, :cond_1
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/ug0;->s(Lcom/google/android/gms/internal/ads/ug0;)Lcom/google/android/gms/internal/ads/n70;
 
     move-result-object p1

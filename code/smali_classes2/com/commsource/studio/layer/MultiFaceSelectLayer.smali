@@ -45,17 +45,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/d;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Ljava/util/LinkedList;
 
     invoke-direct {p1}, Ljava/util/LinkedList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->O:Ljava/util/LinkedList;
 
-    .line 3
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 v0, 0x1
@@ -64,24 +61,20 @@
 
     const/high16 v1, -0x1000000
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     const/high16 v1, 0x424c0000    # 51.0f
 
     float-to-int v1, v1
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 6
     iput-object p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->P:Landroid/graphics/Paint;
 
     const/4 p1, 0x3
 
     new-array p1, p1, [F
 
-    .line 7
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -90,27 +83,22 @@
 
     const-wide/16 v1, 0x3e8
 
-    .line 8
     invoke-virtual {p1, v1, v2}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 9
     invoke-virtual {p1, v0}, Landroid/animation/ValueAnimator;->setRepeatCount(I)V
 
-    .line 10
     new-instance v0, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v0}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
 
     invoke-virtual {p1, v0}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 11
     new-instance v0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$a;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/layer/MultiFaceSelectLayer$a;-><init>(Lcom/commsource/studio/layer/MultiFaceSelectLayer;)V
 
     invoke-virtual {p1, v0}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 12
     iput-object p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->R:Landroid/animation/ValueAnimator;
 
     return-void
@@ -132,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->R:Landroid/animation/ValueAnimator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -147,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->O:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -162,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->Q:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -177,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->P:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -192,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->Q:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -209,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->N:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -224,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -237,7 +218,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/j;->d()I
 
     move-result v2
@@ -251,7 +231,6 @@
 
     if-ge v10, v2, :cond_1
 
-    .line 3
     iget-object v12, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->O:Ljava/util/LinkedList;
 
     new-instance v13, Lcom/commsource/studio/layer/FaceOval;
@@ -282,7 +261,6 @@
 
     invoke-direct/range {v4 .. v9}, Lcom/commsource/studio/layer/FaceOval;-><init>(Lcom/meitu/core/types/FaceData;IFFLandroid/graphics/RectF;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/j;->h()I
 
     move-result v4
@@ -297,14 +275,12 @@
     :goto_1
     invoke-virtual {v13, v11}, Lcom/commsource/studio/layer/FaceOval;->F(Z)V
 
-    .line 5
     invoke-virtual {v12, v13}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v10, v10, 0x1
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
@@ -312,10 +288,8 @@
 
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
 
-    .line 7
     invoke-virtual {p0, v11}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->j0(Z)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -336,17 +310,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->Z(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -361,7 +332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/MultiFaceSelectLayer$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/layer/MultiFaceSelectLayer$b;-><init>(Lcom/commsource/studio/layer/MultiFaceSelectLayer;)V
@@ -380,7 +350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/MultiFaceSelectLayer$DrawTranslateView;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->A()Landroid/content/Context;
@@ -401,21 +370,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->N:Z
 
     if-eq p1, v1, :cond_1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/studio/m0;->M()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -434,7 +400,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -448,18 +413,14 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     :cond_1
     :goto_0
     iput-boolean p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->N:Z
 
-    .line 6
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->k0(Z)V
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->n0(Z)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -472,7 +433,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -485,7 +445,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -514,7 +473,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -529,7 +487,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -542,7 +499,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

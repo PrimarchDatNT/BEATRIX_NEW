@@ -72,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x1
@@ -81,19 +80,16 @@
 
     sget v2, Lcom/res/provider/ResCOLOR;->white:I
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 4
     sget-object v2, Landroid/graphics/Paint$Style;->FILL_AND_STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -106,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$indicatorPaint$2;->invoke()Landroid/graphics/Paint;
 
     move-result-object v1

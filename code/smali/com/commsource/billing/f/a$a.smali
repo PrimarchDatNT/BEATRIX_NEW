@@ -26,7 +26,6 @@
 .method constructor <init>(Ljava/lang/String;IILjava/lang/String;)V
     .locals 0
 
-    .line 1
     iput p2, p0, Lcom/commsource/billing/f/a$a;->g:I
 
     iput p3, p0, Lcom/commsource/billing/f/a$a;->p:I
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/billing/f/a$a;->g:I
 
     iget v2, p0, Lcom/commsource/billing/f/a$a;->p:I
@@ -56,7 +54,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/billing/f/a;->b(IILjava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

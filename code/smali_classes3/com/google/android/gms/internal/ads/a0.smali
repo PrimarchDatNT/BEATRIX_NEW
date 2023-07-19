@@ -26,24 +26,18 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/a0;->c:Landroid/content/Context;
 
-    .line 3
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/a0;->d:Ljava/lang/String;
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/a0;->c:Landroid/content/Context;
 
-    .line 5
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/a0;->d:Ljava/lang/String;
 
-    .line 6
     sget-object p2, Lcom/google/android/gms/internal/ads/g1;->b:Lcom/google/android/gms/internal/ads/y0;
 
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/y0;->a()Ljava/lang/Object;
@@ -54,7 +48,6 @@
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/a0;->a:Ljava/lang/String;
 
-    .line 7
     new-instance p2, Ljava/util/LinkedHashMap;
 
     invoke-direct {p2}, Ljava/util/LinkedHashMap;-><init>()V
@@ -65,10 +58,8 @@
 
     const-string v1, "gmob_sdk"
 
-    .line 8
     invoke-interface {p2, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/a0;->b:Ljava/util/Map;
 
     const-string v0, "v"
@@ -77,7 +68,6 @@
 
     invoke-interface {p2, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/a0;->b:Ljava/util/Map;
 
     sget-object v0, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
@@ -86,7 +76,6 @@
 
     invoke-interface {p2, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/a0;->b:Ljava/util/Map;
 
     sget-object v0, Landroid/os/Build$VERSION;->SDK:Ljava/lang/String;
@@ -95,7 +84,6 @@
 
     invoke-interface {p2, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/a0;->b:Ljava/util/Map;
 
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
@@ -108,17 +96,14 @@
 
     invoke-interface {p2, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/a0;->b:Ljava/util/Map;
 
-    .line 14
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 15
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
@@ -129,7 +114,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_0
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -138,13 +122,10 @@
     :goto_0
     const-string v1, "app"
 
-    .line 17
     invoke-interface {p2, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 18
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/a0;->b:Ljava/util/Map;
 
-    .line 19
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/cn;->H(Landroid/content/Context;)Z
@@ -163,10 +144,8 @@
     :goto_1
     const-string v0, "is_lite_sdk"
 
-    .line 20
     invoke-interface {p2, v0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->n()Lcom/google/android/gms/internal/ads/qh;
 
     move-result-object p1
@@ -177,13 +156,11 @@
 
     move-result-object p1
 
-    .line 22
     :try_start_0
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/a0;->b:Ljava/util/Map;
 
     const-string v0, "network_coarse"
 
-    .line 23
     invoke-interface {p1}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
 
     move-result-object v1
@@ -196,15 +173,12 @@
 
     move-result-object v1
 
-    .line 24
     invoke-interface {p2, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 25
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/a0;->b:Ljava/util/Map;
 
     const-string v0, "network_fine"
 
-    .line 26
     invoke-interface {p1}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
 
     move-result-object p1
@@ -217,7 +191,6 @@
 
     move-result-object p1
 
-    .line 27
     invoke-interface {p2, v0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -227,7 +200,6 @@
     :catch_0
     move-exception p1
 
-    .line 28
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object p2
@@ -244,7 +216,6 @@
 .method final a()Landroid/content/Context;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/a0;->c:Landroid/content/Context;
 
     return-object v0
@@ -253,7 +224,6 @@
 .method final b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/a0;->d:Ljava/lang/String;
 
     return-object v0
@@ -262,7 +232,6 @@
 .method final c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/a0;->a:Ljava/lang/String;
 
     return-object v0
@@ -280,7 +249,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/a0;->b:Ljava/util/Map;
 
     return-object v0

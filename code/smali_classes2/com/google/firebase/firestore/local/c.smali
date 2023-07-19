@@ -35,14 +35,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/firestore/local/a;->a()Ljava/util/Comparator;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/firebase/firestore/local/c;->c:Ljava/util/Comparator;
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/firestore/local/b;->a()Ljava/util/Comparator;
 
     move-result-object v0
@@ -55,13 +53,10 @@
 .method public constructor <init>(Lcom/google/firebase/firestore/model/e;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/local/c;->a:Lcom/google/firebase/firestore/model/e;
 
-    .line 3
     iput p2, p0, Lcom/google/firebase/firestore/local/c;->b:I
 
     return-void
@@ -70,7 +65,6 @@
 .method static synthetic c(Lcom/google/firebase/firestore/local/c;Lcom/google/firebase/firestore/local/c;)I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/c;->a:Lcom/google/firebase/firestore/model/e;
 
     iget-object v1, p1, Lcom/google/firebase/firestore/local/c;->a:Lcom/google/firebase/firestore/model/e;
@@ -83,7 +77,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     iget p0, p0, Lcom/google/firebase/firestore/local/c;->b:I
 
@@ -99,7 +92,6 @@
 .method static synthetic d(Lcom/google/firebase/firestore/local/c;Lcom/google/firebase/firestore/local/c;)I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/local/c;->b:I
 
     iget v1, p1, Lcom/google/firebase/firestore/local/c;->b:I
@@ -112,7 +104,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     iget-object p0, p0, Lcom/google/firebase/firestore/local/c;->a:Lcom/google/firebase/firestore/model/e;
 
@@ -130,7 +121,6 @@
 .method a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/local/c;->b:I
 
     return v0
@@ -139,7 +129,6 @@
 .method b()Lcom/google/firebase/firestore/model/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/c;->a:Lcom/google/firebase/firestore/model/e;
 
     return-object v0

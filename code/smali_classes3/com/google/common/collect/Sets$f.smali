@@ -49,10 +49,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/t0;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     return-void
@@ -72,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/collect/Ordering;->from(Ljava/util/Comparator;)Lcom/google/common/collect/Ordering;
 
     move-result-object p0
@@ -96,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     return-object v0
@@ -110,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0, p1}, Ljava/util/NavigableSet;->floor(Ljava/lang/Object;)Ljava/lang/Object;
@@ -130,7 +125,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0}, Ljava/util/NavigableSet;->comparator()Ljava/util/Comparator;
@@ -139,7 +133,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
@@ -150,7 +143,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/google/common/collect/Sets$f;->x1(Ljava/util/Comparator;)Lcom/google/common/collect/Ordering;
 
@@ -162,7 +154,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Sets$f;->J0()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -173,7 +164,6 @@
 .method protected bridge synthetic delegate()Ljava/util/Collection;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/Sets$f;->J0()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -184,7 +174,6 @@
 .method protected bridge synthetic delegate()Ljava/util/Set;
     .locals 1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/Sets$f;->J0()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -195,7 +184,6 @@
 .method protected bridge synthetic delegate()Ljava/util/SortedSet;
     .locals 1
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/Sets$f;->J0()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -213,7 +201,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0}, Ljava/util/NavigableSet;->iterator()Ljava/util/Iterator;
@@ -233,7 +220,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     return-object v0
@@ -247,7 +233,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0}, Ljava/util/NavigableSet;->last()Ljava/lang/Object;
@@ -265,7 +250,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0, p1}, Ljava/util/NavigableSet;->ceiling(Ljava/lang/Object;)Ljava/lang/Object;
@@ -285,7 +269,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0, p1, p2}, Ljava/util/NavigableSet;->tailSet(Ljava/lang/Object;Z)Ljava/util/NavigableSet;
@@ -309,7 +292,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/common/collect/t0;->p1(Ljava/lang/Object;)Ljava/util/SortedSet;
 
     move-result-object p1
@@ -325,7 +307,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0, p1}, Ljava/util/NavigableSet;->lower(Ljava/lang/Object;)Ljava/lang/Object;
@@ -345,7 +326,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0}, Ljava/util/NavigableSet;->descendingIterator()Ljava/util/Iterator;
@@ -363,7 +343,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0}, Ljava/util/NavigableSet;->first()Ljava/lang/Object;
@@ -381,7 +360,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0, p1}, Ljava/util/NavigableSet;->higher(Ljava/lang/Object;)Ljava/lang/Object;
@@ -399,7 +377,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0}, Ljava/util/NavigableSet;->pollLast()Ljava/lang/Object;
@@ -417,7 +394,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0}, Ljava/util/NavigableSet;->pollFirst()Ljava/lang/Object;
@@ -437,7 +413,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0, p3, p4, p1, p2}, Ljava/util/NavigableSet;->subSet(Ljava/lang/Object;ZLjava/lang/Object;Z)Ljava/util/NavigableSet;
@@ -461,7 +436,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/t0;->standardSubSet(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/SortedSet;
 
     move-result-object p1
@@ -479,7 +453,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$f;->a:Ljava/util/NavigableSet;
 
     invoke-interface {v0, p1, p2}, Ljava/util/NavigableSet;->headSet(Ljava/lang/Object;Z)Ljava/util/NavigableSet;
@@ -503,7 +476,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/common/collect/t0;->w1(Ljava/lang/Object;)Ljava/util/SortedSet;
 
     move-result-object p1
@@ -514,7 +486,6 @@
 .method public toArray()[Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d0;->standardToArray()[Ljava/lang/Object;
 
     move-result-object v0
@@ -532,7 +503,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/common/collect/d0;->standardToArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -543,7 +513,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d0;->standardToString()Ljava/lang/String;
 
     move-result-object v0

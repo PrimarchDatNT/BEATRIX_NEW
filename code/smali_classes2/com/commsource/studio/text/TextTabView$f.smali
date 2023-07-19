@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTabView$f;->b:I
 
     const-string v2, "mViewBinding.viewBg"
@@ -69,12 +68,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-virtual {v1, v9}, Lcom/commsource/studio/text/TextTabView;->setSelectPos(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -91,7 +88,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -108,7 +104,6 @@
 
     invoke-virtual {v1, v7}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -121,7 +116,6 @@
 
     invoke-virtual {v1, v5}, Landroid/view/ViewGroup;->setAlpha(F)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -134,7 +128,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->setAlpha(F)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -151,7 +144,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -175,7 +167,6 @@
     :cond_0
     if-ne v1, v10, :cond_1
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -192,7 +183,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -209,12 +199,10 @@
 
     invoke-virtual {v1, v7}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-virtual {v1, v10}, Lcom/commsource/studio/text/TextTabView;->setSelectPos(I)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -227,7 +215,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->setAlpha(F)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -240,7 +227,6 @@
 
     invoke-virtual {v1, v5}, Landroid/view/ViewGroup;->setAlpha(F)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -257,7 +243,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$f;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -286,7 +271,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 16
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

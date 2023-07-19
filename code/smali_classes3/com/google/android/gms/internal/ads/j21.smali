@@ -23,30 +23,22 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/on2;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/j21;->b:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/j21;->c:Lcom/google/android/gms/internal/ads/cn2;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/j21;->d:Lcom/google/android/gms/internal/ads/kh1;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
-    .line 6
     new-instance p2, Landroid/widget/FrameLayout;
 
     invoke-direct {p2, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    .line 7
     invoke-virtual {p2}, Landroid/view/ViewGroup;->removeAllViews()V
 
-    .line 8
     invoke-virtual {p4}, Lcom/google/android/gms/internal/ads/a20;->j()Landroid/view/View;
 
     move-result-object p1
@@ -61,7 +53,6 @@
 
     invoke-virtual {p2, p1, p3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/j21;->g4()Lcom/google/android/gms/internal/ads/zzvh;
 
     move-result-object p1
@@ -70,7 +61,6 @@
 
     invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->setMinimumHeight(I)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/j21;->g4()Lcom/google/android/gms/internal/ads/zzvh;
 
     move-result-object p1
@@ -79,7 +69,6 @@
 
     invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->setMinimumWidth(I)V
 
-    .line 11
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/j21;->g:Landroid/view/ViewGroup;
 
     return-void
@@ -97,7 +86,6 @@
 
     const-string p1, "setAdListener is not supported in Publisher AdView returned by AdLoader."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void
@@ -113,7 +101,6 @@
 
     const-string p1, "setManualImpressionsEnabled is not supported in Publisher AdView returned by AdLoader."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void
@@ -129,7 +116,6 @@
 
     const-string p1, "setVideoOptions is not supported in Publisher AdView returned by AdLoader."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void
@@ -145,7 +131,6 @@
 
     const-string p1, "setOnCustomRenderedAdLoadedListener is not supported in Publisher AdView returned by AdLoader."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void
@@ -161,7 +146,6 @@
 
     const-string p1, "loadAd is not supported for a Publisher AdView returned from AdLoader."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     const/4 p1, 0x0
@@ -190,15 +174,12 @@
 
     const-string v0, "setAdSize must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/j21;->g:Landroid/view/ViewGroup;
 
     invoke-virtual {v0, v1, p1}, Lcom/google/android/gms/internal/ads/a20;->h(Landroid/view/ViewGroup;Lcom/google/android/gms/internal/ads/zzvh;)V
@@ -215,7 +196,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->c:Lcom/google/android/gms/internal/ads/cn2;
 
     return-object v0
@@ -237,7 +217,6 @@
 
     const-string p1, "setOnPaidEventListener is not supported in Publisher AdView returned by AdLoader."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void
@@ -262,7 +241,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/a20;->m()V
@@ -280,7 +258,6 @@
 
     const-string p1, "setAdMetadataListener is not supported in Publisher AdView returned by AdLoader."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void
@@ -296,10 +273,8 @@
 
     const-string v0, "destroy must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/b40;->a()V
@@ -317,7 +292,6 @@
 
     const-string p1, "setAdClickListener is not supported in Publisher AdView returned by AdLoader."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void
@@ -331,7 +305,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/b40;->d()Lcom/google/android/gms/internal/ads/j70;
@@ -340,7 +313,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/b40;->d()Lcom/google/android/gms/internal/ads/j70;
@@ -364,15 +336,12 @@
 
     const-string v0, "getAdSize must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->b:Landroid/content/Context;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
-    .line 3
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/a20;->i()Lcom/google/android/gms/internal/ads/tg1;
 
     move-result-object v1
@@ -381,7 +350,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/nh1;->b(Landroid/content/Context;Ljava/util/List;)Lcom/google/android/gms/internal/ads/zzvh;
 
     move-result-object v0
@@ -397,7 +365,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->d:Lcom/google/android/gms/internal/ads/kh1;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/kh1;->f:Ljava/lang/String;
@@ -413,7 +380,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/a20;->g()Lcom/google/android/gms/internal/ads/dp2;
@@ -492,7 +458,6 @@
 
     const-string p1, "setAppEventListener is not supported in Publisher AdView returned by AdLoader."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void
@@ -501,7 +466,6 @@
 .method public final o()Lcom/google/android/gms/internal/ads/yo2;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/b40;->d()Lcom/google/android/gms/internal/ads/j70;
@@ -532,7 +496,6 @@
 
     const-string p1, "setCorrelationIdProvider is not supported in Publisher AdView returned by AdLoader."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void
@@ -559,10 +522,8 @@
 
     const-string v0, "destroy must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/b40;->c()Lcom/google/android/gms/internal/ads/j80;
@@ -586,10 +547,8 @@
 
     const-string v0, "getAdMetadata is not supported in Publisher AdView returned by AdLoader."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
@@ -605,7 +564,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->g:Landroid/view/ViewGroup;
 
     invoke-static {v0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
@@ -625,10 +583,8 @@
 
     const-string v0, "destroy must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/b40;->c()Lcom/google/android/gms/internal/ads/j80;
@@ -650,7 +606,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/b40;->d()Lcom/google/android/gms/internal/ads/j70;
@@ -659,7 +614,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->f:Lcom/google/android/gms/internal/ads/a20;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/b40;->d()Lcom/google/android/gms/internal/ads/j70;
@@ -686,7 +640,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j21;->d:Lcom/google/android/gms/internal/ads/kh1;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/kh1;->m:Lcom/google/android/gms/internal/ads/yn2;

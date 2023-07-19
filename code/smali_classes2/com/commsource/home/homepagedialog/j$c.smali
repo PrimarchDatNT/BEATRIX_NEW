@@ -42,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/j$c;->g:Lcom/commsource/home/homepagedialog/j;
 
     iput-object p2, p0, Lcom/commsource/home/homepagedialog/j$c;->p:Ljava/lang/String;
@@ -67,12 +66,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->t()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     sget-object v2, Lcom/commsource/beautyplus/router/i;->a:Lcom/commsource/beautyplus/router/i;
 
     iget-object v3, p0, Lcom/commsource/home/homepagedialog/j$c;->p:Ljava/lang/String;
@@ -81,7 +78,6 @@
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -104,10 +100,8 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->g(Ljava/lang/String;)Ljava/io/File;
 
-    .line 5
     new-instance v3, Lcotlin/jvm/internal/Ref$BooleanRef;
 
     invoke-direct {v3}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
@@ -116,22 +110,18 @@
 
     iput-boolean v5, v3, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    .line 6
     new-instance v5, Lcom/commsource/home/homepagedialog/j$c$e;
 
     invoke-direct {v5, p0, v3}, Lcom/commsource/home/homepagedialog/j$c$e;-><init>(Lcom/commsource/home/homepagedialog/j$c;Lcotlin/jvm/internal/Ref$BooleanRef;)V
 
-    .line 7
     new-instance v6, Lcom/commsource/home/homepagedialog/j$c$d;
 
     invoke-direct {v6, p0, v3, v1, v2}, Lcom/commsource/home/homepagedialog/j$c$d;-><init>(Lcom/commsource/home/homepagedialog/j$c;Lcotlin/jvm/internal/Ref$BooleanRef;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     new-instance v3, Lcom/commsource/material/download/b/b$b;
 
     invoke-direct {v3}, Lcom/commsource/material/download/b/b$b;-><init>()V
 
-    .line 9
     new-instance v14, Lcom/commsource/material/download/c/d;
 
     iget-object v8, p0, Lcom/commsource/home/homepagedialog/j$c;->p:Ljava/lang/String;
@@ -162,7 +152,6 @@
 
     invoke-direct/range {v7 .. v13}, Lcom/commsource/material/download/c/d;-><init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ILcotlin/jvm/internal/u;)V
 
-    .line 10
     sget-object v4, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v4}, Lcom/commsource/material/c;->b()Lcom/commsource/material/d;
@@ -171,19 +160,16 @@
 
     const/4 v7, 0x0
 
-    .line 11
     invoke-virtual {v3, v14, v4, v7}, Lcom/commsource/material/download/b/b$b;->a(Lcom/commsource/material/download/c/c;Lcom/commsource/material/d;Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b$b;
 
     move-result-object v3
 
-    .line 12
     new-instance v4, Lcom/commsource/home/homepagedialog/j$c$a;
 
     invoke-direct {v4, v1, v2, v6, v5}, Lcom/commsource/home/homepagedialog/j$c$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Runnable;Ljava/lang/Runnable;)V
 
     invoke-virtual {v3, v4}, Lcom/commsource/material/download/b/b$b;->c(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;
 
-    .line 13
     new-instance v1, Lcom/commsource/home/homepagedialog/j$c$b;
 
     invoke-direct {v1, v5, v6}, Lcom/commsource/home/homepagedialog/j$c$b;-><init>(Ljava/lang/Runnable;Ljava/lang/Runnable;)V
@@ -194,7 +180,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_0
     new-instance v1, Lcom/commsource/home/homepagedialog/j$c$c;
 
@@ -202,7 +187,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 15
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

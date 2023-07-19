@@ -46,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/Multimaps$UnmodifiableMultimap;-><init>(Lcom/google/common/collect/l1;)V
 
     return-void
@@ -64,7 +63,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-super {p0}, Lcom/google/common/collect/Multimaps$UnmodifiableMultimap;->delegate()Lcom/google/common/collect/l1;
 
     move-result-object v0
@@ -77,7 +75,6 @@
 .method public bridge synthetic delegate()Lcom/google/common/collect/l1;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Multimaps$UnmodifiableListMultimap;->delegate()Lcom/google/common/collect/i1;
 
     move-result-object v0
@@ -88,7 +85,6 @@
 .method public bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/Multimaps$UnmodifiableListMultimap;->delegate()Lcom/google/common/collect/i1;
 
     move-result-object v0
@@ -99,7 +95,6 @@
 .method public bridge synthetic get(Ljava/lang/Object;)Ljava/util/Collection;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Multimaps$UnmodifiableListMultimap;->get(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -117,7 +112,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/Multimaps$UnmodifiableListMultimap;->delegate()Lcom/google/common/collect/i1;
 
     move-result-object v0
@@ -136,7 +130,6 @@
 .method public bridge synthetic removeAll(Ljava/lang/Object;)Ljava/util/Collection;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Multimaps$UnmodifiableListMultimap;->removeAll(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -156,7 +149,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -167,7 +159,6 @@
 .method public bridge synthetic replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/Collection;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/Multimaps$UnmodifiableListMultimap;->replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p1
@@ -187,7 +178,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V

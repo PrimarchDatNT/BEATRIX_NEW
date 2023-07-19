@@ -30,18 +30,14 @@
 .method private constructor <init>(Lcom/google/firebase/firestore/util/AsyncQueue;Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;JLjava/lang/Runnable;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->e:Lcom/google/firebase/firestore/util/AsyncQueue;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->a:Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
-    .line 4
     iput-wide p3, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->b:J
 
-    .line 5
     iput-object p5, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->c:Ljava/lang/Runnable;
 
     return-void
@@ -50,7 +46,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/firestore/util/AsyncQueue;Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;JLjava/lang/Runnable;Lcom/google/firebase/firestore/util/AsyncQueue$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lcom/google/firebase/firestore/util/AsyncQueue$c;-><init>(Lcom/google/firebase/firestore/util/AsyncQueue;Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;JLjava/lang/Runnable;)V
 
     return-void
@@ -59,7 +54,6 @@
 .method static synthetic a(Lcom/google/firebase/firestore/util/AsyncQueue$c;)Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->a:Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
     return-object p0
@@ -68,7 +62,6 @@
 .method static synthetic b(Lcom/google/firebase/firestore/util/AsyncQueue$c;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/firebase/firestore/util/AsyncQueue$c;->i(J)V
 
     return-void
@@ -77,7 +70,6 @@
 .method static synthetic c(Lcom/google/firebase/firestore/util/AsyncQueue$c;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->b:J
 
     return-wide v0
@@ -94,20 +86,16 @@
 .method private f()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->e:Lcom/google/firebase/firestore/util/AsyncQueue;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/util/AsyncQueue;->z()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->d:Ljava/util/concurrent/ScheduledFuture;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/google/firebase/firestore/util/AsyncQueue$c;->g()V
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->c:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
@@ -119,7 +107,6 @@
 .method private g()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->d:Ljava/util/concurrent/ScheduledFuture;
 
     const/4 v1, 0x0
@@ -142,10 +129,8 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->d:Ljava/util/concurrent/ScheduledFuture;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->e:Lcom/google/firebase/firestore/util/AsyncQueue;
 
     invoke-static {v0, p0}, Lcom/google/firebase/firestore/util/AsyncQueue;->b(Lcom/google/firebase/firestore/util/AsyncQueue;Lcom/google/firebase/firestore/util/AsyncQueue$c;)V
@@ -156,7 +141,6 @@
 .method private i(J)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->e:Lcom/google/firebase/firestore/util/AsyncQueue;
 
     invoke-static {v0}, Lcom/google/firebase/firestore/util/AsyncQueue;->a(Lcom/google/firebase/firestore/util/AsyncQueue;)Ljava/util/concurrent/ScheduledThreadPoolExecutor;
@@ -183,22 +167,18 @@
 .method public e()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->e:Lcom/google/firebase/firestore/util/AsyncQueue;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/util/AsyncQueue;->z()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$c;->d:Ljava/util/concurrent/ScheduledFuture;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-interface {v0, v1}, Ljava/util/concurrent/ScheduledFuture;->cancel(Z)Z
 
-    .line 4
     invoke-direct {p0}, Lcom/google/firebase/firestore/util/AsyncQueue$c;->g()V
 
     :cond_0
@@ -208,7 +188,6 @@
 .method h()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/util/AsyncQueue$c;->f()V
 
     return-void

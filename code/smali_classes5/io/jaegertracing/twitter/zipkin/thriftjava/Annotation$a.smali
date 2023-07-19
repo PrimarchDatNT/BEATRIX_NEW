@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/jaegertracing/twitter/zipkin/thriftjava/Annotation$_Fields;->values()[Lio/jaegertracing/twitter/zipkin/thriftjava/Annotation$_Fields;
 
     move-result-object v0

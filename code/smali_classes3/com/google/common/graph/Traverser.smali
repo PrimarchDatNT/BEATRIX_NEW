@@ -29,7 +29,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,7 +37,6 @@
 .method synthetic constructor <init>(Lcom/google/common/graph/Traverser$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/graph/Traverser;-><init>()V
 
     return-void
@@ -58,10 +56,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/graph/Traverser$b;
 
     invoke-direct {v0, p0}, Lcom/google/common/graph/Traverser$b;-><init>(Lcom/google/common/graph/n0;)V
@@ -83,15 +79,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     instance-of v0, p0, Lcom/google/common/graph/h;
 
     if-eqz v0, :cond_0
 
-    .line 3
     move-object v0, p0
 
     check-cast v0, Lcom/google/common/graph/h;
@@ -104,13 +97,11 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 4
     :cond_0
     instance-of v0, p0, Lcom/google/common/graph/e0;
 
     if-eqz v0, :cond_1
 
-    .line 5
     move-object v0, p0
 
     check-cast v0, Lcom/google/common/graph/e0;
@@ -123,7 +114,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 6
     :cond_1
     new-instance v0, Lcom/google/common/graph/Traverser$c;
 

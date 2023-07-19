@@ -63,27 +63,20 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/mopub/mobileads/AdAdapter;->mIsReady:Z
 
-    .line 3
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 6
     iput-object p1, p0, Lcom/mopub/mobileads/AdAdapter;->mContext:Landroid/content/Context;
 
-    .line 7
     new-instance p1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -94,10 +87,8 @@
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
-    .line 8
     iput-object p3, p0, Lcom/mopub/mobileads/AdAdapter;->mAdData:Lcom/mopub/mobileads/AdData;
 
-    .line 9
     new-instance p1, Lcom/mopub/mobileads/d;
 
     invoke-direct {p1, p0}, Lcom/mopub/mobileads/d;-><init>(Lcom/mopub/mobileads/AdAdapter;)V
@@ -110,7 +101,6 @@
 .method private synthetic a()V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v1, 0x2
@@ -131,10 +121,8 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0, v2}, Lcom/mopub/mobileads/AdAdapter;->onAdLoadFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/mopub/mobileads/b0;
@@ -149,12 +137,10 @@
 .method private synthetic c()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;->onAdClicked()V
 
     :cond_0
@@ -164,7 +150,6 @@
 .method private cancelTimeout()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/mopub/mobileads/AdAdapter;->mTimeout:Ljava/lang/Runnable;
@@ -177,12 +162,10 @@
 .method private synthetic e()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$InlineInteractionListener;->onAdCollapsed()V
 
     :cond_0
@@ -196,12 +179,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/AdLifecycleListener$FullscreenInteractionListener;->onAdComplete(Lcom/mopub/common/MoPubReward;)V
 
     :cond_0
@@ -211,7 +192,6 @@
 .method private getTimeoutDelayMilliseconds()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mAdData:Lcom/mopub/mobileads/AdData;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdData;->getTimeoutDelayMillis()I
@@ -224,12 +204,10 @@
 .method private synthetic i()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$FullscreenInteractionListener;->onAdDismissed()V
 
     :cond_0
@@ -239,12 +217,10 @@
 .method private synthetic k()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$InlineInteractionListener;->onAdExpanded()V
 
     :cond_0
@@ -258,12 +234,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;->onAdFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :cond_0
@@ -273,27 +247,22 @@
 .method private synthetic o()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mBaseAd:Lcom/mopub/mobileads/BaseAd;
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/BaseAd;->isAutomaticImpressionAndClickTrackingEnabled()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1}, Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;->onAdImpression()V
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Lcom/mopub/mobileads/BaseAd;->trackMpxAndThirdPartyImpressions()V
 
@@ -308,12 +277,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mLoadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;->onAdLoadFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :cond_0
@@ -323,12 +290,10 @@
 .method private synthetic s()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mLoadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;->onAdLoaded()V
 
     :cond_0
@@ -338,12 +303,10 @@
 .method private synthetic u()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$InlineInteractionListener;->onAdPauseAutoRefresh()V
 
     :cond_0
@@ -353,12 +316,10 @@
 .method private synthetic w()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$InlineInteractionListener;->onAdResumeAutoRefresh()V
 
     :cond_0
@@ -368,40 +329,33 @@
 .method private synthetic y()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;->onAdShown()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mBaseAd:Lcom/mopub/mobileads/BaseAd;
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {v0}, Lcom/mopub/mobileads/BaseAd;->isAutomaticImpressionAndClickTrackingEnabled()Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-interface {v1}, Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;->onAdImpression()V
 
     :cond_2
     if-eqz v0, :cond_3
 
-    .line 7
     invoke-virtual {v0}, Lcom/mopub/mobileads/BaseAd;->trackMpxAndThirdPartyImpressions()V
 
     :cond_3
@@ -440,7 +394,6 @@
 .method protected getAdNetworkId()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mBaseAd:Lcom/mopub/mobileads/BaseAd;
 
     if-eqz v0, :cond_0
@@ -463,7 +416,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mBaseAd:Lcom/mopub/mobileads/BaseAd;
 
     if-eqz v0, :cond_0
@@ -496,34 +448,26 @@
 .method invalidate()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdAdapter;->doInvalidate()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mBaseAd:Lcom/mopub/mobileads/BaseAd;
 
-    .line 3
     iput-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mContext:Landroid/content/Context;
 
-    .line 4
     iput-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mAdData:Lcom/mopub/mobileads/AdData;
 
-    .line 5
     iput-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mLoadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
-    .line 6
     iput-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     const/4 v0, 0x1
 
-    .line 7
     iput-boolean v0, p0, Lcom/mopub/mobileads/AdAdapter;->mInvalidated:Z
 
     const/4 v0, 0x0
 
-    .line 8
     iput-boolean v0, p0, Lcom/mopub/mobileads/AdAdapter;->mIsReady:Z
 
     return-void
@@ -532,7 +476,6 @@
 .method protected isAutomaticImpressionAndClickTrackingEnabled()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mBaseAd:Lcom/mopub/mobileads/BaseAd;
 
     if-nez v0, :cond_0
@@ -541,7 +484,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lcom/mopub/mobileads/BaseAd;->isAutomaticImpressionAndClickTrackingEnabled()Z
 
@@ -553,7 +495,6 @@
 .method isInvalidated()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/AdAdapter;->mInvalidated:Z
 
     return v0
@@ -562,7 +503,6 @@
 .method public isReady()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/AdAdapter;->mIsReady:Z
 
     return v0
@@ -591,10 +531,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->LOAD_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v1, 0x0
@@ -603,7 +541,6 @@
 
     invoke-static {v0, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdAdapter;->isInvalidated()Z
 
     move-result v0
@@ -616,11 +553,9 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iput-object p1, p0, Lcom/mopub/mobileads/AdAdapter;->mLoadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
-    .line 5
     iget-object p1, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mTimeout:Ljava/lang/Runnable;
@@ -633,7 +568,6 @@
 
     invoke-virtual {p1, v0, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 6
     :try_start_0
     iget-object p1, p0, Lcom/mopub/mobileads/AdAdapter;->mBaseAd:Lcom/mopub/mobileads/BaseAd;
 
@@ -647,7 +581,6 @@
 
     goto :goto_0
 
-    .line 7
     :catch_0
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
@@ -657,7 +590,6 @@
 
     sget-object v2, Lcom/mopub/mobileads/MoPubErrorCode;->INTERNAL_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 8
     invoke-virtual {v2}, Lcom/mopub/mobileads/MoPubErrorCode;->getIntCode()I
 
     move-result v3
@@ -672,10 +604,8 @@
 
     aput-object v2, v0, v1
 
-    .line 9
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 10
     invoke-virtual {p0, v2}, Lcom/mopub/mobileads/AdAdapter;->onAdLoadFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :cond_1
@@ -694,7 +624,6 @@
 .method public onAdClicked()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdAdapter;->isInvalidated()Z
 
     move-result v0
@@ -703,7 +632,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
@@ -719,7 +647,6 @@
 .method public onAdCollapsed()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdAdapter;->isInvalidated()Z
 
     move-result v0
@@ -728,7 +655,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
@@ -748,7 +674,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdAdapter;->isInvalidated()Z
 
     move-result v0
@@ -757,7 +682,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
@@ -773,7 +697,6 @@
 .method public onAdDismissed()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdAdapter;->isInvalidated()Z
 
     move-result v0
@@ -782,7 +705,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
@@ -798,7 +720,6 @@
 .method public onAdExpanded()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdAdapter;->isInvalidated()Z
 
     move-result v0
@@ -807,7 +728,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
@@ -827,10 +747,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdAdapter;->isInvalidated()Z
 
     move-result v0
@@ -839,11 +757,9 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/mopub/mobileads/AdAdapter;->cancelTimeout()V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/mopub/mobileads/k;
@@ -858,7 +774,6 @@
 .method public onAdImpression()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdAdapter;->isInvalidated()Z
 
     move-result v0
@@ -867,7 +782,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
@@ -887,10 +801,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdAdapter;->isInvalidated()Z
 
     move-result v0
@@ -899,11 +811,9 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/mopub/mobileads/AdAdapter;->cancelTimeout()V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/mopub/mobileads/l;
@@ -918,7 +828,6 @@
 .method public onAdLoaded()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdAdapter;->isInvalidated()Z
 
     move-result v0
@@ -927,7 +836,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->LOAD_SUCCESS:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
@@ -939,13 +847,10 @@
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/mopub/mobileads/AdAdapter;->mIsReady:Z
 
-    .line 4
     invoke-direct {p0}, Lcom/mopub/mobileads/AdAdapter;->cancelTimeout()V
 
-    .line 5
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/mopub/mobileads/f;
@@ -960,7 +865,6 @@
 .method public onAdPauseAutoRefresh()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/mopub/mobileads/g;
@@ -975,7 +879,6 @@
 .method public onAdResumeAutoRefresh()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/mopub/mobileads/i;
@@ -990,7 +893,6 @@
 .method public onAdShown()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdAdapter;->isInvalidated()Z
 
     move-result v0
@@ -999,7 +901,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/AdAdapter;->mMainHandler:Landroid/os/Handler;
 
@@ -1035,10 +936,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/mobileads/AdAdapter;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     return-void
@@ -1053,10 +952,8 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/mobileads/AdAdapter;->mLoadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
     return-void

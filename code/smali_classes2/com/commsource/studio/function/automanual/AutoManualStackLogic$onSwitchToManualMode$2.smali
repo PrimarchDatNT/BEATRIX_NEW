@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -75,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->e()Lcom/commsource/studio/function/automanual/a;
@@ -84,7 +82,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->d()Lcom/commsource/studio/d;
@@ -103,7 +100,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->d()Lcom/commsource/studio/d;
@@ -116,10 +112,8 @@
 
     const/4 v4, 0x1
 
-    .line 5
     invoke-virtual {v3, v4}, Lcom/commsource/studio/e;->l(Z)V
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {v4}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c()Lcom/commsource/studio/effect/c;
@@ -136,10 +130,8 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/e;->n(Landroid/util/SparseIntArray;)V
 
-    .line 7
     invoke-virtual {v2, v3}, Lcom/commsource/studio/e0;->l(Ljava/lang/Object;)V
 
-    .line 8
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
@@ -149,7 +141,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/studio/function/automanual/a;->c()Lcom/commsource/studio/processor/BaseEffectProcessor;
 
     move-result-object v1
@@ -162,10 +153,8 @@
 
     const/4 v1, 0x0
 
-    .line 10
     invoke-virtual {v2, v1}, Lcom/commsource/studio/function/automanual/d;->a(Lcom/commsource/studio/e;)V
 
-    .line 11
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->$action:Lcotlin/jvm/u/a;
 
@@ -177,7 +166,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 12
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

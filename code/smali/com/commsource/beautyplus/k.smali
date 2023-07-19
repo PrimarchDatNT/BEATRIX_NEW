@@ -39,17 +39,14 @@
 .method private constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautyplus/k;->a:Ljava/lang/StringBuilder;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -58,20 +55,16 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput v0, p0, Lcom/commsource/beautyplus/k;->d:I
 
-    .line 5
     iput v0, p0, Lcom/commsource/beautyplus/k;->f:I
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/commsource/beautyplus/k;->g:J
 
-    .line 7
     iput-boolean v0, p0, Lcom/commsource/beautyplus/k;->p:Z
 
     return-void
@@ -84,30 +77,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/k;->J:Lcom/commsource/beautyplus/k;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/beautyplus/k;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/beautyplus/k;->J:Lcom/commsource/beautyplus/k;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/beautyplus/k;
 
     invoke-direct {v2}, Lcom/commsource/beautyplus/k;-><init>()V
 
     sput-object v2, Lcom/commsource/beautyplus/k;->J:Lcom/commsource/beautyplus/k;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -124,7 +112,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/beautyplus/k;->J:Lcom/commsource/beautyplus/k;
@@ -141,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
@@ -150,7 +136,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
@@ -178,7 +163,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -191,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
@@ -200,7 +183,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
@@ -228,7 +210,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -241,7 +222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -258,10 +238,8 @@
 
     const-string/jumbo v3, "time"
 
-    .line 2
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -278,7 +256,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     iget-object v2, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
@@ -288,7 +265,6 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -307,7 +283,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-virtual {v2}, Landroid/app/Activity;->finish()V
 
@@ -316,13 +291,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -335,7 +308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
@@ -346,12 +318,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
@@ -379,14 +349,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     const-string v2, "MM-dd HH:mm:ss"
 
     invoke-direct {v1, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance v2, Ljava/util/Date;
 
     invoke-direct {v2}, Ljava/util/Date;-><init>()V
@@ -407,7 +375,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
@@ -426,7 +393,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
@@ -456,7 +422,6 @@
     :goto_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -469,7 +434,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
@@ -488,7 +452,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/k;->b:Landroid/app/Activity;
 
     invoke-static {v1}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
@@ -499,15 +462,12 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/beautyplus/k;->b:Landroid/app/Activity;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/k;->b:Landroid/app/Activity;
 
@@ -523,7 +483,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
     new-instance v1, Ljava/lang/ref/WeakReference;
@@ -532,20 +491,16 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/beautyplus/k;->b:Landroid/app/Activity;
 
-    .line 3
     instance-of p1, p1, Lcom/commsource/studio/ImageStudioActivity;
 
     if-eqz p1, :cond_0
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/beautyplus/k;->p:Z
 
-    .line 5
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -563,7 +518,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :goto_0
     iget-object v3, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
@@ -573,7 +527,6 @@
 
     if-ge v2, v3, :cond_1
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v3, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -590,7 +543,6 @@
 
     if-ne v3, p1, :cond_0
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/beautyplus/k;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v3, v2}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
@@ -602,17 +554,14 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     :goto_1
     instance-of p1, p1, Lcom/commsource/studio/ImageStudioActivity;
 
     if-eqz p1, :cond_2
 
-    .line 5
     iput-boolean v1, p0, Lcom/commsource/beautyplus/k;->p:Z
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -626,7 +575,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -639,10 +587,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/k;->b:Landroid/app/Activity;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -655,7 +601,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -668,7 +613,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/k;->d:I
 
     const/4 v2, 0x0
@@ -684,7 +628,6 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 2
     :goto_0
     iget v5, p0, Lcom/commsource/beautyplus/k;->f:I
 
@@ -692,7 +635,6 @@
 
     add-int/2addr v5, v3
 
-    .line 3
     iput v5, p0, Lcom/commsource/beautyplus/k;->f:I
 
     goto :goto_1
@@ -700,13 +642,11 @@
     :cond_1
     add-int/2addr v1, v3
 
-    .line 4
     iput v1, p0, Lcom/commsource/beautyplus/k;->d:I
 
     :goto_1
     if-eqz v4, :cond_2
 
-    .line 5
     iget-boolean v1, p0, Lcom/commsource/beautyplus/k;->p:Z
 
     if-eqz v1, :cond_2
@@ -718,7 +658,6 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 6
     :goto_2
     instance-of p1, p1, Lcom/commsource/studio/ImageStudioActivity;
 
@@ -737,14 +676,12 @@
 
     if-eqz p1, :cond_4
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/commsource/beautyplus/k;->g:J
 
-    .line 8
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -758,14 +695,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/app/Activity;->isChangingConfigurations()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget p1, p0, Lcom/commsource/beautyplus/k;->f:I
 
     add-int/lit8 p1, p1, -0x1
@@ -774,7 +709,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/commsource/beautyplus/k;->d:I
 
@@ -784,7 +718,6 @@
 
     if-gtz v1, :cond_1
 
-    .line 4
     iget-boolean v1, p0, Lcom/commsource/beautyplus/k;->p:Z
 
     if-eqz v1, :cond_3
@@ -793,18 +726,15 @@
 
     if-nez p1, :cond_3
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/beautyplus/k;->j()V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     instance-of p1, p1, Lcom/commsource/studio/ImageStudioActivity;
 
     if-eqz p1, :cond_3
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/beautyplus/k;->h()Z
 
     move-result p1
@@ -821,11 +751,9 @@
 
     if-eqz p1, :cond_3
 
-    .line 8
     :cond_2
     invoke-direct {p0}, Lcom/commsource/beautyplus/k;->j()V
 
-    .line 9
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

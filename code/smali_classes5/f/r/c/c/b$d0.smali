@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->values()[Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     move-result-object v0

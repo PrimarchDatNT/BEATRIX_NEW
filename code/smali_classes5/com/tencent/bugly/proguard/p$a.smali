@@ -56,15 +56,12 @@
 .method public constructor <init>(Lcom/tencent/bugly/proguard/p;ILcom/tencent/bugly/proguard/o;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/proguard/p$a;->T:Lcom/tencent/bugly/proguard/p;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
 
-    .line 2
     iput p2, p0, Lcom/tencent/bugly/proguard/p$a;->a:I
 
-    .line 3
     iput-object p3, p0, Lcom/tencent/bugly/proguard/p$a;->b:Lcom/tencent/bugly/proguard/o;
 
     return-void
@@ -75,13 +72,10 @@
 .method public final a(ILjava/lang/String;[B)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/tencent/bugly/proguard/p$a;->Q:I
 
-    .line 2
     iput-object p2, p0, Lcom/tencent/bugly/proguard/p$a;->R:Ljava/lang/String;
 
-    .line 3
     iput-object p3, p0, Lcom/tencent/bugly/proguard/p$a;->S:[B
 
     return-void
@@ -90,31 +84,22 @@
 .method public final b(ZLjava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/tencent/bugly/proguard/p$a;->f:Z
 
-    .line 2
     iput-object p2, p0, Lcom/tencent/bugly/proguard/p$a;->c:Ljava/lang/String;
 
-    .line 3
     iput-object p3, p0, Lcom/tencent/bugly/proguard/p$a;->g:[Ljava/lang/String;
 
-    .line 4
     iput-object p4, p0, Lcom/tencent/bugly/proguard/p$a;->p:Ljava/lang/String;
 
-    .line 5
     iput-object p5, p0, Lcom/tencent/bugly/proguard/p$a;->J:[Ljava/lang/String;
 
-    .line 6
     iput-object p6, p0, Lcom/tencent/bugly/proguard/p$a;->K:Ljava/lang/String;
 
-    .line 7
     iput-object p7, p0, Lcom/tencent/bugly/proguard/p$a;->L:Ljava/lang/String;
 
-    .line 8
     iput-object p8, p0, Lcom/tencent/bugly/proguard/p$a;->M:Ljava/lang/String;
 
-    .line 9
     iput-object p9, p0, Lcom/tencent/bugly/proguard/p$a;->N:Ljava/lang/String;
 
     return-void
@@ -125,14 +110,12 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     iget v1, v0, Lcom/tencent/bugly/proguard/p$a;->a:I
 
     packed-switch v1, :pswitch_data_0
 
     goto :goto_0
 
-    .line 2
     :pswitch_0
     iget-object v1, v0, Lcom/tencent/bugly/proguard/p$a;->T:Lcom/tencent/bugly/proguard/p;
 
@@ -146,7 +129,6 @@
 
     goto :goto_0
 
-    .line 3
     :pswitch_1
     iget-object v1, v0, Lcom/tencent/bugly/proguard/p$a;->T:Lcom/tencent/bugly/proguard/p;
 
@@ -158,7 +140,6 @@
 
     return-void
 
-    .line 4
     :pswitch_2
     iget-object v1, v0, Lcom/tencent/bugly/proguard/p$a;->T:Lcom/tencent/bugly/proguard/p;
 
@@ -174,7 +155,6 @@
 
     return-void
 
-    .line 5
     :pswitch_3
     iget-object v6, v0, Lcom/tencent/bugly/proguard/p$a;->T:Lcom/tencent/bugly/proguard/p;
 
@@ -206,12 +186,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
     return-void
 
-    .line 7
     :pswitch_4
     iget-object v1, v0, Lcom/tencent/bugly/proguard/p$a;->T:Lcom/tencent/bugly/proguard/p;
 
@@ -227,7 +205,6 @@
 
     return-void
 
-    .line 8
     :pswitch_5
     iget-object v1, v0, Lcom/tencent/bugly/proguard/p$a;->T:Lcom/tencent/bugly/proguard/p;
 

@@ -40,17 +40,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/bc0;-><init>(Ljava/util/Set;)V
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/t90;->c:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/t90;->b:Lcom/google/android/gms/internal/ads/ug1;
 
     return-void
@@ -59,10 +56,8 @@
 .method private final I0()V
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->S4:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -71,7 +66,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -86,7 +80,6 @@
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;->compareAndSet(ZZ)Z
 
     move-result v0
@@ -105,7 +98,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 5
     new-instance v0, Lcom/google/android/gms/internal/ads/s90;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/s90;-><init>(Lcom/google/android/gms/internal/ads/t90;)V
@@ -126,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/t90;->b:Lcom/google/android/gms/internal/ads/ug1;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/ug1;->X:Lcom/google/android/gms/internal/ads/zzvj;
@@ -139,7 +130,6 @@
 .method public final Z()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/t90;->b:Lcom/google/android/gms/internal/ads/ug1;
 
     iget v0, v0, Lcom/google/android/gms/internal/ads/ug1;->b:I
@@ -148,7 +138,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/t90;->I0()V
 
     :cond_0
@@ -158,7 +147,6 @@
 .method public final onAdImpression()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/t90;->b:Lcom/google/android/gms/internal/ads/ug1;
 
     iget v0, v0, Lcom/google/android/gms/internal/ads/ug1;->b:I
@@ -175,7 +163,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/t90;->I0()V
 

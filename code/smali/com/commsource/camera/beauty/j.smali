@@ -31,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +45,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/camera/beauty/j;->e(Z)Lcom/commsource/camera/beauty/j;
 
     move-result-object v1
@@ -63,33 +61,27 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/beauty/j;->c:Lcom/commsource/camera/beauty/j;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/camera/beauty/j;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/camera/beauty/j;->c:Lcom/commsource/camera/beauty/j;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/camera/beauty/j;
 
     invoke-direct {v2}, Lcom/commsource/camera/beauty/j;-><init>()V
 
     sput-object v2, Lcom/commsource/camera/beauty/j;->c:Lcom/commsource/camera/beauty/j;
 
-    .line 5
     invoke-static {p0}, Lcom/commsource/camera/beauty/j;->h(Z)V
 
-    .line 6
     :cond_0
     monitor-exit v1
 
@@ -106,7 +98,6 @@
 
     throw p0
 
-    .line 7
     :cond_1
     :goto_0
     sget-object p0, Lcom/commsource/camera/beauty/j;->c:Lcom/commsource/camera/beauty/j;
@@ -125,19 +116,16 @@
 
     if-nez p0, :cond_1
 
-    .line 1
     sget-object p0, Lcom/commsource/camera/beauty/j;->a:Ljava/util/List;
 
     if-nez p0, :cond_1
 
-    .line 2
     new-instance p0, Ljava/util/ArrayList;
 
     invoke-direct {p0}, Ljava/util/ArrayList;-><init>()V
 
     sput-object p0, Lcom/commsource/camera/beauty/j;->a:Ljava/util/List;
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p0
@@ -146,7 +134,6 @@
 
     move-result-object p0
 
-    .line 4
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -155,7 +142,6 @@
 
     const-string v1, ","
 
-    .line 5
     invoke-virtual {p0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v1
@@ -169,7 +155,6 @@
 
     aget-object v4, v1, v3
 
-    .line 6
     sget-object v5, Lcom/commsource/camera/beauty/j;->a:Ljava/util/List;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
@@ -182,7 +167,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -200,7 +184,6 @@
 
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 8
     :cond_1
     new-instance p0, Ljava/util/ArrayList;
 
@@ -208,7 +191,6 @@
 
     sput-object p0, Lcom/commsource/camera/beauty/j;->b:Ljava/util/List;
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -226,7 +208,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/beauty/j;->b:Ljava/util/List;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -239,7 +220,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/camera/beauty/j;->b:Ljava/util/List;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -248,7 +228,6 @@
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -276,15 +255,12 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/beauty/j;->b:Ljava/util/List;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -312,7 +288,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/beauty/j;->b:Ljava/util/List;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -325,7 +300,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/camera/beauty/j;->b:Ljava/util/List;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -338,7 +312,6 @@
 
     invoke-interface {v1, p1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -366,7 +339,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/beauty/j;->b:Ljava/util/List;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -400,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/beauty/j;->a:Ljava/util/List;
 
     if-eqz v1, :cond_0
@@ -446,7 +417,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -463,25 +433,21 @@
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 2
     sget-object v1, Lcom/commsource/camera/beauty/j;->a:Ljava/util/List;
 
     if-nez v1, :cond_0
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v1, Lcom/commsource/camera/beauty/j;->a:Ljava/util/List;
 
-    .line 4
     :cond_0
     sget-object v1, Lcom/commsource/camera/beauty/j;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 5
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -490,7 +456,6 @@
 
     const-string v1, ","
 
-    .line 6
     invoke-virtual {p2, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v1
@@ -504,7 +469,6 @@
 
     aget-object v4, v1, v3
 
-    .line 7
     sget-object v5, Lcom/commsource/camera/beauty/j;->a:Ljava/util/List;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
@@ -517,11 +481,9 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {p1, p2}, Lf/d/i/e;->E3(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

@@ -41,7 +41,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +53,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/f$c;->c:Lcom/bumptech/glide/request/d;
 
     return-object v0
@@ -121,7 +119,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/f$c;->c:Lcom/bumptech/glide/request/d;
 
     return-void
@@ -144,7 +141,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/f$c;->b:I
 
     iget v1, p0, Lcom/bumptech/glide/f$c;->a:I

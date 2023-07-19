@@ -24,10 +24,8 @@
 .method constructor <init>(Lcom/google/firebase/firestore/core/e0;Lcom/google/firebase/firestore/q;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -36,7 +34,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -51,38 +48,32 @@
 .method private F(Lcom/google/firebase/firestore/core/Filter;)V
     .locals 4
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/core/h0;
 
     if-eqz v0, :cond_4
 
-    .line 2
     move-object v0, p1
 
     check-cast v0, Lcom/google/firebase/firestore/core/h0;
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/h0;->g()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/e0;->r()Lcom/google/firebase/firestore/model/h;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/Filter;->c()Lcom/google/firebase/firestore/model/h;
 
     move-result-object p1
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-virtual {v0, p1}, Lcom/google/firebase/firestore/model/a;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -91,7 +82,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
@@ -101,7 +91,6 @@
 
     const/4 v3, 0x0
 
-    .line 8
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/h;->g()Ljava/lang/String;
 
     move-result-object v0
@@ -118,7 +107,6 @@
 
     const-string p1, "All where filters other than whereEqualTo() must be on the same field. But you have filters on \'%s\' and \'%s\'"
 
-    .line 9
     invoke-static {p1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -127,24 +115,20 @@
 
     throw v1
 
-    .line 10
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
-    .line 11
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/e0;->k()Lcom/google/firebase/firestore/model/h;
 
     move-result-object v0
 
     if-eqz v0, :cond_4
 
-    .line 12
     invoke-direct {p0, v0, p1}, Lcom/google/firebase/firestore/Query;->H(Lcom/google/firebase/firestore/model/h;Lcom/google/firebase/firestore/model/h;)V
 
     goto :goto_1
 
-    .line 13
     :cond_2
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/h0;->e()Lcom/google/firebase/firestore/core/Filter$Operator;
 
@@ -154,7 +138,6 @@
 
     if-ne p1, v0, :cond_4
 
-    .line 14
     iget-object p1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/e0;->p()Z
@@ -165,7 +148,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -183,14 +165,12 @@
 .method private G(Lcom/google/firebase/firestore/model/h;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/e0;->r()Lcom/google/firebase/firestore/model/h;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {v1}, Lcom/google/firebase/firestore/core/e0;->k()Lcom/google/firebase/firestore/model/h;
@@ -201,7 +181,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-direct {p0, p1, v0}, Lcom/google/firebase/firestore/Query;->H(Lcom/google/firebase/firestore/model/h;Lcom/google/firebase/firestore/model/h;)V
 
     :cond_0
@@ -211,7 +190,6 @@
 .method private H(Lcom/google/firebase/firestore/model/h;Lcom/google/firebase/firestore/model/h;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p1, p2}, Lcom/google/firebase/firestore/model/a;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -220,13 +198,11 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Lcom/google/firebase/firestore/model/h;->g()Ljava/lang/String;
 
     move-result-object p2
 
-    .line 3
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     const/4 v1, 0x3
@@ -243,7 +219,6 @@
 
     const/4 p2, 0x2
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/h;->g()Ljava/lang/String;
 
     move-result-object p1
@@ -252,7 +227,6 @@
 
     const-string p1, "Invalid query. You have an inequality where filter (whereLessThan(), whereGreaterThan(), etc.) on field \'%s\' and so you must also have \'%s\' as your first orderBy() field, but your first orderBy() is currently on field \'%s\' instead."
 
-    .line 5
     invoke-static {p1, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -271,47 +245,38 @@
 
     const-string v0, "Provided field path must not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Provided op must not be null."
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/firestore/k;->c()Lcom/google/firebase/firestore/model/h;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/h;->L()Z
 
     move-result v0
 
     if-eqz v0, :cond_7
 
-    .line 5
     sget-object v0, Lcom/google/firebase/firestore/core/Filter$Operator;->ARRAY_CONTAINS:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     if-eq p2, v0, :cond_6
 
-    .line 6
     instance-of v0, p3, Ljava/lang/String;
 
     if-eqz v0, :cond_4
 
-    .line 7
     check-cast p3, Ljava/lang/String;
 
-    .line 8
     invoke-virtual {p3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_3
 
-    .line 9
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/e0;->s()Z
@@ -330,7 +295,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -356,7 +320,6 @@
 
     throw p1
 
-    .line 11
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -375,14 +338,12 @@
 
     check-cast p3, Lcom/google/firebase/firestore/model/k;
 
-    .line 12
     invoke-static {p3}, Lcom/google/firebase/firestore/model/e;->w(Lcom/google/firebase/firestore/model/k;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    .line 13
     invoke-virtual {p0}, Lcom/google/firebase/firestore/Query;->p()Lcom/google/firebase/firestore/q;
 
     move-result-object v0
@@ -401,7 +362,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -419,7 +379,6 @@
 
     invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     invoke-virtual {p3}, Lcom/google/firebase/firestore/model/a;->D()I
 
     move-result p3
@@ -438,7 +397,6 @@
 
     throw p1
 
-    .line 16
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -448,16 +406,13 @@
 
     throw p1
 
-    .line 17
     :cond_4
     instance-of v0, p3, Lcom/google/firebase/firestore/h;
 
     if-eqz v0, :cond_5
 
-    .line 18
     check-cast p3, Lcom/google/firebase/firestore/h;
 
-    .line 19
     invoke-virtual {p0}, Lcom/google/firebase/firestore/Query;->p()Lcom/google/firebase/firestore/q;
 
     move-result-object v0
@@ -476,7 +431,6 @@
 
     goto :goto_1
 
-    .line 20
     :cond_5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -488,7 +442,6 @@
 
     invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 21
     invoke-static {p3}, Lcom/google/firebase/firestore/util/z;->o(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p3
@@ -503,7 +456,6 @@
 
     throw p1
 
-    .line 22
     :cond_6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -513,7 +465,6 @@
 
     throw p1
 
-    .line 23
     :cond_7
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->b:Lcom/google/firebase/firestore/q;
 
@@ -525,7 +476,6 @@
 
     move-result-object p3
 
-    .line 24
     :goto_1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/k;->c()Lcom/google/firebase/firestore/model/h;
 
@@ -535,10 +485,8 @@
 
     move-result-object p1
 
-    .line 25
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/Query;->F(Lcom/google/firebase/firestore/core/Filter;)V
 
-    .line 26
     new-instance p2, Lcom/google/firebase/firestore/Query;
 
     iget-object p3, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -573,17 +521,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p4}, Lcom/google/firebase/firestore/a0;->b(Lcom/google/firebase/firestore/Query;Lcom/google/firebase/firestore/i;)Lcom/google/firebase/firestore/i;
 
     move-result-object p4
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/core/f;
 
     invoke-direct {v0, p1, p4}, Lcom/google/firebase/firestore/core/f;-><init>(Ljava/util/concurrent/Executor;Lcom/google/firebase/firestore/i;)V
 
-    .line 3
     iget-object p1, p0, Lcom/google/firebase/firestore/Query;->b:Lcom/google/firebase/firestore/q;
 
     invoke-virtual {p1}, Lcom/google/firebase/firestore/q;->k()Lcom/google/firebase/firestore/core/y;
@@ -596,19 +541,16 @@
 
     move-result-object p1
 
-    .line 4
     new-instance p2, Lcom/google/firebase/firestore/core/b0;
 
     iget-object p4, p0, Lcom/google/firebase/firestore/Query;->b:Lcom/google/firebase/firestore/q;
 
-    .line 5
     invoke-virtual {p4}, Lcom/google/firebase/firestore/q;->k()Lcom/google/firebase/firestore/core/y;
 
     move-result-object p4
 
     invoke-direct {p2, p4, p1, v0}, Lcom/google/firebase/firestore/core/b0;-><init>(Lcom/google/firebase/firestore/core/y;Lcom/google/firebase/firestore/core/f0;Lcom/google/firebase/firestore/core/f;)V
 
-    .line 6
     invoke-static {p3, p2}, Lcom/google/firebase/firestore/core/ActivityScope;->a(Landroid/app/Activity;Lcom/google/firebase/firestore/w;)Lcom/google/firebase/firestore/w;
 
     move-result-object p1
@@ -621,27 +563,22 @@
 
     const-string v0, "Provided snapshot must not be null."
 
-    .line 1
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p2}, Lcom/google/firebase/firestore/DocumentSnapshot;->g()Z
 
     move-result v0
 
     if-eqz v0, :cond_4
 
-    .line 3
     invoke-virtual {p2}, Lcom/google/firebase/firestore/DocumentSnapshot;->x()Lcom/google/firebase/firestore/model/Document;
 
     move-result-object p1
 
-    .line 4
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/e0;->m()Ljava/util/List;
@@ -665,7 +602,6 @@
 
     check-cast v1, Lcom/google/firebase/firestore/core/OrderBy;
 
-    .line 6
     invoke-virtual {v1}, Lcom/google/firebase/firestore/core/OrderBy;->c()Lcom/google/firebase/firestore/model/h;
 
     move-result-object v2
@@ -678,7 +614,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 7
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->b:Lcom/google/firebase/firestore/q;
 
     invoke-virtual {v1}, Lcom/google/firebase/firestore/q;->m()Lcom/google/firebase/firestore/model/b;
@@ -697,7 +632,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {v1}, Lcom/google/firebase/firestore/core/OrderBy;->c()Lcom/google/firebase/firestore/model/h;
 
@@ -707,7 +641,6 @@
 
     move-result-object v2
 
-    .line 9
     instance-of v3, v2, Lcom/google/firebase/firestore/model/value/l;
 
     const-string v4, "Invalid query. You are trying to start or end a query using a document for which the field \'"
@@ -716,12 +649,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 10
     invoke-interface {p2, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 11
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -731,7 +662,6 @@
 
     invoke-virtual {p2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-virtual {v1}, Lcom/google/firebase/firestore/core/OrderBy;->c()Lcom/google/firebase/firestore/model/h;
 
     move-result-object p3
@@ -750,7 +680,6 @@
 
     throw p1
 
-    .line 13
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -760,7 +689,6 @@
 
     invoke-virtual {p2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     invoke-virtual {v1}, Lcom/google/firebase/firestore/core/OrderBy;->c()Lcom/google/firebase/firestore/model/h;
 
     move-result-object p3
@@ -779,7 +707,6 @@
 
     throw p1
 
-    .line 15
     :cond_3
     new-instance p1, Lcom/google/firebase/firestore/core/g;
 
@@ -787,7 +714,6 @@
 
     return-object p1
 
-    .line 16
     :cond_4
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
@@ -817,14 +743,12 @@
 .method private i(Ljava/lang/String;[Ljava/lang/Object;Z)Lcom/google/firebase/firestore/core/g;
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/e0;->i()Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     array-length v1, p2
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -833,30 +757,25 @@
 
     if-gt v1, v2, :cond_6
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     array-length v3, p2
 
     if-ge v2, v3, :cond_5
 
-    .line 5
     aget-object v3, p2, v2
 
-    .line 6
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Lcom/google/firebase/firestore/core/OrderBy;
 
-    .line 7
     invoke-virtual {v4}, Lcom/google/firebase/firestore/core/OrderBy;->c()Lcom/google/firebase/firestore/model/h;
 
     move-result-object v4
@@ -869,15 +788,12 @@
 
     if-eqz v4, :cond_4
 
-    .line 8
     instance-of v4, v3, Ljava/lang/String;
 
     if-eqz v4, :cond_3
 
-    .line 9
     check-cast v3, Ljava/lang/String;
 
-    .line 10
     iget-object v4, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {v4}, Lcom/google/firebase/firestore/core/e0;->s()Z
@@ -896,7 +812,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_0
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
@@ -928,7 +843,6 @@
 
     throw p2
 
-    .line 12
     :cond_1
     :goto_1
     iget-object v4, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -947,19 +861,16 @@
 
     check-cast v3, Lcom/google/firebase/firestore/model/k;
 
-    .line 13
     invoke-static {v3}, Lcom/google/firebase/firestore/model/e;->w(Lcom/google/firebase/firestore/model/k;)Z
 
     move-result v4
 
     if-eqz v4, :cond_2
 
-    .line 14
     invoke-static {v3}, Lcom/google/firebase/firestore/model/e;->n(Lcom/google/firebase/firestore/model/k;)Lcom/google/firebase/firestore/model/e;
 
     move-result-object v3
 
-    .line 15
     iget-object v4, p0, Lcom/google/firebase/firestore/Query;->b:Lcom/google/firebase/firestore/q;
 
     invoke-virtual {v4}, Lcom/google/firebase/firestore/q;->m()Lcom/google/firebase/firestore/model/b;
@@ -974,7 +885,6 @@
 
     goto :goto_2
 
-    .line 16
     :cond_2
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
@@ -1006,7 +916,6 @@
 
     throw p2
 
-    .line 17
     :cond_3
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
@@ -1038,7 +947,6 @@
 
     throw p2
 
-    .line 18
     :cond_4
     iget-object v4, p0, Lcom/google/firebase/firestore/Query;->b:Lcom/google/firebase/firestore/q;
 
@@ -1050,7 +958,6 @@
 
     move-result-object v3
 
-    .line 19
     invoke-interface {v1, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :goto_2
@@ -1058,7 +965,6 @@
 
     goto/16 :goto_0
 
-    .line 20
     :cond_5
     new-instance p1, Lcom/google/firebase/firestore/core/g;
 
@@ -1066,7 +972,6 @@
 
     return-object p1
 
-    .line 21
     :cond_6
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
@@ -1106,33 +1011,26 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/tasks/l;
 
     invoke-direct {v0}, Lcom/google/android/gms/tasks/l;-><init>()V
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/tasks/l;
 
     invoke-direct {v1}, Lcom/google/android/gms/tasks/l;-><init>()V
 
-    .line 3
     new-instance v2, Lcom/google/firebase/firestore/core/j$a;
 
     invoke-direct {v2}, Lcom/google/firebase/firestore/core/j$a;-><init>()V
 
     const/4 v3, 0x1
 
-    .line 4
     iput-boolean v3, v2, Lcom/google/firebase/firestore/core/j$a;->a:Z
 
-    .line 5
     iput-boolean v3, v2, Lcom/google/firebase/firestore/core/j$a;->b:Z
 
-    .line 6
     iput-boolean v3, v2, Lcom/google/firebase/firestore/core/j$a;->c:Z
 
-    .line 7
     sget-object v3, Lcom/google/firebase/firestore/util/q;->b:Ljava/util/concurrent/Executor;
 
     invoke-static {v0, v1, p1}, Lcom/google/firebase/firestore/z;->b(Lcom/google/android/gms/tasks/l;Lcom/google/android/gms/tasks/l;Lcom/google/firebase/firestore/Source;)Lcom/google/firebase/firestore/i;
@@ -1141,15 +1039,12 @@
 
     const/4 v4, 0x0
 
-    .line 8
     invoke-direct {p0, v3, v2, v4, p1}, Lcom/google/firebase/firestore/Query;->g(Ljava/util/concurrent/Executor;Lcom/google/firebase/firestore/core/j$a;Landroid/app/Activity;Lcom/google/firebase/firestore/i;)Lcom/google/firebase/firestore/w;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {v1, p1}, Lcom/google/android/gms/tasks/l;->c(Ljava/lang/Object;)V
 
-    .line 10
     invoke-virtual {v0}, Lcom/google/android/gms/tasks/l;->a()Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -1160,12 +1055,10 @@
 .method private static r(Lcom/google/firebase/firestore/MetadataChanges;)Lcom/google/firebase/firestore/core/j$a;
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/core/j$a;
 
     invoke-direct {v0}, Lcom/google/firebase/firestore/core/j$a;-><init>()V
 
-    .line 2
     sget-object v1, Lcom/google/firebase/firestore/MetadataChanges;->INCLUDE:Lcom/google/firebase/firestore/MetadataChanges;
 
     const/4 v2, 0x1
@@ -1191,11 +1084,9 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 3
     :goto_1
     iput-boolean v2, v0, Lcom/google/firebase/firestore/core/j$a;->b:Z
 
-    .line 4
     iput-boolean v3, v0, Lcom/google/firebase/firestore/core/j$a;->c:Z
 
     return-object v0
@@ -1208,7 +1099,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-interface {p1, v0, p3}, Lcom/google/firebase/firestore/i;->a(Ljava/lang/Object;Lcom/google/firebase/firestore/FirebaseFirestoreException;)V
 
     return-void
@@ -1230,17 +1120,14 @@
 
     const-string v2, "Got event without value or error set"
 
-    .line 2
     invoke-static {v1, v2, p3}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     new-instance p3, Lcom/google/firebase/firestore/c0;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->b:Lcom/google/firebase/firestore/q;
 
     invoke-direct {p3, p0, p2, v1}, Lcom/google/firebase/firestore/c0;-><init>(Lcom/google/firebase/firestore/Query;Lcom/google/firebase/firestore/core/ViewSnapshot;Lcom/google/firebase/firestore/q;)V
 
-    .line 4
     invoke-interface {p1, p3, v0}, Lcom/google/firebase/firestore/i;->a(Ljava/lang/Object;Lcom/google/firebase/firestore/FirebaseFirestoreException;)V
 
     return-void
@@ -1254,7 +1141,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/c0;
 
     new-instance v1, Lcom/google/firebase/firestore/Query;
@@ -1285,7 +1171,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 1
     invoke-virtual {p0, p4}, Lcom/google/android/gms/tasks/l;->b(Ljava/lang/Exception;)V
 
     return-void
@@ -1293,7 +1178,6 @@
     :cond_0
     const/4 p4, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/l;->a()Lcom/google/android/gms/tasks/k;
 
@@ -1305,10 +1189,8 @@
 
     check-cast p1, Lcom/google/firebase/firestore/w;
 
-    .line 3
     invoke-interface {p1}, Lcom/google/firebase/firestore/w;->remove()V
 
-    .line 4
     invoke-virtual {p3}, Lcom/google/firebase/firestore/c0;->j()Lcom/google/firebase/firestore/g0;
 
     move-result-object p1
@@ -1323,7 +1205,6 @@
 
     if-ne p2, p1, :cond_1
 
-    .line 5
     new-instance p1, Lcom/google/firebase/firestore/FirebaseFirestoreException;
 
     const-string p2, "Failed to get documents from server. (However, these documents may exist in the local cache. Run again without setting source to SERVER to retrieve the cached documents.)"
@@ -1336,7 +1217,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p0, p3}, Lcom/google/android/gms/tasks/l;->c(Ljava/lang/Object;)V
     :try_end_0
@@ -1349,7 +1229,6 @@
     :catch_0
     move-exception p0
 
-    .line 7
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object p1
@@ -1358,7 +1237,6 @@
 
     new-array p1, p4, [Ljava/lang/Object;
 
-    .line 8
     invoke-static {p0, v0, p1}, Lcom/google/firebase/firestore/util/b;->b(Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/AssertionError;
 
     move-result-object p0
@@ -1370,7 +1248,6 @@
 
     new-array p1, p4, [Ljava/lang/Object;
 
-    .line 9
     invoke-static {p0, v0, p1}, Lcom/google/firebase/firestore/util/b;->b(Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/AssertionError;
 
     move-result-object p0
@@ -1391,10 +1268,8 @@
 
     const-string v0, "Provided direction must not be null."
 
-    .line 1
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/e0;->o()Lcom/google/firebase/firestore/core/g;
@@ -1403,7 +1278,6 @@
 
     if-nez v0, :cond_2
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/e0;->h()Lcom/google/firebase/firestore/core/g;
@@ -1412,24 +1286,19 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/Query;->G(Lcom/google/firebase/firestore/model/h;)V
 
-    .line 5
     sget-object v0, Lcom/google/firebase/firestore/Query$Direction;->ASCENDING:Lcom/google/firebase/firestore/Query$Direction;
 
     if-ne p2, v0, :cond_0
 
-    .line 6
     sget-object p2, Lcom/google/firebase/firestore/core/OrderBy$Direction;->ASCENDING:Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
     goto :goto_0
 
-    .line 7
     :cond_0
     sget-object p2, Lcom/google/firebase/firestore/core/OrderBy$Direction;->DESCENDING:Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
-    .line 8
     :goto_0
     new-instance v0, Lcom/google/firebase/firestore/Query;
 
@@ -1449,7 +1318,6 @@
 
     return-object v0
 
-    .line 9
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1459,7 +1327,6 @@
 
     throw p1
 
-    .line 10
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1488,7 +1355,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/firestore/k;->b(Ljava/lang/String;)Lcom/google/firebase/firestore/k;
 
     move-result-object p1
@@ -1516,12 +1382,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, v0, p1, v1}, Lcom/google/firebase/firestore/Query;->h(Ljava/lang/String;Lcom/google/firebase/firestore/DocumentSnapshot;Z)Lcom/google/firebase/firestore/core/g;
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/Query;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -1549,12 +1413,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, v0, p1, v1}, Lcom/google/firebase/firestore/Query;->i(Ljava/lang/String;[Ljava/lang/Object;Z)Lcom/google/firebase/firestore/core/g;
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/Query;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -1586,12 +1448,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-direct {p0, v0, p1, v1}, Lcom/google/firebase/firestore/Query;->h(Ljava/lang/String;Lcom/google/firebase/firestore/DocumentSnapshot;Z)Lcom/google/firebase/firestore/core/g;
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/Query;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -1619,12 +1479,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-direct {p0, v0, p1, v1}, Lcom/google/firebase/firestore/Query;->i(Ljava/lang/String;[Ljava/lang/Object;Z)Lcom/google/firebase/firestore/core/g;
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/Query;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -1656,7 +1514,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/core/Filter$Operator;->ARRAY_CONTAINS:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     invoke-direct {p0, p1, v0, p2}, Lcom/google/firebase/firestore/Query;->Q(Lcom/google/firebase/firestore/k;Lcom/google/firebase/firestore/core/Filter$Operator;Ljava/lang/Object;)Lcom/google/firebase/firestore/Query;
@@ -1682,7 +1539,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/firestore/k;->b(Ljava/lang/String;)Lcom/google/firebase/firestore/k;
 
     move-result-object p1
@@ -1712,7 +1568,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/core/Filter$Operator;->EQUAL:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     invoke-direct {p0, p1, v0, p2}, Lcom/google/firebase/firestore/Query;->Q(Lcom/google/firebase/firestore/k;Lcom/google/firebase/firestore/core/Filter$Operator;Ljava/lang/Object;)Lcom/google/firebase/firestore/Query;
@@ -1738,7 +1593,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/firestore/k;->b(Ljava/lang/String;)Lcom/google/firebase/firestore/k;
 
     move-result-object p1
@@ -1768,7 +1622,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/core/Filter$Operator;->GREATER_THAN:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     invoke-direct {p0, p1, v0, p2}, Lcom/google/firebase/firestore/Query;->Q(Lcom/google/firebase/firestore/k;Lcom/google/firebase/firestore/core/Filter$Operator;Ljava/lang/Object;)Lcom/google/firebase/firestore/Query;
@@ -1794,7 +1647,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/firestore/k;->b(Ljava/lang/String;)Lcom/google/firebase/firestore/k;
 
     move-result-object p1
@@ -1824,7 +1676,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/core/Filter$Operator;->GREATER_THAN_OR_EQUAL:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     invoke-direct {p0, p1, v0, p2}, Lcom/google/firebase/firestore/Query;->Q(Lcom/google/firebase/firestore/k;Lcom/google/firebase/firestore/core/Filter$Operator;Ljava/lang/Object;)Lcom/google/firebase/firestore/Query;
@@ -1850,14 +1701,12 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/firestore/k;->b(Ljava/lang/String;)Lcom/google/firebase/firestore/k;
 
     move-result-object p1
 
     sget-object v0, Lcom/google/firebase/firestore/core/Filter$Operator;->GREATER_THAN_OR_EQUAL:Lcom/google/firebase/firestore/core/Filter$Operator;
 
-    .line 2
     invoke-direct {p0, p1, v0, p2}, Lcom/google/firebase/firestore/Query;->Q(Lcom/google/firebase/firestore/k;Lcom/google/firebase/firestore/core/Filter$Operator;Ljava/lang/Object;)Lcom/google/firebase/firestore/Query;
 
     move-result-object p1
@@ -1881,7 +1730,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/core/Filter$Operator;->LESS_THAN:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     invoke-direct {p0, p1, v0, p2}, Lcom/google/firebase/firestore/Query;->Q(Lcom/google/firebase/firestore/k;Lcom/google/firebase/firestore/core/Filter$Operator;Ljava/lang/Object;)Lcom/google/firebase/firestore/Query;
@@ -1907,7 +1755,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/firestore/k;->b(Ljava/lang/String;)Lcom/google/firebase/firestore/k;
 
     move-result-object p1
@@ -1937,7 +1784,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/core/Filter$Operator;->LESS_THAN_OR_EQUAL:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     invoke-direct {p0, p1, v0, p2}, Lcom/google/firebase/firestore/Query;->Q(Lcom/google/firebase/firestore/k;Lcom/google/firebase/firestore/core/Filter$Operator;Ljava/lang/Object;)Lcom/google/firebase/firestore/Query;
@@ -1963,7 +1809,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/firestore/k;->b(Ljava/lang/String;)Lcom/google/firebase/firestore/k;
 
     move-result-object p1
@@ -2004,7 +1849,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/MetadataChanges;->EXCLUDE:Lcom/google/firebase/firestore/MetadataChanges;
 
     invoke-virtual {p0, p1, v0, p2}, Lcom/google/firebase/firestore/Query;->b(Landroid/app/Activity;Lcom/google/firebase/firestore/MetadataChanges;Lcom/google/firebase/firestore/i;)Lcom/google/firebase/firestore/w;
@@ -2048,28 +1892,22 @@
 
     const-string v0, "Provided activity must not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Provided MetadataChanges value must not be null."
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Provided EventListener must not be null."
 
-    .line 3
     invoke-static {p3, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     sget-object v0, Lcom/google/firebase/firestore/util/q;->a:Ljava/util/concurrent/Executor;
 
-    .line 5
     invoke-static {p2}, Lcom/google/firebase/firestore/Query;->r(Lcom/google/firebase/firestore/MetadataChanges;)Lcom/google/firebase/firestore/core/j$a;
 
     move-result-object p2
 
-    .line 6
     invoke-direct {p0, v0, p2, p1, p3}, Lcom/google/firebase/firestore/Query;->g(Ljava/util/concurrent/Executor;Lcom/google/firebase/firestore/core/j$a;Landroid/app/Activity;Lcom/google/firebase/firestore/i;)Lcom/google/firebase/firestore/w;
 
     move-result-object p1
@@ -2099,7 +1937,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/MetadataChanges;->EXCLUDE:Lcom/google/firebase/firestore/MetadataChanges;
 
     invoke-virtual {p0, v0, p1}, Lcom/google/firebase/firestore/Query;->d(Lcom/google/firebase/firestore/MetadataChanges;Lcom/google/firebase/firestore/i;)Lcom/google/firebase/firestore/w;
@@ -2136,7 +1973,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/util/q;->a:Ljava/util/concurrent/Executor;
 
     invoke-virtual {p0, v0, p1, p2}, Lcom/google/firebase/firestore/Query;->f(Ljava/util/concurrent/Executor;Lcom/google/firebase/firestore/MetadataChanges;Lcom/google/firebase/firestore/i;)Lcom/google/firebase/firestore/w;
@@ -2173,7 +2009,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/MetadataChanges;->EXCLUDE:Lcom/google/firebase/firestore/MetadataChanges;
 
     invoke-virtual {p0, p1, v0, p2}, Lcom/google/firebase/firestore/Query;->f(Ljava/util/concurrent/Executor;Lcom/google/firebase/firestore/MetadataChanges;Lcom/google/firebase/firestore/i;)Lcom/google/firebase/firestore/w;
@@ -2192,7 +2027,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/firebase/firestore/Query;
 
@@ -2202,11 +2036,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/firestore/Query;
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
     iget-object v3, p1, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -2270,20 +2102,16 @@
 
     const-string v0, "Provided executor must not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Provided MetadataChanges value must not be null."
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Provided EventListener must not be null."
 
-    .line 3
     invoke-static {p3, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-static {p2}, Lcom/google/firebase/firestore/Query;->r(Lcom/google/firebase/firestore/MetadataChanges;)Lcom/google/firebase/firestore/core/j$a;
 
     move-result-object p2
@@ -2300,7 +2128,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/e0;->hashCode()I
@@ -2309,7 +2136,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->b:Lcom/google/firebase/firestore/q;
 
     invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
@@ -2337,12 +2163,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, v0, p1, v1}, Lcom/google/firebase/firestore/Query;->h(Ljava/lang/String;Lcom/google/firebase/firestore/DocumentSnapshot;Z)Lcom/google/firebase/firestore/core/g;
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/Query;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -2370,12 +2194,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, v0, p1, v1}, Lcom/google/firebase/firestore/Query;->i(Ljava/lang/String;[Ljava/lang/Object;Z)Lcom/google/firebase/firestore/core/g;
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/Query;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -2407,12 +2229,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-direct {p0, v0, p1, v1}, Lcom/google/firebase/firestore/Query;->h(Ljava/lang/String;Lcom/google/firebase/firestore/DocumentSnapshot;Z)Lcom/google/firebase/firestore/core/g;
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/Query;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -2440,12 +2260,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-direct {p0, v0, p1, v1}, Lcom/google/firebase/firestore/Query;->i(Ljava/lang/String;[Ljava/lang/Object;Z)Lcom/google/firebase/firestore/core/g;
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/Query;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -2478,7 +2296,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/Source;->DEFAULT:Lcom/google/firebase/firestore/Source;
 
     invoke-virtual {p0, v0}, Lcom/google/firebase/firestore/Query;->o(Lcom/google/firebase/firestore/Source;)Lcom/google/android/gms/tasks/k;
@@ -2507,22 +2324,18 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/Source;->CACHE:Lcom/google/firebase/firestore/Source;
 
     if-ne p1, v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/firebase/firestore/Query;->b:Lcom/google/firebase/firestore/q;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/firestore/q;->k()Lcom/google/firebase/firestore/core/y;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
 
-    .line 4
     invoke-virtual {p1, v0}, Lcom/google/firebase/firestore/core/y;->j(Lcom/google/firebase/firestore/core/e0;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -2533,14 +2346,12 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p1, v0, v1}, Lcom/google/android/gms/tasks/k;->n(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/c;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 6
     :cond_0
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/Query;->q(Lcom/google/firebase/firestore/Source;)Lcom/google/android/gms/tasks/k;
 
@@ -2557,7 +2368,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/Query;->b:Lcom/google/firebase/firestore/q;
 
     return-object v0
@@ -2577,7 +2387,6 @@
 
     if-lez v2, :cond_0
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/Query;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/Query;->a:Lcom/google/firebase/firestore/core/e0;
@@ -2592,7 +2401,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -2633,10 +2441,8 @@
 
     const-string v0, "Provided field path must not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/firestore/k;->c()Lcom/google/firebase/firestore/model/h;
 
     move-result-object p1
@@ -2668,10 +2474,8 @@
 
     const-string v0, "Provided field path must not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/firestore/k;->c()Lcom/google/firebase/firestore/model/h;
 
     move-result-object p1
@@ -2695,7 +2499,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/firestore/k;->b(Ljava/lang/String;)Lcom/google/firebase/firestore/k;
 
     move-result-object p1

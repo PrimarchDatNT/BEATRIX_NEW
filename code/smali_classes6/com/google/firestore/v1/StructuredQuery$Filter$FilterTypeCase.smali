@@ -46,7 +46,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
     const-string v1, "COMPOSITE_FILTER"
@@ -59,7 +58,6 @@
 
     sput-object v0, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->COMPOSITE_FILTER:Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
-    .line 2
     new-instance v1, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
     const-string v4, "FIELD_FILTER"
@@ -70,7 +68,6 @@
 
     sput-object v1, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->FIELD_FILTER:Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
-    .line 3
     new-instance v4, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
     const-string v6, "UNARY_FILTER"
@@ -81,7 +78,6 @@
 
     sput-object v4, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->UNARY_FILTER:Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
-    .line 4
     new-instance v6, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
     const-string v8, "FILTERTYPE_NOT_SET"
@@ -102,7 +98,6 @@
 
     aput-object v6, v8, v7
 
-    .line 5
     sput-object v8, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->$VALUES:[Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
     return-void
@@ -116,10 +111,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->value:I
 
     return-void
@@ -146,25 +139,21 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->UNARY_FILTER:Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->FIELD_FILTER:Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->COMPOSITE_FILTER:Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
     return-object p0
 
-    .line 4
     :cond_3
     sget-object p0, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->FILTERTYPE_NOT_SET:Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
@@ -176,7 +165,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->forNumber(I)Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
     move-result-object p0
@@ -187,7 +175,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -202,7 +189,6 @@
 .method public static values()[Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->$VALUES:[Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
     invoke-virtual {v0}, [Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->clone()Ljava/lang/Object;
@@ -219,7 +205,6 @@
 .method public getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->value:I
 
     return v0

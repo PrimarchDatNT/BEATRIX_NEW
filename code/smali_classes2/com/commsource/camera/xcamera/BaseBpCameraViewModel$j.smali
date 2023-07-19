@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$j;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-direct {p0}, Lcom/meitu/library/n/a/p/b$e;-><init>()V
@@ -53,10 +52,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/meitu/library/n/a/p/b$e;->b(Landroid/graphics/Bitmap;ILcom/meitu/library/n/a/s/a$b;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$j;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->E(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)Lcom/meitu/library/n/a/p/b$e;
@@ -67,7 +64,6 @@
 
     invoke-virtual {v1, p1, p2, p3}, Lcom/meitu/library/n/a/p/b$e;->b(Landroid/graphics/Bitmap;ILcom/meitu/library/n/a/s/a$b;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -89,10 +85,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/meitu/library/n/a/p/b$e;->d(Landroid/graphics/Bitmap;ILcom/meitu/library/n/a/s/a$b;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$j;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->E(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)Lcom/meitu/library/n/a/p/b$e;
@@ -103,7 +97,6 @@
 
     invoke-virtual {v1, p1, p2, p3}, Lcom/meitu/library/n/a/p/b$e;->d(Landroid/graphics/Bitmap;ILcom/meitu/library/n/a/s/a$b;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

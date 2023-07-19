@@ -25,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/app/DialogFragment;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/DialogFragment;->getActivity()Landroid/app/Activity;
 
     move-result-object v0
@@ -53,7 +51,6 @@
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/DialogFragment;->getActivity()Landroid/app/Activity;
 
     move-result-object p1

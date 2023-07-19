@@ -20,13 +20,10 @@
 .method public constructor <init>([B)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/cg2;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     array-length v0, p1
 
     if-lez v0, :cond_0
@@ -41,7 +38,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/cg2;->a(Z)V
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/pf2;->a:[B
 
     return-void
@@ -57,19 +53,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p1, Lcom/google/android/gms/internal/ads/sf2;->a:Landroid/net/Uri;
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/pf2;->b:Landroid/net/Uri;
 
-    .line 2
     iget-wide v0, p1, Lcom/google/android/gms/internal/ads/sf2;->d:J
 
     long-to-int v2, v0
 
     iput v2, p0, Lcom/google/android/gms/internal/ads/pf2;->c:I
 
-    .line 3
     iget-wide v3, p1, Lcom/google/android/gms/internal/ads/sf2;->e:J
 
     const-wide/16 v5, -0x1
@@ -78,7 +71,6 @@
 
     if-nez v7, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/pf2;->a:[B
 
     array-length v3, v3
@@ -96,7 +88,6 @@
 
     add-int/2addr v2, v0
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/pf2;->a:[B
 
     array-length v1, v1
@@ -107,7 +98,6 @@
 
     return-wide v0
 
-    .line 6
     :cond_1
     new-instance v0, Ljava/io/IOException;
 
@@ -162,7 +152,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/pf2;->b:Landroid/net/Uri;
 
     return-void
@@ -171,7 +160,6 @@
 .method public final getUri()Landroid/net/Uri;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pf2;->b:Landroid/net/Uri;
 
     return-object v0
@@ -191,7 +179,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     iget v0, p0, Lcom/google/android/gms/internal/ads/pf2;->d:I
 
@@ -201,27 +188,23 @@
 
     return p1
 
-    .line 2
     :cond_1
     invoke-static {p3, v0}, Ljava/lang/Math;->min(II)I
 
     move-result p3
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pf2;->a:[B
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/pf2;->c:I
 
     invoke-static {v0, v1, p1, p2, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 4
     iget p1, p0, Lcom/google/android/gms/internal/ads/pf2;->c:I
 
     add-int/2addr p1, p3
 
     iput p1, p0, Lcom/google/android/gms/internal/ads/pf2;->c:I
 
-    .line 5
     iget p1, p0, Lcom/google/android/gms/internal/ads/pf2;->d:I
 
     sub-int/2addr p1, p3

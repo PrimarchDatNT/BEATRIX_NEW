@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;->A()Ljava/util/concurrent/Executor;
 
@@ -75,7 +73,6 @@
 .method public final C()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;->A()Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -105,12 +102,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcotlinx/coroutines/p1;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/x2;
 
     invoke-direct {v0, p0, p3}, Lcotlinx/coroutines/x2;-><init>(Lcotlinx/coroutines/CoroutineDispatcher;Lcotlinx/coroutines/m;)V
@@ -129,12 +124,10 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-static {p3, v0}, Lcotlinx/coroutines/f2;->x(Lcotlinx/coroutines/m;Ljava/util/concurrent/Future;)V
 
     return-void
 
-    .line 4
     :cond_1
     sget-object v0, Lcotlinx/coroutines/r0;->P:Lcotlinx/coroutines/r0;
 
@@ -146,7 +139,6 @@
 .method public close()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;->A()Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -175,7 +167,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlinx/coroutines/p1;
 
     if-eqz v0, :cond_0
@@ -206,7 +197,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;->A()Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -238,7 +228,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/u0$a;->a(Lcotlinx/coroutines/u0;JLcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
@@ -255,12 +244,10 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcotlinx/coroutines/p1;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-direct {p0, p3, p1, p2, v0}, Lcotlinx/coroutines/p1;->E(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
@@ -275,7 +262,6 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 3
     new-instance p1, Lcotlinx/coroutines/e1;
 
     invoke-direct {p1, v0}, Lcotlinx/coroutines/e1;-><init>(Ljava/util/concurrent/Future;)V
@@ -298,7 +284,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;->A()Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -321,7 +306,6 @@
         .end annotation
     .end param
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;->A()Ljava/util/concurrent/Executor;
 
@@ -354,7 +338,6 @@
     :catch_0
     nop
 
-    .line 2
     invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object p1
@@ -363,7 +346,6 @@
 
     invoke-interface {p1}, Lcotlinx/coroutines/l3;->c()V
 
-    .line 3
     :cond_1
     sget-object p1, Lcotlinx/coroutines/r0;->P:Lcotlinx/coroutines/r0;
 

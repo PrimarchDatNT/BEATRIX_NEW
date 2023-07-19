@@ -64,24 +64,20 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->M:Ljava/util/ArrayList;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->N:Ljava/util/ArrayList;
 
-    .line 4
     invoke-static {}, Lcom/commsource/util/i0;->h()Z
 
     move-result v0
@@ -114,15 +110,12 @@
 
     new-array v0, v0, [F
 
-    .line 5
     iput-object v0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->V:[F
 
     const/high16 v0, 0x3f000000    # 0.5f
 
-    .line 6
     iput v0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->W:F
 
-    .line 7
     iput-boolean v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->X:Z
 
     return-void
@@ -135,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/DoodleProcessor;->d0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -150,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/DoodleProcessor;->e0()Z
 
     move-result p0
@@ -167,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->P:Lcom/commsource/studio/doodle/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -182,7 +172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->U:Lcom/commsource/studio/doodle/h;
 
     if-nez p0, :cond_0
@@ -204,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez p0, :cond_0
@@ -226,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->W:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -241,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->N:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -256,7 +242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->V:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -271,7 +256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->S:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -286,7 +270,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->R:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -301,7 +284,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->P:Lcom/commsource/studio/doodle/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -316,7 +298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->U:Lcom/commsource/studio/doodle/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -331,7 +312,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -346,7 +326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->W:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -361,7 +340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->R:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -376,7 +354,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/processor/DoodleProcessor;->v0(F)F
 
     move-result p0
@@ -393,7 +370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->M:Ljava/util/ArrayList;
 
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -419,7 +395,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 2
     invoke-virtual {v4}, Lcom/commsource/studio/doodle/i;->b()Lcom/commsource/studio/doodle/DoodleMaterial;
 
     move-result-object v4
@@ -448,7 +423,6 @@
 
     const/4 v3, 0x1
 
-    .line 3
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->U:Lcom/commsource/studio/doodle/h;
 
@@ -469,7 +443,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -482,7 +455,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->M:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
@@ -525,16 +497,13 @@
 
     if-eqz v1, :cond_0
 
-    .line 1
     invoke-virtual {v1, v6, v6, v5}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->MagicColorPenInit([FLjava/lang/String;I)Z
 
-    .line 2
     :cond_0
     invoke-static {v4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     new-instance v0, Lcom/meitu/core/magicpen/parser/PEXXmlParser;
 
@@ -542,7 +511,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 4
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -566,7 +534,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     new-instance v7, Ljava/io/FileInputStream;
 
@@ -584,7 +551,6 @@
     :catch_0
     move-exception v0
 
-    .line 6
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_0
@@ -592,7 +558,6 @@
     :catch_1
     move-exception v0
 
-    .line 7
     invoke-virtual {v0}, Lorg/xmlpull/v1/XmlPullParserException;->printStackTrace()V
 
     :goto_0
@@ -601,7 +566,6 @@
     :goto_1
     if-nez v0, :cond_3
 
-    .line 8
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -620,25 +584,21 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     invoke-static {v4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_3
     invoke-virtual {v0}, Lcom/meitu/core/magicpen/parser/PEXXmlParser$PEXEntity;->GetFloatBuffer()[F
 
     move-result-object v2
 
-    .line 11
     invoke-virtual {v0}, Lcom/meitu/core/magicpen/parser/PEXXmlParser$PEXEntity;->GetMaterialFileName()Ljava/lang/String;
 
     move-result-object v13
 
     if-eqz v3, :cond_5
 
-    .line 12
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -655,7 +615,6 @@
 
     move-result-object v15
 
-    .line 13
     invoke-static {v15}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v7
@@ -664,7 +623,6 @@
 
     const-string v7, "singleTexturePath"
 
-    .line 14
     invoke-static {v13, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v9, 0x0
@@ -697,14 +655,12 @@
 
     move-object v7, v13
 
-    .line 15
     invoke-static/range {v7 .. v12}, Lcotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result v5
 
     add-int/lit8 v5, v5, 0x1
 
-    .line 16
     invoke-virtual {v13, v5}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v5
@@ -713,7 +669,6 @@
 
     invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 17
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -733,19 +688,16 @@
     :cond_4
     move-object v13, v15
 
-    .line 18
     :cond_5
     :goto_2
     invoke-virtual {v0}, Lcom/meitu/core/magicpen/parser/PEXXmlParser$PEXEntity;->GetType()I
 
     move-result v0
 
-    .line 19
     invoke-virtual {v1, v2, v13, v0}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->MagicColorPenInit([FLjava/lang/String;I)Z
 
     move-result v0
 
-    .line 20
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -766,7 +718,6 @@
 
     invoke-static {v0, v2, v6, v1, v6}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 21
     invoke-static {v4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -779,7 +730,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/parser/PEXXmlParser;
 
     invoke-direct {v1}, Lcom/meitu/core/magicpen/parser/PEXXmlParser;-><init>()V
@@ -788,7 +738,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -808,7 +757,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     new-instance p3, Ljava/io/FileInputStream;
 
@@ -826,7 +774,6 @@
     :catch_0
     move-exception p3
 
-    .line 4
     invoke-virtual {p3}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_0
@@ -834,7 +781,6 @@
     :catch_1
     move-exception p3
 
-    .line 5
     invoke-virtual {p3}, Lorg/xmlpull/v1/XmlPullParserException;->printStackTrace()V
 
     :goto_0
@@ -843,7 +789,6 @@
     :goto_1
     if-nez p3, :cond_1
 
-    .line 6
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -862,25 +807,21 @@
 
     invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     invoke-virtual {p3}, Lcom/meitu/core/magicpen/parser/PEXXmlParser$PEXEntity;->GetFloatBuffer()[F
 
     move-result-object p2
 
-    .line 9
     invoke-virtual {p3}, Lcom/meitu/core/magicpen/parser/PEXXmlParser$PEXEntity;->GetMaterialFileName()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz p4, :cond_3
 
-    .line 10
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -897,7 +838,6 @@
 
     move-result-object v10
 
-    .line 11
     invoke-static {v10}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v3
@@ -906,7 +846,6 @@
 
     const-string v3, "singleTexturePath"
 
-    .line 12
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x0
@@ -941,14 +880,12 @@
 
     move-object v3, v1
 
-    .line 13
     invoke-static/range {v3 .. v8}, Lcotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result v3
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 14
     invoke-virtual {v1, v3}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v1
@@ -957,7 +894,6 @@
 
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 15
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -981,7 +917,6 @@
     :goto_2
     if-nez p4, :cond_4
 
-    .line 16
     invoke-virtual {p3}, Lcom/meitu/core/magicpen/parser/PEXXmlParser$PEXEntity;->GetMaskFileName()Ljava/lang/String;
 
     move-result-object p4
@@ -1009,18 +944,15 @@
 
     move-result-object p4
 
-    .line 17
     :goto_3
     invoke-virtual {p3}, Lcom/meitu/core/magicpen/parser/PEXXmlParser$PEXEntity;->GetType()I
 
     move-result p3
 
-    .line 18
     invoke-virtual {p1, p2, v1, p4, p3}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->MagicPenInit([FLjava/lang/String;Ljava/lang/String;I)Z
 
     move-result p1
 
-    .line 19
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1041,7 +973,6 @@
 
     invoke-static {p2, p3, v2, v1, v2}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 20
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1058,7 +989,6 @@
 
     invoke-static {p2, p3, v2, v1, v2}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 21
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1075,7 +1005,6 @@
 
     invoke-static {p1, p3, v2, v1, v2}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1088,7 +1017,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/b;->f:Lcom/commsource/studio/doodle/b$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/b$a;->b()F
@@ -1131,7 +1059,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -1154,7 +1081,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->U:Lcom/commsource/studio/doodle/h;
 
-    .line 2
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -1177,7 +1103,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->T:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
-    .line 3
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {v1, p1}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -1190,14 +1115,12 @@
 
     check-cast p1, Lcom/commsource/studio/component/d;
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;
 
     invoke-direct {v1, p1, p0}, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/component/d;Lcom/commsource/studio/processor/DoodleProcessor;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/component/d;->y(Lcom/commsource/studio/layer/c$a;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1210,10 +1133,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->a()V
 
-    .line 2
     new-instance v1, Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-direct {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;-><init>()V
@@ -1224,7 +1145,6 @@
 
     const-string v2, "magicPen"
 
-    .line 3
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -1238,7 +1158,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->SetDensity(F)Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->T:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     const-string v2, "undoRedoViewModel"
@@ -1250,7 +1169,6 @@
     :cond_1
     invoke-virtual {v1, p0}, Lcom/commsource/studio/component/UndoRedoComponent$c;->F(Lcom/commsource/studio/v;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->T:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     if-nez v1, :cond_2
@@ -1268,10 +1186,8 @@
 
     const/4 v1, 0x1
 
-    .line 6
     iput-boolean v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->Y:Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1292,33 +1208,27 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->Y:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->P:Lcom/commsource/studio/doodle/i;
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/i;->b()Lcom/commsource/studio/doodle/DoodleMaterial;
 
     move-result-object p1
 
-    .line 5
     sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->S(Lcom/commsource/studio/doodle/DoodleMaterial;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getInternalState()I
 
     move-result v2
@@ -1334,7 +1244,6 @@
     :cond_1
     const/4 v4, 0x0
 
-    .line 7
     :goto_0
     iget-object v2, p0, Lcom/commsource/studio/processor/DoodleProcessor;->P:Lcom/commsource/studio/doodle/i;
 
@@ -1364,7 +1273,6 @@
 
     if-nez v2, :cond_6
 
-    .line 8
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1383,7 +1291,6 @@
 
     move-result-object v2
 
-    .line 9
     iget-object v8, p0, Lcom/commsource/studio/processor/DoodleProcessor;->P:Lcom/commsource/studio/doodle/i;
 
     if-eqz v8, :cond_4
@@ -1396,7 +1303,6 @@
 
     if-eqz v4, :cond_3
 
-    .line 10
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v9
@@ -1407,17 +1313,14 @@
 
     goto :goto_2
 
-    .line 11
     :cond_3
     invoke-static {v2}, Lcom/meitu/library/p/g/b;->F(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 12
     :goto_2
     const-class v9, Lcom/commsource/studio/doodle/DoodleMaterial$DoodleParam;
 
-    .line 13
     invoke-static {v2, v9}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v2
@@ -1426,7 +1329,6 @@
 
     invoke-virtual {v8, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setParam(Lcom/commsource/studio/doodle/DoodleMaterial$DoodleParam;)V
 
-    .line 14
     :cond_4
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -1474,7 +1376,6 @@
 
     invoke-static {v2, v7, v5, v6, v5}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 15
     :cond_6
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -1494,7 +1395,6 @@
 
     move-result-object v2
 
-    .line 16
     iget-object v9, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     const-string v10, "magicPen"
@@ -1506,7 +1406,6 @@
     :cond_7
     invoke-direct {p0, v9, v2, v4, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->r0(Lcom/meitu/core/magicpen/NativeGLMagicPen;Ljava/lang/String;ZLjava/lang/String;)V
 
-    .line 17
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1527,7 +1426,6 @@
 
     invoke-static {v2, v7, v5, v6, v5}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 18
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1548,7 +1446,6 @@
 
     invoke-static {p1, v7, v5, v6, v5}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 19
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1569,7 +1466,6 @@
 
     if-eqz v4, :cond_8
 
-    .line 20
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1590,7 +1486,6 @@
 
     goto :goto_4
 
-    .line 21
     :cond_8
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -1606,7 +1501,6 @@
 
     move-result-object p1
 
-    .line 22
     :goto_4
     invoke-static {p1}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
@@ -1614,7 +1508,6 @@
 
     if-eqz v2, :cond_a
 
-    .line 23
     iget-object v2, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v2, :cond_9
@@ -1626,7 +1519,6 @@
 
     goto :goto_5
 
-    .line 24
     :cond_a
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
@@ -1637,7 +1529,6 @@
     :cond_b
     invoke-direct {p0, p1, v5, v3, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->q0(Lcom/meitu/core/magicpen/NativeGLMagicPen;Ljava/lang/String;ZLjava/lang/String;)V
 
-    .line 25
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1651,7 +1542,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v1, :cond_0
@@ -1679,10 +1569,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->P:Lcom/commsource/studio/doodle/i;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     const-string v3, "magicPen"
@@ -1698,7 +1586,6 @@
 
     invoke-direct {p0, v2, v5, v4, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->r0(Lcom/meitu/core/magicpen/NativeGLMagicPen;Ljava/lang/String;ZLjava/lang/String;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v2, :cond_1
@@ -1710,7 +1597,6 @@
 
     invoke-direct {p0, v2, v1, v3, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->q0(Lcom/meitu/core/magicpen/NativeGLMagicPen;Ljava/lang/String;ZLjava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1723,15 +1609,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->c()V
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->Y:Z
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     const-string v3, "magicPen"
@@ -1743,7 +1626,6 @@
     :cond_0
     invoke-virtual {v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->GLRelease()Z
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v2, :cond_1
@@ -1753,17 +1635,14 @@
     :cond_1
     invoke-virtual {v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->Release()Z
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/processor/DoodleProcessor;->M:Ljava/util/ArrayList;
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->clear()V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/processor/DoodleProcessor;->N:Ljava/util/ArrayList;
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->clear()V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/processor/DoodleProcessor;->T:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     const-string v3, "undoRedoViewModel"
@@ -1777,7 +1656,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/studio/component/UndoRedoComponent$c;->F(Lcom/commsource/studio/v;)V
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/studio/processor/DoodleProcessor;->T:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     if-nez v2, :cond_3
@@ -1789,7 +1667,6 @@
 
     invoke-static {v2, v1, v1, v3, v4}, Lcom/commsource/studio/component/UndoRedoComponent$c;->I(Lcom/commsource/studio/component/UndoRedoComponent$c;ZZILjava/lang/Object;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1802,14 +1679,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->Q:Ljava/lang/Integer;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v1, :cond_0
@@ -1835,7 +1710,6 @@
 
     invoke-virtual {v1, v2, v3, p1, v4}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->SetParticleColor(IIII)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1848,7 +1722,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     const-string v2, "magicPen"
@@ -1860,7 +1733,6 @@
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->Release()Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v1, :cond_1
@@ -1870,17 +1742,14 @@
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->GLRelease()Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->M:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->N:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1895,7 +1764,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->P:Lcom/commsource/studio/doodle/i;
 
     if-eqz v1, :cond_0
@@ -1924,7 +1792,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->e()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
@@ -1949,7 +1816,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v1, :cond_0
@@ -1977,7 +1843,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->T:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     if-nez v1, :cond_0
@@ -1999,7 +1864,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/processor/DoodleProcessor$redo$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/processor/DoodleProcessor$redo$1;-><init>(Lcom/commsource/studio/processor/DoodleProcessor;)V
@@ -2012,10 +1876,8 @@
 
     const/4 v3, 0x3
 
-    .line 2
     invoke-static {p0, v1, v2, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2039,7 +1901,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->M:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2054,7 +1915,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/studio/v$a;->b(Lcom/commsource/studio/v;)Z
 
     move-result v1
@@ -2082,19 +1942,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/processor/DoodleProcessor;->M:Ljava/util/ArrayList;
 
     invoke-static {v2}, Lcotlin/collections/s;->N1(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 3
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -2115,12 +1972,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2134,7 +1989,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/processor/DoodleProcessor$undo$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/processor/DoodleProcessor$undo$1;-><init>(Lcom/commsource/studio/processor/DoodleProcessor;)V
@@ -2147,10 +2001,8 @@
 
     const/4 v3, 0x3
 
-    .line 2
     invoke-static {p0, v1, v2, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2171,7 +2023,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v1, :cond_0
@@ -2183,7 +2034,6 @@
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->backGroundInit(Landroid/graphics/Bitmap;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2196,7 +2046,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/studio/v$a;->a(Lcom/commsource/studio/v;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2211,17 +2060,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->P:Lcom/commsource/studio/doodle/i;
 
     if-eqz v1, :cond_1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->a0(Lcom/commsource/studio/doodle/i;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/i;->b()Lcom/commsource/studio/doodle/DoodleMaterial;
 
     move-result-object v1
@@ -2238,7 +2084,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->Q:Ljava/lang/Integer;
 
     if-eqz v1, :cond_0
@@ -2249,7 +2094,6 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->c0(I)V
 
-    .line 5
     :cond_0
     iget v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->W:F
 
@@ -2257,11 +2101,9 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/DoodleProcessor;->b0()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2275,7 +2117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->X:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2290,7 +2131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->Y:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2324,7 +2164,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     const-string v2, "magicPen"
@@ -2346,7 +2185,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v1, :cond_1
@@ -2370,7 +2208,6 @@
 
     aput v6, v2, v4
 
-    .line 3
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v4
@@ -2379,7 +2216,6 @@
 
     aput v4, v2, v3
 
-    .line 4
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v3
@@ -2388,12 +2224,10 @@
 
     aput v3, v2, v5
 
-    .line 5
     invoke-interface {p1, v1, v2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 6
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
@@ -2408,7 +2242,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 7
     array-length v6, v1
 
     if-lt v6, v5, :cond_5
@@ -2427,7 +2260,6 @@
 
     if-lez v3, :cond_5
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v3, :cond_4
@@ -2439,7 +2271,6 @@
 
     move-result-object v2
 
-    .line 9
     invoke-interface {p1, v2, v1}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
@@ -2447,10 +2278,8 @@
     :cond_5
     const/4 v1, 0x0
 
-    .line 10
     invoke-interface {p1, v1, v1}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2464,7 +2293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->X:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2487,19 +2315,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->j()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget v1, p1, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
@@ -2507,7 +2332,6 @@
 
     invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 4
     iget v1, p1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
     iget v3, p1, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
@@ -2516,7 +2340,6 @@
 
     invoke-static {v4, v4, v1, v3}, Landroid/opengl/GLES20;->glViewport(IIII)V
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-nez v5, :cond_1
@@ -2556,13 +2379,10 @@
 
     invoke-virtual/range {v5 .. v11}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->OnDrawFrame(IIIIII)Z
 
-    .line 6
     invoke-static {v2, v4}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 7
     iput-boolean v4, p0, Lcom/commsource/studio/processor/DoodleProcessor;->R:Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2575,7 +2395,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->Y:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2590,10 +2409,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->W:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2614,7 +2431,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->T:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

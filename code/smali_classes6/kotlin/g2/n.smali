@@ -48,7 +48,6 @@
 
     sput-object v0, Lcotlin/g2/n;->g:Lcotlin/g2/n$a;
 
-    .line 1
     new-instance v0, Lcotlin/g2/n;
 
     const-wide/16 v1, 0x1
@@ -73,7 +72,6 @@
 
     move-wide v3, p3
 
-    .line 1
     invoke-direct/range {v0 .. v6}, Lcotlin/g2/l;-><init>(JJJ)V
 
     return-void
@@ -82,7 +80,6 @@
 .method public static final synthetic j()Lcotlin/g2/n;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/g2/n;->f:Lcotlin/g2/n;
 
     return-object v0
@@ -93,7 +90,6 @@
 .method public bridge synthetic contains(Ljava/lang/Comparable;)Z
     .locals 2
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->longValue()J
@@ -114,7 +110,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlin/g2/n;
 
     if-eqz v0, :cond_2
@@ -177,7 +172,6 @@
 .method public bridge synthetic getEndInclusive()Ljava/lang/Comparable;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/n;->l()Ljava/lang/Long;
 
     move-result-object v0
@@ -188,7 +182,6 @@
 .method public bridge synthetic getStart()Ljava/lang/Comparable;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/n;->m()Ljava/lang/Long;
 
     move-result-object v0
@@ -199,7 +192,6 @@
 .method public hashCode()I
     .locals 7
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/n;->isEmpty()Z
 
     move-result v0
@@ -254,7 +246,6 @@
 .method public isEmpty()Z
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/l;->c()J
 
     move-result-wide v0
@@ -281,7 +272,6 @@
 .method public k(J)Z
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/l;->c()J
 
     move-result-wide v0
@@ -314,7 +304,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/l;->e()J
 
     move-result-wide v0
@@ -331,7 +320,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/l;->c()J
 
     move-result-wide v0
@@ -348,7 +336,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

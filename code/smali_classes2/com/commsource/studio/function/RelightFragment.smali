@@ -41,10 +41,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->t()I
@@ -55,7 +53,6 @@
 
     iput v0, p0, Lcom/commsource/studio/function/RelightFragment;->c0:F
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/effect/c;
 
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Relight:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -64,7 +61,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/RelightFragment;->f0:Lcom/commsource/studio/effect/c;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/function/RelightFragment$mDownloadProgressDialog$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/RelightFragment$mDownloadProgressDialog$2;-><init>(Lcom/commsource/studio/function/RelightFragment;)V
@@ -85,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/RelightFragment;->L1()Lcom/commsource/comic/widget/c;
 
     move-result-object p0
@@ -102,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
 
     if-nez p0, :cond_0
@@ -124,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/RelightFragment;->g0:Lcom/commsource/studio/layer/RelightLayer;
 
     if-nez p0, :cond_0
@@ -146,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/RelightFragment;->M1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -161,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -176,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -191,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RelightFragment;->g0:Lcom/commsource/studio/layer/RelightLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/RelightFragment;->P1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -221,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/RelightFragment;->R1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -256,15 +243,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/processor/k;
 
     invoke-direct {v1}, Lcom/commsource/studio/processor/k;-><init>()V
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/RelightFragment;->g0:Lcom/commsource/studio/layer/RelightLayer;
 
     if-nez v2, :cond_0
@@ -288,10 +272,8 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/layer/RelightLayer;->D0(Lcom/commsource/camera/d1/g/j;)V
 
-    .line 4
     iput-object v1, p0, Lcom/commsource/studio/function/RelightFragment;->e0:Lcom/commsource/studio/processor/k;
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->n0()Lcom/commsource/beautyplus/router/RouterEntity;
 
     move-result-object v1
@@ -302,12 +284,10 @@
 
     const-string v3, "strength"
 
-    .line 6
     invoke-virtual {v1, v3, v2}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameterInt(Ljava/lang/String;I)I
 
     move-result v2
 
-    .line 7
     :cond_1
     new-instance v1, Lcom/commsource/studio/function/RelightFragment$b;
 
@@ -315,7 +295,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -328,14 +307,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/function/RelightFragment$f;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/RelightFragment$f;-><init>(Lcom/commsource/studio/function/RelightFragment;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -348,7 +325,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v1}, Lcom/commsource/util/j1;->b(Landroid/content/Context;)Z
@@ -357,12 +333,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/commsource/widget/dialog/s0/t$a;
 
@@ -382,7 +356,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->beauty_material_update_ok:I
 
-    .line 4
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -393,12 +366,10 @@
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/s0/t$a;->p(Z)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v1
 
-    .line 6
     new-instance v2, Lcom/commsource/studio/function/RelightFragment$g;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/RelightFragment$g;-><init>(Lcom/commsource/studio/function/RelightFragment;)V
@@ -409,7 +380,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->beauty_material_update_cancel:I
 
-    .line 7
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -418,7 +388,6 @@
 
     move-result-object v1
 
-    .line 8
     new-instance v2, Lcom/commsource/studio/function/RelightFragment$h;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/RelightFragment$h;-><init>(Lcom/commsource/studio/function/RelightFragment;)V
@@ -427,15 +396,12 @@
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object v1
 
-    .line 10
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -452,7 +418,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -461,29 +426,24 @@
 
     const-wide/16 v2, 0x320
 
-    .line 2
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->setRepeatCount(I)V
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/function/RelightFragment$i;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/RelightFragment$i;-><init>(Lcom/commsource/studio/function/RelightFragment;)V
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/function/RelightFragment$j;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/RelightFragment$j;-><init>(Lcom/commsource/studio/function/RelightFragment;)V
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
 
     if-nez v2, :cond_0
@@ -495,20 +455,16 @@
     :cond_0
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/wb;->p:Landroid/widget/RelativeLayout;
 
-    .line 7
     invoke-static {v2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 8
     new-instance v3, Lcom/commsource/studio/function/RelightFragment$k;
 
     invoke-direct {v3, v2, v1, p0}, Lcom/commsource/studio/function/RelightFragment$k;-><init>(Landroid/widget/RelativeLayout;Landroid/animation/ValueAnimator;Lcom/commsource/studio/function/RelightFragment;)V
 
     invoke-virtual {v2, v3}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 9
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -528,7 +484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -545,14 +500,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/RelightFragment;->K1()Lcom/commsource/studio/effect/c;
 
     move-result-object v2
@@ -575,7 +528,6 @@
 
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     sget-object v2, Lcom/commsource/studio/effect/t;->d:Lcom/commsource/studio/effect/t$a;
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/RelightFragment;->K1()Lcom/commsource/studio/effect/c;
@@ -592,10 +544,8 @@
 
     const-string v2, "beaurelightyes"
 
-    .line 4
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -604,7 +554,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/statistics/c;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -613,10 +562,8 @@
 
     invoke-static {v1, v2}, Lcom/commsource/statistics/c;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 7
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G0()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -650,7 +597,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
 
     if-nez v0, :cond_0
@@ -664,7 +610,6 @@
 
     invoke-super {p0, v0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->I(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -679,7 +624,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment;->e0:Lcom/commsource/studio/processor/k;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -715,7 +659,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
 
     if-nez v0, :cond_0
@@ -729,7 +672,6 @@
 
     invoke-super {p0, v0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->K(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -742,7 +684,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v1}, Lf/d/i/h;->t0(Landroid/content/Context;)Z
@@ -751,12 +692,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/RelightFragment;->M1()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
@@ -766,17 +705,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/function/RelightFragment;->P1()V
 
-    .line 5
     sget-object v1, Lcom/commsource/beautymain/utils/RelightModelHelper;->b:Lcom/commsource/beautymain/utils/RelightModelHelper;
 
     invoke-virtual {v1}, Lcom/commsource/beautymain/utils/RelightModelHelper;->a()V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
@@ -786,12 +722,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/function/RelightFragment;->Q1()V
 
     goto :goto_0
 
-    .line 8
     :cond_2
     new-instance v1, Lcom/commsource/widget/dialog/s0/t$a;
 
@@ -809,7 +743,6 @@
 
     move-result-object v1
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     sget v3, Lcom/res/provider/ResSTRING;->ar_i_know:I
@@ -824,12 +757,10 @@
 
     const/4 v2, 0x1
 
-    .line 10
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/s0/t$a;->p(Z)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v1
 
-    .line 11
     new-instance v2, Lcom/commsource/studio/function/RelightFragment$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/RelightFragment$a;-><init>(Lcom/commsource/studio/function/RelightFragment;)V
@@ -838,15 +769,12 @@
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object v1
 
-    .line 13
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 14
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -862,7 +790,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment;->f0:Lcom/commsource/studio/effect/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -881,7 +808,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RelightFragment;->e0:Lcom/commsource/studio/processor/k;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -904,7 +830,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RelightFragment;->f0:Lcom/commsource/studio/effect/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -919,10 +844,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->Q()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
 
     if-nez v1, :cond_0
@@ -940,7 +863,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -953,7 +875,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/RelightFragment;->K1()Lcom/commsource/studio/effect/c;
 
     move-result-object v1
@@ -978,7 +899,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
 
     if-nez v1, :cond_0
@@ -1004,7 +924,6 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->addParameter(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1017,7 +936,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/RelightFragment;->O1(Lcom/commsource/studio/effect/c;)V
@@ -1034,7 +952,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/RelightFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1049,7 +966,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/RelightFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1084,10 +1000,8 @@
 
     const/4 p3, 0x0
 
-    .line 1
     invoke-virtual {p0, p3}, Lcom/commsource/studio/function/BaseSubFragment;->q1(Z)V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/layer/RelightLayer;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1102,20 +1016,16 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {p0, v0, p3, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->F(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/layer/d;IILjava/lang/Object;)V
 
-    .line 4
     new-instance p3, Lcom/commsource/studio/function/RelightFragment$onCreateView$$inlined$apply$lambda$1;
 
     invoke-direct {p3, p0}, Lcom/commsource/studio/function/RelightFragment$onCreateView$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/function/RelightFragment;)V
 
     invoke-virtual {v0, p3}, Lcom/commsource/studio/layer/RelightLayer;->H0(Lcotlin/jvm/u/p;)V
 
-    .line 5
     iput-object v0, p0, Lcom/commsource/studio/function/RelightFragment;->g0:Lcom/commsource/studio/layer/RelightLayer;
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/wb;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/wb;
 
     move-result-object p1
@@ -1130,13 +1040,11 @@
 
     if-nez p1, :cond_0
 
-    .line 7
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/wb;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
 
     if-nez p1, :cond_1
@@ -1188,7 +1096,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
 
     const-string v2, "mViewBinding"
@@ -1206,7 +1113,6 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
 
     if-nez v1, :cond_1
@@ -1222,7 +1128,6 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
 
     if-nez v1, :cond_2
@@ -1238,7 +1143,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 4
     sget-object v1, Lcom/commsource/beautymain/utils/RelightModelHelper;->b:Lcom/commsource/beautymain/utils/RelightModelHelper;
 
     invoke-virtual {v1}, Lcom/commsource/beautymain/utils/RelightModelHelper;->c()Lcom/commsource/material/download/b/a;
@@ -1263,7 +1167,6 @@
 
     invoke-virtual {v2, v3, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/beautymain/utils/RelightModelHelper;->c()Lcom/commsource/material/download/b/a;
 
     move-result-object v2
@@ -1284,7 +1187,6 @@
 
     invoke-virtual {v2, v3, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/beautymain/utils/RelightModelHelper;->c()Lcom/commsource/material/download/b/a;
 
     move-result-object v1
@@ -1305,10 +1207,8 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 7
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/AbstractMapBasedMultiset;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/AbstractMapBasedMultiset$a;->f:Lcom/google/common/collect/AbstractMapBasedMultiset;
 
     invoke-direct {p0, p1}, Lcom/google/common/collect/AbstractMapBasedMultiset$c;-><init>(Lcom/google/common/collect/AbstractMapBasedMultiset;)V
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultiset$a;->f:Lcom/google/common/collect/AbstractMapBasedMultiset;
 
     iget-object v0, v0, Lcom/google/common/collect/AbstractMapBasedMultiset;->backingMap:Lcom/google/common/collect/o1;

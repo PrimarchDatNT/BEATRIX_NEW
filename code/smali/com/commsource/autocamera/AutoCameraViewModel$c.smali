@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/AutoCameraViewModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel$c;->a:Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/autocamera/AutoCameraViewModel$c;->a:Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/autocamera/AutoCameraViewModel;->d1()Landroidx/lifecycle/MutableLiveData;
@@ -51,7 +49,6 @@
 
     invoke-virtual {v0, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -64,7 +61,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -77,7 +73,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

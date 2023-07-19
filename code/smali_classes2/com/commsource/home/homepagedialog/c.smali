@@ -27,12 +27,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/d;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/c;->d:Lcom/commsource/beautyplus/BaseActivity;
 
-    .line 2
     new-instance p1, Lcom/commsource/home/homepagedialog/c$a;
 
     invoke-direct {p1, p0}, Lcom/commsource/home/homepagedialog/c$a;-><init>(Lcom/commsource/home/homepagedialog/c;)V
@@ -51,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 v0, 0xb
@@ -66,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v1
@@ -99,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -114,14 +109,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/c;->c:Ljava/lang/Runnable;
 
     const-wide/16 v2, 0x3e8
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -134,12 +127,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/c;->c:Ljava/lang/Runnable;
 
     invoke-static {v1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -154,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/c;->d:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

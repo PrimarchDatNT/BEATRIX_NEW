@@ -82,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;
 
     move-result-object v1
@@ -97,17 +96,14 @@
 .method public constructor <init>(Lcom/meitu/library/analytics/v/b$a;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x8
 
     new-array v0, v0, [B
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/library/analytics/v/b;->a:[B
 
-    .line 3
     invoke-static {v0}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -116,10 +112,8 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/meitu/library/analytics/v/b;->c:[Ljava/lang/String;
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -128,12 +122,10 @@
 
     if-nez p1, :cond_0
 
-    .line 6
     new-instance p1, Lcom/meitu/library/analytics/v/b$a;
 
     invoke-direct {p1}, Lcom/meitu/library/analytics/v/b$a;-><init>()V
 
-    .line 7
     :cond_0
     iput-object p1, p0, Lcom/meitu/library/analytics/v/b;->e:Lcom/meitu/library/analytics/v/b$a;
 
@@ -152,26 +144,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/analytics/v/b;
 
     invoke-direct {v1, p1}, Lcom/meitu/library/analytics/v/b;-><init>(Lcom/meitu/library/analytics/v/b$a;)V
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-virtual {v1, p0, p1}, Lcom/meitu/library/analytics/v/b;->b(Ljava/io/InputStream;[I)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 3
     iget-object v2, v1, Lcom/meitu/library/analytics/v/b;->e:Lcom/meitu/library/analytics/v/b$a;
 
     iget-boolean v2, v2, Lcom/meitu/library/analytics/v/b$a;->a:Z
 
     if-eqz v2, :cond_0
 
-    .line 4
     :try_start_0
     invoke-virtual {p0}, Ljava/io/InputStream;->close()V
     :try_end_0
@@ -182,24 +170,20 @@
     :catch_0
     nop
 
-    .line 5
     :cond_0
     :goto_0
     invoke-virtual {v1}, Lcom/meitu/library/analytics/v/b;->a()V
 
-    .line 6
     instance-of p0, p1, Lorg/json/JSONArray;
 
     if-eqz p0, :cond_1
 
-    .line 7
     check-cast p1, Lorg/json/JSONArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 8
     :cond_1
     new-instance p0, Lorg/json/JSONException;
 
@@ -240,26 +224,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/analytics/v/b;
 
     invoke-direct {v1, p1}, Lcom/meitu/library/analytics/v/b;-><init>(Lcom/meitu/library/analytics/v/b$a;)V
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-virtual {v1, p0, p1}, Lcom/meitu/library/analytics/v/b;->b(Ljava/io/InputStream;[I)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 3
     iget-object v2, v1, Lcom/meitu/library/analytics/v/b;->e:Lcom/meitu/library/analytics/v/b$a;
 
     iget-boolean v2, v2, Lcom/meitu/library/analytics/v/b$a;->a:Z
 
     if-eqz v2, :cond_0
 
-    .line 4
     :try_start_0
     invoke-virtual {p0}, Ljava/io/InputStream;->close()V
     :try_end_0
@@ -270,24 +250,20 @@
     :catch_0
     nop
 
-    .line 5
     :cond_0
     :goto_0
     invoke-virtual {v1}, Lcom/meitu/library/analytics/v/b;->a()V
 
-    .line 6
     instance-of p0, p1, Lorg/json/JSONObject;
 
     if-eqz p0, :cond_1
 
-    .line 7
     check-cast p1, Lorg/json/JSONObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 8
     :cond_1
     new-instance p0, Lorg/json/JSONException;
 
@@ -328,7 +304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -337,7 +312,6 @@
 
     new-array v2, v2, [I
 
-    .line 2
     :goto_0
     invoke-virtual {p0, p1, v2}, Lcom/meitu/library/analytics/v/b;->b(Ljava/io/InputStream;[I)Ljava/lang/Object;
 
@@ -345,14 +319,12 @@
 
     const/4 v4, 0x0
 
-    .line 3
     aget v4, v2, v4
 
     const/16 v5, 0x5d
 
     if-ne v4, v5, :cond_0
 
-    .line 4
     new-instance p1, Lorg/json/JSONArray;
 
     invoke-direct {p1, v1}, Lorg/json/JSONArray;-><init>(Ljava/util/Collection;)V
@@ -361,7 +333,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -380,7 +351,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
@@ -388,7 +358,6 @@
 
     shl-int/lit8 v1, v1, 0x8
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
     move-result v2
@@ -397,7 +366,6 @@
 
     shl-int/lit8 v1, v1, 0x8
 
-    .line 3
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
     move-result v2
@@ -406,7 +374,6 @@
 
     shl-int/lit8 v1, v1, 0x8
 
-    .line 4
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
     move-result p1
@@ -415,7 +382,6 @@
 
     or-int/2addr p1, v1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -423,7 +389,6 @@
     :catch_0
     move-exception p1
 
-    .line 6
     new-instance v1, Lorg/json/JSONException;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -449,7 +414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
@@ -458,7 +422,6 @@
 
     new-array v2, v2, [I
 
-    .line 2
     :goto_0
     invoke-virtual {p0, p1, v2}, Lcom/meitu/library/analytics/v/b;->b(Ljava/io/InputStream;[I)Ljava/lang/Object;
 
@@ -466,14 +429,12 @@
 
     const/4 v4, 0x0
 
-    .line 3
     aget v5, v2, v4
 
     const/16 v6, 0x7d
 
     if-ne v5, v6, :cond_0
 
-    .line 4
     new-instance p1, Lorg/json/JSONObject;
 
     invoke-direct {p1, v1}, Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
@@ -482,7 +443,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     aget v5, v2, v4
 
@@ -492,7 +452,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     aget v4, v2, v4
 
@@ -504,7 +463,6 @@
 
     const-string p1, "Names cannot be null"
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/meitu/library/analytics/v/b;->l(Ljava/lang/String;)Lorg/json/JSONException;
 
     move-result-object p1
@@ -513,7 +471,6 @@
 
     throw p1
 
-    .line 8
     :cond_2
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -529,7 +486,6 @@
 
     invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -544,7 +500,6 @@
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {p0, p1}, Lcom/meitu/library/analytics/v/b;->l(Ljava/lang/String;)Lorg/json/JSONException;
 
     move-result-object p1
@@ -553,7 +508,6 @@
 
     throw p1
 
-    .line 11
     :cond_3
     check-cast v3, Ljava/lang/String;
 
@@ -578,7 +532,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
@@ -590,7 +543,6 @@
 
     int-to-short v1, v1
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
     move-result p1
@@ -601,7 +553,6 @@
 
     int-to-short p1, p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -609,7 +560,6 @@
     :catch_0
     move-exception p1
 
-    .line 4
     new-instance v1, Lorg/json/JSONException;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -635,14 +585,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/v/b;->e:Lcom/meitu/library/analytics/v/b$a;
 
     iget v1, v1, Lcom/meitu/library/analytics/v/b$a;->b:I
 
     if-gt p2, v1, :cond_4
 
-    .line 2
     :try_start_0
     new-array v1, p2, [B
 
@@ -655,7 +603,6 @@
 
     sub-int v4, p2, v3
 
-    .line 3
     invoke-virtual {p1, v1, v3, v4}, Ljava/io/InputStream;->read([BII)I
 
     move-result v4
@@ -671,7 +618,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 4
     iget-object p3, p0, Lcom/meitu/library/analytics/v/b;->d:Ljava/util/ArrayList;
 
     invoke-virtual {p3}, Ljava/util/ArrayList;->size()I
@@ -683,7 +629,6 @@
     :goto_1
     if-ge v3, p3, :cond_2
 
-    .line 5
     iget-object v4, p0, Lcom/meitu/library/analytics/v/b;->d:Ljava/util/ArrayList;
 
     invoke-virtual {v4, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -698,7 +643,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/library/analytics/v/b;->d:Ljava/util/ArrayList;
 
     invoke-virtual {p1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -720,14 +664,12 @@
     :goto_2
     if-nez p1, :cond_3
 
-    .line 7
     new-instance p1, Ljava/lang/String;
 
     sget-object p3, Lcom/meitu/library/analytics/v/b;->f:Ljava/nio/charset/Charset;
 
     invoke-direct {p1, v1, v2, p2, p3}, Ljava/lang/String;-><init>([BIILjava/nio/charset/Charset;)V
 
-    .line 8
     iget-object p2, p0, Lcom/meitu/library/analytics/v/b;->d:Ljava/util/ArrayList;
 
     new-instance p3, Lcom/meitu/library/analytics/v/b$b;
@@ -738,7 +680,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 9
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -747,10 +688,8 @@
     :catch_0
     move-exception p1
 
-    .line 10
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 11
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -763,7 +702,6 @@
 
     throw p1
 
-    .line 12
     :cond_4
     new-instance p1, Lorg/json/JSONException;
 
@@ -810,7 +748,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
@@ -825,12 +762,10 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     const/4 p1, -0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -848,7 +783,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/library/analytics/v/b;->a:[B
 
@@ -856,17 +790,14 @@
 
     invoke-virtual {p1, v1, v2, p3}, Ljava/io/InputStream;->read([BII)I
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/library/analytics/v/b;->b:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
-    .line 3
     const-class p1, Ljava/lang/Byte;
 
     if-ne p2, p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/library/analytics/v/b;->b:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->get()B
@@ -883,14 +814,12 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     :try_start_1
     const-class p1, Ljava/lang/Short;
 
     if-ne p2, p1, :cond_1
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/library/analytics/v/b;->b:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->getShort()S
@@ -907,14 +836,12 @@
 
     return-object p1
 
-    .line 7
     :cond_1
     :try_start_2
     const-class p1, Ljava/lang/Integer;
 
     if-ne p2, p1, :cond_2
 
-    .line 8
     iget-object p1, p0, Lcom/meitu/library/analytics/v/b;->b:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->getInt()I
@@ -931,14 +858,12 @@
 
     return-object p1
 
-    .line 9
     :cond_2
     :try_start_3
     const-class p1, Ljava/lang/Long;
 
     if-ne p2, p1, :cond_3
 
-    .line 10
     iget-object p1, p0, Lcom/meitu/library/analytics/v/b;->b:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->getLong()J
@@ -955,14 +880,12 @@
 
     return-object p1
 
-    .line 11
     :cond_3
     :try_start_4
     const-class p1, Ljava/lang/Float;
 
     if-ne p2, p1, :cond_4
 
-    .line 12
     iget-object p1, p0, Lcom/meitu/library/analytics/v/b;->b:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->getFloat()F
@@ -979,14 +902,12 @@
 
     return-object p1
 
-    .line 13
     :cond_4
     :try_start_5
     const-class p1, Ljava/lang/Double;
 
     if-ne p2, p1, :cond_5
 
-    .line 14
     iget-object p1, p0, Lcom/meitu/library/analytics/v/b;->b:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->getDouble()D
@@ -1003,14 +924,12 @@
 
     return-object p1
 
-    .line 15
     :cond_5
     :try_start_6
     const-class p1, Ljava/lang/Character;
 
     if-ne p2, p1, :cond_6
 
-    .line 16
     iget-object p1, p0, Lcom/meitu/library/analytics/v/b;->b:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->getChar()C
@@ -1027,14 +946,12 @@
 
     return-object p1
 
-    .line 17
     :cond_6
     :try_start_7
     const-class p1, Ljava/lang/Boolean;
 
     if-ne p2, p1, :cond_8
 
-    .line 18
     iget-object p1, p0, Lcom/meitu/library/analytics/v/b;->b:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->get()B
@@ -1059,7 +976,6 @@
     :cond_8
     const/4 p1, 0x0
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -1067,7 +983,6 @@
     :catch_0
     move-exception p1
 
-    .line 20
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -1090,20 +1005,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/v/b;->d:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/meitu/library/analytics/v/b;->c:[Ljava/lang/String;
 
-    .line 3
     iput-object v1, p0, Lcom/meitu/library/analytics/v/b;->e:Lcom/meitu/library/analytics/v/b$a;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1121,7 +1032,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/v/b;->j(Ljava/io/InputStream;)I
 
     move-result v1
@@ -1130,7 +1040,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     aput v1, p2, v2
 
     :cond_0
@@ -1156,7 +1065,6 @@
 
     goto :goto_1
 
-    .line 3
     :pswitch_0
     iget-object v3, p0, Lcom/meitu/library/analytics/v/b;->c:[Ljava/lang/String;
 
@@ -1170,11 +1078,9 @@
 
     const/16 v6, 0xb
 
-    .line 4
     :cond_1
     aput v6, p2, v2
 
-    .line 5
     :cond_2
     :try_start_0
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
@@ -1192,7 +1098,6 @@
     :catch_0
     move-exception p1
 
-    .line 6
     new-instance p2, Lorg/json/JSONException;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -1205,7 +1110,6 @@
 
     throw p2
 
-    .line 7
     :cond_3
     new-instance p1, Lorg/json/JSONException;
 
@@ -1217,13 +1121,11 @@
 
     throw p1
 
-    .line 8
     :pswitch_1
     iget-object p2, p0, Lcom/meitu/library/analytics/v/b;->c:[Ljava/lang/String;
 
     if-nez p2, :cond_6
 
-    .line 9
     :try_start_1
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
@@ -1231,7 +1133,6 @@
 
     if-le p2, v3, :cond_4
 
-    .line 10
     new-array v1, p2, [Ljava/lang/String;
 
     iput-object v1, p0, Lcom/meitu/library/analytics/v/b;->c:[Ljava/lang/String;
@@ -1242,7 +1143,6 @@
     :goto_0
     if-ge v1, p2, :cond_5
 
-    .line 11
     iget-object v3, p0, Lcom/meitu/library/analytics/v/b;->c:[Ljava/lang/String;
 
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/v/b;->f(Ljava/io/InputStream;)I
@@ -1261,7 +1161,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1271,7 +1170,6 @@
     :catch_1
     move-exception p1
 
-    .line 13
     new-instance p2, Lorg/json/JSONException;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -1284,7 +1182,6 @@
 
     throw p2
 
-    .line 14
     :cond_6
     new-instance p1, Lorg/json/JSONException;
 
@@ -1296,7 +1193,6 @@
 
     throw p1
 
-    .line 15
     :pswitch_2
     :try_start_2
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
@@ -1316,7 +1212,6 @@
     :catch_2
     move-exception p1
 
-    .line 16
     new-instance p2, Lorg/json/JSONException;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -1329,13 +1224,11 @@
 
     throw p2
 
-    .line 17
     :pswitch_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v5
 
-    .line 18
     :pswitch_4
     const-class p2, Ljava/lang/Boolean;
 
@@ -1347,7 +1240,6 @@
 
     return-object p1
 
-    .line 19
     :pswitch_5
     const-class p2, Ljava/lang/Character;
 
@@ -1361,7 +1253,6 @@
 
     return-object p1
 
-    .line 20
     :pswitch_6
     const-class p2, Ljava/lang/Double;
 
@@ -1373,7 +1264,6 @@
 
     return-object p1
 
-    .line 21
     :pswitch_7
     const-class p2, Ljava/lang/Float;
 
@@ -1387,7 +1277,6 @@
 
     return-object p1
 
-    .line 22
     :pswitch_8
     const-class p2, Ljava/lang/Long;
 
@@ -1399,7 +1288,6 @@
 
     return-object p1
 
-    .line 23
     :pswitch_9
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/v/b;->f(Ljava/io/InputStream;)I
 
@@ -1413,7 +1301,6 @@
 
     return-object p1
 
-    .line 24
     :pswitch_a
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/v/b;->h(Ljava/io/InputStream;)S
 
@@ -1427,7 +1314,6 @@
 
     return-object p1
 
-    .line 25
     :pswitch_b
     :try_start_3
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
@@ -1447,7 +1333,6 @@
     :catch_3
     move-exception p1
 
-    .line 26
     new-instance p2, Lorg/json/JSONException;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -1460,7 +1345,6 @@
 
     throw p2
 
-    .line 27
     :pswitch_c
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/v/b;->f(Ljava/io/InputStream;)I
 
@@ -1474,7 +1358,6 @@
 
     return-object p1
 
-    .line 28
     :cond_7
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/v/b;->g(Ljava/io/InputStream;)Lorg/json/JSONObject;
 
@@ -1484,7 +1367,6 @@
 
     return-object p1
 
-    .line 29
     :cond_8
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/v/b;->e(Ljava/io/InputStream;)Lorg/json/JSONArray;
 
@@ -1497,7 +1379,6 @@
     :cond_9
     const-string p1, "End of input"
 
-    .line 30
     invoke-virtual {p0, p1}, Lcom/meitu/library/analytics/v/b;->l(Ljava/lang/String;)Lorg/json/JSONException;
 
     move-result-object p1
@@ -1532,7 +1413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lorg/json/JSONException;
 
     new-instance v2, Ljava/lang/StringBuilder;

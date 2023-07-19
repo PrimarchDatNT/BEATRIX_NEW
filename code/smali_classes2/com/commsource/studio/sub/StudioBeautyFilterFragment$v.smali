@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubTabEnum;->Filter:Lcom/commsource/studio/sub/SubTabEnum;
 
     const/4 v2, 0x1
@@ -84,12 +83,10 @@
     :goto_1
     if-eqz p1, :cond_2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$v;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {p1, v3, v2, v3}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->r0(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;Lcom/commsource/studio/bean/BaseLayerInfo;ILjava/lang/Object;)V
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -103,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/sub/SubTabEnum;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$v;->a(Lcom/commsource/studio/sub/SubTabEnum;)V

@@ -27,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lkshark/AndroidReferenceMatchers;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
@@ -54,7 +53,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lkshark/AndroidReferenceMatchers;->Companion:Lkshark/AndroidReferenceMatchers$Companion;
 
     const-class v1, Ljava/lang/ref/WeakReference;
@@ -77,14 +75,12 @@
 
     const-string v1, "leakcanary.KeyedWeakReference"
 
-    .line 2
     invoke-virtual {v0, v1, v2}, Lkshark/AndroidReferenceMatchers$Companion;->d(Ljava/lang/String;Ljava/lang/String;)Lkshark/n;
 
     move-result-object v1
 
     invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 3
     const-class v1, Ljava/lang/ref/SoftReference;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -101,7 +97,6 @@
 
     invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 4
     const-class v1, Ljava/lang/ref/PhantomReference;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -122,7 +117,6 @@
 
     const-string v2, "prev"
 
-    .line 5
     invoke-virtual {v0, v1, v2}, Lkshark/AndroidReferenceMatchers$Companion;->d(Ljava/lang/String;Ljava/lang/String;)Lkshark/n;
 
     move-result-object v3
@@ -131,7 +125,6 @@
 
     const-string v3, "element"
 
-    .line 6
     invoke-virtual {v0, v1, v3}, Lkshark/AndroidReferenceMatchers$Companion;->d(Ljava/lang/String;Ljava/lang/String;)Lkshark/n;
 
     move-result-object v4
@@ -140,7 +133,6 @@
 
     const-string v4, "next"
 
-    .line 7
     invoke-virtual {v0, v1, v4}, Lkshark/AndroidReferenceMatchers$Companion;->d(Ljava/lang/String;Ljava/lang/String;)Lkshark/n;
 
     move-result-object v1
@@ -149,21 +141,18 @@
 
     const-string v1, "java.lang.ref.FinalizerReference"
 
-    .line 8
     invoke-virtual {v0, v1, v2}, Lkshark/AndroidReferenceMatchers$Companion;->d(Ljava/lang/String;Ljava/lang/String;)Lkshark/n;
 
     move-result-object v5
 
     invoke-interface {p1, v5}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 9
     invoke-virtual {v0, v1, v3}, Lkshark/AndroidReferenceMatchers$Companion;->d(Ljava/lang/String;Ljava/lang/String;)Lkshark/n;
 
     move-result-object v3
 
     invoke-interface {p1, v3}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 10
     invoke-virtual {v0, v1, v4}, Lkshark/AndroidReferenceMatchers$Companion;->d(Ljava/lang/String;Ljava/lang/String;)Lkshark/n;
 
     move-result-object v1
@@ -172,14 +161,12 @@
 
     const-string v1, "sun.misc.Cleaner"
 
-    .line 11
     invoke-virtual {v0, v1, v2}, Lkshark/AndroidReferenceMatchers$Companion;->d(Ljava/lang/String;Ljava/lang/String;)Lkshark/n;
 
     move-result-object v2
 
     invoke-interface {p1, v2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 12
     invoke-virtual {v0, v1, v4}, Lkshark/AndroidReferenceMatchers$Companion;->d(Ljava/lang/String;Ljava/lang/String;)Lkshark/n;
 
     move-result-object v0

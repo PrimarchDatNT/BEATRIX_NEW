@@ -44,10 +44,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/i/a$a$a;->a:Lcom/meitu/libmtsns/framwork/i/a$a;
 
     return-void
@@ -63,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/libmtsns/framwork/i/a$a$a;->a:Lcom/meitu/libmtsns/framwork/i/a$a;
 
     return-object v0
@@ -77,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/libmtsns/framwork/i/a$a$a;->a:Lcom/meitu/libmtsns/framwork/i/a$a;
 
     iput-boolean p1, v0, Lcom/meitu/libmtsns/framwork/i/a$a;->f:Z
@@ -95,7 +91,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/libmtsns/framwork/i/a$a$a;->a:Lcom/meitu/libmtsns/framwork/i/a$a;
 
     iput-object p1, v0, Lcom/meitu/libmtsns/framwork/i/a$a;->g:Ljava/lang/String;

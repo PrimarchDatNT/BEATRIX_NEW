@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$a;->a:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->i()Z
@@ -55,7 +54,6 @@
 
     invoke-virtual {v0, v1, v2, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->l(ZZZ)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

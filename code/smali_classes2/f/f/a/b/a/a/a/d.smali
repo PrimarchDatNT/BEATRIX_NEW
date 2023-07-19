@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.play.core.install.protocol.IInstallService"
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lf/f/a/a/b;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
 
     return-void
@@ -41,26 +40,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lf/f/a/a/b;->s()Landroid/os/Parcel;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v0, p2}, Landroid/os/Parcel;->writeTypedList(Ljava/util/List;)V
 
-    .line 4
     invoke-static {v0, p3}, Lf/f/a/a/d;->c(Landroid/os/Parcel;Landroid/os/Parcelable;)V
 
-    .line 5
     invoke-static {v0, p4}, Lf/f/a/a/d;->b(Landroid/os/Parcel;Landroid/os/IInterface;)V
 
     const/4 p1, 0x1
 
-    .line 6
     invoke-virtual {p0, p1, v0}, Lf/f/a/a/b;->B0(ILandroid/os/Parcel;)V
 
     return-void
@@ -74,23 +67,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lf/f/a/a/b;->s()Landroid/os/Parcel;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0, p2}, Lf/f/a/a/d;->c(Landroid/os/Parcel;Landroid/os/Parcelable;)V
 
-    .line 4
     invoke-static {v0, p3}, Lf/f/a/a/d;->b(Landroid/os/Parcel;Landroid/os/IInterface;)V
 
     const/4 p1, 0x2
 
-    .line 5
     invoke-virtual {p0, p1, v0}, Lf/f/a/a/b;->B0(ILandroid/os/Parcel;)V
 
     return-void

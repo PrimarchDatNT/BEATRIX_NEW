@@ -26,7 +26,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/easyeditor/utils/opengl/Rotation;->values()[Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     move-result-object v1

@@ -13,10 +13,8 @@
 .method public constructor <init>(I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransport;-><init>()V
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/TByteArrayOutputStream;
 
     invoke-direct {v0, p1}, Lorg/apache/thrift/TByteArrayOutputStream;-><init>(I)V
@@ -37,7 +35,6 @@
 .method public getArray()[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TMemoryBuffer;->arr_:Lorg/apache/thrift/TByteArrayOutputStream;
 
     invoke-virtual {v0}, Lorg/apache/thrift/TByteArrayOutputStream;->get()[B
@@ -50,12 +47,10 @@
 .method public inspect()Ljava/lang/String;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lorg/apache/thrift/transport/TMemoryBuffer;->arr_:Lorg/apache/thrift/TByteArrayOutputStream;
 
     invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
@@ -64,13 +59,11 @@
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     array-length v3, v1
 
     if-ge v2, v3, :cond_1
 
-    .line 4
     iget v3, p0, Lorg/apache/thrift/transport/TMemoryBuffer;->pos_:I
 
     if-ne v3, v2, :cond_0
@@ -103,7 +96,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -123,7 +115,6 @@
 .method public length()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TMemoryBuffer;->arr_:Lorg/apache/thrift/TByteArrayOutputStream;
 
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->size()I
@@ -142,14 +133,12 @@
 .method public read([BII)I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TMemoryBuffer;->arr_:Lorg/apache/thrift/TByteArrayOutputStream;
 
     invoke-virtual {v0}, Lorg/apache/thrift/TByteArrayOutputStream;->get()[B
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lorg/apache/thrift/transport/TMemoryBuffer;->arr_:Lorg/apache/thrift/TByteArrayOutputStream;
 
     invoke-virtual {v1}, Lorg/apache/thrift/TByteArrayOutputStream;->len()I
@@ -175,12 +164,10 @@
     :cond_0
     if-lez p3, :cond_1
 
-    .line 3
     iget v1, p0, Lorg/apache/thrift/transport/TMemoryBuffer;->pos_:I
 
     invoke-static {v0, v1, p1, p2, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 4
     iget p1, p0, Lorg/apache/thrift/transport/TMemoryBuffer;->pos_:I
 
     add-int/2addr p1, p3
@@ -199,7 +186,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TMemoryBuffer;->arr_:Lorg/apache/thrift/TByteArrayOutputStream;
 
     invoke-virtual {v0, p1}, Ljava/io/ByteArrayOutputStream;->toString(Ljava/lang/String;)Ljava/lang/String;
@@ -212,7 +198,6 @@
 .method public write([BII)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TMemoryBuffer;->arr_:Lorg/apache/thrift/TByteArrayOutputStream;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/ByteArrayOutputStream;->write([BII)V

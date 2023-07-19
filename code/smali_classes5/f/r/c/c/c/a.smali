@@ -37,13 +37,10 @@
 .method public constructor <init>(Lf/r/c/d/b;Lf/r/c/d/d;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/r/c/c/c/a;->a:Lf/r/c/d/b;
 
-    .line 3
     iput-object p2, p0, Lf/r/c/c/c/a;->b:Lf/r/c/d/d;
 
     return-void
@@ -54,7 +51,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/c/a;->a:Lf/r/c/d/b;
 
     const-string v1, "url"
@@ -72,14 +68,12 @@
     :cond_0
     const-string v2, "//"
 
-    .line 2
     invoke-virtual {v0, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -99,7 +93,6 @@
     :cond_1
     const-string v2, "http"
 
-    .line 4
     invoke-virtual {v0, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v2
@@ -116,7 +109,6 @@
 
     return-object v1
 
-    .line 5
     :cond_2
     :goto_0
     :try_start_0
@@ -135,7 +127,6 @@
 .method private b(Z)V
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -152,10 +143,8 @@
     :goto_0
     const-string v1, "status"
 
-    .line 2
     invoke-virtual {v0, v1, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance p1, Lf/r/c/d/b;
 
     iget-object v1, p0, Lf/r/c/c/c/a;->a:Lf/r/c/d/b;
@@ -164,7 +153,6 @@
 
     invoke-direct {p1, v2, v1, v0}, Lf/r/c/d/b;-><init>(Ljava/lang/String;Lf/r/c/d/b;Ljava/util/Map;)V
 
-    .line 4
     iget-object v0, p0, Lf/r/c/c/c/a;->b:Lf/r/c/d/d;
 
     invoke-virtual {v0, p1}, Lf/r/c/d/d;->g(Lf/r/c/d/b;)V
@@ -185,7 +173,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lf/r/c/c/c/a;->a()Ljava/net/URL;
 
     move-result-object v0
@@ -194,14 +181,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0, v1}, Lf/r/c/c/c/a;->b(Z)V
 
     const-string v0, ""
 
     return-object v0
 
-    .line 3
     :cond_0
     sget-object v2, Lf/r/c/c/c/a;->c:Ljava/lang/String;
 
@@ -213,13 +198,11 @@
 
     const/4 v2, 0x0
 
-    .line 4
     :try_start_0
     invoke-static {}, Ljava/net/CookieHandler;->getDefault()Ljava/net/CookieHandler;
 
     move-result-object v3
 
-    .line 5
     invoke-static {v2}, Ljava/net/CookieHandler;->setDefault(Ljava/net/CookieHandler;)V
     :try_end_0
     .catch Ljava/lang/SecurityException; {:try_start_0 .. :try_end_0} :catch_0
@@ -234,7 +217,6 @@
     :goto_0
     const-string v3, "---"
 
-    .line 6
     invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object v0
@@ -243,16 +225,13 @@
 
     if-eqz v2, :cond_1
 
-    .line 7
     invoke-static {v2}, Ljava/net/CookieHandler;->setDefault(Ljava/net/CookieHandler;)V
 
     :cond_1
     const-string v2, "GET"
 
-    .line 8
     invoke-virtual {v0, v2}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
-    .line 9
     iget-object v2, p0, Lf/r/c/c/c/a;->b:Lf/r/c/d/d;
 
     invoke-virtual {v2}, Lf/r/c/d/d;->e()Ljava/lang/String;
@@ -265,7 +244,6 @@
 
     const-string v2, "http.agent"
 
-    .line 10
     invoke-static {v2}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -274,23 +252,19 @@
 
     invoke-virtual {v0, v4, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     :try_start_1
     invoke-virtual {v0, v1}, Ljava/net/HttpURLConnection;->setChunkedStreamingMode(I)V
 
-    .line 12
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v2
 
-    .line 13
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
 
     const-string v4, "BeaconPool"
 
-    .line 14
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -317,12 +291,10 @@
 
     const/4 v2, 0x1
 
-    .line 15
     invoke-direct {p0, v2}, Lf/r/c/c/c/a;->b(Z)V
 
     goto :goto_1
 
-    .line 16
     :cond_2
     invoke-direct {p0, v1}, Lf/r/c/c/c/a;->b(Z)V
     :try_end_1
@@ -336,14 +308,12 @@
 
     goto :goto_2
 
-    .line 17
     :catch_1
     :try_start_2
     invoke-direct {p0, v1}, Lf/r/c/c/c/a;->b(Z)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 18
     :goto_1
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 
@@ -352,7 +322,6 @@
     :goto_2
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 
-    .line 19
     throw v1
 .end method
 
@@ -367,7 +336,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lf/r/c/c/c/a;->c()Ljava/lang/String;
 
     move-result-object v0

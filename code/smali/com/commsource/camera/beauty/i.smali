@@ -13,20 +13,16 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/beauty/h;
 
     invoke-direct {v0}, Lcom/commsource/camera/beauty/h;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/beauty/i;->b:Lcom/commsource/camera/beauty/h;
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/camera/beauty/i;->a:Landroid/app/Activity;
 
-    .line 4
     invoke-virtual {v0, p1}, Lcom/commsource/camera/beauty/h;->f(Landroid/content/Context;)V
 
     return-void
@@ -41,7 +37,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/i;->b:Lcom/commsource/camera/beauty/h;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/beauty/h;->q(I)Z
@@ -60,12 +55,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/i;->b:Lcom/commsource/camera/beauty/h;
 
     invoke-virtual {v1, p1, p2, p3, p4}, Lcom/commsource/camera/beauty/h;->r(Landroidx/fragment/app/FragmentActivity;Ljava/lang/String;ZLcom/commsource/camera/beauty/h$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

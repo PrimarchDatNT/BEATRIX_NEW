@@ -29,7 +29,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,19 +39,16 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/util/l;->g:Ljava/lang/Boolean;
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/common/util/v;->n()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
@@ -72,7 +68,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -80,7 +75,6 @@
 
     sput-object p0, Lcom/google/android/gms/common/util/l;->g:Ljava/lang/Boolean;
 
-    .line 5
     :cond_1
     sget-object p0, Lcom/google/android/gms/common/util/l;->g:Ljava/lang/Boolean;
 
@@ -96,19 +90,16 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/util/l;->e:Ljava/lang/Boolean;
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
 
     const-string v0, "com.google.android.feature.services_updater"
 
-    .line 3
     invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     move-result v0
@@ -117,7 +108,6 @@
 
     const-string v0, "cn.google.services"
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     move-result p0
@@ -131,7 +121,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 5
     :goto_0
     invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -139,7 +128,6 @@
 
     sput-object p0, Lcom/google/android/gms/common/util/l;->e:Ljava/lang/Boolean;
 
-    .line 6
     :cond_1
     sget-object p0, Lcom/google/android/gms/common/util/l;->e:Ljava/lang/Boolean;
 
@@ -159,19 +147,16 @@
         value = 0x15
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/util/l;->d:Ljava/lang/Boolean;
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/common/util/v;->j()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
@@ -191,7 +176,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -199,7 +183,6 @@
 
     sput-object p0, Lcom/google/android/gms/common/util/l;->d:Ljava/lang/Boolean;
 
-    .line 5
     :cond_1
     sget-object p0, Lcom/google/android/gms/common/util/l;->d:Ljava/lang/Boolean;
 
@@ -221,13 +204,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     sget-object v1, Lcom/google/android/gms/common/util/l;->a:Ljava/lang/Boolean;
 
     if-nez v1, :cond_6
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     move-result-object v1
@@ -252,17 +233,14 @@
     :goto_0
     if-nez v1, :cond_4
 
-    .line 3
     sget-object v1, Lcom/google/android/gms/common/util/l;->b:Ljava/lang/Boolean;
 
     if-nez v1, :cond_3
 
-    .line 4
     invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     move-result-object p0
 
-    .line 5
     iget v1, p0, Landroid/content/res/Configuration;->screenLayout:I
 
     and-int/lit8 v1, v1, 0xf
@@ -282,7 +260,6 @@
     :cond_2
     const/4 p0, 0x0
 
-    .line 6
     :goto_1
     invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -290,7 +267,6 @@
 
     sput-object p0, Lcom/google/android/gms/common/util/l;->b:Ljava/lang/Boolean;
 
-    .line 7
     :cond_3
     sget-object p0, Lcom/google/android/gms/common/util/l;->b:Ljava/lang/Boolean;
 
@@ -303,7 +279,6 @@
     :cond_4
     const/4 v0, 0x1
 
-    .line 8
     :cond_5
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -311,7 +286,6 @@
 
     sput-object p0, Lcom/google/android/gms/common/util/l;->a:Ljava/lang/Boolean;
 
-    .line 9
     :cond_6
     sget-object p0, Lcom/google/android/gms/common/util/l;->a:Ljava/lang/Boolean;
 
@@ -327,19 +301,16 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/util/l;->h:Ljava/lang/Boolean;
 
     if-nez v0, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
 
     const-string v0, "com.google.android.tv"
 
-    .line 3
     invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     move-result v0
@@ -348,7 +319,6 @@
 
     const-string v0, "android.hardware.type.television"
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     move-result v0
@@ -357,7 +327,6 @@
 
     const-string v0, "android.software.leanback"
 
-    .line 5
     invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     move-result p0
@@ -375,7 +344,6 @@
     :goto_0
     const/4 p0, 0x1
 
-    .line 6
     :goto_1
     invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -383,7 +351,6 @@
 
     sput-object p0, Lcom/google/android/gms/common/util/l;->h:Ljava/lang/Boolean;
 
-    .line 7
     :cond_2
     sget-object p0, Lcom/google/android/gms/common/util/l;->h:Ljava/lang/Boolean;
 
@@ -399,7 +366,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Landroid/os/Build;->TYPE:Ljava/lang/String;
 
     const-string v1, "user"
@@ -420,19 +386,16 @@
         value = 0x14
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/util/l;->c:Ljava/lang/Boolean;
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/common/util/v;->i()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
@@ -452,7 +415,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -460,7 +422,6 @@
 
     sput-object p0, Lcom/google/android/gms/common/util/l;->c:Ljava/lang/Boolean;
 
-    .line 5
     :cond_1
     sget-object p0, Lcom/google/android/gms/common/util/l;->c:Ljava/lang/Boolean;
 
@@ -480,21 +441,18 @@
         value = 0x1a
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/util/l;->g(Landroid/content/Context;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/common/util/v;->m()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/common/util/l;->c(Landroid/content/Context;)Z
 
     move-result p0
@@ -521,12 +479,10 @@
 .method public static i(Landroid/content/Context;)Z
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/util/l;->f:Ljava/lang/Boolean;
 
     if-nez v0, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
@@ -539,7 +495,6 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
@@ -563,7 +518,6 @@
     :goto_0
     const/4 p0, 0x1
 
-    .line 4
     :goto_1
     invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -571,7 +525,6 @@
 
     sput-object p0, Lcom/google/android/gms/common/util/l;->f:Ljava/lang/Boolean;
 
-    .line 5
     :cond_2
     sget-object p0, Lcom/google/android/gms/common/util/l;->f:Ljava/lang/Boolean;
 

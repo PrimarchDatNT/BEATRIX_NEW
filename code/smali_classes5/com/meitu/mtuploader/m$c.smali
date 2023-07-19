@@ -27,12 +27,10 @@
 .method public constructor <init>(Lcom/meitu/mtuploader/m;Lcom/meitu/mtuploader/bean/MtUploadBean;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtuploader/m$c;->b:Lcom/meitu/mtuploader/m;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/mtuploader/m$c;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     return-void
@@ -47,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtuploader/m$c;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-static {v1}, Lcom/meitu/mtuploader/k;->g(Lcom/meitu/mtuploader/bean/MtUploadBean;)Z

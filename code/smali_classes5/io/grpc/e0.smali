@@ -12,7 +12,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -21,7 +20,6 @@
 .method public static a(Lio/grpc/f;)Ljava/lang/Boolean;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/f;->j()Ljava/lang/Boolean;
 
     move-result-object p0

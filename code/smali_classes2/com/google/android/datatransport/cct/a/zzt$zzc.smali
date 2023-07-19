@@ -80,7 +80,6 @@
 .method static constructor <clinit>()V
     .locals 22
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v1, "MOBILE"
@@ -91,7 +90,6 @@
 
     sput-object v0, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zza:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 2
     new-instance v1, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v3, "WIFI"
@@ -102,7 +100,6 @@
 
     sput-object v1, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzb:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 3
     new-instance v3, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v5, "MOBILE_MMS"
@@ -113,7 +110,6 @@
 
     sput-object v3, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzc:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 4
     new-instance v5, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v7, "MOBILE_SUPL"
@@ -124,7 +120,6 @@
 
     sput-object v5, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzd:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 5
     new-instance v7, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v9, "MOBILE_DUN"
@@ -135,7 +130,6 @@
 
     sput-object v7, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zze:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 6
     new-instance v9, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v11, "MOBILE_HIPRI"
@@ -146,7 +140,6 @@
 
     sput-object v9, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzf:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 7
     new-instance v11, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v13, "WIMAX"
@@ -157,7 +150,6 @@
 
     sput-object v11, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzg:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 8
     new-instance v13, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v15, "BLUETOOTH"
@@ -168,7 +160,6 @@
 
     sput-object v13, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzh:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 9
     new-instance v15, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v14, "DUMMY"
@@ -179,7 +170,6 @@
 
     sput-object v15, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzi:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 10
     new-instance v14, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v12, "ETHERNET"
@@ -190,7 +180,6 @@
 
     sput-object v14, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzj:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 11
     new-instance v12, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v10, "MOBILE_FOTA"
@@ -201,7 +190,6 @@
 
     sput-object v12, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzk:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 12
     new-instance v10, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v8, "MOBILE_IMS"
@@ -212,7 +200,6 @@
 
     sput-object v10, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzl:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 13
     new-instance v8, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v6, "MOBILE_CBS"
@@ -223,7 +210,6 @@
 
     sput-object v8, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzm:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 14
     new-instance v6, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v4, "WIFI_P2P"
@@ -234,7 +220,6 @@
 
     sput-object v6, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzn:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 15
     new-instance v4, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v2, "MOBILE_IA"
@@ -247,7 +232,6 @@
 
     sput-object v4, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzo:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 16
     new-instance v2, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v6, "MOBILE_EMERGENCY"
@@ -260,7 +244,6 @@
 
     sput-object v2, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzp:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 17
     new-instance v6, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v4, "PROXY"
@@ -273,7 +256,6 @@
 
     sput-object v6, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzq:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 18
     new-instance v4, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v2, "VPN"
@@ -286,7 +268,6 @@
 
     sput-object v4, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzr:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 19
     new-instance v2, Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const-string v6, "NONE"
@@ -303,7 +284,6 @@
 
     sput-object v2, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzs:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 20
     new-instance v4, Landroid/util/SparseArray;
 
     invoke-direct {v4}, Landroid/util/SparseArray;-><init>()V
@@ -312,107 +292,88 @@
 
     const/4 v6, 0x0
 
-    .line 21
     invoke-virtual {v4, v6, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     const/4 v0, 0x1
 
-    .line 22
     invoke-virtual {v4, v0, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     const/4 v0, 0x2
 
-    .line 23
     invoke-virtual {v4, v0, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     const/4 v0, 0x3
 
-    .line 24
     invoke-virtual {v4, v0, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     const/4 v0, 0x4
 
-    .line 25
     invoke-virtual {v4, v0, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     const/4 v0, 0x5
 
-    .line 26
     invoke-virtual {v4, v0, v9}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     const/4 v0, 0x6
 
-    .line 27
     invoke-virtual {v4, v0, v11}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     const/4 v0, 0x7
 
-    .line 28
     invoke-virtual {v4, v0, v13}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     const/16 v0, 0x8
 
-    .line 29
     invoke-virtual {v4, v0, v15}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     const/16 v0, 0x9
 
-    .line 30
     invoke-virtual {v4, v0, v14}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     const/16 v0, 0xa
 
-    .line 31
     invoke-virtual {v4, v0, v12}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     const/16 v0, 0xb
 
-    .line 32
     invoke-virtual {v4, v0, v10}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     move-object/from16 v0, v21
 
     const/16 v1, 0xc
 
-    .line 33
     invoke-virtual {v4, v1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     move-object/from16 v0, v16
 
     const/16 v1, 0xd
 
-    .line 34
     invoke-virtual {v4, v1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     move-object/from16 v0, v17
 
     const/16 v1, 0xe
 
-    .line 35
     invoke-virtual {v4, v1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     move-object/from16 v0, v18
 
     const/16 v1, 0xf
 
-    .line 36
     invoke-virtual {v4, v1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     move-object/from16 v0, v19
 
     const/16 v1, 0x10
 
-    .line 37
     invoke-virtual {v4, v1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     move-object/from16 v0, v20
 
     const/16 v1, 0x11
 
-    .line 38
     invoke-virtual {v4, v1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 39
     invoke-virtual {v4, v8, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     return-void
@@ -426,10 +387,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzu:I
 
     return-void
@@ -440,7 +399,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 2
     sget-object v0, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzt:Landroid/util/SparseArray;
 
     invoke-virtual {v0, p0}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -457,7 +415,6 @@
 .method public zza()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/datatransport/cct/a/zzt$zzc;->zzu:I
 
     return v0

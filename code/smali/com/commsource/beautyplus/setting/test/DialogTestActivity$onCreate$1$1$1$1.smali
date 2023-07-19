@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$1;->invoke(Lcom/commsource/widget/dialog/delegate/b;)V
@@ -97,7 +96,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
     const/4 p1, 0x0
@@ -106,10 +104,8 @@
 
     const-string v1, "confirm"
 
-    .line 3
     invoke-static {v1, p1}, Lf/k/c/c/f;->k(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

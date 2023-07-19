@@ -141,7 +141,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     const-class v0, Lio/grpc/internal/DnsNameResolver;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -154,7 +153,6 @@
 
     sput-object v1, Lio/grpc/internal/DnsNameResolver;->s:Ljava/util/logging/Logger;
 
-    .line 2
     new-instance v1, Ljava/util/HashSet;
 
     const-string v2, "clientLanguage"
@@ -169,14 +167,12 @@
 
     move-result-object v2
 
-    .line 3
     invoke-static {v2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
 
     invoke-direct {v1, v2}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 
-    .line 4
     invoke-static {v1}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object v1
@@ -187,7 +183,6 @@
 
     const-string v2, "true"
 
-    .line 5
     invoke-static {v1, v2}, Ljava/lang/System;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -198,7 +193,6 @@
 
     const-string v3, "false"
 
-    .line 6
     invoke-static {v2, v3}, Ljava/lang/System;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -207,35 +201,30 @@
 
     const-string v4, "io.grpc.internal.DnsNameResolverProvider.enable_service_config"
 
-    .line 7
     invoke-static {v4, v3}, Ljava/lang/System;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     sput-object v3, Lio/grpc/internal/DnsNameResolver;->C:Ljava/lang/String;
 
-    .line 8
     invoke-static {v1}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
 
     move-result v1
 
     sput-boolean v1, Lio/grpc/internal/DnsNameResolver;->F:Z
 
-    .line 9
     invoke-static {v2}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
 
     move-result v1
 
     sput-boolean v1, Lio/grpc/internal/DnsNameResolver;->G:Z
 
-    .line 10
     invoke-static {v3}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
 
     move-result v1
 
     sput-boolean v1, Lio/grpc/internal/DnsNameResolver;->H:Z
 
-    .line 11
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v0
@@ -269,22 +258,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/z0;-><init>()V
 
-    .line 2
     new-instance p1, Ljava/util/Random;
 
     invoke-direct {p1}, Ljava/util/Random;-><init>()V
 
     iput-object p1, p0, Lio/grpc/internal/DnsNameResolver;->b:Ljava/util/Random;
 
-    .line 3
     sget-object p1, Lio/grpc/internal/DnsNameResolver$JdkAddressResolver;->INSTANCE:Lio/grpc/internal/DnsNameResolver$JdkAddressResolver;
 
     iput-object p1, p0, Lio/grpc/internal/DnsNameResolver;->c:Lio/grpc/internal/DnsNameResolver$b;
 
-    .line 4
     new-instance p1, Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
@@ -293,13 +278,10 @@
 
     const-string p1, "args"
 
-    .line 5
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     iput-object p4, p0, Lio/grpc/internal/DnsNameResolver;->h:Lio/grpc/internal/v2$d;
 
-    .line 7
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -326,7 +308,6 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1}, Ljava/net/URI;->getHost()Ljava/lang/String;
 
     move-result-object p4
@@ -349,7 +330,6 @@
 
     invoke-static {p4, v2, p2}, Lcom/google/common/base/t;->u(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 9
     invoke-virtual {p1}, Ljava/net/URI;->getAuthority()Ljava/lang/String;
 
     move-result-object p2
@@ -364,14 +344,12 @@
 
     iput-object p2, p0, Lio/grpc/internal/DnsNameResolver;->e:Ljava/lang/String;
 
-    .line 10
     invoke-virtual {p1}, Ljava/net/URI;->getHost()Ljava/lang/String;
 
     move-result-object p2
 
     iput-object p2, p0, Lio/grpc/internal/DnsNameResolver;->f:Ljava/lang/String;
 
-    .line 11
     invoke-virtual {p1}, Ljava/net/URI;->getPort()I
 
     move-result p2
@@ -380,7 +358,6 @@
 
     if-ne p2, p4, :cond_1
 
-    .line 12
     invoke-virtual {p3}, Lio/grpc/z0$b;->b()I
 
     move-result p1
@@ -389,7 +366,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_1
     invoke-virtual {p1}, Ljava/net/URI;->getPort()I
 
@@ -397,7 +373,6 @@
 
     iput p1, p0, Lio/grpc/internal/DnsNameResolver;->g:I
 
-    .line 14
     :goto_1
     invoke-virtual {p3}, Lio/grpc/z0$b;->d()Lio/grpc/h1;
 
@@ -413,7 +388,6 @@
 
     iput-object p1, p0, Lio/grpc/internal/DnsNameResolver;->a:Lio/grpc/h1;
 
-    .line 15
     invoke-static {p6}, Lio/grpc/internal/DnsNameResolver;->t(Z)J
 
     move-result-wide p1
@@ -422,7 +396,6 @@
 
     const-string p1, "stopwatch"
 
-    .line 16
     invoke-static {p5, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -431,7 +404,6 @@
 
     iput-object p1, p0, Lio/grpc/internal/DnsNameResolver;->k:Lcom/google/common/base/x;
 
-    .line 17
     invoke-virtual {p3}, Lio/grpc/z0$b;->g()Lio/grpc/w1;
 
     move-result-object p1
@@ -446,7 +418,6 @@
 
     iput-object p1, p0, Lio/grpc/internal/DnsNameResolver;->j:Lio/grpc/w1;
 
-    .line 18
     invoke-virtual {p3}, Lio/grpc/z0$b;->c()Ljava/util/concurrent/Executor;
 
     move-result-object p1
@@ -460,11 +431,9 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 19
     :goto_2
     iput-boolean v0, p0, Lio/grpc/internal/DnsNameResolver;->o:Z
 
-    .line 20
     invoke-virtual {p3}, Lio/grpc/z0$b;->f()Lio/grpc/z0$j;
 
     move-result-object p1
@@ -506,12 +475,10 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -531,14 +498,12 @@
 
     const-string v2, "grpc_config="
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 4
     sget-object v2, Lio/grpc/internal/DnsNameResolver;->s:Ljava/util/logging/Logger;
 
     sget-object v3, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -560,7 +525,6 @@
     :cond_0
     const/16 v2, 0xc
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v1
@@ -569,15 +533,12 @@
 
     move-result-object v1
 
-    .line 6
     instance-of v2, v1, Ljava/util/List;
 
     if-eqz v2, :cond_1
 
-    .line 7
     check-cast v1, Ljava/util/List;
 
-    .line 8
     invoke-static {v1}, Lio/grpc/internal/i1;->a(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v1
@@ -586,7 +547,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     new-instance p0, Ljava/lang/ClassCastException;
 
@@ -615,7 +575,6 @@
 .method private B()V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/DnsNameResolver;->q:Z
 
     if-nez v0, :cond_1
@@ -635,10 +594,8 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lio/grpc/internal/DnsNameResolver;->q:Z
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver;->n:Ljava/util/concurrent/Executor;
 
     new-instance v1, Lio/grpc/internal/DnsNameResolver$d;
@@ -667,7 +624,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lio/grpc/internal/DnsNameResolver;->c:Lio/grpc/internal/DnsNameResolver$b;
 
@@ -680,7 +636,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -689,7 +644,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -707,7 +661,6 @@
 
     check-cast v2, Ljava/net/InetAddress;
 
-    .line 4
     new-instance v3, Lio/grpc/u;
 
     new-instance v4, Ljava/net/InetSocketAddress;
@@ -722,7 +675,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
@@ -738,11 +690,9 @@
     :catch_0
     move-exception v0
 
-    .line 6
     :try_start_1
     invoke-static {v0}, Lcom/google/common/base/a0;->A(Ljava/lang/Throwable;)V
 
-    .line 7
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -754,7 +704,6 @@
     :goto_1
     if-eqz v0, :cond_1
 
-    .line 8
     sget-object v2, Lio/grpc/internal/DnsNameResolver;->s:Ljava/util/logging/Logger;
 
     sget-object v3, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -772,19 +721,16 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Lio/grpc/internal/DnsNameResolver;->w()Lio/grpc/internal/DnsNameResolver$e;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     :try_start_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -813,7 +759,6 @@
     :catch_0
     move-exception v1
 
-    .line 4
     sget-object v2, Lio/grpc/internal/DnsNameResolver;->s:Ljava/util/logging/Logger;
 
     sget-object v3, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -822,7 +767,6 @@
 
     invoke-virtual {v2, v3, v4, v1}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 5
     :cond_0
     :goto_0
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -831,7 +775,6 @@
 
     if-nez v1, :cond_2
 
-    .line 6
     iget-object v1, p0, Lio/grpc/internal/DnsNameResolver;->b:Ljava/util/Random;
 
     invoke-static {}, Lio/grpc/internal/DnsNameResolver;->s()Ljava/lang/String;
@@ -844,14 +787,12 @@
 
     if-eqz v0, :cond_3
 
-    .line 7
     invoke-virtual {v0}, Lio/grpc/z0$c;->d()Lio/grpc/Status;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-virtual {v0}, Lio/grpc/z0$c;->d()Lio/grpc/Status;
 
     move-result-object v0
@@ -862,7 +803,6 @@
 
     return-object v0
 
-    .line 9
     :cond_1
     invoke-virtual {v0}, Lio/grpc/z0$c;->c()Ljava/lang/Object;
 
@@ -870,7 +810,6 @@
 
     check-cast v0, Ljava/util/Map;
 
-    .line 10
     iget-object v1, p0, Lio/grpc/internal/DnsNameResolver;->p:Lio/grpc/z0$j;
 
     invoke-virtual {v1, v0}, Lio/grpc/z0$j;->a(Ljava/util/Map;)Lio/grpc/z0$c;
@@ -879,7 +818,6 @@
 
     return-object v0
 
-    .line 11
     :cond_2
     sget-object v0, Lio/grpc/internal/DnsNameResolver;->s:Ljava/util/logging/Logger;
 
@@ -919,7 +857,6 @@
     :cond_0
     const-string p0, "localhost"
 
-    .line 1
     invoke-virtual {p0, p2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p0
@@ -931,7 +868,6 @@
     :cond_1
     const-string p0, ":"
 
-    .line 2
     invoke-virtual {p2, p0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result p0
@@ -947,7 +883,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     :goto_0
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
@@ -955,7 +890,6 @@
 
     if-ge p1, v2, :cond_5
 
-    .line 4
     invoke-virtual {p2, p1}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
@@ -996,7 +930,6 @@
 .method static synthetic f(Lio/grpc/internal/DnsNameResolver;)Lio/grpc/w1;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/DnsNameResolver;->j:Lio/grpc/w1;
 
     return-object p0
@@ -1005,7 +938,6 @@
 .method static synthetic g()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/DnsNameResolver;->s:Ljava/util/logging/Logger;
 
     return-object v0
@@ -1014,7 +946,6 @@
 .method static synthetic h(Lio/grpc/internal/DnsNameResolver;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/DnsNameResolver;->f:Ljava/lang/String;
 
     return-object p0
@@ -1028,7 +959,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/internal/DnsNameResolver;->n()Lio/grpc/u;
 
     move-result-object p0
@@ -1039,7 +969,6 @@
 .method static synthetic j(Lio/grpc/internal/DnsNameResolver;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/grpc/internal/DnsNameResolver;->i:J
 
     return-wide v0
@@ -1048,7 +977,6 @@
 .method static synthetic k(Lio/grpc/internal/DnsNameResolver;)Lcom/google/common/base/x;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/DnsNameResolver;->k:Lcom/google/common/base/x;
 
     return-object p0
@@ -1057,7 +985,6 @@
 .method static synthetic l(Lio/grpc/internal/DnsNameResolver;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/internal/DnsNameResolver;->q:Z
 
     return p1
@@ -1066,7 +993,6 @@
 .method private m()Z
     .locals 5
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/DnsNameResolver;->l:Z
 
     if-eqz v0, :cond_1
@@ -1087,7 +1013,6 @@
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/google/common/base/x;->g(Ljava/util/concurrent/TimeUnit;)J
 
     move-result-wide v0
@@ -1124,17 +1049,14 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver;->f:Ljava/lang/String;
 
     iget v1, p0, Lio/grpc/internal/DnsNameResolver;->g:I
 
-    .line 2
     invoke-static {v0, v1}, Ljava/net/InetSocketAddress;->createUnresolved(Ljava/lang/String;I)Ljava/net/InetSocketAddress;
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lio/grpc/internal/DnsNameResolver;->a:Lio/grpc/h1;
 
     invoke-interface {v1, v0}, Lio/grpc/h1;->a(Ljava/net/SocketAddress;)Lio/grpc/ProxiedSocketAddress;
@@ -1143,7 +1065,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     new-instance v1, Lio/grpc/u;
 
     invoke-direct {v1, v0}, Lio/grpc/u;-><init>(Ljava/net/SocketAddress;)V
@@ -1175,7 +1096,6 @@
 
     const-string v0, "clientLanguage"
 
-    .line 1
     invoke-static {p0, v0}, Lio/grpc/internal/i1;->g(Ljava/util/Map;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p0
@@ -1202,7 +1122,6 @@
 
     const-string v0, "clientHostname"
 
-    .line 1
     invoke-static {p0, v0}, Lio/grpc/internal/i1;->g(Ljava/util/Map;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p0
@@ -1213,12 +1132,10 @@
 .method private static s()Ljava/lang/String;
     .locals 2
 
-    .line 1
     sget-object v0, Lio/grpc/internal/DnsNameResolver;->J:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {}, Ljava/net/InetAddress;->getLocalHost()Ljava/net/InetAddress;
 
@@ -1237,14 +1154,12 @@
     :catch_0
     move-exception v0
 
-    .line 3
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
 
     throw v1
 
-    .line 4
     :cond_0
     :goto_0
     sget-object v0, Lio/grpc/internal/DnsNameResolver;->J:Ljava/lang/String;
@@ -1264,7 +1179,6 @@
     :cond_0
     const-string p0, "networkaddress.cache.ttl"
 
-    .line 1
     invoke-static {p0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -1273,7 +1187,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 2
     :try_start_0
     invoke-static {v2}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
@@ -1283,7 +1196,6 @@
 
     goto :goto_0
 
-    .line 3
     :catch_0
     sget-object v5, Lio/grpc/internal/DnsNameResolver;->s:Ljava/util/logging/Logger;
 
@@ -1303,7 +1215,6 @@
 
     const/4 p0, 0x2
 
-    .line 4
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v2
@@ -1312,7 +1223,6 @@
 
     const-string p0, "Property({0}) valid is not valid number format({1}), fall back to default({2})"
 
-    .line 5
     invoke-virtual {v5, v6, p0, v7}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :cond_1
@@ -1321,7 +1231,6 @@
 
     if-lez p0, :cond_2
 
-    .line 6
     sget-object p0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-virtual {p0, v3, v4}, Ljava/util/concurrent/TimeUnit;->toNanos(J)J
@@ -1349,7 +1258,6 @@
 
     const-string v0, "percentage"
 
-    .line 1
     invoke-static {p0, v0}, Lio/grpc/internal/i1;->h(Ljava/util/Map;Ljava/lang/String;)Ljava/lang/Double;
 
     move-result-object p0
@@ -1372,14 +1280,12 @@
 
     const/4 v2, 0x1
 
-    .line 1
     invoke-static {v1, v2, p0}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     move-result-object p0
 
     const-class v1, Lio/grpc/internal/DnsNameResolver$f;
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
 
     move-result-object p0
@@ -1392,7 +1298,6 @@
     :try_start_1
     new-array v2, v1, [Ljava/lang/Class;
 
-    .line 3
     invoke-virtual {p0, v2}, Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object p0
@@ -1402,7 +1307,6 @@
     :try_start_2
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p0, v1}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1411,26 +1315,22 @@
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 5
     invoke-interface {p0}, Lio/grpc/internal/DnsNameResolver$f;->b()Ljava/lang/Throwable;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 6
     sget-object v1, Lio/grpc/internal/DnsNameResolver;->s:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
 
-    .line 7
     invoke-interface {p0}, Lio/grpc/internal/DnsNameResolver$f;->b()Ljava/lang/Throwable;
 
     move-result-object p0
 
     const-string v3, "JndiResourceResolverFactory not available, skipping."
 
-    .line 8
     invoke-virtual {v1, v2, v3, p0}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-object v0
@@ -1441,7 +1341,6 @@
     :catch_0
     move-exception p0
 
-    .line 9
     sget-object v1, Lio/grpc/internal/DnsNameResolver;->s:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -1455,7 +1354,6 @@
     :catch_1
     move-exception p0
 
-    .line 10
     sget-object v1, Lio/grpc/internal/DnsNameResolver;->s:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -1469,7 +1367,6 @@
     :catch_2
     move-exception p0
 
-    .line 11
     sget-object v1, Lio/grpc/internal/DnsNameResolver;->s:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -1483,7 +1380,6 @@
     :catch_3
     move-exception p0
 
-    .line 12
     sget-object v1, Lio/grpc/internal/DnsNameResolver;->s:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -1518,7 +1414,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -1540,7 +1435,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 2
     sget-object v2, Lio/grpc/internal/DnsNameResolver;->y:Ljava/util/Set;
 
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -1557,7 +1451,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lio/grpc/internal/DnsNameResolver;->p(Ljava/util/Map;)Ljava/util/List;
 
@@ -1571,14 +1464,12 @@
 
     if-eqz v0, :cond_3
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v4
 
     if-nez v4, :cond_3
 
-    .line 5
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -1598,7 +1489,6 @@
 
     const-string v5, "java"
 
-    .line 6
     invoke-virtual {v5, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v4
@@ -1617,7 +1507,6 @@
 
     return-object v1
 
-    .line 7
     :cond_3
     invoke-static {p0}, Lio/grpc/internal/DnsNameResolver;->u(Ljava/util/Map;)Ljava/lang/Double;
 
@@ -1625,7 +1514,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 8
     invoke-virtual {v0}, Ljava/lang/Double;->intValue()I
 
     move-result v4
@@ -1646,10 +1534,8 @@
     :goto_2
     const-string v7, "Bad percentage: %s"
 
-    .line 9
     invoke-static {v6, v7, v0}, Lcom/google/common/base/g0;->q(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 10
     invoke-virtual {p1, v5}, Ljava/util/Random;->nextInt(I)I
 
     move-result p1
@@ -1658,7 +1544,6 @@
 
     return-object v1
 
-    .line 11
     :cond_5
     invoke-static {p0}, Lio/grpc/internal/DnsNameResolver;->r(Ljava/util/Map;)Ljava/util/List;
 
@@ -1666,14 +1551,12 @@
 
     if-eqz p1, :cond_8
 
-    .line 12
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_8
 
-    .line 13
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1691,7 +1574,6 @@
 
     check-cast v0, Ljava/lang/String;
 
-    .line 14
     invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -1713,7 +1595,6 @@
     :cond_8
     const-string p1, "serviceConfig"
 
-    .line 15
     invoke-static {p0, p1}, Lio/grpc/internal/i1;->k(Ljava/util/Map;Ljava/lang/String;)Ljava/util/Map;
 
     move-result-object p2
@@ -1722,7 +1603,6 @@
 
     return-object p2
 
-    .line 16
     :cond_9
     new-instance p2, Lcom/google/common/base/VerifyException;
 
@@ -1763,7 +1643,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lio/grpc/internal/DnsNameResolver;->A(Ljava/util/List;)Ljava/util/List;
 
@@ -1772,7 +1651,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -1794,7 +1672,6 @@
 
     check-cast v1, Ljava/util/Map;
 
-    .line 3
     :try_start_1
     invoke-static {v1, p1, p2}, Lio/grpc/internal/DnsNameResolver;->y(Ljava/util/Map;Ljava/util/Random;Ljava/lang/String;)Ljava/util/Map;
 
@@ -1809,12 +1686,10 @@
     :catch_0
     move-exception p0
 
-    .line 4
     sget-object p1, Lio/grpc/Status;->i:Lio/grpc/Status;
 
     const-string p2, "failed to pick service config choice"
 
-    .line 5
     invoke-virtual {p1, p2}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object p1
@@ -1823,7 +1698,6 @@
 
     move-result-object p0
 
-    .line 6
     invoke-static {p0}, Lio/grpc/z0$c;->b(Lio/grpc/Status;)Lio/grpc/z0$c;
 
     move-result-object p0
@@ -1836,7 +1710,6 @@
 
     return-object v0
 
-    .line 7
     :cond_2
     invoke-static {v1}, Lio/grpc/z0$c;->a(Ljava/lang/Object;)Lio/grpc/z0$c;
 
@@ -1852,13 +1725,11 @@
     :catch_2
     move-exception p0
 
-    .line 8
     :goto_1
     sget-object p1, Lio/grpc/Status;->i:Lio/grpc/Status;
 
     const-string p2, "failed to parse TXT records"
 
-    .line 9
     invoke-virtual {p1, p2}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object p1
@@ -1867,7 +1738,6 @@
 
     move-result-object p0
 
-    .line 10
     invoke-static {p0}, Lio/grpc/z0$c;->b(Lio/grpc/Status;)Lio/grpc/z0$c;
 
     move-result-object p0
@@ -1882,7 +1752,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/DnsNameResolver;->c:Lio/grpc/internal/DnsNameResolver$b;
 
     return-void
@@ -1893,7 +1762,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver;->d:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
@@ -1904,7 +1772,6 @@
 .method public a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver;->e:Ljava/lang/String;
 
     return-object v0
@@ -1913,7 +1780,6 @@
 .method public b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver;->r:Lio/grpc/z0$f;
 
     if-eqz v0, :cond_0
@@ -1930,7 +1796,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/DnsNameResolver;->B()V
 
     return-void
@@ -1939,7 +1804,6 @@
 .method public c()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/DnsNameResolver;->m:Z
 
     if-eqz v0, :cond_0
@@ -1949,10 +1813,8 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lio/grpc/internal/DnsNameResolver;->m:Z
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver;->n:Ljava/util/concurrent/Executor;
 
     if-eqz v0, :cond_1
@@ -1961,7 +1823,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lio/grpc/internal/DnsNameResolver;->h:Lio/grpc/internal/v2$d;
 
     invoke-static {v1, v0}, Lio/grpc/internal/v2;->f(Lio/grpc/internal/v2$d;Ljava/lang/Object;)Ljava/lang/Object;
@@ -1979,7 +1840,6 @@
 .method public d(Lio/grpc/z0$f;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver;->r:Lio/grpc/z0$f;
 
     if-nez v0, :cond_0
@@ -1996,12 +1856,10 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     iget-boolean v0, p0, Lio/grpc/internal/DnsNameResolver;->o:Z
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver;->h:Lio/grpc/internal/v2$d;
 
     invoke-static {v0}, Lio/grpc/internal/v2;->d(Lio/grpc/internal/v2$d;)Ljava/lang/Object;
@@ -2015,7 +1873,6 @@
     :cond_1
     const-string v0, "listener"
 
-    .line 4
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -2024,7 +1881,6 @@
 
     iput-object p1, p0, Lio/grpc/internal/DnsNameResolver;->r:Lio/grpc/z0$f;
 
-    .line 5
     invoke-direct {p0}, Lio/grpc/internal/DnsNameResolver;->B()V
 
     return-void
@@ -2033,14 +1889,12 @@
 .method protected o(Z)Lio/grpc/internal/DnsNameResolver$c;
     .locals 4
 
-    .line 1
     new-instance v0, Lio/grpc/internal/DnsNameResolver$c;
 
     const/4 v1, 0x0
 
     invoke-direct {v0, v1}, Lio/grpc/internal/DnsNameResolver$c;-><init>(Lio/grpc/internal/DnsNameResolver$a;)V
 
-    .line 2
     :try_start_0
     invoke-direct {p0}, Lio/grpc/internal/DnsNameResolver;->C()Ljava/util/List;
 
@@ -2057,7 +1911,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     sget-object p1, Lio/grpc/Status;->v:Lio/grpc/Status;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -2076,7 +1929,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p1, v2}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object p1
@@ -2085,19 +1937,16 @@
 
     move-result-object p1
 
-    .line 5
     invoke-static {v0, p1}, Lio/grpc/internal/DnsNameResolver$c;->d(Lio/grpc/internal/DnsNameResolver$c;Lio/grpc/Status;)Lio/grpc/Status;
 
     return-object v0
 
-    .line 6
     :cond_0
     :goto_0
     sget-boolean p1, Lio/grpc/internal/DnsNameResolver;->H:Z
 
     if-eqz p1, :cond_1
 
-    .line 7
     invoke-direct {p0}, Lio/grpc/internal/DnsNameResolver;->D()Lio/grpc/z0$c;
 
     move-result-object p1
@@ -2113,7 +1962,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver;->f:Ljava/lang/String;
 
     return-object v0
@@ -2122,7 +1970,6 @@
 .method final v()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/internal/DnsNameResolver;->g:I
 
     return v0
@@ -2133,7 +1980,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     sget-boolean v0, Lio/grpc/internal/DnsNameResolver;->F:Z
 
     sget-boolean v1, Lio/grpc/internal/DnsNameResolver;->G:Z
@@ -2150,7 +1996,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver;->d:Ljava/util/concurrent/atomic/AtomicReference;
 
@@ -2162,12 +2007,10 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     sget-object v1, Lio/grpc/internal/DnsNameResolver;->I:Lio/grpc/internal/DnsNameResolver$f;
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-interface {v1}, Lio/grpc/internal/DnsNameResolver$f;->a()Lio/grpc/internal/DnsNameResolver$e;
 
     move-result-object v0

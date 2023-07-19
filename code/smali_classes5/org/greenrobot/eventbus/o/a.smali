@@ -37,16 +37,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/greenrobot/eventbus/o/a;->a:Ljava/lang/Class;
 
-    .line 3
     iput-object p2, p0, Lorg/greenrobot/eventbus/o/a;->b:Ljava/lang/Class;
 
-    .line 4
     iput-boolean p3, p0, Lorg/greenrobot/eventbus/o/a;->c:Z
 
     return-void
@@ -57,7 +53,6 @@
 .method public b()Ljava/lang/Class;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/eventbus/o/a;->a:Ljava/lang/Class;
 
     return-object v0
@@ -66,7 +61,6 @@
 .method public c()Lorg/greenrobot/eventbus/o/c;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/eventbus/o/a;->b:Ljava/lang/Class;
 
     if-nez v0, :cond_0
@@ -75,7 +69,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-virtual {v0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
@@ -97,7 +90,6 @@
     :catch_1
     move-exception v0
 
-    .line 3
     :goto_0
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -109,7 +101,6 @@
 .method public d()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/greenrobot/eventbus/o/a;->c:Z
 
     return v0
@@ -127,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v3, Lorg/greenrobot/eventbus/ThreadMode;->POSTING:Lorg/greenrobot/eventbus/ThreadMode;
 
     const/4 v4, 0x0
@@ -173,7 +163,6 @@
 
     move-object v3, p3
 
-    .line 1
     invoke-virtual/range {v0 .. v5}, Lorg/greenrobot/eventbus/o/a;->g(Ljava/lang/String;Ljava/lang/Class;Lorg/greenrobot/eventbus/ThreadMode;IZ)Lorg/greenrobot/eventbus/l;
 
     move-result-object p1
@@ -195,7 +184,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/greenrobot/eventbus/o/a;->a:Ljava/lang/Class;
 
@@ -211,7 +199,6 @@
 
     move-result-object v4
 
-    .line 2
     new-instance p1, Lorg/greenrobot/eventbus/l;
 
     move-object v3, p1
@@ -233,7 +220,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance p2, Lorg/greenrobot/eventbus/EventBusException;
 
     new-instance p3, Ljava/lang/StringBuilder;

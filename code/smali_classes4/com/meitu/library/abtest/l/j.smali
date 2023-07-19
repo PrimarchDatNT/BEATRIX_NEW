@@ -29,7 +29,6 @@
 
     new-array v1, v1, [C
 
-    .line 1
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/meitu/library/abtest/l/j;->b:[C
@@ -64,7 +63,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -79,7 +77,6 @@
 
     const-string v1, "0123456789ABCDEF"
 
-    .line 1
     invoke-virtual {v1, p0}, Ljava/lang/String;->indexOf(I)I
 
     move-result p0
@@ -98,24 +95,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
 
     div-int/lit8 v1, v1, 0x2
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object p0
 
-    .line 4
     new-array v2, v1, [B
 
     const/4 v3, 0x0
@@ -125,7 +118,6 @@
 
     mul-int/lit8 v4, v3, 0x2
 
-    .line 5
     aget-char v5, p0, v4
 
     invoke-static {v5}, Lcom/meitu/library/abtest/l/j;->a(C)B
@@ -152,7 +144,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -166,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     array-length v2, p0
@@ -175,7 +165,6 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    .line 2
     array-length v2, p0
 
     const/4 v3, 0x0
@@ -185,7 +174,6 @@
 
     aget-byte v4, p0, v3
 
-    .line 3
     sget-object v5, Lcom/meitu/library/abtest/l/j;->b:[C
 
     and-int/lit16 v6, v4, 0xf0
@@ -198,7 +186,6 @@
 
     and-int/lit8 v4, v4, 0xf
 
-    .line 4
     aget-char v4, v5, v4
 
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
@@ -207,7 +194,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 

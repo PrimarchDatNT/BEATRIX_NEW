@@ -35,12 +35,10 @@
     :cond_0
     if-nez p1, :cond_1
 
-    .line 1
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
 
     goto :goto_0
 
-    .line 2
     :cond_1
     :try_start_0
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
@@ -52,7 +50,6 @@
     :catchall_0
     move-exception p0
 
-    .line 3
     invoke-static {p1, p0}, Lcotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     :goto_0
@@ -80,7 +77,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -90,7 +86,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 2
     invoke-static {v1, v1, v0}, Lcotlin/internal/l;->a(III)Z
 
     move-result v0
@@ -108,11 +103,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
 
-    .line 4
     :goto_0
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
 
@@ -121,7 +114,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -130,10 +122,8 @@
     :catchall_1
     move-exception v2
 
-    .line 6
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {v1, v1, v0}, Lcotlin/internal/l;->a(III)Z
 
     move-result v0
@@ -142,7 +132,6 @@
 
     if-eqz p0, :cond_3
 
-    .line 8
     :try_start_2
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
     :try_end_2
@@ -150,11 +139,9 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     invoke-static {p0, p1}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
-    .line 10
     :catchall_2
     :cond_3
     :goto_1

@@ -16,10 +16,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/slf4j/helpers/g;->a:Ljava/lang/String;
 
     return-void
@@ -30,7 +28,6 @@
 .method b()Lorg/slf4j/c;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/slf4j/helpers/g;->b:Lorg/slf4j/c;
 
     if-eqz v0, :cond_0
@@ -49,7 +46,6 @@
 .method public c(Lorg/slf4j/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/slf4j/helpers/g;->b:Lorg/slf4j/c;
 
     return-void
@@ -58,7 +54,6 @@
 .method public debug(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -71,7 +66,6 @@
 .method public debug(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -84,7 +78,6 @@
 .method public debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
-    .line 3
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -97,7 +90,6 @@
 .method public debug(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 5
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -110,7 +102,6 @@
 .method public varargs debug(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 4
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -123,7 +114,6 @@
 .method public debug(Lorg/slf4j/Marker;Ljava/lang/String;)V
     .locals 1
 
-    .line 6
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -136,7 +126,6 @@
 .method public debug(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 7
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -149,7 +138,6 @@
 .method public debug(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
-    .line 8
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -162,7 +150,6 @@
 .method public debug(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 10
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -175,7 +162,6 @@
 .method public varargs debug(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 9
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -199,7 +185,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v2
@@ -212,11 +197,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     check-cast p1, Lorg/slf4j/helpers/g;
 
-    .line 3
     iget-object v2, p0, Lorg/slf4j/helpers/g;->a:Ljava/lang/String;
 
     iget-object p1, p1, Lorg/slf4j/helpers/g;->a:Ljava/lang/String;
@@ -240,7 +223,6 @@
 .method public error(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -253,7 +235,6 @@
 .method public error(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -266,7 +247,6 @@
 .method public error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
-    .line 3
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -279,7 +259,6 @@
 .method public error(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 5
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -292,7 +271,6 @@
 .method public varargs error(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 4
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -305,7 +283,6 @@
 .method public error(Lorg/slf4j/Marker;Ljava/lang/String;)V
     .locals 1
 
-    .line 6
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -318,7 +295,6 @@
 .method public error(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 7
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -331,7 +307,6 @@
 .method public error(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
-    .line 8
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -344,7 +319,6 @@
 .method public error(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 10
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -357,7 +331,6 @@
 .method public varargs error(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 9
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -370,7 +343,6 @@
 .method public getName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/slf4j/helpers/g;->a:Ljava/lang/String;
 
     return-object v0
@@ -379,7 +351,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/slf4j/helpers/g;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -392,7 +363,6 @@
 .method public info(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -405,7 +375,6 @@
 .method public info(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -418,7 +387,6 @@
 .method public info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
-    .line 3
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -431,7 +399,6 @@
 .method public info(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 5
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -444,7 +411,6 @@
 .method public varargs info(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 4
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -457,7 +423,6 @@
 .method public info(Lorg/slf4j/Marker;Ljava/lang/String;)V
     .locals 1
 
-    .line 6
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -470,7 +435,6 @@
 .method public info(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 7
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -483,7 +447,6 @@
 .method public info(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
-    .line 8
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -496,7 +459,6 @@
 .method public info(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 10
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -509,7 +471,6 @@
 .method public varargs info(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 9
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -522,7 +483,6 @@
 .method public isDebugEnabled()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -537,7 +497,6 @@
 .method public isDebugEnabled(Lorg/slf4j/Marker;)Z
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -552,7 +511,6 @@
 .method public isErrorEnabled()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -567,7 +525,6 @@
 .method public isErrorEnabled(Lorg/slf4j/Marker;)Z
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -582,7 +539,6 @@
 .method public isInfoEnabled()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -597,7 +553,6 @@
 .method public isInfoEnabled(Lorg/slf4j/Marker;)Z
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -612,7 +567,6 @@
 .method public isTraceEnabled()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -627,7 +581,6 @@
 .method public isTraceEnabled(Lorg/slf4j/Marker;)Z
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -642,7 +595,6 @@
 .method public isWarnEnabled()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -657,7 +609,6 @@
 .method public isWarnEnabled(Lorg/slf4j/Marker;)Z
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -672,7 +623,6 @@
 .method public trace(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -685,7 +635,6 @@
 .method public trace(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -698,7 +647,6 @@
 .method public trace(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
-    .line 3
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -711,7 +659,6 @@
 .method public trace(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 5
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -724,7 +671,6 @@
 .method public varargs trace(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 4
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -737,7 +683,6 @@
 .method public trace(Lorg/slf4j/Marker;Ljava/lang/String;)V
     .locals 1
 
-    .line 6
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -750,7 +695,6 @@
 .method public trace(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 7
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -763,7 +707,6 @@
 .method public trace(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
-    .line 8
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -776,7 +719,6 @@
 .method public trace(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 10
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -789,7 +731,6 @@
 .method public varargs trace(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 9
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -802,7 +743,6 @@
 .method public warn(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -815,7 +755,6 @@
 .method public warn(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -828,7 +767,6 @@
 .method public warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
-    .line 3
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -841,7 +779,6 @@
 .method public warn(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 5
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -854,7 +791,6 @@
 .method public varargs warn(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 4
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -867,7 +803,6 @@
 .method public warn(Lorg/slf4j/Marker;Ljava/lang/String;)V
     .locals 1
 
-    .line 6
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -880,7 +815,6 @@
 .method public warn(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 7
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -893,7 +827,6 @@
 .method public warn(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
-    .line 8
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -906,7 +839,6 @@
 .method public warn(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 10
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0
@@ -919,7 +851,6 @@
 .method public varargs warn(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 9
     invoke-virtual {p0}, Lorg/slf4j/helpers/g;->b()Lorg/slf4j/c;
 
     move-result-object v0

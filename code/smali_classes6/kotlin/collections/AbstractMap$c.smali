@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/AbstractMap$c;->a:Lcotlin/collections/AbstractMap;
 
     invoke-direct {p0}, Lcotlin/collections/AbstractCollection;-><init>()V
@@ -48,7 +47,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/AbstractMap$c;->a:Lcotlin/collections/AbstractMap;
 
     invoke-virtual {v0}, Lcotlin/collections/AbstractMap;->size()I
@@ -61,7 +59,6 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/AbstractMap$c;->a:Lcotlin/collections/AbstractMap;
 
     invoke-virtual {v0, p1}, Lcotlin/collections/AbstractMap;->containsValue(Ljava/lang/Object;)Z
@@ -84,7 +81,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/AbstractMap$c;->a:Lcotlin/collections/AbstractMap;
 
     invoke-virtual {v0}, Lcotlin/collections/AbstractMap;->entrySet()Ljava/util/Set;
@@ -95,7 +91,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lcotlin/collections/AbstractMap$c$a;
 
     invoke-direct {v1, v0}, Lcotlin/collections/AbstractMap$c$a;-><init>(Ljava/util/Iterator;)V

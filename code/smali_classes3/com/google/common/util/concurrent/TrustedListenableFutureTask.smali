@@ -52,10 +52,8 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/util/concurrent/p$a;-><init>()V
 
-    .line 4
     new-instance v0, Lcom/google/common/util/concurrent/TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/util/concurrent/TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask;-><init>(Lcom/google/common/util/concurrent/TrustedListenableFutureTask;Lcom/google/common/util/concurrent/i;)V
@@ -75,10 +73,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/p$a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/common/util/concurrent/TrustedListenableFutureTask$TrustedFutureInterruptibleTask;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/util/concurrent/TrustedListenableFutureTask$TrustedFutureInterruptibleTask;-><init>(Lcom/google/common/util/concurrent/TrustedListenableFutureTask;Ljava/util/concurrent/Callable;)V
@@ -102,7 +98,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/TrustedListenableFutureTask;
 
     invoke-direct {v0, p0}, Lcom/google/common/util/concurrent/TrustedListenableFutureTask;-><init>(Lcom/google/common/util/concurrent/i;)V
@@ -128,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/TrustedListenableFutureTask;
 
     invoke-static {p0, p1}, Ljava/util/concurrent/Executors;->callable(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Callable;
@@ -154,7 +148,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/TrustedListenableFutureTask;
 
     invoke-direct {v0, p0}, Lcom/google/common/util/concurrent/TrustedListenableFutureTask;-><init>(Ljava/util/concurrent/Callable;)V
@@ -167,28 +160,23 @@
 .method protected o()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/util/concurrent/AbstractFuture;->o()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/AbstractFuture;->F()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/util/concurrent/TrustedListenableFutureTask;->K:Lcom/google/common/util/concurrent/InterruptibleTask;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/InterruptibleTask;->interruptTask()V
 
     :cond_0
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/google/common/util/concurrent/TrustedListenableFutureTask;->K:Lcom/google/common/util/concurrent/InterruptibleTask;
 
     return-void
@@ -197,18 +185,15 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/TrustedListenableFutureTask;->K:Lcom/google/common/util/concurrent/InterruptibleTask;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/InterruptibleTask;->run()V
 
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/util/concurrent/TrustedListenableFutureTask;->K:Lcom/google/common/util/concurrent/InterruptibleTask;
 
     return-void
@@ -217,12 +202,10 @@
 .method protected z()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/TrustedListenableFutureTask;->K:Lcom/google/common/util/concurrent/InterruptibleTask;
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -243,7 +226,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-super {p0}, Lcom/google/common/util/concurrent/AbstractFuture;->z()Ljava/lang/String;
 

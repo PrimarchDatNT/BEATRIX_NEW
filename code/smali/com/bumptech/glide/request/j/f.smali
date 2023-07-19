@@ -61,7 +61,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     sget v0, Lcom/bumptech/glide/h$e;->l:I
 
     sput v0, Lcom/bumptech/glide/request/j/f;->p:I
@@ -81,10 +80,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/bumptech/glide/s/k;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -93,7 +90,6 @@
 
     iput-object v0, p0, Lcom/bumptech/glide/request/j/f;->b:Landroid/view/View;
 
-    .line 3
     new-instance v0, Lcom/bumptech/glide/request/j/f$b;
 
     invoke-direct {v0, p1}, Lcom/bumptech/glide/request/j/f$b;-><init>(Landroid/view/View;)V
@@ -108,7 +104,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/f;->b:Landroid/view/View;
 
     sget v1, Lcom/bumptech/glide/request/j/f;->p:I
@@ -123,7 +118,6 @@
 .method private d()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/f;->c:Landroid/view/View$OnAttachStateChangeListener;
 
     if-eqz v0, :cond_1
@@ -134,7 +128,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/bumptech/glide/request/j/f;->b:Landroid/view/View;
 
@@ -142,7 +135,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/bumptech/glide/request/j/f;->f:Z
 
     :cond_1
@@ -153,7 +145,6 @@
 .method private e()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/f;->c:Landroid/view/View$OnAttachStateChangeListener;
 
     if-eqz v0, :cond_1
@@ -164,7 +155,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/bumptech/glide/request/j/f;->b:Landroid/view/View;
 
@@ -172,7 +162,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/bumptech/glide/request/j/f;->f:Z
 
     :cond_1
@@ -187,7 +176,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/f;->b:Landroid/view/View;
 
     sget v1, Lcom/bumptech/glide/request/j/f;->p:I
@@ -204,24 +192,20 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/request/j/f;->b()Ljava/lang/Object;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     instance-of v1, v0, Lcom/bumptech/glide/request/d;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast v0, Lcom/bumptech/glide/request/d;
 
     return-object v0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -244,7 +228,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/f;->a:Lcom/bumptech/glide/request/j/f$b;
 
     invoke-virtual {v0, p1}, Lcom/bumptech/glide/request/j/f$b;->k(Lcom/bumptech/glide/request/j/o;)V
@@ -259,10 +242,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/request/j/f;->d()V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/request/j/f;->g(Landroid/graphics/drawable/Drawable;)V
 
     return-void
@@ -275,20 +256,16 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/f;->a:Lcom/bumptech/glide/request/j/f$b;
 
     invoke-virtual {v0}, Lcom/bumptech/glide/request/j/f$b;->b()V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/request/j/f;->f(Landroid/graphics/drawable/Drawable;)V
 
-    .line 3
     iget-boolean p1, p0, Lcom/bumptech/glide/request/j/f;->d:Z
 
     if-nez p1, :cond_0
 
-    .line 4
     invoke-direct {p0}, Lcom/bumptech/glide/request/j/f;->e()V
 
     :cond_0
@@ -302,7 +279,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bumptech/glide/request/j/f;->j(Ljava/lang/Object;)V
 
     return-void
@@ -321,14 +297,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/f;->c:Landroid/view/View$OnAttachStateChangeListener;
 
     if-eqz v0, :cond_0
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/bumptech/glide/request/j/f$a;
 
@@ -336,7 +310,6 @@
 
     iput-object v0, p0, Lcom/bumptech/glide/request/j/f;->c:Landroid/view/View$OnAttachStateChangeListener;
 
-    .line 3
     invoke-direct {p0}, Lcom/bumptech/glide/request/j/f;->d()V
 
     return-object p0
@@ -349,7 +322,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/f;->a:Lcom/bumptech/glide/request/j/f$b;
 
     invoke-virtual {v0, p1}, Lcom/bumptech/glide/request/j/f$b;->d(Lcom/bumptech/glide/request/j/o;)V
@@ -368,7 +340,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/f;->b:Landroid/view/View;
 
     return-object v0
@@ -394,7 +365,6 @@
 .method final h()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/request/j/f;->T1()Lcom/bumptech/glide/request/d;
 
     move-result-object v0
@@ -403,15 +373,12 @@
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/bumptech/glide/request/j/f;->d:Z
 
-    .line 3
     invoke-interface {v0}, Lcom/bumptech/glide/request/d;->clear()V
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/bumptech/glide/request/j/f;->d:Z
 
     :cond_0
@@ -421,21 +388,18 @@
 .method final i()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/request/j/f;->T1()Lcom/bumptech/glide/request/d;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/bumptech/glide/request/d;->e()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v0}, Lcom/bumptech/glide/request/d;->c()V
 
     :cond_0
@@ -475,7 +439,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/f;->a:Lcom/bumptech/glide/request/j/f$b;
 
     const/4 v1, 0x1
@@ -506,7 +469,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

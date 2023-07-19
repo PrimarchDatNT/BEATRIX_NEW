@@ -44,10 +44,8 @@
 
     const-string v0, "beauty_add_photo_clk"
 
-    .line 1
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$g;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -66,15 +64,12 @@
 
     sget v0, Lcom/res/provider/ResSTRING;->t_layers_limited:I
 
-    .line 3
     invoke-static {v0}, Lf/k/c/c/f;->r(I)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$g;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -90,7 +85,6 @@
 
     invoke-static {v0, v1, v3, v2, v3}, Lcom/commsource/studio/ImageStudioViewModel;->H(Lcom/commsource/studio/ImageStudioViewModel;Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -38,7 +38,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;-><init>()V
 
     return-void
@@ -57,7 +56,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->c:Landroidx/databinding/ViewDataBinding;
 
     return-object v0
@@ -68,7 +66,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->b:Landroid/view/ViewStub;
 
     if-nez v0, :cond_0
@@ -93,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->c:Landroidx/databinding/ViewDataBinding;
 
     return-void
@@ -110,7 +106,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->b:Landroid/view/ViewStub;
 
     return-void
@@ -127,10 +122,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->f(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
 
-    .line 2
     new-instance v0, Landroid/view/ViewStub;
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
@@ -153,7 +146,6 @@
 
     const-string v1, "vsCover"
 
-    .line 3
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -165,12 +157,10 @@
 .method public final z()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->c:Landroidx/databinding/ViewDataBinding;
 
     if-nez v0, :cond_2
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -201,7 +191,6 @@
 
     invoke-static {v0, v2, v3, v1, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->b:Landroid/view/ViewStub;
 
     if-nez v0, :cond_0
@@ -215,7 +204,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-static {v0}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object v0
@@ -224,13 +212,10 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->c:Landroidx/databinding/ViewDataBinding;
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->v()V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->x()V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v0
@@ -257,7 +242,6 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->t(Landroid/graphics/Rect;Landroid/graphics/Rect;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v0
@@ -276,7 +260,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     new-instance v0, Lcotlin/TypeCastException;
 

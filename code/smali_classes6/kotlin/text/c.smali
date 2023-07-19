@@ -36,7 +36,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -104,7 +103,6 @@
 
     return p0
 
-    .line 1
     :cond_1
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -132,7 +130,6 @@
 
     throw v0
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -180,7 +177,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -216,7 +212,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/text/c;->J(CI)Ljava/lang/Integer;
 
     move-result-object v0
@@ -282,7 +277,6 @@
 
     sub-int/2addr p0, v0
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -333,7 +327,6 @@
 
     if-ge p0, p1, :cond_1
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -345,7 +338,6 @@
     :goto_0
     const/16 v0, 0x5a
 
-    .line 2
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result v0
@@ -373,7 +365,6 @@
     :cond_4
     if-le p1, p0, :cond_5
 
-    .line 3
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -382,7 +373,6 @@
     :goto_2
     return-object v1
 
-    .line 4
     :cond_6
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -425,7 +415,6 @@
 
     return v1
 
-    .line 1
     :cond_1
     invoke-static {p0}, Ljava/lang/Character;->toUpperCase(C)C
 
@@ -439,7 +428,6 @@
 
     return v0
 
-    .line 2
     :cond_2
     invoke-static {p0}, Ljava/lang/Character;->toLowerCase(C)C
 
@@ -466,7 +454,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1, p2}, Lcotlin/text/c;->K(CCZ)Z
 
@@ -506,7 +493,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

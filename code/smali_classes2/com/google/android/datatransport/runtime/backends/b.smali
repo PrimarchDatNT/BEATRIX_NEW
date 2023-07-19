@@ -13,18 +13,14 @@
 .method constructor <init>(Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;J)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/runtime/backends/BackendResponse;-><init>()V
 
     const-string v0, "Null status"
 
-    .line 2
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/datatransport/runtime/backends/b;->a:Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;
 
-    .line 4
     iput-wide p2, p0, Lcom/google/android/datatransport/runtime/backends/b;->b:J
 
     return-void
@@ -35,7 +31,6 @@
 .method public b()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/datatransport/runtime/backends/b;->b:J
 
     return-wide v0
@@ -44,7 +39,6 @@
 .method public c()Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/b;->a:Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;
 
     return-object v0
@@ -59,7 +53,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/datatransport/runtime/backends/BackendResponse;
 
@@ -67,10 +60,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/android/datatransport/runtime/backends/BackendResponse;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/backends/b;->a:Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;
 
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/backends/BackendResponse;->c()Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;
@@ -85,7 +76,6 @@
 
     iget-wide v3, p0, Lcom/google/android/datatransport/runtime/backends/b;->b:J
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/backends/BackendResponse;->b()J
 
     move-result-wide v5
@@ -109,7 +99,6 @@
 .method public hashCode()I
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/b;->a:Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->hashCode()I
@@ -122,7 +111,6 @@
 
     mul-int v0, v0, v1
 
-    .line 2
     iget-wide v1, p0, Lcom/google/android/datatransport/runtime/backends/b;->b:J
 
     const/16 v3, 0x20
@@ -141,7 +129,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

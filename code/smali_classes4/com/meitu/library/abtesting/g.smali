@@ -31,14 +31,12 @@
 .method constructor <init>([B)V
     .locals 9
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "ABTestingResponse"
 
     if-eqz p1, :cond_6
 
-    .line 2
     array-length v1, p1
 
     const/4 v2, 0x6
@@ -54,7 +52,6 @@
 
     const/4 v4, 0x0
 
-    .line 3
     aget-byte v5, p1, v4
 
     aput-byte v5, v3, v4
@@ -77,7 +74,6 @@
 
     aput-byte v8, v3, v7
 
-    .line 4
     invoke-static {v3, v5}, Lcom/meitu/library/abtesting/p/b;->b([BZ)I
 
     move-result v3
@@ -86,7 +82,6 @@
 
     new-array v3, v6, [B
 
-    .line 5
     aget-byte v1, p1, v1
 
     aput-byte v1, v3, v4
@@ -97,21 +92,18 @@
 
     aput-byte v1, v3, v5
 
-    .line 6
     invoke-static {v3, v5}, Lcom/meitu/library/abtesting/p/b;->b([BZ)I
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/library/abtesting/g;->b:I
 
-    .line 7
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    .line 8
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/content/f;->X()Z
 
     move-result v3
@@ -124,7 +116,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 9
     :cond_1
     invoke-static {p1, v5}, Lcom/meitu/library/abtesting/p/b;->a([BZ)Ljava/lang/String;
 
@@ -132,7 +123,6 @@
 
     invoke-static {v0, v1}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -159,39 +149,32 @@
 
     invoke-static {v0, v1}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     :cond_2
     iget v1, p0, Lcom/meitu/library/abtesting/g;->b:I
 
     if-ne v1, v5, :cond_4
 
-    .line 12
     iget v1, p0, Lcom/meitu/library/abtesting/g;->a:I
 
     add-int/lit8 v3, v1, -0x4
 
     sub-int/2addr v3, v6
 
-    .line 13
     array-length v5, p1
 
     if-eq v1, v5, :cond_3
 
     const-string p1, "ABTesting data is null"
 
-    .line 14
     invoke-static {v0, p1}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
-    .line 15
     :cond_3
     new-array v1, v3, [B
 
-    .line 16
     invoke-static {p1, v2, v1, v4, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 17
     :try_start_0
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -205,7 +188,6 @@
 
     move-result-object p1
 
-    .line 18
     invoke-static {v1, p1}, Lcom/meitu/library/abtesting/p/a;->a([B[B)Ljava/lang/String;
 
     move-result-object p1
@@ -219,7 +201,6 @@
     :catch_0
     move-exception p1
 
-    .line 19
     invoke-virtual {p1}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -262,7 +243,6 @@
     :cond_5
     const-string p1, "\u670d\u52a1\u5668\u5185\u90e8\u9519\u8bef"
 
-    .line 20
     :goto_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -295,7 +275,6 @@
     :goto_2
     const-string p1, "ABTesting response is illegal"
 
-    .line 21
     invoke-static {v0, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -318,7 +297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtesting/g;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -333,7 +311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/abtesting/g;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -348,7 +325,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/abtesting/g;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

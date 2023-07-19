@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$m;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->D(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/beautyplus/f0/u8;
@@ -51,7 +50,6 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u8;->f:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$m;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->z(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/widget/h1/e;
@@ -62,10 +60,8 @@
 
     move-result v2
 
-    .line 3
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

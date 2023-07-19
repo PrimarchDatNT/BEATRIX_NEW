@@ -49,12 +49,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Lcotlin/collections/e0;->b()Ljava/util/Iterator;
 
     move-result-object v1
@@ -70,12 +68,10 @@
 
     move-result-object v2
 
-    .line 3
     invoke-interface {p0, v2}, Lcotlin/collections/e0;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -84,7 +80,6 @@
 
     if-nez v3, :cond_0
 
-    .line 5
     invoke-interface {v0, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v5
@@ -101,7 +96,6 @@
     :goto_1
     if-eqz v5, :cond_1
 
-    .line 6
     new-instance v3, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v3}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -109,7 +103,6 @@
     :cond_1
     check-cast v3, Lcotlin/jvm/internal/Ref$IntRef;
 
-    .line 7
     iget v5, v3, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/2addr v5, v4
@@ -120,7 +113,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -203,12 +195,10 @@
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -228,7 +218,6 @@
 
     const-string v2, "null cannot be cast to non-null type kotlin.collections.MutableMap.MutableEntry<K, R>"
 
-    .line 3
     invoke-static {v1, v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-static {v1}, Lcotlin/jvm/internal/t0;->m(Ljava/lang/Object;)Ljava/util/Map$Entry;
@@ -246,7 +235,6 @@
     :cond_0
     const-string p1, "null cannot be cast to non-null type kotlin.collections.MutableMap<K, R>"
 
-    .line 4
     invoke-static {p0, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-static {p0}, Lcotlin/jvm/internal/t0;->k(Ljava/lang/Object;)Ljava/util/Map;

@@ -56,23 +56,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/stub/c;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lio/grpc/stub/ClientCalls$b;->d:Z
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lio/grpc/stub/ClientCalls$b;->e:Z
 
-    .line 4
     iput-boolean v0, p0, Lio/grpc/stub/ClientCalls$b;->f:Z
 
-    .line 5
     iput-object p1, p0, Lio/grpc/stub/ClientCalls$b;->b:Lio/grpc/h;
 
     return-void
@@ -81,7 +76,6 @@
 .method static synthetic j(Lio/grpc/stub/ClientCalls$b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/stub/ClientCalls$b;->m()V
 
     return-void
@@ -90,7 +84,6 @@
 .method static synthetic k(Lio/grpc/stub/ClientCalls$b;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lio/grpc/stub/ClientCalls$b;->d:Z
 
     return p0
@@ -99,7 +92,6 @@
 .method static synthetic l(Lio/grpc/stub/ClientCalls$b;)Ljava/lang/Runnable;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/stub/ClientCalls$b;->c:Ljava/lang/Runnable;
 
     return-object p0
@@ -110,7 +102,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lio/grpc/stub/ClientCalls$b;->a:Z
 
     return-void
@@ -126,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/stub/ClientCalls$b;->e:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -135,7 +125,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     iget-boolean v0, p0, Lio/grpc/stub/ClientCalls$b;->f:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -144,7 +133,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$b;->b:Lio/grpc/h;
 
     invoke-virtual {v0, p1}, Lio/grpc/h;->f(Ljava/lang/Object;)V
@@ -155,7 +143,6 @@
 .method public b(Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$b;->b:Lio/grpc/h;
 
     const-string v1, "Cancelled by client with StreamObserver.onError()"
@@ -164,7 +151,6 @@
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lio/grpc/stub/ClientCalls$b;->e:Z
 
     return-void
@@ -173,19 +159,16 @@
 .method public d()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/stub/ClientCalls$b;->a:Z
 
     if-nez v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lio/grpc/stub/ClientCalls$b;->d:Z
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -199,7 +182,6 @@
 .method public e()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$b;->b:Lio/grpc/h;
 
     invoke-virtual {v0}, Lio/grpc/h;->d()Z
@@ -212,7 +194,6 @@
 .method public f(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$b;->b:Lio/grpc/h;
 
     invoke-virtual {v0, p1}, Lio/grpc/h;->e(I)V
@@ -223,7 +204,6 @@
 .method public g(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$b;->b:Lio/grpc/h;
 
     invoke-virtual {v0, p1}, Lio/grpc/h;->g(Z)V
@@ -234,17 +214,14 @@
 .method public h(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/stub/ClientCalls$b;->a:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     iput-object p1, p0, Lio/grpc/stub/ClientCalls$b;->c:Ljava/lang/Runnable;
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -266,7 +243,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$b;->b:Lio/grpc/h;
 
     invoke-virtual {v0, p1, p2}, Lio/grpc/h;->a(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -277,14 +253,12 @@
 .method public onCompleted()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$b;->b:Lio/grpc/h;
 
     invoke-virtual {v0}, Lio/grpc/h;->c()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lio/grpc/stub/ClientCalls$b;->f:Z
 
     return-void

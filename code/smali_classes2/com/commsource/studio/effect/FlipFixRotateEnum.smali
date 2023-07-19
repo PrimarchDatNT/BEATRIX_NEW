@@ -59,7 +59,6 @@
 
     move-object v2, v8
 
-    .line 1
     invoke-direct/range {v2 .. v7}, Lcom/commsource/studio/effect/FlipFixRotateEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v8, Lcom/commsource/studio/effect/FlipFixRotateEnum;->FixRotate:Lcom/commsource/studio/effect/FlipFixRotateEnum;
@@ -82,7 +81,6 @@
 
     move-object v9, v2
 
-    .line 2
     invoke-direct/range {v9 .. v14}, Lcom/commsource/studio/effect/FlipFixRotateEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/FlipFixRotateEnum;->Flip:Lcom/commsource/studio/effect/FlipFixRotateEnum;
@@ -108,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/commsource/studio/effect/FlipFixRotateEnum;->iconFontRes:I
@@ -169,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/FlipFixRotateEnum;->iconFontRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -184,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/FlipFixRotateEnum;->nameRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -201,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/FlipFixRotateEnum;->statisticName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

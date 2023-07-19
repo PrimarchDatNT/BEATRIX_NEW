@@ -73,7 +73,6 @@
 
     const/16 v1, 0x14
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -116,10 +115,8 @@
     .annotation build Lcotlin/jvm/h;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 2
     sget-object p1, Lcom/commsource/camera/mvp/SimpleFocusView$focusPaint$2;->INSTANCE:Lcom/commsource/camera/mvp/SimpleFocusView$focusPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -128,7 +125,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->a:Lcotlin/w;
 
-    .line 3
     sget-object p1, Lcom/commsource/camera/mvp/SimpleFocusView$wavePaint$2;->INSTANCE:Lcom/commsource/camera/mvp/SimpleFocusView$wavePaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -137,19 +133,16 @@
 
     iput-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->b:Lcotlin/w;
 
-    .line 4
     new-instance p1, Lcom/commsource/camera/mvp/SimpleFocusView$c;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/mvp/SimpleFocusView$c;-><init>(Lcom/commsource/camera/mvp/SimpleFocusView;)V
 
     iput-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->d:Ljava/lang/Runnable;
 
-    .line 5
     sget p1, Lcom/commsource/camera/mvp/SimpleFocusView;->O:F
 
     iput p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->f:F
 
-    .line 6
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
@@ -160,7 +153,6 @@
 
     new-array p1, p1, [F
 
-    .line 7
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -169,12 +161,10 @@
 
     const-wide/16 v0, 0x3e8
 
-    .line 8
     invoke-virtual {p1, v0, v1}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
-    .line 9
     new-instance p2, Lcom/commsource/camera/xcamera/widget/a;
 
     invoke-direct {p2}, Lcom/commsource/camera/xcamera/widget/a;-><init>()V
@@ -183,7 +173,6 @@
 
     move-result-object p1
 
-    .line 10
     new-instance p2, Lcom/commsource/camera/mvp/SimpleFocusView$d;
 
     invoke-direct {p2, p0}, Lcom/commsource/camera/mvp/SimpleFocusView$d;-><init>(Lcom/commsource/camera/mvp/SimpleFocusView;)V
@@ -215,7 +204,6 @@
 
     const/4 p2, 0x0
 
-    .line 11
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/camera/mvp/SimpleFocusView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -229,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/mvp/SimpleFocusView;->O:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -284,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->d:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -299,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -314,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->f:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -329,7 +313,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->d:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -344,7 +327,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -359,7 +341,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->f:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -384,7 +365,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -403,14 +383,12 @@
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->J:Lcom/commsource/camera/mvp/SimpleFocusView$b;
 
     if-eqz p1, :cond_1
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -418,7 +396,6 @@
 
     invoke-interface {p1, v1}, Lcom/commsource/camera/mvp/SimpleFocusView$b;->a(Z)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -440,33 +417,27 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->p:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->g:Landroid/graphics/Rect;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->K:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->K:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -487,7 +458,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -506,14 +476,12 @@
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->J:Lcom/commsource/camera/mvp/SimpleFocusView$b;
 
     if-eqz p1, :cond_1
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -521,7 +489,6 @@
 
     invoke-interface {p1, v1}, Lcom/commsource/camera/mvp/SimpleFocusView$b;->a(Z)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -608,10 +575,8 @@
 
     const-string v2, "onAutoFocusCanceled"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -624,7 +589,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->M:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -641,7 +605,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->J:Lcom/commsource/camera/mvp/SimpleFocusView$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -656,7 +619,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -673,7 +635,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->g:Landroid/graphics/Rect;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -688,7 +649,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -705,10 +665,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->p:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -729,15 +687,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->c:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->g:Landroid/graphics/Rect;
 
     invoke-virtual {v1}, Landroid/graphics/Rect;->centerX()I
@@ -762,7 +717,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->g:Landroid/graphics/Rect;
 
     invoke-virtual {v1}, Landroid/graphics/Rect;->centerX()I
@@ -787,7 +741,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -801,16 +754,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     iput p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->L:I
 
-    .line 3
     iput p2, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->M:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -825,10 +774,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->p:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -841,7 +788,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->M:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -860,7 +806,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->J:Lcom/commsource/camera/mvp/SimpleFocusView$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -875,7 +820,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -898,10 +842,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->J:Lcom/commsource/camera/mvp/SimpleFocusView$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -914,7 +856,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

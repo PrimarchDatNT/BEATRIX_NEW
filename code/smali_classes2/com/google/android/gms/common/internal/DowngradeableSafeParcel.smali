@@ -26,7 +26,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -39,12 +38,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->a:Z
 
     return-void
@@ -53,14 +50,12 @@
 .method private static V()Ljava/lang/ClassLoader;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->b:Ljava/lang/Object;
 
     monitor-enter v0
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     monitor-exit v0
 
@@ -69,7 +64,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -82,7 +76,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->V()Ljava/lang/ClassLoader;
 
     const/4 p0, 0x1
@@ -95,14 +88,12 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->b:Ljava/lang/Object;
 
     monitor-enter v0
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     monitor-exit v0
 
@@ -111,7 +102,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -131,7 +121,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->a:Z
 
     return-void
@@ -142,7 +131,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->a:Z
 
     return v0

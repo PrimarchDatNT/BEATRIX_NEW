@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 
     if-ne p1, p2, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/util/delegate/process/f;->d()V
 
     const/4 p1, 0x1
@@ -53,7 +51,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -68,19 +65,16 @@
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     const/16 v1, 0x472
 
-    .line 3
     invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
 
     const-string p1, "selfie_setting_set"
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-static {p1, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     return-void

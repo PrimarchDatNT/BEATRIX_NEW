@@ -59,10 +59,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     const-class v0, Lcom/meitu/library/abtest/a;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -81,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/abtest/a;->q(Lcom/meitu/library/abtest/a$b;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -96,14 +93,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->a(Lcom/meitu/library/abtest/a$b;)Landroid/app/Application;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->b(Lcom/meitu/library/abtest/a$b;)Ljava/lang/Boolean;
 
     move-result-object v1
@@ -114,45 +109,38 @@
 
     iput-boolean v1, p0, Lcom/meitu/library/abtest/a;->l:Z
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->a(Lcom/meitu/library/abtest/a$b;)Landroid/app/Application;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/abtest/a;->h:Landroid/app/Application;
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->e(Lcom/meitu/library/abtest/a$b;)Lcom/meitu/library/abtest/ABTestingManager$INIT_MODES;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/abtest/a;->i:Lcom/meitu/library/abtest/ABTestingManager$INIT_MODES;
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->f(Lcom/meitu/library/abtest/a$b;)[Lcom/meitu/library/abtest/f/b;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/abtest/a;->j:[Lcom/meitu/library/abtest/f/b;
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->g(Lcom/meitu/library/abtest/a$b;)Z
 
     move-result v1
 
     iput-boolean v1, p0, Lcom/meitu/library/abtest/a;->k:Z
 
-    .line 7
     iget-object v1, p1, Lcom/meitu/library/abtest/a$b;->h:[Z
 
     iput-object v1, p0, Lcom/meitu/library/abtest/a;->m:[Z
 
-    .line 8
     iget-object v1, p1, Lcom/meitu/library/abtest/a$b;->i:[I
 
     iput-object v1, p0, Lcom/meitu/library/abtest/a;->n:[I
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->h(Lcom/meitu/library/abtest/a$b;)Ljava/lang/String;
 
     move-result-object v1
@@ -161,35 +149,30 @@
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/library/abtest/a;->z(Ljava/lang/String;Z)V
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->i(Lcom/meitu/library/abtest/a$b;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/library/abtest/a;->B(Ljava/lang/String;)V
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->j(Lcom/meitu/library/abtest/a$b;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/library/abtest/a;->C(Ljava/lang/String;)V
 
-    .line 12
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->k(Lcom/meitu/library/abtest/a$b;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/library/abtest/a;->A(Ljava/lang/String;)V
 
-    .line 13
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->h:Landroid/app/Application;
 
     invoke-virtual {v1}, Landroid/app/Application;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    .line 14
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->l(Lcom/meitu/library/abtest/a$b;)I
 
     move-result v2
@@ -200,7 +183,6 @@
 
     invoke-static {v2, v3}, Lcom/meitu/library/abtest/g/a;->i(II)V
 
-    .line 15
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->b(Lcom/meitu/library/abtest/a$b;)Ljava/lang/Boolean;
 
     move-result-object v2
@@ -211,7 +193,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 16
     sget v2, Lcom/meitu/library/abtest/d$j;->d:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -220,7 +201,6 @@
 
     iput-object v2, p0, Lcom/meitu/library/abtest/a;->e:Ljava/lang/String;
 
-    .line 17
     sget v2, Lcom/meitu/library/abtest/d$j;->b:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -229,7 +209,6 @@
 
     iput-object v2, p0, Lcom/meitu/library/abtest/a;->d:Ljava/lang/String;
 
-    .line 18
     sget v2, Lcom/meitu/library/abtest/d$h;->b:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
@@ -242,12 +221,10 @@
 
     const-string v1, "http://ext.test.meepo.miraclevision.sg/ab_allot"
 
-    .line 19
     iput-object v1, p0, Lcom/meitu/library/abtest/a;->g:Ljava/lang/String;
 
     goto :goto_0
 
-    .line 20
     :cond_0
     sget v2, Lcom/meitu/library/abtest/d$j;->c:I
 
@@ -257,7 +234,6 @@
 
     iput-object v2, p0, Lcom/meitu/library/abtest/a;->e:Ljava/lang/String;
 
-    .line 21
     sget v2, Lcom/meitu/library/abtest/d$j;->a:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -266,7 +242,6 @@
 
     iput-object v2, p0, Lcom/meitu/library/abtest/a;->d:Ljava/lang/String;
 
-    .line 22
     sget v2, Lcom/meitu/library/abtest/d$h;->a:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
@@ -279,10 +254,8 @@
 
     const-string v1, "https://ext.meepo.miraclevision.sg/ab_allot"
 
-    .line 23
     iput-object v1, p0, Lcom/meitu/library/abtest/a;->g:Ljava/lang/String;
 
-    .line 24
     :goto_0
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->h:Landroid/app/Application;
 
@@ -292,39 +265,32 @@
 
     iput-boolean v1, p0, Lcom/meitu/library/abtest/a;->c:Z
 
-    .line 25
     new-instance v1, Lcom/meitu/library/abtest/j/f;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/abtest/j/f;-><init>(Lcom/meitu/library/abtest/a;)V
 
     iput-object v1, p0, Lcom/meitu/library/abtest/a;->b:Lcom/meitu/library/abtest/j/f;
 
-    .line 26
     invoke-static {p1}, Lcom/meitu/library/abtest/a$b;->d(Lcom/meitu/library/abtest/a$b;)Z
 
     move-result p1
 
     iput-boolean p1, p0, Lcom/meitu/library/abtest/a;->o:Z
 
-    .line 27
     sput-object p0, Lcom/meitu/library/abtest/a;->t:Lcom/meitu/library/abtest/a;
 
     const/4 p1, 0x1
 
-    .line 28
     invoke-direct {p0, p1}, Lcom/meitu/library/abtest/a;->x(Z)V
 
-    .line 29
     new-instance p1, Lcom/meitu/library/abtest/a$a;
 
     invoke-direct {p1, p0}, Lcom/meitu/library/abtest/a$a;-><init>(Lcom/meitu/library/abtest/a;)V
 
     invoke-static {p1}, Lcom/meitu/library/abtest/l/v;->h(Ljava/lang/Runnable;)V
 
-    .line 30
     invoke-static {}, Lcom/meitu/library/abtest/l/a;->d()V
 
-    .line 31
     iget-object p1, p0, Lcom/meitu/library/abtest/a;->i:Lcom/meitu/library/abtest/ABTestingManager$INIT_MODES;
 
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->j:[Lcom/meitu/library/abtest/f/b;
@@ -333,17 +299,14 @@
 
     invoke-static {p1, v1, v2}, Lcom/meitu/library/abtest/ABTestingManager;->z(Lcom/meitu/library/abtest/ABTestingManager$INIT_MODES;[Lcom/meitu/library/abtest/f/b;Z)V
 
-    .line 32
     iget-object p1, p0, Lcom/meitu/library/abtest/a;->h:Landroid/app/Application;
 
     invoke-static {p1}, Lcom/meitu/library/abtest/ABTestingManager;->I(Landroid/app/Application;)V
 
-    .line 33
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 34
     :cond_1
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -363,30 +326,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/abtest/a;->t:Lcom/meitu/library/abtest/a;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/library/abtest/a;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/library/abtest/a;->t:Lcom/meitu/library/abtest/a;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/meitu/library/abtest/a;
 
     invoke-direct {v2}, Lcom/meitu/library/abtest/a;-><init>()V
 
     sput-object v2, Lcom/meitu/library/abtest/a;->t:Lcom/meitu/library/abtest/a;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -403,7 +361,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/library/abtest/a;->t:Lcom/meitu/library/abtest/a;
@@ -422,7 +379,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/meitu/library/abtest/a;->h:Landroid/app/Application;
 
     invoke-static {p1}, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->getInstance(Landroid/content/Context;)Landroidx/localbroadcastmanager/content/LocalBroadcastManager;
@@ -437,14 +393,12 @@
 
     invoke-virtual {p1, v1}, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->sendBroadcast(Landroid/content/Intent;)Z
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/library/abtest/a;->a:Ljava/lang/String;
 
     const-string v1, "Request refresh ab code by network!"
 
     invoke-static {p1, v1}, Lcom/meitu/library/abtest/g/a;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/meitu/library/abtest/a;->h:Landroid/app/Application;
 
@@ -460,7 +414,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->sendBroadcast(Landroid/content/Intent;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -475,13 +428,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/a;->s:Ljava/lang/String;
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/abtest/l/c;->h(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -494,13 +444,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/a;->r:Ljava/lang/String;
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/abtest/l/c;->i(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -513,13 +460,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/a;->q:Ljava/lang/String;
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/abtest/l/c;->k(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -532,12 +476,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->b:Lcom/meitu/library/abtest/j/f;
 
     invoke-virtual {v1}, Lcom/meitu/library/abtest/j/f;->e()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -550,7 +492,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -565,7 +506,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-byte v1, p0, Lcom/meitu/library/abtest/a;->f:B
 
     invoke-static {v1}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
@@ -584,7 +524,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -599,19 +538,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->p:Ljava/lang/String;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/abtest/l/c;->a()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/abtest/a;->p:Ljava/lang/String;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->p:Ljava/lang/String;
 
@@ -627,7 +563,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->e:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -642,7 +577,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtest/l/e;->a()Ljava/lang/String;
 
     move-result-object v1
@@ -651,12 +585,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -674,7 +606,6 @@
 
     move-result-object v2
 
-    .line 4
     new-instance v3, Lcom/meitu/library/abtest/l/i;
 
     new-instance v4, Ljava/io/File;
@@ -695,7 +626,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->h:Landroid/app/Application;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -710,19 +640,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->s:Ljava/lang/String;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/abtest/l/c;->b()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/abtest/a;->s:Ljava/lang/String;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->s:Ljava/lang/String;
 
@@ -738,19 +665,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->r:Ljava/lang/String;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/abtest/l/c;->c()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/abtest/a;->r:Ljava/lang/String;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->r:Ljava/lang/String;
 
@@ -766,7 +690,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtest/l/e;->a()Ljava/lang/String;
 
     move-result-object v1
@@ -775,12 +698,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -798,7 +719,6 @@
 
     move-result-object v2
 
-    .line 4
     new-instance v3, Lcom/meitu/library/abtest/l/i;
 
     new-instance v4, Ljava/io/File;
@@ -819,7 +739,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->h:Landroid/app/Application;
 
     const-string v2, "teemo_test"
@@ -830,7 +749,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/meitu/library/abtest/l/i;
 
     const-string v3, "TeemoPrefs.mo"
@@ -849,7 +767,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtest/control/SensitiveDataControl;->values()[Lcom/meitu/library/abtest/control/SensitiveDataControl;
 
     move-result-object v1
@@ -876,7 +793,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtest/l/e;->a()Ljava/lang/String;
 
     move-result-object v1
@@ -885,12 +801,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v2, Lcom/meitu/library/abtest/l/i;
 
@@ -914,7 +828,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->b:Lcom/meitu/library/abtest/j/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -929,19 +842,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->q:Ljava/lang/String;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/abtest/l/c;->f()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/abtest/a;->q:Ljava/lang/String;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->q:Ljava/lang/String;
 
@@ -957,7 +867,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/abtest/a;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -972,7 +881,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -987,7 +895,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/abtest/a;->o:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1002,7 +909,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a;->m:[Z
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1023,7 +929,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/abtest/a;->l:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1040,10 +945,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/meitu/library/abtest/a;->z(Ljava/lang/String;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1056,44 +959,37 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/library/abtest/a;->a:Ljava/lang/String;
 
     const-string p2, "setAdvertisingId is null"
 
     invoke-static {p1, p2}, Lcom/meitu/library/abtest/g/a;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iput-object p1, p0, Lcom/meitu/library/abtest/a;->p:Ljava/lang/String;
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/abtest/l/c;->a()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz p2, :cond_1
 
-    .line 6
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p2
 
     if-nez p2, :cond_1
 
-    .line 7
     iget-object p2, p0, Lcom/meitu/library/abtest/a;->a:Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -1112,10 +1008,8 @@
 
     invoke-static {p2, v1}, Lcom/meitu/library/abtest/g/a;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/abtest/l/c;->g(Ljava/lang/String;)V
 
-    .line 9
     invoke-static {}, Lcom/meitu/library/abtest/a;->r()Lcom/meitu/library/abtest/a;
 
     move-result-object p1
@@ -1126,7 +1020,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/abtest/ABTestingManager;->L(Landroid/content/Context;)Z
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

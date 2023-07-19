@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer$a;->a:Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 8
 
-    .line 1
     invoke-static {}, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->a()J
 
     move-result-wide v0
@@ -57,10 +55,8 @@
 
     const-string v1, "Fail to read vss size, skip checking this time."
 
-    .line 2
     invoke-static {v3, v1, v0}, Lcom/tencent/matrix/util/b;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer$a;->a:Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;
 
     invoke-static {v0}, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->c(Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;)Landroid/os/Handler;
@@ -82,7 +78,6 @@
 
     const/high16 v5, 0x4f800000
 
-    .line 4
     iget-object v6, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer$a;->a:Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;
 
     invoke-static {v6}, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->d(Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;)F
@@ -101,7 +96,6 @@
 
     new-array v4, v7, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
@@ -122,10 +116,8 @@
 
     const-string v0, "VmSize usage reaches above critical level, trigger native install. vmsize: %s, critical_ratio: %s"
 
-    .line 6
     invoke-static {v3, v0, v4}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 7
     iget-object v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer$a;->a:Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;
 
     invoke-static {v0}, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->e(Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;)Z
@@ -138,7 +130,6 @@
 
     const-string v1, "nativeInstall triggered successfully."
 
-    .line 8
     invoke-static {v3, v1, v0}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
@@ -148,7 +139,6 @@
 
     const-string v1, "Fail to trigger nativeInstall."
 
-    .line 9
     invoke-static {v3, v1, v0}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
@@ -156,7 +146,6 @@
     :cond_2
     new-array v4, v7, [Ljava/lang/Object;
 
-    .line 10
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
@@ -177,10 +166,8 @@
 
     const-string v0, "VmSize usage is under critical level, check next time. vmsize: %s, critical_ratio: %s"
 
-    .line 11
     invoke-static {v3, v0, v4}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 12
     iget-object v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer$a;->a:Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;
 
     invoke-static {v0}, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->c(Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;)Landroid/os/Handler;

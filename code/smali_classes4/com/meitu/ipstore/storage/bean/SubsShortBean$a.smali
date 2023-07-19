@@ -33,7 +33,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;->d(Ljava/lang/String;)Ljava/util/List;
@@ -67,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;->c(Ljava/util/List;)Ljava/lang/String;
@@ -99,12 +96,10 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lf/k/m/j/b;->d(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -136,12 +131,10 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 2
     :cond_0
     const-class v1, Ljava/lang/String;
 

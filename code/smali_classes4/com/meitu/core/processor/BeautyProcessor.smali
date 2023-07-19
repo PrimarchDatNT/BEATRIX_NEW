@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
@@ -53,13 +51,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -72,7 +68,6 @@
 
     move-result p1
 
-    .line 4
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -103,7 +98,6 @@
 
     invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
@@ -120,15 +114,12 @@
 
     move-result-object p0
 
-    .line 6
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 8
     :cond_1
     :goto_0
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
@@ -139,7 +130,6 @@
 
     const/4 p0, 0x0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -154,7 +144,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {p0, p1, v1}, Lcom/meitu/core/processor/BeautyProcessor;->autoContrast(Landroid/graphics/Bitmap;FLcom/meitu/core/types/FaceData;)Z
 
     move-result p0
@@ -173,7 +162,6 @@
 
     if-nez p0, :cond_0
 
-    .line 10
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore autoContrast bitmap is null."
@@ -182,12 +170,10 @@
 
     const/4 p0, 0x0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 12
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -199,7 +185,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_1
     invoke-virtual {p2}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
@@ -210,12 +195,10 @@
 
     move-result p1
 
-    .line 14
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 15
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -260,7 +243,6 @@
 
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -275,7 +257,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/core/processor/BeautyProcessor;->autoContrast(Lcom/meitu/core/types/NativeBitmap;FLcom/meitu/core/types/FaceData;)Z
 
     move-result p0
@@ -294,7 +275,6 @@
 
     if-nez p0, :cond_0
 
-    .line 3
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore autoContrast bitmap is null."
@@ -303,18 +283,15 @@
 
     const/4 p0, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 5
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -335,12 +312,10 @@
 
     move-result p1
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 8
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -385,7 +360,6 @@
 
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -408,7 +382,6 @@
 
     new-array v3, v3, [I
 
-    .line 1
     iget v4, v0, Lcom/meitu/core/processor/BeautyProcessor$LEVELS_PARAM;->nOutputShadow:I
 
     aput v4, v3, v2
@@ -437,7 +410,6 @@
 
     aput v0, v3, v2
 
-    .line 2
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v4
@@ -462,7 +434,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
@@ -503,12 +474,10 @@
 
     move/from16 v19, p11
 
-    .line 4
     invoke-static/range {v4 .. v19}, Lcom/meitu/core/processor/BeautyProcessor;->nativeFaceBeauty(JJJJZZZZF[IFF)Z
 
     move-result v2
 
-    .line 5
     :cond_3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -524,7 +493,6 @@
 
     if-nez p0, :cond_0
 
-    .line 8
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore lazyBeauty bitmap is null."
@@ -533,28 +501,23 @@
 
     const/4 p0, 0x0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 10
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 11
     invoke-static {p0, p1}, Lcom/meitu/core/processor/BeautyProcessor;->nativeLazyBeauty_bitmap(Landroid/graphics/Bitmap;F)Z
 
     move-result p1
 
-    .line 12
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 13
     sget-object v5, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -599,7 +562,6 @@
 
     invoke-static {v5, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -614,7 +576,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore lazyBeauty bitmap is null."
@@ -623,18 +584,15 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -643,12 +601,10 @@
 
     move-result p1
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 6
     sget-object v5, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -693,7 +649,6 @@
 
     invoke-static {v5, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -771,7 +726,6 @@
 
     if-nez p0, :cond_0
 
-    .line 4
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore advanceColor bitmap or faceData is null"
@@ -780,18 +734,15 @@
 
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 6
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 7
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -800,7 +751,6 @@
 
     move-result p1
 
-    .line 8
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -831,7 +781,6 @@
 
     invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
@@ -848,10 +797,8 @@
 
     move-result-object p0
 
-    .line 10
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -868,7 +815,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -876,12 +822,10 @@
     :cond_0
     const-string v1, "nStrength"
 
-    .line 2
     invoke-virtual {p1, v1}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0, p1, p2}, Lcom/meitu/core/processor/BeautyProcessor;->removeColorDenoise(Lcom/meitu/core/types/NativeBitmap;IF)Z
 
     move-result p0
@@ -900,7 +844,6 @@
 
     if-nez p0, :cond_0
 
-    .line 8
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore simpleBeauty bitmap is null."
@@ -909,28 +852,23 @@
 
     const/4 p0, 0x0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 10
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 11
     invoke-static {p0, p1}, Lcom/meitu/core/processor/BeautyProcessor;->nativeSimpleBeauty_Bitmap(Landroid/graphics/Bitmap;I)Z
 
     move-result p1
 
-    .line 12
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 13
     sget-object v5, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -975,7 +913,6 @@
 
     invoke-static {v5, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -990,7 +927,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore simpleBeauty bitmap is null."
@@ -999,18 +935,15 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -1019,12 +952,10 @@
 
     move-result p1
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 6
     sget-object v5, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -1069,7 +1000,6 @@
 
     invoke-static {v5, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1084,7 +1014,6 @@
 
     if-nez p0, :cond_0
 
-    .line 8
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore simpleBeautyExt bitmap is null."
@@ -1093,28 +1022,23 @@
 
     const/4 p0, 0x0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 10
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 11
     invoke-static {p0, p1, p2, p3, p4}, Lcom/meitu/core/processor/BeautyProcessor;->nativeSimpleBeautyExt_Bitmap(Landroid/graphics/Bitmap;IIFF)Z
 
     move-result p1
 
-    .line 12
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p2
 
-    .line 13
     sget-object p4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1159,7 +1083,6 @@
 
     invoke-static {p4, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1174,7 +1097,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore simpleBeautyExt bitmap is null."
@@ -1183,18 +1105,15 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -1211,12 +1130,10 @@
 
     move-result p1
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p2
 
-    .line 6
     sget-object p4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1261,7 +1178,6 @@
 
     invoke-static {p4, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1276,7 +1192,6 @@
 
     if-nez p0, :cond_0
 
-    .line 8
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore simpleBeauty bitmap is null."
@@ -1285,28 +1200,23 @@
 
     const/4 p0, 0x0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 10
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 11
     invoke-static {p0, p1}, Lcom/meitu/core/processor/BeautyProcessor;->nativeSimpleBeautyLevel_Bitmap(Landroid/graphics/Bitmap;F)Z
 
     move-result p1
 
-    .line 12
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 13
     sget-object v5, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -1351,7 +1261,6 @@
 
     invoke-static {v5, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1366,7 +1275,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore simpleBeauty bitmap is null."
@@ -1375,18 +1283,15 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -1395,12 +1300,10 @@
 
     move-result p1
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 6
     sget-object v5, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -1445,7 +1348,6 @@
 
     invoke-static {v5, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1464,12 +1366,10 @@
 
     const-string v0, "skinBeauty failed, ERROR: dict is null."
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
-    .line 19
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -1477,61 +1377,52 @@
     :cond_0
     const-string v2, "ambientLight"
 
-    .line 20
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v6
 
     const-string v2, "phoneType"
 
-    .line 21
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v8
 
     const-string v2, "isFaceMask"
 
-    .line 22
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v9
 
     const-string v2, "bAbroad"
 
-    .line 23
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v10
 
     const-string v2, "isForceCloseAutoContrast"
 
-    .line 24
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v11
 
     const-string v2, "isForceCloseInnerSkinTune"
 
-    .line 25
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v12
 
     const-string v2, "bAutoCleanFleck"
 
-    .line 26
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v13
 
     const-string v2, "alphaMixIsSameToiOS"
 
-    .line 27
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v0
 
-    .line 28
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1600,7 +1491,6 @@
 
     move/from16 v7, p4
 
-    .line 29
     invoke-static/range {v3 .. v13}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeautySameToiOSBitmap(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result v0
@@ -1618,7 +1508,6 @@
 
     move/from16 v7, p4
 
-    .line 30
     invoke-static/range {v3 .. v13}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeautyBitmap(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result v0
@@ -1647,7 +1536,6 @@
 
     move v5, p4
 
-    .line 2
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeauty(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFZ)Z
 
     move-result p0
@@ -1686,7 +1574,6 @@
 
     move/from16 v7, p5
 
-    .line 4
     invoke-static/range {v1 .. v11}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeautyBitmap(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result v1
@@ -1709,12 +1596,10 @@
 
     const-string v0, "skinBeauty failed, ERROR: dict is null."
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -1722,61 +1607,52 @@
     :cond_0
     const-string v2, "ambientLight"
 
-    .line 7
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v6
 
     const-string v2, "phoneType"
 
-    .line 8
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v8
 
     const-string v2, "isFaceMask"
 
-    .line 9
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v9
 
     const-string v2, "bAbroad"
 
-    .line 10
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v10
 
     const-string v2, "isForceCloseAutoContrast"
 
-    .line 11
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v11
 
     const-string v2, "isForceCloseInnerSkinTune"
 
-    .line 12
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v12
 
     const-string v2, "bAutoCleanFleck"
 
-    .line 13
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v13
 
     const-string v2, "alphaMixIsSameToiOS"
 
-    .line 14
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v0
 
-    .line 15
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1845,7 +1721,6 @@
 
     move/from16 v7, p4
 
-    .line 16
     invoke-static/range {v3 .. v13}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeautySameToiOS(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result v0
@@ -1863,7 +1738,6 @@
 
     move/from16 v7, p4
 
-    .line 17
     invoke-static/range {v3 .. v13}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeauty(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result v0
@@ -1892,7 +1766,6 @@
 
     move v5, p4
 
-    .line 1
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeauty(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFZ)Z
 
     move-result p0
@@ -1911,7 +1784,6 @@
 
     if-nez p0, :cond_0
 
-    .line 31
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v2, "effectcore skinBeauty bitmap is null."
@@ -1920,18 +1792,15 @@
 
     const/4 v1, 0x0
 
-    .line 32
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 33
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 34
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -1954,7 +1823,6 @@
 
     goto :goto_1
 
-    .line 35
     :cond_2
     invoke-virtual/range {p2 .. p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
@@ -1983,17 +1851,14 @@
 
     move/from16 v16, p10
 
-    .line 36
     invoke-static/range {v3 .. v16}, Lcom/meitu/core/processor/BeautyProcessor;->nativeSkinBeauty(JJJZFIZZZZZ)Z
 
     move-result v3
 
-    .line 37
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 38
     sget-object v6, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -2038,7 +1903,6 @@
 
     invoke-static {v6, v1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 39
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -2073,7 +1937,6 @@
 
     move/from16 v7, p5
 
-    .line 3
     invoke-static/range {v1 .. v11}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeauty(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result v1
@@ -2092,7 +1955,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v2, "effectcore skinBeautyBitmap bitmap is null."
@@ -2101,12 +1963,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -2120,7 +1980,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
@@ -2131,7 +1990,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     invoke-virtual/range {p2 .. p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
@@ -2162,17 +2020,14 @@
 
     move/from16 v13, p10
 
-    .line 6
     invoke-static/range {v1 .. v13}, Lcom/meitu/core/processor/BeautyProcessor;->nativeSkinBeauty_bitmap(Landroid/graphics/Bitmap;JJZFIZZZZZ)Z
 
     move-result v1
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 8
     sget-object v4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -2217,7 +2072,6 @@
 
     invoke-static {v4, v2}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -2264,7 +2118,6 @@
 
     move/from16 v6, p4
 
-    .line 1
     invoke-static/range {v2 .. v12}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeautyBitmap(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result v1
@@ -2315,7 +2168,6 @@
 
     move/from16 v6, p4
 
-    .line 2
     invoke-static/range {v2 .. v12}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeauty(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result v1
@@ -2366,7 +2218,6 @@
 
     move/from16 v10, p5
 
-    .line 2
     invoke-static/range {v2 .. v12}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeautySameToiOSBitmap(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result v1
@@ -2417,7 +2268,6 @@
 
     move/from16 v10, p5
 
-    .line 1
     invoke-static/range {v2 .. v12}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeautySameToiOS(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result v1
@@ -2436,7 +2286,6 @@
 
     if-nez p0, :cond_0
 
-    .line 3
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v2, "effectcore skinBeauty bitmap is null."
@@ -2445,18 +2294,15 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 6
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -2479,7 +2325,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-virtual/range {p2 .. p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
@@ -2508,17 +2353,14 @@
 
     move/from16 v16, p10
 
-    .line 8
     invoke-static/range {v3 .. v16}, Lcom/meitu/core/processor/BeautyProcessor;->nativeSkinBeautySameToiOS(JJJZFIZZZZZ)Z
 
     move-result v3
 
-    .line 9
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 10
     sget-object v6, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -2563,7 +2405,6 @@
 
     invoke-static {v6, v1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -2578,7 +2419,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v2, "effectcore skinBeautyBitmap bitmap is null."
@@ -2587,12 +2427,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -2606,7 +2444,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
@@ -2617,7 +2454,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     invoke-virtual/range {p2 .. p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
@@ -2648,17 +2484,14 @@
 
     move/from16 v13, p10
 
-    .line 6
     invoke-static/range {v1 .. v13}, Lcom/meitu/core/processor/BeautyProcessor;->nativeSkinBeautySameToiOS_bitmap(Landroid/graphics/Bitmap;JJZFIZZZZZ)Z
 
     move-result v1
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 8
     sget-object v4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -2703,7 +2536,6 @@
 
     invoke-static {v4, v2}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -2716,7 +2548,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-static/range {p0 .. p10}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeautyBitmap(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result p0
@@ -2733,7 +2564,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p0 .. p10}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeauty(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result p0
@@ -2750,7 +2580,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p0 .. p10}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeautySameToiOSBitmap(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result p0
@@ -2767,7 +2596,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-static/range {p0 .. p10}, Lcom/meitu/core/processor/BeautyProcessor;->skinBeautySameToiOS(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;ZFIZZZZZ)Z
 
     move-result p0
@@ -2786,7 +2614,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore skinColorAdjust bitmap is null."
@@ -2795,18 +2622,15 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -2815,12 +2639,10 @@
 
     move-result p1
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 6
     sget-object v5, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -2865,7 +2687,6 @@
 
     invoke-static {v5, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2880,7 +2701,6 @@
 
     if-nez p0, :cond_0
 
-    .line 14
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore skinBeauty bitmap is null."
@@ -2889,12 +2709,10 @@
 
     const/4 p0, 0x0
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 16
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -2906,7 +2724,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
@@ -2917,12 +2734,10 @@
 
     move-result p1
 
-    .line 18
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p2
 
-    .line 19
     sget-object v3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -2967,7 +2782,6 @@
 
     invoke-static {v3, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2984,7 +2798,6 @@
 
     const/4 p0, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -2992,12 +2805,10 @@
     :cond_0
     const-string v1, "darkThreshold"
 
-    .line 5
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result p2
 
-    .line 6
     invoke-static {p0, p1, p2, p3}, Lcom/meitu/core/processor/BeautyProcessor;->skinLighten(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;IF)Z
 
     move-result p0
@@ -3016,7 +2827,6 @@
 
     if-nez p0, :cond_0
 
-    .line 7
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore skinBeauty bitmap is null."
@@ -3025,18 +2835,15 @@
 
     const/4 p0, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 9
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 10
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -3061,12 +2868,10 @@
 
     move-result p1
 
-    .line 11
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p2
 
-    .line 12
     sget-object v3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -3111,7 +2916,6 @@
 
     invoke-static {v3, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -3128,7 +2932,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -3136,12 +2939,10 @@
     :cond_0
     const-string v1, "darkThreshold"
 
-    .line 2
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result p2
 
-    .line 3
     invoke-static {p0, p1, p2, p3}, Lcom/meitu/core/processor/BeautyProcessor;->skinLighten(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;IF)Z
 
     move-result p0
@@ -3160,7 +2961,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore skinWhitening bitmap is null"
@@ -3169,18 +2969,15 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -3189,7 +2986,6 @@
 
     move-result p1
 
-    .line 5
     sget-object v3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -3220,7 +3016,6 @@
 
     invoke-virtual {v4, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
@@ -3237,10 +3032,8 @@
 
     move-result-object p0
 
-    .line 7
     invoke-static {v3, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

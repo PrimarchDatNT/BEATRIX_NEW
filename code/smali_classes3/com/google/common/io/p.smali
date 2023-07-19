@@ -19,7 +19,6 @@
 .method public constructor <init>(Ljava/io/OutputStream;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -36,7 +35,6 @@
 .method public a()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/io/p;->a:J
 
     return-wide v0
@@ -50,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
     invoke-virtual {v0}, Ljava/io/OutputStream;->close()V
@@ -66,12 +63,10 @@
         }
     .end annotation
 
-    .line 3
     iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
     invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write(I)V
 
-    .line 4
     iget-wide v0, p0, Lcom/google/common/io/p;->a:J
 
     const-wide/16 v2, 0x1
@@ -91,12 +86,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/OutputStream;->write([BII)V
 
-    .line 2
     iget-wide p1, p0, Lcom/google/common/io/p;->a:J
 
     int-to-long v0, p3

@@ -13,7 +13,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result p1
@@ -26,10 +25,8 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/File;->delete()Z
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
@@ -37,7 +34,6 @@
 
     if-nez p1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Ljava/io/File;->mkdirs()Z
 
     :cond_1
@@ -51,7 +47,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -62,7 +57,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/io/File;
 
@@ -84,7 +78,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -99,7 +92,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/io/File;
 
@@ -131,7 +123,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/io/FileOutputStream;
 
@@ -140,17 +131,14 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-virtual {v1, p1}, Ljava/io/FileOutputStream;->write([B)V
 
-    .line 3
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->flush()V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     invoke-static {v1}, Lcom/google/android/gms/common/util/q;->b(Ljava/io/Closeable;)V
 
     const/4 p0, 0x1
@@ -172,14 +160,11 @@
     :catchall_1
     move-exception p0
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/google/android/gms/common/util/q;->b(Ljava/io/Closeable;)V
 
-    .line 6
     throw p0
 
-    .line 7
     :catch_1
     :goto_1
     invoke-static {v0}, Lcom/google/android/gms/common/util/q;->b(Ljava/io/Closeable;)V
@@ -196,7 +181,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -207,7 +191,6 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Ljava/io/File;->isDirectory()Z
 
@@ -215,7 +198,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object v0
@@ -229,14 +211,12 @@
 
     aget-object v3, v0, v2
 
-    .line 4
     invoke-static {v3}, Lcom/google/android/gms/internal/ads/kn1;->e(Ljava/io/File;)Z
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Ljava/io/File;->delete()Z
 
@@ -254,7 +234,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/io/FileInputStream;
 
@@ -263,7 +242,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/zzeer;->zzg(Ljava/io/InputStream;)Lcom/google/android/gms/internal/ads/zzeer;
 
@@ -276,7 +254,6 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 3
     invoke-static {v1}, Lcom/google/android/gms/common/util/q;->b(Ljava/io/Closeable;)V
 
     return-object p0
@@ -291,17 +268,14 @@
     :catchall_1
     move-exception p0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/google/android/gms/common/util/q;->b(Ljava/io/Closeable;)V
 
-    .line 5
     throw p0
 
     :catch_0
     move-object v1, v0
 
-    .line 6
     :catch_1
     invoke-static {v1}, Lcom/google/android/gms/common/util/q;->b(Ljava/io/Closeable;)V
 

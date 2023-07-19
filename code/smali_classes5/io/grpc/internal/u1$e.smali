@@ -24,7 +24,6 @@
 .method constructor <init>(Lio/grpc/internal/u1;Lio/grpc/internal/f1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/u1$e;->b:Lio/grpc/internal/u1;
 
     iput-object p2, p0, Lio/grpc/internal/u1$e;->a:Lio/grpc/internal/f1;
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1$e;->a:Lio/grpc/internal/f1;
 
     invoke-virtual {v0}, Lio/grpc/internal/f1;->Q()Ljava/util/List;
@@ -60,7 +58,6 @@
 .method public d()Lio/grpc/a;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/a;->b:Lio/grpc/a;
 
     return-object v0
@@ -69,7 +66,6 @@
 .method public f()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1$e;->a:Lio/grpc/internal/f1;
 
     return-object v0
@@ -78,7 +74,6 @@
 .method public g()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1$e;->a:Lio/grpc/internal/f1;
 
     invoke-virtual {v0}, Lio/grpc/internal/f1;->b()Lio/grpc/internal/v;
@@ -89,7 +84,6 @@
 .method public h()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1$e;->a:Lio/grpc/internal/f1;
 
     sget-object v1, Lio/grpc/Status;->v:Lio/grpc/Status;
@@ -116,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1$e;->a:Lio/grpc/internal/f1;
 
     return-object v0

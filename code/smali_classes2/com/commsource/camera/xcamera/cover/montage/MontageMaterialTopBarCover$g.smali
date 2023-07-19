@@ -58,7 +58,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     sget-object v1, Lcom/commsource/camera/xcamera/cover/montage/b;->a:[I
 
@@ -76,7 +75,6 @@
 
     if-eq p1, v1, :cond_1
 
-    .line 2
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$g;->a:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
@@ -98,13 +96,11 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$g;->a:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->z()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$g;->a:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -123,7 +119,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 5
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$g;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V

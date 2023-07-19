@@ -26,7 +26,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -62,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/collect/u1;->asRanges()Ljava/util/Set;
 
     move-result-object p1
@@ -83,7 +80,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -101,7 +97,6 @@
 
     check-cast v0, Lcom/google/common/collect/Range;
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/google/common/collect/f;->add(Lcom/google/common/collect/Range;)V
 
     goto :goto_0
@@ -113,7 +108,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Range;->all()Lcom/google/common/collect/Range;
 
     move-result-object v0
@@ -131,7 +125,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/f;->rangeContaining(Ljava/lang/Comparable;)Lcom/google/common/collect/Range;
 
     move-result-object p1
@@ -169,7 +162,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/collect/u1;->asRanges()Ljava/util/Set;
 
     move-result-object p1
@@ -192,7 +184,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -210,7 +201,6 @@
 
     check-cast v0, Lcom/google/common/collect/Range;
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/google/common/collect/f;->encloses(Lcom/google/common/collect/Range;)Z
 
     move-result v0
@@ -240,16 +230,13 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/google/common/collect/u1;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/u1;
 
-    .line 3
     invoke-interface {p0}, Lcom/google/common/collect/u1;->asRanges()Ljava/util/Set;
 
     move-result-object v0
@@ -273,7 +260,6 @@
 .method public final hashCode()I
     .locals 1
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/u1;->asRanges()Ljava/util/Set;
 
     move-result-object v0
@@ -295,7 +281,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Lcom/google/common/collect/u1;->subRangeSet(Lcom/google/common/collect/Range;)Lcom/google/common/collect/u1;
 
     move-result-object p1
@@ -312,7 +297,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/u1;->asRanges()Ljava/util/Set;
 
     move-result-object v0
@@ -344,7 +328,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -362,7 +345,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/collect/u1;->asRanges()Ljava/util/Set;
 
     move-result-object p1
@@ -383,7 +365,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -401,7 +382,6 @@
 
     check-cast v0, Lcom/google/common/collect/Range;
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/google/common/collect/f;->remove(Lcom/google/common/collect/Range;)V
 
     goto :goto_0
@@ -413,7 +393,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/u1;->asRanges()Ljava/util/Set;
 
     move-result-object v0

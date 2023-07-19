@@ -23,10 +23,8 @@
 .method private constructor <init>(Lcom/meitu/mtuploader/p$b;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/mtuploader/p$b;->a(Lcom/meitu/mtuploader/p$b;)Ljava/lang/String;
 
     move-result-object p1
@@ -39,7 +37,6 @@
 .method synthetic constructor <init>(Lcom/meitu/mtuploader/p$b;Lcom/meitu/mtuploader/p$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/mtuploader/p;-><init>(Lcom/meitu/mtuploader/p$b;)V
 
     return-void
@@ -54,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtuploader/p;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

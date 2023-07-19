@@ -31,7 +31,6 @@
 .method constructor <init>(FFFF)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/util/f2$b;->a:F
 
     iput p2, p0, Lcom/commsource/util/f2$b;->b:F
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Path;
 
     invoke-direct {v1}, Landroid/graphics/Path;-><init>()V
@@ -63,7 +61,6 @@
 
     new-array v2, v2, [F
 
-    .line 2
     iget v3, p0, Lcom/commsource/util/f2$b;->a:F
 
     const/4 v4, 0x0
@@ -108,10 +105,8 @@
 
     invoke-virtual {v1, p3, v2, v3}, Landroid/graphics/Path;->addRoundRect(Landroid/graphics/RectF;[FLandroid/graphics/Path$Direction;)V
 
-    .line 3
     invoke-virtual {p1, v1, p2}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

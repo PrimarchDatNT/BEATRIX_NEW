@@ -20,10 +20,8 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v1, 0x0
@@ -32,7 +30,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/gid/base/i;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 3
     iput v1, p0, Lcom/meitu/library/gid/base/i;->e:I
 
     return-void
@@ -47,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/i;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
@@ -66,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Lcom/meitu/library/gid/base/g;->b:I
 
     if-nez v1, :cond_0
@@ -79,10 +74,8 @@
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/meitu/library/gid/base/i;->e:I
 
-    .line 3
     :cond_0
     iget p1, p0, Lcom/meitu/library/gid/base/i;->e:I
 
@@ -98,7 +91,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/gid/base/i;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->decrementAndGet()I
@@ -109,10 +101,8 @@
 
     const/4 v0, 0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/library/gid/base/i;->e:I
 
-    .line 3
     :cond_0
     iget v0, p0, Lcom/meitu/library/gid/base/i;->e:I
 
@@ -128,7 +118,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/gid/base/i;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
@@ -141,10 +130,8 @@
 
     const/4 v0, 0x2
 
-    .line 2
     iput v0, p0, Lcom/meitu/library/gid/base/i;->e:I
 
-    .line 3
     :cond_0
     iget v0, p0, Lcom/meitu/library/gid/base/i;->e:I
 
@@ -160,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Lcom/meitu/library/gid/base/g;->a:I
 
     if-nez v1, :cond_0
@@ -171,10 +157,8 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 2
     iput v1, p0, Lcom/meitu/library/gid/base/i;->e:I
 
-    .line 3
     :cond_0
     iget p1, p0, Lcom/meitu/library/gid/base/i;->e:I
 

@@ -68,7 +68,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesJvmKt$filterIsInstance$1;->$klass:Ljava/lang/Class;
 
     invoke-virtual {v0, p1}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z

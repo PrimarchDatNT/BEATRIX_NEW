@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
@@ -35,7 +34,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,7 +48,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -73,7 +70,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -112,7 +108,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     iget p0, p0, Landroid/content/pm/PackageInfo;->versionCode:I
 
     invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -121,7 +116,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
 
@@ -144,12 +138,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lcom/bumptech/glide/r/b;->b:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v1, v0}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -160,12 +152,10 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {p0}, Lcom/bumptech/glide/r/b;->d(Landroid/content/Context;)Lcom/bumptech/glide/load/c;
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v1, v0, v2}, Ljava/util/concurrent/ConcurrentMap;->putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -193,17 +183,14 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/bumptech/glide/r/b;->a(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Lcom/bumptech/glide/r/b;->b(Landroid/content/pm/PackageInfo;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     new-instance v0, Lcom/bumptech/glide/r/e;
 
     invoke-direct {v0, p0}, Lcom/bumptech/glide/r/e;-><init>(Ljava/lang/Object;)V
@@ -216,7 +203,6 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/r/b;->b:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0}, Ljava/util/concurrent/ConcurrentMap;->clear()V

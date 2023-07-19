@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$d;->a:Lcom/commsource/puzzle/StitchComponent;
 
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->getWidth()I
@@ -57,7 +56,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/puzzle/StitchComponent;->c(Lcom/commsource/puzzle/StitchComponent;ILjava/util/List;)Ljava/util/List;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

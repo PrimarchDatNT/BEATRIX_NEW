@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
@@ -92,7 +91,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2$$special$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;
 
     iget-object v0, v0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
@@ -103,7 +101,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2$$special$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;
 
     iget-object v0, v0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
@@ -112,7 +109,6 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2$$special$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;
 
     iget-object v0, v0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
@@ -121,7 +117,6 @@
 
     move-result-object v2
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2$$special$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;
 
     iget-object v0, v0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
@@ -136,7 +131,6 @@
 
     move-result v5
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2$$special$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;
 
     iget-object v0, v0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
@@ -155,10 +149,8 @@
 
     move v4, p2
 
-    .line 7
     invoke-virtual/range {v1 .. v6}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->m0(Lcom/commsource/studio/bean/FocusLayerInfo;FFII)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2$$special$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;
 
     iget-object p1, p1, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
@@ -175,7 +167,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 9
     :cond_0
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

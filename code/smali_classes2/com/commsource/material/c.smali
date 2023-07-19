@@ -78,91 +78,78 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/material/c;
 
     invoke-direct {v1}, Lcom/commsource/material/c;-><init>()V
 
     sput-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
-    .line 2
     new-instance v1, Lcom/commsource/material/d;
 
     invoke-direct {v1}, Lcom/commsource/material/d;-><init>()V
 
     sput-object v1, Lcom/commsource/material/c;->a:Lcom/commsource/material/d;
 
-    .line 3
     new-instance v1, Lcom/commsource/material/d;
 
     invoke-direct {v1}, Lcom/commsource/material/d;-><init>()V
 
     sput-object v1, Lcom/commsource/material/c;->b:Lcom/commsource/material/d;
 
-    .line 4
     new-instance v1, Lcom/commsource/material/d;
 
     invoke-direct {v1}, Lcom/commsource/material/d;-><init>()V
 
     sput-object v1, Lcom/commsource/material/c;->c:Lcom/commsource/material/d;
 
-    .line 5
     new-instance v1, Lcom/commsource/material/d;
 
     invoke-direct {v1}, Lcom/commsource/material/d;-><init>()V
 
     sput-object v1, Lcom/commsource/material/c;->d:Lcom/commsource/material/d;
 
-    .line 6
     new-instance v1, Lcom/commsource/material/d;
 
     invoke-direct {v1}, Lcom/commsource/material/d;-><init>()V
 
     sput-object v1, Lcom/commsource/material/c;->e:Lcom/commsource/material/d;
 
-    .line 7
     new-instance v1, Lcom/commsource/material/d;
 
     invoke-direct {v1}, Lcom/commsource/material/d;-><init>()V
 
     sput-object v1, Lcom/commsource/material/c;->f:Lcom/commsource/material/d;
 
-    .line 8
     new-instance v1, Lcom/commsource/material/d;
 
     invoke-direct {v1}, Lcom/commsource/material/d;-><init>()V
 
     sput-object v1, Lcom/commsource/material/c;->g:Lcom/commsource/material/d;
 
-    .line 9
     new-instance v1, Lcom/commsource/material/d;
 
     invoke-direct {v1}, Lcom/commsource/material/d;-><init>()V
 
     sput-object v1, Lcom/commsource/material/c;->h:Lcom/commsource/material/d;
 
-    .line 10
     new-instance v1, Lcom/commsource/material/d;
 
     invoke-direct {v1}, Lcom/commsource/material/d;-><init>()V
 
     sput-object v1, Lcom/commsource/material/c;->i:Lcom/commsource/material/d;
 
-    .line 11
     new-instance v1, Lcom/commsource/material/d;
 
     invoke-direct {v1}, Lcom/commsource/material/d;-><init>()V
 
     sput-object v1, Lcom/commsource/material/c;->j:Lcom/commsource/material/d;
 
-    .line 12
     new-instance v1, Lcom/commsource/material/d;
 
     invoke-direct {v1}, Lcom/commsource/material/d;-><init>()V
 
     sput-object v1, Lcom/commsource/material/c;->k:Lcom/commsource/material/d;
 
-    .line 13
     new-instance v1, Lcom/commsource/material/d;
 
     const v2, 0x7fffffff
@@ -179,7 +166,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -194,12 +180,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->c:Lcom/commsource/material/d;
 
     invoke-virtual {v1, p1}, Lcom/commsource/material/d;->v(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -214,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->l:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -231,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->a:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -248,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->g:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -265,7 +246,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->b:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -282,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->h:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -299,7 +278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->c:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -316,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->d:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -333,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->e:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -350,7 +326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->f:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -367,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->j:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -384,7 +358,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->i:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -401,7 +374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->k:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -416,7 +388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->a:Lcom/commsource/material/d;
 
     invoke-virtual {v1}, Lcom/commsource/material/d;->i()I
@@ -463,7 +434,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sput-object p1, Lcom/commsource/material/c;->c:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -486,7 +456,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sput-object p1, Lcom/commsource/material/c;->d:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -509,7 +478,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sput-object p1, Lcom/commsource/material/c;->e:Lcom/commsource/material/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

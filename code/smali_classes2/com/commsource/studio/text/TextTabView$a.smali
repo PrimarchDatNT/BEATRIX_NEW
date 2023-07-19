@@ -44,7 +44,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -59,7 +58,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$a;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTabView;->getSelectPos()I
@@ -78,7 +76,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$a;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -95,7 +92,6 @@
 
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->setAlpha(F)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$a;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -110,7 +106,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->setAlpha(F)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$a;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -141,7 +136,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$a;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -184,7 +178,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$a;->a:Lcom/commsource/studio/text/TextTabView;
 
@@ -202,7 +195,6 @@
 
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->setAlpha(F)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$a;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -217,7 +209,6 @@
 
     invoke-virtual {v1, v5}, Landroid/view/ViewGroup;->setAlpha(F)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$a;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -254,7 +245,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/text/TextTabView$a;->a:Lcom/commsource/studio/text/TextTabView;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextTabView;->d(Lcom/commsource/studio/text/TextTabView;)Lcom/commsource/beautyplus/f0/qm;
@@ -295,13 +285,11 @@
 
     invoke-static {v1, p1}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 

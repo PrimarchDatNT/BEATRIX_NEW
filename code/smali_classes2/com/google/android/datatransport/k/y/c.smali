@@ -14,10 +14,8 @@
 .method public constructor <init>(J)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-direct {v0, p1, p2}, Ljava/util/concurrent/atomic/AtomicLong;-><init>(J)V
@@ -32,7 +30,6 @@
 .method public a()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/y/c;->a:Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicLong;->get()J
@@ -51,14 +48,12 @@
 
     if-ltz v2, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/y/c;->a:Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/atomic/AtomicLong;->addAndGet(J)J
 
     return-void
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -74,7 +69,6 @@
 
     const-wide/16 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lcom/google/android/datatransport/k/y/c;->b(J)V
 
     return-void

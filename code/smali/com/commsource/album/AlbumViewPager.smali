@@ -37,7 +37,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/album/AlbumViewPager;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -54,22 +53,18 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroidx/viewpager/widget/ViewPager;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/album/AlbumViewPager;->b:Z
 
     const/4 p1, 0x0
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/album/AlbumViewPager;->g:Z
 
     const/high16 p1, 0x40800000    # 4.0f
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p2
@@ -82,7 +77,6 @@
 
     iput p2, p0, Lcom/commsource/album/AlbumViewPager;->a:I
 
-    .line 6
     new-instance p1, Lcom/commsource/album/AlbumViewPager$a;
 
     invoke-direct {p1, p0}, Lcom/commsource/album/AlbumViewPager$a;-><init>(Lcom/commsource/album/AlbumViewPager;)V
@@ -99,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/album/AlbumViewPager;->p:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -114,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
@@ -125,7 +117,6 @@
 
     if-ne v1, v3, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -152,7 +143,6 @@
 
     mul-float v1, v1, v3
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v3
@@ -181,7 +171,6 @@
 
     add-float/2addr v1, v3
 
-    .line 4
     iget v3, p0, Lcom/commsource/album/AlbumViewPager;->a:I
 
     int-to-float v3, v3
@@ -190,12 +179,10 @@
 
     if-gez v1, :cond_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
@@ -229,12 +216,10 @@
 
     if-lez v1, :cond_1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 8
     :cond_1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
@@ -242,7 +227,6 @@
 
     iput v1, p0, Lcom/commsource/album/AlbumViewPager;->d:F
 
-    .line 9
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result p1
@@ -251,12 +235,10 @@
 
     const/4 p1, 0x1
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -270,23 +252,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
 
     const/4 v2, 0x3
 
-    .line 2
     invoke-virtual {p1, v2}, Landroid/view/MotionEvent;->setAction(I)V
 
-    .line 3
     invoke-super {p0, p1}, Landroidx/viewpager/widget/ViewPager;->onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/view/MotionEvent;->setAction(I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -299,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
@@ -310,7 +286,6 @@
 
     if-ne v1, v3, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Landroidx/viewpager/widget/ViewPager;->getCurrentItem()I
 
     move-result v1
@@ -333,12 +308,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentImageBounds()Landroid/graphics/RectF;
 
     move-result-object v3
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v4
@@ -365,15 +338,12 @@
 
     if-gez v4, :cond_0
 
-    .line 5
     iput-boolean v2, p0, Lcom/commsource/album/AlbumViewPager;->b:Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 7
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
@@ -403,15 +373,12 @@
 
     if-lez v1, :cond_1
 
-    .line 8
     iput-boolean v2, p0, Lcom/commsource/album/AlbumViewPager;->b:Z
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 10
     :cond_1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
@@ -419,7 +386,6 @@
 
     iput p1, p0, Lcom/commsource/album/AlbumViewPager;->c:F
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -437,7 +403,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -453,7 +418,6 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
@@ -461,24 +425,20 @@
 
     iput v2, p0, Lcom/commsource/album/AlbumViewPager;->c:F
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v2
 
     iput v2, p0, Lcom/commsource/album/AlbumViewPager;->d:F
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v2
 
     iput v2, p0, Lcom/commsource/album/AlbumViewPager;->f:F
 
-    .line 5
     iput-boolean v3, p0, Lcom/commsource/album/AlbumViewPager;->b:Z
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
@@ -496,7 +456,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-direct {p0, p1}, Lcom/commsource/album/AlbumViewPager;->d(Landroid/view/MotionEvent;)Z
 
@@ -504,17 +463,14 @@
 
     if-eqz v2, :cond_3
 
-    .line 8
     invoke-direct {p0, p1}, Lcom/commsource/album/AlbumViewPager;->c(Landroid/view/MotionEvent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 10
     :cond_3
     :try_start_1
     invoke-super {p0, p1}, Landroidx/viewpager/widget/ViewPager;->onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
@@ -539,7 +495,6 @@
     :goto_0
     if-nez v2, :cond_5
 
-    .line 11
     invoke-direct {p0, p1}, Lcom/commsource/album/AlbumViewPager;->b(Landroid/view/MotionEvent;)Z
 
     move-result p1
@@ -556,18 +511,15 @@
 
     return v1
 
-    .line 12
     :cond_7
     :goto_1
     :try_start_2
     iput-boolean v1, p0, Lcom/commsource/album/AlbumViewPager;->b:Z
 
-    .line 13
     invoke-direct {p0, p1}, Lcom/commsource/album/AlbumViewPager;->c(Landroid/view/MotionEvent;)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -575,10 +527,8 @@
     :catch_0
     move-exception p1
 
-    .line 15
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -591,7 +541,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1}, Landroidx/viewpager/widget/ViewPager;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
@@ -606,12 +555,10 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -624,10 +571,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/album/AlbumViewPager;->g:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -640,10 +585,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/album/AlbumViewPager;->p:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$g;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

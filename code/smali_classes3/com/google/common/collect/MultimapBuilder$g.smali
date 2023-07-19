@@ -32,7 +32,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/collect/MultimapBuilder;-><init>(Lcom/google/common/collect/MultimapBuilder$a;)V
 
     return-void
@@ -43,7 +42,6 @@
 .method public bridge synthetic a()Lcom/google/common/collect/l1;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/MultimapBuilder$g;->j()Lcom/google/common/collect/x1;
 
     move-result-object v0
@@ -54,7 +52,6 @@
 .method public bridge synthetic b(Lcom/google/common/collect/l1;)Lcom/google/common/collect/l1;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/MultimapBuilder$g;->k(Lcom/google/common/collect/l1;)Lcom/google/common/collect/x1;
 
     move-result-object p1
@@ -84,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/MultimapBuilder;->b(Lcom/google/common/collect/l1;)Lcom/google/common/collect/l1;
 
     move-result-object p1

@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/armaterial/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/i$c;->a:Lcom/commsource/beautyplus/armaterial/i;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
@@ -43,14 +42,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
     const/4 p1, 0x1
 
     if-ne p2, p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/armaterial/i$c;->a:Lcom/commsource/beautyplus/armaterial/i;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/armaterial/i;->C(Lcom/commsource/beautyplus/armaterial/i;)Lcom/commsource/beautyplus/f0/y6;
@@ -61,7 +58,6 @@
 
     invoke-static {p1}, Lcom/commsource/camera/f1/r;->a(Landroid/view/View;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

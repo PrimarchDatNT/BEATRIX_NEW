@@ -54,14 +54,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/util/p2/c;
 
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$d;->a:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
     invoke-direct {v0, v1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/formula/FormulaStoreActivity$d$a;
 
     const-string v2, "\u914d\u65b9\u5546\u5e97\u9875"
@@ -70,7 +68,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -83,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/FormulaStoreActivity$d;->a(Ljava/lang/Integer;)V

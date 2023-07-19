@@ -18,7 +18,6 @@
 .method public static final synthetic a(Ljava/lang/Object;Ljava/lang/Object;[Lcotlin/jvm/u/l;)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/z1/b;->k(Ljava/lang/Object;Ljava/lang/Object;[Lcotlin/jvm/u/l;)I
 
     move-result p0
@@ -47,7 +46,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$c;
 
     invoke-direct {v0, p0, p1}, Lcotlin/z1/b$c;-><init>(Ljava/util/Comparator;Lcotlin/jvm/u/l;)V
@@ -74,7 +72,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$b;
 
     invoke-direct {v0, p0}, Lcotlin/z1/b$b;-><init>(Lcotlin/jvm/u/l;)V
@@ -109,7 +106,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p0
 
     if-lez v0, :cond_0
@@ -124,14 +120,12 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 2
     new-instance v0, Lcotlin/z1/b$a;
 
     invoke-direct {v0, p0}, Lcotlin/z1/b$a;-><init>([Lcotlin/jvm/u/l;)V
 
     return-object v0
 
-    .line 3
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -167,7 +161,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$e;
 
     invoke-direct {v0, p0, p1}, Lcotlin/z1/b$e;-><init>(Ljava/util/Comparator;Lcotlin/jvm/u/l;)V
@@ -194,7 +187,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$d;
 
     invoke-direct {v0, p0}, Lcotlin/z1/b$d;-><init>(Lcotlin/jvm/u/l;)V
@@ -240,7 +232,6 @@
 
     return p0
 
-    .line 1
     :cond_2
     invoke-interface {p0, p1}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
@@ -268,7 +259,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-interface {p3, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -301,7 +291,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-interface {p2, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -343,7 +332,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p2
 
     if-lez v0, :cond_0
@@ -358,14 +346,12 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {p0, p1, p2}, Lcotlin/z1/b;->k(Ljava/lang/Object;Ljava/lang/Object;[Lcotlin/jvm/u/l;)I
 
     move-result p0
 
     return p0
 
-    .line 3
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -394,7 +380,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p2
 
     const/4 v1, 0x0
@@ -406,21 +391,18 @@
 
     aget-object v3, p2, v2
 
-    .line 2
     invoke-interface {v3, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Ljava/lang/Comparable;
 
-    .line 3
     invoke-interface {v3, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/Comparable;
 
-    .line 4
     invoke-static {v4, v3}, Lcotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
 
     move-result v3
@@ -453,7 +435,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/z1/e;->a:Lcotlin/z1/e;
 
     const-string v1, "null cannot be cast to non-null type kotlin.Comparator<T> /* = java.util.Comparator<T> */"
@@ -478,7 +459,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/z1/b;->l()Ljava/util/Comparator;
 
     move-result-object v0
@@ -515,7 +495,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$f;
 
     invoke-direct {v0, p0}, Lcotlin/z1/b$f;-><init>(Ljava/util/Comparator;)V
@@ -538,7 +517,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/z1/b;->l()Ljava/util/Comparator;
 
     move-result-object v0
@@ -575,7 +553,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$g;
 
     invoke-direct {v0, p0}, Lcotlin/z1/b$g;-><init>(Ljava/util/Comparator;)V
@@ -598,7 +575,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/z1/f;->a:Lcotlin/z1/f;
 
     const-string v1, "null cannot be cast to non-null type kotlin.Comparator<T> /* = java.util.Comparator<T> */"
@@ -633,7 +609,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p0, Lcotlin/z1/g;
 
     if-eqz v0, :cond_0
@@ -646,7 +621,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     sget-object v0, Lcotlin/z1/e;->a:Lcotlin/z1/e;
 
@@ -664,7 +638,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     sget-object v1, Lcotlin/z1/f;->a:Lcotlin/z1/f;
 
@@ -678,7 +651,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     new-instance v0, Lcotlin/z1/g;
 
@@ -726,7 +698,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$h;
 
     invoke-direct {v0, p0, p1}, Lcotlin/z1/b$h;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;)V
@@ -757,7 +728,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$j;
 
     invoke-direct {v0, p0, p1, p2}, Lcotlin/z1/b$j;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;Lcotlin/jvm/u/l;)V
@@ -786,7 +756,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$i;
 
     invoke-direct {v0, p0, p1}, Lcotlin/z1/b$i;-><init>(Ljava/util/Comparator;Lcotlin/jvm/u/l;)V
@@ -817,7 +786,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$l;
 
     invoke-direct {v0, p0, p1, p2}, Lcotlin/z1/b$l;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;Lcotlin/jvm/u/l;)V
@@ -846,7 +814,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$k;
 
     invoke-direct {v0, p0, p1}, Lcotlin/z1/b$k;-><init>(Ljava/util/Comparator;Lcotlin/jvm/u/l;)V
@@ -875,7 +842,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$m;
 
     invoke-direct {v0, p0, p1}, Lcotlin/z1/b$m;-><init>(Ljava/util/Comparator;Lcotlin/jvm/u/p;)V
@@ -918,7 +884,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$n;
 
     invoke-direct {v0, p0, p1}, Lcotlin/z1/b$n;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;)V

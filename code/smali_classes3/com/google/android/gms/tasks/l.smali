@@ -28,10 +28,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/tasks/i0;
 
     invoke-direct {v0}, Lcom/google/android/gms/tasks/i0;-><init>()V
@@ -48,17 +46,14 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/tasks/i0;
 
     invoke-direct {v0}, Lcom/google/android/gms/tasks/i0;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/tasks/l;->a:Lcom/google/android/gms/tasks/i0;
 
-    .line 5
     new-instance v0, Lcom/google/android/gms/tasks/g0;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/tasks/g0;-><init>(Lcom/google/android/gms/tasks/l;)V
@@ -71,7 +66,6 @@
 .method static synthetic f(Lcom/google/android/gms/tasks/l;)Lcom/google/android/gms/tasks/i0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/tasks/l;->a:Lcom/google/android/gms/tasks/i0;
 
     return-object p0
@@ -92,7 +86,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/l;->a:Lcom/google/android/gms/tasks/i0;
 
     return-object v0
@@ -105,7 +98,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/l;->a:Lcom/google/android/gms/tasks/i0;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/i0;->y(Ljava/lang/Exception;)V
@@ -121,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/l;->a:Lcom/google/android/gms/tasks/i0;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/i0;->z(Ljava/lang/Object;)V
@@ -136,7 +127,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/l;->a:Lcom/google/android/gms/tasks/i0;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/i0;->A(Ljava/lang/Exception;)Z
@@ -154,7 +144,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/l;->a:Lcom/google/android/gms/tasks/i0;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/i0;->B(Ljava/lang/Object;)Z

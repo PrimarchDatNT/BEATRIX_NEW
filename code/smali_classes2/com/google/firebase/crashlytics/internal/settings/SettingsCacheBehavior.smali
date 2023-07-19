@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;
 
     const-string v1, "USE_CACHE"
@@ -38,7 +37,6 @@
 
     sput-object v0, Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;->USE_CACHE:Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;
 
     const-string v3, "SKIP_CACHE_LOOKUP"
@@ -49,7 +47,6 @@
 
     sput-object v1, Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;->SKIP_CACHE_LOOKUP:Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;
 
-    .line 3
     new-instance v3, Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;
 
     const-string v5, "IGNORE_CACHE_EXPIRATION"
@@ -70,7 +67,6 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;->$VALUES:[Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;
 
     return-void
@@ -84,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -93,7 +88,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -108,7 +102,6 @@
 .method public static values()[Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;->$VALUES:[Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;
 
     invoke-virtual {v0}, [Lcom/google/firebase/crashlytics/internal/settings/SettingsCacheBehavior;->clone()Ljava/lang/Object;

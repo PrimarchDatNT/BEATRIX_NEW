@@ -48,7 +48,6 @@
 
     sput-object v0, Lcotlin/g2/k;->g:Lcotlin/g2/k$a;
 
-    .line 1
     new-instance v0, Lcotlin/g2/k;
 
     const/4 v1, 0x1
@@ -67,7 +66,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcotlin/g2/i;-><init>(III)V
 
     return-void
@@ -76,7 +74,6 @@
 .method public static final synthetic j()Lcotlin/g2/k;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/g2/k;->f:Lcotlin/g2/k;
 
     return-object v0
@@ -87,7 +84,6 @@
 .method public bridge synthetic contains(Ljava/lang/Comparable;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -108,7 +104,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlin/g2/k;
 
     if-eqz v0, :cond_2
@@ -167,7 +162,6 @@
 .method public bridge synthetic getEndInclusive()Ljava/lang/Comparable;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/k;->l()Ljava/lang/Integer;
 
     move-result-object v0
@@ -178,7 +172,6 @@
 .method public bridge synthetic getStart()Ljava/lang/Comparable;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/k;->m()Ljava/lang/Integer;
 
     move-result-object v0
@@ -189,7 +182,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/k;->isEmpty()Z
 
     move-result v0
@@ -220,7 +212,6 @@
 .method public isEmpty()Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/i;->c()I
 
     move-result v0
@@ -245,7 +236,6 @@
 .method public k(I)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/i;->c()I
 
     move-result v0
@@ -274,7 +264,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/i;->e()I
 
     move-result v0
@@ -291,7 +280,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/i;->c()I
 
     move-result v0
@@ -308,7 +296,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

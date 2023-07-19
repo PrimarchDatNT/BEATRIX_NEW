@@ -75,7 +75,6 @@
 .method static constructor <clinit>()V
     .locals 14
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TStruct;
 
     const-string v1, "TraceResponse"
@@ -84,7 +83,6 @@
 
     sput-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v2, "span"
@@ -97,7 +95,6 @@
 
     sput-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->SPAN_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 3
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v5, "downstream"
@@ -108,7 +105,6 @@
 
     sput-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->DOWNSTREAM_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 4
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v7, "notImplementedError"
@@ -121,7 +117,6 @@
 
     sput-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->NOT_IMPLEMENTED_ERROR_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 5
     new-instance v0, Lio/jaegertracing/crossdock/thrift/TraceResponse$c;
 
     const/4 v9, 0x0
@@ -130,7 +125,6 @@
 
     sput-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->STANDARD_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 6
     new-instance v0, Lio/jaegertracing/crossdock/thrift/TraceResponse$e;
 
     invoke-direct {v0, v9}, Lio/jaegertracing/crossdock/thrift/TraceResponse$e;-><init>(Lio/jaegertracing/crossdock/thrift/TraceResponse$a;)V
@@ -139,7 +133,6 @@
 
     new-array v0, v6, [Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;
 
-    .line 7
     sget-object v9, Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;->SPAN:Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;
 
     const/4 v10, 0x0
@@ -152,14 +145,12 @@
 
     sput-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->optionals:[Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;
 
-    .line 8
     new-instance v0, Ljava/util/EnumMap;
 
     const-class v11, Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;
 
     invoke-direct {v0, v11}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 9
     new-instance v11, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v12, Lorg/apache/thrift/meta_data/StructMetaData;
@@ -172,7 +163,6 @@
 
     invoke-interface {v0, v9, v11}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     new-instance v2, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v9, Lorg/apache/thrift/meta_data/FieldValueMetaData;
@@ -183,7 +173,6 @@
 
     invoke-interface {v0, v10, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     sget-object v1, Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;->NOT_IMPLEMENTED_ERROR:Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -196,14 +185,12 @@
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     sput-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->metaDataMap:Ljava/util/Map;
 
-    .line 13
     const-class v1, Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     invoke-static {v1, v0}, Lorg/apache/thrift/meta_data/FieldMetaData;->addStructMetaDataMap(Ljava/lang/Class;Ljava/util/Map;)V
@@ -214,7 +201,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -223,17 +209,14 @@
 .method public constructor <init>(Lio/jaegertracing/crossdock/thrift/TraceResponse;)V
     .locals 2
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     invoke-virtual {p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetSpan()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 6
     new-instance v0, Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
     iget-object v1, p1, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
@@ -242,7 +225,6 @@
 
     iput-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
-    .line 7
     :cond_0
     invoke-virtual {p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetDownstream()Z
 
@@ -250,7 +232,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 8
     new-instance v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     iget-object v1, p1, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
@@ -259,7 +240,6 @@
 
     iput-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
-    .line 9
     :cond_1
     invoke-virtual {p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetNotImplementedError()Z
 
@@ -267,7 +247,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 10
     iget-object p1, p1, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
     iput-object p1, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
@@ -279,10 +258,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
     return-void
@@ -291,7 +268,6 @@
 .method static synthetic access$300()Lorg/apache/thrift/protocol/TStruct;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
     return-object v0
@@ -300,7 +276,6 @@
 .method static synthetic access$400()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->SPAN_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -309,7 +284,6 @@
 .method static synthetic access$500()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->DOWNSTREAM_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -318,7 +292,6 @@
 .method static synthetic access$600()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->NOT_IMPLEMENTED_ERROR_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -333,7 +306,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -352,7 +324,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -372,7 +343,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/apache/thrift/scheme/StandardScheme;
 
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TProtocol;->getScheme()Ljava/lang/Class;
@@ -408,7 +378,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -427,7 +396,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -442,13 +410,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
-    .line 2
     iput-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
-    .line 3
     iput-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
     return-void
@@ -457,7 +422,6 @@
 .method public compareTo(Lio/jaegertracing/crossdock/thrift/TraceResponse;)I
     .locals 2
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -472,7 +436,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -495,7 +458,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetSpan()Z
 
@@ -521,7 +483,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetSpan()Z
 
@@ -529,7 +490,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
     iget-object v1, p1, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
@@ -542,7 +502,6 @@
 
     return v0
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetDownstream()Z
 
@@ -568,7 +527,6 @@
 
     return v0
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetDownstream()Z
 
@@ -576,7 +534,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 9
     iget-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     iget-object v1, p1, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
@@ -589,7 +546,6 @@
 
     return v0
 
-    .line 10
     :cond_4
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetNotImplementedError()Z
 
@@ -615,7 +571,6 @@
 
     return v0
 
-    .line 11
     :cond_5
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetNotImplementedError()Z
 
@@ -623,7 +578,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 12
     iget-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
     iget-object p1, p1, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
@@ -645,7 +599,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->compareTo(Lio/jaegertracing/crossdock/thrift/TraceResponse;)I
@@ -658,7 +611,6 @@
 .method public deepCopy()Lio/jaegertracing/crossdock/thrift/TraceResponse;
     .locals 1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     invoke-direct {v0, p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;-><init>(Lio/jaegertracing/crossdock/thrift/TraceResponse;)V
@@ -669,7 +621,6 @@
 .method public bridge synthetic deepCopy()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->deepCopy()Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     move-result-object v0
@@ -693,13 +644,11 @@
 
     return v1
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetSpan()Z
 
     move-result v2
 
-    .line 4
     invoke-virtual {p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetSpan()Z
 
     move-result v3
@@ -715,7 +664,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     iget-object v2, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
@@ -729,13 +677,11 @@
 
     return v0
 
-    .line 6
     :cond_4
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetDownstream()Z
 
     move-result v2
 
-    .line 7
     invoke-virtual {p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetDownstream()Z
 
     move-result v3
@@ -751,7 +697,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_6
     iget-object v2, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
@@ -765,13 +710,11 @@
 
     return v0
 
-    .line 9
     :cond_7
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetNotImplementedError()Z
 
     move-result v2
 
-    .line 10
     invoke-virtual {p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetNotImplementedError()Z
 
     move-result v3
@@ -787,7 +730,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_9
     iget-object v2, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
@@ -818,13 +760,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->equals(Lio/jaegertracing/crossdock/thrift/TraceResponse;)Z
@@ -840,7 +780,6 @@
 .method public fieldForId(I)Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;->findByThriftId(I)Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;
 
     move-result-object p1
@@ -851,7 +790,6 @@
 .method public bridge synthetic fieldForId(I)Lorg/apache/thrift/TFieldIdEnum;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->fieldForId(I)Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;
 
     move-result-object p1
@@ -862,7 +800,6 @@
 .method public getDownstream()Lio/jaegertracing/crossdock/thrift/TraceResponse;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     return-object v0
@@ -871,7 +808,6 @@
 .method public getFieldValue(Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;)Ljava/lang/Object;
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -892,14 +828,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->getNotImplementedError()Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -907,7 +841,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->getDownstream()Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
@@ -915,7 +848,6 @@
 
     return-object p1
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->getSpan()Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
@@ -927,7 +859,6 @@
 .method public bridge synthetic getFieldValue(Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->getFieldValue(Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;)Ljava/lang/Object;
@@ -940,7 +871,6 @@
 .method public getNotImplementedError()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
     return-object v0
@@ -949,7 +879,6 @@
 .method public getSpan()Lio/jaegertracing/crossdock/thrift/ObservedSpan;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
     return-object v0
@@ -958,7 +887,6 @@
 .method public hashCode()I
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetSpan()Z
 
     move-result v0
@@ -981,7 +909,6 @@
 
     add-int/2addr v0, v3
 
-    .line 2
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetSpan()Z
 
     move-result v4
@@ -990,7 +917,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 3
     iget-object v4, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
     invoke-virtual {v4}, Lio/jaegertracing/crossdock/thrift/ObservedSpan;->hashCode()I
@@ -1002,7 +928,6 @@
     :cond_1
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 4
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetDownstream()Z
 
     move-result v4
@@ -1019,7 +944,6 @@
     :goto_1
     add-int/2addr v0, v4
 
-    .line 5
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetDownstream()Z
 
     move-result v4
@@ -1028,7 +952,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 6
     iget-object v4, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     invoke-virtual {v4}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->hashCode()I
@@ -1040,7 +963,6 @@
     :cond_3
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 7
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetNotImplementedError()Z
 
     move-result v3
@@ -1055,7 +977,6 @@
     :goto_2
     add-int/2addr v0, v1
 
-    .line 8
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetNotImplementedError()Z
 
     move-result v1
@@ -1064,7 +985,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 9
     iget-object v1, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
@@ -1082,7 +1002,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 2
     sget-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1103,14 +1022,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetNotImplementedError()Z
 
     move-result p1
 
     return p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1118,7 +1035,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetDownstream()Z
 
@@ -1126,7 +1042,6 @@
 
     return p1
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetSpan()Z
 
@@ -1134,7 +1049,6 @@
 
     return p1
 
-    .line 7
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1146,7 +1060,6 @@
 .method public bridge synthetic isSet(Lorg/apache/thrift/TFieldIdEnum;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSet(Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;)Z
@@ -1159,7 +1072,6 @@
 .method public isSetDownstream()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     if-eqz v0, :cond_0
@@ -1178,7 +1090,6 @@
 .method public isSetNotImplementedError()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -1197,7 +1108,6 @@
 .method public isSetSpan()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
     if-eqz v0, :cond_0
@@ -1221,7 +1131,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0
@@ -1234,7 +1143,6 @@
 .method public setDownstream(Lio/jaegertracing/crossdock/thrift/TraceResponse;)Lio/jaegertracing/crossdock/thrift/TraceResponse;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     return-object p0
@@ -1247,7 +1155,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     :cond_0
@@ -1257,7 +1164,6 @@
 .method public setFieldValue(Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/crossdock/thrift/TraceResponse$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1283,12 +1189,10 @@
     :cond_0
     if-nez p2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->unsetNotImplementedError()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     check-cast p2, Ljava/lang/String;
 
@@ -1299,12 +1203,10 @@
     :cond_2
     if-nez p2, :cond_3
 
-    .line 5
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->unsetDownstream()V
 
     goto :goto_0
 
-    .line 6
     :cond_3
     check-cast p2, Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
@@ -1315,12 +1217,10 @@
     :cond_4
     if-nez p2, :cond_5
 
-    .line 7
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->unsetSpan()V
 
     goto :goto_0
 
-    .line 8
     :cond_5
     check-cast p2, Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
@@ -1333,7 +1233,6 @@
 .method public bridge synthetic setFieldValue(Lorg/apache/thrift/TFieldIdEnum;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->setFieldValue(Lio/jaegertracing/crossdock/thrift/TraceResponse$_Fields;Ljava/lang/Object;)V
@@ -1344,7 +1243,6 @@
 .method public setNotImplementedError(Ljava/lang/String;)Lio/jaegertracing/crossdock/thrift/TraceResponse;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
     return-object p0
@@ -1357,7 +1255,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
     :cond_0
@@ -1367,7 +1264,6 @@
 .method public setSpan(Lio/jaegertracing/crossdock/thrift/ObservedSpan;)Lio/jaegertracing/crossdock/thrift/TraceResponse;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
     return-object p0
@@ -1380,7 +1276,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
     :cond_0
@@ -1390,14 +1285,12 @@
 .method public toString()Ljava/lang/String;
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "TraceResponse("
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetSpan()Z
 
     move-result v1
@@ -1410,20 +1303,16 @@
 
     const-string v1, "span:"
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     iget-object v1, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
     if-nez v1, :cond_0
 
-    .line 5
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -1435,7 +1324,6 @@
     :cond_1
     const/4 v1, 0x1
 
-    .line 7
     :goto_1
     invoke-virtual {p0}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->isSetDownstream()Z
 
@@ -1447,26 +1335,21 @@
 
     if-nez v1, :cond_2
 
-    .line 8
     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_2
     const-string v1, "downstream:"
 
-    .line 9
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     iget-object v1, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     if-nez v1, :cond_3
 
-    .line 11
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_2
 
-    .line 12
     :cond_3
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -1478,36 +1361,29 @@
     :goto_2
     if-nez v2, :cond_5
 
-    .line 13
     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_5
     const-string v1, "notImplementedError:"
 
-    .line 14
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     iget-object v1, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
     if-nez v1, :cond_6
 
-    .line 16
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_3
 
-    .line 17
     :cond_6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :goto_3
     const-string v1, ")"
 
-    .line 18
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 19
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -1520,7 +1396,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->downstream:Lio/jaegertracing/crossdock/thrift/TraceResponse;
 
     return-void
@@ -1531,7 +1406,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
     return-void
@@ -1542,7 +1416,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
     return-void
@@ -1556,23 +1429,19 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->notImplementedError:Ljava/lang/String;
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lio/jaegertracing/crossdock/thrift/TraceResponse;->span:Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lio/jaegertracing/crossdock/thrift/ObservedSpan;->validate()V
 
     :cond_0
     return-void
 
-    .line 4
     :cond_1
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -1607,7 +1476,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/crossdock/thrift/TraceResponse;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0

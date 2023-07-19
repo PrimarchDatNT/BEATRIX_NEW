@@ -57,7 +57,6 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 3
     invoke-direct {p0, v0, v1, v2}, Lcom/mopub/network/MoPubRetryPolicy;-><init>(IIF)V
 
     return-void
@@ -66,7 +65,6 @@
 .method public constructor <init>(IIF)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/mopub/network/MoPubRetryPolicy;->initialTimeoutMs:I
@@ -101,7 +99,6 @@
 
     const/high16 p3, 0x3f800000    # 1.0f
 
-    .line 2
     :cond_2
     invoke-direct {p0, p1, p2, p3}, Lcom/mopub/network/MoPubRetryPolicy;-><init>(IIF)V
 
@@ -231,7 +228,6 @@
 .method public final getBackoffMultiplier()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/network/MoPubRetryPolicy;->backoffMultiplier:F
 
     return v0
@@ -240,7 +236,6 @@
 .method public final getInitialTimeoutMs()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/network/MoPubRetryPolicy;->initialTimeoutMs:I
 
     return v0
@@ -249,7 +244,6 @@
 .method public final getMaxNumRetries()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/network/MoPubRetryPolicy;->maxNumRetries:I
 
     return v0

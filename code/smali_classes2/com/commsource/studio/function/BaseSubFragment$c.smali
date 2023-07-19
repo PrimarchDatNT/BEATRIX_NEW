@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$c;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->isAdded()Z
@@ -52,12 +51,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$c;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->M0()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$c;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -65,7 +62,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -83,12 +79,10 @@
 
     check-cast v2, Lcotlin/jvm/u/a;
 
-    .line 5
     invoke-interface {v2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$c;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -98,7 +92,6 @@
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->clear()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

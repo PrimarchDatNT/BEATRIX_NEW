@@ -25,7 +25,6 @@
 .method private constructor <init>(Lcom/sdk/imp/base/mraid/CloseableLayout;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/CloseableLayout$c;->a:Lcom/sdk/imp/base/mraid/CloseableLayout;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/sdk/imp/base/mraid/CloseableLayout;Lcom/sdk/imp/base/mraid/CloseableLayout$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/sdk/imp/base/mraid/CloseableLayout$c;-><init>(Lcom/sdk/imp/base/mraid/CloseableLayout;)V
 
     return-void
@@ -47,7 +45,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/CloseableLayout$c;->a:Lcom/sdk/imp/base/mraid/CloseableLayout;
 
     const/4 v1, 0x0

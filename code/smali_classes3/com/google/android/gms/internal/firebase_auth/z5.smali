@@ -12,14 +12,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/z5;->c()Lcom/google/android/gms/internal/firebase_auth/x5;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/z5;->a:Lcom/google/android/gms/internal/firebase_auth/x5;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/a6;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/a6;-><init>()V
@@ -32,7 +30,6 @@
 .method static a()Lcom/google/android/gms/internal/firebase_auth/x5;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/z5;->a:Lcom/google/android/gms/internal/firebase_auth/x5;
 
     return-object v0
@@ -41,7 +38,6 @@
 .method static b()Lcom/google/android/gms/internal/firebase_auth/x5;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/z5;->b:Lcom/google/android/gms/internal/firebase_auth/x5;
 
     return-object v0
@@ -53,7 +49,6 @@
     :try_start_0
     const-string v0, "com.google.protobuf.NewInstanceSchemaFull"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -62,7 +57,6 @@
 
     new-array v2, v1, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {v0, v2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v0

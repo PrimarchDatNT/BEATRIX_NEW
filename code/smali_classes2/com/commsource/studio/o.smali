@@ -79,7 +79,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/o;->i:Landroid/graphics/Bitmap;
@@ -102,15 +101,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->c:Lcom/commsource/camera/d1/g/l;
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/studio/o;->c:Lcom/commsource/camera/d1/g/l;
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -129,7 +125,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/l;->f()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -147,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/o;->g:Lcom/commsource/camera/d1/g/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -166,15 +160,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->b:Lcom/commsource/camera/d1/g/r;
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/studio/o;->b:Lcom/commsource/camera/d1/g/r;
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -193,7 +184,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/r;->i()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -211,15 +201,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->e:Lcom/commsource/camera/d1/g/s;
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/studio/o;->e:Lcom/commsource/camera/d1/g/s;
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -238,7 +225,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/s;->e()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -276,38 +262,32 @@
 
     invoke-static {p1, v9}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v9, p0, Lcom/commsource/studio/o;->j:Lcom/commsource/camera/d1/g/j;
 
     const-class v10, Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {p1, v9, v10}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 2
     invoke-virtual {p1, v7}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
     move-result v9
 
     if-eqz v9, :cond_1
 
-    .line 3
     iget-object v9, p0, Lcom/commsource/studio/o;->d:Lcom/commsource/camera/d1/g/g;
 
     if-eqz v9, :cond_0
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/o;->b()Lcom/commsource/camera/d1/g/g;
 
     move-result-object v9
 
-    .line 5
     :goto_0
     invoke-virtual {p1, v9, v7}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 6
     :cond_1
     invoke-virtual {p1, v6}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
@@ -315,24 +295,20 @@
 
     if-eqz v7, :cond_3
 
-    .line 7
     iget-object v7, p0, Lcom/commsource/studio/o;->e:Lcom/commsource/camera/d1/g/s;
 
     if-eqz v7, :cond_2
 
     goto :goto_1
 
-    .line 8
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/studio/o;->i()Lcom/commsource/camera/d1/g/s;
 
     move-result-object v7
 
-    .line 9
     :goto_1
     invoke-virtual {p1, v7, v6}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 10
     :cond_3
     invoke-virtual {p1, v5}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
@@ -340,24 +316,20 @@
 
     if-eqz v6, :cond_5
 
-    .line 11
     iget-object v6, p0, Lcom/commsource/studio/o;->a:Lcom/commsource/camera/d1/g/k;
 
     if-eqz v6, :cond_4
 
     goto :goto_2
 
-    .line 12
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/studio/o;->e()Lcom/commsource/camera/d1/g/k;
 
     move-result-object v6
 
-    .line 13
     :goto_2
     invoke-virtual {p1, v6, v5}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 14
     :cond_5
     invoke-virtual {p1, v4}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
@@ -365,24 +337,20 @@
 
     if-eqz v5, :cond_7
 
-    .line 15
     iget-object v5, p0, Lcom/commsource/studio/o;->b:Lcom/commsource/camera/d1/g/r;
 
     if-eqz v5, :cond_6
 
     goto :goto_3
 
-    .line 16
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/studio/o;->h()Lcom/commsource/camera/d1/g/r;
 
     move-result-object v5
 
-    .line 17
     :goto_3
     invoke-virtual {p1, v5, v4}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 18
     :cond_7
     invoke-virtual {p1, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
@@ -390,24 +358,20 @@
 
     if-eqz v4, :cond_9
 
-    .line 19
     iget-object v4, p0, Lcom/commsource/studio/o;->c:Lcom/commsource/camera/d1/g/l;
 
     if-eqz v4, :cond_8
 
     goto :goto_4
 
-    .line 20
     :cond_8
     invoke-virtual {p0}, Lcom/commsource/studio/o;->f()Lcom/commsource/camera/d1/g/l;
 
     move-result-object v4
 
-    .line 21
     :goto_4
     invoke-virtual {p1, v4, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 22
     :cond_9
     invoke-virtual {p1, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
@@ -415,24 +379,20 @@
 
     if-eqz v3, :cond_b
 
-    .line 23
     iget-object v3, p0, Lcom/commsource/studio/o;->f:Lcom/commsource/camera/d1/g/f;
 
     if-eqz v3, :cond_a
 
     goto :goto_5
 
-    .line 24
     :cond_a
     invoke-virtual {p0}, Lcom/commsource/studio/o;->c()Lcom/commsource/camera/d1/g/f;
 
     move-result-object v3
 
-    .line 25
     :goto_5
     invoke-virtual {p1, v3, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 26
     :cond_b
     invoke-virtual {p1, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
@@ -440,24 +400,20 @@
 
     if-eqz v2, :cond_d
 
-    .line 27
     iget-object v2, p0, Lcom/commsource/studio/o;->g:Lcom/commsource/camera/d1/g/q;
 
     if-eqz v2, :cond_c
 
     goto :goto_6
 
-    .line 28
     :cond_c
     invoke-virtual {p0}, Lcom/commsource/studio/o;->g()Lcom/commsource/camera/d1/g/q;
 
     move-result-object v2
 
-    .line 29
     :goto_6
     invoke-virtual {p1, v2, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 30
     :cond_d
     invoke-virtual {p1, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
@@ -465,7 +421,6 @@
 
     if-eqz v1, :cond_f
 
-    .line 31
     iget-object v1, p0, Lcom/commsource/studio/o;->h:Lcom/commsource/camera/d1/g/h;
 
     if-eqz v1, :cond_e
@@ -477,11 +432,9 @@
 
     move-result-object v1
 
-    .line 32
     :goto_7
     invoke-virtual {p1, v1, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 33
     :cond_f
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -497,12 +450,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->d:Lcom/commsource/camera/d1/g/g;
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/o;->i:Landroid/graphics/Bitmap;
 
     invoke-static {v1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
@@ -511,7 +462,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     sget-object v2, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-virtual {v2, v1}, Lf/d/e/b/b;->b(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
@@ -520,36 +470,29 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     new-instance v4, Lcom/commsource/camera/d1/g/g;
 
     invoke-direct {v4}, Lcom/commsource/camera/d1/g/g;-><init>()V
 
-    .line 5
     iget v5, v3, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->width:I
 
     invoke-virtual {v4, v5}, Lcom/commsource/camera/d1/g/g;->i(I)V
 
-    .line 6
     iget v5, v3, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->height:I
 
     invoke-virtual {v4, v5}, Lcom/commsource/camera/d1/g/g;->f(I)V
 
-    .line 7
     invoke-virtual {v2, v3}, Lf/d/e/b/b;->l(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;)I
 
     move-result v2
 
     invoke-virtual {v4, v2}, Lcom/commsource/camera/d1/g/g;->h(I)V
 
-    .line 8
     invoke-virtual {p0, v4}, Lcom/commsource/studio/o;->u(Lcom/commsource/camera/d1/g/g;)V
 
-    .line 9
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 10
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/o;->d:Lcom/commsource/camera/d1/g/g;
 
@@ -567,12 +510,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->f:Lcom/commsource/camera/d1/g/f;
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/o;->i:Landroid/graphics/Bitmap;
 
     invoke-static {v1}, Lf/d/e/b/a;->a(Landroid/graphics/Bitmap;)Lcom/commsource/camera/d1/g/f;
@@ -581,7 +522,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/o;->f:Lcom/commsource/camera/d1/g/f;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/o;->f:Lcom/commsource/camera/d1/g/f;
 
@@ -599,12 +539,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->h:Lcom/commsource/camera/d1/g/h;
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/o;->i:Landroid/graphics/Bitmap;
 
     iget-object v2, p0, Lcom/commsource/studio/o;->j:Lcom/commsource/camera/d1/g/j;
@@ -619,7 +557,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/o;->h:Lcom/commsource/camera/d1/g/h;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/o;->h:Lcom/commsource/camera/d1/g/h;
 
@@ -637,12 +574,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->a:Lcom/commsource/camera/d1/g/k;
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/o;->i:Landroid/graphics/Bitmap;
 
     invoke-static {v1}, Lcom/commsource/material/e;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
@@ -651,36 +586,30 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v2, Lcom/commsource/camera/d1/g/k;
 
     invoke-direct {v2}, Lcom/commsource/camera/d1/g/k;-><init>()V
 
-    .line 4
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/d1/g/k;->h(I)V
 
-    .line 5
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/d1/g/k;->f(I)V
 
-    .line 6
     invoke-static {v1}, Lcom/commsource/easyeditor/utils/opengl/n;->j(Landroid/graphics/Bitmap;)Lcom/commsource/easyeditor/utils/opengl/m;
 
     move-result-object v1
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/d1/g/k;->g(Lcom/commsource/easyeditor/utils/opengl/m;)V
 
-    .line 7
     invoke-virtual {p0, v2}, Lcom/commsource/studio/o;->z(Lcom/commsource/camera/d1/g/k;)V
 
-    .line 8
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/o;->a:Lcom/commsource/camera/d1/g/k;
 
@@ -698,28 +627,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->c:Lcom/commsource/camera/d1/g/l;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/d1/g/l;
 
     invoke-direct {v1}, Lcom/commsource/camera/d1/g/l;-><init>()V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/o;->i:Landroid/graphics/Bitmap;
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/d1/g/l;->a(Landroid/graphics/Bitmap;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/l;->l()V
 
-    .line 5
     invoke-virtual {p0, v1}, Lcom/commsource/studio/o;->A(Lcom/commsource/camera/d1/g/l;)V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/o;->c:Lcom/commsource/camera/d1/g/l;
 
@@ -737,12 +660,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->g:Lcom/commsource/camera/d1/g/q;
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/o;->i:Landroid/graphics/Bitmap;
 
     invoke-static {v1}, Lf/d/e/b/a;->g(Landroid/graphics/Bitmap;)Lcom/commsource/camera/d1/g/q;
@@ -751,7 +672,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/o;->g:Lcom/commsource/camera/d1/g/q;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/o;->g:Lcom/commsource/camera/d1/g/q;
 
@@ -769,28 +689,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->b:Lcom/commsource/camera/d1/g/r;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/d1/g/r;
 
     invoke-direct {v1}, Lcom/commsource/camera/d1/g/r;-><init>()V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/o;->i:Landroid/graphics/Bitmap;
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/d1/g/r;->a(Landroid/graphics/Bitmap;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/r;->m()V
 
-    .line 5
     invoke-virtual {p0, v1}, Lcom/commsource/studio/o;->C(Lcom/commsource/camera/d1/g/r;)V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/o;->b:Lcom/commsource/camera/d1/g/r;
 
@@ -808,12 +722,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->e:Lcom/commsource/camera/d1/g/s;
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/o;->i:Landroid/graphics/Bitmap;
 
     invoke-static {v1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
@@ -822,7 +734,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     sget-object v2, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-virtual {v2, v1}, Lf/d/e/b/b;->i(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
@@ -831,36 +742,29 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     new-instance v4, Lcom/commsource/camera/d1/g/s;
 
     invoke-direct {v4}, Lcom/commsource/camera/d1/g/s;-><init>()V
 
-    .line 5
     iget v5, v3, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->width:I
 
     invoke-virtual {v4, v5}, Lcom/commsource/camera/d1/g/s;->i(I)V
 
-    .line 6
     iget v5, v3, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->height:I
 
     invoke-virtual {v4, v5}, Lcom/commsource/camera/d1/g/s;->f(I)V
 
-    .line 7
     invoke-virtual {v2, v3}, Lf/d/e/b/b;->l(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;)I
 
     move-result v2
 
     invoke-virtual {v4, v2}, Lcom/commsource/camera/d1/g/s;->h(I)V
 
-    .line 8
     invoke-virtual {p0, v4}, Lcom/commsource/studio/o;->D(Lcom/commsource/camera/d1/g/s;)V
 
-    .line 9
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 10
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/o;->e:Lcom/commsource/camera/d1/g/s;
 
@@ -878,7 +782,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->d:Lcom/commsource/camera/d1/g/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -895,7 +798,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->f:Lcom/commsource/camera/d1/g/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -912,7 +814,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->i:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -929,7 +830,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->h:Lcom/commsource/camera/d1/g/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -946,7 +846,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->j:Lcom/commsource/camera/d1/g/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -963,7 +862,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->a:Lcom/commsource/camera/d1/g/k;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -980,7 +878,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->c:Lcom/commsource/camera/d1/g/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -997,7 +894,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->g:Lcom/commsource/camera/d1/g/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1014,7 +910,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->b:Lcom/commsource/camera/d1/g/r;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1031,7 +926,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->e:Lcom/commsource/camera/d1/g/s;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1046,7 +940,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->b:Lcom/commsource/camera/d1/g/r;
 
     if-eqz v1, :cond_0
@@ -1056,54 +949,44 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/o;->C(Lcom/commsource/camera/d1/g/r;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/o;->d:Lcom/commsource/camera/d1/g/g;
 
     if-eqz v2, :cond_1
 
     invoke-virtual {v2}, Lcom/commsource/camera/d1/g/g;->e()V
 
-    .line 4
     :cond_1
     invoke-virtual {p0, v1}, Lcom/commsource/studio/o;->u(Lcom/commsource/camera/d1/g/g;)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/o;->a:Lcom/commsource/camera/d1/g/k;
 
     if-eqz v2, :cond_2
 
     invoke-virtual {v2}, Lcom/commsource/camera/d1/g/k;->e()V
 
-    .line 6
     :cond_2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/o;->z(Lcom/commsource/camera/d1/g/k;)V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/o;->c:Lcom/commsource/camera/d1/g/l;
 
     if-eqz v2, :cond_3
 
     invoke-virtual {v2}, Lcom/commsource/camera/d1/g/l;->f()V
 
-    .line 8
     :cond_3
     invoke-virtual {p0, v1}, Lcom/commsource/studio/o;->A(Lcom/commsource/camera/d1/g/l;)V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/o;->e:Lcom/commsource/camera/d1/g/s;
 
     if-eqz v2, :cond_4
 
     invoke-virtual {v2}, Lcom/commsource/camera/d1/g/s;->e()V
 
-    .line 10
     :cond_4
     invoke-virtual {p0, v1}, Lcom/commsource/studio/o;->D(Lcom/commsource/camera/d1/g/s;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1120,15 +1003,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->d:Lcom/commsource/camera/d1/g/g;
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/studio/o;->d:Lcom/commsource/camera/d1/g/g;
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -1147,7 +1027,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/g;->e()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1165,7 +1044,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/o;->f:Lcom/commsource/camera/d1/g/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1188,7 +1066,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/o;->i:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1207,7 +1084,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/o;->h:Lcom/commsource/camera/d1/g/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1230,7 +1106,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/o;->j:Lcom/commsource/camera/d1/g/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1249,15 +1124,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/o;->a:Lcom/commsource/camera/d1/g/k;
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/studio/o;->a:Lcom/commsource/camera/d1/g/k;
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -1276,7 +1148,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/k;->e()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -12,18 +12,14 @@
 .method constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/f0;Lcom/google/android/gms/internal/firebase_remote_config/j4;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_remote_config/y;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->b:Lcom/google/android/gms/internal/firebase_remote_config/f0;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-virtual {p2, p1}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->b(Z)V
 
     return-void
@@ -39,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->flush()V
@@ -55,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->j(Z)Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -71,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->h(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -87,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->e(D)Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -103,7 +95,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     float-to-double v1, p1
@@ -121,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->u(J)Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -137,7 +127,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->d(Ljava/lang/Number;)Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -153,7 +142,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->d(Ljava/lang/Number;)Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -169,7 +157,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->g(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -185,7 +172,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->k()Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -201,7 +187,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->l()Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -217,7 +202,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->m()Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -233,7 +217,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->n()Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -249,7 +232,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_remote_config/j4;->q()Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -265,7 +247,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     const-string v1, "  "
@@ -283,7 +264,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/g0;->a:Lcom/google/android/gms/internal/firebase_remote_config/j4;
 
     int-to-long v1, p1

@@ -61,10 +61,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     sput-boolean v1, Lcom/meitu/library/appcia/f/d/a;->i:Z
 
-    .line 2
     new-instance v2, Ljava/util/LinkedList;
 
     invoke-direct {v2}, Ljava/util/LinkedList;-><init>()V
@@ -77,12 +75,10 @@
 
     new-array v1, v1, [Lcom/meitu/library/appcia/f/d/b;
 
-    .line 3
     sput-object v1, Lcom/meitu/library/appcia/f/d/a;->k:[Lcom/meitu/library/appcia/f/d/b;
 
     const/4 v1, 0x2
 
-    .line 4
     sput v1, Lcom/meitu/library/appcia/f/d/a;->l:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -93,7 +89,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -108,10 +103,8 @@
 
     const/4 v1, 0x3
 
-    .line 1
     invoke-static {v1, p0, p1, p2, p3}, Lcom/meitu/library/appcia/f/d/a;->f(ILjava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -126,10 +119,8 @@
 
     const/4 v1, 0x6
 
-    .line 1
     invoke-static {v1, p0, p1, p2, p3}, Lcom/meitu/library/appcia/f/d/a;->f(ILjava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -142,14 +133,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/f/d/a;->k:[Lcom/meitu/library/appcia/f/d/b;
 
     monitor-enter v1
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     aget-object v2, v1, v2
 
@@ -164,7 +153,6 @@
     :catchall_0
     move-exception v2
 
-    .line 3
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -182,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/library/appcia/f/d/a;->l:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -199,10 +186,8 @@
 
     const/4 v1, 0x4
 
-    .line 1
     invoke-static {v1, p0, p1, p2, p3}, Lcom/meitu/library/appcia/f/d/a;->f(ILjava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -215,17 +200,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/library/appcia/f/d/a;->l:I
 
     if-le v1, p0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/library/appcia/f/d/a;->c()Lcom/meitu/library/appcia/f/d/b;
 
@@ -233,7 +215,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -260,13 +241,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     sget-boolean v1, Lcom/meitu/library/appcia/f/d/a;->i:Z
 
     if-eqz v1, :cond_3
 
-    .line 6
     sget-object v1, Lcom/meitu/library/appcia/f/d/a;->j:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -277,7 +256,6 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 7
     new-instance v2, Lcom/meitu/library/appcia/f/d/a$a;
 
     move-object v4, v2
@@ -298,16 +276,13 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
     const/4 p0, 0x0
 
-    .line 9
     sput-boolean p0, Lcom/meitu/library/appcia/f/d/a;->i:Z
 
-    .line 10
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -322,7 +297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/f/d/a;->j:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
@@ -331,7 +305,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -339,12 +312,10 @@
     :cond_0
     if-nez p0, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -363,18 +334,15 @@
 
     check-cast v2, Lcom/meitu/library/appcia/f/d/a$a;
 
-    .line 5
     invoke-virtual {v2, p0}, Lcom/meitu/library/appcia/f/d/a$a;->a(Lcom/meitu/library/appcia/f/d/b;)V
 
     goto :goto_0
 
-    .line 6
     :cond_2
     sget-object p0, Lcom/meitu/library/appcia/f/d/a;->j:Ljava/util/List;
 
     invoke-interface {p0}, Ljava/util/List;->clear()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -387,17 +355,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/f/d/a;->j:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
     const/4 v1, 0x1
 
-    .line 2
     sput-boolean v1, Lcom/meitu/library/appcia/f/d/a;->i:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -418,21 +383,17 @@
 
     if-lt p0, v1, :cond_0
 
-    .line 1
     const-class v1, Lcom/meitu/library/appcia/f/d/a;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     sput p0, Lcom/meitu/library/appcia/f/d/a;->l:I
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -440,7 +401,6 @@
     :catchall_0
     move-exception p0
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -450,7 +410,6 @@
 
     throw p0
 
-    .line 6
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -470,26 +429,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/f/d/a;->k:[Lcom/meitu/library/appcia/f/d/b;
 
     monitor-enter v1
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     aput-object p0, v1, v2
 
-    .line 3
     invoke-static {p0}, Lcom/meitu/library/appcia/f/d/a;->g(Lcom/meitu/library/appcia/f/d/b;)V
 
-    .line 4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -497,7 +451,6 @@
     :catchall_0
     move-exception p0
 
-    .line 6
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -517,10 +470,8 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-static {v1, p0, p1, p2, p3}, Lcom/meitu/library/appcia/f/d/a;->f(ILjava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -535,10 +486,8 @@
 
     const/4 v1, 0x5
 
-    .line 1
     invoke-static {v1, p0, p1, p2, p3}, Lcom/meitu/library/appcia/f/d/a;->f(ILjava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -553,10 +502,8 @@
 
     const/4 v1, 0x7
 
-    .line 1
     invoke-static {v1, p0, p1, p2, p3}, Lcom/meitu/library/appcia/f/d/a;->f(ILjava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

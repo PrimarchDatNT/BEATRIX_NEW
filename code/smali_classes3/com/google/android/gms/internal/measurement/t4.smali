@@ -14,10 +14,8 @@
 .method varargs constructor <init>([Lcom/google/android/gms/internal/measurement/a5;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/t4;->a:[Lcom/google/android/gms/internal/measurement/a5;
 
     return-void
@@ -35,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/t4;->a:[Lcom/google/android/gms/internal/measurement/a5;
 
     array-length v1, v0
@@ -49,7 +46,6 @@
 
     aget-object v4, v0, v3
 
-    .line 2
     invoke-interface {v4, p1}, Lcom/google/android/gms/internal/measurement/a5;->a(Ljava/lang/Class;)Z
 
     move-result v4
@@ -80,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/t4;->a:[Lcom/google/android/gms/internal/measurement/a5;
 
     array-length v1, v0
@@ -92,14 +87,12 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     invoke-interface {v3, p1}, Lcom/google/android/gms/internal/measurement/a5;->a(Ljava/lang/Class;)Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
-    .line 3
     invoke-interface {v3, p1}, Lcom/google/android/gms/internal/measurement/a5;->b(Ljava/lang/Class;)Lcom/google/android/gms/internal/measurement/b5;
 
     move-result-object p1
@@ -111,13 +104,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "No factory is available for message type: "
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object p1

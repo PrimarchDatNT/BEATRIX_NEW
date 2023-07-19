@@ -26,7 +26,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 .method public static a(JJ)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/primitives/UnsignedLongs;->d(J)J
 
     move-result-wide p0
@@ -56,12 +54,10 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/primitives/d;->a(Ljava/lang/String;)Lcom/google/common/primitives/d;
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     iget-object v1, v0, Lcom/google/common/primitives/d;->a:Ljava/lang/String;
 
@@ -78,7 +74,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     new-instance v1, Ljava/lang/NumberFormatException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -97,10 +92,8 @@
 
     invoke-direct {v1, p0}, Ljava/lang/NumberFormatException;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1, v0}, Ljava/lang/NumberFormatException;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
-    .line 5
     throw v1
 .end method
 
@@ -113,7 +106,6 @@
 
     if-gez v2, :cond_1
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/google/common/primitives/UnsignedLongs;->a(JJ)I
 
     move-result p0
@@ -132,7 +124,6 @@
 
     if-ltz v2, :cond_2
 
-    .line 2
     div-long/2addr p0, p2
 
     return-wide p0
@@ -142,7 +133,6 @@
 
     ushr-long v1, p0, v0
 
-    .line 3
     div-long/2addr v1, p2
 
     shl-long/2addr v1, v0
@@ -151,7 +141,6 @@
 
     sub-long/2addr p0, v3
 
-    .line 4
     invoke-static {p0, p1, p2, p3}, Lcom/google/common/primitives/UnsignedLongs;->a(JJ)I
 
     move-result p0
@@ -184,10 +173,8 @@
 .method public static varargs e(Ljava/lang/String;[J)Ljava/lang/String;
     .locals 4
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     array-length v0, p1
 
     if-nez v0, :cond_0
@@ -196,7 +183,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -208,7 +194,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     aget-wide v1, p1, v1
 
     invoke-static {v1, v2}, Lcom/google/common/primitives/UnsignedLongs;->p(J)Ljava/lang/String;
@@ -219,13 +204,11 @@
 
     const/4 v1, 0x1
 
-    .line 5
     :goto_0
     array-length v2, p1
 
     if-ge v1, v2, :cond_1
 
-    .line 6
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     aget-wide v2, p1, v1
@@ -240,7 +223,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -259,7 +241,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/primitives/UnsignedLongs$LexicographicalComparator;->INSTANCE:Lcom/google/common/primitives/UnsignedLongs$LexicographicalComparator;
 
     return-object v0
@@ -268,7 +249,6 @@
 .method public static varargs g([J)J
     .locals 6
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -287,20 +267,17 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     aget-wide v0, p0, v1
 
     invoke-static {v0, v1}, Lcom/google/common/primitives/UnsignedLongs;->d(J)J
 
     move-result-wide v0
 
-    .line 3
     :goto_1
     array-length v3, p0
 
     if-ge v2, v3, :cond_2
 
-    .line 4
     aget-wide v3, p0, v2
 
     invoke-static {v3, v4}, Lcom/google/common/primitives/UnsignedLongs;->d(J)J
@@ -318,7 +295,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     invoke-static {v0, v1}, Lcom/google/common/primitives/UnsignedLongs;->d(J)J
 
@@ -330,7 +306,6 @@
 .method public static varargs h([J)J
     .locals 6
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -349,20 +324,17 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     aget-wide v0, p0, v1
 
     invoke-static {v0, v1}, Lcom/google/common/primitives/UnsignedLongs;->d(J)J
 
     move-result-wide v0
 
-    .line 3
     :goto_1
     array-length v3, p0
 
     if-ge v2, v3, :cond_2
 
-    .line 4
     aget-wide v3, p0, v2
 
     invoke-static {v3, v4}, Lcom/google/common/primitives/UnsignedLongs;->d(J)J
@@ -380,7 +352,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     invoke-static {v0, v1}, Lcom/google/common/primitives/UnsignedLongs;->d(J)J
 
@@ -396,7 +367,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/primitives/UnsignedLongs;->j(Ljava/lang/String;I)J
 
     move-result-wide v0
@@ -409,10 +379,8 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -427,7 +395,6 @@
 
     if-gt p1, v0, :cond_4
 
-    .line 3
     sget-object v0, Lcom/google/common/primitives/UnsignedLongs$a;->c:[I
 
     aget v0, v0, p1
@@ -438,7 +405,6 @@
 
     const/4 v3, 0x0
 
-    .line 4
     :goto_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -446,7 +412,6 @@
 
     if-ge v3, v4, :cond_3
 
-    .line 5
     invoke-virtual {p0, v3}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
@@ -461,7 +426,6 @@
 
     if-le v3, v0, :cond_1
 
-    .line 6
     invoke-static {v1, v2, v4, p1}, Lcom/google/common/primitives/UnsignedLongs$a;->a(JII)Z
 
     move-result v5
@@ -470,7 +434,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     new-instance p1, Ljava/lang/NumberFormatException;
 
@@ -506,7 +469,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     new-instance p1, Ljava/lang/NumberFormatException;
 
@@ -517,7 +479,6 @@
     :cond_3
     return-wide v1
 
-    .line 9
     :cond_4
     new-instance p0, Ljava/lang/NumberFormatException;
 
@@ -539,7 +500,6 @@
 
     throw p0
 
-    .line 10
     :cond_5
     new-instance p0, Ljava/lang/NumberFormatException;
 
@@ -559,7 +519,6 @@
 
     if-gez v2, :cond_1
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/google/common/primitives/UnsignedLongs;->a(JJ)I
 
     move-result v0
@@ -578,7 +537,6 @@
 
     if-ltz v2, :cond_2
 
-    .line 2
     rem-long/2addr p0, p2
 
     return-wide p0
@@ -588,7 +546,6 @@
 
     ushr-long v3, p0, v2
 
-    .line 3
     div-long/2addr v3, p2
 
     shl-long v2, v3, v2
@@ -597,7 +554,6 @@
 
     sub-long/2addr p0, v2
 
-    .line 4
     invoke-static {p0, p1, p2, p3}, Lcom/google/common/primitives/UnsignedLongs;->a(JJ)I
 
     move-result v2
@@ -618,10 +574,8 @@
 .method public static l([J)V
     .locals 2
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -634,10 +588,8 @@
 .method public static m([JII)V
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     array-length v0, p0
 
     invoke-static {p1, p2, v0}, Lcom/google/common/base/t;->f0(III)V
@@ -647,7 +599,6 @@
     :goto_0
     if-ge v0, p2, :cond_0
 
-    .line 3
     aget-wide v1, p0, v0
 
     invoke-static {v1, v2}, Lcom/google/common/primitives/UnsignedLongs;->d(J)J
@@ -660,14 +611,12 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p0, p1, p2}, Ljava/util/Arrays;->sort([JII)V
 
     :goto_1
     if-ge p1, p2, :cond_1
 
-    .line 5
     aget-wide v0, p0, p1
 
     invoke-static {v0, v1}, Lcom/google/common/primitives/UnsignedLongs;->d(J)J
@@ -687,10 +636,8 @@
 .method public static n([J)V
     .locals 2
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -703,10 +650,8 @@
 .method public static o([JII)V
     .locals 5
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     array-length v0, p0
 
     invoke-static {p1, p2, v0}, Lcom/google/common/base/t;->f0(III)V
@@ -718,7 +663,6 @@
 
     if-ge v0, p2, :cond_0
 
-    .line 3
     aget-wide v3, p0, v0
 
     xor-long/2addr v1, v3
@@ -729,14 +673,12 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p0, p1, p2}, Ljava/util/Arrays;->sort([JII)V
 
     :goto_1
     if-ge p1, p2, :cond_1
 
-    .line 5
     aget-wide v3, p0, p1
 
     xor-long/2addr v3, v1
@@ -756,7 +698,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcom/google/common/primitives/UnsignedLongs;->q(JI)Ljava/lang/String;
 
     move-result-object p0
@@ -787,7 +728,6 @@
     :goto_0
     const-string v2, "radix (%s) must be between Character.MIN_RADIX and Character.MAX_RADIX"
 
-    .line 1
     invoke-static {v1, v2, p2}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
     const-wide/16 v1, 0x0
@@ -803,7 +743,6 @@
     :cond_1
     if-lez v3, :cond_2
 
-    .line 2
     invoke-static {p0, p1, p2}, Ljava/lang/Long;->toString(JI)Ljava/lang/String;
 
     move-result-object p0
@@ -821,7 +760,6 @@
 
     if-nez v6, :cond_4
 
-    .line 3
     invoke-static {p2}, Ljava/lang/Integer;->numberOfTrailingZeros(I)I
 
     move-result v6
@@ -833,7 +771,6 @@
 
     and-int/2addr v0, v5
 
-    .line 4
     invoke-static {v0, p2}, Ljava/lang/Character;->forDigit(II)C
 
     move-result v0
@@ -859,7 +796,6 @@
 
     int-to-long v7, v0
 
-    .line 5
     div-long/2addr v5, v7
 
     goto :goto_1
@@ -867,7 +803,6 @@
     :cond_5
     int-to-long v5, p2
 
-    .line 6
     invoke-static {p0, p1, v5, v6}, Lcom/google/common/primitives/UnsignedLongs;->c(JJ)J
 
     move-result-wide v5
@@ -883,7 +818,6 @@
 
     long-to-int p1, p0
 
-    .line 7
     invoke-static {p1, p2}, Ljava/lang/Character;->forDigit(II)C
 
     move-result p0
@@ -899,7 +833,6 @@
 
     add-int/lit8 v3, v3, -0x1
 
-    .line 8
     rem-long p0, v5, v7
 
     long-to-int p1, p0
@@ -910,12 +843,10 @@
 
     aput-char p0, v4, v3
 
-    .line 9
     div-long/2addr v5, v7
 
     goto :goto_2
 
-    .line 10
     :cond_6
     :goto_3
     new-instance p0, Ljava/lang/String;

@@ -56,7 +56,6 @@
 .method static constructor <clinit>()V
     .locals 19
 
-    .line 1
     new-instance v6, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     const-string v1, "GOOGLE_PLAY_SERVICES_BANNER"
@@ -75,7 +74,6 @@
 
     sput-object v6, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->GOOGLE_PLAY_SERVICES_BANNER:Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
-    .line 2
     new-instance v0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     const-string v8, "GOOGLE_PLAY_SERVICES_INTERSTITIAL"
@@ -94,7 +92,6 @@
 
     sput-object v0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->GOOGLE_PLAY_SERVICES_INTERSTITIAL:Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
-    .line 3
     new-instance v1, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     const-string v14, "MOPUB_NATIVE"
@@ -113,7 +110,6 @@
 
     sput-object v1, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->MOPUB_NATIVE:Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
-    .line 4
     new-instance v2, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     const-string v8, "MOPUB_INLINE"
@@ -132,7 +128,6 @@
 
     sput-object v2, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->MOPUB_INLINE:Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
-    .line 5
     new-instance v3, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     const-string v14, "MOPUB_FULLSCREEN"
@@ -149,7 +144,6 @@
 
     sput-object v3, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->MOPUB_FULLSCREEN:Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
-    .line 6
     new-instance v4, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     const-string v8, "UNSPECIFIED"
@@ -196,7 +190,6 @@
 
     aput-object v4, v5, v0
 
-    .line 7
     sput-object v5, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->$VALUES:[Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     return-void
@@ -213,16 +206,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->mKey:Ljava/lang/String;
 
-    .line 3
     iput-object p4, p0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->mClassName:Ljava/lang/String;
 
-    .line 4
     iput-boolean p5, p0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->mIsMoPubSpecific:Z
 
     return-void
@@ -231,7 +220,6 @@
 .method static synthetic access$000(Ljava/lang/String;)Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->fromString(Ljava/lang/String;)Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     move-result-object p0
@@ -246,7 +234,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->values()[Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     move-result-object v0
@@ -260,12 +247,10 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget-object v4, v3, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->mClassName:Ljava/lang/String;
 
     if-eqz v4, :cond_0
 
-    .line 3
     invoke-virtual {v4, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -279,7 +264,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->UNSPECIFIED:Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
@@ -293,7 +277,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->values()[Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     move-result-object v0
@@ -307,7 +290,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget-object v4, v3, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->mKey:Ljava/lang/String;
 
     invoke-virtual {v4, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -323,7 +305,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->UNSPECIFIED:Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
@@ -337,7 +318,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->fromClassName(Ljava/lang/String;)Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     move-result-object p0
@@ -350,7 +330,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -365,7 +344,6 @@
 .method public static values()[Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->$VALUES:[Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
     invoke-virtual {v0}, [Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->clone()Ljava/lang/Object;
@@ -382,7 +360,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->mClassName:Ljava/lang/String;
 
     return-object v0

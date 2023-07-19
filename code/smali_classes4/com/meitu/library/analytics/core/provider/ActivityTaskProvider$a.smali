@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider$a;->a:Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->a()Lcom/meitu/library/analytics/core/provider/d;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/library/analytics/core/provider/d;->j()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

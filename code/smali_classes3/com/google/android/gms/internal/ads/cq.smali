@@ -19,7 +19,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/cq;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -32,10 +31,8 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/cq;->a:Ljava/lang/String;
 
     return-void
@@ -55,7 +52,6 @@
     :try_start_0
     const-string v2, "Pinging URL: "
 
-    .line 1
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
@@ -82,12 +78,10 @@
     :goto_0
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 2
     new-instance v2, Ljava/net/URL;
 
     invoke-direct {v2, p1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object v2
@@ -98,7 +92,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     :try_start_1
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->a()Lcom/google/android/gms/internal/ads/pp;
 
@@ -106,25 +99,20 @@
 
     iget-object v4, p0, Lcom/google/android/gms/internal/ads/cq;->a:Ljava/lang/String;
 
-    .line 5
     invoke-static {v3, v2, v4}, Lcom/google/android/gms/internal/ads/pp;->i(ZLjava/net/HttpURLConnection;Ljava/lang/String;)V
 
-    .line 6
     new-instance v3, Lcom/google/android/gms/internal/ads/tp;
 
     invoke-direct {v3}, Lcom/google/android/gms/internal/ads/tp;-><init>()V
 
     const/4 v4, 0x0
 
-    .line 7
     invoke-virtual {v3, v2, v4}, Lcom/google/android/gms/internal/ads/tp;->i(Ljava/net/HttpURLConnection;[B)V
 
-    .line 8
     invoke-virtual {v2}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v4
 
-    .line 9
     invoke-virtual {v3, v2, v4}, Lcom/google/android/gms/internal/ads/tp;->h(Ljava/net/HttpURLConnection;I)V
 
     const/16 v3, 0xc8
@@ -135,7 +123,6 @@
 
     if-lt v4, v3, :cond_2
 
-    .line 10
     :cond_1
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -171,7 +158,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 11
     :cond_2
     :try_start_2
     invoke-virtual {v2}, Ljava/net/HttpURLConnection;->disconnect()V
@@ -181,10 +167,8 @@
     :catchall_0
     move-exception v3
 
-    .line 12
     invoke-virtual {v2}, Ljava/net/HttpURLConnection;->disconnect()V
 
-    .line 13
     throw v3
     :try_end_2
     .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_2 .. :try_end_2} :catch_2
@@ -194,7 +178,6 @@
     :catch_0
     move-exception v2
 
-    .line 14
     invoke-virtual {v2}, Ljava/lang/RuntimeException;->getMessage()Ljava/lang/String;
 
     move-result-object v2
@@ -242,7 +225,6 @@
     :catch_1
     move-exception v2
 
-    .line 15
     invoke-virtual {v2}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v2
@@ -290,7 +272,6 @@
     :catch_2
     move-exception v0
 
-    .line 16
     invoke-virtual {v0}, Ljava/lang/IndexOutOfBoundsException;->getMessage()Ljava/lang/String;
 
     move-result-object v0

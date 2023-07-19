@@ -39,7 +39,6 @@
 
     const-string v11, "d"
 
-    .line 1
     filled-new-array/range {v0 .. v11}, [Ljava/lang/String;
 
     move-result-object v0
@@ -54,7 +53,6 @@
 
     const-string v1, "k"
 
-    .line 2
     filled-new-array {v0, v1}, [Ljava/lang/String;
 
     move-result-object v0
@@ -69,7 +67,6 @@
 
     const-string/jumbo v1, "v"
 
-    .line 3
     filled-new-array {v0, v1}, [Ljava/lang/String;
 
     move-result-object v0
@@ -86,7 +83,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -104,7 +100,6 @@
 
     move-object/from16 v1, p1
 
-    .line 1
     new-instance v11, Ljava/util/ArrayList;
 
     invoke-direct {v11}, Ljava/util/ArrayList;-><init>()V
@@ -135,7 +130,6 @@
 
     const/16 v16, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -143,7 +137,6 @@
 
     if-eqz v17, :cond_c
 
-    .line 3
     sget-object v3, Lcom/airbnb/lottie/y/n;->a:Lcom/airbnb/lottie/parser/moshi/JsonReader$a;
 
     invoke-virtual {v0, v3}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->o(Lcom/airbnb/lottie/parser/moshi/JsonReader$a;)I
@@ -152,19 +145,15 @@
 
     packed-switch v3, :pswitch_data_0
 
-    .line 4
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->p()V
 
-    .line 5
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     goto :goto_0
 
-    .line 6
     :pswitch_0
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b()V
 
-    .line 7
     :goto_1
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -172,14 +161,12 @@
 
     if-eqz v3, :cond_6
 
-    .line 8
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->c()V
 
     const/4 v3, 0x0
 
     const/16 v18, 0x0
 
-    .line 9
     :goto_2
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -187,7 +174,6 @@
 
     if-eqz v19, :cond_2
 
-    .line 10
     sget-object v2, Lcom/airbnb/lottie/y/n;->c:Lcom/airbnb/lottie/parser/moshi/JsonReader$a;
 
     invoke-virtual {v0, v2}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->o(Lcom/airbnb/lottie/parser/moshi/JsonReader$a;)I
@@ -202,15 +188,12 @@
 
     if-eq v2, v14, :cond_0
 
-    .line 11
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->p()V
 
-    .line 12
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     goto :goto_3
 
-    .line 13
     :cond_0
     invoke-static/range {p0 .. p1}, Lcom/airbnb/lottie/y/d;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;)Lcom/airbnb/lottie/model/i/b;
 
@@ -224,7 +207,6 @@
     :cond_1
     move-object/from16 v20, v14
 
-    .line 14
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->k()Ljava/lang/String;
 
     move-result-object v3
@@ -234,12 +216,10 @@
     :cond_2
     move-object/from16 v20, v14
 
-    .line 15
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->e()V
 
     const-string v2, "o"
 
-    .line 16
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -255,7 +235,6 @@
     :cond_3
     const-string v2, "d"
 
-    .line 17
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -281,12 +260,10 @@
     :goto_4
     const/4 v2, 0x1
 
-    .line 18
     invoke-virtual {v1, v2}, Lcom/airbnb/lottie/g;->w(Z)V
 
     move-object/from16 v3, v18
 
-    .line 19
     invoke-interface {v11, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :goto_5
@@ -299,10 +276,8 @@
 
     const/4 v2, 0x1
 
-    .line 20
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->d()V
 
-    .line 21
     invoke-interface {v11}, Ljava/util/List;->size()I
 
     move-result v3
@@ -311,7 +286,6 @@
 
     const/4 v2, 0x0
 
-    .line 22
     invoke-interface {v11, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -331,14 +305,12 @@
     :pswitch_1
     const/4 v2, 0x0
 
-    .line 23
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->g()Z
 
     move-result v15
 
     goto/16 :goto_0
 
-    .line 24
     :pswitch_2
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
@@ -348,7 +320,6 @@
 
     goto/16 :goto_0
 
-    .line 25
     :pswitch_3
     invoke-static {}, Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;->values()[Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;
 
@@ -369,7 +340,6 @@
     :pswitch_4
     const/4 v2, 0x1
 
-    .line 26
     invoke-static {}, Lcom/airbnb/lottie/model/content/ShapeStroke$LineCapType;->values()[Lcom/airbnb/lottie/model/content/ShapeStroke$LineCapType;
 
     move-result-object v3
@@ -384,7 +354,6 @@
 
     goto/16 :goto_0
 
-    .line 27
     :pswitch_5
     invoke-static/range {p0 .. p1}, Lcom/airbnb/lottie/y/d;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;)Lcom/airbnb/lottie/model/i/b;
 
@@ -392,7 +361,6 @@
 
     goto/16 :goto_0
 
-    .line 28
     :pswitch_6
     invoke-static/range {p0 .. p1}, Lcom/airbnb/lottie/y/d;->i(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;)Lcom/airbnb/lottie/model/i/f;
 
@@ -400,7 +368,6 @@
 
     goto/16 :goto_0
 
-    .line 29
     :pswitch_7
     invoke-static/range {p0 .. p1}, Lcom/airbnb/lottie/y/d;->i(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;)Lcom/airbnb/lottie/model/i/f;
 
@@ -411,7 +378,6 @@
     :pswitch_8
     const/4 v2, 0x1
 
-    .line 30
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->i()I
 
     move-result v3
@@ -430,7 +396,6 @@
 
     goto/16 :goto_0
 
-    .line 31
     :pswitch_9
     invoke-static/range {p0 .. p1}, Lcom/airbnb/lottie/y/d;->h(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;)Lcom/airbnb/lottie/model/i/d;
 
@@ -441,10 +406,8 @@
     :pswitch_a
     const/4 v2, -0x1
 
-    .line 32
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->c()V
 
-    .line 33
     :goto_8
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -452,7 +415,6 @@
 
     if-eqz v3, :cond_b
 
-    .line 34
     sget-object v3, Lcom/airbnb/lottie/y/n;->b:Lcom/airbnb/lottie/parser/moshi/JsonReader$a;
 
     invoke-virtual {v0, v3}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->o(Lcom/airbnb/lottie/parser/moshi/JsonReader$a;)I
@@ -467,15 +429,12 @@
 
     if-eq v3, v6, :cond_9
 
-    .line 35
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->p()V
 
-    .line 36
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     goto :goto_9
 
-    .line 37
     :cond_9
     invoke-static {v0, v1, v2}, Lcom/airbnb/lottie/y/d;->g(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;I)Lcom/airbnb/lottie/model/i/c;
 
@@ -490,7 +449,6 @@
 
     const/4 v6, 0x1
 
-    .line 38
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->i()I
 
     move-result v2
@@ -503,12 +461,10 @@
     :cond_b
     move-object/from16 v18, v6
 
-    .line 39
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->e()V
 
     goto/16 :goto_0
 
-    .line 40
     :pswitch_b
     invoke-virtual/range {p0 .. p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->k()Ljava/lang/String;
 
@@ -519,7 +475,6 @@
     :cond_c
     if-nez v16, :cond_d
 
-    .line 41
     new-instance v0, Lcom/airbnb/lottie/model/i/d;
 
     new-instance v1, Lcom/airbnb/lottie/a0/a;
@@ -540,7 +495,6 @@
 
     move-object/from16 v16, v0
 
-    .line 42
     :cond_d
     new-instance v17, Lcom/airbnb/lottie/model/content/e;
 

@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, [F
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/DispersionFragment$onCreateView$$inlined$apply$lambda$1;->invoke([F)V
@@ -85,7 +84,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/DispersionFragment$onCreateView$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/function/DispersionFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/DispersionFragment;->A1(Lcom/commsource/studio/function/DispersionFragment;)Lcom/commsource/beautyplus/f0/ob;
@@ -104,12 +102,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/DispersionFragment$onCreateView$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/function/DispersionFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/DispersionFragment;->B1(Lcom/commsource/studio/function/DispersionFragment;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/DispersionFragment$onCreateView$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/function/DispersionFragment;
 
@@ -135,7 +131,6 @@
 
     aput v3, v1, v2
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/DispersionFragment$onCreateView$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/function/DispersionFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/DispersionFragment;->F1()Lcom/commsource/studio/effect/g;
@@ -160,7 +155,6 @@
 
     aput p1, v1, v3
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/function/DispersionFragment$onCreateView$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/function/DispersionFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/DispersionFragment;->z1(Lcom/commsource/studio/function/DispersionFragment;)Lcom/commsource/studio/processor/m;
@@ -175,7 +169,6 @@
 
     invoke-static {p1, v2, v3, v1, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

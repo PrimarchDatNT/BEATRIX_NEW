@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/component/UndoRedoComponent$b;->a:Lcom/commsource/studio/component/UndoRedoComponent;
 
     invoke-virtual {v0}, Lcom/commsource/studio/component/UndoRedoComponent;->getUndoRedoViewModel()Lcom/commsource/studio/component/UndoRedoComponent$c;
@@ -51,7 +50,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/studio/component/UndoRedoComponent$c;->E()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -26,13 +26,10 @@
 .method private constructor <init>(Ljava/security/MessageDigest;I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/hash/a;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/common/hash/MessageDigestHashFunction$b;->b:Ljava/security/MessageDigest;
 
-    .line 4
     iput p2, p0, Lcom/google/common/hash/MessageDigestHashFunction$b;->c:I
 
     return-void
@@ -41,7 +38,6 @@
 .method synthetic constructor <init>(Ljava/security/MessageDigest;ILcom/google/common/hash/MessageDigestHashFunction$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/hash/MessageDigestHashFunction$b;-><init>(Ljava/security/MessageDigest;I)V
 
     return-void
@@ -50,7 +46,6 @@
 .method private t()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/hash/MessageDigestHashFunction$b;->d:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -67,15 +62,12 @@
 .method public hash()Lcom/google/common/hash/HashCode;
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/hash/MessageDigestHashFunction$b;->t()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/common/hash/MessageDigestHashFunction$b;->d:Z
 
-    .line 3
     iget v0, p0, Lcom/google/common/hash/MessageDigestHashFunction$b;->c:I
 
     iget-object v1, p0, Lcom/google/common/hash/MessageDigestHashFunction$b;->b:Ljava/security/MessageDigest;
@@ -88,7 +80,6 @@
 
     iget-object v0, p0, Lcom/google/common/hash/MessageDigestHashFunction$b;->b:Ljava/security/MessageDigest;
 
-    .line 4
     invoke-virtual {v0}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object v0
@@ -102,7 +93,6 @@
     :cond_0
     iget-object v0, p0, Lcom/google/common/hash/MessageDigestHashFunction$b;->b:Ljava/security/MessageDigest;
 
-    .line 5
     invoke-virtual {v0}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object v0
@@ -124,10 +114,8 @@
 .method protected p(B)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/hash/MessageDigestHashFunction$b;->t()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/hash/MessageDigestHashFunction$b;->b:Ljava/security/MessageDigest;
 
     invoke-virtual {v0, p1}, Ljava/security/MessageDigest;->update(B)V
@@ -138,10 +126,8 @@
 .method protected q(Ljava/nio/ByteBuffer;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/hash/MessageDigestHashFunction$b;->t()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/hash/MessageDigestHashFunction$b;->b:Ljava/security/MessageDigest;
 
     invoke-virtual {v0, p1}, Ljava/security/MessageDigest;->update(Ljava/nio/ByteBuffer;)V
@@ -152,10 +138,8 @@
 .method protected s([BII)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/hash/MessageDigestHashFunction$b;->t()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/hash/MessageDigestHashFunction$b;->b:Ljava/security/MessageDigest;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/security/MessageDigest;->update([BII)V

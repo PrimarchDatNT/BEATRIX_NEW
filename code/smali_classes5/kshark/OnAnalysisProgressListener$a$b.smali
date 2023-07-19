@@ -27,7 +27,6 @@
 .method public constructor <init>(Lcotlin/jvm/u/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lkshark/OnAnalysisProgressListener$a$b;->b:Lcotlin/jvm/u/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lkshark/OnAnalysisProgressListener$a$b;->b:Lcotlin/jvm/u/l;
 
     invoke-interface {v0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;

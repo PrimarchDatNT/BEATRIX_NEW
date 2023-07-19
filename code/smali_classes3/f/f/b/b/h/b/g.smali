@@ -10,7 +10,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lf/f/b/b/h/b/g;->b()Z
 
     move-result v0
@@ -32,7 +31,6 @@
         value = 0x18
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->isDeviceProtectedStorage()Z
 
     move-result v0
@@ -41,7 +39,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->createDeviceProtectedStorageContext()Landroid/content/Context;
 
@@ -53,7 +50,6 @@
 .method public static b()Z
     .locals 2
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x18

@@ -26,15 +26,12 @@
 .method public constructor <init>(Lcom/commsource/puzzle/patchedworld/s/b;Landroid/view/View;)V
     .locals 2
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->c:Lcom/commsource/puzzle/patchedworld/s/b;
 
-    .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
     sget v0, Lcom/res/provider/ResID;->iv_thumbnail:I
 
-    .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -45,7 +42,6 @@
 
     sget v0, Lcom/res/provider/ResID;->iv_puzzle_color:I
 
-    .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -54,7 +50,6 @@
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->b:Landroid/widget/ImageView;
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->a:Landroid/widget/ImageView;
 
     invoke-virtual {v0}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -63,26 +58,22 @@
 
     check-cast v0, Landroid/widget/RelativeLayout$LayoutParams;
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/puzzle/patchedworld/s/b;->a(Lcom/commsource/puzzle/patchedworld/s/b;)I
 
     move-result v1
 
     iput v1, v0, Landroid/widget/RelativeLayout$LayoutParams;->width:I
 
-    .line 7
     invoke-static {p1}, Lcom/commsource/puzzle/patchedworld/s/b;->b(Lcom/commsource/puzzle/patchedworld/s/b;)I
 
     move-result p1
 
     iput p1, v0, Landroid/widget/RelativeLayout$LayoutParams;->height:I
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->a:Landroid/widget/ImageView;
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 9
     new-instance p1, Lcom/commsource/puzzle/patchedworld/s/a;
 
     invoke-direct {p1, p0}, Lcom/commsource/puzzle/patchedworld/s/a;-><init>(Lcom/commsource/puzzle/patchedworld/s/b$b;)V
@@ -99,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->b:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -114,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object p1
@@ -125,7 +114,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->c:Lcom/commsource/puzzle/patchedworld/s/b;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/s/b;->d(Lcom/commsource/puzzle/patchedworld/s/b;)I
@@ -134,12 +122,10 @@
 
     if-eq v1, p1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->c:Lcom/commsource/puzzle/patchedworld/s/b;
 
     invoke-static {v1, p1}, Lcom/commsource/puzzle/patchedworld/s/b;->e(Lcom/commsource/puzzle/patchedworld/s/b;I)I
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->c:Lcom/commsource/puzzle/patchedworld/s/b;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/s/b;->f(Lcom/commsource/puzzle/patchedworld/s/b;)Ljava/util/List;
@@ -160,7 +146,6 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->c:Lcom/commsource/puzzle/patchedworld/s/b;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/s/b;->f(Lcom/commsource/puzzle/patchedworld/s/b;)Ljava/util/List;
@@ -173,7 +158,6 @@
 
     check-cast v1, Lcom/commsource/puzzle/patchedworld/t/a;
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->c:Lcom/commsource/puzzle/patchedworld/s/b;
 
     invoke-static {v2}, Lcom/commsource/puzzle/patchedworld/s/b;->g(Lcom/commsource/puzzle/patchedworld/s/b;)Lcom/commsource/puzzle/patchedworld/s/b$a;
@@ -182,7 +166,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->c:Lcom/commsource/puzzle/patchedworld/s/b;
 
     invoke-static {v2}, Lcom/commsource/puzzle/patchedworld/s/b;->g(Lcom/commsource/puzzle/patchedworld/s/b;)Lcom/commsource/puzzle/patchedworld/s/b$a;
@@ -193,13 +176,11 @@
 
     invoke-interface {v2, v1, p1, v3}, Lcom/commsource/puzzle/patchedworld/s/b$a;->i0(Lcom/commsource/puzzle/patchedworld/t/a;IZ)V
 
-    .line 8
     :cond_0
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->c:Lcom/commsource/puzzle/patchedworld/s/b;
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -215,14 +196,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->c:Lcom/commsource/puzzle/patchedworld/s/b;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/s/b;->c(Lcom/commsource/puzzle/patchedworld/s/b;)Landroid/content/Context;
@@ -255,7 +234,6 @@
 
     invoke-virtual {p1, v1}, Lcom/bumptech/glide/i;->l1(Landroid/widget/ImageView;)Lcom/bumptech/glide/request/j/r;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -45,10 +45,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p3}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
 
-    .line 2
     iput p2, p0, Lcom/google/common/util/concurrent/Striped$j$a;->a:I
 
     return-void

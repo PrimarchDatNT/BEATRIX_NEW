@@ -66,7 +66,6 @@
 
     const-string v0, "io.grpc.LoadBalancer.loadBalancingConfig"
 
-    .line 1
     invoke-static {v0}, Lio/grpc/a$c;->a(Ljava/lang/String;)Lio/grpc/a$c;
 
     move-result-object v0
@@ -75,7 +74,6 @@
 
     const-string v0, "health-checking-config"
 
-    .line 2
     invoke-static {v0}, Lio/grpc/a$c;->a(Ljava/lang/String;)Lio/grpc/a$c;
 
     move-result-object v0
@@ -88,7 +86,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -123,7 +120,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget v0, p0, Lio/grpc/t0;->a:I
 
     add-int/lit8 v1, v0, 0x1
@@ -132,7 +128,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lio/grpc/t0$g;->d()Lio/grpc/t0$g$a;
 
     move-result-object v0
@@ -149,13 +144,11 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0, p1}, Lio/grpc/t0;->d(Lio/grpc/t0$g;)V
 
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     iput p1, p0, Lio/grpc/t0;->a:I
 
     return-void
@@ -164,7 +157,6 @@
 .method public d(Lio/grpc/t0$g;)V
     .locals 2
 
-    .line 1
     iget v0, p0, Lio/grpc/t0;->a:I
 
     add-int/lit8 v1, v0, 0x1
@@ -173,7 +165,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lio/grpc/t0$g;->a()Ljava/util/List;
 
     move-result-object v0
@@ -182,13 +173,11 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0, v0, p1}, Lio/grpc/t0;->c(Ljava/util/List;Lio/grpc/a;)V
 
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     iput p1, p0, Lio/grpc/t0;->a:I
 
     return-void

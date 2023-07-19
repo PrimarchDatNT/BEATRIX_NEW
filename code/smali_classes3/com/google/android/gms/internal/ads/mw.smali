@@ -34,7 +34,6 @@
         value = 0x15
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Landroid/webkit/WebResourceRequest;->getUrl()Landroid/net/Uri;
 
     move-result-object v0
@@ -43,22 +42,18 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p1}, Landroid/webkit/WebResourceRequest;->getUrl()Landroid/net/Uri;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p1}, Landroid/webkit/WebResourceRequest;->getMethod()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 4
     invoke-interface {p1}, Landroid/webkit/WebResourceRequest;->getRequestHeaders()Ljava/util/Map;
 
     move-result-object p1
 
-    .line 5
     invoke-direct {p0, v0, v1, v2, p1}, Lcom/google/android/gms/internal/ads/mw;-><init>(Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;Ljava/util/Map;)V
 
     return-void
@@ -67,7 +62,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 2
 
-    .line 6
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
@@ -102,26 +96,21 @@
         }
     .end annotation
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/mw;->a:Ljava/lang/String;
 
-    .line 9
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/mw;->b:Landroid/net/Uri;
 
     if-nez p3, :cond_0
 
     const-string p3, "GET"
 
-    .line 10
     :cond_0
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/mw;->c:Ljava/lang/String;
 
     if-nez p4, :cond_1
 
-    .line 11
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object p4

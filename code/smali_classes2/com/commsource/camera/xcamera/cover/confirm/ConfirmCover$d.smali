@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$d;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$d;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -70,7 +68,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$d;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -85,7 +82,6 @@
 
     invoke-virtual {v0, p1, v1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->z0(IZ)V
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

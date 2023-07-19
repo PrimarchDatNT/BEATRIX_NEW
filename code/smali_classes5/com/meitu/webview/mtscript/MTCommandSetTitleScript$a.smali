@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/MTCommandSetTitleScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandSetTitleScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandSetTitleScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandSetTitleScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandSetTitleScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandSetTitleScript$Model;)V
@@ -64,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandSetTitleScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandSetTitleScript;
 
     invoke-virtual {v1}, Lcom/meitu/webview/mtscript/i;->A()Lcom/meitu/webview/core/CommonWebView;
@@ -75,14 +72,12 @@
 
     const/4 v2, 0x0
 
-    .line 2
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v4, 0x1a
 
     if-lt v3, v4, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/webkit/WebView;->getWebChromeClient()Landroid/webkit/WebChromeClient;
 
     move-result-object v2
@@ -90,7 +85,6 @@
     :cond_0
     if-eqz v2, :cond_2
 
-    .line 4
     iget-object p1, p1, Lcom/meitu/webview/mtscript/MTCommandSetTitleScript$Model;->content:Ljava/lang/String;
 
     if-nez p1, :cond_1
@@ -100,7 +94,6 @@
     :cond_1
     invoke-virtual {v2, v1, p1}, Landroid/webkit/WebChromeClient;->onReceivedTitle(Landroid/webkit/WebView;Ljava/lang/String;)V
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandSetTitleScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandSetTitleScript;
 
@@ -110,7 +103,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

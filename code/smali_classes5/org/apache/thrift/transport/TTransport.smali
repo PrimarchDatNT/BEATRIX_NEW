@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -76,7 +75,6 @@
 .method public peek()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TTransport;->isOpen()Z
 
     move-result v0
@@ -109,7 +107,6 @@
 
     sub-int v2, p3, v0
 
-    .line 1
     invoke-virtual {p0, p1, v1, v2}, Lorg/apache/thrift/transport/TTransport;->read([BII)I
 
     move-result v1
@@ -120,7 +117,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Lorg/apache/thrift/transport/TTransportException;
 
@@ -164,7 +160,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0

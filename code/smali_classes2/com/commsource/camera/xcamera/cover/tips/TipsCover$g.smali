@@ -41,7 +41,6 @@
 
     iput-boolean p5, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$g;->f:Z
 
-    .line 1
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
@@ -60,10 +59,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$g;->a:Lcom/commsource/camera/xcamera/cover/tips/TipsCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -91,12 +88,10 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 4
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$g;->f:Z
 
     if-eqz v1, :cond_1
@@ -113,12 +108,10 @@
 
     move-result v1
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->translationX(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 6
     new-instance v1, Landroid/view/animation/AccelerateInterpolator;
 
     invoke-direct {v1}, Landroid/view/animation/AccelerateInterpolator;-><init>()V
@@ -129,15 +122,12 @@
 
     const-wide/16 v1, 0x3e8
 
-    .line 7
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

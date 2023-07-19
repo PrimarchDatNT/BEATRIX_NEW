@@ -47,10 +47,8 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -59,18 +57,14 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lf/k/g0/h/c;->d:Ljava/lang/String;
 
     const/4 v0, 0x0
 
-    .line 4
     iput v0, p0, Lf/k/g0/h/c;->e:I
 
-    .line 5
     iput-object p1, p0, Lf/k/g0/h/c;->c:Landroid/content/Context;
 
-    .line 6
     invoke-static {p1}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     move-result-object p1
@@ -87,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/g0/h/c;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -102,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lf/k/g0/h/c;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
 
     move-result-object v1
@@ -148,26 +139,22 @@
 
     new-array v1, v1, [B
 
-    .line 1
     invoke-static {v1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0}, Ljava/util/UUID;->getMostSignificantBits()J
 
     move-result-wide v2
 
     invoke-virtual {v1, v2, v3}, Ljava/nio/ByteBuffer;->putLong(J)Ljava/nio/ByteBuffer;
 
-    .line 3
     invoke-virtual {p0}, Ljava/util/UUID;->getLeastSignificantBits()J
 
     move-result-wide v2
 
     invoke-virtual {v1, v2, v3}, Ljava/nio/ByteBuffer;->putLong(J)Ljava/nio/ByteBuffer;
 
-    .line 4
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object p0
@@ -184,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/g0/a;->f()Lf/k/g0/a;
 
     move-result-object v1
@@ -217,12 +203,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/h/c;->d:Ljava/lang/String;
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lf/k/g0/h/c;->b:Landroid/content/SharedPreferences;
 
     const-string v2, "meituRemote"
@@ -237,23 +221,19 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lf/k/g0/h/c;->a:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 4
     :try_start_0
     iget-object v2, p0, Lf/k/g0/h/c;->d:Ljava/lang/String;
 
     if-nez v2, :cond_0
 
-    .line 5
     invoke-static {}, Lf/k/g0/h/c;->c()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 6
     iget-object v3, p0, Lf/k/g0/h/c;->b:Landroid/content/SharedPreferences;
 
     invoke-interface {v3}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
@@ -268,10 +248,8 @@
 
     invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 7
     iput-object v2, p0, Lf/k/g0/h/c;->d:Ljava/lang/String;
 
-    .line 8
     :cond_0
     monitor-exit v1
 
@@ -288,7 +266,6 @@
 
     throw v2
 
-    .line 9
     :cond_1
     :goto_0
     iget-object v1, p0, Lf/k/g0/h/c;->d:Ljava/lang/String;
@@ -316,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/g0/h/c$a;
 
     invoke-direct {v1, p0}, Lf/k/g0/h/c$a;-><init>(Lf/k/g0/h/c;)V
@@ -337,7 +313,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lf/k/g0/h/c;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

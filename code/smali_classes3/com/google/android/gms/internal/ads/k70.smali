@@ -83,22 +83,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/k70;->a:Lcom/google/android/gms/internal/ads/l70;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/k70;->b:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/k70;->c:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/k70;->d:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 6
     iput-object p5, p0, Lcom/google/android/gms/internal/ads/k70;->e:Lcom/google/android/gms/internal/ads/d62;
 
     return-void
@@ -126,7 +120,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v6, Lcom/google/android/gms/internal/ads/k70;
 
     move-object v0, v6
@@ -153,7 +146,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/k70;->b:Lcom/google/android/gms/internal/ads/d62;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/d62;->get()Ljava/lang/Object;
@@ -192,12 +184,10 @@
 
     check-cast v6, Lcom/google/android/gms/internal/ads/pk;
 
-    .line 2
     iget-object v1, v0, Lcom/google/android/gms/internal/ads/ug1;->x:Lcom/google/android/gms/internal/ads/zzavq;
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v7, Lcom/google/android/gms/internal/ads/fk;
 
     iget-object v4, v0, Lcom/google/android/gms/internal/ads/ug1;->x:Lcom/google/android/gms/internal/ads/zzavq;

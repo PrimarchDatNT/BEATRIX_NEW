@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p1}, Lcom/commsource/camera/xcamera/cover/h;->getBackPressedWeight()I
 
     move-result v1
@@ -85,7 +84,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Lcom/commsource/camera/xcamera/cover/h;->getBackPressedWeight()I
 
@@ -104,7 +102,6 @@
     :cond_1
     const/4 p1, 0x1
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -118,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/f;
 
     check-cast p2, Lcom/commsource/camera/xcamera/cover/f;

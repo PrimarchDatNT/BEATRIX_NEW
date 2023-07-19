@@ -27,10 +27,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/measurement/k4;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/q6;->a:Lcom/google/android/gms/internal/measurement/k4;
 
     return-void
@@ -39,7 +37,6 @@
 .method static synthetic b(Lcom/google/android/gms/internal/measurement/q6;)Lcom/google/android/gms/internal/measurement/k4;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/measurement/q6;->a:Lcom/google/android/gms/internal/measurement/k4;
 
     return-object p0
@@ -57,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/q6;->a:Lcom/google/android/gms/internal/measurement/k4;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/measurement/k4;->d()Ljava/util/List;
@@ -76,7 +72,6 @@
 .method public final synthetic get(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/q6;->a:Lcom/google/android/gms/internal/measurement/k4;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -99,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/measurement/s6;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/s6;-><init>(Lcom/google/android/gms/internal/measurement/q6;)V
@@ -118,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/measurement/o6;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/measurement/o6;-><init>(Lcom/google/android/gms/internal/measurement/q6;I)V
@@ -129,7 +122,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/q6;->a:Lcom/google/android/gms/internal/measurement/k4;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -142,7 +134,6 @@
 .method public final t0(Lcom/google/android/gms/internal/measurement/zzdu;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -153,7 +144,6 @@
 .method public final w(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/q6;->a:Lcom/google/android/gms/internal/measurement/k4;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/measurement/k4;->w(I)Ljava/lang/Object;

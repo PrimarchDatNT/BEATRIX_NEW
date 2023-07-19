@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/start/StartUpAdvertActivity;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/start/StartUpAdvertActivity$b;->g:Lcom/commsource/beautyplus/start/StartUpAdvertActivity;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartUpAdvertActivity$b;->g:Lcom/commsource/beautyplus/start/StartUpAdvertActivity;
 
     invoke-static {v1}, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->getInstance(Landroid/content/Context;)Landroidx/localbroadcastmanager/content/LocalBroadcastManager;
@@ -48,17 +46,14 @@
 
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/start/StartUpAdvertActivity;->Q0(Lcom/commsource/beautyplus/start/StartUpAdvertActivity;Landroidx/localbroadcastmanager/content/LocalBroadcastManager;)Landroidx/localbroadcastmanager/content/LocalBroadcastManager;
 
-    .line 2
     new-instance v1, Landroid/content/IntentFilter;
 
     invoke-direct {v1}, Landroid/content/IntentFilter;-><init>()V
 
     const-string v2, "com.commsource.beautyplus.AnotherBroadcastReceiver"
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautyplus/start/StartUpAdvertActivity$b;->g:Lcom/commsource/beautyplus/start/StartUpAdvertActivity;
 
     new-instance v3, Lcom/commsource/beautyplus/start/StartUpAdvertActivity$c;
@@ -71,7 +66,6 @@
 
     invoke-static {v2, v3}, Lcom/commsource/beautyplus/start/StartUpAdvertActivity;->S0(Lcom/commsource/beautyplus/start/StartUpAdvertActivity;Lcom/commsource/beautyplus/start/StartUpAdvertActivity$c;)Lcom/commsource/beautyplus/start/StartUpAdvertActivity$c;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/beautyplus/start/StartUpAdvertActivity$b;->g:Lcom/commsource/beautyplus/start/StartUpAdvertActivity;
 
     invoke-static {v2}, Lcom/commsource/beautyplus/start/StartUpAdvertActivity;->P0(Lcom/commsource/beautyplus/start/StartUpAdvertActivity;)Landroidx/localbroadcastmanager/content/LocalBroadcastManager;
@@ -86,7 +80,6 @@
 
     invoke-virtual {v2, v3, v1}, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

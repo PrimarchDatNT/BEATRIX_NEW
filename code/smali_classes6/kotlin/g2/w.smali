@@ -55,7 +55,6 @@
 
     sput-object v0, Lcotlin/g2/w;->g:Lcotlin/g2/w$a;
 
-    .line 1
     new-instance v0, Lcotlin/g2/w;
 
     const-wide/16 v3, -0x1
@@ -86,7 +85,6 @@
 
     move-wide v3, p3
 
-    .line 1
     invoke-direct/range {v0 .. v7}, Lcotlin/g2/u;-><init>(JJJLcotlin/jvm/internal/u;)V
 
     return-void
@@ -95,7 +93,6 @@
 .method public synthetic constructor <init>(JJLcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3, p4}, Lcotlin/g2/w;-><init>(JJ)V
 
     return-void
@@ -104,7 +101,6 @@
 .method public static final synthetic j()Lcotlin/g2/w;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/g2/w;->f:Lcotlin/g2/w;
 
     return-object v0
@@ -115,7 +111,6 @@
 .method public bridge synthetic contains(Ljava/lang/Comparable;)Z
     .locals 2
 
-    .line 1
     check-cast p1, Lcotlin/j1;
 
     invoke-virtual {p1}, Lcotlin/j1;->v0()J
@@ -136,7 +131,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlin/g2/w;
 
     if-eqz v0, :cond_2
@@ -199,7 +193,6 @@
 .method public bridge synthetic getEndInclusive()Ljava/lang/Comparable;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/w;->l()J
 
     move-result-wide v0
@@ -214,7 +207,6 @@
 .method public bridge synthetic getStart()Ljava/lang/Comparable;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/w;->m()J
 
     move-result-wide v0
@@ -229,7 +221,6 @@
 .method public hashCode()I
     .locals 7
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/w;->isEmpty()Z
 
     move-result v0
@@ -298,7 +289,6 @@
 .method public isEmpty()Z
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/u;->c()J
 
     move-result-wide v0
@@ -327,7 +317,6 @@
 .method public k(J)Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/u;->c()J
 
     move-result-wide v0
@@ -362,7 +351,6 @@
 .method public l()J
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/u;->e()J
 
     move-result-wide v0
@@ -373,7 +361,6 @@
 .method public m()J
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/u;->c()J
 
     move-result-wide v0
@@ -386,7 +373,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

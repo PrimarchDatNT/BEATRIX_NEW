@@ -85,39 +85,30 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->p:Lcom/google/common/collect/LinkedHashMultimap;
 
     invoke-direct {p0}, Lcom/google/common/collect/Sets$j;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->c:I
 
-    .line 3
     iput p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->d:I
 
-    .line 4
     iput-object p2, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->a:Ljava/lang/Object;
 
-    .line 5
     iput-object p0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->f:Lcom/google/common/collect/LinkedHashMultimap$c;
 
-    .line 6
     iput-object p0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->g:Lcom/google/common/collect/LinkedHashMultimap$c;
 
     const-wide/high16 p1, 0x3ff0000000000000L    # 1.0
 
-    .line 7
     invoke-static {p3, p1, p2}, Lcom/google/common/collect/e1;->a(ID)I
 
     move-result p1
 
-    .line 8
     new-array p1, p1, [Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
-    .line 9
     iput-object p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->b:[Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
     return-void
@@ -126,7 +117,6 @@
 .method static synthetic b(Lcom/google/common/collect/LinkedHashMultimap$b;)Lcom/google/common/collect/LinkedHashMultimap$c;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->f:Lcom/google/common/collect/LinkedHashMultimap$c;
 
     return-object p0
@@ -135,7 +125,6 @@
 .method static synthetic c(Lcom/google/common/collect/LinkedHashMultimap$b;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->d:I
 
     return p0
@@ -144,7 +133,6 @@
 .method private e()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->b:[Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
     array-length v0, v0
@@ -157,7 +145,6 @@
 .method private h()V
     .locals 6
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->c:I
 
     iget-object v1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->b:[Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
@@ -172,7 +159,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->b:[Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
     array-length v0, v0
@@ -181,36 +167,29 @@
 
     new-array v1, v0, [Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
-    .line 3
     iput-object v1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->b:[Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
     add-int/lit8 v0, v0, -0x1
 
-    .line 4
     iget-object v2, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->f:Lcom/google/common/collect/LinkedHashMultimap$c;
 
     :goto_0
     if-eq v2, p0, :cond_0
 
-    .line 5
     move-object v3, v2
 
     check-cast v3, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
-    .line 6
     iget v4, v3, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;->smearedValueHash:I
 
     and-int/2addr v4, v0
 
-    .line 7
     aget-object v5, v1, v4
 
     iput-object v5, v3, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;->nextInValueBucket:Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
-    .line 8
     aput-object v3, v1, v4
 
-    .line 9
     invoke-interface {v2}, Lcom/google/common/collect/LinkedHashMultimap$c;->getSuccessorInValueSet()Lcom/google/common/collect/LinkedHashMultimap$c;
 
     move-result-object v2
@@ -235,19 +214,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/collect/e1;->d(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/LinkedHashMultimap$b;->e()I
 
     move-result v1
 
     and-int/2addr v1, v0
 
-    .line 3
     iget-object v2, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->b:[Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
     aget-object v2, v2, v1
@@ -257,7 +233,6 @@
     :goto_0
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-virtual {v3, p1, v0}, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;->matchesValue(Ljava/lang/Object;I)Z
 
     move-result v4
@@ -268,13 +243,11 @@
 
     return p1
 
-    .line 5
     :cond_0
     iget-object v3, v3, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;->nextInValueBucket:Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v3, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
@@ -282,15 +255,12 @@
 
     invoke-direct {v3, v4, p1, v0, v2}, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;-><init>(Ljava/lang/Object;Ljava/lang/Object;ILcom/google/common/collect/LinkedHashMultimap$ValueEntry;)V
 
-    .line 7
     iget-object p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->g:Lcom/google/common/collect/LinkedHashMultimap$c;
 
     invoke-static {p1, v3}, Lcom/google/common/collect/LinkedHashMultimap;->access$200(Lcom/google/common/collect/LinkedHashMultimap$c;Lcom/google/common/collect/LinkedHashMultimap$c;)V
 
-    .line 8
     invoke-static {v3, p0}, Lcom/google/common/collect/LinkedHashMultimap;->access$200(Lcom/google/common/collect/LinkedHashMultimap$c;Lcom/google/common/collect/LinkedHashMultimap$c;)V
 
-    .line 9
     iget-object p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->p:Lcom/google/common/collect/LinkedHashMultimap;
 
     invoke-static {p1}, Lcom/google/common/collect/LinkedHashMultimap;->access$300(Lcom/google/common/collect/LinkedHashMultimap;)Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
@@ -303,7 +273,6 @@
 
     invoke-static {p1, v3}, Lcom/google/common/collect/LinkedHashMultimap;->access$400(Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;)V
 
-    .line 10
     iget-object p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->p:Lcom/google/common/collect/LinkedHashMultimap;
 
     invoke-static {p1}, Lcom/google/common/collect/LinkedHashMultimap;->access$300(Lcom/google/common/collect/LinkedHashMultimap;)Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
@@ -312,12 +281,10 @@
 
     invoke-static {v3, p1}, Lcom/google/common/collect/LinkedHashMultimap;->access$400(Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;)V
 
-    .line 11
     iget-object p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->b:[Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
     aput-object v3, p1, v1
 
-    .line 12
     iget p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->c:I
 
     const/4 v0, 0x1
@@ -326,14 +293,12 @@
 
     iput p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->c:I
 
-    .line 13
     iget p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->d:I
 
     add-int/2addr p1, v0
 
     iput p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->d:I
 
-    .line 14
     invoke-direct {p0}, Lcom/google/common/collect/LinkedHashMultimap$b;->h()V
 
     return v0
@@ -342,7 +307,6 @@
 .method public clear()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->b:[Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
     const/4 v1, 0x0
@@ -351,35 +315,28 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->c:I
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->f:Lcom/google/common/collect/LinkedHashMultimap$c;
 
     :goto_0
     if-eq v0, p0, :cond_0
 
-    .line 4
     move-object v1, v0
 
     check-cast v1, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
-    .line 5
     invoke-static {v1}, Lcom/google/common/collect/LinkedHashMultimap;->access$600(Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;)V
 
-    .line 6
     invoke-interface {v0}, Lcom/google/common/collect/LinkedHashMultimap$c;->getSuccessorInValueSet()Lcom/google/common/collect/LinkedHashMultimap$c;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-static {p0, p0}, Lcom/google/common/collect/LinkedHashMultimap;->access$200(Lcom/google/common/collect/LinkedHashMultimap$c;Lcom/google/common/collect/LinkedHashMultimap$c;)V
 
-    .line 8
     iget v0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->d:I
 
     add-int/lit8 v0, v0, 0x1
@@ -396,12 +353,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/collect/e1;->d(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->b:[Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
     invoke-direct {p0}, Lcom/google/common/collect/LinkedHashMultimap$b;->e()I
@@ -415,7 +370,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1, p1, v0}, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;->matchesValue(Ljava/lang/Object;I)Z
 
     move-result v2
@@ -426,7 +380,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     iget-object v1, v1, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;->nextInValueBucket:Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
@@ -448,7 +401,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->g:Lcom/google/common/collect/LinkedHashMultimap$c;
 
     return-object v0
@@ -464,7 +416,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->f:Lcom/google/common/collect/LinkedHashMultimap$c;
 
     return-object v0
@@ -480,7 +431,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/LinkedHashMultimap$b$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/LinkedHashMultimap$b$a;-><init>(Lcom/google/common/collect/LinkedHashMultimap$b;)V
@@ -497,19 +447,16 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/collect/e1;->d(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/LinkedHashMultimap$b;->e()I
 
     move-result v1
 
     and-int/2addr v1, v0
 
-    .line 3
     iget-object v2, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->b:[Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
     aget-object v2, v2, v1
@@ -519,7 +466,6 @@
     :goto_0
     if-eqz v2, :cond_2
 
-    .line 4
     invoke-virtual {v2, p1, v0}, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;->matchesValue(Ljava/lang/Object;I)Z
 
     move-result v4
@@ -528,7 +474,6 @@
 
     if-nez v3, :cond_0
 
-    .line 5
     iget-object p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->b:[Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
     iget-object v0, v2, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;->nextInValueBucket:Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
@@ -537,20 +482,16 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     iget-object p1, v2, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;->nextInValueBucket:Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
     iput-object p1, v3, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;->nextInValueBucket:Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
-    .line 7
     :goto_1
     invoke-static {v2}, Lcom/google/common/collect/LinkedHashMultimap;->access$500(Lcom/google/common/collect/LinkedHashMultimap$c;)V
 
-    .line 8
     invoke-static {v2}, Lcom/google/common/collect/LinkedHashMultimap;->access$600(Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;)V
 
-    .line 9
     iget p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->c:I
 
     const/4 v0, 0x1
@@ -559,7 +500,6 @@
 
     iput p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->c:I
 
-    .line 10
     iget p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->d:I
 
     add-int/2addr p1, v0
@@ -568,7 +508,6 @@
 
     return v0
 
-    .line 11
     :cond_1
     iget-object v3, v2, Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;->nextInValueBucket:Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;
 
@@ -596,7 +535,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->g:Lcom/google/common/collect/LinkedHashMultimap$c;
 
     return-void
@@ -612,7 +550,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->f:Lcom/google/common/collect/LinkedHashMultimap$c;
 
     return-void
@@ -621,7 +558,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/LinkedHashMultimap$b;->c:I
 
     return v0

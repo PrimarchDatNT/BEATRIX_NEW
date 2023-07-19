@@ -101,20 +101,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/o0;-><init>()V
 
-    .line 2
     invoke-static {p1}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/collect/Maps$UnmodifiableBiMap;->unmodifiableMap:Ljava/util/Map;
 
-    .line 3
     iput-object p1, p0, Lcom/google/common/collect/Maps$UnmodifiableBiMap;->delegate:Lcom/google/common/collect/k;
 
-    .line 4
     iput-object p2, p0, Lcom/google/common/collect/Maps$UnmodifiableBiMap;->inverse:Lcom/google/common/collect/k;
 
     return-void
@@ -125,7 +121,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$UnmodifiableBiMap;->delegate()Ljava/util/Map;
 
     move-result-object v0
@@ -143,7 +138,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Maps$UnmodifiableBiMap;->unmodifiableMap:Ljava/util/Map;
 
     return-object v0
@@ -157,7 +151,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -175,17 +168,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$UnmodifiableBiMap;->inverse:Lcom/google/common/collect/k;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/Maps$UnmodifiableBiMap;
 
     iget-object v1, p0, Lcom/google/common/collect/Maps$UnmodifiableBiMap;->delegate:Lcom/google/common/collect/k;
 
-    .line 3
     invoke-interface {v1}, Lcom/google/common/collect/k;->inverse()Lcom/google/common/collect/k;
 
     move-result-object v1
@@ -201,7 +191,6 @@
 .method public bridge synthetic values()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$UnmodifiableBiMap;->values()Ljava/util/Set;
 
     move-result-object v0
@@ -219,12 +208,10 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Maps$UnmodifiableBiMap;->values:Ljava/util/Set;
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/Maps$UnmodifiableBiMap;->delegate:Lcom/google/common/collect/k;
 
     invoke-interface {v0}, Lcom/google/common/collect/k;->values()Ljava/util/Set;

@@ -28,10 +28,8 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover$tipsViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover$tipsViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;)V
@@ -42,7 +40,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;->d:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     const/high16 v1, 0x42480000    # 50.0f
@@ -67,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;->G()Lcom/commsource/camera/xcamera/cover/tips/a;
 
     move-result-object p0
@@ -86,17 +82,14 @@
 
     const/high16 v1, 0x42780000    # 62.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
 
-    .line 2
     iget v2, p1, Landroid/graphics/Rect;->top:I
 
     if-gt v2, v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -115,7 +108,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -135,7 +127,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/RelativeLayout;->setTranslationY(F)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -170,12 +161,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->z()V
 
     if-eqz p1, :cond_7
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p4
@@ -207,7 +196,6 @@
 
     invoke-virtual {p4}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p4
@@ -227,7 +215,6 @@
 
     invoke-static {p4}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p4
@@ -247,7 +234,6 @@
 
     invoke-virtual {p4, v3}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p4
@@ -267,7 +253,6 @@
 
     invoke-virtual {p4, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p4
@@ -298,7 +283,6 @@
 
     invoke-virtual {p4, v2}, Landroid/widget/RelativeLayout;->setTranslationX(F)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p4
@@ -318,22 +302,18 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 8
     invoke-virtual {p4, v2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p4
 
-    .line 9
     invoke-virtual {p4, v0, v1}, Landroid/view/ViewPropertyAnimator;->setStartDelay(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p4
 
-    .line 10
     invoke-virtual {p4, v3}, Landroid/view/ViewPropertyAnimator;->translationX(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p4
 
-    .line 11
     new-instance v0, Landroid/view/animation/DecelerateInterpolator;
 
     invoke-direct {v0}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
@@ -344,12 +324,10 @@
 
     const-wide/16 v0, 0x3e8
 
-    .line 12
     invoke-virtual {p4, v0, v1}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p4
 
-    .line 13
     new-instance v0, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover$b;
 
     invoke-direct {v0, p0, p1, p3}, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover$b;-><init>(Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;Ljava/lang/String;Z)V
@@ -358,10 +336,8 @@
 
     move-result-object p1
 
-    .line 14
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 15
     :cond_7
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -388,7 +364,6 @@
 
     const/4 p4, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;->J(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V
 
@@ -408,7 +383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;->f:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -431,7 +405,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;->f:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -446,10 +419,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->h(FF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -462,7 +433,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;->G()Lcom/commsource/camera/xcamera/cover/tips/a;
 
     move-result-object v1
@@ -485,7 +455,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -498,7 +467,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->cover_confirm_tips:I
@@ -529,13 +497,10 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->t(Landroid/graphics/Rect;Landroid/graphics/Rect;)V
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;->F(Landroid/graphics/Rect;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -556,13 +521,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->u(Landroid/graphics/Rect;F)V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;->F(Landroid/graphics/Rect;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -575,7 +537,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -588,7 +549,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

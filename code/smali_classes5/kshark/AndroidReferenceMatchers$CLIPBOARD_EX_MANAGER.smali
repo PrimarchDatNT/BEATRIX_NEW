@@ -27,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lkshark/AndroidReferenceMatchers;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
@@ -54,10 +53,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lkshark/AndroidReferenceMatchers;->Companion:Lkshark/AndroidReferenceMatchers$Companion;
 
-    .line 2
     sget-object v1, Lkshark/AndroidReferenceMatchers$CLIPBOARD_EX_MANAGER$add$1;->INSTANCE:Lkshark/AndroidReferenceMatchers$CLIPBOARD_EX_MANAGER$add$1;
 
     const-string v2, "android.sec.clipboard.ClipboardExManager"
@@ -66,28 +63,24 @@
 
     const-string v4, "android.sec.clipboard.ClipboardExManager$IClipboardDataPasteEventImpl$1 is a native callback that holds IClipboardDataPasteEventImpl which holds ClipboardExManager which has a destroyed activity as mContext"
 
-    .line 3
     invoke-virtual {v0, v2, v3, v4, v1}, Lkshark/AndroidReferenceMatchers$Companion;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object v1
 
     invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 4
     sget-object v1, Lkshark/AndroidReferenceMatchers$CLIPBOARD_EX_MANAGER$add$2;->INSTANCE:Lkshark/AndroidReferenceMatchers$CLIPBOARD_EX_MANAGER$add$2;
 
     const-string v3, "mPersonaManager"
 
     const-string v4, "android.sec.clipboard.ClipboardExManager$IClipboardDataPasteEventImpl$1 is a native callback that holds IClipboardDataPasteEventImpl which holds ClipboardExManager which holds PersonaManager which has a destroyed activity as mContext"
 
-    .line 5
     invoke-virtual {v0, v2, v3, v4, v1}, Lkshark/AndroidReferenceMatchers$Companion;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object v1
 
     invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 6
     sget-object v1, Lkshark/AndroidReferenceMatchers$CLIPBOARD_EX_MANAGER$add$3;->INSTANCE:Lkshark/AndroidReferenceMatchers$CLIPBOARD_EX_MANAGER$add$3;
 
     const-string v2, "android.widget.TextView$IClipboardDataPasteEventImpl"
@@ -96,7 +89,6 @@
 
     const-string v4, "TextView$IClipboardDataPasteEventImpl$1 is held by a native ref, and IClipboardDataPasteEventImpl ends up leaking a detached textview"
 
-    .line 7
     invoke-virtual {v0, v2, v3, v4, v1}, Lkshark/AndroidReferenceMatchers$Companion;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object v0

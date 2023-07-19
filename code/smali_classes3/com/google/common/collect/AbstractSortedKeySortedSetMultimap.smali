@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/AbstractSortedSetMultimap;-><init>(Ljava/util/Map;)V
 
     return-void
@@ -44,7 +43,6 @@
 .method public bridge synthetic asMap()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractSortedKeySortedSetMultimap;->asMap()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -64,7 +62,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/AbstractSortedSetMultimap;->asMap()Ljava/util/Map;
 
     move-result-object v0
@@ -77,7 +74,6 @@
 .method bridge synthetic backingMap()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractSortedKeySortedSetMultimap;->backingMap()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -97,7 +93,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap;->backingMap()Ljava/util/Map;
 
     move-result-object v0
@@ -117,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap;->createMaybeNavigableKeySet()Ljava/util/Set;
 
     move-result-object v0
@@ -128,7 +122,6 @@
 .method public bridge synthetic keySet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractSortedKeySortedSetMultimap;->keySet()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -146,7 +139,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/c;->keySet()Ljava/util/Set;
 
     move-result-object v0

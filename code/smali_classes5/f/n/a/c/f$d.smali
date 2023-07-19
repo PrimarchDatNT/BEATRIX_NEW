@@ -33,7 +33,6 @@
 .method constructor <init>(Lf/n/a/c/f;IJLjava/net/URI;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
     iput p2, p0, Lf/n/a/c/f$d;->a:I
@@ -54,7 +53,6 @@
 .method public a(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)V
     .locals 7
 
-    .line 1
     invoke-virtual {p1}, Lcom/qiniu/android/http/g;->h()Z
 
     move-result v0
@@ -67,7 +65,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
     invoke-static {v0}, Lf/n/a/c/f;->b(Lf/n/a/c/f;)Lf/n/a/c/l;
@@ -78,14 +75,12 @@
 
     invoke-interface {v0}, Lf/n/a/c/d;->a()V
 
-    .line 3
     invoke-static {}, Lf/n/a/d/b;->c()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
     invoke-static {v0}, Lf/n/a/c/f;->i(Lf/n/a/c/f;)Lf/n/a/c/h;
@@ -102,7 +97,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     invoke-static {p1, p2}, Lf/n/a/c/f;->o(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)Z
 
@@ -112,7 +106,6 @@
 
     if-nez v0, :cond_4
 
-    .line 6
     iget v0, p1, Lcom/qiniu/android/http/g;->a:I
 
     const/16 v3, 0x2bd
@@ -131,7 +124,6 @@
 
     if-ge v0, v3, :cond_1
 
-    .line 7
     iget-object p1, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
     iget-wide v3, p0, Lf/n/a/c/f$d;->b:J
@@ -150,7 +142,6 @@
 
     return-void
 
-    .line 8
     :cond_1
     iget-object v0, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
@@ -174,7 +165,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 9
     invoke-static {p1, p2}, Lf/n/a/c/f;->c(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)Z
 
     move-result v0
@@ -192,7 +182,6 @@
 
     iget-object v1, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
-    .line 10
     invoke-static {v1}, Lf/n/a/c/f;->l(Lf/n/a/c/f;)Lf/n/a/c/a;
 
     move-result-object v1
@@ -201,7 +190,6 @@
 
     if-ge v0, v1, :cond_3
 
-    .line 11
     iget-object p1, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
     iget-wide v0, p0, Lf/n/a/c/f$d;->b:J
@@ -234,7 +222,6 @@
 
     return-void
 
-    .line 12
     :cond_3
     iget-object v0, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
@@ -257,7 +244,6 @@
 
     if-nez p2, :cond_5
 
-    .line 13
     iget v0, p0, Lf/n/a/c/f$d;->a:I
 
     iget-object v3, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
@@ -270,7 +256,6 @@
 
     if-ge v0, v3, :cond_5
 
-    .line 14
     iget-object p1, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
     iget-wide v0, p0, Lf/n/a/c/f$d;->b:J
@@ -309,14 +294,12 @@
     :try_start_0
     const-string v0, "ctx"
 
-    .line 15
     invoke-virtual {p2, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     const-string v0, "crc32"
 
-    .line 16
     invoke-virtual {p2, v0}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
 
     move-result-wide v3
@@ -328,13 +311,11 @@
     :catch_0
     move-exception p2
 
-    .line 17
     invoke-virtual {p2}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
     if-eqz p1, :cond_6
 
-    .line 18
     iget-object p2, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
     invoke-static {p2}, Lf/n/a/c/f;->d(Lf/n/a/c/f;)J
@@ -358,7 +339,6 @@
 
     if-ge p2, v0, :cond_7
 
-    .line 19
     iget-object p1, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
     iget-wide v0, p0, Lf/n/a/c/f$d;->b:J
@@ -391,7 +371,6 @@
 
     return-void
 
-    .line 20
     :cond_7
     iget-object p2, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
@@ -407,7 +386,6 @@
 
     aput-object p1, p2, v1
 
-    .line 21
     iget-object p1, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
     iget p2, p0, Lf/n/a/c/f$d;->d:I
@@ -418,7 +396,6 @@
 
     invoke-static {p1, v3, v4}, Lf/n/a/c/f;->g(Lf/n/a/c/f;J)V
 
-    .line 22
     iget-object p1, p0, Lf/n/a/c/f$d;->e:Lf/n/a/c/f;
 
     iget-wide v0, p0, Lf/n/a/c/f$d;->b:J

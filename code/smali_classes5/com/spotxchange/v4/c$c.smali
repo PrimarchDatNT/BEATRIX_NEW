@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/spotxchange/v4/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/c$c;->a:Lcom/spotxchange/v4/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/c$c;->a:Lcom/spotxchange/v4/c;
 
     invoke-static {v0}, Lcom/spotxchange/v4/c;->E0(Lcom/spotxchange/v4/c;)V

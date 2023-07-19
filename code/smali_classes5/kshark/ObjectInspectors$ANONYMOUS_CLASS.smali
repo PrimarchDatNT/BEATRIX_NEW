@@ -27,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lkshark/ObjectInspectors;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
@@ -46,24 +45,20 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lkshark/v;->a()Lkshark/HeapObject;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lkshark/HeapObject$HeapInstance;
 
     if-eqz v1, :cond_4
 
-    .line 3
     check-cast v0, Lkshark/HeapObject$HeapInstance;
 
     invoke-virtual {v0}, Lkshark/HeapObject$HeapInstance;->n()Lkshark/HeapObject$HeapClass;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lkshark/HeapObject$HeapClass;->p()Ljava/lang/String;
 
     move-result-object v1
@@ -78,7 +73,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 5
     invoke-virtual {v0}, Lkshark/HeapObject$HeapClass;->u()Lkshark/HeapObject$HeapClass;
 
     move-result-object v1
@@ -87,7 +81,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 6
     :cond_0
     invoke-virtual {v1}, Lkshark/HeapObject$HeapClass;->p()Ljava/lang/String;
 
@@ -101,7 +94,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 7
     :try_start_0
     invoke-virtual {v0}, Lkshark/HeapObject$HeapClass;->p()Ljava/lang/String;
 
@@ -113,14 +105,12 @@
 
     const-string v1, "actualClass"
 
-    .line 8
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Ljava/lang/Class;->getInterfaces()[Ljava/lang/Class;
 
     move-result-object v0
 
-    .line 9
     invoke-virtual {p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 
     move-result-object p1
@@ -149,10 +139,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 10
     aget-object v0, v0, v3
 
-    .line 11
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -180,7 +168,6 @@
     :cond_2
     const-string v0, "Anonymous subclass of java.lang.Object"
 
-    .line 12
     :goto_1
     invoke-interface {p1, v0}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
     :try_end_0
@@ -188,7 +175,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_3
     invoke-virtual {p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 

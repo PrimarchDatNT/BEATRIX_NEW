@@ -60,7 +60,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/LeakTraceReference;
 
     invoke-virtual {p0, p1}, Lkshark/LeakTrace$signature$1;->invoke(Lkshark/LeakTraceReference;)Ljava/lang/String;
@@ -83,7 +82,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

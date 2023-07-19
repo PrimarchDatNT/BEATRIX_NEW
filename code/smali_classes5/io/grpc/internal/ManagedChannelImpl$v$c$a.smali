@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/internal/ManagedChannelImpl$v$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$v$c$a;->a:Lio/grpc/internal/ManagedChannelImpl$v$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v$c$a;->a:Lio/grpc/internal/ManagedChannelImpl$v$c;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$v$c;->m:Lio/grpc/Context;
@@ -47,7 +45,6 @@
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$v$c$a;->a:Lio/grpc/internal/ManagedChannelImpl$v$c;
 
@@ -63,19 +60,16 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iget-object v2, p0, Lio/grpc/internal/ManagedChannelImpl$v$c$a;->a:Lio/grpc/internal/ManagedChannelImpl$v$c;
 
     iget-object v2, v2, Lio/grpc/internal/ManagedChannelImpl$v$c;->m:Lio/grpc/Context;
 
     invoke-virtual {v2, v0}, Lio/grpc/Context;->i(Lio/grpc/Context;)V
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v$c$a;->a:Lio/grpc/internal/ManagedChannelImpl$v$c;
 
     invoke-virtual {v0, v1}, Lio/grpc/internal/f0;->r(Lio/grpc/h;)V
 
-    .line 5
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v$c$a;->a:Lio/grpc/internal/ManagedChannelImpl$v$c;
 
     iget-object v1, v0, Lio/grpc/internal/ManagedChannelImpl$v$c;->p:Lio/grpc/internal/ManagedChannelImpl$v;
@@ -95,7 +89,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     iget-object v2, p0, Lio/grpc/internal/ManagedChannelImpl$v$c$a;->a:Lio/grpc/internal/ManagedChannelImpl$v$c;
 
     iget-object v2, v2, Lio/grpc/internal/ManagedChannelImpl$v$c;->m:Lio/grpc/Context;

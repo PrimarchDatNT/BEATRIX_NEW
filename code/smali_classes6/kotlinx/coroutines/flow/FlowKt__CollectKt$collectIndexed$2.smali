@@ -37,7 +37,6 @@
 .method public constructor <init>(Lcotlin/jvm/u/q;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->b:Lcotlin/jvm/u/q;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -68,7 +67,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->b:Lcotlin/jvm/u/q;
 
     iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->a:I
@@ -79,19 +77,16 @@
 
     if-ltz v1, :cond_0
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v0, v1, p1, p2}, Lcotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/ArithmeticException;
 
@@ -122,7 +117,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->b:Lcotlin/jvm/u/q;
 
     iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->a:I
@@ -133,19 +127,16 @@
 
     if-ltz v1, :cond_0
 
-    .line 2
     invoke-static {v1}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v0, v1, p1, p2}, Lcotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/ArithmeticException;
 

@@ -30,7 +30,6 @@
 .method constructor <init>(Lf/k/h/a/l/m;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/l/m$a;->b:Lf/k/h/a/l/m;
 
     invoke-direct {p0}, Lcom/meitu/global/billing/net/http/b;-><init>()V
@@ -59,7 +58,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     sget-object p1, Lcom/meitu/global/billing/net/i;->a:Ljava/lang/String;
 
     const-string p2, "reportToServer Success"
@@ -68,7 +66,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/meitu/global/billing/net/i;->a:Ljava/lang/String;
 
@@ -76,7 +73,6 @@
 
     invoke-static {p1, v0}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -99,7 +95,6 @@
 
     invoke-static {p1, p2}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :goto_0
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -43,7 +43,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -58,7 +57,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -71,21 +69,16 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p2, 0x0
 
-    .line 4
     iput-boolean p2, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->f:Z
 
-    .line 5
     iput p2, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->g:I
 
-    .line 6
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    .line 7
     new-instance p3, Landroid/view/View;
 
     invoke-direct {p3, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
@@ -94,20 +87,16 @@
 
     const/16 v0, 0xfff
 
-    .line 8
     invoke-virtual {p3, v0}, Landroid/view/View;->setBackgroundColor(I)V
 
-    .line 9
     new-instance p3, Landroid/view/View;
 
     invoke-direct {p3, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
     iput-object p3, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->b:Landroid/view/View;
 
-    .line 10
     invoke-virtual {p3, v0}, Landroid/view/View;->setBackgroundColor(I)V
 
-    .line 11
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->setWillNotDraw(Z)V
 
     return-void
@@ -120,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -135,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -150,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -165,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -180,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->p:Lcom/commsource/camera/widget/NestedScrollHLinearLayout$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -197,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -212,10 +195,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/LinearLayout;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -228,19 +209,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/widget/LinearLayout;->onFinishInflate()V
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->c:Landroid/view/View;
 
-    .line 3
     new-instance v2, Landroid/widget/LinearLayout$LayoutParams;
 
     const/16 v3, 0xc8
@@ -249,12 +227,10 @@
 
     invoke-direct {v2, v3, v4}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->a:Landroid/view/View;
 
     invoke-virtual {p0, v4, v1, v2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->b:Landroid/view/View;
 
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getChildCount()I
@@ -263,17 +239,14 @@
 
     invoke-virtual {p0, v4, v5, v2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
 
-    .line 6
     invoke-virtual {p0, v3, v1}, Landroid/widget/LinearLayout;->scrollBy(II)V
 
-    .line 7
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getScrollX()I
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->g:I
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -286,24 +259,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->c:Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getMeasuredWidth()I
 
     move-result p2
 
     iput p2, p1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -320,7 +289,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -339,7 +307,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getScrollX()I
 
     move-result p2
@@ -376,7 +343,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getParent()Landroid/view/ViewParent;
 
     move-result-object v0
@@ -393,7 +359,6 @@
 
     if-lez p2, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getScrollX()I
 
     move-result v4
@@ -416,7 +381,6 @@
     :goto_0
     if-gez p2, :cond_1
 
-    .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->canScrollHorizontally(I)Z
 
     move-result v5
@@ -433,7 +397,6 @@
     :goto_1
     if-gez p2, :cond_2
 
-    .line 4
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getScrollX()I
 
     move-result v6
@@ -456,7 +419,6 @@
     :goto_2
     if-lez p2, :cond_3
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->canScrollHorizontally(I)Z
 
     move-result v7
@@ -479,16 +441,13 @@
 
     if-eqz v7, :cond_5
 
-    .line 6
     :cond_4
     div-int/lit8 v4, p2, 0x5
 
     invoke-virtual {p0, v4, v3}, Landroid/widget/LinearLayout;->scrollBy(II)V
 
-    .line 7
     aput p2, p4, v3
 
-    .line 8
     :cond_5
     iget-boolean p4, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->f:Z
 
@@ -512,21 +471,17 @@
 
     if-le p4, v4, :cond_6
 
-    .line 9
     iput-boolean v1, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->f:Z
 
-    .line 10
     iget-object p4, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->p:Lcom/commsource/camera/widget/NestedScrollHLinearLayout$b;
 
     if-eqz p4, :cond_6
 
-    .line 11
     invoke-interface {p4, v1}, Lcom/commsource/camera/widget/NestedScrollHLinearLayout$b;->a(Z)V
 
     :cond_6
     if-lez p2, :cond_7
 
-    .line 12
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getScrollX()I
 
     move-result p4
@@ -539,13 +494,11 @@
 
     if-nez p4, :cond_7
 
-    .line 13
     invoke-virtual {p0, v2, v3}, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->scrollTo(II)V
 
     :cond_7
     if-gez p2, :cond_8
 
-    .line 14
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getScrollX()I
 
     move-result p2
@@ -558,10 +511,8 @@
 
     if-nez p1, :cond_8
 
-    .line 15
     invoke-virtual {p0, v2, v3}, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->scrollTo(II)V
 
-    .line 16
     :cond_8
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -579,7 +530,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -600,7 +550,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -613,10 +562,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/LinearLayout;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -637,7 +584,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of p2, p2, Landroidx/recyclerview/widget/RecyclerView;
 
     if-eqz p2, :cond_0
@@ -670,7 +616,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout$c;
 
     const/4 v1, 0x0
@@ -679,7 +624,6 @@
 
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->startAnimation(Landroid/view/animation/Animation;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -705,12 +649,10 @@
 
     const/16 p1, 0x190
 
-    .line 1
     :cond_1
     :goto_0
     invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->scrollTo(II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -723,10 +665,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout;->p:Lcom/commsource/camera/widget/NestedScrollHLinearLayout$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

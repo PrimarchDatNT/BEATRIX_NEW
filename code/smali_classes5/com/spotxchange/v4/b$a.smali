@@ -34,17 +34,14 @@
 .method public constructor <init>(Lcom/spotxchange/v4/b;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/b$a;->c:Lcom/spotxchange/v4/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/spotxchange/v4/b$a;->a:Ljava/lang/Object;
 
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lcom/spotxchange/v4/b$a;->b:Ljava/util/List;
 
     return-void
@@ -61,17 +58,14 @@
         }
     .end annotation
 
-    .line 4
     iput-object p1, p0, Lcom/spotxchange/v4/b$a;->c:Lcom/spotxchange/v4/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 5
     iput-object p1, p0, Lcom/spotxchange/v4/b$a;->a:Ljava/lang/Object;
 
-    .line 6
     iput-object p2, p0, Lcom/spotxchange/v4/b$a;->b:Ljava/util/List;
 
     return-void

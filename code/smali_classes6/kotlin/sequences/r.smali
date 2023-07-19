@@ -32,7 +32,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/s;->f0(Ljava/util/Enumeration;)Ljava/util/Iterator;
 
     move-result-object p0

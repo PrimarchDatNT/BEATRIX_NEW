@@ -31,46 +31,36 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x3e8
 
-    .line 2
     iput v0, p0, Lcom/meitu/library/analytics/gid/i;->a:I
 
     const/16 v0, 0xbb8
 
-    .line 3
     iput v0, p0, Lcom/meitu/library/analytics/gid/i;->b:I
 
     const/16 v0, 0x2710
 
-    .line 4
     iput v0, p0, Lcom/meitu/library/analytics/gid/i;->c:I
 
     const v0, 0xea60
 
-    .line 5
     iput v0, p0, Lcom/meitu/library/analytics/gid/i;->d:I
 
     const/16 v0, 0x7d0
 
-    .line 6
     iput v0, p0, Lcom/meitu/library/analytics/gid/i;->e:I
 
-    .line 7
     iput v0, p0, Lcom/meitu/library/analytics/gid/i;->f:I
 
-    .line 8
     iput v0, p0, Lcom/meitu/library/analytics/gid/i;->g:I
 
-    .line 9
     iput v0, p0, Lcom/meitu/library/analytics/gid/i;->h:I
 
     const/4 v0, 0x0
 
-    .line 10
     iput v0, p0, Lcom/meitu/library/analytics/gid/i;->i:I
 
     return-void
@@ -83,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/analytics/gid/i;->i()Z
 
     move-result v1
@@ -110,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/analytics/gid/i;->i()Z
 
     move-result v1
@@ -137,30 +125,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/gid/i;->j:Lcom/meitu/library/analytics/gid/i;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/library/analytics/gid/i;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/library/analytics/gid/i;->j:Lcom/meitu/library/analytics/gid/i;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/meitu/library/analytics/gid/i;
 
     invoke-direct {v2}, Lcom/meitu/library/analytics/gid/i;-><init>()V
 
     sput-object v2, Lcom/meitu/library/analytics/gid/i;->j:Lcom/meitu/library/analytics/gid/i;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -177,7 +160,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/library/analytics/gid/i;->j:Lcom/meitu/library/analytics/gid/i;
@@ -194,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/analytics/gid/i;->i()Z
 
     move-result v1
@@ -221,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/analytics/gid/i;->i()Z
 
     move-result v1
@@ -248,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
@@ -283,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/gid/i;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -298,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/gid/i;->i:I
 
     const/4 v2, 0x1
@@ -319,12 +296,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/meitu/library/analytics/gid/i;->c()I
 
@@ -334,7 +309,6 @@
 
     return v1
 
-    .line 4
     :cond_1
     invoke-direct {p0}, Lcom/meitu/library/analytics/gid/i;->g()I
 
@@ -344,7 +318,6 @@
 
     return v1
 
-    .line 5
     :cond_2
     invoke-direct {p0}, Lcom/meitu/library/analytics/gid/i;->f()I
 
@@ -354,7 +327,6 @@
 
     return v1
 
-    .line 6
     :cond_3
     invoke-direct {p0}, Lcom/meitu/library/analytics/gid/i;->b()I
 
@@ -372,7 +344,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/gid/i;->i:I
 
     const/4 v2, 0x1
@@ -403,10 +374,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput v1, p0, Lcom/meitu/library/analytics/gid/i;->i:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -419,14 +388,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/gid/i;->i:I
 
     add-int/lit8 v1, v1, 0x1
 
     iput v1, p0, Lcom/meitu/library/analytics/gid/i;->i:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

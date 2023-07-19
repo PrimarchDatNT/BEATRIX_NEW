@@ -38,10 +38,8 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lio/grpc/a;->b:Lio/grpc/a;
 
     iput-object v0, p0, Lio/grpc/t0$b$a;->b:Lio/grpc/a;
@@ -50,7 +48,6 @@
 
     new-array v0, v0, [I
 
-    .line 3
     fill-array-data v0, :array_0
 
     const-class v1, Ljava/lang/Object;
@@ -75,7 +72,6 @@
 .method static synthetic a(Lio/grpc/t0$b$a;[[Ljava/lang/Object;)Lio/grpc/t0$b$a;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/t0$b$a;->d([[Ljava/lang/Object;)Lio/grpc/t0$b$a;
 
     move-result-object p0
@@ -96,7 +92,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x2
@@ -121,7 +116,6 @@
 
     iput-object v0, p0, Lio/grpc/t0$b$a;->c:[[Ljava/lang/Object;
 
-    .line 2
     array-length v2, p1
 
     invoke-static {p1, v1, v0, v1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
@@ -146,19 +140,16 @@
 
     const-string v0, "key"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "value"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 v0, 0x0
 
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     iget-object v2, p0, Lio/grpc/t0$b$a;->c:[[Ljava/lang/Object;
 
@@ -168,7 +159,6 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 4
     aget-object v2, v2, v1
 
     aget-object v2, v2, v0
@@ -196,7 +186,6 @@
 
     if-ne v1, v4, :cond_2
 
-    .line 5
     iget-object v1, p0, Lio/grpc/t0$b$a;->c:[[Ljava/lang/Object;
 
     array-length v1, v1
@@ -217,22 +206,18 @@
 
     check-cast v1, [[Ljava/lang/Object;
 
-    .line 6
     iget-object v4, p0, Lio/grpc/t0$b$a;->c:[[Ljava/lang/Object;
 
     array-length v5, v4
 
     invoke-static {v4, v0, v1, v0, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 7
     iput-object v1, p0, Lio/grpc/t0$b$a;->c:[[Ljava/lang/Object;
 
-    .line 8
     array-length v1, v1
 
     sub-int/2addr v1, v3
 
-    .line 9
     :cond_2
     iget-object v4, p0, Lio/grpc/t0$b$a;->c:[[Ljava/lang/Object;
 
@@ -250,7 +235,6 @@
 .method public c()Lio/grpc/t0$b;
     .locals 5
 
-    .line 1
     new-instance v0, Lio/grpc/t0$b;
 
     iget-object v1, p0, Lio/grpc/t0$b$a;->a:Ljava/util/List;
@@ -269,7 +253,6 @@
 .method public e(Lio/grpc/u;)Lio/grpc/t0$b$a;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -291,7 +274,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -302,7 +284,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
@@ -321,7 +302,6 @@
 
     const-string v0, "attrs"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

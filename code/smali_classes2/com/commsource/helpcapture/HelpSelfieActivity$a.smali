@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/helpcapture/HelpSelfieActivity;Landroid/animation/ObjectAnimator;Landroid/animation/ObjectAnimator;Landroid/animation/ObjectAnimator;Landroid/animation/ObjectAnimator;Landroid/animation/ObjectAnimator;Landroid/animation/ObjectAnimator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
 
     iput-object p2, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->a:Landroid/animation/ObjectAnimator;
@@ -63,7 +62,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Landroid/animation/AnimatorSet;
 
     invoke-direct {v0}, Landroid/animation/AnimatorSet;-><init>()V
@@ -72,7 +70,6 @@
 
     new-array v1, v1, [Landroid/animation/Animator;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->a:Landroid/animation/ObjectAnimator;
 
     const/4 v3, 0x0
@@ -111,17 +108,14 @@
 
     invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->playTogether([Landroid/animation/Animator;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/helpcapture/HelpSelfieActivity$a$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/helpcapture/HelpSelfieActivity$a$a;-><init>(Lcom/commsource/helpcapture/HelpSelfieActivity$a;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 4
     invoke-virtual {v0}, Landroid/animation/AnimatorSet;->start()V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -134,7 +128,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
 
     invoke-static {v0}, Lcom/commsource/helpcapture/HelpSelfieActivity;->Z0(Lcom/commsource/helpcapture/HelpSelfieActivity;)Landroidx/databinding/ViewDataBinding;
@@ -149,7 +142,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
 
     invoke-static {v0}, Lcom/commsource/helpcapture/HelpSelfieActivity;->b1(Lcom/commsource/helpcapture/HelpSelfieActivity;)Landroidx/databinding/ViewDataBinding;
@@ -164,7 +156,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
 
     invoke-static {v0}, Lcom/commsource/helpcapture/HelpSelfieActivity;->e1(Lcom/commsource/helpcapture/HelpSelfieActivity;)Landroidx/databinding/ViewDataBinding;
@@ -181,7 +172,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

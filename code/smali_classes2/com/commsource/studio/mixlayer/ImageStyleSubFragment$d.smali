@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$d;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->D(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/beautyplus/f0/u8;
@@ -61,7 +60,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$d;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->D(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/beautyplus/f0/u8;
@@ -76,7 +74,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$d;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->B(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
@@ -91,7 +88,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

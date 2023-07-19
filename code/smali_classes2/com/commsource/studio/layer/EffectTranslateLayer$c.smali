@@ -25,7 +25,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/layer/EffectTranslateLayer$c;->a:Lcom/commsource/studio/layer/EffectTranslateLayer;
 
-    .line 1
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/EffectTranslateLayer$c;->a:Lcom/commsource/studio/layer/EffectTranslateLayer;
 
     invoke-virtual {v0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
@@ -55,7 +53,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/layer/EffectTranslateLayer$c;->a:Lcom/commsource/studio/layer/EffectTranslateLayer;
 
     invoke-virtual {v0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
@@ -64,7 +61,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

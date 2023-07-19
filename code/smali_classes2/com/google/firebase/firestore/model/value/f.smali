@@ -11,10 +11,8 @@
 .method private constructor <init>(Lcom/google/firebase/firestore/u;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/model/value/e;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/model/value/f;->M:Lcom/google/firebase/firestore/u;
 
     return-void
@@ -23,7 +21,6 @@
 .method public static p(Lcom/google/firebase/firestore/u;)Lcom/google/firebase/firestore/model/value/f;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/model/value/f;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/firestore/model/value/f;-><init>(Lcom/google/firebase/firestore/u;)V
@@ -36,12 +33,10 @@
 .method public a(Lcom/google/firebase/firestore/model/value/e;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/model/value/f;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/model/value/f;->M:Lcom/google/firebase/firestore/u;
 
     check-cast p1, Lcom/google/firebase/firestore/model/value/f;
@@ -54,7 +49,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/value/e;->f(Lcom/google/firebase/firestore/model/value/e;)I
 
@@ -66,7 +60,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/firebase/firestore/model/value/e;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/value/f;->a(Lcom/google/firebase/firestore/model/value/e;)I
@@ -79,7 +72,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/model/value/f;
 
     if-eqz v0, :cond_0
@@ -118,7 +110,6 @@
 .method public bridge synthetic h()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/value/f;->o()Lcom/google/firebase/firestore/u;
 
     move-result-object v0
@@ -129,7 +120,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/value/f;->M:Lcom/google/firebase/firestore/u;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/u;->hashCode()I
@@ -142,7 +132,6 @@
 .method public o()Lcom/google/firebase/firestore/u;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/value/f;->M:Lcom/google/firebase/firestore/u;
 
     return-object v0

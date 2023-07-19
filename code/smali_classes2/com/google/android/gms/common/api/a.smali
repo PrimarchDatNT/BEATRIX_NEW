@@ -84,34 +84,26 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Cannot construct an Api with a null ClientBuilder"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Cannot construct an Api with a null ClientKey"
 
-    .line 3
     invoke-static {p3, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/common/api/a;->e:Ljava/lang/String;
 
-    .line 5
     iput-object p2, p0, Lcom/google/android/gms/common/api/a;->a:Lcom/google/android/gms/common/api/a$a;
 
     const/4 p1, 0x0
 
-    .line 6
     iput-object p1, p0, Lcom/google/android/gms/common/api/a;->b:Lcom/google/android/gms/common/api/a$i;
 
-    .line 7
     iput-object p3, p0, Lcom/google/android/gms/common/api/a;->c:Lcom/google/android/gms/common/api/a$g;
 
-    .line 8
     iput-object p1, p0, Lcom/google/android/gms/common/api/a;->d:Lcom/google/android/gms/common/api/a$j;
 
     return-void
@@ -129,14 +121,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/a;->c:Lcom/google/android/gms/common/api/a$g;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -150,7 +140,6 @@
 .method public final b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/a;->e:Ljava/lang/String;
 
     return-object v0
@@ -166,7 +155,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/a;->a:Lcom/google/android/gms/common/api/a$a;
 
     return-object v0
@@ -182,7 +170,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/a;->a:Lcom/google/android/gms/common/api/a$a;
 
     if-eqz v0, :cond_0
@@ -199,7 +186,6 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/a;->a:Lcom/google/android/gms/common/api/a$a;
 
     return-object v0

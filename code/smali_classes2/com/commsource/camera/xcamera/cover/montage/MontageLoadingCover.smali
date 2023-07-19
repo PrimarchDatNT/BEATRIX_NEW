@@ -45,10 +45,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover$createMontageViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover$createMontageViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;)V
@@ -59,7 +57,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;->d:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover$bpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;)V
@@ -70,7 +67,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;->f:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover$cameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover$cameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;)V
@@ -81,7 +77,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;->g:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover$cameraConfigViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover$cameraConfigViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;)V
@@ -192,7 +187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;->H()Lcom/commsource/camera/xcamera/cover/montage/a;
 
     move-result-object v1
@@ -215,7 +209,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -232,7 +225,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -255,7 +247,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;->H()Lcom/commsource/camera/xcamera/cover/montage/a;
 
     move-result-object p1
@@ -264,7 +255,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/montage/a;->E(Z)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -281,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;->H()Lcom/commsource/camera/xcamera/cover/montage/a;
 
     move-result-object v1
@@ -290,7 +279,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/montage/a;->E(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -303,7 +291,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->cover_montage_loading:I
@@ -334,10 +321,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->t(Landroid/graphics/Rect;Landroid/graphics/Rect;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;->F()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object p1
@@ -348,7 +333,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -373,7 +357,6 @@
 
     invoke-static {p1, v2}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -389,7 +372,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -403,7 +385,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1
@@ -418,7 +399,6 @@
 
     invoke-virtual {v1, p0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -433,7 +413,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -447,7 +426,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;->H()Lcom/commsource/camera/xcamera/cover/montage/a;
 
     move-result-object v1
@@ -470,7 +448,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -49,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/internal/j;->a:Lcotlinx/coroutines/channels/c0;
@@ -79,7 +78,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/j;->a:Lcotlinx/coroutines/channels/c0;
 
     invoke-interface {v0, p1, p2}, Lcotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;

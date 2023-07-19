@@ -51,7 +51,6 @@
 .method static constructor <clinit>()V
     .locals 18
 
-    .line 1
     new-instance v0, Lcom/mopub/common/VideoEvent;
 
     const-string v1, "AD_PAUSED"
@@ -62,7 +61,6 @@
 
     sput-object v0, Lcom/mopub/common/VideoEvent;->AD_PAUSED:Lcom/mopub/common/VideoEvent;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/VideoEvent;
 
     const-string v3, "AD_RESUMED"
@@ -73,7 +71,6 @@
 
     sput-object v1, Lcom/mopub/common/VideoEvent;->AD_RESUMED:Lcom/mopub/common/VideoEvent;
 
-    .line 3
     new-instance v3, Lcom/mopub/common/VideoEvent;
 
     const-string v5, "AD_SKIPPED"
@@ -84,7 +81,6 @@
 
     sput-object v3, Lcom/mopub/common/VideoEvent;->AD_SKIPPED:Lcom/mopub/common/VideoEvent;
 
-    .line 4
     new-instance v5, Lcom/mopub/common/VideoEvent;
 
     const-string v7, "AD_IMPRESSED"
@@ -95,7 +91,6 @@
 
     sput-object v5, Lcom/mopub/common/VideoEvent;->AD_IMPRESSED:Lcom/mopub/common/VideoEvent;
 
-    .line 5
     new-instance v7, Lcom/mopub/common/VideoEvent;
 
     const-string v9, "AD_BUFFER_START"
@@ -106,7 +101,6 @@
 
     sput-object v7, Lcom/mopub/common/VideoEvent;->AD_BUFFER_START:Lcom/mopub/common/VideoEvent;
 
-    .line 6
     new-instance v9, Lcom/mopub/common/VideoEvent;
 
     const-string v11, "AD_BUFFER_END"
@@ -117,7 +111,6 @@
 
     sput-object v9, Lcom/mopub/common/VideoEvent;->AD_BUFFER_END:Lcom/mopub/common/VideoEvent;
 
-    .line 7
     new-instance v11, Lcom/mopub/common/VideoEvent;
 
     const-string v13, "AD_VIDEO_FIRST_QUARTILE"
@@ -128,7 +121,6 @@
 
     sput-object v11, Lcom/mopub/common/VideoEvent;->AD_VIDEO_FIRST_QUARTILE:Lcom/mopub/common/VideoEvent;
 
-    .line 8
     new-instance v13, Lcom/mopub/common/VideoEvent;
 
     const-string v15, "AD_VIDEO_MIDPOINT"
@@ -139,7 +131,6 @@
 
     sput-object v13, Lcom/mopub/common/VideoEvent;->AD_VIDEO_MIDPOINT:Lcom/mopub/common/VideoEvent;
 
-    .line 9
     new-instance v15, Lcom/mopub/common/VideoEvent;
 
     const-string v14, "AD_VIDEO_THIRD_QUARTILE"
@@ -150,7 +141,6 @@
 
     sput-object v15, Lcom/mopub/common/VideoEvent;->AD_VIDEO_THIRD_QUARTILE:Lcom/mopub/common/VideoEvent;
 
-    .line 10
     new-instance v14, Lcom/mopub/common/VideoEvent;
 
     const-string v12, "AD_COMPLETE"
@@ -161,7 +151,6 @@
 
     sput-object v14, Lcom/mopub/common/VideoEvent;->AD_COMPLETE:Lcom/mopub/common/VideoEvent;
 
-    .line 11
     new-instance v12, Lcom/mopub/common/VideoEvent;
 
     const-string v10, "AD_FULLSCREEN"
@@ -172,7 +161,6 @@
 
     sput-object v12, Lcom/mopub/common/VideoEvent;->AD_FULLSCREEN:Lcom/mopub/common/VideoEvent;
 
-    .line 12
     new-instance v10, Lcom/mopub/common/VideoEvent;
 
     const-string v8, "AD_NORMAL"
@@ -183,7 +171,6 @@
 
     sput-object v10, Lcom/mopub/common/VideoEvent;->AD_NORMAL:Lcom/mopub/common/VideoEvent;
 
-    .line 13
     new-instance v8, Lcom/mopub/common/VideoEvent;
 
     const-string v6, "AD_VOLUME_CHANGE"
@@ -194,7 +181,6 @@
 
     sput-object v8, Lcom/mopub/common/VideoEvent;->AD_VOLUME_CHANGE:Lcom/mopub/common/VideoEvent;
 
-    .line 14
     new-instance v6, Lcom/mopub/common/VideoEvent;
 
     const-string v4, "AD_CLICK_THRU"
@@ -205,7 +191,6 @@
 
     sput-object v6, Lcom/mopub/common/VideoEvent;->AD_CLICK_THRU:Lcom/mopub/common/VideoEvent;
 
-    .line 15
     new-instance v4, Lcom/mopub/common/VideoEvent;
 
     const-string v2, "RECORD_AD_ERROR"
@@ -280,7 +265,6 @@
 
     aput-object v4, v2, v6
 
-    .line 16
     sput-object v2, Lcom/mopub/common/VideoEvent;->$VALUES:[Lcom/mopub/common/VideoEvent;
 
     return-void
@@ -294,7 +278,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -303,7 +286,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/VideoEvent;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/VideoEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -318,7 +300,6 @@
 .method public static values()[Lcom/mopub/common/VideoEvent;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/VideoEvent;->$VALUES:[Lcom/mopub/common/VideoEvent;
 
     invoke-virtual {v0}, [Lcom/mopub/common/VideoEvent;->clone()Ljava/lang/Object;

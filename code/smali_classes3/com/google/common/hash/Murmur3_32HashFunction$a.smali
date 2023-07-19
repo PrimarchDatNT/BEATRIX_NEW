@@ -33,18 +33,14 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/hash/d;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->a:I
 
     const/4 p1, 0x0
 
-    .line 3
     iput p1, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->d:I
 
-    .line 4
     iput-boolean p1, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->e:Z
 
     return-void
@@ -53,7 +49,6 @@
 .method private o(IJ)V
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->b:J
 
     const-wide v2, 0xffffffffL
@@ -72,10 +67,8 @@
 
     add-int/2addr v2, v0
 
-    .line 2
     iput v2, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->c:I
 
-    .line 3
     iget v0, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->d:I
 
     add-int/2addr v0, p1
@@ -86,7 +79,6 @@
 
     if-lt v2, p1, :cond_0
 
-    .line 4
     iget v0, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->a:I
 
     long-to-int p3, p2
@@ -101,14 +93,12 @@
 
     iput p2, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->a:I
 
-    .line 5
     iget-wide p2, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->b:J
 
     ushr-long/2addr p2, p1
 
     iput-wide p2, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->b:J
 
-    .line 6
     iget p2, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->c:I
 
     sub-int/2addr p2, p1
@@ -128,7 +118,6 @@
 
     const/4 p1, 0x2
 
-    .line 2
     invoke-direct {p0, p1, v0, v1}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->o(IJ)V
 
     return-object p0
@@ -137,7 +126,6 @@
 .method public bridge synthetic c(C)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->c(C)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -154,7 +142,6 @@
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-direct {p0, p1, v0, v1}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->o(IJ)V
 
     return-object p0
@@ -163,7 +150,6 @@
 .method public bridge synthetic e(B)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->e(B)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -176,7 +162,6 @@
 
     add-int v0, p2, p3
 
-    .line 2
     array-length v1, p1
 
     invoke-static {p2, v0, v1}, Lcom/google/common/base/t;->f0(III)V
@@ -190,7 +175,6 @@
 
     add-int/2addr v0, p2
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/hash/Murmur3_32HashFunction;->access$200([BI)I
 
     move-result v0
@@ -211,7 +195,6 @@
 
     add-int v1, p2, v0
 
-    .line 4
     aget-byte v1, p1, v1
 
     invoke-virtual {p0, v1}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->e(B)Lcom/google/common/hash/j;
@@ -227,7 +210,6 @@
 .method public bridge synthetic g([BII)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->g([BII)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -238,7 +220,6 @@
 .method public hash()Lcom/google/common/hash/HashCode;
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->e:Z
 
     const/4 v1, 0x1
@@ -247,10 +228,8 @@
 
     invoke-static {v0}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 2
     iput-boolean v1, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->e:Z
 
-    .line 3
     iget v0, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->a:I
 
     iget-wide v1, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->b:J
@@ -265,7 +244,6 @@
 
     iput v0, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->a:I
 
-    .line 4
     iget v1, p0, Lcom/google/common/hash/Murmur3_32HashFunction$a;->d:I
 
     invoke-static {v0, v1}, Lcom/google/common/hash/Murmur3_32HashFunction;->access$600(II)Lcom/google/common/hash/HashCode;
@@ -278,17 +256,14 @@
 .method public j(Ljava/nio/ByteBuffer;)Lcom/google/common/hash/j;
     .locals 3
 
-    .line 2
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->order()Ljava/nio/ByteOrder;
 
     move-result-object v0
 
-    .line 3
     sget-object v1, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-virtual {p1, v1}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
-    .line 4
     :goto_0
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->remaining()I
 
@@ -298,7 +273,6 @@
 
     if-lt v1, v2, :cond_0
 
-    .line 5
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->getInt()I
 
     move-result v1
@@ -307,7 +281,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     :goto_1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->hasRemaining()Z
@@ -316,7 +289,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->get()B
 
     move-result v1
@@ -325,7 +297,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     invoke-virtual {p1, v0}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
@@ -335,7 +306,6 @@
 .method public bridge synthetic j(Ljava/nio/ByteBuffer;)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->j(Ljava/nio/ByteBuffer;)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -350,7 +320,6 @@
 
     const/4 p1, 0x4
 
-    .line 2
     invoke-direct {p0, p1, v0, v1}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->o(IJ)V
 
     return-object p0
@@ -359,7 +328,6 @@
 .method public bridge synthetic k(I)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->k(I)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -370,7 +338,6 @@
 .method public l(Ljava/lang/CharSequence;Ljava/nio/charset/Charset;)Lcom/google/common/hash/j;
     .locals 9
 
-    .line 2
     sget-object v0, Lcom/google/common/base/c;->c:Ljava/nio/charset/Charset;
 
     invoke-virtual {v0, p2}, Ljava/nio/charset/Charset;->equals(Ljava/lang/Object;)Z
@@ -379,7 +346,6 @@
 
     if-eqz v0, :cond_7
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
@@ -395,28 +361,24 @@
 
     if-gt v2, v0, :cond_0
 
-    .line 4
     invoke-interface {p1, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v5
 
     add-int/lit8 v6, v1, 0x1
 
-    .line 5
     invoke-interface {p1, v6}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v6
 
     add-int/lit8 v7, v1, 0x2
 
-    .line 6
     invoke-interface {p1, v7}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v7
 
     add-int/lit8 v8, v1, 0x3
 
-    .line 7
     invoke-interface {p1, v8}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v8
@@ -443,7 +405,6 @@
 
     int-to-long v4, v1
 
-    .line 8
     invoke-direct {p0, v3, v4, v5}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->o(IJ)V
 
     move v1, v2
@@ -454,7 +415,6 @@
     :goto_1
     if-ge v1, v0, :cond_6
 
-    .line 9
     invoke-interface {p1, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v2
@@ -465,7 +425,6 @@
 
     int-to-long v6, v2
 
-    .line 10
     invoke-direct {p0, v5, v6, v7}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->o(IJ)V
 
     goto :goto_3
@@ -475,7 +434,6 @@
 
     if-ge v2, v6, :cond_2
 
-    .line 11
     invoke-static {v2}, Lcom/google/common/hash/Murmur3_32HashFunction;->access$300(C)J
 
     move-result-wide v6
@@ -497,7 +455,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_3
     invoke-static {p1, v1}, Ljava/lang/Character;->codePointAt(Ljava/lang/CharSequence;I)I
 
@@ -505,7 +462,6 @@
 
     if-ne v6, v2, :cond_4
 
-    .line 13
     invoke-interface {p1, v1, v0}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
 
     move-result-object p1
@@ -525,7 +481,6 @@
     :cond_4
     add-int/lit8 v1, v1, 0x1
 
-    .line 14
     invoke-static {v6}, Lcom/google/common/hash/Murmur3_32HashFunction;->access$500(I)J
 
     move-result-wide v6
@@ -534,7 +489,6 @@
 
     goto :goto_3
 
-    .line 15
     :cond_5
     :goto_2
     invoke-static {v2}, Lcom/google/common/hash/Murmur3_32HashFunction;->access$400(C)J
@@ -553,7 +507,6 @@
     :cond_6
     return-object p0
 
-    .line 16
     :cond_7
     invoke-super {p0, p1, p2}, Lcom/google/common/hash/d;->l(Ljava/lang/CharSequence;Ljava/nio/charset/Charset;)Lcom/google/common/hash/j;
 
@@ -565,7 +518,6 @@
 .method public bridge synthetic l(Ljava/lang/CharSequence;Ljava/nio/charset/Charset;)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->l(Ljava/lang/CharSequence;Ljava/nio/charset/Charset;)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -582,14 +534,12 @@
 
     const/4 v2, 0x4
 
-    .line 2
     invoke-direct {p0, v2, v0, v1}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->o(IJ)V
 
     const/16 v0, 0x20
 
     ushr-long/2addr p1, v0
 
-    .line 3
     invoke-direct {p0, v2, p1, p2}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->o(IJ)V
 
     return-object p0
@@ -598,7 +548,6 @@
 .method public bridge synthetic m(J)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/hash/Murmur3_32HashFunction$a;->m(J)Lcom/google/common/hash/j;
 
     move-result-object p1

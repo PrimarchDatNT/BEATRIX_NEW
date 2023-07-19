@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/p/a/b0;Lcom/google/firebase/auth/p/a/q2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/p/a/b;->b:Lcom/google/firebase/auth/p/a/b0;
 
     iput-object p2, p0, Lcom/google/firebase/auth/p/a/b;->a:Lcom/google/firebase/auth/p/a/q2;
@@ -45,12 +44,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/auth/internal/m0;->b(Ljava/lang/String;)Lcom/google/android/gms/common/api/Status;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/b;->a:Lcom/google/firebase/auth/p/a/q2;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/auth/p/a/q2;->a(Lcom/google/android/gms/common/api/Status;)V
@@ -61,23 +58,18 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 8
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/l2;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/firebase_auth/zzes;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/l2;->b()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/l2;->a()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/l2;->c()J
 
     move-result-wide v3
@@ -90,10 +82,8 @@
 
     invoke-direct {v1, v0, v2, p1, v3}, Lcom/google/android/gms/internal/firebase_auth/zzes;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/b;->b:Lcom/google/firebase/auth/p/a/b0;
 
-    .line 7
     sget-object v4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     iget-object v6, p0, Lcom/google/firebase/auth/p/a/b;->a:Lcom/google/firebase/auth/p/a/q2;
@@ -106,7 +96,6 @@
 
     move-object v7, p0
 
-    .line 8
     invoke-static/range {v0 .. v7}, Lcom/google/firebase/auth/p/a/b0;->l(Lcom/google/firebase/auth/p/a/b0;Lcom/google/android/gms/internal/firebase_auth/zzes;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Lcom/google/firebase/auth/zzf;Lcom/google/firebase/auth/p/a/q2;Lcom/google/firebase/auth/p/a/v3;)V
 
     return-void

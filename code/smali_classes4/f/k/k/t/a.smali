@@ -17,23 +17,18 @@
 .method public constructor <init>(Lokhttp3/RequestBody;Lf/k/k/j;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lokhttp3/RequestBody;-><init>()V
 
     const-wide/16 v0, -0x1
 
-    .line 2
     iput-wide v0, p0, Lf/k/k/t/a;->b:J
 
     const-wide/16 v0, 0x0
 
-    .line 3
     iput-wide v0, p0, Lf/k/k/t/a;->c:J
 
-    .line 4
     iput-object p1, p0, Lf/k/k/t/a;->a:Lokhttp3/RequestBody;
 
-    .line 5
     iput-object p2, p0, Lf/k/k/t/a;->d:Lf/k/k/j;
 
     return-void
@@ -46,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lf/k/k/t/a;->b:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -61,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lf/k/k/t/a;->b:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -76,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/k/t/a;->d:Lf/k/k/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -91,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lf/k/k/t/a;->c:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -106,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lf/k/k/t/a;->c:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -128,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/k/t/a;->a:Lokhttp3/RequestBody;
 
     invoke-virtual {v1}, Lokhttp3/RequestBody;->contentLength()J
@@ -149,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/k/t/a;->a:Lokhttp3/RequestBody;
 
     invoke-virtual {v1}, Lokhttp3/RequestBody;->contentType()Lokhttp3/MediaType;
@@ -173,25 +161,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/k/t/a$a;
 
     invoke-direct {v1, p0, p1}, Lf/k/k/t/a$a;-><init>(Lf/k/k/t/a;Lokio/Sink;)V
 
-    .line 2
     invoke-static {v1}, Lokio/Okio;->buffer(Lokio/Sink;)Lokio/BufferedSink;
 
     move-result-object p1
 
-    .line 3
     iget-object v1, p0, Lf/k/k/t/a;->a:Lokhttp3/RequestBody;
 
     invoke-virtual {v1, p1}, Lokhttp3/RequestBody;->writeTo(Lokio/BufferedSink;)V
 
-    .line 4
     invoke-interface {p1}, Lokio/BufferedSink;->flush()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

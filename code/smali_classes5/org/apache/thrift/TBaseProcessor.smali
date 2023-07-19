@@ -56,13 +56,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/TBaseProcessor;->iface:Ljava/lang/Object;
 
-    .line 3
     iput-object p2, p0, Lorg/apache/thrift/TBaseProcessor;->processMap:Ljava/util/Map;
 
     return-void
@@ -84,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/TBaseProcessor;->processMap:Ljava/util/Map;
 
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
@@ -102,12 +98,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readMessageBegin()Lorg/apache/thrift/protocol/TMessage;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lorg/apache/thrift/TBaseProcessor;->processMap:Ljava/util/Map;
 
     iget-object v2, v0, Lorg/apache/thrift/protocol/TMessage;->name:Ljava/lang/String;
@@ -124,13 +118,10 @@
 
     const/16 v1, 0xc
 
-    .line 3
     invoke-static {p1, v1}, Lorg/apache/thrift/protocol/TProtocolUtil;->skip(Lorg/apache/thrift/protocol/TProtocol;B)V
 
-    .line 4
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readMessageEnd()V
 
-    .line 5
     new-instance p1, Lorg/apache/thrift/TApplicationException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -155,7 +146,6 @@
 
     invoke-direct {p1, v2, v1}, Lorg/apache/thrift/TApplicationException;-><init>(ILjava/lang/String;)V
 
-    .line 6
     new-instance v1, Lorg/apache/thrift/protocol/TMessage;
 
     iget-object v3, v0, Lorg/apache/thrift/protocol/TMessage;->name:Ljava/lang/String;
@@ -168,13 +158,10 @@
 
     invoke-virtual {p2, v1}, Lorg/apache/thrift/protocol/TProtocol;->writeMessageBegin(Lorg/apache/thrift/protocol/TMessage;)V
 
-    .line 7
     invoke-virtual {p1, p2}, Lorg/apache/thrift/TApplicationException;->write(Lorg/apache/thrift/protocol/TProtocol;)V
 
-    .line 8
     invoke-virtual {p2}, Lorg/apache/thrift/protocol/TProtocol;->writeMessageEnd()V
 
-    .line 9
     invoke-virtual {p2}, Lorg/apache/thrift/protocol/TProtocol;->getTransport()Lorg/apache/thrift/transport/TTransport;
 
     move-result-object p1
@@ -183,7 +170,6 @@
 
     return v2
 
-    .line 10
     :cond_0
     iget v0, v0, Lorg/apache/thrift/protocol/TMessage;->seqid:I
 

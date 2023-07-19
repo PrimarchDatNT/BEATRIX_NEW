@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/ExecutionSequencer;Lcom/google/common/util/concurrent/g0;Ljava/util/concurrent/Executor;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$c;->c:Lcom/google/common/util/concurrent/ExecutionSequencer;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$c;->a:Lcom/google/common/util/concurrent/g0;
@@ -46,7 +45,6 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$c;->a:Lcom/google/common/util/concurrent/g0;
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$c;->b:Ljava/util/concurrent/Executor;

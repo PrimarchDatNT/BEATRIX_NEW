@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/mtmvcore/backend/android/r/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/r/b$a;->a:Lcom/meitu/mtmvcore/backend/android/r/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/b$a;->a:Lcom/meitu/mtmvcore/backend/android/r/b;
 
     invoke-static {v1}, Lcom/meitu/mtmvcore/backend/android/r/b;->a(Lcom/meitu/mtmvcore/backend/android/r/b;)Ljava/lang/Object;
@@ -51,7 +49,6 @@
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/b$a;->a:Lcom/meitu/mtmvcore/backend/android/r/b;
 
@@ -69,7 +66,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/b$a;->a:Lcom/meitu/mtmvcore/backend/android/r/b;
 
@@ -79,7 +75,6 @@
 
     invoke-interface {v2}, Lcom/meitu/mtmvcore/backend/android/r/c;->saveCurrentFrame()Z
 
-    .line 4
     invoke-static {}, Lcom/meitu/mtmvcore/backend/android/r/b;->c()Landroid/os/Handler;
 
     move-result-object v2
@@ -96,7 +91,6 @@
 
     move-result-object v2
 
-    .line 5
     invoke-static {}, Lcom/meitu/mtmvcore/backend/android/r/b;->c()Landroid/os/Handler;
 
     move-result-object v3
@@ -105,17 +99,14 @@
 
     invoke-virtual {v3, v2, v4, v5}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
-    .line 6
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     :goto_0
     :try_start_1
@@ -127,7 +118,6 @@
 
     invoke-static {v2, v3}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -139,7 +129,6 @@
     :catchall_0
     move-exception v2
 
-    .line 10
     :try_start_2
     monitor-exit v1
     :try_end_2

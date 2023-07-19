@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/crash/BuglyBroadcastReceiver;Lcom/tencent/bugly/crashreport/crash/BuglyBroadcastReceiver;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/crash/BuglyBroadcastReceiver$a;->b:Lcom/tencent/bugly/crashreport/crash/BuglyBroadcastReceiver;
 
     iput-object p2, p0, Lcom/tencent/bugly/crashreport/crash/BuglyBroadcastReceiver$a;->a:Lcom/tencent/bugly/crashreport/crash/BuglyBroadcastReceiver;
@@ -42,7 +41,6 @@
 .method public final run()V
     .locals 6
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/tencent/bugly/crashreport/crash/BuglyBroadcastReceiver;->a()Lcom/tencent/bugly/crashreport/crash/BuglyBroadcastReceiver;
 
@@ -60,14 +58,12 @@
 
     invoke-static {v0, v1, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/crash/BuglyBroadcastReceiver$a;->a:Lcom/tencent/bugly/crashreport/crash/BuglyBroadcastReceiver;
 
     monitor-enter v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 3
     :try_start_1
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/crash/BuglyBroadcastReceiver$a;->b:Lcom/tencent/bugly/crashreport/crash/BuglyBroadcastReceiver;
 
@@ -91,7 +87,6 @@
 
     invoke-virtual {v1, v2, v3, v4, v5}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;Ljava/lang/String;Landroid/os/Handler;)Landroid/content/Intent;
 
-    .line 4
     monitor-exit v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -111,7 +106,6 @@
     :catchall_1
     move-exception v0
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_0

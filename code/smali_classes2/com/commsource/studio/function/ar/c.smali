@@ -44,10 +44,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_ar_group:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
@@ -100,12 +98,10 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super/range {p0 .. p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_e
 
-    .line 2
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v2
@@ -114,7 +110,6 @@
 
     if-eqz v2, :cond_e
 
-    .line 3
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v2
@@ -151,14 +146,12 @@
 
     if-eqz p3, :cond_1
 
-    .line 4
     invoke-interface/range {p3 .. p3}, Ljava/util/List;->isEmpty()Z
 
     move-result v10
 
     if-eqz v10, :cond_9
 
-    .line 5
     :cond_1
     iget-object v10, v0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -182,7 +175,6 @@
 
     invoke-virtual {v10, v11}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 6
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v10
@@ -225,7 +217,6 @@
 
     if-eq v10, v5, :cond_5
 
-    .line 7
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v10
@@ -240,7 +231,6 @@
 
     if-ne v10, v7, :cond_3
 
-    .line 8
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v10, v10, Lcom/commsource/beautyplus/f0/cd;->d:Landroid/widget/LinearLayout;
@@ -267,21 +257,18 @@
     :goto_1
     invoke-virtual {v10, v14, v4, v13, v4}, Landroid/widget/LinearLayout;->setPadding(IIII)V
 
-    .line 9
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v10, v10, Lcom/commsource/beautyplus/f0/cd;->c:Landroid/view/View;
 
     invoke-static {v10, v4}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 10
     iget-object v10, v0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {v10}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
 
     move-result-object v10
 
-    .line 11
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v13
@@ -298,19 +285,16 @@
 
     move-result-object v10
 
-    .line 12
     invoke-virtual {v10, v11}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object v10
 
-    .line 13
     iget-object v11, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v11, v11, Lcom/commsource/beautyplus/f0/cd;->b:Lcom/commsource/widget/SelectImageView;
 
     invoke-virtual {v10, v11}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 14
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v10, v10, Lcom/commsource/beautyplus/f0/cd;->b:Lcom/commsource/widget/SelectImageView;
@@ -319,7 +303,6 @@
 
     invoke-virtual {v10, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 15
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->f:Lcom/commsource/widget/BoldTextView;
@@ -328,7 +311,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 16
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->a:Lcom/commsource/widget/IconFrontView;
@@ -339,7 +321,6 @@
 
     goto/16 :goto_5
 
-    .line 17
     :cond_3
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
@@ -365,14 +346,12 @@
     :goto_2
     invoke-virtual {v10, v11, v4, v13, v4}, Landroid/widget/LinearLayout;->setPadding(IIII)V
 
-    .line 18
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v10, v10, Lcom/commsource/beautyplus/f0/cd;->c:Landroid/view/View;
 
     invoke-static {v10, v4}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 19
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v10, v10, Lcom/commsource/beautyplus/f0/cd;->a:Lcom/commsource/widget/IconFrontView;
@@ -391,7 +370,6 @@
 
     invoke-virtual {v10, v11}, Landroid/widget/TextView;->setText(I)V
 
-    .line 20
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v10, v10, Lcom/commsource/beautyplus/f0/cd;->b:Lcom/commsource/widget/SelectImageView;
@@ -400,7 +378,6 @@
 
     invoke-virtual {v10, v8}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 21
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->f:Lcom/commsource/widget/BoldTextView;
@@ -409,7 +386,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 22
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->f:Lcom/commsource/widget/BoldTextView;
@@ -434,7 +410,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 23
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->a:Lcom/commsource/widget/IconFrontView;
@@ -445,7 +420,6 @@
 
     goto/16 :goto_5
 
-    .line 24
     :cond_5
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -461,7 +435,6 @@
 
     if-eqz v10, :cond_7
 
-    .line 25
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v10, v10, Lcom/commsource/beautyplus/f0/cd;->d:Landroid/widget/LinearLayout;
@@ -481,7 +454,6 @@
 
     invoke-virtual {v10, v13, v4, v14, v4}, Landroid/widget/LinearLayout;->setPadding(IIII)V
 
-    .line 26
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v10, v10, Lcom/commsource/beautyplus/f0/cd;->c:Landroid/view/View;
@@ -496,14 +468,12 @@
 
     invoke-static {v10, v13}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 27
     iget-object v10, v0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {v10}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
 
     move-result-object v10
 
-    .line 28
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v13
@@ -518,19 +488,16 @@
 
     move-result-object v10
 
-    .line 29
     invoke-virtual {v10, v11}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object v10
 
-    .line 30
     iget-object v11, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v11, v11, Lcom/commsource/beautyplus/f0/cd;->b:Lcom/commsource/widget/SelectImageView;
 
     invoke-virtual {v10, v11}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 31
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v10, v10, Lcom/commsource/beautyplus/f0/cd;->b:Lcom/commsource/widget/SelectImageView;
@@ -539,7 +506,6 @@
 
     invoke-virtual {v10, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 32
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->f:Lcom/commsource/widget/BoldTextView;
@@ -548,7 +514,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 33
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->c:Landroid/view/View;
@@ -563,7 +528,6 @@
 
     goto :goto_4
 
-    .line 34
     :cond_7
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
@@ -589,14 +553,12 @@
     :goto_3
     invoke-virtual {v10, v11, v4, v13, v4}, Landroid/widget/LinearLayout;->setPadding(IIII)V
 
-    .line 35
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v10, v10, Lcom/commsource/beautyplus/f0/cd;->c:Landroid/view/View;
 
     invoke-static {v10, v4}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 36
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v10, v10, Lcom/commsource/beautyplus/f0/cd;->f:Lcom/commsource/widget/BoldTextView;
@@ -615,7 +577,6 @@
 
     invoke-virtual {v10, v11}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 37
     iget-object v10, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v10, v10, Lcom/commsource/beautyplus/f0/cd;->f:Lcom/commsource/widget/BoldTextView;
@@ -624,7 +585,6 @@
 
     invoke-virtual {v10, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 38
     iget-object v3, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/cd;->b:Lcom/commsource/widget/SelectImageView;
@@ -633,7 +593,6 @@
 
     invoke-virtual {v3, v8}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 39
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->c:Landroid/view/View;
@@ -646,7 +605,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 40
     :goto_4
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
@@ -656,7 +614,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 41
     :cond_9
     :goto_5
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -709,21 +666,18 @@
 
     if-eq v1, v5, :cond_b
 
-    .line 42
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result v1
 
     if-eqz v1, :cond_a
 
-    .line 43
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->f:Lcom/commsource/widget/BoldTextView;
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/BoldTextView;->setStrokeWidth(F)V
 
-    .line 44
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->a:Lcom/commsource/widget/IconFrontView;
@@ -734,7 +688,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 45
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->f:Lcom/commsource/widget/BoldTextView;
@@ -747,7 +700,6 @@
 
     goto :goto_6
 
-    .line 46
     :cond_a
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
@@ -755,7 +707,6 @@
 
     invoke-virtual {v1, v10}, Lcom/commsource/widget/BoldTextView;->setStrokeWidth(F)V
 
-    .line 47
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->a:Lcom/commsource/widget/IconFrontView;
@@ -766,7 +717,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 48
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->f:Lcom/commsource/widget/BoldTextView;
@@ -779,7 +729,6 @@
 
     goto :goto_6
 
-    .line 49
     :cond_b
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/widget/h1/d;->g()Z
 
@@ -787,21 +736,18 @@
 
     if-eqz v1, :cond_c
 
-    .line 50
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->f:Lcom/commsource/widget/BoldTextView;
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/BoldTextView;->setStrokeWidth(F)V
 
-    .line 51
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->b:Lcom/commsource/widget/SelectImageView;
 
     invoke-virtual {v1, v4}, Lcom/commsource/widget/SelectImageView;->setSelectState(I)V
 
-    .line 52
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->f:Lcom/commsource/widget/BoldTextView;
@@ -814,7 +760,6 @@
 
     goto :goto_6
 
-    .line 53
     :cond_c
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
@@ -822,7 +767,6 @@
 
     invoke-virtual {v1, v10}, Lcom/commsource/widget/BoldTextView;->setStrokeWidth(F)V
 
-    .line 54
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->b:Lcom/commsource/widget/SelectImageView;
@@ -831,7 +775,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/SelectImageView;->setSelectState(I)V
 
-    .line 55
     iget-object v1, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cd;->f:Lcom/commsource/widget/BoldTextView;
@@ -847,7 +790,6 @@
 
     if-eqz v2, :cond_d
 
-    .line 56
     iget-object v2, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/cd;->c:Landroid/view/View;
@@ -858,7 +800,6 @@
 
     goto :goto_7
 
-    .line 57
     :cond_d
     iget-object v2, v0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
@@ -872,7 +813,6 @@
     :goto_7
     const/16 v1, 0x1295
 
-    .line 58
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -887,7 +827,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/c;->p:Lcom/commsource/beautyplus/f0/cd;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/biz/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/biz/a$b;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final run()V
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/biz/a$b;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
@@ -51,7 +49,6 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     return-void

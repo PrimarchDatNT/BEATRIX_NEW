@@ -11,10 +11,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/c2;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/measurement/f2;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/f2;-><init>()V
@@ -33,10 +31,8 @@
 
     const-string v0, "The suppressed exception cannot be null."
 
-    .line 1
     invoke-static {p2, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/g2;->b:Lcom/google/android/gms/internal/measurement/f2;
 
     const/4 v1, 0x1
@@ -49,7 +45,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

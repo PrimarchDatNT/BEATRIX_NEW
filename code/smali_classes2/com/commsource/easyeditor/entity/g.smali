@@ -167,7 +167,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/commsource/easyeditor/entity/g;->q:[I
@@ -176,7 +175,6 @@
 
     new-array v1, v1, [I
 
-    .line 2
     fill-array-data v1, :array_1
 
     sput-object v1, Lcom/commsource/easyeditor/entity/g;->r:[I
@@ -185,14 +183,12 @@
 
     new-array v2, v1, [I
 
-    .line 3
     fill-array-data v2, :array_2
 
     sput-object v2, Lcom/commsource/easyeditor/entity/g;->s:[I
 
     new-array v1, v1, [I
 
-    .line 4
     fill-array-data v1, :array_3
 
     sput-object v1, Lcom/commsource/easyeditor/entity/g;->t:[I
@@ -201,14 +197,12 @@
 
     new-array v2, v1, [I
 
-    .line 5
     fill-array-data v2, :array_4
 
     sput-object v2, Lcom/commsource/easyeditor/entity/g;->u:[I
 
     new-array v1, v1, [I
 
-    .line 6
     fill-array-data v1, :array_5
 
     sput-object v1, Lcom/commsource/easyeditor/entity/g;->v:[I
@@ -217,14 +211,12 @@
 
     new-array v2, v1, [I
 
-    .line 7
     fill-array-data v2, :array_6
 
     sput-object v2, Lcom/commsource/easyeditor/entity/g;->w:[I
 
     new-array v1, v1, [I
 
-    .line 8
     fill-array-data v1, :array_7
 
     sput-object v1, Lcom/commsource/easyeditor/entity/g;->x:[I
@@ -233,7 +225,6 @@
 
     new-array v1, v1, [I
 
-    .line 9
     fill-array-data v1, :array_8
 
     sput-object v1, Lcom/commsource/easyeditor/entity/g;->y:[I
@@ -242,7 +233,6 @@
 
     new-array v1, v1, [I
 
-    .line 10
     fill-array-data v1, :array_9
 
     sput-object v1, Lcom/commsource/easyeditor/entity/g;->z:[I
@@ -427,30 +417,24 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/easyeditor/entity/g;->l:Landroid/util/SparseArray;
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/easyeditor/entity/g;->f(Ljava/util/List;)Landroid/graphics/RectF;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/easyeditor/entity/g;->k:Landroid/graphics/RectF;
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/commsource/easyeditor/entity/g;->l(Ljava/util/List;)V
 
-    .line 5
     iput p3, p0, Lcom/commsource/easyeditor/entity/g;->n:I
 
-    .line 6
     iput p2, p0, Lcom/commsource/easyeditor/entity/g;->m:I
 
     return-void
@@ -472,14 +456,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, v2, v2, v2, v2}, Landroid/graphics/RectF;->set(FFFF)V
 
     const/high16 v3, 0x4f000000
@@ -499,35 +481,30 @@
 
     if-ge v6, v7, :cond_0
 
-    .line 3
     invoke-interface {p0, v6}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, Landroid/graphics/PointF;
 
-    .line 4
     iget v8, v7, Landroid/graphics/PointF;->x:F
 
     invoke-static {v4, v8}, Ljava/lang/Math;->min(FF)F
 
     move-result v4
 
-    .line 5
     iget v8, v7, Landroid/graphics/PointF;->x:F
 
     invoke-static {v2, v8}, Ljava/lang/Math;->max(FF)F
 
     move-result v2
 
-    .line 6
     iget v8, v7, Landroid/graphics/PointF;->y:F
 
     invoke-static {v5, v8}, Ljava/lang/Math;->min(FF)F
 
     move-result v5
 
-    .line 7
     iget v7, v7, Landroid/graphics/PointF;->y:F
 
     invoke-static {v3, v7}, Ljava/lang/Math;->max(FF)F
@@ -538,11 +515,9 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {v1, v4, v5, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -565,7 +540,6 @@
 
     if-eqz p1, :cond_f
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -577,7 +551,6 @@
     :cond_0
     const/4 v1, 0x2
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -604,7 +577,6 @@
 
     const/16 v3, 0xd
 
-    .line 3
     invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -627,7 +599,6 @@
 
     div-float/2addr v3, v2
 
-    .line 4
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
@@ -638,7 +609,6 @@
 
     const/4 v4, 0x0
 
-    .line 5
     :goto_0
     sget-object v5, Lcom/commsource/easyeditor/entity/g;->u:[I
 
@@ -648,12 +618,10 @@
 
     if-ge v4, v6, :cond_2
 
-    .line 6
     new-instance v6, Landroid/graphics/PointF;
 
     invoke-direct {v6}, Landroid/graphics/PointF;-><init>()V
 
-    .line 7
     aget v5, v5, v4
 
     invoke-interface {p1, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -664,7 +632,6 @@
 
     if-ge v4, v7, :cond_1
 
-    .line 8
     iget v7, v5, Landroid/graphics/PointF;->x:F
 
     iget v5, v5, Landroid/graphics/PointF;->y:F
@@ -675,11 +642,9 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     invoke-virtual {v6, v5}, Landroid/graphics/PointF;->set(Landroid/graphics/PointF;)V
 
-    .line 10
     :goto_1
     iget-object v5, p0, Lcom/commsource/easyeditor/entity/g;->a:Ljava/util/List;
 
@@ -689,7 +654,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     new-instance v4, Ljava/util/ArrayList;
 
@@ -699,7 +663,6 @@
 
     const/4 v4, 0x0
 
-    .line 12
     :goto_2
     sget-object v5, Lcom/commsource/easyeditor/entity/g;->v:[I
 
@@ -707,12 +670,10 @@
 
     if-ge v4, v6, :cond_4
 
-    .line 13
     new-instance v6, Landroid/graphics/PointF;
 
     invoke-direct {v6}, Landroid/graphics/PointF;-><init>()V
 
-    .line 14
     aget v5, v5, v4
 
     invoke-interface {p1, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -723,7 +684,6 @@
 
     if-ge v4, v7, :cond_3
 
-    .line 15
     iget v8, v5, Landroid/graphics/PointF;->x:F
 
     iget v5, v5, Landroid/graphics/PointF;->y:F
@@ -734,11 +694,9 @@
 
     goto :goto_3
 
-    .line 16
     :cond_3
     invoke-virtual {v6, v5}, Landroid/graphics/PointF;->set(Landroid/graphics/PointF;)V
 
-    .line 17
     :goto_3
     iget-object v5, p0, Lcom/commsource/easyeditor/entity/g;->b:Ljava/util/List;
 
@@ -748,7 +706,6 @@
 
     goto :goto_2
 
-    .line 18
     :cond_4
     new-instance v4, Ljava/util/ArrayList;
 
@@ -758,7 +715,6 @@
 
     const/4 v4, 0x0
 
-    .line 19
     :goto_4
     sget-object v5, Lcom/commsource/easyeditor/entity/g;->s:[I
 
@@ -766,12 +722,10 @@
 
     if-ge v4, v6, :cond_6
 
-    .line 20
     new-instance v6, Landroid/graphics/PointF;
 
     invoke-direct {v6}, Landroid/graphics/PointF;-><init>()V
 
-    .line 21
     aget v5, v5, v4
 
     invoke-interface {p1, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -782,7 +736,6 @@
 
     if-ge v4, v7, :cond_5
 
-    .line 22
     iget v8, v5, Landroid/graphics/PointF;->x:F
 
     iget v5, v5, Landroid/graphics/PointF;->y:F
@@ -793,11 +746,9 @@
 
     goto :goto_5
 
-    .line 23
     :cond_5
     invoke-virtual {v6, v5}, Landroid/graphics/PointF;->set(Landroid/graphics/PointF;)V
 
-    .line 24
     :goto_5
     iget-object v5, p0, Lcom/commsource/easyeditor/entity/g;->g:Ljava/util/List;
 
@@ -807,7 +758,6 @@
 
     goto :goto_4
 
-    .line 25
     :cond_6
     new-instance v1, Ljava/util/ArrayList;
 
@@ -817,7 +767,6 @@
 
     const/4 v1, 0x0
 
-    .line 26
     :goto_6
     sget-object v4, Lcom/commsource/easyeditor/entity/g;->t:[I
 
@@ -825,12 +774,10 @@
 
     if-ge v1, v5, :cond_8
 
-    .line 27
     new-instance v5, Landroid/graphics/PointF;
 
     invoke-direct {v5}, Landroid/graphics/PointF;-><init>()V
 
-    .line 28
     aget v4, v4, v1
 
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -841,7 +788,6 @@
 
     if-ge v1, v7, :cond_7
 
-    .line 29
     iget v6, v4, Landroid/graphics/PointF;->x:F
 
     iget v4, v4, Landroid/graphics/PointF;->y:F
@@ -852,11 +798,9 @@
 
     goto :goto_7
 
-    .line 30
     :cond_7
     invoke-virtual {v5, v4}, Landroid/graphics/PointF;->set(Landroid/graphics/PointF;)V
 
-    .line 31
     :goto_7
     iget-object v4, p0, Lcom/commsource/easyeditor/entity/g;->h:Ljava/util/List;
 
@@ -866,7 +810,6 @@
 
     goto :goto_6
 
-    .line 32
     :cond_8
     new-instance v1, Ljava/util/ArrayList;
 
@@ -876,7 +819,6 @@
 
     const/4 v1, 0x0
 
-    .line 33
     :goto_8
     sget-object v3, Lcom/commsource/easyeditor/entity/g;->w:[I
 
@@ -884,7 +826,6 @@
 
     if-ge v1, v4, :cond_9
 
-    .line 34
     iget-object v4, p0, Lcom/commsource/easyeditor/entity/g;->c:Ljava/util/List;
 
     aget v3, v3, v1
@@ -899,7 +840,6 @@
 
     goto :goto_8
 
-    .line 35
     :cond_9
     new-instance v1, Ljava/util/ArrayList;
 
@@ -909,7 +849,6 @@
 
     const/4 v1, 0x0
 
-    .line 36
     :goto_9
     sget-object v3, Lcom/commsource/easyeditor/entity/g;->x:[I
 
@@ -917,7 +856,6 @@
 
     if-ge v1, v4, :cond_a
 
-    .line 37
     iget-object v4, p0, Lcom/commsource/easyeditor/entity/g;->d:Ljava/util/List;
 
     aget v3, v3, v1
@@ -932,7 +870,6 @@
 
     goto :goto_9
 
-    .line 38
     :cond_a
     new-instance v1, Ljava/util/ArrayList;
 
@@ -942,7 +879,6 @@
 
     const/4 v1, 0x0
 
-    .line 39
     :goto_a
     sget-object v3, Lcom/commsource/easyeditor/entity/g;->q:[I
 
@@ -950,7 +886,6 @@
 
     if-ge v1, v4, :cond_b
 
-    .line 40
     iget-object v4, p0, Lcom/commsource/easyeditor/entity/g;->e:Ljava/util/List;
 
     aget v3, v3, v1
@@ -965,7 +900,6 @@
 
     goto :goto_a
 
-    .line 41
     :cond_b
     new-instance v1, Ljava/util/ArrayList;
 
@@ -975,7 +909,6 @@
 
     const/4 v1, 0x0
 
-    .line 42
     :goto_b
     sget-object v3, Lcom/commsource/easyeditor/entity/g;->r:[I
 
@@ -983,7 +916,6 @@
 
     if-ge v1, v4, :cond_c
 
-    .line 43
     iget-object v4, p0, Lcom/commsource/easyeditor/entity/g;->f:Ljava/util/List;
 
     aget v3, v3, v1
@@ -998,7 +930,6 @@
 
     goto :goto_b
 
-    .line 44
     :cond_c
     new-instance v1, Ljava/util/ArrayList;
 
@@ -1008,7 +939,6 @@
 
     const/4 v1, 0x0
 
-    .line 45
     :goto_c
     sget-object v3, Lcom/commsource/easyeditor/entity/g;->y:[I
 
@@ -1016,7 +946,6 @@
 
     if-ge v1, v4, :cond_d
 
-    .line 46
     iget-object v4, p0, Lcom/commsource/easyeditor/entity/g;->i:Ljava/util/List;
 
     aget v3, v3, v1
@@ -1031,7 +960,6 @@
 
     goto :goto_c
 
-    .line 47
     :cond_d
     new-instance v1, Ljava/util/ArrayList;
 
@@ -1039,7 +967,6 @@
 
     iput-object v1, p0, Lcom/commsource/easyeditor/entity/g;->j:Ljava/util/List;
 
-    .line 48
     :goto_d
     sget-object v1, Lcom/commsource/easyeditor/entity/g;->z:[I
 
@@ -1047,7 +974,6 @@
 
     if-ge v2, v3, :cond_e
 
-    .line 49
     iget-object v3, p0, Lcom/commsource/easyeditor/entity/g;->j:Ljava/util/List;
 
     aget v1, v1, v2
@@ -1062,13 +988,11 @@
 
     goto :goto_d
 
-    .line 50
     :cond_e
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 51
     :cond_f
     :goto_e
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1091,19 +1015,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/easyeditor/entity/g;->l:Landroid/util/SparseArray;
 
-    .line 2
     new-instance v2, Landroid/graphics/PointF;
 
     const/16 v3, 0x1e
 
-    .line 3
     invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -1140,7 +1061,6 @@
 
     const/16 v5, 0x21
 
-    .line 4
     invoke-interface {p1, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -1177,10 +1097,8 @@
 
     const/4 v4, 0x0
 
-    .line 5
     invoke-virtual {v1, v4, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->l:Landroid/util/SparseArray;
 
     const/16 v2, 0xa9
@@ -1193,7 +1111,6 @@
 
     invoke-virtual {v1, v4, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->l:Landroid/util/SparseArray;
 
     const/16 v2, 0x8e
@@ -1206,14 +1123,12 @@
 
     invoke-virtual {v1, v4, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->l:Landroid/util/SparseArray;
 
     new-instance v2, Landroid/graphics/PointF;
 
     const/16 v4, 0x2c
 
-    .line 9
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -1248,7 +1163,6 @@
 
     const/16 v4, 0x29
 
-    .line 10
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -1285,10 +1199,8 @@
 
     const/4 v3, 0x3
 
-    .line 11
     invoke-virtual {v1, v3, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->l:Landroid/util/SparseArray;
 
     const/16 v2, 0x45
@@ -1301,7 +1213,6 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->l:Landroid/util/SparseArray;
 
     const/16 v2, 0x6e
@@ -1314,7 +1225,6 @@
 
     invoke-virtual {v1, v2, p1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1329,7 +1239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/g;->n:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1344,7 +1253,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/g;->m:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1367,7 +1275,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->p:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1390,7 +1297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->l:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1405,7 +1311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->k:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1420,7 +1325,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/easyeditor/entity/g;->o:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1437,7 +1341,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->k:Landroid/graphics/RectF;
 
     iget v2, p1, Landroid/graphics/PointF;->x:F
@@ -1452,12 +1355,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->f:Ljava/util/List;
 
@@ -1469,12 +1370,10 @@
 
     const/4 p1, 0x4
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->e:Ljava/util/List;
 
@@ -1486,12 +1385,10 @@
 
     const/4 p1, 0x3
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->a:Ljava/util/List;
 
@@ -1503,7 +1400,6 @@
 
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->b:Ljava/util/List;
 
-    .line 8
     invoke-static {p1, v1}, Lcom/commsource/util/common/i;->w(Landroid/graphics/PointF;Ljava/util/List;)Z
 
     move-result v1
@@ -1512,7 +1408,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_3
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->g:Ljava/util/List;
 
@@ -1524,7 +1419,6 @@
 
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->h:Ljava/util/List;
 
-    .line 10
     invoke-static {p1, v1}, Lcom/commsource/util/common/i;->w(Landroid/graphics/PointF;Ljava/util/List;)Z
 
     move-result v1
@@ -1533,7 +1427,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_4
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->c:Ljava/util/List;
 
@@ -1545,7 +1438,6 @@
 
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->d:Ljava/util/List;
 
-    .line 12
     invoke-static {p1, v1}, Lcom/commsource/util/common/i;->w(Landroid/graphics/PointF;Ljava/util/List;)Z
 
     move-result v1
@@ -1554,7 +1446,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_5
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->j:Ljava/util/List;
 
@@ -1566,12 +1457,10 @@
 
     const/4 p1, 0x7
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 15
     :cond_6
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/g;->i:Ljava/util/List;
 
@@ -1583,12 +1472,10 @@
 
     const/4 p1, 0x5
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 17
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1598,7 +1485,6 @@
     :goto_0
     const/4 p1, 0x2
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1607,7 +1493,6 @@
     :goto_1
     const/4 p1, 0x0
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1616,7 +1501,6 @@
     :goto_2
     const/4 p1, 0x1
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1629,10 +1513,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/easyeditor/entity/g;->o:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1653,16 +1535,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/entity/g;->p:Ljava/util/List;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/entity/g;->g(Ljava/util/List;)V
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/entity/g;->h(Ljava/util/List;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -32,12 +32,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
     sget p1, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -46,7 +44,6 @@
 
     sget p1, Lcom/res/provider/ResCOLOR;->color_cc333333:I
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -55,7 +52,6 @@
 
     sget p1, Lcom/res/provider/ResCOLOR;->white:I
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -64,7 +60,6 @@
 
     sget p1, Lcom/res/provider/ResCOLOR;->white60:I
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -73,7 +68,6 @@
 
     sget p1, Lcom/res/provider/ResCOLOR;->white30:I
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -82,7 +76,6 @@
 
     sget p1, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
-    .line 7
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -91,7 +84,6 @@
 
     const/4 p1, 0x1
 
-    .line 8
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->v:Z
 
     return-void
@@ -106,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->w:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -121,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->t:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -136,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->u:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -151,7 +140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->r:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -166,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -181,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->s:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -196,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -211,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->v:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -226,7 +210,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->w:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -241,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->v:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -256,13 +238,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->v:Z
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/h1/e;->p()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

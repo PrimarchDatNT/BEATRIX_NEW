@@ -30,10 +30,8 @@
 .method constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     const/16 v1, 0x10
@@ -46,7 +44,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/a3;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
-    .line 3
     new-instance v0, Ljava/lang/ref/ReferenceQueue;
 
     invoke-direct {v0}, Ljava/lang/ref/ReferenceQueue;-><init>()V
@@ -71,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/a3;->b:Ljava/lang/ref/ReferenceQueue;
 
     invoke-virtual {v0}, Ljava/lang/ref/ReferenceQueue;->poll()Ljava/lang/ref/Reference;
@@ -81,12 +77,10 @@
     :goto_0
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/a3;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v1, v0}, Ljava/util/concurrent/ConcurrentHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/a3;->b:Ljava/lang/ref/ReferenceQueue;
 
     invoke-virtual {v0}, Ljava/lang/ref/ReferenceQueue;->poll()Ljava/lang/ref/Reference;
@@ -95,7 +89,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/d3;
 
@@ -103,7 +96,6 @@
 
     invoke-direct {v0, p1, v1}, Lcom/google/android/gms/internal/firebase_remote_config/d3;-><init>(Ljava/lang/Throwable;Ljava/lang/ref/ReferenceQueue;)V
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/a3;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v1, v0}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -121,7 +113,6 @@
 
     return-object v0
 
-    .line 6
     :cond_2
     new-instance p2, Ljava/util/Vector;
 
@@ -129,7 +120,6 @@
 
     invoke-direct {p2, v0}, Ljava/util/Vector;-><init>(I)V
 
-    .line 7
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/a3;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     new-instance v1, Lcom/google/android/gms/internal/firebase_remote_config/d3;

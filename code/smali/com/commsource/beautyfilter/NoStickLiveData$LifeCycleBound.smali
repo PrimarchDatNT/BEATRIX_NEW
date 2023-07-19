@@ -67,7 +67,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -90,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;->a:Landroidx/lifecycle/LifecycleOwner;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -115,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;->b:Lcom/commsource/beautyfilter/NoStickLiveData$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +135,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;->a:Landroidx/lifecycle/LifecycleOwner;
 
     if-ne v1, p1, :cond_0
@@ -179,7 +175,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;->a:Landroidx/lifecycle/LifecycleOwner;
 
     invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
@@ -198,14 +193,12 @@
 
     if-ne p1, p2, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     iget-object p2, p0, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;->a:Landroidx/lifecycle/LifecycleOwner;
 
     invoke-virtual {p1, p2}, Lcom/commsource/beautyfilter/NoStickLiveData;->removeObservers(Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

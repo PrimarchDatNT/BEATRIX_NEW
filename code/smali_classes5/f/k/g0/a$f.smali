@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-direct {v1}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
@@ -57,10 +56,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/k/g0/a$f;->a:Landroid/content/Context;
 
     return-void
@@ -73,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/k/g0/a$f;->b(Landroid/content/Context;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -88,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/g0/a$f;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
@@ -97,12 +92,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lf/k/g0/a$f;
 
     invoke-direct {v1, p0}, Lf/k/g0/a$f;-><init>(Landroid/content/Context;)V
 
-    .line 3
     sget-object v2, Lf/k/g0/a$f;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
     const/4 v3, 0x0
@@ -113,17 +106,14 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     new-instance v2, Landroid/content/IntentFilter;
 
     const-string v3, "android.intent.action.USER_UNLOCKED"
 
     invoke-direct {v2, v3}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {p0, v1, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -139,12 +129,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/a$f;->a:Landroid/content/Context;
 
     invoke-virtual {v1, p0}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -157,21 +145,18 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/g0/a;->a()Lf/k/g0/a;
 
     move-result-object p2
 
     if-eqz p2, :cond_1
 
-    .line 2
     invoke-static {}, Lf/k/g0/a;->b()Ljava/lang/Object;
 
     move-result-object p2
 
     monitor-enter p2
 
-    .line 3
     :try_start_0
     invoke-static {}, Lf/k/g0/a;->a()Lf/k/g0/a;
 
@@ -179,14 +164,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-static {}, Lf/k/g0/a;->a()Lf/k/g0/a;
 
     move-result-object v0
 
     invoke-static {v0}, Lf/k/g0/a;->c(Lf/k/g0/a;)V
 
-    .line 5
     :cond_0
     monitor-exit p2
 
@@ -203,12 +186,10 @@
 
     throw v0
 
-    .line 6
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lf/k/g0/a$f;->c()V
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -51,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$c;->c:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;->x()Lcom/commsource/repository/child/makeup/e;
@@ -109,7 +108,6 @@
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$c;->c:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;->B()Lcom/commsource/beautyplus/f0/sb;
@@ -120,7 +118,6 @@
 
     invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 3
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

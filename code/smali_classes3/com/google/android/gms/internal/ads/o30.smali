@@ -25,10 +25,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/l30;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/o30;->a:Lcom/google/android/gms/internal/ads/l30;
 
     return-void
@@ -39,10 +37,8 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/o30;->a:Lcom/google/android/gms/internal/ads/l30;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/l30;->b()Ljava/lang/Runnable;
 
     move-result-object v0

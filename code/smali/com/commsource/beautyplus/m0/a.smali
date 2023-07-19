@@ -11,12 +11,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/beautyplus/m0/a;->a:Ljava/lang/String;
 
     return-void
@@ -29,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/m0/a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -44,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/m0/a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -61,7 +57,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     move-result v1
@@ -96,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/m0/a;->a:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -118,10 +112,8 @@
 
     const-string/jumbo v2, "\u622a\u53d6\u5e7f\u544a"
 
-    .line 2
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result v1
@@ -136,20 +128,16 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Landroid/graphics/Canvas;
 
     invoke-direct {v2, v1}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 5
     invoke-virtual {p1, v2}, Landroid/view/View;->draw(Landroid/graphics/Canvas;)V
 
-    .line 6
     new-instance p1, Lcom/commsource/beautyplus/j0/c/a$a;
 
     invoke-direct {p1, v1}, Lcom/commsource/beautyplus/j0/c/a$a;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 7
     invoke-static {}, Lcom/commsource/beautyplus/base/b/b;->c()Lcom/commsource/beautyplus/base/b/b;
 
     move-result-object v1
@@ -164,12 +152,10 @@
 
     invoke-virtual {v1, v2, p1, v3}, Lcom/commsource/beautyplus/base/b/b;->b(Lcom/commsource/beautyplus/base/b/a;Lcom/commsource/beautyplus/base/b/a$a;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -184,14 +170,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/m0/a;->e(Landroid/view/View;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -201,10 +185,8 @@
 
     const-string/jumbo v2, "\u622a\u53d6\u5e7f\u544a"
 
-    .line 3
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result v1
@@ -219,20 +201,16 @@
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Landroid/graphics/Canvas;
 
     invoke-direct {v2, v1}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 6
     invoke-virtual {p1, v2}, Landroid/view/View;->draw(Landroid/graphics/Canvas;)V
 
-    .line 7
     new-instance p1, Lcom/commsource/beautyplus/j0/c/a$a;
 
     invoke-direct {p1, v1}, Lcom/commsource/beautyplus/j0/c/a$a;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 8
     invoke-static {}, Lcom/commsource/beautyplus/base/b/b;->c()Lcom/commsource/beautyplus/base/b/b;
 
     move-result-object v1
@@ -247,7 +225,6 @@
 
     invoke-virtual {v1, v2, p1, v3}, Lcom/commsource/beautyplus/base/b/b;->b(Lcom/commsource/beautyplus/base/b/a;Lcom/commsource/beautyplus/base/b/a$a;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -262,10 +239,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/commsource/beautyplus/m0/a;->a:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -278,14 +253,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/j0/c/e$a;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/m0/a;->a:Ljava/lang/String;
 
     invoke-direct {v1, v2}, Lcom/commsource/beautyplus/j0/c/e$a;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/commsource/beautyplus/base/b/b;->c()Lcom/commsource/beautyplus/base/b/b;
 
     move-result-object v2
@@ -300,7 +273,6 @@
 
     invoke-virtual {v2, v3, v1, v4}, Lcom/commsource/beautyplus/base/b/b;->b(Lcom/commsource/beautyplus/base/b/a;Lcom/commsource/beautyplus/base/b/a$a;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

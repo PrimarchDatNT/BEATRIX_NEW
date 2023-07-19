@@ -191,127 +191,102 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/s5;->a:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 2
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->a:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 3
     sget-object v0, Lcom/google/android/gms/internal/ads/r5;->a:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 4
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->b:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 5
     sget-object v0, Lcom/google/android/gms/internal/ads/u5;->a:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 6
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->c:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 7
     sget-object v0, Lcom/google/android/gms/internal/ads/t5;->a:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 8
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->d:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 9
     new-instance v0, Lcom/google/android/gms/internal/ads/y5;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/y5;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->e:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 10
     new-instance v0, Lcom/google/android/gms/internal/ads/x5;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/x5;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->f:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 11
     sget-object v0, Lcom/google/android/gms/internal/ads/w5;->a:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 12
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->g:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 13
     new-instance v0, Lcom/google/android/gms/internal/ads/a6;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/a6;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->h:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 14
     new-instance v0, Lcom/google/android/gms/internal/ads/z5;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/z5;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->i:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 15
     sget-object v0, Lcom/google/android/gms/internal/ads/v5;->a:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 16
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->j:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 17
     new-instance v0, Lcom/google/android/gms/internal/ads/c6;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/c6;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->k:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 18
     new-instance v0, Lcom/google/android/gms/internal/ads/b6;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/b6;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->l:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 19
     new-instance v0, Lcom/google/android/gms/internal/ads/it;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/it;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->m:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 20
     new-instance v0, Lcom/google/android/gms/internal/ads/lt;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/lt;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->n:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 21
     new-instance v0, Lcom/google/android/gms/internal/ads/q5;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/q5;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->o:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 22
     new-instance v0, Lcom/google/android/gms/internal/ads/m6;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/m6;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->p:Lcom/google/android/gms/internal/ads/m6;
 
-    .line 23
     new-instance v0, Lcom/google/android/gms/internal/ads/f6;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/f6;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->q:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 24
     new-instance v0, Lcom/google/android/gms/internal/ads/e6;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/e6;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/p5;->r:Lcom/google/android/gms/internal/ads/g6;
 
-    .line 25
     new-instance v0, Lcom/google/android/gms/internal/ads/h6;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/h6;-><init>()V
@@ -326,7 +301,6 @@
 
     const-string v0, "u"
 
-    .line 1
     invoke-interface {p1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -337,18 +311,15 @@
 
     const-string p0, "URL missing from click GMSG."
 
-    .line 2
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
-    .line 4
     :try_start_0
     move-object v1, p0
 
@@ -360,19 +331,16 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-virtual {v1, v0}, Lcom/google/android/gms/internal/ads/d12;->f(Landroid/net/Uri;)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 6
     move-object v2, p0
 
     check-cast v2, Lcom/google/android/gms/internal/ads/mv;
 
-    .line 7
     invoke-interface {v2}, Lcom/google/android/gms/internal/ads/mv;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -393,7 +361,6 @@
 
     move-result-object v4
 
-    .line 8
     invoke-virtual {v1, v0, v2, v3, v4}, Lcom/google/android/gms/internal/ads/d12;->b(Landroid/net/Uri;Landroid/content/Context;Landroid/view/View;Landroid/app/Activity;)Landroid/net/Uri;
 
     move-result-object p1
@@ -409,7 +376,6 @@
 
     const-string v1, "Unable to append parameter to URL: "
 
-    .line 9
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -434,7 +400,6 @@
     :goto_0
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
-    .line 10
     :cond_2
     :goto_1
     move-object p1, p0
@@ -449,10 +414,8 @@
 
     move-result-object v0
 
-    .line 11
     new-instance v1, Lcom/google/android/gms/internal/ads/cp;
 
-    .line 12
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/mv;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -467,7 +430,6 @@
 
     invoke-direct {v1, p1, p0, v0}, Lcom/google/android/gms/internal/ads/cp;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/om;->c()Lcom/google/android/gms/internal/ads/rq1;
 
     return-void
@@ -478,7 +440,6 @@
 
     const-string v0, "u"
 
-    .line 1
     invoke-interface {p1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -489,16 +450,13 @@
 
     const-string p0, "URL missing from httpTrack GMSG."
 
-    .line 2
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/ads/cp;
 
-    .line 4
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/mv;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -513,7 +471,6 @@
 
     invoke-direct {v0, v1, p0, p1}, Lcom/google/android/gms/internal/ads/cp;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/om;->c()Lcom/google/android/gms/internal/ads/rq1;
 
     return-void
@@ -524,7 +481,6 @@
 
     const-string v0, "tx"
 
-    .line 1
     invoke-interface {p1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -533,7 +489,6 @@
 
     const-string v1, "ty"
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -542,42 +497,35 @@
 
     const-string v2, "td"
 
-    .line 3
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/String;
 
-    .line 4
     :try_start_0
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v0
 
-    .line 5
     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v1
 
-    .line 6
     invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result p1
 
-    .line 7
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/uv;->j()Lcom/google/android/gms/internal/ads/d12;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 8
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/d12;->h()Lcom/google/android/gms/internal/ads/ir1;
 
     move-result-object p0
 
-    .line 9
     invoke-interface {p0, v0, v1, p1}, Lcom/google/android/gms/internal/ads/ir1;->b(III)V
     :try_end_0
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
@@ -588,7 +536,6 @@
     :catch_0
     const-string p0, "Could not parse touch parameters from gmsg."
 
-    .line 10
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     return-void
@@ -599,7 +546,6 @@
 
     const-string v1, "openableIntents"
 
-    .line 1
     invoke-interface/range {p0 .. p0}, Lcom/google/android/gms/internal/ads/mv;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -612,14 +558,12 @@
 
     move-object/from16 v3, p1
 
-    .line 2
     invoke-interface {v3, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/String;
 
-    .line 3
     :try_start_0
     new-instance v3, Lorg/json/JSONObject;
 
@@ -630,14 +574,12 @@
     :try_start_1
     const-string v0, "intents"
 
-    .line 4
     invoke-virtual {v3, v0}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object v3
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_3
 
-    .line 5
     new-instance v4, Lorg/json/JSONObject;
 
     invoke-direct {v4}, Lorg/json/JSONObject;-><init>()V
@@ -646,7 +588,6 @@
 
     const/4 v6, 0x0
 
-    .line 6
     :goto_0
     invoke-virtual {v3}, Lorg/json/JSONArray;->length()I
 
@@ -654,7 +595,6 @@
 
     if-ge v6, v0, :cond_8
 
-    .line 7
     :try_start_2
     invoke-virtual {v3, v6}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
@@ -664,63 +604,54 @@
 
     const-string v7, "id"
 
-    .line 8
     invoke-virtual {v0, v7}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
     const-string v8, "u"
 
-    .line 9
     invoke-virtual {v0, v8}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v8
 
     const-string v9, "i"
 
-    .line 10
     invoke-virtual {v0, v9}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v9
 
     const-string v10, "m"
 
-    .line 11
     invoke-virtual {v0, v10}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v10
 
     const-string v11, "p"
 
-    .line 12
     invoke-virtual {v0, v11}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v11
 
     const-string v12, "c"
 
-    .line 13
     invoke-virtual {v0, v12}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v12
 
     const-string v13, "intent_url"
 
-    .line 14
     invoke-virtual {v0, v13}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v13
 
     const/4 v14, 0x0
 
-    .line 15
     invoke-static {v13}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 16
     :try_start_3
     invoke-static {v13, v5}, Landroid/content/Intent;->parseUri(Ljava/lang/String;I)Landroid/content/Intent;
 
@@ -737,7 +668,6 @@
 
     const-string v0, "Error parsing the url: "
 
-    .line 17
     invoke-static {v13}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v13
@@ -770,26 +700,22 @@
 
     if-nez v14, :cond_6
 
-    .line 18
     new-instance v14, Landroid/content/Intent;
 
     invoke-direct {v14}, Landroid/content/Intent;-><init>()V
 
-    .line 19
     invoke-static {v8}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v13
 
     if-nez v13, :cond_2
 
-    .line 20
     invoke-static {v8}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v8
 
     invoke-virtual {v14, v8}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 21
     :cond_2
     invoke-static {v9}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -797,10 +723,8 @@
 
     if-nez v8, :cond_3
 
-    .line 22
     invoke-virtual {v14, v9}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 23
     :cond_3
     invoke-static {v10}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -808,10 +732,8 @@
 
     if-nez v8, :cond_4
 
-    .line 24
     invoke-virtual {v14, v10}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 25
     :cond_4
     invoke-static {v11}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -819,10 +741,8 @@
 
     if-nez v8, :cond_5
 
-    .line 26
     invoke-virtual {v14, v11}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 27
     :cond_5
     invoke-static {v12}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -834,17 +754,14 @@
 
     const/4 v9, 0x2
 
-    .line 28
     invoke-virtual {v12, v8, v9}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v8
 
-    .line 29
     array-length v10, v8
 
     if-ne v10, v9, :cond_6
 
-    .line 30
     new-instance v9, Landroid/content/ComponentName;
 
     aget-object v10, v8, v5
@@ -858,7 +775,6 @@
     :cond_6
     const/high16 v8, 0x10000
 
-    .line 31
     invoke-virtual {v2, v14, v8}, Landroid/content/pm/PackageManager;->resolveActivity(Landroid/content/Intent;I)Landroid/content/pm/ResolveInfo;
 
     move-result-object v8
@@ -870,7 +786,6 @@
     :cond_7
     const/4 v0, 0x0
 
-    .line 32
     :goto_3
     :try_start_4
     invoke-virtual {v4, v7, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
@@ -886,7 +801,6 @@
 
     const-string v0, "Error constructing openable urls response."
 
-    .line 33
     invoke-static {v0, v7}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_4
@@ -898,7 +812,6 @@
 
     const-string v0, "Error parsing the intent data."
 
-    .line 34
     invoke-static {v0, v7}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_4
@@ -906,7 +819,6 @@
 
     goto/16 :goto_0
 
-    .line 35
     :cond_8
     move-object/from16 v0, p0
 
@@ -916,7 +828,6 @@
 
     return-void
 
-    .line 36
     :catch_3
     move-object/from16 v0, p0
 
@@ -930,7 +841,6 @@
 
     return-void
 
-    .line 37
     :catch_4
     move-object/from16 v0, p0
 
@@ -948,10 +858,8 @@
 .method static final synthetic e(Lcom/google/android/gms/internal/ads/mv;Ljava/util/Map;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->k5:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -960,7 +868,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -971,7 +878,6 @@
 
     const-string p0, "canOpenAppGmsgHandler disabled."
 
-    .line 4
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     return-void
@@ -979,14 +885,12 @@
     :cond_0
     const-string v0, "package_name"
 
-    .line 5
     invoke-interface {p1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/String;
 
-    .line 6
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -995,18 +899,15 @@
 
     const-string p0, "Package name missing in canOpenApp GMSG."
 
-    .line 7
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     return-void
 
-    .line 8
     :cond_1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 9
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/mv;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1015,7 +916,6 @@
 
     move-result-object v1
 
-    .line 10
     invoke-virtual {v1, p1}, Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     move-result-object v1
@@ -1029,16 +929,13 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 11
     :goto_0
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     check-cast p0, Lcom/google/android/gms/internal/ads/i8;
 
     const-string p1, "openableApp"
@@ -1053,14 +950,12 @@
 
     const-string v0, "urls"
 
-    .line 1
     invoke-interface {p1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/String;
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -1069,7 +964,6 @@
 
     const-string p0, "URLs missing in canOpenURLs GMSG."
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     return-void
@@ -1077,17 +971,14 @@
     :cond_0
     const-string v0, ","
 
-    .line 4
     invoke-virtual {p1, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 5
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 6
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/mv;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1096,7 +987,6 @@
 
     move-result-object v1
 
-    .line 7
     array-length v2, p1
 
     const/4 v3, 0x0
@@ -1112,19 +1002,16 @@
 
     const-string v7, ";"
 
-    .line 8
     invoke-virtual {v5, v7, v6}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v6
 
-    .line 9
     aget-object v7, v6, v3
 
     invoke-virtual {v7}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 10
     array-length v8, v6
 
     const/4 v9, 0x1
@@ -1142,20 +1029,17 @@
     :cond_1
     const-string v6, "android.intent.action.VIEW"
 
-    .line 11
     :goto_1
     invoke-static {v7}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v7
 
-    .line 12
     new-instance v8, Landroid/content/Intent;
 
     invoke-direct {v8, v6, v7}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
     const/high16 v6, 0x10000
 
-    .line 13
     invoke-virtual {v1, v8, v6}, Landroid/content/pm/PackageManager;->resolveActivity(Landroid/content/Intent;I)Landroid/content/pm/ResolveInfo;
 
     move-result-object v6
@@ -1167,7 +1051,6 @@
     :cond_2
     const/4 v9, 0x0
 
-    .line 14
     :goto_2
     invoke-static {v9}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1179,7 +1062,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_3
     check-cast p0, Lcom/google/android/gms/internal/ads/i8;
 

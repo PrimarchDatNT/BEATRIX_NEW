@@ -31,7 +31,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;ZLcom/meitu/webview/utils/d$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/utils/d$b;->a:Ljava/lang/String;
 
     iput-object p2, p0, Lcom/meitu/webview/utils/d$b;->b:Ljava/lang/String;
@@ -56,10 +55,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/webview/utils/d;->c(Z)Z
 
-    .line 2
     iget-boolean v2, p0, Lcom/meitu/webview/utils/d$b;->c:Z
 
     if-nez v2, :cond_0
@@ -70,10 +67,8 @@
 
     const/16 v3, 0x3ed
 
-    .line 3
     invoke-interface {v2, v3, v1}, Lcom/meitu/webview/utils/d$c;->a(IZ)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -87,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -108,7 +102,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/webview/utils/d$b;->b:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/meitu/webview/utils/d$b;->a:Ljava/lang/String;
@@ -117,15 +110,12 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/webview/utils/d;->c(Z)Z
 
-    .line 4
     iget-boolean v1, p0, Lcom/meitu/webview/utils/d$b;->c:Z
 
     if-nez v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/webview/utils/d$b;->b:Ljava/lang/String;
 
     const/4 v2, 0x0
@@ -134,7 +124,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/webview/utils/d;->d(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/webview/utils/d$c;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

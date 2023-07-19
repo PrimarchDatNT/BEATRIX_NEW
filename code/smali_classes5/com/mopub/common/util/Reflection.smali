@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,10 +27,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     :try_start_0
     invoke-static {p0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
     :try_end_0
@@ -83,16 +80,13 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
     :goto_0
     if-eqz p0, :cond_0
 
-    .line 3
     :try_start_0
     invoke-virtual {p0, p1, p2}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
@@ -102,7 +96,6 @@
 
     return-object p0
 
-    .line 4
     :catch_0
     invoke-virtual {p0}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
 
@@ -110,7 +103,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance p0, Ljava/lang/NoSuchMethodException;
 
@@ -135,14 +127,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object p0
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     return-object p0
@@ -194,19 +184,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {p0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p0
@@ -215,17 +200,14 @@
 
     move-result-object p0
 
-    .line 6
     invoke-virtual {p0, p2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object p0
 
     const/4 p1, 0x1
 
-    .line 7
     invoke-virtual {p0, p1}, Ljava/lang/reflect/Constructor;->setAccessible(Z)V
 
-    .line 8
     invoke-virtual {p0, p3}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -268,13 +250,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p0
@@ -285,21 +264,18 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object p0
 
     const/4 p1, 0x1
 
-    .line 5
     invoke-virtual {p0, p1}, Ljava/lang/reflect/Constructor;->setAccessible(Z)V
 
     const/4 p1, 0x0
 
     new-array p1, p1, [Ljava/lang/Object;
 
-    .line 6
     invoke-virtual {p0, p1}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 9
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v8
@@ -35,7 +33,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
@@ -46,7 +43,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_1
     invoke-virtual {p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
@@ -65,17 +61,14 @@
 
     move v6, p3
 
-    .line 12
     invoke-static/range {v1 .. v7}, Lcom/meitu/core/processor/LipSmoothProcessor;->nativeLipSmooth_bitmap(Landroid/graphics/Bitmap;JJFF)Z
 
     move-result v1
 
-    .line 13
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 14
     sget-object v4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -122,7 +115,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_2
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
@@ -132,7 +124,6 @@
 
     const/4 v1, 0x0
 
-    .line 16
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -148,7 +139,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 25
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v8
@@ -161,7 +151,6 @@
 
     goto :goto_0
 
-    .line 26
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
@@ -172,7 +161,6 @@
 
     goto :goto_1
 
-    .line 27
     :cond_1
     invoke-virtual {p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
@@ -191,17 +179,14 @@
 
     move v7, p3
 
-    .line 28
     invoke-static/range {v1 .. v7}, Lcom/meitu/core/processor/LipSmoothProcessor;->nativeLipSmooth_bitmap(Landroid/graphics/Bitmap;JJFF)Z
 
     move-result v1
 
-    .line 29
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 30
     sget-object v4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -248,7 +233,6 @@
 
     goto :goto_2
 
-    .line 31
     :cond_2
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
@@ -258,7 +242,6 @@
 
     const/4 v1, 0x0
 
-    .line 32
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -274,12 +257,10 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -304,7 +285,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual {p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
@@ -319,17 +299,14 @@
 
     move v9, p3
 
-    .line 4
     invoke-static/range {v3 .. v10}, Lcom/meitu/core/processor/LipSmoothProcessor;->nativeLipSmooth(JJJFF)Z
 
     move-result p1
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p2
 
-    .line 6
     sget-object v3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -376,7 +353,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_2
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
@@ -386,7 +362,6 @@
 
     const/4 p1, 0x0
 
-    .line 8
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -402,12 +377,10 @@
 
     if-eqz p0, :cond_2
 
-    .line 17
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 18
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -432,7 +405,6 @@
 
     goto :goto_1
 
-    .line 19
     :cond_1
     invoke-virtual {p2}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
@@ -447,17 +419,14 @@
 
     move v10, p3
 
-    .line 20
     invoke-static/range {v3 .. v10}, Lcom/meitu/core/processor/LipSmoothProcessor;->nativeLipSmooth(JJJFF)Z
 
     move-result p1
 
-    .line 21
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p2
 
-    .line 22
     sget-object p4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -504,7 +473,6 @@
 
     goto :goto_2
 
-    .line 23
     :cond_2
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
@@ -514,7 +482,6 @@
 
     const/4 p1, 0x0
 
-    .line 24
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

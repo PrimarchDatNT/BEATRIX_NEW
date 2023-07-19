@@ -25,7 +25,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/text/SpannableStringBuilder;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 .method synthetic constructor <init>(Lcom/commsource/camera/mvp/helper/XSpanUtils$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/mvp/helper/XSpanUtils$SerializableSpannableStringBuilder;-><init>()V
 
     return-void

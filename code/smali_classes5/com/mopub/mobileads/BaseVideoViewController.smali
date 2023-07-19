@@ -39,22 +39,16 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mContext:Landroid/content/Context;
 
-    .line 4
     iput-object p2, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mBroadcastIdentifier:Ljava/lang/Long;
 
-    .line 5
     iput-object p3, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mBaseVideoViewControllerListener:Lcom/mopub/mobileads/BaseVideoViewController$BaseVideoViewControllerListener;
 
-    .line 6
     new-instance p2, Landroid/widget/RelativeLayout;
 
     invoke-direct {p2, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
@@ -77,12 +71,10 @@
 .method broadcastAction(Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mBroadcastIdentifier:Ljava/lang/Long;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
@@ -93,7 +85,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -118,7 +109,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mBaseVideoViewControllerListener:Lcom/mopub/mobileads/BaseVideoViewController$BaseVideoViewControllerListener;
 
     return-object v0
@@ -127,7 +117,6 @@
 .method protected getContext()Landroid/content/Context;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mContext:Landroid/content/Context;
 
     return-object v0
@@ -136,7 +125,6 @@
 .method public getLayout()Landroid/view/ViewGroup;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mLayout:Landroid/widget/RelativeLayout;
 
     return-object v0
@@ -160,7 +148,6 @@
 .method protected onCreate()V
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/widget/RelativeLayout$LayoutParams;
 
     const/4 v1, -0x1
@@ -169,10 +156,8 @@
 
     const/16 v1, 0xd
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mBaseVideoViewControllerListener:Lcom/mopub/mobileads/BaseVideoViewController$BaseVideoViewControllerListener;
 
     iget-object v1, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mLayout:Landroid/widget/RelativeLayout;
@@ -201,7 +186,6 @@
 .method public setLayout(Landroid/widget/RelativeLayout;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mLayout:Landroid/widget/RelativeLayout;
 
     return-void
@@ -212,7 +196,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mBaseVideoViewControllerListener:Lcom/mopub/mobileads/BaseVideoViewController$BaseVideoViewControllerListener;
 
     invoke-interface {p1, p2}, Lcom/mopub/mobileads/BaseVideoViewController$BaseVideoViewControllerListener;->onVideoFinish(I)V
@@ -224,7 +207,6 @@
 .method protected videoError(Z)V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -241,12 +223,10 @@
 
     const-string v0, "com.mopub.action.fullscreen.fail"
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/BaseVideoViewController;->broadcastAction(Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/mobileads/BaseVideoViewController;->mBaseVideoViewControllerListener:Lcom/mopub/mobileads/BaseVideoViewController$BaseVideoViewControllerListener;
 
     invoke-interface {p1, v3}, Lcom/mopub/mobileads/BaseVideoViewController$BaseVideoViewControllerListener;->onVideoFinish(I)V

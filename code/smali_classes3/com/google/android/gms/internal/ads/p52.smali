@@ -35,10 +35,8 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/o52;->c(I)Ljava/util/LinkedHashMap;
 
     move-result-object p1
@@ -62,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/p52;->a:Ljava/util/LinkedHashMap;
 
     const-string v1, "key"

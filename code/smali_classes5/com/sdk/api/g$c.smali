@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/api/g;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/g$c;->b:Lcom/sdk/api/g;
 
     iput p2, p0, Lcom/sdk/api/g$c;->a:I
@@ -42,14 +41,12 @@
 .method public run()V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/api/g$c;->b:Lcom/sdk/api/g;
 
     iget-object v1, v0, Lcom/sdk/api/g;->J:Lcom/sdk/imp/internal/loader/Ad;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/sdk/api/g;->b(Lcom/sdk/api/g;)Lcom/sdk/api/g$j;
 
     move-result-object v0
@@ -58,7 +55,6 @@
 
     invoke-interface {v0, v1}, Lcom/sdk/api/g$j;->onAdLoaded(Lcom/sdk/api/g;)V
 
-    .line 3
     sget-object v2, Lcom/sdk/api/Const$Event;->LOADED:Lcom/sdk/api/Const$Event;
 
     const/4 v3, 0x0
@@ -85,7 +81,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/sdk/api/g;->b(Lcom/sdk/api/g;)Lcom/sdk/api/g$j;
 
@@ -95,7 +90,6 @@
 
     invoke-interface {v0, v1}, Lcom/sdk/api/g$j;->onFailed(I)V
 
-    .line 5
     sget-object v2, Lcom/sdk/api/Const$Event;->LOADFAIL:Lcom/sdk/api/Const$Event;
 
     const/4 v3, 0x0

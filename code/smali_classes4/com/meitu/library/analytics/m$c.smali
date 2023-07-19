@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/m;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/m$c;->b:Lcom/meitu/library/analytics/m;
 
     iput-boolean p2, p0, Lcom/meitu/library/analytics/m$c;->a:Z
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/m$c;->b:Lcom/meitu/library/analytics/m;
 
     iget-object v1, v1, Lcom/meitu/library/analytics/a;->a:Lcom/meitu/library/analytics/sdk/content/f;
@@ -57,12 +55,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/meitu/library/analytics/m$c;->b:Lcom/meitu/library/analytics/m;
 
@@ -74,19 +70,16 @@
 
     invoke-virtual {v2, v3}, Lcom/meitu/library/analytics/sdk/content/f;->j([Lcom/meitu/library/analytics/sdk/content/Switcher;)V
 
-    .line 4
     new-instance v2, Lcom/meitu/library/analytics/y/f/a$b;
 
     invoke-direct {v2}, Lcom/meitu/library/analytics/y/f/a$b;-><init>()V
 
     const-string v3, "is_base_mode"
 
-    .line 5
     invoke-virtual {v2, v3}, Lcom/meitu/library/analytics/y/f/a$b;->g(Ljava/lang/String;)Lcom/meitu/library/analytics/y/f/a$b;
 
     move-result-object v2
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -97,12 +90,10 @@
 
     const/4 v3, 0x1
 
-    .line 7
     invoke-virtual {v2, v3}, Lcom/meitu/library/analytics/y/f/a$b;->i(I)Lcom/meitu/library/analytics/y/f/a$b;
 
     move-result-object v2
 
-    .line 8
     invoke-virtual {v2, v3}, Lcom/meitu/library/analytics/y/f/a$b;->h(I)Lcom/meitu/library/analytics/y/f/a$b;
 
     move-result-object v2
@@ -121,20 +112,16 @@
     :goto_0
     const-string v4, "type"
 
-    .line 9
     invoke-virtual {v2, v4, v3}, Lcom/meitu/library/analytics/y/f/a$b;->b(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/library/analytics/y/f/a$b;
 
     move-result-object v2
 
-    .line 10
     invoke-virtual {v2}, Lcom/meitu/library/analytics/y/f/a$b;->d()Lcom/meitu/library/analytics/y/f/a;
 
     move-result-object v2
 
-    .line 11
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/sdk/db/h;->s(Landroid/content/Context;Lcom/meitu/library/analytics/y/f/a;)J
 
-    .line 12
     iget-object v1, p0, Lcom/meitu/library/analytics/m$c;->b:Lcom/meitu/library/analytics/m;
 
     iget-object v1, v1, Lcom/meitu/library/analytics/a;->a:Lcom/meitu/library/analytics/sdk/content/f;
@@ -145,7 +132,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/content/f$f;->c()V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

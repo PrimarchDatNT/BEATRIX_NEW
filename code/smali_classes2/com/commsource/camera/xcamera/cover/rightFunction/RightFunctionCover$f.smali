@@ -56,7 +56,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover$f;->a:Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;->N()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -112,7 +111,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover$f;->a:Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;
 
@@ -120,14 +118,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;->T(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover$f;->a:Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;
 
     invoke-static {v1, p1}, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;->E(Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;Lcom/commsource/repository/child/makeup/e;)V
 
     goto :goto_1
 
-    .line 4
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover$f;->a:Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;
@@ -136,14 +132,12 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;->T(Z)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover$f;->a:Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;
 
     const/4 v1, 0x0
 
     invoke-static {p1, v1}, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;->E(Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;Lcom/commsource/repository/child/makeup/e;)V
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -157,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/repository/child/makeup/e;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover$f;->a(Lcom/commsource/repository/child/makeup/e;)V

@@ -48,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
     const-string v2, "FIT_XY"
@@ -61,7 +60,6 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;->FIT_XY:Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
-    .line 2
     new-instance v2, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
     const-string v5, "CENTER_CROP"
@@ -72,7 +70,6 @@
 
     sput-object v2, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;->CENTER_CROP:Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
-    .line 3
     new-instance v5, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
     const-string v6, "CENTER_INSIDE"
@@ -85,7 +82,6 @@
 
     sput-object v5, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;->CENTER_INSIDE:Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
-    .line 4
     new-instance v6, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
     const-string v8, "MATCH_WIDTH"
@@ -98,7 +94,6 @@
 
     sput-object v6, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;->MATCH_WIDTH:Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
-    .line 5
     new-instance v8, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
     const-string v10, "SCALE_SQUARE"
@@ -125,7 +120,6 @@
 
     aput-object v8, v10, v11
 
-    .line 6
     sput-object v10, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;->$VALUES:[Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -141,10 +135,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;->scaleType:I
 
     return-void
@@ -157,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -178,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;->$VALUES:[Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
     invoke-virtual {v1}, [Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;->clone()Ljava/lang/Object;

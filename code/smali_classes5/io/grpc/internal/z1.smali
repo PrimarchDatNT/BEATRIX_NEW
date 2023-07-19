@@ -57,7 +57,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/internal/z1;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -70,14 +69,12 @@
 
     sput-object v0, Lio/grpc/internal/z1;->d:Ljava/util/logging/Logger;
 
-    .line 2
     new-instance v0, Lio/grpc/internal/z1$a;
 
     invoke-direct {v0}, Lio/grpc/internal/z1$a;-><init>()V
 
     sput-object v0, Lio/grpc/internal/z1;->e:Lio/grpc/internal/z1$c;
 
-    .line 3
     new-instance v0, Lio/grpc/internal/z1$b;
 
     invoke-direct {v0}, Lio/grpc/internal/z1$b;-><init>()V
@@ -90,7 +87,6 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     sget-object v0, Lio/grpc/internal/z1;->f:Lcom/google/common/base/z;
 
     sget-object v1, Lio/grpc/internal/z1;->e:Lio/grpc/internal/z1$c;
@@ -127,10 +123,8 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -139,7 +133,6 @@
 
     iput-object p1, p0, Lio/grpc/internal/z1;->a:Lcom/google/common/base/z;
 
-    .line 4
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -150,7 +143,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 5
     invoke-static {p3}, Lio/grpc/internal/z1;->d(Ljava/lang/String;)Ljava/net/InetSocketAddress;
 
     move-result-object p1
@@ -162,7 +154,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 6
     iput-object p1, p0, Lio/grpc/internal/z1;->c:Ljava/net/InetSocketAddress;
 
     :goto_0
@@ -172,7 +163,6 @@
 .method static synthetic b()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/z1;->d:Ljava/util/logging/Logger;
 
     return-object v0
@@ -188,7 +178,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Lio/grpc/internal/GrpcUtil;->i(Ljava/net/InetSocketAddress;)Ljava/lang/String;
 
@@ -196,7 +185,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     :try_start_1
     new-instance v9, Ljava/net/URI;
 
@@ -204,7 +192,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {p1}, Ljava/net/InetSocketAddress;->getPort()I
 
     move-result v5
@@ -221,7 +208,6 @@
     :try_end_1
     .catch Ljava/net/URISyntaxException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 4
     iget-object v1, p0, Lio/grpc/internal/z1;->a:Lcom/google/common/base/z;
 
     invoke-interface {v1}, Lcom/google/common/base/z;->get()Ljava/lang/Object;
@@ -232,7 +218,6 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     sget-object p1, Lio/grpc/internal/z1;->d:Ljava/util/logging/Logger;
 
     sget-object v1, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -243,13 +228,11 @@
 
     return-object v0
 
-    .line 6
     :cond_0
     invoke-virtual {v1, v9}, Ljava/net/ProxySelector;->select(Ljava/net/URI;)Ljava/util/List;
 
     move-result-object v1
 
-    .line 7
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -258,7 +241,6 @@
 
     if-le v2, v3, :cond_1
 
-    .line 8
     sget-object v2, Lio/grpc/internal/z1;->d:Ljava/util/logging/Logger;
 
     const-string v3, "More than 1 proxy detected, gRPC will select the first one"
@@ -268,14 +250,12 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 9
     invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/net/Proxy;
 
-    .line 10
     invoke-virtual {v1}, Ljava/net/Proxy;->type()Ljava/net/Proxy$Type;
 
     move-result-object v2
@@ -286,7 +266,6 @@
 
     return-object v0
 
-    .line 11
     :cond_2
     invoke-virtual {v1}, Ljava/net/Proxy;->address()Ljava/net/SocketAddress;
 
@@ -294,20 +273,16 @@
 
     check-cast v1, Ljava/net/InetSocketAddress;
 
-    .line 12
     iget-object v2, p0, Lio/grpc/internal/z1;->b:Lio/grpc/internal/z1$c;
 
-    .line 13
     invoke-static {v1}, Lio/grpc/internal/GrpcUtil;->i(Ljava/net/InetSocketAddress;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 14
     invoke-virtual {v1}, Ljava/net/InetSocketAddress;->getAddress()Ljava/net/InetAddress;
 
     move-result-object v4
 
-    .line 15
     invoke-virtual {v1}, Ljava/net/InetSocketAddress;->getPort()I
 
     move-result v5
@@ -318,19 +293,16 @@
 
     const-string v7, ""
 
-    .line 16
     invoke-interface/range {v2 .. v8}, Lio/grpc/internal/z1$c;->a(Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/net/PasswordAuthentication;
 
     move-result-object v2
 
-    .line 17
     invoke-virtual {v1}, Ljava/net/InetSocketAddress;->isUnresolved()Z
 
     move-result v3
 
     if-eqz v3, :cond_3
 
-    .line 18
     invoke-virtual {v1}, Ljava/net/InetSocketAddress;->getHostName()Ljava/lang/String;
 
     move-result-object v3
@@ -339,7 +311,6 @@
 
     move-result-object v3
 
-    .line 19
     new-instance v4, Ljava/net/InetSocketAddress;
 
     invoke-virtual {v1}, Ljava/net/InetSocketAddress;->getPort()I
@@ -350,32 +321,27 @@
 
     move-object v1, v4
 
-    .line 20
     :cond_3
     invoke-static {}, Lio/grpc/HttpConnectProxiedSocketAddress;->newBuilder()Lio/grpc/HttpConnectProxiedSocketAddress$b;
 
     move-result-object v3
 
-    .line 21
     invoke-virtual {v3, p1}, Lio/grpc/HttpConnectProxiedSocketAddress$b;->d(Ljava/net/InetSocketAddress;)Lio/grpc/HttpConnectProxiedSocketAddress$b;
 
     move-result-object p1
 
-    .line 22
     invoke-virtual {p1, v1}, Lio/grpc/HttpConnectProxiedSocketAddress$b;->c(Ljava/net/SocketAddress;)Lio/grpc/HttpConnectProxiedSocketAddress$b;
 
     move-result-object p1
 
     if-nez v2, :cond_4
 
-    .line 23
     invoke-virtual {p1}, Lio/grpc/HttpConnectProxiedSocketAddress$b;->a()Lio/grpc/HttpConnectProxiedSocketAddress;
 
     move-result-object p1
 
     return-object p1
 
-    .line 24
     :cond_4
     invoke-virtual {v2}, Ljava/net/PasswordAuthentication;->getUserName()Ljava/lang/String;
 
@@ -385,7 +351,6 @@
 
     move-result-object p1
 
-    .line 25
     invoke-virtual {v2}, Ljava/net/PasswordAuthentication;->getPassword()[C
 
     move-result-object v1
@@ -408,7 +373,6 @@
 
     move-result-object p1
 
-    .line 26
     invoke-virtual {p1}, Lio/grpc/HttpConnectProxiedSocketAddress$b;->a()Lio/grpc/HttpConnectProxiedSocketAddress;
 
     move-result-object p1
@@ -418,7 +382,6 @@
     :catch_0
     move-exception p1
 
-    .line 27
     sget-object v1, Lio/grpc/internal/z1;->d:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
@@ -432,7 +395,6 @@
     :catchall_0
     move-exception p1
 
-    .line 28
     sget-object v1, Lio/grpc/internal/z1;->d:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
@@ -458,28 +420,24 @@
 
     const-string v1, ":"
 
-    .line 1
     invoke-virtual {p0, v1, v0}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object p0
 
     const/16 v0, 0x50
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x1
 
     if-le v1, v2, :cond_1
 
-    .line 3
     aget-object v0, p0, v2
 
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v0
 
-    .line 4
     :cond_1
     sget-object v1, Lio/grpc/internal/z1;->d:Ljava/util/logging/Logger;
 
@@ -487,7 +445,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/logging/Logger;->warning(Ljava/lang/String;)V
 
-    .line 5
     new-instance v1, Ljava/net/InetSocketAddress;
 
     const/4 v2, 0x0
@@ -512,7 +469,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     instance-of v0, p1, Ljava/net/InetSocketAddress;
 
     if-nez v0, :cond_0
@@ -521,39 +477,33 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/z1;->c:Ljava/net/InetSocketAddress;
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-static {}, Lio/grpc/HttpConnectProxiedSocketAddress;->newBuilder()Lio/grpc/HttpConnectProxiedSocketAddress$b;
 
     move-result-object v0
 
     iget-object v1, p0, Lio/grpc/internal/z1;->c:Ljava/net/InetSocketAddress;
 
-    .line 4
     invoke-virtual {v0, v1}, Lio/grpc/HttpConnectProxiedSocketAddress$b;->c(Ljava/net/SocketAddress;)Lio/grpc/HttpConnectProxiedSocketAddress$b;
 
     move-result-object v0
 
     check-cast p1, Ljava/net/InetSocketAddress;
 
-    .line 5
     invoke-virtual {v0, p1}, Lio/grpc/HttpConnectProxiedSocketAddress$b;->d(Ljava/net/InetSocketAddress;)Lio/grpc/HttpConnectProxiedSocketAddress$b;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Lio/grpc/HttpConnectProxiedSocketAddress$b;->a()Lio/grpc/HttpConnectProxiedSocketAddress;
 
     move-result-object p1
 
     return-object p1
 
-    .line 7
     :cond_1
     check-cast p1, Ljava/net/InetSocketAddress;
 

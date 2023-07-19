@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const/16 v1, 0x1a
@@ -56,10 +55,8 @@
 
     invoke-direct {p0, v0, p3, v1}, Lcom/google/android/gms/internal/ads/zzoq;-><init>(Ljava/lang/String;Lcom/google/android/gms/internal/ads/sf2;I)V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/internal/ads/zzot;->responseCode:I
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/zzot;->zzbiy:Ljava/util/Map;
 
     return-void

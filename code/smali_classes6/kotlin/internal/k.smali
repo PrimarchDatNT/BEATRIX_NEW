@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/internal/k$a;->a:Ljava/lang/reflect/Method;
 
     if-eqz v0, :cond_0
@@ -68,7 +66,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/random/b;
 
     invoke-direct {v0}, Lcotlin/random/b;-><init>()V
@@ -97,7 +94,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string p2, "Retrieving groups by name is not supported on this platform."
@@ -131,7 +127,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/internal/k$a;->b:Ljava/lang/reflect/Method;
 
     if-eqz v0, :cond_0
@@ -160,7 +155,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 

@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity$s;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/ProActivity;->Q0(Lcom/commsource/billing/activity/ProActivity;)Z
@@ -51,7 +50,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity$s;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/ProActivity;->O0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/beautyplus/f0/u0;
@@ -66,7 +64,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/recyclerview/widget/RecyclerView;->scrollBy(II)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

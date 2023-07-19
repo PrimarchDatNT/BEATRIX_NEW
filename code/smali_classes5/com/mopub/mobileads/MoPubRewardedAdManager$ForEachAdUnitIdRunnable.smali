@@ -32,13 +32,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$ForEachAdUnitIdRunnable;->mAdAdapter:Lcom/mopub/mobileads/AdAdapter;
 
     return-void
@@ -56,7 +53,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$000()Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     move-result-object v0
@@ -67,12 +63,10 @@
 
     iget-object v1, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$ForEachAdUnitIdRunnable;->mAdAdapter:Lcom/mopub/mobileads/AdAdapter;
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/mopub/mobileads/RewardedAdData;->getAdUnitIdsForAdAdapter(Lcom/mopub/mobileads/AdAdapter;)Ljava/util/Set;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -90,7 +84,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/mopub/mobileads/MoPubRewardedAdManager$ForEachAdUnitIdRunnable;->forEach(Ljava/lang/String;)V
 
     goto :goto_0

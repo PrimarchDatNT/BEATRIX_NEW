@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/mypage/album/z;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/z$a;->a:Lcom/commsource/mypage/album/z;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;-><init>()V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/z$a;->a:Lcom/commsource/mypage/album/z;
 
     invoke-static {v1}, Lcom/commsource/mypage/album/z;->a(Lcom/commsource/mypage/album/z;)Lcom/commsource/mypage/album/u;
@@ -50,7 +48,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/album/z$a;->a:Lcom/commsource/mypage/album/z;
 
     invoke-static {v1}, Lcom/commsource/mypage/album/z;->a(Lcom/commsource/mypage/album/z;)Lcom/commsource/mypage/album/u;
@@ -78,7 +75,6 @@
 
     return v2
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

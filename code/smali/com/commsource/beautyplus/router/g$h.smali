@@ -22,7 +22,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,7 +54,6 @@
 
     const-string v1, "minVersion"
 
-    .line 1
     invoke-virtual {p2, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -67,12 +65,10 @@
     :cond_0
     const-string v1, "androidMiniVersion"
 
-    .line 2
     invoke-virtual {p2, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     :goto_0
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -80,24 +76,20 @@
 
     if-nez p2, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/d/a;->f()Ljava/lang/String;
 
     move-result-object p2
 
-    .line 5
     invoke-static {v1, p2}, Lcom/commsource/util/x;->f(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p2
 
     if-lez p2, :cond_1
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->f0(Landroid/content/Context;)V
 
     const/4 p1, 0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -105,7 +97,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

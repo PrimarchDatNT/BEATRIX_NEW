@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$k;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/relight/NewRelightFragment;->M1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Z
@@ -69,7 +68,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$k;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/relight/NewRelightFragment;->D1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/NewRelightFragment$autoProcessor$2$a;
@@ -80,7 +78,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$k;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
@@ -90,7 +87,6 @@
 
     invoke-static {v0, v2, v3, v1, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -104,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/relight/NewRelightFragment$k;->a(Ljava/lang/Boolean;)V

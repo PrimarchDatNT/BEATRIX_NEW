@@ -22,10 +22,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/io/Writer;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -42,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$i;->a:Ljava/lang/StringBuilder;
 
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->length()I
@@ -51,7 +48,6 @@
 
     if-lez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$i;->a:Ljava/lang/StringBuilder;
 
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -62,7 +58,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$i;->a:Ljava/lang/StringBuilder;
 
     const/4 v2, 0x0
@@ -73,7 +68,6 @@
 
     invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -89,10 +83,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$i;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -105,10 +97,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$i;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -128,19 +118,16 @@
 
     add-int v2, p2, v1
 
-    .line 1
     aget-char v2, p1, v2
 
     const/16 v3, 0xa
 
     if-ne v2, v3, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$i;->a()V
 
     goto :goto_1
 
-    .line 3
     :cond_0
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$i;->a:Ljava/lang/StringBuilder;
 
@@ -151,7 +138,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

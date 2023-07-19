@@ -65,7 +65,6 @@
 
     new-instance v9, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;
 
-    .line 1
     const-class v8, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     const-string v3, "Look"
@@ -90,7 +89,6 @@
 
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;
 
-    .line 2
     const-class v16, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;
 
     const-string v11, "Beauty"
@@ -115,7 +113,6 @@
 
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;
 
-    .line 3
     const-class v10, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;
 
     const-string v5, "Makeup"
@@ -140,7 +137,6 @@
 
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;
 
-    .line 4
     const-class v10, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
     const-string v5, "Filter"
@@ -184,7 +180,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;->tag:Ljava/lang/String;
@@ -247,7 +242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;->drawableResId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -274,7 +268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;->fgClass:Ljava/lang/Class;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -289,7 +282,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;->nameResId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -306,7 +298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;->tag:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -321,7 +312,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;->drawableResId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -353,7 +343,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;->fgClass:Ljava/lang/Class;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -368,7 +357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;->nameResId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -391,7 +379,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;->tag:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -116,7 +116,6 @@
 
     const-string v4, "Cn"
 
-    .line 1
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->UNASSIGNED:Lcotlin/text/CharCategory;
@@ -131,7 +130,6 @@
 
     const-string v4, "Lu"
 
-    .line 2
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->UPPERCASE_LETTER:Lcotlin/text/CharCategory;
@@ -146,7 +144,6 @@
 
     const-string v4, "Ll"
 
-    .line 3
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->LOWERCASE_LETTER:Lcotlin/text/CharCategory;
@@ -161,7 +158,6 @@
 
     const-string v4, "Lt"
 
-    .line 4
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->TITLECASE_LETTER:Lcotlin/text/CharCategory;
@@ -176,7 +172,6 @@
 
     const-string v4, "Lm"
 
-    .line 5
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->MODIFIER_LETTER:Lcotlin/text/CharCategory;
@@ -191,7 +186,6 @@
 
     const-string v4, "Lo"
 
-    .line 6
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->OTHER_LETTER:Lcotlin/text/CharCategory;
@@ -206,7 +200,6 @@
 
     const-string v4, "Mn"
 
-    .line 7
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->NON_SPACING_MARK:Lcotlin/text/CharCategory;
@@ -221,7 +214,6 @@
 
     const-string v4, "Me"
 
-    .line 8
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->ENCLOSING_MARK:Lcotlin/text/CharCategory;
@@ -236,7 +228,6 @@
 
     const-string v4, "Mc"
 
-    .line 9
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->COMBINING_SPACING_MARK:Lcotlin/text/CharCategory;
@@ -251,7 +242,6 @@
 
     const-string v4, "Nd"
 
-    .line 10
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->DECIMAL_DIGIT_NUMBER:Lcotlin/text/CharCategory;
@@ -266,7 +256,6 @@
 
     const-string v4, "Nl"
 
-    .line 11
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->LETTER_NUMBER:Lcotlin/text/CharCategory;
@@ -281,7 +270,6 @@
 
     const-string v4, "No"
 
-    .line 12
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->OTHER_NUMBER:Lcotlin/text/CharCategory;
@@ -296,7 +284,6 @@
 
     const-string v4, "Zs"
 
-    .line 13
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->SPACE_SEPARATOR:Lcotlin/text/CharCategory;
@@ -311,7 +298,6 @@
 
     const-string v4, "Zl"
 
-    .line 14
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->LINE_SEPARATOR:Lcotlin/text/CharCategory;
@@ -326,7 +312,6 @@
 
     const-string v4, "Zp"
 
-    .line 15
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->PARAGRAPH_SEPARATOR:Lcotlin/text/CharCategory;
@@ -341,7 +326,6 @@
 
     const-string v4, "Cc"
 
-    .line 16
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->CONTROL:Lcotlin/text/CharCategory;
@@ -356,7 +340,6 @@
 
     const-string v4, "Cf"
 
-    .line 17
     invoke-direct {v1, v2, v3, v3, v4}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->FORMAT:Lcotlin/text/CharCategory;
@@ -373,7 +356,6 @@
 
     const-string v5, "Co"
 
-    .line 18
     invoke-direct {v1, v2, v3, v4, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->PRIVATE_USE:Lcotlin/text/CharCategory;
@@ -390,7 +372,6 @@
 
     const-string v5, "Cs"
 
-    .line 19
     invoke-direct {v1, v2, v4, v3, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->SURROGATE:Lcotlin/text/CharCategory;
@@ -405,7 +386,6 @@
 
     const-string v5, "Pd"
 
-    .line 20
     invoke-direct {v1, v2, v3, v4, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->DASH_PUNCTUATION:Lcotlin/text/CharCategory;
@@ -420,7 +400,6 @@
 
     const-string v5, "Ps"
 
-    .line 21
     invoke-direct {v1, v2, v4, v3, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->START_PUNCTUATION:Lcotlin/text/CharCategory;
@@ -435,7 +414,6 @@
 
     const-string v5, "Pe"
 
-    .line 22
     invoke-direct {v1, v2, v3, v4, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->END_PUNCTUATION:Lcotlin/text/CharCategory;
@@ -450,7 +428,6 @@
 
     const-string v5, "Pc"
 
-    .line 23
     invoke-direct {v1, v2, v4, v3, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->CONNECTOR_PUNCTUATION:Lcotlin/text/CharCategory;
@@ -465,7 +442,6 @@
 
     const-string v5, "Po"
 
-    .line 24
     invoke-direct {v1, v2, v3, v4, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->OTHER_PUNCTUATION:Lcotlin/text/CharCategory;
@@ -484,7 +460,6 @@
 
     const-string v5, "Sm"
 
-    .line 25
     invoke-direct {v1, v2, v3, v4, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->MATH_SYMBOL:Lcotlin/text/CharCategory;
@@ -503,7 +478,6 @@
 
     const-string v5, "Sc"
 
-    .line 26
     invoke-direct {v1, v2, v3, v4, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->CURRENCY_SYMBOL:Lcotlin/text/CharCategory;
@@ -522,7 +496,6 @@
 
     const-string v5, "Sk"
 
-    .line 27
     invoke-direct {v1, v2, v3, v4, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->MODIFIER_SYMBOL:Lcotlin/text/CharCategory;
@@ -541,7 +514,6 @@
 
     const-string v5, "So"
 
-    .line 28
     invoke-direct {v1, v2, v3, v4, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->OTHER_SYMBOL:Lcotlin/text/CharCategory;
@@ -560,7 +532,6 @@
 
     const-string v5, "Pi"
 
-    .line 29
     invoke-direct {v1, v2, v3, v4, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->INITIAL_QUOTE_PUNCTUATION:Lcotlin/text/CharCategory;
@@ -579,7 +550,6 @@
 
     const-string v5, "Pf"
 
-    .line 30
     invoke-direct {v1, v2, v3, v4, v5}, Lcotlin/text/CharCategory;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     sput-object v1, Lcotlin/text/CharCategory;->FINAL_QUOTE_PUNCTUATION:Lcotlin/text/CharCategory;
@@ -598,7 +568,6 @@
 
     sput-object v0, Lcotlin/text/CharCategory;->Companion:Lcotlin/text/CharCategory$a;
 
-    .line 31
     sget-object v0, Lcotlin/text/CharCategory$Companion$categoryMap$2;->INSTANCE:Lcotlin/text/CharCategory$Companion$categoryMap$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -620,7 +589,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcotlin/text/CharCategory;->value:I
@@ -633,7 +601,6 @@
 .method public static final synthetic access$getCategoryMap$cp()Lcotlin/w;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/text/CharCategory;->categoryMap$delegate:Lcotlin/w;
 
     return-object v0
@@ -672,7 +639,6 @@
 .method public final contains(C)Z
     .locals 1
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Character;->getType(C)I
 
     move-result p1
@@ -697,7 +663,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/CharCategory;->code:Ljava/lang/String;
 
     return-object v0
@@ -706,7 +671,6 @@
 .method public final getValue()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/text/CharCategory;->value:I
 
     return v0

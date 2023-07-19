@@ -53,7 +53,6 @@
 
     const-string v1, "result"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
@@ -82,25 +81,20 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initData$1;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/BaseActivity;->J0()V
 
-    .line 3
     new-instance p1, Lcom/commsource/studio/ImageStudioActivity$initData$1$1;
 
     const-string v1, "StudioInitImage"
 
-    .line 4
     invoke-direct {p1, p0, v1}, Lcom/commsource/studio/ImageStudioActivity$initData$1$1;-><init>(Lcom/commsource/studio/ImageStudioActivity$initData$1;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initData$1;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -116,7 +110,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

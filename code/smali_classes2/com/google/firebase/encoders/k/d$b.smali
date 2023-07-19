@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
@@ -47,7 +46,6 @@
 
     const-string v1, "UTC"
 
-    .line 2
     invoke-static {v1}, Ljava/util/TimeZone;->getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
 
     move-result-object v1
@@ -60,7 +58,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -69,7 +66,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/encoders/k/d$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/encoders/k/d$b;-><init>()V
 
     return-void
@@ -93,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/util/Date;
 
     check-cast p2, Lcom/google/firebase/encoders/h;
@@ -119,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/encoders/k/d$b;->a:Ljava/text/DateFormat;
 
     invoke-virtual {v0, p1}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;

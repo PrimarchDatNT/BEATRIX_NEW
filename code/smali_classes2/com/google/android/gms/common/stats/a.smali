@@ -64,7 +64,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -77,21 +76,16 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
     iput-object v0, p0, Lcom/google/android/gms/common/stats/a;->a:Ljava/util/List;
 
-    .line 3
     iput-object v0, p0, Lcom/google/android/gms/common/stats/a;->b:Ljava/util/List;
 
-    .line 4
     iput-object v0, p0, Lcom/google/android/gms/common/stats/a;->c:Ljava/util/List;
 
-    .line 5
     iput-object v0, p0, Lcom/google/android/gms/common/stats/a;->d:Ljava/util/List;
 
     return-void
@@ -102,30 +96,25 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/stats/a;->f:Lcom/google/android/gms/common/stats/a;
 
     if-nez v0, :cond_1
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/common/stats/a;->e:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/google/android/gms/common/stats/a;->f:Lcom/google/android/gms/common/stats/a;
 
     if-nez v1, :cond_0
 
-    .line 4
     new-instance v1, Lcom/google/android/gms/common/stats/a;
 
     invoke-direct {v1}, Lcom/google/android/gms/common/stats/a;-><init>()V
 
     sput-object v1, Lcom/google/android/gms/common/stats/a;->f:Lcom/google/android/gms/common/stats/a;
 
-    .line 5
     :cond_0
     monitor-exit v0
 
@@ -140,7 +129,6 @@
 
     throw v1
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v0, Lcom/google/android/gms/common/stats/a;->f:Lcom/google/android/gms/common/stats/a;
@@ -155,7 +143,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -192,7 +179,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p2}, Landroid/content/Context;->unbindService(Landroid/content/ServiceConnection;)V
 
     return-void
@@ -201,7 +187,6 @@
 .method public final d(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p3}, Landroid/content/Intent;->getComponent()Landroid/content/ComponentName;
 
     move-result-object p2
@@ -214,7 +199,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Landroid/content/ComponentName;->getPackageName()Ljava/lang/String;
 
@@ -231,12 +215,10 @@
 
     const-string p2, "Attempted to bind to a service in a STOPPED package."
 
-    .line 3
     invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return v0
 
-    .line 4
     :cond_1
     invoke-virtual {p1, p3, p4, p5}, Landroid/content/Context;->bindService(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z
 

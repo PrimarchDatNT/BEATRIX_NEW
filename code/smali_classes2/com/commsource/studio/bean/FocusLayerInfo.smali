@@ -102,27 +102,22 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/bean/BaseLayerInfo;-><init>()V
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 2
     iput v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->alpha:F
 
-    .line 3
     sget-object v0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Normal:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     iput-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->mixMode:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v0}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/layer/Position;
 
     invoke-direct {v0}, Lcom/commsource/studio/layer/Position;-><init>()V
@@ -131,38 +126,32 @@
 
     const/4 v0, -0x1
 
-    .line 6
     iput v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->shapeId:I
 
-    .line 7
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
 
-    .line 8
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->maskCropRectF:Landroid/graphics/RectF;
 
-    .line 9
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->circumscribedRect:Landroid/graphics/RectF;
 
-    .line 10
     new-instance v0, Lcom/commsource/studio/layer/Position;
 
     invoke-direct {v0}, Lcom/commsource/studio/layer/Position;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapPosition:Lcom/commsource/studio/layer/Position;
 
-    .line 11
     new-instance v0, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v0}, Lcom/commsource/studio/MatrixBox;-><init>()V
@@ -192,13 +181,11 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/bean/FocusLayerInfo;->updateBitmapRectChange(Landroid/graphics/RectF;ZZ)V
 
     return-void
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -218,7 +205,6 @@
 
     if-eqz p8, :cond_0
 
-    .line 1
     new-instance p2, Landroid/graphics/RectF;
 
     iget-object p8, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->maskCropRectF:Landroid/graphics/RectF;
@@ -232,7 +218,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 2
     new-instance p3, Lcom/commsource/studio/MatrixBox;
 
     iget-object p2, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
@@ -246,7 +231,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 3
     iget p4, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->shapeId:I
 
     :cond_2
@@ -264,7 +248,6 @@
 
     return-void
 
-    .line 4
     :cond_3
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -280,7 +263,6 @@
 .method public bridge synthetic copy(Z)Lcom/commsource/studio/bean/BaseLayerInfo;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/studio/bean/FocusLayerInfo;->copy(Z)Lcom/commsource/studio/bean/FocusLayerInfo;
 
     move-result-object p1
@@ -293,7 +275,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     invoke-super {p0, p1}, Lcom/commsource/studio/bean/BaseLayerInfo;->copy(Z)Lcom/commsource/studio/bean/BaseLayerInfo;
 
     move-result-object p1
@@ -304,10 +285,8 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p1, Lcom/commsource/studio/bean/FocusLayerInfo;->isMaskEdit:Z
 
-    .line 4
     new-instance v0, Landroid/graphics/RectF;
 
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->circumscribedRect:Landroid/graphics/RectF;
@@ -316,7 +295,6 @@
 
     iput-object v0, p1, Lcom/commsource/studio/bean/FocusLayerInfo;->circumscribedRect:Landroid/graphics/RectF;
 
-    .line 5
     new-instance v0, Landroid/graphics/Rect;
 
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
@@ -325,7 +303,6 @@
 
     iput-object v0, p1, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
 
-    .line 6
     new-instance v0, Landroid/graphics/RectF;
 
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->maskCropRectF:Landroid/graphics/RectF;
@@ -334,7 +311,6 @@
 
     iput-object v0, p1, Lcom/commsource/studio/bean/FocusLayerInfo;->maskCropRectF:Landroid/graphics/RectF;
 
-    .line 7
     new-instance v0, Lcom/commsource/studio/layer/Position;
 
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->position:Lcom/commsource/studio/layer/Position;
@@ -343,7 +319,6 @@
 
     iput-object v0, p1, Lcom/commsource/studio/bean/FocusLayerInfo;->position:Lcom/commsource/studio/layer/Position;
 
-    .line 8
     new-instance v0, Lcom/commsource/studio/MatrixBox;
 
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
@@ -352,7 +327,6 @@
 
     iput-object v0, p1, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
 
-    .line 9
     new-instance v0, Lcom/commsource/studio/layer/Position;
 
     iget-object v1, p1, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapPosition:Lcom/commsource/studio/layer/Position;
@@ -361,7 +335,6 @@
 
     iput-object v0, p1, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapPosition:Lcom/commsource/studio/layer/Position;
 
-    .line 10
     new-instance v0, Lcom/commsource/studio/MatrixBox;
 
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
@@ -372,7 +345,6 @@
 
     return-object p1
 
-    .line 11
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -386,7 +358,6 @@
 .method public getAlpha()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->alpha:F
 
     return v0
@@ -395,7 +366,6 @@
 .method public final getAspectRatio()F
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->width:I
 
     if-eqz v0, :cond_1
@@ -428,7 +398,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     return-object v0
@@ -439,7 +408,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapPosition:Lcom/commsource/studio/layer/Position;
 
     return-object v0
@@ -450,7 +418,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->circumscribedRect:Landroid/graphics/RectF;
 
     return-object v0
@@ -461,7 +428,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     return-object v0
@@ -472,14 +438,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/MatrixBox;
 
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v0, v1}, Lcom/commsource/studio/MatrixBox;-><init>(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->isFlipX:Z
 
     const/4 v2, 0x1
@@ -492,7 +456,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
 
     move-result-object v1
@@ -511,16 +474,13 @@
 
     invoke-virtual {v1, v4, v3, v6, v7}, Landroid/graphics/Matrix;->preScale(FFFF)Z
 
-    .line 4
     invoke-virtual {v0, v2}, Lcom/commsource/studio/MatrixBox;->setFlipX(Z)V
 
-    .line 5
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->isFlipY:Z
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {v0}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
 
     move-result-object v1
@@ -539,10 +499,8 @@
 
     invoke-virtual {v1, v3, v4, v6, v7}, Landroid/graphics/Matrix;->preScale(FFFF)Z
 
-    .line 7
     invoke-virtual {v0, v2}, Lcom/commsource/studio/MatrixBox;->setFlipY(Z)V
 
-    .line 8
     :cond_1
     invoke-virtual {v0}, Lcom/commsource/studio/MatrixBox;->updateMatrixFloat()V
 
@@ -554,7 +512,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->groupLayerInfo:Lcom/commsource/studio/bean/GroupLayerInfo;
 
     return-object v0
@@ -563,7 +520,6 @@
 .method public final getHeight()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->height:I
 
     return v0
@@ -574,7 +530,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->maskCropRectF:Landroid/graphics/RectF;
 
     return-object v0
@@ -585,7 +540,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->mixMode:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     return-object v0
@@ -596,7 +550,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
 
     return-object v0
@@ -607,17 +560,14 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v0}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixConsiderFlip()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v1
@@ -632,7 +582,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->position:Lcom/commsource/studio/layer/Position;
 
     return-object v0
@@ -641,7 +590,6 @@
 .method public final getRealFlipX()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->realFlipX:Z
 
     return v0
@@ -650,7 +598,6 @@
 .method public final getRealFlipY()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->realFlipY:Z
 
     return v0
@@ -661,7 +608,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/graphics/RectF;
 
     iget v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->width:I
@@ -676,7 +622,6 @@
 
     invoke-direct {v0, v3, v3, v1, v2}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -691,7 +636,6 @@
 .method public final getShapeId()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->shapeId:I
 
     return v0
@@ -700,7 +644,6 @@
 .method public final getWidth()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->width:I
 
     return v0
@@ -709,7 +652,6 @@
 .method public final hasMaskEffect()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v0}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -776,7 +718,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     aget v2, p1, v1
 
     aput v2, v0, v1
@@ -787,7 +728,6 @@
 
     aput p1, v0, v2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
@@ -796,7 +736,6 @@
 
     invoke-virtual {p1, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 3
     new-instance p1, Landroid/graphics/RectF;
 
     iget v3, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->width:I
@@ -850,7 +789,6 @@
 .method public final isFlipX()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->isFlipX:Z
 
     return v0
@@ -859,7 +797,6 @@
 .method public final isFlipY()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->isFlipY:Z
 
     return v0
@@ -868,7 +805,6 @@
 .method public final isInDefaultPosition(II)Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v0}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -885,7 +821,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->position:Lcom/commsource/studio/layer/Position;
 
@@ -897,7 +832,6 @@
 
     const/high16 v1, 0x3f000000    # 0.5f
 
-    .line 3
     invoke-static {v0, v1}, Lcom/commsource/util/common/i;->r(FF)Z
 
     move-result v0
@@ -906,7 +840,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->position:Lcom/commsource/studio/layer/Position;
 
     invoke-virtual {v0}, Lcom/commsource/studio/layer/Position;->getCenterOffset()Landroid/graphics/PointF;
@@ -923,7 +856,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->position:Lcom/commsource/studio/layer/Position;
 
@@ -941,7 +873,6 @@
 
     return v2
 
-    .line 6
     :cond_2
     iget v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->width:I
 
@@ -959,7 +890,6 @@
 
     div-float/2addr v0, p1
 
-    .line 7
     iget p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->height:I
 
     int-to-float p1, p1
@@ -976,14 +906,12 @@
 
     div-float/2addr p1, p2
 
-    .line 8
     invoke-static {v0, p1}, Lcotlin/g2/o;->m(FF)F
 
     move-result p1
 
     const p2, 0x3f4ccccd    # 0.8f
 
-    .line 9
     invoke-static {p1, p2}, Lcom/commsource/util/common/i;->r(FF)Z
 
     move-result p1
@@ -998,7 +926,6 @@
 .method public final isMaskEdit()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->isMaskEdit:Z
 
     return v0
@@ -1007,7 +934,6 @@
 .method public onUpdateMatrix(II)V
     .locals 8
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->width:I
 
     if-lez v0, :cond_0
@@ -1016,10 +942,8 @@
 
     if-lez v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->position:Lcom/commsource/studio/layer/Position;
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     int-to-float v4, p1
@@ -1030,7 +954,6 @@
 
     int-to-float v7, v1
 
-    .line 4
     invoke-virtual/range {v2 .. v7}, Lcom/commsource/studio/layer/Position;->set(Lcom/commsource/studio/MatrixBox;FFFF)V
 
     :cond_0
@@ -1040,7 +963,6 @@
 .method public setAlpha(F)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->alpha:F
 
     return-void
@@ -1057,7 +979,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     return-void
@@ -1074,7 +995,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapPosition:Lcom/commsource/studio/layer/Position;
 
     return-void
@@ -1091,7 +1011,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->circumscribedRect:Landroid/graphics/RectF;
 
     return-void
@@ -1108,7 +1027,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     return-void
@@ -1117,7 +1035,6 @@
 .method public final setFlipX(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->isFlipX:Z
 
     return-void
@@ -1126,7 +1043,6 @@
 .method public final setFlipY(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->isFlipY:Z
 
     return-void
@@ -1139,7 +1055,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->groupLayerInfo:Lcom/commsource/studio/bean/GroupLayerInfo;
 
     return-void
@@ -1148,7 +1063,6 @@
 .method public final setHeight(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->height:I
 
     return-void
@@ -1165,7 +1079,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->maskCropRectF:Landroid/graphics/RectF;
 
     return-void
@@ -1174,7 +1087,6 @@
 .method public final setMaskEdit(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->isMaskEdit:Z
 
     return-void
@@ -1187,7 +1099,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->mixMode:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     return-void
@@ -1204,7 +1115,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
 
     return-void
@@ -1221,7 +1131,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->position:Lcom/commsource/studio/layer/Position;
 
     return-void
@@ -1230,7 +1139,6 @@
 .method public final setRealFlipX(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->realFlipX:Z
 
     return-void
@@ -1239,7 +1147,6 @@
 .method public final setRealFlipY(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->realFlipY:Z
 
     return-void
@@ -1248,7 +1155,6 @@
 .method public final setShapeId(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->shapeId:I
 
     return-void
@@ -1257,7 +1163,6 @@
 .method public final setWidth(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->width:I
 
     return-void
@@ -1274,7 +1179,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Landroid/graphics/RectF;
 
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
@@ -1291,13 +1195,11 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance p2, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p2}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v0}, Lcom/commsource/studio/MatrixBox;->getRotate()F
@@ -1316,14 +1218,12 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/studio/MatrixBox;->postRotate$default(Lcom/commsource/studio/MatrixBox;FFFILjava/lang/Object;)V
 
-    .line 4
     new-instance v0, Landroid/graphics/RectF;
 
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->maskCropRectF:Landroid/graphics/RectF;
 
     invoke-direct {v0, v1}, Landroid/graphics/RectF;-><init>(Landroid/graphics/RectF;)V
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
 
     move-result-object v1
@@ -1332,7 +1232,6 @@
 
     if-nez p3, :cond_2
 
-    .line 6
     invoke-virtual {p1, v0}, Landroid/graphics/RectF;->contains(Landroid/graphics/RectF;)Z
 
     move-result p3
@@ -1363,16 +1262,13 @@
 
     if-ltz p3, :cond_2
 
-    .line 7
     :cond_1
     iget-object p3, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p3}, Lcom/commsource/studio/MatrixBox;->reset()V
 
-    .line 8
     iget-object p3, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
-    .line 9
     invoke-virtual {v0}, Landroid/graphics/RectF;->centerX()F
 
     move-result v1
@@ -1383,7 +1279,6 @@
 
     sub-float/2addr v1, v2
 
-    .line 10
     invoke-virtual {v0}, Landroid/graphics/RectF;->centerY()F
 
     move-result v0
@@ -1394,17 +1289,14 @@
 
     sub-float/2addr v0, v2
 
-    .line 11
     invoke-virtual {p3, v1, v0}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 12
     iget-object p3, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p3, p2}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
     goto :goto_0
 
-    .line 13
     :cond_2
     invoke-virtual {v0}, Landroid/graphics/RectF;->width()F
 
@@ -1416,7 +1308,6 @@
 
     div-float/2addr p3, v1
 
-    .line 14
     invoke-virtual {v0}, Landroid/graphics/RectF;->height()F
 
     move-result v1
@@ -1431,28 +1322,22 @@
 
     move-result v3
 
-    .line 15
     new-instance p3, Landroid/graphics/RectF;
 
     invoke-direct {p3, p1}, Landroid/graphics/RectF;-><init>(Landroid/graphics/RectF;)V
 
-    .line 16
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 17
     invoke-virtual {v1, v3, v3}, Landroid/graphics/Matrix;->postScale(FF)Z
 
-    .line 18
     invoke-virtual {v1, p3}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->reset()V
 
-    .line 20
     iget-object v2, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     const/4 v4, 0x0
@@ -1465,10 +1350,8 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/MatrixBox;->postScale$default(Lcom/commsource/studio/MatrixBox;FFFILjava/lang/Object;)V
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
-    .line 22
     invoke-virtual {v0}, Landroid/graphics/RectF;->centerX()F
 
     move-result v2
@@ -1479,7 +1362,6 @@
 
     sub-float/2addr v2, v3
 
-    .line 23
     invoke-virtual {v0}, Landroid/graphics/RectF;->centerY()F
 
     move-result v0
@@ -1490,27 +1372,21 @@
 
     sub-float/2addr v0, p3
 
-    .line 24
     invoke-virtual {v1, v2, v0}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 25
     iget-object p3, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p3, p2}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 26
     :goto_0
     iget-object p2, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
 
-    .line 27
     new-instance p3, Landroid/graphics/Rect;
 
     invoke-direct {p3}, Landroid/graphics/Rect;-><init>()V
 
-    .line 28
     invoke-virtual {p1, p3}, Landroid/graphics/RectF;->roundOut(Landroid/graphics/Rect;)V
 
-    .line 29
     invoke-virtual {p2, p3}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
     return-void
@@ -1551,7 +1427,6 @@
 
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v4, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
 
     invoke-virtual {v4}, Landroid/graphics/Rect;->isEmpty()Z
@@ -1579,12 +1454,10 @@
 
     const/4 v3, 0x0
 
-    .line 2
     invoke-static {v1, v2, v3, v5, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
     return-void
 
-    .line 3
     :cond_1
     :goto_0
     iget-object v4, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
@@ -1593,7 +1466,6 @@
 
     new-array v4, v5, [F
 
-    .line 4
     iget v6, v2, Landroid/graphics/RectF;->left:F
 
     const/4 v7, 0x0
@@ -1606,7 +1478,6 @@
 
     aput v6, v4, v8
 
-    .line 5
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
 
     move-result-object v6
@@ -1615,7 +1486,6 @@
 
     new-array v6, v5, [F
 
-    .line 6
     iget v9, v2, Landroid/graphics/RectF;->left:F
 
     aput v9, v6, v7
@@ -1624,7 +1494,6 @@
 
     aput v9, v6, v8
 
-    .line 7
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
 
     move-result-object v9
@@ -1633,7 +1502,6 @@
 
     new-array v5, v5, [F
 
-    .line 8
     iget v9, v2, Landroid/graphics/RectF;->right:F
 
     aput v9, v5, v7
@@ -1642,7 +1510,6 @@
 
     aput v9, v5, v8
 
-    .line 9
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
 
     move-result-object v9
@@ -1651,12 +1518,10 @@
 
     const/16 v9, 0x1e
 
-    .line 10
     invoke-static {v9}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v9
 
-    .line 11
     aget v10, v4, v7
 
     aget v11, v4, v8
@@ -1669,7 +1534,6 @@
 
     move-result v5
 
-    .line 12
     aget v10, v4, v7
 
     aget v4, v4, v8
@@ -1699,7 +1563,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_3
     :goto_1
     invoke-virtual/range {p2 .. p2}, Landroid/graphics/RectF;->width()F
@@ -1714,7 +1577,6 @@
 
     if-lez v4, :cond_4
 
-    .line 14
     invoke-virtual/range {p2 .. p2}, Landroid/graphics/RectF;->width()F
 
     move-result v4
@@ -1735,7 +1597,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_4
     invoke-virtual/range {p2 .. p2}, Landroid/graphics/RectF;->height()F
 
@@ -1754,14 +1615,12 @@
 
     float-to-int v4, v4
 
-    .line 16
     invoke-virtual/range {p2 .. p2}, Landroid/graphics/RectF;->width()F
 
     move-result v6
 
     div-float v11, v6, v9
 
-    .line 17
     iget-object v6, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->maskCropRectF:Landroid/graphics/RectF;
 
     int-to-float v7, v5
@@ -1772,7 +1631,6 @@
 
     invoke-virtual {v6, v9, v9, v7, v8}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 18
     new-instance v6, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v6}, Lcom/commsource/studio/MatrixBox;-><init>()V
@@ -1787,41 +1645,32 @@
 
     move-object v10, v6
 
-    .line 19
     invoke-static/range {v10 .. v15}, Lcom/commsource/studio/MatrixBox;->postScale$default(Lcom/commsource/studio/MatrixBox;FFFILjava/lang/Object;)V
 
-    .line 20
     iget v9, v2, Landroid/graphics/RectF;->left:F
 
     iget v2, v2, Landroid/graphics/RectF;->top:F
 
     invoke-virtual {v6, v9, v2}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 21
     invoke-virtual {v0, v5, v4}, Lcom/commsource/studio/bean/FocusLayerInfo;->updateSize(II)V
 
-    .line 22
     iget-object v2, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     new-instance v4, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v4}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 23
     invoke-virtual {v4, v6}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 24
     iget-object v5, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 25
     invoke-virtual {v2, v4}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 26
     iget-object v12, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->position:Lcom/commsource/studio/layer/Position;
 
-    .line 27
     iget-object v13, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
 
     move/from16 v2, p5
@@ -1836,58 +1685,46 @@
 
     move/from16 v17, v8
 
-    .line 28
     invoke-virtual/range {v12 .. v17}, Lcom/commsource/studio/layer/Position;->set(Lcom/commsource/studio/MatrixBox;FFFF)V
 
     move/from16 v2, p4
 
-    .line 29
     iput v2, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->shapeId:I
 
-    .line 30
     iget-object v2, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
-    .line 31
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->reset()V
 
-    .line 32
     invoke-virtual {v2, v3}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 33
     invoke-virtual {v6}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v3
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 34
     iget-object v2, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapPosition:Lcom/commsource/studio/layer/Position;
 
-    .line 35
     iget-object v3, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
 
-    .line 36
     iget-object v4, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->maskCropRectF:Landroid/graphics/RectF;
 
     invoke-virtual {v4}, Landroid/graphics/RectF;->width()F
 
     move-result v4
 
-    .line 37
     iget-object v5, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->maskCropRectF:Landroid/graphics/RectF;
 
     invoke-virtual {v5}, Landroid/graphics/RectF;->height()F
 
     move-result v5
 
-    .line 38
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Rect;->width()I
 
     move-result v6
 
     int-to-float v6, v6
 
-    .line 39
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Rect;->height()I
 
     move-result v1
@@ -1906,7 +1743,6 @@
 
     move/from16 p6, v1
 
-    .line 40
     invoke-virtual/range {p1 .. p6}, Lcom/commsource/studio/layer/Position;->set(Lcom/commsource/studio/MatrixBox;FFFF)V
 
     return-void
@@ -1915,10 +1751,8 @@
 .method public updateSize(II)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->width:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->height:I
 
     return-void

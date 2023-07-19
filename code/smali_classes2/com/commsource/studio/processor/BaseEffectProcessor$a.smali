@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor$a;-><init>()V
 
     return-void
@@ -74,7 +72,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -99,46 +96,38 @@
 
     check-cast v4, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     aget-object v3, p1, v2
 
     iget v5, v3, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
     rsub-int/lit8 v3, v2, 0x1
 
-    .line 3
     aget-object v6, p1, v3
 
     iget v6, v6, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
-    .line 4
     aget-object v7, p1, v2
 
     iget v7, v7, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 5
     aget-object v8, p1, v3
 
     iget v8, v8, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 6
     aget-object v9, p1, v1
 
     iget v9, v9, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
-    .line 7
     aget-object v10, p1, v1
 
     iget v10, v10, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
 
     const/4 v11, 0x1
 
-    .line 8
     invoke-virtual/range {v4 .. v11}, Lcom/commsource/camera/newrender/renderproxy/n;->j(IIIIIIZ)I
 
     move-result v4
 
-    .line 9
     aget-object v5, p1, v2
 
     iget v5, v5, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
@@ -149,7 +138,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     aget-object p1, p1, v2
 

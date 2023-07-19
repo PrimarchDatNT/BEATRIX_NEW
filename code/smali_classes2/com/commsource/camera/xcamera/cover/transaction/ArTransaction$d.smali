@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$d;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/a;->q()Lcom/commsource/camera/xcamera/cover/CoverGroup;
@@ -75,7 +73,6 @@
 
     invoke-static {v1, p1}, Lf/d/i/n;->f1(Landroid/content/Context;Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$d;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -84,7 +81,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->D2(Z)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -98,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$d;->a(Ljava/lang/Boolean;)V

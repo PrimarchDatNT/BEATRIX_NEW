@@ -49,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/media/decoder/FlyMediaReader;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -61,12 +60,10 @@
     :try_start_0
     const-string v1, "ffmpeg"
 
-    .line 2
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     const-string v1, "aicodec"
 
-    .line 3
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_0 .. :try_end_0} :catch_0
@@ -76,23 +73,19 @@
     :catch_0
     move-exception v1
 
-    .line 4
     sget-object v2, Lcom/meitu/media/decoder/FlyMediaReader;->b:Ljava/lang/String;
 
     const-string v3, "System.loadLibrary aicodec failed"
 
     invoke-static {v2, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/UnsatisfiedLinkError;->printStackTrace()V
 
-    .line 6
     :goto_0
     sget-object v1, Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
 
     const-string v2, "arm64-v8a"
 
-    .line 7
     invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -104,7 +97,6 @@
     :try_start_1
     const-string v1, "c++_shared"
 
-    .line 8
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_1 .. :try_end_1} :catch_1
@@ -114,19 +106,15 @@
     :catch_1
     move-exception v1
 
-    .line 9
     invoke-virtual {v1}, Ljava/lang/UnsatisfiedLinkError;->printStackTrace()V
 
-    .line 10
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 11
     :cond_0
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 12
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -136,12 +124,10 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     return-void
@@ -216,12 +202,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_close(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -234,7 +218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_getAudioDuration(J)F
@@ -257,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_getDuration(J)F
@@ -280,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_getFps(J)F
@@ -299,7 +280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_getRotation(J)J
@@ -320,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_getVideoBuffer(J)J
@@ -339,7 +318,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_getVideoDuration(J)F
@@ -376,7 +354,6 @@
 
     move-object v10, p0
 
-    .line 1
     iget-wide v2, v10, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     move-object v1, p0
@@ -409,7 +386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_getVideoHeight(J)J
@@ -430,7 +406,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/decoder/FlyMediaReader;->e()I
 
     move-result v1
@@ -445,7 +420,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/media/decoder/FlyMediaReader;->i()I
 
@@ -457,7 +431,6 @@
 
     return-wide v1
 
-    .line 3
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lcom/meitu/media/decoder/FlyMediaReader;->l()I
@@ -478,7 +451,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/decoder/FlyMediaReader;->e()I
 
     move-result v1
@@ -493,7 +465,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/media/decoder/FlyMediaReader;->l()I
 
@@ -503,7 +474,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lcom/meitu/media/decoder/FlyMediaReader;->i()I
@@ -522,7 +492,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_getVideoWidth(J)J
@@ -543,7 +512,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/media/decoder/FlyMediaReader;->native_open(JLjava/lang/String;)J
@@ -565,7 +533,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -579,12 +546,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_pause(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -597,7 +562,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_registerEGLContext(J)Z
@@ -616,12 +580,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_resume(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -634,7 +596,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_start(J)Z
@@ -653,12 +614,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/decoder/FlyMediaReader;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/decoder/FlyMediaReader;->native_stop(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -57,63 +57,50 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->n:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x1
 
-    .line 2
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->b:I
 
     const/4 v0, 0x2
 
-    .line 3
     iput v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->c:I
 
     const/4 v1, 0x3
 
-    .line 4
     iput v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->d:I
 
     const/4 v2, 0x4
 
-    .line 5
     iput v2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->e:I
 
     const/4 v2, 0x5
 
-    .line 6
     iput v2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->f:I
 
     const/4 v2, 0x6
 
-    .line 7
     iput v2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->g:I
 
     const/4 v2, 0x7
 
-    .line 8
     iput v2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->h:I
 
     const/16 v2, 0x8
 
-    .line 9
     iput v2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->i:I
 
     const/16 v2, 0x9
 
-    .line 10
     iput v2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->j:I
 
-    .line 11
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->k:I
 
-    .line 12
     iput v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->l:I
 
-    .line 13
     iput v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->m:I
 
     return-void
@@ -126,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->n:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->E(Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;)Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -143,7 +129,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->getArHelpRule()I
 
     move-result v1
@@ -152,7 +137,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p1, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a$a;
 
@@ -160,12 +144,10 @@
 
     invoke-static {p1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -190,7 +172,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->a:I
 
     if-ne p1, p2, :cond_0
@@ -201,7 +182,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->b:I
 
@@ -213,7 +193,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->c:I
 
@@ -225,7 +204,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->d:I
 
@@ -237,7 +215,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->e:I
 
@@ -249,7 +226,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->f:I
 
@@ -261,7 +237,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_5
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->g:I
 
@@ -273,7 +248,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_6
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->h:I
 
@@ -285,7 +259,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_7
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->i:I
 
@@ -297,7 +270,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_8
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->j:I
 
@@ -307,7 +279,6 @@
 
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->c(I)V
 
-    .line 11
     :cond_9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -322,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->k:I
 
     if-eq p1, v1, :cond_2
@@ -333,7 +303,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget v2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->l:I
 
@@ -344,7 +313,6 @@
     :cond_1
     const/4 p1, 0x3
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->c(I)V
 
     goto :goto_1
@@ -353,10 +321,8 @@
     :goto_0
     const/4 p1, 0x4
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->c(I)V
 
-    .line 5
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -381,10 +347,8 @@
 
     const/4 p1, 0x2
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->c(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

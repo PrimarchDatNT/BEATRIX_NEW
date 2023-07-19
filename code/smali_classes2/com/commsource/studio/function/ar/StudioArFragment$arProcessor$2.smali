@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/function/ar/ArProcessor;
 
     invoke-direct {v1}, Lcom/commsource/studio/function/ar/ArProcessor;-><init>()V
@@ -88,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArFragment$arProcessor$2;->invoke()Lcom/commsource/studio/function/ar/ArProcessor;
 
     move-result-object v1

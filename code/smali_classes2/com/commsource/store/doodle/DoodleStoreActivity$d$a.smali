@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/doodle/DoodleStoreActivity$d$a;->e:Lcom/commsource/store/doodle/DoodleStoreActivity$d;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/delegate/process/m;-><init>(Ljava/lang/String;)V
@@ -49,7 +48,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/store/doodle/DoodleStoreActivity$d$a;->e:Lcom/commsource/store/doodle/DoodleStoreActivity$d;
 
     iget-object p1, p1, Lcom/commsource/store/doodle/DoodleStoreActivity$d;->a:Lcom/commsource/store/doodle/DoodleStoreActivity;
@@ -66,7 +64,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

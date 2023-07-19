@@ -50,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/g$c;->a:Lcom/commsource/camera/f1/g;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/g;->d()Lcom/commsource/camera/f1/g$a;
@@ -59,7 +58,6 @@
 
     invoke-static {v1}, Lcom/commsource/camera/ardata/e;->y(Lcom/commsource/camera/f1/g$a;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/f1/g$c;->b:Lcom/commsource/widget/s0;
 
     invoke-virtual {v1}, Landroid/app/Dialog;->isShowing()Z
@@ -68,7 +66,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/f1/g$c;->b:Lcom/commsource/widget/s0;
 
     invoke-virtual {v1}, Landroid/app/Dialog;->dismiss()V
@@ -76,15 +73,12 @@
     :cond_0
     sget v1, Lcom/res/provider/ResSTRING;->t_request_material_error_tip:I
 
-    .line 4
     invoke-static {v1}, Lf/k/c/c/f;->h(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/f1/g$c;->c:Ljava/lang/Runnable;
 
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

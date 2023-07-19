@@ -55,20 +55,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$arGiphyMaterialViewModel$2;->this$0:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
-    .line 3
     const-class v2, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->S0(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
     move-result-object v1
 
     check-cast v1, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -81,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$arGiphyMaterialViewModel$2;->invoke()Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;
 
     move-result-object v1

@@ -73,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -90,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->this$0:Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5;
 
     iget-object v1, v1, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
@@ -109,34 +107,28 @@
 
     move-result-object v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$jni$inlined:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
-    .line 4
     iget v4, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$makeupType$inlined:I
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$it:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;->h()F
 
     move-result v5
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$it:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;->g()F
 
     move-result v6
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$it:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;->f()F
 
     move-result v7
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$alpha$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iget-object v1, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -158,10 +150,8 @@
 
     div-float v8, v1, v8
 
-    .line 9
     invoke-static/range {v2 .. v8}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->x(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;IFFFF)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

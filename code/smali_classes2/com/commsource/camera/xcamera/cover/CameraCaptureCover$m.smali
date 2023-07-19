@@ -57,10 +57,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$m;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -79,7 +77,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$m;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -92,7 +89,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->Q()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -106,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$m;->a(Ljava/lang/Boolean;)V

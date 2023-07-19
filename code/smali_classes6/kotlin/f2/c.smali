@@ -40,10 +40,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcotlin/f2/c;->a:Ljava/lang/Object;
 
     return-void
@@ -74,7 +72,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcotlin/f2/c;->a:Ljava/lang/Object;
 
     return-object p1
@@ -103,10 +100,8 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcotlin/f2/c;->a:Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0, p2, p1, p3}, Lcotlin/f2/c;->d(Lcotlin/reflect/n;Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
@@ -115,11 +110,9 @@
 
     return-void
 
-    .line 3
     :cond_0
     iput-object p3, p0, Lcotlin/f2/c;->a:Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p0, p2, p1, p3}, Lcotlin/f2/c;->c(Lcotlin/reflect/n;Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void

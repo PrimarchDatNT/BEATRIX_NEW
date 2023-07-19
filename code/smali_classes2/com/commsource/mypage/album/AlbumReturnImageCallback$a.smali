@@ -105,7 +105,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;->a:Landroid/content/Intent;
@@ -142,7 +141,6 @@
 
     const-string p2, "EXTRA_IMAGE"
 
-    .line 1
     invoke-virtual {p3, p2}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
 
     move-result-object p2
@@ -167,7 +165,6 @@
     :goto_1
     if-eqz p1, :cond_2
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;->b:Lcotlin/jvm/u/l;
 
     invoke-interface {p2, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
@@ -175,7 +172,6 @@
     :cond_2
     const/4 p1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -196,14 +192,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;->a:Landroid/content/Intent;
 
     const/16 v2, 0xa8
 
     invoke-virtual {p1, v1, v2}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -228,7 +222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;->b:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -245,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;->a:Landroid/content/Intent;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -93,15 +93,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->J:Z
 
-    .line 3
     new-instance p1, Landroid/animation/ValueAnimator;
 
     invoke-direct {p1}, Landroid/animation/ValueAnimator;-><init>()V
@@ -118,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p0, :cond_0
@@ -140,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->c:Landroid/view/View;
 
     if-nez p0, :cond_0
@@ -162,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -177,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->c:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -263,7 +256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->J:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -289,7 +281,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->L:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -315,7 +306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->K:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -342,7 +332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->M:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -357,7 +346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->g:Landroidx/recyclerview/widget/RecyclerView;
 
     if-nez v1, :cond_0
@@ -373,13 +361,10 @@
 
     const/4 v1, 0x4
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 3
     invoke-virtual {p0, v2}, Landroid/widget/FrameLayout;->setScrollY(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     const-string v3, "container"
@@ -391,7 +376,6 @@
     :cond_1
     invoke-virtual {v1, v2}, Landroid/view/View;->setScrollY(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez v1, :cond_2
@@ -416,7 +400,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getHeight()I
 
     move-result v1
@@ -427,7 +410,6 @@
 
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -440,7 +422,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->g:Landroidx/recyclerview/widget/RecyclerView;
 
     if-nez v1, :cond_0
@@ -456,10 +437,8 @@
 
     const/4 v1, 0x4
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
     const-string v3, "space"
@@ -475,7 +454,6 @@
 
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->setScrollY(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     const-string v4, "container"
@@ -487,7 +465,6 @@
     :cond_2
     invoke-virtual {v1, v2}, Landroid/view/View;->setScrollY(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez v1, :cond_3
@@ -510,7 +487,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getHeight()I
 
     move-result v1
@@ -519,7 +495,6 @@
 
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -532,10 +507,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->J:Z
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->a:Z
 
     if-eqz v1, :cond_6
@@ -546,7 +519,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->c:Landroid/view/View;
 
     if-nez p1, :cond_0
@@ -588,7 +560,6 @@
 
     throw p1
 
-    .line 4
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->c:Landroid/view/View;
 
@@ -620,7 +591,6 @@
 
     throw p1
 
-    .line 5
     :cond_6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -635,17 +605,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/widget/FrameLayout;->onFinishInflate()V
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->a:Z
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {p0, v2}, Landroid/widget/FrameLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v3
@@ -656,7 +623,6 @@
 
     iput-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->b:Landroid/view/View;
 
-    .line 4
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v3
@@ -669,7 +635,6 @@
 
     const/4 v3, 0x2
 
-    .line 5
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v3
@@ -684,7 +649,6 @@
 
     if-nez v3, :cond_0
 
-    .line 6
     invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -704,7 +668,6 @@
 
     iput-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->g:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez v2, :cond_1
@@ -726,12 +689,10 @@
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->c:Landroid/view/View;
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_2
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -741,7 +702,6 @@
 
     throw v1
 
-    .line 10
     :cond_3
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -778,7 +738,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x15
@@ -787,12 +746,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->onNestedFling(Landroid/view/View;FFZ)Z
 
@@ -818,19 +775,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->p:Z
 
     if-eqz v1, :cond_0
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -840,12 +794,10 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 5
     :cond_1
     invoke-super {p0, p1, p2, p3}, Landroid/widget/FrameLayout;->onNestedPreFling(Landroid/view/View;FF)Z
 
@@ -889,7 +841,6 @@
 
     if-lez p3, :cond_3
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result v3
@@ -949,7 +900,6 @@
 
     if-gez p3, :cond_9
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result v6
@@ -958,7 +908,6 @@
 
     if-eqz v7, :cond_6
 
-    .line 3
     iget-object v7, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
     if-nez v7, :cond_4
@@ -985,7 +934,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_6
     iget-object v7, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
@@ -1029,13 +977,11 @@
     :cond_a
     if-nez p5, :cond_b
 
-    .line 5
     iput-boolean v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->p:Z
 
     :cond_b
     if-lez p3, :cond_f
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result v3
@@ -1093,7 +1039,6 @@
 
     if-gez p3, :cond_14
 
-    .line 7
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result v7
@@ -1172,7 +1117,6 @@
 
     goto/16 :goto_f
 
-    .line 8
     :cond_15
     iget-boolean v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->J:Z
 
@@ -1180,7 +1124,6 @@
 
     if-lez p3, :cond_1b
 
-    .line 9
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result v3
@@ -1262,7 +1205,6 @@
     :goto_5
     if-gez p3, :cond_1f
 
-    .line 10
     iget-object v7, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez v7, :cond_1c
@@ -1316,7 +1258,6 @@
 
     if-eqz v7, :cond_2a
 
-    .line 11
     :cond_20
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
@@ -1331,7 +1272,6 @@
 
     add-int/2addr p1, p3
 
-    .line 12
     iget-object p5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->c:Landroid/view/View;
 
     if-nez p5, :cond_22
@@ -1345,7 +1285,6 @@
 
     if-le p1, p5, :cond_25
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p1, :cond_23
@@ -1361,7 +1300,6 @@
 
     aput p1, p4, v2
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p1, :cond_24
@@ -1376,7 +1314,6 @@
     :cond_25
     if-gez p1, :cond_28
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p1, :cond_26
@@ -1392,7 +1329,6 @@
 
     aput p1, p4, v2
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p1, :cond_27
@@ -1404,11 +1340,9 @@
 
     goto :goto_7
 
-    .line 17
     :cond_28
     aput p3, p4, v2
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p1, :cond_29
@@ -1418,7 +1352,6 @@
     :cond_29
     invoke-virtual {p1, v0, p3}, Landroid/view/View;->scrollBy(II)V
 
-    .line 19
     :goto_7
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1427,7 +1360,6 @@
     :cond_2a
     if-gez p3, :cond_2c
 
-    .line 20
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result v3
@@ -1459,7 +1391,6 @@
 
     if-nez p5, :cond_2e
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p1, :cond_2d
@@ -1477,10 +1408,8 @@
 
     invoke-virtual {p1, p5}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 22
     aput p3, p4, v2
 
-    .line 23
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1488,12 +1417,10 @@
     :cond_2e
     if-lez p3, :cond_35
 
-    .line 24
     iget-boolean v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->J:Z
 
     if-eqz v3, :cond_31
 
-    .line 25
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez v3, :cond_2f
@@ -1549,7 +1476,6 @@
     :goto_a
     if-eqz v3, :cond_35
 
-    .line 26
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->g:Landroidx/recyclerview/widget/RecyclerView;
 
     if-nez v3, :cond_34
@@ -1575,7 +1501,6 @@
 
     if-nez p5, :cond_37
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p1, :cond_36
@@ -1593,10 +1518,8 @@
 
     invoke-virtual {p1, p5}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 28
     aput p3, p4, v2
 
-    .line 29
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1604,7 +1527,6 @@
     :cond_37
     if-lez p3, :cond_3a
 
-    .line 30
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result p5
@@ -1649,10 +1571,8 @@
     :goto_c
     if-eqz p5, :cond_41
 
-    .line 31
     iput-boolean v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->p:Z
 
-    .line 32
     iget-object p5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p5, :cond_3b
@@ -1668,7 +1588,6 @@
 
     sub-float/2addr p5, v0
 
-    .line 33
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
     if-nez v0, :cond_3c
@@ -1686,7 +1605,6 @@
 
     if-gez v0, :cond_3f
 
-    .line 34
     iget-object p5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p5, :cond_3d
@@ -1711,7 +1629,6 @@
 
     goto :goto_d
 
-    .line 35
     :cond_3f
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
@@ -1722,11 +1639,9 @@
     :cond_40
     invoke-virtual {p1, p5}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 36
     :goto_d
     aput p3, p4, v2
 
-    .line 37
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1734,7 +1649,6 @@
     :cond_41
     if-gez p3, :cond_45
 
-    .line 38
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result p5
@@ -1785,10 +1699,8 @@
     :cond_45
     if-eqz v0, :cond_4c
 
-    .line 39
     iput-boolean v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->p:Z
 
-    .line 40
     iget-object p5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p5, :cond_46
@@ -1804,7 +1716,6 @@
 
     sub-float/2addr p5, v0
 
-    .line 41
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
     if-nez v0, :cond_47
@@ -1822,7 +1733,6 @@
 
     if-lez v0, :cond_4a
 
-    .line 42
     iget-object p5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p5, :cond_48
@@ -1847,7 +1757,6 @@
 
     goto :goto_e
 
-    .line 43
     :cond_4a
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
@@ -1858,22 +1767,18 @@
     :cond_4b
     invoke-virtual {p1, p5}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 44
     :goto_e
     aput p3, p4, v2
 
-    .line 45
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 46
     :cond_4c
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 47
     :cond_4d
     :goto_f
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
@@ -1882,7 +1787,6 @@
 
     add-int/2addr p5, p3
 
-    .line 48
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
     if-nez v1, :cond_4e
@@ -1896,7 +1800,6 @@
 
     if-le p5, v1, :cond_51
 
-    .line 49
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
     if-nez p3, :cond_4f
@@ -1916,7 +1819,6 @@
 
     aput p3, p4, v2
 
-    .line 50
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
     if-nez p3, :cond_50
@@ -1935,7 +1837,6 @@
     :cond_51
     if-gez p5, :cond_52
 
-    .line 51
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result p1
@@ -1944,25 +1845,20 @@
 
     aput p1, p4, v2
 
-    .line 52
     invoke-virtual {p0, v0, v0}, Landroid/widget/FrameLayout;->scrollTo(II)V
 
     goto :goto_10
 
-    .line 53
     :cond_52
     aput p3, p4, v2
 
-    .line 54
     invoke-virtual {p0, v0, p3}, Landroid/widget/FrameLayout;->scrollBy(II)V
 
-    .line 55
     :goto_10
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->M:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_53
 
-    .line 56
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result p3
@@ -1973,10 +1869,8 @@
 
     invoke-interface {p1, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 57
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    .line 58
     :cond_53
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1998,7 +1892,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 23
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2031,7 +1924,6 @@
 
     if-ne p6, p1, :cond_13
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result p3
@@ -2061,14 +1953,12 @@
 
     if-gez p5, :cond_6
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result p3
 
     add-int/2addr p3, p5
 
-    .line 3
     iget-object p6, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
     if-nez p6, :cond_1
@@ -2082,7 +1972,6 @@
 
     if-le p3, p6, :cond_4
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
     if-nez p3, :cond_2
@@ -2102,7 +1991,6 @@
 
     aput p3, p7, p1
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
     if-nez p1, :cond_3
@@ -2121,7 +2009,6 @@
     :cond_4
     if-gez p3, :cond_5
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result p3
@@ -2130,25 +2017,20 @@
 
     aput p3, p7, p1
 
-    .line 7
     invoke-virtual {p0, p4, p4}, Landroid/widget/FrameLayout;->scrollTo(II)V
 
     goto :goto_0
 
-    .line 8
     :cond_5
     aput p5, p7, p1
 
-    .line 9
     invoke-virtual {p0, p4, p5}, Landroid/widget/FrameLayout;->scrollBy(II)V
 
-    .line 10
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->M:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_13
 
-    .line 11
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getScrollY()I
 
     move-result p3
@@ -2161,7 +2043,6 @@
 
     goto/16 :goto_1
 
-    .line 12
     :cond_6
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
@@ -2206,12 +2087,10 @@
 
     if-lez p5, :cond_13
 
-    .line 13
     iget-boolean p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->J:Z
 
     if-eqz p3, :cond_13
 
-    .line 14
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p3, :cond_a
@@ -2225,7 +2104,6 @@
 
     add-int/2addr p3, p5
 
-    .line 15
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->c:Landroid/view/View;
 
     if-nez v0, :cond_b
@@ -2239,7 +2117,6 @@
 
     if-le p3, v0, :cond_e
 
-    .line 16
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p3, :cond_c
@@ -2255,7 +2132,6 @@
 
     aput p3, p7, p1
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p1, :cond_d
@@ -2270,7 +2146,6 @@
     :cond_e
     if-gez p3, :cond_11
 
-    .line 18
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p3, :cond_f
@@ -2286,7 +2161,6 @@
 
     aput p3, p7, p1
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p1, :cond_10
@@ -2298,11 +2172,9 @@
 
     goto :goto_1
 
-    .line 20
     :cond_11
     aput p5, p7, p1
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p1, :cond_12
@@ -2312,7 +2184,6 @@
     :cond_12
     invoke-virtual {p1, p4, p5}, Landroid/view/View;->scrollBy(II)V
 
-    .line 22
     :cond_13
     :goto_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2343,7 +2214,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2356,10 +2226,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->onSizeChanged(IIII)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->c:Landroid/view/View;
 
     if-nez p1, :cond_0
@@ -2375,7 +2243,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2404,7 +2271,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -2429,10 +2295,8 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->p:Z
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     const-string v1, "container"
@@ -2469,7 +2333,6 @@
 
     if-gtz v0, :cond_5
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->K:Lcotlin/jvm/u/a;
 
     if-eqz p1, :cond_2
@@ -2480,7 +2343,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 4
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
@@ -2506,7 +2368,6 @@
 
     goto/16 :goto_0
 
-    .line 5
     :cond_5
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
@@ -2540,7 +2401,6 @@
 
     if-ltz v0, :cond_b
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->L:Lcotlin/jvm/u/a;
 
     if-eqz p1, :cond_8
@@ -2551,7 +2411,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 7
     :cond_8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
@@ -2577,7 +2436,6 @@
 
     goto/16 :goto_0
 
-    .line 8
     :cond_b
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
@@ -2607,7 +2465,6 @@
 
     if-eqz v0, :cond_13
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->N:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -2616,12 +2473,10 @@
 
     if-eqz v0, :cond_e
 
-    .line 10
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->N:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 11
     :cond_e
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
@@ -2634,7 +2489,6 @@
 
     move-result v0
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
     if-nez v2, :cond_10
@@ -2669,7 +2523,6 @@
 
     div-int/lit8 v1, v1, 0x5
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->N:Landroid/animation/ValueAnimator;
 
     const/4 v3, 0x2
@@ -2697,7 +2550,6 @@
 
     invoke-virtual {v2, v3}, Landroid/animation/ValueAnimator;->setFloatValues([F)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->N:Landroid/animation/ValueAnimator;
 
     new-instance v0, Landroid/view/animation/AccelerateDecelerateInterpolator;
@@ -2706,7 +2558,6 @@
 
     invoke-virtual {p1, v0}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->N:Landroid/animation/ValueAnimator;
 
     const/16 v0, 0xc8
@@ -2719,7 +2570,6 @@
 
     invoke-virtual {p1, v0, v1}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->N:Landroid/animation/ValueAnimator;
 
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout$b;
@@ -2728,12 +2578,10 @@
 
     invoke-virtual {p1, v0}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->N:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 18
     :cond_13
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2748,7 +2596,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->J:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2775,7 +2622,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->L:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2802,7 +2648,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->K:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2827,7 +2672,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d:Landroid/view/View;
 
@@ -2843,7 +2687,6 @@
     :goto_0
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->setScrollY(I)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     const-string v3, "container"
@@ -2855,7 +2698,6 @@
     :cond_2
     invoke-virtual {p1, v2}, Landroid/view/View;->setScrollY(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->f:Landroid/view/View;
 
     if-nez p1, :cond_3
@@ -2878,7 +2720,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2905,7 +2746,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->M:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

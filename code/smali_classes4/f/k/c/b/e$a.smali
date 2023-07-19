@@ -26,7 +26,6 @@
 .method constructor <init>(Lf/k/c/b/e;Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/c/b/e$a;->c:Lf/k/c/b/e;
 
     iput-object p2, p0, Lf/k/c/b/e$a;->a:Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/e$a;->c:Lf/k/c/b/e;
 
     invoke-static {v1, p1}, Lf/k/c/b/e;->a(Lf/k/c/b/e;I)Z
@@ -66,13 +64,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lf/k/c/b/e$a;->b:Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->getSpanSize(I)I
 
     move-result p1
@@ -84,12 +80,10 @@
     :cond_1
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 5
     :cond_2
     :goto_0
     iget-object p1, p0, Lf/k/c/b/e$a;->a:Landroidx/recyclerview/widget/RecyclerView$LayoutManager;

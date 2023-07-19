@@ -60,7 +60,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/formula/convert/EffectParams;->filter:Lcom/commsource/studio/formula/convert/FormulaFilter;
@@ -366,7 +365,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/convert/EffectParams;->background:Lcom/commsource/studio/formula/convert/FormulaBackground;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -383,7 +381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/convert/EffectParams;->filter:Lcom/commsource/studio/formula/convert/FormulaFilter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -400,7 +397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/convert/EffectParams;->picture:Lcom/commsource/studio/formula/convert/FormulaPicture;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -417,7 +413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/convert/EffectParams;->sticker:Lcom/commsource/studio/formula/convert/FormulaSticker;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -434,7 +429,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/convert/EffectParams;->text:Lcom/commsource/studio/formula/convert/FormulaText;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

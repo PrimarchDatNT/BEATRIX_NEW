@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel$b;->e:Lcom/commsource/studio/component/StudioProViewModel;
 
     iput-object p2, p0, Lcom/commsource/studio/component/StudioProViewModel$b;->f:Lcotlin/jvm/u/l;
@@ -57,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel$b;->e:Lcom/commsource/studio/component/StudioProViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/component/StudioProViewModel;->B()Landroidx/lifecycle/MutableLiveData;
@@ -70,7 +68,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel$b;->f:Lcotlin/jvm/u/l;
 
     if-eqz v1, :cond_0
@@ -85,7 +82,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/io/m$a;
 
     invoke-direct {v0}, Lcom/google/common/io/m$a;-><init>()V
@@ -41,7 +40,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,7 +50,6 @@
 .method public a(Ljava/io/Closeable;Ljava/lang/Throwable;Ljava/lang/Throwable;)V
     .locals 3
 
-    .line 1
     sget-object p2, Lcom/google/common/io/l;->a:Ljava/util/logging/Logger;
 
     sget-object v0, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;

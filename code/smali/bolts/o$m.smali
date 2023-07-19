@@ -35,7 +35,6 @@
 .method constructor <init>(Ljava/util/Collection;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/o$m;->a:Ljava/util/Collection;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -64,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lbolts/o$m;->a:Ljava/util/Collection;
 
     invoke-interface {p1}, Ljava/util/Collection;->size()I
@@ -73,20 +71,17 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object p1
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     iget-object v0, p0, Lbolts/o$m;->a:Ljava/util/Collection;
 
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
@@ -106,7 +101,6 @@
 
     check-cast v1, Lbolts/o;
 
-    .line 5
     invoke-virtual {v1}, Lbolts/o;->F()Ljava/lang/Object;
 
     move-result-object v1
@@ -127,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lbolts/o$m;->a(Lbolts/o;)Ljava/util/List;
 
     move-result-object p1

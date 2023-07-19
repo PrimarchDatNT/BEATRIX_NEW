@@ -32,7 +32,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/p/a/b0;Lcom/google/firebase/auth/p/a/v3;Lcom/google/firebase/auth/p/a/q2;Lcom/google/android/gms/internal/firebase_auth/zzes;Lcom/google/android/gms/internal/firebase_auth/h2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/p/a/d4;->e:Lcom/google/firebase/auth/p/a/b0;
 
     iput-object p2, p0, Lcom/google/firebase/auth/p/a/d4;->a:Lcom/google/firebase/auth/p/a/v3;
@@ -57,7 +56,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/d4;->a:Lcom/google/firebase/auth/p/a/v3;
 
     invoke-interface {v0, p1}, Lcom/google/firebase/auth/p/a/v3;->a(Ljava/lang/String;)V
@@ -68,17 +66,14 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 7
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/zzek;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzek;->y()Ljava/util/List;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -87,7 +82,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/d4;->e:Lcom/google/firebase/auth/p/a/b0;
 
@@ -113,7 +107,6 @@
 
     return-void
 
-    .line 5
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/google/firebase/auth/p/a/d4;->a:Lcom/google/firebase/auth/p/a/v3;

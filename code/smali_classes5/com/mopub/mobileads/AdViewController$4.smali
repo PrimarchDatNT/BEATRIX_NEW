@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/AdViewController;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdViewController$4;->this$0:Lcom/mopub/mobileads/AdViewController;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,12 +41,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/AdViewController$4;->this$0:Lcom/mopub/mobileads/AdViewController;
 
     invoke-static {v0, p1}, Lcom/mopub/mobileads/AdViewController;->access$302(Lcom/mopub/mobileads/AdViewController;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/mobileads/AdViewController$4;->this$0:Lcom/mopub/mobileads/AdViewController;
 
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdViewController;->generateAdUrl()Ljava/lang/String;

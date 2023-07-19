@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/j0/c/b;Lcom/commsource/push/bean/UpdateBean;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/j0/c/b$a;->b:Lcom/commsource/beautyplus/j0/c/b;
 
     iput-object p2, p0, Lcom/commsource/beautyplus/j0/c/b$a;->a:Lcom/commsource/push/bean/UpdateBean;
@@ -56,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lf/k/k/h;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/j0/c/b$a;->c(Lf/k/k/h;)V
@@ -73,7 +71,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/j0/c/b$a;->b:Lcom/commsource/beautyplus/j0/c/b;
 
     invoke-virtual {v0}, Lcom/commsource/beautyplus/base/b/a;->c()Lcom/commsource/beautyplus/base/b/a$c;
@@ -92,7 +89,6 @@
 
     invoke-interface {v0, v1}, Lcom/commsource/beautyplus/base/b/a$c;->a(Ljava/lang/Integer;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -115,14 +111,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lf/k/k/h;->b()Ljava/lang/Object;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/j0/c/b$a;->b:Lcom/commsource/beautyplus/j0/c/b;
 
     invoke-virtual {p1}, Lf/k/k/h;->b()Ljava/lang/Object;
@@ -135,7 +129,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/beautyplus/j0/c/b;->i(Lcom/commsource/beautyplus/j0/c/b;Lcom/commsource/push/bean/g;Lcom/commsource/push/bean/UpdateBean;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/j0/c/b$a;->b:Lcom/commsource/beautyplus/j0/c/b;
 
     invoke-virtual {p1}, Lf/k/k/h;->b()Ljava/lang/Object;
@@ -148,7 +141,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/j0/c/b;->j(Lcom/commsource/beautyplus/j0/c/b;Lcom/commsource/push/bean/i;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

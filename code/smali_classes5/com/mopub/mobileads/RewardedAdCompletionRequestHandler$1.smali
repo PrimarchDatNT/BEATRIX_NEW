@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/RewardedAdCompletionRequestHandler;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/RewardedAdCompletionRequestHandler$1;->this$0:Lcom/mopub/mobileads/RewardedAdCompletionRequestHandler;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdCompletionRequestHandler$1;->this$0:Lcom/mopub/mobileads/RewardedAdCompletionRequestHandler;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/RewardedAdCompletionRequestHandler;->makeRewardedAdCompletionRequest()V

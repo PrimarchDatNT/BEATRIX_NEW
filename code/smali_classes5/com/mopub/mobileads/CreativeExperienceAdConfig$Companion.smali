@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/mobileads/CreativeExperienceAdConfig$Companion;-><init>()V
 
     return-void
@@ -44,12 +42,10 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/CreativeExperienceAdConfig;
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/CreativeExperienceAdConfig$Companion;->getDefaultMinTimeUntilNextActionSecs(Z)I
 
     move-result p2
@@ -63,18 +59,15 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/CreativeExperienceAdConfig$Companion;->getDefaultCountdownTimerDelaySecs(Z)I
 
     move-result v1
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/CreativeExperienceAdConfig$Companion;->getDefaultShowCountdownTimer(Z)Z
 
     move-result p1
 
-    .line 5
     invoke-direct {v0, p2, v1, p1}, Lcom/mopub/mobileads/CreativeExperienceAdConfig;-><init>(Ljava/lang/Integer;IZ)V
 
     return-object v0

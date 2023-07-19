@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/ln2;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 .method static synthetic G5(Lcom/google/android/gms/internal/ads/xp2;)Lcom/google/android/gms/internal/ads/cn2;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/xp2;->b:Lcom/google/android/gms/internal/ads/cn2;
 
     return-object p0
@@ -69,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/xp2;->b:Lcom/google/android/gms/internal/ads/cn2;
 
     return-void
@@ -138,7 +135,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zp2;
 
     const/4 v1, 0x0

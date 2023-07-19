@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment$i$a;->b:Lcom/commsource/studio/function/ar/StudioArChildFragment$i;
 
     iget-object v1, v1, Lcom/commsource/studio/function/ar/StudioArChildFragment$i;->a:Lcom/commsource/studio/function/ar/StudioArChildFragment;
@@ -59,7 +58,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

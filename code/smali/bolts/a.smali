@@ -31,14 +31,12 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lbolts/a;
 
     invoke-direct {v0}, Lbolts/a;-><init>()V
 
     sput-object v0, Lbolts/a;->b:Lbolts/a;
 
-    .line 2
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v0
@@ -51,14 +49,12 @@
 
     add-int/lit8 v1, v0, 0x1
 
-    .line 3
     sput v1, Lbolts/a;->d:I
 
     mul-int/lit8 v0, v0, 0x2
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 4
     sput v0, Lbolts/a;->e:I
 
     return-void
@@ -67,10 +63,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lbolts/a$b;
 
     const/4 v1, 0x0
@@ -90,14 +84,12 @@
         }
     .end annotation
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x9
 
     if-lt v0, v1, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Ljava/util/concurrent/ThreadPoolExecutor;->allowCoreThreadTimeOut(Z)V
 
     :cond_0
@@ -107,7 +99,6 @@
 .method public static b()Ljava/util/concurrent/ExecutorService;
     .locals 8
 
-    .line 1
     new-instance v7, Ljava/util/concurrent/ThreadPoolExecutor;
 
     sget v1, Lbolts/a;->d:I
@@ -128,7 +119,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-static {v7, v0}, Lbolts/a;->a(Ljava/util/concurrent/ThreadPoolExecutor;Z)V
 
     return-object v7
@@ -137,7 +127,6 @@
 .method public static c(Ljava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ExecutorService;
     .locals 9
 
-    .line 1
     new-instance v8, Ljava/util/concurrent/ThreadPoolExecutor;
 
     sget v1, Lbolts/a;->d:I
@@ -160,7 +149,6 @@
 
     const/4 p0, 0x1
 
-    .line 2
     invoke-static {v8, p0}, Lbolts/a;->a(Ljava/util/concurrent/ThreadPoolExecutor;Z)V
 
     return-object v8
@@ -169,7 +157,6 @@
 .method public static d()Ljava/util/concurrent/Executor;
     .locals 1
 
-    .line 1
     sget-object v0, Lbolts/a;->b:Lbolts/a;
 
     iget-object v0, v0, Lbolts/a;->a:Ljava/util/concurrent/Executor;

@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -50,14 +49,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     sget-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/a1;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/a1$a;
 
     invoke-virtual {v2, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/a1$a;->b(I)Ljava/lang/String;
@@ -68,7 +65,6 @@
 
     invoke-virtual {v1, v3, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {v2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/a1$a;->c(I)Ljava/lang/String;
 
     move-result-object p0
@@ -79,10 +75,8 @@
 
     const-string p0, "selfie_ar_imp"
 
-    .line 4
     invoke-static {p0, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -97,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/r;
 
     if-eqz v1, :cond_0
@@ -110,10 +103,8 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 2
     check-cast p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/r;
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
     move-result-object p1
@@ -130,7 +121,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
     move-result-object p1
@@ -145,7 +135,6 @@
 
     move-result p1
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
     move-result-object p2
@@ -160,7 +149,6 @@
 
     move-result p2
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -171,7 +159,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 7
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/a;
 
     invoke-direct {v1, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/a;-><init>(II)V
@@ -180,7 +167,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/c2;->f(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -194,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     check-cast p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;

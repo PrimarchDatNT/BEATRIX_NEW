@@ -48,7 +48,6 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$debounce$2;
 
     const/4 v1, 0x0
@@ -61,7 +60,6 @@
 
     return-object p0
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -103,7 +101,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcotlinx/coroutines/v0;->d(D)J
 
     move-result-wide p1
@@ -173,7 +170,6 @@
 
     const/4 v7, 0x0
 
-    .line 1
     new-instance v8, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;
 
     const/4 v5, 0x0
@@ -206,7 +202,6 @@
 
     return-object v0
 
-    .line 2
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -234,7 +229,6 @@
 
     throw v1
 
-    .line 3
     :cond_3
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -272,7 +266,6 @@
 
     move-wide p3, p1
 
-    .line 1
     :cond_0
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/flow/f;->t0(Lcotlinx/coroutines/m0;JJ)Lcotlinx/coroutines/channels/y;
 
@@ -321,7 +314,6 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;
 
     const/4 v1, 0x0
@@ -334,7 +326,6 @@
 
     return-object p0
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -376,7 +367,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcotlinx/coroutines/v0;->d(D)J
 
     move-result-wide p1

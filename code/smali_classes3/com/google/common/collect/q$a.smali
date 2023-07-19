@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/collect/q;-><init>(Lcom/google/common/collect/q$a;)V
 
     return-void
@@ -31,7 +30,6 @@
 .method public d(DD)Lcom/google/common/collect/q;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2, p3, p4}, Ljava/lang/Double;->compare(DD)I
 
     move-result p1
@@ -46,7 +44,6 @@
 .method public e(FF)Lcom/google/common/collect/q;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Float;->compare(FF)I
 
     move-result p1
@@ -61,7 +58,6 @@
 .method public f(II)Lcom/google/common/collect/q;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/common/primitives/Ints;->e(II)I
 
     move-result p1
@@ -76,7 +72,6 @@
 .method public g(JJ)Lcom/google/common/collect/q;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2, p3, p4}, Lcom/google/common/primitives/Longs;->d(JJ)I
 
     move-result p1
@@ -91,7 +86,6 @@
 .method public i(Ljava/lang/Comparable;Ljava/lang/Comparable;)Lcom/google/common/collect/q;
     .locals 0
 
-    .line 1
     invoke-interface {p1, p2}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result p1
@@ -124,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p3, p1, p2}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result p1
@@ -139,7 +132,6 @@
 .method public k(ZZ)Lcom/google/common/collect/q;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/common/primitives/Booleans;->d(ZZ)I
 
     move-result p1
@@ -154,7 +146,6 @@
 .method public l(ZZ)Lcom/google/common/collect/q;
     .locals 0
 
-    .line 1
     invoke-static {p2, p1}, Lcom/google/common/primitives/Booleans;->d(ZZ)I
 
     move-result p1
@@ -179,7 +170,6 @@
 
     if-gez p1, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/q;->a()Lcom/google/common/collect/q;
 
     move-result-object p1

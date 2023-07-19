@@ -160,14 +160,12 @@
 
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor$uploadMethodData$1;->label:I
 
     if-nez v1, :cond_1
 
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor$uploadMethodData$1;->this$0:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
     invoke-static {p1}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->b(Lcom/meitu/library/appcia/trace/block/BlockMonitor;)Landroid/app/Application;
@@ -180,12 +178,10 @@
 
     move-result-object p1
 
-    .line 3
     sget-boolean v1, Lcom/meitu/library/appcia/h/b/a;->h:Z
 
     if-nez v1, :cond_0
 
-    .line 4
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -199,7 +195,6 @@
 
     const/4 v3, 0x0
 
-    .line 5
     new-instance v4, Lcom/meitu/library/analytics/y/l/j/b$a;
 
     invoke-virtual {p1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
@@ -214,10 +209,8 @@
 
     const-string p1, "appcia_trace_anr_info"
 
-    .line 6
     invoke-static {p1, v2}, Lcom/meitu/library/analytics/o;->W(Ljava/lang/String;[Lcom/meitu/library/analytics/y/l/j/b$a;)V
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/library/appcia/trace/block/BlockMonitor$uploadMethodData$1;->this$0:Lcom/meitu/library/appcia/trace/block/BlockMonitor;
 
     invoke-static {p1}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->d(Lcom/meitu/library/appcia/trace/block/BlockMonitor;)I
@@ -228,7 +221,6 @@
 
     invoke-static {p1, v2}, Lcom/meitu/library/appcia/trace/block/BlockMonitor;->j(Lcom/meitu/library/appcia/trace/block/BlockMonitor;I)V
 
-    .line 8
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

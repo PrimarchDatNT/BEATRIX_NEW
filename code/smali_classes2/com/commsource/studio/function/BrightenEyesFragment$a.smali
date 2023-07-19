@@ -30,7 +30,6 @@
 
     iput-object p4, p0, Lcom/commsource/studio/function/BrightenEyesFragment$a;->f:Lcom/commsource/studio/function/BrightenEyesFragment;
 
-    .line 1
     invoke-direct {p0, p2, p3}, Lcom/commsource/studio/function/automanual/c;-><init>(Lcom/commsource/studio/processor/f;Lcom/commsource/studio/layer/PaintMaskLayer;)V
 
     return-void
@@ -61,7 +60,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/BrightenEyesFragment$a;->f:Lcom/commsource/studio/function/BrightenEyesFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/BrightenEyesFragment;->E1(Lcom/commsource/studio/function/BrightenEyesFragment;)Lcom/commsource/studio/processor/f;
@@ -70,7 +68,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object p2
@@ -87,10 +84,8 @@
 
     const/16 v2, 0x1e
 
-    .line 3
     invoke-static {p2, v1, v2}, Lcom/meitu/core/processor/EyeBrightProcessor;->brightProc(Lcom/meitu/core/types/NativeBitmap;II)Z
 
-    .line 4
     invoke-virtual {p2}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
 
     move-result-object v1
@@ -101,10 +96,8 @@
 
     invoke-static {v1, p1}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 5
     invoke-virtual {p2}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

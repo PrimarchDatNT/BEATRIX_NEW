@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/crash/anr/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/crash/anr/b$b;->a:Lcom/tencent/bugly/crashreport/crash/anr/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/crash/anr/b$b;->a:Lcom/tencent/bugly/crashreport/crash/anr/b;
 
     invoke-virtual {v0}, Lcom/tencent/bugly/crashreport/crash/anr/b;->b()V

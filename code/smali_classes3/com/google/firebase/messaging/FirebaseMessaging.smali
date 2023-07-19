@@ -45,33 +45,26 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sput-object p6, Lcom/google/firebase/messaging/FirebaseMessaging;->e:Lcom/google/android/datatransport/h;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/messaging/FirebaseMessaging;->b:Lcom/google/firebase/iid/FirebaseInstanceId;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/d;->l()Landroid/content/Context;
 
     move-result-object v6
 
     iput-object v6, p0, Lcom/google/firebase/messaging/FirebaseMessaging;->a:Landroid/content/Context;
 
-    .line 5
     new-instance v2, Lcom/google/firebase/iid/s;
 
     invoke-direct {v2, v6}, Lcom/google/firebase/iid/s;-><init>(Landroid/content/Context;)V
 
-    .line 6
     invoke-static {}, Lcom/google/firebase/messaging/n;->a()Ljava/util/concurrent/Executor;
 
     move-result-object v7
 
-    .line 7
     new-instance v8, Ljava/util/concurrent/ScheduledThreadPoolExecutor;
 
     new-instance p6, Lcom/google/android/gms/common/util/f0/b;
@@ -94,14 +87,12 @@
 
     move-object v5, p5
 
-    .line 8
     invoke-static/range {v0 .. v8}, Lcom/google/firebase/messaging/e;->a(Lcom/google/firebase/d;Lcom/google/firebase/iid/FirebaseInstanceId;Lcom/google/firebase/iid/s;Lcom/google/firebase/y/i;Lcom/google/firebase/heartbeatinfo/HeartBeatInfo;Lcom/google/firebase/installations/j;Landroid/content/Context;Ljava/util/concurrent/Executor;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/firebase/messaging/FirebaseMessaging;->c:Lcom/google/android/gms/tasks/k;
 
-    .line 9
     invoke-static {}, Lcom/google/firebase/messaging/n;->c()Ljava/util/concurrent/Executor;
 
     move-result-object p2
@@ -110,7 +101,6 @@
 
     invoke-direct {p3, p0}, Lcom/google/firebase/messaging/p;-><init>(Lcom/google/firebase/messaging/FirebaseMessaging;)V
 
-    .line 10
     invoke-virtual {p1, p2, p3}, Lcom/google/android/gms/tasks/k;->l(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/g;)Lcom/google/android/gms/tasks/k;
 
     return-void
@@ -125,7 +115,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/google/firebase/d;->n()Lcom/google/firebase/d;
 
@@ -165,7 +154,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, v0}, Lcom/google/firebase/d;->j(Ljava/lang/Class;)Ljava/lang/Object;
 
@@ -194,7 +182,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/messaging/w;->e()Z
 
     move-result v0
@@ -205,7 +192,6 @@
 .method public c()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/FirebaseMessaging;->b:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v0}, Lcom/google/firebase/iid/FirebaseInstanceId;->F()Z
@@ -222,7 +208,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/messaging/RemoteMessage;->A0()Ljava/lang/String;
 
     move-result-object v0
@@ -233,24 +218,20 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "com.google.android.gcm.intent.SEND"
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 3
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
     const-string v2, "com.google.example.invalidpackage"
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 5
     iget-object v2, p0, Lcom/google/firebase/messaging/FirebaseMessaging;->a:Landroid/content/Context;
 
     const/4 v3, 0x0
@@ -265,15 +246,12 @@
 
     const-string v1, "com.google.android.gms"
 
-    .line 6
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 7
     iget-object p1, p1, Lcom/google/firebase/messaging/RemoteMessage;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1}, Landroid/content/Intent;->putExtras(Landroid/os/Bundle;)Landroid/content/Intent;
 
-    .line 8
     iget-object p1, p0, Lcom/google/firebase/messaging/FirebaseMessaging;->a:Landroid/content/Context;
 
     const-string v1, "com.google.android.gtalkservice.permission.GTALK_SERVICE"
@@ -282,7 +260,6 @@
 
     return-void
 
-    .line 9
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -296,7 +273,6 @@
 .method public e(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/FirebaseMessaging;->b:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/iid/FirebaseInstanceId;->z(Z)V
@@ -307,7 +283,6 @@
 .method public f(Z)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/messaging/w;->d(Z)V
 
     return-void
@@ -333,7 +308,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/FirebaseMessaging;->c:Lcom/google/android/gms/tasks/k;
 
     new-instance v1, Lcom/google/firebase/messaging/r;
@@ -367,7 +341,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/FirebaseMessaging;->c:Lcom/google/android/gms/tasks/k;
 
     new-instance v1, Lcom/google/firebase/messaging/q;

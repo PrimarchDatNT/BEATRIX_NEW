@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$g;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->K1()Lcom/commsource/studio/effect/bodyshape/b;
@@ -53,7 +52,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/effect/bodyshape/b;->M(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$g;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->C1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/beautyplus/f0/ib;
@@ -70,7 +68,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/widget/PressTextView;->setPressEnable(Z)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$g;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->C1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/beautyplus/f0/ib;
@@ -81,7 +78,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$g;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->C1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/beautyplus/f0/ib;
@@ -92,7 +88,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->x()V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$g;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->K1()Lcom/commsource/studio/effect/bodyshape/b;
@@ -101,7 +96,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/studio/effect/bodyshape/b;->s()V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

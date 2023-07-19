@@ -23,7 +23,6 @@
 
     new-array v0, v0, [B
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lf/f/b/b/h/c/n;->a:[B
@@ -32,14 +31,12 @@
 
     new-array v1, v0, [I
 
-    .line 2
     fill-array-data v1, :array_1
 
     sput-object v1, Lf/f/b/b/h/c/n;->b:[I
 
     new-array v0, v0, [I
 
-    .line 3
     fill-array-data v0, :array_2
 
     sput-object v0, Lf/f/b/b/h/c/n;->c:[I
@@ -48,7 +45,6 @@
 
     new-array v0, v0, [I
 
-    .line 4
     fill-array-data v0, :array_3
 
     sput-object v0, Lf/f/b/b/h/c/n;->d:[I
@@ -57,7 +53,6 @@
 
     new-array v0, v0, [I
 
-    .line 5
     fill-array-data v0, :array_4
 
     sput-object v0, Lf/f/b/b/h/c/n;->e:[I

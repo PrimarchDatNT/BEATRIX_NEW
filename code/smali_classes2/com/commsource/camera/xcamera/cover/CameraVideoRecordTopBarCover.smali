@@ -52,10 +52,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$mCameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$mCameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;)V
@@ -66,7 +64,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->d:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$mBpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$mBpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;)V
@@ -77,7 +74,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->f:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$mCameraConfigViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$mCameraConfigViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;)V
@@ -88,7 +84,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->g:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$tipsViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$tipsViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;)V
@@ -99,7 +94,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->p:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$arGiphyMaterialViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$arGiphyMaterialViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;)V
@@ -120,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->N()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -135,19 +128,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->q:Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel$a;
 
@@ -161,7 +151,6 @@
 
     add-int/2addr v2, v1
 
-    .line 4
     iget p1, p1, Landroid/graphics/Rect;->top:I
 
     if-ge p1, v2, :cond_1
@@ -173,16 +162,13 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 5
     :goto_0
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->K:Z
 
     if-eq v1, p1, :cond_a
 
-    .line 6
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->K:Z
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -213,7 +199,6 @@
     :goto_1
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -241,7 +226,6 @@
     :goto_2
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 9
     :cond_5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -267,7 +251,6 @@
     :goto_3
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 10
     :cond_7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -285,7 +268,6 @@
 
     iput-boolean v1, p1, Lcom/commsource/widget/IconFrontView;->d:Z
 
-    .line 11
     :cond_8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -303,7 +285,6 @@
 
     iput-boolean v1, p1, Lcom/commsource/widget/IconFrontView;->d:Z
 
-    .line 12
     :cond_9
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -321,7 +302,6 @@
 
     iput-boolean v1, p1, Lcom/commsource/widget/IconFrontView;->d:Z
 
-    .line 13
     :cond_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -335,7 +315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -362,7 +341,6 @@
     :goto_0
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 2
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -380,7 +358,6 @@
 
     iput-boolean v2, v1, Lcom/commsource/widget/IconFrontView;->d:Z
 
-    .line 3
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
@@ -392,7 +369,6 @@
 
     if-nez v1, :cond_3
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->I()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object v1
@@ -403,7 +379,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->I()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object v1
@@ -414,7 +389,6 @@
 
     if-nez v1, :cond_3
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
@@ -425,7 +399,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -442,7 +415,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -458,7 +430,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 9
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -585,7 +556,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->K:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -600,7 +570,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->K:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -615,10 +584,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->h(FF)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p2
@@ -633,7 +600,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setRotation(F)V
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -649,7 +615,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setRotation(F)V
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -665,7 +630,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setRotation(F)V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -679,7 +643,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->I()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object v1
@@ -702,7 +665,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -719,7 +681,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -744,7 +705,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object p1
@@ -755,14 +715,12 @@
 
     if-eqz p1, :cond_6
 
-    .line 3
     invoke-static {}, Lcom/commsource/util/j2;->b()V
 
     const/4 v1, 0x0
 
     sget p1, Lcom/res/provider/ResSTRING;->sure_want_to_discard_video:I
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
@@ -773,14 +731,12 @@
 
     move-result-object v3
 
-    .line 5
     new-instance v4, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$d;
 
     invoke-direct {v4, p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$d;-><init>(Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;)V
 
     sget p1, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v5
@@ -791,12 +747,10 @@
 
     const/4 v8, 0x0
 
-    .line 7
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
     goto/16 :goto_2
 
-    .line 8
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -822,10 +776,8 @@
 
     if-eqz v1, :cond_4
 
-    .line 9
     invoke-static {}, Lcom/commsource/util/j2;->b()V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object p1
@@ -848,7 +800,6 @@
 
     if-nez p1, :cond_3
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->K()Lcom/commsource/camera/xcamera/cover/tips/a;
 
     move-result-object v1
@@ -871,12 +822,10 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/camera/xcamera/cover/tips/a;->R(Lcom/commsource/camera/xcamera/cover/tips/a;Ljava/lang/String;JILjava/lang/Object;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
@@ -884,12 +833,10 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->a1()Z
 
-    .line 14
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->N()V
 
     goto :goto_2
 
-    .line 15
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -908,10 +855,8 @@
 
     if-eqz p1, :cond_6
 
-    .line 16
     invoke-static {}, Lcom/commsource/util/j2;->b()V
 
-    .line 17
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->J()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object p1
@@ -926,7 +871,6 @@
 
     invoke-virtual {p1, v1, v3}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->H(ZZ)V
 
-    .line 18
     :cond_6
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -947,7 +891,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getAction()I
 
     move-result v1
@@ -964,7 +907,6 @@
 
     if-ne v1, v3, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
@@ -975,7 +917,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->I()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object p1
@@ -990,7 +931,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->sure_want_to_discard_video:I
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
@@ -1001,14 +941,12 @@
 
     move-result-object v5
 
-    .line 5
     new-instance v6, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$e;
 
     invoke-direct {v6, p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$e;-><init>(Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;)V
 
     sget p1, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v7
@@ -1019,16 +957,13 @@
 
     const/4 v10, 0x0
 
-    .line 7
     invoke-static/range {v3 .. v10}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 9
     :cond_1
     invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->p(Landroid/view/KeyEvent;)Z
 
@@ -1046,7 +981,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->cover_camera_video_record_top_bar:I
@@ -1077,13 +1011,10 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->t(Landroid/graphics/Rect;Landroid/graphics/Rect;)V
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->F(Landroid/graphics/Rect;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1096,7 +1027,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -1120,7 +1050,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -1136,7 +1065,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -1152,7 +1080,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -1168,7 +1095,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1181,7 +1107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->G()Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;
 
     move-result-object v1
@@ -1204,7 +1129,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->J()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object v1
@@ -1227,7 +1151,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
@@ -1250,7 +1173,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

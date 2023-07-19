@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 
     const/16 v2, 0x780
 
-    .line 1
     invoke-static {p0, v1, v2}, Lcom/meitu/libmtsns/framwork/util/a;->b(Ljava/lang/String;II)Landroid/graphics/Bitmap;
 
     move-result-object p0
@@ -53,7 +51,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -82,7 +79,6 @@
 
     invoke-static {v2}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -121,7 +117,6 @@
 
     const/16 p1, 0x500
 
-    .line 3
     :cond_2
     new-instance v2, Landroid/graphics/BitmapFactory$Options;
 
@@ -129,14 +124,11 @@
 
     const/4 v5, 0x1
 
-    .line 4
     :try_start_0
     iput-boolean v5, v2, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
-    .line 5
     invoke-static {p0, v2}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
-    .line 6
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -161,7 +153,6 @@
 
     invoke-static {v6}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a(Ljava/lang/String;)V
 
-    .line 7
     iget v6, v2, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
     int-to-float v6, v6
@@ -170,7 +161,6 @@
 
     div-float/2addr v6, v7
 
-    .line 8
     iget v7, v2, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
     int-to-float v7, v7
@@ -179,7 +169,6 @@
 
     div-float/2addr v7, v8
 
-    .line 9
     invoke-static {v6, v7}, Ljava/lang/Math;->max(FF)F
 
     move-result v8
@@ -190,12 +179,10 @@
 
     float-to-int v9, v9
 
-    .line 10
     iput v9, v2, Landroid/graphics/BitmapFactory$Options;->inSampleSize:I
 
     if-ge v9, v5, :cond_3
 
-    .line 11
     iput v5, v2, Landroid/graphics/BitmapFactory$Options;->inSampleSize:I
 
     :cond_3
@@ -209,7 +196,6 @@
 
     if-lez v5, :cond_4
 
-    .line 12
     iget v5, v2, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
     int-to-float v5, v5
@@ -224,7 +210,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_4
     iget v5, v2, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
@@ -238,14 +223,11 @@
 
     goto :goto_0
 
-    .line 14
     :cond_5
     iget v5, v2, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
-    .line 15
     iget v6, v2, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
-    .line 16
     :goto_0
     new-instance v7, Ljava/lang/StringBuilder;
 
@@ -291,10 +273,8 @@
 
     const/4 v7, 0x0
 
-    .line 17
     iput-boolean v7, v2, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
-    .line 18
     invoke-static {p0, v2}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
     move-result-object v2
@@ -307,18 +287,15 @@
     :try_start_1
     const-string v3, "BitmapUtil.loadFromFile decode failed"
 
-    .line 19
     invoke-static {v3}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b(Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/OutOfMemoryError; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 20
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
 
-    .line 21
     :cond_6
     :try_start_2
     new-instance v7, Ljava/lang/StringBuilder;
@@ -349,12 +326,10 @@
 
     invoke-static {v7}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->e(Ljava/lang/String;)V
 
-    .line 22
     invoke-static {v2, v5, v6}, Lcom/meitu/libmtsns/framwork/util/a;->g(Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
-    .line 23
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -386,7 +361,6 @@
     .catch Ljava/lang/OutOfMemoryError; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 24
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -403,7 +377,6 @@
     :catchall_0
     move-exception p0
 
-    .line 25
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -422,7 +395,6 @@
 
     invoke-static {p0}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->k(Ljava/lang/String;)V
 
-    .line 26
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -430,7 +402,6 @@
     :catch_1
     move-exception v2
 
-    .line 27
     :goto_1
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -450,10 +421,8 @@
 
     invoke-static {v0}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b(Ljava/lang/String;)V
 
-    .line 28
     invoke-static {v4}, Lcom/meitu/libmtsns/framwork/util/a;->c(Landroid/graphics/Bitmap;)V
 
-    .line 29
     div-int/lit8 p2, p2, 0x2
 
     div-int/lit8 p1, p1, 0x2
@@ -466,7 +435,6 @@
 
     return-object p0
 
-    .line 30
     :cond_7
     :goto_2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -483,17 +451,14 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->isRecycled()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -521,19 +486,15 @@
 
     move v1, p2
 
-    .line 1
     :cond_0
     invoke-virtual {p4}, Ljava/io/ByteArrayOutputStream;->reset()V
 
-    .line 2
     invoke-virtual {p0, p1, v1, p4}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
-    .line 3
     invoke-virtual {p4}, Ljava/io/ByteArrayOutputStream;->size()I
 
     move-result v2
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -573,7 +534,6 @@
     :cond_1
     if-le v2, p3, :cond_2
 
-    .line 5
     :try_start_0
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -587,7 +547,6 @@
 
     float-to-int v1, v1
 
-    .line 6
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v3
@@ -600,7 +559,6 @@
 
     const/4 v3, 0x1
 
-    .line 7
     invoke-static {p0, v1, v2, v3}, Landroid/graphics/Bitmap;->createScaledBitmap(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object v1
@@ -608,12 +566,10 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     invoke-static {p0}, Lcom/meitu/libmtsns/framwork/util/a;->c(Landroid/graphics/Bitmap;)V
 
     if-eqz v1, :cond_3
 
-    .line 9
     invoke-static {v1, p1, p2, p3, p4}, Lcom/meitu/libmtsns/framwork/util/a;->d(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap$CompressFormat;IILjava/io/ByteArrayOutputStream;)[B
 
     move-result-object p0
@@ -630,7 +586,6 @@
     :catch_0
     move-exception p1
 
-    .line 10
     :try_start_1
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
     :try_end_1
@@ -638,28 +593,22 @@
 
     const/4 p1, 0x0
 
-    .line 11
     invoke-static {p0}, Lcom/meitu/libmtsns/framwork/util/a;->c(Landroid/graphics/Bitmap;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 13
     :goto_0
     invoke-static {p0}, Lcom/meitu/libmtsns/framwork/util/a;->c(Landroid/graphics/Bitmap;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1
 
-    .line 15
     :cond_2
     invoke-static {p0}, Lcom/meitu/libmtsns/framwork/util/a;->c(Landroid/graphics/Bitmap;)V
 
-    .line 16
     :cond_3
     invoke-virtual {p4}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
@@ -677,7 +626,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/graphics/Bitmap$CompressFormat;->PNG:Landroid/graphics/Bitmap$CompressFormat;
 
     const/16 v2, 0x64
@@ -702,7 +650,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -710,7 +657,6 @@
     :cond_0
     if-nez p1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
     move-result-object p1
@@ -724,14 +670,12 @@
     :cond_1
     const/16 p1, 0x60
 
-    .line 3
     invoke-static {p0, p1, p1}, Lcom/meitu/libmtsns/framwork/util/a;->g(Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
     const p1, 0x8000
 
-    .line 4
     new-instance v1, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {v1}, Ljava/io/ByteArrayOutputStream;-><init>()V
@@ -752,12 +696,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v2
@@ -774,7 +716,6 @@
 
     div-float v4, v2, v4
 
-    .line 3
     invoke-static {v3, v4}, Ljava/lang/Math;->max(FF)F
 
     move-result v5
@@ -785,7 +726,6 @@
 
     if-gtz v5, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -809,15 +749,12 @@
     :goto_0
     const/4 v1, 0x1
 
-    .line 5
     invoke-static {p0, p1, p2, v1}, Landroid/graphics/Bitmap;->createScaledBitmap(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    .line 6
     invoke-static {p0}, Lcom/meitu/libmtsns/framwork/util/a;->c(Landroid/graphics/Bitmap;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1

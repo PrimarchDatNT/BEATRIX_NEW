@@ -31,13 +31,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/commsource/beautyplus/BeautyPlusApplication;->p:Z
 
-    .line 2
     invoke-static {}, Lcom/commsource/beautyplus/BeautyPlusApplication;->l()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -46,7 +43,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/application/BaseApplication;-><init>()V
 
     return-void
@@ -59,14 +55,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x15
 
     if-ge v1, v2, :cond_1
 
-    .line 2
     invoke-direct {p0, p0}, Lcom/commsource/beautyplus/BeautyPlusApplication;->e(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
@@ -79,7 +73,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {p0}, Lcom/commsource/util/g1;->a(Landroid/content/Context;)Z
 
     move-result v1
@@ -93,13 +86,11 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_1
     invoke-static {p0}, Lcom/google/android/play/core/missingsplits/b;->a(Landroid/content/Context;)Lcom/google/android/play/core/missingsplits/a;
 
@@ -121,13 +112,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Application;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
@@ -138,7 +127,6 @@
 
     move-result-object p1
 
-    .line 3
     iget-wide v1, p1, Landroid/content/pm/PackageInfo;->lastUpdateTime:J
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
@@ -150,12 +138,10 @@
     :catch_0
     move-exception p1
 
-    .line 4
     invoke-virtual {p1}, Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
 
     const-wide/16 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v1
@@ -168,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/BeautyPlusApplication;->a:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -177,14 +162,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/beautyplus/util/u;->a(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/beautyplus/BeautyPlusApplication;->a:Ljava/lang/String;
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/beautyplus/BeautyPlusApplication;->a:Ljava/lang/String;
 
@@ -200,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -213,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Landroid/webkit/WebSettings;->getDefaultUserAgent(Landroid/content/Context;)Ljava/lang/String;
     :try_end_0
@@ -224,10 +205,8 @@
     :catch_0
     move-exception v1
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -241,12 +220,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->z()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -257,7 +234,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     :try_start_0
     new-instance v2, Ljava/io/File;
 
@@ -287,19 +263,16 @@
 
     invoke-direct {v2, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v2}, Ljava/io/File;->createNewFile()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-static {p0, v2}, Lcom/meitu/library/p/g/b;->b(Ljava/io/File;Ljava/io/File;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6
     :catch_0
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -314,7 +287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/BeautyPlusApplication;->d(Landroid/content/Context;)J
 
     move-result-wide v1
@@ -323,7 +295,6 @@
 
     const/4 v4, 0x4
 
-    .line 2
     invoke-virtual {p1, v3, v4}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p1
@@ -332,7 +303,6 @@
 
     const-wide/16 v4, 0x0
 
-    .line 3
     invoke-interface {p1, v3, v4, v5}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v3
@@ -348,7 +318,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -365,7 +334,6 @@
     :try_start_0
     const-string v1, "gnustl_shared"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -375,14 +343,12 @@
     :catchall_0
     move-exception v1
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_0
     :try_start_1
     const-string v1, "c++_shared"
 
-    .line 3
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -396,13 +362,10 @@
 
     const-string v3, "c++_shared load fail"
 
-    .line 4
     invoke-static {v2, v3}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -416,12 +379,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    .line 2
     new-instance v2, Landroid/content/ComponentName;
 
     const-class v3, Lcom/commsource/beautyplus/loaddex/LoadResActivity;
@@ -434,23 +395,18 @@
 
     invoke-direct {v2, v4, v3}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
     const/high16 v2, 0x10000000
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     const/4 p1, 0x0
 
-    .line 6
     invoke-static {p1}, Ljava/lang/System;->exit(I)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -467,27 +423,22 @@
 
     invoke-static {p1}, Lf/k/d/a/b;->c(Landroid/content/Context;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->b:Lcom/commsource/beautyplus/setting/language/LanguageConfig;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->i(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {v1, p0}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->g(Landroid/app/Application;)V
 
-    .line 3
     invoke-super {p0, p1}, Lcom/meitu/common/base/BaseApplication;->attachBaseContext(Landroid/content/Context;)V
 
-    .line 4
     invoke-static {}, Lcom/commsource/camera/o0;->b()Lcom/commsource/camera/o0;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/camera/o0;->d()V
 
-    .line 5
     invoke-static {}, Lcom/commsource/camera/o0;->b()Lcom/commsource/camera/o0;
 
     move-result-object v1
@@ -498,10 +449,8 @@
 
     const-string v1, "App attachBaseContext "
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->O(Ljava/lang/String;)V
 
-    .line 7
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -512,10 +461,8 @@
 
     invoke-static {v1, v2}, Lcom/commsource/util/x;->g(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {p1}, Lme/weishu/reflection/Reflection;->c(Landroid/content/Context;)I
 
-    .line 9
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x15
@@ -528,21 +475,17 @@
 
     if-nez v1, :cond_1
 
-    .line 10
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/BeautyPlusApplication;->k(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 11
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/BeautyPlusApplication;->m(Landroid/content/Context;)V
 
-    .line 12
     :cond_0
     invoke-static {p0}, Landroidx/multidex/MultiDex;->install(Landroid/content/Context;)V
 
-    .line 13
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -556,23 +499,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/kwai/koom/javaoom/e;->d(Landroid/app/Application;)V
 
-    .line 2
     new-instance v1, Lcom/kwai/koom/javaoom/common/b$a;
 
     invoke-direct {v1}, Lcom/kwai/koom/javaoom/common/b$a;-><init>()V
 
     const/high16 v2, 0x42aa0000    # 85.0f
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/kwai/koom/javaoom/common/b$a;->d(F)Lcom/kwai/koom/javaoom/common/b$a;
 
     move-result-object v1
 
-    .line 4
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->A()Ljava/lang/String;
 
     move-result-object v2
@@ -583,24 +522,20 @@
 
     const/4 v2, 0x2
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/kwai/koom/javaoom/common/b$a;->c(I)Lcom/kwai/koom/javaoom/common/b$a;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1}, Lcom/kwai/koom/javaoom/common/b$a;->a()Lcom/kwai/koom/javaoom/common/b;
 
     move-result-object v1
 
-    .line 7
     invoke-static {}, Lcom/kwai/koom/javaoom/e;->b()Lcom/kwai/koom/javaoom/e;
 
     move-result-object v2
 
     invoke-virtual {v2, v1}, Lcom/kwai/koom/javaoom/e;->k(Lcom/kwai/koom/javaoom/common/b;)V
 
-    .line 8
     invoke-static {}, Lcom/kwai/koom/javaoom/e;->b()Lcom/kwai/koom/javaoom/e;
 
     move-result-object v1
@@ -616,10 +551,8 @@
     :catch_0
     move-exception v1
 
-    .line 9
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -633,14 +566,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/k;->d()Lcom/commsource/beautyplus/k;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/k;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -653,7 +584,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/app/Application;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p1
@@ -679,12 +609,10 @@
 
     const/4 v2, 0x4
 
-    .line 1
     invoke-virtual {p1, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v1
 
-    .line 2
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v1
@@ -701,7 +629,6 @@
 
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -714,7 +641,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/BeautyPlusApplication;->e(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
@@ -737,42 +663,35 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BeautyPlusApplication;->a()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-super {p0}, Lcom/meitu/library/application/BaseApplication;->onCreate()V
 
-    .line 4
     invoke-static {}, Lcom/commsource/beautyplus/u;->d()Lcom/commsource/beautyplus/u;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/u;->p()V
 
-    .line 5
     sget-object v1, Lcom/commsource/beautyplus/k0/a;->a:Lcom/commsource/beautyplus/k0/a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/k0/a;->a()V
 
-    .line 6
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v1
 
     invoke-static {v1}, Lcom/commsource/beautyplus/l;->q(Landroid/app/Application;)V
 
-    .line 7
     invoke-direct {p0, p0}, Lcom/commsource/beautyplus/BeautyPlusApplication;->e(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
@@ -785,16 +704,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-static {}, Lcom/commsource/util/x;->m()V
 
-    .line 9
     invoke-static {p0}, Lcom/commsource/beautyplus/l;->l(Landroid/app/Application;)V
 
-    .line 10
     invoke-static {}, Lcom/commsource/camera/p0;->b()V
 
-    .line 11
     new-instance v1, Lcom/commsource/beautyplus/BeautyPlusApplication$a;
 
     const-string v3, "GDPRUtils_init"
@@ -803,7 +718,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 12
     :cond_1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -811,26 +725,21 @@
 
     if-le v1, v3, :cond_2
 
-    .line 13
     new-instance v3, Landroid/os/StrictMode$VmPolicy$Builder;
 
     invoke-direct {v3}, Landroid/os/StrictMode$VmPolicy$Builder;-><init>()V
 
-    .line 14
     invoke-virtual {v3}, Landroid/os/StrictMode$VmPolicy$Builder;->build()Landroid/os/StrictMode$VmPolicy;
 
     move-result-object v4
 
     invoke-static {v4}, Landroid/os/StrictMode;->setVmPolicy(Landroid/os/StrictMode$VmPolicy;)V
 
-    .line 15
     invoke-virtual {v3}, Landroid/os/StrictMode$VmPolicy$Builder;->detectFileUriExposure()Landroid/os/StrictMode$VmPolicy$Builder;
 
-    .line 16
     :cond_2
     invoke-static {p0}, Lf/k/a0/a;->d(Landroid/content/Context;)V
 
-    .line 17
     invoke-direct {p0, p0}, Lcom/commsource/beautyplus/BeautyPlusApplication;->e(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v3
@@ -841,26 +750,21 @@
 
     if-nez v2, :cond_3
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 19
     :cond_3
     invoke-static {}, Lcom/commsource/util/i0;->e()V
 
-    .line 20
     invoke-direct {p0}, Lcom/commsource/beautyplus/BeautyPlusApplication;->f()V
 
-    .line 21
     invoke-static {}, Lcom/commsource/beautyplus/k;->d()Lcom/commsource/beautyplus/k;
 
     move-result-object v2
 
     invoke-virtual {p0, v2}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 
-    .line 22
     invoke-static {}, Lcom/commsource/util/x;->B()Z
 
     move-result v2
@@ -880,7 +784,6 @@
 
     if-eqz v2, :cond_6
 
-    .line 23
     :cond_5
     invoke-static {p0}, Lcom/commsource/beautyplus/util/w;->b(Landroid/content/Context;)Lcom/commsource/beautyplus/util/w;
 
@@ -888,7 +791,6 @@
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/util/w;->c()V
 
-    .line 24
     :cond_6
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
@@ -896,34 +798,28 @@
 
     invoke-static {v2}, Lcom/meitu/secret/MtSecret;->loadMtSecretLibrary(Landroid/content/Context;)V
 
-    .line 25
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v2
 
     invoke-static {v2}, Lcom/commsource/beautyplus/l;->o(Landroid/app/Application;)V
 
-    .line 26
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v2
 
     invoke-static {v2}, Lcom/commsource/beautyplus/l;->u(Landroid/app/Application;)V
 
-    .line 27
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
 
     invoke-static {v2}, Lf/d/l/b;->d(Landroid/content/Context;)V
 
-    .line 28
     invoke-static {}, Lcom/commsource/statistics/i;->i()V
 
-    .line 29
     invoke-static {p0}, Lcom/commsource/beautyplus/l;->t(Landroid/app/Application;)V
 
-    .line 30
     invoke-static {p0}, Lcom/commsource/widget/q0;->e(Landroid/content/Context;)Z
 
     move-result v2
@@ -934,20 +830,16 @@
 
     const/4 v2, 0x0
 
-    .line 31
     invoke-static {p0, v2}, Lcom/commsource/beautyplus/l;->s(Landroid/app/Application;Z)V
 
-    .line 32
     invoke-static {p0, v2}, Lcom/commsource/beautyplus/l;->r(Landroid/app/Application;Z)V
 
     const-string/jumbo v2, "\u5b9a\u4f4d\u4e3a\u975e\u6b27\u6d32\u3002"
 
-    .line 33
     invoke-static {v3, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 34
     :cond_7
     invoke-static {p0}, Lcom/commsource/widget/q0;->f(Landroid/content/Context;)Z
 
@@ -963,47 +855,38 @@
 
     if-eqz v2, :cond_9
 
-    .line 35
     :cond_8
     invoke-static {p0, v4}, Lcom/commsource/beautyplus/l;->r(Landroid/app/Application;Z)V
 
-    .line 36
     :cond_9
     invoke-static {p0, v4}, Lcom/commsource/beautyplus/l;->s(Landroid/app/Application;Z)V
 
     const-string/jumbo v2, "\u5b9a\u4f4d\u4e3a\u6b27\u6d32\u3002"
 
-    .line 37
     invoke-static {v3, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 38
     :goto_0
     invoke-static {p0}, Lf/d/i/e;->b2(Landroid/content/Context;)V
 
-    .line 39
     invoke-static {}, Lcom/commsource/beautyplus/u;->d()Lcom/commsource/beautyplus/u;
 
     move-result-object v2
 
     invoke-virtual {p0, v2}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 
-    .line 40
     invoke-static {}, Lcom/commsource/util/i0;->e()V
 
     const/16 v2, 0x1b
 
     if-gt v1, v2, :cond_a
 
-    .line 41
     invoke-static {}, Lcom/commsource/util/x;->U()V
 
-    .line 42
     :cond_a
     sget-object v1, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/XRepository;->a()V
 
-    .line 43
     sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -1012,19 +895,16 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->j0()V
 
-    .line 44
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->s()V
 
-    .line 45
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->K()V
 
-    .line 46
     sget-object v1, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/GmsManager$a;->a()Lcom/commsource/billing/pro/GmsManager;
@@ -1033,7 +913,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/GmsManager;->l()V
 
-    .line 47
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

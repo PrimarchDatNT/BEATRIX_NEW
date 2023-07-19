@@ -11,7 +11,6 @@
 .method public static final synthetic a(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Lcotlin/text/k;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/text/RegexKt;->g(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Lcotlin/text/k;
 
     move-result-object p0
@@ -22,7 +21,6 @@
 .method public static final synthetic b(I)Ljava/util/Set;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcotlin/text/RegexKt;->h(I)Ljava/util/Set;
 
     move-result-object p0
@@ -33,7 +31,6 @@
 .method public static final synthetic c(Ljava/util/regex/Matcher;Ljava/lang/CharSequence;)Lcotlin/text/k;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/text/RegexKt;->i(Ljava/util/regex/Matcher;Ljava/lang/CharSequence;)Lcotlin/text/k;
 
     move-result-object p0
@@ -44,7 +41,6 @@
 .method public static final synthetic d(Ljava/util/regex/MatchResult;)Lcotlin/g2/k;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcotlin/text/RegexKt;->j(Ljava/util/regex/MatchResult;)Lcotlin/g2/k;
 
     move-result-object p0
@@ -55,7 +51,6 @@
 .method public static final synthetic e(Ljava/util/regex/MatchResult;I)Lcotlin/g2/k;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/text/RegexKt;->k(Ljava/util/regex/MatchResult;I)Lcotlin/g2/k;
 
     move-result-object p0
@@ -66,7 +61,6 @@
 .method public static final synthetic f(Ljava/lang/Iterable;)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcotlin/text/RegexKt;->l(Ljava/lang/Iterable;)I
 
     move-result p0
@@ -77,7 +71,6 @@
 .method private static final g(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Lcotlin/text/k;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/util/regex/Matcher;->find(I)Z
 
     move-result p1
@@ -117,7 +110,6 @@
 
     const-string v1, "T"
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     const-class v0, Ljava/lang/Enum;
@@ -126,14 +118,12 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lcotlin/text/RegexKt$fromInt$$inlined$apply$lambda$1;
 
     invoke-direct {v1, p0}, Lcotlin/text/RegexKt$fromInt$$inlined$apply$lambda$1;-><init>(I)V
 
     invoke-static {v0, v1}, Lcotlin/collections/s;->P0(Ljava/lang/Iterable;Lcotlin/jvm/u/l;)Z
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object p0
@@ -148,7 +138,6 @@
 .method private static final i(Ljava/util/regex/Matcher;Ljava/lang/CharSequence;)Lcotlin/text/k;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/regex/Matcher;->matches()Z
 
     move-result v0
@@ -173,7 +162,6 @@
 .method private static final j(Ljava/util/regex/MatchResult;)Lcotlin/g2/k;
     .locals 1
 
-    .line 1
     invoke-interface {p0}, Ljava/util/regex/MatchResult;->start()I
 
     move-result v0
@@ -192,7 +180,6 @@
 .method private static final k(Ljava/util/regex/MatchResult;I)Lcotlin/g2/k;
     .locals 1
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/regex/MatchResult;->start(I)I
 
     move-result v0
@@ -220,7 +207,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -240,7 +226,6 @@
 
     check-cast v1, Lcotlin/text/g;
 
-    .line 2
     invoke-interface {v1}, Lcotlin/text/g;->getValue()I
 
     move-result v1

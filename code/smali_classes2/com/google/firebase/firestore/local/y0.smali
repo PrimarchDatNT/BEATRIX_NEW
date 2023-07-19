@@ -23,18 +23,14 @@
 .method constructor <init>(Lcom/google/firebase/firestore/local/n1;Lcom/google/firebase/firestore/local/z$a;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, -0x1
 
-    .line 2
     iput-wide v0, p0, Lcom/google/firebase/firestore/local/y0;->c:J
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
-    .line 4
     new-instance p1, Lcom/google/firebase/firestore/local/z;
 
     invoke-direct {p1, p0, p2}, Lcom/google/firebase/firestore/local/z;-><init>(Lcom/google/firebase/firestore/local/w;Lcom/google/firebase/firestore/local/z$a;)V
@@ -47,7 +43,6 @@
 .method private p(Lcom/google/firebase/firestore/model/e;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y0;->e:Lcom/google/firebase/firestore/local/q0;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/firestore/local/q0;->c(Lcom/google/firebase/firestore/model/e;)Z
@@ -60,7 +55,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/y0;->t(Lcom/google/firebase/firestore/model/e;)Z
 
@@ -74,7 +68,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v0
@@ -93,7 +86,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p0, v0}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v0
@@ -110,7 +102,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p2, v0}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object p2
@@ -119,26 +110,22 @@
 
     move-result-object p2
 
-    .line 2
     invoke-static {p2}, Lcom/google/firebase/firestore/model/e;->n(Lcom/google/firebase/firestore/model/k;)Lcom/google/firebase/firestore/model/e;
 
     move-result-object p2
 
-    .line 3
     invoke-direct {p0, p2}, Lcom/google/firebase/firestore/local/y0;->p(Lcom/google/firebase/firestore/model/e;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 4
     aget v1, p1, v0
 
     add-int/lit8 v1, v1, 0x1
 
     aput v1, p1, v0
 
-    .line 5
     iget-object p1, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
     invoke-virtual {p1}, Lcom/google/firebase/firestore/local/n1;->e()Lcom/google/firebase/firestore/local/r0;
@@ -147,7 +134,6 @@
 
     invoke-interface {p1, p2}, Lcom/google/firebase/firestore/local/r0;->b(Lcom/google/firebase/firestore/model/e;)V
 
-    .line 6
     invoke-direct {p0, p2}, Lcom/google/firebase/firestore/local/y0;->u(Lcom/google/firebase/firestore/model/e;)V
 
     :cond_0
@@ -157,12 +143,10 @@
 .method private t(Lcom/google/firebase/firestore/model/e;)Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v1, "SELECT 1 FROM document_mutations WHERE path = ?"
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/google/firebase/firestore/local/n1;->z(Ljava/lang/String;)Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v0
@@ -171,7 +155,6 @@
 
     new-array v2, v1, [Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/e;->s()Lcom/google/firebase/firestore/model/k;
 
     move-result-object p1
@@ -188,7 +171,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/firestore/local/n1$d;->e()Z
 
     move-result p1
@@ -201,14 +183,12 @@
 .method private u(Lcom/google/firebase/firestore/model/e;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
     const/4 v1, 0x1
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/e;->s()Lcom/google/firebase/firestore/model/k;
 
     move-result-object p1
@@ -223,7 +203,6 @@
 
     const-string p1, "DELETE FROM target_documents WHERE path = ? AND target_id = 0"
 
-    .line 3
     invoke-virtual {v0, p1, v1}, Lcom/google/firebase/firestore/local/n1;->q(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -232,7 +211,6 @@
 .method private w(Lcom/google/firebase/firestore/model/e;)V
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/e;->s()Lcom/google/firebase/firestore/model/k;
 
     move-result-object p1
@@ -241,7 +219,6 @@
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
     const/4 v1, 0x2
@@ -252,7 +229,6 @@
 
     aput-object p1, v1, v2
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firebase/firestore/local/y0;->e()J
 
     move-result-wide v2
@@ -267,7 +243,6 @@
 
     const-string p1, "INSERT OR REPLACE INTO target_documents (target_id, path, sequence_number) VALUES (0, ?, ?)"
 
-    .line 4
     invoke-virtual {v0, p1, v1}, Lcom/google/firebase/firestore/local/n1;->q(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -278,7 +253,6 @@
 .method public B1()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/n1;->r()J
@@ -299,7 +273,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/n1;->u()Lcom/google/firebase/firestore/local/u1;
@@ -322,12 +295,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v1, "select sequence_number from target_documents group by path having COUNT(*) = 1 AND target_id = 0"
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/google/firebase/firestore/local/n1;->z(Ljava/lang/String;)Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v0
@@ -336,7 +307,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/google/firebase/firestore/local/n1$d;->d(Lcom/google/firebase/firestore/util/m;)V
 
     return-void
@@ -345,7 +315,6 @@
 .method public c(Lcom/google/firebase/firestore/local/n0;)V
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/local/n0;->f()Lcom/google/firebase/firestore/model/l;
 
     move-result-object v0
@@ -358,12 +327,10 @@
 
     move-result-wide v2
 
-    .line 2
     invoke-virtual {p1, v0, v1, v2, v3}, Lcom/google/firebase/firestore/local/n0;->a(Lcom/google/firebase/firestore/model/l;Lcom/google/protobuf/ByteString;J)Lcom/google/firebase/firestore/local/n0;
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/n1;->u()Lcom/google/firebase/firestore/local/u1;
@@ -378,7 +345,6 @@
 .method public d()Lcom/google/firebase/firestore/local/z;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y0;->d:Lcom/google/firebase/firestore/local/z;
 
     return-object v0
@@ -387,7 +353,6 @@
 .method public e()J
     .locals 6
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/local/y0;->c:J
 
     const/4 v2, 0x0
@@ -412,7 +377,6 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iget-wide v0, p0, Lcom/google/firebase/firestore/local/y0;->c:J
 
     return-wide v0
@@ -425,19 +389,16 @@
 
     new-array v1, v0, [I
 
-    .line 1
     iget-object v2, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v3, "select path from target_documents group by path having COUNT(*) = 1 AND target_id = 0 AND sequence_number <= ?"
 
-    .line 2
     invoke-virtual {v2, v3}, Lcom/google/firebase/firestore/local/n1;->z(Ljava/lang/String;)Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v2
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -454,10 +415,8 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {p1, v0}, Lcom/google/firebase/firestore/local/n1$d;->d(Lcom/google/firebase/firestore/util/m;)V
 
-    .line 5
     aget p1, v1, p2
 
     return p1
@@ -473,7 +432,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/n1;->u()Lcom/google/firebase/firestore/local/u1;
@@ -490,7 +448,6 @@
 .method public h(Lcom/google/firebase/firestore/model/e;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/y0;->w(Lcom/google/firebase/firestore/model/e;)V
 
     return-void
@@ -499,7 +456,6 @@
 .method public i()V
     .locals 6
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/local/y0;->c:J
 
     const/4 v2, 0x0
@@ -524,7 +480,6 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iput-wide v3, p0, Lcom/google/firebase/firestore/local/y0;->c:J
 
     return-void
@@ -533,7 +488,6 @@
 .method public j()V
     .locals 6
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/local/y0;->c:J
 
     const/4 v2, 0x0
@@ -558,7 +512,6 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y0;->b:Lcom/google/firebase/firestore/core/a0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/a0;->a()J
@@ -573,7 +526,6 @@
 .method public k(Lcom/google/firebase/firestore/model/e;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/y0;->w(Lcom/google/firebase/firestore/model/e;)V
 
     return-void
@@ -582,7 +534,6 @@
 .method public l()J
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/n1;->u()Lcom/google/firebase/firestore/local/u1;
@@ -593,12 +544,10 @@
 
     move-result-wide v0
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/firestore/local/y0;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v3, "SELECT COUNT(*) FROM (SELECT sequence_number FROM target_documents GROUP BY path HAVING COUNT(*) = 1 AND target_id = 0)"
 
-    .line 3
     invoke-virtual {v2, v3}, Lcom/google/firebase/firestore/local/n1;->z(Ljava/lang/String;)Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v2
@@ -607,7 +556,6 @@
 
     move-result-object v3
 
-    .line 4
     invoke-virtual {v2, v3}, Lcom/google/firebase/firestore/local/n1$d;->c(Lcom/google/common/base/n;)Ljava/lang/Object;
 
     move-result-object v2
@@ -626,7 +574,6 @@
 .method public m(Lcom/google/firebase/firestore/local/q0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/local/y0;->e:Lcom/google/firebase/firestore/local/q0;
 
     return-void
@@ -635,7 +582,6 @@
 .method public n(Lcom/google/firebase/firestore/model/e;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/y0;->w(Lcom/google/firebase/firestore/model/e;)V
 
     return-void
@@ -644,7 +590,6 @@
 .method public o(Lcom/google/firebase/firestore/model/e;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/y0;->w(Lcom/google/firebase/firestore/model/e;)V
 
     return-void
@@ -653,7 +598,6 @@
 .method v(J)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/core/a0;
 
     invoke-direct {v0, p1, p2}, Lcom/google/firebase/firestore/core/a0;-><init>(J)V

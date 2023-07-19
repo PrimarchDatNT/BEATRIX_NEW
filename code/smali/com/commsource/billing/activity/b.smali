@@ -36,10 +36,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_pro_banner:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
@@ -55,7 +53,6 @@
 
     iput-object p1, p0, Lcom/commsource/billing/activity/b;->p:Lcom/commsource/beautyplus/f0/ci;
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/p/f/i;->u()I
 
     move-result p1
@@ -72,7 +69,6 @@
 
     const/16 p2, 0xa
 
-    .line 4
     invoke-static {p2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p2
@@ -81,12 +77,10 @@
 
     iput p2, p0, Lcom/commsource/billing/activity/b;->K:I
 
-    .line 5
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {v0, p2}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 6
     iget-object p2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p2, p1}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
@@ -126,10 +120,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -146,14 +138,12 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {p1}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v2
@@ -168,7 +158,6 @@
 
     move-result-object p1
 
-    .line 5
     new-instance v2, Landroid/graphics/drawable/ColorDrawable;
 
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
@@ -181,7 +170,6 @@
 
     move-result-object p1
 
-    .line 6
     iget-object p3, p0, Lcom/commsource/billing/activity/b;->p:Lcom/commsource/beautyplus/f0/ci;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/ci;->a:Landroid/widget/ImageView;
@@ -190,7 +178,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object p1, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
@@ -198,7 +185,6 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v2
@@ -213,7 +199,6 @@
 
     move-result-object p1
 
-    .line 9
     new-instance v2, Landroid/graphics/drawable/ColorDrawable;
 
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
@@ -226,14 +211,12 @@
 
     move-result-object p1
 
-    .line 10
     iget-object p3, p0, Lcom/commsource/billing/activity/b;->p:Lcom/commsource/beautyplus/f0/ci;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/ci;->a:Landroid/widget/ImageView;
 
     invoke-virtual {p1, p3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 11
     :goto_0
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -252,7 +235,6 @@
     :cond_1
     const-string p1, "#ffffffff"
 
-    .line 12
     :goto_1
     :try_start_0
     invoke-static {p1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -261,7 +243,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 13
     :catch_0
     iget-object p1, p0, Lcom/commsource/billing/activity/b;->p:Lcom/commsource/beautyplus/f0/ci;
 
@@ -269,7 +250,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/billing/activity/b;->p:Lcom/commsource/beautyplus/f0/ci;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ci;->b:Landroid/widget/TextView;
@@ -290,7 +270,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

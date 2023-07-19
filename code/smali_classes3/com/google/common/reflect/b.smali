@@ -51,7 +51,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/reflect/b;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -64,7 +63,6 @@
 
     sput-object v0, Lcom/google/common/reflect/b;->b:Ljava/util/logging/Logger;
 
-    .line 2
     new-instance v0, Lcom/google/common/reflect/b$a;
 
     invoke-direct {v0}, Lcom/google/common/reflect/b$a;-><init>()V
@@ -73,7 +71,6 @@
 
     const-string v0, " "
 
-    .line 3
     invoke-static {v0}, Lcom/google/common/base/w;->k(Ljava/lang/String;)Lcom/google/common/base/w;
 
     move-result-object v0
@@ -98,10 +95,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/reflect/b;->a:Lcom/google/common/collect/ImmutableSet;
 
     return-void
@@ -110,7 +105,6 @@
 .method static synthetic a()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/reflect/b;->b:Ljava/util/logging/Logger;
 
     return-object v0
@@ -119,7 +113,6 @@
 .method static synthetic b()Lcom/google/common/base/w;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/reflect/b;->d:Lcom/google/common/base/w;
 
     return-object v0
@@ -133,15 +126,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/reflect/b$c;
 
     invoke-direct {v0}, Lcom/google/common/reflect/b$c;-><init>()V
 
-    .line 2
     invoke-virtual {v0, p0}, Lcom/google/common/reflect/b$e;->g(Ljava/lang/ClassLoader;)V
 
-    .line 3
     new-instance p0, Lcom/google/common/reflect/b;
 
     invoke-virtual {v0}, Lcom/google/common/reflect/b$c;->l()Lcom/google/common/collect/ImmutableSet;
@@ -158,7 +148,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -167,7 +156,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, v1, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p0
@@ -188,7 +176,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/net/URL;->getProtocol()Ljava/lang/String;
 
     move-result-object v0
@@ -201,7 +188,6 @@
 
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     :try_start_0
     new-instance v0, Ljava/io/File;
 
@@ -215,7 +201,6 @@
 
     return-object v0
 
-    .line 3
     :catch_0
     new-instance v0, Ljava/io/File;
 
@@ -241,7 +226,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/b;->a:Lcom/google/common/collect/ImmutableSet;
 
     invoke-static {v0}, Lcom/google/common/collect/b0;->A(Ljava/lang/Iterable;)Lcom/google/common/collect/b0;
@@ -272,7 +256,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/b;->a:Lcom/google/common/collect/ImmutableSet;
 
     return-object v0
@@ -289,7 +272,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/b;->a:Lcom/google/common/collect/ImmutableSet;
 
     invoke-static {v0}, Lcom/google/common/collect/b0;->A(Ljava/lang/Iterable;)Lcom/google/common/collect/b0;
@@ -328,15 +310,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/ImmutableSet;->builder()Lcom/google/common/collect/ImmutableSet$a;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/reflect/b;->g()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v1
@@ -359,7 +338,6 @@
 
     check-cast v2, Lcom/google/common/reflect/b$b;
 
-    .line 4
     invoke-virtual {v2}, Lcom/google/common/reflect/b$b;->h()Ljava/lang/String;
 
     move-result-object v3
@@ -370,12 +348,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-virtual {v0, v2}, Lcom/google/common/collect/ImmutableSet$a;->i(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet$a;
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableSet$a;->n()Lcom/google/common/collect/ImmutableSet;
 
@@ -397,10 +373,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -415,12 +389,10 @@
 
     move-result-object p1
 
-    .line 3
     invoke-static {}, Lcom/google/common/collect/ImmutableSet;->builder()Lcom/google/common/collect/ImmutableSet$a;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/reflect/b;->g()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v1
@@ -443,7 +415,6 @@
 
     check-cast v2, Lcom/google/common/reflect/b$b;
 
-    .line 5
     invoke-virtual {v2}, Lcom/google/common/reflect/b$b;->g()Ljava/lang/String;
 
     move-result-object v3
@@ -454,12 +425,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 6
     invoke-virtual {v0, v2}, Lcom/google/common/collect/ImmutableSet$a;->i(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet$a;
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableSet$a;->n()Lcom/google/common/collect/ImmutableSet;
 

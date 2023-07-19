@@ -254,15 +254,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/template/bean/e;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/template/bean/Doodle;->downloadType:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/template/bean/Doodle;->available:I
 
     return-void
@@ -279,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -300,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/meitu/template/bean/Doodle;
 
     if-eqz v1, :cond_0
@@ -333,7 +328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->available:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -348,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->canEditColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -363,7 +356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->categoryId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -378,7 +370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->collectState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -393,7 +384,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/Doodle;->collectTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -408,7 +398,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->doodleAmount:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -425,7 +414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Doodle;->doodleFile:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -442,7 +430,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Doodle;->doodleGoodId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -457,7 +444,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->doodleId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -474,7 +460,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v1
@@ -483,7 +468,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -510,7 +494,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -532,7 +515,6 @@
 
     move-result-object v1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -546,7 +528,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->doodleSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -561,7 +542,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->doodleTag:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -578,7 +558,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Doodle;->doodleThumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -595,7 +574,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -632,7 +610,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->downloadType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -649,7 +626,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Doodle;->doodleFile:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -664,7 +640,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->listDisplay:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -679,7 +654,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/Doodle;->localInsertTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -696,7 +670,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->doodleId:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -715,7 +688,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/Doodle;->getMaterialId()Ljava/lang/Integer;
 
     move-result-object v1
@@ -732,7 +704,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->needShow:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -747,7 +718,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->paidState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -762,7 +732,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->placeHolderColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -777,12 +746,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->placeHolderColor:I
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/Random;
 
     invoke-direct {v1}, Ljava/util/Random;-><init>()V
@@ -793,7 +760,6 @@
 
     move-result v1
 
-    .line 3
     sget-object v2, Lcom/meitu/template/bean/StickerGroup;->Companion:Lcom/meitu/template/bean/StickerGroup$a;
 
     invoke-virtual {v2}, Lcom/meitu/template/bean/StickerGroup$a;->a()[I
@@ -804,7 +770,6 @@
 
     iput v1, p0, Lcom/meitu/template/bean/Doodle;->placeHolderColor:I
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->placeHolderColor:I
 
@@ -820,7 +785,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->recommendState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -835,7 +799,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/Doodle;->updateAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -850,7 +813,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -867,7 +829,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v1
@@ -901,7 +862,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/Doodle;->isDownloaded()Z
 
     move-result v1
@@ -934,7 +894,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v1
@@ -943,7 +902,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     new-instance v1, Ljava/io/File;
 
     invoke-virtual {p0}, Lcom/meitu/template/bean/Doodle;->getDoodlePath()Ljava/lang/String;
@@ -954,7 +912,6 @@
 
     invoke-virtual {v1}, Ljava/io/File;->deleteOnExit()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -968,7 +925,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v1
@@ -1001,7 +957,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Doodle;
 
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Doodle;->onCompareLocal(Lcom/meitu/template/bean/Doodle;)Z
@@ -1028,48 +983,40 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getDownloadProgress()I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/e;->setDownloadProgress(I)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/e;->setInternalState(I)V
 
-    .line 5
     iget v1, p1, Lcom/meitu/template/bean/Doodle;->collectState:I
 
     iput v1, p0, Lcom/meitu/template/bean/Doodle;->collectState:I
 
-    .line 6
     iget-wide v1, p1, Lcom/meitu/template/bean/Doodle;->collectTime:J
 
     iput-wide v1, p0, Lcom/meitu/template/bean/Doodle;->collectTime:J
 
-    .line 7
     iget v1, p1, Lcom/meitu/template/bean/Doodle;->needShow:I
 
     iput v1, p0, Lcom/meitu/template/bean/Doodle;->needShow:I
 
-    .line 8
     iget v1, p1, Lcom/meitu/template/bean/Doodle;->placeHolderColor:I
 
     iput v1, p0, Lcom/meitu/template/bean/Doodle;->placeHolderColor:I
 
-    .line 9
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->recommendState:I
 
     iget v2, p1, Lcom/meitu/template/bean/Doodle;->recommendState:I
@@ -1087,7 +1034,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 10
     :goto_0
     iget-object v2, p0, Lcom/meitu/template/bean/Doodle;->doodleThumbnail:Ljava/lang/String;
 
@@ -1099,7 +1045,6 @@
 
     and-int/2addr v1, v2
 
-    .line 11
     iget v2, p0, Lcom/meitu/template/bean/Doodle;->categoryId:I
 
     iget v5, p1, Lcom/meitu/template/bean/Doodle;->categoryId:I
@@ -1116,7 +1061,6 @@
     :goto_1
     and-int/2addr v1, v2
 
-    .line 12
     iget v2, p0, Lcom/meitu/template/bean/Doodle;->doodleSort:I
 
     iget v5, p1, Lcom/meitu/template/bean/Doodle;->doodleSort:I
@@ -1133,7 +1077,6 @@
     :goto_2
     and-int/2addr v1, v2
 
-    .line 13
     iget v2, p0, Lcom/meitu/template/bean/Doodle;->available:I
 
     iget v5, p1, Lcom/meitu/template/bean/Doodle;->available:I
@@ -1150,7 +1093,6 @@
     :goto_3
     and-int/2addr v1, v2
 
-    .line 14
     iget v2, p0, Lcom/meitu/template/bean/Doodle;->doodleAmount:I
 
     iget v5, p1, Lcom/meitu/template/bean/Doodle;->doodleAmount:I
@@ -1167,7 +1109,6 @@
     :goto_4
     and-int/2addr v1, v2
 
-    .line 15
     iget v2, p0, Lcom/meitu/template/bean/Doodle;->doodleTag:I
 
     iget v5, p1, Lcom/meitu/template/bean/Doodle;->doodleTag:I
@@ -1184,7 +1125,6 @@
     :goto_5
     and-int/2addr v1, v2
 
-    .line 16
     iget-object v2, p0, Lcom/meitu/template/bean/Doodle;->doodleGoodId:Ljava/lang/String;
 
     iget-object v5, p1, Lcom/meitu/template/bean/Doodle;->doodleGoodId:Ljava/lang/String;
@@ -1195,7 +1135,6 @@
 
     and-int/2addr v1, v2
 
-    .line 17
     iget-wide v5, p0, Lcom/meitu/template/bean/Doodle;->updateAt:J
 
     iget-wide v7, p1, Lcom/meitu/template/bean/Doodle;->updateAt:J
@@ -1214,14 +1153,12 @@
     :goto_6
     and-int/2addr v1, v2
 
-    .line 18
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v2
 
     if-eq v2, v4, :cond_8
 
-    .line 19
     iget-object v2, p0, Lcom/meitu/template/bean/Doodle;->doodleFile:Ljava/lang/String;
 
     iget-object v5, p1, Lcom/meitu/template/bean/Doodle;->doodleFile:Ljava/lang/String;
@@ -1234,14 +1171,12 @@
 
     if-eqz v2, :cond_7
 
-    .line 20
     invoke-virtual {p0}, Lcom/meitu/template/bean/Doodle;->getDoodlePath()Ljava/lang/String;
 
     move-result-object v5
 
     invoke-static {v5}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 21
     invoke-virtual {p0, v3}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
     :cond_7
@@ -1251,13 +1186,11 @@
 
     goto :goto_7
 
-    .line 22
     :cond_8
     iget-object v2, p1, Lcom/meitu/template/bean/Doodle;->doodleFile:Ljava/lang/String;
 
     iput-object v2, p0, Lcom/meitu/template/bean/Doodle;->doodleFile:Ljava/lang/String;
 
-    .line 23
     :goto_7
     invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1265,12 +1198,10 @@
 
     if-eqz v2, :cond_9
 
-    .line 24
     iget-wide v2, p1, Lcom/meitu/template/bean/Doodle;->localInsertTime:J
 
     iput-wide v2, p0, Lcom/meitu/template/bean/Doodle;->localInsertTime:J
 
-    .line 25
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1284,7 +1215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Doodle;
 
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Doodle;->onSortCompare(Lcom/meitu/template/bean/Doodle;)I
@@ -1311,7 +1241,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Doodle;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1320,12 +1249,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/meitu/template/bean/Doodle;->doodleId:I
 
@@ -1353,7 +1280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->available:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1368,7 +1294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->canEditColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1383,7 +1308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->categoryId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1398,7 +1322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->collectState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1413,7 +1336,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/Doodle;->collectTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1428,7 +1350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->doodleAmount:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1447,7 +1368,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Doodle;->doodleFile:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1466,7 +1386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Doodle;->doodleGoodId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1481,7 +1400,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->doodleId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1496,7 +1414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->doodleSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1511,7 +1428,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->doodleTag:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1530,7 +1446,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Doodle;->doodleThumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1545,7 +1460,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->downloadType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1560,7 +1474,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->listDisplay:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1575,7 +1488,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/Doodle;->localInsertTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1590,7 +1502,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->needShow:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1605,7 +1516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->paidState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1620,7 +1530,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->placeHolderColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1635,7 +1544,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Doodle;->recommendState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1650,7 +1558,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/Doodle;->updateAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1667,7 +1574,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

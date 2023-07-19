@@ -27,14 +27,12 @@
 .method private constructor <init>(Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$d;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 p1, 0x3098
 
-    .line 2
     iput p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$d;->a:I
 
     return-void
@@ -43,7 +41,6 @@
 .method synthetic constructor <init>(Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$d;-><init>(Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;)V
 
     return-void
@@ -62,7 +59,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     iget v2, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$d;->a:I
 
     const/4 v3, 0x0
@@ -85,12 +81,10 @@
 
     aput v3, v1, v2
 
-    .line 2
     sget-object v2, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_CONTEXT:Ljavax/microedition/khronos/egl/EGLContext;
 
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$d;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;
 
-    .line 3
     invoke-static {v3}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b(Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;)I
 
     move-result v3
@@ -102,7 +96,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-interface {p1, p2, p3, v2, v1}, Ljavax/microedition/khronos/egl/EGL10;->eglCreateContext(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;Ljavax/microedition/khronos/egl/EGLContext;[I)Ljavax/microedition/khronos/egl/EGLContext;
 
@@ -120,14 +113,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p1, p2, p3}, Ljavax/microedition/khronos/egl/EGL10;->eglDestroyContext(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLContext;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -152,7 +143,6 @@
 
     invoke-static {p3, p2}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-interface {p1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetError()I
 
     move-result p1
@@ -161,7 +151,6 @@
 
     invoke-static {p2, p1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$f;->k(Ljava/lang/String;I)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

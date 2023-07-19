@@ -53,7 +53,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;
 
     const-string v1, "SUCCESS"
@@ -72,17 +71,14 @@
 
     aput-object v0, v1, v2
 
-    .line 2
     sput-object v1, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->$VALUES:[Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     sput-object v0, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->byName:Ljava/util/Map;
 
-    .line 4
     const-class v0, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;
 
     invoke-static {v0}, Ljava/util/EnumSet;->allOf(Ljava/lang/Class;)Ljava/util/EnumSet;
@@ -106,7 +102,6 @@
 
     check-cast v1, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;
 
-    .line 5
     sget-object v2, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->byName:Ljava/util/Map;
 
     invoke-virtual {v1}, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->getFieldName()Ljava/lang/String;
@@ -131,13 +126,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-short p3, p0, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->_thriftId:S
 
-    .line 3
     iput-object p4, p0, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->_fieldName:Ljava/lang/String;
 
     return-void
@@ -146,7 +138,6 @@
 .method public static findByName(Ljava/lang/String;)Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->byName:Ljava/util/Map;
 
     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -167,7 +158,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->SUCCESS:Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;
 
@@ -177,7 +167,6 @@
 .method public static findByThriftIdOrThrow(I)Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->findByThriftId(I)Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;
 
     move-result-object v0
@@ -186,7 +175,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -216,7 +204,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;
     .locals 1
 
-    .line 1
     const-class v0, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -231,7 +218,6 @@
 .method public static values()[Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->$VALUES:[Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;
 
     invoke-virtual {v0}, [Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->clone()Ljava/lang/Object;
@@ -248,7 +234,6 @@
 .method public getFieldName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->_fieldName:Ljava/lang/String;
 
     return-object v0
@@ -257,7 +242,6 @@
 .method public getThriftFieldId()S
     .locals 1
 
-    .line 1
     iget-short v0, p0, Lio/jaegertracing/crossdock/thrift/TracedService$joinTrace_result$_Fields;->_thriftId:S
 
     return v0

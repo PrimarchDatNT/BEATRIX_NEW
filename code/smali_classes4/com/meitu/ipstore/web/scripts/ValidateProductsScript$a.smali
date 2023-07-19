@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/scripts/ValidateProductsScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/ValidateProductsScript$a;->c:Lcom/meitu/ipstore/web/scripts/ValidateProductsScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/ipstore/web/scripts/ValidateProductsScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/web/scripts/ValidateProductsScript$a;->d(Lcom/meitu/ipstore/web/scripts/ValidateProductsScript$Model;)V
@@ -64,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -85,7 +82,6 @@
 
     invoke-static {v1}, Lf/k/m/j/e;->a(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v1
@@ -100,15 +96,12 @@
 
     iget-object v2, p0, Lcom/meitu/ipstore/web/scripts/ValidateProductsScript$a;->c:Lcom/meitu/ipstore/web/scripts/ValidateProductsScript;
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v3
 
-    .line 4
     invoke-virtual {v1, p1, v2, v3}, Lcom/meitu/ipstore/core/b;->r([Ljava/lang/String;Lcom/meitu/ipstore/core/a$d;Landroid/app/Activity;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

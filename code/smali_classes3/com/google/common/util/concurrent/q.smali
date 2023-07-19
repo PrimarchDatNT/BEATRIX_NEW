@@ -27,7 +27,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/f0;-><init>()V
 
     return-void
@@ -38,7 +37,6 @@
 .method protected bridge synthetic J0()Ljava/util/Deque;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -59,7 +57,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -70,7 +67,6 @@
 .method protected bridge synthetic delegate()Ljava/util/Collection;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -81,7 +77,6 @@
 .method protected bridge synthetic delegate()Ljava/util/Queue;
     .locals 1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -99,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -121,7 +115,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -149,7 +142,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -177,7 +169,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -205,7 +196,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -233,7 +223,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -261,7 +250,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -289,7 +277,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -315,7 +302,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -339,7 +325,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -363,7 +348,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -376,7 +360,6 @@
 .method public remainingCapacity()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -402,7 +385,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -428,7 +410,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0
@@ -454,7 +435,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/q;->M0()Ljava/util/concurrent/BlockingDeque;
 
     move-result-object v0

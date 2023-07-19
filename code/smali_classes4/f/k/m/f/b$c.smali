@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/k/m/f/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/m/f/b$c;->a:Lf/k/m/f/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/m/f/b$c;->a:Lf/k/m/f/b;
 
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
@@ -57,27 +55,22 @@
 
     move-result-object v2
 
-    .line 2
     invoke-virtual {v2}, Lcom/android/billingclient/api/d$b;->b()Lcom/android/billingclient/api/d$b;
 
     move-result-object v2
 
     iget-object v3, p0, Lf/k/m/f/b$c;->a:Lf/k/m/f/b;
 
-    .line 3
     invoke-virtual {v2, v3}, Lcom/android/billingclient/api/d$b;->c(Lcom/android/billingclient/api/n;)Lcom/android/billingclient/api/d$b;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2}, Lcom/android/billingclient/api/d$b;->a()Lcom/android/billingclient/api/d;
 
     move-result-object v2
 
-    .line 5
     invoke-static {v1, v2}, Lf/k/m/f/b;->b(Lf/k/m/f/b;Lcom/android/billingclient/api/d;)Lcom/android/billingclient/api/d;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

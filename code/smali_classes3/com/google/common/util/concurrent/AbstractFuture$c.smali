@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/common/util/concurrent/AbstractFuture;->c()Z
 
     move-result v0
@@ -42,15 +41,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     sput-object v1, Lcom/google/common/util/concurrent/AbstractFuture$c;->d:Lcom/google/common/util/concurrent/AbstractFuture$c;
 
-    .line 3
     sput-object v1, Lcom/google/common/util/concurrent/AbstractFuture$c;->c:Lcom/google/common/util/concurrent/AbstractFuture$c;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v0, Lcom/google/common/util/concurrent/AbstractFuture$c;
 
@@ -60,7 +56,6 @@
 
     sput-object v0, Lcom/google/common/util/concurrent/AbstractFuture$c;->d:Lcom/google/common/util/concurrent/AbstractFuture$c;
 
-    .line 5
     new-instance v0, Lcom/google/common/util/concurrent/AbstractFuture$c;
 
     const/4 v2, 0x1
@@ -80,13 +75,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/common/util/concurrent/AbstractFuture$c;->a:Z
 
-    .line 3
     iput-object p2, p0, Lcom/google/common/util/concurrent/AbstractFuture$c;->b:Ljava/lang/Throwable;
 
     return-void

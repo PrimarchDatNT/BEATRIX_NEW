@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -37,12 +35,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
@@ -58,18 +54,15 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :try_start_1
     invoke-static {v1}, Lcom/meitu/library/p/g/e;->q(Ljava/io/InputStream;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 5
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -92,7 +85,6 @@
 
     invoke-virtual {v4, v3, v5}, Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v3
@@ -107,7 +99,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 8
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;->getInstance()Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     move-result-object p0
@@ -116,21 +107,17 @@
 
     const/4 v3, 0x1
 
-    .line 9
     invoke-virtual {p0, p1, v3}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->putValue(Ljava/lang/String;Z)Z
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 10
     invoke-static {v1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
     const-string p0, "\u8ffd\u52a0\u672c\u5730hw-business-config\u6210\u529f"
 
-    .line 11
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 12
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -139,7 +126,6 @@
 
     return-object p0
 
-    .line 13
     :cond_1
     :try_start_2
     new-instance p0, Ljava/lang/StringBuilder;
@@ -161,10 +147,8 @@
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 14
     invoke-static {v1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -184,17 +168,14 @@
 
     move-object v1, v2
 
-    .line 16
     :goto_0
     :try_start_3
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 17
     invoke-static {v1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -204,11 +185,9 @@
 
     move-object v2, v1
 
-    .line 19
     :goto_1
     invoke-static {v2}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p0
@@ -221,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
 
     move-result-object v1
@@ -230,7 +208,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -255,7 +232,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -295,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
 
     move-result-object v1
@@ -304,7 +279,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -329,7 +303,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -369,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -379,7 +351,6 @@
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/library/p/g/e;->q(Ljava/io/InputStream;)Ljava/lang/String;
 
     move-result-object p0
@@ -391,12 +362,10 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -410,12 +379,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;->getInstance()Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     move-result-object v2
@@ -427,14 +394,12 @@
 
     const/4 v5, 0x0
 
-    .line 3
     invoke-virtual {v2, v4, v5}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/helper/LocalConfigHelper;->getDefaultLocalConfigFilePath(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
@@ -453,7 +418,6 @@
 
     const-string p0, "hw-business-config.json"
 
-    .line 5
     invoke-static {v1, p0}, Lcom/meitu/library/p/g/e;->k(Landroid/content/res/AssetManager;Ljava/lang/String;)Ljava/io/InputStream;
 
     move-result-object p0
@@ -465,10 +429,8 @@
     :catch_0
     move-exception p0
 
-    .line 6
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 7
     :cond_1
     :goto_1
     invoke-static {p1, v3}, Lcom/meitu/hwbusinesskit/core/helper/LocalConfigHelper;->parse(Lcom/google/gson/Gson;Ljava/io/InputStream;)Lcom/meitu/hwbusinesskit/core/bean/Business;
@@ -487,7 +449,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 8
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;->getInstance()Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     move-result-object v1
@@ -499,14 +460,12 @@
 
     const/4 v4, 0x0
 
-    .line 9
     invoke-virtual {v1, v3, v4}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 10
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/helper/LocalConfigHelper;->getDefaultLocalConfigFilePath(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
@@ -520,7 +479,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -530,7 +488,6 @@
 
     const-string v1, "hw-business-config.json"
 
-    .line 12
     invoke-static {p0, v1}, Lcom/meitu/library/p/g/e;->k(Landroid/content/res/AssetManager;Ljava/lang/String;)Ljava/io/InputStream;
 
     move-result-object p0
@@ -542,10 +499,8 @@
     :catch_0
     move-exception p0
 
-    .line 13
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 14
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -569,7 +524,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_1
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/helper/LocalConfigHelper;->getLocalConfigFilePath(Landroid/content/Context;)Ljava/lang/String;
 
@@ -587,11 +541,9 @@
     :catch_0
     move-exception p0
 
-    .line 2
     :try_start_2
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 3
     :goto_0
     invoke-static {p1, v2}, Lcom/meitu/hwbusinesskit/core/helper/LocalConfigHelper;->parse(Lcom/google/gson/Gson;Ljava/io/InputStream;)Lcom/meitu/hwbusinesskit/core/bean/Business;
 
@@ -620,7 +572,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 4
     :try_start_0
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/helper/LocalConfigHelper;->getLocalConfigFilePath(Landroid/content/Context;)Ljava/lang/String;
 
@@ -637,12 +588,10 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
     const/4 p0, 0x0
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -660,12 +609,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {p1}, Lcom/meitu/library/p/g/e;->q(Ljava/io/InputStream;)Ljava/lang/String;
@@ -675,7 +622,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
     goto :goto_0
@@ -688,18 +634,15 @@
     :catch_0
     move-exception v2
 
-    .line 4
     :try_start_1
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
     move-object v2, v1
 
-    .line 6
     :goto_0
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -707,12 +650,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 8
     :cond_1
     :try_start_2
     const-class p1, Lcom/meitu/hwbusinesskit/core/bean/Business;
@@ -734,23 +675,18 @@
 
     const-string p1, "\u672c\u5730\u914d\u7f6e\u89e3\u6790\u5931\u8d25"
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 11
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 12
     :goto_2
     invoke-static {p1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p0
@@ -770,7 +706,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -779,7 +714,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_1
     invoke-virtual {p1, p2}, Lcom/google/gson/Gson;->toJson(Ljava/lang/Object;)Ljava/lang/String;
@@ -792,7 +726,6 @@
 
     invoke-static {p1, p0}, Lcom/meitu/library/p/g/b;->L(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0

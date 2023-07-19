@@ -33,13 +33,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/encoder/d;-><init>()V
 
-    .line 2
     iput-object p5, p0, Lcom/meitu/media/encoder/d;->a:Lcom/meitu/media/encoder/Muxer;
 
-    .line 3
     new-instance p5, Landroid/media/MediaCodec$BufferInfo;
 
     invoke-direct {p5}, Landroid/media/MediaCodec$BufferInfo;-><init>()V
@@ -48,7 +45,6 @@
 
     const-string p5, "video/avc"
 
-    .line 4
     invoke-static {p5, p1, p2}, Landroid/media/MediaFormat;->createVideoFormat(Ljava/lang/String;II)Landroid/media/MediaFormat;
 
     move-result-object v0
@@ -57,27 +53,22 @@
 
     const v2, 0x7f000789
 
-    .line 5
     invoke-virtual {v0, v1, v2}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     const-string v1, "bitrate"
 
-    .line 6
     invoke-virtual {v0, v1, p3}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     const-string p3, "frame-rate"
 
     const/16 v1, 0x1e
 
-    .line 7
     invoke-virtual {v0, p3, v1}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     const-string p3, "i-frame-interval"
 
-    .line 8
     invoke-virtual {v0, p3, p4}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
-    .line 9
     invoke-static {p5}, Landroid/media/MediaCodec;->createEncoderByType(Ljava/lang/String;)Landroid/media/MediaCodec;
 
     move-result-object p3
@@ -88,11 +79,9 @@
 
     const/4 p5, 0x0
 
-    .line 10
     :try_start_0
     invoke-virtual {p3, v0, p5, p5, p4}, Landroid/media/MediaCodec;->configure(Landroid/media/MediaFormat;Landroid/view/Surface;Landroid/media/MediaCrypto;I)V
 
-    .line 11
     iget-object p3, p0, Lcom/meitu/media/encoder/d;->b:Landroid/media/MediaCodec;
 
     invoke-virtual {p3}, Landroid/media/MediaCodec;->createInputSurface()Landroid/view/Surface;
@@ -101,7 +90,6 @@
 
     iput-object p3, p0, Lcom/meitu/media/encoder/j;->m:Landroid/view/Surface;
 
-    .line 12
     iget-object p3, p0, Lcom/meitu/media/encoder/d;->b:Landroid/media/MediaCodec;
 
     invoke-virtual {p3}, Landroid/media/MediaCodec;->start()V
@@ -110,7 +98,6 @@
 
     const/4 p1, -0x1
 
-    .line 13
     iput p1, p0, Lcom/meitu/media/encoder/d;->d:I
 
     return-void
@@ -118,10 +105,8 @@
     :catch_0
     move-exception p3
 
-    .line 14
     invoke-virtual {p3}, Ljava/lang/IllegalStateException;->printStackTrace()V
 
-    .line 15
     new-instance p3, Ljava/lang/IllegalStateException;
 
     new-instance p4, Ljava/lang/StringBuilder;
@@ -158,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -176,20 +160,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/meitu/media/encoder/d;->f()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/encoder/j;->m:Landroid/view/Surface;
 
     invoke-virtual {v1}, Landroid/view/Surface;->release()V
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/meitu/media/encoder/j;->m:Landroid/view/Surface;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -205,15 +185,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/meitu/media/encoder/d;->g()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/encoder/d;->b:Landroid/media/MediaCodec;
 
     invoke-virtual {v1}, Landroid/media/MediaCodec;->signalEndOfInputStream()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -226,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/j;->m:Landroid/view/Surface;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

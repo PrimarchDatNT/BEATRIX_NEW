@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/mopub/common/UrlAction;-><init>(Ljava/lang/String;IZLcom/mopub/common/UrlAction$1;)V
 
     return-void
@@ -52,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object p3
@@ -65,7 +63,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {p2}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
@@ -77,14 +74,12 @@
 
     move-result-object p3
 
-    .line 3
     invoke-static {p1, p3}, Lcom/mopub/common/util/Intents;->launchApplicationIntent(Landroid/content/Context;Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/net/URISyntaxException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
-    .line 4
     :catch_0
     new-instance p1, Lcom/mopub/exceptions/IntentNotResolvableException;
 
@@ -96,7 +91,6 @@
 
     invoke-virtual {p3, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {p2}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -111,7 +105,6 @@
 
     throw p1
 
-    .line 6
     :cond_0
     invoke-static {p1, p2}, Lcom/mopub/common/util/Intents;->launchApplicationUrl(Landroid/content/Context;Landroid/net/Uri;)V
 
@@ -126,12 +119,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1

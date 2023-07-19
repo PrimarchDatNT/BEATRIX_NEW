@@ -41,7 +41,6 @@
 .method public constructor <init>(JJJB)V
     .locals 11
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object v8
@@ -62,7 +61,6 @@
 
     move/from16 v7, p7
 
-    .line 2
     invoke-direct/range {v0 .. v10}, Lio/jaegertracing/a/d;-><init>(JJJBLjava/util/Map;Ljava/lang/String;Lio/jaegertracing/a/b;)V
 
     return-void
@@ -83,36 +81,27 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-nez p8, :cond_0
 
-    .line 4
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object p8
 
-    .line 5
     :cond_0
     iput-wide p1, p0, Lio/jaegertracing/a/d;->b:J
 
-    .line 6
     iput-wide p3, p0, Lio/jaegertracing/a/d;->c:J
 
-    .line 7
     iput-wide p5, p0, Lio/jaegertracing/a/d;->d:J
 
-    .line 8
     iput-byte p7, p0, Lio/jaegertracing/a/d;->e:B
 
-    .line 9
     iput-object p8, p0, Lio/jaegertracing/a/d;->f:Ljava/util/Map;
 
-    .line 10
     iput-object p9, p0, Lio/jaegertracing/a/d;->g:Ljava/lang/String;
 
-    .line 11
     iput-object p10, p0, Lio/jaegertracing/a/d;->h:Lio/jaegertracing/a/b;
 
     return-void
@@ -132,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/d;->f:Ljava/util/Map;
 
     return-object v0
@@ -141,7 +129,6 @@
 .method public b(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/d;->f:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -156,7 +143,6 @@
 .method c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/d;->g:Ljava/lang/String;
 
     return-object v0
@@ -175,7 +161,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     iget-object v1, p0, Lio/jaegertracing/a/d;->f:Ljava/util/Map;
@@ -192,7 +177,6 @@
 .method public e()B
     .locals 1
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/a/d;->e:B
 
     return v0
@@ -201,7 +185,6 @@
 .method public f()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/a/d;->d:J
 
     return-wide v0
@@ -210,7 +193,6 @@
 .method public g()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/a/d;->c:J
 
     return-wide v0
@@ -219,7 +201,6 @@
 .method public h()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/a/d;->b:J
 
     return-wide v0
@@ -228,7 +209,6 @@
 .method public i()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/a/d;->e:B
 
     const/4 v1, 0x2
@@ -251,7 +231,6 @@
 .method j()Z
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/a/d;->b:J
 
     const-wide/16 v2, 0x0
@@ -278,7 +257,6 @@
 .method public k()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/a/d;->e:B
 
     const/4 v1, 0x1
@@ -309,7 +287,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/d;->h:Lio/jaegertracing/a/b;
 
     iget-wide v1, p0, Lio/jaegertracing/a/d;->b:J
@@ -334,7 +311,6 @@
 .method public m(Ljava/lang/String;Ljava/lang/String;)Lio/jaegertracing/a/d;
     .locals 10
 
-    .line 1
     new-instance v8, Ljava/util/HashMap;
 
     iget-object v0, p0, Lio/jaegertracing/a/d;->f:Ljava/util/Map;
@@ -343,16 +319,13 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-interface {v8, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-interface {v8, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     :goto_0
     iget-object v0, p0, Lio/jaegertracing/a/d;->h:Lio/jaegertracing/a/b;
 
@@ -376,7 +349,6 @@
 .method public n(B)Lio/jaegertracing/a/d;
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/d;->h:Lio/jaegertracing/a/b;
 
     iget-wide v1, p0, Lio/jaegertracing/a/d;->b:J
@@ -401,7 +373,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lio/jaegertracing/a/l/e;->d(Lio/jaegertracing/a/d;)Ljava/lang/String;
 
     move-result-object v0

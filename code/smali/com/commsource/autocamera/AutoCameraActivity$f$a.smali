@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/AutoCameraActivity$f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$f$a;->a:Lcom/commsource/autocamera/AutoCameraActivity$f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity$f$a;->a:Lcom/commsource/autocamera/AutoCameraActivity$f;
 
     iget-object v1, v1, Lcom/commsource/autocamera/AutoCameraActivity$f;->a:Lcom/commsource/autocamera/AutoCameraActivity;
@@ -51,7 +49,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/autocamera/AutoCameraActivity;->n1(Lcom/commsource/autocamera/AutoCameraActivity;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity$f$a;->a:Lcom/commsource/autocamera/AutoCameraActivity$f;
 
     iget-object v1, v1, Lcom/commsource/autocamera/AutoCameraActivity$f;->a:Lcom/commsource/autocamera/AutoCameraActivity;
@@ -62,7 +59,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity$f$a;->a:Lcom/commsource/autocamera/AutoCameraActivity$f;
 
     iget-object v1, v1, Lcom/commsource/autocamera/AutoCameraActivity$f;->a:Lcom/commsource/autocamera/AutoCameraActivity;
@@ -71,7 +67,6 @@
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -80,24 +75,20 @@
 
     move-result v2
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/autocamera/SimpleCameraViewModel;->Q0(Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity$f$a;->a:Lcom/commsource/autocamera/AutoCameraActivity$f;
 
     iget-object v1, v1, Lcom/commsource/autocamera/AutoCameraActivity$f;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-virtual {v1}, Lcom/commsource/autocamera/AutoCameraActivity;->b2()V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity$f$a;->a:Lcom/commsource/autocamera/AutoCameraActivity$f;
 
     iget-object v1, v1, Lcom/commsource/autocamera/AutoCameraActivity$f;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-virtual {v1}, Lcom/commsource/autocamera/AutoCameraActivity;->g2()V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

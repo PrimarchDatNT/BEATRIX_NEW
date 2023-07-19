@@ -20,7 +20,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/text/Regex;
 
     invoke-direct {v0, p0}, Lcotlin/text/Regex;-><init>(Ljava/util/regex/Pattern;)V

@@ -36,18 +36,14 @@
 .method constructor <init>(Lf/r/c/c/b;Lf/r/c/d/e;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lf/r/c/c/a;->b:Z
 
-    .line 3
     iput-object p1, p0, Lf/r/c/c/a;->c:Lf/r/c/c/b;
 
-    .line 4
     iput-object p2, p0, Lf/r/c/c/a;->d:Lf/r/c/d/e;
 
     return-void
@@ -56,22 +52,18 @@
 .method private a(Lf/r/c/d/b;)V
     .locals 1
 
-    .line 1
     sget-object p1, Lf/r/c/c/a;->f:Ljava/lang/String;
 
     const-string v0, "pulse"
 
     invoke-static {p1, v0}, Lf/r/c/e/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0}, Lf/r/c/c/a;->d()V
 
-    .line 3
     iget-boolean p1, p0, Lf/r/c/c/a;->b:Z
 
     if-nez p1, :cond_0
 
-    .line 4
     invoke-direct {p0}, Lf/r/c/c/a;->k()V
 
     :cond_0
@@ -81,7 +73,6 @@
 .method static synthetic b(Lf/r/c/c/a;Lf/r/c/d/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lf/r/c/c/a;->a(Lf/r/c/d/b;)V
 
     return-void
@@ -90,7 +81,6 @@
 .method static synthetic c(Lf/r/c/c/a;)Lf/r/c/c/b;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/r/c/c/a;->c:Lf/r/c/c/b;
 
     return-object p0
@@ -99,19 +89,16 @@
 .method private d()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/a;->a:Ljava/util/concurrent/ScheduledFuture;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {v0, v1}, Ljava/util/concurrent/ScheduledFuture;->cancel(Z)Z
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lf/r/c/c/a;->a:Ljava/util/concurrent/ScheduledFuture;
 
     :cond_0
@@ -121,22 +108,18 @@
 .method private i(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lf/r/c/c/a;->f:Ljava/lang/String;
 
     const-string v1, "shutdown"
 
     invoke-static {v0, v1}, Lf/r/c/e/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0}, Lf/r/c/c/a;->d()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lf/r/c/c/a;->b:Z
 
-    .line 4
     iget-object v0, p0, Lf/r/c/c/a;->c:Lf/r/c/c/b;
 
     if-eqz p1, :cond_0
@@ -155,7 +138,6 @@
 .method private k()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/a;->c:Lf/r/c/c/b;
 
     iget-object v0, v0, Lf/r/c/c/b;->m:Ljava/util/concurrent/ScheduledExecutorService;
@@ -182,19 +164,16 @@
 .method public e()V
     .locals 2
 
-    .line 1
     sget-object v0, Lf/r/c/c/a;->f:Ljava/lang/String;
 
     const-string v1, "clear"
 
     invoke-static {v0, v1}, Lf/r/c/e/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0}, Lf/r/c/c/a;->d()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lf/r/c/c/a;->b:Z
 
     return-void
@@ -203,7 +182,6 @@
 .method public f()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lf/r/c/c/a;->b:Z
 
     return v0
@@ -212,7 +190,6 @@
 .method public g()V
     .locals 2
 
-    .line 1
     sget-object v0, Lf/r/c/c/a;->f:Ljava/lang/String;
 
     const-string v1, "pause"
@@ -221,10 +198,8 @@
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lf/r/c/c/a;->b:Z
 
-    .line 3
     invoke-direct {p0}, Lf/r/c/c/a;->d()V
 
     return-void
@@ -233,27 +208,22 @@
 .method public h()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lf/r/c/c/a;->b:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lf/r/c/c/a;->f:Ljava/lang/String;
 
     const-string v1, "resume"
 
     invoke-static {v0, v1}, Lf/r/c/e/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0}, Lf/r/c/c/a;->d()V
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lf/r/c/c/a;->b:Z
 
-    .line 5
     invoke-virtual {p0}, Lf/r/c/c/a;->j()V
 
     :cond_0
@@ -263,14 +233,12 @@
 .method public j()V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lf/r/c/c/a;->b:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     sget-object v0, Lf/r/c/c/a;->f:Ljava/lang/String;
 
@@ -278,7 +246,6 @@
 
     invoke-static {v0, v1}, Lf/r/c/e/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lf/r/c/c/a;->d:Lf/r/c/d/e;
 
     new-instance v1, Lf/r/c/c/a$a;
@@ -289,7 +256,6 @@
 
     invoke-virtual {v0, v2, v1}, Lf/r/c/d/e;->b(Ljava/lang/String;Lf/r/c/d/d$d;)V
 
-    .line 4
     invoke-direct {p0}, Lf/r/c/c/a;->k()V
 
     return-void

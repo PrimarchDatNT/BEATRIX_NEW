@@ -234,7 +234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -251,159 +250,124 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    .line 2
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    .line 3
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
-    .line 4
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
-    .line 5
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    .line 6
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
     const/4 v0, 0x0
 
-    .line 7
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->s0:Z
 
     const/high16 v1, -0x40800000    # -1.0f
 
-    .line 8
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->t0:F
 
-    .line 9
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v0:Z
 
-    .line 10
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->w0:Z
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 11
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->x0:F
 
-    .line 12
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->y0:F
 
     const/4 v2, 0x0
 
-    .line 13
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->z0:F
 
-    .line 14
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->A0:F
 
-    .line 15
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->B0:F
 
-    .line 16
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->C0:F
 
-    .line 17
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->D0:F
 
-    .line 18
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->E0:F
 
-    .line 19
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->F0:F
 
-    .line 20
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->G0:F
 
-    .line 21
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->H0:Z
 
-    .line 22
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->I0:F
 
-    .line 23
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->K0:F
 
-    .line 24
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->L0:F
 
-    .line 25
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->N0:Z
 
-    .line 26
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->O0:I
 
     const/4 v1, 0x2
 
     new-array v1, v1, [F
 
-    .line 27
     fill-array-data v1, :array_0
 
-    .line 28
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
-    .line 29
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
 
-    .line 30
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
-    .line 31
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S0:Landroid/graphics/Matrix;
 
-    .line 32
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T0:Landroid/graphics/Matrix;
 
-    .line 33
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U0:Landroid/graphics/RectF;
 
-    .line 34
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
-    .line 35
     new-instance v1, Landroid/graphics/PointF;
 
     invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
@@ -414,25 +378,20 @@
 
     new-array v2, v1, [F
 
-    .line 36
     iput-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->X0:[F
 
     new-array v1, v1, [F
 
-    .line 37
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Y0:[F
 
-    .line 38
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Z0:Z
 
-    .line 39
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a1:Landroid/graphics/Matrix;
 
-    .line 40
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
@@ -443,17 +402,14 @@
 
     new-array v1, v0, [F
 
-    .line 41
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c1:[F
 
     new-array v0, v0, [F
 
-    .line 42
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d1:[F
 
     const/4 v0, 0x0
 
-    .line 43
     invoke-direct {p0, p1, v0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->k(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -470,159 +426,124 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 3
 
-    .line 44
     invoke-direct {p0, p1, p2}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 45
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    .line 46
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
-    .line 47
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
-    .line 48
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    .line 49
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
     const/4 v0, 0x0
 
-    .line 50
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->s0:Z
 
     const/high16 v1, -0x40800000    # -1.0f
 
-    .line 51
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->t0:F
 
-    .line 52
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v0:Z
 
-    .line 53
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->w0:Z
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 54
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->x0:F
 
-    .line 55
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->y0:F
 
     const/4 v2, 0x0
 
-    .line 56
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->z0:F
 
-    .line 57
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->A0:F
 
-    .line 58
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->B0:F
 
-    .line 59
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->C0:F
 
-    .line 60
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->D0:F
 
-    .line 61
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->E0:F
 
-    .line 62
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->F0:F
 
-    .line 63
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->G0:F
 
-    .line 64
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->H0:Z
 
-    .line 65
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->I0:F
 
-    .line 66
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->K0:F
 
-    .line 67
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->L0:F
 
-    .line 68
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->N0:Z
 
-    .line 69
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->O0:I
 
     const/4 v1, 0x2
 
     new-array v1, v1, [F
 
-    .line 70
     fill-array-data v1, :array_0
 
-    .line 71
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
-    .line 72
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
 
-    .line 73
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
-    .line 74
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S0:Landroid/graphics/Matrix;
 
-    .line 75
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T0:Landroid/graphics/Matrix;
 
-    .line 76
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U0:Landroid/graphics/RectF;
 
-    .line 77
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
-    .line 78
     new-instance v1, Landroid/graphics/PointF;
 
     invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
@@ -633,25 +554,20 @@
 
     new-array v2, v1, [F
 
-    .line 79
     iput-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->X0:[F
 
     new-array v1, v1, [F
 
-    .line 80
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Y0:[F
 
-    .line 81
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Z0:Z
 
-    .line 82
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a1:Landroid/graphics/Matrix;
 
-    .line 83
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
@@ -662,15 +578,12 @@
 
     new-array v1, v0, [F
 
-    .line 84
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c1:[F
 
     new-array v0, v0, [F
 
-    .line 85
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d1:[F
 
-    .line 86
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->k(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -685,159 +598,124 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 2
 
-    .line 87
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 88
     sget-object p3, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    .line 89
     sget-object p3, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
-    .line 90
     sget-object p3, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
-    .line 91
     sget-object p3, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    .line 92
     sget-object p3, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
     const/4 p3, 0x0
 
-    .line 93
     iput-boolean p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->s0:Z
 
     const/high16 v0, -0x40800000    # -1.0f
 
-    .line 94
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->t0:F
 
-    .line 95
     iput-boolean p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v0:Z
 
-    .line 96
     iput-boolean p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->w0:Z
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 97
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->x0:F
 
-    .line 98
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->y0:F
 
     const/4 v1, 0x0
 
-    .line 99
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->z0:F
 
-    .line 100
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->A0:F
 
-    .line 101
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->B0:F
 
-    .line 102
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->C0:F
 
-    .line 103
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->D0:F
 
-    .line 104
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->E0:F
 
-    .line 105
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->F0:F
 
-    .line 106
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->G0:F
 
-    .line 107
     iput-boolean p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->H0:Z
 
-    .line 108
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->I0:F
 
-    .line 109
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->K0:F
 
-    .line 110
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->L0:F
 
-    .line 111
     iput-boolean p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->N0:Z
 
-    .line 112
     iput p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->O0:I
 
     const/4 v0, 0x2
 
     new-array v0, v0, [F
 
-    .line 113
     fill-array-data v0, :array_0
 
-    .line 114
     invoke-static {v0}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
-    .line 115
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
 
-    .line 116
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
-    .line 117
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S0:Landroid/graphics/Matrix;
 
-    .line 118
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T0:Landroid/graphics/Matrix;
 
-    .line 119
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U0:Landroid/graphics/RectF;
 
-    .line 120
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
-    .line 121
     new-instance v0, Landroid/graphics/PointF;
 
     invoke-direct {v0}, Landroid/graphics/PointF;-><init>()V
@@ -848,25 +726,20 @@
 
     new-array v1, v0, [F
 
-    .line 122
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->X0:[F
 
     new-array v0, v0, [F
 
-    .line 123
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Y0:[F
 
-    .line 124
     iput-boolean p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Z0:Z
 
-    .line 125
     new-instance p3, Landroid/graphics/Matrix;
 
     invoke-direct {p3}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a1:Landroid/graphics/Matrix;
 
-    .line 126
     new-instance p3, Landroid/graphics/Matrix;
 
     invoke-direct {p3}, Landroid/graphics/Matrix;-><init>()V
@@ -877,15 +750,12 @@
 
     new-array v0, p3, [F
 
-    .line 127
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c1:[F
 
     new-array p3, p3, [F
 
-    .line 128
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d1:[F
 
-    .line 129
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->k(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -903,159 +773,124 @@
         value = 0x15
     .end annotation
 
-    .line 130
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
-    .line 131
     sget-object p3, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    .line 132
     sget-object p3, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
-    .line 133
     sget-object p3, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
-    .line 134
     sget-object p3, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    .line 135
     sget-object p3, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
     const/4 p3, 0x0
 
-    .line 136
     iput-boolean p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->s0:Z
 
     const/high16 p4, -0x40800000    # -1.0f
 
-    .line 137
     iput p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->t0:F
 
-    .line 138
     iput-boolean p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v0:Z
 
-    .line 139
     iput-boolean p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->w0:Z
 
     const/high16 p4, 0x3f800000    # 1.0f
 
-    .line 140
     iput p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->x0:F
 
-    .line 141
     iput p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->y0:F
 
     const/4 v0, 0x0
 
-    .line 142
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->z0:F
 
-    .line 143
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->A0:F
 
-    .line 144
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->B0:F
 
-    .line 145
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->C0:F
 
-    .line 146
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->D0:F
 
-    .line 147
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->E0:F
 
-    .line 148
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->F0:F
 
-    .line 149
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->G0:F
 
-    .line 150
     iput-boolean p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->H0:Z
 
-    .line 151
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->I0:F
 
-    .line 152
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->K0:F
 
-    .line 153
     iput p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->L0:F
 
-    .line 154
     iput-boolean p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->N0:Z
 
-    .line 155
     iput p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->O0:I
 
     const/4 p4, 0x2
 
     new-array p4, p4, [F
 
-    .line 156
     fill-array-data p4, :array_0
 
-    .line 157
     invoke-static {p4}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
 
     move-result-object p4
 
     iput-object p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
-    .line 158
     new-instance p4, Landroid/graphics/RectF;
 
     invoke-direct {p4}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
 
-    .line 159
     new-instance p4, Landroid/graphics/Matrix;
 
     invoke-direct {p4}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
-    .line 160
     new-instance p4, Landroid/graphics/Matrix;
 
     invoke-direct {p4}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S0:Landroid/graphics/Matrix;
 
-    .line 161
     new-instance p4, Landroid/graphics/Matrix;
 
     invoke-direct {p4}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T0:Landroid/graphics/Matrix;
 
-    .line 162
     new-instance p4, Landroid/graphics/RectF;
 
     invoke-direct {p4}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U0:Landroid/graphics/RectF;
 
-    .line 163
     new-instance p4, Landroid/graphics/RectF;
 
     invoke-direct {p4}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
-    .line 164
     new-instance p4, Landroid/graphics/PointF;
 
     invoke-direct {p4}, Landroid/graphics/PointF;-><init>()V
@@ -1066,25 +901,20 @@
 
     new-array v0, p4, [F
 
-    .line 165
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->X0:[F
 
     new-array p4, p4, [F
 
-    .line 166
     iput-object p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Y0:[F
 
-    .line 167
     iput-boolean p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Z0:Z
 
-    .line 168
     new-instance p3, Landroid/graphics/Matrix;
 
     invoke-direct {p3}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a1:Landroid/graphics/Matrix;
 
-    .line 169
     new-instance p3, Landroid/graphics/Matrix;
 
     invoke-direct {p3}, Landroid/graphics/Matrix;-><init>()V
@@ -1095,15 +925,12 @@
 
     new-array p4, p3, [F
 
-    .line 170
     iput-object p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c1:[F
 
     new-array p3, p3, [F
 
-    .line 171
     iput-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d1:[F
 
-    .line 172
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->k(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -1126,7 +953,6 @@
 
     if-lez p2, :cond_1
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d0:I
 
     if-ne p1, v1, :cond_0
@@ -1135,19 +961,15 @@
 
     if-eq p2, v1, :cond_1
 
-    .line 2
     :cond_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d0:I
 
-    .line 3
     iput p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->e0:I
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->i0:Z
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1163,7 +985,6 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 1
     invoke-direct {p0, v1, v1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d(FF)Z
 
     move-result v1
@@ -1172,10 +993,8 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v0:Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b0:I
@@ -1184,12 +1003,10 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1203,7 +1020,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -1212,12 +1028,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
@@ -1244,7 +1058,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
@@ -1260,7 +1073,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     iget v1, v1, Landroid/graphics/RectF;->right:F
 
@@ -1275,7 +1087,6 @@
     :cond_3
     const/4 v1, 0x0
 
-    .line 6
     :goto_1
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
@@ -1298,7 +1109,6 @@
 
     goto :goto_3
 
-    .line 7
     :cond_4
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
@@ -1314,7 +1124,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_5
     iget v2, v2, Landroid/graphics/RectF;->bottom:F
 
@@ -1332,7 +1141,6 @@
     :goto_3
     if-eqz v1, :cond_7
 
-    .line 9
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c0:I
 
     int-to-float v1, v1
@@ -1342,34 +1150,27 @@
     :cond_7
     if-eqz v2, :cond_8
 
-    .line 10
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c0:I
 
     int-to-float v1, v1
 
     div-float/2addr p2, v1
 
-    .line 11
     :cond_8
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, p1, p2}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->E()V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    .line 14
     iput-boolean v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g0:Z
 
-    .line 15
     invoke-virtual {p0, p1, p2, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->s(FFZ)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1382,14 +1183,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->o()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d0:I
@@ -1404,19 +1203,16 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->t(Landroid/graphics/Matrix;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1430,21 +1226,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
     mul-float v1, v1, p1
 
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
-    .line 2
     iget p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
     mul-float p1, p1, p2
 
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1457,7 +1250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentImageBounds()Landroid/graphics/RectF;
 
     move-result-object v1
@@ -1474,7 +1266,6 @@
 
     move-result v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentImageBounds()Landroid/graphics/RectF;
 
     move-result-object v2
@@ -1491,7 +1282,6 @@
 
     move-result v2
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentImageBounds()Landroid/graphics/RectF;
 
     move-result-object v3
@@ -1508,7 +1298,6 @@
 
     move-result v3
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentImageBounds()Landroid/graphics/RectF;
 
     move-result-object v4
@@ -1557,26 +1346,20 @@
 
     move p2, v4
 
-    .line 5
     :cond_3
     :goto_1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->W0:Landroid/graphics/PointF;
 
     iget v2, v1, Landroid/graphics/PointF;->x:F
 
-    .line 6
     iget v3, v1, Landroid/graphics/PointF;->y:F
 
-    .line 7
     iput p1, v1, Landroid/graphics/PointF;->x:F
 
-    .line 8
     iput p2, v1, Landroid/graphics/PointF;->y:F
 
-    .line 9
     invoke-virtual {p0, v2, v3, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->u(FFFF)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1589,7 +1372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -1598,7 +1380,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->L:F
 
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->M:F
@@ -1607,7 +1388,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v2}, Lcom/commsource/beautymain/widget/gesturewidget/e;->t()F
@@ -1616,7 +1396,6 @@
 
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V:F
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v2}, Lcom/commsource/beautymain/widget/gesturewidget/e;->u()F
@@ -1625,19 +1404,16 @@
 
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->W:F
 
-    .line 5
     iget v2, v1, Landroid/graphics/PointF;->x:F
 
     iget v1, v1, Landroid/graphics/PointF;->y:F
 
     invoke-direct {p0, v2, v1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d(FF)Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1651,7 +1427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -1660,21 +1435,18 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g:F
 
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
     div-float/2addr v1, v2
 
-    .line 3
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p:F
 
     iget v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
     div-float/2addr v2, v3
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v3}, Lcom/commsource/beautymain/widget/gesturewidget/e;->t()F
@@ -1683,7 +1455,6 @@
 
     iput v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V:F
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v3}, Lcom/commsource/beautymain/widget/gesturewidget/e;->u()F
@@ -1692,15 +1463,12 @@
 
     iput v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->W:F
 
-    .line 6
     invoke-direct {p0, v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d(FF)Z
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1714,7 +1482,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -1723,7 +1490,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->N:F
 
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->O:F
@@ -1732,7 +1498,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v2}, Lcom/commsource/beautymain/widget/gesturewidget/e;->t()F
@@ -1741,7 +1506,6 @@
 
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V:F
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v2}, Lcom/commsource/beautymain/widget/gesturewidget/e;->u()F
@@ -1750,19 +1514,16 @@
 
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->W:F
 
-    .line 5
     iget v2, v1, Landroid/graphics/PointF;->x:F
 
     iget v1, v1, Landroid/graphics/PointF;->y:F
 
     invoke-direct {p0, v2, v1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d(FF)Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1776,7 +1537,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -1785,21 +1545,18 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J:F
 
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
     div-float/2addr v1, v2
 
-    .line 3
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->K:F
 
     iget v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
     div-float/2addr v2, v3
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v3}, Lcom/commsource/beautymain/widget/gesturewidget/e;->t()F
@@ -1808,7 +1565,6 @@
 
     iput v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V:F
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v3}, Lcom/commsource/beautymain/widget/gesturewidget/e;->u()F
@@ -1817,15 +1573,12 @@
 
     iput v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->W:F
 
-    .line 6
     invoke-direct {p0, v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d(FF)Z
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1839,7 +1592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->o()Z
 
     move-result v1
@@ -1850,7 +1602,6 @@
 
     if-eqz v1, :cond_10
 
-    .line 2
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J:F
@@ -1865,7 +1616,6 @@
 
     sub-float v1, p1, v5
 
-    .line 3
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T:F
 
     :goto_0
@@ -1873,7 +1623,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g:F
 
@@ -1885,12 +1634,10 @@
 
     sub-float v1, p1, v5
 
-    .line 5
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T:F
 
     goto :goto_0
 
-    .line 6
     :cond_1
     :goto_1
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
@@ -1905,7 +1652,6 @@
 
     sub-float v1, p2, v5
 
-    .line 7
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U:F
 
     :goto_2
@@ -1913,7 +1659,6 @@
 
     goto :goto_3
 
-    .line 8
     :cond_2
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p:F
 
@@ -1925,7 +1670,6 @@
 
     sub-float v1, p2, v5
 
-    .line 9
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U:F
 
     goto :goto_2
@@ -1934,20 +1678,16 @@
     :goto_3
     sub-float v1, p1, v5
 
-    .line 10
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T:F
 
     sub-float v1, p2, v5
 
-    .line 11
     iput v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U:F
 
-    .line 12
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
-    .line 13
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d0:I
 
     int-to-float v4, v4
@@ -1960,14 +1700,12 @@
 
     invoke-virtual {v1, v6, v6, v4, v5}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 14
     iget-object v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T0:Landroid/graphics/Matrix;
 
     iget-object v5, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     invoke-virtual {v4, v5}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 15
     iget-object v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T0:Landroid/graphics/Matrix;
 
     iget v5, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V:F
@@ -1976,12 +1714,10 @@
 
     invoke-virtual {v4, p1, p2, v5, v6}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T0:Landroid/graphics/Matrix;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 17
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
     move-result p1
@@ -1996,7 +1732,6 @@
 
     if-gtz p1, :cond_5
 
-    .line 18
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
 
     move-result p1
@@ -2011,7 +1746,6 @@
 
     if-gtz p1, :cond_5
 
-    .line 19
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
 
     move-result p1
@@ -2026,7 +1760,6 @@
 
     if-nez p1, :cond_4
 
-    .line 20
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerY()F
 
     move-result p1
@@ -2041,7 +1774,6 @@
 
     if-eqz p1, :cond_f
 
-    .line 21
     :cond_4
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
 
@@ -2057,7 +1789,6 @@
 
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R:F
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
 
     invoke-virtual {p1}, Landroid/graphics/RectF;->centerY()F
@@ -2074,7 +1805,6 @@
 
     goto/16 :goto_6
 
-    .line 23
     :cond_5
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
@@ -2090,7 +1820,6 @@
 
     if-gtz p1, :cond_8
 
-    .line 24
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
 
     move-result p1
@@ -2105,7 +1834,6 @@
 
     if-lez p1, :cond_8
 
-    .line 25
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
 
     move-result p1
@@ -2120,7 +1848,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
 
     invoke-virtual {p1}, Landroid/graphics/RectF;->centerX()F
@@ -2137,7 +1864,6 @@
 
     const/4 v3, 0x1
 
-    .line 27
     :cond_6
     iget p1, v1, Landroid/graphics/RectF;->top:F
 
@@ -2151,12 +1877,10 @@
 
     sub-float/2addr v4, p1
 
-    .line 28
     iput v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S:F
 
     goto/16 :goto_6
 
-    .line 29
     :cond_7
     iget p1, v1, Landroid/graphics/RectF;->bottom:F
 
@@ -2168,12 +1892,10 @@
 
     sub-float/2addr p2, p1
 
-    .line 30
     iput p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S:F
 
     goto/16 :goto_6
 
-    .line 31
     :cond_8
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
@@ -2189,7 +1911,6 @@
 
     if-lez p1, :cond_b
 
-    .line 32
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
 
     move-result p1
@@ -2204,7 +1925,6 @@
 
     if-gtz p1, :cond_b
 
-    .line 33
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
 
     move-result p1
@@ -2219,7 +1939,6 @@
 
     if-eqz p1, :cond_9
 
-    .line 34
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
 
     invoke-virtual {p1}, Landroid/graphics/RectF;->centerY()F
@@ -2236,7 +1955,6 @@
 
     const/4 v3, 0x1
 
-    .line 35
     :cond_9
     iget p1, v1, Landroid/graphics/RectF;->left:F
 
@@ -2250,12 +1968,10 @@
 
     sub-float/2addr v4, p1
 
-    .line 36
     iput v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R:F
 
     goto/16 :goto_6
 
-    .line 37
     :cond_a
     iget p1, v1, Landroid/graphics/RectF;->right:F
 
@@ -2267,12 +1983,10 @@
 
     sub-float/2addr p2, p1
 
-    .line 38
     iput p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R:F
 
     goto :goto_6
 
-    .line 39
     :cond_b
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
@@ -2288,7 +2002,6 @@
 
     if-lez p1, :cond_f
 
-    .line 40
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
 
     move-result p1
@@ -2303,7 +2016,6 @@
 
     if-lez p1, :cond_f
 
-    .line 41
     iget p1, v1, Landroid/graphics/RectF;->left:F
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
@@ -2314,7 +2026,6 @@
 
     if-lez v5, :cond_c
 
-    .line 42
     iget v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R:F
 
     sub-float/2addr v4, p1
@@ -2328,7 +2039,6 @@
 
     goto :goto_5
 
-    .line 43
     :cond_c
     iget p1, v1, Landroid/graphics/RectF;->right:F
 
@@ -2338,7 +2048,6 @@
 
     if-gez v5, :cond_d
 
-    .line 44
     iget v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R:F
 
     sub-float/2addr v4, p1
@@ -2349,7 +2058,6 @@
 
     goto :goto_4
 
-    .line 45
     :cond_d
     :goto_5
     iget p1, v1, Landroid/graphics/RectF;->top:F
@@ -2360,7 +2068,6 @@
 
     if-lez v5, :cond_e
 
-    .line 46
     iget p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S:F
 
     sub-float/2addr v4, p1
@@ -2371,7 +2078,6 @@
 
     goto :goto_6
 
-    .line 47
     :cond_e
     iget p1, v1, Landroid/graphics/RectF;->bottom:F
 
@@ -2381,7 +2087,6 @@
 
     if-gez v1, :cond_f
 
-    .line 48
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S:F
 
     sub-float/2addr p2, p1
@@ -2400,7 +2105,6 @@
     :cond_10
     const/4 v2, 0x0
 
-    .line 49
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2414,7 +2118,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->o()Z
 
     move-result p4
@@ -2423,7 +2126,6 @@
 
     if-eqz p4, :cond_4
 
-    .line 2
     iget p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J:F
@@ -2440,7 +2142,6 @@
 
     sub-float p4, p1, v3
 
-    .line 3
     iput p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T:F
 
     :goto_0
@@ -2448,7 +2149,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g:F
 
@@ -2460,12 +2160,10 @@
 
     sub-float p4, p1, v3
 
-    .line 5
     iput p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T:F
 
     goto :goto_0
 
-    .line 6
     :cond_1
     :goto_1
     iget p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
@@ -2480,7 +2178,6 @@
 
     sub-float p4, p2, v3
 
-    .line 7
     iput p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U:F
 
     :goto_2
@@ -2488,7 +2185,6 @@
 
     goto :goto_3
 
-    .line 8
     :cond_2
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p:F
 
@@ -2500,7 +2196,6 @@
 
     sub-float p4, p2, v3
 
-    .line 9
     iput p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U:F
 
     goto :goto_2
@@ -2509,17 +2204,14 @@
     :goto_3
     sub-float/2addr p1, v3
 
-    .line 10
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T:F
 
     sub-float/2addr p2, v3
 
-    .line 11
     iput p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U:F
 
     const/high16 p1, 0x3f000000    # 0.5f
 
-    .line 12
     invoke-virtual {p0}, Landroid/widget/ImageView;->getWidth()I
 
     move-result p2
@@ -2540,7 +2232,6 @@
 
     const/high16 p1, -0x41000000    # -0.5f
 
-    .line 13
     invoke-virtual {p0}, Landroid/widget/ImageView;->getHeight()I
 
     move-result p2
@@ -2559,7 +2250,6 @@
 
     iput p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S:F
 
-    .line 14
     :cond_4
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2573,7 +2263,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentImageBounds()Landroid/graphics/RectF;
 
     move-result-object v1
@@ -2590,7 +2279,6 @@
 
     move-result v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentImageBounds()Landroid/graphics/RectF;
 
     move-result-object v2
@@ -2607,7 +2295,6 @@
 
     move-result v2
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentImageBounds()Landroid/graphics/RectF;
 
     move-result-object v3
@@ -2624,7 +2311,6 @@
 
     move-result v3
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentImageBounds()Landroid/graphics/RectF;
 
     move-result-object v4
@@ -2647,7 +2333,6 @@
 
     if-gez v1, :cond_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
@@ -2657,7 +2342,6 @@
 
     if-lez p1, :cond_1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
@@ -2667,7 +2351,6 @@
 
     if-gez p1, :cond_2
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
@@ -2679,7 +2362,6 @@
 
     const/4 v5, 0x1
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2707,7 +2389,6 @@
 
     const/high16 p1, 0x42b40000    # 90.0f
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2727,7 +2408,6 @@
 
     const/high16 p1, -0x3d4c0000    # -90.0f
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2743,7 +2423,6 @@
 
     const/high16 p1, 0x43340000    # 180.0f
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2751,7 +2430,6 @@
     :cond_2
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2808,10 +2486,8 @@
 
     div-float/2addr p1, p4
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->x0:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2819,10 +2495,8 @@
     :cond_2
     div-float/2addr p2, p3
 
-    .line 3
     iput p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->x0:F
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -2851,11 +2525,9 @@
     :cond_4
     div-float p1, p2, p4
 
-    .line 5
     :goto_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->y0:F
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2876,14 +2548,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-direct {v1, p1, p0}, Lcom/commsource/beautymain/widget/gesturewidget/e;-><init>(Landroid/content/Context;Lcom/commsource/beautymain/widget/gesturewidget/e$b;)V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
-    .line 2
     sget-object v1, Landroid/widget/ImageView$ScaleType;->MATRIX:Landroid/widget/ImageView$ScaleType;
 
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
@@ -2894,7 +2564,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 3
     sget-object v3, Lcom/res/provider/ResSTYLEABLE;->C0:[I
 
     invoke-virtual {p1, p2, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -2903,10 +2572,8 @@
 
     const/16 v3, 0xf
 
-    .line 4
     sget-object v4, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    .line 5
     invoke-virtual {v4}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->value()I
 
     move-result v4
@@ -2915,7 +2582,6 @@
 
     move-result v3
 
-    .line 6
     invoke-static {v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->valueOf(I)Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     move-result-object v3
@@ -2924,10 +2590,8 @@
 
     const/4 v3, 0x4
 
-    .line 7
     sget-object v4, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
-    .line 8
     invoke-virtual {v4}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;->value()I
 
     move-result v4
@@ -2936,7 +2600,6 @@
 
     move-result v3
 
-    .line 9
     invoke-static {v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;->valueOf(I)Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
     move-result-object v3
@@ -2945,10 +2608,8 @@
 
     const/4 v3, 0x5
 
-    .line 10
     sget-object v4, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
-    .line 11
     invoke-virtual {v4}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;->value()I
 
     move-result v4
@@ -2957,7 +2618,6 @@
 
     move-result v3
 
-    .line 12
     invoke-static {v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;->valueOf(I)Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
     move-result-object v3
@@ -2966,10 +2626,8 @@
 
     const/16 v3, 0xe
 
-    .line 13
     sget-object v4, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    .line 14
     invoke-virtual {v4}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->value()I
 
     move-result v4
@@ -2978,7 +2636,6 @@
 
     move-result v3
 
-    .line 15
     invoke-static {v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->valueOf(I)Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     move-result-object v3
@@ -2987,10 +2644,8 @@
 
     const/16 v3, 0xd
 
-    .line 16
     sget-object v4, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
-    .line 17
     invoke-virtual {v4}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;->value()I
 
     move-result v4
@@ -2999,7 +2654,6 @@
 
     move-result v3
 
-    .line 18
     invoke-static {v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;->valueOf(I)Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
     move-result-object v3
@@ -3008,7 +2662,6 @@
 
     const/4 v3, 0x2
 
-    .line 19
     invoke-virtual {p2, v3, v1}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result v3
@@ -3017,7 +2670,6 @@
 
     const/16 v3, 0xfa
 
-    .line 20
     invoke-virtual {p2, v1, v3}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result v3
@@ -3026,172 +2678,140 @@
 
     const/4 v3, 0x3
 
-    .line 21
     invoke-virtual {p2, v3, v3}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result v3
 
-    .line 22
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setDampingLevel(I)V
 
     const/4 v3, 0x7
 
     const/high16 v4, 0x40400000    # 3.0f
 
-    .line 23
     invoke-virtual {p2, v3, v2, v2, v4}, Landroid/content/res/TypedArray;->getFraction(IIIF)F
 
     move-result v3
 
-    .line 24
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMaxScale(F)V
 
     const/16 v3, 0xa
 
     const/high16 v4, 0x3f000000    # 0.5f
 
-    .line 25
     invoke-virtual {p2, v3, v2, v2, v4}, Landroid/content/res/TypedArray;->getFraction(IIIF)F
 
     move-result v3
 
-    .line 26
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMinScale(F)V
 
     const/16 v3, 0x10
 
     const v4, 0x3f8ccccd    # 1.1f
 
-    .line 27
     invoke-virtual {p2, v3, v2, v2, v4}, Landroid/content/res/TypedArray;->getFraction(IIIF)F
 
     move-result v3
 
-    .line 28
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomInStepSize(F)V
 
     const/16 v3, 0x13
 
     const v4, 0x3f666666    # 0.9f
 
-    .line 29
     invoke-virtual {p2, v3, v2, v2, v4}, Landroid/content/res/TypedArray;->getFraction(IIIF)F
 
     move-result v3
 
-    .line 30
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomOutStepSize(F)V
 
     const/16 v3, 0x8
 
-    .line 31
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g:F
 
     invoke-virtual {p2, v3, v2, v2, v4}, Landroid/content/res/TypedArray;->getFraction(IIIF)F
 
     move-result v3
 
-    .line 32
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMaxScaleX(F)V
 
     const/16 v3, 0x9
 
-    .line 33
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p:F
 
     invoke-virtual {p2, v3, v2, v2, v4}, Landroid/content/res/TypedArray;->getFraction(IIIF)F
 
     move-result v3
 
-    .line 34
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMaxScaleY(F)V
 
     const/16 v3, 0xb
 
-    .line 35
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J:F
 
     invoke-virtual {p2, v3, v2, v2, v4}, Landroid/content/res/TypedArray;->getFraction(IIIF)F
 
     move-result v3
 
-    .line 36
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMinScaleX(F)V
 
     const/16 v3, 0xc
 
-    .line 37
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->K:F
 
     invoke-virtual {p2, v3, v2, v2, v4}, Landroid/content/res/TypedArray;->getFraction(IIIF)F
 
     move-result v3
 
-    .line 38
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMinScaleY(F)V
 
     const/16 v3, 0x11
 
-    .line 39
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->L:F
 
-    .line 40
     invoke-virtual {p2, v3, v2, v2, v4}, Landroid/content/res/TypedArray;->getFraction(IIIF)F
 
     move-result v3
 
-    .line 41
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomInStepSizeX(F)V
 
     const/16 v3, 0x12
 
-    .line 42
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->M:F
 
-    .line 43
     invoke-virtual {p2, v3, v2, v2, v4}, Landroid/content/res/TypedArray;->getFraction(IIIF)F
 
     move-result v3
 
-    .line 44
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomInStepSizeY(F)V
 
     const/16 v3, 0x14
 
-    .line 45
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->N:F
 
-    .line 46
     invoke-virtual {p2, v3, v2, v2, v4}, Landroid/content/res/TypedArray;->getFraction(IIIF)F
 
     move-result v3
 
-    .line 47
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomOutStepSizeX(F)V
 
     const/16 v3, 0x15
 
-    .line 48
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->O:F
 
-    .line 49
     invoke-virtual {p2, v3, v2, v2, v4}, Landroid/content/res/TypedArray;->getFraction(IIIF)F
 
     move-result v3
 
-    .line 50
     invoke-virtual {p0, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomOutStepSizeY(F)V
 
     const v3, 0x10a0006
 
-    .line 51
     invoke-virtual {p2, v2, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     move-result v3
 
     if-lez v3, :cond_0
 
-    .line 52
     invoke-virtual {p0, p1, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->z(Landroid/content/Context;I)V
 
     :cond_0
@@ -3199,18 +2819,14 @@
 
     const/16 v3, 0x190
 
-    .line 53
     invoke-virtual {p2, p1, v3}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result p1
 
-    .line 54
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setLongPressTimeout(I)V
 
-    .line 55
     invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 56
     :cond_1
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
@@ -3225,7 +2841,6 @@
     :cond_2
     invoke-virtual {p1, v1}, Lcom/commsource/beautymain/widget/gesturewidget/e;->L(Z)V
 
-    .line 57
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     iget p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b0:I
@@ -3234,25 +2849,20 @@
 
     invoke-virtual {p1, v3, v4}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 58
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1, p0}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 59
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1, p0}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 60
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1, v2}, Landroid/animation/ValueAnimator;->setRepeatMode(I)V
 
-    .line 61
     iput-boolean v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->h0:Z
 
-    .line 62
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3265,7 +2875,6 @@
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->h0:Z
 
     if-eqz v0, :cond_5
@@ -3279,16 +2888,12 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->i0:Z
 
-    .line 3
     iget v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d0:I
 
-    .line 4
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->e0:I
 
-    .line 5
     invoke-virtual {p0, p2, p3, v0, v1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->i(IIII)F
 
     move-result v2
@@ -3299,22 +2904,18 @@
 
     mul-float v3, v0, v2
 
-    .line 6
     iput v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->F0:F
 
     int-to-float v1, v1
 
     mul-float v2, v2, v1
 
-    .line 7
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->G0:F
 
-    .line 8
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->z0:F
 
     iput v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->B0:F
 
-    .line 9
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->A0:F
 
     iput v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->C0:F
@@ -3327,7 +2928,6 @@
 
     div-float/2addr v3, v5
 
-    .line 10
     iput v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->z0:F
 
     int-to-float v6, p3
@@ -3336,33 +2936,26 @@
 
     div-float/2addr v2, v5
 
-    .line 11
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->A0:F
 
-    .line 12
     iput v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->D0:F
 
-    .line 13
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->E0:F
 
-    .line 14
     iget-boolean v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->N0:Z
 
     const/4 v3, 0x0
 
     if-eqz v2, :cond_3
 
-    .line 15
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
     move-result v2
 
-    .line 16
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v5
 
-    .line 17
     invoke-virtual {p0}, Landroid/widget/ImageView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v7
@@ -3375,27 +2968,23 @@
 
     mul-int/lit8 v5, v5, 0x4
 
-    .line 18
     div-int/lit8 v5, v5, 0x3
 
     sub-int/2addr v2, v5
 
     if-ge v2, v7, :cond_1
 
-    .line 19
     div-int/lit8 v7, v7, 0x2
 
     iput v7, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->O0:I
 
     goto :goto_0
 
-    .line 20
     :cond_1
     div-int/lit8 v2, v2, 0x2
 
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->O0:I
 
-    .line 21
     :goto_0
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->I0:F
 
@@ -3403,7 +2992,6 @@
 
     if-nez v2, :cond_2
 
-    .line 22
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->A0:F
 
     iget v5, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->O0:I
@@ -3418,12 +3006,10 @@
 
     sub-float/2addr v2, v5
 
-    .line 23
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->A0:F
 
     goto :goto_1
 
-    .line 24
     :cond_2
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->A0:F
 
@@ -3439,10 +3025,8 @@
 
     add-float/2addr v2, v5
 
-    .line 25
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->A0:F
 
-    .line 26
     :goto_1
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
 
@@ -3456,7 +3040,6 @@
 
     invoke-virtual {v2, v3, v3, v4, v5}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 27
     :cond_3
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
@@ -3464,7 +3047,6 @@
 
     invoke-virtual {v2, v5, v5}, Landroid/graphics/Matrix;->setScale(FF)V
 
-    .line 28
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     iget v5, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->z0:F
@@ -3473,14 +3055,12 @@
 
     invoke-virtual {v2, v5, v7}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 29
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a1:Landroid/graphics/Matrix;
 
     iget v5, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a0:F
 
     invoke-virtual {v2, v5, v5}, Landroid/graphics/Matrix;->setScale(FF)V
 
-    .line 30
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a1:Landroid/graphics/Matrix;
 
     iget v5, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->z0:F
@@ -3491,13 +3071,10 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 31
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
-    .line 32
     iput v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
-    .line 33
     iget-boolean v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Z0:Z
 
     if-eqz v2, :cond_4
@@ -3506,7 +3083,6 @@
 
     if-eqz p3, :cond_4
 
-    .line 34
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->X0:[F
 
     aget v5, v2, p1
@@ -3527,7 +3103,6 @@
 
     mul-float v4, v4, p2
 
-    .line 35
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->X0:[F
 
     const/16 p3, 0xc
@@ -3548,40 +3123,33 @@
 
     invoke-direct {p0, v4, v6}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->D(FF)V
 
-    .line 36
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Z0:Z
 
-    .line 37
     :cond_4
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    .line 38
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U0:Landroid/graphics/RectF;
 
     invoke-virtual {p1, v3, v3, v0, v1}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 39
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
     invoke-virtual {p1, v3, v3, v0, v1}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 40
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U0:Landroid/graphics/RectF;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 41
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 42
     :cond_5
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3595,22 +3163,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/PointF;
 
     invoke-direct {v1, p1, p2}, Landroid/graphics/PointF;-><init>(FF)V
 
-    .line 2
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
     mul-float p1, p1, v2
 
-    .line 3
     iget v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
     mul-float p2, p2, v3
 
-    .line 4
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J:F
 
     cmpg-float v5, p1, v4
@@ -3619,12 +3183,10 @@
 
     div-float/2addr v4, v2
 
-    .line 5
     iput v4, v1, Landroid/graphics/PointF;->x:F
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g:F
 
@@ -3634,10 +3196,8 @@
 
     div-float/2addr v4, v2
 
-    .line 7
     iput v4, v1, Landroid/graphics/PointF;->x:F
 
-    .line 8
     :cond_1
     :goto_0
     iget p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->K:F
@@ -3648,12 +3208,10 @@
 
     div-float/2addr p1, v3
 
-    .line 9
     iput p1, v1, Landroid/graphics/PointF;->y:F
 
     goto :goto_1
 
-    .line 10
     :cond_2
     iget p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p:F
 
@@ -3663,10 +3221,8 @@
 
     div-float/2addr p1, v3
 
-    .line 11
     iput p1, v1, Landroid/graphics/PointF;->y:F
 
-    .line 12
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3681,7 +3237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -3690,7 +3245,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3712,7 +3266,6 @@
 
     add-float/2addr p2, v1
 
-    .line 3
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
     iget v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J:F
@@ -3730,7 +3283,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     iget v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g:F
 
@@ -3743,7 +3295,6 @@
     :cond_2
     const/4 v2, 0x0
 
-    .line 5
     :goto_1
     iget v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
@@ -3758,7 +3309,6 @@
 
     goto :goto_3
 
-    .line 6
     :cond_3
     iget v6, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p:F
 
@@ -3771,7 +3321,6 @@
     :cond_4
     const/4 v3, 0x0
 
-    .line 7
     :goto_3
     iget-object v6, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
@@ -3781,7 +3330,6 @@
 
     iput v6, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V:F
 
-    .line 8
     iget-object v6, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v6}, Lcom/commsource/beautymain/widget/gesturewidget/e;->u()F
@@ -3794,7 +3342,6 @@
 
     sub-float/2addr p1, v1
 
-    .line 9
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c0:I
 
     int-to-float v2, v2
@@ -3808,7 +3355,6 @@
 
     sub-float/2addr p2, v1
 
-    .line 10
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c0:I
 
     int-to-float v2, v2
@@ -3817,7 +3363,6 @@
 
     add-float/2addr p2, v1
 
-    .line 11
     :cond_6
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
@@ -3825,24 +3370,18 @@
 
     invoke-virtual {v1, p1, p2, v2, v6}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->E()V
 
-    .line 13
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->F(FF)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    .line 15
     iput-boolean v5, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g0:Z
 
-    .line 16
     invoke-virtual {p0, p1, p2, v4}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r(FFZ)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3855,7 +3394,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J:F
@@ -3873,7 +3411,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g:F
 
@@ -3886,7 +3423,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_1
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
@@ -3901,7 +3437,6 @@
 
     goto :goto_3
 
-    .line 4
     :cond_2
     iget v5, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p:F
 
@@ -3914,11 +3449,9 @@
     :cond_3
     const/4 v2, 0x0
 
-    .line 5
     :goto_3
     iput p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V:F
 
-    .line 6
     iput p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->W:F
 
     const/high16 v5, 0x3f800000    # 1.0f
@@ -3927,7 +3460,6 @@
 
     sub-float/2addr p1, v5
 
-    .line 7
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c0:I
 
     int-to-float v1, v1
@@ -3941,7 +3473,6 @@
 
     sub-float/2addr p2, v5
 
-    .line 8
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c0:I
 
     int-to-float v1, v1
@@ -3950,30 +3481,23 @@
 
     add-float/2addr p2, v5
 
-    .line 9
     :cond_5
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, p1, p2, p3, p4}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->E()V
 
-    .line 11
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->F(FF)V
 
-    .line 12
     iget-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     invoke-virtual {p0, p3}, Landroid/widget/ImageView;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    .line 13
     iput-boolean v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g0:Z
 
-    .line 14
     invoke-virtual {p0, p1, p2, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r(FFZ)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3988,15 +3512,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
 
     invoke-virtual {v1, p1, p2, p3, p4}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->C()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4009,7 +3530,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$a;->e:[I
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
@@ -4026,7 +3546,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/beautymain/widget/gesturewidget/e;->z()F
 
@@ -4038,7 +3557,6 @@
 
     invoke-direct {p0, v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->x(FF)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4052,7 +3570,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4065,7 +3582,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -4080,7 +3596,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
@@ -4099,7 +3614,6 @@
 
     float-to-int p1, p2
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -4114,7 +3628,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4129,7 +3642,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4144,7 +3656,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4159,19 +3670,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a1:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentScaleX()F
@@ -4202,21 +3710,18 @@
 
     invoke-virtual {v1, v2, v3, v4, v6}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c1:[F
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d1:[F
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d1:[F
 
     aget v1, v1, v5
@@ -4239,19 +3744,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a1:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentScaleX()F
@@ -4280,21 +3782,18 @@
 
     invoke-virtual {v1, v2, v3, v4, v5}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c1:[F
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d1:[F
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d1:[F
 
     const/4 v2, 0x5
@@ -4319,7 +3818,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4336,19 +3834,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     instance-of v2, v1, Landroid/graphics/drawable/BitmapDrawable;
 
     if-eqz v2, :cond_0
 
-    .line 3
     check-cast v1, Landroid/graphics/drawable/BitmapDrawable;
 
     invoke-virtual {v1}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
@@ -4362,7 +3857,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -4375,7 +3869,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->e0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4390,14 +3883,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S0:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->invert(Landroid/graphics/Matrix;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S0:Landroid/graphics/Matrix;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4412,7 +3903,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4429,7 +3919,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4444,7 +3933,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4459,7 +3947,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4476,7 +3963,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->W0:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4493,7 +3979,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getImageInvertMatrix()Landroid/graphics/Matrix;
 
     move-result-object v1
@@ -4502,7 +3987,6 @@
 
     new-array v2, v2, [F
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->W0:Landroid/graphics/PointF;
 
     iget v4, v3, Landroid/graphics/PointF;->x:F
@@ -4517,10 +4001,8 @@
 
     aput v3, v2, v4
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 4
     new-instance v1, Landroid/graphics/PointF;
 
     aget v3, v2, v5
@@ -4541,7 +4023,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4556,7 +4037,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/e;->v()I
@@ -4575,19 +4055,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a1:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentScaleX()F
@@ -4618,21 +4095,18 @@
 
     invoke-virtual {v1, v2, v3, v4, v6}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c1:[F
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d1:[F
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d1:[F
 
     aget v2, v1, v5
@@ -4645,7 +4119,6 @@
 
     const/4 v4, 0x5
 
-    .line 7
     aget v1, v1, v4
 
     aget v3, v3, v4
@@ -4661,7 +4134,6 @@
 
     if-ge v5, v6, :cond_1
 
-    .line 8
     iget-object v6, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Y0:[F
 
     rem-int/lit8 v7, v5, 0x5
@@ -4682,7 +4154,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     iget-object v5, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Y0:[F
 
@@ -4692,7 +4163,6 @@
 
     aput v6, v5, v3
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Y0:[F
 
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentScaleY()F
@@ -4701,7 +4171,6 @@
 
     aput v5, v3, v4
 
-    .line 11
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Y0:[F
 
     const/16 v4, 0xc
@@ -4720,7 +4189,6 @@
 
     aput v2, v3, v4
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Y0:[F
 
     const/16 v3, 0xd
@@ -4739,7 +4207,6 @@
 
     aput v1, v2, v3
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Y0:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4754,7 +4221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4769,7 +4235,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4807,7 +4272,6 @@
     :cond_0
     div-float p1, p2, p4
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4821,12 +4285,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->H0:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4834,10 +4296,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-direct {p0, p1, p2, p3, v1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->m(ZIIZ)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4850,7 +4310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->j0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4865,7 +4324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->e0:I
 
     if-lez v1, :cond_0
@@ -4894,7 +4352,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4907,7 +4364,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T:F
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -4920,7 +4376,6 @@
 
     invoke-direct {p0, v0, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->F(FF)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b0:I
@@ -4931,24 +4386,18 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R:F
 
-    .line 4
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S:F
 
-    .line 5
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T:F
 
-    .line 6
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U:F
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$h;
 
     if-eqz v0, :cond_0
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentScaleX()F
 
     move-result v1
@@ -4962,13 +4411,10 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 9
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f0:Z
 
-    .line 10
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v0:Z
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4981,7 +4427,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4994,7 +4439,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T0:Landroid/graphics/Matrix;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
@@ -5003,10 +4447,8 @@
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f0:Z
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5019,17 +4461,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f0:Z
 
     if-eqz v1, :cond_3
 
-    .line 2
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedFraction()F
 
     move-result p1
 
-    .line 3
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T:F
 
     mul-float v1, v1, p1
@@ -5038,36 +4477,30 @@
 
     add-float/2addr v1, v2
 
-    .line 4
     iget v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U:F
 
     mul-float v3, v3, p1
 
     add-float/2addr v3, v2
 
-    .line 5
     iget v4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R:F
 
     mul-float v4, v4, p1
 
-    .line 6
     iget v5, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S:F
 
     mul-float v5, v5, p1
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     iget-object v6, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T0:Landroid/graphics/Matrix;
 
     invoke-virtual {p1, v6}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     invoke-virtual {p1, v4, v5}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     iget v6, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V:F
@@ -5080,10 +4513,8 @@
 
     invoke-virtual {p1, v1, v3, v6, v7}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->E()V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageMatrix(Landroid/graphics/Matrix;)V
@@ -5100,7 +4531,6 @@
 
     if-eqz v6, :cond_1
 
-    .line 12
     :cond_0
     invoke-virtual {p0, v4, v5, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->s(FFZ)V
 
@@ -5113,11 +4543,9 @@
 
     if-eqz v2, :cond_3
 
-    .line 13
     :cond_2
     invoke-virtual {p0, v1, v3, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r(FFZ)V
 
-    .line 14
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5133,13 +4561,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 2
     invoke-super {p0}, Landroid/widget/ImageView;->onDetachedFromWindow()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5152,15 +4577,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->m0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$d;
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {p2, p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$d;->a(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;)V
 
-    .line 3
     :cond_0
     sget-object p2, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$a;->b:[I
 
@@ -5194,19 +4616,16 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v()V
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J()V
 
     goto :goto_0
 
-    .line 6
     :cond_3
     iget p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
@@ -5216,28 +4635,23 @@
 
     if-nez p2, :cond_4
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v()V
 
     goto :goto_0
 
-    .line 8
     :cond_4
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->H()V
 
     goto :goto_0
 
-    .line 9
     :cond_5
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->K()V
 
     goto :goto_0
 
-    .line 10
     :cond_6
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->I()V
 
-    .line 11
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5251,7 +4665,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->u0:Z
 
     const/4 v0, 0x1
@@ -5270,30 +4683,24 @@
 
     div-float/2addr p3, p2
 
-    .line 2
     iput p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R:F
 
     div-float/2addr p4, p2
 
-    .line 3
     iput p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S:F
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentImageBounds()Landroid/graphics/RectF;
 
     move-result-object p2
 
-    .line 5
     new-instance p3, Landroid/graphics/RectF;
 
     invoke-direct {p3}, Landroid/graphics/RectF;-><init>()V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getInitialImageBounds()Landroid/graphics/RectF;
 
     move-result-object p4
 
-    .line 7
     invoke-virtual {p0}, Landroid/widget/ImageView;->getWidth()I
 
     move-result v1
@@ -5326,7 +4733,6 @@
 
     iput v1, p3, Landroid/graphics/RectF;->left:F
 
-    .line 8
     invoke-virtual {p0}, Landroid/widget/ImageView;->getWidth()I
 
     move-result v1
@@ -5361,7 +4767,6 @@
 
     iput v1, p3, Landroid/graphics/RectF;->right:F
 
-    .line 9
     invoke-virtual {p0}, Landroid/widget/ImageView;->getHeight()I
 
     move-result v1
@@ -5390,7 +4795,6 @@
 
     iput v1, p3, Landroid/graphics/RectF;->top:F
 
-    .line 10
     invoke-virtual {p0}, Landroid/widget/ImageView;->getHeight()I
 
     move-result v1
@@ -5425,7 +4829,6 @@
 
     iput p4, p3, Landroid/graphics/RectF;->bottom:F
 
-    .line 11
     iget v1, p2, Landroid/graphics/RectF;->left:F
 
     iget v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R:F
@@ -5440,10 +4843,8 @@
 
     sub-float/2addr v3, v1
 
-    .line 12
     iput v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R:F
 
-    .line 13
     :cond_0
     iget v1, p2, Landroid/graphics/RectF;->right:F
 
@@ -5459,10 +4860,8 @@
 
     sub-float/2addr v3, v1
 
-    .line 14
     iput v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R:F
 
-    .line 15
     :cond_1
     iget v1, p2, Landroid/graphics/RectF;->top:F
 
@@ -5478,10 +4877,8 @@
 
     sub-float/2addr p3, v1
 
-    .line 16
     iput p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S:F
 
-    .line 17
     :cond_2
     iget p2, p2, Landroid/graphics/RectF;->bottom:F
 
@@ -5495,10 +4892,8 @@
 
     sub-float/2addr p4, p2
 
-    .line 18
     iput p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S:F
 
-    .line 19
     :cond_3
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v0:Z
 
@@ -5506,10 +4901,8 @@
 
     const/16 p3, 0x96
 
-    .line 20
     iget p4, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R:F
 
-    .line 21
     invoke-static {p4}, Ljava/lang/Math;->abs(F)F
 
     move-result p4
@@ -5534,26 +4927,22 @@
 
     div-float/2addr p4, v1
 
-    .line 22
     invoke-static {p2, p3, p4}, Lcom/commsource/util/common/i;->p(IIF)I
 
     move-result p2
 
     add-int/lit16 p2, p2, 0xfa
 
-    .line 23
     iget-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     int-to-long v1, p2
 
     invoke-virtual {p3, v1, v2}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 24
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 25
     :cond_4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5567,18 +4956,15 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->n0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {p2, p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;->a(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;)V
 
     :cond_0
     const/4 p2, 0x1
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -5591,18 +4977,15 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->n0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {p2, p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;->c(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;)V
 
     :cond_0
     const/4 p2, 0x1
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -5615,18 +4998,15 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->n0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {p2, p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;->d(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;)V
 
     :cond_0
     const/4 p2, 0x1
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -5639,18 +5019,15 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->n0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {p2, p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;->b(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;)V
 
     :cond_0
     const/4 p2, 0x1
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -5663,15 +5040,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->k0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$f;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$f;->a(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;)V
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$a;->c:[I
 
@@ -5705,35 +5079,29 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v()V
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J()V
 
     goto :goto_0
 
-    .line 6
     :cond_3
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->H()V
 
     goto :goto_0
 
-    .line 7
     :cond_4
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->K()V
 
     goto :goto_0
 
-    .line 8
     :cond_5
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->I()V
 
-    .line 9
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5747,18 +5115,15 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->k0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$f;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$f;->b(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;)V
 
     :cond_0
     const/4 v0, 0x1
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -5771,7 +5136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -5782,7 +5146,6 @@
 
     invoke-direct {p0, v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->G(FF)V
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -5797,7 +5160,6 @@
 
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->j0:Z
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -5810,7 +5172,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->cancel()V
@@ -5818,7 +5179,6 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -5831,7 +5191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g0:Z
 
     if-eqz v1, :cond_0
@@ -5846,13 +5205,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g0:Z
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->C()V
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
@@ -5866,7 +5222,6 @@
 
     const/4 p1, 0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -5879,7 +5234,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
 
     move-result p3
@@ -5890,7 +5244,6 @@
 
     invoke-direct {p0, p3, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->G(FF)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -5905,7 +5258,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g0:Z
 
     if-eqz v0, :cond_0
@@ -5920,16 +5272,13 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g0:Z
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->C()V
 
     :cond_0
     const/4 v0, 0x1
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -5942,7 +5291,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -5957,7 +5305,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$a;->d:[I
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
@@ -5978,7 +5325,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getPointerCount()I
 
@@ -5990,12 +5336,10 @@
 
     neg-float p3, p4
 
-    .line 3
     invoke-direct {p0, p2, p3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->D(FF)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getPointerCount()I
 
@@ -6007,10 +5351,8 @@
 
     neg-float p3, p4
 
-    .line 5
     invoke-direct {p0, p2, p3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->D(FF)V
 
-    .line 6
     :cond_2
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -6025,7 +5367,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6038,15 +5379,12 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->l0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$i;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$i;->a(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;Landroid/view/MotionEvent;)V
 
-    .line 3
     :cond_0
     sget-object p1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$a;->a:[I
 
@@ -6080,35 +5418,29 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v()V
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J()V
 
     goto :goto_0
 
-    .line 6
     :cond_3
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->H()V
 
     goto :goto_0
 
-    .line 7
     :cond_4
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->K()V
 
     goto :goto_0
 
-    .line 8
     :cond_5
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->I()V
 
-    .line 9
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -6122,10 +5454,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/ImageView;->onSizeChanged(IIII)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
 
     int-to-float p4, p1
@@ -6138,10 +5468,8 @@
 
     const/4 p3, 0x1
 
-    .line 3
     invoke-virtual {p0, p3, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->l(ZII)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6154,7 +5482,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -6169,23 +5496,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/e;->I(Landroid/view/MotionEvent;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->q0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$e;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$e;->a(Landroid/view/MotionEvent;)Z
 
     :cond_0
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -6198,7 +5521,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U0:Landroid/graphics/RectF;
@@ -6219,15 +5541,12 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$h;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$h;->a(FF)V
 
-    .line 3
     :cond_0
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -6241,15 +5560,12 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$h;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$h;->b(FF)V
 
-    .line 3
     :cond_0
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -6267,7 +5583,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
@@ -6275,7 +5590,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6288,12 +5602,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1, p1}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6321,12 +5633,10 @@
 
     const/4 p1, 0x5
 
-    .line 1
     :cond_1
     :goto_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c0:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6339,10 +5649,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6355,12 +5663,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/e;->K(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6373,10 +5679,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6389,27 +5693,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result p1
 
-    .line 4
     invoke-direct {p0, v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->A(II)V
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/ImageView;->getWidth()I
 
     move-result v1
@@ -6420,7 +5719,6 @@
 
     invoke-virtual {p0, p1, v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->l(ZII)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -6434,27 +5732,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     move-result p1
 
-    .line 4
     invoke-direct {p0, v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->A(II)V
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/ImageView;->getWidth()I
 
     move-result v1
@@ -6465,7 +5758,6 @@
 
     invoke-virtual {p0, p1, v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->l(ZII)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -6479,10 +5771,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->N0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6495,10 +5785,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6511,12 +5799,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/e;->M(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6529,10 +5815,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->o0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$g;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6545,13 +5829,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMaxScaleX(F)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMaxScaleY(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6572,11 +5853,9 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6597,11 +5876,9 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6614,13 +5891,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMinScaleX(F)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMinScaleY(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6648,11 +5922,9 @@
     :cond_0
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_1
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6680,11 +5952,9 @@
     :cond_0
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_1
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->K:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6697,12 +5967,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/e;->N(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6715,10 +5983,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->n0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6731,10 +5997,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->m0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$d;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6747,10 +6011,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->q0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$e;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6763,7 +6025,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     if-nez p1, :cond_1
@@ -6788,10 +6049,8 @@
     :goto_1
     invoke-virtual {v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/e;->L(Z)V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->k0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$f;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6804,10 +6063,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$h;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6820,10 +6077,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->l0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$i;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6836,10 +6091,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6854,13 +6107,11 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     array-length v2, p1
 
     if-ge v1, v2, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->X0:[F
 
     aget v3, p1, v1
@@ -6874,10 +6125,8 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Z0:Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6890,10 +6139,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6906,10 +6153,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6922,13 +6167,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomInStepSizeX(F)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomInStepSizeY(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6949,11 +6191,9 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->L:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6974,11 +6214,9 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->M:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6991,13 +6229,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomOutStepSizeX(F)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomOutStepSizeY(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7025,11 +6260,9 @@
     :cond_0
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_1
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->N:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7057,11 +6290,9 @@
     :cond_0
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_1
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->O:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7078,19 +6309,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->o0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$g;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U0:Landroid/graphics/RectF;
 
     invoke-interface {v1, p1, v2, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$g;->a(Landroid/graphics/Matrix;Landroid/graphics/RectF;Landroid/graphics/RectF;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -7104,7 +6332,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7117,7 +6344,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -7126,19 +6352,16 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
     const/high16 v2, 0x3f800000    # 1.0f
 
     div-float v1, v2, v1
 
-    .line 3
     iget v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
     div-float/2addr v2, v3
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v3}, Lcom/commsource/beautymain/widget/gesturewidget/e;->t()F
@@ -7147,7 +6370,6 @@
 
     iput v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V:F
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v3}, Lcom/commsource/beautymain/widget/gesturewidget/e;->u()F
@@ -7156,15 +6378,12 @@
 
     iput v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->W:F
 
-    .line 6
     invoke-direct {p0, v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d(FF)Z
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -7178,7 +6397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getWidth()I
 
     move-result v1
@@ -7191,7 +6409,6 @@
 
     invoke-virtual {p0, v3, v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->l(ZII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7204,14 +6421,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setAnimationInterpolator(Landroid/view/animation/Interpolator;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

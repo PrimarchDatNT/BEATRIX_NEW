@@ -38,7 +38,6 @@
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$a$a;->a:Lcotlinx/coroutines/flow/e;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,13 +54,10 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     check-cast p1, Lcotlinx/coroutines/flow/d;
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$a$a;->a:Lcotlinx/coroutines/flow/e;
 
-    .line 3
     invoke-interface {p1, v0, p2}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
@@ -74,7 +70,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

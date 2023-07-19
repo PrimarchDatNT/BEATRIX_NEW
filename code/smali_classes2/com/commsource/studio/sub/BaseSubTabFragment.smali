@@ -41,10 +41,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->j()I
@@ -53,14 +51,12 @@
 
     iput v0, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->c:I
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->J()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->d:I
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/sub/BaseSubTabFragment$studioViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/sub/BaseSubTabFragment$studioViewModel$2;-><init>(Lcom/commsource/studio/sub/BaseSubTabFragment;)V
@@ -71,7 +67,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->f:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/sub/BaseSubTabFragment$studioBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/sub/BaseSubTabFragment$studioBinding$2;-><init>(Lcom/commsource/studio/sub/BaseSubTabFragment;)V
@@ -82,7 +77,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->g:Lcotlin/w;
 
-    .line 6
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -91,7 +85,6 @@
 
     const/4 v0, 0x1
 
-    .line 7
     iput-boolean v0, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->J:Z
 
     return-void
@@ -110,7 +103,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
 
     move-result-object p2
@@ -122,7 +114,6 @@
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -148,7 +139,6 @@
 
     if-eqz p5, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
 
     move-result-object p2
@@ -167,7 +157,6 @@
 
     return-void
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -187,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -202,7 +190,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -229,7 +216,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v1
@@ -244,15 +230,12 @@
 
     invoke-static {v1, p1, v2, v3, v4}, Lcom/commsource/studio/StudioCanvasContainer;->e(Lcom/commsource/studio/StudioCanvasContainer;Lcom/commsource/studio/layer/BaseLayer;IILjava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p1, p0}, Lcom/commsource/studio/layer/d;->a(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->p:Ljava/util/LinkedList;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -265,26 +248,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->J:Z
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->O()V
 
-    .line 3
     iput-boolean v2, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->J:Z
 
     goto :goto_1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->p:Ljava/util/LinkedList;
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -302,7 +280,6 @@
 
     check-cast v3, Lcom/commsource/studio/layer/d;
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v4
@@ -317,7 +294,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -336,20 +312,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->G()V
 
     const/4 v1, 0x0
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p2, v1}, Landroid/view/View;->setAlpha(F)V
 
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->J()I
 
     move-result v2
@@ -365,7 +338,6 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 4
     invoke-virtual {p2}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -374,37 +346,30 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-virtual {p1, p2}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p2
 
     invoke-virtual {p2}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 7
     invoke-virtual {p1, p2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     const-wide/16 v1, 0x12c
 
-    .line 8
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
-    .line 9
     new-instance p2, Lcom/commsource/studio/sub/BaseSubTabFragment$a;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/sub/BaseSubTabFragment$a;-><init>(Lcom/commsource/studio/sub/BaseSubTabFragment;)V
 
     invoke-virtual {p1, p2}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
-    .line 10
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -435,14 +400,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->H()V
 
     if-eqz p2, :cond_0
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 2
     invoke-virtual {p2, v1}, Landroid/view/View;->setAlpha(F)V
 
     :cond_0
@@ -450,13 +413,11 @@
 
     if-eqz p2, :cond_1
 
-    .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->setTranslationY(F)V
 
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 4
     invoke-virtual {p2}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p2
@@ -465,14 +426,12 @@
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-virtual {p2, v2}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v2
 
     invoke-virtual {v2}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->J()I
 
     move-result v2
@@ -485,25 +444,20 @@
 
     invoke-virtual {p2, v2}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
 
-    .line 7
     invoke-virtual {p2, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     const-wide/16 v1, 0x12c
 
-    .line 8
     invoke-virtual {p2, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
-    .line 9
     new-instance v1, Lcom/commsource/studio/sub/BaseSubTabFragment$b;
 
     invoke-direct {v1, p0, p1, p3}, Lcom/commsource/studio/sub/BaseSubTabFragment$b;-><init>(Lcom/commsource/studio/sub/BaseSubTabFragment;ILcotlin/jvm/u/a;)V
 
     invoke-virtual {p2, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
-    .line 10
     invoke-virtual {p2}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -517,7 +471,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -530,10 +483,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->p:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -551,7 +502,6 @@
 
     check-cast v2, Lcom/commsource/studio/layer/d;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v3
@@ -562,7 +512,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -576,7 +525,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->J()I
 
     move-result v1
@@ -593,7 +541,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -652,7 +599,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -667,7 +613,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -680,7 +625,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -695,7 +639,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sub/BaseSubTabFragment;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

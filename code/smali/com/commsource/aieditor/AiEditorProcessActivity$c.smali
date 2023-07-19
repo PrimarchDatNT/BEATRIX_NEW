@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorProcessActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$c;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,10 +43,8 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->ai_editor_saved:I
 
-    .line 1
     invoke-static {v1}, Lf/k/c/c/f;->H(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$c;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->O0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/aieditor/d0;
@@ -62,7 +59,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/aieditor/d0;->T(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$c;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -75,7 +71,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

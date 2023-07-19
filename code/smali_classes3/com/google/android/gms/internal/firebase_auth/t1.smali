@@ -24,10 +24,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -42,7 +40,6 @@
 .method public final synthetic q()Lcom/google/android/gms/internal/firebase_auth/s5;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/w7$f;->w()Lcom/google/android/gms/internal/firebase_auth/w7$f$a;
 
     move-result-object v0

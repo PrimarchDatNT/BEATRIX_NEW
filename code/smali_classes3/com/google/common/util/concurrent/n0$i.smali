@@ -35,10 +35,8 @@
 .method constructor <init>(Ljava/util/concurrent/ScheduledExecutorService;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/n0$h;-><init>(Ljava/util/concurrent/ExecutorService;)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -68,19 +66,16 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/util/concurrent/TrustedListenableFutureTask;->P(Ljava/lang/Runnable;Ljava/lang/Object;)Lcom/google/common/util/concurrent/TrustedListenableFutureTask;
 
     move-result-object p1
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$i;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1, p2, p3, p4}, Ljava/util/concurrent/ScheduledExecutorService;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
 
     move-result-object p2
 
-    .line 5
     new-instance p3, Lcom/google/common/util/concurrent/n0$i$a;
 
     invoke-direct {p3, p1, p2}, Lcom/google/common/util/concurrent/n0$i$a;-><init>(Lcom/google/common/util/concurrent/g0;Ljava/util/concurrent/ScheduledFuture;)V
@@ -104,19 +99,16 @@
         }
     .end annotation
 
-    .line 6
     invoke-static {p1}, Lcom/google/common/util/concurrent/TrustedListenableFutureTask;->Q(Ljava/util/concurrent/Callable;)Lcom/google/common/util/concurrent/TrustedListenableFutureTask;
 
     move-result-object p1
 
-    .line 7
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$i;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1, p2, p3, p4}, Ljava/util/concurrent/ScheduledExecutorService;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
 
     move-result-object p2
 
-    .line 8
     new-instance p3, Lcom/google/common/util/concurrent/n0$i$a;
 
     invoke-direct {p3, p1, p2}, Lcom/google/common/util/concurrent/n0$i$a;-><init>(Lcom/google/common/util/concurrent/g0;Ljava/util/concurrent/ScheduledFuture;)V
@@ -127,7 +119,6 @@
 .method public bridge synthetic schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/google/common/util/concurrent/n0$i;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/i0;
 
     move-result-object p1
@@ -138,7 +129,6 @@
 .method public bridge synthetic schedule(Ljava/util/concurrent/Callable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
     .locals 0
 
-    .line 2
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/google/common/util/concurrent/n0$i;->schedule(Ljava/util/concurrent/Callable;JLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/i0;
 
     move-result-object p1
@@ -160,12 +150,10 @@
         }
     .end annotation
 
-    .line 2
     new-instance v7, Lcom/google/common/util/concurrent/n0$i$b;
 
     invoke-direct {v7, p1}, Lcom/google/common/util/concurrent/n0$i$b;-><init>(Ljava/lang/Runnable;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$i;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
     move-object v1, v7
@@ -180,7 +168,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance p2, Lcom/google/common/util/concurrent/n0$i$a;
 
     invoke-direct {p2, v7, p1}, Lcom/google/common/util/concurrent/n0$i$a;-><init>(Lcom/google/common/util/concurrent/g0;Ljava/util/concurrent/ScheduledFuture;)V
@@ -191,7 +178,6 @@
 .method public bridge synthetic scheduleAtFixedRate(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
     .locals 0
 
-    .line 1
     invoke-virtual/range {p0 .. p6}, Lcom/google/common/util/concurrent/n0$i;->scheduleAtFixedRate(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/i0;
 
     move-result-object p1
@@ -213,12 +199,10 @@
         }
     .end annotation
 
-    .line 2
     new-instance v7, Lcom/google/common/util/concurrent/n0$i$b;
 
     invoke-direct {v7, p1}, Lcom/google/common/util/concurrent/n0$i$b;-><init>(Ljava/lang/Runnable;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$i;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
     move-object v1, v7
@@ -229,12 +213,10 @@
 
     move-object v6, p6
 
-    .line 4
     invoke-interface/range {v0 .. v6}, Ljava/util/concurrent/ScheduledExecutorService;->scheduleWithFixedDelay(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
 
     move-result-object p1
 
-    .line 5
     new-instance p2, Lcom/google/common/util/concurrent/n0$i$a;
 
     invoke-direct {p2, v7, p1}, Lcom/google/common/util/concurrent/n0$i$a;-><init>(Lcom/google/common/util/concurrent/g0;Ljava/util/concurrent/ScheduledFuture;)V
@@ -245,7 +227,6 @@
 .method public bridge synthetic scheduleWithFixedDelay(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
     .locals 0
 
-    .line 1
     invoke-virtual/range {p0 .. p6}, Lcom/google/common/util/concurrent/n0$i;->scheduleWithFixedDelay(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/i0;
 
     move-result-object p1

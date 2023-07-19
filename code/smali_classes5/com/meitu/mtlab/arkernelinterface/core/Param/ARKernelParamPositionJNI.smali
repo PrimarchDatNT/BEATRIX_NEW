@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;-><init>()V
 
     return-void
@@ -72,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -81,7 +79,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeGetCurrentW(J)F
 
     move-result v1
@@ -93,7 +90,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -106,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -115,7 +110,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeGetCurrentX(J)F
 
     move-result v1
@@ -127,7 +121,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -140,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -149,7 +141,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeGetCurrentY(J)F
 
     move-result v1
@@ -161,7 +152,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -174,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -183,7 +172,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeGetCurrentZ(J)F
 
     move-result v1
@@ -195,7 +183,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -208,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -217,7 +203,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeGetDefaultW(J)F
 
     move-result v1
@@ -229,7 +214,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -242,7 +226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -251,7 +234,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeGetDefaultX(J)F
 
     move-result v1
@@ -263,7 +245,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -276,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -285,7 +265,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeGetDefaultY(J)F
 
     move-result v1
@@ -297,7 +276,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -310,7 +288,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -319,7 +296,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeGetDefaultZ(J)F
 
     move-result v1
@@ -331,7 +307,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -344,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -353,7 +327,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeGetMaxValue(J)F
 
     move-result v1
@@ -365,7 +338,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -378,7 +350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -387,7 +358,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeGetMinValue(J)F
 
     move-result v1
@@ -399,7 +369,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -412,7 +381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -421,7 +389,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeGetPositionType(J)I
 
     move-result v1
@@ -433,7 +400,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -446,7 +412,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -455,10 +420,8 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeSetCurrentValueXY(JFF)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -472,7 +435,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v4, 0x0
@@ -489,10 +451,8 @@
 
     move v6, p3
 
-    .line 2
     invoke-direct/range {v1 .. v6}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeSetCurrentValueXYZ(JFFF)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -506,7 +466,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamBaseJNI;->nativeInstance:J
 
     const-wide/16 v4, 0x0
@@ -525,10 +484,8 @@
 
     move v7, p4
 
-    .line 2
     invoke-direct/range {v1 .. v7}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamPositionJNI;->nativeSetCurrentValueXYZW(JFFFF)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

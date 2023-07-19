@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$h;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -61,7 +59,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -74,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$h;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArFragment;->C1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -83,7 +79,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->K0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$h;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArFragment;->F1()Lcom/commsource/widget/h1/e;
@@ -130,7 +125,6 @@
     :goto_0
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$h;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArFragment;->H1()Lcom/commsource/beautyplus/f0/ya;
@@ -141,7 +135,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$h;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArFragment;->H1()Lcom/commsource/beautyplus/f0/ya;
@@ -154,7 +147,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/widget/LineSelectView;->i(IZ)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

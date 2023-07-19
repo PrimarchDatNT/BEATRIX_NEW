@@ -11,10 +11,8 @@
 .method constructor <init>(J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/cct/a/m;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/google/android/datatransport/cct/a/h;->a:J
 
     return-void
@@ -25,7 +23,6 @@
 .method public a()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/datatransport/cct/a/h;->a:J
 
     return-wide v0
@@ -40,7 +37,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/datatransport/cct/a/m;
 
@@ -48,10 +44,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/android/datatransport/cct/a/m;
 
-    .line 3
     iget-wide v3, p0, Lcom/google/android/datatransport/cct/a/h;->a:J
 
     invoke-virtual {p1}, Lcom/google/android/datatransport/cct/a/m;->a()J
@@ -77,7 +71,6 @@
 .method public hashCode()I
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/datatransport/cct/a/h;->a:J
 
     const/16 v2, 0x20
@@ -98,7 +91,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

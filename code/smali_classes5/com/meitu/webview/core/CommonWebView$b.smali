@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/webview/core/CommonWebView;Landroid/webkit/WebView$HitTestResult;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/core/CommonWebView$b;->b:Lcom/meitu/webview/core/CommonWebView;
 
     iput-object p2, p0, Lcom/meitu/webview/core/CommonWebView$b;->a:Landroid/webkit/WebView$HitTestResult;
@@ -48,7 +47,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView$b;->a:Landroid/webkit/WebView$HitTestResult;
 
@@ -56,7 +54,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -65,7 +62,6 @@
 
     const-string v2, "data:image"
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v2
@@ -74,26 +70,22 @@
 
     const-string v2, "base64,"
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v1
 
-    .line 5
     array-length v2, v1
 
     const/4 v3, 0x2
 
     if-ne v2, v3, :cond_1
 
-    .line 6
     aget-object v1, v1, v0
 
     invoke-static {v1}, Lcom/meitu/webview/mtscript/f;->c(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance v2, Ljava/net/URL;
 
@@ -112,10 +104,8 @@
     :catch_0
     move-exception v1
 
-    .line 8
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 9
     :cond_1
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

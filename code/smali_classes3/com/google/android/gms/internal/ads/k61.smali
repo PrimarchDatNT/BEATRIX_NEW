@@ -26,13 +26,10 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/f61;
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1

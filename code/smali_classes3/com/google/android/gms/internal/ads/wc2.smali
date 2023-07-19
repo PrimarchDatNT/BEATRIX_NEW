@@ -17,7 +17,6 @@
 
     const-string v1, "isom"
 
-    .line 1
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -28,7 +27,6 @@
 
     const-string v1, "iso2"
 
-    .line 2
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -39,7 +37,6 @@
 
     const-string v1, "iso3"
 
-    .line 3
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -50,7 +47,6 @@
 
     const-string v1, "iso4"
 
-    .line 4
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -61,7 +57,6 @@
 
     const-string v1, "iso5"
 
-    .line 5
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -72,7 +67,6 @@
 
     const-string v1, "iso6"
 
-    .line 6
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -83,7 +77,6 @@
 
     const-string v1, "avc1"
 
-    .line 7
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -94,7 +87,6 @@
 
     const-string v1, "hvc1"
 
-    .line 8
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -105,7 +97,6 @@
 
     const-string v1, "hev1"
 
-    .line 9
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -116,7 +107,6 @@
 
     const-string v1, "mp41"
 
-    .line 10
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -127,7 +117,6 @@
 
     const-string v1, "mp42"
 
-    .line 11
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -138,7 +127,6 @@
 
     const-string v1, "3g2a"
 
-    .line 12
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -149,7 +137,6 @@
 
     const-string v1, "3g2b"
 
-    .line 13
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -160,7 +147,6 @@
 
     const-string v1, "3gr6"
 
-    .line 14
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -171,7 +157,6 @@
 
     const-string v1, "3gs6"
 
-    .line 15
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -182,7 +167,6 @@
 
     const-string v1, "3ge6"
 
-    .line 16
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -193,7 +177,6 @@
 
     const-string v1, "3gg6"
 
-    .line 17
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -204,7 +187,6 @@
 
     const-string v1, "M4V "
 
-    .line 18
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -215,7 +197,6 @@
 
     const-string v1, "M4A "
 
-    .line 19
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -226,7 +207,6 @@
 
     const-string v1, "f4v "
 
-    .line 20
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -237,7 +217,6 @@
 
     const-string v1, "kddi"
 
-    .line 21
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -248,7 +227,6 @@
 
     const-string v1, "M4VP"
 
-    .line 22
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -259,7 +237,6 @@
 
     const-string v1, "qt  "
 
-    .line 23
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -270,7 +247,6 @@
 
     const-string v1, "MSNV"
 
-    .line 24
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v1
@@ -295,7 +271,6 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     invoke-interface/range {p0 .. p0}, Lcom/google/android/gms/internal/ads/fb2;->getLength()J
 
     move-result-wide v1
@@ -318,7 +293,6 @@
     :cond_1
     long-to-int v2, v1
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/jg2;
 
     const/16 v3, 0x40
@@ -337,20 +311,16 @@
 
     const/16 v7, 0x8
 
-    .line 3
     invoke-virtual {v1, v7}, Lcom/google/android/gms/internal/ads/jg2;->j(I)V
 
-    .line 4
     iget-object v8, v1, Lcom/google/android/gms/internal/ads/jg2;->a:[B
 
     invoke-interface {v0, v8, v3, v7}, Lcom/google/android/gms/internal/ads/fb2;->w([BII)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/jg2;->s()J
 
     move-result-wide v8
 
-    .line 6
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v10
@@ -363,15 +333,12 @@
 
     if-nez v14, :cond_3
 
-    .line 7
     iget-object v8, v1, Lcom/google/android/gms/internal/ads/jg2;->a:[B
 
     invoke-interface {v0, v8, v7, v7}, Lcom/google/android/gms/internal/ads/fb2;->w([BII)V
 
-    .line 8
     invoke-virtual {v1, v13}, Lcom/google/android/gms/internal/ads/jg2;->k(I)V
 
-    .line 9
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/jg2;->w()J
 
     move-result-wide v8
@@ -393,12 +360,10 @@
     :cond_4
     add-int/2addr v4, v13
 
-    .line 10
     sget v13, Lcom/google/android/gms/internal/ads/dc2;->C:I
 
     if-eq v10, v13, :cond_2
 
-    .line 11
     sget v13, Lcom/google/android/gms/internal/ads/dc2;->L:I
 
     if-eq v10, v13, :cond_e
@@ -428,7 +393,6 @@
 
     add-int/2addr v4, v6
 
-    .line 12
     sget v7, Lcom/google/android/gms/internal/ads/dc2;->b:I
 
     if-ne v10, v7, :cond_d
@@ -439,16 +403,13 @@
 
     return v3
 
-    .line 13
     :cond_6
     invoke-virtual {v1, v6}, Lcom/google/android/gms/internal/ads/jg2;->j(I)V
 
-    .line 14
     iget-object v7, v1, Lcom/google/android/gms/internal/ads/jg2;->a:[B
 
     invoke-interface {v0, v7, v3, v6}, Lcom/google/android/gms/internal/ads/fb2;->w([BII)V
 
-    .line 15
     div-int/lit8 v6, v6, 0x4
 
     const/4 v7, 0x0
@@ -462,12 +423,10 @@
 
     const/4 v8, 0x4
 
-    .line 16
     invoke-virtual {v1, v8}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
     goto :goto_6
 
-    .line 17
     :cond_7
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
@@ -477,7 +436,6 @@
 
     const-string v10, "3gp"
 
-    .line 18
     invoke-static {v10}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v10
@@ -489,7 +447,6 @@
 
     goto :goto_5
 
-    .line 19
     :cond_8
     sget-object v9, Lcom/google/android/gms/internal/ads/wc2;->a:[I
 
@@ -536,7 +493,6 @@
     :cond_d
     if-eqz v6, :cond_2
 
-    .line 20
     invoke-interface {v0, v6}, Lcom/google/android/gms/internal/ads/fb2;->y(I)V
 
     goto/16 :goto_0
@@ -576,7 +532,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/internal/ads/wc2;->a(Lcom/google/android/gms/internal/ads/fb2;Z)Z
 
     move-result p0
@@ -595,7 +550,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/internal/ads/wc2;->a(Lcom/google/android/gms/internal/ads/fb2;Z)Z
 
     move-result p0

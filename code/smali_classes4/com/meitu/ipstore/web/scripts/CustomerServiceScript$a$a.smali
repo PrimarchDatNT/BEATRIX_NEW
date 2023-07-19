@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a;Lf/k/m/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a$a;->b:Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a;
 
     iput-object p2, p0, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a$a;->a:Lf/k/m/d;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a$a;->a:Lf/k/m/d;
 
     iget-object v2, p0, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a$a;->b:Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a;
@@ -59,7 +57,6 @@
 
     invoke-interface {v1, v2}, Lf/k/m/d;->l(Landroid/app/Activity;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

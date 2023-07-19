@@ -15,7 +15,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/p/a/o3;Lcom/google/firebase/auth/p/a/u3;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/p/a/r3;->b:Lcom/google/firebase/auth/p/a/o3;
 
     iput-object p2, p0, Lcom/google/firebase/auth/p/a/r3;->a:Lcom/google/firebase/auth/p/a/u3;
@@ -30,7 +29,6 @@
 .method public final run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/r3;->b:Lcom/google/firebase/auth/p/a/o3;
 
     iget-object v0, v0, Lcom/google/firebase/auth/p/a/o3;->b:Lcom/google/firebase/auth/p/a/m3;
@@ -39,7 +37,6 @@
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/r3;->b:Lcom/google/firebase/auth/p/a/o3;
 
@@ -53,7 +50,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/r3;->a:Lcom/google/firebase/auth/p/a/u3;
 
     iget-object v2, p0, Lcom/google/firebase/auth/p/a/r3;->b:Lcom/google/firebase/auth/p/a/o3;
@@ -74,7 +70,6 @@
 
     invoke-interface {v1, v2, v3}, Lcom/google/firebase/auth/p/a/u3;->a(Lcom/google/firebase/auth/PhoneAuthProvider$a;[Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     monitor-exit v0
 

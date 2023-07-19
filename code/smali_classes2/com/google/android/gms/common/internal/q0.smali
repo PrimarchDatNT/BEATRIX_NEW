@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/i$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/q0;->a:Lcom/google/android/gms/common/api/i$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -26,7 +25,6 @@
 .method public final Z(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/q0;->a:Lcom/google/android/gms/common/api/i$b;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/i$b;->Z(I)V
@@ -41,7 +39,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/q0;->a:Lcom/google/android/gms/common/api/i$b;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/i$b;->s(Landroid/os/Bundle;)V

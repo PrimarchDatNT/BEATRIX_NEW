@@ -29,12 +29,10 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/t;->a:Landroid/hardware/camera2/CameraCaptureSession$StateCallback;
 
     iget-object v1, p0, Lcom/google/ar/core/t;->b:Landroid/hardware/camera2/CameraCaptureSession;
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/hardware/camera2/CameraCaptureSession$StateCallback;->onClosed(Landroid/hardware/camera2/CameraCaptureSession;)V
 
     return-void

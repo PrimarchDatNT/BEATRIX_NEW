@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$t$b;->b:Lio/grpc/internal/ManagedChannelImpl$t;
 
     iput-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$t$b;->a:Lio/grpc/internal/u1;
@@ -47,7 +46,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$t$b;->b:Lio/grpc/internal/ManagedChannelImpl$t;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$t;->b:Lio/grpc/internal/ManagedChannelImpl;
@@ -58,12 +56,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$t$b;->a:Lio/grpc/internal/u1;
 
     invoke-virtual {v0}, Lio/grpc/internal/u1;->r()Lio/grpc/w0;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$t$b;->b:Lio/grpc/internal/ManagedChannelImpl$t;
 
@@ -75,7 +71,6 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$t$b;->b:Lio/grpc/internal/ManagedChannelImpl$t;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$t;->b:Lio/grpc/internal/ManagedChannelImpl;

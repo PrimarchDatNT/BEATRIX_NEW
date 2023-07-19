@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/LottieAnimationView$a;->b(Ljava/lang/Throwable;)V
@@ -52,7 +50,6 @@
 .method public b(Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lcom/airbnb/lottie/z/h;->k(Ljava/lang/Throwable;)Z
 
     move-result v0
@@ -61,12 +58,10 @@
 
     const-string v0, "Unable to load composition."
 
-    .line 2
     invoke-static {v0, p1}, Lcom/airbnb/lottie/z/d;->f(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 

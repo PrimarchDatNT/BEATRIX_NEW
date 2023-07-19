@@ -15,7 +15,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 .method public getAppKey()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/libmtsns/framwork/i/PlatformConfig;->AppKey:Ljava/lang/String;
 
     const/4 v1, 0x0
@@ -41,7 +39,6 @@
 .method public getId()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/meitu/libmtsns/framwork/i/PlatformConfig;->Id:I
 
     return v0
@@ -50,7 +47,6 @@
 .method public getName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/libmtsns/framwork/i/PlatformConfig;->Name:Ljava/lang/String;
 
     return-object v0
@@ -59,7 +55,6 @@
 .method public setAppKey(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/i/PlatformConfig;->AppKey:Ljava/lang/String;
 
     return-void
@@ -68,7 +63,6 @@
 .method public setId(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/meitu/libmtsns/framwork/i/PlatformConfig;->Id:I
 
     return-void
@@ -77,7 +71,6 @@
 .method public setName(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/i/PlatformConfig;->Name:Ljava/lang/String;
 
     return-void

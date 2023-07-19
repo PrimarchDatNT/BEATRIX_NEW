@@ -21,22 +21,16 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/s5;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JJLandroid/os/Bundle;)V
     .locals 2
 
-    .line 16
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 17
     invoke-static {p3}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 18
     invoke-static {p4}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 19
     iput-object p3, p0, Lcom/google/android/gms/measurement/internal/l;->a:Ljava/lang/String;
 
-    .line 20
     iput-object p4, p0, Lcom/google/android/gms/measurement/internal/l;->b:Ljava/lang/String;
 
-    .line 21
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p4
@@ -48,10 +42,8 @@
     :cond_0
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/l;->c:Ljava/lang/String;
 
-    .line 22
     iput-wide p5, p0, Lcom/google/android/gms/measurement/internal/l;->d:J
 
-    .line 23
     iput-wide p7, p0, Lcom/google/android/gms/measurement/internal/l;->e:J
 
     const-wide/16 v0, 0x0
@@ -64,42 +56,35 @@
 
     if-lez p2, :cond_1
 
-    .line 24
     invoke-virtual {p1}, Lcom/google/android/gms/measurement/internal/s5;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object p2
 
-    .line 25
     invoke-virtual {p2}, Lcom/google/android/gms/measurement/internal/o4;->J()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object p2
 
-    .line 26
     invoke-static {p3}, Lcom/google/android/gms/measurement/internal/o4;->x(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p3
 
     const-string p4, "Event created with reverse previous/current timestamps. appId"
 
-    .line 27
     invoke-virtual {p2, p4, p3}, Lcom/google/android/gms/measurement/internal/q4;->b(Ljava/lang/String;Ljava/lang/Object;)V
 
     :cond_1
     if-eqz p9, :cond_5
 
-    .line 28
     invoke-virtual {p9}, Landroid/os/Bundle;->isEmpty()Z
 
     move-result p2
 
     if-nez p2, :cond_5
 
-    .line 29
     new-instance p2, Landroid/os/Bundle;
 
     invoke-direct {p2, p9}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
 
-    .line 30
     invoke-virtual {p2}, Landroid/os/Bundle;->keySet()Ljava/util/Set;
 
     move-result-object p3
@@ -108,7 +93,6 @@
 
     move-result-object p3
 
-    .line 31
     :goto_0
     invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
 
@@ -116,7 +100,6 @@
 
     if-eqz p4, :cond_4
 
-    .line 32
     invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object p4
@@ -125,7 +108,6 @@
 
     if-nez p4, :cond_2
 
-    .line 33
     invoke-virtual {p1}, Lcom/google/android/gms/measurement/internal/s5;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object p4
@@ -138,12 +120,10 @@
 
     invoke-virtual {p4, p5}, Lcom/google/android/gms/measurement/internal/q4;->a(Ljava/lang/String;)V
 
-    .line 34
     invoke-interface {p3}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 35
     :cond_2
     invoke-virtual {p1}, Lcom/google/android/gms/measurement/internal/s5;->I()Lcom/google/android/gms/measurement/internal/ia;
 
@@ -159,17 +139,14 @@
 
     if-nez p5, :cond_3
 
-    .line 36
     invoke-virtual {p1}, Lcom/google/android/gms/measurement/internal/s5;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object p5
 
-    .line 37
     invoke-virtual {p5}, Lcom/google/android/gms/measurement/internal/o4;->J()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object p5
 
-    .line 38
     invoke-virtual {p1}, Lcom/google/android/gms/measurement/internal/s5;->J()Lcom/google/android/gms/measurement/internal/m4;
 
     move-result-object p6
@@ -180,15 +157,12 @@
 
     const-string p6, "Param value can\'t be null"
 
-    .line 39
     invoke-virtual {p5, p6, p4}, Lcom/google/android/gms/measurement/internal/q4;->b(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 40
     invoke-interface {p3}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 41
     :cond_3
     invoke-virtual {p1}, Lcom/google/android/gms/measurement/internal/s5;->I()Lcom/google/android/gms/measurement/internal/ia;
 
@@ -198,7 +172,6 @@
 
     goto :goto_0
 
-    .line 42
     :cond_4
     new-instance p1, Lcom/google/android/gms/measurement/internal/zzam;
 
@@ -206,7 +179,6 @@
 
     goto :goto_1
 
-    .line 43
     :cond_5
     new-instance p1, Lcom/google/android/gms/measurement/internal/zzam;
 
@@ -216,7 +188,6 @@
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/measurement/internal/zzam;-><init>(Landroid/os/Bundle;)V
 
-    .line 44
     :goto_1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/l;->f:Lcom/google/android/gms/measurement/internal/zzam;
 
@@ -226,25 +197,18 @@
 .method private constructor <init>(Lcom/google/android/gms/measurement/internal/s5;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JJLcom/google/android/gms/measurement/internal/zzam;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p3}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
     invoke-static {p4}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 4
     invoke-static {p9}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     iput-object p3, p0, Lcom/google/android/gms/measurement/internal/l;->a:Ljava/lang/String;
 
-    .line 6
     iput-object p4, p0, Lcom/google/android/gms/measurement/internal/l;->b:Ljava/lang/String;
 
-    .line 7
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -256,10 +220,8 @@
     :cond_0
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/l;->c:Ljava/lang/String;
 
-    .line 8
     iput-wide p5, p0, Lcom/google/android/gms/measurement/internal/l;->d:J
 
-    .line 9
     iput-wide p7, p0, Lcom/google/android/gms/measurement/internal/l;->e:J
 
     const-wide/16 v0, 0x0
@@ -272,32 +234,26 @@
 
     if-lez p2, :cond_1
 
-    .line 10
     invoke-virtual {p1}, Lcom/google/android/gms/measurement/internal/s5;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p1}, Lcom/google/android/gms/measurement/internal/o4;->J()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object p1
 
-    .line 12
     invoke-static {p3}, Lcom/google/android/gms/measurement/internal/o4;->x(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p2
 
-    .line 13
     invoke-static {p4}, Lcom/google/android/gms/measurement/internal/o4;->x(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p3
 
     const-string p4, "Event created with reverse previous/current timestamps. appId, name"
 
-    .line 14
     invoke-virtual {p1, p4, p2, p3}, Lcom/google/android/gms/measurement/internal/q4;->c(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 15
     :cond_1
     iput-object p9, p0, Lcom/google/android/gms/measurement/internal/l;->f:Lcom/google/android/gms/measurement/internal/zzam;
 
@@ -309,7 +265,6 @@
 .method final a(Lcom/google/android/gms/measurement/internal/s5;J)Lcom/google/android/gms/measurement/internal/l;
     .locals 11
 
-    .line 1
     new-instance v10, Lcom/google/android/gms/measurement/internal/l;
 
     iget-object v2, p0, Lcom/google/android/gms/measurement/internal/l;->c:Ljava/lang/String;
@@ -336,7 +291,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/l;->a:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/l;->b:Ljava/lang/String;

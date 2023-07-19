@@ -28,10 +28,8 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/text/style/ReplacementSpan;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$k;->a:I
 
     return-void
@@ -54,17 +52,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p2, p3, p4}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
 
     move-result-object p2
 
-    .line 2
     invoke-virtual {p9}, Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
 
     move-result-object p3
 
-    .line 3
     invoke-interface {p2}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -93,7 +88,6 @@
 
     invoke-virtual {p1, p2, p5, p3, p9}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -114,12 +108,10 @@
 
     invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p2, p3, p4}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
 
     move-result-object p2
 
-    .line 2
     invoke-interface {p2}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object p2

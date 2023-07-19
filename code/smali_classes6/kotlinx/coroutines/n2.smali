@@ -14,7 +14,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/k;-><init>()V
 
     return-void
@@ -39,25 +38,20 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v1, "List{"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string p1, "}["
 
-    .line 4
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {p0}, Lcotlinx/coroutines/internal/m;->P()Ljava/lang/Object;
 
     move-result-object p1
@@ -70,7 +64,6 @@
 
     const/4 v2, 0x1
 
-    .line 6
     :goto_0
     invoke-static {p1, p0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -80,7 +73,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 7
     instance-of v3, p1, Lcotlinx/coroutines/i2;
 
     if-eqz v3, :cond_1
@@ -98,14 +90,11 @@
     :cond_0
     const-string v4, ", "
 
-    .line 8
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     :goto_1
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    .line 10
     :cond_1
     invoke-virtual {p1}, Lcotlinx/coroutines/internal/m;->Q()Lcotlinx/coroutines/internal/m;
 
@@ -116,10 +105,8 @@
     :cond_2
     const-string p1, "]"
 
-    .line 11
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -130,7 +117,6 @@
 
     return-object p1
 
-    .line 13
     :cond_3
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -154,7 +140,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/p0;->d()Z
 
     move-result v0

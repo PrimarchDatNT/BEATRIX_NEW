@@ -57,7 +57,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/MoreComponent$c;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -66,7 +65,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/BaseActivity;->J0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/album/MoreComponent$c;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -95,10 +93,8 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/mypage/album/BpAlbumViewModel;->B(Ljava/util/List;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

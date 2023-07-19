@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$b;->d(Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$Model;)V
@@ -80,12 +78,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;
 
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;->I(Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript;Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$Model;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

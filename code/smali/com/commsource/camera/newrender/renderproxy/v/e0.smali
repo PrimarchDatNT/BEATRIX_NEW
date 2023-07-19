@@ -24,10 +24,8 @@
 .method constructor <init>(Lcom/commsource/camera/newrender/renderproxy/v/t;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -50,7 +48,6 @@
 
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, v0, Lcom/commsource/camera/newrender/renderproxy/v/e0;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -63,7 +60,6 @@
 
     if-eqz v11, :cond_5
 
-    .line 2
     invoke-virtual {v11}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -76,7 +72,6 @@
 
     goto/16 :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
@@ -88,7 +83,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 4
     invoke-virtual {v11}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -99,7 +93,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 5
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
     move-result-object v1
@@ -128,7 +121,6 @@
 
     if-ne v9, v2, :cond_2
 
-    .line 6
     :cond_1
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
@@ -136,20 +128,17 @@
 
     invoke-virtual {v2}, Lcom/commsource/camera/f1/d;->g()V
 
-    .line 7
     :cond_2
     iget-object v2, v0, Lcom/commsource/camera/newrender/renderproxy/v/e0;->a:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
 
     if-nez v2, :cond_3
 
-    .line 8
     new-instance v2, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
 
     invoke-direct {v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;-><init>()V
 
     iput-object v2, v0, Lcom/commsource/camera/newrender/renderproxy/v/e0;->a:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
 
-    .line 9
     :cond_3
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
@@ -179,7 +168,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 10
     invoke-virtual {v11}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -192,13 +180,11 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
 
-    .line 11
     :cond_4
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_5
     :goto_0
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -213,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
     move-result-object v1
@@ -224,7 +209,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
     move-result-object v1
@@ -240,7 +224,6 @@
     :cond_0
     const-wide/16 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v1
@@ -253,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
     move-result-object v1
@@ -264,7 +246,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
     move-result-object v1
@@ -280,7 +261,6 @@
     :cond_0
     const-wide/16 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v1
@@ -293,7 +273,6 @@
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
     move-result-object v0
@@ -304,7 +283,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
     move-result-object v0
@@ -320,7 +298,6 @@
     :cond_0
     const-wide/16 p1, 0x0
 
-    .line 3
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p1
@@ -333,7 +310,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -346,7 +322,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -359,7 +334,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -372,7 +346,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -385,7 +358,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

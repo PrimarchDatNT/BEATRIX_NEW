@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/DemoDialog$bindView$1$1$a;->a:Lcom/commsource/video/DemoDialog$bindView$1$1;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -45,10 +44,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/f1/l$a;->e(FF)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/video/DemoDialog$bindView$1$1$a;->a:Lcom/commsource/video/DemoDialog$bindView$1$1;
 
     iget-object p2, p2, Lcom/commsource/video/DemoDialog$bindView$1$1;->this$0:Lcom/commsource/video/DemoDialog$bindView$1;
@@ -63,7 +60,6 @@
 
     move-result p2
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/video/DemoDialog$bindView$1$1$a;->a:Lcom/commsource/video/DemoDialog$bindView$1$1;
 
     iget-object v1, v1, Lcom/commsource/video/DemoDialog$bindView$1$1;->this$0:Lcom/commsource/video/DemoDialog$bindView$1;
@@ -78,7 +74,6 @@
 
     move-result v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/video/DemoDialog$bindView$1$1$a;->a:Lcom/commsource/video/DemoDialog$bindView$1$1;
 
     iget-object v2, v2, Lcom/commsource/video/DemoDialog$bindView$1$1;->this$0:Lcom/commsource/video/DemoDialog$bindView$1;
@@ -89,7 +84,6 @@
 
     invoke-static {v2, v1}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/video/DemoDialog$bindView$1$1$a;->a:Lcom/commsource/video/DemoDialog$bindView$1$1;
 
     iget-object v1, v1, Lcom/commsource/video/DemoDialog$bindView$1$1;->this$0:Lcom/commsource/video/DemoDialog$bindView$1;
@@ -100,7 +94,6 @@
 
     invoke-static {v1, p2}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/video/DemoDialog$bindView$1$1$a;->a:Lcom/commsource/video/DemoDialog$bindView$1$1;
 
     iget-object p2, p2, Lcom/commsource/video/DemoDialog$bindView$1$1;->this$0:Lcom/commsource/video/DemoDialog$bindView$1;
@@ -119,7 +112,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

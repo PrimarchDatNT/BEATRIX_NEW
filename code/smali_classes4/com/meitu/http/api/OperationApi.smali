@@ -16,7 +16,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -71,15 +69,12 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lf/k/k/d;->v()Lf/k/k/d;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1, p1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -104,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -115,7 +109,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lf/k/k/d;->v()Lf/k/k/d;
 
     move-result-object v1
@@ -124,14 +117,12 @@
 
     const-string v3, "104"
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -142,7 +133,6 @@
 
     move-result-object v1
 
-    .line 5
     invoke-static {}, Lf/d/i/o;->d0()I
 
     move-result v2
@@ -157,10 +147,8 @@
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1, p1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -186,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -201,14 +188,12 @@
 
     const-string v3, "104"
 
-    .line 2
     invoke-virtual {v1, v2, v3}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -219,7 +204,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {}, Lcom/commsource/util/x;->B()Z
 
     move-result v2
@@ -234,15 +218,12 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Lf/k/k/d;->v()Lf/k/k/d;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1, p1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -267,7 +248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/http/api/OperationApi$operationHelpTips$1;->INSTANCE:Lcom/meitu/http/api/OperationApi$operationHelpTips$1;
 
     const-string v2, "/operation/help_tips"

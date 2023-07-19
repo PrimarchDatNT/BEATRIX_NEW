@@ -92,56 +92,48 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/doodle/d;
 
     invoke-direct {v1}, Lcom/commsource/studio/doodle/d;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/doodle/d;->h:Lcom/commsource/studio/doodle/d;
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/doodle/d;->a:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 3
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/doodle/d;->b:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 4
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/doodle/d;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 5
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/doodle/d;->d:Landroid/util/SparseArray;
 
-    .line 6
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/doodle/d;->e:Landroid/util/SparseArray;
 
-    .line 7
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/doodle/d;->f:Ljava/util/ArrayList;
 
-    .line 8
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -156,7 +148,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -169,7 +160,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/studio/doodle/d;->b:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -184,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
     move-result-object v1
@@ -195,7 +184,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -218,7 +206,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/doodle/d$a;
 
     const-string v2, ""
@@ -227,7 +214,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -242,10 +228,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/d;->d:Landroid/util/SparseArray;
 
-    .line 2
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -275,15 +259,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/d;->f:Ljava/util/ArrayList;
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -304,7 +285,6 @@
 
     check-cast v4, Lcom/meitu/template/bean/f;
 
-    .line 4
     invoke-virtual {v4}, Lcom/meitu/template/bean/f;->a()I
 
     move-result v5
@@ -373,7 +353,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -398,7 +377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/d;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -424,10 +402,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/d;->g:Ljava/util/ArrayList;
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
@@ -448,12 +424,10 @@
 
     if-eq p1, v3, :cond_5
 
-    .line 3
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -474,7 +448,6 @@
 
     check-cast v7, Lcom/meitu/template/bean/Doodle;
 
-    .line 5
     invoke-virtual {v7}, Lcom/meitu/template/bean/Doodle;->getCategoryId()I
 
     move-result v7
@@ -495,7 +468,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-interface {v3}, Ljava/util/Collection;->size()I
 
@@ -520,13 +492,11 @@
 
     goto/16 :goto_a
 
-    .line 7
     :cond_5
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 8
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -547,7 +517,6 @@
 
     check-cast v6, Lcom/meitu/template/bean/Doodle;
 
-    .line 9
     invoke-virtual {v6}, Lcom/meitu/template/bean/Doodle;->getPaidState()I
 
     move-result v6
@@ -568,19 +537,16 @@
 
     goto :goto_3
 
-    .line 10
     :cond_8
     invoke-virtual {v2, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     goto :goto_a
 
-    .line 11
     :cond_9
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 12
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -601,7 +567,6 @@
 
     check-cast v6, Lcom/meitu/template/bean/Doodle;
 
-    .line 13
     invoke-virtual {v6}, Lcom/meitu/template/bean/Doodle;->getDoodleTag()I
 
     move-result v6
@@ -624,19 +589,16 @@
 
     goto :goto_5
 
-    .line 14
     :cond_c
     invoke-virtual {v2, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     goto :goto_a
 
-    .line 15
     :cond_d
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 16
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -657,7 +619,6 @@
 
     check-cast v6, Lcom/meitu/template/bean/Doodle;
 
-    .line 17
     invoke-virtual {v6}, Lcom/meitu/template/bean/Doodle;->getDoodleTag()I
 
     move-result v7
@@ -690,11 +651,9 @@
 
     goto :goto_7
 
-    .line 18
     :cond_11
     invoke-virtual {v2, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 19
     :cond_12
     :goto_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -709,20 +668,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/d;->d:Landroid/util/SparseArray;
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -747,7 +702,6 @@
 
     check-cast v6, Lcom/meitu/template/bean/Doodle;
 
-    .line 5
     invoke-virtual {v6}, Lcom/meitu/template/bean/Doodle;->getCategoryId()I
 
     move-result v7
@@ -799,7 +753,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/doodle/d$c;
 
     const-string v2, "UPDATE-DOODLE-DB"
@@ -808,7 +761,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

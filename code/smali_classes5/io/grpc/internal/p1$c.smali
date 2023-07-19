@@ -22,7 +22,6 @@
 .method private constructor <init>(Lio/grpc/internal/p1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/p1$c;->a:Lio/grpc/internal/p1;
 
     invoke-direct {p0}, Ljava/io/OutputStream;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/p1;Lio/grpc/internal/p1$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lio/grpc/internal/p1$c;-><init>(Lio/grpc/internal/p1;)V
 
     return-void
@@ -54,7 +52,6 @@
 
     aput-byte p1, v1, v2
 
-    .line 1
     invoke-virtual {p0, v1, v2, v0}, Lio/grpc/internal/p1$c;->write([BII)V
 
     return-void
@@ -63,7 +60,6 @@
 .method public write([BII)V
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/p1$c;->a:Lio/grpc/internal/p1;
 
     invoke-static {v0, p1, p2, p3}, Lio/grpc/internal/p1;->a(Lio/grpc/internal/p1;[BII)V

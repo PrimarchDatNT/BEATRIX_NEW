@@ -87,7 +87,6 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-direct/range {v0 .. v9}, Lcom/airbnb/lottie/model/i/l;-><init>(Lcom/airbnb/lottie/model/i/e;Lcom/airbnb/lottie/model/i/m;Lcom/airbnb/lottie/model/i/g;Lcom/airbnb/lottie/model/i/b;Lcom/airbnb/lottie/model/i/d;Lcom/airbnb/lottie/model/i/b;Lcom/airbnb/lottie/model/i/b;Lcom/airbnb/lottie/model/i/b;Lcom/airbnb/lottie/model/i/b;)V
 
     return-void
@@ -150,34 +149,24 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/airbnb/lottie/model/i/l;->a:Lcom/airbnb/lottie/model/i/e;
 
-    .line 4
     iput-object p2, p0, Lcom/airbnb/lottie/model/i/l;->b:Lcom/airbnb/lottie/model/i/m;
 
-    .line 5
     iput-object p3, p0, Lcom/airbnb/lottie/model/i/l;->c:Lcom/airbnb/lottie/model/i/g;
 
-    .line 6
     iput-object p4, p0, Lcom/airbnb/lottie/model/i/l;->d:Lcom/airbnb/lottie/model/i/b;
 
-    .line 7
     iput-object p5, p0, Lcom/airbnb/lottie/model/i/l;->e:Lcom/airbnb/lottie/model/i/d;
 
-    .line 8
     iput-object p6, p0, Lcom/airbnb/lottie/model/i/l;->h:Lcom/airbnb/lottie/model/i/b;
 
-    .line 9
     iput-object p7, p0, Lcom/airbnb/lottie/model/i/l;->i:Lcom/airbnb/lottie/model/i/b;
 
-    .line 10
     iput-object p8, p0, Lcom/airbnb/lottie/model/i/l;->f:Lcom/airbnb/lottie/model/i/b;
 
-    .line 11
     iput-object p9, p0, Lcom/airbnb/lottie/model/i/l;->g:Lcom/airbnb/lottie/model/i/b;
 
     return-void
@@ -198,7 +187,6 @@
 .method public b()Lcom/airbnb/lottie/w/c/o;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/w/c/o;
 
     invoke-direct {v0, p0}, Lcom/airbnb/lottie/w/c/o;-><init>(Lcom/airbnb/lottie/model/i/l;)V
@@ -211,7 +199,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/l;->a:Lcom/airbnb/lottie/model/i/e;
 
     return-object v0
@@ -222,7 +209,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/l;->i:Lcom/airbnb/lottie/model/i/b;
 
     return-object v0
@@ -233,7 +219,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/l;->e:Lcom/airbnb/lottie/model/i/d;
 
     return-object v0
@@ -254,7 +239,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/l;->b:Lcom/airbnb/lottie/model/i/m;
 
     return-object v0
@@ -265,7 +249,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/l;->d:Lcom/airbnb/lottie/model/i/b;
 
     return-object v0
@@ -276,7 +259,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/l;->c:Lcom/airbnb/lottie/model/i/g;
 
     return-object v0
@@ -287,7 +269,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/l;->f:Lcom/airbnb/lottie/model/i/b;
 
     return-object v0
@@ -298,7 +279,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/l;->g:Lcom/airbnb/lottie/model/i/b;
 
     return-object v0
@@ -309,7 +289,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/i/l;->h:Lcom/airbnb/lottie/model/i/b;
 
     return-object v0

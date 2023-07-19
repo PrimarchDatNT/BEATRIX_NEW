@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/Maps$p;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Maps$p$a;->a:Lcom/google/common/collect/Maps$p;
 
     invoke-direct {p0}, Lcom/google/common/collect/Maps$q;-><init>()V
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$p$a;->a:Lcom/google/common/collect/Maps$p;
 
     return-object v0
@@ -66,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$p$a;->a:Lcom/google/common/collect/Maps$p;
 
     invoke-virtual {v0}, Lcom/google/common/collect/Maps$p;->M0()Ljava/util/Iterator;

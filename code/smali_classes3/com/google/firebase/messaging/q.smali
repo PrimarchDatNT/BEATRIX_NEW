@@ -26,12 +26,10 @@
 .method public final a(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/q;->a:Ljava/lang/String;
 
     check-cast p1, Lcom/google/firebase/messaging/e;
 
-    .line 2
     invoke-static {v0}, Lcom/google/firebase/messaging/e0;->c(Ljava/lang/String;)Lcom/google/firebase/messaging/e0;
 
     move-result-object v0
@@ -40,7 +38,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/messaging/e;->e()V
 
     return-object v0

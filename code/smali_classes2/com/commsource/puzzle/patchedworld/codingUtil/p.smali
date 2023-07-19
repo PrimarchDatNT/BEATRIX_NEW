@@ -25,15 +25,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/m;-><init>(Lcom/commsource/puzzle/patchedworld/codingUtil/l;Landroid/view/View;)V
 
     const/high16 p1, -0x40800000    # -1.0f
 
-    .line 2
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/p;->c:F
 
-    .line 3
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/p;->d:F
 
     return-void
@@ -46,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -59,7 +55,6 @@
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/m;->a:Lcom/commsource/puzzle/patchedworld/codingUtil/l;
 
     iget-object v2, v2, Lcom/commsource/puzzle/patchedworld/codingUtil/l;->b:Landroid/graphics/Matrix;
@@ -68,7 +63,6 @@
 
     move-result v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/m;->a:Lcom/commsource/puzzle/patchedworld/codingUtil/l;
 
     iget-object v4, v3, Lcom/commsource/puzzle/patchedworld/codingUtil/l;->b:Landroid/graphics/Matrix;
@@ -77,7 +71,6 @@
 
     iget-object v2, v3, Lcom/commsource/puzzle/patchedworld/codingUtil/l;->a:Lcom/commsource/puzzle/patchedworld/codingUtil/l$c;
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/puzzle/patchedworld/codingUtil/l$c;->f()F
 
     move-result v2
@@ -90,10 +83,8 @@
 
     move-result v3
 
-    .line 5
     invoke-virtual {v4, v1, v1, v2, v3}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/m;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -104,16 +95,13 @@
 
     if-eqz v1, :cond_0
 
-    .line 7
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
 
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 8
     invoke-interface {p1, p2}, Landroid/animation/ValueAnimator$AnimatorUpdateListener;->onAnimationUpdate(Landroid/animation/ValueAnimator;)V
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -137,7 +125,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/m;->a:Lcom/commsource/puzzle/patchedworld/codingUtil/l;
 
     iget-object v2, v2, Lcom/commsource/puzzle/patchedworld/codingUtil/l;->b:Landroid/graphics/Matrix;
@@ -160,21 +147,18 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Landroid/view/animation/DecelerateInterpolator;
 
     invoke-direct {v2}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 3
     new-instance v2, Lcom/commsource/puzzle/patchedworld/codingUtil/a;
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/puzzle/patchedworld/codingUtil/a;-><init>(Lcom/commsource/puzzle/patchedworld/codingUtil/p;Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -187,10 +171,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/p;->d:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

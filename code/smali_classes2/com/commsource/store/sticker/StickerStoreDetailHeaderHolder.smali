@@ -51,14 +51,12 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_sticker_shop_detail_header:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->J:Landroid/content/Context;
 
     iput-object p2, p0, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->K:Landroid/view/ViewGroup;
 
-    .line 2
     new-instance p1, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder$viewBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder$viewBinding$2;-><init>(Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;)V
@@ -79,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
     move-result-object p0
@@ -137,12 +134,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_6
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -151,7 +146,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getStickerCreator()Ljava/lang/String;
 
     move-result-object p2
@@ -162,7 +156,6 @@
 
     if-nez p2, :cond_0
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
     move-result-object p2
@@ -179,7 +172,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupPaidState()I
 
@@ -198,7 +190,6 @@
     :cond_1
     const/4 p2, 0x0
 
-    .line 6
     :goto_0
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
@@ -206,12 +197,10 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/mj;->f:Landroid/widget/TextView;
 
-    .line 7
     new-instance v3, Lcom/commsource/camera/mvp/helper/XSpanUtils;
 
     invoke-direct {v3}, Lcom/commsource/camera/mvp/helper/XSpanUtils;-><init>()V
 
-    .line 8
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupName()Ljava/lang/String;
 
     move-result-object v4
@@ -230,12 +219,10 @@
 
     const/16 v4, 0x1a
 
-    .line 9
     invoke-virtual {v3, v4, v1}, Lcom/commsource/camera/mvp/helper/XSpanUtils;->E(IZ)Lcom/commsource/camera/mvp/helper/XSpanUtils;
 
     move-result-object v3
 
-    .line 10
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -302,17 +289,14 @@
 
     const/16 v3, 0xc
 
-    .line 11
     invoke-virtual {p3, v3, v1}, Lcom/commsource/camera/mvp/helper/XSpanUtils;->E(IZ)Lcom/commsource/camera/mvp/helper/XSpanUtils;
 
     move-result-object p3
 
-    .line 12
     invoke-virtual {p3}, Lcom/commsource/camera/mvp/helper/XSpanUtils;->p()Landroid/text/SpannableStringBuilder;
 
     move-result-object p3
 
-    .line 13
     invoke-virtual {v2, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     const-string p3, "viewBinding.ivPro"
@@ -321,7 +305,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 14
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
     move-result-object p2
@@ -332,7 +315,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 15
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
     move-result-object p2
@@ -359,7 +341,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->W(Landroid/view/View;IIIIILjava/lang/Object;)V
 
-    .line 16
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
     move-result-object p2
@@ -374,7 +355,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 17
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
     move-result-object p2
@@ -393,7 +373,6 @@
 
     goto :goto_3
 
-    .line 18
     :cond_4
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
@@ -405,7 +384,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 19
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
     move-result-object p2
@@ -432,7 +410,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->W(Landroid/view/View;IIIIILjava/lang/Object;)V
 
-    .line 20
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
     move-result-object p2
@@ -447,7 +424,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 21
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
     move-result-object p2
@@ -464,7 +440,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 22
     :goto_3
     iget-object p2, p0, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->J:Landroid/content/Context;
 
@@ -480,7 +455,6 @@
 
     move-result-object p2
 
-    .line 23
     new-instance p3, Landroid/graphics/drawable/ColorDrawable;
 
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getRandomBgColor()I
@@ -497,7 +471,6 @@
 
     move-result-object p2
 
-    .line 24
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
     move-result-object p3
@@ -506,7 +479,6 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 25
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getDisplayIcon()Ljava/lang/String;
 
     move-result-object p2
@@ -517,7 +489,6 @@
 
     if-eqz p2, :cond_5
 
-    .line 26
     invoke-direct {p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->z()Lcom/commsource/beautyplus/f0/mj;
 
     move-result-object p1
@@ -530,12 +501,10 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 28
     :cond_5
     iget-object p2, p0, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->J:Landroid/content/Context;
 
@@ -551,7 +520,6 @@
 
     move-result-object p2
 
-    .line 29
     new-instance p3, Landroid/graphics/drawable/ColorDrawable;
 
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getRandomBgColor()I
@@ -568,14 +536,12 @@
 
     move-result-object p1
 
-    .line 30
     new-instance p2, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder$a;
 
     invoke-direct {p2, p0}, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder$a;-><init>(Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;)V
 
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->h(Lcom/bumptech/glide/request/j/p;)V
 
-    .line 31
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -591,7 +557,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->J:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -608,7 +573,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreDetailHeaderHolder;->K:Landroid/view/ViewGroup;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

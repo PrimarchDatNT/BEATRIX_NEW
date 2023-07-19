@@ -32,14 +32,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/util/c$b;
 
     invoke-direct {v1}, Lcom/commsource/camera/xcamera/util/c$b;-><init>()V
 
     sput-object v1, Lcom/commsource/camera/xcamera/util/c$b;->b:Lcom/commsource/camera/xcamera/util/c$b;
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/xcamera/util/c;
 
     const/4 v2, 0x0
@@ -56,7 +54,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -73,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/util/c$b;->a:Lcom/commsource/camera/xcamera/util/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

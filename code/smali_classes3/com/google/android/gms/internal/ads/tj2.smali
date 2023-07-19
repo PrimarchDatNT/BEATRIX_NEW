@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/rj2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/tj2;->a:Lcom/google/android/gms/internal/ads/rj2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -29,14 +28,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/tj2;->a:Lcom/google/android/gms/internal/ads/rj2;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/rj2;->i(Lcom/google/android/gms/internal/ads/rj2;)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/tj2;->a:Lcom/google/android/gms/internal/ads/rj2;
 

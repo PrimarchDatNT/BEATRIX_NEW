@@ -40,7 +40,6 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .line 1
     monitor-enter p0
 
     const/4 v0, 0x1

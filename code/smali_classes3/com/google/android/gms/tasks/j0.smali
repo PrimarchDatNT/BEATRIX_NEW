@@ -15,7 +15,6 @@
 .method constructor <init>(Lcom/google/android/gms/tasks/i0;Ljava/util/concurrent/Callable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/tasks/j0;->a:Lcom/google/android/gms/tasks/i0;
 
     iput-object p2, p0, Lcom/google/android/gms/tasks/j0;->b:Ljava/util/concurrent/Callable;
@@ -30,7 +29,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/tasks/j0;->a:Lcom/google/android/gms/tasks/i0;
 
@@ -49,7 +47,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/tasks/j0;->a:Lcom/google/android/gms/tasks/i0;
 
     invoke-virtual {v1, v0}, Lcom/google/android/gms/tasks/i0;->y(Ljava/lang/Exception;)V

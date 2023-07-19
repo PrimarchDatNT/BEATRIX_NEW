@@ -26,7 +26,6 @@
 .method private constructor <init>(Lcom/tencent/matrix/AppActiveMatrixDelegate;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/AppActiveMatrixDelegate$c;->a:Lcom/tencent/matrix/AppActiveMatrixDelegate;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -37,7 +36,6 @@
 .method synthetic constructor <init>(Lcom/tencent/matrix/AppActiveMatrixDelegate;Lcom/tencent/matrix/AppActiveMatrixDelegate$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/tencent/matrix/AppActiveMatrixDelegate$c;-><init>(Lcom/tencent/matrix/AppActiveMatrixDelegate;)V
 
     return-void
@@ -78,12 +76,10 @@
 .method public onActivityStarted(Landroid/app/Activity;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/AppActiveMatrixDelegate$c;->a:Lcom/tencent/matrix/AppActiveMatrixDelegate;
 
     invoke-static {v0, p1}, Lcom/tencent/matrix/AppActiveMatrixDelegate;->access$300(Lcom/tencent/matrix/AppActiveMatrixDelegate;Landroid/app/Activity;)V
 
-    .line 2
     iget-object p1, p0, Lcom/tencent/matrix/AppActiveMatrixDelegate$c;->a:Lcom/tencent/matrix/AppActiveMatrixDelegate;
 
     invoke-virtual {p1}, Lcom/tencent/matrix/AppActiveMatrixDelegate;->getVisibleScene()Ljava/lang/String;
@@ -98,14 +94,12 @@
 .method public onActivityStopped(Landroid/app/Activity;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/tencent/matrix/AppActiveMatrixDelegate;->getTopActivityName()Ljava/lang/String;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/tencent/matrix/AppActiveMatrixDelegate$c;->a:Lcom/tencent/matrix/AppActiveMatrixDelegate;
 
     invoke-virtual {p1}, Lcom/tencent/matrix/AppActiveMatrixDelegate;->getVisibleScene()Ljava/lang/String;
@@ -137,7 +131,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -156,7 +149,6 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/tencent/matrix/AppActiveMatrixDelegate$c;->a:Lcom/tencent/matrix/AppActiveMatrixDelegate;
 
     invoke-static {p1}, Lcom/tencent/matrix/AppActiveMatrixDelegate;->access$100(Lcom/tencent/matrix/AppActiveMatrixDelegate;)Z
@@ -165,7 +157,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/tencent/matrix/AppActiveMatrixDelegate$c;->a:Lcom/tencent/matrix/AppActiveMatrixDelegate;
 
     invoke-static {p1}, Lcom/tencent/matrix/AppActiveMatrixDelegate;->access$600(Lcom/tencent/matrix/AppActiveMatrixDelegate;)Ljava/lang/String;

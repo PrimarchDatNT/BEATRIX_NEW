@@ -29,7 +29,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p1, "this.append(obj)"
@@ -60,7 +59,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -70,7 +68,6 @@
 
     aget-object v2, p1, v1
 
-    .line 2
     invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v1, v1, 0x1
@@ -102,7 +99,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -112,7 +108,6 @@
 
     aget-object v2, p1, v1
 
-    .line 2
     invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v1, v1, 0x1
@@ -134,7 +129,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string v0, "append(\'\\n\')"
@@ -153,7 +147,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string p1, "append(value)"
@@ -180,7 +173,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     const-string p1, "append(value)"
@@ -207,7 +199,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p1, "append(value)"
@@ -234,7 +225,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string p1, "append(value)"
@@ -261,7 +251,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
     const-string p1, "append(value)"
@@ -288,7 +277,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append([C)Ljava/lang/StringBuilder;
 
     const-string p1, "append(value)"
@@ -327,7 +315,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0, p0}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -362,7 +349,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

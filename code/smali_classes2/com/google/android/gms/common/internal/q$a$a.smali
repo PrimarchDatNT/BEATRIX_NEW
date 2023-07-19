@@ -22,7 +22,6 @@
 
     const-string v0, "com.google.android.gms.common.internal.IAccountAccessor"
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lf/f/b/b/h/b/a;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
 
     return-void
@@ -38,19 +37,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lf/f/b/b/h/b/a;->s()Landroid/os/Parcel;
 
     move-result-object v0
 
     const/4 v1, 0x2
 
-    .line 2
     invoke-virtual {p0, v1, v0}, Lf/f/b/b/h/b/a;->Z(ILandroid/os/Parcel;)Landroid/os/Parcel;
 
     move-result-object v0
 
-    .line 3
     sget-object v1, Landroid/accounts/Account;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-static {v0, v1}, Lf/f/b/b/h/b/c;->b(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
@@ -59,7 +55,6 @@
 
     check-cast v1, Landroid/accounts/Account;
 
-    .line 4
     invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
 
     return-object v1

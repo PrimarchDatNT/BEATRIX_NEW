@@ -203,7 +203,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v2, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->label:I
 
     const/4 v3, 0x1
@@ -264,7 +263,6 @@
 
     goto/16 :goto_6
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -274,27 +272,23 @@
 
     throw v0
 
-    .line 3
     :cond_1
     invoke-static/range {p1 .. p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     iget-object v2, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->p$:Lcotlinx/coroutines/m0;
 
-    .line 4
     iget-object v4, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$first:Lcotlinx/coroutines/flow/d;
 
     invoke-static {v2, v4}, Lcotlinx/coroutines/flow/internal/CombineKt;->b(Lcotlinx/coroutines/m0;Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/channels/y;
 
     move-result-object v4
 
-    .line 5
     iget-object v5, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$second:Lcotlinx/coroutines/flow/d;
 
     invoke-static {v2, v5}, Lcotlinx/coroutines/flow/internal/CombineKt;->b(Lcotlinx/coroutines/m0;Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/channels/y;
 
     move-result-object v5
 
-    .line 6
     new-instance v6, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v6}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -303,14 +297,12 @@
 
     iput-object v7, v6, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 7
     new-instance v8, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v8}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     iput-object v7, v8, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 8
     new-instance v7, Lcotlin/jvm/internal/Ref$BooleanRef;
 
     invoke-direct {v7}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
@@ -319,7 +311,6 @@
 
     iput-boolean v9, v7, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    .line 9
     new-instance v10, Lcotlin/jvm/internal/Ref$BooleanRef;
 
     invoke-direct {v10}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
@@ -344,7 +335,6 @@
 
     move-object v10, v4
 
-    .line 10
     :goto_0
     iget-boolean v0, v15, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
@@ -356,13 +346,11 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object v0
 
-    .line 12
     :cond_3
     :goto_1
     iput-object v9, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$0:Ljava/lang/Object;
@@ -383,12 +371,10 @@
 
     iput v3, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->label:I
 
-    .line 13
     new-instance v7, Lcotlinx/coroutines/selects/b;
 
     invoke-direct {v7, v8}, Lcotlinx/coroutines/selects/b;-><init>(Lcotlin/coroutines/c;)V
 
-    .line 14
     :try_start_0
     iget-boolean v0, v15, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
@@ -435,7 +421,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_4
     invoke-interface/range {v19 .. v19}, Lcotlinx/coroutines/channels/y;->K()Lcotlinx/coroutines/selects/d;
 
@@ -476,7 +461,6 @@
 
     invoke-interface {v3, v0, v4}, Lcotlinx/coroutines/selects/a;->x(Lcotlinx/coroutines/selects/d;Lcotlin/jvm/u/p;)V
 
-    .line 16
     :goto_2
     iget-boolean v0, v14, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
@@ -506,7 +490,6 @@
 
     goto :goto_5
 
-    .line 17
     :cond_5
     invoke-interface/range {v20 .. v20}, Lcotlinx/coroutines/channels/y;->K()Lcotlinx/coroutines/selects/d;
 
@@ -574,17 +557,14 @@
     :goto_3
     move-object/from16 v16, v13
 
-    .line 18
     :goto_4
     invoke-virtual {v3, v0}, Lcotlinx/coroutines/selects/b;->n0(Ljava/lang/Throwable;)V
 
-    .line 19
     :goto_5
     invoke-virtual {v3}, Lcotlinx/coroutines/selects/b;->m0()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 20
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1

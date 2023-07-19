@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/library/abtest/l/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/l/i$b;->a:Lcom/meitu/library/abtest/l/i;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/l/i$b;->a:Lcom/meitu/library/abtest/l/i;
 
     invoke-static {v1}, Lcom/meitu/library/abtest/l/i;->e(Lcom/meitu/library/abtest/l/i;)Lcom/meitu/library/abtest/l/i$c;
@@ -51,7 +49,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/abtest/l/i$b;->a:Lcom/meitu/library/abtest/l/i;
 
     invoke-static {v2}, Lcom/meitu/library/abtest/l/i;->c(Lcom/meitu/library/abtest/l/i;)Ljava/io/File;
@@ -72,7 +69,6 @@
 
     if-eqz v6, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/library/abtest/l/i$b;->a:Lcom/meitu/library/abtest/l/i;
 
     invoke-static {v2}, Lcom/meitu/library/abtest/l/i;->c(Lcom/meitu/library/abtest/l/i;)Ljava/io/File;
@@ -85,12 +81,10 @@
 
     invoke-static {v2, v3, v4}, Lcom/meitu/library/abtest/l/i;->b(Lcom/meitu/library/abtest/l/i;J)J
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/library/abtest/l/i$b;->a:Lcom/meitu/library/abtest/l/i;
 
     invoke-interface {v1, v2}, Lcom/meitu/library/abtest/l/i$c;->f(Lcom/meitu/library/abtest/l/i;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

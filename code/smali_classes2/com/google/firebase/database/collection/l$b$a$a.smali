@@ -36,12 +36,10 @@
 .method constructor <init>(Lcom/google/firebase/database/collection/l$b$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/database/collection/l$b$a$a;->b:Lcom/google/firebase/database/collection/l$b$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/firebase/database/collection/l$b$a;->b(Lcom/google/firebase/database/collection/l$b$a;)I
 
     move-result p1
@@ -58,7 +56,6 @@
 .method public a()Lcom/google/firebase/database/collection/l$b$b;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/l$b$a$a;->b:Lcom/google/firebase/database/collection/l$b$a;
 
     invoke-static {v0}, Lcom/google/firebase/database/collection/l$b$a;->c(Lcom/google/firebase/database/collection/l$b$a;)J
@@ -75,7 +72,6 @@
 
     and-long/2addr v0, v4
 
-    .line 2
     new-instance v2, Lcom/google/firebase/database/collection/l$b$b;
 
     invoke-direct {v2}, Lcom/google/firebase/database/collection/l$b$b;-><init>()V
@@ -93,13 +89,11 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     :goto_0
     iput-boolean v0, v2, Lcom/google/firebase/database/collection/l$b$b;->a:Z
 
     const-wide/high16 v0, 0x4000000000000000L    # 2.0
 
-    .line 4
     iget v4, p0, Lcom/google/firebase/database/collection/l$b$a$a;->a:I
 
     int-to-double v4, v4
@@ -112,7 +106,6 @@
 
     iput v0, v2, Lcom/google/firebase/database/collection/l$b$b;->b:I
 
-    .line 5
     iget v0, p0, Lcom/google/firebase/database/collection/l$b$a$a;->a:I
 
     sub-int/2addr v0, v3
@@ -125,7 +118,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/database/collection/l$b$a$a;->a:I
 
     if-ltz v0, :cond_0
@@ -144,7 +136,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/l$b$a$a;->a()Lcom/google/firebase/database/collection/l$b$b;
 
     move-result-object v0

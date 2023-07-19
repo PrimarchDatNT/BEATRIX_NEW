@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->h()I
 
     move-result v1
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->W()Z
 
     move-result v2
@@ -77,7 +75,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment$e;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;
 
@@ -89,7 +86,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment$e;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;->I()Lcom/commsource/beautyplus/f0/c9;
@@ -110,7 +106,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/XSeekBar;->setDefaultPosition(F)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -124,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/repository/child/makeup/h;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment$e;->a(Lcom/commsource/repository/child/makeup/h;)V

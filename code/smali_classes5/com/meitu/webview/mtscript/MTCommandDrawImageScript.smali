@@ -19,7 +19,6 @@
 .method public constructor <init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/webview/mtscript/i;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
     return-void
@@ -34,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -53,7 +51,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v3, v1, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$Model;->width:I
 
     iget v4, v1, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$Model;->height:I
@@ -64,29 +61,24 @@
 
     move-result-object v3
 
-    .line 2
     new-instance v4, Landroid/graphics/Canvas;
 
     invoke-direct {v4, v3}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 3
     iget-object v5, v1, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$Model;->data:Ljava/util/List;
 
-    .line 4
     new-instance v6, Landroid/graphics/Paint;
 
     invoke-direct {v6}, Landroid/graphics/Paint;-><init>()V
 
     if-eqz v5, :cond_2
 
-    .line 5
     invoke-interface {v5}, Ljava/util/List;->isEmpty()Z
 
     move-result v7
 
     if-nez v7, :cond_2
 
-    .line 6
     invoke-interface {v5}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -104,7 +96,6 @@
 
     check-cast v7, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$Model$DrawImageModel;
 
-    .line 7
     iget-object v8, v7, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$Model$DrawImageModel;->url:Ljava/lang/String;
 
     invoke-static {v8}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
@@ -115,7 +106,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object v8, v7, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$Model$DrawImageModel;->url:Ljava/lang/String;
 
@@ -127,7 +117,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     new-instance v9, Landroid/graphics/RectF;
 
@@ -147,7 +136,6 @@
 
     int-to-float v11, v11
 
-    .line 10
     invoke-virtual {v8}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v12
@@ -180,7 +168,6 @@
 
     int-to-float v13, v13
 
-    .line 11
     invoke-virtual {v8}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v14
@@ -191,7 +178,6 @@
 
     invoke-direct {v9, v10, v11, v12, v13}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    .line 12
     new-instance v10, Landroid/graphics/RectF;
 
     iget v11, v7, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$Model$DrawImageModel;->dx:I
@@ -236,7 +222,6 @@
 
     invoke-direct {v10, v12, v15, v1, v7}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    .line 13
     new-instance v1, Landroid/graphics/Rect;
 
     iget v2, v9, Landroid/graphics/RectF;->left:F
@@ -257,10 +242,8 @@
 
     invoke-direct {v1, v2, v7, v11, v9}, Landroid/graphics/Rect;-><init>(IIII)V
 
-    .line 14
     invoke-virtual {v4, v8, v1, v10, v6}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 15
     invoke-static {v8}, Lcom/meitu/library/p/e/a;->T(Landroid/graphics/Bitmap;)V
 
     move-object/from16 v1, p1
@@ -269,25 +252,21 @@
 
     goto/16 :goto_0
 
-    .line 16
     :cond_2
     invoke-static {}, Lcom/meitu/webview/utils/b;->c()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 17
     sget-object v2, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
     invoke-static {v3, v1, v2}, Lcom/meitu/library/p/e/a;->X(Landroid/graphics/Bitmap;Ljava/lang/String;Landroid/graphics/Bitmap$CompressFormat;)Z
 
     move-result v2
 
-    .line 18
     invoke-static {v3}, Lcom/meitu/library/p/e/a;->T(Landroid/graphics/Bitmap;)V
 
     if-eqz v2, :cond_3
 
-    .line 19
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/webview/mtscript/i;->p()Ljava/lang/String;
 
     move-result-object v2
@@ -318,7 +297,6 @@
 
     goto :goto_1
 
-    .line 20
     :cond_3
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/webview/mtscript/i;->p()Ljava/lang/String;
 
@@ -335,7 +313,6 @@
     :goto_1
     const v1, 0xeab0
 
-    .line 21
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -348,7 +325,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->D()Z
 
     move-result v1
@@ -361,15 +337,12 @@
 
     const-string v3, "current url is not in WHITE LIST."
 
-    .line 2
     invoke-static {v1, v3}, Lcom/meitu/webview/utils/g;->y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$a;
 
@@ -379,7 +352,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/i;->E(Lcom/meitu/webview/mtscript/i$c;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2

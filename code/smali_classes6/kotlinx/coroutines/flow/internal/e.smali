@@ -16,7 +16,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/ArithmeticException;
 
@@ -46,7 +45,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/flow/internal/AbortFlowException;->getOwner()Lcotlinx/coroutines/flow/e;
 
     move-result-object v0

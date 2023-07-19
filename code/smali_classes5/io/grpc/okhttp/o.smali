@@ -11,10 +11,8 @@
 .method constructor <init>(Lokio/Buffer;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/internal/e;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/okhttp/o;->a:Lokio/Buffer;
 
     return-void
@@ -25,7 +23,6 @@
 .method public J5(Ljava/nio/ByteBuffer;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -41,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/o;->a:Lokio/Buffer;
 
     int-to-long v1, p2
@@ -54,19 +50,16 @@
 .method public M1(I)Lio/grpc/internal/a2;
     .locals 4
 
-    .line 1
     new-instance v0, Lokio/Buffer;
 
     invoke-direct {v0}, Lokio/Buffer;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lio/grpc/okhttp/o;->a:Lokio/Buffer;
 
     int-to-long v2, p1
 
     invoke-virtual {v0, v1, v2, v3}, Lokio/Buffer;->write(Lokio/Buffer;J)V
 
-    .line 3
     new-instance p1, Lio/grpc/okhttp/o;
 
     invoke-direct {p1, v0}, Lio/grpc/okhttp/o;-><init>(Lokio/Buffer;)V
@@ -77,7 +70,6 @@
 .method public Z()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/o;->a:Lokio/Buffer;
 
     invoke-virtual {v0}, Lokio/Buffer;->size()J
@@ -92,7 +84,6 @@
 .method public close()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/o;->a:Lokio/Buffer;
 
     invoke-virtual {v0}, Lokio/Buffer;->clear()V
@@ -106,7 +97,6 @@
     :goto_0
     if-lez p3, :cond_1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/o;->a:Lokio/Buffer;
 
     invoke-virtual {v0, p1, p2, p3}, Lokio/Buffer;->read([BII)I
@@ -123,7 +113,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IndexOutOfBoundsException;
 
@@ -156,7 +145,6 @@
 .method public readUnsignedByte()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/o;->a:Lokio/Buffer;
 
     invoke-virtual {v0}, Lokio/Buffer;->readByte()B
@@ -171,7 +159,6 @@
 .method public skipBytes(I)V
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/o;->a:Lokio/Buffer;
 
@@ -186,7 +173,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
 
     invoke-virtual {p1}, Ljava/io/EOFException;->getMessage()Ljava/lang/String;

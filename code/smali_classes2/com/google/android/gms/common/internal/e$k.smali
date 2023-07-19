@@ -31,13 +31,10 @@
     .annotation build Landroidx/annotation/BinderThread;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/e$k;->h:Lcom/google/android/gms/common/internal/e;
 
-    .line 2
     invoke-direct {p0, p1, p2, p4}, Lcom/google/android/gms/common/internal/e$f;-><init>(Lcom/google/android/gms/common/internal/e;ILandroid/os/Bundle;)V
 
-    .line 3
     iput-object p3, p0, Lcom/google/android/gms/common/internal/e$k;->g:Landroid/os/IBinder;
 
     return-void
@@ -48,7 +45,6 @@
 .method protected final f(Lcom/google/android/gms/common/ConnectionResult;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$k;->h:Lcom/google/android/gms/common/internal/e;
 
     invoke-static {v0}, Lcom/google/android/gms/common/internal/e;->g0(Lcom/google/android/gms/common/internal/e;)Lcom/google/android/gms/common/internal/e$b;
@@ -57,7 +53,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$k;->h:Lcom/google/android/gms/common/internal/e;
 
     invoke-static {v0}, Lcom/google/android/gms/common/internal/e;->g0(Lcom/google/android/gms/common/internal/e;)Lcom/google/android/gms/common/internal/e$b;
@@ -66,7 +61,6 @@
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/common/internal/e$b;->a1(Lcom/google/android/gms/common/ConnectionResult;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$k;->h:Lcom/google/android/gms/common/internal/e;
 
@@ -82,7 +76,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     iget-object v2, p0, Lcom/google/android/gms/common/internal/e$k;->g:Landroid/os/IBinder;
 
@@ -92,7 +85,6 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     iget-object v3, p0, Lcom/google/android/gms/common/internal/e$k;->h:Lcom/google/android/gms/common/internal/e;
 
     invoke-virtual {v3}, Lcom/google/android/gms/common/internal/e;->r()Ljava/lang/String;
@@ -105,7 +97,6 @@
 
     if-nez v3, :cond_0
 
-    .line 3
     iget-object v3, p0, Lcom/google/android/gms/common/internal/e$k;->h:Lcom/google/android/gms/common/internal/e;
 
     invoke-virtual {v3}, Lcom/google/android/gms/common/internal/e;->r()Ljava/lang/String;
@@ -156,7 +147,6 @@
 
     return v1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$k;->h:Lcom/google/android/gms/common/internal/e;
 
@@ -168,7 +158,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 5
     iget-object v2, p0, Lcom/google/android/gms/common/internal/e$k;->h:Lcom/google/android/gms/common/internal/e;
 
     const/4 v3, 0x2
@@ -185,14 +174,12 @@
 
     const/4 v3, 0x3
 
-    .line 6
     invoke-static {v2, v3, v4, v0}, Lcom/google/android/gms/common/internal/e;->Z(Lcom/google/android/gms/common/internal/e;IILandroid/os/IInterface;)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 7
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$k;->h:Lcom/google/android/gms/common/internal/e;
 
@@ -200,14 +187,12 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/e;->P(Lcom/google/android/gms/common/internal/e;Lcom/google/android/gms/common/ConnectionResult;)Lcom/google/android/gms/common/ConnectionResult;
 
-    .line 8
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$k;->h:Lcom/google/android/gms/common/internal/e;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/internal/e;->m()Landroid/os/Bundle;
 
     move-result-object v0
 
-    .line 9
     iget-object v1, p0, Lcom/google/android/gms/common/internal/e$k;->h:Lcom/google/android/gms/common/internal/e;
 
     invoke-static {v1}, Lcom/google/android/gms/common/internal/e;->e0(Lcom/google/android/gms/common/internal/e;)Lcom/google/android/gms/common/internal/e$a;
@@ -216,7 +201,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 10
     iget-object v1, p0, Lcom/google/android/gms/common/internal/e$k;->h:Lcom/google/android/gms/common/internal/e;
 
     invoke-static {v1}, Lcom/google/android/gms/common/internal/e;->e0(Lcom/google/android/gms/common/internal/e;)Lcom/google/android/gms/common/internal/e$a;
@@ -236,7 +220,6 @@
     :catch_0
     const-string v2, "service probably died"
 
-    .line 11
     invoke-static {v0, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return v1

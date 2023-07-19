@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/jaegertracing/thriftjava/Batch$_Fields;->values()[Lio/jaegertracing/thriftjava/Batch$_Fields;
 
     move-result-object v0

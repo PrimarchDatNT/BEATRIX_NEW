@@ -16,7 +16,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,12 +24,10 @@
 .method public static a(Lorg/jsoup/select/c;Lorg/jsoup/nodes/Element;)Lorg/jsoup/select/Elements;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/jsoup/select/Elements;
 
     invoke-direct {v0}, Lorg/jsoup/select/Elements;-><init>()V
 
-    .line 2
     new-instance v1, Lorg/jsoup/select/a$a;
 
     invoke-direct {v1, p1, v0, p0}, Lorg/jsoup/select/a$a;-><init>(Lorg/jsoup/nodes/Element;Lorg/jsoup/select/Elements;Lorg/jsoup/select/c;)V
@@ -43,15 +40,12 @@
 .method public static b(Lorg/jsoup/select/c;Lorg/jsoup/nodes/Element;)Lorg/jsoup/nodes/Element;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/jsoup/select/a$b;
 
     invoke-direct {v0, p1, p0}, Lorg/jsoup/select/a$b;-><init>(Lorg/jsoup/nodes/Element;Lorg/jsoup/select/c;)V
 
-    .line 2
     invoke-static {v0, p1}, Lorg/jsoup/select/d;->a(Lorg/jsoup/select/NodeFilter;Lorg/jsoup/nodes/j;)Lorg/jsoup/select/NodeFilter$FilterResult;
 
-    .line 3
     invoke-static {v0}, Lorg/jsoup/select/a$b;->c(Lorg/jsoup/select/a$b;)Lorg/jsoup/nodes/Element;
 
     move-result-object p0

@@ -125,7 +125,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/channels/b0;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/channels/c$d;->d:Ljava/lang/Object;
@@ -144,7 +143,6 @@
 .method public dispose()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/internal/m;->X()Z
 
     return-void
@@ -153,7 +151,6 @@
 .method public f0()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/c$d;->p:Lcotlin/jvm/u/p;
 
     iget-object v1, p0, Lcotlinx/coroutines/channels/c$d;->f:Lcotlinx/coroutines/channels/c;
@@ -174,7 +171,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/c$d;->d:Ljava/lang/Object;
 
     return-object v0
@@ -194,7 +190,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/c$d;->g:Lcotlinx/coroutines/selects/f;
 
     invoke-interface {v0}, Lcotlinx/coroutines/selects/f;->o()Z
@@ -203,7 +198,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/channels/c$d;->g:Lcotlinx/coroutines/selects/f;
 
     invoke-virtual {p1}, Lcotlinx/coroutines/channels/p;->m0()Ljava/lang/Throwable;
@@ -225,7 +219,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/c$d;->g:Lcotlinx/coroutines/selects/f;
 
     invoke-interface {v0, p1}, Lcotlinx/coroutines/selects/f;->m(Lcotlinx/coroutines/internal/m$d;)Ljava/lang/Object;
@@ -242,7 +235,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

@@ -72,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroid/text/TextPaint;
 
     const/4 v2, 0x1
@@ -81,7 +80,6 @@
 
     sget v2, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v2
@@ -90,7 +88,6 @@
 
     const/high16 v2, 0x41400000    # 12.0f
 
-    .line 4
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -99,7 +96,6 @@
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -112,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mProgressPaint$2;->invoke()Landroid/text/TextPaint;
 
     move-result-object v1

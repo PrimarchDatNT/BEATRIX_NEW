@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/google/common/base/w$c;Lcom/google/common/base/w;Ljava/lang/CharSequence;Lcom/google/common/base/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/base/w$c$a;->K:Lcom/google/common/base/w$c;
 
     iput-object p4, p0, Lcom/google/common/base/w$c$a;->J:Lcom/google/common/base/d;
@@ -39,7 +38,6 @@
 .method public e(I)I
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/common/base/w$c$a;->J:Lcom/google/common/base/d;
 
     invoke-virtual {p1}, Lcom/google/common/base/d;->a()I
@@ -52,7 +50,6 @@
 .method public f(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/w$c$a;->J:Lcom/google/common/base/d;
 
     invoke-virtual {v0, p1}, Lcom/google/common/base/d;->c(I)Z

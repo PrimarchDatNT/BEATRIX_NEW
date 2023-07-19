@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/sdk/imp/CommonAdControllerCenter;Lcom/sdk/imp/internal/loader/Ad;Ljava/util/List;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/CommonAdControllerCenter$a;->c:Lcom/sdk/imp/CommonAdControllerCenter;
 
     iput-object p2, p0, Lcom/sdk/imp/CommonAdControllerCenter$a;->a:Lcom/sdk/imp/internal/loader/Ad;
@@ -52,7 +51,6 @@
 .method public b(I)V
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -77,7 +75,6 @@
 
     invoke-static {v0, p1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/CommonAdControllerCenter$a;->c:Lcom/sdk/imp/CommonAdControllerCenter;
 
     iget-object v0, p0, Lcom/sdk/imp/CommonAdControllerCenter$a;->b:Ljava/util/List;
@@ -90,7 +87,6 @@
 .method public c(Landroid/view/View;)V
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -115,12 +111,10 @@
 
     invoke-static {v0, p1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/CommonAdControllerCenter$a;->c:Lcom/sdk/imp/CommonAdControllerCenter;
 
     invoke-static {p1}, Lcom/sdk/imp/CommonAdControllerCenter;->a(Lcom/sdk/imp/CommonAdControllerCenter;)I
 
-    .line 3
     iget-object p1, p0, Lcom/sdk/imp/CommonAdControllerCenter$a;->c:Lcom/sdk/imp/CommonAdControllerCenter;
 
     iget-object v0, p0, Lcom/sdk/imp/CommonAdControllerCenter$a;->b:Ljava/util/List;

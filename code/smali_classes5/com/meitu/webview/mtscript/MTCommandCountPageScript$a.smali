@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/MTCommandCountPageScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandCountPageScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandCountPageScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandCountPageScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandCountPageScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandCountPageScript$Model;)V
@@ -64,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandCountPageScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandCountPageScript;
 
     invoke-virtual {v1}, Lcom/meitu/webview/mtscript/i;->A()Lcom/meitu/webview/core/CommonWebView;
@@ -73,14 +70,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/webview/core/CommonWebView;->getWebPageTimeEventListener()Lf/k/o0/c/f;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v2, p1, Lcom/meitu/webview/mtscript/MTCommandCountPageScript$Model;->type:Ljava/lang/String;
 
     const-string v3, "start"
@@ -91,20 +86,17 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     iget-object p1, p1, Lcom/meitu/webview/mtscript/MTCommandCountPageScript$Model;->page_id:Ljava/lang/String;
 
     invoke-interface {v1, p1}, Lf/k/o0/c/f;->a(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p1, Lcom/meitu/webview/mtscript/MTCommandCountPageScript$Model;->page_id:Ljava/lang/String;
 
     invoke-interface {v1, p1}, Lf/k/o0/c/f;->b(Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandCountPageScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandCountPageScript;
@@ -115,7 +107,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

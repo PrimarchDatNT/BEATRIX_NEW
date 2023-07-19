@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -90,10 +89,8 @@
 
     const/4 v3, 0x0
 
-    .line 2
     invoke-static {p1, v2, v3, v1, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$2;->this$0:Lcom/commsource/video/view/XVideoContainer;
 
     invoke-virtual {p1}, Lcom/commsource/video/view/XVideoContainer;->getDismissCover()Ljava/lang/Runnable;
@@ -102,7 +99,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$2;->this$0:Lcom/commsource/video/view/XVideoContainer;
 
     invoke-virtual {p1}, Lcom/commsource/video/view/XVideoContainer;->getDismissCover()Ljava/lang/Runnable;
@@ -111,7 +107,6 @@
 
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

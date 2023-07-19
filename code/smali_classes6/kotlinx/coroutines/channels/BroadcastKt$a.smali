@@ -23,7 +23,6 @@
 .method public constructor <init>(Lcotlin/coroutines/CoroutineContext$b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext$b;)V
 
     return-void

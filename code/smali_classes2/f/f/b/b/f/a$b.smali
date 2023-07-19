@@ -33,7 +33,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lf/f/b/b/f/a;-><init>(ILjava/lang/String;Ljava/lang/Object;Lf/f/b/b/f/f;)V
 
     return-void
@@ -42,7 +41,6 @@
 .method private final j(Lf/f/b/b/f/h;)Ljava/lang/Integer;
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lf/f/b/b/f/a;->f()Ljava/lang/String;
 
@@ -74,7 +72,6 @@
 
     return-object p1
 
-    .line 2
     :catch_0
     invoke-virtual {p0}, Lf/f/b/b/f/a;->i()Ljava/lang/Object;
 
@@ -90,7 +87,6 @@
 .method public final synthetic h(Lf/f/b/b/f/h;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lf/f/b/b/f/a$b;->j(Lf/f/b/b/f/h;)Ljava/lang/Integer;
 
     move-result-object p1

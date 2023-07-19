@@ -55,15 +55,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/formula/FormulaRepo$formulaComparator$2$a;
 
     const-string v2, "beautyplus_template_tag"
 
-    .line 3
     invoke-direct {v1, p0, v2}, Lcom/commsource/studio/formula/FormulaRepo$formulaComparator$2$a;-><init>(Lcom/commsource/studio/formula/FormulaRepo$formulaComparator$2;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -76,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/formula/FormulaRepo$formulaComparator$2;->invoke()Lcom/commsource/studio/formula/FormulaRepo$formulaComparator$2$a;
 
     move-result-object v1

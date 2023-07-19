@@ -48,14 +48,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     sput-object v1, Lf/k/g0/a;->e:Ljava/lang/Object;
 
-    .line 2
     new-instance v1, Lf/k/g0/a$e;
 
     const/4 v2, 0x0
@@ -72,10 +70,8 @@
 .method protected constructor <init>(Landroid/content/Context;Lf/k/g0/b;)V
     .locals 11
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     const/4 v1, 0x3
@@ -84,7 +80,6 @@
 
     iput-object v0, p0, Lf/k/g0/a;->a:Ljava/util/Map;
 
-    .line 3
     invoke-static {p1}, Lf/k/g0/f/d;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -93,7 +88,6 @@
 
     iput-object v1, p0, Lf/k/g0/a;->b:Landroid/content/Context;
 
-    .line 4
     invoke-static {p2}, Lf/k/g0/f/d;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -102,7 +96,6 @@
 
     iput-object p2, p0, Lf/k/g0/a;->c:Lf/k/g0/b;
 
-    .line 5
     new-instance p2, Lf/k/g0/f/c;
 
     new-instance v1, Lf/k/g0/a$a;
@@ -111,7 +104,6 @@
 
     invoke-direct {p2, v1}, Lf/k/g0/f/c;-><init>(Lf/k/g0/i/a;)V
 
-    .line 6
     new-instance v7, Lf/k/g0/f/c;
 
     new-instance v1, Lf/k/g0/a$b;
@@ -120,7 +112,6 @@
 
     invoke-direct {v7, v1}, Lf/k/g0/f/c;-><init>(Lf/k/g0/i/a;)V
 
-    .line 7
     new-instance v8, Lf/k/g0/f/c;
 
     new-instance v1, Lf/k/g0/a$c;
@@ -129,7 +120,6 @@
 
     invoke-direct {v8, v1}, Lf/k/g0/f/c;-><init>(Lf/k/g0/i/a;)V
 
-    .line 8
     new-instance v9, Lf/k/g0/f/c;
 
     new-instance v10, Lf/k/g0/a$d;
@@ -150,22 +140,18 @@
 
     invoke-direct {v9, v10}, Lf/k/g0/f/c;-><init>(Lf/k/g0/i/a;)V
 
-    .line 9
     const-class p1, Lf/k/g0/h/d;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     const-class p1, Lcom/meitu/remote/abt/c/a;
 
     invoke-interface {v0, p1, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     const-class p1, Lf/k/g0/g/a;
 
     invoke-interface {v0, p1, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     const-class p1, Lcom/meitu/remote/config/d;
 
     invoke-interface {v0, p1, v9}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -180,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/g0/a;->g:Lf/k/g0/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -195,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/g0/a;->e:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -210,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/g0/a;->h()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -227,28 +210,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/g0/a;->g:Lf/k/g0/a;
 
     if-nez v1, :cond_1
 
-    .line 2
     sget-object v1, Lf/k/g0/a;->e:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lf/k/g0/a;->g:Lf/k/g0/a;
 
     if-eqz v2, :cond_0
 
-    .line 4
     monitor-exit v1
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v2, Ljava/lang/IllegalStateException;
 
@@ -260,7 +238,6 @@
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-static {}, Lf/k/g0/e/e/e;->a()Ljava/lang/String;
 
     move-result-object v4
@@ -284,7 +261,6 @@
     :catchall_0
     move-exception v2
 
-    .line 7
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -293,7 +269,6 @@
 
     throw v2
 
-    .line 8
     :cond_1
     :goto_0
     sget-object v1, Lf/k/g0/a;->g:Lf/k/g0/a;
@@ -310,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/a;->b:Landroid/content/Context;
 
     invoke-static {v1}, Lf/k/g0/e/e/g;->a(Landroid/content/Context;)Z
@@ -321,18 +295,15 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/k/g0/a;->b:Landroid/content/Context;
 
     invoke-static {v1}, Lf/k/g0/a$f;->a(Landroid/content/Context;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lf/k/g0/a;->k()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -352,23 +323,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/g0/a;->g:Lf/k/g0/a;
 
     if-nez v1, :cond_2
 
-    .line 2
     sget-object v1, Lf/k/g0/a;->e:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lf/k/g0/a;->g:Lf/k/g0/a;
 
     if-nez v2, :cond_1
 
-    .line 4
     invoke-static {p0}, Lf/k/g0/b;->g(Landroid/content/Context;)Lf/k/g0/b;
 
     move-result-object v2
@@ -379,12 +346,10 @@
 
     const-string v2, "RemoteApp failed to initialize because no default options were found."
 
-    .line 5
     invoke-static {p0, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     const/4 p0, 0x0
 
-    .line 6
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -393,7 +358,6 @@
 
     return-object p0
 
-    .line 7
     :cond_0
     :try_start_1
     invoke-static {p0, v2}, Lf/k/g0/a;->j(Landroid/content/Context;Lf/k/g0/b;)Lf/k/g0/a;
@@ -402,7 +366,6 @@
 
     sput-object p0, Lf/k/g0/a;->g:Lf/k/g0/a;
 
-    .line 8
     :cond_1
     monitor-exit v1
 
@@ -419,7 +382,6 @@
 
     throw p0
 
-    .line 9
     :cond_2
     :goto_0
     sget-object p0, Lf/k/g0/a;->g:Lf/k/g0/a;
@@ -446,7 +408,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
@@ -455,24 +416,20 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
-    .line 3
     :goto_0
     sget-object v1, Lf/k/g0/a;->g:Lf/k/g0/a;
 
     if-nez v1, :cond_2
 
-    .line 4
     sget-object v1, Lf/k/g0/a;->e:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 5
     :try_start_0
     sget-object v2, Lf/k/g0/a;->g:Lf/k/g0/a;
 
@@ -480,17 +437,14 @@
 
     const-string v2, "Application context cannot be null."
 
-    .line 6
     invoke-static {p0, v2}, Lf/k/g0/f/d;->c(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 7
     new-instance v2, Lf/k/g0/a;
 
     invoke-direct {v2, p0, p1}, Lf/k/g0/a;-><init>(Landroid/content/Context;Lf/k/g0/b;)V
 
     sput-object v2, Lf/k/g0/a;->g:Lf/k/g0/a;
 
-    .line 8
     :cond_1
     monitor-exit v1
 
@@ -507,14 +461,12 @@
 
     throw p0
 
-    .line 9
     :cond_2
     :goto_1
     sget-object p0, Lf/k/g0/a;->g:Lf/k/g0/a;
 
     invoke-direct {p0}, Lf/k/g0/a;->h()V
 
-    .line 10
     sget-object p0, Lf/k/g0/a;->g:Lf/k/g0/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -529,7 +481,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -559,7 +510,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/a;->a:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -586,7 +536,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/a;->b:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -603,7 +552,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/a;->c:Lf/k/g0/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

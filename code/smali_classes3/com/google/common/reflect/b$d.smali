@@ -27,10 +27,8 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/ClassLoader;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -39,7 +37,6 @@
 
     iput-object p1, p0, Lcom/google/common/reflect/b$d;->a:Ljava/lang/String;
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -56,21 +53,18 @@
 
     const-string v0, ".class"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/common/reflect/b$b;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/reflect/b$b;-><init>(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/common/reflect/b$d;
 
@@ -84,7 +78,6 @@
 .method public final a()Lcom/google/common/io/f;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/reflect/b$d;->e()Ljava/net/URL;
 
     move-result-object v0
@@ -99,7 +92,6 @@
 .method public final b(Ljava/nio/charset/Charset;)Lcom/google/common/io/j;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/reflect/b$d;->e()Ljava/net/URL;
 
     move-result-object v0
@@ -114,7 +106,6 @@
 .method public final c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/b$d;->a:Ljava/lang/String;
 
     return-object v0
@@ -123,7 +114,6 @@
 .method public final e()Ljava/net/URL;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/b$d;->b:Ljava/lang/ClassLoader;
 
     iget-object v1, p0, Lcom/google/common/reflect/b$d;->a:Ljava/lang/String;
@@ -136,7 +126,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -150,17 +139,14 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/reflect/b$d;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/reflect/b$d;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/reflect/b$d;->a:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/google/common/reflect/b$d;->a:Ljava/lang/String;
@@ -186,7 +172,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/b$d;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -199,7 +184,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/b$d;->a:Ljava/lang/String;
 
     return-object v0

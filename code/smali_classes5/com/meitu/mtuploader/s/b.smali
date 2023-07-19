@@ -35,7 +35,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -48,12 +47,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getStatisticUploadBean()Lcom/meitu/mtuploader/s/a;
 
     move-result-object p0
@@ -61,7 +58,6 @@
     :try_start_0
     const-string v2, "file_size"
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/mtuploader/s/a;->e()J
 
     move-result-wide v3
@@ -70,7 +66,6 @@
 
     const-string v2, "chunk_size"
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/mtuploader/s/a;->a()I
 
     move-result v3
@@ -79,7 +74,6 @@
 
     const-string v2, "mode"
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/mtuploader/s/a;->f()I
 
     move-result v3
@@ -88,7 +82,6 @@
 
     const-string v2, "start_time"
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/mtuploader/s/a;->i()J
 
     move-result-wide v3
@@ -97,7 +90,6 @@
 
     const-string v2, "end_time"
 
-    .line 7
     invoke-virtual {p0}, Lcom/meitu/mtuploader/s/a;->c()J
 
     move-result-wide v3
@@ -106,7 +98,6 @@
 
     const-string v2, "upload_time"
 
-    .line 8
     invoke-virtual {p0}, Lcom/meitu/mtuploader/s/a;->l()J
 
     move-result-wide v3
@@ -115,7 +106,6 @@
 
     const-string v2, "result"
 
-    .line 9
     invoke-virtual {p0}, Lcom/meitu/mtuploader/s/a;->h()I
 
     move-result v3
@@ -124,7 +114,6 @@
 
     const-string v2, "domain"
 
-    .line 10
     invoke-virtual {p0}, Lcom/meitu/mtuploader/s/a;->b()Ljava/lang/String;
 
     move-result-object v3
@@ -133,7 +122,6 @@
 
     const-string v2, "token_app"
 
-    .line 11
     invoke-virtual {p0}, Lcom/meitu/mtuploader/s/a;->j()Ljava/lang/String;
 
     move-result-object v3
@@ -142,7 +130,6 @@
 
     const-string v2, "token_time"
 
-    .line 12
     invoke-virtual {p0}, Lcom/meitu/mtuploader/s/a;->k()J
 
     move-result-wide v3
@@ -151,7 +138,6 @@
 
     const-string v2, "progress"
 
-    .line 13
     invoke-virtual {p0}, Lcom/meitu/mtuploader/s/a;->g()I
 
     move-result v3
@@ -160,7 +146,6 @@
 
     const-string v2, "error_code"
 
-    .line 14
     invoke-virtual {p0}, Lcom/meitu/mtuploader/s/a;->d()Ljava/lang/String;
 
     move-result-object p0
@@ -169,7 +154,6 @@
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 15
     invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -181,7 +165,6 @@
     :catch_0
     move-exception p0
 
-    .line 16
     invoke-virtual {p0}, Lorg/json/JSONException;->getMessage()Ljava/lang/String;
 
     move-result-object p0
@@ -192,7 +175,6 @@
 
     const/4 p0, 0x0
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -205,14 +187,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/File;->length()J
 
     move-result-wide v1
@@ -226,10 +206,8 @@
 
     const-string v1, "The file does not exist"
 
-    .line 3
     invoke-static {p0, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-wide/16 v0, 0x0

@@ -75,7 +75,6 @@
 
     const-string v29, "firebase_campaign"
 
-    .line 1
     filled-new-array/range {v0 .. v29}, [Ljava/lang/String;
 
     move-result-object v0
@@ -142,7 +141,6 @@
 
     const-string v30, "_cmp"
 
-    .line 2
     filled-new-array/range {v1 .. v30}, [Ljava/lang/String;
 
     move-result-object v0
@@ -179,7 +177,6 @@
 
     const-string v15, "ecommerce_purchase"
 
-    .line 3
     filled-new-array/range {v1 .. v15}, [Ljava/lang/String;
 
     move-result-object v0
@@ -192,7 +189,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -201,7 +197,6 @@
 .method public static a(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/measurement/internal/o6;->b:[Ljava/lang/String;
 
     sget-object v1, Lcom/google/android/gms/measurement/internal/o6;->a:[Ljava/lang/String;
@@ -216,7 +211,6 @@
 .method public static b(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/measurement/internal/o6;->a:[Ljava/lang/String;
 
     sget-object v1, Lcom/google/android/gms/measurement/internal/o6;->b:[Ljava/lang/String;

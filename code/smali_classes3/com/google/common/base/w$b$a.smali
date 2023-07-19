@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/google/common/base/w$b;Lcom/google/common/base/w;Ljava/lang/CharSequence;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/base/w$b$a;->J:Lcom/google/common/base/w$b;
 
     invoke-direct {p0, p2, p3}, Lcom/google/common/base/w$g;-><init>(Lcom/google/common/base/w;Ljava/lang/CharSequence;)V
@@ -35,7 +34,6 @@
 .method public e(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/w$b$a;->J:Lcom/google/common/base/w$b;
 
     iget-object v0, v0, Lcom/google/common/base/w$b;->a:Ljava/lang/String;
@@ -52,7 +50,6 @@
 .method public f(I)I
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/w$b$a;->J:Lcom/google/common/base/w$b;
 
     iget-object v0, v0, Lcom/google/common/base/w$b;->a:Ljava/lang/String;
@@ -61,7 +58,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/base/w$g;->c:Ljava/lang/CharSequence;
 
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
@@ -78,7 +74,6 @@
     :goto_1
     if-ge v2, v0, :cond_1
 
-    .line 3
     iget-object v3, p0, Lcom/google/common/base/w$g;->c:Ljava/lang/CharSequence;
 
     add-int v4, v2, p1

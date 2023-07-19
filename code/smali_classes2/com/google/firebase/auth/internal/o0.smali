@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/m/a;
 
     const-string v1, "FirebaseAuth:"
@@ -65,10 +64,8 @@
 .method public constructor <init>(Lcom/google/firebase/d;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/google/firebase/auth/internal/o0;->h:Lcom/google/android/gms/common/m/a;
 
     const/4 v1, 0x0
@@ -79,7 +76,6 @@
 
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/common/m/a;->g(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -88,7 +84,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/auth/internal/o0;->a:Lcom/google/firebase/d;
 
-    .line 4
     new-instance v0, Landroid/os/HandlerThread;
 
     const-string v1, "TokenRefresher"
@@ -99,10 +94,8 @@
 
     iput-object v0, p0, Lcom/google/firebase/auth/internal/o0;->e:Landroid/os/HandlerThread;
 
-    .line 5
     invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
 
-    .line 6
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/p5;
 
     iget-object v1, p0, Lcom/google/firebase/auth/internal/o0;->e:Landroid/os/HandlerThread;
@@ -115,7 +108,6 @@
 
     iput-object v0, p0, Lcom/google/firebase/auth/internal/o0;->f:Landroid/os/Handler;
 
-    .line 7
     new-instance v0, Lcom/google/firebase/auth/internal/r0;
 
     invoke-virtual {p1}, Lcom/google/firebase/d;->p()Ljava/lang/String;
@@ -128,7 +120,6 @@
 
     const-wide/32 v0, 0x493e0
 
-    .line 8
     iput-wide v0, p0, Lcom/google/firebase/auth/internal/o0;->d:J
 
     return-void
@@ -137,7 +128,6 @@
 .method static synthetic d()Lcom/google/android/gms/common/m/a;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/auth/internal/o0;->h:Lcom/google/android/gms/common/m/a;
 
     return-object v0
@@ -148,7 +138,6 @@
 .method public final a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/o0;->f:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/google/firebase/auth/internal/o0;->g:Ljava/lang/Runnable;
@@ -161,7 +150,6 @@
 .method public final b()V
     .locals 6
 
-    .line 1
     sget-object v0, Lcom/google/firebase/auth/internal/o0;->h:Lcom/google/android/gms/common/m/a;
 
     iget-wide v1, p0, Lcom/google/firebase/auth/internal/o0;->b:J
@@ -192,10 +180,8 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/m/a;->g(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/auth/internal/o0;->a()V
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/common/util/k;->d()Lcom/google/android/gms/common/util/g;
 
     move-result-object v0
@@ -204,7 +190,6 @@
 
     move-result-wide v0
 
-    .line 4
     iget-wide v2, p0, Lcom/google/firebase/auth/internal/o0;->b:J
 
     sub-long/2addr v2, v0
@@ -225,7 +210,6 @@
 
     iput-wide v0, p0, Lcom/google/firebase/auth/internal/o0;->c:J
 
-    .line 5
     iget-object v0, p0, Lcom/google/firebase/auth/internal/o0;->f:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/google/firebase/auth/internal/o0;->g:Ljava/lang/Runnable;
@@ -242,7 +226,6 @@
 .method final c()V
     .locals 7
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/auth/internal/o0;->c:J
 
     long-to-int v1, v0
@@ -283,16 +266,13 @@
     :cond_1
     const-wide/16 v0, 0x2
 
-    .line 2
     iget-wide v2, p0, Lcom/google/firebase/auth/internal/o0;->c:J
 
     mul-long v0, v0, v2
 
-    .line 3
     :goto_0
     iput-wide v0, p0, Lcom/google/firebase/auth/internal/o0;->c:J
 
-    .line 4
     invoke-static {}, Lcom/google/android/gms/common/util/k;->d()Lcom/google/android/gms/common/util/g;
 
     move-result-object v0
@@ -311,7 +291,6 @@
 
     iput-wide v0, p0, Lcom/google/firebase/auth/internal/o0;->b:J
 
-    .line 5
     sget-object v0, Lcom/google/firebase/auth/internal/o0;->h:Lcom/google/android/gms/common/m/a;
 
     iget-wide v1, p0, Lcom/google/firebase/auth/internal/o0;->b:J
@@ -338,7 +317,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/m/a;->g(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/firebase/auth/internal/o0;->f:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/google/firebase/auth/internal/o0;->g:Ljava/lang/Runnable;

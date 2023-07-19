@@ -109,7 +109,6 @@
 .method static constructor <clinit>()V
     .locals 21
 
-    .line 1
     new-instance v0, Lcom/google/rpc/Code;
 
     const-string v1, "OK"
@@ -120,7 +119,6 @@
 
     sput-object v0, Lcom/google/rpc/Code;->OK:Lcom/google/rpc/Code;
 
-    .line 2
     new-instance v1, Lcom/google/rpc/Code;
 
     const-string v3, "CANCELLED"
@@ -131,7 +129,6 @@
 
     sput-object v1, Lcom/google/rpc/Code;->CANCELLED:Lcom/google/rpc/Code;
 
-    .line 3
     new-instance v3, Lcom/google/rpc/Code;
 
     const-string v5, "UNKNOWN"
@@ -142,7 +139,6 @@
 
     sput-object v3, Lcom/google/rpc/Code;->UNKNOWN:Lcom/google/rpc/Code;
 
-    .line 4
     new-instance v5, Lcom/google/rpc/Code;
 
     const-string v7, "INVALID_ARGUMENT"
@@ -153,7 +149,6 @@
 
     sput-object v5, Lcom/google/rpc/Code;->INVALID_ARGUMENT:Lcom/google/rpc/Code;
 
-    .line 5
     new-instance v7, Lcom/google/rpc/Code;
 
     const-string v9, "DEADLINE_EXCEEDED"
@@ -164,7 +159,6 @@
 
     sput-object v7, Lcom/google/rpc/Code;->DEADLINE_EXCEEDED:Lcom/google/rpc/Code;
 
-    .line 6
     new-instance v9, Lcom/google/rpc/Code;
 
     const-string v11, "NOT_FOUND"
@@ -175,7 +169,6 @@
 
     sput-object v9, Lcom/google/rpc/Code;->NOT_FOUND:Lcom/google/rpc/Code;
 
-    .line 7
     new-instance v11, Lcom/google/rpc/Code;
 
     const-string v13, "ALREADY_EXISTS"
@@ -186,7 +179,6 @@
 
     sput-object v11, Lcom/google/rpc/Code;->ALREADY_EXISTS:Lcom/google/rpc/Code;
 
-    .line 8
     new-instance v13, Lcom/google/rpc/Code;
 
     const-string v15, "PERMISSION_DENIED"
@@ -197,7 +189,6 @@
 
     sput-object v13, Lcom/google/rpc/Code;->PERMISSION_DENIED:Lcom/google/rpc/Code;
 
-    .line 9
     new-instance v15, Lcom/google/rpc/Code;
 
     const-string v14, "UNAUTHENTICATED"
@@ -210,7 +201,6 @@
 
     sput-object v15, Lcom/google/rpc/Code;->UNAUTHENTICATED:Lcom/google/rpc/Code;
 
-    .line 10
     new-instance v14, Lcom/google/rpc/Code;
 
     const-string v8, "RESOURCE_EXHAUSTED"
@@ -221,7 +211,6 @@
 
     sput-object v14, Lcom/google/rpc/Code;->RESOURCE_EXHAUSTED:Lcom/google/rpc/Code;
 
-    .line 11
     new-instance v8, Lcom/google/rpc/Code;
 
     const-string v12, "FAILED_PRECONDITION"
@@ -232,7 +221,6 @@
 
     sput-object v8, Lcom/google/rpc/Code;->FAILED_PRECONDITION:Lcom/google/rpc/Code;
 
-    .line 12
     new-instance v12, Lcom/google/rpc/Code;
 
     const-string v6, "ABORTED"
@@ -243,7 +231,6 @@
 
     sput-object v12, Lcom/google/rpc/Code;->ABORTED:Lcom/google/rpc/Code;
 
-    .line 13
     new-instance v6, Lcom/google/rpc/Code;
 
     const-string v4, "OUT_OF_RANGE"
@@ -254,7 +241,6 @@
 
     sput-object v6, Lcom/google/rpc/Code;->OUT_OF_RANGE:Lcom/google/rpc/Code;
 
-    .line 14
     new-instance v4, Lcom/google/rpc/Code;
 
     const-string v2, "UNIMPLEMENTED"
@@ -267,7 +253,6 @@
 
     sput-object v4, Lcom/google/rpc/Code;->UNIMPLEMENTED:Lcom/google/rpc/Code;
 
-    .line 15
     new-instance v2, Lcom/google/rpc/Code;
 
     const-string v10, "INTERNAL"
@@ -280,7 +265,6 @@
 
     sput-object v2, Lcom/google/rpc/Code;->INTERNAL:Lcom/google/rpc/Code;
 
-    .line 16
     new-instance v10, Lcom/google/rpc/Code;
 
     const-string v6, "UNAVAILABLE"
@@ -293,7 +277,6 @@
 
     sput-object v10, Lcom/google/rpc/Code;->UNAVAILABLE:Lcom/google/rpc/Code;
 
-    .line 17
     new-instance v6, Lcom/google/rpc/Code;
 
     const-string v4, "DATA_LOSS"
@@ -306,7 +289,6 @@
 
     sput-object v6, Lcom/google/rpc/Code;->DATA_LOSS:Lcom/google/rpc/Code;
 
-    .line 18
     new-instance v4, Lcom/google/rpc/Code;
 
     const-string v10, "UNRECOGNIZED"
@@ -395,10 +377,8 @@
 
     aput-object v4, v6, v2
 
-    .line 19
     sput-object v6, Lcom/google/rpc/Code;->$VALUES:[Lcom/google/rpc/Code;
 
-    .line 20
     new-instance v0, Lcom/google/rpc/Code$a;
 
     invoke-direct {v0}, Lcom/google/rpc/Code$a;-><init>()V
@@ -416,10 +396,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/rpc/Code;->value:I
 
     return-void
@@ -434,103 +412,86 @@
 
     return-object p0
 
-    .line 1
     :pswitch_0
     sget-object p0, Lcom/google/rpc/Code;->UNAUTHENTICATED:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 2
     :pswitch_1
     sget-object p0, Lcom/google/rpc/Code;->DATA_LOSS:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 3
     :pswitch_2
     sget-object p0, Lcom/google/rpc/Code;->UNAVAILABLE:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 4
     :pswitch_3
     sget-object p0, Lcom/google/rpc/Code;->INTERNAL:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 5
     :pswitch_4
     sget-object p0, Lcom/google/rpc/Code;->UNIMPLEMENTED:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 6
     :pswitch_5
     sget-object p0, Lcom/google/rpc/Code;->OUT_OF_RANGE:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 7
     :pswitch_6
     sget-object p0, Lcom/google/rpc/Code;->ABORTED:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 8
     :pswitch_7
     sget-object p0, Lcom/google/rpc/Code;->FAILED_PRECONDITION:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 9
     :pswitch_8
     sget-object p0, Lcom/google/rpc/Code;->RESOURCE_EXHAUSTED:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 10
     :pswitch_9
     sget-object p0, Lcom/google/rpc/Code;->PERMISSION_DENIED:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 11
     :pswitch_a
     sget-object p0, Lcom/google/rpc/Code;->ALREADY_EXISTS:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 12
     :pswitch_b
     sget-object p0, Lcom/google/rpc/Code;->NOT_FOUND:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 13
     :pswitch_c
     sget-object p0, Lcom/google/rpc/Code;->DEADLINE_EXCEEDED:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 14
     :pswitch_d
     sget-object p0, Lcom/google/rpc/Code;->INVALID_ARGUMENT:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 15
     :pswitch_e
     sget-object p0, Lcom/google/rpc/Code;->UNKNOWN:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 16
     :pswitch_f
     sget-object p0, Lcom/google/rpc/Code;->CANCELLED:Lcom/google/rpc/Code;
 
     return-object p0
 
-    .line 17
     :pswitch_10
     sget-object p0, Lcom/google/rpc/Code;->OK:Lcom/google/rpc/Code;
 
@@ -569,7 +530,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/rpc/Code;->internalValueMap:Lcom/google/protobuf/z0$d;
 
     return-object v0
@@ -580,7 +540,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/rpc/Code;->forNumber(I)Lcom/google/rpc/Code;
 
     move-result-object p0
@@ -591,7 +550,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/rpc/Code;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/rpc/Code;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -606,7 +564,6 @@
 .method public static values()[Lcom/google/rpc/Code;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/rpc/Code;->$VALUES:[Lcom/google/rpc/Code;
 
     invoke-virtual {v0}, [Lcom/google/rpc/Code;->clone()Ljava/lang/Object;
@@ -623,7 +580,6 @@
 .method public final getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/rpc/Code;->value:I
 
     return v0

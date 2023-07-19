@@ -13,7 +13,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/io/FileReader;
 
@@ -22,7 +21,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_2
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-virtual {p0}, Ljava/io/File;->length()J
 
@@ -32,26 +30,21 @@
 
     new-array v2, v3, [C
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/io/Reader;->read([C)I
 
-    .line 4
     new-instance v3, Lcom/appsflyer/internal/d$c$b;
 
     invoke-direct {v3, v2}, Lcom/appsflyer/internal/d$c$b;-><init>([C)V
 
-    .line 5
     invoke-virtual {p0}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 6
     iput-object p0, v3, Lcom/appsflyer/internal/d$c$b;->AFDateFormat:Ljava/lang/String;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_3
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     :try_start_2
     invoke-virtual {v1}, Ljava/io/Reader;->close()V
     :try_end_2
@@ -62,7 +55,6 @@
     :catch_0
     move-exception p0
 
-    .line 8
     invoke-static {p0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/Throwable;)V
 
     :goto_0
@@ -81,7 +73,6 @@
     :goto_1
     if-eqz v0, :cond_0
 
-    .line 9
     :try_start_3
     invoke-virtual {v0}, Ljava/io/Reader;->close()V
     :try_end_3
@@ -92,10 +83,8 @@
     :catch_1
     move-exception v0
 
-    .line 10
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/Throwable;)V
 
-    .line 11
     :cond_0
     :goto_2
     throw p0
@@ -106,7 +95,6 @@
     :catch_3
     if-eqz v1, :cond_1
 
-    .line 12
     :try_start_4
     invoke-virtual {v1}, Ljava/io/Reader;->close()V
     :try_end_4
@@ -117,7 +105,6 @@
     :catch_4
     move-exception p0
 
-    .line 13
     invoke-static {p0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/Throwable;)V
 
     :cond_1
@@ -138,12 +125,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     :try_start_0
     new-instance v1, Ljava/io/File;
 
@@ -155,25 +140,21 @@
 
     invoke-direct {v1, p0, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result p0
 
     if-nez p0, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Ljava/io/File;->mkdir()Z
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-virtual {v1}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object p0
 
-    .line 6
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -183,7 +164,6 @@
 
     aget-object v3, p0, v2
 
-    .line 7
     new-instance v4, Ljava/lang/StringBuilder;
 
     const-string v5, "Found cached request"
@@ -202,7 +182,6 @@
 
     invoke-static {v4}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v3}, Lcom/appsflyer/internal/y;->$$a(Ljava/io/File;)Lcom/appsflyer/internal/d$c$b;
 
     move-result-object v3
@@ -220,7 +199,6 @@
 
     const-string v1, "Could not cache request"
 
-    .line 9
     invoke-static {v1, p0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_1
@@ -231,7 +209,6 @@
 .method public static $$b(Ljava/lang/String;Landroid/content/Context;)V
     .locals 3
 
-    .line 10
     new-instance v0, Ljava/io/File;
 
     invoke-virtual {p1}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
@@ -242,12 +219,10 @@
 
     invoke-direct {v0, p1, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 11
     new-instance p1, Ljava/io/File;
 
     invoke-direct {p1, v0, p0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 12
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "Deleting "
@@ -266,14 +241,12 @@
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 14
     :try_start_0
     invoke-virtual {p1}, Ljava/io/File;->delete()Z
     :try_end_0
@@ -284,7 +257,6 @@
     :catch_0
     move-exception p1
 
-    .line 15
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v2, "Could not delete "
@@ -308,7 +280,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/appsflyer/internal/y;
 
     invoke-direct {v0}, Lcom/appsflyer/internal/y;-><init>()V
@@ -321,7 +292,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -330,7 +300,6 @@
 .method public static AFDateFormat()Lcom/appsflyer/internal/y;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/appsflyer/internal/y;->$$b:Lcom/appsflyer/internal/y;
 
     return-object v0
@@ -339,7 +308,6 @@
 .method public static valueOf(Landroid/content/Context;)Ljava/io/File;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;

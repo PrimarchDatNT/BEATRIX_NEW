@@ -73,7 +73,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TStruct;
 
     const-string v1, "BaggageRestriction"
@@ -82,7 +81,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/BaggageRestriction;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v1, "baggageKey"
@@ -95,7 +93,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/BaggageRestriction;->BAGGAGE_KEY_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 3
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v4, "maxValueLength"
@@ -108,7 +105,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/BaggageRestriction;->MAX_VALUE_LENGTH_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 4
     new-instance v0, Lio/jaegertracing/thriftjava/BaggageRestriction$c;
 
     const/4 v6, 0x0
@@ -117,21 +113,18 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/BaggageRestriction;->STANDARD_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 5
     new-instance v0, Lio/jaegertracing/thriftjava/BaggageRestriction$e;
 
     invoke-direct {v0, v6}, Lio/jaegertracing/thriftjava/BaggageRestriction$e;-><init>(Lio/jaegertracing/thriftjava/BaggageRestriction$a;)V
 
     sput-object v0, Lio/jaegertracing/thriftjava/BaggageRestriction;->TUPLE_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 6
     new-instance v0, Ljava/util/EnumMap;
 
     const-class v6, Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;
 
     invoke-direct {v0, v6}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 7
     sget-object v6, Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;->BAGGAGE_KEY:Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;
 
     new-instance v7, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -144,7 +137,6 @@
 
     invoke-interface {v0, v6, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     sget-object v1, Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;->MAX_VALUE_LENGTH:Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -157,14 +149,12 @@
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     sput-object v0, Lio/jaegertracing/thriftjava/BaggageRestriction;->metaDataMap:Ljava/util/Map;
 
-    .line 10
     const-class v1, Lio/jaegertracing/thriftjava/BaggageRestriction;
 
     invoke-static {v1, v0}, Lorg/apache/thrift/meta_data/FieldMetaData;->addStructMetaDataMap(Ljava/lang/Class;Ljava/util/Map;)V
@@ -175,12 +165,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->__isset_bitfield:B
 
     return-void
@@ -189,32 +177,26 @@
 .method public constructor <init>(Lio/jaegertracing/thriftjava/BaggageRestriction;)V
     .locals 1
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 8
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->__isset_bitfield:B
 
-    .line 9
     iget-byte v0, p1, Lio/jaegertracing/thriftjava/BaggageRestriction;->__isset_bitfield:B
 
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->__isset_bitfield:B
 
-    .line 10
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/BaggageRestriction;->isSetBaggageKey()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 11
     iget-object v0, p1, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
     iput-object v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
-    .line 12
     :cond_0
     iget p1, p1, Lio/jaegertracing/thriftjava/BaggageRestriction;->maxValueLength:I
 
@@ -226,18 +208,14 @@
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
-    .line 5
     iput p2, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->maxValueLength:I
 
     const/4 p1, 0x1
 
-    .line 6
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/BaggageRestriction;->setMaxValueLengthIsSet(Z)V
 
     return-void
@@ -246,7 +224,6 @@
 .method static synthetic access$300()Lorg/apache/thrift/protocol/TStruct;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/BaggageRestriction;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
     return-object v0
@@ -255,7 +232,6 @@
 .method static synthetic access$400()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/BaggageRestriction;->BAGGAGE_KEY_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -264,7 +240,6 @@
 .method static synthetic access$500()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/BaggageRestriction;->MAX_VALUE_LENGTH_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -281,11 +256,9 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->__isset_bitfield:B
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
     new-instance v1, Lorg/apache/thrift/transport/TIOStreamTransport;
@@ -303,7 +276,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -323,7 +295,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/apache/thrift/scheme/StandardScheme;
 
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TProtocol;->getScheme()Ljava/lang/Class;
@@ -359,7 +330,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -378,7 +348,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -393,15 +362,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p0, v0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->setMaxValueLengthIsSet(Z)V
 
-    .line 3
     iput v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->maxValueLength:I
 
     return-void
@@ -410,7 +376,6 @@
 .method public compareTo(Lio/jaegertracing/thriftjava/BaggageRestriction;)I
     .locals 2
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -425,7 +390,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -448,7 +412,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->isSetBaggageKey()Z
 
@@ -474,7 +437,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->isSetBaggageKey()Z
 
@@ -482,7 +444,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
     iget-object v1, p1, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
@@ -495,7 +456,6 @@
 
     return v0
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->isSetMaxValueLength()Z
 
@@ -521,7 +481,6 @@
 
     return v0
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->isSetMaxValueLength()Z
 
@@ -529,7 +488,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 9
     iget v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->maxValueLength:I
 
     iget p1, p1, Lio/jaegertracing/thriftjava/BaggageRestriction;->maxValueLength:I
@@ -551,7 +509,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/BaggageRestriction;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/BaggageRestriction;->compareTo(Lio/jaegertracing/thriftjava/BaggageRestriction;)I
@@ -564,7 +521,6 @@
 .method public deepCopy()Lio/jaegertracing/thriftjava/BaggageRestriction;
     .locals 1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/thriftjava/BaggageRestriction;
 
     invoke-direct {v0, p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;-><init>(Lio/jaegertracing/thriftjava/BaggageRestriction;)V
@@ -575,7 +531,6 @@
 .method public bridge synthetic deepCopy()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->deepCopy()Lio/jaegertracing/thriftjava/BaggageRestriction;
 
     move-result-object v0
@@ -599,13 +554,11 @@
 
     return v1
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->isSetBaggageKey()Z
 
     move-result v2
 
-    .line 4
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/BaggageRestriction;->isSetBaggageKey()Z
 
     move-result v3
@@ -621,7 +574,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     iget-object v2, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
@@ -635,7 +587,6 @@
 
     return v0
 
-    .line 6
     :cond_4
     iget v2, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->maxValueLength:I
 
@@ -662,13 +613,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/jaegertracing/thriftjava/BaggageRestriction;
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lio/jaegertracing/thriftjava/BaggageRestriction;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/BaggageRestriction;->equals(Lio/jaegertracing/thriftjava/BaggageRestriction;)Z
@@ -684,7 +633,6 @@
 .method public fieldForId(I)Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;->findByThriftId(I)Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;
 
     move-result-object p1
@@ -695,7 +643,6 @@
 .method public bridge synthetic fieldForId(I)Lorg/apache/thrift/TFieldIdEnum;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/BaggageRestriction;->fieldForId(I)Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;
 
     move-result-object p1
@@ -706,7 +653,6 @@
 .method public getBaggageKey()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
     return-object v0
@@ -715,7 +661,6 @@
 .method public getFieldValue(Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;)Ljava/lang/Object;
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/BaggageRestriction$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -732,7 +677,6 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->getMaxValueLength()I
 
     move-result p1
@@ -743,7 +687,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -751,7 +694,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->getBaggageKey()Ljava/lang/String;
 
@@ -763,7 +705,6 @@
 .method public bridge synthetic getFieldValue(Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/BaggageRestriction;->getFieldValue(Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;)Ljava/lang/Object;
@@ -776,7 +717,6 @@
 .method public getMaxValueLength()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->maxValueLength:I
 
     return v0
@@ -785,7 +725,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->isSetBaggageKey()Z
 
     move-result v0
@@ -804,7 +743,6 @@
 
     add-int/2addr v0, v1
 
-    .line 2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->isSetBaggageKey()Z
 
     move-result v2
@@ -813,7 +751,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 3
     iget-object v2, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
     invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
@@ -825,7 +762,6 @@
     :cond_1
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 4
     iget v1, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->maxValueLength:I
 
     add-int/2addr v0, v1
@@ -838,7 +774,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/BaggageRestriction$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -855,14 +790,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->isSetMaxValueLength()Z
 
     move-result p1
 
     return p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -870,7 +803,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->isSetBaggageKey()Z
 
@@ -878,7 +810,6 @@
 
     return p1
 
-    .line 6
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -890,7 +821,6 @@
 .method public bridge synthetic isSet(Lorg/apache/thrift/TFieldIdEnum;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/BaggageRestriction;->isSet(Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;)Z
@@ -903,7 +833,6 @@
 .method public isSetBaggageKey()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -922,7 +851,6 @@
 .method public isSetMaxValueLength()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -942,7 +870,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thriftjava/BaggageRestriction;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0
@@ -955,7 +882,6 @@
 .method public setBaggageKey(Ljava/lang/String;)Lio/jaegertracing/thriftjava/BaggageRestriction;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
     return-object p0
@@ -968,7 +894,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
     :cond_0
@@ -978,7 +903,6 @@
 .method public setFieldValue(Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/BaggageRestriction$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1000,12 +924,10 @@
     :cond_0
     if-nez p2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->unsetMaxValueLength()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     check-cast p2, Ljava/lang/Integer;
 
@@ -1020,12 +942,10 @@
     :cond_2
     if-nez p2, :cond_3
 
-    .line 5
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestriction;->unsetBaggageKey()V
 
     goto :goto_0
 
-    .line 6
     :cond_3
     check-cast p2, Ljava/lang/String;
 
@@ -1038,7 +958,6 @@
 .method public bridge synthetic setFieldValue(Lorg/apache/thrift/TFieldIdEnum;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thriftjava/BaggageRestriction;->setFieldValue(Lio/jaegertracing/thriftjava/BaggageRestriction$_Fields;Ljava/lang/Object;)V
@@ -1049,12 +968,10 @@
 .method public setMaxValueLength(I)Lio/jaegertracing/thriftjava/BaggageRestriction;
     .locals 0
 
-    .line 1
     iput p1, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->maxValueLength:I
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/BaggageRestriction;->setMaxValueLengthIsSet(Z)V
 
     return-object p0
@@ -1063,7 +980,6 @@
 .method public setMaxValueLengthIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -1080,7 +996,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "BaggageRestriction("
@@ -1089,47 +1004,38 @@
 
     const-string v1, "baggageKey:"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object v1, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
     if-nez v1, :cond_0
 
     const-string v1, "null"
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :goto_0
     const-string v1, ", "
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, "maxValueLength:"
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     iget v1, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->maxValueLength:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v1, ")"
 
-    .line 9
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -1142,7 +1048,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
     return-void
@@ -1151,7 +1056,6 @@
 .method public unsetMaxValueLength()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -1173,14 +1077,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/BaggageRestriction;->baggageKey:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -1215,7 +1117,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thriftjava/BaggageRestriction;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0

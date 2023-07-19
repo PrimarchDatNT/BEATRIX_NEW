@@ -50,12 +50,10 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p2}, Lcotlinx/coroutines/JobSupport;-><init>(Z)V
 
     iput-object p1, p0, Lcotlinx/coroutines/a;->c:Lcotlin/coroutines/CoroutineContext;
 
-    .line 3
     invoke-interface {p1, p0}, Lcotlin/coroutines/CoroutineContext;->plus(Lcotlin/coroutines/CoroutineContext;)Lcotlin/coroutines/CoroutineContext;
 
     move-result-object p1
@@ -74,7 +72,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcotlinx/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext;Z)V
 
@@ -96,7 +93,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/a;->b:Lcotlin/coroutines/CoroutineContext;
 
     invoke-static {v0, p1}, Lcotlinx/coroutines/j0;->b(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V
@@ -109,7 +105,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/a;->b:Lcotlin/coroutines/CoroutineContext;
 
     return-object v0
@@ -120,7 +115,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/a;->b:Lcotlin/coroutines/CoroutineContext;
 
     invoke-static {v0}, Lcotlinx/coroutines/h0;->b(Lcotlin/coroutines/CoroutineContext;)Ljava/lang/String;
@@ -129,7 +123,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -156,7 +149,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-super {p0}, Lcotlinx/coroutines/JobSupport;->R0()Ljava/lang/String;
 
@@ -172,12 +164,10 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlinx/coroutines/z;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcotlinx/coroutines/z;
 
     iget-object v0, p1, Lcotlinx/coroutines/z;->a:Ljava/lang/Throwable;
@@ -190,7 +180,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/a;->t1(Ljava/lang/Object;)V
 
@@ -201,7 +190,6 @@
 .method public final Y0()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/a;->u1()V
 
     return-void
@@ -212,7 +200,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/a;->b:Lcotlin/coroutines/CoroutineContext;
 
     return-object v0
@@ -221,7 +208,6 @@
 .method public isActive()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcotlinx/coroutines/JobSupport;->isActive()Z
 
     move-result v0
@@ -234,7 +220,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -263,7 +248,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/JobSupport;->d0(Ljava/lang/Object;)V
 
     return-void
@@ -272,7 +256,6 @@
 .method public final r1()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/a;->c:Lcotlin/coroutines/CoroutineContext;
 
     sget-object v1, Lcotlinx/coroutines/c2;->u:Lcotlinx/coroutines/c2$b;
@@ -295,7 +278,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcotlinx/coroutines/a0;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -304,14 +286,12 @@
 
     move-result-object p1
 
-    .line 2
     sget-object v0, Lcotlinx/coroutines/j2;->b:Lcotlinx/coroutines/internal/c0;
 
     if-ne p1, v0, :cond_0
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/a;->p1(Ljava/lang/Object;)V
 
@@ -371,10 +351,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/a;->r1()V
 
-    .line 2
     invoke-virtual {p1, p3, p2, p0}, Lcotlinx/coroutines/CoroutineStart;->invoke(Lcotlin/jvm/u/p;Ljava/lang/Object;Lcotlin/coroutines/c;)V
 
     return-void
@@ -403,10 +381,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/a;->r1()V
 
-    .line 2
     invoke-virtual {p1, p2, p0}, Lcotlinx/coroutines/CoroutineStart;->invoke(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)V
 
     return-void

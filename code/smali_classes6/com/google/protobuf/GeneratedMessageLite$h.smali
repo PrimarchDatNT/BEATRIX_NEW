@@ -61,12 +61,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/f0;-><init>()V
 
     if-eqz p1, :cond_2
 
-    .line 2
     invoke-virtual {p4}, Lcom/google/protobuf/GeneratedMessageLite$g;->y0()Lcom/google/protobuf/WireFormat$FieldType;
 
     move-result-object p5
@@ -79,7 +77,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -89,23 +86,18 @@
 
     throw p1
 
-    .line 4
     :cond_1
     :goto_0
     iput-object p1, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->a:Lcom/google/protobuf/i1;
 
-    .line 5
     iput-object p2, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->b:Ljava/lang/Object;
 
-    .line 6
     iput-object p3, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->c:Lcom/google/protobuf/i1;
 
-    .line 7
     iput-object p4, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->d:Lcom/google/protobuf/GeneratedMessageLite$g;
 
     return-void
 
-    .line 8
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -126,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->b:Ljava/lang/Object;
 
     return-object v0
@@ -135,7 +126,6 @@
 .method public b()Lcom/google/protobuf/WireFormat$FieldType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->d:Lcom/google/protobuf/GeneratedMessageLite$g;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite$g;->y0()Lcom/google/protobuf/WireFormat$FieldType;
@@ -148,7 +138,6 @@
 .method public c()Lcom/google/protobuf/i1;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->c:Lcom/google/protobuf/i1;
 
     return-object v0
@@ -157,7 +146,6 @@
 .method public d()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->d:Lcom/google/protobuf/GeneratedMessageLite$g;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite$g;->getNumber()I
@@ -170,7 +158,6 @@
 .method public f()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->d:Lcom/google/protobuf/GeneratedMessageLite$g;
 
     iget-boolean v0, v0, Lcom/google/protobuf/GeneratedMessageLite$g;->d:Z
@@ -181,7 +168,6 @@
 .method g(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->d:Lcom/google/protobuf/GeneratedMessageLite$g;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite$g;->w0()Z
@@ -190,7 +176,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->d:Lcom/google/protobuf/GeneratedMessageLite$g;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite$g;->k1()Lcom/google/protobuf/WireFormat$JavaType;
@@ -201,12 +186,10 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     check-cast p1, Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -224,7 +207,6 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p0, v1}, Lcom/google/protobuf/GeneratedMessageLite$h;->i(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -239,7 +221,6 @@
     :cond_1
     return-object p1
 
-    .line 6
     :cond_2
     invoke-virtual {p0, p1}, Lcom/google/protobuf/GeneratedMessageLite$h;->i(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -256,7 +237,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->a:Lcom/google/protobuf/i1;
 
     return-object v0
@@ -265,7 +245,6 @@
 .method i(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->d:Lcom/google/protobuf/GeneratedMessageLite$g;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite$g;->k1()Lcom/google/protobuf/WireFormat$JavaType;
@@ -276,7 +255,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->d:Lcom/google/protobuf/GeneratedMessageLite$g;
 
     iget-object v0, v0, Lcom/google/protobuf/GeneratedMessageLite$g;->a:Lcom/google/protobuf/z0$d;
@@ -298,7 +276,6 @@
 .method j(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->d:Lcom/google/protobuf/GeneratedMessageLite$g;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite$g;->k1()Lcom/google/protobuf/WireFormat$JavaType;
@@ -309,7 +286,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/protobuf/z0$c;
 
     invoke-interface {p1}, Lcom/google/protobuf/z0$c;->getNumber()I
@@ -327,7 +303,6 @@
 .method k(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->d:Lcom/google/protobuf/GeneratedMessageLite$g;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite$g;->w0()Z
@@ -336,7 +311,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$h;->d:Lcom/google/protobuf/GeneratedMessageLite$g;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite$g;->k1()Lcom/google/protobuf/WireFormat$JavaType;
@@ -347,12 +321,10 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     check-cast p1, Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -370,7 +342,6 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p0, v1}, Lcom/google/protobuf/GeneratedMessageLite$h;->j(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -385,7 +356,6 @@
     :cond_1
     return-object p1
 
-    .line 6
     :cond_2
     invoke-virtual {p0, p1}, Lcom/google/protobuf/GeneratedMessageLite$h;->j(Ljava/lang/Object;)Ljava/lang/Object;
 

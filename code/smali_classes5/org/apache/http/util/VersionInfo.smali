@@ -31,15 +31,12 @@
 .method protected constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Package identifier"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lorg/apache/http/util/VersionInfo;->infoPackage:Ljava/lang/String;
 
     const-string p1, "UNAVAILABLE"
@@ -51,7 +48,6 @@
     :cond_0
     move-object p2, p1
 
-    .line 4
     :goto_0
     iput-object p2, p0, Lorg/apache/http/util/VersionInfo;->infoModule:Ljava/lang/String;
 
@@ -62,7 +58,6 @@
     :cond_1
     move-object p3, p1
 
-    .line 5
     :goto_1
     iput-object p3, p0, Lorg/apache/http/util/VersionInfo;->infoRelease:Ljava/lang/String;
 
@@ -73,7 +68,6 @@
     :cond_2
     move-object p4, p1
 
-    .line 6
     :goto_2
     iput-object p4, p0, Lorg/apache/http/util/VersionInfo;->infoTimestamp:Ljava/lang/String;
 
@@ -84,7 +78,6 @@
     :cond_3
     move-object p5, p1
 
-    .line 7
     :goto_3
     iput-object p5, p0, Lorg/apache/http/util/VersionInfo;->infoClassloader:Ljava/lang/String;
 
@@ -107,7 +100,6 @@
 
     const-string v0, "Package identifier"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const/4 v0, 0x0
@@ -116,7 +108,6 @@
 
     const-string v1, "info.module"
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -127,7 +118,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -139,7 +129,6 @@
     :cond_0
     const-string v3, "info.release"
 
-    .line 4
     invoke-interface {p1, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -148,7 +137,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 5
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -169,7 +157,6 @@
     :cond_2
     const-string v4, "info.timestamp"
 
-    .line 6
     invoke-interface {p1, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -178,7 +165,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 7
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -218,7 +204,6 @@
     :goto_1
     if-eqz p2, :cond_6
 
-    .line 8
     invoke-virtual {p2}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -226,7 +211,6 @@
     :cond_6
     move-object v9, v0
 
-    .line 9
     new-instance p1, Lorg/apache/http/util/VersionInfo;
 
     move-object v4, p1
@@ -251,7 +235,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object p2
@@ -262,7 +245,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lorg/apache/http/util/VersionInfo;->getRelease()Ljava/lang/String;
 
     move-result-object p1
@@ -275,7 +257,6 @@
     :goto_0
     const-string p2, "java.version"
 
-    .line 3
     invoke-static {p2}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -298,7 +279,6 @@
 
     const-string p0, "%s/%s (Java/%s)"
 
-    .line 4
     invoke-static {p0, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -311,14 +291,12 @@
 
     const-string v0, "Package identifier"
 
-    .line 7
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     if-eqz p1, :cond_0
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -331,7 +309,6 @@
     :goto_0
     const/4 v0, 0x0
 
-    .line 9
     :try_start_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -367,18 +344,15 @@
 
     if-eqz v1, :cond_1
 
-    .line 10
     :try_start_1
     new-instance v2, Ljava/util/Properties;
 
     invoke-direct {v2}, Ljava/util/Properties;-><init>()V
 
-    .line 11
     invoke-virtual {v2, v1}, Ljava/util/Properties;->load(Ljava/io/InputStream;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 12
     :try_start_2
     invoke-virtual {v1}, Ljava/io/InputStream;->close()V
     :try_end_2
@@ -408,7 +382,6 @@
     :goto_1
     if-eqz v2, :cond_2
 
-    .line 13
     invoke-static {p0, v2, p1}, Lorg/apache/http/util/VersionInfo;->fromMap(Ljava/lang/String;Ljava/util/Map;Ljava/lang/ClassLoader;)Lorg/apache/http/util/VersionInfo;
 
     move-result-object v0
@@ -422,17 +395,14 @@
 
     const-string v0, "Package identifier array"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     array-length v1, p0
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -442,14 +412,12 @@
 
     aget-object v3, p0, v2
 
-    .line 4
     invoke-static {v3, p1}, Lorg/apache/http/util/VersionInfo;->loadVersionInfo(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/apache/http/util/VersionInfo;
 
     move-result-object v3
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -457,7 +425,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -479,7 +446,6 @@
 .method public final getClassloader()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/util/VersionInfo;->infoClassloader:Ljava/lang/String;
 
     return-object v0
@@ -488,7 +454,6 @@
 .method public final getModule()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/util/VersionInfo;->infoModule:Ljava/lang/String;
 
     return-object v0
@@ -497,7 +462,6 @@
 .method public final getPackage()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/util/VersionInfo;->infoPackage:Ljava/lang/String;
 
     return-object v0
@@ -506,7 +470,6 @@
 .method public final getRelease()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/util/VersionInfo;->infoRelease:Ljava/lang/String;
 
     return-object v0
@@ -515,7 +478,6 @@
 .method public final getTimestamp()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/util/VersionInfo;->infoTimestamp:Ljava/lang/String;
 
     return-object v0
@@ -524,7 +486,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lorg/apache/http/util/VersionInfo;->infoPackage:Ljava/lang/String;
@@ -571,7 +532,6 @@
 
     const-string v1, "VersionInfo("
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lorg/apache/http/util/VersionInfo;->infoPackage:Ljava/lang/String;
@@ -586,7 +546,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object v2, p0, Lorg/apache/http/util/VersionInfo;->infoRelease:Ljava/lang/String;
 
     const-string v3, "UNAVAILABLE"
@@ -597,14 +556,12 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     iget-object v2, p0, Lorg/apache/http/util/VersionInfo;->infoRelease:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     :cond_0
     iget-object v2, p0, Lorg/apache/http/util/VersionInfo;->infoTimestamp:Ljava/lang/String;
 
@@ -614,7 +571,6 @@
 
     if-nez v2, :cond_1
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lorg/apache/http/util/VersionInfo;->infoTimestamp:Ljava/lang/String;
@@ -624,10 +580,8 @@
     :cond_1
     const/16 v1, 0x29
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 8
     iget-object v1, p0, Lorg/apache/http/util/VersionInfo;->infoClassloader:Ljava/lang/String;
 
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -638,14 +592,12 @@
 
     const/16 v1, 0x40
 
-    .line 9
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lorg/apache/http/util/VersionInfo;->infoClassloader:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     :cond_2
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 

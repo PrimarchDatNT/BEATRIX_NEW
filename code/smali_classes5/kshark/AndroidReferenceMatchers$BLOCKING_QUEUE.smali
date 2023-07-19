@@ -27,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lkshark/AndroidReferenceMatchers;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
@@ -54,7 +53,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lkshark/AndroidReferenceMatchers;->Companion:Lkshark/AndroidReferenceMatchers$Companion;
 
     const-string v2, "android.os.Message"
@@ -85,7 +83,6 @@
 
     move-object v1, v0
 
-    .line 2
     invoke-static/range {v1 .. v7}, Lkshark/AndroidReferenceMatchers$Companion;->g(Lkshark/AndroidReferenceMatchers$Companion;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object v1
@@ -98,7 +95,6 @@
 
     move-object v1, v0
 
-    .line 3
     invoke-static/range {v1 .. v7}, Lkshark/AndroidReferenceMatchers$Companion;->g(Lkshark/AndroidReferenceMatchers$Companion;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object v0

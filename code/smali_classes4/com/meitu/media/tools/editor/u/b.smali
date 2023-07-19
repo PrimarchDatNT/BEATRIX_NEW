@@ -16,12 +16,10 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, -0x1
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/media/tools/editor/u/b;->b:J
 
     return-void
@@ -32,7 +30,6 @@
 .method public a(Lcom/meitu/media/tools/editor/u/g$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/tools/editor/u/b;->a:Lcom/meitu/media/tools/editor/u/g$a;
 
     return-void
@@ -41,7 +38,6 @@
 .method public b()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/meitu/media/tools/editor/u/b;->b:J
 
     return-wide v0
@@ -58,7 +54,6 @@
 .method public d()Lcom/meitu/media/tools/editor/u/g$a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/media/tools/editor/u/b;->a:Lcom/meitu/media/tools/editor/u/g$a;
 
     return-object v0

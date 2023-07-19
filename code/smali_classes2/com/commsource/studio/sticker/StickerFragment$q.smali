@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$q;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Sticker;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment$q;->e(Lcom/meitu/template/bean/Sticker;)V
@@ -77,7 +75,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$q;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerFragment;->Y(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/studio/sticker/StickerViewModel;
@@ -94,7 +91,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/template/bean/Sticker;->getStickerId()I
 
     move-result v4
@@ -123,7 +119,6 @@
     :goto_1
     if-eqz v1, :cond_2
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/studio/sticker/StickerFragment$q;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v4}, Lcom/commsource/studio/sticker/StickerFragment;->Y(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/studio/sticker/StickerViewModel;
@@ -132,12 +127,10 @@
 
     invoke-virtual {v4, v3}, Lcom/commsource/studio/sticker/StickerViewModel;->O(Lcom/meitu/template/bean/Sticker;)V
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/studio/sticker/StickerFragment$q;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v4, v1}, Lcom/commsource/studio/sticker/StickerFragment;->T(Lcom/commsource/studio/sticker/StickerFragment;Lcom/meitu/template/bean/Sticker;)V
 
-    .line 5
     :cond_2
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
@@ -151,7 +144,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/sticker/StickerFragment$q;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v4}, Lcom/commsource/studio/sticker/StickerFragment;->Z(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/studio/sticker/k;
@@ -170,7 +162,6 @@
 
     if-eq v1, v2, :cond_7
 
-    .line 7
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$q;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
@@ -194,15 +185,12 @@
 
     if-ne v1, p1, :cond_5
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$q;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/StickerFragment;->U(Lcom/commsource/studio/sticker/StickerFragment;)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$q;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
-    .line 10
     invoke-static {p1}, Lcom/commsource/studio/sticker/StickerFragment;->Y(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object v1
@@ -222,11 +210,9 @@
     :cond_4
     const/4 v1, -0x2
 
-    .line 11
     :goto_2
     invoke-virtual {p1, v1}, Lcom/commsource/studio/sticker/StickerFragment;->u0(I)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$q;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/StickerFragment;->Y(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/studio/sticker/StickerViewModel;
@@ -237,7 +223,6 @@
 
     goto :goto_3
 
-    .line 13
     :cond_5
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$q;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
@@ -251,7 +236,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$q;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     if-eqz p1, :cond_6
@@ -277,7 +261,6 @@
 
     throw p1
 
-    .line 15
     :cond_7
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

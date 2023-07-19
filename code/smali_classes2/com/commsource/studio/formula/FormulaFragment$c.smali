@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$c;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
@@ -53,17 +52,14 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$c;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaFragment;->V(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$c;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaFragment;->U(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

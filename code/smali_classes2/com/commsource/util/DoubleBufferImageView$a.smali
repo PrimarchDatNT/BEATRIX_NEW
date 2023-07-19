@@ -48,7 +48,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -63,7 +62,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/util/DoubleBufferImageView$a;->a:Lcom/commsource/util/DoubleBufferImageView;
 
     invoke-static {v1}, Lcom/commsource/util/DoubleBufferImageView;->c(Lcom/commsource/util/DoubleBufferImageView;)[Landroid/widget/ImageView;
@@ -78,7 +76,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/util/DoubleBufferImageView$a;->a:Lcom/commsource/util/DoubleBufferImageView;
 
@@ -102,13 +99,11 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 

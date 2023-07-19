@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/core/b$d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/core/b$d$a;->a:Lcom/meitu/ipstore/core/b$d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$d$a;->a:Lcom/meitu/ipstore/core/b$d;
 
     iget-object v1, v1, Lcom/meitu/ipstore/core/b$d;->a:Lf/k/m/c$a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     iget-object v3, p0, Lcom/meitu/ipstore/core/b$d$a;->a:Lcom/meitu/ipstore/core/b$d;
@@ -64,7 +61,6 @@
 
     invoke-interface {v1, v2}, Lf/k/m/c$a;->a(Ljava/util/List;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

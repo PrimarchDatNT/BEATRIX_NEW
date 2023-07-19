@@ -92,7 +92,6 @@
 
     invoke-static {p5, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/commsource/studio/function/background/BackgroundType;->type:I
@@ -157,7 +156,6 @@
 
     move-object v6, p5
 
-    .line 2
     invoke-direct/range {v1 .. v8}, Lcom/commsource/studio/function/background/BackgroundType;-><init>(I[F[F[I[FZI)V
 
     return-void
@@ -185,12 +183,10 @@
 
     if-ne p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     const-class v2, Lcom/commsource/studio/function/background/BackgroundType;
 
@@ -223,10 +219,8 @@
     :cond_2
     if-eqz p1, :cond_9
 
-    .line 3
     check-cast p1, Lcom/commsource/studio/function/background/BackgroundType;
 
-    .line 4
     iget v2, p0, Lcom/commsource/studio/function/background/BackgroundType;->type:I
 
     iget v4, p1, Lcom/commsource/studio/function/background/BackgroundType;->type:I
@@ -237,7 +231,6 @@
 
     return v3
 
-    .line 5
     :cond_3
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundType;->startPoint:[F
 
@@ -253,7 +246,6 @@
 
     return v3
 
-    .line 6
     :cond_4
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundType;->endPoint:[F
 
@@ -269,7 +261,6 @@
 
     return v3
 
-    .line 7
     :cond_5
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundType;->colors:[I
 
@@ -285,7 +276,6 @@
 
     return v3
 
-    .line 8
     :cond_6
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundType;->positions:[F
 
@@ -301,7 +291,6 @@
 
     return v3
 
-    .line 9
     :cond_7
     iget-boolean v2, p0, Lcom/commsource/studio/function/background/BackgroundType;->isFromPicker:Z
 
@@ -313,13 +302,11 @@
 
     return v3
 
-    .line 10
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 11
     :cond_9
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -341,7 +328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundType;->backgroundColor:Lcom/commsource/studio/function/background/BackgroundColor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -358,7 +344,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundType;->colors:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -375,7 +360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundType;->endPoint:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -392,7 +376,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundType;->positions:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -407,7 +390,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundType;->pureColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -424,7 +406,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundType;->startPoint:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -439,7 +420,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundType;->type:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -454,12 +434,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundType;->type:I
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundType;->startPoint:[F
 
     invoke-static {v2}, Ljava/util/Arrays;->hashCode([F)I
@@ -470,7 +448,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundType;->endPoint:[F
 
     invoke-static {v2}, Ljava/util/Arrays;->hashCode([F)I
@@ -481,7 +458,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundType;->colors:[I
 
     invoke-static {v2}, Ljava/util/Arrays;->hashCode([I)I
@@ -492,7 +468,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundType;->positions:[F
 
     invoke-static {v2}, Ljava/util/Arrays;->hashCode([F)I
@@ -503,7 +478,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 6
     iget-boolean v2, p0, Lcom/commsource/studio/function/background/BackgroundType;->isFromPicker:Z
 
     invoke-static {v2}, La;->a(Z)I
@@ -512,7 +486,6 @@
 
     add-int/2addr v1, v2
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -525,7 +498,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/background/BackgroundType;->isFromPicker:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -544,7 +516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundType;->backgroundColor:Lcom/commsource/studio/function/background/BackgroundColor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

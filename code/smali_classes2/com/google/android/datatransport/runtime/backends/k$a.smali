@@ -33,15 +33,12 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/android/datatransport/runtime/backends/k$a;->b:Ljava/util/Map;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/datatransport/runtime/backends/k$a;->a:Landroid/content/Context;
 
     return-void
@@ -61,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/datatransport/runtime/backends/k$a;->d(Landroid/content/Context;)Landroid/os/Bundle;
 
     move-result-object p1
@@ -72,23 +68,19 @@
 
     const-string v0, "Could not retrieve metadata, returning empty list of transport backends."
 
-    .line 2
     invoke-static {p1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 5
     invoke-virtual {p1}, Landroid/os/Bundle;->keySet()Ljava/util/Set;
 
     move-result-object v1
@@ -110,12 +102,10 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 6
     invoke-virtual {p1, v2}, Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 7
     instance-of v4, v3, Ljava/lang/String;
 
     if-eqz v4, :cond_1
@@ -128,7 +118,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 8
     check-cast v3, Ljava/lang/String;
 
     const/4 v4, -0x1
@@ -148,12 +137,10 @@
 
     aget-object v6, v3, v5
 
-    .line 9
     invoke-virtual {v6}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v6
 
-    .line 10
     invoke-virtual {v6}, Ljava/lang/String;->isEmpty()Z
 
     move-result v7
@@ -165,7 +152,6 @@
     :cond_2
     const/16 v7, 0x8
 
-    .line 11
     invoke-virtual {v2, v7}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v7
@@ -193,12 +179,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/k$a;->b:Ljava/util/Map;
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/k$a;->a:Landroid/content/Context;
 
     invoke-direct {p0, v0}, Lcom/google/android/datatransport/runtime/backends/k$a;->a(Landroid/content/Context;)Ljava/util/Map;
@@ -207,7 +191,6 @@
 
     iput-object v0, p0, Lcom/google/android/datatransport/runtime/backends/k$a;->b:Ljava/util/Map;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/k$a;->b:Ljava/util/Map;
 
@@ -221,7 +204,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -231,12 +213,10 @@
 
     const-string p0, "Context has no PackageManager."
 
-    .line 2
     invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v3, Landroid/content/ComponentName;
 
@@ -246,7 +226,6 @@
 
     const/16 p0, 0x80
 
-    .line 4
     invoke-virtual {v2, v3, p0}, Landroid/content/pm/PackageManager;->getServiceInfo(Landroid/content/ComponentName;I)Landroid/content/pm/ServiceInfo;
 
     move-result-object p0
@@ -255,12 +234,10 @@
 
     const-string p0, "TransportBackendDiscovery has no service info."
 
-    .line 5
     invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-object v1
 
-    .line 6
     :cond_1
     iget-object p0, p0, Landroid/content/pm/ServiceInfo;->metaData:Landroid/os/Bundle;
     :try_end_0
@@ -271,7 +248,6 @@
     :catch_0
     const-string p0, "Application info not found."
 
-    .line 7
     invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-object v1
@@ -290,7 +266,6 @@
 
     const-string v2, "BackendRegistry"
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/runtime/backends/k$a;->c()Ljava/util/Map;
 
     move-result-object v3
@@ -312,7 +287,6 @@
 
     const/4 v5, 0x0
 
-    .line 2
     :try_start_0
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
@@ -320,21 +294,18 @@
 
     const-class v7, Lcom/google/android/datatransport/runtime/backends/d;
 
-    .line 3
     invoke-virtual {v6, v7}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
 
     move-result-object v6
 
     new-array v7, v5, [Ljava/lang/Class;
 
-    .line 4
     invoke-virtual {v6, v7}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v6
 
     new-array v7, v5, [Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {v6, v7}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v6
@@ -356,7 +327,6 @@
 
     aput-object p1, v4, v5
 
-    .line 6
     invoke-static {v0, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -372,7 +342,6 @@
 
     aput-object p1, v4, v5
 
-    .line 7
     invoke-static {v0, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -388,7 +357,6 @@
 
     aput-object p1, v4, v5
 
-    .line 8
     invoke-static {v1, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -404,7 +372,6 @@
 
     aput-object p1, v4, v5
 
-    .line 9
     invoke-static {v1, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -422,7 +389,6 @@
 
     const-string p1, "Class %s is not found."
 
-    .line 10
     invoke-static {p1, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1

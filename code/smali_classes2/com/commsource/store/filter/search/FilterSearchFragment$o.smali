@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$o;->c:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/store/filter/search/a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/search/FilterSearchFragment$o;->e(Lcom/commsource/store/filter/search/a;)V
@@ -75,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$o;->c:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-static {v1}, Lcom/commsource/store/filter/search/FilterSearchFragment;->B(Lcom/commsource/store/filter/search/FilterSearchFragment;)Lcom/commsource/beautyplus/f0/e8;
@@ -90,7 +87,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$o;->c:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-static {v1}, Lcom/commsource/store/filter/search/FilterSearchFragment;->B(Lcom/commsource/store/filter/search/FilterSearchFragment;)Lcom/commsource/beautyplus/f0/e8;
@@ -105,7 +101,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$o;->c:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-static {v1}, Lcom/commsource/store/filter/search/FilterSearchFragment;->B(Lcom/commsource/store/filter/search/FilterSearchFragment;)Lcom/commsource/beautyplus/f0/e8;
@@ -122,7 +117,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$o;->c:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-static {v1}, Lcom/commsource/store/filter/search/FilterSearchFragment;->A(Lcom/commsource/store/filter/search/FilterSearchFragment;)Lcom/commsource/widget/h1/e;
@@ -133,7 +127,6 @@
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/store/filter/search/a;->b()Ljava/util/List;
 
     move-result-object v3
@@ -146,7 +139,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/store/filter/search/a;->b()Ljava/util/List;
 
     move-result-object v3
@@ -155,7 +147,6 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
-    .line 7
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/store/filter/search/a;->a()Ljava/util/List;
 
@@ -169,7 +160,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/store/filter/search/a;->a()Ljava/util/List;
 
     move-result-object p1
@@ -178,7 +168,6 @@
 
     invoke-virtual {v2, p1, v3}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
-    .line 9
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
@@ -186,10 +175,8 @@
 
     const/4 v2, 0x0
 
-    .line 10
     invoke-virtual {v1, p1, v2}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

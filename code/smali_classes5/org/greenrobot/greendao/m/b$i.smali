@@ -34,7 +34,6 @@
 .method constructor <init>(Lorg/greenrobot/greendao/m/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/greenrobot/greendao/m/b$i;->a:Lorg/greenrobot/greendao/m/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/m/b$i;->a:Lorg/greenrobot/greendao/m/b;
 
     invoke-static {v0}, Lorg/greenrobot/greendao/m/b;->d(Lorg/greenrobot/greendao/m/b;)Lorg/greenrobot/greendao/a;
@@ -74,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/m/b$i;->a()Ljava/lang/Void;
 
     move-result-object v0

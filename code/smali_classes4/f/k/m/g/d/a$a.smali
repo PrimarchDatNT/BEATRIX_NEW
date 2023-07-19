@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lf/k/m/g/d/a$a;-><init>()V
 
     return-void
@@ -46,14 +44,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/m/g/d/a;->a()Lf/k/m/g/d/a;
 
     move-result-object v1
 
     if-nez v1, :cond_1
 
-    .line 2
     sget-object v1, Lf/k/m/g/d/a;->f:Lf/k/m/g/d/a$a;
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -62,7 +58,6 @@
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     invoke-static {}, Lf/k/m/g/d/a;->a()Lf/k/m/g/d/a;
 
@@ -70,20 +65,17 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lf/k/m/g/d/a;
 
     invoke-direct {v2}, Lf/k/m/g/d/a;-><init>()V
 
     invoke-static {v2}, Lf/k/m/g/d/a;->b(Lf/k/m/g/d/a;)V
 
-    .line 5
     :cond_0
     sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     monitor-exit v1
 
     goto :goto_0
@@ -97,7 +89,6 @@
 
     throw v2
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {}, Lf/k/m/g/d/a;->a()Lf/k/m/g/d/a;

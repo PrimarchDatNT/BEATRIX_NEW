@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/commsource/camera/montage/d0$a$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/d0$a$b$b;->a:Lcom/commsource/camera/montage/d0$a$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,10 +51,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -70,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/montage/d0$a$b$b;->a(Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;

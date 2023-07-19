@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/shader/d;
 
     const/4 v1, 0x0
@@ -50,7 +49,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/shader/g;->l(Lcom/commsource/easyeditor/utils/opengl/f;[F)V
 
@@ -84,7 +82,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->c()Lcom/commsource/studio/shader/BaseShader;
 
     move-result-object v1
@@ -99,7 +96,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/shader/f$a;->b(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->d()Lcom/commsource/studio/shader/BaseShader;
 
     move-result-object p1
@@ -112,10 +108,8 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/shader/d$a;->h([F)V
 
-    .line 3
     invoke-super {p0}, Lcom/commsource/studio/shader/a;->a()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -140,7 +134,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->c()Lcom/commsource/studio/shader/BaseShader;
 
     move-result-object v1
@@ -157,7 +150,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->d()Lcom/commsource/studio/shader/BaseShader;
 
     move-result-object p1
@@ -170,11 +162,9 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/shader/d$a;->l([F)V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Lcom/commsource/studio/shader/a;->a()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

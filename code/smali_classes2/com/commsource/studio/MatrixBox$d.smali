@@ -113,7 +113,6 @@
 
     iput-object v1, v0, Lcom/commsource/studio/MatrixBox$d;->Q:Lcotlin/jvm/u/a;
 
-    .line 1
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
@@ -132,7 +131,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/MatrixBox$d;->Q:Lcotlin/jvm/u/a;
 
     if-eqz v0, :cond_0
@@ -143,7 +141,6 @@
 
     check-cast v0, Lcotlin/t1;
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

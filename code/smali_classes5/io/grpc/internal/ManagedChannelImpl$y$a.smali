@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/ManagedChannelImpl$y;Lio/grpc/t0$j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$y$a;->b:Lio/grpc/internal/ManagedChannelImpl$y;
 
     iput-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$y$a;->a:Lio/grpc/t0$j;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$y$a;->a:Lio/grpc/t0$j;
 
     sget-object v1, Lio/grpc/ConnectivityState;->SHUTDOWN:Lio/grpc/ConnectivityState;

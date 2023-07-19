@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 3
     new-instance v0, Lorg/apache/http/protocol/UriPatternMatcher;
 
     invoke-direct {v0}, Lorg/apache/http/protocol/UriPatternMatcher;-><init>()V
@@ -48,12 +47,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Pattern matcher"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -70,7 +67,6 @@
 .method protected getRequestPath(Lorg/apache/http/HttpRequest;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-interface {p1}, Lorg/apache/http/HttpRequest;->getRequestLine()Lorg/apache/http/RequestLine;
 
     move-result-object p1
@@ -81,7 +77,6 @@
 
     const-string v0, "?"
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v0
@@ -92,7 +87,6 @@
 
     if-eq v0, v2, :cond_0
 
-    .line 3
     invoke-virtual {p1, v1, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p1
@@ -102,14 +96,12 @@
     :cond_0
     const-string v0, "#"
 
-    .line 4
     invoke-virtual {p1, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v0
 
     if-eq v0, v2, :cond_1
 
-    .line 5
     invoke-virtual {p1, v1, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p1
@@ -124,10 +116,8 @@
 
     const-string v0, "HTTP request"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/protocol/UriHttpRequestHandlerMapper;->matcher:Lorg/apache/http/protocol/UriPatternMatcher;
 
     invoke-virtual {p0, p1}, Lorg/apache/http/protocol/UriHttpRequestHandlerMapper;->getRequestPath(Lorg/apache/http/HttpRequest;)Ljava/lang/String;
@@ -148,15 +138,12 @@
 
     const-string v0, "Pattern"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Handler"
 
-    .line 2
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lorg/apache/http/protocol/UriHttpRequestHandlerMapper;->matcher:Lorg/apache/http/protocol/UriPatternMatcher;
 
     invoke-virtual {v0, p1, p2}, Lorg/apache/http/protocol/UriPatternMatcher;->register(Ljava/lang/String;Ljava/lang/Object;)V
@@ -167,7 +154,6 @@
 .method public unregister(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/UriHttpRequestHandlerMapper;->matcher:Lorg/apache/http/protocol/UriPatternMatcher;
 
     invoke-virtual {v0, p1}, Lorg/apache/http/protocol/UriPatternMatcher;->unregister(Ljava/lang/String;)V

@@ -68,36 +68,30 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const v0, 0x493e0
 
-    .line 2
     iput v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mMaximumRetryTimeMillis:I
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mContext:Landroid/content/Context;
 
-    .line 4
     new-instance p1, Landroid/os/Handler;
 
     invoke-direct {p1}, Landroid/os/Handler;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryHandler:Landroid/os/Handler;
 
-    .line 5
     new-instance p1, Lcom/mopub/nativeads/ServerPositioningSource$1;
 
     invoke-direct {p1, p0}, Lcom/mopub/nativeads/ServerPositioningSource$1;-><init>(Lcom/mopub/nativeads/ServerPositioningSource;)V
 
     iput-object p1, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryRunnable:Ljava/lang/Runnable;
 
-    .line 6
     new-instance p1, Lcom/mopub/nativeads/ServerPositioningSource$2;
 
     invoke-direct {p1, p0}, Lcom/mopub/nativeads/ServerPositioningSource$2;-><init>(Lcom/mopub/nativeads/ServerPositioningSource;)V
@@ -110,7 +104,6 @@
 .method static synthetic access$000(Lcom/mopub/nativeads/ServerPositioningSource;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/mopub/nativeads/ServerPositioningSource;->requestPositioningInternal()V
 
     return-void
@@ -119,7 +112,6 @@
 .method static synthetic access$100(Lcom/mopub/nativeads/ServerPositioningSource;Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/nativeads/ServerPositioningSource;->handleSuccess(Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;)V
 
     return-void
@@ -128,7 +120,6 @@
 .method static synthetic access$200(Lcom/mopub/nativeads/ServerPositioningSource;)Landroid/content/Context;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mContext:Landroid/content/Context;
 
     return-object p0
@@ -137,7 +128,6 @@
 .method static synthetic access$300(Lcom/mopub/nativeads/ServerPositioningSource;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/mopub/nativeads/ServerPositioningSource;->handleFailure()V
 
     return-void
@@ -146,7 +136,6 @@
 .method private handleFailure()V
     .locals 6
 
-    .line 1
     iget v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryCount:I
 
     const/4 v1, 0x1
@@ -167,12 +156,10 @@
 
     double-to-int v0, v2
 
-    .line 2
     iget v2, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mMaximumRetryTimeMillis:I
 
     if-lt v0, v2, :cond_1
 
-    .line 3
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -185,23 +172,19 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mListener:Lcom/mopub/nativeads/PositioningSource$PositioningListener;
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-interface {v0}, Lcom/mopub/nativeads/PositioningSource$PositioningListener;->onFailed()V
 
     :cond_0
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mListener:Lcom/mopub/nativeads/PositioningSource$PositioningListener;
 
     return-void
 
-    .line 7
     :cond_1
     iget v2, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryCount:I
 
@@ -209,7 +192,6 @@
 
     iput v2, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryCount:I
 
-    .line 8
     iget-object v1, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryHandler:Landroid/os/Handler;
 
     iget-object v2, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryRunnable:Ljava/lang/Runnable;
@@ -228,23 +210,19 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mListener:Lcom/mopub/nativeads/PositioningSource$PositioningListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/mopub/nativeads/PositioningSource$PositioningListener;->onLoad(Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;)V
 
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mListener:Lcom/mopub/nativeads/PositioningSource$PositioningListener;
 
     const/4 p1, 0x0
 
-    .line 4
     iput p1, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryCount:I
 
     return-void
@@ -253,7 +231,6 @@
 .method private requestPositioningInternal()V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -282,7 +259,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     new-instance v0, Lcom/mopub/nativeads/PositioningRequest;
 
     iget-object v1, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mContext:Landroid/content/Context;
@@ -295,14 +271,12 @@
 
     iput-object v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRequest:Lcom/mopub/nativeads/PositioningRequest;
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/mopub/network/Networking;->getRequestQueue(Landroid/content/Context;)Lcom/mopub/network/MoPubRequestQueue;
 
     move-result-object v0
 
-    .line 4
     iget-object v1, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRequest:Lcom/mopub/nativeads/PositioningRequest;
 
     invoke-virtual {v0, v1}, Lcom/mopub/network/MoPubRequestQueue;->add(Lcom/mopub/network/MoPubRequest;)V
@@ -323,26 +297,21 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRequest:Lcom/mopub/nativeads/PositioningRequest;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/network/MoPubRequest;->cancel()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRequest:Lcom/mopub/nativeads/PositioningRequest;
 
-    .line 4
     :cond_0
     iget v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryCount:I
 
     if-lez v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryRunnable:Ljava/lang/Runnable;
@@ -351,35 +320,29 @@
 
     const/4 v0, 0x0
 
-    .line 6
     iput v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryCount:I
 
-    .line 7
     :cond_1
     iput-object p2, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mListener:Lcom/mopub/nativeads/PositioningSource$PositioningListener;
 
-    .line 8
     new-instance p2, Lcom/mopub/nativeads/PositioningUrlGenerator;
 
     iget-object v0, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mContext:Landroid/content/Context;
 
     invoke-direct {p2, v0}, Lcom/mopub/nativeads/PositioningUrlGenerator;-><init>(Landroid/content/Context;)V
 
-    .line 9
     invoke-virtual {p2, p1}, Lcom/mopub/nativeads/PositioningUrlGenerator;->withAdUnitId(Ljava/lang/String;)Lcom/mopub/nativeads/PositioningUrlGenerator;
 
     move-result-object p1
 
     sget-object p2, Lcom/mopub/common/Constants;->HOST:Ljava/lang/String;
 
-    .line 10
     invoke-virtual {p1, p2}, Lcom/mopub/nativeads/PositioningUrlGenerator;->generateUrlString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mRetryUrl:Ljava/lang/String;
 
-    .line 11
     invoke-direct {p0}, Lcom/mopub/nativeads/ServerPositioningSource;->requestPositioningInternal()V
 
     return-void
@@ -393,7 +356,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/mopub/nativeads/ServerPositioningSource;->mMaximumRetryTimeMillis:I
 
     return-void

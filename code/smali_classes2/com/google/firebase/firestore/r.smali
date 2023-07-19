@@ -45,38 +45,32 @@
 .method private constructor <init>(Lcom/google/firebase/firestore/r$b;)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/google/firebase/firestore/r$b;->a(Lcom/google/firebase/firestore/r$b;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/firestore/r;->a:Ljava/lang/String;
 
-    .line 4
     invoke-static {p1}, Lcom/google/firebase/firestore/r$b;->b(Lcom/google/firebase/firestore/r$b;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/firebase/firestore/r;->b:Z
 
-    .line 5
     invoke-static {p1}, Lcom/google/firebase/firestore/r$b;->c(Lcom/google/firebase/firestore/r$b;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/firebase/firestore/r;->c:Z
 
-    .line 6
     invoke-static {p1}, Lcom/google/firebase/firestore/r$b;->d(Lcom/google/firebase/firestore/r$b;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/firebase/firestore/r;->d:Z
 
-    .line 7
     invoke-static {p1}, Lcom/google/firebase/firestore/r$b;->e(Lcom/google/firebase/firestore/r$b;)J
 
     move-result-wide v0
@@ -89,7 +83,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/firestore/r$b;Lcom/google/firebase/firestore/r$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/r;-><init>(Lcom/google/firebase/firestore/r$b;)V
 
     return-void
@@ -98,7 +91,6 @@
 .method static synthetic a(Lcom/google/firebase/firestore/r;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/firestore/r;->a:Ljava/lang/String;
 
     return-object p0
@@ -107,7 +99,6 @@
 .method static synthetic b(Lcom/google/firebase/firestore/r;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/firebase/firestore/r;->b:Z
 
     return p0
@@ -116,7 +107,6 @@
 .method static synthetic c(Lcom/google/firebase/firestore/r;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/firebase/firestore/r;->c:Z
 
     return p0
@@ -125,7 +115,6 @@
 .method static synthetic d(Lcom/google/firebase/firestore/r;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/firebase/firestore/r;->d:Z
 
     return p0
@@ -138,7 +127,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/r;->d:Z
 
     return v0
@@ -162,7 +150,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     const-class v2, Lcom/google/firebase/firestore/r;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -173,11 +160,9 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/firestore/r;
 
-    .line 3
     iget-object v2, p0, Lcom/google/firebase/firestore/r;->a:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/google/firebase/firestore/r;->a:Ljava/lang/String;
@@ -232,7 +217,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/r;->e:J
 
     return-wide v0
@@ -246,7 +230,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/r;->a:Ljava/lang/String;
 
     return-object v0
@@ -257,7 +240,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/r;->c:Z
 
     return v0
@@ -266,7 +248,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/r;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -275,28 +256,24 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-boolean v1, p0, Lcom/google/firebase/firestore/r;->b:Z
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-boolean v1, p0, Lcom/google/firebase/firestore/r;->c:Z
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     iget-boolean v1, p0, Lcom/google/firebase/firestore/r;->d:Z
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 5
     iget-wide v1, p0, Lcom/google/firebase/firestore/r;->e:J
 
     long-to-int v2, v1
@@ -311,7 +288,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/r;->b:Z
 
     return v0
@@ -322,7 +298,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -331,7 +306,6 @@
 
     const-string v2, "host"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -340,7 +314,6 @@
 
     const-string v2, "sslEnabled"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->g(Ljava/lang/String;Z)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -349,7 +322,6 @@
 
     const-string v2, "persistenceEnabled"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->g(Ljava/lang/String;Z)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -358,12 +330,10 @@
 
     const-string v2, "timestampsInSnapshotsEnabled"
 
-    .line 5
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->g(Ljava/lang/String;Z)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

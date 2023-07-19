@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -18,10 +17,8 @@
 
     const-string v0, "Input"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     sget-object v0, Lorg/apache/http/Consts;->ASCII:Ljava/nio/charset/Charset;
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
@@ -36,10 +33,8 @@
 
     const-string v0, "Input"
 
-    .line 3
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 4
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -56,10 +51,8 @@
 
     const-string v0, "Input"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Ljava/lang/String;
 
     sget-object v1, Lorg/apache/http/Consts;->ASCII:Ljava/nio/charset/Charset;
@@ -74,15 +67,12 @@
 
     const-string v0, "Input"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Charset"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notEmpty(Ljava/lang/CharSequence;Ljava/lang/String;)Ljava/lang/CharSequence;
 
-    .line 3
     :try_start_0
     invoke-virtual {p0, p1}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
@@ -92,7 +82,6 @@
 
     return-object p0
 
-    .line 4
     :catch_0
     invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
 
@@ -106,15 +95,12 @@
 
     const-string v0, "Input"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Charset"
 
-    .line 2
     invoke-static {p3, v0}, Lorg/apache/http/util/Args;->notEmpty(Ljava/lang/CharSequence;Ljava/lang/String;)Ljava/lang/CharSequence;
 
-    .line 3
     :try_start_0
     new-instance v0, Ljava/lang/String;
 
@@ -124,7 +110,6 @@
 
     return-object v0
 
-    .line 4
     :catch_0
     new-instance p3, Ljava/lang/String;
 
@@ -138,10 +123,8 @@
 
     const-string v0, "Input"
 
-    .line 5
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 6
     array-length v0, p0
 
     const/4 v1, 0x0

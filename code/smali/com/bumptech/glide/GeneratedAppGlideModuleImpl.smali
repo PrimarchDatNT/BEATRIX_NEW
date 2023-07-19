@@ -11,10 +11,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/GeneratedAppGlideModule;-><init>()V
 
-    .line 2
     new-instance p1, Lcom/commsource/beautyplus/BeautyPlusGlideModule;
 
     invoke-direct {p1}, Lcom/commsource/beautyplus/BeautyPlusGlideModule;-><init>()V
@@ -25,7 +23,6 @@
 
     const/4 v0, 0x3
 
-    .line 3
     invoke-static {p1, v0}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v0
@@ -34,17 +31,14 @@
 
     const-string v0, "Discovered AppGlideModule from annotation: com.commsource.beautyplus.BeautyPlusGlideModule"
 
-    .line 4
     invoke-static {p1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     const-string v0, "Discovered LibraryGlideModule from annotation: com.bumptech.glide.integration.okhttp3.OkHttpLibraryGlideModule"
 
-    .line 5
     invoke-static {p1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     const-string v0, "Discovered LibraryGlideModule from annotation: com.bumptech.glide.integration.webp.WebpGlideLibraryModule"
 
-    .line 6
     invoke-static {p1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
@@ -64,7 +58,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/GeneratedAppGlideModuleImpl;->a:Lcom/commsource/beautyplus/BeautyPlusGlideModule;
 
     invoke-virtual {v0, p1, p2}, Lcom/commsource/beautyplus/BeautyPlusGlideModule;->a(Landroid/content/Context;Lcom/bumptech/glide/d;)V
@@ -87,21 +80,18 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/integration/okhttp3/a;
 
     invoke-direct {v0}, Lcom/bumptech/glide/integration/okhttp3/a;-><init>()V
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/bumptech/glide/integration/okhttp3/a;->b(Landroid/content/Context;Lcom/bumptech/glide/c;Lcom/bumptech/glide/Registry;)V
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/integration/webp/d;
 
     invoke-direct {v0}, Lcom/bumptech/glide/integration/webp/d;-><init>()V
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/bumptech/glide/integration/webp/d;->b(Landroid/content/Context;Lcom/bumptech/glide/c;Lcom/bumptech/glide/Registry;)V
 
-    .line 3
     iget-object v0, p0, Lcom/bumptech/glide/GeneratedAppGlideModuleImpl;->a:Lcom/commsource/beautyplus/BeautyPlusGlideModule;
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/commsource/beautyplus/BeautyPlusGlideModule;->b(Landroid/content/Context;Lcom/bumptech/glide/c;Lcom/bumptech/glide/Registry;)V
@@ -112,7 +102,6 @@
 .method public c()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/GeneratedAppGlideModuleImpl;->a:Lcom/commsource/beautyplus/BeautyPlusGlideModule;
 
     invoke-virtual {v0}, Lcom/bumptech/glide/p/a;->c()Z
@@ -136,7 +125,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
     move-result-object v0
@@ -149,7 +137,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/GeneratedAppGlideModuleImpl;->f()Lcom/bumptech/glide/a;
 
     move-result-object v0
@@ -162,7 +149,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/a;
 
     invoke-direct {v0}, Lcom/bumptech/glide/a;-><init>()V

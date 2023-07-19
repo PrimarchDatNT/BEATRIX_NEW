@@ -84,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/beautyplus/location/LocationSearchViewModel;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -105,24 +104,20 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->f:Landroidx/lifecycle/MutableLiveData;
 
-    .line 3
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->g:Landroidx/lifecycle/MutableLiveData;
 
-    .line 4
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -139,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->J:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -154,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->c:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->c:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -184,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->d:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -199,7 +190,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->d:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -214,7 +204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->f:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -229,7 +218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->g:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -244,7 +232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->a:D
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -259,7 +246,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->b:D
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -285,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->f:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -309,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->p:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -332,7 +316,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->g:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -347,20 +330,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->a:D
 
-    .line 2
     iput-wide p3, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->b:D
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->g:Landroidx/lifecycle/MutableLiveData;
 
     sget-object p2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p1, Lcom/commsource/beautyplus/location/LocationSearchViewModel$a;
 
     const-string p2, "GetNearbyTask"
@@ -369,7 +348,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -382,7 +360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->c:Ljava/util/List;
 
     if-eqz v1, :cond_5
@@ -395,33 +372,28 @@
 
     goto :goto_2
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->d:Ljava/util/List;
 
     if-nez v1, :cond_1
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->d:Ljava/util/List;
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->d:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 5
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->d:Ljava/util/List;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->c:Ljava/util/List;
@@ -430,7 +402,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->c:Ljava/util/List;
 
@@ -452,21 +423,18 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 8
     invoke-virtual {v2, p1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-eqz v3, :cond_3
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->d:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 10
     :cond_4
     :goto_1
     iget-object p1, p0, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->p:Landroidx/lifecycle/MutableLiveData;
@@ -475,12 +443,10 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

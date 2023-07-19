@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/effect/k;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v1
@@ -42,18 +40,15 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/effect/q;->i:Lcom/commsource/studio/function/t/c;
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/function/t/c;->e()Z
 
     move-result v1
@@ -64,7 +59,6 @@
 
     return v1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -78,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/q;->i:Lcom/commsource/studio/function/t/c;
 
     if-eqz v1, :cond_0
@@ -105,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/q;->i:Lcom/commsource/studio/function/t/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -124,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/effect/q;->i:Lcom/commsource/studio/function/t/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

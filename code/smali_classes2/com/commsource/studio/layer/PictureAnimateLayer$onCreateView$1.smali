@@ -36,15 +36,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1;->b:Lcom/commsource/studio/layer/PictureAnimateLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 p2, 0x3
@@ -67,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1;->a:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -90,7 +86,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1;->b:Lcom/commsource/studio/layer/PictureAnimateLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/PictureAnimateLayer;->s0()Landroid/graphics/Bitmap;
@@ -101,7 +96,6 @@
 
     const v2, 0xf4f4f4
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1;->b:Lcom/commsource/studio/layer/PictureAnimateLayer;
 
     invoke-virtual {v3}, Lcom/commsource/studio/layer/PictureAnimateLayer;->r0()F
@@ -114,7 +108,6 @@
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->drawColor(I)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1;->b:Lcom/commsource/studio/layer/PictureAnimateLayer;
 
     invoke-virtual {v2}, Lcom/commsource/studio/layer/PictureAnimateLayer;->t0()Lcom/commsource/studio/MatrixBox;
@@ -129,14 +122,12 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Matrix;Landroid/graphics/Paint;)V
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1$a;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1$a;-><init>(Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1;Landroid/graphics/Canvas;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->g(Ljava/lang/Runnable;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

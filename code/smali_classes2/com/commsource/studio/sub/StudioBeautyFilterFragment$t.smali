@@ -73,7 +73,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v1
@@ -92,10 +91,8 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->filter_long_press_collect:I
 
-    .line 2
     invoke-static {p1}, Lf/k/c/c/f;->H(I)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -109,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$t;->a(Ljava/lang/Boolean;)V

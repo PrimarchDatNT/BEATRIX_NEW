@@ -37,12 +37,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/library/appcia/d/a;->b:Lcom/meitu/library/appcia/d/a$a;
 
-    .line 2
     new-instance p1, Ljava/util/HashSet;
 
     const/16 v0, 0x10
@@ -75,7 +73,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -96,7 +93,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -117,14 +113,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/meitu/library/appcia/d/a;->b:Lcom/meitu/library/appcia/d/a$a;
 
     if-eqz p1, :cond_0
 
     invoke-interface {p1}, Lcom/meitu/library/appcia/d/a$a;->c()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -146,7 +140,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -175,7 +168,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -196,7 +188,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/d/a;->a:Ljava/util/HashSet;
 
     invoke-virtual {p1}, Landroid/app/Activity;->hashCode()I
@@ -209,7 +200,6 @@
 
     invoke-virtual {v1, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/library/appcia/d/a;->a:Ljava/util/HashSet;
 
     invoke-virtual {p1}, Ljava/util/HashSet;->size()I
@@ -220,14 +210,12 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/library/appcia/d/a;->b:Lcom/meitu/library/appcia/d/a$a;
 
     if-eqz p1, :cond_0
 
     invoke-interface {p1}, Lcom/meitu/library/appcia/d/a$a;->a()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -249,7 +237,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/d/a;->a:Ljava/util/HashSet;
 
     invoke-virtual {p1}, Landroid/app/Activity;->hashCode()I
@@ -262,7 +249,6 @@
 
     invoke-virtual {v1, p1}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/library/appcia/d/a;->a:Ljava/util/HashSet;
 
     invoke-virtual {p1}, Ljava/util/HashSet;->isEmpty()Z
@@ -271,14 +257,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/library/appcia/d/a;->b:Lcom/meitu/library/appcia/d/a$a;
 
     if-eqz p1, :cond_0
 
     invoke-interface {p1}, Lcom/meitu/library/appcia/d/a$a;->b()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

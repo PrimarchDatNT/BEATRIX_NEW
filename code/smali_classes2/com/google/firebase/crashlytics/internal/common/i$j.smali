@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/i;Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$j;->d:Lcom/google/firebase/crashlytics/internal/common/i;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/i$j;->a:Ljava/lang/String;
@@ -55,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/i$j;->a:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/i$j;->b:Ljava/lang/String;

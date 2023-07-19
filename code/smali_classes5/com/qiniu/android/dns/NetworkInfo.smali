@@ -43,7 +43,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/qiniu/android/dns/NetworkInfo;
 
     sget-object v1, Lcom/qiniu/android/dns/NetworkInfo$NetSatus;->NO_NETWORK:Lcom/qiniu/android/dns/NetworkInfo$NetSatus;
@@ -54,7 +53,6 @@
 
     sput-object v0, Lcom/qiniu/android/dns/NetworkInfo;->k:Lcom/qiniu/android/dns/NetworkInfo;
 
-    .line 2
     new-instance v0, Lcom/qiniu/android/dns/NetworkInfo;
 
     sget-object v1, Lcom/qiniu/android/dns/NetworkInfo$NetSatus;->WIFI:Lcom/qiniu/android/dns/NetworkInfo$NetSatus;
@@ -69,13 +67,10 @@
 .method public constructor <init>(Lcom/qiniu/android/dns/NetworkInfo$NetSatus;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/qiniu/android/dns/NetworkInfo;->b:Lcom/qiniu/android/dns/NetworkInfo$NetSatus;
 
-    .line 3
     iput p2, p0, Lcom/qiniu/android/dns/NetworkInfo;->a:I
 
     return-void

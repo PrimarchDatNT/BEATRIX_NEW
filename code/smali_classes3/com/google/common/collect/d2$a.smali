@@ -54,10 +54,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/Multisets$h;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/d2$a;->a:Lcom/google/common/collect/b2;
 
     return-void
@@ -68,7 +66,6 @@
 .method bridge synthetic b()Lcom/google/common/collect/m1;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -86,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/d2$a;->a:Lcom/google/common/collect/b2;
 
     return-object v0
@@ -102,7 +98,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -122,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -148,7 +142,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -176,7 +169,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -204,7 +196,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -230,7 +221,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -260,7 +250,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0

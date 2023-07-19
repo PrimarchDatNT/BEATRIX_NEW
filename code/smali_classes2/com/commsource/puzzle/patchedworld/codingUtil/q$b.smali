@@ -102,19 +102,16 @@
 .method public constructor <init>(Lcom/commsource/puzzle/patchedworld/codingUtil/q;)V
     .locals 2
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->O:Lcom/commsource/puzzle/patchedworld/codingUtil/q;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->a:Landroid/graphics/PointF;
 
-    .line 3
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
@@ -123,132 +120,94 @@
 
     const/4 p1, 0x0
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->c:Z
 
     const-wide/16 v0, 0x0
 
-    .line 5
     iput-wide v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->d:J
 
-    .line 6
     iput-wide v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->e:J
 
     const/4 v0, -0x1
 
-    .line 7
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->f:I
 
     const/4 v0, 0x1
 
-    .line 8
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->g:Z
 
-    .line 9
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->h:Z
 
-    .line 10
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->i:Z
 
-    .line 11
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->j:Z
 
-    .line 12
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->k:Z
 
     const/4 v0, 0x0
 
-    .line 13
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->l:F
 
-    .line 14
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->m:F
 
     const v1, 0x461c4000    # 10000.0f
 
-    .line 15
     iput v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->n:F
 
-    .line 16
     iput v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->o:F
 
-    .line 17
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->p:F
 
-    .line 18
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->q:F
 
-    .line 19
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->r:F
 
-    .line 20
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->s:F
 
-    .line 21
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->t:F
 
-    .line 22
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->u:F
 
-    .line 23
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->v:F
 
-    .line 24
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->w:F
 
-    .line 25
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->x:F
 
-    .line 26
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->y:F
 
-    .line 27
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->z:F
 
-    .line 28
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->A:F
 
-    .line 29
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->B:F
 
-    .line 30
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->C:F
 
-    .line 31
     new-instance v1, Landroid/graphics/PointF;
 
     invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->D:Landroid/graphics/PointF;
 
-    .line 32
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->E:F
 
-    .line 33
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->F:F
 
-    .line 34
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->G:F
 
-    .line 35
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->H:F
 
-    .line 36
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->I:F
 
-    .line 37
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->J:F
 
-    .line 38
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->K:F
 
-    .line 39
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->L:F
 
-    .line 40
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->M:Z
 
-    .line 41
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->N:Z
 
     return-void
@@ -261,7 +220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->u:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -276,7 +234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->v:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -291,7 +248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->w:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -306,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->x:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -321,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->x:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -336,7 +290,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->y:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -351,7 +304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->z:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -366,7 +318,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->z:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -381,7 +332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->A:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -396,7 +346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->A:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -411,7 +360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->a:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -426,7 +374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->B:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -441,7 +388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->B:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -456,7 +402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->C:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -471,7 +416,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->E:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -486,7 +430,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->E:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -501,7 +444,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->F:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -516,7 +458,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->G:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -531,7 +472,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->G:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -546,7 +486,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->H:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -561,7 +500,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->I:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -576,7 +514,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->I:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -591,7 +528,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->J:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -606,7 +542,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->K:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -621,7 +556,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->K:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -636,7 +570,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->L:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -651,7 +584,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->D:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -666,7 +598,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->o:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -681,7 +612,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -696,7 +626,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->o:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -711,7 +640,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -726,7 +654,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -741,7 +668,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -756,7 +682,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -771,7 +696,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->q:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -786,7 +710,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -801,7 +724,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->e:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -816,7 +738,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -831,7 +752,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->e:J
 
     const-wide/16 v3, 0x1
@@ -852,7 +772,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->l:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -867,7 +786,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->d:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -882,7 +800,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->l:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -897,7 +814,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->d:J
 
     const-wide/16 v3, 0x1
@@ -918,7 +834,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->m:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -933,7 +848,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -948,7 +862,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->m:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -963,7 +876,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -978,7 +890,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->b:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -993,7 +904,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1008,7 +918,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1023,7 +932,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->h:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1038,7 +946,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->h:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1053,7 +960,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1068,7 +974,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1083,7 +988,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->N:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1098,7 +1002,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->M:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1113,7 +1016,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->n:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1128,7 +1030,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->r:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1143,7 +1044,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->r:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1158,7 +1058,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->n:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1173,7 +1072,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->s:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1188,7 +1086,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->t:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1203,7 +1100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->u:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1220,7 +1116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->o:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1235,7 +1130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->A:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1250,7 +1144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->J:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1265,7 +1158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->F:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1280,7 +1172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->u:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1295,7 +1186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->v:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1310,7 +1200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->w:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1325,7 +1214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->l:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1340,7 +1228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->m:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1355,7 +1242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->L:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1370,7 +1256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->L:F
 
     neg-float v1, v1
@@ -1387,7 +1272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->H:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1402,7 +1286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->y:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1417,7 +1300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->a:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1432,7 +1314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->b:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1447,7 +1328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->d:J
 
     const-wide/16 v3, 0x5
@@ -1476,7 +1356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->e:J
 
     const-wide/16 v3, 0x5
@@ -1505,7 +1384,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->M:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1520,7 +1398,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1535,7 +1412,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1550,7 +1426,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->N:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1565,7 +1440,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->h:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1580,7 +1454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1595,7 +1468,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1616,10 +1488,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->f:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1632,7 +1502,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->f:I
 
     if-ne v1, p1, :cond_0
@@ -1657,15 +1526,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->i:Z
 
-    .line 2
     iget p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->z:F
 
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->A:F
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1680,25 +1546,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->h:Z
 
-    .line 2
     iget p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->r:F
 
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->u:F
 
-    .line 3
     iget p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->s:F
 
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->v:F
 
-    .line 4
     iget p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->t:F
 
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->w:F
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1711,7 +1572,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->C:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1726,7 +1586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->C:F
 
     neg-float v1, v1
@@ -1743,7 +1602,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->z:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1758,7 +1616,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->I:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1773,7 +1630,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->E:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1788,7 +1644,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->r:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1803,7 +1658,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->s:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1818,7 +1672,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->t:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1833,7 +1686,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1848,7 +1700,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->q:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1867,7 +1718,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1882,7 +1732,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;->n:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

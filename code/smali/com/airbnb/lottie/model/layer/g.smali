@@ -187,10 +187,8 @@
 .method constructor <init>(Lcom/airbnb/lottie/j;Lcom/airbnb/lottie/model/layer/Layer;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/airbnb/lottie/model/layer/a;-><init>(Lcom/airbnb/lottie/j;Lcom/airbnb/lottie/model/layer/Layer;)V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     const/4 v1, 0x2
@@ -199,21 +197,18 @@
 
     iput-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->D:Ljava/lang/StringBuilder;
 
-    .line 3
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->E:Landroid/graphics/RectF;
 
-    .line 4
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->F:Landroid/graphics/Matrix;
 
-    .line 5
     new-instance v0, Lcom/airbnb/lottie/model/layer/g$a;
 
     const/4 v1, 0x1
@@ -222,38 +217,32 @@
 
     iput-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
 
-    .line 6
     new-instance v0, Lcom/airbnb/lottie/model/layer/g$b;
 
     invoke-direct {v0, p0, v1}, Lcom/airbnb/lottie/model/layer/g$b;-><init>(Lcom/airbnb/lottie/model/layer/g;I)V
 
     iput-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
-    .line 7
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->I:Ljava/util/Map;
 
-    .line 8
     new-instance v0, Landroidx/collection/LongSparseArray;
 
     invoke-direct {v0}, Landroidx/collection/LongSparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->J:Landroidx/collection/LongSparseArray;
 
-    .line 9
     iput-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->L:Lcom/airbnb/lottie/j;
 
-    .line 10
     invoke-virtual {p2}, Lcom/airbnb/lottie/model/layer/Layer;->a()Lcom/airbnb/lottie/g;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->M:Lcom/airbnb/lottie/g;
 
-    .line 11
     invoke-virtual {p2}, Lcom/airbnb/lottie/model/layer/Layer;->q()Lcom/airbnb/lottie/model/i/j;
 
     move-result-object p1
@@ -264,35 +253,28 @@
 
     iput-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->K:Lcom/airbnb/lottie/w/c/n;
 
-    .line 12
     invoke-virtual {p1, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 13
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
 
-    .line 14
     invoke-virtual {p2}, Lcom/airbnb/lottie/model/layer/Layer;->r()Lcom/airbnb/lottie/model/i/k;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 15
     iget-object p2, p1, Lcom/airbnb/lottie/model/i/k;->a:Lcom/airbnb/lottie/model/i/a;
 
     if-eqz p2, :cond_0
 
-    .line 16
     invoke-virtual {p2}, Lcom/airbnb/lottie/model/i/a;->a()Lcom/airbnb/lottie/w/c/a;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->N:Lcom/airbnb/lottie/w/c/a;
 
-    .line 17
     invoke-virtual {p2, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 18
     iget-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->N:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
@@ -300,22 +282,18 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 19
     iget-object p2, p1, Lcom/airbnb/lottie/model/i/k;->b:Lcom/airbnb/lottie/model/i/a;
 
     if-eqz p2, :cond_1
 
-    .line 20
     invoke-virtual {p2}, Lcom/airbnb/lottie/model/i/a;->a()Lcom/airbnb/lottie/w/c/a;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->P:Lcom/airbnb/lottie/w/c/a;
 
-    .line 21
     invoke-virtual {p2, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 22
     iget-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->P:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
@@ -323,22 +301,18 @@
     :cond_1
     if-eqz p1, :cond_2
 
-    .line 23
     iget-object p2, p1, Lcom/airbnb/lottie/model/i/k;->c:Lcom/airbnb/lottie/model/i/b;
 
     if-eqz p2, :cond_2
 
-    .line 24
     invoke-virtual {p2}, Lcom/airbnb/lottie/model/i/b;->a()Lcom/airbnb/lottie/w/c/a;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->R:Lcom/airbnb/lottie/w/c/a;
 
-    .line 25
     invoke-virtual {p2, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 26
     iget-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->R:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
@@ -346,22 +320,18 @@
     :cond_2
     if-eqz p1, :cond_3
 
-    .line 27
     iget-object p1, p1, Lcom/airbnb/lottie/model/i/k;->d:Lcom/airbnb/lottie/model/i/b;
 
     if-eqz p1, :cond_3
 
-    .line 28
     invoke-virtual {p1}, Lcom/airbnb/lottie/model/i/b;->a()Lcom/airbnb/lottie/w/c/a;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->T:Lcom/airbnb/lottie/w/c/a;
 
-    .line 29
     invoke-virtual {p1, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 30
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->T:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
@@ -373,7 +343,6 @@
 .method private K(Lcom/airbnb/lottie/model/DocumentData$Justification;Landroid/graphics/Canvas;F)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/model/layer/g$c;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -401,7 +370,6 @@
 
     div-float/2addr p1, p3
 
-    .line 2
     invoke-virtual {p2, p1, v1}, Landroid/graphics/Canvas;->translate(FF)V
 
     goto :goto_0
@@ -409,7 +377,6 @@
     :cond_1
     neg-float p1, p3
 
-    .line 3
     invoke-virtual {p2, p1, v1}, Landroid/graphics/Canvas;->translate(FF)V
 
     :goto_0
@@ -419,19 +386,16 @@
 .method private L(Ljava/lang/String;I)Ljava/lang/String;
     .locals 5
 
-    .line 1
     invoke-virtual {p1, p2}, Ljava/lang/String;->codePointAt(I)I
 
     move-result v0
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Character;->charCount(I)I
 
     move-result v1
 
     add-int/2addr v1, p2
 
-    .line 3
     :goto_0
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -439,12 +403,10 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 4
     invoke-virtual {p1, v1}, Ljava/lang/String;->codePointAt(I)I
 
     move-result v2
 
-    .line 5
     invoke-direct {p0, v2}, Lcom/airbnb/lottie/model/layer/g;->X(I)Z
 
     move-result v3
@@ -453,7 +415,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     invoke-static {v2}, Ljava/lang/Character;->charCount(I)I
 
@@ -467,7 +428,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     :goto_1
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->J:Landroidx/collection/LongSparseArray;
@@ -480,7 +440,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 8
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->J:Landroidx/collection/LongSparseArray;
 
     invoke-virtual {p1, v3, v4}, Landroidx/collection/LongSparseArray;->get(J)Ljava/lang/Object;
@@ -491,7 +450,6 @@
 
     return-object p1
 
-    .line 9
     :cond_2
     iget-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->D:Ljava/lang/StringBuilder;
 
@@ -502,17 +460,14 @@
     :goto_2
     if-ge p2, v1, :cond_3
 
-    .line 10
     invoke-virtual {p1, p2}, Ljava/lang/String;->codePointAt(I)I
 
     move-result v0
 
-    .line 11
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->D:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->appendCodePoint(I)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-static {v0}, Ljava/lang/Character;->charCount(I)I
 
     move-result v0
@@ -521,7 +476,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_3
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->D:Ljava/lang/StringBuilder;
 
@@ -529,7 +483,6 @@
 
     move-result-object p1
 
-    .line 14
     iget-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->J:Landroidx/collection/LongSparseArray;
 
     invoke-virtual {p2, v3, v4, p1}, Landroidx/collection/LongSparseArray;->put(JLjava/lang/Object;)V
@@ -540,7 +493,6 @@
 .method private M(Ljava/lang/String;Landroid/graphics/Paint;Landroid/graphics/Canvas;)V
     .locals 8
 
-    .line 1
     invoke-virtual {p2}, Landroid/graphics/Paint;->getColor()I
 
     move-result v0
@@ -549,7 +501,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Landroid/graphics/Paint;->getStyle()Landroid/graphics/Paint$Style;
 
@@ -574,7 +525,6 @@
     :cond_1
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -597,7 +547,6 @@
 .method private N(Lcom/airbnb/lottie/model/c;Landroid/graphics/Matrix;FLcom/airbnb/lottie/model/DocumentData;Landroid/graphics/Canvas;)V
     .locals 7
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/model/layer/g;->U(Lcom/airbnb/lottie/model/c;)Ljava/util/List;
 
     move-result-object p1
@@ -606,7 +555,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -614,7 +562,6 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -625,17 +572,14 @@
 
     move-result-object v2
 
-    .line 4
     iget-object v3, p0, Lcom/airbnb/lottie/model/layer/g;->E:Landroid/graphics/RectF;
 
     invoke-virtual {v2, v3, v0}, Landroid/graphics/Path;->computeBounds(Landroid/graphics/RectF;Z)V
 
-    .line 5
     iget-object v3, p0, Lcom/airbnb/lottie/model/layer/g;->F:Landroid/graphics/Matrix;
 
     invoke-virtual {v3, p2}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 6
     iget-object v3, p0, Lcom/airbnb/lottie/model/layer/g;->F:Landroid/graphics/Matrix;
 
     const/4 v4, 0x0
@@ -652,40 +596,33 @@
 
     invoke-virtual {v3, v4, v5}, Landroid/graphics/Matrix;->preTranslate(FF)Z
 
-    .line 7
     iget-object v3, p0, Lcom/airbnb/lottie/model/layer/g;->F:Landroid/graphics/Matrix;
 
     invoke-virtual {v3, p3, p3}, Landroid/graphics/Matrix;->preScale(FF)Z
 
-    .line 8
     iget-object v3, p0, Lcom/airbnb/lottie/model/layer/g;->F:Landroid/graphics/Matrix;
 
     invoke-virtual {v2, v3}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;)V
 
-    .line 9
     iget-boolean v3, p4, Lcom/airbnb/lottie/model/DocumentData;->k:Z
 
     if-eqz v3, :cond_0
 
-    .line 10
     iget-object v3, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
 
     invoke-direct {p0, v2, v3, p5}, Lcom/airbnb/lottie/model/layer/g;->Q(Landroid/graphics/Path;Landroid/graphics/Paint;Landroid/graphics/Canvas;)V
 
-    .line 11
     iget-object v3, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     invoke-direct {p0, v2, v3, p5}, Lcom/airbnb/lottie/model/layer/g;->Q(Landroid/graphics/Path;Landroid/graphics/Paint;Landroid/graphics/Canvas;)V
 
     goto :goto_1
 
-    .line 12
     :cond_0
     iget-object v3, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     invoke-direct {p0, v2, v3, p5}, Lcom/airbnb/lottie/model/layer/g;->Q(Landroid/graphics/Path;Landroid/graphics/Paint;Landroid/graphics/Canvas;)V
 
-    .line 13
     iget-object v3, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
 
     invoke-direct {p0, v2, v3, p5}, Lcom/airbnb/lottie/model/layer/g;->Q(Landroid/graphics/Path;Landroid/graphics/Paint;Landroid/graphics/Canvas;)V
@@ -702,30 +639,25 @@
 .method private O(Ljava/lang/String;Lcom/airbnb/lottie/model/DocumentData;Landroid/graphics/Canvas;)V
     .locals 0
 
-    .line 1
     iget-boolean p2, p2, Lcom/airbnb/lottie/model/DocumentData;->k:Z
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
 
     invoke-direct {p0, p1, p2, p3}, Lcom/airbnb/lottie/model/layer/g;->M(Ljava/lang/String;Landroid/graphics/Paint;Landroid/graphics/Canvas;)V
 
-    .line 3
     iget-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     invoke-direct {p0, p1, p2, p3}, Lcom/airbnb/lottie/model/layer/g;->M(Ljava/lang/String;Landroid/graphics/Paint;Landroid/graphics/Canvas;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     invoke-direct {p0, p1, p2, p3}, Lcom/airbnb/lottie/model/layer/g;->M(Ljava/lang/String;Landroid/graphics/Paint;Landroid/graphics/Canvas;)V
 
-    .line 5
     iget-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
 
     invoke-direct {p0, p1, p2, p3}, Lcom/airbnb/lottie/model/layer/g;->M(Ljava/lang/String;Landroid/graphics/Paint;Landroid/graphics/Canvas;)V
@@ -739,7 +671,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -747,22 +678,18 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     invoke-direct {p0, p1, v0}, Lcom/airbnb/lottie/model/layer/g;->L(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v2
 
     add-int/2addr v0, v2
 
-    .line 4
     invoke-direct {p0, v1, p2, p3}, Lcom/airbnb/lottie/model/layer/g;->O(Ljava/lang/String;Lcom/airbnb/lottie/model/DocumentData;Landroid/graphics/Canvas;)V
 
-    .line 5
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
 
     invoke-virtual {v2, v1}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
@@ -773,7 +700,6 @@
 
     const/4 v2, 0x0
 
-    .line 6
     invoke-virtual {p3, v1, v2}, Landroid/graphics/Canvas;->translate(FF)V
 
     goto :goto_0
@@ -785,7 +711,6 @@
 .method private Q(Landroid/graphics/Path;Landroid/graphics/Paint;Landroid/graphics/Canvas;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p2}, Landroid/graphics/Paint;->getColor()I
 
     move-result v0
@@ -794,7 +719,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Landroid/graphics/Paint;->getStyle()Landroid/graphics/Paint$Style;
 
@@ -816,7 +740,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-virtual {p3, p1, p2}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
@@ -828,7 +751,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -836,12 +758,10 @@
 
     if-ge v0, v1, :cond_3
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/String;->charAt(I)C
 
     move-result v1
 
-    .line 3
     invoke-virtual {p4}, Lcom/airbnb/lottie/model/b;->b()Ljava/lang/String;
 
     move-result-object v2
@@ -854,7 +774,6 @@
 
     move-result v1
 
-    .line 4
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->M:Lcom/airbnb/lottie/g;
 
     invoke-virtual {v2}, Lcom/airbnb/lottie/g;->c()Landroidx/collection/SparseArrayCompat;
@@ -884,10 +803,8 @@
 
     move-object v7, p5
 
-    .line 5
     invoke-direct/range {v2 .. v7}, Lcom/airbnb/lottie/model/layer/g;->N(Lcom/airbnb/lottie/model/c;Landroid/graphics/Matrix;FLcom/airbnb/lottie/model/DocumentData;Landroid/graphics/Canvas;)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/airbnb/lottie/model/c;->d()D
 
     move-result-wide v1
@@ -904,7 +821,6 @@
 
     mul-float v1, v1, p6
 
-    .line 7
     iget v2, p2, Lcom/airbnb/lottie/model/DocumentData;->e:I
 
     int-to-float v2, v2
@@ -913,12 +829,10 @@
 
     div-float/2addr v2, v3
 
-    .line 8
     iget-object v3, p0, Lcom/airbnb/lottie/model/layer/g;->U:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz v3, :cond_1
 
-    .line 9
     invoke-virtual {v3}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
 
     move-result-object v3
@@ -934,13 +848,11 @@
 
     goto :goto_2
 
-    .line 10
     :cond_1
     iget-object v3, p0, Lcom/airbnb/lottie/model/layer/g;->T:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz v3, :cond_2
 
-    .line 11
     invoke-virtual {v3}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
 
     move-result-object v3
@@ -961,7 +873,6 @@
 
     const/4 v2, 0x0
 
-    .line 12
     invoke-virtual {p5, v1, v2}, Landroid/graphics/Canvas;->translate(FF)V
 
     :goto_3
@@ -982,12 +893,10 @@
 
     move-object/from16 v10, p4
 
-    .line 1
     iget-object v0, v8, Lcom/airbnb/lottie/model/layer/g;->W:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -1000,13 +909,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, v8, Lcom/airbnb/lottie/model/layer/g;->V:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {v0}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -1019,7 +926,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget v0, v9, Lcom/airbnb/lottie/model/DocumentData;->c:F
 
@@ -1028,15 +934,12 @@
 
     div-float v11, v0, v1
 
-    .line 6
     invoke-static/range {p2 .. p2}, Lcom/airbnb/lottie/z/h;->g(Landroid/graphics/Matrix;)F
 
     move-result v12
 
-    .line 7
     iget-object v0, v9, Lcom/airbnb/lottie/model/DocumentData;->a:Ljava/lang/String;
 
-    .line 8
     iget v1, v9, Lcom/airbnb/lottie/model/DocumentData;->f:F
 
     invoke-static {}, Lcom/airbnb/lottie/z/h;->e()F
@@ -1045,12 +948,10 @@
 
     mul-float v13, v1, v2
 
-    .line 9
     invoke-direct {v8, v0}, Lcom/airbnb/lottie/model/layer/g;->W(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v14
 
-    .line 10
     invoke-interface {v14}, Ljava/util/List;->size()I
 
     move-result v15
@@ -1062,7 +963,6 @@
     :goto_1
     if-ge v7, v15, :cond_2
 
-    .line 11
     invoke-interface {v14, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -1073,15 +973,12 @@
 
     move-object/from16 v6, p3
 
-    .line 12
     invoke-direct {v8, v1, v6, v11, v12}, Lcom/airbnb/lottie/model/layer/g;->V(Ljava/lang/String;Lcom/airbnb/lottie/model/b;FF)F
 
     move-result v0
 
-    .line 13
     invoke-virtual/range {p4 .. p4}, Landroid/graphics/Canvas;->save()I
 
-    .line 14
     iget-object v2, v9, Lcom/airbnb/lottie/model/DocumentData;->d:Lcom/airbnb/lottie/model/DocumentData$Justification;
 
     invoke-direct {v8, v2, v10, v0}, Lcom/airbnb/lottie/model/layer/g;->K(Lcom/airbnb/lottie/model/DocumentData$Justification;Landroid/graphics/Canvas;F)V
@@ -1104,7 +1001,6 @@
 
     const/4 v0, 0x0
 
-    .line 15
     invoke-virtual {v10, v0, v2}, Landroid/graphics/Canvas;->translate(FF)V
 
     move-object/from16 v0, p0
@@ -1123,10 +1019,8 @@
 
     move v7, v11
 
-    .line 16
     invoke-direct/range {v0 .. v7}, Lcom/airbnb/lottie/model/layer/g;->R(Ljava/lang/String;Lcom/airbnb/lottie/model/DocumentData;Landroid/graphics/Matrix;Lcom/airbnb/lottie/model/b;Landroid/graphics/Canvas;FF)V
 
-    .line 17
     invoke-virtual/range {p4 .. p4}, Landroid/graphics/Canvas;->restore()V
 
     add-int/lit8 v7, v16, 0x1
@@ -1140,10 +1034,8 @@
 .method private T(Lcom/airbnb/lottie/model/DocumentData;Lcom/airbnb/lottie/model/b;Landroid/graphics/Matrix;Landroid/graphics/Canvas;)V
     .locals 6
 
-    .line 1
     invoke-static {p3}, Lcom/airbnb/lottie/z/h;->g(Landroid/graphics/Matrix;)F
 
-    .line 2
     iget-object p3, p0, Lcom/airbnb/lottie/model/layer/g;->L:Lcom/airbnb/lottie/j;
 
     invoke-virtual {p2}, Lcom/airbnb/lottie/model/b;->b()Ljava/lang/String;
@@ -1162,11 +1054,9 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object p3, p1, Lcom/airbnb/lottie/model/DocumentData;->a:Ljava/lang/String;
 
-    .line 4
     iget-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->L:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->J()Lcom/airbnb/lottie/v;
@@ -1175,23 +1065,19 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-virtual {v0, p3}, Lcom/airbnb/lottie/v;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p3
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
 
     invoke-virtual {v0, p2}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 7
     iget-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->W:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz p2, :cond_2
 
-    .line 8
     invoke-virtual {p2}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
 
     move-result-object p2
@@ -1204,13 +1090,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->V:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz p2, :cond_3
 
-    .line 10
     invoke-virtual {p2}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
 
     move-result-object p2
@@ -1223,11 +1107,9 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     iget p2, p1, Lcom/airbnb/lottie/model/DocumentData;->c:F
 
-    .line 12
     :goto_0
     iget-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
 
@@ -1239,7 +1121,6 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 13
     iget-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     iget-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
@@ -1250,7 +1131,6 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 14
     iget-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     iget-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
@@ -1261,7 +1141,6 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 15
     iget v0, p1, Lcom/airbnb/lottie/model/DocumentData;->f:F
 
     invoke-static {}, Lcom/airbnb/lottie/z/h;->e()F
@@ -1270,7 +1149,6 @@
 
     mul-float v0, v0, v1
 
-    .line 16
     iget v1, p1, Lcom/airbnb/lottie/model/DocumentData;->e:I
 
     int-to-float v1, v1
@@ -1279,12 +1157,10 @@
 
     div-float/2addr v1, v2
 
-    .line 17
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->U:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz v2, :cond_4
 
-    .line 18
     invoke-virtual {v2}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
 
     move-result-object v2
@@ -1300,13 +1176,11 @@
 
     goto :goto_2
 
-    .line 19
     :cond_4
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->T:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz v2, :cond_5
 
-    .line 20
     invoke-virtual {v2}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
 
     move-result-object v2
@@ -1319,7 +1193,6 @@
 
     goto :goto_1
 
-    .line 21
     :cond_5
     :goto_2
     invoke-static {}, Lcom/airbnb/lottie/z/h;->e()F
@@ -1334,12 +1207,10 @@
 
     div-float/2addr v1, p2
 
-    .line 22
     invoke-direct {p0, p3}, Lcom/airbnb/lottie/model/layer/g;->W(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p2
 
-    .line 23
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result p3
@@ -1349,14 +1220,12 @@
     :goto_3
     if-ge v2, p3, :cond_6
 
-    .line 24
     invoke-interface {p2, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/String;
 
-    .line 25
     iget-object v4, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     invoke-virtual {v4, v3}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
@@ -1375,10 +1244,8 @@
 
     add-float/2addr v4, v5
 
-    .line 26
     invoke-virtual {p4}, Landroid/graphics/Canvas;->save()I
 
-    .line 27
     iget-object v5, p1, Lcom/airbnb/lottie/model/DocumentData;->d:Lcom/airbnb/lottie/model/DocumentData$Justification;
 
     invoke-direct {p0, v5, p4, v4}, Lcom/airbnb/lottie/model/layer/g;->K(Lcom/airbnb/lottie/model/DocumentData$Justification;Landroid/graphics/Canvas;F)V
@@ -1401,13 +1268,10 @@
 
     const/4 v4, 0x0
 
-    .line 28
     invoke-virtual {p4, v4, v5}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 29
     invoke-direct {p0, v3, p1, p4, v1}, Lcom/airbnb/lottie/model/layer/g;->P(Ljava/lang/String;Lcom/airbnb/lottie/model/DocumentData;Landroid/graphics/Canvas;F)V
 
-    .line 30
     invoke-virtual {p4}, Landroid/graphics/Canvas;->restore()V
 
     add-int/lit8 v2, v2, 0x1
@@ -1431,7 +1295,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->I:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -1440,7 +1303,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->I:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1451,18 +1313,15 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/airbnb/lottie/model/c;->a()Ljava/util/List;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
 
-    .line 5
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2, v1}, Ljava/util/ArrayList;-><init>(I)V
@@ -1472,14 +1331,12 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 6
     invoke-interface {v0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Lcom/airbnb/lottie/model/content/j;
 
-    .line 7
     new-instance v5, Lcom/airbnb/lottie/w/b/d;
 
     iget-object v6, p0, Lcom/airbnb/lottie/model/layer/g;->L:Lcom/airbnb/lottie/j;
@@ -1492,7 +1349,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->I:Ljava/util/Map;
 
@@ -1508,7 +1364,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -1516,12 +1371,10 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 2
     invoke-virtual {p1, v1}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
 
-    .line 3
     invoke-virtual {p2}, Lcom/airbnb/lottie/model/b;->b()Ljava/lang/String;
 
     move-result-object v3
@@ -1534,7 +1387,6 @@
 
     move-result v2
 
-    .line 4
     iget-object v3, p0, Lcom/airbnb/lottie/model/layer/g;->M:Lcom/airbnb/lottie/g;
 
     invoke-virtual {v3}, Lcom/airbnb/lottie/g;->c()Landroidx/collection/SparseArrayCompat;
@@ -1554,7 +1406,6 @@
     :cond_0
     float-to-double v3, v0
 
-    .line 5
     invoke-virtual {v2}, Lcom/airbnb/lottie/model/c;->d()D
 
     move-result-wide v5
@@ -1605,24 +1456,20 @@
 
     const-string v1, "\r"
 
-    .line 1
     invoke-virtual {p1, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     const-string v0, "\n"
 
-    .line 2
     invoke-virtual {p1, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 4
     invoke-static {p1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -1633,7 +1480,6 @@
 .method private X(I)Z
     .locals 2
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Character;->getType(I)I
 
     move-result v0
@@ -1642,7 +1488,6 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Character;->getType(I)I
 
     move-result v0
@@ -1651,7 +1496,6 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 3
     invoke-static {p1}, Ljava/lang/Character;->getType(I)I
 
     move-result v0
@@ -1660,7 +1504,6 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 4
     invoke-static {p1}, Ljava/lang/Character;->getType(I)I
 
     move-result v0
@@ -1669,7 +1512,6 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 5
     invoke-static {p1}, Ljava/lang/Character;->getType(I)I
 
     move-result p1
@@ -1711,33 +1553,27 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/airbnb/lottie/model/layer/a;->c(Ljava/lang/Object;Lcom/airbnb/lottie/a0/j;)V
 
-    .line 2
     sget-object v0, Lcom/airbnb/lottie/o;->a:Ljava/lang/Integer;
 
     const/4 v1, 0x0
 
     if-ne p1, v0, :cond_2
 
-    .line 3
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->O:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/model/layer/a;->C(Lcom/airbnb/lottie/w/c/a;)V
 
     :cond_0
     if-nez p2, :cond_1
 
-    .line 5
     iput-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->O:Lcom/airbnb/lottie/w/c/a;
 
     goto/16 :goto_0
 
-    .line 6
     :cond_1
     new-instance p1, Lcom/airbnb/lottie/w/c/p;
 
@@ -1745,39 +1581,32 @@
 
     iput-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->O:Lcom/airbnb/lottie/w/c/a;
 
-    .line 7
     invoke-virtual {p1, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 8
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->O:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
 
     goto/16 :goto_0
 
-    .line 9
     :cond_2
     sget-object v0, Lcom/airbnb/lottie/o;->b:Ljava/lang/Integer;
 
     if-ne p1, v0, :cond_5
 
-    .line 10
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->Q:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz p1, :cond_3
 
-    .line 11
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/model/layer/a;->C(Lcom/airbnb/lottie/w/c/a;)V
 
     :cond_3
     if-nez p2, :cond_4
 
-    .line 12
     iput-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->Q:Lcom/airbnb/lottie/w/c/a;
 
     goto/16 :goto_0
 
-    .line 13
     :cond_4
     new-instance p1, Lcom/airbnb/lottie/w/c/p;
 
@@ -1785,39 +1614,32 @@
 
     iput-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->Q:Lcom/airbnb/lottie/w/c/a;
 
-    .line 14
     invoke-virtual {p1, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 15
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->Q:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
 
     goto :goto_0
 
-    .line 16
     :cond_5
     sget-object v0, Lcom/airbnb/lottie/o;->q:Ljava/lang/Float;
 
     if-ne p1, v0, :cond_8
 
-    .line 17
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->S:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz p1, :cond_6
 
-    .line 18
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/model/layer/a;->C(Lcom/airbnb/lottie/w/c/a;)V
 
     :cond_6
     if-nez p2, :cond_7
 
-    .line 19
     iput-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->S:Lcom/airbnb/lottie/w/c/a;
 
     goto :goto_0
 
-    .line 20
     :cond_7
     new-instance p1, Lcom/airbnb/lottie/w/c/p;
 
@@ -1825,39 +1647,32 @@
 
     iput-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->S:Lcom/airbnb/lottie/w/c/a;
 
-    .line 21
     invoke-virtual {p1, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 22
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->S:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
 
     goto :goto_0
 
-    .line 23
     :cond_8
     sget-object v0, Lcom/airbnb/lottie/o;->r:Ljava/lang/Float;
 
     if-ne p1, v0, :cond_b
 
-    .line 24
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->U:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz p1, :cond_9
 
-    .line 25
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/model/layer/a;->C(Lcom/airbnb/lottie/w/c/a;)V
 
     :cond_9
     if-nez p2, :cond_a
 
-    .line 26
     iput-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->U:Lcom/airbnb/lottie/w/c/a;
 
     goto :goto_0
 
-    .line 27
     :cond_a
     new-instance p1, Lcom/airbnb/lottie/w/c/p;
 
@@ -1865,39 +1680,32 @@
 
     iput-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->U:Lcom/airbnb/lottie/w/c/a;
 
-    .line 28
     invoke-virtual {p1, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 29
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->U:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
 
     goto :goto_0
 
-    .line 30
     :cond_b
     sget-object v0, Lcom/airbnb/lottie/o;->D:Ljava/lang/Float;
 
     if-ne p1, v0, :cond_e
 
-    .line 31
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->W:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz p1, :cond_c
 
-    .line 32
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/model/layer/a;->C(Lcom/airbnb/lottie/w/c/a;)V
 
     :cond_c
     if-nez p2, :cond_d
 
-    .line 33
     iput-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->W:Lcom/airbnb/lottie/w/c/a;
 
     goto :goto_0
 
-    .line 34
     :cond_d
     new-instance p1, Lcom/airbnb/lottie/w/c/p;
 
@@ -1905,10 +1713,8 @@
 
     iput-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->W:Lcom/airbnb/lottie/w/c/a;
 
-    .line 35
     invoke-virtual {p1, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 36
     iget-object p1, p0, Lcom/airbnb/lottie/model/layer/g;->W:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
@@ -1921,10 +1727,8 @@
 .method public e(Landroid/graphics/RectF;Landroid/graphics/Matrix;Z)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/airbnb/lottie/model/layer/a;->e(Landroid/graphics/RectF;Landroid/graphics/Matrix;Z)V
 
-    .line 2
     iget-object p2, p0, Lcom/airbnb/lottie/model/layer/g;->M:Lcom/airbnb/lottie/g;
 
     invoke-virtual {p2}, Lcom/airbnb/lottie/g;->b()Landroid/graphics/Rect;
@@ -1959,10 +1763,8 @@
 .method t(Landroid/graphics/Canvas;Landroid/graphics/Matrix;I)V
     .locals 5
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 2
     iget-object p3, p0, Lcom/airbnb/lottie/model/layer/g;->L:Lcom/airbnb/lottie/j;
 
     invoke-virtual {p3}, Lcom/airbnb/lottie/j;->D0()Z
@@ -1971,10 +1773,8 @@
 
     if-nez p3, :cond_0
 
-    .line 3
     invoke-virtual {p1, p2}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 4
     :cond_0
     iget-object p3, p0, Lcom/airbnb/lottie/model/layer/g;->K:Lcom/airbnb/lottie/w/c/n;
 
@@ -1984,7 +1784,6 @@
 
     check-cast p3, Lcom/airbnb/lottie/model/DocumentData;
 
-    .line 5
     iget-object v0, p0, Lcom/airbnb/lottie/model/layer/g;->M:Lcom/airbnb/lottie/g;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/g;->g()Ljava/util/Map;
@@ -2001,18 +1800,15 @@
 
     if-nez v0, :cond_1
 
-    .line 6
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
     return-void
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->O:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz v1, :cond_2
 
-    .line 8
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
@@ -2029,13 +1825,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->N:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz v1, :cond_3
 
-    .line 10
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
@@ -2052,7 +1846,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     iget-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
 
@@ -2060,13 +1853,11 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 12
     :goto_0
     iget-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->Q:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz v1, :cond_4
 
-    .line 13
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
@@ -2083,13 +1874,11 @@
 
     goto :goto_1
 
-    .line 14
     :cond_4
     iget-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->P:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz v1, :cond_5
 
-    .line 15
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
@@ -2106,7 +1895,6 @@
 
     goto :goto_1
 
-    .line 16
     :cond_5
     iget-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
@@ -2114,7 +1902,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 17
     :goto_1
     iget-object v1, p0, Lcom/airbnb/lottie/model/layer/a;->v:Lcom/airbnb/lottie/w/c/o;
 
@@ -2150,25 +1937,20 @@
     :goto_2
     mul-int/lit16 v1, v1, 0xff
 
-    .line 18
     div-int/2addr v1, v2
 
-    .line 19
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->G:Landroid/graphics/Paint;
 
     invoke-virtual {v2, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 20
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     invoke-virtual {v2, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 21
     iget-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->S:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz v1, :cond_7
 
-    .line 22
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
@@ -2185,13 +1967,11 @@
 
     goto :goto_3
 
-    .line 23
     :cond_7
     iget-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->R:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz v1, :cond_8
 
-    .line 24
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
@@ -2208,13 +1988,11 @@
 
     goto :goto_3
 
-    .line 25
     :cond_8
     invoke-static {p2}, Lcom/airbnb/lottie/z/h;->g(Landroid/graphics/Matrix;)F
 
     move-result v1
 
-    .line 26
     iget-object v2, p0, Lcom/airbnb/lottie/model/layer/g;->H:Landroid/graphics/Paint;
 
     iget v3, p3, Lcom/airbnb/lottie/model/DocumentData;->j:F
@@ -2229,7 +2007,6 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 27
     :goto_3
     iget-object v1, p0, Lcom/airbnb/lottie/model/layer/g;->L:Lcom/airbnb/lottie/j;
 
@@ -2239,16 +2016,13 @@
 
     if-eqz v1, :cond_9
 
-    .line 28
     invoke-direct {p0, p3, p2, v0, p1}, Lcom/airbnb/lottie/model/layer/g;->S(Lcom/airbnb/lottie/model/DocumentData;Landroid/graphics/Matrix;Lcom/airbnb/lottie/model/b;Landroid/graphics/Canvas;)V
 
     goto :goto_4
 
-    .line 29
     :cond_9
     invoke-direct {p0, p3, v0, p2, p1}, Lcom/airbnb/lottie/model/layer/g;->T(Lcom/airbnb/lottie/model/DocumentData;Lcom/airbnb/lottie/model/b;Landroid/graphics/Matrix;Landroid/graphics/Canvas;)V
 
-    .line 30
     :goto_4
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 

@@ -27,14 +27,12 @@
 .method constructor <init>(Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager$c;->b:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager$c;->a:I
 
     return-void
@@ -49,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -60,7 +57,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager$c;->b:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
     invoke-static {v1}, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;->e(Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;)Landroidx/recyclerview/widget/RecyclerView$Recycler;
@@ -75,10 +71,8 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;->f(Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;Landroidx/recyclerview/widget/RecyclerView$Recycler;IZ)V
 
-    .line 3
     iput p1, p0, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager$c;->a:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

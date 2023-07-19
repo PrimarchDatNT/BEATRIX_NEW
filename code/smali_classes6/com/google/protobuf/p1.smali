@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/p1$a;
 
     invoke-direct {v0}, Lcom/google/protobuf/p1$a;-><init>()V

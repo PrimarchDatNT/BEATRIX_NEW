@@ -78,12 +78,10 @@
 
     const-string v3, "G"
 
-    .line 1
     filled-new-array {v0, v1, v2, v3}, [Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
@@ -105,19 +103,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/ads/s;->a:I
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/ads/s;->b:I
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/ads/s;->c:Ljava/lang/String;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/ads/s;->d:Ljava/util/List;
 
     return-void
@@ -126,7 +119,6 @@
 .method synthetic constructor <init>(IILjava/lang/String;Ljava/util/List;Lcom/google/android/gms/ads/d0;)V
     .locals 0
 
-    .line 6
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/gms/ads/s;-><init>(IILjava/lang/String;Ljava/util/List;)V
 
     return-void
@@ -137,7 +129,6 @@
 .method public a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/s;->c:Ljava/lang/String;
 
     if-nez v0, :cond_0
@@ -151,7 +142,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/ads/s;->a:I
 
     return v0
@@ -160,7 +150,6 @@
 .method public c()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/ads/s;->b:I
 
     return v0
@@ -177,7 +166,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p0, Lcom/google/android/gms/ads/s;->d:Ljava/util/List;
@@ -190,35 +178,30 @@
 .method public e()Lcom/google/android/gms/ads/s$a;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/ads/s$a;
 
     invoke-direct {v0}, Lcom/google/android/gms/ads/s$a;-><init>()V
 
     iget v1, p0, Lcom/google/android/gms/ads/s;->a:I
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/google/android/gms/ads/s$a;->c(I)Lcom/google/android/gms/ads/s$a;
 
     move-result-object v0
 
     iget v1, p0, Lcom/google/android/gms/ads/s;->b:I
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/google/android/gms/ads/s$a;->d(I)Lcom/google/android/gms/ads/s$a;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/google/android/gms/ads/s;->c:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/google/android/gms/ads/s$a;->b(Ljava/lang/String;)Lcom/google/android/gms/ads/s$a;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/google/android/gms/ads/s;->d:Ljava/util/List;
 
-    .line 5
     invoke-virtual {v0, v1}, Lcom/google/android/gms/ads/s$a;->e(Ljava/util/List;)Lcom/google/android/gms/ads/s$a;
 
     move-result-object v0

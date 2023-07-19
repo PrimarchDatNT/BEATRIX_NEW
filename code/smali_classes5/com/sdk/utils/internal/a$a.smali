@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/utils/internal/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/utils/internal/a$a;->a:Lcom/sdk/utils/internal/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method private c(ILjava/lang/String;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/sdk/utils/internal/a$a$a;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/sdk/utils/internal/a$a$a;-><init>(Lcom/sdk/utils/internal/a$a;ILjava/lang/String;)V
@@ -67,7 +65,6 @@
 
     if-ne p1, p2, :cond_0
 
-    .line 1
     invoke-static {p3, p4}, Lf/q/b/n;->s(Ljava/io/InputStream;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -77,7 +74,6 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 2
     :goto_0
     invoke-direct {p0, p1, p2}, Lcom/sdk/utils/internal/a$a;->c(ILjava/lang/String;)V
 
@@ -89,7 +85,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/sdk/utils/internal/a$a;->c(ILjava/lang/String;)V
 
     return-void

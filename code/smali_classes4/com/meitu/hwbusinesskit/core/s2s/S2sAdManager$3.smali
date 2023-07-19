@@ -40,7 +40,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;Landroid/widget/ImageView;Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$3;->this$0:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;
 
     iput-object p2, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$3;->val$adPicture:Landroid/widget/ImageView;
@@ -77,7 +76,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
@@ -96,7 +94,6 @@
 
     invoke-static {p3, p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->logGlide(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$3;->this$0:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;
 
     const/16 p3, 0x3f2
@@ -105,7 +102,6 @@
 
     invoke-static {p1, p3, p4}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;->access$800(Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;ILjava/lang/String;)V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -132,12 +128,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$3;->val$adPicture:Landroid/widget/ImageView;
 
     invoke-virtual {p3, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 3
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
@@ -156,7 +150,6 @@
 
     invoke-static {p3, p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->logGlide(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$3;->this$0:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;
 
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$3;->val$adModel:Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;
@@ -165,7 +158,6 @@
 
     invoke-static {p1, p3, p4}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;->access$900(Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;Ljava/lang/Object;Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$3;->this$0:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;
 
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$3;->val$adModel:Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;
@@ -176,7 +168,6 @@
 
     invoke-static {p1, p3}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;->access$700(Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;Ljava/util/ArrayList;)V
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$3;->val$adModel:Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;->getAd_type()Ljava/lang/String;
@@ -191,15 +182,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$3;->val$adView:Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;
 
     check-cast p1, Lcom/meitu/hwbusinesskit/core/widget/NativeAdView;
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil;->setUrlCacheListener(Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil$UrlCacheListener;)V
 
-    .line 9
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$3;->val$adModel:Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;
 
     invoke-virtual {p3}, Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;->getVideo_url()Ljava/lang/String;
@@ -211,7 +199,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 10
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -224,7 +211,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     move-object v2, p1
 
     check-cast v2, Landroid/graphics/drawable/Drawable;

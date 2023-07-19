@@ -11,10 +11,8 @@
 .method public constructor <init>(D)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lio/jaegertracing/a/n/i/d;->a:D
 
     return-void
@@ -25,7 +23,6 @@
 .method public a()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/a/n/i/d;->a:D
 
     return-wide v0
@@ -34,7 +31,6 @@
 .method public b(D)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/a/n/i/d;->a:D
 
     return-void
@@ -43,7 +39,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

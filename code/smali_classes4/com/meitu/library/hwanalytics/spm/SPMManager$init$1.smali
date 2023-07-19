@@ -61,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/hwanalytics/spm/SPMManager$init$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -78,14 +77,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/meitu/library/k/e/a;->m:Lcom/meitu/library/k/e/a;
 
     iget-object v2, p0, Lcom/meitu/library/hwanalytics/spm/SPMManager$init$1;->$application:Landroid/app/Application;
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/k/e/a;->g(Landroid/content/Context;)V
 
-    .line 3
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->b:Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;
 
     iget-object v2, p0, Lcom/meitu/library/hwanalytics/spm/SPMManager$init$1;->$gid:Ljava/lang/String;
@@ -94,21 +91,18 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->h(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     sget-object v1, Lcom/meitu/library/k/d/a/b;->e:Lcom/meitu/library/k/d/a/b;
 
     iget-object v2, p0, Lcom/meitu/library/hwanalytics/spm/SPMManager$init$1;->$application:Landroid/app/Application;
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/k/d/a/b;->f(Landroid/content/Context;)V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/library/hwanalytics/spm/SPMManager$init$1;->this$0:Lcom/meitu/library/hwanalytics/spm/SPMManager;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->c(Lcom/meitu/library/hwanalytics/spm/SPMManager;Z)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
 
     return-void
@@ -49,10 +48,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1, p0}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -83,10 +80,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/v1;->a:Lcotlin/jvm/u/l;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -109,7 +104,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/util/v1;->a:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_0
@@ -122,7 +116,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -144,7 +137,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getScrollState()I
 
     move-result p3
@@ -153,7 +145,6 @@
 
     if-ne p3, v0, :cond_0
 
-    .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->canScrollVertically(I)Z
 
     move-result v0
@@ -162,7 +153,6 @@
 
     const/4 v0, -0x1
 
-    .line 3
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->canScrollVertically(I)Z
 
     move-result p1
@@ -174,7 +164,6 @@
 
     if-ne p3, p1, :cond_2
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/util/v1;->a:Lcotlin/jvm/u/l;
 
@@ -188,7 +177,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 5
     :cond_2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -67,7 +67,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p4, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->b:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {p4}, Lcom/commsource/mypage/album/BpAlbumViewModel;->M()Landroidx/lifecycle/MutableLiveData;
@@ -80,7 +79,6 @@
 
     if-nez p1, :cond_7
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->a:Landroid/app/Activity;
 
     invoke-virtual {p1}, Landroid/app/Activity;->isFinishing()Z
@@ -96,7 +94,6 @@
 
     if-eqz p3, :cond_5
 
-    .line 3
     invoke-virtual {p3}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result p4
@@ -105,7 +102,6 @@
 
     goto/16 :goto_1
 
-    .line 4
     :cond_1
     iget-object p4, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->b:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
@@ -127,7 +123,6 @@
 
     if-le p4, p5, :cond_4
 
-    .line 5
     invoke-virtual {p3}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result p4
@@ -150,7 +145,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     new-instance p1, Lcom/commsource/camera/y0/d;
 
@@ -158,7 +152,6 @@
 
     invoke-direct {p1, p4}, Lcom/commsource/camera/y0/d;-><init>(Landroid/content/Context;)V
 
-    .line 7
     iget-object p4, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->c:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-virtual {p4}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->j()Ljava/lang/String;
@@ -167,14 +160,12 @@
 
     invoke-virtual {p1, p4, p3}, Lcom/commsource/camera/y0/d;->g(Ljava/lang/String;Lcom/meitu/core/types/FaceData;)V
 
-    .line 8
     new-instance p4, Lcom/commsource/mypage/album/BpAlbumViewModel$e$a;
 
     invoke-direct {p4, p0, p3}, Lcom/commsource/mypage/album/BpAlbumViewModel$e$a;-><init>(Lcom/commsource/mypage/album/BpAlbumViewModel$e;Lcom/meitu/core/types/FaceData;)V
 
     invoke-virtual {p1, p4}, Lcom/commsource/camera/y0/d;->i(Lcom/commsource/camera/y0/d$b;)V
 
-    .line 9
     iget-object p3, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->c:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-virtual {p3}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->q()I
@@ -189,12 +180,10 @@
 
     invoke-virtual {p1, p3, p4}, Lcom/commsource/camera/y0/d;->h(II)V
 
-    .line 10
     invoke-virtual {p1}, Lcom/commsource/camera/y0/d;->show()V
 
     goto :goto_2
 
-    .line 11
     :cond_3
     :goto_0
     iget-object p3, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->a:Landroid/app/Activity;
@@ -211,7 +200,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_4
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->b:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
@@ -225,23 +213,18 @@
 
     if-eqz p1, :cond_6
 
-    .line 13
     iget-object p3, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->d:Landroid/app/Activity;
 
-    .line 14
     new-instance p4, Lcom/commsource/mypage/album/w;
 
-    .line 15
     iget-object p5, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->b:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {p5}, Lcom/commsource/mypage/album/BpAlbumViewModel;->D()Lcom/commsource/mypage/album/AlbumSetting;
 
     move-result-object v1
 
-    .line 16
     iget-object v2, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->c:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    .line 17
     iget-object p5, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->a:Landroid/app/Activity;
 
     invoke-virtual {p5}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
@@ -262,15 +245,12 @@
 
     move-object v0, p4
 
-    .line 18
     invoke-direct/range {v0 .. v6}, Lcom/commsource/mypage/album/w;-><init>(Lcom/commsource/mypage/album/AlbumSetting;Lcom/commsource/cloudalbum/bean/CAImageInfo;Landroid/os/Bundle;IILcotlin/jvm/internal/u;)V
 
-    .line 19
     invoke-interface {p1, p3, p4}, Lcom/commsource/mypage/album/OnImageSelectCallback;->onImageSelect(Landroid/app/Activity;Lcom/commsource/mypage/album/w;)V
 
     goto :goto_2
 
-    .line 20
     :cond_5
     :goto_1
     iget-object p3, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->a:Landroid/app/Activity;
@@ -285,14 +265,12 @@
 
     invoke-static {p3, p1}, Lf/k/c/c/f;->z(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 21
     :cond_6
     :goto_2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 22
     :cond_7
     :goto_3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -41,27 +41,22 @@
 
     const-string v1, "eva_"
 
-    .line 1
     sput-object v1, Lcom/meitu/library/i/c;->b:Ljava/lang/String;
 
     const-string v1, "eva_build_timestamp"
 
-    .line 2
     sput-object v1, Lcom/meitu/library/i/c;->c:Ljava/lang/String;
 
     const-string v1, "eva_build_number"
 
-    .line 3
     sput-object v1, Lcom/meitu/library/i/c;->d:Ljava/lang/String;
 
     const-string v1, "eva_build_type"
 
-    .line 4
     sput-object v1, Lcom/meitu/library/i/c;->e:Ljava/lang/String;
 
     const-string v1, "eva_project_name"
 
-    .line 5
     sput-object v1, Lcom/meitu/library/i/c;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -85,10 +80,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/i/c;->a:Ljava/util/Map;
 
     return-void
@@ -119,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/i/c;->a:Ljava/util/Map;
 
     invoke-static {p1, p2}, Lcom/meitu/library/i/o;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -132,12 +124,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -153,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/i/c;->c:Ljava/lang/String;
 
     const-string v2, "string"
@@ -178,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/i/c;->d:Ljava/lang/String;
 
     const-string v2, "string"
@@ -203,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/i/c;->f:Ljava/lang/String;
 
     const-string v2, "string"
@@ -228,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/i/c;->e:Ljava/lang/String;
 
     const-string v2, "string"

@@ -46,14 +46,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/PictureTransitionView;->P:Lcom/commsource/studio/PictureTransitionView$a;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/PictureTransitionView$a;->b(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$f;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
@@ -64,7 +62,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/StudioCanvasContainer;->f(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$f;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
@@ -73,7 +70,6 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k0;->a:Lcom/commsource/studio/StudioCanvasContainer;
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/function/BaseSubFragment$f;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -88,7 +84,6 @@
 
     move-result v2
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/function/BaseSubFragment$f;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v3}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -103,10 +98,8 @@
 
     move-result v3
 
-    .line 6
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/StudioCanvasContainer;->z(II)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$f;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
@@ -115,7 +108,6 @@
 
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/k0;->a:Lcom/commsource/studio/StudioCanvasContainer;
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$f;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -146,7 +138,6 @@
 
     sub-float v4, v1, v4
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$f;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
@@ -183,10 +174,8 @@
 
     const/4 v8, 0x0
 
-    .line 10
     invoke-static/range {v2 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$f;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
@@ -197,7 +186,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->v()V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$f;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
     iget-boolean v2, p0, Lcom/commsource/studio/function/BaseSubFragment$f;->b:Z
@@ -208,12 +196,10 @@
 
     invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/studio/function/BaseSubFragment;->U0(Lcom/commsource/studio/function/BaseSubFragment;ZLcom/commsource/studio/MatrixBox;ILjava/lang/Object;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$f;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->O()V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

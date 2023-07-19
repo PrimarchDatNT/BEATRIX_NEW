@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$c;->a:Lcom/commsource/studio/sticker/manage/StickerManagerFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->B(Lcom/commsource/studio/sticker/manage/StickerManagerFragment;)Lcom/commsource/beautyplus/f0/oa;
@@ -63,7 +62,6 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$c;->a:Lcom/commsource/studio/sticker/manage/StickerManagerFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->B(Lcom/commsource/studio/sticker/manage/StickerManagerFragment;)Lcom/commsource/beautyplus/f0/oa;
@@ -78,7 +76,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$c;->a:Lcom/commsource/studio/sticker/manage/StickerManagerFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->B(Lcom/commsource/studio/sticker/manage/StickerManagerFragment;)Lcom/commsource/beautyplus/f0/oa;
@@ -91,7 +88,6 @@
 
     invoke-virtual {p2, v0}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$c;->a:Lcom/commsource/studio/sticker/manage/StickerManagerFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->B(Lcom/commsource/studio/sticker/manage/StickerManagerFragment;)Lcom/commsource/beautyplus/f0/oa;
@@ -109,7 +105,6 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

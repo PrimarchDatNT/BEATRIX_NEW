@@ -29,7 +29,6 @@
 
     const/16 v0, 0x9
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/commsource/studio/formula/convert/b;-><init>(ILcom/commsource/studio/formula/convert/d;)V
 
     return-void
@@ -44,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/convert/h;->i(Lcom/commsource/studio/bean/GroupLayerInfo;)Lcom/commsource/studio/formula/convert/FormulaLayer;
@@ -63,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/formula/convert/h;->j(Lcom/commsource/studio/formula/convert/g;Lcom/commsource/studio/formula/convert/FormulaLayer;)Lcom/commsource/studio/bean/GroupLayerInfo;
 
     move-result-object p1
@@ -90,7 +87,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -123,7 +119,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getSublayers()Ljava/util/List;
 
     move-result-object v1
@@ -132,12 +127,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
@@ -151,7 +144,6 @@
 
     invoke-direct {v1, v3, v4}, Lcom/commsource/studio/bean/GroupLayerInfo;-><init>(II)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/formula/convert/b;->f()Lcom/commsource/studio/formula/convert/d;
 
     move-result-object v3
@@ -166,12 +158,10 @@
 
     const/4 p2, 0x1
 
-    .line 5
     invoke-virtual {v1, p2}, Lcom/commsource/studio/bean/GroupLayerInfo;->setGroup(Z)V
 
     if-eqz p1, :cond_2
 
-    .line 6
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -190,12 +180,10 @@
 
     check-cast p2, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 7
     instance-of v3, p2, Lcom/commsource/studio/bean/FocusLayerInfo;
 
     if-eqz v3, :cond_1
 
-    .line 8
     check-cast p2, Lcom/commsource/studio/bean/FocusLayerInfo;
 
     invoke-virtual {p2, v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->setGroupLayerInfo(Lcom/commsource/studio/bean/GroupLayerInfo;)V
@@ -204,16 +192,13 @@
 
     const/4 v4, 0x2
 
-    .line 9
     invoke-static {v1, p2, v3, v4, v2}, Lcom/commsource/studio/bean/GroupLayerInfo;->insert$default(Lcom/commsource/studio/bean/GroupLayerInfo;Lcom/commsource/studio/bean/FocusLayerInfo;IILjava/lang/Object;)V
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/studio/bean/GroupLayerInfo;->refreshGroupSizeAndPosition()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

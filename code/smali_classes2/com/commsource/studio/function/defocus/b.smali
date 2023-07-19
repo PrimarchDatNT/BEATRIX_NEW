@@ -75,10 +75,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_defocus:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/ge;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/ge;
@@ -122,10 +120,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result p1
@@ -134,7 +130,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ge;->f:Landroid/widget/RelativeLayout;
@@ -143,7 +138,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ge;->g:Lcom/commsource/widget/AutoFitTextView;
@@ -156,7 +150,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
@@ -166,7 +159,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ge;->g:Lcom/commsource/widget/AutoFitTextView;
@@ -177,7 +169,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 7
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
@@ -195,7 +186,6 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v1
@@ -210,19 +200,16 @@
 
     sget v1, Lcom/res/provider/ResDRAWABLE;->placeholder_stickers_45:I
 
-    .line 9
     invoke-virtual {p1, v1}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object p1
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ge;->a:Lcom/commsource/widget/CircleImageView;
 
     invoke-virtual {p1, v1}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ge;->g:Lcom/commsource/widget/AutoFitTextView;
@@ -245,7 +232,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ge;->b:Lcom/commsource/widget/CircleDownloadProgressView;
@@ -258,7 +244,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ge;->c:Landroid/widget/ImageView;
@@ -269,7 +254,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 14
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -288,7 +272,6 @@
 
     if-eq p1, v3, :cond_1
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ge;->c:Landroid/widget/ImageView;
@@ -297,7 +280,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ge;->b:Lcom/commsource/widget/CircleDownloadProgressView;
@@ -308,7 +290,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
@@ -324,7 +305,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/CircleDownloadProgressView;->d(I)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ge;->b:Lcom/commsource/widget/CircleDownloadProgressView;
@@ -333,7 +313,6 @@
 
     invoke-virtual {p1, v4}, Landroid/view/View;->setVisibility(I)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ge;->c:Landroid/widget/ImageView;
@@ -344,7 +323,6 @@
 
     goto :goto_1
 
-    .line 20
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
@@ -354,7 +332,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ge;->c:Landroid/widget/ImageView;
@@ -363,7 +340,6 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 22
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -377,7 +353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/defocus/b;->p:Lcom/commsource/beautyplus/f0/ge;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

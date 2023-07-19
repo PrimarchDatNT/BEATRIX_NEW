@@ -45,7 +45,6 @@
 .method static constructor <clinit>()V
     .locals 10
 
-    .line 1
     new-instance v0, Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;
 
     const-string v1, "AD_LOADED"
@@ -58,7 +57,6 @@
 
     sput-object v0, Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;->AD_LOADED:Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;
 
-    .line 2
     new-instance v1, Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;
 
     const-string v3, "MISSING_ADAPTER"
@@ -71,7 +69,6 @@
 
     sput-object v1, Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;->MISSING_ADAPTER:Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;
 
-    .line 3
     new-instance v3, Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;
 
     const-string v5, "TIMEOUT"
@@ -84,7 +81,6 @@
 
     sput-object v3, Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;->TIMEOUT:Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;
 
-    .line 4
     new-instance v5, Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;
 
     const-string v7, "INVALID_DATA"
@@ -109,7 +105,6 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;->$VALUES:[Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;
 
     return-void
@@ -129,10 +124,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;->value:Ljava/lang/String;
 
     return-void
@@ -141,7 +134,6 @@
 .method static synthetic access$000(Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;->value:Ljava/lang/String;
 
     return-object p0
@@ -150,7 +142,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -165,7 +156,6 @@
 .method public static values()[Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;->$VALUES:[Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;
 
     invoke-virtual {v0}, [Lcom/mopub/network/ContentDownloadAnalytics$DownloadResult;->clone()Ljava/lang/Object;

@@ -27,7 +27,6 @@
 
     new-array v0, v0, [I
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lf/f/b/b/h/c/f;->c:[I

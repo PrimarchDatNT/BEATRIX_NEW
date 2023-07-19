@@ -56,7 +56,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -75,7 +74,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$p;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -110,7 +108,6 @@
 
     if-eq p1, v1, :cond_4
 
-    .line 3
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$p;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -132,19 +129,16 @@
 
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
-    .line 4
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->EFFECT:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     if-ne p1, v1, :cond_2
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$p;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/ProCover;->F(Lcom/commsource/camera/xcamera/cover/ProCover;)V
 
     goto :goto_2
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$p;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -170,7 +164,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_3
     :goto_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$p;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
@@ -195,7 +188,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/ProView;->M(Ljava/lang/Integer;)V
 
-    .line 8
     :cond_4
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -210,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/ProCover$p;->a(Ljava/lang/Boolean;)V

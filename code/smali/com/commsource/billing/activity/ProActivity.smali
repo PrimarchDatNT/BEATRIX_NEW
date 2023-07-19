@@ -70,10 +70,8 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/billing/activity/ProActivity$s;
 
     invoke-direct {v0, p0}, Lcom/commsource/billing/activity/ProActivity$s;-><init>(Lcom/commsource/billing/activity/ProActivity;)V
@@ -96,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     const-string v2, "mViewBinding"
@@ -114,7 +111,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_1
@@ -130,7 +126,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_2
@@ -146,7 +141,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_3
@@ -162,7 +156,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v1
@@ -177,10 +170,8 @@
 
     mul-int/lit16 v1, v1, 0x546
 
-    .line 6
     div-int/lit16 v1, v1, 0x3cf
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v3, :cond_4
@@ -192,7 +183,6 @@
 
     invoke-static {v3, v1}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v3, :cond_5
@@ -206,7 +196,6 @@
 
     invoke-static {v3, v1}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 9
     invoke-static {p0}, Lcom/commsource/util/u0;->h(Landroid/app/Activity;)Lcom/commsource/util/u0$d;
 
     move-result-object v1
@@ -228,7 +217,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 10
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
     move-result v1
@@ -237,7 +225,6 @@
 
     if-eqz v1, :cond_9
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_7
@@ -259,7 +246,6 @@
 
     invoke-static {v1, v4}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_8
@@ -285,7 +271,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_9
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -302,7 +287,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 14
     :goto_0
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -319,7 +303,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_c
@@ -335,7 +318,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -348,7 +330,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     const-string v2, "mViewBinding"
@@ -384,7 +365,6 @@
 
     const/high16 v3, 0x41c00000    # 24.0f
 
-    .line 2
     invoke-static {v3}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v3
@@ -403,7 +383,6 @@
 
     add-float/2addr v3, p1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez p1, :cond_1
@@ -417,7 +396,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -430,7 +408,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/billing/activity/ProActivity;->W:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -445,7 +422,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez p0, :cond_0
@@ -467,7 +443,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez p0, :cond_0
@@ -489,7 +464,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/billing/activity/ProActivity;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -504,7 +478,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/billing/activity/ProActivity;->P:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -519,7 +492,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/billing/activity/ProActivity;->o1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -534,7 +506,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/billing/activity/ProActivity;->p1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -549,7 +520,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/billing/activity/ProActivity;->q1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -564,7 +534,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/billing/activity/ProActivity;->r1(Lcom/commsource/billing/bean/subsconfig/Config;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -579,7 +548,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/billing/activity/ProActivity;->s1(Lcom/commsource/billing/SubUserType;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -594,7 +562,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/billing/activity/ProActivity;->t1(Ljava/lang/Boolean;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -609,7 +576,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->W:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -624,7 +590,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/billing/activity/ProActivity;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -639,7 +604,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -654,7 +618,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -669,7 +632,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/billing/activity/ProActivity;->u1(Lcom/commsource/billing/bean/SubPriceInfo;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -684,7 +646,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/billing/activity/ProActivity;->P:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -699,7 +660,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/billing/activity/ProActivity;->w1(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -724,7 +684,6 @@
 
     if-gtz v5, :cond_1
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez p1, :cond_0
@@ -740,12 +699,10 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     iget-object v3, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -762,12 +719,10 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     invoke-static {p1, p2}, Lcom/commsource/util/h0;->a(J)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v4, :cond_3
@@ -783,19 +738,16 @@
 
     const-string/jumbo v1, "time"
 
-    .line 6
     invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v3}, Lcom/commsource/billing/activity/ProActivity;->B1(Ljava/lang/String;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->U:Landroid/os/CountDownTimer;
 
     if-eqz v1, :cond_4
 
     invoke-virtual {v1}, Landroid/os/CountDownTimer;->cancel()V
 
-    .line 8
     :cond_4
     new-instance v1, Lcom/commsource/billing/activity/ProActivity$b;
 
@@ -815,10 +767,8 @@
 
     if-eqz v1, :cond_5
 
-    .line 9
     invoke-virtual {v1}, Landroid/os/CountDownTimer;->start()Landroid/os/CountDownTimer;
 
-    .line 10
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -832,12 +782,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getMonthlyDiscount()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -868,7 +816,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -893,7 +840,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -910,7 +856,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/billing/bean/SubPriceInfo;->isMonthlyFullPriceEmpty()Z
 
@@ -918,7 +863,6 @@
 
     if-nez v1, :cond_4
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     const-string v2, "mViewModel"
@@ -936,7 +880,6 @@
 
     move-result v1
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v5, :cond_2
@@ -973,7 +916,6 @@
     :cond_3
     if-lt v1, p1, :cond_4
 
-    .line 8
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -994,7 +936,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1008,12 +949,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getYearlyDiscount()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -1044,7 +983,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1069,7 +1007,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1086,7 +1023,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/billing/bean/SubPriceInfo;->isYearlyFullPriceEmpty()Z
 
@@ -1094,7 +1030,6 @@
 
     if-nez v1, :cond_4
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     const-string v2, "mViewModel"
@@ -1112,7 +1047,6 @@
 
     move-result v1
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v5, :cond_2
@@ -1149,7 +1083,6 @@
     :cond_3
     if-lt v1, p1, :cond_4
 
-    .line 8
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1170,7 +1103,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1199,7 +1131,6 @@
 
     if-lez v5, :cond_1
 
-    .line 1
     iget-object v3, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v3, :cond_0
@@ -1219,12 +1150,10 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/commsource/billing/activity/ProActivity;->g1(J)V
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -1252,7 +1181,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1266,7 +1194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     const-string v2, "mViewBinding"
@@ -1284,7 +1211,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->u()I
 
     move-result v1
@@ -1295,7 +1221,6 @@
 
     mul-float v1, v1, v3
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v3, :cond_1
@@ -1309,14 +1234,12 @@
 
     invoke-static {v3, v1}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/f/i;->P()Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_2
@@ -1334,7 +1257,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 6
     :cond_3
     new-instance v1, Lcom/commsource/widget/h1/e;
 
@@ -1342,14 +1264,12 @@
 
     iput-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->S:Lcom/commsource/widget/h1/e;
 
-    .line 7
     new-instance v1, Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
     invoke-direct {v1}, Lcom/commsource/widget/infiniteview/LoopLayoutManager;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->T:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_4
@@ -1367,7 +1287,6 @@
 
     invoke-virtual {v1, v4}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_5
@@ -1383,7 +1302,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->S:Lcom/commsource/widget/h1/e;
 
     if-eqz v1, :cond_7
@@ -1417,13 +1335,11 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 11
     :cond_7
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->R:Lcom/commsource/camera/f1/s$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/s$a;->e()V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1436,7 +1352,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v1
@@ -1445,7 +1360,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v1, :cond_0
@@ -1459,7 +1373,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {}, Lf/d/i/o;->p0()Z
 
@@ -1467,7 +1380,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v1, :cond_2
@@ -1481,7 +1393,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
 
@@ -1499,12 +1410,10 @@
 
     if-lez v7, :cond_8
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
 
-    .line 7
     iget-object v7, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v7, :cond_4
@@ -1522,7 +1431,6 @@
 
     if-gez v7, :cond_6
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v1, :cond_5
@@ -1536,7 +1444,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_6
     iget-object v3, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -1549,7 +1456,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_8
     iget-object v3, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -1560,7 +1466,6 @@
     :cond_9
     invoke-virtual {v3, v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->m1(Ljava/lang/String;)V
 
-    .line 11
     :goto_0
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
@@ -1574,7 +1479,6 @@
 
     if-eqz v1, :cond_b
 
-    .line 12
     iget-object v3, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v3, :cond_a
@@ -1594,7 +1498,6 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     :cond_b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1608,7 +1511,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     const-string v2, "mViewBinding"
@@ -1626,7 +1528,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_1
@@ -1642,7 +1543,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_2
@@ -1658,7 +1558,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_3
@@ -1674,7 +1573,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_4
@@ -1690,7 +1588,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_5
@@ -1706,7 +1603,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_6
@@ -1722,7 +1618,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_7
@@ -1746,7 +1641,6 @@
 
     invoke-virtual {v1, v4}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_8
@@ -1768,7 +1662,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/appcompat/widget/AppCompatTextView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_9
@@ -1790,7 +1683,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_a
@@ -1806,7 +1698,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_b
@@ -1822,12 +1713,10 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 13
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 14
     new-instance v2, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v2}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -1838,12 +1727,10 @@
 
     const-wide/16 v2, 0xc8
 
-    .line 15
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 16
     new-instance v2, Lcom/commsource/billing/activity/ProActivity$k;
 
     invoke-direct {v2, p0}, Lcom/commsource/billing/activity/ProActivity$k;-><init>(Lcom/commsource/billing/activity/ProActivity;)V
@@ -1854,13 +1741,10 @@
 
     const-wide/16 v2, 0x5dc
 
-    .line 17
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setStartDelay(J)Landroid/view/ViewPropertyAnimator;
 
-    .line 18
     invoke-direct {p0}, Lcom/commsource/billing/activity/ProActivity;->k1()V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1873,7 +1757,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     const-string v2, "mViewModel"
@@ -1893,7 +1776,6 @@
 
     invoke-virtual {v1, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v1, :cond_1
@@ -1911,7 +1793,6 @@
 
     invoke-virtual {v1, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v1, :cond_2
@@ -1927,7 +1808,6 @@
 
     invoke-virtual {v1, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v1, :cond_3
@@ -1945,7 +1825,6 @@
 
     invoke-virtual {v1, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v1, :cond_4
@@ -1963,7 +1842,6 @@
 
     invoke-virtual {v1, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v1, :cond_5
@@ -1981,7 +1859,6 @@
 
     invoke-virtual {v1, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v1, :cond_6
@@ -1999,14 +1876,12 @@
 
     invoke-virtual {v1, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
 
     if-eqz v1, :cond_a
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v3, :cond_7
@@ -2022,7 +1897,6 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/billing/activity/SubscribeViewModel;->g1(Ljava/lang/String;)V
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v3, :cond_8
@@ -2038,7 +1912,6 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/billing/activity/SubscribeViewModel;->h1([Ljava/lang/String;)V
 
-    .line 11
     iget-object v3, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v3, :cond_9
@@ -2056,7 +1929,6 @@
 
     invoke-virtual {v3, v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->l1(Lcom/commsource/beautyplus/router/RouterEntity;)V
 
-    .line 12
     :cond_a
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -2069,7 +1941,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/billing/activity/SubscribeViewModel;->k1(I)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v1, :cond_c
@@ -2081,7 +1952,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/billing/activity/SubscribeViewModel;->K0(Z)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2094,7 +1964,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/GmsManager$a;->a()Lcom/commsource/billing/pro/GmsManager;
@@ -2107,13 +1976,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/billing/pro/GmsManager;->p(Z)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/billing/activity/ProActivity;->finish()V
 
-    .line 3
     invoke-static {p0}, Lcom/commsource/util/h2;->e(Landroid/app/Activity;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2126,7 +1992,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_0
@@ -2156,7 +2021,6 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/camera/f1/j;->b(Landroid/view/View;JLandroid/view/animation/Interpolator;Lcotlin/jvm/u/l;ILjava/lang/Object;)Lcom/commsource/camera/f1/k;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2169,7 +2033,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_0
@@ -2199,7 +2062,6 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/camera/f1/j;->b(Landroid/view/View;JLandroid/view/animation/Interpolator;Lcotlin/jvm/u/l;ILjava/lang/Object;)Lcom/commsource/camera/f1/k;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2214,15 +2076,12 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/billing/activity/ProActivity;->x1()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/billing/bean/subsconfig/Config;->getBgPic()Ljava/lang/String;
 
@@ -2236,7 +2095,6 @@
 
     if-nez v1, :cond_4
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_1
@@ -2252,7 +2110,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_2
@@ -2268,12 +2125,10 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 6
     invoke-static {p0}, Lcom/commsource/util/u0;->h(Landroid/app/Activity;)Lcom/commsource/util/u0$d;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/billing/bean/subsconfig/Config;->getBgPic()Ljava/lang/String;
 
     move-result-object v3
@@ -2282,7 +2137,6 @@
 
     move-result-object v1
 
-    .line 8
     new-instance v3, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v3}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -2291,7 +2145,6 @@
 
     move-result-object v1
 
-    .line 9
     new-instance v3, Lcom/commsource/billing/activity/ProActivity$t;
 
     iget-object v4, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
@@ -2307,7 +2160,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/util/u0$d;->h(Lcom/bumptech/glide/request/j/p;)V
 
-    .line 10
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/billing/bean/subsconfig/Config;->getCountdown()Lcom/commsource/billing/bean/subsconfig/Countdown;
 
@@ -2324,7 +2176,6 @@
     :cond_5
     const/4 v1, 0x0
 
-    .line 11
     :goto_0
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2332,7 +2183,6 @@
 
     if-nez v3, :cond_7
 
-    .line 12
     :try_start_0
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
@@ -2348,14 +2198,12 @@
     :catch_0
     sget v1, Lcom/res/provider/ResCOLOR;->color_ff4760:I
 
-    .line 13
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v1
 
     goto :goto_1
 
-    .line 14
     :goto_2
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -2382,10 +2230,8 @@
 
     const/high16 v12, 0x40800000    # 4.0f
 
-    .line 15
     invoke-static/range {v3 .. v12}, Lf/k/c/c/c;->d(Landroid/view/View;IIFIFFFFF)V
 
-    .line 16
     :cond_7
     invoke-virtual {p1}, Lcom/commsource/billing/bean/subsconfig/Config;->getMainTitlePic()Ljava/lang/String;
 
@@ -2401,7 +2247,6 @@
 
     if-nez v1, :cond_a
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_8
@@ -2417,7 +2262,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 18
     invoke-static {p0}, Lcom/commsource/util/u0;->h(Landroid/app/Activity;)Lcom/commsource/util/u0$d;
 
     move-result-object v1
@@ -2438,7 +2282,6 @@
 
     move-result-object v1
 
-    .line 19
     iget-object v5, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v5, :cond_9
@@ -2452,7 +2295,6 @@
 
     goto/16 :goto_3
 
-    .line 20
     :cond_a
     invoke-virtual {p1}, Lcom/commsource/billing/bean/subsconfig/Config;->getTitle()Ljava/lang/String;
 
@@ -2464,7 +2306,6 @@
 
     if-nez v1, :cond_d
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_b
@@ -2484,7 +2325,6 @@
 
     invoke-virtual {v1, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_c
@@ -2506,7 +2346,6 @@
 
     invoke-direct {p0, v1, v5, v6}, Lcom/commsource/billing/activity/ProActivity;->v1(Landroid/widget/TextView;ILjava/lang/String;)V
 
-    .line 23
     :cond_d
     invoke-virtual {p1}, Lcom/commsource/billing/bean/subsconfig/Config;->getTitle2()Ljava/lang/String;
 
@@ -2518,7 +2357,6 @@
 
     if-nez v1, :cond_12
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_e
@@ -2534,7 +2372,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 25
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_f
@@ -2554,7 +2391,6 @@
 
     invoke-virtual {v1, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 26
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_10
@@ -2584,7 +2420,6 @@
 
     invoke-static/range {v6 .. v12}, Lcom/commsource/util/l0;->W(Landroid/view/View;IIIIILjava/lang/Object;)V
 
-    .line 27
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_11
@@ -2606,7 +2441,6 @@
 
     invoke-direct {p0, v1, v5, v6}, Lcom/commsource/billing/activity/ProActivity;->v1(Landroid/widget/TextView;ILjava/lang/String;)V
 
-    .line 28
     :cond_12
     :goto_3
     sget-object v1, Lcom/commsource/billing/pro/SubsConfigManager;->o:Lcom/commsource/billing/pro/SubsConfigManager;
@@ -2621,10 +2455,8 @@
 
     if-lez v1, :cond_13
 
-    .line 29
     invoke-direct {p0, v5, v6}, Lcom/commsource/billing/activity/ProActivity;->g1(J)V
 
-    .line 30
     :cond_13
     invoke-virtual {p1}, Lcom/commsource/billing/bean/subsconfig/Config;->getCopywritingDescription()Ljava/lang/String;
 
@@ -2636,7 +2468,6 @@
 
     if-nez v1, :cond_16
 
-    .line 31
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_14
@@ -2656,7 +2487,6 @@
 
     invoke-virtual {v1, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 32
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_15
@@ -2678,7 +2508,6 @@
 
     invoke-direct {p0, v1, v2, v3}, Lcom/commsource/billing/activity/ProActivity;->v1(Landroid/widget/TextView;ILjava/lang/String;)V
 
-    .line 33
     :cond_16
     invoke-virtual {p1}, Lcom/commsource/billing/bean/subsconfig/Config;->getContents()Ljava/util/List;
 
@@ -2686,7 +2515,6 @@
 
     if-eqz p1, :cond_18
 
-    .line 34
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v1
@@ -2707,12 +2535,10 @@
     :goto_5
     if-eqz v1, :cond_19
 
-    .line 35
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 36
     :cond_19
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->T:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
@@ -2720,7 +2546,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/widget/infiniteview/LoopLayoutManager;->h(Z)V
 
-    .line 37
     :cond_1a
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->S:Lcom/commsource/widget/h1/e;
 
@@ -2742,7 +2567,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 38
     :cond_1b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2756,7 +2580,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -2777,7 +2600,6 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v3
@@ -2788,17 +2610,14 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 4
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     sget-object v1, Lcom/commsource/billing/SubUserType;->USER_TYPE_SUBSCRIBER:Lcom/commsource/billing/SubUserType;
 
     const-string/jumbo v2, "x"
@@ -2807,7 +2626,6 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 6
     sget-object v1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -2830,7 +2648,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez p1, :cond_0
@@ -2840,10 +2657,8 @@
     :cond_0
     invoke-virtual {p1, v2}, Lcom/commsource/billing/activity/SubscribeViewModel;->m1(Ljava/lang/String;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/billing/activity/ProActivity;->A1()V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->U:Landroid/os/CountDownTimer;
 
     if-eqz p1, :cond_d
@@ -2852,13 +2667,11 @@
 
     goto/16 :goto_0
 
-    .line 10
     :cond_1
     sget-object v1, Lcom/commsource/billing/SubUserType;->USER_TYPE_NEW_DISCOUNT:Lcom/commsource/billing/SubUserType;
 
     if-ne p1, v1, :cond_3
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/billing/SubUserType;->getDiscountDeadLine()J
 
     move-result-wide v1
@@ -2871,7 +2684,6 @@
 
     invoke-direct {p0, v1, v2}, Lcom/commsource/billing/activity/ProActivity;->j1(J)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez p1, :cond_2
@@ -2885,13 +2697,11 @@
 
     goto :goto_0
 
-    .line 13
     :cond_3
     sget-object v1, Lcom/commsource/billing/SubUserType;->USER_TYPE_DISCOUNT:Lcom/commsource/billing/SubUserType;
 
     if-ne p1, v1, :cond_5
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez p1, :cond_4
@@ -2905,13 +2715,11 @@
 
     goto :goto_0
 
-    .line 15
     :cond_5
     sget-object v1, Lcom/commsource/billing/SubUserType;->USER_TYPE_NORMAL:Lcom/commsource/billing/SubUserType;
 
     if-ne p1, v1, :cond_7
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez p1, :cond_6
@@ -2925,13 +2733,11 @@
 
     goto :goto_0
 
-    .line 17
     :cond_7
     sget-object v1, Lcom/commsource/billing/SubUserType;->USER_TYPE_RESUBSCRIBER:Lcom/commsource/billing/SubUserType;
 
     if-ne p1, v1, :cond_b
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez p1, :cond_8
@@ -2960,7 +2766,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez p1, :cond_a
@@ -2974,7 +2779,6 @@
 
     goto :goto_0
 
-    .line 20
     :cond_b
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -2985,7 +2789,6 @@
     :cond_c
     invoke-virtual {p1, v2}, Lcom/commsource/billing/activity/SubscribeViewModel;->m1(Ljava/lang/String;)V
 
-    .line 21
     :cond_d
     :goto_0
     sget-object p1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
@@ -3000,7 +2803,6 @@
 
     if-eqz p1, :cond_f
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v1, :cond_e
@@ -3020,7 +2822,6 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/meitu/library/hwanalytics/spm/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 23
     :cond_f
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3034,7 +2835,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -3043,16 +2843,13 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->J0()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->r0()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3068,7 +2865,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getYearlyFreeTrialPeriod()I
 
     move-result v0
@@ -3083,7 +2879,6 @@
 
     if-gtz v0, :cond_1
 
-    .line 2
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_0
@@ -3099,7 +2894,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -3132,7 +2926,6 @@
 
     invoke-virtual {v0, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_3
@@ -3146,7 +2939,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     :goto_0
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/billing/bean/SubPriceInfo;->isPriceEmpty()Z
 
@@ -3154,12 +2946,10 @@
 
     if-eqz v0, :cond_4
 
-    .line 6
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_4
     sget-object v0, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
@@ -3181,7 +2971,6 @@
 
     if-eqz v0, :cond_19
 
-    .line 8
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/billing/bean/SubPriceInfo;->hasMonthIntroductoryPric()Z
 
     move-result v0
@@ -3194,7 +2983,6 @@
 
     new-array v0, v5, [Ljava/lang/Object;
 
-    .line 9
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getMonthIntroductoryDay()I
 
     move-result v14
@@ -3211,7 +2999,6 @@
 
     invoke-static {v0, v12}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v14
@@ -3232,19 +3019,16 @@
 
     if-nez v14, :cond_5
 
-    .line 11
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v14
 
-    .line 12
     invoke-static {v14}, Lcom/commsource/util/b1;->k(Landroid/content/Context;)Z
 
     move-result v14
 
     if-eqz v14, :cond_6
 
-    .line 13
     :cond_5
     new-instance v14, Ljava/lang/StringBuilder;
 
@@ -3258,7 +3042,6 @@
 
     move-result-object v0
 
-    .line 14
     :cond_6
     iget-object v14, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -3275,7 +3058,6 @@
 
     invoke-virtual {v14, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 15
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_8
@@ -3295,7 +3077,6 @@
 
     goto :goto_1
 
-    .line 16
     :cond_9
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -3314,7 +3095,6 @@
 
     invoke-virtual {v0, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 17
     :goto_1
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/billing/bean/SubPriceInfo;->hasYearIntroductoryPric()Z
 
@@ -3326,7 +3106,6 @@
 
     new-array v0, v5, [Ljava/lang/Object;
 
-    .line 18
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getYearIntroductoryDay()I
 
     move-result v14
@@ -3343,7 +3122,6 @@
 
     invoke-static {v0, v12}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 19
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v12
@@ -3364,19 +3142,16 @@
 
     if-nez v12, :cond_b
 
-    .line 20
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v12
 
-    .line 21
     invoke-static {v12}, Lcom/commsource/util/b1;->k(Landroid/content/Context;)Z
 
     move-result v12
 
     if-eqz v12, :cond_c
 
-    .line 22
     :cond_b
     new-instance v12, Ljava/lang/StringBuilder;
 
@@ -3390,7 +3165,6 @@
 
     move-result-object v0
 
-    .line 23
     :cond_c
     iget-object v12, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -3407,7 +3181,6 @@
 
     invoke-virtual {v12, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 24
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_e
@@ -3425,7 +3198,6 @@
 
     invoke-virtual {v0, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 25
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_f
@@ -3439,7 +3211,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 26
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_10
@@ -3453,7 +3224,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 27
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_11
@@ -3467,7 +3237,6 @@
 
     invoke-virtual {v0, v11}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 28
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_12
@@ -3497,7 +3266,6 @@
 
     goto/16 :goto_2
 
-    .line 29
     :cond_13
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -3516,7 +3284,6 @@
 
     invoke-virtual {v0, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 30
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_15
@@ -3545,7 +3312,6 @@
 
     invoke-virtual {v0, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 31
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_17
@@ -3559,7 +3325,6 @@
 
     invoke-virtual {v0, v11}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 32
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_18
@@ -3575,7 +3340,6 @@
 
     goto :goto_2
 
-    .line 33
     :cond_19
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -3594,7 +3358,6 @@
 
     invoke-virtual {v0, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 34
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_1b
@@ -3612,7 +3375,6 @@
 
     invoke-virtual {v0, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 35
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_1c
@@ -3641,7 +3403,6 @@
 
     invoke-virtual {v0, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 36
     :goto_2
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -3666,7 +3427,6 @@
 
     check-cast v7, Lcom/commsource/billing/bean/subsconfig/Config;
 
-    .line 37
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/billing/bean/SubPriceInfo;->isMonthlyFullPriceEmpty()Z
 
     move-result v0
@@ -3689,18 +3449,15 @@
 
     invoke-static {v10}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
-    .line 38
     :cond_1f
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getMonthlyPrice()Ljava/lang/String;
 
     move-result-object v12
 
-    .line 39
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getMonthlyFullPrice()Ljava/lang/String;
 
     move-result-object v13
 
-    .line 40
     invoke-virtual {v0, v12, v13}, Lcom/commsource/billing/activity/SubscribeViewModel;->R0(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
@@ -3709,7 +3466,6 @@
 
     goto :goto_3
 
-    .line 41
     :cond_20
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -3732,7 +3488,6 @@
 
     invoke-virtual {v0, v5}, Landroid/text/TextPaint;->setStrikeThruText(Z)V
 
-    .line 42
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_22
@@ -3750,7 +3505,6 @@
 
     invoke-virtual {v0, v12}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 43
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_23
@@ -3766,7 +3520,6 @@
 
     goto :goto_4
 
-    .line 44
     :cond_24
     :goto_3
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
@@ -3782,7 +3535,6 @@
 
     invoke-virtual {v0, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 45
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_26
@@ -3796,7 +3548,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 46
     :goto_4
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/billing/bean/SubPriceInfo;->isYearlyFullPriceEmpty()Z
 
@@ -3818,18 +3569,15 @@
 
     invoke-static {v10}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
-    .line 47
     :cond_27
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getYearlyPrice()Ljava/lang/String;
 
     move-result-object v12
 
-    .line 48
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/billing/bean/SubPriceInfo;->getYearlyFullPrice()Ljava/lang/String;
 
     move-result-object v13
 
-    .line 49
     invoke-virtual {v0, v12, v13}, Lcom/commsource/billing/activity/SubscribeViewModel;->R0(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
@@ -3838,7 +3586,6 @@
 
     goto :goto_5
 
-    .line 50
     :cond_28
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -3861,7 +3608,6 @@
 
     invoke-virtual {v0, v5}, Landroid/text/TextPaint;->setStrikeThruText(Z)V
 
-    .line 51
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_2a
@@ -3879,7 +3625,6 @@
 
     invoke-virtual {v0, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 52
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_2b
@@ -3895,7 +3640,6 @@
 
     goto :goto_6
 
-    .line 53
     :cond_2c
     :goto_5
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
@@ -3911,7 +3655,6 @@
 
     invoke-virtual {v0, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 54
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_2e
@@ -3925,13 +3668,11 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 55
     :goto_6
     invoke-direct/range {p0 .. p1}, Lcom/commsource/billing/activity/ProActivity;->h1(Lcom/commsource/billing/bean/SubPriceInfo;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 56
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
@@ -3940,7 +3681,6 @@
 
     if-nez v8, :cond_33
 
-    .line 57
     iget-object v8, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v8, :cond_2f
@@ -3970,7 +3710,6 @@
 
     add-float/2addr v8, v13
 
-    .line 58
     iget-object v13, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v13, :cond_30
@@ -3984,7 +3723,6 @@
 
     invoke-static {v13, v8}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 59
     iget-object v8, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v8, :cond_31
@@ -3998,7 +3736,6 @@
 
     invoke-virtual {v8, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 60
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_32
@@ -4012,20 +3749,17 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 61
     :cond_33
     invoke-direct/range {p0 .. p1}, Lcom/commsource/billing/activity/ProActivity;->i1(Lcom/commsource/billing/bean/SubPriceInfo;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 62
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
 
     if-nez v8, :cond_37
 
-    .line 63
     iget-object v8, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v8, :cond_34
@@ -4055,7 +3789,6 @@
 
     add-float/2addr v8, v9
 
-    .line 64
     iget-object v9, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v9, :cond_35
@@ -4069,7 +3802,6 @@
 
     invoke-static {v9, v8}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 65
     iget-object v8, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v8, :cond_36
@@ -4083,7 +3815,6 @@
 
     invoke-virtual {v8, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 66
     :cond_37
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -4096,7 +3827,6 @@
 
     move-result-object v0
 
-    .line 67
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
@@ -4105,7 +3835,6 @@
 
     if-eqz v7, :cond_39
 
-    .line 68
     invoke-virtual {v7}, Lcom/commsource/billing/bean/subsconfig/Config;->getYear()Lcom/commsource/billing/bean/subsconfig/SubsPeriodConfig;
 
     move-result-object v8
@@ -4121,7 +3850,6 @@
     :cond_39
     move-object v8, v11
 
-    .line 69
     :goto_7
     invoke-static {v8}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -4131,7 +3859,6 @@
 
     if-nez v9, :cond_3a
 
-    .line 70
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -4161,7 +3888,6 @@
 
     aput-object v0, v3, v4
 
-    .line 71
     invoke-virtual {v1, v10, v3}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
@@ -4170,7 +3896,6 @@
 
     invoke-static {v3, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 72
     :goto_8
     iget-object v8, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -4187,7 +3912,6 @@
 
     invoke-virtual {v8, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 73
     iget-object v3, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v3, :cond_3c
@@ -4214,7 +3938,6 @@
     :cond_3d
     if-eqz v7, :cond_3e
 
-    .line 74
     invoke-virtual {v7}, Lcom/commsource/billing/bean/subsconfig/Config;->getYear()Lcom/commsource/billing/bean/subsconfig/SubsPeriodConfig;
 
     move-result-object v0
@@ -4230,7 +3953,6 @@
     :cond_3e
     move-object v0, v11
 
-    .line 75
     :goto_9
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -4240,7 +3962,6 @@
 
     if-nez v3, :cond_40
 
-    .line 76
     iget-object v3, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v3, :cond_3f
@@ -4257,7 +3978,6 @@
     :cond_40
     if-eqz v7, :cond_41
 
-    .line 77
     invoke-virtual {v7}, Lcom/commsource/billing/bean/subsconfig/Config;->getYear()Lcom/commsource/billing/bean/subsconfig/SubsPeriodConfig;
 
     move-result-object v0
@@ -4273,7 +3993,6 @@
     :cond_41
     move-object v0, v11
 
-    .line 78
     :goto_a
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -4281,7 +4000,6 @@
 
     if-nez v3, :cond_43
 
-    .line 79
     iget-object v3, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v3, :cond_42
@@ -4300,7 +4018,6 @@
     :cond_43
     if-eqz v7, :cond_46
 
-    .line 80
     invoke-virtual {v7}, Lcom/commsource/billing/bean/subsconfig/Config;->getSubBackgroundColor()Ljava/lang/String;
 
     move-result-object v0
@@ -4323,13 +4040,11 @@
     :goto_b
     if-eqz v0, :cond_46
 
-    .line 81
     :try_start_0
     invoke-static {v0}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v14
 
-    .line 82
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_45
@@ -4355,7 +4070,6 @@
 
     const/high16 v21, 0x41c80000    # 25.0f
 
-    .line 83
     invoke-static/range {v12 .. v21}, Lf/k/c/c/c;->d(Landroid/view/View;IIFIFFFFF)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -4365,17 +4079,14 @@
     :catch_0
     move-exception v0
 
-    .line 84
     invoke-static {v0}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 85
     :goto_c
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 
     :cond_46
     if-eqz v7, :cond_49
 
-    .line 86
     invoke-virtual {v7}, Lcom/commsource/billing/bean/subsconfig/Config;->getSubColor()Ljava/lang/String;
 
     move-result-object v0
@@ -4395,13 +4106,11 @@
     :cond_47
     if-eqz v11, :cond_49
 
-    .line 87
     :try_start_1
     invoke-static {v11}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v0
 
-    .line 88
     iget-object v3, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v3, :cond_48
@@ -4420,14 +4129,11 @@
     :catch_1
     move-exception v0
 
-    .line 89
     invoke-static {v0}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 90
     :goto_d
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 
-    .line 91
     :cond_49
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -4442,7 +4148,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 92
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_4b
@@ -4458,7 +4163,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 93
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_4c
@@ -4474,7 +4178,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 94
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_4d
@@ -4490,7 +4193,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 95
     iget-object v0, v1, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v0, :cond_4e
@@ -4506,10 +4208,8 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 96
     invoke-direct/range {p0 .. p0}, Lcom/commsource/billing/activity/ProActivity;->q1()V
 
-    .line 97
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4522,7 +4222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -4530,7 +4229,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {p3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result p3
@@ -4539,7 +4237,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
     :try_end_0
@@ -4550,13 +4247,10 @@
     :catch_0
     move-exception p3
 
-    .line 4
     invoke-static {p3}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 5
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4599,20 +4293,16 @@
     :cond_0
     sget p1, Lcom/res/provider/ResSTRING;->not_subs_no_restore:I
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     sget-object v3, Lcom/commsource/billing/activity/ProActivity$x;->a:Lcom/commsource/billing/activity/ProActivity$x;
 
-    .line 4
     invoke-static {p1, v2, v3, v1}, Lcom/commsource/widget/dialog/s0/t;->p0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Z)V
 
     goto/16 :goto_1
@@ -4620,7 +4310,6 @@
     :cond_1
     sget p1, Lcom/res/provider/ResSTRING;->restored:I
 
-    .line 5
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -4638,7 +4327,6 @@
     :cond_2
     sget p1, Lcom/res/provider/ResSTRING;->half_restored:I
 
-    .line 6
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -4653,7 +4341,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -4668,7 +4355,6 @@
 
     move-result-object p1
 
-    .line 8
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -4677,7 +4363,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->sub_upgrade_to_yearly_description:I
 
-    .line 9
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -4693,7 +4378,6 @@
 
     aput-object p1, v1, v3
 
-    .line 10
     invoke-virtual {p0, v2, v1}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -4705,12 +4389,10 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->sub_upgrade_to_yearly:I
 
-    .line 11
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 12
     new-instance v8, Lcom/commsource/billing/activity/ProActivity$showCustomDialog$5;
 
     invoke-direct {v8, p0}, Lcom/commsource/billing/activity/ProActivity$showCustomDialog$5;-><init>(Lcom/commsource/billing/activity/ProActivity;)V
@@ -4721,12 +4403,10 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->sub_by_monthly:I
 
-    .line 13
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 14
     new-instance v7, Lcom/commsource/billing/activity/ProActivity$showCustomDialog$6;
 
     invoke-direct {v7, p0}, Lcom/commsource/billing/activity/ProActivity$showCustomDialog$6;-><init>(Lcom/commsource/billing/activity/ProActivity;)V
@@ -4735,12 +4415,10 @@
 
     const/4 v10, 0x0
 
-    .line 15
     invoke-static/range {v1 .. v10}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcotlin/jvm/u/l;Lcotlin/jvm/u/l;ILjava/lang/Object;)Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object p1
 
-    .line 16
     invoke-virtual {p1}, Lf/d/a;->F()V
 
     goto :goto_1
@@ -4748,27 +4426,22 @@
     :cond_6
     sget p1, Lcom/res/provider/ResSTRING;->purchase_restore_failed:I
 
-    .line 17
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
     sget v2, Lcom/res/provider/ResSTRING;->solve_now:I
 
-    .line 18
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 19
     new-instance v3, Lcom/commsource/billing/activity/ProActivity$y;
 
     invoke-direct {v3, p0}, Lcom/commsource/billing/activity/ProActivity$y;-><init>(Lcom/commsource/billing/activity/ProActivity;)V
 
-    .line 20
     invoke-static {p1, v2, v3, v1}, Lcom/commsource/widget/dialog/s0/t;->p0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Z)V
 
-    .line 21
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4782,7 +4455,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     const-string v2, "mViewBinding"
@@ -4800,7 +4472,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_1
@@ -4816,7 +4487,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_2
@@ -4836,7 +4506,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_3
@@ -4863,7 +4532,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_5
@@ -4879,7 +4547,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_6
@@ -4895,7 +4562,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_7
@@ -4911,7 +4577,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4926,7 +4591,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, v0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     const-string v3, "mViewBinding"
@@ -4940,7 +4604,6 @@
 
     invoke-static {v2}, Lcom/commsource/camera/mvp/helper/e;->c(Landroidx/databinding/ViewStubProxy;)V
 
-    .line 2
     iget-object v2, v0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v2, :cond_1
@@ -4962,10 +4625,8 @@
 
     if-eqz v2, :cond_5
 
-    .line 3
     check-cast v2, Lcom/commsource/beautyplus/f0/wl;
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v3
@@ -4980,22 +4641,18 @@
 
     mul-int/lit16 v3, v3, 0x546
 
-    .line 5
     div-int/lit16 v3, v3, 0x3cf
 
-    .line 6
     iget-object v4, v2, Lcom/commsource/beautyplus/f0/wl;->g:Landroid/widget/RelativeLayout;
 
     invoke-static {v4, v3}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 7
     iget-object v4, v2, Lcom/commsource/beautyplus/f0/wl;->f:Landroid/widget/LinearLayout;
 
     div-int/lit8 v3, v3, 0x5
 
     invoke-static {v4, v3}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 8
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
     move-result v3
@@ -5004,7 +4661,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 9
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/wl;->b:Landroid/widget/ImageView;
 
     invoke-static {}, Lcom/meitu/library/p/f/i;->B()I
@@ -5021,7 +4677,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/wl;->b:Landroid/widget/ImageView;
 
@@ -5031,7 +4686,6 @@
 
     invoke-static {v3, v4}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 11
     :goto_0
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -5061,7 +4715,6 @@
 
     move-result-object v3
 
-    .line 12
     iget-object v4, v2, Lcom/commsource/beautyplus/f0/wl;->J:Lcom/commsource/widget/AutoFitTextView;
 
     const-string/jumbo v5, "tvTitle"
@@ -5070,7 +4723,6 @@
 
     invoke-virtual {v4, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 13
     sget-object v3, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
     invoke-virtual {v3}, Lcom/commsource/billing/pro/GmsManager$a;->a()Lcom/commsource/billing/pro/GmsManager;
@@ -5098,7 +4750,6 @@
     :cond_3
     const-wide/16 v3, 0x0
 
-    .line 14
     :goto_1
     invoke-static {v3, v4}, Lcom/commsource/util/h0;->c(J)Ljava/lang/String;
 
@@ -5106,7 +4757,6 @@
 
     const-string v3, "data"
 
-    .line 15
     invoke-static {v5, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v3, "/"
@@ -5137,7 +4787,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 16
     invoke-interface {v3}, Ljava/util/List;->size()I
 
     move-result v8
@@ -5146,7 +4795,6 @@
 
     sget v8, Lcom/res/provider/ResSTRING;->t_handle_continue_premium:I
 
-    .line 17
     invoke-static {v8}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v9
@@ -5171,7 +4819,6 @@
 
     move-result-object v15
 
-    .line 18
     invoke-interface {v3, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -5212,7 +4859,6 @@
 
     move-result-object v3
 
-    .line 19
     iget-object v8, v2, Lcom/commsource/beautyplus/f0/wl;->p:Landroid/widget/TextView;
 
     const-string/jumbo v9, "tvContent"
@@ -5221,7 +4867,6 @@
 
     invoke-virtual {v8, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 20
     :cond_4
     invoke-static/range {p0 .. p0}, Lcom/commsource/util/u0;->h(Landroid/app/Activity;)Lcom/commsource/util/u0$d;
 
@@ -5233,22 +4878,18 @@
 
     move-result-object v3
 
-    .line 21
     iget-object v8, v2, Lcom/commsource/beautyplus/f0/wl;->a:Landroid/widget/ImageView;
 
     invoke-virtual {v3, v8}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 22
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/wl;->K:Lcom/commsource/widget/PressAutoFitTextView;
 
     const-string/jumbo v8, "tvUpdatePayment"
 
     invoke-static {v3, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 23
     new-instance v8, Landroid/graphics/drawable/GradientDrawable;
 
-    .line 24
     sget-object v9, Landroid/graphics/drawable/GradientDrawable$Orientation;->LEFT_RIGHT:Landroid/graphics/drawable/GradientDrawable$Orientation;
 
     const/4 v10, 0x4
@@ -5279,22 +4920,18 @@
 
     aput v5, v10, v7
 
-    .line 25
     invoke-direct {v8, v9, v10}, Landroid/graphics/drawable/GradientDrawable;-><init>(Landroid/graphics/drawable/GradientDrawable$Orientation;[I)V
 
     const/16 v4, 0x19
 
-    .line 26
     invoke-static {v4}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v4
 
     invoke-virtual {v8, v4}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
-    .line 27
     invoke-virtual {v3, v8}, Landroid/widget/TextView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 28
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/wl;->K:Lcom/commsource/widget/PressAutoFitTextView;
 
     new-instance v4, Lcom/commsource/billing/activity/ProActivity$z;
@@ -5303,7 +4940,6 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 29
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/wl;->b:Landroid/widget/ImageView;
 
     new-instance v3, Lcom/commsource/billing/activity/ProActivity$a0;
@@ -5314,7 +4950,6 @@
 
     goto :goto_2
 
-    .line 30
     :cond_5
     new-instance v2, Lcotlin/TypeCastException;
 
@@ -5326,7 +4961,6 @@
 
     throw v2
 
-    .line 31
     :cond_6
     :goto_2
     invoke-virtual/range {p0 .. p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
@@ -5353,10 +4987,8 @@
 
     const-string/jumbo v4, "source"
 
-    .line 32
     invoke-static {v3, v4, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 33
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5369,7 +5001,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     const-string v2, "mViewBinding"
@@ -5389,7 +5020,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/widget/GradientTextView;->k(F)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_1
@@ -5405,7 +5035,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/widget/GradientTextView;->l(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_2
@@ -5421,7 +5050,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/GradientTextView;->j(F)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_3
@@ -5435,7 +5063,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/GradientTextView;->setStroke(Z)V
 
-    .line 5
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
     move-result v1
@@ -5444,7 +5071,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_4
@@ -5454,7 +5080,6 @@
     :cond_4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u0;->K:Lcom/commsource/widget/PressImageView;
 
-    .line 7
     invoke-static {}, Lcom/meitu/library/p/f/i;->B()I
 
     move-result v5
@@ -5465,12 +5090,10 @@
 
     add-int/2addr v5, v4
 
-    .line 8
     invoke-static {v1, v5}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
     goto :goto_0
 
-    .line 9
     :cond_5
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
@@ -5487,7 +5110,6 @@
 
     invoke-static {v1, v4}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 10
     :goto_0
     sget-object v1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
@@ -5513,7 +5135,6 @@
 
     invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     invoke-static {}, Lf/d/i/o;->l0()Z
 
     move-result v6
@@ -5526,7 +5147,6 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v5
@@ -5537,10 +5157,8 @@
 
     move-result-object v4
 
-    .line 13
     invoke-static {v1, v4}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_7
@@ -5558,7 +5176,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 15
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {v1, p0}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -5577,7 +5194,6 @@
 
     iput-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
-    .line 16
     invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v1
@@ -5593,16 +5209,12 @@
     :cond_8
     invoke-virtual {v1, v2}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 17
     invoke-direct {p0}, Lcom/commsource/billing/activity/ProActivity;->m1()V
 
-    .line 18
     invoke-direct {p0}, Lcom/commsource/billing/activity/ProActivity;->n1()V
 
-    .line 19
     invoke-direct {p0}, Lcom/commsource/billing/activity/ProActivity;->l1()V
 
-    .line 20
     sget-object v1, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
     const/4 v2, 0x2
@@ -5623,22 +5235,18 @@
 
     new-array v4, v2, [Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 21
     sget-object v5, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_FIREBASE_ID_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     aput-object v5, v4, v6
 
-    .line 22
     sget-object v5, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_FIREBASE_ID_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     aput-object v5, v4, v3
 
-    .line 23
     invoke-virtual {v1, v4}, Lcom/commsource/statistics/o;->a([Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;)V
 
     new-array v4, v2, [Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 24
     sget-object v5, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_PRICE_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     aput-object v5, v4, v6
@@ -5651,7 +5259,6 @@
 
     new-array v4, v2, [Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 25
     sget-object v5, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->V2_SUB_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     aput-object v5, v4, v6
@@ -5664,7 +5271,6 @@
 
     new-array v2, v2, [Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 26
     sget-object v4, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->V2_SUB_STARTUP_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     aput-object v4, v2, v6
@@ -5675,7 +5281,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/statistics/o;->a([Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;)V
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5759,15 +5364,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/billing/activity/ProActivity;->V:Z
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v1, :cond_0
@@ -5779,7 +5381,6 @@
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->e1()V
 
-    .line 4
     :cond_1
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
@@ -5789,25 +5390,20 @@
 
     const-string/jumbo v2, "source_feature_content"
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/d;->e(Ljava/lang/String;)Ljava/lang/String;
 
     const-string v2, "prf_func"
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/d;->e(Ljava/lang/String;)Ljava/lang/String;
 
     const-string v2, "mids_material"
 
-    .line 7
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/d;->e(Ljava/lang/String;)Ljava/lang/String;
 
     const-string v2, "mids_material_tag"
 
-    .line 8
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/d;->e(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5820,23 +5416,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/billing/activity/ProActivity;->V:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->m0()V
 
     goto/16 :goto_0
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 4
     const-class v2, Lcom/commsource/billing/activity/ProActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -5845,15 +5437,12 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
     const-string v2, "1009"
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 7
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string/jumbo v3, "source_click_position"
@@ -5862,7 +5451,6 @@
 
     move-result-object v4
 
-    .line 8
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -5871,7 +5459,6 @@
 
     if-nez v4, :cond_1
 
-    .line 9
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
@@ -5880,12 +5467,10 @@
     :cond_2
     const-string/jumbo v3, "source_feature_content"
 
-    .line 10
     invoke-virtual {v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 11
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -5894,7 +5479,6 @@
 
     if-nez v4, :cond_3
 
-    .line 12
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
@@ -5903,12 +5487,10 @@
     :cond_4
     const-string v3, "prf_func"
 
-    .line 13
     invoke-virtual {v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 14
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -5917,7 +5499,6 @@
 
     if-nez v4, :cond_5
 
-    .line 15
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
@@ -5926,12 +5507,10 @@
     :cond_6
     const-string v3, "mids_material"
 
-    .line 16
     invoke-virtual {v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 17
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -5940,7 +5519,6 @@
 
     if-nez v4, :cond_7
 
-    .line 18
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
@@ -5949,12 +5527,10 @@
     :cond_8
     const-string v3, "mids_material_tag"
 
-    .line 19
     invoke-virtual {v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 20
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -5963,13 +5539,11 @@
 
     if-nez v2, :cond_9
 
-    .line 21
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_9
     invoke-virtual {v1, v3, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     :cond_a
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
@@ -5979,7 +5553,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 23
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5993,10 +5566,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/billing/activity/ProActivity;->o1()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6018,7 +5589,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/GmsManager$a;->a()Lcom/commsource/billing/pro/GmsManager;
@@ -6049,12 +5619,10 @@
     :goto_0
     iput-boolean v1, p0, Lcom/commsource/billing/activity/ProActivity;->V:Z
 
-    .line 2
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->activity_pro:I
 
-    .line 3
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -6067,21 +5635,17 @@
 
     iput-object p1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
-    .line 4
     iget-boolean p1, p0, Lcom/commsource/billing/activity/ProActivity;->V:Z
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/billing/activity/ProActivity;->y1()V
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-direct {p0}, Lcom/commsource/billing/activity/ProActivity;->z1()V
 
-    .line 7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -6095,7 +5659,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->N:Lcom/commsource/beautyplus/f0/u0;
 
     if-nez v1, :cond_0
@@ -6113,23 +5676,19 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->U:Landroid/os/CountDownTimer;
 
     if-eqz v1, :cond_1
 
     invoke-virtual {v1}, Landroid/os/CountDownTimer;->cancel()V
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->R:Lcom/commsource/camera/f1/s$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/s$a;->c()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6142,15 +5701,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onStart()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/billing/activity/ProActivity;->V:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6158,20 +5714,16 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/billing/activity/ProActivity;->Q:Z
 
-    .line 5
     iget-boolean v2, p0, Lcom/commsource/billing/activity/ProActivity;->P:Z
 
     if-eqz v2, :cond_1
 
-    .line 6
     iput-boolean v1, p0, Lcom/commsource/billing/activity/ProActivity;->P:Z
 
     goto :goto_1
 
-    .line 7
     :cond_1
     iget-object v2, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -6207,7 +5759,6 @@
 
     if-lez v2, :cond_5
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     if-nez v2, :cond_4
@@ -6226,14 +5777,12 @@
 
     aget-object v6, v2, v1
 
-    .line 9
     invoke-static {v5, v4, v6}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 10
     :cond_5
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity;->O:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -6246,16 +5795,13 @@
 
     move-result-object v1
 
-    .line 11
     invoke-static {v5, v4, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_7
     const-string/jumbo v1, "sub_page_imp"
 
-    .line 12
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 13
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -6269,15 +5815,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onStop()V
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/billing/activity/ProActivity;->Q:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

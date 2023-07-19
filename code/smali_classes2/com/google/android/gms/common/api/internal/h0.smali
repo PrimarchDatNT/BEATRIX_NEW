@@ -15,15 +15,12 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/internal/f1;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/h0;->b:Z
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/h0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     return-void
@@ -32,7 +29,6 @@
 .method static synthetic a(Lcom/google/android/gms/common/api/internal/h0;)Lcom/google/android/gms/common/api/internal/f1;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/h0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     return-object p0
@@ -68,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
@@ -78,7 +73,6 @@
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/q2;->b(Lcom/google/android/gms/common/api/internal/BasePendingResult;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->P:Lcom/google/android/gms/common/api/internal/w0;
@@ -87,7 +81,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/w0;->s:Ljava/util/Map;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -98,10 +91,8 @@
 
     const-string v1, "Appropriate Api was not requested."
 
-    .line 4
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-interface {v0}, Lcom/google/android/gms/common/api/a$f;->isConnected()Z
 
     move-result v1
@@ -122,7 +113,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     new-instance v0, Lcom/google/android/gms/common/api/Status;
 
     const/16 v1, 0x11
@@ -133,20 +123,17 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     instance-of v1, v0, Lcom/google/android/gms/common/internal/g0;
 
     if-eqz v1, :cond_1
 
-    .line 8
     check-cast v0, Lcom/google/android/gms/common/internal/g0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/internal/g0;->q0()Lcom/google/android/gms/common/api/a$h;
 
     move-result-object v0
 
-    .line 9
     :cond_1
     invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/internal/d$a;->B(Lcom/google/android/gms/common/api/a$b;)V
     :try_end_0
@@ -154,7 +141,6 @@
 
     goto :goto_0
 
-    .line 10
     :catch_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
@@ -182,7 +168,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/h0;->C0(Lcom/google/android/gms/common/api/internal/d$a;)Lcom/google/android/gms/common/api/internal/d$a;
 
     move-result-object p1
@@ -193,14 +178,12 @@
 .method public final Z(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/common/api/internal/f1;->o(Lcom/google/android/gms/common/ConnectionResult;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->Q:Lcom/google/android/gms/common/api/internal/t1;
@@ -215,17 +198,14 @@
 .method final b()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/h0;->b:Z
 
     if-eqz v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/h0;->b:Z
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->P:Lcom/google/android/gms/common/api/internal/w0;
@@ -234,7 +214,6 @@
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/q2;->a()V
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/h0;->disconnect()Z
 
     :cond_0
@@ -250,17 +229,14 @@
 .method public final connect()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/h0;->b:Z
 
     if-eqz v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/h0;->b:Z
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     new-instance v1, Lcom/google/android/gms/common/api/internal/j0;
@@ -276,7 +252,6 @@
 .method public final disconnect()Z
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/h0;->b:Z
 
     const/4 v1, 0x0
@@ -285,7 +260,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
@@ -299,10 +273,8 @@
 
     if-eqz v0, :cond_2
 
-    .line 3
     iput-boolean v2, p0, Lcom/google/android/gms/common/api/internal/h0;->b:Z
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->P:Lcom/google/android/gms/common/api/internal/w0;
@@ -326,7 +298,6 @@
 
     check-cast v2, Lcom/google/android/gms/common/api/internal/n2;
 
-    .line 5
     invoke-virtual {v2}, Lcom/google/android/gms/common/api/internal/n2;->i()V
 
     goto :goto_0
@@ -334,7 +305,6 @@
     :cond_1
     return v1
 
-    .line 6
     :cond_2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h0;->a:Lcom/google/android/gms/common/api/internal/f1;
 

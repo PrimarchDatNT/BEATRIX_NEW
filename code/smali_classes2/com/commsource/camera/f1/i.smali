@@ -165,12 +165,10 @@
 
     const-string v16, "rotationY"
 
-    .line 1
     filled-new-array/range {v3 .. v16}, [Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -193,19 +191,16 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 2
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/f1/i;->d()V
 
     return-void
@@ -218,7 +213,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/f1/i;->q:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -247,7 +241,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -264,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -279,10 +271,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/f1/i;->q:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -301,7 +291,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 3
     invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
 
     move-result v3
@@ -321,7 +310,6 @@
     :sswitch_0
     const-string v3, "marginLeft"
 
-    .line 4
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -332,7 +320,6 @@
 
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 5
     invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v4
@@ -356,7 +343,6 @@
     :cond_2
     int-to-float v4, v6
 
-    .line 6
     new-instance v5, Lcom/commsource/camera/f1/p;
 
     invoke-direct {v5, v4}, Lcom/commsource/camera/f1/p;-><init>(F)V
@@ -368,7 +354,6 @@
     :sswitch_1
     const-string v3, "marginRight"
 
-    .line 7
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -379,7 +364,6 @@
 
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 8
     invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v4
@@ -403,7 +387,6 @@
     :cond_4
     int-to-float v4, v6
 
-    .line 9
     new-instance v5, Lcom/commsource/camera/f1/p;
 
     invoke-direct {v5, v4}, Lcom/commsource/camera/f1/p;-><init>(F)V
@@ -415,14 +398,12 @@
     :sswitch_2
     const-string v3, "width"
 
-    .line 10
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
     invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -448,7 +429,6 @@
 
     if-ne v2, v4, :cond_7
 
-    .line 12
     :cond_6
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
@@ -461,7 +441,6 @@
 
     goto :goto_4
 
-    .line 13
     :cond_7
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
@@ -484,7 +463,6 @@
 
     goto :goto_3
 
-    .line 14
     :goto_4
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -499,7 +477,6 @@
     :sswitch_3
     const-string v3, "alpha"
 
-    .line 15
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -525,7 +502,6 @@
     :sswitch_4
     const-string v3, "rotation"
 
-    .line 16
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -551,7 +527,6 @@
     :sswitch_5
     const-string v3, "marginBottom"
 
-    .line 17
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -562,7 +537,6 @@
 
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 18
     invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v4
@@ -586,7 +560,6 @@
     :cond_a
     int-to-float v4, v6
 
-    .line 19
     new-instance v5, Lcom/commsource/camera/f1/p;
 
     invoke-direct {v5, v4}, Lcom/commsource/camera/f1/p;-><init>(F)V
@@ -598,7 +571,6 @@
     :sswitch_6
     const-string v3, "scaleY"
 
-    .line 20
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -624,7 +596,6 @@
     :sswitch_7
     const-string v3, "scaleX"
 
-    .line 21
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -650,7 +621,6 @@
     :sswitch_8
     const-string v3, "marginTop"
 
-    .line 22
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -661,7 +631,6 @@
 
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 23
     invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v4
@@ -685,7 +654,6 @@
     :cond_c
     int-to-float v4, v6
 
-    .line 24
     new-instance v5, Lcom/commsource/camera/f1/p;
 
     invoke-direct {v5, v4}, Lcom/commsource/camera/f1/p;-><init>(F)V
@@ -697,14 +665,12 @@
     :sswitch_9
     const-string v3, "height"
 
-    .line 25
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 26
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
     invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -730,7 +696,6 @@
 
     if-ne v2, v4, :cond_f
 
-    .line 27
     :cond_e
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
@@ -743,7 +708,6 @@
 
     goto :goto_8
 
-    .line 28
     :cond_f
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
@@ -766,7 +730,6 @@
 
     goto :goto_7
 
-    .line 29
     :goto_8
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -781,7 +744,6 @@
     :sswitch_a
     const-string v3, "rotationY"
 
-    .line 30
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -807,7 +769,6 @@
     :sswitch_b
     const-string v3, "rotationX"
 
-    .line 31
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -833,7 +794,6 @@
     :sswitch_c
     const-string v3, "transitionY"
 
-    .line 32
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -859,7 +819,6 @@
     :sswitch_d
     const-string v3, "transitionX"
 
-    .line 33
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -882,7 +841,6 @@
 
     goto/16 :goto_0
 
-    .line 34
     :cond_11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -916,10 +874,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/f1/i;->q:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -938,7 +894,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 3
     invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
 
     move-result v3
@@ -958,14 +913,12 @@
     :sswitch_0
     const-string v3, "marginLeft"
 
-    .line 4
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -982,7 +935,6 @@
 
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 6
     invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v4
@@ -1012,14 +964,12 @@
 
     if-nez v2, :cond_3
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 8
     :cond_3
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1033,7 +983,6 @@
 
     iget-object v3, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 9
     invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v3
@@ -1057,7 +1006,6 @@
     :cond_5
     int-to-float v3, v6
 
-    .line 10
     invoke-virtual {v2, v3}, Lcom/commsource/camera/f1/p;->p(F)V
 
     goto :goto_0
@@ -1065,14 +1013,12 @@
     :sswitch_1
     const-string v3, "marginRight"
 
-    .line 11
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1089,7 +1035,6 @@
 
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 13
     invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v4
@@ -1119,14 +1064,12 @@
 
     if-nez v2, :cond_8
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 15
     :cond_8
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1140,7 +1083,6 @@
 
     iget-object v3, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 16
     invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v3
@@ -1164,7 +1106,6 @@
     :cond_a
     int-to-float v3, v6
 
-    .line 17
     invoke-virtual {v2, v3}, Lcom/commsource/camera/f1/p;->p(F)V
 
     goto/16 :goto_0
@@ -1172,14 +1113,12 @@
     :sswitch_2
     const-string v3, "width"
 
-    .line 18
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 19
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
     invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -1205,7 +1144,6 @@
 
     if-ne v2, v4, :cond_d
 
-    .line 20
     :cond_c
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
@@ -1218,7 +1156,6 @@
 
     goto :goto_6
 
-    .line 21
     :cond_d
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
@@ -1241,7 +1178,6 @@
 
     goto :goto_5
 
-    .line 22
     :goto_6
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1261,14 +1197,12 @@
 
     if-nez v4, :cond_f
 
-    .line 23
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 24
     :cond_f
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1287,14 +1221,12 @@
     :sswitch_3
     const-string v3, "alpha"
 
-    .line 25
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 26
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1319,14 +1251,12 @@
 
     if-nez v2, :cond_10
 
-    .line 27
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 28
     :cond_10
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1351,14 +1281,12 @@
     :sswitch_4
     const-string v3, "rotation"
 
-    .line 29
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 30
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1383,14 +1311,12 @@
 
     if-nez v2, :cond_11
 
-    .line 31
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 32
     :cond_11
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1415,14 +1341,12 @@
     :sswitch_5
     const-string v3, "marginBottom"
 
-    .line 33
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 34
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1439,7 +1363,6 @@
 
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 35
     invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v4
@@ -1469,14 +1392,12 @@
 
     if-nez v2, :cond_14
 
-    .line 36
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 37
     :cond_14
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1490,7 +1411,6 @@
 
     iget-object v3, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 38
     invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v3
@@ -1514,7 +1434,6 @@
     :cond_16
     int-to-float v3, v6
 
-    .line 39
     invoke-virtual {v2, v3}, Lcom/commsource/camera/f1/p;->p(F)V
 
     goto/16 :goto_0
@@ -1522,14 +1441,12 @@
     :sswitch_6
     const-string v3, "scaleY"
 
-    .line 40
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 41
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1554,14 +1471,12 @@
 
     if-nez v2, :cond_17
 
-    .line 42
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 43
     :cond_17
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1586,14 +1501,12 @@
     :sswitch_7
     const-string v3, "scaleX"
 
-    .line 44
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 45
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1618,14 +1531,12 @@
 
     if-nez v2, :cond_18
 
-    .line 46
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 47
     :cond_18
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1650,14 +1561,12 @@
     :sswitch_8
     const-string v3, "marginTop"
 
-    .line 48
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 49
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1674,7 +1583,6 @@
 
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 50
     invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v4
@@ -1704,14 +1612,12 @@
 
     if-nez v2, :cond_1b
 
-    .line 51
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 52
     :cond_1b
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1725,7 +1631,6 @@
 
     iget-object v3, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
-    .line 53
     invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v3
@@ -1749,7 +1654,6 @@
     :cond_1d
     int-to-float v3, v6
 
-    .line 54
     invoke-virtual {v2, v3}, Lcom/commsource/camera/f1/p;->p(F)V
 
     goto/16 :goto_0
@@ -1757,14 +1661,12 @@
     :sswitch_9
     const-string v3, "height"
 
-    .line 55
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 56
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
     invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -1790,7 +1692,6 @@
 
     if-ne v2, v4, :cond_20
 
-    .line 57
     :cond_1f
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
@@ -1803,7 +1704,6 @@
 
     goto :goto_c
 
-    .line 58
     :cond_20
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->b:Landroid/view/View;
 
@@ -1826,7 +1726,6 @@
 
     goto :goto_b
 
-    .line 59
     :goto_c
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1846,14 +1745,12 @@
 
     if-nez v4, :cond_22
 
-    .line 60
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 61
     :cond_22
     iget-object v4, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1872,14 +1769,12 @@
     :sswitch_a
     const-string v3, "rotationY"
 
-    .line 62
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 63
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1904,14 +1799,12 @@
 
     if-nez v2, :cond_23
 
-    .line 64
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 65
     :cond_23
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -1936,14 +1829,12 @@
     :sswitch_b
     const-string v3, "rotationX"
 
-    .line 66
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 67
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1968,14 +1859,12 @@
 
     if-nez v2, :cond_24
 
-    .line 68
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 69
     :cond_24
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -2000,14 +1889,12 @@
     :sswitch_c
     const-string v3, "transitionY"
 
-    .line 70
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 71
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -2032,14 +1919,12 @@
 
     if-nez v2, :cond_25
 
-    .line 72
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 73
     :cond_25
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -2064,14 +1949,12 @@
     :sswitch_d
     const-string v3, "transitionX"
 
-    .line 74
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 75
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -2096,14 +1979,12 @@
 
     if-nez v2, :cond_26
 
-    .line 76
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, v3, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 77
     :cond_26
     iget-object v2, p0, Lcom/commsource/camera/f1/i;->a:Ljava/util/HashMap;
 
@@ -2125,7 +2006,6 @@
 
     goto/16 :goto_0
 
-    .line 78
     :cond_27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2165,10 +2045,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/f1/i;->q:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2187,7 +2065,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 3
     invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
 
     move-result v3
@@ -2203,7 +2080,6 @@
     :sswitch_0
     const-string v3, "marginLeft"
 
-    .line 4
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2245,7 +2121,6 @@
     :sswitch_1
     const-string v3, "marginRight"
 
-    .line 5
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2287,7 +2162,6 @@
     :sswitch_2
     const-string v3, "width"
 
-    .line 6
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2321,7 +2195,6 @@
     :sswitch_3
     const-string v3, "alpha"
 
-    .line 7
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2351,7 +2224,6 @@
     :sswitch_4
     const-string v3, "rotation"
 
-    .line 8
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2381,7 +2253,6 @@
     :sswitch_5
     const-string v3, "marginBottom"
 
-    .line 9
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2423,7 +2294,6 @@
     :sswitch_6
     const-string v3, "scaleY"
 
-    .line 10
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2453,7 +2323,6 @@
     :sswitch_7
     const-string v3, "scaleX"
 
-    .line 11
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2483,7 +2352,6 @@
     :sswitch_8
     const-string v3, "marginTop"
 
-    .line 12
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2525,7 +2393,6 @@
     :sswitch_9
     const-string v3, "height"
 
-    .line 13
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2559,7 +2426,6 @@
     :sswitch_a
     const-string v3, "rotationY"
 
-    .line 14
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2589,7 +2455,6 @@
     :sswitch_b
     const-string v3, "rotationX"
 
-    .line 15
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2619,7 +2484,6 @@
     :sswitch_c
     const-string v3, "transitionY"
 
-    .line 16
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2649,7 +2513,6 @@
     :sswitch_d
     const-string v3, "transitionX"
 
-    .line 17
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -2676,7 +2539,6 @@
 
     goto/16 :goto_0
 
-    .line 18
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

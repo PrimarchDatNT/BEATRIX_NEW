@@ -29,13 +29,10 @@
 .method private constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/e$d;->a:Ljava/lang/String;
 
-    .line 4
     iput-object p2, p0, Lcom/sdk/imp/base/mraid/e$d;->b:Ljava/lang/String;
 
     return-void
@@ -44,7 +41,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/sdk/imp/base/mraid/e$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/sdk/imp/base/mraid/e$d;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -53,7 +49,6 @@
 .method static synthetic a(Lcom/sdk/imp/base/mraid/e$d;Landroid/media/MediaScannerConnection;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/base/mraid/e$d;->b(Landroid/media/MediaScannerConnection;)V
 
     return-void
@@ -62,7 +57,6 @@
 .method private b(Landroid/media/MediaScannerConnection;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/e$d;->c:Landroid/media/MediaScannerConnection;
 
     return-void
@@ -73,12 +67,10 @@
 .method public onMediaScannerConnected()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/e$d;->c:Landroid/media/MediaScannerConnection;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/sdk/imp/base/mraid/e$d;->a:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/sdk/imp/base/mraid/e$d;->b:Ljava/lang/String;
@@ -92,12 +84,10 @@
 .method public onScanCompleted(Ljava/lang/String;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/base/mraid/e$d;->c:Landroid/media/MediaScannerConnection;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/media/MediaScannerConnection;->disconnect()V
 
     :cond_0

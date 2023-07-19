@@ -58,7 +58,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/common/logging/MoPubLog;
 
     invoke-direct {v0}, Lcom/mopub/common/logging/MoPubLog;-><init>()V
@@ -71,22 +70,18 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$LogLevel;->INFO:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     iput-object v0, p0, Lcom/mopub/common/logging/MoPubLog;->sLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/common/logging/MoPubLog;->mLoggers:Ljava/util/Map;
 
-    .line 4
     new-instance v0, Lcom/mopub/common/logging/MoPubDefaultLogger;
 
     invoke-direct {v0}, Lcom/mopub/common/logging/MoPubDefaultLogger;-><init>()V
@@ -103,7 +98,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog;->sInstance:Lcom/mopub/common/logging/MoPubLog;
 
     iget-object v0, v0, Lcom/mopub/common/logging/MoPubLog;->sLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
@@ -124,7 +118,6 @@
         .end annotation
     .end param
 
-    .line 2
     sget-object v0, Lcom/mopub/common/logging/MoPubLog;->sInstance:Lcom/mopub/common/logging/MoPubLog;
 
     iget-object v0, v0, Lcom/mopub/common/logging/MoPubLog;->mLoggers:Ljava/util/Map;
@@ -141,7 +134,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/mopub/common/logging/MoPubLog;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -152,7 +144,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0, p1}, Lcom/mopub/common/logging/MoPubLog;->logDeprecated(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -165,7 +156,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/mopub/common/logging/MoPubLog;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -176,7 +166,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0, p1}, Lcom/mopub/common/logging/MoPubLog;->logDeprecated(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -189,7 +178,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/mopub/common/logging/MoPubLog;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -200,7 +188,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0, p1}, Lcom/mopub/common/logging/MoPubLog;->logDeprecated(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -218,7 +205,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -227,7 +213,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Landroidx/core/util/Pair;
 
     const/4 v2, 0x4
@@ -240,7 +225,6 @@
 
     aget-object v0, v0, v2
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/StackTraceElement;->getMethodName()Ljava/lang/String;
 
     move-result-object v0
@@ -255,7 +239,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog;->sInstance:Lcom/mopub/common/logging/MoPubLog;
 
     iget-object v0, v0, Lcom/mopub/common/logging/MoPubLog;->sLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
@@ -270,7 +253,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/mopub/common/logging/MoPubLog;->i(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -281,7 +263,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0, p1}, Lcom/mopub/common/logging/MoPubLog;->logDeprecated(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -320,14 +301,12 @@
         }
     .end annotation
 
-    .line 5
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
     if-nez p2, :cond_0
 
     return-void
 
-    .line 6
     :cond_0
     sget-object v0, Lcom/mopub/common/logging/MoPubLog;->sInstance:Lcom/mopub/common/logging/MoPubLog;
 
@@ -355,7 +334,6 @@
 
     check-cast v1, Lcom/mopub/common/logging/MoPubLogger;
 
-    .line 7
     sget-object v2, Lcom/mopub/common/logging/MoPubLog;->sInstance:Lcom/mopub/common/logging/MoPubLog;
 
     iget-object v3, v2, Lcom/mopub/common/logging/MoPubLog;->mLoggers:Ljava/util/Map;
@@ -368,7 +346,6 @@
 
     iget-object v2, v2, Lcom/mopub/common/logging/MoPubLog;->mLoggers:Ljava/util/Map;
 
-    .line 8
     invoke-interface {v2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -389,7 +366,6 @@
 
     if-gt v2, v3, :cond_1
 
-    .line 9
     iget-object v2, p0, Landroidx/core/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v2, Ljava/lang/String;
@@ -398,12 +374,10 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 10
     invoke-interface {p2, p3}, Lcom/mopub/common/logging/MoPubLog$MPLogEventType;->getMessage([Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 11
     invoke-interface {v1, v2, v3, p1, v4}, Lcom/mopub/common/logging/MoPubLogger;->log(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
@@ -423,14 +397,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/logging/MoPubLog;->getClassAndMethod()Landroidx/core/util/Pair;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0, v1, p0, p1}, Lcom/mopub/common/logging/MoPubLog;->log(Landroidx/core/util/Pair;Ljava/lang/String;Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     return-void
@@ -451,12 +423,10 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-static {}, Lcom/mopub/common/logging/MoPubLog;->getClassAndMethod()Landroidx/core/util/Pair;
 
     move-result-object v0
 
-    .line 4
     invoke-static {v0, p0, p1, p2}, Lcom/mopub/common/logging/MoPubLog;->log(Landroidx/core/util/Pair;Ljava/lang/String;Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     return-void
@@ -473,7 +443,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x2
@@ -486,7 +455,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object p0
@@ -501,7 +469,6 @@
 
     aput-object p0, v1, p1
 
-    .line 3
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     return-void
@@ -514,7 +481,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog;->sInstance:Lcom/mopub/common/logging/MoPubLog;
 
     iget-object v0, v0, Lcom/mopub/common/logging/MoPubLog;->mLoggers:Ljava/util/Map;
@@ -531,15 +497,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/logging/MoPubLog;->sInstance:Lcom/mopub/common/logging/MoPubLog;
 
     iput-object p0, v0, Lcom/mopub/common/logging/MoPubLog;->sLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 3
     iget-object v0, v0, Lcom/mopub/common/logging/MoPubLog;->mDefaultLogger:Lcom/mopub/common/logging/MoPubLogger;
 
     invoke-static {v0, p0}, Lcom/mopub/common/logging/MoPubLog;->addLogger(Lcom/mopub/common/logging/MoPubLogger;Lcom/mopub/common/logging/MoPubLog$LogLevel;)V
@@ -554,7 +517,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/mopub/common/logging/MoPubLog;->v(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -565,7 +527,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0, p1}, Lcom/mopub/common/logging/MoPubLog;->logDeprecated(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -578,7 +539,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/mopub/common/logging/MoPubLog;->w(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -589,7 +549,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0, p1}, Lcom/mopub/common/logging/MoPubLog;->logDeprecated(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

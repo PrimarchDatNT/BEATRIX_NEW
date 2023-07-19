@@ -15,18 +15,14 @@
 .method public constructor <init>(ID)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransport;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->pos:I
 
-    .line 3
     iput v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->limit:I
 
-    .line 4
     new-instance v0, Lorg/apache/thrift/transport/AutoExpandingBuffer;
 
     invoke-direct {v0, p1, p2, p3}, Lorg/apache/thrift/transport/AutoExpandingBuffer;-><init>(ID)V
@@ -47,7 +43,6 @@
 .method public final consumeBuffer(I)V
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->pos:I
 
     add-int/2addr v0, p1
@@ -65,12 +60,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->buf:Lorg/apache/thrift/transport/AutoExpandingBuffer;
 
     invoke-virtual {v0, p2}, Lorg/apache/thrift/transport/AutoExpandingBuffer;->resizeIfNecessary(I)V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->buf:Lorg/apache/thrift/transport/AutoExpandingBuffer;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/AutoExpandingBuffer;->array()[B
@@ -81,10 +74,8 @@
 
     invoke-virtual {p1, v0, v1, p2}, Lorg/apache/thrift/transport/TTransport;->readAll([BII)I
 
-    .line 3
     iput v1, p0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->pos:I
 
-    .line 4
     iput p2, p0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->limit:I
 
     return-void
@@ -93,7 +84,6 @@
 .method public final getBuffer()[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->buf:Lorg/apache/thrift/transport/AutoExpandingBuffer;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/AutoExpandingBuffer;->array()[B
@@ -106,7 +96,6 @@
 .method public final getBufferPosition()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->pos:I
 
     return v0
@@ -115,7 +104,6 @@
 .method public final getBytesRemainingInBuffer()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->limit:I
 
     iget v1, p0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->pos:I
@@ -152,7 +140,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->getBytesRemainingInBuffer()I
 
     move-result v0
@@ -161,7 +148,6 @@
 
     move-result p3
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->buf:Lorg/apache/thrift/transport/AutoExpandingBuffer;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/AutoExpandingBuffer;->array()[B
@@ -172,7 +158,6 @@
 
     invoke-static {v0, v1, p1, p2, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 3
     invoke-virtual {p0, p3}, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->consumeBuffer(I)V
 
     return p3
@@ -186,7 +171,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V

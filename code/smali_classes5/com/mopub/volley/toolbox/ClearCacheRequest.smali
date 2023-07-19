@@ -27,13 +27,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, v0, v1, v1}, Lcom/mopub/volley/Request;-><init>(ILjava/lang/String;Lcom/mopub/volley/Response$ErrorListener;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/volley/toolbox/ClearCacheRequest;->mCache:Lcom/mopub/volley/Cache;
 
-    .line 3
     iput-object p2, p0, Lcom/mopub/volley/toolbox/ClearCacheRequest;->mCallback:Ljava/lang/Runnable;
 
     return-void
@@ -50,7 +47,6 @@
 .method public getPriority()Lcom/mopub/volley/Request$Priority;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/volley/Request$Priority;->IMMEDIATE:Lcom/mopub/volley/Request$Priority;
 
     return-object v0
@@ -59,17 +55,14 @@
 .method public isCanceled()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/ClearCacheRequest;->mCache:Lcom/mopub/volley/Cache;
 
     invoke-interface {v0}, Lcom/mopub/volley/Cache;->clear()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/volley/toolbox/ClearCacheRequest;->mCallback:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
-    .line 3
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -78,7 +71,6 @@
 
     invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    .line 4
     iget-object v1, p0, Lcom/mopub/volley/toolbox/ClearCacheRequest;->mCallback:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->postAtFrontOfQueue(Ljava/lang/Runnable;)Z

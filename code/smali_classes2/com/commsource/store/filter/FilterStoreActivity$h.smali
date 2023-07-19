@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$h;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/FilterStoreActivity$h;->e(Lcom/meitu/template/bean/Filter;)V
@@ -75,12 +73,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyfilter/NoStickLiveData$a;->b(Ljava/lang/Object;)V
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getDownloadState()I
 
     move-result v1
@@ -89,7 +85,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity$h;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/filter/FilterStoreActivity;->P0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/store/filter/FilterStoreViewModel;
@@ -102,7 +97,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/store/filter/FilterStoreViewModel;->I(I)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

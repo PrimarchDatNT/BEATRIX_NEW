@@ -32,7 +32,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$p;->b:Lcom/commsource/studio/function/ar/StudioArFragment;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,12 +54,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$p;->a:Lcom/commsource/camera/i0;
 
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$p;->b:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -79,7 +76,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/newrender/renderproxy/v/i0;->o2(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$p;->b:Lcom/commsource/studio/function/ar/StudioArFragment;
 
@@ -95,7 +91,6 @@
 
     invoke-static {p1, v1, v3, v2, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -108,12 +103,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$p;->a:Lcom/commsource/camera/i0;
 
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

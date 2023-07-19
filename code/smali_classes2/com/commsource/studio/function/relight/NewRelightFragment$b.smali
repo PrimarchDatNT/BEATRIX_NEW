@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$b;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -49,10 +48,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/f1/l$a;->b(Lcom/commsource/camera/f1/l;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$b;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->M1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Z
@@ -61,7 +58,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$b;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->L1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/camera/f1/n;
@@ -78,7 +74,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$b;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
@@ -90,7 +85,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -104,10 +98,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/f1/l$a;->e(FF)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$b;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/function/relight/NewRelightFragment;->L1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/camera/f1/n;
@@ -118,7 +110,6 @@
 
     move-result p1
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$b;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/function/relight/NewRelightFragment;->H1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/beautyplus/f0/w9;
@@ -133,7 +124,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$b;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/function/relight/NewRelightFragment;->H1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/beautyplus/f0/w9;
@@ -148,7 +138,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$b;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/function/relight/NewRelightFragment;->H1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/beautyplus/f0/w9;
@@ -163,7 +152,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

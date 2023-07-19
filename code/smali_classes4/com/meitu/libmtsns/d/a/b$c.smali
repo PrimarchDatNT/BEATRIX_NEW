@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/meitu/libmtsns/d/a/b;IILcom/meitu/libmtsns/net/i/a;Lcom/meitu/libmtsns/d/b/a;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/d/a/b$c;->g:Lcom/meitu/libmtsns/d/a/b;
 
     iput p2, p0, Lcom/meitu/libmtsns/d/a/b$c;->b:I
@@ -54,7 +53,6 @@
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/meitu/libmtsns/d/a/b$c;->a:I
 
     return-void
@@ -81,7 +79,6 @@
 
     double-to-int p1, p1
 
-    .line 1
     iget p2, p0, Lcom/meitu/libmtsns/d/a/b$c;->b:I
 
     int-to-double p3, p2
@@ -110,17 +107,14 @@
 
     double-to-int p1, p3
 
-    .line 2
     iget p2, p0, Lcom/meitu/libmtsns/d/a/b$c;->a:I
 
     if-eq p1, p2, :cond_1
 
-    .line 3
     iget-object p2, p0, Lcom/meitu/libmtsns/d/a/b$c;->d:Lcom/meitu/libmtsns/net/i/a;
 
     if-eqz p2, :cond_0
 
-    .line 4
     iget-object p3, p0, Lcom/meitu/libmtsns/d/a/b$c;->e:Lcom/meitu/libmtsns/d/b/a;
 
     iget-object p3, p3, Lcom/meitu/libmtsns/d/b/a;->a:Ljava/lang/String;
@@ -129,11 +123,9 @@
 
     invoke-virtual {p2, p3, v1, v2, p1}, Lcom/meitu/libmtsns/net/i/a;->d(Ljava/lang/String;JI)V
 
-    .line 5
     :cond_0
     iput p1, p0, Lcom/meitu/libmtsns/d/a/b$c;->a:I
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

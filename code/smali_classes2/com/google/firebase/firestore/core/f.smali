@@ -46,18 +46,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/firebase/firestore/core/f;->c:Z
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/firestore/core/f;->a:Ljava/util/concurrent/Executor;
 
-    .line 4
     iput-object p2, p0, Lcom/google/firebase/firestore/core/f;->b:Lcom/google/firebase/firestore/i;
 
     return-void
@@ -66,12 +62,10 @@
 .method static synthetic b(Lcom/google/firebase/firestore/core/f;Ljava/lang/Object;Lcom/google/firebase/firestore/FirebaseFirestoreException;)V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/core/f;->c:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object p0, p0, Lcom/google/firebase/firestore/core/f;->b:Lcom/google/firebase/firestore/i;
 
     invoke-interface {p0, p1, p2}, Lcom/google/firebase/firestore/i;->a(Ljava/lang/Object;Lcom/google/firebase/firestore/FirebaseFirestoreException;)V
@@ -100,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/f;->a:Ljava/util/concurrent/Executor;
 
     invoke-static {p0, p1, p2}, Lcom/google/firebase/firestore/core/e;->a(Lcom/google/firebase/firestore/core/f;Ljava/lang/Object;Lcom/google/firebase/firestore/FirebaseFirestoreException;)Ljava/lang/Runnable;
@@ -117,7 +110,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/firebase/firestore/core/f;->c:Z
 
     return-void

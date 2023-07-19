@@ -155,7 +155,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/PictureSelectView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -178,7 +177,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/PictureSelectView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -199,31 +197,26 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
-    .line 5
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->b:Ljava/util/ArrayList;
 
-    .line 6
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->c:Lcom/commsource/studio/MatrixBox;
 
-    .line 7
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 p2, 0x3
@@ -232,7 +225,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->d:Landroid/graphics/Paint;
 
-    .line 8
     new-instance p1, Landroid/graphics/PaintFlagsDrawFilter;
 
     const/4 p3, 0x0
@@ -241,19 +233,16 @@
 
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->f:Landroid/graphics/PaintFlagsDrawFilter;
 
-    .line 9
     invoke-static {p0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
     const/4 p1, 0x1
 
-    .line 10
     iput-boolean p1, p0, Lcom/commsource/studio/PictureSelectView;->K:Z
 
     const/4 p1, 0x2
 
     new-array p1, p1, [F
 
-    .line 11
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -262,12 +251,10 @@
 
     const-wide/16 p2, 0x12c
 
-    .line 12
     invoke-virtual {p1, p2, p3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
-    .line 13
     new-instance p2, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {p2}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -276,7 +263,6 @@
 
     move-result-object p1
 
-    .line 14
     new-instance p2, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;-><init>(Lcom/commsource/studio/PictureSelectView;)V
@@ -287,21 +273,18 @@
 
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->L:Lcom/commsource/camera/f1/l;
 
-    .line 15
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->P:Lcom/commsource/camera/f1/n;
 
-    .line 16
     new-instance p1, Landroid/graphics/Point;
 
     invoke-direct {p1}, Landroid/graphics/Point;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->Q:Landroid/graphics/Point;
 
-    .line 17
     new-instance p1, Landroid/graphics/RectF;
 
     const/16 p2, 0xd0
@@ -322,7 +305,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->R:Landroid/graphics/RectF;
 
-    .line 18
     sget-object p1, Lcom/commsource/studio/PictureSelectView$confirmPaint$2;->INSTANCE:Lcom/commsource/studio/PictureSelectView$confirmPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -333,14 +315,12 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
-    .line 19
     invoke-static {p1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->T:Ljava/lang/String;
 
-    .line 20
     new-instance p1, Lcom/commsource/studio/PictureSelectView$textPaint$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/PictureSelectView$textPaint$2;-><init>(Lcom/commsource/studio/PictureSelectView;)V
@@ -351,7 +331,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->U:Lcotlin/w;
 
-    .line 21
     sget-object p1, Lcom/commsource/studio/PictureSelectView$selectPaint$2;->INSTANCE:Lcom/commsource/studio/PictureSelectView$selectPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -376,7 +355,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/PictureSelectView;->b:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -391,7 +369,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -406,7 +383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/commsource/studio/PictureSelectView;->b0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -421,7 +397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lcom/commsource/studio/PictureSelectView;->b0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -449,7 +424,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/PictureSelectView;->o(Lcom/commsource/studio/PictureAnimationWrapper;Z)V
 
@@ -499,7 +473,6 @@
 
     move-object v7, p5
 
-    .line 1
     invoke-virtual/range {v2 .. v7}, Lcom/commsource/studio/PictureSelectView;->r(Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLcotlin/jvm/u/l;)V
 
     invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -593,12 +566,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     array-length v2, p1
 
     const/4 v3, 0x0
@@ -610,14 +581,12 @@
 
     aget v5, p1, v4
 
-    .line 3
     invoke-virtual {p0, v5}, Lcom/commsource/studio/PictureSelectView;->j(I)Lcom/commsource/studio/h0;
 
     move-result-object v5
 
     if-eqz v5, :cond_0
 
-    .line 4
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -625,7 +594,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -645,14 +613,12 @@
 
     check-cast v2, Lcom/commsource/studio/h0;
 
-    .line 6
     invoke-virtual {v2}, Lcom/commsource/studio/h0;->Q()I
 
     move-result v4
 
     if-le v4, v3, :cond_2
 
-    .line 7
     invoke-virtual {v2}, Lcom/commsource/studio/h0;->Q()I
 
     move-result v2
@@ -661,7 +627,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -680,13 +645,10 @@
 
     check-cast v2, Lcom/commsource/studio/h0;
 
-    .line 9
     invoke-virtual {v2, p2}, Lcom/commsource/studio/h0;->b0(I)V
 
-    .line 10
     invoke-virtual {v2, v3}, Lcom/commsource/studio/h0;->Z(I)V
 
-    .line 11
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
     move-result v4
@@ -695,7 +657,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -711,7 +672,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->c:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -728,7 +688,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->Q:Landroid/graphics/Point;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -745,7 +704,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->P:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -784,7 +742,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->R:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -801,7 +758,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->W:Lcom/commsource/studio/h0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -816,7 +772,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/PictureSelectView;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -831,7 +786,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->L:Lcom/commsource/camera/f1/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -870,7 +824,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->g:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -887,7 +840,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->T:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -924,7 +876,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/f/i;->u()I
 
     move-result v1
@@ -999,7 +950,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/PictureSelectView;->N:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1014,7 +964,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->R:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/studio/PictureSelectView;->Q:Landroid/graphics/Point;
@@ -1071,7 +1020,6 @@
 
     invoke-virtual {v1, v2, v4, v6, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1084,7 +1032,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
@@ -1106,7 +1053,6 @@
 
     if-ne v1, v5, :cond_3
 
-    .line 2
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->b:Ljava/util/ArrayList;
 
@@ -1133,14 +1079,12 @@
 
     aput v7, v8, v3
 
-    .line 3
     invoke-virtual {p0, v8, v6}, Lcom/commsource/studio/PictureSelectView;->g([II)I
 
     move-result v7
 
     add-int/2addr v6, v7
 
-    .line 4
     sget-object v7, Lcom/commsource/studio/h0;->G:Lcom/commsource/studio/h0$a;
 
     invoke-virtual {v7}, Lcom/commsource/studio/h0$a;->h()I
@@ -1158,7 +1102,6 @@
     :cond_1
     move v4, v6
 
-    .line 5
     :cond_2
     sget-object v1, Lcom/commsource/studio/h0;->G:Lcom/commsource/studio/h0$a;
 
@@ -1183,7 +1126,6 @@
     :cond_4
     if-lt v6, v1, :cond_7
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
@@ -1213,14 +1155,12 @@
 
     aput v8, v9, v2
 
-    .line 7
     invoke-virtual {p0, v9, v6}, Lcom/commsource/studio/PictureSelectView;->g([II)I
 
     move-result v8
 
     add-int/2addr v6, v8
 
-    .line 8
     sget-object v8, Lcom/commsource/studio/h0;->G:Lcom/commsource/studio/h0$a;
 
     invoke-virtual {v8}, Lcom/commsource/studio/h0$a;->h()I
@@ -1238,7 +1178,6 @@
     :cond_5
     move v4, v6
 
-    .line 9
     :cond_6
     sget-object v1, Lcom/commsource/studio/h0;->G:Lcom/commsource/studio/h0$a;
 
@@ -1248,7 +1187,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_7
     :goto_4
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->b:Ljava/util/ArrayList;
@@ -1284,14 +1222,12 @@
 
     aput v9, v10, v7
 
-    .line 11
     invoke-virtual {p0, v10, v8}, Lcom/commsource/studio/PictureSelectView;->g([II)I
 
     move-result v9
 
     add-int/2addr v8, v9
 
-    .line 12
     sget-object v9, Lcom/commsource/studio/h0;->G:Lcom/commsource/studio/h0$a;
 
     invoke-virtual {v9}, Lcom/commsource/studio/h0$a;->i()I
@@ -1309,7 +1245,6 @@
     :cond_8
     move v4, v8
 
-    .line 13
     :cond_9
     sget-object v1, Lcom/commsource/studio/h0;->G:Lcom/commsource/studio/h0$a;
 
@@ -1319,7 +1254,6 @@
 
     goto :goto_2
 
-    .line 14
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1335,7 +1269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->b:Ljava/util/ArrayList;
 
     invoke-static {v1, p1}, Lcom/commsource/camera/f1/q;->c(Ljava/util/List;I)Z
@@ -1344,7 +1277,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1360,7 +1292,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -1381,12 +1312,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     array-length v2, p1
 
     const/4 v3, 0x0
@@ -1398,14 +1327,12 @@
 
     aget v5, p1, v4
 
-    .line 3
     invoke-virtual {p0, v5}, Lcom/commsource/studio/PictureSelectView;->j(I)Lcom/commsource/studio/h0;
 
     move-result-object v5
 
     if-eqz v5, :cond_0
 
-    .line 4
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -1413,7 +1340,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -1433,14 +1359,12 @@
 
     check-cast v1, Lcom/commsource/studio/h0;
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/studio/h0;->Q()I
 
     move-result v2
 
     if-le v2, v3, :cond_2
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/studio/h0;->Q()I
 
     move-result v1
@@ -1449,7 +1373,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1463,7 +1386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/PictureSelectView;->M:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1478,7 +1400,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/PictureSelectView;->K:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1493,7 +1414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/PictureSelectView;->J:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1512,12 +1432,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/PictureSelectView;->J:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1525,17 +1443,14 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/studio/PictureSelectView;->W:Lcom/commsource/studio/h0;
 
     if-eqz p1, :cond_2
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {p0, v2}, Landroid/view/View;->setElevation(F)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
     if-eqz v2, :cond_1
@@ -1563,10 +1478,8 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 6
     iput-boolean p1, p0, Lcom/commsource/studio/PictureSelectView;->J:Z
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -1586,16 +1499,13 @@
 
     check-cast v2, Lcom/commsource/studio/h0;
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/studio/PictureAnimationWrapper;->z()V
 
     goto :goto_1
 
-    .line 9
     :cond_3
     iput-boolean p2, p0, Lcom/commsource/studio/PictureSelectView;->K:Z
 
-    .line 10
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -1606,7 +1516,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView;->P:Lcom/commsource/camera/f1/n;
 
     iget p2, p0, Lcom/commsource/studio/PictureSelectView;->O:I
@@ -1623,19 +1532,16 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView;->L:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView;->L:Lcom/commsource/camera/f1/l;
 
     const-wide/16 v1, 0xa
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/f1/l;->k(J)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1656,10 +1562,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->f:Landroid/graphics/PaintFlagsDrawFilter;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->setDrawFilter(Landroid/graphics/DrawFilter;)V
@@ -1668,10 +1572,8 @@
 
     long-to-int v2, v1
 
-    .line 3
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->drawColor(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -1691,7 +1593,6 @@
 
     check-cast v2, Lcom/commsource/studio/h0;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/PictureSelectView;->d:Landroid/graphics/Paint;
 
     const/4 v4, 0x0
@@ -1700,18 +1601,15 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/studio/PictureSelectView;->M:Z
 
     if-eqz v1, :cond_2
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->W:Lcom/commsource/studio/h0;
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/studio/PictureAnimationWrapper;->c()Landroid/graphics/RectF;
 
     move-result-object v1
@@ -1722,11 +1620,9 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 9
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/PictureSelectView;->h()V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->R:Landroid/graphics/RectF;
 
     const/16 v2, 0x19
@@ -1745,7 +1641,6 @@
 
     invoke-virtual {p1, v1, v3, v2, v4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->T:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/commsource/studio/PictureSelectView;->Q:Landroid/graphics/Point;
@@ -1772,7 +1667,6 @@
 
     invoke-virtual {p1, v1, v3, v2, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 12
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1786,16 +1680,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     iput p1, p0, Lcom/commsource/studio/PictureSelectView;->N:I
 
-    .line 3
     iput p2, p0, Lcom/commsource/studio/PictureSelectView;->O:I
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/studio/PictureSelectView;->Q:Landroid/graphics/Point;
 
     div-int/lit8 p1, p1, 0x2
@@ -1810,7 +1700,6 @@
 
     invoke-virtual {p3, p1, p4}, Landroid/graphics/Point;->set(II)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView;->P:Lcom/commsource/camera/f1/n;
 
     int-to-float p2, p2
@@ -1825,7 +1714,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/f1/n;->h(F)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1851,7 +1739,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
@@ -1860,7 +1747,6 @@
 
     if-nez v1, :cond_e
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/studio/PictureSelectView;->M:Z
 
     const/4 v3, 0x0
@@ -1869,7 +1755,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
@@ -1886,7 +1771,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->W:Lcom/commsource/studio/h0;
 
     if-nez v1, :cond_0
@@ -1895,16 +1779,13 @@
 
     const-string v5, "\u8bf7\u9009\u62e9\u4e00\u5f20\u56fe\u7247"
 
-    .line 5
     invoke-static {v5, v1}, Lf/k/c/c/f;->u(Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
-    .line 7
     invoke-static {v1}, Lcotlin/collections/s;->K1(Ljava/lang/Iterable;)I
 
     move-result v5
@@ -1917,7 +1798,6 @@
 
     move-result-object v5
 
-    .line 8
     invoke-virtual {v5}, Lcotlin/g2/i;->c()I
 
     move-result v6
@@ -1939,7 +1819,6 @@
     :cond_1
     if-lt v6, v7, :cond_2
 
-    .line 9
     :goto_0
     invoke-static {v1, v6}, Lcotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
@@ -1947,7 +1826,6 @@
 
     check-cast v8, Lcom/commsource/studio/h0;
 
-    .line 10
     invoke-virtual {v8}, Lcom/commsource/studio/PictureAnimationWrapper;->b()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v8
@@ -1960,7 +1838,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->p:Lcotlin/jvm/u/l;
 
@@ -1979,16 +1856,13 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 12
     :cond_4
     iput-object v3, p0, Lcom/commsource/studio/PictureSelectView;->p:Lcotlin/jvm/u/l;
 
-    .line 13
     :cond_5
     :goto_1
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
-    .line 14
     invoke-static {v1}, Lcotlin/collections/s;->K1(Ljava/lang/Iterable;)I
 
     move-result v5
@@ -2001,7 +1875,6 @@
 
     move-result-object v5
 
-    .line 15
     invoke-virtual {v5}, Lcotlin/g2/i;->c()I
 
     move-result v6
@@ -2023,7 +1896,6 @@
     :cond_6
     if-lt v6, v7, :cond_c
 
-    .line 16
     :goto_2
     invoke-static {v1, v6}, Lcotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
@@ -2031,7 +1903,6 @@
 
     check-cast v8, Lcom/commsource/studio/h0;
 
-    .line 17
     invoke-virtual {v8}, Lcom/commsource/studio/PictureAnimationWrapper;->c()Landroid/graphics/RectF;
 
     move-result-object v9
@@ -2042,7 +1913,6 @@
 
     invoke-virtual {v9, v10}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 18
     invoke-virtual {v8}, Lcom/commsource/studio/PictureAnimationWrapper;->b()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v9
@@ -2057,7 +1927,6 @@
 
     invoke-virtual {v9, v10}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 19
     invoke-virtual {v8}, Lcom/commsource/studio/PictureAnimationWrapper;->c()Landroid/graphics/RectF;
 
     move-result-object v9
@@ -2076,24 +1945,19 @@
 
     if-eqz v9, :cond_b
 
-    .line 20
     iget-boolean p1, p0, Lcom/commsource/studio/PictureSelectView;->M:Z
 
     if-eqz p1, :cond_7
 
-    .line 21
     iput-object v8, p0, Lcom/commsource/studio/PictureSelectView;->W:Lcom/commsource/studio/h0;
 
-    .line 22
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     goto :goto_4
 
-    .line 23
     :cond_7
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
-    .line 24
     invoke-static {p1}, Lcotlin/collections/s;->K1(Ljava/lang/Iterable;)I
 
     move-result v1
@@ -2106,7 +1970,6 @@
 
     move-result-object v1
 
-    .line 25
     invoke-virtual {v1}, Lcotlin/g2/i;->c()I
 
     move-result v4
@@ -2128,7 +1991,6 @@
     :cond_8
     if-lt v4, v5, :cond_9
 
-    .line 26
     :goto_3
     invoke-static {p1, v4}, Lcotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
@@ -2136,7 +1998,6 @@
 
     check-cast v6, Lcom/commsource/studio/h0;
 
-    .line 27
     invoke-virtual {v6}, Lcom/commsource/studio/PictureAnimationWrapper;->b()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v6
@@ -2149,7 +2010,6 @@
 
     goto :goto_3
 
-    .line 28
     :cond_9
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView;->p:Lcotlin/jvm/u/l;
 
@@ -2161,11 +2021,9 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 29
     :cond_a
     iput-object v3, p0, Lcom/commsource/studio/PictureSelectView;->p:Lcotlin/jvm/u/l;
 
-    .line 30
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2178,7 +2036,6 @@
 
     goto/16 :goto_2
 
-    .line 31
     :cond_c
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView;->g:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -2195,10 +2052,8 @@
     :cond_d
     const/4 p1, 0x3
 
-    .line 32
     invoke-static {p0, v3, v4, p1, v3}, Lcom/commsource/studio/PictureSelectView;->p(Lcom/commsource/studio/PictureSelectView;Lcom/commsource/studio/PictureAnimationWrapper;ZILjava/lang/Object;)V
 
-    .line 33
     :cond_e
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2234,14 +2089,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/PictureSelectView$b;
 
     invoke-direct {v1}, Lcom/commsource/studio/PictureSelectView$b;-><init>()V
 
     invoke-static {p1, v1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 2
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     move-result v1
@@ -2260,7 +2113,6 @@
 
     if-eq v1, v5, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2283,7 +2135,6 @@
 
     add-int/lit8 v2, v2, -0x1
 
-    .line 4
     invoke-virtual {v3, v4}, Lcom/commsource/studio/h0;->Y(I)V
 
     if-nez v2, :cond_0
@@ -2292,7 +2143,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p1, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -2302,7 +2152,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/h0;->Y(I)V
 
-    .line 6
     invoke-virtual {p1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -2311,7 +2160,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/h0;->Y(I)V
 
-    .line 7
     invoke-virtual {p1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -2320,7 +2168,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/h0;->Y(I)V
 
-    .line 8
     invoke-virtual {p1, v6}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -2331,7 +2178,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     invoke-virtual {p1, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -2341,7 +2187,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/h0;->Y(I)V
 
-    .line 10
     invoke-virtual {p1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -2350,7 +2195,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/h0;->Y(I)V
 
-    .line 11
     :cond_3
     :goto_1
     new-instance v1, Lcom/commsource/studio/PictureSelectView$c;
@@ -2359,7 +2203,6 @@
 
     invoke-static {p1, v1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -2419,12 +2262,10 @@
 
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v4, v8, Lcom/commsource/studio/PictureSelectView;->J:Z
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2432,17 +2273,14 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 3
     iput-object v4, v8, Lcom/commsource/studio/PictureSelectView;->W:Lcom/commsource/studio/h0;
 
-    .line 4
     iput-boolean v2, v8, Lcom/commsource/studio/PictureSelectView;->M:Z
 
     const/16 v5, 0x2c
 
     if-eqz v2, :cond_1
 
-    .line 5
     sget-object v2, Lcom/commsource/studio/h0;->G:Lcom/commsource/studio/h0$a;
 
     invoke-static {}, Lcom/meitu/library/p/f/i;->u()I
@@ -2469,7 +2307,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     sget-object v2, Lcom/commsource/studio/h0;->G:Lcom/commsource/studio/h0$a;
 
@@ -2490,10 +2327,8 @@
     :goto_0
     const/4 v2, 0x1
 
-    .line 7
     iput-boolean v2, v8, Lcom/commsource/studio/PictureSelectView;->J:Z
 
-    .line 8
     sget-object v6, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v6}, Lcom/commsource/studio/n0;->s()I
@@ -2504,40 +2339,32 @@
 
     invoke-virtual {p0, v6}, Landroid/view/View;->setElevation(F)V
 
-    .line 9
     iput-object v0, v8, Lcom/commsource/studio/PictureSelectView;->g:Lcom/commsource/studio/ImageStudioViewModel;
 
-    .line 10
     iget-object v6, v8, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v6}, Ljava/util/ArrayList;->clear()V
 
-    .line 11
     iget-object v6, v8, Lcom/commsource/studio/PictureSelectView;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v6}, Ljava/util/ArrayList;->clear()V
 
-    .line 12
     new-instance v6, Ljava/util/LinkedList;
 
     invoke-direct {v6}, Ljava/util/LinkedList;-><init>()V
 
-    .line 13
     new-instance v7, Ljava/util/LinkedList;
 
     invoke-direct {v7}, Ljava/util/LinkedList;-><init>()V
 
-    .line 14
     invoke-static {v1, v4, v2, v4}, Lcom/commsource/studio/bean/a;->z(Lcom/commsource/studio/bean/a;Ljava/util/List;ILjava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 15
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 16
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -2562,7 +2389,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_3
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -2582,7 +2408,6 @@
 
     check-cast v4, Lcom/commsource/studio/bean/PictureLayerInfo;
 
-    .line 18
     invoke-virtual {v4}, Lcom/commsource/studio/bean/PictureLayerInfo;->getFromUser()Z
 
     move-result v10
@@ -2591,7 +2416,6 @@
 
     if-nez p4, :cond_4
 
-    .line 19
     :cond_5
     invoke-virtual {v1, v4}, Lcom/commsource/studio/bean/a;->J(Lcom/commsource/studio/bean/PictureLayerInfo;)Lcom/commsource/studio/bean/d;
 
@@ -2599,10 +2423,8 @@
 
     if-eqz v10, :cond_4
 
-    .line 20
     invoke-virtual {v6, v4}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 21
     invoke-virtual {v7, v10}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     goto :goto_2
@@ -2610,7 +2432,6 @@
     :cond_6
     const/4 v1, 0x0
 
-    .line 22
     invoke-virtual {v6}, Ljava/util/LinkedList;->size()I
 
     move-result v2
@@ -2618,7 +2439,6 @@
     :goto_3
     if-ge v1, v2, :cond_7
 
-    .line 23
     iget-object v4, v8, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
     new-instance v10, Lcom/commsource/studio/h0;
@@ -2657,7 +2477,6 @@
 
     goto :goto_3
 
-    .line 24
     :cond_7
     iget-object v1, v8, Lcom/commsource/studio/PictureSelectView;->b:Ljava/util/ArrayList;
 
@@ -2673,12 +2492,10 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 25
     invoke-virtual {p0}, Lcom/commsource/studio/PictureSelectView;->i()I
 
     move-result v1
 
-    .line 26
     iget-object v2, v8, Lcom/commsource/studio/PictureSelectView;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -2700,7 +2517,6 @@
 
     check-cast v4, Lcom/commsource/studio/h0;
 
-    .line 27
     invoke-virtual {v4}, Lcom/commsource/studio/h0;->K()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v7
@@ -2741,7 +2557,6 @@
 
     invoke-virtual {v7, v6, v10}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 28
     iget-object v6, v8, Lcom/commsource/studio/PictureSelectView;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v6, v4}, Ljava/util/ArrayList;->indexOf(Ljava/lang/Object;)I
@@ -2752,11 +2567,9 @@
 
     goto :goto_4
 
-    .line 29
     :cond_8
     iput-object v3, v8, Lcom/commsource/studio/PictureSelectView;->p:Lcotlin/jvm/u/l;
 
-    .line 30
     invoke-virtual {p0, v6}, Landroid/view/View;->setAlpha(F)V
 
     const/4 v1, 0x0
@@ -2765,7 +2578,6 @@
 
     const-wide/16 v3, 0x4b
 
-    .line 31
     new-instance v5, Lcom/commsource/studio/PictureSelectView$startPictureSelect$2;
 
     invoke-direct {v5, p0, v0}, Lcom/commsource/studio/PictureSelectView$startPictureSelect$2;-><init>(Lcom/commsource/studio/PictureSelectView;Lcom/commsource/studio/ImageStudioViewModel;)V
@@ -2778,7 +2590,6 @@
 
     invoke-static/range {v0 .. v7}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 32
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2791,7 +2602,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/PictureSelectView;->M:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2810,7 +2620,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->W:Lcom/commsource/studio/h0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2825,7 +2634,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/PictureSelectView;->K:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2840,7 +2648,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/PictureSelectView;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2855,7 +2662,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/PictureSelectView;->J:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2874,7 +2680,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->g:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2889,7 +2694,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/PictureSelectView;->N:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

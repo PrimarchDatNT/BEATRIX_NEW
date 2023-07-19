@@ -59,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -80,7 +79,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;)Ljava/util/List;
@@ -89,7 +87,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -108,7 +105,6 @@
 
     check-cast v2, Lcom/meitu/template/bean/LookMaterial;
 
-    .line 4
     invoke-virtual {v2}, Lcom/meitu/template/bean/LookMaterial;->getDownloadMode()I
 
     move-result v3
@@ -131,7 +127,6 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 5
     sget-object v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
     const/4 v5, 0x0
@@ -142,7 +137,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

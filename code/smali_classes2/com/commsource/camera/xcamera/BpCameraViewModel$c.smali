@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$c;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$c;->b:Lcom/meitu/template/bean/ArMaterial;
@@ -54,7 +53,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -67,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$c;->b:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->getLocations()I
@@ -78,7 +75,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$c;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$c;->b:Lcom/meitu/template/bean/ArMaterial;
@@ -89,7 +85,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->l1(Lcom/commsource/camera/xcamera/BpCameraViewModel;I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

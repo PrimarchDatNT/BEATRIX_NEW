@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -51,27 +49,22 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentResult;->normalize:Z
 
     iput-boolean v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentResult;->normalize:Z
 
-    .line 3
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentResult;->orientation:I
 
     iput v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentResult;->orientation:I
 
-    .line 4
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentResult;->runTime:F
 
     iput v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentResult;->runTime:F
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentResult;->eyeSegments:[Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegment;
 
     if-eqz v2, :cond_0
@@ -80,7 +73,6 @@
 
     if-lez v3, :cond_0
 
-    .line 7
     array-length v2, v2
 
     new-array v2, v2, [Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegment;
@@ -89,7 +81,6 @@
 
     const/4 v2, 0x0
 
-    .line 8
     :goto_0
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentResult;->eyeSegments:[Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegment;
 
@@ -97,7 +88,6 @@
 
     if-ge v2, v4, :cond_0
 
-    .line 9
     iget-object v4, v1, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentResult;->eyeSegments:[Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegment;
 
     aget-object v3, v3, v2
@@ -114,7 +104,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

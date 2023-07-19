@@ -49,12 +49,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/firebase/firestore/remote/d$c;->a:Lcom/google/firebase/firestore/remote/d$a;
 
     return-void
@@ -63,7 +61,6 @@
 .method static synthetic e(Lcom/google/firebase/firestore/remote/d$c;Lio/grpc/Status;)V
     .locals 5
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/Status;->r()Z
 
     move-result v0
@@ -74,10 +71,8 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -90,7 +85,6 @@
 
     iget-object v3, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
-    .line 4
     invoke-static {v3}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result v3
@@ -103,16 +97,13 @@
 
     const-string v2, "(%x) Stream closed."
 
-    .line 5
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/Logger;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
-    .line 7
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -127,7 +118,6 @@
 
     iget-object v4, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
-    .line 8
     invoke-static {v4}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result v4
@@ -142,10 +132,8 @@
 
     const-string v1, "(%x) Stream closed with status: %s."
 
-    .line 9
     invoke-static {v0, v1, v3}, Lcom/google/firebase/firestore/util/Logger;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 10
     :goto_0
     iget-object p0, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
@@ -157,19 +145,16 @@
 .method static synthetic f(Lcom/google/firebase/firestore/remote/d$c;Lio/grpc/y0;)V
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/firestore/util/Logger;->c()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Lio/grpc/y0;->o()Ljava/util/Set;
 
     move-result-object v1
@@ -192,7 +177,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 4
     sget-object v3, Lcom/google/firebase/firestore/remote/l;->e:Ljava/util/Set;
 
     sget-object v4, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
@@ -207,10 +191,8 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     sget-object v3, Lio/grpc/y0;->e:Lio/grpc/y0$d;
 
-    .line 6
     invoke-static {v2, v3}, Lio/grpc/y0$i;->e(Ljava/lang/String;Lio/grpc/y0$d;)Lio/grpc/y0$i;
 
     move-result-object v3
@@ -221,12 +203,10 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 7
     invoke-interface {v0, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
@@ -234,10 +214,8 @@
 
     if-nez p1, :cond_2
 
-    .line 9
     iget-object p1, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
-    .line 10
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -254,7 +232,6 @@
 
     iget-object p0, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
-    .line 11
     invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result p0
@@ -271,7 +248,6 @@
 
     const-string p0, "(%x) Stream received headers: %s"
 
-    .line 12
     invoke-static {p1, p0, v1}, Lcom/google/firebase/firestore/util/Logger;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :cond_2
@@ -281,17 +257,14 @@
 .method static synthetic g(Lcom/google/firebase/firestore/remote/d$c;Ljava/lang/Object;)V
     .locals 4
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/firestore/util/Logger;->c()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -308,7 +281,6 @@
 
     iget-object v3, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
-    .line 4
     invoke-static {v3}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result v3
@@ -325,10 +297,8 @@
 
     const-string v2, "(%x) Stream received: %s"
 
-    .line 5
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/Logger;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 6
     :cond_0
     iget-object p0, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
@@ -340,10 +310,8 @@
 .method static synthetic h(Lcom/google/firebase/firestore/remote/d$c;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -358,7 +326,6 @@
 
     iget-object p0, p0, Lcom/google/firebase/firestore/remote/d$c;->b:Lcom/google/firebase/firestore/remote/d;
 
-    .line 3
     invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result p0
@@ -373,7 +340,6 @@
 
     const-string p0, "(%x) Stream is ready"
 
-    .line 4
     invoke-static {v0, p0, v1}, Lcom/google/firebase/firestore/util/Logger;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -389,7 +355,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/d$c;->a:Lcom/google/firebase/firestore/remote/d$a;
 
     invoke-static {p0, p1}, Lcom/google/firebase/firestore/remote/f;->a(Lcom/google/firebase/firestore/remote/d$c;Ljava/lang/Object;)Ljava/lang/Runnable;
@@ -404,7 +369,6 @@
 .method public b(Lio/grpc/Status;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/d$c;->a:Lcom/google/firebase/firestore/remote/d$a;
 
     invoke-static {p0, p1}, Lcom/google/firebase/firestore/remote/h;->a(Lcom/google/firebase/firestore/remote/d$c;Lio/grpc/Status;)Ljava/lang/Runnable;
@@ -419,7 +383,6 @@
 .method public c()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/d$c;->a:Lcom/google/firebase/firestore/remote/d$a;
 
     invoke-static {p0}, Lcom/google/firebase/firestore/remote/g;->a(Lcom/google/firebase/firestore/remote/d$c;)Ljava/lang/Runnable;
@@ -434,7 +397,6 @@
 .method public d(Lio/grpc/y0;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/d$c;->a:Lcom/google/firebase/firestore/remote/d$a;
 
     invoke-static {p0, p1}, Lcom/google/firebase/firestore/remote/e;->a(Lcom/google/firebase/firestore/remote/d$c;Lio/grpc/y0;)Ljava/lang/Runnable;

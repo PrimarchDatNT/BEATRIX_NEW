@@ -82,7 +82,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$filterIndexed$1;->$predicate:Lcotlin/jvm/u/p;
 
     invoke-virtual {p1}, Lcotlin/collections/i0;->e()I

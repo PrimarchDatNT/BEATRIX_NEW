@@ -46,12 +46,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->J()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$a;->a:Lcom/commsource/camera/xcamera/bean/c;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/bean/c;->b()Landroid/graphics/Bitmap;
@@ -66,14 +64,12 @@
 
     invoke-static {v2, v3, v1}, Lcom/commsource/util/b0;->b(Landroid/graphics/Bitmap;ILjava/lang/String;)Z
 
-    .line 3
     new-instance v2, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$a$a;
 
     invoke-direct {v2, p0, v1}, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$a$a;-><init>(Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$a;Ljava/lang/String;)V
 
     invoke-static {v2}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

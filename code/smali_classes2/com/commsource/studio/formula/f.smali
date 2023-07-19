@@ -41,12 +41,10 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_formula_viewholder:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     const/16 p1, 0x5a
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p1
@@ -84,12 +82,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_2
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -98,7 +94,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     iget-object p3, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const-string v1, "itemView"
@@ -121,14 +116,12 @@
 
     move-result-object p3
 
-    .line 4
     iget v4, p0, Lcom/commsource/studio/formula/f;->p:I
 
     iput v4, p3, Landroid/view/ViewGroup$LayoutParams;->height:I
 
     int-to-float v4, v4
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/formula/JsFormula;->getWHRatio()F
 
     move-result v5
@@ -139,7 +132,6 @@
 
     iput v4, p3, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 6
     iget-object v4, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -154,7 +146,6 @@
 
     invoke-virtual {v2, p3}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 7
     iget-object p3, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -191,7 +182,6 @@
     :goto_0
     invoke-virtual {p3, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 8
     iget-object p3, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -222,14 +212,12 @@
     :goto_1
     invoke-virtual {p3, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 9
     iget-object p3, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {p3}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
 
     move-result-object p3
 
-    .line 10
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p2
@@ -244,7 +232,6 @@
 
     move-result-object p2
 
-    .line 11
     iget-object p3, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -259,7 +246,6 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 12
     iget-object p2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -278,7 +264,6 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/comic/StrokeView;->setCorner(F)V
 
-    .line 13
     iget-object p2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -301,7 +286,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/FrameLayout;->setTag(Ljava/lang/Object;)V
 
-    .line 14
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

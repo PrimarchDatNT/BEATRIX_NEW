@@ -28,13 +28,10 @@
 .method public constructor <init>(FF)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcotlin/g2/e;->a:F
 
-    .line 3
     iput p2, p0, Lcotlin/g2/e;->b:F
 
     return-void
@@ -45,7 +42,6 @@
 .method public a(F)Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/g2/e;->a:F
 
     cmpl-float v0, p1, v0
@@ -72,7 +68,6 @@
 .method public bridge synthetic b(Ljava/lang/Comparable;Ljava/lang/Comparable;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
@@ -97,7 +92,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/g2/e;->b:F
 
     invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
@@ -110,7 +104,6 @@
 .method public bridge synthetic contains(Ljava/lang/Comparable;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
@@ -129,7 +122,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/g2/e;->a:F
 
     invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
@@ -164,7 +156,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlin/g2/e;
 
     if-eqz v0, :cond_2
@@ -219,7 +210,6 @@
 .method public bridge synthetic getEndInclusive()Ljava/lang/Comparable;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/e;->c()Ljava/lang/Float;
 
     move-result-object v0
@@ -230,7 +220,6 @@
 .method public bridge synthetic getStart()Ljava/lang/Comparable;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/e;->d()Ljava/lang/Float;
 
     move-result-object v0
@@ -241,7 +230,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/e;->isEmpty()Z
 
     move-result v0
@@ -284,7 +272,6 @@
 .method public isEmpty()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlin/g2/e;->a:F
 
     iget v1, p0, Lcotlin/g2/e;->b:F
@@ -309,7 +296,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorProcessActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
 
     move-result v1
@@ -64,7 +62,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->L0(Lcom/commsource/aieditor/AiEditorProcessActivity;)I
@@ -75,7 +72,6 @@
 
     if-ne v1, v3, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -86,7 +82,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
@@ -98,7 +93,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->setShowOriginalBitmap(Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -109,12 +103,10 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->setBlurDarkBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/AiEditorProcessActivity;->N0(Lcom/commsource/aieditor/AiEditorProcessActivity;Z)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -131,7 +123,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -144,7 +135,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -155,7 +145,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -166,7 +155,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->L0(Lcom/commsource/aieditor/AiEditorProcessActivity;)I
@@ -177,7 +165,6 @@
 
     if-ne v1, v3, :cond_2
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -188,10 +175,8 @@
 
     const/4 v2, 0x1
 
-    .line 13
     invoke-virtual {v1, v2}, Lcom/commsource/aieditor/EffectContactView;->setShowMode(I)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->O0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/aieditor/d0;
@@ -204,7 +189,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -215,7 +199,6 @@
 
     iget-object v2, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
-    .line 16
     invoke-static {v2}, Lcom/commsource/aieditor/AiEditorProcessActivity;->O0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/aieditor/d0;
 
     move-result-object v2
@@ -226,7 +209,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/commsource/aieditor/EffectContactView;->p0(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
 
-    .line 17
     :cond_1
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
@@ -240,7 +222,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_2
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
@@ -252,7 +233,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/ImageButton;->setVisibility(I)V
 
-    .line 19
     :goto_0
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
@@ -262,10 +242,8 @@
 
     if-eqz p1, :cond_4
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
-    .line 21
     invoke-static {p1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->L0(Lcom/commsource/aieditor/AiEditorProcessActivity;)I
 
     move-result p1
@@ -278,18 +256,15 @@
 
     const-string v2, "miniapp_feature"
 
-    .line 22
     invoke-static {v1, v2, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 23
     :cond_3
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {p1, v2}, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q0(Lcom/commsource/aieditor/AiEditorProcessActivity;I)V
 
-    .line 24
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,7 +283,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1}, Lcom/commsource/aieditor/AiEditorProcessActivity$g;->a(Landroid/graphics/Bitmap;)V

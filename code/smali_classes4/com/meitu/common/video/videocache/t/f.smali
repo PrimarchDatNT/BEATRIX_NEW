@@ -14,7 +14,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,14 +28,12 @@
 
     const/16 v1, 0x2e
 
-    .line 1
     invoke-virtual {p1, v1}, Ljava/lang/String;->lastIndexOf(I)I
 
     move-result v1
 
     const/16 v2, 0x2f
 
-    .line 2
     invoke-virtual {p1, v2}, Ljava/lang/String;->lastIndexOf(I)I
 
     move-result v2
@@ -51,7 +48,6 @@
 
     add-int/lit8 v2, v2, 0x4
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -60,7 +56,6 @@
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -74,7 +69,6 @@
     :cond_0
     const-string p1, ""
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -90,17 +84,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/t/f;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/common/video/videocache/o;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2

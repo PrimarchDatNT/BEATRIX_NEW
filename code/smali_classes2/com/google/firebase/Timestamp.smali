@@ -50,7 +50,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/Timestamp$a;
 
     invoke-direct {v0}, Lcom/google/firebase/Timestamp$a;-><init>()V
@@ -65,16 +64,12 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1, p2, p3}, Lcom/google/firebase/Timestamp;->s(JI)V
 
-    .line 3
     iput-wide p1, p0, Lcom/google/firebase/Timestamp;->a:J
 
-    .line 4
     iput p3, p0, Lcom/google/firebase/Timestamp;->b:I
 
     return-void
@@ -83,17 +78,14 @@
 .method protected constructor <init>(Landroid/os/Parcel;)V
     .locals 2
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/google/firebase/Timestamp;->a:J
 
-    .line 7
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
@@ -108,20 +100,16 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 9
     invoke-virtual {p1}, Ljava/util/Date;->getTime()J
 
     move-result-wide v0
 
     const-wide/16 v2, 0x3e8
 
-    .line 10
     div-long v4, v0, v2
 
-    .line 11
     rem-long/2addr v0, v2
 
     long-to-int p1, v0
@@ -140,14 +128,11 @@
 
     add-int/2addr p1, v0
 
-    .line 12
     :cond_0
     invoke-static {v4, v5, p1}, Lcom/google/firebase/Timestamp;->s(JI)V
 
-    .line 13
     iput-wide v4, p0, Lcom/google/firebase/Timestamp;->a:J
 
-    .line 14
     iput p1, p0, Lcom/google/firebase/Timestamp;->b:I
 
     return-void
@@ -161,7 +146,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/Timestamp;
 
     new-instance v1, Ljava/util/Date;
@@ -192,7 +176,6 @@
     :goto_0
     const-string v3, "Timestamp nanoseconds out of range: %s"
 
-    .line 1
     invoke-static {v2, v3, p2}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
     int-to-double v4, p2
@@ -210,7 +193,6 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 2
     :goto_1
     invoke-static {v2, v3, p2}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
@@ -230,7 +212,6 @@
     :goto_2
     const-string v2, "Timestamp seconds out of range: %s"
 
-    .line 3
     invoke-static {p2, v2, p0, p1}, Lcom/google/common/base/t;->p(ZLjava/lang/String;J)V
 
     const-wide v3, 0x3afff44180L
@@ -244,7 +225,6 @@
     :cond_3
     const/4 v0, 0x0
 
-    .line 4
     :goto_3
     invoke-static {v0, v2, p0, p1}, Lcom/google/common/base/t;->p(ZLjava/lang/String;J)V
 
@@ -258,7 +238,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/Timestamp;->a:J
 
     iget-wide v2, p1, Lcom/google/firebase/Timestamp;->a:J
@@ -267,7 +246,6 @@
 
     if-nez v4, :cond_0
 
-    .line 2
     iget v0, p0, Lcom/google/firebase/Timestamp;->b:I
 
     iget p1, p1, Lcom/google/firebase/Timestamp;->b:I
@@ -283,7 +261,6 @@
     :cond_0
     sub-long/2addr v0, v2
 
-    .line 3
     invoke-static {v0, v1}, Ljava/lang/Long;->signum(J)I
 
     move-result p1
@@ -296,7 +273,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/firebase/Timestamp;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/Timestamp;->a(Lcom/google/firebase/Timestamp;)I
@@ -323,7 +299,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/firebase/Timestamp;
 
@@ -333,7 +308,6 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/Timestamp;
 
@@ -357,7 +331,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/Timestamp;->b:I
 
     return v0
@@ -368,7 +341,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/Timestamp;->a:J
 
     return-wide v0
@@ -377,7 +349,6 @@
 .method public hashCode()I
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/Timestamp;->a:J
 
     long-to-int v2, v0
@@ -396,7 +367,6 @@
 
     mul-int/lit8 v2, v2, 0x25
 
-    .line 2
     iget v0, p0, Lcom/google/firebase/Timestamp;->b:I
 
     add-int/2addr v2, v0
@@ -412,7 +382,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/Date;
 
     iget-wide v1, p0, Lcom/google/firebase/Timestamp;->a:J
@@ -439,7 +408,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -474,12 +442,10 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/Timestamp;->a:J
 
     invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
 
-    .line 2
     iget p2, p0, Lcom/google/firebase/Timestamp;->b:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V

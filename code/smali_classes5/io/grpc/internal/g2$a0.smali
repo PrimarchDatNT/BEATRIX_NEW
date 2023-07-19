@@ -32,10 +32,8 @@
 .method constructor <init>(FF)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
@@ -48,22 +46,18 @@
 
     float-to-int p2, p2
 
-    .line 3
     iput p2, p0, Lio/grpc/internal/g2$a0;->c:I
 
     mul-float p1, p1, v1
 
     float-to-int p1, p1
 
-    .line 4
     iput p1, p0, Lio/grpc/internal/g2$a0;->a:I
 
-    .line 5
     div-int/lit8 p2, p1, 0x2
 
     iput p2, p0, Lio/grpc/internal/g2$a0;->b:I
 
-    .line 6
     invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
 
     return-void
@@ -76,7 +70,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/g2$a0;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
@@ -103,7 +96,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/g2$a0;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -120,7 +112,6 @@
     :cond_1
     add-int/lit16 v2, v0, -0x3e8
 
-    .line 2
     iget-object v3, p0, Lio/grpc/internal/g2$a0;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-static {v2, v1}, Ljava/lang/Math;->max(II)I
@@ -133,7 +124,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget v0, p0, Lio/grpc/internal/g2$a0;->b:I
 
     if-le v2, v0, :cond_2
@@ -149,7 +139,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/g2$a0;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -157,20 +146,17 @@
 
     move-result v0
 
-    .line 2
     iget v1, p0, Lio/grpc/internal/g2$a0;->a:I
 
     if-ne v0, v1, :cond_1
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget v2, p0, Lio/grpc/internal/g2$a0;->c:I
 
     add-int/2addr v2, v0
 
-    .line 4
     iget-object v3, p0, Lio/grpc/internal/g2$a0;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-static {v2, v1}, Ljava/lang/Math;->min(II)I
@@ -196,7 +182,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/grpc/internal/g2$a0;
 
@@ -206,11 +191,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lio/grpc/internal/g2$a0;
 
-    .line 3
     iget v1, p0, Lio/grpc/internal/g2$a0;->a:I
 
     iget v3, p1, Lio/grpc/internal/g2$a0;->a:I
@@ -239,7 +222,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget v1, p0, Lio/grpc/internal/g2$a0;->a:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

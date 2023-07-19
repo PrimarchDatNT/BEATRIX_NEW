@@ -37,7 +37,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,17 +49,14 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Lcom/bumptech/glide/s/n$a;
 
     invoke-direct {v0, p1}, Lcom/bumptech/glide/s/n$a;-><init>(Landroid/view/View;)V
 
     iput-object v0, p0, Lcom/bumptech/glide/s/n;->b:Lcom/bumptech/glide/s/n$a;
 
-    .line 4
     invoke-virtual {v0, p0}, Lcom/bumptech/glide/request/j/f;->a2(Lcom/bumptech/glide/request/j/o;)V
 
     return-void
@@ -83,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/bumptech/glide/s/n;->a:[I
 
     if-nez p1, :cond_0
@@ -92,7 +87,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     array-length p2, p1
 
@@ -110,7 +104,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/s/n;->a:[I
 
     if-nez v0, :cond_1
@@ -121,7 +114,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/bumptech/glide/s/n$a;
 
@@ -129,7 +121,6 @@
 
     iput-object v0, p0, Lcom/bumptech/glide/s/n;->b:Lcom/bumptech/glide/s/n$a;
 
-    .line 3
     invoke-virtual {v0, p0}, Lcom/bumptech/glide/request/j/f;->a2(Lcom/bumptech/glide/request/j/o;)V
 
     :cond_1
@@ -152,12 +143,10 @@
 
     aput p2, v0, p1
 
-    .line 1
     iput-object v0, p0, Lcom/bumptech/glide/s/n;->a:[I
 
     const/4 p1, 0x0
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/s/n;->b:Lcom/bumptech/glide/s/n$a;
 
     return-void

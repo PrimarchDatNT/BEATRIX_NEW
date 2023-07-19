@@ -52,12 +52,10 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/measurement/s1;
 
     const-string v1, "com.google.android.gms.measurement"
 
-    .line 2
     invoke-static {v1}, Lcom/google/android/gms/internal/measurement/n1;->a(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
@@ -68,7 +66,6 @@
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/measurement/s1;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object v1
@@ -77,7 +74,6 @@
 
     const-string v1, "measurement.client.sessions.immediate_start_enabled_foreground"
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/measurement/s1;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object v1
@@ -86,7 +82,6 @@
 
     const-string v1, "measurement.client.sessions.remove_expired_session_properties_enabled"
 
-    .line 5
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/measurement/s1;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object v1
@@ -95,7 +90,6 @@
 
     const-string v1, "measurement.client.sessions.session_id_enabled"
 
-    .line 6
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/measurement/s1;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object v0
@@ -108,7 +102,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -119,7 +112,6 @@
 .method public final d()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/rb;->c:Lcom/google/android/gms/internal/measurement/m1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/m1;->n()Ljava/lang/Object;
@@ -138,7 +130,6 @@
 .method public final e()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/rb;->d:Lcom/google/android/gms/internal/measurement/m1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/m1;->n()Ljava/lang/Object;
@@ -157,7 +148,6 @@
 .method public final zza()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/rb;->a:Lcom/google/android/gms/internal/measurement/m1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/m1;->n()Ljava/lang/Object;

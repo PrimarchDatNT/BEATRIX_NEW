@@ -14,7 +14,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lcom/mopub/mobileads/MoPubFullscreenActivity;
@@ -42,12 +40,10 @@
 
     const-string p0, "com_mopub_ad_data"
 
-    .line 2
     invoke-virtual {v0, p0, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     const/high16 p0, 0x10000000
 
-    .line 3
     invoke-virtual {v0, p0}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     return-object v0
@@ -61,7 +57,6 @@
     :try_start_0
     const-string v0, "com_mopub_ad_data"
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
 
     move-result-object p0
@@ -89,12 +84,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0, p1}, Lcom/mopub/mobileads/MoPubFullscreenActivity;->createIntent(Landroid/content/Context;Lcom/mopub/mobileads/AdData;)Landroid/content/Intent;
 
     move-result-object p1
 
-    .line 2
     :try_start_0
     invoke-static {p0, p1}, Lcom/mopub/common/util/Intents;->startActivity(Landroid/content/Context;Landroid/content/Intent;)V
     :try_end_0
@@ -107,7 +100,6 @@
 
     const-string p1, "MoPubFullscreenActivity.class not found. Did you declare MoPubFullscreenActivity in your manifest?"
 
-    .line 3
     invoke-static {p0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_0
@@ -124,7 +116,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubFullscreenActivity;->mFullscreenAdController:Lcom/mopub/mobileads/FullscreenAdController;
 
     return-object v0
@@ -133,12 +124,10 @@
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubFullscreenActivity;->mFullscreenAdController:Lcom/mopub/mobileads/FullscreenAdController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p1, p2, p3}, Lcom/mopub/mobileads/FullscreenAdController;->onActivityResult(IILandroid/content/Intent;)V
 
     :cond_0
@@ -148,7 +137,6 @@
 .method public onBackPressed()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubFullscreenActivity;->mFullscreenAdController:Lcom/mopub/mobileads/FullscreenAdController;
 
     if-eqz v0, :cond_0
@@ -159,7 +147,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     :cond_0
     invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V
 
@@ -170,10 +157,8 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 9
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
@@ -188,7 +173,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v0, v1, [Ljava/lang/Object;
@@ -199,22 +183,18 @@
 
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdData;->getBroadcastIdentifier()J
 
     move-result-wide v3
 
-    .line 6
     :try_start_0
     new-instance v5, Lcom/mopub/mobileads/FullscreenAdController;
 
-    .line 7
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v6
@@ -225,14 +205,12 @@
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 8
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->SHOW_SUCCESS:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     new-array v1, v2, [Ljava/lang/Object;
 
     invoke-static {p1, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 9
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdData;->getBroadcastIdentifier()J
 
     move-result-wide v0
@@ -241,7 +219,6 @@
 
     invoke-static {p0, v0, v1, p1}, Lcom/mopub/mobileads/BaseBroadcastReceiver;->broadcastAction(Landroid/content/Context;JLjava/lang/String;)V
 
-    .line 10
     invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object p1
@@ -255,7 +232,6 @@
     :catch_0
     move-exception p1
 
-    .line 11
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->SHOW_FAILED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v5, 0x2
@@ -278,7 +254,6 @@
 
     invoke-static {v0, v6}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 12
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     new-array v5, v5, [Ljava/lang/Object;
@@ -291,10 +266,8 @@
 
     const-string p1, "com.mopub.action.fullscreen.fail"
 
-    .line 13
     invoke-static {p0, v3, v4, p1}, Lcom/mopub/mobileads/BaseBroadcastReceiver;->broadcastAction(Landroid/content/Context;JLjava/lang/String;)V
 
-    .line 14
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
@@ -303,15 +276,12 @@
 .method protected onDestroy()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubFullscreenActivity;->mFullscreenAdController:Lcom/mopub/mobileads/FullscreenAdController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/FullscreenAdController;->destroy()V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Landroid/app/Activity;->onDestroy()V
 
@@ -321,15 +291,12 @@
 .method protected onPause()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubFullscreenActivity;->mFullscreenAdController:Lcom/mopub/mobileads/FullscreenAdController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/FullscreenAdController;->pause()V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Landroid/app/Activity;->onPause()V
 
@@ -339,15 +306,12 @@
 .method protected onResume()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubFullscreenActivity;->mFullscreenAdController:Lcom/mopub/mobileads/FullscreenAdController;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/mopub/mobileads/FullscreenAdController;->resume()V
 
     :cond_0
@@ -357,10 +321,8 @@
 .method protected onStart()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Landroid/app/Activity;->onStart()V
 
-    .line 2
     invoke-static {p0}, Lcom/mopub/common/util/Utils;->hideNavigationBar(Landroid/app/Activity;)V
 
     return-void
@@ -378,7 +340,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubFullscreenActivity;->mFullscreenAdController:Lcom/mopub/mobileads/FullscreenAdController;
 
     return-void

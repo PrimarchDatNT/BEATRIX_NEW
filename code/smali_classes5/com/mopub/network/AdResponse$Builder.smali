@@ -151,57 +151,48 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/mopub/network/AdResponse$Builder;->rewarded:Z
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/network/AdResponse$Builder;->clickTrackingUrls:Ljava/util/List;
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/network/AdResponse$Builder;->impressionTrackingUrls:Ljava/util/List;
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/network/AdResponse$Builder;->beforeLoadUrls:Ljava/util/List;
 
-    .line 6
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/network/AdResponse$Builder;->afterLoadUrls:Ljava/util/List;
 
-    .line 7
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/network/AdResponse$Builder;->afterLoadSuccessUrls:Ljava/util/List;
 
-    .line 8
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/network/AdResponse$Builder;->afterLoadFailUrls:Ljava/util/List;
 
-    .line 9
     new-instance v0, Ljava/util/TreeMap;
 
     invoke-direct {v0}, Ljava/util/TreeMap;-><init>()V
@@ -210,7 +201,6 @@
 
     const/4 v0, 0x0
 
-    .line 10
     iput-object v0, p0, Lcom/mopub/network/AdResponse$Builder;->viewabilityVendors:Ljava/util/Set;
 
     return-void
@@ -219,7 +209,6 @@
 .method static synthetic access$000(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->adType:Ljava/lang/String;
 
     return-object p0
@@ -228,7 +217,6 @@
 .method static synthetic access$100(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->adGroupId:Ljava/lang/String;
 
     return-object p0
@@ -237,7 +225,6 @@
 .method static synthetic access$1000(Lcom/mopub/network/AdResponse$Builder;)Lcom/mopub/network/ImpressionData;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->impressionData:Lcom/mopub/network/ImpressionData;
 
     return-object p0
@@ -246,7 +233,6 @@
 .method static synthetic access$1100(Lcom/mopub/network/AdResponse$Builder;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->clickTrackingUrls:Ljava/util/List;
 
     return-object p0
@@ -255,7 +241,6 @@
 .method static synthetic access$1200(Lcom/mopub/network/AdResponse$Builder;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->impressionTrackingUrls:Ljava/util/List;
 
     return-object p0
@@ -264,7 +249,6 @@
 .method static synthetic access$1300(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->failoverUrl:Ljava/lang/String;
 
     return-object p0
@@ -273,7 +257,6 @@
 .method static synthetic access$1400(Lcom/mopub/network/AdResponse$Builder;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->beforeLoadUrls:Ljava/util/List;
 
     return-object p0
@@ -282,7 +265,6 @@
 .method static synthetic access$1500(Lcom/mopub/network/AdResponse$Builder;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->afterLoadUrls:Ljava/util/List;
 
     return-object p0
@@ -291,7 +273,6 @@
 .method static synthetic access$1600(Lcom/mopub/network/AdResponse$Builder;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->afterLoadSuccessUrls:Ljava/util/List;
 
     return-object p0
@@ -300,7 +281,6 @@
 .method static synthetic access$1700(Lcom/mopub/network/AdResponse$Builder;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->afterLoadFailUrls:Ljava/util/List;
 
     return-object p0
@@ -309,7 +289,6 @@
 .method static synthetic access$1800(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->requestId:Ljava/lang/String;
 
     return-object p0
@@ -318,7 +297,6 @@
 .method static synthetic access$1900(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/Integer;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->width:Ljava/lang/Integer;
 
     return-object p0
@@ -327,7 +305,6 @@
 .method static synthetic access$200(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->adUnitId:Ljava/lang/String;
 
     return-object p0
@@ -336,7 +313,6 @@
 .method static synthetic access$2000(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/Integer;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->height:Ljava/lang/Integer;
 
     return-object p0
@@ -345,7 +321,6 @@
 .method static synthetic access$2100(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/Integer;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->adTimeoutDelayMillis:Ljava/lang/Integer;
 
     return-object p0
@@ -354,7 +329,6 @@
 .method static synthetic access$2200(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/Integer;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->refreshTimeMillis:Ljava/lang/Integer;
 
     return-object p0
@@ -363,7 +337,6 @@
 .method static synthetic access$2300(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->bannerImpressionMinVisibleDips:Ljava/lang/String;
 
     return-object p0
@@ -372,7 +345,6 @@
 .method static synthetic access$2400(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->bannerImpressionMinVisibleMs:Ljava/lang/String;
 
     return-object p0
@@ -381,7 +353,6 @@
 .method static synthetic access$2500(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->dspCreativeId:Ljava/lang/String;
 
     return-object p0
@@ -390,7 +361,6 @@
 .method static synthetic access$2600(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->responseBody:Ljava/lang/String;
 
     return-object p0
@@ -399,7 +369,6 @@
 .method static synthetic access$2700(Lcom/mopub/network/AdResponse$Builder;)Lorg/json/JSONObject;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->jsonBody:Lorg/json/JSONObject;
 
     return-object p0
@@ -408,7 +377,6 @@
 .method static synthetic access$2800(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->customEventClassName:Ljava/lang/String;
 
     return-object p0
@@ -417,7 +385,6 @@
 .method static synthetic access$2900(Lcom/mopub/network/AdResponse$Builder;)Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->browserAgent:Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 
     return-object p0
@@ -426,7 +393,6 @@
 .method static synthetic access$300(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->fullAdType:Ljava/lang/String;
 
     return-object p0
@@ -435,7 +401,6 @@
 .method static synthetic access$3000(Lcom/mopub/network/AdResponse$Builder;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->serverExtras:Ljava/util/Map;
 
     return-object p0
@@ -444,7 +409,6 @@
 .method static synthetic access$3100(Lcom/mopub/network/AdResponse$Builder;)Ljava/util/Set;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->viewabilityVendors:Ljava/util/Set;
 
     return-object p0
@@ -453,7 +417,6 @@
 .method static synthetic access$3200(Lcom/mopub/network/AdResponse$Builder;)Lcom/mopub/mobileads/CreativeExperienceSettings;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->creativeExperienceSettings:Lcom/mopub/mobileads/CreativeExperienceSettings;
 
     return-object p0
@@ -462,7 +425,6 @@
 .method static synthetic access$400(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->networkType:Ljava/lang/String;
 
     return-object p0
@@ -471,7 +433,6 @@
 .method static synthetic access$500(Lcom/mopub/network/AdResponse$Builder;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/mopub/network/AdResponse$Builder;->rewarded:Z
 
     return p0
@@ -480,7 +441,6 @@
 .method static synthetic access$600(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->rewardedAdCurrencyName:Ljava/lang/String;
 
     return-object p0
@@ -489,7 +449,6 @@
 .method static synthetic access$700(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->rewardedAdCurrencyAmount:Ljava/lang/String;
 
     return-object p0
@@ -498,7 +457,6 @@
 .method static synthetic access$800(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->rewardedCurrencies:Ljava/lang/String;
 
     return-object p0
@@ -507,7 +465,6 @@
 .method static synthetic access$900(Lcom/mopub/network/AdResponse$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdResponse$Builder;->rewardedAdCompletionUrl:Ljava/lang/String;
 
     return-object p0
@@ -518,7 +475,6 @@
 .method public build()Lcom/mopub/network/AdResponse;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/mopub/network/AdResponse;
 
     const/4 v1, 0x0
@@ -535,7 +491,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->adGroupId:Ljava/lang/String;
 
     return-object p0
@@ -548,7 +503,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->adTimeoutDelayMillis:Ljava/lang/Integer;
 
     return-object p0
@@ -561,7 +515,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->adType:Ljava/lang/String;
 
     return-object p0
@@ -574,7 +527,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->adUnitId:Ljava/lang/String;
 
     return-object p0
@@ -596,10 +548,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->afterLoadFailUrls:Ljava/util/List;
 
     return-object p0
@@ -621,10 +571,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->afterLoadSuccessUrls:Ljava/util/List;
 
     return-object p0
@@ -646,10 +594,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->afterLoadUrls:Ljava/util/List;
 
     return-object p0
@@ -662,7 +608,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->bannerImpressionMinVisibleDips:Ljava/lang/String;
 
     return-object p0
@@ -675,7 +620,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->bannerImpressionMinVisibleMs:Ljava/lang/String;
 
     return-object p0
@@ -688,7 +632,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->customEventClassName:Ljava/lang/String;
 
     return-object p0
@@ -710,10 +653,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->beforeLoadUrls:Ljava/util/List;
 
     return-object p0
@@ -726,7 +667,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->browserAgent:Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 
     return-object p0
@@ -748,10 +688,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->clickTrackingUrls:Ljava/util/List;
 
     return-object p0
@@ -764,10 +702,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->creativeExperienceSettings:Lcom/mopub/mobileads/CreativeExperienceSettings;
 
     return-object p0
@@ -784,10 +720,8 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->width:Ljava/lang/Integer;
 
-    .line 2
     iput-object p2, p0, Lcom/mopub/network/AdResponse$Builder;->height:Ljava/lang/Integer;
 
     return-object p0
@@ -800,7 +734,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->dspCreativeId:Ljava/lang/String;
 
     return-object p0
@@ -813,7 +746,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->failoverUrl:Ljava/lang/String;
 
     return-object p0
@@ -826,7 +758,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->fullAdType:Ljava/lang/String;
 
     return-object p0
@@ -839,7 +770,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->impressionData:Lcom/mopub/network/ImpressionData;
 
     return-object p0
@@ -861,10 +791,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->impressionTrackingUrls:Ljava/util/List;
 
     return-object p0
@@ -877,7 +805,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->jsonBody:Lorg/json/JSONObject;
 
     return-object p0
@@ -890,7 +817,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->networkType:Ljava/lang/String;
 
     return-object p0
@@ -903,7 +829,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->refreshTimeMillis:Ljava/lang/Integer;
 
     return-object p0
@@ -916,7 +841,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->requestId:Ljava/lang/String;
 
     return-object p0
@@ -929,7 +853,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->responseBody:Ljava/lang/String;
 
     return-object p0
@@ -938,7 +861,6 @@
 .method public setRewarded(Z)Lcom/mopub/network/AdResponse$Builder;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/network/AdResponse$Builder;->rewarded:Z
 
     return-object p0
@@ -951,7 +873,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->rewardedAdCompletionUrl:Ljava/lang/String;
 
     return-object p0
@@ -964,7 +885,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->rewardedAdCurrencyAmount:Ljava/lang/String;
 
     return-object p0
@@ -977,7 +897,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->rewardedAdCurrencyName:Ljava/lang/String;
 
     return-object p0
@@ -990,7 +909,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->rewardedCurrencies:Ljava/lang/String;
 
     return-object p0
@@ -1015,7 +933,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     new-instance p1, Ljava/util/TreeMap;
 
     invoke-direct {p1}, Ljava/util/TreeMap;-><init>()V
@@ -1024,7 +941,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/util/TreeMap;
 
@@ -1052,7 +968,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdResponse$Builder;->viewabilityVendors:Ljava/util/Set;
 
     return-object p0

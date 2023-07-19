@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/internal/HprofInMemoryIndex$b;-><init>()V
 
     return-void
@@ -38,7 +36,6 @@
 .method public static final synthetic a(Lkshark/internal/HprofInMemoryIndex$b;J)I
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lkshark/internal/HprofInMemoryIndex$b;->b(J)I
 
     move-result p0
@@ -128,7 +125,6 @@
 
     new-array v5, v5, [Lcotlin/reflect/d;
 
-    .line 1
     const-class v6, Lkshark/m$f;
 
     invoke-static {v6}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -139,7 +135,6 @@
 
     aput-object v6, v5, v7
 
-    .line 2
     invoke-static {v4}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v6
@@ -148,7 +143,6 @@
 
     aput-object v6, v5, v8
 
-    .line 3
     const-class v6, Lkshark/m$b$c$b;
 
     invoke-static {v6}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -159,7 +153,6 @@
 
     aput-object v6, v5, v9
 
-    .line 4
     invoke-static {v3}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v6
@@ -168,7 +161,6 @@
 
     aput-object v6, v5, v10
 
-    .line 5
     invoke-static {v2}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v6
@@ -177,7 +169,6 @@
 
     aput-object v6, v5, v11
 
-    .line 6
     invoke-static {v1}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v6
@@ -186,7 +177,6 @@
 
     aput-object v6, v5, v12
 
-    .line 7
     const-class v6, Lkshark/m$b$a;
 
     invoke-static {v6}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -197,38 +187,32 @@
 
     aput-object v6, v5, v12
 
-    .line 8
     invoke-static {v5}, Lcotlin/collections/b1;->u([Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object v5
 
-    .line 9
     invoke-virtual/range {p1 .. p1}, Lkshark/Hprof;->e()Lkshark/l;
 
     move-result-object v15
 
-    .line 10
     new-instance v6, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v6}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
     iput v7, v6, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 11
     new-instance v12, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v12}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
     iput v7, v12, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 12
     new-instance v13, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v13}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
     iput v7, v13, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 13
     new-instance v10, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v10}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -237,28 +221,24 @@
 
     new-array v11, v11, [Lcotlin/reflect/d;
 
-    .line 14
     invoke-static {v4}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v4
 
     aput-object v4, v11, v7
 
-    .line 15
     invoke-static {v3}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v3
 
     aput-object v3, v11, v8
 
-    .line 16
     invoke-static {v2}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v2
 
     aput-object v2, v11, v9
 
-    .line 17
     invoke-static {v1}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v1
@@ -267,33 +247,26 @@
 
     aput-object v1, v11, v2
 
-    .line 18
     invoke-static {v11}, Lcotlin/collections/b1;->u([Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object v1
 
-    .line 19
     sget-object v2, Lkshark/w;->a:Lkshark/w$a;
 
-    .line 20
     new-instance v2, Lkshark/internal/HprofInMemoryIndex$b$a;
 
     invoke-direct {v2, v6, v12, v13, v10}, Lkshark/internal/HprofInMemoryIndex$b$a;-><init>(Lcotlin/jvm/internal/Ref$IntRef;Lcotlin/jvm/internal/Ref$IntRef;Lcotlin/jvm/internal/Ref$IntRef;Lcotlin/jvm/internal/Ref$IntRef;)V
 
-    .line 21
     invoke-virtual {v15, v1, v2}, Lkshark/l;->r(Ljava/util/Set;Lkshark/w;)V
 
-    .line 22
     sget-object v1, Lkshark/a0;->b:Lkshark/a0;
 
-    .line 23
     invoke-virtual {v1}, Lkshark/a0;->c()Lkshark/a0$a;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 24
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -336,7 +309,6 @@
 
     invoke-interface {v1, v2}, Lkshark/a0$a;->a(Ljava/lang/String;)V
 
-    .line 25
     :cond_0
     invoke-virtual {v15}, Lkshark/l;->d()J
 
@@ -344,10 +316,8 @@
 
     invoke-virtual {v0, v1, v2}, Lkshark/Hprof;->f(J)V
 
-    .line 26
     new-instance v1, Lkshark/internal/HprofInMemoryIndex$a;
 
-    .line 27
     invoke-virtual {v15}, Lkshark/l;->b()I
 
     move-result v2
@@ -367,7 +337,6 @@
 
     iget v11, v12, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 28
     iget v12, v13, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     iget v13, v10, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -378,15 +347,12 @@
 
     move-object/from16 v14, p3
 
-    .line 29
     invoke-direct/range {v6 .. v14}, Lkshark/internal/HprofInMemoryIndex$a;-><init>(ZJIIIILjava/util/Set;)V
 
-    .line 30
     invoke-virtual {v15, v5, v1}, Lkshark/l;->r(Ljava/util/Set;Lkshark/w;)V
 
     move-object/from16 v0, p2
 
-    .line 31
     invoke-virtual {v1, v0}, Lkshark/internal/HprofInMemoryIndex$a;->b(Lkshark/x;)Lkshark/internal/HprofInMemoryIndex;
 
     move-result-object v0

@@ -30,12 +30,10 @@
 .method public constructor <init>(Lcom/meitu/countrylocation/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/f$a;->c:Lcom/meitu/countrylocation/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iget-object p1, p1, Lcom/meitu/countrylocation/Localizer;->g:Lcom/meitu/countrylocation/h;
 
     invoke-virtual {p1}, Lcom/meitu/countrylocation/h;->e()I
@@ -60,10 +58,8 @@
 
     const-string v2, "LocationTask onTimeOut = "
 
-    .line 1
     invoke-static {v1, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -76,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -95,12 +90,10 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/countrylocation/f$a;->c:Lcom/meitu/countrylocation/f;
 
     invoke-virtual {v1, p1, p2, p3}, Lcom/meitu/countrylocation/Localizer;->f(Lcom/meitu/countrylocation/Localizer$Type;Ljava/lang/String;Lcom/meitu/countrylocation/LocationBean;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -113,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -138,12 +130,10 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/countrylocation/f$a;->c:Lcom/meitu/countrylocation/f;
 
     invoke-virtual {v1, p1, p2, p3, p4}, Lcom/meitu/countrylocation/Localizer;->d(DD)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -160,10 +150,8 @@
 
     const-string v2, "LocationTask onFailed = "
 
-    .line 1
     invoke-static {v1, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/countrylocation/f$a;->c:Lcom/meitu/countrylocation/f;
 
     invoke-static {v1}, Lcom/meitu/countrylocation/f;->j(Lcom/meitu/countrylocation/f;)I
@@ -182,12 +170,10 @@
 
     if-ge v1, v2, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/countrylocation/f$a;->c:Lcom/meitu/countrylocation/f;
 
     invoke-static {v1}, Lcom/meitu/countrylocation/f;->k(Lcom/meitu/countrylocation/f;)I
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/countrylocation/f$a;->c:Lcom/meitu/countrylocation/f;
 
     iget-object v1, v1, Lcom/meitu/countrylocation/Localizer;->d:Landroid/os/Handler;
@@ -196,13 +182,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/meitu/countrylocation/f$a;->c:Lcom/meitu/countrylocation/f;
 
     invoke-virtual {v1}, Lcom/meitu/countrylocation/Localizer;->e()V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -216,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/f$a;->c:Lcom/meitu/countrylocation/f;
 
     invoke-static {v1}, Lcom/meitu/countrylocation/f;->j(Lcom/meitu/countrylocation/f;)I
@@ -227,7 +210,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -236,7 +218,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/meitu/countrylocation/f$a;->a:I
 
@@ -256,10 +237,8 @@
 
     if-gez v1, :cond_1
 
-    .line 4
     iput v2, p0, Lcom/meitu/countrylocation/f$a;->a:I
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/meitu/countrylocation/f$a;->c:Lcom/meitu/countrylocation/f;
 
@@ -269,7 +248,6 @@
 
     invoke-virtual {v1, v3}, Lcom/meitu/countrylocation/h;->p(I)V
 
-    .line 6
     :goto_0
     :try_start_0
     iget-object v1, p0, Lcom/meitu/countrylocation/f$a;->c:Lcom/meitu/countrylocation/f;
@@ -302,7 +280,6 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 7
     const-class v5, Landroid/content/Context;
 
     aput-object v5, v4, v2
@@ -317,7 +294,6 @@
 
     move-result-object v1
 
-    .line 8
     iget-object v4, p0, Lcom/meitu/countrylocation/f$a;->c:Lcom/meitu/countrylocation/f;
 
     iget-object v4, v4, Lcom/meitu/countrylocation/Localizer;->g:Lcom/meitu/countrylocation/h;
@@ -328,14 +304,12 @@
 
     check-cast v4, Lcom/meitu/countrylocation/h;
 
-    .line 9
     iget v5, p0, Lcom/meitu/countrylocation/f$a;->a:I
 
     invoke-virtual {v4, v5}, Lcom/meitu/countrylocation/h;->p(I)V
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    .line 10
     iget-object v5, p0, Lcom/meitu/countrylocation/f$a;->c:Lcom/meitu/countrylocation/f;
 
     iget-object v5, v5, Lcom/meitu/countrylocation/Localizer;->f:Landroid/content/Context;
@@ -350,15 +324,12 @@
 
     check-cast v1, Lcom/meitu/countrylocation/Localizer;
 
-    .line 11
     invoke-virtual {v1, p0}, Lcom/meitu/countrylocation/Localizer;->h(Lcom/meitu/countrylocation/g;)V
 
-    .line 12
     invoke-virtual {v1}, Lcom/meitu/countrylocation/Localizer;->i()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -366,13 +337,10 @@
     :catch_0
     move-exception v1
 
-    .line 14
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 15
     invoke-virtual {p0}, Lcom/meitu/countrylocation/f$a;->onFailed()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

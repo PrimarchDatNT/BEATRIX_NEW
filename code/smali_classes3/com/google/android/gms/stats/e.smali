@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/stats/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/stats/e;->a:Lcom/google/android/gms/stats/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -26,7 +25,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/stats/e;->a:Lcom/google/android/gms/stats/c;
 
     const/4 v1, 0x0

@@ -25,13 +25,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/mobileads/RepeatingHandlerRunnable;->mHandler:Landroid/os/Handler;
 
     return-void
@@ -50,7 +47,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/RepeatingHandlerRunnable;->mIsRunning:Z
 
     return v0
@@ -59,15 +55,12 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/RepeatingHandlerRunnable;->mIsRunning:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/mobileads/RepeatingHandlerRunnable;->doWork()V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/RepeatingHandlerRunnable;->mHandler:Landroid/os/Handler;
 
     iget-wide v1, p0, Lcom/mopub/mobileads/RepeatingHandlerRunnable;->mUpdateIntervalMillis:J
@@ -101,7 +94,6 @@
     :goto_0
     new-array v3, v1, [Ljava/lang/Object;
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v4
@@ -110,21 +102,16 @@
 
     const-string v0, "intervalMillis must be greater than 0. Saw: %d"
 
-    .line 2
     invoke-static {v2, v0, v3}, Lcom/mopub/common/Preconditions;->checkArgument(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     iput-wide p1, p0, Lcom/mopub/mobileads/RepeatingHandlerRunnable;->mUpdateIntervalMillis:J
 
-    .line 4
     iget-boolean p1, p0, Lcom/mopub/mobileads/RepeatingHandlerRunnable;->mIsRunning:Z
 
     if-nez p1, :cond_1
 
-    .line 5
     iput-boolean v1, p0, Lcom/mopub/mobileads/RepeatingHandlerRunnable;->mIsRunning:Z
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/mobileads/RepeatingHandlerRunnable;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {p1, p0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
@@ -138,7 +125,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/mopub/mobileads/RepeatingHandlerRunnable;->mIsRunning:Z
 
     return-void

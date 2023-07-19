@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/api/VideoCardAd;Lcom/sdk/imp/internal/loader/Ad;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/VideoCardAd$c;->b:Lcom/sdk/api/VideoCardAd;
 
     iput-object p2, p0, Lcom/sdk/api/VideoCardAd$c;->a:Lcom/sdk/imp/internal/loader/Ad;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/api/VideoCardAd$c;->a:Lcom/sdk/imp/internal/loader/Ad;
 
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->getPosid()Ljava/lang/String;

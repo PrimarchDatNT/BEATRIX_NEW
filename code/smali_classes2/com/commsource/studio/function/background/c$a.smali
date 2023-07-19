@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/background/c$a;-><init>()V
 
     return-void
@@ -48,7 +46,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/background/c$a;->a(IZ)Lcom/commsource/studio/function/background/BackgroundType;
 
@@ -70,19 +67,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Lcom/commsource/studio/function/background/BackgroundType;
 
     const/4 v1, 0x2
 
     new-array v3, v1, [F
 
-    .line 2
     fill-array-data v3, :array_0
 
     new-array v4, v1, [F
 
-    .line 3
     fill-array-data v4, :array_1
 
     new-array v5, v1, [I
@@ -97,7 +91,6 @@
 
     new-array v6, v1, [F
 
-    .line 4
     fill-array-data v6, :array_2
 
     move-object v1, v9
@@ -106,7 +99,6 @@
 
     move v8, p1
 
-    .line 5
     invoke-direct/range {v1 .. v8}, Lcom/commsource/studio/function/background/BackgroundType;-><init>(I[F[F[I[FZI)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,7 +145,6 @@
 
     invoke-static {v0, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     :try_start_0
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/function/background/BackgroundColor;->getStartPoint()Ljava/lang/String;
 
@@ -175,7 +166,6 @@
 
     move-result-object v3
 
-    .line 2
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/function/background/BackgroundColor;->getEndPoint()Ljava/lang/String;
 
     move-result-object v4
@@ -196,12 +186,10 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/function/background/BackgroundColor;->getColors()[Ljava/lang/String;
 
     move-result-object v5
@@ -217,7 +205,6 @@
 
     aget-object v9, v5, v8
 
-    .line 5
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -246,7 +233,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v4}, Ljava/util/ArrayList;->size()I
 
@@ -256,14 +242,12 @@
 
     if-ne v5, v6, :cond_1
 
-    .line 7
     invoke-virtual {v4, v7}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
     invoke-virtual {v4, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 8
     :cond_1
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/function/background/BackgroundColor;->getLocations()[F
 
@@ -283,14 +267,12 @@
     :goto_1
     if-eqz v5, :cond_4
 
-    .line 9
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
     const/high16 v8, 0x3f800000    # 1.0f
 
-    .line 10
     invoke-virtual {v4}, Ljava/util/ArrayList;->size()I
 
     move-result v9
@@ -301,7 +283,6 @@
 
     div-float/2addr v8, v9
 
-    .line 11
     invoke-virtual {v4}, Ljava/util/ArrayList;->size()I
 
     move-result v9
@@ -315,7 +296,6 @@
 
     mul-float v11, v11, v8
 
-    .line 12
     invoke-static {v11}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v11
@@ -326,7 +306,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_3
     invoke-static {v5}, Lcotlin/collections/s;->F5(Ljava/util/Collection;)[F
 
@@ -334,7 +313,6 @@
 
     goto :goto_3
 
-    .line 14
     :cond_4
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/function/background/BackgroundColor;->getLocations()[F
 
@@ -343,7 +321,6 @@
     :goto_3
     move-object v13, v5
 
-    .line 15
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/function/background/BackgroundColor;->getType()I
 
     move-result v9
@@ -352,7 +329,6 @@
 
     new-array v10, v5, [F
 
-    .line 16
     invoke-interface {v3, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -379,7 +355,6 @@
 
     new-array v11, v5, [F
 
-    .line 17
     invoke-interface {v1, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -404,7 +379,6 @@
 
     aput v1, v11, v6
 
-    .line 18
     invoke-static {v4}, Lcotlin/collections/s;->H5(Ljava/util/Collection;)[I
 
     move-result-object v12
@@ -417,14 +391,12 @@
 
     const/16 v17, 0x0
 
-    .line 19
     new-instance v1, Lcom/commsource/studio/function/background/BackgroundType;
 
     move-object v8, v1
 
     invoke-direct/range {v8 .. v17}, Lcom/commsource/studio/function/background/BackgroundType;-><init>(I[F[F[I[FZIILcotlin/jvm/internal/u;)V
 
-    .line 20
     invoke-virtual {v1, v0}, Lcom/commsource/studio/function/background/BackgroundType;->setBackgroundColor(Lcom/commsource/studio/function/background/BackgroundColor;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -434,12 +406,10 @@
     :catch_0
     move-exception v0
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const/4 v1, 0x0
 
-    .line 22
     :goto_4
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

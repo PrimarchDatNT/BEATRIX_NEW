@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method synthetic constructor <init>(Lcom/android/billingclient/api/b0;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/android/billingclient/api/i;-><init>()V
 
     return-void
@@ -37,7 +35,6 @@
 .method public static b()Lcom/android/billingclient/api/i$a;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/android/billingclient/api/i$a;
 
     const/4 v1, 0x0
@@ -50,7 +47,6 @@
 .method static synthetic c(Lcom/android/billingclient/api/i;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/i;->a:Ljava/lang/String;
 
     return-object p1
@@ -61,7 +57,6 @@
 .method public final a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/i;->a:Ljava/lang/String;
 
     return-object v0

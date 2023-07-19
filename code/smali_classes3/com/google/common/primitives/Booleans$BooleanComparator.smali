@@ -46,7 +46,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcom/google/common/primitives/Booleans$BooleanComparator;
 
     const-string v1, "TRUE_FIRST"
@@ -61,7 +60,6 @@
 
     sput-object v0, Lcom/google/common/primitives/Booleans$BooleanComparator;->TRUE_FIRST:Lcom/google/common/primitives/Booleans$BooleanComparator;
 
-    .line 2
     new-instance v1, Lcom/google/common/primitives/Booleans$BooleanComparator;
 
     const-string v4, "FALSE_FIRST"
@@ -82,7 +80,6 @@
 
     aput-object v1, v4, v3
 
-    .line 3
     sput-object v4, Lcom/google/common/primitives/Booleans$BooleanComparator;->$VALUES:[Lcom/google/common/primitives/Booleans$BooleanComparator;
 
     return-void
@@ -98,13 +95,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/common/primitives/Booleans$BooleanComparator;->trueValue:I
 
-    .line 3
     iput-object p4, p0, Lcom/google/common/primitives/Booleans$BooleanComparator;->toString:Ljava/lang/String;
 
     return-void
@@ -113,7 +107,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/primitives/Booleans$BooleanComparator;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/primitives/Booleans$BooleanComparator;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -128,7 +121,6 @@
 .method public static values()[Lcom/google/common/primitives/Booleans$BooleanComparator;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/primitives/Booleans$BooleanComparator;->$VALUES:[Lcom/google/common/primitives/Booleans$BooleanComparator;
 
     invoke-virtual {v0}, [Lcom/google/common/primitives/Booleans$BooleanComparator;->clone()Ljava/lang/Object;
@@ -145,7 +137,6 @@
 .method public compare(Ljava/lang/Boolean;Ljava/lang/Boolean;)I
     .locals 1
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
@@ -161,7 +152,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -180,7 +170,6 @@
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     check-cast p2, Ljava/lang/Boolean;
@@ -195,7 +184,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/primitives/Booleans$BooleanComparator;->toString:Ljava/lang/String;
 
     return-object v0

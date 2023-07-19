@@ -24,7 +24,6 @@
 .method constructor <init>(Lf/k/i0/b/b;Ljava/lang/String;Lcom/meitu/template/bean/Chat;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i0/b/b$d;->p:Lf/k/i0/b/b;
 
     iput-object p3, p0, Lf/k/i0/b/b$d;->g:Lcom/meitu/template/bean/Chat;
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i0/b/b$d;->p:Lf/k/i0/b/b;
 
     invoke-static {v1}, Lf/k/i0/b/b;->d(Lf/k/i0/b/b;)Lf/k/i0/a/h;
@@ -54,7 +52,6 @@
 
     invoke-interface {v1, v2}, Lf/k/i0/a/h;->g3(Lcom/meitu/template/bean/Chat;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

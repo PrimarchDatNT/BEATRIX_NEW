@@ -33,7 +33,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;-><init>()V
 
     return-void
@@ -66,7 +65,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/processor/b;->O:Z
 
     const/4 v1, 0x0
@@ -75,7 +73,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/processor/b;->N:Landroid/graphics/Bitmap;
 
@@ -90,21 +87,18 @@
 
     const/16 p1, 0x1e
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/util/w1;->j(I)Z
 
     move-result p1
 
     if-nez p1, :cond_2
 
-    .line 4
     sget-object p1, Lcom/commsource/studio/processor/b$a;->a:Lcom/commsource/studio/processor/b$a;
 
     invoke-static {p1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
     return v1
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/processor/b;->N:Landroid/graphics/Bitmap;
 
@@ -119,7 +113,6 @@
 
     invoke-static {p1, v0}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->e()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object p1
@@ -136,7 +129,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/processor/b;->N:Landroid/graphics/Bitmap;
 
     if-nez v0, :cond_0
@@ -152,7 +144,6 @@
 .method public final M()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/processor/b;->O:Z
 
     return v0
@@ -163,7 +154,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/processor/b;->M:Landroid/graphics/Bitmap;
 
     if-nez v0, :cond_0
@@ -179,7 +169,6 @@
 .method public final O()V
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v0
@@ -198,7 +187,6 @@
 
     const-string v1, "effectBitmap"
 
-    .line 2
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -216,7 +204,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/processor/b;->M:Landroid/graphics/Bitmap;
 
-    .line 3
     iput-boolean v2, p0, Lcom/commsource/studio/processor/b;->O:Z
 
     return-void
@@ -241,7 +228,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     :try_start_0
     iget-object p1, p0, Lcom/commsource/studio/processor/b;->M:Landroid/graphics/Bitmap;
 
@@ -260,7 +246,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/processor/b;->N:Landroid/graphics/Bitmap;
 
     if-nez v0, :cond_1
@@ -280,10 +265,8 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 3
     invoke-static {p1, v0, p2, v1}, Lcom/meitu/core/util/MixingUtil;->mixingWidthMask(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;F)Z
 
-    .line 4
     invoke-virtual {v0}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
 
     move-result-object p2
@@ -294,10 +277,8 @@
 
     iput-object p2, p0, Lcom/commsource/studio/processor/b;->N:Landroid/graphics/Bitmap;
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 6
     invoke-virtual {v0}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -307,7 +288,6 @@
     :catch_0
     move-exception p1
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     :goto_0
@@ -336,7 +316,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/processor/b;->O:Z
 
     const/4 v1, 0x0
@@ -345,7 +324,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/processor/b;->N:Landroid/graphics/Bitmap;
 
@@ -360,21 +338,18 @@
 
     const/16 p1, 0x1e
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/util/w1;->j(I)Z
 
     move-result p1
 
     if-nez p1, :cond_2
 
-    .line 4
     sget-object p1, Lcom/commsource/studio/processor/b$b;->a:Lcom/commsource/studio/processor/b$b;
 
     invoke-static {p1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
     return v1
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/processor/b;->N:Landroid/graphics/Bitmap;
 
@@ -389,7 +364,6 @@
 
     invoke-static {p1, v0}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->e()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object p1
@@ -412,7 +386,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/b;->N:Landroid/graphics/Bitmap;
 
     return-void
@@ -421,7 +394,6 @@
 .method public final T(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/processor/b;->O:Z
 
     return-void
@@ -438,7 +410,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/b;->M:Landroid/graphics/Bitmap;
 
     return-void

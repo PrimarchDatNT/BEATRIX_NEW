@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
@@ -77,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
     iget-object v1, v1, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView;
@@ -92,7 +90,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
     iget-object v1, v1, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView;
@@ -103,7 +100,6 @@
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
     iget-object v2, v1, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$isNeedScaleAnim:Lcotlin/jvm/internal/Ref$BooleanRef;
@@ -112,7 +108,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     iget-object v1, v1, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView;
 
     invoke-static {v1}, Lcom/commsource/puzzle/StitchComponent$StitchImageView;->f(Lcom/commsource/puzzle/StitchComponent$StitchImageView;)Landroid/graphics/Matrix;
@@ -123,7 +118,6 @@
 
     int-to-float v3, v2
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
     iget-object v5, v4, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$scaledX:Lcotlin/jvm/internal/Ref$FloatRef;
@@ -140,7 +134,6 @@
 
     div-float v5, v6, v5
 
-    .line 7
     iget-object v7, v4, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$scaledY:Lcotlin/jvm/internal/Ref$FloatRef;
 
     iget v7, v7, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
@@ -153,7 +146,6 @@
 
     div-float/2addr v6, v3
 
-    .line 8
     iget-object v3, v4, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView;
 
     invoke-static {v3}, Lcom/commsource/puzzle/StitchComponent$StitchImageView;->e(Lcom/commsource/puzzle/StitchComponent$StitchImageView;)[F
@@ -164,7 +156,6 @@
 
     aget v3, v3, v4
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
     iget-object v4, v4, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView;
@@ -175,10 +166,8 @@
 
     aget v2, v4, v2
 
-    .line 10
     invoke-virtual {v1, v5, v6, v3, v2}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 11
     :cond_0
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
@@ -188,7 +177,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 12
     iget-object v1, v1, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView;
 
     invoke-static {v1}, Lcom/commsource/puzzle/StitchComponent$StitchImageView;->f(Lcom/commsource/puzzle/StitchComponent$StitchImageView;)Landroid/graphics/Matrix;
@@ -211,7 +199,6 @@
 
     invoke-virtual {v1, v3, p1}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 13
     :cond_1
     iget-object p1, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
@@ -231,7 +218,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
     iget-object p1, p1, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView;
@@ -258,7 +244,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 15
     :cond_2
     iget-object p1, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
@@ -272,7 +257,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/puzzle/StitchComponent$b;->v()V
 
-    .line 16
     :cond_3
     iget-object p1, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
@@ -280,7 +264,6 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

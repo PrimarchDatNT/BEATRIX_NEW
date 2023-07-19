@@ -36,10 +36,8 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/internal/g1$b;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v0
@@ -52,7 +50,6 @@
 
     const-string v0, "\\s+"
 
-    .line 3
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -65,10 +62,8 @@
 .method public constructor <init>(Lio/grpc/internal/g1$c;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/g1$b;->a:Lio/grpc/internal/g1$c;
 
     return-void
@@ -79,7 +74,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -94,7 +88,6 @@
 
     const/4 v3, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -102,7 +95,6 @@
 
     if-ge v2, v4, :cond_4
 
-    .line 3
     invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
@@ -140,12 +132,10 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 4
     invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
 
-    .line 5
     :cond_3
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
@@ -154,7 +144,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -184,7 +173,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lio/grpc/internal/g1$b;->b:Ljava/util/logging/Logger;
 
     sget-object v1, Ljava/util/logging/Level;->FINER:Ljava/util/logging/Level;
@@ -205,10 +193,8 @@
 
     const-string v5, "About to query TXT records for {0}"
 
-    .line 2
     invoke-virtual {v0, v1, v5, v2}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lio/grpc/internal/g1$b;->a:Lio/grpc/internal/g1$c;
 
@@ -228,12 +214,10 @@
 
     const-string v5, "TXT"
 
-    .line 4
     invoke-interface {v2, v5, p1}, Lio/grpc/internal/g1$c;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->isLoggable(Ljava/util/logging/Level;)Z
 
     move-result v2
@@ -242,7 +226,6 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    .line 6
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v4
@@ -255,21 +238,17 @@
 
     const-string v3, "Found {0} TXT records"
 
-    .line 7
     invoke-virtual {v0, v1, v3, v2}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 8
     :cond_1
     new-instance v0, Ljava/util/ArrayList;
 
-    .line 9
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 10
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -287,7 +266,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 11
     invoke-static {v1}, Lio/grpc/internal/g1$b;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -296,7 +274,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_2
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
@@ -324,7 +301,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lio/grpc/internal/g1$b;->b:Ljava/util/logging/Logger;
 
     sget-object v1, Ljava/util/logging/Level;->FINER:Ljava/util/logging/Level;
@@ -345,10 +321,8 @@
 
     const-string v5, "About to query SRV records for {0}"
 
-    .line 2
     invoke-virtual {v0, v1, v5, v2}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lio/grpc/internal/g1$b;->a:Lio/grpc/internal/g1$c;
 
@@ -368,12 +342,10 @@
 
     const-string v5, "SRV"
 
-    .line 4
     invoke-interface {v2, v5, p1}, Lio/grpc/internal/g1$c;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->isLoggable(Ljava/util/logging/Level;)Z
 
     move-result v2
@@ -382,7 +354,6 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    .line 6
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v5
@@ -395,10 +366,8 @@
 
     const-string v5, "Found {0} SRV records"
 
-    .line 7
     invoke-virtual {v0, v1, v5, v2}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 8
     :cond_1
     new-instance v0, Ljava/util/ArrayList;
 
@@ -410,10 +379,8 @@
 
     const/4 v1, 0x0
 
-    .line 9
     sget-object v2, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
 
-    .line 10
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -432,7 +399,6 @@
 
     check-cast v5, Ljava/lang/String;
 
-    .line 11
     :try_start_0
     sget-object v6, Lio/grpc/internal/g1$b;->c:Ljava/util/regex/Pattern;
 
@@ -440,7 +406,6 @@
 
     move-result-object v6
 
-    .line 12
     array-length v7, v6
 
     const/4 v8, 0x4
@@ -461,7 +426,6 @@
 
     const/4 v7, 0x3
 
-    .line 13
     aget-object v8, v6, v7
 
     const-string v9, "."
@@ -472,7 +436,6 @@
 
     if-eqz v8, :cond_4
 
-    .line 14
     new-instance v8, Lio/grpc/internal/DnsNameResolver$g;
 
     aget-object v7, v6, v7
@@ -491,7 +454,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_4
     new-instance v8, Ljava/lang/RuntimeException;
 
@@ -520,7 +482,6 @@
     :catch_0
     move-exception v6
 
-    .line 16
     sget-object v7, Lio/grpc/internal/g1$b;->b:Ljava/util/logging/Logger;
 
     new-instance v8, Ljava/lang/StringBuilder;
@@ -541,7 +502,6 @@
 
     if-nez v1, :cond_2
 
-    .line 17
     sget-object v1, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
 
     move-object v2, v1
@@ -550,7 +510,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_5
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
@@ -562,11 +521,9 @@
 
     goto :goto_2
 
-    .line 19
     :cond_6
     throw v1
 
-    .line 20
     :cond_7
     :goto_2
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;

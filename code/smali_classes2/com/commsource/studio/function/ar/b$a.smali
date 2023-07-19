@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/ar/b$a;-><init>()V
 
     return-void
@@ -54,12 +52,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/round/RoundFrameLayout;
 
     invoke-direct {v1, p1}, Lcom/commsource/widget/round/RoundFrameLayout;-><init>(Landroid/content/Context;)V
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/widget/round/RoundFrameLayout;->getDelegate()Lcom/commsource/widget/round/a;
 
     move-result-object v2
@@ -72,7 +68,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/widget/round/a;->t(I)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/widget/round/RoundFrameLayout;->getDelegate()Lcom/commsource/widget/round/a;
 
     move-result-object v2
@@ -89,27 +84,22 @@
 
     sget v2, Lcom/res/provider/ResID;->rl_content:I
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setId(I)V
 
-    .line 5
     new-instance v2, Lcom/commsource/widget/IconFrontView;
 
     invoke-direct {v2, p1}, Lcom/commsource/widget/IconFrontView;-><init>(Landroid/content/Context;)V
 
     sget p1, Lcom/res/provider/ResID;->ifv_icon:I
 
-    .line 6
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setId(I)V
 
     const/16 p1, 0x11
 
-    .line 7
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setGravity(I)V
 
     sget v3, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
-    .line 8
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
     move-result v3
@@ -118,23 +108,18 @@
 
     const/high16 v3, 0x41f00000    # 30.0f
 
-    .line 9
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 10
     new-instance v3, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v4, -0x1
 
     invoke-direct {v3, v4, v4}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
-    .line 11
     iput p1, v3, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 12
     invoke-virtual {v1, v2, v3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

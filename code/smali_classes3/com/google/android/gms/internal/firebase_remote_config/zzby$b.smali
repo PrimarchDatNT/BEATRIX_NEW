@@ -59,10 +59,8 @@
 .method constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/zzby;Lcom/google/android/gms/internal/firebase_remote_config/v0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p2}, Lcom/google/android/gms/internal/firebase_remote_config/v0;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -71,7 +69,6 @@
 
     iput-object p2, p0, Lcom/google/android/gms/internal/firebase_remote_config/zzby$b;->b:Ljava/util/Iterator;
 
-    .line 3
     iget-object p1, p1, Lcom/google/android/gms/internal/firebase_remote_config/zzby;->a:Ljava/util/Map;
 
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -92,7 +89,6 @@
 .method public final hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/zzby$b;->b:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -126,12 +122,10 @@
 .method public final synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/zzby$b;->a:Z
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/zzby$b;->b:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -140,7 +134,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/zzby$b;->b:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -154,10 +147,8 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/zzby$b;->a:Z
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/zzby$b;->c:Ljava/util/Iterator;
 
@@ -173,17 +164,14 @@
 .method public final remove()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/zzby$b;->a:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/zzby$b;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/zzby$b;->b:Ljava/util/Iterator;
 

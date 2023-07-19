@@ -70,15 +70,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/flymedia/glx/utils/c$a;->c:Lcom/meitu/flymedia/glx/utils/c$b;
 
-    .line 3
     invoke-virtual {p0, p1, p2}, Lcom/meitu/flymedia/glx/utils/c$a;->b(Ljava/lang/Iterable;Lcom/meitu/flymedia/glx/utils/c;)V
 
     return-void
@@ -102,13 +99,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/flymedia/glx/utils/c$a;->a:Ljava/lang/Iterable;
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/flymedia/glx/utils/c$a;->b:Lcom/meitu/flymedia/glx/utils/c;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -128,12 +122,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/c$a;->c:Lcom/meitu/flymedia/glx/utils/c$b;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/flymedia/glx/utils/c$b;
 
     iget-object v2, p0, Lcom/meitu/flymedia/glx/utils/c$a;->a:Ljava/lang/Iterable;
@@ -150,7 +142,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/meitu/flymedia/glx/utils/c$a;->a:Ljava/lang/Iterable;
 
@@ -162,7 +153,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/flymedia/glx/utils/c$b;->b(Ljava/util/Iterator;Lcom/meitu/flymedia/glx/utils/c;)V
 
-    .line 4
     :goto_0
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/c$a;->c:Lcom/meitu/flymedia/glx/utils/c$b;
 

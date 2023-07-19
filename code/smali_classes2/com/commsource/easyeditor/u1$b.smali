@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/easyeditor/u1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -49,7 +48,6 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
     invoke-static {v2}, Lcom/commsource/easyeditor/u1;->u(Lcom/commsource/easyeditor/u1;)Lcom/commsource/beautyplus/f0/u7;
@@ -78,7 +76,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
@@ -102,7 +99,6 @@
 
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     :goto_0
     iget-object p1, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
@@ -116,7 +112,6 @@
 
     move-result-object p1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
     invoke-static {v1}, Lcom/commsource/easyeditor/u1;->u(Lcom/commsource/easyeditor/u1;)Lcom/commsource/beautyplus/f0/u7;
@@ -135,7 +130,6 @@
 
     iget-object v2, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
-    .line 5
     invoke-static {v2}, Lcom/commsource/easyeditor/u1;->u(Lcom/commsource/easyeditor/u1;)Lcom/commsource/beautyplus/f0/u7;
 
     move-result-object v2
@@ -156,7 +150,6 @@
 
     div-int/2addr v1, v2
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
     invoke-static {p1}, Lcom/commsource/easyeditor/u1;->u(Lcom/commsource/easyeditor/u1;)Lcom/commsource/beautyplus/f0/u7;
@@ -169,7 +162,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -188,7 +180,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
     invoke-static {p2}, Lcom/commsource/easyeditor/u1;->u(Lcom/commsource/easyeditor/u1;)Lcom/commsource/beautyplus/f0/u7;
@@ -203,12 +194,10 @@
 
     invoke-virtual {p2, v2}, Lcom/commsource/beautymain/widget/gesturewidget/EditRotateCropView;->setFreeRotate(F)V
 
-    .line 2
     div-int/lit8 p2, p1, 0xa
 
     invoke-direct {p0, p2}, Lcom/commsource/easyeditor/u1$b;->d(I)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
     invoke-static {p2}, Lcom/commsource/easyeditor/u1;->u(Lcom/commsource/easyeditor/u1;)Lcom/commsource/beautyplus/f0/u7;
@@ -221,7 +210,6 @@
 
     invoke-virtual {p2, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
@@ -235,12 +223,10 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/easyeditor/entity/a;->n(F)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
     invoke-static {p1}, Lcom/commsource/easyeditor/u1;->z(Lcom/commsource/easyeditor/u1;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -253,7 +239,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
     invoke-static {p2}, Lcom/commsource/easyeditor/u1;->u(Lcom/commsource/easyeditor/u1;)Lcom/commsource/beautyplus/f0/u7;
@@ -266,7 +251,6 @@
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
     const-string v0, "\u65cb\u8f6c"
@@ -277,10 +261,8 @@
 
     const/16 p2, 0xa
 
-    .line 3
     invoke-static {p2}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -295,10 +277,8 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {v0}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

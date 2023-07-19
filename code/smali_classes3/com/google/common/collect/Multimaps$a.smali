@@ -59,10 +59,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/Maps$n0;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -77,7 +75,6 @@
 .method static synthetic d(Lcom/google/common/collect/Multimaps$a;)Lcom/google/common/collect/l1;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/collect/Multimaps$a;->d:Lcom/google/common/collect/l1;
 
     return-object p0
@@ -98,7 +95,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Multimaps$a$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/Multimaps$a$a;-><init>(Lcom/google/common/collect/Multimaps$a;)V
@@ -109,7 +105,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$a;->d:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->clear()V
@@ -120,7 +115,6 @@
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$a;->d:Lcom/google/common/collect/l1;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/l1;->containsKey(Ljava/lang/Object;)Z
@@ -142,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Multimaps$a;->containsKey(Ljava/lang/Object;)Z
 
     move-result v0
@@ -176,7 +169,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Multimaps$a;->containsKey(Ljava/lang/Object;)Z
 
     move-result v0
@@ -201,7 +193,6 @@
 .method g(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$a;->d:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->keySet()Ljava/util/Set;
@@ -216,7 +207,6 @@
 .method public bridge synthetic get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Multimaps$a;->e(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1
@@ -227,7 +217,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$a;->d:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->isEmpty()Z
@@ -247,7 +236,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$a;->d:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->keySet()Ljava/util/Set;
@@ -260,7 +248,6 @@
 .method public bridge synthetic remove(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Multimaps$a;->f(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1
@@ -271,7 +258,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$a;->d:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->keySet()Ljava/util/Set;

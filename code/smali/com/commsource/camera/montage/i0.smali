@@ -31,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,14 +43,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/g/g/c;->c()Lcom/meitu/mtlab/g/g/c;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/g/g/c;->a()V
 
-    .line 2
     sget-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v1}, Lcom/commsource/material/c;->b()Lcom/commsource/material/d;
@@ -64,7 +61,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/material/d;->w(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -77,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/statistics/i;->e()Ljava/lang/String;
 
     move-result-object v1
@@ -106,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -131,7 +125,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -168,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, ""
@@ -187,7 +179,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     if-eqz p0, :cond_2
@@ -200,11 +191,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     aget-object p0, p0, p1
 
-    .line 3
     invoke-static {p0}, Lcom/commsource/beautyplus/g0/d;->h(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;)I
 
     move-result p0
@@ -215,13 +204,11 @@
 
     const/4 v1, 0x1
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

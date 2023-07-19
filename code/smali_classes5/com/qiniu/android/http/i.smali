@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/qiniu/android/http/i;
 
     invoke-direct {v0}, Lcom/qiniu/android/http/i;-><init>()V
@@ -30,17 +29,14 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/qiniu/android/http/i;->c()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/qiniu/android/http/i;->a:Ljava/lang/String;
 
-    .line 3
     invoke-static {v0}, Lcom/qiniu/android/http/i;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -53,14 +49,12 @@
 .method private static a()Ljava/lang/String;
     .locals 3
 
-    .line 1
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
@@ -71,14 +65,12 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     sget-object v1, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
@@ -89,7 +81,6 @@
 
     move-result-object v1
 
-    .line 5
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -122,7 +113,6 @@
 .method private static b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v0
@@ -133,7 +123,6 @@
 
     const-string v1, "unknown"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -150,7 +139,6 @@
 
     const-string v1, "android"
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -167,7 +155,6 @@
 
     const-string v1, "spreadtrum"
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -184,7 +171,6 @@
 
     const-string v1, "wondermedia"
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -201,7 +187,6 @@
 
     const-string v1, "mt65"
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -218,7 +203,6 @@
 
     const-string v1, "brcm"
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -233,7 +217,6 @@
 
     if-nez v1, :cond_1
 
-    .line 8
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v1
@@ -263,12 +246,10 @@
 .method private static c()Ljava/lang/String;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/util/Random;
 
     invoke-direct {v0}, Ljava/util/Random;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -311,7 +292,6 @@
 
     aput-object v2, v0, v1
 
-    .line 1
     invoke-static {}, Lcom/qiniu/android/http/i;->g()Ljava/lang/String;
 
     move-result-object v1
@@ -334,7 +314,6 @@
 
     const-string p0, "QiniuAndroid/%s (%s; %s; %s"
 
-    .line 2
     invoke-static {p0, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -345,7 +324,6 @@
 .method public static f()Lcom/qiniu/android/http/i;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/qiniu/android/http/i;->c:Lcom/qiniu/android/http/i;
 
     return-object v0
@@ -354,7 +332,6 @@
 .method private static g()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
 
     if-nez v0, :cond_0
@@ -363,7 +340,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
@@ -381,7 +357,6 @@
 .method public d(Ljava/lang/String;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -400,7 +375,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -417,7 +391,6 @@
 
     move-result-object p1
 
-    .line 3
     new-instance v0, Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;

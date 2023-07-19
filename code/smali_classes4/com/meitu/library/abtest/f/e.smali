@@ -35,17 +35,14 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/library/abtest/f/e;->d:J
 
     const/4 v0, 0x1
 
-    .line 3
     iput v0, p0, Lcom/meitu/library/abtest/f/e;->c:I
 
     return-void
@@ -54,20 +51,16 @@
 .method public constructor <init>(I)V
     .locals 2
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 5
     iput-wide v0, p0, Lcom/meitu/library/abtest/f/e;->d:J
 
-    .line 6
     iput p1, p0, Lcom/meitu/library/abtest/f/e;->a:I
 
     const/4 p1, 0x1
 
-    .line 7
     iput p1, p0, Lcom/meitu/library/abtest/f/e;->c:I
 
     return-void
@@ -76,21 +69,16 @@
 .method protected constructor <init>(III)V
     .locals 2
 
-    .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 9
     iput-wide v0, p0, Lcom/meitu/library/abtest/f/e;->d:J
 
-    .line 10
     iput p1, p0, Lcom/meitu/library/abtest/f/e;->a:I
 
-    .line 11
     iput p2, p0, Lcom/meitu/library/abtest/f/e;->b:I
 
-    .line 12
     iput p3, p0, Lcom/meitu/library/abtest/f/e;->c:I
 
     return-void
@@ -103,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Lcom/meitu/library/abtest/f/e;
 
@@ -113,7 +100,6 @@
 
     const/4 v3, 0x1
 
-    .line 2
     invoke-virtual {p0, v2, v3}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result v2
@@ -126,7 +112,6 @@
 
     const-string p1, "code"
 
-    .line 3
     invoke-virtual {p0, p1}, Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
 
     move-result p1
@@ -135,7 +120,6 @@
 
     const-string p1, "count"
 
-    .line 4
     invoke-virtual {p0, p1, v2}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result p1
@@ -146,7 +130,6 @@
 
     const-wide/16 v2, 0x0
 
-    .line 5
     invoke-virtual {p0, p1, v2, v3}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide p0
@@ -158,7 +141,6 @@
     :cond_0
     const-string p1, "ab_code"
 
-    .line 6
     invoke-virtual {p0, p1}, Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
 
     move-result p1
@@ -167,7 +149,6 @@
 
     const-string p1, "hit_count"
 
-    .line 7
     invoke-virtual {p0, p1, v2}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result p0
@@ -181,12 +162,10 @@
     :catch_0
     move-exception p0
 
-    .line 8
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 v1, 0x0
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -202,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Lorg/json/JSONStringer;->object()Lorg/json/JSONStringer;
 
@@ -210,7 +188,6 @@
 
     const-string v1, "code"
 
-    .line 2
     invoke-virtual {p1, v1}, Lorg/json/JSONStringer;->key(Ljava/lang/String;)Lorg/json/JSONStringer;
 
     move-result-object p1
@@ -225,7 +202,6 @@
 
     const-string v1, "count"
 
-    .line 3
     invoke-virtual {p1, v1}, Lorg/json/JSONStringer;->key(Ljava/lang/String;)Lorg/json/JSONStringer;
 
     move-result-object p1
@@ -240,7 +216,6 @@
 
     const-string v1, "status"
 
-    .line 4
     invoke-virtual {p1, v1}, Lorg/json/JSONStringer;->key(Ljava/lang/String;)Lorg/json/JSONStringer;
 
     move-result-object p1
@@ -255,7 +230,6 @@
 
     const-string v1, "lr"
 
-    .line 5
     invoke-virtual {p1, v1}, Lorg/json/JSONStringer;->key(Ljava/lang/String;)Lorg/json/JSONStringer;
 
     move-result-object p1
@@ -266,7 +240,6 @@
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Lorg/json/JSONStringer;->endObject()Lorg/json/JSONStringer;
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
@@ -276,10 +249,8 @@
     :catch_0
     move-exception p1
 
-    .line 7
     invoke-virtual {p1}, Lorg/json/JSONException;->printStackTrace()V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -293,7 +264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/abtest/f/e;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,12 +278,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     iget-wide v3, p0, Lcom/meitu/library/abtest/f/e;->d:J
 
     sub-long v3, v1, v3
@@ -330,10 +298,8 @@
 
     if-lez v8, :cond_0
 
-    .line 3
     iput-wide v1, p0, Lcom/meitu/library/abtest/f/e;->d:J
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
@@ -341,7 +307,6 @@
     :cond_0
     const-wide/32 v3, 0x5265c00
 
-    .line 5
     rem-long v8, v1, v3
 
     div-long/2addr v8, v6
@@ -356,10 +321,8 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     iput-wide v1, p0, Lcom/meitu/library/abtest/f/e;->d:J
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
@@ -367,7 +330,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -380,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/abtest/f/e;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -395,7 +356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/abtest/f/e;->d:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -410,7 +370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/abtest/f/e;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -425,14 +384,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/abtest/f/e;->b:I
 
     add-int/lit8 v1, v1, 0x1
 
     iput v1, p0, Lcom/meitu/library/abtest/f/e;->b:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -445,7 +402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/abtest/f/e;->c:I
 
     const/4 v2, 0x5
@@ -474,15 +430,12 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput v1, p0, Lcom/meitu/library/abtest/f/e;->b:I
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lcom/meitu/library/abtest/f/e;->d:J
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -495,10 +448,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/abtest/f/e;->c:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

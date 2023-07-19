@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/a0$g;Lcom/google/common/collect/ImmutableList;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/a0$c;->a:Lcom/google/common/util/concurrent/a0$g;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/a0$c;->b:Lcom/google/common/collect/ImmutableList;
@@ -46,7 +45,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/a0$c;->a:Lcom/google/common/util/concurrent/a0$g;
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/a0$c;->b:Lcom/google/common/collect/ImmutableList;

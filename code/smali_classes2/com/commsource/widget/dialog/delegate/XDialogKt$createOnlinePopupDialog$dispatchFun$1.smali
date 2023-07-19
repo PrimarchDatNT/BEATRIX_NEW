@@ -85,7 +85,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -106,7 +105,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -119,7 +117,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$dispatchFun$1;->$this_createOnlinePopupDialog:Lcom/commsource/home/entity/DialogDataEntity;
 
     invoke-virtual {v2}, Lcom/commsource/home/entity/DialogDataEntity;->getRid()Ljava/lang/String;
@@ -128,7 +125,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->p(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     sget-object v1, Lcom/commsource/beautyplus/router/g;->a:Lcom/commsource/beautyplus/router/g;
 
@@ -138,7 +134,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v2, "source_click_position"
@@ -147,10 +142,8 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$dispatchFun$1;->$ctx:Landroid/app/Activity;
 
-    .line 7
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -171,17 +164,14 @@
 
     move-result-object v2
 
-    .line 8
     new-instance v3, Lcom/commsource/beautyplus/router/RouterEntity;
 
     invoke-direct {v3, p1}, Lcom/commsource/beautyplus/router/RouterEntity;-><init>(Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v1, v2, v3}, Lcom/commsource/billing/activity/c;->b(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/beautyplus/router/RouterEntity;)V
 
     goto :goto_0
 
-    .line 10
     :cond_1
     sget-object v1, Lcom/commsource/beautyplus/router/c;->b:Lcom/commsource/beautyplus/router/c;
 
@@ -191,7 +181,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$dispatchFun$1;->$ctx:Landroid/app/Activity;
 
@@ -199,7 +188,6 @@
 
     invoke-direct {v2}, Landroid/content/Intent;-><init>()V
 
-    .line 12
     iget-object v3, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$dispatchFun$1;->$ctx:Landroid/app/Activity;
 
     const-class v4, Lcom/commsource/beautyplus/web/WebActivity;
@@ -208,13 +196,10 @@
 
     const-string v3, "url"
 
-    .line 13
     invoke-virtual {v2, v3, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 14
     invoke-virtual {v1, v2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 15
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

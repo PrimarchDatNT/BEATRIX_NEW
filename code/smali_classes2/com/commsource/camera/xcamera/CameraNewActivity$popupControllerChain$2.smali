@@ -55,12 +55,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/home/homepagedialog/b;
 
     invoke-direct {v1}, Lcom/commsource/home/homepagedialog/b;-><init>()V
 
-    .line 3
     new-instance v2, Lcom/commsource/home/homepagedialog/g;
 
     iget-object v3, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$popupControllerChain$2;->this$0:Lcom/commsource/camera/xcamera/CameraNewActivity;
@@ -81,7 +79,6 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/commsource/home/homepagedialog/i;
 
     iget-object v3, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$popupControllerChain$2;->this$0:Lcom/commsource/camera/xcamera/CameraNewActivity;
@@ -104,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$popupControllerChain$2;->invoke()Lcom/commsource/home/homepagedialog/b;
 
     move-result-object v1

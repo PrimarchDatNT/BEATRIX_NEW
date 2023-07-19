@@ -41,10 +41,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zb1;->a:Ljava/util/List;
 
     return-void
@@ -55,7 +53,6 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 3
 
-    .line 1
     check-cast p1, Lorg/json/JSONObject;
 
     :try_start_0
@@ -63,7 +60,6 @@
 
     const-string v1, ","
 
-    .line 2
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zb1;->a:Ljava/util/List;
 
     invoke-static {v1, v2}, Landroid/text/TextUtils;->join(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;
@@ -79,7 +75,6 @@
     :catch_0
     const-string p1, "Failed putting experiment ids."
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
     return-void

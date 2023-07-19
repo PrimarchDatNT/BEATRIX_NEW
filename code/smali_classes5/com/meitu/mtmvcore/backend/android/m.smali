@@ -118,14 +118,12 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/mtmvcore/backend/android/m;->l0:Z
 
     const/16 v1, 0x10
 
     new-array v1, v1, [F
 
-    .line 2
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/meitu/mtmvcore/backend/android/m;->o0:[F
@@ -172,7 +170,6 @@
 
     move-object v5, p4
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/m;-><init>(Lcom/meitu/mtmvcore/backend/android/g;Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;Lcom/meitu/mtmvcore/backend/android/surfaceview/c;ZLcom/meitu/mtmvcore/backend/android/r/d;)V
 
     return-void
@@ -181,26 +178,20 @@
 .method public constructor <init>(Lcom/meitu/mtmvcore/backend/android/g;Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;Lcom/meitu/mtmvcore/backend/android/surfaceview/c;ZLcom/meitu/mtmvcore/backend/android/r/d;)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p4, 0x0
 
-    .line 3
     iput-boolean p4, p0, Lcom/meitu/mtmvcore/backend/android/m;->f:Z
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/meitu/mtmvcore/backend/android/m;->g:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 5
     iput-object v0, p0, Lcom/meitu/mtmvcore/backend/android/m;->p:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 6
     iput-object v0, p0, Lcom/meitu/mtmvcore/backend/android/m;->J:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v0
@@ -209,10 +200,8 @@
 
     const/4 v0, 0x0
 
-    .line 8
     iput v0, p0, Lcom/meitu/mtmvcore/backend/android/m;->L:F
 
-    .line 9
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v0
@@ -221,63 +210,46 @@
 
     const-wide/16 v0, -0x1
 
-    .line 10
     iput-wide v0, p0, Lcom/meitu/mtmvcore/backend/android/m;->N:J
 
-    .line 11
     iput p4, p0, Lcom/meitu/mtmvcore/backend/android/m;->O:I
 
-    .line 12
     iput-boolean p4, p0, Lcom/meitu/mtmvcore/backend/android/m;->Q:Z
 
-    .line 13
     iput-boolean p4, p0, Lcom/meitu/mtmvcore/backend/android/m;->R:Z
 
-    .line 14
     iput-boolean p4, p0, Lcom/meitu/mtmvcore/backend/android/m;->S:Z
 
-    .line 15
     iput-boolean p4, p0, Lcom/meitu/mtmvcore/backend/android/m;->T:Z
 
-    .line 16
     iput-boolean p4, p0, Lcom/meitu/mtmvcore/backend/android/m;->U:Z
 
     const/4 v0, 0x1
 
-    .line 17
     iput-boolean v0, p0, Lcom/meitu/mtmvcore/backend/android/m;->W:Z
 
-    .line 18
     iput-boolean p4, p0, Lcom/meitu/mtmvcore/backend/android/m;->X:Z
 
-    .line 19
     iput-boolean p4, p0, Lcom/meitu/mtmvcore/backend/android/m;->Y:Z
 
-    .line 20
     iput-boolean p4, p0, Lcom/meitu/mtmvcore/backend/android/m;->Z:Z
 
     new-array p4, v0, [I
 
-    .line 21
     iput-object p4, p0, Lcom/meitu/mtmvcore/backend/android/m;->b0:[I
 
-    .line 22
     new-instance p4, Ljava/lang/Object;
 
     invoke-direct {p4}, Ljava/lang/Object;-><init>()V
 
     iput-object p4, p0, Lcom/meitu/mtmvcore/backend/android/m;->c0:Ljava/lang/Object;
 
-    .line 23
     iput-object p2, p0, Lcom/meitu/mtmvcore/backend/android/m;->V:Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;
 
-    .line 24
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
-    .line 25
     iput-object p5, p0, Lcom/meitu/mtmvcore/backend/android/m;->a0:Lcom/meitu/mtmvcore/backend/android/r/d;
 
-    .line 26
     invoke-virtual {p0, p1, p3}, Lcom/meitu/mtmvcore/backend/android/m;->f(Lcom/meitu/mtmvcore/backend/android/g;Lcom/meitu/mtmvcore/backend/android/surfaceview/c;)Landroid/view/View;
 
     move-result-object p2
@@ -286,14 +258,11 @@
 
     if-eqz p2, :cond_0
 
-    .line 27
     invoke-virtual {p2, p0}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 28
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/backend/android/m;->B()V
 
-    .line 29
     invoke-interface {p1}, Lcom/meitu/mtmvcore/backend/android/g;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -310,7 +279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -337,7 +305,6 @@
 
     invoke-interface {v1, v3, v2}, Lf/k/g/b/a;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -362,7 +329,6 @@
 
     invoke-interface {v1, v3, v2}, Lf/k/g/b/a;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -387,7 +353,6 @@
 
     invoke-interface {v1, v3, v2}, Lf/k/g/b/a;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -412,7 +377,6 @@
 
     invoke-interface {v1, v3, p1}, Lf/k/g/b/a;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -425,7 +389,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/mtmvcore/backend/android/m;
@@ -478,14 +441,12 @@
 
     const v1, 0x8b31
 
-    .line 1
     invoke-direct {p0, v1, p1}, Lcom/meitu/mtmvcore/backend/android/m;->u(ILjava/lang/String;)I
 
     move-result p1
 
     iput p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->h0:I
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -506,14 +467,12 @@
 
     invoke-static {v1, p1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->h0:I
 
     const/4 v2, 0x0
 
     if-nez p1, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -521,7 +480,6 @@
     :cond_0
     const p1, 0x8b30
 
-    .line 5
     invoke-direct {p0, p1, p2}, Lcom/meitu/mtmvcore/backend/android/m;->u(ILjava/lang/String;)I
 
     move-result p1
@@ -530,12 +488,10 @@
 
     if-nez p1, :cond_1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -555,12 +511,10 @@
 
     invoke-static {v1, p1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {}, Landroid/opengl/GLES20;->glCreateProgram()I
 
     move-result p1
 
-    .line 9
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -579,17 +533,14 @@
 
     if-eqz p1, :cond_2
 
-    .line 10
     iget p2, p0, Lcom/meitu/mtmvcore/backend/android/m;->h0:I
 
     invoke-static {p1, p2}, Landroid/opengl/GLES20;->glAttachShader(II)V
 
-    .line 11
     iget p2, p0, Lcom/meitu/mtmvcore/backend/android/m;->i0:I
 
     invoke-static {p1, p2}, Landroid/opengl/GLES20;->glAttachShader(II)V
 
-    .line 12
     invoke-static {p1}, Landroid/opengl/GLES20;->glLinkProgram(I)V
 
     const/4 p2, 0x1
@@ -598,10 +549,8 @@
 
     const v3, 0x8b82
 
-    .line 13
     invoke-static {p1, v3, v1, v2}, Landroid/opengl/GLES20;->glGetProgramiv(II[II)V
 
-    .line 14
     aget v1, v1, v2
 
     if-eq v1, p2, :cond_2
@@ -610,17 +559,14 @@
 
     const-string v1, "Could not link program: "
 
-    .line 15
     invoke-static {p2, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     invoke-static {p1}, Landroid/opengl/GLES20;->glGetProgramInfoLog(I)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-static {p2, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 17
     invoke-static {p1}, Landroid/opengl/GLES20;->glDeleteProgram(I)V
 
     goto :goto_0
@@ -628,7 +574,6 @@
     :cond_2
     move v2, p1
 
-    .line 18
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -646,7 +591,6 @@
 
     const-string v2, "precision mediump float;\nuniform sampler2D u_TextureUnit;\nvarying vec2 v_TextureCoordinates;\nvoid main()\n{\n    gl_FragColor = texture2D(u_TextureUnit, v_TextureCoordinates);\n}"
 
-    .line 1
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/backend/android/m;->g(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v1
@@ -655,14 +599,12 @@
 
     const-string v2, "a_Position"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/opengl/GLES20;->glGetAttribLocation(ILjava/lang/String;)I
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->e0:I
 
-    .line 3
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d0:I
 
     const-string v2, "u_TextureUnit"
@@ -673,7 +615,6 @@
 
     iput v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->f0:I
 
-    .line 4
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d0:I
 
     const-string v2, "a_TextureCoordinates"
@@ -684,14 +625,12 @@
 
     iput v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->g0:I
 
-    .line 5
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/m;->p()Ljava/nio/FloatBuffer;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->j0:Ljava/nio/FloatBuffer;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -704,25 +643,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/m;->t()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d0:I
 
     invoke-static {v1}, Landroid/opengl/GLES20;->glUseProgram(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->a0:Lcom/meitu/mtmvcore/backend/android/r/d;
 
     const/4 v2, 0x0
@@ -738,11 +673,9 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 5
     :goto_0
     invoke-virtual {p0, v1}, Lcom/meitu/mtmvcore/backend/android/m;->E(I)V
 
-    .line 6
     iget-object v4, p0, Lcom/meitu/mtmvcore/backend/android/m;->j0:Ljava/nio/FloatBuffer;
 
     const/4 v5, 0x0
@@ -757,7 +690,6 @@
 
     invoke-virtual/range {v3 .. v8}, Lcom/meitu/mtmvcore/backend/android/m;->F(Ljava/nio/FloatBuffer;IIII)V
 
-    .line 7
     iget-object v10, p0, Lcom/meitu/mtmvcore/backend/android/m;->j0:Ljava/nio/FloatBuffer;
 
     const/4 v11, 0x2
@@ -776,10 +708,8 @@
 
     const/4 v3, 0x4
 
-    .line 8
     invoke-static {v1, v2, v3}, Landroid/opengl/GLES20;->glDrawArrays(III)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -792,7 +722,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->b0:[I
 
     invoke-interface {p1, p2, p3, p4, v1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetConfigAttrib(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;I[I)Z
@@ -801,7 +730,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->b0:[I
 
     const/4 p2, 0x0
@@ -812,7 +740,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -826,19 +753,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/m;->o0:[F
 
     array-length v2, v1
 
     mul-int/lit8 v2, v2, 0x4
 
-    .line 2
     invoke-static {v2}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object v2
 
-    .line 3
     invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     move-result-object v3
@@ -847,17 +771,14 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2}, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v2, v1}, Ljava/nio/FloatBuffer;->put([F)Ljava/nio/FloatBuffer;
 
     move-result-object v1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -870,7 +791,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -887,43 +807,36 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d0:I
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->a0:Lcom/meitu/mtmvcore/backend/android/r/d;
 
     if-eqz v1, :cond_3
 
-    .line 4
     invoke-interface {v1}, Lcom/meitu/mtmvcore/backend/android/r/d;->getTextureId()I
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->j0:Ljava/nio/FloatBuffer;
 
     if-nez v1, :cond_2
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -931,12 +844,10 @@
     :cond_2
     const/4 v1, 0x1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 9
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -950,7 +861,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/opengl/GLES20;->glCreateShader(I)I
 
     move-result v1
@@ -959,10 +869,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v1, p2}, Landroid/opengl/GLES20;->glShaderSource(ILjava/lang/String;)V
 
-    .line 3
     invoke-static {v1}, Landroid/opengl/GLES20;->glCompileShader(I)V
 
     const/4 p2, 0x1
@@ -971,15 +879,12 @@
 
     const v3, 0x8b81
 
-    .line 4
     invoke-static {v1, v3, p2, v2}, Landroid/opengl/GLES20;->glGetShaderiv(II[II)V
 
-    .line 5
     aget p2, p2, v2
 
     if-nez p2, :cond_0
 
-    .line 6
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1002,19 +907,16 @@
 
     invoke-static {p2, p1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v1}, Landroid/opengl/GLES20;->glGetShaderInfoLog(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-static {p2, p1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v1}, Landroid/opengl/GLES20;->glDeleteShader(I)V
 
     const/4 v1, 0x0
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1030,7 +932,6 @@
 
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljavax/microedition/khronos/egl/EGLContext;->getEGL()Ljavax/microedition/khronos/egl/EGL;
 
     move-result-object v0
@@ -1039,7 +940,6 @@
 
     check-cast v8, Ljavax/microedition/khronos/egl/EGL10;
 
-    .line 2
     sget-object v0, Ljavax/microedition/khronos/egl/EGL10;->EGL_DEFAULT_DISPLAY:Ljava/lang/Object;
 
     invoke-interface {v8, v0}, Ljavax/microedition/khronos/egl/EGL10;->eglGetDisplay(Ljava/lang/Object;)Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -1058,49 +958,42 @@
 
     move-object/from16 v3, p1
 
-    .line 3
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/m;->l(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v10
 
     const/16 v4, 0x3023
 
-    .line 4
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/m;->l(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v11
 
     const/16 v4, 0x3022
 
-    .line 5
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/m;->l(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v12
 
     const/16 v4, 0x3021
 
-    .line 6
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/m;->l(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v13
 
     const/16 v4, 0x3025
 
-    .line 7
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/m;->l(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v14
 
     const/16 v4, 0x3026
 
-    .line 8
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/m;->l(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v15
 
     const/16 v4, 0x3031
 
-    .line 9
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/m;->l(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v5
@@ -1113,12 +1006,10 @@
 
     move/from16 v5, v16
 
-    .line 10
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/m;->l(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v0
 
-    .line 11
     invoke-static {v7, v0}, Ljava/lang/Math;->max(II)I
 
     move-result v7
@@ -1127,7 +1018,6 @@
 
     move-object/from16 v0, p0
 
-    .line 12
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/m;->l(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v0
@@ -1141,7 +1031,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 13
     :goto_0
     iget-object v1, v6, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
@@ -1181,7 +1070,6 @@
 
     invoke-interface {v1, v4, v2}, Lf/k/g/b/a;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     iget-object v1, v6, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1202,7 +1090,6 @@
 
     invoke-interface {v1, v4, v2}, Lf/k/g/b/a;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     iget-object v1, v6, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1223,7 +1110,6 @@
 
     invoke-interface {v1, v4, v2}, Lf/k/g/b/a;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     iget-object v1, v6, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1244,7 +1130,6 @@
 
     invoke-interface {v1, v4, v2}, Lf/k/g/b/a;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 17
     iget-object v1, v6, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1267,7 +1152,6 @@
 
     const v0, 0xe00c
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1284,56 +1168,43 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v1, v2}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 2
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->h0:I
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v1}, Landroid/opengl/GLES20;->glDeleteShader(I)V
 
-    .line 4
     iput v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->h0:I
 
-    .line 5
     :cond_0
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->i0:I
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-static {v1}, Landroid/opengl/GLES20;->glDeleteShader(I)V
 
-    .line 7
     iput v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->i0:I
 
-    .line 8
     :cond_1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d0:I
 
     if-eqz v1, :cond_2
 
-    .line 9
     invoke-static {v1}, Landroid/opengl/GLES20;->glDeleteProgram(I)V
 
-    .line 10
     iput v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->d0:I
 
-    .line 11
     :cond_2
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->j0:Ljava/nio/FloatBuffer;
 
     if-eqz v1, :cond_3
 
-    .line 12
     invoke-virtual {v1}, Ljava/nio/FloatBuffer;->clear()Ljava/nio/Buffer;
 
     const/4 v1, 0x0
 
-    .line 13
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->j0:Ljava/nio/FloatBuffer;
 
     :cond_3
@@ -1341,10 +1212,8 @@
 
     const-string v2, "onDestroyShader complete"
 
-    .line 14
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1359,12 +1228,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->c0:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-boolean v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->R:Z
 
@@ -1381,16 +1248,13 @@
     :cond_0
     const/4 v2, 0x1
 
-    .line 3
     :try_start_1
     iput-boolean v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->S:Z
 
-    .line 4
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1398,7 +1262,6 @@
     :catchall_0
     move-exception v2
 
-    .line 6
     :try_start_2
     monitor-exit v1
     :try_end_2
@@ -1416,7 +1279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->a:Landroid/view/View;
 
     const-string v2, "AndroidGraphics"
@@ -1425,15 +1287,12 @@
 
     const-string v1, "cannot set mPreserveEGLContextOnPause attribute to view, view is null"
 
-    .line 2
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -1441,7 +1300,6 @@
 
     if-lt v3, v4, :cond_2
 
-    .line 5
     instance-of v3, v1, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20;
 
     if-nez v3, :cond_1
@@ -1450,7 +1308,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 6
     :cond_1
     :try_start_0
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -1530,7 +1387,6 @@
     :catch_0
     move-exception v1
 
-    .line 7
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1553,7 +1409,6 @@
 
     invoke-interface {v3, v2, v1}, Lf/k/g/b/a;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1568,26 +1423,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->c0:Ljava/lang/Object;
 
     monitor-enter v1
 
     const/4 v2, 0x1
 
-    .line 2
     :try_start_0
     iput-boolean v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->R:Z
 
-    .line 3
     iput-boolean v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->T:Z
 
-    .line 4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1595,7 +1445,6 @@
     :catchall_0
     move-exception v2
 
-    .line 6
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1613,10 +1462,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->Z:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1631,22 +1478,18 @@
 
     const v1, 0x84c0
 
-    .line 1
     invoke-static {v1}, Landroid/opengl/GLES20;->glActiveTexture(I)V
 
     const/16 v1, 0xde1
 
-    .line 2
     invoke-static {v1, p1}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 3
     iget p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->f0:I
 
     const/4 v1, 0x0
 
     invoke-static {p1, v1}, Landroid/opengl/GLES20;->glUniform1i(II)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1659,12 +1502,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtmvcore/backend/android/m;->j0:Ljava/nio/FloatBuffer;
 
     invoke-virtual {v0, p2}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 2
     iget-object v6, p0, Lcom/meitu/mtmvcore/backend/android/m;->j0:Ljava/nio/FloatBuffer;
 
     const/16 v3, 0x1406
@@ -1679,17 +1520,14 @@
 
     invoke-static/range {v1 .. v6}, Landroid/opengl/GLES20;->glVertexAttribPointer(IIIZILjava/nio/Buffer;)V
 
-    .line 3
     invoke-static {p3}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
 
-    .line 4
     iget-object p2, p0, Lcom/meitu/mtmvcore/backend/android/m;->j0:Ljava/nio/FloatBuffer;
 
     const/4 p3, 0x0
 
     invoke-virtual {p2, p3}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1702,12 +1540,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->a:Landroid/view/View;
 
     if-eqz v1, :cond_2
 
-    .line 2
     sget-boolean v1, Lcom/meitu/mtmvcore/backend/android/m;->l0:Z
 
     if-nez v1, :cond_1
@@ -1728,7 +1564,6 @@
     :goto_1
     iput-boolean p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->W:Z
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->a:Landroid/view/View;
 
     instance-of v2, v1, Landroid/opengl/GLSurfaceView;
@@ -1739,7 +1574,6 @@
 
     invoke-virtual {v1, p1}, Landroid/opengl/GLSurfaceView;->setRenderMode(I)V
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1753,22 +1587,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->a:Landroid/view/View;
 
     if-eqz v1, :cond_0
 
-    .line 2
     instance-of v2, v1, Landroid/opengl/GLSurfaceView;
 
     if-eqz v2, :cond_0
 
-    .line 3
     check-cast v1, Landroid/opengl/GLSurfaceView;
 
     invoke-virtual {v1}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1782,7 +1612,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->W:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1797,14 +1626,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljavax/microedition/khronos/egl/EGLContext;->getEGL()Ljavax/microedition/khronos/egl/EGL;
 
     move-result-object v1
 
     check-cast v1, Ljavax/microedition/khronos/egl/EGL10;
 
-    .line 2
     sget-object v2, Ljavax/microedition/khronos/egl/EGL10;->EGL_DEFAULT_DISPLAY:Ljava/lang/Object;
 
     invoke-interface {v1, v2}, Ljavax/microedition/khronos/egl/EGL10;->eglGetDisplay(Ljava/lang/Object;)Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -1815,14 +1642,12 @@
 
     new-array v2, v2, [I
 
-    .line 3
     invoke-interface {v1, v8, v2}, Ljavax/microedition/khronos/egl/EGL10;->eglInitialize(Ljavax/microedition/khronos/egl/EGLDisplay;[I)Z
 
     const/16 v2, 0x9
 
     new-array v4, v2, [I
 
-    .line 4
     fill-array-data v4, :array_0
 
     const/16 v2, 0xa
@@ -1841,15 +1666,12 @@
 
     move-object v7, v10
 
-    .line 5
     invoke-interface/range {v2 .. v7}, Ljavax/microedition/khronos/egl/EGL10;->eglChooseConfig(Ljavax/microedition/khronos/egl/EGLDisplay;[I[Ljavax/microedition/khronos/egl/EGLConfig;I[I)Z
 
-    .line 6
     invoke-interface {v1, v8}, Ljavax/microedition/khronos/egl/EGL10;->eglTerminate(Ljavax/microedition/khronos/egl/EGLDisplay;)Z
 
     const/4 v1, 0x0
 
-    .line 7
     aget v2, v10, v1
 
     if-lez v2, :cond_0
@@ -1885,19 +1707,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/backend/android/m;->e()Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/backend/android/m;->n()Landroid/opengl/GLSurfaceView$EGLConfigChooser;
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->V:Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;
 
     iget-object v2, v2, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;->l:Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration$GLViewType;
@@ -1906,7 +1725,6 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 4
     new-instance v2, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20;
 
     invoke-interface {p1}, Lcom/meitu/mtmvcore/backend/android/g;->getContext()Landroid/content/Context;
@@ -1919,12 +1737,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v2, v1}, Landroid/opengl/GLSurfaceView;->setEGLConfigChooser(Landroid/opengl/GLSurfaceView$EGLConfigChooser;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->V:Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;
 
@@ -1944,19 +1760,16 @@
 
     invoke-virtual/range {v4 .. v10}, Landroid/opengl/GLSurfaceView;->setEGLConfigChooser(IIIIII)V
 
-    .line 7
     :goto_0
     invoke-virtual {v2, p0}, Landroid/opengl/GLSurfaceView;->setRenderer(Landroid/opengl/GLSurfaceView$Renderer;)V
 
     goto :goto_2
 
-    .line 8
     :cond_1
     sget-object v3, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration$GLViewType;->TextureView:Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration$GLViewType;
 
     if-ne v2, v3, :cond_3
 
-    .line 9
     new-instance v2, Lcom/meitu/mtmvcore/backend/android/surfaceview/TextureView20;
 
     invoke-interface {p1}, Lcom/meitu/mtmvcore/backend/android/g;->getContext()Landroid/content/Context;
@@ -1969,17 +1782,14 @@
 
     const/4 p1, 0x2
 
-    .line 10
     invoke-virtual {v2, p1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->setEGLContextClientVersion(I)V
 
     if-eqz v1, :cond_2
 
-    .line 11
     invoke-virtual {v2, v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->setEGLConfigChooser(Landroid/opengl/GLSurfaceView$EGLConfigChooser;)V
 
     goto :goto_1
 
-    .line 12
     :cond_2
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->V:Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;
 
@@ -1999,7 +1809,6 @@
 
     invoke-virtual/range {v4 .. v10}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->p(IIIIII)V
 
-    .line 13
     :goto_1
     invoke-virtual {v2, p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->setRenderer(Landroid/opengl/GLSurfaceView$Renderer;)V
 
@@ -2008,13 +1817,11 @@
     :cond_3
     const/4 v2, 0x0
 
-    .line 14
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 15
     :cond_4
     new-instance p1, Lcom/meitu/flymedia/glx/utils/GlxRuntimeException;
 
@@ -2034,7 +1841,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2049,7 +1855,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2064,46 +1869,38 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->c0:Ljava/lang/Object;
 
     monitor-enter v1
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     iput-boolean v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->R:Z
 
     const/4 v2, 0x1
 
-    .line 3
     iput-boolean v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->U:Z
 
-    .line 4
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->a:Landroid/view/View;
 
     if-eqz v3, :cond_0
 
     const/4 v3, 0x0
 
-    .line 5
     iput-object v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->a:Landroid/view/View;
 
     const-string v3, "AndroidGraphics"
 
     const-string v4, "set glsurfaceview to null"
 
-    .line 6
     invoke-static {v3, v4}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {v1}, Lf/k/g/b/a;->i()Lf/k/g/b/c;
@@ -2116,10 +1913,8 @@
 
     const-string v2, "AndroidGraphics destroyed"
 
-    .line 9
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2127,7 +1922,6 @@
     :catchall_0
     move-exception v2
 
-    .line 11
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -2145,31 +1939,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->c0:Ljava/lang/Object;
 
     monitor-enter v1
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     iput-boolean v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->R:Z
 
     const/4 v2, 0x1
 
-    .line 3
     iput-boolean v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->U:Z
 
-    .line 4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/m;->x()V
 
-    .line 6
     iget-boolean v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->f:Z
 
     if-eqz v1, :cond_0
@@ -2178,14 +1966,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 7
     invoke-static {}, Ljavax/microedition/khronos/egl/EGLContext;->getEGL()Ljavax/microedition/khronos/egl/EGL;
 
     move-result-object v1
 
     check-cast v1, Ljavax/microedition/khronos/egl/EGL10;
 
-    .line 8
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->J:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->p:Ljavax/microedition/khronos/egl/EGLContext;
@@ -2194,13 +1980,10 @@
 
     const/4 v1, 0x0
 
-    .line 9
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->p:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 10
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->J:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 11
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
@@ -2210,7 +1993,6 @@
 
     invoke-interface {v1, v2, v3}, Lf/k/g/b/a;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2218,7 +2000,6 @@
     :catchall_0
     move-exception v2
 
-    .line 13
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -2236,7 +2017,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->g:Ljavax/microedition/khronos/egl/EGLContext;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2251,7 +2031,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;
 
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->V:Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;
@@ -2286,7 +2065,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2301,12 +2079,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v1
 
-    .line 2
     iget-wide v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->K:J
 
     sub-long v3, v1, v3
@@ -2319,10 +2095,8 @@
 
     iput v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->L:F
 
-    .line 3
     iput-wide v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->K:J
 
-    .line 4
     iget-boolean v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->T:Z
 
     const/4 v4, 0x0
@@ -2331,26 +2105,21 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iput v4, p0, Lcom/meitu/mtmvcore/backend/android/m;->L:F
 
-    .line 6
     :goto_0
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->c0:Ljava/lang/Object;
 
     monitor-enter v3
 
-    .line 7
     :try_start_0
     iget-boolean v5, p0, Lcom/meitu/mtmvcore/backend/android/m;->R:Z
 
-    .line 8
     monitor-exit v3
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     iget v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->b:I
 
     iget v6, p0, Lcom/meitu/mtmvcore/backend/android/m;->c:I
@@ -2361,17 +2130,14 @@
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 10
     invoke-interface {p1, v4, v4, v4, v3}, Ljavax/microedition/khronos/opengles/GL10;->glClearColor(FFFF)V
 
     const/16 v3, 0x4000
 
-    .line 11
     invoke-interface {p1, v3}, Ljavax/microedition/khronos/opengles/GL10;->glClear(I)V
 
     if-eqz v5, :cond_2
 
-    .line 12
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {p1}, Lf/k/g/b/a;->i()Lf/k/g/b/c;
@@ -2384,7 +2150,6 @@
 
     if-nez p1, :cond_1
 
-    .line 13
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {p1}, Lf/k/g/b/a;->i()Lf/k/g/b/c;
@@ -2393,10 +2158,8 @@
 
     invoke-interface {p1}, Lf/k/g/b/c;->render()V
 
-    .line 14
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/m;->k()V
 
-    .line 15
     :cond_1
     iget-wide v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->N:J
 
@@ -2406,7 +2169,6 @@
 
     iput-wide v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->N:J
 
-    .line 16
     :cond_2
     iget-wide v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->M:J
 
@@ -2418,18 +2180,14 @@
 
     if-lez p1, :cond_3
 
-    .line 17
     iget p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->O:I
 
     iput p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->P:I
 
-    .line 18
     iput v7, p0, Lcom/meitu/mtmvcore/backend/android/m;->O:I
 
-    .line 19
     iput-wide v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->M:J
 
-    .line 20
     :cond_3
     iget p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->O:I
 
@@ -2437,7 +2195,6 @@
 
     iput p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->O:I
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2445,7 +2202,6 @@
     :catchall_0
     move-exception p1
 
-    .line 22
     :try_start_1
     monitor-exit v3
     :try_end_1
@@ -2465,7 +2221,6 @@
 
     const-string v1, "AndroidGraphics"
 
-    .line 1
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -2488,23 +2243,18 @@
 
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iput p2, p0, Lcom/meitu/mtmvcore/backend/android/m;->b:I
 
-    .line 3
     iput p3, p0, Lcom/meitu/mtmvcore/backend/android/m;->c:I
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-interface {p1, v1, v1, p2, p3}, Ljavax/microedition/khronos/opengles/GL10;->glViewport(IIII)V
 
-    .line 5
     iget-boolean p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->Q:Z
 
     if-nez p1, :cond_0
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {p1}, Lf/k/g/b/a;->i()Lf/k/g/b/c;
@@ -2515,17 +2265,13 @@
 
     const/4 p1, 0x1
 
-    .line 7
     iput-boolean p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->Q:Z
 
-    .line 8
     monitor-enter p0
 
-    .line 9
     :try_start_0
     iput-boolean p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->R:Z
 
-    .line 10
     monitor-exit p0
 
     goto :goto_0
@@ -2541,7 +2287,6 @@
 
     throw p1
 
-    .line 11
     :cond_0
     :goto_0
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
@@ -2552,7 +2297,6 @@
 
     invoke-interface {p1, p2, p3}, Lf/k/g/b/c;->resize(II)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2569,31 +2313,26 @@
 
     const-string v2, "onSurfaceCreated"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Ljavax/microedition/khronos/egl/EGLContext;->getEGL()Ljavax/microedition/khronos/egl/EGL;
 
     move-result-object v1
 
     check-cast v1, Ljavax/microedition/khronos/egl/EGL10;
 
-    .line 3
     invoke-interface {v1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetCurrentContext()Ljavax/microedition/khronos/egl/EGLContext;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->g:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 4
     invoke-interface {v1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetCurrentDisplay()Ljavax/microedition/khronos/egl/EGLDisplay;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->J:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 5
     iget-boolean v3, p0, Lcom/meitu/mtmvcore/backend/android/m;->f:Z
 
     if-eqz v3, :cond_0
@@ -2602,10 +2341,8 @@
 
     new-array v3, v3, [I
 
-    .line 6
     fill-array-data v3, :array_0
 
-    .line 7
     iget-object v4, p0, Lcom/meitu/mtmvcore/backend/android/m;->g:Ljavax/microedition/khronos/egl/EGLContext;
 
     invoke-interface {v1, v2, p2, v4, v3}, Ljavax/microedition/khronos/egl/EGL10;->eglCreateContext(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;Ljavax/microedition/khronos/egl/EGLContext;[I)Ljavax/microedition/khronos/egl/EGLContext;
@@ -2614,12 +2351,10 @@
 
     iput-object v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->p:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 8
     new-instance v3, Lcom/meitu/mtmvcore/application/EGLContextDelegate;
 
     invoke-direct {v3, v1, v2, p2}, Lcom/meitu/mtmvcore/application/EGLContextDelegate;-><init>(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLContext;Ljavax/microedition/khronos/egl/EGLConfig;)V
 
-    .line 9
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {v1}, Lf/k/g/b/a;->i()Lf/k/g/b/c;
@@ -2628,14 +2363,11 @@
 
     invoke-interface {v1, v3}, Lf/k/g/b/c;->setEGLDelegate(Lcom/meitu/mtmvcore/application/EGLContextDelegate;)V
 
-    .line 10
     :cond_0
     invoke-direct {p0, p1}, Lcom/meitu/mtmvcore/backend/android/m;->G(Ljavax/microedition/khronos/opengles/GL10;)V
 
-    .line 11
     invoke-direct {p0, p2}, Lcom/meitu/mtmvcore/backend/android/m;->v(Ljavax/microedition/khronos/egl/EGLConfig;)V
 
-    .line 12
     iget-object p2, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {p2}, Lcom/meitu/mtmvcore/backend/android/g;->o()Landroid/view/WindowManager;
@@ -2646,28 +2378,24 @@
 
     move-result-object p2
 
-    .line 13
     invoke-virtual {p2}, Landroid/view/Display;->getWidth()I
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->b:I
 
-    .line 14
     invoke-virtual {p2}, Landroid/view/Display;->getHeight()I
 
     move-result p2
 
     iput p2, p0, Lcom/meitu/mtmvcore/backend/android/m;->c:I
 
-    .line 15
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->K:J
 
-    .line 16
     iget p2, p0, Lcom/meitu/mtmvcore/backend/android/m;->b:I
 
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->c:I
@@ -2676,10 +2404,8 @@
 
     invoke-interface {p1, v2, v2, p2, v1}, Ljavax/microedition/khronos/opengles/GL10;->glViewport(IIII)V
 
-    .line 17
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/m;->h()V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2699,39 +2425,31 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->Z:Z
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getPointerCount()I
 
     move-result v1
 
-    .line 4
     new-array v3, v1, [I
 
-    .line 5
     new-array v4, v1, [F
 
-    .line 6
     new-array v5, v1, [F
 
-    .line 7
     iget-boolean v6, p0, Lcom/meitu/mtmvcore/backend/android/m;->X:Z
 
     if-eqz v6, :cond_1
 
-    .line 8
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v6
@@ -2744,17 +2462,14 @@
 
     check-cast v6, Landroid/view/inputmethod/InputMethodManager;
 
-    .line 9
     invoke-virtual {p1}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v7
 
     invoke-virtual {v6, v7, v2}, Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder;I)Z
 
-    .line 10
     invoke-virtual {p1}, Landroid/view/View;->requestFocus()Z
 
-    .line 11
     iput-boolean v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->X:Z
 
     :cond_1
@@ -2763,21 +2478,18 @@
     :goto_0
     if-ge p1, v1, :cond_2
 
-    .line 12
     invoke-virtual {p2, p1}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     move-result v6
 
     aput v6, v3, p1
 
-    .line 13
     invoke-virtual {p2, p1}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v6
 
     aput v6, v4, p1
 
-    .line 14
     invoke-virtual {p2, p1}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result v6
@@ -2788,7 +2500,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_2
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
@@ -2820,7 +2531,6 @@
 
     goto/16 :goto_3
 
-    .line 16
     :cond_3
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
@@ -2828,7 +2538,6 @@
 
     shr-int/lit8 p1, p1, 0x8
 
-    .line 17
     iget-boolean v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->Y:Z
 
     if-nez v1, :cond_4
@@ -2837,23 +2546,19 @@
 
     goto/16 :goto_3
 
-    .line 18
     :cond_4
     invoke-virtual {p2, p1}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     move-result v1
 
-    .line 19
     invoke-virtual {p2, p1}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v2
 
-    .line 20
     invoke-virtual {p2, p1}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result p1
 
-    .line 21
     iget-object p2, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {p2}, Lf/k/g/b/a;->i()Lf/k/g/b/c;
@@ -2864,7 +2569,6 @@
 
     goto/16 :goto_3
 
-    .line 22
     :cond_5
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
@@ -2872,7 +2576,6 @@
 
     shr-int/lit8 p1, p1, 0x8
 
-    .line 23
     iget-boolean v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->Y:Z
 
     if-nez v1, :cond_6
@@ -2881,23 +2584,19 @@
 
     goto/16 :goto_3
 
-    .line 24
     :cond_6
     invoke-virtual {p2, p1}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     move-result v1
 
-    .line 25
     invoke-virtual {p2, p1}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v2
 
-    .line 26
     invoke-virtual {p2, p1}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result p1
 
-    .line 27
     iget-object p2, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {p2}, Lf/k/g/b/a;->i()Lf/k/g/b/c;
@@ -2908,7 +2607,6 @@
 
     goto/16 :goto_3
 
-    .line 28
     :cond_7
     iget-boolean p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->Y:Z
 
@@ -2919,7 +2617,6 @@
     :goto_1
     if-ge p1, v1, :cond_f
 
-    .line 29
     aget p2, v3, p1
 
     if-nez p2, :cond_8
@@ -2930,19 +2627,16 @@
 
     new-array v1, v6, [F
 
-    .line 30
     aget v3, v4, p1
 
     aput v3, v1, v2
 
     new-array v3, v6, [F
 
-    .line 31
     aget p1, v5, p1
 
     aput p1, v3, v2
 
-    .line 32
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {p1}, Lf/k/g/b/a;->i()Lf/k/g/b/c;
@@ -2958,7 +2652,6 @@
 
     goto :goto_1
 
-    .line 33
     :cond_9
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
@@ -2970,7 +2663,6 @@
 
     goto :goto_3
 
-    .line 34
     :cond_a
     iget-boolean p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->Y:Z
 
@@ -2981,7 +2673,6 @@
     :goto_2
     if-ge p1, v1, :cond_f
 
-    .line 35
     aget p2, v3, p1
 
     if-nez p2, :cond_b
@@ -2992,19 +2683,16 @@
 
     new-array v1, v6, [F
 
-    .line 36
     aget v3, v4, p1
 
     aput v3, v1, v2
 
     new-array v3, v6, [F
 
-    .line 37
     aget p1, v5, p1
 
     aput p1, v3, v2
 
-    .line 38
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {p1}, Lf/k/g/b/a;->i()Lf/k/g/b/c;
@@ -3020,7 +2708,6 @@
 
     goto :goto_2
 
-    .line 39
     :cond_c
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
@@ -3032,19 +2719,15 @@
 
     goto :goto_3
 
-    .line 40
     :cond_d
     invoke-virtual {p2, v2}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     move-result p1
 
-    .line 41
     aget p2, v4, v2
 
-    .line 42
     aget v1, v5, v2
 
-    .line 43
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {v2}, Lf/k/g/b/a;->i()Lf/k/g/b/c;
@@ -3055,19 +2738,15 @@
 
     goto :goto_3
 
-    .line 44
     :cond_e
     invoke-virtual {p2, v2}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     move-result p1
 
-    .line 45
     aget p2, v4, v2
 
-    .line 46
     aget v1, v5, v2
 
-    .line 47
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/m;->d:Lcom/meitu/mtmvcore/backend/android/g;
 
     invoke-interface {v2}, Lf/k/g/b/a;->i()Lf/k/g/b/c;
@@ -3076,7 +2755,6 @@
 
     invoke-interface {v2, p1, p2, v1}, Lf/k/g/b/c;->touchDown(IFF)V
 
-    .line 48
     :cond_f
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3091,7 +2769,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->a:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3106,7 +2783,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3119,12 +2795,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->a:Landroid/view/View;
 
     if-eqz v1, :cond_1
 
-    .line 2
     instance-of v2, v1, Landroid/opengl/GLSurfaceView;
 
     if-eqz v2, :cond_0
@@ -3133,7 +2807,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20;->onPause()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->a:Landroid/view/View;
 
@@ -3145,7 +2818,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/TextureView20;->l()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3159,7 +2831,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->a:Landroid/view/View;
 
     if-eqz v1, :cond_1
@@ -3176,7 +2847,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->a:Landroid/view/View;
 
     instance-of v2, v1, Landroid/opengl/GLSurfaceView;
@@ -3187,7 +2857,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20;->onResume()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/m;->a:Landroid/view/View;
 
@@ -3199,7 +2868,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/TextureView20;->m()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

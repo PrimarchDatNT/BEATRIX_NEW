@@ -44,27 +44,22 @@
 .method public constructor <init>(Landroidx/room/RoomDatabase;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
-    .line 3
     new-instance v0, Lf/k/i0/a/i$a;
 
     invoke-direct {v0, p0, p1}, Lf/k/i0/a/i$a;-><init>(Lf/k/i0/a/i;Landroidx/room/RoomDatabase;)V
 
     iput-object v0, p0, Lf/k/i0/a/i;->b:Landroidx/room/EntityInsertionAdapter;
 
-    .line 4
     new-instance v0, Lf/k/i0/a/i$b;
 
     invoke-direct {v0, p0, p1}, Lf/k/i0/a/i$b;-><init>(Lf/k/i0/a/i;Landroidx/room/RoomDatabase;)V
 
     iput-object v0, p0, Lf/k/i0/a/i;->c:Landroidx/room/EntityDeletionOrUpdateAdapter;
 
-    .line 5
     new-instance v0, Lf/k/i0/a/i$c;
 
     invoke-direct {v0, p0, p1}, Lf/k/i0/a/i$c;-><init>(Lf/k/i0/a/i;Landroidx/room/RoomDatabase;)V
@@ -83,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, [Lcom/meitu/template/bean/Chat;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/i;->K1([Lcom/meitu/template/bean/Chat;)V
@@ -100,35 +94,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->assertNotSuspendingTransaction()V
 
-    .line 2
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->beginTransaction()V
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lf/k/i0/a/i;->b:Landroidx/room/EntityInsertionAdapter;
 
     invoke-virtual {v1, p1}, Landroidx/room/EntityInsertionAdapter;->insert([Ljava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     iget-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -136,12 +124,10 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1
@@ -172,29 +158,24 @@
 
     const/4 v4, 0x1
 
-    .line 1
     invoke-static {v3, v4}, Landroidx/room/RoomSQLiteQuery;->acquire(Ljava/lang/String;I)Landroidx/room/RoomSQLiteQuery;
 
     move-result-object v3
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {v3, v4}, Landroidx/room/RoomSQLiteQuery;->bindNull(I)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v3, v4, v0}, Landroidx/room/RoomSQLiteQuery;->bindString(ILjava/lang/String;)V
 
-    .line 4
     :goto_0
     iget-object v0, v1, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v0}, Landroidx/room/RoomDatabase;->assertNotSuspendingTransaction()V
 
-    .line 5
     iget-object v0, v1, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     const/4 v5, 0x0
@@ -208,68 +189,58 @@
     :try_start_0
     const-string v0, "ID"
 
-    .line 6
     invoke-static {v7, v0}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v0
 
     const-string v8, "UID"
 
-    .line 7
     invoke-static {v7, v8}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v8
 
     const-string v9, "CONTENT"
 
-    .line 8
     invoke-static {v7, v9}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v9
 
     const-string v10, "ROLE"
 
-    .line 9
     invoke-static {v7, v10}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v10
 
     const-string v11, "TIME"
 
-    .line 10
     invoke-static {v7, v11}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v11
 
     const-string v12, "CHAT_FAIL"
 
-    .line 11
     invoke-static {v7, v12}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v12
 
     const-string v13, "IMAGE"
 
-    .line 12
     invoke-static {v7, v13}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v13
 
     const-string v14, "HASIMG"
 
-    .line 13
     invoke-static {v7, v14}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v14
 
     const-string v15, "UPLOAD_STATE"
 
-    .line 14
     invoke-static {v7, v15}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v15
 
-    .line 15
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-interface {v7}, Landroid/database/Cursor;->getCount()I
@@ -278,7 +249,6 @@
 
     invoke-direct {v4, v5}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 16
     :goto_1
     invoke-interface {v7}, Landroid/database/Cursor;->moveToNext()Z
 
@@ -286,7 +256,6 @@
 
     if-eqz v5, :cond_8
 
-    .line 17
     invoke-interface {v7, v0}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v5
@@ -297,7 +266,6 @@
 
     goto :goto_2
 
-    .line 18
     :cond_1
     invoke-interface {v7, v0}, Landroid/database/Cursor;->getFloat(I)F
 
@@ -309,18 +277,15 @@
 
     move-object/from16 v17, v5
 
-    .line 19
     :goto_2
     invoke-interface {v7, v8}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v18
 
-    .line 20
     invoke-interface {v7, v9}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v19
 
-    .line 21
     invoke-interface {v7, v10}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v5
@@ -331,7 +296,6 @@
 
     goto :goto_3
 
-    .line 22
     :cond_2
     invoke-interface {v7, v10}, Landroid/database/Cursor;->getInt(I)I
 
@@ -343,13 +307,11 @@
 
     move-object/from16 v20, v5
 
-    .line 23
     :goto_3
     invoke-interface {v7, v11}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v21
 
-    .line 24
     invoke-interface {v7, v12}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v5
@@ -360,7 +322,6 @@
 
     goto :goto_4
 
-    .line 25
     :cond_3
     invoke-interface {v7, v12}, Landroid/database/Cursor;->getInt(I)I
 
@@ -377,7 +338,6 @@
 
     goto :goto_6
 
-    .line 26
     :cond_4
     invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
 
@@ -399,13 +359,11 @@
 
     move-object/from16 v22, v5
 
-    .line 27
     :goto_6
     invoke-interface {v7, v13}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v23
 
-    .line 28
     invoke-interface {v7, v14}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v5
@@ -416,7 +374,6 @@
 
     goto :goto_7
 
-    .line 29
     :cond_6
     invoke-interface {v7, v14}, Landroid/database/Cursor;->getInt(I)I
 
@@ -428,7 +385,6 @@
 
     move-object/from16 v24, v5
 
-    .line 30
     :goto_7
     invoke-interface {v7, v15}, Landroid/database/Cursor;->isNull(I)Z
 
@@ -440,7 +396,6 @@
 
     goto :goto_8
 
-    .line 31
     :cond_7
     invoke-interface {v7, v15}, Landroid/database/Cursor;->getInt(I)I
 
@@ -452,7 +407,6 @@
 
     move-object/from16 v25, v5
 
-    .line 32
     :goto_8
     new-instance v5, Lcom/meitu/template/bean/Chat;
 
@@ -460,21 +414,17 @@
 
     invoke-direct/range {v16 .. v25}, Lcom/meitu/template/bean/Chat;-><init>(Ljava/lang/Float;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;)V
 
-    .line 33
     invoke-interface {v4, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/16 :goto_1
 
-    .line 34
     :cond_8
     invoke-interface {v7}, Landroid/database/Cursor;->close()V
 
-    .line 35
     invoke-virtual {v3}, Landroidx/room/RoomSQLiteQuery;->release()V
 
-    .line 36
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -482,13 +432,10 @@
     :catchall_0
     move-exception v0
 
-    .line 37
     invoke-interface {v7}, Landroid/database/Cursor;->close()V
 
-    .line 38
     invoke-virtual {v3}, Landroidx/room/RoomSQLiteQuery;->release()V
 
-    .line 39
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v0
@@ -507,19 +454,16 @@
 
     const/4 v3, 0x1
 
-    .line 1
     invoke-static {v0, v3}, Landroidx/room/RoomSQLiteQuery;->acquire(Ljava/lang/String;I)Landroidx/room/RoomSQLiteQuery;
 
     move-result-object v4
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-virtual {v4, v3}, Landroidx/room/RoomSQLiteQuery;->bindNull(I)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual/range {p1 .. p1}, Ljava/lang/Float;->floatValue()F
 
@@ -529,13 +473,11 @@
 
     invoke-virtual {v4, v3, v5, v6}, Landroidx/room/RoomSQLiteQuery;->bindDouble(ID)V
 
-    .line 4
     :goto_0
     iget-object v0, v1, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v0}, Landroidx/room/RoomDatabase;->assertNotSuspendingTransaction()V
 
-    .line 5
     iget-object v0, v1, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     const/4 v5, 0x0
@@ -549,75 +491,64 @@
     :try_start_0
     const-string v0, "ID"
 
-    .line 6
     invoke-static {v7, v0}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v0
 
     const-string v8, "UID"
 
-    .line 7
     invoke-static {v7, v8}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v8
 
     const-string v9, "CONTENT"
 
-    .line 8
     invoke-static {v7, v9}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v9
 
     const-string v10, "ROLE"
 
-    .line 9
     invoke-static {v7, v10}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v10
 
     const-string v11, "TIME"
 
-    .line 10
     invoke-static {v7, v11}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v11
 
     const-string v12, "CHAT_FAIL"
 
-    .line 11
     invoke-static {v7, v12}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v12
 
     const-string v13, "IMAGE"
 
-    .line 12
     invoke-static {v7, v13}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v13
 
     const-string v14, "HASIMG"
 
-    .line 13
     invoke-static {v7, v14}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v14
 
     const-string v15, "UPLOAD_STATE"
 
-    .line 14
     invoke-static {v7, v15}, Landroidx/room/util/CursorUtil;->getColumnIndexOrThrow(Landroid/database/Cursor;Ljava/lang/String;)I
 
     move-result v15
 
-    .line 15
     invoke-interface {v7}, Landroid/database/Cursor;->moveToFirst()Z
 
     move-result v16
 
     if-eqz v16, :cond_8
 
-    .line 16
     invoke-interface {v7, v0}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v16
@@ -628,7 +559,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_1
     invoke-interface {v7, v0}, Landroid/database/Cursor;->getFloat(I)F
 
@@ -640,18 +570,15 @@
 
     move-object/from16 v17, v0
 
-    .line 18
     :goto_1
     invoke-interface {v7, v8}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v18
 
-    .line 19
     invoke-interface {v7, v9}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v19
 
-    .line 20
     invoke-interface {v7, v10}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v0
@@ -662,7 +589,6 @@
 
     goto :goto_2
 
-    .line 21
     :cond_2
     invoke-interface {v7, v10}, Landroid/database/Cursor;->getInt(I)I
 
@@ -674,13 +600,11 @@
 
     move-object/from16 v20, v0
 
-    .line 22
     :goto_2
     invoke-interface {v7, v11}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v21
 
-    .line 23
     invoke-interface {v7, v12}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v0
@@ -691,7 +615,6 @@
 
     goto :goto_3
 
-    .line 24
     :cond_3
     invoke-interface {v7, v12}, Landroid/database/Cursor;->getInt(I)I
 
@@ -708,7 +631,6 @@
 
     goto :goto_5
 
-    .line 25
     :cond_4
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
@@ -728,13 +650,11 @@
 
     move-object/from16 v22, v0
 
-    .line 26
     :goto_5
     invoke-interface {v7, v13}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v23
 
-    .line 27
     invoke-interface {v7, v14}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v0
@@ -745,7 +665,6 @@
 
     goto :goto_6
 
-    .line 28
     :cond_6
     invoke-interface {v7, v14}, Landroid/database/Cursor;->getInt(I)I
 
@@ -757,7 +676,6 @@
 
     move-object/from16 v24, v0
 
-    .line 29
     :goto_6
     invoke-interface {v7, v15}, Landroid/database/Cursor;->isNull(I)Z
 
@@ -770,7 +688,6 @@
 
     goto :goto_8
 
-    .line 30
     :cond_7
     invoke-interface {v7, v15}, Landroid/database/Cursor;->getInt(I)I
 
@@ -782,7 +699,6 @@
 
     goto :goto_7
 
-    .line 31
     :goto_8
     new-instance v6, Lcom/meitu/template/bean/Chat;
 
@@ -792,14 +708,11 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 32
     :cond_8
     invoke-interface {v7}, Landroid/database/Cursor;->close()V
 
-    .line 33
     invoke-virtual {v4}, Landroidx/room/RoomSQLiteQuery;->release()V
 
-    .line 34
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v6
@@ -807,13 +720,10 @@
     :catchall_0
     move-exception v0
 
-    .line 35
     invoke-interface {v7}, Landroid/database/Cursor;->close()V
 
-    .line 36
     invoke-virtual {v4}, Landroidx/room/RoomSQLiteQuery;->release()V
 
-    .line 37
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v0
@@ -826,7 +736,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, [Lcom/meitu/template/bean/Chat;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/i;->o3([Lcom/meitu/template/bean/Chat;)V
@@ -843,7 +752,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Chat;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/i;->k1(Lcom/meitu/template/bean/Chat;)V
@@ -872,17 +780,14 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v1, v2}, Landroidx/room/RoomSQLiteQuery;->acquire(Ljava/lang/String;I)Landroidx/room/RoomSQLiteQuery;
 
     move-result-object v1
 
-    .line 2
     iget-object v3, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v3}, Landroidx/room/RoomDatabase;->assertNotSuspendingTransaction()V
 
-    .line 3
     iget-object v3, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     const/4 v4, 0x0
@@ -891,7 +796,6 @@
 
     move-result-object v3
 
-    .line 4
     :try_start_0
     new-instance v5, Ljava/util/ArrayList;
 
@@ -901,7 +805,6 @@
 
     invoke-direct {v5, v6}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 5
     :goto_0
     invoke-interface {v3}, Landroid/database/Cursor;->moveToNext()Z
 
@@ -909,7 +812,6 @@
 
     if-eqz v6, :cond_1
 
-    .line 6
     invoke-interface {v3, v2}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v6
@@ -920,7 +822,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     invoke-interface {v3, v2}, Landroid/database/Cursor;->getFloat(I)F
 
@@ -930,7 +831,6 @@
 
     move-result-object v6
 
-    .line 8
     :goto_1
     invoke-interface {v5, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
     :try_end_0
@@ -938,14 +838,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-interface {v3}, Landroid/database/Cursor;->close()V
 
-    .line 10
     invoke-virtual {v1}, Landroidx/room/RoomSQLiteQuery;->release()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v5
@@ -953,13 +850,10 @@
     :catchall_0
     move-exception v2
 
-    .line 12
     invoke-interface {v3}, Landroid/database/Cursor;->close()V
 
-    .line 13
     invoke-virtual {v1}, Landroidx/room/RoomSQLiteQuery;->release()V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v2
@@ -972,35 +866,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->assertNotSuspendingTransaction()V
 
-    .line 2
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->beginTransaction()V
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lf/k/i0/a/i;->d:Landroidx/room/EntityDeletionOrUpdateAdapter;
 
     invoke-virtual {v1, p1}, Landroidx/room/EntityDeletionOrUpdateAdapter;->handle(Ljava/lang/Object;)I
 
-    .line 4
     iget-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     iget-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1008,12 +896,10 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1
@@ -1026,7 +912,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, [Lcom/meitu/template/bean/Chat;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/i;->p2([Lcom/meitu/template/bean/Chat;)V
@@ -1043,35 +928,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->assertNotSuspendingTransaction()V
 
-    .line 2
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->beginTransaction()V
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lf/k/i0/a/i;->b:Landroidx/room/EntityInsertionAdapter;
 
     invoke-virtual {v1, p1}, Landroidx/room/EntityInsertionAdapter;->insert(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     iget-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1079,12 +958,10 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1
@@ -1097,35 +974,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->assertNotSuspendingTransaction()V
 
-    .line 2
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->beginTransaction()V
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lf/k/i0/a/i;->c:Landroidx/room/EntityDeletionOrUpdateAdapter;
 
     invoke-virtual {v1, p1}, Landroidx/room/EntityDeletionOrUpdateAdapter;->handle(Ljava/lang/Object;)I
 
-    .line 4
     iget-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     iget-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1133,12 +1004,10 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1
@@ -1151,7 +1020,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Chat;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/i;->d1(Lcom/meitu/template/bean/Chat;)V
@@ -1168,35 +1036,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->assertNotSuspendingTransaction()V
 
-    .line 2
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->beginTransaction()V
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lf/k/i0/a/i;->d:Landroidx/room/EntityDeletionOrUpdateAdapter;
 
     invoke-virtual {v1, p1}, Landroidx/room/EntityDeletionOrUpdateAdapter;->handleMultiple([Ljava/lang/Object;)I
 
-    .line 4
     iget-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     iget-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1204,12 +1066,10 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1
@@ -1222,35 +1082,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->assertNotSuspendingTransaction()V
 
-    .line 2
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->beginTransaction()V
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lf/k/i0/a/i;->c:Landroidx/room/EntityDeletionOrUpdateAdapter;
 
     invoke-virtual {v1, p1}, Landroidx/room/EntityDeletionOrUpdateAdapter;->handleMultiple([Ljava/lang/Object;)I
 
-    .line 4
     iget-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     iget-object p1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1258,12 +1112,10 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     iget-object v1, p0, Lf/k/i0/a/i;->a:Landroidx/room/RoomDatabase;
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1
@@ -1276,7 +1128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Chat;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/i;->g3(Lcom/meitu/template/bean/Chat;)V
@@ -1293,7 +1144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Float;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/i;->T2(Ljava/lang/Float;)Lcom/meitu/template/bean/Chat;

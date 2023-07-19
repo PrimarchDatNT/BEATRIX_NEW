@@ -20,7 +20,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -39,7 +38,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p1, p2, v0}, Lcom/google/android/gms/common/server/response/FastParser;->h(Lcom/google/android/gms/common/server/response/FastParser;Ljava/io/BufferedReader;Z)Z
 
     move-result p1

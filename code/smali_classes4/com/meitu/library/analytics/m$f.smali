@@ -36,10 +36,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/analytics/m$f;->a:Lcom/meitu/library/analytics/e;
 
     return-void
@@ -52,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/m$f;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -67,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/analytics/m$f;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -90,7 +86,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-interface {p1}, Lcom/meitu/library/analytics/y/d/e$b;->getId()Ljava/lang/String;
 
@@ -105,13 +100,11 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     invoke-interface {p1}, Lcom/meitu/library/analytics/y/d/e$b;->getStatus()I
 
     move-result p1
 
-    .line 3
     :goto_1
     iget-object v3, p0, Lcom/meitu/library/analytics/m$f;->b:Ljava/lang/String;
 
@@ -125,12 +118,10 @@
 
     if-ne v3, p1, :cond_2
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -138,7 +129,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 6
     new-instance v4, Landroid/content/Intent;
 
     const-string v5, "com.meitu.library.abtesting.ACTION_REQUEST_ABTESTING_CODE"
@@ -149,10 +139,8 @@
 
     const/4 v6, 0x1
 
-    .line 7
     invoke-virtual {v4, v5, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 8
     invoke-virtual {v3}, Lcom/meitu/library/analytics/sdk/content/f;->x()Landroid/content/Context;
 
     move-result-object v3
@@ -163,7 +151,6 @@
 
     invoke-virtual {v3, v4}, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->sendBroadcast(Landroid/content/Intent;)Z
 
-    .line 9
     iget-object v3, p0, Lcom/meitu/library/analytics/m$f;->b:Ljava/lang/String;
 
     invoke-static {v3, v1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
@@ -178,7 +165,6 @@
 
     new-array v4, v4, [Lcom/meitu/library/analytics/y/l/j/b$a;
 
-    .line 10
     new-instance v5, Lcom/meitu/library/analytics/y/l/j/b$a;
 
     iget-object v7, p0, Lcom/meitu/library/analytics/m$f;->b:Ljava/lang/String;
@@ -216,22 +202,17 @@
 
     invoke-static {v3, v6, v2, v4}, Lcom/meitu/library/analytics/o;->P(IILjava/lang/String;[Lcom/meitu/library/analytics/y/l/j/b$a;)V
 
-    .line 11
     :cond_5
     iput-object v1, p0, Lcom/meitu/library/analytics/m$f;->b:Ljava/lang/String;
 
-    .line 12
     iput p1, p0, Lcom/meitu/library/analytics/m$f;->c:I
 
-    .line 13
     iget-object v2, p0, Lcom/meitu/library/analytics/m$f;->a:Lcom/meitu/library/analytics/e;
 
     if-eqz v2, :cond_6
 
-    .line 14
     invoke-interface {v2, v1, p1}, Lcom/meitu/library/analytics/e;->a(Ljava/lang/String;I)V
 
-    .line 15
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

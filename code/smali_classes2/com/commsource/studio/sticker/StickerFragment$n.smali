@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/sticker/StickerFragment$n;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/sticker/StickerFragment;->W(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/widget/h1/e;
@@ -67,7 +66,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/sticker/StickerFragment$n;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/sticker/StickerFragment;->W(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/widget/h1/e;
@@ -102,13 +100,11 @@
     :cond_1
     const/4 v0, -0x2
 
-    .line 3
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$n;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {v1, v0}, Lcom/commsource/studio/sticker/StickerFragment;->u0(I)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -121,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment$n;->a(Ljava/lang/Integer;)V

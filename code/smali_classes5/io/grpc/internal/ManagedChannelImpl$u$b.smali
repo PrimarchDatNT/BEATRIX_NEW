@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iput-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->a:Lio/grpc/z0$h;
@@ -47,14 +46,12 @@
 .method public run()V
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->a:Lio/grpc/z0$h;
 
     invoke-virtual {v0}, Lio/grpc/z0$h;->a()Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, v1, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -75,7 +72,6 @@
 
     iget-object v5, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->a:Lio/grpc/z0$h;
 
-    .line 3
     invoke-virtual {v5}, Lio/grpc/z0$h;->b()Lio/grpc/a;
 
     move-result-object v5
@@ -86,10 +82,8 @@
 
     const-string v5, "Resolved address: {0}, config={1}"
 
-    .line 4
     invoke-virtual {v1, v2, v5, v3}, Lio/grpc/ChannelLogger;->b(Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, v1, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -102,7 +96,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 6
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, v1, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -121,14 +114,12 @@
 
     invoke-virtual {v1, v3, v7, v5}, Lio/grpc/ChannelLogger;->b(Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 7
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, v1, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v1, v2}, Lio/grpc/internal/ManagedChannelImpl;->A0(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/internal/ManagedChannelImpl$ResolutionState;)Lio/grpc/internal/ManagedChannelImpl$ResolutionState;
 
-    .line 8
     :cond_0
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
@@ -138,17 +129,14 @@
 
     invoke-static {v1, v2}, Lio/grpc/internal/ManagedChannelImpl;->D0(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/internal/p;)Lio/grpc/internal/p;
 
-    .line 9
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->a:Lio/grpc/z0$h;
 
     invoke-virtual {v1}, Lio/grpc/z0$h;->c()Lio/grpc/z0$c;
 
     move-result-object v1
 
-    .line 10
     iget-object v3, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->a:Lio/grpc/z0$h;
 
-    .line 11
     invoke-virtual {v3}, Lio/grpc/z0$h;->b()Lio/grpc/a;
 
     move-result-object v3
@@ -163,14 +151,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 12
     invoke-virtual {v1}, Lio/grpc/z0$c;->c()Ljava/lang/Object;
 
     move-result-object v5
 
     if-eqz v5, :cond_1
 
-    .line 13
     invoke-virtual {v1}, Lio/grpc/z0$c;->c()Ljava/lang/Object;
 
     move-result-object v5
@@ -185,7 +171,6 @@
     :goto_0
     if-eqz v1, :cond_2
 
-    .line 14
     invoke-virtual {v1}, Lio/grpc/z0$c;->d()Lio/grpc/Status;
 
     move-result-object v7
@@ -195,7 +180,6 @@
     :cond_2
     move-object v7, v2
 
-    .line 15
     :goto_1
     iget-object v8, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
@@ -209,7 +193,6 @@
 
     if-eqz v5, :cond_3
 
-    .line 16
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, v1, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -224,7 +207,6 @@
 
     invoke-virtual {v1, v4, v5}, Lio/grpc/ChannelLogger;->a(Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;)V
 
-    .line 17
     :cond_3
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
@@ -254,7 +236,6 @@
     :goto_2
     if-eqz v3, :cond_5
 
-    .line 18
     iget-object v3, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v3, v3, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -269,7 +250,6 @@
 
     invoke-virtual {v3, v4, v5}, Lio/grpc/ChannelLogger;->a(Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;)V
 
-    .line 19
     :cond_5
     iget-object v3, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
@@ -286,7 +266,6 @@
     :cond_6
     if-eqz v5, :cond_7
 
-    .line 20
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, v1, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -299,7 +278,6 @@
 
     goto :goto_3
 
-    .line 21
     :cond_7
     iget-object v3, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
@@ -311,7 +289,6 @@
 
     if-eqz v3, :cond_8
 
-    .line 22
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, v1, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -320,7 +297,6 @@
 
     move-result-object v5
 
-    .line 23
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, v1, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -331,7 +307,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    .line 24
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, v1, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -351,7 +326,6 @@
     :cond_8
     if-eqz v7, :cond_a
 
-    .line 25
     iget-object v2, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v2, v2, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -362,7 +336,6 @@
 
     if-nez v2, :cond_9
 
-    .line 26
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -377,7 +350,6 @@
 
     invoke-virtual {v0, v2, v3}, Lio/grpc/ChannelLogger;->a(Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;)V
 
-    .line 27
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     invoke-virtual {v1}, Lio/grpc/z0$c;->d()Lio/grpc/Status;
@@ -388,7 +360,6 @@
 
     return-void
 
-    .line 28
     :cond_9
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
@@ -400,13 +371,11 @@
 
     goto :goto_3
 
-    .line 29
     :cond_a
     invoke-static {}, Lio/grpc/internal/ManagedChannelImpl;->H0()Lio/grpc/internal/n1;
 
     move-result-object v5
 
-    .line 30
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, v1, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -417,7 +386,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    .line 31
     :goto_3
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
@@ -433,7 +401,6 @@
 
     if-nez v1, :cond_c
 
-    .line 32
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, v1, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
@@ -446,7 +413,6 @@
 
     new-array v3, v6, [Ljava/lang/Object;
 
-    .line 33
     invoke-static {}, Lio/grpc/internal/ManagedChannelImpl;->H0()Lio/grpc/internal/n1;
 
     move-result-object v6
@@ -465,17 +431,14 @@
 
     const-string v4, "Service config changed{0}"
 
-    .line 34
     invoke-virtual {v1, v2, v4, v3}, Lio/grpc/ChannelLogger;->b(Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 35
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, v1, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v1, v5}, Lio/grpc/internal/ManagedChannelImpl;->B(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/internal/n1;)Lio/grpc/internal/n1;
 
-    .line 36
     :cond_c
     :try_start_0
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
@@ -491,7 +454,6 @@
     :catch_0
     move-exception v1
 
-    .line 37
     sget-object v2, Lio/grpc/internal/ManagedChannelImpl;->l0:Ljava/util/logging/Logger;
 
     sget-object v3, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
@@ -508,7 +470,6 @@
 
     iget-object v6, v6, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 38
     invoke-virtual {v6}, Lio/grpc/internal/ManagedChannelImpl;->d()Lio/grpc/j0;
 
     move-result-object v6
@@ -523,26 +484,22 @@
 
     move-result-object v4
 
-    .line 39
     invoke-virtual {v2, v3, v4, v1}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_5
     move-object v1, v5
 
-    .line 40
     :goto_6
     iget-object v2, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     invoke-static {v2}, Lio/grpc/internal/ManagedChannelImpl$u;->d(Lio/grpc/internal/ManagedChannelImpl$u;)V
 
-    .line 41
     iget-object v2, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->a:Lio/grpc/z0$h;
 
     invoke-virtual {v2}, Lio/grpc/z0$h;->b()Lio/grpc/a;
 
     move-result-object v2
 
-    .line 42
     iget-object v3, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v4, v3, Lio/grpc/internal/ManagedChannelImpl$u;->a:Lio/grpc/internal/ManagedChannelImpl$t;
@@ -555,7 +512,6 @@
 
     if-ne v4, v3, :cond_e
 
-    .line 43
     invoke-virtual {v2}, Lio/grpc/a;->g()Lio/grpc/a$b;
 
     move-result-object v2
@@ -566,25 +522,20 @@
 
     move-result-object v2
 
-    .line 44
     invoke-virtual {v1}, Lio/grpc/internal/n1;->d()Ljava/util/Map;
 
     move-result-object v3
 
     if-eqz v3, :cond_d
 
-    .line 45
     sget-object v4, Lio/grpc/t0;->c:Lio/grpc/a$c;
 
-    .line 46
     invoke-virtual {v2, v4, v3}, Lio/grpc/a$b;->d(Lio/grpc/a$c;Ljava/lang/Object;)Lio/grpc/a$b;
 
     move-result-object v3
 
-    .line 47
     invoke-virtual {v3}, Lio/grpc/a$b;->a()Lio/grpc/a;
 
-    .line 48
     :cond_d
     iget-object v3, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
@@ -592,17 +543,14 @@
 
     iget-object v3, v3, Lio/grpc/internal/ManagedChannelImpl$t;->a:Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$b;
 
-    .line 49
     invoke-static {}, Lio/grpc/t0$g;->d()Lio/grpc/t0$g$a;
 
     move-result-object v4
 
-    .line 50
     invoke-virtual {v4, v0}, Lio/grpc/t0$g$a;->b(Ljava/util/List;)Lio/grpc/t0$g$a;
 
     move-result-object v0
 
-    .line 51
     invoke-virtual {v2}, Lio/grpc/a$b;->a()Lio/grpc/a;
 
     move-result-object v2
@@ -611,7 +559,6 @@
 
     move-result-object v0
 
-    .line 52
     invoke-virtual {v1}, Lio/grpc/internal/n1;->e()Ljava/lang/Object;
 
     move-result-object v1
@@ -620,24 +567,20 @@
 
     move-result-object v0
 
-    .line 53
     invoke-virtual {v0}, Lio/grpc/t0$g$a;->a()Lio/grpc/t0$g;
 
     move-result-object v0
 
-    .line 54
     invoke-virtual {v3, v0}, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$b;->i(Lio/grpc/t0$g;)Lio/grpc/Status;
 
     move-result-object v0
 
-    .line 55
     invoke-virtual {v0}, Lio/grpc/Status;->r()Z
 
     move-result v1
 
     if-nez v1, :cond_e
 
-    .line 56
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$b;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     new-instance v2, Ljava/lang/StringBuilder;

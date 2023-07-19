@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/g;Lcom/google/android/gms/measurement/internal/m6;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/j;->b:Lcom/google/android/gms/measurement/internal/g;
 
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/j;->a:Lcom/google/android/gms/measurement/internal/m6;
@@ -31,7 +30,6 @@
 .method public final run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/j;->a:Lcom/google/android/gms/measurement/internal/m6;
 
     invoke-interface {v0}, Lcom/google/android/gms/measurement/internal/m6;->J0()Lcom/google/android/gms/measurement/internal/ua;
@@ -42,7 +40,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/j;->a:Lcom/google/android/gms/measurement/internal/m6;
 
     invoke-interface {v0}, Lcom/google/android/gms/measurement/internal/m6;->v()Lcom/google/android/gms/measurement/internal/m5;
@@ -53,7 +50,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/j;->b:Lcom/google/android/gms/measurement/internal/g;
 
@@ -61,7 +57,6 @@
 
     move-result v0
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/j;->b:Lcom/google/android/gms/measurement/internal/g;
 
     const-wide/16 v2, 0x0
@@ -70,7 +65,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/j;->b:Lcom/google/android/gms/measurement/internal/g;
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/g;->b()V

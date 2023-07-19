@@ -37,12 +37,10 @@
 .method constructor <init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/processor/m;-><init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
 
     const/16 p1, 0x46
 
-    .line 2
     iput p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$autoProcessor$2$a;->N:I
 
     return-void
@@ -57,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$autoProcessor$2$a;->N:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -72,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$autoProcessor$2$a;->N:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -95,7 +91,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v1
@@ -110,7 +105,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->voidOperation(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v1
@@ -127,7 +121,6 @@
 
     const/4 v4, -0x1
 
-    .line 3
     iget v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$autoProcessor$2$a;->N:I
 
     int-to-float v1, v1
@@ -146,11 +139,9 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->e(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;IFFFLcom/commsource/camera/newrender/renderproxy/ARKernelUtils$Light3DSourceTypeEnum;Landroid/graphics/PointF;)V
 
-    .line 4
     :cond_0
     invoke-super {p0, p1}, Lcom/commsource/studio/processor/m;->s(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

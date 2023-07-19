@@ -42,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1$a;->a:Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1;
 
     iget-object v2, v1, Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1;->$layerInfo:Lcom/commsource/studio/bean/TextLayerInfo;
 
-    .line 2
     iget-object v1, v1, Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->s()F
@@ -58,7 +56,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1$a;->a:Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1;
 
     iget-object v3, v3, Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
@@ -71,10 +68,8 @@
 
     move-result v3
 
-    .line 4
     invoke-virtual {v2, v1, v3}, Lcom/commsource/studio/bean/TextLayerInfo;->updateLocationWithLayerNode(II)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1$a;->a:Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1;
 
     iget-object v1, v1, Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
@@ -93,7 +88,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/a;->W(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1$a;->a:Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1;
 
     iget-object v1, v1, Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1;->$afterCallBack:Lcotlin/jvm/u/a;
@@ -106,7 +100,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

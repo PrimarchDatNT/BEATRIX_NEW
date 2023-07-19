@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/google/common/graph/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/a$a;->a:Lcom/google/common/graph/a;
 
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/a$a;->a:Lcom/google/common/graph/a;
 
     invoke-static {v0}, Lcom/google/common/graph/n;->e(Lcom/google/common/graph/h;)Lcom/google/common/graph/n;
@@ -68,7 +66,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/graph/m;
 
     const/4 v1, 0x0
@@ -77,11 +74,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/common/graph/m;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/graph/a$a;->a:Lcom/google/common/graph/a;
 
     invoke-virtual {v0, p1}, Lcom/google/common/graph/a;->O(Lcom/google/common/graph/m;)Z
@@ -92,7 +87,6 @@
 
     iget-object v0, p0, Lcom/google/common/graph/a$a;->a:Lcom/google/common/graph/a;
 
-    .line 4
     invoke-interface {v0}, Lcom/google/common/graph/h;->m()Ljava/util/Set;
 
     move-result-object v0
@@ -109,7 +103,6 @@
 
     iget-object v0, p0, Lcom/google/common/graph/a$a;->a:Lcom/google/common/graph/a;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/common/graph/m;->h()Ljava/lang/Object;
 
     move-result-object v2
@@ -137,7 +130,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/a$a;->b()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -148,7 +140,6 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -159,7 +150,6 @@
 .method public size()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/a$a;->a:Lcom/google/common/graph/a;
 
     invoke-virtual {v0}, Lcom/google/common/graph/a;->N()J

@@ -24,12 +24,10 @@
 .method private constructor <init>(Lcom/google/common/hash/ChecksumHashFunction;Ljava/util/zip/Checksum;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/hash/ChecksumHashFunction$b;->c:Lcom/google/common/hash/ChecksumHashFunction;
 
     invoke-direct {p0}, Lcom/google/common/hash/a;-><init>()V
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -44,7 +42,6 @@
 .method synthetic constructor <init>(Lcom/google/common/hash/ChecksumHashFunction;Ljava/util/zip/Checksum;Lcom/google/common/hash/ChecksumHashFunction$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/hash/ChecksumHashFunction$b;-><init>(Lcom/google/common/hash/ChecksumHashFunction;Ljava/util/zip/Checksum;)V
 
     return-void
@@ -55,14 +52,12 @@
 .method public hash()Lcom/google/common/hash/HashCode;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/hash/ChecksumHashFunction$b;->b:Ljava/util/zip/Checksum;
 
     invoke-interface {v0}, Ljava/util/zip/Checksum;->getValue()J
 
     move-result-wide v0
 
-    .line 2
     iget-object v2, p0, Lcom/google/common/hash/ChecksumHashFunction$b;->c:Lcom/google/common/hash/ChecksumHashFunction;
 
     invoke-static {v2}, Lcom/google/common/hash/ChecksumHashFunction;->access$100(Lcom/google/common/hash/ChecksumHashFunction;)I
@@ -75,14 +70,12 @@
 
     long-to-int v1, v0
 
-    .line 3
     invoke-static {v1}, Lcom/google/common/hash/HashCode;->fromInt(I)Lcom/google/common/hash/HashCode;
 
     move-result-object v0
 
     return-object v0
 
-    .line 4
     :cond_0
     invoke-static {v0, v1}, Lcom/google/common/hash/HashCode;->fromLong(J)Lcom/google/common/hash/HashCode;
 
@@ -94,7 +87,6 @@
 .method protected p(B)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/hash/ChecksumHashFunction$b;->b:Ljava/util/zip/Checksum;
 
     invoke-interface {v0, p1}, Ljava/util/zip/Checksum;->update(I)V
@@ -105,7 +97,6 @@
 .method protected s([BII)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/hash/ChecksumHashFunction$b;->b:Ljava/util/zip/Checksum;
 
     invoke-interface {v0, p1, p2, p3}, Ljava/util/zip/Checksum;->update([BII)V

@@ -47,12 +47,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->values()[Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     move-result-object v1
 
-    .line 2
     array-length v2, v1
 
     const/4 v3, 0x0
@@ -62,7 +60,6 @@
 
     aget-object v4, v1, v3
 
-    .line 3
     iget-object v5, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$a;->b:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-virtual {v5}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->K1()Lcom/commsource/studio/effect/bodyshape/b;
@@ -89,7 +86,6 @@
 
     if-nez v5, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$a;->b:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->K1()Lcom/commsource/studio/effect/bodyshape/b;
@@ -120,13 +116,11 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 5
     :goto_1
     iget-object v2, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$a;->b:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {v2, v1}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->H1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;Lcom/commsource/studio/effect/bodyshape/a;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$a;->b:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->B1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/studio/effect/bodyshape/a;
@@ -139,7 +133,6 @@
 
     invoke-static {v2, v1}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->D1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;Lcom/commsource/studio/effect/bodyshape/a;)V
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$a;->b:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
@@ -161,7 +154,6 @@
 
     invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

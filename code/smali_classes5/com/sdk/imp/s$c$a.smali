@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/s$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/s$c$a;->a:Lcom/sdk/imp/s$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,7 +39,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/s$c$a;->a:Lcom/sdk/imp/s$c;
 
     iget-object v0, v0, Lcom/sdk/imp/s$c;->d:Landroid/content/Context;
@@ -59,10 +57,8 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-static {p1, p3}, Lcom/sdk/imp/VastAgent;->v(Lcom/sdk/imp/VastModel;I)V
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/sdk/imp/s$c$a;->a:Lcom/sdk/imp/s$c;
 
@@ -88,7 +84,6 @@
 
     invoke-virtual/range {v1 .. v8}, Lcom/sdk/api/VideoCardAd;->J(Lcom/sdk/api/Const$Event;IJJLjava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/sdk/imp/s$c$a;->a:Lcom/sdk/imp/s$c;
 
     iget-object p1, p1, Lcom/sdk/imp/s$c;->c:Lcom/sdk/imp/s$h;
@@ -101,7 +96,6 @@
 .method public b(Lcom/sdk/imp/VastModel;)V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/s$c$a;->a:Lcom/sdk/imp/s$c;
 
     iget-object v0, v0, Lcom/sdk/imp/s$c;->a:Lcom/sdk/api/VideoCardAd;
@@ -122,17 +116,14 @@
 
     invoke-virtual {v0, v1, v4, v2, v3}, Lcom/sdk/api/VideoCardAd;->I(Lcom/sdk/api/Const$Event;IJ)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/s$c$a;->a:Lcom/sdk/imp/s$c;
 
     iget-object v0, v0, Lcom/sdk/imp/s$c;->b:Lcom/sdk/imp/internal/loader/Ad;
 
     invoke-virtual {p1, v0}, Lcom/sdk/imp/VastModel;->setAd(Lcom/sdk/imp/internal/loader/Ad;)V
 
-    .line 3
     invoke-virtual {p1, v4}, Lcom/sdk/imp/VastModel;->setIsXmlFromCache(Z)V
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/s$c$a;->a:Lcom/sdk/imp/s$c;
 
     iget-object v0, v0, Lcom/sdk/imp/s$c;->f:Ljava/lang/String;
@@ -143,7 +134,6 @@
 
     invoke-static {v0, p1, v1}, Lcom/sdk/imp/x/a;->n(Ljava/lang/String;Ljava/io/Serializable;Lcom/sdk/imp/x/a$f;)V
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/s$c$a;->a:Lcom/sdk/imp/s$c;
 
     iget-object v0, v0, Lcom/sdk/imp/s$c;->c:Lcom/sdk/imp/s$h;

@@ -55,10 +55,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/remote/componets/a$b;->a:Ljava/lang/Class;
 
     return-void
@@ -67,7 +65,6 @@
 .method synthetic constructor <init>(Ljava/lang/Class;Lcom/meitu/remote/componets/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/remote/componets/a$b;-><init>(Ljava/lang/Class;)V
 
     return-void
@@ -84,7 +81,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -94,17 +90,14 @@
 
     const-string p1, "Context has no PackageManager."
 
-    .line 2
     invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 4
     :cond_0
     :try_start_1
     new-instance v4, Landroid/content/ComponentName;
@@ -115,14 +108,12 @@
 
     const/16 p1, 0x80
 
-    .line 5
     invoke-virtual {v3, v4, p1}, Landroid/content/pm/PackageManager;->getServiceInfo(Landroid/content/ComponentName;I)Landroid/content/pm/ServiceInfo;
 
     move-result-object p1
 
     if-nez p1, :cond_1
 
-    .line 6
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -143,12 +134,10 @@
     :try_end_1
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 8
     :cond_1
     :try_start_2
     iget-object p1, p1, Landroid/content/pm/ServiceInfo;->metaData:Landroid/os/Bundle;
@@ -162,10 +151,8 @@
     :catch_0
     const-string p1, "Application info not found."
 
-    .line 9
     invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 10
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -180,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/content/Context;
 
     invoke-virtual {p0, p1}, Lcom/meitu/remote/componets/a$b;->c(Landroid/content/Context;)Ljava/util/List;
@@ -211,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/remote/componets/a$b;->b(Landroid/content/Context;)Landroid/os/Bundle;
 
     move-result-object p1
@@ -222,10 +207,8 @@
 
     const-string v1, "Could not retrieve metadata, returning empty list of registrars."
 
-    .line 2
     invoke-static {p1, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object p1
@@ -234,7 +217,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
@@ -244,7 +226,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 5
     invoke-virtual {p1}, Landroid/os/Bundle;->keySet()Ljava/util/Set;
 
     move-result-object v2
@@ -271,7 +252,6 @@
 
     const-string v4, "com.meitu.remote.config:"
 
-    .line 6
     invoke-virtual {v3, v4}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v4
@@ -280,12 +260,10 @@
 
     const/16 v4, 0x18
 
-    .line 7
     invoke-virtual {v3, v4}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 8
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -294,12 +272,10 @@
 
     const/4 v5, 0x0
 
-    .line 9
     invoke-virtual {p1, v3, v5}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
     move-result v3
 
-    .line 10
     new-instance v5, Landroid/util/Pair;
 
     if-eqz v3, :cond_2
@@ -320,7 +296,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

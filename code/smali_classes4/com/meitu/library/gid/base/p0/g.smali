@@ -48,10 +48,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -70,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/p0/g;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -96,10 +93,8 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/meitu/library/gid/base/p0/g;->a:Ljava/util/List;
 
@@ -109,18 +104,15 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/gid/base/p0/g;->a:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     :cond_0
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -128,7 +120,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -138,7 +129,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -163,21 +153,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/meitu/library/gid/base/p0/g;->a:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -185,7 +171,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -208,26 +193,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/p0/g;->b:Ljava/lang/Object;
 
     if-nez v1, :cond_1
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/meitu/library/gid/base/p0/g;->b:Ljava/lang/Object;
 
     if-nez v1, :cond_0
 
-    .line 4
     new-instance v1, Lcom/meitu/library/gid/base/p0/g$a;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/gid/base/p0/g$a;-><init>(Lcom/meitu/library/gid/base/p0/g;)V
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v2
@@ -248,14 +228,12 @@
 
     const/4 v4, 0x0
 
-    .line 6
     aget-object v2, v2, v4
 
     check-cast v2, Ljava/lang/Class;
 
     aput-object v2, v3, v4
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v2
@@ -270,7 +248,6 @@
 
     iput-object v1, p0, Lcom/meitu/library/gid/base/p0/g;->b:Ljava/lang/Object;
 
-    .line 8
     :cond_0
     monitor-exit p0
 
@@ -287,7 +264,6 @@
 
     throw v1
 
-    .line 9
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/meitu/library/gid/base/p0/g;->b:Ljava/lang/Object;

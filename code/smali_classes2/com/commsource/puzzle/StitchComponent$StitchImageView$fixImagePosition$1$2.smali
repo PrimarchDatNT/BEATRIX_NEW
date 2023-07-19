@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/animation/Animator;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$2;->invoke(Landroid/animation/Animator;)V
@@ -77,7 +76,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$2;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
     iget-object v0, v0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView;
@@ -104,7 +102,6 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$2;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
@@ -118,7 +115,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/puzzle/StitchComponent$b;->v()V
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$2;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
@@ -128,7 +124,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/puzzle/StitchComponent$StitchImageView;->h(Lcom/commsource/puzzle/StitchComponent$StitchImageView;Z)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$2;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
     iget-object v0, v0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$endCallback:Lcotlin/jvm/u/a;
@@ -141,7 +136,6 @@
 
     check-cast v0, Lcotlin/t1;
 
-    .line 6
     :cond_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

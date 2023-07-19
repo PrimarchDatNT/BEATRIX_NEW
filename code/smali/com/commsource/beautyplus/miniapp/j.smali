@@ -23,10 +23,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->layout_mini_linear:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
@@ -60,24 +58,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/miniapp/j;->v()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -85,7 +79,6 @@
 
     check-cast p1, Lcom/commsource/beautyplus/miniapp/k;
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ql;->d:Landroid/widget/ImageView;
@@ -96,7 +89,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ql;->M:Lcom/commsource/widget/AutoFitTextView;
@@ -107,7 +99,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ql;->L:Lcom/commsource/widget/AutoFitTextView;
@@ -118,7 +109,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ql;->p:Landroid/widget/ImageView;
@@ -129,7 +119,6 @@
 
     invoke-static {p2, p3}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ql;->c:Landroid/widget/ImageView;
@@ -140,7 +129,6 @@
 
     invoke-static {p2, p3}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 10
     iget-object p2, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ql;->g:Landroid/widget/ImageView;
@@ -151,7 +139,6 @@
 
     invoke-static {p2, p3}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 11
     iget-object p2, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ql;->f:Landroid/view/View;
@@ -162,10 +149,8 @@
 
     invoke-static {p2, p1}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/beautyplus/miniapp/j;->v()V
 
-    .line 13
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -179,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
     move-result-object v1
@@ -190,14 +174,12 @@
 
     check-cast v1, Lcom/commsource/beautyplus/miniapp/k;
 
-    .line 2
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
 
     move-result v2
 
     if-ltz v2, :cond_3
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/beautyplus/miniapp/k;->p()Z
 
     move-result v2
@@ -216,7 +198,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/beautyplus/miniapp/k;->b()I
 
@@ -232,28 +213,24 @@
 
     if-gt v2, v5, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ql;->b:Landroid/widget/ImageView;
 
     invoke-static {v2, v4}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ql;->K:Lcom/commsource/widget/CircleDownloadProgressView;
 
     invoke-static {v2, v3}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ql;->a:Lcom/commsource/widget/PressImageView;
 
     invoke-static {v2, v4}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ql;->K:Lcom/commsource/widget/CircleDownloadProgressView;
@@ -266,7 +243,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
@@ -274,14 +250,12 @@
 
     invoke-static {v1, v4}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ql;->K:Lcom/commsource/widget/CircleDownloadProgressView;
 
     invoke-static {v1, v4}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ql;->a:Lcom/commsource/widget/PressImageView;
@@ -290,7 +264,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_2
     :goto_0
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
@@ -299,21 +272,18 @@
 
     invoke-static {v1, v3}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ql;->K:Lcom/commsource/widget/CircleDownloadProgressView;
 
     invoke-static {v1, v4}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/j;->p:Lcom/commsource/beautyplus/f0/ql;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ql;->a:Lcom/commsource/widget/PressImageView;
 
     invoke-static {v1, v4}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 15
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

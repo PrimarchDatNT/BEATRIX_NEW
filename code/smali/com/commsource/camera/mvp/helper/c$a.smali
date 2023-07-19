@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/commsource/camera/mvp/helper/c;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/mvp/helper/c$a;->b:Lcom/commsource/camera/mvp/helper/c;
 
     iput p2, p0, Lcom/commsource/camera/mvp/helper/c$a;->a:I
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterialGroup;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/mvp/helper/c$a;->b(Lcom/meitu/template/bean/ArMaterialGroup;)V
@@ -74,14 +72,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/mvp/helper/c$a;->b:Lcom/commsource/camera/mvp/helper/c;
 
     iget v1, p0, Lcom/commsource/camera/mvp/helper/c$a;->a:I
 
     invoke-static {p1, v1}, Lcom/commsource/camera/mvp/helper/c;->a(Lcom/commsource/camera/mvp/helper/c;I)I
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

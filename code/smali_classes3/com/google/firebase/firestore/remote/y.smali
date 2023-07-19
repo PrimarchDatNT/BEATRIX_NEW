@@ -59,22 +59,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/remote/y;->a:Lcom/google/protobuf/ByteString;
 
-    .line 3
     iput-boolean p2, p0, Lcom/google/firebase/firestore/remote/y;->b:Z
 
-    .line 4
     iput-object p3, p0, Lcom/google/firebase/firestore/remote/y;->c:Lcom/google/firebase/database/collection/f;
 
-    .line 5
     iput-object p4, p0, Lcom/google/firebase/firestore/remote/y;->d:Lcom/google/firebase/database/collection/f;
 
-    .line 6
     iput-object p5, p0, Lcom/google/firebase/firestore/remote/y;->e:Lcom/google/firebase/database/collection/f;
 
     return-void
@@ -93,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/y;->c:Lcom/google/firebase/database/collection/f;
 
     return-object v0
@@ -110,7 +103,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/y;->d:Lcom/google/firebase/database/collection/f;
 
     return-object v0
@@ -127,7 +119,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/y;->e:Lcom/google/firebase/database/collection/f;
 
     return-object v0
@@ -136,7 +127,6 @@
 .method public d()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/y;->a:Lcom/google/protobuf/ByteString;
 
     return-object v0
@@ -145,7 +135,6 @@
 .method public e()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/remote/y;->b:Z
 
     return v0
@@ -165,7 +154,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 1
     const-class v1, Lcom/google/firebase/firestore/remote/y;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -176,11 +164,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/firestore/remote/y;
 
-    .line 3
     iget-boolean v1, p0, Lcom/google/firebase/firestore/remote/y;->b:Z
 
     iget-boolean v2, p1, Lcom/google/firebase/firestore/remote/y;->b:Z
@@ -189,7 +175,6 @@
 
     return v0
 
-    .line 4
     :cond_2
     iget-object v1, p0, Lcom/google/firebase/firestore/remote/y;->a:Lcom/google/protobuf/ByteString;
 
@@ -203,7 +188,6 @@
 
     return v0
 
-    .line 5
     :cond_3
     iget-object v1, p0, Lcom/google/firebase/firestore/remote/y;->c:Lcom/google/firebase/database/collection/f;
 
@@ -217,7 +201,6 @@
 
     return v0
 
-    .line 6
     :cond_4
     iget-object v1, p0, Lcom/google/firebase/firestore/remote/y;->d:Lcom/google/firebase/database/collection/f;
 
@@ -231,7 +214,6 @@
 
     return v0
 
-    .line 7
     :cond_5
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/y;->e:Lcom/google/firebase/database/collection/f;
 
@@ -251,7 +233,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/y;->a:Lcom/google/protobuf/ByteString;
 
     invoke-virtual {v0}, Lcom/google/protobuf/ByteString;->hashCode()I
@@ -260,14 +241,12 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-boolean v1, p0, Lcom/google/firebase/firestore/remote/y;->b:Z
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/firestore/remote/y;->c:Lcom/google/firebase/database/collection/f;
 
     invoke-virtual {v1}, Lcom/google/firebase/database/collection/f;->hashCode()I
@@ -278,7 +257,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     iget-object v1, p0, Lcom/google/firebase/firestore/remote/y;->d:Lcom/google/firebase/database/collection/f;
 
     invoke-virtual {v1}, Lcom/google/firebase/database/collection/f;->hashCode()I
@@ -289,7 +267,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 5
     iget-object v1, p0, Lcom/google/firebase/firestore/remote/y;->e:Lcom/google/firebase/database/collection/f;
 
     invoke-virtual {v1}, Lcom/google/firebase/database/collection/f;->hashCode()I

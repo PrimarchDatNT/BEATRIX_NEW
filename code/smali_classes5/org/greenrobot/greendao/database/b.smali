@@ -29,7 +29,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0, p3}, Lorg/greenrobot/greendao/database/b;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
 
     return-void
@@ -38,21 +37,16 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
 
     const/4 p3, 0x1
 
-    .line 3
     iput-boolean p3, p0, Lorg/greenrobot/greendao/database/b;->f:Z
 
-    .line 4
     iput-object p1, p0, Lorg/greenrobot/greendao/database/b;->a:Landroid/content/Context;
 
-    .line 5
     iput-object p2, p0, Lorg/greenrobot/greendao/database/b;->b:Ljava/lang/String;
 
-    .line 6
     iput p4, p0, Lorg/greenrobot/greendao/database/b;->c:I
 
     return-void
@@ -66,21 +60,16 @@
         }
     .end annotation
 
-    .line 7
     invoke-direct/range {p0 .. p5}, Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;ILandroid/database/DatabaseErrorHandler;)V
 
     const/4 p3, 0x1
 
-    .line 8
     iput-boolean p3, p0, Lorg/greenrobot/greendao/database/b;->f:Z
 
-    .line 9
     iput-object p1, p0, Lorg/greenrobot/greendao/database/b;->a:Landroid/content/Context;
 
-    .line 10
     iput-object p2, p0, Lorg/greenrobot/greendao/database/b;->b:Ljava/lang/String;
 
-    .line 11
     iput p4, p0, Lorg/greenrobot/greendao/database/b;->c:I
 
     return-void
@@ -89,7 +78,6 @@
 .method private a()Lorg/greenrobot/greendao/database/b$a;
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/database/b;->d:Lorg/greenrobot/greendao/database/b$a;
 
     if-nez v0, :cond_0
@@ -97,7 +85,6 @@
     :try_start_0
     const-string v0, "net.sqlcipher.database.SQLiteOpenHelper"
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_1
@@ -105,7 +92,6 @@
     :try_start_1
     const-string v0, "org.greenrobot.greendao.database.SqlCipherEncryptedHelper"
 
-    .line 3
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -114,7 +100,6 @@
 
     new-array v2, v1, [Ljava/lang/Class;
 
-    .line 4
     const-class v3, Lorg/greenrobot/greendao/database/b;
 
     const/4 v4, 0x0
@@ -153,7 +138,6 @@
 
     aput-object p0, v1, v4
 
-    .line 5
     iget-object v2, p0, Lorg/greenrobot/greendao/database/b;->a:Landroid/content/Context;
 
     aput-object v2, v1, v5
@@ -164,7 +148,6 @@
 
     iget v2, p0, Lorg/greenrobot/greendao/database/b;->c:I
 
-    .line 6
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -179,7 +162,6 @@
 
     aput-object v2, v1, v8
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -195,14 +177,12 @@
     :catch_0
     move-exception v0
 
-    .line 8
     new-instance v1, Lorg/greenrobot/greendao/DaoException;
 
     invoke-direct {v1, v0}, Lorg/greenrobot/greendao/DaoException;-><init>(Ljava/lang/Throwable;)V
 
     throw v1
 
-    .line 9
     :catch_1
     new-instance v0, Lorg/greenrobot/greendao/DaoException;
 
@@ -212,7 +192,6 @@
 
     throw v0
 
-    .line 10
     :cond_0
     :goto_0
     iget-object v0, p0, Lorg/greenrobot/greendao/database/b;->d:Lorg/greenrobot/greendao/database/b$a;
@@ -225,12 +204,10 @@
 .method public b(Ljava/lang/String;)Lorg/greenrobot/greendao/database/a;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/greenrobot/greendao/database/b;->a()Lorg/greenrobot/greendao/database/b$a;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0, p1}, Lorg/greenrobot/greendao/database/b$a;->getEncryptedReadableDb(Ljava/lang/String;)Lorg/greenrobot/greendao/database/a;
 
     move-result-object p1
@@ -241,12 +218,10 @@
 .method public c([C)Lorg/greenrobot/greendao/database/a;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/greenrobot/greendao/database/b;->a()Lorg/greenrobot/greendao/database/b$a;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0, p1}, Lorg/greenrobot/greendao/database/b$a;->getEncryptedReadableDb([C)Lorg/greenrobot/greendao/database/a;
 
     move-result-object p1
@@ -257,12 +232,10 @@
 .method public d(Ljava/lang/String;)Lorg/greenrobot/greendao/database/a;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/greenrobot/greendao/database/b;->a()Lorg/greenrobot/greendao/database/b$a;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0, p1}, Lorg/greenrobot/greendao/database/b$a;->getEncryptedWritableDb(Ljava/lang/String;)Lorg/greenrobot/greendao/database/a;
 
     move-result-object p1
@@ -273,12 +246,10 @@
 .method public e([C)Lorg/greenrobot/greendao/database/a;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/greenrobot/greendao/database/b;->a()Lorg/greenrobot/greendao/database/b$a;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0, p1}, Lorg/greenrobot/greendao/database/b$a;->getEncryptedWritableDb([C)Lorg/greenrobot/greendao/database/a;
 
     move-result-object p1
@@ -289,7 +260,6 @@
 .method public f()Lorg/greenrobot/greendao/database/a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/database/sqlite/SQLiteOpenHelper;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
@@ -304,7 +274,6 @@
 .method public g()Lorg/greenrobot/greendao/database/a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
@@ -337,7 +306,6 @@
 .method public k(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/greenrobot/greendao/database/b;->f:Z
 
     return-void
@@ -346,7 +314,6 @@
 .method protected l(Landroid/database/sqlite/SQLiteDatabase;)Lorg/greenrobot/greendao/database/a;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/database/f;
 
     invoke-direct {v0, p1}, Lorg/greenrobot/greendao/database/f;-><init>(Landroid/database/sqlite/SQLiteDatabase;)V
@@ -357,7 +324,6 @@
 .method public onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/greenrobot/greendao/database/b;->l(Landroid/database/sqlite/SQLiteDatabase;)Lorg/greenrobot/greendao/database/a;
 
     move-result-object p1
@@ -370,7 +336,6 @@
 .method public onOpen(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/greenrobot/greendao/database/b;->l(Landroid/database/sqlite/SQLiteDatabase;)Lorg/greenrobot/greendao/database/a;
 
     move-result-object p1
@@ -383,7 +348,6 @@
 .method public onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/greenrobot/greendao/database/b;->l(Landroid/database/sqlite/SQLiteDatabase;)Lorg/greenrobot/greendao/database/a;
 
     move-result-object p1

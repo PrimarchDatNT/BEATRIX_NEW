@@ -62,7 +62,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/v;
 
     check-cast p2, Lkshark/HeapObject$HeapInstance;
@@ -101,7 +100,6 @@
 
     const-string v3, "mParent"
 
-    .line 2
     invoke-virtual {v0, v1, v3}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v3
@@ -115,14 +113,12 @@
 
     move-result-object v3
 
-    .line 3
     invoke-virtual {v3}, Lkshark/j;->n()Z
 
     move-result v4
 
     const-string v5, "mWindowAttachCount"
 
-    .line 4
     invoke-virtual {v0, v1, v5}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v5
@@ -152,7 +148,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 5
     :cond_3
     invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
 
@@ -160,7 +155,6 @@
 
     const-string v7, "mAttachInfo"
 
-    .line 6
     invoke-virtual {v0, v1, v7}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v8
@@ -180,7 +174,6 @@
 
     const-string v9, "mContext"
 
-    .line 7
     invoke-virtual {v0, v1, v9}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v9
@@ -211,13 +204,11 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 8
     :cond_7
     invoke-static {v9}, Lkshark/b;->e(Lkshark/HeapObject$HeapInstance;)Lkshark/HeapObject$HeapInstance;
 
     move-result-object v10
 
-    .line 9
     invoke-virtual/range {p1 .. p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 
     move-result-object v11
@@ -230,7 +221,6 @@
 
     if-nez v10, :cond_8
 
-    .line 10
     new-instance v15, Ljava/lang/StringBuilder;
 
     invoke-direct {v15}, Ljava/lang/StringBuilder;-><init>()V
@@ -253,7 +243,6 @@
 
     goto/16 :goto_2
 
-    .line 11
     :cond_8
     new-instance v15, Ljava/lang/StringBuilder;
 
@@ -296,7 +285,6 @@
     :cond_9
     const-string v6, "UNKNOWN"
 
-    .line 12
     :goto_1
     invoke-virtual {v15, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -304,7 +292,6 @@
 
     move-result-object v6
 
-    .line 13
     invoke-static {v10, v9}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v15
@@ -313,7 +300,6 @@
 
     if-eqz v15, :cond_a
 
-    .line 14
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -336,7 +322,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_a
     new-instance v15, Ljava/lang/StringBuilder;
 
@@ -368,13 +353,11 @@
 
     move-result-object v9
 
-    .line 16
     :goto_2
     invoke-interface {v11, v9}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     if-eqz v10, :cond_c
 
-    .line 17
     invoke-virtual {v10, v13, v12}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v2
@@ -405,7 +388,6 @@
 
     if-eqz v2, :cond_c
 
-    .line 18
     invoke-virtual/range {p1 .. p1}, Lkshark/v;->c()Ljava/util/Set;
 
     move-result-object v2
@@ -423,7 +405,6 @@
 
     if-eqz v8, :cond_d
 
-    .line 19
     invoke-virtual/range {p1 .. p1}, Lkshark/v;->c()Ljava/util/Set;
 
     move-result-object v2
@@ -434,7 +415,6 @@
 
     goto/16 :goto_4
 
-    .line 20
     :cond_d
     invoke-virtual {v3}, Lkshark/j;->i()Lkshark/HeapObject;
 
@@ -453,7 +433,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 21
     :cond_f
     invoke-virtual {v2, v1}, Lkshark/HeapObject$HeapInstance;->r(Ljava/lang/String;)Z
 
@@ -463,7 +442,6 @@
 
     if-eqz v3, :cond_12
 
-    .line 22
     invoke-virtual {v2, v1, v7}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v3
@@ -483,7 +461,6 @@
 
     if-eqz v3, :cond_11
 
-    .line 23
     invoke-virtual/range {p1 .. p1}, Lkshark/v;->c()Ljava/util/Set;
 
     move-result-object v3
@@ -514,7 +491,6 @@
 
     goto :goto_4
 
-    .line 24
     :cond_11
     invoke-virtual/range {p1 .. p1}, Lkshark/v;->e()Ljava/util/Set;
 
@@ -522,7 +498,6 @@
 
     invoke-interface {v3, v6}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 25
     invoke-virtual/range {p1 .. p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 
     move-result-object v3
@@ -553,7 +528,6 @@
 
     goto :goto_4
 
-    .line 26
     :cond_12
     invoke-virtual/range {p1 .. p1}, Lkshark/v;->e()Ljava/util/Set;
 
@@ -561,7 +535,6 @@
 
     invoke-interface {v3, v6}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 27
     invoke-virtual/range {p1 .. p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 
     move-result-object v3
@@ -590,7 +563,6 @@
 
     invoke-interface {v3, v2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 28
     :cond_13
     :goto_4
     invoke-virtual/range {p1 .. p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
@@ -609,7 +581,6 @@
     :goto_5
     invoke-interface {v2, v3}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 29
     invoke-virtual/range {p1 .. p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 
     move-result-object v2
@@ -626,7 +597,6 @@
     :goto_6
     invoke-interface {v2, v3}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 30
     sget-object v2, Lkshark/AndroidResourceIdNames;->Companion:Lkshark/AndroidResourceIdNames$Companion;
 
     invoke-virtual/range {p2 .. p2}, Lkshark/HeapObject$HeapInstance;->f()Lkshark/i;
@@ -641,7 +611,6 @@
 
     const-string v3, "mID"
 
-    .line 31
     invoke-virtual {v0, v1, v3}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v0
@@ -672,12 +641,10 @@
 
     if-eq v0, v1, :cond_18
 
-    .line 32
     invoke-virtual {v2, v0}, Lkshark/AndroidResourceIdNames;->get(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 33
     invoke-virtual/range {p1 .. p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 
     move-result-object v1
@@ -698,7 +665,6 @@
 
     invoke-interface {v1, v0}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 34
     :cond_18
     invoke-virtual/range {p1 .. p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 

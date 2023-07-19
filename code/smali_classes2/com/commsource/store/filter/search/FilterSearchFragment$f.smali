@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$f;->b:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$f;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -62,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$f;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -85,17 +82,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
-    .line 2
     iget p1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$f;->a:I
 
     if-nez p1, :cond_0
 
     if-eqz p2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$f;->b:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-static {p1}, Lcom/commsource/store/filter/search/FilterSearchFragment;->B(Lcom/commsource/store/filter/search/FilterSearchFragment;)Lcom/commsource/beautyplus/f0/e8;
@@ -106,7 +100,6 @@
 
     invoke-virtual {p1}, Landroid/widget/EditText;->clearFocus()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$f;->b:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-static {p1}, Lcom/commsource/store/filter/search/FilterSearchFragment;->B(Lcom/commsource/store/filter/search/FilterSearchFragment;)Lcom/commsource/beautyplus/f0/e8;
@@ -117,11 +110,9 @@
 
     invoke-static {p1}, Lcom/commsource/camera/f1/r;->a(Landroid/view/View;)V
 
-    .line 5
     :cond_0
     iput p2, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$f;->a:I
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

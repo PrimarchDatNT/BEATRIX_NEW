@@ -26,10 +26,8 @@
 .method public constructor <init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/e;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/l/g/h;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/e;
 
     return-void
@@ -53,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/bumptech/glide/n/a;
 
     invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/load/l/g/h;->d(Lcom/bumptech/glide/n/a;Lcom/bumptech/glide/load/f;)Z
@@ -79,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/bumptech/glide/n/a;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/l/g/h;->c(Lcom/bumptech/glide/n/a;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -112,12 +108,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/bumptech/glide/n/a;->C1()Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    .line 2
     iget-object p2, p0, Lcom/bumptech/glide/load/l/g/h;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/e;
 
     invoke-static {p1, p2}, Lcom/bumptech/glide/load/resource/bitmap/g;->e(Landroid/graphics/Bitmap;Lcom/bumptech/glide/load/engine/bitmap_recycle/e;)Lcom/bumptech/glide/load/resource/bitmap/g;

@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v4, Landroid/os/Bundle;
 
     invoke-direct {v4}, Landroid/os/Bundle;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result p1
@@ -71,14 +69,12 @@
 
     invoke-virtual {v4, v1, p1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 3
     sget-object p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;
 
     move-result-object v1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$f;->a:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/store/sticker/StickerStoreActivity;->R0(Lcom/commsource/store/sticker/StickerStoreActivity;)Lcom/commsource/beautyplus/f0/w0;
@@ -91,17 +87,14 @@
 
     invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     const-class v3, Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
     sget v5, Lcom/res/provider/ResANIM;->slide_right_in:I
 
     sget v6, Lcom/res/provider/ResANIM;->slide_left_out:I
 
-    .line 6
     invoke-virtual/range {v1 .. v6}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->g(Landroid/view/View;Ljava/lang/Class;Landroid/os/Bundle;II)Lcom/commsource/beautyplus/i0/a;
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -115,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/sticker/StickerStoreActivity$f;->a(Lcom/meitu/template/bean/StickerGroup;)V

@@ -111,7 +111,6 @@
 
     const/high16 v1, 0x41800000    # 16.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -120,7 +119,6 @@
 
     const/high16 v1, 0x41a00000    # 20.0f
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -129,7 +127,6 @@
 
     const/high16 v1, 0x40800000    # 4.0f
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -214,36 +211,30 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     new-instance p1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$a;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$a;-><init>(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;)V
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 5
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->d:Landroid/graphics/RectF;
 
-    .line 6
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->f:Landroid/graphics/RectF;
 
-    .line 7
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     const/4 p2, 0x0
@@ -252,7 +243,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->g:Lcom/commsource/camera/f1/n;
 
-    .line 8
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     sget p3, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->T:F
@@ -261,7 +251,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->p:Lcom/commsource/camera/f1/n;
 
-    .line 9
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     sget p3, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->U:F
@@ -270,14 +259,12 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->J:Lcom/commsource/camera/f1/n;
 
-    .line 10
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1, p2}, Lcom/commsource/camera/f1/n;-><init>(F)V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->K:Lcom/commsource/camera/f1/n;
 
-    .line 11
     sget-object p1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$gradient$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$gradient$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -286,7 +273,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->L:Lcotlin/w;
 
-    .line 12
     new-instance p1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$backgroundOpenPaint$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$backgroundOpenPaint$2;-><init>(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;)V
@@ -297,7 +283,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->M:Lcotlin/w;
 
-    .line 13
     sget-object p1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$backgroundClosePaint$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$backgroundClosePaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -306,7 +291,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->N:Lcotlin/w;
 
-    .line 14
     sget-object p1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$indicatorPaint$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$indicatorPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -319,7 +303,6 @@
 
     new-array p1, p1, [F
 
-    .line 15
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -328,12 +311,10 @@
 
     const-wide/16 p2, 0xc8
 
-    .line 16
     invoke-virtual {p1, p2, p3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
-    .line 17
     new-instance p2, Landroid/view/animation/OvershootInterpolator;
 
     const/high16 p3, 0x3fc00000    # 1.5f
@@ -344,7 +325,6 @@
 
     move-result-object p1
 
-    .line 18
     new-instance p2, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$d;
 
     invoke-direct {p2, p0}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$d;-><init>(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;)V
@@ -357,7 +337,6 @@
 
     const/4 p1, 0x1
 
-    .line 19
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->R:Z
 
     return-void
@@ -387,7 +366,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -401,7 +379,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->U:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -416,7 +393,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->T:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -431,7 +407,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->V:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -446,7 +421,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->U:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -461,7 +435,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->T:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -476,7 +449,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->V:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -506,7 +478,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->l(ZZZ)V
 
@@ -617,7 +588,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->J:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -656,7 +626,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->d:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -673,7 +642,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->p:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -688,7 +656,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->R:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -749,7 +716,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->f:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -766,7 +732,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->g:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -781,7 +746,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -796,7 +760,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -813,7 +776,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->Q:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -830,7 +792,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->K:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -845,7 +806,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -862,10 +822,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v1, v1}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->l(ZZZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -880,10 +838,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, p2, v1}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->l(ZZZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -896,65 +852,54 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->isEnabled()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->c:Z
 
     if-ne v1, p1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->c:Z
 
-    .line 6
     iput-boolean p3, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->R:Z
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->P:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->a()V
 
     if-eqz p2, :cond_2
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->P:Lcom/commsource/camera/f1/l;
 
     const-wide/16 p2, 0xc8
 
     invoke-virtual {p1, p2, p3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->P:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
     goto :goto_0
 
-    .line 11
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->P:Lcom/commsource/camera/f1/l;
 
@@ -962,12 +907,10 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->P:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 13
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -989,10 +932,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->d:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->J:Lcom/commsource/camera/f1/n;
@@ -1013,7 +954,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->d:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->J:Lcom/commsource/camera/f1/n;
@@ -1034,7 +974,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->f:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->p:Lcom/commsource/camera/f1/n;
@@ -1055,7 +994,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1068,27 +1006,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
     int-to-float p1, p1
 
-    .line 2
     iput p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->a:F
 
     int-to-float p2, p2
 
-    .line 3
     iput p2, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->b:F
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->d:Landroid/graphics/RectF;
 
     const/4 p4, 0x0
 
     invoke-virtual {p3, p4, p4, p1, p2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->f:Landroid/graphics/RectF;
 
     sget p2, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->V:F
@@ -1117,7 +1050,6 @@
 
     invoke-virtual {p1, p2, v2, v4, p3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->f:Landroid/graphics/RectF;
 
     iget-object p2, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->g:Lcom/commsource/camera/f1/n;
@@ -1128,7 +1060,6 @@
 
     invoke-virtual {p1, p2, p4}, Landroid/graphics/RectF;->offset(FF)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1149,7 +1080,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->J:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1172,7 +1102,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->d:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1195,7 +1124,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->p:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1210,7 +1138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->R:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1233,7 +1160,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->f:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1256,7 +1182,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->g:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1271,7 +1196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1286,7 +1210,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1305,7 +1228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->Q:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1320,7 +1242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1343,7 +1264,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->K:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

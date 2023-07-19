@@ -21,17 +21,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEyelid$Type;
 
     invoke-direct {v0, p0}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEyelid$Type;-><init>(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEyelid;)V
 
     iput-object v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEyelid;->left:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEyelid$Type;
 
-    .line 3
     new-instance v0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEyelid$Type;
 
     invoke-direct {v0, p0}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEyelid$Type;-><init>(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEyelid;)V

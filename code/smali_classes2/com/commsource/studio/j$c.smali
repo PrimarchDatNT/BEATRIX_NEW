@@ -74,7 +74,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -87,7 +86,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/j$c;->a:Lcom/commsource/studio/j;
 
     invoke-virtual {v1}, Lcom/commsource/studio/j;->m()Lcom/commsource/studio/MatrixBox;
@@ -104,7 +102,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->setScale(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/j$c;->a:Lcom/commsource/studio/j;
 
     invoke-virtual {v1}, Lcom/commsource/studio/j;->m()Lcom/commsource/studio/MatrixBox;
@@ -121,7 +118,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->setTranslateX(F)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/j$c;->a:Lcom/commsource/studio/j;
 
     invoke-virtual {v1}, Lcom/commsource/studio/j;->m()Lcom/commsource/studio/MatrixBox;
@@ -138,17 +134,14 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->setTranslateY(F)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/j$c;->a:Lcom/commsource/studio/j;
 
     invoke-virtual {p1}, Lcom/commsource/studio/j;->o()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

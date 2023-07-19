@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$a$a;->e:Lcom/commsource/camera/xcamera/cover/ProCover$a;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/delegate/process/m;-><init>(Ljava/lang/String;)V
@@ -49,7 +48,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$a$a;->e:Lcom/commsource/camera/xcamera/cover/ProCover$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/ProCover$a;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
@@ -74,7 +72,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/ProView;->M(Ljava/lang/Integer;)V
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$a$a;->e:Lcom/commsource/camera/xcamera/cover/ProCover$a;
 
@@ -90,7 +87,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$a$a;->e:Lcom/commsource/camera/xcamera/cover/ProCover$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/ProCover$a;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
@@ -101,7 +97,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->K0()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

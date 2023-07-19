@@ -54,7 +54,6 @@
 
     const/4 v0, 0x4
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/common/collect/ImmutableSortedMap$b;-><init>(Ljava/util/Comparator;I)V
 
     return-void
@@ -70,10 +69,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableMap$b;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -82,12 +79,10 @@
 
     iput-object p1, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->g:Ljava/util/Comparator;
 
-    .line 4
     new-array p1, p2, [Ljava/lang/Object;
 
     iput-object p1, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->e:[Ljava/lang/Object;
 
-    .line 5
     new-array p1, p2, [Ljava/lang/Object;
 
     iput-object p1, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->f:[Ljava/lang/Object;
@@ -98,21 +93,18 @@
 .method private b(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->e:[Ljava/lang/Object;
 
     array-length v1, v0
 
     if-le p1, v1, :cond_0
 
-    .line 2
     array-length v0, v0
 
     invoke-static {v0, p1}, Lcom/google/common/collect/ImmutableCollection$b;->f(II)I
 
     move-result p1
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->e:[Ljava/lang/Object;
 
     invoke-static {v0, p1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -121,7 +113,6 @@
 
     iput-object v0, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->e:[Ljava/lang/Object;
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->f:[Ljava/lang/Object;
 
     invoke-static {v0, p1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -139,7 +130,6 @@
 .method public bridge synthetic a()Lcom/google/common/collect/ImmutableMap;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableSortedMap$b;->i()Lcom/google/common/collect/ImmutableSortedMap;
 
     move-result-object v0
@@ -158,7 +148,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableSortedMap$b;->j(Ljava/util/Comparator;)Lcom/google/common/collect/ImmutableSortedMap$b;
 
     move-result-object p1
@@ -171,7 +160,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableSortedMap$b;->k(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSortedMap$b;
 
     move-result-object p1
@@ -184,7 +172,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableSortedMap$b;->l(Ljava/util/Map$Entry;)Lcom/google/common/collect/ImmutableSortedMap$b;
 
     move-result-object p1
@@ -200,7 +187,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableSortedMap$b;->m(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableSortedMap$b;
 
     move-result-object p1
@@ -213,7 +199,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableSortedMap$b;->n(Ljava/util/Map;)Lcom/google/common/collect/ImmutableSortedMap$b;
 
     move-result-object p1
@@ -231,7 +216,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
     if-eqz v0, :cond_4
@@ -242,24 +226,20 @@
 
     if-eq v0, v2, :cond_3
 
-    .line 2
     iget-object v2, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->e:[Ljava/lang/Object;
 
     invoke-static {v2, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 3
     iget-object v2, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->g:Ljava/util/Comparator;
 
     invoke-static {v0, v2}, Ljava/util/Arrays;->sort([Ljava/lang/Object;Ljava/util/Comparator;)V
 
-    .line 4
     iget v2, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    .line 5
     :goto_0
     iget v3, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
@@ -267,7 +247,6 @@
 
     if-lez v1, :cond_1
 
-    .line 6
     iget-object v3, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->g:Ljava/util/Comparator;
 
     add-int/lit8 v4, v1, -0x1
@@ -284,7 +263,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     new-instance v2, Ljava/lang/IllegalArgumentException;
 
@@ -316,7 +294,6 @@
 
     throw v2
 
-    .line 8
     :cond_1
     :goto_1
     iget-object v3, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->e:[Ljava/lang/Object;
@@ -329,7 +306,6 @@
 
     move-result v3
 
-    .line 9
     iget-object v4, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->f:[Ljava/lang/Object;
 
     aget-object v4, v4, v1
@@ -340,13 +316,11 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     new-instance v1, Lcom/google/common/collect/ImmutableSortedMap;
 
     new-instance v3, Lcom/google/common/collect/RegularImmutableSortedSet;
 
-    .line 11
     invoke-static {v0}, Lcom/google/common/collect/ImmutableList;->asImmutableList([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
 
     move-result-object v0
@@ -355,7 +329,6 @@
 
     invoke-direct {v3, v0, v4}, Lcom/google/common/collect/RegularImmutableSortedSet;-><init>(Lcom/google/common/collect/ImmutableList;Ljava/util/Comparator;)V
 
-    .line 12
     invoke-static {v2}, Lcom/google/common/collect/ImmutableList;->asImmutableList([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
 
     move-result-object v0
@@ -364,7 +337,6 @@
 
     return-object v1
 
-    .line 13
     :cond_3
     iget-object v0, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->g:Ljava/util/Comparator;
 
@@ -382,7 +354,6 @@
 
     return-object v0
 
-    .line 14
     :cond_4
     iget-object v0, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->g:Ljava/util/Comparator;
 
@@ -414,7 +385,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Not available on ImmutableSortedMap.Builder"
@@ -437,31 +407,26 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
     add-int/lit8 v0, v0, 0x1
 
     invoke-direct {p0, v0}, Lcom/google/common/collect/ImmutableSortedMap$b;->b(I)V
 
-    .line 2
     invoke-static {p1, p2}, Lcom/google/common/collect/m;->a(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->e:[Ljava/lang/Object;
 
     iget v1, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
     aput-object p1, v0, v1
 
-    .line 4
     iget-object p1, p0, Lcom/google/common/collect/ImmutableSortedMap$b;->f:[Ljava/lang/Object;
 
     aput-object p2, p1, v1
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 5
     iput v1, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
     return-object p0
@@ -482,7 +447,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableMap$b;->e(Ljava/util/Map$Entry;)Lcom/google/common/collect/ImmutableMap$b;
 
     return-object p0
@@ -508,7 +472,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableMap$b;->f(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMap$b;
 
     return-object p0
@@ -529,7 +492,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableMap$b;->g(Ljava/util/Map;)Lcom/google/common/collect/ImmutableMap$b;
 
     return-object p0

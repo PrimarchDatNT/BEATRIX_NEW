@@ -27,7 +27,6 @@
 .method constructor <init>(Ljava/util/List;Lf/k/h/a/l/y/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/l/w$d;->a:Ljava/util/List;
 
     iput-object p2, p0, Lf/k/h/a/l/w$d;->b:Lf/k/h/a/l/y/i;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/l/w;->a:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -73,15 +71,12 @@
 
     invoke-static {v1, v2}, Lf/k/h/a/c;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lf/k/h/a/l/w$d;->b:Lf/k/h/a/l/y/i;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1, p1, p2}, Lf/k/h/a/l/y/i;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -103,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/l/w;->a:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -130,31 +124,26 @@
 
     invoke-static {v1, v2}, Lf/k/h/a/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
 
     if-lez v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lf/k/h/a/l/w$d;->a:Ljava/util/List;
 
     invoke-static {p1, v2}, Lf/k/h/a/l/w;->a(Ljava/util/List;Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 5
     invoke-interface {v1, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 6
     :cond_0
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
@@ -168,15 +157,12 @@
 
     invoke-interface {p1, v2, v3}, Lf/k/h/a/l/o;->h(Ljava/util/List;Z)V
 
-    .line 7
     iget-object p1, p0, Lf/k/h/a/l/w$d;->b:Lf/k/h/a/l/y/i;
 
     if-eqz p1, :cond_1
 
-    .line 8
     invoke-interface {p1, v1}, Lf/k/h/a/l/y/i;->e(Ljava/util/List;)V
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -77,7 +77,6 @@
 
     sput-object v1, Lcom/commsource/studio/h0;->G:Lcom/commsource/studio/h0$a;
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/f/i;->u()I
 
     move-result v1
@@ -96,7 +95,6 @@
 
     const/16 v1, 0xf
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v1
@@ -105,14 +103,12 @@
 
     const/16 v2, 0xa
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v2
 
     sput v2, Lcom/commsource/studio/h0;->A:I
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v3
@@ -129,7 +125,6 @@
 
     sput v3, Lcom/commsource/studio/h0;->B:F
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v4
@@ -148,7 +143,6 @@
 
     sput v1, Lcom/commsource/studio/h0;->C:F
 
-    .line 6
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v1
@@ -175,12 +169,10 @@
 
     mul-float v3, v3, v1
 
-    .line 7
     sput v3, Lcom/commsource/studio/h0;->E:F
 
     const v1, 0x3fe38e39
 
-    .line 8
     sput v1, Lcom/commsource/studio/h0;->F:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -215,33 +207,28 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p2, p3}, Lcom/commsource/studio/PictureAnimationWrapper;-><init>(Lcom/commsource/studio/bean/PictureLayerInfo;Lcom/commsource/studio/bean/d;)V
 
     iput p4, p0, Lcom/commsource/studio/h0;->x:I
 
-    .line 2
     new-instance p4, Landroid/graphics/Rect;
 
     invoke-direct {p4}, Landroid/graphics/Rect;-><init>()V
 
     iput-object p4, p0, Lcom/commsource/studio/h0;->q:Landroid/graphics/Rect;
 
-    .line 3
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/h0;->r:Landroid/graphics/RectF;
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/studio/h0;->s:Lcom/commsource/studio/MatrixBox;
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/PictureAnimationWrapper;->n()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v1
@@ -250,20 +237,16 @@
 
     invoke-direct {v2}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 6
     invoke-virtual {p2}, Lcom/commsource/studio/bean/FocusLayerInfo;->getPictureRealMatrix()Lcom/commsource/studio/MatrixBox;
 
     move-result-object p2
 
     invoke-virtual {v2, p2}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 7
     invoke-virtual {v2, p1}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 8
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/PictureAnimationWrapper;->b()Lcom/commsource/studio/MatrixBox;
 
     move-result-object p1
@@ -274,24 +257,20 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/h0;->M()F
 
     move-result p1
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/h0;->L()F
 
     move-result p2
 
-    .line 12
     invoke-virtual {p3}, Lcom/commsource/studio/bean/d;->c()Lcom/commsource/studio/y;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
-    .line 13
     invoke-virtual {v1}, Lcom/commsource/studio/y;->d()I
 
     move-result v2
@@ -314,7 +293,6 @@
 
     if-lez v2, :cond_0
 
-    .line 14
     invoke-virtual {v1}, Lcom/commsource/studio/y;->g()I
 
     move-result v2
@@ -331,7 +309,6 @@
 
     mul-float p1, p1, p2
 
-    .line 15
     invoke-virtual {v1}, Lcom/commsource/studio/y;->g()I
 
     move-result p2
@@ -342,10 +319,8 @@
 
     int-to-float p1, v2
 
-    .line 16
     invoke-virtual {p0, p1}, Lcom/commsource/studio/PictureAnimationWrapper;->s(F)V
 
-    .line 17
     invoke-virtual {v1}, Lcom/commsource/studio/y;->g()I
 
     move-result p1
@@ -368,7 +343,6 @@
 
     invoke-virtual {p4, v4, v4, p1, p2}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/studio/PictureAnimationWrapper;->f()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v5
@@ -385,7 +359,6 @@
 
     goto/16 :goto_1
 
-    .line 19
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/y;->g()I
 
@@ -405,7 +378,6 @@
 
     if-lez v2, :cond_1
 
-    .line 20
     invoke-virtual {v1}, Lcom/commsource/studio/y;->d()I
 
     move-result v2
@@ -428,7 +400,6 @@
 
     mul-float p2, p2, p1
 
-    .line 21
     invoke-virtual {v1}, Lcom/commsource/studio/y;->d()I
 
     move-result p1
@@ -439,10 +410,8 @@
 
     int-to-float p1, v2
 
-    .line 22
     invoke-virtual {p0, p1}, Lcom/commsource/studio/PictureAnimationWrapper;->t(F)V
 
-    .line 23
     invoke-virtual {v1}, Lcom/commsource/studio/y;->g()I
 
     move-result p1
@@ -465,7 +434,6 @@
 
     invoke-virtual {p4, v4, v4, p1, p2}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 24
     invoke-virtual {p0}, Lcom/commsource/studio/PictureAnimationWrapper;->f()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v5
@@ -482,7 +450,6 @@
 
     goto :goto_1
 
-    .line 25
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/studio/y;->g()I
 
@@ -492,7 +459,6 @@
 
     div-float v2, p1, v2
 
-    .line 26
     invoke-virtual {v1}, Lcom/commsource/studio/y;->d()I
 
     move-result v3
@@ -505,7 +471,6 @@
 
     if-lez v5, :cond_2
 
-    .line 27
     invoke-virtual {v1}, Lcom/commsource/studio/y;->d()I
 
     move-result p1
@@ -514,7 +479,6 @@
 
     div-float v2, p2, p1
 
-    .line 28
     invoke-virtual {v1}, Lcom/commsource/studio/y;->g()I
 
     move-result p1
@@ -536,13 +500,11 @@
 
     float-to-int p2, v3
 
-    .line 29
     invoke-virtual {p4, v4, v4, p1, p2}, Landroid/graphics/Rect;->set(IIII)V
 
     :goto_0
     move v6, v2
 
-    .line 30
     invoke-virtual {p0}, Lcom/commsource/studio/PictureAnimationWrapper;->f()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v5
@@ -557,7 +519,6 @@
 
     invoke-static/range {v5 .. v10}, Lcom/commsource/studio/MatrixBox;->postScale$default(Lcom/commsource/studio/MatrixBox;FFFILjava/lang/Object;)V
 
-    .line 31
     :cond_3
     :goto_1
     invoke-virtual {p3}, Lcom/commsource/studio/bean/d;->c()Lcom/commsource/studio/y;
@@ -594,7 +555,6 @@
 
     invoke-virtual {v0, p3, p3, p1, p2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 32
     invoke-virtual {p0}, Lcom/commsource/studio/PictureAnimationWrapper;->n()Lcom/commsource/studio/MatrixBox;
 
     move-result-object p1
@@ -615,7 +575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/h0;->E:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -630,7 +589,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/h0;->F:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -645,7 +603,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/h0;->B:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -660,7 +617,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/h0;->C:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -675,7 +631,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/h0;->D:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -690,7 +645,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/h0;->z:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -705,7 +659,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/h0;->A:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -720,7 +673,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/h0;->y:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -735,7 +687,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/studio/h0;->y:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -760,12 +711,10 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/h0;->M()F
 
     move-result p2
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/PictureAnimationWrapper;->f()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v1
@@ -774,7 +723,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v1
@@ -811,7 +759,6 @@
 
     move-result v1
 
-    .line 4
     iget v6, p0, Lcom/commsource/studio/h0;->x:I
 
     if-ne v6, v4, :cond_0
@@ -847,7 +794,6 @@
 
     div-float/2addr p2, p1
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/h0;->q:Landroid/graphics/Rect;
 
     invoke-virtual {p1}, Landroid/graphics/Rect;->width()I
@@ -862,7 +808,6 @@
 
     add-float/2addr v1, p2
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/PictureAnimationWrapper;->f()Lcom/commsource/studio/MatrixBox;
 
     move-result-object p1
@@ -894,7 +839,6 @@
 
     if-ne v6, v9, :cond_3
 
-    .line 7
     rem-int/2addr p1, v7
 
     int-to-float v4, p1
@@ -925,7 +869,6 @@
 
     add-float/2addr v1, p2
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/PictureAnimationWrapper;->f()Lcom/commsource/studio/MatrixBox;
 
     move-result-object p1
@@ -968,7 +911,6 @@
     :cond_4
     if-lt v10, v6, :cond_5
 
-    .line 9
     rem-int/2addr p1, v8
 
     int-to-float v4, p1
@@ -999,7 +941,6 @@
 
     add-float/2addr v1, p2
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/PictureAnimationWrapper;->f()Lcom/commsource/studio/MatrixBox;
 
     move-result-object p1
@@ -1032,7 +973,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_5
     :goto_1
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
@@ -1065,7 +1005,6 @@
 
     move-result v1
 
-    .line 12
     rem-int/2addr p1, v9
 
     int-to-float v3, p1
@@ -1096,7 +1035,6 @@
 
     add-float/2addr v1, p2
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/studio/PictureAnimationWrapper;->f()Lcom/commsource/studio/MatrixBox;
 
     move-result-object p1
@@ -1127,7 +1065,6 @@
 
     invoke-virtual {p1, v1, p2}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 14
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1143,7 +1080,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/h0;->s:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1158,7 +1094,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/h0;->x:I
 
     const/4 v2, 0x2
@@ -1172,7 +1107,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     :goto_0
     sget v1, Lcom/commsource/studio/h0;->E:F
 
@@ -1190,7 +1124,6 @@
     :cond_2
     if-lt v2, v1, :cond_3
 
-    .line 3
     sget-object v1, Lcom/commsource/studio/h0;->G:Lcom/commsource/studio/h0$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/h0$a;->f()F
@@ -1199,7 +1132,6 @@
 
     goto :goto_2
 
-    .line 4
     :cond_3
     :goto_1
     sget-object v1, Lcom/commsource/studio/h0;->G:Lcom/commsource/studio/h0$a;
@@ -1208,7 +1140,6 @@
 
     move-result v1
 
-    .line 5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1222,7 +1153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/h0;->x:I
 
     const/4 v2, 0x2
@@ -1236,7 +1166,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     :goto_0
     sget v1, Lcom/commsource/studio/h0;->B:F
 
@@ -1254,17 +1183,14 @@
     :cond_2
     if-lt v2, v1, :cond_3
 
-    .line 3
     sget v1, Lcom/commsource/studio/h0;->C:F
 
     goto :goto_2
 
-    .line 4
     :cond_3
     :goto_1
     sget v1, Lcom/commsource/studio/h0;->D:F
 
-    .line 5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1278,7 +1204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/h0;->w:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1293,7 +1218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/h0;->t:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1308,7 +1232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/h0;->v:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1323,7 +1246,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/h0;->q:Landroid/graphics/Rect;
 
     invoke-virtual {v1}, Landroid/graphics/Rect;->height()I
@@ -1354,7 +1276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/h0;->q:Landroid/graphics/Rect;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1369,7 +1290,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/h0;->q:Landroid/graphics/Rect;
 
     invoke-virtual {v1}, Landroid/graphics/Rect;->width()I
@@ -1390,7 +1310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/h0;->r:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1405,7 +1324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/h0;->r:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
@@ -1424,7 +1342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/h0;->r:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerY()F
@@ -1443,7 +1360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/h0;->u:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1458,7 +1374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/h0;->x:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1473,7 +1388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/h0;->w:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1488,7 +1402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/h0;->t:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1503,7 +1416,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/h0;->v:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1518,7 +1430,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/h0;->u:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 
     const-wide v2, 0x4003333340000000L    # 2.4000000953674316
 
-    .line 1
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v0
@@ -72,7 +70,6 @@
 
     const-wide v2, 0x3fdaaaaaa0000000L    # 0.4166666567325592
 
-    .line 1
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v0
@@ -161,32 +158,26 @@
 
     div-float/2addr p2, v1
 
-    .line 1
     invoke-static {v2}, Lcom/airbnb/lottie/z/b;->a(F)F
 
     move-result v2
 
-    .line 2
     invoke-static {v3}, Lcom/airbnb/lottie/z/b;->a(F)F
 
     move-result v3
 
-    .line 3
     invoke-static {p1}, Lcom/airbnb/lottie/z/b;->a(F)F
 
     move-result p1
 
-    .line 4
     invoke-static {v5}, Lcom/airbnb/lottie/z/b;->a(F)F
 
     move-result v5
 
-    .line 5
     invoke-static {v6}, Lcom/airbnb/lottie/z/b;->a(F)F
 
     move-result v6
 
-    .line 6
     invoke-static {p2}, Lcom/airbnb/lottie/z/b;->a(F)F
 
     move-result p2
@@ -217,28 +208,24 @@
 
     mul-float v0, v0, v1
 
-    .line 7
     invoke-static {v2}, Lcom/airbnb/lottie/z/b;->b(F)F
 
     move-result p0
 
     mul-float p0, p0, v1
 
-    .line 8
     invoke-static {v3}, Lcom/airbnb/lottie/z/b;->b(F)F
 
     move-result p2
 
     mul-float p2, p2, v1
 
-    .line 9
     invoke-static {p1}, Lcom/airbnb/lottie/z/b;->b(F)F
 
     move-result p1
 
     mul-float p1, p1, v1
 
-    .line 10
     invoke-static {v0}, Ljava/lang/Math;->round(F)I
 
     move-result v0

@@ -58,7 +58,6 @@
 
     const/16 v0, 0x9c4
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -79,7 +78,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/bumptech/glide/load/k/y/b;-><init>(Lcom/bumptech/glide/load/k/m;)V
 
     return-void
@@ -101,10 +99,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/bumptech/glide/load/k/y/b;->a:Lcom/bumptech/glide/load/k/m;
 
     return-void
@@ -119,7 +115,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/bumptech/glide/load/k/g;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/k/y/b;->d(Lcom/bumptech/glide/load/k/g;)Z
@@ -140,7 +135,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/bumptech/glide/load/k/g;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/k/y/b;->c(Lcom/bumptech/glide/load/k/g;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/k/n$a;
@@ -173,14 +167,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object p2, p0, Lcom/bumptech/glide/load/k/y/b;->a:Lcom/bumptech/glide/load/k/m;
 
     if-eqz p2, :cond_1
 
     const/4 p3, 0x0
 
-    .line 2
     invoke-virtual {p2, p1, p3, p3}, Lcom/bumptech/glide/load/k/m;->b(Ljava/lang/Object;II)Ljava/lang/Object;
 
     move-result-object p2
@@ -189,7 +181,6 @@
 
     if-nez p2, :cond_0
 
-    .line 3
     iget-object p2, p0, Lcom/bumptech/glide/load/k/y/b;->a:Lcom/bumptech/glide/load/k/m;
 
     invoke-virtual {p2, p1, p3, p3, p1}, Lcom/bumptech/glide/load/k/m;->c(Ljava/lang/Object;IILjava/lang/Object;)V
@@ -199,7 +190,6 @@
     :cond_0
     move-object p1, p2
 
-    .line 4
     :cond_1
     :goto_0
     sget-object p2, Lcom/bumptech/glide/load/k/y/b;->b:Lcom/bumptech/glide/load/e;
@@ -214,7 +204,6 @@
 
     move-result p2
 
-    .line 5
     new-instance p3, Lcom/bumptech/glide/load/k/n$a;
 
     new-instance p4, Lcom/bumptech/glide/load/j/j;

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/kwai/koom/javaoom/report/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/kwai/koom/javaoom/report/a$a;->a:Lcom/kwai/koom/javaoom/report/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p2, p0, Lcom/kwai/koom/javaoom/report/a$a;->a:Lcom/kwai/koom/javaoom/report/a;
 
     invoke-static {p2, p1}, Lcom/kwai/koom/javaoom/report/a;->e(Lcom/kwai/koom/javaoom/report/a;Landroid/app/Activity;)V
@@ -57,7 +55,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/report/a$a;->a:Lcom/kwai/koom/javaoom/report/a;
 
     invoke-static {v0, p1}, Lcom/kwai/koom/javaoom/report/a;->e(Lcom/kwai/koom/javaoom/report/a;Landroid/app/Activity;)V
@@ -72,7 +69,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/report/a$a;->a:Lcom/kwai/koom/javaoom/report/a;
 
     invoke-static {v0, p1}, Lcom/kwai/koom/javaoom/report/a;->e(Lcom/kwai/koom/javaoom/report/a;Landroid/app/Activity;)V
@@ -87,7 +83,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/report/a$a;->a:Lcom/kwai/koom/javaoom/report/a;
 
     invoke-static {v0, p1}, Lcom/kwai/koom/javaoom/report/a;->e(Lcom/kwai/koom/javaoom/report/a;Landroid/app/Activity;)V
@@ -106,7 +101,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p2, p0, Lcom/kwai/koom/javaoom/report/a$a;->a:Lcom/kwai/koom/javaoom/report/a;
 
     invoke-static {p2, p1}, Lcom/kwai/koom/javaoom/report/a;->e(Lcom/kwai/koom/javaoom/report/a;Landroid/app/Activity;)V
@@ -121,7 +115,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/report/a$a;->a:Lcom/kwai/koom/javaoom/report/a;
 
     invoke-static {v0, p1}, Lcom/kwai/koom/javaoom/report/a;->e(Lcom/kwai/koom/javaoom/report/a;Landroid/app/Activity;)V
@@ -136,7 +129,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/report/a$a;->a:Lcom/kwai/koom/javaoom/report/a;
 
     invoke-static {v0, p1}, Lcom/kwai/koom/javaoom/report/a;->e(Lcom/kwai/koom/javaoom/report/a;Landroid/app/Activity;)V

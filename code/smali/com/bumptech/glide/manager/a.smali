@@ -26,15 +26,12 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/WeakHashMap;
 
     invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->newSetFromMap(Ljava/util/Map;)Ljava/util/Set;
 
     move-result-object v0
@@ -53,7 +50,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/manager/a;->a:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
@@ -68,33 +64,27 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/manager/a;->a:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 2
     iget-boolean v0, p0, Lcom/bumptech/glide/manager/a;->c:Z
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {p1}, Lcom/bumptech/glide/manager/i;->onDestroy()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-boolean v0, p0, Lcom/bumptech/glide/manager/a;->b:Z
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-interface {p1}, Lcom/bumptech/glide/manager/i;->onStart()V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-interface {p1}, Lcom/bumptech/glide/manager/i;->onStop()V
 
@@ -107,10 +97,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/bumptech/glide/manager/a;->c:Z
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/manager/a;->a:Ljava/util/Set;
 
     invoke-static {v0}, Lcom/bumptech/glide/s/m;->k(Ljava/util/Collection;)Ljava/util/List;
@@ -134,7 +122,6 @@
 
     check-cast v1, Lcom/bumptech/glide/manager/i;
 
-    .line 3
     invoke-interface {v1}, Lcom/bumptech/glide/manager/i;->onDestroy()V
 
     goto :goto_0
@@ -148,10 +135,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/bumptech/glide/manager/a;->b:Z
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/manager/a;->a:Ljava/util/Set;
 
     invoke-static {v0}, Lcom/bumptech/glide/s/m;->k(Ljava/util/Collection;)Ljava/util/List;
@@ -175,7 +160,6 @@
 
     check-cast v1, Lcom/bumptech/glide/manager/i;
 
-    .line 3
     invoke-interface {v1}, Lcom/bumptech/glide/manager/i;->onStart()V
 
     goto :goto_0
@@ -189,10 +173,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/bumptech/glide/manager/a;->b:Z
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/manager/a;->a:Ljava/util/Set;
 
     invoke-static {v0}, Lcom/bumptech/glide/s/m;->k(Ljava/util/Collection;)Ljava/util/List;
@@ -216,7 +198,6 @@
 
     check-cast v1, Lcom/bumptech/glide/manager/i;
 
-    .line 3
     invoke-interface {v1}, Lcom/bumptech/glide/manager/i;->onStop()V
 
     goto :goto_0

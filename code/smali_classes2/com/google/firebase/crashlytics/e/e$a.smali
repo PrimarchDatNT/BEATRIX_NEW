@@ -41,7 +41,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/e/e;Ljava/lang/String;Lcom/google/firebase/crashlytics/internal/settings/c;Ljava/util/concurrent/Executor;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/e/e$a;->d:Lcom/google/firebase/crashlytics/e/e;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/e/e$a;->a:Ljava/lang/String;
@@ -72,7 +71,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/firebase/crashlytics/internal/settings/i/b;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/crashlytics/e/e$a;->b(Lcom/google/firebase/crashlytics/internal/settings/i/b;)Lcom/google/android/gms/tasks/k;
@@ -108,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/e$a;->d:Lcom/google/firebase/crashlytics/e/e;
 
@@ -133,7 +130,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v0
@@ -142,6 +138,5 @@
 
     invoke-virtual {v0, v1, p1}, Lcom/google/firebase/crashlytics/e/b;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     throw p1
 .end method

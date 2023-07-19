@@ -30,7 +30,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,28 +40,24 @@
 .method public a()Lio/grpc/InternalChannelz$ChannelTrace$Event;
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event$a;->a:Ljava/lang/String;
 
     const-string v1, "description"
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event$a;->b:Lio/grpc/InternalChannelz$ChannelTrace$Event$Severity;
 
     const-string v1, "severity"
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event$a;->c:Ljava/lang/Long;
 
     const-string v1, "timestampNanos"
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     iget-object v0, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event$a;->d:Lio/grpc/r0;
 
     if-eqz v0, :cond_1
@@ -87,7 +82,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 5
     new-instance v0, Lio/grpc/InternalChannelz$ChannelTrace$Event;
 
     iget-object v3, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event$a;->a:Ljava/lang/String;
@@ -116,7 +110,6 @@
 .method public b(Lio/grpc/r0;)Lio/grpc/InternalChannelz$ChannelTrace$Event$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event$a;->d:Lio/grpc/r0;
 
     return-object p0
@@ -125,7 +118,6 @@
 .method public c(Ljava/lang/String;)Lio/grpc/InternalChannelz$ChannelTrace$Event$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event$a;->a:Ljava/lang/String;
 
     return-object p0
@@ -134,7 +126,6 @@
 .method public d(Lio/grpc/InternalChannelz$ChannelTrace$Event$Severity;)Lio/grpc/InternalChannelz$ChannelTrace$Event$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event$a;->b:Lio/grpc/InternalChannelz$ChannelTrace$Event$Severity;
 
     return-object p0
@@ -143,7 +134,6 @@
 .method public e(Lio/grpc/r0;)Lio/grpc/InternalChannelz$ChannelTrace$Event$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/InternalChannelz$ChannelTrace$Event$a;->e:Lio/grpc/r0;
 
     return-object p0
@@ -152,7 +142,6 @@
 .method public f(J)Lio/grpc/InternalChannelz$ChannelTrace$Event$a;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1

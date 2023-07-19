@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     const-string v1, "CacheBean"
@@ -52,12 +50,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/optimus/apm/v/b;->c(Landroid/database/Cursor;)Lcom/meitu/library/optimus/apm/v/c$a;
 
@@ -75,7 +71,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -99,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     const-string v1, "CacheBean"
@@ -112,16 +106,13 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     instance-of p1, p2, Lcom/meitu/library/optimus/apm/v/c$a;
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-static {p2, p3}, Lcom/meitu/library/optimus/apm/v/b;->a(Ljava/lang/Object;Landroid/content/ContentValues;)V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -148,7 +139,6 @@
 
     new-array v1, v1, [Ljava/lang/String;
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/optimus/apm/v/b;->b()Ljava/lang/String;
 
     move-result-object v2
@@ -157,7 +147,6 @@
 
     aput-object v2, v1, v3
 
-    .line 2
     invoke-static {v1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
@@ -174,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "apm.db"
@@ -189,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1

@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/ElementOrder$Type;
 
     const-string v1, "UNORDERED"
@@ -49,7 +48,6 @@
 
     sput-object v0, Lcom/google/common/graph/ElementOrder$Type;->UNORDERED:Lcom/google/common/graph/ElementOrder$Type;
 
-    .line 2
     new-instance v1, Lcom/google/common/graph/ElementOrder$Type;
 
     const-string v3, "STABLE"
@@ -60,7 +58,6 @@
 
     sput-object v1, Lcom/google/common/graph/ElementOrder$Type;->STABLE:Lcom/google/common/graph/ElementOrder$Type;
 
-    .line 3
     new-instance v3, Lcom/google/common/graph/ElementOrder$Type;
 
     const-string v5, "INSERTION"
@@ -71,7 +68,6 @@
 
     sput-object v3, Lcom/google/common/graph/ElementOrder$Type;->INSERTION:Lcom/google/common/graph/ElementOrder$Type;
 
-    .line 4
     new-instance v5, Lcom/google/common/graph/ElementOrder$Type;
 
     const-string v7, "SORTED"
@@ -94,7 +90,6 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lcom/google/common/graph/ElementOrder$Type;->$VALUES:[Lcom/google/common/graph/ElementOrder$Type;
 
     return-void
@@ -108,7 +103,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -117,7 +111,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/graph/ElementOrder$Type;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/graph/ElementOrder$Type;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -132,7 +125,6 @@
 .method public static values()[Lcom/google/common/graph/ElementOrder$Type;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/graph/ElementOrder$Type;->$VALUES:[Lcom/google/common/graph/ElementOrder$Type;
 
     invoke-virtual {v0}, [Lcom/google/common/graph/ElementOrder$Type;->clone()Ljava/lang/Object;

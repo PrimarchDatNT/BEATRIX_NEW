@@ -46,7 +46,6 @@
 .method constructor <init>(Lbolts/o;Lbolts/g;Ljava/util/concurrent/Callable;Lbolts/k;Ljava/util/concurrent/Executor;Lbolts/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/o$o;->f:Lbolts/o;
 
     iput-object p2, p0, Lbolts/o$o;->a:Lbolts/g;
@@ -86,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lbolts/o$o;->a:Lbolts/g;
 
     if-eqz p1, :cond_0
@@ -97,14 +95,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {}, Lbolts/o;->i()Lbolts/o;
 
     move-result-object p1
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lbolts/o$o;->b:Ljava/util/concurrent/Callable;
 
@@ -122,7 +118,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lbolts/o;->D(Ljava/lang/Object;)Lbolts/o;
 
     move-result-object p1
@@ -151,7 +146,6 @@
 
     return-object p1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lbolts/o;->D(Ljava/lang/Object;)Lbolts/o;
 
@@ -168,7 +162,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lbolts/o$o;->a(Lbolts/o;)Lbolts/o;
 
     move-result-object p1

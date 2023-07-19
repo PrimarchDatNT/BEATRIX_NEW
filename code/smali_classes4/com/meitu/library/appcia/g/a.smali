@@ -39,14 +39,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/library/appcia/g/a;->x:Lcom/meitu/library/appcia/g/c;
 
     iput-object p2, p0, Lcom/meitu/library/appcia/g/a;->y:Lcom/meitu/library/appcia/f/e/d;
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -55,7 +53,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/appcia/g/a;->w:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 3
     invoke-virtual {p1, p2}, Lcom/meitu/library/appcia/g/c;->D(Lcom/meitu/library/appcia/f/e/d;)V
 
     return-void
@@ -70,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/a;->x:Lcom/meitu/library/appcia/g/c;
 
     invoke-virtual {v1}, Lcom/meitu/library/appcia/g/c;->a()V
@@ -87,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/a;->w:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -96,7 +91,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/appcia/g/a;->x:Lcom/meitu/library/appcia/g/c;
 
     invoke-virtual {v1}, Lcom/meitu/library/appcia/g/c;->b()V
@@ -105,7 +99,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -121,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "Launch"
@@ -136,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/a;->w:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -175,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/a;->x:Lcom/meitu/library/appcia/g/c;
 
     invoke-virtual {v1}, Lcom/meitu/library/appcia/g/c;->q()Lorg/json/JSONObject;
@@ -194,14 +184,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/a;->w:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -214,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/a;->w:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -223,7 +210,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/appcia/g/a;->x:Lcom/meitu/library/appcia/g/c;
 
     invoke-virtual {v1}, Lcom/meitu/library/appcia/g/c;->s()V
@@ -232,7 +218,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -254,12 +239,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/a;->x:Lcom/meitu/library/appcia/g/c;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/appcia/g/c;->u(Landroid/content/Context;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

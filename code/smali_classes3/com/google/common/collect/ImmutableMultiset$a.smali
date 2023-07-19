@@ -44,7 +44,6 @@
 .method constructor <init>(Lcom/google/common/collect/ImmutableMultiset;Ljava/util/Iterator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/ImmutableMultiset$a;->d:Lcom/google/common/collect/ImmutableMultiset;
 
     iput-object p2, p0, Lcom/google/common/collect/ImmutableMultiset$a;->c:Ljava/util/Iterator;
@@ -59,7 +58,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/ImmutableMultiset$a;->a:I
 
     if-gtz v0, :cond_1
@@ -95,12 +93,10 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/ImmutableMultiset$a;->a:I
 
     if-gtz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMultiset$a;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -109,21 +105,18 @@
 
     check-cast v0, Lcom/google/common/collect/m1$a;
 
-    .line 3
     invoke-interface {v0}, Lcom/google/common/collect/m1$a;->getElement()Ljava/lang/Object;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/google/common/collect/ImmutableMultiset$a;->b:Ljava/lang/Object;
 
-    .line 4
     invoke-interface {v0}, Lcom/google/common/collect/m1$a;->getCount()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/common/collect/ImmutableMultiset$a;->a:I
 
-    .line 5
     :cond_0
     iget v0, p0, Lcom/google/common/collect/ImmutableMultiset$a;->a:I
 
@@ -131,7 +124,6 @@
 
     iput v0, p0, Lcom/google/common/collect/ImmutableMultiset$a;->a:I
 
-    .line 6
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMultiset$a;->b:Ljava/lang/Object;
 
     return-object v0

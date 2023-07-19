@@ -46,7 +46,6 @@
 .method public final run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-static {v0}, Lcom/mopub/mobileads/VastVideoViewController;->access$getExternalViewabilitySessionManager$p(Lcom/mopub/mobileads/VastVideoViewController;)Lcom/mopub/common/ExternalViewabilitySessionManager;
@@ -61,7 +60,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/mopub/common/ExternalViewabilitySessionManager;->onVideoPrepared(J)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/VastVideoViewController;->getMediaPlayer()Landroidx/media2/player/MediaPlayer;
@@ -72,17 +70,14 @@
 
     invoke-virtual {v0, v1}, Landroidx/media2/player/MediaPlayer;->setPlayerVolume(F)Lcom/google/common/util/concurrent/g0;
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-static {v0}, Lcom/mopub/mobileads/VastVideoViewController;->access$selectVastCompanionAd(Lcom/mopub/mobileads/VastVideoViewController;)Lcom/mopub/mobileads/VastCompanionAdConfig;
 
     move-result-object v0
 
-    .line 4
     iget-object v1, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
-    .line 5
     sget-object v2, Lcom/mopub/mobileads/EndCardType;->Companion:Lcom/mopub/mobileads/EndCardType$Companion;
 
     if-eqz v0, :cond_0
@@ -107,17 +102,14 @@
 
     move-result-object v2
 
-    .line 6
     invoke-static {v1, v2}, Lcom/mopub/mobileads/VastVideoViewController;->access$setCountdownTime(Lcom/mopub/mobileads/VastVideoViewController;Lcom/mopub/mobileads/EndCardType;)V
 
-    .line 7
     iget-object v1, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastVideoViewController;->getProgressBarWidget()Lcom/mopub/mobileads/VastVideoProgressBarWidget;
 
     move-result-object v1
 
-    .line 8
     iget-object v2, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->$this_run:Landroidx/media2/player/MediaPlayer;
 
     invoke-virtual {v2}, Landroidx/media2/player/MediaPlayer;->getDuration()J
@@ -126,17 +118,14 @@
 
     long-to-int v3, v2
 
-    .line 9
     iget-object v2, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastVideoViewController;->getCountdownTimeMillis()I
 
     move-result v2
 
-    .line 10
     invoke-virtual {v1, v3, v2}, Lcom/mopub/mobileads/VastVideoProgressBarWidget;->calibrateAndMakeVisible(II)V
 
-    .line 11
     iget-object v1, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastVideoViewController;->getRadialCountdownWidget()Lcom/mopub/mobileads/RadialCountdownWidget;
@@ -151,21 +140,18 @@
 
     invoke-virtual {v1, v2}, Lcom/mopub/mobileads/RadialCountdownWidget;->calibrate(I)V
 
-    .line 12
     iget-object v1, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastVideoViewController;->getRadialCountdownWidget()Lcom/mopub/mobileads/RadialCountdownWidget;
 
     move-result-object v1
 
-    .line 13
     iget-object v2, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastVideoViewController;->getCountdownTimeMillis()I
 
     move-result v2
 
-    .line 14
     iget-object v3, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->$this_run:Landroidx/media2/player/MediaPlayer;
 
     invoke-virtual {v3}, Landroidx/media2/player/MediaPlayer;->getCurrentPosition()J
@@ -174,24 +160,20 @@
 
     long-to-int v4, v3
 
-    .line 15
     invoke-virtual {v1, v2, v4}, Lcom/mopub/mobileads/RadialCountdownWidget;->updateCountdownProgress(II)V
 
-    .line 16
     iget-object v1, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/mopub/mobileads/VastVideoViewController;->setCalibrationDone(Z)V
 
-    .line 17
     iget-object v1, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v1}, Lcom/mopub/mobileads/BaseVideoViewController;->getBaseVideoViewControllerListener()Lcom/mopub/mobileads/BaseVideoViewController$BaseVideoViewControllerListener;
 
     move-result-object v1
 
-    .line 18
     iget-object v2, p0, Lcom/mopub/mobileads/VastVideoViewController$createVideoView$$inlined$run$lambda$1;->$this_run:Landroidx/media2/player/MediaPlayer;
 
     invoke-virtual {v2}, Landroidx/media2/player/MediaPlayer;->getDuration()J
@@ -200,7 +182,6 @@
 
     long-to-int v3, v2
 
-    .line 19
     invoke-interface {v1, v0, v3}, Lcom/mopub/mobileads/BaseVideoViewController$BaseVideoViewControllerListener;->onCompanionAdReady(Lcom/mopub/mobileads/VastCompanionAdConfig;I)V
 
     return-void

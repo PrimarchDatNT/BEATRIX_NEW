@@ -22,10 +22,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ThreadLocal;
 
     invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
@@ -40,7 +38,6 @@
 .method public bridge synthetic a(Li/a/d;Z)Li/a/b;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Li/a/k/b;->b(Li/a/d;Z)Li/a/k/a;
 
     move-result-object p1
@@ -51,7 +48,6 @@
 .method public bridge synthetic active()Li/a/b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Li/a/k/b;->c()Li/a/k/a;
 
     move-result-object v0
@@ -62,7 +58,6 @@
 .method public b(Li/a/d;Z)Li/a/k/a;
     .locals 2
 
-    .line 1
     new-instance p2, Li/a/k/a;
 
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
@@ -79,7 +74,6 @@
 .method public c()Li/a/k/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Li/a/k/b;->b:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;

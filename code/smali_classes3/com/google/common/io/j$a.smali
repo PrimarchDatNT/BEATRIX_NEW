@@ -24,12 +24,10 @@
 .method constructor <init>(Lcom/google/common/io/j;Ljava/nio/charset/Charset;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/io/j$a;->b:Lcom/google/common/io/j;
 
     invoke-direct {p0}, Lcom/google/common/io/f;-><init>()V
 
-    .line 2
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -46,7 +44,6 @@
 .method public a(Ljava/nio/charset/Charset;)Lcom/google/common/io/j;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/j$a;->a:Ljava/nio/charset/Charset;
 
     invoke-virtual {p1, v0}, Ljava/nio/charset/Charset;->equals(Ljava/lang/Object;)Z
@@ -55,12 +52,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/common/io/j$a;->b:Lcom/google/common/io/j;
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Lcom/google/common/io/f;->a(Ljava/nio/charset/Charset;)Lcom/google/common/io/j;
 
@@ -77,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/io/a0;
 
     iget-object v1, p0, Lcom/google/common/io/j$a;->b:Lcom/google/common/io/j;
@@ -98,7 +92,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

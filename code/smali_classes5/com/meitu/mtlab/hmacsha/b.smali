@@ -23,10 +23,8 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/mtlab/hmacsha/b$b;
 
     const/4 v1, 0x0
@@ -51,10 +49,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/hmacsha/b;->b:Lcom/meitu/mtlab/hmacsha/b$c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -67,10 +63,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/hmacsha/b;->a:Lcom/meitu/mtlab/hmacsha/b$d;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

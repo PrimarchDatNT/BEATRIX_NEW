@@ -29,7 +29,6 @@
 
     iput-object p1, p0, Lkshark/k$a;->b:Lkshark/HprofWriter;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -48,25 +47,21 @@
 
     invoke-static {p3, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of p1, p3, Lkshark/m$a;
 
     if-eqz p1, :cond_0
 
     goto/16 :goto_3
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lkshark/k$a;->b:Lkshark/HprofWriter;
 
-    .line 3
     instance-of p2, p3, Lkshark/m$b$c$g$a;
 
     if-eqz p2, :cond_1
 
     new-instance p2, Lkshark/m$b$c$g$a;
 
-    .line 4
     check-cast p3, Lkshark/m$b$c$g$a;
 
     invoke-virtual {p3}, Lkshark/m$b$c$g$a;->a()J
@@ -77,7 +72,6 @@
 
     move-result v2
 
-    .line 5
     invoke-virtual {p3}, Lkshark/m$b$c$g$a;->d()[Z
 
     move-result-object p3
@@ -86,7 +80,6 @@
 
     new-array p3, p3, [Z
 
-    .line 6
     invoke-direct {p2, v0, v1, v2, p3}, Lkshark/m$b$c$g$a;-><init>(JI[Z)V
 
     :goto_0
@@ -94,13 +87,11 @@
 
     goto/16 :goto_2
 
-    .line 7
     :cond_1
     instance-of p2, p3, Lkshark/m$b$c$g$c;
 
     if-eqz p2, :cond_3
 
-    .line 8
     check-cast p3, Lkshark/m$b$c$g$c;
 
     invoke-virtual {p3}, Lkshark/m$b$c$g$c;->a()J
@@ -111,7 +102,6 @@
 
     move-result p2
 
-    .line 9
     invoke-virtual {p3}, Lkshark/m$b$c$g$c;->d()[C
 
     move-result-object p3
@@ -127,14 +117,12 @@
 
     const/16 v4, 0x3f
 
-    .line 10
     aput-char v4, v2, v3
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_1
 
-    .line 11
     :cond_2
     new-instance p3, Lkshark/m$b$c$g$c;
 
@@ -142,7 +130,6 @@
 
     goto/16 :goto_2
 
-    .line 12
     :cond_3
     instance-of p2, p3, Lkshark/m$b$c$g$e;
 
@@ -150,7 +137,6 @@
 
     new-instance p2, Lkshark/m$b$c$g$e;
 
-    .line 13
     check-cast p3, Lkshark/m$b$c$g$e;
 
     invoke-virtual {p3}, Lkshark/m$b$c$g$e;->a()J
@@ -161,7 +147,6 @@
 
     move-result v2
 
-    .line 14
     invoke-virtual {p3}, Lkshark/m$b$c$g$e;->d()[F
 
     move-result-object p3
@@ -170,12 +155,10 @@
 
     new-array p3, p3, [F
 
-    .line 15
     invoke-direct {p2, v0, v1, v2, p3}, Lkshark/m$b$c$g$e;-><init>(JI[F)V
 
     goto :goto_0
 
-    .line 16
     :cond_4
     instance-of p2, p3, Lkshark/m$b$c$g$d;
 
@@ -183,7 +166,6 @@
 
     new-instance p2, Lkshark/m$b$c$g$d;
 
-    .line 17
     check-cast p3, Lkshark/m$b$c$g$d;
 
     invoke-virtual {p3}, Lkshark/m$b$c$g$d;->a()J
@@ -194,7 +176,6 @@
 
     move-result v2
 
-    .line 18
     invoke-virtual {p3}, Lkshark/m$b$c$g$d;->d()[D
 
     move-result-object p3
@@ -203,12 +184,10 @@
 
     new-array p3, p3, [D
 
-    .line 19
     invoke-direct {p2, v0, v1, v2, p3}, Lkshark/m$b$c$g$d;-><init>(JI[D)V
 
     goto :goto_0
 
-    .line 20
     :cond_5
     instance-of p2, p3, Lkshark/m$b$c$g$b;
 
@@ -216,7 +195,6 @@
 
     new-instance p2, Lkshark/m$b$c$g$b;
 
-    .line 21
     check-cast p3, Lkshark/m$b$c$g$b;
 
     invoke-virtual {p3}, Lkshark/m$b$c$g$b;->a()J
@@ -227,7 +205,6 @@
 
     move-result v2
 
-    .line 22
     invoke-virtual {p3}, Lkshark/m$b$c$g$b;->d()[B
 
     move-result-object p3
@@ -236,12 +213,10 @@
 
     new-array p3, p3, [B
 
-    .line 23
     invoke-direct {p2, v0, v1, v2, p3}, Lkshark/m$b$c$g$b;-><init>(JI[B)V
 
     goto :goto_0
 
-    .line 24
     :cond_6
     instance-of p2, p3, Lkshark/m$b$c$g$h;
 
@@ -249,7 +224,6 @@
 
     new-instance p2, Lkshark/m$b$c$g$h;
 
-    .line 25
     check-cast p3, Lkshark/m$b$c$g$h;
 
     invoke-virtual {p3}, Lkshark/m$b$c$g$h;->a()J
@@ -260,7 +234,6 @@
 
     move-result v2
 
-    .line 26
     invoke-virtual {p3}, Lkshark/m$b$c$g$h;->d()[S
 
     move-result-object p3
@@ -269,12 +242,10 @@
 
     new-array p3, p3, [S
 
-    .line 27
     invoke-direct {p2, v0, v1, v2, p3}, Lkshark/m$b$c$g$h;-><init>(JI[S)V
 
     goto/16 :goto_0
 
-    .line 28
     :cond_7
     instance-of p2, p3, Lkshark/m$b$c$g$f;
 
@@ -282,7 +253,6 @@
 
     new-instance p2, Lkshark/m$b$c$g$f;
 
-    .line 29
     check-cast p3, Lkshark/m$b$c$g$f;
 
     invoke-virtual {p3}, Lkshark/m$b$c$g$f;->a()J
@@ -293,7 +263,6 @@
 
     move-result v2
 
-    .line 30
     invoke-virtual {p3}, Lkshark/m$b$c$g$f;->d()[I
 
     move-result-object p3
@@ -302,12 +271,10 @@
 
     new-array p3, p3, [I
 
-    .line 31
     invoke-direct {p2, v0, v1, v2, p3}, Lkshark/m$b$c$g$f;-><init>(JI[I)V
 
     goto/16 :goto_0
 
-    .line 32
     :cond_8
     instance-of p2, p3, Lkshark/m$b$c$g$g;
 
@@ -315,7 +282,6 @@
 
     new-instance p2, Lkshark/m$b$c$g$g;
 
-    .line 33
     check-cast p3, Lkshark/m$b$c$g$g;
 
     invoke-virtual {p3}, Lkshark/m$b$c$g$g;->a()J
@@ -326,7 +292,6 @@
 
     move-result v2
 
-    .line 34
     invoke-virtual {p3}, Lkshark/m$b$c$g$g;->d()[J
 
     move-result-object p3
@@ -335,12 +300,10 @@
 
     new-array p3, p3, [J
 
-    .line 35
     invoke-direct {p2, v0, v1, v2, p3}, Lkshark/m$b$c$g$g;-><init>(JI[J)V
 
     goto/16 :goto_0
 
-    .line 36
     :cond_9
     :goto_2
     invoke-virtual {p1, p3}, Lkshark/HprofWriter;->g(Lkshark/m;)V

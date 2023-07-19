@@ -37,10 +37,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/w/c/f;-><init>(Ljava/util/List;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
@@ -51,10 +49,8 @@
 
     new-array p1, p1, [F
 
-    .line 3
     iput-object p1, p0, Lcom/airbnb/lottie/w/c/i;->j:[F
 
-    .line 4
     new-instance p1, Landroid/graphics/PathMeasure;
 
     invoke-direct {p1}, Landroid/graphics/PathMeasure;-><init>()V
@@ -69,7 +65,6 @@
 .method public bridge synthetic i(Lcom/airbnb/lottie/a0/a;F)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/airbnb/lottie/w/c/i;->p(Lcom/airbnb/lottie/a0/a;F)Landroid/graphics/PointF;
 
     move-result-object p1
@@ -89,32 +84,27 @@
         }
     .end annotation
 
-    .line 1
     move-object v0, p1
 
     check-cast v0, Lcom/airbnb/lottie/w/c/h;
 
-    .line 2
     invoke-virtual {v0}, Lcom/airbnb/lottie/w/c/h;->j()Landroid/graphics/Path;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object p1, p1, Lcom/airbnb/lottie/a0/a;->b:Ljava/lang/Object;
 
     check-cast p1, Landroid/graphics/PointF;
 
     return-object p1
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/airbnb/lottie/w/c/a;->e:Lcom/airbnb/lottie/a0/j;
 
     if-eqz v2, :cond_1
 
-    .line 5
     iget v3, v0, Lcom/airbnb/lottie/a0/a;->g:F
 
     iget-object p1, v0, Lcom/airbnb/lottie/a0/a;->h:Ljava/lang/Float;
@@ -127,19 +117,16 @@
 
     iget-object v6, v0, Lcom/airbnb/lottie/a0/a;->c:Ljava/lang/Object;
 
-    .line 6
     invoke-virtual {p0}, Lcom/airbnb/lottie/w/c/a;->e()F
 
     move-result v7
 
-    .line 7
     invoke-virtual {p0}, Lcom/airbnb/lottie/w/c/a;->f()F
 
     move-result v9
 
     move v8, p2
 
-    .line 8
     invoke-virtual/range {v2 .. v9}, Lcom/airbnb/lottie/a0/j;->b(FFLjava/lang/Object;Ljava/lang/Object;FFF)Ljava/lang/Object;
 
     move-result-object p1
@@ -150,7 +137,6 @@
 
     return-object p1
 
-    .line 9
     :cond_1
     iget-object p1, p0, Lcom/airbnb/lottie/w/c/i;->l:Lcom/airbnb/lottie/w/c/h;
 
@@ -158,15 +144,12 @@
 
     if-eq p1, v0, :cond_2
 
-    .line 10
     iget-object p1, p0, Lcom/airbnb/lottie/w/c/i;->k:Landroid/graphics/PathMeasure;
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/PathMeasure;->setPath(Landroid/graphics/Path;Z)V
 
-    .line 11
     iput-object v0, p0, Lcom/airbnb/lottie/w/c/i;->l:Lcom/airbnb/lottie/w/c/h;
 
-    .line 12
     :cond_2
     iget-object p1, p0, Lcom/airbnb/lottie/w/c/i;->k:Landroid/graphics/PathMeasure;
 
@@ -182,7 +165,6 @@
 
     invoke-virtual {p1, p2, v0, v1}, Landroid/graphics/PathMeasure;->getPosTan(F[F[F)Z
 
-    .line 13
     iget-object p1, p0, Lcom/airbnb/lottie/w/c/i;->i:Landroid/graphics/PointF;
 
     iget-object p2, p0, Lcom/airbnb/lottie/w/c/i;->j:[F
@@ -195,7 +177,6 @@
 
     invoke-virtual {p1, v0, p2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 14
     iget-object p1, p0, Lcom/airbnb/lottie/w/c/i;->i:Landroid/graphics/PointF;
 
     return-object p1

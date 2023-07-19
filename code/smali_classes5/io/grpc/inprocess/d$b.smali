@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/inprocess/d;Lio/grpc/Status;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/inprocess/d$b;->b:Lio/grpc/inprocess/d;
 
     iput-object p2, p0, Lio/grpc/inprocess/d$b;->a:Lio/grpc/Status;
@@ -42,12 +41,10 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/inprocess/d$b;->b:Lio/grpc/inprocess/d;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/inprocess/d$b;->b:Lio/grpc/inprocess/d;
 
@@ -55,12 +52,10 @@
 
     invoke-static {v1, v2}, Lio/grpc/inprocess/d;->j(Lio/grpc/inprocess/d;Lio/grpc/Status;)V
 
-    .line 3
     iget-object v1, p0, Lio/grpc/inprocess/d$b;->b:Lio/grpc/inprocess/d;
 
     invoke-static {v1}, Lio/grpc/inprocess/d;->q(Lio/grpc/inprocess/d;)V
 
-    .line 4
     monitor-exit v0
 
     return-void

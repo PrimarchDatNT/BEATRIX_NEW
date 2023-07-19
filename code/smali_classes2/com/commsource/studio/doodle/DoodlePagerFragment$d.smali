@@ -33,7 +33,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$d;->c:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
 
     return-void
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodlePagerFragment$d;->e(Lcom/commsource/studio/doodle/DoodleMaterial;)V
@@ -69,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$d;->c:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->C(Lcom/commsource/studio/doodle/DoodlePagerFragment;)Lcom/commsource/widget/h1/e;
@@ -78,7 +75,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->v(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

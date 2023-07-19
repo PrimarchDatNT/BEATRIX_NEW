@@ -37,53 +37,44 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Lcom/google/firebase/firestore/model/b;Lcom/google/firebase/firestore/local/i;Lcom/google/firebase/firestore/local/z$a;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/local/l0;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/local/n1$a;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/firestore/local/n1$a;-><init>(Lcom/google/firebase/firestore/local/n1;)V
 
     iput-object v0, p0, Lcom/google/firebase/firestore/local/n1;->k:Landroid/database/sqlite/SQLiteTransactionListener;
 
-    .line 3
     invoke-static {p2, p3}, Lcom/google/firebase/firestore/local/n1;->o(Ljava/lang/String;Lcom/google/firebase/firestore/model/b;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 4
     new-instance p3, Lcom/google/firebase/firestore/local/n1$c;
 
     invoke-direct {p3, p1, p2}, Lcom/google/firebase/firestore/local/n1$c;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     iput-object p3, p0, Lcom/google/firebase/firestore/local/n1;->c:Lcom/google/firebase/firestore/local/n1$c;
 
-    .line 5
     iput-object p4, p0, Lcom/google/firebase/firestore/local/n1;->d:Lcom/google/firebase/firestore/local/i;
 
-    .line 6
     new-instance p1, Lcom/google/firebase/firestore/local/u1;
 
     invoke-direct {p1, p0, p4}, Lcom/google/firebase/firestore/local/u1;-><init>(Lcom/google/firebase/firestore/local/n1;Lcom/google/firebase/firestore/local/i;)V
 
     iput-object p1, p0, Lcom/google/firebase/firestore/local/n1;->g:Lcom/google/firebase/firestore/local/u1;
 
-    .line 7
     new-instance p1, Lcom/google/firebase/firestore/local/u0;
 
     invoke-direct {p1, p0}, Lcom/google/firebase/firestore/local/u0;-><init>(Lcom/google/firebase/firestore/local/n1;)V
 
     iput-object p1, p0, Lcom/google/firebase/firestore/local/n1;->h:Lcom/google/firebase/firestore/local/u0;
 
-    .line 8
     new-instance p1, Lcom/google/firebase/firestore/local/y1;
 
     invoke-direct {p1, p0, p4}, Lcom/google/firebase/firestore/local/y1;-><init>(Lcom/google/firebase/firestore/local/n1;Lcom/google/firebase/firestore/local/i;)V
 
     iput-object p1, p0, Lcom/google/firebase/firestore/local/n1;->i:Lcom/google/firebase/firestore/local/y1;
 
-    .line 9
     new-instance p1, Lcom/google/firebase/firestore/local/y0;
 
     invoke-direct {p1, p0, p5}, Lcom/google/firebase/firestore/local/y0;-><init>(Lcom/google/firebase/firestore/local/n1;Lcom/google/firebase/firestore/local/z$a;)V
@@ -96,7 +87,6 @@
 .method static synthetic k(Lcom/google/firebase/firestore/local/n1;)Lcom/google/firebase/firestore/local/y0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/firestore/local/n1;->j:Lcom/google/firebase/firestore/local/y0;
 
     return-object p0
@@ -105,7 +95,6 @@
 .method static synthetic l(Landroid/database/sqlite/SQLiteProgram;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/firebase/firestore/local/n1;->m(Landroid/database/sqlite/SQLiteProgram;[Ljava/lang/Object;)V
 
     return-void
@@ -118,25 +107,21 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     array-length v2, p1
 
     if-ge v1, v2, :cond_6
 
-    .line 2
     aget-object v2, p1, v1
 
     if-nez v2, :cond_0
 
     add-int/lit8 v2, v1, 0x1
 
-    .line 3
     invoke-virtual {p0, v2}, Landroid/database/sqlite/SQLiteProgram;->bindNull(I)V
 
     goto :goto_1
 
-    .line 4
     :cond_0
     instance-of v3, v2, Ljava/lang/String;
 
@@ -144,14 +129,12 @@
 
     add-int/lit8 v3, v1, 0x1
 
-    .line 5
     check-cast v2, Ljava/lang/String;
 
     invoke-virtual {p0, v3, v2}, Landroid/database/sqlite/SQLiteProgram;->bindString(ILjava/lang/String;)V
 
     goto :goto_1
 
-    .line 6
     :cond_1
     instance-of v3, v2, Ljava/lang/Integer;
 
@@ -159,7 +142,6 @@
 
     add-int/lit8 v3, v1, 0x1
 
-    .line 7
     check-cast v2, Ljava/lang/Integer;
 
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
@@ -172,7 +154,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     instance-of v3, v2, Ljava/lang/Long;
 
@@ -180,7 +161,6 @@
 
     add-int/lit8 v3, v1, 0x1
 
-    .line 9
     check-cast v2, Ljava/lang/Long;
 
     invoke-virtual {v2}, Ljava/lang/Long;->longValue()J
@@ -191,7 +171,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_3
     instance-of v3, v2, Ljava/lang/Double;
 
@@ -199,7 +178,6 @@
 
     add-int/lit8 v3, v1, 0x1
 
-    .line 11
     check-cast v2, Ljava/lang/Double;
 
     invoke-virtual {v2}, Ljava/lang/Double;->doubleValue()D
@@ -210,7 +188,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_4
     instance-of v3, v2, [B
 
@@ -218,7 +195,6 @@
 
     add-int/lit8 v3, v1, 0x1
 
-    .line 13
     check-cast v2, [B
 
     invoke-virtual {p0, v3, v2}, Landroid/database/sqlite/SQLiteProgram;->bindBlob(I[B)V
@@ -235,7 +211,6 @@
 
     aput-object v2, p0, v0
 
-    .line 14
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -264,12 +239,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2, p1}, Lcom/google/firebase/firestore/local/n1;->o(Ljava/lang/String;Lcom/google/firebase/firestore/model/b;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getDatabasePath(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object p0
@@ -278,7 +251,6 @@
 
     move-result-object p0
 
-    .line 3
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -293,7 +265,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -308,29 +279,23 @@
 
     move-result-object p2
 
-    .line 5
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 6
     new-instance p0, Ljava/io/File;
 
     invoke-direct {p0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 7
     new-instance p1, Ljava/io/File;
 
     invoke-direct {p1, p2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 8
     :try_start_0
     invoke-static {v0}, Lcom/google/firebase/firestore/util/t;->a(Ljava/io/File;)V
 
-    .line 9
     invoke-static {p0}, Lcom/google/firebase/firestore/util/t;->a(Ljava/io/File;)V
 
-    .line 10
     invoke-static {p1}, Lcom/google/firebase/firestore/util/t;->a(Ljava/io/File;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -340,7 +305,6 @@
     :catch_0
     move-exception p0
 
-    .line 11
     new-instance p1, Lcom/google/firebase/firestore/FirebaseFirestoreException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -373,7 +337,6 @@
 
     const-string v1, "utf-8"
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -383,7 +346,6 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-static {p0, v1}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -392,7 +354,6 @@
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/b;->n()Ljava/lang/String;
 
     move-result-object p0
@@ -405,7 +366,6 @@
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/b;->h()Ljava/lang/String;
 
     move-result-object p0
@@ -427,7 +387,6 @@
     :catch_0
     move-exception p0
 
-    .line 5
     new-instance p1, Ljava/lang/AssertionError;
 
     invoke-direct {p1, p0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
@@ -440,7 +399,6 @@
 
     const-string v0, "PRAGMA page_count"
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/firebase/firestore/local/n1;->z(Ljava/lang/String;)Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v0
@@ -467,7 +425,6 @@
 
     const-string v0, "PRAGMA page_size"
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/firebase/firestore/local/n1;->z(Ljava/lang/String;)Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v0
@@ -494,7 +451,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p0, v0}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v0
@@ -511,7 +467,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p0, v0}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v0
@@ -528,7 +483,6 @@
 .method a()Lcom/google/firebase/firestore/local/f;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1;->h:Lcom/google/firebase/firestore/local/u0;
 
     return-object v0
@@ -537,7 +491,6 @@
 .method b(Lcom/google/firebase/firestore/m0/g;)Lcom/google/firebase/firestore/local/k0;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/local/k1;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/local/n1;->d:Lcom/google/firebase/firestore/local/i;
@@ -550,7 +503,6 @@
 .method bridge synthetic c()Lcom/google/firebase/firestore/local/m0;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/local/n1;->u()Lcom/google/firebase/firestore/local/u1;
 
     move-result-object v0
@@ -561,7 +513,6 @@
 .method public bridge synthetic d()Lcom/google/firebase/firestore/local/p0;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/local/n1;->v()Lcom/google/firebase/firestore/local/y0;
 
     move-result-object v0
@@ -572,7 +523,6 @@
 .method e()Lcom/google/firebase/firestore/local/r0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1;->i:Lcom/google/firebase/firestore/local/y1;
 
     return-object v0
@@ -581,7 +531,6 @@
 .method public f()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/local/n1;->f:Z
 
     return v0
@@ -600,7 +549,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/local/l0;->a:Ljava/lang/String;
 
     const/4 v1, 0x1
@@ -615,27 +563,23 @@
 
     invoke-static {v0, p1, v1}, Lcom/google/firebase/firestore/util/Logger;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/google/firebase/firestore/local/n1;->e:Landroid/database/sqlite/SQLiteDatabase;
 
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1;->k:Landroid/database/sqlite/SQLiteTransactionListener;
 
     invoke-virtual {p1, v0}, Landroid/database/sqlite/SQLiteDatabase;->beginTransactionWithListener(Landroid/database/sqlite/SQLiteTransactionListener;)V
 
-    .line 3
     :try_start_0
     invoke-interface {p2}, Lcom/google/firebase/firestore/util/x;->get()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 4
     iget-object p2, p0, Lcom/google/firebase/firestore/local/n1;->e:Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {p2}, Landroid/database/sqlite/SQLiteDatabase;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     iget-object p2, p0, Lcom/google/firebase/firestore/local/n1;->e:Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {p2}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
@@ -655,7 +599,6 @@
 .method h(Ljava/lang/String;Ljava/lang/Runnable;)V
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/local/l0;->a:Ljava/lang/String;
 
     const/4 v1, 0x1
@@ -670,25 +613,21 @@
 
     invoke-static {v0, p1, v1}, Lcom/google/firebase/firestore/util/Logger;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/google/firebase/firestore/local/n1;->e:Landroid/database/sqlite/SQLiteDatabase;
 
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1;->k:Landroid/database/sqlite/SQLiteTransactionListener;
 
     invoke-virtual {p1, v0}, Landroid/database/sqlite/SQLiteDatabase;->beginTransactionWithListener(Landroid/database/sqlite/SQLiteTransactionListener;)V
 
-    .line 3
     :try_start_0
     invoke-interface {p2}, Ljava/lang/Runnable;->run()V
 
-    .line 4
     iget-object p1, p0, Lcom/google/firebase/firestore/local/n1;->e:Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {p1}, Landroid/database/sqlite/SQLiteDatabase;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     iget-object p1, p0, Lcom/google/firebase/firestore/local/n1;->e:Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {p1}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
@@ -708,7 +647,6 @@
 .method public i()V
     .locals 4
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/local/n1;->f:Z
 
     const/4 v1, 0x0
@@ -719,17 +657,14 @@
 
     invoke-static {v0, v3, v2}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iput-boolean v1, p0, Lcom/google/firebase/firestore/local/n1;->f:Z
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1;->e:Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/google/firebase/firestore/local/n1;->e:Landroid/database/sqlite/SQLiteDatabase;
 
     return-void
@@ -738,7 +673,6 @@
 .method public j()V
     .locals 4
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/local/n1;->f:Z
 
     const/4 v1, 0x1
@@ -753,10 +687,8 @@
 
     invoke-static {v0, v3, v2}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iput-boolean v1, p0, Lcom/google/firebase/firestore/local/n1;->f:Z
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1;->c:Lcom/google/firebase/firestore/local/n1$c;
 
@@ -768,12 +700,10 @@
     :try_end_0
     .catch Landroid/database/sqlite/SQLiteDatabaseLockedException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1;->g:Lcom/google/firebase/firestore/local/u1;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/u1;->l()V
 
-    .line 5
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1;->j:Lcom/google/firebase/firestore/local/y0;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/local/n1;->g:Lcom/google/firebase/firestore/local/u1;
@@ -789,7 +719,6 @@
     :catch_0
     move-exception v0
 
-    .line 6
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "Failed to gain exclusive lock to the Firestore client\'s offline persistence. This generally means you are using Firestore from multiple processes in your app. Keep in mind that multi-process Android apps execute the code in your Application class in all processes, so you may need to avoid initializing Firestore in your Application class. If you are intentionally using Firestore from multiple processes, you can only enable offline persistence (i.e. call setPersistenceEnabled(true)) in one of them."
@@ -802,13 +731,10 @@
 .method varargs p(Landroid/database/sqlite/SQLiteStatement;[Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Landroid/database/sqlite/SQLiteStatement;->clearBindings()V
 
-    .line 2
     invoke-static {p1, p2}, Lcom/google/firebase/firestore/local/n1;->m(Landroid/database/sqlite/SQLiteProgram;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p1}, Landroid/database/sqlite/SQLiteStatement;->executeUpdateDelete()I
 
     move-result p1
@@ -819,7 +745,6 @@
 .method varargs q(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1;->e:Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {v0, p1, p2}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
@@ -830,7 +755,6 @@
 .method r()J
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/local/n1;->s()J
 
     move-result-wide v0
@@ -847,7 +771,6 @@
 .method u()Lcom/google/firebase/firestore/local/u1;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1;->g:Lcom/google/firebase/firestore/local/u1;
 
     return-object v0
@@ -856,7 +779,6 @@
 .method public v()Lcom/google/firebase/firestore/local/y0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1;->j:Lcom/google/firebase/firestore/local/y0;
 
     return-object v0
@@ -865,7 +787,6 @@
 .method y(Ljava/lang/String;)Landroid/database/sqlite/SQLiteStatement;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n1;->e:Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {v0, p1}, Landroid/database/sqlite/SQLiteDatabase;->compileStatement(Ljava/lang/String;)Landroid/database/sqlite/SQLiteStatement;
@@ -878,7 +799,6 @@
 .method z(Ljava/lang/String;)Lcom/google/firebase/firestore/local/n1$d;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/local/n1$d;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/local/n1;->e:Landroid/database/sqlite/SQLiteDatabase;

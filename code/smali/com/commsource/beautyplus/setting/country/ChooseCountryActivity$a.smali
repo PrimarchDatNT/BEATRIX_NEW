@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$a;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

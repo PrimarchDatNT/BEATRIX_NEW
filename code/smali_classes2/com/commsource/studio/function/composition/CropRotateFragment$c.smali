@@ -28,7 +28,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$c;->a:Lcom/commsource/studio/function/composition/CropRotateFragment;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -56,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -75,7 +72,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$c;->a:Lcom/commsource/studio/function/composition/CropRotateFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/composition/CropRotateFragment;->z1(Lcom/commsource/studio/function/composition/CropRotateFragment;)Lcom/commsource/beautyplus/f0/kb;
@@ -90,7 +86,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$c;->a:Lcom/commsource/studio/function/composition/CropRotateFragment;
 
@@ -104,7 +99,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$c;->a:Lcom/commsource/studio/function/composition/CropRotateFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/composition/CropRotateFragment;->z1(Lcom/commsource/studio/function/composition/CropRotateFragment;)Lcom/commsource/beautyplus/f0/kb;
@@ -135,7 +129,6 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     :goto_0
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$c;->a:Lcom/commsource/studio/function/composition/CropRotateFragment;
 
@@ -151,7 +144,6 @@
 
     invoke-virtual {v0, p1}, Lcom/commsource/studio/function/composition/CompositionView;->setFreeRotate(F)V
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -324,18 +324,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/template/bean/Filter;->alphaInCamera:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/template/bean/Filter;->userAlpha:I
 
-    .line 4
     iput v0, p0, Lcom/meitu/template/bean/Filter;->alphaInBeauty:I
 
     return-void
@@ -348,29 +344,22 @@
         .end annotation
     .end param
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 6
     iput v0, p0, Lcom/meitu/template/bean/Filter;->alphaInCamera:I
 
-    .line 7
     iput v0, p0, Lcom/meitu/template/bean/Filter;->userAlpha:I
 
-    .line 8
     iput v0, p0, Lcom/meitu/template/bean/Filter;->alphaInBeauty:I
 
-    .line 9
     iput p1, p0, Lcom/meitu/template/bean/Filter;->filterId:I
 
-    .line 10
     iput-object p2, p0, Lcom/meitu/template/bean/Filter;->materialPath:Ljava/lang/String;
 
     const-string p1, "/filterConfig.plist"
 
-    .line 11
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->C(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -391,39 +380,30 @@
         .end annotation
     .end param
 
-    .line 12
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 13
     iput v0, p0, Lcom/meitu/template/bean/Filter;->alphaInCamera:I
 
-    .line 14
     iput v0, p0, Lcom/meitu/template/bean/Filter;->userAlpha:I
 
-    .line 15
     iput v0, p0, Lcom/meitu/template/bean/Filter;->alphaInBeauty:I
 
-    .line 16
     iput p1, p0, Lcom/meitu/template/bean/Filter;->filterId:I
 
-    .line 17
     iput-object p2, p0, Lcom/meitu/template/bean/Filter;->materialPath:Ljava/lang/String;
 
     const-string p1, "/filterConfig.plist"
 
-    .line 18
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->C(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/template/bean/Filter;->configPath:Ljava/lang/String;
 
-    .line 19
     iput-object p3, p0, Lcom/meitu/template/bean/Filter;->filterNewName:Ljava/lang/String;
 
-    .line 20
     iput p4, p0, Lcom/meitu/template/bean/Filter;->themeColor:I
 
     return-void
@@ -442,7 +422,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Filter;->copy(I)Lcom/meitu/template/bean/Filter;
 
@@ -468,7 +447,6 @@
 
     const/4 p1, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Filter;->getFilterName(Z)Ljava/lang/String;
 
@@ -490,7 +468,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -543,19 +520,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->userAlpha:I
 
     const/4 v2, -0x1
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/meitu/template/bean/Filter;->filterDefaultAlpha:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->userAlpha:I
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -571,7 +545,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -590,7 +563,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/Filter;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -599,15 +571,12 @@
 
     check-cast v1, Lcom/meitu/template/bean/Filter;
 
-    .line 2
     iput p1, v1, Lcom/meitu/template/bean/Filter;->cloneType:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -631,7 +600,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/meitu/template/bean/Filter;
 
     if-eqz v1, :cond_0
@@ -670,7 +638,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->alphaInBeauty:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -685,7 +652,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->alphaInCamera:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -700,7 +666,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->cloneType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -715,7 +680,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->collectedState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -730,7 +694,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/Filter;->collectedTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -747,7 +710,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Filter;->configPath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -762,7 +724,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->displayInList:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -777,7 +738,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -792,7 +752,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->downloadState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -807,7 +766,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->filterDefaultAlpha:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -824,7 +782,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Filter;->filterFileUrl:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -839,7 +796,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->filterId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -856,7 +812,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Filter;->filterInfo:Lcom/commsource/camera/xcamera/bean/FilterInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -873,7 +828,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->filterId:I
 
     const/16 v2, -0x42d7
@@ -887,7 +841,6 @@
     :cond_0
     if-nez p1, :cond_2
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/template/bean/Filter;->filterOldName:Ljava/lang/String;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -907,7 +860,6 @@
     :goto_0
     iget-object p1, p0, Lcom/meitu/template/bean/Filter;->filterNewName:Ljava/lang/String;
 
-    .line 3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -923,7 +875,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Filter;->filterNewName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -940,7 +891,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Filter;->filterOldName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -955,7 +905,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->filterRecommend:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -972,7 +921,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Filter;->filterShopThumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -987,7 +935,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->filterSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1004,7 +951,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -1019,7 +965,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->d()I
 
     move-result v1
@@ -1054,7 +999,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->filterId:I
 
     const/16 v2, -0x42d7
@@ -1065,13 +1009,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1087,7 +1029,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Filter;->filterThumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1102,7 +1043,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->groupId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1117,7 +1057,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->internalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1134,7 +1073,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Filter;->lookName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1151,7 +1089,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Filter;->materialPath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1166,7 +1103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->needBodyMask:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1181,7 +1117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->needHairMask:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1196,7 +1131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->needNewMode:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1211,7 +1145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->needShow:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1226,7 +1159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->tag:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1241,7 +1173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->themeColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1256,7 +1187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->userAlpha:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1271,7 +1201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -1288,7 +1217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/template/bean/Filter;->isDeleteState:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1303,7 +1231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->filterId:I
 
     const/4 v2, 0x1
@@ -1341,7 +1268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->downloadProgress:I
 
     const/4 v2, 0x1
@@ -1370,7 +1296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->groupId:I
 
     const/16 v2, 0x13a1
@@ -1397,7 +1322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->tag:I
 
     const/4 v2, 0x2
@@ -1432,7 +1356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/template/bean/Filter;->isLookNeedPay:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1447,7 +1370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -1462,7 +1384,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->internalState:I
 
     const/4 v2, 0x1
@@ -1493,7 +1414,6 @@
     :goto_1
     if-nez v1, :cond_2
 
-    .line 2
     new-instance v1, Ljava/io/File;
 
     iget-object v3, p0, Lcom/meitu/template/bean/Filter;->materialPath:Ljava/lang/String;
@@ -1502,7 +1422,6 @@
 
     invoke-virtual {v1}, Ljava/io/File;->deleteOnExit()V
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1516,7 +1435,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->tag:I
 
     const/4 v2, 0x1
@@ -1546,7 +1464,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->filterId:I
 
     if-nez v1, :cond_0
@@ -1571,7 +1488,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->filterId:I
 
     const/16 v2, -0x42d7
@@ -1598,7 +1514,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->groupId:I
 
     const/16 v2, 0x13a1
@@ -1647,7 +1562,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/template/bean/Filter;->isUnZipping:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1662,7 +1576,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Filter;->onCompareLocal(Lcom/meitu/template/bean/Filter;)Z
@@ -1689,7 +1602,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lf/d/i/e;->q1()Z
 
     move-result v1
@@ -1698,103 +1610,83 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     iget v1, p1, Lcom/meitu/template/bean/Filter;->collectedState:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->collectedState:I
 
-    .line 5
     iget-wide v3, p1, Lcom/meitu/template/bean/Filter;->collectedTime:J
 
     iput-wide v3, p0, Lcom/meitu/template/bean/Filter;->collectedTime:J
 
-    .line 6
     iget v1, p1, Lcom/meitu/template/bean/Filter;->downloadState:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->downloadState:I
 
-    .line 7
     iget v1, p1, Lcom/meitu/template/bean/Filter;->filterDefaultAlpha:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->filterDefaultAlpha:I
 
-    .line 8
     iget v1, p1, Lcom/meitu/template/bean/Filter;->alphaInCamera:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->alphaInCamera:I
 
-    .line 9
     iget v1, p1, Lcom/meitu/template/bean/Filter;->alphaInBeauty:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->alphaInBeauty:I
 
-    .line 10
     iget v1, p1, Lcom/meitu/template/bean/Filter;->userAlpha:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->userAlpha:I
 
-    .line 11
     iget v1, p1, Lcom/meitu/template/bean/Filter;->needNewMode:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->needNewMode:I
 
-    .line 12
     iget v1, p1, Lcom/meitu/template/bean/Filter;->needBodyMask:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->needBodyMask:I
 
-    .line 13
     iget v1, p1, Lcom/meitu/template/bean/Filter;->needHairMask:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->needHairMask:I
 
-    .line 14
     iget-boolean v1, p1, Lcom/meitu/template/bean/Filter;->isDeleteState:Z
 
     iput-boolean v1, p0, Lcom/meitu/template/bean/Filter;->isDeleteState:Z
 
-    .line 15
     iget v1, p1, Lcom/meitu/template/bean/Filter;->cloneType:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->cloneType:I
 
-    .line 16
     iget v1, p1, Lcom/meitu/template/bean/Filter;->needShow:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->needShow:I
 
-    .line 17
     iget v1, p1, Lcom/meitu/template/bean/Filter;->downloadProgress:I
 
     iput v1, p0, Lcom/meitu/template/bean/Filter;->downloadProgress:I
 
-    .line 18
     iget-object v1, p1, Lcom/meitu/template/bean/Filter;->materialPath:Ljava/lang/String;
 
     iput-object v1, p0, Lcom/meitu/template/bean/Filter;->materialPath:Ljava/lang/String;
 
-    .line 19
     iget-object v1, p1, Lcom/meitu/template/bean/Filter;->configPath:Ljava/lang/String;
 
     iput-object v1, p0, Lcom/meitu/template/bean/Filter;->configPath:Ljava/lang/String;
 
-    .line 20
     iget-boolean v1, p1, Lcom/meitu/template/bean/Filter;->isUnZipping:Z
 
     iput-boolean v1, p0, Lcom/meitu/template/bean/Filter;->isUnZipping:Z
 
-    .line 21
     iget-object v1, p1, Lcom/meitu/template/bean/Filter;->lookName:Ljava/lang/String;
 
     iput-object v1, p0, Lcom/meitu/template/bean/Filter;->lookName:Ljava/lang/String;
 
-    .line 22
     iget-object v1, p0, Lcom/meitu/template/bean/Filter;->filterThumbnail:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/meitu/template/bean/Filter;->filterThumbnail:Ljava/lang/String;
@@ -1803,7 +1695,6 @@
 
     move-result v1
 
-    .line 23
     iget-object v3, p0, Lcom/meitu/template/bean/Filter;->filterNewName:Ljava/lang/String;
 
     iget-object v4, p1, Lcom/meitu/template/bean/Filter;->filterNewName:Ljava/lang/String;
@@ -1814,7 +1705,6 @@
 
     and-int/2addr v1, v3
 
-    .line 24
     iget-object v3, p0, Lcom/meitu/template/bean/Filter;->filterOldName:Ljava/lang/String;
 
     iget-object v4, p1, Lcom/meitu/template/bean/Filter;->filterOldName:Ljava/lang/String;
@@ -1825,7 +1715,6 @@
 
     and-int/2addr v1, v3
 
-    .line 25
     iget-object v3, p0, Lcom/meitu/template/bean/Filter;->filterShopThumbnail:Ljava/lang/String;
 
     iget-object v4, p1, Lcom/meitu/template/bean/Filter;->filterShopThumbnail:Ljava/lang/String;
@@ -1836,7 +1725,6 @@
 
     and-int/2addr v1, v3
 
-    .line 26
     iget v3, p0, Lcom/meitu/template/bean/Filter;->filterRecommend:I
 
     iget v4, p1, Lcom/meitu/template/bean/Filter;->filterRecommend:I
@@ -1855,7 +1743,6 @@
     :goto_0
     and-int/2addr v1, v3
 
-    .line 27
     iget v3, p0, Lcom/meitu/template/bean/Filter;->groupId:I
 
     iget v4, p1, Lcom/meitu/template/bean/Filter;->groupId:I
@@ -1872,7 +1759,6 @@
     :goto_1
     and-int/2addr v1, v3
 
-    .line 28
     iget v3, p0, Lcom/meitu/template/bean/Filter;->filterSort:I
 
     iget v4, p1, Lcom/meitu/template/bean/Filter;->filterSort:I
@@ -1889,7 +1775,6 @@
     :goto_2
     and-int/2addr v1, v3
 
-    .line 29
     iget v3, p0, Lcom/meitu/template/bean/Filter;->displayInList:I
 
     iget v4, p1, Lcom/meitu/template/bean/Filter;->displayInList:I
@@ -1906,7 +1791,6 @@
     :goto_3
     and-int/2addr v1, v3
 
-    .line 30
     iget v3, p0, Lcom/meitu/template/bean/Filter;->internalState:I
 
     iget v4, p1, Lcom/meitu/template/bean/Filter;->internalState:I
@@ -1925,7 +1809,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 31
     iget v1, p0, Lcom/meitu/template/bean/Filter;->tag:I
 
     iget v4, p1, Lcom/meitu/template/bean/Filter;->tag:I
@@ -1942,7 +1825,6 @@
     :goto_5
     if-eq v3, v2, :cond_9
 
-    .line 32
     iget-object v2, p0, Lcom/meitu/template/bean/Filter;->filterFileUrl:Ljava/lang/String;
 
     iget-object p1, p1, Lcom/meitu/template/bean/Filter;->filterFileUrl:Ljava/lang/String;
@@ -1953,12 +1835,10 @@
 
     if-nez p1, :cond_8
 
-    .line 33
     iget-object v2, p0, Lcom/meitu/template/bean/Filter;->materialPath:Ljava/lang/String;
 
     if-eqz v2, :cond_7
 
-    .line 34
     new-instance v2, Ljava/io/File;
 
     iget-object v3, p0, Lcom/meitu/template/bean/Filter;->materialPath:Ljava/lang/String;
@@ -1967,7 +1847,6 @@
 
     invoke-virtual {v2}, Ljava/io/File;->deleteOnExit()V
 
-    .line 35
     :cond_7
     iput v5, p0, Lcom/meitu/template/bean/Filter;->downloadState:I
 
@@ -1976,13 +1855,11 @@
 
     goto :goto_6
 
-    .line 36
     :cond_9
     iget-object p1, p1, Lcom/meitu/template/bean/Filter;->filterFileUrl:Ljava/lang/String;
 
     iput-object p1, p0, Lcom/meitu/template/bean/Filter;->filterFileUrl:Ljava/lang/String;
 
-    .line 37
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1996,7 +1873,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Filter;->onSortCompare(Lcom/meitu/template/bean/Filter;)I
@@ -2023,7 +1899,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Filter;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -2032,12 +1907,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/meitu/template/bean/Filter;->filterId:I
 
@@ -2067,14 +1940,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget p1, p0, Lcom/meitu/template/bean/Filter;->alphaInCamera:I
 
     iput p1, p0, Lcom/meitu/template/bean/Filter;->userAlpha:I
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/template/bean/Filter;->isDownloaded()Z
 
@@ -2082,12 +1953,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget p1, p0, Lcom/meitu/template/bean/Filter;->filterDefaultAlpha:I
 
     iput p1, p0, Lcom/meitu/template/bean/Filter;->userAlpha:I
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2102,7 +1971,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->alphaInBeauty:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2117,7 +1985,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->alphaInCamera:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2132,7 +1999,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->cloneType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2147,7 +2013,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->collectedState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2162,7 +2027,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/Filter;->collectedTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2181,7 +2045,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Filter;->configPath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2196,7 +2059,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/template/bean/Filter;->isDeleteState:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2211,7 +2073,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->displayInList:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2226,7 +2087,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2241,7 +2101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->downloadState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2256,7 +2115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->filterDefaultAlpha:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2275,7 +2133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Filter;->filterFileUrl:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2290,7 +2147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->filterId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2309,7 +2165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Filter;->filterInfo:Lcom/commsource/camera/xcamera/bean/FilterInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2328,7 +2183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Filter;->filterNewName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2347,7 +2201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Filter;->filterOldName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2362,7 +2215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->filterRecommend:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2381,7 +2233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Filter;->filterShopThumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2396,7 +2247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->filterSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2415,7 +2265,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Filter;->filterThumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2430,7 +2279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->groupId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2445,7 +2293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->internalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2464,7 +2311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Filter;->lookName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2479,7 +2325,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/template/bean/Filter;->isLookNeedPay:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2498,7 +2343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Filter;->materialPath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2513,7 +2357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->needBodyMask:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2528,7 +2371,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->needHairMask:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2543,7 +2385,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->needNewMode:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2558,7 +2399,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->needShow:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2573,7 +2413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->tag:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2588,7 +2427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->themeColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2603,7 +2441,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/template/bean/Filter;->isUnZipping:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2618,7 +2455,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Filter;->userAlpha:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2635,7 +2471,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Filter;->filterId:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;

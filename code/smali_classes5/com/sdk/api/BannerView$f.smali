@@ -37,7 +37,6 @@
 .method private constructor <init>(Lcom/sdk/api/BannerView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 .method synthetic constructor <init>(Lcom/sdk/api/BannerView;Lcom/sdk/api/BannerView$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/sdk/api/BannerView$f;-><init>(Lcom/sdk/api/BannerView;)V
 
     return-void
@@ -63,10 +61,8 @@
 
     const-string v1, "banner view prepared failed"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
 
     const/4 v1, 0x4
@@ -75,12 +71,10 @@
 
     invoke-static {v0, v1, v2, p1}, Lcom/sdk/api/BannerView;->m(Lcom/sdk/api/BannerView;ILandroid/view/View;I)V
 
-    .line 3
     new-instance v9, Ljava/util/HashMap;
 
     invoke-direct {v9}, Ljava/util/HashMap;-><init>()V
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -93,7 +87,6 @@
 
     sub-long v7, v0, v2
 
-    .line 5
     sget-object v3, Lcom/sdk/api/Const$Event;->BannerView_onAdPrepareFail:Lcom/sdk/api/Const$Event;
 
     iget-object v0, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
@@ -118,10 +111,8 @@
 
     const-string v1, "banner view prepared"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
 
     const/4 v1, 0x3
@@ -132,12 +123,10 @@
 
     invoke-static {v0, v1, v2, v3}, Lcom/sdk/api/BannerView;->m(Lcom/sdk/api/BannerView;ILandroid/view/View;I)V
 
-    .line 3
     new-instance v10, Ljava/util/HashMap;
 
     invoke-direct {v10}, Ljava/util/HashMap;-><init>()V
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -150,7 +139,6 @@
 
     sub-long v8, v0, v2
 
-    .line 5
     sget-object v4, Lcom/sdk/api/Const$Event;->BannerView_onAdPrepared:Lcom/sdk/api/Const$Event;
 
     iget-object v0, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
@@ -171,7 +159,6 @@
 .method public c(Landroid/view/View;ILcom/sdk/imp/internal/loader/Ad;)V
     .locals 8
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -190,7 +177,6 @@
 
     invoke-static {v1, v0}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v2, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
 
     const/4 v3, 0x0
@@ -205,17 +191,14 @@
 
     invoke-static/range {v2 .. v7}, Lcom/sdk/api/BannerView;->i(Lcom/sdk/api/BannerView;ILandroid/view/View;IILcom/sdk/imp/internal/loader/Ad;)V
 
-    .line 3
     iget-object p1, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
 
     invoke-static {p1, p3}, Lcom/sdk/api/BannerView;->j(Lcom/sdk/api/BannerView;Lcom/sdk/imp/internal/loader/Ad;)Lcom/sdk/imp/internal/loader/Ad;
 
-    .line 4
     new-instance v6, Ljava/util/HashMap;
 
     invoke-direct {v6}, Ljava/util/HashMap;-><init>()V
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
@@ -228,7 +211,6 @@
 
     sub-long v4, p1, v0
 
-    .line 6
     sget-object v0, Lcom/sdk/api/Const$Event;->BannerView_onLoaded:Lcom/sdk/api/Const$Event;
 
     iget-object p1, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
@@ -251,10 +233,8 @@
 
     const-string v1, "banner view onClicked"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
 
     const/4 v1, 0x2
@@ -265,12 +245,10 @@
 
     invoke-static {v0, v1, v2, v3}, Lcom/sdk/api/BannerView;->m(Lcom/sdk/api/BannerView;ILandroid/view/View;I)V
 
-    .line 3
     new-instance v10, Ljava/util/HashMap;
 
     invoke-direct {v10}, Ljava/util/HashMap;-><init>()V
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -283,7 +261,6 @@
 
     sub-long v8, v0, v2
 
-    .line 5
     sget-object v4, Lcom/sdk/api/Const$Event;->BannerView_onClicked:Lcom/sdk/api/Const$Event;
 
     iget-object v0, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
@@ -304,7 +281,6 @@
 .method public onFailed(I)V
     .locals 10
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -323,7 +299,6 @@
 
     invoke-static {v1, v0}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
 
     const/4 v1, 0x1
@@ -332,12 +307,10 @@
 
     invoke-static {v0, v1, v2, p1}, Lcom/sdk/api/BannerView;->m(Lcom/sdk/api/BannerView;ILandroid/view/View;I)V
 
-    .line 3
     new-instance v9, Ljava/util/HashMap;
 
     invoke-direct {v9}, Ljava/util/HashMap;-><init>()V
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -350,7 +323,6 @@
 
     sub-long v7, v0, v2
 
-    .line 5
     sget-object v3, Lcom/sdk/api/Const$Event;->BannerView_onFailed:Lcom/sdk/api/Const$Event;
 
     iget-object v0, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
@@ -371,7 +343,6 @@
 .method public onWebViewErrorMsg(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/api/BannerView$f;->a:Lcom/sdk/api/BannerView;
 
     invoke-static {v0}, Lcom/sdk/api/BannerView;->n(Lcom/sdk/api/BannerView;)Lcom/sdk/api/BannerView$d;
@@ -380,7 +351,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/sdk/api/BannerView$f$a;
 
     invoke-direct {v0, p0, p1}, Lcom/sdk/api/BannerView$f$a;-><init>(Lcom/sdk/api/BannerView$f;Ljava/lang/String;)V

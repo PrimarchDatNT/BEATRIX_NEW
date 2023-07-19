@@ -17,17 +17,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->N:Z
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->O:Z
 
     return-void
@@ -42,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->O:Z
 
     if-eqz v1, :cond_0
@@ -55,7 +51,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getAlbumPhotoPath()Ljava/lang/String;
 
     move-result-object p1
@@ -68,10 +63,8 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->O:Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -85,13 +78,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/statistics/c;->e(Landroid/content/Context;)V
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/statistics/c;->d(Landroid/content/Context;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -104,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/f/i;->r()J
 
     move-result-wide v1
@@ -117,10 +106,8 @@
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->N:Z
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -134,10 +121,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/activity/ComponentActivity;->onBackPressed()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -150,25 +135,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     new-instance p1, Lcom/commsource/camera/beauty/i;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/beauty/i;-><init>(Landroid/app/Activity;)V
 
     iput-object p1, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->P:Lcom/commsource/camera/beauty/i;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/BaseCameraConfirmActivity;->N0()V
 
     const/4 p1, 0x2
 
-    .line 4
     invoke-static {p0, p1}, Lf/d/i/e;->H2(Landroid/content/Context;I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -181,15 +161,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {p0, v1}, Lf/d/i/e;->H2(Landroid/content/Context;I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -202,10 +179,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onPause()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -218,10 +193,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onResume()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -234,17 +207,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->Q:Z
 
     const-string v2, "IS_SHARE_FRAGMENT_SHOW"
 
     invoke-virtual {p1, v2, v1}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 2
     invoke-super {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->onSaveInstanceState(Landroid/os/Bundle;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

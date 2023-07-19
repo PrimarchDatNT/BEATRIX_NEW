@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/firebase/firestore/remote/x;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/remote/x$a;->a:Lcom/google/firebase/firestore/remote/x;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public b(Lio/grpc/Status;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/x$a;->a:Lcom/google/firebase/firestore/remote/x;
 
     invoke-static {v0, p1}, Lcom/google/firebase/firestore/remote/x;->e(Lcom/google/firebase/firestore/remote/x;Lio/grpc/Status;)V
@@ -49,7 +47,6 @@
 .method public c()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/x$a;->a:Lcom/google/firebase/firestore/remote/x;
 
     invoke-static {v0}, Lcom/google/firebase/firestore/remote/x;->c(Lcom/google/firebase/firestore/remote/x;)V
@@ -60,7 +57,6 @@
 .method public d(Lcom/google/firebase/firestore/model/l;Lcom/google/firebase/firestore/remote/WatchChange;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/x$a;->a:Lcom/google/firebase/firestore/remote/x;
 
     invoke-static {v0, p1, p2}, Lcom/google/firebase/firestore/remote/x;->d(Lcom/google/firebase/firestore/remote/x;Lcom/google/firebase/firestore/model/l;Lcom/google/firebase/firestore/remote/WatchChange;)V

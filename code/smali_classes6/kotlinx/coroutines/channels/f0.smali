@@ -55,7 +55,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/channels/f0;->a:Ljava/lang/Object;
@@ -153,7 +152,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/channels/f0$a;
 
     if-eqz v0, :cond_0
@@ -188,7 +186,6 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/channels/f0$a;
 
     if-nez v0, :cond_0
@@ -222,7 +219,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/channels/f0$a;
 
     if-eqz v0, :cond_0
@@ -254,7 +250,6 @@
 .method public static final j(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     instance-of p0, p0, Lcotlinx/coroutines/channels/f0$a;
 
     return p0
@@ -265,7 +260,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/channels/f0$a;
 
     if-eqz v0, :cond_0
@@ -276,7 +270,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -317,7 +310,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/f0;->a:Ljava/lang/Object;
 
     invoke-static {v0, p1}, Lcotlinx/coroutines/channels/f0;->d(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -330,7 +322,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/f0;->a:Ljava/lang/Object;
 
     invoke-static {v0}, Lcotlinx/coroutines/channels/f0;->i(Ljava/lang/Object;)I
@@ -355,7 +346,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/f0;->a:Ljava/lang/Object;
 
     invoke-static {v0}, Lcotlinx/coroutines/channels/f0;->k(Ljava/lang/Object;)Ljava/lang/String;

@@ -18,7 +18,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -27,7 +26,6 @@
 
     const/16 v1, 0x1a
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -36,14 +34,12 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
     sput-object v2, Lcom/google/android/gms/internal/firebase_remote_config/z;->c:Ljava/lang/Integer;
 
-    .line 4
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -110,7 +106,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/String;->toString()Ljava/lang/String;
 
     move-result-object v0

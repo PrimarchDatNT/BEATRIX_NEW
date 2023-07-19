@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/sq;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/rq;->a:Lcom/google/android/gms/internal/ads/sq;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -37,7 +36,6 @@
 .method public final a(Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/rq;->a:Lcom/google/android/gms/internal/ads/sq;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/sq;->c(Lcom/google/android/gms/internal/ads/sq;)Ljava/util/concurrent/atomic/AtomicInteger;
@@ -63,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/rq;->a:Lcom/google/android/gms/internal/ads/sq;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/sq;->c(Lcom/google/android/gms/internal/ads/sq;)Ljava/util/concurrent/atomic/AtomicInteger;

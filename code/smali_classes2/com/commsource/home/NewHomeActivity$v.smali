@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/NewHomeActivity$v;->a:Lcom/commsource/home/NewHomeActivity;
 
     iput-wide p2, p0, Lcom/commsource/home/NewHomeActivity$v;->b:J
@@ -49,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$v;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-virtual {v1}, Landroid/app/Activity;->isFinishing()Z
@@ -58,7 +56,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$v;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v1}, Lcom/commsource/home/NewHomeActivity;->P0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/beautyplus/f0/y0;
@@ -73,7 +70,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/billing/SubUserType;->USER_TYPE_NEW_DISCOUNT:Lcom/commsource/billing/SubUserType;
 
@@ -93,7 +89,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$v;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v1}, Lcom/commsource/home/NewHomeActivity;->V0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/billing/activity/SubscribeViewModel;
@@ -102,7 +97,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->T0()V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -116,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$v;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-virtual {v1}, Landroid/app/Activity;->isFinishing()Z
@@ -125,7 +118,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$v;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v1}, Lcom/commsource/home/NewHomeActivity;->P0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/beautyplus/f0/y0;
@@ -144,7 +136,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -180,80 +180,68 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->a:Ljava/util/ArrayList;
 
-    .line 3
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->b:Ljava/util/ArrayList;
 
-    .line 4
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->c:Ljava/util/ArrayList;
 
-    .line 5
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->d:Landroidx/lifecycle/MutableLiveData;
 
-    .line 6
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->e:Landroidx/lifecycle/MutableLiveData;
 
-    .line 7
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->f:Landroidx/lifecycle/MutableLiveData;
 
-    .line 8
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->g:Landroidx/lifecycle/MutableLiveData;
 
-    .line 9
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->h:Landroidx/lifecycle/MutableLiveData;
 
-    .line 10
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->j:Landroidx/lifecycle/MutableLiveData;
 
-    .line 11
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->l:Ljava/util/HashMap;
 
-    .line 12
     new-instance p1, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;-><init>(Lcom/commsource/studio/formula/FormulaViewModel;)V
@@ -264,7 +252,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->m:Lcotlin/w;
 
-    .line 13
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -281,7 +268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/formula/FormulaViewModel;->c:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -296,7 +282,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->i:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->b:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -326,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->c:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -389,7 +372,6 @@
 
     move-object v3, p3
 
-    .line 1
     invoke-virtual/range {v0 .. v6}, Lcom/commsource/studio/formula/FormulaViewModel;->E(Lcom/commsource/studio/formula/JsFormula;Lcom/commsource/studio/bean/PictureLayerInfo;Lcom/commsource/studio/bean/a;ZZZ)V
 
     invoke-static {p8}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -404,7 +386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/formula/FormulaViewModel;->i:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -419,7 +400,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/formula/FormulaViewModel;->b:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -472,7 +452,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iget-object v2, v8, Lcom/commsource/studio/formula/FormulaViewModel;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
@@ -518,7 +497,6 @@
     :cond_1
     if-lt v2, v4, :cond_3
 
-    .line 2
     :goto_1
     invoke-virtual {p1}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
@@ -559,7 +537,6 @@
 
     if-eq v2, v0, :cond_4
 
-    .line 3
     iget-object v0, v8, Lcom/commsource/studio/formula/FormulaViewModel;->e:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -568,21 +545,17 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     :cond_4
     iput-object v3, v8, Lcom/commsource/studio/formula/FormulaViewModel;->o:Lcom/commsource/studio/formula/JsFormula;
 
-    .line 5
     sget-object v10, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->h:Lcom/commsource/studio/formula/convert/FormulaConvertFactory;
 
-    .line 6
     new-instance v11, Lcom/commsource/studio/formula/convert/g;
 
     move/from16 v7, p4
 
     invoke-direct {v11, p1, p2, v6, v7}, Lcom/commsource/studio/formula/convert/g;-><init>(Lcom/commsource/studio/formula/JsFormula;Lcom/commsource/studio/bean/PictureLayerInfo;Lcom/commsource/studio/bean/a;Z)V
 
-    .line 7
     new-instance v12, Lcom/commsource/studio/formula/FormulaViewModel$applyFormula$$inlined$run$lambda$1;
 
     move-object v0, v12
@@ -601,10 +574,8 @@
 
     invoke-direct/range {v0 .. v7}, Lcom/commsource/studio/formula/FormulaViewModel$applyFormula$$inlined$run$lambda$1;-><init>(Lcom/commsource/studio/formula/FormulaViewModel;ZLcom/commsource/studio/formula/JsFormula;ZLcom/commsource/studio/bean/PictureLayerInfo;Lcom/commsource/studio/bean/a;Z)V
 
-    .line 8
     invoke-virtual {v10, v11, v12}, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->d(Lcom/commsource/studio/formula/convert/g;Lcotlin/jvm/u/l;)V
 
-    .line 9
     :cond_5
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -618,7 +589,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -635,7 +605,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->o:Lcom/commsource/studio/formula/JsFormula;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -661,7 +630,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->d:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -678,7 +646,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->d:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -707,7 +674,6 @@
 
     move-result v1
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/studio/formula/FormulaViewModel;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
@@ -734,7 +700,6 @@
     :goto_2
     if-eqz v3, :cond_3
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/formula/FormulaViewModel;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -754,7 +719,6 @@
     :cond_3
     const-string v1, "-2"
 
-    .line 4
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -781,7 +745,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->h:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -807,7 +770,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->j:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -833,7 +795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->a:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -859,7 +820,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->n:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -921,7 +881,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->e:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -950,7 +909,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->l:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -976,7 +934,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->f:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1003,7 +960,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->g:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1034,7 +990,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->l:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1045,17 +1000,14 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/formula/FormulaViewModel;->l:Ljava/util/HashMap;
 
     invoke-interface {v2, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     :cond_0
     invoke-interface {v1, p2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
@@ -1065,14 +1017,12 @@
 
     const/4 p1, 0x1
 
-    .line 5
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
     invoke-interface {v1, p2, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1080,7 +1030,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1101,7 +1050,6 @@
 
     const-string v1, "id"
 
-    .line 1
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -1112,14 +1060,12 @@
 
     const-string v1, "content"
 
-    .line 2
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->i:Ljava/lang/String;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1133,7 +1079,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1152,7 +1097,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->o:Lcom/commsource/studio/formula/JsFormula;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1183,7 +1127,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->a:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1198,13 +1141,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->k:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->a:Ljava/util/ArrayList;
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1235,7 +1175,6 @@
     :cond_0
     check-cast v5, Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 4
     invoke-virtual {v5}, Lcom/commsource/studio/formula/FormulaCategory;->getCategoryId()Ljava/lang/String;
 
     move-result-object v7
@@ -1254,7 +1193,6 @@
 
     if-ne p1, v3, :cond_4
 
-    .line 5
     invoke-virtual {v5}, Lcom/commsource/studio/formula/FormulaCategory;->getDisplayFormulaList()Ljava/util/List;
 
     move-result-object v5
@@ -1288,7 +1226,6 @@
 
     goto :goto_4
 
-    .line 6
     :cond_4
     invoke-virtual {v5}, Lcom/commsource/studio/formula/FormulaCategory;->getDisplayFormulaList()Ljava/util/List;
 
@@ -1315,7 +1252,6 @@
 
     if-eq p2, v4, :cond_6
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->e:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1324,7 +1260,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 8
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1335,7 +1270,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1349,10 +1283,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->a:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1383,7 +1315,6 @@
     :cond_0
     check-cast v5, Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 3
     invoke-virtual {v5}, Lcom/commsource/studio/formula/FormulaCategory;->getCategoryId()Ljava/lang/String;
 
     move-result-object v7
@@ -1398,7 +1329,6 @@
 
     if-eqz v7, :cond_3
 
-    .line 4
     invoke-virtual {v5}, Lcom/commsource/studio/formula/FormulaCategory;->getDisplayFormulaList()Ljava/util/List;
 
     move-result-object v5
@@ -1421,15 +1351,12 @@
 
     if-gt p1, v5, :cond_3
 
-    .line 5
     iget p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->k:I
 
     if-eq v3, p1, :cond_2
 
-    .line 6
     iput v3, p0, Lcom/commsource/studio/formula/FormulaViewModel;->k:I
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->d:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1438,7 +1365,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1449,7 +1375,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1469,19 +1394,16 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/studio/formula/JsFormula;->setRecentUseTime(J)V
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/formula/FormulaRepo;->S(Lcom/commsource/studio/formula/JsFormula;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaViewModel;->a:Ljava/util/ArrayList;
 
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -1525,7 +1447,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     sget-object p1, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-virtual {p1}, Lcom/commsource/studio/formula/FormulaRepo;->K()Ljava/util/List;
@@ -1536,27 +1457,22 @@
 
     move-result-object p1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/formula/FormulaViewModel;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->clear()V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/formula/FormulaViewModel;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v2, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/formula/FormulaViewModel;->g:Landroidx/lifecycle/MutableLiveData;
 
     iget-object v3, p0, Lcom/commsource/studio/formula/FormulaViewModel;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 8
     invoke-virtual {v1, p1}, Lcom/commsource/studio/formula/FormulaCategory;->setDisplayFormulaList(Ljava/util/List;)V
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

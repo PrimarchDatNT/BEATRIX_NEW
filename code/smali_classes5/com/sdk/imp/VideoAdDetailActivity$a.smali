@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/VideoAdDetailActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VideoAdDetailActivity$a;->a:Lcom/sdk/imp/VideoAdDetailActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a(Ljava/lang/String;Lcom/sdk/api/InternalAdError;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/VideoAdDetailActivity$a;->a:Lcom/sdk/imp/VideoAdDetailActivity;
 
     const/4 p2, 0x0
@@ -51,7 +49,6 @@
 .method public b(Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     :try_start_0
     invoke-static {p2}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
@@ -59,7 +56,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/sdk/imp/VideoAdDetailActivity$a;->a:Lcom/sdk/imp/VideoAdDetailActivity;
 
     new-instance p3, Ljava/lang/ref/WeakReference;
@@ -70,7 +66,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/sdk/imp/VideoAdDetailActivity$a;->a:Lcom/sdk/imp/VideoAdDetailActivity;
 

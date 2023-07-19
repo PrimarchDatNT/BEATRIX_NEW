@@ -18,7 +18,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/k0/a;
 
     invoke-direct {v1}, Lcom/commsource/beautyplus/k0/a;-><init>()V
@@ -33,7 +32,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,10 +51,8 @@
 
     const-string v2, ">>>>>>MemoryLeakHooker>>>>\u521d\u59cb\u5316>>>>"
 
-    .line 1
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x1a
@@ -65,7 +61,6 @@
 
     if-ge v1, v2, :cond_0
 
-    .line 3
     sget-object v1, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->j:Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;
 
     const v2, 0x3f666666    # 0.9f
@@ -76,7 +71,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -91,10 +85,8 @@
     :catch_0
     move-exception v1
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

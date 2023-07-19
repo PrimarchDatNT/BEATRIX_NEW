@@ -27,7 +27,6 @@
 .method constructor <init>(I[Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lf/k/c/c/f$g;->a:I
 
     iput-object p2, p0, Lf/k/c/c/f$g;->b:[Ljava/lang/Object;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lf/k/c/c/f$g;->a:I
 
     iget-object v2, p0, Lf/k/c/c/f$g;->b:[Ljava/lang/Object;
@@ -55,7 +53,6 @@
 
     invoke-static {v1, v3, v2}, Lf/k/c/c/f;->c(II[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

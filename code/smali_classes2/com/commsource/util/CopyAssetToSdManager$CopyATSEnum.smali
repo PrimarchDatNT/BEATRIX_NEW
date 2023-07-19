@@ -49,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;
 
     const-string v2, "AiHDR"
@@ -76,7 +75,6 @@
 
     aput-object v7, v1, v2
 
-    .line 2
     sput-object v1, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->$VALUES:[Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -96,16 +94,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->assetFile:Ljava/lang/String;
 
-    .line 3
     iput-object p4, p0, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->targetFile:Ljava/lang/String;
 
-    .line 4
     iput-object p5, p0, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->md5:Ljava/lang/String;
 
     return-void
@@ -118,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -139,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->$VALUES:[Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;
 
     invoke-virtual {v1}, [Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->clone()Ljava/lang/Object;
@@ -162,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->assetFile:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -177,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->copyState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -192,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->md5:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -207,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -236,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->targetFile:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -251,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -276,10 +262,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->copyState:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

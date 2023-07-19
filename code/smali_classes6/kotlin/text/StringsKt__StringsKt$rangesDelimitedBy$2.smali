@@ -100,7 +100,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/StringsKt__StringsKt$rangesDelimitedBy$2;->$delimiters:[C
 
     iget-boolean v1, p0, Lcotlin/text/StringsKt__StringsKt$rangesDelimitedBy$2;->$ignoreCase:Z

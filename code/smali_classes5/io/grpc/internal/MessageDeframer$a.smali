@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/grpc/internal/MessageDeframer$State;->values()[Lio/grpc/internal/MessageDeframer$State;
 
     move-result-object v0

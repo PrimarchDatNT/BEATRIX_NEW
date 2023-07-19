@@ -39,14 +39,12 @@
 
     if-eq p0, v0, :cond_0
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/channels/g;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/channels/g;-><init>(I)V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -56,7 +54,6 @@
 
     throw p0
 
-    .line 3
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -66,7 +63,6 @@
 
     throw p0
 
-    .line 4
     :cond_2
     new-instance v0, Lcotlinx/coroutines/channels/q;
 
@@ -74,7 +70,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     new-instance v0, Lcotlinx/coroutines/channels/g;
 

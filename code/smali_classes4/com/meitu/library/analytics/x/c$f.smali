@@ -43,12 +43,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/library/analytics/x/c$f;->e:Ljava/lang/String;
 
     const/4 v1, 0x0
 
-    .line 2
     sput-boolean v1, Lcom/meitu/library/analytics/x/c$f;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -59,18 +57,14 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/library/analytics/x/c$f;->d:Z
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/library/analytics/x/c$f;->a:Ljava/lang/String;
 
-    .line 4
     iput-object p2, p0, Lcom/meitu/library/analytics/x/c$f;->b:Ljava/lang/String;
 
     return-void
@@ -85,7 +79,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -100,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/analytics/x/c$f;->d:Z
 
     if-eqz v1, :cond_0
@@ -116,7 +108,6 @@
 
     if-nez p1, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -124,7 +115,6 @@
     :cond_1
     const/4 v2, 0x1
 
-    .line 3
     :try_start_0
     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -132,7 +122,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     iget-object v3, p0, Lcom/meitu/library/analytics/x/c$f;->a:Ljava/lang/String;
 
     invoke-virtual {p1, v3, v1}, Landroid/content/pm/PackageManager;->resolveContentProvider(Ljava/lang/String;I)Landroid/content/pm/ProviderInfo;
@@ -155,15 +144,12 @@
 
     goto :goto_1
 
-    .line 5
     :catchall_0
     sput-boolean v1, Lcom/meitu/library/analytics/x/c$f;->f:Z
 
-    .line 6
     :goto_1
     iput-boolean v2, p0, Lcom/meitu/library/analytics/x/c$f;->d:Z
 
-    .line 7
     sget-boolean p1, Lcom/meitu/library/analytics/x/c$f;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -178,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/x/c$f;->e:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -187,7 +172,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -218,7 +202,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :try_start_0
     invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -240,13 +223,11 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     :try_start_1
     invoke-interface {p1}, Landroid/database/Cursor;->moveToFirst()Z
 
     const-string v2, "value"
 
-    .line 5
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v2
@@ -262,7 +243,6 @@
     :cond_0
     if-eqz p1, :cond_2
 
-    .line 6
     :goto_0
     :try_start_2
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
@@ -274,7 +254,6 @@
     :catchall_0
     move-object p1, v1
 
-    .line 7
     :catchall_1
     :try_start_3
     sput-object v1, Lcom/meitu/library/analytics/x/c$f;->e:Ljava/lang/String;
@@ -290,20 +269,17 @@
 
     if-eqz p1, :cond_1
 
-    .line 8
     :try_start_4
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_3
 
-    .line 9
     :catchall_3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
 
-    .line 10
     :catchall_4
     :cond_2
     :goto_1
@@ -321,10 +297,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/x/c$f;->c:[Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

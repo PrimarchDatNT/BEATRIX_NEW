@@ -71,7 +71,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/internal/u1;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -107,10 +106,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/w0;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v1, 0x1
@@ -119,7 +116,6 @@
 
     iput-object v0, p0, Lio/grpc/internal/u1;->k:Ljava/util/concurrent/CountDownLatch;
 
-    .line 3
     new-instance v0, Lio/grpc/internal/u1$a;
 
     invoke-direct {v0, p0}, Lio/grpc/internal/u1$a;-><init>(Lio/grpc/internal/u1;)V
@@ -128,7 +124,6 @@
 
     const-string v0, "authority"
 
-    .line 4
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -137,7 +132,6 @@
 
     iput-object v0, p0, Lio/grpc/internal/u1;->e:Ljava/lang/String;
 
-    .line 5
     const-class v0, Lio/grpc/internal/u1;
 
     invoke-static {v0, p1}, Lio/grpc/j0;->a(Ljava/lang/Class;Ljava/lang/String;)Lio/grpc/j0;
@@ -148,7 +142,6 @@
 
     const-string p1, "executorPool"
 
-    .line 6
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -157,7 +150,6 @@
 
     iput-object p1, p0, Lio/grpc/internal/u1;->h:Lio/grpc/internal/t1;
 
-    .line 7
     invoke-interface {p2}, Lio/grpc/internal/t1;->a()Ljava/lang/Object;
 
     move-result-object p1
@@ -174,7 +166,6 @@
 
     const-string p2, "deadlineCancellationExecutor"
 
-    .line 8
     invoke-static {p3, p2}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -183,14 +174,12 @@
 
     iput-object p2, p0, Lio/grpc/internal/u1;->j:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 9
     new-instance p2, Lio/grpc/internal/g0;
 
     invoke-direct {p2, p1, p4}, Lio/grpc/internal/g0;-><init>(Ljava/util/concurrent/Executor;Lio/grpc/w1;)V
 
     iput-object p2, p0, Lio/grpc/internal/u1;->f:Lio/grpc/internal/g0;
 
-    .line 10
     invoke-static {p7}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -199,19 +188,16 @@
 
     iput-object p1, p0, Lio/grpc/internal/u1;->g:Lio/grpc/InternalChannelz;
 
-    .line 11
     new-instance p1, Lio/grpc/internal/u1$d;
 
     invoke-direct {p1, p0}, Lio/grpc/internal/u1$d;-><init>(Lio/grpc/internal/u1;)V
 
     invoke-virtual {p2, p1}, Lio/grpc/internal/g0;->h(Lio/grpc/internal/o1$a;)Ljava/lang/Runnable;
 
-    .line 12
     iput-object p5, p0, Lio/grpc/internal/u1;->m:Lio/grpc/internal/r;
 
     const-string p1, "channelTracer"
 
-    .line 13
     invoke-static {p6, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -222,7 +208,6 @@
 
     const-string p1, "timeProvider"
 
-    .line 14
     invoke-static {p8, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -237,7 +222,6 @@
 .method static synthetic t(Lio/grpc/internal/u1;)Lio/grpc/internal/g0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/u1;->f:Lio/grpc/internal/g0;
 
     return-object p0
@@ -246,7 +230,6 @@
 .method static synthetic u(Lio/grpc/internal/u1;)Lio/grpc/internal/k;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/u1;->b:Lio/grpc/internal/k;
 
     return-object p0
@@ -257,7 +240,6 @@
 .method A(Lio/grpc/u;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1;->a:Lio/grpc/internal/f1;
 
     invoke-static {p1}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
@@ -272,7 +254,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1;->e:Ljava/lang/String;
 
     return-object v0
@@ -281,7 +262,6 @@
 .method public d()Lio/grpc/j0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1;->d:Lio/grpc/j0;
 
     return-object v0
@@ -298,37 +278,30 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/util/concurrent/v0;->G()Lcom/google/common/util/concurrent/v0;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lio/grpc/InternalChannelz$b$a;
 
     invoke-direct {v1}, Lio/grpc/InternalChannelz$b$a;-><init>()V
 
-    .line 3
     iget-object v2, p0, Lio/grpc/internal/u1;->m:Lio/grpc/internal/r;
 
     invoke-virtual {v2, v1}, Lio/grpc/internal/r;->d(Lio/grpc/InternalChannelz$b$a;)V
 
-    .line 4
     iget-object v2, p0, Lio/grpc/internal/u1;->n:Lio/grpc/internal/ChannelTracer;
 
     invoke-virtual {v2, v1}, Lio/grpc/internal/ChannelTracer;->g(Lio/grpc/InternalChannelz$b$a;)V
 
-    .line 5
     iget-object v2, p0, Lio/grpc/internal/u1;->e:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {v1, v2}, Lio/grpc/InternalChannelz$b$a;->j(Ljava/lang/String;)Lio/grpc/InternalChannelz$b$a;
 
     move-result-object v2
 
     iget-object v3, p0, Lio/grpc/internal/u1;->a:Lio/grpc/internal/f1;
 
-    .line 7
     invoke-virtual {v3}, Lio/grpc/internal/f1;->T()Lio/grpc/ConnectivityState;
 
     move-result-object v3
@@ -339,14 +312,12 @@
 
     iget-object v3, p0, Lio/grpc/internal/u1;->a:Lio/grpc/internal/f1;
 
-    .line 8
     invoke-static {v3}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v3
 
     invoke-virtual {v2, v3}, Lio/grpc/InternalChannelz$b$a;->i(Ljava/util/List;)Lio/grpc/InternalChannelz$b$a;
 
-    .line 9
     invoke-virtual {v1}, Lio/grpc/InternalChannelz$b$a;->a()Lio/grpc/InternalChannelz$b;
 
     move-result-object v1
@@ -374,10 +345,8 @@
         }
     .end annotation
 
-    .line 1
     new-instance v8, Lio/grpc/internal/t;
 
-    .line 2
     invoke-virtual {p2}, Lio/grpc/f;->e()Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -423,7 +392,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1;->k:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/CountDownLatch;->await(JLjava/util/concurrent/TimeUnit;)Z
@@ -436,17 +404,14 @@
 .method public m(Z)Lio/grpc/ConnectivityState;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lio/grpc/internal/u1;->a:Lio/grpc/internal/f1;
 
     if-nez p1, :cond_0
 
-    .line 2
     sget-object p1, Lio/grpc/ConnectivityState;->IDLE:Lio/grpc/ConnectivityState;
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lio/grpc/internal/f1;->T()Lio/grpc/ConnectivityState;
 
@@ -458,7 +423,6 @@
 .method public n()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/u1;->l:Z
 
     return v0
@@ -467,7 +431,6 @@
 .method public o()Z
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1;->k:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->getCount()J
@@ -494,7 +457,6 @@
 .method public q()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1;->a:Lio/grpc/internal/f1;
 
     invoke-virtual {v0}, Lio/grpc/internal/f1;->a0()V
@@ -507,10 +469,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lio/grpc/internal/u1;->l:Z
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/u1;->f:Lio/grpc/internal/g0;
 
     sget-object v1, Lio/grpc/Status;->v:Lio/grpc/Status;
@@ -531,22 +491,18 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lio/grpc/internal/u1;->l:Z
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/u1;->f:Lio/grpc/internal/g0;
 
     sget-object v1, Lio/grpc/Status;->v:Lio/grpc/Status;
 
     const-string v2, "OobChannel.shutdownNow() called"
 
-    .line 3
     invoke-virtual {v1, v2}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v0, v1}, Lio/grpc/internal/g0;->a(Lio/grpc/Status;)V
 
     return-object p0
@@ -555,14 +511,12 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
     iget-object v1, p0, Lio/grpc/internal/u1;->d:Lio/grpc/j0;
 
-    .line 2
     invoke-virtual {v1}, Lio/grpc/j0;->e()J
 
     move-result-wide v1
@@ -577,12 +531,10 @@
 
     const-string v2, "authority"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -593,7 +545,6 @@
 .method v()Lio/grpc/internal/f1;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1;->a:Lio/grpc/internal/f1;
 
     return-object v0
@@ -604,7 +555,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1;->b:Lio/grpc/internal/k;
 
     return-object v0
@@ -613,7 +563,6 @@
 .method x(Lio/grpc/o;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1;->n:Lio/grpc/internal/ChannelTracer;
 
     new-instance v1, Lio/grpc/InternalChannelz$ChannelTrace$Event$a;
@@ -628,7 +577,6 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-virtual {p1}, Lio/grpc/o;->c()Lio/grpc/ConnectivityState;
 
     move-result-object v3
@@ -649,14 +597,12 @@
 
     sget-object v2, Lio/grpc/InternalChannelz$ChannelTrace$Event$Severity;->CT_INFO:Lio/grpc/InternalChannelz$ChannelTrace$Event$Severity;
 
-    .line 3
     invoke-virtual {v1, v2}, Lio/grpc/InternalChannelz$ChannelTrace$Event$a;->d(Lio/grpc/InternalChannelz$ChannelTrace$Event$Severity;)Lio/grpc/InternalChannelz$ChannelTrace$Event$a;
 
     move-result-object v1
 
     iget-object v2, p0, Lio/grpc/internal/u1;->o:Lio/grpc/internal/d3;
 
-    .line 4
     invoke-interface {v2}, Lio/grpc/internal/d3;->a()J
 
     move-result-wide v2
@@ -665,15 +611,12 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Lio/grpc/InternalChannelz$ChannelTrace$Event$a;->a()Lio/grpc/InternalChannelz$ChannelTrace$Event;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v0, v1}, Lio/grpc/internal/ChannelTracer;->e(Lio/grpc/InternalChannelz$ChannelTrace$Event;)V
 
-    .line 7
     sget-object v0, Lio/grpc/internal/u1$f;->a:[I
 
     invoke-virtual {p1}, Lio/grpc/o;->c()Lio/grpc/ConnectivityState;
@@ -700,7 +643,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/u1;->f:Lio/grpc/internal/g0;
 
@@ -712,7 +654,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     iget-object p1, p0, Lio/grpc/internal/u1;->f:Lio/grpc/internal/g0;
 
@@ -727,19 +668,16 @@
 .method y()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u1;->g:Lio/grpc/InternalChannelz;
 
     invoke-virtual {v0, p0}, Lio/grpc/InternalChannelz;->C(Lio/grpc/i0;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/u1;->h:Lio/grpc/internal/t1;
 
     iget-object v1, p0, Lio/grpc/internal/u1;->i:Ljava/util/concurrent/Executor;
 
     invoke-interface {v0, v1}, Lio/grpc/internal/t1;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/u1;->k:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->countDown()V
@@ -750,7 +688,6 @@
 .method z(Lio/grpc/internal/f1;)V
     .locals 4
 
-    .line 1
     sget-object v0, Lio/grpc/internal/u1;->q:Ljava/util/logging/Logger;
 
     sget-object v1, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -771,24 +708,20 @@
 
     invoke-virtual {v0, v1, v3, v2}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/u1;->a:Lio/grpc/internal/f1;
 
-    .line 3
     new-instance v0, Lio/grpc/internal/u1$e;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/internal/u1$e;-><init>(Lio/grpc/internal/u1;Lio/grpc/internal/f1;)V
 
     iput-object v0, p0, Lio/grpc/internal/u1;->b:Lio/grpc/internal/k;
 
-    .line 4
     new-instance p1, Lio/grpc/internal/u1$c;
 
     invoke-direct {p1, p0}, Lio/grpc/internal/u1$c;-><init>(Lio/grpc/internal/u1;)V
 
     iput-object p1, p0, Lio/grpc/internal/u1;->c:Lio/grpc/t0$i;
 
-    .line 5
     iget-object v0, p0, Lio/grpc/internal/u1;->f:Lio/grpc/internal/g0;
 
     invoke-virtual {v0, p1}, Lio/grpc/internal/g0;->t(Lio/grpc/t0$i;)V

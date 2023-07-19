@@ -61,7 +61,6 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$3;->invoke()V
 
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
@@ -72,7 +71,6 @@
 .method public final invoke()V
     .locals 4
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$3;->$this_invoke:Lcotlinx/coroutines/selects/e;
 
     iget-object v1, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$3;->this$0:Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;

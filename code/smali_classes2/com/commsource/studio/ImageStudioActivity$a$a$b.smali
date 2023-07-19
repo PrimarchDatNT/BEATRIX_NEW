@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$a$a$b;->a:Lcom/commsource/studio/ImageStudioActivity$a$a;
@@ -54,7 +53,6 @@
 
     invoke-direct {v1, v2, v3}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$a$a$b;->a:Lcom/commsource/studio/ImageStudioActivity$a$a;
 
     iget-object v2, v2, Lcom/commsource/studio/ImageStudioActivity$a$a;->p:Ljava/lang/String;
@@ -63,7 +61,6 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$a$a$b;->a:Lcom/commsource/studio/ImageStudioActivity$a$a;
 
     iget v2, v2, Lcom/commsource/studio/ImageStudioActivity$a$a;->J:I
@@ -72,7 +69,6 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$a$a$b;->a:Lcom/commsource/studio/ImageStudioActivity$a$a;
 
     iget-object v2, v2, Lcom/commsource/studio/ImageStudioActivity$a$a;->K:Lcom/commsource/beautyplus/router/RouterEntity;
@@ -81,23 +77,19 @@
 
     const-string v3, "DEEP_LINK"
 
-    .line 5
     invoke-virtual {v1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     :cond_0
     const/high16 v2, 0x4000000
 
-    .line 6
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$a$a$b;->a:Lcom/commsource/studio/ImageStudioActivity$a$a;
 
     iget-object v2, v2, Lcom/commsource/studio/ImageStudioActivity$a$a;->g:Landroid/app/Activity;
 
     invoke-virtual {v2, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

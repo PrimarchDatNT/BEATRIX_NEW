@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -49,7 +48,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/mopub/nativeads/CustomEventNative;-><init>()V
 
     return-void
@@ -91,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/nativeads/GooglePlayServicesNative;->sIsInitialized:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x1
@@ -106,19 +103,16 @@
 
     const-string v1, "Adapter version - 0.3.1"
 
-    .line 2
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     const-string v0, "appid"
 
-    .line 3
     invoke-interface {p4, v0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {p4, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -131,7 +125,6 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     invoke-interface {p4, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -142,7 +135,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/ads/m;->f(Landroid/content/Context;)V
 
@@ -150,34 +142,29 @@
     :goto_0
     const-string v0, "adunit"
 
-    .line 7
     invoke-interface {p4, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p4
 
     check-cast p4, Ljava/lang/String;
 
-    .line 8
     invoke-static {p4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    .line 9
     sget-object p1, Lcom/mopub/nativeads/NativeErrorCode;->NETWORK_INVALID_REQUEST:Lcom/mopub/nativeads/NativeErrorCode;
 
     invoke-interface {p2, p1}, Lcom/mopub/nativeads/CustomEventNative$CustomEventNativeListener;->onNativeAdFailed(Lcom/mopub/nativeads/NativeErrorCode;)V
 
     return-void
 
-    .line 10
     :cond_2
     new-instance v0, Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;
 
     invoke-direct {v0, p2}, Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;-><init>(Lcom/mopub/nativeads/CustomEventNative$CustomEventNativeListener;)V
 
-    .line 11
     invoke-virtual {v0, p1, p4, p3}, Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;->loadAd(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
 
     return-void

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/core/openglEffect/MTDeformationEffect;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/openglEffect/MTDeformationEffect$1;->this$0:Lcom/meitu/core/openglEffect/MTDeformationEffect;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglEffect/MTDeformationEffect$1;->this$0:Lcom/meitu/core/openglEffect/MTDeformationEffect;
 
     invoke-static {v1}, Lcom/meitu/core/openglEffect/MTDeformationEffect;->access$200(Lcom/meitu/core/openglEffect/MTDeformationEffect;)Lcom/meitu/core/openglView/MTRenderer;
@@ -75,7 +73,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/core/openglView/MTOpenGL;->copyTexture(II)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -50,7 +50,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$b;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
     iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -61,12 +60,10 @@
 
     invoke-static {p1, v1}, Lcom/commsource/home/banner/HomeSmallBannerAdVH;->C(Lcom/commsource/home/banner/HomeSmallBannerAdVH;Landroid/view/View;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$b;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
     invoke-static {p1}, Lcom/commsource/home/banner/HomeSmallBannerAdVH;->M(Lcom/commsource/home/banner/HomeSmallBannerAdVH;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -50,10 +50,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/jaegertracing/a/g$b;->a:Lio/jaegertracing/b/e;
 
     return-void
@@ -71,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/jaegertracing/a/g$b;->a:Lio/jaegertracing/b/e;
 
@@ -84,7 +81,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -93,7 +89,6 @@
 
     invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/RuntimeException;->getMessage()Ljava/lang/String;
 
     move-result-object p1

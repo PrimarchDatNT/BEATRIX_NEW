@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method public static a()Lcom/google/android/datatransport/k/i$a;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/k/a$b;
 
     invoke-direct {v0}, Lcom/google/android/datatransport/k/a$b;-><init>()V
@@ -48,7 +46,6 @@
 .method public final b(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i;->c()Ljava/util/Map;
 
     move-result-object v0
@@ -93,7 +90,6 @@
 .method public final g(Ljava/lang/String;)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i;->c()Ljava/util/Map;
 
     move-result-object v0
@@ -110,7 +106,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
 
@@ -127,7 +122,6 @@
 .method public final h(Ljava/lang/String;)J
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i;->c()Ljava/util/Map;
 
     move-result-object v0
@@ -144,7 +138,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Ljava/lang/Long;->valueOf(Ljava/lang/String;)Ljava/lang/Long;
 
@@ -170,7 +163,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i;->c()Ljava/util/Map;
 
     move-result-object v0
@@ -185,7 +177,6 @@
 .method public final j(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i;->c()Ljava/util/Map;
 
     move-result-object v0
@@ -212,7 +203,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i;->e()Lcom/google/android/datatransport/k/h;
 
     move-result-object v0
@@ -233,12 +223,10 @@
 .method public n()Lcom/google/android/datatransport/k/i$a;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/k/a$b;
 
     invoke-direct {v0}, Lcom/google/android/datatransport/k/a$b;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i;->l()Ljava/lang/String;
 
     move-result-object v1
@@ -247,7 +235,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i;->d()Ljava/lang/Integer;
 
     move-result-object v1
@@ -256,7 +243,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i;->e()Lcom/google/android/datatransport/k/h;
 
     move-result-object v1
@@ -265,7 +251,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i;->f()J
 
     move-result-wide v1
@@ -274,7 +259,6 @@
 
     move-result-object v0
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i;->m()J
 
     move-result-wide v1
@@ -285,7 +269,6 @@
 
     new-instance v1, Ljava/util/HashMap;
 
-    .line 7
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/i;->c()Ljava/util/Map;
 
     move-result-object v2

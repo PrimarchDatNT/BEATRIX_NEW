@@ -20,7 +20,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/k;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/b;
 
     invoke-direct {v0}, Lcom/bumptech/glide/b;-><init>()V
@@ -76,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/b;
 
     invoke-direct {v0}, Lcom/bumptech/glide/b;-><init>()V
@@ -111,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/b;
 
     invoke-direct {v0}, Lcom/bumptech/glide/b;-><init>()V
@@ -140,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/b;
 
     invoke-direct {v0}, Lcom/bumptech/glide/b;-><init>()V

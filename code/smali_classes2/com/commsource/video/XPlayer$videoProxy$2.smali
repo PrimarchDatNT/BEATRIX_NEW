@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/meitu/common/video/videocache/h$b;
 
     invoke-static {}, Lf/k/c/a;->a()Landroid/app/Application;
@@ -81,10 +80,8 @@
 
     const-wide/32 v2, 0xc800000
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Lcom/meitu/common/video/videocache/h$b;->i(J)Lcom/meitu/common/video/videocache/h$b;
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/common/video/videocache/h$b;->b()Lcom/meitu/common/video/videocache/h;
 
     move-result-object v1
@@ -101,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/XPlayer$videoProxy$2;->invoke()Lcom/meitu/common/video/videocache/h;
 
     move-result-object v1

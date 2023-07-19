@@ -19,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/util/m0;
 
     invoke-direct {v1}, Lcom/commsource/util/m0;-><init>()V
@@ -34,7 +33,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,7 +51,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/util/m0;->b(Landroid/graphics/Bitmap;Ljava/lang/String;Z)Z
 
@@ -83,29 +80,24 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Landroid/graphics/BitmapFactory$Options;
 
     invoke-direct {v1}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 2
     iput-boolean v2, v1, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
-    .line 3
     sget-object v2, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     iput-object v2, v1, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
-    .line 4
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v3, 0x1a
 
     if-lt v2, v3, :cond_0
 
-    .line 5
     sget-object v2, Landroid/graphics/ColorSpace$Named;->SRGB:Landroid/graphics/ColorSpace$Named;
 
     invoke-static {v2}, Landroid/graphics/ColorSpace;->get(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
@@ -114,7 +106,6 @@
 
     iput-object v2, v1, Landroid/graphics/BitmapFactory$Options;->inPreferredColorSpace:Landroid/graphics/ColorSpace;
 
-    .line 6
     :cond_0
     invoke-static {p1, v1}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
@@ -140,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
 
     move-result v1
@@ -153,13 +143,11 @@
 
     goto :goto_7
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     :try_start_0
     invoke-virtual {v1}, Ljava/io/File;->createNewFile()Z
     :try_end_0
@@ -170,13 +158,11 @@
     :catch_0
     move-exception p2
 
-    .line 4
     invoke-virtual {p2}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_0
     const/4 p2, 0x0
 
-    .line 5
     :try_start_1
     new-instance v3, Ljava/io/FileOutputStream;
 
@@ -191,7 +177,6 @@
     :catch_1
     move-exception v1
 
-    .line 6
     invoke-virtual {v1}, Ljava/io/FileNotFoundException;->printStackTrace()V
 
     :goto_1
@@ -199,7 +184,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 7
     :try_start_2
     sget-object p3, Landroid/graphics/Bitmap$CompressFormat;->PNG:Landroid/graphics/Bitmap$CompressFormat;
 
@@ -211,7 +195,6 @@
     :goto_2
     const/16 v1, 0x64
 
-    .line 8
     invoke-virtual {p1, p3, v1, p2}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
     goto :goto_3
@@ -225,17 +208,14 @@
     :goto_3
     if-eqz p2, :cond_3
 
-    .line 9
     invoke-virtual {p2}, Ljava/io/OutputStream;->flush()V
 
-    .line 10
     invoke-virtual {p2}, Ljava/io/OutputStream;->close()V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
 
     goto :goto_5
 
-    .line 11
     :goto_4
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
@@ -245,13 +225,11 @@
     :goto_5
     const/4 v2, 0x1
 
-    .line 12
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 13
     :cond_4
     :goto_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

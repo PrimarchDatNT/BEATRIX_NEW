@@ -41,7 +41,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/m$b$c;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-wide p1, p0, Lkshark/m$b$c$b;->a:J
@@ -70,7 +69,6 @@
 .method public final a()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/m$b$c$b;->d:J
 
     return-wide v0
@@ -79,7 +77,6 @@
 .method public final b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/m$b$c$b;->i:I
 
     return v0
@@ -88,7 +85,6 @@
 .method public final c()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/m$b$c$b;->a:J
 
     return-wide v0
@@ -97,7 +93,6 @@
 .method public final d()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/m$b$c$b;->g:I
 
     return v0
@@ -106,7 +101,6 @@
 .method public final e()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/m$b$c$b;->f:J
 
     return-wide v0
@@ -115,7 +109,6 @@
 .method public final f()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/m$b$c$b;->e:J
 
     return-wide v0
@@ -124,7 +117,6 @@
 .method public final g()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/m$b$c$b;->b:I
 
     return v0
@@ -133,7 +125,6 @@
 .method public final h()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/m$b$c$b;->h:I
 
     return v0
@@ -142,7 +133,6 @@
 .method public final i()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/m$b$c$b;->c:J
 
     return-wide v0

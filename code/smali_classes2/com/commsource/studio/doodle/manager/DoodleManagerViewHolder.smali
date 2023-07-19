@@ -48,12 +48,10 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_doodle_manager:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->K:Landroid/content/Context;
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/me;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/me;
@@ -62,7 +60,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->p:Lcom/commsource/beautyplus/f0/me;
 
-    .line 3
     new-instance p2, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$mViewModel$2;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$mViewModel$2;-><init>(Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;)V
@@ -73,10 +70,8 @@
 
     iput-object p2, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->J:Lcotlin/w;
 
-    .line 4
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
-    .line 5
     iget-object p2, p1, Lcom/commsource/beautyplus/f0/me;->d:Lcom/commsource/widget/IconFrontView;
 
     new-instance v0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$a;
@@ -85,7 +80,6 @@
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/me;->a:Lcom/commsource/widget/IconFrontView;
 
     new-instance p2, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$b;
@@ -124,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->p:Lcom/commsource/beautyplus/f0/me;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/me;->a:Lcom/commsource/widget/IconFrontView;
@@ -141,7 +134,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->p:Lcom/commsource/beautyplus/f0/me;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/me;->a:Lcom/commsource/widget/IconFrontView;
@@ -188,7 +180,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -201,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->p:Lcom/commsource/beautyplus/f0/me;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/me;->d:Lcom/commsource/widget/IconFrontView;
@@ -257,7 +247,6 @@
     :goto_0
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->p:Lcom/commsource/beautyplus/f0/me;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/me;->d:Lcom/commsource/widget/IconFrontView;
@@ -294,7 +283,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->p:Lcom/commsource/beautyplus/f0/me;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/me;->d:Lcom/commsource/widget/IconFrontView;
@@ -333,7 +321,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -346,7 +333,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->A()Lcom/commsource/studio/doodle/h;
 
     move-result-object p0
@@ -363,7 +349,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->B()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -378,7 +363,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->C()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -424,10 +408,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {p1}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
@@ -466,25 +448,20 @@
 
     sget p2, Lcom/res/provider/ResDRAWABLE;->edit_sticker_icon_placeholder:I
 
-    .line 3
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object p1
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->p:Lcom/commsource/beautyplus/f0/me;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/me;->b:Landroid/widget/ImageView;
 
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->B()V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->C()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -499,7 +476,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->K:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-interface {p1}, Lcom/meitu/mtmvcore/backend/android/g;->e()Landroid/view/Window;
 
@@ -32,7 +30,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/meitu/mtmvcore/backend/android/o$a;
 
     invoke-direct {v2, p0, p1}, Lcom/meitu/mtmvcore/backend/android/o$a;-><init>(Lcom/meitu/mtmvcore/backend/android/o;Lcom/meitu/mtmvcore/backend/android/g;)V
@@ -50,10 +47,8 @@
 
     const-string v3, "Can\'t create OnSystemUiVisibilityChangeListener, unable to use immersive mode."
 
-    .line 3
     invoke-interface {p1, v2, v3, v1}, Lf/k/g/b/a;->z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

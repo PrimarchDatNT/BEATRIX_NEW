@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/core/b;Lf/k/m/c$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/core/b$d;->b:Lcom/meitu/ipstore/core/b;
 
     iput-object p2, p0, Lcom/meitu/ipstore/core/b$d;->a:Lf/k/m/c$a;
@@ -46,15 +45,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/ipstore/core/b$d;->a:Lf/k/m/c$a;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p2}, Lf/k/m/c$a;->b(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -76,21 +72,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
 
     if-lez v2, :cond_0
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -108,7 +101,6 @@
 
     check-cast v2, Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
-    .line 4
     invoke-virtual {v2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getMaterialIds()Ljava/util/List;
 
     move-result-object v2
@@ -117,7 +109,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/meitu/ipstore/core/b$d;->b:Lcom/meitu/ipstore/core/b;
 
@@ -127,7 +118,6 @@
 
     invoke-interface {p1}, Ljava/util/Set;->clear()V
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/ipstore/core/b$d;->b:Lcom/meitu/ipstore/core/b;
 
     invoke-static {p1}, Lcom/meitu/ipstore/core/b;->v(Lcom/meitu/ipstore/core/b;)Ljava/util/Set;
@@ -136,14 +126,12 @@
 
     invoke-interface {p1, v1}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
 
-    .line 7
     new-instance p1, Lcom/meitu/ipstore/core/b$d$a;
 
     invoke-direct {p1, p0}, Lcom/meitu/ipstore/core/b$d$a;-><init>(Lcom/meitu/ipstore/core/b$d;)V
 
     invoke-static {p1}, Lf/k/m/j/j;->i(Ljava/lang/Runnable;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

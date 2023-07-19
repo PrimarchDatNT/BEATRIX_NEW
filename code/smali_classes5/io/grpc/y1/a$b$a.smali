@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/y1/a$b;Lio/grpc/y1/a$b$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/y1/a$b$a;->b:Lio/grpc/y1/a$b;
 
     iput-object p2, p0, Lio/grpc/y1/a$b$a;->a:Lio/grpc/y1/a$b$c;
@@ -45,7 +44,6 @@
         value = 0x15
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y1/a$b$a;->b:Lio/grpc/y1/a$b;
 
     invoke-static {v0}, Lio/grpc/y1/a$b;->t(Lio/grpc/y1/a$b;)Landroid/net/ConnectivityManager;

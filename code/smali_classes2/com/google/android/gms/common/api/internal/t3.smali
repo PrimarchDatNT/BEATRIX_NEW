@@ -17,7 +17,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/s3;Lcom/google/android/gms/common/api/internal/LifecycleCallback;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/t3;->c:Lcom/google/android/gms/common/api/internal/s3;
 
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/t3;->a:Lcom/google/android/gms/common/api/internal/LifecycleCallback;
@@ -34,7 +33,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/t3;->c:Lcom/google/android/gms/common/api/internal/s3;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/s3;->q(Lcom/google/android/gms/common/api/internal/s3;)I
@@ -43,10 +41,8 @@
 
     if-lez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/t3;->a:Lcom/google/android/gms/common/api/internal/LifecycleCallback;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/t3;->c:Lcom/google/android/gms/common/api/internal/s3;
 
     invoke-static {v1}, Lcom/google/android/gms/common/api/internal/s3;->u(Lcom/google/android/gms/common/api/internal/s3;)Landroid/os/Bundle;
@@ -72,11 +68,9 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-virtual {v0, v1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->g(Landroid/os/Bundle;)V
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/t3;->c:Lcom/google/android/gms/common/api/internal/s3;
 
@@ -88,12 +82,10 @@
 
     if-lt v0, v1, :cond_2
 
-    .line 6
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/t3;->a:Lcom/google/android/gms/common/api/internal/LifecycleCallback;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->k()V
 
-    .line 7
     :cond_2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/t3;->c:Lcom/google/android/gms/common/api/internal/s3;
 
@@ -105,12 +97,10 @@
 
     if-lt v0, v1, :cond_3
 
-    .line 8
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/t3;->a:Lcom/google/android/gms/common/api/internal/LifecycleCallback;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->i()V
 
-    .line 9
     :cond_3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/t3;->c:Lcom/google/android/gms/common/api/internal/s3;
 
@@ -122,12 +112,10 @@
 
     if-lt v0, v1, :cond_4
 
-    .line 10
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/t3;->a:Lcom/google/android/gms/common/api/internal/LifecycleCallback;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->l()V
 
-    .line 11
     :cond_4
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/t3;->c:Lcom/google/android/gms/common/api/internal/s3;
 
@@ -139,7 +127,6 @@
 
     if-lt v0, v1, :cond_5
 
-    .line 12
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/t3;->a:Lcom/google/android/gms/common/api/internal/LifecycleCallback;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->h()V

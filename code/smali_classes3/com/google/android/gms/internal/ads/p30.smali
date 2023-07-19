@@ -43,19 +43,14 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/p30;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/p30;->b:Lcom/google/android/gms/internal/ads/lu;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/p30;->c:Lcom/google/android/gms/internal/ads/ug1;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/p30;->d:Lcom/google/android/gms/internal/ads/zzbbd;
 
     return-void
@@ -66,7 +61,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/p30;->c:Lcom/google/android/gms/internal/ads/ug1;
 
@@ -76,12 +70,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     monitor-exit p0
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/p30;->b:Lcom/google/android/gms/internal/ads/lu;
@@ -90,12 +82,10 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     monitor-exit p0
 
     return-void
 
-    .line 5
     :cond_1
     :try_start_2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->r()Lcom/google/android/gms/internal/ads/hf;
@@ -112,12 +102,10 @@
 
     if-nez v0, :cond_2
 
-    .line 6
     monitor-exit p0
 
     return-void
 
-    .line 7
     :cond_2
     :try_start_3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/p30;->d:Lcom/google/android/gms/internal/ads/zzbbd;
@@ -144,7 +132,6 @@
 
     move-result-object v5
 
-    .line 8
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/p30;->c:Lcom/google/android/gms/internal/ads/ug1;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/ug1;->M:Lorg/json/JSONObject;
@@ -169,14 +156,12 @@
     :goto_0
     move-object v9, v0
 
-    .line 9
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->r()Lcom/google/android/gms/internal/ads/hf;
 
     move-result-object v4
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/p30;->b:Lcom/google/android/gms/internal/ads/lu;
 
-    .line 10
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/lu;->getWebView()Landroid/webkit/WebView;
 
     move-result-object v6
@@ -185,28 +170,24 @@
 
     const-string v8, "javascript"
 
-    .line 11
     invoke-virtual/range {v4 .. v9}, Lcom/google/android/gms/internal/ads/hf;->b(Ljava/lang/String;Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/p30;->f:Lcom/google/android/gms/dynamic/d;
 
-    .line 12
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/p30;->b:Lcom/google/android/gms/internal/ads/lu;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/lu;->getView()Landroid/view/View;
 
     move-result-object v0
 
-    .line 13
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/p30;->f:Lcom/google/android/gms/dynamic/d;
 
     if-eqz v1, :cond_4
 
     if-eqz v0, :cond_4
 
-    .line 14
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->r()Lcom/google/android/gms/internal/ads/hf;
 
     move-result-object v1
@@ -215,14 +196,12 @@
 
     invoke-virtual {v1, v2, v0}, Lcom/google/android/gms/internal/ads/hf;->d(Lcom/google/android/gms/dynamic/d;Landroid/view/View;)V
 
-    .line 15
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/p30;->b:Lcom/google/android/gms/internal/ads/lu;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/p30;->f:Lcom/google/android/gms/dynamic/d;
 
     invoke-interface {v0, v1}, Lcom/google/android/gms/internal/ads/lu;->z(Lcom/google/android/gms/dynamic/d;)V
 
-    .line 16
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->r()Lcom/google/android/gms/internal/ads/hf;
 
     move-result-object v0
@@ -233,12 +212,10 @@
 
     const/4 v0, 0x1
 
-    .line 17
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/p30;->g:Z
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 18
     :cond_4
     monitor-exit p0
 
@@ -259,16 +236,13 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/p30;->g:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/p30;->a()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/p30;->c:Lcom/google/android/gms/internal/ads/ug1;
 
@@ -286,7 +260,6 @@
 
     const-string v1, "onSdkImpression"
 
-    .line 4
     new-instance v2, Landroidx/collection/ArrayMap;
 
     invoke-direct {v2}, Landroidx/collection/ArrayMap;-><init>()V
@@ -295,7 +268,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :cond_1
     monitor-exit p0
 
@@ -314,7 +286,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/p30;->g:Z
     :try_end_0
@@ -322,19 +293,16 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     monitor-exit p0
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/p30;->a()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     monitor-exit p0
 
     return-void

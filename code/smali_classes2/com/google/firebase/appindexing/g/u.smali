@@ -18,7 +18,6 @@
 
     const-string v0, "Reservation"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/firebase/appindexing/g/i;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -43,7 +42,6 @@
 
     const-string p1, "partySize"
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/appindexing/g/i;->b(Ljava/lang/String;[J)Lcom/google/firebase/appindexing/g/i;
 
     move-result-object p1
@@ -70,7 +68,6 @@
 
     const-string p1, "reservationFor"
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/appindexing/g/i;->d(Ljava/lang/String;[Lcom/google/firebase/appindexing/g/i;)Lcom/google/firebase/appindexing/g/i;
 
     move-result-object p1
@@ -87,14 +84,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 v0, 0x1
 
     new-array v0, v0, [J
 
-    .line 2
     invoke-virtual {p1}, Ljava/util/Date;->getTime()J
 
     move-result-wide v1

@@ -58,13 +58,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-boolean p1, p0, Lcom/google/common/util/concurrent/a0$e;->a:Z
 
-    .line 4
     iput-object p2, p0, Lcom/google/common/util/concurrent/a0$e;->b:Lcom/google/common/collect/ImmutableList;
 
     return-void
@@ -73,7 +70,6 @@
 .method synthetic constructor <init>(ZLcom/google/common/collect/ImmutableList;Lcom/google/common/util/concurrent/a0$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/util/concurrent/a0$e;-><init>(ZLcom/google/common/collect/ImmutableList;)V
 
     return-void
@@ -100,7 +96,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/CombinedFuture;
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/a0$e;->b:Lcom/google/common/collect/ImmutableList;
@@ -128,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/CombinedFuture;
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/a0$e;->b:Lcom/google/common/collect/ImmutableList;
@@ -153,7 +147,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/a0$e$a;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/util/concurrent/a0$e$a;-><init>(Lcom/google/common/util/concurrent/a0$e;Ljava/lang/Runnable;)V

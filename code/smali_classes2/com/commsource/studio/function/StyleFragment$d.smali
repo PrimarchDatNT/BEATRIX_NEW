@@ -29,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/StyleFragment$d;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
@@ -54,14 +53,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
     const/4 p1, 0x1
 
     if-ne p2, p1, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/function/StyleFragment$d;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p2, p1}, Lcom/commsource/studio/function/StyleFragment;->T1(Lcom/commsource/studio/function/StyleFragment;Z)V
@@ -71,14 +68,12 @@
     :cond_0
     if-nez p2, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment$d;->a:Lcom/commsource/studio/function/StyleFragment;
 
     const/4 p2, 0x0
 
     invoke-static {p1, p2}, Lcom/commsource/studio/function/StyleFragment;->T1(Lcom/commsource/studio/function/StyleFragment;Z)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment$d;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/StyleFragment;->B1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
@@ -89,7 +84,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;->f(I)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -112,10 +106,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment$d;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/StyleFragment;->B1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
@@ -134,7 +126,6 @@
 
     move-result p2
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/studio/function/StyleFragment$d;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p3}, Lcom/commsource/studio/function/StyleFragment;->C1(Lcom/commsource/studio/function/StyleFragment;)I
@@ -173,12 +164,10 @@
     :goto_1
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     move-result p1
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/studio/function/StyleFragment$d;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/function/StyleFragment;->F1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/studio/function/StyleViewModel;
@@ -195,7 +184,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 6
     iget-object p3, p0, Lcom/commsource/studio/function/StyleFragment$d;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p3}, Lcom/commsource/studio/function/StyleFragment;->F1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/studio/function/StyleViewModel;
@@ -220,12 +208,10 @@
 
     if-eqz p3, :cond_2
 
-    .line 7
     iget-object p3, p0, Lcom/commsource/studio/function/StyleFragment$d;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p3, p1}, Lcom/commsource/studio/function/StyleFragment;->M1(Lcom/commsource/studio/function/StyleFragment;I)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment$d;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/StyleFragment;->F1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/studio/function/StyleViewModel;
@@ -234,7 +220,6 @@
 
     invoke-virtual {p1, p2, v2}, Lcom/commsource/studio/function/StyleViewModel;->J(Lcom/commsource/studio/bean/g;Z)V
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -10,7 +10,6 @@
         version = "1.4"
     .end annotation
 
-    .line 2
     sget-object v1, Lcotlin/jvm/internal/CallableReference;->NO_RECEIVER:Ljava/lang/Object;
 
     move-object v0, p0
@@ -34,7 +33,6 @@
         version = "1.4"
     .end annotation
 
-    .line 3
     invoke-direct/range {p0 .. p5}, Lcotlin/jvm/internal/MutablePropertyReference0;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
@@ -43,7 +41,6 @@
 .method public constructor <init>(Lcotlin/reflect/h;Ljava/lang/String;Ljava/lang/String;)V
     .locals 6
 
-    .line 1
     sget-object v1, Lcotlin/jvm/internal/CallableReference;->NO_RECEIVER:Ljava/lang/Object;
 
     move-object v0, p1
@@ -74,7 +71,6 @@
 .method public get()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/jvm/internal/MutablePropertyReference0;->getGetter()Lcotlin/reflect/o$a;
 
     move-result-object v0
@@ -93,7 +89,6 @@
 .method public set(Ljava/lang/Object;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/jvm/internal/MutablePropertyReference0;->getSetter()Lcotlin/reflect/k$a;
 
     move-result-object v0

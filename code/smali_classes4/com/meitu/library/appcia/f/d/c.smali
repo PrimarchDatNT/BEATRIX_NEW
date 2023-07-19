@@ -26,10 +26,8 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/meitu/library/appcia/f/d/c;->a:I
 
     return-void
@@ -46,7 +44,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 1
     array-length v2, p3
 
     if-nez v2, :cond_0
@@ -56,7 +53,6 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -81,7 +77,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-static {p2, p3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -93,7 +88,6 @@
     :goto_0
     if-eqz p1, :cond_3
 
-    .line 4
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
@@ -112,7 +106,6 @@
 
     move-result-object p2
 
-    .line 5
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -129,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x1a
@@ -138,7 +130,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -149,23 +140,19 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {p2, v1, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/meitu/library/appcia/f/d/c;->a:I
 
     if-le v1, p1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-direct {p0, p3, p4, p5}, Lcom/meitu/library/appcia/f/d/c;->b(Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -173,7 +160,6 @@
 
     invoke-static {p1, p2, p3}, Landroid/util/Log;->println(ILjava/lang/String;Ljava/lang/String;)I
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

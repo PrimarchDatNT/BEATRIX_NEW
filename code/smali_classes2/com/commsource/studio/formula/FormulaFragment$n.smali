@@ -72,7 +72,6 @@
 
     goto/16 :goto_1
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -84,7 +83,6 @@
 
     const-string p1, "viewHolder"
 
-    .line 2
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -113,10 +111,8 @@
 
     if-eqz p1, :cond_4
 
-    .line 3
     check-cast p1, Lcom/commsource/studio/formula/JsFormula;
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/formula/FormulaFragment$n;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/formula/FormulaFragment;->b0(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/studio/formula/FormulaViewModel;
@@ -149,7 +145,6 @@
     :cond_3
     const-string p2, "-9"
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$n;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaFragment;->b0(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/studio/formula/FormulaViewModel;
@@ -166,14 +161,12 @@
 
     if-eqz v1, :cond_5
 
-    .line 6
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
     move-result-object p1
@@ -182,7 +175,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     invoke-static {p2}, Lcom/commsource/statistics/q;->j(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -197,12 +189,10 @@
 
     const-string p1, "beauty_template_material_appr"
 
-    .line 9
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_1
 
-    .line 10
     :cond_4
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -214,7 +204,6 @@
 
     throw p1
 
-    .line 11
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -229,7 +218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     check-cast p2, Lcom/commsource/widget/h1/f;

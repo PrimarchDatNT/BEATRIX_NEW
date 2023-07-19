@@ -96,92 +96,74 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
     move-object v1, p4
 
-    .line 2
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->a:Landroid/widget/ImageView;
 
     move-object v1, p5
 
-    .line 3
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->b:Landroid/widget/ImageView;
 
     move-object v1, p6
 
-    .line 4
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->c:Landroid/widget/ImageView;
 
     move-object v1, p7
 
-    .line 5
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->d:Landroid/widget/ImageView;
 
     move-object v1, p8
 
-    .line 6
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->f:Landroid/widget/RelativeLayout;
 
     move-object v1, p9
 
-    .line 7
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->g:Landroid/widget/RelativeLayout;
 
     move-object v1, p10
 
-    .line 8
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->p:Landroid/widget/RelativeLayout;
 
     move-object v1, p11
 
-    .line 9
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->J:Landroid/widget/RelativeLayout;
 
     move-object v1, p12
 
-    .line 10
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->K:Landroid/view/View;
 
     move-object v1, p13
 
-    .line 11
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->L:Landroid/view/View;
 
     move-object/from16 v1, p14
 
-    .line 12
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->M:Landroid/view/View;
 
     move-object/from16 v1, p15
 
-    .line 13
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->N:Landroid/view/View;
 
     move-object/from16 v1, p16
 
-    .line 14
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->O:Landroid/widget/TextView;
 
     move-object/from16 v1, p17
 
-    .line 15
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->P:Landroid/widget/TextView;
 
     move-object/from16 v1, p18
 
-    .line 16
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->Q:Landroid/widget/TextView;
 
     move-object/from16 v1, p19
 
-    .line 17
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->R:Landroid/widget/TextView;
 
     move-object/from16 v1, p20
 
-    .line 18
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/i0;->S:Lcom/commsource/widget/title/XTitleBar;
 
     return-void
@@ -194,7 +176,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -221,7 +202,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->activity_image_quality:I
 
-    .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -240,7 +220,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -265,7 +244,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -299,7 +277,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->activity_image_quality:I
 
-    .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -331,7 +308,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0

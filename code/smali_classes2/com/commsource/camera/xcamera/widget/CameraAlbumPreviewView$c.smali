@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$c;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -49,10 +48,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/f1/l$a;->b(Lcom/commsource/camera/f1/l;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$c;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->getNextDrawable()Lcom/commsource/camera/f1/o;
@@ -63,7 +60,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {p1, v1}, Lcom/commsource/camera/f1/o;->q(F)Lcom/commsource/camera/f1/o;
 
     move-result-object p1
@@ -72,10 +68,8 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 4
     invoke-virtual {p1, v1}, Lcom/commsource/camera/f1/o;->r(F)Lcom/commsource/camera/f1/o;
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -89,10 +83,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/f1/l$a;->e(FF)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$c;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->getNextDrawable()Lcom/commsource/camera/f1/o;
@@ -103,13 +95,11 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/camera/f1/o;->b(F)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$c;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;
 
     invoke-virtual {p1}, Landroid/widget/TextView;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

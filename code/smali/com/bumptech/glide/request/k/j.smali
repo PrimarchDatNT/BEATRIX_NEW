@@ -33,10 +33,8 @@
 .method public constructor <init>(Lcom/bumptech/glide/request/k/j$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/request/k/j;->a:Lcom/bumptech/glide/request/k/j$a;
 
     return-void
@@ -54,14 +52,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p2}, Lcom/bumptech/glide/request/k/f$a;->getView()Landroid/view/View;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/bumptech/glide/request/k/j;->a:Lcom/bumptech/glide/request/k/j$a;
 
     invoke-interface {p2}, Lcom/bumptech/glide/request/k/f$a;->getView()Landroid/view/View;

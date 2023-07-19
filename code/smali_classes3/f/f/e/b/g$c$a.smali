@@ -24,12 +24,10 @@
 .method constructor <init>(Lf/f/e/b/g$c;Ljava/util/Map;CC)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/f/e/b/g$c$a;->h:Lf/f/e/b/g$c;
 
     invoke-direct {p0, p2, p3, p4}, Lf/f/e/b/a;-><init>(Ljava/util/Map;CC)V
 
-    .line 2
     invoke-static {p1}, Lf/f/e/b/g$c;->a(Lf/f/e/b/g$c;)Ljava/lang/String;
 
     move-result-object p2
@@ -60,7 +58,6 @@
 .method protected f(C)[C
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lf/f/e/b/g$c$a;->g:[C
 
     return-object p1

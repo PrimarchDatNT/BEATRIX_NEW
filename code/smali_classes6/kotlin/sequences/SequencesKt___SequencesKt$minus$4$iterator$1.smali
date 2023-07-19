@@ -50,7 +50,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$minus$4$iterator$1;->invoke(Ljava/lang/Object;)Z
 
     move-result p1
@@ -70,7 +69,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$4$iterator$1;->$other:Ljava/util/HashSet;
 
     invoke-virtual {v0, p1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z

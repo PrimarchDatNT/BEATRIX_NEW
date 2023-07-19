@@ -74,7 +74,6 @@
     .annotation build Lcotlin/jvm/h;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/network/MoPubNetworkError$Builder;->message:Ljava/lang/String;
@@ -102,7 +101,6 @@
 
     move-object p2, v0
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2}, Lcom/mopub/network/MoPubNetworkError$Builder;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
@@ -116,7 +114,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v6, Lcom/mopub/network/MoPubNetworkError;
 
     iget-object v1, p0, Lcom/mopub/network/MoPubNetworkError$Builder;->reason:Lcom/mopub/network/MoPubNetworkError$Reason;
@@ -145,7 +142,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/MoPubNetworkError$Builder;->networkResponse:Lcom/mopub/network/MoPubNetworkResponse;
 
     return-object p0
@@ -160,7 +156,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/MoPubNetworkError$Builder;->reason:Lcom/mopub/network/MoPubNetworkError$Reason;
 
     return-object p0
@@ -175,7 +170,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/MoPubNetworkError$Builder;->refreshTimeMillis:Ljava/lang/Integer;
 
     return-object p0

@@ -38,7 +38,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/i;JLjava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$a;->c:Lcom/google/firebase/crashlytics/internal/common/i;
 
     iput-wide p2, p0, Lcom/google/firebase/crashlytics/internal/common/i$a;->a:J
@@ -60,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/i$a;->c:Lcom/google/firebase/crashlytics/internal/common/i;
 
     invoke-virtual {v0}, Lcom/google/firebase/crashlytics/internal/common/i;->l0()Z
@@ -69,7 +67,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/i$a;->c:Lcom/google/firebase/crashlytics/internal/common/i;
 
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/common/i;->i(Lcom/google/firebase/crashlytics/internal/common/i;)Lcom/google/firebase/crashlytics/e/g/b;
@@ -96,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/common/i$a;->a()Ljava/lang/Void;
 
     move-result-object v0

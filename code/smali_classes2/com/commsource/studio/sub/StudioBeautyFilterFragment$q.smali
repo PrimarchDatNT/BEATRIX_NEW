@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$q;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->C0()Lcom/commsource/beautyplus/f0/g8;
@@ -73,7 +71,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -87,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$q;->a(Ljava/lang/Integer;)V

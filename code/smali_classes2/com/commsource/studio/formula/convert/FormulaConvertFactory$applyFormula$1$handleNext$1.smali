@@ -43,12 +43,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1$handleNext$1;->a:Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1;
 
     iget-object v1, v1, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1;->c:Lcom/commsource/studio/formula/convert/g;
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -59,7 +57,6 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     sget-object v3, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->h:Lcom/commsource/studio/formula/convert/FormulaConvertFactory;
 
     iget-object v1, p0, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1$handleNext$1;->a:Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1;
@@ -78,12 +75,10 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->g(Lcom/commsource/studio/formula/convert/FormulaConvertFactory;Lcom/commsource/studio/formula/convert/g;Lcotlin/jvm/u/l;Ljava/lang/String;Ljava/lang/Exception;ILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     sget-object v2, Lcom/commsource/studio/formula/c;->v:Lcom/commsource/studio/formula/c;
 
@@ -95,12 +90,10 @@
 
     move-result-object v2
 
-    .line 6
     new-instance v3, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1$handleNext$1$$special$$inlined$apply$lambda$1;
 
     invoke-direct {v3, v1, v2, p0}, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1$handleNext$1$$special$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/formula/convert/g;Ljava/lang/String;Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1$handleNext$1;)V
 
-    .line 7
     sget-object v4, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->h:Lcom/commsource/studio/formula/convert/FormulaConvertFactory;
 
     invoke-static {v4}, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->a(Lcom/commsource/studio/formula/convert/FormulaConvertFactory;)Lcom/commsource/studio/formula/convert/d;
@@ -111,7 +104,6 @@
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/material/download/b/b$b;->f()Ljava/util/List;
 
     move-result-object v2
@@ -126,7 +118,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 9
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -137,7 +128,6 @@
 
     if-nez v2, :cond_1
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1$handleNext$1;->a:Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1;
 
     iget-object v5, v1, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1;->c:Lcom/commsource/studio/formula/convert/g;
@@ -154,12 +144,10 @@
 
     invoke-static/range {v4 .. v10}, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->g(Lcom/commsource/studio/formula/convert/FormulaConvertFactory;Lcom/commsource/studio/formula/convert/g;Lcotlin/jvm/u/l;Ljava/lang/String;Ljava/lang/Exception;ILjava/lang/Object;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_1
     iget-object v2, p0, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1$handleNext$1;->a:Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1;
 
@@ -167,7 +155,6 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/formula/convert/g;->w(Z)V
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1$handleNext$1;->a:Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1;
 
     iget-object v6, v2, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1;->c:Lcom/commsource/studio/formula/convert/g;
@@ -188,7 +175,6 @@
 
     invoke-static {v4, v6, v2, v7}, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->c(Lcom/commsource/studio/formula/convert/FormulaConvertFactory;Lcom/commsource/studio/formula/convert/g;Lcotlin/jvm/u/l;Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;)V
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1$handleNext$1;->a:Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1;
 
     iget-object v2, v2, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$applyFormula$1;->c:Lcom/commsource/studio/formula/convert/g;
@@ -205,11 +191,9 @@
 
     goto :goto_0
 
-    .line 15
     :cond_2
     invoke-interface {v3}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 16
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

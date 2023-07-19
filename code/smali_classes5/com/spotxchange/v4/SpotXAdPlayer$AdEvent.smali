@@ -86,7 +86,6 @@
 .method static constructor <clinit>()V
     .locals 29
 
-    .line 1
     new-instance v0, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v1, "ADUNKNOWN"
@@ -99,7 +98,6 @@
 
     sput-object v0, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADUNKNOWN:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 2
     new-instance v1, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v3, "ADLOADED"
@@ -112,7 +110,6 @@
 
     sput-object v1, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADLOADED:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 3
     new-instance v3, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v5, "ADSTARTED"
@@ -125,7 +122,6 @@
 
     sput-object v3, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADSTARTED:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 4
     new-instance v5, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v7, "ADSTOPPED"
@@ -138,7 +134,6 @@
 
     sput-object v5, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADSTOPPED:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 5
     new-instance v7, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v9, "ADSKIPPED"
@@ -151,7 +146,6 @@
 
     sput-object v7, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADSKIPPED:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 6
     new-instance v9, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v11, "ADIMPRESSION"
@@ -164,7 +158,6 @@
 
     sput-object v9, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADIMPRESSION:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 7
     new-instance v11, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v13, "ADVIDEOSTART"
@@ -177,7 +170,6 @@
 
     sput-object v11, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADVIDEOSTART:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 8
     new-instance v13, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADVIDEOFIRSTQUARTILE"
@@ -190,7 +182,6 @@
 
     sput-object v13, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADVIDEOFIRSTQUARTILE:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 9
     new-instance v12, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADVIDEOMIDPOINT"
@@ -203,7 +194,6 @@
 
     sput-object v12, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADVIDEOMIDPOINT:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 10
     new-instance v10, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADVIDEOTHIRDQUARTILE"
@@ -216,7 +206,6 @@
 
     sput-object v10, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADVIDEOTHIRDQUARTILE:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 11
     new-instance v8, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADVIDEOCOMPLETE"
@@ -229,7 +218,6 @@
 
     sput-object v8, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADVIDEOCOMPLETE:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 12
     new-instance v6, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADUSERCLOSE"
@@ -242,7 +230,6 @@
 
     sput-object v6, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADUSERCLOSE:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 13
     new-instance v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADPAUSED"
@@ -255,7 +242,6 @@
 
     sput-object v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADPAUSED:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 14
     new-instance v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADPLAYING"
@@ -270,7 +256,6 @@
 
     sput-object v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADPLAYING:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 15
     new-instance v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADLINEARCHANGE"
@@ -285,7 +270,6 @@
 
     sput-object v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADLINEARCHANGE:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 16
     new-instance v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADEXPANDEDCHANGE"
@@ -300,7 +284,6 @@
 
     sput-object v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADEXPANDEDCHANGE:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 17
     new-instance v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADINTERACTION"
@@ -315,7 +298,6 @@
 
     sput-object v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADINTERACTION:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 18
     new-instance v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADVOLUMECHANGE"
@@ -330,7 +312,6 @@
 
     sput-object v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADVOLUMECHANGE:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 19
     new-instance v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADCLICKTHRU"
@@ -345,7 +326,6 @@
 
     sput-object v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADCLICKTHRU:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 20
     new-instance v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADLOG"
@@ -360,7 +340,6 @@
 
     sput-object v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADLOG:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 21
     new-instance v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADSIZECHANGE"
@@ -375,7 +354,6 @@
 
     sput-object v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADSIZECHANGE:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 22
     new-instance v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADTIMECHANGE"
@@ -390,7 +368,6 @@
 
     sput-object v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADTIMECHANGE:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 23
     new-instance v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v15, "ADGROUPSTART"
@@ -405,7 +382,6 @@
 
     sput-object v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADGROUPSTART:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 24
     new-instance v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v14, "ADGROUPEND"
@@ -420,7 +396,6 @@
 
     sput-object v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADGROUPEND:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 25
     new-instance v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v14, "ADERROR"
@@ -435,7 +410,6 @@
 
     sput-object v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADERROR:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
-    .line 26
     new-instance v2, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     const-string v14, "ADSKIPPABLESTATECHANGE"
@@ -558,7 +532,6 @@
 
     aput-object v2, v4, v0
 
-    .line 27
     sput-object v4, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->$VALUES:[Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     return-void
@@ -574,10 +547,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->_name:Ljava/lang/String;
 
     return-void
@@ -586,7 +557,6 @@
 .method public static fromString(Ljava/lang/String;)Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->values()[Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     move-result-object v0
@@ -600,7 +570,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget-object v4, v3, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->_name:Ljava/lang/String;
 
     invoke-virtual {v4, p0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
@@ -616,7 +585,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -636,7 +604,6 @@
 
     invoke-static {v0, p0}, Lf/r/c/e/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     sget-object p0, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->ADUNKNOWN:Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     return-object p0
@@ -645,7 +612,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -660,7 +626,6 @@
 .method public static values()[Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->$VALUES:[Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;
 
     invoke-virtual {v0}, [Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->clone()Ljava/lang/Object;
@@ -677,7 +642,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/SpotXAdPlayer$AdEvent;->_name:Ljava/lang/String;
 
     return-object v0

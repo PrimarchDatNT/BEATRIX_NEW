@@ -10,7 +10,6 @@
         version = "1.4"
     .end annotation
 
-    .line 2
     sget-object v2, Lcotlin/jvm/internal/CallableReference;->NO_RECEIVER:Ljava/lang/Object;
 
     move-object v0, p0
@@ -36,7 +35,6 @@
         version = "1.4"
     .end annotation
 
-    .line 3
     invoke-direct/range {p0 .. p6}, Lcotlin/jvm/internal/FunctionReference;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
@@ -45,7 +43,6 @@
 .method public constructor <init>(ILcotlin/reflect/h;Ljava/lang/String;Ljava/lang/String;)V
     .locals 7
 
-    .line 1
     sget-object v2, Lcotlin/jvm/internal/CallableReference;->NO_RECEIVER:Ljava/lang/Object;
 
     move-object v0, p2

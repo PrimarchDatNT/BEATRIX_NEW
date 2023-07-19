@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/camera/f1/d;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/f1/d$a;->g:Lcom/commsource/camera/f1/d;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,19 +38,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/material/ImageSegmentExecutor;->D()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/f1/d$a;->g:Lcom/commsource/camera/f1/d;
 
@@ -61,7 +57,6 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/f1/d$a;->g:Lcom/commsource/camera/f1/d;
 
     new-instance v2, Lcom/meitu/libmt3dface/MTFace3DInterface;
@@ -74,16 +69,13 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/f1/d;->e(Lcom/commsource/camera/f1/d;Lcom/meitu/libmt3dface/MTFace3DInterface;)Lcom/meitu/libmt3dface/MTFace3DInterface;
 
-    .line 5
     :cond_1
     invoke-static {}, Lcom/commsource/material/ImageSegmentExecutor;->t()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/camera/f1/d$a;->g:Lcom/commsource/camera/f1/d;
 
-    .line 7
     invoke-static {v2}, Lcom/commsource/camera/f1/d;->d(Lcom/commsource/camera/f1/d;)Lcom/meitu/libmt3dface/MTFace3DInterface;
 
     move-result-object v3
@@ -162,10 +154,8 @@
 
     move-result v1
 
-    .line 8
     invoke-static {v2, v1}, Lcom/commsource/camera/f1/d;->f(Lcom/commsource/camera/f1/d;Z)Z
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

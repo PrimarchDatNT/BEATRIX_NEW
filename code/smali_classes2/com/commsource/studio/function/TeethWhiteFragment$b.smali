@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/TeethWhiteFragment$b;->S:Lcom/commsource/studio/function/TeethWhiteFragment;
 
     invoke-direct {p0, p2}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;-><init>(Landroid/content/Context;)V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -69,7 +67,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     array-length v3, v1
 
     const/4 v4, 0x1
@@ -92,14 +89,12 @@
 
     if-ge p1, v3, :cond_1
 
-    .line 3
     aget-boolean p1, v1, p1
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -26,12 +26,10 @@
 .method public final d(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bv0;->a:Lcom/google/android/gms/internal/ads/fa1;
 
     check-cast p1, Landroid/os/Bundle;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     move-result-object v1

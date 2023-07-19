@@ -33,7 +33,6 @@
 
     const-string v1, "(-?[0-9]+(?:\\.[0-9]+)?)(.*)"
 
-    .line 1
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
@@ -44,10 +43,8 @@
 
     new-array v2, v1, [F
 
-    .line 2
     sput-object v2, Lcom/meitu/library/i/n;->b:[F
 
-    .line 3
     new-instance v2, Lcom/meitu/library/i/p;
 
     invoke-direct {v2}, Lcom/meitu/library/i/p;-><init>()V
@@ -58,7 +55,6 @@
 
     new-array v2, v2, [Lcom/meitu/library/i/n$a;
 
-    .line 4
     new-instance v3, Lcom/meitu/library/i/n$a;
 
     const-string v4, "px"
@@ -165,7 +161,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -178,12 +173,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/i/n$a;->b:Ljava/lang/String;
 
     iput-object v1, p1, Lcom/meitu/library/i/p;->a:Ljava/lang/String;
 
-    .line 2
     iget v1, p0, Lcom/meitu/library/i/n$a;->c:I
 
     const/4 v2, 0x0
@@ -192,12 +185,10 @@
 
     iput v1, p1, Lcom/meitu/library/i/p;->b:I
 
-    .line 3
     iget p0, p0, Lcom/meitu/library/i/n$a;->d:F
 
     aput p0, p2, v2
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -322,7 +313,6 @@
 
     and-int/2addr v1, v2
 
-    .line 1
     :cond_6
     iget v2, p0, Lcom/meitu/library/i/p;->b:I
 
@@ -336,7 +326,6 @@
 
     iput p1, p0, Lcom/meitu/library/i/p;->b:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -349,7 +338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/i/n;->c:Lcom/meitu/library/i/p;
 
     invoke-static {p0, p1, v1, p2}, Lcom/meitu/library/i/n;->d(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/i/p;Z)Z
@@ -358,7 +346,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -366,7 +353,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -379,12 +365,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -393,12 +377,10 @@
 
     if-gtz v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Ljava/lang/String;->toCharArray()[C
 
@@ -409,14 +391,12 @@
     :goto_0
     if-ge v4, v1, :cond_2
 
-    .line 5
     aget-char v5, v3, v4
 
     const/16 v6, 0xff
 
     if-le v5, v6, :cond_1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -426,7 +406,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     aget-char v1, v3, v2
 
@@ -459,12 +438,10 @@
 
     if-eq v1, v3, :cond_4
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 9
     :cond_4
     sget-object v1, Lcom/meitu/library/i/n;->a:Ljava/util/regex/Pattern;
 
@@ -472,7 +449,6 @@
 
     move-result-object v1
 
-    .line 10
     invoke-virtual {v1}, Ljava/util/regex/Matcher;->matches()Z
 
     move-result v3
@@ -481,19 +457,16 @@
 
     const/4 v3, 0x1
 
-    .line 11
     invoke-virtual {v1, v3}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v4
 
     const/4 v5, 0x2
 
-    .line 12
     invoke-virtual {v1, v5}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 13
     :try_start_0
     invoke-static {v4}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
 
@@ -501,7 +474,6 @@
     :try_end_0
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 14
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v6
@@ -516,7 +488,6 @@
 
     if-eq v6, v7, :cond_6
 
-    .line 15
     sget-object p0, Lcom/meitu/library/i/n;->b:[F
 
     invoke-static {v1, p2, p0}, Lcom/meitu/library/i/n;->e(Ljava/lang/String;Lcom/meitu/library/i/p;[F)Z
@@ -525,29 +496,24 @@
 
     if-eqz p1, :cond_5
 
-    .line 16
     aget p0, p0, v2
 
     invoke-static {p2, v4, p0}, Lcom/meitu/library/i/n;->b(Lcom/meitu/library/i/p;FF)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 18
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 19
     :cond_6
     invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 20
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -560,22 +526,18 @@
 
     const-string p0, "float"
 
-    .line 21
     iput-object p0, p2, Lcom/meitu/library/i/p;->a:Ljava/lang/String;
 
-    .line 22
     invoke-static {v4}, Ljava/lang/Float;->floatToIntBits(F)I
 
     move-result p0
 
     iput p0, p2, Lcom/meitu/library/i/p;->b:I
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 24
     :cond_7
     sget-object p3, Lcom/meitu/library/i/n;->d:[Lcom/meitu/library/i/n$a;
 
@@ -585,12 +547,10 @@
 
     invoke-static {p3, p2, v1}, Lcom/meitu/library/i/n;->a(Lcom/meitu/library/i/n$a;Lcom/meitu/library/i/p;[F)V
 
-    .line 25
     aget p3, v1, v2
 
     invoke-static {p2, v4, p3}, Lcom/meitu/library/i/n;->b(Lcom/meitu/library/i/p;FF)V
 
-    .line 26
     new-instance p2, Ljava/lang/Error;
 
     new-array p3, v5, [Ljava/lang/Object;
@@ -611,13 +571,11 @@
 
     throw p2
 
-    .line 27
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 28
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -631,12 +589,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     sget-object v1, Lcom/meitu/library/i/n;->d:[Lcom/meitu/library/i/n$a;
 
     array-length v2, v1
@@ -650,7 +606,6 @@
 
     aget-object v5, v1, v4
 
-    .line 3
     iget-object v6, v5, Lcom/meitu/library/i/n$a;->a:Ljava/lang/String;
 
     invoke-virtual {v6, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -659,10 +614,8 @@
 
     if-eqz v6, :cond_0
 
-    .line 4
     invoke-static {v5, p1, p2}, Lcom/meitu/library/i/n;->a(Lcom/meitu/library/i/n$a;Lcom/meitu/library/i/p;[F)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p0, 0x1
@@ -674,7 +627,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

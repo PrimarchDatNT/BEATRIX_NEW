@@ -26,7 +26,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/w/c/f;-><init>(Ljava/util/List;)V
 
     return-void
@@ -37,7 +36,6 @@
 .method bridge synthetic i(Lcom/airbnb/lottie/a0/a;F)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/airbnb/lottie/w/c/n;->p(Lcom/airbnb/lottie/a0/a;F)Lcom/airbnb/lottie/model/DocumentData;
 
     move-result-object p1
@@ -63,20 +61,17 @@
 
     if-nez p2, :cond_1
 
-    .line 1
     iget-object p2, p1, Lcom/airbnb/lottie/a0/a;->c:Ljava/lang/Object;
 
     if-nez p2, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     check-cast p2, Lcom/airbnb/lottie/model/DocumentData;
 
     return-object p2
 
-    .line 3
     :cond_1
     :goto_0
     iget-object p1, p1, Lcom/airbnb/lottie/a0/a;->b:Ljava/lang/Object;

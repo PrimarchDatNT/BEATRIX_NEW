@@ -29,7 +29,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -83,7 +82,6 @@
 
     invoke-static {p5, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/a2/b$a;
 
     invoke-direct {v0, p5}, Lcotlin/a2/b$a;-><init>(Lcotlin/jvm/u/a;)V
@@ -92,31 +90,26 @@
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {v0, p1}, Ljava/lang/Thread;->setDaemon(Z)V
 
     :cond_0
     if-lez p4, :cond_1
 
-    .line 3
     invoke-virtual {v0, p4}, Ljava/lang/Thread;->setPriority(I)V
 
     :cond_1
     if-eqz p3, :cond_2
 
-    .line 4
     invoke-virtual {v0, p3}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
     :cond_2
     if-eqz p2, :cond_3
 
-    .line 5
     invoke-virtual {v0, p2}, Ljava/lang/Thread;->setContextClassLoader(Ljava/lang/ClassLoader;)V
 
     :cond_3
     if-eqz p0, :cond_4
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
     :cond_4
@@ -196,7 +189,6 @@
     :goto_4
     move-object v5, p5
 
-    .line 1
     invoke-static/range {v0 .. v5}, Lcotlin/a2/b;->b(ZZLjava/lang/ClassLoader;Ljava/lang/String;ILcotlin/jvm/u/a;)Ljava/lang/Thread;
 
     move-result-object p0

@@ -15,7 +15,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/c2;->u:Lcotlinx/coroutines/c2$b;
 
     invoke-interface {p0, v0}, Lcotlin/coroutines/CoroutineContext;->get(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
@@ -54,7 +53,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance p0, Lcotlinx/coroutines/JobCancellationException;
 
@@ -90,7 +88,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/h2$a;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/h2$a;-><init>(Lcotlin/jvm/u/a;)V
@@ -107,7 +104,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/e2;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/e2;-><init>(Lcotlinx/coroutines/c2;)V
@@ -133,7 +129,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/f2;->b(Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/y;
 
     move-result-object p0
@@ -150,7 +145,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0}, Lcotlinx/coroutines/f2;->b(Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/y;
 
@@ -168,7 +162,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0}, Lcotlinx/coroutines/f2;->c(Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/c2;
 
@@ -190,7 +183,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcotlinx/coroutines/f2;->g(Lcotlin/coroutines/CoroutineContext;Ljava/util/concurrent/CancellationException;)V
 
     return-void
@@ -207,7 +199,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/c2;->u:Lcotlinx/coroutines/c2$b;
 
     invoke-interface {p0, v0}, Lcotlin/coroutines/CoroutineContext;->get(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
@@ -239,7 +230,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1, p2}, Lcotlinx/coroutines/o1;->a(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/util/concurrent/CancellationException;
 
     move-result-object p1
@@ -264,7 +254,6 @@
         message = "Since 1.2.0, binary compatibility with versions <= 1.1.x"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/c2;->u:Lcotlinx/coroutines/c2$b;
 
     invoke-interface {p0, v0}, Lcotlin/coroutines/CoroutineContext;->get(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
@@ -282,7 +271,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 2
     invoke-static {p1, p0}, Lcotlinx/coroutines/h2;->B(Ljava/lang/Throwable;Lcotlinx/coroutines/c2;)Ljava/lang/Throwable;
 
     move-result-object p1
@@ -308,7 +296,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/f2;->g(Lcotlin/coroutines/CoroutineContext;Ljava/util/concurrent/CancellationException;)V
 
@@ -324,7 +311,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/f2;->h(Lcotlinx/coroutines/c2;Ljava/lang/String;Ljava/lang/Throwable;)V
 
@@ -340,7 +326,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/f2;->i(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)Z
 
@@ -378,10 +363,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p0, v0, v1, v0}, Lcotlinx/coroutines/c2$a;->b(Lcotlinx/coroutines/c2;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
-    .line 2
     invoke-interface {p0, p1}, Lcotlinx/coroutines/c2;->I(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -413,7 +396,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcotlinx/coroutines/f2;->p(Lcotlin/coroutines/CoroutineContext;Ljava/util/concurrent/CancellationException;)V
 
     return-void
@@ -434,7 +416,6 @@
         message = "Since 1.2.0, binary compatibility with versions <= 1.1.x"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/c2;->u:Lcotlinx/coroutines/c2$b;
 
     invoke-interface {p0, v0}, Lcotlin/coroutines/CoroutineContext;->get(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
@@ -445,12 +426,10 @@
 
     if-eqz p0, :cond_2
 
-    .line 2
     invoke-interface {p0}, Lcotlinx/coroutines/c2;->m()Lcotlin/sequences/m;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -469,7 +448,6 @@
 
     check-cast v1, Lcotlinx/coroutines/c2;
 
-    .line 4
     instance-of v2, v1, Lcotlinx/coroutines/JobSupport;
 
     if-nez v2, :cond_1
@@ -504,7 +482,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/c2;->u:Lcotlinx/coroutines/c2$b;
 
     invoke-interface {p0, v0}, Lcotlin/coroutines/CoroutineContext;->get(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
@@ -521,7 +498,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -539,7 +515,6 @@
 
     check-cast v0, Lcotlinx/coroutines/c2;
 
-    .line 3
     invoke-interface {v0, p1}, Lcotlinx/coroutines/c2;->d(Ljava/util/concurrent/CancellationException;)V
 
     goto :goto_0
@@ -561,7 +536,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcotlinx/coroutines/f2;->s(Lcotlinx/coroutines/c2;Ljava/util/concurrent/CancellationException;)V
 
     return-void
@@ -582,12 +556,10 @@
         message = "Since 1.2.0, binary compatibility with versions <= 1.1.x"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlinx/coroutines/c2;->m()Lcotlin/sequences/m;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -606,7 +578,6 @@
 
     check-cast v1, Lcotlinx/coroutines/c2;
 
-    .line 3
     instance-of v2, v1, Lcotlinx/coroutines/JobSupport;
 
     if-nez v2, :cond_1
@@ -641,12 +612,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-interface {p0}, Lcotlinx/coroutines/c2;->m()Lcotlin/sequences/m;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -664,7 +633,6 @@
 
     check-cast v0, Lcotlinx/coroutines/c2;
 
-    .line 3
     invoke-interface {v0, p1}, Lcotlinx/coroutines/c2;->d(Ljava/util/concurrent/CancellationException;)V
 
     goto :goto_0
@@ -682,7 +650,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/f2;->o(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V
 
@@ -698,7 +665,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/f2;->p(Lcotlin/coroutines/CoroutineContext;Ljava/util/concurrent/CancellationException;)V
 
@@ -714,7 +680,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/f2;->r(Lcotlinx/coroutines/c2;Ljava/lang/Throwable;)V
 
@@ -730,7 +695,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/f2;->s(Lcotlinx/coroutines/c2;Ljava/util/concurrent/CancellationException;)V
 
@@ -750,7 +714,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/h1;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/h1;-><init>(Lcotlinx/coroutines/c2;Lcotlinx/coroutines/f1;)V
@@ -769,7 +732,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/c2;->u:Lcotlinx/coroutines/c2$b;
 
     invoke-interface {p0, v0}, Lcotlin/coroutines/CoroutineContext;->get(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
@@ -780,12 +742,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcotlinx/coroutines/f2;->B(Lcotlinx/coroutines/c2;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -819,7 +779,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-interface {p0}, Lcotlinx/coroutines/c2;->isActive()Z
 
     move-result v0

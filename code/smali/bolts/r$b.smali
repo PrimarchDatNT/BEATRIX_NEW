@@ -42,7 +42,6 @@
 .method constructor <init>(Lbolts/r;Lbolts/j;Landroid/net/Uri;Lbolts/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/r$b;->d:Lbolts/r;
 
     iput-object p2, p0, Lbolts/r$b;->a:Lbolts/j;
@@ -78,12 +77,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lbolts/p;
 
     invoke-direct {p1}, Lbolts/p;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/webkit/WebView;
 
     iget-object v1, p0, Lbolts/r$b;->d:Lbolts/r;
@@ -94,7 +91,6 @@
 
     invoke-direct {v0, v1}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V
 
-    .line 3
     invoke-virtual {v0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
 
     move-result-object v1
@@ -105,17 +101,14 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->setNetworkAvailable(Z)V
 
-    .line 5
     new-instance v2, Lbolts/r$b$a;
 
     invoke-direct {v2, p0}, Lbolts/r$b$a;-><init>(Lbolts/r$b;)V
 
     invoke-virtual {v0, v2}, Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
 
-    .line 6
     new-instance v2, Lbolts/r$b$b;
 
     invoke-direct {v2, p0, p1}, Lbolts/r$b$b;-><init>(Lbolts/r$b;Lbolts/p;)V
@@ -124,7 +117,6 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 7
     iget-object v2, p0, Lbolts/r$b;->a:Lbolts/j;
 
     invoke-virtual {v2}, Lbolts/j;->a()Ljava/lang/Object;
@@ -133,7 +125,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 8
     iget-object v2, p0, Lbolts/r$b;->a:Lbolts/j;
 
     invoke-virtual {v2}, Lbolts/j;->a()Ljava/lang/Object;
@@ -158,7 +149,6 @@
     :goto_0
     move-object v3, v1
 
-    .line 9
     iget-object v1, p0, Lbolts/r$b;->b:Landroid/net/Uri;
 
     invoke-virtual {v1}, Landroid/net/Uri;->toString()Ljava/lang/String;
@@ -179,7 +169,6 @@
 
     invoke-virtual/range {v0 .. v5}, Landroid/webkit/WebView;->loadDataWithBaseURL(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {p1}, Lbolts/p;->a()Lbolts/o;
 
     move-result-object p1
@@ -195,7 +184,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lbolts/r$b;->a(Lbolts/o;)Lbolts/o;
 
     move-result-object p1

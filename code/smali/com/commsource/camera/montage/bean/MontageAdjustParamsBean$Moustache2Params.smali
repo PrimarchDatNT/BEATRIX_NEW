@@ -31,7 +31,6 @@
 .method public constructor <init>(Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$Moustache2Params;->this$0:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

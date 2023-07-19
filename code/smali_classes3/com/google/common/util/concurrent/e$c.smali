@@ -27,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/util/concurrent/e$d;-><init>(Lcom/google/common/util/concurrent/e$a;)V
 
     return-void
@@ -49,12 +48,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/e$c$a;
 
     invoke-direct {v0, p0, p1, p2, p3}, Lcom/google/common/util/concurrent/e$c$a;-><init>(Lcom/google/common/util/concurrent/e$c;Lcom/google/common/util/concurrent/f;Ljava/util/concurrent/ScheduledExecutorService;Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/e$c$a;->S0()V
 
     return-object v0

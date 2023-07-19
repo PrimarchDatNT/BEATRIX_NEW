@@ -38,10 +38,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -71,23 +69,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/g0;->a:Ljava/lang/Object;
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/util/g0;->b:Ljava/util/LinkedList;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-interface {p1, v1}, Lcom/commsource/util/common/d;->a(Ljava/lang/Object;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -109,10 +103,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/g0;->a:Ljava/lang/Object;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/util/g0;->b:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
@@ -132,18 +124,15 @@
 
     check-cast v2, Lcom/commsource/util/common/d;
 
-    .line 3
     invoke-interface {v2, p1}, Lcom/commsource/util/common/d;->a(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/util/g0;->b:Ljava/util/LinkedList;
 
     invoke-virtual {p1}, Ljava/util/LinkedList;->clear()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -50,7 +50,6 @@
 
     if-eq p1, v2, :cond_1
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/mypage/album/MoreComponent$a;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-static {p1}, Lcom/commsource/mypage/album/MoreComponent;->j(Lcom/commsource/mypage/album/MoreComponent;)Lf/d/h/a/a;
@@ -64,14 +63,12 @@
     :cond_0
     invoke-virtual {p1}, Lf/d/h/a/a;->dismiss()V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/album/MoreComponent$a;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-static {p1}, Lcom/commsource/mypage/album/MoreComponent;->r(Lcom/commsource/mypage/album/MoreComponent;)V
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/commsource/mypage/album/MoreComponent$a;->a:Lcom/commsource/mypage/album/MoreComponent;
 
@@ -86,19 +83,16 @@
     :cond_2
     invoke-virtual {p1}, Lf/d/h/a/a;->dismiss()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/mypage/album/MoreComponent$a;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-static {p1, v1}, Lcom/commsource/mypage/album/MoreComponent;->v(Lcom/commsource/mypage/album/MoreComponent;Z)V
 
     const-string p1, "album_page_del"
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 6
     :cond_3
     iget-object p1, p0, Lcom/commsource/mypage/album/MoreComponent$a;->a:Lcom/commsource/mypage/album/MoreComponent;
 
@@ -113,17 +107,14 @@
     :cond_4
     invoke-virtual {p1}, Lf/d/h/a/a;->dismiss()V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/mypage/album/MoreComponent$a;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-static {p1}, Lcom/commsource/mypage/album/MoreComponent;->s(Lcom/commsource/mypage/album/MoreComponent;)V
 
     const-string p1, "album_page_grid"
 
-    .line 8
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

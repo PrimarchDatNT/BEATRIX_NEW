@@ -51,22 +51,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/model/n/g;->a:Lcom/google/firebase/firestore/model/n/f;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/model/n/g;->b:Lcom/google/firebase/firestore/model/l;
 
-    .line 4
     iput-object p3, p0, Lcom/google/firebase/firestore/model/n/g;->c:Ljava/util/List;
 
-    .line 5
     iput-object p4, p0, Lcom/google/firebase/firestore/model/n/g;->d:Lcom/google/protobuf/ByteString;
 
-    .line 6
     iput-object p5, p0, Lcom/google/firebase/firestore/model/n/g;->e:Lcom/google/firebase/database/collection/d;
 
     return-void
@@ -88,7 +82,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/n/f;->h()Ljava/util/List;
 
     move-result-object v0
@@ -119,7 +112,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/n/f;->h()Ljava/util/List;
 
     move-result-object v4
@@ -134,7 +126,6 @@
 
     aput-object v4, v1, v3
 
-    .line 3
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v4
@@ -147,22 +138,18 @@
 
     const-string v2, "Mutations sent %d must equal results received %d"
 
-    .line 4
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {}, Lcom/google/firebase/firestore/model/c;->c()Lcom/google/firebase/database/collection/d;
 
     move-result-object v0
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/n/f;->h()Ljava/util/List;
 
     move-result-object v1
 
     move-object v9, v0
 
-    .line 7
     :goto_1
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -170,7 +157,6 @@
 
     if-ge v3, v0, :cond_1
 
-    .line 8
     invoke-interface {p2, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -181,7 +167,6 @@
 
     move-result-object v0
 
-    .line 9
     invoke-interface {v1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -200,7 +185,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_1
     new-instance v0, Lcom/google/firebase/firestore/model/n/g;
 
@@ -224,7 +208,6 @@
 .method public b()Lcom/google/firebase/firestore/model/n/f;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/g;->a:Lcom/google/firebase/firestore/model/n/f;
 
     return-object v0
@@ -233,7 +216,6 @@
 .method public c()Lcom/google/firebase/firestore/model/l;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/g;->b:Lcom/google/firebase/firestore/model/l;
 
     return-object v0
@@ -251,7 +233,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/g;->e:Lcom/google/firebase/database/collection/d;
 
     return-object v0
@@ -268,7 +249,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/g;->c:Ljava/util/List;
 
     return-object v0
@@ -277,7 +257,6 @@
 .method public f()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/g;->d:Lcom/google/protobuf/ByteString;
 
     return-object v0

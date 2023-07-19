@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$e;->c:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/FormulaStoreActivity$e;->e(Ljava/lang/Boolean;)V
@@ -77,17 +75,14 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$e;->c:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaStoreActivity;->O0(Lcom/commsource/studio/formula/FormulaStoreActivity;)Lcom/commsource/studio/formula/FormulaStoreViewModel;
@@ -96,7 +91,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/formula/FormulaStoreViewModel;->D()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$e;->c:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaStoreActivity;->Q0(Lcom/commsource/studio/formula/FormulaStoreActivity;)Lcom/commsource/beautyplus/f0/e0;
@@ -107,13 +101,11 @@
 
     invoke-virtual {p1}, Lcom/commsource/widget/mask/MaskContainer;->b()V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$e;->c:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaStoreActivity;->N0(Lcom/commsource/studio/formula/FormulaStoreActivity;)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

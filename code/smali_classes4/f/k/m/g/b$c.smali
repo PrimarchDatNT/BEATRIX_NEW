@@ -41,7 +41,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/k/m/g/b$c;->a:Lf/k/m/g/b;
 
     iput-object p2, p0, Lf/k/m/g/b$c;->b:Lcom/meitu/ipstore/core/c$a;
@@ -80,14 +79,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
 
     if-lez v2, :cond_0
 
-    .line 2
     iget-object v2, p0, Lf/k/m/g/b$c;->a:Lf/k/m/g/b;
 
     iget-object v3, p0, Lf/k/m/g/b$c;->d:Landroid/app/Activity;
@@ -104,7 +101,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lf/k/m/g/b$c;->a:Lf/k/m/g/b;
 
@@ -112,7 +108,6 @@
 
     invoke-static {p1, v1, v2}, Lf/k/m/g/b;->j(Lf/k/m/g/b;ILjava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lf/k/m/g/b$c;->b:Lcom/meitu/ipstore/core/c$a;
 
     if-eqz p1, :cond_1
@@ -121,7 +116,6 @@
 
     invoke-interface {p1, v3, v1, v2}, Lcom/meitu/ipstore/core/c$a;->a(Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -136,14 +130,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/m/g/b$c;->a:Lf/k/m/g/b;
 
     const-string v2, "queryProduct failed"
 
     invoke-static {v1, p1, v2}, Lf/k/m/g/b;->j(Lf/k/m/g/b;ILjava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lf/k/m/g/b$c;->b:Lcom/meitu/ipstore/core/c$a;
 
     if-eqz v1, :cond_0
@@ -152,7 +144,6 @@
 
     invoke-interface {v1, v3, p1, v2}, Lcom/meitu/ipstore/core/c$a;->a(Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity$a;->a:Lcom/commsource/beautyplus/web/CrashFeedBackActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,12 +47,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity$a;->a:Lcom/commsource/beautyplus/web/CrashFeedBackActivity;
 
     invoke-static {v0, p1}, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->U0(Lcom/commsource/beautyplus/web/CrashFeedBackActivity;I)V
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -66,7 +63,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -79,7 +75,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity$a;->a:Lcom/commsource/beautyplus/web/CrashFeedBackActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->P0(Lcom/commsource/beautyplus/web/CrashFeedBackActivity;)Lcom/commsource/beautyplus/f0/m;
@@ -92,7 +87,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

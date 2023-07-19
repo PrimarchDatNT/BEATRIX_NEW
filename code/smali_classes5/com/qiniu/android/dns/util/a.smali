@@ -11,12 +11,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
     return-void
@@ -27,7 +25,6 @@
 .method public a(I)Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
     const/4 v1, 0x1
@@ -52,7 +49,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
     return-object p0
@@ -61,7 +57,6 @@
 .method public c(I)Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
     const/4 v1, 0x1
@@ -84,7 +79,6 @@
 .method public d()I
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
     const/16 v1, 0x10
@@ -93,7 +87,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iput v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
     goto :goto_0
@@ -101,7 +94,6 @@
     :cond_0
     const/16 v1, 0x20
 
-    .line 3
     :goto_0
     iget v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
@@ -111,10 +103,8 @@
 
     add-int/lit8 v1, v1, -0x8
 
-    .line 4
     iput v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
-    .line 5
     :cond_1
     iget v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
@@ -124,10 +114,8 @@
 
     add-int/lit8 v1, v1, -0x4
 
-    .line 6
     iput v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
-    .line 7
     :cond_2
     iget v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
@@ -137,10 +125,8 @@
 
     add-int/lit8 v1, v1, -0x2
 
-    .line 8
     iput v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
-    .line 9
     :cond_3
     iget v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
@@ -161,7 +147,6 @@
 .method public e(I)Z
     .locals 0
 
-    .line 1
     iget p1, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
     if-nez p1, :cond_0
@@ -180,7 +165,6 @@
 .method public f(I)Lcom/qiniu/android/dns/util/a;
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
     const/4 v1, 0x1
@@ -197,7 +181,6 @@
 .method public g()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/qiniu/android/dns/util/a;->a:I
 
     return v0

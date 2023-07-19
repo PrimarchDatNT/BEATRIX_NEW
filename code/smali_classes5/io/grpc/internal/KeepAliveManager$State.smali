@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 13
 
-    .line 1
     new-instance v0, Lio/grpc/internal/KeepAliveManager$State;
 
     const-string v1, "IDLE"
@@ -53,7 +52,6 @@
 
     sput-object v0, Lio/grpc/internal/KeepAliveManager$State;->IDLE:Lio/grpc/internal/KeepAliveManager$State;
 
-    .line 2
     new-instance v1, Lio/grpc/internal/KeepAliveManager$State;
 
     const-string v3, "PING_SCHEDULED"
@@ -64,7 +62,6 @@
 
     sput-object v1, Lio/grpc/internal/KeepAliveManager$State;->PING_SCHEDULED:Lio/grpc/internal/KeepAliveManager$State;
 
-    .line 3
     new-instance v3, Lio/grpc/internal/KeepAliveManager$State;
 
     const-string v5, "PING_DELAYED"
@@ -75,7 +72,6 @@
 
     sput-object v3, Lio/grpc/internal/KeepAliveManager$State;->PING_DELAYED:Lio/grpc/internal/KeepAliveManager$State;
 
-    .line 4
     new-instance v5, Lio/grpc/internal/KeepAliveManager$State;
 
     const-string v7, "PING_SENT"
@@ -86,7 +82,6 @@
 
     sput-object v5, Lio/grpc/internal/KeepAliveManager$State;->PING_SENT:Lio/grpc/internal/KeepAliveManager$State;
 
-    .line 5
     new-instance v7, Lio/grpc/internal/KeepAliveManager$State;
 
     const-string v9, "IDLE_AND_PING_SENT"
@@ -97,7 +92,6 @@
 
     sput-object v7, Lio/grpc/internal/KeepAliveManager$State;->IDLE_AND_PING_SENT:Lio/grpc/internal/KeepAliveManager$State;
 
-    .line 6
     new-instance v9, Lio/grpc/internal/KeepAliveManager$State;
 
     const-string v11, "DISCONNECTED"
@@ -124,7 +118,6 @@
 
     aput-object v9, v11, v12
 
-    .line 7
     sput-object v11, Lio/grpc/internal/KeepAliveManager$State;->$VALUES:[Lio/grpc/internal/KeepAliveManager$State;
 
     return-void
@@ -138,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -147,7 +139,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/grpc/internal/KeepAliveManager$State;
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/internal/KeepAliveManager$State;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -162,7 +153,6 @@
 .method public static values()[Lio/grpc/internal/KeepAliveManager$State;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/KeepAliveManager$State;->$VALUES:[Lio/grpc/internal/KeepAliveManager$State;
 
     invoke-virtual {v0}, [Lio/grpc/internal/KeepAliveManager$State;->clone()Ljava/lang/Object;

@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 1
     new-instance v0, Lio/grpc/MethodDescriptor$MethodType;
 
     const-string v1, "UNARY"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lio/grpc/MethodDescriptor$MethodType;->UNARY:Lio/grpc/MethodDescriptor$MethodType;
 
-    .line 2
     new-instance v1, Lio/grpc/MethodDescriptor$MethodType;
 
     const-string v3, "CLIENT_STREAMING"
@@ -62,7 +60,6 @@
 
     sput-object v1, Lio/grpc/MethodDescriptor$MethodType;->CLIENT_STREAMING:Lio/grpc/MethodDescriptor$MethodType;
 
-    .line 3
     new-instance v3, Lio/grpc/MethodDescriptor$MethodType;
 
     const-string v5, "SERVER_STREAMING"
@@ -73,7 +70,6 @@
 
     sput-object v3, Lio/grpc/MethodDescriptor$MethodType;->SERVER_STREAMING:Lio/grpc/MethodDescriptor$MethodType;
 
-    .line 4
     new-instance v5, Lio/grpc/MethodDescriptor$MethodType;
 
     const-string v7, "BIDI_STREAMING"
@@ -84,7 +80,6 @@
 
     sput-object v5, Lio/grpc/MethodDescriptor$MethodType;->BIDI_STREAMING:Lio/grpc/MethodDescriptor$MethodType;
 
-    .line 5
     new-instance v7, Lio/grpc/MethodDescriptor$MethodType;
 
     const-string v9, "UNKNOWN"
@@ -109,7 +104,6 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lio/grpc/MethodDescriptor$MethodType;->$VALUES:[Lio/grpc/MethodDescriptor$MethodType;
 
     return-void
@@ -123,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -132,7 +125,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/grpc/MethodDescriptor$MethodType;
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/MethodDescriptor$MethodType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -147,7 +139,6 @@
 .method public static values()[Lio/grpc/MethodDescriptor$MethodType;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/MethodDescriptor$MethodType;->$VALUES:[Lio/grpc/MethodDescriptor$MethodType;
 
     invoke-virtual {v0}, [Lio/grpc/MethodDescriptor$MethodType;->clone()Ljava/lang/Object;
@@ -164,7 +155,6 @@
 .method public final clientSendsOneMessage()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/MethodDescriptor$MethodType;->UNARY:Lio/grpc/MethodDescriptor$MethodType;
 
     if-eq p0, v0, :cond_1
@@ -191,7 +181,6 @@
 .method public final serverSendsOneMessage()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/MethodDescriptor$MethodType;->UNARY:Lio/grpc/MethodDescriptor$MethodType;
 
     if-eq p0, v0, :cond_1

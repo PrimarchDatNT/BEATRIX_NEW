@@ -101,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -174,7 +173,6 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/o0;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -201,7 +199,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Lcotlin/NoWhenBranchMatchedException;
 
@@ -209,19 +206,16 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1, p2}, Lcotlinx/coroutines/s3/b;->a(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)V
 
     goto :goto_0
 
-    .line 4
     :cond_2
     invoke-static {p1, p2}, Lcotlin/coroutines/e;->h(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)V
 
     goto :goto_0
 
-    .line 5
     :cond_3
     invoke-static {p1, p2}, Lcotlinx/coroutines/s3/a;->c(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)V
 
@@ -260,7 +254,6 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .line 6
     sget-object v0, Lcotlinx/coroutines/o0;->b:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -287,7 +280,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance p1, Lcotlin/NoWhenBranchMatchedException;
 
@@ -295,19 +287,16 @@
 
     throw p1
 
-    .line 8
     :cond_1
     invoke-static {p1, p2, p3}, Lcotlinx/coroutines/s3/b;->b(Lcotlin/jvm/u/p;Ljava/lang/Object;Lcotlin/coroutines/c;)V
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-static {p1, p2, p3}, Lcotlin/coroutines/e;->i(Lcotlin/jvm/u/p;Ljava/lang/Object;Lcotlin/coroutines/c;)V
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-static {p1, p2, p3}, Lcotlinx/coroutines/s3/a;->d(Lcotlin/jvm/u/p;Ljava/lang/Object;Lcotlin/coroutines/c;)V
 
@@ -318,7 +307,6 @@
 .method public final isLazy()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/CoroutineStart;->LAZY:Lcotlinx/coroutines/CoroutineStart;
 
     if-ne p0, v0, :cond_0

@@ -24,7 +24,6 @@
 .method constructor <init>(Lf/k/i0/b/b;Ljava/lang/String;Lcom/meitu/template/bean/ChatFiled;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i0/b/b$b;->p:Lf/k/i0/b/b;
 
     iput-object p3, p0, Lf/k/i0/b/b$b;->g:Lcom/meitu/template/bean/ChatFiled;
@@ -43,14 +42,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/i0/b/b;->a()Ljava/lang/Object;
 
     move-result-object v1
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lf/k/i0/b/b$b;->p:Lf/k/i0/b/b;
 
@@ -62,12 +59,10 @@
 
     invoke-interface {v2, v3}, Lf/k/i0/a/j;->P(Lcom/meitu/template/bean/ChatFiled;)V
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -75,7 +70,6 @@
     :catchall_0
     move-exception v2
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1

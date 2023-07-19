@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/store/filter/FilterStoreActivity$c;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {p2}, Lcom/commsource/store/filter/FilterStoreActivity;->R0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/beautyplus/f0/y;
@@ -53,7 +52,6 @@
 
     invoke-static {p2}, Lcom/commsource/camera/mvp/helper/e;->a(Landroidx/databinding/ViewStubProxy;)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/store/filter/FilterStoreActivity$c;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {p2}, Lcom/commsource/store/filter/FilterStoreActivity;->O0(Lcom/commsource/store/filter/FilterStoreActivity;)Landroid/os/Handler;
@@ -64,7 +62,6 @@
 
     invoke-virtual {p2, v0}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

@@ -28,14 +28,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/appcia/a;
 
     invoke-direct {v1}, Lcom/meitu/library/appcia/a;-><init>()V
 
     sput-object v1, Lcom/meitu/library/appcia/a;->c:Lcom/meitu/library/appcia/a;
 
-    .line 2
     new-instance v1, Lcom/meitu/library/appcia/g/c;
 
     invoke-direct {v1}, Lcom/meitu/library/appcia/g/c;-><init>()V
@@ -50,7 +48,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,7 +60,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/meitu/library/appcia/a;->a:Lcom/meitu/library/appcia/g/c;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -78,7 +74,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/meitu/library/appcia/a;->b:Lcom/meitu/library/appcia/director/Director;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -93,7 +88,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p1, Lcom/meitu/library/appcia/a;->b:Lcom/meitu/library/appcia/director/Director;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -118,14 +112,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/a;->b:Lcom/meitu/library/appcia/director/Director;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/appcia/director/Director;->j(Lcom/meitu/library/appcia/diskspace/c/a$b;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -157,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/a;->b:Lcom/meitu/library/appcia/director/Director;
 
     if-eqz v1, :cond_0
@@ -186,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/a;->a:Lcom/meitu/library/appcia/g/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -205,14 +195,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/a;->b:Lcom/meitu/library/appcia/director/Director;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/appcia/director/Director;->n(Ljava/lang/String;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -230,14 +218,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/a;->b:Lcom/meitu/library/appcia/director/Director;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/appcia/director/Director;->o(Ljava/lang/String;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -255,14 +241,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/a;->b:Lcom/meitu/library/appcia/director/Director;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/appcia/director/Director;->p(Ljava/lang/String;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -286,7 +270,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/appcia/a$a;
 
     invoke-direct {v1, p1}, Lcom/meitu/library/appcia/a$a;-><init>(Landroid/app/Application;)V
@@ -303,14 +286,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/a;->b:Lcom/meitu/library/appcia/director/Director;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Lcom/meitu/library/appcia/director/Director;->q()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -30,12 +30,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/d;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/e;->d:Lcom/commsource/beautyplus/BaseActivity;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/e;->j()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object p1
@@ -52,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/dialog/s0/t$a;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
@@ -69,7 +66,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->feed_back:I
 
-    .line 2
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
@@ -78,7 +74,6 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/commsource/home/homepagedialog/e$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/home/homepagedialog/e$a;-><init>(Lcom/commsource/home/homepagedialog/e;)V
@@ -87,7 +82,6 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/commsource/home/homepagedialog/e$b;
 
     invoke-direct {v2, p0}, Lcom/commsource/home/homepagedialog/e$b;-><init>(Lcom/commsource/home/homepagedialog/e;)V
@@ -98,14 +92,12 @@
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/s0/t$a;->p(Z)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v1
 
     sget v2, Lcom/res/provider/ResSTRING;->feed_back_complaint:I
 
-    .line 6
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
@@ -114,7 +106,6 @@
 
     move-result-object v1
 
-    .line 7
     new-instance v2, Lcom/commsource/home/homepagedialog/e$c;
 
     invoke-direct {v2, p0}, Lcom/commsource/home/homepagedialog/e$c;-><init>(Lcom/commsource/home/homepagedialog/e;)V
@@ -125,12 +116,10 @@
 
     const/4 v2, 0x1
 
-    .line 8
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/s0/t$a;->s(Z)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object v1
@@ -153,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x6
@@ -168,7 +156,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/e;->m1()Z
 
     move-result v1
@@ -179,21 +166,18 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/d/i/e;->Q1()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {}, Lf/d/i/e;->b0()I
 
     move-result v1
 
     if-eq v1, v2, :cond_1
 
-    .line 4
     invoke-static {}, Lf/d/i/e;->b0()I
 
     move-result v1
@@ -202,7 +186,6 @@
 
     if-ne v1, v4, :cond_0
 
-    .line 5
     invoke-static {}, Lf/d/i/e;->v0()Ljava/lang/String;
 
     move-result-object v1
@@ -218,15 +201,12 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v3, v3}, Lf/d/i/e;->r2(ZZ)V
 
-    .line 7
     invoke-static {v3}, Lf/d/i/e;->x2(I)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -239,19 +219,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/e;->c:Lcom/commsource/widget/dialog/s0/t;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/e;->j()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/home/homepagedialog/e;->c:Lcom/commsource/widget/dialog/s0/t;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/e;->c:Lcom/commsource/widget/dialog/s0/t;
 
@@ -283,19 +260,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/e;->c:Lcom/commsource/widget/dialog/s0/t;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/e;->j()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/home/homepagedialog/e;->c:Lcom/commsource/widget/dialog/s0/t;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/e;->d:Lcom/commsource/beautyplus/BaseActivity;
 
@@ -305,14 +279,12 @@
 
     if-nez v1, :cond_2
 
-    .line 4
     invoke-static {}, Lcom/commsource/util/h0;->e()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-static {v1}, Lf/d/i/e;->T3(Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/e;->c:Lcom/commsource/widget/dialog/s0/t;
 
     if-eqz v1, :cond_1
@@ -325,7 +297,6 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/e;->c:Lcom/commsource/widget/dialog/s0/t;
 
@@ -333,7 +304,6 @@
 
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -349,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/e;->d:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -366,7 +335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/e;->c:Lcom/commsource/widget/dialog/s0/t;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -385,7 +353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/e;->c:Lcom/commsource/widget/dialog/s0/t;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

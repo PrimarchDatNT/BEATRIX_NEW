@@ -19,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/c/c/b;
 
     invoke-direct {v1}, Lf/k/c/c/b;-><init>()V
@@ -34,7 +33,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -70,7 +67,6 @@
 
     int-to-float p1, p1
 
-    .line 2
     iget v1, v1, Landroid/util/DisplayMetrics;->density:F
 
     mul-float p1, p1, v1
@@ -105,14 +101,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     array-length v2, p1
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     array-length v2, p1
 
     const/4 v3, 0x0
@@ -122,7 +116,6 @@
 
     aget v4, p1, v3
 
-    .line 3
     sget-object v5, Lf/k/c/c/b;->a:Lf/k/c/c/b;
 
     invoke-direct {v5, v4}, Lf/k/c/c/b;->a(I)I
@@ -139,7 +132,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     array-length v1, p1
 

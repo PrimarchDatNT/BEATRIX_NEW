@@ -13,10 +13,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/cp2;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -36,16 +34,13 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/oc;->b:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/oc;->c:Lcom/google/android/gms/internal/ads/ep2;
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -68,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/os/RemoteException;
 
     invoke-direct {v0}, Landroid/os/RemoteException;-><init>()V
@@ -84,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/os/RemoteException;
 
     invoke-direct {v0}, Landroid/os/RemoteException;-><init>()V
@@ -100,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/os/RemoteException;
 
     invoke-direct {v0}, Landroid/os/RemoteException;-><init>()V
@@ -116,12 +108,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/oc;->b:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/oc;->c:Lcom/google/android/gms/internal/ads/ep2;
 
@@ -132,7 +122,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -148,7 +137,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/os/RemoteException;
 
     invoke-direct {v0}, Landroid/os/RemoteException;-><init>()V
@@ -164,7 +152,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/os/RemoteException;
 
     invoke-direct {v0}, Landroid/os/RemoteException;-><init>()V
@@ -180,7 +167,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/os/RemoteException;
 
     invoke-direct {v0}, Landroid/os/RemoteException;-><init>()V
@@ -196,7 +182,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/os/RemoteException;
 
     invoke-direct {v0}, Landroid/os/RemoteException;-><init>()V
@@ -212,7 +197,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/os/RemoteException;
 
     invoke-direct {v0}, Landroid/os/RemoteException;-><init>()V
@@ -228,7 +212,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/os/RemoteException;
 
     invoke-direct {v0}, Landroid/os/RemoteException;-><init>()V
@@ -244,7 +227,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/os/RemoteException;
 
     invoke-direct {v0}, Landroid/os/RemoteException;-><init>()V
@@ -260,7 +242,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Landroid/os/RemoteException;
 
     invoke-direct {p1}, Landroid/os/RemoteException;-><init>()V

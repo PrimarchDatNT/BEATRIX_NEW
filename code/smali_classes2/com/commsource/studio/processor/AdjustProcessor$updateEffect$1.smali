@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/AdjustProcessor$updateEffect$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -75,10 +74,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/AdjustProcessor$updateEffect$1;->$colourEntities:Ljava/util/List;
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -97,7 +94,6 @@
 
     check-cast v2, Lcom/commsource/studio/effect/d;
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/studio/effect/d;->o()F
 
     move-result v3
@@ -108,7 +104,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/processor/AdjustProcessor$updateEffect$1;->this$0:Lcom/commsource/studio/processor/AdjustProcessor;
 
     invoke-virtual {v3}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
@@ -168,7 +163,6 @@
     :goto_1
     if-nez v4, :cond_0
 
-    .line 6
     invoke-virtual {v2}, Lcom/commsource/studio/effect/d;->n()Lcom/commsource/studio/sub/AdjustEffectEnum;
 
     move-result-object v3
@@ -212,7 +206,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 7
     :cond_4
     iget-object v2, p0, Lcom/commsource/studio/processor/AdjustProcessor$updateEffect$1;->this$0:Lcom/commsource/studio/processor/AdjustProcessor;
 
@@ -224,10 +217,8 @@
 
     invoke-virtual {v5, v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 8
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/n;->h()V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/processor/AdjustProcessor$updateEffect$1;->this$0:Lcom/commsource/studio/processor/AdjustProcessor;
 
     invoke-virtual {v2}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
@@ -244,7 +235,6 @@
 
     goto/16 :goto_0
 
-    .line 10
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

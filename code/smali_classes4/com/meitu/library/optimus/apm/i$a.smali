@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/library/optimus/apm/i;Lcom/meitu/library/optimus/apm/v/c$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/i$a;->b:Lcom/meitu/library/optimus/apm/i;
 
     iput-object p2, p0, Lcom/meitu/library/optimus/apm/i$a;->a:Lcom/meitu/library/optimus/apm/v/c$a;
@@ -46,7 +45,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/optimus/apm/i$a;->b:Lcom/meitu/library/optimus/apm/i;
 
     invoke-static {v0}, Lcom/meitu/library/optimus/apm/i;->u(Lcom/meitu/library/optimus/apm/i;)Ljava/util/concurrent/atomic/AtomicInteger;
@@ -59,7 +57,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
@@ -84,7 +81,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -97,7 +93,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -118,7 +113,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -135,7 +129,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 1
     iget-object v2, p0, Lcom/meitu/library/optimus/apm/i$a;->a:Lcom/meitu/library/optimus/apm/v/c$a;
 
     iget-object v2, v2, Lcom/meitu/library/optimus/apm/v/c$a;->d:Ljava/lang/String;
@@ -152,7 +145,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

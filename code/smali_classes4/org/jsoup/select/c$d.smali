@@ -22,13 +22,10 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/select/c;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {p1}, Lorg/jsoup/b/b;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -43,7 +40,6 @@
 .method public a(Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p2}, Lorg/jsoup/nodes/Element;->i()Lorg/jsoup/nodes/b;
 
     move-result-object p1
@@ -52,7 +48,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -70,7 +65,6 @@
 
     check-cast p2, Lorg/jsoup/nodes/a;
 
-    .line 3
     invoke-virtual {p2}, Lorg/jsoup/nodes/a;->c()Ljava/lang/String;
 
     move-result-object p2
@@ -104,7 +98,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lorg/jsoup/select/c$d;->a:Ljava/lang/String;
 
     const/4 v2, 0x0

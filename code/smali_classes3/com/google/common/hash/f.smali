@@ -20,7 +20,6 @@
 .method protected constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p1}, Lcom/google/common/hash/f;-><init>(II)V
 
     return-void
@@ -29,10 +28,8 @@
 .method protected constructor <init>(II)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/hash/d;-><init>()V
 
-    .line 3
     rem-int v0, p2, p1
 
     if-nez v0, :cond_0
@@ -49,7 +46,6 @@
 
     add-int/lit8 v0, p2, 0x7
 
-    .line 4
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -62,10 +58,8 @@
 
     iput-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
-    .line 5
     iput p2, p0, Lcom/google/common/hash/f;->b:I
 
-    .line 6
     iput p1, p0, Lcom/google/common/hash/f;->c:I
 
     return-void
@@ -74,12 +68,10 @@
 .method private p()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->flip()Ljava/nio/Buffer;
 
-    .line 2
     :goto_0
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
@@ -91,14 +83,12 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p0, v0}, Lcom/google/common/hash/f;->r(Ljava/nio/ByteBuffer;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
@@ -110,7 +100,6 @@
 .method private q()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->remaining()I
@@ -121,7 +110,6 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/hash/f;->p()V
 
     :cond_0
@@ -131,7 +119,6 @@
 .method private t(Ljava/nio/ByteBuffer;)Lcom/google/common/hash/j;
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v0
@@ -144,17 +131,14 @@
 
     if-gt v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->put(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/hash/f;->q()V
 
     return-object p0
 
-    .line 4
     :cond_0
     iget v0, p0, Lcom/google/common/hash/f;->b:I
 
@@ -171,7 +155,6 @@
     :goto_0
     if-ge v1, v0, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->get()B
@@ -184,11 +167,9 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-direct {p0}, Lcom/google/common/hash/f;->p()V
 
-    .line 7
     :goto_1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->remaining()I
 
@@ -198,12 +179,10 @@
 
     if-lt v0, v1, :cond_2
 
-    .line 8
     invoke-virtual {p0, p1}, Lcom/google/common/hash/f;->r(Ljava/nio/ByteBuffer;)V
 
     goto :goto_1
 
-    .line 9
     :cond_2
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
@@ -217,12 +196,10 @@
 .method public final c(C)Lcom/google/common/hash/j;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->putChar(C)Ljava/nio/ByteBuffer;
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/hash/f;->q()V
 
     return-object p0
@@ -231,7 +208,6 @@
 .method public bridge synthetic c(C)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/hash/f;->c(C)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -242,12 +218,10 @@
 .method public final e(B)Lcom/google/common/hash/j;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->put(B)Ljava/nio/ByteBuffer;
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/hash/f;->q()V
 
     return-object p0
@@ -256,7 +230,6 @@
 .method public bridge synthetic e(B)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/hash/f;->e(B)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -267,7 +240,6 @@
 .method public final g([BII)Lcom/google/common/hash/j;
     .locals 0
 
-    .line 2
     invoke-static {p1, p2, p3}, Ljava/nio/ByteBuffer;->wrap([BII)Ljava/nio/ByteBuffer;
 
     move-result-object p1
@@ -288,7 +260,6 @@
 .method public bridge synthetic g([BII)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/common/hash/f;->g([BII)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -299,12 +270,10 @@
 .method public final h(S)Lcom/google/common/hash/j;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->putShort(S)Ljava/nio/ByteBuffer;
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/hash/f;->q()V
 
     return-object p0
@@ -313,7 +282,6 @@
 .method public bridge synthetic h(S)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/hash/f;->h(S)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -324,15 +292,12 @@
 .method public final hash()Lcom/google/common/hash/HashCode;
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/hash/f;->p()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->flip()Ljava/nio/Buffer;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->remaining()I
@@ -341,12 +306,10 @@
 
     if-lez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p0, v0}, Lcom/google/common/hash/f;->s(Ljava/nio/ByteBuffer;)V
 
-    .line 5
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->limit()I
@@ -355,7 +318,6 @@
 
     invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 6
     :cond_0
     invoke-virtual {p0}, Lcom/google/common/hash/f;->o()Lcom/google/common/hash/HashCode;
 
@@ -367,25 +329,21 @@
 .method public final j(Ljava/nio/ByteBuffer;)Lcom/google/common/hash/j;
     .locals 2
 
-    .line 2
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->order()Ljava/nio/ByteOrder;
 
     move-result-object v0
 
-    .line 3
     :try_start_0
     sget-object v1, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-virtual {p1, v1}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/google/common/hash/f;->t(Ljava/nio/ByteBuffer;)Lcom/google/common/hash/j;
 
     move-result-object v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-virtual {p1, v0}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
     return-object v1
@@ -395,14 +353,12 @@
 
     invoke-virtual {p1, v0}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
-    .line 6
     throw v1
 .end method
 
 .method public bridge synthetic j(Ljava/nio/ByteBuffer;)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/hash/f;->j(Ljava/nio/ByteBuffer;)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -413,12 +369,10 @@
 .method public final k(I)Lcom/google/common/hash/j;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->putInt(I)Ljava/nio/ByteBuffer;
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/hash/f;->q()V
 
     return-object p0
@@ -427,7 +381,6 @@
 .method public bridge synthetic k(I)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/hash/f;->k(I)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -438,12 +391,10 @@
 .method public final m(J)Lcom/google/common/hash/j;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/hash/f;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0, p1, p2}, Ljava/nio/ByteBuffer;->putLong(J)Ljava/nio/ByteBuffer;
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/hash/f;->q()V
 
     return-object p0
@@ -452,7 +403,6 @@
 .method public bridge synthetic m(J)Lcom/google/common/hash/p;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/hash/f;->m(J)Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -469,21 +419,18 @@
 .method protected s(Ljava/nio/ByteBuffer;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->limit()I
 
     move-result v0
 
     invoke-virtual {p1, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 2
     iget v0, p0, Lcom/google/common/hash/f;->c:I
 
     add-int/lit8 v0, v0, 0x7
 
     invoke-virtual {p1, v0}, Ljava/nio/ByteBuffer;->limit(I)Ljava/nio/Buffer;
 
-    .line 3
     :goto_0
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->position()I
 
@@ -495,19 +442,15 @@
 
     const-wide/16 v0, 0x0
 
-    .line 4
     invoke-virtual {p1, v0, v1}, Ljava/nio/ByteBuffer;->putLong(J)Ljava/nio/ByteBuffer;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p1, v1}, Ljava/nio/ByteBuffer;->limit(I)Ljava/nio/Buffer;
 
-    .line 6
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->flip()Ljava/nio/Buffer;
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/google/common/hash/f;->r(Ljava/nio/ByteBuffer;)V
 
     return-void

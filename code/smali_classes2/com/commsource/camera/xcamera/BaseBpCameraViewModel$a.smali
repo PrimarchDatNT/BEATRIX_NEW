@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$a;->L:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-direct {p0}, Lcom/meitu/library/camera/p/a;-><init>()V
@@ -53,17 +52,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/meitu/library/camera/p/a;->D(Lcom/meitu/library/camera/MTCamera;Lcom/meitu/library/camera/MTCamera$h;)V
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$a;->L:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->W()Landroidx/lifecycle/MutableLiveData;
@@ -101,7 +97,6 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 4
     invoke-interface {p2}, Lcom/meitu/library/camera/MTCamera$h;->a()Ljava/lang/String;
 
     move-result-object v1
@@ -130,10 +125,8 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-virtual {p1, p2}, Lcom/meitu/library/camera/MTCamera;->M0(F)Z
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

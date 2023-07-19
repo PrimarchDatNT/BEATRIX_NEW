@@ -65,10 +65,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v0
@@ -89,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/store/filter/b;->c:Lcom/commsource/store/filter/FilterStoreViewModel;
 
     if-nez p0, :cond_0
@@ -111,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/store/filter/b;->p:Lcom/meitu/template/bean/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -126,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/store/filter/b;->g:Lcom/commsource/widget/h1/e;
 
     if-nez p0, :cond_0
@@ -148,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
 
     if-nez p0, :cond_0
@@ -170,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/filter/b;->P()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -185,7 +178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/store/filter/b;->T(Lcom/meitu/template/bean/j;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -200,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/b;->f:Lcom/commsource/widget/h1/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -215,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/b;->c:Lcom/commsource/store/filter/FilterStoreViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -230,7 +220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/b;->p:Lcom/meitu/template/bean/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -245,7 +234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/b;->g:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -260,7 +248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -277,7 +264,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/j;->c()I
 
     move-result v1
@@ -292,7 +278,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -304,18 +289,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {p1, v2}, Lcom/meitu/template/bean/j;->C(Z)V
 
     const/4 v1, -0x1
 
-    .line 4
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/j;->I(I)V
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/store/filter/b;->T(Lcom/meitu/template/bean/j;)V
 
-    .line 6
     sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -330,7 +311,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
@@ -338,7 +318,6 @@
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->Y(Landroid/content/Context;)V
 
-    .line 8
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -353,7 +332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
 
     const-string v2, "viewBinding"
@@ -416,7 +394,6 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
 
     if-nez v3, :cond_3
@@ -432,7 +409,6 @@
 
     invoke-static {v1, v3, v4, v5, v6}, Lcom/commsource/widget/title/XTitleBar;->p(Lcom/commsource/widget/title/XTitleBar;Landroidx/recyclerview/widget/RecyclerView;ZILjava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
 
     if-nez v1, :cond_4
@@ -448,7 +424,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -461,7 +436,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/filter/b;->c:Lcom/commsource/store/filter/FilterStoreViewModel;
 
     const-string v2, "filterStoreViewModel"
@@ -485,7 +459,6 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/filter/b;->c:Lcom/commsource/store/filter/FilterStoreViewModel;
 
     if-nez v1, :cond_1
@@ -507,7 +480,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -536,7 +508,6 @@
 
     invoke-virtual {v2, v3, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v2
@@ -561,7 +532,6 @@
 
     invoke-virtual {v2, v3, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v2
@@ -586,7 +556,6 @@
 
     invoke-virtual {v2, v3, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v2
@@ -611,7 +580,6 @@
 
     invoke-virtual {v2, v3, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v2
@@ -636,7 +604,6 @@
 
     invoke-virtual {v2, v3, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v1
@@ -661,7 +628,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -674,15 +640,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/filter/b;->p:Lcom/meitu/template/bean/j;
 
     if-eqz v1, :cond_8
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->b()I
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->n()I
 
     move-result v2
@@ -700,7 +663,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     iget-object v5, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
 
@@ -719,19 +681,16 @@
 
     const/16 v6, 0xe
 
-    .line 5
     invoke-virtual {v5, v6}, Lcom/commsource/store/XDownloadButton$Executer;->G(I)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v5
 
-    .line 6
     invoke-virtual {v5, v3}, Lcom/commsource/store/XDownloadButton$Executer;->w(Z)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v3
 
     sget v5, Lcom/res/provider/ResSTRING;->t_download_all:I
 
-    .line 7
     invoke-static {v5}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v5
@@ -762,7 +721,6 @@
 
     if-nez v2, :cond_3
 
-    .line 8
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v5
@@ -805,7 +763,6 @@
 
     move-result-object v3
 
-    .line 9
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->j()I
 
     move-result v5
@@ -824,7 +781,6 @@
 
     goto :goto_3
 
-    .line 10
     :cond_4
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->w()Z
 
@@ -840,7 +796,6 @@
     :goto_3
     const/4 v4, 0x3
 
-    .line 11
     :cond_6
     :goto_4
     invoke-virtual {v3, v4}, Lcom/commsource/store/XDownloadButton$Executer;->E(I)Lcom/commsource/store/XDownloadButton$Executer;
@@ -851,13 +806,11 @@
 
     const/4 v7, 0x4
 
-    .line 12
     :cond_7
     invoke-virtual {v3, v7}, Lcom/commsource/store/XDownloadButton$Executer;->y(I)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v2
 
-    .line 13
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->p()I
 
     move-result v1
@@ -866,10 +819,8 @@
 
     move-result-object v1
 
-    .line 14
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->s()V
 
-    .line 15
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -883,7 +834,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/h1/e;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -892,7 +842,6 @@
 
     iput-object v1, p0, Lcom/commsource/store/filter/b;->g:Lcom/commsource/widget/h1/e;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
 
     const-string v2, "viewBinding"
@@ -916,7 +865,6 @@
 
     invoke-virtual {v1, v4}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
 
     if-nez v1, :cond_1
@@ -932,7 +880,6 @@
 
     invoke-virtual {v1, v4}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/store/filter/b;->g:Lcom/commsource/widget/h1/e;
 
     const-string v4, "mAdapter"
@@ -948,7 +895,6 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/widget/h1/e;->K(Lcom/commsource/widget/h1/h;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
 
     if-nez v1, :cond_3
@@ -969,7 +915,6 @@
     :cond_4
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
 
     if-nez v1, :cond_5
@@ -985,7 +930,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->post(Ljava/lang/Runnable;)Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -998,7 +942,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/j;->j()I
 
     move-result v1
@@ -1019,7 +962,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/j;->w()Z
 
@@ -1027,7 +969,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
 
     if-nez v1, :cond_1
@@ -1041,12 +982,10 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/store/XDownloadButton$Executer;->w(Z)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/template/bean/j;->p()I
 
     move-result p1
@@ -1057,17 +996,14 @@
 
     const/4 v1, 0x2
 
-    .line 6
     invoke-virtual {p1, v1}, Lcom/commsource/store/XDownloadButton$Executer;->E(I)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/store/XDownloadButton$Executer;->s()V
 
     goto :goto_1
 
-    .line 8
     :cond_2
     invoke-virtual {p1}, Lcom/meitu/template/bean/j;->j()I
 
@@ -1079,10 +1015,8 @@
 
     const/4 v1, 0x0
 
-    .line 9
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/j;->C(Z)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
 
     if-nez v1, :cond_3
@@ -1096,12 +1030,10 @@
 
     move-result-object v1
 
-    .line 11
     invoke-virtual {v1, v3}, Lcom/commsource/store/XDownloadButton$Executer;->w(Z)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {p1}, Lcom/meitu/template/bean/j;->p()I
 
     move-result p1
@@ -1110,17 +1042,14 @@
 
     move-result-object p1
 
-    .line 13
     invoke-virtual {p1, v3}, Lcom/commsource/store/XDownloadButton$Executer;->E(I)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object p1
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/store/XDownloadButton$Executer;->s()V
 
     goto :goto_1
 
-    .line 15
     :cond_4
     :goto_0
     iget-object p1, p0, Lcom/commsource/store/filter/b;->d:Lcom/commsource/beautyplus/f0/ia;
@@ -1136,22 +1065,18 @@
 
     move-result-object p1
 
-    .line 16
     invoke-virtual {p1, v3}, Lcom/commsource/store/XDownloadButton$Executer;->w(Z)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object p1
 
     const/4 v1, 0x3
 
-    .line 17
     invoke-virtual {p1, v1}, Lcom/commsource/store/XDownloadButton$Executer;->E(I)Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object p1
 
-    .line 18
     invoke-virtual {p1}, Lcom/commsource/store/XDownloadButton$Executer;->s()V
 
-    .line 19
     :cond_6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1166,7 +1091,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/store/filter/b;->L(Lcom/meitu/template/bean/j;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1181,7 +1105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/store/filter/b;->f:Lcom/commsource/widget/h1/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1216,7 +1139,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -1243,7 +1165,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {p1, v0, p2, v1}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -1260,7 +1181,6 @@
 
     const-string p2, "viewBinding"
 
-    .line 3
     invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -1308,16 +1228,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/filter/b;->Q()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/store/filter/b;->M()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/store/filter/b;->O()V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

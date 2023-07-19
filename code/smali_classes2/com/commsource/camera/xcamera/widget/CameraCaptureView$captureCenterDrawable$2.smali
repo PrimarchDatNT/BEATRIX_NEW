@@ -71,14 +71,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/f1/o;
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_capture_center_icon:I
 
     invoke-direct {v1, v2}, Lcom/commsource/camera/f1/o;-><init>(I)V
 
-    .line 3
     sget-object v2, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->P0:Lcom/commsource/camera/xcamera/widget/CameraCaptureView$c;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$c;->b()F
@@ -89,7 +87,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$c;->b()F
 
     move-result v2
@@ -100,17 +97,14 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/camera/f1/o;->a(F)Lcom/commsource/camera/f1/o;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/camera/f1/o;->v(F)Lcom/commsource/camera/f1/o;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/camera/f1/o;->l()Lcom/commsource/camera/f1/o;
 
     move-result-object v1
@@ -127,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$captureCenterDrawable$2;->invoke()Lcom/commsource/camera/f1/o;
 
     move-result-object v1

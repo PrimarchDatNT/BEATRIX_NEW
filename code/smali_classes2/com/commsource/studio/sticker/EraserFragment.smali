@@ -76,10 +76,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/effect/h;
 
     invoke-direct {v0}, Lcom/commsource/studio/effect/h;-><init>()V
@@ -88,7 +86,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/commsource/studio/function/BaseSubFragment;->r1(Z)V
 
     return-void
@@ -101,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/EraserFragment;->f0:Lcom/commsource/studio/bean/ImageLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/EraserFragment;->g0:Lcom/commsource/editengine/node/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/EraserFragment;->d0:Lcom/commsource/beautyplus/f0/y7;
 
     if-nez p0, :cond_0
@@ -153,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/EraserFragment;->f0:Lcom/commsource/studio/bean/ImageLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -168,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/EraserFragment;->g0:Lcom/commsource/editengine/node/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -183,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/EraserFragment;->d0:Lcom/commsource/beautyplus/f0/y7;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -198,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -209,10 +199,8 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->g(Ljava/lang/String;)Ljava/io/File;
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -245,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/EraserFragment;->G1()Ljava/lang/String;
 
     move-result-object p0
@@ -266,10 +253,8 @@
 
     const-string v1, "beauty_eraser_yes"
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/EraserFragment;->d0:Lcom/commsource/beautyplus/f0/y7;
 
     if-nez v1, :cond_0
@@ -291,18 +276,15 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     new-instance v1, Lcom/commsource/studio/sticker/EraserFragment$onClickConfirm$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/sticker/EraserFragment$onClickConfirm$1;-><init>(Lcom/commsource/studio/sticker/EraserFragment;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->U()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -317,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/EraserFragment;->c0:Lcom/commsource/studio/effect/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -332,7 +313,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/EraserFragment;->g0:Lcom/commsource/editengine/node/b;
 
     if-eqz v1, :cond_0
@@ -345,11 +325,9 @@
 
     invoke-virtual {v1}, Lcom/commsource/editengine/GLEraserRender;->v()V
 
-    .line 2
     :cond_0
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->I0()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -370,7 +348,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/EraserFragment;->c0:Lcom/commsource/studio/effect/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -385,7 +362,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -408,7 +384,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/sticker/EraserFragment;->f0:Lcom/commsource/studio/bean/ImageLayerInfo;
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -429,19 +404,16 @@
 
     iput-object v1, p0, Lcom/commsource/studio/sticker/EraserFragment;->g0:Lcom/commsource/editengine/node/b;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sticker/EraserFragment;->f0:Lcom/commsource/studio/bean/ImageLayerInfo;
 
     if-eqz v1, :cond_5
 
-    .line 4
     instance-of v2, v1, Lcom/commsource/studio/bean/StickerLayerInfo;
 
     const/4 v3, 0x0
 
     if-eqz v2, :cond_0
 
-    .line 5
     move-object v2, v1
 
     check-cast v2, Lcom/commsource/studio/bean/StickerLayerInfo;
@@ -462,13 +434,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     instance-of v2, v1, Lcom/commsource/studio/bean/DoodleLayerInfo;
 
     if-eqz v2, :cond_1
 
-    .line 7
     move-object v2, v1
 
     check-cast v2, Lcom/commsource/studio/bean/DoodleLayerInfo;
@@ -489,20 +459,16 @@
     :goto_0
     if-eqz v2, :cond_4
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/studio/sticker/EraserFragment;->g0:Lcom/commsource/editengine/node/b;
 
     if-eqz v4, :cond_5
 
-    .line 9
     new-instance v5, Lcom/commsource/editengine/GLEraserRender;
 
-    .line 10
     invoke-virtual {v4}, Lcom/commsource/editengine/i;->a()Lcom/commsource/editengine/b;
 
     move-result-object v6
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v7
@@ -511,10 +477,8 @@
 
     move-result-object v7
 
-    .line 12
     invoke-direct {v5, v6, v7, v2, v1}, Lcom/commsource/editengine/GLEraserRender;-><init>(Lcom/commsource/editengine/b;Lcom/commsource/editengine/d;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/studio/bean/ImageLayerInfo;)V
 
-    .line 13
     invoke-virtual {v4}, Lcom/commsource/editengine/node/b;->n()Lcom/commsource/editengine/g;
 
     move-result-object v1
@@ -533,25 +497,21 @@
     :cond_3
     invoke-virtual {v5, v3}, Lcom/commsource/editengine/GLEraserRender;->t(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 14
     invoke-virtual {v5}, Lcom/commsource/editengine/GLEraserRender;->m()Lcom/commsource/editengine/b;
 
     move-result-object v1
 
     invoke-virtual {v1, v5}, Lcom/commsource/editengine/b;->a(Lcom/commsource/editengine/a;)V
 
-    .line 15
     invoke-virtual {v4, v5}, Lcom/commsource/editengine/node/b;->M(Lcom/commsource/editengine/GLEraserRender;)V
 
     goto :goto_1
 
-    .line 16
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 17
     :cond_5
     :goto_1
     iget-object v1, p0, Lcom/commsource/studio/sticker/EraserFragment;->d0:Lcom/commsource/beautyplus/f0/y7;
@@ -565,7 +525,6 @@
     :cond_6
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/y7;->d:Lcom/commsource/studio/MagnifyComponent;
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v2
@@ -595,7 +554,6 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 19
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v3
@@ -612,16 +570,13 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 20
     :cond_8
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/MagnifyComponent;->i(Landroid/opengl/EGLContext;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 22
     :cond_9
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -633,7 +588,6 @@
 
     throw v1
 
-    .line 23
     :cond_a
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -653,17 +607,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->L0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/EraserFragment;->g0:Lcom/commsource/editengine/node/b;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/editengine/i;->a()Lcom/commsource/editengine/b;
 
     move-result-object v3
@@ -674,10 +625,8 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/editengine/b;->i(Lcom/commsource/editengine/a;)V
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/editengine/node/b;->M(Lcom/commsource/editengine/GLEraserRender;)V
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -693,7 +642,6 @@
 
     invoke-static {v1, v3, v2, v4, v2}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -706,7 +654,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/EraserFragment;->d0:Lcom/commsource/beautyplus/f0/y7;
 
     if-nez v1, :cond_0
@@ -722,7 +669,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/component/PaintEraserComponent;->setPaintProgress(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/EraserFragment;->g0:Lcom/commsource/editengine/node/b;
 
     if-eqz v1, :cond_1
@@ -735,7 +681,6 @@
 
     invoke-virtual {v1, p0}, Lcom/commsource/editengine/GLEraserRender;->k(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -749,7 +694,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sticker/EraserFragment;->H1()Lcom/commsource/studio/effect/h;
 
     move-result-object v1
@@ -766,7 +710,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/h;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/EraserFragment;->I1(Lcom/commsource/studio/effect/h;)V
@@ -801,7 +744,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/y7;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/y7;
 
     move-result-object p1
@@ -816,13 +758,11 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/y7;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     new-instance p1, Lcom/commsource/studio/layer/PaintMaskLayer;
 
     iget-object v0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -839,16 +779,12 @@
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-static {p0, p1, v2, v0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->F(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/layer/d;IILjava/lang/Object;)V
 
-    .line 5
     invoke-virtual {p1, v2}, Lcom/commsource/studio/layer/PaintMaskLayer;->O0(Z)V
 
-    .line 6
     iput-object p1, p0, Lcom/commsource/studio/sticker/EraserFragment;->e0:Lcom/commsource/studio/layer/PaintMaskLayer;
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/sticker/EraserFragment;->d0:Lcom/commsource/beautyplus/f0/y7;
 
     if-nez p1, :cond_1
@@ -904,10 +840,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {p1, p0}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -920,14 +854,12 @@
 
     check-cast p1, Lcom/commsource/studio/component/d;
 
-    .line 3
     new-instance p2, Lcom/commsource/studio/sticker/EraserFragment$b;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/sticker/EraserFragment$b;-><init>(Lcom/commsource/studio/sticker/EraserFragment;)V
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/component/d;->y(Lcom/commsource/studio/layer/c$a;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/meitu/libmtsns/d/a/b;JLjava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/d/a/b$b;->c:Lcom/meitu/libmtsns/d/a/b;
 
     iput-wide p2, p0, Lcom/meitu/libmtsns/d/a/b$b;->a:J
@@ -47,15 +46,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/d/a/b;->l:Ljava/util/ArrayList;
 
     if-eqz v1, :cond_4
 
-    .line 2
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/libmtsns/d/a/b;->l:Ljava/util/ArrayList;
 
@@ -63,7 +59,6 @@
 
     move-result-object v2
 
-    .line 4
     :cond_0
     :goto_0
     invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
@@ -72,14 +67,12 @@
 
     if-eqz v3, :cond_3
 
-    .line 5
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/libmtsns/d/b/b;
 
-    .line 6
     iget-wide v4, v3, Lcom/meitu/libmtsns/d/b/b;->a:J
 
     iget-wide v6, p0, Lcom/meitu/libmtsns/d/a/b$b;->a:J
@@ -90,7 +83,6 @@
 
     iget-object v4, p0, Lcom/meitu/libmtsns/d/a/b$b;->b:Ljava/lang/String;
 
-    .line 7
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -117,21 +109,17 @@
 
     if-eqz v4, :cond_0
 
-    .line 8
     :cond_1
     invoke-interface {v2}, Ljava/util/Iterator;->remove()V
 
-    .line 9
     iget-object v4, v3, Lcom/meitu/libmtsns/d/b/b;->c:Lf/k/i/a/d;
 
     if-eqz v4, :cond_2
 
-    .line 10
     invoke-virtual {v4}, Lf/k/i/a/d;->cancel()V
 
     goto :goto_0
 
-    .line 11
     :cond_2
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -157,7 +145,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_3
     monitor-exit v1
 
@@ -174,7 +161,6 @@
 
     throw v2
 
-    .line 13
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

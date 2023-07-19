@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/library/gid/base/u$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/gid/base/u$e$b;->c:Lcom/meitu/library/gid/base/u$e;
 
     invoke-direct {p0}, Lcom/meitu/library/gid/base/p0/g;-><init>()V

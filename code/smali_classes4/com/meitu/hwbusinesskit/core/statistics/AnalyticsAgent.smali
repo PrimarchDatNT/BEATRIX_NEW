@@ -29,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -51,7 +49,6 @@
 
     const-string p0, "unkonw"
 
-    .line 2
     :cond_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -59,7 +56,6 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -76,7 +72,6 @@
 
     move-result-object p0
 
-    .line 4
     :cond_1
     new-instance p1, Landroid/os/Bundle;
 
@@ -84,10 +79,8 @@
 
     const-string v1, "platform"
 
-    .line 5
     invoke-virtual {p1, v1, p0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -100,19 +93,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -122,7 +112,6 @@
 
     const-string p1, "unkonw"
 
-    .line 4
     :cond_1
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -130,7 +119,6 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -147,7 +135,6 @@
 
     move-result-object p1
 
-    .line 6
     :cond_2
     new-instance p2, Landroid/os/Bundle;
 
@@ -155,12 +142,10 @@
 
     const-string v1, "platform"
 
-    .line 7
     invoke-virtual {p2, v1, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, "business_launch_ad_load_req"
 
-    .line 8
     invoke-virtual {p1, p0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
@@ -175,7 +160,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 9
     invoke-virtual {v3, p3}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
@@ -195,14 +179,12 @@
     :cond_4
     const-string p1, "business_launch_ad_load_suc"
 
-    .line 10
     invoke-virtual {p1, p0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_6
 
-    .line 11
     invoke-virtual {v3, p3}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
@@ -217,11 +199,9 @@
     :goto_1
     invoke-virtual {p2, v4, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     :cond_6
     invoke-static {p0, p2}, Lcom/meitu/hwbusinesskit/core/statistics/AnalyticsAgent;->logEvent(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -234,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -251,7 +230,6 @@
 
     const-string v1, "business_launch_ad"
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -268,7 +246,6 @@
 
     const-string v1, "ad_banner_save_via_selfie"
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -277,7 +254,6 @@
 
     const-string v1, "ad_banner_selfiesave"
 
-    .line 4
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -286,7 +262,6 @@
 
     const-string v1, "ad_banner_topbanner"
 
-    .line 5
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p0
@@ -301,7 +276,6 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -315,7 +289,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getPlatform()Ljava/lang/String;
 
     move-result-object v0
@@ -328,7 +301,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -349,14 +321,12 @@
 
     const-string v2, "business_launch_ad_load_fai"
 
-    .line 3
     invoke-virtual {v2, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getAdType()Ljava/lang/String;
 
     move-result-object p0
@@ -381,7 +351,6 @@
 
     invoke-virtual {v0, v3, p0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_1
     invoke-virtual {v2, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
@@ -402,20 +371,16 @@
     :cond_2
     const-string p0, "timeout"
 
-    .line 6
     invoke-virtual {v0, v2, p0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 7
     :cond_3
     invoke-virtual {v0, v2, p1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 8
     :goto_1
     invoke-static {v1, v0}, Lcom/meitu/hwbusinesskit/core/statistics/AnalyticsAgent;->logEvent(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 9
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -428,7 +393,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -455,15 +419,12 @@
 
     move-result-object v3
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getAdType()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     invoke-static {v1, v2, v3, p0}, Lcom/meitu/hwbusinesskit/core/statistics/AnalyticsAgent;->includePlatformStatistics(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -476,7 +437,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -503,15 +463,12 @@
 
     move-result-object v3
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getAdType()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     invoke-static {v1, v2, v3, p0}, Lcom/meitu/hwbusinesskit/core/statistics/AnalyticsAgent;->includePlatformStatistics(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -526,10 +483,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1}, Lcom/meitu/hwbusinesskit/core/statistics/AnalyticsAgent;->logEvent(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -542,7 +497,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v1
@@ -557,7 +511,6 @@
 
     goto/16 :goto_3
 
-    .line 4
     :cond_0
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/statistics/AnalyticsAgent;->isValidEvent(Ljava/lang/String;)Z
 
@@ -565,7 +518,6 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -573,7 +525,6 @@
     :cond_1
     const-string v1, "ad_banner_save_via_selfie"
 
-    .line 6
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v2
@@ -582,12 +533,10 @@
 
     const-string v2, "ad_banner_save"
 
-    .line 7
     invoke-virtual {p0, v1, v2}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 8
     :cond_2
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -603,7 +552,6 @@
 
     move-result-object p0
 
-    .line 9
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->getHwbAnalyticsAgent()Lcom/meitu/hwbusinesskit/core/statistics/IHwbAnalyticsAgent;
 
     move-result-object v1
@@ -614,12 +562,10 @@
 
     if-eqz p1, :cond_4
 
-    .line 10
     new-instance v2, Ljava/util/HashMap;
 
     invoke-direct {v2}, Ljava/util/HashMap;-><init>()V
 
-    .line 11
     invoke-virtual {p1}, Landroid/os/Bundle;->keySet()Ljava/util/Set;
 
     move-result-object v3
@@ -641,7 +587,6 @@
 
     check-cast v4, Ljava/lang/String;
 
-    .line 12
     invoke-virtual {p1, v4}, Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v5
@@ -654,7 +599,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_3
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->getHwbAnalyticsAgent()Lcom/meitu/hwbusinesskit/core/statistics/IHwbAnalyticsAgent;
 
@@ -664,7 +608,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_4
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->getHwbAnalyticsAgent()Lcom/meitu/hwbusinesskit/core/statistics/IHwbAnalyticsAgent;
 
@@ -672,7 +615,6 @@
 
     invoke-interface {v2, p0, v1}, Lcom/meitu/hwbusinesskit/core/statistics/IHwbAnalyticsAgent;->logMtAnalytcisEvent(Ljava/lang/String;I)V
 
-    .line 15
     :goto_1
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->getHwbAnalyticsAgent()Lcom/meitu/hwbusinesskit/core/statistics/IHwbAnalyticsAgent;
 
@@ -682,7 +624,6 @@
 
     goto :goto_2
 
-    .line 16
     :cond_5
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
@@ -694,14 +635,12 @@
 
     invoke-virtual {v1, p0, p1}, Lcom/google/firebase/analytics/FirebaseAnalytics;->b(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 17
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->isDebug()Z
 
     move-result v1
 
     if-eqz v1, :cond_6
 
-    .line 18
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -726,14 +665,12 @@
 
     invoke-static {p1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 19
     :cond_6
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 20
     :cond_7
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

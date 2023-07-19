@@ -19,7 +19,6 @@
 .method constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/room/migration/Migration;-><init>(II)V
 
     return-void
@@ -44,40 +43,32 @@
 
     const-string v1, "alter table FILTER_GROUP ADD COLUMN \'REPEAT_INFO\' TEXT"
 
-    .line 1
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table FILTER_GROUP ADD COLUMN \'IS_RECOMMEND\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 2
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table FILTER_GROUP ADD COLUMN \'IS_CONTAIN_RECOMMEND_FILTER\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 3
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table FILTER ADD COLUMN \'SAMPLE_PICTURE\' TEXT"
 
-    .line 4
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table FILTER ADD COLUMN \'FILE\' TEXT"
 
-    .line 5
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table FILTER ADD COLUMN \'IS_DOWNLOAD\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 6
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table FILTER ADD COLUMN \'IS_RECOMMEND\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 7
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

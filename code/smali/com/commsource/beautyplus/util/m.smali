@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,16 +21,13 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/beautyplus/util/m;->c(Landroid/app/Application;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -46,12 +42,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -70,12 +64,10 @@
     :cond_1
     sget v1, Lcom/res/provider/ResSTRING;->apm_app_key:I
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     :goto_0
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -95,7 +87,6 @@
 
     move-result-object v2
 
-    .line 5
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v3
@@ -113,12 +104,10 @@
     :cond_3
     sget v3, Lcom/res/provider/ResSTRING;->apm_publickey:I
 
-    .line 6
     invoke-virtual {p0, v3}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 7
     :goto_2
     new-instance v4, Lcom/meitu/library/optimus/apm/c;
 
@@ -126,10 +115,8 @@
 
     const/4 v1, 0x1
 
-    .line 8
     invoke-virtual {v4, v1}, Lcom/meitu/library/optimus/apm/c;->k(I)V
 
-    .line 9
     new-instance v1, Lcom/meitu/library/optimus/apm/a$b;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/optimus/apm/a$b;-><init>(Landroid/app/Application;)V
@@ -140,7 +127,6 @@
 
     invoke-virtual {p0}, Lcom/meitu/library/optimus/apm/a$b;->a()Lcom/meitu/library/optimus/apm/a;
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -155,30 +141,25 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
 
-    .line 3
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v2
 
-    .line 4
     invoke-static {p0}, Lcom/commsource/util/x;->n(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v3
 
     const-wide/32 v4, 0xea60
 
-    .line 5
     invoke-static {}, Lcom/commsource/util/x;->B()Z
 
     move-result v6
@@ -206,7 +187,6 @@
     :goto_0
     const/4 v6, 0x1
 
-    .line 6
     :goto_1
     new-instance v9, Lcom/meitu/hubble/d;
 
@@ -218,47 +198,38 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1, v8}, Lcom/meitu/hubble/d;->t(Z)Lcom/meitu/hubble/d;
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1, v8}, Lcom/meitu/hubble/d;->w(Z)Lcom/meitu/hubble/d;
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {v1, v6}, Lcom/meitu/hubble/d;->u(Z)Lcom/meitu/hubble/d;
 
     move-result-object v1
 
     const-string v2, ""
 
-    .line 10
     invoke-virtual {v1, v2}, Lcom/meitu/hubble/d;->v(Ljava/lang/String;)Lcom/meitu/hubble/d;
 
     move-result-object v1
 
-    .line 11
     invoke-virtual {v1, v8}, Lcom/meitu/hubble/d;->p(Z)Lcom/meitu/hubble/d;
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {v1, v7}, Lcom/meitu/hubble/d;->b(Z)Lcom/meitu/hubble/d;
 
     move-result-object v1
 
-    .line 13
     invoke-virtual {v1, v3}, Lcom/meitu/hubble/d;->o(Ljava/lang/String;)Lcom/meitu/hubble/d;
 
     move-result-object v1
 
-    .line 14
     invoke-static {p0, v1}, Lcom/meitu/hubble/f;->m(Landroid/content/Context;Lcom/meitu/hubble/d;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

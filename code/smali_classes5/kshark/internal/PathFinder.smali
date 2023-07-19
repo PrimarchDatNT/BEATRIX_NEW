@@ -122,7 +122,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/internal/PathFinder;->g:Lkshark/i;
@@ -131,32 +130,26 @@
 
     iput-boolean p4, p0, Lkshark/internal/PathFinder;->i:Z
 
-    .line 2
     new-instance p1, Ljava/util/LinkedHashMap;
 
     invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 3
     new-instance p2, Ljava/util/LinkedHashMap;
 
     invoke-direct {p2}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 4
     new-instance p4, Ljava/util/LinkedHashMap;
 
     invoke-direct {p4}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 5
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 6
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 7
     invoke-interface {p3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p3
@@ -177,7 +170,6 @@
 
     check-cast v3, Lkshark/z;
 
-    .line 8
     instance-of v4, v3, Lkshark/n;
 
     if-nez v4, :cond_2
@@ -192,7 +184,6 @@
 
     move-result-object v3
 
-    .line 9
     iget-object v4, p0, Lkshark/internal/PathFinder;->g:Lkshark/i;
 
     invoke-interface {v3, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
@@ -221,12 +212,10 @@
     :goto_2
     if-eqz v3, :cond_0
 
-    .line 10
     invoke-interface {v1, v2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 11
     :cond_3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -246,17 +235,14 @@
 
     check-cast v1, Lkshark/z;
 
-    .line 12
     invoke-virtual {v1}, Lkshark/z;->a()Lkshark/ReferencePattern;
 
     move-result-object v2
 
-    .line 13
     instance-of v3, v2, Lkshark/ReferencePattern$JavaLocalPattern;
 
     if-eqz v3, :cond_5
 
-    .line 14
     check-cast v2, Lkshark/ReferencePattern$JavaLocalPattern;
 
     invoke-virtual {v2}, Lkshark/ReferencePattern$JavaLocalPattern;->getThreadName()Ljava/lang/String;
@@ -267,13 +253,11 @@
 
     goto :goto_3
 
-    .line 15
     :cond_5
     instance-of v3, v2, Lkshark/ReferencePattern$StaticFieldPattern;
 
     if-eqz v3, :cond_7
 
-    .line 16
     check-cast v2, Lkshark/ReferencePattern$StaticFieldPattern;
 
     invoke-virtual {v2}, Lkshark/ReferencePattern$StaticFieldPattern;->getClassName()Ljava/lang/String;
@@ -290,20 +274,17 @@
 
     goto :goto_4
 
-    .line 17
     :cond_6
     new-instance v3, Ljava/util/LinkedHashMap;
 
     invoke-direct {v3}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 18
     invoke-virtual {v2}, Lkshark/ReferencePattern$StaticFieldPattern;->getClassName()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-interface {p2, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 19
     :goto_4
     invoke-virtual {v2}, Lkshark/ReferencePattern$StaticFieldPattern;->getFieldName()Ljava/lang/String;
 
@@ -313,13 +294,11 @@
 
     goto :goto_3
 
-    .line 20
     :cond_7
     instance-of v3, v2, Lkshark/ReferencePattern$InstanceFieldPattern;
 
     if-eqz v3, :cond_9
 
-    .line 21
     check-cast v2, Lkshark/ReferencePattern$InstanceFieldPattern;
 
     invoke-virtual {v2}, Lkshark/ReferencePattern$InstanceFieldPattern;->getClassName()Ljava/lang/String;
@@ -336,20 +315,17 @@
 
     goto :goto_5
 
-    .line 22
     :cond_8
     new-instance v3, Ljava/util/LinkedHashMap;
 
     invoke-direct {v3}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 23
     invoke-virtual {v2}, Lkshark/ReferencePattern$InstanceFieldPattern;->getClassName()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-interface {p1, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 24
     :goto_5
     invoke-virtual {v2}, Lkshark/ReferencePattern$InstanceFieldPattern;->getFieldName()Ljava/lang/String;
 
@@ -359,13 +335,11 @@
 
     goto :goto_3
 
-    .line 25
     :cond_9
     instance-of v3, v2, Lkshark/ReferencePattern$NativeGlobalVariablePattern;
 
     if-eqz v3, :cond_4
 
-    .line 26
     check-cast v2, Lkshark/ReferencePattern$NativeGlobalVariablePattern;
 
     invoke-virtual {v2}, Lkshark/ReferencePattern$NativeGlobalVariablePattern;->getClassName()Ljava/lang/String;
@@ -376,25 +350,19 @@
 
     goto :goto_3
 
-    .line 27
     :cond_a
     iput-object p1, p0, Lkshark/internal/PathFinder;->a:Ljava/util/Map;
 
-    .line 28
     iput-object p2, p0, Lkshark/internal/PathFinder;->b:Ljava/util/Map;
 
-    .line 29
     iput-object p4, p0, Lkshark/internal/PathFinder;->c:Ljava/util/Map;
 
-    .line 30
     iput-object v0, p0, Lkshark/internal/PathFinder;->d:Ljava/util/Map;
 
     const/16 p1, 0x400
 
-    .line 31
     iput p1, p0, Lkshark/internal/PathFinder;->e:I
 
-    .line 32
     new-instance p1, Ljava/util/LinkedHashMap;
 
     invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
@@ -411,7 +379,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->j()Lkshark/internal/hppc/b;
 
     move-result-object p1
@@ -434,7 +401,6 @@
 
     const-string v0, "java.lang.Object"
 
-    .line 1
     invoke-interface {p1, v0}, Lkshark/i;->d(Ljava/lang/String;)Lkshark/HeapObject$HeapClass;
 
     move-result-object v0
@@ -443,12 +409,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lkshark/HeapObject$HeapClass;->y()I
 
     move-result v0
 
-    .line 3
     invoke-interface {p1}, Lkshark/i;->i()I
 
     move-result p1
@@ -476,7 +440,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p2}, Lkshark/internal/f;->b()J
 
     move-result-wide p3
@@ -489,7 +452,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->j()Lkshark/internal/hppc/b;
 
@@ -507,7 +469,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->i()Ljava/util/HashSet;
 
@@ -529,7 +490,6 @@
 
     return-void
 
-    .line 4
     :cond_2
     instance-of p3, p2, Lkshark/internal/f$b;
 
@@ -539,7 +499,6 @@
 
     if-nez p3, :cond_5
 
-    .line 5
     instance-of p3, p2, Lkshark/internal/f$c;
 
     if-eqz p3, :cond_3
@@ -556,7 +515,6 @@
 
     if-nez p3, :cond_5
 
-    .line 6
     :cond_3
     instance-of p3, p2, Lkshark/internal/f$a$b;
 
@@ -599,7 +557,6 @@
     :goto_0
     const/4 p3, 0x1
 
-    .line 7
     :goto_1
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->g()Ljava/util/HashSet;
 
@@ -623,7 +580,6 @@
 
     return-void
 
-    .line 8
     :cond_6
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->h()Ljava/util/Deque;
 
@@ -631,7 +587,6 @@
 
     invoke-interface {p3, p2}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
 
-    .line 9
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->i()Ljava/util/HashSet;
 
     move-result-object p3
@@ -646,12 +601,10 @@
 
     invoke-virtual {p3, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 10
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->f()Ljava/util/Deque;
 
     move-result-object p3
 
-    .line 11
     invoke-interface {p3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p3
@@ -669,7 +622,6 @@
 
     check-cast v1, Lkshark/internal/f;
 
-    .line 12
     invoke-virtual {v1}, Lkshark/internal/f;->b()J
 
     move-result-wide v2
@@ -692,14 +644,12 @@
     :goto_2
     if-eqz v2, :cond_7
 
-    .line 13
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->f()Ljava/util/Deque;
 
     move-result-object p3
 
     invoke-interface {p3, v1}, Ljava/util/Deque;->remove(Ljava/lang/Object;)Z
 
-    .line 14
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->g()Ljava/util/HashSet;
 
     move-result-object p1
@@ -716,7 +666,6 @@
 
     return-void
 
-    .line 15
     :cond_9
     new-instance p1, Ljava/util/NoSuchElementException;
 
@@ -726,7 +675,6 @@
 
     throw p1
 
-    .line 16
     :cond_a
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->c()Ljava/util/Set;
 
@@ -746,7 +694,6 @@
 
     if-nez v1, :cond_12
 
-    .line 17
     iget-object v1, p0, Lkshark/internal/PathFinder;->g:Lkshark/i;
 
     invoke-virtual {p2}, Lkshark/internal/f;->b()J
@@ -757,20 +704,17 @@
 
     move-result-object v1
 
-    .line 18
     instance-of v2, v1, Lkshark/HeapObject$HeapClass;
 
     if-eqz v2, :cond_b
 
     goto :goto_4
 
-    .line 19
     :cond_b
     instance-of v2, v1, Lkshark/HeapObject$HeapInstance;
 
     if-eqz v2, :cond_e
 
-    .line 20
     check-cast v1, Lkshark/HeapObject$HeapInstance;
 
     invoke-virtual {v1}, Lkshark/HeapObject$HeapInstance;->u()Z
@@ -784,7 +728,6 @@
 
     goto :goto_4
 
-    .line 21
     :cond_c
     invoke-virtual {v1}, Lkshark/HeapObject$HeapInstance;->n()Lkshark/HeapObject$HeapClass;
 
@@ -802,7 +745,6 @@
 
     goto :goto_3
 
-    .line 22
     :cond_d
     invoke-direct {p0, v1}, Lkshark/internal/PathFinder;->h(Lkshark/HeapObject$HeapInstance;)Z
 
@@ -812,13 +754,11 @@
 
     goto :goto_3
 
-    .line 23
     :cond_e
     instance-of v2, v1, Lkshark/HeapObject$HeapObjectArray;
 
     if-eqz v2, :cond_f
 
-    .line 24
     check-cast v1, Lkshark/HeapObject$HeapObjectArray;
 
     invoke-virtual {v1}, Lkshark/HeapObject$HeapObjectArray;->o()Z
@@ -829,7 +769,6 @@
 
     goto :goto_3
 
-    .line 25
     :cond_f
     instance-of p4, v1, Lkshark/HeapObject$b;
 
@@ -853,14 +792,12 @@
     :cond_12
     if-eqz p3, :cond_13
 
-    .line 26
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->f()Ljava/util/Deque;
 
     move-result-object p3
 
     invoke-interface {p3, p2}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
 
-    .line 27
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->g()Ljava/util/HashSet;
 
     move-result-object p1
@@ -877,7 +814,6 @@
 
     goto :goto_5
 
-    .line 28
     :cond_13
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->h()Ljava/util/Deque;
 
@@ -885,7 +821,6 @@
 
     invoke-interface {p3, p2}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
 
-    .line 29
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->i()Ljava/util/HashSet;
 
     move-result-object p1
@@ -922,7 +857,6 @@
 
     move-object p4, v0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3, p4}, Lkshark/internal/PathFinder;->c(Lkshark/internal/PathFinder$b;Lkshark/internal/f;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -938,10 +872,8 @@
 
     move-object/from16 v7, p0
 
-    .line 1
     sget-object v0, Lkshark/a0;->b:Lkshark/a0;
 
-    .line 2
     invoke-virtual {v0}, Lkshark/a0;->c()Lkshark/a0$a;
 
     move-result-object v1
@@ -950,10 +882,8 @@
 
     const-string v2, "start enqueueGcRoots"
 
-    .line 3
     invoke-interface {v1, v2}, Lkshark/a0$a;->a(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Lkshark/a0;->c()Lkshark/a0$a;
 
@@ -963,16 +893,13 @@
 
     const-string v2, "start sortedGcRoots"
 
-    .line 5
     invoke-interface {v1, v2}, Lkshark/a0$a;->a(Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     invoke-direct/range {p0 .. p0}, Lkshark/internal/PathFinder;->j()Ljava/util/List;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v0}, Lkshark/a0;->c()Lkshark/a0$a;
 
     move-result-object v0
@@ -981,21 +908,17 @@
 
     const-string v2, "end sortedGcRoots"
 
-    .line 8
     invoke-interface {v0, v2}, Lkshark/a0$a;->a(Ljava/lang/String;)V
 
-    .line 9
     :cond_2
     new-instance v8, Ljava/util/LinkedHashMap;
 
     invoke-direct {v8}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 10
     new-instance v9, Ljava/util/LinkedHashMap;
 
     invoke-direct {v9}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 11
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v10
@@ -1028,14 +951,12 @@
 
     check-cast v6, Lkshark/d;
 
-    .line 12
     invoke-virtual/range {p1 .. p1}, Lkshark/internal/PathFinder$b;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_4
 
-    .line 13
     invoke-virtual {v6}, Lkshark/d;->a()J
 
     move-result-wide v2
@@ -1049,13 +970,11 @@
     :cond_4
     move-object/from16 v11, p1
 
-    .line 14
     :goto_1
     instance-of v0, v6, Lkshark/d$m;
 
     if-eqz v0, :cond_6
 
-    .line 15
     move-object v0, v6
 
     check-cast v0, Lkshark/d$m;
@@ -1083,7 +1002,6 @@
 
     invoke-interface {v9, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     new-instance v2, Lkshark/internal/f$c$b;
 
     invoke-virtual {v6}, Lkshark/d;->a()J
@@ -1108,13 +1026,11 @@
 
     goto :goto_0
 
-    .line 17
     :cond_6
     instance-of v0, v6, Lkshark/d$d;
 
     if-eqz v0, :cond_a
 
-    .line 18
     move-object v0, v6
 
     check-cast v0, Lkshark/d$d;
@@ -1135,7 +1051,6 @@
 
     if-nez v0, :cond_7
 
-    .line 19
     new-instance v2, Lkshark/internal/f$c$b;
 
     invoke-virtual {v6}, Lkshark/d;->a()J
@@ -1160,7 +1075,6 @@
 
     goto/16 :goto_0
 
-    .line 20
     :cond_7
     invoke-virtual {v0}, Lcotlin/Pair;->component1()Ljava/lang/Object;
 
@@ -1176,7 +1090,6 @@
 
     check-cast v12, Lkshark/d$m;
 
-    .line 21
     invoke-interface {v8, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -1208,7 +1121,6 @@
 
     check-cast v0, Ljava/lang/String;
 
-    .line 22
     :goto_2
     iget-object v1, v7, Lkshark/internal/PathFinder;->c:Ljava/util/Map;
 
@@ -1218,12 +1130,10 @@
 
     check-cast v0, Lkshark/z;
 
-    .line 23
     instance-of v1, v0, Lkshark/n;
 
     if-nez v1, :cond_3
 
-    .line 24
     new-instance v1, Lkshark/internal/f$c$b;
 
     invoke-virtual {v12}, Lkshark/d$m;->a()J
@@ -1232,25 +1142,20 @@
 
     invoke-direct {v1, v2, v3, v6}, Lkshark/internal/f$c$b;-><init>(JLkshark/d;)V
 
-    .line 25
     sget-object v17, Lkshark/LeakTraceReference$ReferenceType;->LOCAL:Lkshark/LeakTraceReference$ReferenceType;
 
     const-string v18, ""
 
-    .line 26
     instance-of v2, v0, Lkshark/LibraryLeakReferenceMatcher;
 
     if-eqz v2, :cond_9
 
-    .line 27
     new-instance v2, Lkshark/internal/f$a$a;
 
-    .line 28
     invoke-virtual {v6}, Lkshark/d;->a()J
 
     move-result-wide v14
 
-    .line 29
     move-object/from16 v19, v0
 
     check-cast v19, Lkshark/LibraryLeakReferenceMatcher;
@@ -1261,16 +1166,13 @@
 
     move-object/from16 v16, v1
 
-    .line 30
     invoke-direct/range {v13 .. v20}, Lkshark/internal/f$a$a;-><init>(JLkshark/internal/f;Lkshark/LeakTraceReference$ReferenceType;Ljava/lang/String;Lkshark/LibraryLeakReferenceMatcher;Ljava/lang/String;)V
 
     goto :goto_3
 
-    .line 31
     :cond_9
     new-instance v0, Lkshark/internal/f$a$b;
 
-    .line 32
     invoke-virtual {v6}, Lkshark/d;->a()J
 
     move-result-wide v14
@@ -1281,7 +1183,6 @@
 
     move-object/from16 v16, v1
 
-    .line 33
     invoke-direct/range {v13 .. v19}, Lkshark/internal/f$a$b;-><init>(JLkshark/internal/f;Lkshark/LeakTraceReference$ReferenceType;Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v2, v0
@@ -1299,18 +1200,15 @@
 
     move-object/from16 v1, p1
 
-    .line 34
     invoke-static/range {v0 .. v6}, Lkshark/internal/PathFinder;->d(Lkshark/internal/PathFinder;Lkshark/internal/PathFinder$b;Lkshark/internal/f;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)V
 
     goto/16 :goto_0
 
-    .line 35
     :cond_a
     instance-of v0, v6, Lkshark/d$e;
 
     if-eqz v0, :cond_10
 
-    .line 36
     instance-of v0, v1, Lkshark/HeapObject$HeapClass;
 
     if-eqz v0, :cond_b
@@ -1331,7 +1229,6 @@
 
     goto :goto_4
 
-    .line 37
     :cond_b
     instance-of v0, v1, Lkshark/HeapObject$HeapInstance;
 
@@ -1353,7 +1250,6 @@
 
     goto :goto_4
 
-    .line 38
     :cond_c
     instance-of v0, v1, Lkshark/HeapObject$HeapObjectArray;
 
@@ -1375,7 +1271,6 @@
 
     goto :goto_4
 
-    .line 39
     :cond_d
     instance-of v0, v1, Lkshark/HeapObject$b;
 
@@ -1395,18 +1290,15 @@
 
     check-cast v0, Lkshark/z;
 
-    .line 40
     :goto_4
     instance-of v1, v0, Lkshark/n;
 
     if-nez v1, :cond_3
 
-    .line 41
     instance-of v1, v0, Lkshark/LibraryLeakReferenceMatcher;
 
     if-eqz v1, :cond_e
 
-    .line 42
     new-instance v2, Lkshark/internal/f$c$a;
 
     invoke-virtual {v6}, Lkshark/d;->a()J
@@ -1433,7 +1325,6 @@
 
     goto/16 :goto_0
 
-    .line 43
     :cond_e
     new-instance v2, Lkshark/internal/f$c$b;
 
@@ -1459,7 +1350,6 @@
 
     goto/16 :goto_0
 
-    .line 44
     :cond_f
     new-instance v0, Lcotlin/NoWhenBranchMatchedException;
 
@@ -1467,7 +1357,6 @@
 
     throw v0
 
-    .line 45
     :cond_10
     new-instance v2, Lkshark/internal/f$c$b;
 
@@ -1493,11 +1382,9 @@
 
     goto/16 :goto_0
 
-    .line 46
     :cond_11
     sget-object v0, Lkshark/a0;->b:Lkshark/a0;
 
-    .line 47
     invoke-virtual {v0}, Lkshark/a0;->c()Lkshark/a0$a;
 
     move-result-object v0
@@ -1506,7 +1393,6 @@
 
     const-string v1, "end enqueueGcRoots"
 
-    .line 48
     invoke-interface {v0, v1}, Lkshark/a0$a;->a(Ljava/lang/String;)V
 
     :cond_12
@@ -1520,10 +1406,8 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lkshark/a0;->b:Lkshark/a0;
 
-    .line 2
     invoke-virtual {v0}, Lkshark/a0;->c()Lkshark/a0$a;
 
     move-result-object v0
@@ -1532,19 +1416,15 @@
 
     const-string v1, "start findPathsFromGcRoots"
 
-    .line 3
     invoke-interface {v0, v1}, Lkshark/a0$a;->a(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-direct {p0, p1}, Lkshark/internal/PathFinder;->e(Lkshark/internal/PathFinder$b;)V
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->d()Z
@@ -1553,19 +1433,16 @@
 
     if-eqz v1, :cond_6
 
-    .line 7
     invoke-direct {p0, p1}, Lkshark/internal/PathFinder;->i(Lkshark/internal/PathFinder$b;)Lkshark/internal/f;
 
     move-result-object v1
 
-    .line 8
     invoke-direct {p0, p1, v1}, Lkshark/internal/PathFinder;->a(Lkshark/internal/PathFinder$b;Lkshark/internal/f;)Z
 
     move-result v2
 
     if-nez v2, :cond_5
 
-    .line 9
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->c()Ljava/util/Set;
 
     move-result-object v2
@@ -1584,10 +1461,8 @@
 
     if-eqz v2, :cond_2
 
-    .line 10
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 11
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v2
@@ -1602,21 +1477,18 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 12
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->a()Z
 
     move-result v2
 
     if-eqz v2, :cond_6
 
-    .line 13
     iget-object v2, p0, Lkshark/internal/PathFinder;->h:Lkshark/OnAnalysisProgressListener;
 
     sget-object v3, Lkshark/OnAnalysisProgressListener$Step;->FINDING_DOMINATORS:Lkshark/OnAnalysisProgressListener$Step;
 
     invoke-interface {v2, v3}, Lkshark/OnAnalysisProgressListener;->a(Lkshark/OnAnalysisProgressListener$Step;)V
 
-    .line 14
     :cond_2
     iget-object v2, p0, Lkshark/internal/PathFinder;->g:Lkshark/i;
 
@@ -1628,7 +1500,6 @@
 
     move-result-object v2
 
-    .line 15
     instance-of v3, v2, Lkshark/HeapObject$HeapClass;
 
     if-eqz v3, :cond_3
@@ -1639,7 +1510,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_3
     instance-of v3, v2, Lkshark/HeapObject$HeapInstance;
 
@@ -1651,7 +1521,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_4
     instance-of v3, v2, Lkshark/HeapObject$HeapObjectArray;
 
@@ -1663,11 +1532,9 @@
 
     goto :goto_0
 
-    .line 18
     :cond_5
     new-instance p1, Ljava/lang/IllegalStateException;
 
-    .line 19
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1696,16 +1563,13 @@
 
     move-result-object v0
 
-    .line 20
     invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
-    .line 21
     :cond_6
     sget-object v1, Lkshark/a0;->b:Lkshark/a0;
 
-    .line 22
     invoke-virtual {v1}, Lkshark/a0;->c()Lkshark/a0$a;
 
     move-result-object v1
@@ -1714,10 +1578,8 @@
 
     const-string v2, "end findPathsFromGcRoots"
 
-    .line 23
     invoke-interface {v1, v2}, Lkshark/a0$a;->a(Ljava/lang/String;)V
 
-    .line 24
     :cond_7
     new-instance v1, Lkshark/internal/PathFinder$a;
 
@@ -1733,7 +1595,6 @@
 .method private final h(Lkshark/HeapObject$HeapInstance;)Z
     .locals 7
 
-    .line 1
     iget-boolean v0, p0, Lkshark/internal/PathFinder;->i:Z
 
     const/4 v1, 0x0
@@ -1742,7 +1603,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lkshark/HeapObject$HeapInstance;->p()Ljava/lang/String;
 
@@ -1760,7 +1620,6 @@
 
     if-nez v0, :cond_4
 
-    .line 3
     invoke-virtual {p1}, Lkshark/HeapObject$HeapInstance;->p()Ljava/lang/String;
 
     move-result-object v0
@@ -1773,7 +1632,6 @@
 
     if-nez v0, :cond_4
 
-    .line 4
     invoke-virtual {p1}, Lkshark/HeapObject$HeapInstance;->p()Ljava/lang/String;
 
     move-result-object v0
@@ -1788,7 +1646,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lkshark/internal/PathFinder;->f:Ljava/util/Map;
 
@@ -1808,12 +1665,10 @@
 
     if-nez v0, :cond_2
 
-    .line 6
     invoke-static {v1}, Ljava/lang/Short;->valueOf(S)Ljava/lang/Short;
 
     move-result-object v0
 
-    .line 7
     :cond_2
     invoke-virtual {v0}, Ljava/lang/Short;->shortValue()S
 
@@ -1825,7 +1680,6 @@
 
     if-ge v2, v3, :cond_3
 
-    .line 8
     iget-object v2, p0, Lkshark/internal/PathFinder;->f:Ljava/util/Map;
 
     invoke-virtual {p1}, Lkshark/HeapObject$HeapInstance;->o()J
@@ -1850,7 +1704,6 @@
 
     invoke-interface {v2, p1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     :cond_3
     invoke-virtual {v0}, Ljava/lang/Short;->shortValue()S
 
@@ -1874,7 +1727,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->h()Ljava/util/Deque;
 
     move-result-object v0
@@ -1887,7 +1739,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->h()Ljava/util/Deque;
 
     move-result-object v0
@@ -1898,7 +1749,6 @@
 
     check-cast v0, Lkshark/internal/f;
 
-    .line 3
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->i()Ljava/util/HashSet;
 
     move-result-object p1
@@ -1913,12 +1763,10 @@
 
     invoke-virtual {p1, v2}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
 
-    .line 4
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->f()Ljava/util/Deque;
 
@@ -1930,7 +1778,6 @@
 
     check-cast v0, Lkshark/internal/f;
 
-    .line 6
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->g()Ljava/util/HashSet;
 
     move-result-object p1
@@ -1945,7 +1792,6 @@
 
     invoke-virtual {p1, v2}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
 
-    .line 7
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     :goto_0
@@ -1965,22 +1811,18 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lkshark/internal/PathFinder$sortedGcRoots$rootClassName$1;->INSTANCE:Lkshark/internal/PathFinder$sortedGcRoots$rootClassName$1;
 
-    .line 2
     iget-object v1, p0, Lkshark/internal/PathFinder;->g:Lkshark/i;
 
     invoke-interface {v1}, Lkshark/i;->h()Ljava/util/List;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2001,7 +1843,6 @@
 
     check-cast v4, Lkshark/d;
 
-    .line 5
     iget-object v5, p0, Lkshark/internal/PathFinder;->g:Lkshark/i;
 
     invoke-virtual {v4}, Lkshark/d;->a()J
@@ -2018,7 +1859,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v1, Ljava/util/ArrayList;
 
@@ -2030,7 +1870,6 @@
 
     invoke-direct {v1, v3}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 7
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -2046,10 +1885,8 @@
 
     move-result-object v3
 
-    .line 8
     check-cast v3, Lkshark/d;
 
-    .line 9
     iget-object v4, p0, Lkshark/internal/PathFinder;->g:Lkshark/i;
 
     invoke-virtual {v3}, Lkshark/d;->a()J
@@ -2068,7 +1905,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_2
     new-instance v2, Lkshark/internal/PathFinder$c;
 
@@ -2088,7 +1924,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
     move-result-object v0
@@ -2097,7 +1932,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->j()Lkshark/internal/hppc/b;
 
     move-result-object p1
@@ -2115,26 +1949,22 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/PathFinder;->g:Lkshark/i;
 
     invoke-interface {v0, p2, p3}, Lkshark/i;->e(J)Lkshark/HeapObject;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lkshark/HeapObject$HeapClass;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-direct {p0, p1, p2, p3, v2}, Lkshark/internal/PathFinder;->k(Lkshark/internal/PathFinder$b;JZ)V
 
     goto :goto_2
 
-    .line 4
     :cond_0
     instance-of v1, v0, Lkshark/HeapObject$HeapInstance;
 
@@ -2142,7 +1972,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 5
     check-cast v0, Lkshark/HeapObject$HeapInstance;
 
     invoke-virtual {v0}, Lkshark/HeapObject$HeapInstance;->p()Ljava/lang/String;
@@ -2157,12 +1986,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-direct {p0, p1, p2, p3, v3}, Lkshark/internal/PathFinder;->k(Lkshark/internal/PathFinder$b;JZ)V
 
     const-string p2, "value"
 
-    .line 7
     invoke-virtual {v0, v4, p2}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p2
@@ -2187,7 +2014,6 @@
     :goto_0
     if-eqz p2, :cond_6
 
-    .line 8
     invoke-virtual {p2}, Ljava/lang/Long;->longValue()J
 
     move-result-wide p2
@@ -2196,19 +2022,16 @@
 
     goto :goto_2
 
-    .line 9
     :cond_2
     invoke-direct {p0, p1, p2, p3, v2}, Lkshark/internal/PathFinder;->k(Lkshark/internal/PathFinder$b;JZ)V
 
     goto :goto_2
 
-    .line 10
     :cond_3
     instance-of v1, v0, Lkshark/HeapObject$HeapObjectArray;
 
     if-eqz v1, :cond_5
 
-    .line 11
     check-cast v0, Lkshark/HeapObject$HeapObjectArray;
 
     invoke-virtual {v0}, Lkshark/HeapObject$HeapObjectArray;->o()Z
@@ -2217,10 +2040,8 @@
 
     if-eqz v1, :cond_4
 
-    .line 12
     invoke-direct {p0, p1, p2, p3, v3}, Lkshark/internal/PathFinder;->k(Lkshark/internal/PathFinder$b;JZ)V
 
-    .line 13
     invoke-virtual {v0}, Lkshark/HeapObject$HeapObjectArray;->r()Lkshark/m$b$c$e;
 
     move-result-object p2
@@ -2236,20 +2057,17 @@
 
     aget-wide v0, p2, v2
 
-    .line 14
     invoke-direct {p0, p1, v0, v1, v3}, Lkshark/internal/PathFinder;->k(Lkshark/internal/PathFinder$b;JZ)V
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_1
 
-    .line 15
     :cond_4
     invoke-direct {p0, p1, p2, p3, v2}, Lkshark/internal/PathFinder;->k(Lkshark/internal/PathFinder$b;JZ)V
 
     goto :goto_2
 
-    .line 16
     :cond_5
     invoke-direct {p0, p1, p2, p3, v2}, Lkshark/internal/PathFinder;->k(Lkshark/internal/PathFinder$b;JZ)V
 
@@ -2265,7 +2083,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
     move-result-object v0
@@ -2278,7 +2095,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->j()Lkshark/internal/hppc/b;
 
     move-result-object v2
@@ -2320,7 +2136,6 @@
     :cond_0
     return-void
 
-    .line 3
     :cond_1
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
@@ -2330,7 +2145,6 @@
 
     move-result v2
 
-    .line 4
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->c()Ljava/util/Set;
 
     move-result-object v3
@@ -2349,7 +2163,6 @@
 
     if-eqz p6, :cond_2
 
-    .line 5
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->j()Lkshark/internal/hppc/b;
 
     move-result-object p2
@@ -2359,7 +2172,6 @@
     :cond_2
     if-eq v0, v1, :cond_3
 
-    .line 6
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
     move-result-object p1
@@ -2374,7 +2186,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_5
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
@@ -2387,7 +2198,6 @@
     :goto_0
     if-ne v0, v1, :cond_6
 
-    .line 8
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
     move-result-object p1
@@ -2396,13 +2206,11 @@
 
     goto/16 :goto_3
 
-    .line 9
     :cond_6
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 10
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
@@ -2416,14 +2224,12 @@
 
     if-nez v5, :cond_8
 
-    .line 11
     invoke-static {p2, p3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v7
 
     invoke-interface {v2, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 12
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
     move-result-object v7
@@ -2438,7 +2244,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_7
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
@@ -2450,7 +2255,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_8
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
@@ -2463,14 +2267,12 @@
     :goto_2
     if-nez v4, :cond_a
 
-    .line 15
     invoke-static {p2, p3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 16
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
     move-result-object v0
@@ -2485,7 +2287,6 @@
 
     goto :goto_2
 
-    .line 17
     :cond_9
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
@@ -2500,7 +2301,6 @@
     :cond_a
     const/4 p2, 0x0
 
-    .line 18
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p3
@@ -2522,7 +2322,6 @@
 
     move-result-wide v0
 
-    .line 19
     invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -2548,7 +2347,6 @@
 
     if-nez v6, :cond_c
 
-    .line 20
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p2
@@ -2556,7 +2354,6 @@
     :cond_d
     if-nez p2, :cond_e
 
-    .line 21
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
     move-result-object p2
@@ -2565,7 +2362,6 @@
 
     if-eqz p6, :cond_f
 
-    .line 22
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->j()Lkshark/internal/hppc/b;
 
     move-result-object p1
@@ -2574,7 +2370,6 @@
 
     goto :goto_3
 
-    .line 23
     :cond_e
     invoke-virtual {p1}, Lkshark/internal/PathFinder$b;->b()Lkshark/internal/hppc/LongLongScatterMap;
 
@@ -2602,14 +2397,12 @@
 
     move-wide/from16 v4, p4
 
-    .line 1
     iget-object v0, v7, Lkshark/internal/PathFinder;->g:Lkshark/i;
 
     invoke-interface {v0, v4, v5}, Lkshark/i;->e(J)Lkshark/HeapObject;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lkshark/HeapObject$HeapClass;
 
     const/4 v8, 0x0
@@ -2618,7 +2411,6 @@
 
     move-object v9, p1
 
-    .line 3
     invoke-direct {p0, p1, v4, v5, v8}, Lkshark/internal/PathFinder;->k(Lkshark/internal/PathFinder$b;JZ)V
 
     goto/16 :goto_2
@@ -2626,12 +2418,10 @@
     :cond_0
     move-object v9, p1
 
-    .line 4
     instance-of v1, v0, Lkshark/HeapObject$HeapInstance;
 
     if-eqz v1, :cond_3
 
-    .line 5
     move-object v8, v0
 
     check-cast v8, Lkshark/HeapObject$HeapInstance;
@@ -2658,12 +2448,10 @@
 
     move-wide/from16 v4, p4
 
-    .line 6
     invoke-direct/range {v0 .. v6}, Lkshark/internal/PathFinder;->m(Lkshark/internal/PathFinder$b;JJZ)V
 
     const-string v0, "value"
 
-    .line 7
     invoke-virtual {v8, v10, v0}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v0
@@ -2688,7 +2476,6 @@
     :goto_0
     if-eqz v0, :cond_6
 
-    .line 8
     invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v4
@@ -2716,18 +2503,15 @@
 
     move-wide/from16 v4, p4
 
-    .line 9
     invoke-direct/range {v0 .. v6}, Lkshark/internal/PathFinder;->m(Lkshark/internal/PathFinder$b;JJZ)V
 
     goto :goto_2
 
-    .line 10
     :cond_3
     instance-of v1, v0, Lkshark/HeapObject$HeapObjectArray;
 
     if-eqz v1, :cond_5
 
-    .line 11
     move-object v10, v0
 
     check-cast v10, Lkshark/HeapObject$HeapObjectArray;
@@ -2748,10 +2532,8 @@
 
     move-wide/from16 v4, p4
 
-    .line 12
     invoke-direct/range {v0 .. v6}, Lkshark/internal/PathFinder;->m(Lkshark/internal/PathFinder$b;JJZ)V
 
-    .line 13
     invoke-virtual {v10}, Lkshark/HeapObject$HeapObjectArray;->r()Lkshark/m$b$c$e;
 
     move-result-object v0
@@ -2775,7 +2557,6 @@
 
     move-wide v2, p2
 
-    .line 14
     invoke-direct/range {v0 .. v6}, Lkshark/internal/PathFinder;->m(Lkshark/internal/PathFinder$b;JJZ)V
 
     add-int/lit8 v8, v8, 0x1
@@ -2793,7 +2574,6 @@
 
     move-wide/from16 v4, p4
 
-    .line 15
     invoke-direct/range {v0 .. v6}, Lkshark/internal/PathFinder;->m(Lkshark/internal/PathFinder$b;JJZ)V
 
     goto :goto_2
@@ -2809,7 +2589,6 @@
 
     move-wide/from16 v4, p4
 
-    .line 16
     invoke-direct/range {v0 .. v6}, Lkshark/internal/PathFinder;->m(Lkshark/internal/PathFinder$b;JJZ)V
 
     :cond_6
@@ -2826,7 +2605,6 @@
 
     move-object/from16 v7, p0
 
-    .line 1
     invoke-virtual/range {p2 .. p2}, Lkshark/HeapObject$HeapClass;->p()Ljava/lang/String;
 
     move-result-object v0
@@ -2847,7 +2625,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, v7, Lkshark/internal/PathFinder;->b:Ljava/util/Map;
 
@@ -2873,7 +2650,6 @@
     :goto_0
     move-object v11, v0
 
-    .line 3
     invoke-virtual/range {p2 .. p2}, Lkshark/HeapObject$HeapClass;->B()Lcotlin/sequences/m;
 
     move-result-object v0
@@ -2896,7 +2672,6 @@
 
     check-cast v0, Lkshark/h;
 
-    .line 4
     invoke-virtual {v0}, Lkshark/h;->c()Lkshark/j;
 
     move-result-object v1
@@ -2909,7 +2684,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_3
     invoke-virtual {v0}, Lkshark/h;->b()Ljava/lang/String;
 
@@ -2917,7 +2691,6 @@
 
     const-string v2, "$staticOverhead"
 
-    .line 6
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -2942,7 +2715,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     invoke-virtual {v0}, Lkshark/h;->c()Lkshark/j;
 
@@ -2961,7 +2733,6 @@
 
     move-result-wide v14
 
-    .line 8
     invoke-virtual/range {p1 .. p1}, Lkshark/internal/PathFinder$b;->a()Z
 
     move-result v2
@@ -2970,10 +2741,8 @@
 
     if-eqz v2, :cond_6
 
-    .line 9
     invoke-direct {v7, v6, v14, v15}, Lkshark/internal/PathFinder;->l(Lkshark/internal/PathFinder$b;J)V
 
-    .line 10
     :cond_6
     invoke-interface {v11, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -2983,13 +2752,10 @@
 
     if-nez v2, :cond_7
 
-    .line 11
     new-instance v2, Lkshark/internal/f$a$b;
 
-    .line 12
     sget-object v17, Lkshark/LeakTraceReference$ReferenceType;->STATIC_FIELD:Lkshark/LeakTraceReference$ReferenceType;
 
-    .line 13
     invoke-virtual {v0}, Lkshark/h;->a()Lkshark/HeapObject$HeapClass;
 
     move-result-object v0
@@ -3004,12 +2770,10 @@
 
     move-object/from16 v18, v1
 
-    .line 14
     invoke-direct/range {v13 .. v19}, Lkshark/internal/f$a$b;-><init>(JLkshark/internal/f;Lkshark/LeakTraceReference$ReferenceType;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
-    .line 15
     :cond_7
     instance-of v3, v2, Lkshark/LibraryLeakReferenceMatcher;
 
@@ -3017,15 +2781,12 @@
 
     new-instance v3, Lkshark/internal/f$a$a;
 
-    .line 16
     sget-object v17, Lkshark/LeakTraceReference$ReferenceType;->STATIC_FIELD:Lkshark/LeakTraceReference$ReferenceType;
 
-    .line 17
     move-object/from16 v19, v2
 
     check-cast v19, Lkshark/LibraryLeakReferenceMatcher;
 
-    .line 18
     invoke-virtual {v0}, Lkshark/h;->a()Lkshark/HeapObject$HeapClass;
 
     move-result-object v0
@@ -3040,14 +2801,12 @@
 
     move-object/from16 v18, v1
 
-    .line 19
     invoke-direct/range {v13 .. v20}, Lkshark/internal/f$a$a;-><init>(JLkshark/internal/f;Lkshark/LeakTraceReference$ReferenceType;Ljava/lang/String;Lkshark/LibraryLeakReferenceMatcher;Ljava/lang/String;)V
 
     move-object v2, v3
 
     goto :goto_2
 
-    .line 20
     :cond_8
     instance-of v0, v2, Lkshark/n;
 
@@ -3058,7 +2817,6 @@
     :goto_2
     if-eqz v2, :cond_2
 
-    .line 21
     invoke-virtual {v2}, Lkshark/internal/f;->b()J
 
     move-result-wide v0
@@ -3095,12 +2853,10 @@
 
     move-object v6, v13
 
-    .line 22
     invoke-static/range {v0 .. v6}, Lkshark/internal/PathFinder;->d(Lkshark/internal/PathFinder;Lkshark/internal/PathFinder$b;Lkshark/internal/f;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)V
 
     goto/16 :goto_1
 
-    .line 23
     :cond_9
     new-instance v0, Lcotlin/NoWhenBranchMatchedException;
 
@@ -3121,12 +2877,10 @@
 
     move-object/from16 v6, p0
 
-    .line 1
     new-instance v7, Ljava/util/LinkedHashMap;
 
     invoke-direct {v7}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     invoke-virtual/range {p2 .. p2}, Lkshark/HeapObject$HeapInstance;->n()Lkshark/HeapObject$HeapClass;
 
     move-result-object v0
@@ -3135,7 +2889,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -3153,7 +2906,6 @@
 
     check-cast v1, Lkshark/HeapObject$HeapClass;
 
-    .line 4
     iget-object v2, v6, Lkshark/internal/PathFinder;->a:Ljava/util/Map;
 
     invoke-virtual {v1}, Lkshark/HeapObject$HeapClass;->p()Ljava/lang/String;
@@ -3168,7 +2920,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v1
@@ -3203,37 +2954,31 @@
 
     check-cast v2, Lkshark/z;
 
-    .line 6
     invoke-virtual {v7, v3}, Ljava/util/LinkedHashMap;->containsKey(Ljava/lang/Object;)Z
 
     move-result v4
 
     if-nez v4, :cond_1
 
-    .line 7
     invoke-interface {v7, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-virtual/range {p2 .. p2}, Lkshark/HeapObject$HeapInstance;->y()Lcotlin/sequences/m;
 
     move-result-object v0
 
-    .line 9
     sget-object v1, Lkshark/internal/PathFinder$visitInstance$fieldNamesAndValues$1;->INSTANCE:Lkshark/internal/PathFinder$visitInstance$fieldNamesAndValues$1;
 
     invoke-static {v0, v1}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
-    .line 10
     invoke-static {v0}, Lcotlin/sequences/p;->W2(Lcotlin/sequences/m;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 11
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -3248,7 +2993,6 @@
 
     invoke-static {v0, v1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 12
     :cond_3
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -3269,7 +3013,6 @@
 
     check-cast v9, Lkshark/h;
 
-    .line 13
     invoke-virtual {v9}, Lkshark/h;->c()Lkshark/j;
 
     move-result-object v0
@@ -3287,14 +3030,12 @@
 
     move-result-wide v11
 
-    .line 14
     invoke-virtual/range {p1 .. p1}, Lkshark/internal/PathFinder$b;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_5
 
-    .line 15
     invoke-virtual/range {p3 .. p3}, Lkshark/internal/f;->b()J
 
     move-result-wide v2
@@ -3307,7 +3048,6 @@
 
     invoke-direct/range {v0 .. v5}, Lkshark/internal/PathFinder;->n(Lkshark/internal/PathFinder$b;JJ)V
 
-    .line 16
     :cond_5
     invoke-virtual {v9}, Lkshark/h;->b()Ljava/lang/String;
 
@@ -3321,18 +3061,14 @@
 
     if-nez v0, :cond_6
 
-    .line 17
     new-instance v0, Lkshark/internal/f$a$b;
 
-    .line 18
     sget-object v14, Lkshark/LeakTraceReference$ReferenceType;->INSTANCE_FIELD:Lkshark/LeakTraceReference$ReferenceType;
 
-    .line 19
     invoke-virtual {v9}, Lkshark/h;->b()Ljava/lang/String;
 
     move-result-object v15
 
-    .line 20
     invoke-virtual {v9}, Lkshark/h;->a()Lkshark/HeapObject$HeapClass;
 
     move-result-object v1
@@ -3345,34 +3081,27 @@
 
     move-object/from16 v13, p3
 
-    .line 21
     invoke-direct/range {v10 .. v16}, Lkshark/internal/f$a$b;-><init>(JLkshark/internal/f;Lkshark/LeakTraceReference$ReferenceType;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
-    .line 22
     :cond_6
     instance-of v1, v0, Lkshark/LibraryLeakReferenceMatcher;
 
     if-eqz v1, :cond_7
 
-    .line 23
     new-instance v1, Lkshark/internal/f$a$a;
 
-    .line 24
     sget-object v14, Lkshark/LeakTraceReference$ReferenceType;->INSTANCE_FIELD:Lkshark/LeakTraceReference$ReferenceType;
 
-    .line 25
     invoke-virtual {v9}, Lkshark/h;->b()Ljava/lang/String;
 
     move-result-object v15
 
-    .line 26
     move-object/from16 v16, v0
 
     check-cast v16, Lkshark/LibraryLeakReferenceMatcher;
 
-    .line 27
     invoke-virtual {v9}, Lkshark/h;->a()Lkshark/HeapObject$HeapClass;
 
     move-result-object v0
@@ -3385,14 +3114,12 @@
 
     move-object/from16 v13, p3
 
-    .line 28
     invoke-direct/range {v10 .. v17}, Lkshark/internal/f$a$a;-><init>(JLkshark/internal/f;Lkshark/LeakTraceReference$ReferenceType;Ljava/lang/String;Lkshark/LibraryLeakReferenceMatcher;Ljava/lang/String;)V
 
     move-object v0, v1
 
     goto :goto_2
 
-    .line 29
     :cond_7
     instance-of v0, v0, Lkshark/n;
 
@@ -3403,7 +3130,6 @@
     :goto_2
     if-eqz v0, :cond_8
 
-    .line 30
     invoke-virtual {v0}, Lkshark/internal/f;->b()J
 
     move-result-wide v1
@@ -3426,7 +3152,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 31
     invoke-virtual/range {p2 .. p2}, Lkshark/HeapObject$HeapInstance;->p()Ljava/lang/String;
 
     move-result-object v1
@@ -3446,7 +3171,6 @@
 
     goto/16 :goto_1
 
-    .line 32
     :cond_9
     new-instance v0, Lcotlin/NoWhenBranchMatchedException;
 
@@ -3465,22 +3189,18 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual/range {p2 .. p2}, Lkshark/HeapObject$HeapObjectArray;->r()Lkshark/m$b$c$e;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lkshark/m$b$c$e;->b()[J
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     array-length v2, v0
 
     const/4 v3, 0x0
@@ -3500,7 +3220,6 @@
 
     if-eqz v9, :cond_0
 
-    .line 5
     iget-object v8, v7, Lkshark/internal/PathFinder;->g:Lkshark/i;
 
     invoke-interface {v8, v5, v6}, Lkshark/i;->c(J)Z
@@ -3533,7 +3252,6 @@
     :cond_2
     move-object/from16 v7, p0
 
-    .line 6
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -3562,14 +3280,12 @@
 
     move-result-wide v4
 
-    .line 7
     invoke-virtual/range {p1 .. p1}, Lkshark/internal/PathFinder$b;->a()Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    .line 8
     invoke-virtual/range {p3 .. p3}, Lkshark/internal/f;->b()J
 
     move-result-wide v12
@@ -3582,16 +3298,13 @@
 
     invoke-direct/range {v10 .. v15}, Lkshark/internal/PathFinder;->n(Lkshark/internal/PathFinder$b;JJ)V
 
-    .line 9
     :cond_4
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v13
 
-    .line 10
     new-instance v1, Lkshark/internal/f$a$b;
 
-    .line 11
     sget-object v12, Lkshark/LeakTraceReference$ReferenceType;->ARRAY_ENTRY:Lkshark/LeakTraceReference$ReferenceType;
 
     const-string v14, ""
@@ -3602,7 +3315,6 @@
 
     move-object/from16 v11, p3
 
-    .line 12
     invoke-direct/range {v8 .. v14}, Lkshark/internal/f$a$b;-><init>(JLkshark/internal/f;Lkshark/LeakTraceReference$ReferenceType;Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v13, 0x0
@@ -3619,7 +3331,6 @@
 
     move-object v12, v1
 
-    .line 13
     invoke-static/range {v10 .. v16}, Lkshark/internal/PathFinder;->d(Lkshark/internal/PathFinder;Lkshark/internal/PathFinder$b;Lkshark/internal/f;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)V
 
     move v3, v2
@@ -3655,10 +3366,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lkshark/a0;->b:Lkshark/a0;
 
-    .line 2
     invoke-virtual {v0}, Lkshark/a0;->c()Lkshark/a0$a;
 
     move-result-object v0
@@ -3667,10 +3376,8 @@
 
     const-string v1, "findPathsFromGcRoots"
 
-    .line 3
     invoke-interface {v0, v1}, Lkshark/a0$a;->a(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lkshark/internal/PathFinder;->h:Lkshark/OnAnalysisProgressListener;
 
@@ -3678,19 +3385,16 @@
 
     invoke-interface {v0, v1}, Lkshark/OnAnalysisProgressListener;->a(Lkshark/OnAnalysisProgressListener$Step;)V
 
-    .line 5
     iget-object v0, p0, Lkshark/internal/PathFinder;->g:Lkshark/i;
 
     invoke-direct {p0, v0}, Lkshark/internal/PathFinder;->b(Lkshark/i;)I
 
     move-result v0
 
-    .line 6
     new-instance v1, Lkshark/internal/PathFinder$b;
 
     invoke-direct {v1, p1, v0, p2}, Lkshark/internal/PathFinder$b;-><init>(Ljava/util/Set;IZ)V
 
-    .line 7
     invoke-direct {p0, v1}, Lkshark/internal/PathFinder;->g(Lkshark/internal/PathFinder$b;)Lkshark/internal/PathFinder$a;
 
     move-result-object p1

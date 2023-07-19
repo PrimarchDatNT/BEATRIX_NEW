@@ -35,7 +35,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +45,6 @@
 .method public getEvent()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel$LinearTracking;->event:Ljava/lang/String;
 
     return-object v0
@@ -55,7 +53,6 @@
 .method public getOffset()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel$LinearTracking;->offset:Ljava/lang/String;
 
     return-object v0
@@ -64,7 +61,6 @@
 .method public getTrackingUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel$LinearTracking;->trackingUrl:Ljava/lang/String;
 
     return-object v0
@@ -73,7 +69,6 @@
 .method public isReport()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/VastModel$LinearTracking;->isReport:Z
 
     return v0
@@ -82,7 +77,6 @@
 .method public setEvent(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel$LinearTracking;->event:Ljava/lang/String;
 
     return-void
@@ -91,7 +85,6 @@
 .method public setOffset(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel$LinearTracking;->offset:Ljava/lang/String;
 
     return-void
@@ -100,7 +93,6 @@
 .method public setReport(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/VastModel$LinearTracking;->isReport:Z
 
     return-void
@@ -109,7 +101,6 @@
 .method public setTrackingUrl(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel$LinearTracking;->trackingUrl:Ljava/lang/String;
 
     return-void
@@ -118,7 +109,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

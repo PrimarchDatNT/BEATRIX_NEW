@@ -52,12 +52,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/c0$a;->b:Lcom/google/firebase/firestore/c0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/firebase/firestore/c0$a;->a:Ljava/util/Iterator;
 
     return-void
@@ -68,7 +66,6 @@
 .method public a()Lcom/google/firebase/firestore/b0;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/c0$a;->b:Lcom/google/firebase/firestore/c0;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/c0$a;->a:Ljava/util/Iterator;
@@ -89,7 +86,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/c0$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -102,7 +98,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/c0$a;->a()Lcom/google/firebase/firestore/b0;
 
     move-result-object v0
@@ -113,7 +108,6 @@
 .method public remove()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "QuerySnapshot does not support remove()."

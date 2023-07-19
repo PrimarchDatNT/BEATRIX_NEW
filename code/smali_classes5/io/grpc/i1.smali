@@ -26,7 +26,6 @@
 
     const-string v0, "io.grpc.Server"
 
-    .line 1
     invoke-static {v0}, Lio/grpc/Context;->o(Ljava/lang/String;)Lio/grpc/Context$j;
 
     move-result-object v0
@@ -39,7 +38,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -78,7 +76,6 @@
         value = "https://github.com/grpc/grpc-java/issues/2222"
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -102,7 +99,6 @@
         value = "https://github.com/grpc/grpc-java/issues/5332"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -125,7 +121,6 @@
         value = "https://github.com/grpc/grpc-java/issues/2222"
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -156,7 +151,6 @@
         value = "https://github.com/grpc/grpc-java/issues/2222"
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0

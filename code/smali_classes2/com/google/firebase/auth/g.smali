@@ -39,13 +39,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/auth/g;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/auth/g;->b:Ljava/util/Map;
 
     return-void
@@ -54,7 +51,6 @@
 .method private final g(Ljava/lang/String;)J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/g;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -69,7 +65,6 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->longValue()J
 
@@ -87,7 +82,6 @@
 
     const-string v0, "auth_time"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/firebase/auth/g;->g(Ljava/lang/String;)J
 
     move-result-wide v0
@@ -110,7 +104,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/g;->b:Ljava/util/Map;
 
     return-object v0
@@ -123,7 +116,6 @@
 
     const-string v0, "exp"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/firebase/auth/g;->g(Ljava/lang/String;)J
 
     move-result-wide v0
@@ -138,7 +130,6 @@
 
     const-string v0, "iat"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/firebase/auth/g;->g(Ljava/lang/String;)J
 
     move-result-wide v0
@@ -154,7 +145,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/g;->b:Ljava/util/Map;
 
     const-string v1, "firebase"
@@ -169,7 +159,6 @@
 
     const-string v1, "sign_in_provider"
 
-    .line 2
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -192,7 +181,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/g;->a:Ljava/lang/String;
 
     return-object v0

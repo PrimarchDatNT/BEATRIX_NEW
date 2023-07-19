@@ -26,7 +26,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/render/MTBlurAlongRender$BlurAlongType;->values()[Lcom/meitu/render/MTBlurAlongRender$BlurAlongType;
 
     move-result-object v1

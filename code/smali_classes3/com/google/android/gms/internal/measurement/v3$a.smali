@@ -43,10 +43,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/m2;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/v3$a;->b:Lcom/google/android/gms/internal/measurement/v3;
 
     return-void

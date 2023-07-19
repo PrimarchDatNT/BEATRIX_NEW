@@ -29,10 +29,8 @@
 .method constructor <init>(Lcom/google/common/collect/StandardTable$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/StandardTable$c$d;->b:Lcom/google/common/collect/StandardTable$c;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/Maps$m0;-><init>(Ljava/util/Map;)V
 
     return-void
@@ -45,7 +43,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$c$d;->b:Lcom/google/common/collect/StandardTable$c;
 
     invoke-static {p1}, Lcom/google/common/base/Predicates;->m(Ljava/lang/Object;)Lcom/google/common/base/u;
@@ -83,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$c$d;->b:Lcom/google/common/collect/StandardTable$c;
 
     invoke-static {p1}, Lcom/google/common/base/Predicates;->n(Ljava/util/Collection;)Lcom/google/common/base/u;
@@ -111,7 +107,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$c$d;->b:Lcom/google/common/collect/StandardTable$c;
 
     invoke-static {p1}, Lcom/google/common/base/Predicates;->n(Ljava/util/Collection;)Lcom/google/common/base/u;

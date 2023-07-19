@@ -37,10 +37,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$makeupViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$makeupViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)V
@@ -51,7 +49,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->b:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$arViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$arViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)V
@@ -62,7 +59,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->c:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$filterViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$filterViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)V
@@ -73,7 +69,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->d:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$bpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)V
@@ -84,7 +79,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->f:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$lookViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$lookViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)V
@@ -95,7 +89,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->g:Lcotlin/w;
 
-    .line 7
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$tipsViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$tipsViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)V
@@ -106,7 +99,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->p:Lcotlin/w;
 
-    .line 8
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$cameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$cameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)V
@@ -117,7 +109,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->J:Lcotlin/w;
 
-    .line 9
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$bottomFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$bottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)V
@@ -128,7 +119,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K:Lcotlin/w;
 
-    .line 10
     new-instance v0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$effectFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$effectFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)V
@@ -149,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->J()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
 
     move-result-object p0
@@ -166,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object p0
@@ -183,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->L()Lcom/commsource/camera/xcamera/cover/tips/a;
 
     move-result-object p0
@@ -340,7 +327,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->D()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p0
@@ -357,7 +343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->F()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object p0
@@ -428,7 +413,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/router/d;->d(Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
 
     move-result-object v1
@@ -445,12 +429,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
@@ -460,7 +442,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->S(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->H()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;
 
     move-result-object v1
@@ -469,7 +450,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;->G(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;)V
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/beautyplus/router/d;->b(Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
 
     move-result-object v1
@@ -480,7 +460,6 @@
 
     if-nez v1, :cond_2
 
-    .line 6
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/router/d;->b(Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
@@ -493,7 +472,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 7
     invoke-virtual {v3}, Lcom/commsource/repository/child/makeup/h;->k()I
 
     move-result v4
@@ -504,14 +482,12 @@
 
     if-eqz v4, :cond_1
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v5
 
     invoke-virtual {v5, v4, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->O0(Lcom/commsource/repository/child/makeup/e;Z)V
 
-    .line 9
     :cond_1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
@@ -533,14 +509,12 @@
 
     invoke-static/range {v4 .. v11}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->F(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;ILcom/commsource/repository/child/makeup/h;ZZZILjava/lang/Object;)Z
 
-    .line 10
     invoke-static {p1}, Lcom/commsource/beautyplus/router/d;->c(Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
 
     move-result-object p1
 
     if-eqz p1, :cond_4
 
-    .line 11
     invoke-virtual {v3}, Lcom/commsource/repository/child/makeup/h;->k()I
 
     move-result v2
@@ -551,7 +525,6 @@
 
     if-eqz v5, :cond_4
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v3
@@ -572,7 +545,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     invoke-static {p1}, Lcom/commsource/beautyplus/router/d;->c(Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
 
@@ -584,7 +556,6 @@
 
     if-nez v1, :cond_4
 
-    .line 14
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/router/d;->c(Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
@@ -597,7 +568,6 @@
 
     if-eqz v5, :cond_4
 
-    .line 15
     invoke-virtual {v5}, Lcom/commsource/repository/child/makeup/h;->k()I
 
     move-result p1
@@ -608,14 +578,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 16
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->O0(Lcom/commsource/repository/child/makeup/e;Z)V
 
-    .line 17
     :cond_3
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
@@ -635,7 +603,6 @@
 
     invoke-static/range {v3 .. v10}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->F(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;ILcom/commsource/repository/child/makeup/h;ZZZILjava/lang/Object;)Z
 
-    .line 18
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -650,7 +617,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -665,14 +631,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->J0()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1
@@ -683,7 +647,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1
@@ -694,12 +657,10 @@
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_0
     invoke-super {p0}, Lcom/commsource/camera/xcamera/cover/a;->l()Z
 
@@ -717,7 +678,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1
@@ -726,7 +686,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->k0(Z)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1
@@ -749,7 +708,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1
@@ -772,7 +730,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1
@@ -795,7 +752,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->G()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object v1
@@ -818,7 +774,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->I()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
 
     move-result-object v1
@@ -841,7 +796,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->I()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
 
     move-result-object v1
@@ -864,7 +818,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->B()Lcom/commsource/material/download/b/a;
@@ -889,7 +842,6 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/material/download/b/a;->k(Landroid/content/Context;Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->B()Lcom/commsource/material/download/b/a;
 
     move-result-object v1
@@ -912,7 +864,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lcotlin/jvm/u/l;)V
 
-    .line 10
     invoke-static {}, Lcom/commsource/camera/a1/h;->j()Lcom/commsource/camera/a1/h;
 
     move-result-object v1
@@ -939,7 +890,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -952,7 +902,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

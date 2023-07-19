@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -72,17 +71,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setProcessSuccess(Z)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isNeedShowAIBeauty()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -99,7 +95,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -117,7 +112,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setClickable(Z)V
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -137,7 +131,6 @@
 
     invoke-virtual {v1, p1, v3}, Lcom/commsource/camera/beauty/WaterMarkImageView;->o0(Landroid/graphics/Bitmap;Z)V
 
-    .line 7
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -155,7 +148,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->setShowOriginalBitmapValue(Z)V
 
-    .line 8
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -173,7 +165,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/beauty/WaterMarkImageView;->setImageMode(I)V
 
-    .line 9
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -193,7 +184,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 10
     :cond_5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -211,7 +201,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 11
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -229,7 +218,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 12
     :cond_7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -255,7 +243,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->D(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -268,7 +255,6 @@
 
     if-eqz p1, :cond_9
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getSaveMode()I
 
     move-result v1
@@ -277,7 +263,6 @@
 
     if-eq v1, v2, :cond_9
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getSaveMode()I
@@ -288,7 +273,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -308,7 +292,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 17
     :cond_9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -323,7 +306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$l;->a(Landroid/graphics/Bitmap;)V

@@ -31,10 +31,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
@@ -49,7 +47,6 @@
 .method a(Lio/grpc/q1;)Lio/grpc/internal/d1$b;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/d1$b;->a:Ljava/util/HashMap;
 
     invoke-virtual {p1}, Lio/grpc/q1;->e()Lio/grpc/t1;
@@ -68,12 +65,10 @@
 .method b()Lio/grpc/internal/d1;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lio/grpc/internal/d1$b;->a:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->values()Ljava/util/Collection;
@@ -97,7 +92,6 @@
 
     check-cast v2, Lio/grpc/q1;
 
-    .line 3
     invoke-virtual {v2}, Lio/grpc/q1;->d()Ljava/util/Collection;
 
     move-result-object v2
@@ -119,7 +113,6 @@
 
     check-cast v3, Lio/grpc/o1;
 
-    .line 4
     invoke-virtual {v3}, Lio/grpc/o1;->b()Lio/grpc/MethodDescriptor;
 
     move-result-object v4
@@ -132,7 +125,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance v1, Lio/grpc/internal/d1;
 
@@ -140,7 +132,6 @@
 
     iget-object v3, p0, Lio/grpc/internal/d1$b;->a:Ljava/util/HashMap;
 
-    .line 6
     invoke-virtual {v3}, Ljava/util/HashMap;->values()Ljava/util/Collection;
 
     move-result-object v3
@@ -151,7 +142,6 @@
 
     move-result-object v2
 
-    .line 7
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0

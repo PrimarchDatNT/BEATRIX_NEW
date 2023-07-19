@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p4}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -43,7 +41,6 @@
 
     invoke-virtual {p2, p4, v1, v0, p3}, Landroid/graphics/Paint;->getTextBounds(Ljava/lang/String;IILandroid/graphics/Rect;)V
 
-    .line 2
     invoke-virtual {p2}, Landroid/graphics/Paint;->descent()F
 
     move-result p3
@@ -58,14 +55,12 @@
 
     div-float/2addr p3, v0
 
-    .line 3
     invoke-virtual {p2}, Landroid/graphics/Paint;->descent()F
 
     move-result v0
 
     sub-float/2addr p3, v0
 
-    .line 4
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
 
     move-result-object v0

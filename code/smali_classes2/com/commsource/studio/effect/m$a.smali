@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/effect/m$a;-><init>()V
 
     return-void
@@ -66,19 +64,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x10
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/effect/m;->t()Landroid/util/SparseArray;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v2}, Landroid/util/SparseArray;->size()I
 
     move-result v3
@@ -90,14 +85,12 @@
     :goto_0
     if-ge v5, v3, :cond_1
 
-    .line 4
     invoke-virtual {v2, v5}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v6
 
     check-cast v6, Landroid/util/SparseArray;
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/effect/m;->s()Landroid/util/SparseArray;
 
     move-result-object v7
@@ -108,7 +101,6 @@
 
     if-le v7, v5, :cond_0
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/effect/m;->s()Landroid/util/SparseArray;
 
     move-result-object v7
@@ -124,7 +116,6 @@
     :cond_0
     const/4 v7, 0x0
 
-    .line 7
     :goto_1
     sget-object v8, Lcom/commsource/camera/xcamera/util/c;->c:Lcom/commsource/camera/xcamera/util/c$a;
 
@@ -138,7 +129,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/effect/m;->u()Lcom/commsource/repository/child/makeup/h;
 
@@ -146,7 +136,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 9
     sget-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;
 
     const/16 v3, 0xe
@@ -161,7 +150,6 @@
 
     invoke-interface {v1, v5, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     invoke-virtual {v2, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;->c(I)Ljava/lang/String;
 
     move-result-object v2
@@ -176,7 +164,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

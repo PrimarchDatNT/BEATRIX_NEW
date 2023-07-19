@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x1
@@ -90,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/relight/ColorSeekBar$selectColorPaint$2;->invoke()Landroid/graphics/Paint;
 
     move-result-object v1

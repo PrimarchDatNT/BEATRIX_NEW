@@ -22,10 +22,8 @@
 .method public constructor <init>(Ljava/util/regex/Pattern;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/select/c;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/jsoup/select/c$h0;->a:Ljava/util/regex/Pattern;
 
     return-void
@@ -36,7 +34,6 @@
 .method public a(Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)Z
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lorg/jsoup/select/c$h0;->a:Ljava/util/regex/Pattern;
 
     invoke-virtual {p2}, Lorg/jsoup/nodes/Element;->h2()Ljava/lang/String;
@@ -47,7 +44,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Ljava/util/regex/Matcher;->find()Z
 
     move-result p1
@@ -62,7 +58,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lorg/jsoup/select/c$h0;->a:Ljava/util/regex/Pattern;
 
     const/4 v2, 0x0

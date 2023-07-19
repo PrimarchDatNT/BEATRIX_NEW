@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/web/mtscript/i;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/i$a;->g:Lcom/commsource/beautyplus/web/mtscript/i;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,26 +38,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/mtscript/i$a;->g:Lcom/commsource/beautyplus/web/mtscript/i;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/mtscript/i;->I(Lcom/commsource/beautyplus/web/mtscript/i;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautyplus/web/mtscript/i$a;->g:Lcom/commsource/beautyplus/web/mtscript/i;
 
     invoke-virtual {v2, v1}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -27,7 +27,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/d0;-><init>()V
 
     return-void
@@ -38,7 +37,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/v0;->delegate()Ljava/util/Queue;
 
     move-result-object v0
@@ -49,7 +47,6 @@
 .method protected bridge synthetic delegate()Ljava/util/Collection;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/v0;->delegate()Ljava/util/Queue;
 
     move-result-object v0
@@ -75,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/v0;->delegate()Ljava/util/Queue;
 
     move-result-object v0
@@ -98,7 +94,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/v0;->delegate()Ljava/util/Queue;
 
     move-result-object v0
@@ -118,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/v0;->delegate()Ljava/util/Queue;
 
     move-result-object v0
@@ -141,7 +135,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/v0;->delegate()Ljava/util/Queue;
 
     move-result-object v0
@@ -164,7 +157,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/v0;->delegate()Ljava/util/Queue;
 
     move-result-object v0
@@ -184,7 +176,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1}, Lcom/google/common/collect/d0;->add(Ljava/lang/Object;)Z
 
@@ -208,7 +199,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/google/common/collect/v0;->element()Ljava/lang/Object;
 
@@ -232,7 +222,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/google/common/collect/v0;->remove()Ljava/lang/Object;
 

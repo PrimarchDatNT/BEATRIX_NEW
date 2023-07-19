@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/base/AdAlertGestureListener$ZigZagState;->values()[Lcom/sdk/imp/base/AdAlertGestureListener$ZigZagState;
 
     move-result-object v0

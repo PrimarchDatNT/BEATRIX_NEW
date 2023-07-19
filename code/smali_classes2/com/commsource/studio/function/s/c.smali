@@ -33,10 +33,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_text_tab:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
@@ -83,12 +81,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_1
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -97,7 +93,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/s/c;->p:Lcom/commsource/beautyplus/f0/ok;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ok;->a:Lcom/commsource/widget/BoldTextView;
@@ -112,7 +107,6 @@
 
     if-nez p3, :cond_0
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/studio/function/s/c;->p:Lcom/commsource/beautyplus/f0/ok;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/ok;->a:Lcom/commsource/widget/BoldTextView;
@@ -123,7 +117,6 @@
 
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/s/c;->p:Lcom/commsource/beautyplus/f0/ok;
 
@@ -143,7 +136,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/widget/BoldTextView;->g(Lcom/commsource/widget/BoldTextView;ZIIILjava/lang/Object;)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

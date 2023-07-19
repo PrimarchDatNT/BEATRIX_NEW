@@ -23,7 +23,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3, v0}, Lf/f/e/c/g;-><init>(Lf/f/e/c/e;Ljava/lang/Object;Ljava/lang/reflect/Method;Lf/f/e/c/g$a;)V
 
     return-void
@@ -32,7 +31,6 @@
 .method synthetic constructor <init>(Lf/f/e/c/e;Ljava/lang/Object;Ljava/lang/reflect/Method;Lf/f/e/c/g$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/f/e/c/g$b;-><init>(Lf/f/e/c/e;Ljava/lang/Object;Ljava/lang/reflect/Method;)V
 
     return-void
@@ -48,14 +46,11 @@
         }
     .end annotation
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     invoke-super {p0, p1}, Lf/f/e/c/g;->g(Ljava/lang/Object;)V
 
-    .line 3
     monitor-exit p0
 
     return-void

@@ -18,12 +18,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/scwang/smartrefresh/layout/impl/b;->c:Z
 
     return-void
@@ -34,19 +32,16 @@
 .method public a(Landroid/view/View;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/impl/b;->b:Lcom/scwang/smartrefresh/layout/c/k;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/scwang/smartrefresh/layout/c/k;->a(Landroid/view/View;)Z
 
     move-result p1
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/impl/b;->a:Landroid/graphics/PointF;
 
@@ -60,19 +55,16 @@
 .method public b(Landroid/view/View;)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/impl/b;->b:Lcom/scwang/smartrefresh/layout/c/k;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/scwang/smartrefresh/layout/c/k;->b(Landroid/view/View;)Z
 
     move-result p1
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/impl/b;->a:Landroid/graphics/PointF;
 

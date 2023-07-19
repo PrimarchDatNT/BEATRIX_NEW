@@ -45,7 +45,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;->a:Lcotlin/sequences/m;
 
     iput-object p2, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;->b:Ljava/lang/Object;
@@ -70,7 +69,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/jvm/internal/Ref$BooleanRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
@@ -79,7 +77,6 @@
 
     iput-boolean v1, v0, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    .line 2
     iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;->a:Lcotlin/sequences/m;
 
     new-instance v2, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;

@@ -42,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p3}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
@@ -61,7 +60,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -94,7 +92,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/n3;->f:J
 
     invoke-static {v0, v1, p0}, Lcotlinx/coroutines/TimeoutKt;->a(JLcotlinx/coroutines/c2;)Lcotlinx/coroutines/TimeoutCancellationException;

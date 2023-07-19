@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$g;->a:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$g;->a:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-static {v1}, Lcom/commsource/store/filter/search/FilterSearchFragment;->B(Lcom/commsource/store/filter/search/FilterSearchFragment;)Lcom/commsource/beautyplus/f0/e8;
@@ -59,7 +57,6 @@
 
     invoke-virtual {v1}, Landroid/widget/EditText;->clearFocus()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$g;->a:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
     invoke-static {v1}, Lcom/commsource/store/filter/search/FilterSearchFragment;->B(Lcom/commsource/store/filter/search/FilterSearchFragment;)Lcom/commsource/beautyplus/f0/e8;
@@ -70,7 +67,6 @@
 
     invoke-static {v1}, Lcom/commsource/camera/f1/r;->a(Landroid/view/View;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

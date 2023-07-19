@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/cover/VideoControllCover$a;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {v0}, Lcom/commsource/video/cover/a;->k()Lcom/commsource/video/view/XVideoUIGroup;
@@ -55,7 +54,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/video/cover/VideoControllCover$a;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {v0}, Lcom/commsource/video/cover/a;->k()Lcom/commsource/video/view/XVideoUIGroup;
@@ -64,7 +62,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/video/view/XVideoUIGroup;->r()V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/video/cover/VideoControllCover$a;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {v0}, Lcom/commsource/video/cover/a;->k()Lcom/commsource/video/view/XVideoUIGroup;
@@ -75,7 +72,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/commsource/video/cover/VideoControllCover$a;->a:Lcom/commsource/video/cover/VideoControllCover;
 
@@ -85,7 +81,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/video/view/XVideoUIGroup;->t()V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/video/cover/VideoControllCover$a;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {v0}, Lcom/commsource/video/cover/a;->k()Lcom/commsource/video/view/XVideoUIGroup;
@@ -94,7 +89,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/video/view/XVideoUIGroup;->o()V
 
-    .line 6
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

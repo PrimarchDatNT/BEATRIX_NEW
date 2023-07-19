@@ -62,17 +62,14 @@
 
     new-array v1, v0, [B
 
-    .line 1
     sput-object v1, Lorg/apache/thrift/protocol/TCompactProtocol;->EMPTY_BYTES:[B
 
-    .line 2
     invoke-static {v1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v1
 
     sput-object v1, Lorg/apache/thrift/protocol/TCompactProtocol;->EMPTY_BUFFER:Ljava/nio/ByteBuffer;
 
-    .line 3
     new-instance v1, Lorg/apache/thrift/protocol/TStruct;
 
     const-string v2, ""
@@ -81,7 +78,6 @@
 
     sput-object v1, Lorg/apache/thrift/protocol/TCompactProtocol;->ANONYMOUS_STRUCT:Lorg/apache/thrift/protocol/TStruct;
 
-    .line 4
     new-instance v1, Lorg/apache/thrift/protocol/TField;
 
     invoke-direct {v1, v2, v0, v0}, Lorg/apache/thrift/protocol/TField;-><init>(Ljava/lang/String;BS)V
@@ -92,7 +88,6 @@
 
     new-array v1, v1, [B
 
-    .line 5
     sput-object v1, Lorg/apache/thrift/protocol/TCompactProtocol;->ttypeToCompactType:[B
 
     aput-byte v0, v1, v0
@@ -163,7 +158,6 @@
 
     move-object v1, p1
 
-    .line 10
     invoke-direct/range {v0 .. v5}, Lorg/apache/thrift/protocol/TCompactProtocol;-><init>(Lorg/apache/thrift/transport/TTransport;JJ)V
 
     return-void
@@ -182,7 +176,6 @@
 
     move-wide v2, p2
 
-    .line 9
     invoke-direct/range {v0 .. v5}, Lorg/apache/thrift/protocol/TCompactProtocol;-><init>(Lorg/apache/thrift/transport/TTransport;JJ)V
 
     return-void
@@ -191,10 +184,8 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TTransport;JJ)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TProtocol;-><init>(Lorg/apache/thrift/transport/TTransport;)V
 
-    .line 2
     new-instance p1, Lorg/apache/thrift/ShortStack;
 
     const/16 v0, 0xf
@@ -205,28 +196,22 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput-short p1, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->lastFieldId_:S
 
     const/4 p1, 0x0
 
-    .line 4
     iput-object p1, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->booleanField_:Lorg/apache/thrift/protocol/TField;
 
-    .line 5
     iput-object p1, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->boolValue_:Ljava/lang/Boolean;
 
     const/16 p1, 0xa
 
     new-array p1, p1, [B
 
-    .line 6
     iput-object p1, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->temp:[B
 
-    .line 7
     iput-wide p2, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->stringLengthLimit_:J
 
-    .line 8
     iput-wide p4, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->containerLengthLimit_:J
 
     return-void
@@ -237,7 +222,6 @@
 
     const/4 v0, 0x7
 
-    .line 1
     aget-byte v0, p1, v0
 
     int-to-long v0, v0
@@ -357,7 +341,6 @@
 
     if-ltz p1, :cond_2
 
-    .line 1
     iget-wide v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->containerLengthLimit_:J
 
     const-wide/16 v2, -0x1
@@ -374,7 +357,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -402,7 +384,6 @@
     :goto_0
     return-void
 
-    .line 3
     :cond_2
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -437,7 +418,6 @@
 
     if-ltz p1, :cond_2
 
-    .line 1
     iget-wide v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->stringLengthLimit_:J
 
     const-wide/16 v2, -0x1
@@ -454,7 +434,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -482,7 +461,6 @@
     :goto_0
     return-void
 
-    .line 3
     :cond_2
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -520,7 +498,6 @@
 
     int-to-byte v3, v4
 
-    .line 1
     aput-byte v3, p3, v0
 
     add-int/lit8 v0, p4, 0x1
@@ -535,7 +512,6 @@
 
     int-to-byte v3, v4
 
-    .line 2
     aput-byte v3, p3, v0
 
     add-int/lit8 v0, p4, 0x2
@@ -550,7 +526,6 @@
 
     int-to-byte v3, v4
 
-    .line 3
     aput-byte v3, p3, v0
 
     add-int/lit8 v0, p4, 0x3
@@ -565,7 +540,6 @@
 
     int-to-byte v3, v4
 
-    .line 4
     aput-byte v3, p3, v0
 
     add-int/lit8 v0, p4, 0x4
@@ -580,7 +554,6 @@
 
     int-to-byte v3, v4
 
-    .line 5
     aput-byte v3, p3, v0
 
     add-int/lit8 v0, p4, 0x5
@@ -595,7 +568,6 @@
 
     int-to-byte v3, v4
 
-    .line 6
     aput-byte v3, p3, v0
 
     add-int/lit8 v0, p4, 0x6
@@ -610,7 +582,6 @@
 
     int-to-byte v3, v4
 
-    .line 7
     aput-byte v3, p3, v0
 
     add-int/lit8 p4, p4, 0x7
@@ -625,7 +596,6 @@
 
     int-to-byte p1, p2
 
-    .line 8
     aput-byte p1, p3, p4
 
     return-void
@@ -634,7 +604,6 @@
 .method private getCompactType(B)B
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/protocol/TCompactProtocol;->ttypeToCompactType:[B
 
     aget-byte p1, v0, p1
@@ -658,7 +627,6 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -818,16 +786,13 @@
 
     if-nez p1, :cond_0
 
-    .line 10
     sget-object p1, Lorg/apache/thrift/protocol/TCompactProtocol;->EMPTY_BYTES:[B
 
     return-object p1
 
-    .line 11
     :cond_0
     new-array v0, p1, [B
 
-    .line 12
     iget-object v1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     const/4 v2, 0x0
@@ -845,7 +810,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->getBytesRemainingInBuffer()I
@@ -860,14 +824,12 @@
 
     if-lt v0, v3, :cond_1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->getBuffer()[B
 
     move-result-object v0
 
-    .line 3
     iget-object v3, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v3}, Lorg/apache/thrift/transport/TTransport;->getBufferPosition()I
@@ -881,7 +843,6 @@
     :goto_0
     add-int v6, v3, v1
 
-    .line 4
     aget-byte v6, v0, v6
 
     and-int/lit8 v7, v6, 0x7f
@@ -894,7 +855,6 @@
 
     if-eq v6, v2, :cond_0
 
-    .line 5
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     add-int/lit8 v1, v1, 0x1
@@ -913,7 +873,6 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 6
     :goto_1
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readByte()B
 
@@ -948,7 +907,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->getBytesRemainingInBuffer()I
@@ -965,14 +923,12 @@
 
     if-lt v0, v5, :cond_1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->getBuffer()[B
 
     move-result-object v0
 
-    .line 3
     iget-object v5, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v5}, Lorg/apache/thrift/transport/TTransport;->getBufferPosition()I
@@ -986,7 +942,6 @@
     :goto_0
     add-int v4, v5, v1
 
-    .line 4
     aget-byte v4, v0, v4
 
     and-int/lit8 v8, v4, 0x7f
@@ -1001,7 +956,6 @@
 
     if-eq v4, v2, :cond_0
 
-    .line 5
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     add-int/lit8 v1, v1, 0x1
@@ -1017,7 +971,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     :goto_1
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readByte()B
@@ -1055,10 +1008,8 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0, p3}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeVarint32(I)V
 
-    .line 4
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0, p1, p2, p3}, Lorg/apache/thrift/transport/TTransport;->write([BII)V
@@ -1074,14 +1025,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->temp:[B
 
     const/4 v1, 0x0
 
     aput-byte p1, v0, v1
 
-    .line 2
     iget-object p1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     const/4 v2, 0x1
@@ -1101,7 +1050,6 @@
 
     int-to-byte p1, p1
 
-    .line 3
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeByteDirect(B)V
 
     return-void
@@ -1119,14 +1067,12 @@
 
     if-ne p2, v0, :cond_0
 
-    .line 1
     iget-byte p2, p1, Lorg/apache/thrift/protocol/TField;->type:B
 
     invoke-direct {p0, p2}, Lorg/apache/thrift/protocol/TCompactProtocol;->getCompactType(B)B
 
     move-result p2
 
-    .line 2
     :cond_0
     iget-short v0, p1, Lorg/apache/thrift/protocol/TField;->id:S
 
@@ -1146,21 +1092,17 @@
 
     or-int/2addr p2, v0
 
-    .line 3
     invoke-direct {p0, p2}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeByteDirect(I)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-direct {p0, p2}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeByteDirect(B)V
 
-    .line 5
     iget-short p2, p1, Lorg/apache/thrift/protocol/TField;->id:S
 
     invoke-virtual {p0, p2}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeI16(S)V
 
-    .line 6
     :goto_0
     iget-short p1, p1, Lorg/apache/thrift/protocol/TField;->id:S
 
@@ -1186,7 +1128,6 @@
 
     if-nez v2, :cond_0
 
-    .line 1
     iget-object v2, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->temp:[B
 
     add-int/lit8 v3, v1, 0x1
@@ -1195,14 +1136,12 @@
 
     aput-byte p1, v2, v1
 
-    .line 2
     iget-object p1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {p1, v2, v0, v3}, Lorg/apache/thrift/transport/TTransport;->write([BII)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->temp:[B
 
@@ -1246,7 +1185,6 @@
 
     if-nez v6, :cond_0
 
-    .line 1
     iget-object v2, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->temp:[B
 
     add-int/lit8 v3, v1, 0x1
@@ -1257,14 +1195,12 @@
 
     aput-byte p1, v2, v1
 
-    .line 2
     iget-object p1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {p1, v2, v0, v3}, Lorg/apache/thrift/transport/TTransport;->write([BII)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->temp:[B
 
@@ -1335,22 +1271,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readVarint32()I
 
     move-result v0
 
-    .line 2
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->checkStringReadLength(I)V
 
     if-nez v0, :cond_0
 
-    .line 3
     sget-object v0, Lorg/apache/thrift/protocol/TCompactProtocol;->EMPTY_BUFFER:Ljava/nio/ByteBuffer;
 
     return-object v0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
@@ -1360,7 +1292,6 @@
 
     if-lt v1, v0, :cond_1
 
-    .line 5
     iget-object v1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v1}, Lorg/apache/thrift/transport/TTransport;->getBuffer()[B
@@ -1377,25 +1308,21 @@
 
     move-result-object v1
 
-    .line 6
     iget-object v2, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v2, v0}, Lorg/apache/thrift/transport/TTransport;->consumeBuffer(I)V
 
     return-object v1
 
-    .line 7
     :cond_1
     new-array v1, v0, [B
 
-    .line 8
     iget-object v2, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     const/4 v3, 0x0
 
     invoke-virtual {v2, v1, v3, v0}, Lorg/apache/thrift/transport/TTransport;->readAll([BII)I
 
-    .line 9
     invoke-static {v1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -1411,24 +1338,20 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->boolValue_:Ljava/lang/Boolean;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v0
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->boolValue_:Ljava/lang/Boolean;
 
     return v0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readByte()B
 
@@ -1455,7 +1378,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->getBytesRemainingInBuffer()I
@@ -1466,7 +1388,6 @@
 
     if-lez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->getBuffer()[B
@@ -1481,14 +1402,12 @@
 
     aget-byte v0, v0, v2
 
-    .line 3
     iget-object v2, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v2, v1}, Lorg/apache/thrift/transport/TTransport;->consumeBuffer(I)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
@@ -1498,7 +1417,6 @@
 
     invoke-virtual {v0, v2, v3, v1}, Lorg/apache/thrift/transport/TTransport;->readAll([BII)I
 
-    .line 5
     iget-object v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->temp:[B
 
     aget-byte v0, v0, v3
@@ -1515,7 +1433,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     iget-object v1, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->temp:[B
@@ -1526,7 +1443,6 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lorg/apache/thrift/transport/TTransport;->readAll([BII)I
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->temp:[B
 
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->bytesToLong([B)J
@@ -1548,14 +1464,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readByte()B
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lorg/apache/thrift/protocol/TCompactProtocol;->TSTOP:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -1569,14 +1483,12 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readI16()S
 
     move-result v1
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-short v2, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->lastFieldId_:S
 
@@ -1584,7 +1496,6 @@
 
     int-to-short v1, v2
 
-    .line 5
     :goto_0
     new-instance v2, Lorg/apache/thrift/protocol/TField;
 
@@ -1600,7 +1511,6 @@
 
     invoke-direct {v2, v5, v4, v1}, Lorg/apache/thrift/protocol/TField;-><init>(Ljava/lang/String;BS)V
 
-    .line 6
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->isBoolType(B)Z
 
     move-result v0
@@ -1611,7 +1521,6 @@
 
     if-ne v3, v0, :cond_2
 
-    .line 7
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     goto :goto_1
@@ -1622,7 +1531,6 @@
     :goto_1
     iput-object v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->boolValue_:Ljava/lang/Boolean;
 
-    .line 8
     :cond_3
     iget-short v0, v2, Lorg/apache/thrift/protocol/TField;->id:S
 
@@ -1650,7 +1558,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readVarint32()I
 
     move-result v0
@@ -1672,7 +1579,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readVarint32()I
 
     move-result v0
@@ -1692,7 +1598,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readVarint64()J
 
     move-result-wide v0
@@ -1712,7 +1617,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readByte()B
 
     move-result v0
@@ -1725,21 +1629,17 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readVarint32()I
 
     move-result v1
 
-    .line 3
     :cond_0
     invoke-direct {p0, v1}, Lorg/apache/thrift/protocol/TCompactProtocol;->checkContainerReadLength(I)V
 
-    .line 4
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->getTType(B)B
 
     move-result v0
 
-    .line 5
     new-instance v2, Lorg/apache/thrift/protocol/TList;
 
     invoke-direct {v2, v0, v1}, Lorg/apache/thrift/protocol/TList;-><init>(BI)V
@@ -1766,12 +1666,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readVarint32()I
 
     move-result v0
 
-    .line 2
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->checkContainerReadLength(I)V
 
     if-nez v0, :cond_0
@@ -1780,13 +1678,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readByte()B
 
     move-result v1
 
-    .line 4
     :goto_0
     new-instance v2, Lorg/apache/thrift/protocol/TMap;
 
@@ -1830,7 +1726,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readByte()B
 
     move-result v0
@@ -1839,7 +1734,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readByte()B
 
     move-result v0
@@ -1858,24 +1752,20 @@
 
     int-to-byte v0, v0
 
-    .line 3
     invoke-direct {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readVarint32()I
 
     move-result v1
 
-    .line 4
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readString()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5
     new-instance v3, Lorg/apache/thrift/protocol/TMessage;
 
     invoke-direct {v3, v2, v0, v1}, Lorg/apache/thrift/protocol/TMessage;-><init>(Ljava/lang/String;BI)V
 
     return-object v3
 
-    .line 6
     :cond_0
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -1897,7 +1787,6 @@
 
     throw v0
 
-    .line 7
     :cond_1
     new-instance v2, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -1953,7 +1842,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TSet;
 
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readListBegin()Lorg/apache/thrift/protocol/TList;
@@ -1984,12 +1872,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readVarint32()I
 
     move-result v0
 
-    .line 2
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->checkStringReadLength(I)V
 
     if-nez v0, :cond_0
@@ -1998,7 +1884,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
@@ -2013,7 +1898,6 @@
 
     if-lt v1, v0, :cond_1
 
-    .line 4
     :try_start_1
     new-instance v1, Ljava/lang/String;
 
@@ -2031,14 +1915,12 @@
 
     invoke-direct {v1, v3, v4, v0, v2}, Ljava/lang/String;-><init>([BIILjava/lang/String;)V
 
-    .line 5
     iget-object v2, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v2, v0}, Lorg/apache/thrift/transport/TTransport;->consumeBuffer(I)V
 
     return-object v1
 
-    .line 6
     :cond_1
     new-instance v1, Ljava/lang/String;
 
@@ -2052,7 +1934,6 @@
 
     return-object v1
 
-    .line 7
     :catch_0
     new-instance v0, Lorg/apache/thrift/TException;
 
@@ -2071,7 +1952,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->lastField_:Lorg/apache/thrift/ShortStack;
 
     iget-short v1, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->lastFieldId_:S
@@ -2080,10 +1960,8 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput-short v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->lastFieldId_:S
 
-    .line 3
     sget-object v0, Lorg/apache/thrift/protocol/TCompactProtocol;->ANONYMOUS_STRUCT:Lorg/apache/thrift/protocol/TStruct;
 
     return-object v0
@@ -2097,7 +1975,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->lastField_:Lorg/apache/thrift/ShortStack;
 
     invoke-virtual {v0}, Lorg/apache/thrift/ShortStack;->pop()S
@@ -2112,14 +1989,12 @@
 .method public reset()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->lastField_:Lorg/apache/thrift/ShortStack;
 
     invoke-virtual {v0}, Lorg/apache/thrift/ShortStack;->clear()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-short v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->lastFieldId_:S
 
     return-void
@@ -2133,7 +2008,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->limit()I
 
     move-result v0
@@ -2144,7 +2018,6 @@
 
     sub-int/2addr v0, v1
 
-    .line 2
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object v1
@@ -2172,7 +2045,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->booleanField_:Lorg/apache/thrift/protocol/TField;
 
     const/4 v1, 0x1
@@ -2188,13 +2060,11 @@
     :cond_0
     const/4 v1, 0x2
 
-    .line 2
     :goto_0
     invoke-direct {p0, v0, v1}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeFieldBeginInternal(Lorg/apache/thrift/protocol/TField;B)V
 
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->booleanField_:Lorg/apache/thrift/protocol/TField;
 
     goto :goto_2
@@ -2207,7 +2077,6 @@
     :cond_2
     const/4 v1, 0x2
 
-    .line 4
     :goto_1
     invoke-direct {p0, v1}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeByteDirect(B)V
 
@@ -2223,7 +2092,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeByteDirect(B)V
 
     return-void
@@ -2243,7 +2111,6 @@
 
     shl-int/lit8 p2, p2, 0x4
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->getCompactType(B)B
 
     move-result p1
@@ -2254,7 +2121,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->getCompactType(B)B
 
@@ -2264,7 +2130,6 @@
 
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeByteDirect(I)V
 
-    .line 3
     invoke-direct {p0, p2}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeVarint32(I)V
 
     :goto_0
@@ -2279,7 +2144,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Double;->doubleToLongBits(D)J
 
     move-result-wide p1
@@ -2290,7 +2154,6 @@
 
     invoke-direct {p0, p1, p2, v0, v1}, Lorg/apache/thrift/protocol/TCompactProtocol;->fixedLongToBytes(J[BI)V
 
-    .line 2
     iget-object p1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     iget-object p2, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->temp:[B
@@ -2310,14 +2173,12 @@
         }
     .end annotation
 
-    .line 1
     iget-byte v0, p1, Lorg/apache/thrift/protocol/TField;->type:B
 
     const/4 v1, 0x2
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->booleanField_:Lorg/apache/thrift/protocol/TField;
 
     goto :goto_0
@@ -2325,7 +2186,6 @@
     :cond_0
     const/4 v0, -0x1
 
-    .line 3
     invoke-direct {p0, p1, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeFieldBeginInternal(Lorg/apache/thrift/protocol/TField;B)V
 
     :goto_0
@@ -2353,7 +2213,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeByteDirect(B)V
 
     return-void
@@ -2367,7 +2226,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->intToZigZag(I)I
 
     move-result p1
@@ -2385,7 +2243,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->intToZigZag(I)I
 
     move-result p1
@@ -2403,7 +2260,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lorg/apache/thrift/protocol/TCompactProtocol;->longToZigzag(J)J
 
     move-result-wide p1
@@ -2421,7 +2277,6 @@
         }
     .end annotation
 
-    .line 1
     iget-byte v0, p1, Lorg/apache/thrift/protocol/TList;->elemType:B
 
     iget p1, p1, Lorg/apache/thrift/protocol/TList;->size:I
@@ -2450,23 +2305,19 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p1, Lorg/apache/thrift/protocol/TMap;->size:I
 
     if-nez v0, :cond_0
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeByteDirect(I)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeVarint32(I)V
 
-    .line 4
     iget-byte v0, p1, Lorg/apache/thrift/protocol/TMap;->keyType:B
 
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->getCompactType(B)B
@@ -2510,10 +2361,8 @@
 
     const/16 v0, -0x7e
 
-    .line 1
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeByteDirect(B)V
 
-    .line 2
     iget-byte v0, p1, Lorg/apache/thrift/protocol/TMessage;->type:B
 
     shl-int/lit8 v0, v0, 0x5
@@ -2524,12 +2373,10 @@
 
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeByteDirect(I)V
 
-    .line 3
     iget v0, p1, Lorg/apache/thrift/protocol/TMessage;->seqid:I
 
     invoke-direct {p0, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeVarint32(I)V
 
-    .line 4
     iget-object p1, p1, Lorg/apache/thrift/protocol/TMessage;->name:Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeString(Ljava/lang/String;)V
@@ -2556,7 +2403,6 @@
         }
     .end annotation
 
-    .line 1
     iget-byte v0, p1, Lorg/apache/thrift/protocol/TSet;->elemType:B
 
     iget p1, p1, Lorg/apache/thrift/protocol/TSet;->size:I
@@ -2588,14 +2434,12 @@
     :try_start_0
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-virtual {p1, v0}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p1
 
     const/4 v0, 0x0
 
-    .line 2
     array-length v1, p1
 
     invoke-direct {p0, p1, v0, v1}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeBinary([BII)V
@@ -2604,7 +2448,6 @@
 
     return-void
 
-    .line 3
     :catch_0
     new-instance p1, Lorg/apache/thrift/TException;
 
@@ -2623,7 +2466,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->lastField_:Lorg/apache/thrift/ShortStack;
 
     iget-short v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->lastFieldId_:S
@@ -2632,7 +2474,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     iput-short p1, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->lastFieldId_:S
 
     return-void
@@ -2646,7 +2487,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TCompactProtocol;->lastField_:Lorg/apache/thrift/ShortStack;
 
     invoke-virtual {v0}, Lorg/apache/thrift/ShortStack;->pop()S

@@ -20,7 +20,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct/range {p0 .. p10}, Lcom/google/android/gms/ads/mediation/d;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Landroid/os/Bundle;ZLandroid/location/Location;IILjava/lang/String;Ljava/lang/String;)V
 
     return-void

@@ -82,7 +82,6 @@
 
     const-string v0, "content://com.google.android.gsf.gservices"
 
-    .line 1
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
@@ -91,7 +90,6 @@
 
     const-string v0, "content://com.google.android.gsf.gservices/prefix"
 
-    .line 2
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
@@ -102,7 +100,6 @@
 
     const/4 v1, 0x2
 
-    .line 3
     invoke-static {v0, v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -111,42 +108,36 @@
 
     const-string v0, "^(0|false|f|off|no|n)$"
 
-    .line 4
     invoke-static {v0, v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/internal/measurement/w0;->d:Ljava/util/regex/Pattern;
 
-    .line 5
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/measurement/w0;->e:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 6
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/measurement/w0;->g:Ljava/util/HashMap;
 
-    .line 7
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/measurement/w0;->h:Ljava/util/HashMap;
 
-    .line 8
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/measurement/w0;->i:Ljava/util/HashMap;
 
-    .line 9
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -157,7 +148,6 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    .line 10
     sput-object v0, Lcom/google/android/gms/internal/measurement/w0;->m:[Ljava/lang/String;
 
     return-void
@@ -166,7 +156,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -175,12 +164,10 @@
 .method public static a(Landroid/content/ContentResolver;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 10
 
-    .line 1
     const-class p2, Lcom/google/android/gms/internal/measurement/w0;
 
     monitor-enter p2
 
-    .line 2
     :try_start_0
     sget-object v0, Lcom/google/android/gms/internal/measurement/w0;->f:Ljava/util/HashMap;
 
@@ -192,29 +179,24 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     sget-object v0, Lcom/google/android/gms/internal/measurement/w0;->e:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v0, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 4
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/measurement/w0;->f:Ljava/util/HashMap;
 
-    .line 5
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/measurement/w0;->k:Ljava/lang/Object;
 
-    .line 6
     sput-boolean v2, Lcom/google/android/gms/internal/measurement/w0;->l:Z
 
-    .line 7
     sget-object v0, Lcom/google/android/gms/internal/measurement/w0;->a:Landroid/net/Uri;
 
     new-instance v4, Lcom/google/android/gms/internal/measurement/v0;
@@ -225,7 +207,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     sget-object v0, Lcom/google/android/gms/internal/measurement/w0;->e:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -235,47 +216,38 @@
 
     if-eqz v0, :cond_1
 
-    .line 9
     sget-object v0, Lcom/google/android/gms/internal/measurement/w0;->f:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
-    .line 10
     sget-object v0, Lcom/google/android/gms/internal/measurement/w0;->g:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
-    .line 11
     sget-object v0, Lcom/google/android/gms/internal/measurement/w0;->h:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
-    .line 12
     sget-object v0, Lcom/google/android/gms/internal/measurement/w0;->i:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
-    .line 13
     sget-object v0, Lcom/google/android/gms/internal/measurement/w0;->j:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
-    .line 14
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/measurement/w0;->k:Ljava/lang/Object;
 
-    .line 15
     sput-boolean v2, Lcom/google/android/gms/internal/measurement/w0;->l:Z
 
-    .line 16
     :cond_1
     :goto_0
     sget-object v0, Lcom/google/android/gms/internal/measurement/w0;->k:Ljava/lang/Object;
 
-    .line 17
     sget-object v4, Lcom/google/android/gms/internal/measurement/w0;->f:Ljava/util/HashMap;
 
     invoke-virtual {v4, p1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
@@ -284,7 +256,6 @@
 
     if-eqz v4, :cond_3
 
-    .line 18
     sget-object p0, Lcom/google/android/gms/internal/measurement/w0;->f:Ljava/util/HashMap;
 
     invoke-virtual {p0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -297,13 +268,11 @@
 
     move-object v3, p0
 
-    .line 19
     :cond_2
     monitor-exit p2
 
     return-object v3
 
-    .line 20
     :cond_3
     sget-object v4, Lcom/google/android/gms/internal/measurement/w0;->m:[Ljava/lang/String;
 
@@ -316,14 +285,12 @@
 
     aget-object v7, v4, v6
 
-    .line 21
     invoke-virtual {p1, v7}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v7
 
     if-eqz v7, :cond_7
 
-    .line 22
     sget-boolean v0, Lcom/google/android/gms/internal/measurement/w0;->l:Z
 
     if-eqz v0, :cond_4
@@ -336,11 +303,9 @@
 
     if-eqz v0, :cond_6
 
-    .line 23
     :cond_4
     sget-object v0, Lcom/google/android/gms/internal/measurement/w0;->m:[Ljava/lang/String;
 
-    .line 24
     sget-object v2, Lcom/google/android/gms/internal/measurement/w0;->f:Ljava/util/HashMap;
 
     invoke-static {p0, v0}, Lcom/google/android/gms/internal/measurement/w0;->b(Landroid/content/ContentResolver;[Ljava/lang/String;)Ljava/util/Map;
@@ -349,10 +314,8 @@
 
     invoke-virtual {v2, p0}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
-    .line 25
     sput-boolean v1, Lcom/google/android/gms/internal/measurement/w0;->l:Z
 
-    .line 26
     sget-object p0, Lcom/google/android/gms/internal/measurement/w0;->f:Ljava/util/HashMap;
 
     invoke-virtual {p0, p1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
@@ -361,7 +324,6 @@
 
     if-eqz p0, :cond_6
 
-    .line 27
     sget-object p0, Lcom/google/android/gms/internal/measurement/w0;->f:Ljava/util/HashMap;
 
     invoke-virtual {p0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -374,13 +336,11 @@
 
     move-object v3, p0
 
-    .line 28
     :cond_5
     monitor-exit p2
 
     return-object v3
 
-    .line 29
     :cond_6
     monitor-exit p2
 
@@ -391,13 +351,11 @@
 
     goto :goto_1
 
-    .line 30
     :cond_8
     monitor-exit p2
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 31
     sget-object v5, Lcom/google/android/gms/internal/measurement/w0;->a:Landroid/net/Uri;
 
     const/4 v6, 0x0
@@ -420,13 +378,11 @@
 
     if-eqz p0, :cond_9
 
-    .line 32
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
     :cond_9
     return-object v3
 
-    .line 33
     :cond_a
     :try_start_1
     invoke-interface {p0}, Landroid/database/Cursor;->moveToFirst()Z
@@ -435,20 +391,17 @@
 
     if-nez p2, :cond_c
 
-    .line 34
     invoke-static {v0, p1, v3}, Lcom/google/android/gms/internal/measurement/w0;->d(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     if-eqz p0, :cond_b
 
-    .line 35
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
     :cond_b
     return-object v3
 
-    .line 36
     :cond_c
     :try_start_2
     invoke-interface {p0, v1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
@@ -457,7 +410,6 @@
 
     if-eqz p2, :cond_d
 
-    .line 37
     invoke-virtual {p2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -466,7 +418,6 @@
 
     move-object p2, v3
 
-    .line 38
     :cond_d
     invoke-static {v0, p1, p2}, Lcom/google/android/gms/internal/measurement/w0;->d(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
@@ -479,7 +430,6 @@
     :cond_e
     if-eqz p0, :cond_f
 
-    .line 39
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
     :cond_f
@@ -490,7 +440,6 @@
 
     if-eqz p0, :cond_10
 
-    .line 40
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
     :cond_10
@@ -499,7 +448,6 @@
     :catchall_1
     move-exception p0
 
-    .line 41
     :try_start_3
     monitor-exit p2
     :try_end_3
@@ -524,7 +472,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v1, Lcom/google/android/gms/internal/measurement/w0;->b:Landroid/net/Uri;
 
     const/4 v2, 0x0
@@ -541,7 +488,6 @@
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Ljava/util/TreeMap;
 
     invoke-direct {p1}, Ljava/util/TreeMap;-><init>()V
@@ -550,7 +496,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     :goto_0
     :try_start_0
@@ -562,7 +507,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-interface {p0, v0}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v0
@@ -579,7 +523,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
@@ -588,7 +531,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
     throw p1
@@ -597,7 +539,6 @@
 .method static synthetic c()Ljava/util/concurrent/atomic/AtomicBoolean;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/w0;->e:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     return-object v0
@@ -606,23 +547,19 @@
 .method private static d(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/measurement/w0;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/google/android/gms/internal/measurement/w0;->k:Ljava/lang/Object;
 
     if-ne p0, v1, :cond_0
 
-    .line 3
     sget-object p0, Lcom/google/android/gms/internal/measurement/w0;->f:Ljava/util/HashMap;
 
     invoke-virtual {p0, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     :cond_0
     monitor-exit v0
 

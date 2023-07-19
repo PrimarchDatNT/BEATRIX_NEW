@@ -25,10 +25,8 @@
 .method public constructor <init>(Lio/grpc/internal/y;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/KeepAliveManager$c;->a:Lio/grpc/internal/y;
 
     return-void
@@ -37,7 +35,6 @@
 .method static synthetic c(Lio/grpc/internal/KeepAliveManager$c;)Lio/grpc/internal/y;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/KeepAliveManager$c;->a:Lio/grpc/internal/y;
 
     return-object p0
@@ -48,19 +45,16 @@
 .method public a()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager$c;->a:Lio/grpc/internal/y;
 
     new-instance v1, Lio/grpc/internal/KeepAliveManager$c$a;
 
     invoke-direct {v1, p0}, Lio/grpc/internal/KeepAliveManager$c$a;-><init>(Lio/grpc/internal/KeepAliveManager$c;)V
 
-    .line 2
     invoke-static {}, Lcom/google/common/util/concurrent/n0;->d()Ljava/util/concurrent/Executor;
 
     move-result-object v2
 
-    .line 3
     invoke-interface {v0, v1, v2}, Lio/grpc/internal/v;->e(Lio/grpc/internal/v$a;Ljava/util/concurrent/Executor;)V
 
     return-void
@@ -69,7 +63,6 @@
 .method public b()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager$c;->a:Lio/grpc/internal/y;
 
     sget-object v1, Lio/grpc/Status;->v:Lio/grpc/Status;

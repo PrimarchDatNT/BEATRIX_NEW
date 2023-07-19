@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,17 +31,14 @@
 .method public final synthetic a(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/v8;
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/internal/ads/p5;->h:Lcom/google/android/gms/internal/ads/g6;
 
     const-string v1, "/log"
 
     invoke-interface {p1, v1, v0}, Lcom/google/android/gms/internal/ads/ia;->i(Ljava/lang/String;Lcom/google/android/gms/internal/ads/g6;)V
 
-    .line 3
     sget-object v0, Lcom/google/android/gms/internal/ads/p5;->p:Lcom/google/android/gms/internal/ads/m6;
 
     const-string v1, "/result"

@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$d;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v1}, Lcom/commsource/home/NewHomeActivity;->S0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/home/NewHomeContentViewModel;
@@ -55,7 +54,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/home/entity/HomeContentRepository;->g()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

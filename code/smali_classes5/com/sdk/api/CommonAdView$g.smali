@@ -25,7 +25,6 @@
 .method private constructor <init>(Lcom/sdk/api/CommonAdView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/CommonAdView$g;->a:Lcom/sdk/api/CommonAdView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/sdk/api/CommonAdView;Lcom/sdk/api/CommonAdView$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/sdk/api/CommonAdView$g;-><init>(Lcom/sdk/api/CommonAdView;)V
 
     return-void
@@ -47,7 +45,6 @@
 .method public b(I)V
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -66,7 +63,6 @@
 
     invoke-static {v1, v0}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/CommonAdView$g;->a:Lcom/sdk/api/CommonAdView;
 
     invoke-static {v0}, Lcom/sdk/api/CommonAdView;->a(Lcom/sdk/api/CommonAdView;)Ljava/util/List;
@@ -87,14 +83,12 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/sdk/api/CommonAdView$g;->a:Lcom/sdk/api/CommonAdView;
 
     invoke-static {p1}, Lcom/sdk/api/CommonAdView;->e(Lcom/sdk/api/CommonAdView;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/sdk/api/CommonAdView$g;->a:Lcom/sdk/api/CommonAdView;
 
@@ -115,10 +109,8 @@
 
     const-string v1, "CommonAd onViewPrepared"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/CommonAdView$g;->a:Lcom/sdk/api/CommonAdView;
 
     const/4 v1, 0x1
@@ -133,7 +125,6 @@
 .method public d()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/api/CommonAdView$g;->a:Lcom/sdk/api/CommonAdView;
 
     const/4 v1, 0x4
@@ -150,7 +141,6 @@
 .method public onAdClick()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/api/CommonAdView$g;->a:Lcom/sdk/api/CommonAdView;
 
     const/4 v1, 0x5

@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/helpcapture/j0;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/helpcapture/j0$a;->g:Lcom/commsource/helpcapture/j0;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/helpcapture/j0$a;->g:Lcom/commsource/helpcapture/j0;
 
@@ -49,7 +47,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/helpcapture/j0;->z0(Lcom/commsource/helpcapture/j0;Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;)Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/helpcapture/j0$a;->g:Lcom/commsource/helpcapture/j0;
 
     invoke-static {v1}, Lcom/commsource/helpcapture/j0;->q0(Lcom/commsource/helpcapture/j0;)Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;
@@ -58,17 +55,14 @@
 
     sget-object v2, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$Parameters;->anchorMatchThreshold:Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$Parameters;
 
-    .line 3
     invoke-static {}, Lcom/commsource/helpcapture/k0;->M()F
 
     move-result v3
 
     float-to-double v3, v3
 
-    .line 4
     invoke-virtual {v1, v2, v3, v4}, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;->SetParameters(Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$Parameters;D)I
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/helpcapture/j0$a;->g:Lcom/commsource/helpcapture/j0;
 
     invoke-static {v1}, Lcom/commsource/helpcapture/j0;->q0(Lcom/commsource/helpcapture/j0;)Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;
@@ -79,7 +73,6 @@
 
     sget-object v4, Lcom/commsource/helpcapture/k0;->z:Ljava/lang/String;
 
-    .line 6
     invoke-static {}, Lcom/commsource/helpcapture/k0;->K()I
 
     move-result v5
@@ -88,7 +81,6 @@
 
     move-result v6
 
-    .line 7
     invoke-static {}, Lf/k/c/a;->a()Landroid/app/Application;
 
     move-result-object v1
@@ -97,7 +89,6 @@
 
     move-result-object v7
 
-    .line 8
     invoke-virtual/range {v2 .. v7}, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;->Init(Ljava/lang/String;Ljava/lang/String;IFLandroid/content/res/AssetManager;)I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -107,24 +98,20 @@
     :catch_0
     move-exception v1
 
-    .line 9
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
     const-string v1, "yyp"
 
     const-string v2, "-------\u951a\u70b9SDK\u521d\u59cb\u5316\u5931\u8d25\u4e86-------"
 
-    .line 10
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/helpcapture/j0$a;->g:Lcom/commsource/helpcapture/j0;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/helpcapture/j0;->z0(Lcom/commsource/helpcapture/j0;Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;)Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;
 
-    .line 12
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -25,10 +25,8 @@
 
     const-string v1, "thingsdet"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -45,10 +43,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lcom/meitu/mtobjdetect/MTThingsDetectorNative;->nativeLoadModel(ILjava/util/List;)J
 
     move-result-wide p1
@@ -74,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtobjdetect/MTThingsDetectorNative;
 
     const/4 v2, 0x2
@@ -95,12 +90,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtobjdetect/MTThingsDetectorNative;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtobjdetect/MTThingsDetectorNative;->nativeDestroy(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -113,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtobjdetect/MTThingsDetectorNative;->a:J
 
     move-object v1, p0
@@ -140,7 +132,6 @@
 
     move-object v11, p0
 
-    .line 1
     iget-wide v2, v11, Lcom/meitu/mtobjdetect/MTThingsDetectorNative;->a:J
 
     move-object v1, p0
@@ -175,7 +166,6 @@
 
     move-object v11, p0
 
-    .line 1
     iget-wide v2, v11, Lcom/meitu/mtobjdetect/MTThingsDetectorNative;->a:J
 
     move-object v1, p0
@@ -210,7 +200,6 @@
 
     move-object v11, p0
 
-    .line 1
     iget-wide v2, v11, Lcom/meitu/mtobjdetect/MTThingsDetectorNative;->a:J
 
     move-object v1, p0

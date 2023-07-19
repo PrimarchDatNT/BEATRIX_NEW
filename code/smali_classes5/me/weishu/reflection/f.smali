@@ -29,14 +29,12 @@
 
     invoke-static {}, Lme/weishu/reflection/f;->a()V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x1c
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     :try_start_0
     const-class v1, Ljava/lang/Class;
 
@@ -54,7 +52,6 @@
 
     move-result-object v1
 
-    .line 3
     const-class v2, Ljava/lang/Class;
 
     const-string v4, "getDeclaredMethod"
@@ -79,7 +76,6 @@
 
     aput-object v4, v2, v5
 
-    .line 4
     sget-object v4, Lme/weishu/reflection/f;->e:Lorg/aspectj/lang/c$b;
 
     const/4 v7, 0x0
@@ -130,7 +126,6 @@
 
     aput-object v7, v8, v3
 
-    .line 5
     sget-object v10, Lme/weishu/reflection/f;->f:Lorg/aspectj/lang/c$b;
 
     invoke-static {v10, v7, v0, v2, v8}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -173,7 +168,6 @@
 
     new-array v11, v3, [Ljava/lang/Class;
 
-    .line 6
     const-class v12, [Ljava/lang/String;
 
     aput-object v12, v11, v5
@@ -218,7 +212,6 @@
 
     new-array v0, v5, [Ljava/lang/Object;
 
-    .line 7
     sget-object v2, Lme/weishu/reflection/f;->h:Lorg/aspectj/lang/c$b;
 
     invoke-static {v2, v7, v8, v7, v0}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -264,7 +257,6 @@
 
     const-string v2, "reflect bootstrap failed:"
 
-    .line 8
     invoke-static {v1, v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0
@@ -275,7 +267,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -284,7 +275,6 @@
 .method private static synthetic a()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lme/weishu/reflection/f;
@@ -449,7 +439,6 @@
 
     aput-object p0, v0, v1
 
-    .line 1
     invoke-static {v0}, Lme/weishu/reflection/f;->c([Ljava/lang/String;)Z
 
     move-result p0
@@ -460,7 +449,6 @@
 .method public static varargs c([Ljava/lang/String;)Z
     .locals 7
 
-    .line 1
     sget-object v0, Lme/weishu/reflection/f;->b:Ljava/lang/Object;
 
     const/4 v1, 0x0
@@ -481,7 +469,6 @@
 
     aput-object p0, v4, v1
 
-    .line 2
     sget-object p0, Lme/weishu/reflection/f;->d:Lorg/aspectj/lang/c$b;
 
     const/4 v5, 0x0
@@ -537,7 +524,6 @@
 
     const-string v0, "L"
 
-    .line 1
     filled-new-array {v0}, [Ljava/lang/String;
 
     move-result-object v0
@@ -552,7 +538,6 @@
 .method static final synthetic e(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -563,7 +548,6 @@
 .method static final synthetic f(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -574,7 +558,6 @@
 .method static final synthetic g(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -585,7 +568,6 @@
 .method static final synthetic h(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -596,7 +578,6 @@
 .method static final synthetic i(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0

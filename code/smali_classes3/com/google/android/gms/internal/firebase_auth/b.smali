@@ -37,10 +37,8 @@
 .method protected constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget v0, Lcom/google/android/gms/internal/firebase_auth/c;->b:I
 
     iput v0, p0, Lcom/google/android/gms/internal/firebase_auth/b;->a:I
@@ -69,7 +67,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     sget v0, Lcom/google/android/gms/internal/firebase_auth/c;->c:I
 
     iput v0, p0, Lcom/google/android/gms/internal/firebase_auth/b;->a:I
@@ -82,7 +79,6 @@
 .method public final hasNext()Z
     .locals 5
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/firebase_auth/b;->a:I
 
     sget v1, Lcom/google/android/gms/internal/firebase_auth/c;->d:I
@@ -103,7 +99,6 @@
     :goto_0
     if-eqz v4, :cond_3
 
-    .line 2
     sget-object v4, Lcom/google/android/gms/internal/firebase_auth/d;->a:[I
 
     sub-int/2addr v0, v3
@@ -116,24 +111,20 @@
 
     if-eq v0, v4, :cond_1
 
-    .line 3
     iput v1, p0, Lcom/google/android/gms/internal/firebase_auth/b;->a:I
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/b;->a()Ljava/lang/Object;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/b;->b:Ljava/lang/Object;
 
-    .line 5
     iget v0, p0, Lcom/google/android/gms/internal/firebase_auth/b;->a:I
 
     sget v1, Lcom/google/android/gms/internal/firebase_auth/c;->c:I
 
     if-eq v0, v1, :cond_1
 
-    .line 6
     sget v0, Lcom/google/android/gms/internal/firebase_auth/c;->a:I
 
     iput v0, p0, Lcom/google/android/gms/internal/firebase_auth/b;->a:I
@@ -146,7 +137,6 @@
     :cond_2
     return v3
 
-    .line 7
     :cond_3
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -163,29 +153,24 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/b;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget v0, Lcom/google/android/gms/internal/firebase_auth/c;->b:I
 
     iput v0, p0, Lcom/google/android/gms/internal/firebase_auth/b;->a:I
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/b;->b:Ljava/lang/Object;
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcom/google/android/gms/internal/firebase_auth/b;->b:Ljava/lang/Object;
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -197,7 +182,6 @@
 .method public final remove()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V

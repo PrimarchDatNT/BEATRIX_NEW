@@ -11,7 +11,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,10 +27,8 @@
 
     const-string v1, "Using VideoFilterEdit Version Importer."
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/media/tools/utils/debug/Logger;->R(Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Lcom/meitu/media/tools/editor/VideoFilterEdit;
 
     invoke-direct {v1, p0}, Lcom/meitu/media/tools/editor/VideoFilterEdit;-><init>(Landroid/content/Context;)V
@@ -40,7 +37,6 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/security/InvalidParameterException;
 
@@ -64,7 +60,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v3, 0x10
@@ -81,36 +76,30 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/media/tools/editor/p;
 
     invoke-direct {v1, p0}, Lcom/meitu/media/tools/editor/p;-><init>(Landroid/content/Context;)V
 
     const-string v2, "Using Android mediacodec version importer."
 
-    .line 3
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->R(Ljava/lang/String;)V
 
     :cond_0
     if-nez v1, :cond_1
 
-    .line 4
     new-instance v1, Lcom/meitu/media/tools/editor/VideoFilterEdit;
 
     invoke-direct {v1, p0}, Lcom/meitu/media/tools/editor/VideoFilterEdit;-><init>(Landroid/content/Context;)V
 
     const-string p0, "Using VideoFilterEdit Version Importer."
 
-    .line 5
     invoke-static {p0}, Lcom/meitu/media/tools/utils/debug/Logger;->R(Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 7
     :cond_2
     new-instance p0, Ljava/security/InvalidParameterException;
 

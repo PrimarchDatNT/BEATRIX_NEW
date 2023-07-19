@@ -25,20 +25,16 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/firebase/remoteconfig/d$a;->a:Z
 
     const-wide/16 v0, 0x5
 
-    .line 3
     iput-wide v0, p0, Lcom/google/firebase/remoteconfig/d$a;->b:J
 
-    .line 4
     sget-wide v0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->m:J
 
     iput-wide v0, p0, Lcom/google/firebase/remoteconfig/d$a;->c:J
@@ -49,7 +45,6 @@
 .method static synthetic e(Lcom/google/firebase/remoteconfig/d$a;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/firebase/remoteconfig/d$a;->a:Z
 
     return p0
@@ -58,7 +53,6 @@
 .method static synthetic f(Lcom/google/firebase/remoteconfig/d$a;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/remoteconfig/d$a;->b:J
 
     return-wide v0
@@ -67,7 +61,6 @@
 .method static synthetic g(Lcom/google/firebase/remoteconfig/d$a;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/remoteconfig/d$a;->c:J
 
     return-wide v0
@@ -78,7 +71,6 @@
 .method public a()Lcom/google/firebase/remoteconfig/d;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/remoteconfig/d;
 
     const/4 v1, 0x0
@@ -91,7 +83,6 @@
 .method public b(Z)Lcom/google/firebase/remoteconfig/d$a;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/firebase/remoteconfig/d$a;->a:Z
 
     return-object p0
@@ -111,12 +102,10 @@
 
     if-ltz v2, :cond_0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/firebase/remoteconfig/d$a;->b:J
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -126,7 +115,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -135,7 +123,6 @@
 
     const-string p1, "Fetch connection timeout has to be a non-negative number. %d is an invalid argument"
 
-    .line 4
     invoke-static {p1, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -154,12 +141,10 @@
 
     if-ltz v2, :cond_0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/firebase/remoteconfig/d$a;->c:J
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 

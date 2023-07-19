@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager$b;->a:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -39,14 +38,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager$b;->a:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
     const/4 v1, -0x1
 
     invoke-static {v0, v1}, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;->c(Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;I)I
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -59,14 +56,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager$b;->a:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
     const/4 v1, -0x1
 
     invoke-static {v0, v1}, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;->c(Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;I)I
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

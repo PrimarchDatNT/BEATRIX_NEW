@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     invoke-virtual {p3, p1, p2}, Lf/f/b/c/j/g;->c(FF)V
 
     return-void

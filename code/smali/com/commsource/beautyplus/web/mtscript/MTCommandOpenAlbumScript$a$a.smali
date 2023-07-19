@@ -25,7 +25,6 @@
 .method constructor <init>(Ljava/lang/String;Landroid/webkit/WebView;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$a$a;->g:Ljava/lang/String;
 
     iput-object p2, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$a$a;->p:Landroid/webkit/WebView;
@@ -44,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->m:Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$a;->g()Z
@@ -53,7 +51,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$a;->h()Ljava/lang/String;
 
     move-result-object v2
@@ -74,7 +71,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$a;->h()Ljava/lang/String;
 
@@ -94,7 +90,6 @@
 
     move-result-object v1
 
-    .line 4
     :goto_0
     new-instance v2, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$a$a$a;
 
@@ -102,7 +97,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -74,12 +74,10 @@
 
     const/4 v1, 0x5
 
-    .line 1
     sput v1, Lcom/commsource/widget/VernierView;->Q:I
 
     const/16 v1, 0xa
 
-    .line 2
     sput v1, Lcom/commsource/widget/VernierView;->R:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -160,17 +158,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     sget p2, Lcom/commsource/widget/VernierView;->R:I
 
     iput p2, p0, Lcom/commsource/widget/VernierView;->a:I
 
     const/high16 p2, 0x40800000    # 4.0f
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p2
@@ -179,15 +174,12 @@
 
     const/16 p2, 0x1c2
 
-    .line 5
     iput p2, p0, Lcom/commsource/widget/VernierView;->g:I
 
     const/16 p2, -0x1c2
 
-    .line 6
     iput p2, p0, Lcom/commsource/widget/VernierView;->p:I
 
-    .line 7
     new-instance p2, Lcom/commsource/widget/VernierView$scroller$2;
 
     invoke-direct {p2, p1}, Lcom/commsource/widget/VernierView$scroller$2;-><init>(Landroid/content/Context;)V
@@ -198,7 +190,6 @@
 
     iput-object p2, p0, Lcom/commsource/widget/VernierView;->L:Lcotlin/w;
 
-    .line 8
     new-instance p2, Lcom/commsource/widget/VernierView$xGestureDetector$2;
 
     invoke-direct {p2, p0, p1}, Lcom/commsource/widget/VernierView$xGestureDetector$2;-><init>(Lcom/commsource/widget/VernierView;Landroid/content/Context;)V
@@ -209,7 +200,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/VernierView;->M:Lcotlin/w;
 
-    .line 9
     sget-object p1, Lcom/commsource/widget/VernierView$normalPaint$2;->INSTANCE:Lcom/commsource/widget/VernierView$normalPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -237,7 +227,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/VernierView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -251,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/widget/VernierView;->Q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -266,7 +254,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/widget/VernierView;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,7 +268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/widget/VernierView;->R:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -296,7 +282,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/widget/VernierView;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/VernierView;->getScroller()Landroid/widget/OverScroller;
 
     move-result-object p0
@@ -368,7 +352,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/VernierView;->g:I
 
     iget v2, p0, Lcom/commsource/widget/VernierView;->p:I
@@ -411,7 +394,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/VernierView;->getSpaceCount()I
 
     move-result p0
@@ -428,7 +410,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/VernierView;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -443,7 +424,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/VernierView;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -458,7 +438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/VernierView;->p(F)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -473,7 +452,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getScrollX()I
 
     move-result v1
@@ -506,7 +484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/VernierView;->p:I
 
     sub-int/2addr p1, v1
@@ -541,14 +518,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getScrollX()I
 
     move-result v1
 
     if-gtz v1, :cond_0
 
-    .line 2
     sget v1, Lcom/commsource/widget/VernierView;->Q:I
 
     :goto_0
@@ -558,7 +533,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->getScrollX()I
 
@@ -574,7 +548,6 @@
 
     if-lt v1, v2, :cond_1
 
-    .line 4
     sget v1, Lcom/commsource/widget/VernierView;->Q:I
 
     goto :goto_0
@@ -585,13 +558,10 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-virtual {p0, p1, v1}, Landroid/view/View;->scrollBy(II)V
 
-    .line 6
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -675,7 +645,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/VernierView;->getScroller()Landroid/widget/OverScroller;
 
     move-result-object v1
@@ -686,7 +655,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/VernierView;->getScroller()Landroid/widget/OverScroller;
 
     move-result-object v1
@@ -701,16 +669,13 @@
 
     invoke-virtual {p0, v1, v2}, Landroid/view/View;->scrollTo(II)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/commsource/widget/VernierView;->l()F
 
     move-result v1
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/widget/VernierView;->getSpaceCount()I
 
     move-result v2
@@ -721,20 +686,16 @@
 
     float-to-int v2, v2
 
-    .line 6
     iget v3, p0, Lcom/commsource/widget/VernierView;->O:I
 
     if-eq v3, v2, :cond_1
 
     const/4 v3, 0x4
 
-    .line 7
     invoke-static {v3}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 8
     iput v2, p0, Lcom/commsource/widget/VernierView;->O:I
 
-    .line 9
     :cond_1
     iget v2, p0, Lcom/commsource/widget/VernierView;->g:I
 
@@ -770,15 +731,12 @@
     :cond_4
     if-lt v2, v1, :cond_5
 
-    .line 10
     iget v2, p0, Lcom/commsource/widget/VernierView;->J:I
 
     if-eq v1, v2, :cond_5
 
-    .line 11
     iput v1, p0, Lcom/commsource/widget/VernierView;->J:I
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/widget/VernierView;->K:Lcom/commsource/widget/x0;
 
     if-eqz v2, :cond_5
@@ -791,12 +749,10 @@
 
     invoke-interface {v2, v1, v3, v4}, Lcom/commsource/widget/x0;->c(IIZ)V
 
-    .line 13
     :cond_5
     :goto_1
     invoke-super {p0}, Landroid/view/View;->computeScroll()V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -811,7 +767,6 @@
 
     const/high16 v1, 0x43160000    # 150.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -828,7 +783,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/VernierView;->c:I
 
     invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
@@ -855,7 +809,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/VernierView;->b:I
 
     invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
@@ -882,7 +835,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/VernierView;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -897,7 +849,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/VernierView;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -914,7 +865,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/VernierView;->K:Lcom/commsource/widget/x0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -931,7 +881,6 @@
 
     const/high16 v1, 0x43160000    # 150.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -948,7 +897,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -963,13 +911,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/VernierView;->b:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/widget/VernierView;->c:I
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result p1
@@ -982,7 +927,6 @@
 
     iput p1, p0, Lcom/commsource/widget/VernierView;->f:F
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -995,7 +939,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/VernierView;->p:I
 
     if-gt p1, v1, :cond_0
@@ -1005,7 +948,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget v1, p0, Lcom/commsource/widget/VernierView;->g:I
 
@@ -1019,26 +961,22 @@
 
     if-eqz p2, :cond_2
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/VernierView;->getScroller()Landroid/widget/OverScroller;
 
     move-result-object p2
 
     invoke-virtual {p2, v1}, Landroid/widget/OverScroller;->forceFinished(Z)V
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/commsource/widget/VernierView;->m(I)I
 
     move-result p1
 
-    .line 5
     invoke-virtual {p0}, Landroid/view/View;->getScrollX()I
 
     move-result p2
 
     sub-int/2addr p1, p2
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/widget/VernierView;->getScroller()Landroid/widget/OverScroller;
 
     move-result-object v1
@@ -1059,12 +997,10 @@
 
     invoke-virtual/range {v1 .. v6}, Landroid/widget/OverScroller;->startScroll(IIIII)V
 
-    .line 7
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     goto :goto_2
 
-    .line 8
     :cond_2
     invoke-direct {p0}, Lcom/commsource/widget/VernierView;->getScroller()Landroid/widget/OverScroller;
 
@@ -1072,10 +1008,8 @@
 
     invoke-virtual {p2, v1}, Landroid/widget/OverScroller;->forceFinished(Z)V
 
-    .line 9
     iput p1, p0, Lcom/commsource/widget/VernierView;->J:I
 
-    .line 10
     invoke-direct {p0, p1}, Lcom/commsource/widget/VernierView;->m(I)I
 
     move-result p2
@@ -1084,10 +1018,8 @@
 
     invoke-virtual {p0, p2, v1}, Landroid/view/View;->scrollTo(II)V
 
-    .line 11
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 12
     iget-object p2, p0, Lcom/commsource/widget/VernierView;->K:Lcom/commsource/widget/x0;
 
     if-eqz p2, :cond_3
@@ -1098,7 +1030,6 @@
 
     invoke-interface {p2, p1, v2, v1}, Lcom/commsource/widget/x0;->c(IIZ)V
 
-    .line 13
     :cond_3
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1117,22 +1048,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 3
     iget v1, p0, Lcom/commsource/widget/VernierView;->f:F
 
     const/4 v2, 0x0
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/widget/VernierView;->getSpaceCount()I
 
     move-result v1
@@ -1144,7 +1071,6 @@
     :goto_0
     const/4 v5, 0x0
 
-    .line 5
     invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v4
@@ -1173,7 +1099,6 @@
 
     invoke-virtual/range {v4 .. v9}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 6
     iget v4, p0, Lcom/commsource/widget/VernierView;->d:I
 
     int-to-float v4, v4
@@ -1186,11 +1111,9 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1204,17 +1127,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super/range {p0 .. p5}, Landroid/view/View;->onLayout(ZIIII)V
 
     sub-int/2addr p4, p2
 
     sub-int/2addr p5, p3
 
-    .line 2
     invoke-virtual {p0, p4, p5}, Lcom/commsource/widget/VernierView;->n(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1227,13 +1147,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/VernierView;->n(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1250,7 +1167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->isEnabled()Z
 
     move-result v1
@@ -1261,7 +1177,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/commsource/widget/VernierView;->getXGestureDetector()Lcom/commsource/beautymain/widget/gesturewidget/e;
 
@@ -1271,12 +1186,10 @@
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_1
     :goto_0
     invoke-super {p0, p1}, Landroid/view/View;->onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -1295,13 +1208,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/VernierView;->g:I
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1314,13 +1224,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/VernierView;->p:I
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1337,7 +1244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/VernierView;->K:Lcom/commsource/widget/x0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1354,10 +1260,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/VernierView;->o(IZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -25,7 +25,6 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/u/g$a;->a:Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/u/g;->a()Lcom/meitu/library/analytics/u/g;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/library/analytics/u/g;
 
     iget-object v2, p0, Lcom/meitu/library/analytics/u/g$a;->a:Landroid/content/Context;
@@ -60,7 +57,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/analytics/u/g;->b(Lcom/meitu/library/analytics/u/g;)Lcom/meitu/library/analytics/u/g;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

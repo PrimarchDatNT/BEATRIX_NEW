@@ -326,30 +326,24 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x64
 
-    .line 2
     iput v0, p0, Lcom/commsource/camera/a1/f;->f0:I
 
     const/4 v0, 0x0
 
-    .line 3
     iput v0, p0, Lcom/commsource/camera/a1/f;->g0:I
 
-    .line 4
     iput-boolean v0, p0, Lcom/commsource/camera/a1/f;->h0:Z
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->i0:Ljava/util/ArrayList;
 
-    .line 6
     new-instance v0, Landroid/util/SparseIntArray;
 
     invoke-direct {v0}, Landroid/util/SparseIntArray;-><init>()V
@@ -364,42 +358,34 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x64
 
-    .line 8
     iput v0, p0, Lcom/commsource/camera/a1/f;->f0:I
 
     const/4 v0, 0x0
 
-    .line 9
     iput v0, p0, Lcom/commsource/camera/a1/f;->g0:I
 
-    .line 10
     iput-boolean v0, p0, Lcom/commsource/camera/a1/f;->h0:Z
 
-    .line 11
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->i0:Ljava/util/ArrayList;
 
-    .line 12
     new-instance v0, Landroid/util/SparseIntArray;
 
     invoke-direct {v0}, Landroid/util/SparseIntArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->j0:Landroid/util/SparseIntArray;
 
-    .line 13
     iput p1, p0, Lcom/commsource/camera/a1/f;->a:I
 
     const/4 p1, 0x1
 
-    .line 14
     iput-boolean p1, p0, Lcom/commsource/camera/a1/f;->g:Z
 
     return-void
@@ -410,55 +396,42 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 15
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x64
 
-    .line 16
     iput v0, p0, Lcom/commsource/camera/a1/f;->f0:I
 
     const/4 v0, 0x0
 
-    .line 17
     iput v0, p0, Lcom/commsource/camera/a1/f;->g0:I
 
-    .line 18
     iput-boolean v0, p0, Lcom/commsource/camera/a1/f;->h0:Z
 
-    .line 19
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->i0:Ljava/util/ArrayList;
 
-    .line 20
     new-instance v0, Landroid/util/SparseIntArray;
 
     invoke-direct {v0}, Landroid/util/SparseIntArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->j0:Landroid/util/SparseIntArray;
 
-    .line 21
     iput p1, p0, Lcom/commsource/camera/a1/f;->a:I
 
-    .line 22
     iput p2, p0, Lcom/commsource/camera/a1/f;->c:I
 
-    .line 23
     iput p3, p0, Lcom/commsource/camera/a1/f;->d:I
 
-    .line 24
     iput p3, p0, Lcom/commsource/camera/a1/f;->f:I
 
-    .line 25
     iput-boolean p4, p0, Lcom/commsource/camera/a1/f;->g:Z
 
-    .line 26
     iput-object p5, p0, Lcom/commsource/camera/a1/f;->b:Ljava/lang/String;
 
-    .line 27
     iput p6, p0, Lcom/commsource/camera/a1/f;->N:I
 
     return-void
@@ -469,30 +442,24 @@
 
     move-object v0, p0
 
-    .line 28
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v1, 0x64
 
-    .line 29
     iput v1, v0, Lcom/commsource/camera/a1/f;->f0:I
 
     const/4 v1, 0x0
 
-    .line 30
     iput v1, v0, Lcom/commsource/camera/a1/f;->g0:I
 
-    .line 31
     iput-boolean v1, v0, Lcom/commsource/camera/a1/f;->h0:Z
 
-    .line 32
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, v0, Lcom/commsource/camera/a1/f;->i0:Ljava/util/ArrayList;
 
-    .line 33
     new-instance v1, Landroid/util/SparseIntArray;
 
     invoke-direct {v1}, Landroid/util/SparseIntArray;-><init>()V
@@ -501,117 +468,94 @@
 
     move v1, p1
 
-    .line 34
     iput v1, v0, Lcom/commsource/camera/a1/f;->a:I
 
     move-object v1, p2
 
-    .line 35
     iput-object v1, v0, Lcom/commsource/camera/a1/f;->b:Ljava/lang/String;
 
     move v1, p3
 
-    .line 36
     iput v1, v0, Lcom/commsource/camera/a1/f;->c:I
 
     move v1, p4
 
-    .line 37
     iput v1, v0, Lcom/commsource/camera/a1/f;->d:I
 
     move v1, p5
 
-    .line 38
     iput v1, v0, Lcom/commsource/camera/a1/f;->f:I
 
     move v1, p6
 
-    .line 39
     iput-boolean v1, v0, Lcom/commsource/camera/a1/f;->g:Z
 
     move v1, p7
 
-    .line 40
     iput v1, v0, Lcom/commsource/camera/a1/f;->p:I
 
     move-object v1, p8
 
-    .line 41
     iput-object v1, v0, Lcom/commsource/camera/a1/f;->J:Ljava/lang/String;
 
     move-object v1, p9
 
-    .line 42
     iput-object v1, v0, Lcom/commsource/camera/a1/f;->K:Ljava/lang/String;
 
     move-wide v1, p10
 
-    .line 43
     iput-wide v1, v0, Lcom/commsource/camera/a1/f;->L:J
 
     move v1, p12
 
-    .line 44
     iput v1, v0, Lcom/commsource/camera/a1/f;->M:I
 
     move/from16 v1, p13
 
-    .line 45
     iput v1, v0, Lcom/commsource/camera/a1/f;->N:I
 
     move/from16 v1, p14
 
-    .line 46
     iput v1, v0, Lcom/commsource/camera/a1/f;->O:I
 
     move-object/from16 v1, p15
 
-    .line 47
     iput-object v1, v0, Lcom/commsource/camera/a1/f;->P:Ljava/lang/String;
 
     move-object/from16 v1, p16
 
-    .line 48
     iput-object v1, v0, Lcom/commsource/camera/a1/f;->Q:Ljava/lang/String;
 
     move/from16 v1, p17
 
-    .line 49
     iput-boolean v1, v0, Lcom/commsource/camera/a1/f;->R:Z
 
     move/from16 v1, p18
 
-    .line 50
     iput v1, v0, Lcom/commsource/camera/a1/f;->S:I
 
     move/from16 v1, p19
 
-    .line 51
     iput v1, v0, Lcom/commsource/camera/a1/f;->T:I
 
     move/from16 v1, p20
 
-    .line 52
     iput v1, v0, Lcom/commsource/camera/a1/f;->U:I
 
     move-object/from16 v1, p21
 
-    .line 53
     iput-object v1, v0, Lcom/commsource/camera/a1/f;->V:Ljava/lang/String;
 
     move/from16 v1, p22
 
-    .line 54
     iput v1, v0, Lcom/commsource/camera/a1/f;->W:I
 
     move/from16 v1, p23
 
-    .line 55
     iput v1, v0, Lcom/commsource/camera/a1/f;->X:I
 
     move/from16 v1, p24
 
-    .line 56
     iput v1, v0, Lcom/commsource/camera/a1/f;->Y:I
 
     return-void
@@ -622,30 +566,24 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 57
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x64
 
-    .line 58
     iput v0, p0, Lcom/commsource/camera/a1/f;->f0:I
 
     const/4 v0, 0x0
 
-    .line 59
     iput v0, p0, Lcom/commsource/camera/a1/f;->g0:I
 
-    .line 60
     iput-boolean v0, p0, Lcom/commsource/camera/a1/f;->h0:Z
 
-    .line 61
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->i0:Ljava/util/ArrayList;
 
-    .line 62
     new-instance v0, Landroid/util/SparseIntArray;
 
     invoke-direct {v0}, Landroid/util/SparseIntArray;-><init>()V
@@ -656,7 +594,6 @@
 
     return-void
 
-    .line 63
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->n()I
 
@@ -664,182 +601,154 @@
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->a:I
 
-    .line 64
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->t()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->b:Ljava/lang/String;
 
-    .line 65
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->p()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->c:I
 
-    .line 66
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->a()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->d:I
 
-    .line 67
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->f()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->f:I
 
-    .line 68
     iget-boolean v0, p1, Lcom/commsource/camera/a1/f;->g:Z
 
     iput-boolean v0, p0, Lcom/commsource/camera/a1/f;->g:Z
 
-    .line 69
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->A()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->p:I
 
-    .line 70
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->s()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->J:Ljava/lang/String;
 
-    .line 71
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->r()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->K:Ljava/lang/String;
 
-    .line 72
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->u()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/commsource/camera/a1/f;->L:J
 
-    .line 73
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->c()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->M:I
 
-    .line 74
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->v()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->N:I
 
-    .line 75
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->d()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->O:I
 
-    .line 76
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->m()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->P:Ljava/lang/String;
 
-    .line 77
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->h()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->Q:Ljava/lang/String;
 
-    .line 78
     iget-boolean v0, p1, Lcom/commsource/camera/a1/f;->R:Z
 
     iput-boolean v0, p0, Lcom/commsource/camera/a1/f;->R:Z
 
-    .line 79
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->b()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->S:I
 
-    .line 80
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->q()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->T:I
 
-    .line 81
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->o()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->U:I
 
-    .line 82
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->z()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->V:Ljava/lang/String;
 
-    .line 83
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->x()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->W:I
 
-    .line 84
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->j()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->X:I
 
-    .line 85
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->e()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->Y:I
 
-    .line 86
     iget-boolean v0, p1, Lcom/commsource/camera/a1/f;->a0:Z
 
     iput-boolean v0, p0, Lcom/commsource/camera/a1/f;->a0:Z
 
-    .line 87
     iget v0, p1, Lcom/commsource/camera/a1/f;->b0:I
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->b0:I
 
-    .line 88
     iget v0, p1, Lcom/commsource/camera/a1/f;->W:I
 
     iput v0, p0, Lcom/commsource/camera/a1/f;->W:I
 
-    .line 89
     iget-object v0, p1, Lcom/commsource/camera/a1/f;->c0:Landroid/util/SparseArray;
 
     iput-object v0, p0, Lcom/commsource/camera/a1/f;->c0:Landroid/util/SparseArray;
 
-    .line 90
     iget-boolean v0, p1, Lcom/commsource/camera/a1/f;->d0:Z
 
     iput-boolean v0, p0, Lcom/commsource/camera/a1/f;->d0:Z
 
-    .line 91
     iget p1, p1, Lcom/commsource/camera/a1/f;->Z:I
 
     iput p1, p0, Lcom/commsource/camera/a1/f;->Z:I
@@ -856,7 +765,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -871,7 +779,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/a1/f;->e0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -886,7 +793,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/a1/f;->R:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -901,7 +807,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/a1/f;->a0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -916,7 +821,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/a1/f;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -935,12 +839,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/a1/f;->p()I
 
@@ -983,7 +885,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/a1/f;->b:Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->t()Ljava/lang/String;
@@ -1008,7 +909,6 @@
 
     iget v1, p0, Lcom/commsource/camera/a1/f;->f:I
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->f()I
 
     move-result v2
@@ -1025,7 +925,6 @@
 
     iget-object v2, p1, Lcom/commsource/camera/a1/f;->J:Ljava/lang/String;
 
-    .line 3
     invoke-static {v1, v2}, Lcom/commsource/util/a2;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v1
@@ -1034,7 +933,6 @@
 
     iget-object v1, p0, Lcom/commsource/camera/a1/f;->K:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->r()Ljava/lang/String;
 
     move-result-object v2
@@ -1073,7 +971,6 @@
 
     iget-object v1, p0, Lcom/commsource/camera/a1/f;->P:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->m()Ljava/lang/String;
 
     move-result-object v2
@@ -1107,7 +1004,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1121,7 +1017,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/a1/f;->d0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1140,29 +1035,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p1, Lcom/commsource/camera/a1/f;->g:Z
 
     iput-boolean v1, p0, Lcom/commsource/camera/a1/f;->g:Z
 
-    .line 2
     iget-boolean v1, p1, Lcom/commsource/camera/a1/f;->R:Z
 
     iput-boolean v1, p0, Lcom/commsource/camera/a1/f;->R:Z
 
-    .line 3
     iget-boolean v1, p1, Lcom/commsource/camera/a1/f;->a0:Z
 
     iput-boolean v1, p0, Lcom/commsource/camera/a1/f;->a0:Z
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->a()I
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/camera/a1/f;->d:I
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/a1/f;->b:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/commsource/camera/a1/f;->b:Ljava/lang/String;
@@ -1171,7 +1061,6 @@
 
     move-result v1
 
-    .line 6
     iget v2, p0, Lcom/commsource/camera/a1/f;->O:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1190,7 +1079,6 @@
 
     and-int/2addr v1, v2
 
-    .line 7
     iget v2, p0, Lcom/commsource/camera/a1/f;->p:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1209,7 +1097,6 @@
 
     and-int/2addr v1, v2
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/camera/a1/f;->J:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/commsource/camera/a1/f;->J:Ljava/lang/String;
@@ -1220,7 +1107,6 @@
 
     and-int/2addr v1, v2
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/camera/a1/f;->K:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/commsource/camera/a1/f;->K:Ljava/lang/String;
@@ -1231,7 +1117,6 @@
 
     and-int/2addr v1, v2
 
-    .line 10
     iget v2, p0, Lcom/commsource/camera/a1/f;->N:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1250,7 +1135,6 @@
 
     and-int/2addr v1, v2
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/camera/a1/f;->P:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/commsource/camera/a1/f;->P:Ljava/lang/String;
@@ -1261,7 +1145,6 @@
 
     and-int/2addr v1, v2
 
-    .line 12
     iget v2, p0, Lcom/commsource/camera/a1/f;->M:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1280,7 +1163,6 @@
 
     and-int/2addr v1, v2
 
-    .line 13
     iget v2, p0, Lcom/commsource/camera/a1/f;->f:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1299,7 +1181,6 @@
 
     and-int/2addr v1, v2
 
-    .line 14
     iget-wide v2, p0, Lcom/commsource/camera/a1/f;->L:J
 
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -1318,7 +1199,6 @@
 
     and-int/2addr v1, v2
 
-    .line 15
     iget v2, p0, Lcom/commsource/camera/a1/f;->S:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1337,7 +1217,6 @@
 
     and-int/2addr v1, v2
 
-    .line 16
     iget v2, p0, Lcom/commsource/camera/a1/f;->W:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1356,7 +1235,6 @@
 
     and-int/2addr v1, v2
 
-    .line 17
     iget v2, p0, Lcom/commsource/camera/a1/f;->X:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1375,7 +1253,6 @@
 
     and-int/2addr v1, v2
 
-    .line 18
     iget v2, p0, Lcom/commsource/camera/a1/f;->U:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1394,7 +1271,6 @@
 
     and-int/2addr v1, v2
 
-    .line 19
     iget v2, p0, Lcom/commsource/camera/a1/f;->Y:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1413,7 +1289,6 @@
 
     and-int/2addr v1, v2
 
-    .line 20
     iget-object v2, p0, Lcom/commsource/camera/a1/f;->V:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/commsource/camera/a1/f;->V:Ljava/lang/String;
@@ -1424,7 +1299,6 @@
 
     and-int/2addr v1, v2
 
-    .line 21
     iget v2, p0, Lcom/commsource/camera/a1/f;->Z:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1443,7 +1317,6 @@
 
     and-int/2addr v1, v2
 
-    .line 22
     iget-object v2, p0, Lcom/commsource/camera/a1/f;->Q:Ljava/lang/String;
 
     iget-object p1, p1, Lcom/commsource/camera/a1/f;->Q:Ljava/lang/String;
@@ -1456,13 +1329,11 @@
 
     const/4 v2, 0x0
 
-    .line 23
     iput-boolean v2, p0, Lcom/commsource/camera/a1/f;->R:Z
 
     :cond_0
     and-int/2addr p1, v1
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1479,7 +1350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/camera/a1/f;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1488,12 +1358,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/commsource/camera/a1/f;->a:I
 
@@ -1521,10 +1389,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->d:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1537,10 +1403,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->S:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1553,10 +1417,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->M:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1569,10 +1431,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->O:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1585,10 +1445,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/a1/f;->e0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1601,10 +1459,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->Y:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1617,10 +1473,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->f:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1633,10 +1487,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->g0:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1649,10 +1501,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/a1/f;->R:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1665,10 +1515,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/a1/f;->a0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1681,10 +1529,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/a1/f;->Q:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1697,10 +1543,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->b0:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1713,10 +1557,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->X:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1729,10 +1571,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->Z:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1745,10 +1585,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->f0:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1761,10 +1599,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/a1/f;->P:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1777,7 +1613,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1792,10 +1627,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1808,7 +1641,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->S:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1823,10 +1655,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/a1/f;->g:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1839,7 +1669,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->M:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1854,10 +1683,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->U:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1870,7 +1697,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1885,10 +1711,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/a1/f;->h0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1901,7 +1725,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->Y:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1916,10 +1739,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->c:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1932,12 +1753,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/camera/a1/f;
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lcom/commsource/camera/a1/f;
 
     invoke-virtual {p1}, Lcom/commsource/camera/a1/f;->n()I
@@ -1960,7 +1779,6 @@
 
     return p1
 
-    .line 3
     :cond_1
     invoke-super {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -1978,7 +1796,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1993,10 +1810,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->T:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2009,7 +1824,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->g0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2024,10 +1838,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/a1/f;->K:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2040,7 +1852,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/a1/f;->Q:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2055,10 +1866,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/a1/f;->J:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2071,7 +1880,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/a1/f;->n()I
 
     move-result v1
@@ -2090,7 +1898,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->b0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2105,10 +1912,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/a1/f;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2121,7 +1926,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/a1/f;->g:Z
 
     xor-int/lit8 v1, v1, 0x1
@@ -2138,7 +1942,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->X:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2153,10 +1956,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/camera/a1/f;->L:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2169,7 +1970,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->Z:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2184,10 +1984,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->N:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2200,7 +1998,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->f0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2215,10 +2012,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->W:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2231,7 +2026,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/a1/f;->P:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2254,10 +2048,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/a1/f;->c0:Landroid/util/SparseArray;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2270,7 +2062,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2285,10 +2076,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/a1/f;->d0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2301,7 +2090,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->U:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2316,10 +2104,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/a1/f;->V:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2336,7 +2122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/a1/f;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/a1/f;->I(Lcom/commsource/camera/a1/f;)Z
@@ -2359,7 +2144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/a1/f;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/a1/f;->J(Lcom/commsource/camera/a1/f;)I
@@ -2378,19 +2162,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->T:I
 
     const/4 v2, 0x2
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iput v2, p0, Lcom/commsource/camera/a1/f;->c:I
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/commsource/camera/a1/f;->O:I
 
@@ -2401,7 +2182,6 @@
     :pswitch_0
     const/16 v1, 0xb
 
-    .line 4
     iput v1, p0, Lcom/commsource/camera/a1/f;->c:I
 
     goto :goto_0
@@ -2409,7 +2189,6 @@
     :pswitch_1
     const/16 v1, 0x7a
 
-    .line 5
     iput v1, p0, Lcom/commsource/camera/a1/f;->c:I
 
     goto :goto_0
@@ -2417,7 +2196,6 @@
     :pswitch_2
     const/16 v1, 0xe
 
-    .line 6
     iput v1, p0, Lcom/commsource/camera/a1/f;->c:I
 
     goto :goto_0
@@ -2425,7 +2203,6 @@
     :pswitch_3
     const/16 v1, 0xa
 
-    .line 7
     iput v1, p0, Lcom/commsource/camera/a1/f;->c:I
 
     goto :goto_0
@@ -2433,7 +2210,6 @@
     :pswitch_4
     const/4 v1, 0x7
 
-    .line 8
     iput v1, p0, Lcom/commsource/camera/a1/f;->c:I
 
     goto :goto_0
@@ -2441,7 +2217,6 @@
     :pswitch_5
     const/4 v1, 0x4
 
-    .line 9
     iput v1, p0, Lcom/commsource/camera/a1/f;->c:I
 
     goto :goto_0
@@ -2449,10 +2224,8 @@
     :pswitch_6
     const/4 v1, 0x3
 
-    .line 10
     iput v1, p0, Lcom/commsource/camera/a1/f;->c:I
 
-    .line 11
     :goto_0
     iget v1, p0, Lcom/commsource/camera/a1/f;->c:I
 
@@ -2479,10 +2252,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/a1/f;->p:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2495,7 +2266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->T:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2510,7 +2280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/a1/f;->K:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2525,7 +2294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/a1/f;->J:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2540,7 +2308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/a1/f;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2555,7 +2322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2600,7 +2366,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/camera/a1/f;->L:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2615,7 +2380,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->N:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2630,12 +2394,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/a1/f;->d0:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2666,7 +2428,6 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2698,7 +2459,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/a1/f;->W:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2721,7 +2481,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/a1/f;->c0:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2736,7 +2495,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/a1/f;->V:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

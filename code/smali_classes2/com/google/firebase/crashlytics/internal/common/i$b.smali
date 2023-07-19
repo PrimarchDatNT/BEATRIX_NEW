@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/i;Ljava/util/Date;Ljava/lang/Throwable;Ljava/lang/Thread;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$b;->d:Lcom/google/firebase/crashlytics/internal/common/i;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/i$b;->a:Ljava/util/Date;
@@ -50,7 +49,6 @@
 .method public run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/i$b;->d:Lcom/google/firebase/crashlytics/internal/common/i;
 
     invoke-virtual {v0}, Lcom/google/firebase/crashlytics/internal/common/i;->l0()Z
@@ -59,14 +57,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/i$b;->a:Ljava/util/Date;
 
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/common/i;->r(Ljava/util/Date;)J
 
     move-result-wide v0
 
-    .line 3
     iget-object v2, p0, Lcom/google/firebase/crashlytics/internal/common/i$b;->d:Lcom/google/firebase/crashlytics/internal/common/i;
 
     invoke-static {v2}, Lcom/google/firebase/crashlytics/internal/common/i;->s(Lcom/google/firebase/crashlytics/internal/common/i;)Lcom/google/firebase/crashlytics/internal/common/c0;
@@ -79,7 +75,6 @@
 
     invoke-virtual {v2, v3, v4, v0, v1}, Lcom/google/firebase/crashlytics/internal/common/c0;->o(Ljava/lang/Throwable;Ljava/lang/Thread;J)V
 
-    .line 4
     iget-object v2, p0, Lcom/google/firebase/crashlytics/internal/common/i$b;->d:Lcom/google/firebase/crashlytics/internal/common/i;
 
     iget-object v3, p0, Lcom/google/firebase/crashlytics/internal/common/i$b;->c:Ljava/lang/Thread;

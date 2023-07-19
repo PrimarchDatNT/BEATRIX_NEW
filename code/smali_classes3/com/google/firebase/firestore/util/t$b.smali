@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,14 +31,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->delete()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -48,7 +45,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/io/IOException;
 

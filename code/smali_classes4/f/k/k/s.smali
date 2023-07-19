@@ -45,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -64,10 +63,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lokhttp3/Dispatcher;
 
     invoke-static {}, Lcom/commsource/util/c2;->j()Ljava/util/concurrent/ExecutorService;
@@ -78,7 +75,6 @@
 
     iput-object v0, p0, Lf/k/k/s;->a:Lokhttp3/Dispatcher;
 
-    .line 3
     new-instance v0, Lokhttp3/ConnectionPool;
 
     invoke-direct {v0}, Lokhttp3/ConnectionPool;-><init>()V
@@ -95,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/k/s;->a:Lokhttp3/Dispatcher;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/k/s;->b:Lokhttp3/ConnectionPool;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -125,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/k/s;->p()Z
 
     move-result v1
@@ -134,10 +127,8 @@
 
     const-string v1, "check has init before use it!"
 
-    .line 2
     invoke-static {v1}, Lf/k/k/m;->d(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -151,14 +142,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/template/feedback/util/e;->M()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     sget-object v1, Lcom/meitu/http/api/a;->d:Lcom/meitu/http/api/a$a;
 
     invoke-virtual {v1}, Lcom/meitu/http/api/a$a;->a()Z
@@ -167,14 +156,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "https://betapre.api.beautyplus.meitu.com"
 
     return-object v0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -182,7 +169,6 @@
 
     return-object v0
 
-    .line 5
     :cond_1
     sget-object v1, Lcom/meitu/http/api/a;->d:Lcom/meitu/http/api/a$a;
 
@@ -192,14 +178,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "https://beta.api.beautyplus.meitu.com"
 
     return-object v0
 
-    .line 7
     :cond_2
     sget-object v1, Lf/k/k/s;->g:Ljava/lang/String;
 
@@ -217,14 +201,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, "https://api-beta.mr.pixocial.com"
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -240,30 +222,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/k/s;->k:Lf/k/k/s;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lf/k/k/s;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lf/k/k/s;->k:Lf/k/k/s;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lf/k/k/s;
 
     invoke-direct {v2}, Lf/k/k/s;-><init>()V
 
     sput-object v2, Lf/k/k/s;->k:Lf/k/k/s;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -280,7 +257,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lf/k/k/s;->k:Lf/k/k/s;
@@ -306,7 +282,6 @@
     :cond_0
     const-string p0, "https://api-intl.mr.meitu.com"
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -329,7 +304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/k/r;->b()Lf/k/k/r;
 
     move-result-object v1
@@ -355,17 +329,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/k/k/m;->a(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
 
     iput-object p0, v1, Lf/k/k/s;->c:Lf/k/k/s$a;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -382,12 +353,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lf/k/k/s;->k()Lokhttp3/OkHttpClient;
 
@@ -401,7 +370,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -420,7 +388,6 @@
 
     check-cast v2, Lokhttp3/Call;
 
-    .line 4
     invoke-interface {v2}, Lokhttp3/Call;->request()Lokhttp3/Request;
 
     move-result-object v3
@@ -435,12 +402,10 @@
 
     if-eqz v3, :cond_1
 
-    .line 5
     invoke-interface {v2}, Lokhttp3/Call;->cancel()V
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -454,10 +419,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/k/s;->d()V
 
-    .line 2
     new-instance v1, Lf/k/k/f;
 
     invoke-direct {v1, p1}, Lf/k/k/f;-><init>(Ljava/lang/String;)V
@@ -474,10 +437,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/k/s;->d()V
 
-    .line 2
     new-instance v1, Lf/k/k/g;
 
     invoke-direct {v1, p1}, Lf/k/k/g;-><init>(Ljava/lang/String;)V
@@ -494,10 +455,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/k/s;->d()V
 
-    .line 2
     iget-object v1, p0, Lf/k/k/s;->c:Lf/k/k/s$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -512,7 +471,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/k/s;->b:Lokhttp3/ConnectionPool;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -527,10 +485,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/k/s;->d()V
 
-    .line 2
     iget-object v1, p0, Lf/k/k/s;->c:Lf/k/k/s$a;
 
     invoke-static {v1}, Lf/k/k/s$a;->a(Lf/k/k/s$a;)Lokhttp3/OkHttpClient;
@@ -549,7 +505,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/k/s;->c:Lf/k/k/s$a;
 
     if-eqz v1, :cond_0
@@ -584,12 +539,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lf/k/k/s;->k()Lokhttp3/OkHttpClient;
 
@@ -603,7 +556,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -621,7 +573,6 @@
 
     check-cast v3, Lokhttp3/Call;
 
-    .line 4
     invoke-interface {v3}, Lokhttp3/Call;->request()Lokhttp3/Request;
 
     move-result-object v3
@@ -638,12 +589,10 @@
 
     const/4 p1, 0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -657,10 +606,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/k/s;->d()V
 
-    .line 2
     new-instance v1, Lf/k/k/k;
 
     invoke-direct {v1, p1}, Lf/k/k/k;-><init>(Ljava/lang/String;)V
@@ -677,10 +624,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/k/s;->b:Lokhttp3/ConnectionPool;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -695,10 +640,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/k/s;->d()V
 
-    .line 2
     new-instance v1, Lf/k/k/l;
 
     invoke-direct {v1, p1}, Lf/k/k/l;-><init>(Ljava/lang/String;)V

@@ -42,23 +42,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayComponent$d;->a:Lcom/commsource/widget/VideoPlayComponent;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lcom/commsource/widget/VideoPlayComponent;->k(Lcom/commsource/widget/VideoPlayComponent;Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayComponent$d;->a:Lcom/commsource/widget/VideoPlayComponent;
 
     invoke-static {v1, v2}, Lcom/commsource/widget/VideoPlayComponent;->m(Lcom/commsource/widget/VideoPlayComponent;I)V
 
-    .line 3
     :try_start_0
     invoke-virtual {p1}, Landroid/media/MediaPlayer;->start()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/VideoPlayComponent$d;->a:Lcom/commsource/widget/VideoPlayComponent;
 
     const/4 v1, 0x2
@@ -72,10 +68,8 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 6
     :goto_0
     iget-object p1, p0, Lcom/commsource/widget/VideoPlayComponent$d;->a:Lcom/commsource/widget/VideoPlayComponent;
 
@@ -91,7 +85,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/widget/ImageView;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

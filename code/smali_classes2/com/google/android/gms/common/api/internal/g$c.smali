@@ -58,28 +58,22 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/g$c;->f:Lcom/google/android/gms/common/api/internal/g;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/g$c;->c:Lcom/google/android/gms/common/internal/q;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/g$c;->d:Ljava/util/Set;
 
     const/4 p1, 0x0
 
-    .line 4
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/g$c;->e:Z
 
-    .line 5
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/g$c;->a:Lcom/google/android/gms/common/api/a$f;
 
-    .line 6
     iput-object p3, p0, Lcom/google/android/gms/common/api/internal/g$c;->b:Lcom/google/android/gms/common/api/internal/z2;
 
     return-void
@@ -88,7 +82,6 @@
 .method static synthetic d(Lcom/google/android/gms/common/api/internal/g$c;)Lcom/google/android/gms/common/api/a$f;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/g$c;->a:Lcom/google/android/gms/common/api/a$f;
 
     return-object p0
@@ -99,7 +92,6 @@
 
     const/4 p1, 0x1
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/g$c;->e:Z
 
     return p1
@@ -108,7 +100,6 @@
 .method static synthetic f(Lcom/google/android/gms/common/api/internal/g$c;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/g$c;->g()V
 
     return-void
@@ -119,7 +110,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/g$c;->e:Z
 
     if-eqz v0, :cond_0
@@ -128,7 +118,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/g$c;->a:Lcom/google/android/gms/common/api/a$f;
 
     iget-object v2, p0, Lcom/google/android/gms/common/api/internal/g$c;->d:Ljava/util/Set;
@@ -142,7 +131,6 @@
 .method static synthetic h(Lcom/google/android/gms/common/api/internal/g$c;)Lcom/google/android/gms/common/api/internal/z2;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/g$c;->b:Lcom/google/android/gms/common/api/internal/z2;
 
     return-object p0
@@ -157,7 +145,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/g$c;->f:Lcom/google/android/gms/common/api/internal/g;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/g;->d(Lcom/google/android/gms/common/api/internal/g;)Landroid/os/Handler;
@@ -178,7 +165,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/g$c;->f:Lcom/google/android/gms/common/api/internal/g;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/g;->D(Lcom/google/android/gms/common/api/internal/g;)Ljava/util/Map;
@@ -219,19 +205,15 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/g$c;->c:Lcom/google/android/gms/common/internal/q;
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/g$c;->d:Ljava/util/Set;
 
-    .line 3
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/g$c;->g()V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     new-instance p1, Ljava/lang/Exception;
@@ -244,7 +226,6 @@
 
     invoke-static {p2, v0, p1}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 5
     new-instance p1, Lcom/google/android/gms/common/ConnectionResult;
 
     const/4 p2, 0x4

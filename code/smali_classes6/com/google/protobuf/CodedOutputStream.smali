@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     const-class v0, Lcom/google/protobuf/CodedOutputStream;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -55,14 +54,12 @@
 
     sput-object v0, Lcom/google/protobuf/CodedOutputStream;->a:Ljava/util/logging/Logger;
 
-    .line 2
     invoke-static {}, Lcom/google/protobuf/s2;->m()Z
 
     move-result v0
 
     sput-boolean v0, Lcom/google/protobuf/CodedOutputStream;->b:Z
 
-    .line 3
     invoke-static {}, Lcom/google/protobuf/s2;->g()J
 
     move-result-wide v0
@@ -75,7 +72,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/protobuf/n;-><init>()V
 
     return-void
@@ -84,7 +80,6 @@
 .method synthetic constructor <init>(Lcom/google/protobuf/CodedOutputStream$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/CodedOutputStream;-><init>()V
 
     return-void
@@ -95,7 +90,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -116,7 +110,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/protobuf/i1;->Y6()I
 
     move-result p0
@@ -127,7 +120,6 @@
 .method public static C(II)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -146,7 +138,6 @@
 
     if-ltz p0, :cond_0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->d0(I)I
 
     move-result p0
@@ -162,7 +153,6 @@
 .method public static E(IJ)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -179,7 +169,6 @@
 .method public static F(J)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->f0(J)I
 
     move-result p0
@@ -192,7 +181,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {v0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result v0
@@ -201,7 +189,6 @@
 
     mul-int/lit8 v0, v0, 0x2
 
-    .line 2
     invoke-static {v1, p0}, Lcom/google/protobuf/CodedOutputStream;->c0(II)I
 
     move-result p0
@@ -210,7 +197,6 @@
 
     const/4 p0, 0x3
 
-    .line 3
     invoke-static {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->H(ILcom/google/protobuf/b1;)I
 
     move-result p0
@@ -223,7 +209,6 @@
 .method public static H(ILcom/google/protobuf/b1;)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -240,7 +225,6 @@
 .method public static I(Lcom/google/protobuf/b1;)I
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/b1;->f()I
 
     move-result p0
@@ -255,7 +239,6 @@
 .method static J(I)I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->d0(I)I
 
     move-result v0
@@ -270,7 +253,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {v0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result v0
@@ -279,7 +261,6 @@
 
     mul-int/lit8 v0, v0, 0x2
 
-    .line 2
     invoke-static {v1, p0}, Lcom/google/protobuf/CodedOutputStream;->c0(II)I
 
     move-result p0
@@ -288,7 +269,6 @@
 
     const/4 p0, 0x3
 
-    .line 3
     invoke-static {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->L(ILcom/google/protobuf/i1;)I
 
     move-result p0
@@ -301,7 +281,6 @@
 .method public static L(ILcom/google/protobuf/i1;)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -318,7 +297,6 @@
 .method public static M(Lcom/google/protobuf/i1;)I
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Lcom/google/protobuf/i1;->Y6()I
 
     move-result p0
@@ -348,7 +326,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {v0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result v0
@@ -357,7 +334,6 @@
 
     mul-int/lit8 v0, v0, 0x2
 
-    .line 2
     invoke-static {v1, p0}, Lcom/google/protobuf/CodedOutputStream;->c0(II)I
 
     move-result p0
@@ -366,7 +342,6 @@
 
     const/4 p0, 0x3
 
-    .line 3
     invoke-static {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->o(ILcom/google/protobuf/ByteString;)I
 
     move-result p0
@@ -381,7 +356,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->d0(I)I
 
     move-result p0
@@ -394,7 +368,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->f0(J)I
 
     move-result p0
@@ -405,7 +378,6 @@
 .method public static R(II)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -430,7 +402,6 @@
 .method public static T(IJ)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -455,7 +426,6 @@
 .method public static V(II)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -472,7 +442,6 @@
 .method public static W(I)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->g0(I)I
 
     move-result p0
@@ -487,7 +456,6 @@
 .method public static X(IJ)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -504,7 +472,6 @@
 .method public static Y(J)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->h0(J)J
 
     move-result-wide p0
@@ -519,7 +486,6 @@
 .method public static Z(ILjava/lang/String;)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -536,7 +502,6 @@
 .method public static a0(Ljava/lang/String;)I
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/google/protobuf/Utf8;->i(Ljava/lang/CharSequence;)I
 
@@ -546,7 +511,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     sget-object v0, Lcom/google/protobuf/z0;->a:Ljava/nio/charset/Charset;
 
@@ -554,10 +518,8 @@
 
     move-result-object p0
 
-    .line 3
     array-length p0, p0
 
-    .line 4
     :goto_0
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->J(I)I
 
@@ -571,7 +533,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/protobuf/WireFormat;->c(II)I
 
     move-result p0
@@ -586,7 +547,6 @@
 .method public static c0(II)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -651,7 +611,6 @@
 .method public static e0(IJ)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -668,7 +627,6 @@
 .method static synthetic f()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/google/protobuf/CodedOutputStream;->b:Z
 
     return v0
@@ -753,7 +711,6 @@
 .method static synthetic g()J
     .locals 2
 
-    .line 1
     sget-wide v0, Lcom/google/protobuf/CodedOutputStream;->c:J
 
     return-wide v0
@@ -790,7 +747,6 @@
 .method public static i(IZ)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -815,7 +771,6 @@
 .method public static k(I[B)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -832,7 +787,6 @@
 .method public static l([B)I
     .locals 0
 
-    .line 1
     array-length p0, p0
 
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->J(I)I
@@ -847,14 +801,12 @@
 
     if-ltz p1, :cond_0
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/CodedOutputStream$d;
 
     invoke-direct {v0, p0, p1}, Lcom/google/protobuf/CodedOutputStream$d;-><init>(Lcom/google/protobuf/n;I)V
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -868,7 +820,6 @@
 .method public static m(ILjava/nio/ByteBuffer;)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -887,7 +838,6 @@
 
     const/16 v0, 0x1000
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/protobuf/CodedOutputStream;->n0(Ljava/io/OutputStream;I)Lcom/google/protobuf/CodedOutputStream;
 
     move-result-object p0
@@ -898,7 +848,6 @@
 .method public static n(Ljava/nio/ByteBuffer;)I
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->capacity()I
 
     move-result p0
@@ -913,7 +862,6 @@
 .method public static n0(Ljava/io/OutputStream;I)Lcom/google/protobuf/CodedOutputStream;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/CodedOutputStream$g;
 
     invoke-direct {v0, p0, p1}, Lcom/google/protobuf/CodedOutputStream$g;-><init>(Ljava/io/OutputStream;I)V
@@ -924,7 +872,6 @@
 .method public static o(ILcom/google/protobuf/ByteString;)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -941,21 +888,18 @@
 .method public static o0(Ljava/nio/ByteBuffer;)Lcom/google/protobuf/CodedOutputStream;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->hasArray()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/protobuf/CodedOutputStream$f;
 
     invoke-direct {v0, p0}, Lcom/google/protobuf/CodedOutputStream$f;-><init>(Ljava/nio/ByteBuffer;)V
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/protobuf/CodedOutputStream$e;
 
@@ -967,7 +911,6 @@
 .method public static p(Lcom/google/protobuf/ByteString;)I
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/ByteString;->size()I
 
     move-result p0
@@ -984,7 +927,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->o0(Ljava/nio/ByteBuffer;)Lcom/google/protobuf/CodedOutputStream;
 
     move-result-object p0
@@ -995,7 +937,6 @@
 .method public static q(ID)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -1012,7 +953,6 @@
 .method public static q0([B)Lcom/google/protobuf/CodedOutputStream;
     .locals 2
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -1035,7 +975,6 @@
 .method public static r0([BII)Lcom/google/protobuf/CodedOutputStream;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/CodedOutputStream$c;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/google/protobuf/CodedOutputStream$c;-><init>([BII)V
@@ -1046,7 +985,6 @@
 .method public static s(II)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -1063,7 +1001,6 @@
 .method public static t(I)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->D(I)I
 
     move-result p0
@@ -1074,7 +1011,6 @@
 .method public static u(II)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -1099,7 +1035,6 @@
 .method public static w(IJ)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -1124,7 +1059,6 @@
 .method public static y(IF)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/CodedOutputStream;->b0(I)I
 
     move-result p0
@@ -1172,7 +1106,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2, p3}, Ljava/lang/Double;->doubleToRawLongBits(D)J
 
     move-result-wide p2
@@ -1190,7 +1123,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Double;->doubleToRawLongBits(D)J
 
     move-result-wide p1
@@ -1208,7 +1140,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/protobuf/CodedOutputStream;->O0(II)V
 
     return-void
@@ -1222,7 +1153,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->P0(I)V
 
     return-void
@@ -1268,7 +1198,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
     move-result p2
@@ -1286,7 +1215,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
     move-result p1
@@ -1309,15 +1237,12 @@
 
     const/4 v0, 0x3
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/protobuf/CodedOutputStream;->q1(II)V
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/google/protobuf/CodedOutputStream;->N0(Lcom/google/protobuf/i1;)V
 
     const/4 p2, 0x4
 
-    .line 3
     invoke-virtual {p0, p1, p2}, Lcom/google/protobuf/CodedOutputStream;->q1(II)V
 
     return-void
@@ -1334,7 +1259,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-interface {p1, p0}, Lcom/google/protobuf/i1;->zb(Lcom/google/protobuf/CodedOutputStream;)V
 
     return-void
@@ -1364,7 +1288,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/protobuf/CodedOutputStream;->t1(IJ)V
 
     return-void
@@ -1378,7 +1301,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/protobuf/CodedOutputStream;->u1(J)V
 
     return-void
@@ -1416,7 +1338,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->a(B)V
 
     return-void
@@ -1432,7 +1353,6 @@
 
     int-to-byte p1, p1
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->a(B)V
 
     return-void
@@ -1446,7 +1366,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p0}, Lcom/google/protobuf/ByteString;->writeTo(Lcom/google/protobuf/n;)V
 
     return-void
@@ -1468,7 +1387,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -1494,7 +1412,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/protobuf/CodedOutputStream;->c([BII)V
 
     return-void
@@ -1519,7 +1436,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->H0(I)V
 
     return-void
@@ -1544,7 +1460,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/protobuf/CodedOutputStream;->J0(J)V
 
     return-void
@@ -1585,7 +1500,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->s1(I)V
 
     return-void
@@ -1602,7 +1516,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/protobuf/CodedOutputStream;->u1(J)V
 
     return-void
@@ -1616,7 +1529,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/protobuf/CodedOutputStream;->G0(II)V
 
     return-void
@@ -1625,7 +1537,6 @@
 .method public final h()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/CodedOutputStream;->s0()I
 
     move-result v0
@@ -1634,7 +1545,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -1653,7 +1563,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->H0(I)V
 
     return-void
@@ -1675,7 +1584,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/protobuf/CodedOutputStream;->I0(IJ)V
 
     return-void
@@ -1692,7 +1600,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/protobuf/CodedOutputStream;->J0(J)V
 
     return-void
@@ -1706,7 +1613,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/CodedOutputStream;->a:Ljava/util/logging/Logger;
 
     sget-object v1, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
@@ -1715,14 +1621,12 @@
 
     invoke-virtual {v0, v1, v2, p2}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     sget-object p2, Lcom/google/protobuf/z0;->a:Ljava/nio/charset/Charset;
 
     invoke-virtual {p1, p2}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
     move-result-object p1
 
-    .line 3
     :try_start_0
     array-length p2, p1
 
@@ -1730,7 +1634,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     array-length v0, p1
 
     invoke-virtual {p0, p1, p2, v0}, Lcom/google/protobuf/CodedOutputStream;->e([BII)V
@@ -1743,13 +1646,11 @@
     :catch_0
     move-exception p1
 
-    .line 5
     throw p1
 
     :catch_1
     move-exception p1
 
-    .line 6
     new-instance p2, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;
 
     invoke-direct {p2, p1}, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
@@ -1765,7 +1666,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/protobuf/CodedOutputStream;->g0(I)I
 
     move-result p2
@@ -1783,7 +1683,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/protobuf/CodedOutputStream;->g0(I)I
 
     move-result p1
@@ -1801,7 +1700,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2, p3}, Lcom/google/protobuf/CodedOutputStream;->h0(J)J
 
     move-result-wide p2
@@ -1819,7 +1717,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/protobuf/CodedOutputStream;->h0(J)J
 
     move-result-wide p1
@@ -1898,7 +1795,6 @@
 
     int-to-byte p1, p1
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream;->a(B)V
 
     return-void
@@ -1936,7 +1832,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0

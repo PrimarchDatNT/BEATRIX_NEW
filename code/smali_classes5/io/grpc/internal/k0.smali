@@ -15,7 +15,6 @@
 .method public constructor <init>(Lio/grpc/Status;)V
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/ClientStreamListener$RpcProgress;->PROCESSED:Lio/grpc/internal/ClientStreamListener$RpcProgress;
 
     invoke-direct {p0, p1, v0}, Lio/grpc/internal/k0;-><init>(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;)V
@@ -26,10 +25,8 @@
 .method public constructor <init>(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/s1;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Lio/grpc/Status;->r()Z
 
     move-result v0
@@ -40,10 +37,8 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 4
     iput-object p1, p0, Lio/grpc/internal/k0;->c:Lio/grpc/Status;
 
-    .line 5
     iput-object p2, p0, Lio/grpc/internal/k0;->d:Lio/grpc/internal/ClientStreamListener$RpcProgress;
 
     return-void
@@ -54,7 +49,6 @@
 .method public t(Lio/grpc/internal/c1;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/k0;->c:Lio/grpc/Status;
 
     const-string v1, "error"
@@ -75,7 +69,6 @@
 .method public w(Lio/grpc/internal/ClientStreamListener;)V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/k0;->b:Z
 
     const/4 v1, 0x1
@@ -86,10 +79,8 @@
 
     invoke-static {v0, v2}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     iput-boolean v1, p0, Lio/grpc/internal/k0;->b:Z
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/k0;->c:Lio/grpc/Status;
 
     iget-object v1, p0, Lio/grpc/internal/k0;->d:Lio/grpc/internal/ClientStreamListener$RpcProgress;
@@ -108,7 +99,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/k0;->c:Lio/grpc/Status;
 
     return-object v0

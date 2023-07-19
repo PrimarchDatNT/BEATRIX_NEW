@@ -46,15 +46,12 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, 0x3
 
-    .line 2
     iput p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->a:I
 
-    .line 3
     new-instance p1, Lcom/commsource/aieditor/t;
 
     invoke-direct {p1, p0}, Lcom/commsource/aieditor/t;-><init>(Lcom/commsource/aieditor/AiEditorSaveView;)V
@@ -71,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/aieditor/AiEditorSaveView;->J:Landroid/text/TextPaint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -86,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->J:Landroid/text/TextPaint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->L:Landroid/graphics/Matrix;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/aieditor/AiEditorSaveView;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -146,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/aieditor/AiEditorSaveView;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -161,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -176,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -191,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -221,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -236,7 +222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->K:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -251,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->O:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -266,7 +250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/aieditor/AiEditorSaveView$a;
 
     const-string v2, "AiEditorSaveView-Decode-Measure"
@@ -275,7 +258,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -296,7 +278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -309,10 +290,8 @@
 
     iput p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->M:F
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     iget p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->M:F
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -325,10 +304,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-interface {p1}, Lcom/commsource/aieditor/AiEditorSaveView$b;->a()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -344,7 +321,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -359,17 +335,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->O:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->J:Landroid/text/TextPaint;
 
@@ -383,14 +356,12 @@
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 4
     iget v1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->a:I
 
     const/4 v2, 0x3
 
     if-ne v1, v2, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->b:Ljava/lang/String;
 
     iget v2, p0, Lcom/commsource/aieditor/AiEditorSaveView;->d:I
@@ -412,7 +383,6 @@
 
     if-ne v1, v2, :cond_2
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->c:Ljava/lang/String;
 
     iget v2, p0, Lcom/commsource/aieditor/AiEditorSaveView;->g:I
@@ -429,7 +399,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->K:Landroid/graphics/Bitmap;
 
@@ -439,21 +408,17 @@
 
     if-nez v1, :cond_3
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_3
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->L:Landroid/graphics/Matrix;
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->L:Landroid/graphics/Matrix;
 
     iget v2, p0, Lcom/commsource/aieditor/AiEditorSaveView;->M:F
@@ -468,7 +433,6 @@
 
     div-float/2addr v3, v4
 
-    .line 12
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v5
@@ -485,15 +449,12 @@
 
     div-float/2addr v5, v4
 
-    .line 13
     invoke-virtual {v1, v2, v2, v3, v5}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->L:Landroid/graphics/Matrix;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->K:Landroid/graphics/Bitmap;
 
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
@@ -512,7 +473,6 @@
 
     div-float/2addr v2, v4
 
-    .line 16
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v3
@@ -531,13 +491,10 @@
 
     const/4 v4, 0x0
 
-    .line 17
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 18
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 19
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -559,10 +516,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->P:Lcom/commsource/aieditor/AiEditorSaveView$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -575,14 +530,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->setPressed(Z)V
 
     if-eqz p1, :cond_0
 
     const/high16 p1, 0x3f000000    # 0.5f
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setAlpha(F)V
 
     goto :goto_0
@@ -590,10 +543,8 @@
     :cond_0
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 3
     invoke-virtual {p0, p1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -611,19 +562,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->a:I
 
     const/4 v1, 0x1
 
     if-ne p1, v1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->N:Landroid/animation/ValueAnimator;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->cancel()V
 
     :cond_0
@@ -631,7 +579,6 @@
 
     new-array p1, p1, [F
 
-    .line 4
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -646,25 +593,21 @@
 
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->N:Landroid/animation/ValueAnimator;
 
-    .line 5
     new-instance v1, Lcom/commsource/aieditor/u;
 
     invoke-direct {v1, p0}, Lcom/commsource/aieditor/u;-><init>(Lcom/commsource/aieditor/AiEditorSaveView;)V
 
     invoke-virtual {p1, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorSaveView;->N:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

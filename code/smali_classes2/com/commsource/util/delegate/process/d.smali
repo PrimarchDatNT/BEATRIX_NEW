@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 
     const-string p1, "saveUri"
 
-    .line 1
     invoke-virtual {p3, p1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -43,7 +41,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0, p1}, Lcom/commsource/util/delegate/process/d;->d(Ljava/lang/String;)V
 
@@ -64,7 +61,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -77,7 +73,6 @@
 
     const/16 v1, 0x132
 
-    .line 2
     invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
 
     return-void

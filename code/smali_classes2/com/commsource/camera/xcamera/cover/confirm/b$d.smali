@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/b$d;->g:Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/confirm/b$d;->p:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -53,17 +52,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/b$d;->g:Lcom/commsource/camera/xcamera/cover/confirm/b;
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->A(Lcom/commsource/camera/xcamera/cover/confirm/b;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/b$d;->g:Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->z(Lcom/commsource/camera/xcamera/cover/confirm/b;)Lcom/meitu/core/types/FaceData;
@@ -72,7 +68,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/b$d;->g:Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->y(Lcom/commsource/camera/xcamera/cover/confirm/b;)Lcom/meitu/core/types/NativeBitmap;
@@ -81,7 +76,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/b$d;->g:Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->G(Lcom/commsource/camera/xcamera/cover/confirm/b;)Landroid/graphics/Bitmap;
@@ -90,7 +84,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/b$d;->g:Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->D(Lcom/commsource/camera/xcamera/cover/confirm/b;)Landroid/graphics/Bitmap;
@@ -99,7 +92,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/b$d;->g:Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/confirm/b$d;->p:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -110,7 +102,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/xcamera/cover/confirm/b;->C(Lcom/commsource/camera/xcamera/cover/confirm/b;Landroid/graphics/Bitmap;)V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

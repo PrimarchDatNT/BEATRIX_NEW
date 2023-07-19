@@ -16,7 +16,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,7 +24,6 @@
 .method public static a(Landroid/content/Context;Lcom/google/android/datatransport/k/y/a;Lcom/google/android/datatransport/k/y/a;)Lcom/google/android/datatransport/runtime/backends/h;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/backends/c;
 
     const-string v1, "cct"
@@ -38,7 +36,6 @@
 .method public static b(Landroid/content/Context;Lcom/google/android/datatransport/k/y/a;Lcom/google/android/datatransport/k/y/a;Ljava/lang/String;)Lcom/google/android/datatransport/runtime/backends/h;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/backends/c;
 
     invoke-direct {v0, p0, p1, p2, p3}, Lcom/google/android/datatransport/runtime/backends/c;-><init>(Landroid/content/Context;Lcom/google/android/datatransport/k/y/a;Lcom/google/android/datatransport/k/y/a;Ljava/lang/String;)V

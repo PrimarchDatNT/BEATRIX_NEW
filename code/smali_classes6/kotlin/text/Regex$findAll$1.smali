@@ -57,7 +57,6 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/text/Regex$findAll$1;->invoke()Lcotlin/text/k;
 
     move-result-object v0
@@ -70,7 +69,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcotlin/text/Regex$findAll$1;->this$0:Lcotlin/text/Regex;
 
     iget-object v1, p0, Lcotlin/text/Regex$findAll$1;->$input:Ljava/lang/CharSequence;

@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautymain/widget/gesturewidget/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/h$a;->a:Lcom/commsource/beautymain/widget/gesturewidget/h;
 
     invoke-direct {p0}, Landroid/view/GestureDetector$SimpleOnGestureListener;-><init>()V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/h$a;->a:Lcom/commsource/beautymain/widget/gesturewidget/h;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
@@ -48,7 +46,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/h;->a(Lcom/commsource/beautymain/widget/gesturewidget/h;F)F
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/h$a;->a:Lcom/commsource/beautymain/widget/gesturewidget/h;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
@@ -57,14 +54,12 @@
 
     invoke-static {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/h;->b(Lcom/commsource/beautymain/widget/gesturewidget/h;F)F
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/h$a;->a:Lcom/commsource/beautymain/widget/gesturewidget/h;
 
     const/4 v1, 0x1
 
     invoke-static {p1, v1}, Lcom/commsource/beautymain/widget/gesturewidget/h;->c(Lcom/commsource/beautymain/widget/gesturewidget/h;I)I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 14
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/VastErrorCode;
 
     const-string v1, "XML_PARSING_ERROR"
@@ -53,7 +52,6 @@
 
     sput-object v0, Lcom/mopub/mobileads/VastErrorCode;->XML_PARSING_ERROR:Lcom/mopub/mobileads/VastErrorCode;
 
-    .line 2
     new-instance v1, Lcom/mopub/mobileads/VastErrorCode;
 
     const-string v3, "WRAPPER_TIMEOUT"
@@ -66,7 +64,6 @@
 
     sput-object v1, Lcom/mopub/mobileads/VastErrorCode;->WRAPPER_TIMEOUT:Lcom/mopub/mobileads/VastErrorCode;
 
-    .line 3
     new-instance v3, Lcom/mopub/mobileads/VastErrorCode;
 
     const-string v5, "NO_ADS_VAST_RESPONSE"
@@ -79,7 +76,6 @@
 
     sput-object v3, Lcom/mopub/mobileads/VastErrorCode;->NO_ADS_VAST_RESPONSE:Lcom/mopub/mobileads/VastErrorCode;
 
-    .line 4
     new-instance v5, Lcom/mopub/mobileads/VastErrorCode;
 
     const-string v7, "GENERAL_LINEAR_AD_ERROR"
@@ -92,7 +88,6 @@
 
     sput-object v5, Lcom/mopub/mobileads/VastErrorCode;->GENERAL_LINEAR_AD_ERROR:Lcom/mopub/mobileads/VastErrorCode;
 
-    .line 5
     new-instance v7, Lcom/mopub/mobileads/VastErrorCode;
 
     const-string v9, "GENERAL_COMPANION_AD_ERROR"
@@ -105,7 +100,6 @@
 
     sput-object v7, Lcom/mopub/mobileads/VastErrorCode;->GENERAL_COMPANION_AD_ERROR:Lcom/mopub/mobileads/VastErrorCode;
 
-    .line 6
     new-instance v9, Lcom/mopub/mobileads/VastErrorCode;
 
     const-string v11, "UNDEFINED_ERROR"
@@ -134,7 +128,6 @@
 
     aput-object v9, v11, v12
 
-    .line 7
     sput-object v11, Lcom/mopub/mobileads/VastErrorCode;->$VALUES:[Lcom/mopub/mobileads/VastErrorCode;
 
     return-void
@@ -154,15 +147,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     const-string p1, "errorCode cannot be null"
 
-    .line 2
     invoke-static {p3, p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     iput-object p3, p0, Lcom/mopub/mobileads/VastErrorCode;->mErrorCode:Ljava/lang/String;
 
     return-void
@@ -171,7 +161,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/mobileads/VastErrorCode;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/mobileads/VastErrorCode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -186,7 +175,6 @@
 .method public static values()[Lcom/mopub/mobileads/VastErrorCode;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/VastErrorCode;->$VALUES:[Lcom/mopub/mobileads/VastErrorCode;
 
     invoke-virtual {v0}, [Lcom/mopub/mobileads/VastErrorCode;->clone()Ljava/lang/Object;
@@ -205,7 +193,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastErrorCode;->mErrorCode:Ljava/lang/String;
 
     return-object v0

@@ -64,7 +64,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/jvm/internal/TypeReference;->a:Lcotlin/reflect/g;
@@ -79,7 +78,6 @@
 .method public static final synthetic f(Lcotlin/jvm/internal/TypeReference;Lcotlin/reflect/t;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/jvm/internal/TypeReference;->q(Lcotlin/reflect/t;)Ljava/lang/String;
 
     move-result-object p0
@@ -90,7 +88,6 @@
 .method private final j()Ljava/lang/String;
     .locals 12
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/jvm/internal/TypeReference;->p()Lcotlin/reflect/g;
 
     move-result-object v0
@@ -115,7 +112,6 @@
     :cond_1
     if-nez v2, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcotlin/jvm/internal/TypeReference;->p()Lcotlin/reflect/g;
 
     move-result-object v0
@@ -126,7 +122,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     invoke-virtual {v2}, Ljava/lang/Class;->isArray()Z
 
@@ -140,13 +135,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_3
     invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Lcotlin/jvm/internal/TypeReference;->X0()Ljava/util/List;
 
@@ -164,7 +157,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_4
     invoke-virtual {p0}, Lcotlin/jvm/internal/TypeReference;->X0()Ljava/util/List;
 
@@ -192,7 +184,6 @@
 
     move-result-object v1
 
-    .line 7
     :goto_1
     invoke-virtual {p0}, Lcotlin/jvm/internal/TypeReference;->g()Z
 
@@ -202,7 +193,6 @@
 
     const-string v2, "?"
 
-    .line 8
     :cond_5
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -224,7 +214,6 @@
 .method private final q(Lcotlin/reflect/t;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lcotlin/reflect/t;->h()Lcotlin/reflect/KVariance;
 
     move-result-object v0
@@ -235,7 +224,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcotlin/reflect/t;->g()Lcotlin/reflect/r;
 
@@ -269,7 +257,6 @@
 
     move-result-object v0
 
-    .line 3
     :goto_0
     invoke-virtual {p1}, Lcotlin/reflect/t;->h()Lcotlin/reflect/KVariance;
 
@@ -297,7 +284,6 @@
 
     if-ne p1, v1, :cond_5
 
-    .line 4
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -314,7 +300,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_3
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -334,7 +319,6 @@
     :goto_1
     return-object v0
 
-    .line 6
     :cond_5
     new-instance p1, Lcotlin/NoWhenBranchMatchedException;
 
@@ -354,7 +338,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, [Z
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -367,7 +350,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     const-class v0, [C
 
@@ -381,7 +363,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     const-class v0, [B
 
@@ -395,7 +376,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     const-class v0, [S
 
@@ -409,7 +389,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     const-class v0, [I
 
@@ -423,7 +402,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     const-class v0, [F
 
@@ -437,7 +415,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_5
     const-class v0, [J
 
@@ -451,7 +428,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_6
     const-class v0, [D
 
@@ -488,7 +464,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/jvm/internal/TypeReference;->b:Ljava/util/List;
 
     return-object v0
@@ -501,7 +476,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlin/jvm/internal/TypeReference;
 
     if-eqz v0, :cond_0
@@ -560,7 +534,6 @@
 .method public g()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcotlin/jvm/internal/TypeReference;->c:Z
 
     return v0
@@ -580,7 +553,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
     move-result-object v0
@@ -591,7 +563,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/jvm/internal/TypeReference;->p()Lcotlin/reflect/g;
 
     move-result-object v0
@@ -636,7 +607,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/jvm/internal/TypeReference;->a:Lcotlin/reflect/g;
 
     return-object v0
@@ -647,7 +617,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

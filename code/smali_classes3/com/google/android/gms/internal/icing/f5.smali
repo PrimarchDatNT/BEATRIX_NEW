@@ -36,7 +36,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/f5;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/f5;-><init>()V
@@ -49,7 +48,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/icing/h5;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/h5;-><init>()V
@@ -74,10 +72,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/icing/v0;->a(Lcom/google/android/gms/internal/icing/u0;)Lcom/google/android/gms/internal/icing/u0;
 
     move-result-object p1
@@ -90,7 +86,6 @@
 .method public static a()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/f5;->b:Lcom/google/android/gms/internal/icing/f5;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/icing/f5;->get()Ljava/lang/Object;
@@ -111,7 +106,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/f5;->a:Lcom/google/android/gms/internal/icing/u0;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/icing/u0;->get()Ljava/lang/Object;

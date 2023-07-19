@@ -56,12 +56,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-interface {p2}, Lcotlin/coroutines/CoroutineContext$a;->getKey()Lcotlin/coroutines/CoroutineContext$b;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/SafeCollector_commonKt$checkContext$result$1;->$this_checkContext:Lcotlinx/coroutines/flow/internal/SafeCollector;
 
     iget-object v1, v1, Lcotlinx/coroutines/flow/internal/SafeCollector;->collectContext:Lcotlin/coroutines/CoroutineContext;
@@ -70,7 +68,6 @@
 
     move-result-object v1
 
-    .line 3
     sget-object v2, Lcotlinx/coroutines/c2;->u:Lcotlinx/coroutines/c2$b;
 
     if-eq v0, v2, :cond_1
@@ -87,13 +84,11 @@
     :goto_0
     return p1
 
-    .line 4
     :cond_1
     check-cast v1, Lcotlinx/coroutines/c2;
 
     if-eqz p2, :cond_4
 
-    .line 5
     check-cast p2, Lcotlinx/coroutines/c2;
 
     invoke-static {p2, v1}, Lcotlinx/coroutines/flow/internal/SafeCollector_commonKt;->b(Lcotlinx/coroutines/c2;Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/c2;
@@ -112,7 +107,6 @@
     :goto_1
     return p1
 
-    .line 6
     :cond_3
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -126,7 +120,6 @@
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p2, ", expected child of "
@@ -151,7 +144,6 @@
 
     move-result-object p1
 
-    .line 8
     new-instance p2, Ljava/lang/IllegalStateException;
 
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -162,7 +154,6 @@
 
     throw p2
 
-    .line 9
     :cond_4
     new-instance p1, Lcotlin/TypeCastException;
 

@@ -21,7 +21,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/commsource/beautyplus/util/q;->a:[I
@@ -30,7 +29,6 @@
 
     new-array v1, v1, [I
 
-    .line 2
     fill-array-data v1, :array_1
 
     sput-object v1, Lcom/commsource/beautyplus/util/q;->b:[I
@@ -65,7 +63,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -96,7 +93,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -104,7 +100,6 @@
     :cond_0
     const/4 p0, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -128,7 +123,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -168,12 +162,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     :pswitch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -215,7 +207,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -251,12 +242,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     :pswitch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -292,7 +281,6 @@
 
     if-eq p0, v1, :cond_1
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/beautyplus/util/q;->a(I)Z
 
     move-result p0
@@ -310,7 +298,6 @@
     :goto_0
     const/4 p0, 0x1
 
-    .line 2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

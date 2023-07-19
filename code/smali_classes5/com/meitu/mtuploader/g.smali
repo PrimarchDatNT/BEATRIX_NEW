@@ -59,14 +59,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     sput-object v1, Lcom/meitu/mtuploader/g;->b:Ljava/lang/Object;
 
-    .line 2
     new-instance v1, Lcom/meitu/mtuploader/o;
 
     invoke-direct {v1}, Lcom/meitu/mtuploader/o;-><init>()V
@@ -75,10 +73,8 @@
 
     const/4 v1, 0x0
 
-    .line 3
     sput-object v1, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
-    .line 4
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
@@ -87,16 +83,12 @@
 
     const/4 v2, 0x0
 
-    .line 5
     sput-boolean v2, Lcom/meitu/mtuploader/g;->f:Z
 
-    .line 6
     sput-object v1, Lcom/meitu/mtuploader/g;->g:Ljava/lang/String;
 
-    .line 7
     sput-boolean v2, Lcom/meitu/mtuploader/g;->h:Z
 
-    .line 8
     new-instance v1, Lcom/meitu/mtuploader/GlobalConfig$b;
 
     invoke-direct {v1}, Lcom/meitu/mtuploader/GlobalConfig$b;-><init>()V
@@ -107,7 +99,6 @@
 
     sput-object v1, Lcom/meitu/mtuploader/g;->i:Lcom/meitu/mtuploader/GlobalConfig;
 
-    .line 9
     new-instance v1, Lcom/meitu/mtuploader/p$b;
 
     const-string v3, "main"
@@ -120,7 +111,6 @@
 
     sput-object v1, Lcom/meitu/mtuploader/g;->j:Lcom/meitu/mtuploader/p;
 
-    .line 10
     new-instance v1, Landroid/os/Messenger;
 
     new-instance v3, Lcom/meitu/mtuploader/g$b;
@@ -135,13 +125,10 @@
 
     sput-object v1, Lcom/meitu/mtuploader/g;->l:Landroid/os/Messenger;
 
-    .line 11
     sput v2, Lcom/meitu/mtuploader/g;->m:I
 
-    .line 12
     sput-boolean v2, Lcom/meitu/mtuploader/g;->n:Z
 
-    .line 13
     new-instance v1, Lcom/meitu/mtuploader/g$a;
 
     invoke-direct {v1}, Lcom/meitu/mtuploader/g$a;-><init>()V
@@ -156,7 +143,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -169,12 +155,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     sget-object v2, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
     :try_end_0
@@ -186,29 +170,23 @@
 
     const/4 v2, 0x2
 
-    .line 3
     :try_start_1
     invoke-static {v3, v2}, Landroid/os/Message;->obtain(Landroid/os/Handler;I)Landroid/os/Message;
 
     move-result-object v2
 
-    .line 4
     sget-object v4, Lcom/meitu/mtuploader/g;->l:Landroid/os/Messenger;
 
     iput-object v4, v2, Landroid/os/Message;->replyTo:Landroid/os/Messenger;
 
-    .line 5
     new-instance v4, Landroid/os/Bundle;
 
     invoke-direct {v4}, Landroid/os/Bundle;-><init>()V
 
-    .line 6
     invoke-static {v4}, Lcom/meitu/mtuploader/g;->N(Landroid/os/Bundle;)V
 
-    .line 7
     invoke-virtual {v2, v4}, Landroid/os/Message;->setData(Landroid/os/Bundle;)V
 
-    .line 8
     sget-object v4, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     invoke-virtual {v4, v2}, Landroid/os/Messenger;->send(Landroid/os/Message;)V
@@ -224,10 +202,8 @@
     :try_start_2
     const-string v4, "MtUpload"
 
-    .line 9
     invoke-static {v4, v2}, Lcom/meitu/mtuploader/w/b;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 10
     :goto_0
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
@@ -237,23 +213,18 @@
 
     invoke-virtual {v2, v4}, Landroid/app/Application;->unbindService(Landroid/content/ServiceConnection;)V
 
-    .line 11
     sput-object v3, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     const/4 v2, 0x0
 
-    .line 12
     sput-boolean v2, Lcom/meitu/mtuploader/g;->n:Z
 
-    .line 13
     invoke-static {}, Lcom/meitu/mtuploader/g;->I()Ljava/util/List;
 
     move-result-object v3
 
-    .line 14
     invoke-static {}, Lcom/meitu/mtuploader/g;->x()V
 
-    .line 15
     invoke-interface {v3}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
@@ -264,10 +235,8 @@
 
     const-string v3, "needNotifyFailed is empty"
 
-    .line 16
     invoke-static {v2, v3}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 17
     monitor-exit v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -276,7 +245,6 @@
 
     return-void
 
-    .line 18
     :cond_0
     :try_start_3
     monitor-exit v1
@@ -285,7 +253,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 19
     invoke-interface {v3}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -294,7 +261,6 @@
 
     goto :goto_2
 
-    .line 20
     :cond_1
     invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -316,14 +282,12 @@
 
     if-eqz v2, :cond_2
 
-    .line 21
     invoke-virtual {v2}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getCallback()Lcom/meitu/mtuploader/h;
 
     move-result-object v3
 
     if-eqz v3, :cond_2
 
-    .line 22
     invoke-virtual {v2}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getId()Ljava/lang/String;
 
     move-result-object v2
@@ -336,13 +300,11 @@
 
     goto :goto_1
 
-    .line 23
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 24
     :cond_4
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -352,7 +314,6 @@
     :catchall_0
     move-exception v2
 
-    .line 25
     :try_start_4
     monitor-exit v1
     :try_end_4
@@ -370,37 +331,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-direct {v1}, Lcom/meitu/mtuploader/bean/MtUploadBean;-><init>()V
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     sget-object p0, Lcom/meitu/mtuploader/g;->g:Ljava/lang/String;
 
     invoke-virtual {v1, p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setUploadKey(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v1, p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setUploadKey(Ljava/lang/String;)V
 
-    .line 5
     :goto_0
     invoke-virtual {v1, p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setId(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/mtuploader/g;->w(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -413,14 +367,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->c:Lcom/meitu/mtuploader/o;
 
     invoke-virtual {v1, p0}, Lcom/meitu/mtuploader/o;->e(Lcom/meitu/mtuploader/bean/MtUploadBean;)I
 
     move-result v2
 
-    .line 2
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -457,11 +409,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v1, p0}, Lcom/meitu/mtuploader/o;->i(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -471,14 +421,12 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-virtual {v1, p0}, Lcom/meitu/mtuploader/o;->j(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
     :goto_0
     if-eqz v3, :cond_3
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getCallback()Lcom/meitu/mtuploader/h;
 
     move-result-object v1
@@ -497,7 +445,6 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getId()Ljava/lang/String;
 
     move-result-object p0
@@ -512,16 +459,13 @@
 
     move-result-object p0
 
-    .line 8
     invoke-interface {v1, v2, v3, p0}, Lcom/meitu/mtuploader/h;->c(Ljava/lang/String;ILjava/lang/String;)V
 
     goto :goto_1
 
-    .line 9
     :cond_3
     invoke-static {p0}, Lcom/meitu/mtuploader/g;->Q(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    .line 10
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -535,12 +479,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     sget-object v2, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
@@ -548,22 +490,18 @@
 
     const/4 v2, 0x1
 
-    .line 3
     sput-boolean v2, Lcom/meitu/mtuploader/g;->f:Z
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/meitu/mtuploader/g;->P()V
 
-    .line 5
     :goto_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -571,7 +509,6 @@
     :catchall_0
     move-exception v2
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -589,7 +526,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->j:Lcom/meitu/mtuploader/p;
 
     invoke-virtual {v1}, Lcom/meitu/mtuploader/p;->a()Ljava/lang/String;
@@ -608,19 +544,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/mtuploader/g;->h:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "http://prestrategy.meitubase.com/"
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -638,7 +571,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -653,17 +585,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/mtuploader/g;->B(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     move-result-object p0
 
-    .line 2
     sget-object p1, Lcom/meitu/mtuploader/g;->b:Ljava/lang/Object;
 
     monitor-enter p1
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/meitu/mtuploader/g;->c:Lcom/meitu/mtuploader/o;
 
@@ -675,7 +604,6 @@
 
     const/4 p0, 0x0
 
-    .line 4
     monitor-exit p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -684,7 +612,6 @@
 
     return-object p0
 
-    .line 5
     :cond_0
     :try_start_1
     invoke-virtual {v1, p0}, Lcom/meitu/mtuploader/o;->c(Lcom/meitu/mtuploader/bean/MtUploadBean;)Lcom/meitu/mtuploader/bean/MtUploadBean;
@@ -702,7 +629,6 @@
     :catchall_0
     move-exception p0
 
-    .line 6
     :try_start_2
     monitor-exit p1
     :try_end_2
@@ -728,19 +654,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/meitu/mtuploader/g;->c:Lcom/meitu/mtuploader/o;
 
     invoke-virtual {v2}, Lcom/meitu/mtuploader/o;->d()Ljava/util/HashMap;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v2}, Ljava/util/HashMap;->isEmpty()Z
 
     move-result v3
@@ -749,7 +672,6 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     invoke-virtual {v2}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 
     move-result-object v2
@@ -773,10 +695,8 @@
 
     const-string v5, "mPendingUpload is not empty"
 
-    .line 5
     invoke-static {v4, v5}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -785,7 +705,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     sget-object v2, Lcom/meitu/mtuploader/g;->c:Lcom/meitu/mtuploader/o;
 
@@ -793,7 +712,6 @@
 
     move-result-object v2
 
-    .line 8
     invoke-virtual {v2}, Ljava/util/HashMap;->isEmpty()Z
 
     move-result v3
@@ -802,10 +720,8 @@
 
     const-string v3, "mUploadingList is not empty"
 
-    .line 9
     invoke-static {v4, v3}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {v2}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 
     move-result-object v2
@@ -828,14 +744,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 11
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/mtuploader/bean/MtUploadBean;
 
-    .line 12
     sget-object v4, Lcom/meitu/mtuploader/g;->c:Lcom/meitu/mtuploader/o;
 
     invoke-virtual {v4, v3}, Lcom/meitu/mtuploader/o;->h(Lcom/meitu/mtuploader/bean/MtUploadBean;)Z
@@ -844,12 +758,10 @@
 
     if-nez v4, :cond_1
 
-    .line 13
     invoke-virtual {v1, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 14
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -865,17 +777,14 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     sput-object p0, Lcom/meitu/mtuploader/g;->k:Lcom/meitu/mtuploader/a;
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/mtuploader/a;->c()Ljava/lang/String;
 
     move-result-object p0
 
     invoke-static {p0}, Lcom/meitu/mtuploader/g;->U(Ljava/lang/String;)V
 
-    .line 3
     sget-object p0, Lcom/meitu/mtuploader/g;->k:Lcom/meitu/mtuploader/a;
 
     invoke-virtual {p0}, Lcom/meitu/mtuploader/a;->f()Z
@@ -884,10 +793,8 @@
 
     if-eqz p0, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/meitu/mtuploader/g;->W()V
 
-    .line 5
     :cond_0
     sget-object p0, Lcom/meitu/mtuploader/g;->k:Lcom/meitu/mtuploader/a;
 
@@ -897,7 +804,6 @@
 
     invoke-static {p0}, Lcom/meitu/mtuploader/g;->V(Z)V
 
-    .line 6
     sget-object p0, Lcom/meitu/mtuploader/g;->k:Lcom/meitu/mtuploader/a;
 
     invoke-virtual {p0}, Lcom/meitu/mtuploader/a;->a()Lcom/meitu/mtuploader/GlobalConfig;
@@ -906,7 +812,6 @@
 
     invoke-static {p0}, Lcom/meitu/mtuploader/g;->v(Lcom/meitu/mtuploader/GlobalConfig;)V
 
-    .line 7
     sget-object p0, Lcom/meitu/mtuploader/g;->k:Lcom/meitu/mtuploader/a;
 
     invoke-virtual {p0}, Lcom/meitu/mtuploader/a;->b()Lcom/meitu/mtuploader/p;
@@ -915,12 +820,10 @@
 
     invoke-static {p0}, Lcom/meitu/mtuploader/g;->u(Lcom/meitu/mtuploader/p;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -944,7 +847,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getUploadKey()Ljava/lang/String;
 
     move-result-object v1
@@ -955,14 +857,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/mtuploader/g;->G()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setUploadKey(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/meitu/mtuploader/g;->c:Lcom/meitu/mtuploader/o;
 
@@ -986,30 +886,25 @@
 
     if-eq p0, v2, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 8
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1023,12 +918,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/mtuploader/g;->B(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/mtuploader/g;->K(Lcom/meitu/mtuploader/bean/MtUploadBean;)Z
 
     move-result p0
@@ -1049,20 +942,16 @@
 
     const-string v2, "onUploadEndThroughFile"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/mtuploader/g;->B(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     move-result-object p0
 
-    .line 3
     sget-object p1, Lcom/meitu/mtuploader/g;->b:Ljava/lang/Object;
 
     monitor-enter p1
 
-    .line 4
     :try_start_0
     sget-object v1, Lcom/meitu/mtuploader/g;->c:Lcom/meitu/mtuploader/o;
 
@@ -1072,7 +961,6 @@
 
     const-string v3, "MtUpload"
 
-    .line 5
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -1105,7 +993,6 @@
 
     if-eq v2, v4, :cond_0
 
-    .line 6
     monitor-exit p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1114,14 +1001,12 @@
 
     return-object v3
 
-    .line 7
     :cond_0
     :try_start_1
     invoke-virtual {v1, p0, v4}, Lcom/meitu/mtuploader/o;->k(Lcom/meitu/mtuploader/bean/MtUploadBean;I)Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     move-result-object p0
 
-    .line 8
     monitor-exit p1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1130,7 +1015,6 @@
 
     return-object p0
 
-    .line 9
     :cond_1
     :try_start_2
     invoke-virtual {v1, p0, v2}, Lcom/meitu/mtuploader/o;->k(Lcom/meitu/mtuploader/bean/MtUploadBean;I)Lcom/meitu/mtuploader/bean/MtUploadBean;
@@ -1143,10 +1027,8 @@
 
     const-string v1, "get state but update error!"
 
-    .line 10
     invoke-static {p0, v1}, Lcom/meitu/mtuploader/w/b;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     monitor-exit p1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -1155,12 +1037,10 @@
 
     return-object v3
 
-    .line 12
     :cond_2
     :try_start_3
     invoke-static {p0}, Lcom/meitu/mtuploader/g;->C(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    .line 13
     monitor-exit p1
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -1169,7 +1049,6 @@
 
     return-object v3
 
-    .line 14
     :cond_3
     :try_start_4
     invoke-virtual {v1, p0, v2}, Lcom/meitu/mtuploader/o;->k(Lcom/meitu/mtuploader/bean/MtUploadBean;I)Lcom/meitu/mtuploader/bean/MtUploadBean;
@@ -1184,7 +1063,6 @@
 
     return-object p0
 
-    .line 15
     :cond_4
     :try_start_5
     monitor-exit p1
@@ -1198,7 +1076,6 @@
     :catchall_0
     move-exception p0
 
-    .line 16
     :try_start_6
     monitor-exit p1
     :try_end_6
@@ -1216,7 +1093,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtuploader/g;->E()Ljava/lang/String;
 
     move-result-object v1
@@ -1225,7 +1101,6 @@
 
     invoke-virtual {p0, v2, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1238,17 +1113,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/mtuploader/g;->B(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     move-result-object p0
 
-    .line 2
     sget-object p1, Lcom/meitu/mtuploader/g;->b:Ljava/lang/Object;
 
     monitor-enter p1
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
     :try_end_0
@@ -1260,31 +1132,25 @@
 
     const/4 v2, 0x6
 
-    .line 4
     :try_start_1
     invoke-static {v1, v2}, Landroid/os/Message;->obtain(Landroid/os/Handler;I)Landroid/os/Message;
 
     move-result-object v1
 
-    .line 5
     sget-object v2, Lcom/meitu/mtuploader/g;->l:Landroid/os/Messenger;
 
     iput-object v2, v1, Landroid/os/Message;->replyTo:Landroid/os/Messenger;
 
-    .line 6
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
 
     const-string v3, "uploadBean"
 
-    .line 7
     invoke-virtual {v2, v3, p0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
-    .line 8
     invoke-virtual {v1, v2}, Landroid/os/Message;->setData(Landroid/os/Bundle;)V
 
-    .line 9
     sget-object p0, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     invoke-virtual {p0, v1}, Landroid/os/Messenger;->send(Landroid/os/Message;)V
@@ -1297,25 +1163,21 @@
     :catch_0
     move-exception p0
 
-    .line 10
     :try_start_2
     invoke-virtual {p0}, Landroid/os/RemoteException;->printStackTrace()V
 
     goto :goto_0
 
-    .line 11
     :cond_0
     sget-object v1, Lcom/meitu/mtuploader/g;->e:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 12
     :goto_0
     monitor-exit p1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1323,7 +1185,6 @@
     :catchall_0
     move-exception p0
 
-    .line 14
     :try_start_3
     monitor-exit p1
     :try_end_3
@@ -1341,7 +1202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     if-eqz v1, :cond_0
@@ -1350,18 +1210,15 @@
 
     const/16 v2, 0x8
 
-    .line 2
     :try_start_0
     invoke-static {v1, v2}, Landroid/os/Message;->obtain(Landroid/os/Handler;I)Landroid/os/Message;
 
     move-result-object v1
 
-    .line 3
     sget-object v2, Lcom/meitu/mtuploader/g;->l:Landroid/os/Messenger;
 
     iput-object v2, v1, Landroid/os/Message;->replyTo:Landroid/os/Messenger;
 
-    .line 4
     sget-object v2, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     invoke-virtual {v2, v1}, Landroid/os/Messenger;->send(Landroid/os/Message;)V
@@ -1373,10 +1230,8 @@
     :catch_0
     move-exception v1
 
-    .line 5
     invoke-virtual {v1}, Landroid/os/RemoteException;->printStackTrace()V
 
-    .line 6
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1393,12 +1248,10 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     if-eqz v2, :cond_0
 
-    .line 2
     :try_start_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -1424,30 +1277,24 @@
 
     const/4 v3, 0x4
 
-    .line 3
     invoke-static {v2, v3}, Landroid/os/Message;->obtain(Landroid/os/Handler;I)Landroid/os/Message;
 
     move-result-object v2
 
-    .line 4
     sget-object v3, Lcom/meitu/mtuploader/g;->l:Landroid/os/Messenger;
 
     iput-object v3, v2, Landroid/os/Message;->replyTo:Landroid/os/Messenger;
 
-    .line 5
     new-instance v3, Landroid/os/Bundle;
 
     invoke-direct {v3}, Landroid/os/Bundle;-><init>()V
 
     const-string v4, "uploadBean"
 
-    .line 6
     invoke-virtual {v3, v4, p0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
-    .line 7
     invoke-virtual {v2, v3}, Landroid/os/Message;->setData(Landroid/os/Bundle;)V
 
-    .line 8
     sget-object p0, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     invoke-virtual {p0, v2}, Landroid/os/Messenger;->send(Landroid/os/Message;)V
@@ -1459,10 +1306,8 @@
     :catch_0
     move-exception p0
 
-    .line 9
     invoke-static {v0, p0}, Lcom/meitu/mtuploader/w/b;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 10
     :cond_0
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1477,7 +1322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     if-eqz v1, :cond_0
@@ -1486,7 +1330,6 @@
 
     const/4 v2, 0x3
 
-    .line 2
     :try_start_0
     sget v3, Lcom/meitu/mtuploader/g;->m:I
 
@@ -1496,12 +1339,10 @@
 
     move-result-object v1
 
-    .line 3
     sget-object v2, Lcom/meitu/mtuploader/g;->l:Landroid/os/Messenger;
 
     iput-object v2, v1, Landroid/os/Message;->replyTo:Landroid/os/Messenger;
 
-    .line 4
     sget-object v2, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     invoke-virtual {v2, v1}, Landroid/os/Messenger;->send(Landroid/os/Message;)V
@@ -1513,10 +1354,8 @@
     :catch_0
     move-exception v1
 
-    .line 5
     invoke-virtual {v1}, Landroid/os/RemoteException;->printStackTrace()V
 
-    .line 6
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1531,7 +1370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1554,7 +1392,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     sget-object v1, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     if-eqz v1, :cond_0
@@ -1563,31 +1400,25 @@
 
     const/4 v3, 0x5
 
-    .line 3
     :try_start_0
     invoke-static {v1, v3}, Landroid/os/Message;->obtain(Landroid/os/Handler;I)Landroid/os/Message;
 
     move-result-object v1
 
-    .line 4
     sget-object v3, Lcom/meitu/mtuploader/g;->l:Landroid/os/Messenger;
 
     iput-object v3, v1, Landroid/os/Message;->replyTo:Landroid/os/Messenger;
 
-    .line 5
     new-instance v3, Landroid/os/Bundle;
 
     invoke-direct {v3}, Landroid/os/Bundle;-><init>()V
 
     const-string v4, "uploadBean"
 
-    .line 6
     invoke-virtual {v3, v4, p0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
-    .line 7
     invoke-virtual {v1, v3}, Landroid/os/Message;->setData(Landroid/os/Bundle;)V
 
-    .line 8
     sget-object p0, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     invoke-virtual {p0, v1}, Landroid/os/Messenger;->send(Landroid/os/Message;)V
@@ -1599,10 +1430,8 @@
     :catch_0
     move-exception p0
 
-    .line 9
     invoke-static {v2, p0}, Lcom/meitu/mtuploader/w/b;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 10
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1617,15 +1446,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/mtuploader/g;->B(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/mtuploader/g;->S(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1640,10 +1466,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/mtuploader/g;->g:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1658,16 +1482,13 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     invoke-static {p0}, Lcom/meitu/mtuploader/w/b;->f(Z)V
 
-    .line 3
     sget-object v2, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1678,31 +1499,25 @@
 
     const/16 v3, 0xa
 
-    .line 4
     :try_start_1
     invoke-static {v2, v3}, Landroid/os/Message;->obtain(Landroid/os/Handler;I)Landroid/os/Message;
 
     move-result-object v2
 
-    .line 5
     sget-object v3, Lcom/meitu/mtuploader/g;->l:Landroid/os/Messenger;
 
     iput-object v3, v2, Landroid/os/Message;->replyTo:Landroid/os/Messenger;
 
-    .line 6
     new-instance v3, Landroid/os/Bundle;
 
     invoke-direct {v3}, Landroid/os/Bundle;-><init>()V
 
     const-string v4, "logger_enable"
 
-    .line 7
     invoke-virtual {v3, v4, p0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 8
     invoke-virtual {v2, v3}, Landroid/os/Message;->setData(Landroid/os/Bundle;)V
 
-    .line 9
     sget-object p0, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     invoke-virtual {p0, v2}, Landroid/os/Messenger;->send(Landroid/os/Message;)V
@@ -1715,18 +1530,15 @@
     :catch_0
     move-exception p0
 
-    .line 10
     :try_start_2
     invoke-virtual {p0}, Landroid/os/RemoteException;->printStackTrace()V
 
-    .line 11
     :cond_0
     :goto_0
     monitor-exit v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1734,7 +1546,6 @@
     :catchall_0
     move-exception p0
 
-    .line 13
     :try_start_3
     monitor-exit v1
     :try_end_3
@@ -1756,10 +1567,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     sput-boolean v1, Lcom/meitu/mtuploader/g;->h:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1772,32 +1581,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
     if-lez p0, :cond_0
 
-    .line 2
     :try_start_0
     sget v2, Lcom/meitu/mtuploader/g;->m:I
 
     if-eq v2, p0, :cond_0
 
-    .line 3
     sput p0, Lcom/meitu/mtuploader/g;->m:I
 
-    .line 4
     invoke-static {}, Lcom/meitu/mtuploader/g;->R()V
 
-    .line 5
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1805,7 +1608,6 @@
     :catchall_0
     move-exception p0
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1831,10 +1633,8 @@
 
     const-string v2, "startUpload"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getCallback()Lcom/meitu/mtuploader/h;
 
     move-result-object v1
@@ -1845,15 +1645,12 @@
 
     const-string v1, "MtUploadCallback is null"
 
-    .line 3
     invoke-static {p0, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getFile()Ljava/lang/String;
 
@@ -1869,7 +1666,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getCallback()Lcom/meitu/mtuploader/h;
 
     move-result-object p0
@@ -1878,12 +1674,10 @@
 
     invoke-interface {p0, v3, v2, v1}, Lcom/meitu/mtuploader/h;->c(Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getUploadKey()Ljava/lang/String;
 
@@ -1899,10 +1693,8 @@
 
     const-string v4, "Use the global default upload key"
 
-    .line 9
     invoke-static {v1, v4}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     sget-object v1, Lcom/meitu/mtuploader/g;->g:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1911,7 +1703,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 11
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getCallback()Lcom/meitu/mtuploader/h;
 
     move-result-object p0
@@ -1920,27 +1711,22 @@
 
     invoke-interface {p0, v3, v2, v1}, Lcom/meitu/mtuploader/h;->c(Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :cond_2
     sget-object v1, Lcom/meitu/mtuploader/g;->g:Ljava/lang/String;
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setUploadKey(Ljava/lang/String;)V
 
-    .line 14
     :cond_3
     invoke-static {p0}, Lcom/meitu/mtuploader/g;->w(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    .line 15
     sget-object v1, Lcom/meitu/mtuploader/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 16
     :try_start_0
     sget-object v2, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
@@ -1948,7 +1734,6 @@
 
     const-string v2, "MtUpload"
 
-    .line 17
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -1967,7 +1752,6 @@
 
     invoke-static {v2, v3}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 18
     sget-object v2, Lcom/meitu/mtuploader/g;->c:Lcom/meitu/mtuploader/o;
 
     invoke-virtual {v2, p0}, Lcom/meitu/mtuploader/o;->g(Lcom/meitu/mtuploader/bean/MtUploadBean;)Z
@@ -1980,10 +1764,8 @@
 
     const-string v4, "add pending upload"
 
-    .line 19
     invoke-static {v3, v4}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 20
     invoke-virtual {v2, p0}, Lcom/meitu/mtuploader/o;->i(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
     goto :goto_0
@@ -1993,17 +1775,14 @@
 
     const-string v3, "upload is in cache"
 
-    .line 21
     invoke-static {v2, v3}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getCallback()Lcom/meitu/mtuploader/h;
 
     move-result-object v2
 
     if-eqz v2, :cond_5
 
-    .line 23
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getId()Ljava/lang/String;
 
     move-result-object v3
@@ -2018,7 +1797,6 @@
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 24
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getId()Ljava/lang/String;
 
     move-result-object p0
@@ -2033,10 +1811,8 @@
 
     move-result-object p0
 
-    .line 25
     invoke-interface {v2, v3, v4, p0}, Lcom/meitu/mtuploader/h;->c(Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 26
     :cond_5
     :goto_0
     sget-boolean p0, Lcom/meitu/mtuploader/g;->n:Z
@@ -2045,10 +1821,8 @@
 
     const/4 p0, 0x1
 
-    .line 27
     sput-boolean p0, Lcom/meitu/mtuploader/g;->n:Z
 
-    .line 28
     new-instance v2, Landroid/content/Intent;
 
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
@@ -2061,21 +1835,18 @@
 
     const-string v3, "apply_global_params"
 
-    .line 29
     sget-object v4, Lcom/meitu/mtuploader/g;->i:Lcom/meitu/mtuploader/GlobalConfig;
 
     invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     const-string v3, "logger_enable"
 
-    .line 30
     invoke-static {}, Lcom/meitu/mtuploader/w/b;->e()Z
 
     move-result v4
 
     invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 31
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v3
@@ -2091,20 +1862,16 @@
 
     const-string v3, "do upload"
 
-    .line 32
     invoke-static {v2, v3}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 33
     invoke-static {p0}, Lcom/meitu/mtuploader/g;->C(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    .line 34
     :cond_7
     :goto_1
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 35
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2112,7 +1879,6 @@
     :catchall_0
     move-exception p0
 
-    .line 36
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -2130,7 +1896,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->k:Lcom/meitu/mtuploader/a;
 
     if-eqz v1, :cond_0
@@ -2141,7 +1906,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/mtuploader/g;->k:Lcom/meitu/mtuploader/a;
 
     invoke-virtual {v1}, Lcom/meitu/mtuploader/a;->e()Lcom/meitu/mtuploader/w/d;
@@ -2150,7 +1914,6 @@
 
     invoke-interface {v1, p0, p1, p2}, Lcom/meitu/mtuploader/w/d;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2164,7 +1927,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/mtuploader/g;->M(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     move-result-object p0
@@ -2185,21 +1947,17 @@
 
     const-string v2, "stopUpload"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     sget-object v1, Lcom/meitu/mtuploader/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     invoke-static {p0, p1}, Lcom/meitu/mtuploader/g;->B(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     move-result-object v2
 
-    .line 4
     sget-object v3, Lcom/meitu/mtuploader/g;->c:Lcom/meitu/mtuploader/o;
 
     invoke-virtual {v3, v2}, Lcom/meitu/mtuploader/o;->e(Lcom/meitu/mtuploader/bean/MtUploadBean;)I
@@ -2208,7 +1966,6 @@
 
     const-string v5, "MtUpload"
 
-    .line 5
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -2237,7 +1994,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v3, v2}, Lcom/meitu/mtuploader/o;->l(Lcom/meitu/mtuploader/bean/MtUploadBean;)Lcom/meitu/mtuploader/bean/MtUploadBean;
 
@@ -2245,14 +2001,12 @@
 
     if-eqz v2, :cond_3
 
-    .line 7
     invoke-virtual {v2}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getCallback()Lcom/meitu/mtuploader/h;
 
     move-result-object v3
 
     if-eqz v3, :cond_3
 
-    .line 8
     invoke-virtual {v2}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getCallback()Lcom/meitu/mtuploader/h;
 
     move-result-object v3
@@ -2267,7 +2021,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-virtual {v3, v2}, Lcom/meitu/mtuploader/o;->c(Lcom/meitu/mtuploader/bean/MtUploadBean;)Lcom/meitu/mtuploader/bean/MtUploadBean;
 
@@ -2275,14 +2028,12 @@
 
     if-eqz v2, :cond_2
 
-    .line 10
     invoke-virtual {v2}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getCallback()Lcom/meitu/mtuploader/h;
 
     move-result-object v4
 
     if-eqz v4, :cond_2
 
-    .line 11
     invoke-virtual {v2}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getCallback()Lcom/meitu/mtuploader/h;
 
     move-result-object v4
@@ -2295,11 +2046,9 @@
 
     invoke-interface {v4, v5, v6, v7}, Lcom/meitu/mtuploader/h;->c(Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 12
     :cond_2
     invoke-virtual {v3, v2}, Lcom/meitu/mtuploader/o;->a(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    .line 13
     :cond_3
     :goto_0
     sget-object v2, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
@@ -2318,16 +2067,13 @@
 
     if-nez v2, :cond_4
 
-    .line 14
     invoke-static {p0, p1}, Lcom/meitu/mtuploader/g;->T(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     :cond_4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2335,7 +2081,6 @@
     :catchall_0
     move-exception p0
 
-    .line 17
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -2353,7 +2098,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/mtuploader/g;->Z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2368,7 +2112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/mtuploader/g;->m:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2383,7 +2126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtuploader/g;->R()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2398,7 +2140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/mtuploader/g;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2413,7 +2154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtuploader/g;->P()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2428,7 +2168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->c:Lcom/meitu/mtuploader/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2443,7 +2182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/mtuploader/g;->C(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2458,7 +2196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lcom/meitu/mtuploader/g;->n:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2473,7 +2210,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtuploader/g;->I()Ljava/util/List;
 
     move-result-object v1
@@ -2490,7 +2226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtuploader/g;->x()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2505,7 +2240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/mtuploader/g;->H(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     move-result-object p0
@@ -2522,7 +2256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->b:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2537,7 +2270,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2552,7 +2284,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2567,7 +2298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->l:Landroid/os/Messenger;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2582,7 +2312,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2597,7 +2326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/mtuploader/g;->N(Landroid/os/Bundle;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2612,7 +2340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/mtuploader/g;->h:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2627,7 +2354,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->e:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2648,10 +2374,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/mtuploader/g;->j:Lcom/meitu/mtuploader/p;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2670,16 +2394,13 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     sput-object p0, Lcom/meitu/mtuploader/g;->i:Lcom/meitu/mtuploader/GlobalConfig;
 
-    .line 3
     sget-object p0, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -2690,33 +2411,27 @@
 
     const/16 v2, 0x9
 
-    .line 4
     :try_start_1
     invoke-static {p0, v2}, Landroid/os/Message;->obtain(Landroid/os/Handler;I)Landroid/os/Message;
 
     move-result-object p0
 
-    .line 5
     sget-object v2, Lcom/meitu/mtuploader/g;->l:Landroid/os/Messenger;
 
     iput-object v2, p0, Landroid/os/Message;->replyTo:Landroid/os/Messenger;
 
-    .line 6
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
 
     const-string v3, "apply_global_params"
 
-    .line 7
     sget-object v4, Lcom/meitu/mtuploader/g;->i:Lcom/meitu/mtuploader/GlobalConfig;
 
     invoke-virtual {v2, v3, v4}, Landroid/os/Bundle;->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
 
-    .line 8
     invoke-virtual {p0, v2}, Landroid/os/Message;->setData(Landroid/os/Bundle;)V
 
-    .line 9
     sget-object v2, Lcom/meitu/mtuploader/g;->d:Landroid/os/Messenger;
 
     invoke-virtual {v2, p0}, Landroid/os/Messenger;->send(Landroid/os/Message;)V
@@ -2729,18 +2444,15 @@
     :catch_0
     move-exception p0
 
-    .line 10
     :try_start_2
     invoke-virtual {p0}, Landroid/os/RemoteException;->printStackTrace()V
 
-    .line 11
     :cond_0
     :goto_0
     monitor-exit v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2748,7 +2460,6 @@
     :catchall_0
     move-exception p0
 
-    .line 13
     :try_start_3
     monitor-exit v1
     :try_end_3
@@ -2766,7 +2477,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getUploadKey()Ljava/lang/String;
 
     move-result-object v1
@@ -2781,15 +2491,12 @@
 
     const-string v1, "Use the global default upload key"
 
-    .line 2
     invoke-static {v2, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     sget-object v1, Lcom/meitu/mtuploader/g;->g:Ljava/lang/String;
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setUploadKey(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/meitu/mtuploader/g;->E()Ljava/lang/String;
 
@@ -2797,7 +2504,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setClientId(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -2808,12 +2514,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getFile()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -2830,10 +2534,8 @@
 
     invoke-static {v2, v3}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {p0, v1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setId(Ljava/lang/String;)V
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2847,12 +2549,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->c:Lcom/meitu/mtuploader/o;
 
     invoke-virtual {v1}, Lcom/meitu/mtuploader/o;->b()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2865,12 +2565,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/g;->g:Ljava/lang/String;
 
     invoke-static {v1, p0}, Lcom/meitu/mtuploader/g;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2883,17 +2581,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/mtuploader/g;->O(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/dialog/delegate/d/g;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->invoke(Lcom/commsource/widget/dialog/delegate/d/g;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1;
@@ -100,10 +98,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v1, Lcom/commsource/widget/dialog/delegate/d/f;
 
-    .line 4
     sget-object v2, Lcom/commsource/video/c;->d:Lcom/commsource/video/c$a;
 
     const-string v3, "onboarding/video/onboarding_video_as_edit.mp4"
@@ -122,12 +118,10 @@
 
     move-object v2, v1
 
-    .line 5
     invoke-direct/range {v2 .. v7}, Lcom/commsource/widget/dialog/delegate/d/f;-><init>(Lcom/commsource/video/c;FLcotlin/jvm/u/l;ILcotlin/jvm/internal/u;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/dialog/delegate/d/g;->N(Lcom/commsource/widget/dialog/delegate/d/f;)V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
@@ -147,7 +141,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     new-instance v1, Lcom/commsource/widget/dialog/delegate/d/e;
 
     const/4 v4, 0x0
@@ -170,7 +163,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/dialog/delegate/d/g;->M(Lcom/commsource/widget/dialog/delegate/d/e;)V
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
@@ -190,7 +182,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1;
@@ -217,7 +208,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->h(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
@@ -237,7 +227,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1;
@@ -264,7 +253,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->b(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    .line 12
     :cond_3
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
@@ -284,7 +272,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1;
@@ -311,7 +298,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->b(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    .line 14
     :cond_4
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
@@ -335,12 +321,10 @@
 
     if-eqz v1, :cond_5
 
-    .line 15
     sget-object v1, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$1;->INSTANCE:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$1;
 
     invoke-static {p1, v3, v1, v2, v3}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->f(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
-    .line 16
     :cond_5
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
@@ -360,12 +344,10 @@
 
     if-eqz v1, :cond_6
 
-    .line 17
     sget-object v1, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$2;->INSTANCE:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$2;
 
     invoke-static {p1, v3, v1, v2, v3}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->d(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
-    .line 18
     :cond_6
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
@@ -385,14 +367,12 @@
 
     if-eqz v1, :cond_7
 
-    .line 19
     sget-object v1, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$3;->INSTANCE:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$3;
 
     const-string v2, "Join us"
 
     invoke-static {p1, v2, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->g(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
-    .line 20
     :cond_7
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
@@ -416,16 +396,13 @@
 
     if-nez v1, :cond_8
 
-    .line 21
     invoke-static {p1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->p(Lcom/commsource/widget/dialog/delegate/d/a;)Lcom/commsource/widget/dialog/delegate/d/a;
 
     goto :goto_0
 
-    .line 22
     :cond_8
     invoke-static {p1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->o(Lcom/commsource/widget/dialog/delegate/d/a;)Lcom/commsource/widget/dialog/delegate/d/a;
 
-    .line 23
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

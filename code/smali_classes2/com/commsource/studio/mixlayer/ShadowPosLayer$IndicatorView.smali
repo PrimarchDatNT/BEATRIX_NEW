@@ -44,14 +44,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->c:Lcom/commsource/studio/mixlayer/ShadowPosLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
     sget p1, Lcom/res/provider/ResDRAWABLE;->edit_icon_lightsource:I
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->a(I)Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -62,7 +60,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->a:Landroid/graphics/Bitmap;
 
-    .line 3
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
@@ -158,7 +155,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->c:Lcom/commsource/studio/mixlayer/ShadowPosLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->u()Lcom/commsource/studio/MatrixBox;
@@ -171,7 +167,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->c:Lcom/commsource/studio/mixlayer/ShadowPosLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -184,15 +179,12 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->b:Landroid/graphics/Matrix;
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->b:Landroid/graphics/Matrix;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
@@ -207,7 +199,6 @@
 
     div-float/2addr v2, v3
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {v4}, Landroid/graphics/Bitmap;->getHeight()I
@@ -220,13 +211,10 @@
 
     div-float/2addr v4, v3
 
-    .line 7
     invoke-virtual {v1, v2, v4}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->b:Landroid/graphics/Matrix;
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->c:Lcom/commsource/studio/mixlayer/ShadowPosLayer;
 
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -249,7 +237,6 @@
 
     div-float/2addr v2, v4
 
-    .line 10
     iget-object v4, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->c:Lcom/commsource/studio/mixlayer/ShadowPosLayer;
 
     invoke-virtual {v4}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -270,10 +257,8 @@
 
     div-float/2addr v3, v4
 
-    .line 11
     invoke-virtual {v1, v2, v3}, Landroid/graphics/Matrix;->postScale(FF)Z
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->b:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->c:Lcom/commsource/studio/mixlayer/ShadowPosLayer;
@@ -288,7 +273,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->postRotate(F)Z
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->b:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->c:Lcom/commsource/studio/mixlayer/ShadowPosLayer;
@@ -299,7 +283,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->postConcat(Landroid/graphics/Matrix;)Z
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->a:Landroid/graphics/Bitmap;
 
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ShadowPosLayer$IndicatorView;->b:Landroid/graphics/Matrix;
@@ -312,7 +295,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Matrix;Landroid/graphics/Paint;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

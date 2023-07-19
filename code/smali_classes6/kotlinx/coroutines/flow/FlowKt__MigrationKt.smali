@@ -29,7 +29,6 @@
         message = "Use launchIn with onEach, onCompletion and catch operators instead"
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -70,7 +69,6 @@
         message = "Use launchIn with onEach, onCompletion and catch operators instead"
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -125,7 +123,6 @@
         message = "Use launchIn with onEach, onCompletion and catch operators instead"
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -165,7 +162,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -217,7 +213,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$switchMap$$inlined$flatMapLatest$1;
 
     const/4 v1, 0x0
@@ -281,7 +276,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/flow/f;->B(Lcotlinx/coroutines/flow/d;Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/flow/d;
 
     move-result-object p0
@@ -363,7 +357,6 @@
 
     aput-object p2, v0, p0
 
-    .line 1
     new-instance p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$1;
 
     invoke-direct {p0, v0, p3}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$1;-><init>([Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/r;)V
@@ -457,7 +450,6 @@
 
     aput-object p3, v0, p0
 
-    .line 1
     new-instance p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2;
 
     invoke-direct {p0, v0, p4}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2;-><init>([Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/s;)V
@@ -563,7 +555,6 @@
 
     aput-object p4, v0, p0
 
-    .line 1
     new-instance p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$3;
 
     invoke-direct {p0, v0, p5}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$3;-><init>([Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/t;)V
@@ -613,7 +604,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -661,7 +651,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -699,7 +688,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -743,7 +731,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -781,7 +768,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$delayEach$1;
 
     const/4 v1, 0x0
@@ -825,7 +811,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$delayFlow$1;
 
     const/4 v1, 0x0
@@ -883,7 +868,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -923,7 +907,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -968,7 +951,6 @@
         .end subannotation
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -1008,7 +990,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -1019,7 +1000,6 @@
 .method private static final o()Ljava/lang/Void;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Not implemented, should not be called"
@@ -1061,7 +1041,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -1105,7 +1084,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -1149,7 +1127,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -1187,7 +1164,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -1234,7 +1210,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$onErrorReturn$2;
 
     const/4 v1, 0x0
@@ -1255,7 +1230,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     sget-object p2, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$onErrorReturn$1;->INSTANCE:Lcotlinx/coroutines/flow/FlowKt__MigrationKt$onErrorReturn$1;
 
     :cond_0
@@ -1298,7 +1272,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -1351,7 +1324,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -1389,7 +1361,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -1427,7 +1398,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0
@@ -1471,7 +1441,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt;->o()Ljava/lang/Void;
 
     const/4 p0, 0x0

@@ -33,7 +33,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/m;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/selects/b$b;->d:Lcotlinx/coroutines/f1;

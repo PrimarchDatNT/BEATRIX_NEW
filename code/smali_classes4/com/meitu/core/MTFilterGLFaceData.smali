@@ -11,10 +11,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/core/MTFilterGLFaceData;->nativeCreate()J
 
     move-result-wide v0
@@ -56,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
@@ -78,17 +75,14 @@
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLFaceData;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/MTFilterGLFaceData;->nativeFinalizer(J)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -96,10 +90,8 @@
     :catchall_0
     move-exception v1
 
-    .line 5
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -112,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLFaceData;->nativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -127,12 +118,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/MTFilterGLFaceData;->nativeSetFaceCount(JI)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -149,19 +138,16 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     array-length v2, p1
 
     if-lez v2, :cond_1
 
-    .line 2
     array-length v2, p1
 
     mul-int/lit8 v2, v2, 0x2
 
     new-array v2, v2, [F
 
-    .line 3
     :goto_0
     array-length v3, p1
 
@@ -169,7 +155,6 @@
 
     mul-int/lit8 v3, v1, 0x2
 
-    .line 4
     aget-object v4, p1, v1
 
     iget v4, v4, Landroid/graphics/PointF;->x:F
@@ -178,7 +163,6 @@
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 5
     aget-object v4, p1, v1
 
     iget v4, v4, Landroid/graphics/PointF;->y:F
@@ -189,7 +173,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-wide v3, p0, Lcom/meitu/core/MTFilterGLFaceData;->nativeInstance:J
 
@@ -199,7 +182,6 @@
 
     move-result v1
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -217,40 +199,34 @@
 
     new-array v1, v1, [F
 
-    .line 1
     iget v2, p1, Landroid/graphics/RectF;->left:F
 
     const/4 v3, 0x0
 
     aput v2, v1, v3
 
-    .line 2
     iget v2, p1, Landroid/graphics/RectF;->top:F
 
     const/4 v3, 0x1
 
     aput v2, v1, v3
 
-    .line 3
     iget v2, p1, Landroid/graphics/RectF;->right:F
 
     const/4 v3, 0x2
 
     aput v2, v1, v3
 
-    .line 4
     iget p1, p1, Landroid/graphics/RectF;->bottom:F
 
     const/4 v2, 0x3
 
     aput p1, v1, v2
 
-    .line 5
     iget-wide v2, p0, Lcom/meitu/core/MTFilterGLFaceData;->nativeInstance:J
 
     invoke-static {v2, v3, p2, v1}, Lcom/meitu/core/MTFilterGLFaceData;->nativeSetFaceRect(JI[F)Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -263,7 +239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/MTFilterGLFaceData;->nativeInstance:J
 
     invoke-static {v1, v2, p2, p1}, Lcom/meitu/core/MTFilterGLFaceData;->nativeSetGender(JII)Z

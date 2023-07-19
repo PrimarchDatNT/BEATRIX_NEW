@@ -59,13 +59,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p3}, Lcom/google/android/gms/internal/ads/qr1;-><init>(Lcom/google/android/gms/internal/ads/sr1;Ljava/lang/Class;)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/fs1;->c:Lcom/google/android/gms/internal/ads/es1;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/fs1;->d:Lcom/google/android/gms/internal/ads/sr1;
 
     return-void

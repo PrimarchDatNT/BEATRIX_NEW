@@ -25,14 +25,12 @@
 
     new-array v1, v0, [C
 
-    .line 1
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/qiniu/android/dns/util/Hex;->a:[C
 
     new-array v0, v0, [C
 
-    .line 2
     fill-array-data v0, :array_1
 
     sput-object v0, Lcom/qiniu/android/dns/util/Hex;->b:[C
@@ -85,7 +83,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -99,7 +96,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     and-int/lit8 v1, v0, 0x1
@@ -108,7 +104,6 @@
 
     shr-int/lit8 v1, v0, 0x1
 
-    .line 2
     new-array v1, v1, [B
 
     const/4 v2, 0x0
@@ -118,7 +113,6 @@
     :goto_0
     if-ge v2, v0, :cond_0
 
-    .line 3
     aget-char v4, p0, v2
 
     invoke-static {v4, v2}, Lcom/qiniu/android/dns/util/Hex;->f(CI)I
@@ -129,7 +123,6 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 4
     aget-char v5, p0, v2
 
     invoke-static {v5, v2}, Lcom/qiniu/android/dns/util/Hex;->f(CI)I
@@ -144,7 +137,6 @@
 
     int-to-byte v4, v4
 
-    .line 5
     aput-byte v4, v1, v3
 
     add-int/lit8 v3, v3, 0x1
@@ -154,7 +146,6 @@
     :cond_0
     return-object v1
 
-    .line 6
     :cond_1
     new-instance p0, Lcom/qiniu/android/dns/util/Hex$HexDecodeException;
 
@@ -170,7 +161,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {p0, v0}, Lcom/qiniu/android/dns/util/Hex;->c([BZ)[C
 
     move-result-object p0
@@ -183,7 +173,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     sget-object p1, Lcom/qiniu/android/dns/util/Hex;->a:[C
 
     goto :goto_0
@@ -202,12 +191,10 @@
 .method private static d([B[C)[C
     .locals 6
 
-    .line 1
     array-length v0, p0
 
     shl-int/lit8 v1, v0, 0x1
 
-    .line 2
     new-array v1, v1, [C
 
     const/4 v2, 0x0
@@ -219,7 +206,6 @@
 
     add-int/lit8 v4, v3, 0x1
 
-    .line 3
     aget-byte v5, p0, v2
 
     and-int/lit16 v5, v5, 0xf0
@@ -232,7 +218,6 @@
 
     add-int/lit8 v3, v4, 0x1
 
-    .line 4
     aget-byte v5, p0, v2
 
     and-int/lit8 v5, v5, 0xf
@@ -252,7 +237,6 @@
 .method public static e([B)Ljava/lang/String;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/String;
 
     invoke-static {p0}, Lcom/qiniu/android/dns/util/Hex;->b([B)[C
@@ -274,7 +258,6 @@
 
     const/16 v0, 0x10
 
-    .line 1
     invoke-static {p0, v0}, Ljava/lang/Character;->digit(CI)I
 
     move-result v0
@@ -285,7 +268,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/qiniu/android/dns/util/Hex$HexDecodeException;
 

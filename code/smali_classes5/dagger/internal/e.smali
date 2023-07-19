@@ -34,7 +34,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,23 +53,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Ldagger/internal/o;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     check-cast p0, Ldagger/internal/e;
 
-    .line 3
     iget-object v0, p0, Ldagger/internal/e;->a:Lj/a/c;
 
     if-nez v0, :cond_0
 
-    .line 4
     iput-object p1, p0, Ldagger/internal/e;->a:Lj/a/c;
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -91,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ldagger/internal/e;->a:Lj/a/c;
 
     invoke-static {v0}, Ldagger/internal/o;->b(Ljava/lang/Object;)Ljava/lang/Object;
@@ -116,7 +109,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ldagger/internal/e;->b(Lj/a/c;Lj/a/c;)V
 
     return-void
@@ -130,19 +122,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ldagger/internal/e;->a:Lj/a/c;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lj/a/c;->get()Ljava/lang/Object;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 

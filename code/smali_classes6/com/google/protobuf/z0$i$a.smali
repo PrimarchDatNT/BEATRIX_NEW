@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/google/protobuf/z0$d;Lcom/google/protobuf/z0$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/protobuf/z0$i$a;->a:Lcom/google/protobuf/z0$d;
 
     iput-object p2, p0, Lcom/google/protobuf/z0$i$a;->b:Lcom/google/protobuf/z0$c;
@@ -51,7 +50,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/google/protobuf/z0$i$a;->d(Ljava/lang/Integer;)Lcom/google/protobuf/z0$c;
@@ -64,7 +62,6 @@
 .method public bridge synthetic b(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/protobuf/z0$c;
 
     invoke-virtual {p0, p1}, Lcom/google/protobuf/z0$i$a;->c(Lcom/google/protobuf/z0$c;)Ljava/lang/Integer;
@@ -83,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/protobuf/z0$c;->getNumber()I
 
     move-result p1
@@ -105,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/z0$i$a;->a:Lcom/google/protobuf/z0$d;
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
@@ -118,7 +113,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/protobuf/z0$i$a;->b:Lcom/google/protobuf/z0$c;
 
     :cond_0

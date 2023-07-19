@@ -19,7 +19,6 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v0
@@ -36,23 +35,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;->INSTANCE:Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;->INSTANCE:Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;
 
     const-string v3, "hw_launch_ad_shared_preferences_name"
@@ -61,7 +56,6 @@
 
     sput-object v2, Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;->INSTANCE:Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -78,7 +72,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;->INSTANCE:Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;
@@ -97,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -134,7 +126,6 @@
 
     const-wide/16 v2, 0x0
 
-    .line 1
     invoke-virtual {p0, v1, v2, v3}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v1
@@ -155,7 +146,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->getInt(Ljava/lang/String;I)I
 
     move-result v1
@@ -172,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v1
@@ -183,7 +172,6 @@
 
     move-result v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;->getLastCurrentDay()I
 
     move-result v2
@@ -192,7 +180,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -200,7 +187,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -213,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -230,7 +215,6 @@
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->putValue(Ljava/lang/String;J)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -245,10 +229,8 @@
 
     const-string v1, "KEY_CURRENT_DAY"
 
-    .line 1
     invoke-virtual {p0, v1, p1}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->putValue(Ljava/lang/String;I)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -263,10 +245,8 @@
 
     const-string v1, "KEY_LAST_BACK_TIME"
 
-    .line 1
     invoke-virtual {p0, v1, p1, p2}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->putValue(Ljava/lang/String;J)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -33,57 +33,48 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x2
 
-    .line 2
     iput v0, p0, Lcom/sdk/imp/r;->a:I
 
-    .line 3
     new-instance v0, Lcom/sdk/imp/r$a;
 
     invoke-direct {v0}, Lcom/sdk/imp/r$a;-><init>()V
 
     iput-object v0, p0, Lcom/sdk/imp/r;->b:Lcom/sdk/imp/r$a;
 
-    .line 4
     new-instance v0, Lcom/sdk/imp/r$a;
 
     invoke-direct {v0}, Lcom/sdk/imp/r$a;-><init>()V
 
     iput-object v0, p0, Lcom/sdk/imp/r;->c:Lcom/sdk/imp/r$a;
 
-    .line 5
     new-instance v0, Lcom/sdk/imp/r$a;
 
     invoke-direct {v0}, Lcom/sdk/imp/r$a;-><init>()V
 
     iput-object v0, p0, Lcom/sdk/imp/r;->d:Lcom/sdk/imp/r$a;
 
-    .line 6
     new-instance v0, Lcom/sdk/imp/r$a;
 
     invoke-direct {v0}, Lcom/sdk/imp/r$a;-><init>()V
 
     iput-object v0, p0, Lcom/sdk/imp/r;->e:Lcom/sdk/imp/r$a;
 
-    .line 7
     new-instance v0, Lcom/sdk/imp/r$a;
 
     invoke-direct {v0}, Lcom/sdk/imp/r$a;-><init>()V
 
     iput-object v0, p0, Lcom/sdk/imp/r;->f:Lcom/sdk/imp/r$a;
 
-    .line 8
     new-instance v0, Lcom/sdk/imp/r$a;
 
     invoke-direct {v0}, Lcom/sdk/imp/r$a;-><init>()V
 
     iput-object v0, p0, Lcom/sdk/imp/r;->g:Lcom/sdk/imp/r$a;
 
-    .line 9
     new-instance v0, Lcom/sdk/imp/r$a;
 
     invoke-direct {v0}, Lcom/sdk/imp/r$a;-><init>()V

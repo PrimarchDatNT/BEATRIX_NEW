@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sub/SubTabEnum$a;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/sub/SubTabEnum;->access$getBeautyFunctions$cp()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -83,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/sub/SubTabEnum;->access$getEditFunctions$cp()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -102,12 +98,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/sub/SubTabEnum;->values()[Lcom/commsource/studio/sub/SubTabEnum;
 
     move-result-object v1
 
-    .line 2
     array-length v2, v1
 
     const/4 v3, 0x0
@@ -117,14 +111,12 @@
 
     aget-object v4, v1, v3
 
-    .line 3
     invoke-virtual {v4}, Lcom/commsource/studio/sub/SubTabEnum;->getId()I
 
     move-result v5
 
     if-ne v5, p1, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -137,7 +129,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -160,12 +151,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/sub/SubTabEnum$a;->b()Ljava/util/ArrayList;
 
@@ -177,14 +166,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     sget-object p1, Lcom/commsource/studio/sub/SubTabEnum;->Edit:Lcom/commsource/studio/sub/SubTabEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/SubTabEnum$a;->a()Ljava/util/ArrayList;
 
@@ -196,14 +183,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     sget-object p1, Lcom/commsource/studio/sub/SubTabEnum;->Beauty:Lcom/commsource/studio/sub/SubTabEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -223,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -232,18 +216,15 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/commsource/studio/sub/SubTabEnum;->values()[Lcom/commsource/studio/sub/SubTabEnum;
 
     move-result-object v1
 
-    .line 4
     array-length v3, v1
 
     const/4 v4, 0x0
@@ -253,7 +234,6 @@
 
     aget-object v5, v1, v4
 
-    .line 5
     invoke-virtual {v5}, Lcom/commsource/studio/sub/SubTabEnum;->getDictValue()Ljava/lang/String;
 
     move-result-object v6
@@ -264,7 +244,6 @@
 
     if-eqz v6, :cond_1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v5
@@ -274,7 +253,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

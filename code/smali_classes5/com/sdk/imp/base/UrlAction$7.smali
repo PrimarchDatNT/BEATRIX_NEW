@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/sdk/imp/base/UrlAction;-><init>(Ljava/lang/String;IZLcom/sdk/imp/base/UrlAction$1;)V
 
     return-void
@@ -48,7 +47,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Landroid/net/Uri;->getHost()Ljava/lang/String;
 
     move-result-object p3
@@ -64,42 +62,34 @@
     :try_start_0
     const-string p3, "pkg"
 
-    .line 2
     invoke-virtual {p2, p3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p3
 
     const-string v0, "pkg_url"
 
-    .line 3
     invoke-virtual {p2, v0}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "link"
 
-    .line 4
     invoke-virtual {p2, v1}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 5
     invoke-static {p3}, Lcom/sdk/imp/internal/loader/Ad;->createAd(Ljava/lang/String;)Lcom/sdk/imp/internal/loader/Ad;
 
     move-result-object p3
 
     const/4 v1, 0x4
 
-    .line 6
     invoke-virtual {p3, v1}, Lcom/sdk/imp/internal/loader/Ad;->setMtType(I)V
 
-    .line 7
     invoke-virtual {p3, v0}, Lcom/sdk/imp/internal/loader/Ad;->setPkgUrl(Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {p3, p2}, Lcom/sdk/imp/internal/loader/Ad;->setDeepLink(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {p3}, Lcom/sdk/imp/internal/loader/Ad;->getPosid()Ljava/lang/String;
 
     move-result-object p2
@@ -112,7 +102,6 @@
 
     return-void
 
-    .line 10
     :catch_0
     new-instance p1, Ljava/lang/Exception;
 
@@ -122,7 +111,6 @@
 
     throw p1
 
-    .line 11
     :cond_0
     new-instance p1, Ljava/lang/Exception;
 
@@ -140,7 +128,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object p1

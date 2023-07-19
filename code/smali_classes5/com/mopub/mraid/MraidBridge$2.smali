@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mraid/MraidBridge;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mraid/MraidBridge$2;->this$0:Lcom/mopub/mraid/MraidBridge;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidBridge$2;->this$0:Lcom/mopub/mraid/MraidBridge;
 
     invoke-static {v0}, Lcom/mopub/mraid/MraidBridge;->access$100(Lcom/mopub/mraid/MraidBridge;)Lcom/mopub/mobileads/ViewGestureDetector;
@@ -47,7 +45,6 @@
 
     invoke-virtual {v0, p2}, Landroid/view/GestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
-    .line 2
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     move-result p2
@@ -60,7 +57,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/View;->hasFocus()Z
 
@@ -68,7 +64,6 @@
 
     if-nez p2, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/View;->requestFocus()Z
 
     :cond_1

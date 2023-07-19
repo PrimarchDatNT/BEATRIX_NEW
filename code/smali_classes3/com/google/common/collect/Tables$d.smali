@@ -57,7 +57,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Tables$d$a;
 
     invoke-direct {v0}, Lcom/google/common/collect/Tables$d$a;-><init>()V
@@ -77,10 +76,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/i;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -105,7 +102,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->cellSet()Ljava/util/Set;
@@ -128,7 +124,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->clear()V
@@ -146,7 +141,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/f2;->row(Ljava/lang/Object;)Ljava/util/Map;
@@ -166,7 +160,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->rowKeySet()Ljava/util/Set;
@@ -188,7 +181,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->rowMap()Ljava/util/Map;
@@ -209,7 +201,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0, p2, p1}, Lcom/google/common/collect/f2;->contains(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -226,7 +217,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/f2;->containsRow(Ljava/lang/Object;)Z
@@ -243,7 +233,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/f2;->containsColumn(Ljava/lang/Object;)Z
@@ -260,7 +249,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/f2;->containsValue(Ljava/lang/Object;)Z
@@ -289,7 +277,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0, p2, p1}, Lcom/google/common/collect/f2;->get(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -307,7 +294,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0, p2, p1, p3}, Lcom/google/common/collect/f2;->put(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -327,7 +313,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-static {p1}, Lcom/google/common/collect/Tables;->g(Lcom/google/common/collect/f2;)Lcom/google/common/collect/f2;
@@ -358,7 +343,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0, p2, p1}, Lcom/google/common/collect/f2;->remove(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -378,7 +362,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/f2;->column(Ljava/lang/Object;)Ljava/util/Map;
@@ -398,7 +381,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->columnKeySet()Ljava/util/Set;
@@ -420,7 +402,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->columnMap()Ljava/util/Map;
@@ -433,7 +414,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->size()I
@@ -453,7 +433,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Tables$d;->a:Lcom/google/common/collect/f2;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->values()Ljava/util/Collection;

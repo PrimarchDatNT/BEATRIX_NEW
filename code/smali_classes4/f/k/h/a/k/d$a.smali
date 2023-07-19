@@ -22,7 +22,6 @@
 .method constructor <init>(Lf/k/h/a/k/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/k/d$a;->a:Lf/k/h/a/k/d;
 
     invoke-direct {p0}, Lf/k/h/a/l/y/e;-><init>()V
@@ -41,7 +40,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lf/k/h/a/k/d$a;->a:Lf/k/h/a/k/d;
 
     invoke-static {p1}, Lf/k/h/a/k/d;->c(Lf/k/h/a/k/d;)Lf/k/h/a/k/b;
@@ -50,14 +48,12 @@
 
     invoke-interface {p1, p0}, Lf/k/h/a/l/y/a;->b(Lf/k/h/a/l/y/b;)V
 
-    .line 2
     iget-object p1, p0, Lf/k/h/a/k/d$a;->a:Lf/k/h/a/k/d;
 
     invoke-static {p1}, Lf/k/h/a/k/d;->d(Lf/k/h/a/k/d;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/h/a/k/d$a;->a:Lf/k/h/a/k/d;
 
@@ -67,7 +63,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lf/k/h/a/k/d$a;->a:Lf/k/h/a/k/d;
 
     invoke-static {v1}, Lf/k/h/a/k/d;->e(Lf/k/h/a/k/d;)Lf/k/h/a/k/e/a;
@@ -76,7 +71,6 @@
 
     invoke-interface {v1, p1}, Lf/k/h/a/k/e/a;->a(I)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

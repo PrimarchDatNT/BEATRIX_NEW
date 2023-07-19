@@ -30,10 +30,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lorg/apache/http/protocol/UriPatternMatcher;
 
     invoke-direct {v0}, Lorg/apache/http/protocol/UriPatternMatcher;-><init>()V
@@ -57,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/HttpRequestHandlerRegistry;->matcher:Lorg/apache/http/protocol/UriPatternMatcher;
 
     invoke-virtual {v0}, Lorg/apache/http/protocol/UriPatternMatcher;->getObjects()Ljava/util/Map;
@@ -70,7 +67,6 @@
 .method public lookup(Ljava/lang/String;)Lorg/apache/http/protocol/HttpRequestHandler;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/HttpRequestHandlerRegistry;->matcher:Lorg/apache/http/protocol/UriPatternMatcher;
 
     invoke-virtual {v0, p1}, Lorg/apache/http/protocol/UriPatternMatcher;->lookup(Ljava/lang/String;)Ljava/lang/Object;
@@ -87,15 +83,12 @@
 
     const-string v0, "URI request pattern"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Request handler"
 
-    .line 2
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lorg/apache/http/protocol/HttpRequestHandlerRegistry;->matcher:Lorg/apache/http/protocol/UriPatternMatcher;
 
     invoke-virtual {v0, p1, p2}, Lorg/apache/http/protocol/UriPatternMatcher;->register(Ljava/lang/String;Ljava/lang/Object;)V
@@ -115,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/HttpRequestHandlerRegistry;->matcher:Lorg/apache/http/protocol/UriPatternMatcher;
 
     invoke-virtual {v0, p1}, Lorg/apache/http/protocol/UriPatternMatcher;->setObjects(Ljava/util/Map;)V
@@ -126,7 +118,6 @@
 .method public unregister(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/HttpRequestHandlerRegistry;->matcher:Lorg/apache/http/protocol/UriPatternMatcher;
 
     invoke-virtual {v0, p1}, Lorg/apache/http/protocol/UriPatternMatcher;->unregister(Ljava/lang/String;)V

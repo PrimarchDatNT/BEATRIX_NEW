@@ -82,7 +82,6 @@
 
     new-array v1, v1, [Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 1
     sget-object v2, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->NoseWing:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const/4 v3, 0x0
@@ -189,7 +188,6 @@
 
     new-array v1, v10, [Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 2
     sget-object v2, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->Smooth:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     aput-object v2, v1, v3
@@ -228,27 +226,22 @@
 .method public constructor <init>(Lcom/commsource/easyeditor/utils/opengl/c;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
-    .line 3
     new-instance v0, Lcom/commsource/easyeditor/utils/opengl/l;
 
     invoke-direct {v0}, Lcom/commsource/easyeditor/utils/opengl/l;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/easyeditor/z1/k;->u:Lcom/commsource/easyeditor/utils/opengl/l;
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/easyeditor/z1/k;->q:Lcom/commsource/easyeditor/utils/opengl/c;
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/easyeditor/z1/k;->o()V
 
     return-void
@@ -261,7 +254,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/z1/k$a;->b:[I
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
@@ -282,7 +274,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :pswitch_0
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->e:Lcom/commsource/easyeditor/z1/h;
 
@@ -296,7 +287,6 @@
 
     goto/16 :goto_0
 
-    .line 3
     :pswitch_1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->e:Lcom/commsource/easyeditor/z1/h;
 
@@ -310,7 +300,6 @@
 
     goto/16 :goto_0
 
-    .line 4
     :pswitch_2
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -328,7 +317,6 @@
 
     goto/16 :goto_0
 
-    .line 5
     :pswitch_3
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->e:Lcom/commsource/easyeditor/z1/h;
 
@@ -342,7 +330,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_4
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->e:Lcom/commsource/easyeditor/z1/h;
 
@@ -360,7 +347,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_5
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->g:Lcom/commsource/easyeditor/z1/m;
 
@@ -372,7 +358,6 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_6
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
@@ -382,7 +367,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/easyeditor/z1/k;->h:Lcom/commsource/camera/newrender/renderproxy/r;
 
     invoke-virtual {v4}, Lcom/commsource/camera/newrender/renderproxy/r;->w()Lcom/meitu/template/bean/Filter;
@@ -391,14 +375,12 @@
 
     if-ne v4, v1, :cond_1
 
-    .line 10
     invoke-virtual {v1}, Lcom/meitu/template/bean/Filter;->getNeedNewMode()I
 
     move-result v1
 
     if-ne v1, v2, :cond_0
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->h:Lcom/commsource/camera/newrender/renderproxy/r;
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/c;->a()F
@@ -415,7 +397,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->h:Lcom/commsource/camera/newrender/renderproxy/r;
 
@@ -433,7 +414,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->h:Lcom/commsource/camera/newrender/renderproxy/r;
 
@@ -443,7 +423,6 @@
 
     move-result-object v4
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/c;->a()F
 
     move-result p1
@@ -454,14 +433,11 @@
 
     move-result p1
 
-    .line 15
     invoke-virtual {v1, v4, p1}, Lcom/commsource/camera/newrender/renderproxy/r;->M(Lcom/meitu/template/bean/Filter;I)V
 
-    .line 16
     :goto_0
     iput-boolean v2, p0, Lcom/commsource/easyeditor/z1/k;->s:Z
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -485,7 +461,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object v1
@@ -498,10 +473,8 @@
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/easyeditor/z1/k;->s:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -516,18 +489,15 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p2, p0, Lcom/commsource/easyeditor/z1/k;->q:Lcom/commsource/easyeditor/utils/opengl/c;
 
     invoke-interface {p2, p1}, Lcom/commsource/easyeditor/utils/opengl/c;->g(Ljava/lang/Runnable;)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -541,7 +511,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -561,7 +530,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/easyeditor/z1/k;->o:Lcom/meitu/library/renderarch/arch/data/b/d;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->k(Lcom/meitu/library/renderarch/arch/data/b/d;)V
@@ -571,14 +539,12 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/easyeditor/z1/k;->p:Lcom/commsource/easyeditor/utils/opengl/b;
 
     invoke-virtual {p2}, Lcom/commsource/easyeditor/utils/opengl/b;->d()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object p2
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->u:Lcom/commsource/easyeditor/utils/opengl/l;
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/easyeditor/utils/opengl/l;->b(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
@@ -587,7 +553,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     iget-object p2, p0, Lcom/commsource/easyeditor/z1/k;->p:Lcom/commsource/easyeditor/utils/opengl/b;
 
@@ -597,12 +562,10 @@
 
     if-ne p1, p2, :cond_2
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/easyeditor/z1/k;->p:Lcom/commsource/easyeditor/utils/opengl/b;
 
     invoke-virtual {p2}, Lcom/commsource/easyeditor/utils/opengl/b;->a()V
 
-    .line 7
     :cond_2
     :goto_1
     iget-object p2, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
@@ -628,7 +591,6 @@
 
     if-eqz p3, :cond_3
 
-    .line 8
     invoke-direct {p0, v2}, Lcom/commsource/easyeditor/z1/k;->q(Lcom/commsource/camera/newrender/renderproxy/n;)Z
 
     move-result v1
@@ -637,7 +599,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_3
     invoke-direct {p0, v2}, Lcom/commsource/easyeditor/z1/k;->i(Lcom/commsource/camera/newrender/renderproxy/n;)Z
 
@@ -647,7 +608,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_4
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->p:Lcom/commsource/easyeditor/utils/opengl/b;
 
@@ -655,7 +615,6 @@
 
     move-result-object v1
 
-    .line 11
     iget v3, p1, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
     iget v4, v1, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
@@ -674,17 +633,14 @@
 
     move-result p1
 
-    .line 12
     iget v1, v1, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
     if-ne p1, v1, :cond_5
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->p:Lcom/commsource/easyeditor/utils/opengl/b;
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/utils/opengl/b;->a()V
 
-    .line 14
     :cond_5
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->p:Lcom/commsource/easyeditor/utils/opengl/b;
 
@@ -694,7 +650,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -708,17 +663,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/easyeditor/entity/b;->g()Ljava/util/List;
 
@@ -743,12 +695,10 @@
 
     const/4 v3, 0x0
 
-    .line 4
     invoke-virtual {p0, v2, v3}, Lcom/commsource/easyeditor/z1/k;->W(Lcom/commsource/easyeditor/entity/c;Z)V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -762,7 +712,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/z1/k$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -777,7 +726,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :pswitch_0
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->f:Lcom/commsource/easyeditor/utils/opengl/i;
 
@@ -785,7 +733,6 @@
 
     goto/16 :goto_0
 
-    .line 3
     :pswitch_1
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->f:Lcom/commsource/easyeditor/utils/opengl/i;
 
@@ -793,7 +740,6 @@
 
     goto/16 :goto_0
 
-    .line 4
     :pswitch_2
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->f:Lcom/commsource/easyeditor/utils/opengl/i;
 
@@ -801,7 +747,6 @@
 
     goto/16 :goto_0
 
-    .line 5
     :pswitch_3
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -811,12 +756,10 @@
 
     const/16 v1, 0x1021
 
-    .line 6
     invoke-virtual {p1, v1, p2}, Lcom/commsource/camera/newrender/renderproxy/v/z;->k2(IF)V
 
     goto/16 :goto_0
 
-    .line 7
     :pswitch_4
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -828,7 +771,6 @@
 
     goto/16 :goto_0
 
-    .line 8
     :pswitch_5
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -840,12 +782,10 @@
 
     neg-float p2, p2
 
-    .line 9
     invoke-virtual {p1, v1, p2}, Lcom/commsource/camera/newrender/renderproxy/v/z;->k2(IF)V
 
     goto/16 :goto_0
 
-    .line 10
     :pswitch_6
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -855,12 +795,10 @@
 
     const/16 v1, 0x1004
 
-    .line 11
     invoke-virtual {p1, v1, p2}, Lcom/commsource/camera/newrender/renderproxy/v/z;->k2(IF)V
 
     goto/16 :goto_0
 
-    .line 12
     :pswitch_7
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -874,7 +812,6 @@
 
     goto/16 :goto_0
 
-    .line 13
     :pswitch_8
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -888,7 +825,6 @@
 
     goto/16 :goto_0
 
-    .line 14
     :pswitch_9
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -902,7 +838,6 @@
 
     goto/16 :goto_0
 
-    .line 15
     :pswitch_a
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -916,7 +851,6 @@
 
     goto/16 :goto_0
 
-    .line 16
     :pswitch_b
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -930,7 +864,6 @@
 
     goto/16 :goto_0
 
-    .line 17
     :pswitch_c
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -938,7 +871,6 @@
 
     goto/16 :goto_0
 
-    .line 18
     :pswitch_d
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -950,12 +882,10 @@
 
     neg-float p2, p2
 
-    .line 19
     invoke-virtual {p1, v1, p2}, Lcom/commsource/camera/newrender/renderproxy/v/z;->k2(IF)V
 
     goto :goto_0
 
-    .line 20
     :pswitch_e
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -967,7 +897,6 @@
 
     goto :goto_0
 
-    .line 21
     :pswitch_f
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -979,20 +908,17 @@
 
     goto :goto_0
 
-    .line 22
     :pswitch_10
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/newrender/renderproxy/o;->T(F)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/newrender/renderproxy/o;->X(F)V
 
     goto :goto_0
 
-    .line 24
     :pswitch_11
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -1000,7 +926,6 @@
 
     goto :goto_0
 
-    .line 25
     :pswitch_12
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -1014,7 +939,6 @@
 
     goto :goto_0
 
-    .line 26
     :pswitch_13
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -1026,12 +950,10 @@
 
     neg-float p2, p2
 
-    .line 27
     invoke-virtual {p1, v1, p2}, Lcom/commsource/camera/newrender/renderproxy/v/z;->k2(IF)V
 
     goto :goto_0
 
-    .line 28
     :pswitch_14
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -1039,7 +961,6 @@
 
     goto :goto_0
 
-    .line 29
     :pswitch_15
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -1056,7 +977,6 @@
 
     goto :goto_0
 
-    .line 30
     :pswitch_16
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
@@ -1072,13 +992,11 @@
 
     goto :goto_0
 
-    .line 31
     :pswitch_17
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/newrender/renderproxy/o;->W(F)V
 
-    .line 32
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1132,12 +1050,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->values()[Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
@@ -1156,14 +1072,12 @@
 
     const/4 v6, 0x0
 
-    .line 3
     invoke-direct {p0, v5, v6}, Lcom/commsource/easyeditor/z1/k;->Y(Lcom/commsource/easyeditor/entity/FaceEffectEnum;F)V
 
     add-int/lit8 v4, v4, 0x1
 
     goto :goto_0
 
-    .line 4
     :cond_1
     :goto_1
     invoke-virtual {p1}, Landroid/util/SparseArray;->size()I
@@ -1172,7 +1086,6 @@
 
     if-ge v3, v1, :cond_2
 
-    .line 5
     invoke-virtual {p1, v3}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -1181,14 +1094,12 @@
 
     const/4 v2, 0x1
 
-    .line 6
     invoke-virtual {p0, v1, v2}, Lcom/commsource/easyeditor/z1/k;->X(Lcom/commsource/easyeditor/entity/f;Z)V
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1202,7 +1113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez v1, :cond_0
@@ -1226,12 +1136,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/b;->g()Ljava/util/List;
 
@@ -1239,12 +1147,10 @@
 
     if-nez p1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -1263,12 +1169,10 @@
 
     check-cast v2, Lcom/commsource/easyeditor/entity/c;
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object v3
 
-    .line 6
     sget-object v4, Lcom/commsource/easyeditor/entity/EditEffectEnum;->Filter:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     if-eq v3, v4, :cond_2
@@ -1277,7 +1181,6 @@
 
     if-eq v3, v4, :cond_2
 
-    .line 7
     invoke-virtual {v2}, Lcom/commsource/easyeditor/entity/c;->a()F
 
     move-result v2
@@ -1290,12 +1193,10 @@
 
     const/4 p1, 0x1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 9
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1313,7 +1214,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
     if-eqz v2, :cond_4
@@ -1326,7 +1226,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/easyeditor/entity/b;->e()Ljava/util/List;
 
@@ -1340,12 +1239,10 @@
 
     if-nez p1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     sget-object p2, Lcom/commsource/easyeditor/z1/k;->v:[Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
@@ -1358,7 +1255,6 @@
 
     aget-object v4, p2, v3
 
-    .line 5
     invoke-virtual {v4}, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->getId()I
 
     move-result v4
@@ -1375,7 +1271,6 @@
 
     if-eqz v4, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -1387,13 +1282,11 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 8
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1408,25 +1301,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
     const/4 v2, 0x1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     instance-of v3, p1, Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/j;->h()I
 
     move-result p1
@@ -1441,13 +1330,11 @@
 
     return p1
 
-    .line 5
     :cond_1
     instance-of v3, p1, Lcom/commsource/camera/newrender/renderproxy/o;
 
     if-eqz v3, :cond_2
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/j;->h()I
 
     move-result p1
@@ -1462,13 +1349,11 @@
 
     return p1
 
-    .line 7
     :cond_2
     instance-of v1, p1, Lcom/commsource/easyeditor/z1/h;
 
     if-eqz v1, :cond_3
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/z1/k;->g(Lcom/commsource/easyeditor/entity/b;)Z
@@ -1479,13 +1364,11 @@
 
     return p1
 
-    .line 9
     :cond_3
     instance-of p1, p1, Lcom/commsource/camera/newrender/renderproxy/r;
 
     if-eqz p1, :cond_4
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/z1/k;->j(Lcom/commsource/easyeditor/entity/b;)Z
@@ -1496,7 +1379,6 @@
 
     return p1
 
-    .line 11
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1514,12 +1396,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/b;->m()Lcom/meitu/template/bean/Filter;
 
@@ -1527,7 +1407,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result p1
@@ -1553,12 +1432,10 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
@@ -1570,7 +1447,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/easyeditor/entity/b;->e()Ljava/util/List;
 
     move-result-object p2
@@ -1583,7 +1459,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     sget-object p2, Lcom/commsource/easyeditor/z1/k;->w:[Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     array-length v2, p2
@@ -1593,7 +1468,6 @@
 
     aget-object v3, p2, v1
 
-    .line 5
     invoke-virtual {v3}, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->getId()I
 
     move-result v3
@@ -1610,7 +1484,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -1622,7 +1495,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
@@ -1632,7 +1504,6 @@
 
     move-result-object p1
 
-    .line 8
     invoke-static {p1}, Lcom/commsource/easyeditor/a2/d;->o(Lcom/commsource/easyeditor/entity/c;)Z
 
     move-result p1
@@ -1649,7 +1520,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
     invoke-static {v1}, Lcom/google/android/gms/common/util/h;->a(Ljava/util/Collection;)Z
@@ -1658,12 +1528,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->b:Landroid/graphics/Bitmap;
 
@@ -1673,7 +1541,6 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/meitu/library/renderarch/arch/data/b/d;
 
     invoke-direct {v2}, Lcom/meitu/library/renderarch/arch/data/b/d;-><init>()V
@@ -1688,28 +1555,24 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/util/common/e;->m(Landroid/graphics/Bitmap;)[B
 
     move-result-object v5
 
     if-eqz v5, :cond_1
 
-    .line 6
     iget-object v6, p0, Lcom/commsource/easyeditor/z1/k;->o:Lcom/meitu/library/renderarch/arch/data/b/d;
 
     iget-object v6, v6, Lcom/meitu/library/renderarch/arch/data/b/d;->e:Lcom/meitu/library/renderarch/arch/data/b/g;
 
     iput-object v5, v6, Lcom/meitu/library/renderarch/arch/data/b/g;->a:[B
 
-    .line 7
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v5
 
     iput v5, v6, Lcom/meitu/library/renderarch/arch/data/b/g;->b:I
 
-    .line 8
     iget-object v5, p0, Lcom/commsource/easyeditor/z1/k;->o:Lcom/meitu/library/renderarch/arch/data/b/d;
 
     iget-object v5, v5, Lcom/meitu/library/renderarch/arch/data/b/d;->e:Lcom/meitu/library/renderarch/arch/data/b/g;
@@ -1720,23 +1583,18 @@
 
     iput v6, v5, Lcom/meitu/library/renderarch/arch/data/b/g;->c:I
 
-    .line 9
     iget-object v5, p0, Lcom/commsource/easyeditor/z1/k;->o:Lcom/meitu/library/renderarch/arch/data/b/d;
 
     iget-object v6, v5, Lcom/meitu/library/renderarch/arch/data/b/d;->e:Lcom/meitu/library/renderarch/arch/data/b/g;
 
     iput v3, v6, Lcom/meitu/library/renderarch/arch/data/b/g;->f:I
 
-    .line 10
     iput v4, v5, Lcom/meitu/library/renderarch/arch/data/b/d;->c:I
 
-    .line 11
     iput v4, v5, Lcom/meitu/library/renderarch/arch/data/b/d;->b:I
 
-    .line 12
     iput-boolean v3, v5, Lcom/meitu/library/renderarch/arch/data/b/d;->a:Z
 
-    .line 13
     :cond_1
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getByteCount()I
 
@@ -1746,27 +1604,22 @@
 
     move-result-object v5
 
-    .line 14
     invoke-virtual {v1, v5}, Landroid/graphics/Bitmap;->copyPixelsToBuffer(Ljava/nio/Buffer;)V
 
-    .line 15
     iget-object v6, p0, Lcom/commsource/easyeditor/z1/k;->o:Lcom/meitu/library/renderarch/arch/data/b/d;
 
     iget-object v6, v6, Lcom/meitu/library/renderarch/arch/data/b/d;->f:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     iput-object v5, v6, Lcom/meitu/library/renderarch/arch/data/b/f;->a:Ljava/nio/ByteBuffer;
 
-    .line 16
     iput v3, v6, Lcom/meitu/library/renderarch/arch/data/b/f;->f:I
 
-    .line 17
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v5
 
     iput v5, v6, Lcom/meitu/library/renderarch/arch/data/b/f;->b:I
 
-    .line 18
     iget-object v5, p0, Lcom/commsource/easyeditor/z1/k;->o:Lcom/meitu/library/renderarch/arch/data/b/d;
 
     iget-object v5, v5, Lcom/meitu/library/renderarch/arch/data/b/d;->f:Lcom/meitu/library/renderarch/arch/data/b/f;
@@ -1777,7 +1630,6 @@
 
     iput v6, v5, Lcom/meitu/library/renderarch/arch/data/b/f;->c:I
 
-    .line 19
     iget-object v5, p0, Lcom/commsource/easyeditor/z1/k;->o:Lcom/meitu/library/renderarch/arch/data/b/d;
 
     iget-object v5, v5, Lcom/meitu/library/renderarch/arch/data/b/d;->f:Lcom/meitu/library/renderarch/arch/data/b/f;
@@ -1790,20 +1642,17 @@
 
     iput v6, v5, Lcom/meitu/library/renderarch/arch/data/b/f;->d:I
 
-    .line 20
     iget-object v5, p0, Lcom/commsource/easyeditor/z1/k;->o:Lcom/meitu/library/renderarch/arch/data/b/d;
 
     iget-object v5, v5, Lcom/meitu/library/renderarch/arch/data/b/d;->f:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     iput v4, v5, Lcom/meitu/library/renderarch/arch/data/b/f;->e:I
 
-    .line 21
     :cond_2
     new-instance v5, Lcom/commsource/camera/d1/g/p;
 
     invoke-direct {v5}, Lcom/commsource/camera/d1/g/p;-><init>()V
 
-    .line 22
     new-instance v6, Landroid/graphics/Rect;
 
     iget-object v7, p0, Lcom/commsource/easyeditor/z1/k;->b:Landroid/graphics/Bitmap;
@@ -1822,7 +1671,6 @@
 
     invoke-virtual {v5, v6}, Lcom/commsource/camera/d1/g/p;->j(Landroid/graphics/Rect;)V
 
-    .line 23
     new-instance v6, Landroid/graphics/Rect;
 
     iget-object v7, p0, Lcom/commsource/easyeditor/z1/k;->b:Landroid/graphics/Bitmap;
@@ -1841,7 +1689,6 @@
 
     invoke-virtual {v5, v6}, Lcom/commsource/camera/d1/g/p;->n(Landroid/graphics/Rect;)V
 
-    .line 24
     new-instance v6, Landroid/graphics/RectF;
 
     const/4 v7, 0x0
@@ -1852,13 +1699,10 @@
 
     invoke-virtual {v5, v6}, Lcom/commsource/camera/d1/g/p;->o(Landroid/graphics/RectF;)V
 
-    .line 25
     invoke-virtual {v5, v4}, Lcom/commsource/camera/d1/g/p;->k(I)V
 
-    .line 26
     invoke-virtual {v5, v4}, Lcom/commsource/camera/d1/g/p;->m(I)V
 
-    .line 27
     iget-object v4, p0, Lcom/commsource/easyeditor/z1/k;->b:Landroid/graphics/Bitmap;
 
     invoke-virtual {v4}, Landroid/graphics/Bitmap;->getWidth()I
@@ -1879,7 +1723,6 @@
 
     if-ne v4, v6, :cond_3
 
-    .line 28
     new-instance v3, Landroid/graphics/Point;
 
     invoke-direct {v3, v2, v7}, Landroid/graphics/Point;-><init>(II)V
@@ -1888,7 +1731,6 @@
 
     goto :goto_0
 
-    .line 29
     :cond_3
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->b:Landroid/graphics/Bitmap;
 
@@ -1904,7 +1746,6 @@
 
     if-ne v2, v4, :cond_4
 
-    .line 30
     new-instance v2, Landroid/graphics/Point;
 
     invoke-direct {v2, v3, v3}, Landroid/graphics/Point;-><init>(II)V
@@ -1913,7 +1754,6 @@
 
     goto :goto_0
 
-    .line 31
     :cond_4
     new-instance v2, Landroid/graphics/Point;
 
@@ -1925,11 +1765,9 @@
 
     invoke-virtual {v5, v2}, Lcom/commsource/camera/d1/g/p;->i(Landroid/graphics/Point;)V
 
-    .line 32
     :goto_0
     invoke-static {v1}, Lcom/commsource/util/common/e;->z(Landroid/graphics/Bitmap;)V
 
-    .line 33
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1949,14 +1787,12 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 34
     const-class v3, Lcom/commsource/camera/d1/g/p;
 
     invoke-virtual {v2, v5, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_1
 
-    .line 35
     :cond_5
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->i:Lcom/commsource/easyeditor/z1/i;
 
@@ -1974,7 +1810,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/easyeditor/z1/i;->d(II)V
 
-    .line 36
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1987,7 +1822,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->b:Landroid/graphics/Bitmap;
 
     invoke-static {v1}, Lcom/commsource/easyeditor/utils/opengl/n;->j(Landroid/graphics/Bitmap;)Lcom/commsource/easyeditor/utils/opengl/m;
@@ -1996,7 +1830,6 @@
 
     iput-object v1, p0, Lcom/commsource/easyeditor/z1/k;->k:Lcom/commsource/easyeditor/utils/opengl/m;
 
-    .line 2
     new-instance v1, Lcom/commsource/easyeditor/utils/opengl/b;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->b:Landroid/graphics/Bitmap;
@@ -2015,7 +1848,6 @@
 
     iput-object v1, p0, Lcom/commsource/easyeditor/z1/k;->p:Lcom/commsource/easyeditor/utils/opengl/b;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2028,7 +1860,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-direct {v1}, Lcom/commsource/camera/newrender/renderproxy/o;-><init>()V
@@ -2037,10 +1868,8 @@
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/o;->N(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
     const/4 v3, 0x4
@@ -2049,36 +1878,30 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/commsource/camera/newrender/renderproxy/o;->O(IZ)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
     const/4 v3, 0x0
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/newrender/renderproxy/o;->Y(F)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/newrender/renderproxy/o;->T(F)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/newrender/renderproxy/o;->X(F)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/newrender/renderproxy/o;->L(F)V
 
-    .line 8
     new-instance v1, Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-direct {v1}, Lcom/commsource/camera/newrender/renderproxy/m;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    .line 9
     new-instance v3, Lcom/commsource/camera/newrender/renderproxy/v/z;
 
     invoke-direct {v3}, Lcom/commsource/camera/newrender/renderproxy/v/z;-><init>()V
@@ -2091,7 +1914,6 @@
 
     invoke-direct {v3}, Lcom/commsource/camera/newrender/renderproxy/v/w;-><init>()V
 
-    .line 10
     invoke-virtual {v1, v3}, Lcom/commsource/camera/newrender/renderproxy/m;->J(Lcom/commsource/camera/newrender/renderproxy/v/v;)Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -2100,7 +1922,6 @@
 
     invoke-direct {v3, v2}, Lcom/commsource/camera/newrender/renderproxy/v/c0;-><init>(I)V
 
-    .line 11
     invoke-virtual {v1, v3}, Lcom/commsource/camera/newrender/renderproxy/m;->J(Lcom/commsource/camera/newrender/renderproxy/v/v;)Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -2111,10 +1932,8 @@
 
     invoke-direct {v3, v4}, Lcom/commsource/camera/newrender/renderproxy/v/t;-><init>(Lcom/commsource/camera/mvp/f/b;)V
 
-    .line 12
     invoke-virtual {v1, v3}, Lcom/commsource/camera/newrender/renderproxy/m;->J(Lcom/commsource/camera/newrender/renderproxy/v/v;)Lcom/commsource/camera/newrender/renderproxy/m;
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m;->V()Lcom/commsource/camera/newrender/renderproxy/v/t;
@@ -2123,21 +1942,18 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/v/t;->h2(Z)V
 
-    .line 14
     new-instance v1, Lcom/commsource/easyeditor/z1/h;
 
     invoke-direct {v1}, Lcom/commsource/easyeditor/z1/h;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/easyeditor/z1/k;->e:Lcom/commsource/easyeditor/z1/h;
 
-    .line 15
     new-instance v1, Lcom/commsource/easyeditor/utils/opengl/i;
 
     invoke-direct {v1}, Lcom/commsource/easyeditor/utils/opengl/i;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/easyeditor/z1/k;->f:Lcom/commsource/easyeditor/utils/opengl/i;
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m;->h0()Lcom/commsource/camera/newrender/renderproxy/v/c0;
@@ -2148,63 +1964,54 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/v/c0;->m2(Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 17
     new-instance v1, Lcom/commsource/easyeditor/z1/m;
 
     invoke-direct {v1}, Lcom/commsource/easyeditor/z1/m;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/easyeditor/z1/k;->g:Lcom/commsource/easyeditor/z1/m;
 
-    .line 18
     new-instance v1, Lcom/commsource/camera/newrender/renderproxy/r;
 
     invoke-direct {v1, v4}, Lcom/commsource/camera/newrender/renderproxy/r;-><init>(Lcom/commsource/camera/newrender/renderproxy/q;)V
 
     iput-object v1, p0, Lcom/commsource/easyeditor/z1/k;->h:Lcom/commsource/camera/newrender/renderproxy/r;
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->g:Lcom/commsource/easyeditor/z1/m;
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->h:Lcom/commsource/camera/newrender/renderproxy/r;
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->e:Lcom/commsource/easyeditor/z1/h;
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 24
     new-instance v1, Lcom/commsource/easyeditor/z1/i;
 
     invoke-direct {v1}, Lcom/commsource/easyeditor/z1/i;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/easyeditor/z1/k;->i:Lcom/commsource/easyeditor/z1/i;
 
-    .line 25
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2217,7 +2024,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez v1, :cond_0
@@ -2252,41 +2058,35 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/easyeditor/utils/opengl/n;->j(Landroid/graphics/Bitmap;)Lcom/commsource/easyeditor/utils/opengl/m;
 
     move-result-object p1
 
     invoke-virtual {p2, p1}, Lcom/commsource/camera/d1/g/g;->g(Lcom/commsource/easyeditor/utils/opengl/m;)V
 
-    .line 2
     :cond_0
     invoke-virtual {p3}, Lcom/commsource/camera/d1/g/r;->m()V
 
     if-eqz p4, :cond_1
 
-    .line 3
     invoke-static {p4}, Lcom/commsource/easyeditor/utils/opengl/n;->j(Landroid/graphics/Bitmap;)Lcom/commsource/easyeditor/utils/opengl/m;
 
     move-result-object p1
 
     invoke-virtual {p5, p1}, Lcom/commsource/camera/d1/g/k;->g(Lcom/commsource/easyeditor/utils/opengl/m;)V
 
-    .line 4
     invoke-virtual {p4}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result p1
 
     invoke-virtual {p5, p1}, Lcom/commsource/camera/d1/g/k;->h(I)V
 
-    .line 5
     invoke-virtual {p4}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result p1
 
     invoke-virtual {p5, p1}, Lcom/commsource/camera/d1/g/k;->f(I)V
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
@@ -2308,26 +2108,22 @@
 
     check-cast p4, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 7
     const-class v1, Lcom/commsource/camera/d1/g/g;
 
     invoke-virtual {p4, p2, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     if-eqz p6, :cond_2
 
-    .line 8
     const-class v1, Lcom/commsource/camera/d1/g/r;
 
     invoke-virtual {p4, p3, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 9
     const-class v1, Lcom/commsource/camera/d1/g/k;
 
     invoke-virtual {p4, p5, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2341,7 +2137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
@@ -2350,7 +2145,6 @@
 
     const/16 v2, 0xc
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -2361,19 +2155,16 @@
 
     invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
     if-eqz v2, :cond_2
 
-    .line 4
     invoke-virtual {v2, p1}, Lcom/commsource/easyeditor/entity/b;->j(I)Landroid/util/SparseArray;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    .line 5
     invoke-static {}, Lcom/commsource/easyeditor/a2/d;->n()[Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object v3
@@ -2387,7 +2178,6 @@
 
     aget-object v6, v3, v5
 
-    .line 6
     invoke-virtual {v6}, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->getId()I
 
     move-result v7
@@ -2402,11 +2192,9 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     iget-object v8, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
-    .line 8
     invoke-virtual {v6}, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->getFaceArea()I
 
     move-result v9
@@ -2421,12 +2209,10 @@
 
     if-eqz v8, :cond_1
 
-    .line 9
     new-instance v9, Lcom/commsource/camera/a1/f;
 
     invoke-direct {v9, v8}, Lcom/commsource/camera/a1/f;-><init>(Lcom/commsource/camera/a1/f;)V
 
-    .line 10
     invoke-virtual {v7}, Lcom/commsource/easyeditor/entity/f;->a()F
 
     move-result v7
@@ -2441,7 +2227,6 @@
 
     invoke-virtual {v9, v7}, Lcom/commsource/camera/a1/f;->K(I)V
 
-    .line 11
     invoke-virtual {v6}, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->getFaceArea()I
 
     move-result v6
@@ -2456,7 +2241,6 @@
 
     if-eqz v6, :cond_1
 
-    .line 12
     invoke-virtual {v6}, Lcom/commsource/camera/param/MakeupParam;->getMakeupType()I
 
     move-result v7
@@ -2473,7 +2257,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->r:Ljava/util/HashMap;
 
@@ -2483,12 +2266,10 @@
 
     if-eqz v2, :cond_3
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_3
     new-instance v2, Ljava/util/HashMap;
 
@@ -2496,7 +2277,6 @@
 
     iput-object v2, p0, Lcom/commsource/easyeditor/z1/k;->r:Ljava/util/HashMap;
 
-    .line 16
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-virtual {v2}, Lcom/commsource/camera/newrender/renderproxy/m;->O()Lcom/commsource/camera/newrender/renderproxy/m$a;
@@ -2509,7 +2289,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m$a;->b()V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
@@ -2522,23 +2301,19 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/commsource/camera/newrender/renderproxy/v/z;->l2(IF)V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
     if-eqz v1, :cond_4
 
-    .line 19
     invoke-virtual {v1, p1}, Lcom/commsource/easyeditor/entity/b;->j(I)Landroid/util/SparseArray;
 
     move-result-object p1
 
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/z1/k;->Z(Landroid/util/SparseArray;)V
 
-    .line 20
     :cond_4
     iput-boolean v3, p0, Lcom/commsource/easyeditor/z1/k;->s:Z
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2551,12 +2326,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -2571,7 +2344,6 @@
 
     iput-object v1, p0, Lcom/commsource/easyeditor/z1/k;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -2579,10 +2351,8 @@
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/easyeditor/z1/k;->s:Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2595,12 +2365,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->m:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->b:Landroid/graphics/Bitmap;
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
@@ -2619,7 +2387,6 @@
 
     iput-object v1, p0, Lcom/commsource/easyeditor/z1/k;->m:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/easyeditor/z1/k;->f()Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -2629,7 +2396,6 @@
 
     const/4 v3, 0x0
 
-    .line 4
     :goto_0
     iget-object v4, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
@@ -2645,11 +2411,9 @@
 
     goto :goto_2
 
-    .line 5
     :cond_1
     invoke-virtual {p0, v3, v5}, Lcom/commsource/easyeditor/z1/k;->J(IZ)V
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
     invoke-virtual {v4, v3}, Lcom/commsource/easyeditor/entity/b;->j(I)Landroid/util/SparseArray;
@@ -2658,17 +2422,14 @@
 
     invoke-direct {p0, v4}, Lcom/commsource/easyeditor/z1/k;->Z(Landroid/util/SparseArray;)V
 
-    .line 7
     iget-object v4, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {v4, v3}, Lcom/commsource/camera/d1/g/j;->v(I)V
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/easyeditor/z1/k;->d:Lcom/commsource/camera/newrender/renderproxy/o;
 
     invoke-virtual {v4, v2}, Lcom/commsource/camera/newrender/renderproxy/o;->M(I)V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/easyeditor/z1/k;->f()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v4
@@ -2692,11 +2453,9 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-virtual {p0, p1, v5}, Lcom/commsource/easyeditor/z1/k;->J(IZ)V
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
     invoke-virtual {v2, p1}, Lcom/commsource/easyeditor/entity/b;->j(I)Landroid/util/SparseArray;
@@ -2705,7 +2464,6 @@
 
     invoke-direct {p0, v2}, Lcom/commsource/easyeditor/z1/k;->Z(Landroid/util/SparseArray;)V
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
     sget-object v3, Lcom/commsource/easyeditor/entity/EditEffectEnum;->Definition:Lcom/commsource/easyeditor/entity/EditEffectEnum;
@@ -2716,19 +2474,16 @@
 
     invoke-virtual {p0, v2, v5}, Lcom/commsource/easyeditor/z1/k;->W(Lcom/commsource/easyeditor/entity/c;Z)V
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->u:Lcom/commsource/easyeditor/utils/opengl/l;
 
     iget-object v3, p0, Lcom/commsource/easyeditor/z1/k;->m:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-virtual {v2, v1, v3}, Lcom/commsource/easyeditor/utils/opengl/l;->b(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/d1/g/j;->v(I)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2743,10 +2498,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/commsource/easyeditor/z1/k;->J(IZ)V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
     invoke-virtual {v2, p1}, Lcom/commsource/easyeditor/entity/b;->j(I)Landroid/util/SparseArray;
@@ -2755,10 +2508,8 @@
 
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/z1/k;->Z(Landroid/util/SparseArray;)V
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/easyeditor/z1/k;->s:Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2797,12 +2548,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->u:Lcom/commsource/easyeditor/utils/opengl/l;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/l;->e()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2822,12 +2571,10 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/camera/newrender/renderproxy/n;->h()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->i:Lcom/commsource/easyeditor/z1/i;
 
@@ -2837,10 +2584,8 @@
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-virtual {p0, v2, v1}, Lcom/commsource/easyeditor/z1/k;->J(IZ)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m;->h0()Lcom/commsource/camera/newrender/renderproxy/v/c0;
@@ -2849,7 +2594,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/v/c0;->k2(I)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2862,67 +2606,52 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->k:Lcom/commsource/easyeditor/utils/opengl/m;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
-    .line 3
     iput-object v2, p0, Lcom/commsource/easyeditor/z1/k;->k:Lcom/commsource/easyeditor/utils/opengl/m;
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->n:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
-    .line 6
     iput-object v2, p0, Lcom/commsource/easyeditor/z1/k;->n:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz v1, :cond_2
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
-    .line 9
     iput-object v2, p0, Lcom/commsource/easyeditor/z1/k;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->p:Lcom/commsource/easyeditor/utils/opengl/b;
 
     if-eqz v1, :cond_3
 
-    .line 11
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/b;->f()V
 
-    .line 12
     iput-object v2, p0, Lcom/commsource/easyeditor/z1/k;->p:Lcom/commsource/easyeditor/utils/opengl/b;
 
-    .line 13
     :cond_3
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->u:Lcom/commsource/easyeditor/utils/opengl/l;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/l;->g()V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->i:Lcom/commsource/easyeditor/z1/i;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/z1/i;->g()V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2942,12 +2671,10 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 16
     invoke-virtual {v2}, Lcom/commsource/camera/newrender/renderproxy/n;->i()V
 
     goto :goto_0
 
-    .line 17
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2961,15 +2688,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->q:Lcom/commsource/easyeditor/utils/opengl/c;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/commsource/easyeditor/utils/opengl/c;->g(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2983,15 +2707,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/easyeditor/z1/f;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/easyeditor/z1/f;-><init>(Lcom/commsource/easyeditor/z1/k;I)V
 
-    .line 2
     invoke-direct {p0, v1, p2}, Lcom/commsource/easyeditor/z1/k;->I(Ljava/lang/Runnable;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3004,12 +2725,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/easyeditor/z1/k;->f()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
@@ -3018,13 +2737,11 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     iget-boolean v2, p0, Lcom/commsource/easyeditor/z1/k;->s:Z
 
     if-nez v2, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->n:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3034,10 +2751,8 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 5
     iput-boolean v2, p0, Lcom/commsource/easyeditor/z1/k;->s:Z
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/j;->d()I
 
     move-result v1
@@ -3050,14 +2765,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-direct {p0, v1, v3, v2}, Lcom/commsource/easyeditor/z1/k;->L(Lcom/commsource/easyeditor/utils/opengl/f;ZZ)Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-direct {p0}, Lcom/commsource/easyeditor/z1/k;->f()Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -3067,7 +2780,6 @@
 
     move-result-object v1
 
-    .line 9
     :goto_0
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->i:Lcom/commsource/easyeditor/z1/i;
 
@@ -3075,7 +2787,6 @@
 
     move-result-object v1
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->n:Lcom/commsource/easyeditor/utils/opengl/f;
 
     iget v3, v1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
@@ -3088,12 +2799,10 @@
 
     iput-object v2, p0, Lcom/commsource/easyeditor/z1/k;->n:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 11
     iget-object v3, p0, Lcom/commsource/easyeditor/z1/k;->u:Lcom/commsource/easyeditor/utils/opengl/l;
 
     invoke-virtual {v3, v1, v2}, Lcom/commsource/easyeditor/utils/opengl/l;->b(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->n:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3108,7 +2817,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->i:Lcom/commsource/easyeditor/z1/i;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/z1/k;->k:Lcom/commsource/easyeditor/utils/opengl/m;
@@ -3129,15 +2837,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->q:Lcom/commsource/easyeditor/utils/opengl/c;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lcom/commsource/easyeditor/utils/opengl/c;->x()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3151,15 +2856,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->q:Lcom/commsource/easyeditor/utils/opengl/c;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/commsource/easyeditor/utils/opengl/c;->F(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3173,10 +2875,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->i:Lcom/commsource/easyeditor/z1/i;
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/b;->f()Lcom/commsource/easyeditor/entity/a;
@@ -3185,7 +2885,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/easyeditor/z1/i;->k(Lcom/commsource/easyeditor/entity/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3200,22 +2899,18 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v2, Lcom/commsource/camera/d1/g/j;
 
     invoke-direct {v2}, Lcom/commsource/camera/d1/g/j;-><init>()V
 
     iput-object v2, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
-    .line 2
     invoke-virtual {v2, p1}, Lcom/commsource/camera/d1/g/j;->r(Lcom/meitu/core/types/FaceData;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/j;->x()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->j:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -3235,14 +2930,12 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {v2, v3, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->f:Lcom/commsource/easyeditor/utils/opengl/i;
 
@@ -3250,7 +2943,6 @@
 
     invoke-virtual {p1, v2, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3265,12 +2957,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/commsource/easyeditor/z1/e;
 
@@ -3278,7 +2968,6 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/easyeditor/z1/k;->H(Ljava/lang/Runnable;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/j;->h()I
@@ -3291,7 +2980,6 @@
 
     invoke-virtual {p0, p1, v1, v2}, Lcom/commsource/easyeditor/z1/k;->U(ILcom/commsource/easyeditor/entity/b;Z)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3304,7 +2992,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
     if-eqz v1, :cond_1
@@ -3319,7 +3006,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->q:Lcom/commsource/easyeditor/utils/opengl/c;
 
@@ -3329,17 +3015,14 @@
 
     invoke-interface {v1, v2}, Lcom/commsource/easyeditor/utils/opengl/c;->g(Ljava/lang/Runnable;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->q:Lcom/commsource/easyeditor/utils/opengl/c;
 
     invoke-interface {p1}, Lcom/commsource/easyeditor/utils/opengl/c;->x()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3354,21 +3037,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-object p2, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/j;->d()I
@@ -3390,7 +3069,6 @@
     :cond_1
     if-eqz p3, :cond_3
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
@@ -3402,7 +3080,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_3
     iget-object p3, p0, Lcom/commsource/easyeditor/z1/k;->q:Lcom/commsource/easyeditor/utils/opengl/c;
 
@@ -3412,18 +3089,15 @@
 
     invoke-interface {p3, v1}, Lcom/commsource/easyeditor/utils/opengl/c;->g(Ljava/lang/Runnable;)V
 
-    .line 7
     :goto_0
     invoke-direct {p0}, Lcom/commsource/easyeditor/z1/k;->T()V
 
-    .line 8
     invoke-virtual {p2}, Lcom/commsource/easyeditor/entity/b;->f()Lcom/commsource/easyeditor/entity/a;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/commsource/easyeditor/z1/k;->V(Lcom/commsource/easyeditor/entity/a;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3436,17 +3110,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->i:Lcom/commsource/easyeditor/z1/i;
 
     invoke-virtual {v1, p1}, Lcom/commsource/easyeditor/z1/i;->k(Lcom/commsource/easyeditor/entity/a;)V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/easyeditor/z1/k;->s:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3461,12 +3132,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/commsource/easyeditor/z1/b;
 
@@ -3474,7 +3143,6 @@
 
     invoke-direct {p0, v1, p2}, Lcom/commsource/easyeditor/z1/k;->I(Ljava/lang/Runnable;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3487,15 +3155,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/easyeditor/z1/c;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/easyeditor/z1/c;-><init>(Lcom/commsource/easyeditor/z1/k;Lcom/commsource/easyeditor/entity/f;)V
 
-    .line 2
     invoke-direct {p0, v1, p2}, Lcom/commsource/easyeditor/z1/k;->I(Ljava/lang/Runnable;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3508,7 +3173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/entity/b;->f()Lcom/commsource/easyeditor/entity/a;
@@ -3535,7 +3199,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->b:Landroid/graphics/Bitmap;
 
@@ -3543,7 +3206,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->i:Lcom/commsource/easyeditor/z1/i;
@@ -3554,7 +3216,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {v1}, Lcom/commsource/easyeditor/utils/opengl/n;->r(Lcom/commsource/easyeditor/utils/opengl/f;)Landroid/graphics/Bitmap;
 
     move-result-object v1
@@ -3571,7 +3232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->a:Lcom/commsource/easyeditor/entity/b;
 
     const/4 v2, 0x0
@@ -3582,7 +3242,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/j;->d()I
@@ -3597,14 +3256,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-direct {p0, v1, v3, v2}, Lcom/commsource/easyeditor/z1/k;->L(Lcom/commsource/easyeditor/utils/opengl/f;ZZ)Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/commsource/easyeditor/z1/k;->f()Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -3614,7 +3271,6 @@
 
     move-result-object v1
 
-    .line 5
     :goto_0
     invoke-static {v1}, Lcom/commsource/easyeditor/utils/opengl/n;->r(Lcom/commsource/easyeditor/utils/opengl/f;)Landroid/graphics/Bitmap;
 
@@ -3624,7 +3280,6 @@
 
     return-object v1
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->b:Landroid/graphics/Bitmap;
 
@@ -3640,7 +3295,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->t:Lcom/commsource/camera/d1/g/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3655,7 +3309,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->n:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez v1, :cond_0
@@ -3675,7 +3328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/k;->k:Lcom/commsource/easyeditor/utils/opengl/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3692,21 +3344,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
 
     move-result-object v1
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/x;->E()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     sget-object v2, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-virtual {v2, p1}, Lf/d/e/b/b;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
@@ -3715,7 +3364,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -3730,28 +3378,24 @@
     :goto_0
     move-object v5, v2
 
-    .line 5
     new-instance v6, Lcom/commsource/camera/d1/g/g;
 
     invoke-direct {v6}, Lcom/commsource/camera/d1/g/g;-><init>()V
 
     if-eqz v5, :cond_1
 
-    .line 6
     invoke-virtual {v5}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v2
 
     invoke-virtual {v6, v2}, Lcom/commsource/camera/d1/g/g;->i(I)V
 
-    .line 7
     invoke-virtual {v5}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v2
 
     invoke-virtual {v6, v2}, Lcom/commsource/camera/d1/g/g;->f(I)V
 
-    .line 8
     :cond_1
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -3779,17 +3423,14 @@
 
     invoke-static {v4, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     new-instance v7, Lcom/commsource/camera/d1/g/r;
 
     invoke-direct {v7}, Lcom/commsource/camera/d1/g/r;-><init>()V
 
     if-eqz p2, :cond_2
 
-    .line 10
     invoke-virtual {v7, p1}, Lcom/commsource/camera/d1/g/r;->a(Landroid/graphics/Bitmap;)V
 
-    .line 11
     :cond_2
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -3813,14 +3454,12 @@
 
     invoke-static {v4, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     new-instance v9, Lcom/commsource/camera/d1/g/k;
 
     invoke-direct {v9}, Lcom/commsource/camera/d1/g/k;-><init>()V
 
     if-eqz p2, :cond_3
 
-    .line 13
     invoke-static {p1}, Lcom/commsource/material/e;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -3833,7 +3472,6 @@
     :goto_1
     move-object v8, p1
 
-    .line 14
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3856,7 +3494,6 @@
 
     invoke-static {v4, p1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     new-instance p1, Lcom/commsource/easyeditor/z1/d;
 
     move-object v3, p1
@@ -3869,7 +3506,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/easyeditor/z1/k;->H(Ljava/lang/Runnable;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3882,16 +3518,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/z1/k;->b:Landroid/graphics/Bitmap;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/easyeditor/z1/k;->n()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/easyeditor/z1/k;->m()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-virtual {p1}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
@@ -3904,7 +3536,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/newrender/renderproxy/v/z;->l2(IF)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/k;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-virtual {p1}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
@@ -3915,7 +3546,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/newrender/renderproxy/v/z;->m2(F)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

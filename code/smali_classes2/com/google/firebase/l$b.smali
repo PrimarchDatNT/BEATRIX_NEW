@@ -34,7 +34,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,52 +46,44 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/google/firebase/l;->a(Lcom/google/firebase/l;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/l$b;->b:Ljava/lang/String;
 
-    .line 4
     invoke-static {p1}, Lcom/google/firebase/l;->b(Lcom/google/firebase/l;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/l$b;->a:Ljava/lang/String;
 
-    .line 5
     invoke-static {p1}, Lcom/google/firebase/l;->c(Lcom/google/firebase/l;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/l$b;->c:Ljava/lang/String;
 
-    .line 6
     invoke-static {p1}, Lcom/google/firebase/l;->d(Lcom/google/firebase/l;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/l$b;->d:Ljava/lang/String;
 
-    .line 7
     invoke-static {p1}, Lcom/google/firebase/l;->e(Lcom/google/firebase/l;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/l$b;->e:Ljava/lang/String;
 
-    .line 8
     invoke-static {p1}, Lcom/google/firebase/l;->f(Lcom/google/firebase/l;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/l$b;->f:Ljava/lang/String;
 
-    .line 9
     invoke-static {p1}, Lcom/google/firebase/l;->g(Lcom/google/firebase/l;)Ljava/lang/String;
 
     move-result-object p1
@@ -109,7 +100,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v9, Lcom/google/firebase/l;
 
     iget-object v1, p0, Lcom/google/firebase/l$b;->b:Ljava/lang/String;
@@ -146,7 +136,6 @@
 
     const-string v0, "ApiKey must be set."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->h(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -167,7 +156,6 @@
 
     const-string v0, "ApplicationId must be set."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->h(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -186,7 +174,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/l$b;->c:Ljava/lang/String;
 
     return-object p0
@@ -204,7 +191,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/l$b;->d:Ljava/lang/String;
 
     return-object p0
@@ -219,7 +205,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/l$b;->e:Ljava/lang/String;
 
     return-object p0
@@ -234,7 +219,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/l$b;->g:Ljava/lang/String;
 
     return-object p0
@@ -249,7 +233,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/l$b;->f:Ljava/lang/String;
 
     return-object p0

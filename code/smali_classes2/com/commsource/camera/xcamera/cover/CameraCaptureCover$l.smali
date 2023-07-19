@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v1
@@ -76,7 +75,6 @@
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$l;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -93,7 +91,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$l;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->X()Lcom/commsource/camera/xcamera/cover/c;
@@ -106,7 +103,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$l;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->X()Lcom/commsource/camera/xcamera/cover/c;
@@ -121,7 +117,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$l;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->S()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -134,7 +129,6 @@
 
     if-nez p1, :cond_1
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$l;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->V()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -157,7 +151,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$l;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -170,7 +163,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->Q()V
 
-    .line 8
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$l;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
@@ -200,7 +192,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$l;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
@@ -216,7 +207,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 10
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -231,7 +221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$l;->a(Ljava/lang/Boolean;)V

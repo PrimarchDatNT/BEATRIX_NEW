@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lio/jaegertracing/twitter/zipkin/thriftjava/Endpoint$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Endpoint$c;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
 .method public a()Lio/jaegertracing/twitter/zipkin/thriftjava/Endpoint$b;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Endpoint$b;
 
     const/4 v1, 0x0
@@ -54,7 +51,6 @@
 .method public bridge synthetic getScheme()Lorg/apache/thrift/scheme/IScheme;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Endpoint$c;->a()Lio/jaegertracing/twitter/zipkin/thriftjava/Endpoint$b;
 
     move-result-object v0

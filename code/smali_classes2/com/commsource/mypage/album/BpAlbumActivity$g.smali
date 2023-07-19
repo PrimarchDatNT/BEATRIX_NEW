@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/album/BpAlbumActivity$g;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
     invoke-virtual {v0}, Lcom/commsource/mypage/album/BpAlbumActivity;->onBackPressed()V

@@ -41,7 +41,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/EyeEnlargeLayer$DrawPathView;->a:Lcom/commsource/studio/layer/EyeEnlargeLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
@@ -133,7 +132,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/EyeEnlargeLayer$DrawPathView;->a:Lcom/commsource/studio/layer/EyeEnlargeLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->K()F
@@ -148,7 +146,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/EyeEnlargeLayer$DrawPathView;->a:Lcom/commsource/studio/layer/EyeEnlargeLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -165,12 +162,10 @@
 
     invoke-virtual {p1, v3, v3, v1, v2}, Landroid/graphics/Canvas;->clipRect(FFFF)Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/EyeEnlargeLayer$DrawPathView;->a:Lcom/commsource/studio/layer/EyeEnlargeLayer;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/EyeEnlargeLayer;->d(Landroid/graphics/Canvas;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

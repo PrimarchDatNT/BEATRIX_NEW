@@ -51,38 +51,32 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/util/t2/b;->j:Landroidx/recyclerview/widget/RecyclerView;
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/commsource/util/t2/b;->b:I
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/commsource/util/t2/b;->c:J
 
-    .line 4
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/util/t2/b;->h:Landroid/graphics/Rect;
 
-    .line 5
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/util/t2/b;->i:Landroid/graphics/Rect;
 
-    .line 6
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object p1
@@ -91,10 +85,8 @@
 
     iput-object p1, p0, Lcom/commsource/util/t2/b;->a:Landroidx/recyclerview/widget/LinearLayoutManager;
 
-    .line 7
     iput-object p2, p0, Lcom/commsource/util/t2/b;->e:Ll/a/a/a/a/a/a;
 
-    .line 8
     iput-boolean p3, p0, Lcom/commsource/util/t2/b;->f:Z
 
     return-void
@@ -103,7 +95,6 @@
 .method private final f()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/t2/b;->a:Landroidx/recyclerview/widget/LinearLayoutManager;
 
     if-nez v0, :cond_0
@@ -115,7 +106,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/util/t2/b;->a:Landroidx/recyclerview/widget/LinearLayoutManager;
 
     invoke-virtual {v1}, Landroidx/recyclerview/widget/LinearLayoutManager;->findLastVisibleItemPosition()I
@@ -126,26 +116,22 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     iget v1, p0, Lcom/commsource/util/t2/b;->b:I
 
     if-eq v1, v0, :cond_2
 
-    .line 4
     iput v0, p0, Lcom/commsource/util/t2/b;->b:I
 
     const/4 v1, -0x1
 
     if-eq v0, v1, :cond_2
 
-    .line 5
     iget-boolean v1, p0, Lcom/commsource/util/t2/b;->g:Z
 
     invoke-interface {p0, v0, v1}, Lcom/commsource/util/t2/a;->a(IZ)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-direct {p0, v0, v1, v2}, Lcom/commsource/util/t2/b;->h(III)V
 
@@ -157,14 +143,12 @@
 .method private final g()V
     .locals 6
 
-    .line 1
     iget v0, p0, Lcom/commsource/util/t2/b;->b:I
 
     const/4 v1, -0x1
 
     if-eq v0, v1, :cond_1
 
-    .line 2
     invoke-interface {p0, v0}, Lcom/commsource/util/t2/a;->e(I)Landroid/view/View;
 
     move-result-object v0
@@ -187,13 +171,11 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     :cond_0
     iget v0, p0, Lcom/commsource/util/t2/b;->b:I
 
     invoke-interface {p0, v0}, Lcom/commsource/util/t2/a;->c(I)V
 
-    .line 4
     iput v1, p0, Lcom/commsource/util/t2/b;->b:I
 
     :cond_1
@@ -216,7 +198,6 @@
     :goto_0
     add-int v3, p1, v0
 
-    .line 1
     invoke-interface {p0, v3}, Lcom/commsource/util/t2/a;->e(I)Landroid/view/View;
 
     move-result-object v4
@@ -225,7 +206,6 @@
 
     move-result v4
 
-    .line 2
     invoke-virtual {p0, v3, v4}, Lcom/commsource/util/t2/b;->m(IF)V
 
     cmpl-float v5, v4, v1
@@ -258,7 +238,6 @@
 
     const/4 p1, -0x1
 
-    .line 3
     :cond_3
     invoke-virtual {p0, p1}, Lcom/commsource/util/t2/b;->l(I)V
 
@@ -274,13 +253,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     iget-object v1, p0, Lcom/commsource/util/t2/b;->h:Landroid/graphics/Rect;
 
     invoke-virtual {p1, v1}, Landroid/view/View;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/util/t2/b;->h:Landroid/graphics/Rect;
 
     iget p1, p1, Landroid/graphics/Rect;->bottom:I
@@ -289,7 +266,6 @@
 
     return v0
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/commsource/util/t2/b;->j:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -297,7 +273,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/util/t2/b;->h:Landroid/graphics/Rect;
 
     iget v1, p1, Landroid/graphics/Rect;->top:I
@@ -310,7 +285,6 @@
 
     return v0
 
-    .line 5
     :cond_2
     invoke-virtual {p1}, Landroid/graphics/Rect;->height()I
 
@@ -320,7 +294,6 @@
 
     return v0
 
-    .line 6
     :cond_3
     iget-object p1, p0, Lcom/commsource/util/t2/b;->i:Landroid/graphics/Rect;
 
@@ -332,7 +305,6 @@
 
     return v0
 
-    .line 7
     :cond_4
     iget-object p1, p0, Lcom/commsource/util/t2/b;->h:Landroid/graphics/Rect;
 
@@ -344,7 +316,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_5
     iget-object p1, p0, Lcom/commsource/util/t2/b;->e:Ll/a/a/a/a/a/a;
 
@@ -365,7 +336,6 @@
 .method public b(IJ)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/util/t2/a$a;->a(Lcom/commsource/util/t2/a;IJ)V
 
     return-void
@@ -374,7 +344,6 @@
 .method public final isIdle()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/util/t2/b;->d:I
 
     if-nez v0, :cond_0
@@ -393,7 +362,6 @@
 .method public final j()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/util/t2/b;->b:I
 
     return v0
@@ -402,7 +370,6 @@
 .method public final k()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/util/t2/b;->g:Z
 
     return v0
@@ -411,7 +378,6 @@
 .method protected final l(I)V
     .locals 6
 
-    .line 1
     iget v0, p0, Lcom/commsource/util/t2/b;->b:I
 
     if-eq v0, p1, :cond_2
@@ -420,10 +386,8 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     invoke-interface {p0, v0}, Lcom/commsource/util/t2/a;->c(I)V
 
-    .line 3
     iget v0, p0, Lcom/commsource/util/t2/b;->b:I
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -436,7 +400,6 @@
 
     invoke-virtual {p0, v0, v2, v3}, Lcom/commsource/util/t2/b;->b(IJ)V
 
-    .line 4
     :cond_0
     iput p1, p0, Lcom/commsource/util/t2/b;->b:I
 
@@ -444,13 +407,11 @@
 
     return-void
 
-    .line 5
     :cond_1
     iget-boolean v0, p0, Lcom/commsource/util/t2/b;->g:Z
 
     invoke-interface {p0, p1, v0}, Lcom/commsource/util/t2/a;->a(IZ)V
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -490,17 +451,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
     const/4 p1, 0x1
 
     if-ne p2, p1, :cond_0
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/util/t2/b;->g:Z
 
-    .line 3
     :cond_0
     iget v0, p0, Lcom/commsource/util/t2/b;->d:I
 
@@ -510,7 +468,6 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 4
     :cond_1
     iget-boolean p1, p0, Lcom/commsource/util/t2/b;->f:Z
 
@@ -520,28 +477,23 @@
 
     if-ne p2, v1, :cond_2
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/util/t2/b;->g()V
 
     :cond_2
     if-nez p2, :cond_4
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/util/t2/b;->f()V
 
-    .line 7
     iget p1, p0, Lcom/commsource/util/t2/b;->b:I
 
     iget-boolean v1, p0, Lcom/commsource/util/t2/b;->g:Z
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/util/t2/b;->p(IZ)V
 
-    .line 8
     iget-boolean p1, p0, Lcom/commsource/util/t2/b;->g:Z
 
     if-eqz p1, :cond_4
 
-    .line 9
     iput-boolean v0, p0, Lcom/commsource/util/t2/b;->g:Z
 
     goto :goto_0
@@ -549,22 +501,18 @@
     :cond_3
     if-nez p2, :cond_4
 
-    .line 10
     iget p1, p0, Lcom/commsource/util/t2/b;->b:I
 
     iget-boolean v1, p0, Lcom/commsource/util/t2/b;->g:Z
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/util/t2/b;->p(IZ)V
 
-    .line 11
     iget-boolean p1, p0, Lcom/commsource/util/t2/b;->g:Z
 
     if-eqz p1, :cond_4
 
-    .line 12
     iput-boolean v0, p0, Lcom/commsource/util/t2/b;->g:Z
 
-    .line 13
     :cond_4
     :goto_0
     iput p2, p0, Lcom/commsource/util/t2/b;->d:I
@@ -583,22 +531,18 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
 
-    .line 2
     iget-boolean p1, p0, Lcom/commsource/util/t2/b;->f:Z
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget p1, p0, Lcom/commsource/util/t2/b;->d:I
 
     const/4 p2, 0x1
 
     if-ne p1, p2, :cond_2
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/util/t2/b;->a:Landroidx/recyclerview/widget/LinearLayoutManager;
 
     if-nez p1, :cond_0
@@ -612,7 +556,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/util/t2/b;->n(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/util/t2/b;->a:Landroidx/recyclerview/widget/LinearLayoutManager;
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/LinearLayoutManager;->findLastVisibleItemPosition()I
@@ -621,12 +564,10 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/util/t2/b;->o(I)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/util/t2/b;->r()V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-direct {p0}, Lcom/commsource/util/t2/b;->f()V
 
@@ -644,20 +585,16 @@
 .method public final q()V
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/commsource/util/t2/b;->b:I
 
     const/4 v1, -0x1
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     invoke-interface {p0, v0}, Lcom/commsource/util/t2/a;->c(I)V
 
-    .line 3
     iput v1, p0, Lcom/commsource/util/t2/b;->b:I
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/commsource/util/t2/b;->f()V
 
@@ -667,17 +604,14 @@
 .method public final r()V
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/commsource/util/t2/b;->b:I
 
     const/4 v1, -0x1
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     invoke-interface {p0, v0}, Lcom/commsource/util/t2/a;->c(I)V
 
-    .line 3
     iput v1, p0, Lcom/commsource/util/t2/b;->b:I
 
     :cond_0
@@ -687,7 +621,6 @@
 .method public final s(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/util/t2/b;->g:Z
 
     return-void

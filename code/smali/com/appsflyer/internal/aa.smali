@@ -9,7 +9,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     array-length v1, p0
 
@@ -17,10 +16,8 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     aget v1, p0, v0
 
-    .line 3
     array-length v2, p0
 
     sub-int/2addr v2, v0
@@ -31,7 +28,6 @@
 
     aput v2, p0, v0
 
-    .line 4
     array-length v2, p0
 
     sub-int/2addr v2, v0
@@ -55,7 +51,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-static/range {p4 .. p4}, Lcom/appsflyer/internal/aa;->$$b([I)V
 
     :cond_0
@@ -76,7 +71,6 @@
 
     if-ge v4, v7, :cond_1
 
-    .line 2
     aget v8, v0, v4
 
     xor-int/2addr v2, v8
@@ -93,7 +87,6 @@
 
     and-int/lit16 v11, v2, 0xff
 
-    .line 3
     aget-object v12, p5, v1
 
     aget v8, v12, v8
@@ -130,7 +123,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     array-length v4, v0
 
@@ -140,7 +132,6 @@
 
     xor-int/2addr v2, v4
 
-    .line 5
     array-length v4, v0
 
     sub-int/2addr v4, v6
@@ -151,14 +142,11 @@
 
     if-nez p2, :cond_2
 
-    .line 6
     invoke-static/range {p4 .. p4}, Lcom/appsflyer/internal/aa;->$$b([I)V
 
-    .line 7
     :cond_2
     aput v3, p6, v1
 
-    .line 8
     aput v2, p6, v6
 
     return-void

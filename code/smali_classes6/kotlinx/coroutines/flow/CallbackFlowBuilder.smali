@@ -63,7 +63,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Lcotlinx/coroutines/flow/b;-><init>(Lcotlin/jvm/u/p;Lcotlin/coroutines/CoroutineContext;I)V
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/CallbackFlowBuilder;->d:Lcotlin/jvm/u/p;
@@ -78,7 +77,6 @@
 
     if-eqz p5, :cond_0
 
-    .line 1
     sget-object p2, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     :cond_0
@@ -88,7 +86,6 @@
 
     const/4 p3, -0x2
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcotlinx/coroutines/flow/CallbackFlowBuilder;-><init>(Lcotlin/jvm/u/p;Lcotlin/coroutines/CoroutineContext;I)V
 
@@ -157,7 +154,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/CallbackFlowBuilder$collectTo$1;->label:I
 
     const/4 v3, 0x1
@@ -178,7 +174,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -188,11 +183,9 @@
 
     throw p1
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p0, v0, Lcotlinx/coroutines/flow/CallbackFlowBuilder$collectTo$1;->L$0:Ljava/lang/Object;
 
     iput-object p1, v0, Lcotlinx/coroutines/flow/CallbackFlowBuilder$collectTo$1;->L$1:Ljava/lang/Object;
@@ -207,7 +200,6 @@
 
     return-object v1
 
-    .line 5
     :cond_3
     :goto_1
     invoke-interface {p1}, Lcotlinx/coroutines/channels/c0;->V()Z
@@ -216,12 +208,10 @@
 
     if-eqz p1, :cond_4
 
-    .line 6
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 
-    .line 7
     :cond_4
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -251,7 +241,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/CallbackFlowBuilder;
 
     iget-object v1, p0, Lcotlinx/coroutines/flow/CallbackFlowBuilder;->d:Lcotlin/jvm/u/p;

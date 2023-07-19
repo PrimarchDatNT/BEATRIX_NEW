@@ -56,21 +56,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-direct {v1}, Lcom/commsource/camera/newrender/renderproxy/m;-><init>()V
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/m;->P0(Z)Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v3
 
     invoke-virtual {v3, v2}, Lcom/commsource/camera/newrender/renderproxy/m;->N0(Z)Lcom/commsource/camera/newrender/renderproxy/m;
 
-    .line 4
     new-instance v2, Lcom/commsource/camera/newrender/renderproxy/v/w;
 
     invoke-direct {v2}, Lcom/commsource/camera/newrender/renderproxy/v/w;-><init>()V
@@ -103,12 +100,10 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/m;->J(Lcom/commsource/camera/newrender/renderproxy/v/v;)Lcom/commsource/camera/newrender/renderproxy/m;
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2$a;
 
     invoke-direct {v2, p0, v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2$a;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2;Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -121,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2;->invoke()Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2$a;
 
     move-result-object v1

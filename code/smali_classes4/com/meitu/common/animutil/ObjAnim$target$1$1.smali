@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/animation/Animator;
 
     invoke-virtual {p0, p1}, Lcom/meitu/common/animutil/ObjAnim$target$1$1;->invoke(Landroid/animation/Animator;)V
@@ -77,7 +76,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/common/animutil/ObjAnim$target$1$1;->$view:Landroid/view/View;
 
     const/4 v1, 0x0

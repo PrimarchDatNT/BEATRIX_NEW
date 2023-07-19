@@ -32,7 +32,6 @@
 .method public constructor <init>(Lcom/commsource/billing/bean/RestoreInfo;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/bean/RestoreInfo$Data;->this$0:Lcom/commsource/billing/bean/RestoreInfo;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -57,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/RestoreInfo$Data;->purchase_list:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,10 +78,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/bean/RestoreInfo$Data;->purchase_list:Ljava/util/List;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

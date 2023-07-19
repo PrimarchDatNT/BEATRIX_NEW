@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/CertificatePinner$Builder;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/CertificatePinner$Builder;-><init>()V
@@ -50,10 +49,8 @@
 .method private constructor <init>(Lcom/squareup/okhttp/CertificatePinner$Builder;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/squareup/okhttp/CertificatePinner$Builder;->access$000(Lcom/squareup/okhttp/CertificatePinner$Builder;)Ljava/util/Map;
 
     move-result-object p1
@@ -70,7 +67,6 @@
 .method synthetic constructor <init>(Lcom/squareup/okhttp/CertificatePinner$Builder;Lcom/squareup/okhttp/CertificatePinner$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/squareup/okhttp/CertificatePinner;-><init>(Lcom/squareup/okhttp/CertificatePinner$Builder;)V
 
     return-void
@@ -79,12 +75,10 @@
 .method public static pin(Ljava/security/cert/Certificate;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     instance-of v0, p0, Ljava/security/cert/X509Certificate;
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -111,7 +105,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -125,7 +118,6 @@
 .method private static sha1(Ljava/security/cert/X509Certificate;)Lokio/ByteString;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Ljava/security/cert/X509Certificate;->getPublicKey()Ljava/security/PublicKey;
 
     move-result-object p0
@@ -165,7 +157,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/squareup/okhttp/CertificatePinner;->findMatchingPins(Ljava/lang/String;)Ljava/util/Set;
 
     move-result-object v0
@@ -174,7 +165,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-interface {p2}, Ljava/util/List;->size()I
 
@@ -187,14 +177,12 @@
     :goto_0
     if-ge v3, v1, :cond_2
 
-    .line 3
     invoke-interface {p2, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Ljava/security/cert/X509Certificate;
 
-    .line 4
     invoke-static {v4}, Lcom/squareup/okhttp/CertificatePinner;->sha1(Ljava/security/cert/X509Certificate;)Lokio/ByteString;
 
     move-result-object v4
@@ -212,7 +200,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -220,15 +207,12 @@
 
     const-string v3, "Certificate pinning failure!"
 
-    .line 6
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v3, "\n  Peer certificate chain:"
 
-    .line 7
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v3
@@ -236,7 +220,6 @@
     :goto_1
     if-ge v2, v3, :cond_3
 
-    .line 9
     invoke-interface {p2, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -245,7 +228,6 @@
 
     const-string v5, "\n    "
 
-    .line 10
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-static {v4}, Lcom/squareup/okhttp/CertificatePinner;->pin(Ljava/security/cert/Certificate;)Ljava/lang/String;
@@ -256,7 +238,6 @@
 
     const-string v5, ": "
 
-    .line 11
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v4}, Ljava/security/cert/X509Certificate;->getSubjectDN()Ljava/security/Principal;
@@ -276,7 +257,6 @@
     :cond_3
     const-string p2, "\n  Pinned certificates for "
 
-    .line 12
     invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -285,7 +265,6 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 13
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -305,7 +284,6 @@
 
     const-string v0, "\n    sha1/"
 
-    .line 14
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {p2}, Lokio/ByteString;->base64()Ljava/lang/String;
@@ -316,7 +294,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_4
     new-instance p1, Ljavax/net/ssl/SSLPeerUnverifiedException;
 
@@ -337,7 +314,6 @@
         }
     .end annotation
 
-    .line 16
     invoke-static {p2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p2
@@ -360,7 +336,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/CertificatePinner;->hostnameToPins:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -371,12 +346,10 @@
 
     const/16 v1, 0x2e
 
-    .line 2
     invoke-virtual {p1, v1}, Ljava/lang/String;->indexOf(I)I
 
     move-result v2
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/lang/String;->lastIndexOf(I)I
 
     move-result v1
@@ -385,7 +358,6 @@
 
     if-eq v2, v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/squareup/okhttp/CertificatePinner;->hostnameToPins:Ljava/util/Map;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -431,15 +403,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     new-instance v1, Ljava/util/LinkedHashSet;
 
     invoke-direct {v1}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 6
     invoke-interface {v1, v0}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
 
-    .line 7
     invoke-interface {v1, p1}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
 
     return-object v1

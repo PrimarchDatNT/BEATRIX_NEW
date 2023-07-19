@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/u6;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/y6;->f:Lcom/google/android/gms/measurement/internal/u6;
 
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/y6;->a:Ljava/lang/String;
@@ -43,7 +42,6 @@
 .method public final run()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/y6;->f:Lcom/google/android/gms/measurement/internal/u6;
 
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/y6;->a:Ljava/lang/String;

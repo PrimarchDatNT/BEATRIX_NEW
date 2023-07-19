@@ -26,7 +26,6 @@
 .method public constructor <init>(JZLjava/lang/Runnable;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
@@ -37,52 +36,43 @@
 
     aput v2, v1, v2
 
-    .line 2
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofInt([I)Landroid/animation/ValueAnimator;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/camera/f1/s$a;->a:Landroid/animation/ValueAnimator;
 
-    .line 3
     iput-boolean p3, p0, Lcom/commsource/camera/f1/s$a;->b:Z
 
-    .line 4
     iput-object p4, p0, Lcom/commsource/camera/f1/s$a;->c:Ljava/lang/Runnable;
 
-    .line 5
     new-instance p4, Lcom/commsource/camera/f1/s$a$a;
 
     invoke-direct {p4, p0, p3}, Lcom/commsource/camera/f1/s$a$a;-><init>(Lcom/commsource/camera/f1/s$a;Z)V
 
     invoke-virtual {v1, p4}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 6
     iget-boolean p3, p0, Lcom/commsource/camera/f1/s$a;->b:Z
 
     if-eqz p3, :cond_0
 
-    .line 7
     iget-object p3, p0, Lcom/commsource/camera/f1/s$a;->a:Landroid/animation/ValueAnimator;
 
     const/4 p4, -0x1
 
     invoke-virtual {p3, p4}, Landroid/animation/ValueAnimator;->setRepeatCount(I)V
 
-    .line 8
     iget-object p3, p0, Lcom/commsource/camera/f1/s$a;->a:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p3, v0}, Landroid/animation/ValueAnimator;->setRepeatMode(I)V
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iget-object p3, p0, Lcom/commsource/camera/f1/s$a;->a:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p3, v0}, Landroid/animation/ValueAnimator;->setRepeatCount(I)V
 
-    .line 10
     :goto_0
     iget-object p3, p0, Lcom/commsource/camera/f1/s$a;->a:Landroid/animation/ValueAnimator;
 
@@ -98,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/f1/s$a;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -113,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/f1/s$a;->c:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -130,15 +118,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/s$a;->a:Landroid/animation/ValueAnimator;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -152,12 +137,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/s$a;->a:Landroid/animation/ValueAnimator;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
 
     move-result v1
@@ -169,7 +152,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -184,10 +166,8 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Lcom/commsource/camera/f1/s$a;->f(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -200,20 +180,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/s$a;->a:Landroid/animation/ValueAnimator;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1, p2}, Landroid/animation/ValueAnimator;->setStartDelay(J)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/f1/s$a;->a:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

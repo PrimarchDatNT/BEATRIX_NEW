@@ -12,15 +12,12 @@
 .method private constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-array p1, p1, [B
 
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/a5;->b:[B
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_remote_config/zzgo;->R([B)Lcom/google/android/gms/internal/firebase_remote_config/zzgo;
 
     move-result-object p1
@@ -33,7 +30,6 @@
 .method synthetic constructor <init>(ILcom/google/android/gms/internal/firebase_remote_config/t4;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/a5;-><init>(I)V
 
     return-void
@@ -44,17 +40,14 @@
 .method public final a()Lcom/google/android/gms/internal/firebase_remote_config/zzfx;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/a5;->a:Lcom/google/android/gms/internal/firebase_remote_config/zzgo;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_remote_config/zzgo;->n0()I
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/zzgh;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/a5;->b:[B
@@ -63,7 +56,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -77,7 +69,6 @@
 .method public final b()Lcom/google/android/gms/internal/firebase_remote_config/zzgo;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/a5;->a:Lcom/google/android/gms/internal/firebase_remote_config/zzgo;
 
     return-object v0

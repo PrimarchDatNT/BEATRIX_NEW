@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerManager$l;->a:Lcotlin/jvm/u/l;
 
     iget v2, p0, Lcom/commsource/studio/sticker/StickerManager$l;->b:I

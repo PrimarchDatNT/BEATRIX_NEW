@@ -46,14 +46,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$a;->b:Landroid/view/View;
 
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioViewModel$a;->a:Landroid/graphics/Rect;
 
     invoke-virtual {v1, v2}, Landroid/view/View;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

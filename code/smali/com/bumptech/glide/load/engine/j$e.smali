@@ -42,7 +42,6 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     const/4 v1, 0x2
@@ -65,10 +64,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/j$e;->a:Ljava/util/List;
 
     return-void
@@ -77,7 +74,6 @@
 .method private static h(Lcom/bumptech/glide/request/h;)Lcom/bumptech/glide/load/engine/j$d;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/engine/j$d;
 
     invoke-static {}, Lcom/bumptech/glide/s/e;->a()Ljava/util/concurrent/Executor;
@@ -94,7 +90,6 @@
 .method b(Lcom/bumptech/glide/request/h;Ljava/util/concurrent/Executor;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/j$e;->a:Ljava/util/List;
 
     new-instance v1, Lcom/bumptech/glide/load/engine/j$d;
@@ -109,7 +104,6 @@
 .method c(Lcom/bumptech/glide/request/h;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/j$e;->a:Ljava/util/List;
 
     invoke-static {p1}, Lcom/bumptech/glide/load/engine/j$e;->h(Lcom/bumptech/glide/request/h;)Lcom/bumptech/glide/load/engine/j$d;
@@ -126,7 +120,6 @@
 .method clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/j$e;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
@@ -137,7 +130,6 @@
 .method e()Lcom/bumptech/glide/load/engine/j$e;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/engine/j$e;
 
     new-instance v1, Ljava/util/ArrayList;
@@ -154,7 +146,6 @@
 .method i(Lcom/bumptech/glide/request/h;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/j$e;->a:Ljava/util/List;
 
     invoke-static {p1}, Lcom/bumptech/glide/load/engine/j$e;->h(Lcom/bumptech/glide/request/h;)Lcom/bumptech/glide/load/engine/j$d;
@@ -169,7 +160,6 @@
 .method isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/j$e;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -193,7 +183,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/j$e;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -206,7 +195,6 @@
 .method size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/j$e;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I

@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/s2$d;->b:Lio/grpc/internal/s2;
 
     iput-object p2, p0, Lio/grpc/internal/s2$d;->a:Lio/grpc/internal/h2;
@@ -47,7 +46,6 @@
 .method public get()Lio/grpc/internal/h2;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/s2$d;->a:Lio/grpc/internal/h2;
 
     return-object v0

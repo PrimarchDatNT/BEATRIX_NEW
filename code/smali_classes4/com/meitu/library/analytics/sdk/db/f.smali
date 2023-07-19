@@ -13,7 +13,6 @@
 .method protected constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/analytics/sdk/db/f;->g(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p1
@@ -35,12 +34,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/library/analytics/sdk/db/f;->g:Lcom/meitu/library/analytics/sdk/db/f;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/meitu/library/analytics/sdk/db/f;
 
     const-string v3, "teemoTest.db"
@@ -49,7 +46,6 @@
 
     sput-object v2, Lcom/meitu/library/analytics/sdk/db/f;->g:Lcom/meitu/library/analytics/sdk/db/f;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/meitu/library/analytics/sdk/db/f;->g:Lcom/meitu/library/analytics/sdk/db/f;
 
@@ -80,12 +76,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->W()Z
 
@@ -93,24 +87,20 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     sget-object v1, Lcom/meitu/library/analytics/sdk/db/e;->b:Ljava/lang/String;
 
     const-string v2, "new CustomPathDataBaseContext"
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Lcom/meitu/library/analytics/sdk/db/c;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/analytics/sdk/db/c;-><init>(Landroid/content/Context;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -126,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "EventDatabaseTestHelper"

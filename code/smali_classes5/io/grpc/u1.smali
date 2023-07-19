@@ -15,7 +15,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p1, p0}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
 
@@ -65,14 +63,12 @@
     :catchall_0
     move-exception p0
 
-    .line 2
     new-instance v1, Ljava/util/ServiceConfigurationError;
 
     const/4 v2, 0x2
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object p1
@@ -114,12 +110,10 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -137,7 +131,6 @@
 
     check-cast v1, Ljava/lang/Class;
 
-    .line 3
     invoke-static {p0, v1}, Lio/grpc/u1;->a(Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
@@ -169,12 +162,10 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/util/ServiceLoader;->load(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -185,7 +176,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-static {p0}, Ljava/util/ServiceLoader;->load(Ljava/lang/Class;)Ljava/util/ServiceLoader;
 
     move-result-object p1
@@ -202,7 +192,6 @@
     :try_start_0
     const-string v1, "android.app.Application"
 
-    .line 1
     invoke-static {v1, v0, p0}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -233,12 +222,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lio/grpc/u1;->f(Ljava/lang/Class;Ljava/lang/Iterable;Ljava/lang/ClassLoader;Lio/grpc/u1$b;)Ljava/util/List;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result p1
@@ -252,7 +239,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-interface {p0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p0
@@ -280,33 +266,28 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lio/grpc/u1;->d(Ljava/lang/ClassLoader;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lio/grpc/u1;->b(Ljava/lang/Class;Ljava/lang/Iterable;)Ljava/lang/Iterable;
 
     move-result-object p0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {p0, p2}, Lio/grpc/u1;->c(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/lang/Iterable;
 
     move-result-object p0
 
-    .line 4
     :goto_0
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -322,7 +303,6 @@
 
     move-result-object p2
 
-    .line 6
     invoke-interface {p3, p2}, Lio/grpc/u1$b;->a(Ljava/lang/Object;)Z
 
     move-result v0
@@ -331,13 +311,11 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 8
     :cond_2
     new-instance p0, Lio/grpc/u1$a;
 
@@ -349,7 +327,6 @@
 
     invoke-static {p1, p0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 9
     invoke-static {p1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p0

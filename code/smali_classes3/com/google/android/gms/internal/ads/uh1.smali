@@ -54,20 +54,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/LinkedBlockingDeque;
 
     invoke-direct {v0}, Ljava/util/concurrent/LinkedBlockingDeque;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/uh1;->a:Ljava/util/Deque;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/uh1;->b:Ljava/util/concurrent/Callable;
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/uh1;->c:Lcom/google/android/gms/internal/ads/uq1;
 
     return-void
@@ -89,11 +85,9 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/uh1;->c(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/uh1;->a:Ljava/util/Deque;
 
     invoke-interface {v0}, Ljava/util/Deque;->poll()Ljava/lang/Object;
@@ -128,7 +122,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/uh1;->a:Ljava/util/Deque;
 
@@ -136,7 +129,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -154,7 +146,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/uh1;->a:Ljava/util/Deque;
 
@@ -169,7 +160,6 @@
     :goto_0
     if-ge v0, p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/uh1;->a:Ljava/util/Deque;
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/uh1;->c:Lcom/google/android/gms/internal/ads/uq1;
@@ -188,7 +178,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     monitor-exit p0
 

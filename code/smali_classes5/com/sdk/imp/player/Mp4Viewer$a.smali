@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/player/Mp4Viewer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/player/Mp4Viewer$a;->a:Lcom/sdk/imp/player/Mp4Viewer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onSurfaceTextureAvailable(Landroid/graphics/SurfaceTexture;II)V
     .locals 0
 
-    .line 1
     iget-object p2, p0, Lcom/sdk/imp/player/Mp4Viewer$a;->a:Lcom/sdk/imp/player/Mp4Viewer;
 
     invoke-static {p2}, Lcom/sdk/imp/player/Mp4Viewer;->e(Lcom/sdk/imp/player/Mp4Viewer;)Lcom/sdk/imp/player/a;
@@ -47,7 +45,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/sdk/imp/player/Mp4Viewer$a;->a:Lcom/sdk/imp/player/Mp4Viewer;
 
     invoke-static {p2}, Lcom/sdk/imp/player/Mp4Viewer;->e(Lcom/sdk/imp/player/Mp4Viewer;)Lcom/sdk/imp/player/a;
@@ -67,7 +64,6 @@
 .method public onSurfaceTextureDestroyed(Landroid/graphics/SurfaceTexture;)Z
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/player/Mp4Viewer$a;->a:Lcom/sdk/imp/player/Mp4Viewer;
 
     invoke-static {p1}, Lcom/sdk/imp/player/Mp4Viewer;->e(Lcom/sdk/imp/player/Mp4Viewer;)Lcom/sdk/imp/player/a;
@@ -76,7 +72,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/player/Mp4Viewer$a;->a:Lcom/sdk/imp/player/Mp4Viewer;
 
     invoke-static {p1}, Lcom/sdk/imp/player/Mp4Viewer;->e(Lcom/sdk/imp/player/Mp4Viewer;)Lcom/sdk/imp/player/a;

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/tencent/matrix/backtrace/WarmUpScheduler;Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/backtrace/WarmUpScheduler$a;->b:Lcom/tencent/matrix/backtrace/WarmUpScheduler;
 
     iput-object p2, p0, Lcom/tencent/matrix/backtrace/WarmUpScheduler$a;->a:Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/WarmUpScheduler$a;->b:Lcom/tencent/matrix/backtrace/WarmUpScheduler;
 
     iget-object v1, p0, Lcom/tencent/matrix/backtrace/WarmUpScheduler$a;->a:Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;

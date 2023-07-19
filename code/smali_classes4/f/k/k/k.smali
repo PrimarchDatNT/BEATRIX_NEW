@@ -7,7 +7,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/k/d;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -22,7 +21,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "post"
@@ -49,17 +47,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     const-string v1, "application/json; charset=utf-8"
 
-    .line 2
     invoke-static {v1}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v2
@@ -72,7 +67,6 @@
 
     move-result-object p3
 
-    .line 4
     invoke-virtual {p1, p2}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1

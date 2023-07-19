@@ -30,7 +30,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/icing/d5$a;->w()Lcom/google/android/gms/internal/icing/d5$a;
 
     move-result-object v0
@@ -43,7 +42,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/icing/e5;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/icing/d5$a$a;-><init>()V
 
     return-void

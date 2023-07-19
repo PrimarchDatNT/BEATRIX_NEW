@@ -37,7 +37,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v0
@@ -60,7 +59,6 @@
     :goto_0
     invoke-direct {p0, p1, v0}, Ljava/lang/Exception;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     invoke-static {p2}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
@@ -73,7 +71,6 @@
 .method public constructor <init>(Ljava/lang/String;[Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     invoke-static {p2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p2
@@ -97,7 +94,6 @@
 
     const-string v0, "There were multiple errors."
 
-    .line 4
     invoke-direct {p0, v0, p1}, Lbolts/AggregateException;-><init>(Ljava/lang/String;Ljava/util/List;)V
 
     return-void
@@ -110,7 +106,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lbolts/AggregateException;->innerThrowables:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -142,19 +137,16 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lbolts/AggregateException;->innerThrowables:Ljava/util/List;
 
     if-nez v1, :cond_0
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -173,19 +165,16 @@
 
     check-cast v2, Ljava/lang/Throwable;
 
-    .line 4
     instance-of v3, v2, Ljava/lang/Exception;
 
     if-eqz v3, :cond_1
 
-    .line 5
     check-cast v2, Ljava/lang/Exception;
 
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v3, Ljava/lang/Exception;
 
@@ -210,7 +199,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lbolts/AggregateException;->innerThrowables:Ljava/util/List;
 
     return-object v0
@@ -219,10 +207,8 @@
 .method public printStackTrace(Ljava/io/PrintStream;)V
     .locals 5
 
-    .line 1
     invoke-super {p0, p1}, Ljava/lang/Exception;->printStackTrace(Ljava/io/PrintStream;)V
 
-    .line 2
     iget-object v0, p0, Lbolts/AggregateException;->innerThrowables:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -246,17 +232,14 @@
 
     const-string v3, "\n"
 
-    .line 3
     invoke-virtual {p1, v3}, Ljava/io/PrintStream;->append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;
 
     const-string v4, "  Inner throwable #"
 
-    .line 4
     invoke-virtual {p1, v4}, Ljava/io/PrintStream;->append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 5
     invoke-static {v1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -265,13 +248,10 @@
 
     const-string v4, ": "
 
-    .line 6
     invoke-virtual {p1, v4}, Ljava/io/PrintStream;->append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;
 
-    .line 7
     invoke-virtual {v2, p1}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintStream;)V
 
-    .line 8
     invoke-virtual {p1, v3}, Ljava/io/PrintStream;->append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;
 
     goto :goto_0
@@ -283,10 +263,8 @@
 .method public printStackTrace(Ljava/io/PrintWriter;)V
     .locals 5
 
-    .line 9
     invoke-super {p0, p1}, Ljava/lang/Exception;->printStackTrace(Ljava/io/PrintWriter;)V
 
-    .line 10
     iget-object v0, p0, Lbolts/AggregateException;->innerThrowables:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -310,17 +288,14 @@
 
     const-string v3, "\n"
 
-    .line 11
     invoke-virtual {p1, v3}, Ljava/io/PrintWriter;->append(Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
 
     const-string v4, "  Inner throwable #"
 
-    .line 12
     invoke-virtual {p1, v4}, Ljava/io/PrintWriter;->append(Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 13
     invoke-static {v1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -329,13 +304,10 @@
 
     const-string v4, ": "
 
-    .line 14
     invoke-virtual {p1, v4}, Ljava/io/PrintWriter;->append(Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
 
-    .line 15
     invoke-virtual {v2, p1}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintWriter;)V
 
-    .line 16
     invoke-virtual {p1, v3}, Ljava/io/PrintWriter;->append(Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
 
     goto :goto_0

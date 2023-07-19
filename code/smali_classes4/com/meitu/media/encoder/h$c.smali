@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/media/encoder/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/h$c;->a:Lcom/meitu/media/encoder/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +43,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, p0, Lcom/meitu/media/encoder/h$c;->a:Lcom/meitu/media/encoder/h;
 
     const/4 v3, 0x1
@@ -53,10 +51,8 @@
 
     const/4 v3, 0x0
 
-    .line 2
     iput-boolean v3, v2, Lcom/meitu/media/encoder/h;->s:Z
 
-    .line 3
     :try_start_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -96,7 +92,6 @@
 
     invoke-static {v0, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -121,7 +116,6 @@
 
     invoke-static {v0, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/media/encoder/h$c;->a:Lcom/meitu/media/encoder/h;
 
     iget-object v2, v2, Lcom/meitu/media/encoder/h;->p:Ljava/lang/Thread;
@@ -130,7 +124,6 @@
 
     const-string v2, "onAudioShouldStop AudioFetchThread join end"
 
-    .line 6
     invoke-static {v0, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
@@ -140,10 +133,8 @@
     :catch_0
     move-exception v2
 
-    .line 7
     invoke-virtual {v2}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 8
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -164,7 +155,6 @@
 
     invoke-static {v0, v2}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     :goto_0
     iget-object v2, p0, Lcom/meitu/media/encoder/h$c;->a:Lcom/meitu/media/encoder/h;
 
@@ -174,10 +164,8 @@
 
     const-string v2, "onAudioShouldStop, reset AudioFetchThread to null"
 
-    .line 10
     invoke-static {v0, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -190,7 +178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/h$c;->a:Lcom/meitu/media/encoder/h;
 
     iget-object v2, v1, Lcom/meitu/media/encoder/h;->p:Ljava/lang/Thread;
@@ -201,10 +188,8 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     iput-boolean v3, v1, Lcom/meitu/media/encoder/h;->r:Z
 
-    .line 3
     :try_start_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -244,7 +229,6 @@
 
     invoke-static {v4, v1}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/media/encoder/h$c;->a:Lcom/meitu/media/encoder/h;
 
     iget-object v1, v1, Lcom/meitu/media/encoder/h;->p:Ljava/lang/Thread;
@@ -253,7 +237,6 @@
 
     const-string v1, "onAudioShouldStart AudioFetchThread join end"
 
-    .line 5
     invoke-static {v4, v1}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
@@ -263,10 +246,8 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 7
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -287,7 +268,6 @@
 
     invoke-static {v4, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     :cond_0
     :goto_0
     iget-object v1, p0, Lcom/meitu/media/encoder/h$c;->a:Lcom/meitu/media/encoder/h;
@@ -296,10 +276,8 @@
 
     iput-boolean v2, v1, Lcom/meitu/media/encoder/h;->r:Z
 
-    .line 9
     iput-boolean v3, v1, Lcom/meitu/media/encoder/h;->s:Z
 
-    .line 10
     new-instance v2, Ljava/lang/Thread;
 
     iget-object v3, p0, Lcom/meitu/media/encoder/h$c;->a:Lcom/meitu/media/encoder/h;
@@ -310,7 +288,6 @@
 
     iput-object v2, v1, Lcom/meitu/media/encoder/h;->p:Ljava/lang/Thread;
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/media/encoder/h$c;->a:Lcom/meitu/media/encoder/h;
 
     iget-object v1, v1, Lcom/meitu/media/encoder/h;->p:Ljava/lang/Thread;
@@ -319,10 +296,8 @@
 
     const-string v1, "onAudioShouldStart, start AudioFetchThread now"
 
-    .line 12
     invoke-static {v4, v1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

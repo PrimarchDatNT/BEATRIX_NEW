@@ -49,7 +49,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -64,7 +63,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout$c;->a:Lcom/commsource/studio/StudioTabLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/StudioTabLayout;->getCurrentViewLengths()Ljava/util/ArrayList;
@@ -73,7 +71,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -98,7 +95,6 @@
     :cond_0
     check-cast v3, Landroid/graphics/Point;
 
-    .line 4
     iget-object v5, p0, Lcom/commsource/studio/StudioTabLayout$c;->b:Ljava/util/List;
 
     invoke-interface {v5, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -109,7 +105,6 @@
 
     iget v5, v5, Landroid/graphics/Point;->x:I
 
-    .line 5
     iget-object v6, p0, Lcom/commsource/studio/StudioTabLayout$c;->a:Lcom/commsource/studio/StudioTabLayout;
 
     invoke-virtual {v6}, Lcom/commsource/studio/StudioTabLayout;->getTargetViewLengths()Ljava/util/ArrayList;
@@ -124,14 +119,12 @@
 
     iget v6, v6, Landroid/graphics/Point;->x:I
 
-    .line 6
     invoke-static {v5, v6, p1}, Lcom/commsource/util/common/i;->p(IIF)I
 
     move-result v5
 
     iput v5, v3, Landroid/graphics/Point;->x:I
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/studio/StudioTabLayout$c;->b:Ljava/util/List;
 
     invoke-interface {v5, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -142,7 +135,6 @@
 
     iget v5, v5, Landroid/graphics/Point;->y:I
 
-    .line 8
     iget-object v6, p0, Lcom/commsource/studio/StudioTabLayout$c;->a:Lcom/commsource/studio/StudioTabLayout;
 
     invoke-virtual {v6}, Lcom/commsource/studio/StudioTabLayout;->getTargetViewLengths()Ljava/util/ArrayList;
@@ -157,7 +149,6 @@
 
     iget v2, v2, Landroid/graphics/Point;->y:I
 
-    .line 9
     invoke-static {v5, v2, p1}, Lcom/commsource/util/common/i;->p(IIF)I
 
     move-result v2
@@ -168,18 +159,15 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout$c;->a:Lcom/commsource/studio/StudioTabLayout;
 
     invoke-static {p1}, Lcom/commsource/studio/StudioTabLayout;->f(Lcom/commsource/studio/StudioTabLayout;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 

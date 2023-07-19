@@ -27,7 +27,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Ln/a/b/b/g/e$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ln/a/b/b/g/e$b;-><init>()V
 
     return-void
@@ -47,7 +45,6 @@
 .method public a()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ln/a/b/b/g/e$b;->e()Ln/a/b/b/g/e$b$a;
 
     move-result-object v0
@@ -64,7 +61,6 @@
 .method public b()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/ThreadLocal;->remove()V
 
     return-void
@@ -73,7 +69,6 @@
 .method public c()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ln/a/b/b/g/e$b;->e()Ln/a/b/b/g/e$b$a;
 
     move-result-object v0
@@ -90,7 +85,6 @@
 .method public d()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ln/a/b/b/g/e$b;->e()Ln/a/b/b/g/e$b$a;
 
     move-result-object v0
@@ -113,7 +107,6 @@
 .method public e()Ln/a/b/b/g/e$b$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -126,7 +119,6 @@
 .method public initialValue()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ln/a/b/b/g/e$b$a;
 
     invoke-direct {v0}, Ln/a/b/b/g/e$b$a;-><init>()V

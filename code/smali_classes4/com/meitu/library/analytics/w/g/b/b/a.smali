@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/meitu/library/analytics/w/f/a;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/library/analytics/w/g/b/b/b;
 
     invoke-direct {v0, p1}, Lcom/meitu/library/analytics/w/g/b/b/b;-><init>(Lcom/meitu/library/analytics/w/f/a;)V
@@ -33,14 +31,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/w/g/b/b/a;->a:Lcom/meitu/library/analytics/w/g/b/b/b;
 
     invoke-virtual {v1, p1, p2, p3}, Lcom/meitu/library/analytics/w/g/b/b/b;->a(Ljava/lang/String;J)J
 
     move-result-wide p1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p1
@@ -53,14 +49,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/w/g/b/b/a;->a:Lcom/meitu/library/analytics/w/g/b/b/b;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/library/analytics/w/g/b/b/b;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1

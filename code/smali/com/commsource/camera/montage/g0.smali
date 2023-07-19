@@ -29,17 +29,14 @@
 .method public constructor <init>(Landroidx/fragment/app/FragmentManager;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentStatePagerAdapter;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
-    .line 2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/montage/g0;->a:Ljava/util/List;
 
-    .line 3
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -58,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/g0;->b:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -69,7 +65,6 @@
 
     if-ltz p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/g0;->b:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -78,12 +73,10 @@
 
     check-cast v1, Lcom/commsource/camera/montage/y;
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/camera/montage/y;->a()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/montage/g0;->a:Ljava/util/List;
 
     invoke-interface {v2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -94,7 +87,6 @@
 
     invoke-virtual {p1, v1, p2, p3}, Lcom/commsource/camera/montage/f0;->z(Ljava/lang/String;IZ)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -118,28 +110,23 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/montage/g0;->b:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/montage/g0;->b:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/montage/g0;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/montage/g0;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -155,7 +142,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 6
     new-instance v2, Lcom/commsource/camera/montage/d0;
 
     invoke-direct {v2}, Lcom/commsource/camera/montage/d0;-><init>()V
@@ -167,7 +153,6 @@
 
     invoke-direct {v2}, Lcom/commsource/camera/montage/u;-><init>()V
 
-    .line 7
     :goto_1
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -181,7 +166,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/montage/f0;->B(Ljava/lang/String;)V
 
-    .line 8
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -194,7 +178,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/montage/f0;->A(I)V
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/camera/montage/g0;->a:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -203,11 +186,9 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-virtual {p0}, Landroidx/viewpager/widget/PagerAdapter;->notifyDataSetChanged()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -220,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/g0;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -239,7 +219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/g0;->a:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -248,7 +227,6 @@
 
     check-cast v1, Lcom/commsource/camera/montage/f0;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/montage/g0;->b:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
@@ -259,7 +237,6 @@
 
     if-lez p1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/montage/g0;->b:Ljava/util/List;
 
     invoke-interface {v2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -268,17 +245,14 @@
 
     check-cast p1, Lcom/commsource/camera/montage/y;
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/camera/montage/y;->a()Ljava/lang/String;
 
     move-result-object p1
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/f0;->B(Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -296,7 +270,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, -0x2

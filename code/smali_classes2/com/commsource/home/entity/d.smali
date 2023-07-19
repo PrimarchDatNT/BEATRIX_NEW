@@ -30,12 +30,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/home/entity/d;->a:Ljava/lang/String;
 
     return-void
@@ -48,7 +46,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/entity/d;->b:Ljava/lang/String;
 
     return-object v0
@@ -59,7 +56,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/entity/d;->a:Ljava/lang/String;
 
     return-object v0
@@ -76,7 +72,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/entity/d;->a:Ljava/lang/String;
 
     return-void

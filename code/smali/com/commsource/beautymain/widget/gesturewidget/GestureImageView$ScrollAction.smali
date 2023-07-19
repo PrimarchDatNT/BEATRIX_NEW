@@ -44,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     const-string v2, "NONE"
@@ -55,7 +54,6 @@
 
     sput-object v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    .line 2
     new-instance v2, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     const-string v4, "SINGLE_POINTER_DRAG"
@@ -66,7 +64,6 @@
 
     sput-object v2, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->SINGLE_POINTER_DRAG:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    .line 3
     new-instance v4, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     const-string v6, "MULTIPLE_POINTERS_DRAG"
@@ -87,7 +84,6 @@
 
     aput-object v4, v6, v7
 
-    .line 4
     sput-object v6, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->$VALUES:[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -103,10 +99,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->mAction:I
 
     return-void
@@ -127,14 +121,12 @@
 
     if-eq p0, v1, :cond_0
 
-    .line 2
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->MULTIPLE_POINTERS_DRAG:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
@@ -142,7 +134,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->SINGLE_POINTER_DRAG:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
@@ -158,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -179,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->$VALUES:[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
     invoke-virtual {v1}, [Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->clone()Ljava/lang/Object;
@@ -202,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->mAction:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

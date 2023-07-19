@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;->L()Ljava/lang/Runnable;
@@ -51,7 +50,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;->L()Ljava/lang/Runnable;
@@ -60,7 +58,6 @@
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

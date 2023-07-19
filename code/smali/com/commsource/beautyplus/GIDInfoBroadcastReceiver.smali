@@ -15,12 +15,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     const-string v0, "GIDInfo"
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/beautyplus/GIDInfoBroadcastReceiver;->a:Ljava/lang/String;
 
     return-void
@@ -51,14 +49,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/GIDInfoBroadcastReceiver;->a:Ljava/lang/String;
 
     const-string v2, "GIDInfoBroadcastReceiver onReceive"
 
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v1
@@ -79,7 +75,6 @@
     :goto_0
     if-eqz p2, :cond_1
 
-    .line 3
     sget-object v1, Lcom/meitu/library/j/f/f;->b:Ljava/lang/String;
 
     invoke-virtual {p2, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
@@ -88,7 +83,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     :try_start_0
     const-class v1, Lcom/meitu/library/j/f/b;
 
@@ -98,7 +92,6 @@
 
     check-cast p2, Lcom/meitu/library/j/f/b;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/GIDInfoBroadcastReceiver;->a:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -161,14 +154,12 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {p2}, Lcom/meitu/library/j/f/b;->getId()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-static {p1, v1}, Lf/d/i/e;->s3(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 7
     sget-object p1, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
     invoke-virtual {p2}, Lcom/meitu/library/j/f/b;->getId()Ljava/lang/String;
@@ -184,10 +175,8 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 9
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/appsflyer/internal/referrer/Referrer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/internal/referrer/Referrer$1;->AFDateFormat:Lcom/appsflyer/internal/referrer/Referrer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final update(Ljava/util/Observable;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/appsflyer/internal/referrer/Referrer$1;->AFDateFormat:Lcom/appsflyer/internal/referrer/Referrer;
 
     invoke-static {p1}, Lcom/appsflyer/internal/referrer/Referrer;->values(Lcom/appsflyer/internal/referrer/Referrer;)Ljava/lang/Runnable;

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/webview/core/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/core/f$a;->a:Lcom/meitu/webview/core/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -63,19 +61,16 @@
 
     const-string v1, "true"
 
-    .line 2
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/webview/core/f$a;->a:Lcom/meitu/webview/core/f;
 
     invoke-static {p1}, Lcom/meitu/webview/core/f;->access$000(Lcom/meitu/webview/core/f;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

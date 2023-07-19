@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$a;->g:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -41,10 +40,8 @@
 
     const-string/jumbo v1, "starpageappr"
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

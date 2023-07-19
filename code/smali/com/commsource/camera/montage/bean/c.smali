@@ -103,24 +103,20 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/montage/bean/c;->a:Landroid/util/SparseArray;
 
-    .line 3
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/montage/bean/c;->b:Landroid/util/SparseArray;
 
-    .line 4
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
@@ -129,24 +125,20 @@
 
     const/4 v0, -0x1
 
-    .line 5
     iput v0, p0, Lcom/commsource/camera/montage/bean/c;->d:I
 
-    .line 6
     new-instance v0, Landroid/util/SparseBooleanArray;
 
     invoke-direct {v0}, Landroid/util/SparseBooleanArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/montage/bean/c;->t:Landroid/util/SparseBooleanArray;
 
-    .line 7
     new-instance v0, Landroid/util/SparseBooleanArray;
 
     invoke-direct {v0}, Landroid/util/SparseBooleanArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/montage/bean/c;->u:Landroid/util/SparseBooleanArray;
 
-    .line 8
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
@@ -163,17 +155,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/camera/montage/j0;->o(Lcom/meitu/template/bean/ArMaterial;)Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/commsource/camera/montage/bean/UserRecordBean;
 
     invoke-direct {v2}, Lcom/commsource/camera/montage/bean/UserRecordBean;-><init>()V
 
-    .line 3
     new-instance v3, Ljava/util/HashMap;
 
     const/16 v4, 0x10
@@ -182,7 +171,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/montage/bean/UserRecordBean;->setCommTypeMap(Ljava/util/HashMap;)V
 
-    .line 4
     new-instance v3, Ljava/util/HashMap;
 
     const/16 v4, 0x8
@@ -191,7 +179,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/montage/bean/UserRecordBean;->setAccessoriesMap(Ljava/util/HashMap;)V
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/camera/montage/bean/UserRecordBean;->getAccessoriesMap()Ljava/util/HashMap;
 
     move-result-object v3
@@ -202,7 +189,6 @@
 
     move-result-object v4
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getGlasses()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$GlassesBean;
 
     move-result-object v5
@@ -222,11 +208,9 @@
     :cond_0
     move-object v5, v6
 
-    .line 7
     :goto_0
     invoke-virtual {v3, v4, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/camera/montage/bean/UserRecordBean;->getCommTypeMap()Ljava/util/HashMap;
 
     move-result-object v3
@@ -239,14 +223,12 @@
 
     invoke-virtual {v3, v4, v6}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->isGender()Z
 
     move-result v1
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/montage/bean/UserRecordBean;->setIsGirl(Z)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v1
@@ -261,7 +243,6 @@
 
     invoke-static {v3, v4, v1}, Lcom/commsource/camera/montage/v;->r0(JZ)V
 
-    .line 11
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
@@ -270,7 +251,6 @@
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object p0
@@ -281,7 +261,6 @@
 
     invoke-static {p0, v1}, Lcom/commsource/camera/montage/v;->t0(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -296,29 +275,24 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/s0$a;
 
     invoke-direct {v1, p1}, Lcom/commsource/widget/s0$a;-><init>(Landroid/content/Context;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/widget/s0$a;->a()Lcom/commsource/widget/s0;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/camera/montage/bean/c;->y:Lcom/commsource/widget/s0;
 
-    .line 4
     invoke-virtual {p1}, Landroid/app/Dialog;->show()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -332,7 +306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
 
     move-result-object v1
@@ -341,19 +314,16 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Lorg/apache/http/util/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     new-instance v1, Lcom/commsource/camera/montage/bean/UserRecordBean;
 
     invoke-direct {v1}, Lcom/commsource/camera/montage/bean/UserRecordBean;-><init>()V
 
-    .line 4
     new-instance v2, Ljava/util/HashMap;
 
     const/16 v3, 0x10
@@ -362,7 +332,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/bean/UserRecordBean;->setCommTypeMap(Ljava/util/HashMap;)V
 
-    .line 5
     new-instance v2, Ljava/util/HashMap;
 
     const/16 v3, 0x8
@@ -373,12 +342,10 @@
 
     const/4 v2, 0x1
 
-    .line 6
     invoke-static {p0, p1, v2}, Lcom/commsource/camera/montage/v;->r0(JZ)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
@@ -392,14 +359,12 @@
 
     check-cast v1, Lcom/commsource/camera/montage/bean/UserRecordBean;
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/UserRecordBean;->isGirl()Z
 
     move-result v2
 
     invoke-static {p0, p1, v2}, Lcom/commsource/camera/montage/v;->r0(JZ)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -421,12 +386,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -462,7 +425,6 @@
     :cond_0
     const-string p0, "MOVE_X;"
 
-    .line 3
     invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
@@ -470,29 +432,23 @@
     :cond_1
     const-string p0, "MOVE_Y;"
 
-    .line 4
     invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/camera/montage/v;->L(I)Ljava/lang/String;
 
     move-result-object p0
 
     invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-virtual {v2, p2, p3}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -501,29 +457,24 @@
 
     const/4 p0, 0x0
 
-    .line 10
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->length()I
 
     move-result v3
 
     invoke-virtual {v2, p0, v3}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 11
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 12
     :cond_3
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 13
     :cond_4
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     :goto_0
     invoke-static {p1}, Lcom/commsource/camera/montage/v;->L(I)Ljava/lang/String;
 
@@ -531,20 +482,16 @@
 
     invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
     invoke-virtual {v2, p2, p3}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
-    .line 17
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0
 
     invoke-interface {v1, p0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -557,7 +504,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/montage/bean/c;->a:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -572,7 +518,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/montage/bean/c;->b:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -587,7 +532,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -602,7 +546,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/montage/bean/c;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -617,7 +560,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/montage/bean/c;->c:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -632,7 +574,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/montage/bean/c;->w:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -647,7 +588,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/montage/bean/c;->y:Lcom/commsource/widget/s0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -662,7 +602,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/bean/c;->y:Lcom/commsource/widget/s0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -677,10 +616,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -693,17 +630,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string/jumbo v2, "\u80a4\u8272:"
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/montage/bean/c;->z()I
 
     move-result v2
@@ -712,15 +646,12 @@
 
     const-string v2, ","
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string/jumbo v3, "\u8138\u957f:"
 
-    .line 5
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v3, v3, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->faceParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$FaceParams;
@@ -735,15 +666,12 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string/jumbo v3, "\u8138\u5bbd:"
 
-    .line 8
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v3, v3, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->faceParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$FaceParams;
@@ -756,15 +684,12 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string/jumbo v3, "\u773c\u775b\u5927\u5c0f:"
 
-    .line 11
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v3, v3, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;
@@ -777,15 +702,12 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 13
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string/jumbo v3, "\u773c\u775b\u9ad8\u5ea6:"
 
-    .line 14
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v3, v3, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;
@@ -800,15 +722,12 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 16
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string/jumbo v3, "\u773c\u775b\u8ddd\u79bb:"
 
-    .line 17
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 18
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v3, v3, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;
@@ -823,15 +742,12 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 19
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string/jumbo v3, "\u7709\u6bdb\u6d53\u5bc6:"
 
-    .line 20
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 21
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v3, v3, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeBrowsParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;
@@ -844,15 +760,12 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 22
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string/jumbo v3, "\u7709\u6bdb\u9ad8\u5ea6:"
 
-    .line 23
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 24
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v3, v3, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeBrowsParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;
@@ -865,15 +778,12 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 25
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string/jumbo v3, "\u7709\u6bdb\u8ddd\u79bb:"
 
-    .line 26
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 27
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v3, v3, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeBrowsParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;
@@ -886,15 +796,12 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 28
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string/jumbo v3, "\u5634\u5df4\u5927\u5c0f:"
 
-    .line 29
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 30
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v3, v3, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->mouthParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MouthParams;
@@ -907,15 +814,12 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 31
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string/jumbo v3, "\u5634\u5df4\u9ad8\u5ea6:"
 
-    .line 32
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 33
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v3, v3, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->mouthParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MouthParams;
@@ -928,15 +832,12 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 34
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string/jumbo v3, "\u9f3b\u5b50\u5927\u5c0f:"
 
-    .line 35
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 36
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v3, v3, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->noseParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;
@@ -949,15 +850,12 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 37
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string/jumbo v2, "\u9f3b\u5b50\u9ad8\u5ea6:"
 
-    .line 38
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 39
     iget-object v2, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v2, v2, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->noseParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;
@@ -970,7 +868,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 40
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -987,7 +884,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, "Montage"
@@ -1002,30 +898,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/montage/bean/c;->D:Lcom/commsource/camera/montage/bean/c;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/camera/montage/bean/c;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/camera/montage/bean/c;->D:Lcom/commsource/camera/montage/bean/c;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/camera/montage/bean/c;
 
     invoke-direct {v2}, Lcom/commsource/camera/montage/bean/c;-><init>()V
 
     sput-object v2, Lcom/commsource/camera/montage/bean/c;->D:Lcom/commsource/camera/montage/bean/c;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -1042,7 +933,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/camera/montage/bean/c;->D:Lcom/commsource/camera/montage/bean/c;
@@ -1061,7 +951,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/bean/c;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1080,11 +969,9 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     iput-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->s:Z
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v3
@@ -1097,7 +984,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     :goto_0
     sget-object v4, Lcom/commsource/camera/montage/v;->x:[I
 
@@ -1105,29 +991,24 @@
 
     if-ge v3, v5, :cond_1
 
-    .line 4
     aget v5, v4, v3
 
     const/16 v6, 0x8
 
     if-ne v5, v6, :cond_0
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/camera/montage/bean/c;->c:Landroid/util/SparseArray;
 
     aget v4, v4, v3
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->j(Lcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 7
     invoke-virtual {v5, v4, v6}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     goto :goto_1
 
-    .line 8
     :cond_0
     iget-object v5, p0, Lcom/commsource/camera/montage/bean/c;->c:Landroid/util/SparseArray;
 
@@ -1135,12 +1016,10 @@
 
     aget v4, v4, v3
 
-    .line 9
     invoke-static {v4, p1}, Lcom/commsource/camera/montage/j0;->u(ILcom/meitu/template/bean/ArMaterial;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 10
     invoke-virtual {v5, v6, v4}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     :goto_1
@@ -1148,18 +1027,15 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/montage/bean/c;->j()V
 
-    .line 12
     invoke-static {p1}, Lcom/commsource/camera/montage/j0;->o(Lcom/meitu/template/bean/ArMaterial;)Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     move-result-object v3
 
     invoke-direct {p0, v3}, Lcom/commsource/camera/montage/bean/c;->i0(Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;)V
 
-    .line 13
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v3}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->clone()Ljava/lang/Object;
@@ -1170,7 +1046,6 @@
 
     iput-object v3, p0, Lcom/commsource/camera/montage/bean/c;->n:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
-    .line 14
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v3}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getSkinlevel()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$SkinlevelBean;
@@ -1183,7 +1058,6 @@
 
     iput v3, p0, Lcom/commsource/camera/montage/bean/c;->e:I
 
-    .line 15
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v3}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->isGender()Z
@@ -1192,7 +1066,6 @@
 
     iput-boolean v3, p0, Lcom/commsource/camera/montage/bean/c;->m:Z
 
-    .line 16
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v3}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getEye()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyeBean;
@@ -1205,7 +1078,6 @@
 
     iput v3, p0, Lcom/commsource/camera/montage/bean/c;->g:I
 
-    .line 17
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v3}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getMouth()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MouthBean;
@@ -1218,7 +1090,6 @@
 
     iput v3, p0, Lcom/commsource/camera/montage/bean/c;->f:I
 
-    .line 18
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v3}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getShy()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ShyBean;
@@ -1231,10 +1102,8 @@
 
     iput v3, p0, Lcom/commsource/camera/montage/bean/c;->h:I
 
-    .line 19
     iput-boolean v2, p0, Lcom/commsource/camera/montage/bean/c;->i:Z
 
-    .line 20
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v3
@@ -1249,7 +1118,6 @@
 
     iput v3, p0, Lcom/commsource/camera/montage/bean/c;->d:I
 
-    .line 21
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v3
@@ -1262,7 +1130,6 @@
 
     move-result-object v3
 
-    .line 22
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v4
@@ -1277,7 +1144,6 @@
 
     iput-object v4, p0, Lcom/commsource/camera/montage/bean/c;->l:Lcom/commsource/camera/montage/bean/UserRecordBean;
 
-    .line 23
     invoke-static {v3}, Lorg/apache/http/util/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -1286,7 +1152,6 @@
 
     if-eqz v4, :cond_2
 
-    .line 24
     iget-object v3, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-static {v5, v3}, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->fixAdjustParamsBeanIfAbsent(Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;)Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
@@ -1295,7 +1160,6 @@
 
     iput-object v3, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
-    .line 25
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v3
@@ -1308,7 +1172,6 @@
 
     move-result-object v3
 
-    .line 26
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object p1
@@ -1317,7 +1180,6 @@
 
     goto :goto_2
 
-    .line 27
     :cond_2
     const-class v4, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -1331,31 +1193,26 @@
 
     if-nez v3, :cond_3
 
-    .line 28
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object p1
 
     invoke-static {p1, v5}, Lcom/commsource/camera/montage/v;->p0(Ljava/lang/Long;Ljava/lang/String;)V
 
-    .line 29
     iput-boolean v2, p0, Lcom/commsource/camera/montage/bean/c;->s:Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 30
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 31
     :cond_3
     :try_start_1
     iget-object p1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-static {v3, p1}, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->fixAdjustParamsBeanIfAbsent(Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;)Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
-    .line 32
     :goto_2
     iget-object p1, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -1367,7 +1224,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/montage/bean/c;->o:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
-    .line 33
     iget-object p1, p0, Lcom/commsource/camera/montage/bean/c;->l:Lcom/commsource/camera/montage/bean/UserRecordBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/UserRecordBean;->clone()Ljava/lang/Object;
@@ -1378,21 +1234,17 @@
 
     iput-object p1, p0, Lcom/commsource/camera/montage/bean/c;->p:Lcom/commsource/camera/montage/bean/UserRecordBean;
 
-    .line 34
     iput-boolean v2, p0, Lcom/commsource/camera/montage/bean/c;->s:Z
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 35
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 36
     :catch_0
     iput-boolean v2, p0, Lcom/commsource/camera/montage/bean/c;->s:Z
 
-    .line 37
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -1409,7 +1261,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->l:Lcom/commsource/camera/montage/bean/UserRecordBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/UserRecordBean;->getAccessoriesMap()Ljava/util/HashMap;
@@ -1434,7 +1285,6 @@
 
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->l:Lcom/commsource/camera/montage/bean/UserRecordBean;
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/UserRecordBean;->getAccessoriesMap()Ljava/util/HashMap;
 
     move-result-object v1
@@ -1460,7 +1310,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1474,7 +1323,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->u:Landroid/util/SparseBooleanArray;
 
     invoke-virtual {v1}, Landroid/util/SparseBooleanArray;->size()I
@@ -1503,7 +1351,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->t:Landroid/util/SparseBooleanArray;
 
     invoke-virtual {v1}, Landroid/util/SparseBooleanArray;->size()I
@@ -1532,7 +1379,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->isHasFg()Z
@@ -1551,7 +1397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->isHasFreckle()Z
@@ -1570,7 +1415,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getGlasses()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$GlassesBean;
@@ -1603,7 +1447,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->isHasMole()Z
@@ -1622,7 +1465,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getMustache()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MustacheBean;
@@ -1655,7 +1497,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->s:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1670,7 +1511,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->w:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1685,7 +1525,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->r:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1708,14 +1547,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object p1
@@ -1732,7 +1569,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/montage/bean/c;->s()Ljava/lang/String;
 
     move-result-object p1
@@ -1741,7 +1577,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/camera/montage/bean/c;->q()Ljava/lang/String;
 
     move-result-object p1
@@ -1752,10 +1587,8 @@
 
     const-string p1, "montage_adjust_save"
 
-    .line 5
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1772,7 +1605,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->l:Lcom/commsource/camera/montage/bean/UserRecordBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/UserRecordBean;->getAccessoriesMap()Ljava/util/HashMap;
@@ -1785,7 +1617,6 @@
 
     invoke-virtual {v1, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1798,7 +1629,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->l:Lcom/commsource/camera/montage/bean/UserRecordBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/UserRecordBean;->getCommTypeMap()Ljava/util/HashMap;
@@ -1807,7 +1637,6 @@
 
     invoke-virtual {v1, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1820,7 +1649,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->n:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->clone()Ljava/lang/Object;
@@ -1831,7 +1659,6 @@
 
     invoke-direct {p0, v1}, Lcom/commsource/camera/montage/bean/c;->i0(Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->o:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->clone()Ljava/lang/Object;
@@ -1842,7 +1669,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->p:Lcom/commsource/camera/montage/bean/UserRecordBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/UserRecordBean;->clone()Ljava/lang/Object;
@@ -1853,22 +1679,18 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/bean/c;->l:Lcom/commsource/camera/montage/bean/UserRecordBean;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->c:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->b:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getSkinlevel()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$SkinlevelBean;
@@ -1881,7 +1703,6 @@
 
     iput v1, p0, Lcom/commsource/camera/montage/bean/c;->e:I
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getEye()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyeBean;
@@ -1894,7 +1715,6 @@
 
     iput v1, p0, Lcom/commsource/camera/montage/bean/c;->g:I
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getMouth()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MouthBean;
@@ -1907,7 +1727,6 @@
 
     iput v1, p0, Lcom/commsource/camera/montage/bean/c;->f:I
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getShy()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ShyBean;
@@ -1922,18 +1741,14 @@
 
     const/4 v1, 0x0
 
-    .line 11
     iput-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->i:Z
 
     const/4 v2, -0x1
 
-    .line 12
     iput v2, p0, Lcom/commsource/camera/montage/bean/c;->d:I
 
-    .line 13
     iput-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->r:Z
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1948,25 +1763,21 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->w:Z
 
     if-eqz p2, :cond_3
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->r:Z
 
     if-nez v1, :cond_0
 
     goto/16 :goto_0
 
-    .line 3
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->i:Z
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getClothcolor()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ClothcolorBean;
@@ -1977,7 +1788,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ClothcolorBean;->setCloth_b(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getClothcolor()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ClothcolorBean;
@@ -1986,7 +1796,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ClothcolorBean;->setCloth_g(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getClothcolor()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ClothcolorBean;
@@ -1995,7 +1804,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ClothcolorBean;->setCloth_r(I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getClothcolor()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ClothcolorBean;
@@ -2004,7 +1812,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ClothcolorBean;->setCloth_b2(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getClothcolor()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ClothcolorBean;
@@ -2013,7 +1820,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ClothcolorBean;->setCloth_g2(I)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getClothcolor()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ClothcolorBean;
@@ -2022,13 +1828,11 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$ClothcolorBean;->setCloth_r2(I)V
 
-    .line 10
     :cond_1
     iget-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->q:Z
 
     if-eqz v1, :cond_2
 
-    .line 11
     invoke-virtual {p2}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v1
@@ -2039,7 +1843,6 @@
 
     iget-object v2, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
-    .line 12
     invoke-virtual {v2}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getSkinlevel()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$SkinlevelBean;
 
     move-result-object v2
@@ -2048,10 +1851,8 @@
 
     move-result v2
 
-    .line 13
     invoke-static {v1, v2}, Lcom/commsource/camera/montage/v;->u0(Ljava/lang/String;I)V
 
-    .line 14
     :cond_2
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
@@ -2065,7 +1866,6 @@
 
     move-result-object v1
 
-    .line 15
     invoke-virtual {p2}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v2
@@ -2076,12 +1876,10 @@
 
     invoke-static {v2, v1}, Lcom/commsource/camera/montage/v;->t0(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->saveCurrentToLast()V
 
-    .line 17
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
@@ -2094,24 +1892,20 @@
 
     move-result-object v1
 
-    .line 18
     invoke-virtual {p2}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v2
 
     invoke-static {v2, v1}, Lcom/commsource/camera/montage/v;->p0(Ljava/lang/Long;Ljava/lang/String;)V
 
-    .line 19
     invoke-virtual {p0, p2}, Lcom/commsource/camera/montage/bean/c;->Q(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 20
     new-instance v1, Lcom/commsource/camera/montage/bean/b;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/camera/montage/bean/b;-><init>(Lcom/commsource/camera/montage/bean/c;Landroid/app/Activity;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 21
     new-instance p1, Lcom/commsource/camera/montage/bean/c$a;
 
     const-string v1, "SaveMontageMaterial"
@@ -2120,7 +1914,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2129,10 +1922,8 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 23
     iput-boolean p1, p0, Lcom/commsource/camera/montage/bean/c;->w:Z
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2145,12 +1936,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->b:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1, p2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2163,10 +1952,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/montage/bean/c;->i:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2179,10 +1966,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/montage/bean/c;->q:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2195,12 +1980,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->setHasFg(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2213,12 +1996,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->setHasFreckle(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2231,7 +2012,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getGlasses()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$GlassesBean;
@@ -2240,7 +2020,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$GlassesBean;->setType(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2253,12 +2032,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->setHasMole(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2271,7 +2048,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getMustache()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MustacheBean;
@@ -2280,7 +2056,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MustacheBean;->setType(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2311,7 +2086,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
@@ -2323,7 +2097,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
@@ -2335,7 +2108,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
@@ -2345,7 +2117,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyeBean;->setType(I)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2367,14 +2138,12 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/camera/montage/bean/c;->u:Landroid/util/SparseBooleanArray;
 
     invoke-virtual {p3, p1, v1}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p3, p0, Lcom/commsource/camera/montage/bean/c;->u:Landroid/util/SparseBooleanArray;
 
@@ -2383,20 +2152,17 @@
     :goto_0
     if-eqz p2, :cond_1
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/montage/bean/c;->t:Landroid/util/SparseBooleanArray;
 
     invoke-virtual {p2, p1, v1}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
     goto :goto_1
 
-    .line 4
     :cond_1
     iget-object p2, p0, Lcom/commsource/camera/montage/bean/c;->t:Landroid/util/SparseBooleanArray;
 
     invoke-virtual {p2, p1}, Landroid/util/SparseBooleanArray;->delete(I)V
 
-    .line 5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2410,12 +2176,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1, p2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2428,40 +2192,32 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->b:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->c:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
-    .line 5
     iput-object v1, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     const/4 v1, -0x1
 
-    .line 6
     iput v1, p0, Lcom/commsource/camera/montage/bean/c;->d:I
 
     const/4 v1, 0x0
 
-    .line 7
     iput-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->r:Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2474,22 +2230,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->t:Landroid/util/SparseBooleanArray;
 
     invoke-virtual {v1}, Landroid/util/SparseBooleanArray;->clear()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->u:Landroid/util/SparseBooleanArray;
 
     invoke-virtual {v1}, Landroid/util/SparseBooleanArray;->clear()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->v:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2502,7 +2254,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getSkinlevel()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$SkinlevelBean;
@@ -2511,7 +2262,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$SkinlevelBean;->setType(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2524,7 +2274,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2553,7 +2302,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 1
     invoke-virtual {p2}, Ljava/util/HashSet;->isEmpty()Z
 
     move-result v1
@@ -2562,7 +2310,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
 
@@ -2582,28 +2329,24 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 3
     invoke-static {v1}, Lorg/apache/http/util/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/montage/bean/c;->v:Landroid/util/SparseArray;
 
     invoke-virtual {v2, p1, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     goto :goto_0
 
-    .line 5
     :cond_2
     :goto_1
     iget-object p2, p0, Lcom/commsource/camera/montage/bean/c;->v:Landroid/util/SparseArray;
 
     invoke-virtual {p2, p1}, Landroid/util/SparseArray;->delete(I)V
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2627,17 +2370,14 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     iget-boolean v4, v0, Lcom/commsource/camera/montage/bean/c;->q:Z
 
     const/4 v5, 0x0
@@ -2646,10 +2386,8 @@
 
     const-string v4, "COLOR;FACE;"
 
-    .line 4
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/montage/bean/c;->z()I
 
     move-result v4
@@ -2658,34 +2396,28 @@
 
     const-string v4, ","
 
-    .line 6
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/montage/bean/c;->z()I
 
     move-result v6
 
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/montage/bean/c;->z()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 11
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->length()I
 
     move-result v4
@@ -2694,10 +2426,8 @@
 
     const-string v4, "RELOAD;FACESKIN;"
 
-    .line 12
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 13
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/montage/bean/c;->z()I
 
     move-result v4
@@ -2708,12 +2438,10 @@
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     sget-object v4, Ljava/io/File;->separator:Ljava/lang/String;
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v4
@@ -2723,7 +2451,6 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 16
     :goto_0
     iget-object v6, v0, Lcom/commsource/camera/montage/bean/c;->a:Landroid/util/SparseArray;
 
@@ -2743,14 +2470,12 @@
 
     if-ge v4, v6, :cond_4
 
-    .line 17
     iget-object v6, v0, Lcom/commsource/camera/montage/bean/c;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v6, v4}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v6
 
-    .line 18
     iget-object v12, v0, Lcom/commsource/camera/montage/bean/c;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v12, v6}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -2761,31 +2486,24 @@
 
     if-eqz v12, :cond_3
 
-    .line 19
     invoke-static {v6}, Lcom/commsource/camera/montage/v;->L(I)Ljava/lang/String;
 
     move-result-object v13
 
-    .line 20
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->length()I
 
     move-result v14
 
     invoke-virtual {v2, v5, v14}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 21
     invoke-virtual {v2, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 22
     invoke-virtual {v2, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 23
     invoke-virtual {v2, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 24
     invoke-virtual {v2, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 25
     sget-object v7, Ljava/io/File;->separator:Ljava/lang/String;
 
     invoke-virtual {v2, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -2798,13 +2516,11 @@
 
     if-ne v6, v10, :cond_2
 
-    .line 26
     :cond_1
     iget-boolean v6, v0, Lcom/commsource/camera/montage/bean/c;->q:Z
 
     if-eqz v6, :cond_2
 
-    .line 27
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v6
@@ -2813,7 +2529,6 @@
 
     goto :goto_1
 
-    .line 28
     :cond_2
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -2830,7 +2545,6 @@
     :cond_4
     const/4 v4, 0x0
 
-    .line 29
     :goto_2
     iget-object v6, v0, Lcom/commsource/camera/montage/bean/c;->b:Landroid/util/SparseArray;
 
@@ -2840,14 +2554,12 @@
 
     if-ge v4, v6, :cond_6
 
-    .line 30
     iget-object v6, v0, Lcom/commsource/camera/montage/bean/c;->b:Landroid/util/SparseArray;
 
     invoke-virtual {v6, v4}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v6
 
-    .line 31
     iget-object v12, v0, Lcom/commsource/camera/montage/bean/c;->b:Landroid/util/SparseArray;
 
     invoke-virtual {v12, v6}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -2862,36 +2574,28 @@
 
     if-eq v6, v13, :cond_5
 
-    .line 32
     invoke-static {v6}, Lcom/commsource/camera/montage/v;->M(I)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 33
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->length()I
 
     move-result v13
 
     invoke-virtual {v2, v5, v13}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 34
     invoke-virtual {v2, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 35
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 36
     invoke-virtual {v2, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 37
     invoke-virtual {v2, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 38
     sget-object v6, Ljava/io/File;->separator:Ljava/lang/String;
 
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 39
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v6
@@ -2903,13 +2607,11 @@
 
     goto :goto_2
 
-    .line 40
     :cond_6
     iget-object v2, v0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     if-eqz v2, :cond_13
 
-    .line 41
     iget-object v2, v2, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->noseParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;
 
     iget-wide v4, v2, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;->scaleFactor:D
@@ -2926,14 +2628,12 @@
 
     if-eqz v8, :cond_7
 
-    .line 42
     invoke-static {v11, v2, v4, v5}, Lcom/commsource/camera/montage/bean/c;->S(IID)Ljava/util/List;
 
     move-result-object v4
 
     invoke-interface {v3, v4}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 43
     :cond_7
     iget-object v4, v0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -2949,14 +2649,12 @@
 
     if-eqz v4, :cond_8
 
-    .line 44
     invoke-static {v11, v11, v12, v13}, Lcom/commsource/camera/montage/bean/c;->S(IID)Ljava/util/List;
 
     move-result-object v4
 
     invoke-interface {v3, v4}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 45
     :cond_8
     iget-object v4, v0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -2974,14 +2672,12 @@
 
     if-eqz v5, :cond_9
 
-    .line 46
     invoke-static {v11, v4, v12, v13}, Lcom/commsource/camera/montage/bean/c;->S(IID)Ljava/util/List;
 
     move-result-object v5
 
     invoke-interface {v3, v5}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 47
     :cond_9
     iget-object v5, v0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -2997,14 +2693,12 @@
 
     if-eqz v5, :cond_a
 
-    .line 48
     invoke-static {v11, v10, v12, v13}, Lcom/commsource/camera/montage/bean/c;->S(IID)Ljava/util/List;
 
     move-result-object v5
 
     invoke-interface {v3, v5}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 49
     :cond_a
     iget-object v5, v0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -3018,14 +2712,12 @@
 
     const/4 v5, 0x3
 
-    .line 50
     invoke-static {v5, v9, v12, v13}, Lcom/commsource/camera/montage/bean/c;->S(IID)Ljava/util/List;
 
     move-result-object v5
 
     invoke-interface {v3, v5}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 51
     :cond_b
     iget-object v5, v0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -3043,14 +2735,12 @@
 
     if-eqz v5, :cond_c
 
-    .line 52
     invoke-static {v4, v4, v12, v13}, Lcom/commsource/camera/montage/bean/c;->S(IID)Ljava/util/List;
 
     move-result-object v5
 
     invoke-interface {v3, v5}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 53
     :cond_c
     iget-object v5, v0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -3066,14 +2756,12 @@
 
     if-eqz v1, :cond_d
 
-    .line 54
     invoke-static {v4, v11, v12, v13}, Lcom/commsource/camera/montage/bean/c;->S(IID)Ljava/util/List;
 
     move-result-object v1
 
     invoke-interface {v3, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 55
     :cond_d
     iget-object v1, v0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -3089,14 +2777,12 @@
 
     if-eqz v1, :cond_e
 
-    .line 56
     invoke-static {v9, v9, v12, v13}, Lcom/commsource/camera/montage/bean/c;->S(IID)Ljava/util/List;
 
     move-result-object v1
 
     invoke-interface {v3, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 57
     :cond_e
     iget-object v1, v0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -3112,14 +2798,12 @@
 
     if-eqz v1, :cond_f
 
-    .line 58
     invoke-static {v4, v10, v5, v6}, Lcom/commsource/camera/montage/bean/c;->S(IID)Ljava/util/List;
 
     move-result-object v1
 
     invoke-interface {v3, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 59
     :cond_f
     iget-object v1, v0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -3137,14 +2821,12 @@
 
     const/16 v1, 0x38d
 
-    .line 60
     invoke-static {v4, v1, v5, v6}, Lcom/commsource/camera/montage/bean/c;->S(IID)Ljava/util/List;
 
     move-result-object v1
 
     invoke-interface {v3, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 61
     :cond_10
     iget-object v1, v0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -3160,14 +2842,12 @@
 
     if-eqz v1, :cond_11
 
-    .line 62
     invoke-static {v10, v4, v5, v6}, Lcom/commsource/camera/montage/bean/c;->S(IID)Ljava/util/List;
 
     move-result-object v1
 
     invoke-interface {v3, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 63
     :cond_11
     iget-object v1, v0, Lcom/commsource/camera/montage/bean/c;->k:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -3183,7 +2863,6 @@
 
     if-eqz v1, :cond_12
 
-    .line 64
     invoke-static {v10, v11, v4, v5}, Lcom/commsource/camera/montage/bean/c;->S(IID)Ljava/util/List;
 
     move-result-object v1
@@ -3193,7 +2872,6 @@
     :cond_12
     const/16 v1, 0x47dc
 
-    .line 65
     :cond_13
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3207,10 +2885,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/montage/bean/c;->r:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3223,7 +2899,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/camera/montage/bean/c;->x:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3256,12 +2931,10 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 2
     :cond_0
     iget p1, p0, Lcom/commsource/camera/montage/bean/c;->h:I
 
@@ -3269,7 +2942,6 @@
 
     return p1
 
-    .line 3
     :cond_1
     iget p1, p0, Lcom/commsource/camera/montage/bean/c;->f:I
 
@@ -3277,7 +2949,6 @@
 
     return p1
 
-    .line 4
     :cond_2
     iget p1, p0, Lcom/commsource/camera/montage/bean/c;->g:I
 
@@ -3297,7 +2968,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->c:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -3318,7 +2988,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/bean/c;->e:I
 
     const/4 v2, 0x4
@@ -3345,7 +3014,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->m:Z
 
     if-eqz v1, :cond_0
@@ -3370,7 +3038,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/montage/bean/c;->m:Z
 
     if-eqz v1, :cond_0
@@ -3413,12 +3080,10 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
@@ -3436,7 +3101,6 @@
 
     return p1
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
@@ -3454,7 +3118,6 @@
 
     return p1
 
-    .line 4
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
@@ -3488,7 +3151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->v:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3503,7 +3165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3518,7 +3179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getSkinlevel()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$SkinlevelBean;
@@ -3553,7 +3213,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c;->j:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getSkinlevel()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$SkinlevelBean;

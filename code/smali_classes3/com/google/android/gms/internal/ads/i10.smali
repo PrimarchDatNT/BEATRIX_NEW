@@ -56,34 +56,26 @@
 .method public constructor <init>(Ljava/util/concurrent/ScheduledExecutorService;Lcom/google/android/gms/common/util/g;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, -0x1
 
-    .line 2
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/i10;->d:J
 
-    .line 3
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/i10;->e:J
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/i10;->f:Ljava/lang/Runnable;
 
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/i10;->g:Z
 
-    .line 6
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/i10;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 7
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/i10;->b:Lcom/google/android/gms/common/util/g;
 
-    .line 8
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->f()Lcom/google/android/gms/internal/ads/ei2;
 
     move-result-object p1
@@ -100,13 +92,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/i10;->g:Z
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/i10;->c:Ljava/util/concurrent/ScheduledFuture;
 
     const/4 v1, 0x1
@@ -119,12 +109,10 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/i10;->c:Ljava/util/concurrent/ScheduledFuture;
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/ScheduledFuture;->cancel(Z)Z
 
-    .line 4
     iget-wide v2, p0, Lcom/google/android/gms/internal/ads/i10;->d:J
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/i10;->b:Lcom/google/android/gms/common/util/g;
@@ -142,16 +130,13 @@
     :cond_0
     const-wide/16 v2, -0x1
 
-    .line 5
     iput-wide v2, p0, Lcom/google/android/gms/internal/ads/i10;->e:J
 
-    .line 6
     :goto_0
     iput-boolean v1, p0, Lcom/google/android/gms/internal/ads/i10;->g:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     :cond_1
     monitor-exit p0
 
@@ -172,13 +157,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/i10;->g:Z
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/i10;->e:J
 
     const-wide/16 v2, 0x0
@@ -197,7 +180,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/i10;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/i10;->f:Ljava/lang/Runnable;
@@ -206,7 +188,6 @@
 
     sget-object v4, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 4
     invoke-interface {v0, v1, v2, v3, v4}, Ljava/util/concurrent/ScheduledExecutorService;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
 
     move-result-object v0
@@ -216,12 +197,10 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/i10;->g:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     :cond_1
     monitor-exit p0
 
@@ -242,12 +221,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/i10;->d()V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/i10;->c()V
 
@@ -259,11 +236,9 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/i10;->f:Ljava/lang/Runnable;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/i10;->b:Lcom/google/android/gms/common/util/g;
 
     invoke-interface {v0}, Lcom/google/android/gms/common/util/g;->elapsedRealtime()J
@@ -276,7 +251,6 @@
 
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/i10;->d:J
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/i10;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
@@ -289,7 +263,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit p0
 
     return-void

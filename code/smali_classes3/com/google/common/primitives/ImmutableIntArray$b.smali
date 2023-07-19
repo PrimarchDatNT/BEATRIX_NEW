@@ -27,15 +27,12 @@
 .method constructor <init>(I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->b:I
 
-    .line 3
     new-array p1, p1, [I
 
     iput-object p1, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->a:[I
@@ -46,19 +43,16 @@
 .method private g(I)V
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->b:I
 
     add-int/2addr v0, p1
 
-    .line 2
     iget-object p1, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->a:[I
 
     array-length v1, p1
 
     if-le v0, v1, :cond_0
 
-    .line 3
     array-length p1, p1
 
     invoke-static {p1, v0}, Lcom/google/common/primitives/ImmutableIntArray$b;->h(II)I
@@ -67,7 +61,6 @@
 
     new-array p1, p1, [I
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->a:[I
 
     iget v1, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->b:I
@@ -76,7 +69,6 @@
 
     invoke-static {v0, v2, p1, v2, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 5
     iput-object p1, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->a:[I
 
     :cond_0
@@ -98,7 +90,6 @@
 
     add-int/lit8 p1, p1, -0x1
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Integer;->highestOneBit(I)I
 
     move-result p0
@@ -113,7 +104,6 @@
     :cond_1
     return p0
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/AssertionError;
 
@@ -131,10 +121,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/primitives/ImmutableIntArray$b;->g(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->a:[I
 
     iget v2, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->b:I
@@ -143,7 +131,6 @@
 
     add-int/2addr v2, v0
 
-    .line 3
     iput v2, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->b:I
 
     return-object p0
@@ -152,14 +139,12 @@
 .method public b(Lcom/google/common/primitives/ImmutableIntArray;)Lcom/google/common/primitives/ImmutableIntArray$b;
     .locals 5
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/common/primitives/ImmutableIntArray;->length()I
 
     move-result v0
 
     invoke-direct {p0, v0}, Lcom/google/common/primitives/ImmutableIntArray$b;->g(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/primitives/ImmutableIntArray;->access$000(Lcom/google/common/primitives/ImmutableIntArray;)[I
 
     move-result-object v0
@@ -178,7 +163,6 @@
 
     invoke-static {v0, v1, v2, v3, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 3
     iget v0, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->b:I
 
     invoke-virtual {p1}, Lcom/google/common/primitives/ImmutableIntArray;->length()I
@@ -204,12 +188,10 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p1, Ljava/util/Collection;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/util/Collection;
 
     invoke-virtual {p0, p1}, Lcom/google/common/primitives/ImmutableIntArray$b;->d(Ljava/util/Collection;)Lcom/google/common/primitives/ImmutableIntArray$b;
@@ -218,7 +200,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -237,7 +218,6 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
@@ -262,14 +242,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->size()I
 
     move-result v0
 
     invoke-direct {p0, v0}, Lcom/google/common/primitives/ImmutableIntArray$b;->g(I)V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -287,7 +265,6 @@
 
     check-cast v0, Ljava/lang/Integer;
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->a:[I
 
     iget v2, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->b:I
@@ -311,12 +288,10 @@
 .method public e([I)Lcom/google/common/primitives/ImmutableIntArray$b;
     .locals 4
 
-    .line 1
     array-length v0, p1
 
     invoke-direct {p0, v0}, Lcom/google/common/primitives/ImmutableIntArray$b;->g(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->a:[I
 
     iget v1, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->b:I
@@ -327,7 +302,6 @@
 
     invoke-static {p1, v3, v0, v1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 3
     iget v0, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->b:I
 
     array-length p1, p1
@@ -344,7 +318,6 @@
     .annotation runtime Lf/f/f/a/b;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/primitives/ImmutableIntArray$b;->b:I
 
     if-nez v0, :cond_0

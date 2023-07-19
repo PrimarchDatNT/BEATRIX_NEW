@@ -16,7 +16,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -38,7 +37,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2}, Ljava/lang/Exception;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

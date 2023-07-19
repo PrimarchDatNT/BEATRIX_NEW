@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorEffectView$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorEffectView$c$a;->a:Lcom/commsource/aieditor/AiEditorEffectView$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -53,7 +51,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$c$a;->a:Lcom/commsource/aieditor/AiEditorEffectView$c;
 
     iget-object v1, v1, Lcom/commsource/aieditor/AiEditorEffectView$c;->a:Lcom/commsource/aieditor/AiEditorEffectView;
@@ -68,7 +65,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/AiEditorEffectView;->n(Lcom/commsource/aieditor/AiEditorEffectView;F)F
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorEffectView$c$a;->a:Lcom/commsource/aieditor/AiEditorEffectView$c;
 
     iget-object p1, p1, Lcom/commsource/aieditor/AiEditorEffectView$c;->a:Lcom/commsource/aieditor/AiEditorEffectView;
@@ -89,7 +85,6 @@
 
     iput v1, p1, Landroid/graphics/Rect;->left:I
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorEffectView$c$a;->a:Lcom/commsource/aieditor/AiEditorEffectView$c;
 
     iget-object p1, p1, Lcom/commsource/aieditor/AiEditorEffectView$c;->a:Lcom/commsource/aieditor/AiEditorEffectView;
@@ -110,14 +105,12 @@
 
     iput v1, p1, Landroid/graphics/Rect;->right:I
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/aieditor/AiEditorEffectView$c$a;->a:Lcom/commsource/aieditor/AiEditorEffectView$c;
 
     iget-object p1, p1, Lcom/commsource/aieditor/AiEditorEffectView$c;->a:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

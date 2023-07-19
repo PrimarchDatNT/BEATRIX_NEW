@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/y/g/a;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/y/g/a$a;->a:Lcom/meitu/library/analytics/y/g/a;
 
     invoke-direct {p0, p2, p3}, Landroid/os/FileObserver;-><init>(Ljava/lang/String;I)V
@@ -43,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/meitu/library/analytics/y/g/a$a;->a:Lcom/meitu/library/analytics/y/g/a;
 
     invoke-static {p2}, Lcom/meitu/library/analytics/y/g/a;->a(Lcom/meitu/library/analytics/y/g/a;)J
@@ -64,7 +62,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/analytics/y/h/f;->g()Lcom/meitu/library/analytics/y/h/h;
 
     move-result-object p2
@@ -77,7 +74,6 @@
 
     invoke-interface {p2, v0}, Lcom/meitu/library/analytics/y/h/h;->b(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/analytics/y/h/f;->g()Lcom/meitu/library/analytics/y/h/h;
 
     move-result-object p2
@@ -92,7 +88,6 @@
 
     invoke-interface {p2, v0, v1, v2}, Lcom/meitu/library/analytics/y/h/h;->c(Ljava/lang/Runnable;J)V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

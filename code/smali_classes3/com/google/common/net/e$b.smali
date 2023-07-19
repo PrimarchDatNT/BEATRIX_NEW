@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/google/common/net/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/net/e$b;->a:Lcom/google/common/net/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 .method public a(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/common/net/e;->a()Lcom/google/common/base/b;
 
     move-result-object v0
@@ -67,7 +65,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/common/net/e;->b(Ljava/lang/String;)Ljava/lang/String;
 
@@ -80,7 +77,6 @@
 .method public bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/google/common/net/e$b;->a(Ljava/lang/String;)Ljava/lang/String;

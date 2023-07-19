@@ -30,7 +30,6 @@
 .method constructor <init>(Lorg/greenrobot/eventbus/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/greenrobot/eventbus/c$a;->a:Lorg/greenrobot/eventbus/c;
 
     invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
@@ -43,7 +42,6 @@
 .method protected a()Lorg/greenrobot/eventbus/c$d;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/greenrobot/eventbus/c$d;
 
     invoke-direct {v0}, Lorg/greenrobot/eventbus/c$d;-><init>()V
@@ -54,7 +52,6 @@
 .method protected bridge synthetic initialValue()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/eventbus/c$a;->a()Lorg/greenrobot/eventbus/c$d;
 
     move-result-object v0

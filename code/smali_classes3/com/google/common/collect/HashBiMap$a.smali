@@ -42,19 +42,16 @@
 .method constructor <init>(Lcom/google/common/collect/HashBiMap;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/HashBiMap$a;->c:Lcom/google/common/collect/HashBiMap;
 
     invoke-direct {p0}, Lcom/google/common/collect/b;-><init>()V
 
-    .line 2
     iget-object p1, p1, Lcom/google/common/collect/HashBiMap;->keys:[Ljava/lang/Object;
 
     aget-object p1, p1, p2
 
     iput-object p1, p0, Lcom/google/common/collect/HashBiMap$a;->a:Ljava/lang/Object;
 
-    .line 3
     iput p2, p0, Lcom/google/common/collect/HashBiMap$a;->b:I
 
     return-void
@@ -65,7 +62,6 @@
 .method a()V
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/HashBiMap$a;->b:I
 
     const/4 v1, -0x1
@@ -90,7 +86,6 @@
 
     if-nez v0, :cond_1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/HashBiMap$a;->c:Lcom/google/common/collect/HashBiMap;
 
@@ -114,7 +109,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/HashBiMap$a;->a:Ljava/lang/Object;
 
     return-object v0
@@ -131,10 +125,8 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/HashBiMap$a;->a()V
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/HashBiMap$a;->b:I
 
     const/4 v1, -0x1
@@ -164,17 +156,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/HashBiMap$a;->a()V
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/HashBiMap$a;->b:I
 
     const/4 v1, -0x1
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/HashBiMap$a;->c:Lcom/google/common/collect/HashBiMap;
 
     iget-object v1, p0, Lcom/google/common/collect/HashBiMap$a;->a:Ljava/lang/Object;
@@ -185,7 +174,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/google/common/collect/HashBiMap$a;->c:Lcom/google/common/collect/HashBiMap;
 
@@ -193,7 +181,6 @@
 
     aget-object v0, v1, v0
 
-    .line 5
     invoke-static {v0, p1}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -202,7 +189,6 @@
 
     return-object p1
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/google/common/collect/HashBiMap$a;->c:Lcom/google/common/collect/HashBiMap;
 

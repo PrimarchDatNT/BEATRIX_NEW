@@ -50,7 +50,6 @@
 
     iput-object p4, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;->d:Lcotlinx/coroutines/flow/internal/j;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -101,7 +100,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;->label:I
 
     const/4 v3, 0x1
@@ -128,7 +126,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -138,23 +135,19 @@
 
     throw p1
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     move-object p2, p1
 
     check-cast p2, Lcotlinx/coroutines/flow/d;
 
-    .line 5
     iget-object v2, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;->a:Lcotlinx/coroutines/c2;
 
     if-eqz v2, :cond_3
 
     invoke-static {v2}, Lcotlinx/coroutines/f2;->B(Lcotlinx/coroutines/c2;)V
 
-    .line 6
     :cond_3
     iget-object v2, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;->b:Lcotlinx/coroutines/sync/e;
 
@@ -181,7 +174,6 @@
 
     move-object p1, p2
 
-    .line 7
     :goto_1
     iget-object v1, v0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;->c:Lcotlinx/coroutines/channels/w;
 
@@ -201,7 +193,6 @@
 
     invoke-static/range {v1 .. v6}, Lcotlinx/coroutines/f;->f(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/c2;
 
-    .line 8
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1

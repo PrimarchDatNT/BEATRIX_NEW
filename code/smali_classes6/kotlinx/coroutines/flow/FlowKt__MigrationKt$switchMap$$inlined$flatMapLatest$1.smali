@@ -177,7 +177,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$switchMap$$inlined$flatMapLatest$1;->label:I
 
     const/4 v2, 0x2
@@ -206,7 +205,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -216,7 +214,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$switchMap$$inlined$flatMapLatest$1;->L$2:Ljava/lang/Object;
 
@@ -239,7 +236,6 @@
 
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$switchMap$$inlined$flatMapLatest$1;->p$0:Ljava/lang/Object;
 
-    .line 4
     iget-object v4, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$switchMap$$inlined$flatMapLatest$1;->$transform:Lcotlin/jvm/u/p;
 
     iput-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$switchMap$$inlined$flatMapLatest$1;->L$0:Ljava/lang/Object;
@@ -267,11 +263,9 @@
 
     move-object p1, v5
 
-    .line 5
     :goto_0
     check-cast p1, Lcotlinx/coroutines/flow/d;
 
-    .line 6
     iput-object v4, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$switchMap$$inlined$flatMapLatest$1;->L$0:Ljava/lang/Object;
 
     iput-object v3, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$switchMap$$inlined$flatMapLatest$1;->L$1:Ljava/lang/Object;
@@ -290,7 +284,6 @@
 
     return-object v0
 
-    .line 7
     :cond_4
     :goto_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;

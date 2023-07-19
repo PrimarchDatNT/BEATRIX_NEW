@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/widget/f1;->j:Lcom/commsource/widget/f1$a;
 
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$c0;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -87,7 +86,6 @@
 
     invoke-static {v1, v2, v3, v2}, Lcom/commsource/widget/f1;->n(Lcom/commsource/widget/f1;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$c0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -128,7 +126,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -141,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$c0;->a(Ljava/lang/Integer;)V

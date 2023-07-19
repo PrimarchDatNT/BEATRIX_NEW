@@ -66,10 +66,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/c;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 v0, 0x1
@@ -80,14 +78,12 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->T:F
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result p1
@@ -100,12 +96,10 @@
 
     iput p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->U:F
 
-    .line 5
     iput p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->V:F
 
     const/high16 p1, 0x40a00000    # 5.0f
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
@@ -114,7 +108,6 @@
 
     const/high16 p1, 0x40600000    # 3.5f
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
@@ -125,23 +118,18 @@
 
     new-array p1, p1, [F
 
-    .line 8
     iput-object p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
 
-    .line 9
     iput-boolean v0, p0, Lcom/commsource/studio/layer/DispersionLayer;->Z:Z
 
-    .line 10
     invoke-virtual {p0, v0}, Lcom/commsource/studio/layer/c;->v0(Z)V
 
-    .line 11
     new-instance p1, Landroid/text/TextPaint;
 
     invoke-direct {p1}, Landroid/text/TextPaint;-><init>()V
 
     const/high16 v0, 0x41500000    # 13.0f
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v0
@@ -150,35 +138,28 @@
 
     const/4 v0, -0x1
 
-    .line 13
     invoke-virtual {p1, v0}, Landroid/text/TextPaint;->setColor(I)V
 
-    .line 14
     sget-object v0, Landroid/graphics/Paint$Align;->CENTER:Landroid/graphics/Paint$Align;
 
     invoke-virtual {p1, v0}, Landroid/text/TextPaint;->setTextAlign(Landroid/graphics/Paint$Align;)V
 
-    .line 15
     iput-object p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->c0:Landroid/text/TextPaint;
 
-    .line 16
     new-instance p1, Landroid/animation/ValueAnimator;
 
     invoke-direct {p1}, Landroid/animation/ValueAnimator;-><init>()V
 
-    .line 17
     new-instance v0, Lcom/commsource/studio/layer/DispersionLayer$a;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/layer/DispersionLayer$a;-><init>(Lcom/commsource/studio/layer/DispersionLayer;)V
 
     invoke-virtual {p1, v0}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 18
     iput-object p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->d0:Landroid/animation/ValueAnimator;
 
     const/4 p1, 0x0
 
-    .line 19
     invoke-virtual {p0, p0, p1}, Lcom/commsource/studio/layer/c;->q0(Lcom/commsource/studio/layer/c$a;I)V
 
     return-void
@@ -191,7 +172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/layer/DispersionLayer;->V:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/DispersionLayer;->S:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -221,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/layer/DispersionLayer;->W:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -236,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/layer/DispersionLayer;->U:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -251,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/layer/DispersionLayer;->T:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -266,7 +242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/DispersionLayer;->c0:Landroid/text/TextPaint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,7 +256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/layer/DispersionLayer;->Z:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -296,7 +270,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->V:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,7 +284,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->Z:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -328,7 +300,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     aget v2, p1, v1
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -349,7 +320,6 @@
 
     const/4 v1, 0x1
 
-    .line 2
     aget v2, p1, v1
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->J()F
@@ -366,7 +336,6 @@
 
     aput v2, p1, v1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -379,7 +348,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/layer/DispersionLayer;->X:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -394,7 +362,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -423,7 +390,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -438,7 +404,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/DispersionLayer;->b0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -466,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -481,17 +445,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->b0:Z
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -504,7 +465,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -519,7 +479,6 @@
 
     aput v2, v1, v4
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->J()F
@@ -532,7 +491,6 @@
 
     aput v2, v1, v3
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -553,17 +511,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->Z(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -578,7 +533,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/DispersionLayer$DrawPathView;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->A()Landroid/content/Context;
@@ -607,12 +561,10 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean p3, p0, Lcom/commsource/studio/layer/DispersionLayer;->b0:Z
 
     if-eqz p3, :cond_1
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
 
     const/4 v1, 0x0
@@ -621,13 +573,10 @@
 
     const/4 p1, 0x1
 
-    .line 3
     aput p2, p3, p1
 
-    .line 4
     invoke-direct {p0, p3}, Lcom/commsource/studio/layer/DispersionLayer;->J0([F)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lcotlin/jvm/u/l;
 
     if-eqz p2, :cond_0
@@ -640,11 +589,9 @@
 
     check-cast p2, Lcotlin/t1;
 
-    .line 6
     :cond_0
     iput-boolean p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->Z:Z
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -666,7 +613,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
 
     const/4 v1, 0x0
@@ -675,13 +621,10 @@
 
     const/4 p1, 0x1
 
-    .line 2
     aput p2, p3, p1
 
-    .line 3
     invoke-direct {p0, p3}, Lcom/commsource/studio/layer/DispersionLayer;->J0([F)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_0
@@ -694,7 +637,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -716,7 +658,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
 
     const/4 v1, 0x0
@@ -725,13 +666,10 @@
 
     const/4 p1, 0x1
 
-    .line 2
     aput p2, p3, p1
 
-    .line 3
     invoke-direct {p0, p3}, Lcom/commsource/studio/layer/DispersionLayer;->J0([F)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lcotlin/jvm/u/l;
 
     if-eqz p2, :cond_0
@@ -744,25 +682,19 @@
 
     check-cast p2, Lcotlin/t1;
 
-    .line 5
     :cond_0
     iput-boolean p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->Z:Z
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->d0:Landroid/animation/ValueAnimator;
 
-    .line 7
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->removeAllListeners()V
 
-    .line 8
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 9
     iget p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->U:F
 
     iput p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->V:F
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -783,7 +715,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -804,7 +735,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     iget-object p4, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
 
     const/4 p5, 0x0
@@ -813,13 +743,10 @@
 
     const/4 p1, 0x1
 
-    .line 2
     aput p2, p4, p1
 
-    .line 3
     invoke-direct {p0, p4}, Lcom/commsource/studio/layer/DispersionLayer;->J0([F)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lcotlin/jvm/u/l;
 
     if-eqz p2, :cond_0
@@ -832,21 +759,17 @@
 
     check-cast p2, Lcotlin/t1;
 
-    .line 5
     :cond_0
     iget-object p2, p0, Lcom/commsource/studio/layer/DispersionLayer;->d0:Landroid/animation/ValueAnimator;
 
-    .line 6
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->removeAllListeners()V
 
-    .line 7
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->cancel()V
 
     const/4 p4, 0x2
 
     new-array p4, p4, [F
 
-    .line 8
     iget v0, p0, Lcom/commsource/studio/layer/DispersionLayer;->V:F
 
     aput v0, p4, p5
@@ -857,17 +780,14 @@
 
     invoke-virtual {p2, p4}, Landroid/animation/ValueAnimator;->setFloatValues([F)V
 
-    .line 9
     new-instance p1, Lcom/commsource/studio/layer/DispersionLayer$b;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/DispersionLayer$b;-><init>(Lcom/commsource/studio/layer/DispersionLayer;)V
 
     invoke-virtual {p2, p1}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 10
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 11
     :cond_1
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

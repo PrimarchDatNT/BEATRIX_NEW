@@ -38,12 +38,10 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;-><init>(Lcotlin/coroutines/c;)V
 
-    .line 2
     :try_start_0
     invoke-interface {p0, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
@@ -54,16 +52,13 @@
     :catchall_0
     move-exception p0
 
-    .line 3
     invoke-virtual {v0, p0}, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->d(Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-virtual {v0}, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->e()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 5
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -91,15 +86,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;-><init>(Lcotlin/coroutines/c;)V
 
-    .line 3
     :try_start_0
     invoke-interface {p0, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
@@ -110,16 +102,13 @@
     :catchall_0
     move-exception p0
 
-    .line 4
     invoke-virtual {v0, p0}, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->d(Ljava/lang/Throwable;)V
 
-    .line 5
     :goto_0
     invoke-virtual {v0}, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->e()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 6
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0

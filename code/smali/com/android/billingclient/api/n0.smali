@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/android/billingclient/api/e;Lcom/android/billingclient/api/i;Lcom/android/billingclient/api/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/n0;->c:Lcom/android/billingclient/api/e;
 
     iput-object p2, p0, Lcom/android/billingclient/api/n0;->a:Lcom/android/billingclient/api/i;
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/n0;->c:Lcom/android/billingclient/api/e;
 
     iget-object v1, p0, Lcom/android/billingclient/api/n0;->a:Lcom/android/billingclient/api/i;

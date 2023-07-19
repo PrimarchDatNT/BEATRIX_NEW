@@ -26,7 +26,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-direct {p0, p1, v0}, Lcom/qiniu/android/dns/local/e$a;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -35,13 +34,10 @@
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/qiniu/android/dns/local/e$a;->a:Ljava/lang/String;
 
-    .line 3
     iput p2, p0, Lcom/qiniu/android/dns/local/e$a;->b:I
 
     return-void
@@ -63,18 +59,15 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     instance-of v2, p1, Lcom/qiniu/android/dns/local/e$a;
 
     if-nez v2, :cond_1
 
     goto :goto_1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/qiniu/android/dns/local/e$a;
 
-    .line 3
     iget-object v2, p0, Lcom/qiniu/android/dns/local/e$a;->a:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/qiniu/android/dns/local/e$a;->a:Ljava/lang/String;

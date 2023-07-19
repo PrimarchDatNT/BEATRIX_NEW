@@ -35,7 +35,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, v0}, Lcom/google/common/collect/DiscreteDomain;-><init>(Z)V
 
     return-void
@@ -44,10 +43,8 @@
 .method private constructor <init>(Z)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-boolean p1, p0, Lcom/google/common/collect/DiscreteDomain;->supportsFastOffset:Z
 
     return-void
@@ -56,7 +53,6 @@
 .method synthetic constructor <init>(ZLcom/google/common/collect/DiscreteDomain$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/DiscreteDomain;-><init>(Z)V
 
     return-void
@@ -73,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/DiscreteDomain$BigIntegerDomain;->access$300()Lcom/google/common/collect/DiscreteDomain$BigIntegerDomain;
 
     move-result-object v0
@@ -92,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/DiscreteDomain$IntegerDomain;->access$000()Lcom/google/common/collect/DiscreteDomain$IntegerDomain;
 
     move-result-object v0
@@ -111,7 +105,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/DiscreteDomain$LongDomain;->access$200()Lcom/google/common/collect/DiscreteDomain$LongDomain;
 
     move-result-object v0
@@ -140,7 +133,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/NoSuchElementException;
 
     invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
@@ -159,7 +151,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/NoSuchElementException;
 
     invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
@@ -185,7 +176,6 @@
 
     const-string v0, "distance"
 
-    .line 1
     invoke-static {p2, p3, v0}, Lcom/google/common/collect/m;->c(JLjava/lang/String;)J
 
     const-wide/16 v0, 0x0
@@ -195,7 +185,6 @@
 
     if-gez v2, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/common/collect/DiscreteDomain;->next(Ljava/lang/Comparable;)Ljava/lang/Comparable;
 
     move-result-object p1

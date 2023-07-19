@@ -159,52 +159,44 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/core/openglEffect/MTTuneEffectParam;->faceID:I
 
     const/16 v0, 0x10
 
     new-array v0, v0, [F
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/core/openglEffect/MTTuneEffectParam;->eyeParam:[F
 
     const/16 v0, 0xc
 
     new-array v1, v0, [F
 
-    .line 4
     iput-object v1, p0, Lcom/meitu/core/openglEffect/MTTuneEffectParam;->noseParam:[F
 
     new-array v0, v0, [F
 
-    .line 5
     iput-object v0, p0, Lcom/meitu/core/openglEffect/MTTuneEffectParam;->mouthParam:[F
 
     const/16 v0, 0x14
 
     new-array v0, v0, [F
 
-    .line 6
     iput-object v0, p0, Lcom/meitu/core/openglEffect/MTTuneEffectParam;->faceParam:[F
 
     const/4 v0, 0x4
 
     new-array v0, v0, [F
 
-    .line 7
     iput-object v0, p0, Lcom/meitu/core/openglEffect/MTTuneEffectParam;->postureParam:[F
 
     const/16 v0, 0xa
 
     new-array v0, v0, [F
 
-    .line 8
     iput-object v0, p0, Lcom/meitu/core/openglEffect/MTTuneEffectParam;->eyebrowsParam:[F
 
     return-void
@@ -223,13 +215,11 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :goto_0
     array-length v3, p0
 
     if-ge v2, v3, :cond_1
 
-    .line 2
     aget v3, p0, v2
 
     const/4 v4, 0x0
@@ -238,7 +228,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p0, 0x1
@@ -250,7 +239,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

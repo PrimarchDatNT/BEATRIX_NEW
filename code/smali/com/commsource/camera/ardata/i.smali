@@ -31,10 +31,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p3}, Lcom/commsource/camera/ardata/j;-><init>(Landroid/content/Context;Lcom/commsource/camera/ardata/k;)V
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/camera/ardata/i;->h:Lcom/commsource/camera/ardata/m;
 
     return-void
@@ -51,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -72,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ardata/i;->h:Lcom/commsource/camera/ardata/m;
 
     if-eqz v1, :cond_0
@@ -85,7 +81,6 @@
 
     const/4 v4, 0x0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/ardata/m;->h()Ljava/lang/String;
 
     move-result-object v1
@@ -106,7 +101,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -114,7 +108,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -127,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1

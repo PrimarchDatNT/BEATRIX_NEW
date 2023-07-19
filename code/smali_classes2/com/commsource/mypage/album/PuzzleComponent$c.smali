@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/album/PuzzleComponent$c;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
     invoke-virtual {v0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -63,7 +62,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/mypage/album/PuzzleComponent$c;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
     const/4 v1, 0x1
@@ -72,10 +70,8 @@
 
     const-string v0, "album_puzzle_clk"
 
-    .line 3
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

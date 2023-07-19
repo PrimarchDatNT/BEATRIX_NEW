@@ -91,10 +91,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$mBottomFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$mBottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/H5Cover;)V
@@ -105,7 +103,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->d:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$mCameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$mCameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/H5Cover;)V
@@ -116,7 +113,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->f:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$mCameraConfigViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$mCameraConfigViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/H5Cover;)V
@@ -127,7 +123,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->g:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$mBpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$mBpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/H5Cover;)V
@@ -138,7 +133,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->p:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$arGiphyMaterialViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$arGiphyMaterialViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/H5Cover;)V
@@ -149,7 +143,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->J:Lcotlin/w;
 
-    .line 7
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$cameraFilterViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$cameraFilterViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/H5Cover;)V
@@ -160,7 +153,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->K:Lcotlin/w;
 
-    .line 8
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$makeupViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$makeupViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/H5Cover;)V
@@ -171,7 +163,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->L:Lcotlin/w;
 
-    .line 9
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$lookViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$lookViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/H5Cover;)V
@@ -182,7 +173,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->M:Lcotlin/w;
 
-    .line 10
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$beautyViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$beautyViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/H5Cover;)V
@@ -193,7 +183,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->N:Lcotlin/w;
 
-    .line 11
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$effectFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$effectFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/H5Cover;)V
@@ -204,7 +193,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->O:Lcotlin/w;
 
-    .line 12
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$confirmViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$confirmViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/H5Cover;)V
@@ -215,7 +203,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->P:Lcotlin/w;
 
-    .line 13
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     invoke-direct {v0}, Lcom/commsource/camera/f1/n;-><init>()V
@@ -224,7 +211,6 @@
 
     const/4 v0, 0x1
 
-    .line 14
     iput-boolean v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->S:Z
 
     return-void
@@ -237,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->K(Ljava/lang/Integer;)F
 
     move-result p0
@@ -262,7 +247,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -270,19 +254,16 @@
 
     if-ne v3, v2, :cond_1
 
-    .line 2
     sget-object v3, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->q:Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel$a;
 
     invoke-virtual {v3, p1}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel$a;->a(Ljava/lang/Integer;)I
 
     move-result v4
 
-    .line 3
     invoke-virtual {v3, p1}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel$a;->b(Ljava/lang/Integer;)I
 
     move-result p1
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->R()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object v3
@@ -323,7 +304,6 @@
 
     sub-float/2addr p1, v3
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->O()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object v3
@@ -376,7 +356,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -384,7 +363,6 @@
 
     if-ne v5, v3, :cond_3
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->O()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object p1
@@ -417,7 +395,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_4
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -425,7 +402,6 @@
 
     if-ne p1, v3, :cond_5
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->O()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object p1
@@ -462,7 +438,6 @@
     :goto_2
     const/4 p1, 0x0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -589,7 +564,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->R:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -604,7 +578,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -751,7 +724,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->S:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -766,7 +738,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->S:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -789,7 +760,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->R:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -804,7 +774,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -819,7 +788,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1
@@ -834,12 +802,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->Q:Z
 
@@ -847,7 +813,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->O()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object p1
@@ -858,7 +823,6 @@
 
     if-nez p1, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->Q()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object p1
@@ -869,7 +833,6 @@
 
     if-nez p1, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->Q()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object p1
@@ -880,7 +843,6 @@
 
     if-nez p1, :cond_1
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->Q()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object p1
@@ -891,7 +853,6 @@
 
     if-nez p1, :cond_1
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->Q()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object p1
@@ -902,7 +863,6 @@
 
     if-nez p1, :cond_1
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->P()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object p1
@@ -913,7 +873,6 @@
 
     if-nez p1, :cond_1
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -930,7 +889,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -948,7 +906,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -964,7 +921,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 13
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -979,10 +935,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->h(FF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -995,7 +949,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1
@@ -1014,7 +967,6 @@
 
     if-nez v1, :cond_3
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1
@@ -1047,7 +999,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1
@@ -1062,10 +1013,8 @@
 
     invoke-virtual {v1, p0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->z()V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1
@@ -1112,7 +1061,6 @@
     :goto_0
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->O()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object v1
@@ -1123,7 +1071,6 @@
 
     if-nez v1, :cond_1
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -1138,7 +1085,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 8
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -1157,15 +1103,12 @@
     :cond_2
     const-string v1, "selfie_h5_imp"
 
-    .line 9
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
-    .line 10
     iput-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->Q:Z
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1183,7 +1126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -1208,7 +1150,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     new-instance p1, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
@@ -1223,7 +1164,6 @@
 
     invoke-direct {p1, v1, v3}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1236,7 +1176,6 @@
 
     invoke-virtual {p1, v3, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1
@@ -1247,7 +1186,6 @@
 
     invoke-virtual {v1, p1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object p1
@@ -1260,10 +1198,8 @@
 
     invoke-static {p1, v1, v2}, Lcom/commsource/statistics/m;->j(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 6
     invoke-static {v1, v2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1280,22 +1216,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->S:Z
 
     if-eqz v1, :cond_0
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->S:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->Q:Z
 
@@ -1323,10 +1255,8 @@
 
     const-string v1, "selfie_h5_imp"
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1344,7 +1274,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -1365,12 +1294,10 @@
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->p(Landroid/view/KeyEvent;)Z
 
@@ -1388,7 +1315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->cover_h5:I
@@ -1411,10 +1337,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->u(Landroid/graphics/Rect;F)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -1435,7 +1359,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setTranslationY(F)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1449,7 +1372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1462,7 +1384,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->R()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object v1
@@ -1485,7 +1406,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->O()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object v1
@@ -1508,7 +1428,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->O()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object v1
@@ -1531,7 +1450,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->Q()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object v1
@@ -1554,7 +1472,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->Q()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object v1
@@ -1577,7 +1494,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->F()Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;
 
     move-result-object v1
@@ -1600,7 +1516,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->P()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
@@ -1623,7 +1538,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->I()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -1646,7 +1560,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

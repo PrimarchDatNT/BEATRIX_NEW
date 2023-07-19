@@ -28,26 +28,20 @@
 .method public constructor <init>(Lcom/squareup/okhttp/internal/DiskLruCache$Snapshot;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/squareup/okhttp/ResponseBody;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/squareup/okhttp/Cache$CacheResponseBody;->snapshot:Lcom/squareup/okhttp/internal/DiskLruCache$Snapshot;
 
-    .line 3
     iput-object p2, p0, Lcom/squareup/okhttp/Cache$CacheResponseBody;->contentType:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/squareup/okhttp/Cache$CacheResponseBody;->contentLength:Ljava/lang/String;
 
     const/4 p2, 0x1
 
-    .line 5
     invoke-virtual {p1, p2}, Lcom/squareup/okhttp/internal/DiskLruCache$Snapshot;->getSource(I)Lokio/Source;
 
     move-result-object p2
 
-    .line 6
     new-instance p3, Lcom/squareup/okhttp/Cache$CacheResponseBody$1;
 
     invoke-direct {p3, p0, p2, p1}, Lcom/squareup/okhttp/Cache$CacheResponseBody$1;-><init>(Lcom/squareup/okhttp/Cache$CacheResponseBody;Lokio/Source;Lcom/squareup/okhttp/internal/DiskLruCache$Snapshot;)V
@@ -64,7 +58,6 @@
 .method static synthetic access$500(Lcom/squareup/okhttp/Cache$CacheResponseBody;)Lcom/squareup/okhttp/internal/DiskLruCache$Snapshot;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/Cache$CacheResponseBody;->snapshot:Lcom/squareup/okhttp/internal/DiskLruCache$Snapshot;
 
     return-object p0
@@ -77,7 +70,6 @@
 
     const-wide/16 v0, -0x1
 
-    .line 1
     :try_start_0
     iget-object v2, p0, Lcom/squareup/okhttp/Cache$CacheResponseBody;->contentLength:Ljava/lang/String;
 
@@ -97,7 +89,6 @@
 .method public contentType()Lcom/squareup/okhttp/MediaType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Cache$CacheResponseBody;->contentType:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -118,7 +109,6 @@
 .method public source()Lokio/BufferedSource;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Cache$CacheResponseBody;->bodySource:Lokio/BufferedSource;
 
     return-object v0

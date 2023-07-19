@@ -74,15 +74,12 @@
 
     sput-object v0, Lcotlin/SafePublicationLazyImpl;->Companion:Lcotlin/SafePublicationLazyImpl$a;
 
-    .line 1
     const-class v0, Lcotlin/SafePublicationLazyImpl;
 
-    .line 2
     const-class v1, Ljava/lang/Object;
 
     const-string v2, "_value"
 
-    .line 3
     invoke-static {v0, v1, v2}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->newUpdater(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     move-result-object v0
@@ -110,18 +107,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcotlin/SafePublicationLazyImpl;->initializer:Lcotlin/jvm/u/a;
 
-    .line 3
     sget-object p1, Lcotlin/n1;->a:Lcotlin/n1;
 
     iput-object p1, p0, Lcotlin/SafePublicationLazyImpl;->_value:Ljava/lang/Object;
 
-    .line 4
     iput-object p1, p0, Lcotlin/SafePublicationLazyImpl;->final:Ljava/lang/Object;
 
     return-void
@@ -130,7 +123,6 @@
 .method private final writeReplace()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlin/InitializedLazyImpl;
 
     invoke-virtual {p0}, Lcotlin/SafePublicationLazyImpl;->getValue()Ljava/lang/Object;
@@ -152,28 +144,23 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/SafePublicationLazyImpl;->_value:Ljava/lang/Object;
 
-    .line 2
     sget-object v1, Lcotlin/n1;->a:Lcotlin/n1;
 
     if-eq v0, v1, :cond_0
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcotlin/SafePublicationLazyImpl;->initializer:Lcotlin/jvm/u/a;
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-interface {v0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 5
     sget-object v2, Lcotlin/SafePublicationLazyImpl;->valueUpdater:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v2, p0, v1, v0}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -184,12 +171,10 @@
 
     const/4 v1, 0x0
 
-    .line 6
     iput-object v1, p0, Lcotlin/SafePublicationLazyImpl;->initializer:Lcotlin/jvm/u/a;
 
     return-object v0
 
-    .line 7
     :cond_1
     iget-object v0, p0, Lcotlin/SafePublicationLazyImpl;->_value:Ljava/lang/Object;
 
@@ -199,7 +184,6 @@
 .method public isInitialized()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlin/SafePublicationLazyImpl;->_value:Ljava/lang/Object;
 
     sget-object v1, Lcotlin/n1;->a:Lcotlin/n1;
@@ -222,7 +206,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/SafePublicationLazyImpl;->isInitialized()Z
 
     move-result v0

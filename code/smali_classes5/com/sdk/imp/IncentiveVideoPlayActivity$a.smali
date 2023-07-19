@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/IncentiveVideoPlayActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/IncentiveVideoPlayActivity$a;->a:Lcom/sdk/imp/IncentiveVideoPlayActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/IncentiveVideoPlayActivity;->a()Lcom/sdk/api/d$e;
 
     move-result-object v0

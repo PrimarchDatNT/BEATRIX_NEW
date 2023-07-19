@@ -48,7 +48,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     sget-object v0, Lf/m/a/e;->K:Lf/m/a/e;
 
     invoke-static {v0}, Lf/m/a/e;->b(Lf/m/a/e;)I
@@ -67,7 +66,6 @@
     :goto_0
     invoke-static {v0, v1}, Lf/m/a/e;->f(Lf/m/a/e;Z)V
 
-    .line 2
     invoke-static {v0}, Lf/m/a/e;->a(Lf/m/a/e;)Lcotlin/jvm/u/l;
 
     move-result-object v1

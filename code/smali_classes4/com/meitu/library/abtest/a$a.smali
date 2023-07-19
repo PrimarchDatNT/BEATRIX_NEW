@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/library/abtest/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/a$a;->a:Lcom/meitu/library/abtest/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,12 +41,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a$a;->a:Lcom/meitu/library/abtest/a;
 
     invoke-virtual {v1}, Lcom/meitu/library/abtest/a;->D()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

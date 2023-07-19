@@ -58,7 +58,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2$a;->b:Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;
 
     iget-object v0, v0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;->this$0:Lcom/commsource/studio/formula/FormulaViewModel;
@@ -69,7 +68,6 @@
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2$a;->b:Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;
 
     iget-object v0, v0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;->this$0:Lcom/commsource/studio/formula/FormulaViewModel;
@@ -80,7 +78,6 @@
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2$a;->b:Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;
 
     iget-object v0, v0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;->this$0:Lcom/commsource/studio/formula/FormulaViewModel;
@@ -91,7 +88,6 @@
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2$a;->b:Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;
 
     iget-object v0, v0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;->this$0:Lcom/commsource/studio/formula/FormulaViewModel;
@@ -108,7 +104,6 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2$a;->b:Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;
 
     iget-object v0, v0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;->this$0:Lcom/commsource/studio/formula/FormulaViewModel;
@@ -125,12 +120,10 @@
 
     move-result-object v1
 
-    .line 6
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 7
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -153,7 +146,6 @@
 
     check-cast v5, Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 8
     invoke-virtual {v5}, Lcom/commsource/studio/formula/FormulaCategory;->getCategoryId()Ljava/lang/String;
 
     move-result-object v5
@@ -170,13 +162,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 10
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -192,10 +182,8 @@
 
     move-result-object v3
 
-    .line 11
     check-cast v3, Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 12
     invoke-virtual {v3}, Lcom/commsource/studio/formula/FormulaCategory;->getDisplayFormulaList()Ljava/util/List;
 
     move-result-object v3
@@ -204,17 +192,14 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 13
     :cond_2
     invoke-static {v1, v3}, Lcotlin/collections/s;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
     goto :goto_1
 
-    .line 14
     :cond_3
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 15
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2$a;->b:Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;
 
     iget-object v0, v0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;->this$0:Lcom/commsource/studio/formula/FormulaViewModel;
@@ -264,14 +249,12 @@
 
     if-eqz v1, :cond_7
 
-    .line 16
     invoke-virtual {v1}, Lcom/commsource/studio/formula/FormulaCategory;->getDisplayFormulaList()Ljava/util/List;
 
     move-result-object v0
 
     if-eqz v0, :cond_7
 
-    .line 17
     invoke-interface {v0}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v1
@@ -285,7 +268,6 @@
     :cond_6
     if-eqz v2, :cond_7
 
-    .line 18
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2$a;->b:Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;
 
     iget-object v0, v0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;->this$0:Lcom/commsource/studio/formula/FormulaViewModel;
@@ -296,7 +278,6 @@
 
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 19
     :cond_7
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2$a;->a:Landroidx/lifecycle/MediatorLiveData;
 
@@ -322,7 +303,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 20
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2$a;->b:Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;
 
     iget-object v0, v0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;->this$0:Lcom/commsource/studio/formula/FormulaViewModel;
@@ -341,7 +321,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 21
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2$a;->b:Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;
 
     iget-object v0, v0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;->this$0:Lcom/commsource/studio/formula/FormulaViewModel;
@@ -352,7 +331,6 @@
 
     if-eqz v0, :cond_8
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2$a;->b:Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;
 
     iget-object v1, v1, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;->this$0:Lcom/commsource/studio/formula/FormulaViewModel;
@@ -369,7 +347,6 @@
 
     invoke-virtual {v1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 23
     :cond_8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -383,7 +360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2$a;->a(Ljava/lang/Boolean;)V

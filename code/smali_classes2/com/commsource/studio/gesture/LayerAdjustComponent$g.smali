@@ -50,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$g;->a:Lcom/commsource/studio/gesture/LayerAdjustComponent;
 
     iget-object v2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$g;->c:[F
@@ -59,7 +58,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c(Lcom/commsource/studio/gesture/LayerAdjustComponent;[FLcom/commsource/studio/bean/FocusLayerInfo;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

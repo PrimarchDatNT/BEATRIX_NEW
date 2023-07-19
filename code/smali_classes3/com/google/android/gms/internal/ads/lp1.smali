@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/kp1;-><init>(Lcom/google/android/gms/internal/ads/rq1;Ljava/lang/Class;Ljava/lang/Object;)V
 
     return-void
@@ -54,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/ads/zzdtu;->i(Ljava/lang/Object;)Z
 
     return-void
@@ -71,10 +69,8 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/ao1;
 
-    .line 2
     invoke-interface {p1, p2}, Lcom/google/android/gms/internal/ads/ao1;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

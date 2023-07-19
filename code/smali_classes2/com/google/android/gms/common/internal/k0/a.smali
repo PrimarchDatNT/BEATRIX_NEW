@@ -47,21 +47,18 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/a$g;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/api/a$g;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/internal/k0/a;->a:Lcom/google/android/gms/common/api/a$g;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/common/internal/k0/c;
 
     invoke-direct {v1}, Lcom/google/android/gms/common/internal/k0/c;-><init>()V
 
     sput-object v1, Lcom/google/android/gms/common/internal/k0/a;->b:Lcom/google/android/gms/common/api/a$a;
 
-    .line 3
     new-instance v2, Lcom/google/android/gms/common/api/a;
 
     const-string v3, "Common.API"
@@ -70,7 +67,6 @@
 
     sput-object v2, Lcom/google/android/gms/common/internal/k0/a;->c:Lcom/google/android/gms/common/api/a;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/common/internal/k0/e;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/internal/k0/e;-><init>()V
@@ -83,7 +79,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

@@ -27,7 +27,6 @@
 .method protected constructor <init>(Lcom/google/android/gms/common/api/internal/k;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/d;->v()Lcom/google/android/gms/common/d;
 
     move-result-object v0
@@ -42,10 +41,8 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;-><init>(Lcom/google/android/gms/common/api/internal/k;)V
 
-    .line 3
     new-instance p1, Ljava/util/concurrent/atomic/AtomicReference;
 
     const/4 v0, 0x0
@@ -54,7 +51,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/c3;->c:Ljava/util/concurrent/atomic/AtomicReference;
 
-    .line 4
     new-instance p1, Lcom/google/android/gms/internal/base/o;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -65,7 +61,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/c3;->d:Landroid/os/Handler;
 
-    .line 5
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/c3;->f:Lcom/google/android/gms/common/d;
 
     return-void
@@ -84,7 +79,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/d3;->b()I
 
@@ -98,7 +92,6 @@
 .method public f(IILandroid/content/Intent;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/c3;->c:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
@@ -119,7 +112,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/c3;->f:Lcom/google/android/gms/common/d;
 
@@ -143,13 +135,11 @@
 
     return-void
 
-    .line 3
     :cond_2
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/d3;->a()Lcom/google/android/gms/common/ConnectionResult;
 
     move-result-object p2
 
-    .line 4
     invoke-virtual {p2}, Lcom/google/android/gms/common/ConnectionResult;->y()I
 
     move-result p2
@@ -178,12 +168,10 @@
 
     const-string p2, "<<ResolutionFailureErrorDetail>>"
 
-    .line 5
     invoke-virtual {p3, p2, p1}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result p1
 
-    .line 6
     :cond_5
     new-instance p2, Lcom/google/android/gms/common/api/internal/d3;
 
@@ -193,14 +181,12 @@
 
     invoke-direct {p3, p1, v1}, Lcom/google/android/gms/common/ConnectionResult;-><init>(ILandroid/app/PendingIntent;)V
 
-    .line 7
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/c3;->m(Lcom/google/android/gms/common/api/internal/d3;)I
 
     move-result p1
 
     invoke-direct {p2, p3, p1}, Lcom/google/android/gms/common/api/internal/d3;-><init>(Lcom/google/android/gms/common/ConnectionResult;I)V
 
-    .line 8
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/c3;->c:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {p1, p2}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
@@ -215,7 +201,6 @@
     :goto_2
     if-eqz v1, :cond_8
 
-    .line 9
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/c3;->q()V
 
     return-void
@@ -223,17 +208,14 @@
     :cond_8
     if-eqz v0, :cond_9
 
-    .line 10
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/d3;->a()Lcom/google/android/gms/common/ConnectionResult;
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/d3;->b()I
 
     move-result p2
 
-    .line 12
     invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/api/internal/c3;->n(Lcom/google/android/gms/common/ConnectionResult;I)V
 
     :cond_9
@@ -243,31 +225,26 @@
 .method public g(Landroid/os/Bundle;)V
     .locals 4
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->g(Landroid/os/Bundle;)V
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/c3;->c:Ljava/util/concurrent/atomic/AtomicReference;
 
     const/4 v1, 0x0
 
     const-string v2, "resolving_error"
 
-    .line 3
     invoke-virtual {p1, v2, v1}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     new-instance v1, Lcom/google/android/gms/common/ConnectionResult;
 
     const-string v2, "failed_status"
 
-    .line 5
     invoke-virtual {p1, v2}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
 
     move-result v2
@@ -286,12 +263,10 @@
 
     const-string v3, "failed_client_id"
 
-    .line 6
     invoke-virtual {p1, v3, v2}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
     move-result p1
 
-    .line 7
     new-instance v2, Lcom/google/android/gms/common/api/internal/d3;
 
     invoke-direct {v2, v1, p1}, Lcom/google/android/gms/common/api/internal/d3;-><init>(Lcom/google/android/gms/common/ConnectionResult;I)V
@@ -301,7 +276,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 8
     :goto_0
     invoke-virtual {v0, v2}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
@@ -312,10 +286,8 @@
 .method public j(Landroid/os/Bundle;)V
     .locals 3
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->j(Landroid/os/Bundle;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/c3;->c:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
@@ -330,10 +302,8 @@
 
     const-string v2, "resolving_error"
 
-    .line 3
     invoke-virtual {p1, v2, v1}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/d3;->b()I
 
     move-result v1
@@ -342,7 +312,6 @@
 
     invoke-virtual {p1, v2, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/d3;->a()Lcom/google/android/gms/common/ConnectionResult;
 
     move-result-object v1
@@ -355,7 +324,6 @@
 
     invoke-virtual {p1, v2, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/d3;->a()Lcom/google/android/gms/common/ConnectionResult;
 
     move-result-object v0
@@ -375,12 +343,10 @@
 .method public k()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->k()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/c3;->b:Z
 
     return-void
@@ -389,12 +355,10 @@
 .method public l()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->l()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/c3;->b:Z
 
     return-void
@@ -406,12 +370,10 @@
 .method public final o(Lcom/google/android/gms/common/ConnectionResult;I)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/internal/d3;
 
     invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/d3;-><init>(Lcom/google/android/gms/common/ConnectionResult;I)V
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/c3;->c:Ljava/util/concurrent/atomic/AtomicReference;
 
     const/4 p2, 0x0
@@ -422,7 +384,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/c3;->d:Landroid/os/Handler;
 
     new-instance p2, Lcom/google/android/gms/common/api/internal/e3;
@@ -438,7 +399,6 @@
 .method public onCancel(Landroid/content/DialogInterface;)V
     .locals 2
 
-    .line 1
     new-instance p1, Lcom/google/android/gms/common/ConnectionResult;
 
     const/16 v0, 0xd
@@ -449,7 +409,6 @@
 
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/c3;->c:Ljava/util/concurrent/atomic/AtomicReference;
 
-    .line 2
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -460,10 +419,8 @@
 
     move-result v0
 
-    .line 3
     invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/common/api/internal/c3;->n(Lcom/google/android/gms/common/ConnectionResult;I)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/c3;->q()V
 
     return-void
@@ -475,14 +432,12 @@
 .method protected final q()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/c3;->c:Ljava/util/concurrent/atomic/AtomicReference;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/c3;->p()V
 
     return-void

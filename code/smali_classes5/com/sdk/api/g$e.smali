@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/api/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/g$e;->a:Lcom/sdk/api/g;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/api/g$e;->a:Lcom/sdk/api/g;
 
     invoke-static {v0}, Lcom/sdk/api/g;->i(Lcom/sdk/api/g;)I

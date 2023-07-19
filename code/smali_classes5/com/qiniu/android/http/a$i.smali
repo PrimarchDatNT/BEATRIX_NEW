@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/qiniu/android/http/a;Lokhttp3/Request$Builder;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/qiniu/android/http/a$i;->b:Lcom/qiniu/android/http/a;
 
     iput-object p2, p0, Lcom/qiniu/android/http/a$i;->a:Lokhttp3/Request$Builder;
@@ -42,7 +41,6 @@
 .method public a(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/http/a$i;->a:Lokhttp3/Request$Builder;
 
     invoke-virtual {p2}, Ljava/lang/Object;->toString()Ljava/lang/String;

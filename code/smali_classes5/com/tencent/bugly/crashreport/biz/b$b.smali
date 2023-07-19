@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -48,7 +46,6 @@
     :cond_0
     const-string p1, "unknown"
 
-    .line 2
     :goto_0
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->b()Ljava/lang/Class;
 
@@ -56,7 +53,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 3
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->b()Ljava/lang/Class;
 
     move-result-object p2
@@ -84,17 +80,14 @@
 
     const-string v0, ">>> %s onCreated <<<"
 
-    .line 4
     invoke-static {v0, p2}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 5
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/info/a;->b()Lcom/tencent/bugly/crashreport/common/info/a;
 
     move-result-object p2
 
     if-eqz p2, :cond_2
 
-    .line 6
     iget-object p2, p2, Lcom/tencent/bugly/crashreport/common/info/a;->D:Ljava/util/List;
 
     const-string v0, "onCreated"
@@ -114,7 +107,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -128,7 +120,6 @@
     :cond_0
     const-string p1, "unknown"
 
-    .line 2
     :goto_0
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->b()Ljava/lang/Class;
 
@@ -136,7 +127,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->b()Ljava/lang/Class;
 
     move-result-object v0
@@ -164,17 +154,14 @@
 
     const-string v1, ">>> %s onDestroyed <<<"
 
-    .line 4
     invoke-static {v1, v0}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 5
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/info/a;->b()Lcom/tencent/bugly/crashreport/common/info/a;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, v0, Lcom/tencent/bugly/crashreport/common/info/a;->D:Ljava/util/List;
 
     const-string v1, "onDestroyed"
@@ -196,7 +183,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -210,7 +196,6 @@
     :cond_0
     move-object v1, v0
 
-    .line 2
     :goto_0
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->b()Ljava/lang/Class;
 
@@ -218,7 +203,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->b()Ljava/lang/Class;
 
     move-result-object v2
@@ -246,10 +230,8 @@
 
     const-string v4, ">>> %s onPaused <<<"
 
-    .line 4
     invoke-static {v4, v2}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 5
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/info/a;->b()Lcom/tencent/bugly/crashreport/common/info/a;
 
     move-result-object v2
@@ -258,7 +240,6 @@
 
     return-void
 
-    .line 6
     :cond_2
     iget-object v4, v2, Lcom/tencent/bugly/crashreport/common/info/a;->D:Ljava/util/List;
 
@@ -270,27 +251,22 @@
 
     invoke-interface {v4, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     invoke-virtual {v2, v3}, Lcom/tencent/bugly/crashreport/common/info/a;->a(Z)V
 
-    .line 8
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
     iput-wide v3, v2, Lcom/tencent/bugly/crashreport/common/info/a;->s:J
 
-    .line 9
     iget-wide v5, v2, Lcom/tencent/bugly/crashreport/common/info/a;->r:J
 
     sub-long v5, v3, v5
 
     iput-wide v5, v2, Lcom/tencent/bugly/crashreport/common/info/a;->t:J
 
-    .line 10
     invoke-static {v3, v4}, Lcom/tencent/bugly/crashreport/biz/b;->c(J)J
 
-    .line 11
     iget-wide v3, v2, Lcom/tencent/bugly/crashreport/common/info/a;->t:J
 
     const-wide/16 v5, 0x0
@@ -299,7 +275,6 @@
 
     if-gez v1, :cond_3
 
-    .line 12
     iput-wide v5, v2, Lcom/tencent/bugly/crashreport/common/info/a;->t:J
 
     :cond_3
@@ -307,12 +282,10 @@
 
     const-string p1, "background"
 
-    .line 13
     iput-object p1, v2, Lcom/tencent/bugly/crashreport/common/info/a;->q:Ljava/lang/String;
 
     return-void
 
-    .line 14
     :cond_4
     iput-object v0, v2, Lcom/tencent/bugly/crashreport/common/info/a;->q:Ljava/lang/String;
 
@@ -324,7 +297,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -338,7 +310,6 @@
     :cond_0
     const-string p1, "unknown"
 
-    .line 2
     :goto_0
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->b()Ljava/lang/Class;
 
@@ -346,7 +317,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->b()Ljava/lang/Class;
 
     move-result-object v0
@@ -374,10 +344,8 @@
 
     const-string v3, ">>> %s onResumed <<<"
 
-    .line 4
     invoke-static {v3, v1}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 5
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/info/a;->b()Lcom/tencent/bugly/crashreport/common/info/a;
 
     move-result-object v1
@@ -386,7 +354,6 @@
 
     return-void
 
-    .line 6
     :cond_2
     iget-object v3, v1, Lcom/tencent/bugly/crashreport/common/info/a;->D:Ljava/util/List;
 
@@ -398,20 +365,16 @@
 
     invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     invoke-virtual {v1, v0}, Lcom/tencent/bugly/crashreport/common/info/a;->a(Z)V
 
-    .line 8
     iput-object p1, v1, Lcom/tencent/bugly/crashreport/common/info/a;->q:Ljava/lang/String;
 
-    .line 9
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
     iput-wide v3, v1, Lcom/tencent/bugly/crashreport/common/info/a;->r:J
 
-    .line 10
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->c()J
 
     move-result-wide v5
@@ -420,7 +383,6 @@
 
     iput-wide v3, v1, Lcom/tencent/bugly/crashreport/common/info/a;->u:J
 
-    .line 11
     iget-wide v3, v1, Lcom/tencent/bugly/crashreport/common/info/a;->r:J
 
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->d()J
@@ -429,7 +391,6 @@
 
     sub-long/2addr v3, v5
 
-    .line 12
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->e()J
 
     move-result-wide v5
@@ -456,10 +417,8 @@
 
     if-lez p1, :cond_5
 
-    .line 13
     invoke-virtual {v1}, Lcom/tencent/bugly/crashreport/common/info/a;->d()V
 
-    .line 14
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->g()I
 
     const/4 p1, 0x2
@@ -468,7 +427,6 @@
 
     const-wide/16 v5, 0x3e8
 
-    .line 15
     div-long/2addr v3, v5
 
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -493,7 +451,6 @@
 
     invoke-static {v1, p1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 16
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->h()I
 
     move-result p1
@@ -508,7 +465,6 @@
 
     if-nez p1, :cond_4
 
-    .line 17
     sget-object p1, Lcom/tencent/bugly/crashreport/biz/b;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->j()Z
@@ -519,18 +475,15 @@
 
     return-void
 
-    .line 18
     :cond_4
     sget-object p1, Lcom/tencent/bugly/crashreport/biz/b;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-virtual {p1, v1, v2, v7, v8}, Lcom/tencent/bugly/crashreport/biz/a;->a(IZJ)V
 
-    .line 19
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 20
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->k()J
 
     move-result-wide v5
@@ -545,24 +498,20 @@
 
     if-lez p1, :cond_5
 
-    .line 21
     invoke-static {v3, v4}, Lcom/tencent/bugly/crashreport/biz/b;->b(J)J
 
     new-array p1, v2, [Ljava/lang/Object;
 
     const-string v1, "add a timer to upload hot start user info"
 
-    .line 22
     invoke-static {v1, p1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 23
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->j()Z
 
     move-result p1
 
     if-eqz p1, :cond_5
 
-    .line 24
     sget-object p1, Lcom/tencent/bugly/crashreport/biz/b;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-static {}, Lcom/tencent/bugly/crashreport/biz/b;->l()J

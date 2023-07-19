@@ -20,7 +20,6 @@
 .method constructor <init>(Lcom/android/billingclient/api/e;ILcom/android/billingclient/api/j;Lcom/android/billingclient/api/h;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput p2, p0, Lcom/android/billingclient/api/y0;->a:I
 
     iput-object p3, p0, Lcom/android/billingclient/api/y0;->b:Lcom/android/billingclient/api/j;
@@ -39,7 +38,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/android/billingclient/api/y0;->a:I
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -62,7 +60,6 @@
 
     invoke-static {v1, v0}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/android/billingclient/api/y0;->b:Lcom/android/billingclient/api/j;
 
     iget-object v1, p0, Lcom/android/billingclient/api/y0;->c:Lcom/android/billingclient/api/h;

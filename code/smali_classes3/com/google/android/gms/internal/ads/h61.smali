@@ -26,10 +26,8 @@
 .method public final a(Z)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/h61;->a:Lcom/google/android/gms/internal/ads/lq;
 
-    .line 2
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     invoke-virtual {p1, v0}, Lcom/google/android/gms/internal/ads/lq;->a(Ljava/lang/Object;)Z

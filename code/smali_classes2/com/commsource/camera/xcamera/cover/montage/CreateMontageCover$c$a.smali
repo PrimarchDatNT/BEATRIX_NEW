@@ -23,7 +23,6 @@
 .method constructor <init>(Lcotlin/jvm/internal/Ref$ObjectRef;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$a;->e:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/delegate/process/m;-><init>(Ljava/lang/String;)V
@@ -42,7 +41,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$a;->e:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iget-object p1, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -51,7 +49,6 @@
 
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

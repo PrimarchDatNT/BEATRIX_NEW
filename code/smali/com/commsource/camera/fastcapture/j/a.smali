@@ -21,13 +21,10 @@
 .method public constructor <init>(ILcom/commsource/camera/fastcapture/SelfiePhotoData;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/commsource/camera/fastcapture/j/a;->a:I
 
-    .line 3
     iput-object p2, p0, Lcom/commsource/camera/fastcapture/j/a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     return-void
@@ -42,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/fastcapture/j/a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -57,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/fastcapture/j/a;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

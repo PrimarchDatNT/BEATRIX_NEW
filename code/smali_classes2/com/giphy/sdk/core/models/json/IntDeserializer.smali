@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,31 +36,26 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->getAsJsonPrimitive()Lcom/google/gson/JsonPrimitive;
 
     move-result-object p2
 
-    .line 3
     invoke-virtual {p2}, Lcom/google/gson/JsonPrimitive;->isString()Z
 
     move-result p3
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
     if-eqz p3, :cond_1
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->getAsString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 6
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p2
@@ -70,7 +64,6 @@
 
     return-object v0
 
-    .line 7
     :cond_0
     invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -82,7 +75,6 @@
 
     return-object p1
 
-    .line 8
     :cond_1
     invoke-virtual {p2}, Lcom/google/gson/JsonPrimitive;->isNumber()Z
 
@@ -90,7 +82,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 9
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->getAsInt()I
 
     move-result p1
@@ -113,7 +104,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcom/giphy/sdk/core/models/json/IntDeserializer;->deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Integer;
 
     move-result-object p1

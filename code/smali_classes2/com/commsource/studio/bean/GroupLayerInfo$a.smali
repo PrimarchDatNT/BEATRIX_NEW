@@ -59,10 +59,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo$a;->a:Ljava/util/HashMap;
 
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
@@ -77,7 +75,6 @@
 
     check-cast p2, Lcotlin/Pair;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo$a;->a:Ljava/util/HashMap;
 
     invoke-virtual {p2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;

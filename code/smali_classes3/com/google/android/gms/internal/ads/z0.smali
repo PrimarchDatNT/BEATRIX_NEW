@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/y0;-><init>(Ljava/lang/String;Ljava/lang/Object;I)V
 
     return-void
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/google/android/gms/internal/ads/z0;
 
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
@@ -69,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/a2;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -78,14 +75,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-super {p0}, Lcom/google/android/gms/internal/ads/y0;->a()Ljava/lang/Object;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 

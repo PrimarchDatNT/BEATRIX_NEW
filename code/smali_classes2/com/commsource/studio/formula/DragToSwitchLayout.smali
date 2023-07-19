@@ -140,10 +140,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     new-instance p1, Lcom/commsource/studio/formula/DragToSwitchLayout$reboundAnim$1;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/formula/DragToSwitchLayout$reboundAnim$1;-><init>(Lcom/commsource/studio/formula/DragToSwitchLayout;)V
@@ -173,7 +171,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/formula/DragToSwitchLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -187,7 +184,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -202,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -217,7 +212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->a:F
 
     const/4 v2, 0x0
@@ -235,13 +229,11 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget-boolean v3, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->c:Z
 
     if-eqz v3, :cond_1
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->d:Lcotlin/jvm/u/l;
 
     if-eqz v3, :cond_1
@@ -270,21 +262,17 @@
     :goto_1
     if-nez v1, :cond_2
 
-    .line 4
     iget-boolean v1, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->c:Z
 
     if-eqz v1, :cond_2
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->b:Lcom/meitu/common/animutil/d;
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/a;->y()V
 
-    .line 6
     :cond_2
     iput-boolean v2, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->c:Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -370,7 +358,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v1
@@ -383,10 +370,8 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 2
     iput v2, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->a:F
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -399,7 +384,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -426,7 +410,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->d:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -449,7 +432,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -486,7 +468,6 @@
 
     const/4 v1, -0x1
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/view/View;->canScrollHorizontally(I)Z
 
     move-result v1
@@ -496,23 +477,19 @@
     :cond_0
     if-lez p2, :cond_2
 
-    .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->canScrollHorizontally(I)Z
 
     move-result v1
 
     if-nez v1, :cond_2
 
-    .line 3
     :cond_1
     iput-boolean v0, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->c:Z
 
     const/4 v0, 0x0
 
-    .line 4
     aput p2, p4, v0
 
-    .line 5
     iget p4, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->a:F
 
     int-to-float p2, p2
@@ -527,10 +504,8 @@
 
     neg-float p2, p4
 
-    .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 7
     :cond_2
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -552,7 +527,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -581,7 +555,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -610,7 +583,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of p1, p2, Landroidx/recyclerview/widget/RecyclerView;
 
     if-eqz p1, :cond_0
@@ -651,10 +623,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/DragToSwitchLayout;->e()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -681,7 +651,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->d:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

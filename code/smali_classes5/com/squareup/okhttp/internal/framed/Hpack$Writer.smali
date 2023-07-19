@@ -22,10 +22,8 @@
 .method constructor <init>(Lokio/Buffer;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/squareup/okhttp/internal/framed/Hpack$Writer;->out:Lokio/Buffer;
 
     return-void
@@ -41,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lokio/ByteString;->size()I
 
     move-result v0
@@ -52,7 +49,6 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/squareup/okhttp/internal/framed/Hpack$Writer;->writeInt(III)V
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Hpack$Writer;->out:Lokio/Buffer;
 
     invoke-virtual {v0, p1}, Lokio/Buffer;->write(Lokio/ByteString;)Lokio/Buffer;
@@ -77,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -89,7 +84,6 @@
     :goto_0
     if-ge v2, v0, :cond_1
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -102,7 +96,6 @@
 
     move-result-object v3
 
-    .line 3
     invoke-static {}, Lcom/squareup/okhttp/internal/framed/Hpack;->access$200()Ljava/util/Map;
 
     move-result-object v4
@@ -115,7 +108,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 4
     invoke-virtual {v4}, Ljava/lang/Integer;->intValue()I
 
     move-result v3
@@ -126,7 +118,6 @@
 
     invoke-virtual {p0, v3, v4, v1}, Lcom/squareup/okhttp/internal/framed/Hpack$Writer;->writeInt(III)V
 
-    .line 5
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -139,16 +130,13 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     iget-object v4, p0, Lcom/squareup/okhttp/internal/framed/Hpack$Writer;->out:Lokio/Buffer;
 
     invoke-virtual {v4, v1}, Lokio/Buffer;->writeByte(I)Lokio/Buffer;
 
-    .line 7
     invoke-virtual {p0, v3}, Lcom/squareup/okhttp/internal/framed/Hpack$Writer;->writeByteString(Lokio/ByteString;)V
 
-    .line 8
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -178,7 +166,6 @@
 
     if-ge p1, p2, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/Hpack$Writer;->out:Lokio/Buffer;
 
     or-int/2addr p1, p3
@@ -187,7 +174,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Hpack$Writer;->out:Lokio/Buffer;
 
@@ -204,7 +190,6 @@
 
     and-int/lit8 p3, p1, 0x7f
 
-    .line 3
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Hpack$Writer;->out:Lokio/Buffer;
 
     or-int/2addr p2, p3
@@ -215,7 +200,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/Hpack$Writer;->out:Lokio/Buffer;
 

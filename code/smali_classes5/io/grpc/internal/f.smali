@@ -130,7 +130,6 @@
 
     invoke-static {}, Lio/grpc/internal/f;->x()V
 
-    .line 1
     const-class v0, Lio/grpc/internal/f;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -143,17 +142,14 @@
 
     sput-object v0, Lio/grpc/internal/f;->t:Ljava/util/logging/Logger;
 
-    .line 2
     sget-object v0, Lio/grpc/internal/GrpcUtil;->H:Lio/grpc/internal/v2$d;
 
-    .line 3
     invoke-static {v0}, Lio/grpc/internal/w2;->c(Lio/grpc/internal/v2$d;)Lio/grpc/internal/w2;
 
     move-result-object v0
 
     sput-object v0, Lio/grpc/internal/f;->u:Lio/grpc/internal/t1;
 
-    .line 4
     new-instance v0, Lio/grpc/internal/f$b;
 
     const/4 v1, 0x0
@@ -162,21 +158,18 @@
 
     sput-object v0, Lio/grpc/internal/f;->v:Lio/grpc/c0;
 
-    .line 5
     invoke-static {}, Lio/grpc/s;->c()Lio/grpc/s;
 
     move-result-object v0
 
     sput-object v0, Lio/grpc/internal/f;->w:Lio/grpc/s;
 
-    .line 6
     invoke-static {}, Lio/grpc/n;->a()Lio/grpc/n;
 
     move-result-object v0
 
     sput-object v0, Lio/grpc/internal/f;->x:Lio/grpc/n;
 
-    .line 7
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x78
@@ -193,63 +186,52 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/j1;-><init>()V
 
-    .line 2
     new-instance v0, Lio/grpc/internal/d1$b;
 
     invoke-direct {v0}, Lio/grpc/internal/d1$b;-><init>()V
 
     iput-object v0, p0, Lio/grpc/internal/f;->a:Lio/grpc/internal/d1$b;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lio/grpc/internal/f;->b:Ljava/util/List;
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lio/grpc/internal/f;->c:Ljava/util/List;
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lio/grpc/internal/f;->d:Ljava/util/List;
 
-    .line 6
     sget-object v0, Lio/grpc/internal/f;->v:Lio/grpc/c0;
 
     iput-object v0, p0, Lio/grpc/internal/f;->e:Lio/grpc/c0;
 
-    .line 7
     sget-object v0, Lio/grpc/internal/f;->u:Lio/grpc/internal/t1;
 
     iput-object v0, p0, Lio/grpc/internal/f;->f:Lio/grpc/internal/t1;
 
-    .line 8
     sget-object v0, Lio/grpc/internal/f;->w:Lio/grpc/s;
 
     iput-object v0, p0, Lio/grpc/internal/f;->g:Lio/grpc/s;
 
-    .line 9
     sget-object v0, Lio/grpc/internal/f;->x:Lio/grpc/n;
 
     iput-object v0, p0, Lio/grpc/internal/f;->h:Lio/grpc/n;
 
-    .line 10
     sget-wide v0, Lio/grpc/internal/f;->y:J
 
     iput-wide v0, p0, Lio/grpc/internal/f;->i:J
 
-    .line 11
     invoke-static {}, Lio/grpc/q;->o()Lio/grpc/q$c;
 
     move-result-object v0
@@ -258,38 +240,30 @@
 
     const/4 v0, 0x1
 
-    .line 12
     iput-boolean v0, p0, Lio/grpc/internal/f;->k:Z
 
-    .line 13
     iput-boolean v0, p0, Lio/grpc/internal/f;->l:Z
 
-    .line 14
     iput-boolean v0, p0, Lio/grpc/internal/f;->m:Z
 
     const/4 v1, 0x0
 
-    .line 15
     iput-boolean v1, p0, Lio/grpc/internal/f;->n:Z
 
-    .line 16
     iput-boolean v0, p0, Lio/grpc/internal/f;->o:Z
 
-    .line 17
     invoke-static {}, Lio/grpc/internal/g3;->a()Lio/grpc/internal/g3$b;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/grpc/internal/f;->q:Lio/grpc/internal/g3$b;
 
-    .line 18
     invoke-static {}, Lio/grpc/InternalChannelz;->v()Lio/grpc/InternalChannelz;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/grpc/internal/f;->r:Lio/grpc/InternalChannelz;
 
-    .line 19
     invoke-static {}, Lio/grpc/internal/r;->a()Lio/grpc/internal/r$b;
 
     move-result-object v0
@@ -302,7 +276,6 @@
 .method static final synthetic K(Lio/grpc/internal/f;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -313,7 +286,6 @@
 .method static final synthetic L(Lio/grpc/internal/f;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -342,7 +314,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Subclass failed to hide static factory"
@@ -355,7 +326,6 @@
 .method private static synthetic x()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lio/grpc/internal/f;
@@ -445,14 +415,12 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     sget-object p1, Lio/grpc/internal/f;->w:Lio/grpc/s;
 
     :goto_0
     iput-object p1, p0, Lio/grpc/internal/f;->g:Lio/grpc/s;
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/f;->U()Lio/grpc/internal/f;
 
     move-result-object p1
@@ -468,7 +436,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/util/concurrent/n0;->d()Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -496,7 +463,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v0, Lio/grpc/internal/m0;
 
     invoke-direct {v0, p1}, Lio/grpc/internal/m0;-><init>(Ljava/lang/Object;)V
@@ -509,7 +475,6 @@
     :goto_0
     iput-object v0, p0, Lio/grpc/internal/f;->f:Lio/grpc/internal/t1;
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/f;->U()Lio/grpc/internal/f;
 
     move-result-object p1
@@ -535,14 +500,12 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     sget-object p1, Lio/grpc/internal/f;->v:Lio/grpc/c0;
 
     :goto_0
     iput-object p1, p0, Lio/grpc/internal/f;->e:Lio/grpc/c0;
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/f;->U()Lio/grpc/internal/f;
 
     move-result-object p1
@@ -553,7 +516,6 @@
 .method protected final E()Lio/grpc/InternalChannelz;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f;->r:Lio/grpc/InternalChannelz;
 
     return-object v0
@@ -571,7 +533,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f;->f:Lio/grpc/internal/t1;
 
     return-object v0
@@ -594,12 +555,10 @@
 
     move-object/from16 v1, p0
 
-    .line 1
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-boolean v0, v1, Lio/grpc/internal/f;->k:Z
 
     const/4 v4, 0x4
@@ -625,14 +584,12 @@
     :try_start_0
     const-string v0, "io.grpc.census.InternalCensusStatsAccessor"
 
-    .line 3
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
 
     new-array v13, v9, [Ljava/lang/Class;
 
-    .line 4
     sget-object v14, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
     aput-object v14, v13, v11
@@ -641,17 +598,14 @@
 
     aput-object v14, v13, v7
 
-    .line 5
     invoke-virtual {v0, v6, v13}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
 
     new-array v13, v9, [Ljava/lang/Object;
 
-    .line 6
     iget-boolean v14, v1, Lio/grpc/internal/f;->l:Z
 
-    .line 7
     invoke-static {v14}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v14
@@ -660,7 +614,6 @@
 
     iget-boolean v14, v1, Lio/grpc/internal/f;->m:Z
 
-    .line 8
     invoke-static {v14}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v14
@@ -669,7 +622,6 @@
 
     iget-boolean v14, v1, Lio/grpc/internal/f;->n:Z
 
-    .line 9
     invoke-static {v14}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v14
@@ -712,7 +664,6 @@
 
     move-result-object v0
 
-    .line 10
     check-cast v0, Lio/grpc/r1$a;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_3
@@ -725,7 +676,6 @@
     :catch_0
     move-exception v0
 
-    .line 11
     sget-object v3, Lio/grpc/internal/f;->t:Ljava/util/logging/Logger;
 
     sget-object v13, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -737,7 +687,6 @@
     :catch_1
     move-exception v0
 
-    .line 12
     sget-object v3, Lio/grpc/internal/f;->t:Ljava/util/logging/Logger;
 
     sget-object v13, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -749,7 +698,6 @@
     :catch_2
     move-exception v0
 
-    .line 13
     sget-object v3, Lio/grpc/internal/f;->t:Ljava/util/logging/Logger;
 
     sget-object v13, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -761,7 +709,6 @@
     :catch_3
     move-exception v0
 
-    .line 14
     sget-object v3, Lio/grpc/internal/f;->t:Ljava/util/logging/Logger;
 
     sget-object v13, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -774,10 +721,8 @@
     :goto_1
     if-eqz v0, :cond_0
 
-    .line 15
     invoke-virtual {v2, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 16
     :cond_0
     iget-boolean v0, v1, Lio/grpc/internal/f;->o:Z
 
@@ -786,21 +731,18 @@
     :try_start_1
     const-string v0, "io.grpc.census.InternalCensusTracingAccessor"
 
-    .line 17
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
 
     new-array v3, v11, [Ljava/lang/Class;
 
-    .line 18
     invoke-virtual {v0, v6, v3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
 
     new-array v3, v11, [Ljava/lang/Object;
 
-    .line 19
     sget-object v6, Lio/grpc/internal/f;->A:Lorg/aspectj/lang/c$b;
 
     invoke-static {v6, v1, v0, v10, v3}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -837,7 +779,6 @@
 
     move-result-object v0
 
-    .line 20
     check-cast v0, Lio/grpc/r1$a;
     :try_end_1
     .catch Ljava/lang/ClassNotFoundException; {:try_start_1 .. :try_end_1} :catch_7
@@ -852,7 +793,6 @@
     :catch_4
     move-exception v0
 
-    .line 21
     sget-object v3, Lio/grpc/internal/f;->t:Ljava/util/logging/Logger;
 
     sget-object v4, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -864,7 +804,6 @@
     :catch_5
     move-exception v0
 
-    .line 22
     sget-object v3, Lio/grpc/internal/f;->t:Ljava/util/logging/Logger;
 
     sget-object v4, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -876,7 +815,6 @@
     :catch_6
     move-exception v0
 
-    .line 23
     sget-object v3, Lio/grpc/internal/f;->t:Ljava/util/logging/Logger;
 
     sget-object v4, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -888,7 +826,6 @@
     :catch_7
     move-exception v0
 
-    .line 24
     sget-object v3, Lio/grpc/internal/f;->t:Ljava/util/logging/Logger;
 
     sget-object v4, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -898,19 +835,15 @@
     :goto_2
     if-eqz v10, :cond_1
 
-    .line 25
     invoke-virtual {v2, v10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 26
     :cond_1
     iget-object v0, v1, Lio/grpc/internal/f;->d:Ljava/util/List;
 
     invoke-virtual {v2, v0}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 27
     invoke-virtual {v2}, Ljava/util/ArrayList;->trimToSize()V
 
-    .line 28
     invoke-static {v2}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
@@ -921,7 +854,6 @@
 .method protected final H()Lio/grpc/internal/g3$b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f;->q:Lio/grpc/internal/g3$b;
 
     return-object v0
@@ -953,12 +885,10 @@
     :goto_0
     const-string v1, "handshake timeout is %s, but must be positive"
 
-    .line 1
     invoke-static {v0, v1, p1, p2}, Lcom/google/common/base/t;->p(ZLjava/lang/String;J)V
 
     const-string v0, "unit"
 
-    .line 2
     invoke-static {p3, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p3
@@ -971,7 +901,6 @@
 
     iput-wide p1, p0, Lio/grpc/internal/f;->i:J
 
-    .line 3
     invoke-direct {p0}, Lio/grpc/internal/f;->U()Lio/grpc/internal/f;
 
     move-result-object p1
@@ -989,7 +918,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f;->c:Ljava/util/List;
 
     const-string v1, "interceptor"
@@ -1000,7 +928,6 @@
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/f;->U()Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1022,10 +949,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/f;->p:Lio/grpc/b;
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/f;->U()Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1038,7 +963,6 @@
 
     const-string v0, "ticker"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -1053,7 +977,6 @@
 .method protected O(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/internal/f;->k:Z
 
     return-void
@@ -1062,7 +985,6 @@
 .method protected P(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/internal/f;->m:Z
 
     return-void
@@ -1071,7 +993,6 @@
 .method protected Q(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/internal/f;->n:Z
 
     return-void
@@ -1080,7 +1001,6 @@
 .method protected R(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/internal/f;->l:Z
 
     return-void
@@ -1089,7 +1009,6 @@
 .method protected S(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/internal/f;->o:Z
 
     return-void
@@ -1108,10 +1027,8 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/f;->q:Lio/grpc/internal/g3$b;
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/f;->U()Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1122,7 +1039,6 @@
 .method public bridge synthetic a(Lio/grpc/c;)Lio/grpc/j1;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/internal/f;->t(Lio/grpc/c;)Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1133,7 +1049,6 @@
 .method public bridge synthetic b(Lio/grpc/q1;)Lio/grpc/j1;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/internal/f;->u(Lio/grpc/q1;)Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1144,7 +1059,6 @@
 .method public bridge synthetic c(Lio/grpc/r1$a;)Lio/grpc/j1;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/internal/f;->v(Lio/grpc/r1$a;)Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1155,7 +1069,6 @@
 .method public bridge synthetic d(Lio/grpc/s1;)Lio/grpc/j1;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/internal/f;->w(Lio/grpc/s1;)Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1166,7 +1079,6 @@
 .method public final e()Lio/grpc/i1;
     .locals 3
 
-    .line 1
     new-instance v0, Lio/grpc/internal/m2;
 
     invoke-virtual {p0}, Lio/grpc/internal/f;->G()Ljava/util/List;
@@ -1191,7 +1103,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/internal/f;->z(Lio/grpc/n;)Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1206,7 +1117,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/internal/f;->A(Lio/grpc/s;)Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1217,7 +1127,6 @@
 .method public bridge synthetic h()Lio/grpc/j1;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/f;->B()Lio/grpc/internal/f;
 
     move-result-object v0
@@ -1232,7 +1141,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/internal/f;->C(Ljava/util/concurrent/Executor;)Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1247,7 +1155,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/internal/f;->D(Lio/grpc/c0;)Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1258,7 +1165,6 @@
 .method public bridge synthetic l(JLjava/util/concurrent/TimeUnit;)Lio/grpc/j1;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lio/grpc/internal/f;->I(JLjava/util/concurrent/TimeUnit;)Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1269,7 +1175,6 @@
 .method public bridge synthetic m(Lio/grpc/m1;)Lio/grpc/j1;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/internal/f;->J(Lio/grpc/m1;)Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1284,7 +1189,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/internal/f;->M(Lio/grpc/b;)Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1304,7 +1208,6 @@
 
     const-string v0, "bindableService"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -1332,7 +1235,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f;->a:Lio/grpc/internal/d1$b;
 
     const-string v1, "service"
@@ -1345,7 +1247,6 @@
 
     invoke-virtual {v0, p1}, Lio/grpc/internal/d1$b;->a(Lio/grpc/q1;)Lio/grpc/internal/d1$b;
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/f;->U()Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1363,7 +1264,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f;->d:Ljava/util/List;
 
     const-string v1, "factory"
@@ -1374,7 +1274,6 @@
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/f;->U()Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1392,7 +1291,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f;->b:Ljava/util/List;
 
     const-string v1, "filter"
@@ -1403,7 +1301,6 @@
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/f;->U()Lio/grpc/internal/f;
 
     move-result-object p1
@@ -1445,14 +1342,12 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     sget-object p1, Lio/grpc/internal/f;->x:Lio/grpc/n;
 
     :goto_0
     iput-object p1, p0, Lio/grpc/internal/f;->h:Lio/grpc/n;
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/f;->U()Lio/grpc/internal/f;
 
     move-result-object p1

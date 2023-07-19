@@ -155,7 +155,6 @@
 
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$2$2;->label:I
 
     if-nez v0, :cond_0
@@ -166,31 +165,26 @@
 
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$2$2;->p$0:[Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$2$2;->this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$2;
 
     iget-object v1, v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$2;->$transform$inlined:Lcotlin/jvm/u/s;
 
     const/4 v0, 0x0
 
-    .line 3
     aget-object v3, p1, v0
 
     const/4 v0, 0x1
 
-    .line 4
     aget-object v4, p1, v0
 
     const/4 v0, 0x2
 
-    .line 5
     aget-object v5, p1, v0
 
     move-object v6, p0
 
     invoke-interface/range {v1 .. v6}, Lcotlin/jvm/u/s;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
@@ -218,31 +212,26 @@
 
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$2$2;->p$0:[Ljava/lang/Object;
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$2$2;->this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$2;
 
     iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$2;->$transform$inlined:Lcotlin/jvm/u/s;
 
     const/4 v2, 0x0
 
-    .line 2
     aget-object v2, p1, v2
 
     const/4 v3, 0x1
 
-    .line 3
     aget-object v3, p1, v3
 
     const/4 v4, 0x2
 
-    .line 4
     aget-object v4, p1, v4
 
     move-object v5, p0
 
     invoke-interface/range {v0 .. v5}, Lcotlin/jvm/u/s;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1

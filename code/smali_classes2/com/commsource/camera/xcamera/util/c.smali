@@ -52,7 +52,6 @@
 
     sput-object v1, Lcom/commsource/camera/xcamera/util/c;->c:Lcom/commsource/camera/xcamera/util/c$a;
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/util/c$b;->b:Lcom/commsource/camera/xcamera/util/c$b;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/util/c$b;->a()Lcom/commsource/camera/xcamera/util/c;
@@ -69,10 +68,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     const/16 v1, 0x20
@@ -87,7 +84,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/util/c;-><init>()V
 
     return-void
@@ -100,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/util/c;->b:Lcom/commsource/camera/xcamera/util/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -126,14 +121,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x10
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getBeautyEntities()Ljava/util/List;
 
     move-result-object v2
@@ -148,7 +141,6 @@
 
     if-eqz v2, :cond_b
 
-    .line 3
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -167,7 +159,6 @@
 
     check-cast v7, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;
 
-    .line 4
     sget-object v8, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->U:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$a;
 
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getBeautyType()I
@@ -193,7 +184,6 @@
 
     if-lez v8, :cond_0
 
-    .line 5
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getBeautyType()I
 
     move-result v8
@@ -218,7 +208,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_0
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -234,7 +223,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_1
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -250,7 +238,6 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_2
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -266,7 +253,6 @@
 
     goto :goto_0
 
-    .line 9
     :pswitch_3
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -282,7 +268,6 @@
 
     goto :goto_0
 
-    .line 10
     :pswitch_4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -308,7 +293,6 @@
 
     goto/16 :goto_0
 
-    .line 11
     :pswitch_5
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getLookMaterial()Lcom/meitu/template/bean/LookMaterial;
 
@@ -336,7 +320,6 @@
 
     if-nez v8, :cond_4
 
-    .line 12
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
     move-result v8
@@ -349,7 +332,6 @@
 
     invoke-interface {v1, v9, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isSimpleBeautyEnable()Z
 
@@ -357,7 +339,6 @@
 
     if-eqz v8, :cond_0
 
-    .line 14
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
     move-result v7
@@ -372,7 +353,6 @@
 
     goto/16 :goto_0
 
-    .line 15
     :pswitch_6
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -388,7 +368,6 @@
 
     goto/16 :goto_0
 
-    .line 16
     :pswitch_7
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -404,7 +383,6 @@
 
     goto/16 :goto_0
 
-    .line 17
     :pswitch_8
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -420,7 +398,6 @@
 
     goto/16 :goto_0
 
-    .line 18
     :pswitch_9
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -436,7 +413,6 @@
 
     goto/16 :goto_0
 
-    .line 19
     :cond_5
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -452,7 +428,6 @@
 
     goto/16 :goto_0
 
-    .line 20
     :cond_6
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -468,7 +443,6 @@
 
     goto/16 :goto_0
 
-    .line 21
     :cond_7
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -484,7 +458,6 @@
 
     goto/16 :goto_0
 
-    .line 22
     :cond_8
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -500,7 +473,6 @@
 
     goto/16 :goto_0
 
-    .line 23
     :cond_9
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -516,7 +488,6 @@
 
     goto/16 :goto_0
 
-    .line 24
     :cond_a
     invoke-virtual {v7}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -532,7 +503,6 @@
 
     goto/16 :goto_0
 
-    .line 25
     :cond_b
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFaceCount()I
 
@@ -546,7 +516,6 @@
 
     if-gtz v2, :cond_10
 
-    .line 26
     sget-object v2, Lcom/commsource/camera/xcamera/util/c;->c:Lcom/commsource/camera/xcamera/util/c$a;
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/xcamera/util/c$a;->c(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Ljava/util/HashMap;
@@ -555,14 +524,12 @@
 
     invoke-virtual {v1, v2}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
-    .line 27
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getLookMaterial()Lcom/meitu/template/bean/LookMaterial;
 
     move-result-object v2
 
     if-eqz v2, :cond_10
 
-    .line 28
     invoke-virtual {v2}, Lcom/meitu/template/bean/LookMaterial;->getStatisticId()Ljava/lang/String;
 
     move-result-object v7
@@ -571,7 +538,6 @@
 
     invoke-interface {v1, v8, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 29
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFaceCount()I
 
     move-result v7
@@ -584,7 +550,6 @@
 
     if-nez v7, :cond_10
 
-    .line 30
     invoke-virtual {v2}, Lcom/meitu/template/bean/LookMaterial;->getSex()I
 
     move-result v7
@@ -613,7 +578,6 @@
 
     invoke-interface {v1, v7, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 31
     invoke-virtual {v2}, Lcom/meitu/template/bean/LookMaterial;->getEffectBean()Lcom/meitu/template/bean/k;
 
     move-result-object v2
@@ -642,7 +606,6 @@
 
     invoke-interface {v1, v7, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 32
     :cond_10
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFaceCount()I
 
@@ -650,7 +613,6 @@
 
     if-lez v2, :cond_11
 
-    .line 33
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -683,7 +645,6 @@
 
     invoke-interface {v1, v7, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 34
     :cond_11
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFilter()Lcom/meitu/template/bean/Filter;
 
@@ -691,7 +652,6 @@
 
     if-eqz v2, :cond_12
 
-    .line 35
     invoke-virtual {v2}, Lcom/meitu/template/bean/Filter;->getFilterStatisticId()Ljava/lang/String;
 
     move-result-object v7
@@ -700,7 +660,6 @@
 
     invoke-interface {v1, v8, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 36
     invoke-virtual {v2}, Lcom/meitu/template/bean/Filter;->getFilterStatisticCategoryId()Ljava/lang/String;
 
     move-result-object v2
@@ -709,7 +668,6 @@
 
     invoke-interface {v1, v7, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 37
     :cond_12
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFaceCount()I
 
@@ -717,7 +675,6 @@
 
     if-lez v2, :cond_17
 
-    .line 38
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isArGiphy()Z
 
     move-result v2
@@ -732,7 +689,6 @@
 
     goto :goto_6
 
-    .line 39
     :cond_13
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getArMaterialId()I
 
@@ -746,7 +702,6 @@
 
     goto :goto_6
 
-    .line 40
     :cond_14
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getArMaterial()Lcom/meitu/template/bean/ArMaterial;
 
@@ -792,7 +747,6 @@
 
     goto :goto_6
 
-    .line 41
     :cond_16
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -814,7 +768,6 @@
 
     invoke-interface {v1, v7, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 42
     :cond_17
     :goto_6
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getExportValue()I
@@ -835,7 +788,6 @@
 
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 43
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isFront()Z
 
     move-result v2
@@ -854,7 +806,6 @@
 
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 44
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFaceCount()I
 
     move-result v2
@@ -867,7 +818,6 @@
 
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 45
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isFastCapture()Z
 
     move-result v2
@@ -886,7 +836,6 @@
 
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 46
     iget v2, p1, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->mTakePictureRatio:I
 
     const-string v4, "\u6bd4\u4f8b"
@@ -902,7 +851,6 @@
     :cond_1b
     const-string v2, "\u5168\u5c4f"
 
-    .line 47
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_a
@@ -910,7 +858,6 @@
     :cond_1c
     const-string v2, "1:1"
 
-    .line 48
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_a
@@ -918,10 +865,8 @@
     :cond_1d
     const-string v2, "4:3"
 
-    .line 49
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 50
     :goto_a
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getDelayMode()I
 
@@ -940,7 +885,6 @@
     :cond_1e
     const-string v2, "\u5ef6\u65f66s"
 
-    .line 51
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_b
@@ -948,7 +892,6 @@
     :cond_1f
     const-string v2, "\u5ef6\u65f63s"
 
-    .line 52
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_b
@@ -956,10 +899,8 @@
     :cond_20
     const-string v2, "\u4e0d\u5ef6\u65f6"
 
-    .line 53
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 54
     :goto_b
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getTakePictureBtn()I
 
@@ -978,7 +919,6 @@
     :cond_21
     const-string v2, "\u89e6\u5c4f\u62cd\u7167"
 
-    .line 55
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_c
@@ -986,7 +926,6 @@
     :cond_22
     const-string v2, "\u97f3\u91cf\u952e\u62cd\u6444"
 
-    .line 56
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_c
@@ -994,10 +933,8 @@
     :cond_23
     const-string v2, "\u70b9\u51fb\u62cd\u7167\u6309\u94ae"
 
-    .line 57
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 58
     :goto_c
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isFront()Z
 
@@ -1005,7 +942,6 @@
 
     if-eqz v2, :cond_25
 
-    .line 59
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isFillLight()Z
 
     move-result p1
@@ -1021,7 +957,6 @@
 
     goto :goto_d
 
-    .line 60
     :cond_25
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFlashMode()Ljava/lang/String;
 
@@ -1047,10 +982,8 @@
     :goto_d
     const-string v2, "\u95ea\u5149\u706f"
 
-    .line 61
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 62
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1088,12 +1021,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -1110,14 +1041,12 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     invoke-virtual {v2, v3}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->a(Lcom/meitu/template/bean/Filter;)Ljava/util/Map;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/h;->n()Lcom/meitu/template/bean/LookMaterial;
 
@@ -1147,7 +1076,6 @@
 
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/h;->m()Z
 
     move-result v2
@@ -1162,7 +1090,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/h;->e()I
 
@@ -1176,7 +1103,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_3
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/h;->d()Lcom/meitu/template/bean/ArMaterial;
 
@@ -1226,7 +1152,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_5
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -1248,7 +1173,6 @@
 
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     :goto_2
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/h;->d()Lcom/meitu/template/bean/ArMaterial;
 
@@ -1272,7 +1196,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1291,7 +1214,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/util/c;->d(ILcom/commsource/camera/fastcapture/SelfiePhotoData;Ljava/util/Map;)V
 
@@ -1331,7 +1253,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
     invoke-interface {v1}, Ljava/util/Map;->isEmpty()Z
@@ -1370,7 +1291,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
@@ -1386,7 +1306,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
@@ -1402,7 +1321,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
@@ -1426,7 +1344,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
@@ -1450,7 +1367,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
@@ -1474,7 +1390,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
@@ -1499,7 +1414,6 @@
     :goto_0
     if-eqz p2, :cond_a
 
-    .line 8
     invoke-virtual {p2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getWaterEntity()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;
 
     move-result-object p1
@@ -1508,7 +1422,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_6
     invoke-virtual {p2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getWaterEntity()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;
 
@@ -1535,7 +1448,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
@@ -1558,7 +1470,6 @@
 
     invoke-interface {p1, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     :goto_1
     invoke-virtual {p2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFaceCount()I
 
@@ -1572,7 +1483,6 @@
 
     if-ltz p1, :cond_a
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {p2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getAiBeautyProgress()I
@@ -1587,7 +1497,6 @@
 
     invoke-interface {p1, v1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     :cond_a
     invoke-interface {p3}, Ljava/util/Map;->isEmpty()Z
 
@@ -1597,12 +1506,10 @@
 
     if-eqz p1, :cond_b
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {p1, p3}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
-    .line 15
     :cond_b
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
@@ -1610,7 +1517,6 @@
 
     invoke-static {p2, p1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 16
     :cond_c
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1632,12 +1538,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/util/c;->b(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Ljava/util/HashMap;
 
     move-result-object v1
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Map;->isEmpty()Z
 
     move-result v2
@@ -1646,22 +1550,18 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2}, Ljava/util/HashMap;->clear()V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/xcamera/util/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
     const-string v2, "selfietakepic"
 
-    .line 5
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 6
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFilterId()I
 
@@ -1677,10 +1577,8 @@
 
     const-string v1, "selfietakepic_noARnofilter"
 
-    .line 7
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 8
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFilterId()I
 
@@ -1694,25 +1592,20 @@
 
     if-nez v1, :cond_2
 
-    .line 9
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
     const-string v1, "0"
 
-    .line 10
     invoke-virtual {p1, v3, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     invoke-virtual {p1, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     invoke-static {v4, p1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_2
 
-    .line 13
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFilterId()I
 
@@ -1720,7 +1613,6 @@
 
     if-lez v1, :cond_5
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFilterId()I
 
     move-result v1
@@ -1742,7 +1634,6 @@
 
     move-result-object v1
 
-    .line 15
     :goto_0
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFilterId()I
 
@@ -1763,22 +1654,17 @@
 
     move-result-object p1
 
-    .line 16
     :goto_1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 17
     invoke-virtual {v5, v3, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 18
     invoke-virtual {v5, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 19
     invoke-static {v4, v5}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 20
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -59,7 +59,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v2
@@ -80,7 +79,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -105,7 +103,6 @@
 
     invoke-static/range {v10 .. v17}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -120,7 +117,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/studio/layer/BaseLayer;->j0(Z)V
 
-    .line 4
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -143,7 +139,6 @@
 
     invoke-static/range {v10 .. v16}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -156,7 +151,6 @@
 
     invoke-static/range {v10 .. v16}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -169,7 +163,6 @@
 
     invoke-static/range {v10 .. v16}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -180,7 +173,6 @@
 
     invoke-virtual {v2}, Lcom/commsource/studio/gesture/LayerSelectComponent;->p()V
 
-    .line 8
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -195,7 +187,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 9
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -208,7 +199,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 10
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -229,7 +219,6 @@
 
     invoke-static/range {v10 .. v16}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 11
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -250,7 +239,6 @@
 
     if-ne v2, v3, :cond_5
 
-    .line 12
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -275,7 +263,6 @@
 
     goto/16 :goto_2
 
-    .line 13
     :cond_0
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -299,7 +286,6 @@
 
     invoke-static/range {v10 .. v16}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 14
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -316,7 +302,6 @@
 
     invoke-virtual {v2, v7}, Lcom/commsource/studio/layer/BaseLayer;->j0(Z)V
 
-    .line 15
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -341,7 +326,6 @@
 
     invoke-static/range {v10 .. v17}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 16
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -392,7 +376,6 @@
 
     invoke-static/range {v10 .. v17}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 17
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -409,7 +392,6 @@
 
     invoke-static/range {v10 .. v17}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 18
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -420,7 +402,6 @@
 
     invoke-virtual {v2}, Lcom/commsource/studio/gesture/LayerSelectComponent;->v()V
 
-    .line 19
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -437,7 +418,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 20
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -450,7 +430,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 21
     :cond_2
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -462,7 +441,6 @@
 
     invoke-static {v10, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 22
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -483,7 +461,6 @@
 
     goto :goto_1
 
-    .line 23
     :cond_3
     sget-object v2, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
@@ -510,10 +487,8 @@
 
     const/16 v16, 0x0
 
-    .line 24
     invoke-static/range {v10 .. v16}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 25
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -524,7 +499,6 @@
 
     invoke-static {v2, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 26
     invoke-virtual {v2}, Landroid/view/View;->getVisibility()I
 
     move-result v2
@@ -536,7 +510,6 @@
     :cond_4
     if-nez v4, :cond_5
 
-    .line 27
     iget-object v2, v0, Lcom/commsource/studio/ImageStudioActivity$d0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -561,7 +534,6 @@
 
     invoke-static/range {v9 .. v16}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 28
     :cond_5
     :goto_2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -576,7 +548,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$d0;->a(Ljava/lang/Boolean;)V

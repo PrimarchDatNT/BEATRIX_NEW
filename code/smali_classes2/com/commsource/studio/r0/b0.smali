@@ -20,12 +20,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/studio/r0/x;-><init>(Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/commsource/studio/r0/x;->z(Z)V
 
     return-void
@@ -38,14 +36,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/r0/b0$a;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/r0/b0$a;-><init>(Lcom/commsource/studio/r0/b0;Ljava/lang/String;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->m(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -62,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/b0;->k:Lcom/commsource/studio/function/t/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -81,12 +76,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/r0/b0;->k:Lcom/commsource/studio/function/t/c;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/function/t/c;->a()Ljava/lang/String;
 
     move-result-object p1
@@ -101,7 +94,6 @@
     :goto_0
     invoke-direct {p0, p1}, Lcom/commsource/studio/r0/b0;->F(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -120,7 +112,6 @@
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v4, v0, Lcom/commsource/studio/r0/b0;->k:Lcom/commsource/studio/function/t/c;
 
     const/4 v5, 0x0
@@ -129,7 +120,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
 
     move-result-object v7
@@ -138,7 +128,6 @@
 
     move-result-object v7
 
-    .line 3
     invoke-virtual {v4}, Lcom/commsource/studio/function/t/c;->f()I
 
     move-result v8
@@ -153,7 +142,6 @@
 
     iput v8, v7, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->faceColorHueAlpha:F
 
-    .line 4
     invoke-virtual {v4}, Lcom/commsource/studio/function/t/c;->c()I
 
     move-result v8
@@ -166,7 +154,6 @@
 
     iput v8, v7, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->faceColorAlpha:F
 
-    .line 5
     invoke-virtual {v4}, Lcom/commsource/studio/function/t/c;->c()I
 
     move-result v4
@@ -183,30 +170,24 @@
     :goto_0
     iput-boolean v4, v7, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->faceColorSwitch:Z
 
-    .line 6
     iput-boolean v6, v7, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->dodgeBurnSwitch:Z
 
     const/high16 v4, 0x3f000000    # 0.5f
 
-    .line 7
     iput v4, v7, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->dodgeBurnAlpha:F
 
-    .line 8
     iput-boolean v6, v7, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->removePouchSwitch:Z
 
     const v4, 0x3e99999a    # 0.3f
 
-    .line 9
     iput v4, v7, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->removePouchAlpha:F
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
 
     move-result-object v4
 
     invoke-virtual {v4}, Lcom/meitu/core/MTRtEffectRender;->flushAnattaParameter()V
 
-    .line 11
     :cond_1
     invoke-virtual {p0, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
 
@@ -216,7 +197,6 @@
 
     if-eqz v4, :cond_2
 
-    .line 12
     invoke-virtual {v4}, Lcom/commsource/camera/d1/g/j;->d()I
 
     move-result v4
@@ -230,7 +210,6 @@
     :cond_2
     const/4 v4, 0x0
 
-    .line 13
     :goto_1
     invoke-virtual {p0, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
 
@@ -242,7 +221,6 @@
 
     if-eqz v7, :cond_4
 
-    .line 14
     invoke-virtual {v7}, Lcom/commsource/camera/d1/g/r;->d()F
 
     move-result v4
@@ -263,7 +241,6 @@
     :cond_4
     if-eqz v4, :cond_5
 
-    .line 15
     invoke-virtual {p0, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v2
@@ -272,7 +249,6 @@
 
     invoke-super {p0, v2}, Lcom/commsource/studio/r0/x;->C(Lcom/commsource/camera/d1/g/j;)V
 
-    .line 16
     invoke-virtual {p0, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
@@ -281,7 +257,6 @@
 
     invoke-super {p0, v1}, Lcom/commsource/studio/r0/x;->E(Lcom/commsource/camera/d1/g/r;)V
 
-    .line 17
     const-class v1, Lcom/commsource/camera/d1/g/k;
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
@@ -292,7 +267,6 @@
 
     invoke-super {p0, v1}, Lcom/commsource/studio/r0/x;->D(Lcom/commsource/camera/d1/g/k;)V
 
-    .line 18
     :cond_5
     invoke-virtual {p0}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
 

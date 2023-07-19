@@ -48,7 +48,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment$j;->a:Lcom/commsource/studio/function/MosaicFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/MosaicFragment;->C1(Lcom/commsource/studio/function/MosaicFragment;)Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
@@ -59,7 +58,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautymain/viewmodel/MosaicViewModel;->e0(Lcom/commsource/beautymain/data/c;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment$j;->a:Lcom/commsource/studio/function/MosaicFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/MosaicFragment;->C1(Lcom/commsource/studio/function/MosaicFragment;)Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
@@ -76,7 +74,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/beautymain/viewmodel/MosaicViewModel;->g0(ILcom/commsource/beautymain/data/c;)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment$j;->a:Lcom/commsource/studio/function/MosaicFragment;
 
@@ -88,7 +85,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/q0;->dismissAllowingStateLoss()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

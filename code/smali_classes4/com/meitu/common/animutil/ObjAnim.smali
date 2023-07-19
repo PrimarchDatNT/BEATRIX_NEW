@@ -101,17 +101,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/common/animutil/a;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/animation/ObjectAnimator;
 
     invoke-direct {v0}, Landroid/animation/ObjectAnimator;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/common/animutil/ObjAnim;->j:Landroid/animation/Animator;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -128,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/common/animutil/ObjAnim;->d()Landroid/animation/Animator;
 
     move-result-object v1
@@ -160,7 +156,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object p0
@@ -179,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object v1
@@ -190,7 +184,6 @@
 
     invoke-virtual {v1, v2}, Landroid/animation/ObjectAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -205,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->l:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -220,7 +212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/common/animutil/ObjAnim;->w:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -247,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->x:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -264,7 +254,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->o:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,7 +270,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->m:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -298,7 +286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->n:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -315,7 +302,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->r:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -332,7 +318,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->p:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -349,7 +334,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->q:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -366,7 +350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->v:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -383,7 +366,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->u:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -400,7 +382,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->s:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -417,7 +398,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->t:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -436,12 +416,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->l:[F
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -458,7 +436,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object p1
@@ -477,7 +454,6 @@
 
     new-array v2, v2, [Landroid/animation/PropertyValuesHolder;
 
-    .line 4
     invoke-interface {v1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -494,12 +470,10 @@
 
     check-cast v1, [Landroid/animation/PropertyValuesHolder;
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/animation/ObjectAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -511,7 +485,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -526,12 +499,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/common/animutil/ObjAnim;->w:Z
 
     if-eqz p1, :cond_0
 
-    .line 2
     new-instance p1, Lcom/meitu/common/animutil/ObjAnim$endGone$1;
 
     invoke-direct {p1, p0}, Lcom/meitu/common/animutil/ObjAnim$endGone$1;-><init>(Lcom/meitu/common/animutil/ObjAnim;)V
@@ -543,10 +514,8 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/meitu/common/animutil/a;->u(Lcotlin/jvm/u/l;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -574,7 +543,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->x:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -593,12 +561,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->o:[F
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -615,7 +581,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -632,7 +597,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object p1
@@ -651,7 +615,6 @@
 
     new-array v2, v2, [Landroid/animation/PropertyValuesHolder;
 
-    .line 5
     invoke-interface {v1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -668,12 +631,10 @@
 
     check-cast v1, [Landroid/animation/PropertyValuesHolder;
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/animation/ObjectAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -685,7 +646,6 @@
 
     throw p1
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -704,12 +664,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->m:[F
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -726,7 +684,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object p1
@@ -745,7 +702,6 @@
 
     new-array v2, v2, [Landroid/animation/PropertyValuesHolder;
 
-    .line 4
     invoke-interface {v1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -762,12 +718,10 @@
 
     check-cast v1, [Landroid/animation/PropertyValuesHolder;
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/animation/ObjectAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -779,7 +733,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -798,12 +751,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->n:[F
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -820,7 +771,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object p1
@@ -839,7 +789,6 @@
 
     new-array v2, v2, [Landroid/animation/PropertyValuesHolder;
 
-    .line 4
     invoke-interface {v1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -856,12 +805,10 @@
 
     check-cast v1, [Landroid/animation/PropertyValuesHolder;
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/animation/ObjectAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -873,7 +820,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -892,12 +838,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->r:[F
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -914,7 +858,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -931,7 +874,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object p1
@@ -950,7 +892,6 @@
 
     new-array v2, v2, [Landroid/animation/PropertyValuesHolder;
 
-    .line 5
     invoke-interface {v1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -967,12 +908,10 @@
 
     check-cast v1, [Landroid/animation/PropertyValuesHolder;
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/animation/ObjectAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -984,7 +923,6 @@
 
     throw p1
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1003,12 +941,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->p:[F
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -1025,7 +961,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object p1
@@ -1044,7 +979,6 @@
 
     new-array v2, v2, [Landroid/animation/PropertyValuesHolder;
 
-    .line 4
     invoke-interface {v1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -1061,12 +995,10 @@
 
     check-cast v1, [Landroid/animation/PropertyValuesHolder;
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/animation/ObjectAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -1078,7 +1010,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1097,12 +1028,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->q:[F
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -1119,7 +1048,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object p1
@@ -1138,7 +1066,6 @@
 
     new-array v2, v2, [Landroid/animation/PropertyValuesHolder;
 
-    .line 4
     invoke-interface {v1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -1155,12 +1082,10 @@
 
     check-cast v1, [Landroid/animation/PropertyValuesHolder;
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/animation/ObjectAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -1172,7 +1097,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1191,26 +1115,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->v:Landroid/view/View;
 
     if-eqz p1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/common/animutil/ObjAnim$target$1$1;
 
     invoke-direct {v1, p1}, Lcom/meitu/common/animutil/ObjAnim$target$1$1;-><init>(Landroid/view/View;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/common/animutil/a;->x(Lcotlin/jvm/u/l;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Landroid/animation/ObjectAnimator;->setTarget(Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1228,12 +1148,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->u:[F
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -1250,7 +1168,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -1267,7 +1184,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object p1
@@ -1286,7 +1202,6 @@
 
     new-array v2, v2, [Landroid/animation/PropertyValuesHolder;
 
-    .line 5
     invoke-interface {v1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -1303,12 +1218,10 @@
 
     check-cast v1, [Landroid/animation/PropertyValuesHolder;
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/animation/ObjectAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -1320,7 +1233,6 @@
 
     throw p1
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1339,12 +1251,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->s:[F
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -1361,7 +1271,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object p1
@@ -1380,7 +1289,6 @@
 
     new-array v2, v2, [Landroid/animation/PropertyValuesHolder;
 
-    .line 4
     invoke-interface {v1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -1397,12 +1305,10 @@
 
     check-cast v1, [Landroid/animation/PropertyValuesHolder;
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/animation/ObjectAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -1414,7 +1320,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1433,12 +1338,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->t:[F
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->k:Ljava/util/HashMap;
 
     array-length v2, p1
@@ -1455,7 +1358,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/common/animutil/ObjAnim;->D()Landroid/animation/ObjectAnimator;
 
     move-result-object p1
@@ -1474,7 +1376,6 @@
 
     new-array v2, v2, [Landroid/animation/PropertyValuesHolder;
 
-    .line 4
     invoke-interface {v1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -1491,12 +1392,10 @@
 
     check-cast v1, [Landroid/animation/PropertyValuesHolder;
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/animation/ObjectAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -1508,7 +1407,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1525,7 +1423,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/ObjAnim;->j:Landroid/animation/Animator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1548,7 +1445,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/ObjAnim;->j:Landroid/animation/Animator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

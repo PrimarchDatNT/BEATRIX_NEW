@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$i;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->A(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;)Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -74,22 +73,18 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     const-string v4, "movie"
 
-    .line 3
     invoke-interface {v1, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-static {v3, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v1, Ljava/util/HashMap;
 
@@ -97,13 +92,10 @@
 
     const-string v4, "shoot"
 
-    .line 6
     invoke-interface {v1, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-static {v3, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 8
     :goto_0
     new-instance v1, Lcom/commsource/util/p2/c;
 
@@ -119,14 +111,12 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 9
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$i$a;
 
     invoke-direct {v2, p1, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$i$a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -140,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$i;->a(Ljava/lang/String;)V

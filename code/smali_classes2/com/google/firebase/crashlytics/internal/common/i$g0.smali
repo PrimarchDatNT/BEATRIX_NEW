@@ -25,10 +25,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$g0;->a:Ljava/lang/String;
 
     return-void
@@ -39,7 +37,6 @@
 .method public accept(Ljava/io/File;Ljava/lang/String;)Z
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -66,7 +63,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$g0;->a:Ljava/lang/String;
 
@@ -78,7 +74,6 @@
 
     const-string p1, ".cls_temp"
 
-    .line 3
     invoke-virtual {p2, p1}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result p1

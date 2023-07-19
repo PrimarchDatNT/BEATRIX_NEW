@@ -25,16 +25,12 @@
     .annotation runtime Lj/a/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/runtime/backends/i;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/datatransport/runtime/backends/i;->b:Lcom/google/android/datatransport/k/y/a;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/datatransport/runtime/backends/i;->c:Lcom/google/android/datatransport/k/y/a;
 
     return-void
@@ -45,7 +41,6 @@
 .method a(Ljava/lang/String;)Lcom/google/android/datatransport/runtime/backends/h;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/i;->a:Landroid/content/Context;
 
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/backends/i;->b:Lcom/google/android/datatransport/k/y/a;

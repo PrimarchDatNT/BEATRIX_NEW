@@ -28,24 +28,20 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance v0, Lcom/meitu/widget/layeredimageview/c;
 
     invoke-direct {v0}, Lcom/meitu/widget/layeredimageview/c;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
-    .line 3
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->d:Landroid/graphics/RectF;
 
-    .line 4
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
@@ -54,7 +50,6 @@
 
     const/4 v0, 0x0
 
-    .line 5
     invoke-direct {p0, p1, v0}, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->h(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -63,31 +58,26 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    .line 6
     invoke-direct {p0, p1, p2}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 7
     new-instance v0, Lcom/meitu/widget/layeredimageview/c;
 
     invoke-direct {v0}, Lcom/meitu/widget/layeredimageview/c;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
-    .line 8
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->d:Landroid/graphics/RectF;
 
-    .line 9
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->f:Landroid/graphics/Matrix;
 
-    .line 10
     invoke-direct {p0, p1, p2}, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->h(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -96,31 +86,26 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 11
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 12
     new-instance p3, Lcom/meitu/widget/layeredimageview/c;
 
     invoke-direct {p3}, Lcom/meitu/widget/layeredimageview/c;-><init>()V
 
     iput-object p3, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
-    .line 13
     new-instance p3, Landroid/graphics/RectF;
 
     invoke-direct {p3}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p3, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->d:Landroid/graphics/RectF;
 
-    .line 14
     new-instance p3, Landroid/graphics/Matrix;
 
     invoke-direct {p3}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p3, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->f:Landroid/graphics/Matrix;
 
-    .line 15
     invoke-direct {p0, p1, p2}, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->h(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -132,31 +117,26 @@
         value = 0x15
     .end annotation
 
-    .line 16
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
-    .line 17
     new-instance p3, Lcom/meitu/widget/layeredimageview/c;
 
     invoke-direct {p3}, Lcom/meitu/widget/layeredimageview/c;-><init>()V
 
     iput-object p3, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
-    .line 18
     new-instance p3, Landroid/graphics/RectF;
 
     invoke-direct {p3}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p3, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->d:Landroid/graphics/RectF;
 
-    .line 19
     new-instance p3, Landroid/graphics/Matrix;
 
     invoke-direct {p3}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p3, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->f:Landroid/graphics/Matrix;
 
-    .line 20
     invoke-direct {p0, p1, p2}, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->h(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -165,7 +145,6 @@
 .method private h(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 1
     new-instance p2, Lcom/meitu/widget/layeredimageview/a;
 
     invoke-direct {p2, p1, p0}, Lcom/meitu/widget/layeredimageview/a;-><init>(Landroid/content/Context;Lcom/meitu/widget/layeredimageview/a$b;)V
@@ -180,7 +159,6 @@
 .method public a(Lcom/meitu/widget/layeredimageview/a;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->a(Lcom/meitu/widget/layeredimageview/a;)V
@@ -191,7 +169,6 @@
 .method public b(Lcom/meitu/widget/layeredimageview/a;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->b(Lcom/meitu/widget/layeredimageview/a;)Z
@@ -204,7 +181,6 @@
 .method public canScrollHorizontally(I)Z
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/ImageView;->canScrollHorizontally(I)Z
 
     move-result v0
@@ -237,7 +213,6 @@
 .method public canScrollVertically(I)Z
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/ImageView;->canScrollVertically(I)Z
 
     move-result v0
@@ -270,7 +245,6 @@
 .method public d(Lcom/meitu/widget/layeredimageview/a;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->d(Lcom/meitu/widget/layeredimageview/a;)Z
@@ -283,12 +257,10 @@
 .method public e(FF)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->getImageBounds()Landroid/graphics/RectF;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, p1, p2}, Landroid/graphics/RectF;->contains(FF)Z
 
     move-result p1
@@ -299,7 +271,6 @@
 .method public f(F)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -328,33 +299,28 @@
 .method public g(FF)Landroid/graphics/PointF;
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->getImageBounds()Landroid/graphics/RectF;
 
     move-result-object v0
 
-    .line 2
     iget v1, v0, Landroid/graphics/RectF;->left:F
 
     invoke-static {v1, v1}, Ljava/lang/Math;->max(FF)F
 
     move-result v1
 
-    .line 3
     iget v2, v0, Landroid/graphics/RectF;->right:F
 
     invoke-static {v2, v2}, Ljava/lang/Math;->min(FF)F
 
     move-result v2
 
-    .line 4
     iget v3, v0, Landroid/graphics/RectF;->top:F
 
     invoke-static {v3, v3}, Ljava/lang/Math;->max(FF)F
 
     move-result v3
 
-    .line 5
     iget v0, v0, Landroid/graphics/RectF;->bottom:F
 
     invoke-static {v0, v0}, Ljava/lang/Math;->min(FF)F
@@ -393,7 +359,6 @@
 
     move p2, v0
 
-    .line 6
     :cond_3
     :goto_1
     new-instance v0, Landroid/graphics/PointF;
@@ -406,7 +371,6 @@
 .method public getCenterX()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getWidth()I
 
     move-result v0
@@ -419,7 +383,6 @@
 .method public getCenterY()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getHeight()I
 
     move-result v0
@@ -432,7 +395,6 @@
 .method public getCurrentScale()F
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getImageMatrix()Landroid/graphics/Matrix;
 
     move-result-object v0
@@ -441,17 +403,14 @@
 
     new-array v1, v1, [F
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/graphics/Matrix;->getValues([F)V
 
     const/4 v0, 0x0
 
-    .line 3
     aget v0, v1, v0
 
     const/4 v2, 0x4
 
-    .line 4
     aget v1, v1, v2
 
     add-float/2addr v0, v1
@@ -468,7 +427,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->b:Lcom/meitu/widget/layeredimageview/a;
 
     return-object v0
@@ -479,19 +437,16 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     instance-of v1, v0, Landroid/graphics/drawable/BitmapDrawable;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast v0, Landroid/graphics/drawable/BitmapDrawable;
 
     invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
@@ -509,12 +464,10 @@
 .method public getImageBounds()Landroid/graphics/RectF;
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getImageMatrix()Landroid/graphics/Matrix;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->d:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->getImageWidth()I
@@ -533,12 +486,10 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->d:Landroid/graphics/RectF;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 4
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->d:Landroid/graphics/RectF;
 
     return-object v0
@@ -547,14 +498,12 @@
 .method public getImageHeight()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     move-result v0
@@ -572,17 +521,14 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getImageMatrix()Landroid/graphics/Matrix;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->f:Landroid/graphics/Matrix;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Matrix;->invert(Landroid/graphics/Matrix;)Z
 
-    .line 3
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->f:Landroid/graphics/Matrix;
 
     return-object v0
@@ -591,14 +537,12 @@
 .method public getImageWidth()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     move-result v0
@@ -616,7 +560,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     return-object v0
@@ -625,7 +568,6 @@
 .method public i()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->c:Z
 
     return v0
@@ -634,7 +576,6 @@
 .method public onCancel(Landroid/graphics/PointF;Landroid/view/MotionEvent;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1, p2}, Lcom/meitu/widget/layeredimageview/c;->onCancel(Landroid/graphics/PointF;Landroid/view/MotionEvent;)V
@@ -645,7 +586,6 @@
 .method public onDoubleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/meitu/widget/layeredimageview/c;->onDoubleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
@@ -658,7 +598,6 @@
 .method public onDown(Landroid/view/MotionEvent;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->onDown(Landroid/view/MotionEvent;)Z
@@ -671,15 +610,12 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/ImageView;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->c(Landroid/graphics/Canvas;)V
 
     :cond_0
@@ -689,7 +625,6 @@
 .method public onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/c;->onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -702,7 +637,6 @@
 .method public onFlingFromBottomToTop(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/c;->onFlingFromBottomToTop(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -715,7 +649,6 @@
 .method public onFlingFromLeftToRight(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/c;->onFlingFromLeftToRight(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -728,7 +661,6 @@
 .method public onFlingFromRightToLeft(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/c;->onFlingFromRightToLeft(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -741,7 +673,6 @@
 .method public onFlingFromTopToBottom(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/c;->onFlingFromTopToBottom(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -754,7 +685,6 @@
 .method public onLongPress(Landroid/view/MotionEvent;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->onLongPress(Landroid/view/MotionEvent;)V
@@ -765,7 +695,6 @@
 .method public onLongPressUp(Landroid/view/MotionEvent;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->onLongPressUp(Landroid/view/MotionEvent;)Z
@@ -778,7 +707,6 @@
 .method public onMajorFingerDown(Landroid/view/MotionEvent;)Z
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v0
@@ -793,7 +721,6 @@
 
     iput-boolean v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->c:Z
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->onMajorFingerDown(Landroid/view/MotionEvent;)Z
@@ -806,7 +733,6 @@
 .method public onMajorFingerUp(Landroid/view/MotionEvent;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->onMajorFingerUp(Landroid/view/MotionEvent;)Z
@@ -819,7 +745,6 @@
 .method public onMajorScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/c;->onMajorScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -832,15 +757,12 @@
 .method protected onMeasure(II)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/widget/ImageView;->onMeasure(II)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0, p1, p2}, Lcom/meitu/widget/layeredimageview/c;->onMeasure(II)V
 
     :cond_0
@@ -850,7 +772,6 @@
 .method public onMinorFingerDown(Landroid/view/MotionEvent;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->onMinorFingerDown(Landroid/view/MotionEvent;)Z
@@ -863,7 +784,6 @@
 .method public onMinorFingerUp(Landroid/view/MotionEvent;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->onMinorFingerUp(Landroid/view/MotionEvent;)Z
@@ -876,7 +796,6 @@
 .method public onScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/c;->onScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -889,7 +808,6 @@
 .method public onShowPress(Landroid/view/MotionEvent;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->onShowPress(Landroid/view/MotionEvent;)V
@@ -900,7 +818,6 @@
 .method public onSingleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1, p2}, Lcom/meitu/widget/layeredimageview/c;->onSingleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)V
@@ -911,15 +828,12 @@
 .method protected onSizeChanged(IIII)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/ImageView;->onSizeChanged(IIII)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/c;->onSizeChanged(IIII)V
 
     :cond_0
@@ -929,7 +843,6 @@
 .method public onTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v0, p1, p2}, Lcom/meitu/widget/layeredimageview/c;->onTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
@@ -942,7 +855,6 @@
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->b:Lcom/meitu/widget/layeredimageview/a;
 
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/a;->F(Landroid/view/MotionEvent;)Z
@@ -955,15 +867,12 @@
 .method public setImageBitmap(Landroid/graphics/Bitmap;)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     :cond_0
@@ -973,15 +882,12 @@
 .method public setImageDrawable(Landroid/graphics/drawable/Drawable;)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :cond_0
@@ -991,15 +897,12 @@
 .method public setImageMatrix(Landroid/graphics/Matrix;)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/ImageView;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->a:Lcom/meitu/widget/layeredimageview/c;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/meitu/widget/layeredimageview/c;->setImageMatrix(Landroid/graphics/Matrix;)V
 
     :cond_0

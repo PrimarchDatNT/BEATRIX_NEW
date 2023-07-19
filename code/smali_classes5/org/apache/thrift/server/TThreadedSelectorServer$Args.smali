@@ -48,40 +48,32 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TNonblockingServerTransport;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractNonblockingServerArgs;-><init>(Lorg/apache/thrift/transport/TNonblockingServerTransport;)V
 
     const/4 p1, 0x2
 
-    .line 2
     iput p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->selectorThreads:I
 
     const/4 p1, 0x5
 
-    .line 3
     iput p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->workerThreads:I
 
     const/16 p1, 0x3c
 
-    .line 4
     iput p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->stopTimeoutVal:I
 
-    .line 5
     sget-object p1, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     iput-object p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->stopTimeoutUnit:Ljava/util/concurrent/TimeUnit;
 
     const/4 p1, 0x0
 
-    .line 6
     iput-object p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->executorService:Ljava/util/concurrent/ExecutorService;
 
     const/4 p1, 0x4
 
-    .line 7
     iput p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->acceptQueueSizePerThread:I
 
-    .line 8
     sget-object p1, Lorg/apache/thrift/server/TThreadedSelectorServer$Args$AcceptPolicy;->FAST_ACCEPT:Lorg/apache/thrift/server/TThreadedSelectorServer$Args$AcceptPolicy;
 
     iput-object p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->acceptPolicy:Lorg/apache/thrift/server/TThreadedSelectorServer$Args$AcceptPolicy;
@@ -92,7 +84,6 @@
 .method static synthetic access$000(Lorg/apache/thrift/server/TThreadedSelectorServer$Args;)Ljava/util/concurrent/ExecutorService;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->executorService:Ljava/util/concurrent/ExecutorService;
 
     return-object p0
@@ -101,7 +92,6 @@
 .method static synthetic access$100(Lorg/apache/thrift/server/TThreadedSelectorServer$Args;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->acceptQueueSizePerThread:I
 
     return p0
@@ -110,7 +100,6 @@
 .method static synthetic access$200(Lorg/apache/thrift/server/TThreadedSelectorServer$Args;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->stopTimeoutVal:I
 
     return p0
@@ -119,7 +108,6 @@
 .method static synthetic access$300(Lorg/apache/thrift/server/TThreadedSelectorServer$Args;)Ljava/util/concurrent/TimeUnit;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->stopTimeoutUnit:Ljava/util/concurrent/TimeUnit;
 
     return-object p0
@@ -128,7 +116,6 @@
 .method static synthetic access$400(Lorg/apache/thrift/server/TThreadedSelectorServer$Args;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->workerThreads:I
 
     return p0
@@ -137,7 +124,6 @@
 .method static synthetic access$700(Lorg/apache/thrift/server/TThreadedSelectorServer$Args;)Lorg/apache/thrift/server/TThreadedSelectorServer$Args$AcceptPolicy;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->acceptPolicy:Lorg/apache/thrift/server/TThreadedSelectorServer$Args$AcceptPolicy;
 
     return-object p0
@@ -148,7 +134,6 @@
 .method public acceptPolicy(Lorg/apache/thrift/server/TThreadedSelectorServer$Args$AcceptPolicy;)Lorg/apache/thrift/server/TThreadedSelectorServer$Args;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->acceptPolicy:Lorg/apache/thrift/server/TThreadedSelectorServer$Args$AcceptPolicy;
 
     return-object p0
@@ -157,7 +142,6 @@
 .method public acceptQueueSizePerThread(I)Lorg/apache/thrift/server/TThreadedSelectorServer$Args;
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->acceptQueueSizePerThread:I
 
     return-object p0
@@ -166,7 +150,6 @@
 .method public executorService(Ljava/util/concurrent/ExecutorService;)Lorg/apache/thrift/server/TThreadedSelectorServer$Args;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->executorService:Ljava/util/concurrent/ExecutorService;
 
     return-object p0
@@ -175,7 +158,6 @@
 .method public getAcceptPolicy()Lorg/apache/thrift/server/TThreadedSelectorServer$Args$AcceptPolicy;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->acceptPolicy:Lorg/apache/thrift/server/TThreadedSelectorServer$Args$AcceptPolicy;
 
     return-object v0
@@ -184,7 +166,6 @@
 .method public getAcceptQueueSizePerThread()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->acceptQueueSizePerThread:I
 
     return v0
@@ -193,7 +174,6 @@
 .method public getExecutorService()Ljava/util/concurrent/ExecutorService;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->executorService:Ljava/util/concurrent/ExecutorService;
 
     return-object v0
@@ -202,7 +182,6 @@
 .method public getSelectorThreads()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->selectorThreads:I
 
     return v0
@@ -211,7 +190,6 @@
 .method public getStopTimeoutUnit()Ljava/util/concurrent/TimeUnit;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->stopTimeoutUnit:Ljava/util/concurrent/TimeUnit;
 
     return-object v0
@@ -220,7 +198,6 @@
 .method public getStopTimeoutVal()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->stopTimeoutVal:I
 
     return v0
@@ -229,7 +206,6 @@
 .method public getWorkerThreads()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->workerThreads:I
 
     return v0
@@ -238,7 +214,6 @@
 .method public selectorThreads(I)Lorg/apache/thrift/server/TThreadedSelectorServer$Args;
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->selectorThreads:I
 
     return-object p0
@@ -247,7 +222,6 @@
 .method public stopTimeoutUnit(Ljava/util/concurrent/TimeUnit;)Lorg/apache/thrift/server/TThreadedSelectorServer$Args;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->stopTimeoutUnit:Ljava/util/concurrent/TimeUnit;
 
     return-object p0
@@ -256,7 +230,6 @@
 .method public stopTimeoutVal(I)Lorg/apache/thrift/server/TThreadedSelectorServer$Args;
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->stopTimeoutVal:I
 
     return-object p0
@@ -265,24 +238,20 @@
 .method public validate()V
     .locals 2
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->selectorThreads:I
 
     if-lez v0, :cond_2
 
-    .line 2
     iget v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->workerThreads:I
 
     if-ltz v0, :cond_1
 
-    .line 3
     iget v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->acceptQueueSizePerThread:I
 
     if-lez v0, :cond_0
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -292,7 +261,6 @@
 
     throw v0
 
-    .line 5
     :cond_1
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -302,7 +270,6 @@
 
     throw v0
 
-    .line 6
     :cond_2
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -316,7 +283,6 @@
 .method public workerThreads(I)Lorg/apache/thrift/server/TThreadedSelectorServer$Args;
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$Args;->workerThreads:I
 
     return-object p0

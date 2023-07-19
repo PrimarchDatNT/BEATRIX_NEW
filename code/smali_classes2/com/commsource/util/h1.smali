@@ -75,7 +75,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/util/h1;->a:Ljava/util/HashMap;
@@ -92,7 +91,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 1
     new-instance p1, Ljava/util/HashMap;
 
     const/16 p4, 0x20
@@ -106,7 +104,6 @@
 
     const/4 p2, 0x0
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2}, Lcom/commsource/util/h1;-><init>(Ljava/util/HashMap;Z)V
 
@@ -126,7 +123,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1, p0}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
     return-void
@@ -143,7 +139,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/util/h1;->b:Z
 
     invoke-static {p1, v0, p0}, Lcom/commsource/util/l0;->s0(Landroidx/recyclerview/widget/RecyclerView;ZLcom/commsource/util/common/b;)V
@@ -154,7 +149,6 @@
 .method public final h()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/h1;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
@@ -177,7 +171,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/h1;->a:Ljava/util/HashMap;
 
     return-object v0
@@ -191,7 +184,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/h1;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -223,7 +215,6 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/util/h1;->a:Ljava/util/HashMap;
 
     const/4 v1, 0x1
@@ -246,7 +237,6 @@
 .method public final k()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/util/h1;->b:Z
 
     return v0
@@ -258,7 +248,6 @@
 .method public final m(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/util/h1;->b:Z
 
     return-void
@@ -284,7 +273,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/h1;->a:Ljava/util/HashMap;
 
     return-void
@@ -301,10 +289,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/util/h1;->l()Z
 
     move-result p2
@@ -313,7 +299,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-boolean p2, p0, Lcom/commsource/util/h1;->b:Z
 
@@ -333,10 +318,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/util/h1;->l()Z
 
     move-result p2
@@ -345,7 +328,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-boolean p2, p0, Lcom/commsource/util/h1;->b:Z
 

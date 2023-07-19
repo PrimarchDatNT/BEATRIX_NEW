@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/google/common/collect/Multimaps$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Multimaps$e$a;->a:Lcom/google/common/collect/Multimaps$e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -50,7 +49,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p2, Ljava/util/Collection;
 
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/Multimaps$e$a;->b(Ljava/lang/Object;Ljava/util/Collection;)Ljava/util/Collection;
@@ -72,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e$a;->a:Lcom/google/common/collect/Multimaps$e;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/common/collect/Multimaps$e;->a(Ljava/lang/Object;Ljava/util/Collection;)Ljava/util/Collection;

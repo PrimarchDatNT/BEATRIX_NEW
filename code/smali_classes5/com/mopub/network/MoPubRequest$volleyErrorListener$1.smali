@@ -38,14 +38,12 @@
 .method public final onErrorResponse(Lcom/mopub/volley/VolleyError;)V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/network/MoPubNetworkError;->Companion:Lcom/mopub/network/MoPubNetworkError$Companion;
 
     invoke-virtual {v0, p1}, Lcom/mopub/network/MoPubNetworkError$Companion;->volleyErrorToMoPubNetworkError$mopub_sdk_networking_release(Lcom/mopub/volley/VolleyError;)Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest$volleyErrorListener$1;->this$0:Lcom/mopub/network/MoPubRequest;
 
     invoke-virtual {v0}, Lcom/mopub/network/MoPubRequest;->getMoPubListener()Lcom/mopub/network/MoPubResponse$Listener;

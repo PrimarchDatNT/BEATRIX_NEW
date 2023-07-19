@@ -100,7 +100,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/InternalChannelz;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -113,7 +112,6 @@
 
     sput-object v0, Lio/grpc/InternalChannelz;->f:Ljava/util/logging/Logger;
 
-    .line 2
     new-instance v0, Lio/grpc/InternalChannelz;
 
     invoke-direct {v0}, Lio/grpc/InternalChannelz;-><init>()V
@@ -128,38 +126,32 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentSkipListMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentSkipListMap;-><init>()V
 
     iput-object v0, p0, Lio/grpc/InternalChannelz;->a:Ljava/util/concurrent/ConcurrentNavigableMap;
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/ConcurrentSkipListMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentSkipListMap;-><init>()V
 
     iput-object v0, p0, Lio/grpc/InternalChannelz;->b:Ljava/util/concurrent/ConcurrentNavigableMap;
 
-    .line 4
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
     iput-object v0, p0, Lio/grpc/InternalChannelz;->c:Ljava/util/concurrent/ConcurrentMap;
 
-    .line 5
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
     iput-object v0, p0, Lio/grpc/InternalChannelz;->d:Ljava/util/concurrent/ConcurrentMap;
 
-    .line 6
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
@@ -172,7 +164,6 @@
 .method static synthetic a()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/InternalChannelz;->f:Ljava/util/logging/Logger;
 
     return-object v0
@@ -191,7 +182,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lio/grpc/r0;->d()Lio/grpc/j0;
 
     move-result-object v0
@@ -228,7 +218,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/j0;->e()J
 
     move-result-wide v0
@@ -255,7 +244,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->e:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0}, Ljava/util/concurrent/ConcurrentMap;->values()Ljava/util/Collection;
@@ -279,7 +267,6 @@
 
     check-cast v1, Lio/grpc/InternalChannelz$ServerSocketMap;
 
-    .line 2
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v2
@@ -303,7 +290,6 @@
 .method public static u(Lio/grpc/r0;)J
     .locals 2
 
-    .line 1
     invoke-interface {p0}, Lio/grpc/r0;->d()Lio/grpc/j0;
 
     move-result-object p0
@@ -318,7 +304,6 @@
 .method public static v()Lio/grpc/InternalChannelz;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/InternalChannelz;->g:Lio/grpc/InternalChannelz;
 
     return-object v0
@@ -337,7 +322,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/grpc/InternalChannelz;->u(Lio/grpc/r0;)J
 
     move-result-wide v0
@@ -368,12 +352,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->a:Ljava/util/concurrent/ConcurrentNavigableMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->w(Ljava/util/Map;Lio/grpc/i0;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/InternalChannelz;->e:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {p1}, Lio/grpc/InternalChannelz;->u(Lio/grpc/r0;)J
@@ -407,7 +389,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->e:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {p1}, Lio/grpc/InternalChannelz;->u(Lio/grpc/r0;)J
@@ -424,7 +405,6 @@
 
     check-cast p1, Lio/grpc/InternalChannelz$ServerSocketMap;
 
-    .line 2
     invoke-static {p1, p2}, Lio/grpc/InternalChannelz;->w(Ljava/util/Map;Lio/grpc/i0;)V
 
     return-void
@@ -441,7 +421,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->c:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->w(Ljava/util/Map;Lio/grpc/i0;)V
@@ -460,7 +439,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->d:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->b(Ljava/util/Map;Lio/grpc/i0;)V
@@ -479,7 +457,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->d:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->b(Ljava/util/Map;Lio/grpc/i0;)V
@@ -498,7 +475,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->b:Ljava/util/concurrent/ConcurrentNavigableMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->b(Ljava/util/Map;Lio/grpc/i0;)V
@@ -517,7 +493,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->e:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {p1}, Lio/grpc/InternalChannelz;->u(Lio/grpc/r0;)J
@@ -540,7 +515,6 @@
 
     check-cast v0, Lio/grpc/InternalChannelz$ServerSocketMap;
 
-    .line 2
     iget-object v0, p0, Lio/grpc/InternalChannelz;->a:Ljava/util/concurrent/ConcurrentNavigableMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->b(Ljava/util/Map;Lio/grpc/i0;)V
@@ -562,7 +536,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->e:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {p1}, Lio/grpc/InternalChannelz;->u(Lio/grpc/r0;)J
@@ -579,7 +552,6 @@
 
     check-cast p1, Lio/grpc/InternalChannelz$ServerSocketMap;
 
-    .line 2
     invoke-static {p1, p2}, Lio/grpc/InternalChannelz;->b(Ljava/util/Map;Lio/grpc/i0;)V
 
     return-void
@@ -596,7 +568,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->c:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->b(Ljava/util/Map;Lio/grpc/i0;)V
@@ -609,7 +580,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->d:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->i(Ljava/util/Map;Lio/grpc/j0;)Z
@@ -624,7 +594,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->a:Ljava/util/concurrent/ConcurrentNavigableMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->i(Ljava/util/Map;Lio/grpc/j0;)Z
@@ -639,7 +608,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->c:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->i(Ljava/util/Map;Lio/grpc/j0;)Z
@@ -663,7 +631,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->b:Ljava/util/concurrent/ConcurrentNavigableMap;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -690,7 +657,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->b:Ljava/util/concurrent/ConcurrentNavigableMap;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -709,15 +675,12 @@
 .method public o(JI)Lio/grpc/InternalChannelz$d;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lio/grpc/InternalChannelz;->b:Ljava/util/concurrent/ConcurrentNavigableMap;
 
-    .line 3
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -734,7 +697,6 @@
 
     move-result-object p1
 
-    .line 4
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -748,7 +710,6 @@
 
     if-ge p2, p3, :cond_0
 
-    .line 5
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object p2
@@ -757,7 +718,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p2, Lio/grpc/InternalChannelz$d;
 
@@ -777,7 +737,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->e:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -796,13 +755,11 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-direct {p2, p5}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     invoke-static {p3, p4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p3
@@ -819,7 +776,6 @@
 
     move-result-object p1
 
-    .line 4
     :goto_0
     invoke-interface {p2}, Ljava/util/List;->size()I
 
@@ -833,7 +789,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 5
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object p3
@@ -842,7 +797,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance p3, Lio/grpc/InternalChannelz$g;
 
@@ -860,15 +814,12 @@
 .method public r(JI)Lio/grpc/InternalChannelz$f;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p3}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     iget-object v1, p0, Lio/grpc/InternalChannelz;->a:Ljava/util/concurrent/ConcurrentNavigableMap;
 
-    .line 3
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -885,7 +836,6 @@
 
     move-result-object p1
 
-    .line 4
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -899,7 +849,6 @@
 
     if-ge p2, p3, :cond_0
 
-    .line 5
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object p2
@@ -908,7 +857,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p2, Lio/grpc/InternalChannelz$f;
 
@@ -937,7 +885,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->d:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -954,7 +901,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1, p2}, Lio/grpc/InternalChannelz;->p(J)Lio/grpc/i0;
 
@@ -977,7 +923,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->c:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -1004,7 +949,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->d:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->w(Ljava/util/Map;Lio/grpc/i0;)V
@@ -1023,7 +967,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->d:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->w(Ljava/util/Map;Lio/grpc/i0;)V
@@ -1042,7 +985,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz;->b:Ljava/util/concurrent/ConcurrentNavigableMap;
 
     invoke-static {v0, p1}, Lio/grpc/InternalChannelz;->w(Ljava/util/Map;Lio/grpc/i0;)V

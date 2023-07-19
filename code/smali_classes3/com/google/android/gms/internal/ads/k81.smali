@@ -36,14 +36,12 @@
 .method public final b(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Landroid/os/Bundle;
 
     const-string v0, "native_version"
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     return-void

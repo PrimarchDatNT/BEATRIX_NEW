@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/f1$c;->a:Lcom/commsource/widget/f1;
 
     iput-object p2, p0, Lcom/commsource/widget/f1$c;->b:Lcotlin/jvm/u/a;
@@ -59,10 +58,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/f1$c;->a:Lcom/commsource/widget/f1;
 
     invoke-static {p1}, Lcom/commsource/widget/f1;->a(Lcom/commsource/widget/f1;)Ljava/lang/Runnable;
@@ -71,7 +68,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/f1$c;->a:Lcom/commsource/widget/f1;
 
     invoke-static {p1}, Lcom/commsource/widget/f1;->a(Lcom/commsource/widget/f1;)Ljava/lang/Runnable;
@@ -85,7 +81,6 @@
     :cond_0
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/widget/f1$c;->b:Lcotlin/jvm/u/a;
 
@@ -97,7 +92,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -17,7 +17,6 @@
 
     new-array v0, v0, [B
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lorg/apache/thrift/protocol/TBase64Utils;->DECODE_TABLE:[B
@@ -288,7 +287,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -297,7 +295,6 @@
 .method static final decode([BII[BI)V
     .locals 6
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/protocol/TBase64Utils;->DECODE_TABLE:[B
 
     aget-byte v1, p0, p1
@@ -330,7 +327,6 @@
 
     add-int/lit8 v1, p4, 0x1
 
-    .line 2
     aget-byte v3, p0, v3
 
     and-int/lit16 v3, v3, 0xff
@@ -363,7 +359,6 @@
 
     add-int/2addr p4, v2
 
-    .line 3
     aget-byte p2, p0, v4
 
     and-int/lit16 p2, p2, 0xff
@@ -395,7 +390,6 @@
 .method static final encode([BII[BI)V
     .locals 6
 
-    .line 1
     aget-byte v0, p0, p1
 
     const/4 v1, 0x2
@@ -420,7 +414,6 @@
 
     add-int/lit8 p2, p4, 0x1
 
-    .line 2
     aget-byte v3, p0, p1
 
     shl-int/lit8 v3, v3, 0x4
@@ -437,7 +430,6 @@
 
     or-int/2addr v3, v5
 
-    .line 3
     invoke-virtual {v2, v3}, Ljava/lang/String;->charAt(I)C
 
     move-result v3
@@ -448,7 +440,6 @@
 
     add-int/lit8 p2, p4, 0x2
 
-    .line 4
     aget-byte v3, p0, v4
 
     shl-int/2addr v3, v1
@@ -465,7 +456,6 @@
 
     or-int/2addr v1, v3
 
-    .line 5
     invoke-virtual {v2, v1}, Ljava/lang/String;->charAt(I)C
 
     move-result v1
@@ -476,12 +466,10 @@
 
     add-int/2addr p4, v0
 
-    .line 6
     aget-byte p0, p0, p1
 
     and-int/lit8 p0, p0, 0x3f
 
-    .line 7
     invoke-virtual {v2, p0}, Ljava/lang/String;->charAt(I)C
 
     move-result p0
@@ -497,7 +485,6 @@
 
     add-int/lit8 p2, p4, 0x1
 
-    .line 8
     aget-byte v0, p0, p1
 
     shl-int/lit8 v0, v0, 0x4
@@ -514,7 +501,6 @@
 
     or-int/2addr v0, v3
 
-    .line 9
     invoke-virtual {v2, v0}, Ljava/lang/String;->charAt(I)C
 
     move-result v0
@@ -525,14 +511,12 @@
 
     add-int/2addr p4, v1
 
-    .line 10
     aget-byte p0, p0, p1
 
     shl-int/2addr p0, v1
 
     and-int/lit8 p0, p0, 0x3c
 
-    .line 11
     invoke-virtual {v2, p0}, Ljava/lang/String;->charAt(I)C
 
     move-result p0
@@ -546,14 +530,12 @@
     :cond_1
     add-int/lit8 p4, p4, 0x1
 
-    .line 12
     aget-byte p0, p0, p1
 
     shl-int/lit8 p0, p0, 0x4
 
     and-int/lit8 p0, p0, 0x30
 
-    .line 13
     invoke-virtual {v2, p0}, Ljava/lang/String;->charAt(I)C
 
     move-result p0

@@ -15,7 +15,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,30 +27,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/global/billing/net/http/d;->b:Lcom/meitu/global/billing/net/http/d;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/global/billing/net/http/d;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/global/billing/net/http/d;->b:Lcom/meitu/global/billing/net/http/d;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/meitu/global/billing/net/http/d;
 
     invoke-direct {v2}, Lcom/meitu/global/billing/net/http/d;-><init>()V
 
     sput-object v2, Lcom/meitu/global/billing/net/http/d;->b:Lcom/meitu/global/billing/net/http/d;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -68,7 +62,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/global/billing/net/http/d;->b:Lcom/meitu/global/billing/net/http/d;
@@ -87,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->o()Ljava/lang/String;
@@ -106,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->p()Ljava/lang/String;
@@ -125,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->q()Ljava/lang/String;
@@ -144,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->r()Ljava/lang/String;
@@ -163,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->s()Ljava/lang/String;
@@ -182,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->t()Ljava/lang/String;
@@ -201,7 +188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->u()Ljava/lang/String;
@@ -228,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->f()Ljava/util/List;
@@ -255,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->g()Ljava/util/List;
@@ -274,7 +258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->v()Ljava/lang/String;
@@ -293,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->w()Ljava/lang/String;
@@ -312,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->x()Ljava/lang/String;
@@ -331,7 +312,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->y()Ljava/lang/String;
@@ -350,7 +330,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->z()Lcom/meitu/global/billing/net/http/NetConstants$ServerType;
@@ -369,7 +348,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->A()Ljava/lang/String;
@@ -388,7 +366,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
     invoke-virtual {v1}, Lcom/meitu/global/billing/net/http/a;->B()Ljava/lang/String;
@@ -407,10 +384,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/global/billing/net/http/d;->a:Lcom/meitu/global/billing/net/http/a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

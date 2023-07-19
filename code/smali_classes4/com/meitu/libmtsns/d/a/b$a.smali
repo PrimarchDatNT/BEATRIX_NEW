@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/libmtsns/d/a/b;Lcom/meitu/libmtsns/net/i/a;[Lcom/meitu/libmtsns/d/b/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/d/a/b$a;->c:Lcom/meitu/libmtsns/d/a/b;
 
     iput-object p2, p0, Lcom/meitu/libmtsns/d/a/b$a;->a:Lcom/meitu/libmtsns/net/i/a;
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/d/a/b$a;->c:Lcom/meitu/libmtsns/d/a/b;
 
     iget-object v2, p0, Lcom/meitu/libmtsns/d/a/b$a;->a:Lcom/meitu/libmtsns/net/i/a;
@@ -59,7 +57,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/libmtsns/d/a/b;->e(Lcom/meitu/libmtsns/d/a/b;Lcom/meitu/libmtsns/net/i/a;[Lcom/meitu/libmtsns/d/b/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

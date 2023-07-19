@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     const-string v1, "BEGIN_ARRAY"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->zzny:Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     const-string v3, "END_ARRAY"
@@ -62,7 +60,6 @@
 
     sput-object v1, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->zznz:Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
-    .line 3
     new-instance v3, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     const-string v5, "BEGIN_OBJECT"
@@ -73,7 +70,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->zzoa:Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
-    .line 4
     new-instance v5, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     const-string v7, "END_OBJECT"
@@ -84,7 +80,6 @@
 
     sput-object v5, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->zzob:Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
-    .line 5
     new-instance v7, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     const-string v9, "NAME"
@@ -95,7 +90,6 @@
 
     sput-object v7, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->zzoc:Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
-    .line 6
     new-instance v9, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     const-string v11, "STRING"
@@ -106,7 +100,6 @@
 
     sput-object v9, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->zzod:Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
-    .line 7
     new-instance v11, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     const-string v13, "NUMBER"
@@ -117,7 +110,6 @@
 
     sput-object v11, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->zzoe:Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
-    .line 8
     new-instance v13, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     const-string v15, "BOOLEAN"
@@ -128,7 +120,6 @@
 
     sput-object v13, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->zzof:Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
-    .line 9
     new-instance v15, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     const-string v14, "NULL"
@@ -139,7 +130,6 @@
 
     sput-object v15, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->zzog:Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
-    .line 10
     new-instance v14, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     const-string v12, "END_DOCUMENT"
@@ -184,7 +174,6 @@
 
     aput-object v14, v12, v10
 
-    .line 11
     sput-object v12, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->zzoi:[Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     return-void
@@ -198,7 +187,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -207,7 +195,6 @@
 .method public static values()[Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->zzoi:[Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->clone()Ljava/lang/Object;

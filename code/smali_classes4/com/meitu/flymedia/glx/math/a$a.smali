@@ -30,14 +30,12 @@
 
     new-array v1, v1, [F
 
-    .line 1
     sput-object v1, Lcom/meitu/flymedia/glx/math/a$a;->a:[F
 
     const/4 v1, 0x0
 
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     sget v3, Lcom/meitu/flymedia/glx/math/a;->u:I
 
@@ -45,7 +43,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     :goto_1
     sget v4, Lcom/meitu/flymedia/glx/math/a;->u:I
 
@@ -63,7 +60,6 @@
 
     div-float/2addr v6, v7
 
-    .line 4
     sget-object v7, Lcom/meitu/flymedia/glx/math/a$a;->a:[F
 
     mul-int v4, v4, v3
@@ -91,7 +87,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -101,7 +96,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/commsource/camera/montage/e0;Ljava/lang/String;ILcom/commsource/camera/montage/bean/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/e0$a;->J:Lcom/commsource/camera/montage/e0;
 
     iput p3, p0, Lcom/commsource/camera/montage/e0$a;->g:I
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/e0$a;->J:Lcom/commsource/camera/montage/e0;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/e0;->z(Lcom/commsource/camera/montage/e0;)Lcom/commsource/camera/montage/h0;
@@ -74,17 +72,14 @@
 
     iget-object v3, p0, Lcom/commsource/camera/montage/e0$a;->p:Lcom/commsource/camera/montage/bean/c;
 
-    .line 2
     invoke-virtual {v3}, Lcom/commsource/camera/montage/bean/c;->r()I
 
     move-result v3
 
     const/4 v4, 0x0
 
-    .line 3
     invoke-virtual {v1, v2, v4, v3}, Lcom/commsource/camera/montage/h0;->r(Ljava/lang/String;II)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

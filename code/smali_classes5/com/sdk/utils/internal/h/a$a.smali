@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/utils/internal/h/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/utils/internal/h/a$a;->a:Lcom/sdk/utils/internal/h/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/utils/internal/h/a$a;->a:Lcom/sdk/utils/internal/h/a;
 
     invoke-static {v0}, Lcom/sdk/utils/internal/h/a;->a(Lcom/sdk/utils/internal/h/a;)V

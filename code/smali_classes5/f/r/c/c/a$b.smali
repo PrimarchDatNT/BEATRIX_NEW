@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/r/c/c/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/c/a$b;->a:Lf/r/c/c/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/a$b;->a:Lf/r/c/c/a;
 
     invoke-static {v0}, Lf/r/c/c/a;->c(Lf/r/c/c/a;)Lf/r/c/c/b;
@@ -49,7 +47,6 @@
 
     invoke-virtual {v0, v1}, Lf/r/c/c/b;->B0(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lf/r/c/c/a$b;->a:Lf/r/c/c/a;
 
     invoke-virtual {v0}, Lf/r/c/c/a;->e()V

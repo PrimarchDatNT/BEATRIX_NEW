@@ -70,7 +70,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
 
     const/4 v3, 0x3
@@ -108,7 +107,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -118,7 +116,6 @@
 
     throw p0
 
-    .line 3
     :cond_3
     iget-object p0, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
 
@@ -150,7 +147,6 @@
     :cond_5
     invoke-static {p5}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     iput-wide p0, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
 
     iput-wide p2, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
@@ -167,7 +163,6 @@
 
     return-object v1
 
-    .line 5
     :cond_6
     :goto_1
     sget-object p5, Lcotlin/t1;->a:Lcotlin/t1;
@@ -197,7 +192,6 @@
 
     move-wide p3, v6
 
-    .line 6
     :goto_2
     iput-wide p3, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
 
@@ -282,7 +276,6 @@
 
     move-result-object v4
 
-    .line 1
     iget v5, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
 
     const/4 v6, 0x4
@@ -323,7 +316,6 @@
 
     goto/16 :goto_6
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -333,7 +325,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     iget-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$6:J
 
@@ -402,7 +393,6 @@
     :cond_5
     invoke-static {v2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v2
@@ -439,7 +429,6 @@
 
     move-wide/from16 v12, p0
 
-    .line 5
     iput-wide v12, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
 
     iput-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
@@ -465,7 +454,6 @@
 
     move-wide v11, v12
 
-    .line 6
     :goto_2
     invoke-static {v11, v12}, Lcotlinx/coroutines/n1;->f(J)J
 
@@ -474,7 +462,6 @@
     :goto_3
     add-long/2addr v9, v13
 
-    .line 7
     sget-object v5, Lcotlin/t1;->a:Lcotlin/t1;
 
     iput-wide v11, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
@@ -508,7 +495,6 @@
 
     move-wide/from16 v11, v19
 
-    .line 8
     :goto_4
     invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
@@ -548,7 +534,6 @@
 
     const-wide/16 v8, 0x0
 
-    .line 9
     invoke-static {v2, v3, v8, v9}, Lcotlin/g2/o;->o(JJ)J
 
     move-result-wide v2
@@ -563,7 +548,6 @@
 
     sub-long v8, v6, p1
 
-    .line 10
     rem-long/2addr v8, v0
 
     sub-long v8, v0, v8
@@ -574,7 +558,6 @@
 
     move-wide/from16 v17, v6
 
-    .line 11
     invoke-static {v8, v9}, Lcotlinx/coroutines/n1;->e(J)J
 
     move-result-wide v6
@@ -643,7 +626,6 @@
 
     move-wide/from16 v6, v19
 
-    .line 12
     invoke-static {v6, v7}, Lcotlinx/coroutines/n1;->e(J)J
 
     move-result-wide v8
@@ -765,7 +747,6 @@
     :goto_1
     if-eqz v0, :cond_2
 
-    .line 1
     sget-object v7, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
@@ -798,7 +779,6 @@
 
     return-object v0
 
-    .line 2
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -826,7 +806,6 @@
 
     throw v1
 
-    .line 3
     :cond_3
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -869,7 +848,6 @@
 
     if-eqz p7, :cond_1
 
-    .line 1
     sget-object p4, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     :cond_1
@@ -877,7 +855,6 @@
 
     if-eqz p6, :cond_2
 
-    .line 2
     sget-object p5, Lcotlinx/coroutines/channels/TickerMode;->FIXED_PERIOD:Lcotlinx/coroutines/channels/TickerMode;
 
     :cond_2

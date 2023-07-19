@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/dialog/delegate/b;-><init>()V
 
     return-void
@@ -36,12 +35,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Landroid/app/Activity;
 
@@ -49,10 +46,8 @@
 
     if-eqz v2, :cond_3
 
-    .line 3
     check-cast p0, Landroid/app/Activity;
 
-    .line 4
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v2
@@ -76,7 +71,6 @@
 
     return v1
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -90,17 +84,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     const-string v2, "android.settings.APPLICATION_DETAILS_SETTINGS"
 
     invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
@@ -117,18 +108,14 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 5
     invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     if-eqz p1, :cond_0
 
-    .line 6
     invoke-interface {p1, p2}, Lcom/commsource/widget/dialog/s0/y;->a(Lf/d/a;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -142,15 +129,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -166,15 +150,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     sput-boolean v0, Lcom/commsource/widget/dialog/s0/t;->d0:Z
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -190,14 +171,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lcom/commsource/home/NewHomeActivity;
@@ -206,16 +185,12 @@
 
     const/high16 v1, 0x24000000
 
-    .line 3
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
-    .line 6
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -229,12 +204,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
     if-eqz p0, :cond_0
 
-    .line 2
     new-instance p1, Landroid/content/Intent;
 
     const-class v1, Lcom/commsource/home/NewHomeActivity;
@@ -243,16 +216,12 @@
 
     const/high16 v1, 0x24000000
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -266,13 +235,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p3}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     invoke-static {p0, p1, p2}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -285,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Landroid/content/Intent;
 
@@ -293,12 +258,10 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    .line 2
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     sget v2, Lcom/res/provider/ResSTRING;->software_grade_url:I
 
-    .line 3
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -309,17 +272,14 @@
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 4
     instance-of v2, p0, Landroid/app/Activity;
 
     if-nez v2, :cond_0
 
     const/high16 v2, 0x10000000
 
-    .line 5
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 6
     :cond_0
     invoke-virtual {p0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
@@ -330,19 +290,15 @@
     :catch_0
     move-exception p0
 
-    .line 7
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     sget p0, Lcom/res/provider/ResSTRING;->open_failed:I
 
-    .line 8
     invoke-static {p0}, Lf/k/c/c/f;->n(I)V
 
-    .line 9
     :goto_0
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -357,10 +313,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1}, Lcom/commsource/widget/dialog/s0/t;->X(Landroid/app/Activity;Lcom/commsource/widget/dialog/s0/y;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -375,14 +329,12 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->unable_access_to_camera_or_album:I
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
     sget v1, Lcom/res/provider/ResSTRING;->go_settings:I
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
@@ -399,7 +351,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v6
@@ -408,10 +359,8 @@
 
     invoke-direct {v7, p0}, Lcom/commsource/widget/dialog/s0/g;-><init>(Landroid/app/Activity;)V
 
-    .line 4
     invoke-static/range {v2 .. v7}, Lcom/commsource/widget/dialog/s0/t;->t0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -426,10 +375,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1}, Lcom/commsource/widget/dialog/s0/t;->Z(Landroid/content/Context;Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -444,14 +391,12 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     sget-boolean v1, Lcom/commsource/widget/dialog/s0/t;->d0:Z
 
     if-eqz v1, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/widget/dialog/s0/t;->L(Landroid/content/Context;)Z
 
@@ -459,12 +404,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     new-instance v1, Lcom/commsource/widget/dialog/s0/t$a;
 
@@ -482,7 +425,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->go_it:I
 
-    .line 5
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -493,7 +435,6 @@
 
     const/4 v1, 0x1
 
-    .line 6
     invoke-virtual {p0, v1}, Lcom/commsource/widget/dialog/s0/t$a;->p(Z)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object p0
@@ -502,28 +443,22 @@
 
     invoke-direct {v2, p1}, Lcom/commsource/widget/dialog/s0/f;-><init>(Ljava/lang/Runnable;)V
 
-    .line 7
     invoke-virtual {p0, v2}, Lcom/commsource/widget/dialog/s0/t$a;->r(Lcom/commsource/widget/dialog/s0/w;)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object p0
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object p0
 
-    .line 9
     invoke-virtual {p0}, Lf/d/a;->F()V
 
-    .line 10
     sput-boolean v1, Lcom/commsource/widget/dialog/s0/t;->d0:Z
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -538,14 +473,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/dialog/s0/k;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/dialog/s0/k;-><init>(Landroid/app/Activity;)V
 
     invoke-static {p0, v1}, Lcom/commsource/widget/dialog/s0/t;->b0(Landroid/app/Activity;Lcom/commsource/widget/dialog/s0/y;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -560,14 +493,12 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->unable_access_to_camera_or_album:I
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     sget v2, Lcom/res/provider/ResSTRING;->try_again:I
 
-    .line 2
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -578,10 +509,8 @@
 
     move-result-object p0
 
-    .line 3
     invoke-static {v1, v2, p0, p1}, Lcom/commsource/widget/dialog/s0/t;->q0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -594,14 +523,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/dialog/s0/a;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/dialog/s0/a;-><init>(Landroid/app/Activity;)V
 
     invoke-static {p0, p1, p2, v1}, Lcom/commsource/widget/dialog/s0/t;->e0(Landroid/app/Activity;I[Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -616,21 +543,18 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->unable_access_to_camera:I
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
     sget v1, Lcom/res/provider/ResSTRING;->need_permission_to_selfie:I
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
     sget v1, Lcom/res/provider/ResSTRING;->allow:I
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -641,17 +565,14 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
     move-object v7, p3
 
-    .line 5
     invoke-static/range {v2 .. v7}, Lcom/commsource/widget/dialog/s0/t;->t0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -664,14 +585,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/widget/dialog/s0/t;->L(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -681,7 +600,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->need_update:I
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
@@ -698,7 +616,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->update_push_cancle:I
 
-    .line 4
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v6
@@ -709,10 +626,8 @@
 
     const/4 v9, 0x0
 
-    .line 5
     invoke-static/range {v2 .. v9}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -741,10 +656,8 @@
 
     move-object v3, p1
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -773,10 +686,8 @@
 
     move-object v4, p2
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -805,10 +716,8 @@
 
     move-object v8, p3
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -837,10 +746,8 @@
 
     move-object v5, p3
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -869,10 +776,8 @@
 
     move-object v6, p4
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -901,10 +806,8 @@
 
     move-object v8, p5
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -933,10 +836,8 @@
 
     move v7, p5
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -965,10 +866,8 @@
 
     move v7, p4
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -997,10 +896,8 @@
 
     move v7, p3
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1029,10 +926,8 @@
 
     move-object v4, p3
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1061,10 +956,8 @@
 
     move-object v8, p4
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1093,10 +986,8 @@
 
     move-object v5, p4
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1125,10 +1016,8 @@
 
     move-object v6, p5
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1157,10 +1046,8 @@
 
     move v7, p6
 
-    .line 1
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1173,7 +1060,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/dialog/s0/t$a;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
@@ -1182,57 +1068,46 @@
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/widget/dialog/s0/t$a;->q(Ljava/lang/String;)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0, p2}, Lcom/commsource/widget/dialog/s0/t$a;->w(Ljava/lang/String;)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0, p3}, Lcom/commsource/widget/dialog/s0/t$a;->v(Lcom/commsource/widget/dialog/s0/y;)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object p0
 
-    .line 5
     invoke-virtual {p0, p4}, Lcom/commsource/widget/dialog/s0/t$a;->u(Ljava/lang/String;)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object p0
 
-    .line 6
     invoke-virtual {p0, p5}, Lcom/commsource/widget/dialog/s0/t$a;->t(Lcom/commsource/widget/dialog/s0/x;)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object p0
 
-    .line 7
     invoke-virtual {p0, p6}, Lcom/commsource/widget/dialog/s0/t$a;->p(Z)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object p0
 
-    .line 8
     invoke-virtual {p0, p7}, Lcom/commsource/widget/dialog/s0/t$a;->r(Lcom/commsource/widget/dialog/s0/w;)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object p0
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object p0
 
-    .line 10
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isVisible()Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 11
     invoke-virtual {p0}, Lf/d/a;->F()V
 
-    .line 12
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1248,7 +1123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I

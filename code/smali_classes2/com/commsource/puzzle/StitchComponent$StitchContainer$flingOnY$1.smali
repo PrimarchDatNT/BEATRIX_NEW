@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/common/animutil/d;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/StitchComponent$StitchContainer$flingOnY$1;->invoke(Lcom/meitu/common/animutil/d;)V
@@ -87,17 +86,14 @@
 
     const-wide/16 v1, 0x1388
 
-    .line 2
     invoke-virtual {p1, v1, v2}, Lcom/meitu/common/animutil/a;->q(J)V
 
-    .line 3
     new-instance v1, Lcom/commsource/puzzle/StitchComponent$StitchContainer$flingOnY$1$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/puzzle/StitchComponent$StitchContainer$flingOnY$1$1;-><init>(Lcom/commsource/puzzle/StitchComponent$StitchContainer$flingOnY$1;)V
 
     invoke-virtual {p1, v1}, Lcom/meitu/common/animutil/d;->F(Lcotlin/jvm/u/l;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

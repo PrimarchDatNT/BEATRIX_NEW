@@ -20,7 +20,6 @@
     .annotation runtime Ln/b/a/a/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
@@ -33,7 +32,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -58,7 +56,6 @@
     :cond_0
     return p0
 
-    .line 1
     :cond_1
     :goto_0
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
@@ -73,7 +70,6 @@
 
     if-gez p1, :cond_2
 
-    .line 2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
     const/16 p2, 0x1a
@@ -103,7 +99,6 @@
 
     aput-object p2, v4, v2
 
-    .line 3
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -129,7 +124,6 @@
 
     aput-object p2, p1, v2
 
-    .line 4
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -142,7 +136,6 @@
 
     move-result-object p0
 
-    .line 5
     :goto_1
     invoke-direct {v0, p0}, Ljava/lang/IndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
 

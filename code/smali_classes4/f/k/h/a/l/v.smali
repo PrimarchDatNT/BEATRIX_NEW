@@ -29,7 +29,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lf/k/h/a/l/v;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -46,18 +45,14 @@
 .method private constructor <init>(Lf/k/h/a/l/o;Lf/k/h/a/l/p;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lf/k/h/a/l/v;->a:Z
 
-    .line 3
     iput-object p1, p0, Lf/k/h/a/l/v;->c:Lf/k/h/a/l/o;
 
-    .line 4
     iput-object p2, p0, Lf/k/h/a/l/v;->b:Lf/k/h/a/l/p;
 
     return-void
@@ -70,30 +65,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/l/v;->d:Lf/k/h/a/l/v;
 
     if-nez v1, :cond_0
 
-    .line 2
     const-class v1, Lf/k/h/a/l/v;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     new-instance v2, Lf/k/h/a/l/u;
 
     invoke-direct {v2}, Lf/k/h/a/l/u;-><init>()V
 
-    .line 4
     new-instance v3, Lf/k/h/a/l/v;
 
     invoke-direct {v3, v2, v2}, Lf/k/h/a/l/v;-><init>(Lf/k/h/a/l/o;Lf/k/h/a/l/p;)V
 
     sput-object v3, Lf/k/h/a/l/v;->d:Lf/k/h/a/l/v;
 
-    .line 5
     monitor-exit v1
 
     goto :goto_0
@@ -109,7 +99,6 @@
 
     throw v2
 
-    .line 6
     :cond_0
     :goto_0
     sget-object v1, Lf/k/h/a/l/v;->d:Lf/k/h/a/l/v;
@@ -126,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/l/v;->q()Lf/k/h/a/l/v;
 
     move-result-object v1
@@ -143,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/l/v;->q()Lf/k/h/a/l/v;
 
     move-result-object v1
@@ -160,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/l/v;->q()Lf/k/h/a/l/v;
 
     move-result-object v1
@@ -179,14 +165,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/l/v;->q()Lf/k/h/a/l/v;
 
     move-result-object v1
 
     iput-boolean p0, v1, Lf/k/h/a/l/v;->a:Z
 
-    .line 2
     sget-object v1, Lf/k/h/a/l/v;->e:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -205,7 +189,6 @@
 
     invoke-static {v1, p0}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -220,12 +203,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->b:Lf/k/h/a/l/p;
 
     invoke-interface {v1}, Lf/k/h/a/l/p;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -246,7 +227,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->b:Lf/k/h/a/l/p;
 
     invoke-interface {v1}, Lf/k/h/a/l/p;->b()Ljava/util/List;
@@ -273,7 +253,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/l/v;->t()Z
 
     move-result v1
@@ -282,12 +261,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/h/a/l/v;->b:Lf/k/h/a/l/p;
 
@@ -307,12 +284,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->c:Lf/k/h/a/l/o;
 
     invoke-interface {v1}, Lf/k/h/a/l/o;->clear()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -333,12 +308,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->c:Lf/k/h/a/l/o;
 
     invoke-interface {v1, p1}, Lf/k/h/a/l/o;->d(Ljava/util/List;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -351,12 +324,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->c:Lf/k/h/a/l/o;
 
     invoke-interface {v1}, Lf/k/h/a/l/o;->e()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -369,7 +340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->c:Lf/k/h/a/l/o;
 
     invoke-interface {v1, p1}, Lf/k/h/a/l/o;->f(Lcom/meitu/global/billing/purchase/data/MTGPurchase;)Z
@@ -396,14 +366,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->c:Lf/k/h/a/l/o;
 
     invoke-interface {v1, p1}, Lf/k/h/a/l/o;->g(Ljava/util/List;)Z
 
     move-result p1
 
-    .line 2
     sget-object v1, Lf/k/h/a/l/v;->e:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -422,7 +390,6 @@
 
     invoke-static {v1, v2}, Lf/k/h/a/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -443,12 +410,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->c:Lf/k/h/a/l/o;
 
     invoke-interface {v1, p1, p2}, Lf/k/h/a/l/o;->h(Ljava/util/List;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -461,7 +426,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/l/v;->t()Z
 
     move-result v1
@@ -470,12 +434,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/h/a/l/v;->b:Lf/k/h/a/l/p;
 
@@ -495,7 +457,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->c:Lf/k/h/a/l/o;
 
     invoke-interface {v1, p1}, Lf/k/h/a/l/o;->j(Lcom/meitu/global/billing/purchase/data/MTGPurchase;)Z
@@ -514,7 +475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->c:Lf/k/h/a/l/o;
 
     invoke-interface {v1, p1, p2}, Lf/k/h/a/l/o;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/global/billing/purchase/data/MTGPurchase;
@@ -533,12 +493,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->b:Lf/k/h/a/l/p;
 
     invoke-interface {v1, p1}, Lf/k/h/a/l/p;->l(Lf/k/h/a/l/y/k;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -551,12 +509,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->c:Lf/k/h/a/l/o;
 
     invoke-interface {v1}, Lf/k/h/a/l/o;->m()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -569,12 +525,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->b:Lf/k/h/a/l/p;
 
     invoke-interface {v1, p1}, Lf/k/h/a/l/p;->n(Lf/k/h/a/l/y/k;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -587,7 +541,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->b:Lf/k/h/a/l/p;
 
     invoke-interface {v1}, Lf/k/h/a/l/p;->o()Lcom/meitu/global/billing/purchase/data/SubsPurchase;
@@ -614,12 +567,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/v;->c:Lf/k/h/a/l/o;
 
     invoke-interface {v1, p1}, Lf/k/h/a/l/o;->p(Ljava/util/List;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -28,14 +28,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/q0;->c:Lcom/google/android/gms/common/api/internal/k0;
 
     const/4 v0, 0x0
 
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/api/internal/u0;-><init>(Lcom/google/android/gms/common/api/internal/k0;Lcom/google/android/gms/common/api/internal/l0;)V
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/q0;->b:Ljava/util/ArrayList;
 
     return-void
@@ -48,7 +46,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q0;->c:Lcom/google/android/gms/common/api/internal/k0;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/k0;->u(Lcom/google/android/gms/common/api/internal/k0;)Lcom/google/android/gms/common/api/internal/f1;
@@ -65,7 +62,6 @@
 
     iput-object v1, v0, Lcom/google/android/gms/common/api/internal/w0;->t:Ljava/util/Set;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q0;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -85,7 +81,6 @@
 
     check-cast v3, Lcom/google/android/gms/common/api/a$f;
 
-    .line 3
     iget-object v4, p0, Lcom/google/android/gms/common/api/internal/q0;->c:Lcom/google/android/gms/common/api/internal/k0;
 
     invoke-static {v4}, Lcom/google/android/gms/common/api/internal/k0;->B(Lcom/google/android/gms/common/api/internal/k0;)Lcom/google/android/gms/common/internal/q;

@@ -18,7 +18,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/t0$i;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public a(Lio/grpc/t0$f;)Lio/grpc/t0$e;
     .locals 0
 
-    .line 1
     invoke-static {}, Lio/grpc/t0$e;->g()Lio/grpc/t0$e;
 
     move-result-object p1

@@ -48,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$TouchModeEnum;
 
     const-string v2, "NONE"
@@ -137,7 +136,6 @@
 
     aput-object v12, v14, v15
 
-    .line 2
     sput-object v14, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$TouchModeEnum;->$VALUES:[Lcom/commsource/easyeditor/widget/EasyEditorGestureController$TouchModeEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,7 +151,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -166,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$TouchModeEnum;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -187,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$TouchModeEnum;->$VALUES:[Lcom/commsource/easyeditor/widget/EasyEditorGestureController$TouchModeEnum;
 
     invoke-virtual {v1}, [Lcom/commsource/easyeditor/widget/EasyEditorGestureController$TouchModeEnum;->clone()Ljava/lang/Object;

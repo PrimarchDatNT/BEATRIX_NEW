@@ -12,7 +12,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/e;
 
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
@@ -29,7 +28,6 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/i3;->b:Lcotlinx/coroutines/i3;
 
     invoke-virtual {v0}, Lcotlinx/coroutines/i3;->a()Lcotlinx/coroutines/j1;

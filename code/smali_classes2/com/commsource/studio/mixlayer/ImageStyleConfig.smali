@@ -118,45 +118,36 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x64
 
-    .line 2
     iput v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->mixColorAlpha:I
 
     const/16 v1, 0x1e
 
-    .line 3
     iput v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowBlur:I
 
     const/16 v1, 0x3c
 
-    .line 4
     iput v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowAlpha:I
 
     const/16 v1, -0x87
 
-    .line 5
     iput v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowAngle:I
 
     const/high16 v1, 0x3f000000    # 0.5f
 
-    .line 6
     iput v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowDistanceFactor:F
 
     const/16 v1, 0xa
 
-    .line 7
     iput v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeDistance:I
 
-    .line 8
     iput v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeAlpha:I
 
     const/16 v0, 0xf
 
-    .line 9
     iput v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeThickness:I
 
     return-void
@@ -173,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -192,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -232,12 +221,10 @@
 
     if-ne p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     const-class v2, Lcom/commsource/studio/mixlayer/ImageStyleConfig;
 
@@ -263,7 +250,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -271,22 +257,18 @@
     :cond_2
     if-eqz p1, :cond_15
 
-    .line 4
     check-cast p1, Lcom/commsource/studio/mixlayer/ImageStyleConfig;
 
-    .line 5
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickMixColor:I
 
     iget v4, p1, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickMixColor:I
 
     if-eq v2, v4, :cond_3
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 7
     :cond_3
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->mixColor:Ljava/lang/Integer;
 
@@ -300,12 +282,10 @@
 
     if-eqz v2, :cond_4
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 9
     :cond_4
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->mixColorAlpha:I
 
@@ -313,12 +293,10 @@
 
     if-eq v2, v4, :cond_5
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 11
     :cond_5
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickShadowColor:I
 
@@ -326,12 +304,10 @@
 
     if-eq v2, v4, :cond_6
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 13
     :cond_6
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowColor:Ljava/lang/Integer;
 
@@ -345,12 +321,10 @@
 
     if-eqz v2, :cond_7
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 15
     :cond_7
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowBlur:I
 
@@ -358,12 +332,10 @@
 
     if-eq v2, v4, :cond_8
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 17
     :cond_8
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowAlpha:I
 
@@ -371,12 +343,10 @@
 
     if-eq v2, v4, :cond_9
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 19
     :cond_9
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowAngle:I
 
@@ -384,12 +354,10 @@
 
     if-eq v2, v4, :cond_a
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 21
     :cond_a
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->offsetCenterX:F
 
@@ -399,12 +367,10 @@
 
     if-eqz v2, :cond_b
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 23
     :cond_b
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->offsetCenterY:F
 
@@ -414,12 +380,10 @@
 
     if-eqz v2, :cond_c
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 25
     :cond_c
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowDistanceFactor:F
 
@@ -429,12 +393,10 @@
 
     if-eqz v2, :cond_d
 
-    .line 26
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 27
     :cond_d
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickStrokeColor:I
 
@@ -442,12 +404,10 @@
 
     if-eq v2, v4, :cond_e
 
-    .line 28
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 29
     :cond_e
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeColor:Ljava/lang/Integer;
 
@@ -461,12 +421,10 @@
 
     if-eqz v2, :cond_f
 
-    .line 30
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 31
     :cond_f
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeDistance:I
 
@@ -474,12 +432,10 @@
 
     if-eq v2, v4, :cond_10
 
-    .line 32
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 33
     :cond_10
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeAlpha:I
 
@@ -487,12 +443,10 @@
 
     if-eq v2, v4, :cond_11
 
-    .line 34
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 35
     :cond_11
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeThickness:I
 
@@ -500,12 +454,10 @@
 
     if-eq v2, v4, :cond_12
 
-    .line 36
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 37
     :cond_12
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeLineStyle:Ljava/lang/Integer;
 
@@ -519,12 +471,10 @@
 
     if-eqz v2, :cond_13
 
-    .line 38
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 39
     :cond_13
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->doStrokeMode:I
 
@@ -532,18 +482,15 @@
 
     if-eq v2, p1, :cond_14
 
-    .line 40
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 41
     :cond_14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 42
     :cond_15
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -563,7 +510,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->doStrokeMode:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -580,7 +526,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->mixColor:Ljava/lang/Integer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -595,7 +540,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->mixColorAlpha:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -610,7 +554,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->offsetCenterX:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -625,7 +568,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->offsetCenterY:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -640,7 +582,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowAlpha:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -655,7 +596,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowAngle:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -670,7 +610,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowBlur:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -687,7 +626,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowColor:Ljava/lang/Integer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -702,7 +640,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowDistanceFactor:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -717,7 +654,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeAlpha:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -734,7 +670,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeColor:Ljava/lang/Integer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -749,7 +684,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeDistance:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -766,7 +700,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeLineStyle:Ljava/lang/Integer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -781,7 +714,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeThickness:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -796,12 +728,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickMixColor:I
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->mixColor:Ljava/lang/Integer;
 
     const/4 v3, 0x0
@@ -822,21 +752,18 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 3
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->mixColorAlpha:I
 
     add-int/2addr v1, v2
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 4
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickShadowColor:I
 
     add-int/2addr v1, v2
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowColor:Ljava/lang/Integer;
 
     if-eqz v2, :cond_1
@@ -855,21 +782,18 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 6
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowBlur:I
 
     add-int/2addr v1, v2
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 7
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowAlpha:I
 
     add-int/2addr v1, v2
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 8
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->offsetCenterX:F
 
     invoke-static {v2}, Ljava/lang/Float;->floatToIntBits(F)I
@@ -880,7 +804,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 9
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->offsetCenterY:F
 
     invoke-static {v2}, Ljava/lang/Float;->floatToIntBits(F)I
@@ -891,7 +814,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 10
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowDistanceFactor:F
 
     invoke-static {v2}, Ljava/lang/Float;->floatToIntBits(F)I
@@ -902,21 +824,18 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 11
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowAngle:I
 
     add-int/2addr v1, v2
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 12
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickStrokeColor:I
 
     add-int/2addr v1, v2
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeColor:Ljava/lang/Integer;
 
     if-eqz v2, :cond_2
@@ -935,35 +854,30 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 14
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeDistance:I
 
     add-int/2addr v1, v2
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 15
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeAlpha:I
 
     add-int/2addr v1, v2
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 16
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeThickness:I
 
     add-int/2addr v1, v2
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 17
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->doStrokeMode:I
 
     add-int/2addr v1, v2
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 18
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeLineStyle:Ljava/lang/Integer;
 
     if-eqz v2, :cond_3
@@ -975,7 +889,6 @@
     :cond_3
     add-int/2addr v1, v3
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -988,7 +901,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickMixColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1003,7 +915,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickShadowColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1018,7 +929,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickStrokeColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1033,7 +943,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->doStrokeMode:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1052,7 +961,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->mixColor:Ljava/lang/Integer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1067,7 +975,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->mixColorAlpha:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1082,7 +989,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->offsetCenterX:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1097,7 +1003,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->offsetCenterY:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1112,7 +1017,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickMixColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1127,7 +1031,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickShadowColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1142,7 +1045,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->isPickStrokeColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1157,7 +1059,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowAlpha:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1172,7 +1073,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowAngle:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1187,7 +1087,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowBlur:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1206,7 +1105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowColor:Ljava/lang/Integer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1221,7 +1119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->shadowDistanceFactor:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1236,7 +1133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeAlpha:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1255,7 +1151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeColor:Ljava/lang/Integer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1270,7 +1165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeDistance:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1289,7 +1183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeLineStyle:Ljava/lang/Integer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1304,7 +1197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->strokeThickness:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

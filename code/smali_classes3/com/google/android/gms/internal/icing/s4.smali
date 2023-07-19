@@ -26,10 +26,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/icing/t2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/icing/s4;->a:Lcom/google/android/gms/internal/icing/t2;
 
     return-void
@@ -38,7 +36,6 @@
 .method static synthetic b(Lcom/google/android/gms/internal/icing/s4;)Lcom/google/android/gms/internal/icing/t2;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/icing/s4;->a:Lcom/google/android/gms/internal/icing/t2;
 
     return-object p0
@@ -49,7 +46,6 @@
 .method public final F(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/s4;->a:Lcom/google/android/gms/internal/icing/t2;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/icing/t2;->F(I)Ljava/lang/Object;
@@ -62,7 +58,6 @@
 .method public final X0(Lcom/google/android/gms/internal/icing/zzce;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -73,7 +68,6 @@
 .method public final synthetic get(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/s4;->a:Lcom/google/android/gms/internal/icing/t2;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -96,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/u4;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/icing/u4;-><init>(Lcom/google/android/gms/internal/icing/s4;)V
@@ -115,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/t4;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/icing/t4;-><init>(Lcom/google/android/gms/internal/icing/s4;I)V
@@ -132,7 +124,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/s4;->a:Lcom/google/android/gms/internal/icing/t2;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -152,7 +143,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/s4;->a:Lcom/google/android/gms/internal/icing/t2;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/icing/t2;->x()Ljava/util/List;

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/appsflyer/AppsFlyerLibCore;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AppsFlyerLibCore$4;->valueOf:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,10 +40,8 @@
     :try_start_0
     const-string v0, "Install Referrer collected locally"
 
-    .line 1
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Lcom/appsflyer/internal/model/event/Attr;
 
     invoke-direct {v0}, Lcom/appsflyer/internal/model/event/Attr;-><init>()V
@@ -59,7 +56,6 @@
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcom/appsflyer/AppsFlyerLibCore$4;->valueOf:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-static {v1}, Lcom/appsflyer/AppsFlyerLibCore;->valueOf(Lcom/appsflyer/AppsFlyerLibCore;)Landroid/app/Application;
@@ -76,7 +72,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/appsflyer/AppsFlyerLibCore$4;->valueOf:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-static {v1, v0}, Lcom/appsflyer/AppsFlyerLibCore;->$$a(Lcom/appsflyer/AppsFlyerLibCore;Lcom/appsflyer/AFEvent;)V
@@ -89,7 +84,6 @@
     :catchall_0
     move-exception v0
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v1

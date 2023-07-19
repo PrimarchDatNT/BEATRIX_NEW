@@ -38,22 +38,16 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zf0;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/zf0;->b:Lcom/google/android/gms/internal/ads/lu;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/zf0;->c:Lcom/google/android/gms/internal/ads/ug1;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/zf0;->d:Lcom/google/android/gms/internal/ads/zzbbd;
 
-    .line 6
     iput-object p5, p0, Lcom/google/android/gms/internal/ads/zf0;->f:Lcom/google/android/gms/internal/ads/zzty$zza$zza;
 
     return-void
@@ -64,7 +58,6 @@
 .method public final J()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zf0;->g:Lcom/google/android/gms/dynamic/d;
 
     if-eqz v0, :cond_0
@@ -73,7 +66,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
@@ -91,7 +83,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zf0;->g:Lcom/google/android/gms/dynamic/d;
 
     return-void
@@ -100,7 +91,6 @@
 .method public final onAdLoaded()V
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zf0;->f:Lcom/google/android/gms/internal/ads/zzty$zza$zza;
 
     sget-object v1, Lcom/google/android/gms/internal/ads/zzty$zza$zza;->zzbyd:Lcom/google/android/gms/internal/ads/zzty$zza$zza;
@@ -122,7 +112,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->r()Lcom/google/android/gms/internal/ads/hf;
 
     move-result-object v0
@@ -135,7 +124,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zf0;->d:Lcom/google/android/gms/internal/ads/zzbbd;
 
     iget v1, v0, Lcom/google/android/gms/internal/ads/zzbbd;->b:I
@@ -160,7 +148,6 @@
 
     move-result-object v5
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zf0;->c:Lcom/google/android/gms/internal/ads/ug1;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/ug1;->M:Lorg/json/JSONObject;
@@ -185,14 +172,12 @@
     :goto_0
     move-object v9, v0
 
-    .line 5
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->r()Lcom/google/android/gms/internal/ads/hf;
 
     move-result-object v4
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zf0;->b:Lcom/google/android/gms/internal/ads/lu;
 
-    .line 6
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/lu;->getWebView()Landroid/webkit/WebView;
 
     move-result-object v6
@@ -201,7 +186,6 @@
 
     const-string v8, "javascript"
 
-    .line 7
     invoke-virtual/range {v4 .. v9}, Lcom/google/android/gms/internal/ads/hf;->b(Ljava/lang/String;Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v0
@@ -210,7 +194,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 8
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zf0;->b:Lcom/google/android/gms/internal/ads/lu;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/lu;->getView()Landroid/view/View;
@@ -219,7 +202,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 9
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->r()Lcom/google/android/gms/internal/ads/hf;
 
     move-result-object v0
@@ -234,14 +216,12 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/ads/hf;->d(Lcom/google/android/gms/dynamic/d;Landroid/view/View;)V
 
-    .line 10
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zf0;->b:Lcom/google/android/gms/internal/ads/lu;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zf0;->g:Lcom/google/android/gms/dynamic/d;
 
     invoke-interface {v0, v1}, Lcom/google/android/gms/internal/ads/lu;->z(Lcom/google/android/gms/dynamic/d;)V
 
-    .line 11
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->r()Lcom/google/android/gms/internal/ads/hf;
 
     move-result-object v0

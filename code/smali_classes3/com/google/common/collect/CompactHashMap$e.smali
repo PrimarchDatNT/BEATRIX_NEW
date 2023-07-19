@@ -42,19 +42,16 @@
 .method private constructor <init>(Lcom/google/common/collect/CompactHashMap;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/CompactHashMap$e;->d:Lcom/google/common/collect/CompactHashMap;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/CompactHashMap;->access$000(Lcom/google/common/collect/CompactHashMap;)I
 
     move-result v0
 
     iput v0, p0, Lcom/google/common/collect/CompactHashMap$e;->a:I
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/common/collect/CompactHashMap;->firstEntryIndex()I
 
     move-result p1
@@ -63,7 +60,6 @@
 
     const/4 p1, -0x1
 
-    .line 4
     iput p1, p0, Lcom/google/common/collect/CompactHashMap$e;->c:I
 
     return-void
@@ -72,7 +68,6 @@
 .method synthetic constructor <init>(Lcom/google/common/collect/CompactHashMap;Lcom/google/common/collect/CompactHashMap$a;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/google/common/collect/CompactHashMap$e;-><init>(Lcom/google/common/collect/CompactHashMap;)V
 
     return-void
@@ -81,7 +76,6 @@
 .method private a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$e;->d:Lcom/google/common/collect/CompactHashMap;
 
     invoke-static {v0}, Lcom/google/common/collect/CompactHashMap;->access$000(Lcom/google/common/collect/CompactHashMap;)I
@@ -94,7 +88,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/util/ConcurrentModificationException;
 
@@ -116,7 +109,6 @@
 .method c()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/CompactHashMap$e;->a:I
 
     add-int/lit8 v0, v0, 0x20
@@ -129,7 +121,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/CompactHashMap$e;->b:I
 
     if-ltz v0, :cond_0
@@ -153,27 +144,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/CompactHashMap$e;->a()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/CompactHashMap$e;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget v0, p0, Lcom/google/common/collect/CompactHashMap$e;->b:I
 
     iput v0, p0, Lcom/google/common/collect/CompactHashMap$e;->c:I
 
-    .line 4
     invoke-virtual {p0, v0}, Lcom/google/common/collect/CompactHashMap$e;->b(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 5
     iget-object v1, p0, Lcom/google/common/collect/CompactHashMap$e;->d:Lcom/google/common/collect/CompactHashMap;
 
     iget v2, p0, Lcom/google/common/collect/CompactHashMap$e;->b:I
@@ -186,7 +172,6 @@
 
     return-object v0
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -198,10 +183,8 @@
 .method public remove()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/CompactHashMap$e;->a()V
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/CompactHashMap$e;->c:I
 
     if-ltz v0, :cond_0
@@ -216,10 +199,8 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/collect/m;->e(Z)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/CompactHashMap$e;->c()V
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$e;->d:Lcom/google/common/collect/CompactHashMap;
 
     iget-object v1, v0, Lcom/google/common/collect/CompactHashMap;->keys:[Ljava/lang/Object;
@@ -230,7 +211,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/common/collect/CompactHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     iget-object v0, p0, Lcom/google/common/collect/CompactHashMap$e;->d:Lcom/google/common/collect/CompactHashMap;
 
     iget v1, p0, Lcom/google/common/collect/CompactHashMap$e;->b:I
@@ -245,7 +225,6 @@
 
     const/4 v0, -0x1
 
-    .line 6
     iput v0, p0, Lcom/google/common/collect/CompactHashMap$e;->c:I
 
     return-void

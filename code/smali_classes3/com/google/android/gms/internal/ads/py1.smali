@@ -18,16 +18,12 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/yy1;Lcom/google/android/gms/internal/ads/yr1;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/py1;->a:Lcom/google/android/gms/internal/ads/yy1;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/py1;->b:Lcom/google/android/gms/internal/ads/yr1;
 
-    .line 4
     iput p3, p0, Lcom/google/android/gms/internal/ads/py1;->c:I
 
     return-void
@@ -43,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/py1;->a:Lcom/google/android/gms/internal/ads/yy1;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/ads/yy1;->a([B)[B
@@ -59,7 +54,6 @@
     :cond_0
     const/16 v1, 0x8
 
-    .line 2
     invoke-static {v1}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v2
@@ -84,7 +78,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/py1;->b:Lcom/google/android/gms/internal/ads/yr1;
 
     const/4 v3, 0x3
@@ -115,7 +108,6 @@
 
     aput-object v1, v2, p2
 
-    .line 4
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/zx1;->c([[B)[B
 
     move-result-object p1

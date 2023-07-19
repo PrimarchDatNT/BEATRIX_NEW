@@ -50,20 +50,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/p;->a:Lcom/google/android/gms/common/api/internal/l;
 
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/p;->b:[Lcom/google/android/gms/common/Feature;
 
     const/4 p1, 0x0
 
-    .line 4
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/p;->c:Z
 
     return-void
@@ -86,16 +82,12 @@
         }
     .end annotation
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/p;->a:Lcom/google/android/gms/common/api/internal/l;
 
-    .line 7
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/p;->b:[Lcom/google/android/gms/common/Feature;
 
-    .line 8
     iput-boolean p3, p0, Lcom/google/android/gms/common/api/internal/p;->c:Z
 
     return-void
@@ -108,7 +100,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/p;->a:Lcom/google/android/gms/common/api/internal/l;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/l;->a()V
@@ -131,7 +122,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/p;->a:Lcom/google/android/gms/common/api/internal/l;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/l;->b()Lcom/google/android/gms/common/api/internal/l$a;
@@ -149,7 +139,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/p;->b:[Lcom/google/android/gms/common/Feature;
 
     return-object v0
@@ -178,7 +167,6 @@
 .method public final e()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/p;->c:Z
 
     return v0

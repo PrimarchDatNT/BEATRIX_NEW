@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/background/BackgroundFragment$a;->b(ILjava/lang/Integer;)Z
@@ -77,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$a;->b:Lcom/commsource/studio/function/background/BackgroundFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/background/BackgroundFragment;->W(Lcom/commsource/studio/function/background/BackgroundFragment;)Lcom/commsource/beautyplus/f0/gb;
@@ -90,7 +88,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/widget/LineSelectView;->i(IZ)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$a;->b:Lcom/commsource/studio/function/background/BackgroundFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/background/BackgroundFragment;->W(Lcom/commsource/studio/function/background/BackgroundFragment;)Lcom/commsource/beautyplus/f0/gb;
@@ -101,7 +98,6 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/viewpager2/widget/ViewPager2;->setCurrentItem(IZ)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$a;->b:Lcom/commsource/studio/function/background/BackgroundFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/background/BackgroundFragment;->T(Lcom/commsource/studio/function/background/BackgroundFragment;)Lcom/commsource/studio/function/background/BackgroundViewModel;
@@ -116,12 +112,10 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$a;->a:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

@@ -62,7 +62,6 @@
 .method static constructor <clinit>()V
     .locals 22
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     sget-object v1, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagm:Lcom/google/android/gms/internal/firebase_auth/zzle;
@@ -77,7 +76,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzafo:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     sget-object v2, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagl:Lcom/google/android/gms/internal/firebase_auth/zzle;
@@ -90,7 +88,6 @@
 
     sput-object v1, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzafp:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 3
     new-instance v2, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     sget-object v5, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagk:Lcom/google/android/gms/internal/firebase_auth/zzle;
@@ -103,7 +100,6 @@
 
     sput-object v2, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzafq:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 4
     new-instance v7, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     const-string v9, "UINT64"
@@ -114,7 +110,6 @@
 
     sput-object v7, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzafr:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 5
     new-instance v9, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     sget-object v11, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagj:Lcom/google/android/gms/internal/firebase_auth/zzle;
@@ -127,7 +122,6 @@
 
     sput-object v9, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzafs:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 6
     new-instance v12, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     const-string v14, "FIXED64"
@@ -136,7 +130,6 @@
 
     sput-object v12, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzaft:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 7
     new-instance v14, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     const-string v15, "FIXED32"
@@ -147,7 +140,6 @@
 
     sput-object v14, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzafu:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 8
     new-instance v15, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     sget-object v13, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagn:Lcom/google/android/gms/internal/firebase_auth/zzle;
@@ -160,7 +152,6 @@
 
     sput-object v15, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzafv:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 9
     new-instance v4, Lcom/google/android/gms/internal/firebase_auth/zzla;
 
     sget-object v13, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzago:Lcom/google/android/gms/internal/firebase_auth/zzle;
@@ -173,7 +164,6 @@
 
     sput-object v4, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzafw:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 10
     new-instance v6, Lcom/google/android/gms/internal/firebase_auth/zzld;
 
     sget-object v13, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagr:Lcom/google/android/gms/internal/firebase_auth/zzle;
@@ -186,7 +176,6 @@
 
     sput-object v6, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzafx:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 11
     new-instance v3, Lcom/google/android/gms/internal/firebase_auth/zzlc;
 
     const-string v8, "MESSAGE"
@@ -201,7 +190,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzafy:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 12
     new-instance v8, Lcom/google/android/gms/internal/firebase_auth/zzlf;
 
     sget-object v13, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagp:Lcom/google/android/gms/internal/firebase_auth/zzle;
@@ -216,7 +204,6 @@
 
     sput-object v8, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzafz:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 13
     new-instance v6, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     const-string v10, "UINT32"
@@ -229,7 +216,6 @@
 
     sput-object v6, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzaga:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 14
     new-instance v10, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     sget-object v13, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagq:Lcom/google/android/gms/internal/firebase_auth/zzle;
@@ -246,7 +232,6 @@
 
     sput-object v10, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzagb:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 15
     new-instance v3, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     const-string v6, "SFIXED32"
@@ -259,7 +244,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzagc:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 16
     new-instance v6, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     const-string v8, "SFIXED64"
@@ -274,7 +258,6 @@
 
     sput-object v6, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzagd:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 17
     new-instance v3, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     const-string v8, "SINT32"
@@ -289,7 +272,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzage:Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
-    .line 18
     new-instance v8, Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     const-string v11, "SINT64"
@@ -372,7 +354,6 @@
 
     aput-object v8, v5, v13
 
-    .line 19
     sput-object v5, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzagi:[Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     return-void
@@ -388,13 +369,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzagg:Lcom/google/android/gms/internal/firebase_auth/zzle;
 
-    .line 3
     iput p4, p0, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzagh:I
 
     return-void
@@ -403,7 +381,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;ILcom/google/android/gms/internal/firebase_auth/zzle;ILcom/google/android/gms/internal/firebase_auth/n7;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/firebase_auth/zzlb;-><init>(Ljava/lang/String;ILcom/google/android/gms/internal/firebase_auth/zzle;I)V
 
     return-void
@@ -412,7 +389,6 @@
 .method public static values()[Lcom/google/android/gms/internal/firebase_auth/zzlb;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzagi:[Lcom/google/android/gms/internal/firebase_auth/zzlb;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/firebase_auth/zzlb;->clone()Ljava/lang/Object;
@@ -429,7 +405,6 @@
 .method public final zzkx()Lcom/google/android/gms/internal/firebase_auth/zzle;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzagg:Lcom/google/android/gms/internal/firebase_auth/zzle;
 
     return-object v0
@@ -438,7 +413,6 @@
 .method public final zzky()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzlb;->zzagh:I
 
     return v0

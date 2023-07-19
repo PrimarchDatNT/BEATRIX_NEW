@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/meitu/library/optimus/apm/File/c;Ljava/util/List;ZLjava/lang/String;ZLcom/meitu/library/optimus/apm/File/UploadResultCache;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/File/c$a;->g:Lcom/meitu/library/optimus/apm/File/c;
 
     iput-object p2, p0, Lcom/meitu/library/optimus/apm/File/c$a;->a:Ljava/util/List;
@@ -66,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/File/c$a;->g:Lcom/meitu/library/optimus/apm/File/c;
 
     iget-object v2, p0, Lcom/meitu/library/optimus/apm/File/c$a;->c:Ljava/lang/String;
@@ -77,19 +75,16 @@
 
     invoke-static {v1, v2, p2, v3, v4}, Lcom/meitu/library/optimus/apm/File/c;->c(Lcom/meitu/library/optimus/apm/File/c;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/library/optimus/apm/File/c$a;->d:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/File/c$a;->e:Lcom/meitu/library/optimus/apm/File/UploadResultCache;
 
     iget-object v2, p0, Lcom/meitu/library/optimus/apm/File/c$a;->c:Ljava/lang/String;
 
     invoke-virtual {v1, v2, p2}, Lcom/meitu/library/optimus/apm/File/UploadResultCache;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
@@ -97,7 +92,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -120,7 +114,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -134,14 +127,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -164,7 +155,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -178,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/File/c$a;->a:Ljava/util/List;
 
     new-instance v2, Lcom/meitu/library/optimus/apm/u;
@@ -187,7 +176,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/library/optimus/apm/File/c$a;->b:Z
 
     iget-object v2, p0, Lcom/meitu/library/optimus/apm/File/c$a;->c:Ljava/lang/String;
@@ -200,7 +188,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/library/optimus/apm/r;->d(ZLjava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/File/c$a;->g:Lcom/meitu/library/optimus/apm/File/c;
 
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/File/c;->b(Lcom/meitu/library/optimus/apm/File/c;)Ljava/util/concurrent/CountDownLatch;
@@ -209,7 +196,6 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/File/c$a;->g:Lcom/meitu/library/optimus/apm/File/c;
 
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/File/c;->a(Lcom/meitu/library/optimus/apm/File/c;)Ljava/lang/String;
@@ -220,14 +206,12 @@
 
     invoke-static {v1, v2}, Lcom/meitu/mtuploader/g;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -256,7 +240,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -270,14 +253,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -294,7 +275,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -308,14 +288,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -338,7 +316,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -352,7 +329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/File/c$a;->a:Ljava/util/List;
 
     new-instance v2, Lcom/meitu/library/optimus/apm/u;
@@ -361,7 +337,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/library/optimus/apm/File/c$a;->b:Z
 
     iget-object v2, p0, Lcom/meitu/library/optimus/apm/File/c$a;->c:Ljava/lang/String;
@@ -374,7 +349,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/library/optimus/apm/r;->d(ZLjava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/File/c$a;->g:Lcom/meitu/library/optimus/apm/File/c;
 
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/File/c;->b(Lcom/meitu/library/optimus/apm/File/c;)Ljava/util/concurrent/CountDownLatch;
@@ -383,14 +357,12 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -419,7 +391,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

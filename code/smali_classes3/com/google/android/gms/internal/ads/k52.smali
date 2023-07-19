@@ -37,7 +37,6 @@
 .method static constructor <clinit>()V
     .locals 39
 
-    .line 1
     new-instance v19, Lcom/google/android/gms/internal/ads/k52;
 
     move-object/from16 v0, v19
@@ -64,7 +63,6 @@
 
     sput-object v19, Lcom/google/android/gms/internal/ads/k52;->j:Lcom/google/android/gms/internal/ads/k52;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/k52;
 
     move-object/from16 v20, v0
@@ -91,7 +89,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/k52;->k:Lcom/google/android/gms/internal/ads/k52;
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/ads/k52;
 
     move-object v1, v0
@@ -118,7 +115,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/k52;->l:Lcom/google/android/gms/internal/ads/k52;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/internal/ads/k52;
 
     move-object/from16 v20, v0
@@ -139,52 +135,42 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     move-wide v1, p9
 
-    .line 2
     iput-wide v1, v0, Lcom/google/android/gms/internal/ads/k52;->a:D
 
     move-wide v1, p11
 
-    .line 3
     iput-wide v1, v0, Lcom/google/android/gms/internal/ads/k52;->b:D
 
     move-wide/from16 v1, p13
 
-    .line 4
     iput-wide v1, v0, Lcom/google/android/gms/internal/ads/k52;->c:D
 
     move-wide v1, p1
 
-    .line 5
     iput-wide v1, v0, Lcom/google/android/gms/internal/ads/k52;->d:D
 
     move-wide v1, p3
 
-    .line 6
     iput-wide v1, v0, Lcom/google/android/gms/internal/ads/k52;->e:D
 
     move-wide v1, p5
 
-    .line 7
     iput-wide v1, v0, Lcom/google/android/gms/internal/ads/k52;->f:D
 
     move-wide v1, p7
 
-    .line 8
     iput-wide v1, v0, Lcom/google/android/gms/internal/ads/k52;->g:D
 
     move-wide/from16 v1, p15
 
-    .line 9
     iput-wide v1, v0, Lcom/google/android/gms/internal/ads/k52;->h:D
 
     move-wide/from16 v1, p17
 
-    .line 10
     iput-wide v1, v0, Lcom/google/android/gms/internal/ads/k52;->i:D
 
     return-void
@@ -193,52 +179,42 @@
 .method public static a(Ljava/nio/ByteBuffer;)Lcom/google/android/gms/internal/ads/k52;
     .locals 20
 
-    .line 1
     invoke-static/range {p0 .. p0}, Lcom/google/android/gms/internal/ads/a50;->e(Ljava/nio/ByteBuffer;)D
 
     move-result-wide v1
 
-    .line 2
     invoke-static/range {p0 .. p0}, Lcom/google/android/gms/internal/ads/a50;->e(Ljava/nio/ByteBuffer;)D
 
     move-result-wide v3
 
-    .line 3
     invoke-static/range {p0 .. p0}, Lcom/google/android/gms/internal/ads/a50;->f(Ljava/nio/ByteBuffer;)D
 
     move-result-wide v9
 
-    .line 4
     invoke-static/range {p0 .. p0}, Lcom/google/android/gms/internal/ads/a50;->e(Ljava/nio/ByteBuffer;)D
 
     move-result-wide v5
 
-    .line 5
     invoke-static/range {p0 .. p0}, Lcom/google/android/gms/internal/ads/a50;->e(Ljava/nio/ByteBuffer;)D
 
     move-result-wide v7
 
-    .line 6
     invoke-static/range {p0 .. p0}, Lcom/google/android/gms/internal/ads/a50;->f(Ljava/nio/ByteBuffer;)D
 
     move-result-wide v11
 
-    .line 7
     invoke-static/range {p0 .. p0}, Lcom/google/android/gms/internal/ads/a50;->e(Ljava/nio/ByteBuffer;)D
 
     move-result-wide v15
 
-    .line 8
     invoke-static/range {p0 .. p0}, Lcom/google/android/gms/internal/ads/a50;->e(Ljava/nio/ByteBuffer;)D
 
     move-result-wide v17
 
-    .line 9
     invoke-static/range {p0 .. p0}, Lcom/google/android/gms/internal/ads/a50;->f(Ljava/nio/ByteBuffer;)D
 
     move-result-wide v13
 
-    .line 10
     new-instance v19, Lcom/google/android/gms/internal/ads/k52;
 
     move-object/from16 v0, v19
@@ -264,7 +240,6 @@
 
     if-eqz p1, :cond_b
 
-    .line 1
     const-class v2, Lcom/google/android/gms/internal/ads/k52;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -275,11 +250,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/internal/ads/k52;
 
-    .line 3
     iget-wide v2, p1, Lcom/google/android/gms/internal/ads/k52;->d:D
 
     iget-wide v4, p0, Lcom/google/android/gms/internal/ads/k52;->d:D
@@ -292,7 +265,6 @@
 
     return v1
 
-    .line 4
     :cond_2
     iget-wide v2, p1, Lcom/google/android/gms/internal/ads/k52;->e:D
 
@@ -306,7 +278,6 @@
 
     return v1
 
-    .line 5
     :cond_3
     iget-wide v2, p1, Lcom/google/android/gms/internal/ads/k52;->f:D
 
@@ -320,7 +291,6 @@
 
     return v1
 
-    .line 6
     :cond_4
     iget-wide v2, p1, Lcom/google/android/gms/internal/ads/k52;->g:D
 
@@ -334,7 +304,6 @@
 
     return v1
 
-    .line 7
     :cond_5
     iget-wide v2, p1, Lcom/google/android/gms/internal/ads/k52;->h:D
 
@@ -348,7 +317,6 @@
 
     return v1
 
-    .line 8
     :cond_6
     iget-wide v2, p1, Lcom/google/android/gms/internal/ads/k52;->i:D
 
@@ -362,7 +330,6 @@
 
     return v1
 
-    .line 9
     :cond_7
     iget-wide v2, p1, Lcom/google/android/gms/internal/ads/k52;->a:D
 
@@ -376,7 +343,6 @@
 
     return v1
 
-    .line 10
     :cond_8
     iget-wide v2, p1, Lcom/google/android/gms/internal/ads/k52;->b:D
 
@@ -390,7 +356,6 @@
 
     return v1
 
-    .line 11
     :cond_9
     iget-wide v2, p1, Lcom/google/android/gms/internal/ads/k52;->c:D
 
@@ -415,7 +380,6 @@
 .method public final hashCode()I
     .locals 7
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/k52;->a:D
 
     invoke-static {v0, v1}, Ljava/lang/Double;->doubleToLongBits(D)J
@@ -430,7 +394,6 @@
 
     long-to-int v1, v0
 
-    .line 2
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/k52;->b:D
 
     invoke-static {v3, v4}, Ljava/lang/Double;->doubleToLongBits(D)J
@@ -447,7 +410,6 @@
 
     add-int/2addr v1, v0
 
-    .line 3
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/k52;->c:D
 
     invoke-static {v3, v4}, Ljava/lang/Double;->doubleToLongBits(D)J
@@ -464,7 +426,6 @@
 
     add-int/2addr v1, v0
 
-    .line 4
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/k52;->d:D
 
     invoke-static {v3, v4}, Ljava/lang/Double;->doubleToLongBits(D)J
@@ -481,7 +442,6 @@
 
     add-int/2addr v1, v0
 
-    .line 5
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/k52;->e:D
 
     invoke-static {v3, v4}, Ljava/lang/Double;->doubleToLongBits(D)J
@@ -498,7 +458,6 @@
 
     add-int/2addr v1, v0
 
-    .line 6
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/k52;->f:D
 
     invoke-static {v3, v4}, Ljava/lang/Double;->doubleToLongBits(D)J
@@ -515,7 +474,6 @@
 
     add-int/2addr v1, v0
 
-    .line 7
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/k52;->g:D
 
     invoke-static {v3, v4}, Ljava/lang/Double;->doubleToLongBits(D)J
@@ -532,7 +490,6 @@
 
     add-int/2addr v1, v0
 
-    .line 8
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/k52;->h:D
 
     invoke-static {v3, v4}, Ljava/lang/Double;->doubleToLongBits(D)J
@@ -549,7 +506,6 @@
 
     add-int/2addr v1, v0
 
-    .line 9
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/k52;->i:D
 
     invoke-static {v3, v4}, Ljava/lang/Double;->doubleToLongBits(D)J
@@ -574,7 +530,6 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     sget-object v1, Lcom/google/android/gms/internal/ads/k52;->j:Lcom/google/android/gms/internal/ads/k52;
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/k52;->equals(Ljava/lang/Object;)Z
@@ -587,7 +542,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     sget-object v1, Lcom/google/android/gms/internal/ads/k52;->k:Lcom/google/android/gms/internal/ads/k52;
 
@@ -601,7 +555,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     sget-object v1, Lcom/google/android/gms/internal/ads/k52;->l:Lcom/google/android/gms/internal/ads/k52;
 
@@ -615,7 +568,6 @@
 
     return-object v1
 
-    .line 4
     :cond_2
     sget-object v1, Lcom/google/android/gms/internal/ads/k52;->m:Lcom/google/android/gms/internal/ads/k52;
 
@@ -629,7 +581,6 @@
 
     return-object v1
 
-    .line 5
     :cond_3
     iget-wide v1, v0, Lcom/google/android/gms/internal/ads/k52;->a:D
 

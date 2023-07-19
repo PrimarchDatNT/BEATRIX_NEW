@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/player/b$l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/player/b$l$a;->a:Lcom/sdk/imp/player/b$l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/b$l$a;->a:Lcom/sdk/imp/player/b$l;
 
     iget-object v0, v0, Lcom/sdk/imp/player/b$l;->g:Lcom/sdk/imp/player/b;
@@ -47,7 +45,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/sdk/imp/player/b$l$a;->a:Lcom/sdk/imp/player/b$l;
 
     iget-object v1, v1, Lcom/sdk/imp/player/b$l;->g:Lcom/sdk/imp/player/b;
@@ -56,14 +53,12 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/sdk/imp/player/b$l$a;->a:Lcom/sdk/imp/player/b$l;
 
     iget-object v2, v2, Lcom/sdk/imp/player/b$l;->g:Lcom/sdk/imp/player/b;
 
     invoke-static {v2, v0, v1}, Lcom/sdk/imp/player/b;->o(Lcom/sdk/imp/player/b;II)V
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/player/b$l$a;->a:Lcom/sdk/imp/player/b$l;
 
     invoke-static {v0}, Lcom/sdk/imp/player/b$l;->i(Lcom/sdk/imp/player/b$l;)I
@@ -74,7 +69,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/player/b$l$a;->a:Lcom/sdk/imp/player/b$l;
 
     invoke-static {v0}, Lcom/sdk/imp/player/b$l;->k(Lcom/sdk/imp/player/b$l;)Lcom/sdk/imp/player/b$n;
@@ -87,7 +81,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/player/b$l$a;->a:Lcom/sdk/imp/player/b$l;
 

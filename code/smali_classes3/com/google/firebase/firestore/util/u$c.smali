@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/firebase/firestore/util/u;Lcom/google/android/gms/tasks/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/util/u$c;->b:Lcom/google/firebase/firestore/util/u;
 
     iput-object p2, p0, Lcom/google/firebase/firestore/util/u$c;->a:Lcom/google/android/gms/tasks/l;
@@ -46,14 +45,12 @@
 .method public a(Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/Status;->r()Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/firebase/firestore/util/u$c;->a:Lcom/google/android/gms/tasks/l;
 
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/l;->a()Lcom/google/android/gms/tasks/k;
@@ -66,7 +63,6 @@
 
     if-nez p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/google/firebase/firestore/util/u$c;->a:Lcom/google/android/gms/tasks/l;
 
     new-instance p2, Lcom/google/firebase/firestore/FirebaseFirestoreException;
@@ -81,7 +77,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/google/firebase/firestore/util/u$c;->a:Lcom/google/android/gms/tasks/l;
 
@@ -104,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/util/u$c;->a:Lcom/google/android/gms/tasks/l;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/l;->c(Ljava/lang/Object;)V

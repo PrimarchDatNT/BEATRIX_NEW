@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -61,7 +60,6 @@
 
     if-nez p1, :cond_3
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->f()Lcom/commsource/studio/function/automanual/d;
@@ -87,7 +85,6 @@
     :cond_0
     invoke-virtual {p1, p2}, Lcom/commsource/studio/function/automanual/d;->e(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 2
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
@@ -99,7 +96,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/automanual/d;->a(Lcom/commsource/studio/e;)V
 
-    .line 3
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
@@ -111,7 +107,6 @@
 
     goto/16 :goto_2
 
-    .line 4
     :cond_3
     invoke-virtual {p1}, Lcom/commsource/studio/e;->i()Z
 
@@ -123,7 +118,6 @@
 
     if-eqz p2, :cond_6
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/studio/e;->i()Z
 
     move-result v2
@@ -148,7 +142,6 @@
     :goto_1
     if-eqz p2, :cond_6
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c()Lcom/commsource/studio/effect/c;
@@ -161,7 +154,6 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/studio/effect/c;->F(Landroid/util/SparseIntArray;)V
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->f()Lcom/commsource/studio/function/automanual/d;
@@ -172,7 +164,6 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/function/automanual/d;->f(Lcom/commsource/studio/e;)V
 
-    .line 8
     :cond_6
     iget-object p2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
@@ -186,7 +177,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_7
     iget-object v2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
@@ -204,14 +194,12 @@
 
     if-eqz p2, :cond_9
 
-    .line 10
     invoke-virtual {p2}, Lcom/commsource/studio/e;->i()Z
 
     move-result p2
 
     if-ne p2, v3, :cond_9
 
-    .line 11
     :cond_8
     iget-object p2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
@@ -223,7 +211,6 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/function/automanual/d;->f(Lcom/commsource/studio/e;)V
 
-    .line 12
     :cond_9
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
@@ -235,7 +222,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/automanual/d;->a(Lcom/commsource/studio/e;)V
 
-    .line 13
     :cond_a
     :goto_2
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
@@ -252,7 +238,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/effect/c;->K(Z)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->f()Lcom/commsource/studio/function/automanual/d;
@@ -273,7 +258,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->s(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 15
     :cond_b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -287,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->d()Lcom/commsource/studio/d;
@@ -310,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->d()Lcom/commsource/studio/d;
@@ -319,7 +301,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/e0;->d()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -332,7 +313,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->d()Lcom/commsource/studio/d;
@@ -355,7 +335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->b()Lcom/commsource/studio/function/BaseSubFragment;
@@ -368,7 +347,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c()Lcom/commsource/studio/effect/c;
@@ -379,7 +357,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/effect/c;->L(Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -392,7 +369,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/studio/v$a;->b(Lcom/commsource/studio/v;)Z
 
     move-result v1
@@ -409,7 +385,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->b()Lcom/commsource/studio/function/BaseSubFragment;
@@ -422,7 +397,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c()Lcom/commsource/studio/effect/c;
@@ -433,7 +407,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/effect/c;->L(Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -446,7 +419,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/studio/v$a;->a(Lcom/commsource/studio/v;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2$a;->a:Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3;
@@ -64,7 +63,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2$a;->a:Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2;
 
@@ -76,7 +74,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -95,12 +92,10 @@
 
     check-cast v2, Lcom/commsource/studio/layer/d;
 
-    .line 4
     instance-of v3, v2, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;
 
     if-nez v3, :cond_1
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v2
@@ -109,7 +104,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2$a;->a:Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2;
 
@@ -137,7 +131,6 @@
 
     if-nez v1, :cond_3
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2$a;->a:Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3;
@@ -156,7 +149,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 8
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2$a;->a:Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2;
 
@@ -192,7 +184,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 9
     instance-of v2, v1, Lcom/commsource/editengine/node/b;
 
     const/4 v3, 0x0
@@ -209,13 +200,10 @@
 
     if-eqz v1, :cond_5
 
-    .line 10
     check-cast v1, Lcom/commsource/editengine/node/b;
 
-    .line 11
     invoke-virtual {v1, v3}, Lcom/commsource/editengine/node/b;->F(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2$a;->a:Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3;
@@ -240,7 +228,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_5
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -252,7 +239,6 @@
 
     throw v1
 
-    .line 14
     :cond_6
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

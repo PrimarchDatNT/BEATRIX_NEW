@@ -44,28 +44,24 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
 
     const/4 v0, 0x4
 
-    .line 3
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v6
 
     const/4 v0, 0x1
 
-    .line 4
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v8
@@ -78,7 +74,6 @@
 
     const-string v7, "verifyEmail"
 
-    .line 5
     invoke-static/range {v1 .. v8}, Lcom/google/android/gms/internal/firebase_auth/zzaz;->zzb(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/android/gms/internal/firebase_auth/zzaz;
 
     move-result-object v0
@@ -91,12 +86,10 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 6
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "apiKey"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/firebase/auth/w;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -105,7 +98,6 @@
 
     const-string v2, "oobCode"
 
-    .line 3
     invoke-static {p1, v2}, Lcom/google/firebase/auth/w;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -114,7 +106,6 @@
 
     const-string v4, "mode"
 
-    .line 4
     invoke-static {p1, v4}, Lcom/google/firebase/auth/w;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
@@ -129,7 +120,6 @@
 
     const-string v0, "continueUrl"
 
-    .line 5
     invoke-static {p1, v0}, Lcom/google/firebase/auth/w;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -138,7 +128,6 @@
 
     const-string v0, "languageCode"
 
-    .line 6
     invoke-static {p1, v0}, Lcom/google/firebase/auth/w;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -147,7 +136,6 @@
 
     const-string v0, "tenantId"
 
-    .line 7
     invoke-static {p1, v0}, Lcom/google/firebase/auth/w;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -156,7 +144,6 @@
 
     return-void
 
-    .line 8
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -178,7 +165,6 @@
 
     const-string v0, "%s, %s and %s are required in a valid action code URL"
 
-    .line 9
     invoke-static {v0, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -193,32 +179,27 @@
 
     const-string v0, "link"
 
-    .line 1
     invoke-static {p0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/net/Uri;->getQueryParameterNames()Ljava/util/Set;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v1, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
     return-object p0
 
-    .line 5
     :cond_0
     invoke-interface {v1, v0}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
@@ -226,7 +207,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {p0, v0}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -235,7 +215,6 @@
 
     move-result-object p0
 
-    .line 7
     invoke-virtual {p0, p1}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -256,10 +235,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     :try_start_0
     new-instance v0, Lcom/google/firebase/auth/w;
 
@@ -280,7 +257,6 @@
 .method public final a()I
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/firebase/auth/w;->g:Lcom/google/android/gms/internal/firebase_auth/zzaz;
 
     iget-object v1, p0, Lcom/google/firebase/auth/w;->c:Ljava/lang/String;
@@ -309,7 +285,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/w;->f:Ljava/lang/String;
 
     return-object v0
@@ -318,7 +293,6 @@
 .method public final e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/w;->b:Ljava/lang/String;
 
     return-object v0

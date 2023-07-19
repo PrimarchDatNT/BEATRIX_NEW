@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a$a;->a:Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a;
 
     iget-object v1, v1, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a;->a:Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1;
@@ -57,7 +56,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/DeFocusLayer;->j1(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a$a;->a:Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a;
 
     iget-object v1, v1, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a;->a:Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1;
@@ -72,14 +70,12 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/layer/BaseLayer;->k0(Z)V
 
-    .line 3
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a$a;->a:Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a;
 
     iget-object v1, v1, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a;->a:Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1;
@@ -102,7 +98,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a$a;->a:Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a;
 
@@ -126,7 +121,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

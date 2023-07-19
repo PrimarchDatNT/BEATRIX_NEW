@@ -20,13 +20,10 @@
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-direct {p0, v0, p2}, Lcom/google/android/gms/common/images/b;-><init>(Landroid/net/Uri;I)V
 
-    .line 5
     invoke-static {p1}, Lcom/google/android/gms/common/internal/d;->c(Ljava/lang/Object;)V
 
-    .line 6
     new-instance p2, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -41,13 +38,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p2, v0}, Lcom/google/android/gms/common/images/b;-><init>(Landroid/net/Uri;I)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/d;->c(Ljava/lang/Object;)V
 
-    .line 3
     new-instance p2, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -62,7 +56,6 @@
 .method protected final d(Landroid/graphics/drawable/Drawable;ZZZ)V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/images/d;->h:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -89,24 +82,20 @@
     :goto_0
     if-eqz v2, :cond_1
 
-    .line 2
     instance-of v3, v0, Lcom/google/android/gms/internal/base/zaj;
 
     if-eqz v3, :cond_1
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/base/zaj;->b()I
 
     move-result v3
 
-    .line 4
     iget v4, p0, Lcom/google/android/gms/common/images/b;->c:I
 
     if-eqz v4, :cond_1
 
     if-eq v3, v4, :cond_8
 
-    .line 5
     :cond_1
     invoke-virtual {p0, p2, p3}, Lcom/google/android/gms/common/images/b;->e(ZZ)Z
 
@@ -116,22 +105,18 @@
 
     if-eqz p2, :cond_4
 
-    .line 6
     invoke-virtual {v0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
 
     if-eqz v3, :cond_2
 
-    .line 7
     instance-of v4, v3, Lcom/google/android/gms/internal/base/e;
 
     if-eqz v4, :cond_3
 
-    .line 8
     check-cast v3, Lcom/google/android/gms/internal/base/e;
 
-    .line 9
     invoke-virtual {v3}, Lcom/google/android/gms/internal/base/e;->c()Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
@@ -141,7 +126,6 @@
     :cond_2
     move-object v3, p3
 
-    .line 10
     :cond_3
     :goto_1
     new-instance v4, Lcom/google/android/gms/internal/base/e;
@@ -150,39 +134,32 @@
 
     move-object p1, v4
 
-    .line 11
     :cond_4
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 12
     instance-of v0, v0, Lcom/google/android/gms/internal/base/zaj;
 
     if-eqz v0, :cond_7
 
     if-eqz p4, :cond_5
 
-    .line 13
     iget-object p3, p0, Lcom/google/android/gms/common/images/b;->a:Lcom/google/android/gms/common/images/c;
 
     iget-object p3, p3, Lcom/google/android/gms/common/images/c;->a:Landroid/net/Uri;
 
-    .line 14
     :cond_5
     invoke-static {p3}, Lcom/google/android/gms/internal/base/zaj;->a(Landroid/net/Uri;)V
 
     if-eqz v2, :cond_6
 
-    .line 15
     iget v1, p0, Lcom/google/android/gms/common/images/b;->c:I
 
-    .line 16
     :cond_6
     invoke-static {v1}, Lcom/google/android/gms/internal/base/zaj;->c(I)V
 
     :cond_7
     if-eqz p2, :cond_8
 
-    .line 17
     check-cast p1, Lcom/google/android/gms/internal/base/e;
 
     const/16 p2, 0xfa
@@ -196,7 +173,6 @@
 .method public final equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/google/android/gms/common/images/d;
 
     const/4 v1, 0x0
@@ -212,11 +188,9 @@
 
     return v0
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/common/images/d;
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/common/images/d;->h:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -225,7 +199,6 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    .line 4
     iget-object p1, p1, Lcom/google/android/gms/common/images/d;->h:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -238,7 +211,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 5
     invoke-static {p1, v2}, Lcom/google/android/gms/common/internal/z;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1

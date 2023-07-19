@@ -25,13 +25,10 @@
 .method constructor <init>(Ljava/nio/ByteBuffer;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$b;->a:Ljava/nio/ByteBuffer;
 
-    .line 3
     sget-object v0, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-virtual {p1, v0}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
@@ -49,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$b;->b()I
 
     move-result v0
@@ -79,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$b;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->remaining()I
@@ -94,7 +89,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$b;->a:Ljava/nio/ByteBuffer;
 
@@ -113,7 +107,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$b;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->remaining()I
@@ -130,7 +123,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$b;->a:Ljava/nio/ByteBuffer;
 
@@ -149,7 +141,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$b;->b()I
 
     move-result v0
@@ -169,7 +160,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$b;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->remaining()I
@@ -184,7 +174,6 @@
 
     long-to-int p2, p1
 
-    .line 2
     iget-object p1, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$b;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->position()I

@@ -54,34 +54,24 @@
 .method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/TextView;Landroidx/constraintlayout/widget/ConstraintLayout;Lcom/commsource/widget/IconFrontView;Landroid/widget/TextView;Landroid/widget/EditText;Lcom/commsource/widget/round/RoundFrameLayout;Lcom/commsource/store/filter/search/SearchRecyclerView;Lcom/commsource/store/filter/search/TagFlowLayout;Landroid/widget/LinearLayout;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
-    .line 2
     iput-object p4, p0, Lcom/commsource/beautyplus/f0/e8;->a:Landroid/widget/TextView;
 
-    .line 3
     iput-object p5, p0, Lcom/commsource/beautyplus/f0/e8;->b:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    .line 4
     iput-object p6, p0, Lcom/commsource/beautyplus/f0/e8;->c:Lcom/commsource/widget/IconFrontView;
 
-    .line 5
     iput-object p7, p0, Lcom/commsource/beautyplus/f0/e8;->d:Landroid/widget/TextView;
 
-    .line 6
     iput-object p8, p0, Lcom/commsource/beautyplus/f0/e8;->f:Landroid/widget/EditText;
 
-    .line 7
     iput-object p9, p0, Lcom/commsource/beautyplus/f0/e8;->g:Lcom/commsource/widget/round/RoundFrameLayout;
 
-    .line 8
     iput-object p10, p0, Lcom/commsource/beautyplus/f0/e8;->p:Lcom/commsource/store/filter/search/SearchRecyclerView;
 
-    .line 9
     iput-object p11, p0, Lcom/commsource/beautyplus/f0/e8;->J:Lcom/commsource/store/filter/search/TagFlowLayout;
 
-    .line 10
     iput-object p12, p0, Lcom/commsource/beautyplus/f0/e8;->K:Landroid/widget/LinearLayout;
 
     return-void
@@ -94,7 +84,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -121,7 +110,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->fragment_filter_search:I
 
-    .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -140,7 +128,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -165,7 +152,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -199,7 +185,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->fragment_filter_search:I
 
-    .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -231,7 +216,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0

@@ -66,7 +66,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -76,7 +75,6 @@
 
     if-ne v5, v6, :cond_1
 
-    .line 2
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->P()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;
@@ -87,7 +85,6 @@
 
     invoke-virtual {v5, v6}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->c0(Z)V
 
-    .line 3
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->W()Lcom/commsource/beautyplus/f0/w7;
@@ -112,7 +109,6 @@
 
     invoke-virtual {v5, v3}, Lcom/commsource/widget/round/a;->q(I)V
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->W()Lcom/commsource/beautyplus/f0/w7;
@@ -131,7 +127,6 @@
 
     if-lt v0, v2, :cond_2
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->W()Lcom/commsource/beautyplus/f0/w7;
@@ -148,7 +143,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     :goto_0
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
@@ -161,7 +155,6 @@
 
     invoke-virtual {v5, v6}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->c0(Z)V
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->W()Lcom/commsource/beautyplus/f0/w7;
@@ -186,7 +179,6 @@
 
     invoke-virtual {v5, v3}, Lcom/commsource/widget/round/a;->q(I)V
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->W()Lcom/commsource/beautyplus/f0/w7;
@@ -205,7 +197,6 @@
 
     if-lt v0, v2, :cond_2
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->W()Lcom/commsource/beautyplus/f0/w7;
@@ -224,14 +215,12 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->setElevation(F)V
 
-    .line 10
     :cond_2
     :goto_1
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->U()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -248,7 +237,6 @@
 
     invoke-virtual {v2, p1, v0}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->D(ILandroid/graphics/Rect;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->U()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -265,7 +253,6 @@
 
     sub-int/2addr p1, v0
 
-    .line 13
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->T()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
@@ -286,7 +273,6 @@
 
     if-gtz p1, :cond_3
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;->W()Lcom/commsource/beautyplus/f0/w7;
@@ -301,12 +287,10 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->post(Ljava/lang/Runnable;)Z
 
-    .line 15
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
 
@@ -322,7 +306,6 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->post(Ljava/lang/Runnable;)Z
 
-    .line 17
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -335,7 +318,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$k;->a(Ljava/lang/Integer;)V

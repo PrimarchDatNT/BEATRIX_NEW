@@ -24,7 +24,6 @@
 .method constructor <init>(Lf/k/i/a/i/e;Ljava/lang/String;Lf/k/i/a/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
     iput-object p3, p0, Lf/k/i/a/i/e$a;->k:Lf/k/i/a/d;
@@ -45,14 +44,12 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, v0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
     iget-object v3, v0, Lf/k/i/a/i/e$a;->k:Lf/k/i/a/d;
 
     invoke-static {v2, v3}, Lf/k/i/a/i/e;->a(Lf/k/i/a/i/e;Lf/k/i/a/d;)V
 
-    .line 2
     iget-object v4, v0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
     iget-object v5, v0, Lf/k/i/a/i/e$a;->k:Lf/k/i/a/d;
@@ -65,7 +62,6 @@
 
     invoke-virtual/range {v4 .. v11}, Lf/k/i/a/i/e;->e(Lf/k/i/a/d;JJJ)V
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -78,21 +74,18 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
     iget-object v1, p0, Lf/k/i/a/i/e$a;->k:Lf/k/i/a/d;
 
     invoke-static {v0, v1}, Lf/k/i/a/i/e;->a(Lf/k/i/a/i/e;Lf/k/i/a/d;)V
 
-    .line 2
     iget-object v0, p0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
     iget-object v1, p0, Lf/k/i/a/i/e$a;->k:Lf/k/i/a/d;
 
     invoke-virtual {v0, v1, p2, p3}, Lf/k/i/a/i/e;->f(Lf/k/i/a/d;ILjava/lang/Exception;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -105,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
     iget-object v2, p0, Lf/k/i/a/i/e$a;->k:Lf/k/i/a/d;
@@ -118,7 +110,6 @@
 
     invoke-virtual/range {v1 .. v8}, Lf/k/i/a/i/e;->g(Lf/k/i/a/d;JJJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -133,14 +124,12 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, v0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
     iget-object v3, v0, Lf/k/i/a/i/e$a;->k:Lf/k/i/a/d;
 
     invoke-static {v2, v3}, Lf/k/i/a/i/e;->a(Lf/k/i/a/i/e;Lf/k/i/a/d;)V
 
-    .line 2
     iget-object v4, v0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
     iget-object v5, v0, Lf/k/i/a/i/e$a;->k:Lf/k/i/a/d;
@@ -153,7 +142,6 @@
 
     invoke-virtual/range {v4 .. v11}, Lf/k/i/a/i/e;->h(Lf/k/i/a/d;JJJ)V
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -166,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
     iget-object v2, p0, Lf/k/i/a/i/e$a;->k:Lf/k/i/a/d;
@@ -177,7 +164,6 @@
 
     invoke-virtual/range {v1 .. v6}, Lf/k/i/a/i/e;->i(Lf/k/i/a/d;JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

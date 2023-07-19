@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -87,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -124,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -161,7 +157,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -198,7 +193,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -217,7 +211,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/e;->c(Ljava/lang/String;)V
 
     return-void

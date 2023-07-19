@@ -54,12 +54,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/StandardTable$g;->c:Lcom/google/common/collect/StandardTable;
 
     invoke-direct {p0}, Lcom/google/common/collect/Maps$y;-><init>()V
 
-    .line 2
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -82,21 +80,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/StandardTable$g;->b()Ljava/util/Map;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Iterators;->w()Ljava/util/Iterator;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -106,7 +101,6 @@
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Lcom/google/common/collect/StandardTable$g$a;
 
     invoke-direct {v1, p0, v0}, Lcom/google/common/collect/StandardTable$g$a;-><init>(Lcom/google/common/collect/StandardTable$g;Ljava/util/Iterator;)V
@@ -124,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$g;->b:Ljava/util/Map;
 
     if-eqz v0, :cond_1
@@ -149,7 +142,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$g;->b:Ljava/util/Map;
 
@@ -177,7 +169,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$g;->c:Lcom/google/common/collect/StandardTable;
 
     iget-object v0, v0, Lcom/google/common/collect/StandardTable;->backingMap:Ljava/util/Map;
@@ -196,17 +187,14 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/StandardTable$g;->b()Ljava/util/Map;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map;->clear()V
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/google/common/collect/StandardTable$g;->d()V
 
@@ -216,7 +204,6 @@
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/StandardTable$g;->b()Ljava/util/Map;
 
     move-result-object v0
@@ -225,7 +212,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/common/collect/Maps;->o0(Ljava/util/Map;Ljava/lang/Object;)Z
 
     move-result p1
@@ -246,7 +232,6 @@
 .method d()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/StandardTable$g;->b()Ljava/util/Map;
 
     move-result-object v0
@@ -261,7 +246,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$g;->c:Lcom/google/common/collect/StandardTable;
 
     iget-object v0, v0, Lcom/google/common/collect/StandardTable;->backingMap:Ljava/util/Map;
@@ -272,7 +256,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/collect/StandardTable$g;->b:Ljava/util/Map;
 
     :cond_0
@@ -291,7 +274,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/StandardTable$g$b;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/StandardTable$g$b;-><init>(Lcom/google/common/collect/StandardTable$g;Ljava/util/Map$Entry;)V
@@ -309,7 +291,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/StandardTable$g;->b()Ljava/util/Map;
 
     move-result-object v0
@@ -318,7 +299,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/common/collect/Maps;->p0(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -340,13 +320,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$g;->b:Ljava/util/Map;
 
     if-eqz v0, :cond_0
@@ -357,7 +334,6 @@
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$g;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -366,7 +342,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$g;->c:Lcom/google/common/collect/StandardTable;
 
@@ -389,7 +364,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/StandardTable$g;->b()Ljava/util/Map;
 
     move-result-object v0
@@ -400,13 +374,11 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-static {v0, p1}, Lcom/google/common/collect/Maps;->q0(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/StandardTable$g;->d()V
 
     return-object p1
@@ -415,7 +387,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/StandardTable$g;->b()Ljava/util/Map;
 
     move-result-object v0
@@ -426,7 +397,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {v0}, Ljava/util/Map;->size()I
 

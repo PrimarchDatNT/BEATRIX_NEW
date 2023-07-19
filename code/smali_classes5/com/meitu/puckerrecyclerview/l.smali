@@ -32,13 +32,10 @@
 .method public constructor <init>(Lcom/meitu/puckerrecyclerview/j;Landroid/view/ViewGroup;Landroid/view/View;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p3}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/l;->a:Lcom/meitu/puckerrecyclerview/j;
 
-    .line 3
     new-instance p1, Lcom/meitu/puckerrecyclerview/l$a;
 
     invoke-direct {p1, p0}, Lcom/meitu/puckerrecyclerview/l$a;-><init>(Lcom/meitu/puckerrecyclerview/l;)V
@@ -55,7 +52,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object p0
@@ -74,7 +70,6 @@
 .method protected a()Lcom/meitu/puckerrecyclerview/j;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/puckerrecyclerview/l;->a:Lcom/meitu/puckerrecyclerview/j;
 
     return-object v0
@@ -88,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/puckerrecyclerview/l;->b:Lcom/meitu/puckerrecyclerview/f;
 
     return-object v0
@@ -105,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p2, p0, Lcom/meitu/puckerrecyclerview/l;->b:Lcom/meitu/puckerrecyclerview/f;
 
     return-void
@@ -114,12 +107,10 @@
 .method protected f()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/puckerrecyclerview/l;->c:Lcom/meitu/puckerrecyclerview/j$b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/l;->b:Lcom/meitu/puckerrecyclerview/f;
 
     invoke-interface {v0, v1}, Lcom/meitu/puckerrecyclerview/j$b;->a(Lcom/meitu/puckerrecyclerview/f;)Z
@@ -131,7 +122,6 @@
 .method public g(Lcom/meitu/puckerrecyclerview/j$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/l;->c:Lcom/meitu/puckerrecyclerview/j$b;
 
     return-void

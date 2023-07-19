@@ -69,43 +69,30 @@
 .method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILandroidx/constraintlayout/widget/ConstraintLayout;Landroid/widget/FrameLayout;Lcom/commsource/widget/PressImageView;Lcom/commsource/widget/AutoFitTextView;Landroid/view/View;Landroid/view/View;Lcom/commsource/widget/XSeekBar;Landroidx/recyclerview/widget/RecyclerView;Lcom/commsource/puzzle/patchedworld/PatchedWorldView;Landroidx/recyclerview/widget/RecyclerView;Landroid/widget/TextView;Lcom/commsource/studio/text/TextTabView;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
-    .line 2
     iput-object p4, p0, Lcom/commsource/beautyplus/f0/gm;->a:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    .line 3
     iput-object p5, p0, Lcom/commsource/beautyplus/f0/gm;->b:Landroid/widget/FrameLayout;
 
-    .line 4
     iput-object p6, p0, Lcom/commsource/beautyplus/f0/gm;->c:Lcom/commsource/widget/PressImageView;
 
-    .line 5
     iput-object p7, p0, Lcom/commsource/beautyplus/f0/gm;->d:Lcom/commsource/widget/AutoFitTextView;
 
-    .line 6
     iput-object p8, p0, Lcom/commsource/beautyplus/f0/gm;->f:Landroid/view/View;
 
-    .line 7
     iput-object p9, p0, Lcom/commsource/beautyplus/f0/gm;->g:Landroid/view/View;
 
-    .line 8
     iput-object p10, p0, Lcom/commsource/beautyplus/f0/gm;->p:Lcom/commsource/widget/XSeekBar;
 
-    .line 9
     iput-object p11, p0, Lcom/commsource/beautyplus/f0/gm;->J:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 10
     iput-object p12, p0, Lcom/commsource/beautyplus/f0/gm;->K:Lcom/commsource/puzzle/patchedworld/PatchedWorldView;
 
-    .line 11
     iput-object p13, p0, Lcom/commsource/beautyplus/f0/gm;->L:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 12
     iput-object p14, p0, Lcom/commsource/beautyplus/f0/gm;->M:Landroid/widget/TextView;
 
-    .line 13
     iput-object p15, p0, Lcom/commsource/beautyplus/f0/gm;->N:Lcom/commsource/studio/text/TextTabView;
 
     return-void
@@ -118,7 +105,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -145,7 +131,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->puzzle_activity:I
 
-    .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -164,7 +149,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -189,7 +173,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -223,7 +206,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->puzzle_activity:I
 
-    .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -255,7 +237,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0

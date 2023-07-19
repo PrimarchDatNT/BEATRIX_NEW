@@ -46,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/x2;->a:Lcotlinx/coroutines/CoroutineDispatcher;
@@ -61,7 +60,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/x2;->b:Lcotlinx/coroutines/m;
 
     iget-object v1, p0, Lcotlinx/coroutines/x2;->a:Lcotlinx/coroutines/CoroutineDispatcher;

@@ -29,16 +29,12 @@
 .method constructor <init>(Lorg/jsoup/nodes/Element;Lorg/jsoup/select/Elements;Lorg/jsoup/select/c;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/jsoup/select/a$a;->a:Lorg/jsoup/nodes/Element;
 
-    .line 3
     iput-object p2, p0, Lorg/jsoup/select/a$a;->b:Lorg/jsoup/select/Elements;
 
-    .line 4
     iput-object p3, p0, Lorg/jsoup/select/a$a;->c:Lorg/jsoup/select/c;
 
     return-void
@@ -55,15 +51,12 @@
 .method public b(Lorg/jsoup/nodes/j;I)V
     .locals 1
 
-    .line 1
     instance-of p2, p1, Lorg/jsoup/nodes/Element;
 
     if-eqz p2, :cond_0
 
-    .line 2
     check-cast p1, Lorg/jsoup/nodes/Element;
 
-    .line 3
     iget-object p2, p0, Lorg/jsoup/select/a$a;->c:Lorg/jsoup/select/c;
 
     iget-object v0, p0, Lorg/jsoup/select/a$a;->a:Lorg/jsoup/nodes/Element;
@@ -74,7 +67,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 4
     iget-object p2, p0, Lorg/jsoup/select/a$a;->b:Lorg/jsoup/select/Elements;
 
     invoke-virtual {p2, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z

@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/LeakTrace$a;-><init>()V
 
     return-void
@@ -37,7 +35,6 @@
 .method public static final synthetic a(Lkshark/LeakTrace$a;Lkshark/LeakTrace;Lkshark/LeakTraceReference;IZ)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lkshark/LeakTrace$a;->b(Lkshark/LeakTrace;Lkshark/LeakTraceReference;IZ)Ljava/lang/String;
 
     move-result-object p0
@@ -48,7 +45,6 @@
 .method private final b(Lkshark/LeakTrace;Lkshark/LeakTraceReference;IZ)Ljava/lang/String;
     .locals 8
 
-    .line 1
     invoke-virtual {p2}, Lkshark/LeakTraceReference;->getReferenceType()Lkshark/LeakTraceReference$ReferenceType;
 
     move-result-object v0
@@ -64,7 +60,6 @@
     :cond_0
     const-string v0, ""
 
-    .line 2
     :goto_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -108,7 +103,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 3
     invoke-virtual {p1, p3}, Lkshark/LeakTrace;->referencePathElementIsSuspect(I)Z
 
     move-result p1
@@ -127,14 +121,12 @@
 
     move-object v2, p2
 
-    .line 4
     invoke-static/range {v2 .. v7}, Lcotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result p1
 
     add-int/lit8 p1, p1, 0x1
 
-    .line 5
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
     move-result p3
@@ -143,19 +135,16 @@
 
     const-string p4, " "
 
-    .line 6
     invoke-static {p4, p1}, Lcotlin/text/m;->e2(Ljava/lang/CharSequence;I)Ljava/lang/String;
 
     move-result-object p1
 
     const-string p4, "~"
 
-    .line 7
     invoke-static {p4, p3}, Lcotlin/text/m;->e2(Ljava/lang/CharSequence;I)Ljava/lang/String;
 
     move-result-object p3
 
-    .line 8
     new-instance p4, Ljava/lang/StringBuilder;
 
     invoke-direct {p4}, Ljava/lang/StringBuilder;-><init>()V
@@ -176,7 +165,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     new-instance p1, Ljava/lang/StringBuilder;
 

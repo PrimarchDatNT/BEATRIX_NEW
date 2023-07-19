@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage$b;->a:Lcom/commsource/studio/text/TextStylePage;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextStylePage;->b(Lcom/commsource/studio/text/TextStylePage;)Lcom/commsource/beautyplus/f0/ck;
@@ -71,7 +70,6 @@
 
     const-string v1, "it"
 
-    .line 2
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -80,12 +78,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/text/TextStylePage$b;->a:Lcom/commsource/studio/text/TextStylePage;
 
     invoke-static {p1}, Lcom/commsource/studio/text/TextStylePage;->e(Lcom/commsource/studio/text/TextStylePage;)V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/text/TextStylePage$b;->a:Lcom/commsource/studio/text/TextStylePage;
 
@@ -99,7 +95,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/text/HorizontalColorPicker;->setColorPickerLayerState(Z)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -113,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/text/TextStylePage$b;->a(Ljava/lang/Boolean;)V

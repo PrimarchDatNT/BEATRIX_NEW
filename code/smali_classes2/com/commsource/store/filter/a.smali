@@ -41,10 +41,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_shop_detail_footer:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/mi;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/mi;
@@ -53,7 +51,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/filter/a;->p:Lcom/commsource/beautyplus/f0/mi;
 
-    .line 3
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
     return-void
@@ -95,10 +92,8 @@
 
     invoke-static {p2, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -109,7 +104,6 @@
 
     sget p2, Lcom/res/provider/ResSTRING;->filter_shop_prompt:I
 
-    .line 3
     :try_start_0
     sget-object p3, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
@@ -125,14 +119,12 @@
 
     move-result-object p1
 
-    .line 4
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p3
 
     const-string v3, "sourceText"
 
-    .line 5
     invoke-static {p3, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "\""
@@ -177,7 +169,6 @@
 
     move-result-object v4
 
-    .line 6
     iget-object p3, p0, Lcom/commsource/store/filter/a;->p:Lcom/commsource/beautyplus/f0/mi;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/mi;->a:Landroid/widget/TextView;
@@ -238,7 +229,6 @@
 
     goto :goto_1
 
-    .line 7
     :catch_0
     iget-object p1, p0, Lcom/commsource/store/filter/a;->p:Lcom/commsource/beautyplus/f0/mi;
 
@@ -264,7 +254,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 8
     :cond_1
     :goto_1
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V

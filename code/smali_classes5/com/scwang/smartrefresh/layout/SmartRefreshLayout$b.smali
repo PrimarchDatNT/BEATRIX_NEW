@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$b;->b:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iput-boolean p2, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$b;->a:Z
@@ -39,7 +38,6 @@
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$b;->b:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iget-boolean v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$b;->a:Z

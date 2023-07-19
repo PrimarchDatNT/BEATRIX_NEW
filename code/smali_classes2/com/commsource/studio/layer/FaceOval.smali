@@ -110,7 +110,6 @@
 
     const/high16 v1, 0x40000000    # 2.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -119,7 +118,6 @@
 
     const/high16 v1, 0x40400000    # 3.0f
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -128,7 +126,6 @@
 
     const/16 v1, 0xc
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -165,12 +162,10 @@
 
     invoke-static {v8, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
     iput-object v8, v6, Lcom/commsource/studio/layer/FaceOval;->r:Landroid/graphics/RectF;
 
-    .line 2
     new-instance v0, Landroid/graphics/Paint;
 
     const/4 v9, 0x1
@@ -179,10 +174,8 @@
 
     const/4 v10, 0x0
 
-    .line 3
     invoke-virtual {v0, v10}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 4
     new-instance v1, Landroid/graphics/PorterDuffXfermode;
 
     sget-object v2, Landroid/graphics/PorterDuff$Mode;->SRC_IN:Landroid/graphics/PorterDuff$Mode;
@@ -191,107 +184,88 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 5
     iput-object v0, v6, Lcom/commsource/studio/layer/FaceOval;->a:Landroid/graphics/Paint;
 
-    .line 6
     new-instance v11, Landroid/graphics/PointF;
 
     invoke-direct {v11}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v11, v6, Lcom/commsource/studio/layer/FaceOval;->b:Landroid/graphics/PointF;
 
-    .line 7
     new-instance v12, Landroid/graphics/PointF;
 
     invoke-direct {v12}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v12, v6, Lcom/commsource/studio/layer/FaceOval;->c:Landroid/graphics/PointF;
 
-    .line 8
     new-instance v13, Landroid/graphics/PointF;
 
     invoke-direct {v13}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v13, v6, Lcom/commsource/studio/layer/FaceOval;->d:Landroid/graphics/PointF;
 
-    .line 9
     new-instance v14, Landroid/graphics/PointF;
 
     invoke-direct {v14}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v14, v6, Lcom/commsource/studio/layer/FaceOval;->e:Landroid/graphics/PointF;
 
-    .line 10
     new-instance v0, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v0}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object v0, v6, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
-    .line 11
     new-instance v15, Landroid/graphics/Path;
 
     invoke-direct {v15}, Landroid/graphics/Path;-><init>()V
 
     iput-object v15, v6, Lcom/commsource/studio/layer/FaceOval;->h:Landroid/graphics/Path;
 
-    .line 12
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0, v9}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 13
     sget-object v1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 14
     sget-object v1, Landroid/graphics/Paint$Cap;->ROUND:Landroid/graphics/Paint$Cap;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeCap(Landroid/graphics/Paint$Cap;)V
 
-    .line 15
     iput-object v0, v6, Lcom/commsource/studio/layer/FaceOval;->i:Landroid/graphics/Paint;
 
-    .line 16
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0, v9}, Landroid/graphics/Paint;-><init>(I)V
 
     const/high16 v1, -0x1000000
 
-    .line 17
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     const/high16 v1, 0x424c0000    # 51.0f
 
     float-to-int v1, v1
 
-    .line 18
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 19
     sget-object v1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 20
     sget-object v1, Landroid/graphics/Paint$Cap;->ROUND:Landroid/graphics/Paint$Cap;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeCap(Landroid/graphics/Paint$Cap;)V
 
-    .line 21
     iput-object v0, v6, Lcom/commsource/studio/layer/FaceOval;->j:Landroid/graphics/Paint;
 
-    .line 22
     new-instance v5, Landroid/graphics/RectF;
 
     invoke-direct {v5}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v5, v6, Lcom/commsource/studio/layer/FaceOval;->k:Landroid/graphics/RectF;
 
-    .line 23
     new-instance v4, Landroid/graphics/PointF;
 
     invoke-direct {v4}, Landroid/graphics/PointF;-><init>()V
@@ -302,14 +276,12 @@
 
     move/from16 v2, p2
 
-    .line 24
     invoke-virtual {v7, v2, v3}, Lcom/meitu/core/types/FaceData;->getFaceLandmarkRatioFloatArray(II)[F
 
     move-result-object v1
 
     const-string v0, "facePoint"
 
-    .line 25
     invoke-static {v1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v16, 0x10
@@ -348,7 +320,6 @@
 
     move-object v1, v11
 
-    .line 26
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/layer/FaceOval;->e(Landroid/graphics/PointF;[FIIF)V
 
     const/16 v3, 0x20
@@ -357,7 +328,6 @@
 
     move-object v1, v13
 
-    .line 27
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/layer/FaceOval;->e(Landroid/graphics/PointF;[FIIF)V
 
     const/16 v3, 0x47
@@ -368,17 +338,14 @@
 
     move-object v1, v12
 
-    .line 28
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/layer/FaceOval;->e(Landroid/graphics/PointF;[FIIF)V
 
-    .line 29
     invoke-virtual/range {p1 .. p2}, Lcom/meitu/core/types/FaceData;->getRollAngle(I)F
 
     move-result v0
 
     iput v0, v6, Lcom/commsource/studio/layer/FaceOval;->f:F
 
-    .line 30
     iget v0, v13, Landroid/graphics/PointF;->x:F
 
     iget v1, v11, Landroid/graphics/PointF;->x:F
@@ -391,7 +358,6 @@
 
     mul-float v0, v0, p3
 
-    .line 31
     iget v2, v12, Landroid/graphics/PointF;->y:F
 
     iget v3, v14, Landroid/graphics/PointF;->y:F
@@ -402,12 +368,10 @@
 
     mul-float v2, v2, p4
 
-    .line 32
     iget-object v1, v6, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->reset()V
 
-    .line 33
     iget-object v1, v6, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     iget v3, v6, Lcom/commsource/studio/layer/FaceOval;->f:F
@@ -416,7 +380,6 @@
 
     new-array v0, v9, [F
 
-    .line 34
     iget v1, v11, Landroid/graphics/PointF;->x:F
 
     mul-float v1, v1, p3
@@ -431,7 +394,6 @@
 
     aput v1, v0, v2
 
-    .line 35
     iget-object v1, v6, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
@@ -440,7 +402,6 @@
 
     invoke-virtual {v1, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 36
     aget v0, v0, v10
 
     move-object/from16 v1, v21
@@ -449,7 +410,6 @@
 
     new-array v0, v9, [F
 
-    .line 37
     iget v2, v13, Landroid/graphics/PointF;->x:F
 
     mul-float v2, v2, p3
@@ -464,7 +424,6 @@
 
     aput v2, v0, v3
 
-    .line 38
     iget-object v2, v6, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
@@ -473,14 +432,12 @@
 
     invoke-virtual {v2, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 39
     aget v0, v0, v10
 
     iput v0, v1, Landroid/graphics/RectF;->right:F
 
     new-array v0, v9, [F
 
-    .line 40
     iget v2, v12, Landroid/graphics/PointF;->x:F
 
     mul-float v2, v2, p3
@@ -495,7 +452,6 @@
 
     aput v2, v0, v3
 
-    .line 41
     iget-object v2, v6, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
@@ -504,14 +460,12 @@
 
     invoke-virtual {v2, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 42
     aget v0, v0, v3
 
     iput v0, v1, Landroid/graphics/RectF;->top:F
 
     new-array v0, v9, [F
 
-    .line 43
     iget v2, v14, Landroid/graphics/PointF;->x:F
 
     mul-float v2, v2, p3
@@ -524,7 +478,6 @@
 
     aput v2, v0, v3
 
-    .line 44
     iget-object v2, v6, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
@@ -533,7 +486,6 @@
 
     invoke-virtual {v2, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 45
     aget v0, v0, v3
 
     iput v0, v1, Landroid/graphics/RectF;->bottom:F
@@ -542,17 +494,14 @@
 
     const/high16 v2, 0x42480000    # 50.0f
 
-    .line 46
     invoke-virtual {v15, v1, v0, v2}, Landroid/graphics/Path;->addArc(Landroid/graphics/RectF;FF)V
 
     const/high16 v0, 0x43020000    # 130.0f
 
-    .line 47
     invoke-virtual {v15, v1, v0, v2}, Landroid/graphics/Path;->addArc(Landroid/graphics/RectF;FF)V
 
     new-array v0, v9, [F
 
-    .line 48
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
 
     move-result v2
@@ -563,7 +512,6 @@
 
     aput v1, v0, v3
 
-    .line 49
     iget-object v1, v6, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -572,7 +520,6 @@
 
     invoke-virtual {v1, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 50
     aget v1, v0, v10
 
     sget v2, Lcom/commsource/studio/layer/FaceOval;->u:F
@@ -592,7 +539,6 @@
 
     goto :goto_1
 
-    .line 51
     :cond_0
     aget v1, v0, v10
 
@@ -606,7 +552,6 @@
 
     if-lez v1, :cond_1
 
-    .line 52
     invoke-virtual/range {p5 .. p5}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -615,13 +560,11 @@
 
     goto :goto_0
 
-    .line 53
     :cond_1
     aget v1, v0, v10
 
     goto :goto_0
 
-    .line 54
     :goto_1
     aget v4, v0, v3
 
@@ -635,7 +578,6 @@
 
     if-lez v4, :cond_2
 
-    .line 55
     invoke-virtual/range {p5 .. p5}, Landroid/graphics/RectF;->height()F
 
     move-result v4
@@ -644,7 +586,6 @@
 
     goto :goto_2
 
-    .line 56
     :cond_2
     aget v4, v0, v3
 
@@ -653,7 +594,6 @@
 
     aput v4, v0, v3
 
-    .line 57
     iget-object v1, v6, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
@@ -662,7 +602,6 @@
 
     invoke-virtual {v1, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 58
     aget v1, v0, v10
 
     aget v0, v0, v3
@@ -671,7 +610,6 @@
 
     invoke-virtual {v2, v1, v0}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 59
     sget-object v0, Lcom/commsource/studio/layer/FaceOval$labelBackgroundPaint$2;->INSTANCE:Lcom/commsource/studio/layer/FaceOval$labelBackgroundPaint$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -680,7 +618,6 @@
 
     iput-object v0, v6, Lcom/commsource/studio/layer/FaceOval;->n:Lcotlin/w;
 
-    .line 60
     sget-object v0, Lcom/commsource/studio/layer/FaceOval$labelCenterPaint$2;->INSTANCE:Lcom/commsource/studio/layer/FaceOval$labelCenterPaint$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -689,7 +626,6 @@
 
     iput-object v0, v6, Lcom/commsource/studio/layer/FaceOval;->o:Lcotlin/w;
 
-    .line 61
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     const v1, 0x4119999a    # 9.6f
@@ -710,7 +646,6 @@
 
     const/4 v0, 0x1
 
-    .line 62
     iput-boolean v0, v6, Lcom/commsource/studio/layer/FaceOval;->q:Z
 
     return-void
@@ -723,7 +658,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/layer/FaceOval;->u:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -738,7 +672,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/layer/FaceOval;->s:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -753,7 +686,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/layer/FaceOval;->t:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -770,7 +702,6 @@
 
     mul-int/lit8 p3, p3, 0x2
 
-    .line 1
     aget v1, p2, p3
 
     aget v2, p2, p3
@@ -787,7 +718,6 @@
 
     add-int/lit8 p3, p3, 0x1
 
-    .line 2
     aget v2, p2, p3
 
     aget p3, p2, p3
@@ -802,10 +732,8 @@
 
     add-float/2addr v2, p3
 
-    .line 3
     invoke-virtual {p1, v1, v2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -860,7 +788,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/FaceOval;->m:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -875,7 +802,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/layer/FaceOval;->f:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -890,7 +816,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/FaceOval;->q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -913,7 +838,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -936,7 +860,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/FaceOval;->p:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -951,12 +874,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/FaceOval;->m:Z
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/layer/FaceOval;->i:Landroid/graphics/Paint;
 
     const-wide v1, 0xfffb5986L
@@ -967,7 +888,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/layer/FaceOval;->i:Landroid/graphics/Paint;
 
@@ -975,7 +895,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/layer/FaceOval;->i:Landroid/graphics/Paint;
 
     const v1, 0x4358c000    # 216.75f
@@ -984,7 +903,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1006,7 +924,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->k:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
@@ -1043,14 +960,12 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/layer/FaceOval$b;->f()Z
 
     move-result p1
 
     iput-boolean p1, p0, Lcom/commsource/studio/layer/FaceOval;->q:Z
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1072,10 +987,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -1084,17 +997,14 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->k:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/studio/layer/FaceOval;->a:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawOval(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 4
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1115,10 +1025,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v0}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -1127,7 +1035,6 @@
 
     invoke-virtual {p1, v0}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/layer/FaceOval;->l:Landroid/graphics/PointF;
 
     iget v1, v0, Landroid/graphics/PointF;->x:F
@@ -1146,7 +1053,6 @@
 
     invoke-virtual {p1, v1, v0, p3, v2}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/studio/layer/FaceOval;->l:Landroid/graphics/PointF;
 
     iget v0, p3, Landroid/graphics/PointF;->x:F
@@ -1165,10 +1071,8 @@
 
     invoke-virtual {p1, v0, p3, v1, v2}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 5
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 6
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1189,10 +1093,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -1201,7 +1103,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->j:Landroid/graphics/Paint;
 
     sget v2, Lcom/commsource/studio/layer/FaceOval;->t:F
@@ -1210,14 +1111,12 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->h:Landroid/graphics/Path;
 
     iget-object v2, p0, Lcom/commsource/studio/layer/FaceOval;->j:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->i:Landroid/graphics/Paint;
 
     sget v2, Lcom/commsource/studio/layer/FaceOval;->s:F
@@ -1226,17 +1125,14 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/studio/layer/FaceOval;->h:Landroid/graphics/Path;
 
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->i:Landroid/graphics/Paint;
 
     invoke-virtual {p1, p2, v1}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 7
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1251,7 +1147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/FaceOval$b;
 
     const/4 v2, 0x2
@@ -1294,7 +1189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/layer/FaceOval;->f:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1311,7 +1205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->e:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1328,7 +1221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->a:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1349,7 +1241,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/studio/layer/FaceOval;->k:Landroid/graphics/RectF;
 
     invoke-virtual {v2}, Landroid/graphics/RectF;->centerX()F
@@ -1384,7 +1275,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->l:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1401,7 +1291,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->b:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1418,7 +1307,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1435,7 +1323,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->h:Landroid/graphics/Path;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1452,7 +1339,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->p:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1469,7 +1355,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->d:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1486,7 +1371,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->c:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1503,7 +1387,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->r:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1518,7 +1401,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/FaceOval;->q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1541,19 +1423,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/FaceOval;->q:Z
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
@@ -1561,7 +1440,6 @@
 
     check-cast p1, [F
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
@@ -1570,7 +1448,6 @@
 
     invoke-virtual {v1, p1}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->l:Landroid/graphics/PointF;
 
     iget v1, v1, Landroid/graphics/PointF;->x:F
@@ -1612,7 +1489,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 6
     :goto_0
     iget-object v4, p0, Lcom/commsource/studio/layer/FaceOval;->l:Landroid/graphics/PointF;
 
@@ -1658,7 +1534,6 @@
 
     const/4 v2, 0x1
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1680,14 +1555,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, [F
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->g:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
@@ -1696,7 +1569,6 @@
 
     invoke-virtual {v1, p1}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceOval;->k:Landroid/graphics/RectF;
 
     const/4 v2, 0x0

@@ -29,17 +29,14 @@
 .method constructor <init>(Lcom/google/protobuf/ByteString;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/protobuf/ByteString$a;->c:Lcom/google/protobuf/ByteString;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/protobuf/ByteString$a;->a:I
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->size()I
 
     move-result p1
@@ -54,7 +51,6 @@
 .method public a()Ljava/lang/Byte;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/ByteString$a;->h()B
 
     move-result v0
@@ -69,7 +65,6 @@
 .method public h()B
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/protobuf/ByteString$a;->c:Lcom/google/protobuf/ByteString;
 
@@ -90,7 +85,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Ljava/util/NoSuchElementException;
 
     invoke-virtual {v0}, Ljava/lang/IndexOutOfBoundsException;->getMessage()Ljava/lang/String;
@@ -105,7 +99,6 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/ByteString$a;->a:I
 
     iget v1, p0, Lcom/google/protobuf/ByteString$a;->b:I
@@ -126,7 +119,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/ByteString$a;->a()Ljava/lang/Byte;
 
     move-result-object v0
@@ -137,7 +129,6 @@
 .method public remove()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V

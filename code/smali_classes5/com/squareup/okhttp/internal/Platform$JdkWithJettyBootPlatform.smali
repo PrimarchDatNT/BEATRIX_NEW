@@ -58,22 +58,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/squareup/okhttp/internal/Platform$JdkPlatform;-><init>(Ljava/lang/Class;)V
 
-    .line 2
     iput-object p2, p0, Lcom/squareup/okhttp/internal/Platform$JdkWithJettyBootPlatform;->putMethod:Ljava/lang/reflect/Method;
 
-    .line 3
     iput-object p3, p0, Lcom/squareup/okhttp/internal/Platform$JdkWithJettyBootPlatform;->getMethod:Ljava/lang/reflect/Method;
 
-    .line 4
     iput-object p4, p0, Lcom/squareup/okhttp/internal/Platform$JdkWithJettyBootPlatform;->removeMethod:Ljava/lang/reflect/Method;
 
-    .line 5
     iput-object p5, p0, Lcom/squareup/okhttp/internal/Platform$JdkWithJettyBootPlatform;->clientProviderClass:Ljava/lang/Class;
 
-    .line 6
     iput-object p6, p0, Lcom/squareup/okhttp/internal/Platform$JdkWithJettyBootPlatform;->serverProviderClass:Ljava/lang/Class;
 
     return-void
@@ -84,7 +78,6 @@
 .method public afterHandshake(Ljavax/net/ssl/SSLSocket;)V
     .locals 4
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/Platform$JdkWithJettyBootPlatform;->removeMethod:Ljava/lang/reflect/Method;
 
@@ -105,7 +98,6 @@
 
     return-void
 
-    .line 2
     :catch_0
     new-instance p1, Ljava/lang/AssertionError;
 
@@ -127,7 +119,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-interface {p3}, Ljava/util/List;->size()I
@@ -136,7 +127,6 @@
 
     invoke-direct {p2, v0}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     invoke-interface {p3}, Ljava/util/List;->size()I
 
     move-result v0
@@ -148,21 +138,18 @@
     :goto_0
     if-ge v2, v0, :cond_1
 
-    .line 3
     invoke-interface {p3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/squareup/okhttp/Protocol;
 
-    .line 4
     sget-object v4, Lcom/squareup/okhttp/Protocol;->HTTP_1_0:Lcom/squareup/okhttp/Protocol;
 
     if-ne v3, v4, :cond_0
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-virtual {v3}, Lcom/squareup/okhttp/Protocol;->toString()Ljava/lang/String;
 
@@ -175,7 +162,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     :try_start_0
     const-class p3, Lcom/squareup/okhttp/internal/Platform;
@@ -206,7 +192,6 @@
 
     move-result-object p2
 
-    .line 7
     iget-object p3, p0, Lcom/squareup/okhttp/internal/Platform$JdkWithJettyBootPlatform;->putMethod:Ljava/lang/reflect/Method;
 
     const/4 v2, 0x0
@@ -232,7 +217,6 @@
     :catch_1
     move-exception p1
 
-    .line 8
     :goto_2
     new-instance p2, Ljava/lang/AssertionError;
 
@@ -244,7 +228,6 @@
 .method public getSelectedProtocol(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/Platform$JdkWithJettyBootPlatform;->getMethod:Ljava/lang/reflect/Method;
 
@@ -258,7 +241,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-virtual {v0, p1, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -269,7 +251,6 @@
 
     check-cast v0, Lcom/squareup/okhttp/internal/Platform$JettyNegoProvider;
 
-    .line 3
     invoke-static {v0}, Lcom/squareup/okhttp/internal/Platform$JettyNegoProvider;->access$000(Lcom/squareup/okhttp/internal/Platform$JettyNegoProvider;)Z
 
     move-result v1
@@ -282,7 +263,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     sget-object v0, Lcom/squareup/okhttp/internal/Internal;->logger:Ljava/util/logging/Logger;
 
     sget-object v1, Ljava/util/logging/Level;->INFO:Ljava/util/logging/Level;
@@ -293,7 +273,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/squareup/okhttp/internal/Platform$JettyNegoProvider;->access$000(Lcom/squareup/okhttp/internal/Platform$JettyNegoProvider;)Z
 
@@ -314,7 +293,6 @@
     :goto_0
     return-object p1
 
-    .line 6
     :catch_0
     new-instance p1, Ljava/lang/AssertionError;
 

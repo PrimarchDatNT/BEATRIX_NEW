@@ -42,14 +42,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->T(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$b;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/CameraNewActivity;->k1(Lcom/commsource/camera/xcamera/CameraNewActivity;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
@@ -60,7 +58,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$b;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-static {v2}, Lcom/commsource/camera/xcamera/CameraNewActivity;->e1(Lcom/commsource/camera/xcamera/CameraNewActivity;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/d;
@@ -71,7 +68,6 @@
 
     move-result-object v2
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$b;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-static {v3}, Lcom/commsource/camera/xcamera/CameraNewActivity;->e1(Lcom/commsource/camera/xcamera/CameraNewActivity;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/d;
@@ -84,7 +80,6 @@
 
     invoke-virtual {v3, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$b;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-static {v3}, Lcom/commsource/camera/xcamera/CameraNewActivity;->l1(Lcom/commsource/camera/xcamera/CameraNewActivity;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -93,7 +88,6 @@
 
     invoke-virtual {v3, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->C(Lcom/meitu/template/bean/LookMaterial;)V
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$b;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-static {v3}, Lcom/commsource/camera/xcamera/CameraNewActivity;->k1(Lcom/commsource/camera/xcamera/CameraNewActivity;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
@@ -102,7 +96,6 @@
 
     invoke-virtual {v3, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;->y(Lcom/meitu/template/bean/LookMaterial;)V
 
-    .line 7
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -115,7 +108,6 @@
 
     invoke-static {v5, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$b;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-static {v3}, Lcom/commsource/camera/xcamera/CameraNewActivity;->h1(Lcom/commsource/camera/xcamera/CameraNewActivity;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -136,7 +128,6 @@
 
     invoke-static/range {v4 .. v11}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z0(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;ZZZZILjava/lang/Object;)V
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$b;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->O0()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -161,7 +152,6 @@
     :goto_0
     invoke-virtual {v3, v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->t1(Lcom/meitu/template/bean/Filter;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$b;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->O0()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -174,7 +164,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->s1(Ljava/util/List;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

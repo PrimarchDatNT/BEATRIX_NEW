@@ -44,7 +44,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -59,7 +58,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->c(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;)Landroid/view/View;
@@ -68,12 +66,10 @@
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

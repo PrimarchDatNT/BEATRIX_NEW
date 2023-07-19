@@ -42,20 +42,16 @@
 .method public constructor <init>(Lcom/google/firebase/firestore/core/UserData$Source;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/core/UserData$b;->a:Lcom/google/firebase/firestore/core/UserData$Source;
 
-    .line 3
     new-instance p1, Ljava/util/HashSet;
 
     invoke-direct {p1}, Ljava/util/HashSet;-><init>()V
 
     iput-object p1, p0, Lcom/google/firebase/firestore/core/UserData$b;->b:Ljava/util/Set;
 
-    .line 4
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -68,7 +64,6 @@
 .method static synthetic a(Lcom/google/firebase/firestore/core/UserData$b;)Lcom/google/firebase/firestore/core/UserData$Source;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/firestore/core/UserData$b;->a:Lcom/google/firebase/firestore/core/UserData$Source;
 
     return-object p0
@@ -79,7 +74,6 @@
 .method b(Lcom/google/firebase/firestore/model/h;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/UserData$b;->b:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
@@ -90,7 +84,6 @@
 .method c(Lcom/google/firebase/firestore/model/h;Lcom/google/firebase/firestore/model/n/o;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/UserData$b;->c:Ljava/util/ArrayList;
 
     new-instance v1, Lcom/google/firebase/firestore/model/n/d;
@@ -105,7 +98,6 @@
 .method public d(Lcom/google/firebase/firestore/model/h;)Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/UserData$b;->b:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -127,7 +119,6 @@
 
     check-cast v1, Lcom/google/firebase/firestore/model/h;
 
-    .line 2
     invoke-virtual {p1, v1}, Lcom/google/firebase/firestore/model/a;->x(Lcom/google/firebase/firestore/model/a;)Z
 
     move-result v1
@@ -136,7 +127,6 @@
 
     return v2
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/UserData$b;->c:Ljava/util/ArrayList;
 
@@ -157,7 +147,6 @@
 
     check-cast v1, Lcom/google/firebase/firestore/model/n/d;
 
-    .line 4
     invoke-virtual {v1}, Lcom/google/firebase/firestore/model/n/d;->a()Lcom/google/firebase/firestore/model/h;
 
     move-result-object v1
@@ -179,7 +168,6 @@
 .method public e()Lcom/google/firebase/firestore/core/UserData$Source;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/UserData$b;->a:Lcom/google/firebase/firestore/core/UserData$Source;
 
     return-object v0
@@ -196,7 +184,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/UserData$b;->c:Ljava/util/ArrayList;
 
     return-object v0
@@ -205,7 +192,6 @@
 .method public g()Lcom/google/firebase/firestore/core/UserData$c;
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/core/UserData$c;
 
     sget-object v1, Lcom/google/firebase/firestore/model/h;->c:Lcom/google/firebase/firestore/model/h;
@@ -222,12 +208,10 @@
 .method public h(Lcom/google/firebase/firestore/model/value/j;)Lcom/google/firebase/firestore/core/UserData$d;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/core/UserData$d;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/core/UserData$b;->b:Ljava/util/Set;
 
-    .line 2
     invoke-static {v1}, Lcom/google/firebase/firestore/model/n/c;->c(Ljava/util/Set;)Lcom/google/firebase/firestore/model/n/c;
 
     move-result-object v1
@@ -246,12 +230,10 @@
 .method public i(Lcom/google/firebase/firestore/model/value/j;Lcom/google/firebase/firestore/model/n/c;)Lcom/google/firebase/firestore/core/UserData$d;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/firestore/core/UserData$b;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -272,7 +254,6 @@
 
     check-cast v2, Lcom/google/firebase/firestore/model/n/d;
 
-    .line 3
     invoke-virtual {v2}, Lcom/google/firebase/firestore/model/n/d;->a()Lcom/google/firebase/firestore/model/h;
 
     move-result-object v3
@@ -283,12 +264,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance v1, Lcom/google/firebase/firestore/core/UserData$d;
 
@@ -304,7 +283,6 @@
 .method public j(Lcom/google/firebase/firestore/model/value/j;)Lcom/google/firebase/firestore/core/UserData$d;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/core/UserData$d;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/core/UserData$b;->c:Ljava/util/ArrayList;
@@ -323,12 +301,10 @@
 .method public k(Lcom/google/firebase/firestore/model/value/j;)Lcom/google/firebase/firestore/core/UserData$e;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/core/UserData$e;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/core/UserData$b;->b:Ljava/util/Set;
 
-    .line 2
     invoke-static {v1}, Lcom/google/firebase/firestore/model/n/c;->c(Ljava/util/Set;)Lcom/google/firebase/firestore/model/n/c;
 
     move-result-object v1

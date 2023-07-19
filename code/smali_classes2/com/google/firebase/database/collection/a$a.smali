@@ -40,7 +40,6 @@
 .method constructor <init>(Lcom/google/firebase/database/collection/a;IZ)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/database/collection/a$a;->d:Lcom/google/firebase/database/collection/a;
 
     iput p2, p0, Lcom/google/firebase/database/collection/a$a;->b:I
@@ -49,7 +48,6 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p2, p0, Lcom/google/firebase/database/collection/a$a;->a:I
 
     return-void
@@ -67,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/a$a;->d:Lcom/google/firebase/database/collection/a;
 
     invoke-static {v0}, Lcom/google/firebase/database/collection/a;->u(Lcom/google/firebase/database/collection/a;)[Ljava/lang/Object;
@@ -78,7 +75,6 @@
 
     aget-object v0, v0, v1
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/database/collection/a$a;->d:Lcom/google/firebase/database/collection/a;
 
     invoke-static {v1}, Lcom/google/firebase/database/collection/a;->v(Lcom/google/firebase/database/collection/a;)[Ljava/lang/Object;
@@ -89,7 +85,6 @@
 
     aget-object v1, v1, v2
 
-    .line 3
     iget-boolean v3, p0, Lcom/google/firebase/database/collection/a$a;->c:Z
 
     if-eqz v3, :cond_0
@@ -104,7 +99,6 @@
     :goto_0
     iput v2, p0, Lcom/google/firebase/database/collection/a$a;->a:I
 
-    .line 4
     new-instance v2, Ljava/util/AbstractMap$SimpleImmutableEntry;
 
     invoke-direct {v2, v0, v1}, Ljava/util/AbstractMap$SimpleImmutableEntry;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -115,7 +109,6 @@
 .method public hasNext()Z
     .locals 4
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/database/collection/a$a;->c:Z
 
     const/4 v1, 0x1
@@ -155,7 +148,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/a$a;->a()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -166,7 +158,6 @@
 .method public remove()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Can\'t remove elements from ImmutableSortedMap"

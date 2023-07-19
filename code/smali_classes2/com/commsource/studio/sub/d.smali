@@ -49,10 +49,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -75,7 +73,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/d;->E(Lcom/commsource/studio/bean/FilterLayerInfo;)V
 
@@ -95,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/d;->c:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -121,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/d;->d:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/d;->b:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/d;->b:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     if-eqz v1, :cond_0
@@ -184,19 +177,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-direct {v1, p1}, Lcom/commsource/studio/bean/FilterLayerInfo;-><init>(Lcom/commsource/studio/bean/FilterLayerInfo;)V
 
     iput-object v1, p0, Lcom/commsource/studio/sub/d;->a:Lcom/commsource/studio/bean/FilterLayerInfo;
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/studio/sub/d;->b:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     if-nez p1, :cond_0
 
-    .line 3
     new-instance v1, Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-direct {v1, p1}, Lcom/commsource/studio/bean/FilterLayerInfo;-><init>(Lcom/commsource/studio/bean/FilterLayerInfo;)V
@@ -205,11 +195,9 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iput-object p1, p0, Lcom/commsource/studio/sub/d;->c:Lcom/commsource/studio/bean/FilterLayerInfo;
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -223,31 +211,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/d;->c:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/sub/d;->a:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/studio/bean/FilterLayerInfo;->getFilter()Lcom/meitu/template/bean/Filter;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/bean/FilterLayerInfo;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/studio/bean/FilterLayerInfo;->getAlpha()I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/FilterLayerInfo;->setAlpha(I)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sub/d;->d:Landroidx/lifecycle/MutableLiveData;
 
@@ -255,7 +238,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -272,7 +254,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/d;->a:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -291,7 +272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/d;->c:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -310,7 +290,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/d;->b:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -329,7 +308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/d;->d:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -338,7 +316,6 @@
 
     check-cast v1, Ljava/lang/Boolean;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/sub/d;->c:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     if-eqz v2, :cond_1
@@ -354,7 +331,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -368,7 +344,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/sub/d;->d:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -377,7 +352,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -393,7 +367,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/d;->a:Lcom/commsource/studio/bean/FilterLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

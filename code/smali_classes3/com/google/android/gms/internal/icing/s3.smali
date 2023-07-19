@@ -17,7 +17,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/a$a;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public final synthetic c(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/f;Ljava/lang/Object;Lcom/google/android/gms/common/api/i$b;Lcom/google/android/gms/common/api/i$c;)Lcom/google/android/gms/common/api/a$f;
     .locals 6
 
-    .line 1
     new-instance p4, Lcom/google/android/gms/internal/icing/h;
 
     move-object v0, p4

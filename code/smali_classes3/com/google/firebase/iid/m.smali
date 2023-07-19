@@ -30,12 +30,10 @@
 .method public final run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/iid/m;->a:Lcom/google/firebase/iid/h;
 
     iget-object v1, p0, Lcom/google/firebase/iid/m;->b:Landroid/os/IBinder;
 
-    .line 2
     monitor-enter v0
 
     const/4 v2, 0x0
@@ -45,17 +43,14 @@
     :try_start_0
     const-string v1, "Null service connection"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/firebase/iid/h;->c(ILjava/lang/String;)V
 
-    .line 4
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_1
     new-instance v3, Lcom/google/firebase/iid/q;
@@ -69,14 +64,11 @@
 
     const/4 v1, 0x2
 
-    .line 6
     :try_start_2
     iput v1, v0, Lcom/google/firebase/iid/h;->a:I
 
-    .line 7
     invoke-virtual {v0}, Lcom/google/firebase/iid/h;->a()V
 
-    .line 8
     monitor-exit v0
 
     return-void
@@ -89,19 +81,16 @@
     :catch_0
     move-exception v1
 
-    .line 9
     invoke-virtual {v1}, Landroid/os/RemoteException;->getMessage()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v2, v1}, Lcom/google/firebase/iid/h;->c(ILjava/lang/String;)V
 
-    .line 10
     monitor-exit v0
 
     return-void
 
-    .line 11
     :goto_0
     monitor-exit v0
     :try_end_2

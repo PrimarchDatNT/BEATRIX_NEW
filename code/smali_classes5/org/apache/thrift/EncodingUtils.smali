@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -16,7 +15,6 @@
 .method public static final clearBit(BI)B
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lorg/apache/thrift/EncodingUtils;->clearBit(II)I
 
     move-result p0
@@ -57,7 +55,6 @@
 .method public static final clearBit(SI)S
     .locals 0
 
-    .line 2
     invoke-static {p0, p1}, Lorg/apache/thrift/EncodingUtils;->clearBit(II)I
 
     move-result p0
@@ -72,7 +69,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/thrift/EncodingUtils;->decodeBigEndian([BI)I
 
     move-result p0
@@ -83,7 +79,6 @@
 .method public static final decodeBigEndian([BI)I
     .locals 2
 
-    .line 2
     aget-byte v0, p0, p1
 
     and-int/lit16 v0, v0, 0xff
@@ -126,7 +121,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0}, Lorg/apache/thrift/EncodingUtils;->encodeBigEndian(I[BI)V
 
     return-void
@@ -141,7 +135,6 @@
 
     int-to-byte v0, v0
 
-    .line 2
     aput-byte v0, p1, p2
 
     add-int/lit8 v0, p2, 0x1
@@ -152,7 +145,6 @@
 
     int-to-byte v1, v1
 
-    .line 3
     aput-byte v1, p1, v0
 
     add-int/lit8 v0, p2, 0x2
@@ -163,7 +155,6 @@
 
     int-to-byte v1, v1
 
-    .line 4
     aput-byte v1, p1, v0
 
     add-int/lit8 p2, p2, 0x3
@@ -172,7 +163,6 @@
 
     int-to-byte p0, p0
 
-    .line 5
     aput-byte p0, p1, p2
 
     return-void
@@ -181,7 +171,6 @@
 .method public static final setBit(BIZ)B
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lorg/apache/thrift/EncodingUtils;->setBit(IIZ)I
 
     move-result p0
@@ -204,7 +193,6 @@
 
     return p0
 
-    .line 3
     :cond_0
     invoke-static {p0, p1}, Lorg/apache/thrift/EncodingUtils;->clearBit(II)I
 
@@ -226,7 +214,6 @@
 
     return-wide p0
 
-    .line 4
     :cond_0
     invoke-static {p0, p1, p2}, Lorg/apache/thrift/EncodingUtils;->clearBit(JI)J
 
@@ -238,7 +225,6 @@
 .method public static final setBit(SIZ)S
     .locals 0
 
-    .line 2
     invoke-static {p0, p1, p2}, Lorg/apache/thrift/EncodingUtils;->setBit(IIZ)I
 
     move-result p0
@@ -251,7 +237,6 @@
 .method public static final testBit(BI)Z
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lorg/apache/thrift/EncodingUtils;->testBit(II)Z
 
     move-result p0
@@ -308,7 +293,6 @@
 .method public static final testBit(SI)Z
     .locals 0
 
-    .line 2
     invoke-static {p0, p1}, Lorg/apache/thrift/EncodingUtils;->testBit(II)Z
 
     move-result p0

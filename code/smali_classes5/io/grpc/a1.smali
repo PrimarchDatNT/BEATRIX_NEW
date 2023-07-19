@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/z0$d;->a:Lio/grpc/a$c;
 
     sput-object v0, Lio/grpc/a1;->e:Lio/grpc/a$c;
@@ -39,7 +38,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/z0$d;-><init>()V
 
     return-void
@@ -50,7 +48,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {}, Lio/grpc/b1;->d()Lio/grpc/b1;
 
     move-result-object v0
@@ -76,7 +73,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {}, Lio/grpc/b1;->d()Lio/grpc/b1;
 
     move-result-object v0

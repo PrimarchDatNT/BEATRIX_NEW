@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/android/billingclient/api/e;Lcom/android/billingclient/api/m;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/android/billingclient/api/r0;->a:Lcom/android/billingclient/api/m;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -27,7 +26,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/r0;->a:Lcom/android/billingclient/api/m;
 
     sget-object v1, Lcom/android/billingclient/api/a0;->r:Lcom/android/billingclient/api/h;

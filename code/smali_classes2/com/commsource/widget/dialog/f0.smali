@@ -19,15 +19,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/dialog/i0;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/widget/dialog/f0;->X:Lcom/bumptech/glide/integration/webp/decoder/k;
 
-    .line 3
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
@@ -44,28 +41,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/f0;->X:Lcom/bumptech/glide/integration/webp/decoder/k;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Lcom/bumptech/glide/integration/webp/decoder/k;->stop()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/dialog/f0;->X:Lcom/bumptech/glide/integration/webp/decoder/k;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2, v2}, Lcom/bumptech/glide/integration/webp/decoder/k;->setVisible(ZZ)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -80,20 +72,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/f0;->a0:Landroid/view/View$OnClickListener;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/f0;->W:Lcom/commsource/beautyplus/f0/e5;
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e5;->d:Lcom/commsource/widget/PressTextView;
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -107,20 +95,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/f0;->Z:Landroid/view/View$OnClickListener;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/f0;->W:Lcom/commsource/beautyplus/f0/e5;
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e5;->a:Lcom/commsource/widget/PressTextView;
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -134,17 +118,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/widget/dialog/i0;->onCreate(Landroid/os/Bundle;)V
 
     const/4 p1, 0x0
 
     sget v1, Lcom/res/provider/ResSTYLE;->baseDialog:I
 
-    .line 2
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/dialog/i0;->setStyle(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -163,12 +144,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/widget/dialog/i0;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v1
@@ -177,7 +156,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->setWindowAnimations(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -202,14 +180,12 @@
 
     const/4 p3, 0x0
 
-    .line 1
     invoke-virtual {p0, p3}, Lcom/commsource/widget/dialog/i0;->setCancelable(Z)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_ai_guide:I
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {p1, v0, v1, p3}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -218,30 +194,25 @@
 
     iput-object p1, p0, Lcom/commsource/widget/dialog/f0;->W:Lcom/commsource/beautyplus/f0/e5;
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/widget/dialog/f0;->Z:Landroid/view/View$OnClickListener;
 
     if-eqz p3, :cond_0
 
-    .line 4
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/e5;->a:Lcom/commsource/widget/PressTextView;
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/widget/dialog/f0;->a0:Landroid/view/View$OnClickListener;
 
     if-eqz p1, :cond_1
 
-    .line 6
     iget-object p3, p0, Lcom/commsource/widget/dialog/f0;->W:Lcom/commsource/beautyplus/f0/e5;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/e5;->d:Lcom/commsource/widget/PressTextView;
 
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     :cond_1
     iget-object p1, p0, Lcom/commsource/widget/dialog/f0;->W:Lcom/commsource/beautyplus/f0/e5;
 
@@ -261,35 +232,27 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/widget/dialog/i0;->onDestroyView()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/f0;->X:Lcom/bumptech/glide/integration/webp/decoder/k;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/bumptech/glide/integration/webp/decoder/k;->stop()V
 
-    .line 4
     iput-object v2, p0, Lcom/commsource/widget/dialog/f0;->X:Lcom/bumptech/glide/integration/webp/decoder/k;
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/dialog/f0;->Y:Landroid/os/Handler;
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 7
     iput-object v2, p0, Lcom/commsource/widget/dialog/f0;->Y:Landroid/os/Handler;
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -311,10 +274,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/widget/dialog/f0;->W:Lcom/commsource/beautyplus/f0/e5;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/e5;->b:Landroid/widget/ImageView;
@@ -325,7 +286,6 @@
 
     invoke-virtual {p2, v1, v2}, Landroid/widget/ImageView;->setLayerType(ILandroid/graphics/Paint;)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/widget/dialog/f0;->W:Lcom/commsource/beautyplus/f0/e5;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/e5;->a:Lcom/commsource/widget/PressTextView;
@@ -334,7 +294,6 @@
 
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/widget/dialog/f0;->W:Lcom/commsource/beautyplus/f0/e5;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/e5;->d:Lcom/commsource/widget/PressTextView;
@@ -343,7 +302,6 @@
 
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 5
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -354,14 +312,12 @@
 
     sget p2, Lcom/res/provider/ResDRAWABLE;->edit_cutout_img_guide:I
 
-    .line 6
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
 
     move-result-object p1
 
     sget-object p2, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
-    .line 7
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->u(Landroid/widget/ImageView$ScaleType;)Lcom/commsource/util/u0$d;
 
     move-result-object p1
@@ -370,10 +326,8 @@
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/e5;->b:Landroid/widget/ImageView;
 
-    .line 8
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

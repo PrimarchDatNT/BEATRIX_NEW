@@ -6,7 +6,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -15,7 +14,6 @@
 .method public static a()Lcom/google/firebase/appindexing/g/b;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/b;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/b;-><init>()V
@@ -26,7 +24,6 @@
 .method public static b()Lcom/google/firebase/appindexing/g/c;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/c;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/c;-><init>()V
@@ -37,7 +34,6 @@
 .method public static c()Lcom/google/firebase/appindexing/g/d;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/d;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/d;-><init>()V
@@ -48,7 +44,6 @@
 .method public static d()Lcom/google/firebase/appindexing/g/e;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/e;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/e;-><init>()V
@@ -59,7 +54,6 @@
 .method public static e()Lcom/google/firebase/appindexing/g/f;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/f;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/f;-><init>()V
@@ -70,7 +64,6 @@
 .method public static f()Lcom/google/firebase/appindexing/g/g;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/g;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/g;-><init>()V
@@ -81,7 +74,6 @@
 .method public static g()Lcom/google/firebase/appindexing/g/l;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/l;
 
     const-string v1, "EmailMessage"
@@ -94,7 +86,6 @@
 .method public static h()Lcom/google/firebase/appindexing/g/h;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/h;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/h;-><init>()V
@@ -105,7 +96,6 @@
 .method public static i()Lcom/google/firebase/appindexing/g/k;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/k;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/k;-><init>()V
@@ -116,7 +106,6 @@
 .method public static j()Lcom/google/firebase/appindexing/g/l;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/l;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/l;-><init>()V
@@ -127,7 +116,6 @@
 .method public static k()Lcom/google/firebase/appindexing/g/m;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/m;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/m;-><init>()V
@@ -138,7 +126,6 @@
 .method public static l()Lcom/google/firebase/appindexing/g/n;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/n;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/n;-><init>()V
@@ -149,7 +136,6 @@
 .method public static m()Lcom/google/firebase/appindexing/g/o;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/o;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/o;-><init>()V
@@ -160,7 +146,6 @@
 .method public static n()Lcom/google/firebase/appindexing/g/p;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/p;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/p;-><init>()V
@@ -179,13 +164,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Lcom/google/firebase/appindexing/e$a;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/e$a;-><init>()V
@@ -212,7 +194,6 @@
 .method public static p()Lcom/google/firebase/appindexing/g/f;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/f;
 
     const-string v1, "NoteDigitalDocument"
@@ -225,7 +206,6 @@
 .method public static q()Lcom/google/firebase/appindexing/g/q;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/q;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/q;-><init>()V
@@ -236,7 +216,6 @@
 .method public static r()Lcom/google/firebase/appindexing/g/s;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/s;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/s;-><init>()V
@@ -247,7 +226,6 @@
 .method public static s()Lcom/google/firebase/appindexing/g/t;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/t;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/t;-><init>()V
@@ -258,7 +236,6 @@
 .method public static t()Lcom/google/firebase/appindexing/g/f;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/f;
 
     const-string v1, "PresentationDigitalDocument"
@@ -271,7 +248,6 @@
 .method public static u()Lcom/google/firebase/appindexing/g/u;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/u;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/u;-><init>()V
@@ -282,7 +258,6 @@
 .method public static v()Lcom/google/firebase/appindexing/g/k;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/k;
 
     const-string v1, "Restaurant"
@@ -295,7 +270,6 @@
 .method public static w()Lcom/google/firebase/appindexing/g/f;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/f;
 
     const-string v1, "SpreadsheetDigitalDocument"
@@ -308,7 +282,6 @@
 .method public static x()Lcom/google/firebase/appindexing/g/v;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/v;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/v;-><init>()V
@@ -319,7 +292,6 @@
 .method public static y()Lcom/google/firebase/appindexing/g/w;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/w;
 
     invoke-direct {v0}, Lcom/google/firebase/appindexing/g/w;-><init>()V
@@ -330,7 +302,6 @@
 .method public static z()Lcom/google/firebase/appindexing/g/f;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/g/f;
 
     const-string v1, "TextDigitalDocument"

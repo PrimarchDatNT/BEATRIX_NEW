@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$f;->g:Lcom/commsource/beautyplus/web/CropPhotoActivity;
 
     iput p2, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$f;->p:I
@@ -63,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$f;->p:I
 
     iget v2, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$f;->J:I
@@ -80,12 +78,10 @@
 
     if-lt v5, v6, :cond_1
 
-    .line 2
     invoke-static {v2, v6}, Lcotlin/g2/o;->n(II)I
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$f;->g:Lcom/commsource/beautyplus/web/CropPhotoActivity;
 
     invoke-static {v2}, Lcom/commsource/beautyplus/web/CropPhotoActivity;->N0(Lcom/commsource/beautyplus/web/CropPhotoActivity;)Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -120,7 +116,6 @@
 
     div-float/2addr v5, v7
 
-    .line 4
     iget v7, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$f;->K:I
 
     int-to-float v8, v7
@@ -149,12 +144,10 @@
 
     float-to-int v2, v5
 
-    .line 5
     invoke-static {v1, v2}, Lcotlin/g2/o;->n(II)I
 
     move-result v1
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$f;->g:Lcom/commsource/beautyplus/web/CropPhotoActivity;
 
     invoke-static {v2}, Lcom/commsource/beautyplus/web/CropPhotoActivity;->N0(Lcom/commsource/beautyplus/web/CropPhotoActivity;)Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -191,12 +184,10 @@
 
     float-to-int v1, v1
 
-    .line 7
     invoke-static {v7, v1}, Lcotlin/g2/o;->n(II)I
 
     move-result v1
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$f;->g:Lcom/commsource/beautyplus/web/CropPhotoActivity;
 
     invoke-static {v2}, Lcom/commsource/beautyplus/web/CropPhotoActivity;->N0(Lcom/commsource/beautyplus/web/CropPhotoActivity;)Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -218,7 +209,6 @@
 
     invoke-static {v2, v1}, Lcom/commsource/beautyplus/web/CropPhotoActivity;->S0(Lcom/commsource/beautyplus/web/CropPhotoActivity;Landroid/graphics/Bitmap;)V
 
-    .line 9
     :goto_0
     new-instance v1, Landroid/os/Handler;
 
@@ -234,7 +224,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -22,10 +22,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/giphy/sdk/core/models/Meta;
 
     invoke-direct {v0, p1, p2}, Lcom/giphy/sdk/core/models/Meta;-><init>(ILjava/lang/String;)V
@@ -40,7 +38,6 @@
 .method public getMeta()Lcom/giphy/sdk/core/models/Meta;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/network/response/ErrorResponse;->meta:Lcom/giphy/sdk/core/models/Meta;
 
     return-object v0

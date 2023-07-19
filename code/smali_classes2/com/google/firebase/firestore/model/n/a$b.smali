@@ -26,7 +26,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/model/n/a;-><init>(Ljava/util/List;)V
 
     return-void
@@ -37,12 +36,10 @@
 .method protected d(Lcom/google/firebase/firestore/model/value/e;)Lcom/google/firebase/firestore/model/value/a;
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/firestore/model/n/a;->e(Lcom/google/firebase/firestore/model/value/e;)Ljava/util/ArrayList;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/n/a;->f()Ljava/util/List;
 
     move-result-object v0
@@ -65,19 +62,16 @@
 
     check-cast v1, Lcom/google/firebase/firestore/model/value/e;
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-virtual {p1, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {p1}, Lcom/google/firebase/firestore/model/value/a;->o(Ljava/util/List;)Lcom/google/firebase/firestore/model/value/a;
 

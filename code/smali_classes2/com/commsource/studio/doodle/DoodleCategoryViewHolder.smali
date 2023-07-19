@@ -44,10 +44,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_text_tab:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/doodle/DoodleCategoryViewHolder$mViewBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/doodle/DoodleCategoryViewHolder$mViewBinding$2;-><init>(Lcom/commsource/studio/doodle/DoodleCategoryViewHolder;)V
@@ -89,12 +87,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/doodle/DoodleCategoryViewHolder;->v()Lcom/commsource/beautyplus/f0/ok;
 
     move-result-object p1
@@ -115,7 +111,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/widget/BoldTextView;->g(Lcom/commsource/widget/BoldTextView;ZIIILjava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/doodle/DoodleCategoryViewHolder;->v()Lcom/commsource/beautyplus/f0/ok;
 
     move-result-object p1
@@ -138,7 +133,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/doodle/DoodleCategoryViewHolder;->v()Lcom/commsource/beautyplus/f0/ok;
 
     move-result-object p1
@@ -159,7 +153,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

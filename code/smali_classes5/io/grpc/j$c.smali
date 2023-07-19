@@ -48,10 +48,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/x;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/j$c;->a:Lio/grpc/h;
 
     return-void
@@ -71,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1, p2}, Lio/grpc/j$c;->j(Lio/grpc/h$a;Lio/grpc/y0;)V
     :try_end_0
@@ -82,14 +79,12 @@
     :catch_0
     move-exception p2
 
-    .line 2
     invoke-static {}, Lio/grpc/j;->a()Lio/grpc/h;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/grpc/j$c;->a:Lio/grpc/h;
 
-    .line 3
     invoke-static {p2}, Lio/grpc/Status;->n(Ljava/lang/Throwable;)Lio/grpc/Status;
 
     move-result-object p2
@@ -114,7 +109,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/j$c;->a:Lio/grpc/h;
 
     return-object v0

@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.vr.dynamite.client.INativeLibraryLoader"
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lf/f/a/a/b;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
 
     return-void
@@ -28,27 +27,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lf/f/a/a/b;->s()Landroid/os/Parcel;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
     const/4 p1, 0x2
 
-    .line 3
     invoke-virtual {p0, p1, v0}, Lf/f/a/a/b;->Z(ILandroid/os/Parcel;)Landroid/os/Parcel;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
-    .line 5
     invoke-virtual {p1}, Landroid/os/Parcel;->recycle()V
 
     return v0
@@ -62,27 +56,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lf/f/a/a/b;->s()Landroid/os/Parcel;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-virtual {p0, p1, v0}, Lf/f/a/a/b;->Z(ILandroid/os/Parcel;)Landroid/os/Parcel;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     move-result-wide v0
 
-    .line 5
     invoke-virtual {p1}, Landroid/os/Parcel;->recycle()V
 
     return-wide v0

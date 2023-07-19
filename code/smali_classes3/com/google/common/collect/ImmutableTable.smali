@@ -37,7 +37,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/i;-><init>()V
 
     return-void
@@ -59,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/ImmutableTable$a;
 
     invoke-direct {v0}, Lcom/google/common/collect/ImmutableTable$a;-><init>()V
@@ -85,26 +83,22 @@
 
     const-string v0, "rowKey"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     const-string v0, "columnKey"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     const-string v0, "value"
 
-    .line 3
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    .line 4
     invoke-static {p0, p1, p2}, Lcom/google/common/collect/Tables;->c(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/f2$a;
 
     move-result-object p0
@@ -130,17 +124,14 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcom/google/common/collect/ImmutableTable;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, Lcom/google/common/collect/ImmutableTable;
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Lcom/google/common/collect/f2;->cellSet()Ljava/util/Set;
 
@@ -173,12 +164,10 @@
         }
     .end annotation
 
-    .line 4
     invoke-static {}, Lcom/google/common/collect/ImmutableTable;->builder()Lcom/google/common/collect/ImmutableTable$a;
 
     move-result-object v0
 
-    .line 5
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -196,12 +185,10 @@
 
     check-cast v1, Lcom/google/common/collect/f2$a;
 
-    .line 6
     invoke-virtual {v0, v1}, Lcom/google/common/collect/ImmutableTable$a;->d(Lcom/google/common/collect/f2$a;)Lcom/google/common/collect/ImmutableTable$a;
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableTable$a;->a()Lcom/google/common/collect/ImmutableTable;
 
@@ -226,7 +213,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/SparseImmutableTable;->EMPTY:Lcom/google/common/collect/ImmutableTable;
 
     return-object v0
@@ -248,7 +234,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/SingletonImmutableTable;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/google/common/collect/SingletonImmutableTable;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
@@ -269,7 +254,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance v0, Ljava/lang/AssertionError;
 
     const-string v1, "should never be called"
@@ -282,7 +266,6 @@
 .method bridge synthetic cellIterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->cellIterator()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -301,7 +284,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/i;->cellSet()Ljava/util/Set;
 
     move-result-object v0
@@ -314,7 +296,6 @@
 .method public bridge synthetic cellSet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->cellSet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -327,7 +308,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -347,10 +327,8 @@
 
     const-string v0, "columnKey"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->columnMap()Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v0
@@ -365,7 +343,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-static {p1, v0}, Lcom/google/common/base/p;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -378,7 +355,6 @@
 .method public bridge synthetic column(Ljava/lang/Object;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableTable;->column(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;
 
     move-result-object p1
@@ -396,7 +372,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->columnMap()Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v0
@@ -411,7 +386,6 @@
 .method public bridge synthetic columnKeySet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->columnKeySet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -434,7 +408,6 @@
 .method public bridge synthetic columnMap()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->columnMap()Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v0
@@ -453,7 +426,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableTable;->get(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -478,7 +450,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/i;->containsColumn(Ljava/lang/Object;)Z
 
     move-result p1
@@ -493,7 +464,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/i;->containsRow(Ljava/lang/Object;)Z
 
     move-result p1
@@ -508,7 +478,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->values()Lcom/google/common/collect/ImmutableCollection;
 
     move-result-object v0
@@ -534,7 +503,6 @@
 .method bridge synthetic createCellSet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->createCellSet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -558,7 +526,6 @@
 .method bridge synthetic createValues()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->createValues()Lcom/google/common/collect/ImmutableCollection;
 
     move-result-object v0
@@ -573,7 +540,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/i;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -592,7 +558,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/i;->get(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -603,7 +568,6 @@
 .method public bridge synthetic hashCode()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/i;->hashCode()I
 
     move-result v0
@@ -614,7 +578,6 @@
 .method public bridge synthetic isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/i;->isEmpty()Z
 
     move-result v0
@@ -636,7 +599,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -657,7 +619,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -682,7 +643,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -702,10 +662,8 @@
 
     const-string v0, "rowKey"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->rowMap()Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v0
@@ -720,7 +678,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-static {p1, v0}, Lcom/google/common/base/p;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -733,7 +690,6 @@
 .method public bridge synthetic row(Ljava/lang/Object;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableTable;->row(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;
 
     move-result-object p1
@@ -751,7 +707,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->rowMap()Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v0
@@ -766,7 +721,6 @@
 .method public bridge synthetic rowKeySet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->rowKeySet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -789,7 +743,6 @@
 .method public bridge synthetic rowMap()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->rowMap()Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v0
@@ -800,7 +753,6 @@
 .method public bridge synthetic toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/i;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -818,7 +770,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/i;->values()Ljava/util/Collection;
 
     move-result-object v0
@@ -831,7 +782,6 @@
 .method public bridge synthetic values()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->values()Lcom/google/common/collect/ImmutableCollection;
 
     move-result-object v0
@@ -849,7 +799,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/AssertionError;
 
     const-string v1, "should never be called"
@@ -862,7 +811,6 @@
 .method final writeReplace()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->createSerializedForm()Lcom/google/common/collect/ImmutableTable$SerializedForm;
 
     move-result-object v0

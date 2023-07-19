@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$4;
@@ -59,7 +58,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;
 
     iget-object v2, v2, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$4;
@@ -78,7 +76,6 @@
 
     move-result v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;
 
     iget-object v3, v3, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$4;
@@ -97,10 +94,8 @@
 
     move-result v3
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/bean/TextLayerInfo;->updateLocationWithLayerNode(II)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;
 
@@ -132,7 +127,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/a;->W(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;->$isNormal$inlined:Ljava/lang/Boolean;
@@ -143,7 +137,6 @@
 
     if-nez v1, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$4;
@@ -166,7 +159,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4$onAccept$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$4;
@@ -181,7 +173,6 @@
 
     invoke-static {v1, v3, v2, v3}, Lcom/commsource/studio/ImageStudioViewModel;->D1(Lcom/commsource/studio/ImageStudioViewModel;Ljava/util/Map;ILjava/lang/Object;)V
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

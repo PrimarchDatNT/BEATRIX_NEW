@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/qiniu/android/http/c$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/qiniu/android/http/c$a$a;->a:Lcom/qiniu/android/http/c$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/qiniu/android/http/c$a$a;->a:Lcom/qiniu/android/http/c$a;
 
@@ -73,7 +71,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_0

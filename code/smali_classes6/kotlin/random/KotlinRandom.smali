@@ -27,7 +27,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/util/Random;-><init>()V
 
     iput-object p1, p0, Lcotlin/random/KotlinRandom;->impl:Lcotlin/random/e;
@@ -42,7 +41,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/random/KotlinRandom;->impl:Lcotlin/random/e;
 
     return-object v0
@@ -51,7 +49,6 @@
 .method protected next(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/random/KotlinRandom;->impl:Lcotlin/random/e;
 
     invoke-virtual {v0, p1}, Lcotlin/random/e;->b(I)I
@@ -64,7 +61,6 @@
 .method public nextBoolean()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/random/KotlinRandom;->impl:Lcotlin/random/e;
 
     invoke-virtual {v0}, Lcotlin/random/e;->c()Z
@@ -85,7 +81,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/random/KotlinRandom;->impl:Lcotlin/random/e;
 
     invoke-virtual {v0, p1}, Lcotlin/random/e;->e([B)[B
@@ -96,7 +91,6 @@
 .method public nextDouble()D
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlin/random/KotlinRandom;->impl:Lcotlin/random/e;
 
     invoke-virtual {v0}, Lcotlin/random/e;->h()D
@@ -109,7 +103,6 @@
 .method public nextFloat()F
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/random/KotlinRandom;->impl:Lcotlin/random/e;
 
     invoke-virtual {v0}, Lcotlin/random/e;->k()F
@@ -122,7 +115,6 @@
 .method public nextInt()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/random/KotlinRandom;->impl:Lcotlin/random/e;
 
     invoke-virtual {v0}, Lcotlin/random/e;->l()I
@@ -135,7 +127,6 @@
 .method public nextInt(I)I
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcotlin/random/KotlinRandom;->impl:Lcotlin/random/e;
 
     invoke-virtual {v0, p1}, Lcotlin/random/e;->m(I)I
@@ -148,7 +139,6 @@
 .method public nextLong()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlin/random/KotlinRandom;->impl:Lcotlin/random/e;
 
     invoke-virtual {v0}, Lcotlin/random/e;->o()J
@@ -161,19 +151,16 @@
 .method public setSeed(J)V
     .locals 0
 
-    .line 1
     iget-boolean p1, p0, Lcotlin/random/KotlinRandom;->seedInitialized:Z
 
     if-nez p1, :cond_0
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcotlin/random/KotlinRandom;->seedInitialized:Z
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 

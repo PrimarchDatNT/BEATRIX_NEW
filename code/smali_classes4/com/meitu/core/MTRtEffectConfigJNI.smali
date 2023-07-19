@@ -32,17 +32,14 @@
 
     invoke-static {}, Lcom/meitu/core/MTRtEffectConfigJNI;->ajc$preClinit()V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/MTRtEffectConfigJNI$1;
 
     invoke-direct {v1}, Lcom/meitu/core/MTRtEffectConfigJNI$1;-><init>()V
 
     sput-object v1, Lcom/meitu/core/MTRtEffectConfigJNI;->logger:Lcom/getkeepsafe/relinker/d$d;
 
-    .line 2
     invoke-static {}, Lcom/meitu/core/MTRtEffectConfigJNI;->loadLibrary()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -51,7 +48,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -64,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/core/MTRtEffectConfigJNI;
@@ -115,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/MTRtEffectConfigJNI;->applicationContext:Landroid/content/Context;
 
     if-nez v1, :cond_0
@@ -123,7 +117,6 @@
     :try_start_0
     const-string v1, "com.meitu.library.application.BaseApplication"
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -139,7 +132,6 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 3
     invoke-virtual {v1, v2, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
@@ -152,7 +144,6 @@
     :try_start_2
     new-array v2, v3, [Ljava/lang/Object;
 
-    .line 4
     sget-object v4, Lcom/meitu/core/MTRtEffectConfigJNI;->ajc$tjp_0:Lorg/aspectj/lang/c$b;
 
     const/4 v5, 0x0
@@ -201,7 +192,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v1}, Landroid/app/Application;->getBaseContext()Landroid/content/Context;
 
     move-result-object v1
@@ -213,7 +203,6 @@
     .catch Ljava/lang/NoSuchMethodException; {:try_start_2 .. :try_end_2} :catch_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 6
     :catch_0
     :cond_0
     sget-object v1, Lcom/meitu/core/MTRtEffectConfigJNI;->applicationContext:Landroid/content/Context;
@@ -234,7 +223,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -254,7 +242,6 @@
     :try_start_0
     const-string v1, "gnustl_shared"
 
-    .line 1
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -263,7 +250,6 @@
     :try_start_1
     const-string v1, "c++_shared"
 
-    .line 2
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -272,7 +258,6 @@
     :try_start_2
     const-string v1, "fftw3"
 
-    .line 3
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
@@ -280,25 +265,20 @@
     :catchall_2
     const-string v1, "yuv"
 
-    .line 4
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
 
     const-string v1, "Manis"
 
-    .line 5
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
 
     const-string v1, "MTAiInterface"
 
-    .line 6
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
 
     const-string v1, "mtrteffectcore"
 
-    .line 7
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -319,14 +299,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
     sput-object v1, Lcom/meitu/core/MTRtEffectConfigJNI;->applicationContext:Landroid/content/Context;
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -338,11 +316,9 @@
 
     goto :goto_0
 
-    .line 3
     :catch_0
     invoke-static {}, Lcom/meitu/core/MTRtEffectConfigJNI;->loadLibrary()V
 
-    .line 4
     invoke-virtual {p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
     move-result-object v1
@@ -353,7 +329,6 @@
     :goto_0
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -366,14 +341,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
 
     move-result p0
 
     invoke-static {p0}, Lcom/meitu/core/MTRtEffectConfigJNI;->nSetLogLevel(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

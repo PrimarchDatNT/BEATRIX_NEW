@@ -35,7 +35,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lf/l/a/o;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -44,7 +43,6 @@
 
     invoke-direct {p0, p1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    .line 2
     invoke-static {p2}, Lf/l/a/o;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -53,7 +51,6 @@
 
     iput-object p1, p0, Lf/l/a/e$a;->a:Ljava/lang/String;
 
-    .line 3
     iput p3, p0, Lf/l/a/e$a;->b:I
 
     return-void
@@ -70,31 +67,25 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lf/l/a/o;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lf/l/a/o;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 5
     invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
 
     :cond_0
     const/4 p1, 0x0
 
-    .line 6
     new-instance v1, Ljava/io/File;
 
     const/4 v2, 0x2
@@ -130,7 +121,6 @@
 
     move-object p1, v9
 
-    .line 7
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v7
@@ -139,7 +129,6 @@
 
     add-int/2addr v3, v6
 
-    .line 8
     new-instance v1, Ljava/io/File;
 
     new-array v7, v2, [Ljava/lang/Object;
@@ -163,7 +152,6 @@
     :cond_1
     if-eqz v1, :cond_3
 
-    .line 9
     invoke-virtual {v1}, Ljava/io/File;->length()J
 
     move-result-wide v2
@@ -201,13 +189,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lf/l/a/o;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lf/l/a/o;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1, p2}, Ljava/io/FileWriter;->append(Ljava/lang/CharSequence;)Ljava/io/Writer;
 
     return-void
@@ -222,12 +207,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lf/l/a/e$a;->a:Ljava/lang/String;
 
     const-string v1, "logs"
@@ -238,7 +221,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :try_start_0
     new-instance v2, Ljava/io/FileWriter;
 
@@ -248,14 +230,11 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 4
     :try_start_1
     invoke-direct {p0, v2, p1}, Lf/l/a/e$a;->b(Ljava/io/FileWriter;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v2}, Ljava/io/FileWriter;->flush()V
 
-    .line 6
     invoke-virtual {v2}, Ljava/io/FileWriter;->close()V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
@@ -273,11 +252,9 @@
     :goto_0
     if-eqz v1, :cond_0
 
-    .line 7
     :try_start_2
     invoke-virtual {v1}, Ljava/io/FileWriter;->flush()V
 
-    .line 8
     invoke-virtual {v1}, Ljava/io/FileWriter;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_2

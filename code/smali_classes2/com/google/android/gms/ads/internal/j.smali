@@ -11,7 +11,6 @@
 .method constructor <init>(Lcom/google/android/gms/ads/internal/k;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
     invoke-direct {p0}, Landroid/webkit/WebViewClient;-><init>()V
@@ -24,7 +23,6 @@
 .method public final onReceivedError(Landroid/webkit/WebView;Landroid/webkit/WebResourceRequest;Landroid/webkit/WebResourceError;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
     invoke-static {p1}, Lcom/google/android/gms/ads/internal/k;->c6(Lcom/google/android/gms/ads/internal/k;)Lcom/google/android/gms/internal/ads/cn2;
@@ -33,7 +31,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     :try_start_0
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
@@ -54,7 +51,6 @@
 
     const-string p2, "#007 Could not call remote method."
 
-    .line 3
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
@@ -64,7 +60,6 @@
 .method public final shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
     .locals 3
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
     invoke-virtual {p1}, Lcom/google/android/gms/ads/internal/k;->Ga()Ljava/lang/String;
@@ -84,7 +79,6 @@
     :cond_0
     const-string p1, "gmsg://noAdLoaded"
 
-    .line 2
     invoke-virtual {p2, p1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p1
@@ -95,7 +89,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
     invoke-static {p1}, Lcom/google/android/gms/ads/internal/k;->c6(Lcom/google/android/gms/ads/internal/k;)Lcom/google/android/gms/internal/ads/cn2;
@@ -104,7 +97,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     :try_start_0
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
@@ -123,10 +115,8 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-static {v1, p1}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
@@ -138,14 +128,12 @@
     :cond_2
     const-string p1, "gmsg://scriptLoadFailed"
 
-    .line 7
     invoke-virtual {p2, p1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_4
 
-    .line 8
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
     invoke-static {p1}, Lcom/google/android/gms/ads/internal/k;->c6(Lcom/google/android/gms/ads/internal/k;)Lcom/google/android/gms/internal/ads/cn2;
@@ -154,7 +142,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 9
     :try_start_1
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
@@ -171,10 +158,8 @@
     :catch_1
     move-exception p1
 
-    .line 10
     invoke-static {v1, p1}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 11
     :cond_3
     :goto_1
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
@@ -186,14 +171,12 @@
     :cond_4
     const-string p1, "gmsg://adResized"
 
-    .line 12
     invoke-virtual {p2, p1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_6
 
-    .line 13
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
     invoke-static {p1}, Lcom/google/android/gms/ads/internal/k;->c6(Lcom/google/android/gms/ads/internal/k;)Lcom/google/android/gms/internal/ads/cn2;
@@ -202,7 +185,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 14
     :try_start_2
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
@@ -219,10 +201,8 @@
     :catch_2
     move-exception p1
 
-    .line 15
     invoke-static {v1, p1}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 16
     :cond_5
     :goto_2
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
@@ -231,7 +211,6 @@
 
     move-result p1
 
-    .line 17
     iget-object p2, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
     invoke-virtual {p2, p1}, Lcom/google/android/gms/ads/internal/k;->L9(I)V
@@ -241,7 +220,6 @@
     :cond_6
     const-string p1, "gmsg://"
 
-    .line 18
     invoke-virtual {p2, p1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p1
@@ -250,7 +228,6 @@
 
     return v2
 
-    .line 19
     :cond_7
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
@@ -260,7 +237,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 20
     :try_start_3
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
@@ -277,10 +253,8 @@
     :catch_3
     move-exception p1
 
-    .line 21
     invoke-static {v1, p1}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 22
     :cond_8
     :goto_3
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
@@ -289,7 +263,6 @@
 
     move-result-object p1
 
-    .line 23
     iget-object p2, p0, Lcom/google/android/gms/ads/internal/j;->a:Lcom/google/android/gms/ads/internal/k;
 
     invoke-static {p2, p1}, Lcom/google/android/gms/ads/internal/k;->f8(Lcom/google/android/gms/ads/internal/k;Ljava/lang/String;)V

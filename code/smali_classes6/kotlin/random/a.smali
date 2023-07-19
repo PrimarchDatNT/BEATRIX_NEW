@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlin/random/e;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
 .method public b(I)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/random/a;->r()Ljava/util/Random;
 
     move-result-object v0
@@ -41,7 +39,6 @@
 .method public c()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/random/a;->r()Ljava/util/Random;
 
     move-result-object v0
@@ -66,7 +63,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/random/a;->r()Ljava/util/Random;
 
     move-result-object v0
@@ -79,7 +75,6 @@
 .method public h()D
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/random/a;->r()Ljava/util/Random;
 
     move-result-object v0
@@ -94,7 +89,6 @@
 .method public k()F
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/random/a;->r()Ljava/util/Random;
 
     move-result-object v0
@@ -109,7 +103,6 @@
 .method public l()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/random/a;->r()Ljava/util/Random;
 
     move-result-object v0
@@ -124,7 +117,6 @@
 .method public m(I)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/random/a;->r()Ljava/util/Random;
 
     move-result-object v0
@@ -139,7 +131,6 @@
 .method public o()J
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/random/a;->r()Ljava/util/Random;
 
     move-result-object v0

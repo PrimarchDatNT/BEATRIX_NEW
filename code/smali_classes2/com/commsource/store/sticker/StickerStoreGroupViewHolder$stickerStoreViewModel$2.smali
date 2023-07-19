@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     iget-object v2, p0, Lcom/commsource/store/sticker/StickerStoreGroupViewHolder$stickerStoreViewModel$2;->this$0:Lcom/commsource/store/sticker/StickerStoreGroupViewHolder;
@@ -70,22 +69,18 @@
 
     invoke-direct {v1, v2}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
 
-    .line 3
     const-class v2, Lcom/commsource/store/sticker/StickerStoreViewModel;
 
-    .line 4
     invoke-virtual {v1, v2}, Landroidx/lifecycle/ViewModelProvider;->get(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
     move-result-object v1
 
     check-cast v1, Lcom/commsource/store/sticker/StickerStoreViewModel;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 6
     :cond_0
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -105,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/store/sticker/StickerStoreGroupViewHolder$stickerStoreViewModel$2;->invoke()Lcom/commsource/store/sticker/StickerStoreViewModel;
 
     move-result-object v1

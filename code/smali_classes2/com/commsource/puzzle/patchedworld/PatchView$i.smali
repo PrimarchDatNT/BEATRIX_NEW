@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/puzzle/patchedworld/PatchView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/PatchView$i;->a:Lcom/commsource/puzzle/patchedworld/PatchView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/PatchView$i;->a:Lcom/commsource/puzzle/patchedworld/PatchView;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/PatchView;->a(Lcom/commsource/puzzle/patchedworld/PatchView;)Lcom/commsource/puzzle/patchedworld/VisualPatch;
@@ -73,7 +71,6 @@
 
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/PatchView$i;->a:Lcom/commsource/puzzle/patchedworld/PatchView;
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/PatchView;->a(Lcom/commsource/puzzle/patchedworld/PatchView;)Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
     move-result-object v1
@@ -105,7 +102,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -33,10 +33,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/k/k;->a:Landroid/content/Context;
 
     return-void
@@ -51,7 +49,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/k/k;->d(Landroid/net/Uri;)Z
@@ -72,7 +69,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/k/k;->c(Landroid/net/Uri;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/k/n$a;
@@ -105,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p2, Lcom/bumptech/glide/load/k/n$a;
 
     new-instance p3, Lcom/bumptech/glide/r/e;
@@ -130,7 +125,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/bumptech/glide/load/j/o/b;->b(Landroid/net/Uri;)Z
 
     move-result p1

@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/store/doodle/DoodleChildStoreFragment$e;->b(ILcom/commsource/studio/doodle/DoodleMaterial;)Z
@@ -76,7 +75,6 @@
 
     const-wide/16 v0, 0x1f4
 
-    .line 1
     invoke-static {v0, v1}, Lcom/commsource/util/common/k;->b(J)Z
 
     move-result v0
@@ -85,7 +83,6 @@
 
     if-nez v0, :cond_4
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getDownloadState()I
 
     move-result v0
@@ -104,7 +101,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -126,7 +122,6 @@
 
     goto :goto_2
 
-    .line 4
     :cond_1
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getDownloadState()I
 
@@ -134,12 +129,10 @@
 
     if-nez v0, :cond_4
 
-    .line 5
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 6
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCategoryId()Ljava/lang/String;
 
     move-result-object v4
@@ -150,7 +143,6 @@
 
     invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getId()Ljava/lang/String;
 
     move-result-object v3
@@ -159,10 +151,8 @@
 
     const-string v2, "doodle_shop_clk_download"
 
-    .line 8
     invoke-static {v2, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 9
     sget-object v0, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     const-string v2, "entity"
@@ -175,14 +165,12 @@
 
     goto :goto_2
 
-    .line 10
     :cond_2
     :goto_0
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 11
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCategoryId()Ljava/lang/String;
 
     move-result-object v4
@@ -197,7 +185,6 @@
     :goto_1
     invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getId()Ljava/lang/String;
 
     move-result-object v3
@@ -206,10 +193,8 @@
 
     const-string v2, "doodle_shop_clk_try"
 
-    .line 13
     invoke-static {v2, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 14
     iget-object v0, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment$e;->a:Lcom/commsource/store/doodle/DoodleChildStoreFragment;
 
     invoke-static {v0}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->x(Lcom/commsource/store/doodle/DoodleChildStoreFragment;)Lcom/commsource/store/doodle/DoodleStoreViewModel;
@@ -226,7 +211,6 @@
 
     invoke-virtual {v0, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 15
     :cond_4
     :goto_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

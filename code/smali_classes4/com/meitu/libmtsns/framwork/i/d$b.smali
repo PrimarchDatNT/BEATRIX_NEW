@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/libmtsns/framwork/i/d;Lcom/meitu/libmtsns/framwork/i/d$l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/i/d$b;->b:Lcom/meitu/libmtsns/framwork/i/d;
 
     iput-object p2, p0, Lcom/meitu/libmtsns/framwork/i/d$b;->a:Lcom/meitu/libmtsns/framwork/i/d$l;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/i/d$b;->b:Lcom/meitu/libmtsns/framwork/i/d;
 
     invoke-virtual {v1}, Lcom/meitu/libmtsns/framwork/i/d;->w()Z
@@ -55,12 +53,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/i/d$b;->b:Lcom/meitu/libmtsns/framwork/i/d;
 
@@ -68,7 +64,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/libmtsns/framwork/i/d;->m(Lcom/meitu/libmtsns/framwork/i/d$l;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

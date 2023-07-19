@@ -81,7 +81,6 @@
 .method public constructor <init>(Lcom/airbnb/lottie/j;Lcom/airbnb/lottie/model/layer/a;Lcom/airbnb/lottie/model/content/e;)V
     .locals 11
 
-    .line 1
     invoke-virtual {p3}, Lcom/airbnb/lottie/model/content/e;->b()Lcom/airbnb/lottie/model/content/ShapeStroke$LineCapType;
 
     move-result-object v0
@@ -90,7 +89,6 @@
 
     move-result-object v4
 
-    .line 2
     invoke-virtual {p3}, Lcom/airbnb/lottie/model/content/e;->g()Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;
 
     move-result-object v0
@@ -107,7 +105,6 @@
 
     move-result-object v7
 
-    .line 3
     invoke-virtual {p3}, Lcom/airbnb/lottie/model/content/e;->m()Lcom/airbnb/lottie/model/i/b;
 
     move-result-object v8
@@ -126,52 +123,44 @@
 
     move-object v3, p2
 
-    .line 4
     invoke-direct/range {v1 .. v10}, Lcom/airbnb/lottie/w/b/a;-><init>(Lcom/airbnb/lottie/j;Lcom/airbnb/lottie/model/layer/a;Landroid/graphics/Paint$Cap;Landroid/graphics/Paint$Join;FLcom/airbnb/lottie/model/i/d;Lcom/airbnb/lottie/model/i/b;Ljava/util/List;Lcom/airbnb/lottie/model/i/b;)V
 
-    .line 5
     new-instance v0, Landroidx/collection/LongSparseArray;
 
     invoke-direct {v0}, Landroidx/collection/LongSparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/w/b/i;->q:Landroidx/collection/LongSparseArray;
 
-    .line 6
     new-instance v0, Landroidx/collection/LongSparseArray;
 
     invoke-direct {v0}, Landroidx/collection/LongSparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/w/b/i;->r:Landroidx/collection/LongSparseArray;
 
-    .line 7
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/w/b/i;->s:Landroid/graphics/RectF;
 
-    .line 8
     invoke-virtual {p3}, Lcom/airbnb/lottie/model/content/e;->j()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/airbnb/lottie/w/b/i;->o:Ljava/lang/String;
 
-    .line 9
     invoke-virtual {p3}, Lcom/airbnb/lottie/model/content/e;->f()Lcom/airbnb/lottie/model/content/GradientType;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/airbnb/lottie/w/b/i;->t:Lcom/airbnb/lottie/model/content/GradientType;
 
-    .line 10
     invoke-virtual {p3}, Lcom/airbnb/lottie/model/content/e;->n()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/airbnb/lottie/w/b/i;->p:Z
 
-    .line 11
     invoke-virtual {p1}, Lcom/airbnb/lottie/j;->t()Lcom/airbnb/lottie/g;
 
     move-result-object p1
@@ -188,7 +177,6 @@
 
     iput p1, p0, Lcom/airbnb/lottie/w/b/i;->u:I
 
-    .line 12
     invoke-virtual {p3}, Lcom/airbnb/lottie/model/content/e;->e()Lcom/airbnb/lottie/model/i/c;
 
     move-result-object p1
@@ -199,13 +187,10 @@
 
     iput-object p1, p0, Lcom/airbnb/lottie/w/b/i;->v:Lcom/airbnb/lottie/w/c/a;
 
-    .line 13
     invoke-virtual {p1, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 14
     invoke-virtual {p2, p1}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
 
-    .line 15
     invoke-virtual {p3}, Lcom/airbnb/lottie/model/content/e;->l()Lcom/airbnb/lottie/model/i/f;
 
     move-result-object p1
@@ -216,13 +201,10 @@
 
     iput-object p1, p0, Lcom/airbnb/lottie/w/b/i;->w:Lcom/airbnb/lottie/w/c/a;
 
-    .line 16
     invoke-virtual {p1, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 17
     invoke-virtual {p2, p1}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
 
-    .line 18
     invoke-virtual {p3}, Lcom/airbnb/lottie/model/content/e;->d()Lcom/airbnb/lottie/model/i/f;
 
     move-result-object p1
@@ -233,10 +215,8 @@
 
     iput-object p1, p0, Lcom/airbnb/lottie/w/b/i;->x:Lcom/airbnb/lottie/w/c/a;
 
-    .line 19
     invoke-virtual {p1, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 20
     invoke-virtual {p2, p1}, Lcom/airbnb/lottie/model/layer/a;->i(Lcom/airbnb/lottie/w/c/a;)V
 
     return-void
@@ -245,19 +225,16 @@
 .method private i([I)[I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/b/i;->y:Lcom/airbnb/lottie/w/c/p;
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {v0}, Lcom/airbnb/lottie/w/c/p;->h()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, [Ljava/lang/Integer;
 
-    .line 3
     array-length v1, p1
 
     array-length v2, v0
@@ -266,13 +243,11 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 4
     :goto_0
     array-length v1, p1
 
     if-ge v3, v1, :cond_1
 
-    .line 5
     aget-object v1, v0, v3
 
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
@@ -285,19 +260,16 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     array-length p1, v0
 
     new-array p1, p1, [I
 
-    .line 7
     :goto_1
     array-length v1, v0
 
     if-ge v3, v1, :cond_1
 
-    .line 8
     aget-object v1, v0, v3
 
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
@@ -317,7 +289,6 @@
 .method private j()I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/b/i;->w:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/w/c/a;->f()F
@@ -334,7 +305,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/airbnb/lottie/w/b/i;->x:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/w/c/a;->f()F
@@ -351,7 +321,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/airbnb/lottie/w/b/i;->v:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {v2}, Lcom/airbnb/lottie/w/c/a;->f()F
@@ -400,12 +369,10 @@
 .method private k()Landroid/graphics/LinearGradient;
     .locals 14
 
-    .line 1
     invoke-direct {p0}, Lcom/airbnb/lottie/w/b/i;->j()I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/airbnb/lottie/w/b/i;->q:Landroidx/collection/LongSparseArray;
 
     int-to-long v2, v0
@@ -420,7 +387,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/w/b/i;->w:Lcom/airbnb/lottie/w/c/a;
 
@@ -430,7 +396,6 @@
 
     check-cast v0, Landroid/graphics/PointF;
 
-    .line 4
     iget-object v1, p0, Lcom/airbnb/lottie/w/b/i;->x:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
@@ -439,7 +404,6 @@
 
     check-cast v1, Landroid/graphics/PointF;
 
-    .line 5
     iget-object v4, p0, Lcom/airbnb/lottie/w/b/i;->v:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {v4}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
@@ -448,7 +412,6 @@
 
     check-cast v4, Lcom/airbnb/lottie/model/content/c;
 
-    .line 6
     invoke-virtual {v4}, Lcom/airbnb/lottie/model/content/c;->a()[I
 
     move-result-object v5
@@ -457,24 +420,18 @@
 
     move-result-object v11
 
-    .line 7
     invoke-virtual {v4}, Lcom/airbnb/lottie/model/content/c;->b()[F
 
     move-result-object v12
 
-    .line 8
     iget v7, v0, Landroid/graphics/PointF;->x:F
 
-    .line 9
     iget v8, v0, Landroid/graphics/PointF;->y:F
 
-    .line 10
     iget v9, v1, Landroid/graphics/PointF;->x:F
 
-    .line 11
     iget v10, v1, Landroid/graphics/PointF;->y:F
 
-    .line 12
     new-instance v0, Landroid/graphics/LinearGradient;
 
     sget-object v13, Landroid/graphics/Shader$TileMode;->CLAMP:Landroid/graphics/Shader$TileMode;
@@ -483,7 +440,6 @@
 
     invoke-direct/range {v6 .. v13}, Landroid/graphics/LinearGradient;-><init>(FFFF[I[FLandroid/graphics/Shader$TileMode;)V
 
-    .line 13
     iget-object v1, p0, Lcom/airbnb/lottie/w/b/i;->q:Landroidx/collection/LongSparseArray;
 
     invoke-virtual {v1, v2, v3, v0}, Landroidx/collection/LongSparseArray;->put(JLjava/lang/Object;)V
@@ -494,12 +450,10 @@
 .method private l()Landroid/graphics/RadialGradient;
     .locals 13
 
-    .line 1
     invoke-direct {p0}, Lcom/airbnb/lottie/w/b/i;->j()I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/airbnb/lottie/w/b/i;->r:Landroidx/collection/LongSparseArray;
 
     int-to-long v2, v0
@@ -514,7 +468,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/w/b/i;->w:Lcom/airbnb/lottie/w/c/a;
 
@@ -524,7 +477,6 @@
 
     check-cast v0, Landroid/graphics/PointF;
 
-    .line 4
     iget-object v1, p0, Lcom/airbnb/lottie/w/b/i;->x:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
@@ -533,7 +485,6 @@
 
     check-cast v1, Landroid/graphics/PointF;
 
-    .line 5
     iget-object v4, p0, Lcom/airbnb/lottie/w/b/i;->v:Lcom/airbnb/lottie/w/c/a;
 
     invoke-virtual {v4}, Lcom/airbnb/lottie/w/c/a;->h()Ljava/lang/Object;
@@ -542,7 +493,6 @@
 
     check-cast v4, Lcom/airbnb/lottie/model/content/c;
 
-    .line 6
     invoke-virtual {v4}, Lcom/airbnb/lottie/model/content/c;->a()[I
 
     move-result-object v5
@@ -551,21 +501,16 @@
 
     move-result-object v10
 
-    .line 7
     invoke-virtual {v4}, Lcom/airbnb/lottie/model/content/c;->b()[F
 
     move-result-object v11
 
-    .line 8
     iget v7, v0, Landroid/graphics/PointF;->x:F
 
-    .line 9
     iget v8, v0, Landroid/graphics/PointF;->y:F
 
-    .line 10
     iget v0, v1, Landroid/graphics/PointF;->x:F
 
-    .line 11
     iget v1, v1, Landroid/graphics/PointF;->y:F
 
     sub-float/2addr v0, v7
@@ -576,14 +521,12 @@
 
     float-to-double v0, v1
 
-    .line 12
     invoke-static {v4, v5, v0, v1}, Ljava/lang/Math;->hypot(DD)D
 
     move-result-wide v0
 
     double-to-float v9, v0
 
-    .line 13
     new-instance v0, Landroid/graphics/RadialGradient;
 
     sget-object v12, Landroid/graphics/Shader$TileMode;->CLAMP:Landroid/graphics/Shader$TileMode;
@@ -592,7 +535,6 @@
 
     invoke-direct/range {v6 .. v12}, Landroid/graphics/RadialGradient;-><init>(FFF[I[FLandroid/graphics/Shader$TileMode;)V
 
-    .line 14
     iget-object v1, p0, Lcom/airbnb/lottie/w/b/i;->r:Landroidx/collection/LongSparseArray;
 
     invoke-virtual {v1, v2, v3, v0}, Landroidx/collection/LongSparseArray;->put(JLjava/lang/Object;)V
@@ -618,20 +560,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/airbnb/lottie/w/b/a;->c(Ljava/lang/Object;Lcom/airbnb/lottie/a0/j;)V
 
-    .line 2
     sget-object v0, Lcom/airbnb/lottie/o;->F:[Ljava/lang/Integer;
 
     if-ne p1, v0, :cond_2
 
-    .line 3
     iget-object p1, p0, Lcom/airbnb/lottie/w/b/i;->y:Lcom/airbnb/lottie/w/c/p;
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/airbnb/lottie/w/b/a;->f:Lcom/airbnb/lottie/model/layer/a;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/model/layer/a;->C(Lcom/airbnb/lottie/w/c/a;)V
@@ -641,12 +579,10 @@
 
     const/4 p1, 0x0
 
-    .line 5
     iput-object p1, p0, Lcom/airbnb/lottie/w/b/i;->y:Lcom/airbnb/lottie/w/c/p;
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance p1, Lcom/airbnb/lottie/w/c/p;
 
@@ -654,10 +590,8 @@
 
     iput-object p1, p0, Lcom/airbnb/lottie/w/b/i;->y:Lcom/airbnb/lottie/w/c/p;
 
-    .line 7
     invoke-virtual {p1, p0}, Lcom/airbnb/lottie/w/c/a;->a(Lcom/airbnb/lottie/w/c/a$b;)V
 
-    .line 8
     iget-object p1, p0, Lcom/airbnb/lottie/w/b/a;->f:Lcom/airbnb/lottie/model/layer/a;
 
     iget-object p2, p0, Lcom/airbnb/lottie/w/b/i;->y:Lcom/airbnb/lottie/w/c/p;
@@ -672,14 +606,12 @@
 .method public g(Landroid/graphics/Canvas;Landroid/graphics/Matrix;I)V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/airbnb/lottie/w/b/i;->p:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/w/b/i;->s:Landroid/graphics/RectF;
 
@@ -687,36 +619,30 @@
 
     invoke-virtual {p0, v0, p2, v1}, Lcom/airbnb/lottie/w/b/a;->e(Landroid/graphics/RectF;Landroid/graphics/Matrix;Z)V
 
-    .line 3
     iget-object v0, p0, Lcom/airbnb/lottie/w/b/i;->t:Lcom/airbnb/lottie/model/content/GradientType;
 
     sget-object v1, Lcom/airbnb/lottie/model/content/GradientType;->LINEAR:Lcom/airbnb/lottie/model/content/GradientType;
 
     if-ne v0, v1, :cond_1
 
-    .line 4
     invoke-direct {p0}, Lcom/airbnb/lottie/w/b/i;->k()Landroid/graphics/LinearGradient;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-direct {p0}, Lcom/airbnb/lottie/w/b/i;->l()Landroid/graphics/RadialGradient;
 
     move-result-object v0
 
-    .line 6
     :goto_0
     invoke-virtual {v0, p2}, Landroid/graphics/Shader;->setLocalMatrix(Landroid/graphics/Matrix;)V
 
-    .line 7
     iget-object v1, p0, Lcom/airbnb/lottie/w/b/a;->i:Landroid/graphics/Paint;
 
     invoke-virtual {v1, v0}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 8
     invoke-super {p0, p1, p2, p3}, Lcom/airbnb/lottie/w/b/a;->g(Landroid/graphics/Canvas;Landroid/graphics/Matrix;I)V
 
     return-void
@@ -725,7 +651,6 @@
 .method public getName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/b/i;->o:Ljava/lang/String;
 
     return-object v0

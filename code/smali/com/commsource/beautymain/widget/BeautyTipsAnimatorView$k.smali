@@ -36,7 +36,6 @@
 .method public constructor <init>(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$k;->b:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,12 +46,10 @@
 .method public constructor <init>(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;Landroid/graphics/PointF;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$k;->b:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p2, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$k;->a:Landroid/graphics/PointF;
 
     return-void
@@ -67,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p2, Landroid/graphics/PointF;->x:F
 
     iget v2, p3, Landroid/graphics/PointF;->x:F
@@ -78,7 +74,6 @@
 
     add-float/2addr v1, v2
 
-    .line 2
     iget p2, p2, Landroid/graphics/PointF;->y:F
 
     iget p3, p3, Landroid/graphics/PointF;->y:F
@@ -89,22 +84,18 @@
 
     add-float/2addr p2, p1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$k;->a:Landroid/graphics/PointF;
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-virtual {p1, v1, p2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$k;->a:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 6
     :cond_0
     new-instance p1, Landroid/graphics/PointF;
 
@@ -122,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Landroid/graphics/PointF;
 
     check-cast p3, Landroid/graphics/PointF;

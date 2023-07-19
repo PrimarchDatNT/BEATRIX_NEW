@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lio/jaegertracing/a/k/f$b;
 
     invoke-direct {p1, p0}, Lio/jaegertracing/a/k/f$b;-><init>(Lio/jaegertracing/a/k/f;)V
@@ -54,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lio/jaegertracing/a/k/f$a;
 
     invoke-direct {p1, p0}, Lio/jaegertracing/a/k/f$a;-><init>(Lio/jaegertracing/a/k/f;)V
@@ -76,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lio/jaegertracing/a/k/f$c;
 
     invoke-direct {p1, p0}, Lio/jaegertracing/a/k/f$c;-><init>(Lio/jaegertracing/a/k/f;)V

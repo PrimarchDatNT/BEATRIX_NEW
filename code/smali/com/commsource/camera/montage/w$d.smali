@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/camera/montage/w;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/w$d;->a:Lcom/commsource/camera/montage/w;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -55,14 +53,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/montage/w$d;->a:Lcom/commsource/camera/montage/w;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/montage/w;->a0(Z)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -75,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/w$d;->a:Lcom/commsource/camera/montage/w;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/w;->y(Lcom/commsource/camera/montage/w;)Lcom/commsource/material/d;
@@ -109,14 +103,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/w$d;->a:Lcom/commsource/camera/montage/w;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/camera/montage/w;->E(Lcom/commsource/camera/montage/w;Z)Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/montage/w$d;->a:Lcom/commsource/camera/montage/w;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/w;->H(Lcom/commsource/camera/montage/w;)Lcom/meitu/template/bean/ArMaterial;
@@ -125,7 +117,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/w;->L(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -17,7 +17,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -38,7 +37,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result p0
@@ -68,7 +66,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/w0;
 
     if-eqz v0, :cond_0
@@ -82,7 +79,6 @@
     :cond_0
     const/16 v0, 0x40
 
-    .line 2
     :try_start_0
     sget-object v1, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 

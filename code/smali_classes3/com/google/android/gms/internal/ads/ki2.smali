@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ii2;Lcom/google/android/gms/internal/ads/ci2;Landroid/webkit/WebView;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ki2;->f:Lcom/google/android/gms/internal/ads/ii2;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ki2;->b:Lcom/google/android/gms/internal/ads/ci2;
@@ -41,7 +40,6 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Lcom/google/android/gms/internal/ads/ni2;
 
     invoke-direct {p1, p0}, Lcom/google/android/gms/internal/ads/ni2;-><init>(Lcom/google/android/gms/internal/ads/ki2;)V
@@ -56,7 +54,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ki2;->c:Landroid/webkit/WebView;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -69,7 +66,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ki2;->c:Landroid/webkit/WebView;
 
@@ -83,7 +79,6 @@
 
     return-void
 
-    .line 3
     :catchall_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ki2;->a:Landroid/webkit/ValueCallback;
 

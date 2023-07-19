@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/meitu/library/uxkit/widget/color/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/uxkit/widget/color/c$a;->a:Lcom/meitu/library/uxkit/widget/color/c;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
@@ -39,14 +38,12 @@
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
 
     if-nez p2, :cond_1
 
-    .line 2
     iget-object p2, p0, Lcom/meitu/library/uxkit/widget/color/c$a;->a:Lcom/meitu/library/uxkit/widget/color/c;
 
     invoke-virtual {p2}, Lcom/meitu/library/uxkit/widget/color/c;->p()Z
@@ -69,7 +66,6 @@
     :goto_0
     iput p2, p1, Landroid/graphics/Rect;->left:I
 
-    .line 3
     :cond_1
     iget-object p2, p0, Lcom/meitu/library/uxkit/widget/color/c$a;->a:Lcom/meitu/library/uxkit/widget/color/c;
 
@@ -79,7 +75,6 @@
 
     iput p2, p1, Landroid/graphics/Rect;->right:I
 
-    .line 4
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

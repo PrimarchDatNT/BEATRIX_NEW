@@ -29,7 +29,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/cache/CacheLoader;-><init>()V
 
     return-void
@@ -50,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/reflect/TypeToken;->of(Ljava/lang/Class;)Lcom/google/common/reflect/TypeToken;
 
     move-result-object p1
@@ -63,7 +61,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/ImmutableSet;->copyOf(Ljava/util/Collection;)Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p1
@@ -79,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/lang/Class;
 
     invoke-virtual {p0, p1}, Lf/f/e/c/k$b;->a(Ljava/lang/Class;)Lcom/google/common/collect/ImmutableSet;

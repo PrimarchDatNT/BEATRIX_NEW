@@ -26,7 +26,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/library/abtest/l/n;->b(Ljava/lang/String;Ljava/lang/Object;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -70,10 +68,8 @@
 
     const-string p1, "Failed put json: %s = %s "
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/library/abtest/g/a;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -90,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Lorg/json/JSONObject;
 
@@ -100,13 +95,11 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
 
-    .line 3
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/abtest/l/n;->d(Lorg/json/JSONObject;)Lcom/meitu/library/abtest/l/n$a;
 
@@ -128,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/abtest/l/n$b;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/abtest/l/n$b;-><init>(Lorg/json/JSONObject;)V

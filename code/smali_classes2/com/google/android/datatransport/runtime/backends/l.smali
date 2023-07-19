@@ -54,13 +54,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/runtime/backends/l;->a:Lj/a/c;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/datatransport/runtime/backends/l;->b:Lj/a/c;
 
     return-void
@@ -81,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/backends/l;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/datatransport/runtime/backends/l;-><init>(Lj/a/c;Lj/a/c;)V
@@ -92,7 +88,6 @@
 .method public static c(Landroid/content/Context;Ljava/lang/Object;)Lcom/google/android/datatransport/runtime/backends/k;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/backends/k;
 
     check-cast p1, Lcom/google/android/datatransport/runtime/backends/i;
@@ -107,7 +102,6 @@
 .method public b()Lcom/google/android/datatransport/runtime/backends/k;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/backends/k;
 
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/backends/l;->a:Lj/a/c;
@@ -134,7 +128,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/runtime/backends/l;->b()Lcom/google/android/datatransport/runtime/backends/k;
 
     move-result-object v0

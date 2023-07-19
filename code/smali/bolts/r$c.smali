@@ -40,7 +40,6 @@
 .method constructor <init>(Lbolts/r;Landroid/net/Uri;Lbolts/j;Lbolts/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/r$c;->d:Lbolts/r;
 
     iput-object p2, p0, Lbolts/r$c;->a:Landroid/net/Uri;
@@ -64,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/net/URL;
 
     iget-object v1, p0, Lbolts/r$c;->a:Landroid/net/Uri;
@@ -82,17 +80,14 @@
     :goto_0
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object v2
 
-    .line 3
     instance-of v0, v2, Ljava/net/HttpURLConnection;
 
     if-eqz v0, :cond_0
 
-    .line 4
     move-object v3, v2
 
     check-cast v3, Ljava/net/HttpURLConnection;
@@ -106,20 +101,16 @@
 
     const-string v4, "al"
 
-    .line 5
     invoke-virtual {v2, v3, v4}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v2}, Ljava/net/URLConnection;->connect()V
 
     if-eqz v0, :cond_1
 
-    .line 7
     move-object v0, v2
 
     check-cast v0, Ljava/net/HttpURLConnection;
 
-    .line 8
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v3
@@ -136,7 +127,6 @@
 
     if-ge v3, v4, :cond_1
 
-    .line 9
     new-instance v3, Ljava/net/URL;
 
     const-string v4, "Location"
@@ -147,7 +137,6 @@
 
     invoke-direct {v3, v4}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 
     move-object v0, v3
@@ -159,7 +148,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     :try_start_0
     iget-object v0, p0, Lbolts/r$c;->b:Lbolts/j;
@@ -170,7 +158,6 @@
 
     invoke-virtual {v0, v3}, Lbolts/j;->b(Ljava/lang/Object;)V
 
-    .line 12
     iget-object v0, p0, Lbolts/r$c;->c:Lbolts/j;
 
     invoke-virtual {v2}, Ljava/net/URLConnection;->getContentType()Ljava/lang/String;
@@ -181,12 +168,10 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 13
     instance-of v0, v2, Ljava/net/HttpURLConnection;
 
     if-eqz v0, :cond_3
 
-    .line 14
     check-cast v2, Ljava/net/HttpURLConnection;
 
     invoke-virtual {v2}, Ljava/net/HttpURLConnection;->disconnect()V
@@ -197,12 +182,10 @@
     :catchall_0
     move-exception v0
 
-    .line 15
     instance-of v1, v2, Ljava/net/HttpURLConnection;
 
     if-eqz v1, :cond_4
 
-    .line 16
     check-cast v2, Ljava/net/HttpURLConnection;
 
     invoke-virtual {v2}, Ljava/net/HttpURLConnection;->disconnect()V
@@ -219,7 +202,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lbolts/r$c;->a()Ljava/lang/Void;
 
     move-result-object v0

@@ -29,7 +29,6 @@
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautyplus/advert/j$a;->a:I
 
     iput-object p2, p0, Lcom/commsource/beautyplus/advert/j$a;->b:Ljava/lang/String;
@@ -50,7 +49,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -63,7 +61,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -76,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -89,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/advert/j$a;->a:I
 
     iget-object v2, p0, Lcom/commsource/beautyplus/advert/j$a;->b:Ljava/lang/String;
@@ -98,12 +93,10 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautyplus/advert/j$a;->c:Ljava/lang/String;
 
     invoke-static {v2, v1}, Lcom/commsource/beautyplus/advert/j;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -124,7 +117,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

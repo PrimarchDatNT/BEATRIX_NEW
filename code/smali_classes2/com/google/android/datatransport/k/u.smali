@@ -93,22 +93,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/k/u;->a:Lj/a/c;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/datatransport/k/u;->b:Lj/a/c;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/datatransport/k/u;->c:Lj/a/c;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/datatransport/k/u;->d:Lj/a/c;
 
-    .line 6
     iput-object p5, p0, Lcom/google/android/datatransport/k/u;->e:Lj/a/c;
 
     return-void
@@ -138,7 +132,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v6, Lcom/google/android/datatransport/k/u;
 
     move-object v0, v6
@@ -161,7 +154,6 @@
 .method public static c(Lcom/google/android/datatransport/k/y/a;Lcom/google/android/datatransport/k/y/a;Lcom/google/android/datatransport/k/x/e;Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/m;Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/q;)Lcom/google/android/datatransport/k/s;
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/google/android/datatransport/k/s;
 
     move-object v0, v6
@@ -186,7 +178,6 @@
 .method public b()Lcom/google/android/datatransport/k/s;
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/google/android/datatransport/k/s;
 
     iget-object v0, p0, Lcom/google/android/datatransport/k/u;->a:Lj/a/c;
@@ -249,7 +240,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/u;->b()Lcom/google/android/datatransport/k/s;
 
     move-result-object v0

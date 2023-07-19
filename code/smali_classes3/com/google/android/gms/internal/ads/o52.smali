@@ -18,14 +18,12 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object p0
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
@@ -46,7 +44,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/o52;->d(I)I
@@ -72,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/o52;->d(I)I

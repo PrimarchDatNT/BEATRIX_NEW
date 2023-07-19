@@ -40,7 +40,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/reflect/x;->a:Lcotlin/reflect/s;
@@ -57,7 +56,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/lang/reflect/TypeVariable;
 
     if-eqz v0, :cond_0
@@ -108,14 +106,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/reflect/x;->a:Lcotlin/reflect/s;
 
     invoke-interface {v0}, Lcotlin/reflect/s;->getUpperBounds()Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     const/16 v2, 0xa
@@ -126,7 +122,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -142,12 +137,10 @@
 
     move-result-object v2
 
-    .line 4
     check-cast v2, Lcotlin/reflect/r;
 
     const/4 v3, 0x1
 
-    .line 5
     invoke-static {v2, v3}, Lcotlin/reflect/TypesJVMKt;->a(Lcotlin/reflect/r;Z)Ljava/lang/reflect/Type;
 
     move-result-object v2
@@ -161,7 +154,6 @@
 
     new-array v0, v0, [Ljava/lang/reflect/Type;
 
-    .line 6
     invoke-interface {v1, v0}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -180,7 +172,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -223,7 +214,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/reflect/x;->a:Lcotlin/reflect/s;
 
     invoke-interface {v0}, Lcotlin/reflect/s;->getName()Ljava/lang/String;
@@ -238,7 +228,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/reflect/x;->getName()Ljava/lang/String;
 
     move-result-object v0
@@ -261,7 +250,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/reflect/x;->getName()Ljava/lang/String;
 
     move-result-object v0
@@ -340,7 +328,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/reflect/x;->getTypeName()Ljava/lang/String;
 
     move-result-object v0

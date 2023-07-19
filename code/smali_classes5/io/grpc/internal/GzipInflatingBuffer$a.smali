@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/grpc/internal/GzipInflatingBuffer$State;->values()[Lio/grpc/internal/GzipInflatingBuffer$State;
 
     move-result-object v0

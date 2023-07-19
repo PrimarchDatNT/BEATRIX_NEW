@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/countrylocation/Localizer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/Localizer$a;->a:Lcom/meitu/countrylocation/Localizer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,23 +41,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/Localizer$a;->a:Lcom/meitu/countrylocation/Localizer;
 
     iget-boolean v2, v1, Lcom/meitu/countrylocation/Localizer;->b:Z
 
     if-nez v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/countrylocation/Localizer;->g()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

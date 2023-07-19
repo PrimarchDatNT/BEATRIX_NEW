@@ -34,12 +34,10 @@
 .method constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/k0;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/k0$a;->b:Lcom/google/android/gms/internal/firebase_remote_config/k0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p2, p0, Lcom/google/android/gms/internal/firebase_remote_config/k0$a;->a:I
 
     return-void
@@ -56,7 +54,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Ljava/util/Map$Entry;
 
@@ -66,11 +63,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_remote_config/k0$a;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -83,7 +78,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-virtual {v1, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -104,7 +98,6 @@
     :goto_1
     if-eqz v1, :cond_6
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_remote_config/k0$a;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -117,7 +110,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 6
     invoke-virtual {v1, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -152,7 +144,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/k0$a;->b:Lcom/google/android/gms/internal/firebase_remote_config/k0;
 
     iget v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/k0$a;->a:I
@@ -172,7 +163,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/k0$a;->b:Lcom/google/android/gms/internal/firebase_remote_config/k0;
 
     iget v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/k0$a;->a:I
@@ -187,12 +177,10 @@
 .method public final hashCode()I
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_remote_config/k0$a;->getKey()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_remote_config/k0$a;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -201,7 +189,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
     move-result v0
@@ -232,7 +219,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/k0$a;->b:Lcom/google/android/gms/internal/firebase_remote_config/k0;
 
     iget v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/k0$a;->a:I

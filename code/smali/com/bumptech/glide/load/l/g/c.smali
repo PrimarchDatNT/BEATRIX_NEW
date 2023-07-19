@@ -90,7 +90,6 @@
 
     move-object v6, p7
 
-    .line 1
     invoke-direct/range {v0 .. v6}, Lcom/bumptech/glide/load/l/g/c;-><init>(Landroid/content/Context;Lcom/bumptech/glide/n/a;Lcom/bumptech/glide/load/i;IILandroid/graphics/Bitmap;)V
 
     return-void
@@ -111,12 +110,10 @@
         }
     .end annotation
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/load/l/g/c$a;
 
     new-instance v8, Lcom/bumptech/glide/load/l/g/g;
 
-    .line 3
     invoke-static {p1}, Lcom/bumptech/glide/c;->d(Landroid/content/Context;)Lcom/bumptech/glide/c;
 
     move-result-object v2
@@ -137,7 +134,6 @@
 
     invoke-direct {v0, v8}, Lcom/bumptech/glide/load/l/g/c$a;-><init>(Lcom/bumptech/glide/load/l/g/g;)V
 
-    .line 4
     invoke-direct {p0, v0}, Lcom/bumptech/glide/load/l/g/c;-><init>(Lcom/bumptech/glide/load/l/g/c$a;)V
 
     return-void
@@ -146,20 +142,16 @@
 .method constructor <init>(Lcom/bumptech/glide/load/l/g/c$a;)V
     .locals 1
 
-    .line 5
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 6
     iput-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->f:Z
 
     const/4 v0, -0x1
 
-    .line 7
     iput v0, p0, Lcom/bumptech/glide/load/l/g/c;->p:I
 
-    .line 8
     invoke-static {p1}, Lcom/bumptech/glide/s/k;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -176,14 +168,12 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 9
     new-instance v0, Lcom/bumptech/glide/load/l/g/c$a;
 
     invoke-direct {v0, p1}, Lcom/bumptech/glide/load/l/g/c$a;-><init>(Lcom/bumptech/glide/load/l/g/g;)V
 
     invoke-direct {p0, v0}, Lcom/bumptech/glide/load/l/g/c;-><init>(Lcom/bumptech/glide/load/l/g/c$a;)V
 
-    .line 10
     iput-object p2, p0, Lcom/bumptech/glide/load/l/g/c;->K:Landroid/graphics/Paint;
 
     return-void
@@ -192,18 +182,15 @@
 .method private b()Landroid/graphics/drawable/Drawable$Callback;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getCallback()Landroid/graphics/drawable/Drawable$Callback;
 
     move-result-object v0
 
-    .line 2
     :goto_0
     instance-of v1, v0, Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast v0, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getCallback()Landroid/graphics/drawable/Drawable$Callback;
@@ -219,19 +206,16 @@
 .method private d()Landroid/graphics/Rect;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->L:Landroid/graphics/Rect;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->L:Landroid/graphics/Rect;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->L:Landroid/graphics/Rect;
 
@@ -241,12 +225,10 @@
 .method private i()Landroid/graphics/Paint;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->K:Landroid/graphics/Paint;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroid/graphics/Paint;
 
     const/4 v1, 0x2
@@ -255,7 +237,6 @@
 
     iput-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->K:Landroid/graphics/Paint;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->K:Landroid/graphics/Paint;
 
@@ -265,14 +246,12 @@
 .method private l()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->M:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -280,7 +259,6 @@
     :goto_0
     if-ge v1, v0, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/bumptech/glide/load/l/g/c;->M:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -304,7 +282,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/bumptech/glide/load/l/g/c;->g:I
 
     return-void
@@ -313,7 +290,6 @@
 .method private s()V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->d:Z
 
     const/4 v1, 0x1
@@ -324,7 +300,6 @@
 
     invoke-static {v0, v2}, Lcom/bumptech/glide/s/k;->a(ZLjava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -335,28 +310,23 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->b:Z
 
     if-nez v0, :cond_1
 
-    .line 5
     iput-boolean v1, p0, Lcom/bumptech/glide/load/l/g/c;->b:Z
 
-    .line 6
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
 
     invoke-virtual {v0, p0}, Lcom/bumptech/glide/load/l/g/g;->v(Lcom/bumptech/glide/load/l/g/g$b;)V
 
-    .line 7
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     :cond_1
@@ -369,10 +339,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->b:Z
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -387,26 +355,21 @@
 .method public a()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/load/l/g/c;->b()Landroid/graphics/drawable/Drawable$Callback;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/bumptech/glide/load/l/g/c;->stop()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
-    .line 5
     invoke-virtual {p0}, Lcom/bumptech/glide/load/l/g/c;->g()I
 
     move-result v0
@@ -419,14 +382,12 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 6
     iget v0, p0, Lcom/bumptech/glide/load/l/g/c;->g:I
 
     add-int/lit8 v0, v0, 0x1
 
     iput v0, p0, Lcom/bumptech/glide/load/l/g/c;->g:I
 
-    .line 7
     :cond_1
     iget v0, p0, Lcom/bumptech/glide/load/l/g/c;->p:I
 
@@ -438,10 +399,8 @@
 
     if-lt v1, v0, :cond_2
 
-    .line 8
     invoke-direct {p0}, Lcom/bumptech/glide/load/l/g/c;->l()V
 
-    .line 9
     invoke-virtual {p0}, Lcom/bumptech/glide/load/l/g/c;->stop()V
 
     :cond_2
@@ -451,7 +410,6 @@
 .method public c()Ljava/nio/ByteBuffer;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -466,12 +424,10 @@
 .method public clearAnimationCallbacks()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->M:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
     :cond_0
@@ -485,14 +441,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->d:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->J:Z
 
@@ -500,7 +454,6 @@
 
     const/16 v0, 0x77
 
-    .line 3
     invoke-virtual {p0}, Lcom/bumptech/glide/load/l/g/c;->getIntrinsicWidth()I
 
     move-result v1
@@ -521,10 +474,8 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->J:Z
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
@@ -536,7 +487,6 @@
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-direct {p0}, Lcom/bumptech/glide/load/l/g/c;->d()Landroid/graphics/Rect;
 
     move-result-object v2
@@ -553,7 +503,6 @@
 .method public e()Landroid/graphics/Bitmap;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -568,7 +517,6 @@
 .method public f()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -583,7 +531,6 @@
 .method public g()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -598,7 +545,6 @@
 .method public getConstantState()Landroid/graphics/drawable/Drawable$ConstantState;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     return-object v0
@@ -607,7 +553,6 @@
 .method public getIntrinsicHeight()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -622,7 +567,6 @@
 .method public getIntrinsicWidth()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -653,7 +597,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -668,7 +611,6 @@
 .method public isRunning()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->b:Z
 
     return v0
@@ -677,7 +619,6 @@
 .method public j()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -692,7 +633,6 @@
 .method k()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->d:Z
 
     return v0
@@ -703,10 +643,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->d:Z
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -729,7 +667,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -742,12 +679,10 @@
 .method protected onBoundsChange(Landroid/graphics/Rect;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;->onBoundsChange(Landroid/graphics/Rect;)V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/bumptech/glide/load/l/g/c;->J:Z
 
     return-void
@@ -756,7 +691,6 @@
 .method p(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/bumptech/glide/load/l/g/c;->b:Z
 
     return-void
@@ -775,7 +709,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -789,7 +722,6 @@
     :goto_0
     if-nez p1, :cond_3
 
-    .line 2
     iget-object p1, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object p1, p1, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
@@ -805,13 +737,11 @@
     :cond_2
     move v0, p1
 
-    .line 3
     :goto_1
     iput v0, p0, Lcom/bumptech/glide/load/l/g/c;->p:I
 
     goto :goto_2
 
-    .line 4
     :cond_3
     iput p1, p0, Lcom/bumptech/glide/load/l/g/c;->p:I
 
@@ -822,7 +752,6 @@
 .method public r()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->b:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -831,14 +760,12 @@
 
     invoke-static {v0, v1}, Lcom/bumptech/glide/s/k;->a(ZLjava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->a:Lcom/bumptech/glide/load/l/g/c$a;
 
     iget-object v0, v0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
 
     invoke-virtual {v0}, Lcom/bumptech/glide/load/l/g/g;->r()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/bumptech/glide/load/l/g/c;->start()V
 
     return-void
@@ -855,20 +782,17 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->M:Ljava/util/List;
 
     if-nez v0, :cond_1
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->M:Ljava/util/List;
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->M:Ljava/util/List;
 
@@ -880,7 +804,6 @@
 .method public setAlpha(I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/load/l/g/c;->i()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -893,7 +816,6 @@
 .method public setColorFilter(Landroid/graphics/ColorFilter;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/load/l/g/c;->i()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -906,7 +828,6 @@
 .method public setVisible(ZZ)Z
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->d:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -915,26 +836,21 @@
 
     invoke-static {v0, v1}, Lcom/bumptech/glide/s/k;->a(ZLjava/lang/String;)V
 
-    .line 2
     iput-boolean p1, p0, Lcom/bumptech/glide/load/l/g/c;->f:Z
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/bumptech/glide/load/l/g/c;->t()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->c:Z
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-direct {p0}, Lcom/bumptech/glide/load/l/g/c;->s()V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-super {p0, p1, p2}, Landroid/graphics/drawable/Drawable;->setVisible(ZZ)Z
@@ -949,18 +865,14 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->c:Z
 
-    .line 2
     invoke-direct {p0}, Lcom/bumptech/glide/load/l/g/c;->n()V
 
-    .line 3
     iget-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->f:Z
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-direct {p0}, Lcom/bumptech/glide/load/l/g/c;->s()V
 
     :cond_0
@@ -972,10 +884,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/bumptech/glide/load/l/g/c;->c:Z
 
-    .line 2
     invoke-direct {p0}, Lcom/bumptech/glide/load/l/g/c;->t()V
 
     return-void
@@ -988,7 +898,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/c;->M:Ljava/util/List;
 
     if-eqz v0, :cond_1
@@ -997,7 +906,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 

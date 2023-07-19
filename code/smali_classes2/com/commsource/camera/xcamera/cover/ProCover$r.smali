@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/ProCover$r;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/ProCover;->T()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
@@ -71,7 +70,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/ProCover$r;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/ProCover;->Y()Lcom/commsource/camera/xcamera/cover/j;
@@ -82,7 +80,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/ProCover$r;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -92,7 +89,6 @@
 
     invoke-virtual {v0, v2}, Lcom/commsource/camera/xcamera/cover/j;->B(I)V
 
-    .line 4
     :goto_0
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/ProCover$r;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -116,7 +112,6 @@
 
     invoke-virtual {v0, v3, v2}, Lcom/commsource/widget/ProView;->I(ZZ)V
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/ProCover$r;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -134,7 +129,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/widget/ProView;->setHasShowProBanner(Z)V
 
-    .line 6
     :cond_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -148,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/ProCover$r;->a(Ljava/lang/Boolean;)V

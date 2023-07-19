@@ -33,7 +33,6 @@
 
     iput-object p4, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$b;->f:Lcotlin/jvm/u/a;
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/commsource/util/delegate/process/g;-><init>(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
     return-void
@@ -50,12 +49,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$b;->f:Lcotlin/jvm/u/a;
 
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$b;->e:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -69,7 +66,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$b;->e:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -78,7 +74,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->K0()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

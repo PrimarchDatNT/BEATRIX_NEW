@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd$1;->this$0:Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;
 
     invoke-direct {p0}, Lcom/google/android/gms/ads/b;-><init>()V
@@ -35,10 +34,8 @@
 .method public onAdClicked()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/ads/b;->onAdClicked()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd$1;->this$0:Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;
 
     invoke-virtual {v0}, Lcom/mopub/nativeads/BaseNativeAd;->notifyAdClicked()V
@@ -49,7 +46,6 @@
 .method public onAdFailedToLoad(I)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/android/gms/ads/b;->onAdFailedToLoad(I)V
 
     if-eqz p1, :cond_3
@@ -66,7 +62,6 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd$1;->this$0:Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;
 
     invoke-static {p1}, Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;->access$000(Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;)Lcom/mopub/nativeads/CustomEventNative$CustomEventNativeListener;
@@ -79,7 +74,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd$1;->this$0:Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;
 
@@ -93,7 +87,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd$1;->this$0:Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;
 
@@ -107,7 +100,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd$1;->this$0:Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;
 
@@ -121,7 +113,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_3
     iget-object p1, p0, Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd$1;->this$0:Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;
 
@@ -140,10 +131,8 @@
 .method public onAdImpression()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/ads/b;->onAdImpression()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd$1;->this$0:Lcom/mopub/nativeads/GooglePlayServicesNative$GooglePlayServicesNativeAd;
 
     invoke-virtual {v0}, Lcom/mopub/nativeads/BaseNativeAd;->notifyAdImpressed()V

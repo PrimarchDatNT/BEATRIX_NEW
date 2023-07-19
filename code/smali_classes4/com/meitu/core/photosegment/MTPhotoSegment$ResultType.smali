@@ -64,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v2, "CommonResult"
@@ -75,7 +74,6 @@
 
     sput-object v1, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->CommonResult:Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
-    .line 2
     new-instance v2, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v4, "FaceBackground"
@@ -86,7 +84,6 @@
 
     sput-object v2, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->FaceBackground:Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
-    .line 3
     new-instance v4, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v6, "FaceFaceSkin"
@@ -97,7 +94,6 @@
 
     sput-object v4, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->FaceFaceSkin:Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
-    .line 4
     new-instance v6, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v8, "FaceBrow"
@@ -108,7 +104,6 @@
 
     sput-object v6, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->FaceBrow:Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
-    .line 5
     new-instance v8, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v10, "FaceEye"
@@ -119,7 +114,6 @@
 
     sput-object v8, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->FaceEye:Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
-    .line 6
     new-instance v10, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v12, "FaceNose"
@@ -130,7 +124,6 @@
 
     sput-object v10, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->FaceNose:Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
-    .line 7
     new-instance v12, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v14, "FaceLip"
@@ -141,7 +134,6 @@
 
     sput-object v12, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->FaceLip:Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
-    .line 8
     new-instance v14, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v0, "FaceTeeth"
@@ -152,7 +144,6 @@
 
     sput-object v14, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->FaceTeeth:Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
-    .line 9
     new-instance v0, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v15, "FacePupilla"
@@ -163,7 +154,6 @@
 
     sput-object v0, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->FacePupilla:Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
-    .line 10
     new-instance v15, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v13, "FaceGlasses"
@@ -174,7 +164,6 @@
 
     sput-object v15, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->FaceGlasses:Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
-    .line 11
     new-instance v13, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v11, "FaceBeard"
@@ -185,7 +174,6 @@
 
     sput-object v13, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->FaceBeard:Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
-    .line 12
     new-instance v11, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v9, "FaceContourBackgroud"
@@ -196,7 +184,6 @@
 
     sput-object v11, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->FaceContourBackgroud:Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
-    .line 13
     new-instance v9, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const-string v7, "FaceContourSkin"
@@ -259,7 +246,6 @@
 
     aput-object v9, v7, v5
 
-    .line 14
     sput-object v7, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->$VALUES:[Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     const v0, 0xd078
@@ -277,10 +263,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->id:I
 
     return-void
@@ -293,7 +277,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -314,7 +297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->$VALUES:[Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;
 
     invoke-virtual {v1}, [Lcom/meitu/core/photosegment/MTPhotoSegment$ResultType;->clone()Ljava/lang/Object;

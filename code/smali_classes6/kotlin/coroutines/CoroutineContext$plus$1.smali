@@ -61,7 +61,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/coroutines/CoroutineContext;
 
     check-cast p2, Lcotlin/coroutines/CoroutineContext$a;
@@ -94,7 +93,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-interface {p2}, Lcotlin/coroutines/CoroutineContext$a;->getKey()Lcotlin/coroutines/CoroutineContext$b;
 
     move-result-object v0
@@ -103,14 +101,12 @@
 
     move-result-object p1
 
-    .line 3
     sget-object v0, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     if-ne p1, v0, :cond_0
 
     goto :goto_1
 
-    .line 4
     :cond_0
     sget-object v1, Lcotlin/coroutines/d;->s:Lcotlin/coroutines/d$b;
 
@@ -122,7 +118,6 @@
 
     if-nez v2, :cond_1
 
-    .line 5
     new-instance v0, Lcotlin/coroutines/CombinedContext;
 
     invoke-direct {v0, p1, p2}, Lcotlin/coroutines/CombinedContext;-><init>(Lcotlin/coroutines/CoroutineContext;Lcotlin/coroutines/CoroutineContext$a;)V
@@ -132,7 +127,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-interface {p1, v1}, Lcotlin/coroutines/CoroutineContext;->minusKey(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext;
 
@@ -140,7 +134,6 @@
 
     if-ne p1, v0, :cond_2
 
-    .line 7
     new-instance p1, Lcotlin/coroutines/CombinedContext;
 
     invoke-direct {p1, p2, v2}, Lcotlin/coroutines/CombinedContext;-><init>(Lcotlin/coroutines/CoroutineContext;Lcotlin/coroutines/CoroutineContext$a;)V
@@ -149,7 +142,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     new-instance v0, Lcotlin/coroutines/CombinedContext;
 

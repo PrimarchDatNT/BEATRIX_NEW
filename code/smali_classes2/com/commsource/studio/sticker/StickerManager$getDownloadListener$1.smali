@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/material/download/b/d;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;->invoke(Lcom/commsource/material/download/b/d;)V
@@ -85,35 +84,30 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$1;-><init>(Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/material/download/b/d;->h(Lcotlin/jvm/u/a;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$2;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$2;-><init>(Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/material/download/b/d;->g(Lcotlin/jvm/u/l;)V
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$3;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$3;-><init>(Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/material/download/b/d;->i(Lcotlin/jvm/u/a;)V
 
-    .line 5
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$4;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$4;-><init>(Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/material/download/b/d;->f(Lcotlin/jvm/u/l;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

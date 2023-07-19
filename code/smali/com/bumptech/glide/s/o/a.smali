@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/s/o/a$a;
 
     invoke-direct {v0}, Lcom/bumptech/glide/s/o/a$a;-><init>()V
@@ -47,7 +46,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -80,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/bumptech/glide/s/o/a;->c()Lcom/bumptech/glide/s/o/a$g;
 
     move-result-object v0
@@ -125,7 +122,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/s/o/a$e;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/bumptech/glide/s/o/a$e;-><init>(Landroidx/core/util/Pools$Pool;Lcom/bumptech/glide/s/o/a$d;Lcom/bumptech/glide/s/o/a$g;)V
@@ -148,7 +144,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/s/o/a;->c:Lcom/bumptech/glide/s/o/a$g;
 
     return-object v0
@@ -175,7 +170,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroidx/core/util/Pools$SimplePool;
 
     invoke-direct {v0, p0}, Landroidx/core/util/Pools$SimplePool;-><init>(I)V
@@ -208,7 +202,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroidx/core/util/Pools$SynchronizedPool;
 
     invoke-direct {v0, p0}, Landroidx/core/util/Pools$SynchronizedPool;-><init>(I)V
@@ -238,7 +231,6 @@
 
     const/16 v0, 0x14
 
-    .line 1
     invoke-static {v0}, Lcom/bumptech/glide/s/o/a;->g(I)Landroidx/core/util/Pools$Pool;
 
     move-result-object v0
@@ -262,7 +254,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroidx/core/util/Pools$SynchronizedPool;
 
     invoke-direct {v0, p0}, Landroidx/core/util/Pools$SynchronizedPool;-><init>(I)V

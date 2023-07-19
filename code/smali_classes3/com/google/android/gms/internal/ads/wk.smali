@@ -20,7 +20,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,12 +30,10 @@
 .method public final synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, [B
 
     check-cast p2, [B
 
-    .line 2
     array-length p1, p1
 
     array-length p2, p2

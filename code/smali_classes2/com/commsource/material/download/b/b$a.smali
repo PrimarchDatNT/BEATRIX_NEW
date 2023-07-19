@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/material/download/b/b$a;-><init>()V
 
     return-void
@@ -43,12 +41,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/material/download/b/b$b;
 
     invoke-direct {v1}, Lcom/commsource/material/download/b/b$b;-><init>()V
 
-    .line 2
     new-instance v2, Lcom/commsource/material/download/c/d;
 
     const-string v3, "onlinePath"
@@ -71,7 +67,6 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/commsource/material/download/c/d;
 
     const/4 v8, 0x1
@@ -92,7 +87,6 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/commsource/material/download/c/d;
 
     invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/material/download/c/d;-><init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V
@@ -105,14 +99,12 @@
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Lcom/commsource/material/download/b/b$a$b;
 
     invoke-direct {v2}, Lcom/commsource/material/download/b/b$a$b;-><init>()V
 
     invoke-virtual {v1, v2}, Lcom/commsource/material/download/b/b$b;->c(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

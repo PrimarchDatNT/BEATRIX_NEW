@@ -25,12 +25,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/commsource/widget/PressRelativeLayout;->b:I
 
     return-void
@@ -47,12 +45,10 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0, p1, p2}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, 0x0
 
-    .line 4
     iput p1, p0, Lcom/commsource/widget/PressRelativeLayout;->b:I
 
     return-void
@@ -69,12 +65,10 @@
         .end annotation
     .end param
 
-    .line 5
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, 0x0
 
-    .line 6
     iput p1, p0, Lcom/commsource/widget/PressRelativeLayout;->b:I
 
     return-void
@@ -89,10 +83,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/PressRelativeLayout;->a:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -109,10 +101,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/PressRelativeLayout;->b:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -125,20 +115,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/RelativeLayout;->setPressed(Z)V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/widget/PressRelativeLayout;->a:Z
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/commsource/widget/PressRelativeLayout;->b:I
 
@@ -157,7 +143,6 @@
     :cond_1
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 5
     :goto_0
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
@@ -173,7 +158,6 @@
     :cond_3
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 6
     :goto_1
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
@@ -186,11 +170,9 @@
     :cond_4
     sget p1, Lcom/res/provider/ResDRAWABLE;->common_aibeauty_shadow_icon:I
 
-    .line 7
     :goto_2
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->setBackgroundResource(I)V
 
-    .line 8
     :cond_5
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

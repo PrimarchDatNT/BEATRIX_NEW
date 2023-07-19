@@ -46,7 +46,6 @@
 
     move-object v2, p2
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/x;-><init>(ILjava/lang/String;Ljava/lang/Integer;ILcotlin/jvm/internal/u;)V
 
     return-void
@@ -61,7 +60,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/gesture/GestureLayer$c;->r:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {p2}, Lcom/commsource/studio/gesture/GestureLayer;->J0()Lcom/commsource/studio/text/b;
@@ -74,7 +72,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/gesture/GestureLayer$c;->r:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v0}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -87,11 +84,9 @@
 
     invoke-virtual {v0, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     :cond_0
     iget-object p2, p0, Lcom/commsource/studio/gesture/GestureLayer$c;->q:Lcom/commsource/studio/bean/FocusLayerInfo;
 
-    .line 4
     instance-of v0, p2, Lcom/commsource/studio/bean/PictureLayerInfo;
 
     if-eqz v0, :cond_1
@@ -100,7 +95,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     instance-of v0, p2, Lcom/commsource/studio/bean/StickerLayerInfo;
 
@@ -110,7 +104,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     instance-of v0, p2, Lcom/commsource/studio/bean/DoodleLayerInfo;
 
@@ -120,7 +113,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     instance-of v0, p2, Lcom/commsource/studio/bean/TextLayerInfo;
 
@@ -130,7 +122,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_4
     instance-of p2, p2, Lcom/commsource/studio/bean/GroupLayerInfo;
 
@@ -148,10 +139,8 @@
 
     const-string v1, "type"
 
-    .line 9
     invoke-static {v0, v1, p2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

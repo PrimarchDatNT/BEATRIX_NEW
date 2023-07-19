@@ -32,10 +32,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -56,7 +54,6 @@
 .method public final c()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/b1;->a:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->isEmpty()Z
@@ -76,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/b1;->a:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->size()I
@@ -85,19 +81,16 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lio/grpc/internal/b1;->a:Ljava/util/HashSet;
 
     invoke-virtual {p2, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     if-nez v0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lio/grpc/internal/b1;->a()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lio/grpc/internal/b1;->a:Ljava/util/HashSet;
 
@@ -111,7 +104,6 @@
 
     if-ne v0, p1, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lio/grpc/internal/b1;->b()V
 
     :cond_1

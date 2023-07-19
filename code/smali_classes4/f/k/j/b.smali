@@ -81,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lf/k/j/b;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -98,50 +97,38 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lf/k/j/b;->a:Z
 
-    .line 3
     iput-boolean v0, p0, Lf/k/j/b;->b:Z
 
-    .line 4
     iput-boolean v0, p0, Lf/k/j/b;->c:Z
 
-    .line 5
     iput-boolean v0, p0, Lf/k/j/b;->d:Z
 
-    .line 6
     iput-boolean v0, p0, Lf/k/j/b;->e:Z
 
-    .line 7
     iput-boolean v0, p0, Lf/k/j/b;->f:Z
 
-    .line 8
     iput-boolean v0, p0, Lf/k/j/b;->g:Z
 
     const-wide/32 v0, 0x36ee80
 
-    .line 9
     iput-wide v0, p0, Lf/k/j/b;->h:J
 
     const/4 v0, 0x0
 
-    .line 10
     iput-boolean v0, p0, Lf/k/j/b;->i:Z
 
-    .line 11
     new-instance v0, Lokhttp3/OkHttpClient;
 
     invoke-direct {v0}, Lokhttp3/OkHttpClient;-><init>()V
 
     iput-object v0, p0, Lf/k/j/b;->j:Lokhttp3/OkHttpClient;
 
-    .line 12
     invoke-direct {p0}, Lf/k/j/b;->C()V
 
     return-void
@@ -154,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x12
@@ -187,24 +173,20 @@
 
     const-wide/16 v3, -0x1
 
-    .line 1
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/library/p/g/c;->h(Ljava/lang/String;Ljava/lang/String;J)J
 
     move-result-wide v1
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
     sub-long/2addr v3, v1
 
-    .line 3
     iget-boolean v1, p0, Lf/k/j/b;->i:Z
 
     if-eqz v1, :cond_0
 
-    .line 4
     sget-object v1, Lf/k/j/b;->l:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -238,7 +220,6 @@
 
     if-lez v5, :cond_1
 
-    .line 5
     iget-wide v1, p0, Lf/k/j/b;->h:J
 
     cmp-long v5, v3, v1
@@ -247,7 +228,6 @@
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -255,7 +235,6 @@
     :cond_1
     const/4 v1, 0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -268,57 +247,48 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lf/k/j/b;->a:Z
 
     const-string v2, "HardwareOnlineSwitchAdapter"
 
     const-string v3, "hd_encoding"
 
-    .line 2
     invoke-static {v2, v3, v1}, Lcom/meitu/library/p/g/c;->d(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v1
 
     iput-boolean v1, p0, Lf/k/j/b;->a:Z
 
-    .line 3
     iget-boolean v1, p0, Lf/k/j/b;->b:Z
 
     const-string v3, "hd_import"
 
-    .line 4
     invoke-static {v2, v3, v1}, Lcom/meitu/library/p/g/c;->d(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v1
 
     iput-boolean v1, p0, Lf/k/j/b;->b:Z
 
-    .line 5
     iget-boolean v1, p0, Lf/k/j/b;->d:Z
 
     const-string v3, "hd_record"
 
-    .line 6
     invoke-static {v2, v3, v1}, Lcom/meitu/library/p/g/c;->d(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v1
 
     iput-boolean v1, p0, Lf/k/j/b;->d:Z
 
-    .line 7
     iget-boolean v1, p0, Lf/k/j/b;->c:Z
 
     const-string v3, "hd_save"
 
-    .line 8
     invoke-static {v2, v3, v1}, Lcom/meitu/library/p/g/c;->d(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v1
 
     iput-boolean v1, p0, Lf/k/j/b;->c:Z
 
-    .line 9
     iget-boolean v1, p0, Lf/k/j/b;->e:Z
 
     const-string v3, "ar"
@@ -329,7 +299,6 @@
 
     iput-boolean v1, p0, Lf/k/j/b;->e:Z
 
-    .line 10
     iget-boolean v1, p0, Lf/k/j/b;->f:Z
 
     const-string v3, "live_ar"
@@ -340,7 +309,6 @@
 
     iput-boolean v1, p0, Lf/k/j/b;->f:Z
 
-    .line 11
     iget-boolean v1, p0, Lf/k/j/b;->g:Z
 
     const-string v3, "various_background"
@@ -351,7 +319,6 @@
 
     iput-boolean v1, p0, Lf/k/j/b;->g:Z
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -366,7 +333,6 @@
 
     const-string v1, ""
 
-    .line 1
     new-instance v2, Ljava/lang/StringBuilder;
 
     if-eqz p2, :cond_0
@@ -383,12 +349,10 @@
 
     const-string p2, "?"
 
-    .line 2
     invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string p2, "device"
 
-    .line 3
     invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string p2, "="
@@ -401,24 +365,20 @@
 
     const-string v3, "&"
 
-    .line 4
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v4, "softid"
 
-    .line 5
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string p1, "osversion"
 
-    .line 7
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -427,12 +387,10 @@
 
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 8
     iget-boolean p1, p0, Lf/k/j/b;->i:Z
 
     if-eqz p1, :cond_1
 
-    .line 9
     sget-object p1, Lf/k/j/b;->l:Ljava/lang/String;
 
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -441,7 +399,6 @@
 
     invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 10
     :cond_1
     new-instance p1, Lokhttp3/Request$Builder;
 
@@ -459,7 +416,6 @@
 
     move-result-object p1
 
-    .line 11
     :try_start_0
     iget-object p2, p0, Lf/k/j/b;->j:Lokhttp3/OkHttpClient;
 
@@ -471,14 +427,12 @@
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1}, Lokhttp3/Response;->isSuccessful()Z
 
     move-result p2
 
     if-eqz p2, :cond_2
 
-    .line 13
     invoke-virtual {p1}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object p1
@@ -496,22 +450,18 @@
     :catch_0
     move-exception p1
 
-    .line 14
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 15
     :cond_2
     :goto_1
     iget-boolean p1, p0, Lf/k/j/b;->i:Z
 
     if-eqz p1, :cond_3
 
-    .line 16
     sget-object p1, Lf/k/j/b;->l:Ljava/lang/String;
 
     invoke-static {p1, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 17
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -525,7 +475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lf/k/j/b;->D(IZ)Ljava/lang/String;
 
     move-result-object p0
@@ -542,7 +491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lf/k/j/b;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -557,7 +505,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lf/k/j/b;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -572,7 +519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lf/k/j/b;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -587,7 +533,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lf/k/j/b;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -602,7 +547,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lf/k/j/b;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -617,7 +561,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lf/k/j/b;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -632,7 +575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lf/k/j/b;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -647,7 +589,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lf/k/j/b;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -662,7 +603,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lf/k/j/b;->e:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -677,7 +617,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lf/k/j/b;->e:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -692,7 +631,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lf/k/j/b;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -707,7 +645,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lf/k/j/b;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -722,7 +659,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lf/k/j/b;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -737,7 +673,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lf/k/j/b;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -752,7 +687,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/j/b;->k:Lf/k/j/b$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -767,7 +701,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lf/k/j/b;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -782,30 +715,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/j/b;->C:Lf/k/j/b;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lf/k/j/b;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lf/k/j/b;->C:Lf/k/j/b;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lf/k/j/b;
 
     invoke-direct {v2}, Lf/k/j/b;-><init>()V
 
     sput-object v2, Lf/k/j/b;->C:Lf/k/j/b;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -822,7 +750,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lf/k/j/b;->C:Lf/k/j/b;
@@ -841,10 +768,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/j/b;->k:Lf/k/j/b$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -857,10 +782,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lf/k/j/b;->i:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -873,10 +796,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lf/k/j/b;->h:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -889,7 +810,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/j/b;->u()Z
 
     move-result v1
@@ -920,7 +840,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/j/b;->u()Z
 
     move-result v1
@@ -951,7 +870,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/j/b;->A()Z
 
     move-result v1
@@ -982,7 +900,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/j/b;->u()Z
 
     move-result v1
@@ -1013,7 +930,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/j/b;->u()Z
 
     move-result v1
@@ -1044,7 +960,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/j/b;->u()Z
 
     move-result v1
@@ -1075,7 +990,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/j/b;->u()Z
 
     move-result v1
@@ -1106,19 +1020,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/j/b;->A()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-boolean p1, p0, Lf/k/j/b;->i:Z
 
     if-eqz p1, :cond_0
 
-    .line 3
     sget-object p1, Lf/k/j/b;->l:Ljava/lang/String;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -1143,24 +1054,20 @@
 
     invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     invoke-static {p3}, Lcom/meitu/library/p/h/a;->b(Landroid/content/Context;)Z
 
     move-result p3
 
-    .line 6
     iget-boolean v1, p0, Lf/k/j/b;->i:Z
 
     if-eqz v1, :cond_2
 
-    .line 7
     sget-object v1, Lf/k/j/b;->l:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1238,14 +1145,12 @@
     :cond_2
     if-eqz p3, :cond_3
 
-    .line 8
     invoke-direct {p0}, Lf/k/j/b;->B()Z
 
     move-result p3
 
     if-eqz p3, :cond_3
 
-    .line 9
     new-instance p3, Ljava/lang/Thread;
 
     new-instance v1, Lf/k/j/b$a;
@@ -1254,10 +1159,8 @@
 
     invoke-direct {p3, v1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
 
-    .line 10
     invoke-virtual {p3}, Ljava/lang/Thread;->start()V
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

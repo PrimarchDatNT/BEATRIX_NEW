@@ -72,12 +72,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/c;->a:[Lcotlinx/coroutines/t0;
 
-    .line 2
     array-length p1, p1
 
     iput p1, p0, Lcotlinx/coroutines/c;->notCompletedCount:I
@@ -88,7 +86,6 @@
 .method public static final synthetic a(Lcotlinx/coroutines/c;)[Lcotlinx/coroutines/t0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlinx/coroutines/c;->a:[Lcotlinx/coroutines/t0;
 
     return-object p0
@@ -116,7 +113,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/n;
 
     invoke-static {p1}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -127,7 +123,6 @@
 
     invoke-direct {v0, v1, v2}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
-    .line 2
     invoke-static {p0}, Lcotlinx/coroutines/c;->a(Lcotlinx/coroutines/c;)[Lcotlinx/coroutines/t0;
 
     move-result-object v1
@@ -151,36 +146,30 @@
 
     move-result v5
 
-    .line 3
     invoke-static {p0}, Lcotlinx/coroutines/c;->a(Lcotlinx/coroutines/c;)[Lcotlinx/coroutines/t0;
 
     move-result-object v6
 
     aget-object v5, v6, v5
 
-    .line 4
     invoke-interface {v5}, Lcotlinx/coroutines/c2;->start()Z
 
-    .line 5
     new-instance v6, Lcotlinx/coroutines/c$a;
 
     invoke-direct {v6, p0, v0, v5}, Lcotlinx/coroutines/c$a;-><init>(Lcotlinx/coroutines/c;Lcotlinx/coroutines/m;Lcotlinx/coroutines/c2;)V
 
-    .line 6
     invoke-interface {v5, v6}, Lcotlinx/coroutines/c2;->z(Lcotlin/jvm/u/l;)Lcotlinx/coroutines/f1;
 
     move-result-object v5
 
     invoke-virtual {v6, v5}, Lcotlinx/coroutines/c$a;->j0(Lcotlinx/coroutines/f1;)V
 
-    .line 7
     aput-object v6, v2, v4
 
     add-int/lit8 v4, v4, 0x1
 
     goto :goto_0
 
-    .line 8
     :cond_0
     new-instance v4, Lcotlinx/coroutines/c$b;
 
@@ -189,17 +178,14 @@
     :goto_1
     if-ge v3, v1, :cond_1
 
-    .line 9
     aget-object v5, v2, v3
 
-    .line 10
     invoke-virtual {v5, v4}, Lcotlinx/coroutines/c$a;->i0(Lcotlinx/coroutines/c$b;)V
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_1
 
-    .line 11
     :cond_1
     invoke-interface {v0}, Lcotlinx/coroutines/m;->c()Z
 
@@ -207,22 +193,18 @@
 
     if-eqz v1, :cond_2
 
-    .line 12
     invoke-virtual {v4}, Lcotlinx/coroutines/c$b;->b()V
 
     goto :goto_2
 
-    .line 13
     :cond_2
     invoke-interface {v0, v4}, Lcotlinx/coroutines/m;->s(Lcotlin/jvm/u/l;)V
 
-    .line 14
     :goto_2
     invoke-virtual {v0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 15
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1

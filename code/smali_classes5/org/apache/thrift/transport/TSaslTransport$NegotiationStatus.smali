@@ -55,7 +55,6 @@
 .method static constructor <clinit>()V
     .locals 12
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
     const-string v1, "START"
@@ -68,7 +67,6 @@
 
     sput-object v0, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->START:Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
-    .line 2
     new-instance v1, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
     const-string v4, "OK"
@@ -79,7 +77,6 @@
 
     sput-object v1, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->OK:Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
-    .line 3
     new-instance v4, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
     const-string v6, "BAD"
@@ -90,7 +87,6 @@
 
     sput-object v4, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->BAD:Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
-    .line 4
     new-instance v6, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
     const-string v8, "ERROR"
@@ -101,7 +97,6 @@
 
     sput-object v6, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->ERROR:Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
-    .line 5
     new-instance v8, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
     const-string v10, "COMPLETE"
@@ -124,17 +119,14 @@
 
     aput-object v8, v10, v9
 
-    .line 6
     sput-object v10, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->$VALUES:[Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
-    .line 7
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     sput-object v0, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->reverseMap:Ljava/util/Map;
 
-    .line 8
     const-class v0, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getEnumConstants()[Ljava/lang/Object;
@@ -150,7 +142,6 @@
 
     aget-object v3, v0, v2
 
-    .line 9
     sget-object v4, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->reverseMap:Ljava/util/Map;
 
     invoke-virtual {v3}, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->getValue()B
@@ -179,10 +170,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-byte p3, p0, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->value:B
 
     return-void
@@ -191,7 +180,6 @@
 .method public static byValue(B)Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->reverseMap:Ljava/util/Map;
 
     invoke-static {p0}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
@@ -210,7 +198,6 @@
 .method public static valueOf(Ljava/lang/String;)Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
     .locals 1
 
-    .line 1
     const-class v0, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -225,7 +212,6 @@
 .method public static values()[Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->$VALUES:[Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
     invoke-virtual {v0}, [Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->clone()Ljava/lang/Object;
@@ -242,7 +228,6 @@
 .method public getValue()B
     .locals 1
 
-    .line 1
     iget-byte v0, p0, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->value:B
 
     return v0

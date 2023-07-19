@@ -16,12 +16,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     const/16 v0, 0xf
 
-    .line 2
     invoke-static {v0}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v0
@@ -30,7 +28,6 @@
 
     const/16 v0, 0x14
 
-    .line 3
     invoke-static {v0}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v0
@@ -81,12 +78,10 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
 
-    .line 2
     invoke-virtual {p3}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object p3
@@ -109,7 +104,6 @@
 
     if-nez p2, :cond_1
 
-    .line 3
     iget p2, p0, Lcom/commsource/studio/formula/a;->a:I
 
     invoke-virtual {p1, p2, p4, p4, p4}, Landroid/graphics/Rect;->set(IIII)V
@@ -121,7 +115,6 @@
 
     if-ne p2, p3, :cond_2
 
-    .line 4
     iget p2, p0, Lcom/commsource/studio/formula/a;->b:I
 
     iget p3, p0, Lcom/commsource/studio/formula/a;->a:I
@@ -130,13 +123,11 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     iget p2, p0, Lcom/commsource/studio/formula/a;->b:I
 
     invoke-virtual {p1, p2, p4, p4, p4}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 6
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

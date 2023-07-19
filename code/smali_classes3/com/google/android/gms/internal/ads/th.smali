@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/qh;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/th;->b:Lcom/google/android/gms/internal/ads/qh;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/th;->a:Landroid/content/Context;
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/th;->b:Lcom/google/android/gms/internal/ads/qh;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/qh;->a(Lcom/google/android/gms/internal/ads/qh;)Ljava/util/WeakHashMap;
@@ -64,7 +62,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-wide v1, v0, Lcom/google/android/gms/internal/ads/sh;->a:J
 
     sget-object v3, Lcom/google/android/gms/internal/ads/f1;->a:Lcom/google/android/gms/internal/ads/y0;
@@ -81,7 +78,6 @@
 
     add-long/2addr v1, v3
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->j()Lcom/google/android/gms/common/util/g;
 
     move-result-object v3
@@ -104,7 +100,6 @@
     :goto_0
     if-nez v1, :cond_1
 
-    .line 4
     new-instance v1, Lcom/google/android/gms/internal/ads/rh;
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/th;->a:Landroid/content/Context;
@@ -119,7 +114,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/ads/rh;
 
@@ -131,7 +125,6 @@
 
     move-result-object v0
 
-    .line 6
     :goto_1
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/th;->b:Lcom/google/android/gms/internal/ads/qh;
 

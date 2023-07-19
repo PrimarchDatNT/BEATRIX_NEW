@@ -18,7 +18,6 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/jsoup/select/c$r;-><init>(I)V
 
     return-void
@@ -29,7 +28,6 @@
 .method public a(Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p2}, Lorg/jsoup/nodes/Element;->Q0()I
 
     move-result p1
@@ -56,7 +54,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget v1, p0, Lorg/jsoup/select/c$r;->a:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

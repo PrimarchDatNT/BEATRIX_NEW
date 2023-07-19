@@ -56,7 +56,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/io/g;->a:Ljava/io/File;
@@ -166,7 +165,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/io/g;->a:Ljava/io/File;
 
     return-object v0
@@ -226,7 +224,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/io/g;->a:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->getPath()Ljava/lang/String;
@@ -254,7 +251,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/io/g;->b:Ljava/util/List;
 
     return-object v0
@@ -263,7 +259,6 @@
 .method public final h()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/io/g;->b:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -311,7 +306,6 @@
 .method public final i()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlin/io/g;->a:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->getPath()Ljava/lang/String;
@@ -348,14 +342,12 @@
 
     if-gt p1, p2, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/io/g;->h()I
 
     move-result v0
 
     if-gt p2, v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lcotlin/io/g;->b:Ljava/util/List;
@@ -392,7 +384,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

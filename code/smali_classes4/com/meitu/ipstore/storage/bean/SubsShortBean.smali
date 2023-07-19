@@ -48,7 +48,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -70,25 +69,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->endTime:J
 
-    .line 3
     iput-wide p3, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->startTime:J
 
-    .line 4
     iput-object p5, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->subId:Ljava/lang/String;
 
-    .line 5
     iput-object p6, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->version:Ljava/lang/String;
 
-    .line 6
     iput-object p7, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->materialIds:Ljava/util/List;
 
-    .line 7
     iput-object p8, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->productIds:Ljava/util/List;
 
     return-void
@@ -103,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->endTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -126,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->materialIds:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -149,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->productIds:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -164,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->startTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -179,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->subId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -194,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->version:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -211,10 +197,8 @@
 
     int-to-long v1, p1
 
-    .line 1
     iput-wide v1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->endTime:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -227,10 +211,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     iput-wide p1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->endTime:J
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -251,10 +233,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->materialIds:Ljava/util/List;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -275,10 +255,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->productIds:Ljava/util/List;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -293,10 +271,8 @@
 
     int-to-long v1, p1
 
-    .line 1
     iput-wide v1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->startTime:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -309,10 +285,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     iput-wide p1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->startTime:J
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -325,10 +299,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->subId:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -341,10 +313,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->version:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -16,7 +16,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method public getData()Lcom/giphy/sdk/core/models/Media;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/network/response/MediaResponse;->data:Lcom/giphy/sdk/core/models/Media;
 
     return-object v0
@@ -36,7 +34,6 @@
 .method public getMeta()Lcom/giphy/sdk/core/models/Meta;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/network/response/MediaResponse;->meta:Lcom/giphy/sdk/core/models/Meta;
 
     return-object v0
@@ -45,7 +42,6 @@
 .method public setData(Lcom/giphy/sdk/core/models/Media;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/network/response/MediaResponse;->data:Lcom/giphy/sdk/core/models/Media;
 
     return-void
@@ -54,7 +50,6 @@
 .method public setMeta(Lcom/giphy/sdk/core/models/Meta;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/network/response/MediaResponse;->meta:Lcom/giphy/sdk/core/models/Meta;
 
     return-void

@@ -31,10 +31,8 @@
 .method constructor <init>(Lcom/google/common/collect/StandardTable$f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/StandardTable$f$b;->b:Lcom/google/common/collect/StandardTable$f;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/Maps$m0;-><init>(Ljava/util/Map;)V
 
     return-void
@@ -45,7 +43,6 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$f$b;->b:Lcom/google/common/collect/StandardTable$f;
 
     invoke-virtual {v0}, Lcom/google/common/collect/Maps$n0;->entrySet()Ljava/util/Set;
@@ -69,7 +66,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -82,7 +78,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/common/collect/StandardTable$f$b;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object p1, p1, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
@@ -113,10 +108,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$f$b;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v0, v0, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
@@ -151,7 +144,6 @@
 
     move-result-object v2
 
-    .line 3
     iget-object v3, p0, Lcom/google/common/collect/StandardTable$f$b;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v3, v3, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
@@ -166,7 +158,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/StandardTable$f$b;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v1, v1, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
@@ -191,10 +182,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$f$b;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v0, v0, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
@@ -229,7 +218,6 @@
 
     move-result-object v2
 
-    .line 3
     iget-object v3, p0, Lcom/google/common/collect/StandardTable$f$b;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v3, v3, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
@@ -244,7 +232,6 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/StandardTable$f$b;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v1, v1, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;

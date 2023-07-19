@@ -19,10 +19,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -37,7 +35,6 @@
 .method a(Lcom/airbnb/lottie/w/b/t;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/b/b;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -48,7 +45,6 @@
 .method public b(Landroid/graphics/Path;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/b/b;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -60,7 +56,6 @@
     :goto_0
     if-ltz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/airbnb/lottie/w/b/b;->a:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;

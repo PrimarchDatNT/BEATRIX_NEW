@@ -49,10 +49,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/Ordering;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -74,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ComparatorOrdering;->comparator:Ljava/util/Comparator;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
@@ -97,16 +94,13 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/google/common/collect/ComparatorOrdering;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/ComparatorOrdering;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/ComparatorOrdering;->comparator:Ljava/util/Comparator;
 
     iget-object p1, p1, Lcom/google/common/collect/ComparatorOrdering;->comparator:Ljava/util/Comparator;
@@ -126,7 +120,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ComparatorOrdering;->comparator:Ljava/util/Comparator;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -139,7 +132,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ComparatorOrdering;->comparator:Ljava/util/Comparator;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;

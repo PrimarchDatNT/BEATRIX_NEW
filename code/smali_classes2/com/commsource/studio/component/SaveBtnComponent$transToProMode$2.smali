@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
@@ -77,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/component/SaveBtnComponent$transToProMode$2;->this$0:Lcom/commsource/studio/component/SaveBtnComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/component/SaveBtnComponent;->h(Lcom/commsource/studio/component/SaveBtnComponent;)Landroid/graphics/drawable/GradientDrawable;
@@ -96,7 +94,6 @@
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

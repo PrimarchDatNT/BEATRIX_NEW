@@ -16,7 +16,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lio/jaegertracing/a/m/c;-><init>(Lorg/slf4j/c;)V
 
     return-void
@@ -25,12 +24,10 @@
 .method public constructor <init>(Lorg/slf4j/c;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -39,7 +36,6 @@
 
     move-result-object p1
 
-    .line 4
     :cond_0
     iput-object p1, p0, Lio/jaegertracing/a/m/c;->a:Lorg/slf4j/c;
 
@@ -51,7 +47,6 @@
 .method public a(Lio/jaegertracing/a/c;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/m/c;->a:Lorg/slf4j/c;
 
     const-string v1, "Span reported: {}"

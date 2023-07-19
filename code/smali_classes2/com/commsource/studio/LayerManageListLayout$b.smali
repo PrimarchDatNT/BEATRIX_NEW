@@ -35,14 +35,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-direct {p0}, Lcom/commsource/studio/i$e;-><init>()V
 
     const/16 p1, 0x14
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p1
@@ -51,7 +49,6 @@
 
     const/16 p1, 0x1e
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p1
@@ -68,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getLayoutInfoList()Ljava/util/ArrayList;
@@ -156,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getCurrentDragLayerInfoItem()Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
@@ -165,7 +160,6 @@
 
     if-nez v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getMaxScrollLength()I
@@ -206,7 +200,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-static {v2}, Lcom/commsource/studio/LayerManageListLayout;->g(Lcom/commsource/studio/LayerManageListLayout;)Lcom/commsource/util/p0;
@@ -227,7 +220,6 @@
 
     invoke-virtual {v2, p1, v4, v3, v1}, Lcom/commsource/util/p0;->f(IIII)V
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -249,10 +241,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p4}, Lcom/commsource/studio/LayerManageListLayout$b;->d(F)V
 
-    .line 2
     invoke-super {p0, p1, p2, p3, p4}, Lcom/commsource/studio/i$e;->onFlingFromBottomToTop(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result p1
@@ -277,10 +267,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p4}, Lcom/commsource/studio/LayerManageListLayout$b;->d(F)V
 
-    .line 2
     invoke-super {p0, p1, p2, p3, p4}, Lcom/commsource/studio/i$e;->onFlingFromTopToBottom(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result p1
@@ -305,7 +293,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getCurrentDragLayerInfoItem()Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
@@ -314,7 +301,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -347,7 +333,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-static {v1, p1}, Lcom/commsource/studio/LayerManageListLayout;->d(Lcom/commsource/studio/LayerManageListLayout;Lcom/commsource/studio/bean/BaseLayerInfo;)Z
@@ -364,23 +349,19 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     new-instance v2, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
 
     invoke-direct {v2, v1, p1}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;-><init>(Lcom/commsource/studio/LayerManageListLayout;Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->q()V
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setCurrentDragLayerInfoItem(Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;)V
 
     :cond_1
     const/4 p1, 0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -401,7 +382,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -424,10 +404,8 @@
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->c:Z
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Lcom/commsource/studio/i$e;->onMajorFingerDown(Landroid/view/MotionEvent;)Z
 
@@ -449,7 +427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getCurrentDragLayerInfoItem()Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
@@ -458,10 +435,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->p()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -469,7 +444,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setCurrentDragLayerInfoItem(Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-static {v1}, Lcom/commsource/studio/LayerManageListLayout;->g(Lcom/commsource/studio/LayerManageListLayout;)Lcom/commsource/util/p0;
@@ -480,10 +454,8 @@
 
     const/4 v1, 0x0
 
-    .line 5
     iput-boolean v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->c:Z
 
-    .line 6
     invoke-super {p0, p1}, Lcom/commsource/studio/i$e;->onMajorFingerUp(Landroid/view/MotionEvent;)Z
 
     move-result p1
@@ -516,7 +488,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getCurrentDragLayerInfoItem()Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
@@ -527,7 +498,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {p1}, Lcom/commsource/studio/LayerManageListLayout;->getCurrentDragLayerInfoItem()Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
@@ -546,7 +516,6 @@
 
     invoke-virtual {p1, p3, p4}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->o(II)V
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getY()F
 
@@ -560,7 +529,6 @@
 
     if-gez p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-static {p1}, Lcom/commsource/studio/LayerManageListLayout;->g(Lcom/commsource/studio/LayerManageListLayout;)Lcom/commsource/util/p0;
@@ -585,7 +553,6 @@
 
     goto/16 :goto_1
 
-    .line 5
     :cond_1
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getY()F
 
@@ -607,7 +574,6 @@
 
     if-lez p1, :cond_2
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-static {p1}, Lcom/commsource/studio/LayerManageListLayout;->g(Lcom/commsource/studio/LayerManageListLayout;)Lcom/commsource/util/p0;
@@ -632,7 +598,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -644,13 +609,11 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     iget-boolean p2, p0, Lcom/commsource/studio/LayerManageListLayout$b;->c:Z
 
     if-eqz p2, :cond_5
 
-    .line 9
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result p2
@@ -683,7 +646,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 10
     iget-object p2, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-static {p2, p1}, Lcom/commsource/studio/LayerManageListLayout;->d(Lcom/commsource/studio/LayerManageListLayout;Lcom/commsource/studio/bean/BaseLayerInfo;)Z
@@ -700,22 +662,18 @@
     :goto_0
     if-eqz p1, :cond_6
 
-    .line 11
     iget-object p2, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     new-instance p3, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
 
     invoke-direct {p3, p2, p1}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;-><init>(Lcom/commsource/studio/LayerManageListLayout;Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 12
     invoke-virtual {p3}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->q()V
 
-    .line 13
     invoke-virtual {p2, p3}, Lcom/commsource/studio/LayerManageListLayout;->setCurrentDragLayerInfoItem(Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;)V
 
     goto :goto_1
 
-    .line 14
     :cond_5
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
@@ -725,7 +683,6 @@
 
     if-lez p1, :cond_6
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {p1}, Lcom/commsource/studio/LayerManageListLayout;->getScrollLength()I
@@ -750,7 +707,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/LayerManageListLayout;->setScrollLength(I)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-static {p1}, Lcom/commsource/studio/LayerManageListLayout;->l(Lcom/commsource/studio/LayerManageListLayout;)V
@@ -759,7 +715,6 @@
     :goto_1
     const/4 p1, 0x1
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -788,7 +743,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -821,7 +775,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v2}, Lcom/commsource/studio/LayerManageListLayout;->getLayerInfoClickListener()Lcotlin/jvm/u/l;
@@ -836,7 +789,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/i$e;->onTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
 

@@ -164,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v2, "AR_FACE_CONFIG_REF"
@@ -183,7 +182,6 @@
 
     sput-object v7, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->AR_FACE_CONFIG_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "AR_FACE_CONFIG_TEST"
@@ -202,7 +200,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->AR_FACE_CONFIG_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 3
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "SUBSCRIBE_TIP_REF"
@@ -221,7 +218,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_TIP_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 4
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "SUBSCRIBE_TIP_TEST"
@@ -240,7 +236,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_TIP_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 5
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "SUBSCRIBE_PRICE_REF"
@@ -259,7 +254,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_PRICE_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 6
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "SUBSCRIBE_PRICE_TEST"
@@ -278,7 +272,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_PRICE_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 7
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "ON_BOARDING_TEXT_REF"
@@ -297,7 +290,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->ON_BOARDING_TEXT_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 8
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "ON_BOARDING_TEXT_TEST"
@@ -316,7 +308,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->ON_BOARDING_TEXT_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 9
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "BEAUTY_SUB_SORT_REF"
@@ -335,7 +326,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->BEAUTY_SUB_SORT_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 10
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "BEAUTY_SUB_SORT_TEST"
@@ -354,7 +344,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->BEAUTY_SUB_SORT_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 11
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "CAMERA2_SWITCH_OFF"
@@ -373,7 +362,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->CAMERA2_SWITCH_OFF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 12
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "CAMERA2_SWITCH_ON"
@@ -392,7 +380,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->CAMERA2_SWITCH_ON:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 13
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "GL_OOM_CHECK_REF"
@@ -411,7 +398,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->GL_OOM_CHECK_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 14
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "GL_OOM_CHECK_ADMOB"
@@ -430,7 +416,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->GL_OOM_CHECK_ADMOB:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 15
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "GL_OOM_CHECK_FACE_BOOK"
@@ -449,7 +434,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->GL_OOM_CHECK_FACE_BOOK:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 16
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "GL_OOM_CHECK_DFP"
@@ -468,7 +452,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->GL_OOM_CHECK_DFP:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 17
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "GL_OOM_CHECK_MEITUADX"
@@ -487,7 +470,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->GL_OOM_CHECK_MEITUADX:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 18
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "GL_OOM_CHECK_ADX"
@@ -506,7 +488,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->GL_OOM_CHECK_ADX:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 19
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "GL_OOM_CHECK_MOPUB_MEDIATION"
@@ -525,7 +506,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->GL_OOM_CHECK_MOPUB_MEDIATION:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 20
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "GL_OOM_CHECK_MOPUB"
@@ -544,7 +524,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->GL_OOM_CHECK_MOPUB:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 21
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "GL_OOM_CHECK_REWORAD_FACEBOOK"
@@ -563,7 +542,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->GL_OOM_CHECK_REWORAD_FACEBOOK:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 22
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "GL_OOM_CHECK_REWORAD_ADMOB"
@@ -582,7 +560,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->GL_OOM_CHECK_REWORAD_ADMOB:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 23
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "GL_OOM_CHECK_NO_AD"
@@ -601,7 +578,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->GL_OOM_CHECK_NO_AD:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 24
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "TEST_STARTUP_REF"
@@ -620,7 +596,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->TEST_STARTUP_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 25
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "TEST_STARTUP_TEST"
@@ -639,7 +614,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->TEST_STARTUP_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 26
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "SUBSCRIBE_HW_GID_REF"
@@ -658,7 +632,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_HW_GID_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 27
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "SUBSCRIBE_HW_GID_TEST"
@@ -677,7 +650,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_HW_GID_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 28
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "SUBSCRIBE_FIREBASE_ID_REF"
@@ -696,7 +668,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_FIREBASE_ID_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 29
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "SUBSCRIBE_FIREBASE_ID_TEST"
@@ -715,7 +686,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_FIREBASE_ID_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 30
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "SUBSCRIBE_GID_REF"
@@ -734,7 +704,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_GID_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 31
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "SUBSCRIBE_GID_TEST_A"
@@ -753,7 +722,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_GID_TEST_A:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 32
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "SUBSCRIBE_GID_TEST_B"
@@ -772,7 +740,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUBSCRIBE_GID_TEST_B:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 33
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "BEAUTY_MAKEUP_GID_REF"
@@ -791,7 +758,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->BEAUTY_MAKEUP_GID_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 34
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "BEAUTY_MAKEUP_GID_TEST_A"
@@ -810,7 +776,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->BEAUTY_MAKEUP_GID_TEST_A:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 35
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "BEAUTY_MAKEUP_GID_TEST_B"
@@ -829,7 +794,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->BEAUTY_MAKEUP_GID_TEST_B:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 36
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "FILTER_GID_REF"
@@ -848,7 +812,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->FILTER_GID_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 37
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "FILTER_GID_TEST_A"
@@ -867,7 +830,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->FILTER_GID_TEST_A:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 38
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "FILTER_GID_TEST_B"
@@ -886,7 +848,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->FILTER_GID_TEST_B:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 39
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "SUB_AD_ID_GID_REF"
@@ -905,7 +866,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUB_AD_ID_GID_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 40
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "SUB_AD_ID_GID_TEST_A"
@@ -924,7 +884,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUB_AD_ID_GID_TEST_A:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 41
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "SUB_AD_ID_GID_TEST_B"
@@ -943,7 +902,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->SUB_AD_ID_GID_TEST_B:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 42
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "BEAUTY_SUB_TAB_ICON_REF"
@@ -962,7 +920,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->BEAUTY_SUB_TAB_ICON_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 43
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "BEAUTY_SUB_TAB_ICON_TEST"
@@ -981,7 +938,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->BEAUTY_SUB_TAB_ICON_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 44
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "BEAUTY_LAYER_MIX_REF"
@@ -1000,7 +956,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->BEAUTY_LAYER_MIX_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 45
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "BEAUTY_LAYER_MIX_A"
@@ -1019,7 +974,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->BEAUTY_LAYER_MIX_A:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 46
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "BEAUTY_LAYER_MIX_B"
@@ -1038,7 +992,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->BEAUTY_LAYER_MIX_B:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 47
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "V2_SUB_STARTUP_REF"
@@ -1057,7 +1010,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->V2_SUB_STARTUP_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 48
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "V2_SUB_STARTUP_TEST"
@@ -1076,7 +1028,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->V2_SUB_STARTUP_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 49
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "V2_HOME_STARTUP_REF"
@@ -1095,7 +1046,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->V2_HOME_STARTUP_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 50
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "V2_HOME_STARTUP_TEST"
@@ -1114,7 +1064,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->V2_HOME_STARTUP_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 51
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "V2_SUB_REF"
@@ -1133,7 +1082,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->V2_SUB_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 52
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "V2_SUB_TEST"
@@ -1152,7 +1100,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->V2_SUB_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 53
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "V2_CAMERA_REF"
@@ -1171,7 +1118,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->V2_CAMERA_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 54
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "V2_CAMERA_TEST"
@@ -1190,7 +1136,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->V2_CAMERA_TEST:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 55
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v3, "V2_STUDIO_REF"
@@ -1209,7 +1154,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->V2_STUDIO_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 56
     new-instance v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const-string v9, "V2_STUDIO_TEST"
@@ -1232,7 +1176,6 @@
 
     new-array v1, v1, [Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 57
     sget-object v2, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->AR_FACE_CONFIG_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     const/4 v3, 0x0
@@ -1588,16 +1531,12 @@
         }
     .end annotation
 
-    .line 31
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 32
     iput-object p3, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->name:Ljava/lang/String;
 
-    .line 33
     iput p4, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->code:I
 
-    .line 34
     iput-object p5, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->groupName:Ljava/lang/String;
 
     return-void
@@ -1619,22 +1558,16 @@
         }
     .end annotation
 
-    .line 17
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 18
     iput-object p3, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->name:Ljava/lang/String;
 
-    .line 19
     iput p4, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->code:I
 
-    .line 20
     iput-object p5, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->groupName:Ljava/lang/String;
 
-    .line 21
     iput-boolean p6, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->needSDialog:Z
 
-    .line 22
     iput-object p7, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->cClass:Ljava/lang/Class;
 
     return-void
@@ -1656,28 +1589,20 @@
         }
     .end annotation
 
-    .line 23
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 24
     iput-object p3, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->name:Ljava/lang/String;
 
-    .line 25
     iput p4, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->code:I
 
-    .line 26
     iput-object p5, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->groupName:Ljava/lang/String;
 
-    .line 27
     iput-boolean p6, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->needSDialog:Z
 
-    .line 28
     iput-object p7, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->cClass:Ljava/lang/Class;
 
-    .line 29
     iput-boolean p8, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->isFromBeauty:Z
 
-    .line 30
     iput p9, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->beautyType:I
 
     return-void
@@ -1699,25 +1624,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->name:Ljava/lang/String;
 
-    .line 3
     iput p4, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->code:I
 
-    .line 4
     iput-object p5, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->groupName:Ljava/lang/String;
 
-    .line 5
     iput-boolean p6, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->needSDialog:Z
 
-    .line 6
     iput-boolean p7, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->onLine:Z
 
-    .line 7
     iput-object p8, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->cClass:Ljava/lang/Class;
 
     return-void
@@ -1739,31 +1657,22 @@
         }
     .end annotation
 
-    .line 8
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9
     iput-object p3, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->name:Ljava/lang/String;
 
-    .line 10
     iput p4, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->code:I
 
-    .line 11
     iput-object p5, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->groupName:Ljava/lang/String;
 
-    .line 12
     iput-boolean p6, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->needSDialog:Z
 
-    .line 13
     iput-boolean p7, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->onLine:Z
 
-    .line 14
     iput-object p8, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->cClass:Ljava/lang/Class;
 
-    .line 15
     iput-boolean p9, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->isFromBeauty:Z
 
-    .line 16
     iput p10, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->beautyType:I
 
     return-void
@@ -1785,12 +1694,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-static {}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->values()[Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
@@ -1803,7 +1710,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 3
     :cond_0
     invoke-interface {v2}, Ljava/util/List;->size()I
 
@@ -1811,15 +1717,12 @@
 
     if-lez v3, :cond_3
 
-    .line 4
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     invoke-interface {v1, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     invoke-interface {v2}, Ljava/util/List;->size()I
 
     move-result v4
@@ -1829,24 +1732,20 @@
     :goto_0
     if-ltz v4, :cond_0
 
-    .line 7
     invoke-interface {v2, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 8
     invoke-interface {v3}, Ljava/util/List;->size()I
 
     move-result v6
 
     if-nez v6, :cond_1
 
-    .line 9
     invoke-interface {v3, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 10
     invoke-interface {v2, v5}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
     goto :goto_1
@@ -1854,7 +1753,6 @@
     :cond_1
     const/4 v6, 0x0
 
-    .line 11
     invoke-interface {v3, v6}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -1875,10 +1773,8 @@
 
     if-eqz v6, :cond_2
 
-    .line 12
     invoke-interface {v3, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 13
     invoke-interface {v2, v5}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
     :cond_2
@@ -1887,11 +1783,9 @@
 
     goto :goto_0
 
-    .line 14
     :cond_3
     invoke-static {v1}, Ljava/util/Collections;->reverse(Ljava/util/List;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1914,17 +1808,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->values()[Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     move-result-object v2
 
-    .line 3
     array-length v3, v2
 
     const/4 v4, 0x0
@@ -1934,7 +1825,6 @@
 
     aget-object v5, v2, v4
 
-    .line 4
     invoke-virtual {v5}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->getGroupName()Ljava/lang/String;
 
     move-result-object v6
@@ -1945,7 +1835,6 @@
 
     if-eqz v6, :cond_0
 
-    .line 5
     invoke-interface {v1, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -1953,7 +1842,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1967,7 +1855,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->values()[Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     move-result-object v1
@@ -1981,14 +1868,12 @@
 
     aget-object v4, v1, v3
 
-    .line 2
     invoke-virtual {v4}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->getCode()I
 
     move-result v5
 
     if-ne v5, p0, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -2001,7 +1886,6 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -2014,7 +1898,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -2035,7 +1918,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->$VALUES:[Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     invoke-virtual {v1}, [Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->clone()Ljava/lang/Object;
@@ -2058,7 +1940,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->beautyType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2073,7 +1954,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->code:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2088,7 +1968,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->groupName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2103,7 +1982,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2127,7 +2005,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->cClass:Ljava/lang/Class;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2142,7 +2019,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->isFromBeauty:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2157,7 +2033,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->needSDialog:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2172,7 +2047,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->onLine:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2187,10 +2061,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->beautyType:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2203,10 +2075,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->code:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2219,10 +2089,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->isFromBeauty:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2235,10 +2103,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->groupName:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2251,10 +2117,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->name:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2267,10 +2131,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->needSDialog:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2283,10 +2145,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->onLine:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2308,10 +2168,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->cClass:Ljava/lang/Class;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

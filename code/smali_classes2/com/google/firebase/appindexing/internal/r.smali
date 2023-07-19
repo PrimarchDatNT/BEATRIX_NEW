@@ -10,7 +10,6 @@
 .method constructor <init>(Lcom/google/firebase/appindexing/internal/q;[Lcom/google/firebase/appindexing/internal/zza;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/firebase/appindexing/internal/r;->d:[Lcom/google/firebase/appindexing/internal/zza;
 
     const/4 p1, 0x0
@@ -30,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/j$d;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/icing/j$d;-><init>(Lcom/google/android/gms/common/api/internal/d$b;)V

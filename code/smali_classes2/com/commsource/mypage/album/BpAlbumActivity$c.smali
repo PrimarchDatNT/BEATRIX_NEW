@@ -19,7 +19,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     return-void
@@ -66,17 +65,14 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->getItemOffsets(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
-    .line 2
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
 
     const/4 p3, 0x1
 
-    .line 3
     invoke-static {p3}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p4
@@ -85,14 +81,12 @@
 
     sub-int/2addr p2, p3
 
-    .line 4
     rem-int/lit8 p2, p2, 0x3
 
     const p4, 0x3f2b851f    # 0.67f
 
     if-nez p2, :cond_0
 
-    .line 5
     invoke-static {p4}, Lcom/commsource/util/l0;->m(F)I
 
     move-result p2
@@ -106,14 +100,12 @@
 
     const p2, 0x3ea8f5c3    # 0.33f
 
-    .line 6
     invoke-static {p2}, Lcom/commsource/util/l0;->m(F)I
 
     move-result p3
 
     iput p3, p1, Landroid/graphics/Rect;->left:I
 
-    .line 7
     invoke-static {p2}, Lcom/commsource/util/l0;->m(F)I
 
     move-result p2
@@ -127,14 +119,12 @@
 
     if-ne p2, p3, :cond_2
 
-    .line 8
     invoke-static {p4}, Lcom/commsource/util/l0;->m(F)I
 
     move-result p2
 
     iput p2, p1, Landroid/graphics/Rect;->left:I
 
-    .line 9
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

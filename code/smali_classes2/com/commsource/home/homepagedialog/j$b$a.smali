@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/j$b$a;->b:Lcom/facebook/applinks/AppLinkData;
 
     const-string v2, "fb_deffered_link"
@@ -59,7 +58,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     invoke-virtual {v1}, Lcom/facebook/applinks/AppLinkData;->getTargetUri()Landroid/net/Uri;
 
     move-result-object v1
@@ -83,7 +81,6 @@
 
     move-result-object v1
 
-    .line 3
     :goto_0
     new-instance v7, Ljava/util/HashMap;
 
@@ -93,21 +90,17 @@
 
     move-object v3, v1
 
-    .line 4
     :cond_1
     invoke-interface {v7, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-static {v2, v7}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 6
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_4
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/j$b$a;->a:Lcom/commsource/home/homepagedialog/j$b;
 
     iget-object v2, v2, Lcom/commsource/home/homepagedialog/j$b;->a:Lcom/commsource/home/homepagedialog/j;
@@ -121,19 +114,15 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1, v5}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 9
     invoke-interface {v1, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 11
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

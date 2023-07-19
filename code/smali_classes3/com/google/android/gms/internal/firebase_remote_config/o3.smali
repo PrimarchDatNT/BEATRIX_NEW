@@ -46,7 +46,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0xc
@@ -61,14 +60,12 @@
 
     new-array v0, v0, [I
 
-    .line 2
     fill-array-data v0, :array_0
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->n:[I
 
     const-string v0, "^[^:]+:([0-9]+):(android|ios|web):([0-9a-f]+)"
 
-    .line 3
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -97,50 +94,36 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->k:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->b:Lcom/google/firebase/iid/FirebaseInstanceId;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->c:Lcom/google/firebase/analytics/a/a;
 
-    .line 6
     iput-object p5, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->d:Ljava/lang/String;
 
-    .line 7
     iput-object p6, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->e:Ljava/util/concurrent/Executor;
 
-    .line 8
     iput-object p7, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->f:Lcom/google/android/gms/common/util/g;
 
-    .line 9
     iput-object p8, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->g:Ljava/util/Random;
 
-    .line 10
     iput-object p9, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->h:Lcom/google/android/gms/internal/firebase_remote_config/f3;
 
-    .line 11
     iput-object p10, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->i:Lcom/google/android/gms/internal/firebase_remote_config/w1;
 
-    .line 12
     iput-object p11, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->j:Lcom/google/android/gms/internal/firebase_remote_config/t3;
 
-    .line 13
     sget-object p1, Lcom/google/android/gms/internal/firebase_remote_config/o3;->o:Ljava/util/regex/Pattern;
 
     invoke-virtual {p1, p2}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object p1
 
-    .line 14
     invoke-virtual {p1}, Ljava/util/regex/Matcher;->matches()Z
 
     move-result p2
@@ -158,7 +141,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 15
     :goto_0
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->l:Ljava/lang/String;
 
@@ -173,7 +155,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/google/android/gms/internal/firebase_remote_config/n3;->e()Lcom/google/android/gms/internal/firebase_remote_config/p3;
 
@@ -183,17 +164,14 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_remote_config/e2;->i()Ljava/util/Map;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p1, v0}, Lcom/google/android/gms/internal/firebase_remote_config/p3;->d(Ljava/util/Map;)Lcom/google/android/gms/internal/firebase_remote_config/p3;
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_remote_config/e2;->k()Ljava/util/List;
 
@@ -201,10 +179,8 @@
 
     if-eqz p0, :cond_1
 
-    .line 5
     invoke-virtual {p1, p0}, Lcom/google/android/gms/internal/firebase_remote_config/p3;->a(Ljava/util/List;)Lcom/google/android/gms/internal/firebase_remote_config/p3;
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_remote_config/p3;->c()Lcom/google/android/gms/internal/firebase_remote_config/n3;
 
@@ -217,7 +193,6 @@
     :catch_0
     move-exception p0
 
-    .line 7
     new-instance p1, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigFetchException;
 
     const-string v0, "Fetch failed: fetch response could not be parsed."
@@ -240,13 +215,11 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/o3;->g(Ljava/util/Date;)Lcom/google/android/gms/internal/firebase_remote_config/e2;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_remote_config/e2;->j()Ljava/lang/String;
 
     move-result-object v1
@@ -281,20 +254,17 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->g(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/o3;->a(Lcom/google/android/gms/internal/firebase_remote_config/e2;Ljava/util/Date;)Lcom/google/android/gms/internal/firebase_remote_config/n3;
 
     move-result-object p1
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->h:Lcom/google/android/gms/internal/firebase_remote_config/f3;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/f3;->g(Lcom/google/android/gms/internal/firebase_remote_config/n3;)Lcom/google/android/gms/tasks/k;
@@ -308,7 +278,6 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->f(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -323,7 +292,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p0, p1}, Lcom/google/android/gms/common/util/a;->b(Landroid/content/Context;Ljava/lang/String;)[B
 
@@ -333,7 +301,6 @@
 
     const-string p0, "Could not get fingerprint hash for package: "
 
-    .line 2
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -365,7 +332,6 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {p0, v2}, Lcom/google/android/gms/common/util/n;->c([BZ)Ljava/lang/String;
 
     move-result-object p0
@@ -379,7 +345,6 @@
 
     const-string v2, "No such package: "
 
-    .line 4
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -420,28 +385,23 @@
 
     const-string v0, "FirebaseRemoteConfig"
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_remote_config/o3;->h()Lcom/google/android/gms/internal/firebase_remote_config/f2;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     iget-object v3, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->i:Lcom/google/android/gms/internal/firebase_remote_config/w1;
 
-    .line 3
     new-instance v4, Lcom/google/android/gms/internal/firebase_remote_config/z1;
 
     invoke-direct {v4, v3}, Lcom/google/android/gms/internal/firebase_remote_config/z1;-><init>(Lcom/google/android/gms/internal/firebase_remote_config/w1;)V
 
-    .line 4
     new-instance v3, Lcom/google/android/gms/internal/firebase_remote_config/x1;
 
     invoke-direct {v3, v4}, Lcom/google/android/gms/internal/firebase_remote_config/x1;-><init>(Lcom/google/android/gms/internal/firebase_remote_config/z1;)V
 
-    .line 5
     iget-object v4, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->l:Ljava/lang/String;
 
     iget-object v5, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->d:Ljava/lang/String;
@@ -450,12 +410,10 @@
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_remote_config/y3;->h()Lcom/google/android/gms/internal/firebase_remote_config/o9;
 
     move-result-object v3
 
-    .line 7
     iget-object v4, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->j:Lcom/google/android/gms/internal/firebase_remote_config/t3;
 
     invoke-virtual {v4}, Lcom/google/android/gms/internal/firebase_remote_config/t3;->m()Ljava/lang/String;
@@ -466,7 +424,6 @@
 
     const-string v4, "X-Android-Package"
 
-    .line 8
     iget-object v5, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->a:Landroid/content/Context;
 
     invoke-virtual {v5}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
@@ -477,10 +434,8 @@
 
     const-string v4, "X-Android-Cert"
 
-    .line 9
     iget-object v5, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->a:Landroid/content/Context;
 
-    .line 10
     invoke-virtual {v5}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v6
@@ -489,35 +444,28 @@
 
     move-result-object v5
 
-    .line 11
     invoke-virtual {v3, v4, v5}, Lcom/google/android/gms/internal/firebase_remote_config/zzby;->b(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/internal/firebase_remote_config/zzby;
 
-    .line 12
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_remote_config/y3;->j()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/google/android/gms/internal/firebase_remote_config/e2;
 
-    .line 13
     iget-object v4, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->j:Lcom/google/android/gms/internal/firebase_remote_config/t3;
 
-    .line 14
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_remote_config/y3;->i()Lcom/google/android/gms/internal/firebase_remote_config/o9;
 
     move-result-object v1
 
-    .line 15
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_remote_config/o9;->r()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v4, v1}, Lcom/google/android/gms/internal/firebase_remote_config/t3;->h(Ljava/lang/String;)V
 
-    .line 16
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->j:Lcom/google/android/gms/internal/firebase_remote_config/t3;
 
-    .line 17
     sget-object v4, Lcom/google/android/gms/internal/firebase_remote_config/t3;->e:Ljava/util/Date;
 
     invoke-virtual {v1, v2, v4}, Lcom/google/android/gms/internal/firebase_remote_config/t3;->f(ILjava/util/Date;)V
@@ -532,10 +480,8 @@
 
     const-string v1, "Fetch failed due to an unexpected error."
 
-    .line 18
     invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 19
     new-instance p1, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigFetchException;
 
     const-string v0, "Fetch failed due to an unexpected error! Check logs for details."
@@ -549,10 +495,8 @@
 
     const-string v3, "Fetch failed! Server responded with an error."
 
-    .line 20
     invoke-static {v0, v3, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 21
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_remote_config/zzaf;->getStatusCode()I
 
     move-result v0
@@ -571,7 +515,6 @@
 
     if-ne v0, v3, :cond_1
 
-    .line 22
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->j:Lcom/google/android/gms/internal/firebase_remote_config/t3;
 
@@ -585,14 +528,12 @@
 
     add-int/2addr v0, v6
 
-    .line 23
     sget-object v7, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
     sget-object v8, Lcom/google/android/gms/internal/firebase_remote_config/o3;->n:[I
 
     array-length v9, v8
 
-    .line 24
     invoke-static {v0, v9}, Ljava/lang/Math;->min(II)I
 
     move-result v9
@@ -603,14 +544,12 @@
 
     int-to-long v8, v8
 
-    .line 25
     invoke-virtual {v7, v8, v9}, Ljava/util/concurrent/TimeUnit;->toMillis(J)J
 
     move-result-wide v7
 
     const-wide/16 v9, 0x2
 
-    .line 26
     div-long v9, v7, v9
 
     iget-object v11, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->g:Ljava/util/Random;
@@ -625,7 +564,6 @@
 
     add-long/2addr v9, v7
 
-    .line 27
     new-instance v7, Ljava/util/Date;
 
     invoke-virtual {p1}, Ljava/util/Date;->getTime()J
@@ -636,12 +574,10 @@
 
     invoke-direct {v7, v11, v12}, Ljava/util/Date;-><init>(J)V
 
-    .line 28
     iget-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->j:Lcom/google/android/gms/internal/firebase_remote_config/t3;
 
     invoke-virtual {p1, v0, v7}, Lcom/google/android/gms/internal/firebase_remote_config/t3;->f(ILjava/util/Date;)V
 
-    .line 29
     :cond_1
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_remote_config/zzaf;->getStatusCode()I
 
@@ -692,7 +628,6 @@
     :cond_6
     const-string p1, "The request did not have the required credentials. Please make sure your google-services.json is valid."
 
-    .line 30
     :goto_0
     new-instance v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigFetchException;
 
@@ -702,7 +637,6 @@
 
     const-string p1, "Fetch failed: %s\nCheck logs for details."
 
-    .line 31
     invoke-static {p1, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -726,7 +660,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->b:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v0}, Lcom/google/firebase/iid/FirebaseInstanceId;->d()Ljava/lang/String;
@@ -735,33 +668,27 @@
 
     if-eqz v0, :cond_3
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->b:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-virtual {v1}, Lcom/google/firebase/iid/FirebaseInstanceId;->g()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/google/android/gms/internal/firebase_remote_config/f2;
 
     invoke-direct {v2}, Lcom/google/android/gms/internal/firebase_remote_config/f2;-><init>()V
 
-    .line 4
     invoke-virtual {v2, v0}, Lcom/google/android/gms/internal/firebase_remote_config/f2;->k(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_remote_config/f2;
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v2, v1}, Lcom/google/android/gms/internal/firebase_remote_config/f2;->l(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_remote_config/f2;
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->k:Ljava/lang/String;
 
     invoke-virtual {v2, v0}, Lcom/google/android/gms/internal/firebase_remote_config/f2;->j(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_remote_config/f2;
 
-    .line 7
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->a:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -774,21 +701,18 @@
 
     iget-object v0, v0, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
 
-    .line 8
     invoke-virtual {v0}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v2, v1}, Lcom/google/android/gms/internal/firebase_remote_config/f2;->n(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_remote_config/f2;
 
-    .line 9
     invoke-virtual {v0}, Ljava/util/Locale;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v2, v0}, Lcom/google/android/gms/internal/firebase_remote_config/f2;->p(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_remote_config/f2;
 
-    .line 10
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
@@ -797,7 +721,6 @@
 
     invoke-virtual {v2, v0}, Lcom/google/android/gms/internal/firebase_remote_config/f2;->r(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_remote_config/f2;
 
-    .line 11
     invoke-static {}, Ljava/util/TimeZone;->getDefault()Ljava/util/TimeZone;
 
     move-result-object v0
@@ -810,7 +733,6 @@
 
     const/4 v0, 0x0
 
-    .line 12
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->a:Landroid/content/Context;
 
@@ -830,7 +752,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 13
     iget-object v1, v1, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
 
     invoke-virtual {v2, v1}, Lcom/google/android/gms/internal/firebase_remote_config/f2;->m(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_remote_config/f2;
@@ -842,7 +763,6 @@
     :catch_0
     nop
 
-    .line 14
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->a:Landroid/content/Context;
@@ -855,20 +775,16 @@
 
     const-string v1, "16.5.0"
 
-    .line 15
     invoke-virtual {v2, v1}, Lcom/google/android/gms/internal/firebase_remote_config/f2;->s(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_remote_config/f2;
 
-    .line 16
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 17
     iget-object v3, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->c:Lcom/google/firebase/analytics/a/a;
 
     if-eqz v3, :cond_2
 
-    .line 18
     invoke-interface {v3, v0}, Lcom/google/firebase/analytics/a/a;->c(Z)Ljava/util/Map;
 
     move-result-object v0
@@ -894,7 +810,6 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 19
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -913,13 +828,11 @@
 
     goto :goto_1
 
-    .line 20
     :cond_2
     invoke-virtual {v2, v1}, Lcom/google/android/gms/internal/firebase_remote_config/f2;->i(Ljava/util/Map;)Lcom/google/android/gms/internal/firebase_remote_config/f2;
 
     return-object v2
 
-    .line 21
     :cond_3
     new-instance v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigFetchException;
 
@@ -943,7 +856,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->j:Lcom/google/android/gms/internal/firebase_remote_config/t3;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_remote_config/t3;->d()J
@@ -968,10 +880,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->h:Lcom/google/android/gms/internal/firebase_remote_config/f3;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_remote_config/f3;->i()Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
@@ -982,7 +892,6 @@
 
     invoke-direct {v2, p0, p1, p2, p3}, Lcom/google/android/gms/internal/firebase_remote_config/r3;-><init>(Lcom/google/android/gms/internal/firebase_remote_config/o3;ZJ)V
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/tasks/k;->p(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/c;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -998,7 +907,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/Date;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->f:Lcom/google/android/gms/common/util/g;
@@ -1009,7 +917,6 @@
 
     invoke-direct {v0, v1, v2}, Ljava/util/Date;-><init>(J)V
 
-    .line 2
     invoke-virtual {p4}, Lcom/google/android/gms/tasks/k;->v()Z
 
     move-result p4
@@ -1027,7 +934,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->j:Lcom/google/android/gms/internal/firebase_remote_config/t3;
 
@@ -1035,7 +941,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance p4, Ljava/util/Date;
 
     const-wide/16 v3, -0x1
@@ -1050,11 +955,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance p4, Ljava/util/Date;
 
-    .line 6
     invoke-virtual {p1}, Ljava/util/Date;->getTime()J
 
     move-result-wide v3
@@ -1069,7 +972,6 @@
 
     invoke-direct {p4, v3, v4}, Ljava/util/Date;-><init>(J)V
 
-    .line 7
     invoke-virtual {v0, p4}, Ljava/util/Date;->before(Ljava/util/Date;)Z
 
     move-result p1
@@ -1077,14 +979,12 @@
     :goto_1
     if-eqz p1, :cond_2
 
-    .line 8
     invoke-static {v1}, Lcom/google/android/gms/tasks/n;->g(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 9
     :cond_2
     iget-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/o3;->j:Lcom/google/android/gms/internal/firebase_remote_config/t3;
 
@@ -1096,7 +996,6 @@
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {v0, p1}, Ljava/util/Date;->before(Ljava/util/Date;)Z
 
     move-result p2
@@ -1108,10 +1007,8 @@
     :cond_3
     if-eqz v1, :cond_4
 
-    .line 11
     new-instance p1, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigFetchThrottledException;
 
-    .line 12
     invoke-virtual {v1}, Ljava/util/Date;->getTime()J
 
     move-result-wide p2
@@ -1126,10 +1023,8 @@
 
     new-array p4, p4, [Ljava/lang/Object;
 
-    .line 13
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 14
     invoke-virtual {v0, p2, p3}, Ljava/util/concurrent/TimeUnit;->toSeconds(J)J
 
     move-result-wide p2
@@ -1142,26 +1037,22 @@
 
     const-string p2, "Fetch is throttled. Please wait before calling fetch again: %s"
 
-    .line 15
     invoke-static {p2, p4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 16
     invoke-virtual {v1}, Ljava/util/Date;->getTime()J
 
     move-result-wide p3
 
     invoke-direct {p1, p2, p3, p4}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigFetchThrottledException;-><init>(Ljava/lang/String;J)V
 
-    .line 17
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->f(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 18
     :cond_4
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/firebase_remote_config/o3;->b(Ljava/util/Date;)Lcom/google/android/gms/tasks/k;
 

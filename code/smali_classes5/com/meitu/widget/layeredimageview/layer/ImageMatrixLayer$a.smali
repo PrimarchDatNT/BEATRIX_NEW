@@ -34,7 +34,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$PinchAction;->values()[Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$PinchAction;
 
     move-result-object v1
@@ -74,7 +73,6 @@
     :try_end_1
     .catch Ljava/lang/NoSuchFieldError; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 2
     :catch_1
     invoke-static {}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;->values()[Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
@@ -143,7 +141,6 @@
     :try_end_5
     .catch Ljava/lang/NoSuchFieldError; {:try_start_5 .. :try_end_5} :catch_5
 
-    .line 3
     :catch_5
     invoke-static {}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;->values()[Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
@@ -272,7 +269,6 @@
     :try_end_d
     .catch Ljava/lang/NoSuchFieldError; {:try_start_d .. :try_end_d} :catch_d
 
-    .line 4
     :catch_d
     invoke-static {}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->values()[Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
@@ -393,7 +389,6 @@
     :try_end_15
     .catch Ljava/lang/NoSuchFieldError; {:try_start_15 .. :try_end_15} :catch_15
 
-    .line 5
     :catch_15
     invoke-static {}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$SingleTapAction;->values()[Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$SingleTapAction;
 

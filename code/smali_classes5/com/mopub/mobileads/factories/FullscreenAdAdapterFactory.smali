@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/factories/FullscreenAdAdapterFactory;
 
     invoke-direct {v0}, Lcom/mopub/mobileads/factories/FullscreenAdAdapterFactory;-><init>()V
@@ -24,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/factories/FullscreenAdAdapterFactory;->instance:Lcom/mopub/mobileads/factories/FullscreenAdAdapterFactory;
 
     invoke-virtual {v0, p0, p1, p2}, Lcom/mopub/mobileads/factories/FullscreenAdAdapterFactory;->internalCreate(Landroid/content/Context;Ljava/lang/String;Lcom/mopub/mobileads/AdData;)Lcom/mopub/mobileads/FullscreenAdAdapter;
@@ -56,7 +53,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sput-object p0, Lcom/mopub/mobileads/factories/FullscreenAdAdapterFactory;->instance:Lcom/mopub/mobileads/factories/FullscreenAdAdapterFactory;
 
     return-void
@@ -72,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/FullscreenAdAdapter;
 
     invoke-direct {v0, p1, p2, p3}, Lcom/mopub/mobileads/FullscreenAdAdapter;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/mopub/mobileads/AdData;)V

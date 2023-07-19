@@ -68,7 +68,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->label:I
 
     const/4 v3, 0x1
@@ -101,7 +100,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -111,11 +109,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -124,7 +120,6 @@
 
     iput-object v2, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     :try_start_1
     new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$a;
 
@@ -152,7 +147,6 @@
     :cond_3
     move-object p0, p1
 
-    .line 6
     :goto_1
     iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
@@ -244,7 +238,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->label:I
 
     const/4 v3, 0x1
@@ -281,7 +274,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -291,11 +283,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -304,7 +294,6 @@
 
     iput-object v2, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     :try_start_1
     new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$$inlined$collect$2;
 
@@ -334,7 +323,6 @@
     :cond_3
     move-object p0, p2
 
-    .line 6
     :goto_1
     iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
@@ -426,7 +414,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->label:I
 
     const/4 v3, 0x1
@@ -454,7 +441,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -464,11 +450,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -477,7 +461,6 @@
 
     iput-object v2, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     :try_start_1
     new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$b;
 
@@ -505,7 +488,6 @@
     :cond_3
     move-object p0, p1
 
-    .line 6
     :catch_1
     :goto_1
     iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -585,7 +567,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->label:I
 
     const/4 v3, 0x1
@@ -617,7 +598,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -627,11 +607,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -640,7 +618,6 @@
 
     iput-object v2, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     :try_start_1
     new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$$inlined$collect$2;
 
@@ -670,7 +647,6 @@
     :cond_3
     move-object p0, p2
 
-    .line 6
     :catch_1
     :goto_1
     iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -753,7 +729,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
 
     const/4 v3, 0x1
@@ -784,7 +759,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -794,18 +768,15 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p3, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p3}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     iput-object p1, p3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$$inlined$collect$1;
 
     invoke-direct {v2, p3, p2}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$$inlined$collect$1;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/u/q;)V
@@ -833,7 +804,6 @@
     :cond_3
     move-object p0, p3
 
-    .line 6
     :goto_1
     iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
@@ -860,14 +830,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     iput-object p1, v0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 2
     new-instance p1, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$$inlined$collect$1;
 
     invoke-direct {p1, v0, p2}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$$inlined$collect$1;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/u/q;)V
@@ -886,7 +854,6 @@
 
     invoke-static {p0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 3
     iget-object p0, v0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     return-object p0
@@ -965,7 +932,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->label:I
 
     const/4 v3, 0x1
@@ -994,7 +960,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -1004,11 +969,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -1017,7 +980,6 @@
 
     iput-object v2, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$$inlined$collect$1;
 
     invoke-direct {v2, p2, p1}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$$inlined$collect$1;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/u/q;)V
@@ -1043,7 +1005,6 @@
     :cond_3
     move-object p0, p2
 
-    .line 6
     :goto_1
     iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
@@ -1123,7 +1084,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->label:I
 
     const/4 v3, 0x1
@@ -1148,7 +1108,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -1158,11 +1117,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -1171,7 +1128,6 @@
 
     iput-object v2, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$c;
 
     invoke-direct {v2, p1}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$c;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;)V
@@ -1195,7 +1151,6 @@
     :cond_3
     move-object p0, p1
 
-    .line 6
     :goto_1
     iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
@@ -1275,7 +1230,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->label:I
 
     const/4 v3, 0x1
@@ -1300,7 +1254,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -1310,11 +1263,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -1323,7 +1274,6 @@
 
     iput-object v2, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$d;
 
     invoke-direct {v2, p1}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$d;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;)V
@@ -1347,7 +1297,6 @@
     :cond_3
     move-object p0, p1
 
-    .line 6
     :goto_1
     iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 

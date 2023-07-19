@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/bh1;->a()[I
 
     move-result-object v0

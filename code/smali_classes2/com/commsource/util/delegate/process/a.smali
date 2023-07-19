@@ -39,7 +39,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     return-void
@@ -56,13 +55,11 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/util/delegate/process/a;->d(Ljava/lang/String;)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -94,12 +91,10 @@
 
     const-string p1, "TARGET_DOODLE_ID"
 
-    .line 1
     invoke-virtual {p3, p1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/util/delegate/process/a;->d(Ljava/lang/String;)V
 
     :cond_0
@@ -117,14 +112,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcom/commsource/store/doodle/DoodleStoreActivity;->S:Lcom/commsource/store/doodle/DoodleStoreActivity$a;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, p1, v1}, Lcom/commsource/store/doodle/DoodleStoreActivity$a;->a(Landroidx/fragment/app/Fragment;I)V
 
-    .line 2
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object p1

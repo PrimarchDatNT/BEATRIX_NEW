@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/crash/anr/b;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/crash/anr/b$a;->a:Lcom/tencent/bugly/crashreport/crash/anr/b;
 
     const/16 p1, 0x8
@@ -41,7 +40,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -65,12 +63,10 @@
 
     const-string v2, "watching file %s"
 
-    .line 2
     invoke-static {v2, v0}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-string v0, "trace"
 
-    .line 3
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -83,12 +79,10 @@
 
     const-string p1, "not anr file %s"
 
-    .line 4
     invoke-static {p1, p2}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
 
-    .line 5
     :cond_1
     iget-object p2, p0, Lcom/tencent/bugly/crashreport/crash/anr/b$a;->a:Lcom/tencent/bugly/crashreport/crash/anr/b;
 

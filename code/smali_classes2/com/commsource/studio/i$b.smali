@@ -39,10 +39,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -69,7 +67,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$b;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -80,7 +77,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 2
     iget v2, p1, Landroid/os/Message;->what:I
 
     const/4 v3, 0x1
@@ -95,26 +91,22 @@
 
     if-ne v2, v4, :cond_3
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/studio/i;->e(Lcom/commsource/studio/i;)Lcom/commsource/studio/i$d;
 
     move-result-object p1
 
     if-eqz p1, :cond_6
 
-    .line 4
     invoke-static {v1}, Lcom/commsource/studio/i;->f(Lcom/commsource/studio/i;)Z
 
     move-result p1
 
     if-nez p1, :cond_2
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/studio/i;->e(Lcom/commsource/studio/i;)Lcom/commsource/studio/i$d;
 
     move-result-object p1
 
-    .line 6
     invoke-static {v1}, Lcom/commsource/studio/i;->b(Lcom/commsource/studio/i;)Landroid/view/MotionEvent;
 
     move-result-object v2
@@ -123,7 +115,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 7
     :cond_0
     invoke-static {v1}, Lcom/commsource/studio/i;->c(Lcom/commsource/studio/i;)Landroid/view/MotionEvent;
 
@@ -133,19 +124,16 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 8
     :cond_1
     invoke-interface {p1, v2, v1}, Lcom/commsource/studio/i$d;->onSingleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-static {v1, v3}, Lcom/commsource/studio/i;->i(Lcom/commsource/studio/i;Z)V
 
     goto :goto_0
 
-    .line 10
     :cond_3
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -169,13 +157,11 @@
 
     throw v1
 
-    .line 11
     :cond_4
     invoke-static {v1}, Lcom/commsource/studio/i;->a(Lcom/commsource/studio/i;)V
 
     goto :goto_0
 
-    .line 12
     :cond_5
     invoke-static {v1}, Lcom/commsource/studio/i;->e(Lcom/commsource/studio/i;)Lcom/commsource/studio/i$d;
 
@@ -187,7 +173,6 @@
 
     invoke-interface {p1, v1}, Lcom/commsource/studio/i$d;->onShowPress(Landroid/view/MotionEvent;)V
 
-    .line 13
     :cond_6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

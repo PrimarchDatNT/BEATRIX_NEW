@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/j1;->a:Lcom/google/android/gms/common/api/internal/g;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -26,7 +25,6 @@
 .method public final a(Z)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/j1;->a:Lcom/google/android/gms/common/api/internal/g;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/g;->d(Lcom/google/android/gms/common/api/internal/g;)Landroid/os/Handler;
@@ -35,7 +33,6 @@
 
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/j1;->a:Lcom/google/android/gms/common/api/internal/g;
 
-    .line 2
     invoke-static {v1}, Lcom/google/android/gms/common/api/internal/g;->d(Lcom/google/android/gms/common/api/internal/g;)Landroid/os/Handler;
 
     move-result-object v1
@@ -50,7 +47,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {v0, p1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
     return-void

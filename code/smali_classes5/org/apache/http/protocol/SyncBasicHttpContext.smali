@@ -12,7 +12,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lorg/apache/http/protocol/BasicHttpContext;-><init>()V
 
     return-void
@@ -21,7 +20,6 @@
 .method public constructor <init>(Lorg/apache/http/protocol/HttpContext;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/http/protocol/BasicHttpContext;-><init>(Lorg/apache/http/protocol/HttpContext;)V
 
     return-void
@@ -34,13 +32,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Lorg/apache/http/protocol/BasicHttpContext;->clear()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -58,7 +54,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1}, Lorg/apache/http/protocol/BasicHttpContext;->getAttribute(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -83,7 +78,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1}, Lorg/apache/http/protocol/BasicHttpContext;->removeAttribute(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -108,13 +102,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1, p2}, Lorg/apache/http/protocol/BasicHttpContext;->setAttribute(Ljava/lang/String;Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void

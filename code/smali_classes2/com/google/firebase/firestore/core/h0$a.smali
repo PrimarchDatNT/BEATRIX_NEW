@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/firestore/core/Filter$Operator;->values()[Lcom/google/firebase/firestore/core/Filter$Operator;
 
     move-result-object v0

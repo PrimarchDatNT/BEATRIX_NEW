@@ -32,7 +32,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,33 +46,27 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/meitu/library/abtest/a;->r()Lcom/meitu/library/abtest/a;
 
     move-result-object v2
 
-    .line 2
     new-instance v3, Ljava/util/HashMap;
 
     invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
 
-    .line 3
     invoke-static {v2}, Lcom/meitu/library/abtest/l/h;->c(Lcom/meitu/library/abtest/a;)Ljava/lang/String;
 
     move-result-object v4
 
     const-string v5, "gid"
 
-    .line 4
     invoke-interface {v3, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {v2}, Lcom/meitu/library/abtest/a;->p()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 6
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -82,10 +75,8 @@
 
     const-string v5, "meitu_account"
 
-    .line 7
     invoke-interface {v3, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     :cond_0
     invoke-static {v2}, Lcom/meitu/library/abtest/l/h;->d(Lcom/meitu/library/abtest/a;)Ljava/lang/String;
 
@@ -93,12 +84,10 @@
 
     const-string v5, "android_id"
 
-    .line 9
     invoke-interface {v3, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v4, "advertising_id"
 
-    .line 10
     invoke-static {v2}, Lcom/meitu/library/abtest/l/h;->a(Lcom/meitu/library/abtest/a;)Ljava/lang/String;
 
     move-result-object v5
@@ -107,14 +96,12 @@
 
     const-string v4, "firebase_id"
 
-    .line 11
     invoke-static {v2}, Lcom/meitu/library/abtest/l/h;->b(Lcom/meitu/library/abtest/a;)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-interface {v3, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     new-instance v4, Lorg/json/JSONObject;
 
     invoke-direct {v4, v3}, Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
@@ -123,13 +110,10 @@
 
     move-result-object v3
 
-    .line 13
     invoke-static {v0, v3}, Lcom/meitu/library/abtest/g/a;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v3}, Lcom/meitu/library/abtest/l/u;->a(Ljava/lang/String;)V
 
-    .line 15
     invoke-virtual {v2}, Lcom/meitu/library/abtest/a;->b()Ljava/lang/String;
 
     move-result-object v4
@@ -140,7 +124,6 @@
 
     const-string v5, "utf-8"
 
-    .line 16
     invoke-virtual {v3, v5}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object v3
@@ -149,7 +132,6 @@
 
     move-result-object v3
 
-    .line 17
     array-length v4, v3
 
     add-int/lit8 v4, v4, 0xe
@@ -164,12 +146,10 @@
 
     aput-byte v7, v6, v8
 
-    .line 18
     invoke-static {v4, v5}, Lcom/meitu/library/abtest/l/d;->d(IZ)[B
 
     move-result-object v4
 
-    .line 19
     invoke-virtual {v2}, Lcom/meitu/library/abtest/a;->f()Ljava/lang/String;
 
     move-result-object v9
@@ -180,7 +160,6 @@
 
     new-array v10, v5, [B
 
-    .line 20
     invoke-virtual {v2}, Lcom/meitu/library/abtest/a;->c()Ljava/lang/Byte;
 
     move-result-object v2
@@ -209,7 +188,6 @@
 
     aput-object v3, v2, v4
 
-    .line 21
     invoke-static {v2}, Lcom/meitu/library/abtest/l/d;->e([[B)[B
 
     move-result-object v0
@@ -223,7 +201,6 @@
     :catch_0
     move-exception v2
 
-    .line 22
     invoke-virtual {v2}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -232,7 +209,6 @@
 
     const/4 v0, 0x0
 
-    .line 23
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
@@ -247,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/abtest/h/d;->c()[B
 
     move-result-object v1
@@ -256,14 +231,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     array-length v3, v1
 
     if-nez v3, :cond_0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/library/abtest/a;->r()Lcom/meitu/library/abtest/a;
 
@@ -273,7 +246,6 @@
 
     move-result-object v3
 
-    .line 4
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -290,19 +262,16 @@
 
     invoke-static {v2, v4}, Lcom/meitu/library/abtest/g/a;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     new-instance v2, Lokhttp3/Request$Builder;
 
     invoke-direct {v2}, Lokhttp3/Request$Builder;-><init>()V
 
-    .line 6
     invoke-virtual {v2, v3}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object v2
 
     sget-object v3, Lcom/meitu/library/abtest/h/k;->l:Lokhttp3/MediaType;
 
-    .line 7
     invoke-static {v3, v1}, Lokhttp3/RequestBody;->create(Lokhttp3/MediaType;[B)Lokhttp3/RequestBody;
 
     move-result-object v1
@@ -311,12 +280,10 @@
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v1
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -325,12 +292,10 @@
     :goto_0
     const-string v1, "ABTesting requestContent=null"
 
-    .line 10
     invoke-static {v2, v1}, Lcom/meitu/library/abtest/g/a;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -343,7 +308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtest/ABTestingManager;->A()Z
 
     move-result v1

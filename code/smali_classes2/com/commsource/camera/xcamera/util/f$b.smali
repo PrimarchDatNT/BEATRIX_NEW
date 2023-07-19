@@ -43,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/util/f$b;->a:Lcom/commsource/camera/xcamera/util/f;
 
     iput p2, p0, Lcom/commsource/camera/xcamera/util/f$b;->b:I
@@ -75,7 +74,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v1
@@ -95,12 +93,10 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 3
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v3
@@ -109,7 +105,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v3
@@ -122,7 +117,6 @@
 
     check-cast v2, Lcom/commsource/camera/ardata/m;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/camera/xcamera/util/f$b;->a:Lcom/commsource/camera/xcamera/util/f;
 
     iget v4, p0, Lcom/commsource/camera/xcamera/util/f$b;->b:I
@@ -135,7 +129,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/f$b;->a:Lcom/commsource/camera/xcamera/util/f;
 
@@ -143,7 +136,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/camera/xcamera/util/f;->b(Lcom/commsource/camera/xcamera/util/f;I)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -165,14 +157,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/f$b;->a:Lcom/commsource/camera/xcamera/util/f;
 
     iget v1, p0, Lcom/commsource/camera/xcamera/util/f$b;->b:I
 
     invoke-static {p1, v1}, Lcom/commsource/camera/xcamera/util/f;->b(Lcom/commsource/camera/xcamera/util/f;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -185,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/Map;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/util/f$b;->a(Ljava/util/Map;)V

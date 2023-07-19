@@ -9,7 +9,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-direct {p0, p2, p1, p4, p5}, Lcom/google/android/gms/internal/ads/h20;-><init>(Landroid/view/View;Lcom/google/android/gms/internal/ads/lu;Lcom/google/android/gms/internal/ads/x30;Lcom/google/android/gms/internal/ads/tg1;)V
 
     return-void
@@ -30,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/google/android/gms/internal/ads/z80;
 
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;

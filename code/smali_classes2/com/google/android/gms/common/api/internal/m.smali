@@ -23,15 +23,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/WeakHashMap;
 
     invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->newSetFromMap(Ljava/util/Map;)Ljava/util/Set;
 
     move-result-object v0
@@ -76,20 +73,16 @@
 
     const-string v0, "Listener must not be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Looper must not be null"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Listener type must not be null"
 
-    .line 3
     invoke-static {p2, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/common/api/internal/l;
 
     invoke-direct {v0, p1, p0, p2}, Lcom/google/android/gms/common/api/internal/l;-><init>(Landroid/os/Looper;Ljava/lang/Object;Ljava/lang/String;)V
@@ -127,20 +120,16 @@
 
     const-string v0, "Listener must not be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Listener type must not be null"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Listener type must not be empty"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->h(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/common/api/internal/l$a;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/api/internal/l$a;-><init>(Ljava/lang/Object;Ljava/lang/String;)V
@@ -153,7 +142,6 @@
 .method public final c()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/m;->a:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -173,12 +161,10 @@
 
     check-cast v1, Lcom/google/android/gms/common/api/internal/l;
 
-    .line 2
     invoke-virtual {v1}, Lcom/google/android/gms/common/api/internal/l;->a()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/m;->a:Ljava/util/Set;
 
@@ -217,12 +203,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2, p3}, Lcom/google/android/gms/common/api/internal/m;->a(Ljava/lang/Object;Landroid/os/Looper;Ljava/lang/String;)Lcom/google/android/gms/common/api/internal/l;
 
     move-result-object p1
 
-    .line 2
     iget-object p2, p0, Lcom/google/android/gms/common/api/internal/m;->a:Ljava/util/Set;
 
     invoke-interface {p2, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z

@@ -41,19 +41,16 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v5
 
-    .line 2
     sget-object v0, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     const-string v1, "null cannot be cast to non-null type kotlin.coroutines.Continuation<kotlin.Any?>"
 
     if-ne v5, v0, :cond_0
 
-    .line 3
     new-instance v0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;
 
     invoke-static {p0, v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -62,7 +59,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v6, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2;
 
@@ -128,17 +124,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcotlin/coroutines/jvm/internal/f;->a(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object v4
 
-    .line 2
     instance-of p1, p0, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;
 
     if-eqz p1, :cond_0
 
-    .line 3
     check-cast p0, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;
 
     invoke-virtual {p0, v4}, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;->create(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -147,20 +140,17 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     invoke-interface {v4}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v5
 
-    .line 5
     sget-object p1, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     const-string v0, "null cannot be cast to non-null type kotlin.coroutines.Continuation<kotlin.Any?>"
 
     if-ne v5, p1, :cond_1
 
-    .line 6
     new-instance p1, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$1;
 
     invoke-static {v4, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -169,7 +159,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance p1, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$2;
 
@@ -238,17 +227,14 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p2}, Lcotlin/coroutines/jvm/internal/f;->a(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object v4
 
-    .line 2
     instance-of p2, p0, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;
 
     if-eqz p2, :cond_0
 
-    .line 3
     check-cast p0, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;
 
     invoke-virtual {p0, p1, v4}, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;->create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -257,20 +243,17 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     invoke-interface {v4}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v5
 
-    .line 5
     sget-object p2, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     const-string v0, "null cannot be cast to non-null type kotlin.coroutines.Continuation<kotlin.Any?>"
 
     if-ne v5, p2, :cond_1
 
-    .line 6
     new-instance p2, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3;
 
     invoke-static {v4, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -279,7 +262,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance p2, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$4;
 
@@ -333,7 +315,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p0, Lcotlin/coroutines/jvm/internal/ContinuationImpl;
 
     if-nez v0, :cond_0
@@ -390,7 +371,6 @@
 
     const-string v0, "null cannot be cast to non-null type (kotlin.coroutines.Continuation<T>) -> kotlin.Any?"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const/4 v0, 0x1
@@ -438,7 +418,6 @@
 
     const-string v0, "null cannot be cast to non-null type (R, kotlin.coroutines.Continuation<T>) -> kotlin.Any?"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const/4 v0, 0x2
@@ -484,7 +463,6 @@
 
     const-string v0, "null cannot be cast to non-null type (R, P, kotlin.coroutines.Continuation<T>) -> kotlin.Any?"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const/4 v0, 0x3

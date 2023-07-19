@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/i;Lcom/meitu/webview/mtscript/i$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/i$b;->b:Lcom/meitu/webview/mtscript/i;
 
     iput-object p2, p0, Lcom/meitu/webview/mtscript/i$b;->a:Lcom/meitu/webview/mtscript/i$c;
@@ -46,12 +45,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/mtscript/i$b;->a:Lcom/meitu/webview/mtscript/i$c;
 
     invoke-virtual {v1, p1}, Lcom/meitu/webview/mtscript/i$c;->b(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -89,31 +89,26 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/Maps;->a(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/common/collect/Maps$a0;->a:Ljava/util/Map;
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/collect/Maps;->a(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/common/collect/Maps$a0;->b:Ljava/util/Map;
 
-    .line 4
     invoke-static {p3}, Lcom/google/common/collect/Maps;->a(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/common/collect/Maps$a0;->c:Ljava/util/Map;
 
-    .line 5
     invoke-static {p4}, Lcom/google/common/collect/Maps;->a(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p1
@@ -135,7 +130,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$a0;->b:Ljava/util/Map;
 
     return-object v0
@@ -151,7 +145,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$a0;->a:Ljava/util/Map;
 
     return-object v0
@@ -169,7 +162,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$a0;->d:Ljava/util/Map;
 
     return-object v0
@@ -185,7 +177,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$a0;->c:Ljava/util/Map;
 
     return-object v0
@@ -194,7 +185,6 @@
 .method public e()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$a0;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
@@ -239,7 +229,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/common/collect/j1;
 
@@ -247,10 +236,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/j1;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$a0;->b()Ljava/util/Map;
 
     move-result-object v1
@@ -265,7 +252,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$a0;->a()Ljava/util/Map;
 
     move-result-object v1
@@ -280,7 +266,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$a0;->d()Ljava/util/Map;
 
     move-result-object v1
@@ -295,7 +280,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$a0;->c()Ljava/util/Map;
 
     move-result-object v1
@@ -329,7 +313,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$a0;->b()Ljava/util/Map;
 
     move-result-object v1
@@ -362,7 +345,6 @@
 
     aput-object v1, v0, v2
 
-    .line 2
     invoke-static {v0}, Lcom/google/common/base/q;->b([Ljava/lang/Object;)I
 
     move-result v0
@@ -373,7 +355,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$a0;->e()Z
 
     move-result v0
@@ -384,7 +365,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -392,7 +372,6 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/Maps$a0;->a:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->isEmpty()Z
@@ -403,14 +382,12 @@
 
     const-string v1, ": only on left="
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lcom/google/common/collect/Maps$a0;->a:Ljava/util/Map;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/google/common/collect/Maps$a0;->b:Ljava/util/Map;
 
@@ -422,14 +399,12 @@
 
     const-string v1, ": only on right="
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lcom/google/common/collect/Maps$a0;->b:Ljava/util/Map;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/google/common/collect/Maps$a0;->d:Ljava/util/Map;
 
@@ -441,14 +416,12 @@
 
     const-string v1, ": value differences="
 
-    .line 8
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lcom/google/common/collect/Maps$a0;->d:Ljava/util/Map;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    .line 9
     :cond_3
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 

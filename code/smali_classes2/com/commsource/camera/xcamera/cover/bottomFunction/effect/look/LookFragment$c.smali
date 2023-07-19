@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/template/bean/LookMaterial;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$c;->b(ILcom/meitu/template/bean/LookMaterial;)Z
@@ -73,12 +72,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     invoke-static {v1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->D(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;Lcom/meitu/template/bean/LookMaterial;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/meitu/template/bean/LookMaterial;->isDownload()Z
 
     move-result v1
@@ -87,7 +84,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -98,7 +94,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->B(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;)Landroid/app/Activity;
@@ -107,12 +102,10 @@
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->Y(Landroid/content/Context;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_0
     invoke-virtual {p2}, Lcom/meitu/template/bean/LookMaterial;->isAvailable()I
 
@@ -120,7 +113,6 @@
 
     if-nez v1, :cond_1
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->B(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;)Landroid/app/Activity;
@@ -129,12 +121,10 @@
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->f0(Landroid/content/Context;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 9
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
@@ -148,12 +138,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 11
     :cond_2
     invoke-virtual {p2}, Lcom/meitu/template/bean/LookMaterial;->isDownloading()Z
 
@@ -161,12 +149,10 @@
 
     if-eqz v1, :cond_3
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 13
     :cond_3
     invoke-virtual {p2}, Lcom/meitu/template/bean/LookMaterial;->isDownload()Z
 
@@ -178,7 +164,6 @@
 
     if-nez v1, :cond_4
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->P()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
@@ -193,7 +178,6 @@
 
     goto/16 :goto_3
 
-    .line 15
     :cond_4
     invoke-virtual {p2}, Lcom/meitu/template/bean/LookMaterial;->isDefaultLook()Z
 
@@ -211,26 +195,22 @@
 
     if-nez v1, :cond_9
 
-    .line 16
     invoke-virtual {p2}, Lcom/meitu/template/bean/LookMaterial;->isNeedShowTime()Z
 
     move-result v1
 
     if-eqz v1, :cond_6
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->V()Lcom/commsource/camera/xcamera/cover/tips/a;
 
     move-result-object v5
 
-    .line 18
     invoke-virtual {p2}, Lcom/meitu/template/bean/LookMaterial;->getTitle()Ljava/lang/String;
 
     move-result-object v6
 
-    .line 19
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -257,7 +237,6 @@
 
     const-wide/16 v8, 0x0
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->Q()Lcom/commsource/widget/h1/e;
@@ -282,12 +261,10 @@
 
     const/4 v12, 0x0
 
-    .line 21
     invoke-static/range {v5 .. v12}, Lcom/commsource/camera/xcamera/cover/tips/a;->P(Lcom/commsource/camera/xcamera/cover/tips/a;Ljava/lang/String;Ljava/lang/String;JZILjava/lang/Object;)V
 
     goto :goto_2
 
-    .line 22
     :cond_6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
@@ -295,7 +272,6 @@
 
     move-result-object v5
 
-    .line 23
     invoke-virtual {p2}, Lcom/meitu/template/bean/LookMaterial;->getTitle()Ljava/lang/String;
 
     move-result-object v6
@@ -307,7 +283,6 @@
     :cond_7
     const-wide/16 v7, 0x0
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->Q()Lcom/commsource/widget/h1/e;
@@ -332,10 +307,8 @@
 
     const/4 v11, 0x0
 
-    .line 25
     invoke-static/range {v5 .. v11}, Lcom/commsource/camera/xcamera/cover/tips/a;->L(Lcom/commsource/camera/xcamera/cover/tips/a;Ljava/lang/String;JZILjava/lang/Object;)V
 
-    .line 26
     :cond_9
     :goto_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
@@ -348,7 +321,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;->y(Lcom/meitu/template/bean/LookMaterial;)V
 
-    .line 27
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

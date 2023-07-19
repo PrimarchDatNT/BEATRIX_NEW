@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -49,7 +48,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -62,7 +60,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -77,7 +74,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;
 
     invoke-virtual {p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;->J()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -96,15 +92,12 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-virtual {p3, p1}, Lcom/commsource/repository/child/makeup/h;->i0(I)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;
 
     invoke-static {v0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;->J()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -115,7 +108,6 @@
 
     invoke-virtual {p1, p3, v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->C0(Lcom/commsource/repository/child/makeup/h;Z)V
 
-    .line 5
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -129,7 +121,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;
 
     invoke-virtual {p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;->J()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -148,10 +139,8 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-virtual {p3, p1}, Lcom/commsource/repository/child/makeup/h;->i0(I)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;->J()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -162,7 +151,6 @@
 
     invoke-virtual {v0, p3, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->C0(Lcom/commsource/repository/child/makeup/h;Z)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;->H()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
@@ -175,7 +163,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;->J()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -192,13 +179,11 @@
 
     invoke-virtual {v0, v1, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->L0(Ljava/lang/String;I)V
 
-    .line 6
     :cond_0
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;
 
     invoke-static {p3, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;->C(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/MakeupSuspendFragment;I)V
 
-    .line 7
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

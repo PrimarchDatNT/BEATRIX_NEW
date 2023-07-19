@@ -63,7 +63,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/z0;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -72,14 +71,12 @@
 
     const-string v0, "gads:consent:gmscore:lat:enabled"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/z0;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/internal/ads/e1;->b:Lcom/google/android/gms/internal/ads/y0;
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/ads/z0;
 
     sget v2, Lcom/google/android/gms/internal/ads/a1;->d:I
@@ -90,10 +87,8 @@
 
     invoke-direct {v0, v3, v4, v2}, Lcom/google/android/gms/internal/ads/z0;-><init>(Ljava/lang/String;Ljava/lang/Object;I)V
 
-    .line 4
     sput-object v0, Lcom/google/android/gms/internal/ads/e1;->c:Lcom/google/android/gms/internal/ads/y0;
 
-    .line 5
     new-instance v0, Lcom/google/android/gms/internal/ads/z0;
 
     const-wide/16 v2, 0x2710
@@ -108,12 +103,10 @@
 
     invoke-direct {v0, v4, v2, v3}, Lcom/google/android/gms/internal/ads/z0;-><init>(Ljava/lang/String;Ljava/lang/Object;I)V
 
-    .line 6
     sput-object v0, Lcom/google/android/gms/internal/ads/e1;->d:Lcom/google/android/gms/internal/ads/y0;
 
     const-string v0, "gads:consent:gmscore:enabled"
 
-    .line 7
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/z0;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0

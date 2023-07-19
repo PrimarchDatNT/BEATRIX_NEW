@@ -25,10 +25,8 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v1, 0x1
@@ -45,7 +43,6 @@
 .method public newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/lang/Thread;
 
     const/4 v1, 0x1
@@ -54,7 +51,6 @@
 
     iget-object v2, p0, Lcom/google/firebase/installations/i$a;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 2
     invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
 
     move-result v2

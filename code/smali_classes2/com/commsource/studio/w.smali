@@ -76,7 +76,6 @@
 
     const/16 v1, 0xc
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -91,48 +90,40 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/w;->a:Landroid/graphics/Matrix;
 
-    .line 3
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/w;->c:Landroid/graphics/RectF;
 
-    .line 4
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/w;->d:Landroid/util/SparseArray;
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/w;->e:Ljava/util/List;
 
-    .line 6
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
     const/high16 v1, -0x10000
 
-    .line 7
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 8
     iput-object v0, p0, Lcom/commsource/studio/w;->f:Landroid/graphics/Paint;
 
     return-void
@@ -145,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/w;->g:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -170,7 +160,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v1, p1
 
     const/4 v2, 0x0
@@ -186,7 +175,6 @@
 
     aget-object v6, p1, v3
 
-    .line 2
     iget-object v7, p0, Lcom/commsource/studio/w;->d:Landroid/util/SparseArray;
 
     invoke-virtual {v6}, Lcom/commsource/studio/x;->j()I
@@ -199,7 +187,6 @@
 
     if-nez v7, :cond_0
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/studio/w;->e:Ljava/util/List;
 
     invoke-interface {v4, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -214,10 +201,8 @@
     :cond_1
     if-eqz v4, :cond_5
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/w;->e:Ljava/util/List;
 
-    .line 5
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -246,7 +231,6 @@
     :cond_2
     check-cast v3, Lcom/commsource/studio/x;
 
-    .line 6
     iget-object v7, p0, Lcom/commsource/studio/w;->d:Landroid/util/SparseArray;
 
     invoke-virtual {v3}, Lcom/commsource/studio/x;->j()I
@@ -268,7 +252,6 @@
 
     invoke-direct {v7}, Landroid/graphics/RectF;-><init>()V
 
-    .line 7
     :goto_2
     invoke-virtual {v3}, Lcom/commsource/studio/x;->g()Landroid/graphics/RectF;
 
@@ -290,7 +273,6 @@
 
     iput v8, v7, Landroid/graphics/RectF;->left:F
 
-    .line 8
     invoke-virtual {v3}, Lcom/commsource/studio/x;->g()Landroid/graphics/RectF;
 
     move-result-object v1
@@ -303,10 +285,8 @@
 
     iput v8, v7, Landroid/graphics/RectF;->right:F
 
-    .line 9
     iput v4, v7, Landroid/graphics/RectF;->top:F
 
-    .line 10
     invoke-virtual {v3}, Lcom/commsource/studio/x;->g()Landroid/graphics/RectF;
 
     move-result-object v1
@@ -317,7 +297,6 @@
 
     iput v1, v7, Landroid/graphics/RectF;->bottom:F
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/w;->d:Landroid/util/SparseArray;
 
     invoke-virtual {v3}, Lcom/commsource/studio/x;->j()I
@@ -330,11 +309,9 @@
 
     goto :goto_1
 
-    .line 12
     :cond_4
     iget-object p1, p0, Lcom/commsource/studio/w;->c:Landroid/graphics/RectF;
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/w;->e:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -377,7 +354,6 @@
 
     add-float/2addr v1, v3
 
-    .line 14
     iget-object v3, p0, Lcom/commsource/studio/w;->e:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -394,10 +370,8 @@
 
     move-result v2
 
-    .line 15
     invoke-virtual {p1, v4, v4, v1, v2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 16
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -411,12 +385,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/w;->d:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -437,7 +409,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/w;->e:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/Collection;->size()I
@@ -449,19 +420,16 @@
     :goto_0
     if-ge v2, v1, :cond_0
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/studio/w;->a:Landroid/graphics/Matrix;
 
     invoke-virtual {v3}, Landroid/graphics/Matrix;->reset()V
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/w;->a:Landroid/graphics/Matrix;
 
     int-to-float v4, v2
 
     const/16 v5, 0x14
 
-    .line 4
     invoke-static {v5}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v5
@@ -496,7 +464,6 @@
 
     add-float/2addr v5, v4
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/studio/w;->e:Ljava/util/List;
 
     invoke-interface {v4, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -515,18 +482,14 @@
 
     div-float/2addr v4, v6
 
-    .line 6
     invoke-virtual {v3, v5, v4}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 7
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/studio/w;->a:Landroid/graphics/Matrix;
 
     invoke-virtual {p1, v3}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/studio/w;->e:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -539,7 +502,6 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/x;->r(F)V
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/studio/w;->e:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -550,14 +512,12 @@
 
     invoke-virtual {v3, p1}, Lcom/commsource/studio/x;->e(Landroid/graphics/Canvas;)V
 
-    .line 11
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 12
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -577,7 +537,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/w;->d:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -604,7 +563,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/w;->c:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -630,7 +588,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/w;->e:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -651,7 +608,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/w;->e:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -709,7 +665,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/w;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -726,7 +681,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/w;->f:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -741,7 +695,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/w;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

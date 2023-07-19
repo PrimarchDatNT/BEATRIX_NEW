@@ -25,10 +25,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/thrift/TNonblockingMultiFetchStats;->clear()V
 
     return-void
@@ -41,30 +39,22 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numTotalServers:I
 
-    .line 2
     iput v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numReadCompletedServers:I
 
-    .line 3
     iput v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numConnectErrorServers:I
 
-    .line 4
     iput v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->totalRecvBufBytes:I
 
-    .line 5
     iput v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->maxResponseBytes:I
 
-    .line 6
     iput v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numOverflowedRecvBuf:I
 
-    .line 7
     iput v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numInvalidFrameSize:I
 
     const-wide/16 v0, 0x0
 
-    .line 8
     iput-wide v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->readTime:J
 
     return-void
@@ -73,7 +63,6 @@
 .method public getMaxResponseBytes()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->maxResponseBytes:I
 
     return v0
@@ -82,7 +71,6 @@
 .method public getNumConnectErrorServers()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numConnectErrorServers:I
 
     return v0
@@ -91,7 +79,6 @@
 .method public getNumInvalidFrameSize()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numInvalidFrameSize:I
 
     return v0
@@ -100,7 +87,6 @@
 .method public getNumOverflowedRecvBuf()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numOverflowedRecvBuf:I
 
     return v0
@@ -109,7 +95,6 @@
 .method public getNumReadCompletedServers()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numReadCompletedServers:I
 
     return v0
@@ -118,7 +103,6 @@
 .method public getNumTotalServers()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numTotalServers:I
 
     return v0
@@ -127,7 +111,6 @@
 .method public getReadTime()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->readTime:J
 
     return-wide v0
@@ -136,7 +119,6 @@
 .method public getTotalRecvBufBytes()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->totalRecvBufBytes:I
 
     return v0
@@ -145,7 +127,6 @@
 .method public incNumConnectErrorServers()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numConnectErrorServers:I
 
     add-int/lit8 v0, v0, 0x1
@@ -158,7 +139,6 @@
 .method public incNumInvalidFrameSize()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numInvalidFrameSize:I
 
     add-int/lit8 v0, v0, 0x1
@@ -171,7 +151,6 @@
 .method public incNumOverflowedRecvBuf()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numOverflowedRecvBuf:I
 
     add-int/lit8 v0, v0, 0x1
@@ -184,7 +163,6 @@
 .method public incNumReadCompletedServers()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numReadCompletedServers:I
 
     add-int/lit8 v0, v0, 0x1
@@ -197,7 +175,6 @@
 .method public incTotalRecvBufBytes(I)V
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->totalRecvBufBytes:I
 
     add-int/2addr v0, p1
@@ -210,7 +187,6 @@
 .method public setMaxResponseBytes(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->maxResponseBytes:I
 
     return-void
@@ -219,7 +195,6 @@
 .method public setNumTotalServers(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numTotalServers:I
 
     return-void
@@ -228,7 +203,6 @@
 .method public setReadTime(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->readTime:J
 
     return-void
@@ -241,10 +215,8 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget v1, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numTotalServers:I
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -283,7 +255,6 @@
 
     sub-int/2addr v1, v2
 
-    .line 3
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -302,7 +273,6 @@
 
     div-double/2addr v1, v3
 
-    .line 4
     invoke-static {v1, v2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v1
@@ -333,7 +303,6 @@
 
     iget v1, p0, Lorg/apache/thrift/TNonblockingMultiFetchStats;->numInvalidFrameSize:I
 
-    .line 5
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -354,7 +323,6 @@
 
     const-string v1, "numTotalServers=%d, numReadCompletedServers=%d, numConnectErrorServers=%d, numUnresponsiveServers=%d, totalRecvBufBytes=%fM, maxResponseBytes=%d, numOverflowedRecvBuf=%d, numInvalidFrameSize=%d, readTime=%dms"
 
-    .line 6
     invoke-static {v1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0

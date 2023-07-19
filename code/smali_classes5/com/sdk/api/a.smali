@@ -36,7 +36,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/Hashtable;
 
     invoke-direct {v0}, Ljava/util/Hashtable;-><init>()V
@@ -49,7 +48,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +56,6 @@
 .method static synthetic a()Landroid/content/Context;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     return-object v0
@@ -67,7 +64,6 @@
 .method public static b(Ljava/lang/String;IJLjava/lang/String;I)V
     .locals 9
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -76,13 +72,11 @@
 
     return-void
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/sdk/api/a;->i:Lcom/sdk/api/j;
 
     if-eqz v0, :cond_1
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -125,7 +119,6 @@
 
     invoke-static {v1, v0}, Lf/q/b/g;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     sget-object v2, Lcom/sdk/api/a;->i:Lcom/sdk/api/j;
 
     move-object v3, p0
@@ -147,7 +140,6 @@
 .method public static c(Ljava/lang/String;IJI)V
     .locals 8
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -158,18 +150,15 @@
 
     const-string p0, "report error"
 
-    .line 2
     invoke-static {v1, p0}, Lf/q/b/g;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/sdk/api/a;->i:Lcom/sdk/api/j;
 
     if-eqz v0, :cond_1
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -198,7 +187,6 @@
 
     invoke-static {v1, v0}, Lf/q/b/g;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     sget-object v2, Lcom/sdk/api/a;->i:Lcom/sdk/api/j;
 
     move-object v3, p0
@@ -220,7 +208,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     sput-boolean v0, Lf/q/b/g;->b:Z
 
     return-void
@@ -231,25 +218,21 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
     sput-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/sdk/imp/internal/loader/f;->f()Ljava/lang/String;
 
     move-result-object p0
@@ -265,7 +248,6 @@
 .method public static f()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/api/a;->c:Ljava/lang/String;
 
     return-object v0
@@ -274,7 +256,6 @@
 .method public static g()Landroid/content/Context;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     return-object v0
@@ -283,7 +264,6 @@
 .method public static h()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/sdk/api/a;->g:Z
 
     return v0
@@ -300,13 +280,10 @@
 .method public static j(Landroid/content/Context;Ljava/lang/String;ZZ)V
     .locals 0
 
-    .line 1
     sput-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
-    .line 2
     sput-object p1, Lcom/sdk/api/a;->c:Ljava/lang/String;
 
-    .line 3
     new-instance p0, Lcom/sdk/api/a$a;
 
     invoke-direct {p0, p2, p3}, Lcom/sdk/api/a$a;-><init>(ZZ)V
@@ -319,12 +296,10 @@
 .method public static k(Landroid/content/Context;ZZ)Z
     .locals 1
 
-    .line 1
     sput-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     const-string v0, ""
 
-    .line 2
     invoke-static {p0, v0, p1, p2}, Lcom/sdk/api/a;->j(Landroid/content/Context;Ljava/lang/String;ZZ)V
 
     const/4 p0, 0x1
@@ -337,19 +312,16 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
     sput-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
@@ -381,25 +353,21 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
     sput-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-static {p1}, Lcom/sdk/imp/internal/loader/f;->B(Z)Z
 
     move-result p0
@@ -415,7 +383,6 @@
 .method public static n()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/sdk/api/a;->e:Z
 
     return v0
@@ -426,25 +393,21 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
     sput-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-static {p1}, Lcom/sdk/imp/internal/loader/f;->C(Z)Z
 
     move-result p0
@@ -460,7 +423,6 @@
 .method public static p()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/sdk/api/a;->d:Z
 
     return v0
@@ -471,25 +433,21 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
     sput-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-static {p1}, Lcom/sdk/imp/internal/loader/f;->L(Z)V
 
     :cond_1
@@ -501,19 +459,16 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
     sput-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
@@ -535,7 +490,6 @@
     :cond_2
     const-string p0, "1---"
 
-    .line 4
     :goto_0
     invoke-static {p0}, Lcom/sdk/imp/internal/loader/f;->M(Ljava/lang/String;)V
 
@@ -546,7 +500,6 @@
 .method public static s(Z)V
     .locals 0
 
-    .line 1
     sput-boolean p0, Lcom/sdk/api/a;->e:Z
 
     return-void
@@ -557,25 +510,21 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
     sput-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-static {p1}, Lcom/sdk/imp/internal/loader/f;->N(Z)V
 
     :cond_1
@@ -585,7 +534,6 @@
 .method public static u(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/sdk/imp/internal/loader/e;->j(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -596,25 +544,21 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
     sput-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/sdk/api/a;->a:Landroid/content/Context;
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-static {p1}, Lcom/sdk/imp/internal/loader/f;->O(Z)V
 
     :cond_1
@@ -624,7 +568,6 @@
 .method public static w(Lcom/sdk/api/j;)V
     .locals 0
 
-    .line 1
     sput-object p0, Lcom/sdk/api/a;->i:Lcom/sdk/api/j;
 
     return-void
@@ -633,7 +576,6 @@
 .method public static x(Z)V
     .locals 0
 
-    .line 1
     sput-boolean p0, Lcom/sdk/api/a;->d:Z
 
     return-void

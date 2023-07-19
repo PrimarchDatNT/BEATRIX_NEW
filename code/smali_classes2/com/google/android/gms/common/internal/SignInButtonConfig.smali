@@ -56,7 +56,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/internal/z0;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/internal/z0;-><init>()V
@@ -91,19 +90,14 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/common/internal/SignInButtonConfig;->a:I
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/common/internal/SignInButtonConfig;->b:I
 
-    .line 4
     iput p3, p0, Lcom/google/android/gms/common/internal/SignInButtonConfig;->c:I
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/common/internal/SignInButtonConfig;->d:[Lcom/google/android/gms/common/api/Scope;
 
     return-void
@@ -116,7 +110,6 @@
 
     const/4 v0, 0x0
 
-    .line 6
     invoke-direct {p0, p3, p1, p2, v0}, Lcom/google/android/gms/common/internal/SignInButtonConfig;-><init>(III[Lcom/google/android/gms/common/api/Scope;)V
 
     return-void
@@ -129,7 +122,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/SignInButtonConfig;->d:[Lcom/google/android/gms/common/api/Scope;
 
     return-object v0
@@ -138,39 +130,32 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result v0
 
-    .line 2
     iget v1, p0, Lcom/google/android/gms/common/internal/SignInButtonConfig;->a:I
 
     const/4 v2, 0x1
 
     invoke-static {p1, v2, v1}, Lcom/google/android/gms/common/internal/safeparcel/a;->F(Landroid/os/Parcel;II)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/common/internal/SignInButtonConfig;->y()I
 
     move-result v1
 
     const/4 v2, 0x2
 
-    .line 4
     invoke-static {p1, v2, v1}, Lcom/google/android/gms/common/internal/safeparcel/a;->F(Landroid/os/Parcel;II)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/android/gms/common/internal/SignInButtonConfig;->z()I
 
     move-result v1
 
     const/4 v2, 0x3
 
-    .line 6
     invoke-static {p1, v2, v1}, Lcom/google/android/gms/common/internal/safeparcel/a;->F(Landroid/os/Parcel;II)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/google/android/gms/common/internal/SignInButtonConfig;->A()[Lcom/google/android/gms/common/api/Scope;
 
     move-result-object v1
@@ -179,10 +164,8 @@
 
     const/4 v3, 0x0
 
-    .line 8
     invoke-static {p1, v2, v1, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/a;->b0(Landroid/os/Parcel;I[Landroid/os/Parcelable;IZ)V
 
-    .line 9
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void
@@ -191,7 +174,6 @@
 .method public y()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/internal/SignInButtonConfig;->b:I
 
     return v0
@@ -200,7 +182,6 @@
 .method public z()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/internal/SignInButtonConfig;->c:I
 
     return v0

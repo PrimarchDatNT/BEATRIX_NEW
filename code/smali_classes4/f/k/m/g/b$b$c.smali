@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/m/g/b$b$c;->a:Lf/k/m/g/b$b;
 
     iget-object v2, v1, Lf/k/m/g/b$b;->b:Lcom/meitu/ipstore/core/c$a;
@@ -67,7 +66,6 @@
 
     invoke-interface {v2, v1}, Lcom/meitu/ipstore/core/c$a;->f(Ljava/lang/String;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

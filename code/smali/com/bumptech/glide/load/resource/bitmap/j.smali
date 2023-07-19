@@ -26,10 +26,8 @@
 .method public constructor <init>(Lcom/bumptech/glide/load/resource/bitmap/p;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/resource/bitmap/j;->a:Lcom/bumptech/glide/load/resource/bitmap/p;
 
     return-void
@@ -53,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/nio/ByteBuffer;
 
     invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/load/resource/bitmap/j;->d(Ljava/nio/ByteBuffer;Lcom/bumptech/glide/load/f;)Z
@@ -79,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/nio/ByteBuffer;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/resource/bitmap/j;->c(Ljava/nio/ByteBuffer;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -118,12 +114,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/bumptech/glide/s/a;->f(Ljava/nio/ByteBuffer;)Ljava/io/InputStream;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/j;->a:Lcom/bumptech/glide/load/resource/bitmap/p;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/resource/bitmap/p;->d(Ljava/io/InputStream;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -144,7 +138,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p2, p0, Lcom/bumptech/glide/load/resource/bitmap/j;->a:Lcom/bumptech/glide/load/resource/bitmap/p;
 
     invoke-virtual {p2, p1}, Lcom/bumptech/glide/load/resource/bitmap/p;->n(Ljava/nio/ByteBuffer;)Z

@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/t;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/t$a;->d:Lcom/google/common/collect/t;
 
     invoke-direct {p0}, Lcom/google/common/collect/Maps$n0;-><init>()V
@@ -54,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/t$a$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/t$a$a;-><init>(Lcom/google/common/collect/t$a;)V
@@ -72,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/t$a$b;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/t$a$b;-><init>(Lcom/google/common/collect/t$a;)V
@@ -91,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/t$a$c;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/t$a$c;-><init>(Lcom/google/common/collect/t$a;)V
@@ -102,7 +98,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$a;->d:Lcom/google/common/collect/t;
 
     invoke-virtual {v0}, Lcom/google/common/collect/t;->clear()V
@@ -117,7 +112,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/t$a;->d(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1
@@ -151,7 +145,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$a;->d:Lcom/google/common/collect/t;
 
     iget-object v0, v0, Lcom/google/common/collect/t;->a:Lcom/google/common/collect/l1;
@@ -172,7 +165,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     new-instance v2, Lcom/google/common/collect/t$c;
 
@@ -184,7 +176,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
@@ -216,7 +207,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$a;->d:Lcom/google/common/collect/t;
 
     iget-object v0, v0, Lcom/google/common/collect/t;->a:Lcom/google/common/collect/l1;
@@ -237,18 +227,15 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/google/common/collect/Lists;->q()Ljava/util/ArrayList;
 
     move-result-object v2
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 4
     :cond_1
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -257,12 +244,10 @@
 
     if-eqz v3, :cond_2
 
-    .line 5
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 6
     iget-object v4, p0, Lcom/google/common/collect/t$a;->d:Lcom/google/common/collect/t;
 
     invoke-static {v4, p1, v3}, Lcom/google/common/collect/t;->a(Lcom/google/common/collect/t;Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -271,15 +256,12 @@
 
     if-eqz v4, :cond_1
 
-    .line 7
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
-    .line 8
     invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-interface {v2}, Ljava/util/List;->isEmpty()Z
 
@@ -289,7 +271,6 @@
 
     return-object v1
 
-    .line 10
     :cond_3
     iget-object p1, p0, Lcom/google/common/collect/t$a;->d:Lcom/google/common/collect/t;
 
@@ -299,7 +280,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 11
     invoke-static {v2}, Lcom/google/common/collect/Sets;->B(Ljava/lang/Iterable;)Ljava/util/LinkedHashSet;
 
     move-result-object p1
@@ -310,7 +290,6 @@
 
     return-object p1
 
-    .line 12
     :cond_4
     invoke-static {v2}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
@@ -326,7 +305,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/t$a;->d(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1
@@ -341,7 +319,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/t$a;->e(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1

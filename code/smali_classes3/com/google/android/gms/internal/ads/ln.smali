@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/mn;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 .method public b(Landroid/view/View;)Z
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/android/gms/internal/ads/hn;->b(Landroid/view/View;)Z
 
     move-result v0
@@ -62,10 +60,8 @@
 .method public final u()J
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->U1:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -74,7 +70,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -87,7 +82,6 @@
 
     return-wide v0
 
-    .line 4
     :cond_0
     new-instance v0, Landroid/os/StatFs;
 
@@ -101,7 +95,6 @@
 
     invoke-direct {v0, v1}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v0}, Landroid/os/StatFs;->getAvailableBytes()J
 
     move-result-wide v0

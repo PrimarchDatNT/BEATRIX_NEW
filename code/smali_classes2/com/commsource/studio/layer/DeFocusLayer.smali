@@ -153,22 +153,18 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/c;-><init>(Landroid/content/Context;)V
 
-    .line 2
     sget-object p1, Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;->AiAdd:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->S:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
-    .line 3
     new-instance p1, Lcom/commsource/studio/layer/o;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/o;-><init>(Lcom/commsource/studio/layer/c;)V
 
     const/high16 v0, 0x40000000    # 2.0f
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v0
@@ -177,13 +173,10 @@
 
     const/4 v0, 0x0
 
-    .line 5
     invoke-virtual {p1, v0}, Lcom/commsource/studio/layer/l;->e(Z)V
 
-    .line 6
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->T:Lcom/commsource/studio/layer/o;
 
-    .line 7
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 v1, 0x1
@@ -192,41 +185,34 @@
 
     const/16 v2, 0x80
 
-    .line 8
     invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 9
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->U:Landroid/graphics/Paint;
 
-    .line 10
     new-instance p1, Lcom/commsource/studio/layer/n;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/n;-><init>(Lcom/commsource/studio/layer/c;)V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
-    .line 11
     new-instance p1, Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-direct {p1}, Lcom/commsource/beautymain/widget/gesturewidget/g;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 12
     new-instance p1, Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-direct {p1}, Lcom/commsource/beautymain/widget/gesturewidget/g;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->X:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 13
     new-instance p1, Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-direct {p1}, Lcom/commsource/beautymain/widget/gesturewidget/g;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Y:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 14
     new-instance p1, Lcom/commsource/studio/h;
 
     const-string v2, "deFocusMask"
@@ -237,20 +223,16 @@
 
     const/4 v2, 0x0
 
-    .line 15
     invoke-virtual {p1, v2}, Lcom/commsource/studio/e0;->l(Ljava/lang/Object;)V
 
-    .line 16
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Z:Lcom/commsource/studio/h;
 
-    .line 17
     new-instance p1, Lcom/meitu/core/processor/ImageSegment;
 
     invoke-direct {p1}, Lcom/meitu/core/processor/ImageSegment;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->b0:Lcom/meitu/core/processor/ImageSegment;
 
-    .line 18
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -259,20 +241,16 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 19
     iput p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->f0:F
 
-    .line 20
     iput-boolean v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->g0:Z
 
-    .line 21
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->h0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 22
     invoke-virtual {p0, p0, v0}, Lcom/commsource/studio/layer/c;->q0(Lcom/commsource/studio/layer/c$a;I)V
 
     return-void
@@ -285,7 +263,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/DeFocusLayer;->X:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -300,7 +277,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -315,7 +291,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/DeFocusLayer;->T:Lcom/commsource/studio/layer/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -330,7 +305,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/DeFocusLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -345,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/DeFocusLayer;->a0:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     if-nez p0, :cond_0
@@ -367,7 +340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->b0:Lcom/meitu/core/processor/ImageSegment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -382,7 +354,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->a0:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -397,7 +368,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/layer/DeFocusLayer;->l1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -412,7 +382,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/DeFocusLayer;->m1(Landroid/graphics/Bitmap;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -427,13 +396,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->a()Z
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->h()Landroid/graphics/Canvas;
 
     move-result-object v2
@@ -444,7 +410,6 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Canvas;->drawColor(I)V
 
-    .line 4
     :cond_0
     new-instance v2, Landroid/graphics/Paint;
 
@@ -452,21 +417,17 @@
 
     invoke-direct {v2, v3}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 5
     iget-boolean v3, p0, Lcom/commsource/studio/layer/DeFocusLayer;->g0:Z
 
     if-eqz v3, :cond_1
 
-    .line 6
     sget-object v3, Landroid/graphics/PorterDuff$Mode;->DST_IN:Landroid/graphics/PorterDuff$Mode;
 
     goto :goto_0
 
-    .line 7
     :cond_1
     sget-object v3, Landroid/graphics/PorterDuff$Mode;->DST_OUT:Landroid/graphics/PorterDuff$Mode;
 
-    .line 8
     :goto_0
     new-instance v4, Landroid/graphics/PorterDuffXfermode;
 
@@ -474,7 +435,6 @@
 
     invoke-virtual {v2, v4}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->h()Landroid/graphics/Canvas;
 
     move-result-object v1
@@ -496,7 +456,6 @@
 
     invoke-virtual {v1, v3, v4, v4, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 10
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -510,13 +469,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Y:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->a()Z
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->h()Landroid/graphics/Canvas;
 
     move-result-object v2
@@ -527,7 +483,6 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Canvas;->drawColor(I)V
 
-    .line 4
     :cond_0
     new-instance v2, Landroid/graphics/Paint;
 
@@ -535,12 +490,10 @@
 
     invoke-direct {v2, v3}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 5
     iget-boolean v3, p0, Lcom/commsource/studio/layer/DeFocusLayer;->g0:Z
 
     if-eqz v3, :cond_1
 
-    .line 6
     new-instance v3, Landroid/graphics/PorterDuffXfermode;
 
     sget-object v4, Landroid/graphics/PorterDuff$Mode;->DST_IN:Landroid/graphics/PorterDuff$Mode;
@@ -549,7 +502,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance v3, Landroid/graphics/PorterDuffXfermode;
 
@@ -557,11 +509,9 @@
 
     invoke-direct {v3, v4}, Landroid/graphics/PorterDuffXfermode;-><init>(Landroid/graphics/PorterDuff$Mode;)V
 
-    .line 8
     :goto_0
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->h()Landroid/graphics/Canvas;
 
     move-result-object v1
@@ -583,7 +533,6 @@
 
     invoke-virtual {v1, v3, v4, v4, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 10
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -597,31 +546,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Y:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 2
     new-instance v2, Landroid/graphics/Paint;
 
     const/4 v3, 0x1
 
     invoke-direct {v2, v3}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 3
     iget-boolean v3, p0, Lcom/commsource/studio/layer/DeFocusLayer;->g0:Z
 
     if-eqz v3, :cond_0
 
-    .line 4
     sget-object v3, Landroid/graphics/PorterDuff$Mode;->ADD:Landroid/graphics/PorterDuff$Mode;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object v3, Landroid/graphics/PorterDuff$Mode;->DST_OUT:Landroid/graphics/PorterDuff$Mode;
 
-    .line 6
     :goto_0
     new-instance v4, Landroid/graphics/PorterDuffXfermode;
 
@@ -629,7 +572,6 @@
 
     invoke-virtual {v2, v4}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->h()Landroid/graphics/Canvas;
 
     move-result-object v1
@@ -640,11 +582,9 @@
 
     invoke-virtual {v1, p1, v3, v3, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 8
     :cond_1
     invoke-direct {p0}, Lcom/commsource/studio/layer/DeFocusLayer;->k1()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -657,31 +597,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Y:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 2
     new-instance v2, Landroid/graphics/Paint;
 
     const/4 v3, 0x1
 
     invoke-direct {v2, v3}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 3
     iget-boolean v3, p0, Lcom/commsource/studio/layer/DeFocusLayer;->g0:Z
 
     if-eqz v3, :cond_0
 
-    .line 4
     sget-object v3, Landroid/graphics/PorterDuff$Mode;->ADD:Landroid/graphics/PorterDuff$Mode;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object v3, Landroid/graphics/PorterDuff$Mode;->DST_OUT:Landroid/graphics/PorterDuff$Mode;
 
-    .line 6
     :goto_0
     new-instance v4, Landroid/graphics/PorterDuffXfermode;
 
@@ -689,7 +623,6 @@
 
     invoke-virtual {v2, v4}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->h()Landroid/graphics/Canvas;
 
     move-result-object v1
@@ -700,7 +633,6 @@
 
     invoke-virtual {v1, p1, v3, v3, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -714,7 +646,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/DeFocusLayer;->U:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -729,7 +660,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/DeFocusLayer;->b0:Lcom/meitu/core/processor/ImageSegment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -762,13 +692,10 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/DeFocusLayer;->n1(Landroid/graphics/Bitmap;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/layer/DeFocusLayer;->k1()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Z:Lcom/commsource/studio/h;
 
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
@@ -783,7 +710,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/studio/layer/DeFocusLayer;->i0:Lcom/commsource/studio/layer/FaceLabelLayer$a;
 
     if-eqz p3, :cond_1
@@ -807,10 +733,8 @@
     :cond_1
     const/4 p3, 0x0
 
-    .line 5
     invoke-virtual {p2, p3}, Lcom/commsource/studio/layer/FaceOval;->C(Z)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->j0:Lcom/commsource/studio/layer/FaceLabelLayer;
 
     if-eqz p2, :cond_2
@@ -823,7 +747,6 @@
 
     invoke-virtual {p2}, Landroid/view/View;->postInvalidate()V
 
-    .line 7
     :cond_2
     iget-object p2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->i0:Lcom/commsource/studio/layer/FaceLabelLayer$a;
 
@@ -845,7 +768,6 @@
     :goto_1
     invoke-virtual {p2, v1}, Lcom/commsource/studio/layer/FaceLabelLayer$a;->d(Ljava/util/List;)V
 
-    .line 8
     :cond_4
     iget-object p2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->a0:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
@@ -860,14 +782,12 @@
 
     invoke-static {p2, p3, p3, v1, p1}, Lcom/commsource/studio/component/UndoRedoComponent$c;->I(Lcom/commsource/studio/component/UndoRedoComponent$c;ZZILjava/lang/Object;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -882,7 +802,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->d0:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -911,7 +830,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->k0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -928,7 +846,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->e0:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -945,7 +862,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->j0:Lcom/commsource/studio/layer/FaceLabelLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -962,7 +878,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->i0:Lcom/commsource/studio/layer/FaceLabelLayer$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -979,7 +894,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Y:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->g()Landroid/graphics/Bitmap;
@@ -1000,7 +914,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Z:Lcom/commsource/studio/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1017,7 +930,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->S:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1032,7 +944,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->g0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1058,7 +969,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->c0:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1073,7 +983,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->f0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1099,7 +1008,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->h0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1141,7 +1049,6 @@
 
     invoke-static {v4, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
 
     move-result v2
@@ -1158,7 +1065,6 @@
 
     move-result-object v2
 
-    .line 2
     new-instance v5, Lcom/meitu/core/types/NativeCanvas;
 
     invoke-direct {v5, v2}, Lcom/meitu/core/types/NativeCanvas;-><init>(Lcom/meitu/core/types/NativeBitmap;)V
@@ -1171,7 +1077,6 @@
 
     invoke-virtual {v5, v3, v6, v6}, Lcom/meitu/core/types/NativeCanvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/RectF;Landroid/graphics/RectF;)Z
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -1208,7 +1113,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->isRecycled()Z
 
     move-result v3
@@ -1229,26 +1133,21 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v6, v0, Lcom/commsource/studio/layer/DeFocusLayer;->b0:Lcom/meitu/core/processor/ImageSegment;
 
-    .line 6
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/camera/d1/g/j;->e()Lcom/meitu/core/types/FaceData;
 
     move-result-object v8
 
-    .line 7
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/camera/d1/g/j;->g()Lcom/meitu/core/face/InterPoint;
 
     move-result-object v9
 
-    .line 8
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v10
 
-    .line 9
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v11
@@ -1257,7 +1156,6 @@
 
     const/4 v13, 0x2
 
-    .line 10
     iget-object v3, v0, Lcom/commsource/studio/layer/DeFocusLayer;->T:Lcom/commsource/studio/layer/o;
 
     invoke-virtual {v3}, Lcom/commsource/studio/layer/o;->l()F
@@ -1272,15 +1170,12 @@
 
     move-object v7, v2
 
-    .line 11
     invoke-virtual/range {v6 .. v16}, Lcom/meitu/core/processor/ImageSegment;->setImage(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;IIIIIZZ)D
 
-    .line 12
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 13
     :cond_1
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1295,7 +1190,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1334,7 +1228,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
 
@@ -1352,7 +1245,6 @@
 
     move-result-object p4
 
-    .line 2
     new-instance v2, Lcom/meitu/core/types/NativeCanvas;
 
     invoke-direct {v2, p4}, Lcom/meitu/core/types/NativeCanvas;-><init>(Lcom/meitu/core/types/NativeBitmap;)V
@@ -1363,7 +1255,6 @@
 
     invoke-virtual {v2, p1, v1, v1}, Lcom/meitu/core/types/NativeCanvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/RectF;Landroid/graphics/RectF;)Z
 
-    .line 3
     :goto_0
     invoke-virtual {p2}, Lcom/commsource/camera/d1/g/j;->d()I
 
@@ -1373,7 +1264,6 @@
 
     if-lez p1, :cond_4
 
-    .line 4
     invoke-static {p4, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p4}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
@@ -1388,7 +1278,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-virtual {p4}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
     const/4 p4, 0x1
@@ -1397,10 +1286,8 @@
 
     const/4 p3, 0x5
 
-    .line 6
     invoke-static {p1, p3, p4}, Lcom/meitu/core/processor/BlurProcessor;->stackBlur_bitmap(Landroid/graphics/Bitmap;IZ)Z
 
-    .line 7
     invoke-static {p1, p2}, Lcom/meitu/core/processor/ImageSegment;->processMaskToAlpha(Landroid/graphics/Bitmap;I)V
 
     goto :goto_1
@@ -1408,19 +1295,15 @@
     :cond_1
     const/16 p3, 0xf
 
-    .line 8
     invoke-static {p1, p3}, Lcom/meitu/core/processor/ImageSegment;->processMaskToAlpha(Landroid/graphics/Bitmap;I)V
 
-    .line 9
     :goto_1
     iget-object p3, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Y:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-virtual {p3, p1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->i(Landroid/graphics/Bitmap;)V
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/studio/layer/DeFocusLayer;->k1()V
 
-    .line 11
     sget-object p3, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     invoke-virtual {p1, p3, p4}, Landroid/graphics/Bitmap;->copy(Landroid/graphics/Bitmap$Config;Z)Landroid/graphics/Bitmap;
@@ -1429,7 +1312,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->e0:Landroid/graphics/Bitmap;
 
-    .line 12
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Z:Lcom/commsource/studio/h;
 
@@ -1441,7 +1323,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/e0;->l(Ljava/lang/Object;)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->a0:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     if-nez p1, :cond_3
@@ -1455,14 +1336,12 @@
 
     invoke-static {p1, p2, p2, p3, v1}, Lcom/commsource/studio/component/UndoRedoComponent$c;->I(Lcom/commsource/studio/component/UndoRedoComponent$c;ZZILjava/lang/Object;)V
 
-    .line 14
     sget-object p1, Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;->Eraser:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/DeFocusLayer;->e1(Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;)V
 
     goto :goto_2
 
-    .line 15
     :cond_4
     invoke-static {p4, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -1480,12 +1359,10 @@
 
     const/high16 p2, 0x3f000000    # 0.5f
 
-    .line 16
     invoke-static {p1, p2, p2}, Lcom/meitu/core/processor/ImageSegment;->getMaskWithFocus(Lcom/meitu/core/types/NativeBitmap;FF)V
 
     const-string p2, "centerBlurMask"
 
-    .line 17
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
@@ -1494,7 +1371,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->e0:Landroid/graphics/Bitmap;
 
-    .line 18
     iget-object p2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Y:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-virtual {p2}, Lcom/commsource/beautymain/widget/gesturewidget/g;->h()Landroid/graphics/Canvas;
@@ -1507,19 +1383,15 @@
 
     invoke-virtual {p2, p3}, Landroid/graphics/Canvas;->drawColor(I)V
 
-    .line 19
     :cond_5
     sget-object p2, Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;->AiAdd:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
     invoke-virtual {p0, p2}, Lcom/commsource/studio/layer/DeFocusLayer;->e1(Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;)V
 
-    .line 20
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 21
     invoke-virtual {p4}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 22
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1533,14 +1405,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/DeFocusLayer$saveMask$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/layer/DeFocusLayer$saveMask$1;-><init>(Lcom/commsource/studio/layer/DeFocusLayer;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1557,7 +1427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->d0:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1572,10 +1441,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->a0(II)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -1592,7 +1459,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->b(II)Z
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Y:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -1609,7 +1475,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->b(II)Z
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->X:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -1626,7 +1491,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->b(II)Z
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
 
     move-result p1
@@ -1643,31 +1507,26 @@
 
     if-lez p1, :cond_0
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
 
     move-result p1
 
     float-to-int p1, p1
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->J()F
 
     move-result p2
 
     float-to-int p2, p2
 
-    .line 8
     sget-object v1, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
-    .line 9
     invoke-static {p1, p2, v1}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->d0:Landroid/graphics/Bitmap;
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1697,7 +1556,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->k0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1712,7 +1570,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Z:Lcom/commsource/studio/h;
 
     invoke-virtual {v1}, Lcom/commsource/studio/e0;->c()Z
@@ -1735,7 +1592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->e0:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1752,7 +1608,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/DeFocusLayer$DrawPathView;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->A()Landroid/content/Context;
@@ -1777,19 +1632,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->j0:Lcom/commsource/studio/layer/FaceLabelLayer;
 
     if-eqz p1, :cond_0
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/layer/FaceLabelLayer$a;
 
     invoke-direct {p1}, Lcom/commsource/studio/layer/FaceLabelLayer$a;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->i0:Lcom/commsource/studio/layer/FaceLabelLayer$a;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1805,19 +1657,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Z:Lcom/commsource/studio/h;
 
     invoke-virtual {v1}, Lcom/commsource/studio/e0;->d()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->i0:Lcom/commsource/studio/layer/FaceLabelLayer$a;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/FaceLabelLayer$a;->c()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1839,19 +1688,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->S:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
     sget-object v2, Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;->Blur:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     sget-object v2, Lcom/commsource/studio/layer/e;->d:[I
 
@@ -1879,7 +1725,6 @@
 
     goto/16 :goto_0
 
-    .line 4
     :cond_1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->g0:Z
 
@@ -1889,12 +1734,10 @@
 
     const/4 v7, 0x0
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
 
     move-result v8
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->J()F
 
     move-result v9
@@ -1905,12 +1748,10 @@
 
     move-object v5, p1
 
-    .line 7
     invoke-virtual/range {v5 .. v11}, Landroid/graphics/Canvas;->saveLayer(FFFFLandroid/graphics/Paint;I)I
 
     move-result v1
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-virtual {v2}, Lcom/commsource/beautymain/widget/gesturewidget/g;->g()Landroid/graphics/Bitmap;
@@ -1919,12 +1760,10 @@
 
     if-eqz v2, :cond_2
 
-    .line 9
     iget-object v5, p0, Lcom/commsource/studio/layer/DeFocusLayer;->U:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v2, v4, v4, v5}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 10
     :cond_2
     iget-object v2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
@@ -1934,17 +1773,14 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
     invoke-virtual {v2, p1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 12
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     goto :goto_0
 
-    .line 13
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
@@ -1954,12 +1790,10 @@
 
     if-eqz v1, :cond_4
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->U:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v4, v4, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 15
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
@@ -1967,7 +1801,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_5
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
@@ -1977,7 +1810,6 @@
 
     if-eqz v1, :cond_9
 
-    .line 17
     iget-object v2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
     iget-object v3, p0, Lcom/commsource/studio/layer/DeFocusLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
@@ -1997,7 +1829,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 18
     iget-object v2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->U:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v4, v4, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
@@ -2009,12 +1840,10 @@
 
     const/4 v7, 0x0
 
-    .line 19
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
 
     move-result v8
 
-    .line 20
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->J()F
 
     move-result v9
@@ -2025,12 +1854,10 @@
 
     move-object v5, p1
 
-    .line 21
     invoke-virtual/range {v5 .. v11}, Landroid/graphics/Canvas;->saveLayer(FFFFLandroid/graphics/Paint;I)I
 
     move-result v1
 
-    .line 22
     iget-object v2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-virtual {v2}, Lcom/commsource/beautymain/widget/gesturewidget/g;->g()Landroid/graphics/Bitmap;
@@ -2039,12 +1866,10 @@
 
     if-eqz v2, :cond_8
 
-    .line 23
     iget-object v5, p0, Lcom/commsource/studio/layer/DeFocusLayer;->U:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v2, v4, v4, v5}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 24
     :cond_8
     iget-object v2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
@@ -2054,22 +1879,18 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 25
     iget-object v2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
     invoke-virtual {v2, p1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 26
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    .line 27
     :cond_9
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->T:Lcom/commsource/studio/layer/o;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 28
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2086,7 +1907,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->i0:Lcom/commsource/studio/layer/FaceLabelLayer$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2109,10 +1929,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->S:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/layer/e;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -2137,11 +1955,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/layer/n;->i()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -2150,7 +1966,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/layer/n;->i()Landroid/graphics/Paint;
 
     move-result-object p1
@@ -2165,23 +1980,19 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
-    .line 7
     iget-boolean v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->g0:Z
 
     if-eqz v1, :cond_2
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/studio/layer/n;->i()Landroid/graphics/Paint;
 
     move-result-object v1
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 9
     invoke-virtual {p1}, Lcom/commsource/studio/layer/n;->i()Landroid/graphics/Paint;
 
     move-result-object p1
@@ -2196,7 +2007,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/studio/layer/n;->i()Landroid/graphics/Paint;
 
@@ -2208,7 +2018,6 @@
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/studio/layer/n;->i()Landroid/graphics/Paint;
 
     move-result-object p1
@@ -2219,18 +2028,15 @@
 
     goto :goto_0
 
-    .line 12
     :cond_3
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/studio/layer/n;->i()Landroid/graphics/Paint;
 
     move-result-object v1
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/studio/layer/n;->i()Landroid/graphics/Paint;
 
     move-result-object p1
@@ -2243,7 +2049,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 15
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
@@ -2251,7 +2056,6 @@
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2272,7 +2076,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->a(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2287,7 +2090,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->g0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2310,7 +2112,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/layer/DeFocusLayer;->c0:Ljava/util/ArrayList;
 
     new-instance v1, Landroid/graphics/PointF;
@@ -2331,7 +2132,6 @@
 
     invoke-virtual {p3, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2360,7 +2160,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->c0:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2375,7 +2174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->Z:Lcom/commsource/studio/h;
 
     invoke-virtual {v1}, Lcom/commsource/studio/e0;->b()Z
@@ -2394,10 +2192,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->f0:F
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->U:Landroid/graphics/Paint;
 
     const/16 v2, 0x80
@@ -2410,14 +2206,12 @@
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2432,14 +2226,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/DeFocusLayer$redo$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/layer/DeFocusLayer$redo$1;-><init>(Lcom/commsource/studio/layer/DeFocusLayer;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2468,14 +2260,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/DeFocusLayer$d;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/layer/DeFocusLayer$d;-><init>(Lcom/commsource/studio/layer/DeFocusLayer;Lcotlin/jvm/u/a;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2488,7 +2278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/studio/v$a;->b(Lcom/commsource/studio/v;)Z
 
     move-result v1
@@ -2513,19 +2302,16 @@
 
     invoke-static {p3, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->c0:Ljava/util/ArrayList;
 
     invoke-virtual {p2}, Ljava/util/ArrayList;->clear()V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->h0:Landroidx/lifecycle/MutableLiveData;
 
     sget-object p3, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2538,7 +2324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->T:Lcom/commsource/studio/layer/o;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/l;->e(Z)V
@@ -2547,7 +2332,6 @@
 
     new-array p1, p1, [F
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v1
@@ -2582,10 +2366,8 @@
 
     aput v1, p1, v2
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->U([F)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->T:Lcom/commsource/studio/layer/o;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/o;->k()Landroid/graphics/PointF;
@@ -2598,14 +2380,12 @@
 
     invoke-virtual {v1, v3, p1}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2620,14 +2400,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/DeFocusLayer$undo$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/layer/DeFocusLayer$undo$1;-><init>(Lcom/commsource/studio/layer/DeFocusLayer;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2640,7 +2418,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/studio/v$a;->a(Lcom/commsource/studio/v;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2671,10 +2448,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/layer/c;->p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 2
     const-class p1, Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -2683,13 +2458,10 @@
 
     check-cast p1, Lcom/commsource/studio/component/UndoRedoComponent$c;
 
-    .line 3
     invoke-virtual {p1, p0}, Lcom/commsource/studio/component/UndoRedoComponent$c;->y(Lcom/commsource/studio/v;)V
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->a0:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
-    .line 5
     const-class p1, Lcom/commsource/studio/component/PaintSelectComponent$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -2698,7 +2470,6 @@
 
     check-cast p1, Lcom/commsource/studio/component/PaintSelectComponent$b;
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/component/PaintSelectComponent$b;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -2709,7 +2480,6 @@
 
     invoke-virtual {v1, p2, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/studio/component/PaintSelectComponent$b;->A()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -2720,7 +2490,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     const-class p1, Lcom/commsource/studio/MagnifyComponent$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -2731,7 +2500,6 @@
 
     invoke-virtual {p1, p0}, Lcom/commsource/studio/MagnifyComponent$a;->y(Lcom/commsource/studio/p0;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2752,7 +2520,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2773,12 +2540,10 @@
 
     if-nez p4, :cond_0
 
-    .line 1
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object p4, p0, Lcom/commsource/studio/layer/DeFocusLayer;->S:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
@@ -2786,12 +2551,10 @@
 
     if-ne p4, p5, :cond_1
 
-    .line 3
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     iget-object p4, p0, Lcom/commsource/studio/layer/DeFocusLayer;->j0:Lcom/commsource/studio/layer/FaceLabelLayer;
 
@@ -2815,12 +2578,10 @@
 
     if-ne p4, v0, :cond_2
 
-    .line 5
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_2
     iget-object p4, p0, Lcom/commsource/studio/layer/DeFocusLayer;->h0:Landroidx/lifecycle/MutableLiveData;
 
@@ -2828,7 +2589,6 @@
 
     invoke-virtual {p4, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 7
     iget-object p4, p0, Lcom/commsource/studio/layer/DeFocusLayer;->S:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
     sget-object v1, Lcom/commsource/studio/layer/e;->b:[I
@@ -2845,7 +2605,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     iget-object p4, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
@@ -2855,14 +2614,11 @@
 
     invoke-virtual {p4, p1, p2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 9
     :goto_0
     iget-object p4, p0, Lcom/commsource/studio/layer/DeFocusLayer;->X:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 10
     invoke-virtual {p4}, Lcom/commsource/beautymain/widget/gesturewidget/g;->a()Z
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
     invoke-virtual {p4}, Lcom/commsource/beautymain/widget/gesturewidget/g;->h()Landroid/graphics/Canvas;
@@ -2880,7 +2636,6 @@
 
     invoke-virtual {v1, p4}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 12
     iget-object p4, p0, Lcom/commsource/studio/layer/DeFocusLayer;->c0:Ljava/util/ArrayList;
 
     new-instance v1, Landroid/graphics/PointF;
@@ -2901,7 +2656,6 @@
 
     invoke-virtual {p4, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->S:Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;
 
     sget-object p2, Lcom/commsource/studio/layer/e;->c:[I
@@ -2922,16 +2676,13 @@
 
     goto :goto_1
 
-    .line 14
     :cond_5
     invoke-direct {p0}, Lcom/commsource/studio/layer/DeFocusLayer;->l1()V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->d0:Landroid/graphics/Bitmap;
 
     if-eqz p1, :cond_9
 
-    .line 16
     new-instance p2, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$3;
 
     invoke-direct {p2, p1, p0}, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$3;-><init>(Landroid/graphics/Bitmap;Lcom/commsource/studio/layer/DeFocusLayer;)V
@@ -2940,13 +2691,11 @@
 
     goto :goto_1
 
-    .line 17
     :cond_6
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->d0:Landroid/graphics/Bitmap;
 
     if-eqz p1, :cond_9
 
-    .line 18
     new-instance p2, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2;
 
     invoke-direct {p2, p1, p0}, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2;-><init>(Landroid/graphics/Bitmap;Lcom/commsource/studio/layer/DeFocusLayer;)V
@@ -2955,7 +2704,6 @@
 
     goto :goto_1
 
-    .line 19
     :cond_7
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
@@ -2967,7 +2715,6 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/n;->i()Landroid/graphics/Paint;
@@ -2978,7 +2725,6 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
     iget-object p2, p0, Lcom/commsource/studio/layer/DeFocusLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
@@ -2998,7 +2744,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/n;->i()Landroid/graphics/Paint;
@@ -3013,22 +2758,18 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 23
     invoke-direct {p0}, Lcom/commsource/studio/layer/DeFocusLayer;->l1()V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->d0:Landroid/graphics/Bitmap;
 
     if-eqz p1, :cond_9
 
-    .line 25
     new-instance p2, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$1;
 
     invoke-direct {p2, p1, p0}, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$1;-><init>(Landroid/graphics/Bitmap;Lcom/commsource/studio/layer/DeFocusLayer;)V
 
     invoke-virtual {p0, p2}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lcotlin/jvm/u/a;)V
 
-    .line 26
     :cond_9
     :goto_1
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer;->V:Lcom/commsource/studio/layer/n;
@@ -3041,7 +2782,6 @@
 
     invoke-virtual {p1, p2, p2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 27
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

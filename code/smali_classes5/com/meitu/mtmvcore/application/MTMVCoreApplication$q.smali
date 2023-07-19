@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;IFFLjava/util/concurrent/Semaphore;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$q;->f:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     iput p2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$q;->a:I
@@ -58,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$q;->a:I
 
     iget v2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$q;->b:F
@@ -67,12 +65,10 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$800(IFF)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$q;->d:Ljava/util/concurrent/Semaphore;
 
     invoke-virtual {v1}, Ljava/util/concurrent/Semaphore;->release()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

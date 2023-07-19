@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1$1$a;->a:Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1$1;
 
     iget-object v1, v1, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1$1;->this$0:Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1;
@@ -57,12 +56,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1$1$a;->a:Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1$1;
 
@@ -86,7 +83,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerConfig;->M()Z
@@ -95,7 +91,6 @@
 
     if-nez v2, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1$1$a;->a:Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1$1;
 
     iget-object v2, v2, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1$1;->this$0:Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1;
@@ -118,12 +113,10 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/widget/ProView;->M(Ljava/lang/Integer;)V
 
-    .line 6
     invoke-virtual {v1, v3}, Lcom/commsource/studio/sticker/StickerConfig;->e0(Z)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1$1$a;->a:Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1$1;
 
@@ -145,7 +138,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/ProView;->M(Ljava/lang/Integer;)V
 
-    .line 8
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1$1$a;->a:Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1$1;
 
@@ -165,7 +157,6 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/commsource/widget/ProView;->I(ZZ)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

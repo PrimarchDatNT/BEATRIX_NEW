@@ -48,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
@@ -63,10 +62,8 @@
 .method protected constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/mtuploader/q;
 
     const-string v1, "qiniu"
@@ -81,10 +78,8 @@
 .method private constructor <init>(Lcom/meitu/mtuploader/bean/MtUploadBean;Lcom/meitu/mtuploader/bean/MtTokenItem;)V
     .locals 2
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v0, Lcom/meitu/mtuploader/q;
 
     const-string v1, "qiniu"
@@ -93,19 +88,16 @@
 
     iput-object v0, p0, Lcom/meitu/mtuploader/m;->c:Lcom/meitu/mtuploader/q;
 
-    .line 5
     invoke-static {p1, p2, v0}, Lcom/meitu/mtuploader/i;->b(Lcom/meitu/mtuploader/bean/MtUploadBean;Lcom/meitu/mtuploader/bean/MtTokenItem;Lcom/meitu/mtuploader/q;)Lf/n/a/c/a;
 
     move-result-object p1
 
-    .line 6
     new-instance p2, Lf/n/a/c/k;
 
     invoke-direct {p2, p1}, Lf/n/a/c/k;-><init>(Lf/n/a/c/a;)V
 
     iput-object p2, p0, Lcom/meitu/mtuploader/m;->a:Lf/n/a/c/k;
 
-    .line 7
     iput-object p1, p0, Lcom/meitu/mtuploader/m;->b:Lf/n/a/c/a;
 
     return-void
@@ -118,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtuploader/m;->c:Lcom/meitu/mtuploader/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -135,7 +126,6 @@
 
     const-string v1, "QnUploadManager"
 
-    .line 1
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -156,18 +146,15 @@
 
     invoke-static {v1, v2}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     const-class v1, Lcom/meitu/mtuploader/m;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     invoke-static {p1}, Lcom/meitu/mtuploader/i;->a(Lcom/meitu/mtuploader/bean/MtTokenItem;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 4
     sget-object v3, Lcom/meitu/mtuploader/m;->e:Ljava/util/Map;
 
     invoke-interface {v3, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -182,7 +169,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v4}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
@@ -193,19 +179,16 @@
     :goto_0
     if-nez v4, :cond_1
 
-    .line 6
     new-instance v4, Lcom/meitu/mtuploader/m;
 
     invoke-direct {v4, p0, p1}, Lcom/meitu/mtuploader/m;-><init>(Lcom/meitu/mtuploader/bean/MtUploadBean;Lcom/meitu/mtuploader/bean/MtTokenItem;)V
 
-    .line 7
     new-instance p0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p0, v4}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     invoke-interface {v3, v2, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     :cond_1
     monitor-exit v1
     :try_end_0
@@ -218,7 +201,6 @@
     :catchall_0
     move-exception p0
 
-    .line 9
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -246,32 +228,26 @@
 
     const-string v4, "startUpload"
 
-    .line 1
     invoke-static {v3, v4}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v3, v0, Lcom/meitu/mtuploader/m;->c:Lcom/meitu/mtuploader/q;
 
     move-object/from16 v6, p2
 
     invoke-virtual {v3, v6, v1}, Lcom/meitu/mtuploader/q;->b(Ljava/lang/String;Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    .line 3
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getCallback()Lcom/meitu/mtuploader/h;
 
     move-result-object v3
 
-    .line 4
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getId()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 5
     new-instance v8, Lcom/meitu/mtuploader/m$a;
 
     invoke-direct {v8, v0, v3, v4}, Lcom/meitu/mtuploader/m$a;-><init>(Lcom/meitu/mtuploader/m;Lcom/meitu/mtuploader/h;Ljava/lang/String;)V
 
-    .line 6
     new-instance v15, Lf/n/a/c/l;
 
     new-instance v13, Lcom/meitu/mtuploader/m$b;
@@ -292,22 +268,18 @@
 
     invoke-direct/range {v9 .. v14}, Lf/n/a/c/l;-><init>(Ljava/util/Map;Ljava/lang/String;ZLf/n/a/c/i;Lf/n/a/c/g;)V
 
-    .line 7
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getFile()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 8
     invoke-interface {v3, v4}, Lcom/meitu/mtuploader/h;->d(Ljava/lang/String;)V
 
-    .line 9
     iget-object v4, v0, Lcom/meitu/mtuploader/m;->a:Lf/n/a/c/k;
 
     move-object/from16 v7, p3
 
     invoke-virtual/range {v4 .. v9}, Lf/n/a/c/k;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lf/n/a/c/h;Lf/n/a/c/l;)V
 
-    .line 10
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -320,7 +292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtuploader/m;->b:Lf/n/a/c/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -335,7 +306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtuploader/m;->c:Lcom/meitu/mtuploader/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -350,10 +320,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtuploader/m;->c:Lcom/meitu/mtuploader/q;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -26,7 +26,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, v0}, Lcom/commsource/camera/mvp/helper/XSpanUtils$j;-><init>(II)V
 
     return-void
@@ -35,23 +34,18 @@
 .method private constructor <init>(II)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Landroid/text/style/ReplacementSpan;-><init>()V
 
-    .line 4
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$j;->b:Landroid/graphics/Paint;
 
-    .line 5
     iput p1, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$j;->a:I
 
-    .line 6
     invoke-virtual {v0, p2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 7
     sget-object p1, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
@@ -62,7 +56,6 @@
 .method synthetic constructor <init>(IILcom/commsource/camera/mvp/helper/XSpanUtils$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/camera/mvp/helper/XSpanUtils$j;-><init>(II)V
 
     return-void
@@ -97,7 +90,6 @@
 
     int-to-float v2, p6
 
-    .line 1
     iget p3, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$j;->a:I
 
     int-to-float p3, p3
@@ -114,7 +106,6 @@
 
     invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -145,7 +136,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p2, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$j;->a:I
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

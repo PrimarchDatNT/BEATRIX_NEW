@@ -25,7 +25,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p0, v0}, Lcotlinx/coroutines/c2;->d(Ljava/util/concurrent/CancellationException;)V
 
     return-void
@@ -42,13 +41,11 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-interface {p0, p1}, Lcotlinx/coroutines/c2;->d(Ljava/util/concurrent/CancellationException;)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -70,7 +67,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-interface {p0, p1}, Lcotlinx/coroutines/c2;->a(Ljava/lang/Throwable;)Z
 
@@ -78,7 +74,6 @@
 
     return p0
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -161,7 +156,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     :cond_1
     invoke-interface {p0, p1, p2, p3}, Lcotlinx/coroutines/c2;->o(ZZLcotlin/jvm/u/l;)Lcotlinx/coroutines/f1;
 
@@ -169,7 +163,6 @@
 
     return-object p0
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 

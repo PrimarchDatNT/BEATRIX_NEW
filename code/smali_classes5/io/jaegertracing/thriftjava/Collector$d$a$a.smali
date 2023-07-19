@@ -41,7 +41,6 @@
 .method constructor <init>(Lio/jaegertracing/thriftjava/Collector$d$a;Lorg/apache/thrift/AsyncProcessFunction;Lorg/apache/thrift/server/AbstractNonblockingServer$AsyncFrameBuffer;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Collector$d$a$a;->d:Lio/jaegertracing/thriftjava/Collector$d$a;
 
     iput-object p2, p0, Lio/jaegertracing/thriftjava/Collector$d$a$a;->a:Lorg/apache/thrift/AsyncProcessFunction;
@@ -68,15 +67,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thriftjava/Collector$submitBatches_result;
 
     invoke-direct {v0}, Lio/jaegertracing/thriftjava/Collector$submitBatches_result;-><init>()V
 
-    .line 2
     iput-object p1, v0, Lio/jaegertracing/thriftjava/Collector$submitBatches_result;->success:Ljava/util/List;
 
-    .line 3
     :try_start_0
     iget-object p1, p0, Lio/jaegertracing/thriftjava/Collector$d$a$a;->a:Lorg/apache/thrift/AsyncProcessFunction;
 
@@ -96,7 +92,6 @@
     :catch_0
     move-exception p1
 
-    .line 4
     invoke-static {}, Lio/jaegertracing/thriftjava/Collector$d;->a()Lorg/slf4j/c;
 
     move-result-object v0
@@ -105,7 +100,6 @@
 
     invoke-interface {v0, v1, p1}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 5
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Collector$d$a$a;->onError(Ljava/lang/Exception;)V
 
     goto :goto_0
@@ -113,7 +107,6 @@
     :catch_1
     move-exception p1
 
-    .line 6
     invoke-static {}, Lio/jaegertracing/thriftjava/Collector$d;->a()Lorg/slf4j/c;
 
     move-result-object v0
@@ -122,7 +115,6 @@
 
     invoke-interface {v0, v1, p1}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 7
     iget-object p1, p0, Lio/jaegertracing/thriftjava/Collector$d$a$a;->b:Lorg/apache/thrift/server/AbstractNonblockingServer$AsyncFrameBuffer;
 
     invoke-virtual {p1}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->close()V
@@ -134,7 +126,6 @@
 .method public bridge synthetic onComplete(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Collector$d$a$a;->a(Ljava/util/List;)V
@@ -145,17 +136,14 @@
 .method public onError(Ljava/lang/Exception;)V
     .locals 4
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thriftjava/Collector$submitBatches_result;
 
     invoke-direct {v0}, Lio/jaegertracing/thriftjava/Collector$submitBatches_result;-><init>()V
 
-    .line 2
     instance-of v0, p1, Lorg/apache/thrift/transport/TTransportException;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {}, Lio/jaegertracing/thriftjava/Collector$d;->a()Lorg/slf4j/c;
 
     move-result-object v0
@@ -164,20 +152,17 @@
 
     invoke-interface {v0, v1, p1}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 4
     iget-object p1, p0, Lio/jaegertracing/thriftjava/Collector$d$a$a;->b:Lorg/apache/thrift/server/AbstractNonblockingServer$AsyncFrameBuffer;
 
     invoke-virtual {p1}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->close()V
 
     return-void
 
-    .line 5
     :cond_0
     instance-of v0, p1, Lorg/apache/thrift/TApplicationException;
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-static {}, Lio/jaegertracing/thriftjava/Collector$d;->a()Lorg/slf4j/c;
 
     move-result-object v0
@@ -186,12 +171,10 @@
 
     invoke-interface {v0, v1, p1}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 7
     check-cast p1, Lorg/apache/thrift/TApplicationException;
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {}, Lio/jaegertracing/thriftjava/Collector$d;->a()Lorg/slf4j/c;
 
@@ -201,7 +184,6 @@
 
     invoke-interface {v0, v1, p1}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 9
     new-instance v0, Lorg/apache/thrift/TApplicationException;
 
     const/4 v1, 0x6
@@ -217,7 +199,6 @@
     :goto_0
     const/4 v0, 0x3
 
-    .line 10
     :try_start_0
     iget-object v1, p0, Lio/jaegertracing/thriftjava/Collector$d$a$a;->a:Lorg/apache/thrift/AsyncProcessFunction;
 
@@ -234,7 +215,6 @@
     :catch_0
     move-exception p1
 
-    .line 11
     invoke-static {}, Lio/jaegertracing/thriftjava/Collector$d;->a()Lorg/slf4j/c;
 
     move-result-object v0
@@ -243,7 +223,6 @@
 
     invoke-interface {v0, v1, p1}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 12
     iget-object p1, p0, Lio/jaegertracing/thriftjava/Collector$d$a$a;->b:Lorg/apache/thrift/server/AbstractNonblockingServer$AsyncFrameBuffer;
 
     invoke-virtual {p1}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->close()V

@@ -51,7 +51,6 @@
 
     const v0, 0x8b31
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/studio/shader/BaseShader;-><init>(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/shader/d;->o:Lcom/commsource/studio/shader/d$a;
@@ -66,7 +65,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/shader/d$a;
 
     invoke-direct {p1}, Lcom/commsource/studio/shader/d$a;-><init>()V
@@ -88,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "uniform mat4 u_Matrix;\n\nattribute vec4 position;\nattribute vec2 textureCoordinates;\n\nvarying vec2 v_textureCoordinates;\n\nvoid main()\n{\n    gl_Position = u_Matrix * position;\n    v_textureCoordinates = textureCoordinates;\n}"
@@ -105,7 +102,6 @@
 
     const-string v1, "position"
 
-    .line 1
     invoke-static {p1, v1}, Landroid/opengl/GLES20;->glGetAttribLocation(ILjava/lang/String;)I
 
     move-result v1
@@ -114,7 +110,6 @@
 
     const-string v1, "textureCoordinates"
 
-    .line 2
     invoke-static {p1, v1}, Landroid/opengl/GLES20;->glGetAttribLocation(ILjava/lang/String;)I
 
     move-result v1
@@ -123,14 +118,12 @@
 
     const-string v1, "u_Matrix"
 
-    .line 3
     invoke-static {p1, v1}, Landroid/opengl/GLES20;->glGetUniformLocation(ILjava/lang/String;)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/studio/shader/d;->n:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -143,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/shader/d;->l:I
 
     iget-object v2, p0, Lcom/commsource/studio/shader/d;->o:Lcom/commsource/studio/shader/d$a;
@@ -162,12 +154,10 @@
 
     invoke-static/range {v1 .. v6}, Landroid/opengl/GLES20;->glVertexAttribPointer(IIIZILjava/nio/Buffer;)V
 
-    .line 2
     iget v1, p0, Lcom/commsource/studio/shader/d;->l:I
 
     invoke-static {v1}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
 
-    .line 3
     iget v2, p0, Lcom/commsource/studio/shader/d;->m:I
 
     iget-object v1, p0, Lcom/commsource/studio/shader/d;->o:Lcom/commsource/studio/shader/d$a;
@@ -186,12 +176,10 @@
 
     invoke-static/range {v2 .. v7}, Landroid/opengl/GLES20;->glVertexAttribPointer(IIIZILjava/nio/Buffer;)V
 
-    .line 4
     iget v1, p0, Lcom/commsource/studio/shader/d;->m:I
 
     invoke-static {v1}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
 
-    .line 5
     iget v1, p0, Lcom/commsource/studio/shader/d;->n:I
 
     iget-object v2, p0, Lcom/commsource/studio/shader/d;->o:Lcom/commsource/studio/shader/d$a;
@@ -206,7 +194,6 @@
 
     invoke-static {v1, v3, v4, v2, v4}, Landroid/opengl/GLES20;->glUniformMatrix4fv(IIZ[FI)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -221,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/shader/d;->o:Lcom/commsource/studio/shader/d$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

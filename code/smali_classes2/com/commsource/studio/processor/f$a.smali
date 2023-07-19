@@ -34,7 +34,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/processor/f$a;->c:Lcom/commsource/studio/processor/f;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -57,10 +56,8 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->a(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/processor/f$a;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p3}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -73,7 +70,6 @@
 
     iput-boolean p1, p0, Lcom/commsource/studio/processor/f$a;->a:Z
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/processor/f$a;->c:Lcom/commsource/studio/processor/f;
 
     invoke-virtual {p1}, Lcom/commsource/studio/processor/f;->O()Lcom/commsource/studio/shader/m;
@@ -100,7 +96,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/shader/m;->D(F)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -121,7 +116,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/processor/f$a;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p3}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -136,10 +130,8 @@
 
     const/4 p3, 0x1
 
-    .line 2
     iput-boolean p3, p0, Lcom/commsource/studio/processor/f$a;->a:Z
 
-    .line 3
     :cond_0
     iget-object p3, p0, Lcom/commsource/studio/processor/f$a;->c:Lcom/commsource/studio/processor/f;
 
@@ -159,7 +151,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/studio/shader/m;->m(Lcom/commsource/studio/shader/m;FFZILjava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/processor/f$a;->c:Lcom/commsource/studio/processor/f;
 
     const/4 p2, 0x0
@@ -170,7 +161,6 @@
 
     invoke-static {p1, p2, v1, p3, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -191,7 +181,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/processor/f$a;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p3}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -204,7 +193,6 @@
 
     iput-boolean p3, p0, Lcom/commsource/studio/processor/f$a;->a:Z
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/processor/f$a;->c:Lcom/commsource/studio/processor/f;
 
     invoke-virtual {p3}, Lcom/commsource/studio/processor/f;->O()Lcom/commsource/studio/shader/m;
@@ -231,7 +219,6 @@
 
     invoke-virtual {p3, v1}, Lcom/commsource/studio/shader/m;->D(F)V
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/studio/processor/f$a;->c:Lcom/commsource/studio/processor/f;
 
     invoke-virtual {p3}, Lcom/commsource/studio/processor/f;->O()Lcom/commsource/studio/shader/m;
@@ -250,7 +237,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/studio/shader/m;->m(Lcom/commsource/studio/shader/m;FFZILjava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/processor/f$a;->c:Lcom/commsource/studio/processor/f;
 
     const/4 p2, 0x0
@@ -261,7 +247,6 @@
 
     invoke-static {p1, p2, p3, v1, p3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -282,7 +267,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -301,7 +285,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p5, p0, Lcom/commsource/studio/processor/f$a;->a:Z
 
     if-eqz p5, :cond_1
@@ -310,7 +293,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p4, p0, Lcom/commsource/studio/processor/f$a;->c:Lcom/commsource/studio/processor/f;
 
@@ -322,7 +304,6 @@
 
     invoke-virtual {p4, p1, p2, p5}, Lcom/commsource/studio/shader/m;->l(FFZ)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/processor/f$a;->c:Lcom/commsource/studio/processor/f;
 
     invoke-virtual {p1}, Lcom/commsource/studio/processor/f;->O()Lcom/commsource/studio/shader/m;
@@ -331,7 +312,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/shader/m;->y()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/processor/f$a;->c:Lcom/commsource/studio/processor/f;
 
     const/4 p2, 0x0
@@ -342,12 +322,10 @@
 
     invoke-static {p1, p2, p5, p4, p5}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V

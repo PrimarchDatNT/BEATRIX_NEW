@@ -14,7 +14,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/slf4j/helpers/NamedLoggerBase;-><init>()V
 
     return-void
@@ -25,7 +24,6 @@
 .method public debug(Lorg/slf4j/Marker;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-interface {p0, p2}, Lorg/slf4j/c;->debug(Ljava/lang/String;)V
 
     return-void
@@ -34,7 +32,6 @@
 .method public debug(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 0
 
-    .line 2
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->debug(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
@@ -43,7 +40,6 @@
 .method public debug(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 3
     invoke-interface {p0, p2, p3, p4}, Lorg/slf4j/c;->debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
@@ -52,7 +48,6 @@
 .method public debug(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 5
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->debug(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -61,7 +56,6 @@
 .method public varargs debug(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 4
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->debug(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -70,7 +64,6 @@
 .method public error(Lorg/slf4j/Marker;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-interface {p0, p2}, Lorg/slf4j/c;->error(Ljava/lang/String;)V
 
     return-void
@@ -79,7 +72,6 @@
 .method public error(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 0
 
-    .line 2
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
@@ -88,7 +80,6 @@
 .method public error(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 3
     invoke-interface {p0, p2, p3, p4}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
@@ -97,7 +88,6 @@
 .method public error(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 5
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -106,7 +96,6 @@
 .method public varargs error(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 4
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->error(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -115,7 +104,6 @@
 .method public bridge synthetic getName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lorg/slf4j/helpers/NamedLoggerBase;->getName()Ljava/lang/String;
 
     move-result-object v0
@@ -126,7 +114,6 @@
 .method public info(Lorg/slf4j/Marker;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-interface {p0, p2}, Lorg/slf4j/c;->info(Ljava/lang/String;)V
 
     return-void
@@ -135,7 +122,6 @@
 .method public info(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 0
 
-    .line 2
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->info(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
@@ -144,7 +130,6 @@
 .method public info(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 3
     invoke-interface {p0, p2, p3, p4}, Lorg/slf4j/c;->info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
@@ -153,7 +138,6 @@
 .method public info(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 5
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->info(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -162,7 +146,6 @@
 .method public varargs info(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 4
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->info(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -171,7 +154,6 @@
 .method public isDebugEnabled(Lorg/slf4j/Marker;)Z
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Lorg/slf4j/c;->isDebugEnabled()Z
 
     move-result p1
@@ -182,7 +164,6 @@
 .method public isErrorEnabled(Lorg/slf4j/Marker;)Z
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Lorg/slf4j/c;->isErrorEnabled()Z
 
     move-result p1
@@ -193,7 +174,6 @@
 .method public isInfoEnabled(Lorg/slf4j/Marker;)Z
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Lorg/slf4j/c;->isInfoEnabled()Z
 
     move-result p1
@@ -204,7 +184,6 @@
 .method public isTraceEnabled(Lorg/slf4j/Marker;)Z
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Lorg/slf4j/c;->isTraceEnabled()Z
 
     move-result p1
@@ -215,7 +194,6 @@
 .method public isWarnEnabled(Lorg/slf4j/Marker;)Z
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Lorg/slf4j/c;->isWarnEnabled()Z
 
     move-result p1
@@ -226,7 +204,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -265,7 +242,6 @@
 .method public trace(Lorg/slf4j/Marker;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-interface {p0, p2}, Lorg/slf4j/c;->trace(Ljava/lang/String;)V
 
     return-void
@@ -274,7 +250,6 @@
 .method public trace(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 0
 
-    .line 2
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->trace(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
@@ -283,7 +258,6 @@
 .method public trace(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 3
     invoke-interface {p0, p2, p3, p4}, Lorg/slf4j/c;->trace(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
@@ -292,7 +266,6 @@
 .method public trace(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 5
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->trace(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -301,7 +274,6 @@
 .method public varargs trace(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 4
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->trace(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -310,7 +282,6 @@
 .method public warn(Lorg/slf4j/Marker;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-interface {p0, p2}, Lorg/slf4j/c;->warn(Ljava/lang/String;)V
 
     return-void
@@ -319,7 +290,6 @@
 .method public warn(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 0
 
-    .line 2
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->warn(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
@@ -328,7 +298,6 @@
 .method public warn(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 3
     invoke-interface {p0, p2, p3, p4}, Lorg/slf4j/c;->warn(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
@@ -337,7 +306,6 @@
 .method public warn(Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 5
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->warn(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -346,7 +314,6 @@
 .method public varargs warn(Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 4
     invoke-interface {p0, p2, p3}, Lorg/slf4j/c;->warn(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void

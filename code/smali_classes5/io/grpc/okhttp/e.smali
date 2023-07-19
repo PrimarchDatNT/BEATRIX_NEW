@@ -51,7 +51,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lokio/Buffer;
 
     invoke-direct {v0}, Lokio/Buffer;-><init>()V
@@ -85,7 +84,6 @@
 
     move-object v10, p0
 
-    .line 1
     new-instance v1, Lio/grpc/okhttp/s;
 
     invoke-direct {v1}, Lio/grpc/okhttp/s;-><init>()V
@@ -94,7 +92,6 @@
 
     if-eqz p14, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lio/grpc/MethodDescriptor;->l()Z
 
     move-result v0
@@ -121,29 +118,24 @@
 
     move-object/from16 v5, p13
 
-    .line 3
     invoke-direct/range {v0 .. v6}, Lio/grpc/internal/a;-><init>(Lio/grpc/internal/i3;Lio/grpc/internal/y2;Lio/grpc/internal/g3;Lio/grpc/y0;Lio/grpc/f;Z)V
 
     const/4 v0, -0x1
 
-    .line 4
     iput v0, v10, Lio/grpc/okhttp/e;->m:I
 
-    .line 5
     new-instance v0, Lio/grpc/okhttp/e$a;
 
     invoke-direct {v0, p0}, Lio/grpc/okhttp/e$a;-><init>(Lio/grpc/okhttp/e;)V
 
     iput-object v0, v10, Lio/grpc/okhttp/e;->o:Lio/grpc/okhttp/e$a;
 
-    .line 6
     iput-boolean v7, v10, Lio/grpc/okhttp/e;->q:Z
 
     const-string v0, "statsTraceCtx"
 
     move-object/from16 v3, p11
 
-    .line 7
     invoke-static {v3, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -154,30 +146,24 @@
 
     move-object v0, p1
 
-    .line 8
     iput-object v0, v10, Lio/grpc/okhttp/e;->h:Lio/grpc/MethodDescriptor;
 
     move-object/from16 v1, p9
 
-    .line 9
     iput-object v1, v10, Lio/grpc/okhttp/e;->k:Ljava/lang/String;
 
     move-object/from16 v1, p10
 
-    .line 10
     iput-object v1, v10, Lio/grpc/okhttp/e;->i:Ljava/lang/String;
 
-    .line 11
     invoke-virtual/range {p4 .. p4}, Lio/grpc/okhttp/f;->c()Lio/grpc/a;
 
     move-result-object v1
 
     iput-object v1, v10, Lio/grpc/okhttp/e;->p:Lio/grpc/a;
 
-    .line 12
     new-instance v11, Lio/grpc/okhttp/e$b;
 
-    .line 13
     invoke-virtual {p1}, Lio/grpc/MethodDescriptor;->d()Ljava/lang/String;
 
     move-result-object v9
@@ -208,7 +194,6 @@
 .method static synthetic I(Lio/grpc/okhttp/e;)Lio/grpc/MethodDescriptor;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/e;->h:Lio/grpc/MethodDescriptor;
 
     return-object p0
@@ -217,7 +202,6 @@
 .method static synthetic J(Lio/grpc/okhttp/e;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lio/grpc/okhttp/e;->q:Z
 
     return p0
@@ -226,7 +210,6 @@
 .method static synthetic K(Lio/grpc/okhttp/e;)Lio/grpc/internal/g3;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/a;->E()Lio/grpc/internal/g3;
 
     move-result-object p0
@@ -237,7 +220,6 @@
 .method static synthetic L(Lio/grpc/okhttp/e;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/okhttp/e;->q:Z
 
     return p1
@@ -246,7 +228,6 @@
 .method static synthetic M(Lio/grpc/okhttp/e;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lio/grpc/okhttp/e;->m:I
 
     return p0
@@ -255,7 +236,6 @@
 .method static synthetic N(Lio/grpc/okhttp/e;I)I
     .locals 0
 
-    .line 1
     iput p1, p0, Lio/grpc/okhttp/e;->m:I
 
     return p1
@@ -264,7 +244,6 @@
 .method static synthetic O(Lio/grpc/okhttp/e;)Lio/grpc/internal/y2;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/e;->j:Lio/grpc/internal/y2;
 
     return-object p0
@@ -273,7 +252,6 @@
 .method static synthetic P(Lio/grpc/okhttp/e;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/e;->k:Ljava/lang/String;
 
     return-object p0
@@ -282,7 +260,6 @@
 .method static synthetic Q(Lio/grpc/okhttp/e;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/e;->i:Ljava/lang/String;
 
     return-object p0
@@ -291,7 +268,6 @@
 .method static synthetic R(Lio/grpc/okhttp/e;)Lio/grpc/okhttp/e$b;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/e;->n:Lio/grpc/okhttp/e$b;
 
     return-object p0
@@ -300,7 +276,6 @@
 .method static synthetic S()Lokio/Buffer;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/e;->r:Lokio/Buffer;
 
     return-object v0
@@ -309,7 +284,6 @@
 .method static synthetic T(Lio/grpc/okhttp/e;I)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/internal/j;->A(I)V
 
     return-void
@@ -318,7 +292,6 @@
 .method static synthetic U(Lio/grpc/okhttp/e;)Lio/grpc/internal/g3;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/a;->E()Lio/grpc/internal/g3;
 
     move-result-object p0
@@ -331,7 +304,6 @@
 .method protected bridge synthetic B()Lio/grpc/internal/j$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/okhttp/e;->Z()Lio/grpc/okhttp/e$b;
 
     move-result-object v0
@@ -342,7 +314,6 @@
 .method protected bridge synthetic C()Lio/grpc/internal/a$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/okhttp/e;->H()Lio/grpc/okhttp/e$a;
 
     move-result-object v0
@@ -353,7 +324,6 @@
 .method protected bridge synthetic G()Lio/grpc/internal/a$c;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/okhttp/e;->Z()Lio/grpc/okhttp/e$b;
 
     move-result-object v0
@@ -364,7 +334,6 @@
 .method protected H()Lio/grpc/okhttp/e$a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/e;->o:Lio/grpc/okhttp/e$a;
 
     return-object v0
@@ -373,7 +342,6 @@
 .method V()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/e;->l:Ljava/lang/Object;
 
     return-object v0
@@ -382,7 +350,6 @@
 .method public W()Lio/grpc/MethodDescriptor$MethodType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/e;->h:Lio/grpc/MethodDescriptor;
 
     invoke-virtual {v0}, Lio/grpc/MethodDescriptor;->j()Lio/grpc/MethodDescriptor$MethodType;
@@ -395,7 +362,6 @@
 .method public X()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/e;->m:I
 
     return v0
@@ -404,7 +370,6 @@
 .method Y(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/e;->l:Ljava/lang/Object;
 
     return-void
@@ -413,7 +378,6 @@
 .method protected Z()Lio/grpc/okhttp/e$b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/e;->n:Lio/grpc/okhttp/e$b;
 
     return-object v0
@@ -422,7 +386,6 @@
 .method a0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/okhttp/e;->q:Z
 
     return v0
@@ -431,7 +394,6 @@
 .method public c()Lio/grpc/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/e;->p:Lio/grpc/a;
 
     return-object v0
@@ -442,7 +404,6 @@
 
     const-string v0, "authority"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

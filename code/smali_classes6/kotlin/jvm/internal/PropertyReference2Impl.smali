@@ -10,7 +10,6 @@
         version = "1.4"
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2, p3, p4}, Lcotlin/jvm/internal/PropertyReference2;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
@@ -19,7 +18,6 @@
 .method public constructor <init>(Lcotlin/reflect/h;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     move-object v0, p1
 
     check-cast v0, Lcotlin/jvm/internal/r;
@@ -42,7 +40,6 @@
 .method public get(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/jvm/internal/PropertyReference2;->getGetter()Lcotlin/reflect/q$a;
 
     move-result-object v0

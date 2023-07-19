@@ -22,7 +22,6 @@
 .method constructor <init>(Lf/d/d/o;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/d/o$d;->a:Lf/d/d/o;
 
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;-><init>()V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/d/o$d;->a:Lf/d/d/o;
 
     invoke-static {v1}, Lf/d/d/o;->t(Lf/d/d/o;)Lf/d/d/n;
@@ -48,7 +46,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/d/d/o$d;->a:Lf/d/d/o;
 
     invoke-static {v1}, Lf/d/d/o;->t(Lf/d/d/o;)Lf/d/d/n;
@@ -57,7 +54,6 @@
 
     invoke-virtual {v1, p1, p2}, Lf/d/d/n;->d(Lcom/meitu/hwbusinesskit/core/bean/AdData;Landroid/view/View;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -71,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/d/o$d;->a:Lf/d/d/o;
 
     invoke-static {v1}, Lf/d/d/o;->t(Lf/d/d/o;)Lf/d/d/n;
@@ -80,7 +75,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/d/d/o$d;->a:Lf/d/d/o;
 
     invoke-static {v1}, Lf/d/d/o;->t(Lf/d/d/o;)Lf/d/d/n;
@@ -89,7 +83,6 @@
 
     invoke-virtual {v1, p1}, Lf/d/d/n;->c(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lf/d/d/o$d;->a:Lf/d/d/o;
 
@@ -105,10 +98,8 @@
 
     const-string/jumbo p1, "\u81ea\u62cd"
 
-    .line 4
     invoke-static {v2, v1, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     iget-object v3, p0, Lf/d/d/o$d;->a:Lf/d/d/o;
 
     invoke-static {v3}, Lf/d/d/o;->n(Lf/d/d/o;)Landroid/app/Activity;
@@ -119,7 +110,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lf/d/d/o$d;->a:Lf/d/d/o;
 
@@ -131,10 +121,8 @@
 
     const-string/jumbo p1, "\u4eba\u50cf\u7f8e\u989c"
 
-    .line 7
     invoke-static {v2, v1, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     iget-object v3, p0, Lf/d/d/o$d;->a:Lf/d/d/o;
 
     invoke-static {v3}, Lf/d/d/o;->n(Lf/d/d/o;)Landroid/app/Activity;
@@ -143,7 +131,6 @@
 
     invoke-static {v3, v2, v1, p1}, Lcom/commsource/statistics/m;->i(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -158,7 +145,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lf/d/d/o$d;->a:Lf/d/d/o;
 
     invoke-static {v0}, Lf/d/d/o;->p(Lf/d/d/o;)Lcom/commsource/beautyplus/f0/a1;
@@ -171,7 +157,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 2
     iget-object v0, p0, Lf/d/d/o$d;->a:Lf/d/d/o;
 
     invoke-static {v0}, Lf/d/d/o;->r(Lf/d/d/o;)Landroid/os/Handler;
@@ -188,7 +173,6 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

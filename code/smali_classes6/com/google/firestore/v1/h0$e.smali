@@ -26,7 +26,6 @@
 .method private constructor <init>(Lio/grpc/g;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lio/grpc/stub/a;-><init>(Lio/grpc/g;)V
 
     return-void
@@ -35,7 +34,6 @@
 .method synthetic constructor <init>(Lio/grpc/g;Lcom/google/firestore/v1/h0$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/h0$e;-><init>(Lio/grpc/g;)V
 
     return-void
@@ -44,7 +42,6 @@
 .method private constructor <init>(Lio/grpc/g;Lio/grpc/f;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lio/grpc/stub/a;-><init>(Lio/grpc/g;Lio/grpc/f;)V
 
     return-void
@@ -64,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -81,7 +77,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/stub/ClientCalls;->e(Lio/grpc/h;Ljava/lang/Object;Lio/grpc/stub/h;)V
 
     return-void
@@ -101,7 +96,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -118,7 +112,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1}, Lio/grpc/stub/ClientCalls;->a(Lio/grpc/h;Lio/grpc/stub/h;)Lio/grpc/stub/h;
 
     move-result-object p1
@@ -129,7 +122,6 @@
 .method protected bridge synthetic a(Lio/grpc/g;Lio/grpc/f;)Lio/grpc/stub/a;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/firestore/v1/h0$e;->q(Lio/grpc/g;Lio/grpc/f;)Lcom/google/firestore/v1/h0$e;
 
     move-result-object p1
@@ -149,7 +141,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -166,7 +157,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/stub/ClientCalls;->c(Lio/grpc/h;Ljava/lang/Object;Lio/grpc/stub/h;)V
 
     return-void
@@ -184,7 +174,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -201,7 +190,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/stub/ClientCalls;->e(Lio/grpc/h;Ljava/lang/Object;Lio/grpc/stub/h;)V
 
     return-void
@@ -210,7 +198,6 @@
 .method protected q(Lio/grpc/g;Lio/grpc/f;)Lcom/google/firestore/v1/h0$e;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firestore/v1/h0$e;
 
     invoke-direct {v0, p1, p2}, Lcom/google/firestore/v1/h0$e;-><init>(Lio/grpc/g;Lio/grpc/f;)V
@@ -230,7 +217,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -247,7 +233,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/stub/ClientCalls;->e(Lio/grpc/h;Ljava/lang/Object;Lio/grpc/stub/h;)V
 
     return-void
@@ -265,7 +250,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -282,7 +266,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/stub/ClientCalls;->e(Lio/grpc/h;Ljava/lang/Object;Lio/grpc/stub/h;)V
 
     return-void
@@ -300,7 +283,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -317,7 +299,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/stub/ClientCalls;->e(Lio/grpc/h;Ljava/lang/Object;Lio/grpc/stub/h;)V
 
     return-void
@@ -335,7 +316,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -352,7 +332,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/stub/ClientCalls;->e(Lio/grpc/h;Ljava/lang/Object;Lio/grpc/stub/h;)V
 
     return-void
@@ -370,7 +349,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -387,7 +365,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/stub/ClientCalls;->e(Lio/grpc/h;Ljava/lang/Object;Lio/grpc/stub/h;)V
 
     return-void
@@ -405,7 +382,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -422,7 +398,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/stub/ClientCalls;->e(Lio/grpc/h;Ljava/lang/Object;Lio/grpc/stub/h;)V
 
     return-void
@@ -442,7 +417,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -459,7 +433,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1}, Lio/grpc/stub/ClientCalls;->a(Lio/grpc/h;Lio/grpc/stub/h;)Lio/grpc/stub/h;
 
     move-result-object p1
@@ -479,7 +452,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -496,7 +468,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/stub/ClientCalls;->e(Lio/grpc/h;Ljava/lang/Object;Lio/grpc/stub/h;)V
 
     return-void
@@ -514,7 +485,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/stub/a;->c()Lio/grpc/g;
 
     move-result-object v0
@@ -531,7 +501,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1, p2}, Lio/grpc/stub/ClientCalls;->c(Lio/grpc/h;Ljava/lang/Object;Lio/grpc/stub/h;)V
 
     return-void

@@ -25,12 +25,10 @@
 .method public constructor <init>(Lio/grpc/internal/a2;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
     const-string v0, "buffer"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -52,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/b2$b;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0}, Lio/grpc/internal/a2;->Z()I
@@ -70,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/b2$b;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0}, Lio/grpc/internal/a2;->close()V
@@ -81,7 +77,6 @@
 .method public read()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/b2$b;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0}, Lio/grpc/internal/a2;->Z()I
@@ -94,7 +89,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/b2$b;->a:Lio/grpc/internal/a2;
 
@@ -113,7 +107,6 @@
         }
     .end annotation
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/b2$b;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0}, Lio/grpc/internal/a2;->Z()I
@@ -126,7 +119,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/b2$b;->a:Lio/grpc/internal/a2;
 
@@ -138,7 +130,6 @@
 
     move-result p3
 
-    .line 5
     iget-object v0, p0, Lio/grpc/internal/b2$b;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0, p1, p2, p3}, Lio/grpc/internal/a2;->h8([BII)V

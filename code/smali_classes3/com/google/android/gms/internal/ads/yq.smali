@@ -19,10 +19,8 @@
 .method public constructor <init>(Landroid/view/View;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -35,7 +33,6 @@
 .method private final c()Landroid/view/ViewTreeObserver;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yq;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -50,7 +47,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
@@ -58,7 +54,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 3
     invoke-virtual {v0}, Landroid/view/ViewTreeObserver;->isAlive()Z
 
     move-result v2
@@ -80,14 +75,12 @@
 .method public final a()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/yq;->c()Landroid/view/ViewTreeObserver;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/yq;->d(Landroid/view/ViewTreeObserver;)V
 
     :cond_0
@@ -97,14 +90,12 @@
 .method public final b()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/yq;->c()Landroid/view/ViewTreeObserver;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/yq;->e(Landroid/view/ViewTreeObserver;)V
 
     :cond_0

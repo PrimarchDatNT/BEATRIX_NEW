@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-virtual {v1, p1}, Lf/d/e/b/b;->e(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
@@ -43,21 +41,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/camera/d1/g/l;->a:I
 
-    .line 3
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/camera/d1/g/l;->b:I
 
-    .line 4
     iget v2, p0, Lcom/commsource/camera/d1/g/l;->a:I
 
     mul-int v2, v2, v1
@@ -68,13 +63,10 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/graphics/Bitmap;->copyPixelsToBuffer(Ljava/nio/Buffer;)V
 
-    .line 6
     iput-object p1, p0, Lcom/commsource/camera/d1/g/l;->e:Landroid/graphics/Bitmap;
 
-    .line 7
     iget p1, p0, Lcom/commsource/camera/d1/g/l;->a:I
 
     iget v2, p0, Lcom/commsource/camera/d1/g/l;->b:I
@@ -87,7 +79,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/d1/g/l;->d:Ljava/nio/ByteBuffer;
 
-    .line 8
     iget v2, p0, Lcom/commsource/camera/d1/g/l;->a:I
 
     mul-int/lit8 v3, v2, 0x4
@@ -96,10 +87,8 @@
 
     invoke-static {v1, v3, p1, v2, v4}, Lcom/meitu/library/camera/yuvutil/YuvUtils;->h(Ljava/nio/ByteBuffer;ILjava/nio/ByteBuffer;II)V
 
-    .line 9
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -113,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/l;->d:Ljava/nio/ByteBuffer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -128,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/d1/g/l;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -143,19 +130,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/l;->c:Lcom/commsource/easyeditor/utils/opengl/m;
 
     if-nez v1, :cond_0
 
     const/4 v1, -0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     iget v1, v1, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
@@ -171,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/d1/g/l;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -186,21 +169,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/l;->c:Lcom/commsource/easyeditor/utils/opengl/m;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/camera/d1/g/l;->c:Lcom/commsource/easyeditor/utils/opengl/m;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -213,10 +192,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/d1/g/l;->d:Ljava/nio/ByteBuffer;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -231,12 +208,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget v1, p0, Lcom/commsource/camera/d1/g/l;->a:I
 
@@ -250,10 +225,8 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/graphics/Bitmap;->copyPixelsToBuffer(Ljava/nio/Buffer;)V
 
-    .line 4
     iget p1, p0, Lcom/commsource/camera/d1/g/l;->a:I
 
     iget v2, p0, Lcom/commsource/camera/d1/g/l;->b:I
@@ -266,7 +239,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/d1/g/l;->d:Ljava/nio/ByteBuffer;
 
-    .line 5
     iget v2, p0, Lcom/commsource/camera/d1/g/l;->a:I
 
     mul-int/lit8 v3, v2, 0x4
@@ -275,10 +247,8 @@
 
     invoke-static {v1, v3, p1, v2, v4}, Lcom/meitu/library/camera/yuvutil/YuvUtils;->h(Ljava/nio/ByteBuffer;ILjava/nio/ByteBuffer;II)V
 
-    .line 6
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -291,10 +261,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/d1/g/l;->b:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -307,7 +275,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/easyeditor/utils/opengl/m;
 
     iget v2, p0, Lcom/commsource/camera/d1/g/l;->a:I
@@ -318,7 +285,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/d1/g/l;->c:Lcom/commsource/easyeditor/utils/opengl/m;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -331,10 +297,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/d1/g/l;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -347,17 +311,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/l;->e:Landroid/graphics/Bitmap;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {v1}, Lcom/commsource/easyeditor/utils/opengl/n;->j(Landroid/graphics/Bitmap;)Lcom/commsource/easyeditor/utils/opengl/m;
 
@@ -367,10 +328,8 @@
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcom/commsource/camera/d1/g/l;->e:Landroid/graphics/Bitmap;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

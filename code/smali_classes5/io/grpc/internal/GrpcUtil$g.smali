@@ -27,12 +27,10 @@
 .method private constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "userAgentName"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -43,7 +41,6 @@
 
     const-string p1, "implementationVersion"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -58,7 +55,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;Lio/grpc/internal/GrpcUtil$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/internal/GrpcUtil$g;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -69,7 +65,6 @@
 .method public a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/GrpcUtil$g;->b:Ljava/lang/String;
 
     return-object v0
@@ -78,7 +73,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/GrpcUtil$g;->a:Ljava/lang/String;
 
     return-object v0
@@ -87,7 +81,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

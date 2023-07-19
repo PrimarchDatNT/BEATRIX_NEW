@@ -35,14 +35,12 @@
 
     const-string v1, "^[^:]+:([0-9]+):(android|ios|web):([0-9a-f]+)"
 
-    .line 1
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
 
     sput-object v1, Lf/k/g0/b;->d:Ljava/util/regex/Pattern;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -59,10 +57,8 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lf/k/g0/b;->k(Ljava/lang/String;)Z
 
     move-result v0
@@ -73,10 +69,8 @@
 
     invoke-static {v0, v1}, Lf/k/g0/f/d;->d(ZLjava/lang/String;)V
 
-    .line 4
     iput-object p1, p0, Lf/k/g0/b;->a:Ljava/lang/String;
 
-    .line 5
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -85,7 +79,6 @@
 
     const-string p2, "https://api-remote.meitu.com"
 
-    .line 6
     iput-object p2, p0, Lf/k/g0/b;->b:Ljava/lang/String;
 
     goto :goto_0
@@ -93,17 +86,14 @@
     :cond_0
     const-string v0, "/"
 
-    .line 7
     invoke-virtual {p2, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 8
     iput-object p2, p0, Lf/k/g0/b;->b:Ljava/lang/String;
 
-    .line 9
     :goto_0
     invoke-static {p1}, Lf/k/g0/b;->f(Ljava/lang/String;)Ljava/lang/String;
 
@@ -113,7 +103,6 @@
 
     return-void
 
-    .line 10
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -127,7 +116,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;Lf/k/g0/b$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lf/k/g0/b;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -140,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/g0/b;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/g0/b;->d(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -172,19 +158,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -204,19 +187,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -244,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -266,14 +245,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/g0/b;->d:Ljava/util/regex/Pattern;
 
     invoke-virtual {v1, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/util/regex/Matcher;->matches()Z
 
     move-result v1
@@ -310,7 +287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
@@ -319,7 +295,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -328,7 +303,6 @@
     :try_start_0
     const-string v1, "meitu_remote_app_id"
 
-    .line 3
     invoke-static {p0, v1}, Lf/k/g0/e/e/f;->c(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -338,7 +312,6 @@
     :try_start_1
     const-string v3, "meitu_remote_base_url"
 
-    .line 4
     invoke-static {p0, v3}, Lf/k/g0/e/e/f;->c(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -350,7 +323,6 @@
     :catch_0
     move-object p0, v2
 
-    .line 5
     :goto_0
     :try_start_2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -361,12 +333,10 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 7
     :cond_1
     :try_start_3
     new-instance v3, Lf/k/g0/b;
@@ -379,7 +349,6 @@
 
     return-object v3
 
-    .line 8
     :catch_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -399,7 +368,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p0
@@ -438,7 +406,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/b;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -455,7 +422,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/b;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -478,7 +444,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/b;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

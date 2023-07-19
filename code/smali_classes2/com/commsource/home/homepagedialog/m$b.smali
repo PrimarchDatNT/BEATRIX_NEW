@@ -50,7 +50,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/homepagedialog/m$b;->a:Lcom/commsource/home/homepagedialog/m;
 
     const/4 v1, 0x0

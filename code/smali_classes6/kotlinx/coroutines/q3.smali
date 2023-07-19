@@ -41,7 +41,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/q3;->b:Lcotlinx/coroutines/q3$a;
 
     invoke-direct {p0, v0}, Lcotlin/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext$b;)V

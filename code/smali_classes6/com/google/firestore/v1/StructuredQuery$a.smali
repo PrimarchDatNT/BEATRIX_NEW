@@ -26,7 +26,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     invoke-static {}, Lcom/google/firestore/v1/StructuredQuery$UnaryFilter$OperandTypeCase;->values()[Lcom/google/firestore/v1/StructuredQuery$UnaryFilter$OperandTypeCase;
 
     move-result-object v0
@@ -66,7 +65,6 @@
     :try_end_1
     .catch Ljava/lang/NoSuchFieldError; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 2
     :catch_1
     invoke-static {}, Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;->values()[Lcom/google/firestore/v1/StructuredQuery$Filter$FilterTypeCase;
 
@@ -135,7 +133,6 @@
     :try_end_5
     .catch Ljava/lang/NoSuchFieldError; {:try_start_5 .. :try_end_5} :catch_5
 
-    .line 3
     :catch_5
     invoke-static {}, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->values()[Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 

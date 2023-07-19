@@ -78,13 +78,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/mobileads/VastLinearXmlManager;->mLinearNode:Lorg/w3c/dom/Node;
 
     return-void
@@ -114,15 +111,12 @@
 
     const-string v0, "trackers cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "urls cannot be null"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -140,7 +134,6 @@
 
     check-cast v0, Ljava/lang/String;
 
-    .line 4
     new-instance v1, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;
 
     invoke-direct {v1, v0, p3}, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;-><init>(Ljava/lang/String;F)V
@@ -177,15 +170,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     iget-object v1, p0, Lcom/mopub/mobileads/VastLinearXmlManager;->mLinearNode:Lorg/w3c/dom/Node;
 
     const-string v2, "TrackingEvents"
@@ -198,7 +188,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     invoke-static {p1}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
@@ -208,12 +197,10 @@
 
     const-string v3, "event"
 
-    .line 5
     invoke-static {v1, v2, v3, p1}, Lcom/mopub/mobileads/util/XmlUtils;->getMatchingChildNodes(Lorg/w3c/dom/Node;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 6
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -232,14 +219,12 @@
 
     check-cast v1, Lorg/w3c/dom/Node;
 
-    .line 7
     invoke-static {v1}, Lcom/mopub/mobileads/util/XmlUtils;->getNodeValue(Lorg/w3c/dom/Node;)Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -268,12 +253,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoTrackersByAttribute(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
@@ -282,7 +265,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -300,7 +282,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 4
     new-instance v2, Lcom/mopub/mobileads/VastTracker$Builder;
 
     invoke-direct {v2, v1}, Lcom/mopub/mobileads/VastTracker$Builder;-><init>(Ljava/lang/String;)V
@@ -333,19 +314,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     const-string v1, "start"
 
-    .line 2
     invoke-direct {p0, v1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoTrackersByAttribute(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -365,22 +343,18 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 4
     new-instance v4, Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Builder;
 
     invoke-direct {v4, v2, v3}, Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Builder;-><init>(Ljava/lang/String;I)V
 
-    .line 5
     invoke-virtual {v4}, Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Builder;->build()Lcom/mopub/mobileads/VastAbsoluteProgressTracker;
 
     move-result-object v2
 
-    .line 6
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/mopub/mobileads/VastLinearXmlManager;->mLinearNode:Lorg/w3c/dom/Node;
 
@@ -394,7 +368,6 @@
 
     const-string v2, "progress"
 
-    .line 8
     invoke-static {v2}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
@@ -403,12 +376,10 @@
 
     const-string v5, "event"
 
-    .line 9
     invoke-static {v1, v4, v5, v2}, Lcom/mopub/mobileads/util/XmlUtils;->getMatchingChildNodes(Lorg/w3c/dom/Node;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 10
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -429,7 +400,6 @@
 
     const-string v7, "offset"
 
-    .line 11
     invoke-static {v6, v7}, Lcom/mopub/mobileads/util/XmlUtils;->getAttributeValue(Lorg/w3c/dom/Node;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
@@ -438,13 +408,11 @@
 
     goto :goto_1
 
-    .line 12
     :cond_2
     invoke-virtual {v7}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 13
     sget-object v8, Lcom/mopub/mobileads/VastAbsoluteProgressTracker;->Companion:Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Companion;
 
     invoke-virtual {v8, v7}, Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Companion;->isAbsoluteTracker(Ljava/lang/String;)Z
@@ -453,12 +421,10 @@
 
     if-eqz v9, :cond_1
 
-    .line 14
     invoke-static {v6}, Lcom/mopub/mobileads/util/XmlUtils;->getNodeValue(Lorg/w3c/dom/Node;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 15
     :try_start_0
     invoke-virtual {v8, v7}, Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Companion;->parseAbsoluteOffset(Ljava/lang/String;)Ljava/lang/Integer;
 
@@ -466,14 +432,12 @@
 
     if-eqz v8, :cond_1
 
-    .line 16
     invoke-virtual {v8}, Ljava/lang/Integer;->intValue()I
 
     move-result v9
 
     if-ltz v9, :cond_1
 
-    .line 17
     new-instance v9, Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Builder;
 
     invoke-virtual {v8}, Ljava/lang/Integer;->intValue()I
@@ -492,7 +456,6 @@
 
     goto :goto_1
 
-    .line 18
     :catch_0
     sget-object v6, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -519,17 +482,14 @@
     :cond_3
     const-string v2, "creativeView"
 
-    .line 19
     invoke-static {v2}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 20
     invoke-static {v1, v4, v5, v2}, Lcom/mopub/mobileads/util/XmlUtils;->getMatchingChildNodes(Lorg/w3c/dom/Node;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Ljava/util/List;
 
     move-result-object v1
 
-    .line 21
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -548,29 +508,24 @@
 
     check-cast v2, Lorg/w3c/dom/Node;
 
-    .line 22
     invoke-static {v2}, Lcom/mopub/mobileads/util/XmlUtils;->getNodeValue(Lorg/w3c/dom/Node;)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_4
 
-    .line 23
     new-instance v4, Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Builder;
 
     invoke-direct {v4, v2, v3}, Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Builder;-><init>(Ljava/lang/String;I)V
 
-    .line 24
     invoke-virtual {v4}, Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Builder;->build()Lcom/mopub/mobileads/VastAbsoluteProgressTracker;
 
     move-result-object v2
 
-    .line 25
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_2
 
-    .line 26
     :cond_5
     invoke-static {v0}, Ljava/util/Collections;->sort(Ljava/util/List;)V
 
@@ -582,7 +537,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastLinearXmlManager;->mLinearNode:Lorg/w3c/dom/Node;
 
     const-string v1, "VideoClicks"
@@ -600,7 +554,6 @@
     :cond_0
     const-string v1, "ClickThrough"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/mopub/mobileads/util/XmlUtils;->getFirstMatchingChildNode(Lorg/w3c/dom/Node;Ljava/lang/String;)Lorg/w3c/dom/Node;
 
     move-result-object v0
@@ -626,12 +579,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mobileads/VastLinearXmlManager;->mLinearNode:Lorg/w3c/dom/Node;
 
     const-string v2, "VideoClicks"
@@ -647,12 +598,10 @@
     :cond_0
     const-string v2, "ClickTracking"
 
-    .line 3
     invoke-static {v1, v2}, Lcom/mopub/mobileads/util/XmlUtils;->getMatchingChildNodes(Lorg/w3c/dom/Node;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -671,14 +620,12 @@
 
     check-cast v2, Lorg/w3c/dom/Node;
 
-    .line 5
     invoke-static {v2}, Lcom/mopub/mobileads/util/XmlUtils;->getNodeValue(Lorg/w3c/dom/Node;)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_1
 
-    .line 6
     new-instance v3, Lcom/mopub/mobileads/VastTracker$Builder;
 
     invoke-direct {v3, v2}, Lcom/mopub/mobileads/VastTracker$Builder;-><init>(Ljava/lang/String;)V
@@ -709,14 +656,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     const-string v1, "firstQuartile"
 
-    .line 2
     invoke-direct {p0, v1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoTrackersByAttribute(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
@@ -727,7 +672,6 @@
 
     const-string v1, "midpoint"
 
-    .line 3
     invoke-direct {p0, v1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoTrackersByAttribute(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
@@ -738,7 +682,6 @@
 
     const-string v1, "thirdQuartile"
 
-    .line 4
     invoke-direct {p0, v1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoTrackersByAttribute(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
@@ -747,7 +690,6 @@
 
     invoke-direct {p0, v0, v1, v2}, Lcom/mopub/mobileads/VastLinearXmlManager;->addQuartileTrackerWithFraction(Ljava/util/List;Ljava/util/List;F)V
 
-    .line 5
     iget-object v1, p0, Lcom/mopub/mobileads/VastLinearXmlManager;->mLinearNode:Lorg/w3c/dom/Node;
 
     const-string v2, "TrackingEvents"
@@ -760,7 +702,6 @@
 
     const-string v2, "progress"
 
-    .line 6
     invoke-static {v2}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
@@ -769,12 +710,10 @@
 
     const-string v4, "event"
 
-    .line 7
     invoke-static {v1, v3, v4, v2}, Lcom/mopub/mobileads/util/XmlUtils;->getMatchingChildNodes(Lorg/w3c/dom/Node;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Ljava/util/List;
 
     move-result-object v1
 
-    .line 8
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -795,7 +734,6 @@
 
     const-string v3, "offset"
 
-    .line 9
     invoke-static {v2, v3}, Lcom/mopub/mobileads/util/XmlUtils;->getAttributeValue(Lorg/w3c/dom/Node;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -804,13 +742,11 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     invoke-virtual {v3}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 11
     sget-object v4, Lcom/mopub/mobileads/VastFractionalProgressTracker;->Companion:Lcom/mopub/mobileads/VastFractionalProgressTracker$Companion;
 
     invoke-virtual {v4, v3}, Lcom/mopub/mobileads/VastFractionalProgressTracker$Companion;->isPercentageTracker(Ljava/lang/String;)Z
@@ -819,7 +755,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 12
     invoke-static {v2}, Lcom/mopub/mobileads/util/XmlUtils;->getNodeValue(Lorg/w3c/dom/Node;)Ljava/lang/String;
 
     move-result-object v2
@@ -829,7 +764,6 @@
 
     const-string v5, ""
 
-    .line 13
     invoke-virtual {v3, v4, v5}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v4
@@ -848,24 +782,20 @@
 
     if-ltz v5, :cond_0
 
-    .line 14
     new-instance v5, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;
 
     invoke-direct {v5, v2, v4}, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;-><init>(Ljava/lang/String;F)V
 
-    .line 15
     invoke-virtual {v5}, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;->build()Lcom/mopub/mobileads/VastFractionalProgressTracker;
 
     move-result-object v2
 
-    .line 16
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
     :try_end_0
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
-    .line 17
     :catch_0
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -891,7 +821,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_2
     invoke-static {v0}, Ljava/util/Collections;->sort(Ljava/util/List;)V
 
@@ -912,12 +841,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mobileads/VastLinearXmlManager;->mLinearNode:Lorg/w3c/dom/Node;
 
     const-string v2, "Icons"
@@ -933,12 +860,10 @@
     :cond_0
     const-string v2, "Icon"
 
-    .line 3
     invoke-static {v1, v2}, Lcom/mopub/mobileads/util/XmlUtils;->getMatchingChildNodes(Lorg/w3c/dom/Node;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -956,7 +881,6 @@
 
     check-cast v2, Lorg/w3c/dom/Node;
 
-    .line 5
     new-instance v3, Lcom/mopub/mobileads/VastIconXmlManager;
 
     invoke-direct {v3, v2}, Lcom/mopub/mobileads/VastIconXmlManager;-><init>(Lorg/w3c/dom/Node;)V
@@ -983,12 +907,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mobileads/VastLinearXmlManager;->mLinearNode:Lorg/w3c/dom/Node;
 
     const-string v2, "MediaFiles"
@@ -1004,12 +926,10 @@
     :cond_0
     const-string v2, "MediaFile"
 
-    .line 3
     invoke-static {v1, v2}, Lcom/mopub/mobileads/util/XmlUtils;->getMatchingChildNodes(Lorg/w3c/dom/Node;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1027,7 +947,6 @@
 
     check-cast v2, Lorg/w3c/dom/Node;
 
-    .line 5
     new-instance v3, Lcom/mopub/mobileads/VastMediaXmlManager;
 
     invoke-direct {v3, v2}, Lcom/mopub/mobileads/VastMediaXmlManager;-><init>(Lorg/w3c/dom/Node;)V
@@ -1056,17 +975,14 @@
 
     const-string v0, "pause"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoTrackersByAttribute(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -1084,7 +1000,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 4
     new-instance v3, Lcom/mopub/mobileads/VastTracker$Builder;
 
     invoke-direct {v3, v2}, Lcom/mopub/mobileads/VastTracker$Builder;-><init>(Ljava/lang/String;)V
@@ -1123,17 +1038,14 @@
 
     const-string v0, "resume"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoTrackersByAttribute(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -1151,7 +1063,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 4
     new-instance v3, Lcom/mopub/mobileads/VastTracker$Builder;
 
     invoke-direct {v3, v2}, Lcom/mopub/mobileads/VastTracker$Builder;-><init>(Ljava/lang/String;)V
@@ -1179,7 +1090,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastLinearXmlManager;->mLinearNode:Lorg/w3c/dom/Node;
 
     const-string v1, "skipoffset"
@@ -1194,7 +1104,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
@@ -1208,7 +1117,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
@@ -1233,14 +1141,12 @@
 
     const-string v0, "close"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoTrackersByAttributeAsVastTrackers(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
     const-string v1, "closeLinear"
 
-    .line 2
     invoke-direct {p0, v1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoTrackersByAttributeAsVastTrackers(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
@@ -1266,7 +1172,6 @@
 
     const-string v0, "complete"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoTrackersByAttributeAsVastTrackers(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
@@ -1290,7 +1195,6 @@
 
     const-string v0, "skip"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoTrackersByAttributeAsVastTrackers(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0

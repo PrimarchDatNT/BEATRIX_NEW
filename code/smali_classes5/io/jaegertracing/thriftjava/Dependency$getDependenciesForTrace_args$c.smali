@@ -26,7 +26,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/scheme/TupleScheme;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 .method synthetic constructor <init>(Lio/jaegertracing/thriftjava/Dependency$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args$c;-><init>()V
 
     return-void
@@ -51,10 +49,8 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lorg/apache/thrift/protocol/TTupleProtocol;
 
-    .line 2
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->readString()Ljava/lang/String;
 
     move-result-object p1
@@ -63,7 +59,6 @@
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-virtual {p2, p1}, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args;->setTraceIdIsSet(Z)V
 
     return-void
@@ -77,10 +72,8 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lorg/apache/thrift/protocol/TTupleProtocol;
 
-    .line 2
     iget-object p2, p2, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args;->traceId:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeString(Ljava/lang/String;)V
@@ -96,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args$c;->a(Lorg/apache/thrift/protocol/TProtocol;Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args;)V
@@ -112,7 +104,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args$c;->b(Lorg/apache/thrift/protocol/TProtocol;Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args;)V

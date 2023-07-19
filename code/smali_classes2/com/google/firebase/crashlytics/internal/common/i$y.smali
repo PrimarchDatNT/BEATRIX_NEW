@@ -29,10 +29,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v1, 0x1
@@ -47,7 +45,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/crashlytics/internal/common/i$k;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/common/i$y;-><init>()V
 
     return-void
@@ -60,21 +57,18 @@
 
     const-string p1, "name"
 
-    .line 1
     invoke-virtual {p2, p1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     const-string p2, "_ae"
 
-    .line 2
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$y;->a:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
@@ -91,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v0
@@ -100,7 +93,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/i$y;->a:Ljava/util/concurrent/CountDownLatch;
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
@@ -113,7 +105,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v0
@@ -124,7 +115,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
@@ -132,7 +122,6 @@
 
     const-string v1, "Timeout exceeded while awaiting app exception callback from FA listener."
 
-    .line 5
     invoke-virtual {v0, v1}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
     :goto_0

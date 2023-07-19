@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$b;->a:Lcom/commsource/studio/function/background/BackgroundFragment;
 
     invoke-direct {p0, p2}, Landroidx/viewpager2/adapter/FragmentStateAdapter;-><init>(Landroidx/fragment/app/Fragment;)V
@@ -51,20 +50,17 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance p1, Lcom/commsource/studio/function/background/BackgroundTextureFragment;
 
     invoke-direct {p1}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;-><init>()V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-direct {p1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;-><init>()V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -78,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x2

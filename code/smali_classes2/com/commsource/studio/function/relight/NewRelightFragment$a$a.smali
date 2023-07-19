@@ -60,12 +60,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {v1}, Lf/d/i/e;->M1(Z)Z
 
     move-result v2
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -74,7 +72,6 @@
 
     move-result v1
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -107,21 +104,18 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Relight:Lcom/commsource/studio/sub/SubModuleEnum;
 
     sget v2, Lcom/res/provider/ResSTRING;->t_highlight:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sub/SubModuleEnum;->setModuleName(I)V
 
-    .line 5
     const-class v2, Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sub/SubModuleEnum;->setFragmentClass(Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Relight:Lcom/commsource/studio/sub/SubModuleEnum;
 
@@ -129,12 +123,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sub/SubModuleEnum;->setModuleName(I)V
 
-    .line 7
     const-class v2, Lcom/commsource/studio/function/RelightFragment;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sub/SubModuleEnum;->setFragmentClass(Ljava/lang/Class;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

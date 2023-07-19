@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/commsource/beautymain/widget/gesturewidget/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$a;->d:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     invoke-direct {p0}, Lcom/bumptech/glide/request/j/n;-><init>()V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/j$a;->c(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/k/f;)V
@@ -74,14 +72,12 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$a;->d:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     check-cast p1, Lcom/bumptech/glide/integration/webp/decoder/k;
 
     invoke-static {v0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->b(Lcom/commsource/beautymain/widget/gesturewidget/j;Lcom/bumptech/glide/integration/webp/decoder/k;)Lcom/bumptech/glide/integration/webp/decoder/k;
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$a;->d:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->a(Lcom/commsource/beautymain/widget/gesturewidget/j;)Lcom/bumptech/glide/integration/webp/decoder/k;
@@ -94,7 +90,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$a;->d:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->a(Lcom/commsource/beautymain/widget/gesturewidget/j;)Lcom/bumptech/glide/integration/webp/decoder/k;
@@ -103,7 +98,6 @@
 
     invoke-virtual {p1}, Lcom/bumptech/glide/integration/webp/decoder/k;->stop()V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$a;->d:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
@@ -115,7 +109,6 @@
 
     invoke-virtual {p1, v0}, Lcom/bumptech/glide/integration/webp/decoder/k;->s(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$a;->d:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->a(Lcom/commsource/beautymain/widget/gesturewidget/j;)Lcom/bumptech/glide/integration/webp/decoder/k;
@@ -128,7 +121,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->c(Lcom/commsource/beautymain/widget/gesturewidget/j;I)I
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$a;->d:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->a(Lcom/commsource/beautymain/widget/gesturewidget/j;)Lcom/bumptech/glide/integration/webp/decoder/k;
@@ -141,7 +133,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->d(Lcom/commsource/beautymain/widget/gesturewidget/j;I)I
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$a;->d:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->a(Lcom/commsource/beautymain/widget/gesturewidget/j;)Lcom/bumptech/glide/integration/webp/decoder/k;
@@ -154,7 +145,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/drawable/Drawable;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$a;->d:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->e(Lcom/commsource/beautymain/widget/gesturewidget/j;)Z
@@ -163,7 +153,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$a;->d:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->a(Lcom/commsource/beautymain/widget/gesturewidget/j;)Lcom/bumptech/glide/integration/webp/decoder/k;
@@ -174,7 +163,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/j$a;->d:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
@@ -186,7 +174,6 @@
 
     invoke-virtual {p1, v1, v0}, Lcom/bumptech/glide/integration/webp/decoder/k;->setVisible(ZZ)Z
 
-    .line 11
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

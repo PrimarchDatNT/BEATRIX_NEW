@@ -21,10 +21,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
@@ -41,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->Q:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -56,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->P:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -71,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->b1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -86,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->N:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->O:Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->Y0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +125,6 @@
 
     sget v1, Lcom/res/provider/ResID;->iv_back:I
 
-    .line 1
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -144,7 +135,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -157,24 +147,19 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->Q:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->P:Landroid/os/Handler;
 
     invoke-virtual {v1, v0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->Y0()V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -187,13 +172,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->Y0()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -206,13 +188,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->Y0()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->b1()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -225,20 +204,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->O:Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;->destroy()V
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->O:Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -252,7 +227,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/p/h/a;->c(Landroid/content/Context;)I
 
     move-result v1
@@ -261,15 +235,12 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->b1()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-static {p0}, Lf/d/i/n;->o0(Landroid/content/Context;)I
 
@@ -287,16 +258,13 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {p0, v4}, Lf/d/i/n;->Z1(Landroid/content/Context;I)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->c1()V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
 
@@ -304,10 +272,8 @@
 
     invoke-static {v1, v4}, Lf/d/i/n;->Z1(Landroid/content/Context;I)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->c1()V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -321,21 +287,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/widget/dialog/s0/t;->L(Landroid/content/Context;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/dialog/s0/t$a;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
     sget v2, Lcom/res/provider/ResSTRING;->failed_to_load:I
 
-    .line 3
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -346,7 +309,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
-    .line 4
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -357,7 +319,6 @@
 
     const/4 v2, 0x1
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/s0/t$a;->p(Z)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v1
@@ -366,20 +327,16 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/advertisiting/a;-><init>(Lcom/commsource/advertisiting/ImageShareAdvertActivity;)V
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/s0/t$a;->r(Lcom/commsource/widget/dialog/s0/w;)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -395,7 +352,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->ad_slot_selfie_save_icon:I
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -406,35 +362,30 @@
 
     iput-object v1, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->O:Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;
 
-    .line 2
     new-instance v2, Lcom/commsource/advertisiting/ImageShareAdvertActivity$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity$a;-><init>(Lcom/commsource/advertisiting/ImageShareAdvertActivity;)V
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setOnAdListener(Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->O:Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;->preload(Z)V
 
-    .line 4
     new-instance v1, Lcom/commsource/advertisiting/b;
 
     invoke-direct {v1, p0}, Lcom/commsource/advertisiting/b;-><init>(Lcom/commsource/advertisiting/ImageShareAdvertActivity;)V
 
     iput-object v1, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->Q:Ljava/lang/Runnable;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->P:Landroid/os/Handler;
 
     const-wide/16 v3, 0x1388
 
     invoke-virtual {v2, v1, v3, v4}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -473,27 +424,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/activity/ComponentActivity;->onBackPressed()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->Q:Ljava/lang/Runnable;
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->P:Landroid/os/Handler;
 
     invoke-virtual {v2, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->Y0()V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -506,21 +451,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->advert_image_share_activity_layout:I
 
-    .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->R0()V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->Z0()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -533,10 +473,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onResume()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->N:Z
 
     if-nez v1, :cond_0
@@ -553,15 +491,12 @@
 
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->N:Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->O:Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;
 
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;->show()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -15,10 +15,8 @@
 .method public constructor <init>(Lcom/kwai/koom/javaoom/common/KHeapFile;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/kwai/koom/javaoom/analysis/l;
 
     iget-object p1, p1, Lcom/kwai/koom/javaoom/common/KHeapFile;->a:Lcom/kwai/koom/javaoom/common/KHeapFile$Hprof;
@@ -39,10 +37,8 @@
 
     const-string v1, "analyze"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/kwai/koom/javaoom/common/e;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/kwai/koom/javaoom/analysis/h;->a:Lcom/kwai/koom/javaoom/analysis/l;
 
     invoke-virtual {v0}, Lcom/kwai/koom/javaoom/analysis/l;->c()Landroid/util/Pair;
@@ -55,7 +51,6 @@
 
     return v0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/kwai/koom/javaoom/analysis/h;->a:Lcom/kwai/koom/javaoom/analysis/l;
 
@@ -63,7 +58,6 @@
 
     invoke-static {v0, v1}, Lcom/kwai/koom/javaoom/report/d;->h(Landroid/util/Pair;Ljava/util/Map;)V
 
-    .line 4
     invoke-static {}, Lcom/kwai/koom/javaoom/report/d;->l()V
 
     const/4 v0, 0x1

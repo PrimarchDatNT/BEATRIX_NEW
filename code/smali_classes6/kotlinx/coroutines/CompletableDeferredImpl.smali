@@ -33,10 +33,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, v0}, Lcotlinx/coroutines/JobSupport;-><init>(Z)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/JobSupport;->G0(Lcotlinx/coroutines/c2;)V
 
     return-void
@@ -60,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/JobSupport;->O0(Ljava/lang/Object;)Z
 
     move-result p1
@@ -91,7 +88,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/z;
 
     const/4 v1, 0x0
@@ -117,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/JobSupport;->u0()Ljava/lang/Object;
 
     move-result-object v0
@@ -151,7 +146,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/JobSupport;->b1(Lcotlinx/coroutines/selects/f;Lcotlin/jvm/u/p;)V
 
     return-void
@@ -209,7 +203,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/CompletableDeferredImpl$await$1;->label:I
 
     const/4 v3, 0x1

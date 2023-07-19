@@ -20,7 +20,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/ClientMetadata;->getInstance()Lcom/mopub/common/ClientMetadata;
 
     move-result-object v0
@@ -44,18 +42,15 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lcom/mopub/common/ClientMetadata;->getMoPubIdentifier()Lcom/mopub/common/privacy/MoPubIdentifier;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0}, Lcom/mopub/common/privacy/MoPubIdentifier;->getAdvertisingInfo()Lcom/mopub/common/privacy/AdvertisingId;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/mopub/common/privacy/AdvertisingId;->isDoNotTrack()Z
 
     move-result v1
@@ -76,7 +71,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {v0}, Lcom/mopub/common/privacy/AdvertisingId;->isDoNotTrack()Z
 
     move-result v1
@@ -97,7 +91,6 @@
 
     move-result-object p1
 
-    .line 6
     invoke-static {}, Lcom/mopub/common/MoPub;->canCollectPersonalInformation()Z
 
     move-result v1
@@ -112,7 +105,6 @@
 
     const/4 v1, 0x1
 
-    .line 7
     invoke-virtual {v0, v1}, Lcom/mopub/common/privacy/AdvertisingId;->getIdentifier(Z)Ljava/lang/String;
 
     move-result-object v1
@@ -134,7 +126,6 @@
 
     const-string v2, ""
 
-    .line 8
     invoke-virtual {p1, v1, v2}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object p1
@@ -142,7 +133,6 @@
     :goto_2
     const/4 v1, 0x0
 
-    .line 9
     invoke-virtual {v0, v1}, Lcom/mopub/common/privacy/AdvertisingId;->getIdentifier(Z)Ljava/lang/String;
 
     move-result-object v0

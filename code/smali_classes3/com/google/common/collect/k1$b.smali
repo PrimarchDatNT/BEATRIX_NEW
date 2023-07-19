@@ -56,20 +56,16 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 3
     iput v0, p0, Lcom/google/common/collect/k1$b;->b:I
 
     const v0, 0x7fffffff
 
-    .line 4
     iput v0, p0, Lcom/google/common/collect/k1$b;->c:I
 
-    .line 5
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -84,7 +80,6 @@
 .method synthetic constructor <init>(Ljava/util/Comparator;Lcom/google/common/collect/k1$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/k1$b;-><init>(Ljava/util/Comparator;)V
 
     return-void
@@ -93,7 +88,6 @@
 .method static synthetic a(Lcom/google/common/collect/k1$b;)Lcom/google/common/collect/Ordering;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/k1$b;->g()Lcom/google/common/collect/Ordering;
 
     move-result-object p0
@@ -104,7 +98,6 @@
 .method static synthetic b(Lcom/google/common/collect/k1$b;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/common/collect/k1$b;->c:I
 
     return p0
@@ -120,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/k1$b;->a:Ljava/util/Comparator;
 
     invoke-static {v0}, Lcom/google/common/collect/Ordering;->from(Ljava/util/Comparator;)Lcom/google/common/collect/Ordering;
@@ -142,7 +134,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
     move-result-object v0
@@ -166,14 +157,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/k1;
 
     iget v1, p0, Lcom/google/common/collect/k1$b;->b:I
 
     iget v2, p0, Lcom/google/common/collect/k1$b;->c:I
 
-    .line 2
     invoke-static {v1, v2, p1}, Lcom/google/common/collect/k1;->v(IILjava/lang/Iterable;)I
 
     move-result v1
@@ -182,7 +171,6 @@
 
     invoke-direct {v0, p0, v1, v2}, Lcom/google/common/collect/k1;-><init>(Lcom/google/common/collect/k1$b;ILcom/google/common/collect/k1$a;)V
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -198,7 +186,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/google/common/collect/k1;->offer(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -229,11 +216,9 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     iput p1, p0, Lcom/google/common/collect/k1$b;->b:I
 
     return-object p0
@@ -261,11 +246,9 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     iput p1, p0, Lcom/google/common/collect/k1$b;->c:I
 
     return-object p0

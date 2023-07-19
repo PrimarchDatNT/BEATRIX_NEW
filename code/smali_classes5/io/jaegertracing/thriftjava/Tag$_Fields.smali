@@ -65,7 +65,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     const-string v1, "KEY"
@@ -80,7 +79,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag$_Fields;->KEY:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
-    .line 2
     new-instance v1, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     const-string v4, "V_TYPE"
@@ -93,7 +91,6 @@
 
     sput-object v1, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_TYPE:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
-    .line 3
     new-instance v4, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     const-string v6, "V_STR"
@@ -106,7 +103,6 @@
 
     sput-object v4, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_STR:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
-    .line 4
     new-instance v6, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     const-string v8, "V_DOUBLE"
@@ -119,7 +115,6 @@
 
     sput-object v6, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_DOUBLE:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
-    .line 5
     new-instance v8, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     const-string v10, "V_BOOL"
@@ -132,7 +127,6 @@
 
     sput-object v8, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_BOOL:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
-    .line 6
     new-instance v10, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     const-string v12, "V_LONG"
@@ -145,7 +139,6 @@
 
     sput-object v10, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_LONG:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
-    .line 7
     new-instance v12, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     const-string v14, "V_BINARY"
@@ -176,17 +169,14 @@
 
     aput-object v12, v11, v13
 
-    .line 8
     sput-object v11, Lio/jaegertracing/thriftjava/Tag$_Fields;->$VALUES:[Lio/jaegertracing/thriftjava/Tag$_Fields;
 
-    .line 9
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag$_Fields;->byName:Ljava/util/Map;
 
-    .line 10
     const-class v0, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     invoke-static {v0}, Ljava/util/EnumSet;->allOf(Ljava/lang/Class;)Ljava/util/EnumSet;
@@ -210,7 +200,6 @@
 
     check-cast v1, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
-    .line 11
     sget-object v2, Lio/jaegertracing/thriftjava/Tag$_Fields;->byName:Ljava/util/Map;
 
     invoke-virtual {v1}, Lio/jaegertracing/thriftjava/Tag$_Fields;->getFieldName()Ljava/lang/String;
@@ -235,13 +224,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-short p3, p0, Lio/jaegertracing/thriftjava/Tag$_Fields;->_thriftId:S
 
-    .line 3
     iput-object p4, p0, Lio/jaegertracing/thriftjava/Tag$_Fields;->_fieldName:Ljava/lang/String;
 
     return-void
@@ -250,7 +236,6 @@
 .method public static findByName(Ljava/lang/String;)Lio/jaegertracing/thriftjava/Tag$_Fields;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Tag$_Fields;->byName:Ljava/util/Map;
 
     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -271,43 +256,36 @@
 
     return-object p0
 
-    .line 1
     :pswitch_0
     sget-object p0, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_BINARY:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     return-object p0
 
-    .line 2
     :pswitch_1
     sget-object p0, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_LONG:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     return-object p0
 
-    .line 3
     :pswitch_2
     sget-object p0, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_BOOL:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     return-object p0
 
-    .line 4
     :pswitch_3
     sget-object p0, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_DOUBLE:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     return-object p0
 
-    .line 5
     :pswitch_4
     sget-object p0, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_STR:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     return-object p0
 
-    .line 6
     :pswitch_5
     sget-object p0, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_TYPE:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     return-object p0
 
-    .line 7
     :pswitch_6
     sget-object p0, Lio/jaegertracing/thriftjava/Tag$_Fields;->KEY:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
@@ -328,7 +306,6 @@
 .method public static findByThriftIdOrThrow(I)Lio/jaegertracing/thriftjava/Tag$_Fields;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lio/jaegertracing/thriftjava/Tag$_Fields;->findByThriftId(I)Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     move-result-object v0
@@ -337,7 +314,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -367,7 +343,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/jaegertracing/thriftjava/Tag$_Fields;
     .locals 1
 
-    .line 1
     const-class v0, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -382,7 +357,6 @@
 .method public static values()[Lio/jaegertracing/thriftjava/Tag$_Fields;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Tag$_Fields;->$VALUES:[Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     invoke-virtual {v0}, [Lio/jaegertracing/thriftjava/Tag$_Fields;->clone()Ljava/lang/Object;
@@ -399,7 +373,6 @@
 .method public getFieldName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag$_Fields;->_fieldName:Ljava/lang/String;
 
     return-object v0
@@ -408,7 +381,6 @@
 .method public getThriftFieldId()S
     .locals 1
 
-    .line 1
     iget-short v0, p0, Lio/jaegertracing/thriftjava/Tag$_Fields;->_thriftId:S
 
     return v0

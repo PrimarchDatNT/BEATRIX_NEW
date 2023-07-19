@@ -19,14 +19,12 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/ug1;Lorg/json/JSONObject;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/zh0;-><init>(Lcom/google/android/gms/internal/ads/ug1;)V
 
     const-string p1, "tracking_urls_and_actions"
 
     const-string v0, "active_view"
 
-    .line 2
     filled-new-array {p1, v0}, [Ljava/lang/String;
 
     move-result-object p1
@@ -39,7 +37,6 @@
 
     const-string p1, "allow_pub_owned_ad_view"
 
-    .line 3
     filled-new-array {p1}, [Ljava/lang/String;
 
     move-result-object p1
@@ -56,12 +53,10 @@
 
     const-string v1, "allow_pub_rendering"
 
-    .line 4
     filled-new-array {p1, v1}, [Ljava/lang/String;
 
     move-result-object p1
 
-    .line 5
     invoke-static {v0, p2, p1}, Lcom/google/android/gms/internal/ads/vo;->i(ZLorg/json/JSONObject;[Ljava/lang/String;)Z
 
     move-result p1
@@ -70,7 +65,6 @@
 
     const-string p1, "enable_omid"
 
-    .line 6
     filled-new-array {p1}, [Ljava/lang/String;
 
     move-result-object p1
@@ -85,7 +79,6 @@
 
     const-string p1, "overlay"
 
-    .line 7
     invoke-virtual {p2, p1}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -105,7 +98,6 @@
 .method public final a()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/ci0;->e:Z
 
     return v0
@@ -114,14 +106,12 @@
 .method public final b()Lorg/json/JSONObject;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ci0;->b:Lorg/json/JSONObject;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
@@ -145,7 +135,6 @@
 .method public final c()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/ci0;->f:Z
 
     return v0
@@ -154,7 +143,6 @@
 .method public final d()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/ci0;->c:Z
 
     return v0
@@ -163,7 +151,6 @@
 .method public final e()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/ci0;->d:Z
 
     return v0

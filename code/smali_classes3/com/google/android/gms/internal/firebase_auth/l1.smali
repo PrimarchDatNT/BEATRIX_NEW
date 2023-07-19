@@ -16,7 +16,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/Feature;
 
     const-string v1, "firebase_auth"
@@ -27,7 +26,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/l1;->a:Lcom/google/android/gms/common/Feature;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/common/Feature;
 
     const-string v2, "firebase_auth_aidl_migration"
@@ -38,7 +36,6 @@
 
     sput-object v1, Lcom/google/android/gms/internal/firebase_auth/l1;->b:Lcom/google/android/gms/common/Feature;
 
-    .line 3
     new-instance v2, Lcom/google/android/gms/common/Feature;
 
     const-string v5, "firebase_auth_multi_factor_auth"
@@ -63,7 +60,6 @@
 
     aput-object v2, v3, v0
 
-    .line 4
     sput-object v3, Lcom/google/android/gms/internal/firebase_auth/l1;->d:[Lcom/google/android/gms/common/Feature;
 
     return-void

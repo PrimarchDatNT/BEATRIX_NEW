@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/DispersionFragment$b;->a:Lcom/commsource/studio/function/DispersionFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/widget/XSeekBar$b$a;->c(Lcom/commsource/widget/XSeekBar$b;IF)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -63,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -78,7 +75,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/DispersionFragment$b;->a:Lcom/commsource/studio/function/DispersionFragment;
 
     invoke-virtual {p3}, Lcom/commsource/studio/function/DispersionFragment;->F1()Lcom/commsource/studio/effect/g;
@@ -93,7 +89,6 @@
 
     invoke-virtual {p3, p1}, Lcom/commsource/studio/effect/g;->u(F)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/DispersionFragment$b;->a:Lcom/commsource/studio/function/DispersionFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/DispersionFragment;->z1(Lcom/commsource/studio/function/DispersionFragment;)Lcom/commsource/studio/processor/m;
@@ -110,7 +105,6 @@
 
     invoke-static {p1, p3, v1, v0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -124,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->d(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

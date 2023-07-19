@@ -24,15 +24,12 @@
 .method private constructor <init>(Lio/grpc/g;Lio/grpc/i;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/g;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lio/grpc/j$d;->a:Lio/grpc/g;
 
     const-string p1, "interceptor"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -47,7 +44,6 @@
 .method synthetic constructor <init>(Lio/grpc/g;Lio/grpc/i;Lio/grpc/j$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/j$d;-><init>(Lio/grpc/g;Lio/grpc/i;)V
 
     return-void
@@ -58,7 +54,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/j$d;->a:Lio/grpc/g;
 
     invoke-virtual {v0}, Lio/grpc/g;->b()Ljava/lang/String;
@@ -86,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/j$d;->b:Lio/grpc/i;
 
     iget-object v1, p0, Lio/grpc/j$d;->a:Lio/grpc/g;

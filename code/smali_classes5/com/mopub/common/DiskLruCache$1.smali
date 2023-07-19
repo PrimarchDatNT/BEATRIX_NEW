@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/mopub/common/DiskLruCache;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/DiskLruCache$1;->this$0:Lcom/mopub/common/DiskLruCache;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/common/DiskLruCache$1;->call()Ljava/lang/Void;
 
     move-result-object v0
@@ -68,12 +66,10 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/DiskLruCache$1;->this$0:Lcom/mopub/common/DiskLruCache;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/mopub/common/DiskLruCache$1;->this$0:Lcom/mopub/common/DiskLruCache;
 
@@ -85,18 +81,15 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     monitor-exit v0
 
     return-object v2
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/mopub/common/DiskLruCache$1;->this$0:Lcom/mopub/common/DiskLruCache;
 
     invoke-static {v1}, Lcom/mopub/common/DiskLruCache;->access$100(Lcom/mopub/common/DiskLruCache;)V
 
-    .line 6
     iget-object v1, p0, Lcom/mopub/common/DiskLruCache$1;->this$0:Lcom/mopub/common/DiskLruCache;
 
     invoke-static {v1}, Lcom/mopub/common/DiskLruCache;->access$200(Lcom/mopub/common/DiskLruCache;)Z
@@ -105,19 +98,16 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/mopub/common/DiskLruCache$1;->this$0:Lcom/mopub/common/DiskLruCache;
 
     invoke-static {v1}, Lcom/mopub/common/DiskLruCache;->access$300(Lcom/mopub/common/DiskLruCache;)V
 
-    .line 8
     iget-object v1, p0, Lcom/mopub/common/DiskLruCache$1;->this$0:Lcom/mopub/common/DiskLruCache;
 
     const/4 v3, 0x0
 
     invoke-static {v1, v3}, Lcom/mopub/common/DiskLruCache;->access$402(Lcom/mopub/common/DiskLruCache;I)I
 
-    .line 9
     :cond_1
     monitor-exit v0
 

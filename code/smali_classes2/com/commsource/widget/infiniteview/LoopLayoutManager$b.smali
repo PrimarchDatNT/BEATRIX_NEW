@@ -34,15 +34,12 @@
 .method public constructor <init>(Lcom/commsource/widget/infiniteview/LoopLayoutManager;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/PagerSnapHelper;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->a:I
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->c:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
     return-void
@@ -55,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->b:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -70,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->c:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -85,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->d:Lcom/commsource/widget/infiniteview/LoopLayoutManager$b$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -100,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -126,20 +119,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->b:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b$a;-><init>(Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;)V
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 3
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/SnapHelper;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -152,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -167,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->c:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->findViewByPosition(I)Landroid/view/View;
@@ -176,7 +163,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->c:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
     invoke-virtual {p0, v1, p1}, Landroidx/recyclerview/widget/PagerSnapHelper;->calculateDistanceToFinalSnap(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Landroid/view/View;)[I
@@ -187,7 +173,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     aget v2, p1, v1
 
     const/4 v3, 0x1
@@ -198,7 +183,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->b:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -208,7 +192,6 @@
 
     invoke-virtual {v2, v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollBy(II)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -222,10 +205,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->d:Lcom/commsource/widget/infiniteview/LoopLayoutManager$b$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -238,10 +219,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -254,14 +233,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->c:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
     invoke-virtual {p0, v1, p1, p2}, Landroidx/recyclerview/widget/PagerSnapHelper;->findTargetSnapPosition(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;II)I
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->c:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
     invoke-virtual {v2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getItemCount()I
@@ -281,7 +258,6 @@
     :cond_0
     if-gez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->c:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
     invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getItemCount()I
@@ -290,14 +266,12 @@
 
     sub-int/2addr v1, v3
 
-    .line 4
     :cond_1
     :goto_0
     iget v2, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->a:I
 
     if-ne v1, v2, :cond_2
 
-    .line 5
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/SnapHelper;->onFling(II)Z
 
     move-result p1
@@ -306,16 +280,13 @@
 
     return p1
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->d:Lcom/commsource/widget/infiniteview/LoopLayoutManager$b$b;
 
     if-eqz p1, :cond_3
 
-    .line 7
     invoke-interface {p1, v1}, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b$b;->a(I)V
 
-    .line 8
     :cond_3
     iput v1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->a:I
 
@@ -323,12 +294,10 @@
 
     if-ne v1, p1, :cond_4
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 10
     :cond_4
     iget-object p1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->c:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
@@ -336,15 +305,12 @@
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->setTargetPosition(I)V
 
-    .line 12
     iget-object p2, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$b;->c:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
     invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->startSmoothScroll(Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3

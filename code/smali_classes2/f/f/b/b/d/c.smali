@@ -38,15 +38,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/s2;->c:Lcom/google/android/gms/common/api/a;
 
     sput-object v0, Lf/f/b/b/d/c;->a:Lcom/google/android/gms/common/api/a;
 
-    .line 2
     sput-object v0, Lf/f/b/b/d/c;->b:Lcom/google/android/gms/common/api/a;
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/icing/j;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/j;-><init>()V
@@ -59,7 +56,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

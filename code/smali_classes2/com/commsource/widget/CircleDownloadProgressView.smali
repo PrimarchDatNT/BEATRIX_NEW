@@ -41,7 +41,6 @@
 
     const/4 v0, 0x0
 
-    .line 6
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/CircleDownloadProgressView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -50,23 +49,18 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p3, 0x0
 
-    .line 2
     iput p3, p0, Lcom/commsource/widget/CircleDownloadProgressView;->a:I
 
-    .line 3
     iput p3, p0, Lcom/commsource/widget/CircleDownloadProgressView;->c:I
 
     const-wide/16 v0, 0x0
 
-    .line 4
     iput-wide v0, p0, Lcom/commsource/widget/CircleDownloadProgressView;->p:J
 
-    .line 5
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/CircleDownloadProgressView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -79,19 +73,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->isInEditMode()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/res/provider/ResSTYLEABLE;->O:[I
 
@@ -103,7 +94,6 @@
 
     const/high16 v1, 0x4b000000    # 8388608.0f
 
-    .line 4
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result p2
@@ -114,7 +104,6 @@
 
     const v1, -0x66000001
 
-    .line 5
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result p2
@@ -123,7 +112,6 @@
 
     const/4 p2, 0x0
 
-    .line 6
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
@@ -132,7 +120,6 @@
 
     const/4 v1, 0x1
 
-    .line 7
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result p2
@@ -143,12 +130,10 @@
 
     const/high16 v2, 0x3fc00000    # 1.5f
 
-    .line 8
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
 
-    .line 9
     invoke-virtual {p1, p2, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result p2
@@ -159,83 +144,70 @@
 
     const/4 v2, 0x0
 
-    .line 10
     invoke-virtual {p1, p2, v2}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
     move-result p2
 
     iput p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->O:F
 
-    .line 11
     new-instance p2, Landroid/graphics/Paint;
 
     invoke-direct {p2}, Landroid/graphics/Paint;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->L:Landroid/graphics/Paint;
 
-    .line 12
     new-instance p2, Landroid/graphics/Paint;
 
     invoke-direct {p2}, Landroid/graphics/Paint;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->J:Landroid/graphics/Paint;
 
-    .line 13
     new-instance p2, Landroid/graphics/Paint;
 
     invoke-direct {p2}, Landroid/graphics/Paint;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->K:Landroid/graphics/Paint;
 
-    .line 14
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->L:Landroid/graphics/Paint;
 
     iget v2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->d:I
 
     invoke-virtual {p2, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 15
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->L:Landroid/graphics/Paint;
 
     invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 16
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->L:Landroid/graphics/Paint;
 
     invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setFilterBitmap(Z)V
 
-    .line 17
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->L:Landroid/graphics/Paint;
 
     sget-object v2, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p2, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 18
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->J:Landroid/graphics/Paint;
 
     iget v2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->f:I
 
     invoke-virtual {p2, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 19
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->J:Landroid/graphics/Paint;
 
     invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 20
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->J:Landroid/graphics/Paint;
 
     invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setFilterBitmap(Z)V
 
-    .line 21
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->J:Landroid/graphics/Paint;
 
     sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p2, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 22
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->J:Landroid/graphics/Paint;
 
     iget v2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->N:I
@@ -244,31 +216,26 @@
 
     invoke-virtual {p2, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 23
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->K:Landroid/graphics/Paint;
 
     iget v2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->g:I
 
     invoke-virtual {p2, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 24
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->K:Landroid/graphics/Paint;
 
     invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 25
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->K:Landroid/graphics/Paint;
 
     invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setFilterBitmap(Z)V
 
-    .line 26
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->K:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 27
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->K:Landroid/graphics/Paint;
 
     iget v1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->N:I
@@ -277,17 +244,14 @@
 
     invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 28
     iget-object p2, p0, Lcom/commsource/widget/CircleDownloadProgressView;->K:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Cap;->ROUND:Landroid/graphics/Paint$Cap;
 
     invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setStrokeCap(Landroid/graphics/Paint$Cap;)V
 
-    .line 29
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 30
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -302,13 +266,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->a:I
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -323,10 +284,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput v1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -339,20 +298,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     iget v3, p0, Lcom/commsource/widget/CircleDownloadProgressView;->a:I
 
     if-le p1, v3, :cond_0
 
-    .line 3
     iput p1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->a:I
 
-    .line 4
     iget-wide v3, p0, Lcom/commsource/widget/CircleDownloadProgressView;->p:J
 
     sub-long v3, v1, v3
@@ -363,13 +318,10 @@
 
     if-lez p1, :cond_0
 
-    .line 5
     iput-wide v1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->p:J
 
-    .line 6
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -383,10 +335,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->M:Landroid/graphics/RectF;
 
     if-eqz v1, :cond_0
@@ -399,10 +349,8 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawOval(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 4
     iget v1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->a:I
 
     int-to-float v1, v1
@@ -411,7 +359,6 @@
 
     mul-float v6, v1, v2
 
-    .line 5
     iget-object v8, p0, Lcom/commsource/widget/CircleDownloadProgressView;->b:Landroid/graphics/RectF;
 
     const/4 v9, 0x0
@@ -426,7 +373,6 @@
 
     invoke-virtual/range {v7 .. v12}, Landroid/graphics/Canvas;->drawArc(Landroid/graphics/RectF;FFZLandroid/graphics/Paint;)V
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/widget/CircleDownloadProgressView;->b:Landroid/graphics/RectF;
 
     const/high16 v5, -0x3d4c0000    # -90.0f
@@ -439,7 +385,6 @@
 
     invoke-virtual/range {v3 .. v8}, Landroid/graphics/Canvas;->drawArc(Landroid/graphics/RectF;FFZLandroid/graphics/Paint;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -453,10 +398,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     iget p3, p0, Lcom/commsource/widget/CircleDownloadProgressView;->O:F
 
     const/4 p4, 0x0
@@ -465,12 +408,10 @@
 
     if-eqz p3, :cond_0
 
-    .line 3
     new-instance p3, Landroid/graphics/Matrix;
 
     invoke-direct {p3}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 4
     iget v1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->O:F
 
     int-to-float v2, p1
@@ -485,19 +426,16 @@
 
     invoke-virtual {p3, v1, v1, v4, v3}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 5
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1, p4, p4, v2, v5}, Landroid/graphics/RectF;-><init>(FFFF)V
 
     iput-object v1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->b:Landroid/graphics/RectF;
 
-    .line 6
     invoke-virtual {p3, v1}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance p3, Landroid/graphics/RectF;
 
@@ -531,7 +469,6 @@
 
     iput-object p3, p0, Lcom/commsource/widget/CircleDownloadProgressView;->b:Landroid/graphics/RectF;
 
-    .line 8
     :goto_0
     new-instance p3, Landroid/graphics/RectF;
 
@@ -543,7 +480,6 @@
 
     iput-object p3, p0, Lcom/commsource/widget/CircleDownloadProgressView;->M:Landroid/graphics/RectF;
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -556,18 +492,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->g:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->K:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -580,10 +512,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->c:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -596,18 +526,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->f:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->J:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -620,18 +546,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->d:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->L:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -644,13 +566,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->O:F
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -663,25 +582,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->N:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->J:Landroid/graphics/Paint;
 
     int-to-float p1, p1
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/CircleDownloadProgressView;->K:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

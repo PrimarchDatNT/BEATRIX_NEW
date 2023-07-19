@@ -39,42 +39,34 @@
 .method public constructor <init>(Lcom/sdk/imp/DynamicImageView$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->a:F
 
-    .line 3
     iput p1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->b:F
 
     const/4 p1, 0x0
 
-    .line 4
     iput-boolean p1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->c:Z
 
     const/high16 p1, 0x41000000    # 8.0f
 
-    .line 5
     iput p1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->d:F
 
     const p1, 0x3dcccccd    # 0.1f
 
-    .line 6
     iput p1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->f:F
 
     const/high16 p1, 0x3f000000    # 0.5f
 
-    .line 7
     iput p1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->g:F
 
     const/high16 p1, 0x40000000    # 2.0f
 
-    .line 8
     iput p1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->p:F
 
     return-void
@@ -87,7 +79,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/sdk/imp/DynamicImageView$b$a;->c:Z
 
     return-void
@@ -96,14 +87,12 @@
 .method public run()V
     .locals 6
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/DynamicImageView$b$a;->c:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
@@ -123,10 +112,8 @@
 
     if-lez v0, :cond_1
 
-    .line 3
     iget v0, p0, Lcom/sdk/imp/DynamicImageView$b$a;->d:F
 
-    .line 4
     iget v2, p0, Lcom/sdk/imp/DynamicImageView$b$a;->f:F
 
     add-float/2addr v1, v2
@@ -135,7 +122,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
@@ -155,12 +141,10 @@
 
     if-gez v0, :cond_2
 
-    .line 6
     iget v0, p0, Lcom/sdk/imp/DynamicImageView$b$a;->d:F
 
     neg-float v0, v0
 
-    .line 7
     iget v2, p0, Lcom/sdk/imp/DynamicImageView$b$a;->f:F
 
     sub-float/2addr v1, v2
@@ -172,7 +156,6 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 8
     :goto_0
     iget-object v1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
@@ -190,10 +173,8 @@
 
     if-lez v1, :cond_3
 
-    .line 9
     iget v1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->d:F
 
-    .line 10
     iget v4, p0, Lcom/sdk/imp/DynamicImageView$b$a;->f:F
 
     add-float/2addr v2, v4
@@ -202,7 +183,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     iget-object v1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
@@ -222,12 +202,10 @@
 
     if-gez v1, :cond_4
 
-    .line 12
     iget v1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->d:F
 
     neg-float v1, v1
 
-    .line 13
     iget v4, p0, Lcom/sdk/imp/DynamicImageView$b$a;->f:F
 
     sub-float/2addr v2, v4
@@ -244,7 +222,6 @@
 
     if-nez v2, :cond_6
 
-    .line 14
     iget-object v2, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
     invoke-static {v2}, Lcom/sdk/imp/DynamicImageView$b;->e(Lcom/sdk/imp/DynamicImageView$b;)Z
@@ -253,7 +230,6 @@
 
     if-nez v2, :cond_6
 
-    .line 15
     iget-object v2, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
     invoke-static {v2}, Lcom/sdk/imp/DynamicImageView$b;->c(Lcom/sdk/imp/DynamicImageView$b;)F
@@ -266,12 +242,10 @@
 
     if-lez v2, :cond_5
 
-    .line 16
     iget v0, p0, Lcom/sdk/imp/DynamicImageView$b$a;->d:F
 
     goto :goto_2
 
-    .line 17
     :cond_5
     iget-object v2, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
@@ -287,7 +261,6 @@
 
     if-gez v2, :cond_6
 
-    .line 18
     iget v0, p0, Lcom/sdk/imp/DynamicImageView$b$a;->d:F
 
     neg-float v0, v0
@@ -298,7 +271,6 @@
 
     if-nez v2, :cond_8
 
-    .line 19
     iget-object v2, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
     invoke-static {v2}, Lcom/sdk/imp/DynamicImageView$b;->e(Lcom/sdk/imp/DynamicImageView$b;)Z
@@ -307,7 +279,6 @@
 
     if-nez v2, :cond_8
 
-    .line 20
     iget-object v2, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
     invoke-static {v2}, Lcom/sdk/imp/DynamicImageView$b;->d(Lcom/sdk/imp/DynamicImageView$b;)F
@@ -320,12 +291,10 @@
 
     if-lez v2, :cond_7
 
-    .line 21
     iget v1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->d:F
 
     goto :goto_3
 
-    .line 22
     :cond_7
     iget-object v2, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
@@ -341,12 +310,10 @@
 
     if-gez v2, :cond_8
 
-    .line 23
     iget v1, p0, Lcom/sdk/imp/DynamicImageView$b$a;->d:F
 
     neg-float v1, v1
 
-    .line 24
     :cond_8
     :goto_3
     iget-object v2, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
@@ -369,7 +336,6 @@
 
     move v0, v5
 
-    .line 25
     :cond_9
     iget-object v2, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
@@ -381,14 +347,12 @@
 
     invoke-virtual {v2, v0, v1}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 26
     iget-object v0, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
     iget-object v0, v0, Lcom/sdk/imp/DynamicImageView$b;->i:Lcom/sdk/imp/DynamicImageView;
 
     invoke-static {v0}, Lcom/sdk/imp/DynamicImageView;->b(Lcom/sdk/imp/DynamicImageView;)V
 
-    .line 27
     iget-object v0, p0, Lcom/sdk/imp/DynamicImageView$b$a;->J:Lcom/sdk/imp/DynamicImageView$b;
 
     iget-object v0, v0, Lcom/sdk/imp/DynamicImageView$b;->i:Lcom/sdk/imp/DynamicImageView;

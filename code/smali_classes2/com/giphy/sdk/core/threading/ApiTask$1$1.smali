@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/giphy/sdk/core/threading/ApiTask$1;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/threading/ApiTask$1$1;->this$1:Lcom/giphy/sdk/core/threading/ApiTask$1;
 
     iput-object p2, p0, Lcom/giphy/sdk/core/threading/ApiTask$1$1;->val$value:Ljava/lang/Object;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/threading/ApiTask$1$1;->this$1:Lcom/giphy/sdk/core/threading/ApiTask$1;
 
     iget-object v0, v0, Lcom/giphy/sdk/core/threading/ApiTask$1;->val$completionHandler:Lcom/giphy/sdk/core/network/api/CompletionHandler;

@@ -68,7 +68,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcom/commsource/studio/function/ar/b;->J:Lcom/commsource/studio/function/ar/b$a;
 
     invoke-virtual {v0, p1}, Lcom/commsource/studio/function/ar/b$a;->a(Landroid/content/Context;)Landroid/view/View;
@@ -77,7 +76,6 @@
 
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/view/View;)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     sget p2, Lcom/res/provider/ResID;->ifv_icon:I
@@ -125,12 +123,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_2
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -139,7 +135,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;->a()I
 
     move-result p2
@@ -154,7 +149,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/commsource/studio/function/ar/b;->p:Lcom/commsource/widget/IconFrontView;
 
@@ -164,7 +158,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p2, p0, Lcom/commsource/studio/function/ar/b;->p:Lcom/commsource/widget/IconFrontView;
 
@@ -172,7 +165,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 6
     :goto_0
     iget-object p2, p0, Lcom/commsource/studio/function/ar/b;->p:Lcom/commsource/widget/IconFrontView;
 
@@ -186,7 +178,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -202,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/b;->p:Lcom/commsource/widget/IconFrontView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -225,7 +215,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/ar/b;->p:Lcom/commsource/widget/IconFrontView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

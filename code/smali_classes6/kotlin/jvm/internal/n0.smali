@@ -20,12 +20,10 @@
     :try_start_0
     const-string v1, "kotlin.reflect.jvm.internal.ReflectionFactoryImpl"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
     move-result-object v1
@@ -49,7 +47,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     new-instance v0, Lcotlin/jvm/internal/o0;
 
@@ -62,7 +59,6 @@
 
     new-array v0, v0, [Lcotlin/reflect/d;
 
-    .line 4
     sput-object v0, Lcotlin/jvm/internal/n0;->c:[Lcotlin/reflect/d;
 
     return-void
@@ -71,7 +67,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -83,7 +78,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-static {p0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -109,7 +103,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
@@ -131,7 +124,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0, p1, p2, p3}, Lcotlin/jvm/internal/o0;->q(Ljava/lang/Object;Ljava/lang/String;Lcotlin/reflect/KVariance;Z)Lcotlin/reflect/s;
@@ -144,7 +136,6 @@
 .method public static a(Ljava/lang/Class;)Lcotlin/reflect/d;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0}, Lcotlin/jvm/internal/o0;->a(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -157,7 +148,6 @@
 .method public static b(Ljava/lang/Class;Ljava/lang/String;)Lcotlin/reflect/d;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0, p1}, Lcotlin/jvm/internal/o0;->b(Ljava/lang/Class;Ljava/lang/String;)Lcotlin/reflect/d;
@@ -170,7 +160,6 @@
 .method public static c(Lcotlin/jvm/internal/FunctionReference;)Lcotlin/reflect/i;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0}, Lcotlin/jvm/internal/o0;->c(Lcotlin/jvm/internal/FunctionReference;)Lcotlin/reflect/i;
@@ -183,7 +172,6 @@
 .method public static d(Ljava/lang/Class;)Lcotlin/reflect/d;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0}, Lcotlin/jvm/internal/o0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -196,7 +184,6 @@
 .method public static e(Ljava/lang/Class;Ljava/lang/String;)Lcotlin/reflect/d;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0, p1}, Lcotlin/jvm/internal/o0;->e(Ljava/lang/Class;Ljava/lang/String;)Lcotlin/reflect/d;
@@ -209,17 +196,14 @@
 .method public static f([Ljava/lang/Class;)[Lcotlin/reflect/d;
     .locals 4
 
-    .line 1
     array-length v0, p0
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object p0, Lcotlin/jvm/internal/n0;->c:[Lcotlin/reflect/d;
 
     return-object p0
 
-    .line 3
     :cond_0
     new-array v1, v0, [Lcotlin/reflect/d;
 
@@ -228,7 +212,6 @@
     :goto_0
     if-ge v2, v0, :cond_1
 
-    .line 4
     aget-object v3, p0, v2
 
     invoke-static {v3}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -251,7 +234,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     const-string v1, ""
@@ -266,7 +248,6 @@
 .method public static h(Ljava/lang/Class;Ljava/lang/String;)Lcotlin/reflect/h;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0, p1}, Lcotlin/jvm/internal/o0;->f(Ljava/lang/Class;Ljava/lang/String;)Lcotlin/reflect/h;
@@ -279,7 +260,6 @@
 .method public static i(Lcotlin/jvm/internal/MutablePropertyReference0;)Lcotlin/reflect/k;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0}, Lcotlin/jvm/internal/o0;->g(Lcotlin/jvm/internal/MutablePropertyReference0;)Lcotlin/reflect/k;
@@ -292,7 +272,6 @@
 .method public static j(Lcotlin/jvm/internal/MutablePropertyReference1;)Lcotlin/reflect/l;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0}, Lcotlin/jvm/internal/o0;->h(Lcotlin/jvm/internal/MutablePropertyReference1;)Lcotlin/reflect/l;
@@ -305,7 +284,6 @@
 .method public static k(Lcotlin/jvm/internal/MutablePropertyReference2;)Lcotlin/reflect/m;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0}, Lcotlin/jvm/internal/o0;->i(Lcotlin/jvm/internal/MutablePropertyReference2;)Lcotlin/reflect/m;
@@ -321,7 +299,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-static {p0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -347,7 +324,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-static {p0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -373,7 +349,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-static {p0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -409,7 +384,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-static {p0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -435,7 +409,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
@@ -454,7 +427,6 @@
 .method public static q(Lcotlin/jvm/internal/PropertyReference0;)Lcotlin/reflect/o;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0}, Lcotlin/jvm/internal/o0;->j(Lcotlin/jvm/internal/PropertyReference0;)Lcotlin/reflect/o;
@@ -467,7 +439,6 @@
 .method public static r(Lcotlin/jvm/internal/PropertyReference1;)Lcotlin/reflect/p;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0}, Lcotlin/jvm/internal/o0;->k(Lcotlin/jvm/internal/PropertyReference1;)Lcotlin/reflect/p;
@@ -480,7 +451,6 @@
 .method public static s(Lcotlin/jvm/internal/PropertyReference2;)Lcotlin/reflect/q;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0}, Lcotlin/jvm/internal/o0;->l(Lcotlin/jvm/internal/PropertyReference2;)Lcotlin/reflect/q;
@@ -496,7 +466,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0}, Lcotlin/jvm/internal/o0;->m(Lcotlin/jvm/internal/b0;)Ljava/lang/String;
@@ -512,7 +481,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-virtual {v0, p0}, Lcotlin/jvm/internal/o0;->n(Lcotlin/jvm/internal/Lambda;)Ljava/lang/String;
@@ -528,7 +496,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-static {p1}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
@@ -546,7 +513,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-static {p1}, Lcotlin/collections/k;->uy([Ljava/lang/Object;)Ljava/util/List;
@@ -564,7 +530,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-static {p0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -590,7 +555,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-static {p0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -616,7 +580,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/n0;->a:Lcotlin/jvm/internal/o0;
 
     invoke-static {p0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;

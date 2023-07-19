@@ -22,7 +22,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession;
 
     invoke-direct {v0}, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession;-><init>()V
@@ -35,13 +34,10 @@
 .method public constructor <init>(Ljava/lang/String;Lcom/giphy/sdk/core/network/engine/NetworkSession;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
-    .line 4
     iput-object p2, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
     return-void
@@ -56,7 +52,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/giphy/sdk/core/models/enums/MediaType;->sticker:Lcom/giphy/sdk/core/models/enums/MediaType;
 
     if-ne p1, v0, :cond_0
@@ -107,12 +102,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
@@ -121,7 +114,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -133,7 +125,6 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 4
     invoke-virtual {p2}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -147,10 +138,8 @@
 
     const-string p1, "sort"
 
-    .line 5
     invoke-interface {v5, p1, p3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
@@ -168,7 +157,6 @@
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1, p4}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -179,7 +167,6 @@
 .method public getApiKey()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     return-object v0
@@ -188,7 +175,6 @@
 .method public getNetworkSession()Lcom/giphy/sdk/core/network/engine/NetworkSession;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
     return-object v0
@@ -218,19 +204,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
 
     invoke-interface {v5, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
     sget-object v1, Lcom/giphy/sdk/core/network/api/Constants;->SERVER_URL:Landroid/net/Uri;
@@ -245,7 +228,6 @@
 
     const-string p1, "v1/gifs/%s"
 
-    .line 4
     invoke-static {p1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -256,12 +238,10 @@
 
     const/4 v6, 0x0
 
-    .line 5
     invoke-interface/range {v0 .. v6}, Lcom/giphy/sdk/core/network/engine/NetworkSession;->queryStringConnection(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;Ljava/util/Map;)Lcom/giphy/sdk/core/threading/ApiTask;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1, p2}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -310,12 +290,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object p5, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string p6, "api_key"
@@ -324,7 +302,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 3
     invoke-virtual {p3}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object p3
@@ -336,7 +313,6 @@
     :cond_0
     if-eqz p4, :cond_1
 
-    .line 4
     invoke-virtual {p4}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object p3
@@ -345,7 +321,6 @@
 
     invoke-interface {v5, p4, p3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
@@ -365,7 +340,6 @@
 
     const-string p1, "v1/gifs/categories/%s/%s"
 
-    .line 6
     invoke-static {p1, p3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -376,12 +350,10 @@
 
     const-string v3, "GET"
 
-    .line 7
     invoke-interface/range {v0 .. v6}, Lcom/giphy/sdk/core/network/engine/NetworkSession;->queryStringConnection(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;Ljava/util/Map;)Lcom/giphy/sdk/core/threading/ApiTask;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1, p7}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -415,26 +387,22 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
 
     invoke-interface {v5, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -442,7 +410,6 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 5
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -451,7 +418,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -462,7 +428,6 @@
 
     const-string v2, ","
 
-    .line 7
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_0
@@ -470,7 +435,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -480,7 +444,6 @@
 
     invoke-interface {v5, v0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
     sget-object v1, Lcom/giphy/sdk/core/network/api/Constants;->SERVER_URL:Landroid/net/Uri;
@@ -497,7 +460,6 @@
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {p1, p2}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -539,12 +501,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
@@ -553,12 +513,10 @@
 
     const-string v0, "tag"
 
-    .line 3
     invoke-interface {v5, v0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     if-eqz p3, :cond_0
 
-    .line 4
     invoke-virtual {p3}, Lcom/giphy/sdk/core/models/enums/RatingType;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -567,13 +525,11 @@
 
     invoke-interface {v5, p3, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :cond_0
     new-instance p1, Lcom/giphy/sdk/core/network/api/GPHApiClient$1;
 
     invoke-direct {p1, p0, p4}, Lcom/giphy/sdk/core/network/api/GPHApiClient$1;-><init>(Lcom/giphy/sdk/core/network/api/GPHApiClient;Lcom/giphy/sdk/core/network/api/CompletionHandler;)V
 
-    .line 6
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
     sget-object v1, Lcom/giphy/sdk/core/network/api/Constants;->SERVER_URL:Landroid/net/Uri;
@@ -584,7 +540,6 @@
 
     const/4 p4, 0x0
 
-    .line 7
     invoke-direct {p0, p2}, Lcom/giphy/sdk/core/network/api/GPHApiClient;->mediaTypeToEndpoint(Lcom/giphy/sdk/core/models/enums/MediaType;)Ljava/lang/String;
 
     move-result-object p2
@@ -603,12 +558,10 @@
 
     const-string v3, "GET"
 
-    .line 8
     invoke-interface/range {v0 .. v6}, Lcom/giphy/sdk/core/network/engine/NetworkSession;->queryStringConnection(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;Ljava/util/Map;)Lcom/giphy/sdk/core/threading/ApiTask;
 
     move-result-object p2
 
-    .line 9
     invoke-virtual {p2, p1}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -665,12 +618,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
@@ -679,12 +630,10 @@
 
     const-string v0, "q"
 
-    .line 3
     invoke-interface {v5, v0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     if-eqz p3, :cond_0
 
-    .line 4
     invoke-virtual {p3}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -696,7 +645,6 @@
     :cond_0
     if-eqz p4, :cond_1
 
-    .line 5
     invoke-virtual {p4}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -708,7 +656,6 @@
     :cond_1
     if-eqz p5, :cond_2
 
-    .line 6
     invoke-virtual {p5}, Lcom/giphy/sdk/core/models/enums/RatingType;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -720,7 +667,6 @@
     :cond_2
     if-eqz p6, :cond_3
 
-    .line 7
     invoke-virtual {p6}, Lcom/giphy/sdk/core/models/enums/LangType;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -729,7 +675,6 @@
 
     invoke-interface {v5, p3, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     :cond_3
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
@@ -741,7 +686,6 @@
 
     const/4 p3, 0x0
 
-    .line 9
     invoke-direct {p0, p2}, Lcom/giphy/sdk/core/network/api/GPHApiClient;->mediaTypeToEndpoint(Lcom/giphy/sdk/core/models/enums/MediaType;)Ljava/lang/String;
 
     move-result-object p2
@@ -760,12 +704,10 @@
 
     const-string v3, "GET"
 
-    .line 10
     invoke-interface/range {v0 .. v6}, Lcom/giphy/sdk/core/network/engine/NetworkSession;->queryStringConnection(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;Ljava/util/Map;)Lcom/giphy/sdk/core/threading/ApiTask;
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p1, p7}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -797,19 +739,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
 
     invoke-interface {v5, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
     sget-object v1, Lcom/giphy/sdk/core/network/api/Constants;->SERVER_URL:Landroid/net/Uri;
@@ -824,7 +763,6 @@
 
     const-string p1, "v1/stickers/packs/%s"
 
-    .line 4
     invoke-static {p1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -835,12 +773,10 @@
 
     const/4 v6, 0x0
 
-    .line 5
     invoke-interface/range {v0 .. v6}, Lcom/giphy/sdk/core/network/engine/NetworkSession;->queryStringConnection(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;Ljava/util/Map;)Lcom/giphy/sdk/core/threading/ApiTask;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1, p2}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -872,19 +808,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
 
     invoke-interface {v5, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
     sget-object v1, Lcom/giphy/sdk/core/network/api/Constants;->SERVER_URL:Landroid/net/Uri;
@@ -899,7 +832,6 @@
 
     const-string p1, "v1/stickers/packs/%s/children"
 
-    .line 4
     invoke-static {p1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -910,12 +842,10 @@
 
     const/4 v6, 0x0
 
-    .line 5
     invoke-interface/range {v0 .. v6}, Lcom/giphy/sdk/core/network/engine/NetworkSession;->queryStringConnection(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;Ljava/util/Map;)Lcom/giphy/sdk/core/threading/ApiTask;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1, p2}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -942,19 +872,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
 
     invoke-interface {v5, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
     sget-object v1, Lcom/giphy/sdk/core/network/api/Constants;->SERVER_URL:Landroid/net/Uri;
@@ -971,7 +898,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0, p1}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -1013,12 +939,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
@@ -1027,7 +951,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p2}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -1039,7 +962,6 @@
     :cond_0
     if-eqz p3, :cond_1
 
-    .line 4
     invoke-virtual {p3}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -1048,7 +970,6 @@
 
     invoke-interface {v5, p3, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
@@ -1064,7 +985,6 @@
 
     const-string p1, "v1/stickers/packs/%s/stickers"
 
-    .line 6
     invoke-static {p1, p2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -1075,12 +995,10 @@
 
     const-string v3, "GET"
 
-    .line 7
     invoke-interface/range {v0 .. v6}, Lcom/giphy/sdk/core/network/engine/NetworkSession;->queryStringConnection(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;Ljava/util/Map;)Lcom/giphy/sdk/core/threading/ApiTask;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1, p4}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -1127,12 +1045,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
@@ -1141,7 +1057,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p2}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -1153,7 +1068,6 @@
     :cond_0
     if-eqz p3, :cond_1
 
-    .line 4
     invoke-virtual {p3}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -1167,16 +1081,13 @@
 
     const-string p2, "sort"
 
-    .line 5
     invoke-interface {v5, p2, p4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_2
     new-instance p2, Lcom/giphy/sdk/core/network/api/GPHApiClient$2;
 
     invoke-direct {p2, p0, p1, p5}, Lcom/giphy/sdk/core/network/api/GPHApiClient$2;-><init>(Lcom/giphy/sdk/core/network/api/GPHApiClient;Ljava/lang/String;Lcom/giphy/sdk/core/network/api/CompletionHandler;)V
 
-    .line 7
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
     sget-object v1, Lcom/giphy/sdk/core/network/api/Constants;->SERVER_URL:Landroid/net/Uri;
@@ -1191,7 +1102,6 @@
 
     const-string p1, "v1/gifs/categories/%s"
 
-    .line 8
     invoke-static {p1, p3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -1202,12 +1112,10 @@
 
     const-string v3, "GET"
 
-    .line 9
     invoke-interface/range {v0 .. v6}, Lcom/giphy/sdk/core/network/engine/NetworkSession;->queryStringConnection(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;Ljava/util/Map;)Lcom/giphy/sdk/core/threading/ApiTask;
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {p1, p2}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -1239,19 +1147,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
 
     invoke-interface {v5, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
     sget-object v1, Lcom/giphy/sdk/core/network/api/Constants;->SERVER_URL:Landroid/net/Uri;
@@ -1266,7 +1171,6 @@
 
     const-string p1, "v1/queries/suggest/%s"
 
-    .line 4
     invoke-static {p1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -1277,12 +1181,10 @@
 
     const/4 v6, 0x0
 
-    .line 5
     invoke-interface/range {v0 .. v6}, Lcom/giphy/sdk/core/network/engine/NetworkSession;->queryStringConnection(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;Ljava/util/Map;)Lcom/giphy/sdk/core/threading/ApiTask;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1, p2}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -1329,12 +1231,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
@@ -1343,12 +1243,10 @@
 
     const-string v0, "s"
 
-    .line 3
     invoke-interface {v5, v0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     if-eqz p3, :cond_0
 
-    .line 4
     invoke-virtual {p3}, Lcom/giphy/sdk/core/models/enums/RatingType;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -1360,7 +1258,6 @@
     :cond_0
     if-eqz p4, :cond_1
 
-    .line 5
     invoke-virtual {p4}, Lcom/giphy/sdk/core/models/enums/LangType;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -1369,7 +1266,6 @@
 
     invoke-interface {v5, p3, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
@@ -1381,7 +1277,6 @@
 
     const/4 p3, 0x0
 
-    .line 7
     invoke-direct {p0, p2}, Lcom/giphy/sdk/core/network/api/GPHApiClient;->mediaTypeToEndpoint(Lcom/giphy/sdk/core/models/enums/MediaType;)Ljava/lang/String;
 
     move-result-object p2
@@ -1400,12 +1295,10 @@
 
     const-string v3, "GET"
 
-    .line 8
     invoke-interface/range {v0 .. v6}, Lcom/giphy/sdk/core/network/engine/NetworkSession;->queryStringConnection(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;Ljava/util/Map;)Lcom/giphy/sdk/core/threading/ApiTask;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1, p5}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -1452,12 +1345,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->apiKey:Ljava/lang/String;
 
     const-string v1, "api_key"
@@ -1466,7 +1357,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p2}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -1478,7 +1368,6 @@
     :cond_0
     if-eqz p3, :cond_1
 
-    .line 4
     invoke-virtual {p3}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -1490,7 +1379,6 @@
     :cond_1
     if-eqz p4, :cond_2
 
-    .line 5
     invoke-virtual {p4}, Lcom/giphy/sdk/core/models/enums/RatingType;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -1499,7 +1387,6 @@
 
     invoke-interface {v5, p3, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_2
     iget-object v0, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient;->networkSessionImpl:Lcom/giphy/sdk/core/network/engine/NetworkSession;
 
@@ -1511,7 +1398,6 @@
 
     const/4 p3, 0x0
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/giphy/sdk/core/network/api/GPHApiClient;->mediaTypeToEndpoint(Lcom/giphy/sdk/core/models/enums/MediaType;)Ljava/lang/String;
 
     move-result-object p1
@@ -1530,12 +1416,10 @@
 
     const-string v3, "GET"
 
-    .line 8
     invoke-interface/range {v0 .. v6}, Lcom/giphy/sdk/core/network/engine/NetworkSession;->queryStringConnection(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;Ljava/util/Map;)Lcom/giphy/sdk/core/threading/ApiTask;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1, p5}, Lcom/giphy/sdk/core/threading/ApiTask;->executeAsyncTask(Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
     move-result-object p1

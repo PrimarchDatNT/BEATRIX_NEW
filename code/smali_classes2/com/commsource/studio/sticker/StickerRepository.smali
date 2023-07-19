@@ -25,14 +25,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerRepository;
 
     invoke-direct {v1}, Lcom/commsource/studio/sticker/StickerRepository;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/sticker/StickerRepository$stickerDao$2;->INSTANCE:Lcom/commsource/studio/sticker/StickerRepository$stickerDao$2;
 
     invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -41,7 +39,6 @@
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerRepository;->a:Lcotlin/w;
 
-    .line 3
     sget-object v1, Lcom/commsource/studio/sticker/StickerRepository$stickerCategoryDao$2;->INSTANCE:Lcom/commsource/studio/sticker/StickerRepository$stickerCategoryDao$2;
 
     invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -50,7 +47,6 @@
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerRepository;->b:Lcotlin/w;
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/sticker/StickerRepository$stickerGroupDao$2;->INSTANCE:Lcom/commsource/studio/sticker/StickerRepository$stickerGroupDao$2;
 
     invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -67,7 +63,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -158,7 +153,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->k()Lf/k/i0/a/w0;
 
     move-result-object v1
@@ -167,7 +161,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/Sticker;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -176,14 +169,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/Sticker;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/w0;->a1([Lcom/meitu/template/bean/Sticker;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -219,7 +210,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->j()Lf/k/i0/a/u0;
 
     move-result-object v1
@@ -228,7 +218,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/m;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -237,14 +226,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/m;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/u0;->M2([Lcom/meitu/template/bean/m;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -280,7 +267,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->l()Lf/k/i0/a/y0;
 
     move-result-object v1
@@ -289,7 +275,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/StickerGroup;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -298,14 +283,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/StickerGroup;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/y0;->s2([Lcom/meitu/template/bean/StickerGroup;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -336,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->j()Lf/k/i0/a/u0;
 
     move-result-object v1
@@ -368,7 +350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->k()Lf/k/i0/a/w0;
 
     move-result-object v1
@@ -400,7 +381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->l()Lf/k/i0/a/y0;
 
     move-result-object v1
@@ -423,7 +403,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->j()Lf/k/i0/a/u0;
 
     move-result-object v1
@@ -450,7 +429,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->l()Lf/k/i0/a/y0;
 
     move-result-object v1
@@ -477,7 +455,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->k()Lf/k/i0/a/w0;
 
     move-result-object v1
@@ -510,7 +487,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->j()Lf/k/i0/a/u0;
 
     move-result-object v1
@@ -537,7 +513,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->l()Lf/k/i0/a/y0;
 
     move-result-object v1
@@ -564,7 +539,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->k()Lf/k/i0/a/w0;
 
     move-result-object v1
@@ -599,7 +573,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->k()Lf/k/i0/a/w0;
 
     move-result-object v1
@@ -608,7 +581,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/Sticker;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -617,14 +589,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/Sticker;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/w0;->w([Lcom/meitu/template/bean/Sticker;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -660,7 +630,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->j()Lf/k/i0/a/u0;
 
     move-result-object v1
@@ -669,7 +638,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/m;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -678,14 +646,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/m;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/u0;->j2([Lcom/meitu/template/bean/m;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -721,7 +687,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->l()Lf/k/i0/a/y0;
 
     move-result-object v1
@@ -730,7 +695,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/StickerGroup;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -739,14 +703,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/StickerGroup;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/y0;->K2([Lcom/meitu/template/bean/StickerGroup;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -774,7 +736,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->j()Lf/k/i0/a/u0;
 
     move-result-object v1
@@ -801,7 +762,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->l()Lf/k/i0/a/y0;
 
     move-result-object v1
@@ -828,7 +788,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->k()Lf/k/i0/a/w0;
 
     move-result-object v1
@@ -863,7 +822,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->k()Lf/k/i0/a/w0;
 
     move-result-object v1
@@ -872,7 +830,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/Sticker;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -881,14 +838,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/Sticker;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/w0;->Y([Lcom/meitu/template/bean/Sticker;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -924,7 +879,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->j()Lf/k/i0/a/u0;
 
     move-result-object v1
@@ -933,7 +887,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/m;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -942,14 +895,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/m;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/u0;->c1([Lcom/meitu/template/bean/m;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -985,7 +936,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerRepository;->l()Lf/k/i0/a/y0;
 
     move-result-object v1
@@ -994,7 +944,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/StickerGroup;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -1003,14 +952,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/StickerGroup;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/y0;->r([Lcom/meitu/template/bean/StickerGroup;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 

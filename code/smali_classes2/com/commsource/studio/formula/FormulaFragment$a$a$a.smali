@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$a$a$a;->a:Lcom/commsource/studio/formula/FormulaFragment$a$a;
 
     iget-object v1, v1, Lcom/commsource/studio/formula/FormulaFragment$a$a;->d:Lcom/commsource/studio/formula/FormulaFragment$a;
@@ -61,7 +60,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$a$a$a;->a:Lcom/commsource/studio/formula/FormulaFragment$a$a;
 
     iget-object v1, v1, Lcom/commsource/studio/formula/FormulaFragment$a$a;->d:Lcom/commsource/studio/formula/FormulaFragment$a;
@@ -76,7 +74,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/formula/FormulaViewModel;->V(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$a$a$a;->a:Lcom/commsource/studio/formula/FormulaFragment$a$a;
 
     iget-object v1, v1, Lcom/commsource/studio/formula/FormulaFragment$a$a;->d:Lcom/commsource/studio/formula/FormulaFragment$a;
@@ -101,7 +98,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/formula/FormulaFragment;->h0(Lcom/commsource/studio/formula/FormulaFragment;Lcom/commsource/studio/formula/JsFormula;ZZILjava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

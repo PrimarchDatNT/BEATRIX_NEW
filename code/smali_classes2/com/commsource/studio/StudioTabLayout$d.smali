@@ -52,7 +52,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -67,7 +66,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout$d;->a:Lcom/commsource/studio/StudioTabLayout;
 
     iget v2, p0, Lcom/commsource/studio/StudioTabLayout$d;->b:I
@@ -80,17 +78,14 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/StudioTabLayout;->setScrollOffset(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout$d;->a:Lcom/commsource/studio/StudioTabLayout;
 
     invoke-static {p1}, Lcom/commsource/studio/StudioTabLayout;->f(Lcom/commsource/studio/StudioTabLayout;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

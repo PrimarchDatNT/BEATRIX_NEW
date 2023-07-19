@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/meizu/flyme/openidsdk/d;->c()V
 
     return-void
@@ -20,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +27,6 @@
 .method public static a(Landroid/content/Context;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/meizu/flyme/openidsdk/f;->c()Lcom/meizu/flyme/openidsdk/f;
 
     move-result-object v0
@@ -56,7 +53,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
@@ -172,7 +168,6 @@
 .method private static synthetic c()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/meizu/flyme/openidsdk/d;
@@ -217,7 +212,6 @@
 .method public static d(Landroid/content/Context;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/meizu/flyme/openidsdk/f;->c()Lcom/meizu/flyme/openidsdk/f;
 
     move-result-object v0
@@ -238,7 +232,6 @@
 .method public static e(Landroid/content/Context;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/meizu/flyme/openidsdk/f;->c()Lcom/meizu/flyme/openidsdk/f;
 
     move-result-object v0
@@ -259,7 +252,6 @@
 .method public static f(Landroid/content/Context;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/meizu/flyme/openidsdk/f;->c()Lcom/meizu/flyme/openidsdk/f;
 
     move-result-object v0
@@ -280,7 +272,6 @@
 .method static final synthetic g(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0

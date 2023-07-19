@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Tables$a;
 
     invoke-direct {v0}, Lcom/google/common/collect/Tables$a;-><init>()V
@@ -51,7 +50,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -60,7 +58,6 @@
 .method static synthetic a()Lcom/google/common/base/n;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Tables;->j()Lcom/google/common/base/n;
 
     move-result-object v0
@@ -90,16 +87,13 @@
 
     return p0
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/google/common/collect/f2;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/f2;
 
-    .line 3
     invoke-interface {p0}, Lcom/google/common/collect/f2;->cellSet()Ljava/util/Set;
 
     move-result-object p0
@@ -148,7 +142,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Tables$ImmutableCell;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/google/common/collect/Tables$ImmutableCell;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
@@ -183,17 +176,14 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
 
     move-result v0
 
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Lcom/google/common/collect/StandardTable;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/StandardTable;-><init>(Ljava/util/Map;Lcom/google/common/base/z;)V
@@ -221,7 +211,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/collect/Synchronized;->z(Lcom/google/common/collect/f2;Ljava/lang/Object;)Lcom/google/common/collect/f2;
 
     move-result-object p0
@@ -254,7 +243,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Tables$c;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/Tables$c;-><init>(Lcom/google/common/collect/f2;Lcom/google/common/base/n;)V
@@ -280,7 +268,6 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcom/google/common/collect/Tables$d;
 
     if-eqz v0, :cond_0
@@ -323,7 +310,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Tables$UnmodifiableRowSortedMap;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/Tables$UnmodifiableRowSortedMap;-><init>(Lcom/google/common/collect/v1;)V
@@ -349,7 +335,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Tables$UnmodifiableTable;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/Tables$UnmodifiableTable;-><init>(Lcom/google/common/collect/f2;)V
@@ -374,7 +359,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/Tables;->a:Lcom/google/common/base/n;
 
     return-object v0

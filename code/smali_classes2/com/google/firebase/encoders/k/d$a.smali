@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/firebase/encoders/k/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/encoders/k/d$a;->a:Lcom/google/firebase/encoders/k/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,12 +50,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v6, Lcom/google/firebase/encoders/k/e;
 
     iget-object v0, p0, Lcom/google/firebase/encoders/k/d$a;->a:Lcom/google/firebase/encoders/k/d;
 
-    .line 2
     invoke-static {v0}, Lcom/google/firebase/encoders/k/d;->c(Lcom/google/firebase/encoders/k/d;)Ljava/util/Map;
 
     move-result-object v2
@@ -87,10 +84,8 @@
 
     const/4 p2, 0x0
 
-    .line 3
     invoke-virtual {v6, p1, p2}, Lcom/google/firebase/encoders/k/e;->k(Ljava/lang/Object;Z)Lcom/google/firebase/encoders/k/e;
 
-    .line 4
     invoke-virtual {v6}, Lcom/google/firebase/encoders/k/e;->y()V
 
     return-void
@@ -103,18 +98,15 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Ljava/io/StringWriter;
 
     invoke-direct {v0}, Ljava/io/StringWriter;-><init>()V
 
-    .line 2
     :try_start_0
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/encoders/k/d$a;->a(Ljava/lang/Object;Ljava/io/Writer;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3
     :catch_0
     invoke-virtual {v0}, Ljava/io/StringWriter;->toString()Ljava/lang/String;
 

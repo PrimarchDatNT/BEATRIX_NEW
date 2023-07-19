@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/tencent/matrix/backtrace/WarmUpService$e;Landroid/os/Looper;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$b;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
     invoke-direct {p0, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
@@ -35,24 +34,20 @@
 .method public handleMessage(Landroid/os/Message;)V
     .locals 3
 
-    .line 1
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     instance-of v0, p1, Landroid/os/Bundle;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Landroid/os/Bundle;
 
-    .line 3
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$b;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
     iget-object v0, v0, Lcom/tencent/matrix/backtrace/WarmUpService$e;->c:[Landroid/os/Bundle;
 
     monitor-enter v0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/tencent/matrix/backtrace/WarmUpService$e$b;->a:Lcom/tencent/matrix/backtrace/WarmUpService$e;
 
@@ -62,10 +57,8 @@
 
     aput-object p1, v1, v2
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/Object;->notifyAll()V
 
-    .line 6
     monitor-exit v0
 
     goto :goto_0

@@ -12,7 +12,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/firebase_remote_config/g;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -33,12 +32,10 @@
 
     const-string v3, "PUT"
 
-    .line 2
     filled-new-array {v0, v1, v2, v3}, [Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
     sput-object v0, Lcom/google/android/gms/internal/firebase_remote_config/g;->b:[Ljava/lang/String;
 
     invoke-static {v0}, Ljava/util/Arrays;->sort([Ljava/lang/Object;)V
@@ -49,7 +46,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -60,7 +56,6 @@
 .method public final a(Lcom/google/android/gms/internal/firebase_remote_config/e;)Lcom/google/android/gms/internal/firebase_remote_config/b;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/b;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/b;-><init>(Lcom/google/android/gms/internal/firebase_remote_config/g;Lcom/google/android/gms/internal/firebase_remote_config/e;)V
@@ -84,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/g;->b:[Ljava/lang/String;
 
     invoke-static {v0, p1}, Ljava/util/Arrays;->binarySearch([Ljava/lang/Object;Ljava/lang/Object;)I

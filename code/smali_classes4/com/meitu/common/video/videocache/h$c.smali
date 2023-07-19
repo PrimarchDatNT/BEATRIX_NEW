@@ -27,12 +27,10 @@
 .method public constructor <init>(Lcom/meitu/common/video/videocache/h;Ljava/net/Socket;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/video/videocache/h$c;->b:Lcom/meitu/common/video/videocache/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/common/video/videocache/h$c;->a:Ljava/net/Socket;
 
     return-void
@@ -47,14 +45,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h$c;->b:Lcom/meitu/common/video/videocache/h;
 
     iget-object v2, p0, Lcom/meitu/common/video/videocache/h$c;->a:Ljava/net/Socket;
 
     invoke-static {v1, v2}, Lcom/meitu/common/video/videocache/h;->b(Lcom/meitu/common/video/videocache/h;Ljava/net/Socket;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$a;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/DoodleFragment;->Z(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/beautyplus/f0/o7;
@@ -53,14 +52,12 @@
 
     invoke-virtual {v0}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->s()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$a;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/doodle/DoodleFragment;->H0(Z)V
 
-    .line 3
     new-instance v0, Lcom/commsource/util/p2/c;
 
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$a;->a:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -75,7 +72,6 @@
 
     invoke-direct {v0, v1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/doodle/DoodleFragment$a$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/doodle/DoodleFragment$a$a;-><init>(Lcom/commsource/studio/doodle/DoodleFragment$a;)V
@@ -84,10 +80,8 @@
 
     const-string v0, "doodle_shop_clk"
 
-    .line 5
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

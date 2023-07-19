@@ -68,27 +68,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/http/pool/RouteSpecificPool;->route:Ljava/lang/Object;
 
-    .line 3
     new-instance p1, Ljava/util/HashSet;
 
     invoke-direct {p1}, Ljava/util/HashSet;-><init>()V
 
     iput-object p1, p0, Lorg/apache/http/pool/RouteSpecificPool;->leased:Ljava/util/Set;
 
-    .line 4
     new-instance p1, Ljava/util/LinkedList;
 
     invoke-direct {p1}, Ljava/util/LinkedList;-><init>()V
 
     iput-object p1, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
-    .line 5
     new-instance p1, Ljava/util/LinkedList;
 
     invoke-direct {p1}, Ljava/util/LinkedList;-><init>()V
@@ -108,12 +103,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/apache/http/pool/RouteSpecificPool;->createEntry(Ljava/lang/Object;)Lorg/apache/http/pool/PoolEntry;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->leased:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
@@ -139,10 +132,8 @@
 
     const-string v0, "Pool entry"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->leased:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
@@ -151,12 +142,10 @@
 
     const-string v1, "Entry %s has not been leased from this pool"
 
-    .line 3
     invoke-static {v0, v1, p1}, Lorg/apache/http/util/Asserts;->check(ZLjava/lang/String;Ljava/lang/Object;)V
 
     if-eqz p2, :cond_0
 
-    .line 4
     iget-object p2, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
     invoke-virtual {p2, p1}, Ljava/util/LinkedList;->addFirst(Ljava/lang/Object;)V
@@ -168,7 +157,6 @@
 .method public getAllocatedCount()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
@@ -189,7 +177,6 @@
 .method public getAvailableCount()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
@@ -209,7 +196,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->isEmpty()Z
@@ -220,14 +206,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 3
     :cond_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -235,14 +219,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lorg/apache/http/pool/PoolEntry;
 
-    .line 5
     invoke-virtual {v1}, Lorg/apache/http/pool/PoolEntry;->getState()Ljava/lang/Object;
 
     move-result-object v2
@@ -253,17 +235,14 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
-    .line 7
     iget-object p1, p0, Lorg/apache/http/pool/RouteSpecificPool;->leased:Ljava/util/Set;
 
     invoke-interface {p1, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     return-object v1
 
-    .line 8
     :cond_1
     iget-object p1, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
@@ -271,7 +250,6 @@
 
     move-result-object p1
 
-    .line 9
     :cond_2
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -279,24 +257,20 @@
 
     if-eqz v0, :cond_3
 
-    .line 10
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lorg/apache/http/pool/PoolEntry;
 
-    .line 11
     invoke-virtual {v0}, Lorg/apache/http/pool/PoolEntry;->getState()Ljava/lang/Object;
 
     move-result-object v1
 
     if-nez v1, :cond_2
 
-    .line 12
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
-    .line 13
     iget-object p1, p0, Lorg/apache/http/pool/RouteSpecificPool;->leased:Ljava/util/Set;
 
     invoke-interface {p1, v0}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
@@ -317,7 +291,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->isEmpty()Z
@@ -326,7 +299,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->getLast()Ljava/lang/Object;
@@ -346,7 +318,6 @@
 .method public getLeasedCount()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->leased:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->size()I
@@ -359,7 +330,6 @@
 .method public getPendingCount()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->pending:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
@@ -377,7 +347,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->route:Ljava/lang/Object;
 
     return-object v0
@@ -393,7 +362,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->pending:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->poll()Ljava/lang/Object;
@@ -419,7 +387,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->pending:Ljava/util/LinkedList;
 
@@ -438,10 +405,8 @@
 
     const-string v0, "Pool entry"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
     invoke-virtual {v0, p1}, Ljava/util/LinkedList;->remove(Ljava/lang/Object;)Z
@@ -450,7 +415,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->leased:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
@@ -472,7 +436,6 @@
 .method public shutdown()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->pending:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
@@ -494,18 +457,15 @@
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {v1, v2}, Lorg/apache/http/pool/PoolEntryFuture;->cancel(Z)Z
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->pending:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->clear()V
 
-    .line 4
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
@@ -525,18 +485,15 @@
 
     check-cast v1, Lorg/apache/http/pool/PoolEntry;
 
-    .line 5
     invoke-virtual {v1}, Lorg/apache/http/pool/PoolEntry;->close()V
 
     goto :goto_1
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->clear()V
 
-    .line 7
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->leased:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -556,12 +513,10 @@
 
     check-cast v1, Lorg/apache/http/pool/PoolEntry;
 
-    .line 8
     invoke-virtual {v1}, Lorg/apache/http/pool/PoolEntry;->close()V
 
     goto :goto_2
 
-    .line 9
     :cond_2
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->leased:Ljava/util/Set;
 
@@ -573,27 +528,22 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v1, "[route: "
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object v1, p0, Lorg/apache/http/pool/RouteSpecificPool;->route:Ljava/lang/Object;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string v1, "][leased: "
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     iget-object v1, p0, Lorg/apache/http/pool/RouteSpecificPool;->leased:Ljava/util/Set;
 
     invoke-interface {v1}, Ljava/util/Set;->size()I
@@ -604,10 +554,8 @@
 
     const-string v1, "][available: "
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     iget-object v1, p0, Lorg/apache/http/pool/RouteSpecificPool;->available:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
@@ -618,10 +566,8 @@
 
     const-string v1, "][pending: "
 
-    .line 8
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     iget-object v1, p0, Lorg/apache/http/pool/RouteSpecificPool;->pending:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
@@ -632,10 +578,8 @@
 
     const-string v1, "]"
 
-    .line 10
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -657,7 +601,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lorg/apache/http/pool/RouteSpecificPool;->pending:Ljava/util/LinkedList;
 

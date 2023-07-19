@@ -40,10 +40,8 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 2
     sget-object v0, Lcom/res/provider/ResSTYLEABLE;->q0:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -58,7 +56,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
@@ -67,14 +64,12 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/commsource/studio/doodle/FadingEdgeRecycleView;->b:Z
 
-    .line 5
     invoke-virtual {p1, v0, v0}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
@@ -83,24 +78,20 @@
 
     const/4 p2, 0x2
 
-    .line 6
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/commsource/studio/doodle/FadingEdgeRecycleView;->d:Z
 
-    .line 7
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 8
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v0, 0x15
 
     if-ge p1, v0, :cond_0
 
-    .line 9
     invoke-virtual {p0, p2}, Landroid/view/ViewGroup;->setOverScrollMode(I)V
 
     :cond_0
@@ -185,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/widget/EdgeEffect;
 
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
@@ -200,7 +190,6 @@
 
     const-string v2, "mBottomGlow"
 
-    .line 2
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -214,7 +203,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/widget/EdgeEffect;->setSize(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -227,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/doodle/FadingEdgeRecycleView;->b:Z
 
     if-eqz v1, :cond_0
@@ -258,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/doodle/FadingEdgeRecycleView;->c:Z
 
     if-eqz v1, :cond_0
@@ -289,7 +275,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/doodle/FadingEdgeRecycleView;->d:Z
 
     if-eqz v1, :cond_0
@@ -320,7 +305,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/doodle/FadingEdgeRecycleView;->a:Z
 
     if-eqz v1, :cond_0

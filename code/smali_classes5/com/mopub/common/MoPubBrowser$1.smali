@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/common/MoPubBrowser;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/MoPubBrowser$1;->this$0:Lcom/mopub/common/MoPubBrowser;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onClick(Landroid/view/View;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/common/MoPubBrowser$1;->this$0:Lcom/mopub/common/MoPubBrowser;
 
     invoke-static {p1}, Lcom/mopub/common/MoPubBrowser;->access$000(Lcom/mopub/common/MoPubBrowser;)Landroid/webkit/WebView;
@@ -51,7 +49,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/common/MoPubBrowser$1;->this$0:Lcom/mopub/common/MoPubBrowser;
 
     invoke-static {p1}, Lcom/mopub/common/MoPubBrowser;->access$000(Lcom/mopub/common/MoPubBrowser;)Landroid/webkit/WebView;

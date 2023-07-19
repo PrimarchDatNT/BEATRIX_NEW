@@ -43,7 +43,6 @@
 
     const-string v4, " "
 
-    .line 1
     filled-new-array {v0, v1, v2, v3, v4}, [Ljava/lang/String;
 
     move-result-object v0
@@ -62,7 +61,6 @@
 
     const-string v6, "~="
 
-    .line 2
     filled-new-array/range {v1 .. v6}, [Ljava/lang/String;
 
     move-result-object v0
@@ -73,7 +71,6 @@
 
     const/4 v1, 0x2
 
-    .line 3
     invoke-static {v0, v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -82,7 +79,6 @@
 
     const-string v0, "([+-])?(\\d+)"
 
-    .line 4
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -95,28 +91,22 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
-    .line 3
     invoke-static {p1}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 5
     iput-object p1, p0, Lorg/jsoup/select/f;->b:Ljava/lang/String;
 
-    .line 6
     new-instance v0, Lorg/jsoup/parser/g;
 
     invoke-direct {v0, p1}, Lorg/jsoup/parser/g;-><init>(Ljava/lang/String;)V
@@ -129,7 +119,6 @@
 .method private a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$a;
@@ -144,7 +133,6 @@
 .method private b()V
     .locals 6
 
-    .line 1
     new-instance v0, Lorg/jsoup/parser/g;
 
     iget-object v1, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
@@ -159,20 +147,16 @@
 
     invoke-direct {v0, v1}, Lorg/jsoup/parser/g;-><init>(Ljava/lang/String;)V
 
-    .line 2
     sget-object v1, Lorg/jsoup/select/f;->e:[Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lorg/jsoup/parser/g;->n([Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v0}, Lorg/jsoup/parser/g;->p()Z
 
-    .line 5
     invoke-virtual {v0}, Lorg/jsoup/parser/g;->r()Z
 
     move-result v2
@@ -183,14 +167,12 @@
 
     const-string v0, "^"
 
-    .line 6
     invoke-virtual {v1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 7
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v2, Lorg/jsoup/select/c$d;
@@ -205,7 +187,6 @@
 
     goto/16 :goto_0
 
-    .line 8
     :cond_0
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
@@ -220,14 +201,12 @@
     :cond_1
     const-string v2, "="
 
-    .line 9
     invoke-virtual {v0, v2}, Lorg/jsoup/parser/g;->s(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 10
     iget-object v2, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v3, Lorg/jsoup/select/c$e;
@@ -245,14 +224,12 @@
     :cond_2
     const-string v2, "!="
 
-    .line 11
     invoke-virtual {v0, v2}, Lorg/jsoup/parser/g;->s(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
-    .line 12
     iget-object v2, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v3, Lorg/jsoup/select/c$i;
@@ -270,14 +247,12 @@
     :cond_3
     const-string v2, "^="
 
-    .line 13
     invoke-virtual {v0, v2}, Lorg/jsoup/parser/g;->s(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
-    .line 14
     iget-object v2, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v3, Lorg/jsoup/select/c$j;
@@ -295,14 +270,12 @@
     :cond_4
     const-string v2, "$="
 
-    .line 15
     invoke-virtual {v0, v2}, Lorg/jsoup/parser/g;->s(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_5
 
-    .line 16
     iget-object v2, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v3, Lorg/jsoup/select/c$g;
@@ -320,14 +293,12 @@
     :cond_5
     const-string v2, "*="
 
-    .line 17
     invoke-virtual {v0, v2}, Lorg/jsoup/parser/g;->s(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_6
 
-    .line 18
     iget-object v2, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v3, Lorg/jsoup/select/c$f;
@@ -345,14 +316,12 @@
     :cond_6
     const-string v2, "~="
 
-    .line 19
     invoke-virtual {v0, v2}, Lorg/jsoup/parser/g;->s(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_7
 
-    .line 20
     iget-object v2, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v3, Lorg/jsoup/select/c$h;
@@ -372,7 +341,6 @@
     :goto_0
     return-void
 
-    .line 21
     :cond_7
     new-instance v1, Lorg/jsoup/select/Selector$SelectorParseException;
 
@@ -402,17 +370,14 @@
 .method private c()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     invoke-virtual {v0}, Lorg/jsoup/parser/g;->j()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v2, Lorg/jsoup/select/c$k;
@@ -431,17 +396,14 @@
 .method private d()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     invoke-virtual {v0}, Lorg/jsoup/parser/g;->j()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v2, Lorg/jsoup/select/c$p;
@@ -456,7 +418,6 @@
 .method private e()V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     invoke-virtual {v0}, Lorg/jsoup/parser/g;->k()Ljava/lang/String;
@@ -467,12 +428,10 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
     const-string v1, "*|"
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v2
@@ -481,7 +440,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v4, Lorg/jsoup/select/b$b;
@@ -519,19 +477,16 @@
     :cond_0
     const-string v1, "|"
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 6
     invoke-virtual {v0, v1, v3}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
@@ -548,22 +503,18 @@
 .method private f(C)V
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     invoke-virtual {v0}, Lorg/jsoup/parser/g;->p()Z
 
-    .line 2
     invoke-direct {p0}, Lorg/jsoup/select/f;->h()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Lorg/jsoup/select/f;->t(Ljava/lang/String;)Lorg/jsoup/select/c;
 
     move-result-object v0
 
-    .line 4
     iget-object v1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -578,7 +529,6 @@
 
     if-ne v1, v3, :cond_0
 
-    .line 5
     iget-object v1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     invoke-interface {v1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -587,14 +537,12 @@
 
     check-cast v1, Lorg/jsoup/select/c;
 
-    .line 6
     instance-of v5, v1, Lorg/jsoup/select/b$b;
 
     if-eqz v5, :cond_1
 
     if-eq p1, v2, :cond_1
 
-    .line 7
     move-object v5, v1
 
     check-cast v5, Lorg/jsoup/select/b$b;
@@ -613,7 +561,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     new-instance v1, Lorg/jsoup/select/b$a;
 
@@ -626,7 +573,6 @@
 
     const/4 v6, 0x0
 
-    .line 9
     :goto_0
     iget-object v7, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
@@ -638,7 +584,6 @@
 
     if-ne p1, v7, :cond_2
 
-    .line 10
     new-instance p1, Lorg/jsoup/select/b$a;
 
     new-array v2, v8, [Lorg/jsoup/select/c;
@@ -660,7 +605,6 @@
 
     if-ne p1, v7, :cond_3
 
-    .line 11
     new-instance p1, Lorg/jsoup/select/b$a;
 
     new-array v2, v8, [Lorg/jsoup/select/c;
@@ -682,7 +626,6 @@
 
     if-ne p1, v7, :cond_4
 
-    .line 12
     new-instance p1, Lorg/jsoup/select/b$a;
 
     new-array v2, v8, [Lorg/jsoup/select/c;
@@ -704,7 +647,6 @@
 
     if-ne p1, v7, :cond_5
 
-    .line 13
     new-instance p1, Lorg/jsoup/select/b$a;
 
     new-array v2, v8, [Lorg/jsoup/select/c;
@@ -724,37 +666,30 @@
     :cond_5
     if-ne p1, v2, :cond_8
 
-    .line 14
     instance-of p1, v1, Lorg/jsoup/select/b$b;
 
     if-eqz p1, :cond_6
 
-    .line 15
     check-cast v1, Lorg/jsoup/select/b$b;
 
-    .line 16
     invoke-virtual {v1, v0}, Lorg/jsoup/select/b$b;->e(Lorg/jsoup/select/c;)V
 
     move-object p1, v1
 
     goto :goto_1
 
-    .line 17
     :cond_6
     new-instance p1, Lorg/jsoup/select/b$b;
 
     invoke-direct {p1}, Lorg/jsoup/select/b$b;-><init>()V
 
-    .line 18
     invoke-virtual {p1, v1}, Lorg/jsoup/select/b$b;->e(Lorg/jsoup/select/c;)V
 
-    .line 19
     invoke-virtual {p1, v0}, Lorg/jsoup/select/b$b;->e(Lorg/jsoup/select/c;)V
 
     :goto_1
     if-eqz v6, :cond_7
 
-    .line 20
     move-object v0, v5
 
     check-cast v0, Lorg/jsoup/select/b$b;
@@ -766,7 +701,6 @@
     :cond_7
     move-object v5, p1
 
-    .line 21
     :goto_2
     iget-object p1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
@@ -774,7 +708,6 @@
 
     return-void
 
-    .line 22
     :cond_8
     new-instance v0, Lorg/jsoup/select/Selector$SelectorParseException;
 
@@ -802,7 +735,6 @@
 .method private g()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     const-string v1, ")"
@@ -815,7 +747,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Lorg/jsoup/b/c;->h(Ljava/lang/String;)Z
 
     move-result v1
@@ -824,7 +755,6 @@
 
     invoke-static {v1, v2}, Lorg/jsoup/helper/c;->e(ZLjava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v0
@@ -835,12 +765,10 @@
 .method private h()Ljava/lang/String;
     .locals 4
 
-    .line 1
     invoke-static {}, Lorg/jsoup/b/c;->b()Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    .line 2
     :goto_0
     iget-object v1, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -850,7 +778,6 @@
 
     if-nez v1, :cond_3
 
-    .line 3
     iget-object v1, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     const-string v2, "("
@@ -861,7 +788,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
@@ -882,7 +808,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -894,7 +819,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
@@ -915,7 +839,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -929,7 +852,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -941,7 +863,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_3
     :goto_1
     invoke-static {v0}, Lorg/jsoup/b/c;->o(Ljava/lang/StringBuilder;)Ljava/lang/String;
@@ -954,7 +875,6 @@
 .method private i(Z)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     if-eqz p1, :cond_0
@@ -969,7 +889,6 @@
     :goto_0
     invoke-virtual {v0, v1}, Lorg/jsoup/parser/g;->h(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     const/16 v1, 0x28
@@ -986,12 +905,10 @@
 
     const-string v1, ":contains(text) query must not be empty"
 
-    .line 3
     invoke-static {v0, v1}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$m;
@@ -1002,7 +919,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
@@ -1019,14 +935,12 @@
 .method private j()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     const-string v1, ":containsData"
 
     invoke-virtual {v0, v1}, Lorg/jsoup/parser/g;->h(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     const/16 v1, 0x28
@@ -1043,10 +957,8 @@
 
     const-string v1, ":containsData(text) query must not be empty"
 
-    .line 3
     invoke-static {v0, v1}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v2, Lorg/jsoup/select/c$l;
@@ -1061,7 +973,6 @@
 .method private k(ZZ)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     const-string v1, ")"
@@ -1074,14 +985,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/jsoup/select/f;->f:Ljava/util/regex/Pattern;
 
     invoke-virtual {v1, v0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v1
 
-    .line 3
     sget-object v2, Lorg/jsoup/select/f;->g:Ljava/util/regex/Pattern;
 
     invoke-virtual {v2, v0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -1090,7 +999,6 @@
 
     const-string v3, "odd"
 
-    .line 4
     invoke-virtual {v3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -1110,7 +1018,6 @@
     :cond_0
     const-string v3, "even"
 
-    .line 5
     invoke-virtual {v3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -1119,7 +1026,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-virtual {v1}, Ljava/util/regex/Matcher;->matches()Z
 
@@ -1133,7 +1039,6 @@
 
     const/4 v0, 0x3
 
-    .line 7
     invoke-virtual {v1, v0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v0
@@ -1160,7 +1065,6 @@
     :goto_0
     const/4 v2, 0x4
 
-    .line 8
     invoke-virtual {v1, v2}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v3
@@ -1186,7 +1090,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_4
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->matches()Z
 
@@ -1194,7 +1097,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 10
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->group()Ljava/lang/String;
 
     move-result-object v0
@@ -1216,7 +1118,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 11
     iget-object p1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance p2, Lorg/jsoup/select/c$b0;
@@ -1227,7 +1128,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_5
     iget-object p1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
@@ -1242,7 +1142,6 @@
     :cond_6
     if-eqz p1, :cond_7
 
-    .line 13
     iget-object p1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance p2, Lorg/jsoup/select/c$a0;
@@ -1253,7 +1152,6 @@
 
     goto :goto_2
 
-    .line 14
     :cond_7
     iget-object p1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
@@ -1266,7 +1164,6 @@
     :goto_2
     return-void
 
-    .line 15
     :cond_8
     new-instance p1, Lorg/jsoup/select/Selector$SelectorParseException;
 
@@ -1284,7 +1181,6 @@
 .method private l()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     const-string v1, "#"
@@ -1295,12 +1191,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lorg/jsoup/select/f;->d()V
 
     goto/16 :goto_1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1312,12 +1206,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-direct {p0}, Lorg/jsoup/select/f;->c()V
 
     goto/16 :goto_1
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1339,7 +1231,6 @@
 
     goto/16 :goto_0
 
-    .line 6
     :cond_2
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1351,12 +1242,10 @@
 
     if-eqz v0, :cond_3
 
-    .line 7
     invoke-direct {p0}, Lorg/jsoup/select/f;->b()V
 
     goto/16 :goto_1
 
-    .line 8
     :cond_3
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1368,12 +1257,10 @@
 
     if-eqz v0, :cond_4
 
-    .line 9
     invoke-direct {p0}, Lorg/jsoup/select/f;->a()V
 
     goto/16 :goto_1
 
-    .line 10
     :cond_4
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1385,12 +1272,10 @@
 
     if-eqz v0, :cond_5
 
-    .line 11
     invoke-direct {p0}, Lorg/jsoup/select/f;->p()V
 
     goto/16 :goto_1
 
-    .line 12
     :cond_5
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1402,12 +1287,10 @@
 
     if-eqz v0, :cond_6
 
-    .line 13
     invoke-direct {p0}, Lorg/jsoup/select/f;->o()V
 
     goto/16 :goto_1
 
-    .line 14
     :cond_6
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1419,12 +1302,10 @@
 
     if-eqz v0, :cond_7
 
-    .line 15
     invoke-direct {p0}, Lorg/jsoup/select/f;->n()V
 
     goto/16 :goto_1
 
-    .line 16
     :cond_7
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1436,12 +1317,10 @@
 
     if-eqz v0, :cond_8
 
-    .line 17
     invoke-direct {p0}, Lorg/jsoup/select/f;->m()V
 
     goto/16 :goto_1
 
-    .line 18
     :cond_8
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1455,12 +1334,10 @@
 
     if-eqz v0, :cond_9
 
-    .line 19
     invoke-direct {p0, v1}, Lorg/jsoup/select/f;->i(Z)V
 
     goto/16 :goto_1
 
-    .line 20
     :cond_9
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1474,12 +1351,10 @@
 
     if-eqz v0, :cond_a
 
-    .line 21
     invoke-direct {p0, v2}, Lorg/jsoup/select/f;->i(Z)V
 
     goto/16 :goto_1
 
-    .line 22
     :cond_a
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1491,12 +1366,10 @@
 
     if-eqz v0, :cond_b
 
-    .line 23
     invoke-direct {p0}, Lorg/jsoup/select/f;->j()V
 
     goto/16 :goto_1
 
-    .line 24
     :cond_b
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1508,12 +1381,10 @@
 
     if-eqz v0, :cond_c
 
-    .line 25
     invoke-direct {p0, v1}, Lorg/jsoup/select/f;->q(Z)V
 
     goto/16 :goto_1
 
-    .line 26
     :cond_c
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1525,12 +1396,10 @@
 
     if-eqz v0, :cond_d
 
-    .line 27
     invoke-direct {p0, v2}, Lorg/jsoup/select/f;->q(Z)V
 
     goto/16 :goto_1
 
-    .line 28
     :cond_d
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1542,12 +1411,10 @@
 
     if-eqz v0, :cond_e
 
-    .line 29
     invoke-direct {p0}, Lorg/jsoup/select/f;->r()V
 
     goto/16 :goto_1
 
-    .line 30
     :cond_e
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1559,12 +1426,10 @@
 
     if-eqz v0, :cond_f
 
-    .line 31
     invoke-direct {p0, v1, v1}, Lorg/jsoup/select/f;->k(ZZ)V
 
     goto/16 :goto_1
 
-    .line 32
     :cond_f
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1576,12 +1441,10 @@
 
     if-eqz v0, :cond_10
 
-    .line 33
     invoke-direct {p0, v2, v1}, Lorg/jsoup/select/f;->k(ZZ)V
 
     goto/16 :goto_1
 
-    .line 34
     :cond_10
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1593,12 +1456,10 @@
 
     if-eqz v0, :cond_11
 
-    .line 35
     invoke-direct {p0, v1, v2}, Lorg/jsoup/select/f;->k(ZZ)V
 
     goto/16 :goto_1
 
-    .line 36
     :cond_11
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1610,12 +1471,10 @@
 
     if-eqz v0, :cond_12
 
-    .line 37
     invoke-direct {p0, v2, v2}, Lorg/jsoup/select/f;->k(ZZ)V
 
     goto/16 :goto_1
 
-    .line 38
     :cond_12
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1627,7 +1486,6 @@
 
     if-eqz v0, :cond_13
 
-    .line 39
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$v;
@@ -1638,7 +1496,6 @@
 
     goto/16 :goto_1
 
-    .line 40
     :cond_13
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1650,7 +1507,6 @@
 
     if-eqz v0, :cond_14
 
-    .line 41
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$x;
@@ -1661,7 +1517,6 @@
 
     goto/16 :goto_1
 
-    .line 42
     :cond_14
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1673,7 +1528,6 @@
 
     if-eqz v0, :cond_15
 
-    .line 43
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$w;
@@ -1684,7 +1538,6 @@
 
     goto/16 :goto_1
 
-    .line 44
     :cond_15
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1696,7 +1549,6 @@
 
     if-eqz v0, :cond_16
 
-    .line 45
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$y;
@@ -1707,7 +1559,6 @@
 
     goto/16 :goto_1
 
-    .line 46
     :cond_16
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1719,7 +1570,6 @@
 
     if-eqz v0, :cond_17
 
-    .line 47
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$d0;
@@ -1730,7 +1580,6 @@
 
     goto :goto_1
 
-    .line 48
     :cond_17
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1742,7 +1591,6 @@
 
     if-eqz v0, :cond_18
 
-    .line 49
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$e0;
@@ -1753,7 +1601,6 @@
 
     goto :goto_1
 
-    .line 50
     :cond_18
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1765,7 +1612,6 @@
 
     if-eqz v0, :cond_19
 
-    .line 51
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$u;
@@ -1776,7 +1622,6 @@
 
     goto :goto_1
 
-    .line 52
     :cond_19
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1788,7 +1633,6 @@
 
     if-eqz v0, :cond_1a
 
-    .line 53
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$f0;
@@ -1799,7 +1643,6 @@
 
     goto :goto_1
 
-    .line 54
     :cond_1a
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -1811,7 +1654,6 @@
 
     if-eqz v0, :cond_1b
 
-    .line 55
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$g0;
@@ -1822,7 +1664,6 @@
 
     goto :goto_1
 
-    .line 56
     :cond_1b
     new-instance v0, Lorg/jsoup/select/Selector$SelectorParseException;
 
@@ -1848,7 +1689,6 @@
 
     throw v0
 
-    .line 57
     :cond_1c
     :goto_0
     invoke-direct {p0}, Lorg/jsoup/select/f;->e()V
@@ -1860,14 +1700,12 @@
 .method private m()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     const-string v1, ":has"
 
     invoke-virtual {v0, v1}, Lorg/jsoup/parser/g;->h(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     const/16 v1, 0x28
@@ -1880,10 +1718,8 @@
 
     const-string v1, ":has(el) subselect must not be empty"
 
-    .line 3
     invoke-static {v0, v1}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v2, Lorg/jsoup/select/g$a;
@@ -1902,7 +1738,6 @@
 .method private n()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$q;
@@ -1921,7 +1756,6 @@
 .method private o()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$s;
@@ -1940,7 +1774,6 @@
 .method private p()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$t;
@@ -1959,7 +1792,6 @@
 .method private q(Z)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     if-eqz p1, :cond_0
@@ -1974,7 +1806,6 @@
     :goto_0
     invoke-virtual {v0, v1}, Lorg/jsoup/parser/g;->h(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     const/16 v1, 0x28
@@ -1987,12 +1818,10 @@
 
     const-string v1, ":matches(regex) query must not be empty"
 
-    .line 3
     invoke-static {v0, v1}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/c$i0;
@@ -2007,7 +1836,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
@@ -2028,14 +1856,12 @@
 .method private r()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     const-string v1, ":not"
 
     invoke-virtual {v0, v1}, Lorg/jsoup/parser/g;->h(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     const/16 v1, 0x28
@@ -2048,10 +1874,8 @@
 
     const-string v1, ":not(selector) subselect must not be empty"
 
-    .line 3
     invoke-static {v0, v1}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v2, Lorg/jsoup/select/g$d;
@@ -2070,13 +1894,11 @@
 .method public static t(Ljava/lang/String;)Lorg/jsoup/select/c;
     .locals 2
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/jsoup/select/f;
 
     invoke-direct {v0, p0}, Lorg/jsoup/select/f;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v0}, Lorg/jsoup/select/f;->s()Lorg/jsoup/select/c;
 
     move-result-object p0
@@ -2088,7 +1910,6 @@
     :catch_0
     move-exception p0
 
-    .line 3
     new-instance v0, Lorg/jsoup/select/Selector$SelectorParseException;
 
     invoke-virtual {p0}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -2109,12 +1930,10 @@
 .method s()Lorg/jsoup/select/c;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     invoke-virtual {v0}, Lorg/jsoup/parser/g;->p()Z
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     sget-object v1, Lorg/jsoup/select/f;->d:[Ljava/lang/String;
@@ -2125,7 +1944,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     new-instance v1, Lorg/jsoup/select/g$g;
@@ -2134,7 +1952,6 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     invoke-virtual {v0}, Lorg/jsoup/parser/g;->g()C
@@ -2145,11 +1962,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-direct {p0}, Lorg/jsoup/select/f;->l()V
 
-    .line 6
     :goto_0
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
@@ -2159,14 +1974,12 @@
 
     if-nez v0, :cond_3
 
-    .line 7
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     invoke-virtual {v0}, Lorg/jsoup/parser/g;->p()Z
 
     move-result v0
 
-    .line 8
     iget-object v1, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     sget-object v2, Lorg/jsoup/select/f;->d:[Ljava/lang/String;
@@ -2177,7 +1990,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 9
     iget-object v0, p0, Lorg/jsoup/select/f;->a:Lorg/jsoup/parser/g;
 
     invoke-virtual {v0}, Lorg/jsoup/parser/g;->g()C
@@ -2193,18 +2005,15 @@
 
     const/16 v0, 0x20
 
-    .line 10
     invoke-direct {p0, v0}, Lorg/jsoup/select/f;->f(C)V
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-direct {p0}, Lorg/jsoup/select/f;->l()V
 
     goto :goto_0
 
-    .line 12
     :cond_3
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
@@ -2216,7 +2025,6 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 13
     iget-object v0, p0, Lorg/jsoup/select/f;->c:Ljava/util/List;
 
     const/4 v1, 0x0
@@ -2229,7 +2037,6 @@
 
     return-object v0
 
-    .line 14
     :cond_4
     new-instance v0, Lorg/jsoup/select/b$a;
 

@@ -72,31 +72,26 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lf/d/f/b;->a:Ljava/util/List;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lf/d/f/b;->b:Ljava/util/List;
 
-    .line 4
     new-instance v0, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v0}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v0, p0, Lf/d/f/b;->d:Landroidx/lifecycle/MutableLiveData;
 
-    .line 5
     invoke-static {}, Lcom/commsource/beautyplus/m0/d;->a()Lcom/commsource/beautyplus/m0/d;
 
     move-result-object v0
@@ -123,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lf/d/f/b;->d(Landroid/content/Context;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/d/f/b;->s(Landroid/content/Context;Lcom/commsource/backend/bean/OperationAdResponse;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/d/f/b;->r(Landroid/content/Context;Lcom/commsource/backend/bean/OperationAdResponse;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -170,15 +162,12 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lf/d/f/b;->b:Ljava/util/List;
 
     const-string v1, ""
 
-    .line 2
     invoke-static {p1, v1}, Lf/d/i/b;->a0(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -193,25 +182,20 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lf/d/f/b;->a:Ljava/util/List;
 
     const-string v2, ""
 
-    .line 2
     invoke-static {p1, v2}, Lf/d/i/b;->f0(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, v1}, Lf/d/f/b;->m(Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-direct {p0, v1}, Lf/d/f/b;->q(Lcom/commsource/backend/bean/TopBannerCollection;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -238,19 +222,16 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
-    .line 3
     :cond_0
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
@@ -259,19 +240,16 @@
 
     if-eqz v1, :cond_3
 
-    .line 4
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/commsource/backend/bean/BaseOperationAd;
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/backend/bean/BaseOperationAd;->getVersionControl()I
 
     move-result v2
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/backend/bean/BaseOperationAd;->getMaxVersion()Ljava/lang/String;
 
     move-result-object v3
@@ -280,14 +258,12 @@
 
     move-result-object v4
 
-    .line 7
     invoke-static {v2, p2, v3, v4}, Lcom/commsource/util/x;->j(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/backend/bean/BaseOperationAd;->getPicture()Ljava/lang/String;
 
     move-result-object v2
@@ -308,19 +284,16 @@
 
     if-nez v1, :cond_0
 
-    .line 9
     :cond_1
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -334,19 +307,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/d/f/b;->n:Lf/d/f/b;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lf/d/f/b;
 
     invoke-direct {v1}, Lf/d/f/b;-><init>()V
 
     sput-object v1, Lf/d/f/b;->n:Lf/d/f/b;
 
-    .line 3
     :cond_0
     sget-object v1, Lf/d/f/b;->n:Lf/d/f/b;
 
@@ -362,22 +332,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/backend/bean/TopBannerCollection;->getList()Ljava/util/ArrayList;
 
     move-result-object v1
 
     iput-object v1, p0, Lf/d/f/b;->a:Ljava/util/List;
 
-    .line 2
     invoke-direct {p0, v1, p3}, Lf/d/f/b;->f(Ljava/util/List;Ljava/lang/String;)V
 
-    .line 3
     iget-object p3, p0, Lf/d/f/b;->a:Ljava/util/List;
 
     invoke-direct {p0, p3}, Lf/d/f/b;->w(Ljava/util/List;)V
 
-    .line 4
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object p3
@@ -386,13 +352,10 @@
 
     move-result-object p3
 
-    .line 5
     invoke-static {p1, p3}, Lf/d/i/b;->f0(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 6
     invoke-direct {p0, p2}, Lf/d/f/b;->q(Lcom/commsource/backend/bean/TopBannerCollection;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -405,7 +368,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -429,7 +391,6 @@
     :goto_0
     const/4 p1, 0x1
 
-    .line 2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -443,14 +404,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/b;->O()Lcom/commsource/backend/bean/FilterCenterCollection;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/backend/bean/FilterCenterCollection;->getUpdate()Ljava/lang/String;
 
     move-result-object v2
@@ -459,7 +418,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/backend/bean/FilterCenterCollection;->getUpdate()Ljava/lang/String;
 
@@ -475,7 +433,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -496,7 +453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -505,7 +461,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -522,7 +477,6 @@
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -539,14 +493,12 @@
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
@@ -557,7 +509,6 @@
 
     return p1
 
-    .line 6
     :cond_0
     invoke-virtual {v1, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
@@ -577,14 +528,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/b;->U()Lcom/commsource/backend/bean/TopBannerCollection;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/backend/bean/TopBannerCollection;->getUpdate()Ljava/lang/String;
 
     move-result-object v2
@@ -593,7 +542,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/backend/bean/TopBannerCollection;->getUpdate()Ljava/lang/String;
 
@@ -609,7 +557,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -630,7 +577,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/backend/bean/BaseOperationAd;->getWeight()I
 
     move-result v1
@@ -641,7 +587,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/backend/bean/BaseOperationAd;->getId()I
 
     move-result p1
@@ -658,7 +603,6 @@
 
     return p0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/backend/bean/BaseOperationAd;->getWeight()I
 
@@ -672,7 +616,6 @@
 
     const/4 p0, -0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -680,7 +623,6 @@
     :cond_1
     const/4 p0, 0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -693,12 +635,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     invoke-static {p0}, Lf/d/i/b;->M(Landroid/content/Context;)J
 
     move-result-wide v3
@@ -707,7 +647,6 @@
 
     const-wide/16 v3, 0x3e8
 
-    .line 3
     div-long/2addr v1, v3
 
     const-wide/16 v3, 0x3c
@@ -727,7 +666,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -741,14 +679,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/d/f/b;->h()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -761,7 +697,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/backend/bean/OperationAdResponse;->getData()Lcom/commsource/backend/bean/Data;
 
     move-result-object p2
@@ -772,14 +707,12 @@
 
     if-eqz p2, :cond_8
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/backend/bean/FilterCenterCollection;->getList()Ljava/util/ArrayList;
 
     move-result-object v1
 
     if-eqz v1, :cond_8
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/backend/bean/FilterCenterCollection;->getList()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -792,7 +725,6 @@
 
     goto/16 :goto_4
 
-    .line 4
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/backend/bean/FilterCenterCollection;->getUpdate()Ljava/lang/String;
 
@@ -804,22 +736,18 @@
 
     if-eqz v1, :cond_9
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/backend/bean/FilterCenterCollection;->getList()Ljava/util/ArrayList;
 
     move-result-object v1
 
     iput-object v1, p0, Lf/d/f/b;->b:Ljava/util/List;
 
-    .line 6
     invoke-direct {p0, v1, p3}, Lf/d/f/b;->f(Ljava/util/List;Ljava/lang/String;)V
 
-    .line 7
     iget-object p3, p0, Lf/d/f/b;->b:Ljava/util/List;
 
     invoke-direct {p0, p3}, Lf/d/f/b;->w(Ljava/util/List;)V
 
-    .line 8
     iget-object p3, p0, Lf/d/f/b;->b:Ljava/util/List;
 
     if-eqz p3, :cond_1
@@ -830,7 +758,6 @@
 
     if-lez p3, :cond_1
 
-    .line 9
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object p3
@@ -844,7 +771,6 @@
     :cond_1
     const-string p2, ""
 
-    .line 10
     :goto_0
     iget-object p3, p0, Lf/d/f/b;->b:Ljava/util/List;
 
@@ -864,7 +790,6 @@
 
     if-lez p3, :cond_2
 
-    .line 11
     iget-object p3, p0, Lf/d/f/b;->b:Ljava/util/List;
 
     invoke-interface {p3, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -873,7 +798,6 @@
 
     check-cast p3, Lcom/commsource/backend/bean/FilterCenterAd;
 
-    .line 12
     invoke-virtual {p3}, Lcom/commsource/backend/bean/BaseOperationAd;->getPicture()Ljava/lang/String;
 
     move-result-object v5
@@ -884,7 +808,6 @@
 
     if-nez v5, :cond_2
 
-    .line 13
     invoke-virtual {p3}, Lcom/commsource/backend/bean/BaseOperationAd;->getPicture()Ljava/lang/String;
 
     move-result-object p3
@@ -895,14 +818,12 @@
 
     if-eqz p3, :cond_2
 
-    .line 14
     invoke-virtual {p3}, Ljava/io/File;->exists()Z
 
     move-result v5
 
     if-eqz v5, :cond_2
 
-    .line 15
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -928,7 +849,6 @@
     :cond_2
     const/4 p3, 0x0
 
-    .line 16
     :goto_1
     iget-object v5, p0, Lf/d/f/b;->b:Ljava/util/List;
 
@@ -940,7 +860,6 @@
 
     if-le v5, v4, :cond_3
 
-    .line 17
     iget-object v5, p0, Lf/d/f/b;->b:Ljava/util/List;
 
     invoke-interface {v5, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -949,7 +868,6 @@
 
     check-cast v5, Lcom/commsource/backend/bean/FilterCenterAd;
 
-    .line 18
     invoke-virtual {v5}, Lcom/commsource/backend/bean/BaseOperationAd;->getPicture()Ljava/lang/String;
 
     move-result-object v6
@@ -960,7 +878,6 @@
 
     if-nez v6, :cond_3
 
-    .line 19
     invoke-virtual {v5}, Lcom/commsource/backend/bean/BaseOperationAd;->getPicture()Ljava/lang/String;
 
     move-result-object v5
@@ -971,14 +888,12 @@
 
     if-eqz v5, :cond_3
 
-    .line 20
     invoke-virtual {v5}, Ljava/io/File;->exists()Z
 
     move-result v6
 
     if-eqz v6, :cond_3
 
-    .line 21
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -1004,7 +919,6 @@
     :cond_3
     const/4 v1, 0x0
 
-    .line 22
     :goto_2
     iget-object v2, p0, Lf/d/f/b;->b:Ljava/util/List;
 
@@ -1018,7 +932,6 @@
 
     goto :goto_3
 
-    .line 23
     :cond_4
     iget-object v2, p0, Lf/d/f/b;->b:Ljava/util/List;
 
@@ -1032,7 +945,6 @@
 
     goto :goto_3
 
-    .line 24
     :cond_5
     iget-object v2, p0, Lf/d/f/b;->b:Ljava/util/List;
 
@@ -1053,20 +965,16 @@
     :cond_7
     if-eqz v3, :cond_9
 
-    .line 25
     invoke-static {p1, p2}, Lf/d/i/b;->a0(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 26
     invoke-direct {p0}, Lf/d/f/b;->u()V
 
     goto :goto_5
 
-    .line 27
     :cond_8
     :goto_4
     invoke-direct {p0, p1}, Lf/d/f/b;->d(Landroid/content/Context;)V
 
-    .line 28
     :cond_9
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1081,7 +989,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/backend/bean/OperationAdResponse;->getData()Lcom/commsource/backend/bean/Data;
 
     move-result-object p2
@@ -1090,12 +997,10 @@
 
     move-result-object p2
 
-    .line 2
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v1
 
-    .line 3
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v2
@@ -1104,7 +1009,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1136,7 +1040,6 @@
 
     if-eqz p2, :cond_b
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/backend/bean/LaunchCollection;->getList()Ljava/util/ArrayList;
 
     move-result-object v4
@@ -1155,7 +1058,6 @@
 
     goto/16 :goto_4
 
-    .line 6
     :cond_1
     invoke-virtual {p2}, Lcom/commsource/backend/bean/LaunchCollection;->getUpdate()Ljava/lang/String;
 
@@ -1167,28 +1069,22 @@
 
     if-eqz v4, :cond_a
 
-    .line 7
     invoke-virtual {p2}, Lcom/commsource/backend/bean/LaunchCollection;->getList()Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 8
     invoke-direct {p0, v4, p3}, Lf/d/f/b;->f(Ljava/util/List;Ljava/lang/String;)V
 
-    .line 9
     invoke-direct {p0, v4}, Lf/d/f/b;->w(Ljava/util/List;)V
 
-    .line 10
     new-instance p3, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;
 
     invoke-direct {p3}, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;-><init>()V
 
-    .line 11
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 12
     sget-object v6, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
     if-nez v6, :cond_2
@@ -1202,7 +1098,6 @@
 
     move-result-object v6
 
-    .line 13
     :goto_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -1219,7 +1114,6 @@
     :cond_3
     move-object v3, v7
 
-    .line 14
     :goto_1
     invoke-virtual {v4}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
@@ -1238,7 +1132,6 @@
 
     check-cast v7, Lcom/commsource/backend/bean/LaunchAd;
 
-    .line 15
     invoke-virtual {v7}, Lcom/commsource/backend/bean/BaseOperationAd;->getBrandList()Ljava/lang/String;
 
     move-result-object v8
@@ -1257,7 +1150,6 @@
 
     if-ne v8, v9, :cond_4
 
-    .line 16
     invoke-virtual {v7}, Lcom/commsource/backend/bean/BaseOperationAd;->getBrandList()Ljava/lang/String;
 
     move-result-object v8
@@ -1274,7 +1166,6 @@
 
     goto :goto_2
 
-    .line 17
     :cond_4
     invoke-virtual {v7}, Lcom/commsource/backend/bean/BaseOperationAd;->getBrandList()Ljava/lang/String;
 
@@ -1294,7 +1185,6 @@
 
     if-ne v8, v10, :cond_5
 
-    .line 18
     invoke-virtual {v7}, Lcom/commsource/backend/bean/BaseOperationAd;->getBrandList()Ljava/lang/String;
 
     move-result-object v8
@@ -1311,7 +1201,6 @@
 
     goto :goto_2
 
-    .line 19
     :cond_5
     invoke-virtual {v7}, Lcom/commsource/backend/bean/BaseOperationAd;->getAppChannel()Ljava/lang/String;
 
@@ -1335,7 +1224,6 @@
 
     if-nez v8, :cond_6
 
-    .line 20
     invoke-virtual {v7}, Lcom/commsource/backend/bean/BaseOperationAd;->getAppChannel()Ljava/lang/String;
 
     move-result-object v8
@@ -1357,7 +1245,6 @@
 
     const/4 v2, 0x1
 
-    .line 21
     :cond_7
     invoke-virtual {v7}, Lcom/commsource/backend/bean/BaseOperationAd;->getVideo()Ljava/lang/String;
 
@@ -1369,33 +1256,28 @@
 
     xor-int/2addr v8, v9
 
-    .line 22
     new-instance v9, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;
 
     invoke-direct {v9}, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;-><init>()V
 
-    .line 23
     invoke-virtual {v7}, Lcom/commsource/backend/bean/BaseOperationAd;->getId()I
 
     move-result v10
 
     invoke-virtual {v9, v10}, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->setId(I)V
 
-    .line 24
     invoke-virtual {v7}, Lcom/commsource/backend/bean/BaseOperationAd;->getPicture()Ljava/lang/String;
 
     move-result-object v10
 
     invoke-virtual {v9, v10}, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->setPicture(Ljava/lang/String;)V
 
-    .line 25
     invoke-virtual {v7}, Lcom/commsource/backend/bean/BaseOperationAd;->getLinkTarget()I
 
     move-result v10
 
     invoke-virtual {v9, v10}, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->setAfter_action(I)V
 
-    .line 26
     invoke-virtual {v7}, Lcom/commsource/backend/bean/BaseOperationAd;->getLink()Ljava/lang/String;
 
     move-result-object v10
@@ -1404,7 +1286,6 @@
 
     if-eqz v8, :cond_8
 
-    .line 27
     invoke-virtual {v7}, Lcom/commsource/backend/bean/LaunchAd;->getVideo_delay()I
 
     move-result v8
@@ -1419,43 +1300,35 @@
     :goto_3
     invoke-virtual {v9, v8}, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->setLoading_time(I)V
 
-    .line 28
     invoke-virtual {v7}, Lcom/commsource/backend/bean/BaseOperationAd;->getVideo()Ljava/lang/String;
 
     move-result-object v8
 
     invoke-virtual {v9, v8}, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->setVideo(Ljava/lang/String;)V
 
-    .line 29
     invoke-virtual {v7}, Lcom/commsource/backend/bean/LaunchAd;->getShowAdTime()I
 
     move-result v8
 
     invoke-virtual {v9, v8}, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->setShowTime(I)V
 
-    .line 30
     invoke-virtual {v7}, Lcom/commsource/backend/bean/LaunchAd;->getEndAdTime()I
 
     move-result v7
 
     invoke-virtual {v9, v7}, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->setEndTime(I)V
 
-    .line 31
     invoke-virtual {v5, v9}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_2
 
-    .line 32
     :cond_9
     invoke-virtual {p3, v5}, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;->setLaunchAds(Ljava/util/ArrayList;)V
 
-    .line 33
     invoke-static {p3}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->setMtAdData(Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;)V
 
-    .line 34
     invoke-static {v2}, Lf/d/i/b;->b0(Z)V
 
-    .line 35
     invoke-virtual {p2}, Lcom/commsource/backend/bean/LaunchCollection;->getUpdate()Ljava/lang/String;
 
     move-result-object p2
@@ -1467,25 +1340,21 @@
     :cond_a
     const-string/jumbo p1, "\u5f00\u5c4f\u5e7f\u544a\u670d\u52a1\u7aef\u6570\u636e\u65e0\u66f4\u65b0"
 
-    .line 36
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
     goto :goto_5
 
-    .line 37
     :cond_b
     :goto_4
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->clearMtAdData()V
 
     if-eqz v1, :cond_c
 
-    .line 38
     invoke-static {v2}, Lf/d/i/b;->b0(Z)V
 
     :cond_c
     if-eqz p2, :cond_d
 
-    .line 39
     invoke-virtual {p2}, Lcom/commsource/backend/bean/LaunchCollection;->getUpdate()Ljava/lang/String;
 
     move-result-object v3
@@ -1493,7 +1362,6 @@
     :cond_d
     invoke-static {p1, v3}, Lf/d/i/b;->c0(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 40
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1509,14 +1377,12 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/backend/bean/TopBannerCollection;->getList()Ljava/util/ArrayList;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/backend/bean/TopBannerCollection;->getList()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -1529,7 +1395,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/backend/bean/TopBannerCollection;->getUpdate()Ljava/lang/String;
 
@@ -1541,17 +1406,14 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-direct {p0, p1, p2, p3}, Lf/d/f/b;->i(Landroid/content/Context;Lcom/commsource/backend/bean/TopBannerCollection;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     :goto_0
     invoke-direct {p0, p1}, Lf/d/f/b;->e(Landroid/content/Context;)V
 
-    .line 6
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1566,7 +1428,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/f/b;->b:Ljava/util/List;
 
     if-eqz v1, :cond_3
@@ -1579,7 +1440,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lf/d/f/b;->b:Ljava/util/List;
 
@@ -1601,7 +1461,6 @@
 
     check-cast v2, Lcom/commsource/backend/bean/FilterCenterAd;
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/backend/bean/BaseOperationAd;->getPicture()Ljava/lang/String;
 
     move-result-object v3
@@ -1612,7 +1471,6 @@
 
     if-nez v3, :cond_1
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/backend/bean/BaseOperationAd;->getPicture()Ljava/lang/String;
 
     move-result-object v2
@@ -1621,13 +1479,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1653,19 +1509,16 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lf/d/f/a;->a:Lf/d/f/a;
 
     invoke-static {p1, v1}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1689,7 +1542,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/f/b;->d:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1704,19 +1556,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/d/a;->f()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
     invoke-static {p1, v2, v3}, Lf/d/i/b;->Z(Landroid/content/Context;J)V
 
-    .line 3
     const-class v2, Lcom/meitu/http/api/OperationApi;
 
     invoke-static {v2}, Lf/k/k/s;->n(Ljava/lang/Class;)Ljava/lang/Object;
@@ -1731,7 +1580,6 @@
 
     invoke-virtual {v2, v3}, Lcom/meitu/http/api/OperationApi;->b(Lf/k/k/p;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1753,10 +1601,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/d/f/b;->c:Lcom/commsource/beautyplus/base/a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

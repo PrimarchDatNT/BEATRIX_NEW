@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/k/h/a/l/x/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/l/x/j$a;->a:Lf/k/h/a/l/x/j;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/l/x/j;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -73,7 +71,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p2, p0, Lf/k/h/a/l/x/j$a;->a:Lf/k/h/a/l/x/j;
 
     invoke-static {p2, p1}, Lf/k/h/a/l/x/j;->d(Lf/k/h/a/l/x/j;I)V
@@ -83,7 +80,6 @@
     :cond_0
     if-eqz p2, :cond_2
 
-    .line 3
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result p1
@@ -92,7 +88,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lf/k/h/a/l/x/j$a;->a:Lf/k/h/a/l/x/j;
 
@@ -100,7 +95,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     :goto_0
     invoke-static {}, Lf/k/h/a/l/x/j;->b()Ljava/lang/String;
@@ -111,15 +105,12 @@
 
     invoke-static {p1, v1}, Lf/k/h/a/c;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object p1, p0, Lf/k/h/a/l/x/j$a;->a:Lf/k/h/a/l/x/j;
 
     invoke-static {p1, p2}, Lf/k/h/a/l/x/j;->f(Lf/k/h/a/l/x/j;Ljava/util/List;)V
 
-    .line 7
     invoke-static {}, Lf/k/h/a/l/w;->d()V
 
-    .line 8
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

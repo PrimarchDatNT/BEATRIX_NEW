@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/CoroutineDispatcher;-><init>()V
 
     return-void
@@ -44,13 +43,11 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/j1;->A(Z)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -88,13 +85,11 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/j1;->K(Z)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -110,7 +105,6 @@
 .method public final A(Z)V
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/j1;->b:J
 
     invoke-direct {p0, p1}, Lcotlinx/coroutines/j1;->E(Z)J
@@ -129,7 +123,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
@@ -162,14 +155,12 @@
 
     throw p1
 
-    .line 3
     :cond_3
     :goto_1
     iget-boolean p1, p0, Lcotlinx/coroutines/j1;->c:Z
 
     if-eqz p1, :cond_4
 
-    .line 4
     invoke-virtual {p0}, Lcotlinx/coroutines/j1;->shutdown()V
 
     :cond_4
@@ -190,14 +181,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/j1;->d:Lcotlinx/coroutines/internal/a;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcotlinx/coroutines/internal/a;
 
@@ -205,7 +194,6 @@
 
     iput-object v0, p0, Lcotlinx/coroutines/j1;->d:Lcotlinx/coroutines/internal/a;
 
-    .line 3
     :goto_0
     invoke-virtual {v0, p1}, Lcotlinx/coroutines/internal/a;->a(Ljava/lang/Object;)V
 
@@ -215,14 +203,12 @@
 .method protected J()J
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/j1;->d:Lcotlinx/coroutines/internal/a;
 
     const-wide v1, 0x7fffffffffffffffL
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/a;->d()Z
 
     move-result v0
@@ -242,7 +228,6 @@
 .method public final K(Z)V
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/j1;->b:J
 
     invoke-direct {p0, p1}, Lcotlinx/coroutines/j1;->E(Z)J
@@ -257,7 +242,6 @@
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcotlinx/coroutines/j1;->c:Z
 
     :cond_0
@@ -267,7 +251,6 @@
 .method protected M()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/j1;->O()Z
 
     move-result v0
@@ -278,7 +261,6 @@
 .method public final N()Z
     .locals 6
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/j1;->b:J
 
     const/4 v2, 0x1
@@ -303,7 +285,6 @@
 .method public final O()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/j1;->d:Lcotlinx/coroutines/internal/a;
 
     if-eqz v0, :cond_0
@@ -324,7 +305,6 @@
 .method public P()J
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/j1;->Q()Z
 
     move-result v0
@@ -335,7 +315,6 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcotlinx/coroutines/j1;->J()J
 
@@ -347,14 +326,12 @@
 .method public final Q()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/j1;->d:Lcotlinx/coroutines/internal/a;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/a;->e()Ljava/lang/Object;
 
     move-result-object v0
@@ -363,7 +340,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcotlinx/coroutines/z0;->run()V
 
     const/4 v0, 0x1
@@ -385,7 +361,6 @@
 .method public final isActive()Z
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/j1;->b:J
 
     const-wide/16 v2, 0x0

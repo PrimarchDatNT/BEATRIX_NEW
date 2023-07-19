@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method static synthetic access$000(ZZLjava/lang/String;[Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/mopub/common/Preconditions;->checkArgumentInternal(ZZLjava/lang/String;[Ljava/lang/Object;)Z
 
     move-result p0
@@ -39,7 +37,6 @@
 .method static synthetic access$100(ZZLjava/lang/String;[Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/mopub/common/Preconditions;->checkStateInternal(ZZLjava/lang/String;[Ljava/lang/Object;)Z
 
     move-result p0
@@ -50,7 +47,6 @@
 .method static synthetic access$200(Ljava/lang/Object;ZLjava/lang/String;[Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/mopub/common/Preconditions;->checkNotNullInternal(Ljava/lang/Object;ZLjava/lang/String;[Ljava/lang/Object;)Z
 
     move-result p0
@@ -61,7 +57,6 @@
 .method static synthetic access$300(ZLjava/lang/String;[Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/mopub/common/Preconditions;->checkUiThreadInternal(ZLjava/lang/String;[Ljava/lang/Object;)Z
 
     move-result p0
@@ -84,7 +79,6 @@
 
     const-string v2, "Illegal argument."
 
-    .line 1
     invoke-static {p0, v0, v2, v1}, Lcom/mopub/common/Preconditions;->checkArgumentInternal(ZZLjava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -103,7 +97,6 @@
 
     aput-object v3, v1, v2
 
-    .line 2
     invoke-static {p0, v0, p1, v1}, Lcom/mopub/common/Preconditions;->checkArgumentInternal(ZZLjava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -114,7 +107,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-static {p0, v0, p1, p2}, Lcom/mopub/common/Preconditions;->checkArgumentInternal(ZZLjava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -129,7 +121,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     invoke-static {p2, p3}, Lcom/mopub/common/Preconditions;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -137,7 +128,6 @@
 
     if-nez p1, :cond_1
 
-    .line 2
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array p2, v0, [Ljava/lang/Object;
@@ -150,7 +140,6 @@
 
     return p3
 
-    .line 3
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -174,7 +163,6 @@
 
     const-string v2, "Object can not be null."
 
-    .line 1
     invoke-static {p0, v0, v2, v1}, Lcom/mopub/common/Preconditions;->checkNotNullInternal(Ljava/lang/Object;ZLjava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -193,7 +181,6 @@
 
     aput-object v3, v1, v2
 
-    .line 2
     invoke-static {p0, v0, p1, v1}, Lcom/mopub/common/Preconditions;->checkNotNullInternal(Ljava/lang/Object;ZLjava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -204,7 +191,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-static {p0, v0, p1, p2}, Lcom/mopub/common/Preconditions;->checkNotNullInternal(Ljava/lang/Object;ZLjava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -219,7 +205,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     invoke-static {p2, p3}, Lcom/mopub/common/Preconditions;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -227,7 +212,6 @@
 
     if-nez p1, :cond_1
 
-    .line 2
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array p2, v0, [Ljava/lang/Object;
@@ -240,7 +224,6 @@
 
     return p3
 
-    .line 3
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -264,7 +247,6 @@
 
     const-string v2, "Illegal state."
 
-    .line 1
     invoke-static {p0, v0, v2, v1}, Lcom/mopub/common/Preconditions;->checkStateInternal(ZZLjava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -283,7 +265,6 @@
 
     aput-object v3, v1, v2
 
-    .line 2
     invoke-static {p0, v0, p1, v1}, Lcom/mopub/common/Preconditions;->checkStateInternal(ZZLjava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -294,7 +275,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-static {p0, v0, p1, p2}, Lcom/mopub/common/Preconditions;->checkStateInternal(ZZLjava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -309,7 +289,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     invoke-static {p2, p3}, Lcom/mopub/common/Preconditions;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -317,7 +296,6 @@
 
     if-nez p1, :cond_1
 
-    .line 2
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array p2, v0, [Ljava/lang/Object;
@@ -330,7 +308,6 @@
 
     return p3
 
-    .line 3
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -354,7 +331,6 @@
 
     const-string v2, "This method must be called from the UI thread."
 
-    .line 1
     invoke-static {v0, v2, v1}, Lcom/mopub/common/Preconditions;->checkUiThreadInternal(ZLjava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -373,7 +349,6 @@
 
     aput-object v3, v1, v2
 
-    .line 2
     invoke-static {v0, p0, v1}, Lcom/mopub/common/Preconditions;->checkUiThreadInternal(ZLjava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -384,7 +359,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-static {v0, p0, p1}, Lcom/mopub/common/Preconditions;->checkUiThreadInternal(ZLjava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -393,7 +367,6 @@
 .method private static varargs checkUiThreadInternal(ZLjava/lang/String;[Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v0
@@ -412,7 +385,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p1, p2}, Lcom/mopub/common/Preconditions;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -420,7 +392,6 @@
 
     if-nez p0, :cond_1
 
-    .line 3
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array p2, v1, [Ljava/lang/Object;
@@ -433,7 +404,6 @@
 
     return v0
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -445,12 +415,10 @@
 .method private static varargs format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
     .locals 5
 
-    .line 1
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     :try_start_0
     invoke-static {p0, p1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -463,7 +431,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1

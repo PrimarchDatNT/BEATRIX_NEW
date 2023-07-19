@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/studio/doodle/DoodleMaterial;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$b;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,12 +43,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$b;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->setDownloadProgress(I)V
 
-    .line 2
     sget-object p1, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->R()Lcom/commsource/material/download/b/a;
@@ -60,7 +57,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/material/download/b/a;->h(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -81,19 +77,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$b;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setDownloadState(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$b;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setDownloadProgress(I)V
 
-    .line 3
     sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->R()Lcom/commsource/material/download/b/a;
@@ -112,7 +105,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/material/download/b/a;->g(Lcom/commsource/material/download/b/a;Ljava/lang/Object;Ljava/lang/Throwable;ZILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -125,14 +117,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$b;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setDownloadProgress(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->R()Lcom/commsource/material/download/b/a;
@@ -143,7 +133,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/material/download/b/a;->i(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -156,26 +145,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$b;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setDownloadState(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$b;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     const/4 v3, 0x0
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/doodle/DoodleMaterial;->setDownloadProgress(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$b;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/doodle/DoodleMaterial;->setNeedShow(I)V
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     iget-object v4, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$b;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
@@ -190,13 +175,10 @@
 
     if-eqz v4, :cond_0
 
-    .line 5
     invoke-virtual {v4, v3}, Lcom/commsource/studio/doodle/DoodleMaterial;->setNeedShow(I)V
 
-    .line 6
     invoke-virtual {v4, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setDownloadState(I)V
 
-    .line 7
     :cond_0
     invoke-static {v1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->r(Lcom/commsource/studio/doodle/NewDoodleRepository;)Lf/k/i0/a/q0;
 
@@ -206,7 +188,6 @@
 
     invoke-interface {v2, v3}, Lf/k/i0/a/q0;->V(Lcom/commsource/studio/doodle/DoodleMaterial;)V
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->R()Lcom/commsource/material/download/b/a;
 
     move-result-object v2
@@ -215,7 +196,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/material/download/b/a;->h(Ljava/lang/Object;)V
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->R()Lcom/commsource/material/download/b/a;
 
     move-result-object v2
@@ -224,14 +204,12 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/material/download/b/a;->j(Ljava/lang/Object;)V
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$b;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     const-string v3, "beau_doodle_download_req"
 
     invoke-virtual {v1, v3, v2}, Lcom/commsource/studio/doodle/NewDoodleRepository;->B(Ljava/lang/String;Lcom/commsource/studio/doodle/DoodleMaterial;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

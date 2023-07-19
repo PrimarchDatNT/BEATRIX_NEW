@@ -59,7 +59,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/ah;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/ah;-><init>()V
@@ -72,7 +71,6 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -108,13 +106,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 3
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/zzarx;->a:Z
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/zzarx;->b:Ljava/util/List;
 
     return-void
@@ -125,19 +120,16 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/zzarx;->a:Z
 
     const/4 v1, 0x2
 
     invoke-static {p1, v1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->g(Landroid/os/Parcel;IZ)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzarx;->b:Ljava/util/List;
 
     const/4 v1, 0x3
@@ -146,7 +138,6 @@
 
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->Z(Landroid/os/Parcel;ILjava/util/List;Z)V
 
-    .line 4
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void

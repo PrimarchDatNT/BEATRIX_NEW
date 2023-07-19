@@ -19,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/filtergl/linkertest/LinkerTest;->ajc$preClinit()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -30,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/core/filtergl/linkertest/LinkerTest;
@@ -124,7 +121,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
     :try_end_0
@@ -135,10 +131,8 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 3
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,20 +149,16 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 14
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 15
     invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object v0
 
-    .line 16
     iget-object v0, v0, Landroid/content/pm/ApplicationInfo;->nativeLibraryDir:Ljava/lang/String;
 
-    .line 17
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -189,12 +179,10 @@
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 18
     new-instance v4, Ljava/io/File;
 
     invoke-direct {v4, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 19
     invoke-virtual {v4}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -203,19 +191,16 @@
 
     if-eqz v0, :cond_2
 
-    .line 20
     invoke-virtual {v4}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    .line 21
     array-length v4, v0
 
     if-lez v4, :cond_2
 
-    .line 22
     array-length v4, v0
 
     const/4 v8, 0x0
@@ -227,7 +212,6 @@
 
     aget-object v10, v0, v8
 
-    .line 23
     invoke-virtual {v10}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v11
@@ -238,7 +222,6 @@
 
     if-eqz v11, :cond_0
 
-    .line 24
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -253,7 +236,6 @@
 
     invoke-virtual {v9, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 25
     invoke-static {v10}, Lcom/meitu/core/filtergl/linkertest/FileMd5;->getFileMD5(Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v10
@@ -266,7 +248,6 @@
 
     move-result-object v9
 
-    .line 26
     invoke-virtual {v3, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/4 v9, 0x1
@@ -279,7 +260,6 @@
     :cond_1
     if-nez v9, :cond_2
 
-    .line 27
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -300,7 +280,6 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 28
     :cond_2
     invoke-static/range {p0 .. p0}, Lcom/meitu/core/filtergl/linkertest/LinkerTest;->sourceDirectories(Landroid/content/Context;)[Ljava/lang/String;
 
@@ -326,7 +305,6 @@
 
     if-ge v0, v14, :cond_3
 
-    .line 29
     :try_start_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -342,7 +320,6 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 30
     new-instance v0, Ljava/util/zip/ZipFile;
 
     new-instance v14, Ljava/io/File;
@@ -360,7 +337,6 @@
     :catch_0
     move-exception v0
 
-    .line 31
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     move v0, v13
@@ -376,13 +352,11 @@
 
     goto/16 :goto_b
 
-    .line 32
     :cond_5
     invoke-static {}, Lcom/meitu/core/filtergl/linkertest/LinkerTest;->supportedAbis()[Ljava/lang/String;
 
     move-result-object v12
 
-    .line 33
     array-length v13, v12
 
     const/4 v14, 0x0
@@ -392,7 +366,6 @@
 
     aget-object v15, v12, v14
 
-    .line 34
     invoke-virtual {v11}, Ljava/util/zip/ZipFile;->entries()Ljava/util/Enumeration;
 
     move-result-object v16
@@ -401,7 +374,6 @@
 
     const/4 v0, 0x0
 
-    .line 35
     :goto_5
     invoke-interface/range {v16 .. v16}, Ljava/util/Enumeration;->hasMoreElements()Z
 
@@ -409,7 +381,6 @@
 
     if-eqz v17, :cond_9
 
-    .line 36
     invoke-interface/range {v16 .. v16}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
 
     move-result-object v17
@@ -418,12 +389,10 @@
 
     check-cast v6, Ljava/util/zip/ZipEntry;
 
-    .line 37
     invoke-virtual {v6}, Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;
 
     move-result-object v9
 
-    .line 38
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -446,7 +415,6 @@
 
     move-result-object v2
 
-    .line 39
     invoke-static {v9}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v7
@@ -465,7 +433,6 @@
 
     if-eqz v2, :cond_8
 
-    .line 40
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -488,7 +455,6 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 41
     :try_start_1
     invoke-virtual {v11, v6}, Ljava/util/zip/ZipFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
 
@@ -496,7 +462,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
-    .line 42
     :try_start_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -527,7 +492,6 @@
 
     if-eqz v2, :cond_6
 
-    .line 43
     :try_start_4
     invoke-virtual {v2}, Ljava/io/InputStream;->close()V
     :try_end_4
@@ -554,7 +518,6 @@
 
     const/4 v2, 0x0
 
-    .line 44
     :goto_6
     :try_start_5
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
@@ -563,7 +526,6 @@
 
     if-eqz v2, :cond_6
 
-    .line 45
     :try_start_6
     invoke-virtual {v2}, Ljava/io/InputStream;->close()V
     :try_end_6
@@ -576,10 +538,8 @@
 
     move-object v2, v0
 
-    .line 46
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 47
     :cond_6
     :goto_7
     invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -595,7 +555,6 @@
 
     if-eqz v2, :cond_7
 
-    .line 48
     :try_start_7
     invoke-virtual {v2}, Ljava/io/InputStream;->close()V
     :try_end_7
@@ -608,14 +567,12 @@
 
     move-object v2, v0
 
-    .line 49
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_7
     :goto_8
     const v2, 0xbf7a
 
-    .line 50
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -643,7 +600,6 @@
     :goto_a
     if-nez v0, :cond_b
 
-    .line 51
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -684,7 +640,6 @@
 
     goto/16 :goto_1
 
-    .line 52
     :cond_c
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -708,7 +663,6 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 53
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -727,7 +681,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/core/filtergl/linkertest/LinkerTest;->sourceDirectories(Landroid/content/Context;)[Ljava/lang/String;
 
     move-result-object p0
@@ -756,7 +709,6 @@
 
     if-ge v6, v8, :cond_0
 
-    .line 2
     :try_start_0
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -774,7 +726,6 @@
 
     invoke-static {v9, v6}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     new-instance v6, Ljava/util/zip/ZipFile;
 
     new-instance v8, Ljava/io/File;
@@ -794,7 +745,6 @@
     :catch_0
     move-exception v6
 
-    .line 4
     invoke-virtual {v6}, Ljava/io/IOException;->printStackTrace()V
 
     move v6, v7
@@ -807,13 +757,11 @@
 
     goto :goto_5
 
-    .line 5
     :cond_1
     invoke-static {}, Lcom/meitu/core/filtergl/linkertest/LinkerTest;->supportedAbis()[Ljava/lang/String;
 
     move-result-object v5
 
-    .line 6
     array-length v6, v5
 
     const/4 v7, 0x0
@@ -823,7 +771,6 @@
 
     aget-object v8, v5, v7
 
-    .line 7
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -846,12 +793,10 @@
 
     move-result-object v8
 
-    .line 8
     invoke-virtual {v3}, Ljava/util/zip/ZipFile;->entries()Ljava/util/Enumeration;
 
     move-result-object v10
 
-    .line 9
     :cond_2
     :goto_4
     invoke-interface {v10}, Ljava/util/Enumeration;->hasMoreElements()Z
@@ -860,14 +805,12 @@
 
     if-eqz v11, :cond_3
 
-    .line 10
     invoke-interface {v10}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
 
     move-result-object v11
 
     check-cast v11, Ljava/util/zip/ZipEntry;
 
-    .line 11
     invoke-virtual {v11}, Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;
 
     move-result-object v12
@@ -878,7 +821,6 @@
 
     if-eqz v12, :cond_2
 
-    .line 12
     new-instance v12, Ljava/lang/StringBuilder;
 
     invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
@@ -912,7 +854,6 @@
 
     goto/16 :goto_0
 
-    .line 13
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -926,7 +867,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -943,7 +883,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -965,7 +904,6 @@
     :try_start_0
     const-string v2, "dalvik.system.VMRuntime"
 
-    .line 1
     invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v2
@@ -974,14 +912,12 @@
 
     new-array v4, v1, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {v2, v3, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v3
 
     new-array v4, v1, [Ljava/lang/Object;
 
-    .line 3
     sget-object v5, Lcom/meitu/core/filtergl/linkertest/LinkerTest;->ajc$tjp_0:Lorg/aspectj/lang/c$b;
 
     const/4 v6, 0x0
@@ -1030,7 +966,6 @@
 
     if-nez v5, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1041,14 +976,12 @@
 
     new-array v11, v1, [Ljava/lang/Class;
 
-    .line 5
     invoke-virtual {v2, v7, v11}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v2
 
     new-array v7, v1, [Ljava/lang/Object;
 
-    .line 6
     sget-object v11, Lcom/meitu/core/filtergl/linkertest/LinkerTest;->ajc$tjp_1:Lorg/aspectj/lang/c$b;
 
     invoke-static {v11, v6, v2, v5, v7}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -1081,12 +1014,10 @@
 
     move-result-object v2
 
-    .line 7
     instance-of v3, v2, Ljava/lang/Boolean;
 
     if-eqz v3, :cond_1
 
-    .line 8
     check-cast v2, Ljava/lang/Boolean;
 
     invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
@@ -1102,10 +1033,8 @@
     :catchall_0
     move-exception v2
 
-    .line 9
     invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1119,12 +1048,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object p0
 
-    .line 2
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v2, 0x0
@@ -1143,24 +1070,20 @@
 
     if-eqz v4, :cond_0
 
-    .line 3
     array-length v4, v1
 
     add-int/2addr v4, v3
 
     new-array v4, v4, [Ljava/lang/String;
 
-    .line 4
     iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->sourceDir:Ljava/lang/String;
 
     aput-object p0, v4, v2
 
-    .line 5
     array-length p0, v1
 
     invoke-static {v1, v2, v4, v3, p0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -1168,7 +1091,6 @@
     :cond_0
     new-array v1, v3, [Ljava/lang/String;
 
-    .line 7
     iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->sourceDir:Ljava/lang/String;
 
     aput-object p0, v1, v2
@@ -1185,7 +1107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x15
@@ -1198,12 +1119,10 @@
 
     if-lez v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     sget-object v1, Landroid/os/Build;->CPU_ABI2:Ljava/lang/String;
 
@@ -1221,7 +1140,6 @@
 
     new-array v2, v2, [Ljava/lang/String;
 
-    .line 4
     sget-object v5, Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
 
     aput-object v5, v2, v3
@@ -1235,7 +1153,6 @@
     :cond_1
     new-array v1, v4, [Ljava/lang/String;
 
-    .line 5
     sget-object v2, Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
 
     aput-object v2, v1, v3

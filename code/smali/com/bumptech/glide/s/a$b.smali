@@ -30,16 +30,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/s/a$b;->c:[B
 
-    .line 3
     iput p2, p0, Lcom/bumptech/glide/s/a$b;->a:I
 
-    .line 4
     iput p3, p0, Lcom/bumptech/glide/s/a$b;->b:I
 
     return-void

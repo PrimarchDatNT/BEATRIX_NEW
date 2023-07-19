@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/common/graph/b;-><init>(Ljava/util/Map;Ljava/util/Map;I)V
 
     return-void
@@ -50,12 +49,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/k;
 
     const/4 v1, 0x2
 
-    .line 2
     invoke-static {v1}, Lcom/google/common/collect/HashBiMap;->create(I)Lcom/google/common/collect/HashBiMap;
 
     move-result-object v2
@@ -89,10 +86,8 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/k;
 
-    .line 2
     invoke-static {p0}, Lcom/google/common/collect/ImmutableBiMap;->copyOf(Ljava/util/Map;)Lcom/google/common/collect/ImmutableBiMap;
 
     move-result-object p0
@@ -118,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/b;->b:Ljava/util/Map;
 
     check-cast v0, Lcom/google/common/collect/k;
@@ -144,7 +138,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/b;->a:Ljava/util/Map;
 
     check-cast v0, Lcom/google/common/collect/k;
@@ -170,7 +163,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/l;
 
     iget-object v1, p0, Lcom/google/common/graph/b;->b:Ljava/util/Map;

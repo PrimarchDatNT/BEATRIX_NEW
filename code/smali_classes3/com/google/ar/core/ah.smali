@@ -19,7 +19,6 @@
 
     move-object v4, p4
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/google/ar/core/Session$b;-><init>(Ljava/lang/String;IILjava/lang/Class;B)V
 
     return-void
@@ -30,7 +29,6 @@
 .method public final a(JLcom/google/ar/core/Session;)Lcom/google/ar/core/Trackable;
     .locals 1
 
-    .line 1
     iget-object v0, p3, Lcom/google/ar/core/Session;->faceCache:Lcom/google/ar/core/a0;
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/google/ar/core/a0;->a(JLcom/google/ar/core/Session;)Lcom/google/ar/core/AugmentedFace;

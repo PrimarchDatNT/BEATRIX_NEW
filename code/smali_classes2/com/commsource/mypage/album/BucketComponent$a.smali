@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/album/BucketComponent$a;->a:Lcom/commsource/mypage/album/BucketComponent;
 
     const/4 v1, 0x0

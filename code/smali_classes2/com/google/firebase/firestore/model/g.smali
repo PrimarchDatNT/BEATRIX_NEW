@@ -56,13 +56,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/model/g;->a:Lcom/google/firebase/database/collection/d;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/model/g;->b:Lcom/google/firebase/database/collection/f;
 
     return-void
@@ -80,15 +77,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/firestore/model/f;->a(Ljava/util/Comparator;)Ljava/util/Comparator;
 
     move-result-object p0
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/model/g;
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/firestore/model/c;->a()Lcom/google/firebase/database/collection/d;
 
     move-result-object v1
@@ -109,14 +103,12 @@
 .method static synthetic m(Ljava/util/Comparator;Lcom/google/firebase/firestore/model/Document;Lcom/google/firebase/firestore/model/Document;)I
     .locals 0
 
-    .line 1
     invoke-interface {p0, p1, p2}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result p0
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/firestore/model/Document;->j()Ljava/util/Comparator;
 
     move-result-object p0
@@ -134,7 +126,6 @@
 .method public b(Lcom/google/firebase/firestore/model/Document;)Lcom/google/firebase/firestore/model/g;
     .locals 3
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/i;->a()Lcom/google/firebase/firestore/model/e;
 
     move-result-object v0
@@ -143,10 +134,8 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, v0, Lcom/google/firebase/firestore/model/g;->a:Lcom/google/firebase/database/collection/d;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/i;->a()Lcom/google/firebase/firestore/model/e;
 
     move-result-object v2
@@ -155,14 +144,12 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v0, v0, Lcom/google/firebase/firestore/model/g;->b:Lcom/google/firebase/database/collection/f;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/database/collection/f;->h(Ljava/lang/Object;)Lcom/google/firebase/database/collection/f;
 
     move-result-object p1
 
-    .line 5
     new-instance v0, Lcom/google/firebase/firestore/model/g;
 
     invoke-direct {v0, v1, p1}, Lcom/google/firebase/firestore/model/g;-><init>(Lcom/google/firebase/database/collection/d;Lcom/google/firebase/database/collection/f;)V
@@ -173,7 +160,6 @@
 .method public c(Lcom/google/firebase/firestore/model/e;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/g;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/database/collection/d;->b(Ljava/lang/Object;)Z
@@ -197,7 +183,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 1
     const-class v2, Lcom/google/firebase/firestore/model/g;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -208,11 +193,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/firestore/model/g;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/g;->size()I
 
     move-result v2
@@ -225,18 +208,15 @@
 
     return v1
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/g;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/g;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
-    .line 6
     :cond_3
     invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
@@ -244,21 +224,18 @@
 
     if-eqz v3, :cond_4
 
-    .line 7
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/google/firebase/firestore/model/Document;
 
-    .line 8
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Lcom/google/firebase/firestore/model/Document;
 
-    .line 9
     invoke-virtual {v3, v4}, Lcom/google/firebase/firestore/model/Document;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -280,7 +257,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/g;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/database/collection/d;->c(Ljava/lang/Object;)Ljava/lang/Object;
@@ -295,7 +271,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/g;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -317,7 +292,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 2
     invoke-virtual {v2}, Lcom/google/firebase/firestore/model/Document;->hashCode()I
 
     move-result v2
@@ -335,7 +309,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/g;->b:Lcom/google/firebase/database/collection/f;
 
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/f;->c()Ljava/lang/Object;
@@ -350,7 +323,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/g;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/d;->isEmpty()Z
@@ -374,7 +346,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/g;->b:Lcom/google/firebase/database/collection/f;
 
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/f;->iterator()Ljava/util/Iterator;
@@ -389,7 +360,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/g;->b:Lcom/google/firebase/database/collection/f;
 
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/f;->b()Ljava/lang/Object;
@@ -406,7 +376,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/g;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/database/collection/d;->c(Ljava/lang/Object;)Ljava/lang/Object;
@@ -417,7 +386,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/firebase/firestore/model/g;->b:Lcom/google/firebase/database/collection/f;
 
     invoke-virtual {p1, v0}, Lcom/google/firebase/database/collection/f;->e(Ljava/lang/Object;)Ljava/lang/Object;
@@ -428,7 +396,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -454,7 +421,6 @@
 .method public l(Lcom/google/firebase/firestore/model/e;)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/g;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/database/collection/d;->c(Ljava/lang/Object;)Ljava/lang/Object;
@@ -469,7 +435,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/firestore/model/g;->b:Lcom/google/firebase/database/collection/f;
 
@@ -483,7 +448,6 @@
 .method public o(Lcom/google/firebase/firestore/model/e;)Lcom/google/firebase/firestore/model/g;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/g;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/database/collection/d;->c(Ljava/lang/Object;)Ljava/lang/Object;
@@ -496,7 +460,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/google/firebase/firestore/model/g;->a:Lcom/google/firebase/database/collection/d;
 
@@ -504,14 +467,12 @@
 
     move-result-object p1
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/firestore/model/g;->b:Lcom/google/firebase/database/collection/f;
 
     invoke-virtual {v1, v0}, Lcom/google/firebase/database/collection/f;->j(Ljava/lang/Object;)Lcom/google/firebase/database/collection/f;
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Lcom/google/firebase/firestore/model/g;
 
     invoke-direct {v1, p1, v0}, Lcom/google/firebase/firestore/model/g;-><init>(Lcom/google/firebase/database/collection/d;Lcom/google/firebase/database/collection/f;)V
@@ -530,7 +491,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/g;->size()I
@@ -539,7 +499,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/g;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -557,7 +516,6 @@
 
     check-cast v2, Lcom/google/firebase/firestore/model/Document;
 
-    .line 3
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -569,7 +527,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/g;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/d;->size()I
@@ -582,14 +539,12 @@
 .method public toString()Ljava/lang/String;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "["
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/g;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -618,10 +573,8 @@
     :cond_0
     const-string v4, ", "
 
-    .line 3
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     :goto_1
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -630,10 +583,8 @@
     :cond_1
     const-string v1, "]"
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0

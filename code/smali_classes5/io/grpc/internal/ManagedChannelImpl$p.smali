@@ -25,7 +25,6 @@
 .method private constructor <init>(Lio/grpc/internal/ManagedChannelImpl;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$p;->a:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/internal/ManagedChannelImpl$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lio/grpc/internal/ManagedChannelImpl$p;-><init>(Lio/grpc/internal/ManagedChannelImpl;)V
 
     return-void
@@ -47,7 +45,6 @@
 .method public a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$p;->a:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->x(Lio/grpc/internal/ManagedChannelImpl;)Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -62,26 +59,22 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$p;->a:Lio/grpc/internal/ManagedChannelImpl;
 
     const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lio/grpc/internal/ManagedChannelImpl;->u0(Lio/grpc/internal/ManagedChannelImpl;Z)Z
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$p;->a:Lio/grpc/internal/ManagedChannelImpl;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lio/grpc/internal/ManagedChannelImpl;->L0(Lio/grpc/internal/ManagedChannelImpl;Z)V
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$p;->a:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->O(Lio/grpc/internal/ManagedChannelImpl;)V
 
-    .line 5
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$p;->a:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->n0(Lio/grpc/internal/ManagedChannelImpl;)V
@@ -92,7 +85,6 @@
 .method public b(Lio/grpc/Status;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$p;->a:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {p1}, Lio/grpc/internal/ManagedChannelImpl;->x(Lio/grpc/internal/ManagedChannelImpl;)Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -119,7 +111,6 @@
 .method public d(Z)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$p;->a:Lio/grpc/internal/ManagedChannelImpl;
 
     iget-object v1, v0, Lio/grpc/internal/ManagedChannelImpl;->g0:Lio/grpc/internal/b1;

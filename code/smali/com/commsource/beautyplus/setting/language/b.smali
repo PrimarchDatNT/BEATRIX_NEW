@@ -66,14 +66,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
     const/16 p1, 0xc
 
     new-array p1, p1, [Lcom/commsource/beautyplus/setting/language/a;
 
-    .line 2
     new-instance v0, Lcom/commsource/beautyplus/setting/language/a;
 
     new-instance v1, Ljava/util/Locale;
@@ -90,7 +88,6 @@
 
     aput-object v0, p1, v1
 
-    .line 3
     new-instance v0, Lcom/commsource/beautyplus/setting/language/a;
 
     new-instance v1, Ljava/util/Locale;
@@ -107,7 +104,6 @@
 
     aput-object v0, p1, v1
 
-    .line 4
     new-instance v0, Lcom/commsource/beautyplus/setting/language/a;
 
     new-instance v1, Ljava/util/Locale;
@@ -124,7 +120,6 @@
 
     aput-object v0, p1, v1
 
-    .line 5
     new-instance v0, Lcom/commsource/beautyplus/setting/language/a;
 
     new-instance v1, Ljava/util/Locale;
@@ -141,7 +136,6 @@
 
     aput-object v0, p1, v1
 
-    .line 6
     new-instance v0, Lcom/commsource/beautyplus/setting/language/a;
 
     new-instance v1, Ljava/util/Locale;
@@ -158,7 +152,6 @@
 
     aput-object v0, p1, v1
 
-    .line 7
     new-instance v0, Lcom/commsource/beautyplus/setting/language/a;
 
     new-instance v1, Ljava/util/Locale;
@@ -175,7 +168,6 @@
 
     aput-object v0, p1, v1
 
-    .line 8
     new-instance v0, Lcom/commsource/beautyplus/setting/language/a;
 
     new-instance v1, Ljava/util/Locale;
@@ -192,7 +184,6 @@
 
     aput-object v0, p1, v1
 
-    .line 9
     new-instance v0, Lcom/commsource/beautyplus/setting/language/a;
 
     new-instance v1, Ljava/util/Locale;
@@ -209,7 +200,6 @@
 
     aput-object v0, p1, v1
 
-    .line 10
     new-instance v0, Lcom/commsource/beautyplus/setting/language/a;
 
     new-instance v1, Ljava/util/Locale;
@@ -226,7 +216,6 @@
 
     aput-object v0, p1, v1
 
-    .line 11
     new-instance v0, Lcom/commsource/beautyplus/setting/language/a;
 
     new-instance v1, Ljava/util/Locale;
@@ -243,7 +232,6 @@
 
     aput-object v0, p1, v1
 
-    .line 12
     new-instance v0, Lcom/commsource/beautyplus/setting/language/a;
 
     sget-object v1, Ljava/util/Locale;->SIMPLIFIED_CHINESE:Ljava/util/Locale;
@@ -260,7 +248,6 @@
 
     aput-object v0, p1, v1
 
-    .line 13
     new-instance v0, Lcom/commsource/beautyplus/setting/language/a;
 
     sget-object v1, Ljava/util/Locale;->TRADITIONAL_CHINESE:Ljava/util/Locale;
@@ -277,28 +264,24 @@
 
     aput-object v0, p1, v1
 
-    .line 14
     invoke-static {p1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/language/b;->a:Ljava/util/ArrayList;
 
-    .line 15
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/language/b;->b:Ljava/util/HashMap;
 
-    .line 16
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/language/b;->c:Landroidx/lifecycle/MutableLiveData;
 
-    .line 17
     sget-object p1, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->b:Lcom/commsource/beautyplus/setting/language/LanguageConfig;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->c()Ljava/lang/String;
@@ -307,7 +290,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/language/b;->d:Ljava/lang/String;
 
-    .line 18
     new-instance p1, Lcom/commsource/beautyplus/setting/language/b$a;
 
     invoke-direct {p1, p0}, Lcom/commsource/beautyplus/setting/language/b$a;-><init>(Lcom/commsource/beautyplus/setting/language/b;)V
@@ -340,7 +322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/b;->b:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -366,7 +347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/b;->a:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -391,7 +371,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/b;->b:Ljava/util/HashMap;
 
     invoke-virtual {p2}, Ljava/util/Locale;->toLanguageTag()Ljava/lang/String;
@@ -430,14 +409,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->b:Lcom/commsource/beautyplus/setting/language/LanguageConfig;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->c()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautyplus/setting/language/b;->d:Ljava/lang/String;
 
     invoke-static {v1, v2}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -468,7 +445,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/b;->c:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -485,7 +461,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/b;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

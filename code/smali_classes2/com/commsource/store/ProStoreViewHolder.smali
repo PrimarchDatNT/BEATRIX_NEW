@@ -56,12 +56,10 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->adsorbent_layout:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     iput-object p1, p0, Lcom/commsource/store/ProStoreViewHolder;->M:Landroid/content/Context;
 
-    .line 2
     iget-object p2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p2}, Lcom/commsource/beautyplus/f0/y0;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/y0;
@@ -70,12 +68,10 @@
 
     iput-object p2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
-    .line 3
     instance-of p2, p1, Lcom/commsource/beautyplus/BaseActivity;
 
     if-eqz p2, :cond_0
 
-    .line 4
     check-cast p1, Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
@@ -84,7 +80,6 @@
 
     invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -92,7 +87,6 @@
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
-    .line 6
     :cond_1
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -122,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -131,7 +124,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v2, :cond_0
@@ -148,7 +140,6 @@
 
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -180,7 +171,6 @@
 
     move-result p1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v2, :cond_2
@@ -194,7 +184,6 @@
     :cond_2
     if-eqz v1, :cond_4
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v2, :cond_3
@@ -205,7 +194,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 6
     :cond_3
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -219,7 +207,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -231,7 +218,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 8
     :cond_5
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -251,7 +237,6 @@
 
     new-array p2, p2, [F
 
-    .line 9
     fill-array-data p2, :array_0
 
     invoke-static {p2}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -262,12 +247,10 @@
 
     int-to-long v2, v2
 
-    .line 10
     invoke-virtual {p2, v2, v3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p2
 
-    .line 11
     new-instance v2, Lcom/commsource/store/ProStoreViewHolder$a;
 
     invoke-direct {v2, p0, v1, p1}, Lcom/commsource/store/ProStoreViewHolder$a;-><init>(Lcom/commsource/store/ProStoreViewHolder;ZI)V
@@ -276,10 +259,8 @@
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 13
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -299,7 +280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -308,7 +288,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v2, :cond_0
@@ -319,7 +298,6 @@
 
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -351,7 +329,6 @@
 
     move-result p1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v2, :cond_2
@@ -365,7 +342,6 @@
     :cond_2
     if-eqz v1, :cond_4
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v2, :cond_3
@@ -376,7 +352,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 6
     :cond_3
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -390,7 +365,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -402,7 +376,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 8
     :cond_5
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -422,7 +395,6 @@
 
     new-array p2, p2, [F
 
-    .line 9
     fill-array-data p2, :array_0
 
     invoke-static {p2}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -433,12 +405,10 @@
 
     int-to-long v2, v2
 
-    .line 10
     invoke-virtual {p2, v2, v3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p2
 
-    .line 11
     new-instance v2, Lcom/commsource/store/ProStoreViewHolder$b;
 
     invoke-direct {v2, p0, v1, p1}, Lcom/commsource/store/ProStoreViewHolder$b;-><init>(Lcom/commsource/store/ProStoreViewHolder;ZI)V
@@ -447,10 +417,8 @@
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 13
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -470,12 +438,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v2
@@ -488,7 +454,6 @@
 
     move-result v2
 
-    .line 3
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/y0;->c:Landroid/widget/LinearLayout;
 
     const-string v4, "llSubsOff"
@@ -503,14 +468,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/y0;->p:Landroid/widget/RelativeLayout;
 
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 5
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/y0;->c:Landroid/widget/LinearLayout;
 
     invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -519,7 +482,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/y0;->p:Landroid/widget/RelativeLayout;
 
@@ -527,14 +489,12 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 7
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/y0;->c:Landroid/widget/LinearLayout;
 
     invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -545,7 +505,6 @@
 
     new-array v3, v3, [F
 
-    .line 9
     fill-array-data v3, :array_0
 
     invoke-static {v3}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -556,12 +515,10 @@
 
     int-to-long v4, v4
 
-    .line 10
     invoke-virtual {v3, v4, v5}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object v3
 
-    .line 11
     new-instance v4, Lcom/commsource/store/ProStoreViewHolder$c;
 
     invoke-direct {v4, v1, v2, p1}, Lcom/commsource/store/ProStoreViewHolder$c;-><init>(Lcom/commsource/beautyplus/f0/y0;IZ)V
@@ -570,10 +527,8 @@
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 13
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -599,7 +554,6 @@
 
     if-gtz v3, :cond_2
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz p1, :cond_0
@@ -612,7 +566,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -629,15 +582,12 @@
 
     const/4 p2, 0x0
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/commsource/store/ProStoreViewHolder;->B(Ljava/lang/String;Z)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -649,7 +599,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 6
     :cond_3
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -665,7 +614,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 7
     :cond_4
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->p:Landroid/os/CountDownTimer;
 
@@ -673,10 +621,8 @@
 
     if-eqz v1, :cond_5
 
-    .line 8
     invoke-virtual {v1}, Landroid/os/CountDownTimer;->cancel()V
 
-    .line 9
     :cond_5
     new-instance v1, Lcom/commsource/store/ProStoreViewHolder$d;
 
@@ -696,14 +642,11 @@
 
     if-eqz v1, :cond_6
 
-    .line 10
     invoke-virtual {v1}, Landroid/os/CountDownTimer;->start()Landroid/os/CountDownTimer;
 
-    .line 11
     :cond_6
     invoke-direct {p0}, Lcom/commsource/store/ProStoreViewHolder;->J()V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -716,12 +659,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v1, :cond_5
 
-    .line 2
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/y0;->J:Landroid/widget/TextView;
 
     const-string v3, "tvCountDown"
@@ -738,10 +679,8 @@
 
     if-lez v2, :cond_0
 
-    .line 3
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/y0;->P:Landroid/widget/FrameLayout;
 
-    .line 4
     iget-object v6, v1, Lcom/commsource/beautyplus/f0/y0;->J:Landroid/widget/TextView;
 
     invoke-static {v6, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -756,12 +695,10 @@
 
     add-int/2addr v3, v5
 
-    .line 5
     invoke-static {v2, v3}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
     goto :goto_2
 
-    .line 6
     :cond_0
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/y0;->J:Landroid/widget/TextView;
 
@@ -793,10 +730,8 @@
     :goto_1
     if-nez v2, :cond_3
 
-    .line 7
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/y0;->P:Landroid/widget/FrameLayout;
 
-    .line 8
     iget-object v6, v1, Lcom/commsource/beautyplus/f0/y0;->J:Landroid/widget/TextView;
 
     invoke-static {v6, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -831,15 +766,12 @@
 
     float-to-int v3, v3
 
-    .line 9
     invoke-static {v2, v3}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 10
     :cond_3
     :goto_2
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/y0;->P:Landroid/widget/FrameLayout;
 
-    .line 11
     iget-boolean v1, p0, Lcom/commsource/store/ProStoreViewHolder;->L:Z
 
     sget v2, Lcom/res/provider/ResCOLOR;->transparent:I
@@ -850,14 +782,12 @@
 
     sget v1, Lcom/res/provider/ResCOLOR;->black80:I
 
-    .line 12
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v7
 
     const/4 v8, 0x0
 
-    .line 13
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v9
@@ -872,7 +802,6 @@
 
     const/high16 v14, 0x40c00000    # 6.0f
 
-    .line 14
     invoke-static/range {v5 .. v14}, Lf/k/c/c/c;->d(Landroid/view/View;IIFIFFFFF)V
 
     goto :goto_3
@@ -882,14 +811,12 @@
 
     sget v1, Lcom/res/provider/ResCOLOR;->color_33ffffff:I
 
-    .line 15
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v7
 
     const/4 v8, 0x0
 
-    .line 16
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v9
@@ -904,10 +831,8 @@
 
     const/high16 v14, 0x40c00000    # 6.0f
 
-    .line 17
     invoke-static/range {v5 .. v14}, Lf/k/c/c/c;->d(Landroid/view/View;IIFIFFFFF)V
 
-    .line 18
     :cond_5
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -922,7 +847,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -937,7 +861,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -956,15 +879,12 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/store/ProStoreViewHolder;->L:Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/y0;->T:Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;
 
     const-string v3, "vRoundCornerContainer"
@@ -973,7 +893,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/y0;->a:Landroid/widget/ImageView;
 
     const-string v2, "ivDiamond"
@@ -982,7 +901,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1002,7 +920,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v1
@@ -1029,19 +946,16 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz p1, :cond_3
 
-    .line 3
     iget-object v1, p1, Lcom/commsource/beautyplus/f0/y0;->M:Lcom/commsource/widget/GradientTextView;
 
     invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     iget-object v1, p1, Lcom/commsource/beautyplus/f0/y0;->K:Lcom/commsource/widget/BoldTextView;
 
     const-string v4, "tvNoOffFreeTry"
@@ -1050,14 +964,12 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 5
     iget-object v1, p1, Lcom/commsource/beautyplus/f0/y0;->L:Landroid/widget/TextView;
 
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 6
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/y0;->O:Lcom/commsource/widget/AutoFitTextView;
 
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -1072,43 +984,35 @@
 
     goto :goto_2
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v1, :cond_3
 
-    .line 8
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/y0;->M:Lcom/commsource/widget/GradientTextView;
 
     invoke-static {v5, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v5}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 9
     iget-object v4, v1, Lcom/commsource/beautyplus/f0/y0;->K:Lcom/commsource/widget/BoldTextView;
 
-    .line 10
     invoke-static {v4}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 11
     invoke-virtual {v4, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 12
     iget-object v4, v1, Lcom/commsource/beautyplus/f0/y0;->L:Landroid/widget/TextView;
 
     invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v4}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 13
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/y0;->O:Lcom/commsource/widget/AutoFitTextView;
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 14
     :cond_3
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1123,7 +1027,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/store/ProStoreViewHolder;->L:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1148,15 +1051,12 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/store/ProStoreViewHolder;->L:Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v1, :cond_2
 
-    .line 3
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/y0;->T:Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;
 
     const-string v3, "vRoundCornerContainer"
@@ -1165,7 +1065,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/y0;->a:Landroid/widget/ImageView;
 
     const-string v3, "ivDiamond"
@@ -1174,7 +1073,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 5
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/y0;->Q:Landroid/widget/ImageView;
 
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
@@ -1183,7 +1081,6 @@
 
     invoke-static {v2, v3}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 6
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
     move-result v2
@@ -1198,7 +1095,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     sget-object v2, Lcom/commsource/home/a;->B:Lcom/commsource/home/a$a;
 
@@ -1212,7 +1108,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     :goto_0
     sget-object v2, Lcom/commsource/home/a;->B:Lcom/commsource/home/a$a;
@@ -1236,14 +1131,12 @@
     :goto_1
     add-float/2addr v3, v2
 
-    .line 9
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/y0;->Q:Landroid/widget/ImageView;
 
     float-to-int v2, v3
 
     invoke-static {v1, v2}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->M:Landroid/content/Context;
 
@@ -1251,12 +1144,10 @@
 
     move-result-object v1
 
-    .line 11
     invoke-virtual {v1, p1}, Lcom/commsource/util/u0$d;->m(Ljava/lang/String;)Lcom/commsource/util/u0$d;
 
     move-result-object p1
 
-    .line 12
     new-instance v1, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v1}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -1275,7 +1166,6 @@
 
     move-result-object p1
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v1, :cond_3
@@ -1290,7 +1180,6 @@
     :goto_2
     invoke-virtual {p1, v1}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1303,26 +1192,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/pro/SubsConfigManager;->o:Lcom/commsource/billing/pro/SubsConfigManager;
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/SubsConfigManager;->f()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -1332,27 +1217,22 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-static {v2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 6
     sget-object v3, Lcom/commsource/home/a;->B:Lcom/commsource/home/a$a;
 
     invoke-virtual {v3}, Lcom/commsource/home/a$a;->a()F
 
     move-result v4
 
-    .line 7
     invoke-virtual {v3}, Lcom/commsource/home/a$a;->a()F
 
     move-result v3
 
     const/4 v5, 0x0
 
-    .line 8
     invoke-virtual {v2, v4, v5, v5, v3}, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->a(FFFF)V
 
-    .line 9
     :cond_1
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -1364,7 +1244,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 10
     :cond_2
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
@@ -1376,7 +1255,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 11
     :cond_3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -1386,12 +1264,10 @@
 
     move-result-object v2
 
-    .line 12
     invoke-virtual {v2, v1}, Lcom/commsource/util/u0$d;->m(Ljava/lang/String;)Lcom/commsource/util/u0$d;
 
     move-result-object v1
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz v2, :cond_4
@@ -1408,10 +1284,8 @@
 
     const/4 v1, 0x1
 
-    .line 14
     invoke-direct {p0, v1}, Lcom/commsource/store/ProStoreViewHolder;->G(Z)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1424,15 +1298,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/widget/h1/f;->j()V
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/store/ProStoreViewHolder;->J:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1464,10 +1335,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     sget-object p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
@@ -1512,10 +1381,8 @@
     :goto_1
     if-eqz p2, :cond_2
 
-    .line 3
     invoke-virtual {p0, p2}, Lcom/commsource/store/ProStoreViewHolder;->F(Ljava/lang/String;)V
 
-    .line 4
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
 
@@ -1527,7 +1394,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
 
     move-result-object p2
@@ -1540,15 +1406,12 @@
 
     goto :goto_2
 
-    .line 6
     :cond_3
     invoke-direct {p0, v1, v2}, Lcom/commsource/store/ProStoreViewHolder;->D(Ljava/lang/String;Z)V
 
-    .line 7
     :goto_2
     invoke-virtual {p0}, Lcom/commsource/store/ProStoreViewHolder;->H()V
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
 
     move-result-object p2
@@ -1563,7 +1426,6 @@
 
     if-lez p2, :cond_5
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/store/ProStoreViewHolder;->K:Lcom/commsource/beautyplus/f0/y0;
 
     if-eqz p2, :cond_4
@@ -1574,7 +1436,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 10
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
 
@@ -1592,7 +1453,6 @@
 
     invoke-direct {p0, v3, v4}, Lcom/commsource/store/ProStoreViewHolder;->I(J)V
 
-    .line 11
     :cond_5
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
 
@@ -1604,12 +1464,10 @@
 
     if-lez p2, :cond_6
 
-    .line 12
     sget-object p2, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     sget p2, Lcom/res/provider/ResSTRING;->t_days_free_trial:I
 
-    .line 13
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p2
@@ -1620,7 +1478,6 @@
 
     new-array v1, p3, [Ljava/lang/Object;
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
 
     move-result-object p1
@@ -1635,7 +1492,6 @@
 
     aput-object p1, v1, v2
 
-    .line 15
     invoke-static {v1, p3}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p1
@@ -1648,10 +1504,8 @@
 
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 16
     invoke-virtual {p0, p1}, Lcom/commsource/store/ProStoreViewHolder;->C(Ljava/lang/String;)V
 
-    .line 17
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1665,22 +1519,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/widget/h1/f;->n()V
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/store/ProStoreViewHolder;->J:Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->p:Landroid/os/CountDownTimer;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Landroid/os/CountDownTimer;->cancel()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1697,14 +1547,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->p:Landroid/os/CountDownTimer;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Landroid/os/CountDownTimer;->cancel()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1720,7 +1568,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/ProStoreViewHolder;->M:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1735,7 +1582,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/store/ProStoreViewHolder;->L:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

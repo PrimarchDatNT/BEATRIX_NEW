@@ -135,7 +135,6 @@
 .method static constructor <clinit>()V
     .locals 20
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TStruct;
 
     const-string v1, "Span"
@@ -144,7 +143,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v1, "trace_id"
@@ -157,7 +155,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->TRACE_ID_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 3
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v4, "name"
@@ -170,7 +167,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->NAME_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 4
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v7, "id"
@@ -181,7 +177,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->ID_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 5
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v9, "parent_id"
@@ -192,7 +187,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->PARENT_ID_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 6
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v11, "annotations"
@@ -205,7 +199,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->ANNOTATIONS_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 7
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v13, "binary_annotations"
@@ -216,7 +209,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->BINARY_ANNOTATIONS_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 8
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v14, "debug"
@@ -229,7 +221,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->DEBUG_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 9
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v12, "timestamp"
@@ -238,7 +229,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->TIMESTAMP_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 10
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v8, "duration"
@@ -247,7 +237,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->DURATION_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 11
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v5, "trace_id_high"
@@ -258,7 +247,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->TRACE_ID_HIGH_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 12
     new-instance v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$c;
 
     const/4 v6, 0x0
@@ -267,7 +255,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->STANDARD_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 13
     new-instance v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$e;
 
     invoke-direct {v0, v6}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$e;-><init>(Lio/jaegertracing/twitter/zipkin/thriftjava/Span$a;)V
@@ -276,7 +263,6 @@
 
     new-array v0, v10, [Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 14
     sget-object v6, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->PARENT_ID:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     const/4 v10, 0x0
@@ -305,7 +291,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->optionals:[Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 15
     new-instance v0, Ljava/util/EnumMap;
 
     move-object/from16 v16, v2
@@ -314,7 +299,6 @@
 
     invoke-direct {v0, v2}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 16
     sget-object v2, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->TRACE_ID:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     move-object/from16 v17, v5
@@ -337,7 +321,6 @@
 
     invoke-interface {v0, v2, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     sget-object v1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->NAME:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -352,7 +335,6 @@
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 18
     sget-object v1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->ID:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -367,7 +349,6 @@
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 19
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldValueMetaData;
@@ -380,7 +361,6 @@
 
     invoke-interface {v0, v6, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 20
     sget-object v1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->ANNOTATIONS:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -405,7 +385,6 @@
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     sget-object v1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->BINARY_ANNOTATIONS:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -424,7 +403,6 @@
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 22
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldValueMetaData;
@@ -437,7 +415,6 @@
 
     invoke-interface {v0, v10, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 23
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldValueMetaData;
@@ -450,7 +427,6 @@
 
     invoke-interface {v0, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 24
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldValueMetaData;
@@ -465,7 +441,6 @@
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 25
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldValueMetaData;
@@ -480,14 +455,12 @@
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 26
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->metaDataMap:Ljava/util/Map;
 
-    .line 27
     const-class v1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
 
     invoke-static {v1, v0}, Lorg/apache/thrift/meta_data/FieldMetaData;->addStructMetaDataMap(Ljava/lang/Class;Ljava/util/Map;)V
@@ -498,15 +471,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
-    .line 3
     iput-boolean v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->debug:Z
 
     return-void
@@ -528,30 +498,22 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;-><init>()V
 
-    .line 5
     iput-wide p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id:J
 
     const/4 p1, 0x1
 
-    .line 6
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setTrace_idIsSet(Z)V
 
-    .line 7
     iput-object p3, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
-    .line 8
     iput-wide p4, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->id:J
 
-    .line 9
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setIdIsSet(Z)V
 
-    .line 10
     iput-object p6, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
-    .line 11
     iput-object p7, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     return-void
@@ -560,55 +522,45 @@
 .method public constructor <init>(Lio/jaegertracing/twitter/zipkin/thriftjava/Span;)V
     .locals 4
 
-    .line 12
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 13
     iput-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
-    .line 14
     iget-byte v0, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     iput-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
-    .line 15
     iget-wide v0, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id:J
 
     iput-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id:J
 
-    .line 16
     invoke-virtual {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetName()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 17
     iget-object v0, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
     iput-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
-    .line 18
     :cond_0
     iget-wide v0, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->id:J
 
     iput-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->id:J
 
-    .line 19
     iget-wide v0, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->parent_id:J
 
     iput-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->parent_id:J
 
-    .line 20
     invoke-virtual {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetAnnotations()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    .line 21
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
@@ -619,7 +571,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 22
     iget-object v1, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -639,7 +590,6 @@
 
     check-cast v2, Lio/jaegertracing/twitter/zipkin/thriftjava/Annotation;
 
-    .line 23
     new-instance v3, Lio/jaegertracing/twitter/zipkin/thriftjava/Annotation;
 
     invoke-direct {v3, v2}, Lio/jaegertracing/twitter/zipkin/thriftjava/Annotation;-><init>(Lio/jaegertracing/twitter/zipkin/thriftjava/Annotation;)V
@@ -648,11 +598,9 @@
 
     goto :goto_0
 
-    .line 24
     :cond_1
     iput-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
-    .line 25
     :cond_2
     invoke-virtual {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetBinary_annotations()Z
 
@@ -660,7 +608,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 26
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
@@ -671,7 +618,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 27
     iget-object v1, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -691,7 +637,6 @@
 
     check-cast v2, Lio/jaegertracing/twitter/zipkin/thriftjava/BinaryAnnotation;
 
-    .line 28
     new-instance v3, Lio/jaegertracing/twitter/zipkin/thriftjava/BinaryAnnotation;
 
     invoke-direct {v3, v2}, Lio/jaegertracing/twitter/zipkin/thriftjava/BinaryAnnotation;-><init>(Lio/jaegertracing/twitter/zipkin/thriftjava/BinaryAnnotation;)V
@@ -700,27 +645,22 @@
 
     goto :goto_1
 
-    .line 29
     :cond_3
     iput-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
-    .line 30
     :cond_4
     iget-boolean v0, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->debug:Z
 
     iput-boolean v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->debug:Z
 
-    .line 31
     iget-wide v0, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->timestamp:J
 
     iput-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->timestamp:J
 
-    .line 32
     iget-wide v0, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->duration:J
 
     iput-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->duration:J
 
-    .line 33
     iget-wide v0, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id_high:J
 
     iput-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id_high:J
@@ -731,7 +671,6 @@
 .method static synthetic access$1000()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->DEBUG_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -740,7 +679,6 @@
 .method static synthetic access$1100()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->TIMESTAMP_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -749,7 +687,6 @@
 .method static synthetic access$1200()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->DURATION_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -758,7 +695,6 @@
 .method static synthetic access$1300()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->TRACE_ID_HIGH_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -767,7 +703,6 @@
 .method static synthetic access$300()Lorg/apache/thrift/protocol/TStruct;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
     return-object v0
@@ -776,7 +711,6 @@
 .method static synthetic access$400()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->TRACE_ID_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -785,7 +719,6 @@
 .method static synthetic access$500()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->NAME_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -794,7 +727,6 @@
 .method static synthetic access$600()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->ID_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -803,7 +735,6 @@
 .method static synthetic access$700()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->PARENT_ID_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -812,7 +743,6 @@
 .method static synthetic access$800()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->ANNOTATIONS_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -821,7 +751,6 @@
 .method static synthetic access$900()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->BINARY_ANNOTATIONS_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -838,11 +767,9 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iput-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
     new-instance v1, Lorg/apache/thrift/transport/TIOStreamTransport;
@@ -860,7 +787,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -880,7 +806,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/apache/thrift/scheme/StandardScheme;
 
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TProtocol;->getScheme()Ljava/lang/Class;
@@ -916,7 +841,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -935,7 +859,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -948,19 +871,16 @@
 .method public addToAnnotations(Lio/jaegertracing/twitter/zipkin/thriftjava/Annotation;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
@@ -972,19 +892,16 @@
 .method public addToBinary_annotations(Lio/jaegertracing/twitter/zipkin/thriftjava/BinaryAnnotation;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
@@ -998,56 +915,40 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setTrace_idIsSet(Z)V
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id:J
 
     const/4 v3, 0x0
 
-    .line 3
     iput-object v3, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p0, v0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setIdIsSet(Z)V
 
-    .line 5
     iput-wide v1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->id:J
 
-    .line 6
     invoke-virtual {p0, v0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setParent_idIsSet(Z)V
 
-    .line 7
     iput-wide v1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->parent_id:J
 
-    .line 8
     iput-object v3, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
-    .line 9
     iput-object v3, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
-    .line 10
     iput-boolean v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->debug:Z
 
-    .line 11
     invoke-virtual {p0, v0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setTimestampIsSet(Z)V
 
-    .line 12
     iput-wide v1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->timestamp:J
 
-    .line 13
     invoke-virtual {p0, v0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setDurationIsSet(Z)V
 
-    .line 14
     iput-wide v1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->duration:J
 
-    .line 15
     invoke-virtual {p0, v0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setTrace_id_highIsSet(Z)V
 
-    .line 16
     iput-wide v1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id_high:J
 
     return-void
@@ -1056,7 +957,6 @@
 .method public compareTo(Lio/jaegertracing/twitter/zipkin/thriftjava/Span;)I
     .locals 4
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -1071,7 +971,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -1094,7 +993,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTrace_id()Z
 
@@ -1120,7 +1018,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTrace_id()Z
 
@@ -1128,7 +1025,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id:J
 
     iget-wide v2, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id:J
@@ -1141,7 +1037,6 @@
 
     return v0
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetName()Z
 
@@ -1167,7 +1062,6 @@
 
     return v0
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetName()Z
 
@@ -1175,7 +1069,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 9
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
     iget-object v1, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
@@ -1188,7 +1081,6 @@
 
     return v0
 
-    .line 10
     :cond_4
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetId()Z
 
@@ -1214,7 +1106,6 @@
 
     return v0
 
-    .line 11
     :cond_5
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetId()Z
 
@@ -1222,7 +1113,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 12
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->id:J
 
     iget-wide v2, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->id:J
@@ -1235,7 +1125,6 @@
 
     return v0
 
-    .line 13
     :cond_6
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetParent_id()Z
 
@@ -1261,7 +1150,6 @@
 
     return v0
 
-    .line 14
     :cond_7
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetParent_id()Z
 
@@ -1269,7 +1157,6 @@
 
     if-eqz v0, :cond_8
 
-    .line 15
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->parent_id:J
 
     iget-wide v2, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->parent_id:J
@@ -1282,7 +1169,6 @@
 
     return v0
 
-    .line 16
     :cond_8
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetAnnotations()Z
 
@@ -1308,7 +1194,6 @@
 
     return v0
 
-    .line 17
     :cond_9
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetAnnotations()Z
 
@@ -1316,7 +1201,6 @@
 
     if-eqz v0, :cond_a
 
-    .line 18
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
     iget-object v1, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
@@ -1329,7 +1213,6 @@
 
     return v0
 
-    .line 19
     :cond_a
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetBinary_annotations()Z
 
@@ -1355,7 +1238,6 @@
 
     return v0
 
-    .line 20
     :cond_b
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetBinary_annotations()Z
 
@@ -1363,7 +1245,6 @@
 
     if-eqz v0, :cond_c
 
-    .line 21
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     iget-object v1, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
@@ -1376,7 +1257,6 @@
 
     return v0
 
-    .line 22
     :cond_c
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDebug()Z
 
@@ -1402,7 +1282,6 @@
 
     return v0
 
-    .line 23
     :cond_d
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDebug()Z
 
@@ -1410,7 +1289,6 @@
 
     if-eqz v0, :cond_e
 
-    .line 24
     iget-boolean v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->debug:Z
 
     iget-boolean v1, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->debug:Z
@@ -1423,7 +1301,6 @@
 
     return v0
 
-    .line 25
     :cond_e
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTimestamp()Z
 
@@ -1449,7 +1326,6 @@
 
     return v0
 
-    .line 26
     :cond_f
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTimestamp()Z
 
@@ -1457,7 +1333,6 @@
 
     if-eqz v0, :cond_10
 
-    .line 27
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->timestamp:J
 
     iget-wide v2, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->timestamp:J
@@ -1470,7 +1345,6 @@
 
     return v0
 
-    .line 28
     :cond_10
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDuration()Z
 
@@ -1496,7 +1370,6 @@
 
     return v0
 
-    .line 29
     :cond_11
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDuration()Z
 
@@ -1504,7 +1377,6 @@
 
     if-eqz v0, :cond_12
 
-    .line 30
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->duration:J
 
     iget-wide v2, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->duration:J
@@ -1517,7 +1389,6 @@
 
     return v0
 
-    .line 31
     :cond_12
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTrace_id_high()Z
 
@@ -1543,7 +1414,6 @@
 
     return v0
 
-    .line 32
     :cond_13
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTrace_id_high()Z
 
@@ -1551,7 +1421,6 @@
 
     if-eqz v0, :cond_14
 
-    .line 33
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id_high:J
 
     iget-wide v2, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id_high:J
@@ -1573,7 +1442,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->compareTo(Lio/jaegertracing/twitter/zipkin/thriftjava/Span;)I
@@ -1586,7 +1454,6 @@
 .method public deepCopy()Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
     .locals 1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
 
     invoke-direct {v0, p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;-><init>(Lio/jaegertracing/twitter/zipkin/thriftjava/Span;)V
@@ -1597,7 +1464,6 @@
 .method public bridge synthetic deepCopy()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->deepCopy()Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
 
     move-result-object v0
@@ -1621,7 +1487,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     iget-wide v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id:J
 
@@ -1633,13 +1498,11 @@
 
     return v0
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetName()Z
 
     move-result v2
 
-    .line 5
     invoke-virtual {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetName()Z
 
     move-result v3
@@ -1655,7 +1518,6 @@
 
     goto/16 :goto_0
 
-    .line 6
     :cond_4
     iget-object v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
@@ -1669,7 +1531,6 @@
 
     return v0
 
-    .line 7
     :cond_5
     iget-wide v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->id:J
 
@@ -1681,13 +1542,11 @@
 
     return v0
 
-    .line 8
     :cond_6
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetParent_id()Z
 
     move-result v2
 
-    .line 9
     invoke-virtual {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetParent_id()Z
 
     move-result v3
@@ -1703,7 +1562,6 @@
 
     goto/16 :goto_0
 
-    .line 10
     :cond_8
     iget-wide v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->parent_id:J
 
@@ -1715,13 +1573,11 @@
 
     return v0
 
-    .line 11
     :cond_9
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetAnnotations()Z
 
     move-result v2
 
-    .line 12
     invoke-virtual {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetAnnotations()Z
 
     move-result v3
@@ -1737,7 +1593,6 @@
 
     goto/16 :goto_0
 
-    .line 13
     :cond_b
     iget-object v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
@@ -1751,13 +1606,11 @@
 
     return v0
 
-    .line 14
     :cond_c
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetBinary_annotations()Z
 
     move-result v2
 
-    .line 15
     invoke-virtual {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetBinary_annotations()Z
 
     move-result v3
@@ -1773,7 +1626,6 @@
 
     goto/16 :goto_0
 
-    .line 16
     :cond_e
     iget-object v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
@@ -1787,13 +1639,11 @@
 
     return v0
 
-    .line 17
     :cond_f
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDebug()Z
 
     move-result v2
 
-    .line 18
     invoke-virtual {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDebug()Z
 
     move-result v3
@@ -1809,7 +1659,6 @@
 
     goto :goto_0
 
-    .line 19
     :cond_11
     iget-boolean v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->debug:Z
 
@@ -1819,13 +1668,11 @@
 
     return v0
 
-    .line 20
     :cond_12
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTimestamp()Z
 
     move-result v2
 
-    .line 21
     invoke-virtual {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTimestamp()Z
 
     move-result v3
@@ -1841,7 +1688,6 @@
 
     goto :goto_0
 
-    .line 22
     :cond_14
     iget-wide v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->timestamp:J
 
@@ -1853,13 +1699,11 @@
 
     return v0
 
-    .line 23
     :cond_15
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDuration()Z
 
     move-result v2
 
-    .line 24
     invoke-virtual {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDuration()Z
 
     move-result v3
@@ -1875,7 +1719,6 @@
 
     goto :goto_0
 
-    .line 25
     :cond_17
     iget-wide v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->duration:J
 
@@ -1887,13 +1730,11 @@
 
     return v0
 
-    .line 26
     :cond_18
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTrace_id_high()Z
 
     move-result v2
 
-    .line 27
     invoke-virtual {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTrace_id_high()Z
 
     move-result v3
@@ -1909,7 +1750,6 @@
 
     goto :goto_0
 
-    .line 28
     :cond_1a
     iget-wide v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id_high:J
 
@@ -1938,13 +1778,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->equals(Lio/jaegertracing/twitter/zipkin/thriftjava/Span;)Z
@@ -1960,7 +1798,6 @@
 .method public fieldForId(I)Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->findByThriftId(I)Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     move-result-object p1
@@ -1971,7 +1808,6 @@
 .method public bridge synthetic fieldForId(I)Lorg/apache/thrift/TFieldIdEnum;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->fieldForId(I)Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     move-result-object p1
@@ -1990,7 +1826,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
     return-object v0
@@ -2007,7 +1842,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -2028,7 +1862,6 @@
 .method public getAnnotationsSize()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -2057,7 +1890,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     return-object v0
@@ -2074,7 +1906,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -2095,7 +1926,6 @@
 .method public getBinary_annotationsSize()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -2116,7 +1946,6 @@
 .method public getDuration()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->duration:J
 
     return-wide v0
@@ -2125,7 +1954,6 @@
 .method public getFieldValue(Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;)Ljava/lang/Object;
     .locals 2
 
-    .line 2
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -2136,14 +1964,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 3
     new-instance p1, Ljava/lang/IllegalStateException;
 
     invoke-direct {p1}, Ljava/lang/IllegalStateException;-><init>()V
 
     throw p1
 
-    .line 4
     :pswitch_0
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->getTrace_id_high()J
 
@@ -2155,7 +1981,6 @@
 
     return-object p1
 
-    .line 5
     :pswitch_1
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->getDuration()J
 
@@ -2167,7 +1992,6 @@
 
     return-object p1
 
-    .line 6
     :pswitch_2
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->getTimestamp()J
 
@@ -2179,7 +2003,6 @@
 
     return-object p1
 
-    .line 7
     :pswitch_3
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isDebug()Z
 
@@ -2191,7 +2014,6 @@
 
     return-object p1
 
-    .line 8
     :pswitch_4
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->getBinary_annotations()Ljava/util/List;
 
@@ -2199,7 +2021,6 @@
 
     return-object p1
 
-    .line 9
     :pswitch_5
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->getAnnotations()Ljava/util/List;
 
@@ -2207,7 +2028,6 @@
 
     return-object p1
 
-    .line 10
     :pswitch_6
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->getParent_id()J
 
@@ -2219,7 +2039,6 @@
 
     return-object p1
 
-    .line 11
     :pswitch_7
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->getId()J
 
@@ -2231,7 +2050,6 @@
 
     return-object p1
 
-    .line 12
     :pswitch_8
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->getName()Ljava/lang/String;
 
@@ -2239,7 +2057,6 @@
 
     return-object p1
 
-    .line 13
     :pswitch_9
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->getTrace_id()J
 
@@ -2271,7 +2088,6 @@
 .method public bridge synthetic getFieldValue(Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->getFieldValue(Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;)Ljava/lang/Object;
@@ -2284,7 +2100,6 @@
 .method public getId()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->id:J
 
     return-wide v0
@@ -2293,7 +2108,6 @@
 .method public getName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
     return-object v0
@@ -2302,7 +2116,6 @@
 .method public getParent_id()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->parent_id:J
 
     return-wide v0
@@ -2311,7 +2124,6 @@
 .method public getTimestamp()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->timestamp:J
 
     return-wide v0
@@ -2320,7 +2132,6 @@
 .method public getTrace_id()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id:J
 
     return-wide v0
@@ -2329,7 +2140,6 @@
 .method public getTrace_id_high()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id_high:J
 
     return-wide v0
@@ -2338,7 +2148,6 @@
 .method public hashCode()I
     .locals 7
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id:J
 
     invoke-static {v0, v1}, Lorg/apache/thrift/TBaseHelper;->hashCode(J)I
@@ -2351,7 +2160,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 2
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetName()Z
 
     move-result v2
@@ -2372,7 +2180,6 @@
     :goto_0
     add-int/2addr v0, v2
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetName()Z
 
     move-result v2
@@ -2381,7 +2188,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 4
     iget-object v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
     invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
@@ -2393,7 +2199,6 @@
     :cond_1
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 5
     iget-wide v5, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->id:J
 
     invoke-static {v5, v6}, Lorg/apache/thrift/TBaseHelper;->hashCode(J)I
@@ -2404,7 +2209,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 6
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetParent_id()Z
 
     move-result v2
@@ -2421,7 +2225,6 @@
     :goto_1
     add-int/2addr v0, v2
 
-    .line 7
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetParent_id()Z
 
     move-result v2
@@ -2430,7 +2233,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 8
     iget-wide v5, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->parent_id:J
 
     invoke-static {v5, v6}, Lorg/apache/thrift/TBaseHelper;->hashCode(J)I
@@ -2442,7 +2244,6 @@
     :cond_3
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 9
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetAnnotations()Z
 
     move-result v2
@@ -2459,7 +2260,6 @@
     :goto_2
     add-int/2addr v0, v2
 
-    .line 10
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetAnnotations()Z
 
     move-result v2
@@ -2468,7 +2268,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 11
     iget-object v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->hashCode()I
@@ -2480,7 +2279,6 @@
     :cond_5
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 12
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetBinary_annotations()Z
 
     move-result v2
@@ -2497,7 +2295,6 @@
     :goto_3
     add-int/2addr v0, v2
 
-    .line 13
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetBinary_annotations()Z
 
     move-result v2
@@ -2506,7 +2303,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 14
     iget-object v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->hashCode()I
@@ -2518,7 +2314,6 @@
     :cond_7
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 15
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDebug()Z
 
     move-result v2
@@ -2535,7 +2330,6 @@
     :goto_4
     add-int/2addr v0, v2
 
-    .line 16
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDebug()Z
 
     move-result v2
@@ -2544,7 +2338,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 17
     iget-boolean v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->debug:Z
 
     if-eqz v2, :cond_9
@@ -2562,7 +2355,6 @@
     :cond_a
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 18
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTimestamp()Z
 
     move-result v2
@@ -2579,7 +2371,6 @@
     :goto_6
     add-int/2addr v0, v2
 
-    .line 19
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTimestamp()Z
 
     move-result v2
@@ -2588,7 +2379,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 20
     iget-wide v5, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->timestamp:J
 
     invoke-static {v5, v6}, Lorg/apache/thrift/TBaseHelper;->hashCode(J)I
@@ -2600,7 +2390,6 @@
     :cond_c
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 21
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDuration()Z
 
     move-result v2
@@ -2617,7 +2406,6 @@
     :goto_7
     add-int/2addr v0, v2
 
-    .line 22
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDuration()Z
 
     move-result v2
@@ -2626,7 +2414,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 23
     iget-wide v5, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->duration:J
 
     invoke-static {v5, v6}, Lorg/apache/thrift/TBaseHelper;->hashCode(J)I
@@ -2638,7 +2425,6 @@
     :cond_e
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 24
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTrace_id_high()Z
 
     move-result v1
@@ -2653,7 +2439,6 @@
     :goto_8
     add-int/2addr v0, v3
 
-    .line 25
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTrace_id_high()Z
 
     move-result v1
@@ -2662,7 +2447,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 26
     iget-wide v1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id_high:J
 
     invoke-static {v1, v2}, Lorg/apache/thrift/TBaseHelper;->hashCode(J)I
@@ -2678,7 +2462,6 @@
 .method public isDebug()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->debug:Z
 
     return v0
@@ -2689,7 +2472,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -2700,14 +2482,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 3
     new-instance p1, Ljava/lang/IllegalStateException;
 
     invoke-direct {p1}, Ljava/lang/IllegalStateException;-><init>()V
 
     throw p1
 
-    .line 4
     :pswitch_0
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTrace_id_high()Z
 
@@ -2715,7 +2495,6 @@
 
     return p1
 
-    .line 5
     :pswitch_1
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDuration()Z
 
@@ -2723,7 +2502,6 @@
 
     return p1
 
-    .line 6
     :pswitch_2
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTimestamp()Z
 
@@ -2731,7 +2509,6 @@
 
     return p1
 
-    .line 7
     :pswitch_3
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDebug()Z
 
@@ -2739,7 +2516,6 @@
 
     return p1
 
-    .line 8
     :pswitch_4
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetBinary_annotations()Z
 
@@ -2747,7 +2523,6 @@
 
     return p1
 
-    .line 9
     :pswitch_5
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetAnnotations()Z
 
@@ -2755,7 +2530,6 @@
 
     return p1
 
-    .line 10
     :pswitch_6
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetParent_id()Z
 
@@ -2763,7 +2537,6 @@
 
     return p1
 
-    .line 11
     :pswitch_7
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetId()Z
 
@@ -2771,7 +2544,6 @@
 
     return p1
 
-    .line 12
     :pswitch_8
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetName()Z
 
@@ -2779,7 +2551,6 @@
 
     return p1
 
-    .line 13
     :pswitch_9
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTrace_id()Z
 
@@ -2787,7 +2558,6 @@
 
     return p1
 
-    .line 14
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2815,7 +2585,6 @@
 .method public bridge synthetic isSet(Lorg/apache/thrift/TFieldIdEnum;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSet(Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;)Z
@@ -2828,7 +2597,6 @@
 .method public isSetAnnotations()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -2847,7 +2615,6 @@
 .method public isSetBinary_annotations()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -2866,7 +2633,6 @@
 .method public isSetDebug()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x3
@@ -2881,7 +2647,6 @@
 .method public isSetDuration()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x5
@@ -2896,7 +2661,6 @@
 .method public isSetId()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x1
@@ -2911,7 +2675,6 @@
 .method public isSetName()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -2930,7 +2693,6 @@
 .method public isSetParent_id()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x2
@@ -2945,7 +2707,6 @@
 .method public isSetTimestamp()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x4
@@ -2960,7 +2721,6 @@
 .method public isSetTrace_id()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -2975,7 +2735,6 @@
 .method public isSetTrace_id_high()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x6
@@ -2995,7 +2754,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0
@@ -3017,7 +2775,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
     return-object p0
@@ -3030,7 +2787,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
     :cond_0
@@ -3049,7 +2805,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     return-object p0
@@ -3062,7 +2817,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     :cond_0
@@ -3072,12 +2826,10 @@
 .method public setDebug(Z)Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->debug:Z
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setDebugIsSet(Z)V
 
     return-object p0
@@ -3086,7 +2838,6 @@
 .method public setDebugIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x3
@@ -3103,12 +2854,10 @@
 .method public setDuration(J)Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->duration:J
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setDurationIsSet(Z)V
 
     return-object p0
@@ -3117,7 +2866,6 @@
 .method public setDurationIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x5
@@ -3134,7 +2882,6 @@
 .method public setFieldValue(Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -3150,12 +2897,10 @@
     :pswitch_0
     if-nez p2, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->unsetTrace_id_high()V
 
     goto/16 :goto_0
 
-    .line 4
     :cond_0
     check-cast p2, Ljava/lang/Long;
 
@@ -3170,12 +2915,10 @@
     :pswitch_1
     if-nez p2, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->unsetDuration()V
 
     goto/16 :goto_0
 
-    .line 6
     :cond_1
     check-cast p2, Ljava/lang/Long;
 
@@ -3190,12 +2933,10 @@
     :pswitch_2
     if-nez p2, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->unsetTimestamp()V
 
     goto/16 :goto_0
 
-    .line 8
     :cond_2
     check-cast p2, Ljava/lang/Long;
 
@@ -3210,12 +2951,10 @@
     :pswitch_3
     if-nez p2, :cond_3
 
-    .line 9
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->unsetDebug()V
 
     goto :goto_0
 
-    .line 10
     :cond_3
     check-cast p2, Ljava/lang/Boolean;
 
@@ -3230,12 +2969,10 @@
     :pswitch_4
     if-nez p2, :cond_4
 
-    .line 11
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->unsetBinary_annotations()V
 
     goto :goto_0
 
-    .line 12
     :cond_4
     check-cast p2, Ljava/util/List;
 
@@ -3246,12 +2983,10 @@
     :pswitch_5
     if-nez p2, :cond_5
 
-    .line 13
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->unsetAnnotations()V
 
     goto :goto_0
 
-    .line 14
     :cond_5
     check-cast p2, Ljava/util/List;
 
@@ -3262,12 +2997,10 @@
     :pswitch_6
     if-nez p2, :cond_6
 
-    .line 15
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->unsetParent_id()V
 
     goto :goto_0
 
-    .line 16
     :cond_6
     check-cast p2, Ljava/lang/Long;
 
@@ -3282,12 +3015,10 @@
     :pswitch_7
     if-nez p2, :cond_7
 
-    .line 17
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->unsetId()V
 
     goto :goto_0
 
-    .line 18
     :cond_7
     check-cast p2, Ljava/lang/Long;
 
@@ -3302,12 +3033,10 @@
     :pswitch_8
     if-nez p2, :cond_8
 
-    .line 19
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->unsetName()V
 
     goto :goto_0
 
-    .line 20
     :cond_8
     check-cast p2, Ljava/lang/String;
 
@@ -3318,12 +3047,10 @@
     :pswitch_9
     if-nez p2, :cond_9
 
-    .line 21
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->unsetTrace_id()V
 
     goto :goto_0
 
-    .line 22
     :cond_9
     check-cast p2, Ljava/lang/Long;
 
@@ -3356,7 +3083,6 @@
 .method public bridge synthetic setFieldValue(Lorg/apache/thrift/TFieldIdEnum;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setFieldValue(Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;Ljava/lang/Object;)V
@@ -3367,12 +3093,10 @@
 .method public setId(J)Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->id:J
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setIdIsSet(Z)V
 
     return-object p0
@@ -3381,7 +3105,6 @@
 .method public setIdIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x1
@@ -3398,7 +3121,6 @@
 .method public setName(Ljava/lang/String;)Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
     return-object p0
@@ -3411,7 +3133,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
     :cond_0
@@ -3421,12 +3142,10 @@
 .method public setParent_id(J)Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->parent_id:J
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setParent_idIsSet(Z)V
 
     return-object p0
@@ -3435,7 +3154,6 @@
 .method public setParent_idIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x2
@@ -3452,12 +3170,10 @@
 .method public setTimestamp(J)Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->timestamp:J
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setTimestampIsSet(Z)V
 
     return-object p0
@@ -3466,7 +3182,6 @@
 .method public setTimestampIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x4
@@ -3483,12 +3198,10 @@
 .method public setTrace_id(J)Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id:J
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setTrace_idIsSet(Z)V
 
     return-object p0
@@ -3497,7 +3210,6 @@
 .method public setTrace_idIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -3514,12 +3226,10 @@
 .method public setTrace_id_high(J)Lio/jaegertracing/twitter/zipkin/thriftjava/Span;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id_high:J
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->setTrace_id_highIsSet(Z)V
 
     return-object p0
@@ -3528,7 +3238,6 @@
 .method public setTrace_id_highIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x6
@@ -3545,7 +3254,6 @@
 .method public toString()Ljava/lang/String;
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "Span("
@@ -3554,121 +3262,96 @@
 
     const-string v1, "trace_id:"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-wide v1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id:J
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     const-string v1, ", "
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "name:"
 
-    .line 5
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     iget-object v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
     const-string v3, "null"
 
     if-nez v2, :cond_0
 
-    .line 7
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     :goto_0
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "id:"
 
-    .line 10
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     iget-wide v4, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->id:J
 
     invoke-virtual {v0, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetParent_id()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 13
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "parent_id:"
 
-    .line 14
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     iget-wide v4, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->parent_id:J
 
     invoke-virtual {v0, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
-    .line 16
     :cond_1
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "annotations:"
 
-    .line 17
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 18
     iget-object v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
     if-nez v2, :cond_2
 
-    .line 19
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
-    .line 20
     :cond_2
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    .line 21
     :goto_1
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "binary_annotations:"
 
-    .line 22
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 23
     iget-object v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     if-nez v2, :cond_3
 
-    .line 24
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_2
 
-    .line 25
     :cond_3
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    .line 26
     :goto_2
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDebug()Z
 
@@ -3676,20 +3359,16 @@
 
     if-eqz v2, :cond_4
 
-    .line 27
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "debug:"
 
-    .line 28
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 29
     iget-boolean v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->debug:Z
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
-    .line 30
     :cond_4
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTimestamp()Z
 
@@ -3697,20 +3376,16 @@
 
     if-eqz v2, :cond_5
 
-    .line 31
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "timestamp:"
 
-    .line 32
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 33
     iget-wide v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->timestamp:J
 
     invoke-virtual {v0, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
-    .line 34
     :cond_5
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetDuration()Z
 
@@ -3718,20 +3393,16 @@
 
     if-eqz v2, :cond_6
 
-    .line 35
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "duration:"
 
-    .line 36
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 37
     iget-wide v2, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->duration:J
 
     invoke-virtual {v0, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
-    .line 38
     :cond_6
     invoke-virtual {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->isSetTrace_id_high()Z
 
@@ -3739,15 +3410,12 @@
 
     if-eqz v2, :cond_7
 
-    .line 39
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, "trace_id_high:"
 
-    .line 40
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 41
     iget-wide v1, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->trace_id_high:J
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
@@ -3755,10 +3423,8 @@
     :cond_7
     const-string v1, ")"
 
-    .line 42
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 43
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -3771,7 +3437,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->annotations:Ljava/util/List;
 
     return-void
@@ -3782,7 +3447,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->binary_annotations:Ljava/util/List;
 
     return-void
@@ -3791,7 +3455,6 @@
 .method public unsetDebug()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x3
@@ -3808,7 +3471,6 @@
 .method public unsetDuration()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x5
@@ -3825,7 +3487,6 @@
 .method public unsetId()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x1
@@ -3844,7 +3505,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->name:Ljava/lang/String;
 
     return-void
@@ -3853,7 +3513,6 @@
 .method public unsetParent_id()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x2
@@ -3870,7 +3529,6 @@
 .method public unsetTimestamp()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x4
@@ -3887,7 +3545,6 @@
 .method public unsetTrace_id()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -3904,7 +3561,6 @@
 .method public unsetTrace_id_high()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->__isset_bitfield:B
 
     const/4 v1, 0x6
@@ -3937,7 +3593,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0

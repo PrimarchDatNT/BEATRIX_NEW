@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/commsource/widget/BeautyBlingView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/BeautyBlingView$a;->d:Lcom/commsource/widget/BeautyBlingView;
 
     invoke-direct {p0}, Lcom/bumptech/glide/request/j/n;-><init>()V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/BeautyBlingView$a;->c(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/k/f;)V
@@ -74,7 +72,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/BeautyBlingView$a;->d:Lcom/commsource/widget/BeautyBlingView;
 
     invoke-static {v0}, Lcom/commsource/widget/BeautyBlingView;->a(Lcom/commsource/widget/BeautyBlingView;)Landroid/view/View;
@@ -83,7 +80,6 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/BeautyBlingView$a;->d:Lcom/commsource/widget/BeautyBlingView;
 
     invoke-static {p1}, Lcom/commsource/widget/BeautyBlingView;->b(Lcom/commsource/widget/BeautyBlingView;)Z
@@ -92,12 +88,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/BeautyBlingView$a;->d:Lcom/commsource/widget/BeautyBlingView;
 
     invoke-static {p1}, Lcom/commsource/widget/BeautyBlingView;->c(Lcom/commsource/widget/BeautyBlingView;)V
 
-    .line 4
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

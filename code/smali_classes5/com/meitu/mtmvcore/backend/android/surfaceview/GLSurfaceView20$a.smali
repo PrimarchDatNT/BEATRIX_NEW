@@ -49,7 +49,6 @@
 
     const/4 v1, 0x4
 
-    .line 1
     sput v1, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->h:I
 
     const/16 v2, 0x9
@@ -100,7 +99,6 @@
 
     aput v3, v2, v1
 
-    .line 2
     sput-object v2, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->i:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -111,32 +109,24 @@
 .method public constructor <init>(IIIIII)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
     new-array v0, v0, [I
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->g:[I
 
-    .line 3
     iput p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->a:I
 
-    .line 4
     iput p2, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->b:I
 
-    .line 5
     iput p3, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->c:I
 
-    .line 6
     iput p4, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->d:I
 
-    .line 7
     iput p5, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->e:I
 
-    .line 8
     iput p6, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->f:I
 
     return-void
@@ -153,7 +143,6 @@
 
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v9, v7
 
     const/4 v0, 0x0
@@ -177,19 +166,16 @@
 
     move-object v3, v11
 
-    .line 2
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v12
 
     const/16 v4, 0x3026
 
-    .line 3
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v0
 
-    .line 4
     iget v1, v6, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->e:I
 
     if-lt v12, v1, :cond_1
@@ -213,33 +199,28 @@
 
     move-object v3, v11
 
-    .line 5
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v12
 
     const/16 v4, 0x3023
 
-    .line 6
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v13
 
     const/16 v4, 0x3022
 
-    .line 7
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v14
 
     const/16 v4, 0x3021
 
-    .line 8
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v0
 
-    .line 9
     iget v1, v6, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->a:I
 
     if-ne v12, v1, :cond_1
@@ -269,7 +250,6 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 10
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
@@ -282,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->g:[I
 
     invoke-interface {p1, p2, p3, p4, v1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetConfigAttrib(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;I[I)Z
@@ -291,7 +270,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->g:[I
 
     const/4 p2, 0x0
@@ -302,7 +280,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -320,7 +297,6 @@
 
     new-array v2, v1, [I
 
-    .line 1
     fill-array-data v2, :array_0
 
     const-string v3, "EGL_BUFFER_SIZE"
@@ -389,7 +365,6 @@
 
     const-string v35, "EGL_CONFORMANT"
 
-    .line 2
     filled-new-array/range {v3 .. v35}, [Ljava/lang/String;
 
     move-result-object v3
@@ -405,10 +380,8 @@
     :goto_0
     if-ge v7, v1, :cond_2
 
-    .line 3
     aget v8, v2, v7
 
-    .line 4
     aget-object v9, v3, v7
 
     move-object/from16 v10, p1
@@ -417,14 +390,12 @@
 
     move-object/from16 v12, p3
 
-    .line 5
     invoke-interface {v10, v11, v12, v8, v5}, Ljavax/microedition/khronos/egl/EGL10;->eglGetConfigAttrib(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;I[I)Z
 
     move-result v8
 
     if-eqz v8, :cond_0
 
-    .line 6
     sget-object v8, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20;->d:Ljava/lang/String;
 
     const/4 v13, 0x2
@@ -451,7 +422,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_0
     :goto_1
     invoke-interface/range {p1 .. p1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetError()I
@@ -470,7 +440,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -523,10 +492,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p3
 
-    .line 2
     sget-object v2, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20;->d:Ljava/lang/String;
 
     const/4 v3, 0x1
@@ -554,7 +521,6 @@
     :goto_0
     if-ge v2, v1, :cond_0
 
-    .line 3
     sget-object v4, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20;->d:Ljava/lang/String;
 
     new-array v5, v3, [Ljava/lang/Object;
@@ -573,7 +539,6 @@
 
     invoke-static {v4, v5}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     aget-object v4, p3, v2
 
     invoke-direct {p0, p1, p2, v4}, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->c(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;)V
@@ -582,7 +547,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -602,7 +566,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     sget-object v4, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->i:[I
 
     const/4 v5, 0x0
@@ -619,15 +582,12 @@
 
     const/4 v2, 0x0
 
-    .line 2
     aget v6, v1, v2
 
     if-lez v6, :cond_0
 
-    .line 3
     new-array v8, v6, [Ljavax/microedition/khronos/egl/EGLConfig;
 
-    .line 4
     sget-object v4, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->i:[I
 
     move-object v2, p1
@@ -640,7 +600,6 @@
 
     invoke-interface/range {v2 .. v7}, Ljavax/microedition/khronos/egl/EGL10;->eglChooseConfig(Ljavax/microedition/khronos/egl/EGLDisplay;[I[Ljavax/microedition/khronos/egl/EGLConfig;I[I)Z
 
-    .line 5
     invoke-direct {p0, p1, p2, v8}, Lcom/meitu/mtmvcore/backend/android/surfaceview/GLSurfaceView20$a;->a(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;[Ljavax/microedition/khronos/egl/EGLConfig;)Ljavax/microedition/khronos/egl/EGLConfig;
 
     move-result-object p1
@@ -649,7 +608,6 @@
 
     return-object p1
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

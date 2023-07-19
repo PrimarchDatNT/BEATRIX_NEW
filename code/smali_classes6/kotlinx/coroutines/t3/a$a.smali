@@ -29,7 +29,6 @@
 
     iput-object p2, p0, Lcotlinx/coroutines/t3/a$a;->a:Lcotlinx/coroutines/t3/a;
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext$b;)V
 
     return-void
@@ -48,7 +47,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/t3/a$a;->a:Lcotlinx/coroutines/t3/a;
 
     invoke-static {p1}, Lcotlinx/coroutines/t3/a;->i(Lcotlinx/coroutines/t3/a;)Ljava/util/List;

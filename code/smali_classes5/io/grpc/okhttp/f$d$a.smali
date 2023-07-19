@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/okhttp/f$d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/f$d$a;->a:Lio/grpc/okhttp/f$d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 .method public timeout()Lokio/Timeout;
     .locals 1
 
-    .line 1
     sget-object v0, Lokio/Timeout;->NONE:Lokio/Timeout;
 
     return-object v0

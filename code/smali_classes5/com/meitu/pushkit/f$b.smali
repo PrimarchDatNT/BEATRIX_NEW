@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/meitu/pushkit/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/pushkit/f$b;->a:Lcom/meitu/pushkit/f;
 
     invoke-direct {p0}, Lcom/google/gson/reflect/TypeToken;-><init>()V

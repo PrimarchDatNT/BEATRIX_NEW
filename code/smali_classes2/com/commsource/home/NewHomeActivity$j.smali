@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/beautyplus/router/c;->b:Lcom/commsource/beautyplus/router/c;
 
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$j;->a:Lcom/commsource/home/NewHomeActivity;
@@ -51,7 +50,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/beautyplus/router/c;->e(Landroid/app/Activity;Ljava/lang/String;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/home/NewHomeActivity$j;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-virtual {v0}, Lcom/commsource/home/NewHomeActivity;->j1()Lcom/commsource/widget/dialog/delegate/b;
@@ -60,7 +58,6 @@
 
     invoke-virtual {v0}, Lf/d/a;->F()V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

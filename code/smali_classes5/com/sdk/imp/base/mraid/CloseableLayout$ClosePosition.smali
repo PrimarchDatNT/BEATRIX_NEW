@@ -48,7 +48,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
     const-string v1, "TOP_LEFT"
@@ -61,7 +60,6 @@
 
     sput-object v0, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;->TOP_LEFT:Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
-    .line 2
     new-instance v1, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
     const-string v3, "TOP_CENTER"
@@ -74,7 +72,6 @@
 
     sput-object v1, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;->TOP_CENTER:Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
-    .line 3
     new-instance v3, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
     const-string v5, "TOP_RIGHT"
@@ -87,7 +84,6 @@
 
     sput-object v3, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;->TOP_RIGHT:Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
-    .line 4
     new-instance v5, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
     const-string v7, "CENTER"
@@ -100,7 +96,6 @@
 
     sput-object v5, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;->CENTER:Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
-    .line 5
     new-instance v7, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
     const-string v9, "BOTTOM_LEFT"
@@ -113,7 +108,6 @@
 
     sput-object v7, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;->BOTTOM_LEFT:Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
-    .line 6
     new-instance v9, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
     const-string v11, "BOTTOM_CENTER"
@@ -126,7 +120,6 @@
 
     sput-object v9, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;->BOTTOM_CENTER:Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
-    .line 7
     new-instance v11, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
     const-string v13, "BOTTOM_RIGHT"
@@ -157,7 +150,6 @@
 
     aput-object v11, v13, v14
 
-    .line 8
     sput-object v13, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;->$VALUES:[Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
     return-void
@@ -171,10 +163,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;->mGravity:I
 
     return-void
@@ -183,7 +173,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -198,7 +187,6 @@
 .method public static values()[Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;->$VALUES:[Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;
 
     invoke-virtual {v0}, [Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;->clone()Ljava/lang/Object;
@@ -215,7 +203,6 @@
 .method getGravity()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/base/mraid/CloseableLayout$ClosePosition;->mGravity:I
 
     return v0

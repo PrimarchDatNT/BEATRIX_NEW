@@ -76,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$k;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaFragment;->Z(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/widget/h1/e;
@@ -93,19 +92,16 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->N(Ljava/util/List;Ljava/lang/Class;)V
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/Iterable;
 
-    .line 4
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -130,7 +126,6 @@
 
     check-cast v5, Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 5
     invoke-virtual {v5}, Lcom/commsource/studio/formula/FormulaCategory;->getCategoryId()Ljava/lang/String;
 
     move-result-object v7
@@ -145,7 +140,6 @@
 
     if-eqz v6, :cond_0
 
-    .line 6
     invoke-virtual {v5}, Lcom/commsource/studio/formula/FormulaCategory;->getDisplayFormulaList()Ljava/util/List;
 
     move-result-object v6
@@ -164,7 +158,6 @@
     :goto_1
     add-int/2addr v4, v6
 
-    .line 7
     invoke-virtual {v5}, Lcom/commsource/studio/formula/FormulaCategory;->getDisplayFormulaList()Ljava/util/List;
 
     move-result-object v5
@@ -175,7 +168,6 @@
 
     add-int/lit8 v5, v4, -0x1
 
-    .line 8
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -184,7 +176,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
@@ -202,7 +193,6 @@
 
     if-le v2, v5, :cond_4
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/studio/formula/FormulaFragment$k;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/formula/FormulaFragment;->Y(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/beautyplus/f0/m8;
@@ -228,7 +218,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/formula/d;->c(Ljava/util/List;)V
 
-    .line 11
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$k;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
@@ -246,7 +235,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/widget/h1/e;->N(Ljava/util/List;Ljava/lang/Class;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$k;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaFragment;->Z(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/widget/h1/e;
@@ -259,7 +247,6 @@
 
     if-lt p1, v5, :cond_5
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$k;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaFragment;->Y(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/beautyplus/f0/m8;
@@ -270,7 +257,6 @@
 
     invoke-static {p1, v6, v3, v5, v4}, Lcom/commsource/widget/LineSelectView;->j(Lcom/commsource/widget/LineSelectView;IZILjava/lang/Object;)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$k;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaFragment;->Z(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/widget/h1/e;
@@ -279,7 +265,6 @@
 
     invoke-virtual {p1, v6}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 15
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -293,7 +278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/FormulaFragment$k;->a(Lcotlin/Pair;)V

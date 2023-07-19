@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$b;->g:Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
@@ -79,17 +77,14 @@
 
     invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
 
-    .line 4
     :cond_0
     invoke-virtual {v1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
@@ -139,7 +134,6 @@
 
     move-result-object v1
 
-    .line 5
     :try_start_0
     invoke-static {v1}, Landroid/os/Debug;->dumpHprofData(Ljava/lang/String;)V
     :try_end_0
@@ -150,7 +144,6 @@
     :catch_0
     move-exception v1
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -173,7 +166,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     :goto_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$b;->g:Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
@@ -185,7 +177,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

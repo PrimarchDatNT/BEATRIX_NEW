@@ -6,7 +6,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/auth/AuthCredential;-><init>()V
 
     return-void

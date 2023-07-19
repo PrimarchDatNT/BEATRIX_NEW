@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/a42;Landroid/app/Activity;Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/j62;->a:Landroid/app/Activity;
 
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/j62;->b:Landroid/os/Bundle;
@@ -31,7 +30,6 @@
 .method public final a(Landroid/app/Application$ActivityLifecycleCallbacks;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/j62;->a:Landroid/app/Activity;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/j62;->b:Landroid/os/Bundle;

@@ -27,7 +27,6 @@
 .method private constructor <init>(Lcom/commsource/autocamera/SimpleCameraViewModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$c;->b:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method synthetic constructor <init>(Lcom/commsource/autocamera/SimpleCameraViewModel;Lcom/commsource/autocamera/SimpleCameraViewModel$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/autocamera/SimpleCameraViewModel$c;-><init>(Lcom/commsource/autocamera/SimpleCameraViewModel;)V
 
     return-void
@@ -53,10 +51,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$c;->a:J
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$c;->b:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-static {p1}, Lcom/commsource/autocamera/SimpleCameraViewModel;->J(Lcom/commsource/autocamera/SimpleCameraViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -77,10 +73,8 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/commsource/autocamera/SimpleCameraViewModel$h;-><init>(IJLcom/meitu/library/camera/MTCamera$t;Lcom/meitu/library/camera/p/d/f;)V
 
-    .line 3
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -93,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$c;->b:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/autocamera/SimpleCameraViewModel;->J(Lcom/commsource/autocamera/SimpleCameraViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -106,7 +99,6 @@
 
     iget-object v2, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$c;->b:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
-    .line 2
     invoke-static {v2}, Lcom/commsource/autocamera/SimpleCameraViewModel;->K(Lcom/commsource/autocamera/SimpleCameraViewModel;)Lcom/meitu/library/camera/p/d/b;
 
     move-result-object v2
@@ -123,24 +115,20 @@
 
     invoke-direct/range {v2 .. v7}, Lcom/commsource/autocamera/SimpleCameraViewModel$h;-><init>(IJLcom/meitu/library/camera/MTCamera$t;Lcom/meitu/library/camera/p/d/f;)V
 
-    .line 3
     invoke-virtual {v1, v8}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$c;->b:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     iget-object p1, p1, Lcom/commsource/autocamera/SimpleCameraViewModel;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-eqz p1, :cond_0
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/camera/newrender/renderproxy/m;->c0()Lcom/commsource/camera/newrender/renderproxy/v/r;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/commsource/camera/newrender/renderproxy/v/r;->f2()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -154,7 +142,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$c;->b:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-static {v0}, Lcom/commsource/autocamera/SimpleCameraViewModel;->J(Lcom/commsource/autocamera/SimpleCameraViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -175,24 +162,20 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/commsource/autocamera/SimpleCameraViewModel$h;-><init>(IJLcom/meitu/library/camera/MTCamera$t;Lcom/meitu/library/camera/p/d/f;)V
 
-    .line 2
     invoke-virtual {v0, v7}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$c;->b:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     iget-object v0, v0, Lcom/commsource/autocamera/SimpleCameraViewModel;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Lcom/commsource/camera/newrender/renderproxy/m;->c0()Lcom/commsource/camera/newrender/renderproxy/v/r;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/commsource/camera/newrender/renderproxy/v/r;->f2()V
 
-    .line 5
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -206,14 +189,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$c;->b:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     iget-object v1, v1, Lcom/commsource/autocamera/SimpleCameraViewModel;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m;->c0()Lcom/commsource/camera/newrender/renderproxy/v/r;
 
     move-result-object v1
@@ -223,10 +204,8 @@
     :cond_0
     const-wide/16 v1, 0x0
 
-    .line 3
     iput-wide v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$c;->a:J
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$c;->b:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/autocamera/SimpleCameraViewModel;->J(Lcom/commsource/autocamera/SimpleCameraViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -247,10 +226,8 @@
 
     invoke-direct/range {v2 .. v7}, Lcom/commsource/autocamera/SimpleCameraViewModel$h;-><init>(IJLcom/meitu/library/camera/MTCamera$t;Lcom/meitu/library/camera/p/d/f;)V
 
-    .line 5
     invoke-virtual {v1, v8}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

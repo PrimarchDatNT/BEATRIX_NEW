@@ -32,12 +32,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/ads/formats/PublisherAdViewOptions$a;->a:Z
 
     return-void
@@ -46,7 +44,6 @@
 .method static synthetic e(Lcom/google/android/gms/ads/formats/PublisherAdViewOptions$a;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/ads/formats/PublisherAdViewOptions$a;->a:Z
 
     return p0
@@ -55,7 +52,6 @@
 .method static synthetic f(Lcom/google/android/gms/ads/formats/PublisherAdViewOptions$a;)Lcom/google/android/gms/ads/doubleclick/a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/formats/PublisherAdViewOptions$a;->b:Lcom/google/android/gms/ads/doubleclick/a;
 
     return-object p0
@@ -64,7 +60,6 @@
 .method static synthetic g(Lcom/google/android/gms/ads/formats/PublisherAdViewOptions$a;)Lcom/google/android/gms/ads/formats/h;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/formats/PublisherAdViewOptions$a;->c:Lcom/google/android/gms/ads/formats/h;
 
     return-object p0
@@ -75,7 +70,6 @@
 .method public final a()Lcom/google/android/gms/ads/formats/PublisherAdViewOptions;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/ads/formats/PublisherAdViewOptions;
 
     const/4 v1, 0x0
@@ -88,7 +82,6 @@
 .method public final b(Lcom/google/android/gms/ads/doubleclick/a;)Lcom/google/android/gms/ads/formats/PublisherAdViewOptions$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/ads/formats/PublisherAdViewOptions$a;->b:Lcom/google/android/gms/ads/doubleclick/a;
 
     return-object p0
@@ -97,7 +90,6 @@
 .method public final c(Z)Lcom/google/android/gms/ads/formats/PublisherAdViewOptions$a;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/ads/formats/PublisherAdViewOptions$a;->a:Z
 
     return-object p0
@@ -108,7 +100,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/ads/formats/PublisherAdViewOptions$a;->c:Lcom/google/android/gms/ads/formats/h;
 
     return-object p0

@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/defocus/DeFocusFragment$onViewCreated$6;->invoke(Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;)V
@@ -80,7 +79,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;->getModel()Lcom/commsource/material/download/SegmentModel;
 
     move-result-object v1
@@ -109,12 +107,10 @@
 
     if-eqz p1, :cond_4
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;->getProgress()I
 
     move-result p1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$onViewCreated$6;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->F1(Lcom/commsource/studio/function/defocus/DeFocusFragment;)Lcom/commsource/beautymain/data/SoftFocusEntity;
@@ -127,7 +123,6 @@
 
     iput v2, v1, Lcom/commsource/beautymain/data/SoftFocusEntity;->downloadState:I
 
-    .line 5
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$onViewCreated$6;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
@@ -139,7 +134,6 @@
 
     iput p1, v1, Lcom/commsource/beautymain/data/SoftFocusEntity;->downloadProgress:I
 
-    .line 6
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$onViewCreated$6;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
@@ -153,7 +147,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_4
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -165,7 +158,6 @@
 
     throw p1
 
-    .line 8
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

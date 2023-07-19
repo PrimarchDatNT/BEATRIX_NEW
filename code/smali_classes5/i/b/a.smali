@@ -19,7 +19,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Li/b/d;
 
     const-string v1, ""
@@ -30,7 +29,6 @@
 
     sput-object v0, Li/b/a;->d:Li/b/d;
 
-    .line 2
     new-instance v0, Li/b/b;
 
     invoke-direct {v0, v2, v3}, Li/b/b;-><init>(J)V
@@ -43,17 +41,14 @@
 .method protected constructor <init>(Li/b/d;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Li/b/a;->d:Li/b/d;
 
     if-ne p1, v0, :cond_0
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/AssertionError;
 
@@ -67,7 +62,6 @@
 .method protected static g(J)Li/b/b;
     .locals 1
 
-    .line 1
     new-instance v0, Li/b/b;
 
     invoke-direct {v0, p0, p1}, Li/b/b;-><init>(J)V
@@ -82,7 +76,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Li/b/d;
 
     invoke-direct {v0, p0, p1, p2}, Li/b/d;-><init>(Ljava/lang/String;J)V
@@ -93,7 +86,6 @@
 .method protected static n(Li/b/b;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Li/b/b;->a:J
 
     return-wide v0
@@ -102,7 +94,6 @@
 .method protected static o(Li/b/d;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Li/b/d;->b:J
 
     return-wide v0
@@ -113,7 +104,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object p0, p0, Li/b/d;->a:Ljava/lang/String;
 
     return-object p0
@@ -134,7 +124,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object p1, Li/b/a;->d:Li/b/d;
 
     return-object p1
@@ -161,7 +150,6 @@
 .method protected f()Li/b/b;
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/a;->e:Li/b/b;
 
     return-object v0

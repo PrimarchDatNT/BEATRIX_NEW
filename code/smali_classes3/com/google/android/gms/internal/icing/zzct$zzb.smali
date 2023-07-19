@@ -19,7 +19,6 @@
 
     const-string v0, "CodedOutputStream was writing to a flat byte array and ran out of space."
 
-    .line 1
     invoke-direct {p0, v0}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -28,7 +27,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 3
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -63,7 +61,6 @@
 
     const-string v0, "CodedOutputStream was writing to a flat byte array and ran out of space."
 
-    .line 2
     invoke-direct {p0, v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

@@ -42,17 +42,14 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/BaseWebViewViewability;-><init>(Landroid/content/Context;)V
 
-    .line 2
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x16
 
     if-gt v0, v1, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Landroid/webkit/WebView;->getVisibility()I
 
     move-result p1
@@ -71,7 +68,6 @@
 
     return-void
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/mopub/common/VisibilityTracker;
 
@@ -79,12 +75,10 @@
 
     iput-object v0, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
-    .line 5
     new-instance p1, Lcom/mopub/mraid/MraidBridge$MraidWebView$1;
 
     invoke-direct {p1, p0}, Lcom/mopub/mraid/MraidBridge$MraidWebView$1;-><init>(Lcom/mopub/mraid/MraidBridge$MraidWebView;)V
 
-    .line 6
     iget-object v0, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
     invoke-virtual {v0, p1}, Lcom/mopub/common/VisibilityTracker;->setVisibilityTrackerListener(Lcom/mopub/common/VisibilityTracker$VisibilityTrackerListener;)V
@@ -95,7 +89,6 @@
 .method static synthetic access$200(Lcom/mopub/mraid/MraidBridge$MraidWebView;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/mraid/MraidBridge$MraidWebView;->setMraidViewable(Z)V
 
     return-void
@@ -104,23 +97,19 @@
 .method private setMraidViewable(Z)V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView;->mMraidViewable:Z
 
     if-ne v0, p1, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iput-boolean p1, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView;->mMraidViewable:Z
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView;->mOnVisibilityChangedListener:Lcom/mopub/mraid/MraidBridge$MraidWebView$OnVisibilityChangedListener;
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-interface {v0, p1}, Lcom/mopub/mraid/MraidBridge$MraidWebView$OnVisibilityChangedListener;->onVisibilityChanged(Z)V
 
     :cond_1
@@ -132,15 +121,12 @@
 .method public destroy()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/mopub/mobileads/BaseWebView;->destroy()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
-    .line 3
     iput-object v0, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView;->mOnVisibilityChangedListener:Lcom/mopub/mraid/MraidBridge$MraidWebView$OnVisibilityChangedListener;
 
     return-void
@@ -149,7 +135,6 @@
 .method public isMraidViewable()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView;->mMraidViewable:Z
 
     return v0
@@ -162,10 +147,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/mopub/mobileads/BaseWebViewViewability;->onVisibilityChanged(Landroid/view/View;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
     const/4 v1, 0x1
@@ -181,7 +164,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-direct {p0, v1}, Lcom/mopub/mraid/MraidBridge$MraidWebView;->setMraidViewable(Z)V
 
@@ -190,10 +172,8 @@
     :cond_1
     if-nez p2, :cond_2
 
-    .line 4
     invoke-virtual {v0}, Lcom/mopub/common/VisibilityTracker;->clear()V
 
-    .line 5
     iget-object v2, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
     const/4 v5, 0x0
@@ -212,11 +192,9 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     invoke-virtual {v0, p0}, Lcom/mopub/common/VisibilityTracker;->removeView(Landroid/view/View;)V
 
-    .line 7
     invoke-direct {p0, v2}, Lcom/mopub/mraid/MraidBridge$MraidWebView;->setMraidViewable(Z)V
 
     :goto_1
@@ -230,7 +208,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView;->mOnVisibilityChangedListener:Lcom/mopub/mraid/MraidBridge$MraidWebView$OnVisibilityChangedListener;
 
     return-void

@@ -11,7 +11,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/advert/e;-><init>()V
 
     return-void
@@ -24,19 +23,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/advert/d;->e:Lcom/commsource/beautyplus/advert/d;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyplus/advert/d;
 
     invoke-direct {v1}, Lcom/commsource/beautyplus/advert/d;-><init>()V
 
     sput-object v1, Lcom/commsource/beautyplus/advert/d;->e:Lcom/commsource/beautyplus/advert/d;
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/beautyplus/advert/d;->e:Lcom/commsource/beautyplus/advert/d;
 
@@ -54,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lf/d/i/f;->K(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
@@ -71,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/f;->M()I
 
     move-result v1
@@ -88,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/f;->P()Ljava/lang/String;
 
     move-result-object v1
@@ -105,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/http/api/a;->d:Lcom/meitu/http/api/a$a;
 
     invoke-virtual {v1}, Lcom/meitu/http/api/a$a;->a()Z
@@ -114,14 +106,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/meitu/template/feedback/util/e;->M()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -134,7 +124,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -148,7 +137,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {}, Lcom/meitu/template/feedback/util/e;->M()Z
 
@@ -156,7 +144,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -169,7 +156,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -185,7 +171,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -202,7 +187,6 @@
 
     move-result-object v1
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -216,10 +200,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Lf/d/i/f;->Q(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -234,10 +216,8 @@
 
     long-to-int p2, p1
 
-    .line 1
     invoke-static {p2}, Lf/d/i/f;->S(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -250,10 +230,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lf/d/i/f;->U(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -277,7 +255,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-interface {p2}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -286,7 +263,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-interface {p2}, Ljava/util/List;->size()I
 
@@ -294,7 +270,6 @@
 
     if-ge v1, v2, :cond_0
 
-    .line 3
     invoke-interface {p2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -311,7 +286,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

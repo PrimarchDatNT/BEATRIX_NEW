@@ -87,10 +87,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 2
     new-instance p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$vs$2;
 
     invoke-direct {p2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$vs$2;-><init>(Landroid/content/Context;)V
@@ -101,7 +99,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->a:Lcotlin/w;
 
-    .line 3
     new-instance p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$innerBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$innerBinding$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;)V
@@ -114,35 +111,28 @@
 
     const/4 p1, -0x1
 
-    .line 4
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->d:I
 
     const/4 p1, 0x1
 
-    .line 5
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->K:Z
 
-    .line 6
     new-instance p1, Landroid/animation/ValueAnimator;
 
     invoke-direct {p1}, Landroid/animation/ValueAnimator;-><init>()V
 
     const-wide/16 v0, 0x64
 
-    .line 7
     invoke-virtual {p1, v0, v1}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 8
     new-instance p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$a;
 
     invoke-direct {p2, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$a;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;)V
 
     invoke-virtual {p1, p2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 9
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->N:Landroid/animation/ValueAnimator;
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->getVs()Landroid/view/ViewStub;
 
     move-result-object p1
@@ -159,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v1, :cond_0
@@ -184,7 +173,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -198,7 +186,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -208,7 +195,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-virtual {v1}, Landroid/widget/TextView;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -225,7 +211,6 @@
 
     const-wide/16 v2, 0x1f4
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setStartDelay(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -234,17 +219,14 @@
 
     const-wide/16 v2, 0xc8
 
-    .line 6
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -258,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v1, :cond_0
@@ -273,7 +254,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -289,7 +269,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -305,7 +284,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 4
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -321,7 +299,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -341,7 +318,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->setProgressChangeCallback(Lcotlin/jvm/u/q;)V
 
@@ -370,7 +346,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->H(ZFI)V
 
@@ -386,7 +361,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v1, :cond_0
@@ -411,7 +385,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -421,7 +394,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Landroid/widget/TextView;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -438,14 +410,12 @@
 
     const-wide/16 v2, 0xc8
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 5
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$i;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$i;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;)V
@@ -456,10 +426,8 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -473,7 +441,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->y(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -488,7 +455,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->N:Landroid/animation/ValueAnimator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -503,7 +469,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->J:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -518,7 +483,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -533,7 +497,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -588,7 +551,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -603,7 +565,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -618,7 +579,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->M:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -633,7 +593,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->L:Lcotlin/jvm/u/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -648,7 +607,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->getVs()Landroid/view/ViewStub;
 
     move-result-object p0
@@ -665,7 +623,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->B()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -680,7 +637,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->K:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -695,7 +651,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->N:Landroid/animation/ValueAnimator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -710,7 +665,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->J:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -725,7 +679,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -740,7 +693,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -755,7 +707,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -770,7 +721,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     const/4 v2, 0x0
@@ -843,7 +793,6 @@
 
     div-float/2addr v1, v3
 
-    .line 2
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v4, :cond_4
@@ -907,7 +856,6 @@
 
     div-float/2addr v2, v3
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v3, :cond_9
@@ -928,7 +876,6 @@
     :goto_3
     invoke-virtual {v3, v2}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 4
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -942,7 +889,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -957,7 +903,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->M:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -972,7 +917,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->L:Lcotlin/jvm/u/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -987,7 +931,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->K:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1002,7 +945,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->K()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1017,7 +959,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     const/4 v2, 0x0
@@ -1090,7 +1031,6 @@
 
     div-float/2addr v1, v3
 
-    .line 2
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v4, :cond_4
@@ -1164,7 +1104,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->N:Landroid/animation/ValueAnimator;
 
     new-array v6, v6, [F
@@ -1179,7 +1118,6 @@
 
     goto :goto_3
 
-    .line 4
     :cond_8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->N:Landroid/animation/ValueAnimator;
 
@@ -1193,13 +1131,11 @@
 
     invoke-virtual {p1, v6}, Landroid/animation/ValueAnimator;->setFloatValues([F)V
 
-    .line 5
     :goto_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->N:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1214,12 +1150,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->O:Z
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz p1, :cond_1
@@ -1232,7 +1166,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1244,7 +1177,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1259,7 +1191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->O:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1274,7 +1205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->P:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1289,7 +1219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1306,28 +1235,22 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iput p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->p:F
 
-    .line 2
     iput p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->f:I
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iput p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->J:F
 
-    .line 4
     iput p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->g:I
 
-    .line 5
     :goto_0
     iget-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->K:Z
 
     if-eqz p1, :cond_2
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz p1, :cond_1
@@ -1340,7 +1263,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->setDefaultPosition(F)V
 
-    .line 7
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1356,7 +1278,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1370,7 +1291,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->setDefaultPosition(F)V
 
-    .line 9
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1384,7 +1304,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 10
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1403,30 +1322,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->Q:Z
 
     if-ne v1, p1, :cond_1
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {p2}, Ljava/lang/Runnable;->run()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->z()V
 
-    .line 5
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->Q:Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v1, :cond_3
@@ -1437,7 +1350,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object p1
@@ -1454,7 +1366,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 8
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object p1
@@ -1467,12 +1378,10 @@
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1, v3, v4}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 10
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$g;
 
     invoke-direct {v1, p0, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$g;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;Ljava/lang/Runnable;)V
@@ -1483,17 +1392,14 @@
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 11
     invoke-virtual {p1, p2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
     goto :goto_0
 
-    .line 13
     :cond_2
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -1505,7 +1411,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 14
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object p1
@@ -1524,17 +1429,14 @@
 
     move-result-object p1
 
-    .line 15
     invoke-virtual {p1, v3, v4}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 16
     invoke-virtual {p1, v2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 17
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$h;
 
     invoke-direct {v1, p0, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$h;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;Ljava/lang/Runnable;)V
@@ -1543,10 +1445,8 @@
 
     move-result-object p1
 
-    .line 18
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 19
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1561,10 +1461,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->P:Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v1, :cond_0
@@ -1575,7 +1473,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/CheckBox;->setChecked(Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1662,23 +1559,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->d:I
 
     if-eq p1, v2, :cond_2a
 
-    .line 4
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->d:I
 
     const/4 v2, 0x3
@@ -1697,14 +1590,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cl;->J:Lcom/commsource/widget/XSeekBar;
 
     if-eqz v1, :cond_1
 
     invoke-static {v1}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1716,7 +1607,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1728,7 +1618,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 8
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1740,7 +1629,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 9
     :cond_4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1754,20 +1642,17 @@
 
     goto/16 :goto_0
 
-    .line 10
     :cond_5
     iput-boolean v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->K:Z
 
     if-eqz v1, :cond_6
 
-    .line 11
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cl;->J:Lcom/commsource/widget/XSeekBar;
 
     if-eqz v1, :cond_6
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 12
     :cond_6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1779,7 +1664,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 13
     :cond_7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1791,7 +1675,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 14
     :cond_8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1803,7 +1686,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 15
     :cond_9
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1817,20 +1699,17 @@
 
     goto/16 :goto_0
 
-    .line 16
     :cond_a
     iput-boolean v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->K:Z
 
     if-eqz v1, :cond_b
 
-    .line 17
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cl;->J:Lcom/commsource/widget/XSeekBar;
 
     if-eqz v1, :cond_b
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 18
     :cond_b
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1842,7 +1721,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 19
     :cond_c
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1854,7 +1732,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 20
     :cond_d
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1866,7 +1743,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 21
     :cond_e
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1880,20 +1756,17 @@
 
     goto :goto_0
 
-    .line 22
     :cond_f
     iput-boolean v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->K:Z
 
     if-eqz v1, :cond_10
 
-    .line 23
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cl;->b:Landroid/widget/ImageView;
 
     if-eqz v1, :cond_10
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 24
     :cond_10
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1905,7 +1778,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 25
     :cond_11
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1917,7 +1789,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 26
     :cond_12
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1929,7 +1800,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 27
     :cond_13
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -1941,7 +1811,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 28
     :cond_14
     :goto_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
@@ -1972,7 +1841,6 @@
 
     if-eqz v1, :cond_18
 
-    .line 29
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v1, :cond_16
@@ -2010,7 +1878,6 @@
 
     throw p1
 
-    .line 30
     :cond_18
     :goto_3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
@@ -2037,7 +1904,6 @@
 
     if-eqz v1, :cond_1c
 
-    .line 31
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v1, :cond_1a
@@ -2079,7 +1945,6 @@
     :goto_6
     if-ne p1, v3, :cond_21
 
-    .line 32
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v1, :cond_1d
@@ -2102,7 +1967,6 @@
 
     if-eqz v1, :cond_20
 
-    .line 33
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v1, :cond_1e
@@ -2135,12 +1999,10 @@
 
     throw p1
 
-    .line 34
     :cond_20
     :goto_8
     invoke-direct {p0, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->setAnimIndicator(Z)V
 
-    .line 35
     :cond_21
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -2154,7 +2016,6 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/widget/XSeekBar;->setCenterPointPositionX(F)V
 
-    .line 36
     :cond_22
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -2168,7 +2029,6 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/widget/XSeekBar;->setMaxProgress(I)V
 
-    .line 37
     :cond_23
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -2183,7 +2043,6 @@
     :cond_24
     if-ne p1, v2, :cond_27
 
-    .line 38
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz p1, :cond_25
@@ -2194,7 +2053,6 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/ImageView;->setSelected(Z)V
 
-    .line 39
     :cond_25
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -2206,7 +2064,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/ImageView;->setSelected(Z)V
 
-    .line 40
     :cond_26
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -2222,7 +2079,6 @@
 
     goto :goto_9
 
-    .line 41
     :cond_27
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -2234,7 +2090,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/ImageView;->setSelected(Z)V
 
-    .line 42
     :cond_28
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -2246,7 +2101,6 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/ImageView;->setSelected(Z)V
 
-    .line 43
     :cond_29
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -2260,7 +2114,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/XSeekBar;->setMThumbIndicatorColor(I)V
 
-    .line 44
     :cond_2a
     :goto_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2275,7 +2128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->O:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2308,10 +2160,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->M:Lcotlin/jvm/u/l;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2324,7 +2174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->P:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2357,10 +2206,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->L:Lcotlin/jvm/u/q;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2373,7 +2220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2388,12 +2234,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-nez v1, :cond_2
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->getInnerBinding()Lcom/commsource/beautyplus/f0/cl;
 
     move-result-object v1
@@ -2402,7 +2246,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cl;->a:Landroid/widget/CheckBox;
 
     if-eqz v1, :cond_0
@@ -2411,11 +2254,9 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/CheckBox;->setChecked(Z)V
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->C()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
     if-eqz v1, :cond_1
@@ -2434,7 +2275,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->b:Lcom/commsource/beautyplus/f0/cl;
 
@@ -2450,7 +2290,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

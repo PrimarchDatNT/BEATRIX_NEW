@@ -21,7 +21,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/internal/v;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -47,7 +45,6 @@
 
     invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/internal/v;-><init>(Landroid/os/Looper;)V
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/k;->f()V
 
     return-object v0
@@ -67,10 +64,8 @@
 
     const-string v0, "Result must not be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p0}, Lcom/google/android/gms/common/api/p;->getStatus()Lcom/google/android/gms/common/api/Status;
 
     move-result-object v0
@@ -93,15 +88,12 @@
     :goto_0
     const-string v1, "Status code must be CommonStatusCodes.CANCELED"
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->b(ZLjava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/common/api/l$a;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/common/api/l$a;-><init>(Lcom/google/android/gms/common/api/p;)V
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/k;->f()V
 
     return-object v0
@@ -126,10 +118,8 @@
 
     const-string v0, "Result must not be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p0}, Lcom/google/android/gms/common/api/p;->getStatus()Lcom/google/android/gms/common/api/Status;
 
     move-result-object v0
@@ -144,12 +134,10 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->b(ZLjava/lang/Object;)V
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/common/api/l$b;
 
     invoke-direct {v0, p1, p0}, Lcom/google/android/gms/common/api/l$b;-><init>(Lcom/google/android/gms/common/api/i;Lcom/google/android/gms/common/api/p;)V
 
-    .line 4
     invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->p(Lcom/google/android/gms/common/api/p;)V
 
     return-object v0
@@ -172,20 +160,16 @@
 
     const-string v0, "Result must not be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/common/api/l$c;
 
     const/4 v1, 0x0
 
     invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/l$c;-><init>(Lcom/google/android/gms/common/api/i;)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->p(Lcom/google/android/gms/common/api/p;)V
 
-    .line 4
     new-instance p0, Lcom/google/android/gms/common/api/internal/n;
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/n;-><init>(Lcom/google/android/gms/common/api/k;)V
@@ -212,18 +196,14 @@
 
     const-string v0, "Result must not be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/common/api/l$c;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/common/api/l$c;-><init>(Lcom/google/android/gms/common/api/i;)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->p(Lcom/google/android/gms/common/api/p;)V
 
-    .line 4
     new-instance p0, Lcom/google/android/gms/common/api/internal/n;
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/n;-><init>(Lcom/google/android/gms/common/api/k;)V
@@ -249,10 +229,8 @@
 
     const-string v0, "Result must not be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/common/api/internal/v;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -261,7 +239,6 @@
 
     invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/internal/v;-><init>(Landroid/os/Looper;)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->p(Lcom/google/android/gms/common/api/p;)V
 
     return-object v0
@@ -286,15 +263,12 @@
 
     const-string v0, "Result must not be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/common/api/internal/v;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/common/api/internal/v;-><init>(Lcom/google/android/gms/common/api/i;)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->p(Lcom/google/android/gms/common/api/p;)V
 
     return-object v0

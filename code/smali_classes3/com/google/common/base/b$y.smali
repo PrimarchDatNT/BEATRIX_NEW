@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/base/b$y;
 
     invoke-direct {v0}, Lcom/google/common/base/b$y;-><init>()V
@@ -37,7 +36,6 @@
 
     const-string v0, "CharMatcher.none()"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/base/b$v;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -48,7 +46,6 @@
 .method public A(Ljava/lang/CharSequence;)I
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 p1, -0x1
@@ -67,7 +64,6 @@
 .method public C(Ljava/lang/CharSequence;)Z
     .locals 0
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result p1
@@ -88,7 +84,6 @@
 .method public E(Ljava/lang/CharSequence;)Z
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 p1, 0x1
@@ -99,7 +94,6 @@
 .method public F()Lcom/google/common/base/b;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/common/base/b;->c()Lcom/google/common/base/b;
 
     move-result-object v0
@@ -110,7 +104,6 @@
 .method public I(Lcom/google/common/base/b;)Lcom/google/common/base/b;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -123,7 +116,6 @@
 .method public M(Ljava/lang/CharSequence;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -134,7 +126,6 @@
 .method public N(Ljava/lang/CharSequence;C)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -145,10 +136,8 @@
 .method public O(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -159,7 +148,6 @@
 .method public U(Ljava/lang/CharSequence;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -170,7 +158,6 @@
 .method public V(Ljava/lang/CharSequence;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -181,7 +168,6 @@
 .method public W(Ljava/lang/CharSequence;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -192,7 +178,6 @@
 .method public b(Lcom/google/common/base/b;)Lcom/google/common/base/b;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
@@ -201,7 +186,6 @@
 .method public h(Ljava/lang/CharSequence;C)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -212,7 +196,6 @@
 .method public i(Ljava/lang/CharSequence;)I
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 p1, 0x0
@@ -223,7 +206,6 @@
 .method public n(Ljava/lang/CharSequence;)I
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 p1, -0x1
@@ -234,12 +216,10 @@
 .method public o(Ljava/lang/CharSequence;I)I
     .locals 0
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result p1
 
-    .line 2
     invoke-static {p2, p1}, Lcom/google/common/base/t;->d0(II)I
 
     const/4 p1, -0x1

@@ -29,7 +29,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 
     const-string v1, "advertiseId"
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/abtest/l/c;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -63,7 +61,6 @@
 
     const-string v1, "f_i"
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/abtest/l/c;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -82,7 +79,6 @@
 
     const-string v1, "p_g"
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/abtest/l/c;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -99,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtest/l/c;->e()Landroid/content/SharedPreferences;
 
     move-result-object v1
@@ -108,12 +103,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     invoke-interface {v1, p0, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -131,12 +124,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/abtest/l/c;->f:Landroid/content/SharedPreferences;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/abtest/a;->r()Lcom/meitu/library/abtest/a;
 
     move-result-object v1
@@ -151,14 +142,12 @@
 
     const-string v3, "advertiseId_file"
 
-    .line 3
     invoke-virtual {v1, v3, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v1
 
     sput-object v1, Lcom/meitu/library/abtest/l/c;->f:Landroid/content/SharedPreferences;
 
-    .line 4
     :cond_0
     sget-object v1, Lcom/meitu/library/abtest/l/c;->f:Landroid/content/SharedPreferences;
 
@@ -176,7 +165,6 @@
 
     const-string v1, "p_u"
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/abtest/l/c;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -195,10 +183,8 @@
 
     const-string v1, "advertiseId"
 
-    .line 1
     invoke-static {v1, p0}, Lcom/meitu/library/abtest/l/c;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -213,10 +199,8 @@
 
     const-string v1, "f_i"
 
-    .line 1
     invoke-static {v1, p0}, Lcom/meitu/library/abtest/l/c;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -231,10 +215,8 @@
 
     const-string v1, "p_g"
 
-    .line 1
     invoke-static {v1, p0}, Lcom/meitu/library/abtest/l/c;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -247,7 +229,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -258,7 +239,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/meitu/library/abtest/l/c;->e()Landroid/content/SharedPreferences;
 
@@ -266,24 +246,19 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v1
 
-    .line 5
     invoke-interface {v1, p0, p1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 6
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -298,10 +273,8 @@
 
     const-string v1, "p_u"
 
-    .line 1
     invoke-static {v1, p0}, Lcom/meitu/library/abtest/l/c;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer$b;->a:Lcom/commsource/studio/StudioCanvasContainer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,17 +55,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer$b;->a:Lcom/commsource/studio/StudioCanvasContainer;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/StudioCanvasContainer;->setContainerMatrix(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer$b;->a:Lcom/commsource/studio/StudioCanvasContainer;
 
     invoke-static {p1}, Lcom/commsource/studio/StudioCanvasContainer;->c(Lcom/commsource/studio/StudioCanvasContainer;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

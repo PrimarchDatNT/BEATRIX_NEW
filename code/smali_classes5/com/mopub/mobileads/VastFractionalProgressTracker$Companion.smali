@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/mobileads/VastFractionalProgressTracker$Companion;-><init>()V
 
     return-void
@@ -49,7 +47,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v2
@@ -70,7 +67,6 @@
     :goto_1
     if-nez v2, :cond_2
 
-    .line 2
     invoke-static {}, Lcom/mopub/mobileads/VastFractionalProgressTracker;->access$getPercentagePattern$cp()Ljava/util/regex/Pattern;
 
     move-result-object v2
@@ -114,7 +110,6 @@
 
     move-object v0, p1
 
-    .line 1
     invoke-static/range {v0 .. v5}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -123,7 +118,6 @@
 
     int-to-float p2, p2
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
 
     move-result p1

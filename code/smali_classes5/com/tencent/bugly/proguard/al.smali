@@ -34,12 +34,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/tencent/bugly/proguard/k;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/tencent/bugly/proguard/al;->a:Ljava/util/ArrayList;
 
     return-void
@@ -50,29 +48,24 @@
 .method public final a(Lcom/tencent/bugly/proguard/i;)V
     .locals 3
 
-    .line 2
     sget-object v0, Lcom/tencent/bugly/proguard/al;->b:Ljava/util/ArrayList;
 
     if-nez v0, :cond_0
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v0, Lcom/tencent/bugly/proguard/al;->b:Ljava/util/ArrayList;
 
-    .line 4
     new-instance v0, Lcom/tencent/bugly/proguard/ak;
 
     invoke-direct {v0}, Lcom/tencent/bugly/proguard/ak;-><init>()V
 
-    .line 5
     sget-object v1, Lcom/tencent/bugly/proguard/al;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :cond_0
     sget-object v0, Lcom/tencent/bugly/proguard/al;->b:Ljava/util/ArrayList;
 
@@ -94,7 +87,6 @@
 .method public final a(Lcom/tencent/bugly/proguard/j;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/proguard/al;->a:Ljava/util/ArrayList;
 
     const/4 v1, 0x0

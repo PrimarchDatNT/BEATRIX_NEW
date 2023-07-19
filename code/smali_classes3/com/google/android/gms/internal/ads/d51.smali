@@ -36,10 +36,8 @@
 .method public final d(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
     .locals 1
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/g51;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/internal/ads/g51;-><init>(Ljava/lang/String;)V

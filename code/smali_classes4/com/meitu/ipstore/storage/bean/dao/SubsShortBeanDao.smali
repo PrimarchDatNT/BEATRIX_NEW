@@ -34,17 +34,14 @@
 .method public constructor <init>(Lorg/greenrobot/greendao/k/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/greenrobot/greendao/a;-><init>(Lorg/greenrobot/greendao/k/a;)V
 
-    .line 2
     new-instance p1, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;
 
     invoke-direct {p1}, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->k:Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;
 
-    .line 3
     new-instance p1, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;
 
     invoke-direct {p1}, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;-><init>()V
@@ -57,17 +54,14 @@
 .method public constructor <init>(Lorg/greenrobot/greendao/k/a;Lcom/meitu/ipstore/storage/bean/dao/b;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1, p2}, Lorg/greenrobot/greendao/a;-><init>(Lorg/greenrobot/greendao/k/a;Lorg/greenrobot/greendao/c;)V
 
-    .line 5
     new-instance p1, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;
 
     invoke-direct {p1}, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->k:Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;
 
-    .line 6
     new-instance p1, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;
 
     invoke-direct {p1}, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;-><init>()V
@@ -93,7 +87,6 @@
     :cond_0
     const-string p1, ""
 
-    .line 1
     :goto_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -115,7 +108,6 @@
 
     invoke-interface {p0, p1}, Lorg/greenrobot/greendao/database/a;->execSQL(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -128,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -157,10 +148,8 @@
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p0, p1}, Lorg/greenrobot/greendao/database/a;->execSQL(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -175,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getSubId()Ljava/lang/String;
 
     move-result-object p1
@@ -202,26 +190,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v10, Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
     add-int/lit8 v1, p2, 0x0
 
-    .line 2
     invoke-interface {p1, v1}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v2
 
     add-int/lit8 v1, p2, 0x1
 
-    .line 3
     invoke-interface {p1, v1}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v4
 
     add-int/lit8 v1, p2, 0x2
 
-    .line 4
     invoke-interface {p1, v1}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v6
@@ -244,7 +228,6 @@
     :goto_0
     add-int/lit8 v1, p2, 0x3
 
-    .line 5
     invoke-interface {p1, v1}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v8
@@ -265,7 +248,6 @@
     :goto_1
     add-int/lit8 v1, p2, 0x4
 
-    .line 6
     invoke-interface {p1, v1}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v9
@@ -292,7 +274,6 @@
     :goto_2
     add-int/lit8 p2, p2, 0x5
 
-    .line 7
     invoke-interface {p1, p2}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v1
@@ -325,7 +306,6 @@
 
     invoke-direct/range {v1 .. v9}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;-><init>(JJLjava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v10
@@ -340,7 +320,6 @@
 
     add-int/lit8 v1, p3, 0x0
 
-    .line 1
     invoke-interface {p1, v1}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v1
@@ -349,7 +328,6 @@
 
     add-int/lit8 v1, p3, 0x1
 
-    .line 2
     invoke-interface {p1, v1}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v1
@@ -358,7 +336,6 @@
 
     add-int/lit8 v1, p3, 0x2
 
-    .line 3
     invoke-interface {p1, v1}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v2
@@ -381,7 +358,6 @@
 
     add-int/lit8 v1, p3, 0x3
 
-    .line 4
     invoke-interface {p1, v1}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v2
@@ -402,7 +378,6 @@
 
     add-int/lit8 v1, p3, 0x4
 
-    .line 5
     invoke-interface {p1, v1}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v2
@@ -429,7 +404,6 @@
 
     add-int/lit8 p3, p3, 0x5
 
-    .line 6
     invoke-interface {p1, p3}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v1
@@ -452,7 +426,6 @@
     :goto_3
     invoke-virtual {p2, v3}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->setProductIds(Ljava/util/List;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -467,7 +440,6 @@
 
     add-int/lit8 p2, p2, 0x2
 
-    .line 1
     invoke-interface {p1, p2}, Landroid/database/Cursor;->isNull(I)Z
 
     move-result v1
@@ -496,7 +468,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->A0(Lcom/meitu/ipstore/storage/bean/SubsShortBean;)Z
@@ -515,7 +486,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getSubId()Ljava/lang/String;
 
     move-result-object p1
@@ -532,7 +502,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -547,7 +516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
     invoke-virtual {p0, p1, p2}, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->v0(Landroid/database/sqlite/SQLiteStatement;Lcom/meitu/ipstore/storage/bean/SubsShortBean;)V
@@ -564,7 +532,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
     invoke-virtual {p0, p1, p2}, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->w0(Lorg/greenrobot/greendao/database/c;Lcom/meitu/ipstore/storage/bean/SubsShortBean;)V
@@ -581,7 +548,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->B0(Landroid/database/Cursor;I)Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
     move-result-object p1
@@ -598,7 +564,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->C0(Landroid/database/Cursor;Lcom/meitu/ipstore/storage/bean/SubsShortBean;I)V
@@ -615,7 +580,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->D0(Landroid/database/Cursor;I)Ljava/lang/String;
 
     move-result-object p1
@@ -632,7 +596,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->E0(Lcom/meitu/ipstore/storage/bean/SubsShortBean;J)Ljava/lang/String;
@@ -651,7 +614,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->z0(Lcom/meitu/ipstore/storage/bean/SubsShortBean;)Ljava/lang/String;
@@ -670,10 +632,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/database/sqlite/SQLiteStatement;->clearBindings()V
 
-    .line 2
     invoke-virtual {p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getEndTime()J
 
     move-result-wide v1
@@ -682,7 +642,6 @@
 
     invoke-virtual {p1, v3, v1, v2}, Landroid/database/sqlite/SQLiteStatement;->bindLong(IJ)V
 
-    .line 3
     invoke-virtual {p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getStartTime()J
 
     move-result-wide v1
@@ -691,7 +650,6 @@
 
     invoke-virtual {p1, v3, v1, v2}, Landroid/database/sqlite/SQLiteStatement;->bindLong(IJ)V
 
-    .line 4
     invoke-virtual {p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getSubId()Ljava/lang/String;
 
     move-result-object v1
@@ -700,10 +658,8 @@
 
     const/4 v2, 0x3
 
-    .line 5
     invoke-virtual {p1, v2, v1}, Landroid/database/sqlite/SQLiteStatement;->bindString(ILjava/lang/String;)V
 
-    .line 6
     :cond_0
     invoke-virtual {p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getVersion()Ljava/lang/String;
 
@@ -713,10 +669,8 @@
 
     const/4 v2, 0x4
 
-    .line 7
     invoke-virtual {p1, v2, v1}, Landroid/database/sqlite/SQLiteStatement;->bindString(ILjava/lang/String;)V
 
-    .line 8
     :cond_1
     invoke-virtual {p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getMaterialIds()Ljava/util/List;
 
@@ -726,7 +680,6 @@
 
     const/4 v2, 0x5
 
-    .line 9
     iget-object v3, p0, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->k:Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;
 
     invoke-virtual {v3, v1}, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;->c(Ljava/util/List;)Ljava/lang/String;
@@ -735,7 +688,6 @@
 
     invoke-virtual {p1, v2, v1}, Landroid/database/sqlite/SQLiteStatement;->bindString(ILjava/lang/String;)V
 
-    .line 10
     :cond_2
     invoke-virtual {p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getProductIds()Ljava/util/List;
 
@@ -745,7 +697,6 @@
 
     const/4 v1, 0x6
 
-    .line 11
     iget-object v2, p0, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->l:Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;
 
     invoke-virtual {v2, p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;->c(Ljava/util/List;)Ljava/lang/String;
@@ -754,7 +705,6 @@
 
     invoke-virtual {p1, v1, p2}, Landroid/database/sqlite/SQLiteStatement;->bindString(ILjava/lang/String;)V
 
-    .line 12
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -768,10 +718,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p1}, Lorg/greenrobot/greendao/database/c;->clearBindings()V
 
-    .line 2
     invoke-virtual {p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getEndTime()J
 
     move-result-wide v1
@@ -780,7 +728,6 @@
 
     invoke-interface {p1, v3, v1, v2}, Lorg/greenrobot/greendao/database/c;->bindLong(IJ)V
 
-    .line 3
     invoke-virtual {p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getStartTime()J
 
     move-result-wide v1
@@ -789,7 +736,6 @@
 
     invoke-interface {p1, v3, v1, v2}, Lorg/greenrobot/greendao/database/c;->bindLong(IJ)V
 
-    .line 4
     invoke-virtual {p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getSubId()Ljava/lang/String;
 
     move-result-object v1
@@ -798,10 +744,8 @@
 
     const/4 v2, 0x3
 
-    .line 5
     invoke-interface {p1, v2, v1}, Lorg/greenrobot/greendao/database/c;->bindString(ILjava/lang/String;)V
 
-    .line 6
     :cond_0
     invoke-virtual {p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getVersion()Ljava/lang/String;
 
@@ -811,10 +755,8 @@
 
     const/4 v2, 0x4
 
-    .line 7
     invoke-interface {p1, v2, v1}, Lorg/greenrobot/greendao/database/c;->bindString(ILjava/lang/String;)V
 
-    .line 8
     :cond_1
     invoke-virtual {p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getMaterialIds()Ljava/util/List;
 
@@ -824,7 +766,6 @@
 
     const/4 v2, 0x5
 
-    .line 9
     iget-object v3, p0, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->k:Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;
 
     invoke-virtual {v3, v1}, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;->c(Ljava/util/List;)Ljava/lang/String;
@@ -833,7 +774,6 @@
 
     invoke-interface {p1, v2, v1}, Lorg/greenrobot/greendao/database/c;->bindString(ILjava/lang/String;)V
 
-    .line 10
     :cond_2
     invoke-virtual {p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getProductIds()Ljava/util/List;
 
@@ -843,7 +783,6 @@
 
     const/4 v1, 0x6
 
-    .line 11
     iget-object v2, p0, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->l:Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;
 
     invoke-virtual {v2, p2}, Lcom/meitu/ipstore/storage/bean/SubsShortBean$a;->c(Ljava/util/List;)Ljava/lang/String;
@@ -852,7 +791,6 @@
 
     invoke-interface {p1, v1, p2}, Lorg/greenrobot/greendao/database/c;->bindString(ILjava/lang/String;)V
 
-    .line 12
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -868,7 +806,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/ipstore/storage/bean/SubsShortBean;->getSubId()Ljava/lang/String;
 
     move-result-object p1
@@ -880,7 +817,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1

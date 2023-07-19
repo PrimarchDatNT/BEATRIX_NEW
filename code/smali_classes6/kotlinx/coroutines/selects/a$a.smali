@@ -50,7 +50,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p0, p1, v0, p2}, Lcotlinx/coroutines/selects/a;->f(Lcotlinx/coroutines/selects/e;Ljava/lang/Object;Lcotlin/jvm/u/p;)V
 
     return-void

@@ -34,7 +34,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -57,7 +56,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->a(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +78,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-virtual {p3}, Lcom/commsource/studio/processor/DoodleProcessor;->m0()Z
@@ -107,7 +104,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :cond_0
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
@@ -115,7 +111,6 @@
 
     invoke-static {p3, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->X(Lcom/commsource/studio/processor/DoodleProcessor;Z)V
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p3}, Lcom/commsource/studio/processor/DoodleProcessor;->K(Lcom/commsource/studio/processor/DoodleProcessor;)Z
@@ -132,12 +127,10 @@
 
     if-nez p3, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
@@ -151,10 +144,8 @@
 
     if-eqz p3, :cond_2
 
-    .line 6
     iput-boolean v1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->a:Z
 
-    .line 7
     :cond_2
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
@@ -166,7 +157,6 @@
 
     aput p1, p3, v2
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/DoodleProcessor;->Q(Lcom/commsource/studio/processor/DoodleProcessor;)[F
@@ -175,7 +165,6 @@
 
     aput p2, p1, v1
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p1}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -190,7 +179,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->V([F)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/DoodleProcessor;->Q(Lcom/commsource/studio/processor/DoodleProcessor;)[F
@@ -211,7 +199,6 @@
 
     div-float/2addr p1, p2
 
-    .line 11
     iget-object p2, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p2}, Lcom/commsource/studio/processor/DoodleProcessor;->Q(Lcom/commsource/studio/processor/DoodleProcessor;)[F
@@ -232,7 +219,6 @@
 
     div-float/2addr p2, p3
 
-    .line 12
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     new-instance v1, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$2;
@@ -241,7 +227,6 @@
 
     invoke-virtual {p3, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     const/4 p2, 0x3
@@ -250,7 +235,6 @@
 
     invoke-static {p1, v2, p3, p2, p3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -261,10 +245,8 @@
 
     const-string p2, " ignore rendering move"
 
-    .line 15
     invoke-static {p1, p2}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -285,7 +267,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-virtual {p3}, Lcom/commsource/studio/processor/DoodleProcessor;->m0()Z
@@ -294,12 +275,10 @@
 
     if-nez p3, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
@@ -315,7 +294,6 @@
 
     invoke-virtual {p3, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p3}, Lcom/commsource/studio/processor/DoodleProcessor;->K(Lcom/commsource/studio/processor/DoodleProcessor;)Z
@@ -332,12 +310,10 @@
 
     if-nez p3, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
@@ -349,7 +325,6 @@
 
     aput p1, p3, v1
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/DoodleProcessor;->Q(Lcom/commsource/studio/processor/DoodleProcessor;)[F
@@ -360,7 +335,6 @@
 
     aput p2, p1, p3
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p1}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -375,7 +349,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->V([F)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/DoodleProcessor;->Q(Lcom/commsource/studio/processor/DoodleProcessor;)[F
@@ -396,7 +369,6 @@
 
     div-float/2addr p1, p2
 
-    .line 10
     iget-object p2, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p2}, Lcom/commsource/studio/processor/DoodleProcessor;->Q(Lcom/commsource/studio/processor/DoodleProcessor;)[F
@@ -417,7 +389,6 @@
 
     div-float/2addr p2, p3
 
-    .line 11
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     new-instance v2, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$1;
@@ -426,7 +397,6 @@
 
     invoke-virtual {p3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     const/4 p2, 0x3
@@ -435,7 +405,6 @@
 
     invoke-static {p1, v1, p3, p2, p3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -456,7 +425,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -475,7 +443,6 @@
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p5, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-virtual {p5}, Lcom/commsource/studio/processor/DoodleProcessor;->m0()Z
@@ -484,12 +451,10 @@
 
     if-nez p5, :cond_0
 
-    .line 2
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object p5, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
@@ -505,7 +470,6 @@
 
     invoke-virtual {p5, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p5, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p5}, Lcom/commsource/studio/processor/DoodleProcessor;->K(Lcom/commsource/studio/processor/DoodleProcessor;)Z
@@ -522,18 +486,15 @@
 
     if-nez p5, :cond_1
 
-    .line 5
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     iget-boolean p5, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->a:Z
 
     if-nez p5, :cond_2
 
-    .line 7
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -541,7 +502,6 @@
     :cond_2
     if-eqz p3, :cond_3
 
-    .line 8
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p3}, Lcom/commsource/studio/processor/DoodleProcessor;->Q(Lcom/commsource/studio/processor/DoodleProcessor;)[F
@@ -552,7 +512,6 @@
 
     aput p1, p3, p5
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/DoodleProcessor;->Q(Lcom/commsource/studio/processor/DoodleProcessor;)[F
@@ -563,7 +522,6 @@
 
     aput p2, p1, p3
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p1}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -578,7 +536,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->V([F)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/DoodleProcessor;->Q(Lcom/commsource/studio/processor/DoodleProcessor;)[F
@@ -599,7 +556,6 @@
 
     div-float/2addr p1, p2
 
-    .line 12
     iget-object p2, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     invoke-static {p2}, Lcom/commsource/studio/processor/DoodleProcessor;->Q(Lcom/commsource/studio/processor/DoodleProcessor;)[F
@@ -620,7 +576,6 @@
 
     div-float/2addr p2, p3
 
-    .line 13
     iget-object p3, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     new-instance v0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1$3;
@@ -629,7 +584,6 @@
 
     invoke-virtual {p3, v0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/DoodleProcessor;
 
     const/4 p2, 0x3
@@ -638,7 +592,6 @@
 
     invoke-static {p1, p5, p3, p2, p3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 15
     :cond_3
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -27,47 +27,38 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0xa
 
-    .line 2
     iput v0, p0, Lcom/commsource/camera/d1/g/i;->a:I
 
     new-array v1, v0, [Lcom/meitu/libmt3dface/MTFace2DInterface;
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/camera/d1/g/i;->b:[Lcom/meitu/libmt3dface/MTFace2DInterface;
 
     new-array v1, v0, [Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
-    .line 4
     iput-object v1, p0, Lcom/commsource/camera/d1/g/i;->c:[Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
     new-array v1, v0, [I
 
-    .line 5
     iput-object v1, p0, Lcom/commsource/camera/d1/g/i;->d:[I
 
     new-array v1, v0, [Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
-    .line 6
     iput-object v1, p0, Lcom/commsource/camera/d1/g/i;->e:[Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
     new-array v0, v0, [I
 
-    .line 7
     iput-object v0, p0, Lcom/commsource/camera/d1/g/i;->f:[I
 
-    .line 8
     new-instance v0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     invoke-direct {v0}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/d1/g/i;->h:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
-    .line 9
     new-instance v0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     invoke-direct {v0}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;-><init>()V
@@ -76,13 +67,11 @@
 
     const/4 v0, 0x0
 
-    .line 10
     :goto_0
     iget v1, p0, Lcom/commsource/camera/d1/g/i;->a:I
 
     if-ge v0, v1, :cond_0
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/camera/d1/g/i;->b:[Lcom/meitu/libmt3dface/MTFace2DInterface;
 
     new-instance v2, Lcom/meitu/libmt3dface/MTFace2DInterface;
@@ -110,10 +99,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p5}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setFaceCount(I)V
 
-    .line 2
     invoke-virtual {p1, p4}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setFace2DReconstructorType(I)V
 
     const/4 p4, 0x0
@@ -121,43 +108,36 @@
     :goto_0
     if-ge p4, p5, :cond_0
 
-    .line 3
     aget v1, p7, p4
 
     invoke-virtual {p1, p4, v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setFaceID(II)V
 
-    .line 4
     aget-object v1, p6, p4
 
     iget-wide v1, v1, Lcom/meitu/libmt3dface/data/MTFace2DMesh;->ptrVertexs:J
 
     invoke-virtual {p1, p4, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setReconstructVertexs(IJ)V
 
-    .line 5
     aget-object v1, p6, p4
 
     iget-wide v1, v1, Lcom/meitu/libmt3dface/data/MTFace2DMesh;->ptrTextureCoordinates:J
 
     invoke-virtual {p1, p4, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setReconstructTextureCoordinates(IJ)V
 
-    .line 6
     invoke-virtual {p1, p4, p2, p3}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setReconstructStandTextureCoordinates(IJ)V
 
-    .line 7
     aget-object v1, p6, p4
 
     iget v1, v1, Lcom/meitu/libmt3dface/data/MTFace2DMesh;->nVertex:I
 
     invoke-virtual {p1, p4, v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setVertexNum(II)V
 
-    .line 8
     aget-object v1, p6, p4
 
     iget-wide v1, v1, Lcom/meitu/libmt3dface/data/MTFace2DMesh;->ptrTriangleIndex:J
 
     invoke-virtual {p1, p4, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setReconstructTriangleIndex(IJ)V
 
-    .line 9
     aget-object v1, p6, p4
 
     iget v1, v1, Lcom/meitu/libmt3dface/data/MTFace2DMesh;->nTriangle:I
@@ -168,7 +148,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -184,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/i;->i:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -199,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/i;->h:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -218,12 +195,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/j;->c()Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
@@ -231,7 +206,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/j;->c()Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-result-object v4
@@ -254,7 +228,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/j;->e()Lcom/meitu/core/types/FaceData;
 
@@ -262,7 +235,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/j;->d()I
 
     move-result v1
@@ -277,7 +249,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/j;->i()Lcom/meitu/core/types/FaceData;
 
     move-result-object v3
@@ -300,7 +271,6 @@
 
     return p1
 
-    .line 7
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/j;->e()Lcom/meitu/core/types/FaceData;
 
@@ -324,7 +294,6 @@
 
     return p1
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -346,14 +315,12 @@
 
     if-eqz v9, :cond_8
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
 
     if-lez v1, :cond_8
 
-    .line 2
     iget-object v1, v8, Lcom/commsource/camera/d1/g/i;->b:[Lcom/meitu/libmt3dface/MTFace2DInterface;
 
     aget-object v1, v1, v0
@@ -364,7 +331,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
@@ -376,17 +342,14 @@
 
     const/4 v2, 0x2
 
-    .line 4
     invoke-virtual {v9, v1, v2}, Lcom/meitu/core/types/FaceData;->getFaceLandmark(II)Ljava/util/ArrayList;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
 
     move-result v3
 
-    .line 6
     iget-object v4, v8, Lcom/commsource/camera/d1/g/i;->g:[F
 
     if-eqz v4, :cond_0
@@ -400,7 +363,6 @@
     :cond_0
     mul-int/lit8 v3, v3, 0x2
 
-    .line 7
     new-array v3, v3, [F
 
     iput-object v3, v8, Lcom/commsource/camera/d1/g/i;->g:[F
@@ -408,7 +370,6 @@
     :cond_1
     const/4 v3, 0x0
 
-    .line 8
     :goto_1
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
 
@@ -416,7 +377,6 @@
 
     if-ge v3, v4, :cond_2
 
-    .line 9
     iget-object v4, v8, Lcom/commsource/camera/d1/g/i;->g:[F
 
     mul-int/lit8 v5, v3, 0x2
@@ -431,7 +391,6 @@
 
     aput v6, v4, v5
 
-    .line 10
     iget-object v4, v8, Lcom/commsource/camera/d1/g/i;->g:[F
 
     add-int/2addr v5, v13
@@ -453,7 +412,6 @@
     :cond_2
     if-eqz p4, :cond_3
 
-    .line 11
     iget-object v2, v8, Lcom/commsource/camera/d1/g/i;->c:[Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
     iget-object v3, v8, Lcom/commsource/camera/d1/g/i;->b:[Lcom/meitu/libmt3dface/MTFace2DInterface;
@@ -462,7 +420,6 @@
 
     iget-object v14, v8, Lcom/commsource/camera/d1/g/i;->g:[F
 
-    .line 12
     invoke-virtual {v9, v1}, Lcom/meitu/core/types/FaceData;->getPitchAngle(I)F
 
     move-result v17
@@ -473,14 +430,12 @@
 
     move/from16 v16, p3
 
-    .line 13
     invoke-virtual/range {v13 .. v18}, Lcom/meitu/libmt3dface/MTFace2DInterface;->GetFace2DMesh([FIIFLcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;)Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
     move-result-object v3
 
     aput-object v3, v2, v1
 
-    .line 14
     iget-object v2, v8, Lcom/commsource/camera/d1/g/i;->d:[I
 
     invoke-virtual {v9, v1}, Lcom/meitu/core/types/FaceData;->getFaceID(I)I
@@ -492,7 +447,6 @@
     :cond_3
     if-eqz p5, :cond_4
 
-    .line 15
     iget-object v2, v8, Lcom/commsource/camera/d1/g/i;->e:[Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
     iget-object v3, v8, Lcom/commsource/camera/d1/g/i;->b:[Lcom/meitu/libmt3dface/MTFace2DInterface;
@@ -501,7 +455,6 @@
 
     iget-object v14, v8, Lcom/commsource/camera/d1/g/i;->g:[F
 
-    .line 16
     invoke-virtual {v9, v1}, Lcom/meitu/core/types/FaceData;->getPitchAngle(I)F
 
     move-result v17
@@ -512,14 +465,12 @@
 
     move/from16 v16, p3
 
-    .line 17
     invoke-virtual/range {v13 .. v18}, Lcom/meitu/libmt3dface/MTFace2DInterface;->GetFace2DMesh([FIIFLcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;)Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
     move-result-object v3
 
     aput-object v3, v2, v1
 
-    .line 18
     iget-object v2, v8, Lcom/commsource/camera/d1/g/i;->f:[I
 
     invoke-virtual {v9, v1}, Lcom/meitu/core/types/FaceData;->getFaceID(I)I
@@ -536,12 +487,10 @@
     :cond_5
     if-eqz p4, :cond_6
 
-    .line 19
     iget-object v1, v8, Lcom/commsource/camera/d1/g/i;->h:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     const/4 v4, 0x0
 
-    .line 20
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v5
@@ -554,18 +503,15 @@
 
     move-wide v2, v11
 
-    .line 21
     invoke-direct/range {v0 .. v7}, Lcom/commsource/camera/d1/g/i;->c(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;JII[Lcom/meitu/libmt3dface/data/MTFace2DMesh;[I)V
 
     :cond_6
     if-eqz p5, :cond_7
 
-    .line 22
     iget-object v1, v8, Lcom/commsource/camera/d1/g/i;->i:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     const/4 v4, 0x1
 
-    .line 23
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v5
@@ -578,16 +524,13 @@
 
     move-wide v2, v11
 
-    .line 24
     invoke-direct/range {v0 .. v7}, Lcom/commsource/camera/d1/g/i;->c(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;JII[Lcom/meitu/libmt3dface/data/MTFace2DMesh;[I)V
 
-    .line 25
     :cond_7
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v13
 
-    .line 26
     :cond_8
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -609,7 +552,6 @@
 
     if-eqz v9, :cond_a
 
-    .line 1
     iget-object v1, v9, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     if-eqz v1, :cond_a
@@ -618,7 +560,6 @@
 
     if-lez v1, :cond_a
 
-    .line 2
     iget-object v1, v8, Lcom/commsource/camera/d1/g/i;->b:[Lcom/meitu/libmt3dface/MTFace2DInterface;
 
     aget-object v1, v1, v0
@@ -629,7 +570,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     iget-object v2, v9, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
@@ -639,16 +579,12 @@
 
     if-ge v1, v3, :cond_7
 
-    .line 4
     aget-object v2, v2, v1
 
-    .line 5
     iget-object v3, v2, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
-    .line 6
     array-length v4, v3
 
-    .line 7
     iget-object v5, v8, Lcom/commsource/camera/d1/g/i;->g:[F
 
     if-eqz v5, :cond_0
@@ -662,12 +598,10 @@
     :cond_0
     mul-int/lit8 v5, v4, 0x2
 
-    .line 8
     new-array v5, v5, [F
 
     iput-object v5, v8, Lcom/commsource/camera/d1/g/i;->g:[F
 
-    .line 9
     :cond_1
     iget-boolean v5, v9, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->normalize:Z
 
@@ -696,7 +630,6 @@
     :goto_3
     if-ge v7, v4, :cond_4
 
-    .line 10
     iget-object v14, v8, Lcom/commsource/camera/d1/g/i;->g:[F
 
     mul-int/lit8 v15, v7, 0x2
@@ -713,7 +646,6 @@
 
     add-int/2addr v15, v13
 
-    .line 11
     aget-object v0, v3, v7
 
     iget v0, v0, Landroid/graphics/PointF;->y:F
@@ -735,7 +667,6 @@
     :cond_4
     if-eqz p4, :cond_5
 
-    .line 12
     iget-object v0, v8, Lcom/commsource/camera/d1/g/i;->c:[Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
     iget-object v3, v8, Lcom/commsource/camera/d1/g/i;->b:[Lcom/meitu/libmt3dface/MTFace2DInterface;
@@ -762,7 +693,6 @@
 
     aput-object v3, v0, v1
 
-    .line 13
     iget-object v0, v8, Lcom/commsource/camera/d1/g/i;->d:[I
 
     iget v3, v2, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->ID:I
@@ -772,7 +702,6 @@
     :cond_5
     if-eqz p5, :cond_6
 
-    .line 14
     iget-object v0, v8, Lcom/commsource/camera/d1/g/i;->e:[Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
     iget-object v3, v8, Lcom/commsource/camera/d1/g/i;->b:[Lcom/meitu/libmt3dface/MTFace2DInterface;
@@ -799,7 +728,6 @@
 
     aput-object v3, v0, v1
 
-    .line 15
     iget-object v0, v8, Lcom/commsource/camera/d1/g/i;->f:[I
 
     iget v2, v2, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->ID:I
@@ -818,7 +746,6 @@
     :cond_7
     if-eqz p4, :cond_8
 
-    .line 16
     iget-object v1, v8, Lcom/commsource/camera/d1/g/i;->h:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     const/4 v4, 0x0
@@ -838,7 +765,6 @@
     :cond_8
     if-eqz p5, :cond_9
 
-    .line 17
     iget-object v1, v8, Lcom/commsource/camera/d1/g/i;->i:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     const/4 v4, 0x1
@@ -860,7 +786,6 @@
     :cond_9
     const/16 v0, 0x7049
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v13
@@ -868,7 +793,6 @@
     :cond_a
     const/16 v0, 0x7049
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0

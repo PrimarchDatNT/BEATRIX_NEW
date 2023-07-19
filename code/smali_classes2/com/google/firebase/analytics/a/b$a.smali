@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/firebase/analytics/a/b;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/analytics/a/b$a;->b:Lcom/google/firebase/analytics/a/b;
 
     iput-object p2, p0, Lcom/google/firebase/analytics/a/b$a;->a:Ljava/lang/String;
@@ -42,7 +41,6 @@
 .method public a()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/analytics/a/b$a;->b:Lcom/google/firebase/analytics/a/b;
 
     iget-object v1, p0, Lcom/google/firebase/analytics/a/b$a;->a:Ljava/lang/String;
@@ -55,7 +53,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/analytics/a/b$a;->b:Lcom/google/firebase/analytics/a/b;
 
@@ -79,10 +76,8 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-interface {v0, v1, v2}, Lcom/google/firebase/analytics/a/a$b;->c(ILandroid/os/Bundle;)V
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/analytics/a/b$a;->b:Lcom/google/firebase/analytics/a/b;
 
@@ -100,7 +95,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/analytics/a/b$a;->b:Lcom/google/firebase/analytics/a/b;
 
     iget-object v1, p0, Lcom/google/firebase/analytics/a/b$a;->a:Ljava/lang/String;
@@ -123,7 +117,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/analytics/a/b$a;->b:Lcom/google/firebase/analytics/a/b;
 
@@ -158,7 +151,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/analytics/a/b$a;->b:Lcom/google/firebase/analytics/a/b;
 
     iget-object v1, p0, Lcom/google/firebase/analytics/a/b$a;->a:Ljava/lang/String;
@@ -173,7 +165,6 @@
 
     const-string v1, "fiam"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -182,7 +173,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {p1}, Ljava/util/Set;->isEmpty()Z
 
     move-result v0
@@ -191,7 +181,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/analytics/a/b$a;->b:Lcom/google/firebase/analytics/a/b;
 

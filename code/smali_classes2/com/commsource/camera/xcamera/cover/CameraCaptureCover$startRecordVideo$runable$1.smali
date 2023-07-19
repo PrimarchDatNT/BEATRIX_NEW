@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     new-instance v2, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1$isBlock$1;
@@ -53,7 +52,6 @@
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -74,7 +72,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -87,7 +84,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->P()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->S()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -104,7 +100,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->V()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -129,7 +124,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
@@ -153,7 +147,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 7
     :goto_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
@@ -169,7 +162,6 @@
 
     invoke-virtual {v1, v4}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

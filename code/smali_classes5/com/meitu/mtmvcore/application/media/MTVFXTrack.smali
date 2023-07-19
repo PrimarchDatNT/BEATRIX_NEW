@@ -54,7 +54,6 @@
 .method public constructor <init>(J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/media/mtmvcore/MTITrack;-><init>(J)V
 
     return-void
@@ -71,12 +70,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-static/range {p0 .. p6}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeCreateMusic(Ljava/lang/String;JJJ)J
 
@@ -90,7 +87,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance v1, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;
 
@@ -119,7 +115,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance v1, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;
 
@@ -144,12 +139,10 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-static {p0, p1, p2, p3, p4}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeCreate(Ljava/lang/String;JJ)J
 
@@ -163,7 +156,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     new-instance v1, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;
 
@@ -182,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p0 .. p5}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeCreateFont(Ljava/lang/String;Ljava/lang/String;JJ)J
 
     move-result-wide p0
@@ -197,7 +188,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p2, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;
 
@@ -404,7 +394,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeRegisterFont(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p0
@@ -427,12 +416,10 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 2
     :cond_0
     iget-wide v2, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
@@ -460,7 +447,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeClone(J)J
@@ -477,7 +463,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v3, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;
 
@@ -503,7 +488,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->clone()Lcom/meitu/mtmvcore/application/media/MTVFXTrack;
 
     move-result-object v1
@@ -520,7 +504,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeDisableActions(J)V
@@ -537,7 +520,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeDisableBackColor(J)V
@@ -554,7 +536,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeDisableColorRange(J)V
@@ -571,7 +552,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeDisableOutline(J)V
@@ -588,7 +568,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeDisableShadow(J)V
@@ -605,17 +584,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeDispose(J)V
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -628,7 +604,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeEnableActions(J)V
@@ -645,7 +620,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeEnableBackColor(JI)V
@@ -662,7 +636,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     move-object v1, p0
@@ -693,7 +666,6 @@
 
     move-object v10, p0
 
-    .line 3
     iget-wide v2, v10, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     move-object v1, p0
@@ -724,7 +696,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeEnableBackColor(JLjava/lang/String;)V
@@ -741,7 +712,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 5
     iget-wide v2, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     move-object v1, p0
@@ -770,7 +740,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     move-object v1, p0
@@ -795,7 +764,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     move-object v1, p0
@@ -820,7 +788,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     move-object v1, p0
@@ -847,7 +814,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeGetConfigDirPath(J)Ljava/lang/String;
@@ -866,7 +832,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeGetContent(JLjava/lang/String;)Lcom/meitu/media/mtmvcore/MTVFXContent;
@@ -885,7 +850,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeGetContents(JI)[Lcom/meitu/media/mtmvcore/MTVFXContent;
@@ -904,7 +868,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeGetFontSize(J)F
@@ -923,14 +886,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getWidth()F
 
     move-result v1
 
     float-to-int v1, v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/media/mtmvcore/MTITrack;->getHeight()F
 
     move-result v2
@@ -943,7 +904,6 @@
 
     if-nez v11, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v12
@@ -953,7 +913,6 @@
 
     mul-int/lit8 v2, v2, 0x4
 
-    .line 4
     invoke-static {v2}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object v2
@@ -966,7 +925,6 @@
 
     move-object v14, p0
 
-    .line 5
     iget-wide v3, v14, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     const/4 v8, 0x4
@@ -987,28 +945,22 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     sget-object v2, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     invoke-static {v1, v11, v2}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v13}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
-    .line 8
     invoke-virtual {v1, v13}, Landroid/graphics/Bitmap;->copyPixelsFromBuffer(Ljava/nio/Buffer;)V
 
-    .line 9
     invoke-virtual {v13}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 11
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1022,7 +974,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeGetMemorySize(J)F
@@ -1041,7 +992,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeGetString(J)Ljava/lang/String;
@@ -1060,7 +1010,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeGetSupportImageNum(J)I
@@ -1079,7 +1028,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeGetSupportTextNum(J)I
@@ -1098,7 +1046,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeGetTextCenterX(J)F
@@ -1117,7 +1064,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeGetTextCenterY(J)F
@@ -1136,7 +1082,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeGetTextHeight(J)F
@@ -1155,7 +1100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeGetTextWidth(J)F
@@ -1174,12 +1118,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeRemoveAllActions(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1192,7 +1134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeRunAction(JLjava/lang/String;I)V
@@ -1209,7 +1150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     move-object v1, p0
@@ -1236,7 +1176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeRunEffect(JLjava/lang/String;)V
@@ -1253,7 +1192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     move-object v1, p0
@@ -1278,7 +1216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSaveToFile(JLjava/lang/String;)Z
@@ -1297,7 +1234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetAlignment(JII)V
@@ -1316,18 +1252,15 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetConfigDirPath(JLjava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1340,7 +1273,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetCurrentText(JLjava/lang/String;)V
@@ -1357,7 +1289,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetFontColor(JI)V
@@ -1374,7 +1305,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetFontColor(JIZ)V
@@ -1391,7 +1321,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetFontDir(JLjava/lang/String;)V
@@ -1408,7 +1337,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetFontFamily(JLjava/lang/String;Ljava/lang/String;)V
@@ -1425,7 +1353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetFontPath(JLjava/lang/String;)V
@@ -1442,7 +1369,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetFontSize(JF)V
@@ -1459,7 +1385,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetHAlignment(JI)V
@@ -1476,7 +1401,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetImageDelegate(JLjava/lang/String;I)V
@@ -1493,7 +1417,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetImageDir(JLjava/lang/String;)V
@@ -1512,7 +1435,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     const-wide/16 v3, 0x0
@@ -1525,7 +1447,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
@@ -1547,7 +1468,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetOverflow(JI)V
@@ -1564,7 +1484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetString(JLjava/lang/String;)V
@@ -1581,7 +1500,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetStrokeColor(JIZ)V
@@ -1598,7 +1516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetTextDelegate(JLjava/lang/String;I)V
@@ -1615,7 +1532,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetTextDelegate(JLjava/lang/String;Ljava/lang/String;)V
@@ -1632,12 +1548,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetTimeOffset(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1650,7 +1564,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeSetVAlignment(JI)V
@@ -1667,7 +1580,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;->nativeUnbind(J)Z
@@ -1686,7 +1598,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     move-object v1, p0

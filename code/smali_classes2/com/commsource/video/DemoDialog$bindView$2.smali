@@ -46,7 +46,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$2;->a:Lcom/commsource/video/DemoDialog;
 
     invoke-virtual {v0}, Lcom/commsource/video/DemoDialog;->Q()Z
@@ -55,12 +54,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$2;->a:Lcom/commsource/video/DemoDialog;
 
@@ -68,7 +65,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/video/DemoDialog;->V(Z)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$2;->a:Lcom/commsource/video/DemoDialog;
 
     invoke-virtual {v0}, Lcom/commsource/video/DemoDialog;->L()Lcom/commsource/camera/f1/l;
@@ -79,7 +75,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$2;->a:Lcom/commsource/video/DemoDialog;
 
@@ -95,7 +90,6 @@
 
     invoke-virtual {v0, v2}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$2;->a:Lcom/commsource/video/DemoDialog;
 
     invoke-virtual {v0}, Lcom/commsource/video/DemoDialog;->M()Lcom/commsource/camera/f1/n;
@@ -108,7 +102,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$2;->a:Lcom/commsource/video/DemoDialog;
 
     invoke-virtual {v0}, Lcom/commsource/video/DemoDialog;->O()Lcom/commsource/camera/f1/n;
@@ -123,14 +116,12 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$2;->a:Lcom/commsource/video/DemoDialog;
 
     const/4 v1, 0x2
 
     new-array v1, v1, [F
 
-    .line 9
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -139,12 +130,10 @@
 
     const-wide/16 v2, 0x190
 
-    .line 10
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object v1
 
-    .line 11
     new-instance v2, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v2}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -153,7 +142,6 @@
 
     move-result-object v1
 
-    .line 12
     new-instance v2, Lcom/commsource/video/DemoDialog$bindView$2$1;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/DemoDialog$bindView$2$1;-><init>(Lcom/commsource/video/DemoDialog$bindView$2;)V
@@ -164,7 +152,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/video/DemoDialog;->U(Lcom/commsource/camera/f1/l;)V
 
-    .line 13
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$2;->a:Lcom/commsource/video/DemoDialog;
 
     invoke-virtual {v0}, Lcom/commsource/video/DemoDialog;->L()Lcom/commsource/camera/f1/l;
@@ -177,7 +164,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/camera/f1/l;->k(J)V
 
-    .line 14
     :cond_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

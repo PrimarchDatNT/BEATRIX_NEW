@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/google/common/collect/w;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/w$c;->a:Lcom/google/common/collect/w;
 
     invoke-direct {p0}, Lcom/google/common/collect/d0;-><init>()V
@@ -43,7 +42,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/w$c;->delegate()Ljava/util/Collection;
 
     move-result-object v0
@@ -62,7 +60,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/w$c;->a:Lcom/google/common/collect/w;
 
     iget-object v0, v0, Lcom/google/common/collect/w;->a:Lcom/google/common/collect/l1;
@@ -91,15 +88,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/util/Map$Entry;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/w$c;->a:Lcom/google/common/collect/w;
 
     iget-object v0, v0, Lcom/google/common/collect/w;->a:Lcom/google/common/collect/l1;
@@ -118,7 +112,6 @@
 
     iget-object v0, v0, Lcom/google/common/collect/w;->b:Lcom/google/common/base/u;
 
-    .line 4
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -129,7 +122,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/google/common/collect/w$c;->a:Lcom/google/common/collect/w;
 
     iget-object v0, v0, Lcom/google/common/collect/w;->a:Lcom/google/common/collect/l1;

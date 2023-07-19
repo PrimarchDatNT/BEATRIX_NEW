@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$c;->b(ILjava/lang/Integer;)Z
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/Integer;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -85,7 +83,6 @@
 
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$c;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;->G()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -172,7 +169,6 @@
 
     invoke-static/range {v4 .. v10}, Lcom/commsource/camera/xcamera/cover/tips/a;->H(Lcom/commsource/camera/xcamera/cover/tips/a;Ljava/lang/String;JZILjava/lang/Object;)V
 
-    .line 3
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$c;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;
 
@@ -188,7 +184,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -197,7 +192,6 @@
 
     if-ne p1, p2, :cond_3
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$c;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;->K()Lcom/commsource/camera/xcamera/cover/j;
@@ -232,7 +226,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/cover/j;->C(Ljava/util/List;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$c;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;->K()Lcom/commsource/camera/xcamera/cover/j;
@@ -243,7 +236,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/cover/j;->B(I)V
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

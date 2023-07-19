@@ -31,7 +31,6 @@
 .method constructor <init>(Ljava/util/Set;Ljava/util/Set;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Sets$d;->a:Ljava/util/Set;
 
     iput-object p2, p0, Lcom/google/common/collect/Sets$d;->b:Ljava/util/Set;
@@ -48,7 +47,6 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$d;->a:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
@@ -76,21 +74,18 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$d;->a:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/collect/Sets$d;->b:Ljava/util/Set;
 
     invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/google/common/collect/Sets$d$a;
 
     invoke-direct {v2, p0, v0, v1}, Lcom/google/common/collect/Sets$d$a;-><init>(Lcom/google/common/collect/Sets$d;Ljava/util/Iterator;Ljava/util/Iterator;)V
@@ -101,7 +96,6 @@
 .method public isEmpty()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$d;->a:Ljava/util/Set;
 
     iget-object v1, p0, Lcom/google/common/collect/Sets$d;->b:Ljava/util/Set;
@@ -116,7 +110,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Sets$d;->e()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -127,7 +120,6 @@
 .method public size()I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$d;->a:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -148,7 +140,6 @@
 
     move-result-object v2
 
-    .line 2
     iget-object v3, p0, Lcom/google/common/collect/Sets$d;->b:Ljava/util/Set;
 
     invoke-interface {v3, v2}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
@@ -161,7 +152,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/google/common/collect/Sets$d;->b:Ljava/util/Set;
 
@@ -181,7 +171,6 @@
 
     move-result-object v2
 
-    .line 4
     iget-object v3, p0, Lcom/google/common/collect/Sets$d;->a:Ljava/util/Set;
 
     invoke-interface {v3, v2}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z

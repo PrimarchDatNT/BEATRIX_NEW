@@ -23,10 +23,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Landroid/webkit/WebIconDatabase;->getInstance()Landroid/webkit/WebIconDatabase;
 
     move-result-object v0
@@ -48,19 +46,16 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/webview/core/e;->b:Lcom/meitu/webview/core/e;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/meitu/webview/core/e;
 
     invoke-direct {v2}, Lcom/meitu/webview/core/e;-><init>()V
 
     sput-object v2, Lcom/meitu/webview/core/e;->b:Lcom/meitu/webview/core/e;
 
-    .line 3
     :cond_0
     sget-object v2, Lcom/meitu/webview/core/e;->b:Lcom/meitu/webview/core/e;
 
@@ -89,12 +84,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/e;->a:Landroid/webkit/WebIconDatabase;
 
     invoke-virtual {v1}, Landroid/webkit/WebIconDatabase;->close()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,12 +100,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/e;->a:Landroid/webkit/WebIconDatabase;
 
     invoke-virtual {v1, p1}, Landroid/webkit/WebIconDatabase;->open(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -125,12 +116,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/e;->a:Landroid/webkit/WebIconDatabase;
 
     invoke-virtual {v1, p1}, Landroid/webkit/WebIconDatabase;->releaseIconForPageUrl(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -143,12 +132,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/e;->a:Landroid/webkit/WebIconDatabase;
 
     invoke-virtual {v1}, Landroid/webkit/WebIconDatabase;->removeAllIcons()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -161,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/e;->a:Landroid/webkit/WebIconDatabase;
 
     new-instance v2, Lcom/meitu/webview/core/e$a;
@@ -170,7 +156,6 @@
 
     invoke-virtual {v1, p1, v2}, Landroid/webkit/WebIconDatabase;->requestIconForPageUrl(Ljava/lang/String;Landroid/webkit/WebIconDatabase$IconListener;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -183,12 +168,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/e;->a:Landroid/webkit/WebIconDatabase;
 
     invoke-virtual {v1, p1}, Landroid/webkit/WebIconDatabase;->retainIconForPageUrl(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

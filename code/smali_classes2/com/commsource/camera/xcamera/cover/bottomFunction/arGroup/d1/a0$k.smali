@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +43,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/beautyplus/f0/a7;
@@ -69,7 +67,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/beautyplus/f0/a7;
@@ -80,7 +77,6 @@
 
     invoke-static {p2}, Lcom/commsource/camera/f1/r;->e(Landroid/widget/EditText;)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/beautyplus/f0/a7;
@@ -95,7 +91,6 @@
 
     invoke-static {p2, v2, v0, v1}, Lcom/commsource/util/l2;->R(Landroid/view/View;IJ)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/beautyplus/f0/a7;
@@ -106,7 +101,6 @@
 
     invoke-virtual {p2, v2, v2, v2, v2}, Landroid/widget/RelativeLayout;->setPadding(IIII)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->I(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
@@ -115,12 +109,10 @@
 
     invoke-virtual {p2, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->Q(Z)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->J(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)V
 
-    .line 7
     :cond_0
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
@@ -136,7 +128,6 @@
 
     invoke-virtual {p2, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 8
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/firebase/firestore/remote/i;Lcom/google/firebase/firestore/remote/i$d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/remote/i$b;->b:Lcom/google/firebase/firestore/remote/i;
 
     iput-object p2, p0, Lcom/google/firebase/firestore/remote/i$b;->a:Lcom/google/firebase/firestore/remote/i$d;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/i$b;->b:Lcom/google/firebase/firestore/remote/i;
 
     invoke-static {v0}, Lcom/google/firebase/firestore/remote/i;->c(Lcom/google/firebase/firestore/remote/i;)Landroid/content/Context;

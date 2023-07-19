@@ -17,7 +17,6 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcom/google/android/gms/internal/icing/w0;
 
     if-nez v0, :cond_2
@@ -28,20 +27,17 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     instance-of v0, p0, Ljava/io/Serializable;
 
     if-eqz v0, :cond_1
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/icing/zzbu;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/icing/zzbu;-><init>(Lcom/google/android/gms/internal/icing/u0;)V
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/icing/w0;
 
@@ -70,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/zzbw;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/icing/zzbw;-><init>(Ljava/lang/Object;)V

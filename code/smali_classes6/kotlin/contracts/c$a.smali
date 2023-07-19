@@ -25,7 +25,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     sget-object p2, Lcotlin/contracts/InvocationKind;->UNKNOWN:Lcotlin/contracts/InvocationKind;
 
     :cond_0
@@ -35,7 +34,6 @@
 
     return-object p0
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 

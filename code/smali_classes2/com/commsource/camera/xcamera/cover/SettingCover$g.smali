@@ -60,14 +60,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$g;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -84,7 +82,6 @@
 
     invoke-virtual {p1, v2, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->k(ZZ)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$g;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -102,7 +99,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$g;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/SettingCover;->P()Lcom/commsource/camera/xcamera/cover/tips/a;
@@ -127,7 +123,6 @@
 
     invoke-static/range {v3 .. v8}, Lcom/commsource/camera/xcamera/cover/tips/a;->R(Lcom/commsource/camera/xcamera/cover/tips/a;Ljava/lang/String;JILjava/lang/Object;)V
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$g;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -137,14 +132,12 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->G(Z)V
 
-    .line 6
     sget-object p1, Lcom/commsource/camera/xcamera/cover/SettingCover$g$a;->a:Lcom/commsource/camera/xcamera/cover/SettingCover$g$a;
 
     invoke-static {v1, p1}, Lcom/commsource/util/c2;->f(Ljava/lang/String;Ljava/lang/Runnable;)V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$g;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -164,7 +157,6 @@
 
     invoke-virtual {p1, v3, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->k(ZZ)V
 
-    .line 8
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$g;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -182,7 +174,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$g;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/SettingCover;->P()Lcom/commsource/camera/xcamera/cover/tips/a;
@@ -207,7 +198,6 @@
 
     invoke-static/range {v4 .. v9}, Lcom/commsource/camera/xcamera/cover/tips/a;->R(Lcom/commsource/camera/xcamera/cover/tips/a;Ljava/lang/String;JILjava/lang/Object;)V
 
-    .line 10
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$g;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -217,12 +207,10 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->G(Z)V
 
-    .line 11
     sget-object p1, Lcom/commsource/camera/xcamera/cover/SettingCover$g$b;->a:Lcom/commsource/camera/xcamera/cover/SettingCover$g$b;
 
     invoke-static {v1, p1}, Lcom/commsource/util/c2;->f(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 12
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -236,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/SettingCover$g;->a(Ljava/lang/Boolean;)V

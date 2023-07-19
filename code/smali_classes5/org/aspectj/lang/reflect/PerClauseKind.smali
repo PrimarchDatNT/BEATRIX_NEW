@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 13
 
-    .line 1
     new-instance v0, Lorg/aspectj/lang/reflect/PerClauseKind;
 
     const-string v1, "SINGLETON"
@@ -44,7 +43,6 @@
 
     sput-object v0, Lorg/aspectj/lang/reflect/PerClauseKind;->SINGLETON:Lorg/aspectj/lang/reflect/PerClauseKind;
 
-    .line 2
     new-instance v1, Lorg/aspectj/lang/reflect/PerClauseKind;
 
     const-string v3, "PERTHIS"
@@ -55,7 +53,6 @@
 
     sput-object v1, Lorg/aspectj/lang/reflect/PerClauseKind;->PERTHIS:Lorg/aspectj/lang/reflect/PerClauseKind;
 
-    .line 3
     new-instance v3, Lorg/aspectj/lang/reflect/PerClauseKind;
 
     const-string v5, "PERTARGET"
@@ -66,7 +63,6 @@
 
     sput-object v3, Lorg/aspectj/lang/reflect/PerClauseKind;->PERTARGET:Lorg/aspectj/lang/reflect/PerClauseKind;
 
-    .line 4
     new-instance v5, Lorg/aspectj/lang/reflect/PerClauseKind;
 
     const-string v7, "PERCFLOW"
@@ -77,7 +73,6 @@
 
     sput-object v5, Lorg/aspectj/lang/reflect/PerClauseKind;->PERCFLOW:Lorg/aspectj/lang/reflect/PerClauseKind;
 
-    .line 5
     new-instance v7, Lorg/aspectj/lang/reflect/PerClauseKind;
 
     const-string v9, "PERCFLOWBELOW"
@@ -88,7 +83,6 @@
 
     sput-object v7, Lorg/aspectj/lang/reflect/PerClauseKind;->PERCFLOWBELOW:Lorg/aspectj/lang/reflect/PerClauseKind;
 
-    .line 6
     new-instance v9, Lorg/aspectj/lang/reflect/PerClauseKind;
 
     const-string v11, "PERTYPEWITHIN"
@@ -115,7 +109,6 @@
 
     aput-object v9, v11, v12
 
-    .line 7
     sput-object v11, Lorg/aspectj/lang/reflect/PerClauseKind;->$VALUES:[Lorg/aspectj/lang/reflect/PerClauseKind;
 
     return-void
@@ -129,7 +122,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -138,7 +130,6 @@
 .method public static valueOf(Ljava/lang/String;)Lorg/aspectj/lang/reflect/PerClauseKind;
     .locals 1
 
-    .line 1
     const-class v0, Lorg/aspectj/lang/reflect/PerClauseKind;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -153,7 +144,6 @@
 .method public static values()[Lorg/aspectj/lang/reflect/PerClauseKind;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/aspectj/lang/reflect/PerClauseKind;->$VALUES:[Lorg/aspectj/lang/reflect/PerClauseKind;
 
     invoke-virtual {v0}, [Lorg/aspectj/lang/reflect/PerClauseKind;->clone()Ljava/lang/Object;

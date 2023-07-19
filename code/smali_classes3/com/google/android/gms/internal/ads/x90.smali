@@ -57,7 +57,6 @@
 .method public constructor <init>(Ljava/util/concurrent/ScheduledExecutorService;Lcom/google/android/gms/common/util/g;)V
     .locals 2
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
     move-result-object v0
@@ -66,21 +65,16 @@
 
     const-wide/16 v0, -0x1
 
-    .line 2
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/x90;->d:J
 
-    .line 3
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/x90;->f:J
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/x90;->g:Z
 
-    .line 5
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/x90;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 6
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/x90;->c:Lcom/google/android/gms/common/util/g;
 
     return-void
@@ -89,7 +83,6 @@
 .method static synthetic H0(Lcom/google/android/gms/internal/ads/x90;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/x90;->J0()V
 
     return-void
@@ -98,7 +91,6 @@
 .method private final J0()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w90;->a:Lcom/google/android/gms/internal/ads/dc0;
 
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/bc0;->B0(Lcom/google/android/gms/internal/ads/dc0;)V
@@ -111,7 +103,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/x90;->p:Ljava/util/concurrent/ScheduledFuture;
 
@@ -123,14 +114,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/x90;->p:Ljava/util/concurrent/ScheduledFuture;
 
     const/4 v1, 0x1
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/ScheduledFuture;->cancel(Z)Z
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/x90;->c:Lcom/google/android/gms/common/util/g;
 
@@ -142,7 +131,6 @@
 
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/x90;->d:J
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/x90;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/y90;
@@ -153,7 +141,6 @@
 
     sget-object v2, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 5
     invoke-interface {v0, v1, p1, p2, v2}, Ljava/util/concurrent/ScheduledExecutorService;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
 
     move-result-object p1
@@ -162,7 +149,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     monitor-exit p0
 
     return-void
@@ -184,18 +170,15 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/x90;->g:Z
 
     const-wide/16 v0, 0x0
 
-    .line 2
     invoke-direct {p0, v0, v1}, Lcom/google/android/gms/internal/ads/x90;->L0(J)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -215,12 +198,10 @@
 
     if-gtz p1, :cond_0
 
-    .line 1
     monitor-exit p0
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
@@ -231,12 +212,10 @@
 
     move-result-wide v0
 
-    .line 3
     iget-boolean p1, p0, Lcom/google/android/gms/internal/ads/x90;->g:Z
 
     if-eqz p1, :cond_2
 
-    .line 4
     iget-wide v2, p0, Lcom/google/android/gms/internal/ads/x90;->f:J
 
     const-wide/16 v4, 0x0
@@ -254,18 +233,15 @@
     :cond_1
     move-wide v0, v2
 
-    .line 5
     :goto_0
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/x90;->f:J
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     monitor-exit p0
 
     return-void
 
-    .line 7
     :cond_2
     :try_start_1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/x90;->c:Lcom/google/android/gms/common/util/g;
@@ -282,7 +258,6 @@
 
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/x90;->c:Lcom/google/android/gms/common/util/g;
 
-    .line 8
     invoke-interface {p1}, Lcom/google/android/gms/common/util/g;->elapsedRealtime()J
 
     move-result-wide v2
@@ -293,13 +268,11 @@
 
     if-lez p1, :cond_4
 
-    .line 9
     :cond_3
     invoke-direct {p0, v0, v1}, Lcom/google/android/gms/internal/ads/x90;->L0(J)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 10
     :cond_4
     monitor-exit p0
 
@@ -318,13 +291,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/x90;->g:Z
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/x90;->p:Ljava/util/concurrent/ScheduledFuture;
 
     const/4 v1, 0x1
@@ -337,12 +308,10 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/x90;->p:Ljava/util/concurrent/ScheduledFuture;
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/ScheduledFuture;->cancel(Z)Z
 
-    .line 4
     iget-wide v2, p0, Lcom/google/android/gms/internal/ads/x90;->d:J
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/x90;->c:Lcom/google/android/gms/common/util/g;
@@ -360,16 +329,13 @@
     :cond_0
     const-wide/16 v2, -0x1
 
-    .line 5
     iput-wide v2, p0, Lcom/google/android/gms/internal/ads/x90;->f:J
 
-    .line 6
     :goto_0
     iput-boolean v1, p0, Lcom/google/android/gms/internal/ads/x90;->g:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     :cond_1
     monitor-exit p0
 
@@ -388,13 +354,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/x90;->g:Z
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/x90;->f:J
 
     const-wide/16 v2, 0x0
@@ -411,7 +375,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/x90;->f:J
 
     invoke-direct {p0, v0, v1}, Lcom/google/android/gms/internal/ads/x90;->L0(J)V
@@ -419,12 +382,10 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/x90;->g:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :cond_1
     monitor-exit p0
 

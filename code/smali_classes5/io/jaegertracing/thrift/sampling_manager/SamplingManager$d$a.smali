@@ -33,7 +33,6 @@
 
     const-string v0, "getSamplingStrategy"
 
-    .line 1
     invoke-direct {p0, v0}, Lorg/apache/thrift/AsyncProcessFunction;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -44,7 +43,6 @@
 .method public a()Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_args;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_args;
 
     invoke-direct {v0}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_args;-><init>()V
@@ -70,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p2, p2, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_args;->serviceName:Ljava/lang/String;
 
     invoke-interface {p1, p2, p3}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$c;->b(Ljava/lang/String;Lorg/apache/thrift/async/AsyncMethodCallback;)V
@@ -81,7 +78,6 @@
 .method public bridge synthetic getEmptyArgsInstance()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$d$a;->a()Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_args;
 
     move-result-object v0
@@ -102,7 +98,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$d$a$a;
 
     invoke-direct {v0, p0, p0, p1, p2}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$d$a$a;-><init>(Lio/jaegertracing/thrift/sampling_manager/SamplingManager$d$a;Lorg/apache/thrift/AsyncProcessFunction;Lorg/apache/thrift/server/AbstractNonblockingServer$AsyncFrameBuffer;I)V
@@ -126,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$c;
 
     check-cast p2, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_args;

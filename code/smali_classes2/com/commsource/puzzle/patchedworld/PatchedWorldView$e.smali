@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/puzzle/patchedworld/PatchedWorldView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/PatchedWorldView$e;->a:Lcom/commsource/puzzle/patchedworld/PatchedWorldView;
 
     invoke-direct {p0}, Landroid/view/GestureDetector$SimpleOnGestureListener;-><init>()V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/GestureDetector$SimpleOnGestureListener;->onDoubleTap(Landroid/view/MotionEvent;)Z
 
     move-result p1
@@ -56,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/PatchedWorldView$e;->a:Lcom/commsource/puzzle/patchedworld/PatchedWorldView;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/PatchedWorldView;->x(Lcom/commsource/puzzle/patchedworld/PatchedWorldView;)Z
@@ -67,7 +64,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/PatchedWorldView$e;->a:Lcom/commsource/puzzle/patchedworld/PatchedWorldView;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/PatchedWorldView;->y(Lcom/commsource/puzzle/patchedworld/PatchedWorldView;)Lcom/commsource/puzzle/patchedworld/PatchView;
@@ -76,7 +72,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/PatchedWorldView$e;->a:Lcom/commsource/puzzle/patchedworld/PatchedWorldView;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/PatchedWorldView;->y(Lcom/commsource/puzzle/patchedworld/PatchedWorldView;)Lcom/commsource/puzzle/patchedworld/PatchView;
@@ -85,7 +80,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/puzzle/patchedworld/PatchView;->H(Landroid/view/MotionEvent;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/PatchedWorldView$e;->a:Lcom/commsource/puzzle/patchedworld/PatchedWorldView;
 
     const/4 v2, 0x0
@@ -94,7 +88,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/PatchedWorldView$e;->a:Lcom/commsource/puzzle/patchedworld/PatchedWorldView;
 
@@ -102,13 +95,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/PatchedWorldView$e;->a:Lcom/commsource/puzzle/patchedworld/PatchedWorldView;
 
     invoke-virtual {v1, v2}, Lcom/commsource/puzzle/patchedworld/PatchedWorldView;->Q(I)V
 
-    .line 7
     :goto_0
     invoke-super {p0, p1}, Landroid/view/GestureDetector$SimpleOnGestureListener;->onSingleTapUp(Landroid/view/MotionEvent;)Z
 

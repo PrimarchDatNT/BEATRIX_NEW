@@ -66,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -102,10 +101,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/bumptech/glide/s/k;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -114,7 +111,6 @@
 
     iput-object p1, p0, Lcom/bumptech/glide/load/k/n$a;->a:Lcom/bumptech/glide/load/c;
 
-    .line 4
     invoke-static {p2}, Lcom/bumptech/glide/s/k;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -123,7 +119,6 @@
 
     iput-object p1, p0, Lcom/bumptech/glide/load/k/n$a;->b:Ljava/util/List;
 
-    .line 5
     invoke-static {p3}, Lcom/bumptech/glide/s/k;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

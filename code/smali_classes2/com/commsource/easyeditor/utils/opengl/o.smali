@@ -25,28 +25,24 @@
 
     new-array v2, v1, [F
 
-    .line 1
     fill-array-data v2, :array_0
 
     sput-object v2, Lcom/commsource/easyeditor/utils/opengl/o;->a:[F
 
     new-array v2, v1, [F
 
-    .line 2
     fill-array-data v2, :array_1
 
     sput-object v2, Lcom/commsource/easyeditor/utils/opengl/o;->b:[F
 
     new-array v2, v1, [F
 
-    .line 3
     fill-array-data v2, :array_2
 
     sput-object v2, Lcom/commsource/easyeditor/utils/opengl/o;->c:[F
 
     new-array v1, v1, [F
 
-    .line 4
     fill-array-data v1, :array_3
 
     sput-object v1, Lcom/commsource/easyeditor/utils/opengl/o;->d:[F
@@ -109,7 +105,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -130,12 +125,10 @@
 
     const/high16 p0, 0x3f800000    # 1.0f
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -149,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/o$a;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -170,24 +162,20 @@
 
     if-eq p0, v1, :cond_0
 
-    .line 2
     sget-object p0, Lcom/commsource/easyeditor/utils/opengl/o;->a:[F
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/commsource/easyeditor/utils/opengl/o;->d:[F
 
     goto :goto_0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/commsource/easyeditor/utils/opengl/o;->c:[F
 
     goto :goto_0
 
-    .line 5
     :cond_2
     sget-object p0, Lcom/commsource/easyeditor/utils/opengl/o;->b:[F
 
@@ -208,10 +196,8 @@
 
     new-array p1, v4, [F
 
-    .line 6
     aget v10, p0, v9
 
-    .line 7
     invoke-static {v10}, Lcom/commsource/easyeditor/utils/opengl/o;->a(F)F
 
     move-result v10
@@ -224,7 +210,6 @@
 
     aget v10, p0, v2
 
-    .line 8
     invoke-static {v10}, Lcom/commsource/easyeditor/utils/opengl/o;->a(F)F
 
     move-result v10
@@ -237,7 +222,6 @@
 
     aget v10, p0, v8
 
-    .line 9
     invoke-static {v10}, Lcom/commsource/easyeditor/utils/opengl/o;->a(F)F
 
     move-result v10
@@ -250,7 +234,6 @@
 
     aget v10, p0, v6
 
-    .line 10
     invoke-static {v10}, Lcom/commsource/easyeditor/utils/opengl/o;->a(F)F
 
     move-result v10
@@ -268,14 +251,12 @@
 
     new-array p1, v4, [F
 
-    .line 11
     aget p2, p0, v9
 
     aput p2, p1, v9
 
     aget p2, p0, v3
 
-    .line 12
     invoke-static {p2}, Lcom/commsource/easyeditor/utils/opengl/o;->a(F)F
 
     move-result p2
@@ -288,7 +269,6 @@
 
     aget p2, p0, v1
 
-    .line 13
     invoke-static {p2}, Lcom/commsource/easyeditor/utils/opengl/o;->a(F)F
 
     move-result p2
@@ -301,7 +281,6 @@
 
     aget p2, p0, v7
 
-    .line 14
     invoke-static {p2}, Lcom/commsource/easyeditor/utils/opengl/o;->a(F)F
 
     move-result p2
@@ -314,7 +293,6 @@
 
     aget p0, p0, v5
 
-    .line 15
     invoke-static {p0}, Lcom/commsource/easyeditor/utils/opengl/o;->a(F)F
 
     move-result p0
@@ -323,7 +301,6 @@
 
     move-object p0, p1
 
-    .line 16
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -337,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/o;->a:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

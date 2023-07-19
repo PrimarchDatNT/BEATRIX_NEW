@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b$a;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$b;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
@@ -63,7 +62,6 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->V2(ZLcom/commsource/camera/xcamera/m;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

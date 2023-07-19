@@ -50,7 +50,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/f1$b;->a:Lcom/commsource/widget/f1;
 
     invoke-static {v1}, Lcom/commsource/widget/f1;->d(Lcom/commsource/widget/f1;)I
@@ -63,14 +62,12 @@
 
     if-ne v1, v3, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/f1$b;->a:Lcom/commsource/widget/f1;
 
     invoke-static {v1}, Lcom/commsource/widget/f1;->e(Lcom/commsource/widget/f1;)Landroid/view/View;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -83,12 +80,10 @@
 
     move-result p1
 
-    .line 4
     invoke-static {v1, p1}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -98,7 +93,6 @@
 
     throw p1
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/widget/f1$b;->a:Lcom/commsource/widget/f1;
 
@@ -108,7 +102,6 @@
 
     if-nez v1, :cond_3
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/f1$b;->a:Lcom/commsource/widget/f1;
 
     invoke-static {v1}, Lcom/commsource/widget/f1;->e(Lcom/commsource/widget/f1;)Landroid/view/View;
@@ -140,7 +133,6 @@
 
     throw p1
 
-    .line 8
     :cond_3
     iget-object v1, p0, Lcom/commsource/widget/f1$b;->a:Lcom/commsource/widget/f1;
 
@@ -162,13 +154,11 @@
 
     invoke-static {v1, p1}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_4
     new-instance p1, Lcotlin/TypeCastException;
 

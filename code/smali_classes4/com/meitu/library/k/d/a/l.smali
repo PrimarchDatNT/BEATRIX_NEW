@@ -25,7 +25,6 @@
 
     new-array v1, v1, [C
 
-    .line 1
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/meitu/library/k/d/a/l;->a:[C
@@ -172,7 +171,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -185,14 +183,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
 
     if-ge v1, p1, :cond_1
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuffer;
 
     invoke-direct {v2}, Ljava/lang/StringBuffer;-><init>()V
@@ -202,23 +198,19 @@
 
     const-string v3, "0"
 
-    .line 3
     invoke-virtual {v2, v3}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v2, p0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 5
     invoke-virtual {v2}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -242,7 +234,6 @@
 
     const-string v4, ""
 
-    .line 1
     :cond_0
     sget-object v5, Lcom/meitu/library/k/d/a/l;->a:[C
 
@@ -252,7 +243,6 @@
 
     aget-char v5, v5, v7
 
-    .line 2
     sget-object v6, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
     new-array v7, v1, [Ljava/lang/Object;
@@ -271,7 +261,6 @@
 
     move-result-object v5
 
-    .line 3
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -292,7 +281,6 @@
 
     if-nez v7, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -307,14 +295,12 @@
 
     const-string v1, "REM"
 
-    .line 1
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, "\u0100"
@@ -324,14 +310,12 @@
     :cond_0
     const-string v1, "RET"
 
-    .line 3
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, "\u0101"
@@ -341,21 +325,18 @@
     :cond_1
     const-string v1, "COL"
 
-    .line 5
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, "\u0102"
 
     return-object p0
 
-    .line 7
     :cond_2
     invoke-static {p0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
@@ -371,7 +352,6 @@
 
     const-string v5, ""
 
-    .line 8
     :cond_3
     sget-object v6, Lcom/meitu/library/k/d/a/l;->a:[C
 
@@ -381,7 +361,6 @@
 
     aget-char v6, v6, v8
 
-    .line 9
     sget-object v7, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
     new-array v8, p0, [Ljava/lang/Object;
@@ -400,7 +379,6 @@
 
     move-result-object v6
 
-    .line 10
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -421,7 +399,6 @@
 
     if-nez v8, :cond_3
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v5
@@ -436,14 +413,12 @@
 
     const/4 v1, 0x7
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/library/k/d/a/l;->b(JI)Ljava/lang/String;
 
     move-result-object p0
 
     const/4 p1, 0x4
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/library/k/d/a/l;->a(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p0
@@ -466,7 +441,6 @@
 
     const/4 v4, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -474,7 +448,6 @@
 
     if-ge v4, v5, :cond_2
 
-    .line 2
     invoke-virtual {p0, v4}, Ljava/lang/String;->charAt(I)C
 
     move-result v5
@@ -490,7 +463,6 @@
 
     if-ge v6, v7, :cond_1
 
-    .line 3
     sget-object v7, Lcom/meitu/library/k/d/a/l;->a:[C
 
     aget-char v7, v7, v6
@@ -518,7 +490,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

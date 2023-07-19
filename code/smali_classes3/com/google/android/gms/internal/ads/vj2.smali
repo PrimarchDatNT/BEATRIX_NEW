@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/rj2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/vj2;->a:Lcom/google/android/gms/internal/ads/rj2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -31,7 +30,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/vj2;->a:Lcom/google/android/gms/internal/ads/rj2;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/rj2;->j(Lcom/google/android/gms/internal/ads/rj2;)Ljava/lang/Object;
@@ -40,7 +38,6 @@
 
     monitor-enter p1
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vj2;->a:Lcom/google/android/gms/internal/ads/rj2;
 
@@ -48,7 +45,6 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/rj2;->g(Lcom/google/android/gms/internal/ads/rj2;Lcom/google/android/gms/internal/ads/dk2;)Lcom/google/android/gms/internal/ads/dk2;
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vj2;->a:Lcom/google/android/gms/internal/ads/rj2;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/rj2;->k(Lcom/google/android/gms/internal/ads/rj2;)Lcom/google/android/gms/internal/ads/yj2;
@@ -57,12 +53,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vj2;->a:Lcom/google/android/gms/internal/ads/rj2;
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/rj2;->f(Lcom/google/android/gms/internal/ads/rj2;Lcom/google/android/gms/internal/ads/yj2;)Lcom/google/android/gms/internal/ads/yj2;
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vj2;->a:Lcom/google/android/gms/internal/ads/rj2;
 
@@ -72,7 +66,6 @@
 
     invoke-virtual {v0}, Ljava/lang/Object;->notifyAll()V
 
-    .line 6
     monitor-exit p1
 
     return-void

@@ -21,17 +21,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/library/g/h/e;->a:I
 
     const/4 v0, 0x2
 
-    .line 3
     iput v0, p0, Lcom/meitu/library/g/h/e;->b:I
 
     return-void

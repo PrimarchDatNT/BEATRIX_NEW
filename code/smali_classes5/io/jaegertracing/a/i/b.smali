@@ -16,7 +16,6 @@
 
     const/16 v0, 0x800
 
-    .line 1
     invoke-direct {p0, v0}, Lio/jaegertracing/a/i/b;-><init>(I)V
 
     return-void
@@ -25,12 +24,10 @@
 .method constructor <init>(I)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-static {v0, p1}, Lio/jaegertracing/a/i/e;->c(ZI)Lio/jaegertracing/a/i/e;
 
     move-result-object p1
@@ -45,7 +42,6 @@
 .method public a(Ljava/lang/String;Ljava/lang/String;)Lio/jaegertracing/a/i/e;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lio/jaegertracing/a/i/b;->b:Lio/jaegertracing/a/i/e;
 
     return-object p1

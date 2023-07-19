@@ -13,7 +13,6 @@
 .method public constructor <init>(Lcom/google/ar/core/Session;)V
     .locals 2
 
-    .line 1
     iget-wide v0, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     invoke-static {v0, v1}, Lcom/google/ar/core/AugmentedImageDatabase;->nativeCreate(J)J
@@ -28,13 +27,10 @@
 .method constructor <init>(Lcom/google/ar/core/Session;J)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/ar/core/AugmentedImageDatabase;->session:Lcom/google/ar/core/Session;
 
-    .line 4
     iput-wide p2, p0, Lcom/google/ar/core/AugmentedImageDatabase;->nativeHandle:J
 
     return-void
@@ -43,30 +39,24 @@
 .method static convertBitmapToGrayscaleDirectBuffer(Landroid/graphics/Bitmap;)Ljava/nio/ByteBuffer;
     .locals 7
 
-    .line 1
     new-instance v0, Landroid/graphics/ColorMatrix;
 
     invoke-direct {v0}, Landroid/graphics/ColorMatrix;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/graphics/ColorMatrix;->setSaturation(F)V
 
-    .line 3
     new-instance v2, Landroid/graphics/ColorMatrixColorFilter;
 
     invoke-direct {v2, v0}, Landroid/graphics/ColorMatrixColorFilter;-><init>(Landroid/graphics/ColorMatrix;)V
 
-    .line 4
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
-    .line 5
     invoke-virtual {v0, v2}, Landroid/graphics/Paint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
 
-    .line 6
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v2
@@ -81,15 +71,12 @@
 
     move-result-object v2
 
-    .line 7
     new-instance v3, Landroid/graphics/Canvas;
 
     invoke-direct {v3, v2}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 8
     invoke-virtual {v3, p0, v1, v1, v0}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 9
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v0
@@ -108,7 +95,6 @@
 
     const/4 v3, 0x0
 
-    .line 10
     :goto_0
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -118,7 +104,6 @@
 
     const/4 v4, 0x0
 
-    .line 11
     :goto_1
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -126,7 +111,6 @@
 
     if-ge v4, v5, :cond_0
 
-    .line 12
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v5
@@ -145,7 +129,6 @@
 
     int-to-byte v6, v6
 
-    .line 13
     invoke-virtual {v0, v5, v6}, Ljava/nio/ByteBuffer;->put(IB)Ljava/nio/ByteBuffer;
 
     add-int/lit8 v4, v4, 0x1
@@ -169,19 +152,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/ar/core/AugmentedImageDatabase;->loadDirectByteBuffer(Ljava/io/InputStream;)Ljava/nio/ByteBuffer;
 
     move-result-object p1
 
-    .line 2
     iget-wide v0, p0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     invoke-static {v0, v1, p1}, Lcom/google/ar/core/AugmentedImageDatabase;->nativeDeserialize(JLjava/nio/ByteBuffer;)J
 
     move-result-wide v0
 
-    .line 3
     new-instance p1, Lcom/google/ar/core/AugmentedImageDatabase;
 
     invoke-direct {p1, p0, v0, v1}, Lcom/google/ar/core/AugmentedImageDatabase;-><init>(Lcom/google/ar/core/Session;J)V
@@ -197,7 +177,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayOutputStream;
 
     invoke-virtual {p0}, Ljava/io/InputStream;->available()I
@@ -216,7 +195,6 @@
 
     new-array v1, v1, [B
 
-    .line 2
     :goto_0
     invoke-virtual {p0, v1}, Ljava/io/InputStream;->read([B)I
 
@@ -228,25 +206,21 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {v0, v1, v3, v2}, Ljava/io/ByteArrayOutputStream;->write([BII)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object p0
 
-    .line 5
     array-length v0, p0
 
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 6
     invoke-virtual {v0, p0}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
     return-object v0
@@ -278,29 +252,24 @@
 .method public addImage(Ljava/lang/String;Landroid/graphics/Bitmap;)I
     .locals 10
 
-    .line 1
     invoke-static {p2}, Lcom/google/ar/core/AugmentedImageDatabase;->convertBitmapToGrayscaleDirectBuffer(Landroid/graphics/Bitmap;)Ljava/nio/ByteBuffer;
 
     move-result-object v6
 
-    .line 2
     invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v9
 
-    .line 3
     iget-object v0, p0, Lcom/google/ar/core/AugmentedImageDatabase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, p0, Lcom/google/ar/core/AugmentedImageDatabase;->nativeHandle:J
 
-    .line 4
     invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v7
 
-    .line 5
     invoke-virtual {p2}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v8
@@ -309,7 +278,6 @@
 
     move-object v5, p1
 
-    .line 6
     invoke-direct/range {v0 .. v9}, Lcom/google/ar/core/AugmentedImageDatabase;->nativeAddImage(JJLjava/lang/String;Ljava/nio/ByteBuffer;III)I
 
     move-result p1
@@ -320,29 +288,24 @@
 .method public addImage(Ljava/lang/String;Landroid/graphics/Bitmap;F)I
     .locals 11
 
-    .line 7
     invoke-static {p2}, Lcom/google/ar/core/AugmentedImageDatabase;->convertBitmapToGrayscaleDirectBuffer(Landroid/graphics/Bitmap;)Ljava/nio/ByteBuffer;
 
     move-result-object v6
 
-    .line 8
     invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v9
 
-    .line 9
     iget-object v0, p0, Lcom/google/ar/core/AugmentedImageDatabase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, p0, Lcom/google/ar/core/AugmentedImageDatabase;->nativeHandle:J
 
-    .line 10
     invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v7
 
-    .line 11
     invoke-virtual {p2}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v8
@@ -353,7 +316,6 @@
 
     move v10, p3
 
-    .line 12
     invoke-direct/range {v0 .. v10}, Lcom/google/ar/core/AugmentedImageDatabase;->nativeAddImageWithPhysicalSize(JJLjava/lang/String;Ljava/nio/ByteBuffer;IIIF)I
 
     move-result p1
@@ -369,7 +331,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/AugmentedImageDatabase;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -378,10 +339,8 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-direct {p0, v0, v1}, Lcom/google/ar/core/AugmentedImageDatabase;->nativeReleaseDatabase(J)V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -391,7 +350,6 @@
 .method public getNumImages()I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedImageDatabase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -413,7 +371,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedImageDatabase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -424,12 +381,10 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {p1}, Ljava/nio/channels/Channels;->newChannel(Ljava/io/OutputStream;)Ljava/nio/channels/WritableByteChannel;
 
     move-result-object p1
 
-    .line 3
     invoke-interface {p1, v0}, Ljava/nio/channels/WritableByteChannel;->write(Ljava/nio/ByteBuffer;)I
 
     return-void

@@ -28,7 +28,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/easyeditor/entity/EditEffectEnum;->values()[Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object v1
@@ -148,7 +147,6 @@
     :try_end_6
     .catch Ljava/lang/NoSuchFieldError; {:try_start_6 .. :try_end_6} :catch_6
 
-    .line 2
     :catch_6
     invoke-static {}, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->values()[Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 

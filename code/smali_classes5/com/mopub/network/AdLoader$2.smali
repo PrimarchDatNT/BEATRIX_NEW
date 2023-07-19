@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/network/AdLoader;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdLoader$2;->this$0:Lcom/mopub/network/AdLoader;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/AdLoader$2;->this$0:Lcom/mopub/network/AdLoader;
 
     new-instance v1, Lcom/mopub/network/MoPubNetworkError$Builder;
@@ -47,17 +45,14 @@
 
     sget-object v2, Lcom/mopub/network/MoPubNetworkError$Reason;->UNSPECIFIED:Lcom/mopub/network/MoPubNetworkError$Reason;
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/mopub/network/MoPubNetworkError$Builder;->reason(Lcom/mopub/network/MoPubNetworkError$Reason;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Lcom/mopub/network/MoPubNetworkError$Builder;->build()Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object v1
 
-    .line 4
     invoke-static {v0, v1}, Lcom/mopub/network/AdLoader;->access$200(Lcom/mopub/network/AdLoader;Lcom/mopub/network/MoPubNetworkError;)V
 
     return-void

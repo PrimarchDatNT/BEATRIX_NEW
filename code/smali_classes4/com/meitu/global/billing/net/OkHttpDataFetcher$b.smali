@@ -26,18 +26,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x1e
 
-    .line 2
     iput v0, p0, Lcom/meitu/global/billing/net/OkHttpDataFetcher$b;->a:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/global/billing/net/OkHttpDataFetcher$b;->b:I
 
-    .line 4
     iput v0, p0, Lcom/meitu/global/billing/net/OkHttpDataFetcher$b;->c:I
 
     return-void
@@ -52,10 +48,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/global/billing/net/OkHttpDataFetcher$b;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -68,10 +62,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/global/billing/net/OkHttpDataFetcher$b;->b:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -84,10 +76,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/global/billing/net/OkHttpDataFetcher$b;->c:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

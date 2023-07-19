@@ -27,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/libmt3dface/MTFace2DInterface;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -36,10 +35,8 @@
 
     sput-object v1, Lcom/meitu/libmt3dface/MTFace2DInterface;->TAG:Ljava/lang/String;
 
-    .line 2
     invoke-static {}, Lcom/meitu/libmt3dface/MTFace2DInterface;->loadLibary()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -48,15 +45,12 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeInstance:J
 
-    .line 3
     :try_start_0
     invoke-direct {p0, p1}, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeCreate(Landroid/content/Context;)J
 
@@ -71,10 +65,8 @@
     :catch_0
     move-exception p1
 
-    .line 4
     invoke-static {}, Lcom/meitu/libmt3dface/MTFace2DInterface;->loadLibary()V
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/UnsatisfiedLinkError;->printStackTrace()V
 
     :goto_0
@@ -88,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/getkeepsafe/relinker/d;->g()Lcom/getkeepsafe/relinker/e;
 
@@ -113,7 +104,6 @@
     :catchall_0
     move-exception v1
 
-    .line 2
     sget-object v2, Lcom/meitu/libmt3dface/MTFace2DInterface;->TAG:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -132,7 +122,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -163,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v7, Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;->MT_FACE_25D:Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;
 
     move-object v1, p0
@@ -192,14 +180,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v11, Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
     invoke-direct {v11}, Lcom/meitu/libmt3dface/data/MTFace2DMesh;-><init>()V
 
     move-object v12, p0
 
-    .line 3
     iget-wide v2, v12, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeInstance:J
 
     const-wide/16 v4, 0x0
@@ -208,7 +194,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual/range {p6 .. p6}, Ljava/lang/Enum;->ordinal()I
 
     move-result v9
@@ -227,7 +212,6 @@
 
     invoke-direct/range {v1 .. v10}, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeGetFace2DMesh(JJIIFILcom/meitu/libmt3dface/data/MTFace2DMesh;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -241,7 +225,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 6
     sget-object v6, Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;->MT_FACE_25D:Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;
 
     move-object v1, p0
@@ -270,14 +253,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 7
     new-instance v10, Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
     invoke-direct {v10}, Lcom/meitu/libmt3dface/data/MTFace2DMesh;-><init>()V
 
     move-object v11, p0
 
-    .line 8
     iget-wide v2, v11, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeInstance:J
 
     const-wide/16 v4, 0x0
@@ -286,7 +267,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 9
     invoke-virtual/range {p5 .. p5}, Ljava/lang/Enum;->ordinal()I
 
     move-result v8
@@ -305,7 +285,6 @@
 
     invoke-direct/range {v1 .. v9}, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeGetFace2DMeshWithFloatArray(J[FIIFILcom/meitu/libmt3dface/data/MTFace2DMesh;)V
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -319,7 +298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -350,10 +328,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lcom/meitu/libmt3dface/MTFace2DInterface;->release()V
     :try_end_0
@@ -364,7 +340,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     sget-object v2, Lcom/meitu/libmt3dface/MTFace2DInterface;->TAG:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
@@ -373,7 +348,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -387,7 +361,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeInstance:J
 
     const-wide/16 v3, 0x0
@@ -396,13 +369,10 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeRelease(J)V
 
-    .line 3
     iput-wide v3, p0, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeInstance:J
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog$buildPrivacyConfirmDialog$1$1$1;->invoke(Lcom/commsource/widget/dialog/delegate/b;)V
@@ -83,18 +82,14 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v1}, Lf/d/i/e;->S3(Z)V
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v1}, Lf/d/i/e;->h4(Z)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog$buildPrivacyConfirmDialog$1$1$1;->this$0:Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog$buildPrivacyConfirmDialog$1$1;
 
     iget-object p1, p1, Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog$buildPrivacyConfirmDialog$1$1;->this$0:Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog$buildPrivacyConfirmDialog$1;
@@ -117,7 +112,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/home/homepagedialog/b;->c(I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

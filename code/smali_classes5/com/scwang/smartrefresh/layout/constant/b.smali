@@ -32,7 +32,6 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 1
     new-instance v0, Lcom/scwang/smartrefresh/layout/constant/b;
 
     const/4 v1, 0x0
@@ -43,14 +42,12 @@
 
     sput-object v0, Lcom/scwang/smartrefresh/layout/constant/b;->d:Lcom/scwang/smartrefresh/layout/constant/b;
 
-    .line 2
     new-instance v3, Lcom/scwang/smartrefresh/layout/constant/b;
 
     invoke-direct {v3, v2, v2, v2}, Lcom/scwang/smartrefresh/layout/constant/b;-><init>(IZZ)V
 
     sput-object v3, Lcom/scwang/smartrefresh/layout/constant/b;->e:Lcom/scwang/smartrefresh/layout/constant/b;
 
-    .line 3
     new-instance v4, Lcom/scwang/smartrefresh/layout/constant/b;
 
     const/4 v5, 0x2
@@ -59,7 +56,6 @@
 
     sput-object v4, Lcom/scwang/smartrefresh/layout/constant/b;->f:Lcom/scwang/smartrefresh/layout/constant/b;
 
-    .line 4
     new-instance v6, Lcom/scwang/smartrefresh/layout/constant/b;
 
     const/4 v7, 0x3
@@ -68,7 +64,6 @@
 
     sput-object v6, Lcom/scwang/smartrefresh/layout/constant/b;->g:Lcom/scwang/smartrefresh/layout/constant/b;
 
-    .line 5
     new-instance v8, Lcom/scwang/smartrefresh/layout/constant/b;
 
     const/4 v9, 0x4
@@ -91,7 +86,6 @@
 
     aput-object v8, v10, v9
 
-    .line 6
     sput-object v10, Lcom/scwang/smartrefresh/layout/constant/b;->i:[Lcom/scwang/smartrefresh/layout/constant/b;
 
     return-void
@@ -100,16 +94,12 @@
 .method private constructor <init>(IZZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/scwang/smartrefresh/layout/constant/b;->a:I
 
-    .line 3
     iput-boolean p2, p0, Lcom/scwang/smartrefresh/layout/constant/b;->b:Z
 
-    .line 4
     iput-boolean p3, p0, Lcom/scwang/smartrefresh/layout/constant/b;->c:Z
 
     return-void

@@ -32,12 +32,10 @@
 .method constructor <init>(Lf/d/d/o;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/d/o$g;->M:Lf/d/d/o;
 
     const-string p1, "RequestAiBeautyTask"
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -50,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/d/o$g;->J:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -65,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/d/o$g;->L:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/d/o$g;->K:Lcom/meitu/core/types/FaceData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -95,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lf/d/d/o$g;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lf/d/d/o$g;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -127,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/d/o$g;->J:Landroid/graphics/Bitmap;
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
@@ -140,7 +132,6 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lf/d/d/o$g;->L:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     const/4 v4, 0x1
@@ -151,7 +142,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isFront()Z
 
@@ -166,7 +156,6 @@
     :cond_1
     const/4 v2, 0x2
 
-    .line 4
     :goto_0
     iget-object v5, p0, Lf/d/d/o$g;->g:Ljava/lang/String;
 
@@ -188,7 +177,6 @@
     :goto_1
     invoke-static {v5, v1, v6, v7, v2}, Lcom/commsource/util/q;->l(Ljava/lang/String;Landroid/graphics/Bitmap;Lcom/meitu/mtlab/g/d/a;II)V
 
-    .line 5
     iget-object v1, p0, Lf/d/d/o$g;->M:Lf/d/d/o;
 
     invoke-static {v1}, Lf/d/d/o;->j(Lf/d/d/o;)Landroid/graphics/Bitmap;
@@ -197,7 +185,6 @@
 
     if-nez v1, :cond_4
 
-    .line 6
     iget-object v1, p0, Lf/d/d/o$g;->L:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     if-eqz v1, :cond_3
@@ -211,7 +198,6 @@
     :cond_3
     const/4 v1, 0x0
 
-    .line 7
     :goto_2
     iget-object v2, p0, Lf/d/d/o$g;->M:Lf/d/d/o;
 
@@ -225,25 +211,20 @@
 
     iget-object v6, p0, Lf/d/d/o$g;->K:Lcom/meitu/core/types/FaceData;
 
-    .line 8
     invoke-virtual {v5, v6}, Lcom/commsource/camera/d1/e;->q(Lcom/meitu/core/types/FaceData;)Lcom/commsource/camera/d1/e;
 
     move-result-object v5
 
-    .line 9
     invoke-virtual {v5, v1}, Lcom/commsource/camera/d1/e;->p(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/commsource/camera/d1/e;
 
     move-result-object v1
 
-    .line 10
     invoke-virtual {v1, v3, v4}, Lcom/commsource/camera/d1/e;->l(ZZ)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    .line 11
     invoke-static {v2, v1}, Lf/d/d/o;->k(Lf/d/d/o;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 12
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -259,10 +240,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lf/d/d/o$g;->p:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -275,19 +254,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/d/d/o$g;->g:Ljava/lang/String;
 
-    .line 2
     iput-object p2, p0, Lf/d/d/o$g;->J:Landroid/graphics/Bitmap;
 
-    .line 3
     iput-object p3, p0, Lf/d/d/o$g;->K:Lcom/meitu/core/types/FaceData;
 
-    .line 4
     iput-object p4, p0, Lf/d/d/o$g;->L:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

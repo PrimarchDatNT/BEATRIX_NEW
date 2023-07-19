@@ -13,17 +13,14 @@
 .method protected constructor <init>()V
     .locals 2
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/google/ar/core/HitResult;->session:Lcom/google/ar/core/Session;
 
     const-wide/16 v0, 0x0
 
-    .line 6
     iput-wide v0, p0, Lcom/google/ar/core/HitResult;->nativeHandle:J
 
     return-void
@@ -32,13 +29,10 @@
 .method constructor <init>(JLcom/google/ar/core/Session;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p3, p0, Lcom/google/ar/core/HitResult;->session:Lcom/google/ar/core/Session;
 
-    .line 3
     iput-wide p1, p0, Lcom/google/ar/core/HitResult;->nativeHandle:J
 
     return-void
@@ -61,7 +55,6 @@
 .method public createAnchor()Lcom/google/ar/core/Anchor;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/HitResult;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -72,7 +65,6 @@
 
     move-result-wide v0
 
-    .line 2
     new-instance v2, Lcom/google/ar/core/Anchor;
 
     iget-object v3, p0, Lcom/google/ar/core/HitResult;->session:Lcom/google/ar/core/Session;
@@ -85,7 +77,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
 
-    .line 1
     instance-of v0, p1, Lcom/google/ar/core/HitResult;
 
     const/4 v1, 0x0
@@ -94,11 +85,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/ar/core/HitResult;
 
-    .line 3
     iget-wide v2, p1, Lcom/google/ar/core/HitResult;->nativeHandle:J
 
     iget-wide v4, p0, Lcom/google/ar/core/HitResult;->nativeHandle:J
@@ -123,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/HitResult;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -132,10 +120,8 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/ar/core/HitResult;->nativeDestroyHitResult(J)V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -145,7 +131,6 @@
 .method public getDistance()F
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/HitResult;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -162,7 +147,6 @@
 .method public getHitPose()Lcom/google/ar/core/Pose;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/HitResult;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -179,7 +163,6 @@
 .method public getTrackable()Lcom/google/ar/core/Trackable;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/HitResult;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -190,7 +173,6 @@
 
     move-result-wide v0
 
-    .line 2
     iget-object v2, p0, Lcom/google/ar/core/HitResult;->session:Lcom/google/ar/core/Session;
 
     invoke-virtual {v2, v0, v1}, Lcom/google/ar/core/Session;->createTrackable(J)Lcom/google/ar/core/Trackable;
@@ -203,7 +185,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/HitResult;->nativeHandle:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;

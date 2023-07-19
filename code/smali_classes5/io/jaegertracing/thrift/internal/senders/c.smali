@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -56,7 +54,6 @@
 .method public a(Lio/jaegertracing/Configuration$e;)Lio/jaegertracing/b/j;
     .locals 3
 
-    .line 1
     invoke-virtual {p1}, Lio/jaegertracing/Configuration$e;->g()Ljava/lang/String;
 
     move-result-object v0
@@ -73,7 +70,6 @@
 
     if-nez v0, :cond_2
 
-    .line 2
     new-instance v0, Lio/jaegertracing/thrift/internal/senders/a$a;
 
     invoke-virtual {p1}, Lio/jaegertracing/Configuration$e;->g()Ljava/lang/String;
@@ -82,7 +78,6 @@
 
     invoke-direct {v0, v1}, Lio/jaegertracing/thrift/internal/senders/a$a;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lio/jaegertracing/Configuration$e;->f()Ljava/lang/String;
 
     move-result-object v1
@@ -99,7 +94,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Lio/jaegertracing/Configuration$e;->d()Ljava/lang/String;
 
     move-result-object v1
@@ -116,7 +110,6 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     invoke-virtual {p1}, Lio/jaegertracing/Configuration$e;->f()Ljava/lang/String;
 
     move-result-object v1
@@ -129,7 +122,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {p1}, Lio/jaegertracing/Configuration$e;->e()Ljava/lang/String;
 
@@ -147,14 +139,12 @@
 
     if-nez v1, :cond_1
 
-    .line 7
     invoke-virtual {p1}, Lio/jaegertracing/Configuration$e;->e()Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {v0, p1}, Lio/jaegertracing/thrift/internal/senders/a$a;->f(Ljava/lang/String;)Lio/jaegertracing/thrift/internal/senders/a$a;
 
-    .line 8
     :cond_1
     :goto_0
     invoke-virtual {v0}, Lio/jaegertracing/thrift/internal/senders/a$a;->d()Lio/jaegertracing/thrift/internal/senders/a;
@@ -163,11 +153,9 @@
 
     return-object p1
 
-    .line 9
     :cond_2
     new-instance v0, Lio/jaegertracing/thrift/internal/senders/d;
 
-    .line 10
     invoke-virtual {p1}, Lio/jaegertracing/Configuration$e;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -178,7 +166,6 @@
 
     move-result-object v1
 
-    .line 11
     invoke-virtual {p1}, Lio/jaegertracing/Configuration$e;->c()Ljava/lang/Integer;
 
     move-result-object p1

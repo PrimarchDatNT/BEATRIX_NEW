@@ -27,10 +27,8 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/hc0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/jc0;->a:Lcom/google/android/gms/internal/ads/hc0;
 
     return-void
@@ -39,7 +37,6 @@
 .method public static a(Lcom/google/android/gms/internal/ads/hc0;)Lcom/google/android/gms/internal/ads/jc0;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/jc0;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/jc0;-><init>(Lcom/google/android/gms/internal/ads/hc0;)V
@@ -61,14 +58,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
     move-result-object p0
 
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"
 
-    .line 2
     invoke-static {p0, v0}, Lcom/google/android/gms/internal/ads/a62;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -83,7 +78,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jc0;->a:Lcom/google/android/gms/internal/ads/hc0;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/jc0;->b(Lcom/google/android/gms/internal/ads/hc0;)Ljava/util/Set;

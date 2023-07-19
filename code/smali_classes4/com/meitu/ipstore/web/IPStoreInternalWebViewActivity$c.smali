@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$c;->j:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-direct {p0}, Lcom/meitu/webview/core/d;-><init>()V
@@ -39,10 +38,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/webkit/WebChromeClient;->onProgressChanged(Landroid/webkit/WebView;I)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$c;->j:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-static {p1}, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->o0(Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;)Landroid/widget/ProgressBar;
@@ -51,7 +48,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$c;->j:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-static {p1}, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->o0(Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;)Landroid/widget/ProgressBar;
@@ -60,7 +56,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ProgressBar;->setProgress(I)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

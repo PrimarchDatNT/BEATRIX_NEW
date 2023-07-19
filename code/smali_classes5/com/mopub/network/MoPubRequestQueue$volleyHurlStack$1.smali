@@ -27,7 +27,6 @@
 .method constructor <init>(Ljava/lang/String;Lcom/mopub/volley/toolbox/HurlStack$UrlRewriter;Ljavax/net/ssl/SSLSocketFactory;Lcom/mopub/volley/toolbox/HurlStack$UrlRewriter;Ljavax/net/ssl/SSLSocketFactory;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/MoPubRequestQueue$volleyHurlStack$1;->$userAgent:Ljava/lang/String;
 
     iput-object p2, p0, Lcom/mopub/network/MoPubRequestQueue$volleyHurlStack$1;->$volleyUrlRewriter:Lcom/mopub/volley/toolbox/HurlStack$UrlRewriter;
@@ -76,7 +75,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     invoke-interface {p2}, Ljava/util/Map;->isEmpty()Z
 
     move-result v0
@@ -101,7 +99,6 @@
 
     invoke-direct {p2}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     :cond_2
     sget-object v0, Lcom/mopub/common/util/ResponseHeader;->USER_AGENT:Lcom/mopub/common/util/ResponseHeader;
 
@@ -117,7 +114,6 @@
 
     invoke-interface {p2, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-super {p0, p1, p2}, Lcom/mopub/volley/toolbox/HurlStack;->executeRequest(Lcom/mopub/volley/Request;Ljava/util/Map;)Lcom/mopub/volley/toolbox/HttpResponse;
 
     move-result-object p1

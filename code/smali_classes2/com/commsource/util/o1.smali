@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,7 +51,6 @@
 
     if-nez v7, :cond_0
 
-    .line 1
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0, v1}, Ljava/util/LinkedList;-><init>(Ljava/util/Collection;)V
@@ -68,49 +66,38 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-interface {v8, v7, v0, v0}, Lcom/commsource/util/o1$c;->c(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 3
     invoke-interface {v8, v7, v0, v0, v0}, Lcom/commsource/util/o1$c;->e(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 4
     :cond_1
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v7
 
-    .line 5
     :cond_2
     sget-object v0, Lcom/commsource/util/h;->a:Lcom/commsource/util/h;
 
-    .line 6
     invoke-static {v7, v0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 7
     invoke-static {v1, v0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 8
     new-instance v10, Ljava/util/LinkedList;
 
     invoke-direct {v10}, Ljava/util/LinkedList;-><init>()V
 
-    .line 9
     new-instance v11, Ljava/util/LinkedList;
 
     invoke-direct {v11}, Ljava/util/LinkedList;-><init>()V
 
-    .line 10
     new-instance v12, Ljava/util/LinkedList;
 
     invoke-direct {v12}, Ljava/util/LinkedList;-><init>()V
 
-    .line 11
     new-instance v13, Ljava/util/LinkedList;
 
     invoke-direct {v13}, Ljava/util/LinkedList;-><init>()V
 
-    .line 12
     new-instance v0, Lcom/commsource/util/o1$b;
 
     invoke-direct {v0, v1, v7}, Lcom/commsource/util/o1$b;-><init>(Ljava/util/List;Ljava/util/List;)V
@@ -139,29 +126,23 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/commsource/util/o1$a;-><init>(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
 
-    .line 13
     invoke-virtual {v14, v15}, Landroidx/recyclerview/widget/DiffUtil$DiffResult;->dispatchUpdatesTo(Landroidx/recyclerview/widget/ListUpdateCallback;)V
 
-    .line 14
     invoke-interface {v13}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_3
 
-    .line 15
     invoke-interface {v7, v13}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
     :cond_3
     if-eqz v8, :cond_4
 
-    .line 16
     invoke-interface {v8, v10, v11, v12}, Lcom/commsource/util/o1$c;->c(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 17
     invoke-interface {v8, v10, v11, v12, v13}, Lcom/commsource/util/o1$c;->e(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 18
     :cond_4
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -181,7 +162,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -191,7 +171,6 @@
 
     const/4 p0, -0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -201,12 +180,10 @@
 
     const/4 p0, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 4
     :cond_2
     invoke-interface {p0, p1}, Lcom/commsource/util/common/j;->onSortCompare(Lcom/commsource/util/common/j;)I
 

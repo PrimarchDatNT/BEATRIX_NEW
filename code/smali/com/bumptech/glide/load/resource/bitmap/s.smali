@@ -16,7 +16,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -39,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object p1, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->UNKNOWN:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     return-object p1
@@ -61,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/bumptech/glide/s/a;->f(Ljava/nio/ByteBuffer;)Ljava/io/InputStream;
 
     move-result-object p1
@@ -88,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object p1, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->UNKNOWN:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     return-object p1
@@ -110,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p2, Landroid/media/ExifInterface;
 
     invoke-direct {p2, p1}, Landroid/media/ExifInterface;-><init>(Ljava/io/InputStream;)V
@@ -119,7 +114,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-virtual {p2, p1, v0}, Landroid/media/ExifInterface;->getAttributeInt(Ljava/lang/String;I)I
 
     move-result p1

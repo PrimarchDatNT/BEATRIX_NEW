@@ -97,7 +97,6 @@
 
     const/4 v6, 0x1
 
-    .line 1
     invoke-direct {v2, v3, v4, v5, v6}, Lkshark/PrimitiveType;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lkshark/PrimitiveType;->BOOLEAN:Lkshark/PrimitiveType;
@@ -112,7 +111,6 @@
 
     const/4 v8, 0x2
 
-    .line 2
     invoke-direct {v2, v3, v6, v7, v8}, Lkshark/PrimitiveType;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lkshark/PrimitiveType;->CHAR:Lkshark/PrimitiveType;
@@ -125,7 +123,6 @@
 
     const/4 v9, 0x6
 
-    .line 3
     invoke-direct {v2, v3, v8, v9, v5}, Lkshark/PrimitiveType;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lkshark/PrimitiveType;->FLOAT:Lkshark/PrimitiveType;
@@ -140,7 +137,6 @@
 
     const/4 v11, 0x7
 
-    .line 4
     invoke-direct {v2, v3, v10, v11, v0}, Lkshark/PrimitiveType;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lkshark/PrimitiveType;->DOUBLE:Lkshark/PrimitiveType;
@@ -151,7 +147,6 @@
 
     const-string v3, "BYTE"
 
-    .line 5
     invoke-direct {v2, v3, v5, v0, v6}, Lkshark/PrimitiveType;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lkshark/PrimitiveType;->BYTE:Lkshark/PrimitiveType;
@@ -164,7 +159,6 @@
 
     const/16 v6, 0x9
 
-    .line 6
     invoke-direct {v2, v3, v7, v6, v8}, Lkshark/PrimitiveType;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lkshark/PrimitiveType;->SHORT:Lkshark/PrimitiveType;
@@ -177,7 +171,6 @@
 
     const/16 v6, 0xa
 
-    .line 7
     invoke-direct {v2, v3, v9, v6, v5}, Lkshark/PrimitiveType;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lkshark/PrimitiveType;->INT:Lkshark/PrimitiveType;
@@ -190,7 +183,6 @@
 
     const/16 v5, 0xb
 
-    .line 8
     invoke-direct {v2, v3, v11, v5, v0}, Lkshark/PrimitiveType;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lkshark/PrimitiveType;->LONG:Lkshark/PrimitiveType;
@@ -207,19 +199,16 @@
 
     sput-object v0, Lkshark/PrimitiveType;->Companion:Lkshark/PrimitiveType$a;
 
-    .line 9
     invoke-static {}, Lkshark/PrimitiveType;->values()[Lkshark/PrimitiveType;
 
     move-result-object v0
 
-    .line 10
     new-instance v1, Ljava/util/ArrayList;
 
     array-length v2, v0
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 11
     array-length v2, v0
 
     const/4 v3, 0x0
@@ -229,7 +218,6 @@
 
     aget-object v5, v0, v3
 
-    .line 12
     iget v6, v5, Lkshark/PrimitiveType;->hprofType:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -259,19 +247,16 @@
 
     sput-object v0, Lkshark/PrimitiveType;->byteSizeByHprofType:Ljava/util/Map;
 
-    .line 13
     invoke-static {}, Lkshark/PrimitiveType;->values()[Lkshark/PrimitiveType;
 
     move-result-object v0
 
-    .line 14
     new-instance v1, Ljava/util/ArrayList;
 
     array-length v2, v0
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 15
     array-length v2, v0
 
     :goto_1
@@ -279,7 +264,6 @@
 
     aget-object v3, v0, v4
 
-    .line 16
     iget v5, v3, Lkshark/PrimitiveType;->hprofType:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -314,7 +298,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lkshark/PrimitiveType;->hprofType:I
@@ -327,7 +310,6 @@
 .method public static final synthetic access$getByteSizeByHprofType$cp()Ljava/util/Map;
     .locals 1
 
-    .line 1
     sget-object v0, Lkshark/PrimitiveType;->byteSizeByHprofType:Ljava/util/Map;
 
     return-object v0
@@ -336,7 +318,6 @@
 .method public static final synthetic access$getPrimitiveTypeByHprofType$cp()Ljava/util/Map;
     .locals 1
 
-    .line 1
     sget-object v0, Lkshark/PrimitiveType;->primitiveTypeByHprofType:Ljava/util/Map;
 
     return-object v0
@@ -375,7 +356,6 @@
 .method public final getByteSize()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/PrimitiveType;->byteSize:I
 
     return v0
@@ -384,7 +364,6 @@
 .method public final getHprofType()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/PrimitiveType;->hprofType:I
 
     return v0

@@ -58,12 +58,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->l:Z
 
     sget v1, Lcom/res/provider/ResDIMEN;->camera_bottom_min_height:I
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F
 
     move-result v1
@@ -74,7 +72,6 @@
 
     sget v1, Lcom/res/provider/ResDIMEN;->camera_bottom_fragment_min_height_full_screen:I
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F
 
     move-result v2
@@ -83,7 +80,6 @@
 
     sput v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->n:I
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v2
@@ -112,7 +108,6 @@
 
     sput v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->o:I
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/p/f/i;->H()Z
 
     move-result v2
@@ -127,7 +122,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F
 
@@ -143,7 +137,6 @@
     :goto_0
     sget v1, Lcom/res/provider/ResDIMEN;->camera_bottom_fragment_min_height:I
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F
 
     move-result v1
@@ -152,7 +145,6 @@
 
     sput v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->n:I
 
-    .line 8
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -162,10 +154,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v0

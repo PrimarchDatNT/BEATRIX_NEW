@@ -60,7 +60,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -68,10 +67,8 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/ArMaterial;->setHasCheckPopArVideoGuide(Z)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object v2
@@ -82,24 +79,20 @@
 
     if-eqz v5, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object v2
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->l(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v7
 
-    .line 6
     new-instance v2, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-direct {v2}, Lcom/commsource/widget/dialog/delegate/b;-><init>()V
 
-    .line 7
     new-instance v9, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$onAttachTransaction$8$1;
 
     move-object v3, v9
@@ -112,7 +105,6 @@
 
     invoke-static {v2, v9}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->i(Lcom/commsource/widget/dialog/delegate/b;Lcotlin/jvm/u/l;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$onAttachTransaction$8;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;->F()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -121,10 +113,8 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->P0(Z)V
 
-    .line 9
     invoke-virtual {v2}, Lf/d/a;->F()V
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -138,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$onAttachTransaction$8;->a(Lcom/meitu/template/bean/ArMaterial;)V

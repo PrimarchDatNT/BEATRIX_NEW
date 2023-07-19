@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 
     if-eqz p0, :cond_7
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
@@ -41,7 +39,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -60,7 +57,6 @@
 
     check-cast v2, Lcom/commsource/mypage/l0/a;
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/mypage/l0/a;->d()Ljava/lang/String;
 
     move-result-object v3
@@ -75,7 +71,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/mypage/l0/a;->c()I
 
     move-result v3
@@ -88,13 +83,11 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 6
     :cond_3
     invoke-virtual {v2}, Lcom/commsource/mypage/l0/a;->d()Ljava/lang/String;
 
@@ -110,7 +103,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 7
     invoke-virtual {v2}, Lcom/commsource/mypage/l0/a;->b()F
 
     move-result v2
@@ -119,12 +111,10 @@
 
     if-lez v2, :cond_1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 9
     :cond_4
     invoke-virtual {v2}, Lcom/commsource/mypage/l0/a;->b()F
 
@@ -140,19 +130,16 @@
 
     if-eqz v2, :cond_1
 
-    .line 10
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 11
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 12
     :cond_7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -182,12 +169,10 @@
 
     if-ne p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/mypage/k0/a;->a(Ljava/util/List;)Z
 
@@ -201,7 +186,6 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -215,7 +199,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_2
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -227,7 +210,6 @@
 
     if-eq v3, v4, :cond_3
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -235,7 +217,6 @@
     :cond_3
     const/4 v3, 0x0
 
-    .line 6
     :goto_0
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -243,7 +224,6 @@
 
     if-ge v3, v4, :cond_5
 
-    .line 7
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -262,7 +242,6 @@
 
     if-nez v4, :cond_4
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -272,13 +251,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 10
     :cond_6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

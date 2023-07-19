@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/json/JSONObject;->opt(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -48,7 +46,6 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array p2, v3, [Ljava/lang/Object;
@@ -75,7 +72,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {p2, p0}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
@@ -83,7 +79,6 @@
 
     if-nez v4, :cond_1
 
-    .line 4
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v3, v3, [Ljava/lang/Object;
@@ -120,7 +115,6 @@
 
     return-object v0
 
-    .line 5
     :cond_1
     invoke-virtual {p2, p0}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -128,7 +122,6 @@
 
     return-object p0
 
-    .line 6
     :cond_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -142,7 +135,6 @@
 .method public static jsonArrayToStringArray(Ljava/lang/String;)[Ljava/lang/String;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -163,7 +155,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     :try_start_0
     new-instance v1, Lorg/json/JSONTokener;
 
@@ -177,12 +168,10 @@
 
     const-string v1, "key"
 
-    .line 3
     invoke-virtual {p0, v1}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
     move-result v1
@@ -194,7 +183,6 @@
     :goto_0
     if-ge v3, v1, :cond_0
 
-    .line 5
     invoke-virtual {p0, v3}, Lorg/json/JSONArray;->getString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -236,12 +224,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -250,7 +236,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v1, Lorg/json/JSONTokener;
 
@@ -262,12 +247,10 @@
 
     check-cast p0, Lorg/json/JSONObject;
 
-    .line 4
     invoke-virtual {p0}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 5
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -275,14 +258,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
-    .line 7
     invoke-virtual {p0, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -314,7 +295,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -322,12 +302,10 @@
 
     const-string v1, "{"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -353,16 +331,13 @@
 
     const-string v1, ","
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_1
     const-string v1, "\""
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
@@ -373,10 +348,8 @@
 
     const-string v3, "\":\""
 
-    .line 7
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -385,7 +358,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/4 v1, 0x0
@@ -395,10 +367,8 @@
     :cond_2
     const-string p0, "}"
 
-    .line 10
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0

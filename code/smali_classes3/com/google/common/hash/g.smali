@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/hash/g;
 
     invoke-direct {v0}, Lcom/google/common/hash/g;-><init>()V
@@ -35,7 +34,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/hash/c;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
 .method public newHasher()Lcom/google/common/hash/j;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/hash/g$a;
 
     invoke-direct {v0}, Lcom/google/common/hash/g$a;-><init>()V

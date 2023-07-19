@@ -46,7 +46,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$t0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioActivity;->k1()Lcom/commsource/studio/formula/FormulaViewModel;
@@ -57,14 +56,12 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/formula/FormulaViewModel;->W(Lcom/commsource/studio/formula/JsFormula;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$t0;->b:Lcom/commsource/studio/formula/convert/g;
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v2}, Lcom/commsource/studio/formula/convert/g;->p(Z)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$t0;->b:Lcom/commsource/studio/formula/convert/g;
 
     invoke-virtual {v0}, Lcom/commsource/studio/formula/convert/g;->m()Lcom/commsource/material/download/b/b;
@@ -75,13 +72,11 @@
 
     invoke-virtual {v0}, Lcom/commsource/material/download/b/b;->g()V
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$t0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/ImageStudioActivity;->E1(Lcom/commsource/comic/widget/c;)V
 
-    .line 5
     sget-object v0, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     invoke-virtual {v0}, Lcom/commsource/repository/XRepository;->f()Lcom/commsource/repository/c;
@@ -90,7 +85,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/repository/c;->b()V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

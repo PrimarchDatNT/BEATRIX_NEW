@@ -41,7 +41,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
@@ -133,7 +132,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->K()F
@@ -148,7 +146,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -169,7 +166,6 @@
 
     const/4 v6, 0x0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -192,14 +188,12 @@
 
     move-result v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v2}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->s0(Lcom/commsource/studio/layer/MultiFaceSelectLayer;)Landroid/graphics/Paint;
 
     move-result-object v2
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v3}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->r0(Lcom/commsource/studio/layer/MultiFaceSelectLayer;)F
@@ -216,17 +210,14 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 6
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->drawPaint(Landroid/graphics/Paint;)V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v2}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->q0(Lcom/commsource/studio/layer/MultiFaceSelectLayer;)Ljava/util/LinkedList;
 
     move-result-object v2
 
-    .line 8
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -255,7 +246,6 @@
     :cond_0
     check-cast v5, Lcom/commsource/studio/layer/FaceOval;
 
-    .line 9
     iget-object v7, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-virtual {v7, v4}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->u0(I)Z
@@ -264,7 +254,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 10
     invoke-virtual {v5, p1}, Lcom/commsource/studio/layer/FaceOval;->f(Landroid/graphics/Canvas;)V
 
     :cond_1
@@ -272,18 +261,15 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->q0(Lcom/commsource/studio/layer/MultiFaceSelectLayer;)Ljava/util/LinkedList;
 
     move-result-object v1
 
-    .line 13
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -308,7 +294,6 @@
     :cond_3
     check-cast v2, Lcom/commsource/studio/layer/FaceOval;
 
-    .line 14
     iget-object v5, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-virtual {v5, v3}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->u0(I)Z
@@ -317,7 +302,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 15
     iget-object v3, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-virtual {v3}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -331,7 +315,6 @@
 
     goto :goto_1
 
-    .line 16
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

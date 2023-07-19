@@ -48,19 +48,16 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/k2$e;->b:Lcom/google/common/collect/k2;
 
     invoke-direct {p0}, Lcom/google/common/collect/l2;-><init>()V
 
-    .line 2
     new-instance p1, Ljava/util/ArrayDeque;
 
     invoke-direct {p1}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object p1, p0, Lcom/google/common/collect/k2$e;->a:Ljava/util/Queue;
 
-    .line 3
     invoke-interface {p1, p2}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
 
     return-void
@@ -71,7 +68,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/k2$e;->a:Ljava/util/Queue;
 
     invoke-interface {v0}, Ljava/util/Queue;->isEmpty()Z
@@ -91,14 +87,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/k2$e;->a:Ljava/util/Queue;
 
     invoke-interface {v0}, Ljava/util/Queue;->remove()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/collect/k2$e;->a:Ljava/util/Queue;
 
     iget-object v2, p0, Lcom/google/common/collect/k2$e;->b:Lcom/google/common/collect/k2;
@@ -120,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/k2$e;->a:Ljava/util/Queue;
 
     invoke-interface {v0}, Ljava/util/Queue;->element()Ljava/lang/Object;

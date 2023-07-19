@@ -27,7 +27,6 @@
 .method constructor <init>(Lorg/jsoup/nodes/Element;Ljava/lang/StringBuilder;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/nodes/Element$a;->b:Lorg/jsoup/nodes/Element;
 
     iput-object p2, p0, Lorg/jsoup/nodes/Element$a;->a:Ljava/lang/StringBuilder;
@@ -42,17 +41,14 @@
 .method public a(Lorg/jsoup/nodes/j;I)V
     .locals 0
 
-    .line 1
     instance-of p2, p1, Lorg/jsoup/nodes/Element;
 
     if-eqz p2, :cond_0
 
-    .line 2
     move-object p2, p1
 
     check-cast p2, Lorg/jsoup/nodes/Element;
 
-    .line 3
     invoke-virtual {p2}, Lorg/jsoup/nodes/Element;->B1()Z
 
     move-result p2
@@ -75,7 +71,6 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lorg/jsoup/nodes/Element$a;->a:Ljava/lang/StringBuilder;
 
     const/16 p2, 0x20
@@ -89,31 +84,25 @@
 .method public b(Lorg/jsoup/nodes/j;I)V
     .locals 0
 
-    .line 1
     instance-of p2, p1, Lorg/jsoup/nodes/m;
 
     if-eqz p2, :cond_0
 
-    .line 2
     check-cast p1, Lorg/jsoup/nodes/m;
 
-    .line 3
     iget-object p2, p0, Lorg/jsoup/nodes/Element$a;->a:Ljava/lang/StringBuilder;
 
     invoke-static {p2, p1}, Lorg/jsoup/nodes/Element;->h0(Ljava/lang/StringBuilder;Lorg/jsoup/nodes/m;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     instance-of p2, p1, Lorg/jsoup/nodes/Element;
 
     if-eqz p2, :cond_2
 
-    .line 5
     check-cast p1, Lorg/jsoup/nodes/Element;
 
-    .line 6
     iget-object p2, p0, Lorg/jsoup/nodes/Element$a;->a:Ljava/lang/StringBuilder;
 
     invoke-virtual {p2}, Ljava/lang/StringBuilder;->length()I
@@ -122,7 +111,6 @@
 
     if-lez p2, :cond_2
 
-    .line 7
     invoke-virtual {p1}, Lorg/jsoup/nodes/Element;->B1()Z
 
     move-result p2
@@ -148,14 +136,12 @@
     :cond_1
     iget-object p1, p0, Lorg/jsoup/nodes/Element$a;->a:Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-static {p1}, Lorg/jsoup/nodes/m;->p0(Ljava/lang/StringBuilder;)Z
 
     move-result p1
 
     if-nez p1, :cond_2
 
-    .line 9
     iget-object p1, p0, Lorg/jsoup/nodes/Element$a;->a:Ljava/lang/StringBuilder;
 
     const/16 p2, 0x20

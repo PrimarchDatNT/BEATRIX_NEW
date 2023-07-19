@@ -19,10 +19,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/puzzle/ImageStitchFragment$puzzleViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/puzzle/ImageStitchFragment$puzzleViewModel$2;-><init>(Lcom/commsource/puzzle/ImageStitchFragment;)V
@@ -43,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/puzzle/ImageStitchFragment;->D()Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;
 
     move-result-object p0
@@ -60,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -75,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/ImageStitchFragment;->c:Lcom/commsource/beautyplus/f0/sa;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -125,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/puzzle/ImageStitchFragment;->c:Lcom/commsource/beautyplus/f0/sa;
 
     if-nez p0, :cond_0
@@ -149,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/ImageStitchFragment;->c:Lcom/commsource/beautyplus/f0/sa;
 
     if-nez v1, :cond_0
@@ -207,7 +199,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/sa;->c(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/sa;
 
     move-result-object p1
@@ -222,7 +213,6 @@
 
     const-string p3, "mViewBinding"
 
-    .line 2
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -270,7 +260,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/puzzle/ImageStitchFragment;->D()Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;
 
     move-result-object p1
@@ -289,7 +278,6 @@
 
     invoke-virtual {p1, v0, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/puzzle/ImageStitchFragment;->D()Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;
 
     move-result-object p1
@@ -308,7 +296,6 @@
 
     invoke-virtual {p1, v0, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/puzzle/ImageStitchFragment;->D()Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;
 
     move-result-object p1
@@ -327,7 +314,6 @@
 
     invoke-virtual {p1, v0, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/puzzle/ImageStitchFragment;->c:Lcom/commsource/beautyplus/f0/sa;
 
     if-nez p1, :cond_0
@@ -345,7 +331,6 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/puzzle/StitchComponent;->setUserOptCallBack(Lcotlin/jvm/u/a;)V
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

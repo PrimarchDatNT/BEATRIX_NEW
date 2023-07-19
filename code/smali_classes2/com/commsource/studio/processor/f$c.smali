@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/f$c;->a:Lcom/commsource/studio/processor/f;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/f;->O()Lcom/commsource/studio/shader/m;
@@ -75,7 +74,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/shader/m;->z(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/processor/f$c;->a(Ljava/lang/Boolean;)V

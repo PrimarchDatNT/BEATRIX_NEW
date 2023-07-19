@@ -222,101 +222,86 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->a:Ljava/util/HashMap;
 
-    .line 3
     new-instance p1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {p1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 4
     new-instance p1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {p1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->d:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 5
     new-instance p1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {p1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->e:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 6
     new-instance p1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {p1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->f:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 7
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->g:Landroidx/lifecycle/MutableLiveData;
 
-    .line 8
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->h:Landroidx/lifecycle/MutableLiveData;
 
-    .line 9
     new-instance p1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {p1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->j:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 10
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->k:Landroidx/lifecycle/MutableLiveData;
 
-    .line 11
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->l:Landroidx/lifecycle/MutableLiveData;
 
-    .line 12
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->m:Landroidx/lifecycle/MutableLiveData;
 
-    .line 13
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->p:Landroidx/lifecycle/MutableLiveData;
 
-    .line 14
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->q:Landroidx/lifecycle/MutableLiveData;
 
-    .line 15
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -346,7 +331,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->j:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -372,7 +356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->g:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -389,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->o:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -415,7 +397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->I()Ljava/util/List;
@@ -445,7 +426,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->r:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -471,7 +451,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->e:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -497,7 +476,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -523,7 +501,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->d:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -549,7 +526,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->q:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -577,7 +553,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->l:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -594,7 +569,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->i:Lcom/commsource/studio/doodle/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -620,7 +594,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->h:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -646,7 +619,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->m:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -672,7 +644,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->p:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -698,7 +669,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->f:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -727,7 +697,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->a:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -764,7 +733,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->a:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -775,17 +743,14 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/doodle/h;->a:Ljava/util/HashMap;
 
     invoke-interface {v2, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -807,7 +772,6 @@
 
     const-string v1, "id"
 
-    .line 1
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -818,14 +782,12 @@
 
     const-string v1, "content"
 
-    .line 2
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/studio/doodle/h;->n:Ljava/lang/String;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->o:Ljava/lang/String;
 
@@ -833,14 +795,12 @@
 
     const-string v1, "category"
 
-    .line 4
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->o:Ljava/lang/String;
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -868,7 +828,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/studio/doodle/h;->n:Ljava/lang/String;
 
     const-string v3, "-2"
@@ -877,7 +836,6 @@
 
     if-eqz v2, :cond_9
 
-    .line 2
     sget-object v5, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-virtual {v5, v2}, Lcom/commsource/studio/doodle/NewDoodleRepository;->K(Ljava/lang/String;)Lcom/commsource/studio/doodle/DoodleMaterial;
@@ -886,7 +844,6 @@
 
     if-eqz v2, :cond_7
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getDownloadState()I
 
     move-result v5
@@ -901,7 +858,6 @@
 
     if-eq v5, v6, :cond_1
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v5
@@ -912,7 +868,6 @@
 
     if-nez v5, :cond_0
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/doodle/h;->l:Landroidx/lifecycle/MutableLiveData;
 
     new-instance v2, Lcotlin/Pair;
@@ -921,14 +876,12 @@
 
     invoke-virtual {p1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/doodle/h;->q:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
     goto :goto_3
 
-    .line 7
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/doodle/h;->m:Landroidx/lifecycle/MutableLiveData;
 
@@ -937,7 +890,6 @@
     :cond_1
     if-eqz p1, :cond_4
 
-    .line 8
     invoke-interface {p1, v6}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -971,7 +923,6 @@
 
     check-cast v5, Lcom/commsource/studio/doodle/DoodleMaterial;
 
-    .line 9
     invoke-virtual {v5}, Lcom/commsource/studio/doodle/DoodleMaterial;->getId()Ljava/lang/String;
 
     move-result-object v5
@@ -989,7 +940,6 @@
     :cond_3
     move-object v0, v4
 
-    .line 10
     :goto_0
     check-cast v0, Lcom/commsource/studio/doodle/DoodleMaterial;
 
@@ -1001,7 +951,6 @@
     :goto_1
     if-nez v0, :cond_6
 
-    .line 11
     invoke-virtual {v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCategoryId()Ljava/lang/String;
 
     move-result-object v3
@@ -1013,7 +962,6 @@
     :cond_5
     const-string v3, ""
 
-    .line 12
     :cond_6
     :goto_2
     iget-object p1, p0, Lcom/commsource/studio/doodle/h;->l:Landroidx/lifecycle/MutableLiveData;
@@ -1026,15 +974,12 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 13
     iput-object v4, p0, Lcom/commsource/studio/doodle/h;->n:Ljava/lang/String;
 
-    .line 14
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_7
     :goto_3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -1047,24 +992,20 @@
 
     if-nez p1, :cond_8
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/studio/doodle/h;->q:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 17
     :cond_8
     iput-object v4, p0, Lcom/commsource/studio/doodle/h;->n:Ljava/lang/String;
 
     goto :goto_4
 
-    .line 18
     :cond_9
     iget-object p1, p0, Lcom/commsource/studio/doodle/h;->o:Ljava/lang/String;
 
     if-eqz p1, :cond_b
 
-    .line 19
     iget-object v0, p0, Lcom/commsource/studio/doodle/h;->l:Landroidx/lifecycle/MutableLiveData;
 
     new-instance v2, Lcotlin/Pair;
@@ -1080,7 +1021,6 @@
 
     goto :goto_4
 
-    .line 20
     :cond_b
     iget-object p1, p0, Lcom/commsource/studio/doodle/h;->l:Landroidx/lifecycle/MutableLiveData;
 
@@ -1090,7 +1030,6 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 21
     :goto_4
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1104,7 +1043,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/doodle/h;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1123,7 +1061,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->o:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1154,7 +1091,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->e:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1185,7 +1121,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1216,7 +1151,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->d:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1235,7 +1169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->i:Lcom/commsource/studio/doodle/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1266,7 +1199,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->f:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1281,7 +1213,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/doodle/h;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1296,10 +1227,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->a:Ljava/util/HashMap;
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v1
@@ -1321,7 +1250,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -1332,7 +1260,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1357,7 +1284,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->k:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

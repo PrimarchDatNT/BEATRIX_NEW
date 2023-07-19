@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,10 +31,8 @@
 .method public final synthetic a(Ljava/lang/Object;Ljava/util/Map;)V
     .locals 2
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/lu;
 
-    .line 2
     invoke-interface {p2}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -50,10 +47,8 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-interface {p1, v0}, Lcom/google/android/gms/internal/ads/lu;->V(Z)V
 
-    .line 4
     :cond_0
     invoke-interface {p2}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
@@ -69,7 +64,6 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-interface {p1, p2}, Lcom/google/android/gms/internal/ads/lu;->V(Z)V
 
     :cond_1

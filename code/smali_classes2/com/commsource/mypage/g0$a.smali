@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/mypage/g0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/g0$a;->a:Lcom/commsource/mypage/g0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/mypage/g0$a;->a:Lcom/commsource/mypage/g0;
 
     invoke-static {p2}, Lcom/commsource/mypage/g0;->w(Lcom/commsource/mypage/g0;)Lcom/commsource/beautyplus/f0/i7;
@@ -67,7 +65,6 @@
     :goto_0
     invoke-static {p2, v0}, Lcom/commsource/mypage/g0;->C(Lcom/commsource/mypage/g0;Z)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

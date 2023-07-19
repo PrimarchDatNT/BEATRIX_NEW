@@ -21,18 +21,14 @@
 .method public constructor <init>(Landroidx/fragment/app/Fragment;)V
     .locals 1
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "delegate_permission_tag"
 
-    .line 6
     iput-object v0, p0, Lf/m/a/k/d;->a:Ljava/lang/String;
 
-    .line 7
     invoke-static {p1}, Lf/m/a/k/j;->a(Ljava/lang/Object;)V
 
-    .line 8
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p1
@@ -49,18 +45,14 @@
 .method public constructor <init>(Landroidx/fragment/app/FragmentActivity;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "delegate_permission_tag"
 
-    .line 2
     iput-object v0, p0, Lf/m/a/k/d;->a:Ljava/lang/String;
 
-    .line 3
     invoke-static {p1}, Lf/m/a/k/j;->a(Ljava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p1
@@ -96,7 +88,6 @@
     :cond_0
     const-string v0, "delegate_permission_tag"
 
-    .line 1
     invoke-virtual {p1, v0}, Landroidx/fragment/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     move-result-object v1
@@ -113,12 +104,10 @@
     :goto_0
     if-eqz v2, :cond_2
 
-    .line 2
     new-instance v1, Lf/m/a/k/e;
 
     invoke-direct {v1}, Lf/m/a/k/e;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p1
@@ -129,7 +118,6 @@
 
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 4
     :cond_2
     new-instance p1, Ljava/lang/ref/WeakReference;
 
@@ -143,7 +131,6 @@
 .method public static d(Ljava/lang/String;)Z
     .locals 3
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v1, 0x1
@@ -152,7 +139,6 @@
 
     if-lt v0, v2, :cond_1
 
-    .line 2
     invoke-static {}, Lf/m/a/f;->b()Landroid/content/Context;
 
     move-result-object v0
@@ -176,7 +162,6 @@
 .method public static f(Landroid/content/Context;)V
     .locals 3
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x17
@@ -189,14 +174,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.settings.action.MANAGE_WRITE_SETTINGS"
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -223,10 +206,8 @@
 
     const/high16 v1, 0x10000000
 
-    .line 4
     invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 5
     invoke-virtual {p0, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     :cond_0
@@ -238,12 +219,10 @@
 .method public a(Lf/m/a/k/i;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/m/a/k/d;->b:Ljava/lang/ref/WeakReference;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -254,7 +233,6 @@
 
     invoke-virtual {v0, v1}, Lf/m/a/k/e;->B(Z)V
 
-    .line 3
     iget-object v0, p0, Lf/m/a/k/d;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -265,7 +243,6 @@
 
     invoke-virtual {v0, p1}, Lf/m/a/k/e;->C(Lf/m/a/k/i;)V
 
-    .line 4
     iget-object p1, p0, Lf/m/a/k/d;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -283,12 +260,10 @@
 .method public b(Lf/m/a/k/i;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/m/a/k/d;->b:Ljava/lang/ref/WeakReference;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -299,7 +274,6 @@
 
     invoke-virtual {v0, v1}, Lf/m/a/k/e;->B(Z)V
 
-    .line 3
     iget-object v0, p0, Lf/m/a/k/d;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -310,7 +284,6 @@
 
     invoke-virtual {v0, p1}, Lf/m/a/k/e;->C(Lf/m/a/k/i;)V
 
-    .line 4
     iget-object p1, p0, Lf/m/a/k/d;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -328,12 +301,10 @@
 .method public varargs e([Ljava/lang/String;)Lf/m/a/k/d;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lf/m/a/k/d;->b:Ljava/lang/ref/WeakReference;
 
     if-eqz v0, :cond_0
 
-    .line 2
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -343,7 +314,6 @@
 
     aget-object v2, p1, v1
 
-    .line 3
     iget-object v3, p0, Lf/m/a/k/d;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v3}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;

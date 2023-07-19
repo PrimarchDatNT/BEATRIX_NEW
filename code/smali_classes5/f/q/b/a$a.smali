@@ -27,7 +27,6 @@
 .method constructor <init>(Landroid/os/AsyncTask;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/q/b/a$a;->a:Landroid/os/AsyncTask;
 
     iput-object p2, p0, Lf/q/b/a$a;->b:[Ljava/lang/Object;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     :try_start_0
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -50,7 +48,6 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/q/b/a$a;->a:Landroid/os/AsyncTask;
 
     sget-object v1, Landroid/os/AsyncTask;->THREAD_POOL_EXECUTOR:Ljava/util/concurrent/Executor;
@@ -61,7 +58,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lf/q/b/a$a;->a:Landroid/os/AsyncTask;
 

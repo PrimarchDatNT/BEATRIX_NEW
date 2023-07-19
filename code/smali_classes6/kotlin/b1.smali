@@ -70,7 +70,6 @@
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-byte p1, p0, Lcotlin/b1;->a:B
@@ -85,7 +84,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -104,7 +102,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -188,7 +185,6 @@
 
     int-to-byte p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/b1;->s(B)B
 
     move-result p0
@@ -205,7 +201,6 @@
 
     int-to-byte p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/b1;->s(B)B
 
     move-result p0
@@ -220,7 +215,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -251,7 +245,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -272,7 +265,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -293,7 +285,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -324,7 +315,6 @@
 
     int-to-byte p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/b1;->s(B)B
 
     move-result p0
@@ -339,7 +329,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -370,7 +359,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -391,7 +379,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -412,7 +399,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -439,7 +425,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/g2/t;
 
     and-int/lit16 p0, p0, 0xff
@@ -468,7 +453,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -497,7 +481,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -518,7 +501,6 @@
 
     int-to-byte p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/b1;->s(B)B
 
     move-result p0
@@ -533,7 +515,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -552,7 +533,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -579,7 +559,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -610,7 +589,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -631,7 +609,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -662,7 +639,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -689,7 +665,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     iget-byte v0, p0, Lcotlin/b1;->a:B
 
     invoke-static {v0, p1}, Lcotlin/b1;->h(BB)I
@@ -716,7 +691,6 @@
 
     and-int/lit16 p1, p1, 0xff
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result p0
@@ -783,7 +757,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -816,7 +789,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -835,7 +807,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p0
@@ -854,7 +825,6 @@
 
     and-int/2addr p1, v0
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result p0
@@ -877,7 +847,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -896,7 +865,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -923,7 +891,6 @@
 
     int-to-short p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0
@@ -940,7 +907,6 @@
 
     int-to-byte p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/b1;->s(B)B
 
     move-result p0
@@ -957,7 +923,6 @@
 
     int-to-byte p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/b1;->s(B)B
 
     move-result p0
@@ -972,7 +937,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -1001,7 +965,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -1018,7 +981,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/b1;
 
     invoke-virtual {p1}, Lcotlin/b1;->t0()B
@@ -1035,7 +997,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-byte v0, p0, Lcotlin/b1;->a:B
 
     invoke-static {v0, p1}, Lcotlin/b1;->E(BLjava/lang/Object;)Z
@@ -1048,7 +1009,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-byte v0, p0, Lcotlin/b1;->a:B
 
     invoke-static {v0}, Lcotlin/b1;->H(B)I
@@ -1071,7 +1031,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-byte v0, p0, Lcotlin/b1;->a:B
 
     invoke-static {v0}, Lcotlin/b1;->o0(B)Ljava/lang/String;

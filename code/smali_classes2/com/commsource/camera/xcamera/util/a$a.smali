@@ -61,14 +61,12 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
     iget v1, p1, Lf/k/v/b;->c:I
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/bean/a;->y(I)V
 
-    .line 2
     iget v0, p1, Lf/k/v/b;->o:I
 
     const/16 v1, 0x64
@@ -83,12 +81,10 @@
 
     if-gez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/a$a;->b:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {v0, v1}, Lcom/meitu/template/bean/ArMaterial;->setBeautyLevel(I)V
 
-    .line 4
     :cond_0
     iget v0, p1, Lf/k/v/b;->p:I
 
@@ -104,7 +100,6 @@
 
     if-gez v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/a$a;->b:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {v0, v1}, Lcom/meitu/template/bean/ArMaterial;->setMakeLevel(I)V
@@ -114,33 +109,28 @@
 
     const-string v0, "Filter"
 
-    .line 6
     invoke-virtual {p2, v0}, Lcom/meitu/core/parse/MteDict;->indexOfKey(Ljava/lang/String;)I
 
     move-result v0
 
     const-string v1, "Filter1"
 
-    .line 7
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->indexOfKey(Ljava/lang/String;)I
 
     move-result v3
 
     const-string v4, "Filter2"
 
-    .line 8
     invoke-virtual {p2, v4}, Lcom/meitu/core/parse/MteDict;->indexOfKey(Ljava/lang/String;)I
 
     move-result v5
 
     const-string v6, "AR"
 
-    .line 9
     invoke-virtual {p2, v6}, Lcom/meitu/core/parse/MteDict;->indexOfKey(Ljava/lang/String;)I
 
     move-result v7
 
-    .line 10
     iget-object v8, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
     invoke-virtual {p2, v6}, Lcom/meitu/core/parse/MteDict;->objectForKey(Ljava/lang/String;)Ljava/lang/Object;
@@ -159,7 +149,6 @@
 
     if-le v7, v8, :cond_5
 
-    .line 11
     iget-object v9, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
     if-lt v0, v7, :cond_4
@@ -192,7 +181,6 @@
 
     if-le v5, v8, :cond_7
 
-    .line 12
     new-instance v0, Ljava/io/File;
 
     iget-object v3, p0, Lcom/commsource/camera/xcamera/util/a$a;->c:Ljava/lang/String;
@@ -203,7 +191,6 @@
 
     move-result-object v0
 
-    .line 13
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -216,7 +203,6 @@
 
     if-eqz v3, :cond_6
 
-    .line 14
     iget-object v3, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -249,7 +235,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
@@ -281,13 +266,11 @@
 
     invoke-virtual {v1, v0}, Lcom/commsource/camera/xcamera/bean/a;->u(Ljava/lang/String;)V
 
-    .line 16
     :goto_2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/a$a;->b:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {v0, v2}, Lcom/meitu/template/bean/ArMaterial;->setChangeMakeAndBeautyLevel(Z)V
 
-    .line 17
     :cond_7
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
@@ -301,7 +284,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/bean/a;->v(Ljava/lang/Integer;)V
 
-    .line 18
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
     const-string v1, "Facemesh"
@@ -323,13 +305,11 @@
     :cond_8
     const/4 v1, 0x0
 
-    .line 19
     :goto_3
     invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/bean/a;->t(Z)V
 
     const-string v0, "MaxFaceCount"
 
-    .line 20
     invoke-virtual {p2, v0}, Lcom/meitu/core/parse/MteDict;->objectForKey(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -338,10 +318,8 @@
 
     if-eqz v0, :cond_9
 
-    .line 21
     invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
@@ -353,7 +331,6 @@
     :cond_9
     const-string v0, "TextType"
 
-    .line 23
     invoke-virtual {p2, v0}, Lcom/meitu/core/parse/MteDict;->objectForKey(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -366,12 +343,10 @@
 
     if-eqz v0, :cond_a
 
-    .line 24
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
     invoke-virtual {v0, v2}, Lcom/commsource/camera/xcamera/bean/a;->p(Z)V
 
-    .line 25
     :cond_a
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
@@ -385,10 +360,8 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/bean/a;->q(Ljava/lang/String;)V
 
-    .line 26
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
-    .line 27
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/bean/a;->g()Ljava/lang/String;
 
     move-result-object v1
@@ -399,7 +372,6 @@
 
     if-nez v1, :cond_b
 
-    .line 28
     sget-object v1, Lcom/commsource/camera/xcamera/util/a;->s:Lcom/commsource/camera/xcamera/util/a;
 
     iget-object v3, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
@@ -414,7 +386,6 @@
 
     goto :goto_4
 
-    .line 29
     :cond_b
     sget-object v1, Lcom/commsource/camera/xcamera/util/a;->s:Lcom/commsource/camera/xcamera/util/a;
 
@@ -429,7 +400,6 @@
 
     if-eqz v1, :cond_e
 
-    .line 30
     iget v4, p1, Lf/k/v/b;->t:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -459,7 +429,6 @@
 
     move-result v2
 
-    .line 31
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Filter;->setUserAlpha(I)V
 
     goto :goto_6
@@ -467,12 +436,10 @@
     :cond_e
     move-object v1, v3
 
-    .line 32
     :cond_f
     :goto_6
     invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/bean/a;->n(Lcom/meitu/template/bean/Filter;)V
 
-    .line 33
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
     const-string v1, "FaceliftSliderMode"
@@ -483,7 +450,6 @@
 
     invoke-virtual {v0, p2}, Lcom/commsource/camera/xcamera/bean/a;->r(I)V
 
-    .line 34
     :cond_10
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

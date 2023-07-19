@@ -39,22 +39,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/widget/layeredimageview/layer/a;->a:Z
 
     if-eqz p1, :cond_0
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/a;->b:Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -143,7 +139,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/layer/a;->b:Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     return-object v0
@@ -152,7 +147,6 @@
 .method public f()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/meitu/widget/layeredimageview/layer/a;->a:Z
 
     return v0
@@ -161,7 +155,6 @@
 .method public g(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/widget/layeredimageview/layer/a;->a:Z
 
     return-void

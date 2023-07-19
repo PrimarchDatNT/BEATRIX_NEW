@@ -57,7 +57,6 @@
 
     move v2, p1
 
-    .line 5
     invoke-direct/range {v0 .. v9}, Lorg/apache/http/impl/DefaultBHttpClientConnection;-><init>(IILjava/nio/charset/CharsetDecoder;Ljava/nio/charset/CharsetEncoder;Lorg/apache/http/config/MessageConstraints;Lorg/apache/http/entity/ContentLengthStrategy;Lorg/apache/http/entity/ContentLengthStrategy;Lorg/apache/http/io/HttpMessageWriterFactory;Lorg/apache/http/io/HttpMessageParserFactory;)V
 
     return-void
@@ -82,14 +81,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct/range {p0 .. p7}, Lorg/apache/http/impl/BHttpConnectionBase;-><init>(IILjava/nio/charset/CharsetDecoder;Ljava/nio/charset/CharsetEncoder;Lorg/apache/http/config/MessageConstraints;Lorg/apache/http/entity/ContentLengthStrategy;Lorg/apache/http/entity/ContentLengthStrategy;)V
 
     if-eqz p8, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p8, Lorg/apache/http/impl/io/DefaultHttpRequestWriterFactory;->INSTANCE:Lorg/apache/http/impl/io/DefaultHttpRequestWriterFactory;
 
@@ -108,7 +105,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     sget-object p9, Lorg/apache/http/impl/io/DefaultHttpResponseParserFactory;->INSTANCE:Lorg/apache/http/impl/io/DefaultHttpResponseParserFactory;
 
@@ -149,7 +145,6 @@
 
     move-object v5, p4
 
-    .line 4
     invoke-direct/range {v0 .. v9}, Lorg/apache/http/impl/DefaultBHttpClientConnection;-><init>(IILjava/nio/charset/CharsetDecoder;Ljava/nio/charset/CharsetEncoder;Lorg/apache/http/config/MessageConstraints;Lorg/apache/http/entity/ContentLengthStrategy;Lorg/apache/http/entity/ContentLengthStrategy;Lorg/apache/http/io/HttpMessageWriterFactory;Lorg/apache/http/io/HttpMessageParserFactory;)V
 
     return-void
@@ -165,7 +160,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lorg/apache/http/impl/BHttpConnectionBase;->bind(Ljava/net/Socket;)V
 
     return-void
@@ -179,10 +173,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/impl/BHttpConnectionBase;->ensureOpen()V
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/http/impl/BHttpConnectionBase;->doFlush()V
 
     return-void
@@ -196,10 +188,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/impl/BHttpConnectionBase;->ensureOpen()V
 
-    .line 2
     :try_start_0
     invoke-virtual {p0, p1}, Lorg/apache/http/impl/BHttpConnectionBase;->awaitInput(I)Z
 
@@ -238,18 +228,14 @@
 
     const-string v0, "HTTP response"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/http/impl/BHttpConnectionBase;->ensureOpen()V
 
-    .line 3
     invoke-virtual {p0, p1}, Lorg/apache/http/impl/BHttpConnectionBase;->prepareInput(Lorg/apache/http/HttpMessage;)Lorg/apache/http/HttpEntity;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p1, v0}, Lorg/apache/http/HttpResponse;->setEntity(Lorg/apache/http/HttpEntity;)V
 
     return-void
@@ -264,10 +250,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/impl/BHttpConnectionBase;->ensureOpen()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/impl/DefaultBHttpClientConnection;->responseParser:Lorg/apache/http/io/HttpMessageParser;
 
     invoke-interface {v0}, Lorg/apache/http/io/HttpMessageParser;->parse()Lorg/apache/http/HttpMessage;
@@ -276,10 +260,8 @@
 
     check-cast v0, Lorg/apache/http/HttpResponse;
 
-    .line 3
     invoke-virtual {p0, v0}, Lorg/apache/http/impl/DefaultBHttpClientConnection;->onResponseReceived(Lorg/apache/http/HttpResponse;)V
 
-    .line 4
     invoke-interface {v0}, Lorg/apache/http/HttpResponse;->getStatusLine()Lorg/apache/http/StatusLine;
 
     move-result-object v1
@@ -292,7 +274,6 @@
 
     if-lt v1, v2, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Lorg/apache/http/impl/BHttpConnectionBase;->incrementResponseCount()V
 
     :cond_0
@@ -310,13 +291,10 @@
 
     const-string v0, "HTTP request"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/http/impl/BHttpConnectionBase;->ensureOpen()V
 
-    .line 3
     invoke-interface {p1}, Lorg/apache/http/HttpEntityEnclosingRequest;->getEntity()Lorg/apache/http/HttpEntity;
 
     move-result-object v0
@@ -325,16 +303,13 @@
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p0, p1}, Lorg/apache/http/impl/BHttpConnectionBase;->prepareOutput(Lorg/apache/http/HttpMessage;)Ljava/io/OutputStream;
 
     move-result-object p1
 
-    .line 5
     invoke-interface {v0, p1}, Lorg/apache/http/HttpEntity;->writeTo(Ljava/io/OutputStream;)V
 
-    .line 6
     invoke-virtual {p1}, Ljava/io/OutputStream;->close()V
 
     return-void
@@ -351,21 +326,16 @@
 
     const-string v0, "HTTP request"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/http/impl/BHttpConnectionBase;->ensureOpen()V
 
-    .line 3
     iget-object v0, p0, Lorg/apache/http/impl/DefaultBHttpClientConnection;->requestWriter:Lorg/apache/http/io/HttpMessageWriter;
 
     invoke-interface {v0, p1}, Lorg/apache/http/io/HttpMessageWriter;->write(Lorg/apache/http/HttpMessage;)V
 
-    .line 4
     invoke-virtual {p0, p1}, Lorg/apache/http/impl/DefaultBHttpClientConnection;->onRequestSubmitted(Lorg/apache/http/HttpRequest;)V
 
-    .line 5
     invoke-virtual {p0}, Lorg/apache/http/impl/BHttpConnectionBase;->incrementRequestCount()V
 
     return-void

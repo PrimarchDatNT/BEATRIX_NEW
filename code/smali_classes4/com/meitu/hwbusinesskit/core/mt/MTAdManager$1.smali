@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;
 
     iput p3, p0, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager$1;->val$adId:I
@@ -43,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;
 
@@ -72,7 +69,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-virtual {v2}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -90,7 +86,6 @@
 
     check-cast v3, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;
 
-    .line 4
     invoke-virtual {v3}, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->getId()I
 
     move-result v4
@@ -101,12 +96,10 @@
 
     const/4 v2, 0x1
 
-    .line 5
     invoke-virtual {v3, v2}, Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAd;->setShowed(Z)V
 
     const-string v2, "MTAdManager"
 
-    .line 6
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -131,7 +124,6 @@
 
     const/4 v3, 0x0
 
-    .line 7
     invoke-static {v3, v2}, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil;->hasCache(ZLjava/lang/String;)Z
 
     move-result v2
@@ -140,13 +132,11 @@
 
     if-eqz v2, :cond_1
 
-    .line 8
     :try_start_1
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/utils/SingleInstanceUtil;->getGson()Lcom/google/gson/Gson;
 
     move-result-object v2
 
-    .line 9
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;->access$000()Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;
 
     move-result-object v4
@@ -157,7 +147,6 @@
 
     const-string v4, "mt_ad_data"
 
-    .line 10
     invoke-static {v3, v2, v4}, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil;->cacheStringOnCurrentThread(ZLjava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -168,7 +157,6 @@
     :catch_0
     move-exception v2
 
-    .line 11
     :try_start_2
     invoke-virtual {v2}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
@@ -176,14 +164,12 @@
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 12
     :cond_1
     :goto_0
     monitor-exit v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -191,7 +177,6 @@
     :catchall_0
     move-exception v2
 
-    .line 14
     :try_start_3
     monitor-exit v1
     :try_end_3

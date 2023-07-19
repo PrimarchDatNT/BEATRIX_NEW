@@ -32,7 +32,6 @@
 
     iput-object p2, p0, Lcom/mopub/mobileads/VastIconConfig$handleClick$$inlined$let$lambda$1;->$context$inlined:Landroid/content/Context;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -81,22 +80,18 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcom/mopub/common/UrlAction;->OPEN_IN_APP_BROWSER:Lcom/mopub/common/UrlAction;
 
     if-ne p2, v0, :cond_3
 
-    .line 2
     new-instance p2, Landroid/os/Bundle;
 
     invoke-direct {p2}, Landroid/os/Bundle;-><init>()V
 
     const-string v0, "URL"
 
-    .line 3
     invoke-virtual {p2, v0, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/mobileads/VastIconConfig$handleClick$$inlined$let$lambda$1;->$dspCreativeId$inlined:Ljava/lang/String;
 
     const/4 v0, 0x0
@@ -125,25 +120,21 @@
     :goto_1
     if-nez p1, :cond_2
 
-    .line 5
     iget-object p1, p0, Lcom/mopub/mobileads/VastIconConfig$handleClick$$inlined$let$lambda$1;->$dspCreativeId$inlined:Ljava/lang/String;
 
     const-string v2, "mopub-dsp-creative-id"
 
     invoke-virtual {p2, v2, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     :cond_2
     const-class p1, Lcom/mopub/common/MoPubBrowser;
 
-    .line 7
     iget-object v2, p0, Lcom/mopub/mobileads/VastIconConfig$handleClick$$inlined$let$lambda$1;->$context$inlined:Landroid/content/Context;
 
     invoke-static {v2, p1, p2}, Lcom/mopub/common/util/Intents;->getStartActivityIntent(Landroid/content/Context;Ljava/lang/Class;Landroid/os/Bundle;)Landroid/content/Intent;
 
     move-result-object p1
 
-    .line 8
     :try_start_0
     iget-object p2, p0, Lcom/mopub/mobileads/VastIconConfig$handleClick$$inlined$let$lambda$1;->$context$inlined:Landroid/content/Context;
 
@@ -156,7 +147,6 @@
     :catch_0
     move-exception p1
 
-    .line 9
     sget-object p2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v1, v1, [Ljava/lang/Object;

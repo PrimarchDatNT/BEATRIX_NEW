@@ -43,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/MoPubRequest$1;->this$0:Lcom/mopub/network/MoPubRequest;
 
     iput-object p2, p0, Lcom/mopub/network/MoPubRequest$1;->$volleyErrorListener:Lcom/mopub/volley/Response$ErrorListener;
@@ -71,7 +70,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest$1;->this$0:Lcom/mopub/network/MoPubRequest;
 
     invoke-virtual {v0, p1}, Lcom/mopub/network/MoPubRequest;->deliverResponse(Ljava/lang/Object;)V
@@ -84,7 +82,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest$1;->this$0:Lcom/mopub/network/MoPubRequest;
 
     invoke-virtual {v0}, Lcom/mopub/network/MoPubRequest;->getBody()[B
@@ -99,7 +96,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest$1;->this$0:Lcom/mopub/network/MoPubRequest;
 
     invoke-virtual {v0}, Lcom/mopub/network/MoPubRequest;->getBodyContentType()Ljava/lang/String;
@@ -124,7 +120,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest$1;->this$0:Lcom/mopub/network/MoPubRequest;
 
     invoke-virtual {v0}, Lcom/mopub/network/MoPubRequest;->getParams()Ljava/util/Map;
@@ -157,7 +152,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lcom/mopub/network/MoPubNetworkResponse;
 
     iget v2, p1, Lcom/mopub/volley/NetworkResponse;->statusCode:I
@@ -177,7 +171,6 @@
     :cond_0
     move-object v1, v0
 
-    .line 2
     :goto_0
     iget-object p1, p0, Lcom/mopub/network/MoPubRequest$1;->this$0:Lcom/mopub/network/MoPubRequest;
 

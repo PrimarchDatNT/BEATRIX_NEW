@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,14 +69,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/PictureTransitionView;->P:Lcom/commsource/studio/PictureTransitionView$a;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/PictureTransitionView$a;->b(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;->$this_apply:Lcom/commsource/studio/PictureTransitionView;
@@ -94,7 +91,6 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;
 
     iget-object v3, v3, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
@@ -113,7 +109,6 @@
 
     move-result v3
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;
 
     iget-object v5, v5, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
@@ -130,10 +125,8 @@
 
     move-result v4
 
-    .line 6
     invoke-virtual {v1, v3, v4}, Landroid/graphics/Point;->set(II)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;->$this_apply:Lcom/commsource/studio/PictureTransitionView;
@@ -166,7 +159,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;->$this_apply:Lcom/commsource/studio/PictureTransitionView;
@@ -189,7 +181,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/editengine/f;->o(Lcom/commsource/editengine/d;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
@@ -202,7 +193,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/StudioCanvasContainer;->f(Z)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;->$this_apply:Lcom/commsource/studio/PictureTransitionView;
@@ -221,7 +211,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/editengine/f;->m(Lcotlin/jvm/u/a;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

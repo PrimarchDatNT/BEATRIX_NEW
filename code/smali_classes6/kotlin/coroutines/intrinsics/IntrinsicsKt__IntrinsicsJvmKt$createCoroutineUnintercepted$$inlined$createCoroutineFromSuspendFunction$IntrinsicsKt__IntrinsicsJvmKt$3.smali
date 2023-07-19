@@ -36,7 +36,6 @@
 
     iput-object p4, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3;->$receiver$inlined:Ljava/lang/Object;
 
-    .line 1
     invoke-direct {p0, p2}, Lcotlin/coroutines/jvm/internal/RestrictedContinuationImpl;-><init>(Lcotlin/coroutines/c;)V
 
     return-void
@@ -53,7 +52,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3;->label:I
 
     const/4 v1, 0x2
@@ -64,15 +62,12 @@
 
     if-ne v0, v2, :cond_0
 
-    .line 2
     iput v1, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3;->label:I
 
-    .line 3
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -86,14 +81,11 @@
 
     throw p1
 
-    .line 5
     :cond_1
     iput v2, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3;->label:I
 
-    .line 6
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 7
     iget-object p1, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3;->$this_createCoroutineUnintercepted$inlined:Lcotlin/jvm/u/p;
 
     const-string v0, "null cannot be cast to non-null type (R, kotlin.coroutines.Continuation<T>) -> kotlin.Any?"

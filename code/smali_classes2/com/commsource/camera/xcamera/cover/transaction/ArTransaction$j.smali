@@ -59,7 +59,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getNumber()I
 
     move-result v2
@@ -72,7 +71,6 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/camera/beauty/ArAnalyAgent;->e(ZJZ)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$j;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;->F()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -85,12 +83,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$j;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
@@ -104,12 +100,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$j;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
@@ -139,7 +133,6 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$j;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
@@ -149,7 +142,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->M0()V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$j;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;->F()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -162,7 +154,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 9
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -176,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$j;->a(Lcom/meitu/template/bean/ArMaterial;)V

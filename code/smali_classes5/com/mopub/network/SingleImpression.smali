@@ -27,13 +27,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/network/SingleImpression;->mAdUnitId:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/mopub/network/SingleImpression;->mImpressionData:Lcom/mopub/network/ImpressionData;
 
     return-void
@@ -44,19 +41,16 @@
 .method public sendImpression()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/SingleImpression;->mAdUnitId:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/network/SingleImpression;->mImpressionData:Lcom/mopub/network/ImpressionData;
 
     invoke-static {v0, v1}, Lcom/mopub/network/ImpressionsEmitter;->send(Ljava/lang/String;Lcom/mopub/network/ImpressionData;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 

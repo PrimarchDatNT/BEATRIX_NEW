@@ -18,7 +18,6 @@
 .method public varargs constructor <init>(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1

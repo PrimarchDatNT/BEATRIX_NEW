@@ -114,7 +114,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/StudioTabLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -137,7 +136,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/StudioTabLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -158,31 +156,26 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->b:Ljava/util/ArrayList;
 
-    .line 5
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->c:Ljava/util/ArrayList;
 
-    .line 6
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->d:Ljava/util/ArrayList;
 
-    .line 7
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -193,7 +186,6 @@
 
     new-array p2, p1, [F
 
-    .line 8
     fill-array-data p2, :array_0
 
     invoke-static {p2}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -204,7 +196,6 @@
 
     new-array p1, p1, [F
 
-    .line 9
     fill-array-data p1, :array_1
 
     invoke-static {p1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -213,22 +204,18 @@
 
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->J:Landroid/animation/ValueAnimator;
 
-    .line 10
     new-instance p1, Lcom/commsource/util/p0;
 
     invoke-direct {p1}, Lcom/commsource/util/p0;-><init>()V
 
-    .line 11
     new-instance p2, Lcom/commsource/studio/StudioTabLayout$$special$$inlined$apply$lambda$1;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/StudioTabLayout$$special$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/StudioTabLayout;)V
 
     invoke-virtual {p1, p2}, Lcom/commsource/util/p0;->j(Lcotlin/jvm/u/l;)V
 
-    .line 12
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->K:Lcom/commsource/util/p0;
 
-    .line 13
     new-instance p1, Lcom/commsource/studio/i;
 
     new-instance p2, Lcom/commsource/studio/StudioTabLayout$a;
@@ -263,7 +250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/StudioTabLayout;->K:Lcom/commsource/util/p0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -278,7 +264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/StudioTabLayout;->J:Landroid/animation/ValueAnimator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -293,7 +278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/StudioTabLayout;->getTotalLength()I
 
     move-result p0
@@ -310,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/StudioTabLayout;->j()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -325,7 +308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->K:Lcom/commsource/util/p0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -340,7 +322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->d:Ljava/util/ArrayList;
 
     invoke-static {v1}, Lcotlin/collections/s;->a3(Ljava/util/List;)Ljava/lang/Object;
@@ -363,7 +344,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->J:Landroid/animation/ValueAnimator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -387,10 +367,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->c:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -419,7 +397,6 @@
     :cond_0
     check-cast v4, Lcom/commsource/studio/sub/g;
 
-    .line 3
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -428,14 +405,12 @@
 
     iput v3, v6, Landroid/graphics/Point;->x:I
 
-    .line 4
     invoke-virtual {v4}, Lcom/commsource/studio/sub/g;->A()I
 
     move-result v4
 
     add-int/2addr v3, v4
 
-    .line 5
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -448,7 +423,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -462,10 +436,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->c:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -496,7 +468,6 @@
 
     if-ne v2, v5, :cond_1
 
-    .line 3
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -561,7 +532,6 @@
 
     invoke-static {v5, v7, v8, v6, v8}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 4
     :cond_1
     iget-object v3, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -593,7 +563,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -613,7 +582,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/StudioTabLayout;->k(Lcom/commsource/studio/sub/SubTabEnum;Z)V
 
@@ -711,7 +679,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->f:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -738,7 +705,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->b:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -765,7 +731,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->L:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -780,7 +745,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioTabLayout;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -797,7 +761,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->g:Lcom/commsource/studio/sub/SubTabEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -823,7 +786,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->d:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -849,7 +811,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->c:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -868,26 +829,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->g:Lcom/commsource/studio/sub/SubTabEnum;
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->b:Ljava/util/ArrayList;
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -920,7 +876,6 @@
     :cond_1
     check-cast v6, Lcom/commsource/widget/h1/d;
 
-    .line 6
     invoke-virtual {v6}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v8
@@ -931,18 +886,15 @@
 
     const/4 v4, 0x1
 
-    .line 7
     invoke-virtual {v6, v4}, Lcom/commsource/widget/h1/d;->k(Z)V
 
     move v4, v5
 
     goto :goto_1
 
-    .line 8
     :cond_2
     invoke-virtual {v6, v3}, Lcom/commsource/widget/h1/d;->k(Z)V
 
-    .line 9
     :goto_1
     iget-object v8, p0, Lcom/commsource/studio/StudioTabLayout;->c:Ljava/util/ArrayList;
 
@@ -954,7 +906,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 10
     new-instance v9, Ljava/util/ArrayList;
 
     invoke-direct {v9}, Ljava/util/ArrayList;-><init>()V
@@ -964,7 +915,6 @@
     :cond_3
     const/4 v9, 0x0
 
-    .line 11
     :goto_2
     invoke-virtual {v8, v5, v6, v9}, Lcom/commsource/studio/sub/g;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
@@ -972,7 +922,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_4
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->d:Ljava/util/ArrayList;
 
@@ -980,12 +929,10 @@
 
     if-ne v4, v2, :cond_5
 
-    .line 13
     iget p1, p0, Lcom/commsource/studio/StudioTabLayout;->a:I
 
     goto :goto_3
 
-    .line 14
     :cond_5
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->d:Ljava/util/ArrayList;
 
@@ -1011,7 +958,6 @@
 
     div-int/lit8 p1, p1, 0x2
 
-    .line 15
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v1
@@ -1020,7 +966,6 @@
 
     sub-int/2addr p1, v1
 
-    .line 16
     invoke-direct {p0}, Lcom/commsource/studio/StudioTabLayout;->getTotalLength()I
 
     move-result v1
@@ -1035,42 +980,35 @@
 
     move-result p1
 
-    .line 17
     :goto_3
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->p:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->p:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->J:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->J:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->K:Lcom/commsource/util/p0;
 
     invoke-virtual {v1}, Lcom/commsource/util/p0;->c()V
 
     if-eqz p2, :cond_6
 
-    .line 22
     iget-object p2, p0, Lcom/commsource/studio/StudioTabLayout;->f:Ljava/util/ArrayList;
 
     invoke-static {p2}, Lcom/commsource/util/l0;->l(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p2
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->p:Landroid/animation/ValueAnimator;
 
     new-instance v2, Lcom/commsource/studio/StudioTabLayout$c;
@@ -1079,7 +1017,6 @@
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 24
     iget-object p2, p0, Lcom/commsource/studio/StudioTabLayout;->p:Landroid/animation/ValueAnimator;
 
     const-string v1, "lengthChangeAnimator"
@@ -1090,15 +1027,12 @@
 
     invoke-virtual {p2, v1, v2}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 25
     iget-object p2, p0, Lcom/commsource/studio/StudioTabLayout;->p:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 26
     iget p2, p0, Lcom/commsource/studio/StudioTabLayout;->a:I
 
-    .line 27
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->J:Landroid/animation/ValueAnimator;
 
     new-instance v2, Lcom/commsource/studio/StudioTabLayout$d;
@@ -1107,26 +1041,21 @@
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 28
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->J:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
     goto :goto_4
 
-    .line 29
     :cond_6
     invoke-virtual {p0, p1}, Lcom/commsource/studio/StudioTabLayout;->setScrollOffset(I)V
 
-    .line 30
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->f:Ljava/util/ArrayList;
 
     invoke-direct {p0, p1}, Lcom/commsource/studio/StudioTabLayout;->i(Ljava/util/List;)V
 
-    .line 31
     invoke-direct {p0}, Lcom/commsource/studio/StudioTabLayout;->j()V
 
-    .line 32
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1148,7 +1077,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->M:Lcom/commsource/studio/i;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/i;->C(Landroid/view/MotionEvent;)Z
@@ -1167,10 +1095,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->onSizeChanged(IIII)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->g:Lcom/commsource/studio/sub/SubTabEnum;
 
     const/4 p2, 0x0
@@ -1181,7 +1107,6 @@
 
     invoke-static {p0, p1, p2, p3, p4}, Lcom/commsource/studio/StudioTabLayout;->l(Lcom/commsource/studio/StudioTabLayout;Lcom/commsource/studio/sub/SubTabEnum;ZILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1202,7 +1127,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->M:Lcom/commsource/studio/i;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/i;->C(Landroid/view/MotionEvent;)Z
@@ -1237,7 +1161,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->f:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1269,7 +1192,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->b:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1304,10 +1226,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->c:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1325,7 +1245,6 @@
 
     check-cast v2, Lcom/commsource/studio/sub/g;
 
-    .line 3
     new-instance v3, Lcom/commsource/studio/StudioTabLayout$b;
 
     invoke-direct {v3, p1}, Lcom/commsource/studio/StudioTabLayout$b;-><init>(Lcotlin/jvm/u/p;)V
@@ -1334,7 +1253,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1362,7 +1280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->L:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1377,10 +1294,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/StudioTabLayout;->a:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->L:Lcotlin/jvm/u/l;
 
     if-eqz v1, :cond_0
@@ -1395,7 +1310,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1413,7 +1327,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->g:Lcom/commsource/studio/sub/SubTabEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1445,17 +1358,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->f:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->d:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1484,17 +1394,14 @@
     :cond_0
     check-cast v3, Lcom/commsource/studio/sub/SubTabEnum;
 
-    .line 4
     new-instance v5, Lcom/commsource/widget/h1/d;
 
     invoke-direct {v5, v3}, Lcom/commsource/widget/h1/d;-><init>(Ljava/lang/Object;)V
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/StudioTabLayout;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v3, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 6
     new-instance v3, Lcom/commsource/studio/sub/g;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -1509,20 +1416,16 @@
 
     const/4 v6, 0x0
 
-    .line 7
     invoke-virtual {v3, v1, v5, v6}, Lcom/commsource/studio/sub/g;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 9
     iget-object v1, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 10
     iget-object v1, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const-string v5, "vh.itemView"
@@ -1533,14 +1436,12 @@
 
     invoke-virtual {v1, v5}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 11
     invoke-virtual {v3}, Lcom/commsource/studio/sub/g;->A()I
 
     move-result v1
 
     add-int/2addr v2, v1
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->f:Ljava/util/ArrayList;
 
     new-instance v3, Landroid/graphics/Point;
@@ -1549,7 +1450,6 @@
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->d:Ljava/util/ArrayList;
 
     new-instance v3, Landroid/graphics/Point;
@@ -1562,18 +1462,15 @@
 
     goto :goto_0
 
-    .line 14
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->f:Ljava/util/ArrayList;
 
     invoke-direct {p0, p1}, Lcom/commsource/studio/StudioTabLayout;->i(Ljava/util/List;)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->d:Ljava/util/ArrayList;
 
     invoke-direct {p0, p1}, Lcom/commsource/studio/StudioTabLayout;->i(Ljava/util/List;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1602,7 +1499,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->d:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1633,7 +1529,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->c:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

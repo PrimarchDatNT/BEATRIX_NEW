@@ -49,7 +49,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/commsource/util/c0;->m:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -60,7 +59,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -77,12 +75,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -114,12 +110,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -151,12 +145,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -188,12 +180,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -225,12 +215,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -262,12 +250,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -287,12 +273,10 @@
 
     const-string v7, "MY"
 
-    .line 3
     filled-new-array/range {v1 .. v7}, [Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     invoke-static {v1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
@@ -319,10 +303,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/commsource/util/c0;->o:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -337,7 +319,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -345,7 +326,6 @@
     :cond_0
     if-nez p1, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -353,23 +333,18 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     sput-object v1, Lcom/commsource/util/c0;->q:Lcom/meitu/countrylocation/LocationBean;
 
-    .line 4
     new-instance v1, Lcom/google/gson/Gson;
 
     invoke-direct {v1}, Lcom/google/gson/Gson;-><init>()V
 
-    .line 5
     invoke-virtual {v1, p1}, Lcom/google/gson/Gson;->toJson(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 6
     invoke-static {p0, p1}, Lf/d/i/e;->d3(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -384,19 +359,16 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Enum;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     invoke-static {p0, p1}, Lf/d/i/e;->e3(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -418,7 +390,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -426,7 +397,6 @@
     :cond_0
     if-nez p1, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -434,23 +404,18 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     sput-object v1, Lcom/commsource/util/c0;->q:Lcom/meitu/countrylocation/LocationBean;
 
-    .line 4
     new-instance v1, Lcom/google/gson/Gson;
 
     invoke-direct {v1}, Lcom/google/gson/Gson;-><init>()V
 
-    .line 5
     invoke-virtual {v1, p1}, Lcom/google/gson/Gson;->toJson(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 6
     invoke-static {p0, p1}, Lf/d/i/e;->H3(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -463,14 +428,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/c0;->i(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
     move-result-object p0
@@ -483,7 +446,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->g(Landroid/content/Context;)Ljava/lang/String;
 
@@ -503,7 +465,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
     move-result-object p0
@@ -512,7 +473,6 @@
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -526,7 +486,6 @@
 
     return-object p0
 
-    .line 3
     :cond_1
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -546,17 +505,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/c0;->m:Ljava/lang/String;
 
     if-nez v1, :cond_0
 
     const-string v1, "{\"KH\":\"D\",\"PF\":\"A\",\"MV\":\"C\",\"GT\":\"A\",\"SE\":\"A\",\"GB\":\"A\",\"MF\":\"A\",\"SR\":\"A\",\"NL\":\"A\",\"GL\":\"A\",\"AD\":\"A\",\"NE\":\"C\",\"DJ\":\"C\",\"IO\":\"C\",\"ZA\":\"A\",\"VA\":\"A\",\"LU\":\"A\",\"IE\":\"A\",\"FM\":\"A\",\"KM\":\"C\",\"GN\":\"C\",\"HT\":\"A\",\"CR\":\"A\",\"MU\":\"C\",\"MO\":\"B\",\"MM\":\"C\",\"BY\":\"A\",\"SY\":\"C\",\"GS\":\"A\",\"VI\":\"A\",\"GP\":\"A\",\"IR\":\"C\",\"AS\":\"A\",\"EG\":\"C\",\"AL\":\"A\",\"PE\":\"A\",\"AW\":\"A\",\"ZM\":\"C\",\"TH\":\"C\",\"ES\":\"A\",\"GU\":\"C\",\"BS\":\"A\",\"AR\":\"A\",\"AG\":\"A\",\"MC\":\"A\",\"SG\":\"D\",\"LC\":\"A\",\"FI\":\"A\",\"FJ\":\"A\",\"KN\":\"A\",\"BG\":\"A\",\"MW\":\"C\",\"BA\":\"A\",\"TD\":\"C\",\"MS\":\"A\",\"CA\":\"A\",\"MD\":\"A\",\"US\":\"A\",\"AX\":\"A\",\"SB\":\"C\",\"CI\":\"C\",\"RW\":\"C\",\"NU\":\"A\",\"AE\":\"C\",\"CO\":\"A\",\"YE\":\"C\",\"CY\":\"C\",\"AT\":\"A\",\"EH\":\"C\",\"NP\":\"C\",\"KW\":\"C\",\"CN\":\"D\",\"NF\":\"A\",\"JE\":\"A\",\"CX\":\"A\",\"GD\":\"A\",\"SH\":\"C\",\"HN\":\"A\",\"SS\":\"C\",\"CV\":\"C\",\"CF\":\"C\",\"LS\":\"C\",\"BN\":\"D\",\"ML\":\"C\",\"BW\":\"C\",\"MK\":\"A\",\"BE\":\"A\",\"CL\":\"A\",\"SZ\":\"C\",\"CG\":\"C\",\"SI\":\"A\",\"FK\":\"A\",\"BV\":\"C\",\"GG\":\"A\",\"VU\":\"A\",\"IT\":\"A\",\"MP\":\"C\",\"ZW\":\"C\",\"TM\":\"C\",\"CK\":\"A\",\"IL\":\"C\",\"TW\":\"B\",\"DK\":\"A\",\"TO\":\"A\",\"YT\":\"C\",\"RS\":\"A\",\"TJ\":\"C\",\"TL\":\"C\",\"PK\":\"C\",\"AU\":\"A\",\"TN\":\"C\",\"HU\":\"A\",\"SC\":\"C\",\"TT\":\"A\",\"GE\":\"C\",\"TZ\":\"C\",\"BH\":\"C\",\"AM\":\"C\",\"BL\":\"A\",\"LR\":\"C\",\"RE\":\"C\",\"KE\":\"C\",\"AF\":\"C\",\"AI\":\"A\",\"QA\":\"C\",\"PT\":\"A\",\"PW\":\"A\",\"ER\":\"C\",\"FO\":\"A\",\"CC\":\"A\",\"TF\":\"C\",\"GH\":\"C\",\"LV\":\"A\",\"AO\":\"C\",\"KP\":\"C\",\"NR\":\"A\",\"VG\":\"A\",\"SJ\":\"A\",\"PS\":\"C\",\"PA\":\"A\",\"IS\":\"A\",\"ST\":\"C\",\"NO\":\"A\",\"GF\":\"A\",\"MT\":\"A\",\"RU\":\"A\",\"TC\":\"A\",\"JP\":\"B\",\"GI\":\"A\",\"IQ\":\"C\",\"SV\":\"A\",\"GM\":\"C\",\"KI\":\"A\",\"BR\":\"A\",\"MZ\":\"C\",\"LI\":\"A\",\"ID\":\"C\",\"VE\":\"A\",\"HR\":\"A\",\"GR\":\"A\",\"BI\":\"C\",\"SA\":\"A\",\"CH\":\"A\",\"UM\":\"A\",\"SO\":\"C\",\"SN\":\"C\",\"WS\":\"A\",\"BB\":\"A\",\"UZ\":\"C\",\"ET\":\"C\",\"TV\":\"A\",\"BZ\":\"A\",\"NG\":\"C\",\"SD\":\"C\",\"MR\":\"C\",\"MH\":\"A\",\"ME\":\"A\",\"PH\":\"C\",\"TK\":\"A\",\"SL\":\"C\",\"VC\":\"A\",\"LY\":\"C\",\"MX\":\"A\",\"WF\":\"A\",\"BD\":\"C\",\"AQ\":\"C\",\"BM\":\"A\",\"IM\":\"A\",\"CZ\":\"A\",\"MN\":\"D\",\"CD\":\"C\",\"MA\":\"C\",\"SX\":\"A\",\"HM\":\"C\",\"IN\":\"D\",\"JO\":\"C\",\"NI\":\"A\",\"PL\":\"A\",\"NZ\":\"A\",\"CW\":\"A\",\"BQ\":\"A\",\"PG\":\"A\",\"TG\":\"C\",\"AZ\":\"C\",\"DM\":\"A\",\"BO\":\"A\",\"BF\":\"C\",\"MY\":\"D\",\"BJ\":\"C\",\"DZ\":\"C\",\"NA\":\"C\",\"SM\":\"A\",\"LT\":\"A\",\"NC\":\"A\",\"JM\":\"A\",\"EC\":\"A\",\"GQ\":\"C\",\"EE\":\"A\",\"UA\":\"A\",\"LB\":\"C\",\"CU\":\"A\",\"KZ\":\"C\",\"VN\":\"C\",\"PR\":\"A\",\"LA\":\"C\",\"KG\":\"C\",\"BT\":\"C\",\"KY\":\"A\",\"GY\":\"A\",\"SK\":\"A\",\"DO\":\"A\",\"UG\":\"C\",\"OM\":\"C\",\"FR\":\"A\",\"DE\":\"A\",\"UY\":\"A\",\"MG\":\"C\",\"RO\":\"A\",\"KR\":\"B\",\"GA\":\"C\",\"PY\":\"A\",\"HK\":\"B\",\"LK\":\"C\",\"TR\":\"C\",\"MQ\":\"A\",\"GW\":\"C\",\"CM\":\"C\",\"PN\":\"A\",\"PM\":\"A\"}"
 
-    .line 2
     sput-object v1, Lcom/commsource/util/c0;->m:Ljava/lang/String;
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/util/c0;->m:Ljava/lang/String;
 
@@ -572,24 +528,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/c0;->q:Lcom/meitu/countrylocation/LocationBean;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/util/c0;->e(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 3
     new-instance p0, Lcom/meitu/countrylocation/LocationBean;
 
     const/4 v1, 0x3
 
-    .line 4
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -610,12 +562,10 @@
 
     invoke-direct/range {v2 .. v9}, Lcom/meitu/countrylocation/LocationBean;-><init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -633,12 +583,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lf/d/i/e;->S1(Landroid/content/Context;)Z
 
@@ -646,20 +594,17 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-static {p0}, Lf/d/i/e;->M0(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {p0}, Lf/d/i/e;->r0(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 5
     :goto_0
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -667,13 +612,11 @@
 
     if-nez v2, :cond_2
 
-    .line 6
     :try_start_0
     new-instance v2, Lcom/google/gson/Gson;
 
     invoke-direct {v2}, Lcom/google/gson/Gson;-><init>()V
 
-    .line 7
     const-class v3, Lcom/meitu/countrylocation/LocationBean;
 
     invoke-virtual {v2, p0, v3}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
@@ -691,10 +634,8 @@
     :catch_0
     move-exception p0
 
-    .line 8
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 9
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -711,7 +652,6 @@
 
     if-eqz p0, :cond_4
 
-    .line 1
     invoke-static {p0}, Lf/d/i/e;->s0(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
@@ -720,14 +660,12 @@
 
     const-string v2, "SIM"
 
-    .line 2
     invoke-virtual {v2, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     sget-object v1, Lcom/meitu/countrylocation/Localizer$Type;->SIM:Lcom/meitu/countrylocation/Localizer$Type;
 
     goto :goto_0
@@ -735,14 +673,12 @@
     :cond_0
     const-string v2, "GPS"
 
-    .line 4
     invoke-virtual {v2, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 5
     sget-object v1, Lcom/meitu/countrylocation/Localizer$Type;->GPS:Lcom/meitu/countrylocation/Localizer$Type;
 
     goto :goto_0
@@ -750,14 +686,12 @@
     :cond_1
     const-string v2, "IP"
 
-    .line 6
     invoke-virtual {v2, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 7
     sget-object v1, Lcom/meitu/countrylocation/Localizer$Type;->IP:Lcom/meitu/countrylocation/Localizer$Type;
 
     goto :goto_0
@@ -765,24 +699,20 @@
     :cond_2
     const-string v2, "TYPE_TIMEZONE"
 
-    .line 8
     invoke-virtual {v2, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
     if-eqz p0, :cond_3
 
-    .line 9
     sget-object v1, Lcom/meitu/countrylocation/Localizer$Type;->TIMEZONE:Lcom/meitu/countrylocation/Localizer$Type;
 
-    .line 10
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 11
     :cond_4
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -804,14 +734,12 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     sget-object v1, Lcom/commsource/util/c0;->o:Ljava/lang/String;
 
     if-nez v1, :cond_1
 
     const-string v1, "phone"
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -820,14 +748,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getSimCountryIso()Ljava/lang/String;
 
     move-result-object p0
 
     sput-object p0, Lcom/commsource/util/c0;->o:Ljava/lang/String;
 
-    .line 4
     :cond_0
     sget-object p0, Lcom/commsource/util/c0;->o:Ljava/lang/String;
 
@@ -835,10 +761,8 @@
 
     const-string p0, ""
 
-    .line 5
     sput-object p0, Lcom/commsource/util/c0;->o:Ljava/lang/String;
 
-    .line 6
     :cond_1
     sget-object p0, Lcom/commsource/util/c0;->o:Ljava/lang/String;
 
@@ -846,7 +770,6 @@
 
     return-object p0
 
-    .line 7
     :cond_2
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -868,7 +791,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/c0;->f(Landroid/content/Context;)Lcom/meitu/countrylocation/Localizer$Type;
 
     move-result-object v1
@@ -877,7 +799,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/util/c0;->f(Landroid/content/Context;)Lcom/meitu/countrylocation/Localizer$Type;
 
     move-result-object v1
@@ -886,7 +807,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -894,7 +814,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -902,12 +821,10 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 6
     :cond_2
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -929,7 +846,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {p0}, Lf/d/i/e;->r0(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
@@ -960,7 +876,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -981,12 +896,10 @@
 
     const-string v7, "RU"
 
-    .line 2
     filled-new-array/range {v2 .. v7}, [Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     invoke-static {v2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
@@ -1011,7 +924,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1020,7 +932,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 
     move-result-object v1
@@ -1075,12 +986,10 @@
 
     const-string v17, "TL"
 
-    .line 1
     filled-new-array/range {v1 .. v17}, [Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
@@ -1107,12 +1016,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -1144,12 +1051,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -1181,12 +1086,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -1218,12 +1121,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -1255,18 +1156,15 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 
     move-result-object p0
@@ -1289,12 +1187,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/c0;->n:Ljava/lang/Boolean;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p0
@@ -1308,25 +1204,21 @@
 
     if-nez p0, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     invoke-static {p0}, Lcom/commsource/util/c0;->g(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-nez v3, :cond_2
 
-    .line 6
     invoke-static {v2}, Lcom/commsource/util/c0;->s(Ljava/lang/String;)Z
 
     move-result p0
@@ -1335,7 +1227,6 @@
 
     return p0
 
-    .line 7
     :cond_2
     invoke-static {p0}, Lcom/commsource/util/c0;->i(Landroid/content/Context;)Z
 
@@ -1345,14 +1236,12 @@
 
     if-eqz v2, :cond_4
 
-    .line 8
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
     move-result-object p0
 
     if-eqz p0, :cond_3
 
-    .line 9
     invoke-virtual {p0}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 
     move-result-object p0
@@ -1370,7 +1259,6 @@
 
     return v1
 
-    .line 10
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1384,7 +1272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1393,12 +1280,10 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
@@ -1416,7 +1301,6 @@
 
     sput-object p0, Lcom/commsource/util/c0;->n:Ljava/lang/Boolean;
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p0
@@ -1437,18 +1321,15 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 
     move-result-object p0
@@ -1475,12 +1356,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -1512,18 +1391,15 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 
     move-result-object p0
@@ -1550,18 +1426,15 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 
     move-result-object p0
@@ -1588,12 +1461,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
@@ -1601,12 +1472,10 @@
 
     if-nez p0, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/countrylocation/LocationBean;->getContinent_code()Ljava/lang/Integer;
 
@@ -1622,7 +1491,6 @@
 
     const/4 v1, 0x1
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1636,7 +1504,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1645,7 +1512,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 
     move-result-object v1
@@ -1672,12 +1538,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 

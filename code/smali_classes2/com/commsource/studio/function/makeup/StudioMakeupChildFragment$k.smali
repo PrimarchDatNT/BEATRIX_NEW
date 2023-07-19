@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Ljava/lang/String;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$k;->b(ILjava/lang/String;)Z
@@ -74,7 +73,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$k;->a:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;->C()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -83,7 +81,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->J0()V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$k;->a:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;->x()Lcom/commsource/repository/child/makeup/e;
@@ -92,7 +89,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$k;->a:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;->C()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -104,7 +100,6 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

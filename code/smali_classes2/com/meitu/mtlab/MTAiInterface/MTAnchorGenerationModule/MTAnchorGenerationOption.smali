@@ -39,39 +39,32 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->mNativeInstance:J
 
     const v2, 0x3f547ae1    # 0.83f
 
-    .line 3
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->anchor_detectionThreshold:F
 
     const v2, 0x3e99999a    # 0.3f
 
-    .line 4
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->anchor_matchThreshold:F
 
     const/4 v2, 0x3
 
-    .line 5
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->anchor_num:I
 
     const/high16 v2, 0x3d800000    # 0.0625f
 
-    .line 6
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->anchor_scale:F
 
     cmp-long v2, v0, v0
 
     if-nez v2, :cond_0
 
-    .line 7
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->nativeCreateInstance()J
 
     move-result-wide v0
@@ -120,35 +113,28 @@
 
     const v1, 0x3f547ae1    # 0.83f
 
-    .line 1
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->anchor_detectionThreshold:F
 
     const v1, 0x3e99999a    # 0.3f
 
-    .line 2
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->anchor_matchThreshold:F
 
     const/4 v1, 0x3
 
-    .line 3
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->anchor_num:I
 
     const/high16 v1, 0x3d800000    # 0.0625f
 
-    .line 4
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->anchor_scale:F
 
     const-wide/16 v1, 0x0
 
-    .line 5
     iput-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 6
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->mNativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->nativeClearOption(J)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -161,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 v0, 0x13
@@ -181,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->mNativeInstance:J
 
@@ -189,10 +173,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -200,10 +182,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -216,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -231,42 +210,36 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->mNativeInstance:J
 
     iget-wide v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->nativeSetOption(JJ)V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->anchor_detectionThreshold:F
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->nativeSetAnchorDetectionThreshold(JF)V
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->anchor_matchThreshold:F
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->nativeSetAnchorMatchThreshold(JF)V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->anchor_num:I
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->nativeSetAnchorNum(JI)V
 
-    .line 5
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->anchor_scale:F
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->nativeSetAnchorScale(JF)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -279,12 +252,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 7
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGenerationOption;->nativeEnableAnchorGeneration(JJ)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

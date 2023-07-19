@@ -18,10 +18,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/tasks/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/tasks/i0;
 
     invoke-direct {v0}, Lcom/google/android/gms/tasks/i0;-><init>()V
@@ -36,7 +34,6 @@
 .method public final a()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/o;->a:Lcom/google/android/gms/tasks/i0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/tasks/k;->u()Z
@@ -53,7 +50,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/o;->a:Lcom/google/android/gms/tasks/i0;
 
     new-instance v1, Lcom/google/android/gms/tasks/p;
@@ -68,7 +64,6 @@
 .method public final c()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/o;->a:Lcom/google/android/gms/tasks/i0;
 
     const/4 v1, 0x0

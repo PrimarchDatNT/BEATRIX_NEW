@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     iget-object v2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$makeupViewModel$2;->this$0:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
@@ -91,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$makeupViewModel$2;->invoke()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v1

@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/referral/MTReferral$a;Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/referral/MTReferral$a$a;->b:Lcom/commsource/referral/MTReferral$a;
 
     iput-object p2, p0, Lcom/commsource/referral/MTReferral$a$a;->a:Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g;
@@ -49,13 +48,11 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-object p2, p0, Lcom/commsource/referral/MTReferral$a$a;->a:Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g;
 
     invoke-virtual {p1, p2}, Lcom/meitu/libmtsns/framwork/i/d;->l(Lcom/meitu/libmtsns/framwork/i/d$l;)V
 
-    .line 2
     :goto_0
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSex()I
 
     move-result v1
@@ -85,7 +84,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSort()I
 
     move-result v1
@@ -100,7 +98,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSort()I
 
@@ -114,7 +111,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSex()I
 
@@ -131,7 +127,6 @@
     :cond_2
     const/4 v3, 0x1
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -145,7 +140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/LookMaterial;
 
     check-cast p2, Lcom/meitu/template/bean/LookMaterial;

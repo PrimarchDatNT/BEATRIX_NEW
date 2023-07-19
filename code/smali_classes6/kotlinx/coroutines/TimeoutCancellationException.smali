@@ -39,7 +39,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, v0}, Lcotlinx/coroutines/TimeoutCancellationException;-><init>(Ljava/lang/String;Lcotlinx/coroutines/c2;)V
 
     return-void
@@ -56,7 +55,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/util/concurrent/CancellationException;-><init>(Ljava/lang/String;)V
 
     iput-object p2, p0, Lcotlinx/coroutines/TimeoutCancellationException;->coroutine:Lcotlinx/coroutines/c2;
@@ -69,7 +67,6 @@
 .method public bridge synthetic createCopy()Ljava/lang/Throwable;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/TimeoutCancellationException;->createCopy()Lcotlinx/coroutines/TimeoutCancellationException;
 
     move-result-object v0
@@ -82,7 +79,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/TimeoutCancellationException;
 
     invoke-virtual {p0}, Ljava/util/concurrent/CancellationException;->getMessage()Ljava/lang/String;

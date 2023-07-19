@@ -22,7 +22,6 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/web/BeautyPlusWebView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b;->j:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     invoke-direct {p0}, Lcom/meitu/webview/core/d;-><init>()V
@@ -37,14 +36,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b$a;
 
     const-string v2, "WebView-SaveImage"
@@ -53,7 +50,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -71,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     const/16 v2, 0xa
@@ -94,27 +89,22 @@
 
     const-string v1, "MTJs:saveToClient"
 
-    .line 1
     invoke-virtual {v1, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0, p4}, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b;->h(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p5}, Landroid/webkit/JsPromptResult;->cancel()V
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 5
     :cond_0
     invoke-super/range {p0 .. p5}, Lcom/meitu/webview/core/d;->onJsPrompt(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsPromptResult;)Z
 
@@ -132,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/webkit/WebChromeClient;->onProgressChanged(Landroid/webkit/WebView;I)V
 
     const/16 p1, 0x8
@@ -141,7 +130,6 @@
 
     if-ne p2, v1, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b;->j:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     invoke-static {p2}, Lcom/commsource/beautyplus/web/BeautyPlusWebView;->J(Lcom/commsource/beautyplus/web/BeautyPlusWebView;)Landroid/widget/ProgressBar;
@@ -152,7 +140,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b;->j:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
@@ -166,7 +153,6 @@
 
     if-ne v1, p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b;->j:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/web/BeautyPlusWebView;->J(Lcom/commsource/beautyplus/web/BeautyPlusWebView;)Landroid/widget/ProgressBar;
@@ -177,7 +163,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b;->j:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
@@ -187,7 +172,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ProgressBar;->setProgress(I)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -201,10 +185,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/webkit/WebChromeClient;->onReceivedTitle(Landroid/webkit/WebView;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b;->j:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/web/BeautyPlusWebView;->K(Lcom/commsource/beautyplus/web/BeautyPlusWebView;)Lcom/commsource/beautyplus/web/BeautyPlusWebView$d;
@@ -213,7 +195,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b;->j:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/web/BeautyPlusWebView;->K(Lcom/commsource/beautyplus/web/BeautyPlusWebView;)Lcom/commsource/beautyplus/web/BeautyPlusWebView$d;
@@ -222,7 +203,6 @@
 
     invoke-interface {p1, p2}, Lcom/commsource/beautyplus/web/BeautyPlusWebView$d;->a(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

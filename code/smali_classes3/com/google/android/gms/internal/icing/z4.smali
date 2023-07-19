@@ -6,7 +6,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/icing/y4;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
     :goto_0
     if-ge p3, p4, :cond_0
 
-    .line 1
     aget-byte p1, p2, p3
 
     if-ltz p1, :cond_0
@@ -45,7 +43,6 @@
     :cond_2
     add-int/lit8 v0, p3, 0x1
 
-    .line 2
     aget-byte p3, p2, p3
 
     if-gez p3, :cond_d
@@ -69,7 +66,6 @@
 
     add-int/lit8 p3, v0, 0x1
 
-    .line 3
     aget-byte v0, p2, v0
 
     if-le v0, v3, :cond_1
@@ -86,7 +82,6 @@
 
     if-lt v0, v4, :cond_6
 
-    .line 4
     invoke-static {p2, v0, p4}, Lcom/google/android/gms/internal/icing/x4;->j([BII)I
 
     move-result p1
@@ -96,7 +91,6 @@
     :cond_6
     add-int/lit8 v4, v0, 0x1
 
-    .line 5
     aget-byte v0, p2, v0
 
     if-gt v0, v3, :cond_9
@@ -129,7 +123,6 @@
 
     if-lt v0, v1, :cond_b
 
-    .line 6
     invoke-static {p2, v0, p4}, Lcom/google/android/gms/internal/icing/x4;->j([BII)I
 
     move-result p1
@@ -139,7 +132,6 @@
     :cond_b
     add-int/lit8 v1, v0, 0x1
 
-    .line 7
     aget-byte v0, p2, v0
 
     if-gt v0, v3, :cond_c
@@ -178,7 +170,6 @@
 .method final b(Ljava/lang/CharSequence;[BII)I
     .locals 7
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
@@ -196,7 +187,6 @@
 
     if-ge v3, p4, :cond_0
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v4
@@ -205,7 +195,6 @@
 
     int-to-byte v2, v4
 
-    .line 3
     aput-byte v2, p2, v3
 
     add-int/lit8 v1, v1, 0x1
@@ -225,7 +214,6 @@
     :goto_1
     if-ge v1, v0, :cond_b
 
-    .line 4
     invoke-interface {p1, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v3
@@ -238,7 +226,6 @@
 
     int-to-byte v3, v3
 
-    .line 5
     aput-byte v3, p2, p3
 
     :goto_2
@@ -263,7 +250,6 @@
 
     int-to-byte v5, v5
 
-    .line 6
     aput-byte v5, p2, p3
 
     add-int/lit8 p3, v4, 0x1
@@ -274,7 +260,6 @@
 
     int-to-byte v3, v3
 
-    .line 7
     aput-byte v3, p2, v4
 
     goto :goto_3
@@ -301,7 +286,6 @@
 
     int-to-byte v5, v5
 
-    .line 8
     aput-byte v5, p2, p3
 
     add-int/lit8 p3, v4, 0x1
@@ -314,7 +298,6 @@
 
     int-to-byte v5, v5
 
-    .line 9
     aput-byte v5, p2, v4
 
     add-int/lit8 v4, p3, 0x1
@@ -325,7 +308,6 @@
 
     int-to-byte v3, v3
 
-    .line 10
     aput-byte v3, p2, p3
 
     goto :goto_2
@@ -337,7 +319,6 @@
 
     add-int/lit8 v4, v1, 0x1
 
-    .line 11
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v5
@@ -354,7 +335,6 @@
 
     if-eqz v5, :cond_6
 
-    .line 12
     invoke-static {v3, v1}, Ljava/lang/Character;->toCodePoint(CC)I
 
     move-result v1
@@ -367,7 +347,6 @@
 
     int-to-byte v5, v5
 
-    .line 13
     aput-byte v5, p2, p3
 
     add-int/lit8 p3, v3, 0x1
@@ -380,7 +359,6 @@
 
     int-to-byte v5, v5
 
-    .line 14
     aput-byte v5, p2, v3
 
     add-int/lit8 v3, p3, 0x1
@@ -393,7 +371,6 @@
 
     int-to-byte v5, v5
 
-    .line 15
     aput-byte v5, p2, p3
 
     add-int/lit8 p3, v3, 0x1
@@ -404,7 +381,6 @@
 
     int-to-byte v1, v1
 
-    .line 16
     aput-byte v1, p2, v3
 
     move v1, v4
@@ -417,7 +393,6 @@
     :cond_6
     move v1, v4
 
-    .line 17
     :cond_7
     new-instance p1, Lcom/google/android/gms/internal/icing/zzgi;
 
@@ -434,7 +409,6 @@
 
     add-int/lit8 p2, v1, 0x1
 
-    .line 18
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result p4
@@ -451,7 +425,6 @@
 
     if-nez p1, :cond_a
 
-    .line 19
     :cond_9
     new-instance p1, Lcom/google/android/gms/internal/icing/zzgi;
 
@@ -459,7 +432,6 @@
 
     throw p1
 
-    .line 20
     :cond_a
     new-instance p1, Ljava/lang/ArrayIndexOutOfBoundsException;
 

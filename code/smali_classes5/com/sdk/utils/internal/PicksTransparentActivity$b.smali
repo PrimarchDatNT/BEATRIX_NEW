@@ -22,7 +22,6 @@
 .method private constructor <init>(Lcom/sdk/utils/internal/PicksTransparentActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/utils/internal/PicksTransparentActivity$b;->a:Lcom/sdk/utils/internal/PicksTransparentActivity;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lcom/sdk/utils/internal/PicksTransparentActivity;Lcom/sdk/utils/internal/PicksTransparentActivity$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/sdk/utils/internal/PicksTransparentActivity$b;-><init>(Lcom/sdk/utils/internal/PicksTransparentActivity;)V
 
     return-void
@@ -44,27 +42,23 @@
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object p2
 
     const-string v0, "android.intent.action.USER_PRESENT"
 
-    .line 2
     invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    .line 3
     :try_start_0
     iget-object p2, p0, Lcom/sdk/utils/internal/PicksTransparentActivity$b;->a:Lcom/sdk/utils/internal/PicksTransparentActivity;
 
     invoke-static {p2, p1}, Lcom/sdk/utils/internal/PicksTransparentActivity;->a(Lcom/sdk/utils/internal/PicksTransparentActivity;Landroid/content/Context;)V
 
-    .line 4
     iget-object p1, p0, Lcom/sdk/utils/internal/PicksTransparentActivity$b;->a:Lcom/sdk/utils/internal/PicksTransparentActivity;
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V

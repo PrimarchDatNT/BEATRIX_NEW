@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/ColorViewHolder$mViewBinding$2;->this$0:Lcom/commsource/studio/function/background/ColorViewHolder;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -63,10 +62,8 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -79,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/ColorViewHolder$mViewBinding$2;->invoke()Lcom/commsource/beautyplus/f0/md;
 
     move-result-object v1

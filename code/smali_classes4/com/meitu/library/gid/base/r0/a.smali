@@ -15,10 +15,8 @@
 .method public constructor <init>(Lcom/meitu/library/gid/base/u;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/gid/base/r0/a;->a:Lcom/meitu/library/gid/base/u;
 
     return-void
@@ -35,7 +33,6 @@
 .method public b()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/gid/base/r0/a;->a:Lcom/meitu/library/gid/base/u;
 
     invoke-virtual {v0}, Lcom/meitu/library/gid/base/u;->o()Lcom/meitu/library/gid/base/j0/a$c;
@@ -60,7 +57,6 @@
 .method public c()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/gid/base/r0/a;->a:Lcom/meitu/library/gid/base/u;
 
     invoke-virtual {v0}, Lcom/meitu/library/gid/base/u;->o()Lcom/meitu/library/gid/base/j0/a$c;

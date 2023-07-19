@@ -25,7 +25,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/r0/x;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -40,7 +39,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
 
     move-result-object v1
@@ -53,21 +51,18 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/l;->d()I
 
     move-result v2
 
     iput v2, v1, Lcom/meitu/core/MTRtEffectRender$RtEffectMaskTexture;->hairMaskTexture:I
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/core/MTRtEffectRender;->flushRtEffectMaskTexture()V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
 
     move-result-object v1
@@ -86,7 +81,6 @@
 
     invoke-virtual {v1, v2, v3, p1}, Lcom/meitu/core/MTRtEffectRender;->setHairSegmentData(Ljava/nio/ByteBuffer;II)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -102,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/r0/g;->l:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/r0/g;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -132,10 +124,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/r0/g;->l:F
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
 
     move-result-object v1
@@ -157,14 +147,11 @@
     :cond_0
     const/4 v3, 0x0
 
-    .line 3
     :goto_0
     iput-boolean v3, v1, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->shinyCleanSwitch:Z
 
-    .line 4
     iput p1, v1, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->skinCleanAlpha:F
 
-    .line 5
     iget-boolean v3, p0, Lcom/commsource/studio/r0/g;->k:Z
 
     if-eqz v3, :cond_1
@@ -177,14 +164,12 @@
     :goto_1
     iput p1, v1, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->hairCleanAlpha:F
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/meitu/core/MTRtEffectRender;->flushAnattaParameter()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -197,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/r0/g;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -212,7 +196,6 @@
 
     invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v0, Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {p0, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
@@ -223,7 +206,6 @@
 
     invoke-virtual {p0, v0}, Lcom/commsource/studio/r0/x;->C(Lcom/commsource/camera/d1/g/j;)V
 
-    .line 2
     const-class v0, Lcom/commsource/camera/d1/g/r;
 
     invoke-virtual {p0, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
@@ -234,7 +216,6 @@
 
     invoke-virtual {p0, v0}, Lcom/commsource/studio/r0/x;->E(Lcom/commsource/camera/d1/g/r;)V
 
-    .line 3
     const-class v0, Lcom/commsource/camera/d1/g/l;
 
     invoke-virtual {p0, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
@@ -245,7 +226,6 @@
 
     invoke-direct {p0, v0}, Lcom/commsource/studio/r0/g;->J(Lcom/commsource/camera/d1/g/l;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
 
     move-result-object v1

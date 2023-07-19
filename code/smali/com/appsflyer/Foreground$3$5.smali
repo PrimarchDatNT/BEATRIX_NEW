@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/appsflyer/Foreground$3;Landroid/app/Activity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/Foreground$3$5;->$$b:Lcom/appsflyer/Foreground$3;
 
     iput-object p2, p0, Lcom/appsflyer/Foreground$3$5;->valueOf:Landroid/app/Activity;
@@ -42,21 +41,18 @@
 .method public final run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/Foreground$3$5;->$$b:Lcom/appsflyer/Foreground$3;
 
     const/4 v1, 0x1
 
     iput-boolean v1, v0, Lcom/appsflyer/Foreground$3;->$$b:Z
 
-    .line 2
     iget-object v0, p0, Lcom/appsflyer/Foreground$3$5;->valueOf:Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
-    .line 3
     :try_start_0
     new-instance v1, Ljava/util/Timer;
 
@@ -79,7 +75,6 @@
 
     const-string v1, "Background task failed with a throwable: "
 
-    .line 4
     invoke-static {v1, v0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

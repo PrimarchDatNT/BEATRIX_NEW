@@ -41,17 +41,14 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/grpc/z0$h$a;->a:Ljava/util/List;
 
-    .line 3
     sget-object v0, Lio/grpc/a;->b:Lio/grpc/a;
 
     iput-object v0, p0, Lio/grpc/z0$h$a;->b:Lio/grpc/a;
@@ -64,7 +61,6 @@
 .method public a()Lio/grpc/z0$h;
     .locals 4
 
-    .line 1
     new-instance v0, Lio/grpc/z0$h;
 
     iget-object v1, p0, Lio/grpc/z0$h$a;->a:Ljava/util/List;
@@ -90,7 +86,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/z0$h$a;->a:Ljava/util/List;
 
     return-object p0
@@ -99,7 +94,6 @@
 .method public c(Lio/grpc/a;)Lio/grpc/z0$h$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/z0$h$a;->b:Lio/grpc/a;
 
     return-object p0
@@ -112,7 +106,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lio/grpc/z0$h$a;->c:Lio/grpc/z0$c;
 
     return-object p0

@@ -26,13 +26,10 @@
 .method public final a(Lcom/google/firebase/p/a;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/iid/c1;->a:Lcom/google/firebase/iid/FirebaseInstanceId$a;
 
-    .line 2
     monitor-enter p1
 
-    .line 3
     :try_start_0
     invoke-virtual {p1}, Lcom/google/firebase/iid/FirebaseInstanceId$a;->b()Z
 
@@ -40,12 +37,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p1, Lcom/google/firebase/iid/FirebaseInstanceId$a;->f:Lcom/google/firebase/iid/FirebaseInstanceId;
 
     invoke-static {v0}, Lcom/google/firebase/iid/FirebaseInstanceId;->y(Lcom/google/firebase/iid/FirebaseInstanceId;)V
 
-    .line 5
     :cond_0
     monitor-exit p1
 

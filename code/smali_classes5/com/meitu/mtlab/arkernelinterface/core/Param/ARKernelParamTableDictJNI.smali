@@ -22,12 +22,10 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/arkernelinterface/ARKernelInterfaceNativeBasicClass;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamTableDictJNI;->nativeInstance:J
 
     return-void
@@ -45,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamTableDictJNI;->nativeInstance:J
 
     const/4 v3, 0x0
@@ -60,7 +57,6 @@
 
     return-object v3
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamTableDictJNI;->mParamTableDict:Ljava/util/Map;
 
@@ -76,12 +72,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamTableDictJNI;->nativeInstance:J
 
@@ -93,15 +87,12 @@
 
     if-eqz v6, :cond_2
 
-    .line 5
     new-instance v3, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamTableJNI;
 
     invoke-direct {v3}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamTableJNI;-><init>()V
 
-    .line 6
     invoke-virtual {v3, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamTableJNI;->setNativeInstance(J)V
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamTableDictJNI;->mParamTableDict:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -110,12 +101,10 @@
 
     invoke-interface {v1, p1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -129,13 +118,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamTableDictJNI;->nativeInstance:J
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamTableDictJNI;->updateData()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -148,14 +134,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/Param/ARKernelParamTableDictJNI;->mParamTableDict:Ljava/util/Map;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

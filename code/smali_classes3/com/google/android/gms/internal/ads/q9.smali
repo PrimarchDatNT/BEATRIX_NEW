@@ -18,7 +18,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/j9;Lcom/google/android/gms/internal/ads/aa;Lcom/google/android/gms/internal/ads/v8;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/q9;->c:Lcom/google/android/gms/internal/ads/j9;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/q9;->a:Lcom/google/android/gms/internal/ads/aa;
@@ -35,7 +34,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/q9;->c:Lcom/google/android/gms/internal/ads/j9;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/j9;->d(Lcom/google/android/gms/internal/ads/j9;)Ljava/lang/Object;
@@ -44,7 +42,6 @@
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/q9;->a:Lcom/google/android/gms/internal/ads/aa;
 
@@ -58,7 +55,6 @@
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/q9;->a:Lcom/google/android/gms/internal/ads/aa;
 
-    .line 3
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/sq;->a()I
 
     move-result v1
@@ -69,13 +65,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/q9;->a:Lcom/google/android/gms/internal/ads/aa;
 
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/sq;->b()V
 
-    .line 5
     sget-object v1, Lcom/google/android/gms/internal/ads/dq;->e:Lcom/google/android/gms/internal/ads/uq1;
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/q9;->b:Lcom/google/android/gms/internal/ads/v8;
@@ -90,15 +84,12 @@
 
     const-string v1, "Could not receive loaded message in a timely manner. Rejecting."
 
-    .line 6
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
-    .line 7
     monitor-exit v0
 
     return-void
 
-    .line 8
     :cond_1
     :goto_0
     monitor-exit v0
@@ -108,7 +99,6 @@
     :catchall_0
     move-exception v1
 
-    .line 9
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

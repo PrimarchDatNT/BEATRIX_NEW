@@ -43,10 +43,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lkshark/ObjectInspectors;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
-    .line 2
     sget-object p1, Lkshark/ObjectInspectors$KEYED_WEAK_REFERENCE$leakingObjectFilter$1;->INSTANCE:Lkshark/ObjectInspectors$KEYED_WEAK_REFERENCE$leakingObjectFilter$1;
 
     iput-object p1, p0, Lkshark/ObjectInspectors$KEYED_WEAK_REFERENCE;->leakingObjectFilter:Lcotlin/jvm/u/l;
@@ -71,7 +69,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/ObjectInspectors$KEYED_WEAK_REFERENCE;->leakingObjectFilter:Lcotlin/jvm/u/l;
 
     return-object v0
@@ -88,7 +85,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lkshark/v;->a()Lkshark/HeapObject;
 
     move-result-object v0
@@ -97,14 +93,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lkshark/KeyedWeakReferenceFinder;->b:Lkshark/KeyedWeakReferenceFinder;
 
     invoke-virtual {v1, v0}, Lkshark/KeyedWeakReferenceFinder;->b(Lkshark/i;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1}, Lkshark/v;->a()Lkshark/HeapObject;
 
     move-result-object v1
@@ -113,7 +107,6 @@
 
     move-result-wide v1
 
-    .line 4
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -132,7 +125,6 @@
 
     check-cast v3, Lkshark/internal/e;
 
-    .line 5
     invoke-virtual {v3}, Lkshark/internal/e;->d()Lkshark/b0$i;
 
     move-result-object v4
@@ -145,7 +137,6 @@
 
     if-nez v6, :cond_0
 
-    .line 6
     invoke-virtual {p1}, Lkshark/v;->c()Ljava/util/Set;
 
     move-result-object v4
@@ -170,7 +161,6 @@
     :goto_1
     if-eqz v5, :cond_2
 
-    .line 7
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -194,11 +184,9 @@
     :cond_2
     const-string v5, "ObjectWatcher was watching this"
 
-    .line 8
     :goto_2
     invoke-interface {v4, v5}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 9
     invoke-virtual {p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 
     move-result-object v4
@@ -223,14 +211,12 @@
 
     invoke-interface {v4, v5}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 10
     invoke-virtual {v3}, Lkshark/internal/e;->f()Ljava/lang/Long;
 
     move-result-object v4
 
     if-eqz v4, :cond_3
 
-    .line 11
     invoke-virtual {p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 
     move-result-object v4
@@ -255,7 +241,6 @@
 
     invoke-interface {v4, v5}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 12
     :cond_3
     invoke-virtual {v3}, Lkshark/internal/e;->e()Ljava/lang/Long;
 
@@ -263,7 +248,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 13
     invoke-virtual {p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 
     move-result-object v4

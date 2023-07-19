@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/s0$a;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$processLoadingDialog$2;->this$0:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
@@ -70,7 +69,6 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/widget/s0$a;-><init>(Landroid/content/Context;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/widget/s0$a;->a()Lcom/commsource/widget/s0;
 
     move-result-object v1
@@ -87,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$processLoadingDialog$2;->invoke()Lcom/commsource/widget/s0;
 
     move-result-object v1

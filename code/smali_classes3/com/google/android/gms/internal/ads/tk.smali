@@ -26,10 +26,8 @@
 .method public final a(Lcom/google/android/gms/internal/ads/sw;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/tk;->a:Ljava/lang/String;
 
-    .line 2
     invoke-interface {p1, v0}, Lcom/google/android/gms/internal/ads/sw;->e5(Ljava/lang/String;)V
 
     return-void

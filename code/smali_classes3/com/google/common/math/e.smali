@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 .method public static a()Lcom/google/common/math/e;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/math/e$c;->a:Lcom/google/common/math/e$c;
 
     return-object v0
@@ -42,14 +40,12 @@
 .method public static b(D)Lcom/google/common/math/e;
     .locals 3
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/math/c;->d(D)Z
 
     move-result v0
 
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     new-instance v0, Lcom/google/common/math/e$d;
 
     const-wide/16 v1, 0x0
@@ -62,7 +58,6 @@
 .method public static f(DD)Lcom/google/common/math/e$b;
     .locals 7
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/math/c;->d(D)Z
 
     move-result v0
@@ -85,7 +80,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     new-instance v0, Lcom/google/common/math/e$b;
 
     const/4 v6, 0x0
@@ -104,14 +98,12 @@
 .method public static i(D)Lcom/google/common/math/e;
     .locals 1
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/math/c;->d(D)Z
 
     move-result v0
 
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     new-instance v0, Lcom/google/common/math/e$e;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/math/e$e;-><init>(D)V

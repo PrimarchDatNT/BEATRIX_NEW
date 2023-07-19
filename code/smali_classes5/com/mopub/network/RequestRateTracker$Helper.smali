@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/network/RequestRateTracker;
 
     invoke-direct {v0}, Lcom/mopub/network/RequestRateTracker;-><init>()V
@@ -38,7 +37,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +45,6 @@
 .method static synthetic access$100()Lcom/mopub/network/RequestRateTracker;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/network/RequestRateTracker$Helper;->sInstance:Lcom/mopub/network/RequestRateTracker;
 
     return-object v0
@@ -56,7 +53,6 @@
 .method static synthetic access$102(Lcom/mopub/network/RequestRateTracker;)Lcom/mopub/network/RequestRateTracker;
     .locals 0
 
-    .line 1
     sput-object p0, Lcom/mopub/network/RequestRateTracker$Helper;->sInstance:Lcom/mopub/network/RequestRateTracker;
 
     return-object p0

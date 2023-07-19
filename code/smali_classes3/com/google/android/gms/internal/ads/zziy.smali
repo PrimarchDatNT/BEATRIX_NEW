@@ -11,7 +11,6 @@
 .method public constructor <init>(I)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const/16 v1, 0x24
@@ -30,7 +29,6 @@
 
     invoke-direct {p0, v0}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/internal/ads/zziy;->errorCode:I
 
     return-void

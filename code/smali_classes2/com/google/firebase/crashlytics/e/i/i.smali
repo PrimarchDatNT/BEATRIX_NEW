@@ -18,10 +18,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/e/i/i;->a:Landroid/content/Context;
 
     return-void
@@ -32,7 +30,6 @@
 .method public a()Ljava/io/File;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/e/i/i;->a:Landroid/content/Context;
@@ -55,7 +52,6 @@
 .method public b()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/e/i/i;->a:Landroid/content/Context;
@@ -78,28 +74,24 @@
 .method c()Z
     .locals 2
 
-    .line 1
     invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "mounted"
 
-    .line 2
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v0
 
     const-string v1, "External Storage is not mounted and/or writable\nHave you declared android.permission.WRITE_EXTERNAL_STORAGE in the manifest?"
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/google/firebase/crashlytics/e/b;->m(Ljava/lang/String;)V
 
     const/4 v0, 0x0
@@ -117,7 +109,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -132,7 +123,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
@@ -148,7 +138,6 @@
     :goto_0
     return-object p1
 
-    .line 3
     :cond_2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 

@@ -9,7 +9,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-direct {p0, v0}, Lcom/spotxchange/v4/exceptions/SPXException;-><init>(Ljava/lang/Throwable;)V
 
     return-void
@@ -18,7 +17,6 @@
 .method protected constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -43,7 +41,6 @@
 
     const-string v0, "Unknown error"
 
-    .line 2
     invoke-direct {p0, v0, p1}, Lcom/spotxchange/v4/exceptions/SPXException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

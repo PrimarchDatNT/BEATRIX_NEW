@@ -41,10 +41,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_layer_manage_container:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/gesture/a;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/gesture/NormalContainerViewHolder$viewBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder$viewBinding$2;-><init>(Lcom/commsource/studio/gesture/NormalContainerViewHolder;)V
@@ -55,24 +53,20 @@
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->K:Lcotlin/w;
 
-    .line 3
     new-instance p1, Lcom/commsource/util/o2/a;
 
     const/4 p2, 0x0
 
     invoke-direct {p1, p2}, Lcom/commsource/util/o2/a;-><init>(I)V
 
-    .line 4
     new-instance p2, Lcom/commsource/studio/gesture/NormalContainerViewHolder$$special$$inlined$apply$lambda$1;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder$$special$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/gesture/NormalContainerViewHolder;)V
 
     invoke-virtual {p1, p2}, Lcom/commsource/util/o2/c;->i(Lcotlin/jvm/u/l;)V
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->N:Lcom/commsource/util/o2/a;
 
-    .line 6
     new-instance p1, Lcom/commsource/util/o2/b;
 
     new-instance p2, Landroid/graphics/Rect;
@@ -83,14 +77,12 @@
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->O:Lcom/commsource/util/o2/b;
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
     move-result-object p1
@@ -111,7 +103,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L:Landroid/graphics/drawable/GradientDrawable;
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->O:Lcom/commsource/util/o2/b;
 
     new-instance p2, Lcom/commsource/studio/gesture/NormalContainerViewHolder$1;
@@ -122,7 +113,6 @@
 
     return-void
 
-    .line 10
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -140,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -157,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->N:Lcom/commsource/util/o2/a;
 
     const/16 v2, -0xa
@@ -174,7 +162,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/util/o2/c;->k(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -189,7 +176,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, v0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->O:Lcom/commsource/util/o2/b;
 
     new-instance v3, Landroid/graphics/Rect;
@@ -226,7 +212,6 @@
 
     invoke-static/range {v2 .. v9}, Lcom/commsource/util/o2/c;->b(Lcom/commsource/util/o2/c;Ljava/lang/Object;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 2
     iget-object v10, v0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->N:Lcom/commsource/util/o2/a;
 
     const/16 v2, -0xa
@@ -251,7 +236,6 @@
 
     invoke-static/range {v10 .. v17}, Lcom/commsource/util/o2/c;->b(Lcom/commsource/util/o2/c;Ljava/lang/Object;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -280,10 +264,8 @@
 
     const/4 v2, 0x0
 
-    .line 1
     iput-boolean v2, v0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->M:Z
 
-    .line 2
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
     move-result-object v3
@@ -310,7 +292,6 @@
 
     invoke-static/range {v4 .. v10}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     iget-object v11, v0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->O:Lcom/commsource/util/o2/b;
 
     new-instance v12, Landroid/graphics/Rect;
@@ -329,7 +310,6 @@
 
     invoke-static/range {v11 .. v18}, Lcom/commsource/util/o2/c;->b(Lcom/commsource/util/o2/c;Ljava/lang/Object;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
     move-result-object v3
@@ -344,7 +324,6 @@
 
     invoke-virtual {v3, v4}, Landroid/view/View;->setAlpha(F)V
 
-    .line 5
     iget-object v5, v0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->N:Lcom/commsource/util/o2/a;
 
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
@@ -365,7 +344,6 @@
 
     invoke-static/range {v5 .. v12}, Lcom/commsource/util/o2/c;->b(Lcom/commsource/util/o2/c;Ljava/lang/Object;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -378,7 +356,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
     move-result-object v0
@@ -401,7 +378,6 @@
 
     if-nez p1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
     move-result-object p1
@@ -414,7 +390,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
@@ -426,7 +401,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     :goto_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -440,7 +414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/gesture/a;->F(Z)V
 
     sget v1, Lcom/res/provider/ResCOLOR;->Gray_Background:I
@@ -449,7 +422,6 @@
 
     if-nez p1, :cond_3
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/a;->x()Lcom/commsource/studio/bean/BaseLayerInfo;
 
     move-result-object p1
@@ -474,7 +446,6 @@
     :cond_1
     if-eqz v4, :cond_2
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
@@ -485,7 +456,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L:Landroid/graphics/drawable/GradientDrawable;
 
@@ -497,7 +467,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
@@ -513,7 +482,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_3
     iget-object p1, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L:Landroid/graphics/drawable/GradientDrawable;
 
@@ -523,7 +491,6 @@
 
     invoke-virtual {p1, v2}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
     move-result-object p1
@@ -536,7 +503,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 8
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -554,10 +520,8 @@
 
     const/4 v2, 0x1
 
-    .line 1
     iput-boolean v2, v0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->M:Z
 
-    .line 2
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
     move-result-object v2
@@ -582,7 +546,6 @@
 
     invoke-static/range {v3 .. v10}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
     move-result-object v2
@@ -597,7 +560,6 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setAlpha(F)V
 
-    .line 4
     iget-object v4, v0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->O:Lcom/commsource/util/o2/b;
 
     new-instance v5, Landroid/graphics/Rect;
@@ -626,7 +588,6 @@
 
     invoke-static/range {v4 .. v11}, Lcom/commsource/util/o2/c;->b(Lcom/commsource/util/o2/c;Ljava/lang/Object;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     iget-object v12, v0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->N:Lcom/commsource/util/o2/a;
 
     const/16 v2, -0xa
@@ -651,7 +612,6 @@
 
     invoke-static/range {v12 .. v19}, Lcom/commsource/util/o2/c;->b(Lcom/commsource/util/o2/c;Ljava/lang/Object;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -664,7 +624,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
     move-result-object v1
@@ -677,7 +636,6 @@
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
     move-result-object v1
@@ -690,12 +648,10 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 3
     iget-boolean v1, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->M:Z
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/kg;
 
     move-result-object v1
@@ -708,7 +664,6 @@
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -765,17 +720,14 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/studio/gesture/a;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/a;->z()Z
 
     move-result p1
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->F(Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

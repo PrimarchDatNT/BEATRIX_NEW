@@ -13,13 +13,10 @@
 .method protected constructor <init>(JZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p3, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->b:Z
 
-    .line 3
     iput-wide p1, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
     return-void
@@ -38,7 +35,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
@@ -57,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
     invoke-static {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->p(Lcom/meitu/media/tools/filter/MediaFilter;)J
@@ -70,7 +65,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilterProgressListener_MediaFilterProgressBegan(JLcom/meitu/media/tools/filter/MediaFilterProgressListener;JLcom/meitu/media/tools/filter/MediaFilter;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -83,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
     invoke-static {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->p(Lcom/meitu/media/tools/filter/MediaFilter;)J
@@ -96,7 +89,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilterProgressListener_MediaFilterProgressCanceled(JLcom/meitu/media/tools/filter/MediaFilterProgressListener;JLcom/meitu/media/tools/filter/MediaFilter;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -111,7 +103,6 @@
 
     move-object v11, p0
 
-    .line 1
     iget-wide v1, v11, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
     invoke-static {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->p(Lcom/meitu/media/tools/filter/MediaFilter;)J
@@ -128,7 +119,6 @@
 
     invoke-static/range {v1 .. v10}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilterProgressListener_MediaFilterProgressChanged(JLcom/meitu/media/tools/filter/MediaFilterProgressListener;JLcom/meitu/media/tools/filter/MediaFilter;DD)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -141,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
     invoke-static {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->p(Lcom/meitu/media/tools/filter/MediaFilter;)J
@@ -154,7 +143,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilterProgressListener_MediaFilterProgressEnded(JLcom/meitu/media/tools/filter/MediaFilterProgressListener;JLcom/meitu/media/tools/filter/MediaFilter;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -170,7 +158,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
     const-wide/16 v3, 0x0
@@ -179,24 +166,19 @@
 
     if-eqz v5, :cond_1
 
-    .line 2
     iget-boolean v5, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->b:Z
 
     if-eqz v5, :cond_0
 
     const/4 v5, 0x0
 
-    .line 3
     iput-boolean v5, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->b:Z
 
-    .line 4
     invoke-static {v1, v2}, Lcom/meitu/media/tools/filter/MediaEditJNI;->delete_MediaFilterProgressListener(J)V
 
-    .line 5
     :cond_0
     iput-wide v3, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -221,10 +203,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->e()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

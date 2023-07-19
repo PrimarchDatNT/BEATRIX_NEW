@@ -48,15 +48,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper$SPNode;->this$1:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper$SPNode;->key:Ljava/lang/String;
 
-    .line 3
     iput-object p3, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper$SPNode;->value:Ljava/lang/Object;
 
     return-void
@@ -69,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper$SPNode;->value:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -84,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper$SPNode;->value:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -99,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper$SPNode;->key:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

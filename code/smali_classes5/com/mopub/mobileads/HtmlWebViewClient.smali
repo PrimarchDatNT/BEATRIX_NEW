@@ -27,10 +27,8 @@
 .method constructor <init>(Lcom/mopub/mobileads/BaseHtmlWebView;Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Landroid/webkit/WebViewClient;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/UrlAction;->HANDLE_MOPUB_SCHEME:Lcom/mopub/common/UrlAction;
 
     const/16 v1, 0x8
@@ -91,20 +89,16 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient;->SUPPORTED_URL_ACTIONS:Ljava/util/EnumSet;
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/mobileads/HtmlWebViewClient;->mHtmlWebView:Lcom/mopub/mobileads/BaseHtmlWebView;
 
-    .line 4
     iput-object p3, p0, Lcom/mopub/mobileads/HtmlWebViewClient;->mDspCreativeId:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p1}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/mopub/mobileads/HtmlWebViewClient;->mContext:Landroid/content/Context;
 
-    .line 6
     iput-object p2, p0, Lcom/mopub/mobileads/HtmlWebViewClient;->mBaseWebViewListener:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
 
     return-void
@@ -113,7 +107,6 @@
 .method static synthetic access$000(Lcom/mopub/mobileads/HtmlWebViewClient;)Lcom/mopub/mobileads/BaseHtmlWebView;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/mobileads/HtmlWebViewClient;->mHtmlWebView:Lcom/mopub/mobileads/BaseHtmlWebView;
 
     return-object p0
@@ -122,7 +115,6 @@
 .method static synthetic access$100(Lcom/mopub/mobileads/HtmlWebViewClient;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/mobileads/HtmlWebViewClient;->mBaseWebViewListener:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
 
     return-object p0
@@ -133,21 +125,18 @@
 .method public shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
     .locals 2
 
-    .line 1
     new-instance p1, Lcom/mopub/common/UrlHandler$Builder;
 
     invoke-direct {p1}, Lcom/mopub/common/UrlHandler$Builder;-><init>()V
 
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient;->mDspCreativeId:Ljava/lang/String;
 
-    .line 2
     invoke-virtual {p1, v0}, Lcom/mopub/common/UrlHandler$Builder;->withDspCreativeId(Ljava/lang/String;)Lcom/mopub/common/UrlHandler$Builder;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient;->SUPPORTED_URL_ACTIONS:Ljava/util/EnumSet;
 
-    .line 3
     invoke-virtual {p1, v0}, Lcom/mopub/common/UrlHandler$Builder;->withSupportedUrlActions(Ljava/util/EnumSet;)Lcom/mopub/common/UrlHandler$Builder;
 
     move-result-object p1
@@ -156,7 +145,6 @@
 
     invoke-direct {v0, p0}, Lcom/mopub/mobileads/HtmlWebViewClient$2;-><init>(Lcom/mopub/mobileads/HtmlWebViewClient;)V
 
-    .line 4
     invoke-virtual {p1, v0}, Lcom/mopub/common/UrlHandler$Builder;->withResultActions(Lcom/mopub/common/UrlHandler$ResultActions;)Lcom/mopub/common/UrlHandler$Builder;
 
     move-result-object p1
@@ -165,12 +153,10 @@
 
     invoke-direct {v0, p0}, Lcom/mopub/mobileads/HtmlWebViewClient$1;-><init>(Lcom/mopub/mobileads/HtmlWebViewClient;)V
 
-    .line 5
     invoke-virtual {p1, v0}, Lcom/mopub/common/UrlHandler$Builder;->withMoPubSchemeListener(Lcom/mopub/common/UrlHandler$MoPubSchemeListener;)Lcom/mopub/common/UrlHandler$Builder;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Lcom/mopub/common/UrlHandler$Builder;->build()Lcom/mopub/common/UrlHandler;
 
     move-result-object p1

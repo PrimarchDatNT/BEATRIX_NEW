@@ -27,7 +27,6 @@
 .method constructor <init>(Landroid/content/Context;Lcom/tencent/bugly/BuglyStrategy;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/biz/b$a;->a:Landroid/content/Context;
 
     iput-object p2, p0, Lcom/tencent/bugly/crashreport/biz/b$a;->b:Lcom/tencent/bugly/BuglyStrategy;
@@ -42,7 +41,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/biz/b$a;->a:Landroid/content/Context;
 
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/biz/b$a;->b:Lcom/tencent/bugly/BuglyStrategy;

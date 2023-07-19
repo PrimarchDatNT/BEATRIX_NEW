@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/appsflyer/AppsFlyerLibCore;Ljava/lang/String;Lcom/appsflyer/attribution/AppsFlyerRequestListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
     iput-object p2, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->$$b:Ljava/lang/String;
@@ -48,10 +47,8 @@
 
     const-string v0, "onBecameBackground"
 
-    .line 1
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -60,7 +57,6 @@
 
     invoke-static {v0, v1, v2}, Lcom/appsflyer/AppsFlyerLibCore;->valueOf(Lcom/appsflyer/AppsFlyerLibCore;J)J
 
-    .line 3
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-static {v0}, Lcom/appsflyer/AppsFlyerLibCore;->collectIntentsFromActivities(Lcom/appsflyer/AppsFlyerLibCore;)J
@@ -89,7 +85,6 @@
 
     move-wide v0, v2
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
@@ -99,7 +94,6 @@
 
     sget-object v3, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 5
     invoke-virtual {v3, v0, v1}, Ljava/util/concurrent/TimeUnit;->toSeconds(J)J
 
     move-result-wide v0
@@ -110,10 +104,8 @@
 
     const-string v0, "callStatsBackground background call"
 
-    .line 6
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;)V
 
-    .line 7
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
     new-instance v1, Ljava/lang/ref/WeakReference;
@@ -122,37 +114,30 @@
 
     invoke-virtual {v0, v1}, Lcom/appsflyer/AppsFlyerLibCore;->AFDateFormat(Ljava/lang/ref/WeakReference;)V
 
-    .line 8
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
     move-result-object v0
 
-    .line 9
     invoke-virtual {v0}, Lcom/appsflyer/internal/ad;->getInstance()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 10
     invoke-virtual {v0}, Lcom/appsflyer/internal/ad;->values()V
 
     if-eqz p1, :cond_1
 
-    .line 11
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v2
 
-    .line 13
     invoke-static {v1, v2}, Lcom/appsflyer/internal/ad;->$$a(Ljava/lang/String;Landroid/content/pm/PackageManager;)V
 
-    .line 14
     :cond_1
     invoke-virtual {v0}, Lcom/appsflyer/internal/ad;->valueOf()V
 
@@ -161,29 +146,24 @@
     :cond_2
     const-string v0, "RD status is OFF"
 
-    .line 15
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 16
     :goto_0
     invoke-static {}, Lcom/appsflyer/AFExecutor;->getInstance()Lcom/appsflyer/AFExecutor;
 
     move-result-object v0
 
-    .line 17
     :try_start_0
     iget-object v1, v0, Lcom/appsflyer/AFExecutor;->values:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-static {v1}, Lcom/appsflyer/AFExecutor;->values(Ljava/util/concurrent/ExecutorService;)V
 
-    .line 18
     iget-object v0, v0, Lcom/appsflyer/AFExecutor;->$$b:Ljava/util/concurrent/Executor;
 
     instance-of v1, v0, Ljava/util/concurrent/ThreadPoolExecutor;
 
     if-eqz v1, :cond_3
 
-    .line 19
     check-cast v0, Ljava/util/concurrent/ThreadPoolExecutor;
 
     invoke-static {v0}, Lcom/appsflyer/AFExecutor;->values(Ljava/util/concurrent/ExecutorService;)V
@@ -197,17 +177,14 @@
 
     const-string v1, "failed to stop Executors"
 
-    .line 20
     invoke-static {v1, v0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 21
     :cond_3
     :goto_1
     invoke-static {p1}, Lcom/appsflyer/AFSensorManager;->values(Landroid/content/Context;)Lcom/appsflyer/AFSensorManager;
 
     move-result-object p1
 
-    .line 22
     iget-object v0, p1, Lcom/appsflyer/AFSensorManager;->valueOf:Landroid/os/Handler;
 
     iget-object p1, p1, Lcom/appsflyer/AFSensorManager;->dateFormatUTC:Ljava/lang/Runnable;
@@ -220,7 +197,6 @@
 .method public final onBecameForeground(Landroid/app/Activity;)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -229,7 +205,6 @@
 
     invoke-static {v0, v1, v2}, Lcom/appsflyer/AppsFlyerLibCore;->$$a(Lcom/appsflyer/AppsFlyerLibCore;J)J
 
-    .line 2
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-virtual {v0, p1}, Lcom/appsflyer/AppsFlyerLibCore;->eventDataCollector(Landroid/content/Context;)Lcom/appsflyer/internal/EventDataCollector;
@@ -238,7 +213,6 @@
 
     invoke-virtual {v0}, Lcom/appsflyer/internal/EventDataCollector;->foreground()V
 
-    .line 3
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-static {v0}, Lcom/appsflyer/AppsFlyerLibCore;->AFDateFormat(Lcom/appsflyer/AppsFlyerLibCore;)Landroid/content/SharedPreferences;
@@ -253,7 +227,6 @@
 
     if-nez v0, :cond_0
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
@@ -294,10 +267,8 @@
     :goto_0
     const-string v0, "onBecameForeground"
 
-    .line 5
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;)V
 
-    .line 6
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-static {p1}, Lcom/appsflyer/AppsFlyerLibCore;->getSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
@@ -312,37 +283,31 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 7
     invoke-static {p1}, Lcom/appsflyer/AFSensorManager;->values(Landroid/content/Context;)Lcom/appsflyer/AFSensorManager;
 
     move-result-object v0
 
-    .line 8
     iget-object v1, v0, Lcom/appsflyer/AFSensorManager;->valueOf:Landroid/os/Handler;
 
     iget-object v3, v0, Lcom/appsflyer/AFSensorManager;->dateFormatUTC:Ljava/lang/Runnable;
 
     invoke-virtual {v1, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 9
     iget-object v1, v0, Lcom/appsflyer/AFSensorManager;->valueOf:Landroid/os/Handler;
 
     iget-object v0, v0, Lcom/appsflyer/AFSensorManager;->AFDateFormat:Ljava/lang/Runnable;
 
     invoke-virtual {v1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 10
     :cond_1
     new-instance v0, Lcom/appsflyer/internal/model/event/Launch;
 
     invoke-direct {v0}, Lcom/appsflyer/internal/model/event/Launch;-><init>()V
 
-    .line 11
     invoke-static {}, Lcom/appsflyer/AFDeepLinkManager;->getInstance()Lcom/appsflyer/AFDeepLinkManager;
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {v0}, Lcom/appsflyer/AFEvent;->params()Ljava/util/Map;
 
     move-result-object v3
@@ -351,19 +316,16 @@
 
     iget-object v4, v4, Lcom/appsflyer/AppsFlyerLibCore;->eventDataCollector:Lcom/appsflyer/internal/EventDataCollector;
 
-    .line 13
     invoke-static {p1}, Lcom/appsflyer/AppsFlyerLibCore;->getSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     move-result-object v5
 
     const-string v6, "ddl_sent"
 
-    .line 14
     invoke-interface {v5, v6, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v6
 
-    .line 15
     invoke-static {}, Lcom/appsflyer/AppsFlyerLibCore;->getInstance()Lcom/appsflyer/AppsFlyerLibCore;
 
     move-result-object v7
@@ -372,7 +334,6 @@
 
     move-result v2
 
-    .line 16
     invoke-virtual {p1}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v5
@@ -391,7 +352,6 @@
 
     if-nez v6, :cond_2
 
-    .line 17
     new-instance v1, Lcom/appsflyer/deeplink/DdlEvent;
 
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
@@ -402,7 +362,6 @@
 
     invoke-virtual {v1}, Lcom/appsflyer/deeplink/DdlEvent;->start()V
 
-    .line 18
     :cond_2
     iget-object v1, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
@@ -412,19 +371,16 @@
 
     iget-object v2, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->$$b:Ljava/lang/String;
 
-    .line 19
     invoke-virtual {v0, v2}, Lcom/appsflyer/AFEvent;->key(Ljava/lang/String;)Lcom/appsflyer/AFEvent;
 
     move-result-object v0
 
     iget-object v2, p0, Lcom/appsflyer/AppsFlyerLibCore$5;->valueOf:Lcom/appsflyer/attribution/AppsFlyerRequestListener;
 
-    .line 20
     invoke-virtual {v0, v2}, Lcom/appsflyer/AFEvent;->requestListener(Lcom/appsflyer/attribution/AppsFlyerRequestListener;)Lcom/appsflyer/AFEvent;
 
     move-result-object v0
 
-    .line 21
     invoke-virtual {v1, v0, p1}, Lcom/appsflyer/AppsFlyerLibCore;->$$b(Lcom/appsflyer/AFEvent;Landroid/app/Activity;)V
 
     return-void

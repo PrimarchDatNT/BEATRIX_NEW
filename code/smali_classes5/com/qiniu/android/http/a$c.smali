@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/qiniu/android/http/b;Lcom/qiniu/android/http/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/qiniu/android/http/a$c;->a:Lcom/qiniu/android/http/b;
 
     iput-object p2, p0, Lcom/qiniu/android/http/a$c;->b:Lcom/qiniu/android/http/g;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/http/a$c;->a:Lcom/qiniu/android/http/b;
 
     iget-object v1, p0, Lcom/qiniu/android/http/a$c;->b:Lcom/qiniu/android/http/g;

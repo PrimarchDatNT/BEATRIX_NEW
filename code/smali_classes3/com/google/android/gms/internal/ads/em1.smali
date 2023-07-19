@@ -15,7 +15,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/am1;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 .method public final a()Lcom/google/android/gms/internal/ads/xl1;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/em1;->a:Ljava/lang/String;
 
     const-string v1, ""
@@ -35,18 +33,15 @@
 
     const-string v0, " clientVersion"
 
-    .line 2
     invoke-virtual {v1, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/em1;->b:Ljava/lang/Boolean;
 
     if-nez v0, :cond_1
 
-    .line 4
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -57,13 +52,11 @@
 
     move-result-object v1
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/em1;->c:Ljava/lang/Boolean;
 
     if-nez v0, :cond_2
 
-    .line 6
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -74,7 +67,6 @@
 
     move-result-object v1
 
-    .line 7
     :cond_2
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
@@ -82,7 +74,6 @@
 
     if-nez v0, :cond_4
 
-    .line 8
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v2, "Missing required properties:"
@@ -113,7 +104,6 @@
 
     throw v0
 
-    .line 9
     :cond_4
     new-instance v0, Lcom/google/android/gms/internal/ads/cm1;
 
@@ -121,14 +111,12 @@
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/em1;->b:Ljava/lang/Boolean;
 
-    .line 10
     invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v2
 
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/em1;->c:Ljava/lang/Boolean;
 
-    .line 11
     invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v3
@@ -143,7 +131,6 @@
 .method public final b(Z)Lcom/google/android/gms/internal/ads/am1;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
@@ -156,7 +143,6 @@
 .method public final c(Z)Lcom/google/android/gms/internal/ads/am1;
     .locals 0
 
-    .line 1
     sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/em1;->c:Ljava/lang/Boolean;
@@ -169,10 +155,8 @@
 
     const-string v0, "Null clientVersion"
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/em1;->a:Ljava/lang/String;
 
     return-object p0

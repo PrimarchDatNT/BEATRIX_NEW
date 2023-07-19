@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/shader/m$a;->f:Lcom/commsource/studio/shader/m;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->d()Lcom/commsource/studio/shader/BaseShader;
@@ -84,7 +83,6 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/shader/m$a;->a:[F
 
     array-length v2, v2
@@ -95,7 +93,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     move-result-object v3
@@ -104,12 +101,10 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2}, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
 
     move-result-object v2
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/shader/m$a;->a:[F
 
     invoke-virtual {v2, v3}, Ljava/nio/FloatBuffer;->put([F)Ljava/nio/FloatBuffer;
@@ -120,10 +115,8 @@
 
     invoke-virtual {v3, v4}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/studio/shader/e$a;->g(Ljava/nio/FloatBuffer;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/shader/m$a;->f:Lcom/commsource/studio/shader/m;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->d()Lcom/commsource/studio/shader/BaseShader;
@@ -136,7 +129,6 @@
 
     move-result-object v1
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/studio/shader/m$a;->b:[F
 
     array-length v2, v2
@@ -147,7 +139,6 @@
 
     move-result-object v2
 
-    .line 9
     invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     move-result-object v3
@@ -156,12 +147,10 @@
 
     move-result-object v2
 
-    .line 10
     invoke-virtual {v2}, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
 
     move-result-object v2
 
-    .line 11
     iget-object v3, p0, Lcom/commsource/studio/shader/m$a;->b:[F
 
     invoke-virtual {v2, v3}, Ljava/nio/FloatBuffer;->put([F)Ljava/nio/FloatBuffer;
@@ -170,10 +159,8 @@
 
     invoke-virtual {v3, v4}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 12
     invoke-virtual {v1, v2}, Lcom/commsource/studio/shader/e$a;->i(Ljava/nio/FloatBuffer;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/shader/m$a;->f:Lcom/commsource/studio/shader/m;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->c()Lcom/commsource/studio/shader/BaseShader;
@@ -192,14 +179,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/shader/l$a;->d(F)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/shader/m$a;->f:Lcom/commsource/studio/shader/m;
 
     iget-object v2, p0, Lcom/commsource/studio/shader/m$a;->d:[S
 
     invoke-static {v1, v2}, Lcom/commsource/studio/shader/m;->k(Lcom/commsource/studio/shader/m;[S)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

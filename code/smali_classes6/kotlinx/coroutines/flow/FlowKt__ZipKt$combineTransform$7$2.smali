@@ -166,7 +166,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$7$2;->label:I
 
     const/4 v2, 0x1
@@ -241,7 +240,6 @@
 
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$7$2;->p$0:[Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$7$2;->this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$7;
 
     iget-object v1, v1, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$7;->$transform:Lcotlin/jvm/u/q;

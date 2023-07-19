@@ -49,7 +49,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/n;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/r0/s;->h:Ljava/lang/String;
@@ -75,7 +74,6 @@
 
     const-string p2, "drawArray.plist"
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/r0/s;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -91,17 +89,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/render/b;
 
     invoke-direct {v1}, Lcom/meitu/render/b;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/r0/s;->h:Ljava/lang/String;
 
     if-eqz v2, :cond_0
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -128,11 +123,9 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/render/b;->setFilterData(Lcom/meitu/parse/FilterData;)Z
 
-    .line 4
     :cond_0
     iput-object v1, p0, Lcom/commsource/studio/r0/s;->g:Lcom/meitu/render/b;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -145,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/s;->g:Lcom/meitu/render/b;
 
     if-nez v1, :cond_0
@@ -157,7 +149,6 @@
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/core/MTFilterGLRender;->releaseGL()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -170,7 +161,6 @@
 
     invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/r0/s;->g:Lcom/meitu/render/b;
 
     if-nez v0, :cond_0
@@ -216,7 +206,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/s;->g:Lcom/meitu/render/b;
 
     if-nez v1, :cond_0
@@ -250,7 +239,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/render/b;->setFilterData(Lcom/meitu/parse/FilterData;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -265,7 +253,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/s;->h:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -282,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/s;->g:Lcom/meitu/render/b;
 
     if-nez v1, :cond_0
@@ -308,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/r0/s;->h:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -331,7 +316,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/r0/s;->g:Lcom/meitu/render/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

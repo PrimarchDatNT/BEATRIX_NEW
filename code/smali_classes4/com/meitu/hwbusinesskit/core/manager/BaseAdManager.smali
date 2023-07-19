@@ -111,25 +111,20 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->NONE:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     const-wide/16 v0, 0x0
 
-    .line 3
     iput-wide v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mExpirationTime:J
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
-    .line 5
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -142,7 +137,6 @@
 
     const/4 v0, 0x1
 
-    .line 6
     iput-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mShowRvAdAfterLoaded:Z
 
     return-void
@@ -151,7 +145,6 @@
 .method private synthetic A(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->doShowAppWall(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
 
     return-void
@@ -160,7 +153,6 @@
 .method private synthetic C(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_1
@@ -169,10 +161,8 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
@@ -187,12 +177,10 @@
 .method private synthetic E()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;->onRewardedCompleted()V
 
     :cond_0
@@ -202,7 +190,6 @@
 .method private synthetic G(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v0
@@ -217,7 +204,6 @@
 .method private synthetic I(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->doShowAppWall(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
 
     return-void
@@ -228,7 +214,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->doShowAppWall(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
 
     return-void
@@ -237,7 +222,6 @@
 .method private synthetic M(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v0
@@ -252,7 +236,6 @@
 .method private synthetic O()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v0
@@ -269,12 +252,10 @@
 .method private synthetic a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdData:Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
     invoke-interface {v0, v1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;->onAdLoadSuccess(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
@@ -286,12 +267,10 @@
 .method private synthetic c()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdData:Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
     invoke-interface {v0, v1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;->onAdClick(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
@@ -303,7 +282,6 @@
 .method private callbackAdLoadSuccess()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/h;
 
     invoke-direct {v0, p0}, Lcom/meitu/hwbusinesskit/core/manager/h;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;)V
@@ -316,26 +294,22 @@
 .method private checkLoadOvertime()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->loadOvertimeRunnable:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->loadOvertimeRunnable:Ljava/lang/Runnable;
 
     if-nez v0, :cond_0
 
-    .line 3
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$1;
 
     invoke-direct {v0, p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$1;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;)V
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->loadOvertimeRunnable:Ljava/lang/Runnable;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHandler:Landroid/os/Handler;
 
@@ -351,26 +325,22 @@
 .method private checkPreloadOvertime()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->preloadOvertimeRunnable:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->preloadOvertimeRunnable:Ljava/lang/Runnable;
 
     if-nez v0, :cond_0
 
-    .line 3
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$2;
 
     invoke-direct {v0, p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$2;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;)V
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->preloadOvertimeRunnable:Ljava/lang/Runnable;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHandler:Landroid/os/Handler;
 
@@ -386,12 +356,10 @@
 .method private synthetic e()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdData:Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
     invoke-interface {v0, v1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;->onAdClosed(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
@@ -403,12 +371,10 @@
 .method private synthetic g(ILjava/lang/String;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdData:Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
     invoke-interface {v0, v1, p1, p2}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;->onAdPreloadFailed(Lcom/meitu/hwbusinesskit/core/bean/AdData;ILjava/lang/String;)V
@@ -420,19 +386,16 @@
 .method private hasValidNativeAd(Ljava/lang/String;)Z
     .locals 8
 
-    .line 1
     iget-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 3
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mNativeAd:Ljava/lang/Object;
 
     if-eqz v0, :cond_1
@@ -454,7 +417,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -488,22 +450,17 @@
 
     const/4 p1, 0x0
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mNativeAd:Ljava/lang/Object;
 
-    .line 6
     iput-boolean v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
-    .line 7
     monitor-enter p0
 
-    .line 8
     :try_start_0
     sget-object p1, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->NONE:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 9
     monitor-exit p0
 
     goto :goto_0
@@ -525,12 +482,10 @@
 .method private synthetic i(ILjava/lang/String;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdData:Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
     invoke-interface {v0, v1, p1, p2}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;->onAdLoadFailed(Lcom/meitu/hwbusinesskit/core/bean/AdData;ILjava/lang/String;)V
@@ -542,12 +497,10 @@
 .method private synthetic k(ILjava/lang/String;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdData:Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
     invoke-interface {v0, v1, p1, p2}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;->onAdLoadFailed(Lcom/meitu/hwbusinesskit/core/bean/AdData;ILjava/lang/String;)V
@@ -559,7 +512,6 @@
 .method private synthetic m(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v0
@@ -572,12 +524,10 @@
 .method private synthetic o(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdData:Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
     invoke-interface {v0, v1, p1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;->onAdShowFailed(Lcom/meitu/hwbusinesskit/core/bean/AdData;I)V
@@ -589,12 +539,10 @@
 .method private synthetic q(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdData:Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
     invoke-interface {v0, v1, p1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;->onAdShowStop(Lcom/meitu/hwbusinesskit/core/bean/AdData;I)V
@@ -606,14 +554,12 @@
 .method private removeOvertimeRunnable()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->loadOvertimeRunnable:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->preloadOvertimeRunnable:Ljava/lang/Runnable;
@@ -626,7 +572,6 @@
 .method private synthetic s(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_1
@@ -635,10 +580,8 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
@@ -653,7 +596,6 @@
 .method private synthetic u(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;Landroid/view/View;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_1
@@ -662,10 +604,8 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
@@ -673,7 +613,6 @@
 
     invoke-interface {p1, v0, p2}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;->onAddThirdPartyNativeAdView(Lcom/meitu/hwbusinesskit/core/bean/AdData;Landroid/view/View;)V
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdData:Lcom/meitu/hwbusinesskit/core/bean/AdData;
@@ -687,12 +626,10 @@
 .method private synthetic w()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdData:Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
     invoke-interface {v0, v1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;->onAdStartRequest(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
@@ -706,7 +643,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->doShowAppWall(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
 
     return-void
@@ -820,17 +756,14 @@
 .method public destroyNativeAd()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mCurrentActivity:Ljava/lang/ref/WeakReference;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->clear()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mCurrentActivity:Ljava/lang/ref/WeakReference;
 
     :cond_0
@@ -854,7 +787,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v0
@@ -865,12 +797,10 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHandler:Landroid/os/Handler;
 
@@ -906,7 +836,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mShowRvAdAfterLoaded:Z
 
     return-void
@@ -923,7 +852,6 @@
 .method public getAdData()Lcom/meitu/hwbusinesskit/core/bean/AdData;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdData:Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
     return-object v0
@@ -932,12 +860,10 @@
 .method protected getAdvertId()Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->isUseFormalAdId()Z
 
     move-result v0
@@ -952,7 +878,6 @@
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
-    .line 3
     invoke-virtual {v0}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getTest_id()Ljava/lang/String;
 
     move-result-object v0
@@ -965,7 +890,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
@@ -975,7 +899,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
@@ -1007,7 +930,6 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 6
     :goto_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1031,12 +953,10 @@
 .method protected getCustomId()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->isDebug()Z
 
     move-result v0
@@ -1055,7 +975,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
     invoke-virtual {v0}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getTest_custom_id()Ljava/lang/String;
@@ -1064,7 +983,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
@@ -1084,7 +1002,6 @@
 .method public getPlatformAdType()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatformAdType:Ljava/lang/String;
 
     return-object v0
@@ -1093,7 +1010,6 @@
 .method public getPlatformName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatformName:Ljava/lang/String;
 
     return-object v0
@@ -1102,7 +1018,6 @@
 .method public getPlatformOrder()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatformOrder:I
 
     return v0
@@ -1119,7 +1034,6 @@
 .method public hasCacheAd(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
     if-nez v0, :cond_0
@@ -1128,7 +1042,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getType()Ljava/lang/String;
 
@@ -1142,7 +1055,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
 
     move-result-object p1
@@ -1153,7 +1065,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
@@ -1169,7 +1080,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
 
     move-result-object p1
@@ -1180,7 +1090,6 @@
 
     return p1
 
-    .line 6
     :cond_2
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
 
@@ -1196,7 +1105,6 @@
 .method public hasExpireAd()Z
     .locals 5
 
-    .line 1
     iget-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
     if-eqz v0, :cond_0
@@ -1233,7 +1141,6 @@
 .method protected hasValidAppWall(Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     iget-boolean p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
     return p1
@@ -1242,14 +1149,12 @@
 .method protected hasValidInterstitialAd(Ljava/lang/String;)Z
     .locals 6
 
-    .line 1
     iget-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->isInterstitialAdPrepared()Z
 
     move-result v0
@@ -1264,7 +1169,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -1280,7 +1184,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1298,22 +1201,17 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->destroyInterstitialAd()V
 
-    .line 6
     iput-boolean v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
-    .line 7
     monitor-enter p0
 
-    .line 8
     :try_start_0
     sget-object p1, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->NONE:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 9
     monitor-exit p0
 
     goto :goto_0
@@ -1335,34 +1233,28 @@
 .method public init(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;ILcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlotId:Ljava/lang/String;
 
-    .line 3
     iput p2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatformOrder:I
 
-    .line 4
     invoke-virtual {p1, p2}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getPlatform(I)Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getPlatform()Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatformName:Ljava/lang/String;
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getType()Ljava/lang/String;
@@ -1371,31 +1263,26 @@
 
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatformAdType:Ljava/lang/String;
 
-    .line 7
     iput-object p3, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mConfig:Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;
 
-    .line 8
     new-instance p1, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;
 
     invoke-direct {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;-><init>()V
 
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlotId:Ljava/lang/String;
 
-    .line 9
     invoke-virtual {p1, p2}, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->setAdSlotId(Ljava/lang/String;)Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;
 
     move-result-object p1
 
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
-    .line 10
     invoke-virtual {p1, p2}, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->setAdSlot(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;
 
     move-result-object p1
 
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
-    .line 11
     invoke-virtual {p2}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getTag()Ljava/lang/String;
 
     move-result-object p2
@@ -1406,21 +1293,18 @@
 
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatformName:Ljava/lang/String;
 
-    .line 12
     invoke-virtual {p1, p2}, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->setPlatform(Ljava/lang/String;)Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;
 
     move-result-object p1
 
     iget p2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatformOrder:I
 
-    .line 13
     invoke-virtual {p1, p2}, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->setPlatformOrder(I)Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;
 
     move-result-object p1
 
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
-    .line 14
     invoke-virtual {p2}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getType()Ljava/lang/String;
 
     move-result-object p2
@@ -1431,7 +1315,6 @@
 
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
-    .line 15
     invoke-virtual {p2}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getShowTimeSecond()I
 
     move-result p2
@@ -1440,7 +1323,6 @@
 
     move-result-object p1
 
-    .line 16
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->build()Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
     move-result-object p1
@@ -1455,7 +1337,6 @@
 
     const-string v0, "interstitial"
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mPlatform:Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getType()Ljava/lang/String;
@@ -1468,10 +1349,8 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -1479,7 +1358,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->canPreload()Z
 
     move-result v0
@@ -1496,7 +1374,6 @@
     :goto_0
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 5
     :cond_1
     monitor-exit p0
 
@@ -1546,7 +1423,6 @@
 .method protected onAdClick()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/q;
 
     invoke-direct {v0, p0}, Lcom/meitu/hwbusinesskit/core/manager/q;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;)V
@@ -1559,7 +1435,6 @@
 .method protected onAdClosed()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/v;
 
     invoke-direct {v0, p0}, Lcom/meitu/hwbusinesskit/core/manager/v;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;)V
@@ -1572,10 +1447,8 @@
 .method protected onAdLoadFail(ILjava/lang/String;)V
     .locals 2
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -1587,12 +1460,10 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 3
     monitor-exit p0
 
     return-void
 
-    .line 4
     :cond_0
     sget-object v1, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->PRE_LOADING:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -1605,23 +1476,19 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 5
     :goto_0
     sget-object v1, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->LOAD_FAILED:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 6
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->removeOvertimeRunnable()V
 
     if-eqz v0, :cond_2
 
-    .line 8
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1654,7 +1521,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 9
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/e;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/meitu/hwbusinesskit/core/manager/e;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;ILjava/lang/String;)V
@@ -1663,7 +1529,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1697,7 +1562,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 11
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/c;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/meitu/hwbusinesskit/core/manager/c;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;ILjava/lang/String;)V
@@ -1710,7 +1574,6 @@
     :catchall_0
     move-exception p1
 
-    .line 12
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1722,10 +1585,8 @@
 .method protected onAdLoadFailedWhenShowing(ILjava/lang/String;)V
     .locals 2
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -1733,23 +1594,19 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 3
     monitor-exit p0
 
     return-void
 
-    .line 4
     :cond_0
     sget-object v0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->LOAD_FAILED:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 5
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1782,7 +1639,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 7
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/d;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/meitu/hwbusinesskit/core/manager/d;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;ILjava/lang/String;)V
@@ -1794,7 +1650,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1811,10 +1666,8 @@
         }
     .end annotation
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -1826,7 +1679,6 @@
 
     if-eq v0, v2, :cond_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -1843,21 +1695,17 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 4
     :goto_0
     sget-object v1, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->LOAD_SUCCESS:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 5
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->removeOvertimeRunnable()V
 
-    .line 7
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1884,16 +1732,12 @@
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 8
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mNativeAd:Ljava/lang/Object;
 
-    .line 9
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->setExpirationTime()V
 
-    .line 10
     iput-boolean v2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
-    .line 11
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1920,7 +1764,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 12
     invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     move-result v2
@@ -1941,15 +1784,12 @@
 
     move-result-object v1
 
-    .line 13
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 14
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->callbackAdLoadSuccess()V
 
     if-eqz v0, :cond_6
 
-    .line 15
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1976,12 +1816,10 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 16
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdView:Ljava/lang/ref/WeakReference;
 
     if-eqz v0, :cond_3
 
-    .line 17
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -2000,12 +1838,10 @@
 
     const-string p1, "\u5e7f\u544a\u63a7\u4ef6\u5df2\u4e0d\u5b58\u5728"
 
-    .line 18
     invoke-virtual {p0, v1, p1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdShowStop(ILjava/lang/String;)V
 
     return-void
 
-    .line 19
     :cond_4
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
@@ -2013,7 +1849,6 @@
 
     move-result v2
 
-    .line 20
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -2038,7 +1873,6 @@
 
     float-to-int v3, v3
 
-    .line 21
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -2067,12 +1901,10 @@
 
     const-string p1, "\u5e7f\u544a\u62c9\u53d6\u8d85\u8fc7\u7b49\u5f85\u65f6\u95f4"
 
-    .line 22
     invoke-virtual {p0, v1, p1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdShowStop(ILjava/lang/String;)V
 
     return-void
 
-    .line 23
     :cond_5
     new-instance v1, Lcom/meitu/hwbusinesskit/core/manager/u;
 
@@ -2086,7 +1918,6 @@
     :catchall_0
     move-exception p1
 
-    .line 24
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2098,21 +1929,17 @@
 .method protected onAdShowFailed(ILjava/lang/String;)V
     .locals 2
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     sget-object v0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->SHOW_FAILED:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2129,7 +1956,6 @@
 
     invoke-static {p2}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 5
     new-instance p2, Lcom/meitu/hwbusinesskit/core/manager/r;
 
     invoke-direct {p2, p0, p1}, Lcom/meitu/hwbusinesskit/core/manager/r;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;I)V
@@ -2141,7 +1967,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2153,7 +1978,6 @@
 .method protected onAdShowStop(ILjava/lang/String;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2170,7 +1994,6 @@
 
     invoke-static {p2}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 2
     new-instance p2, Lcom/meitu/hwbusinesskit/core/manager/m;
 
     invoke-direct {p2, p0, p1}, Lcom/meitu/hwbusinesskit/core/manager/m;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;I)V
@@ -2183,10 +2006,8 @@
 .method protected onAdShowSuccess(Ljava/lang/Object;Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
     .locals 2
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -2196,21 +2017,17 @@
 
     const-string p1, "\u5c55\u793a\u5f02\u5e38\uff0c\u5c55\u793a\u524d\u4e0d\u662f\u52a0\u8f7d\u6210\u529f\u72b6\u6001"
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 4
     monitor-exit p0
 
     return-void
 
-    .line 5
     :cond_0
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2237,7 +2054,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 7
     invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     move-result p1
@@ -2258,10 +2074,8 @@
 
     move-result-object p1
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 9
     new-instance p1, Lcom/meitu/hwbusinesskit/core/manager/b;
 
     invoke-direct {p1, p0, p2}, Lcom/meitu/hwbusinesskit/core/manager/b;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
@@ -2273,7 +2087,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2285,10 +2098,8 @@
 .method protected onAdShowSuccess(Ljava/lang/Object;Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;Landroid/view/View;)V
     .locals 2
 
-    .line 11
     monitor-enter p0
 
-    .line 12
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -2298,21 +2109,17 @@
 
     const-string p1, "\u5c55\u793a\u5f02\u5e38\uff0c\u5c55\u793a\u524d\u4e0d\u662f\u52a0\u8f7d\u6210\u529f\u72b6\u6001"
 
-    .line 13
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 14
     monitor-exit p0
 
     return-void
 
-    .line 15
     :cond_0
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 16
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2339,7 +2146,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 17
     invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     move-result p1
@@ -2360,10 +2166,8 @@
 
     move-result-object p1
 
-    .line 18
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 19
     new-instance p1, Lcom/meitu/hwbusinesskit/core/manager/l;
 
     invoke-direct {p1, p0, p2, p3}, Lcom/meitu/hwbusinesskit/core/manager/l;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;Landroid/view/View;)V
@@ -2375,7 +2179,6 @@
     :catchall_0
     move-exception p1
 
-    .line 20
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2387,7 +2190,6 @@
 .method protected onAdStartRequest()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/p;
 
     invoke-direct {v0, p0}, Lcom/meitu/hwbusinesskit/core/manager/p;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;)V
@@ -2400,10 +2202,8 @@
 .method protected onAppWallLoadSuccess()V
     .locals 3
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -2415,7 +2215,6 @@
 
     if-eq v0, v2, :cond_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -2432,26 +2231,21 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 4
     :goto_0
     sget-object v1, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->LOAD_SUCCESS:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 5
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->removeOvertimeRunnable()V
 
-    .line 7
     iput-boolean v2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
     if-eqz v0, :cond_4
 
-    .line 8
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2478,15 +2272,12 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 9
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdView:Ljava/lang/ref/WeakReference;
 
     if-nez v0, :cond_2
 
-    .line 10
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->callbackAdLoadSuccess()V
 
-    .line 11
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/o;
 
     invoke-direct {v0, p0}, Lcom/meitu/hwbusinesskit/core/manager/o;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;)V
@@ -2495,7 +2286,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_2
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
@@ -2509,16 +2299,13 @@
 
     const-string v1, "\u5e7f\u544a\u63a7\u4ef6\u5df2\u4e0d\u5b58\u5728"
 
-    .line 13
     invoke-virtual {p0, v0, v1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdShowStop(ILjava/lang/String;)V
 
     return-void
 
-    .line 14
     :cond_3
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->callbackAdLoadSuccess()V
 
-    .line 15
     new-instance v1, Lcom/meitu/hwbusinesskit/core/manager/k;
 
     invoke-direct {v1, p0, v0}, Lcom/meitu/hwbusinesskit/core/manager/k;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
@@ -2527,7 +2314,6 @@
 
     goto :goto_1
 
-    .line 16
     :cond_4
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -2555,10 +2341,8 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 17
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->setExpirationTime()V
 
-    .line 18
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->callbackAdLoadSuccess()V
 
     :goto_1
@@ -2567,7 +2351,6 @@
     :catchall_0
     move-exception v0
 
-    .line 19
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2579,10 +2362,8 @@
 .method protected onAppWallShowSuccess(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
     .locals 2
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -2592,21 +2373,17 @@
 
     const-string p1, "\u5c55\u793a\u5f02\u5e38\uff0c\u5c55\u793a\u524d\u4e0d\u662f\u52a0\u8f7d\u6210\u529f\u72b6\u6001"
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 4
     monitor-exit p0
 
     return-void
 
-    .line 5
     :cond_0
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2625,7 +2402,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 7
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/f;
 
     invoke-direct {v0, p0, p1}, Lcom/meitu/hwbusinesskit/core/manager/f;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
@@ -2637,7 +2413,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2649,10 +2424,8 @@
 .method protected onInterstitialAdLoadSuccess()V
     .locals 3
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -2664,7 +2437,6 @@
 
     if-eq v0, v2, :cond_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -2681,23 +2453,19 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 4
     :goto_0
     sget-object v1, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->LOAD_SUCCESS:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 5
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->removeOvertimeRunnable()V
 
     if-eqz v0, :cond_2
 
-    .line 7
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2724,10 +2492,8 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->callbackAdLoadSuccess()V
 
-    .line 9
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/a;
 
     invoke-direct {v0, p0}, Lcom/meitu/hwbusinesskit/core/manager/a;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;)V
@@ -2736,7 +2502,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -2764,13 +2529,10 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->setExpirationTime()V
 
-    .line 12
     iput-boolean v2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
-    .line 13
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2795,7 +2557,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mInterstitialAd:Ljava/lang/Object;
 
     if-eqz v1, :cond_3
@@ -2820,10 +2581,8 @@
 
     move-result-object v0
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 16
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->callbackAdLoadSuccess()V
 
     :goto_2
@@ -2832,7 +2591,6 @@
     :catchall_0
     move-exception v0
 
-    .line 17
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2844,7 +2602,6 @@
 .method protected onRewardedCompleted()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2863,7 +2620,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/s;
 
     invoke-direct {v0, p0}, Lcom/meitu/hwbusinesskit/core/manager/s;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;)V
@@ -2881,10 +2637,8 @@
         }
     .end annotation
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -2896,7 +2650,6 @@
 
     if-eq v0, v2, :cond_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -2913,21 +2666,17 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 4
     :goto_0
     sget-object v1, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->LOAD_SUCCESS:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 5
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->removeOvertimeRunnable()V
 
-    .line 7
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2954,16 +2703,12 @@
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 8
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mNativeAd:Ljava/lang/Object;
 
-    .line 9
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->setExpirationTime()V
 
-    .line 10
     iput-boolean v2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
-    .line 11
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2990,7 +2735,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 12
     invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     move-result v2
@@ -3011,27 +2755,22 @@
 
     move-result-object v1
 
-    .line 13
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 14
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->callbackAdLoadSuccess()V
 
     if-eqz v0, :cond_4
 
-    .line 15
     iget-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mShowRvAdAfterLoaded:Z
 
     if-eqz v0, :cond_4
 
-    .line 16
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
     invoke-virtual {v0}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getWaitTimeSecond()I
 
     move-result v0
 
-    .line 17
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -3056,7 +2795,6 @@
 
     float-to-int v1, v1
 
-    .line 18
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -3087,12 +2825,10 @@
 
     const-string v0, "\u5e7f\u544a\u62c9\u53d6\u8d85\u8fc7\u7b49\u5f85\u65f6\u95f4"
 
-    .line 19
     invoke-virtual {p0, p1, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdShowStop(ILjava/lang/String;)V
 
     return-void
 
-    .line 20
     :cond_3
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/t;
 
@@ -3106,7 +2842,6 @@
     :catchall_0
     move-exception p1
 
-    .line 21
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -3138,12 +2873,10 @@
 .method public preloadAppWall()V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3164,11 +2897,9 @@
 
     return-void
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -3182,13 +2913,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     sget-object v2, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->NONE:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     if-eq v0, v2, :cond_2
 
-    .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3207,21 +2936,17 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 7
     monitor-exit p0
 
     return-void
 
-    .line 8
     :cond_2
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 9
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3248,22 +2973,18 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdStartRequest()V
 
-    .line 12
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->doLoadAppWall(Landroid/content/Context;)V
 
-    .line 13
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->checkPreloadOvertime()V
 
     return-void
 
-    .line 14
     :cond_3
     :goto_0
     :try_start_1
@@ -3271,7 +2992,6 @@
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 15
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3290,7 +3010,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 16
     monitor-exit p0
 
     return-void
@@ -3298,7 +3017,6 @@
     :catchall_0
     move-exception v0
 
-    .line 17
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -3309,7 +3027,6 @@
 .method public preloadInterstitialAd(Landroid/content/Context;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlotId:Ljava/lang/String;
 
     invoke-virtual {p0, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->hasValidInterstitialAd(Ljava/lang/String;)Z
@@ -3318,7 +3035,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3339,11 +3055,9 @@
 
     return-void
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -3357,13 +3071,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     sget-object v2, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->NONE:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     if-eq v0, v2, :cond_2
 
-    .line 6
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3382,21 +3094,17 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 7
     monitor-exit p0
 
     return-void
 
-    .line 8
     :cond_2
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 9
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3423,18 +3131,14 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdStartRequest()V
 
-    .line 12
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->doLoadInterstitialAdvert(Landroid/content/Context;)V
 
-    .line 13
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->checkPreloadOvertime()V
 
     return-void
 
-    .line 14
     :cond_3
     :goto_0
     :try_start_1
@@ -3442,7 +3146,6 @@
 
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 15
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3461,7 +3164,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 16
     monitor-exit p0
 
     return-void
@@ -3469,7 +3171,6 @@
     :catchall_0
     move-exception p1
 
-    .line 17
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -3480,7 +3181,6 @@
 .method public preloadNativeAd()Z
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlotId:Ljava/lang/String;
 
     invoke-direct {p0, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->hasValidNativeAd(Ljava/lang/String;)Z
@@ -3491,7 +3191,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3512,11 +3211,9 @@
 
     return v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -3532,13 +3229,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     sget-object v4, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->NONE:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     if-eq v0, v4, :cond_2
 
-    .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3557,21 +3252,17 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 7
     monitor-exit p0
 
     return v1
 
-    .line 8
     :cond_2
     iput-object v2, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 9
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3598,22 +3289,18 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdStartRequest()V
 
-    .line 12
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->doLoadAdvert(Landroid/content/Context;)V
 
-    .line 13
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->checkPreloadOvertime()V
 
     return v3
 
-    .line 14
     :cond_3
     :goto_0
     :try_start_1
@@ -3621,7 +3308,6 @@
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 15
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3640,7 +3326,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 16
     monitor-exit p0
 
     return v3
@@ -3648,7 +3333,6 @@
     :catchall_0
     move-exception v0
 
-    .line 17
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -3667,7 +3351,6 @@
 .method public setAdManagerListener(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdManagerListener:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;
 
     return-void
@@ -3676,7 +3359,6 @@
 .method public setCurrentActivity(Landroid/app/Activity;)V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -3689,7 +3371,6 @@
 .method protected setExpirationTime()V
     .locals 4
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -3706,7 +3387,6 @@
 .method public setVideoLifecycleListener(Lcom/meitu/hwbusinesskit/core/listener/OnVideoLifecycleListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mOnVideoLifecycleListener:Lcom/meitu/hwbusinesskit/core/listener/OnVideoLifecycleListener;
 
     return-void
@@ -3723,12 +3403,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mHasCacheAd:Z
 
     if-eqz v0, :cond_2
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3757,7 +3435,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
@@ -3770,12 +3447,10 @@
 
     const-string v0, "\u5e7f\u544a\u63a7\u4ef6\u5df2\u4e0d\u5b58\u5728"
 
-    .line 4
     invoke-virtual {p0, p1, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdShowStop(ILjava/lang/String;)V
 
     return-void
 
-    .line 5
     :cond_0
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/n;
 
@@ -3785,7 +3460,6 @@
 
     goto/16 :goto_0
 
-    .line 6
     :cond_1
     new-instance p1, Lcom/meitu/hwbusinesskit/core/manager/g;
 
@@ -3795,7 +3469,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
@@ -3813,19 +3486,15 @@
 
     const-string v0, "\u7f51\u7edc\u4e0d\u53ef\u7528"
 
-    .line 8
     invoke-virtual {p0, p1, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdShowFailed(ILjava/lang/String;)V
 
     return-void
 
-    .line 9
     :cond_3
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdView:Ljava/lang/ref/WeakReference;
 
-    .line 10
     monitor-enter p0
 
-    .line 11
     :try_start_0
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -3839,13 +3508,11 @@
 
     goto :goto_1
 
-    .line 12
     :cond_4
     sget-object v1, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->NONE:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     if-eq p1, v1, :cond_5
 
-    .line 13
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3864,21 +3531,17 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 14
     monitor-exit p0
 
     return-void
 
-    .line 15
     :cond_5
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 16
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 17
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3905,29 +3568,24 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 18
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdStartRequest()V
 
-    .line 19
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->doLoadAppWall(Landroid/content/Context;)V
 
-    .line 20
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->checkLoadOvertime()V
 
     :goto_0
     return-void
 
-    .line 21
     :cond_6
     :goto_1
     :try_start_1
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 22
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3946,7 +3604,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 23
     monitor-exit p0
 
     return-void
@@ -3954,7 +3611,6 @@
     :catchall_0
     move-exception p1
 
-    .line 24
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -3965,7 +3621,6 @@
 .method public showInterstitialAd(Landroid/content/Context;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlotId:Ljava/lang/String;
 
     invoke-virtual {p0, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->hasValidInterstitialAd(Ljava/lang/String;)Z
@@ -3974,7 +3629,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -4001,7 +3655,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 3
     new-instance p1, Lcom/meitu/hwbusinesskit/core/manager/a;
 
     invoke-direct {p1, p0}, Lcom/meitu/hwbusinesskit/core/manager/a;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;)V
@@ -4010,7 +3663,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
@@ -4028,16 +3680,13 @@
 
     const-string v0, "\u7f51\u7edc\u4e0d\u53ef\u7528"
 
-    .line 5
     invoke-virtual {p0, p1, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdShowFailed(ILjava/lang/String;)V
 
     return-void
 
-    .line 6
     :cond_1
     monitor-enter p0
 
-    .line 7
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -4051,13 +3700,11 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     sget-object v2, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->NONE:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     if-eq v0, v2, :cond_3
 
-    .line 9
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -4076,21 +3723,17 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 10
     monitor-exit p0
 
     return-void
 
-    .line 11
     :cond_3
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 12
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 13
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4117,25 +3760,20 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdStartRequest()V
 
-    .line 15
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->doLoadInterstitialAdvert(Landroid/content/Context;)V
 
-    .line 16
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->checkLoadOvertime()V
 
     :goto_0
     return-void
 
-    .line 17
     :cond_4
     :goto_1
     :try_start_1
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 18
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -4154,7 +3792,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 19
     monitor-exit p0
 
     return-void
@@ -4162,7 +3799,6 @@
     :catchall_0
     move-exception p1
 
-    .line 20
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -4181,7 +3817,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlotId:Ljava/lang/String;
 
     invoke-direct {p0, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->hasValidNativeAd(Ljava/lang/String;)Z
@@ -4190,7 +3825,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4217,7 +3851,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
@@ -4230,12 +3863,10 @@
 
     const-string v0, "\u5e7f\u544a\u63a7\u4ef6\u5df2\u4e0d\u5b58\u5728"
 
-    .line 4
     invoke-virtual {p0, p1, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdShowStop(ILjava/lang/String;)V
 
     return-void
 
-    .line 5
     :cond_0
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/j;
 
@@ -4245,7 +3876,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
@@ -4263,19 +3893,15 @@
 
     const-string v0, "\u7f51\u7edc\u4e0d\u53ef\u7528"
 
-    .line 7
     invoke-virtual {p0, p1, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdShowFailed(ILjava/lang/String;)V
 
     return-void
 
-    .line 8
     :cond_2
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdView:Ljava/lang/ref/WeakReference;
 
-    .line 9
     monitor-enter p0
 
-    .line 10
     :try_start_0
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -4289,13 +3915,11 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     sget-object v1, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->NONE:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     if-eq p1, v1, :cond_4
 
-    .line 12
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -4314,43 +3938,35 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 13
     monitor-exit p0
 
     return-void
 
-    .line 14
     :cond_4
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 15
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 16
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdStartRequest()V
 
-    .line 17
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->doLoadAdvert(Landroid/content/Context;)V
 
-    .line 18
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->checkLoadOvertime()V
 
     :goto_0
     return-void
 
-    .line 19
     :cond_5
     :goto_1
     :try_start_1
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 20
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -4369,7 +3985,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 21
     monitor-exit p0
 
     return-void
@@ -4377,7 +3992,6 @@
     :catchall_0
     move-exception p1
 
-    .line 22
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -4390,10 +4004,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mShowRvAdAfterLoaded:Z
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mAdSlotId:Ljava/lang/String;
 
     invoke-direct {p0, v1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->hasValidNativeAd(Ljava/lang/String;)Z
@@ -4402,7 +4014,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4429,7 +4040,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 4
     new-instance v0, Lcom/meitu/hwbusinesskit/core/manager/i;
 
     invoke-direct {v0, p0}, Lcom/meitu/hwbusinesskit/core/manager/i;-><init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;)V
@@ -4438,7 +4048,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
@@ -4454,16 +4063,13 @@
 
     const-string v1, "\u7f51\u7edc\u4e0d\u53ef\u7528"
 
-    .line 6
     invoke-virtual {p0, v0, v1}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdShowFailed(ILjava/lang/String;)V
 
     return-void
 
-    .line 7
     :cond_1
     monitor-enter p0
 
-    .line 8
     :try_start_0
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
@@ -4477,13 +4083,11 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     sget-object v2, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;->NONE:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
     if-eq v0, v2, :cond_3
 
-    .line 10
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4502,43 +4106,35 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 11
     monitor-exit p0
 
     return-void
 
-    .line 12
     :cond_3
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 13
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 14
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdStartRequest()V
 
-    .line 15
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->doLoadAdvert(Landroid/content/Context;)V
 
-    .line 16
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->checkLoadOvertime()V
 
     :goto_0
     return-void
 
-    .line 17
     :cond_4
     :goto_1
     :try_start_1
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->mState:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$State;
 
-    .line 18
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4557,7 +4153,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 19
     monitor-exit p0
 
     return-void
@@ -4565,7 +4160,6 @@
     :catchall_0
     move-exception v0
 
-    .line 20
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0

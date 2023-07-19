@@ -27,7 +27,6 @@
 .method public constructor <init>(Lorg/apache/http/HeaderIterator;)V
     .locals 1
 
-    .line 7
     sget-object v0, Lorg/apache/http/message/BasicHeaderValueParser;->INSTANCE:Lorg/apache/http/message/BasicHeaderValueParser;
 
     invoke-direct {p0, p1, v0}, Lorg/apache/http/message/BasicHeaderElementIterator;-><init>(Lorg/apache/http/HeaderIterator;Lorg/apache/http/message/HeaderValueParser;)V
@@ -38,23 +37,18 @@
 .method public constructor <init>(Lorg/apache/http/HeaderIterator;Lorg/apache/http/message/HeaderValueParser;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->currentElement:Lorg/apache/http/HeaderElement;
 
-    .line 3
     iput-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->buffer:Lorg/apache/http/util/CharArrayBuffer;
 
-    .line 4
     iput-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->cursor:Lorg/apache/http/message/ParserCursor;
 
     const-string v0, "Header iterator"
 
-    .line 5
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -65,7 +59,6 @@
 
     const-string p1, "Parser"
 
-    .line 6
     invoke-static {p2, p1}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -82,13 +75,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->cursor:Lorg/apache/http/message/ParserCursor;
 
-    .line 2
     iput-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->buffer:Lorg/apache/http/util/CharArrayBuffer;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->headerIt:Lorg/apache/http/HeaderIterator;
 
@@ -98,21 +88,18 @@
 
     if-eqz v0, :cond_2
 
-    .line 4
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->headerIt:Lorg/apache/http/HeaderIterator;
 
     invoke-interface {v0}, Lorg/apache/http/HeaderIterator;->nextHeader()Lorg/apache/http/Header;
 
     move-result-object v0
 
-    .line 5
     instance-of v1, v0, Lorg/apache/http/FormattedHeader;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_1
 
-    .line 6
     check-cast v0, Lorg/apache/http/FormattedHeader;
 
     invoke-interface {v0}, Lorg/apache/http/FormattedHeader;->getBuffer()Lorg/apache/http/util/CharArrayBuffer;
@@ -121,7 +108,6 @@
 
     iput-object v1, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->buffer:Lorg/apache/http/util/CharArrayBuffer;
 
-    .line 7
     new-instance v3, Lorg/apache/http/message/ParserCursor;
 
     invoke-virtual {v1}, Lorg/apache/http/util/CharArrayBuffer;->length()I
@@ -132,7 +118,6 @@
 
     iput-object v3, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->cursor:Lorg/apache/http/message/ParserCursor;
 
-    .line 8
     invoke-interface {v0}, Lorg/apache/http/FormattedHeader;->getValuePos()I
 
     move-result v0
@@ -141,7 +126,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-interface {v0}, Lorg/apache/http/Header;->getValue()Ljava/lang/String;
 
@@ -149,7 +133,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 10
     new-instance v1, Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
@@ -160,10 +143,8 @@
 
     iput-object v1, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->buffer:Lorg/apache/http/util/CharArrayBuffer;
 
-    .line 11
     invoke-virtual {v1, v0}, Lorg/apache/http/util/CharArrayBuffer;->append(Ljava/lang/String;)V
 
-    .line 12
     new-instance v0, Lorg/apache/http/message/ParserCursor;
 
     iget-object v1, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->buffer:Lorg/apache/http/util/CharArrayBuffer;
@@ -184,7 +165,6 @@
 .method private parseNextElement()V
     .locals 3
 
-    .line 1
     :cond_0
     :goto_0
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->headerIt:Lorg/apache/http/HeaderIterator;
@@ -204,7 +184,6 @@
     :cond_1
     return-void
 
-    .line 2
     :cond_2
     :goto_1
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->cursor:Lorg/apache/http/message/ParserCursor;
@@ -217,17 +196,14 @@
 
     if-eqz v0, :cond_4
 
-    .line 3
     :cond_3
     invoke-direct {p0}, Lorg/apache/http/message/BasicHeaderElementIterator;->bufferHeaderValue()V
 
-    .line 4
     :cond_4
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->cursor:Lorg/apache/http/message/ParserCursor;
 
     if-eqz v0, :cond_0
 
-    .line 5
     :cond_5
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->cursor:Lorg/apache/http/message/ParserCursor;
 
@@ -237,7 +213,6 @@
 
     if-nez v0, :cond_7
 
-    .line 6
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->parser:Lorg/apache/http/message/HeaderValueParser;
 
     iget-object v1, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->buffer:Lorg/apache/http/util/CharArrayBuffer;
@@ -248,7 +223,6 @@
 
     move-result-object v0
 
-    .line 7
     invoke-interface {v0}, Lorg/apache/http/HeaderElement;->getName()Ljava/lang/String;
 
     move-result-object v1
@@ -265,13 +239,11 @@
 
     if-eqz v1, :cond_5
 
-    .line 8
     :cond_6
     iput-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->currentElement:Lorg/apache/http/HeaderElement;
 
     return-void
 
-    .line 9
     :cond_7
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->cursor:Lorg/apache/http/message/ParserCursor;
 
@@ -283,10 +255,8 @@
 
     const/4 v0, 0x0
 
-    .line 10
     iput-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->cursor:Lorg/apache/http/message/ParserCursor;
 
-    .line 11
     iput-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->buffer:Lorg/apache/http/util/CharArrayBuffer;
 
     goto :goto_0
@@ -297,15 +267,12 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->currentElement:Lorg/apache/http/HeaderElement;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lorg/apache/http/message/BasicHeaderElementIterator;->parseNextElement()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->currentElement:Lorg/apache/http/HeaderElement;
 
@@ -330,7 +297,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/message/BasicHeaderElementIterator;->nextElement()Lorg/apache/http/HeaderElement;
 
     move-result-object v0
@@ -346,15 +312,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->currentElement:Lorg/apache/http/HeaderElement;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lorg/apache/http/message/BasicHeaderElementIterator;->parseNextElement()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->currentElement:Lorg/apache/http/HeaderElement;
 
@@ -362,12 +325,10 @@
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lorg/apache/http/message/BasicHeaderElementIterator;->currentElement:Lorg/apache/http/HeaderElement;
 
     return-object v0
 
-    .line 5
     :cond_1
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -386,7 +347,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Remove not supported"

@@ -39,42 +39,34 @@
 .method constructor <init>(Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;F)V
     .locals 2
 
-    .line 1
     iput-object p1, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->J:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->b:I
 
     const/16 v0, 0xa
 
-    .line 3
     iput v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->c:I
 
     const v0, 0x3f7ae148    # 0.98f
 
-    .line 4
     iput v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->f:F
 
     const-wide/16 v0, 0x0
 
-    .line 5
     iput-wide v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->g:J
 
-    .line 6
     invoke-static {}, Landroid/view/animation/AnimationUtils;->currentAnimationTimeMillis()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->p:J
 
-    .line 7
     iput p2, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->d:F
 
-    .line 8
     iget p1, p1, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->b:I
 
     iput p1, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->a:I
@@ -87,7 +79,6 @@
 .method public a()Ljava/lang/Runnable;
     .locals 11
 
-    .line 1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->J:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iget-object v1, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->b1:Lcom/scwang/smartrefresh/layout/constant/RefreshState;
@@ -100,7 +91,6 @@
 
     return-object v3
 
-    .line 2
     :cond_0
     iget v2, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->b:I
 
@@ -153,7 +143,6 @@
 
     iget-boolean v1, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->g0:Z
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->s0(Z)Z
 
     move-result v0
@@ -189,12 +178,10 @@
     :cond_4
     const/4 v0, 0x0
 
-    .line 4
     iget-object v1, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->J:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iget v1, v1, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->b:I
 
-    .line 5
     iget v2, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->d:F
 
     move v4, v1
@@ -206,7 +193,6 @@
 
     float-to-double v5, v2
 
-    .line 6
     iget v2, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->f:F
 
     float-to-double v7, v2
@@ -233,7 +219,6 @@
 
     double-to-float v2, v5
 
-    .line 7
     iget v5, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->c:I
 
     int-to-float v5, v5
@@ -248,7 +233,6 @@
 
     mul-float v5, v5, v2
 
-    .line 8
     invoke-static {v5}, Ljava/lang/Math;->abs(F)F
 
     move-result v7
@@ -257,7 +241,6 @@
 
     if-gez v6, :cond_7
 
-    .line 9
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->J:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iget-object v1, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->b1:Lcom/scwang/smartrefresh/layout/constant/RefreshState;
@@ -295,7 +278,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_8
     invoke-static {}, Landroid/view/animation/AnimationUtils;->currentAnimationTimeMillis()J
 
@@ -303,7 +285,6 @@
 
     iput-wide v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->g:J
 
-    .line 11
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->J:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iget-object v0, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->Z0:Landroid/os/Handler;
@@ -320,7 +301,6 @@
 .method public run()V
     .locals 11
 
-    .line 1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->J:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iget-object v1, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->m1:Ljava/lang/Runnable;
@@ -333,17 +313,14 @@
 
     if-nez v0, :cond_2
 
-    .line 2
     invoke-static {}, Landroid/view/animation/AnimationUtils;->currentAnimationTimeMillis()J
 
     move-result-wide v0
 
-    .line 3
     iget-wide v2, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->p:J
 
     sub-long v2, v0, v2
 
-    .line 4
     iget v4, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->d:F
 
     float-to-double v4, v4
@@ -390,7 +367,6 @@
 
     mul-float v4, v4, v2
 
-    .line 5
     invoke-static {v4}, Ljava/lang/Math;->abs(F)F
 
     move-result v2
@@ -401,10 +377,8 @@
 
     if-lez v2, :cond_1
 
-    .line 6
     iput-wide v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->p:J
 
-    .line 7
     iget v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->a:I
 
     int-to-float v0, v0
@@ -415,7 +389,6 @@
 
     iput v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->a:I
 
-    .line 8
     iget-object v1, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->J:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iget v2, v1, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->b:I
@@ -426,12 +399,10 @@
 
     if-lez v2, :cond_0
 
-    .line 9
     iget-object v1, v1, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->a1:Lcom/scwang/smartrefresh/layout/c/i;
 
     invoke-interface {v1, v0, v3}, Lcom/scwang/smartrefresh/layout/c/i;->g(IZ)Lcom/scwang/smartrefresh/layout/c/i;
 
-    .line 10
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->J:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iget-object v0, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->Z0:Landroid/os/Handler;
@@ -444,18 +415,15 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     iput-object v5, v1, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->m1:Ljava/lang/Runnable;
 
-    .line 12
     iget-object v0, v1, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->a1:Lcom/scwang/smartrefresh/layout/c/i;
 
     const/4 v1, 0x0
 
     invoke-interface {v0, v1, v3}, Lcom/scwang/smartrefresh/layout/c/i;->g(IZ)Lcom/scwang/smartrefresh/layout/c/i;
 
-    .line 13
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->J:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iget-object v0, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->X0:Lcom/scwang/smartrefresh/layout/c/e;
@@ -472,7 +440,6 @@
 
     invoke-static {v0, v2}, Lcom/scwang/smartrefresh/layout/e/b;->e(Landroid/view/View;I)V
 
-    .line 14
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->J:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iget-boolean v2, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->j1:Z
@@ -485,12 +452,10 @@
 
     if-lez v2, :cond_2
 
-    .line 15
     iput-boolean v1, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->j1:Z
 
     goto :goto_0
 
-    .line 16
     :cond_1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$l;->J:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 

@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lcom/appsflyer/internal/i$c;
 
     const-string v1, "UNKNOWN"
@@ -95,7 +94,6 @@
 
     new-array v5, v5, [Lcom/appsflyer/internal/i$c;
 
-    .line 2
     sget-object v8, Lcom/appsflyer/internal/i$c;->$$a:Lcom/appsflyer/internal/i$c;
 
     aput-object v8, v5, v2
@@ -125,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -134,7 +131,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/appsflyer/internal/i$c;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/appsflyer/internal/i$c;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -149,7 +145,6 @@
 .method public static values()[Lcom/appsflyer/internal/i$c;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/appsflyer/internal/i$c;->getInstance:[Lcom/appsflyer/internal/i$c;
 
     invoke-virtual {v0}, [Lcom/appsflyer/internal/i$c;->clone()Ljava/lang/Object;

@@ -38,7 +38,6 @@
 
     const-string v1, "com.google.android.gms"
 
-    .line 1
     filled-new-array {v0, v1}, [Ljava/lang/String;
 
     move-result-object v0
@@ -55,7 +54,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/internal/k;
 
     invoke-direct {v0, p1}, Lcom/google/firebase/appindexing/internal/k;-><init>(Landroid/content/Context;)V
@@ -88,16 +86,12 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/appindexing/c;-><init>()V
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/appindexing/internal/j;->g:Lcom/google/android/gms/common/api/h;
 
-    .line 4
     iput-object p1, p0, Lcom/google/firebase/appindexing/internal/j;->i:Landroid/content/Context;
 
-    .line 5
     new-instance p1, Lcom/google/firebase/appindexing/internal/l;
 
     invoke-direct {p1, p2}, Lcom/google/firebase/appindexing/internal/l;-><init>(Lcom/google/android/gms/common/api/h;)V
@@ -124,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/appindexing/internal/j;->h:Lcom/google/firebase/appindexing/internal/l;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/appindexing/internal/l;->e(Lcom/google/firebase/appindexing/internal/zzx;)Lcom/google/android/gms/tasks/k;
@@ -149,7 +142,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/internal/zzx;
 
     const/4 v1, 0x3
@@ -158,7 +150,6 @@
 
     invoke-direct {v0, v1, v2, p1, v2}, Lcom/google/firebase/appindexing/internal/zzx;-><init>(I[Lcom/google/firebase/appindexing/internal/Thing;[Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, v0}, Lcom/google/firebase/appindexing/internal/j;->e(Lcom/google/firebase/appindexing/internal/zzx;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -177,7 +168,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/appindexing/internal/zzx;
 
     const/4 v1, 0x4
@@ -186,7 +176,6 @@
 
     invoke-direct {v0, v1, v2, v2, v2}, Lcom/google/firebase/appindexing/internal/zzx;-><init>(I[Lcom/google/firebase/appindexing/internal/Thing;[Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, v0}, Lcom/google/firebase/appindexing/internal/j;->e(Lcom/google/firebase/appindexing/internal/zzx;)Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
@@ -217,19 +206,16 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     :try_start_0
     array-length v2, p1
 
     new-array v2, v2, [Lcom/google/firebase/appindexing/internal/Thing;
 
-    .line 2
     array-length v3, p1
 
     invoke-static {p1, v1, v2, v1, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 3
     :goto_0
     invoke-static {}, Lcom/google/android/gms/internal/icing/f5;->a()Z
 
@@ -239,14 +225,12 @@
 
     if-eqz p1, :cond_a
 
-    .line 4
     invoke-static {}, Lcom/google/android/gms/common/util/v;->h()Z
 
     move-result p1
 
     if-eqz p1, :cond_a
 
-    .line 5
     iget-object p1, p0, Lcom/google/firebase/appindexing/internal/j;->i:Landroid/content/Context;
 
     if-eqz p1, :cond_a
@@ -257,27 +241,23 @@
 
     if-lez v4, :cond_a
 
-    .line 6
     sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v5, 0x1c
 
     if-lt v4, v5, :cond_1
 
-    .line 7
     new-instance v4, Lcom/google/firebase/appindexing/internal/b;
 
     invoke-direct {v4, p1}, Lcom/google/firebase/appindexing/internal/b;-><init>(Landroid/content/Context;)V
 
     goto :goto_1
 
-    .line 8
     :cond_1
     new-instance v4, Lcom/google/firebase/appindexing/internal/a;
 
     invoke-direct {v4, p1}, Lcom/google/firebase/appindexing/internal/a;-><init>(Landroid/content/Context;)V
 
-    .line 9
     :goto_1
     array-length p1, v2
 
@@ -290,14 +270,12 @@
 
     if-eqz v6, :cond_9
 
-    .line 10
     invoke-virtual {v6}, Lcom/google/firebase/appindexing/internal/Thing;->A()Lcom/google/firebase/appindexing/internal/Thing$zza;
 
     move-result-object v7
 
     const-string v8, "sliceUri"
 
-    .line 11
     invoke-virtual {v7}, Lcom/google/firebase/appindexing/internal/Thing$zza;->y()Landroid/os/Bundle;
 
     move-result-object v9
@@ -318,7 +296,6 @@
 
     goto :goto_3
 
-    .line 12
     :cond_2
     invoke-virtual {v7}, Lcom/google/firebase/appindexing/internal/Thing$zza;->y()Landroid/os/Bundle;
 
@@ -337,7 +314,6 @@
     :goto_4
     if-eqz v7, :cond_4
 
-    .line 13
     array-length v8, v7
 
     if-lez v8, :cond_4
@@ -349,7 +325,6 @@
     :cond_4
     const/4 v8, 0x0
 
-    .line 14
     :goto_5
     invoke-virtual {v6}, Lcom/google/firebase/appindexing/internal/Thing;->A()Lcom/google/firebase/appindexing/internal/Thing$zza;
 
@@ -357,7 +332,6 @@
 
     const-string v9, "grantSlicePermission"
 
-    .line 15
     invoke-virtual {v6}, Lcom/google/firebase/appindexing/internal/Thing$zza;->y()Landroid/os/Bundle;
 
     move-result-object v10
@@ -378,7 +352,6 @@
 
     goto :goto_6
 
-    .line 16
     :cond_5
     invoke-virtual {v6}, Lcom/google/firebase/appindexing/internal/Thing$zza;->y()Landroid/os/Bundle;
 
@@ -397,7 +370,6 @@
     :goto_7
     if-eqz v6, :cond_7
 
-    .line 17
     array-length v9, v6
 
     if-lez v9, :cond_7
@@ -418,10 +390,8 @@
 
     if-eqz v6, :cond_9
 
-    .line 18
     aget-object v6, v7, v1
 
-    .line 19
     sget-object v7, Lcom/google/firebase/appindexing/internal/j;->j:[Ljava/lang/String;
 
     array-length v8, v7
@@ -435,7 +405,6 @@
     :try_end_0
     .catch Ljava/lang/ArrayStoreException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 20
     :try_start_1
     invoke-static {v6}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -450,7 +419,6 @@
     :catch_0
     move-exception v10
 
-    .line 21
     :try_start_2
     invoke-static {v10}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -482,7 +450,6 @@
 
     const/4 v11, 0x5
 
-    .line 22
     invoke-static {v11}, Lcom/google/firebase/appindexing/internal/w;->a(I)Z
 
     move-result v11
@@ -491,7 +458,6 @@
 
     const-string v11, "FirebaseAppIndex"
 
-    .line 23
     invoke-static {v11, v10}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_2
     .catch Ljava/lang/ArrayStoreException; {:try_start_2 .. :try_end_2} :catch_1
@@ -507,20 +473,17 @@
 
     goto/16 :goto_2
 
-    .line 24
     :cond_a
     new-instance p1, Lcom/google/firebase/appindexing/internal/zzx;
 
     invoke-direct {p1, v3, v2, v0, v0}, Lcom/google/firebase/appindexing/internal/zzx;-><init>(I[Lcom/google/firebase/appindexing/internal/Thing;[Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 25
     invoke-direct {p0, p1}, Lcom/google/firebase/appindexing/internal/j;->e(Lcom/google/firebase/appindexing/internal/zzx;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 26
     :catch_1
     new-instance p1, Lcom/google/firebase/appindexing/FirebaseAppIndexingInvalidArgumentException;
 

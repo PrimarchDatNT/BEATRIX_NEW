@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Ljava/io/InputStream;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/io/InputStream;
 
     invoke-virtual {p0, p1}, Lio/grpc/n1$a;->f(Ljava/io/InputStream;)Ljava/io/InputStream;
@@ -54,7 +52,6 @@
 .method public bridge synthetic c(Ljava/io/InputStream;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/n1$a;->e(Ljava/io/InputStream;)Ljava/io/InputStream;
 
     move-result-object p1
@@ -65,7 +62,6 @@
 .method public e(Ljava/io/InputStream;)Ljava/io/InputStream;
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/InputStream;->markSupported()Z
 
     move-result v0
@@ -74,20 +70,17 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     instance-of v0, p1, Lio/grpc/s0;
 
     if-eqz v0, :cond_1
 
-    .line 3
     new-instance v0, Lio/grpc/n1$d;
 
     invoke-direct {v0, p1}, Lio/grpc/n1$d;-><init>(Ljava/io/InputStream;)V
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Ljava/io/BufferedInputStream;
 

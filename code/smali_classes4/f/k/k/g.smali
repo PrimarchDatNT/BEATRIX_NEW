@@ -7,7 +7,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/k/d;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -22,7 +21,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "get"
@@ -49,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p2
@@ -58,7 +55,6 @@
 
     move-result-object p2
 
-    .line 2
     invoke-interface {p3}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v1
@@ -80,12 +76,10 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 3
     invoke-interface {p3, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 4
     invoke-static {v3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
@@ -94,7 +88,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->get()Lokhttp3/Request$Builder;
 

@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RelightFragment$onViewCreated$3;->c:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautymain/utils/RelightModelHelper$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/RelightFragment$onViewCreated$3;->e(Lcom/commsource/beautymain/utils/RelightModelHelper$a;)V
@@ -74,10 +72,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyfilter/NoStickLiveData$a;->b(Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/RelightFragment$onViewCreated$3;->c:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/RelightFragment;->z1(Lcom/commsource/studio/function/RelightFragment;)Landroid/app/Activity;
@@ -88,7 +84,6 @@
 
     invoke-static {p1, v1}, Lf/d/i/h;->m1(Landroid/content/Context;Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/RelightFragment$onViewCreated$3;->c:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/RelightFragment;->A1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/comic/widget/c;
@@ -101,7 +96,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/RelightFragment$onViewCreated$3;->c:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/RelightFragment;->A1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/comic/widget/c;
@@ -110,7 +104,6 @@
 
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/RelightFragment$onViewCreated$3;->c:Lcom/commsource/studio/function/RelightFragment;
 
@@ -120,7 +113,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lcotlin/jvm/u/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -83,12 +83,10 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     instance-of v0, p2, Lcotlinx/coroutines/g3;
 
     if-eqz v0, :cond_3
 
-    .line 2
     instance-of v0, p1, Ljava/lang/Integer;
 
     if-nez v0, :cond_0
@@ -119,7 +117,6 @@
     :cond_2
     add-int/2addr p1, v0
 
-    .line 3
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2

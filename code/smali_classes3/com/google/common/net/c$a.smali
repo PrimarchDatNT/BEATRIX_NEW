@@ -39,7 +39,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
@@ -62,7 +61,6 @@
     :goto_0
     const-string v4, "port \'%s\' is out of range (0 <= port <= 0xffff)"
 
-    .line 2
     invoke-static {v3, v4, p3}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
     if-ltz p4, :cond_1
@@ -77,10 +75,8 @@
     :goto_1
     const-string v1, "flags \'%s\' is out of range (0 <= flags <= 0xffff)"
 
-    .line 3
     invoke-static {v0, v1, p4}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
-    .line 4
     invoke-static {}, Lcom/google/common/net/c;->a()Ljava/net/Inet4Address;
 
     move-result-object v0
@@ -93,7 +89,6 @@
 
     iput-object p1, p0, Lcom/google/common/net/c$a;->a:Ljava/net/Inet4Address;
 
-    .line 5
     invoke-static {}, Lcom/google/common/net/c;->a()Ljava/net/Inet4Address;
 
     move-result-object p1
@@ -106,10 +101,8 @@
 
     iput-object p1, p0, Lcom/google/common/net/c$a;->b:Ljava/net/Inet4Address;
 
-    .line 6
     iput p3, p0, Lcom/google/common/net/c$a;->c:I
 
-    .line 7
     iput p4, p0, Lcom/google/common/net/c$a;->d:I
 
     return-void
@@ -120,7 +113,6 @@
 .method public a()Ljava/net/Inet4Address;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/net/c$a;->b:Ljava/net/Inet4Address;
 
     return-object v0
@@ -129,7 +121,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/net/c$a;->d:I
 
     return v0
@@ -138,7 +129,6 @@
 .method public c()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/net/c$a;->c:I
 
     return v0
@@ -147,7 +137,6 @@
 .method public d()Ljava/net/Inet4Address;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/net/c$a;->a:Ljava/net/Inet4Address;
 
     return-object v0

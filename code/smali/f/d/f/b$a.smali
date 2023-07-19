@@ -38,7 +38,6 @@
 .method constructor <init>(Lf/d/f/b;Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/f/b$a;->c:Lf/d/f/b;
 
     iput-object p2, p0, Lf/d/f/b$a;->a:Landroid/content/Context;
@@ -59,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/backend/bean/OperationAdResponse;
 
     invoke-virtual {p0, p1}, Lf/d/f/b$a;->c(Lcom/commsource/backend/bean/OperationAdResponse;)V
@@ -76,7 +74,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lf/d/f/b$a;->a:Landroid/content/Context;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -89,14 +86,12 @@
 
     invoke-static {v0, v1, v2}, Lf/d/i/b;->Z(Landroid/content/Context;J)V
 
-    .line 2
     iget-object v0, p0, Lf/d/f/b$a;->a:Landroid/content/Context;
 
     const-string v1, ""
 
     invoke-static {v0, v1}, Lf/d/i/b;->e0(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -111,12 +106,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/backend/bean/OperationAdResponse;->getCode()I
 
@@ -124,7 +117,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lf/d/f/b$a;->a:Landroid/content/Context;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -139,7 +131,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/backend/bean/OperationAdResponse;->getData()Lcom/commsource/backend/bean/Data;
 
@@ -147,10 +138,8 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->clearMtAdData()V
 
-    .line 6
     iget-object p1, p0, Lf/d/f/b$a;->c:Lf/d/f/b;
 
     iget-object v1, p0, Lf/d/f/b$a;->a:Landroid/content/Context;
@@ -159,7 +148,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lf/d/f/b$a;->c:Lf/d/f/b;
 
@@ -169,7 +157,6 @@
 
     invoke-static {v1, v2, p1, v3}, Lf/d/f/b;->b(Lf/d/f/b;Landroid/content/Context;Lcom/commsource/backend/bean/OperationAdResponse;Ljava/lang/String;)V
 
-    .line 8
     iget-object v1, p0, Lf/d/f/b$a;->c:Lf/d/f/b;
 
     iget-object v2, p0, Lf/d/f/b$a;->a:Landroid/content/Context;
@@ -178,7 +165,6 @@
 
     invoke-static {v1, v2, p1, v3}, Lf/d/f/b;->c(Lf/d/f/b;Landroid/content/Context;Lcom/commsource/backend/bean/OperationAdResponse;Ljava/lang/String;)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -36,7 +36,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -83,7 +82,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Arrays;->deepHashCode([Ljava/lang/Object;)I
 
     move-result p0
@@ -101,7 +99,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
 
@@ -153,7 +150,6 @@
 
     const-string v0, "T?"
 
-    .line 1
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     new-array p0, p0, [Ljava/lang/Object;
@@ -167,7 +163,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/String;
 
     invoke-direct {v0, p0, p1}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
@@ -195,7 +190,6 @@
 
     const-string v1, "T?"
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     new-array v0, v0, [Ljava/lang/Object;

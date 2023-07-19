@@ -29,20 +29,16 @@
 .method constructor <init>(Lokio/BufferedSource;Z)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
-    .line 3
     new-instance v0, Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;
 
     invoke-direct {v0, p1}, Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;-><init>(Lokio/BufferedSource;)V
 
     iput-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->headerBlockReader:Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;
 
-    .line 4
     iput-boolean p2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->client:Z
 
     return-void
@@ -56,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/IOException;
 
     invoke-static {p0, p1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -84,7 +79,6 @@
 
     if-ne p3, v1, :cond_1
 
-    .line 1
     iget-object p3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {p3}, Lokio/BufferedSource;->readInt()I
@@ -95,21 +89,18 @@
 
     and-int/2addr p3, v1
 
-    .line 2
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {v1}, Lokio/BufferedSource;->readInt()I
 
     move-result v1
 
-    .line 3
     invoke-static {v1}, Lcom/squareup/okhttp/internal/framed/ErrorCode;->fromSpdyGoAway(I)Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     sget-object p2, Lokio/ByteString;->EMPTY:Lokio/ByteString;
 
     invoke-interface {p1, p3, v2, p2}, Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;->goAway(ILcom/squareup/okhttp/internal/framed/ErrorCode;Lokio/ByteString;)V
@@ -119,7 +110,6 @@
     :cond_0
     new-array p1, v0, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p3
@@ -137,7 +127,6 @@
     :cond_1
     new-array p1, v0, [Ljava/lang/Object;
 
-    .line 6
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p3
@@ -161,7 +150,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {p2}, Lokio/BufferedSource;->readInt()I
@@ -172,7 +160,6 @@
 
     and-int v4, p2, v0
 
-    .line 2
     iget-object p2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->headerBlockReader:Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;
 
     add-int/lit8 p3, p3, -0x4
@@ -181,7 +168,6 @@
 
     move-result-object v6
 
-    .line 3
     sget-object v7, Lcom/squareup/okhttp/internal/framed/HeadersMode;->SPDY_HEADERS:Lcom/squareup/okhttp/internal/framed/HeadersMode;
 
     const/4 v2, 0x0
@@ -213,14 +199,12 @@
 
     if-ne p3, v1, :cond_2
 
-    .line 1
     iget-object p3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {p3}, Lokio/BufferedSource;->readInt()I
 
     move-result p3
 
-    .line 2
     iget-boolean v1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->client:Z
 
     and-int/lit8 v2, p3, 0x1
@@ -242,7 +226,6 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 3
     :goto_1
     invoke-interface {p1, v0, p3, p2}, Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;->ping(ZII)V
 
@@ -251,7 +234,6 @@
     :cond_2
     new-array p1, v0, [Ljava/lang/Object;
 
-    .line 4
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p3
@@ -283,7 +265,6 @@
 
     if-ne p3, v1, :cond_1
 
-    .line 1
     iget-object p3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {p3}, Lokio/BufferedSource;->readInt()I
@@ -294,21 +275,18 @@
 
     and-int/2addr p3, v1
 
-    .line 2
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {v1}, Lokio/BufferedSource;->readInt()I
 
     move-result v1
 
-    .line 3
     invoke-static {v1}, Lcom/squareup/okhttp/internal/framed/ErrorCode;->fromSpdy3Rst(I)Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-interface {p1, p3, v2}, Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;->rstStream(ILcom/squareup/okhttp/internal/framed/ErrorCode;)V
 
     return-void
@@ -316,7 +294,6 @@
     :cond_0
     new-array p1, v0, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p3
@@ -334,7 +311,6 @@
     :cond_1
     new-array p1, v0, [Ljava/lang/Object;
 
-    .line 6
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p3
@@ -358,7 +334,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readInt()I
@@ -375,7 +350,6 @@
 
     if-ne p3, v1, :cond_2
 
-    .line 2
     new-instance p3, Lcom/squareup/okhttp/internal/framed/Settings;
 
     invoke-direct {p3}, Lcom/squareup/okhttp/internal/framed/Settings;-><init>()V
@@ -385,14 +359,12 @@
     :goto_0
     if-ge v1, v0, :cond_0
 
-    .line 3
     iget-object v4, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {v4}, Lokio/BufferedSource;->readInt()I
 
     move-result v4
 
-    .line 4
     iget-object v5, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {v5}, Lokio/BufferedSource;->readInt()I
@@ -409,7 +381,6 @@
 
     and-int/2addr v4, v7
 
-    .line 5
     invoke-virtual {p3, v4, v6, v5}, Lcom/squareup/okhttp/internal/framed/Settings;->set(III)Lcom/squareup/okhttp/internal/framed/Settings;
 
     add-int/lit8 v1, v1, 0x1
@@ -423,7 +394,6 @@
 
     const/4 v2, 0x1
 
-    .line 6
     :cond_1
     invoke-interface {p1, v2, p3}, Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;->settings(ZLcom/squareup/okhttp/internal/framed/Settings;)V
 
@@ -434,7 +404,6 @@
 
     new-array p1, p1, [Ljava/lang/Object;
 
-    .line 7
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -464,7 +433,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readInt()I
@@ -475,7 +443,6 @@
 
     and-int v5, v0, v1
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->headerBlockReader:Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;
 
     add-int/lit8 p3, p3, -0x4
@@ -504,7 +471,6 @@
 
     const/4 v6, -0x1
 
-    .line 3
     sget-object v8, Lcom/squareup/okhttp/internal/framed/HeadersMode;->SPDY_REPLY:Lcom/squareup/okhttp/internal/framed/HeadersMode;
 
     move-object v2, p1
@@ -522,14 +488,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readInt()I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {v1}, Lokio/BufferedSource;->readInt()I
@@ -542,12 +506,10 @@
 
     and-int v7, v1, v2
 
-    .line 3
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readShort()S
 
-    .line 4
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->headerBlockReader:Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;
 
     add-int/lit8 p3, p3, -0xa
@@ -583,7 +545,6 @@
     :cond_1
     const/4 v4, 0x0
 
-    .line 5
     :goto_1
     sget-object v9, Lcom/squareup/okhttp/internal/framed/HeadersMode;->SPDY_SYN_STREAM:Lcom/squareup/okhttp/internal/framed/HeadersMode;
 
@@ -610,14 +571,12 @@
 
     if-ne p3, v1, :cond_1
 
-    .line 1
     iget-object p3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {p3}, Lokio/BufferedSource;->readInt()I
 
     move-result p3
 
-    .line 2
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {v1}, Lokio/BufferedSource;->readInt()I
@@ -638,7 +597,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 3
     invoke-interface {p1, p3, v1, v2}, Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;->windowUpdate(IJ)V
 
     return-void
@@ -646,7 +604,6 @@
     :cond_0
     new-array p1, v0, [Ljava/lang/Object;
 
-    .line 4
     invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p3
@@ -664,7 +621,6 @@
     :cond_1
     new-array p1, v0, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p3
@@ -690,7 +646,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->headerBlockReader:Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/internal/framed/NameValueBlockReader;->close()V
@@ -708,7 +663,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
@@ -716,7 +670,6 @@
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
     invoke-interface {v2}, Lokio/BufferedSource;->readInt()I
@@ -769,7 +722,6 @@
 
     packed-switch v1, :pswitch_data_0
 
-    .line 3
     :pswitch_0
     iget-object p1, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 
@@ -779,55 +731,46 @@
 
     return v4
 
-    .line 4
     :pswitch_1
     invoke-direct {p0, p1, v5, v2}, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->readWindowUpdate(Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;II)V
 
     return v4
 
-    .line 5
     :pswitch_2
     invoke-direct {p0, p1, v5, v2}, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->readHeaders(Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;II)V
 
     return v4
 
-    .line 6
     :pswitch_3
     invoke-direct {p0, p1, v5, v2}, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->readGoAway(Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;II)V
 
     return v4
 
-    .line 7
     :pswitch_4
     invoke-direct {p0, p1, v5, v2}, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->readPing(Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;II)V
 
     return v4
 
-    .line 8
     :pswitch_5
     invoke-direct {p0, p1, v5, v2}, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->readSettings(Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;II)V
 
     return v4
 
-    .line 9
     :pswitch_6
     invoke-direct {p0, p1, v5, v2}, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->readRstStream(Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;II)V
 
     return v4
 
-    .line 10
     :pswitch_7
     invoke-direct {p0, p1, v5, v2}, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->readSynReply(Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;II)V
 
     return v4
 
-    .line 11
     :pswitch_8
     invoke-direct {p0, p1, v5, v2}, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->readSynStream(Lcom/squareup/okhttp/internal/framed/FrameReader$Handler;II)V
 
     return v4
 
-    .line 12
     :cond_1
     new-instance p1, Ljava/net/ProtocolException;
 
@@ -860,7 +803,6 @@
 
     const/4 v0, 0x1
 
-    .line 13
     :cond_3
     iget-object v3, p0, Lcom/squareup/okhttp/internal/framed/Spdy3$Reader;->source:Lokio/BufferedSource;
 

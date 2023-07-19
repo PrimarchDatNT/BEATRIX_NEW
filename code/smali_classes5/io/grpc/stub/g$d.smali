@@ -64,23 +64,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/stub/f;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lio/grpc/stub/g$d;->d:Z
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lio/grpc/stub/g$d;->h:Z
 
-    .line 4
     iput-boolean v0, p0, Lio/grpc/stub/g$d;->i:Z
 
-    .line 5
     iput-object p1, p0, Lio/grpc/stub/g$d;->a:Lio/grpc/k1;
 
     return-void
@@ -89,7 +84,6 @@
 .method static synthetic l(Lio/grpc/stub/g$d;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/stub/g$d;->p()V
 
     return-void
@@ -98,7 +92,6 @@
 .method static synthetic m(Lio/grpc/stub/g$d;)Ljava/lang/Runnable;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/stub/g$d;->g:Ljava/lang/Runnable;
 
     return-object p0
@@ -107,7 +100,6 @@
 .method static synthetic n(Lio/grpc/stub/g$d;)Ljava/lang/Runnable;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/stub/g$d;->f:Ljava/lang/Runnable;
 
     return-object p0
@@ -116,7 +108,6 @@
 .method static synthetic o(Lio/grpc/stub/g$d;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lio/grpc/stub/g$d;->d:Z
 
     return p0
@@ -127,7 +118,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lio/grpc/stub/g$d;->c:Z
 
     return-void
@@ -143,19 +133,16 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/stub/g$d;->b:Z
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object p1, p0, Lio/grpc/stub/g$d;->g:Ljava/lang/Runnable;
 
     if-eqz p1, :cond_0
 
     return-void
 
-    .line 3
     :cond_0
     sget-object p1, Lio/grpc/Status;->h:Lio/grpc/Status;
 
@@ -171,7 +158,6 @@
 
     throw p1
 
-    .line 4
     :cond_1
     iget-boolean v0, p0, Lio/grpc/stub/g$d;->h:Z
 
@@ -183,7 +169,6 @@
 
     invoke-static {v0, v2}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 5
     iget-boolean v0, p0, Lio/grpc/stub/g$d;->i:Z
 
     xor-int/2addr v0, v1
@@ -192,12 +177,10 @@
 
     invoke-static {v0, v2}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 6
     iget-boolean v0, p0, Lio/grpc/stub/g$d;->e:Z
 
     if-nez v0, :cond_2
 
-    .line 7
     iget-object v0, p0, Lio/grpc/stub/g$d;->a:Lio/grpc/k1;
 
     new-instance v2, Lio/grpc/y0;
@@ -206,10 +189,8 @@
 
     invoke-virtual {v0, v2}, Lio/grpc/k1;->h(Lio/grpc/y0;)V
 
-    .line 8
     iput-boolean v1, p0, Lio/grpc/stub/g$d;->e:Z
 
-    .line 9
     :cond_2
     iget-object v0, p0, Lio/grpc/stub/g$d;->a:Lio/grpc/k1;
 
@@ -221,19 +202,16 @@
 .method public b(Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lio/grpc/Status;->s(Ljava/lang/Throwable;)Lio/grpc/y0;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lio/grpc/y0;
 
     invoke-direct {v0}, Lio/grpc/y0;-><init>()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lio/grpc/stub/g$d;->a:Lio/grpc/k1;
 
@@ -245,7 +223,6 @@
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lio/grpc/stub/g$d;->h:Z
 
     return-void
@@ -254,7 +231,6 @@
 .method public d()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/stub/g$d;->c:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -265,7 +241,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lio/grpc/stub/g$d;->d:Z
 
     return-void
@@ -274,7 +249,6 @@
 .method public e()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/g$d;->a:Lio/grpc/k1;
 
     invoke-virtual {v0}, Lio/grpc/k1;->f()Z
@@ -287,7 +261,6 @@
 .method public f(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/g$d;->a:Lio/grpc/k1;
 
     invoke-virtual {v0, p1}, Lio/grpc/k1;->g(I)V
@@ -298,7 +271,6 @@
 .method public g(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/g$d;->a:Lio/grpc/k1;
 
     invoke-virtual {v0, p1}, Lio/grpc/k1;->k(Z)V
@@ -309,7 +281,6 @@
 .method public h(Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/stub/g$d;->c:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -318,7 +289,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/stub/g$d;->f:Ljava/lang/Runnable;
 
     return-void
@@ -327,7 +297,6 @@
 .method public i()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/g$d;->a:Lio/grpc/k1;
 
     invoke-virtual {v0}, Lio/grpc/k1;->e()Z
@@ -340,7 +309,6 @@
 .method public j(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/g$d;->a:Lio/grpc/k1;
 
     invoke-virtual {v0, p1}, Lio/grpc/k1;->j(Ljava/lang/String;)V
@@ -351,7 +319,6 @@
 .method public k(Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/stub/g$d;->c:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -360,7 +327,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/stub/g$d;->g:Ljava/lang/Runnable;
 
     return-void
@@ -369,19 +335,16 @@
 .method public onCompleted()V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/stub/g$d;->b:Z
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lio/grpc/stub/g$d;->g:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v0, Lio/grpc/Status;->h:Lio/grpc/Status;
 
@@ -397,7 +360,6 @@
 
     throw v0
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lio/grpc/stub/g$d;->a:Lio/grpc/k1;
 
@@ -411,7 +373,6 @@
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lio/grpc/stub/g$d;->i:Z
 
     :goto_0

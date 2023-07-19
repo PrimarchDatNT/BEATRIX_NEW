@@ -13,7 +13,6 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/util/common/l;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
@@ -26,7 +25,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -37,12 +35,10 @@
 
     const-string v2, ""
 
-    .line 2
     invoke-virtual {v1, p0, v2}, Lcom/commsource/util/common/l;->t(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -55,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -66,12 +61,10 @@
 
     const-string v2, ""
 
-    .line 2
     invoke-virtual {v1, p0, v2}, Lcom/commsource/util/common/l;->t(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -89,23 +82,19 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/commsource/material/download/a;->o:Lcom/commsource/material/download/a;
 
     if-nez v2, :cond_1
 
-    .line 2
     monitor-enter v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 3
     :try_start_1
     sget-object v2, Lcom/commsource/material/download/a;->o:Lcom/commsource/material/download/a;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/material/download/a;
 
     const-string v3, "SEGMENT_EXECUTOR_TABLE_NAME"
@@ -114,7 +103,6 @@
 
     sput-object v2, Lcom/commsource/material/download/a;->o:Lcom/commsource/material/download/a;
 
-    .line 5
     :cond_0
     monitor-exit v0
 
@@ -132,7 +120,6 @@
 
     throw p0
 
-    .line 6
     :cond_1
     :goto_0
     sget-object p0, Lcom/commsource/material/download/a;->o:Lcom/commsource/material/download/a;
@@ -160,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -169,10 +155,8 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1, p0, p1}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -185,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -194,10 +177,8 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1, p0, p1}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

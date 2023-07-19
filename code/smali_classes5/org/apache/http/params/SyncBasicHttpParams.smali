@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/http/params/BasicHttpParams;-><init>()V
 
     return-void
@@ -32,13 +31,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Lorg/apache/http/params/BasicHttpParams;->clear()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -61,7 +58,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Lorg/apache/http/params/BasicHttpParams;->clone()Ljava/lang/Object;
 
@@ -86,7 +82,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1}, Lorg/apache/http/params/BasicHttpParams;->getParameter(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -111,7 +106,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1}, Lorg/apache/http/params/BasicHttpParams;->isParameterSet(Ljava/lang/String;)Z
 
@@ -136,7 +130,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1}, Lorg/apache/http/params/BasicHttpParams;->isParameterSetLocally(Ljava/lang/String;)Z
 
@@ -161,7 +154,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1}, Lorg/apache/http/params/BasicHttpParams;->removeParameter(Ljava/lang/String;)Z
 
@@ -186,7 +178,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1, p2}, Lorg/apache/http/params/BasicHttpParams;->setParameter(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/http/params/HttpParams;
 
@@ -211,13 +202,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1, p2}, Lorg/apache/http/params/BasicHttpParams;->setParameters([Ljava/lang/String;Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void

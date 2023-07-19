@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 .method public onDbDowngrade(Landroid/database/sqlite/SQLiteDatabase;II)V
     .locals 4
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/tencent/bugly/a;->getTables()[Ljava/lang/String;
 
@@ -50,7 +48,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/tencent/bugly/a;->getTables()[Ljava/lang/String;
 
@@ -65,7 +62,6 @@
 
     aget-object v1, p2, v0
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     const-string v3, "DROP TABLE IF EXISTS "
@@ -84,7 +80,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {p0, p1}, Lcom/tencent/bugly/a;->onDbCreate(Landroid/database/sqlite/SQLiteDatabase;)V
     :try_end_0
@@ -95,14 +90,12 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     invoke-static {p1}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/Throwable;)Z
 
     move-result p2
 
     if-nez p2, :cond_2
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_2
@@ -112,7 +105,6 @@
 .method public onDbUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V
     .locals 4
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/tencent/bugly/a;->getTables()[Ljava/lang/String;
 
@@ -122,7 +114,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/tencent/bugly/a;->getTables()[Ljava/lang/String;
 
@@ -137,7 +128,6 @@
 
     aget-object v1, p2, v0
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     const-string v3, "DROP TABLE IF EXISTS "
@@ -156,7 +146,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {p0, p1}, Lcom/tencent/bugly/a;->onDbCreate(Landroid/database/sqlite/SQLiteDatabase;)V
     :try_end_0
@@ -167,14 +156,12 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     invoke-static {p1}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/Throwable;)Z
 
     move-result p2
 
     if-nez p2, :cond_2
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_2

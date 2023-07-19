@@ -23,27 +23,23 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/common/hash/LittleEndianByteArray$JavaLittleEndianBytes;->INSTANCE:Lcom/google/common/hash/LittleEndianByteArray$JavaLittleEndianBytes;
 
     :try_start_0
     const-string v1, "os.arch"
 
-    .line 2
     invoke-static {v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "amd64"
 
-    .line 3
     invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     move-result-object v1
@@ -65,7 +61,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :catchall_0
     :cond_1
     :goto_0
@@ -77,7 +72,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -86,7 +80,6 @@
 .method static a([BI)I
     .locals 2
 
-    .line 1
     aget-byte v0, p0, p1
 
     and-int/lit16 v0, v0, 0xff
@@ -127,7 +120,6 @@
 .method static b([BI)J
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/hash/LittleEndianByteArray;->a:Lcom/google/common/hash/LittleEndianByteArray$b;
 
     invoke-interface {v0, p0, p1}, Lcom/google/common/hash/LittleEndianByteArray$b;->getLongLittleEndian([BI)J
@@ -142,7 +134,6 @@
 
     const/16 v0, 0x8
 
-    .line 1
     invoke-static {p2, v0}, Ljava/lang/Math;->min(II)I
 
     move-result p2
@@ -156,7 +147,6 @@
 
     add-int v3, p1, v2
 
-    .line 2
     aget-byte v3, p0, v3
 
     int-to-long v3, v3
@@ -182,7 +172,6 @@
 .method static d([BIJ)V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/hash/LittleEndianByteArray;->a:Lcom/google/common/hash/LittleEndianByteArray$b;
 
     invoke-interface {v0, p0, p1, p2, p3}, Lcom/google/common/hash/LittleEndianByteArray$b;->putLongLittleEndian([BIJ)V
@@ -193,7 +182,6 @@
 .method static e()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/hash/LittleEndianByteArray;->a:Lcom/google/common/hash/LittleEndianByteArray$b;
 
     instance-of v0, v0, Lcom/google/common/hash/LittleEndianByteArray$UnsafeByteArray;

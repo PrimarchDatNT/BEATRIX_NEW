@@ -15,20 +15,16 @@
 .method public constructor <init>(Lcom/meitu/countrylocation/LocationBean;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/country/github/a;->c:Lcom/meitu/countrylocation/LocationBean;
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/countrylocation/LocationBean;->getCountry()Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/country/github/a;->b:Ljava/lang/String;
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/beautyplus/setting/country/github/b;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -56,14 +52,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
@@ -72,7 +66,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -80,7 +73,6 @@
 
     if-ge v2, v3, :cond_0
 
-    .line 4
     new-instance v3, Lcom/commsource/beautyplus/setting/country/github/a;
 
     invoke-interface {p0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -97,7 +89,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance p0, Lcom/commsource/beautyplus/setting/country/github/c;
 
@@ -105,7 +96,6 @@
 
     invoke-static {v1, p0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -120,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -135,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/a;->c:Lcom/meitu/countrylocation/LocationBean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -150,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/a;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

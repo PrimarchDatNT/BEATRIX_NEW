@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/aa;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/ca;->b:Lcom/google/android/gms/measurement/internal/aa;
 
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/ca;->a:Ljava/lang/String;
@@ -45,7 +44,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/measurement/internal/ca;->b:Lcom/google/android/gms/measurement/internal/aa;
 
     iget-object p5, p0, Lcom/google/android/gms/measurement/internal/ca;->a:Ljava/lang/String;

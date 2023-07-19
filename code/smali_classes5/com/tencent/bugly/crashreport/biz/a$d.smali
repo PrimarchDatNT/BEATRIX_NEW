@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/biz/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/biz/a$d;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,12 +37,10 @@
 .method public final run()V
     .locals 6
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 2
     iget-object v2, p0, Lcom/tencent/bugly/crashreport/biz/a$d;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-static {v2}, Lcom/tencent/bugly/crashreport/biz/a;->b(Lcom/tencent/bugly/crashreport/biz/a;)J
@@ -54,7 +51,6 @@
 
     if-gez v4, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/tencent/bugly/proguard/w;->a()Lcom/tencent/bugly/proguard/w;
 
     move-result-object v2
@@ -81,7 +77,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/biz/a$d;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
@@ -93,7 +88,6 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/tencent/bugly/crashreport/biz/a;->a(IZJ)V
 
-    .line 5
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/biz/a$d;->a:Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-virtual {v0}, Lcom/tencent/bugly/crashreport/biz/a;->a()V

@@ -62,7 +62,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/AbstractCollection;-><init>()V
 
     return-void
@@ -122,7 +121,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Ljava/util/List;
 
@@ -132,7 +130,6 @@
 
     return p1
 
-    .line 2
     :cond_1
     sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
@@ -156,7 +153,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     invoke-virtual {v0, p0}, Lcotlin/collections/c$a;->f(Ljava/util/Collection;)I
@@ -169,7 +165,6 @@
 .method public indexOf(Ljava/lang/Object;)I
     .locals 3
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -187,7 +182,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -221,7 +215,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/c$b;
 
     invoke-direct {v0, p0}, Lcotlin/collections/c$b;-><init>(Lcotlin/collections/c;)V
@@ -232,7 +225,6 @@
 .method public lastIndexOf(Ljava/lang/Object;)I
     .locals 2
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -241,7 +233,6 @@
 
     move-result-object v0
 
-    .line 2
     :cond_0
     invoke-interface {v0}, Ljava/util/ListIterator;->hasPrevious()Z
 
@@ -249,19 +240,16 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-interface {v0}, Ljava/util/ListIterator;->previous()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 4
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-interface {v0}, Ljava/util/ListIterator;->nextIndex()I
 
     move-result p1
@@ -288,7 +276,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/c$c;
 
     const/4 v1, 0x0
@@ -311,7 +298,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     new-instance v0, Lcotlin/collections/c$c;
 
     invoke-direct {v0, p0, p1}, Lcotlin/collections/c$c;-><init>(Lcotlin/collections/c;I)V
@@ -366,7 +352,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/c$d;
 
     invoke-direct {v0, p0, p1, p2}, Lcotlin/collections/c$d;-><init>(Lcotlin/collections/c;II)V

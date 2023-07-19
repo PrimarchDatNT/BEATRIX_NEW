@@ -49,21 +49,18 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/a$g;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/api/a$g;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/icing/s2;->a:Lcom/google/android/gms/common/api/a$g;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/icing/s3;
 
     invoke-direct {v1}, Lcom/google/android/gms/internal/icing/s3;-><init>()V
 
     sput-object v1, Lcom/google/android/gms/internal/icing/s2;->b:Lcom/google/android/gms/common/api/a$a;
 
-    .line 3
     new-instance v2, Lcom/google/android/gms/common/api/a;
 
     const-string v3, "AppDataSearch.LIGHTWEIGHT_API"
@@ -72,7 +69,6 @@
 
     sput-object v2, Lcom/google/android/gms/internal/icing/s2;->c:Lcom/google/android/gms/common/api/a;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/internal/icing/j;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/j;-><init>()V

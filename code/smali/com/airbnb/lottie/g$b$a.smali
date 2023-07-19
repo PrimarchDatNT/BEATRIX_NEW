@@ -38,15 +38,12 @@
 .method private constructor <init>(Lcom/airbnb/lottie/r;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/airbnb/lottie/g$b$a;->b:Z
 
-    .line 4
     iput-object p1, p0, Lcom/airbnb/lottie/g$b$a;->a:Lcom/airbnb/lottie/r;
 
     return-void
@@ -55,7 +52,6 @@
 .method synthetic constructor <init>(Lcom/airbnb/lottie/r;Lcom/airbnb/lottie/g$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/g$b$a;-><init>(Lcom/airbnb/lottie/r;)V
 
     return-void
@@ -66,7 +62,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/airbnb/lottie/g;
 
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/g$b$a;->b(Lcom/airbnb/lottie/g;)V
@@ -77,14 +72,12 @@
 .method public b(Lcom/airbnb/lottie/g;)V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/airbnb/lottie/g$b$a;->b:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/g$b$a;->a:Lcom/airbnb/lottie/r;
 
@@ -98,7 +91,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/airbnb/lottie/g$b$a;->b:Z
 
     return-void

@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorEffectView;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->s(Lcom/commsource/aieditor/AiEditorEffectView;)Ljava/lang/String;
@@ -52,7 +50,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/AiEditorEffectView;->r(Lcom/commsource/aieditor/AiEditorEffectView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->v(Lcom/commsource/aieditor/AiEditorEffectView;)Ljava/lang/String;
@@ -65,7 +62,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/AiEditorEffectView;->u(Lcom/commsource/aieditor/AiEditorEffectView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->q(Lcom/commsource/aieditor/AiEditorEffectView;)Landroid/graphics/Bitmap;
@@ -92,7 +88,6 @@
 
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
-    .line 4
     invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
     move-result v1
@@ -109,7 +104,6 @@
 
     goto/16 :goto_1
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
@@ -137,7 +131,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/AiEditorEffectView;->r(Lcom/commsource/aieditor/AiEditorEffectView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->t(Lcom/commsource/aieditor/AiEditorEffectView;)Landroid/graphics/Bitmap;
@@ -162,7 +155,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/AiEditorEffectView;->u(Lcom/commsource/aieditor/AiEditorEffectView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
@@ -181,7 +173,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/AiEditorEffectView;->d(Lcom/commsource/aieditor/AiEditorEffectView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     sget v2, Lcom/res/provider/ResSTRING;->ai_editor_before:I
@@ -192,20 +183,16 @@
 
     sget v3, Lcom/res/provider/ResSTRING;->ai_editor_after:I
 
-    .line 9
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 10
     invoke-virtual {v1, v2, v3}, Lcom/commsource/aieditor/AiEditorEffectView;->D(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->e(Lcom/commsource/aieditor/AiEditorEffectView;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->f(Lcom/commsource/aieditor/AiEditorEffectView;)Z
@@ -214,14 +201,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->g(Lcom/commsource/aieditor/AiEditorEffectView;)V
 
     goto :goto_0
 
-    .line 14
     :cond_1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
@@ -237,7 +222,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/AiEditorEffectView;->n(Lcom/commsource/aieditor/AiEditorEffectView;F)F
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->o(Lcom/commsource/aieditor/AiEditorEffectView;)Landroid/graphics/Rect;
@@ -254,7 +238,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->left:I
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->p(Lcom/commsource/aieditor/AiEditorEffectView;)Landroid/graphics/Rect;
@@ -271,7 +254,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 17
     :goto_0
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
@@ -279,17 +261,14 @@
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/AiEditorEffectView;->h(Lcom/commsource/aieditor/AiEditorEffectView;Z)Z
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$b;->g:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-virtual {v1}, Landroid/view/View;->postInvalidate()V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 20
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

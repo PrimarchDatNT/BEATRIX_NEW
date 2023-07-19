@@ -55,7 +55,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance p2, Ljava/util/concurrent/CancellationException;
 
@@ -84,7 +83,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcotlinx/coroutines/q;->_resumed:I
 
     return-void
@@ -95,7 +93,6 @@
 .method public final c()Z
     .locals 3
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/q;->c:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     const/4 v1, 0x0

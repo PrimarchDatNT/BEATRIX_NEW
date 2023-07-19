@@ -34,7 +34,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/abtest/k/f;
 
     invoke-direct {v1}, Lcom/meitu/library/abtest/k/f;-><init>()V
@@ -49,17 +48,14 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/library/abtest/k/j;
 
     invoke-direct {v0}, Lcom/meitu/library/abtest/k/j;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/library/abtest/k/f;->b:Lcom/meitu/library/abtest/k/h;
 
-    .line 3
     new-instance v0, Lcom/meitu/library/abtest/k/i;
 
     const-string v1, "MTAnalytics-Thread"
@@ -68,14 +64,12 @@
 
     iput-object v0, p0, Lcom/meitu/library/abtest/k/f;->a:Lcom/meitu/library/abtest/k/i;
 
-    .line 4
     new-instance v1, Lcom/meitu/library/abtest/k/f$a;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/abtest/k/f$a;-><init>(Lcom/meitu/library/abtest/k/f;)V
 
     invoke-virtual {v0, v1}, Lcom/meitu/library/abtest/k/i;->a(Lcom/meitu/library/abtest/k/i$a;)V
 
-    .line 5
     invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
 
     return-void
@@ -88,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/abtest/k/f;->f()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -103,10 +96,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/abtest/k/b;->a(Landroid/os/MessageQueue$IdleHandler;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -124,30 +115,23 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/abtest/k/a;
 
     invoke-direct {v1}, Lcom/meitu/library/abtest/k/a;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/abtest/k/f;->b:Lcom/meitu/library/abtest/k/h;
 
-    .line 3
     instance-of v3, v2, Lcom/meitu/library/abtest/k/g;
 
     if-eqz v3, :cond_0
 
-    .line 4
     check-cast v2, Lcom/meitu/library/abtest/k/g;
 
-    .line 5
     invoke-interface {v2, v1}, Lcom/meitu/library/abtest/k/g;->d(Lcom/meitu/library/abtest/k/h;)V
 
-    .line 6
     :cond_0
     iput-object v1, p0, Lcom/meitu/library/abtest/k/f;->b:Lcom/meitu/library/abtest/k/h;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -171,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/abtest/k/f;->d:Lcom/meitu/library/abtest/k/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -195,12 +178,10 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/k/f;->b:Lcom/meitu/library/abtest/k/h;
 
     invoke-interface {v1, p1}, Lcom/meitu/library/abtest/k/h;->a(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -231,12 +212,10 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/k/f;->b:Lcom/meitu/library/abtest/k/h;
 
     invoke-interface {v1, p1}, Lcom/meitu/library/abtest/k/h;->b(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -267,12 +246,10 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/k/f;->b:Lcom/meitu/library/abtest/k/h;
 
     invoke-interface {v1, p1, p2, p3}, Lcom/meitu/library/abtest/k/h;->c(Ljava/lang/Runnable;J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -303,12 +280,10 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/k/f;->b:Lcom/meitu/library/abtest/k/h;
 
     invoke-interface {v1, p1}, Lcom/meitu/library/abtest/k/h;->post(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

@@ -18,12 +18,10 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/http/entity/AbstractHttpEntity;-><init>()V
 
     const-wide/16 v0, -0x1
 
-    .line 2
     iput-wide v0, p0, Lorg/apache/http/entity/BasicHttpEntity;->length:J
 
     return-void
@@ -39,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/entity/BasicHttpEntity;->content:Ljava/io/InputStream;
 
     if-eqz v0, :cond_0
@@ -56,7 +53,6 @@
 
     invoke-static {v0, v1}, Lorg/apache/http/util/Asserts;->check(ZLjava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/entity/BasicHttpEntity;->content:Ljava/io/InputStream;
 
     return-object v0
@@ -65,7 +61,6 @@
 .method public getContentLength()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lorg/apache/http/entity/BasicHttpEntity;->length:J
 
     return-wide v0
@@ -82,7 +77,6 @@
 .method public isStreaming()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/entity/BasicHttpEntity;->content:Ljava/io/InputStream;
 
     if-eqz v0, :cond_0
@@ -105,7 +99,6 @@
 .method public setContent(Ljava/io/InputStream;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/http/entity/BasicHttpEntity;->content:Ljava/io/InputStream;
 
     return-void
@@ -114,7 +107,6 @@
 .method public setContentLength(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lorg/apache/http/entity/BasicHttpEntity;->length:J
 
     return-void
@@ -130,10 +122,8 @@
 
     const-string v0, "Output stream"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/http/entity/BasicHttpEntity;->getContent()Ljava/io/InputStream;
 
     move-result-object v0
@@ -143,7 +133,6 @@
     :try_start_0
     new-array v1, v1, [B
 
-    .line 3
     :goto_0
     invoke-virtual {v0, v1}, Ljava/io/InputStream;->read([B)I
 
@@ -155,14 +144,12 @@
 
     const/4 v3, 0x0
 
-    .line 4
     invoke-virtual {p1, v1, v3, v2}, Ljava/io/OutputStream;->write([BII)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
 

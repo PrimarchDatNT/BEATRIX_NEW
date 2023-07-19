@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     const-string v1, "READING_FRAME_SIZE"
@@ -55,7 +54,6 @@
 
     sput-object v0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->READING_FRAME_SIZE:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
-    .line 2
     new-instance v1, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     const-string v3, "READING_FRAME"
@@ -66,7 +64,6 @@
 
     sput-object v1, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->READING_FRAME:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
-    .line 3
     new-instance v3, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     const-string v5, "READ_FRAME_COMPLETE"
@@ -77,7 +74,6 @@
 
     sput-object v3, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->READ_FRAME_COMPLETE:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
-    .line 4
     new-instance v5, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     const-string v7, "AWAITING_REGISTER_WRITE"
@@ -88,7 +84,6 @@
 
     sput-object v5, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->AWAITING_REGISTER_WRITE:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
-    .line 5
     new-instance v7, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     const-string v9, "WRITING"
@@ -99,7 +94,6 @@
 
     sput-object v7, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->WRITING:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
-    .line 6
     new-instance v9, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     const-string v11, "AWAITING_REGISTER_READ"
@@ -110,7 +104,6 @@
 
     sput-object v9, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->AWAITING_REGISTER_READ:Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
-    .line 7
     new-instance v11, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     const-string v13, "AWAITING_CLOSE"
@@ -139,7 +132,6 @@
 
     aput-object v11, v13, v14
 
-    .line 8
     sput-object v13, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->$VALUES:[Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     return-void
@@ -153,7 +145,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -162,7 +153,6 @@
 .method public static valueOf(Ljava/lang/String;)Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
     .locals 1
 
-    .line 1
     const-class v0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -177,7 +167,6 @@
 .method public static values()[Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->$VALUES:[Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;
 
     invoke-virtual {v0}, [Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBufferState;->clone()Ljava/lang/Object;

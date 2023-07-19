@@ -33,12 +33,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-direct {p0}, Lcom/commsource/studio/i$e;-><init>()V
 
-    .line 2
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
@@ -65,7 +63,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->c:Landroid/graphics/PointF;
 
     iget-object v2, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
@@ -76,7 +73,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/PointF;->set(Landroid/graphics/PointF;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->getCurrentViewPortRect()Landroid/graphics/Rect;
@@ -111,7 +107,6 @@
 
     add-float/2addr v1, v2
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-static {v2}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->d(Lcom/commsource/studio/function/bodyshape/ImageStretchView;)Landroid/graphics/Bitmap;
@@ -178,17 +173,14 @@
 
     if-lez v1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-static {p1, v7}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->j(Lcom/commsource/studio/function/bodyshape/ImageStretchView;Z)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v7
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
@@ -224,7 +216,6 @@
 
     add-float/2addr v1, v2
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-static {v2}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->d(Lcom/commsource/studio/function/bodyshape/ImageStretchView;)Landroid/graphics/Bitmap;
@@ -281,12 +272,10 @@
 
     if-lez p1, :cond_1
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-static {p1, v7}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->k(Lcom/commsource/studio/function/bodyshape/ImageStretchView;Z)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v7
@@ -294,10 +283,8 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 10
     iput-boolean p1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->d:Z
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v7
@@ -314,24 +301,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->j(Lcom/commsource/studio/function/bodyshape/ImageStretchView;Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-static {v1, v2}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->k(Lcom/commsource/studio/function/bodyshape/ImageStretchView;Z)V
 
-    .line 3
     iget-boolean v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->d:Z
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-static {v1}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->e(Lcom/commsource/studio/function/bodyshape/ImageStretchView;)Landroid/graphics/PointF;
@@ -342,12 +325,10 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/PointF;->set(Landroid/graphics/PointF;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->r()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->getStretchConfirmCallback()Lcotlin/jvm/u/a;
@@ -362,13 +343,11 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
 
-    .line 8
     invoke-super {p0, p1}, Lcom/commsource/studio/i$e;->onMajorFingerUp(Landroid/view/MotionEvent;)Z
 
     move-result p1
@@ -401,7 +380,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-static {v1}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->f(Lcom/commsource/studio/function/bodyshape/ImageStretchView;)Z
@@ -414,7 +392,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->c:Landroid/graphics/PointF;
 
     iget v4, v1, Landroid/graphics/PointF;->x:F
@@ -445,7 +422,6 @@
 
     iput v4, v1, Landroid/graphics/PointF;->x:F
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
@@ -455,7 +431,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->c:Landroid/graphics/PointF;
 
     iget v4, v1, Landroid/graphics/PointF;->y:F
@@ -486,7 +461,6 @@
 
     iput v2, v1, Landroid/graphics/PointF;->y:F
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
@@ -507,17 +481,14 @@
     :cond_2
     const/4 v1, 0x1
 
-    .line 6
     iput-boolean v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->d:Z
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-static {v1}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->c(Lcom/commsource/studio/function/bodyshape/ImageStretchView;)Landroid/graphics/Rect;
 
     move-result-object v1
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->getCurrentViewPortRect()Landroid/graphics/Rect;
@@ -558,7 +529,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->top:I
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->getCurrentViewPortRect()Landroid/graphics/Rect;
@@ -599,12 +569,10 @@
 
     iput v2, v1, Landroid/graphics/Rect;->bottom:I
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
 
-    .line 11
     :cond_3
     invoke-super {p0, p1, p2, p3, p4}, Lcom/commsource/studio/i$e;->onMajorScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 

@@ -15,7 +15,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,12 +35,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/jsoup/select/Elements;
 
     invoke-direct {v0}, Lorg/jsoup/select/Elements;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -62,7 +59,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -80,7 +76,6 @@
 
     check-cast v4, Lorg/jsoup/nodes/Element;
 
-    .line 4
     invoke-virtual {v1, v4}, Lorg/jsoup/nodes/j;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -92,7 +87,6 @@
     :cond_2
     if-nez v2, :cond_0
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -114,28 +108,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p0}, Lorg/jsoup/select/f;->t(Ljava/lang/String;)Lorg/jsoup/select/c;
 
     move-result-object p0
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     new-instance v1, Ljava/util/IdentityHashMap;
 
     invoke-direct {v1}, Ljava/util/IdentityHashMap;-><init>()V
 
-    .line 6
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -153,12 +141,10 @@
 
     check-cast v2, Lorg/jsoup/nodes/Element;
 
-    .line 7
     invoke-static {p0, v2}, Lorg/jsoup/select/Selector;->d(Lorg/jsoup/select/c;Lorg/jsoup/nodes/Element;)Lorg/jsoup/select/Elements;
 
     move-result-object v2
 
-    .line 8
     invoke-virtual {v2}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -177,24 +163,20 @@
 
     check-cast v3, Lorg/jsoup/nodes/Element;
 
-    .line 9
     invoke-virtual {v1, v3}, Ljava/util/IdentityHashMap;->containsKey(Ljava/lang/Object;)Z
 
     move-result v4
 
     if-nez v4, :cond_1
 
-    .line 10
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 11
     sget-object v4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-virtual {v1, v3, v4}, Ljava/util/IdentityHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 12
     :cond_2
     new-instance p0, Lorg/jsoup/select/Elements;
 
@@ -206,10 +188,8 @@
 .method public static c(Ljava/lang/String;Lorg/jsoup/nodes/Element;)Lorg/jsoup/select/Elements;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p0}, Lorg/jsoup/select/f;->t(Ljava/lang/String;)Lorg/jsoup/select/c;
 
     move-result-object p0
@@ -224,13 +204,10 @@
 .method public static d(Lorg/jsoup/select/c;Lorg/jsoup/nodes/Element;)Lorg/jsoup/select/Elements;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p0, p1}, Lorg/jsoup/select/a;->a(Lorg/jsoup/select/c;Lorg/jsoup/nodes/Element;)Lorg/jsoup/select/Elements;
 
     move-result-object p0
@@ -241,10 +218,8 @@
 .method public static e(Ljava/lang/String;Lorg/jsoup/nodes/Element;)Lorg/jsoup/nodes/Element;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p0}, Lorg/jsoup/select/f;->t(Ljava/lang/String;)Lorg/jsoup/select/c;
 
     move-result-object p0

@@ -27,7 +27,6 @@
 .method public constructor <init>(Lcom/commsource/camera/ardata/IPArAdData;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ardata/IPArAdData$AdId;->this$0:Lcom/commsource/camera/ardata/IPArAdData;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ardata/IPArAdData$AdId;->ad_id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -59,10 +57,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ardata/IPArAdData$AdId;->ad_id:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

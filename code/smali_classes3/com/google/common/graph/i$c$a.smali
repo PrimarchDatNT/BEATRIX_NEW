@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/graph/i$c;Ljava/util/Iterator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/i$c$a;->d:Lcom/google/common/graph/i$c;
 
     iput-object p2, p0, Lcom/google/common/graph/i$c$a;->c:Ljava/util/Iterator;
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/google/common/graph/i$c$a;->c:Ljava/util/Iterator;
 
@@ -61,7 +59,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/i$c$a;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -70,7 +67,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -81,14 +77,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v0
 
     return-object v0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractIterator;->b()Ljava/lang/Object;
 

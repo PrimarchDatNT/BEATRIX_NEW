@@ -46,7 +46,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
     const-string v1, "NO_DOCUMENT"
@@ -59,7 +58,6 @@
 
     sput-object v0, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->NO_DOCUMENT:Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
     const-string v4, "DOCUMENT"
@@ -70,7 +68,6 @@
 
     sput-object v1, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->DOCUMENT:Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
-    .line 3
     new-instance v4, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
     const-string v6, "UNKNOWN_DOCUMENT"
@@ -81,7 +78,6 @@
 
     sput-object v4, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->UNKNOWN_DOCUMENT:Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
-    .line 4
     new-instance v6, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
     const-string v8, "DOCUMENTTYPE_NOT_SET"
@@ -102,7 +98,6 @@
 
     aput-object v6, v8, v7
 
-    .line 5
     sput-object v8, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->$VALUES:[Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
     return-void
@@ -116,10 +111,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->value:I
 
     return-void
@@ -146,25 +139,21 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->UNKNOWN_DOCUMENT:Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->DOCUMENT:Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->NO_DOCUMENT:Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
     return-object p0
 
-    .line 4
     :cond_3
     sget-object p0, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->DOCUMENTTYPE_NOT_SET:Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
@@ -176,7 +165,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->forNumber(I)Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
     move-result-object p0
@@ -187,7 +175,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -202,7 +189,6 @@
 .method public static values()[Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->$VALUES:[Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;
 
     invoke-virtual {v0}, [Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->clone()Ljava/lang/Object;
@@ -219,7 +205,6 @@
 .method public getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/proto/MaybeDocument$DocumentTypeCase;->value:I
 
     return v0

@@ -80,19 +80,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/k/x/i;->a:Lj/a/c;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/datatransport/k/x/i;->b:Lj/a/c;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/datatransport/k/x/i;->c:Lj/a/c;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/datatransport/k/x/i;->d:Lj/a/c;
 
     return-void
@@ -119,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/k/x/i;
 
     invoke-direct {v0, p0, p1, p2, p3}, Lcom/google/android/datatransport/k/x/i;-><init>(Lj/a/c;Lj/a/c;Lj/a/c;Lj/a/c;)V
@@ -130,7 +124,6 @@
 .method public static c(Landroid/content/Context;Lcom/google/android/datatransport/k/x/j/c;Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;Lcom/google/android/datatransport/k/y/a;)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/s;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/google/android/datatransport/k/x/h;->b(Landroid/content/Context;Lcom/google/android/datatransport/k/x/j/c;Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;Lcom/google/android/datatransport/k/y/a;)Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/s;
 
     move-result-object p0
@@ -151,7 +144,6 @@
 .method public b()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/s;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/x/i;->a:Lj/a/c;
 
     invoke-interface {v0}, Lj/a/c;->get()Ljava/lang/Object;
@@ -194,7 +186,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/x/i;->b()Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/s;
 
     move-result-object v0

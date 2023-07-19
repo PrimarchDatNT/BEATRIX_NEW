@@ -88,7 +88,6 @@
 
     const-string v0, "connection"
 
-    .line 1
     invoke-static {v0}, Lokio/ByteString;->encodeUtf8(Ljava/lang/String;)Lokio/ByteString;
 
     move-result-object v0
@@ -97,7 +96,6 @@
 
     const-string v1, "host"
 
-    .line 2
     invoke-static {v1}, Lokio/ByteString;->encodeUtf8(Ljava/lang/String;)Lokio/ByteString;
 
     move-result-object v1
@@ -106,7 +104,6 @@
 
     const-string v2, "keep-alive"
 
-    .line 3
     invoke-static {v2}, Lokio/ByteString;->encodeUtf8(Ljava/lang/String;)Lokio/ByteString;
 
     move-result-object v2
@@ -115,7 +112,6 @@
 
     const-string v3, "proxy-connection"
 
-    .line 4
     invoke-static {v3}, Lokio/ByteString;->encodeUtf8(Ljava/lang/String;)Lokio/ByteString;
 
     move-result-object v3
@@ -124,7 +120,6 @@
 
     const-string v4, "transfer-encoding"
 
-    .line 5
     invoke-static {v4}, Lokio/ByteString;->encodeUtf8(Ljava/lang/String;)Lokio/ByteString;
 
     move-result-object v4
@@ -133,7 +128,6 @@
 
     const-string v5, "te"
 
-    .line 6
     invoke-static {v5}, Lokio/ByteString;->encodeUtf8(Ljava/lang/String;)Lokio/ByteString;
 
     move-result-object v5
@@ -142,7 +136,6 @@
 
     const-string v6, "encoding"
 
-    .line 7
     invoke-static {v6}, Lokio/ByteString;->encodeUtf8(Ljava/lang/String;)Lokio/ByteString;
 
     move-result-object v6
@@ -151,7 +144,6 @@
 
     const-string v7, "upgrade"
 
-    .line 8
     invoke-static {v7}, Lokio/ByteString;->encodeUtf8(Ljava/lang/String;)Lokio/ByteString;
 
     move-result-object v7
@@ -182,7 +174,6 @@
 
     aput-object v4, v9, v14
 
-    .line 9
     sget-object v15, Lcom/squareup/okhttp/internal/framed/Header;->TARGET_METHOD:Lokio/ByteString;
 
     const/4 v8, 0x5
@@ -239,7 +230,6 @@
 
     aput-object v4, v9, v21
 
-    .line 10
     invoke-static {v9}, Lcom/squareup/okhttp/internal/Util;->immutableList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v9
@@ -284,7 +274,6 @@
 
     aput-object v24, v9, v15
 
-    .line 11
     invoke-static {v9}, Lcom/squareup/okhttp/internal/Util;->immutableList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v9
@@ -311,7 +300,6 @@
 
     aput-object v7, v9, v19
 
-    .line 12
     invoke-static {v9}, Lcom/squareup/okhttp/internal/Util;->immutableList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
@@ -324,13 +312,10 @@
 .method public constructor <init>(Lcom/squareup/okhttp/internal/http/StreamAllocation;Lcom/squareup/okhttp/internal/framed/FramedConnection;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->streamAllocation:Lcom/squareup/okhttp/internal/http/StreamAllocation;
 
-    .line 3
     iput-object p2, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->framedConnection:Lcom/squareup/okhttp/internal/framed/FramedConnection;
 
     return-void
@@ -339,7 +324,6 @@
 .method static synthetic access$000(Lcom/squareup/okhttp/internal/http/Http2xStream;)Lcom/squareup/okhttp/internal/http/StreamAllocation;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->streamAllocation:Lcom/squareup/okhttp/internal/http/StreamAllocation;
 
     return-object p0
@@ -358,12 +342,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/squareup/okhttp/Request;->headers()Lcom/squareup/okhttp/Headers;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/Headers;->size()I
@@ -374,7 +356,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     new-instance v2, Lcom/squareup/okhttp/internal/framed/Header;
 
     sget-object v3, Lcom/squareup/okhttp/internal/framed/Header;->TARGET_METHOD:Lokio/ByteString;
@@ -387,7 +368,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     new-instance v2, Lcom/squareup/okhttp/internal/framed/Header;
 
     sget-object v3, Lcom/squareup/okhttp/internal/framed/Header;->TARGET_PATH:Lokio/ByteString;
@@ -404,7 +384,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     new-instance v2, Lcom/squareup/okhttp/internal/framed/Header;
 
     sget-object v3, Lcom/squareup/okhttp/internal/framed/Header;->TARGET_AUTHORITY:Lokio/ByteString;
@@ -421,7 +400,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     new-instance v2, Lcom/squareup/okhttp/internal/framed/Header;
 
     sget-object v3, Lcom/squareup/okhttp/internal/framed/Header;->TARGET_SCHEME:Lokio/ByteString;
@@ -438,7 +416,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     invoke-virtual {v0}, Lcom/squareup/okhttp/Headers;->size()I
 
     move-result p0
@@ -448,7 +425,6 @@
     :goto_0
     if-ge v2, p0, :cond_1
 
-    .line 8
     invoke-virtual {v0, v2}, Lcom/squareup/okhttp/Headers;->name(I)Ljava/lang/String;
 
     move-result-object v3
@@ -463,7 +439,6 @@
 
     move-result-object v3
 
-    .line 9
     sget-object v4, Lcom/squareup/okhttp/internal/http/Http2xStream;->HTTP_2_SKIPPED_REQUEST_HEADERS:Ljava/util/List;
 
     invoke-interface {v4, v3}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
@@ -472,7 +447,6 @@
 
     if-nez v4, :cond_0
 
-    .line 10
     new-instance v4, Lcom/squareup/okhttp/internal/framed/Header;
 
     invoke-virtual {v0, v2}, Lcom/squareup/okhttp/Headers;->value(I)Ljava/lang/String;
@@ -495,7 +469,6 @@
 .method private static joinOnNull(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0, p0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
@@ -531,12 +504,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/Headers$Builder;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/Headers$Builder;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -548,7 +519,6 @@
     :goto_0
     if-ge v3, v1, :cond_2
 
-    .line 3
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -557,7 +527,6 @@
 
     iget-object v4, v4, Lcom/squareup/okhttp/internal/framed/Header;->name:Lokio/ByteString;
 
-    .line 4
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -570,7 +539,6 @@
 
     move-result-object v5
 
-    .line 5
     sget-object v6, Lcom/squareup/okhttp/internal/framed/Header;->RESPONSE_STATUS:Lokio/ByteString;
 
     invoke-virtual {v4, v6}, Lokio/ByteString;->equals(Ljava/lang/Object;)Z
@@ -583,7 +551,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     sget-object v6, Lcom/squareup/okhttp/internal/http/Http2xStream;->HTTP_2_SKIPPED_RESPONSE_HEADERS:Ljava/util/List;
 
@@ -593,7 +560,6 @@
 
     if-nez v6, :cond_1
 
-    .line 7
     invoke-virtual {v4}, Lokio/ByteString;->utf8()Ljava/lang/String;
 
     move-result-object v4
@@ -609,7 +575,6 @@
     :cond_2
     if-eqz v2, :cond_3
 
-    .line 8
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -628,33 +593,28 @@
 
     move-result-object p0
 
-    .line 9
     new-instance v1, Lcom/squareup/okhttp/Response$Builder;
 
     invoke-direct {v1}, Lcom/squareup/okhttp/Response$Builder;-><init>()V
 
     sget-object v2, Lcom/squareup/okhttp/Protocol;->HTTP_2:Lcom/squareup/okhttp/Protocol;
 
-    .line 10
     invoke-virtual {v1, v2}, Lcom/squareup/okhttp/Response$Builder;->protocol(Lcom/squareup/okhttp/Protocol;)Lcom/squareup/okhttp/Response$Builder;
 
     move-result-object v1
 
     iget v2, p0, Lcom/squareup/okhttp/internal/http/StatusLine;->code:I
 
-    .line 11
     invoke-virtual {v1, v2}, Lcom/squareup/okhttp/Response$Builder;->code(I)Lcom/squareup/okhttp/Response$Builder;
 
     move-result-object v1
 
     iget-object p0, p0, Lcom/squareup/okhttp/internal/http/StatusLine;->message:Ljava/lang/String;
 
-    .line 12
     invoke-virtual {v1, p0}, Lcom/squareup/okhttp/Response$Builder;->message(Ljava/lang/String;)Lcom/squareup/okhttp/Response$Builder;
 
     move-result-object p0
 
-    .line 13
     invoke-virtual {v0}, Lcom/squareup/okhttp/Headers$Builder;->build()Lcom/squareup/okhttp/Headers;
 
     move-result-object v0
@@ -665,7 +625,6 @@
 
     return-object p0
 
-    .line 14
     :cond_3
     new-instance p0, Ljava/net/ProtocolException;
 
@@ -694,12 +653,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/Headers$Builder;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/Headers$Builder;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -715,7 +672,6 @@
     :goto_0
     if-ge v5, v1, :cond_5
 
-    .line 3
     invoke-interface {p0, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -724,7 +680,6 @@
 
     iget-object v6, v6, Lcom/squareup/okhttp/internal/framed/Header;->name:Lokio/ByteString;
 
-    .line 4
     invoke-interface {p0, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v7
@@ -739,7 +694,6 @@
 
     const/4 v8, 0x0
 
-    .line 5
     :goto_1
     invoke-virtual {v7}, Ljava/lang/String;->length()I
 
@@ -747,7 +701,6 @@
 
     if-ge v8, v9, :cond_4
 
-    .line 6
     invoke-virtual {v7, v2, v8}, Ljava/lang/String;->indexOf(II)I
 
     move-result v9
@@ -756,18 +709,15 @@
 
     if-ne v9, v10, :cond_0
 
-    .line 7
     invoke-virtual {v7}, Ljava/lang/String;->length()I
 
     move-result v9
 
-    .line 8
     :cond_0
     invoke-virtual {v7, v8, v9}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v8
 
-    .line 9
     sget-object v10, Lcom/squareup/okhttp/internal/framed/Header;->RESPONSE_STATUS:Lokio/ByteString;
 
     invoke-virtual {v6, v10}, Lokio/ByteString;->equals(Ljava/lang/Object;)Z
@@ -780,7 +730,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_1
     sget-object v10, Lcom/squareup/okhttp/internal/framed/Header;->VERSION:Lokio/ByteString;
 
@@ -794,7 +743,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_2
     sget-object v10, Lcom/squareup/okhttp/internal/http/Http2xStream;->SPDY_3_SKIPPED_RESPONSE_HEADERS:Ljava/util/List;
 
@@ -804,7 +752,6 @@
 
     if-nez v10, :cond_3
 
-    .line 12
     invoke-virtual {v6}, Lokio/ByteString;->utf8()Ljava/lang/String;
 
     move-result-object v10
@@ -825,7 +772,6 @@
     :cond_5
     if-eqz v3, :cond_6
 
-    .line 13
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -846,33 +792,28 @@
 
     move-result-object p0
 
-    .line 14
     new-instance v1, Lcom/squareup/okhttp/Response$Builder;
 
     invoke-direct {v1}, Lcom/squareup/okhttp/Response$Builder;-><init>()V
 
     sget-object v2, Lcom/squareup/okhttp/Protocol;->SPDY_3:Lcom/squareup/okhttp/Protocol;
 
-    .line 15
     invoke-virtual {v1, v2}, Lcom/squareup/okhttp/Response$Builder;->protocol(Lcom/squareup/okhttp/Protocol;)Lcom/squareup/okhttp/Response$Builder;
 
     move-result-object v1
 
     iget v2, p0, Lcom/squareup/okhttp/internal/http/StatusLine;->code:I
 
-    .line 16
     invoke-virtual {v1, v2}, Lcom/squareup/okhttp/Response$Builder;->code(I)Lcom/squareup/okhttp/Response$Builder;
 
     move-result-object v1
 
     iget-object p0, p0, Lcom/squareup/okhttp/internal/http/StatusLine;->message:Ljava/lang/String;
 
-    .line 17
     invoke-virtual {v1, p0}, Lcom/squareup/okhttp/Response$Builder;->message(Ljava/lang/String;)Lcom/squareup/okhttp/Response$Builder;
 
     move-result-object p0
 
-    .line 18
     invoke-virtual {v0}, Lcom/squareup/okhttp/Headers$Builder;->build()Lcom/squareup/okhttp/Headers;
 
     move-result-object v0
@@ -883,7 +824,6 @@
 
     return-object p0
 
-    .line 19
     :cond_6
     new-instance p0, Ljava/net/ProtocolException;
 
@@ -907,12 +847,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/squareup/okhttp/Request;->headers()Lcom/squareup/okhttp/Headers;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/Headers;->size()I
@@ -923,7 +861,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     new-instance v2, Lcom/squareup/okhttp/internal/framed/Header;
 
     sget-object v3, Lcom/squareup/okhttp/internal/framed/Header;->TARGET_METHOD:Lokio/ByteString;
@@ -936,7 +873,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     new-instance v2, Lcom/squareup/okhttp/internal/framed/Header;
 
     sget-object v3, Lcom/squareup/okhttp/internal/framed/Header;->TARGET_PATH:Lokio/ByteString;
@@ -953,7 +889,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     new-instance v2, Lcom/squareup/okhttp/internal/framed/Header;
 
     sget-object v3, Lcom/squareup/okhttp/internal/framed/Header;->VERSION:Lokio/ByteString;
@@ -964,7 +899,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     new-instance v2, Lcom/squareup/okhttp/internal/framed/Header;
 
     sget-object v3, Lcom/squareup/okhttp/internal/framed/Header;->TARGET_HOST:Lokio/ByteString;
@@ -981,7 +915,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     new-instance v2, Lcom/squareup/okhttp/internal/framed/Header;
 
     sget-object v3, Lcom/squareup/okhttp/internal/framed/Header;->TARGET_SCHEME:Lokio/ByteString;
@@ -998,12 +931,10 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     new-instance p0, Ljava/util/LinkedHashSet;
 
     invoke-direct {p0}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 9
     invoke-virtual {v0}, Lcom/squareup/okhttp/Headers;->size()I
 
     move-result v2
@@ -1015,7 +946,6 @@
     :goto_0
     if-ge v4, v2, :cond_4
 
-    .line 10
     invoke-virtual {v0, v4}, Lcom/squareup/okhttp/Headers;->name(I)Ljava/lang/String;
 
     move-result-object v5
@@ -1030,7 +960,6 @@
 
     move-result-object v5
 
-    .line 11
     sget-object v6, Lcom/squareup/okhttp/internal/http/Http2xStream;->SPDY_3_SKIPPED_REQUEST_HEADERS:Ljava/util/List;
 
     invoke-interface {v6, v5}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
@@ -1041,20 +970,17 @@
 
     goto :goto_2
 
-    .line 12
     :cond_0
     invoke-virtual {v0, v4}, Lcom/squareup/okhttp/Headers;->value(I)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 13
     invoke-interface {p0, v5}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     move-result v7
 
     if-eqz v7, :cond_1
 
-    .line 14
     new-instance v7, Lcom/squareup/okhttp/internal/framed/Header;
 
     invoke-direct {v7, v5, v6}, Lcom/squareup/okhttp/internal/framed/Header;-><init>(Lokio/ByteString;Ljava/lang/String;)V
@@ -1066,7 +992,6 @@
     :cond_1
     const/4 v7, 0x0
 
-    .line 15
     :goto_1
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -1074,7 +999,6 @@
 
     if-ge v7, v8, :cond_3
 
-    .line 16
     invoke-interface {v1, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -1089,7 +1013,6 @@
 
     if-eqz v8, :cond_2
 
-    .line 17
     invoke-interface {v1, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -1106,7 +1029,6 @@
 
     move-result-object v6
 
-    .line 18
     new-instance v8, Lcom/squareup/okhttp/internal/framed/Header;
 
     invoke-direct {v8, v5, v6}, Lcom/squareup/okhttp/internal/framed/Header;-><init>(Lokio/ByteString;Ljava/lang/String;)V
@@ -1135,7 +1057,6 @@
 .method public cancel()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->stream:Lcom/squareup/okhttp/internal/framed/FramedStream;
 
     if-eqz v0, :cond_0
@@ -1156,7 +1077,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->stream:Lcom/squareup/okhttp/internal/framed/FramedStream;
 
     invoke-virtual {p1}, Lcom/squareup/okhttp/internal/framed/FramedStream;->getSink()Lokio/Sink;
@@ -1174,7 +1094,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->stream:Lcom/squareup/okhttp/internal/framed/FramedStream;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/internal/framed/FramedStream;->getSink()Lokio/Sink;
@@ -1194,7 +1113,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/internal/http/Http2xStream$StreamFinishingSource;
 
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->stream:Lcom/squareup/okhttp/internal/framed/FramedStream;
@@ -1205,7 +1123,6 @@
 
     invoke-direct {v0, p0, v1}, Lcom/squareup/okhttp/internal/http/Http2xStream$StreamFinishingSource;-><init>(Lcom/squareup/okhttp/internal/http/Http2xStream;Lokio/Source;)V
 
-    .line 2
     new-instance v1, Lcom/squareup/okhttp/internal/http/RealResponseBody;
 
     invoke-virtual {p1}, Lcom/squareup/okhttp/Response;->headers()Lcom/squareup/okhttp/Headers;
@@ -1229,7 +1146,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->framedConnection:Lcom/squareup/okhttp/internal/framed/FramedConnection;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->getProtocol()Lcom/squareup/okhttp/Protocol;
@@ -1242,7 +1158,6 @@
 
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->stream:Lcom/squareup/okhttp/internal/framed/FramedStream;
 
-    .line 2
     invoke-virtual {v0}, Lcom/squareup/okhttp/internal/framed/FramedStream;->getResponseHeaders()Ljava/util/List;
 
     move-result-object v0
@@ -1256,7 +1171,6 @@
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->stream:Lcom/squareup/okhttp/internal/framed/FramedStream;
 
-    .line 3
     invoke-virtual {v0}, Lcom/squareup/okhttp/internal/framed/FramedStream;->getResponseHeaders()Ljava/util/List;
 
     move-result-object v0
@@ -1272,7 +1186,6 @@
 .method public setHttpEngine(Lcom/squareup/okhttp/internal/http/HttpEngine;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->httpEngine:Lcom/squareup/okhttp/internal/http/HttpEngine;
 
     return-void
@@ -1286,7 +1199,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->stream:Lcom/squareup/okhttp/internal/framed/FramedStream;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/internal/framed/FramedStream;->getSink()Lokio/Sink;
@@ -1306,27 +1218,23 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->stream:Lcom/squareup/okhttp/internal/framed/FramedStream;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->httpEngine:Lcom/squareup/okhttp/internal/http/HttpEngine;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/internal/http/HttpEngine;->writingRequestHeaders()V
 
-    .line 3
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->httpEngine:Lcom/squareup/okhttp/internal/http/HttpEngine;
 
     invoke-virtual {v0, p1}, Lcom/squareup/okhttp/internal/http/HttpEngine;->permitsRequestBody(Lcom/squareup/okhttp/Request;)Z
 
     move-result v0
 
-    .line 4
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->framedConnection:Lcom/squareup/okhttp/internal/framed/FramedConnection;
 
     invoke-virtual {v1}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->getProtocol()Lcom/squareup/okhttp/Protocol;
@@ -1337,14 +1245,12 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 5
     invoke-static {p1}, Lcom/squareup/okhttp/internal/http/Http2xStream;->http2HeadersList(Lcom/squareup/okhttp/Request;)Ljava/util/List;
 
     move-result-object p1
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {p1}, Lcom/squareup/okhttp/internal/http/Http2xStream;->spdy3HeadersList(Lcom/squareup/okhttp/Request;)Ljava/util/List;
 
@@ -1353,7 +1259,6 @@
     :goto_0
     const/4 v1, 0x1
 
-    .line 7
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->framedConnection:Lcom/squareup/okhttp/internal/framed/FramedConnection;
 
     invoke-virtual {v2, p1, v0, v1}, Lcom/squareup/okhttp/internal/framed/FramedConnection;->newStream(Ljava/util/List;ZZ)Lcom/squareup/okhttp/internal/framed/FramedStream;
@@ -1362,7 +1267,6 @@
 
     iput-object p1, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->stream:Lcom/squareup/okhttp/internal/framed/FramedStream;
 
-    .line 8
     invoke-virtual {p1}, Lcom/squareup/okhttp/internal/framed/FramedStream;->readTimeout()Lokio/Timeout;
 
     move-result-object p1
@@ -1381,7 +1285,6 @@
 
     invoke-virtual {p1, v0, v1, v2}, Lokio/Timeout;->timeout(JLjava/util/concurrent/TimeUnit;)Lokio/Timeout;
 
-    .line 9
     iget-object p1, p0, Lcom/squareup/okhttp/internal/http/Http2xStream;->stream:Lcom/squareup/okhttp/internal/framed/FramedStream;
 
     invoke-virtual {p1}, Lcom/squareup/okhttp/internal/framed/FramedStream;->writeTimeout()Lokio/Timeout;

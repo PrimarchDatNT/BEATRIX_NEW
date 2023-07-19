@@ -41,10 +41,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lf/d/a;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -61,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/dialog/s0/a0;->M(Lcom/commsource/widget/dialog/s0/a0$a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -76,7 +73,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/dialog/s0/a0;->X:Lcom/commsource/widget/dialog/s0/a0$a;
 
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/s0/a0$a;->g()Z
@@ -85,10 +81,8 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -102,7 +96,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,10 +110,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/s0/a0;->X:Lcom/commsource/widget/dialog/s0/a0$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -135,20 +126,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/s0/a0;->X:Lcom/commsource/widget/dialog/s0/a0$a;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
@@ -158,12 +145,10 @@
 
     invoke-virtual {v1, p0}, Landroidx/viewpager/widget/ViewPager;->addOnPageChangeListener(Landroidx/viewpager/widget/ViewPager$OnPageChangeListener;)V
 
-    .line 5
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/widget/dialog/s0/a0;->X:Lcom/commsource/widget/dialog/s0/a0$a;
 
     invoke-static {v2}, Lcom/commsource/widget/dialog/s0/a0$a;->a(Lcom/commsource/widget/dialog/s0/a0$a;)Ljava/util/List;
@@ -178,7 +163,6 @@
 
     if-gt v2, v3, :cond_1
 
-    .line 7
     iget-object v2, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v2, Lcom/commsource/beautyplus/f0/m5;
@@ -196,7 +180,6 @@
 
     const/4 v4, 0x0
 
-    .line 8
     :goto_0
     iget-object v5, p0, Lcom/commsource/widget/dialog/s0/a0;->X:Lcom/commsource/widget/dialog/s0/a0$a;
 
@@ -210,7 +193,6 @@
 
     if-ge v4, v5, :cond_5
 
-    .line 9
     new-instance v5, Landroid/widget/ImageView;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -219,7 +201,6 @@
 
     invoke-direct {v5, v6}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    .line 10
     new-instance v6, Landroid/view/ViewGroup$LayoutParams;
 
     const/4 v7, -0x1
@@ -228,7 +209,6 @@
 
     invoke-virtual {v5, v6}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 11
     iget-object v6, p0, Lcom/commsource/widget/dialog/s0/a0;->X:Lcom/commsource/widget/dialog/s0/a0$a;
 
     invoke-static {v6}, Lcom/commsource/widget/dialog/s0/a0$a;->b(Lcom/commsource/widget/dialog/s0/a0$a;)Ljava/util/List;
@@ -247,10 +227,8 @@
 
     invoke-virtual {v5, v6}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 12
     invoke-interface {v1, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 13
     new-instance v5, Landroid/view/View;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -259,10 +237,8 @@
 
     invoke-direct {v5, v6}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 14
     sget-object v6, Lf/k/c/c/d;->a:Lf/k/c/c/d;
 
-    .line 15
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v8
@@ -285,7 +261,6 @@
 
     move-result-object v8
 
-    .line 16
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v10
@@ -306,19 +281,16 @@
 
     move-result-object v6
 
-    .line 17
     invoke-static {v6, v8}, Lf/k/c/c/e;->f(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v6
 
     invoke-virtual {v5, v6}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 18
     new-instance v6, Landroid/widget/LinearLayout$LayoutParams;
 
     const/high16 v8, 0x40c00000    # 6.0f
 
-    .line 19
     invoke-static {v8}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v9
@@ -333,18 +305,15 @@
 
     const/high16 v8, 0x41100000    # 9.0f
 
-    .line 20
     invoke-static {v8}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v8
 
     invoke-virtual {v6, v8, v2, v2, v2}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 21
     :cond_2
     invoke-virtual {v5, v6}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 22
     iget-object v6, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v6, Lcom/commsource/beautyplus/f0/m5;
@@ -362,11 +331,9 @@
     :cond_3
     const/4 v6, 0x0
 
-    .line 23
     :goto_1
     invoke-virtual {v5, v6}, Landroid/view/View;->setSelected(Z)V
 
-    .line 24
     new-instance v5, Landroid/widget/TextView;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -377,26 +344,22 @@
 
     const/high16 v6, 0x41800000    # 16.0f
 
-    .line 25
     invoke-virtual {v5, v3, v6}, Landroid/widget/TextView;->setTextSize(IF)V
 
     sget v6, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
-    .line 26
     invoke-static {v6}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v6
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 27
     new-instance v6, Landroid/widget/RelativeLayout$LayoutParams;
 
     const/4 v8, -0x2
 
     invoke-direct {v6, v7, v8}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 28
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     if-nez v4, :cond_4
@@ -408,11 +371,9 @@
     :cond_4
     const/4 v6, 0x0
 
-    .line 29
     :goto_2
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 30
     iget-object v6, p0, Lcom/commsource/widget/dialog/s0/a0;->X:Lcom/commsource/widget/dialog/s0/a0$a;
 
     invoke-virtual {v6}, Lcom/commsource/widget/dialog/s0/a0$a;->d()Ljava/util/List;
@@ -427,12 +388,10 @@
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 31
     iget-object v6, p0, Lcom/commsource/widget/dialog/s0/a0;->Y:Ljava/util/List;
 
     invoke-interface {v6, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 32
     iget-object v6, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v6, Lcom/commsource/beautyplus/f0/m5;
@@ -445,7 +404,6 @@
 
     goto/16 :goto_0
 
-    .line 33
     :cond_5
     :goto_3
     iget-object v2, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
@@ -460,7 +418,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 34
     iget-object v2, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v2, Lcom/commsource/beautyplus/f0/m5;
@@ -473,7 +430,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 35
     iget-object v2, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v2, Lcom/commsource/beautyplus/f0/m5;
@@ -486,7 +442,6 @@
 
     invoke-virtual {v2, v3}, Landroidx/viewpager/widget/ViewPager;->setAdapter(Landroidx/viewpager/widget/PagerAdapter;)V
 
-    .line 36
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -499,7 +454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
@@ -514,7 +468,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_common_viewpager:I
@@ -545,7 +498,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -558,7 +510,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -585,7 +536,6 @@
 
     if-gtz v2, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/widget/dialog/s0/a0;->Y:Ljava/util/List;
 
     invoke-interface {v2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -602,7 +552,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/widget/dialog/s0/a0;->Y:Ljava/util/List;
 
     invoke-interface {p2}, Ljava/util/List;->size()I
@@ -613,7 +562,6 @@
 
     if-le p2, p1, :cond_1
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/widget/dialog/s0/a0;->Y:Ljava/util/List;
 
     invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -626,7 +574,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v2, p0, Lcom/commsource/widget/dialog/s0/a0;->Y:Ljava/util/List;
 
@@ -644,7 +591,6 @@
 
     invoke-virtual {v2, p2}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/widget/dialog/s0/a0;->Y:Ljava/util/List;
 
     invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -655,7 +601,6 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -674,7 +619,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :goto_0
     iget-object v3, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
@@ -688,7 +632,6 @@
 
     if-ge v2, v3, :cond_1
 
-    .line 2
     iget-object v3, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v3, Lcom/commsource/beautyplus/f0/m5;
@@ -708,7 +651,6 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 3
     :goto_1
     invoke-virtual {v3, v4}, Landroid/view/View;->setSelected(Z)V
 
@@ -716,7 +658,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

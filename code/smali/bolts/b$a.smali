@@ -28,19 +28,14 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lbolts/b$a;->b:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lbolts/b$a;->c:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lbolts/b$a;->a:Landroid/net/Uri;
 
-    .line 5
     iput-object p4, p0, Lbolts/b$a;->d:Ljava/lang/String;
 
     return-void
@@ -51,7 +46,6 @@
 .method public a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lbolts/b$a;->d:Ljava/lang/String;
 
     return-object v0
@@ -60,7 +54,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lbolts/b$a;->c:Ljava/lang/String;
 
     return-object v0
@@ -69,7 +62,6 @@
 .method public c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lbolts/b$a;->b:Ljava/lang/String;
 
     return-object v0
@@ -78,7 +70,6 @@
 .method public d()Landroid/net/Uri;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lbolts/b$a;->a:Landroid/net/Uri;
 
     return-object v0

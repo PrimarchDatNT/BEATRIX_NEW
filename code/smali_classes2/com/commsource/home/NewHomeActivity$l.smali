@@ -55,19 +55,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$l;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-virtual {v1, p1}, Lcom/commsource/home/NewHomeActivity;->z1(Lcom/commsource/home/entity/e;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$l;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v1}, Lcom/commsource/home/NewHomeActivity;->f1(Lcom/commsource/home/NewHomeActivity;)V
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/home/entity/e;->e()Ljava/util/List;
 
     move-result-object v1
@@ -99,7 +96,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$l;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v1}, Lcom/commsource/home/NewHomeActivity;->S0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/home/NewHomeContentViewModel;
@@ -112,14 +108,12 @@
 
     invoke-virtual {v1}, Lcom/commsource/home/d;->k()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$l;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v1}, Lcom/commsource/home/NewHomeActivity;->R0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/widget/h1/e;
 
     move-result-object v1
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/home/NewHomeActivity$l;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v3}, Lcom/commsource/home/NewHomeActivity;->Q0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/widget/h1/c;
@@ -138,10 +132,8 @@
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {v1, v3, v2}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 8
     new-instance v1, Lcom/commsource/home/NewHomeActivity$l$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/home/NewHomeActivity$l$a;-><init>(Lcom/commsource/home/NewHomeActivity$l;)V
@@ -151,7 +143,6 @@
     :cond_2
     if-eqz p1, :cond_5
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$l;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v1}, Lcom/commsource/home/NewHomeActivity;->U0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/beautyplus/f0/q0;
@@ -166,7 +157,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;->setRefreshing(Z)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$l;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v1}, Lcom/commsource/util/u0;->h(Landroid/app/Activity;)Lcom/commsource/util/u0$d;
@@ -183,12 +173,10 @@
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->home_beautyplus_logo:I
 
-    .line 11
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object v1
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/home/NewHomeActivity$l;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v2}, Lcom/commsource/home/NewHomeActivity;->U0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/beautyplus/f0/q0;
@@ -199,7 +187,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$l;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v1}, Lcom/commsource/home/NewHomeActivity;->U0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/beautyplus/f0/q0;
@@ -228,7 +215,6 @@
     :goto_1
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$l;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v1}, Lcom/commsource/home/NewHomeActivity;->U0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/beautyplus/f0/q0;
@@ -237,7 +223,6 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/q0;->O:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
-    .line 15
     invoke-virtual {p1}, Lcom/commsource/home/entity/e;->a()Ljava/lang/String;
 
     move-result-object p1
@@ -248,11 +233,9 @@
 
     move-result v3
 
-    .line 16
     :cond_4
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout;->setBackgroundColor(I)V
 
-    .line 17
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -266,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/home/entity/e;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/NewHomeActivity$l;->a(Lcom/commsource/home/entity/e;)V

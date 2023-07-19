@@ -157,18 +157,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->c:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->d:Z
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/function/BaseSubFragment$studioBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$studioBinding$2;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
@@ -179,7 +175,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->g:Lcotlin/w;
 
-    .line 5
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->i()I
@@ -190,35 +185,30 @@
 
     iput v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->p:F
 
-    .line 6
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->L:Ljava/util/LinkedList;
 
-    .line 7
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->M:Ljava/util/LinkedList;
 
-    .line 8
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->S:Ljava/util/LinkedList;
 
-    .line 9
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->U:Ljava/util/ArrayList;
 
-    .line 10
     new-instance v0, Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
@@ -235,7 +225,6 @@
 .method public static final synthetic A(Lcom/commsource/studio/function/BaseSubFragment;)Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2$a;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;->v0()Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2$a;
 
     move-result-object p0
@@ -246,7 +235,6 @@
 .method private final A0()V
     .locals 4
 
-    .line 1
     const-class v0, Lcom/commsource/studio/component/ConfirmCancelComponent$a;
 
     invoke-virtual {p0, v0}, Lcom/commsource/studio/function/BaseSubFragment;->x0(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -255,7 +243,6 @@
 
     check-cast v0, Lcom/commsource/studio/component/ConfirmCancelComponent$a;
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/studio/component/ConfirmCancelComponent$a;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -270,7 +257,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-virtual {v0}, Lcom/commsource/studio/component/ConfirmCancelComponent$a;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -285,7 +271,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-virtual {v0}, Lcom/commsource/studio/component/ConfirmCancelComponent$a;->A()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -301,14 +286,12 @@
     :cond_0
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->p0()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 6
     const-class v0, Lcom/commsource/studio/component/ContrastComponent$a;
 
     invoke-virtual {p0, v0}, Lcom/commsource/studio/function/BaseSubFragment;->x0(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -317,7 +300,6 @@
 
     check-cast v0, Lcom/commsource/studio/component/ContrastComponent$a;
 
-    .line 7
     invoke-virtual {v0}, Lcom/commsource/studio/component/ContrastComponent$a;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -332,7 +314,6 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     const-class v0, Lcom/commsource/studio/component/PreviewComponent$a;
 
     invoke-virtual {p0, v0}, Lcom/commsource/studio/function/BaseSubFragment;->x0(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -341,7 +322,6 @@
 
     check-cast v0, Lcom/commsource/studio/component/PreviewComponent$a;
 
-    .line 9
     invoke-virtual {v0}, Lcom/commsource/studio/component/PreviewComponent$a;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -363,7 +343,6 @@
 .method public static final synthetic B(Lcom/commsource/studio/function/BaseSubFragment;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;->b1()V
 
     return-void
@@ -380,13 +359,11 @@
 
     const/4 p2, -0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->E(Lcom/commsource/studio/layer/d;I)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -406,7 +383,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
 
     move-result-object p1
@@ -416,7 +392,6 @@
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -436,7 +411,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
 
     move-result-object p1
@@ -446,7 +420,6 @@
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -468,13 +441,11 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->P0(Lcom/commsource/studio/MatrixBox;)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -496,13 +467,11 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/function/BaseSubFragment;->R0(Lcom/commsource/studio/MatrixBox;Lcom/commsource/beautyplus/f0/k0;Lcom/commsource/studio/ImageStudioViewModel;)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -518,10 +487,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->P:Z
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/function/BaseSubFragment$c;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$c;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
@@ -542,13 +509,11 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->T0(ZLcom/commsource/studio/MatrixBox;)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -577,13 +542,11 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/function/BaseSubFragment;->V(Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;Z)V
 
     return-void
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -605,13 +568,11 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->V0(ZLcom/commsource/studio/MatrixBox;)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -633,13 +594,11 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->Y(Z)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -653,12 +612,10 @@
 .method private final b1()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;->v0()Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2$a;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_0
@@ -674,7 +631,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/bean/ImageLayerInfo;->getTexturePath()Ljava/lang/String;
 
     move-result-object v2
@@ -687,7 +643,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/studio/bean/ImageLayerInfo;->getTexturePath()Ljava/lang/String;
 
@@ -700,10 +655,8 @@
     :goto_0
     if-eqz v2, :cond_2
 
-    .line 5
     iput-object v2, p0, Lcom/commsource/studio/function/BaseSubFragment;->O:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 6
     invoke-virtual {v0}, Lcom/commsource/editengine/d;->k()Lcom/commsource/editengine/b;
 
     move-result-object v1
@@ -720,17 +673,14 @@
 
     iput-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment;->N:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment;->O:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-virtual {v0, v1}, Lcom/commsource/editengine/d;->x(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment;->N:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-virtual {v0, v1}, Lcom/commsource/editengine/d;->A(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment;->O:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-virtual {v0, v1}, Lcom/commsource/editengine/d;->z(Lcom/commsource/easyeditor/utils/opengl/f;)V
@@ -750,13 +700,11 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/function/BaseSubFragment;->b0(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lcotlin/jvm/u/l;)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -784,7 +732,6 @@
 .method public static final synthetic x(Lcom/commsource/studio/function/BaseSubFragment;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;->T()V
 
     return-void
@@ -801,13 +748,11 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->x1(IZ)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -821,7 +766,6 @@
 .method public static final synthetic z(Lcom/commsource/studio/function/BaseSubFragment;)Ljava/util/LinkedList;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/BaseSubFragment;->L:Ljava/util/LinkedList;
 
     return-object p0
@@ -840,7 +784,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->U:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -851,7 +794,6 @@
 .method public final C0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->Z:Z
 
     return v0
@@ -868,7 +810,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     const-string v1, "studioViewModel"
@@ -892,7 +833,6 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->C(Lcom/commsource/easyeditor/utils/opengl/c;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_1
@@ -906,7 +846,6 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->F(Lcom/commsource/studio/y;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_2
@@ -920,7 +859,6 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->A(Lcom/commsource/studio/o;)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_3
@@ -942,17 +880,14 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->D(Lcom/commsource/studio/s;)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->O:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz v0, :cond_4
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->g()Lcom/commsource/studio/s;
 
     move-result-object v2
 
-    .line 7
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -975,23 +910,19 @@
 
     move-result-object v3
 
-    .line 8
     invoke-virtual {v2, v0, v3}, Lcom/commsource/studio/s;->c(Lcom/commsource/easyeditor/utils/opengl/f;Ljava/lang/String;)Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v0
 
     invoke-virtual {p1, v0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->H(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 9
     :cond_4
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->N:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz v0, :cond_5
 
-    .line 10
     invoke-virtual {p1, v0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->B(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 11
     :cond_5
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -1010,7 +941,6 @@
 
     invoke-virtual {v0, p1}, Lcom/commsource/editengine/b;->a(Lcom/commsource/editengine/a;)V
 
-    .line 12
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->M:Ljava/util/LinkedList;
 
     invoke-virtual {v0, p1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
@@ -1021,7 +951,6 @@
 .method public final D0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->P:Z
 
     return v0
@@ -1040,10 +969,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1, p0}, Lcom/commsource/studio/layer/d;->a(Landroidx/fragment/app/Fragment;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_0
@@ -1059,7 +986,6 @@
 
     invoke-virtual {v0, p1, p2}, Lcom/commsource/studio/StudioCanvasContainer;->d(Lcom/commsource/studio/layer/BaseLayer;I)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/function/BaseSubFragment;->L:Ljava/util/LinkedList;
 
     invoke-virtual {p2, p1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
@@ -1070,7 +996,6 @@
 .method public final E0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->X:Z
 
     return v0
@@ -1079,7 +1004,6 @@
 .method public F0()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_0
@@ -1125,10 +1049,8 @@
 .method public G()V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->U:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -1156,7 +1078,6 @@
 
     const/4 v7, 0x0
 
-    .line 3
     invoke-static/range {v2 .. v7}, Lcom/commsource/util/l0;->b(Landroid/view/View;JLjava/lang/Runnable;ILjava/lang/Object;)V
 
     goto :goto_0
@@ -1168,12 +1089,10 @@
 .method public G0()V
     .locals 8
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->f0()Lcom/commsource/studio/effect/t;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/studio/effect/t;->f()Z
 
     move-result v1
@@ -1186,7 +1105,6 @@
 
     goto/16 :goto_1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->f0()Lcom/commsource/studio/effect/t;
 
@@ -1198,7 +1116,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     move-object v3, v0
 
     check-cast v3, Lcom/commsource/studio/effect/k;
@@ -1215,7 +1132,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/function/BaseSubFragment;->W(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;ZILjava/lang/Object;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->f0()Lcom/commsource/studio/effect/t;
 
     move-result-object v0
@@ -1224,7 +1140,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
@@ -1234,7 +1149,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_2
@@ -1264,7 +1178,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->f0()Lcom/commsource/studio/effect/t;
 
     move-result-object v1
@@ -1284,7 +1197,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment;->K:Lcom/commsource/studio/component/StudioProViewModel;
 
@@ -1294,7 +1206,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
-    .line 10
     :cond_5
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
 
@@ -1304,31 +1215,26 @@
 
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 11
     iget-object v4, p0, Lcom/commsource/studio/function/BaseSubFragment;->Q:Lcom/commsource/studio/sub/SubModuleEnum;
 
     if-nez v4, :cond_6
 
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
-    .line 12
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->f0()Lcom/commsource/studio/effect/t;
 
     move-result-object v2
 
-    .line 13
     new-instance v5, Lcom/commsource/studio/function/BaseSubFragment$onClickConfirm$$inlined$let$lambda$2;
 
     invoke-direct {v5, v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$onClickConfirm$$inlined$let$lambda$2;-><init>(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    .line 14
     invoke-virtual {v1, v3, v4, v2, v5}, Lcom/commsource/studio/component/StudioProViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lcotlin/jvm/u/l;)V
 
     :goto_0
     return-void
 
-    .line 15
     :cond_7
     :goto_1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->U()V
@@ -1345,14 +1251,12 @@
 .method public H0(Z)V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->Z:Z
 
     if-ne v0, p1, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iput-boolean p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->Z:Z
 
@@ -1362,10 +1266,8 @@
 
     const-string p1, "beauty_compare_clk"
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez p1, :cond_1
@@ -1383,7 +1285,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -1430,21 +1331,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->l0()F
 
     move-result v0
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/BaseSubFragment$a;
 
     invoke-direct {v0, p1, p0, p2}, Lcom/commsource/studio/function/BaseSubFragment$a;-><init>(Landroid/view/View;Lcom/commsource/studio/function/BaseSubFragment;Lcotlin/jvm/u/a;)V
@@ -1458,7 +1356,6 @@
 .method public I0()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->U()V
 
     return-void
@@ -1467,20 +1364,17 @@
 .method public J0(Z)V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->X:Z
 
     if-ne v0, p1, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iput-boolean p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->X:Z
 
     if-eqz p1, :cond_4
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->Y:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_1
@@ -1493,11 +1387,9 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->L:Ljava/util/LinkedList;
 
-    .line 5
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1516,12 +1408,10 @@
 
     check-cast v0, Lcom/commsource/studio/layer/d;
 
-    .line 6
     instance-of v1, v0, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;
 
     if-nez v1, :cond_2
 
-    .line 7
     invoke-virtual {v0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v0
@@ -1530,7 +1420,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
@@ -1544,7 +1433,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 9
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
@@ -1561,7 +1449,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->a0:Lcom/commsource/studio/MatrixBox;
 
-    .line 10
     new-instance p1, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
@@ -1570,7 +1457,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_4
     new-instance p1, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3;
 
@@ -1608,14 +1494,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -1628,7 +1512,6 @@
 
     move-result-object p1
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/BaseSubFragment$b;
 
     invoke-direct {v0, p0, p2}, Lcom/commsource/studio/function/BaseSubFragment$b;-><init>(Lcom/commsource/studio/function/BaseSubFragment;Lcotlin/jvm/u/a;)V
@@ -1637,7 +1520,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->l0()F
 
     move-result p2
@@ -1652,7 +1534,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
     :cond_0
@@ -1668,7 +1549,6 @@
 .method public L0()V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/meitu/library/util/Debug/Debug$DebugLevel;->ERROR:Lcom/meitu/library/util/Debug/Debug$DebugLevel;
 
     const-string v1, "onGlResourceRelease"
@@ -1677,10 +1557,8 @@
 
     invoke-static {v1, v2, v0}, Lcom/commsource/util/l0;->K(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->M:Ljava/util/LinkedList;
 
-    .line 3
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -1700,7 +1578,6 @@
 
     check-cast v1, Lcom/commsource/studio/processor/BaseEffectProcessor;
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v3, :cond_0
@@ -1720,7 +1597,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -1735,7 +1611,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_3
@@ -1749,7 +1624,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/studio/o;->t()V
 
-    .line 7
     :cond_4
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -1780,7 +1654,6 @@
 .method public M()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     const-string v1, "studioViewModel"
@@ -1811,35 +1684,30 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v0
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/k0;->Z:Lcom/commsource/studio/PictureTransitionView;
 
-    .line 3
     invoke-virtual {v0}, Lcom/commsource/studio/PictureTransitionView;->getChangeAnimator()Lcom/commsource/camera/f1/l;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$1;
 
     invoke-direct {v1, v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/PictureTransitionView;Lcom/commsource/studio/function/BaseSubFragment;)V
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/PictureTransitionView;->setStartAction(Lcotlin/jvm/u/a;)V
 
-    .line 5
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;
 
     invoke-direct {v1, v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;-><init>(Lcom/commsource/studio/PictureTransitionView;Lcom/commsource/studio/function/BaseSubFragment;)V
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/PictureTransitionView;->setEndAction(Lcotlin/jvm/u/a;)V
 
-    .line 6
     invoke-virtual {v0}, Lcom/commsource/studio/PictureTransitionView;->e()V
 
     :cond_2
@@ -1865,7 +1733,6 @@
 .method public O()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     const-string v1, "studioViewModel"
@@ -1896,35 +1763,30 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v0
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/k0;->Z:Lcom/commsource/studio/PictureTransitionView;
 
-    .line 3
     invoke-virtual {v0}, Lcom/commsource/studio/PictureTransitionView;->getChangeAnimator()Lcom/commsource/camera/f1/l;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$animatePictureExitTranslate$$inlined$let$lambda$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/BaseSubFragment$animatePictureExitTranslate$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/PictureTransitionView;->setStartAction(Lcotlin/jvm/u/a;)V
 
-    .line 5
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$animatePictureExitTranslate$$inlined$let$lambda$2;
 
     invoke-direct {v1, v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$animatePictureExitTranslate$$inlined$let$lambda$2;-><init>(Lcom/commsource/studio/PictureTransitionView;Lcom/commsource/studio/function/BaseSubFragment;)V
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/PictureTransitionView;->setEndAction(Lcotlin/jvm/u/a;)V
 
-    .line 6
     invoke-virtual {v0}, Lcom/commsource/studio/PictureTransitionView;->e()V
 
     :cond_2
@@ -1940,10 +1802,8 @@
 .method public P()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->U:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -1963,7 +1823,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->setAlpha(F)V
 
     goto :goto_0
@@ -1979,7 +1838,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->p0()Z
 
     move-result v0
@@ -1988,7 +1846,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
@@ -2004,18 +1861,15 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v1
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/p/f/i;->F()I
 
     move-result v2
@@ -2030,7 +1884,6 @@
 
     float-to-int v2, v2
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     const-string v4, "studioViewModel"
@@ -2048,7 +1901,6 @@
 
     move-result v3
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v5, :cond_3
@@ -2064,26 +1916,21 @@
 
     move-result v4
 
-    .line 8
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/util/common/i;->e(IIII)Landroid/graphics/Matrix;
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->postConcat(Landroid/graphics/Matrix;)Z
 
-    .line 10
     new-instance v1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v1, p1}, Lcom/commsource/studio/MatrixBox;-><init>(Landroid/graphics/Matrix;)V
 
     move-object p1, v1
 
-    .line 11
     :goto_0
     invoke-virtual {v0, p1}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p1
@@ -2098,10 +1945,8 @@
 .method public Q()V
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->U:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -2131,7 +1976,6 @@
 
     const/4 v8, 0x0
 
-    .line 3
     invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_0
@@ -2163,7 +2007,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->p0()Z
 
     move-result v0
@@ -2172,13 +2015,11 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p2, Lcom/commsource/beautyplus/f0/k0;->Z:Lcom/commsource/studio/PictureTransitionView;
 
     invoke-virtual {v0}, Lcom/commsource/studio/PictureTransitionView;->g()V
 
-    .line 3
     invoke-virtual {p3}, Lcom/commsource/studio/ImageStudioViewModel;->j0()Lcom/commsource/studio/bean/PictureLayerInfo;
 
     move-result-object v0
@@ -2206,7 +2047,6 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 4
     :goto_1
     invoke-virtual {p3}, Lcom/commsource/studio/ImageStudioViewModel;->j0()Lcom/commsource/studio/bean/PictureLayerInfo;
 
@@ -2229,7 +2069,6 @@
     :cond_3
     move-object v2, v1
 
-    .line 5
     :goto_2
     invoke-virtual {p3}, Lcom/commsource/studio/ImageStudioViewModel;->j0()Lcom/commsource/studio/bean/PictureLayerInfo;
 
@@ -2256,7 +2095,6 @@
     :cond_4
     move-object v3, v1
 
-    .line 6
     :goto_3
     invoke-virtual {p3}, Lcom/commsource/studio/ImageStudioViewModel;->j0()Lcom/commsource/studio/bean/PictureLayerInfo;
 
@@ -2278,7 +2116,6 @@
 
     move-result-object v1
 
-    .line 7
     :cond_5
     iget-object v4, p2, Lcom/commsource/beautyplus/f0/k0;->Z:Lcom/commsource/studio/PictureTransitionView;
 
@@ -2290,7 +2127,6 @@
 
     if-nez v2, :cond_6
 
-    .line 8
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
@@ -2303,13 +2139,11 @@
 
     goto :goto_4
 
-    .line 9
     :cond_8
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 10
     invoke-virtual {p3}, Lcom/commsource/studio/ImageStudioViewModel;->j0()Lcom/commsource/studio/bean/PictureLayerInfo;
 
     move-result-object p3
@@ -2325,7 +2159,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 11
     iget-object p3, p2, Lcom/commsource/beautyplus/f0/k0;->a:Lcom/commsource/studio/StudioCanvasContainer;
 
     invoke-virtual {p3}, Lcom/commsource/studio/StudioCanvasContainer;->getCanvasInitMatrix()Lcom/commsource/studio/MatrixBox;
@@ -2334,7 +2167,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 12
     iget-object p3, p2, Lcom/commsource/beautyplus/f0/k0;->a:Lcom/commsource/studio/StudioCanvasContainer;
 
     invoke-virtual {p3}, Lcom/commsource/studio/StudioCanvasContainer;->getTotalMatrix()Lcom/commsource/studio/MatrixBox;
@@ -2343,7 +2175,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 13
     :goto_4
     invoke-virtual {v4, p1}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
@@ -2351,7 +2182,6 @@
 
     if-eqz v0, :cond_c
 
-    .line 14
     iget-object p3, p2, Lcom/commsource/beautyplus/f0/k0;->Z:Lcom/commsource/studio/PictureTransitionView;
 
     if-eqz v3, :cond_a
@@ -2368,7 +2198,6 @@
     :goto_5
     invoke-virtual {p3, v0}, Lcom/commsource/studio/PictureTransitionView;->setContinueStartHeight(F)V
 
-    .line 15
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/k0;->Z:Lcom/commsource/studio/PictureTransitionView;
 
     if-eqz v1, :cond_b
@@ -2382,13 +2211,11 @@
 
     goto :goto_6
 
-    .line 16
     :cond_c
     iget-object p3, p2, Lcom/commsource/beautyplus/f0/k0;->Z:Lcom/commsource/studio/PictureTransitionView;
 
     invoke-virtual {p3, p1}, Lcom/commsource/studio/PictureTransitionView;->setContinueStartHeight(F)V
 
-    .line 17
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/k0;->Z:Lcom/commsource/studio/PictureTransitionView;
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/PictureTransitionView;->setContinueStartWidth(F)V
@@ -2404,7 +2231,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->p0()Z
 
     move-result p1
@@ -2413,7 +2239,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
@@ -2423,7 +2248,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/PictureTransitionView;->g()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p1
@@ -2443,7 +2267,6 @@
 
     invoke-direct {p2}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_2
@@ -2468,7 +2291,6 @@
 
     invoke-virtual {p2, v0}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v0
@@ -2481,7 +2303,6 @@
 
     invoke-virtual {p2, v0}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v0
@@ -2494,11 +2315,9 @@
 
     invoke-virtual {p2, v0}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 7
     :goto_0
     invoke-virtual {p1, p2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p1
@@ -2513,20 +2332,17 @@
 .method public final U()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->T:Lcom/commsource/studio/function/q;
 
     if-eqz v0, :cond_1
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/commsource/studio/function/q;->a()V
 
     :cond_0
     return-void
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -2561,20 +2377,17 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->T:Lcom/commsource/studio/function/q;
 
     if-eqz v0, :cond_1
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1, p2, p3}, Lcom/commsource/studio/function/q;->b(Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;Z)V
 
     :cond_0
     return-void
 
-    .line 3
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/effect/t;->f()Z
 
@@ -2590,7 +2403,6 @@
 
     goto/16 :goto_2
 
-    .line 4
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -2616,14 +2428,12 @@
 
     const/16 v0, 0x1e
 
-    .line 5
     invoke-static {v0}, Lcom/commsource/util/w1;->j(I)Z
 
     move-result v0
 
     if-nez v0, :cond_3
 
-    .line 6
     sget-object p1, Lcom/commsource/studio/function/BaseSubFragment$d;->a:Lcom/commsource/studio/function/BaseSubFragment$d;
 
     invoke-static {p1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
@@ -2639,7 +2449,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_4
     iget-object p2, p0, Lcom/commsource/studio/function/BaseSubFragment;->N:Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -2657,19 +2466,16 @@
     :goto_0
     if-eqz p2, :cond_7
 
-    .line 8
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 9
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
     const-string v4, "total"
 
-    .line 10
     invoke-static {v1, v4}, Lcom/commsource/beautyplus/util/v;->L(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -2680,7 +2486,6 @@
 
     invoke-virtual {p3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
@@ -2693,46 +2498,38 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/effect/t;->h(Ljava/lang/String;)V
 
-    .line 12
     new-instance p3, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p3, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/effect/k;->p(Ljava/lang/ref/WeakReference;)V
 
-    .line 13
     invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result p3
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/effect/k;->q(I)V
 
-    .line 14
     invoke-virtual {p2}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result p3
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/effect/k;->o(I)V
 
-    .line 15
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
 
     move-result-object p3
 
-    .line 16
     sget-object v1, Lcom/commsource/util/m0;->a:Lcom/commsource/util/m0;
 
-    .line 17
     invoke-virtual {p1}, Lcom/commsource/studio/effect/t;->e()Ljava/lang/String;
 
     move-result-object v4
 
     const/4 v5, 0x1
 
-    .line 18
     invoke-virtual {v1, p2, v4, v5}, Lcom/commsource/util/m0;->b(Landroid/graphics/Bitmap;Ljava/lang/String;Z)Z
 
-    .line 19
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2755,7 +2552,6 @@
 
     invoke-static {p3, v1, v2, v3, v2}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 20
     iget-object p3, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez p3, :cond_6
@@ -2765,11 +2561,9 @@
     :cond_6
     invoke-virtual {p3, p2, p1}, Lcom/commsource/studio/ImageStudioViewModel;->y1(Landroid/graphics/Bitmap;Lcom/commsource/studio/effect/k;)V
 
-    .line 21
     :cond_7
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->L0()V
 
-    .line 22
     new-instance p1, Lcom/commsource/studio/function/BaseSubFragment$e;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/BaseSubFragment$e;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
@@ -2778,7 +2572,6 @@
 
     goto :goto_1
 
-    .line 23
     :cond_8
     iget-object p3, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -2795,7 +2588,6 @@
 
     invoke-virtual {p3, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 24
     new-instance p3, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;
 
     const-string v0, "confirmEffect"
@@ -2807,7 +2599,6 @@
     :goto_1
     return-void
 
-    .line 25
     :cond_a
     :goto_2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->U()V
@@ -2822,7 +2613,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->p0()Z
 
     move-result p1
@@ -2831,7 +2621,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
@@ -2841,7 +2630,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/PictureTransitionView;->g()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p1
@@ -2856,18 +2644,15 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     new-instance p2, Landroid/graphics/Matrix;
 
     invoke-direct {p2}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v0
 
-    .line 6
     invoke-static {}, Lcom/meitu/library/p/f/i;->F()I
 
     move-result v1
@@ -2882,7 +2667,6 @@
 
     float-to-int v1, v1
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     const-string v3, "studioViewModel"
@@ -2900,7 +2684,6 @@
 
     move-result v2
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v4, :cond_3
@@ -2916,20 +2699,16 @@
 
     move-result v3
 
-    .line 9
     invoke-static {v0, v1, v2, v3}, Lcom/commsource/util/common/i;->e(IIII)Landroid/graphics/Matrix;
 
     move-result-object v0
 
-    .line 10
     invoke-virtual {p2, v0}, Landroid/graphics/Matrix;->postConcat(Landroid/graphics/Matrix;)Z
 
-    .line 11
     new-instance v0, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v0, p2}, Lcom/commsource/studio/MatrixBox;-><init>(Landroid/graphics/Matrix;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p2
@@ -2944,11 +2723,9 @@
 
     move-object p2, v0
 
-    .line 13
     :goto_0
     invoke-virtual {p1, p2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->X0()V
 
     return-void
@@ -2957,7 +2734,6 @@
 .method public final X()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_0
@@ -2979,10 +2755,8 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/layer/BaseLayer;->j0(Z)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->P()V
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/BaseSubFragment$enter$1;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$enter$1;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
@@ -2999,7 +2773,6 @@
 .method public final X0()V
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v0
@@ -3012,14 +2785,12 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v0
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/k0;->Z:Lcom/commsource/studio/PictureTransitionView;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     const-string v2, "studioViewModel"
@@ -3033,7 +2804,6 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v3, :cond_1
@@ -3060,7 +2830,6 @@
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v0, v1, v2}, Lcom/commsource/studio/PictureTransitionView;->i(Lcom/commsource/studio/bean/PictureLayerInfo;Lcom/commsource/studio/bean/d;)V
 
     return-void
@@ -3069,13 +2838,10 @@
 .method public Y(Z)V
     .locals 12
 
-    .line 1
     invoke-static {}, Lf/k/c/c/f;->e()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->L:Ljava/util/LinkedList;
 
-    .line 3
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -3093,12 +2859,10 @@
 
     check-cast v1, Lcom/commsource/studio/layer/d;
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/layer/d;->o0()V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->p0()Z
 
@@ -3110,19 +2874,15 @@
 
     if-nez v0, :cond_1
 
-    .line 6
     invoke-static {p0, p1, v2, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->W0(Lcom/commsource/studio/function/BaseSubFragment;ZLcom/commsource/studio/MatrixBox;ILjava/lang/Object;)V
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->Q()V
 
     const/4 v0, 0x0
 
-    .line 8
     invoke-static {p0, v0, v0, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->y1(Lcom/commsource/studio/function/BaseSubFragment;IZILjava/lang/Object;)V
 
-    .line 9
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$exit$2;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/BaseSubFragment$exit$2;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
@@ -3131,7 +2891,6 @@
 
     invoke-static {p0, v2, v1, v3, v2}, Lcom/commsource/studio/function/BaseSubFragment;->L(Lcom/commsource/studio/function/BaseSubFragment;Landroid/view/View;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     const-string v4, "studioViewModel"
@@ -3147,14 +2906,12 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->p0()Z
 
     move-result v1
 
     if-nez v1, :cond_3
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
@@ -3167,7 +2924,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
@@ -3218,14 +2974,12 @@
 
     invoke-static/range {v5 .. v11}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->h0()Z
 
     move-result p1
 
     if-eqz p1, :cond_5
 
-    .line 15
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p1
@@ -3234,7 +2988,6 @@
 
     invoke-static {p1, v0, v3, v2}, Lcom/commsource/studio/StudioCanvasContainer;->g(Lcom/commsource/studio/StudioCanvasContainer;ZILjava/lang/Object;)V
 
-    .line 16
     :cond_5
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
@@ -3267,7 +3020,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_0
@@ -3304,7 +3056,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_0
@@ -3328,7 +3079,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->T:Lcom/commsource/studio/function/q;
 
     return-object v0
@@ -3369,7 +3119,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p2, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;
 
     invoke-direct {p2, p0, p1, p3}, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;-><init>(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/effect/t;Lcotlin/jvm/u/l;)V
@@ -3401,17 +3150,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->P:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->S:Ljava/util/LinkedList;
 
@@ -3428,7 +3174,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->T:Lcom/commsource/studio/function/q;
 
     return-void
@@ -3439,7 +3184,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->a0:Lcom/commsource/studio/MatrixBox;
 
     return-object v0
@@ -3448,7 +3192,6 @@
 .method public final e1(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->Z:Z
 
     return-void
@@ -3472,7 +3215,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->a0:Lcom/commsource/studio/MatrixBox;
 
     return-void
@@ -3492,7 +3234,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->W:Lcotlin/jvm/u/a;
 
     return-object v0
@@ -3515,7 +3256,6 @@
 .method public h0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->d:Z
 
     return v0
@@ -3548,7 +3288,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->S:Ljava/util/LinkedList;
 
     return-object v0
@@ -3569,7 +3308,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->W:Lcotlin/jvm/u/a;
 
     return-void
@@ -3590,7 +3328,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->Y:Lcotlin/jvm/u/l;
 
     return-object v0
@@ -3599,7 +3336,6 @@
 .method public final j1(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->P:Z
 
     return-void
@@ -3608,7 +3344,6 @@
 .method public k1(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->d:Z
 
     return-void
@@ -3617,7 +3352,6 @@
 .method public l0()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->p:F
 
     return v0
@@ -3643,7 +3377,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->S:Ljava/util/LinkedList;
 
     return-void
@@ -3654,7 +3387,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->f:Landroid/os/Bundle;
 
     return-object v0
@@ -3677,7 +3409,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->Y:Lcotlin/jvm/u/l;
 
     return-void
@@ -3688,7 +3419,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->f:Landroid/os/Bundle;
 
     if-eqz v0, :cond_0
@@ -3713,7 +3443,6 @@
 .method public n1(F)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->p:F
 
     return-void
@@ -3722,7 +3451,6 @@
 .method public final o0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->c:Z
 
     return v0
@@ -3735,7 +3463,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->f:Landroid/os/Bundle;
 
     return-void
@@ -3748,10 +3475,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/ViewModelProvider;
 
     iget-object v0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -3780,7 +3505,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -3792,7 +3516,6 @@
 
     return-void
 
-    .line 4
     :cond_1
     new-instance p1, Landroidx/lifecycle/ViewModelProvider;
 
@@ -3808,7 +3531,6 @@
 
     check-cast v1, Lcom/commsource/studio/component/StudioProViewModel;
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->f0()Lcom/commsource/studio/effect/t;
 
     move-result-object v2
@@ -3817,19 +3539,16 @@
 
     const-string v2, "ViewModelProvider(this)[\u2026nt.effectResult\n        }"
 
-    .line 6
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment;->K:Lcom/commsource/studio/component/StudioProViewModel;
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->p0()Z
 
     move-result p1
 
     if-nez p1, :cond_4
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p1
@@ -3838,7 +3557,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->p()V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p1
@@ -3849,14 +3567,12 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/StudioCanvasContainer;->f(Z)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->p0()Z
 
     move-result p1
 
     if-nez p1, :cond_3
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez p1, :cond_2
@@ -3868,7 +3584,6 @@
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v1
@@ -3885,7 +3600,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/commsource/studio/StudioCanvasContainer;->z(II)V
 
-    .line 13
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
@@ -3895,7 +3609,6 @@
 
     const/4 v2, 0x0
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->l0()F
 
     move-result p1
@@ -3918,10 +3631,8 @@
 
     const/4 v7, 0x0
 
-    .line 15
     invoke-static/range {v1 .. v7}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
@@ -3934,7 +3645,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
 
@@ -3946,7 +3656,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/g2;->i(Landroid/content/Context;Ljava/lang/Runnable;)V
 
-    .line 18
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->K:Lcom/commsource/studio/component/StudioProViewModel;
 
@@ -3978,7 +3687,6 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 19
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object p1
@@ -3994,7 +3702,6 @@
 
     return-void
 
-    .line 20
     :cond_8
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -4030,10 +3737,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;->A0()V
 
     return-void
@@ -4042,7 +3747,6 @@
 .method public p0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->R:Z
 
     return v0
@@ -4051,7 +3755,6 @@
 .method public final p1(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->X:Z
 
     return-void
@@ -4076,7 +3779,6 @@
 .method public final q1(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->c:Z
 
     return-void
@@ -4087,7 +3789,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_0
@@ -4103,7 +3804,6 @@
 .method public r1(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->R:Z
 
     return-void
@@ -4114,7 +3814,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->N:Lcom/commsource/easyeditor/utils/opengl/f;
 
     return-object v0
@@ -4131,7 +3830,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     return-void
@@ -4142,7 +3840,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->Q:Lcom/commsource/studio/sub/SubModuleEnum;
 
     if-nez v0, :cond_0
@@ -4162,7 +3859,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->N:Lcom/commsource/easyeditor/utils/opengl/f;
 
     return-void
@@ -4186,7 +3882,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->O:Lcom/commsource/easyeditor/utils/opengl/f;
 
     return-object v0
@@ -4203,7 +3898,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->Q:Lcom/commsource/studio/sub/SubModuleEnum;
 
     return-void
@@ -4216,7 +3910,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->O:Lcom/commsource/easyeditor/utils/opengl/f;
 
     return-void
@@ -4282,7 +3975,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->K:Lcom/commsource/studio/component/StudioProViewModel;
 
     if-nez v0, :cond_0
@@ -4306,7 +3998,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->K:Lcom/commsource/studio/component/StudioProViewModel;
 
     return-void
@@ -4335,7 +4026,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {v0, p0}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -4356,7 +4046,6 @@
 .method public final x1(IZ)V
     .locals 7
 
-    .line 1
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v0
@@ -4367,7 +4056,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez p1, :cond_0
@@ -4377,7 +4065,6 @@
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioViewModel;->V()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez p1, :cond_1
@@ -4397,7 +4084,6 @@
 
     return-void
 
-    .line 4
     :cond_2
     instance-of v0, p0, Lcom/commsource/studio/function/MosaicFragment;
 
@@ -4409,7 +4095,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 5
     :cond_3
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -4442,7 +4127,6 @@
 
     invoke-virtual {v0, v4}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     :cond_5
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -4469,7 +4153,6 @@
 
     return-void
 
-    .line 7
     :cond_7
     invoke-static {p0}, Lcom/commsource/util/b2;->e(Lcom/commsource/studio/function/BaseSubFragment;)Z
 
@@ -4477,7 +4160,6 @@
 
     if-nez v0, :cond_a
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_8
@@ -4510,7 +4192,6 @@
 
     invoke-virtual {v0, v4}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 9
     :cond_a
     invoke-static {}, Lcom/commsource/util/g2;->b()Z
 
@@ -4518,7 +4199,6 @@
 
     if-eqz p2, :cond_c
 
-    .line 10
     iget-object p2, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez p2, :cond_b
@@ -4538,7 +4218,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_c
     iget-object p2, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -4564,7 +4243,6 @@
 .method public y0()V
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->K:Lcom/commsource/studio/component/StudioProViewModel;
 
     const-string v1, "subProViewModel"
@@ -4594,7 +4272,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->f0()Lcom/commsource/studio/effect/t;
 
     move-result-object v0
@@ -4614,7 +4291,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
@@ -4622,7 +4298,6 @@
 
     if-eqz v4, :cond_5
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/function/BaseSubFragment;->K:Lcom/commsource/studio/component/StudioProViewModel;
 
     if-nez v3, :cond_3
@@ -4661,7 +4336,6 @@
 .method public final z0()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v0, :cond_0

@@ -58,66 +58,56 @@
 .method protected constructor <init>(Lio/jaegertracing/a/e$a;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lio/jaegertracing/a/e$a;->a(Lio/jaegertracing/a/e$a;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/jaegertracing/a/e;->b:Ljava/lang/String;
 
-    .line 3
     invoke-static {p1}, Lio/jaegertracing/a/e$a;->b(Lio/jaegertracing/a/e$a;)Lio/jaegertracing/b/g;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/jaegertracing/a/e;->c:Lio/jaegertracing/b/g;
 
-    .line 4
     invoke-static {p1}, Lio/jaegertracing/a/e$a;->e(Lio/jaegertracing/a/e$a;)Lio/jaegertracing/b/h;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/jaegertracing/a/e;->d:Lio/jaegertracing/b/h;
 
-    .line 5
     invoke-static {p1}, Lio/jaegertracing/a/e$a;->f(Lio/jaegertracing/a/e$a;)Lio/jaegertracing/a/g;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/jaegertracing/a/e;->J:Lio/jaegertracing/a/g;
 
-    .line 6
     invoke-static {p1}, Lio/jaegertracing/a/e$a;->g(Lio/jaegertracing/a/e$a;)Lio/jaegertracing/a/j/a;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/jaegertracing/a/e;->K:Lio/jaegertracing/a/j/a;
 
-    .line 7
     invoke-static {p1}, Lio/jaegertracing/a/e$a;->h(Lio/jaegertracing/a/e$a;)Lio/jaegertracing/a/k/e;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/jaegertracing/a/e;->L:Lio/jaegertracing/a/k/e;
 
-    .line 8
     invoke-static {p1}, Lio/jaegertracing/a/e$a;->i(Lio/jaegertracing/a/e$a;)Z
 
     move-result v1
 
     iput-boolean v1, p0, Lio/jaegertracing/a/e;->g:Z
 
-    .line 9
     invoke-static {p1}, Lio/jaegertracing/a/e$a;->j(Lio/jaegertracing/a/e$a;)Li/a/c;
 
     move-result-object v1
 
     iput-object v1, p0, Lio/jaegertracing/a/e;->M:Li/a/c;
 
-    .line 10
     new-instance v1, Lio/jaegertracing/a/i/a;
 
     invoke-static {p1}, Lio/jaegertracing/a/e$a;->k(Lio/jaegertracing/a/e$a;)Lio/jaegertracing/b/a;
@@ -128,28 +118,24 @@
 
     iput-object v1, p0, Lio/jaegertracing/a/e;->N:Lio/jaegertracing/a/i/a;
 
-    .line 11
     invoke-static {p1}, Lio/jaegertracing/a/e$a;->l(Lio/jaegertracing/a/e$a;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lio/jaegertracing/a/e;->p:Z
 
-    .line 12
     invoke-static {p1}, Lio/jaegertracing/a/e$a;->c(Lio/jaegertracing/a/e$a;)Lio/jaegertracing/a/b;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/jaegertracing/a/e;->O:Lio/jaegertracing/a/b;
 
-    .line 13
     invoke-static {}, Lio/jaegertracing/a/e;->x()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/jaegertracing/a/e;->a:Ljava/lang/String;
 
-    .line 14
     new-instance v1, Ljava/util/HashMap;
 
     invoke-static {p1}, Lio/jaegertracing/a/e$a;->d(Lio/jaegertracing/a/e$a;)Ljava/util/Map;
@@ -160,32 +146,27 @@
 
     const-string p1, "jaeger.version"
 
-    .line 15
     invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p1, "hostname"
 
-    .line 16
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 17
     invoke-virtual {p0}, Lio/jaegertracing/a/e;->o()Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 18
     invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
     const-string p1, "ip"
 
-    .line 19
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -194,7 +175,6 @@
 
     if-nez v0, :cond_1
 
-    .line 20
     :try_start_0
     invoke-static {}, Ljava/net/InetAddress;->getLocalHost()Ljava/net/InetAddress;
 
@@ -206,7 +186,6 @@
 
     invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     invoke-static {}, Ljava/net/Inet4Address;->getLocalHost()Ljava/net/InetAddress;
 
     move-result-object p1
@@ -223,7 +202,6 @@
 
     goto :goto_0
 
-    .line 22
     :cond_1
     :try_start_1
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -237,12 +215,10 @@
     .catch Lio/jaegertracing/internal/exceptions/EmptyIpException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Lio/jaegertracing/internal/exceptions/NotFourOctetsException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 23
     :catch_0
     :goto_0
     iput v2, p0, Lio/jaegertracing/a/e;->P:I
 
-    .line 24
     invoke-static {v1}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p1
@@ -255,7 +231,6 @@
 .method static synthetic f(Lio/jaegertracing/a/e;)Lio/jaegertracing/a/k/e;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/a/e;->L:Lio/jaegertracing/a/k/e;
 
     return-object p0
@@ -264,7 +239,6 @@
 .method static synthetic g(Lio/jaegertracing/a/e;)Lio/jaegertracing/b/h;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/a/e;->d:Lio/jaegertracing/b/h;
 
     return-object p0
@@ -273,7 +247,6 @@
 .method static synthetic h(Lio/jaegertracing/a/e;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lio/jaegertracing/a/e;->g:Z
 
     return p0
@@ -282,7 +255,6 @@
 .method static synthetic i(Lio/jaegertracing/a/e;)Li/a/c;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/a/e;->M:Li/a/c;
 
     return-object p0
@@ -291,7 +263,6 @@
 .method static synthetic j(Lio/jaegertracing/a/e;)Lio/jaegertracing/a/j/a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/a/e;->K:Lio/jaegertracing/a/j/a;
 
     return-object p0
@@ -300,7 +271,6 @@
 .method static synthetic k(Lio/jaegertracing/a/e;)Lio/jaegertracing/a/b;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/a/e;->O:Lio/jaegertracing/a/b;
 
     return-object p0
@@ -309,7 +279,6 @@
 .method public static v()Ljava/lang/String;
     .locals 3
 
-    .line 1
     :try_start_0
     const-class v0, Lio/jaegertracing/a/e;
 
@@ -321,25 +290,21 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     :try_start_1
     new-instance v1, Ljava/util/Properties;
 
     invoke-direct {v1}, Ljava/util/Properties;-><init>()V
 
-    .line 3
     invoke-virtual {v1, v0}, Ljava/util/Properties;->load(Ljava/io/InputStream;)V
 
     const-string v2, "jaeger.version"
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/util/Properties;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     :try_start_2
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
     :try_end_2
@@ -349,7 +314,6 @@
 
     return-object v1
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -362,7 +326,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_3
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
 
@@ -373,7 +336,6 @@
     :catch_0
     move-exception v0
 
-    .line 8
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "Cannot read jaeger.properties"
@@ -404,7 +366,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->f:Ljava/util/Map;
 
     return-object v0
@@ -413,7 +374,6 @@
 .method public bridge synthetic a(Ljava/lang/String;)Li/a/f$a;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/a/e;->l(Ljava/lang/String;)Lio/jaegertracing/a/e$b;
 
     move-result-object p1
@@ -424,7 +384,6 @@
 .method public b()Li/a/c;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->M:Li/a/c;
 
     return-object v0
@@ -443,7 +402,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->J:Lio/jaegertracing/a/g;
 
     invoke-virtual {v0, p2}, Lio/jaegertracing/a/g;->b(Li/a/i/a;)Lio/jaegertracing/b/e;
@@ -452,14 +410,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lio/jaegertracing/a/d;
 
     invoke-interface {v0, p1, p3}, Lio/jaegertracing/b/e;->b(Lio/jaegertracing/a/d;Ljava/lang/Object;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Lio/jaegertracing/internal/exceptions/UnsupportedFormatException;
 
@@ -471,12 +427,10 @@
 .method public close()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->c:Lio/jaegertracing/b/g;
 
     invoke-interface {v0}, Lio/jaegertracing/b/g;->close()V
 
-    .line 2
     iget-object v0, p0, Lio/jaegertracing/a/e;->d:Lio/jaegertracing/b/h;
 
     invoke-interface {v0}, Lio/jaegertracing/b/h;->close()V
@@ -487,7 +441,6 @@
 .method public bridge synthetic d(Li/a/i/a;Ljava/lang/Object;)Li/a/e;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/a/e;->n(Li/a/i/a;Ljava/lang/Object;)Lio/jaegertracing/a/d;
 
     move-result-object p1
@@ -498,7 +451,6 @@
 .method public e()Li/a/d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->M:Li/a/c;
 
     invoke-interface {v0}, Li/a/c;->active()Li/a/b;
@@ -511,7 +463,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {v0}, Li/a/b;->span()Li/a/d;
 
@@ -524,7 +475,6 @@
 .method public l(Ljava/lang/String;)Lio/jaegertracing/a/e$b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->O:Lio/jaegertracing/a/b;
 
     invoke-virtual {v0, p0, p1}, Lio/jaegertracing/a/b;->b(Lio/jaegertracing/a/e;Ljava/lang/String;)Lio/jaegertracing/a/e$b;
@@ -537,7 +487,6 @@
 .method m()Lio/jaegertracing/a/j/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->K:Lio/jaegertracing/a/j/a;
 
     return-object v0
@@ -556,7 +505,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->J:Lio/jaegertracing/a/g;
 
     invoke-virtual {v0, p1}, Lio/jaegertracing/a/g;->a(Li/a/i/a;)Lio/jaegertracing/b/d;
@@ -565,14 +513,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p2}, Lio/jaegertracing/b/d;->a(Ljava/lang/Object;)Lio/jaegertracing/a/d;
 
     move-result-object p1
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance p2, Lio/jaegertracing/internal/exceptions/UnsupportedFormatException;
 
@@ -584,7 +530,6 @@
 .method o()Ljava/lang/String;
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-static {}, Ljava/net/InetAddress;->getLocalHost()Ljava/net/InetAddress;
 
@@ -601,7 +546,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -626,7 +570,6 @@
 .method public p()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/jaegertracing/a/e;->P:I
 
     return v0
@@ -635,7 +578,6 @@
 .method public q()Lio/jaegertracing/a/k/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->L:Lio/jaegertracing/a/k/e;
 
     return-object v0
@@ -644,7 +586,6 @@
 .method r()Lio/jaegertracing/b/g;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->c:Lio/jaegertracing/b/g;
 
     return-object v0
@@ -653,7 +594,6 @@
 .method public t()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->b:Ljava/lang/String;
 
     return-object v0
@@ -662,7 +602,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -743,7 +682,6 @@
 .method public u()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->a:Ljava/lang/String;
 
     return-object v0
@@ -752,7 +690,6 @@
 .method w()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/jaegertracing/a/e;->p:Z
 
     return v0
@@ -761,12 +698,10 @@
 .method y(Lio/jaegertracing/a/c;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->c:Lio/jaegertracing/b/g;
 
     invoke-interface {v0, p1}, Lio/jaegertracing/b/g;->a(Lio/jaegertracing/a/c;)V
 
-    .line 2
     iget-object p1, p0, Lio/jaegertracing/a/e;->L:Lio/jaegertracing/a/k/e;
 
     iget-object p1, p1, Lio/jaegertracing/a/k/e;->g:Lio/jaegertracing/a/k/a;
@@ -781,7 +716,6 @@
 .method z(Lio/jaegertracing/a/c;Ljava/lang/String;Ljava/lang/String;)Lio/jaegertracing/a/d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/e;->N:Lio/jaegertracing/a/i/a;
 
     invoke-virtual {v0, p1, p2, p3}, Lio/jaegertracing/a/i/a;->b(Lio/jaegertracing/a/c;Ljava/lang/String;Ljava/lang/String;)Lio/jaegertracing/a/d;

@@ -42,27 +42,22 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Lf/d/i/e;->G3(Z)V
 
     if-eqz p2, :cond_0
 
-    .line 2
     new-instance p2, Lcom/commsource/widget/s0$a;
 
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$initViews$$inlined$run$lambda$3;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
     invoke-direct {p2, v0}, Lcom/commsource/widget/s0$a;-><init>(Landroid/content/Context;)V
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/s0$a;->a()Lcom/commsource/widget/s0;
 
     move-result-object p2
 
-    .line 4
     invoke-virtual {p2}, Landroid/app/Dialog;->show()V
 
-    .line 5
     sget-object v0, Lcom/commsource/camera/xcamera/util/b;->b:Lcom/commsource/camera/xcamera/util/b;
 
     new-instance v1, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$initViews$$inlined$run$lambda$3$1;
@@ -76,10 +71,8 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 6
     invoke-static {p2}, Lf/d/i/e;->m2(Lcom/commsource/camera/xcamera/bean/b;)V
 
-    .line 7
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

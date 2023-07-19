@@ -23,21 +23,16 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/scwang/smartrefresh/layout/internal/b;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->b:I
 
-    .line 3
     iput v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->c:I
 
-    .line 4
     iput v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->d:I
 
-    .line 5
     new-instance v0, Landroid/graphics/Path;
 
     invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
@@ -48,7 +43,6 @@
 
     new-array v0, v0, [I
 
-    .line 6
     fill-array-data v0, :array_0
 
     invoke-static {v0}, Landroid/animation/ValueAnimator;->ofInt([I)Landroid/animation/ValueAnimator;
@@ -59,24 +53,20 @@
 
     const-wide/16 v1, 0x2710
 
-    .line 7
     invoke-virtual {v0, v1, v2}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 8
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->f:Landroid/animation/ValueAnimator;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 9
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->f:Landroid/animation/ValueAnimator;
 
     const/4 v1, -0x1
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->setRepeatCount(I)V
 
-    .line 10
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->f:Landroid/animation/ValueAnimator;
 
     const/4 v1, 0x1
@@ -103,17 +93,14 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Landroid/graphics/Rect;->width()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {v0}, Landroid/graphics/Rect;->height()I
 
     move-result v0
@@ -126,12 +113,10 @@
 
     const/high16 v4, 0x3f800000    # 1.0f
 
-    .line 4
     invoke-static {v4, v3}, Ljava/lang/Math;->max(FF)F
 
     move-result v3
 
-    .line 5
     iget v4, p0, Lcom/scwang/smartrefresh/layout/internal/c;->b:I
 
     const/high16 v5, 0x40000000    # 2.0f
@@ -142,13 +127,11 @@
 
     if-eq v4, v0, :cond_1
 
-    .line 6
     :cond_0
     iget-object v4, p0, Lcom/scwang/smartrefresh/layout/internal/c;->g:Landroid/graphics/Path;
 
     invoke-virtual {v4}, Landroid/graphics/Path;->reset()V
 
-    .line 7
     iget-object v4, p0, Lcom/scwang/smartrefresh/layout/internal/c;->g:Landroid/graphics/Path;
 
     sub-float v9, v2, v3
@@ -161,7 +144,6 @@
 
     invoke-virtual {v4, v9, v12, v3, v6}, Landroid/graphics/Path;->addCircle(FFFLandroid/graphics/Path$Direction;)V
 
-    .line 8
     iget-object v6, p0, Lcom/scwang/smartrefresh/layout/internal/c;->g:Landroid/graphics/Path;
 
     const/high16 v4, 0x40a00000    # 5.0f
@@ -180,24 +162,19 @@
 
     invoke-virtual/range {v6 .. v11}, Landroid/graphics/Path;->addRect(FFFFLandroid/graphics/Path$Direction;)V
 
-    .line 9
     iget-object v6, p0, Lcom/scwang/smartrefresh/layout/internal/c;->g:Landroid/graphics/Path;
 
     sget-object v7, Landroid/graphics/Path$Direction;->CW:Landroid/graphics/Path$Direction;
 
     invoke-virtual {v6, v4, v12, v3, v7}, Landroid/graphics/Path;->addCircle(FFFLandroid/graphics/Path$Direction;)V
 
-    .line 10
     iput v1, p0, Lcom/scwang/smartrefresh/layout/internal/c;->b:I
 
-    .line 11
     iput v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->c:I
 
-    .line 12
     :cond_1
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 13
     iget v1, p0, Lcom/scwang/smartrefresh/layout/internal/c;->d:I
 
     int-to-float v1, v1
@@ -217,7 +194,6 @@
 
     if-ge v1, v3, :cond_2
 
-    .line 14
     iget-object v3, p0, Lcom/scwang/smartrefresh/layout/internal/b;->a:Landroid/graphics/Paint;
 
     add-int/lit8 v4, v1, 0x5
@@ -228,10 +204,8 @@
 
     const/high16 v3, 0x41f00000    # 30.0f
 
-    .line 15
     invoke-virtual {p1, v3, v2, v0}, Landroid/graphics/Canvas;->rotate(FFF)V
 
-    .line 16
     iget-object v3, p0, Lcom/scwang/smartrefresh/layout/internal/c;->g:Landroid/graphics/Path;
 
     iget-object v4, p0, Lcom/scwang/smartrefresh/layout/internal/b;->a:Landroid/graphics/Paint;
@@ -242,7 +216,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_2
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
@@ -252,7 +225,6 @@
 .method public isRunning()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -265,7 +237,6 @@
 .method public onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -276,14 +247,12 @@
 
     move-result p1
 
-    .line 2
     div-int/lit8 p1, p1, 0x1e
 
     mul-int/lit8 p1, p1, 0x1e
 
     iput p1, p0, Lcom/scwang/smartrefresh/layout/internal/c;->d:I
 
-    .line 3
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -292,7 +261,6 @@
 .method public start()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -301,12 +269,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0, p0}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 3
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
@@ -318,7 +284,6 @@
 .method public stop()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -327,18 +292,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->f:Landroid/animation/ValueAnimator;
 
-    .line 3
     invoke-virtual {v0}, Landroid/animation/Animator;->removeAllListeners()V
 
-    .line 4
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 5
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/internal/c;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->cancel()V

@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/SubPayAttentionControl$a;->a:Lcom/commsource/home/homepagedialog/SubPayAttentionControl;
 
     invoke-static {v1}, Lcom/commsource/home/homepagedialog/SubPayAttentionControl;->j(Lcom/commsource/home/homepagedialog/SubPayAttentionControl;)Lcom/commsource/widget/dialog/delegate/b;
@@ -53,7 +52,6 @@
 
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

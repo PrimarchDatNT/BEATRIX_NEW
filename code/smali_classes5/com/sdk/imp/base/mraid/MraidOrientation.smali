@@ -31,7 +31,6 @@
 .method static constructor <clinit>()V
     .locals 8
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/base/mraid/MraidOrientation;
 
     const-string v1, "PORTRAIT"
@@ -44,7 +43,6 @@
 
     sput-object v0, Lcom/sdk/imp/base/mraid/MraidOrientation;->PORTRAIT:Lcom/sdk/imp/base/mraid/MraidOrientation;
 
-    .line 2
     new-instance v1, Lcom/sdk/imp/base/mraid/MraidOrientation;
 
     const-string v4, "LANDSCAPE"
@@ -53,7 +51,6 @@
 
     sput-object v1, Lcom/sdk/imp/base/mraid/MraidOrientation;->LANDSCAPE:Lcom/sdk/imp/base/mraid/MraidOrientation;
 
-    .line 3
     new-instance v4, Lcom/sdk/imp/base/mraid/MraidOrientation;
 
     const-string v5, "NONE"
@@ -76,7 +73,6 @@
 
     aput-object v4, v5, v6
 
-    .line 4
     sput-object v5, Lcom/sdk/imp/base/mraid/MraidOrientation;->$VALUES:[Lcom/sdk/imp/base/mraid/MraidOrientation;
 
     return-void
@@ -90,10 +86,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/sdk/imp/base/mraid/MraidOrientation;->mActivityInfoOrientation:I
 
     return-void
@@ -102,7 +96,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/sdk/imp/base/mraid/MraidOrientation;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/sdk/imp/base/mraid/MraidOrientation;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -117,7 +110,6 @@
 .method public static values()[Lcom/sdk/imp/base/mraid/MraidOrientation;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/base/mraid/MraidOrientation;->$VALUES:[Lcom/sdk/imp/base/mraid/MraidOrientation;
 
     invoke-virtual {v0}, [Lcom/sdk/imp/base/mraid/MraidOrientation;->clone()Ljava/lang/Object;
@@ -134,7 +126,6 @@
 .method getActivityInfoOrientation()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/base/mraid/MraidOrientation;->mActivityInfoOrientation:I
 
     return v0

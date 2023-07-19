@@ -58,26 +58,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/LinkedListMultimap$f;->a:Lcom/google/common/collect/LinkedListMultimap$g;
 
-    .line 3
     iput-object p1, p0, Lcom/google/common/collect/LinkedListMultimap$f;->b:Lcom/google/common/collect/LinkedListMultimap$g;
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p1, Lcom/google/common/collect/LinkedListMultimap$g;->g:Lcom/google/common/collect/LinkedListMultimap$g;
 
-    .line 5
     iput-object v0, p1, Lcom/google/common/collect/LinkedListMultimap$g;->f:Lcom/google/common/collect/LinkedListMultimap$g;
 
     const/4 p1, 0x1
 
-    .line 6
     iput p1, p0, Lcom/google/common/collect/LinkedListMultimap$f;->c:I
 
     return-void

@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/m0/a$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/m0/a$c$a;->a:Lcom/commsource/beautyplus/m0/a$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -64,7 +62,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -77,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/j0/c/e$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/m0/a$c$a;->b(Lcom/commsource/beautyplus/j0/c/e$b;)V

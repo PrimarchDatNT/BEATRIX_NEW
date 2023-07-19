@@ -22,12 +22,10 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Lcom/sdk/imp/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/sdk/imp/a;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/sdk/imp/a$a;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-object p1, p0, Lcom/sdk/imp/f;->f:Landroid/view/View;
 
     return-void
@@ -36,7 +34,6 @@
 .method static synthetic g(Lcom/sdk/imp/f;)Landroid/view/View;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/f;->f:Landroid/view/View;
 
     return-object p0
@@ -47,7 +44,6 @@
 .method public a(Lcom/sdk/imp/internal/loader/Ad;)V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/sdk/api/BannerView;
 
     iget-object v1, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
@@ -56,17 +52,14 @@
 
     iput-object v0, p0, Lcom/sdk/imp/a;->d:Lcom/sdk/imp/z/d;
 
-    .line 2
     check-cast v0, Lcom/sdk/api/BannerView;
 
     iput-object v0, p0, Lcom/sdk/imp/f;->e:Lcom/sdk/api/BannerView;
 
-    .line 3
     iget-object v1, p0, Lcom/sdk/imp/a;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/sdk/api/BannerView;->setPosId(Ljava/lang/String;)V
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/f;->e:Lcom/sdk/api/BannerView;
 
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/Ad;->isNeedPrepareWebView()Z
@@ -75,12 +68,10 @@
 
     invoke-virtual {v0, v1}, Lcom/sdk/api/BannerView;->setNeedPrepareView(Z)V
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/f;->e:Lcom/sdk/api/BannerView;
 
     invoke-virtual {v0, p1}, Lcom/sdk/api/BannerView;->setCommonRawAd(Lcom/sdk/imp/internal/loader/Ad;)V
 
-    .line 6
     iget-object p1, p0, Lcom/sdk/imp/f;->e:Lcom/sdk/api/BannerView;
 
     new-instance v0, Lcom/sdk/imp/f$b;
@@ -91,7 +82,6 @@
 
     invoke-virtual {p1, v0}, Lcom/sdk/api/BannerView;->setBannerAdListener(Lcom/sdk/api/BannerView$d;)V
 
-    .line 7
     iget-object p1, p0, Lcom/sdk/imp/f;->e:Lcom/sdk/api/BannerView;
 
     new-instance v0, Lcom/sdk/imp/f$c;
@@ -100,7 +90,6 @@
 
     invoke-virtual {p1, v0}, Lcom/sdk/api/BannerView;->setPrepareWebviewListener(Lcom/sdk/api/BannerView$e;)V
 
-    .line 8
     iget-object p1, p0, Lcom/sdk/imp/f;->e:Lcom/sdk/api/BannerView;
 
     invoke-virtual {p1}, Lcom/sdk/api/BannerView;->a()V
@@ -111,7 +100,6 @@
 .method public b()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/f;->e:Lcom/sdk/api/BannerView;
 
     if-eqz v0, :cond_0
@@ -134,20 +122,16 @@
 
     const-string v1, "CommonBannerAdController onDestroy"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/f;->e:Lcom/sdk/api/BannerView;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/sdk/api/BannerView;->q()V
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/sdk/imp/f;->e:Lcom/sdk/api/BannerView;
 
     :cond_0
@@ -169,7 +153,6 @@
 .method public h(Landroid/view/View;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/f;->f:Landroid/view/View;
 
     return-void

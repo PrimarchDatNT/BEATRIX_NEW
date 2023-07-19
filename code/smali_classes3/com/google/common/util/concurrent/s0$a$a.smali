@@ -22,10 +22,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/s0$a;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/common/base/x;->c()Lcom/google/common/base/x;
 
     move-result-object v0
@@ -40,7 +38,6 @@
 .method protected b()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/s0$a$a;->a:Lcom/google/common/base/x;
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
@@ -61,7 +58,6 @@
 
     if-lez v2, :cond_0
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p1, p2, v0}, Lcom/google/common/util/concurrent/c1;->i(JLjava/util/concurrent/TimeUnit;)V

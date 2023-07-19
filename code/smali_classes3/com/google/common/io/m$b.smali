@@ -34,14 +34,12 @@
 
     invoke-static {}, Lcom/google/common/io/m$b;->c()V
 
-    .line 1
     new-instance v0, Lcom/google/common/io/m$b;
 
     invoke-direct {v0}, Lcom/google/common/io/m$b;-><init>()V
 
     sput-object v0, Lcom/google/common/io/m$b;->a:Lcom/google/common/io/m$b;
 
-    .line 2
     invoke-static {}, Lcom/google/common/io/m$b;->b()Ljava/lang/reflect/Method;
 
     move-result-object v0
@@ -54,7 +52,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,7 +60,6 @@
 .method private static b()Ljava/lang/reflect/Method;
     .locals 5
 
-    .line 1
     :try_start_0
     const-class v0, Ljava/lang/Throwable;
 
@@ -96,7 +92,6 @@
 .method private static synthetic c()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/google/common/io/m$b;
@@ -141,7 +136,6 @@
 .method static final synthetic d(Lcom/google/common/io/m$b;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -152,7 +146,6 @@
 .method static e()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/io/m$b;->b:Ljava/lang/reflect/Method;
 
     if-eqz v0, :cond_0
@@ -177,7 +170,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     :try_start_0
     sget-object v0, Lcom/google/common/io/m$b;->b:Ljava/lang/reflect/Method;
@@ -236,7 +228,6 @@
 
     goto :goto_0
 
-    .line 2
     :catchall_0
     sget-object v0, Lcom/google/common/io/m$a;->a:Lcom/google/common/io/m$a;
 

@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/util/XFunctionFragmentHelper$showFunction$$inlined$let$lambda$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper$showFunction$$inlined$let$lambda$1;->this$0:Lcom/commsource/util/XFunctionFragmentHelper;
 
     invoke-virtual {v1}, Lcom/commsource/util/XFunctionFragmentHelper;->b()Landroidx/fragment/app/FragmentManager;
@@ -85,17 +83,14 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/util/XFunctionFragmentHelper$showFunction$$inlined$let$lambda$1;->$it:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     invoke-virtual {v1, v2}, Landroidx/fragment/app/FragmentTransaction;->hide(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -47,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     const-string v2, "ORIGINAL"
@@ -60,7 +59,6 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->ORIGINAL:Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
-    .line 2
     new-instance v2, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     const-string v4, "FIT_PREVIEW"
@@ -73,7 +71,6 @@
 
     sput-object v2, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->FIT_PREVIEW:Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
-    .line 3
     new-instance v4, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     const-string v6, "INTERMEDIATE"
@@ -86,7 +83,6 @@
 
     sput-object v4, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->INTERMEDIATE:Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
-    .line 4
     new-instance v6, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     const-string v8, "PROCESSED"
@@ -99,7 +95,6 @@
 
     sput-object v6, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->PROCESSED:Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
-    .line 5
     new-instance v8, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     const-string v10, "PREVIEW_PROCESSED"
@@ -112,7 +107,6 @@
 
     sput-object v8, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->PREVIEW_PROCESSED:Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
-    .line 6
     new-instance v10, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     const-string v12, "PREVIEW_SKIN_CARE"
@@ -125,7 +119,6 @@
 
     sput-object v10, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->PREVIEW_SKIN_CARE:Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
-    .line 7
     new-instance v12, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     const-string v14, "PREVIEW__PRE_PROCESSED"
@@ -138,7 +131,6 @@
 
     sput-object v12, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->PREVIEW__PRE_PROCESSED:Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
-    .line 8
     new-instance v0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     const-string v14, "PRE_PROCESSED"
@@ -151,7 +143,6 @@
 
     sput-object v0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->PRE_PROCESSED:Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
-    .line 9
     new-instance v13, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     const-string v14, "FROM_CACHE"
@@ -194,7 +185,6 @@
 
     aput-object v13, v11, v15
 
-    .line 10
     sput-object v11, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->$VALUES:[Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     const/16 v0, 0x2e96
@@ -214,10 +204,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->stateSummary:Ljava/lang/String;
 
     return-void
@@ -230,7 +218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -251,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->$VALUES:[Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     invoke-virtual {v1}, [Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->clone()Ljava/lang/Object;

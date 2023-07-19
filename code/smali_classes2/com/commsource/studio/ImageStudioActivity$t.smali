@@ -56,15 +56,12 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/studio/m0;->e0(Z)V
 
-    .line 2
     invoke-static {}, Lcom/commsource/beautymain/utils/h;->d()Lcom/commsource/beautymain/utils/h;
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->a()Landroid/app/Application;
 
     move-result-object v2
@@ -77,12 +74,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/commsource/beautymain/utils/h;->d()Lcom/commsource/beautymain/utils/h;
 
     move-result-object v1
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/ImageStudioActivity$t;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1, v3}, Lcom/commsource/beautymain/utils/h;->n(Landroid/app/Activity;)Z
@@ -93,24 +88,20 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->ai_editor_saved:I
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object p1
 
     const/high16 v1, 0x43160000    # 150.0f
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
 
-    .line 8
     invoke-static {p1, v1}, Lf/k/c/c/f;->G(Ljava/lang/CharSequence;I)V
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$t;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -120,7 +111,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$t;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -128,7 +118,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/studio/ImageStudioActivity;->S0(Lcom/commsource/studio/ImageStudioActivity;Ljava/lang/String;)V
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -142,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$t;->a(Ljava/lang/String;)V

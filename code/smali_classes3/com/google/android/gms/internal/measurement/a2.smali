@@ -18,7 +18,6 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcom/google/android/gms/internal/measurement/b2;
 
     if-nez v0, :cond_2
@@ -29,20 +28,17 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     instance-of v0, p0, Ljava/io/Serializable;
 
     if-eqz v0, :cond_1
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/measurement/zzdb;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzdb;-><init>(Lcom/google/android/gms/internal/measurement/y1;)V
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/measurement/b2;
 
@@ -71,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/measurement/zzdd;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzdd;-><init>(Ljava/lang/Object;)V

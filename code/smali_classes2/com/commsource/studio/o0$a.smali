@@ -49,7 +49,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -64,14 +63,12 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/o0$a;->a:Lcom/commsource/studio/o0;
 
     invoke-virtual {v1}, Lcom/commsource/studio/o0;->e()Landroid/graphics/Rect;
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/o0$a;->b:Landroid/graphics/Rect;
 
     iget v2, v2, Landroid/graphics/Rect;->left:I
@@ -90,7 +87,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->left:I
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/o0$a;->b:Landroid/graphics/Rect;
 
     iget v2, v2, Landroid/graphics/Rect;->top:I
@@ -109,7 +105,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->top:I
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/o0$a;->b:Landroid/graphics/Rect;
 
     iget v2, v2, Landroid/graphics/Rect;->right:I
@@ -128,7 +123,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/o0$a;->b:Landroid/graphics/Rect;
 
     iget v2, v2, Landroid/graphics/Rect;->bottom:I
@@ -147,7 +141,6 @@
 
     iput p1, v1, Landroid/graphics/Rect;->bottom:I
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/o0$a;->a:Lcom/commsource/studio/o0;
 
     invoke-virtual {p1}, Lcom/commsource/studio/o0;->d()Landroid/view/View;
@@ -158,13 +151,11 @@
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 

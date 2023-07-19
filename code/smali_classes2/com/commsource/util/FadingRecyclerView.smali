@@ -21,12 +21,10 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;)V
 
     const/high16 v0, 0x42480000    # 50.0f
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
@@ -35,7 +33,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-direct {p0, p1, v0}, Lcom/commsource/util/FadingRecyclerView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -48,19 +45,16 @@
         .end annotation
     .end param
 
-    .line 4
     invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/high16 v0, 0x42480000    # 50.0f
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/util/FadingRecyclerView;->d:I
 
-    .line 6
     invoke-direct {p0, p1, p2}, Lcom/commsource/util/FadingRecyclerView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -73,19 +67,16 @@
         .end annotation
     .end param
 
-    .line 7
     invoke-direct {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/high16 p3, 0x42480000    # 50.0f
 
-    .line 8
     invoke-static {p3}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p3
 
     iput p3, p0, Lcom/commsource/util/FadingRecyclerView;->d:I
 
-    .line 9
     invoke-direct {p0, p1, p2}, Lcom/commsource/util/FadingRecyclerView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -98,7 +89,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance p2, Landroid/graphics/Paint;
 
     invoke-direct {p2}, Landroid/graphics/Paint;-><init>()V
@@ -107,10 +97,8 @@
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-virtual {p2, v0}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/util/FadingRecyclerView;->a:Landroid/graphics/Paint;
 
     new-instance v0, Landroid/graphics/PorterDuffXfermode;
@@ -121,7 +109,6 @@
 
     invoke-virtual {p2, v0}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -136,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/util/FadingRecyclerView;->c:I
 
     int-to-float v5, v1
@@ -157,10 +143,8 @@
 
     invoke-virtual/range {v2 .. v8}, Landroid/graphics/Canvas;->saveLayer(FFFFLandroid/graphics/Paint;I)I
 
-    .line 2
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->draw(Landroid/graphics/Canvas;)V
 
-    .line 3
     iget v1, p0, Lcom/commsource/util/FadingRecyclerView;->c:I
 
     int-to-float v5, v1
@@ -173,10 +157,8 @@
 
     invoke-virtual/range {v2 .. v7}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
-    .line 4
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -189,16 +171,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView;->onSizeChanged(IIII)V
 
-    .line 2
     iput p2, p0, Lcom/commsource/util/FadingRecyclerView;->b:I
 
-    .line 3
     iput p1, p0, Lcom/commsource/util/FadingRecyclerView;->c:I
 
-    .line 4
     iget p1, p0, Lcom/commsource/util/FadingRecyclerView;->d:I
 
     int-to-float p1, p1
@@ -211,7 +189,6 @@
 
     div-float/2addr p1, p2
 
-    .line 5
     new-instance p2, Landroid/graphics/LinearGradient;
 
     iget p3, p0, Lcom/commsource/util/FadingRecyclerView;->b:I
@@ -256,12 +233,10 @@
 
     invoke-direct/range {v1 .. v8}, Landroid/graphics/LinearGradient;-><init>(FFFF[I[FLandroid/graphics/Shader$TileMode;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/util/FadingRecyclerView;->a:Landroid/graphics/Paint;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -281,10 +256,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/util/FadingRecyclerView;->d:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

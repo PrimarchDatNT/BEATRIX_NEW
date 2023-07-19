@@ -45,10 +45,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/repository/child/TextureRepository$textureComparator$2$a;->e:Lcom/commsource/repository/child/TextureRepository$textureComparator$2;
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/commsource/repository/OnlineLocalMaterialCompator;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -85,7 +83,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -112,14 +109,12 @@
     :cond_0
     check-cast v3, Lcom/commsource/studio/function/background/TextureMaterial;
 
-    .line 2
     invoke-virtual {v3, v2}, Lcom/commsource/studio/function/background/TextureMaterial;->setSort(I)V
 
     move v2, v4
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -144,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextureRepository;->E()Lf/k/i0/a/e1;
@@ -199,7 +193,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     sget-object v3, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
 
     invoke-virtual {v3}, Lcom/commsource/repository/child/TextureRepository;->E()Lf/k/i0/a/e1;
@@ -208,7 +201,6 @@
 
     new-array v4, v2, [Lcom/commsource/studio/function/background/TextureMaterial;
 
-    .line 2
     invoke-interface {p1, v4}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v4
@@ -217,12 +209,10 @@
 
     check-cast v4, [Lcom/commsource/studio/function/background/TextureMaterial;
 
-    .line 3
     invoke-interface {v3, v4}, Lf/k/i0/a/e1;->I0([Lcom/commsource/studio/function/background/TextureMaterial;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -236,7 +226,6 @@
     :goto_0
     if-eqz p2, :cond_3
 
-    .line 5
     sget-object v3, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
 
     invoke-virtual {v3}, Lcom/commsource/repository/child/TextureRepository;->E()Lf/k/i0/a/e1;
@@ -245,7 +234,6 @@
 
     new-array v4, v2, [Lcom/commsource/studio/function/background/TextureMaterial;
 
-    .line 6
     invoke-interface {p2, v4}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v4
@@ -254,12 +242,10 @@
 
     check-cast v4, [Lcom/commsource/studio/function/background/TextureMaterial;
 
-    .line 7
     invoke-interface {v3, v4}, Lf/k/i0/a/e1;->T1([Lcom/commsource/studio/function/background/TextureMaterial;)V
 
     goto :goto_1
 
-    .line 8
     :cond_2
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -273,7 +259,6 @@
     :goto_1
     if-eqz p3, :cond_5
 
-    .line 9
     sget-object v3, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
 
     invoke-virtual {v3}, Lcom/commsource/repository/child/TextureRepository;->E()Lf/k/i0/a/e1;
@@ -282,7 +267,6 @@
 
     new-array v4, v2, [Lcom/commsource/studio/function/background/TextureMaterial;
 
-    .line 10
     invoke-interface {p3, v4}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v4
@@ -291,12 +275,10 @@
 
     check-cast v4, [Lcom/commsource/studio/function/background/TextureMaterial;
 
-    .line 11
     invoke-interface {v3, v4}, Lf/k/i0/a/e1;->N0([Lcom/commsource/studio/function/background/TextureMaterial;)V
 
     goto :goto_2
 
-    .line 12
     :cond_4
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -306,7 +288,6 @@
 
     throw p1
 
-    .line 13
     :cond_5
     :goto_2
     sget-object v1, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
@@ -391,13 +372,10 @@
     :cond_d
     invoke-static {v1, v2}, Lcom/commsource/repository/child/TextureRepository;->t(Lcom/commsource/repository/child/TextureRepository;Z)V
 
-    .line 14
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextureRepository;->I()V
 
-    .line 15
     invoke-virtual {v1}, Lcom/commsource/repository/MaterialRepository;->d()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -414,15 +392,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->t(Ljava/lang/Throwable;)V
 
-    .line 2
     sget-object p1, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
 
     invoke-virtual {p1}, Lcom/commsource/repository/MaterialRepository;->b()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -58,7 +58,6 @@
 
     const-string v4, "JAVA PROFILE 1.0"
 
-    .line 1
     invoke-direct {v1, v2, v3, v4}, Lkshark/Hprof$HprofVersion;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/Hprof$HprofVersion;->JDK1_2_BETA3:Lkshark/Hprof$HprofVersion;
@@ -73,7 +72,6 @@
 
     const-string v4, "JAVA PROFILE 1.0.1"
 
-    .line 2
     invoke-direct {v1, v2, v3, v4}, Lkshark/Hprof$HprofVersion;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/Hprof$HprofVersion;->JDK1_2_BETA4:Lkshark/Hprof$HprofVersion;
@@ -88,7 +86,6 @@
 
     const-string v4, "JAVA PROFILE 1.0.2"
 
-    .line 3
     invoke-direct {v1, v2, v3, v4}, Lkshark/Hprof$HprofVersion;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/Hprof$HprofVersion;->JDK_6:Lkshark/Hprof$HprofVersion;
@@ -103,7 +100,6 @@
 
     const-string v4, "JAVA PROFILE 1.0.3"
 
-    .line 4
     invoke-direct {v1, v2, v3, v4}, Lkshark/Hprof$HprofVersion;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/Hprof$HprofVersion;->ANDROID:Lkshark/Hprof$HprofVersion;
@@ -125,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput-object p3, p0, Lkshark/Hprof$HprofVersion;->versionString:Ljava/lang/String;
@@ -168,7 +163,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/Hprof$HprofVersion;->versionString:Ljava/lang/String;
 
     return-object v0

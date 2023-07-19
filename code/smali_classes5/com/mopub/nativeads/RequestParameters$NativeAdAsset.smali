@@ -48,7 +48,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
     const-string v1, "TITLE"
@@ -61,7 +60,6 @@
 
     sput-object v0, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;->TITLE:Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
-    .line 2
     new-instance v1, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
     const-string v3, "TEXT"
@@ -74,7 +72,6 @@
 
     sput-object v1, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;->TEXT:Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
-    .line 3
     new-instance v3, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
     const-string v5, "ICON_IMAGE"
@@ -87,7 +84,6 @@
 
     sput-object v3, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;->ICON_IMAGE:Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
-    .line 4
     new-instance v5, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
     const-string v7, "MAIN_IMAGE"
@@ -100,7 +96,6 @@
 
     sput-object v5, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;->MAIN_IMAGE:Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
-    .line 5
     new-instance v7, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
     const-string v9, "CALL_TO_ACTION_TEXT"
@@ -113,7 +108,6 @@
 
     sput-object v7, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;->CALL_TO_ACTION_TEXT:Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
-    .line 6
     new-instance v9, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
     const-string v11, "STAR_RATING"
@@ -126,7 +120,6 @@
 
     sput-object v9, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;->STAR_RATING:Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
-    .line 7
     new-instance v11, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
     const-string v13, "SPONSORED"
@@ -157,7 +150,6 @@
 
     aput-object v11, v13, v14
 
-    .line 8
     sput-object v13, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;->$VALUES:[Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
     return-void
@@ -177,10 +169,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;->mAssetName:Ljava/lang/String;
 
     return-void
@@ -189,7 +179,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -204,7 +193,6 @@
 .method public static values()[Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;->$VALUES:[Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;
 
     invoke-virtual {v0}, [Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;->clone()Ljava/lang/Object;
@@ -223,7 +211,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/RequestParameters$NativeAdAsset;->mAssetName:Ljava/lang/String;
 
     return-object v0

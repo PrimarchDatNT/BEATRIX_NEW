@@ -30,10 +30,8 @@
 .method constructor <init>(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -52,10 +50,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/os/Handler;->handleMessage(Landroid/os/Message;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$g;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -66,17 +62,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;->Q0(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

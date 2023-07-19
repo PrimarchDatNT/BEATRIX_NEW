@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 1
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v1
@@ -43,7 +41,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -74,10 +71,8 @@
     :cond_1
     const-string p2, "onReceive: ACTION_GET_ABTESTING_CODE"
 
-    .line 3
     invoke-static {v3, p2}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/abtesting/broadcast/b;->c(Landroid/content/Context;)V
 
     goto :goto_0
@@ -85,36 +80,30 @@
     :cond_2
     const-string v1, "onReceive: ACTION_REQUEST_ABTESTING_CODE"
 
-    .line 5
     invoke-static {v3, v1}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "REQUEST_PARAM_FORCE"
 
     const/4 v2, 0x0
 
-    .line 6
     invoke-virtual {p2, v1, v2}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
 
     move-result p2
 
     if-eqz p2, :cond_3
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/abtesting/ABTestingManager;->O(Landroid/content/Context;)Z
 
     goto :goto_0
 
-    .line 8
     :cond_3
     invoke-static {p1, v2}, Lcom/meitu/library/abtesting/ABTestingManager;->N(Landroid/content/Context;Z)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

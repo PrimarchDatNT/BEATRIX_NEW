@@ -167,7 +167,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->label:I
 
     const/4 v2, 0x3
@@ -193,7 +192,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -203,7 +201,6 @@
 
     throw p1
 
-    .line 3
     :cond_2
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->L$0:Ljava/lang/Object;
 
@@ -220,7 +217,6 @@
 
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->p$:Lcotlinx/coroutines/channels/w;
 
-    .line 4
     iget-wide v5, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$initialDelayMillis:J
 
     iput-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->L$0:Ljava/lang/Object;
@@ -239,7 +235,6 @@
     :goto_0
     move-object p1, p0
 
-    .line 5
     :cond_5
     invoke-interface {v1}, Lcotlinx/coroutines/channels/w;->b()Lcotlinx/coroutines/channels/c0;
 
@@ -259,7 +254,6 @@
 
     return-object v0
 
-    .line 6
     :cond_6
     :goto_1
     iget-wide v4, p1, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$delayMillis:J

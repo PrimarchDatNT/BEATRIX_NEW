@@ -14,7 +14,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/scheduling/f;
 
     invoke-direct {v0}, Lcotlinx/coroutines/scheduling/f;-><init>()V
@@ -27,7 +26,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/scheduling/l;-><init>()V
 
     return-void
@@ -38,7 +36,6 @@
 .method public a()J
     .locals 2
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v0

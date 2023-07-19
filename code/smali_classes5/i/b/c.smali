@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 8
 
-    .line 1
     sget-object v0, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
 
     const/4 v1, 0x0
@@ -19,7 +18,6 @@
     :try_start_0
     const-string v2, "io.perfmark.impl.SecretPerfMarkImpl$PerfMarkImpl"
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v2
@@ -41,7 +39,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     sget-object v2, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
 
     move-object v3, v0
@@ -54,7 +51,6 @@
     :goto_1
     if-eqz v2, :cond_0
 
-    .line 4
     :try_start_1
     const-class v4, Li/b/a;
 
@@ -103,12 +99,10 @@
     :goto_2
     if-eqz v1, :cond_1
 
-    .line 5
     sput-object v1, Li/b/c;->a:Li/b/a;
 
     goto :goto_3
 
-    .line 6
     :cond_1
     new-instance v1, Li/b/a;
 
@@ -121,7 +115,6 @@
     :goto_3
     if-eqz v3, :cond_2
 
-    .line 7
     const-class v1, Li/b/c;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -143,7 +136,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -152,7 +144,6 @@
 .method public static a(Li/b/d;)V
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     invoke-virtual {v0, p0}, Li/b/a;->a(Li/b/d;)V
@@ -163,7 +154,6 @@
 .method public static b()Li/b/d;
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/a;->d:Li/b/d;
 
     return-object v0
@@ -172,7 +162,6 @@
 .method public static c(J)Li/b/d;
     .locals 2
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     const-string v1, ""
@@ -187,7 +176,6 @@
 .method public static d(Ljava/lang/String;)Li/b/d;
     .locals 3
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     const-wide/high16 v1, -0x8000000000000000L
@@ -202,7 +190,6 @@
 .method public static e(Ljava/lang/String;J)Li/b/d;
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     invoke-virtual {v0, p0, p1, p2}, Li/b/a;->b(Ljava/lang/String;J)Li/b/d;
@@ -215,7 +202,6 @@
 .method public static f(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     invoke-virtual {v0, p0}, Li/b/a;->c(Ljava/lang/String;)V
@@ -226,7 +212,6 @@
 .method public static g(Ljava/lang/String;Li/b/d;)V
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     invoke-virtual {v0, p0, p1}, Li/b/a;->d(Ljava/lang/String;Li/b/d;)V
@@ -242,7 +227,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sget-object v0, Li/b/a;->e:Li/b/b;
 
     return-object v0
@@ -251,7 +235,6 @@
 .method public static i(Li/b/b;)V
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     invoke-virtual {v0, p0}, Li/b/a;->e(Li/b/b;)V
@@ -262,7 +245,6 @@
 .method public static j()Li/b/b;
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     invoke-virtual {v0}, Li/b/a;->f()Li/b/b;
@@ -275,7 +257,6 @@
 .method public static k(Z)V
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     invoke-virtual {v0, p0}, Li/b/a;->i(Z)V
@@ -286,7 +267,6 @@
 .method public static l(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     invoke-virtual {v0, p0}, Li/b/a;->j(Ljava/lang/String;)V
@@ -297,7 +277,6 @@
 .method public static m(Ljava/lang/String;Li/b/d;)V
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     invoke-virtual {v0, p0, p1}, Li/b/a;->k(Ljava/lang/String;Li/b/d;)V
@@ -308,7 +287,6 @@
 .method public static n(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     invoke-virtual {v0, p0}, Li/b/a;->l(Ljava/lang/String;)V
@@ -319,7 +297,6 @@
 .method public static o(Ljava/lang/String;Li/b/d;)V
     .locals 1
 
-    .line 1
     sget-object v0, Li/b/c;->a:Li/b/a;
 
     invoke-virtual {v0, p0, p1}, Li/b/a;->m(Ljava/lang/String;Li/b/d;)V

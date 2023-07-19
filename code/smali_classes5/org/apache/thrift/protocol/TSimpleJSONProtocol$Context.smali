@@ -22,7 +22,6 @@
 .method protected constructor <init>(Lorg/apache/thrift/protocol/TSimpleJSONProtocol;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->this$0:Lorg/apache/thrift/protocol/TSimpleJSONProtocol;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

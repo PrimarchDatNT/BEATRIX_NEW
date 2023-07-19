@@ -17,7 +17,6 @@
 
     const-string/jumbo v2, "y"
 
-    .line 1
     filled-new-array {v0, v1, v2}, [Ljava/lang/String;
 
     move-result-object v0
@@ -34,7 +33,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -48,12 +46,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     move-result-object v1
@@ -62,10 +58,8 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b()V
 
-    .line 4
     :goto_0
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -73,7 +67,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-static {p0, p1}, Lcom/airbnb/lottie/y/x;->a(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;)Lcom/airbnb/lottie/w/c/h;
 
     move-result-object v1
@@ -82,16 +75,13 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->d()V
 
-    .line 7
     invoke-static {v0}, Lcom/airbnb/lottie/y/r;->b(Ljava/util/List;)V
 
     goto :goto_1
 
-    .line 8
     :cond_1
     new-instance p1, Lcom/airbnb/lottie/a0/a;
 
@@ -107,7 +97,6 @@
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 9
     :goto_1
     new-instance p0, Lcom/airbnb/lottie/model/i/e;
 
@@ -137,7 +126,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->c()V
 
     const/4 v0, 0x1
@@ -152,7 +140,6 @@
 
     const/4 v4, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
@@ -162,7 +149,6 @@
 
     if-eq v5, v6, :cond_5
 
-    .line 3
     sget-object v5, Lcom/airbnb/lottie/y/a;->a:Lcom/airbnb/lottie/parser/moshi/JsonReader$a;
 
     invoke-virtual {p0, v5}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->o(Lcom/airbnb/lottie/parser/moshi/JsonReader$a;)I
@@ -177,15 +163,12 @@
 
     if-eq v5, v6, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->p()V
 
-    .line 5
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
@@ -195,12 +178,10 @@
 
     if-ne v5, v6, :cond_1
 
-    .line 7
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     goto :goto_1
 
-    .line 8
     :cond_1
     invoke-static {p0, p1}, Lcom/airbnb/lottie/y/d;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;)Lcom/airbnb/lottie/model/i/b;
 
@@ -208,7 +189,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
@@ -218,7 +198,6 @@
 
     if-ne v5, v6, :cond_3
 
-    .line 10
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     :goto_1
@@ -226,7 +205,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     invoke-static {p0, p1}, Lcom/airbnb/lottie/y/d;->e(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;)Lcom/airbnb/lottie/model/i/b;
 
@@ -234,7 +212,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_4
     invoke-static {p0, p1}, Lcom/airbnb/lottie/y/a;->a(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;)Lcom/airbnb/lottie/model/i/e;
 
@@ -242,7 +219,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_5
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->e()V
 
@@ -250,7 +226,6 @@
 
     const-string p0, "Lottie doesn\'t support expressions."
 
-    .line 14
     invoke-virtual {p1, p0}, Lcom/airbnb/lottie/g;->a(Ljava/lang/String;)V
 
     :cond_6
@@ -258,7 +233,6 @@
 
     return-object v1
 
-    .line 15
     :cond_7
     new-instance p0, Lcom/airbnb/lottie/model/i/i;
 

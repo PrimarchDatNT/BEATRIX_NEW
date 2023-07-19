@@ -43,16 +43,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/squareup/okhttp/Handshake;->cipherSuite:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/squareup/okhttp/Handshake;->peerCertificates:Ljava/util/List;
 
-    .line 4
     iput-object p3, p0, Lcom/squareup/okhttp/Handshake;->localCertificates:Ljava/util/List;
 
     return-void
@@ -76,14 +72,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 10
     new-instance v0, Lcom/squareup/okhttp/Handshake;
 
     invoke-static {p1}, Lcom/squareup/okhttp/internal/Util;->immutableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 11
     invoke-static {p2}, Lcom/squareup/okhttp/internal/Util;->immutableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p2
@@ -92,7 +86,6 @@
 
     return-object v0
 
-    .line 12
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -106,14 +99,12 @@
 .method public static get(Ljavax/net/ssl/SSLSession;)Lcom/squareup/okhttp/Handshake;
     .locals 3
 
-    .line 1
     invoke-interface {p0}, Ljavax/net/ssl/SSLSession;->getCipherSuite()Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    .line 2
     :try_start_0
     invoke-interface {p0}, Ljavax/net/ssl/SSLSession;->getPeerCertificates()[Ljava/security/cert/Certificate;
 
@@ -129,20 +120,17 @@
     :goto_0
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v1}, Lcom/squareup/okhttp/internal/Util;->immutableList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
 
     goto :goto_1
 
-    .line 4
     :cond_0
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v1
 
-    .line 5
     :goto_1
     invoke-interface {p0}, Ljavax/net/ssl/SSLSession;->getLocalCertificates()[Ljava/security/cert/Certificate;
 
@@ -150,20 +138,17 @@
 
     if-eqz p0, :cond_1
 
-    .line 6
     invoke-static {p0}, Lcom/squareup/okhttp/internal/Util;->immutableList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
 
     goto :goto_2
 
-    .line 7
     :cond_1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object p0
 
-    .line 8
     :goto_2
     new-instance v2, Lcom/squareup/okhttp/Handshake;
 
@@ -171,7 +156,6 @@
 
     return-object v2
 
-    .line 9
     :cond_2
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -187,7 +171,6 @@
 .method public cipherSuite()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Handshake;->cipherSuite:Ljava/lang/String;
 
     return-object v0
@@ -196,7 +179,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/squareup/okhttp/Handshake;
 
     const/4 v1, 0x0
@@ -205,11 +187,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/squareup/okhttp/Handshake;
 
-    .line 3
     iget-object v0, p0, Lcom/squareup/okhttp/Handshake;->cipherSuite:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/squareup/okhttp/Handshake;->cipherSuite:Ljava/lang/String;
@@ -224,7 +204,6 @@
 
     iget-object v2, p1, Lcom/squareup/okhttp/Handshake;->peerCertificates:Ljava/util/List;
 
-    .line 4
     invoke-interface {v0, v2}, Ljava/util/List;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -235,7 +214,6 @@
 
     iget-object p1, p1, Lcom/squareup/okhttp/Handshake;->localCertificates:Ljava/util/List;
 
-    .line 5
     invoke-interface {v0, p1}, Ljava/util/List;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -251,7 +229,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Handshake;->cipherSuite:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -264,7 +241,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/Handshake;->peerCertificates:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->hashCode()I
@@ -275,7 +251,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 3
     iget-object v0, p0, Lcom/squareup/okhttp/Handshake;->localCertificates:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->hashCode()I
@@ -298,7 +273,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Handshake;->localCertificates:Ljava/util/List;
 
     return-object v0
@@ -307,7 +281,6 @@
 .method public localPrincipal()Ljava/security/Principal;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Handshake;->localCertificates:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -320,7 +293,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -351,7 +323,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Handshake;->peerCertificates:Ljava/util/List;
 
     return-object v0
@@ -360,7 +331,6 @@
 .method public peerPrincipal()Ljava/security/Principal;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Handshake;->peerCertificates:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -373,7 +343,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0

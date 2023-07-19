@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/m2$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/m2$d;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
 .method public a(Lio/grpc/internal/a3$a;)V
     .locals 5
 
-    .line 1
     :goto_0
     invoke-interface {p1}, Lio/grpc/internal/a3$a;->next()Ljava/io/InputStream;
 
@@ -49,7 +46,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     :try_start_0
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
     :try_end_0
@@ -60,7 +56,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     :goto_1
     invoke-interface {p1}, Lio/grpc/internal/a3$a;->next()Ljava/io/InputStream;
 
@@ -68,7 +63,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     :try_start_1
     invoke-virtual {v1}, Ljava/io/InputStream;->close()V
     :try_end_1
@@ -79,7 +73,6 @@
     :catch_1
     move-exception v1
 
-    .line 5
     invoke-static {}, Lio/grpc/internal/m2;->K()Ljava/util/logging/Logger;
 
     move-result-object v2
@@ -92,7 +85,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 

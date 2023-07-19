@@ -46,7 +46,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
@@ -68,16 +67,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/qk1;->a:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/qk1;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/qk1;->c:Lcom/google/android/gms/internal/ads/bl1;
 
     return-void
@@ -86,7 +81,6 @@
 .method static synthetic c(Lcom/google/android/gms/internal/ads/qk1;)Lcom/google/android/gms/internal/ads/uq1;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/qk1;->a:Lcom/google/android/gms/internal/ads/uq1;
 
     return-object p0
@@ -95,7 +89,6 @@
 .method static synthetic d()Lcom/google/android/gms/internal/ads/rq1;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/qk1;->d:Lcom/google/android/gms/internal/ads/rq1;
 
     return-object v0
@@ -104,7 +97,6 @@
 .method static synthetic e(Lcom/google/android/gms/internal/ads/qk1;)Ljava/util/concurrent/ScheduledExecutorService;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/qk1;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
     return-object p0
@@ -113,7 +105,6 @@
 .method static synthetic f(Lcom/google/android/gms/internal/ads/qk1;)Lcom/google/android/gms/internal/ads/bl1;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/qk1;->c:Lcom/google/android/gms/internal/ads/bl1;
 
     return-object p0
@@ -132,12 +123,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p2
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/sk1;
 
     const/4 v1, 0x0
@@ -161,12 +150,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v5
 
-    .line 2
     new-instance v8, Lcom/google/android/gms/internal/ads/wk1;
 
     const/4 v3, 0x0
@@ -197,7 +184,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/uk1;
 
     const/4 v1, 0x0

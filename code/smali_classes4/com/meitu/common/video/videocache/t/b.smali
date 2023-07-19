@@ -27,7 +27,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/meitu/common/video/videocache/t/i;
 
     invoke-direct {v0}, Lcom/meitu/common/video/videocache/t/i;-><init>()V
@@ -45,24 +44,19 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-eqz p2, :cond_2
 
-    .line 3
     :try_start_0
     iput-object p2, p0, Lcom/meitu/common/video/videocache/t/b;->a:Lcom/meitu/common/video/videocache/t/a;
 
-    .line 4
     invoke-virtual {p1}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
     move-result-object p2
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/common/video/videocache/t/d;->b(Ljava/io/File;)V
 
-    .line 6
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result p2
@@ -73,7 +67,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance v0, Ljava/io/File;
 
@@ -104,7 +97,6 @@
     :goto_0
     iput-object v0, p0, Lcom/meitu/common/video/videocache/t/b;->b:Ljava/io/File;
 
-    .line 8
     new-instance v0, Ljava/io/RandomAccessFile;
 
     iget-object v1, p0, Lcom/meitu/common/video/videocache/t/b;->b:Ljava/io/File;
@@ -130,7 +122,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_2
     new-instance p2, Ljava/lang/NullPointerException;
 
@@ -140,7 +131,6 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 10
     :goto_2
     new-instance v0, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
@@ -174,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object p1
@@ -199,7 +188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/t/b;->b:Ljava/io/File;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -224,7 +212,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 1
     :try_start_1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/t/b;->c:Ljava/io/RandomAccessFile;
 
@@ -251,7 +238,6 @@
     :catch_0
     move-exception v1
 
-    .line 2
     :try_start_3
     new-instance v2, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
@@ -297,7 +283,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/t/b;->b:Ljava/io/File;
 
     invoke-direct {p0, v1}, Lcom/meitu/common/video/videocache/t/b;->b(Ljava/io/File;)Z
@@ -347,13 +332,11 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 1
     :try_start_1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/t/b;->c:Ljava/io/RandomAccessFile;
 
     invoke-virtual {v1}, Ljava/io/RandomAccessFile;->close()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/video/videocache/t/b;->a:Lcom/meitu/common/video/videocache/t/a;
 
     iget-object v2, p0, Lcom/meitu/common/video/videocache/t/b;->b:Ljava/io/File;
@@ -363,7 +346,6 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 3
     :try_start_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_2
@@ -376,7 +358,6 @@
     :catch_0
     move-exception v1
 
-    .line 4
     :try_start_3
     new-instance v2, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
@@ -427,14 +408,12 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/common/video/videocache/t/b;->c()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -443,12 +422,10 @@
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-virtual {p0}, Lcom/meitu/common/video/videocache/t/b;->close()V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/common/video/videocache/t/b;->b:Ljava/io/File;
 
     invoke-virtual {v1}, Ljava/io/File;->getName()Ljava/lang/String;
@@ -473,7 +450,6 @@
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Ljava/io/File;
 
     iget-object v3, p0, Lcom/meitu/common/video/videocache/t/b;->b:Ljava/io/File;
@@ -484,7 +460,6 @@
 
     invoke-direct {v2, v3, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/common/video/videocache/t/b;->b:Ljava/io/File;
 
     invoke-virtual {v1, v2}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
@@ -493,12 +468,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     iput-object v2, p0, Lcom/meitu/common/video/videocache/t/b;->b:Ljava/io/File;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 8
     :try_start_2
     new-instance v1, Ljava/io/RandomAccessFile;
 
@@ -510,7 +483,6 @@
 
     iput-object v1, p0, Lcom/meitu/common/video/videocache/t/b;->c:Ljava/io/RandomAccessFile;
 
-    .line 9
     iget-object v1, p0, Lcom/meitu/common/video/videocache/t/b;->a:Lcom/meitu/common/video/videocache/t/a;
 
     iget-object v2, p0, Lcom/meitu/common/video/videocache/t/b;->b:Ljava/io/File;
@@ -520,7 +492,6 @@
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 10
     :try_start_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_3
@@ -533,7 +504,6 @@
     :catch_0
     move-exception v1
 
-    .line 11
     :try_start_4
     new-instance v2, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
@@ -563,7 +533,6 @@
 
     throw v2
 
-    .line 12
     :cond_1
     new-instance v1, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
@@ -628,7 +597,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_1
     invoke-virtual {p0}, Lcom/meitu/common/video/videocache/t/b;->c()Z
 
@@ -636,7 +604,6 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/common/video/videocache/t/b;->c:Ljava/io/RandomAccessFile;
 
     invoke-virtual {p0}, Lcom/meitu/common/video/videocache/t/b;->available()J
@@ -645,7 +612,6 @@
 
     invoke-virtual {v2, v3, v4}, Ljava/io/RandomAccessFile;->seek(J)V
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/common/video/videocache/t/b;->c:Ljava/io/RandomAccessFile;
 
     invoke-virtual {v2, p1, v1, p2}, Ljava/io/RandomAccessFile;->write([BII)V
@@ -653,7 +619,6 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     :try_start_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_2
@@ -663,7 +628,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_3
     new-instance v2, Lcom/meitu/common/video/videocache/ProxyCacheException;
@@ -703,7 +667,6 @@
     :try_start_4
     const-string v3, "Error writing %d bytes to %s from buffer with size %d"
 
-    .line 6
     new-instance v4, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
     const/4 v5, 0x3
@@ -771,13 +734,11 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_1
     iget-object v2, p0, Lcom/meitu/common/video/videocache/t/b;->c:Ljava/io/RandomAccessFile;
 
     invoke-virtual {v2, p2, p3}, Ljava/io/RandomAccessFile;->seek(J)V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/common/video/videocache/t/b;->c:Ljava/io/RandomAccessFile;
 
     invoke-virtual {v2, p1, v1, p4}, Ljava/io/RandomAccessFile;->read([BII)I
@@ -802,7 +763,6 @@
     :try_start_3
     const-string v3, "Error reading %d bytes with offset %d from file[%d bytes] to buffer[%d bytes]"
 
-    .line 3
     new-instance v4, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
     const/4 v5, 0x4

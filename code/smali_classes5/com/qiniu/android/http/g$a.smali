@@ -36,7 +36,6 @@
 .method constructor <init>(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;IDLjava/lang/String;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/qiniu/android/http/g$a;->a:Ljava/lang/String;
 
     iput p2, p0, Lcom/qiniu/android/http/g$a;->b:I
@@ -63,7 +62,6 @@
 .method public a()Ljava/lang/String;
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -100,7 +98,6 @@
 
     new-array v3, v3, [Ljava/lang/String;
 
-    .line 2
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -195,7 +192,6 @@
 
     const-string v0, ","
 
-    .line 3
     invoke-static {v3, v0}, Lf/n/a/d/j;->b([Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0

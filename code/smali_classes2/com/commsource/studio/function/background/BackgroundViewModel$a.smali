@@ -42,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/function/background/BackgroundViewModel;->W:Lcom/commsource/studio/function/background/BackgroundViewModel$b;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/background/BackgroundViewModel$b;->a()Ljava/util/ArrayList;
@@ -71,7 +69,6 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 3
     sget-object v4, Lcom/commsource/studio/function/background/c;->e:Lcom/commsource/studio/function/background/c$a;
 
     invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -92,7 +89,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundViewModel$a;->a:Lcom/commsource/studio/function/background/BackgroundViewModel;
 
@@ -102,7 +98,6 @@
 
     invoke-virtual {v2, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

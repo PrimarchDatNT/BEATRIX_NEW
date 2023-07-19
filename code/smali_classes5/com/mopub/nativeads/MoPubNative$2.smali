@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/MoPubNative;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubNative$2;->this$0:Lcom/mopub/nativeads/MoPubNative;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubNative$2;->this$0:Lcom/mopub/nativeads/MoPubNative;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubNative;->onAdError(Lcom/mopub/network/MoPubNetworkError;)V
@@ -57,7 +55,6 @@
         .end annotation
     .end param
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubNative$2;->this$0:Lcom/mopub/nativeads/MoPubNative;
 
     invoke-static {v0, p1}, Lcom/mopub/nativeads/MoPubNative;->access$000(Lcom/mopub/nativeads/MoPubNative;Lcom/mopub/network/AdResponse;)V
@@ -72,7 +69,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/mopub/network/AdResponse;
 
     invoke-virtual {p0, p1}, Lcom/mopub/nativeads/MoPubNative$2;->onResponse(Lcom/mopub/network/AdResponse;)V

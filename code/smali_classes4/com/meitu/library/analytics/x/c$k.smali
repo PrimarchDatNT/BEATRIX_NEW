@@ -22,7 +22,6 @@
 
     const-string v1, ""
 
-    .line 1
     invoke-direct {p0, v0, v1}, Lcom/meitu/library/analytics/x/c$f;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -37,7 +36,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/library/analytics/x/c$f;->b(Landroid/content/Context;)Z
 
     move-result v1
@@ -48,14 +46,12 @@
 
     const-string v1, "content://com.meizu.flyme.openidsdk/"
 
-    .line 2
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v4
 
     const/4 v1, 0x0
 
-    .line 3
     :try_start_0
     invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -81,31 +77,26 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_0
     :try_start_1
     invoke-interface {p1}, Landroid/database/Cursor;->moveToFirst()Z
 
     const-string v3, "value"
 
-    .line 6
     invoke-interface {p1, v3}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v3
 
     if-ltz v3, :cond_2
 
-    .line 7
     invoke-interface {p1, v3}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 8
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -122,7 +113,6 @@
     :try_start_2
     const-string v3, "0"
 
-    .line 9
     invoke-virtual {v3, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -131,7 +121,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     sput-boolean v1, Lcom/meitu/library/analytics/x/c$f;->f:Z
     :try_end_2
@@ -139,7 +128,6 @@
 
     goto :goto_0
 
-    .line 11
     :catchall_0
     sput-boolean v1, Lcom/meitu/library/analytics/x/c$f;->f:Z
 
@@ -147,15 +135,12 @@
 
     return v1
 
-    .line 12
     :cond_3
     sput-boolean v2, Lcom/meitu/library/analytics/x/c$f;->f:Z
 
-    .line 13
     :goto_0
     iput-boolean v2, p0, Lcom/meitu/library/analytics/x/c$f;->d:Z
 
-    .line 14
     sget-boolean p1, Lcom/meitu/library/analytics/x/c$f;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -172,14 +157,12 @@
 
     const-string v1, "oaid"
 
-    .line 1
     filled-new-array {v1}, [Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/library/analytics/x/c$f;->d([Ljava/lang/String;)V
 
-    .line 2
     invoke-super {p0, p1}, Lcom/meitu/library/analytics/x/c$f;->c(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1

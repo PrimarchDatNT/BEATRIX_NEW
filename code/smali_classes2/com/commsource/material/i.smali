@@ -15,7 +15,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/material/g;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 .method private constructor <init>(Z)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/material/g;-><init>(Z)V
 
     return-void
@@ -39,7 +37,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/material/i;->o(Z)Lcom/commsource/material/i;
 
     move-result-object v1
@@ -56,30 +53,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/i;->d:Lcom/commsource/material/i;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/material/i;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/material/i;->d:Lcom/commsource/material/i;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/material/i;
 
     invoke-direct {v2, p0}, Lcom/commsource/material/i;-><init>(Z)V
 
     sput-object v2, Lcom/commsource/material/i;->d:Lcom/commsource/material/i;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -96,7 +88,6 @@
 
     throw p0
 
-    .line 6
     :cond_1
     :goto_0
     sget-object p0, Lcom/commsource/material/i;->d:Lcom/commsource/material/i;
@@ -115,10 +106,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Lf/d/i/e;->D3(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -134,7 +123,6 @@
     :try_start_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/material/g;->b:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -145,12 +133,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/material/g;->b:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -175,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -196,10 +181,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/material/i;->c:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -212,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/material/i;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

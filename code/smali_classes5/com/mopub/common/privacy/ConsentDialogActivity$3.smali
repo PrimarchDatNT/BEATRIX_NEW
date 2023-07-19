@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/common/privacy/ConsentDialogActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogActivity$3;->this$0:Lcom/mopub/common/privacy/ConsentDialogActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onLoadProgress(I)V
     .locals 0
 
-    .line 1
     sget p1, Lcom/mopub/common/privacy/ConsentDialogLayout;->FINISHED_LOADING:I
 
     return-void

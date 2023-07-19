@@ -39,7 +39,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;ZLjava/util/HashMap;Ljava/util/HashMap;Lcom/meitu/webview/mtscript/j;Ljava/lang/String;ZZ)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->J:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
     iput-boolean p2, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->a:Z
@@ -74,10 +73,8 @@
 
     const-string v2, "start request"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v2
@@ -88,19 +85,16 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     iget-boolean v2, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->a:Z
 
     if-eqz v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->J:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
     iget-object v3, v2, Lcom/meitu/webview/mtscript/i;->d:Lf/k/o0/c/c;
 
     if-eqz v3, :cond_2
 
-    .line 5
     invoke-virtual {v2}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v4
@@ -123,7 +117,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v2, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->J:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
@@ -131,7 +124,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 7
     invoke-virtual {v2}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v2
@@ -155,7 +147,6 @@
     :cond_1
     const-string v2, "NetUtils.canNetworking == false"
 
-    .line 8
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/g;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
@@ -164,7 +155,6 @@
     :goto_0
     if-eqz v2, :cond_4
 
-    .line 9
     invoke-static {v2}, Lcom/meitu/webview/utils/d;->u(Ljava/lang/String;)Z
 
     move-result v3
@@ -173,10 +163,8 @@
 
     const-string v3, "request data is valid"
 
-    .line 10
     invoke-static {v1, v3}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->f:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -191,12 +179,10 @@
 
     if-nez v1, :cond_3
 
-    .line 12
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->f:Ljava/lang/String;
 
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/d;->y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     :cond_3
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->J:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
@@ -206,12 +192,10 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 14
     iget-boolean v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->g:Z
 
     if-eqz v1, :cond_6
 
-    .line 15
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->J:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
     invoke-static {v1}, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;->L(Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;)V
@@ -221,10 +205,8 @@
     :cond_4
     const-string v2, "request data is not valid"
 
-    .line 16
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/g;->y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 17
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->J:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
     invoke-virtual {v1}, Lcom/meitu/webview/mtscript/i;->p()Ljava/lang/String;
@@ -239,28 +221,23 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 18
     iget-boolean v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->g:Z
 
     if-eqz v1, :cond_5
 
-    .line 19
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->J:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
     invoke-static {v1}, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;->L(Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;)V
 
-    .line 20
     :cond_5
     iget-boolean v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->p:Z
 
     if-eqz v1, :cond_6
 
-    .line 21
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$b;->J:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
     invoke-static {v1}, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;->M(Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;)V
 
-    .line 22
     :cond_6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

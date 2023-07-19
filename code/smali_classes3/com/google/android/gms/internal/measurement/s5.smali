@@ -47,7 +47,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/measurement/s5;
 
     const/4 v1, 0x0
@@ -56,7 +55,6 @@
 
     invoke-direct {v0, v2, v1}, Lcom/google/android/gms/internal/measurement/s5;-><init>([Ljava/lang/Object;I)V
 
-    .line 2
     sput-object v0, Lcom/google/android/gms/internal/measurement/s5;->d:Lcom/google/android/gms/internal/measurement/s5;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/l2;->K()V
@@ -73,7 +71,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, v0, v1}, Lcom/google/android/gms/internal/measurement/s5;-><init>([Ljava/lang/Object;I)V
 
     return-void
@@ -87,13 +84,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/l2;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/s5;->b:[Ljava/lang/Object;
 
-    .line 4
     iput p2, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
 
     return-void
@@ -104,14 +98,12 @@
 
     if-ltz p1, :cond_0
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
 
     if-ge p1, v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
 
@@ -127,7 +119,6 @@
 .method private final e(I)Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -167,7 +158,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/s5;->d:Lcom/google/android/gms/internal/measurement/s5;
 
     return-object v0
@@ -183,17 +173,14 @@
         }
     .end annotation
 
-    .line 8
     invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/l2;->b()V
 
     if-ltz p1, :cond_1
 
-    .line 9
     iget v0, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
 
     if-gt p1, v0, :cond_1
 
-    .line 10
     iget-object v1, p0, Lcom/google/android/gms/internal/measurement/s5;->b:[Ljava/lang/Object;
 
     array-length v2, v1
@@ -204,7 +191,6 @@
 
     sub-int/2addr v0, p1
 
-    .line 11
     invoke-static {v1, p1, v1, v2, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     goto :goto_0
@@ -212,20 +198,16 @@
     :cond_0
     mul-int/lit8 v0, v0, 0x3
 
-    .line 12
     div-int/lit8 v0, v0, 0x2
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 13
     new-array v0, v0, [Ljava/lang/Object;
 
     const/4 v2, 0x0
 
-    .line 14
     invoke-static {v1, v2, v0, v2, p1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 15
     iget-object v1, p0, Lcom/google/android/gms/internal/measurement/s5;->b:[Ljava/lang/Object;
 
     add-int/lit8 v2, p1, 0x1
@@ -236,23 +218,19 @@
 
     invoke-static {v1, p1, v0, v2, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 16
     iput-object v0, p0, Lcom/google/android/gms/internal/measurement/s5;->b:[Ljava/lang/Object;
 
-    .line 17
     :goto_0
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/s5;->b:[Ljava/lang/Object;
 
     aput-object p2, v0, p1
 
-    .line 18
     iget p1, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
 
     add-int/lit8 p1, p1, 0x1
 
     iput p1, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
 
-    .line 19
     iget p1, p0, Ljava/util/AbstractList;->modCount:I
 
     add-int/lit8 p1, p1, 0x1
@@ -261,7 +239,6 @@
 
     return-void
 
-    .line 20
     :cond_1
     new-instance p2, Ljava/lang/IndexOutOfBoundsException;
 
@@ -282,10 +259,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/l2;->b()V
 
-    .line 2
     iget v0, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
 
     iget-object v1, p0, Lcom/google/android/gms/internal/measurement/s5;->b:[Ljava/lang/Object;
@@ -298,20 +273,16 @@
 
     mul-int/lit8 v0, v0, 0x3
 
-    .line 3
     div-int/lit8 v0, v0, 0x2
 
     add-int/2addr v0, v3
 
-    .line 4
     invoke-static {v1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 5
     iput-object v0, p0, Lcom/google/android/gms/internal/measurement/s5;->b:[Ljava/lang/Object;
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/s5;->b:[Ljava/lang/Object;
 
@@ -323,7 +294,6 @@
 
     aput-object p1, v0, v1
 
-    .line 7
     iget p1, p0, Ljava/util/AbstractList;->modCount:I
 
     add-int/2addr p1, v3
@@ -336,19 +306,16 @@
 .method public final synthetic f(I)Lcom/google/android/gms/internal/measurement/d4;
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
 
     if-lt p1, v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/s5;->b:[Ljava/lang/Object;
 
     invoke-static {v0, p1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/measurement/s5;
 
     iget v1, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
@@ -357,7 +324,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -374,10 +340,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/s5;->c(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/s5;->b:[Ljava/lang/Object;
 
     aget-object p1, v0, p1
@@ -393,18 +357,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/l2;->b()V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/s5;->c(I)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/s5;->b:[Ljava/lang/Object;
 
     aget-object v1, v0, p1
 
-    .line 4
     iget v2, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
 
     add-int/lit8 v3, v2, -0x1
@@ -417,10 +377,8 @@
 
     add-int/lit8 v2, v2, -0x1
 
-    .line 5
     invoke-static {v0, v3, v0, p1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 6
     :cond_0
     iget p1, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
 
@@ -428,7 +386,6 @@
 
     iput p1, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
 
-    .line 7
     iget p1, p0, Ljava/util/AbstractList;->modCount:I
 
     add-int/lit8 p1, p1, 0x1
@@ -446,21 +403,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/l2;->b()V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/s5;->c(I)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/s5;->b:[Ljava/lang/Object;
 
     aget-object v1, v0, p1
 
-    .line 4
     aput-object p2, v0, p1
 
-    .line 5
     iget p1, p0, Ljava/util/AbstractList;->modCount:I
 
     add-int/lit8 p1, p1, 0x1
@@ -473,7 +425,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/measurement/s5;->c:I
 
     return v0

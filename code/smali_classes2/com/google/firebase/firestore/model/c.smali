@@ -19,7 +19,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/firestore/model/e;->a()Ljava/util/Comparator;
 
     move-result-object v0
@@ -36,7 +35,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/model/c;->a:Lcom/google/firebase/database/collection/d;
 
     return-object v0
@@ -72,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/model/c;->a:Lcom/google/firebase/database/collection/d;
 
     return-object v0
@@ -90,7 +86,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/model/c;->a:Lcom/google/firebase/database/collection/d;
 
     return-object v0

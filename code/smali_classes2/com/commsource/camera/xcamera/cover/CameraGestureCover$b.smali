@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -68,7 +66,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -81,7 +78,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/widget/ExposureSeekBar;->i()V
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/util/HashMap;
 
@@ -101,10 +97,8 @@
     :goto_0
     const-string v2, "is_success"
 
-    .line 4
     invoke-virtual {v1, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->G(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -132,7 +126,6 @@
     :cond_2
     const-string p1, "movie"
 
-    .line 6
     invoke-virtual {v1, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
@@ -140,7 +133,6 @@
     :cond_3
     const-string p1, "video"
 
-    .line 7
     invoke-virtual {v1, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
@@ -148,16 +140,13 @@
     :cond_4
     const-string p1, "shoot"
 
-    .line 8
     invoke-virtual {v1, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :goto_1
     const-string p1, "selfie_focus_clk"
 
-    .line 9
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

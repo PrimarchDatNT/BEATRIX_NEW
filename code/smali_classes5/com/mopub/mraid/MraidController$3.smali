@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mraid/MraidController;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mraid/MraidController$3;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

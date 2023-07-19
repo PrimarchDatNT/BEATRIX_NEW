@@ -26,7 +26,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/c;->a:[Ljava/lang/String;
@@ -47,7 +46,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lkshark/v;->a()Lkshark/HeapObject;
 
     move-result-object v0
@@ -56,7 +54,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lkshark/v;->a()Lkshark/HeapObject;
 
     move-result-object v0
@@ -71,7 +68,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -90,7 +86,6 @@
 
     check-cast v1, Lkshark/HeapObject$HeapClass;
 
-    .line 4
     iget-object v2, p0, Lkshark/c;->a:[Ljava/lang/String;
 
     invoke-virtual {v1}, Lkshark/HeapObject$HeapClass;->p()Ljava/lang/String;
@@ -103,7 +98,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-virtual {p1}, Lkshark/v;->e()Ljava/util/Set;
 
     move-result-object v2

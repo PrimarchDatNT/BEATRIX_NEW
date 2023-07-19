@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c$a;->a:Lcom/commsource/studio/i$c;
 
     invoke-virtual {v1}, Lcom/commsource/studio/i$c;->d()Ljava/util/LinkedList;

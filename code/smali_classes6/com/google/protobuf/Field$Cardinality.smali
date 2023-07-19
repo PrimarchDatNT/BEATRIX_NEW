@@ -66,7 +66,6 @@
 .method static constructor <clinit>()V
     .locals 12
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/Field$Cardinality;
 
     const-string v1, "CARDINALITY_UNKNOWN"
@@ -77,7 +76,6 @@
 
     sput-object v0, Lcom/google/protobuf/Field$Cardinality;->CARDINALITY_UNKNOWN:Lcom/google/protobuf/Field$Cardinality;
 
-    .line 2
     new-instance v1, Lcom/google/protobuf/Field$Cardinality;
 
     const-string v3, "CARDINALITY_OPTIONAL"
@@ -88,7 +86,6 @@
 
     sput-object v1, Lcom/google/protobuf/Field$Cardinality;->CARDINALITY_OPTIONAL:Lcom/google/protobuf/Field$Cardinality;
 
-    .line 3
     new-instance v3, Lcom/google/protobuf/Field$Cardinality;
 
     const-string v5, "CARDINALITY_REQUIRED"
@@ -99,7 +96,6 @@
 
     sput-object v3, Lcom/google/protobuf/Field$Cardinality;->CARDINALITY_REQUIRED:Lcom/google/protobuf/Field$Cardinality;
 
-    .line 4
     new-instance v5, Lcom/google/protobuf/Field$Cardinality;
 
     const-string v7, "CARDINALITY_REPEATED"
@@ -110,7 +106,6 @@
 
     sput-object v5, Lcom/google/protobuf/Field$Cardinality;->CARDINALITY_REPEATED:Lcom/google/protobuf/Field$Cardinality;
 
-    .line 5
     new-instance v7, Lcom/google/protobuf/Field$Cardinality;
 
     const-string v9, "UNRECOGNIZED"
@@ -137,10 +132,8 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lcom/google/protobuf/Field$Cardinality;->$VALUES:[Lcom/google/protobuf/Field$Cardinality;
 
-    .line 7
     new-instance v0, Lcom/google/protobuf/Field$Cardinality$a;
 
     invoke-direct {v0}, Lcom/google/protobuf/Field$Cardinality$a;-><init>()V
@@ -158,10 +151,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/protobuf/Field$Cardinality;->value:I
 
     return-void
@@ -188,25 +179,21 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/protobuf/Field$Cardinality;->CARDINALITY_REPEATED:Lcom/google/protobuf/Field$Cardinality;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/protobuf/Field$Cardinality;->CARDINALITY_REQUIRED:Lcom/google/protobuf/Field$Cardinality;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lcom/google/protobuf/Field$Cardinality;->CARDINALITY_OPTIONAL:Lcom/google/protobuf/Field$Cardinality;
 
     return-object p0
 
-    .line 4
     :cond_3
     sget-object p0, Lcom/google/protobuf/Field$Cardinality;->CARDINALITY_UNKNOWN:Lcom/google/protobuf/Field$Cardinality;
 
@@ -224,7 +211,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/Field$Cardinality;->internalValueMap:Lcom/google/protobuf/z0$d;
 
     return-object v0
@@ -235,7 +221,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/protobuf/Field$Cardinality;->forNumber(I)Lcom/google/protobuf/Field$Cardinality;
 
     move-result-object p0
@@ -246,7 +231,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/protobuf/Field$Cardinality;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/protobuf/Field$Cardinality;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -261,7 +245,6 @@
 .method public static values()[Lcom/google/protobuf/Field$Cardinality;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/Field$Cardinality;->$VALUES:[Lcom/google/protobuf/Field$Cardinality;
 
     invoke-virtual {v0}, [Lcom/google/protobuf/Field$Cardinality;->clone()Ljava/lang/Object;
@@ -278,7 +261,6 @@
 .method public final getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/Field$Cardinality;->value:I
 
     return v0

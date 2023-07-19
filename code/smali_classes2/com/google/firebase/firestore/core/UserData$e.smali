@@ -44,16 +44,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/core/UserData$e;->a:Lcom/google/firebase/firestore/model/value/j;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/core/UserData$e;->b:Lcom/google/firebase/firestore/model/n/c;
 
-    .line 4
     iput-object p3, p0, Lcom/google/firebase/firestore/core/UserData$e;->c:Ljava/util/List;
 
     return-void
@@ -72,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/UserData$e;->c:Ljava/util/List;
 
     return-object v0
@@ -92,12 +87,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v1, Lcom/google/firebase/firestore/model/n/j;
 
     iget-object v2, p0, Lcom/google/firebase/firestore/core/UserData$e;->a:Lcom/google/firebase/firestore/model/value/j;
@@ -108,7 +101,6 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     iget-object p2, p0, Lcom/google/firebase/firestore/core/UserData$e;->c:Ljava/util/List;
 
     invoke-interface {p2}, Ljava/util/List;->isEmpty()Z
@@ -117,7 +109,6 @@
 
     if-nez p2, :cond_0
 
-    .line 4
     new-instance p2, Lcom/google/firebase/firestore/model/n/n;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/core/UserData$e;->c:Ljava/util/List;

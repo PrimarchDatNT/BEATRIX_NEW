@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,10 +42,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/util/k;->e()V
 
-    .line 2
     sget-object v1, Lcom/commsource/beautyplus/util/k;->a:Ljava/lang/ref/SoftReference;
 
     if-eqz v1, :cond_1
@@ -87,10 +84,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/util/k;->e()V
 
-    .line 2
     sget-object v1, Lcom/commsource/beautyplus/util/k;->a:Ljava/lang/ref/SoftReference;
 
     if-eqz v1, :cond_1
@@ -137,10 +132,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/util/k;->e()V
 
-    .line 2
     sget-object v1, Lcom/commsource/beautyplus/util/k;->a:Ljava/lang/ref/SoftReference;
 
     if-eqz v1, :cond_1
@@ -151,7 +144,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     sget-object v1, Lcom/commsource/beautyplus/util/k;->a:Ljava/lang/ref/SoftReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/SoftReference;->get()Ljava/lang/Object;
@@ -181,7 +173,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -190,12 +181,10 @@
 
     const/4 v3, 0x1
 
-    .line 5
     invoke-virtual {v2, v3}, Lcom/commsource/beautyplus/util/bean/a;->e(I)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -220,7 +209,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -233,7 +221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -246,12 +233,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -261,7 +246,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -270,7 +254,6 @@
 
     if-nez v3, :cond_2
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v1
@@ -283,13 +266,11 @@
 
     const/4 v3, 0x0
 
-    .line 6
     :goto_0
     array-length v5, v1
 
     if-ge v3, v5, :cond_2
 
-    .line 7
     aget-object v5, v1, v3
 
     const-string v6, "_"
@@ -298,7 +279,6 @@
 
     move-result-object v5
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/beautyplus/util/bean/FireBaseABTestEnum;->getCode()I
 
     move-result v6
@@ -331,7 +311,6 @@
 
     if-ne v6, v5, :cond_1
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -341,11 +320,9 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-static {}, Lcom/commsource/beautyplus/util/k;->e()V
 
-    .line 11
     sget-object v1, Lcom/commsource/beautyplus/util/k;->a:Ljava/lang/ref/SoftReference;
 
     if-eqz v1, :cond_3
@@ -356,7 +333,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 12
     sget-object v1, Lcom/commsource/beautyplus/util/k;->a:Ljava/lang/ref/SoftReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/SoftReference;->get()Ljava/lang/Object;
@@ -377,7 +353,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/beautyplus/util/bean/FireBaseABTestEnum;->getGroupCode()I
 
     move-result p0
@@ -388,10 +363,8 @@
 
     if-ne p0, v3, :cond_3
 
-    .line 14
     invoke-virtual {v1, v4}, Lcom/commsource/beautyplus/util/bean/a;->e(I)V
 
-    .line 15
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p0
@@ -412,12 +385,10 @@
 
     invoke-static {p0, v1}, Lcom/commsource/advertisiting/d;->g0(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 17
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -431,7 +402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/util/k;->a:Ljava/lang/ref/SoftReference;
 
     if-eqz v1, :cond_0
@@ -442,13 +412,11 @@
 
     if-nez v1, :cond_3
 
-    .line 2
     :cond_0
     const-class v1, Lcom/commsource/beautyplus/util/k;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/beautyplus/util/k;->a:Ljava/lang/ref/SoftReference;
 
@@ -460,7 +428,6 @@
 
     if-nez v2, :cond_2
 
-    .line 4
     :cond_1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -470,44 +437,37 @@
 
     move-result-object v2
 
-    .line 5
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-nez v3, :cond_2
 
-    .line 6
     new-instance v3, Lcom/commsource/beautyplus/util/k$a;
 
     invoke-direct {v3}, Lcom/commsource/beautyplus/util/k$a;-><init>()V
 
-    .line 7
     invoke-virtual {v3}, Lcom/google/gson/reflect/TypeToken;->getType()Ljava/lang/reflect/Type;
 
     move-result-object v3
 
-    .line 8
     invoke-static {v2, v3}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/util/Map;
 
-    .line 9
     new-instance v3, Ljava/lang/ref/SoftReference;
 
     invoke-direct {v3, v2}, Ljava/lang/ref/SoftReference;-><init>(Ljava/lang/Object;)V
 
     sput-object v3, Lcom/commsource/beautyplus/util/k;->a:Ljava/lang/ref/SoftReference;
 
-    .line 10
     :cond_2
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -516,7 +476,6 @@
     :catchall_0
     move-exception v2
 
-    .line 12
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -543,14 +502,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/ref/SoftReference;
 
     invoke-direct {v1, p0}, Ljava/lang/ref/SoftReference;-><init>(Ljava/lang/Object;)V
 
     sput-object v1, Lcom/commsource/beautyplus/util/k;->a:Ljava/lang/ref/SoftReference;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

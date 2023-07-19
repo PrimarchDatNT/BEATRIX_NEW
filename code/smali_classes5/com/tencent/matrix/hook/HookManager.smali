@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/tencent/matrix/hook/HookManager;
 
     invoke-direct {v0}, Lcom/tencent/matrix/hook/HookManager;-><init>()V
@@ -55,32 +54,26 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/tencent/matrix/hook/HookManager;->a:Z
 
     new-array v1, v0, [B
 
-    .line 3
     iput-object v1, p0, Lcom/tencent/matrix/hook/HookManager;->b:[B
 
-    .line 4
     new-instance v1, Ljava/util/HashSet;
 
     invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
 
     iput-object v1, p0, Lcom/tencent/matrix/hook/HookManager;->c:Ljava/util/Set;
 
-    .line 5
     iput-boolean v0, p0, Lcom/tencent/matrix/hook/HookManager;->d:Z
 
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lcom/tencent/matrix/hook/HookManager;->e:Lcom/tencent/matrix/hook/HookManager$a;
 
     return-void
@@ -94,12 +87,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/hook/HookManager;->c:Ljava/util/Set;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/tencent/matrix/hook/HookManager;->c:Ljava/util/Set;
 
@@ -124,12 +115,10 @@
 
     check-cast v2, Lcom/tencent/matrix/hook/AbsHook;
 
-    .line 3
     invoke-virtual {v2}, Lcom/tencent/matrix/hook/AbsHook;->a()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 4
     invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v6
@@ -140,19 +129,16 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     :try_start_1
     iget-object v6, p0, Lcom/tencent/matrix/hook/HookManager;->e:Lcom/tencent/matrix/hook/HookManager$a;
 
     if-eqz v6, :cond_1
 
-    .line 6
     invoke-interface {v6, v5}, Lcom/tencent/matrix/hook/HookManager$a;->loadLibrary(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v5}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_1
@@ -170,7 +156,6 @@
 
     new-array v8, v4, [Ljava/lang/Object;
 
-    .line 8
     invoke-static {v6, v5, v7, v8}, Lcom/tencent/matrix/util/b;->e(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const-string v5, "Matrix.HookManager"
@@ -179,7 +164,6 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    .line 9
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v7
@@ -190,17 +174,14 @@
 
     aput-object v7, v3, v4
 
-    .line 10
     invoke-static {v5, v6, v3}, Lcom/tencent/matrix/util/b;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 11
     sget-object v3, Lcom/tencent/matrix/hook/AbsHook$Status;->COMMIT_FAIL_ON_LOAD_LIB:Lcom/tencent/matrix/hook/AbsHook$Status;
 
     invoke-virtual {v2, v3}, Lcom/tencent/matrix/hook/AbsHook;->e(Lcom/tencent/matrix/hook/AbsHook$Status;)V
 
     goto :goto_0
 
-    .line 12
     :cond_2
     iget-object v1, p0, Lcom/tencent/matrix/hook/HookManager;->c:Ljava/util/Set;
 
@@ -222,7 +203,6 @@
 
     check-cast v2, Lcom/tencent/matrix/hook/AbsHook;
 
-    .line 13
     invoke-virtual {v2}, Lcom/tencent/matrix/hook/AbsHook;->b()Lcom/tencent/matrix/hook/AbsHook$Status;
 
     move-result-object v5
@@ -237,7 +217,6 @@
 
     new-array v7, v3, [Ljava/lang/Object;
 
-    .line 14
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v2
@@ -248,12 +227,10 @@
 
     aput-object v2, v7, v4
 
-    .line 15
     invoke-static {v5, v6, v7}, Lcom/tencent/matrix/util/b;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 
-    .line 16
     :cond_4
     invoke-virtual {v2}, Lcom/tencent/matrix/hook/AbsHook;->c()Z
 
@@ -267,7 +244,6 @@
 
     new-array v7, v3, [Ljava/lang/Object;
 
-    .line 17
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v8
@@ -280,14 +256,12 @@
 
     invoke-static {v5, v6, v7}, Lcom/tencent/matrix/util/b;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 18
     sget-object v5, Lcom/tencent/matrix/hook/AbsHook$Status;->COMMIT_FAIL_ON_CONFIGURE:Lcom/tencent/matrix/hook/AbsHook$Status;
 
     invoke-virtual {v2, v5}, Lcom/tencent/matrix/hook/AbsHook;->e(Lcom/tencent/matrix/hook/AbsHook$Status;)V
 
     goto :goto_1
 
-    .line 19
     :cond_5
     iget-object v1, p0, Lcom/tencent/matrix/hook/HookManager;->c:Ljava/util/Set;
 
@@ -308,7 +282,6 @@
 
     check-cast v2, Lcom/tencent/matrix/hook/AbsHook;
 
-    .line 20
     invoke-virtual {v2}, Lcom/tencent/matrix/hook/AbsHook;->b()Lcom/tencent/matrix/hook/AbsHook$Status;
 
     move-result-object v5
@@ -323,7 +296,6 @@
 
     new-array v7, v3, [Ljava/lang/Object;
 
-    .line 21
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v2
@@ -334,12 +306,10 @@
 
     aput-object v2, v7, v4
 
-    .line 22
     invoke-static {v5, v6, v7}, Lcom/tencent/matrix/util/b;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_2
 
-    .line 23
     :cond_6
     iget-boolean v5, p0, Lcom/tencent/matrix/hook/HookManager;->d:Z
 
@@ -355,7 +325,6 @@
 
     new-array v7, v3, [Ljava/lang/Object;
 
-    .line 24
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v8
@@ -368,7 +337,6 @@
 
     invoke-static {v5, v6, v7}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 25
     sget-object v5, Lcom/tencent/matrix/hook/AbsHook$Status;->COMMIT_SUCCESS:Lcom/tencent/matrix/hook/AbsHook$Status;
 
     invoke-virtual {v2, v5}, Lcom/tencent/matrix/hook/AbsHook;->e(Lcom/tencent/matrix/hook/AbsHook$Status;)V
@@ -382,7 +350,6 @@
 
     new-array v7, v3, [Ljava/lang/Object;
 
-    .line 26
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v8
@@ -395,20 +362,17 @@
 
     invoke-static {v5, v6, v7}, Lcom/tencent/matrix/util/b;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 27
     sget-object v5, Lcom/tencent/matrix/hook/AbsHook$Status;->COMMIT_FAIL_ON_HOOK:Lcom/tencent/matrix/hook/AbsHook$Status;
 
     invoke-virtual {v2, v5}, Lcom/tencent/matrix/hook/AbsHook;->e(Lcom/tencent/matrix/hook/AbsHook$Status;)V
 
     goto :goto_2
 
-    .line 28
     :cond_8
     iget-object v1, p0, Lcom/tencent/matrix/hook/HookManager;->c:Ljava/util/Set;
 
     invoke-interface {v1}, Ljava/util/Set;->clear()V
 
-    .line 29
     monitor-exit v0
 
     return-void
@@ -438,13 +402,11 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -454,14 +416,12 @@
 
     aget-object v3, p0, v2
 
-    .line 3
     invoke-virtual {v3}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
 
     move-result-object v4
 
     const-string v5, "java.lang.Thread"
 
-    .line 4
     invoke-virtual {v4, v5}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -470,7 +430,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -483,7 +442,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -497,7 +455,6 @@
     .annotation build Landroidx/annotation/Keep;
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -524,7 +481,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/tencent/matrix/hook/AbsHook;->b()Lcom/tencent/matrix/hook/AbsHook$Status;
 
     move-result-object v0
@@ -533,18 +489,15 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/tencent/matrix/hook/HookManager;->c:Ljava/util/Set;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/tencent/matrix/hook/HookManager;->c:Ljava/util/Set;
 
     invoke-interface {v1, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 4
     monitor-exit v0
 
     goto :goto_0
@@ -566,18 +519,15 @@
 .method public b()Lcom/tencent/matrix/hook/HookManager;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/hook/HookManager;->c:Ljava/util/Set;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/tencent/matrix/hook/HookManager;->c:Ljava/util/Set;
 
     invoke-interface {v1}, Ljava/util/Set;->clear()V
 
-    .line 3
     monitor-exit v0
 
     return-object p0
@@ -585,7 +535,6 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -601,12 +550,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/hook/HookManager;->b:[B
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/tencent/matrix/hook/HookManager;->c:Ljava/util/Set;
 
@@ -614,7 +561,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 3
     :try_start_1
     iget-object v2, p0, Lcom/tencent/matrix/hook/HookManager;->c:Ljava/util/Set;
 
@@ -624,7 +570,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -636,14 +581,12 @@
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_3
     monitor-exit v1
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 6
     :try_start_4
     iget-boolean v1, p0, Lcom/tencent/matrix/hook/HookManager;->a:Z
     :try_end_4
@@ -651,7 +594,6 @@
 
     if-nez v1, :cond_3
 
-    .line 7
     :try_start_5
     iget-object v1, p0, Lcom/tencent/matrix/hook/HookManager;->e:Lcom/tencent/matrix/hook/HookManager$a;
 
@@ -659,7 +601,6 @@
 
     const-string v2, "matrix-hookcommon"
 
-    .line 8
     invoke-interface {v1, v2}, Lcom/tencent/matrix/hook/HookManager$a;->loadLibrary(Ljava/lang/String;)V
 
     goto :goto_0
@@ -667,12 +608,10 @@
     :cond_1
     const-string v1, "matrix-hookcommon"
 
-    .line 9
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
-    .line 10
     :goto_0
     :try_start_6
     iget-boolean v1, p0, Lcom/tencent/matrix/hook/HookManager;->d:Z
@@ -683,22 +622,18 @@
 
     if-eqz v1, :cond_2
 
-    .line 11
     invoke-direct {p0}, Lcom/tencent/matrix/hook/HookManager;->d()V
 
-    .line 12
     iget-boolean v1, p0, Lcom/tencent/matrix/hook/HookManager;->d:Z
 
     invoke-direct {p0, v1}, Lcom/tencent/matrix/hook/HookManager;->doFinalInitializeNative(Z)V
 
     const/4 v1, 0x1
 
-    .line 13
     iput-boolean v1, p0, Lcom/tencent/matrix/hook/HookManager;->a:Z
 
     goto :goto_1
 
-    .line 14
     :cond_2
     new-instance v1, Lcom/tencent/matrix/hook/HookManager$HookFailedException;
 
@@ -719,19 +654,15 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    .line 15
     invoke-static {v2, v1, v3, v4}, Lcom/tencent/matrix/util/b;->e(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 16
     monitor-exit v0
 
     return-void
 
-    .line 17
     :cond_3
     invoke-direct {p0}, Lcom/tencent/matrix/hook/HookManager;->d()V
 
-    .line 18
     :goto_1
     monitor-exit v0
     :try_end_6
@@ -742,7 +673,6 @@
     :catchall_1
     move-exception v2
 
-    .line 19
     :try_start_7
     monitor-exit v1
     :try_end_7
@@ -754,7 +684,6 @@
     :catchall_2
     move-exception v1
 
-    .line 20
     monitor-exit v0
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_2
@@ -765,7 +694,6 @@
 .method public e(Z)Lcom/tencent/matrix/hook/HookManager;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/tencent/matrix/hook/HookManager;->d:Z
 
     return-object p0
@@ -778,7 +706,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/hook/HookManager;->e:Lcom/tencent/matrix/hook/HookManager$a;
 
     return-object p0

@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/w0;Lcom/google/android/gms/common/api/internal/v;ZLcom/google/android/gms/common/api/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/b1;->d:Lcom/google/android/gms/common/api/internal/w0;
 
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/b1;->a:Lcom/google/android/gms/common/api/internal/v;
@@ -53,10 +52,8 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/b1;->d:Lcom/google/android/gms/common/api/internal/w0;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/w0;->V(Lcom/google/android/gms/common/api/internal/w0;)Landroid/content/Context;
@@ -69,7 +66,6 @@
 
     invoke-virtual {v0}, Lcom/google/android/gms/auth/api/signin/internal/b;->l()V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->V()Z
 
     move-result v0
@@ -84,23 +80,19 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/b1;->d:Lcom/google/android/gms/common/api/internal/w0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/i;->A()V
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/b1;->a:Lcom/google/android/gms/common/api/internal/v;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->p(Lcom/google/android/gms/common/api/p;)V
 
-    .line 6
     iget-boolean p1, p0, Lcom/google/android/gms/common/api/internal/b1;->b:Z
 
     if-eqz p1, :cond_1
 
-    .line 7
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/b1;->c:Lcom/google/android/gms/common/api/i;
 
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/i;->i()V

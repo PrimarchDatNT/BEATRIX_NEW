@@ -52,7 +52,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -67,7 +66,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/util/p0$c;->a:Lcom/commsource/util/p0;
 
     invoke-virtual {v1}, Lcom/commsource/util/p0;->g()Lcotlin/jvm/u/l;
@@ -94,13 +92,11 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 

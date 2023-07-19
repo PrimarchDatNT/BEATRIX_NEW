@@ -63,7 +63,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->longValue()J
@@ -86,7 +85,6 @@
 .method public final invoke(JJ)V
     .locals 3
 
-    .line 2
     iget-object v0, p0, Lkshark/HeapAnalyzer$computeRetainedSizes$5;->$leakingInstanceIds:Ljava/util/Set;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -99,7 +97,6 @@
 
     if-nez v0, :cond_4
 
-    .line 3
     iget-object v0, p0, Lkshark/HeapAnalyzer$computeRetainedSizes$5;->$sizeByDominator:Ljava/util/Map;
 
     invoke-static {p3, p4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -116,7 +113,6 @@
 
     move-result v0
 
-    .line 4
     iget-object v1, p0, Lkshark/HeapAnalyzer$computeRetainedSizes$5;->$nativeSizes:Ljava/util/Map;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -133,7 +129,6 @@
 
     move-result v1
 
-    .line 5
     iget-object v2, p0, Lkshark/HeapAnalyzer$computeRetainedSizes$5;->$this_computeRetainedSizes:Lkshark/HeapAnalyzer$a;
 
     invoke-virtual {v2}, Lkshark/HeapAnalyzer$a;->b()Lkshark/i;
@@ -144,7 +139,6 @@
 
     move-result-object p1
 
-    .line 6
     instance-of p2, p1, Lkshark/HeapObject$HeapInstance;
 
     if-eqz p2, :cond_0
@@ -157,7 +151,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     instance-of p2, p1, Lkshark/HeapObject$HeapObjectArray;
 
@@ -171,7 +164,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     instance-of p2, p1, Lkshark/HeapObject$b;
 
@@ -183,7 +175,6 @@
 
     move-result p1
 
-    .line 9
     :goto_0
     iget-object p2, p0, Lkshark/HeapAnalyzer$computeRetainedSizes$5;->$sizeByDominator:Ljava/util/Map;
 
@@ -203,7 +194,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_2
     instance-of p2, p1, Lkshark/HeapObject$HeapClass;
 
@@ -211,7 +201,6 @@
 
     new-instance p2, Ljava/lang/IllegalStateException;
 
-    .line 11
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
@@ -226,7 +215,6 @@
 
     move-result-object p1
 
-    .line 12
     invoke-direct {p2, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     throw p2

@@ -26,7 +26,6 @@
 .method varargs constructor <init>(Lcom/squareup/okhttp/internal/framed/FramedConnection;Ljava/lang/String;[Ljava/lang/Object;ILcom/squareup/okhttp/internal/framed/ErrorCode;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection$1;->this$0:Lcom/squareup/okhttp/internal/framed/FramedConnection;
 
     iput p4, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection$1;->val$streamId:I
@@ -43,7 +42,6 @@
 .method public execute()V
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection$1;->this$0:Lcom/squareup/okhttp/internal/framed/FramedConnection;
 

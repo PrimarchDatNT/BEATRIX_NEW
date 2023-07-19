@@ -11,7 +11,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/NullPointerException;
 

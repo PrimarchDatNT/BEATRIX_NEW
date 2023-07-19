@@ -34,7 +34,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/util/Collections;->fill(Ljava/util/List;Ljava/lang/Object;)V
 
     return-void
@@ -59,7 +58,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Collections;->shuffle(Ljava/util/List;)V
 
     return-void
@@ -86,7 +84,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/util/Collections;->shuffle(Ljava/util/List;Ljava/util/Random;)V
 
     return-void
@@ -112,7 +109,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -153,7 +149,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance p0, Lcotlin/NotImplementedError;
 
     const/4 p1, 0x0
@@ -193,7 +188,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance p0, Lcotlin/NotImplementedError;
 
     const/4 p1, 0x0
@@ -235,7 +229,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0

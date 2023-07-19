@@ -15,13 +15,10 @@
 .method constructor <init>(Landroid/content/Context;Lcom/google/ar/core/g0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/ar/core/h;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/google/ar/core/h;->b:Lcom/google/ar/core/g0;
 
     return-void
@@ -34,7 +31,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/ar/core/h;->c:Z
 
     return-void
@@ -43,13 +39,11 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     :goto_0
     iget-boolean v0, p0, Lcom/google/ar/core/h;->c:Z
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/google/ar/core/z;->c()Lcom/google/ar/core/z;
 
     move-result-object v0
@@ -62,7 +56,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/ar/core/h;->b:Lcom/google/ar/core/g0;
 
     sget-object v1, Lcom/google/ar/core/q;->c:Lcom/google/ar/core/q;
@@ -74,7 +67,6 @@
     :cond_0
     const-wide/16 v0, 0xc8
 
-    .line 4
     :try_start_0
     invoke-static {v0, v1}, Ljava/lang/Thread;->sleep(J)V
     :try_end_0

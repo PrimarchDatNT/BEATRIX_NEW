@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1$a;->a:Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/MaskFragment;
@@ -57,14 +56,12 @@
 
     invoke-static {v1, v2, v3, v2}, Lcom/commsource/studio/ImageStudioViewModel;->D1(Lcom/commsource/studio/ImageStudioViewModel;Ljava/util/Map;ILjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1$a;->a:Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/MaskFragment;->z1(Lcom/commsource/studio/function/MaskFragment;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

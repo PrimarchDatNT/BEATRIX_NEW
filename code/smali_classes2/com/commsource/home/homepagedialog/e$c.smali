@@ -50,7 +50,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/homepagedialog/e$c;->a:Lcom/commsource/home/homepagedialog/e;
 
     invoke-virtual {v0}, Lcom/commsource/home/homepagedialog/e;->k()Lcom/commsource/beautyplus/BaseActivity;

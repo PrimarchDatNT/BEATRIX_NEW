@@ -15,10 +15,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/p4;->a:Ljava/lang/String;
 
     return-void
@@ -27,7 +25,6 @@
 .method static synthetic a(Lcom/google/android/gms/measurement/internal/p4;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/measurement/internal/p4;->a:Ljava/lang/String;
 
     return-object p0

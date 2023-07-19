@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/cache/CacheLoader;Ljava/util/concurrent/Executor;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/cache/CacheLoader$a;->a:Lcom/google/common/cache/CacheLoader;
 
     iput-object p2, p0, Lcom/google/common/cache/CacheLoader$a;->b:Ljava/util/concurrent/Executor;
@@ -57,7 +56,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/CacheLoader$a;->a:Lcom/google/common/cache/CacheLoader;
 
     invoke-virtual {v0, p1}, Lcom/google/common/cache/CacheLoader;->load(Ljava/lang/Object;)Ljava/lang/Object;
@@ -85,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/CacheLoader$a;->a:Lcom/google/common/cache/CacheLoader;
 
     invoke-virtual {v0, p1}, Lcom/google/common/cache/CacheLoader;->loadAll(Ljava/lang/Iterable;)Ljava/util/Map;
@@ -111,17 +108,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/cache/CacheLoader$a$a;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/google/common/cache/CacheLoader$a$a;-><init>(Lcom/google/common/cache/CacheLoader$a;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/google/common/util/concurrent/h0;->b(Ljava/util/concurrent/Callable;)Lcom/google/common/util/concurrent/h0;
 
     move-result-object p1
 
-    .line 3
     iget-object p2, p0, Lcom/google/common/cache/CacheLoader$a;->b:Ljava/util/concurrent/Executor;
 
     invoke-interface {p2, p1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V

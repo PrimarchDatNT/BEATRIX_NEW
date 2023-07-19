@@ -34,14 +34,12 @@
 .method public final a()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/n9;->a:Lcom/google/android/gms/internal/ads/j9;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/n9;->b:Lcom/google/android/gms/internal/ads/aa;
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/n9;->c:Lcom/google/android/gms/internal/ads/v8;
 
-    .line 2
     sget-object v3, Lcom/google/android/gms/internal/ads/cn;->h:Lcom/google/android/gms/internal/ads/vn1;
 
     new-instance v4, Lcom/google/android/gms/internal/ads/m9;

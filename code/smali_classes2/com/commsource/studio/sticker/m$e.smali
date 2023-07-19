@@ -42,14 +42,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/sticker/m$e;->a:Lcom/commsource/studio/sticker/m;
 
     const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lcom/commsource/studio/sticker/m;->c(Lcom/commsource/studio/sticker/m;Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/sticker/m$e;->a:Lcom/commsource/studio/sticker/m;
 
     invoke-static {v0}, Lcom/commsource/studio/sticker/m;->a(Lcom/commsource/studio/sticker/m;)Landroidx/databinding/ViewStubProxy;
@@ -58,7 +56,6 @@
 
     invoke-static {v0}, Lcom/commsource/camera/mvp/helper/e;->a(Landroidx/databinding/ViewStubProxy;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/sticker/m$e;->a:Lcom/commsource/studio/sticker/m;
 
     invoke-virtual {v0}, Lcom/commsource/studio/sticker/m;->g()Lcotlin/jvm/u/a;
@@ -73,7 +70,6 @@
 
     check-cast v0, Lcotlin/t1;
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

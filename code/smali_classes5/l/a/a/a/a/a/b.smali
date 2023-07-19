@@ -17,7 +17,6 @@
 .method public constructor <init>(Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-boolean p1, p0, Ll/a/a/a/a/a/b;->a:Z
@@ -46,7 +45,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v0, p0, Ll/a/a/a/a/a/b;->a:Z
 
     const/4 v1, 0x2
@@ -57,7 +55,6 @@
 
     int-to-float v0, v2
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Rect;->exactCenterY()F
 
     move-result p1
@@ -92,7 +89,6 @@
     :cond_0
     int-to-float v0, v2
 
-    .line 3
     invoke-virtual {p1}, Landroid/graphics/Rect;->exactCenterX()F
 
     move-result p1
@@ -117,7 +113,6 @@
 .method public final b()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Ll/a/a/a/a/a/b;->a:Z
 
     return v0

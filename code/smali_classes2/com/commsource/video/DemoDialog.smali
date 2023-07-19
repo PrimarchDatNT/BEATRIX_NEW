@@ -46,15 +46,12 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lf/d/a;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/video/DemoDialog;->X:Z
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     const/high16 v1, 0x43480000    # 200.0f
@@ -67,7 +64,6 @@
 
     iput-object v0, p0, Lcom/commsource/video/DemoDialog;->Y:Lcom/commsource/camera/f1/n;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     invoke-static {v1}, Lcom/commsource/util/l0;->o(F)F
@@ -78,7 +74,6 @@
 
     iput-object v0, p0, Lcom/commsource/video/DemoDialog;->Z:Lcom/commsource/camera/f1/n;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     const/4 v1, 0x0
@@ -97,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast p0, Lcom/commsource/beautyplus/f0/yl;
@@ -114,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/yl;
@@ -154,7 +146,6 @@
 
     invoke-static {v1, v2, v3, v4, v5}, Lcom/commsource/video/view/XVideoContainer;->d(Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/c;ZILjava/lang/Object;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/video/view/XVideoContainer;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -172,7 +163,6 @@
 
     invoke-direct {v1, v2, v5}, Lcom/commsource/video/view/XVideoContainer;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 3
     iget-object v2, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v2, Lcom/commsource/beautyplus/f0/yl;
@@ -195,7 +185,6 @@
 
     invoke-virtual {v2, v1, v3, v4}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
 
-    .line 4
     iget-object v2, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v2, Lcom/commsource/beautyplus/f0/yl;
@@ -208,7 +197,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     iget-object v2, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v2, Lcom/commsource/beautyplus/f0/yl;
@@ -221,7 +209,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -234,7 +221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->layout_video:I
@@ -333,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/DemoDialog;->b0:Lcom/commsource/camera/f1/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -350,7 +335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/DemoDialog;->Z:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -367,7 +351,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/DemoDialog;->a0:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -384,7 +367,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/DemoDialog;->Y:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -399,7 +381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/video/DemoDialog;->c0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -414,7 +395,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/video/DemoDialog;->X:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -433,7 +413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/DemoDialog;->b0:Lcom/commsource/camera/f1/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -448,7 +427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/video/DemoDialog;->c0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -463,7 +441,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/video/DemoDialog;->X:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

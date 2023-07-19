@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/iab/omid/library/mopub/adsession/media/a;->g(Lcom/iab/omid/library/mopub/adsession/b;)Lcom/iab/omid/library/mopub/adsession/media/a;
 
     move-result-object v0
@@ -70,13 +69,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lcom/mopub/common/ViewabilityTracker;-><init>(Lcom/iab/omid/library/mopub/adsession/b;Lcom/iab/omid/library/mopub/adsession/a;Landroid/view/View;)V
 
-    .line 3
     iput-object p4, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
-    .line 4
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -128,7 +124,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/iab/omid/library/mopub/adsession/CreativeType;->VIDEO:Lcom/iab/omid/library/mopub/adsession/CreativeType;
 
     sget-object v1, Lcom/iab/omid/library/mopub/adsession/Owner;->NATIVE:Lcom/iab/omid/library/mopub/adsession/Owner;
@@ -137,12 +132,10 @@
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1}, Lcom/iab/omid/library/mopub/adsession/a;->a(Lcom/iab/omid/library/mopub/adsession/b;)Lcom/iab/omid/library/mopub/adsession/a;
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Lcom/mopub/common/ViewabilityTrackerVideo;
 
     invoke-direct {v1, p1, v0, p0}, Lcom/mopub/common/ViewabilityTrackerVideo;-><init>(Lcom/iab/omid/library/mopub/adsession/b;Lcom/iab/omid/library/mopub/adsession/a;Landroid/view/View;)V
@@ -155,7 +148,6 @@
 .method public startTracking()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -174,7 +166,6 @@
 
     invoke-virtual {p0, v0}, Lcom/mopub/common/ViewabilityTracker;->log(Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/ViewabilityTracker$STATE;->STARTED_VIDEO:Lcom/mopub/common/ViewabilityTracker$STATE;
 
     invoke-virtual {p0, v0}, Lcom/mopub/common/ViewabilityTracker;->changeState(Lcom/mopub/common/ViewabilityTracker$STATE;)V
@@ -189,14 +180,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/common/ViewabilityTracker;->isTracking()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -219,7 +208,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -249,7 +237,6 @@
 
     invoke-virtual {p0, v0}, Lcom/mopub/common/ViewabilityTracker;->log(Ljava/lang/String;)V
 
-    .line 4
     sget-object v0, Lcom/mopub/common/ViewabilityTrackerVideo$1;->$SwitchMap$com$mopub$common$VideoEvent:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -262,7 +249,6 @@
 
     goto :goto_0
 
-    .line 5
     :pswitch_0
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -272,7 +258,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_1
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -282,7 +267,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_2
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -292,7 +276,6 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_3
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -300,7 +283,6 @@
 
     goto :goto_0
 
-    .line 9
     :pswitch_4
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -308,7 +290,6 @@
 
     goto :goto_0
 
-    .line 10
     :pswitch_5
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -316,7 +297,6 @@
 
     goto :goto_0
 
-    .line 11
     :pswitch_6
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -324,7 +304,6 @@
 
     goto :goto_0
 
-    .line 12
     :pswitch_7
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -332,7 +311,6 @@
 
     goto :goto_0
 
-    .line 13
     :pswitch_8
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -340,7 +318,6 @@
 
     goto :goto_0
 
-    .line 14
     :pswitch_9
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -348,7 +325,6 @@
 
     goto :goto_0
 
-    .line 15
     :pswitch_a
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -358,7 +334,6 @@
 
     goto :goto_0
 
-    .line 16
     :pswitch_b
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -366,7 +341,6 @@
 
     goto :goto_0
 
-    .line 17
     :pswitch_c
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -374,7 +348,6 @@
 
     goto :goto_0
 
-    .line 18
     :pswitch_d
     iget-object p1, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 
@@ -382,7 +355,6 @@
 
     goto :goto_0
 
-    .line 19
     :pswitch_e
     invoke-virtual {p0}, Lcom/mopub/common/ViewabilityTracker;->trackImpression()V
 
@@ -414,7 +386,6 @@
 .method public videoPrepared(F)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -431,14 +402,12 @@
 
     invoke-virtual {p0, v0}, Lcom/mopub/common/ViewabilityTracker;->log(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/common/ViewabilityTracker;->isTracking()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -459,7 +428,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTrackerVideo;->mediaEvents:Lcom/iab/omid/library/mopub/adsession/media/a;
 

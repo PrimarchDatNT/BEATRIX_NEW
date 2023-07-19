@@ -35,7 +35,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -69,7 +68,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcotlin/f2/b;->a:Ljava/lang/Object;
 
     if-eqz p1, :cond_0
@@ -137,7 +135,6 @@
 
     invoke-static {p3, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p3, p0, Lcotlin/f2/b;->a:Ljava/lang/Object;
 
     return-void

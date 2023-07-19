@@ -18,10 +18,8 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/k0;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/signin/internal/c;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -38,7 +36,6 @@
     .annotation build Landroidx/annotation/BinderThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/r0;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -51,7 +48,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/k0;->u(Lcom/google/android/gms/common/api/internal/k0;)Lcom/google/android/gms/common/api/internal/f1;
 

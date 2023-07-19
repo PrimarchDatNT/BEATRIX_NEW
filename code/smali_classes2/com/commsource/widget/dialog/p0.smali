@@ -68,12 +68,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/dialog/i0;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/widget/dialog/p0;->h0:Z
 
     return-void
@@ -86,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/dialog/p0;->Z:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/dialog/p0;->W:Lcom/commsource/widget/dialog/p0$e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0;->Y:Lcom/commsource/widget/s0;
 
     if-eqz v1, :cond_0
@@ -127,17 +122,14 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0;->Y:Lcom/commsource/widget/s0;
 
     invoke-virtual {v1}, Landroid/app/Dialog;->dismiss()V
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/widget/dialog/p0;->Y:Lcom/commsource/widget/s0;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -151,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0;->Z:Landroid/widget/ImageView;
 
     const/16 v2, 0x8
@@ -170,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0;->Z:Landroid/widget/ImageView;
 
     const/16 v2, 0x8
@@ -189,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0;->Z:Landroid/widget/ImageView;
 
     const/4 v2, 0x0
@@ -210,23 +199,19 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/dialog/p0;->f0()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/widget/dialog/p0;->C()V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -241,7 +226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/dialog/p;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/dialog/p;-><init>(Lcom/commsource/widget/dialog/p0;)V
@@ -262,7 +246,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
     move-result-object v1
@@ -273,7 +256,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -286,7 +268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/os/Handler;
 
     invoke-direct {v1}, Landroid/os/Handler;-><init>()V
@@ -313,12 +294,10 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
@@ -328,15 +307,12 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/p0;->dismiss()V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/widget/dialog/p0;->W:Lcom/commsource/widget/dialog/p0$e;
 
     if-eqz p2, :cond_7
 
-    .line 5
     invoke-static {p1}, Lf/d/i/n;->e0(Ljava/lang/String;)Z
 
     move-result p1
@@ -345,7 +321,6 @@
 
     goto/16 :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
@@ -357,7 +332,6 @@
 
     if-ne p1, v1, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
@@ -366,7 +340,6 @@
 
     goto/16 :goto_0
 
-    .line 8
     :cond_2
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
@@ -378,29 +351,24 @@
 
     if-ne p1, v4, :cond_3
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->c0:Lcom/commsource/widget/LoadingView;
 
     invoke-virtual {p1, v3}, Lcom/commsource/widget/LoadingView;->setVisibility(I)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->a0:Landroid/widget/FrameLayout;
 
     invoke-virtual {p1, v4}, Landroid/widget/FrameLayout;->setClickable(Z)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->b0:Landroid/widget/TextView;
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->a0:Landroid/widget/FrameLayout;
 
     invoke-virtual {p1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
     goto/16 :goto_0
 
-    .line 13
     :cond_3
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
@@ -410,24 +378,20 @@
 
     if-ne p1, v5, :cond_4
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->c0:Lcom/commsource/widget/LoadingView;
 
     invoke-virtual {p1, v3}, Lcom/commsource/widget/LoadingView;->setVisibility(I)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->a0:Landroid/widget/FrameLayout;
 
     invoke-virtual {p1, v2}, Landroid/widget/FrameLayout;->setClickable(Z)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->a0:Landroid/widget/FrameLayout;
 
     invoke-virtual {p1, v3}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
     goto :goto_0
 
-    .line 17
     :cond_4
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
@@ -437,27 +401,22 @@
 
     if-ne p1, v5, :cond_5
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->c0:Lcom/commsource/widget/LoadingView;
 
     invoke-virtual {p1, v3}, Lcom/commsource/widget/LoadingView;->setVisibility(I)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->a0:Landroid/widget/FrameLayout;
 
     invoke-virtual {p1, v4}, Landroid/widget/FrameLayout;->setClickable(Z)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->b0:Landroid/widget/TextView;
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->a0:Landroid/widget/FrameLayout;
 
     invoke-virtual {p1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->i0:Landroid/app/Activity;
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->L(Landroid/content/Context;)Z
@@ -466,7 +425,6 @@
 
     if-nez p1, :cond_7
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->i0:Landroid/app/Activity;
 
     sget p2, Lcom/res/provider/ResSTRING;->failed_to_load:I
@@ -479,19 +437,16 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->ok:I
 
-    .line 24
     invoke-virtual {p2, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p2
 
     const/4 v1, 0x0
 
-    .line 25
     invoke-static {p1, p2, v1, v4}, Lcom/commsource/widget/dialog/s0/t;->p0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Z)V
 
     goto :goto_0
 
-    .line 26
     :cond_5
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
@@ -499,29 +454,24 @@
 
     if-nez p1, :cond_6
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->c0:Lcom/commsource/widget/LoadingView;
 
     invoke-virtual {p1, v3}, Lcom/commsource/widget/LoadingView;->setVisibility(I)V
 
-    .line 28
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->a0:Landroid/widget/FrameLayout;
 
     invoke-virtual {p1, v4}, Landroid/widget/FrameLayout;->setClickable(Z)V
 
-    .line 29
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->a0:Landroid/widget/FrameLayout;
 
     invoke-virtual {p1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 30
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->b0:Landroid/widget/TextView;
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
     goto :goto_0
 
-    .line 31
     :cond_6
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
@@ -531,27 +481,22 @@
 
     if-ne p1, p2, :cond_7
 
-    .line 32
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->c0:Lcom/commsource/widget/LoadingView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/LoadingView;->setVisibility(I)V
 
-    .line 33
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->a0:Landroid/widget/FrameLayout;
 
     invoke-virtual {p1, v2}, Landroid/widget/FrameLayout;->setClickable(Z)V
 
-    .line 34
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->a0:Landroid/widget/FrameLayout;
 
     invoke-virtual {p1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 35
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->b0:Landroid/widget/TextView;
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 36
     :cond_7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -574,12 +519,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->e0:Landroid/widget/TextView;
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->e0:Landroid/widget/TextView;
 
     sget v3, Lcom/res/provider/ResSTRING;->filter_iap_purchase:I
@@ -590,12 +533,10 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->f0:Landroid/widget/ProgressBar;
 
     invoke-virtual {p1, v1}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->d0:Landroid/widget/RelativeLayout;
 
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->setClickable(Z)V
@@ -605,39 +546,33 @@
     :cond_0
     const-string v4, "QUERYING"
 
-    .line 5
     invoke-virtual {p1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->e0:Landroid/widget/TextView;
 
     const/4 v1, 0x4
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->f0:Landroid/widget/ProgressBar;
 
     invoke-virtual {p1, v3}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->d0:Landroid/widget/RelativeLayout;
 
     invoke-virtual {p1, v3}, Landroid/widget/RelativeLayout;->setClickable(Z)V
 
     goto :goto_0
 
-    .line 9
     :cond_1
     iget-object v4, p0, Lcom/commsource/widget/dialog/p0;->e0:Landroid/widget/TextView;
 
     invoke-virtual {v4, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 10
     iget-object v4, p0, Lcom/commsource/widget/dialog/p0;->e0:Landroid/widget/TextView;
 
     sget v5, Lcom/res/provider/ResSTRING;->filter_iap_purchase_for:I
@@ -656,17 +591,14 @@
 
     invoke-virtual {v4, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->f0:Landroid/widget/ProgressBar;
 
     invoke-virtual {p1, v1}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->d0:Landroid/widget/RelativeLayout;
 
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->setClickable(Z)V
 
-    .line 13
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -682,29 +614,24 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->W:Lcom/commsource/widget/dialog/p0$e;
 
     if-eqz p1, :cond_1
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-interface {p1, v1}, Lcom/commsource/widget/dialog/p0$e;->a(Z)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->i0:Landroid/app/Activity;
 
@@ -716,7 +643,6 @@
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/dialog/i0;->x(Landroid/app/Activity;Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -731,7 +657,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p1, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v1, Ljava/lang/Boolean;
@@ -742,7 +667,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->i0:Landroid/app/Activity;
 
     sget v1, Lcom/res/provider/ResSTRING;->restored:I
@@ -759,7 +683,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p1, Landroid/util/Pair;->second:Ljava/lang/Object;
 
@@ -792,7 +715,6 @@
     :cond_1
     sget p1, Lcom/res/provider/ResSTRING;->web_net_error:I
 
-    .line 4
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
     goto :goto_0
@@ -800,12 +722,10 @@
     :cond_2
     sget p1, Lcom/res/provider/ResSTRING;->wait:I
 
-    .line 5
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
     goto :goto_0
 
-    .line 6
     :cond_3
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->i0:Landroid/app/Activity;
 
@@ -821,7 +741,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_4
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->i0:Landroid/app/Activity;
 
@@ -833,7 +752,6 @@
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/dialog/i0;->x(Landroid/app/Activity;Ljava/lang/String;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -847,12 +765,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0;->Y:Lcom/commsource/widget/s0;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/s0$a;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -861,20 +777,17 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/widget/s0$a;-><init>(Landroid/content/Context;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/widget/s0$a;->a()Lcom/commsource/widget/s0;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/p0;->Y:Lcom/commsource/widget/s0;
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0;->Y:Lcom/commsource/widget/s0;
 
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -889,12 +802,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     invoke-virtual {v1, p1, p2, p3}, Lcom/commsource/widget/dialog/r0;->Z(IILandroid/content/Intent;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -995,15 +906,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/r0;->I()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1016,10 +924,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/p0;->W:Lcom/commsource/widget/dialog/p0$e;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -1032,13 +938,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onAttach(Landroid/app/Activity;)V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/widget/dialog/p0;->i0:Landroid/app/Activity;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1051,19 +954,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/common/k;->a()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -1073,13 +973,11 @@
 
     goto :goto_0
 
-    .line 4
     :sswitch_0
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/r0;->V()V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0;->i0:Landroid/app/Activity;
@@ -1088,13 +986,11 @@
 
     goto :goto_0
 
-    .line 6
     :sswitch_1
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/r0;->U()V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -1105,7 +1001,6 @@
 
     goto :goto_0
 
-    .line 8
     :sswitch_2
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
@@ -1113,21 +1008,17 @@
 
     goto :goto_0
 
-    .line 9
     :sswitch_3
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/p0;->dismiss()V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->W:Lcom/commsource/widget/dialog/p0$e;
 
     if-eqz p1, :cond_1
 
     const/4 v1, 0x0
 
-    .line 11
     invoke-interface {p1, v1}, Lcom/commsource/widget/dialog/p0$e;->a(Z)V
 
-    .line 12
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1150,17 +1041,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/widget/dialog/i0;->onCreate(Landroid/os/Bundle;)V
 
     const/4 p1, 0x1
 
     sget v1, Lcom/res/provider/ResSTYLE;->fullScreenDialog:I
 
-    .line 2
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/dialog/i0;->setStyle(II)V
 
-    .line 3
     invoke-static {p0}, Landroidx/lifecycle/ViewModelProviders;->of(Landroidx/fragment/app/Fragment;)Landroidx/lifecycle/ViewModelProvider;
 
     move-result-object p1
@@ -1175,7 +1063,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1202,7 +1089,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1, v0, p2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p1
@@ -1225,26 +1111,21 @@
 
     if-ne p2, v0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/widget/dialog/p0;->W:Lcom/commsource/widget/dialog/p0$e;
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-interface {p2, p3}, Lcom/commsource/widget/dialog/p0$e;->a(Z)V
 
     :cond_0
     const/4 p2, 0x1
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 5
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1270,7 +1151,6 @@
 
     sget v1, Lcom/res/provider/ResID;->dialog_video_view:I
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -1279,7 +1159,6 @@
 
     sget v2, Lcom/res/provider/ResID;->dialog_first_frame:I
 
-    .line 2
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -1290,7 +1169,6 @@
 
     sget v2, Lcom/res/provider/ResID;->subtitle:I
 
-    .line 3
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -1299,7 +1177,6 @@
 
     sget v3, Lcom/res/provider/ResID;->watch_video_container:I
 
-    .line 4
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -1310,7 +1187,6 @@
 
     sget v3, Lcom/res/provider/ResID;->watch_video_tv:I
 
-    .line 5
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -1321,7 +1197,6 @@
 
     sget v3, Lcom/res/provider/ResID;->watch_video_loading:I
 
-    .line 6
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -1332,7 +1207,6 @@
 
     sget v3, Lcom/res/provider/ResID;->purchase_container:I
 
-    .line 7
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -1343,7 +1217,6 @@
 
     sget v3, Lcom/res/provider/ResID;->btn_purchase:I
 
-    .line 8
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -1354,7 +1227,6 @@
 
     sget v3, Lcom/res/provider/ResID;->purchase_loading:I
 
-    .line 9
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -1365,7 +1237,6 @@
 
     sget v3, Lcom/res/provider/ResID;->bling_view:I
 
-    .line 10
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -1376,7 +1247,6 @@
 
     sget v3, Lcom/res/provider/ResID;->btn_restore:I
 
-    .line 11
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -1385,37 +1255,30 @@
 
     sget v4, Lcom/res/provider/ResID;->btn_cancel:I
 
-    .line 12
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/ImageView;
 
-    .line 13
     iget-object v4, p0, Lcom/commsource/widget/dialog/p0;->a0:Landroid/widget/FrameLayout;
 
     invoke-virtual {v4, p0}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 14
     iget-object v4, p0, Lcom/commsource/widget/dialog/p0;->d0:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v4, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 15
     invoke-virtual {v3, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 16
     invoke-virtual {p1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 17
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1423,7 +1286,6 @@
     :cond_0
     const-string v3, "KEY_ONLINE_MP4_NAME"
 
-    .line 19
     invoke-virtual {p1, v3}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -1436,24 +1298,20 @@
 
     if-nez v4, :cond_2
 
-    .line 20
     invoke-virtual {p1, v3}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     const/4 v4, 0x2
 
-    .line 21
     invoke-virtual {v1, v4}, Lcom/commsource/widget/VideoPlayView;->setMode(I)V
 
-    .line 22
     new-instance v4, Lcom/commsource/widget/dialog/n;
 
     invoke-direct {v4, p0}, Lcom/commsource/widget/dialog/n;-><init>(Lcom/commsource/widget/dialog/p0;)V
 
     invoke-virtual {v1, v4}, Lcom/commsource/widget/VideoPlayView;->setOnTextureAvailableListener(Lcom/commsource/widget/VideoPlayView$a;)V
 
-    .line 23
     invoke-static {}, Lcom/commsource/camera/beauty/n;->e()Lcom/commsource/camera/beauty/n;
 
     move-result-object v4
@@ -1464,10 +1322,8 @@
 
     if-eqz v4, :cond_1
 
-    .line 24
     invoke-virtual {v1, v5}, Landroid/view/TextureView;->setVisibility(I)V
 
-    .line 25
     invoke-static {}, Lcom/commsource/camera/beauty/n;->e()Lcom/commsource/camera/beauty/n;
 
     move-result-object v4
@@ -1484,7 +1340,6 @@
 
     goto :goto_0
 
-    .line 26
     :cond_1
     invoke-static {}, Lcom/commsource/camera/beauty/n;->e()Lcom/commsource/camera/beauty/n;
 
@@ -1501,7 +1356,6 @@
     :cond_2
     const-string v3, "KEY_VIDEO_PATH"
 
-    .line 27
     invoke-virtual {p1, v3}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -1512,14 +1366,12 @@
 
     if-nez v4, :cond_3
 
-    .line 28
     new-instance v4, Lcom/commsource/widget/dialog/p0$b;
 
     invoke-direct {v4, p0}, Lcom/commsource/widget/dialog/p0$b;-><init>(Lcom/commsource/widget/dialog/p0;)V
 
     invoke-virtual {v1, v4}, Lcom/commsource/widget/VideoPlayView;->setOnTextureAvailableListener(Lcom/commsource/widget/VideoPlayView$a;)V
 
-    .line 29
     invoke-virtual {p1, v3}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -1530,7 +1382,6 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/commsource/widget/VideoPlayView;->l(Ljava/lang/String;Lcom/commsource/widget/VideoPlayView$b;)V
 
-    .line 30
     :cond_3
     :goto_0
     :try_start_0
@@ -1540,7 +1391,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 31
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0;->Z:Landroid/widget/ImageView;
 
     invoke-virtual {p1, p2}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
@@ -1560,28 +1410,24 @@
     :goto_1
     const-string p2, "KEY_SUBTITLE_STRING"
 
-    .line 32
     invoke-virtual {p1, p2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
     const-string v1, "KEY_IAP_ID"
 
-    .line 33
     invoke-virtual {p1, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v3, "KEY_AD_ID"
 
-    .line 34
     invoke-virtual {p1, v3}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
 
     move-result v3
 
     const-string v4, "KEY_ENABLE_BLING_VIEW"
 
-    .line 35
     invoke-virtual {p1, v4, v5}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v4
@@ -1590,24 +1436,20 @@
 
     const-string v4, "KEY_BEFORE_BITMAP_RES"
 
-    .line 36
     invoke-virtual {p1, v4}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
 
     move-result v4
 
     const-string v6, "KEY_AFTER_BITMAP_RES"
 
-    .line 37
     invoke-virtual {p1, v6}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
 
     move-result p1
 
-    .line 38
     iget-object v6, p0, Lcom/commsource/widget/dialog/p0;->g0:Lcom/commsource/widget/BeautyBlingView;
 
     invoke-virtual {v6, v5}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 39
     iget-object v6, p0, Lcom/commsource/widget/dialog/p0;->g0:Lcom/commsource/widget/BeautyBlingView;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getResources()Landroid/content/res/Resources;
@@ -1618,7 +1460,6 @@
 
     move-result-object v4
 
-    .line 40
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v7
@@ -1627,39 +1468,31 @@
 
     move-result-object p1
 
-    .line 41
     invoke-virtual {v6, v4, p1}, Lcom/commsource/widget/BeautyBlingView;->l(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
 
-    .line 42
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->g0:Lcom/commsource/widget/BeautyBlingView;
 
     invoke-virtual {p1}, Lcom/commsource/widget/BeautyBlingView;->n()V
 
-    .line 43
     :cond_5
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/dialog/r0;->R(Ljava/lang/String;)V
 
-    .line 44
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     invoke-virtual {p1, v3}, Lcom/commsource/widget/dialog/r0;->S(I)V
 
-    .line 45
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
 
     if-nez p1, :cond_6
 
-    .line 46
     invoke-virtual {v2, v5}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 47
     invoke-virtual {v2, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 48
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->getDialog()Landroid/app/Dialog;
 
@@ -1667,7 +1500,6 @@
 
     invoke-virtual {p1, p0}, Landroid/app/Dialog;->setOnKeyListener(Landroid/content/DialogInterface$OnKeyListener;)V
 
-    .line 49
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/r0;->N()Landroidx/lifecycle/MutableLiveData;
@@ -1684,7 +1516,6 @@
 
     invoke-virtual {p1, p2, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 50
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/r0;->K()Landroidx/lifecycle/MutableLiveData;
@@ -1701,7 +1532,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 51
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/r0;->L()Landroidx/lifecycle/MutableLiveData;
@@ -1718,7 +1548,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 52
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/r0;->M()Landroidx/lifecycle/MutableLiveData;
@@ -1735,7 +1564,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 53
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->X:Lcom/commsource/widget/dialog/r0;
 
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/r0;->O()Landroidx/lifecycle/MutableLiveData;
@@ -1752,7 +1580,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 54
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1765,15 +1592,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/widget/dialog/i0;->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/p0;->h0:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

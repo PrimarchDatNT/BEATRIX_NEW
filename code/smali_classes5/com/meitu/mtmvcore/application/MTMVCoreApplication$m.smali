@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;Ljava/util/concurrent/Semaphore;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$m;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     iput-object p2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$m;->a:Ljava/util/concurrent/Semaphore;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$m;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$300(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)I
@@ -57,19 +55,16 @@
 
     invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$m;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$400(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
-    .line 3
     invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -88,16 +83,13 @@
 
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {}, Landroid/opengl/GLES20;->glFinish()V
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$m;->a:Ljava/util/concurrent/Semaphore;
 
     invoke-virtual {v1}, Ljava/util/concurrent/Semaphore;->release()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

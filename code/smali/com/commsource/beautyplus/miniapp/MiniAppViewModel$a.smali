@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$a;->p:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     iput-object p3, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$a;->g:Ljava/lang/String;
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
@@ -55,26 +53,22 @@
 
     invoke-direct {v3, p0}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$a$a;-><init>(Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$a;)V
 
-    .line 2
     invoke-virtual {v3}, Lcom/google/gson/reflect/TypeToken;->getType()Ljava/lang/reflect/Type;
 
     move-result-object v3
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/util/List;
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$a;->p:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-static {v2}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->y(Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 5
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -92,7 +86,6 @@
 
     check-cast v3, Lcom/commsource/beautyplus/miniapp/k;
 
-    .line 6
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -111,7 +104,6 @@
 
     check-cast v5, Lcom/commsource/beautyplus/miniapp/k;
 
-    .line 7
     invoke-virtual {v3}, Lcom/commsource/beautyplus/miniapp/k;->i()Ljava/lang/String;
 
     move-result-object v6
@@ -126,7 +118,6 @@
 
     if-eqz v6, :cond_1
 
-    .line 8
     invoke-virtual {v3}, Lcom/commsource/beautyplus/miniapp/k;->j()I
 
     move-result v6
@@ -135,7 +126,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     new-instance v1, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$a$b;
 
@@ -143,7 +133,6 @@
 
     invoke-static {v2, v1}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$a;->p:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->z(Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;Ljava/util/List;)V
@@ -152,7 +141,6 @@
 
     goto :goto_1
 
-    .line 11
     :catch_0
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$a;->p:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
@@ -162,7 +150,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->z(Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;Ljava/util/List;)V
 
-    .line 12
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

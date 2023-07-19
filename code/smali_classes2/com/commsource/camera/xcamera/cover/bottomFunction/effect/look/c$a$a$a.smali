@@ -46,14 +46,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c$a$a$a;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 2
     :cond_0
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -62,26 +60,22 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/meitu/template/bean/LookMaterial;
 
-    .line 4
     invoke-virtual {v2}, Lcom/meitu/template/bean/LookMaterial;->isInUseTime()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c$a$a$a;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c$a$a;
 
@@ -97,7 +91,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -47,10 +47,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/common/AdapterConfigurationManager;->mSdkInitializationListener:Lcom/mopub/common/SdkInitializationListener;
 
     return-void
@@ -65,17 +63,14 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/AdapterConfigurationManager;->mAdapterConfigurations:Ljava/util/Map;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_3
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     move-result v2
@@ -84,7 +79,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
 
@@ -107,13 +101,11 @@
 
     check-cast v2, Lcom/mopub/common/AdapterConfiguration;
 
-    .line 5
     :try_start_0
     invoke-interface {v2, p1}, Lcom/mopub/common/AdapterConfiguration;->getBiddingToken(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 6
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -122,7 +114,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance v4, Lorg/json/JSONObject;
 
@@ -130,19 +121,16 @@
 
     const-string v5, "token"
 
-    .line 8
     invoke-virtual {v4, v5, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     if-nez v1, :cond_2
 
-    .line 9
     new-instance v3, Lorg/json/JSONObject;
 
     invoke-direct {v3}, Lorg/json/JSONObject;-><init>()V
 
     move-object v1, v3
 
-    .line 10
     :cond_2
     invoke-interface {v2}, Lcom/mopub/common/AdapterConfiguration;->getMoPubNetworkName()Ljava/lang/String;
 
@@ -154,7 +142,6 @@
 
     goto :goto_0
 
-    .line 11
     :catch_0
     sget-object v3, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -172,7 +159,6 @@
 
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-interface {v2}, Lcom/mopub/common/AdapterConfiguration;->getMoPubNetworkName()Ljava/lang/String;
 
     move-result-object v2
@@ -185,7 +171,6 @@
 
     aput-object v2, v4, v5
 
-    .line 13
     invoke-static {v3, v4}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     goto :goto_0
@@ -217,10 +202,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/AdapterConfigurationManager;->mAdapterConfigurations:Ljava/util/Map;
 
     if-nez v0, :cond_0
@@ -229,7 +212,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
@@ -258,12 +240,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/AdapterConfigurationManager;->mAdapterConfigurations:Ljava/util/Map;
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     move-result v1
@@ -272,13 +252,11 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -300,12 +278,10 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 5
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 6
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -314,14 +290,12 @@
 
     const-string v5, "."
 
-    .line 7
     invoke-virtual {v4, v5}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result v5
 
     add-int/lit8 v5, v5, 0x1
 
-    .line 8
     invoke-virtual {v4, v5}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v4
@@ -330,10 +304,8 @@
 
     const-string v4, ": Adapter version "
 
-    .line 9
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v4
@@ -348,10 +320,8 @@
 
     const-string v4, ", SDK version "
 
-    .line 11
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -364,7 +334,6 @@
 
     invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 13
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -397,12 +366,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/AdapterConfigurationManager;->mAdapterConfigurations:Ljava/util/Map;
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     move-result v1
@@ -411,13 +378,11 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     move-result-object v0
@@ -439,7 +404,6 @@
 
     check-cast v2, Lcom/mopub/common/AdapterConfiguration;
 
-    .line 5
     invoke-interface {v2}, Lcom/mopub/common/AdapterConfiguration;->getMoPubNetworkName()Ljava/lang/String;
 
     move-result-object v2
@@ -467,10 +431,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/mopub/common/AdapterConfigurationManager;->getTokensAsJsonObject(Landroid/content/Context;)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -481,7 +443,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
@@ -530,22 +491,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {p4}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 5
     new-instance v6, Lcom/mopub/common/AdapterConfigurationManager$AdapterConfigurationsInitializationAsyncTask;
 
-    .line 6
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
@@ -566,7 +521,6 @@
 
     new-array p1, p1, [Ljava/lang/Void;
 
-    .line 7
     invoke-static {v6, p1}, Lcom/mopub/common/util/AsyncTasks;->safeExecuteOnExecutor(Landroid/os/AsyncTask;[Ljava/lang/Object;)V
 
     return-void
@@ -588,23 +542,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/common/AdapterConfigurationManager;->mAdapterConfigurations:Ljava/util/Map;
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/common/AdapterConfigurationManager;->mSdkInitializationListener:Lcom/mopub/common/SdkInitializationListener;
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-interface {p1}, Lcom/mopub/common/SdkInitializationListener;->onInitializationFinished()V
 
     const/4 p1, 0x0
 
-    .line 5
     iput-object p1, p0, Lcom/mopub/common/AdapterConfigurationManager;->mSdkInitializationListener:Lcom/mopub/common/SdkInitializationListener;
 
     :cond_0
@@ -633,13 +582,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1

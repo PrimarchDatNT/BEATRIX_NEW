@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,23 +36,18 @@
 
     const-string v0, "Context cannot be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "adUnitId cannot be null."
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "AdRequest cannot be null."
 
-    .line 3
     invoke-static {p2, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/internal/ads/qj2;
 
-    .line 5
     invoke-virtual {p2}, Lcom/google/android/gms/ads/d;->k()Lcom/google/android/gms/internal/ads/kp2;
 
     move-result-object v4
@@ -70,7 +64,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/google/android/gms/internal/ads/qj2;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/internal/ads/kp2;ILcom/google/android/gms/ads/appopen/a$a;)V
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/qj2;->a()V
 
     return-void
@@ -85,23 +78,18 @@
 
     const-string v0, "Context cannot be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "adUnitId cannot be null."
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "PublisherAdRequest cannot be null."
 
-    .line 3
     invoke-static {p2, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/internal/ads/qj2;
 
-    .line 5
     invoke-virtual {p2}, Lcom/google/android/gms/ads/doubleclick/d;->n()Lcom/google/android/gms/internal/ads/kp2;
 
     move-result-object v4
@@ -118,7 +106,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/google/android/gms/internal/ads/qj2;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/internal/ads/kp2;ILcom/google/android/gms/ads/appopen/a$a;)V
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/qj2;->a()V
 
     return-void

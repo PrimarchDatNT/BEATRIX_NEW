@@ -29,7 +29,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/function/BaseSubFragment$b;->b:Lcotlin/jvm/u/a;
 
-    .line 1
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
@@ -50,16 +49,13 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/Animator;->removeAllListeners()V
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment$b;->b:Lcotlin/jvm/u/a;
 
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

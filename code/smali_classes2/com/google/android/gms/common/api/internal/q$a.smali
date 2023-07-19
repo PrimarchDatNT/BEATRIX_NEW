@@ -71,12 +71,10 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/q$a;->e:Z
 
     return-void
@@ -85,7 +83,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/common/api/internal/x1;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/q$a;-><init>()V
 
     return-void
@@ -94,7 +91,6 @@
 .method static synthetic i(Lcom/google/android/gms/common/api/internal/q$a;)Lcom/google/android/gms/common/api/internal/r;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/q$a;->a:Lcom/google/android/gms/common/api/internal/r;
 
     return-object p0
@@ -103,7 +99,6 @@
 .method static synthetic k(Lcom/google/android/gms/common/api/internal/q$a;)Lcom/google/android/gms/common/api/internal/r;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/q$a;->b:Lcom/google/android/gms/common/api/internal/r;
 
     return-object p0
@@ -126,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q$a;->a:Lcom/google/android/gms/common/api/internal/r;
 
     const/4 v1, 0x1
@@ -147,7 +141,6 @@
 
     invoke-static {v0, v3}, Lcom/google/android/gms/common/internal/b0;->b(ZLjava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q$a;->b:Lcom/google/android/gms/common/api/internal/r;
 
     if-eqz v0, :cond_1
@@ -164,7 +157,6 @@
 
     invoke-static {v0, v3}, Lcom/google/android/gms/common/internal/b0;->b(ZLjava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q$a;->c:Lcom/google/android/gms/common/api/internal/l;
 
     if-eqz v0, :cond_2
@@ -179,7 +171,6 @@
 
     invoke-static {v1, v0}, Lcom/google/android/gms/common/internal/b0;->b(ZLjava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/common/api/internal/q;
 
     new-instance v1, Lcom/google/android/gms/common/api/internal/b2;
@@ -196,7 +187,6 @@
 
     iget-object v3, p0, Lcom/google/android/gms/common/api/internal/q$a;->c:Lcom/google/android/gms/common/api/internal/l;
 
-    .line 5
     invoke-virtual {v3}, Lcom/google/android/gms/common/api/internal/l;->b()Lcom/google/android/gms/common/api/internal/l$a;
 
     move-result-object v3
@@ -230,7 +220,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/q$a;->a:Lcom/google/android/gms/common/api/internal/r;
 
     return-object p0
@@ -259,7 +248,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/internal/y1;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/common/api/internal/y1;-><init>(Lcom/google/android/gms/common/util/d;)V
@@ -284,7 +272,6 @@
         }
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/q$a;->e:Z
 
     return-object p0
@@ -307,7 +294,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/q$a;->d:[Lcom/google/android/gms/common/Feature;
 
     return-object p0
@@ -333,7 +319,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/q$a;->b:Lcom/google/android/gms/common/api/internal/r;
 
     return-object p0
@@ -362,7 +347,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/google/android/gms/common/api/internal/z1;
 
     invoke-direct {p1, p0}, Lcom/google/android/gms/common/api/internal/z1;-><init>(Lcom/google/android/gms/common/api/internal/q$a;)V
@@ -391,7 +375,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/q$a;->c:Lcom/google/android/gms/common/api/internal/l;
 
     return-object p0
@@ -405,7 +388,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q$a;->a:Lcom/google/android/gms/common/api/internal/r;
 
     invoke-interface {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/r;->a(Ljava/lang/Object;Ljava/lang/Object;)V

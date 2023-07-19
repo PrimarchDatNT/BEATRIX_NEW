@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/k/h/a/l/x/f$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/l/x/f$a$a;->a:Lf/k/h/a/l/x/f$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,14 +53,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-lez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lf/k/h/a/l/x/f$a$a;->a:Lf/k/h/a/l/x/f$a;
 
     iget-object p1, p1, Lf/k/h/a/l/x/f$a;->b:Lf/k/h/a/l/y/d;
@@ -70,14 +67,12 @@
 
     invoke-interface {p1, v1}, Lf/k/h/a/l/y/d;->c(Z)V
 
-    .line 3
     iget-object p1, p0, Lf/k/h/a/l/x/f$a$a;->a:Lf/k/h/a/l/x/f$a;
 
     invoke-static {p1, p2}, Lf/k/h/a/l/x/f$a;->f(Lf/k/h/a/l/x/f$a;Ljava/util/List;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lf/k/h/a/l/x/f$a$a;->a:Lf/k/h/a/l/x/f$a;
 
@@ -87,7 +82,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-static {}, Lf/k/h/a/l/x/f;->c()Ljava/lang/String;
 
     move-result-object p1
@@ -96,7 +90,6 @@
 
     invoke-static {p1, p2}, Lf/k/h/a/c;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object p1, p0, Lf/k/h/a/l/x/f$a$a;->a:Lf/k/h/a/l/x/f$a;
 
     iget-object p1, p1, Lf/k/h/a/l/x/f$a;->b:Lf/k/h/a/l/y/d;
@@ -105,7 +98,6 @@
 
     invoke-interface {p1, p2}, Lf/k/h/a/l/y/d;->b(Lcom/meitu/global/billing/purchase/data/MTGPurchase;)V
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

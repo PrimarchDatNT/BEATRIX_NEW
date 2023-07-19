@@ -41,7 +41,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object v0
@@ -67,7 +66,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1}, Ldagger/internal/a;-><init>(Ljava/util/Map;)V
 
     return-void
@@ -76,7 +74,6 @@
 .method synthetic constructor <init>(Ljava/util/Map;Ldagger/internal/l$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ldagger/internal/l;-><init>(Ljava/util/Map;)V
 
     return-void
@@ -96,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ldagger/internal/l$b;
 
     const/4 v1, 0x0
@@ -121,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Ldagger/internal/l;->b:Lj/a/c;
 
     return-object v0
@@ -139,7 +134,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ldagger/internal/a;->b()Ljava/util/Map;
 
     move-result-object v0
@@ -152,7 +146,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Ldagger/internal/a;->b()Ljava/util/Map;
 
     move-result-object v1
@@ -178,7 +171,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
@@ -197,7 +189,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
@@ -209,7 +200,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ldagger/internal/l;->e()Ljava/util/Map;
 
     move-result-object v0

@@ -51,17 +51,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
@@ -72,7 +69,6 @@
 
     iput-object p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$SelectorThreadLoadBalancer;->threads:Ljava/util/Collection;
 
-    .line 4
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -81,7 +77,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -97,7 +92,6 @@
 .method public nextThread()Lorg/apache/thrift/server/TThreadedSelectorServer$SelectorThread;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$SelectorThreadLoadBalancer;->nextThreadIterator:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -106,7 +100,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$SelectorThreadLoadBalancer;->threads:Ljava/util/Collection;
 
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
@@ -115,7 +108,6 @@
 
     iput-object v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$SelectorThreadLoadBalancer;->nextThreadIterator:Ljava/util/Iterator;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$SelectorThreadLoadBalancer;->nextThreadIterator:Ljava/util/Iterator;
 

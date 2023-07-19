@@ -31,10 +31,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     sget-object p1, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel$showLoading$2;->INSTANCE:Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel$showLoading$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -43,7 +41,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->a:Lcotlin/w;
 
-    .line 3
     sget-object p1, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel$showToast$2;->INSTANCE:Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel$showToast$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -62,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -83,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/template/feedback/util/e;->N()Z
 
     move-result v1
@@ -101,12 +96,10 @@
 
     const-string v4, "bpsecret:"
 
-    .line 2
     invoke-static {p1, v4, v2, v1, v3}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v2
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -120,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -131,7 +123,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->B()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object p1
@@ -144,12 +135,10 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->A()Landroidx/lifecycle/MutableLiveData;
 
@@ -171,7 +160,6 @@
 
     move-object v3, p1
 
-    .line 5
     invoke-static/range {v3 .. v8}, Lcotlin/text/m;->n3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     move-result v1
@@ -188,7 +176,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -199,12 +186,10 @@
 
     invoke-static {v1, p1, v2}, Lcom/meitu/template/feedback/util/e;->X(Landroid/content/Context;Ljava/lang/String;Lcom/meitu/template/feedback/util/e$b;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -224,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->C(I)Ljava/lang/String;
 
     move-result-object p0
@@ -313,17 +297,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->D(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->E(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -337,7 +318,6 @@
 
     const/4 v4, 0x0
 
-    .line 4
     invoke-static {p1, v1, v2, v3, v4}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v1
@@ -346,27 +326,22 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     sget-object v1, Lcom/commsource/beautyfilter/NewFilterConfig;->A:Lcom/commsource/beautyfilter/NewFilterConfig$a;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->u(Ljava/lang/String;)V
 
-    .line 6
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->i:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->t(Ljava/lang/String;)V
 
-    .line 7
     sget-object v1, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/sticker/StickerConfig;->i0(Ljava/lang/String;)V
 
-    .line 8
     sget-object v1, Lcom/commsource/studio/doodle/c;->w:Lcom/commsource/studio/doodle/c;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/doodle/c;->U(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->B()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object p1
@@ -382,17 +357,14 @@
     :cond_1
     const-string v1, "new:mrsecret"
 
-    .line 10
     invoke-static {p1, v1, v2, v3, v4}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 11
     invoke-static {p1}, Lf/d/i/o;->y0(Ljava/lang/String;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->B()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object p1
@@ -405,7 +377,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->B()Lcom/commsource/beautyfilter/NoStickLiveData;
 
@@ -419,7 +390,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 14
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

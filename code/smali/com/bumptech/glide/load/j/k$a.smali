@@ -34,10 +34,8 @@
 .method public constructor <init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/j/k$a;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     return-void
@@ -59,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Ljava/io/InputStream;
 
     return-object v0
@@ -70,7 +67,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/io/InputStream;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/j/k$a;->c(Ljava/io/InputStream;)Lcom/bumptech/glide/load/j/e;
@@ -96,7 +92,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/j/k;
 
     iget-object v1, p0, Lcom/bumptech/glide/load/j/k$a;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;

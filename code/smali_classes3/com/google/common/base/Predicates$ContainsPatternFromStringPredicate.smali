@@ -25,7 +25,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/s;->b(Ljava/lang/String;)Lcom/google/common/base/e;
 
     move-result-object p1
@@ -40,7 +39,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

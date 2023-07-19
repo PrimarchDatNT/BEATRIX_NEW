@@ -23,12 +23,10 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/http/message/AbstractHttpMessage;-><init>()V
 
     const-string v0, "Method name"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -39,7 +37,6 @@
 
     const-string p1, "Request URI"
 
-    .line 3
     invoke-static {p2, p1}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -50,7 +47,6 @@
 
     const/4 p1, 0x0
 
-    .line 4
     iput-object p1, p0, Lorg/apache/http/message/BasicHttpRequest;->requestline:Lorg/apache/http/RequestLine;
 
     return-void
@@ -59,7 +55,6 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lorg/apache/http/ProtocolVersion;)V
     .locals 1
 
-    .line 5
     new-instance v0, Lorg/apache/http/message/BasicRequestLine;
 
     invoke-direct {v0, p1, p2, p3}, Lorg/apache/http/message/BasicRequestLine;-><init>(Ljava/lang/String;Ljava/lang/String;Lorg/apache/http/ProtocolVersion;)V
@@ -72,12 +67,10 @@
 .method public constructor <init>(Lorg/apache/http/RequestLine;)V
     .locals 1
 
-    .line 6
     invoke-direct {p0}, Lorg/apache/http/message/AbstractHttpMessage;-><init>()V
 
     const-string v0, "Request line"
 
-    .line 7
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -86,14 +79,12 @@
 
     iput-object v0, p0, Lorg/apache/http/message/BasicHttpRequest;->requestline:Lorg/apache/http/RequestLine;
 
-    .line 8
     invoke-interface {p1}, Lorg/apache/http/RequestLine;->getMethod()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lorg/apache/http/message/BasicHttpRequest;->method:Ljava/lang/String;
 
-    .line 9
     invoke-interface {p1}, Lorg/apache/http/RequestLine;->getUri()Ljava/lang/String;
 
     move-result-object p1
@@ -108,7 +99,6 @@
 .method public getProtocolVersion()Lorg/apache/http/ProtocolVersion;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/message/BasicHttpRequest;->getRequestLine()Lorg/apache/http/RequestLine;
 
     move-result-object v0
@@ -123,12 +113,10 @@
 .method public getRequestLine()Lorg/apache/http/RequestLine;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicHttpRequest;->requestline:Lorg/apache/http/RequestLine;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lorg/apache/http/message/BasicRequestLine;
 
     iget-object v1, p0, Lorg/apache/http/message/BasicHttpRequest;->method:Ljava/lang/String;
@@ -141,7 +129,6 @@
 
     iput-object v0, p0, Lorg/apache/http/message/BasicHttpRequest;->requestline:Lorg/apache/http/RequestLine;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/http/message/BasicHttpRequest;->requestline:Lorg/apache/http/RequestLine;
 
@@ -151,7 +138,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

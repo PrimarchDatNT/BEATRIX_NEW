@@ -50,28 +50,22 @@
         }
     .end annotation
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
     iput p1, p0, Lcom/mopub/volley/NetworkResponse;->statusCode:I
 
-    .line 9
     iput-object p2, p0, Lcom/mopub/volley/NetworkResponse;->data:[B
 
-    .line 10
     iput-object p3, p0, Lcom/mopub/volley/NetworkResponse;->headers:Ljava/util/Map;
 
     if-nez p4, :cond_0
 
     const/4 p1, 0x0
 
-    .line 11
     iput-object p1, p0, Lcom/mopub/volley/NetworkResponse;->allHeaders:Ljava/util/List;
 
     goto :goto_0
 
-    .line 12
     :cond_0
     invoke-static {p4}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
@@ -79,11 +73,9 @@
 
     iput-object p1, p0, Lcom/mopub/volley/NetworkResponse;->allHeaders:Ljava/util/List;
 
-    .line 13
     :goto_0
     iput-boolean p5, p0, Lcom/mopub/volley/NetworkResponse;->notModified:Z
 
-    .line 14
     iput-wide p6, p0, Lcom/mopub/volley/NetworkResponse;->networkTimeMs:J
 
     return-void
@@ -116,7 +108,6 @@
 
     move v4, p4
 
-    .line 3
     invoke-direct/range {v0 .. v6}, Lcom/mopub/volley/NetworkResponse;-><init>(I[BLjava/util/Map;ZJ)V
 
     return-void
@@ -137,7 +128,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p3}, Lcom/mopub/volley/NetworkResponse;->toAllHeaderList(Ljava/util/Map;)Ljava/util/List;
 
     move-result-object v4
@@ -170,7 +160,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {p6}, Lcom/mopub/volley/NetworkResponse;->toHeaderMap(Ljava/util/List;)Ljava/util/Map;
 
     move-result-object v3
@@ -195,7 +184,6 @@
 .method public constructor <init>([B)V
     .locals 7
 
-    .line 4
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v6
@@ -210,7 +198,6 @@
 
     move-object v2, p1
 
-    .line 5
     invoke-direct/range {v0 .. v6}, Lcom/mopub/volley/NetworkResponse;-><init>(I[BZJLjava/util/List;)V
 
     return-void
@@ -243,7 +230,6 @@
 
     move-object v3, p2
 
-    .line 6
     invoke-direct/range {v0 .. v6}, Lcom/mopub/volley/NetworkResponse;-><init>(I[BLjava/util/Map;ZJ)V
 
     return-void
@@ -270,7 +256,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
 
@@ -278,14 +263,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/util/ArrayList;
 
@@ -295,7 +278,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 4
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -317,7 +299,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 5
     new-instance v2, Lcom/mopub/volley/Header;
 
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -363,7 +344,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
@@ -371,14 +351,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/util/TreeMap;
 
@@ -386,7 +364,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/TreeMap;-><init>(Ljava/util/Comparator;)V
 
-    .line 4
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -404,7 +381,6 @@
 
     check-cast v1, Lcom/mopub/volley/Header;
 
-    .line 5
     invoke-virtual {v1}, Lcom/mopub/volley/Header;->getName()Ljava/lang/String;
 
     move-result-object v2

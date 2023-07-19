@@ -23,7 +23,6 @@
 .method constructor <init>(Lcom/meitu/template/bean/Doodle;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/d$c;->g:Lcom/meitu/template/bean/Doodle;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -40,14 +39,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/DoodleRepository;->c:Lcom/commsource/studio/doodle/DoodleRepository;
 
     iget-object v2, p0, Lcom/commsource/studio/doodle/d$c;->g:Lcom/meitu/template/bean/Doodle;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/DoodleRepository;->p(Lcom/meitu/template/bean/Doodle;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

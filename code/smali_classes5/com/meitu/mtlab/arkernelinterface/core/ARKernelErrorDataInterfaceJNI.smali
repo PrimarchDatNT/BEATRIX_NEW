@@ -21,18 +21,14 @@
 .method public constructor <init>(J)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;->nativeInstance:J
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI;->nativeGetErrorCount(J)I
 
     move-result p1
 
-    .line 4
     new-array p2, p1, [Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;
 
     iput-object p2, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI;->errorDataArray:[Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;
@@ -42,7 +38,6 @@
     :goto_0
     if-ge p2, p1, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI;->errorDataArray:[Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;
 
     aget-object v0, v0, p2
@@ -55,7 +50,6 @@
 
     invoke-static {v0, v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;->access$002(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;I)I
 
-    .line 6
     iget-object v0, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI;->errorDataArray:[Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;
 
     aget-object v0, v0, p2
@@ -68,7 +62,6 @@
 
     invoke-static {v0, v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;->access$102(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;I)I
 
-    .line 7
     iget-object v0, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI;->errorDataArray:[Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;
 
     aget-object v0, v0, p2
@@ -81,7 +74,6 @@
 
     invoke-static {v0, v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;->access$202(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 8
     iget-object v0, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI;->errorDataArray:[Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;
 
     aget-object v0, v0, p2
@@ -137,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;->nativeInstance:J
 
@@ -145,10 +136,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -156,10 +145,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -172,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI;->errorDataArray:[Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI$ErrorData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -187,12 +173,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelErrorDataInterfaceJNI;->nativeReset(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

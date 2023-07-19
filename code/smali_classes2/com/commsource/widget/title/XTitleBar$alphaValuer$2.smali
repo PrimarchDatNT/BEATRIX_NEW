@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/f1/n;
 
     const/high16 v2, 0x3f800000    # 1.0f
@@ -90,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/title/XTitleBar$alphaValuer$2;->invoke()Lcom/commsource/camera/f1/n;
 
     move-result-object v1

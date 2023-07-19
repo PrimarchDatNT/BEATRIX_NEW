@@ -22,7 +22,6 @@
 
     const-string v0, "com.google.android.gms.common.internal.IGmsCallbacks"
 
-    .line 1
     invoke-direct {p0, v0}, Lf/f/b/b/h/b/b;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -54,18 +53,15 @@
 
     return p1
 
-    .line 1
     :cond_0
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
 
-    .line 2
     invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 3
     sget-object v1, Lcom/google/android/gms/common/internal/zzb;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-static {p2, v1}, Lf/f/b/b/h/b/c;->b(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
@@ -74,18 +70,15 @@
 
     check-cast p2, Lcom/google/android/gms/common/internal/zzb;
 
-    .line 4
     invoke-interface {p0, p1, v0, p2}, Lcom/google/android/gms/common/internal/s;->K7(ILandroid/os/IBinder;Lcom/google/android/gms/common/internal/zzb;)V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
 
-    .line 6
     sget-object v0, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-static {p2, v0}, Lf/f/b/b/h/b/c;->b(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
@@ -94,23 +87,19 @@
 
     check-cast p2, Landroid/os/Bundle;
 
-    .line 7
     invoke-interface {p0, p1, p2}, Lcom/google/android/gms/common/internal/s;->X7(ILandroid/os/Bundle;)V
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
 
-    .line 9
     invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
 
     move-result-object v0
 
-    .line 10
     sget-object v1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-static {p2, v1}, Lf/f/b/b/h/b/c;->b(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
@@ -119,10 +108,8 @@
 
     check-cast p2, Landroid/os/Bundle;
 
-    .line 11
     invoke-interface {p0, p1, v0, p2}, Lcom/google/android/gms/common/internal/s;->A3(ILandroid/os/IBinder;Landroid/os/Bundle;)V
 
-    .line 12
     :goto_0
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 

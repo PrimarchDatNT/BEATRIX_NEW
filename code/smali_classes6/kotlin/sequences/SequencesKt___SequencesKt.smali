@@ -52,7 +52,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -80,7 +79,6 @@
 
     const/4 v5, 0x1
 
-    .line 2
     invoke-static {v5, v4, v0}, Lcotlin/internal/l;->a(III)Z
 
     move-result v4
@@ -112,7 +110,6 @@
 
     check-cast v1, Ljava/lang/Iterable;
 
-    .line 3
     invoke-static {p1, v1}, Lcotlin/collections/s;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
     move v1, v3
@@ -160,12 +157,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -176,13 +171,11 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     :cond_1
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -191,12 +184,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 6
     invoke-interface {p1, v0, v1}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result v2
@@ -248,7 +239,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$b;
 
     invoke-direct {v0, p1}, Lcotlin/z1/b$b;-><init>(Lcotlin/jvm/u/l;)V
@@ -312,7 +302,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/sequences/SequencesKt___SequencesKt$flatMapIndexed$2;->INSTANCE:Lcotlin/sequences/SequencesKt___SequencesKt$flatMapIndexed$2;
 
     invoke-static {p0, p1, v0}, Lcotlin/sequences/SequencesKt__SequencesKt;->k(Lcotlin/sequences/m;Lcotlin/jvm/u/p;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
@@ -357,7 +346,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/sequences/SequencesKt___SequencesKt;->O1(Lcotlin/sequences/m;)Ljava/lang/Comparable;
 
     move-result-object p0
@@ -402,7 +390,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/z1/b$d;
 
     invoke-direct {v0, p1}, Lcotlin/z1/b$d;-><init>(Lcotlin/jvm/u/l;)V
@@ -450,7 +437,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -478,7 +464,6 @@
 
     const/4 v5, 0x1
 
-    .line 2
     invoke-static {v5, v4, v0}, Lcotlin/internal/l;->a(III)Z
 
     move-result v4
@@ -510,7 +495,6 @@
 
     check-cast v1, Lcotlin/sequences/m;
 
-    .line 3
     invoke-static {p1, v1}, Lcotlin/collections/s;->r0(Ljava/util/Collection;Lcotlin/sequences/m;)Z
 
     move v1, v3
@@ -560,7 +544,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/sequences/SequencesKt___SequencesKt;->P1(Lcotlin/sequences/m;)Ljava/lang/Double;
 
     move-result-object p0
@@ -593,7 +576,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lcotlin/z1/a;->q()Ljava/util/Comparator;
 
     move-result-object v0
@@ -637,7 +619,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -725,7 +706,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/i;
 
     sget-object v1, Lcotlin/sequences/SequencesKt___SequencesKt$flatMap$1;->INSTANCE:Lcotlin/sequences/SequencesKt___SequencesKt$flatMap$1;
@@ -774,7 +754,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/sequences/SequencesKt___SequencesKt;->Q1(Lcotlin/sequences/m;)Ljava/lang/Float;
 
     move-result-object p0
@@ -817,7 +796,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$d;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$d;-><init>(Lcotlin/sequences/m;Ljava/util/Comparator;)V
@@ -845,7 +823,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -915,7 +892,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -931,14 +907,12 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/Iterable;
 
-    .line 3
     invoke-static {p1, v0}, Lcotlin/collections/s;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
     goto :goto_0
@@ -994,12 +968,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -1010,13 +982,11 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
@@ -1028,7 +998,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-interface {p1, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1036,20 +1005,17 @@
 
     check-cast v1, Ljava/lang/Comparable;
 
-    .line 6
     :cond_2
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 7
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/Comparable;
 
-    .line 8
     invoke-interface {v1, v3}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v4
@@ -1060,7 +1026,6 @@
 
     move-object v1, v3
 
-    .line 9
     :cond_3
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -1106,7 +1071,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -1124,7 +1088,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -1175,7 +1138,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -1260,7 +1222,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -1276,14 +1237,12 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcotlin/sequences/m;
 
-    .line 3
     invoke-static {p1, v0}, Lcotlin/collections/s;->r0(Ljava/util/Collection;Lcotlin/sequences/m;)Z
 
     goto :goto_0
@@ -1331,12 +1290,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -1347,13 +1304,11 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
@@ -1362,7 +1317,6 @@
 
     return-object v0
 
-    .line 5
     :cond_1
     invoke-interface {p1, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1370,20 +1324,17 @@
 
     check-cast v1, Ljava/lang/Comparable;
 
-    .line 6
     :cond_2
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 7
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/Comparable;
 
-    .line 8
     invoke-interface {v1, v3}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v4
@@ -1394,7 +1345,6 @@
 
     move-object v1, v3
 
-    .line 9
     :cond_3
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -1437,7 +1387,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -1455,7 +1404,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -1499,7 +1447,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$a;
 
     invoke-direct {v0, p0}, Lcotlin/sequences/SequencesKt___SequencesKt$a;-><init>(Lcotlin/sequences/m;)V
@@ -1539,7 +1486,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -1591,19 +1537,16 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -1618,7 +1561,6 @@
 
     move-result-wide v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -1626,7 +1568,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
@@ -1641,7 +1582,6 @@
 
     move-result-wide v2
 
-    .line 6
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->min(DD)D
 
     move-result-wide v0
@@ -1651,7 +1591,6 @@
     :cond_0
     return-wide v0
 
-    .line 7
     :cond_1
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -1683,7 +1622,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -1769,7 +1707,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -1860,19 +1797,16 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -1887,7 +1821,6 @@
 
     move-result v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -1895,7 +1828,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -1910,7 +1842,6 @@
 
     move-result v1
 
-    .line 6
     invoke-static {v0, v1}, Ljava/lang/Math;->min(FF)F
 
     move-result v0
@@ -1920,7 +1851,6 @@
     :cond_0
     return v0
 
-    .line 7
     :cond_1
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -1952,7 +1882,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2025,12 +1954,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2046,7 +1973,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -2101,7 +2027,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2151,19 +2076,16 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -2174,7 +2096,6 @@
 
     check-cast v0, Ljava/lang/Comparable;
 
-    .line 4
     :cond_0
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -2183,7 +2104,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -2194,7 +2114,6 @@
 
     check-cast v1, Ljava/lang/Comparable;
 
-    .line 6
     invoke-interface {v0, v1}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v2
@@ -2208,7 +2127,6 @@
     :cond_1
     return-object v0
 
-    .line 7
     :cond_2
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -2251,7 +2169,6 @@
 
     int-to-double v0, v0
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2267,7 +2184,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -2323,12 +2239,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2344,7 +2258,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -2391,7 +2304,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2480,12 +2392,10 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -2496,7 +2406,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -2508,7 +2417,6 @@
 
     check-cast v0, Ljava/lang/Comparable;
 
-    .line 4
     :cond_1
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -2517,7 +2425,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -2528,7 +2435,6 @@
 
     check-cast v1, Ljava/lang/Comparable;
 
-    .line 6
     invoke-interface {v0, v1}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v2
@@ -2566,7 +2472,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2647,12 +2552,10 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2668,7 +2571,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -2724,12 +2626,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2745,31 +2645,25 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     if-nez v3, :cond_0
 
-    .line 5
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     invoke-interface {v0, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     :cond_0
     check-cast v3, Ljava/util/List;
 
-    .line 8
     invoke-interface {v3, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -2805,12 +2699,10 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -2821,7 +2713,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -2837,7 +2728,6 @@
 
     move-result-wide v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -2845,7 +2735,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
@@ -2860,14 +2749,12 @@
 
     move-result-wide v2
 
-    .line 6
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->min(DD)D
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
@@ -2899,7 +2786,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2976,7 +2862,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2992,7 +2877,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -3056,12 +2940,10 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -3077,31 +2959,25 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     if-nez v3, :cond_0
 
-    .line 5
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     invoke-interface {v0, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     :cond_0
     check-cast v3, Ljava/util/List;
 
-    .line 8
     invoke-interface {p2, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -3141,12 +3017,10 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -3157,7 +3031,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -3173,7 +3046,6 @@
 
     move-result v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -3181,7 +3053,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -3196,14 +3067,12 @@
 
     move-result v1
 
-    .line 6
     invoke-static {v0, v1}, Ljava/lang/Math;->min(FF)F
 
     move-result v0
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
@@ -3242,7 +3111,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -3260,7 +3128,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -3336,7 +3203,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -3352,7 +3218,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -3416,7 +3281,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -3432,31 +3296,25 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     invoke-interface {p1, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_0
     check-cast v2, Ljava/util/List;
 
-    .line 7
     invoke-interface {v2, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -3493,19 +3351,16 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -3514,7 +3369,6 @@
 
     move-result-object v0
 
-    .line 4
     :cond_0
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -3523,7 +3377,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -3532,7 +3385,6 @@
 
     move-result-object v1
 
-    .line 6
     invoke-interface {p1, v0, v1}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result v2
@@ -3546,7 +3398,6 @@
     :cond_1
     return-object v0
 
-    .line 7
     :cond_2
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -3578,7 +3429,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -3659,7 +3509,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -3675,7 +3524,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -3757,7 +3605,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -3773,31 +3620,25 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     invoke-interface {p1, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_0
     check-cast v2, Ljava/util/List;
 
-    .line 7
     invoke-interface {p3, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -3838,12 +3679,10 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -3854,7 +3693,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -3864,7 +3702,6 @@
 
     move-result-object v0
 
-    .line 4
     :cond_1
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -3873,7 +3710,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -3882,7 +3718,6 @@
 
     move-result-object v1
 
-    .line 6
     invoke-interface {p1, v0, v1}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result v2
@@ -3927,7 +3762,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -3945,7 +3779,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -4005,12 +3838,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -4026,7 +3857,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -4080,7 +3910,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$b;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$b;-><init>(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)V
@@ -4115,12 +3944,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -4131,7 +3958,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -4139,7 +3965,6 @@
 
     check-cast v0, Ljava/lang/Comparable;
 
-    .line 4
     :cond_1
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -4148,14 +3973,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/Comparable;
 
-    .line 6
     invoke-interface {v0, v1}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v2
@@ -4193,7 +4016,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -4274,7 +4096,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -4290,7 +4111,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -4323,7 +4143,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -4343,10 +4162,8 @@
 
     if-gez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/collections/s;->W()V
 
-    .line 3
     :cond_0
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -4394,12 +4211,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -4410,7 +4225,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -4422,7 +4236,6 @@
 
     move-result-wide v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -4430,7 +4243,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
@@ -4441,14 +4253,12 @@
 
     move-result-wide v2
 
-    .line 6
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->min(DD)D
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
@@ -4492,12 +4302,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcotlin/f1;->s(I)I
 
     move-result v0
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -4513,7 +4321,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -4559,7 +4366,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -4594,7 +4400,6 @@
 
     if-gez v2, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/collections/s;->V()V
 
     goto :goto_0
@@ -4647,7 +4452,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -4673,7 +4477,6 @@
 
     const/4 v4, 0x1
 
-    .line 2
     invoke-static {v4, v3, v0}, Lcotlin/internal/l;->a(III)Z
 
     move-result v3
@@ -4693,7 +4496,6 @@
 
     throw p0
 
-    .line 3
     :cond_1
     :goto_1
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
@@ -4748,12 +4550,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -4764,7 +4564,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -4776,7 +4575,6 @@
 
     move-result v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -4784,7 +4582,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -4795,14 +4592,12 @@
 
     move-result v1
 
-    .line 6
     invoke-static {v0, v1}, Ljava/lang/Math;->min(FF)F
 
     move-result v0
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
@@ -4848,12 +4643,10 @@
 
     int-to-long v0, v0
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -4869,7 +4662,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -4915,7 +4707,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -4948,7 +4739,6 @@
 
     if-gez v2, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/collections/s;->V()V
 
     goto :goto_0
@@ -5001,7 +4791,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -5029,7 +4818,6 @@
 
     const/4 v5, 0x1
 
-    .line 2
     invoke-static {v5, v4, v0}, Lcotlin/internal/l;->a(III)Z
 
     move-result v4
@@ -5049,7 +4837,6 @@
 
     throw p0
 
-    .line 3
     :cond_1
     :goto_1
     invoke-interface {p1, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
@@ -5120,7 +4907,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt;->S1(Lcotlin/sequences/m;Ljava/util/Comparator;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5167,14 +4953,12 @@
 
     if-nez p1, :cond_1
 
-    .line 1
     invoke-static {}, Lcotlin/sequences/p;->j()Lcotlin/sequences/m;
 
     move-result-object p0
 
     goto :goto_1
 
-    .line 2
     :cond_1
     instance-of v0, p0, Lcotlin/sequences/e;
 
@@ -5188,7 +4972,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_2
     new-instance v0, Lcotlin/sequences/t;
 
@@ -5199,7 +4982,6 @@
     :goto_1
     return-object p0
 
-    .line 4
     :cond_3
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -5253,7 +5035,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -5288,7 +5069,6 @@
 
     if-gez v2, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/collections/s;->V()V
 
     goto :goto_0
@@ -5387,10 +5167,8 @@
 
     invoke-static {p6, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1, p3}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -5414,7 +5192,6 @@
 
     if-le p3, v1, :cond_0
 
-    .line 3
     invoke-interface {p1, p2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
     :cond_0
@@ -5422,7 +5199,6 @@
 
     if-gt p3, p5, :cond_2
 
-    .line 4
     :cond_1
     invoke-static {p1, v0, p7}, Lcotlin/text/m;->b(Ljava/lang/Appendable;Ljava/lang/Object;Lcotlin/jvm/u/l;)V
 
@@ -5433,10 +5209,8 @@
 
     if-le p3, p5, :cond_3
 
-    .line 5
     invoke-interface {p1, p6}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
-    .line 6
     :cond_3
     invoke-interface {p1, p4}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
@@ -5480,12 +5254,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -5496,13 +5268,11 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     :cond_1
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -5511,12 +5281,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 6
     invoke-interface {p1, v0, v1}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result v2
@@ -5568,7 +5336,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/u;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/u;-><init>(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)V
@@ -5599,7 +5366,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -5634,7 +5400,6 @@
 
     if-gez v2, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/collections/s;->V()V
 
     goto :goto_0
@@ -5746,7 +5511,6 @@
 
     move-object p9, v5
 
-    .line 1
     invoke-static/range {p2 .. p9}, Lcotlin/sequences/SequencesKt___SequencesKt;->S0(Lcotlin/sequences/m;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;)Ljava/lang/Appendable;
 
     move-result-object v0
@@ -5789,7 +5553,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$3;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$minus$3;-><init>(Lcotlin/sequences/m;Ljava/lang/Iterable;)V
@@ -5830,7 +5593,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -5846,7 +5608,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p1, v0}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -5878,7 +5639,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -5913,7 +5673,6 @@
 
     if-gez v2, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/collections/s;->V()V
 
     goto :goto_0
@@ -6003,7 +5762,6 @@
 
     invoke-static {p5, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -6064,7 +5822,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;-><init>(Lcotlin/sequences/m;Ljava/lang/Object;)V
@@ -6097,7 +5854,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -6134,7 +5890,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -6169,7 +5924,6 @@
 
     if-gez v2, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/collections/s;->V()V
 
     goto :goto_0
@@ -6270,7 +6024,6 @@
 
     move-object p8, v3
 
-    .line 1
     invoke-static/range {p2 .. p8}, Lcotlin/sequences/SequencesKt___SequencesKt;->U0(Lcotlin/sequences/m;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;)Ljava/lang/String;
 
     move-result-object p0
@@ -6313,7 +6066,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$4;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$minus$4;-><init>(Lcotlin/sequences/m;Lcotlin/sequences/m;)V
@@ -6346,7 +6098,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/sequences/p;->W2(Lcotlin/sequences/m;)Ljava/util/List;
 
     move-result-object p0
@@ -6390,7 +6141,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {p0, p1, p1, v0}, Lcotlin/sequences/SequencesKt___SequencesKt;->Z2(Lcotlin/sequences/m;IIZ)Lcotlin/sequences/m;
 
     move-result-object p0
@@ -6418,24 +6168,20 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -6443,7 +6189,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -6453,7 +6198,6 @@
     :cond_0
     return-object v0
 
-    .line 6
     :cond_1
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -6497,7 +6241,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p1
 
     if-nez v0, :cond_0
@@ -6514,7 +6257,6 @@
 
     return-object p0
 
-    .line 2
     :cond_1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$2;
 
@@ -6548,7 +6290,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -6607,7 +6348,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {p0, p1, p1, v0, p2}, Lcotlin/sequences/SequencesKt___SequencesKt;->a3(Lcotlin/sequences/m;IIZLcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object p0
@@ -6647,7 +6387,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -6668,7 +6407,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -6694,7 +6432,6 @@
 
     return-object v0
 
-    .line 3
     :cond_2
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -6722,7 +6459,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt;->U1(Lcotlin/sequences/m;Ljava/lang/Object;)Lcotlin/sequences/m;
 
     move-result-object p0
@@ -6755,12 +6491,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -6804,7 +6538,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt;->P0(Lcotlin/sequences/m;Ljava/lang/Object;)I
 
     move-result p0
@@ -6842,7 +6575,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -6864,10 +6596,8 @@
 
     if-gez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/collections/s;->W()V
 
-    .line 3
     :cond_0
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -6906,7 +6636,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -6945,7 +6674,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
@@ -6983,7 +6711,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -7035,12 +6762,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -7051,13 +6776,11 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -7065,7 +6788,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -7108,7 +6830,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -7178,7 +6899,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, v0}, Lcotlin/collections/SlidingWindowKt;->c(Lcotlin/sequences/m;IIZZ)Lcotlin/sequences/m;
 
     move-result-object p0
@@ -7218,7 +6938,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -7317,7 +7036,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -7336,7 +7054,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -7398,7 +7115,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$onEach$1;
 
     invoke-direct {v0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$onEach$1;-><init>(Lcotlin/jvm/u/l;)V
@@ -7455,7 +7171,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {p0, p1, p2, p3, v0}, Lcotlin/collections/SlidingWindowKt;->c(Lcotlin/sequences/m;IIZZ)Lcotlin/sequences/m;
 
     move-result-object p0
@@ -7492,7 +7207,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/sequences/SequencesKt___SequencesKt$distinct$1;->INSTANCE:Lcotlin/sequences/SequencesKt___SequencesKt$distinct$1;
 
     invoke-static {p0, v0}, Lcotlin/sequences/SequencesKt___SequencesKt;->c0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
@@ -7539,7 +7253,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/w;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/w;-><init>(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)V
@@ -7590,7 +7303,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$onEachIndexed$1;
 
     invoke-direct {v0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$onEachIndexed$1;-><init>(Lcotlin/jvm/u/p;)V
@@ -7618,7 +7330,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-static {p0, p1, p2, p3}, Lcotlin/sequences/SequencesKt___SequencesKt;->Z2(Lcotlin/sequences/m;IIZ)Lcotlin/sequences/m;
 
@@ -7664,7 +7375,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/c;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/c;-><init>(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)V
@@ -7711,7 +7421,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/v;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/v;-><init>(Lcotlin/sequences/m;Lcotlin/jvm/u/p;)V
@@ -7759,17 +7468,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -7785,7 +7491,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -7798,18 +7503,15 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance p0, Lcotlin/Pair;
 
@@ -7834,7 +7536,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlin/sequences/SequencesKt___SequencesKt;->a3(Lcotlin/sequences/m;IIZLcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
@@ -7884,7 +7585,6 @@
 
     goto :goto_1
 
-    .line 1
     :cond_1
     instance-of v0, p0, Lcotlin/sequences/e;
 
@@ -7898,7 +7598,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_2
     new-instance v0, Lcotlin/sequences/d;
 
@@ -7909,7 +7608,6 @@
     :goto_1
     return-object p0
 
-    .line 3
     :cond_3
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -7979,7 +7677,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/v;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/v;-><init>(Lcotlin/sequences/m;Lcotlin/jvm/u/p;)V
@@ -8034,7 +7731,6 @@
 
     aput-object p0, v0, v1
 
-    .line 1
     invoke-static {p1}, Lcotlin/collections/s;->n1(Ljava/lang/Iterable;)Lcotlin/sequences/m;
 
     move-result-object p0
@@ -8080,7 +7776,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/k;
 
     invoke-direct {v0, p0}, Lcotlin/sequences/k;-><init>(Lcotlin/sequences/m;)V
@@ -8125,7 +7820,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/f;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/f;-><init>(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)V
@@ -8180,7 +7874,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -8227,7 +7920,6 @@
 
     throw p0
 
-    .line 2
     :cond_1
     :goto_1
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -8290,7 +7982,6 @@
 
     aput-object p1, v2, v1
 
-    .line 1
     invoke-static {v2}, Lcotlin/sequences/SequencesKt__SequencesKt;->t([Ljava/lang/Object;)Lcotlin/sequences/m;
 
     move-result-object p1
@@ -8346,7 +8037,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/l;
 
     sget-object v1, Lcotlin/sequences/SequencesKt___SequencesKt$zip$1;->INSTANCE:Lcotlin/sequences/SequencesKt___SequencesKt$zip$1;
@@ -8376,7 +8066,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$elementAt$1;
 
     invoke-direct {v0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$elementAt$1;-><init>(I)V
@@ -8435,7 +8124,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -8463,7 +8151,6 @@
 
     const/4 v5, 0x1
 
-    .line 2
     invoke-static {v5, v4, v0}, Lcotlin/internal/l;->a(III)Z
 
     move-result v4
@@ -8550,7 +8237,6 @@
 
     aput-object p1, v0, p0
 
-    .line 1
     invoke-static {v0}, Lcotlin/sequences/SequencesKt__SequencesKt;->t([Ljava/lang/Object;)Lcotlin/sequences/m;
 
     move-result-object p0
@@ -8611,7 +8297,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/l;
 
     invoke-direct {v0, p0, p1, p2}, Lcotlin/sequences/l;-><init>(Lcotlin/sequences/m;Lcotlin/sequences/m;Lcotlin/jvm/u/p;)V
@@ -8653,7 +8338,6 @@
 
     if-gez p1, :cond_0
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -8664,7 +8348,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
@@ -8672,7 +8355,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -8680,7 +8362,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -8696,7 +8377,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -8746,7 +8426,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/w;
 
     invoke-direct {v0, p0, p1}, Lcotlin/sequences/w;-><init>(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)V
@@ -8791,7 +8470,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcotlin/collections/k;->t([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -8833,7 +8511,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/sequences/SequencesKt___SequencesKt$zipWithNext$1;->INSTANCE:Lcotlin/sequences/SequencesKt___SequencesKt$zipWithNext$1;
 
     invoke-static {p0, v0}, Lcotlin/sequences/SequencesKt___SequencesKt;->h3(Lcotlin/sequences/m;Lcotlin/jvm/u/p;)Lcotlin/sequences/m;
@@ -8872,7 +8549,6 @@
 
     return-object v0
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
@@ -8880,7 +8556,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -8888,7 +8563,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
@@ -8953,7 +8627,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -8970,7 +8643,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -9002,7 +8674,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt;->e2(Lcotlin/sequences/m;Ljava/lang/Object;)Lcotlin/sequences/m;
 
     move-result-object p0
@@ -9051,7 +8722,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$zipWithNext$2;
 
     const/4 v1, 0x0
@@ -9102,7 +8772,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/h;
 
     const/4 v1, 0x1
@@ -9157,7 +8826,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -9173,7 +8841,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -9216,24 +8883,20 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -9241,7 +8904,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -9255,7 +8917,6 @@
     :cond_0
     return-object v0
 
-    .line 6
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -9305,7 +8966,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/w;
 
     new-instance v1, Lcotlin/sequences/h;
@@ -9364,7 +9024,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/sequences/SequencesKt___SequencesKt;->w1(Lcotlin/sequences/m;)Ljava/lang/Comparable;
 
     move-result-object p0
@@ -9404,19 +9063,16 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -9425,7 +9081,6 @@
 
     const/4 v2, 0x1
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -9441,7 +9096,6 @@
 
     const/4 v5, 0x0
 
-    .line 5
     invoke-static {v1, v4, v5}, Lcotlin/internal/l;->a(III)Z
 
     move-result v4
@@ -9482,7 +9136,6 @@
     :cond_2
     return-object v0
 
-    .line 6
     :cond_3
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -9540,7 +9193,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -9587,7 +9239,6 @@
 
     throw p0
 
-    .line 2
     :cond_1
     :goto_1
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -9656,7 +9307,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/sequences/SequencesKt___SequencesKt;->x1(Lcotlin/sequences/m;)Ljava/lang/Double;
 
     move-result-object p0
@@ -9703,12 +9353,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -9719,7 +9367,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -9729,7 +9376,6 @@
 
     const/4 v2, 0x1
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -9745,7 +9391,6 @@
 
     const/4 v5, 0x0
 
-    .line 5
     invoke-static {v1, v4, v5}, Lcotlin/internal/l;->a(III)Z
 
     move-result v4
@@ -9805,7 +9450,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
 
     sget-object v0, Lcotlin/sequences/SequencesKt___SequencesKt$filterIsInstance$1;->INSTANCE:Lcotlin/sequences/SequencesKt___SequencesKt$filterIsInstance$1;
@@ -9860,7 +9504,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/sequences/SequencesKt___SequencesKt;->y1(Lcotlin/sequences/m;)Ljava/lang/Float;
 
     move-result-object p0
@@ -9911,12 +9554,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -9927,13 +9568,11 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -9941,7 +9580,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -9978,7 +9616,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -10060,12 +9697,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -10076,13 +9711,11 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
@@ -10094,7 +9727,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-interface {p1, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -10102,20 +9734,17 @@
 
     check-cast v1, Ljava/lang/Comparable;
 
-    .line 6
     :cond_2
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 7
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/Comparable;
 
-    .line 8
     invoke-interface {v1, v3}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v4
@@ -10126,7 +9755,6 @@
 
     move-object v1, v3
 
-    .line 9
     :cond_3
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -10165,7 +9793,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$requireNoNulls$1;
 
     invoke-direct {v0, p0}, Lcotlin/sequences/SequencesKt___SequencesKt$requireNoNulls$1;-><init>(Lcotlin/sequences/m;)V
@@ -10214,7 +9841,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/h;
 
     const/4 v1, 0x0
@@ -10263,12 +9889,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -10279,13 +9903,11 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
@@ -10294,7 +9916,6 @@
 
     return-object v0
 
-    .line 5
     :cond_1
     invoke-interface {p1, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -10302,20 +9923,17 @@
 
     check-cast v1, Ljava/lang/Comparable;
 
-    .line 6
     :cond_2
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 7
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/Comparable;
 
-    .line 8
     invoke-interface {v1, v3}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v4
@@ -10326,7 +9944,6 @@
 
     move-object v1, v3
 
-    .line 9
     :cond_3
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -10378,7 +9995,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFold$1;
 
     const/4 v1, 0x0
@@ -10417,7 +10033,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/sequences/SequencesKt___SequencesKt$filterNotNull$1;->INSTANCE:Lcotlin/sequences/SequencesKt___SequencesKt$filterNotNull$1;
 
     invoke-static {p0, v0}, Lcotlin/sequences/SequencesKt___SequencesKt;->n0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
@@ -10457,19 +10072,16 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -10484,7 +10096,6 @@
 
     move-result-wide v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -10492,7 +10103,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
@@ -10507,7 +10117,6 @@
 
     move-result-wide v2
 
-    .line 6
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->max(DD)D
 
     move-result-wide v0
@@ -10517,7 +10126,6 @@
     :cond_0
     return-wide v0
 
-    .line 7
     :cond_1
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -10569,7 +10177,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;
 
     const/4 v1, 0x0
@@ -10616,7 +10223,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -10669,19 +10275,16 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -10696,7 +10299,6 @@
 
     move-result v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -10704,7 +10306,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -10719,7 +10320,6 @@
 
     move-result v1
 
-    .line 6
     invoke-static {v0, v1}, Ljava/lang/Math;->max(FF)F
 
     move-result v0
@@ -10729,7 +10329,6 @@
     :cond_0
     return v0
 
-    .line 7
     :cond_1
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -10783,7 +10382,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$runningReduce$1;
 
     const/4 v1, 0x0
@@ -10842,7 +10440,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -10905,19 +10502,16 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -10928,7 +10522,6 @@
 
     check-cast v0, Ljava/lang/Comparable;
 
-    .line 4
     :cond_0
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -10937,7 +10530,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -10948,7 +10540,6 @@
 
     check-cast v1, Ljava/lang/Comparable;
 
-    .line 6
     invoke-interface {v0, v1}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v2
@@ -10962,7 +10553,6 @@
     :cond_1
     return-object v0
 
-    .line 7
     :cond_2
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -11012,7 +10602,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$runningReduceIndexed$1;
 
     const/4 v1, 0x0
@@ -11071,7 +10660,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -11134,12 +10722,10 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -11150,7 +10736,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -11162,7 +10747,6 @@
 
     check-cast v0, Ljava/lang/Comparable;
 
-    .line 4
     :cond_1
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -11171,7 +10755,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -11182,7 +10765,6 @@
 
     check-cast v1, Ljava/lang/Comparable;
 
-    .line 6
     invoke-interface {v0, v1}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v2
@@ -11244,7 +10826,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/sequences/SequencesKt___SequencesKt;->n2(Lcotlin/sequences/m;Ljava/lang/Object;Lcotlin/jvm/u/p;)Lcotlin/sequences/m;
 
     move-result-object p0
@@ -11271,7 +10852,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -11335,12 +10915,10 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -11351,7 +10929,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -11367,7 +10944,6 @@
 
     move-result-wide v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -11375,7 +10951,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
@@ -11390,14 +10965,12 @@
 
     move-result-wide v2
 
-    .line 6
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->max(DD)D
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
@@ -11455,7 +11028,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/sequences/SequencesKt___SequencesKt;->o2(Lcotlin/sequences/m;Ljava/lang/Object;Lcotlin/jvm/u/q;)Lcotlin/sequences/m;
 
     move-result-object p0
@@ -11482,7 +11054,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -11501,7 +11072,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -11549,12 +11119,10 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -11565,7 +11133,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -11581,7 +11148,6 @@
 
     move-result v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -11589,7 +11155,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -11604,14 +11169,12 @@
 
     move-result v1
 
-    .line 6
     invoke-static {v0, v1}, Ljava/lang/Math;->max(FF)F
 
     move-result v0
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
@@ -11671,7 +11234,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt;->p2(Lcotlin/sequences/m;Lcotlin/jvm/u/p;)Lcotlin/sequences/m;
 
     move-result-object p0
@@ -11699,26 +11261,22 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 
-    .line 4
     :cond_0
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -11757,19 +11315,16 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -11778,7 +11333,6 @@
 
     move-result-object v0
 
-    .line 4
     :cond_0
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -11787,7 +11341,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -11796,7 +11349,6 @@
 
     move-result-object v1
 
-    .line 6
     invoke-interface {p1, v0, v1}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result v2
@@ -11810,7 +11362,6 @@
     :cond_1
     return-object v0
 
-    .line 7
     :cond_2
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -11872,7 +11423,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt;->q2(Lcotlin/sequences/m;Lcotlin/jvm/u/q;)Lcotlin/sequences/m;
 
     move-result-object p0
@@ -11912,7 +11462,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -11942,7 +11491,6 @@
 
     return-object v0
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -11981,12 +11529,10 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -11997,7 +11543,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -12007,7 +11552,6 @@
 
     move-result-object v0
 
-    .line 4
     :cond_1
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -12016,7 +11560,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -12025,7 +11568,6 @@
 
     move-result-object v1
 
-    .line 6
     invoke-interface {p1, v0, v1}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result v2
@@ -12060,24 +11602,20 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result p0
@@ -12086,7 +11624,6 @@
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -12096,7 +11633,6 @@
 
     throw p0
 
-    .line 6
     :cond_1
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -12130,12 +11666,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -12146,7 +11680,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -12182,12 +11715,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -12198,7 +11729,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -12206,7 +11736,6 @@
 
     check-cast v0, Ljava/lang/Comparable;
 
-    .line 4
     :cond_1
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -12215,14 +11744,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/Comparable;
 
-    .line 6
     invoke-interface {v0, v1}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v2
@@ -12269,7 +11796,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -12290,7 +11816,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -12313,7 +11838,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -12328,7 +11852,6 @@
 
     return-object v0
 
-    .line 4
     :cond_3
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -12374,7 +11897,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -12437,12 +11959,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -12453,7 +11973,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -12465,7 +11984,6 @@
 
     move-result-wide v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -12473,7 +11991,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
@@ -12484,14 +12001,12 @@
 
     move-result-wide v2
 
-    .line 6
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->max(DD)D
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
@@ -12523,12 +12038,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -12539,13 +12052,11 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result p0
@@ -12597,7 +12108,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/i;
 
     sget-object v1, Lcotlin/sequences/SequencesKt___SequencesKt$flatMap$2;->INSTANCE:Lcotlin/sequences/SequencesKt___SequencesKt$flatMap$2;
@@ -12634,12 +12144,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -12650,7 +12158,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -12662,7 +12169,6 @@
 
     move-result v0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -12670,7 +12176,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -12681,14 +12186,12 @@
 
     move-result v1
 
-    .line 6
     invoke-static {v0, v1}, Ljava/lang/Math;->max(FF)F
 
     move-result v0
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
@@ -12732,7 +12235,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -12755,7 +12257,6 @@
 
     move-result-object v3
 
-    .line 2
     invoke-interface {p1, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -12840,7 +12341,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/sequences/SequencesKt___SequencesKt$flatMapIndexed$1;->INSTANCE:Lcotlin/sequences/SequencesKt___SequencesKt$flatMapIndexed$1;
 
     invoke-static {p0, p1, v0}, Lcotlin/sequences/SequencesKt__SequencesKt;->k(Lcotlin/sequences/m;Lcotlin/jvm/u/p;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
@@ -12895,7 +12395,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt;->A1(Lcotlin/sequences/m;Ljava/util/Comparator;)Ljava/lang/Object;
 
     move-result-object p0
@@ -12928,7 +12427,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$c;
 
     invoke-direct {v0, p0}, Lcotlin/sequences/SequencesKt___SequencesKt$c;-><init>(Lcotlin/sequences/m;)V

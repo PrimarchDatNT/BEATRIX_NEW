@@ -32,23 +32,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;-><init>()V
 
     const-string v0, "Null clock"
 
-    .line 2
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/c;->d:Lcom/google/android/datatransport/k/y/a;
 
     const-string p1, "Null values"
 
-    .line 4
     invoke-static {p2, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 5
     iput-object p2, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/c;->e:Ljava/util/Map;
 
     return-void
@@ -59,7 +54,6 @@
 .method d()Lcom/google/android/datatransport/k/y/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/c;->d:Lcom/google/android/datatransport/k/y/a;
 
     return-object v0
@@ -74,7 +68,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;
 
@@ -82,10 +75,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/c;->d:Lcom/google/android/datatransport/k/y/a;
 
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;->d()Lcom/google/android/datatransport/k/y/a;
@@ -100,7 +91,6 @@
 
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/c;->e:Ljava/util/Map;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;->h()Ljava/util/Map;
 
     move-result-object p1
@@ -135,7 +125,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/c;->e:Ljava/util/Map;
 
     return-object v0
@@ -144,7 +133,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/c;->d:Lcom/google/android/datatransport/k/y/a;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -157,7 +145,6 @@
 
     mul-int v0, v0, v1
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/c;->e:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->hashCode()I
@@ -172,7 +159,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

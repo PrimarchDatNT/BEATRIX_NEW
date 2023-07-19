@@ -102,42 +102,30 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceAnalysisXModule/MTFaceAnalysisX$XEyebrow;->eyebrow_type_left:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceAnalysisXModule/MTFaceAnalysisX$XEyebrow;->eyebrow_type_right:I
 
-    .line 4
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceAnalysisXModule/MTFaceAnalysisX$XEyebrow;->eyebrow_thickness_left:I
 
-    .line 5
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceAnalysisXModule/MTFaceAnalysisX$XEyebrow;->eyebrow_thickness_right:I
 
-    .line 6
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceAnalysisXModule/MTFaceAnalysisX$XEyebrow;->eyebrow_distribution_left:I
 
-    .line 7
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceAnalysisXModule/MTFaceAnalysisX$XEyebrow;->eyebrow_distribution_right:I
 
-    .line 8
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceAnalysisXModule/MTFaceAnalysisX$XEyebrow;->eyebrow_space:I
 
-    .line 9
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceAnalysisXModule/MTFaceAnalysisX$XEyebrow;->eyebrow_eye_space_left:I
 
-    .line 10
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceAnalysisXModule/MTFaceAnalysisX$XEyebrow;->eyebrow_eye_space_right:I
 
-    .line 11
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceAnalysisXModule/MTFaceAnalysisX$XEyebrow;->eyebrow_width_left:I
 
-    .line 12
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceAnalysisXModule/MTFaceAnalysisX$XEyebrow;->eyebrow_width_right:I
 
     return-void

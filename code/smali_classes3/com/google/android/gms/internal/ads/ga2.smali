@@ -27,7 +27,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/da2;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/ga2;-><init>()V
 
     return-void
@@ -47,7 +45,6 @@
 .method public final a()V
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->g:J
 
     const-wide v2, -0x7fffffffffffffffL    # -4.9E-324
@@ -58,7 +55,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ga2;->a:Landroid/media/AudioTrack;
 
@@ -70,31 +66,24 @@
 .method public b(Landroid/media/AudioTrack;Z)V
     .locals 2
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ga2;->a:Landroid/media/AudioTrack;
 
-    .line 2
     iput-boolean p2, p0, Lcom/google/android/gms/internal/ads/ga2;->b:Z
 
     const-wide v0, -0x7fffffffffffffffL    # -4.9E-324
 
-    .line 3
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->g:J
 
     const-wide/16 v0, 0x0
 
-    .line 4
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->d:J
 
-    .line 5
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->e:J
 
-    .line 6
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->f:J
 
     if-eqz p1, :cond_0
 
-    .line 7
     invoke-virtual {p1}, Landroid/media/AudioTrack;->getSampleRate()I
 
     move-result p1
@@ -108,14 +97,12 @@
 .method public final c(J)V
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/ga2;->g()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->h:J
 
-    .line 2
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v0
@@ -126,10 +113,8 @@
 
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->g:J
 
-    .line 3
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/ga2;->i:J
 
-    .line 4
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ga2;->a:Landroid/media/AudioTrack;
 
     invoke-virtual {p1}, Landroid/media/AudioTrack;->stop()V
@@ -148,7 +133,6 @@
 .method public e()J
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -159,7 +143,6 @@
 .method public f()J
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -170,7 +153,6 @@
 .method public final g()J
     .locals 8
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->g:J
 
     const-wide v2, -0x7fffffffffffffffL    # -4.9E-324
@@ -179,7 +161,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v0
@@ -192,7 +173,6 @@
 
     sub-long/2addr v0, v2
 
-    .line 3
     iget v2, p0, Lcom/google/android/gms/internal/ads/ga2;->c:I
 
     int-to-long v2, v2
@@ -203,7 +183,6 @@
 
     div-long/2addr v0, v2
 
-    .line 4
     iget-wide v2, p0, Lcom/google/android/gms/internal/ads/ga2;->i:J
 
     iget-wide v4, p0, Lcom/google/android/gms/internal/ads/ga2;->h:J
@@ -216,7 +195,6 @@
 
     return-wide v0
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ga2;->a:Landroid/media/AudioTrack;
 
@@ -235,7 +213,6 @@
     :cond_1
     const-wide v4, 0xffffffffL
 
-    .line 6
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ga2;->a:Landroid/media/AudioTrack;
 
     invoke-virtual {v1}, Landroid/media/AudioTrack;->getPlaybackHeadPosition()I
@@ -246,7 +223,6 @@
 
     and-long/2addr v4, v6
 
-    .line 7
     iget-boolean v1, p0, Lcom/google/android/gms/internal/ads/ga2;->b:Z
 
     if-eqz v1, :cond_3
@@ -259,18 +235,15 @@
 
     if-nez v0, :cond_2
 
-    .line 8
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->d:J
 
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->f:J
 
-    .line 9
     :cond_2
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->f:J
 
     add-long/2addr v4, v0
 
-    .line 10
     :cond_3
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->d:J
 
@@ -278,7 +251,6 @@
 
     if-lez v2, :cond_4
 
-    .line 11
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->e:J
 
     const-wide/16 v2, 0x1
@@ -287,11 +259,9 @@
 
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->e:J
 
-    .line 12
     :cond_4
     iput-wide v4, p0, Lcom/google/android/gms/internal/ads/ga2;->d:J
 
-    .line 13
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/ga2;->e:J
 
     const/16 v2, 0x20
@@ -306,7 +276,6 @@
 .method public final h()J
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/ga2;->g()J
 
     move-result-wide v0

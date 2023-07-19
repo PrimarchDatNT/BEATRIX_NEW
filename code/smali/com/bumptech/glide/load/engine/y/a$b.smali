@@ -28,28 +28,24 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/engine/y/a$b$a;
 
     invoke-direct {v0}, Lcom/bumptech/glide/load/engine/y/a$b$a;-><init>()V
 
     sput-object v0, Lcom/bumptech/glide/load/engine/y/a$b;->a:Lcom/bumptech/glide/load/engine/y/a$b;
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/load/engine/y/a$b$b;
 
     invoke-direct {v0}, Lcom/bumptech/glide/load/engine/y/a$b$b;-><init>()V
 
     sput-object v0, Lcom/bumptech/glide/load/engine/y/a$b;->b:Lcom/bumptech/glide/load/engine/y/a$b;
 
-    .line 3
     new-instance v1, Lcom/bumptech/glide/load/engine/y/a$b$c;
 
     invoke-direct {v1}, Lcom/bumptech/glide/load/engine/y/a$b$c;-><init>()V
 
     sput-object v1, Lcom/bumptech/glide/load/engine/y/a$b;->c:Lcom/bumptech/glide/load/engine/y/a$b;
 
-    .line 4
     sput-object v0, Lcom/bumptech/glide/load/engine/y/a$b;->d:Lcom/bumptech/glide/load/engine/y/a$b;
 
     return-void

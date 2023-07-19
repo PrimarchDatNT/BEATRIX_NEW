@@ -49,7 +49,6 @@
 
     const v0, 0x8b30
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/studio/shader/BaseShader;-><init>(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/shader/l;->n:Lcom/commsource/studio/shader/l$a;
@@ -64,7 +63,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/shader/l$a;
 
     invoke-direct {p1}, Lcom/commsource/studio/shader/l$a;-><init>()V
@@ -86,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "precision highp float;\n\nvarying vec2 v_textureCoordinates;\n\nuniform sampler2D maskTexture;//\u5706\u5f62\u906e\u7f69\nuniform highp float opacity;\n\nvoid main()\n{\n    float mask = texture2D(maskTexture,v_textureCoordinates).r;\n    gl_FragColor = vec4(opacity * mask, 0.0, 0.0, 1.0);\n}"
@@ -103,7 +100,6 @@
 
     const-string v1, "maskTexture"
 
-    .line 1
     invoke-static {p1, v1}, Landroid/opengl/GLES20;->glGetUniformLocation(ILjava/lang/String;)I
 
     move-result v1
@@ -112,14 +108,12 @@
 
     const-string v1, "opacity"
 
-    .line 2
     invoke-static {p1, v1}, Landroid/opengl/GLES20;->glGetUniformLocation(ILjava/lang/String;)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/studio/shader/l;->m:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -134,10 +128,8 @@
 
     const v1, 0x84c0
 
-    .line 1
     invoke-static {v1}, Landroid/opengl/GLES20;->glActiveTexture(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/shader/l;->n:Lcom/commsource/studio/shader/l$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/l$a;->a()I
@@ -148,14 +140,12 @@
 
     invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 3
     iget v1, p0, Lcom/commsource/studio/shader/l;->l:I
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Landroid/opengl/GLES20;->glUniform1i(II)V
 
-    .line 4
     iget v1, p0, Lcom/commsource/studio/shader/l;->m:I
 
     iget-object v2, p0, Lcom/commsource/studio/shader/l;->n:Lcom/commsource/studio/shader/l$a;
@@ -166,7 +156,6 @@
 
     invoke-static {v1, v2}, Landroid/opengl/GLES20;->glUniform1f(IF)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -181,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/shader/l;->n:Lcom/commsource/studio/shader/l$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/template/bean/Sticker;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/sticker/StickerPagerFragment$c;->b(ILcom/meitu/template/bean/Sticker;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/sticker/StickerPagerFragment$c;->a:Lcom/commsource/studio/sticker/StickerPagerFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/sticker/StickerPagerFragment;->A(Lcom/commsource/studio/sticker/StickerPagerFragment;)Lcom/commsource/studio/sticker/StickerViewModel;
@@ -86,7 +84,6 @@
 
     invoke-virtual {v0, p2}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

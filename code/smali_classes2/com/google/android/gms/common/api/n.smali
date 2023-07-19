@@ -28,12 +28,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/r;-><init>()V
 
     const-string v0, "Activity must not be null"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -42,7 +40,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/common/api/n;->a:Landroid/app/Activity;
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/common/api/n;->b:I
 
     return-void
@@ -59,14 +56,12 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->M()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/n;->a:Landroid/app/Activity;
 
@@ -85,10 +80,8 @@
 
     const-string v1, "Failed to start resolution"
 
-    .line 3
     invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 4
     new-instance p1, Lcom/google/android/gms/common/api/Status;
 
     const/16 v0, 0x8
@@ -99,7 +92,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/n;->d(Lcom/google/android/gms/common/api/Status;)V
 

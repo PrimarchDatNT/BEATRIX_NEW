@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$f;->a:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -55,17 +53,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/media/encoder/a$m;->j:I
 
     if-ne p1, v1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$f;->a:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {p1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$1700(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -79,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/media/encoder/a$m;->j:I
 
     if-eq p1, v1, :cond_0
@@ -88,13 +82,11 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$f;->a:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {p1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$1700(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -108,12 +100,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/media/encoder/a$m;->i:I
 
     if-eq p1, v1, :cond_2
 
-    .line 2
     sget v1, Lcom/meitu/media/encoder/a$m;->g:I
 
     if-eq p1, v1, :cond_0
@@ -122,19 +112,16 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$f;->a:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {p1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$1700(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -154,7 +141,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

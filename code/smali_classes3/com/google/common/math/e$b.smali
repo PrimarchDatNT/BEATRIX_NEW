@@ -24,13 +24,10 @@
 .method private constructor <init>(DD)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-wide p1, p0, Lcom/google/common/math/e$b;->a:D
 
-    .line 4
     iput-wide p3, p0, Lcom/google/common/math/e$b;->b:D
 
     return-void
@@ -39,7 +36,6 @@
 .method synthetic constructor <init>(DDLcom/google/common/math/e$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/common/math/e$b;-><init>(DD)V
 
     return-void
@@ -50,7 +46,6 @@
 .method public a(DD)Lcom/google/common/math/e;
     .locals 5
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/common/math/c;->d(D)Z
 
     move-result v0
@@ -77,14 +72,12 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     iget-wide v3, p0, Lcom/google/common/math/e$b;->a:D
 
     cmpl-double v0, p1, v3
 
     if-nez v0, :cond_2
 
-    .line 3
     iget-wide p1, p0, Lcom/google/common/math/e$b;->b:D
 
     cmpl-double v0, p3, p1
@@ -99,7 +92,6 @@
     :goto_1
     invoke-static {v1}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 4
     new-instance p1, Lcom/google/common/math/e$e;
 
     iget-wide p2, p0, Lcom/google/common/math/e$b;->a:D
@@ -108,7 +100,6 @@
 
     return-object p1
 
-    .line 5
     :cond_2
     iget-wide v0, p0, Lcom/google/common/math/e$b;->b:D
 
@@ -128,7 +119,6 @@
 .method public b(D)Lcom/google/common/math/e;
     .locals 4
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Double;->isNaN(D)Z
 
     move-result v0
@@ -137,14 +127,12 @@
 
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     invoke-static {p1, p2}, Lcom/google/common/math/c;->d(D)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-wide v0, p0, Lcom/google/common/math/e$b;->b:D
 
     iget-wide v2, p0, Lcom/google/common/math/e$b;->a:D
@@ -153,14 +141,12 @@
 
     sub-double/2addr v0, v2
 
-    .line 4
     new-instance v2, Lcom/google/common/math/e$d;
 
     invoke-direct {v2, p1, p2, v0, v1}, Lcom/google/common/math/e$d;-><init>(DD)V
 
     return-object v2
 
-    .line 5
     :cond_0
     new-instance p1, Lcom/google/common/math/e$e;
 

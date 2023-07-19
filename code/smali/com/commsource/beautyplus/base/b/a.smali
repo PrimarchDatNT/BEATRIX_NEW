@@ -49,12 +49,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x6
 
-    .line 2
     iput v0, p0, Lcom/commsource/beautyplus/base/b/a;->a:I
 
     return-void
@@ -78,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/base/b/a;->b:Lcom/commsource/beautyplus/base/b/a$a;
 
     return-object v0
@@ -94,7 +91,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/base/b/a;->c:Lcom/commsource/beautyplus/base/b/a$c;
 
     return-object v0
@@ -103,7 +99,6 @@
 .method d()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/base/b/a;->b:Lcom/commsource/beautyplus/base/b/a$a;
 
     invoke-virtual {p0, v0}, Lcom/commsource/beautyplus/base/b/a;->a(Lcom/commsource/beautyplus/base/b/a$a;)V
@@ -119,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/base/b/a;->b:Lcom/commsource/beautyplus/base/b/a$a;
 
     return-void
@@ -135,7 +129,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/base/b/a;->c:Lcom/commsource/beautyplus/base/b/a$c;
 
     return-void

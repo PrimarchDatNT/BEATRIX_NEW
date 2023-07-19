@@ -26,7 +26,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/meitu/template/feedback/util/c$a;->g:Ljava/lang/String;
 
     iput-object p3, p0, Lcom/meitu/template/feedback/util/c$a;->p:Landroid/content/Context;
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/template/feedback/util/c;->a()Ljava/util/Map;
 
     move-result-object v1
@@ -64,10 +62,8 @@
 
     const-string v2, "upload"
 
-    .line 2
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/template/feedback/util/c$a;->p:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/meitu/template/feedback/util/c$a;->g:Ljava/lang/String;
@@ -76,7 +72,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/template/feedback/util/c;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

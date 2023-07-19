@@ -47,14 +47,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$b$b;->a:Lcom/commsource/beautyplus/web/CropPhotoActivity$b;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/web/CropPhotoActivity$b;->p:Lcom/commsource/beautyplus/web/CropPhotoActivity;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/BaseActivity;->r0()V
 
-    .line 2
     new-instance v1, Ljava/io/File;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$b$b;->b:Ljava/lang/String;
@@ -67,7 +65,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$b$b;->a:Lcom/commsource/beautyplus/web/CropPhotoActivity$b;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/web/CropPhotoActivity$b;->p:Lcom/commsource/beautyplus/web/CropPhotoActivity;
@@ -78,7 +75,6 @@
 
     invoke-direct {v3}, Landroid/content/Intent;-><init>()V
 
-    .line 4
     new-instance v4, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-direct {v4}, Lcom/commsource/cloudalbum/bean/CAImageInfo;-><init>()V
@@ -91,10 +87,8 @@
 
     invoke-virtual {v3, v5, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$b$b;->a:Lcom/commsource/beautyplus/web/CropPhotoActivity$b;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/web/CropPhotoActivity$b;->p:Lcom/commsource/beautyplus/web/CropPhotoActivity;
@@ -106,10 +100,8 @@
     :cond_0
     sget v1, Lcom/res/provider/ResSTRING;->save_image_failure:I
 
-    .line 7
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

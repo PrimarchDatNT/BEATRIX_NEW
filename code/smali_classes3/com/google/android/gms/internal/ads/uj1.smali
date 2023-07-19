@@ -14,10 +14,8 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v1, 0x1
@@ -34,7 +32,6 @@
 .method public final newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/lang/Thread;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/uj1;->a:Ljava/util/concurrent/atomic/AtomicInteger;

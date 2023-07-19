@@ -31,7 +31,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-static {}, Lcom/google/api/Distribution$BucketOptions;->ah()Lcom/google/api/Distribution$BucketOptions;
 
     move-result-object v0
@@ -44,7 +43,6 @@
 .method synthetic constructor <init>(Lcom/google/api/Distribution$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/Distribution$BucketOptions$a;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 .method public Cc()Lcom/google/api/Distribution$BucketOptions$f;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -70,10 +67,8 @@
 .method public Qg()Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -86,10 +81,8 @@
 .method public Rg()Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -102,7 +95,6 @@
 .method public Sa()Lcom/google/api/Distribution$BucketOptions$d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -117,10 +109,8 @@
 .method public Sg()Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -133,10 +123,8 @@
 .method public Tg()Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -149,10 +137,8 @@
 .method public Ug(Lcom/google/api/Distribution$BucketOptions$b;)Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -165,10 +151,8 @@
 .method public Vg(Lcom/google/api/Distribution$BucketOptions$d;)Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -181,10 +165,8 @@
 .method public Wg(Lcom/google/api/Distribution$BucketOptions$f;)Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -197,10 +179,8 @@
 .method public Xg(Lcom/google/api/Distribution$BucketOptions$b$a;)Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -213,10 +193,8 @@
 .method public Yg(Lcom/google/api/Distribution$BucketOptions$b;)Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -229,10 +207,8 @@
 .method public Zg(Lcom/google/api/Distribution$BucketOptions$d$a;)Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -245,10 +221,8 @@
 .method public ah(Lcom/google/api/Distribution$BucketOptions$d;)Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -261,10 +235,8 @@
 .method public bh(Lcom/google/api/Distribution$BucketOptions$f$a;)Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -277,10 +249,8 @@
 .method public ch(Lcom/google/api/Distribution$BucketOptions$f;)Lcom/google/api/Distribution$BucketOptions$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -293,7 +263,6 @@
 .method public td()Lcom/google/api/Distribution$BucketOptions$OptionsCase;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;
@@ -308,7 +277,6 @@
 .method public u9()Lcom/google/api/Distribution$BucketOptions$b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lcom/google/api/Distribution$BucketOptions;

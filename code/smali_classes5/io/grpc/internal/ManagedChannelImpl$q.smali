@@ -42,12 +42,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "executorPool"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -62,7 +60,6 @@
 .method static synthetic a(Lio/grpc/internal/ManagedChannelImpl$q;)Lio/grpc/internal/t1;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/ManagedChannelImpl$q;->a:Lio/grpc/internal/t1;
 
     return-object p0
@@ -75,13 +72,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$q;->b:Ljava/util/concurrent/Executor;
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$q;->a:Lio/grpc/internal/t1;
 
     invoke-interface {v0}, Lio/grpc/internal/t1;->a()Ljava/lang/Object;
@@ -100,7 +95,6 @@
 
     iput-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$q;->b:Ljava/util/concurrent/Executor;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$q;->b:Ljava/util/concurrent/Executor;
     :try_end_0
@@ -123,13 +117,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$q;->b:Ljava/util/concurrent/Executor;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$q;->a:Lio/grpc/internal/t1;
 
     invoke-interface {v1, v0}, Lio/grpc/internal/t1;->b(Ljava/lang/Object;)Ljava/lang/Object;
@@ -142,7 +134,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :cond_0
     monitor-exit p0
 

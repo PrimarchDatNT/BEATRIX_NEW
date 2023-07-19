@@ -39,28 +39,24 @@
 
     const-string v0, "http.keepAlive"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "http.keepAliveDuration"
 
-    .line 2
     invoke-static {v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "http.maxConnections"
 
-    .line 3
     invoke-static {v2}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-static {v1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v3
@@ -73,14 +69,12 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-static {v0}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 6
     new-instance v0, Lcom/squareup/okhttp/ConnectionPool;
 
     const/4 v1, 0x0
@@ -94,7 +88,6 @@
     :cond_1
     if-eqz v2, :cond_2
 
-    .line 7
     new-instance v0, Lcom/squareup/okhttp/ConnectionPool;
 
     invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -107,7 +100,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     new-instance v0, Lcom/squareup/okhttp/ConnectionPool;
 
@@ -124,7 +116,6 @@
 .method public constructor <init>(IJ)V
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/squareup/okhttp/ConnectionPool;-><init>(IJLjava/util/concurrent/TimeUnit;)V
@@ -135,10 +126,8 @@
 .method public constructor <init>(IJLjava/util/concurrent/TimeUnit;)V
     .locals 9
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v8, Ljava/util/concurrent/ThreadPoolExecutor;
 
     sget-object v5, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
@@ -151,7 +140,6 @@
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-static {v0, v1}, Lcom/squareup/okhttp/internal/Util;->threadFactory(Ljava/lang/String;Z)Ljava/util/concurrent/ThreadFactory;
 
     move-result-object v7
@@ -168,31 +156,26 @@
 
     iput-object v8, p0, Lcom/squareup/okhttp/ConnectionPool;->executor:Ljava/util/concurrent/Executor;
 
-    .line 5
     new-instance v0, Lcom/squareup/okhttp/ConnectionPool$1;
 
     invoke-direct {v0, p0}, Lcom/squareup/okhttp/ConnectionPool$1;-><init>(Lcom/squareup/okhttp/ConnectionPool;)V
 
     iput-object v0, p0, Lcom/squareup/okhttp/ConnectionPool;->cleanupRunnable:Ljava/lang/Runnable;
 
-    .line 6
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object v0, p0, Lcom/squareup/okhttp/ConnectionPool;->connections:Ljava/util/Deque;
 
-    .line 7
     new-instance v0, Lcom/squareup/okhttp/internal/RouteDatabase;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/internal/RouteDatabase;-><init>()V
 
     iput-object v0, p0, Lcom/squareup/okhttp/ConnectionPool;->routeDatabase:Lcom/squareup/okhttp/internal/RouteDatabase;
 
-    .line 8
     iput p1, p0, Lcom/squareup/okhttp/ConnectionPool;->maxIdleConnections:I
 
-    .line 9
     invoke-virtual {p4, p2, p3}, Ljava/util/concurrent/TimeUnit;->toNanos(J)J
 
     move-result-wide v0
@@ -207,7 +190,6 @@
 
     return-void
 
-    .line 10
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -233,7 +215,6 @@
 .method public static getDefault()Lcom/squareup/okhttp/ConnectionPool;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/ConnectionPool;->systemDefault:Lcom/squareup/okhttp/ConnectionPool;
 
     return-object v0
@@ -242,14 +223,12 @@
 .method private pruneAndGetAllocationCount(Lcom/squareup/okhttp/internal/io/RealConnection;J)I
     .locals 6
 
-    .line 1
     iget-object v0, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->allocations:Ljava/util/List;
 
     const/4 v1, 0x0
 
     const/4 v2, 0x0
 
-    .line 2
     :cond_0
     :goto_0
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -258,14 +237,12 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 3
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/ref/Reference;
 
-    .line 4
     invoke-virtual {v3}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     move-result-object v3
@@ -276,7 +253,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     sget-object v3, Lcom/squareup/okhttp/internal/Internal;->logger:Ljava/util/logging/Logger;
 
@@ -312,22 +288,18 @@
 
     invoke-virtual {v3, v4}, Ljava/util/logging/Logger;->warning(Ljava/lang/String;)V
 
-    .line 6
     invoke-interface {v0, v2}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     const/4 v3, 0x1
 
-    .line 7
     iput-boolean v3, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->noNewStreams:Z
 
-    .line 8
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 9
     iget-wide v2, p0, Lcom/squareup/okhttp/ConnectionPool;->keepAliveDurationNs:J
 
     sub-long/2addr p2, v2
@@ -336,7 +308,6 @@
 
     return v1
 
-    .line 10
     :cond_2
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -350,10 +321,8 @@
 .method cleanup(J)J
     .locals 10
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/ConnectionPool;->connections:Ljava/util/Deque;
 
@@ -381,14 +350,12 @@
 
     if-eqz v6, :cond_2
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v6
 
     check-cast v6, Lcom/squareup/okhttp/internal/io/RealConnection;
 
-    .line 4
     invoke-direct {p0, v6, p1, p2}, Lcom/squareup/okhttp/ConnectionPool;->pruneAndGetAllocationCount(Lcom/squareup/okhttp/internal/io/RealConnection;J)I
 
     move-result v7
@@ -402,7 +369,6 @@
     :cond_1
     add-int/lit8 v1, v1, 0x1
 
-    .line 5
     iget-wide v7, v6, Lcom/squareup/okhttp/internal/io/RealConnection;->idleAtNanos:J
 
     sub-long v7, p1, v7
@@ -417,7 +383,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     iget-wide p1, p0, Lcom/squareup/okhttp/ConnectionPool;->keepAliveDurationNs:J
 
@@ -436,7 +401,6 @@
 
     sub-long/2addr p1, v4
 
-    .line 7
     monitor-exit p0
 
     return-wide p1
@@ -444,7 +408,6 @@
     :cond_4
     if-lez v2, :cond_5
 
-    .line 8
     monitor-exit p0
 
     return-wide p1
@@ -452,24 +415,20 @@
     :cond_5
     const-wide/16 p1, -0x1
 
-    .line 9
     monitor-exit p0
 
     return-wide p1
 
-    .line 10
     :cond_6
     :goto_1
     iget-object p1, p0, Lcom/squareup/okhttp/ConnectionPool;->connections:Ljava/util/Deque;
 
     invoke-interface {p1, v3}, Ljava/util/Deque;->remove(Ljava/lang/Object;)Z
 
-    .line 11
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 12
     invoke-virtual {v3}, Lcom/squareup/okhttp/internal/io/RealConnection;->getSocket()Ljava/net/Socket;
 
     move-result-object p1
@@ -483,7 +442,6 @@
     :catchall_0
     move-exception p1
 
-    .line 13
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -495,7 +453,6 @@
 .method connectionBecameIdle(Lcom/squareup/okhttp/internal/io/RealConnection;)Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p1, Lcom/squareup/okhttp/internal/io/RealConnection;->noNewStreams:Z
 
     if-nez v0, :cond_1
@@ -506,7 +463,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
 
@@ -514,7 +470,6 @@
 
     return p1
 
-    .line 3
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/squareup/okhttp/ConnectionPool;->connections:Ljava/util/Deque;
@@ -529,15 +484,12 @@
 .method public evictAll()V
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/squareup/okhttp/ConnectionPool;->connections:Ljava/util/Deque;
 
@@ -553,14 +505,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/squareup/okhttp/internal/io/RealConnection;
 
-    .line 5
     iget-object v3, v2, Lcom/squareup/okhttp/internal/io/RealConnection;->allocations:Ljava/util/List;
 
     invoke-interface {v3}, Ljava/util/List;->isEmpty()Z
@@ -571,24 +521,19 @@
 
     const/4 v3, 0x1
 
-    .line 6
     iput-boolean v3, v2, Lcom/squareup/okhttp/internal/io/RealConnection;->noNewStreams:Z
 
-    .line 7
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     invoke-interface {v1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 9
     :cond_1
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -606,7 +551,6 @@
 
     check-cast v1, Lcom/squareup/okhttp/internal/io/RealConnection;
 
-    .line 11
     invoke-virtual {v1}, Lcom/squareup/okhttp/internal/io/RealConnection;->getSocket()Ljava/net/Socket;
 
     move-result-object v1
@@ -621,7 +565,6 @@
     :catchall_0
     move-exception v0
 
-    .line 12
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -633,7 +576,6 @@
 .method get(Lcom/squareup/okhttp/Address;Lcom/squareup/okhttp/internal/http/StreamAllocation;)Lcom/squareup/okhttp/internal/io/RealConnection;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/ConnectionPool;->connections:Ljava/util/Deque;
 
     invoke-interface {v0}, Ljava/util/Deque;->iterator()Ljava/util/Iterator;
@@ -653,7 +595,6 @@
 
     check-cast v1, Lcom/squareup/okhttp/internal/io/RealConnection;
 
-    .line 2
     iget-object v2, v1, Lcom/squareup/okhttp/internal/io/RealConnection;->allocations:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
@@ -666,7 +607,6 @@
 
     if-ge v2, v3, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/squareup/okhttp/internal/io/RealConnection;->getRoute()Lcom/squareup/okhttp/Route;
 
     move-result-object v2
@@ -683,7 +623,6 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-virtual {p2, v1}, Lcom/squareup/okhttp/internal/http/StreamAllocation;->acquire(Lcom/squareup/okhttp/internal/io/RealConnection;)V
 
     return-object v1
@@ -699,7 +638,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/ConnectionPool;->connections:Ljava/util/Deque;
 
@@ -726,7 +664,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/ConnectionPool;->connections:Ljava/util/Deque;
 
@@ -761,7 +698,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/squareup/okhttp/ConnectionPool;->connections:Ljava/util/Deque;
 
@@ -783,7 +719,6 @@
 
     check-cast v2, Lcom/squareup/okhttp/internal/io/RealConnection;
 
-    .line 2
     iget-object v2, v2, Lcom/squareup/okhttp/internal/io/RealConnection;->allocations:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->isEmpty()Z
@@ -798,7 +733,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     monitor-exit p0
 
@@ -819,7 +753,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/squareup/okhttp/ConnectionPool;->connections:Ljava/util/Deque;
 
@@ -841,7 +774,6 @@
 
     check-cast v2, Lcom/squareup/okhttp/internal/io/RealConnection;
 
-    .line 2
     invoke-virtual {v2}, Lcom/squareup/okhttp/internal/io/RealConnection;->isMultiplexed()Z
 
     move-result v2
@@ -854,7 +786,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     monitor-exit p0
 
@@ -875,7 +806,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/squareup/okhttp/ConnectionPool;->getMultiplexedConnectionCount()I
 
@@ -898,7 +828,6 @@
 .method put(Lcom/squareup/okhttp/internal/io/RealConnection;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/ConnectionPool;->connections:Ljava/util/Deque;
 
     invoke-interface {v0}, Ljava/util/Deque;->isEmpty()Z
@@ -907,14 +836,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/ConnectionPool;->executor:Ljava/util/concurrent/Executor;
 
     iget-object v1, p0, Lcom/squareup/okhttp/ConnectionPool;->cleanupRunnable:Ljava/lang/Runnable;
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/ConnectionPool;->connections:Ljava/util/Deque;
 
@@ -926,7 +853,6 @@
 .method setCleanupRunnableForTest(Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/ConnectionPool;->cleanupRunnable:Ljava/lang/Runnable;
 
     return-void

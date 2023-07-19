@@ -10,7 +10,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/icing/v4;->r()Z
 
     move-result v0
@@ -33,21 +32,18 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/icing/c1;->a()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/icing/a5;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/a5;-><init>()V
 
     goto :goto_1
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/icing/z4;
 
@@ -62,7 +58,6 @@
 .method static a(Ljava/lang/CharSequence;)I
     .locals 8
 
-    .line 1
     invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
@@ -74,7 +69,6 @@
     :goto_0
     if-ge v2, v0, :cond_0
 
-    .line 2
     invoke-interface {p0, v2}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v3
@@ -93,7 +87,6 @@
     :goto_1
     if-ge v2, v0, :cond_6
 
-    .line 3
     invoke-interface {p0, v2}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v4
@@ -112,7 +105,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
@@ -121,7 +113,6 @@
     :goto_2
     if-ge v2, v4, :cond_5
 
-    .line 5
     invoke-interface {p0, v2}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v6
@@ -147,7 +138,6 @@
 
     if-gt v6, v7, :cond_4
 
-    .line 6
     invoke-static {p0, v2}, Ljava/lang/Character;->codePointAt(Ljava/lang/CharSequence;I)I
 
     move-result v6
@@ -160,7 +150,6 @@
 
     goto :goto_3
 
-    .line 7
     :cond_3
     new-instance p0, Lcom/google/android/gms/internal/icing/zzgi;
 
@@ -182,7 +171,6 @@
 
     return v3
 
-    .line 8
     :cond_7
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -216,7 +204,6 @@
 .method static b(Ljava/lang/CharSequence;[BII)I
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/x4;->a:Lcom/google/android/gms/internal/icing/y4;
 
     invoke-virtual {v0, p0, p1, p2, p3}, Lcom/google/android/gms/internal/icing/y4;->b(Ljava/lang/CharSequence;[BII)I
@@ -242,7 +229,6 @@
 .method static synthetic d(I)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/icing/x4;->c(I)I
 
     move-result p0
@@ -286,7 +272,6 @@
 .method public static f([BII)Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/x4;->a:Lcom/google/android/gms/internal/icing/y4;
 
     invoke-virtual {v0, p0, p1, p2}, Lcom/google/android/gms/internal/icing/y4;->c([BII)Z
@@ -299,7 +284,6 @@
 .method static synthetic g(III)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/internal/icing/x4;->e(III)I
 
     move-result p0
@@ -312,7 +296,6 @@
 
     add-int/lit8 v0, p1, -0x1
 
-    .line 1
     aget-byte v0, p0, v0
 
     sub-int/2addr p2, p1
@@ -327,7 +310,6 @@
 
     if-ne p2, v2, :cond_0
 
-    .line 2
     aget-byte p2, p0, p1
 
     add-int/2addr p1, v1
@@ -340,7 +322,6 @@
 
     return p0
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/AssertionError;
 
@@ -348,7 +329,6 @@
 
     throw p0
 
-    .line 4
     :cond_1
     aget-byte p0, p0, p1
 
@@ -358,7 +338,6 @@
 
     return p0
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/google/android/gms/internal/icing/x4;->c(I)I
 
@@ -370,7 +349,6 @@
 .method public static i([B)Z
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/x4;->a:Lcom/google/android/gms/internal/icing/y4;
 
     array-length v1, p0
@@ -387,7 +365,6 @@
 .method static synthetic j([BII)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/internal/icing/x4;->h([BII)I
 
     move-result p0
@@ -425,7 +402,6 @@
 .method static synthetic l(II)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/icing/x4;->k(II)I
 
     move-result p0

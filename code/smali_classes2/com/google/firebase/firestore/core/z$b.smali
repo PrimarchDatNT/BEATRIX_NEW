@@ -26,7 +26,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 .method static synthetic a(Lcom/google/firebase/firestore/core/z$b;)Lcom/google/firebase/firestore/model/h;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/firestore/core/z$b;->a:Lcom/google/firebase/firestore/model/h;
 
     return-object p0
@@ -44,7 +42,6 @@
 .method static synthetic b(Lcom/google/firebase/firestore/core/z$b;)Lcom/google/firebase/firestore/model/value/e;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/firestore/core/z$b;->b:Lcom/google/firebase/firestore/model/value/e;
 
     return-object p0
@@ -53,7 +50,6 @@
 .method static synthetic c(Lcom/google/firebase/firestore/core/z$b;)Lcom/google/firebase/firestore/model/value/e;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/firestore/core/z$b;->c:Lcom/google/firebase/firestore/model/value/e;
 
     return-object p0
@@ -64,7 +60,6 @@
 .method public d()Lcom/google/firebase/firestore/core/z;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/z$b;->a:Lcom/google/firebase/firestore/model/h;
 
     const/4 v1, 0x0
@@ -85,7 +80,6 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/core/z;
 
     const/4 v1, 0x0
@@ -98,7 +92,6 @@
 .method public e(Lcom/google/firebase/firestore/model/value/e;)Lcom/google/firebase/firestore/core/z$b;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/core/z$b;->c:Lcom/google/firebase/firestore/model/value/e;
 
     return-object p0
@@ -107,7 +100,6 @@
 .method public f(Lcom/google/firebase/firestore/model/h;)Lcom/google/firebase/firestore/core/z$b;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/core/z$b;->a:Lcom/google/firebase/firestore/model/h;
 
     return-object p0
@@ -116,7 +108,6 @@
 .method public g(Lcom/google/firebase/firestore/model/value/e;)Lcom/google/firebase/firestore/core/z$b;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/core/z$b;->b:Lcom/google/firebase/firestore/model/value/e;
 
     return-object p0

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/volley/RequestQueue;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/RequestQueue$1;->this$0:Lcom/mopub/volley/RequestQueue;
 
     iput-object p2, p0, Lcom/mopub/volley/RequestQueue$1;->val$tag:Ljava/lang/Object;
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/mopub/volley/Request;->getTag()Ljava/lang/Object;
 
     move-result-object p1

@@ -43,10 +43,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
@@ -57,7 +55,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/analytics/y/c/k;->a:Lcom/meitu/library/analytics/y/o/p$a;
 
-    .line 3
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
@@ -68,14 +65,12 @@
 
     iput-object v0, p0, Lcom/meitu/library/analytics/y/c/k;->b:Lcom/meitu/library/analytics/y/o/p$a;
 
-    .line 4
     new-instance v0, Lcom/meitu/library/analytics/y/c/k$a;
 
     invoke-direct {v0, p0}, Lcom/meitu/library/analytics/y/c/k$a;-><init>(Lcom/meitu/library/analytics/y/c/k;)V
 
     iput-object v0, p0, Lcom/meitu/library/analytics/y/c/k;->c:Ljava/lang/Runnable;
 
-    .line 5
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
     return-void
@@ -88,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/analytics/y/c/k;->a:Lcom/meitu/library/analytics/y/o/p$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -103,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/analytics/y/c/k;->b:Lcom/meitu/library/analytics/y/o/p$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -122,10 +115,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/analytics/sdk/db/g;->C(Z)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/analytics/y/h/f;->g()Lcom/meitu/library/analytics/y/h/h;
 
     move-result-object v1
@@ -134,7 +125,6 @@
 
     invoke-interface {v1, v2}, Lcom/meitu/library/analytics/y/h/h;->post(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -149,10 +139,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/analytics/sdk/db/g;->C(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -165,12 +153,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/analytics/y/c/k;->c:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getUploadKey()Ljava/lang/String;
 
     move-result-object v1
@@ -48,7 +46,6 @@
 
     move-result-object v1
 
-    .line 2
     :goto_0
     invoke-virtual {p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getFileType()Ljava/lang/String;
 
@@ -65,7 +62,6 @@
 
     move-result-object v3
 
-    .line 3
     :goto_1
     invoke-virtual {p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getSuffix()Ljava/lang/String;
 
@@ -80,17 +76,13 @@
 
     move-result-object v2
 
-    .line 4
     :goto_2
     invoke-virtual {p0, v1}, Lcom/meitu/mtuploader/bean/MtBusinessBean;->setUploadKey(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {p0, v3}, Lcom/meitu/mtuploader/bean/MtBusinessBean;->setFileType(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {p0, v2}, Lcom/meitu/mtuploader/bean/MtBusinessBean;->setSuffix(Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -103,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtuploader/bean/MtBusinessBean;->mFileType:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -118,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtuploader/bean/MtBusinessBean;->mSuffix:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtuploader/bean/MtBusinessBean;->mUploadKey:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -148,10 +137,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtuploader/bean/MtBusinessBean;->mFileType:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -164,10 +151,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtuploader/bean/MtBusinessBean;->mSuffix:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -180,10 +165,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtuploader/bean/MtBusinessBean;->mUploadKey:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

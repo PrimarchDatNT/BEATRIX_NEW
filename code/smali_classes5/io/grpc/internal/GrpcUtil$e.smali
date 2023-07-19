@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/v;Lio/grpc/k$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/GrpcUtil$e;->a:Lio/grpc/internal/v;
 
     iput-object p2, p0, Lio/grpc/internal/GrpcUtil$e;->b:Lio/grpc/k$a;
@@ -42,7 +41,6 @@
 .method public d()Lio/grpc/j0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/GrpcUtil$e;->a:Lio/grpc/internal/v;
 
     invoke-interface {v0}, Lio/grpc/r0;->d()Lio/grpc/j0;
@@ -55,7 +53,6 @@
 .method public e(Lio/grpc/internal/v$a;Ljava/util/concurrent/Executor;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/GrpcUtil$e;->a:Lio/grpc/internal/v;
 
     invoke-interface {v0, p1, p2}, Lio/grpc/internal/v;->e(Lio/grpc/internal/v$a;Ljava/util/concurrent/Executor;)V
@@ -74,7 +71,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/GrpcUtil$e;->a:Lio/grpc/internal/v;
 
     invoke-interface {v0}, Lio/grpc/i0;->g()Lcom/google/common/util/concurrent/g0;
@@ -98,17 +94,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/GrpcUtil$e;->a:Lio/grpc/internal/v;
 
     iget-object v1, p0, Lio/grpc/internal/GrpcUtil$e;->b:Lio/grpc/k$a;
 
-    .line 2
     invoke-virtual {p3, v1}, Lio/grpc/f;->u(Lio/grpc/k$a;)Lio/grpc/f;
 
     move-result-object p3
 
-    .line 3
     invoke-interface {v0, p1, p2, p3}, Lio/grpc/internal/v;->i(Lio/grpc/MethodDescriptor;Lio/grpc/y0;Lio/grpc/f;)Lio/grpc/internal/u;
 
     move-result-object p1

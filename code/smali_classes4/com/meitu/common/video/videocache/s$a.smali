@@ -25,7 +25,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/s$a;-><init>()V
 
     return-void
@@ -51,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v8, Ljava/util/concurrent/ThreadPoolExecutor;
 
     sget-object v6, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
@@ -90,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Ljava/util/concurrent/Executors;->newFixedThreadPool(I)Ljava/util/concurrent/ExecutorService;
 
     move-result-object p1
@@ -99,19 +95,16 @@
 
     check-cast p1, Ljava/util/concurrent/ThreadPoolExecutor;
 
-    .line 2
     new-instance v1, Lcom/meitu/common/video/videocache/s$a$a;
 
     invoke-direct {v1}, Lcom/meitu/common/video/videocache/s$a$a;-><init>()V
 
     invoke-virtual {p1, v1}, Ljava/util/concurrent/ThreadPoolExecutor;->setThreadFactory(Ljava/util/concurrent/ThreadFactory;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

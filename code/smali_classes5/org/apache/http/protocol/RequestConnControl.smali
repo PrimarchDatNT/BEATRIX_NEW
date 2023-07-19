@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,10 +33,8 @@
 
     const-string p2, "HTTP request"
 
-    .line 1
     invoke-static {p1, p2}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p1}, Lorg/apache/http/HttpRequest;->getRequestLine()Lorg/apache/http/RequestLine;
 
     move-result-object p2
@@ -48,7 +45,6 @@
 
     const-string v0, "CONNECT"
 
-    .line 3
     invoke-virtual {p2, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p2
@@ -60,7 +56,6 @@
     :cond_0
     const-string p2, "Connection"
 
-    .line 4
     invoke-interface {p1, p2}, Lorg/apache/http/HttpMessage;->containsHeader(Ljava/lang/String;)Z
 
     move-result v0
@@ -69,7 +64,6 @@
 
     const-string v0, "Keep-Alive"
 
-    .line 5
     invoke-interface {p1, p2, v0}, Lorg/apache/http/HttpMessage;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1

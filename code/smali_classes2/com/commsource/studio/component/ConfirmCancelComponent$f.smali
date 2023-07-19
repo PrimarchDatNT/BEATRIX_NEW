@@ -44,7 +44,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/View;->getAlpha()F
@@ -57,12 +56,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent$f;->a:Lcom/commsource/studio/component/ConfirmCancelComponent;
 
     invoke-virtual {p1}, Lcom/commsource/studio/component/ConfirmCancelComponent;->n()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

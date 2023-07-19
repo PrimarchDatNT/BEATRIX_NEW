@@ -52,7 +52,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -71,7 +70,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$h;->a:Lcom/commsource/home/material/HomeAr2ModuleVH;
 
     iget v2, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$h;->b:I
@@ -84,7 +82,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/home/material/HomeAr2ModuleVH;->G(Lcom/commsource/home/material/HomeAr2ModuleVH;I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$h;->a:Lcom/commsource/home/material/HomeAr2ModuleVH;
 
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -119,12 +116,10 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/l0;->X(Landroid/view/View;I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 

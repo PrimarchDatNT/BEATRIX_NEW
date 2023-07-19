@@ -51,22 +51,18 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-direct {p0, p1, v0, p2, v1}, Lio/grpc/y0$i;-><init>(Ljava/lang/String;ZLjava/lang/Object;Lio/grpc/y0$a;)V
 
     const-string v1, "-bin"
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v2
 
     const-string v3, "Binary header is named %s. It must end with %s"
 
-    .line 4
     invoke-static {v2, v3, p1, v1}, Lcom/google/common/base/t;->y(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result p1
@@ -84,7 +80,6 @@
 
     const-string p1, "marshaller is null"
 
-    .line 6
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -99,7 +94,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Lio/grpc/y0$f;Lio/grpc/y0$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/y0$e;-><init>(Ljava/lang/String;Lio/grpc/y0$f;)V
 
     return-void
@@ -115,7 +109,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0$e;->f:Lio/grpc/y0$f;
 
     invoke-interface {v0, p1}, Lio/grpc/y0$f;->b([B)Ljava/lang/Object;
@@ -133,7 +126,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0$e;->f:Lio/grpc/y0$f;
 
     invoke-interface {v0, p1}, Lio/grpc/y0$f;->a(Ljava/lang/Object;)[B

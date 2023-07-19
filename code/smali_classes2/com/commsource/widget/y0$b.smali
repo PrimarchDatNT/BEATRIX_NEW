@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/widget/y0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/y0$b;->a:Lcom/commsource/widget/y0;
 
     invoke-direct {p0}, Lcom/meitu/webview/core/f;-><init>()V
@@ -39,21 +38,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Landroid/webkit/URLUtil;->isValidUrl(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/y0$b;->a:Lcom/commsource/widget/y0;
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/y0;->k(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/widget/y0$b;->a:Lcom/commsource/widget/y0;
 
     invoke-static {p2}, Lcom/commsource/widget/y0;->h(Lcom/commsource/widget/y0;)Lcom/commsource/beautyplus/web/BeautyPlusWebView;
@@ -62,7 +58,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/widget/y0$b;->a:Lcom/commsource/widget/y0;
 
     invoke-static {p2}, Lcom/commsource/widget/y0;->h(Lcom/commsource/widget/y0;)Lcom/commsource/beautyplus/web/BeautyPlusWebView;
@@ -74,12 +69,10 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 6
     :cond_1
     invoke-super {p0, p1, p2}, Lcom/meitu/webview/core/f;->shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
 

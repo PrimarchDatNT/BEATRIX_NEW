@@ -56,7 +56,6 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
     move-result-object p1
@@ -67,7 +66,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
@@ -79,7 +77,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$d;->a:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
@@ -93,20 +90,16 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$d;->b:Landroid/app/Activity;
 
-    .line 5
     new-instance v8, Lcom/commsource/mypage/album/w;
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$d;->a:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->D()Lcom/commsource/mypage/album/AlbumSetting;
 
     move-result-object v2
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$d;->c:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     const/4 v4, 0x0
@@ -119,13 +112,10 @@
 
     move-object v1, v8
 
-    .line 8
     invoke-direct/range {v1 .. v7}, Lcom/commsource/mypage/album/w;-><init>(Lcom/commsource/mypage/album/AlbumSetting;Lcom/commsource/cloudalbum/bean/CAImageInfo;Landroid/os/Bundle;IILcotlin/jvm/internal/u;)V
 
-    .line 9
     invoke-interface {p1, v0, v8}, Lcom/commsource/mypage/album/OnImageSelectCallback;->onImageSelect(Landroid/app/Activity;Lcom/commsource/mypage/album/w;)V
 
-    .line 10
     :cond_2
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -24,10 +24,8 @@
 .method public constructor <init>(Landroid/app/Application;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/kwai/koom/javaoom/report/a$a;
 
     invoke-direct {v0, p0}, Lcom/kwai/koom/javaoom/report/a$a;-><init>(Lcom/kwai/koom/javaoom/report/a;)V
@@ -40,7 +38,6 @@
 .method static synthetic e(Lcom/kwai/koom/javaoom/report/a;Landroid/app/Activity;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/kwai/koom/javaoom/report/a;->f(Landroid/app/Activity;)V
 
     return-void
@@ -49,12 +46,10 @@
 .method private f(Landroid/app/Activity;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/report/a;->b:Ljava/lang/ref/WeakReference;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -63,7 +58,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
@@ -94,7 +88,6 @@
 .method public a()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/report/a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -103,12 +96,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/kwai/koom/javaoom/report/a;->a:Ljava/lang/String;
 
     return-object v0
 
-    .line 3
     :cond_0
     :try_start_0
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->a()Landroid/app/Application;
@@ -119,7 +110,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->a()Landroid/app/Application;
 
     move-result-object v1
@@ -145,10 +135,8 @@
     :catch_0
     move-exception v0
 
-    .line 5
     invoke-virtual {v0}, Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
 
-    .line 6
     :goto_0
     iget-object v0, p0, Lcom/kwai/koom/javaoom/report/a;->a:Ljava/lang/String;
 
@@ -158,7 +146,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/report/a;->b:Ljava/lang/ref/WeakReference;
 
     if-eqz v0, :cond_1
@@ -174,7 +161,6 @@
     :cond_0
     iget-object v0, p0, Lcom/kwai/koom/javaoom/report/a;->b:Ljava/lang/ref/WeakReference;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -215,7 +201,6 @@
 .method public d()Ljava/lang/Integer;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/h;->h()I
 
     move-result v0

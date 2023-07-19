@@ -25,7 +25,6 @@
 .method public constructor <init>(Lcom/commsource/camera/render/MTGifRenderProxy;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "MTGifRenderProxy"
@@ -63,7 +61,6 @@
 
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, v0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     invoke-static {v1}, Lcom/commsource/camera/render/MTGifRenderProxy;->h1(Lcom/commsource/camera/render/MTGifRenderProxy;)Z
@@ -72,12 +69,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 3
     :cond_0
     iget-object v1, v0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
@@ -117,7 +112,6 @@
 
     if-ne v9, v10, :cond_2
 
-    .line 4
     :cond_1
     :try_start_0
     iget-object v1, v0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -139,13 +133,10 @@
     :catch_0
     const-string v1, " nSetOrientation catch error, try again"
 
-    .line 5
     invoke-static {v12, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     invoke-static {}, Lcom/meitu/mtlab/beautyplus/system/MTlabLibraryConfig;->c()Z
 
-    .line 7
     iget-object v1, v0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     invoke-static {v1}, Lcom/commsource/camera/render/MTGifRenderProxy;->d2(Lcom/commsource/camera/render/MTGifRenderProxy;)J
@@ -158,7 +149,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/camera/render/MTGifRenderProxy;->f2(JI)V
 
-    .line 8
     :goto_0
     iget-object v1, v0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
@@ -166,18 +156,15 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/render/MTGifRenderProxy;->X1(Lcom/commsource/camera/render/MTGifRenderProxy;I)I
 
-    .line 9
     :cond_2
     iget-object v1, v0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     invoke-static {v1, v10}, Lcom/commsource/camera/render/MTGifRenderProxy;->u1(Lcom/commsource/camera/render/MTGifRenderProxy;I)I
 
-    .line 10
     iget-object v1, v0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     invoke-static {v1, v9}, Lcom/commsource/camera/render/MTGifRenderProxy;->F1(Lcom/commsource/camera/render/MTGifRenderProxy;I)I
 
-    .line 11
     iget-object v1, v0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     invoke-static {v1}, Lcom/commsource/camera/render/MTGifRenderProxy;->d2(Lcom/commsource/camera/render/MTGifRenderProxy;)J
@@ -198,7 +185,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_3
     :try_start_1
     invoke-static {v1}, Lcom/commsource/camera/render/MTGifRenderProxy;->d2(Lcom/commsource/camera/render/MTGifRenderProxy;)J
@@ -228,13 +214,10 @@
     :catch_1
     const-string v1, " nRenderToOutTexture catch fail, try again"
 
-    .line 13
     invoke-static {v12, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 14
     invoke-static {}, Lcom/meitu/mtlab/beautyplus/system/MTlabLibraryConfig;->c()Z
 
-    .line 15
     iget-object v1, v0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     invoke-static {v1}, Lcom/commsource/camera/render/MTGifRenderProxy;->d2(Lcom/commsource/camera/render/MTGifRenderProxy;)J
@@ -257,13 +240,11 @@
 
     move-result v1
 
-    .line 16
     :goto_1
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 17
     :cond_4
     :goto_2
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -278,7 +259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "MTGifRenderProxyID"
@@ -293,7 +273,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     iget-boolean v1, v1, Lcom/commsource/camera/render/c;->b:Z

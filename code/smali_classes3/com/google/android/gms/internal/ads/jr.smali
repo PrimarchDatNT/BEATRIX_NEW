@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -16,7 +15,6 @@
 .method protected static b(Lcom/google/android/gms/internal/ads/yr;)Z
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/rv;->h()Lcom/google/android/gms/internal/ads/dw;
 
     move-result-object p0

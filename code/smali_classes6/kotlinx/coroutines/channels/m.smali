@@ -57,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p3}, Lcotlinx/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext;Z)V
 
     iput-object p2, p0, Lcotlinx/coroutines/channels/m;->d:Lcotlinx/coroutines/channels/l;
@@ -135,7 +134,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/m;->d:Lcotlinx/coroutines/channels/l;
 
     if-eqz v0, :cond_1
@@ -154,13 +152,11 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 
-    .line 3
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -428,7 +424,6 @@
         message = "Since 1.2.0, binary compatibility with versions <= 1.1.x"
     .end annotation
 
-    .line 1
     new-instance p1, Lcotlinx/coroutines/JobCancellationException;
 
     invoke-static {p0}, Lcotlinx/coroutines/JobSupport;->Z(Lcotlinx/coroutines/JobSupport;)Ljava/lang/String;
@@ -439,7 +434,6 @@
 
     invoke-direct {p1, v0, v1, p0}, Lcotlinx/coroutines/JobCancellationException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;Lcotlinx/coroutines/c2;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/channels/m;->i0(Ljava/lang/Throwable;)V
 
     const/4 p1, 0x1
@@ -466,7 +460,6 @@
 .method public synthetic cancel()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/JobCancellationException;
 
     invoke-static {p0}, Lcotlinx/coroutines/JobSupport;->Z(Lcotlinx/coroutines/JobSupport;)Ljava/lang/String;
@@ -477,7 +470,6 @@
 
     invoke-direct {v0, v1, v2, p0}, Lcotlinx/coroutines/JobCancellationException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;Lcotlinx/coroutines/c2;)V
 
-    .line 2
     invoke-virtual {p0, v0}, Lcotlinx/coroutines/channels/m;->i0(Ljava/lang/Throwable;)V
 
     return-void
@@ -497,7 +489,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/JobCancellationException;
 
     invoke-static {p0}, Lcotlinx/coroutines/JobSupport;->Z(Lcotlinx/coroutines/JobSupport;)Ljava/lang/String;
@@ -508,7 +499,6 @@
 
     move-object p1, v0
 
-    .line 2
     :goto_0
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/channels/m;->i0(Ljava/lang/Throwable;)V
 
@@ -526,17 +516,14 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p0, p1, v0, v1, v0}, Lcotlinx/coroutines/JobSupport;->i1(Lcotlinx/coroutines/JobSupport;Ljava/lang/Throwable;Ljava/lang/String;ILjava/lang/Object;)Ljava/util/concurrent/CancellationException;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/channels/m;->d:Lcotlinx/coroutines/channels/l;
 
     invoke-interface {v0, p1}, Lcotlinx/coroutines/channels/y;->d(Ljava/util/concurrent/CancellationException;)V
 
-    .line 3
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/JobSupport;->g0(Ljava/lang/Throwable;)Z
 
     return-void
@@ -674,7 +661,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/m;->d:Lcotlinx/coroutines/channels/l;
 
     return-object v0

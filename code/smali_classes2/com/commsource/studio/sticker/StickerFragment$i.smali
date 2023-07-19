@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$i;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerFragment;->X(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/beautyplus/f0/ma;
@@ -68,7 +67,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Landroid/view/View;->getVisibility()I
 
     move-result v1
@@ -91,7 +89,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -114,7 +111,6 @@
 
     if-ne p1, v3, :cond_4
 
-    .line 4
     :goto_2
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$i;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
@@ -140,7 +136,6 @@
 
     goto :goto_4
 
-    .line 5
     :cond_4
     :goto_3
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$i;->a:Lcom/commsource/studio/sticker/StickerFragment;
@@ -177,7 +172,6 @@
 
     sub-float/2addr p1, v1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$i;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerFragment;->X(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/beautyplus/f0/ma;
@@ -200,7 +194,6 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     :cond_5
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -215,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment$i;->a(Ljava/lang/Integer;)V

@@ -32,17 +32,14 @@
 .method constructor <init>(Ljava/lang/reflect/Method;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lf/f/e/c/k$c;->a:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
 
     move-result-object p1
@@ -65,17 +62,14 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lf/f/e/c/k$c;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lf/f/e/c/k$c;
 
-    .line 3
     iget-object v0, p0, Lf/f/e/c/k$c;->a:Ljava/lang/String;
 
     iget-object v2, p1, Lf/f/e/c/k$c;->a:Ljava/lang/String;
@@ -109,7 +103,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lf/f/e/c/k$c;->a:Ljava/lang/String;
 
     const/4 v2, 0x0

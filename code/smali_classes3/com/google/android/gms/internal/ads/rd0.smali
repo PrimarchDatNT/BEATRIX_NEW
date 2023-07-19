@@ -54,10 +54,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/google/android/gms/internal/ads/bc0;-><init>(Ljava/util/Set;)V
 
-    .line 2
     new-instance p2, Ljava/util/WeakHashMap;
 
     const/4 v0, 0x1
@@ -66,10 +64,8 @@
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/rd0;->b:Ljava/util/Map;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/rd0;->c:Landroid/content/Context;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/rd0;->d:Lcom/google/android/gms/internal/ads/ug1;
 
     return-void
@@ -82,7 +78,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/rd0;->b:Ljava/util/Map;
 
@@ -94,22 +89,18 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/oh2;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/rd0;->c:Landroid/content/Context;
 
     invoke-direct {v0, v1, p1}, Lcom/google/android/gms/internal/ads/oh2;-><init>(Landroid/content/Context;Landroid/view/View;)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lcom/google/android/gms/internal/ads/oh2;->d(Lcom/google/android/gms/internal/ads/sh2;)V
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/rd0;->b:Ljava/util/Map;
 
     invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/rd0;->d:Lcom/google/android/gms/internal/ads/ug1;
 
@@ -121,7 +112,6 @@
 
     sget-object p1, Lcom/google/android/gms/internal/ads/w;->e1:Lcom/google/android/gms/internal/ads/h;
 
-    .line 6
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -130,7 +120,6 @@
 
     move-result-object p1
 
-    .line 7
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -139,10 +128,8 @@
 
     if-eqz p1, :cond_1
 
-    .line 8
     sget-object p1, Lcom/google/android/gms/internal/ads/w;->d1:Lcom/google/android/gms/internal/ads/h;
 
-    .line 9
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -151,7 +138,6 @@
 
     move-result-object p1
 
-    .line 10
     check-cast p1, Ljava/lang/Long;
 
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
@@ -166,14 +152,12 @@
 
     return-void
 
-    .line 11
     :cond_1
     :try_start_1
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/oh2;->m()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 12
     monitor-exit p0
 
     return-void
@@ -191,7 +175,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/rd0;->b:Ljava/util/Map;
 
@@ -201,7 +184,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/rd0;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -212,14 +194,12 @@
 
     invoke-virtual {v0, p0}, Lcom/google/android/gms/internal/ads/oh2;->e(Lcom/google/android/gms/internal/ads/sh2;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/rd0;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :cond_0
     monitor-exit p0
 
@@ -238,7 +218,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     new-instance v0, Lcom/google/android/gms/internal/ads/qd0;
 
@@ -248,7 +227,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void

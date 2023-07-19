@@ -21,7 +21,6 @@
 
     const-string v1, "ProxyCacheUtils"
 
-    .line 1
     invoke-static {v1}, Lorg/slf4j/d;->g(Ljava/lang/String;)Lorg/slf4j/c;
 
     move-result-object v1
@@ -36,7 +35,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +49,6 @@
 
     const-string v1, "Buffer must be not null!"
 
-    .line 1
     invoke-static {p0, v1}, Lcom/meitu/common/video/videocache/m;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const/4 v1, 0x1
@@ -74,12 +71,10 @@
     :goto_0
     const-string p2, "Data offset must be positive!"
 
-    .line 2
     invoke-static {p1, p2}, Lcom/meitu/common/video/videocache/m;->c(ZLjava/lang/String;)V
 
     if-ltz p3, :cond_1
 
-    .line 3
     array-length p0, p0
 
     if-gt p3, p0, :cond_1
@@ -94,7 +89,6 @@
 
     invoke-static {v1, p0}, Lcom/meitu/common/video/videocache/m;->c(ZLjava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,12 +101,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1}, Ljava/lang/StringBuffer;-><init>()V
 
-    .line 2
     array-length v2, p0
 
     const/4 v3, 0x0
@@ -128,7 +120,6 @@
 
     new-array v6, v6, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {v5}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
 
     move-result-object v5
@@ -147,7 +138,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
@@ -167,7 +157,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
     :try_end_0
@@ -178,14 +167,12 @@
     :catch_0
     move-exception p0
 
-    .line 2
     sget-object v1, Lcom/meitu/common/video/videocache/o;->a:Lorg/slf4j/c;
 
     const-string v2, "Error closing resource"
 
     invoke-interface {v1, v2, p0}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -203,12 +190,10 @@
     :try_start_0
     const-string v1, "MD5"
 
-    .line 1
     invoke-static {v1}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
 
     move-result-object p0
@@ -217,7 +202,6 @@
 
     move-result-object p0
 
-    .line 3
     invoke-static {p0}, Lcom/meitu/common/video/videocache/o;->b([B)Ljava/lang/String;
 
     move-result-object p0
@@ -231,7 +215,6 @@
     :catch_0
     move-exception p0
 
-    .line 4
     new-instance v1, Ljava/lang/IllegalStateException;
 
     invoke-direct {v1, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
@@ -251,7 +234,6 @@
     :try_start_0
     const-string v1, "utf-8"
 
-    .line 1
     invoke-static {p0, v1}, Ljava/net/URLDecoder;->decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -265,7 +247,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "Error decoding url"
@@ -287,7 +268,6 @@
     :try_start_0
     const-string v1, "utf-8"
 
-    .line 1
     invoke-static {p0, v1}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -301,7 +281,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "Error encoding url"
@@ -320,17 +299,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/webkit/MimeTypeMap;->getSingleton()Landroid/webkit/MimeTypeMap;
 
     move-result-object v1
 
-    .line 2
     invoke-static {p0}, Landroid/webkit/MimeTypeMap;->getFileExtensionFromUrl(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -361,7 +337,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p1, v1}, Ljava/lang/Math;->max(II)I
 
     move-result v2
@@ -372,19 +347,16 @@
 
     move-result v2
 
-    .line 2
     invoke-static {p0, v1, v2}, Ljava/util/Arrays;->copyOfRange([BII)[B
 
     move-result-object p0
 
-    .line 3
     invoke-static {p0}, Ljava/util/Arrays;->toString([B)Ljava/lang/String;
 
     move-result-object p0
 
     if-ge v2, p1, :cond_0
 
-    .line 4
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -409,7 +381,6 @@
 
     move-result-object p0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

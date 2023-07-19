@@ -27,14 +27,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/common/BrowserAgentManager;
 
     invoke-direct {v0}, Lcom/mopub/common/BrowserAgentManager;-><init>()V
 
     sput-object v0, Lcom/mopub/common/BrowserAgentManager;->INSTANCE:Lcom/mopub/common/BrowserAgentManager;
 
-    .line 2
     sget-object v0, Lcom/mopub/common/BrowserAgentManager$BrowserAgent;->IN_APP:Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 
     sput-object v0, Lcom/mopub/common/BrowserAgentManager;->browserAgent:Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
@@ -45,7 +43,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -59,7 +56,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/BrowserAgentManager;->browserAgent:Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 
     return-object v0
@@ -68,7 +64,6 @@
 .method public static final isBrowserAgentOverriddenByClient()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/mopub/common/BrowserAgentManager;->isBrowserAgentOverriddenByClient:Z
 
     return v0
@@ -97,14 +92,12 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/BrowserAgentManager$BrowserAgent;->IN_APP:Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 
     sput-object v0, Lcom/mopub/common/BrowserAgentManager;->browserAgent:Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 
     const/4 v0, 0x0
 
-    .line 2
     sput-boolean v0, Lcom/mopub/common/BrowserAgentManager;->isBrowserAgentOverriddenByClient:Z
 
     return-void
@@ -126,12 +119,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sput-object p0, Lcom/mopub/common/BrowserAgentManager;->browserAgent:Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 
     const/4 p0, 0x1
 
-    .line 2
     sput-boolean p0, Lcom/mopub/common/BrowserAgentManager;->isBrowserAgentOverriddenByClient:Z
 
     return-void
@@ -150,12 +141,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-boolean v0, Lcom/mopub/common/BrowserAgentManager;->isBrowserAgentOverriddenByClient:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x1
@@ -186,7 +175,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sput-object p0, Lcom/mopub/common/BrowserAgentManager;->browserAgent:Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 

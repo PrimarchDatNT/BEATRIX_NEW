@@ -19,7 +19,6 @@
 .method public constructor <init>(Landroid/widget/ImageView;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bumptech/glide/request/j/j;-><init>(Landroid/widget/ImageView;)V
 
     return-void
@@ -30,7 +29,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/bumptech/glide/request/j/j;-><init>(Landroid/widget/ImageView;Z)V
 
     return-void
@@ -50,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/r;->b:Landroid/view/View;
 
     check-cast v0, Landroid/widget/ImageView;
@@ -59,14 +56,12 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/request/j/q;->o(Ljava/lang/Object;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget v1, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     if-lez v1, :cond_0
@@ -75,7 +70,6 @@
 
     if-lez v1, :cond_0
 
-    .line 4
     new-instance v1, Lcom/bumptech/glide/request/j/i;
 
     iget v2, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
@@ -86,7 +80,6 @@
 
     move-object p1, v1
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/bumptech/glide/request/j/r;->b:Landroid/view/View;
 

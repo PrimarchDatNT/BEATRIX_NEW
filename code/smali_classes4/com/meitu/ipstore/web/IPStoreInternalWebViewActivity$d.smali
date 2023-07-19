@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$d;->a:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,12 +45,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$d;->a:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-static {p1}, Lf/k/m/j/i;->d(Landroid/app/Activity;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

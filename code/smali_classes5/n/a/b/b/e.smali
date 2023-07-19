@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -16,7 +15,6 @@
 .method public static a(Z)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/Boolean;
 
     invoke-direct {v0, p0}, Ljava/lang/Boolean;-><init>(Z)V
@@ -33,13 +31,11 @@
 
     return p0
 
-    .line 1
     :cond_0
     instance-of v0, p0, Ljava/lang/Boolean;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p0, Ljava/lang/Boolean;
 
     invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -48,7 +44,6 @@
 
     return p0
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/lang/ClassCastException;
 
@@ -82,7 +77,6 @@
 .method public static c(B)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/Byte;
 
     invoke-direct {v0, p0}, Ljava/lang/Byte;-><init>(B)V
@@ -99,13 +93,11 @@
 
     return p0
 
-    .line 1
     :cond_0
     instance-of v0, p0, Ljava/lang/Number;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p0, Ljava/lang/Number;
 
     invoke-virtual {p0}, Ljava/lang/Number;->byteValue()B
@@ -114,7 +106,6 @@
 
     return p0
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/lang/ClassCastException;
 
@@ -148,7 +139,6 @@
 .method public static e(C)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/Character;
 
     invoke-direct {v0, p0}, Ljava/lang/Character;-><init>(C)V
@@ -165,13 +155,11 @@
 
     return p0
 
-    .line 1
     :cond_0
     instance-of v0, p0, Ljava/lang/Character;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p0, Ljava/lang/Character;
 
     invoke-virtual {p0}, Ljava/lang/Character;->charValue()C
@@ -180,7 +168,6 @@
 
     return p0
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/lang/ClassCastException;
 
@@ -214,7 +201,6 @@
 .method public static g(D)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/Double;
 
     invoke-direct {v0, p0, p1}, Ljava/lang/Double;-><init>(D)V
@@ -231,13 +217,11 @@
 
     return-wide v0
 
-    .line 1
     :cond_0
     instance-of v0, p0, Ljava/lang/Number;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p0, Ljava/lang/Number;
 
     invoke-virtual {p0}, Ljava/lang/Number;->doubleValue()D
@@ -246,7 +230,6 @@
 
     return-wide v0
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/lang/ClassCastException;
 
@@ -280,7 +263,6 @@
 .method public static i(F)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/Float;
 
     invoke-direct {v0, p0}, Ljava/lang/Float;-><init>(F)V
@@ -297,13 +279,11 @@
 
     return p0
 
-    .line 1
     :cond_0
     instance-of v0, p0, Ljava/lang/Number;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p0, Ljava/lang/Number;
 
     invoke-virtual {p0}, Ljava/lang/Number;->floatValue()F
@@ -312,7 +292,6 @@
 
     return p0
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/lang/ClassCastException;
 
@@ -346,7 +325,6 @@
 .method public static k(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/Integer;
 
     invoke-direct {v0, p0}, Ljava/lang/Integer;-><init>(I)V
@@ -363,13 +341,11 @@
 
     return p0
 
-    .line 1
     :cond_0
     instance-of v0, p0, Ljava/lang/Number;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p0, Ljava/lang/Number;
 
     invoke-virtual {p0}, Ljava/lang/Number;->intValue()I
@@ -378,7 +354,6 @@
 
     return p0
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/lang/ClassCastException;
 
@@ -412,7 +387,6 @@
 .method public static m(J)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/Long;
 
     invoke-direct {v0, p0, p1}, Ljava/lang/Long;-><init>(J)V
@@ -429,13 +403,11 @@
 
     return-wide v0
 
-    .line 1
     :cond_0
     instance-of v0, p0, Ljava/lang/Number;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p0, Ljava/lang/Number;
 
     invoke-virtual {p0}, Ljava/lang/Number;->longValue()J
@@ -444,7 +416,6 @@
 
     return-wide v0
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/lang/ClassCastException;
 
@@ -478,7 +449,6 @@
 .method public static o(S)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/Short;
 
     invoke-direct {v0, p0}, Ljava/lang/Short;-><init>(S)V
@@ -495,13 +465,11 @@
 
     return p0
 
-    .line 1
     :cond_0
     instance-of v0, p0, Ljava/lang/Number;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p0, Ljava/lang/Number;
 
     invoke-virtual {p0}, Ljava/lang/Number;->shortValue()S
@@ -510,7 +478,6 @@
 
     return p0
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/lang/ClassCastException;
 

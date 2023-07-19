@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
@@ -66,10 +65,8 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->save_fail_on_exception:I
 
-    .line 2
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$h;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->A(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;)Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -84,7 +81,6 @@
 
     invoke-static {p1, v1, v2, v3}, Lcom/commsource/camera/xcamera/cover/confirm/b;->N(Lcom/commsource/camera/xcamera/cover/confirm/b;ZILjava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -98,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$h;->a(Ljava/lang/Boolean;)V

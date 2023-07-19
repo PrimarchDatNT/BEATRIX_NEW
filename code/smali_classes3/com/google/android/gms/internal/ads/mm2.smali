@@ -23,7 +23,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/im2;Landroid/app/Activity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/mm2;->c:Lcom/google/android/gms/internal/ads/im2;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/mm2;->b:Landroid/app/Activity;
@@ -43,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mm2;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
@@ -60,7 +58,6 @@
 .method protected final synthetic c()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mm2;->b:Landroid/app/Activity;
 
     const-string v1, "ad_overlay"
@@ -80,7 +77,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mm2;->c:Lcom/google/android/gms/internal/ads/im2;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/im2;->p(Lcom/google/android/gms/internal/ads/im2;)Lcom/google/android/gms/internal/ads/if;

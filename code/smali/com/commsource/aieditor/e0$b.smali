@@ -22,7 +22,6 @@
 .method constructor <init>(Ljava/lang/String;Landroidx/lifecycle/MutableLiveData;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/commsource/aieditor/e0$b;->g:Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p0, p1}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/aieditor/e0;->t:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_0
@@ -50,7 +48,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/aieditor/e0;->t:Landroid/graphics/Bitmap;
 
     const/4 v2, 0x0
@@ -63,7 +60,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/aieditor/e0$b;->g:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -74,7 +70,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/aieditor/e0$b;->g:Landroidx/lifecycle/MutableLiveData;
 
@@ -82,7 +77,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

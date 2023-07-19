@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/NativeClickHandler;Landroid/view/View;Lcom/mopub/nativeads/SpinningProgressView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/NativeClickHandler$2;->this$0:Lcom/mopub/nativeads/NativeClickHandler;
 
     iput-object p2, p0, Lcom/mopub/nativeads/NativeClickHandler$2;->val$view:Landroid/view/View;
@@ -44,12 +43,10 @@
 .method private removeSpinningProgressView()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeClickHandler$2;->val$view:Landroid/view/View;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/NativeClickHandler$2;->val$spinningProgressView:Lcom/mopub/nativeads/SpinningProgressView;
 
     invoke-virtual {v0}, Lcom/mopub/nativeads/SpinningProgressView;->removeFromRoot()Z
@@ -71,10 +68,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/mopub/nativeads/NativeClickHandler$2;->removeSpinningProgressView()V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/nativeads/NativeClickHandler$2;->this$0:Lcom/mopub/nativeads/NativeClickHandler;
 
     const/4 p2, 0x0
@@ -95,10 +90,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/mopub/nativeads/NativeClickHandler$2;->removeSpinningProgressView()V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/nativeads/NativeClickHandler$2;->this$0:Lcom/mopub/nativeads/NativeClickHandler;
 
     const/4 p2, 0x0

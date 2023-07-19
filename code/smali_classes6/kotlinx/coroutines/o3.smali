@@ -14,7 +14,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/o3;
 
     invoke-direct {v0}, Lcotlinx/coroutines/o3;-><init>()V
@@ -27,7 +26,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/CoroutineDispatcher;-><init>()V
 
     return-void
@@ -56,7 +54,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object p2, Lcotlinx/coroutines/q3;->b:Lcotlinx/coroutines/q3$a;
 
     invoke-interface {p1, p2}, Lcotlin/coroutines/CoroutineContext;->get(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
@@ -69,12 +66,10 @@
 
     const/4 p2, 0x1
 
-    .line 2
     iput-boolean p2, p1, Lcotlinx/coroutines/q3;->a:Z
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 

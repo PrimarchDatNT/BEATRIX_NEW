@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$d;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraNewActivity;->A1()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -55,7 +54,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$d;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->O0()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -64,7 +62,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->X0()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

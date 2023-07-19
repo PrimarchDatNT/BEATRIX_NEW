@@ -26,15 +26,12 @@
 .method public constructor <init>(Lf/r/c/c/b;II)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/c/b$m0;->c:Lf/r/c/c/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p2, p0, Lf/r/c/c/b$m0;->a:I
 
-    .line 3
     iput p3, p0, Lf/r/c/c/b$m0;->b:I
 
     return-void

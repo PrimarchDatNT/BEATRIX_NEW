@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/m0/a;-><init>()V
 
     return-void
@@ -26,17 +25,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/tasks/l;
 
     invoke-direct {v0}, Lcom/google/android/gms/tasks/l;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/google/android/gms/tasks/l;->c(Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/tasks/l;->a()Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
@@ -67,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/m0/g;->b:Lcom/google/firebase/firestore/m0/g;
 
     invoke-interface {p1, v0}, Lcom/google/firebase/firestore/util/w;->a(Ljava/lang/Object;)V

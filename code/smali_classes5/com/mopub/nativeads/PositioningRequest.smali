@@ -57,12 +57,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/mopub/network/MoPubRequestUtils;->truncateQueryParamsIfPost(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/network/MoPubRequestUtils;->chooseMethod(Ljava/lang/String;)Lcom/mopub/network/MoPubRequest$Method;
 
     move-result-object v4
@@ -75,10 +73,8 @@
 
     move-object v5, p3
 
-    .line 3
     invoke-direct/range {v0 .. v5}, Lcom/mopub/network/MoPubRequest;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/mopub/network/MoPubRequest$Method;Lcom/mopub/network/MoPubResponse$Listener;)V
 
-    .line 4
     iput-object p3, p0, Lcom/mopub/nativeads/PositioningRequest;->mListener:Lcom/mopub/network/MoPubResponse$Listener;
 
     return-void
@@ -104,7 +100,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
@@ -112,14 +107,12 @@
 
     if-ge v1, v2, :cond_3
 
-    .line 2
     invoke-virtual {p1, v1}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v2
 
     const-string v3, "section"
 
-    .line 3
     invoke-virtual {v2, v3, v0}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result v3
@@ -135,7 +128,6 @@
     :cond_0
     const-string v3, "position"
 
-    .line 4
     invoke-virtual {v2, v3}, Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
 
     move-result v2
@@ -146,7 +138,6 @@
 
     if-gt v2, v3, :cond_1
 
-    .line 5
     invoke-virtual {p2, v2}, Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;->addFixedPosition(I)Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;
 
     :goto_1
@@ -154,7 +145,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance p1, Lorg/json/JSONException;
 
@@ -178,7 +168,6 @@
 
     throw p1
 
-    .line 7
     :cond_2
     new-instance p1, Lorg/json/JSONException;
 
@@ -224,7 +213,6 @@
 
     const-string v0, "interval"
 
-    .line 1
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
 
     move-result p1
@@ -237,12 +225,10 @@
 
     if-gt p1, v0, :cond_0
 
-    .line 2
     invoke-virtual {p2, p1}, Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;->enableRepeatingPositions(I)Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p2, Lorg/json/JSONException;
 
@@ -278,7 +264,6 @@
         .end annotation
     .end param
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/PositioningRequest;->mListener:Lcom/mopub/network/MoPubResponse$Listener;
 
     invoke-interface {v0, p1}, Lcom/mopub/network/MoPubResponse$Listener;->onResponse(Ljava/lang/Object;)V
@@ -293,7 +278,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;
 
     invoke-virtual {p0, p1}, Lcom/mopub/nativeads/PositioningRequest;->deliverResponse(Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;)V
@@ -304,7 +288,6 @@
 .method public getBody()[B
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getUrl()Ljava/lang/String;
 
     move-result-object v0
@@ -321,7 +304,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/mopub/nativeads/PositioningRequest;->getParams()Ljava/util/Map;
 
@@ -336,7 +318,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     invoke-virtual {v0}, Ljava/lang/String;->getBytes()[B
 
@@ -350,7 +331,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getUrl()Ljava/lang/String;
 
     move-result-object v0
@@ -365,7 +345,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-super {p0}, Lcom/mopub/network/MoPubRequest;->getBodyContentType()Ljava/lang/String;
 
@@ -389,12 +368,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/network/Networking;->getUrlRewriter()Lcom/mopub/network/MoPubUrlRewriter;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getUrl()Ljava/lang/String;
 
     move-result-object v1
@@ -409,7 +386,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getOriginalUrl()Ljava/lang/String;
 
@@ -451,19 +427,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
     const-string p1, "error"
 
-    .line 2
     invoke-virtual {v0, p1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -472,14 +445,12 @@
 
     const-string v0, "WARMING_UP"
 
-    .line 4
     invoke-virtual {p1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 5
     new-instance p1, Lcom/mopub/network/MoPubNetworkError$Builder;
 
     invoke-direct {p1}, Lcom/mopub/network/MoPubNetworkError$Builder;-><init>()V
@@ -496,7 +467,6 @@
 
     throw p1
 
-    .line 6
     :cond_0
     new-instance v0, Lorg/json/JSONException;
 
@@ -507,14 +477,12 @@
     :cond_1
     const-string p1, "fixed"
 
-    .line 7
     invoke-virtual {v0, p1}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object p1
 
     const-string v1, "repeating"
 
-    .line 8
     invoke-virtual {v0, v1}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -525,7 +493,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     new-instance p1, Lorg/json/JSONException;
 
@@ -535,7 +502,6 @@
 
     throw p1
 
-    .line 10
     :cond_3
     :goto_0
     new-instance v1, Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;
@@ -544,13 +510,11 @@
 
     if-eqz p1, :cond_4
 
-    .line 11
     invoke-direct {p0, p1, v1}, Lcom/mopub/nativeads/PositioningRequest;->parseFixedJson(Lorg/json/JSONArray;Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;)V
 
     :cond_4
     if-eqz v0, :cond_5
 
-    .line 12
     invoke-direct {p0, v0, v1}, Lcom/mopub/nativeads/PositioningRequest;->parseRepeatingJson(Lorg/json/JSONObject;Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;)V
 
     :cond_5
@@ -572,7 +536,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     new-instance p1, Lcom/mopub/network/MoPubNetworkError$Builder;
 
     const-string v0, "Empty network response"
@@ -589,7 +552,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkResponse;->getStatusCode()I
 
@@ -599,7 +561,6 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 3
     new-instance v0, Lcom/mopub/network/MoPubNetworkError$Builder;
 
     invoke-direct {v0}, Lcom/mopub/network/MoPubNetworkError$Builder;-><init>()V
@@ -618,7 +579,6 @@
 
     return-object p1
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkResponse;->getData()[B
 
@@ -636,7 +596,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     :try_start_0
     new-instance v0, Ljava/lang/String;
@@ -645,7 +604,6 @@
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkResponse;->getHeaders()Ljava/util/Map;
 
     move-result-object v2
@@ -656,7 +614,6 @@
 
     invoke-direct {v0, v1, v2}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
 
-    .line 7
     invoke-virtual {p0, v0}, Lcom/mopub/nativeads/PositioningRequest;->parseJson(Ljava/lang/String;)Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;
 
     move-result-object v0
@@ -674,7 +631,6 @@
     :catch_0
     move-exception p1
 
-    .line 8
     invoke-static {p1}, Lcom/mopub/network/MoPubResponse;->error(Lcom/mopub/network/MoPubNetworkError;)Lcom/mopub/network/MoPubResponse;
 
     move-result-object p1
@@ -684,7 +640,6 @@
     :catch_1
     move-exception p1
 
-    .line 9
     new-instance v0, Lcom/mopub/network/MoPubNetworkError$Builder;
 
     const-string v1, "JSON Parsing Error"
@@ -704,26 +659,22 @@
     :catch_2
     move-exception p1
 
-    .line 10
     new-instance v0, Lcom/mopub/network/MoPubNetworkError$Builder;
 
     const-string v1, "Couldn\'t parse JSON from Charset"
 
     invoke-direct {v0, v1, p1}, Lcom/mopub/network/MoPubNetworkError$Builder;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 11
     invoke-virtual {v0}, Lcom/mopub/network/MoPubNetworkError$Builder;->build()Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object p1
 
-    .line 12
     invoke-static {p1}, Lcom/mopub/network/MoPubResponse;->error(Lcom/mopub/network/MoPubNetworkError;)Lcom/mopub/network/MoPubResponse;
 
     move-result-object p1
 
     return-object p1
 
-    .line 13
     :cond_3
     :goto_0
     new-instance p1, Lcom/mopub/network/MoPubNetworkError$Builder;
@@ -738,12 +689,10 @@
 
     invoke-direct {p1, v1, v0}, Lcom/mopub/network/MoPubNetworkError$Builder;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 14
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkError$Builder;->build()Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object p1
 
-    .line 15
     invoke-static {p1}, Lcom/mopub/network/MoPubResponse;->error(Lcom/mopub/network/MoPubNetworkError;)Lcom/mopub/network/MoPubResponse;
 
     move-result-object p1

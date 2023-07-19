@@ -11,7 +11,6 @@
 .method public constructor <init>(Lcom/meitu/template/bean/ArMaterial;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getFileUrl()Ljava/lang/String;
 
     move-result-object v0
@@ -46,7 +45,6 @@
 
     invoke-direct {p0, v0, v1}, Lcom/commsource/material/download/c/c;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/material/download/c/b;->l:Lcom/meitu/template/bean/ArMaterial;
 
     return-void
@@ -61,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -70,12 +67,10 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {p2, v1}, Lf/d/j/a/a;->j(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v2
 
-    .line 3
     new-instance v3, Ljava/io/File;
 
     invoke-direct {v3, p2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -86,7 +81,6 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -106,7 +100,6 @@
     :cond_0
     if-nez v2, :cond_1
 
-    .line 5
     new-instance p2, Lcom/commsource/material/DownloadException;
 
     const-string v1, "\u672a\u89e3\u538b\u6210\u529f"
@@ -115,12 +108,10 @@
 
     invoke-super {p0, p1, p2}, Lcom/commsource/material/download/c/c;->a(Lcom/commsource/material/DownloadTask;Ljava/lang/Exception;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     new-instance v2, Ljava/io/File;
 
@@ -150,7 +141,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 8
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -175,7 +165,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 9
     invoke-static {v1}, Lcom/commsource/beautyplus/util/h;->R(Ljava/lang/String;)Z
 
     move-result v1
@@ -184,7 +173,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     new-instance p2, Lcom/commsource/material/DownloadException;
 
@@ -196,14 +184,12 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     :goto_0
     invoke-super {p0, p1, p2}, Lcom/commsource/material/download/c/c;->b(Lcom/commsource/material/DownloadTask;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 12
     :cond_4
     new-instance p2, Lcom/commsource/material/DownloadException;
 
@@ -213,7 +199,6 @@
 
     invoke-super {p0, p1, p2}, Lcom/commsource/material/download/c/c;->a(Lcom/commsource/material/DownloadTask;Ljava/lang/Exception;)V
 
-    .line 13
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

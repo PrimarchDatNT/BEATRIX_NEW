@@ -63,17 +63,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/collections/o1/d$d;->c:Lcotlin/collections/o1/d;
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcotlin/collections/o1/d$d;->b:I
 
-    .line 3
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->d()V
 
     return-void
@@ -84,7 +81,6 @@
 .method public final a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/d$d;->a:I
 
     return v0
@@ -93,7 +89,6 @@
 .method public final b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/d$d;->b:I
 
     return v0
@@ -112,7 +107,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/d$d;->c:Lcotlin/collections/o1/d;
 
     return-object v0
@@ -121,7 +115,6 @@
 .method public final d()V
     .locals 2
 
-    .line 1
     :goto_0
     iget v0, p0, Lcotlin/collections/o1/d$d;->a:I
 
@@ -147,7 +140,6 @@
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 2
     iput v1, p0, Lcotlin/collections/o1/d$d;->a:I
 
     goto :goto_0
@@ -159,7 +151,6 @@
 .method public final e(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlin/collections/o1/d$d;->a:I
 
     return-void
@@ -168,7 +159,6 @@
 .method public final f(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlin/collections/o1/d$d;->b:I
 
     return-void
@@ -177,7 +167,6 @@
 .method public final hasNext()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlin/collections/o1/d$d;->a:I
 
     iget-object v1, p0, Lcotlin/collections/o1/d$d;->c:Lcotlin/collections/o1/d;
@@ -202,12 +191,10 @@
 .method public final remove()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/d$d;->c:Lcotlin/collections/o1/d;
 
     invoke-virtual {v0}, Lcotlin/collections/o1/d;->n()V
 
-    .line 2
     iget-object v0, p0, Lcotlin/collections/o1/d$d;->c:Lcotlin/collections/o1/d;
 
     iget v1, p0, Lcotlin/collections/o1/d$d;->b:I
@@ -216,7 +203,6 @@
 
     const/4 v0, -0x1
 
-    .line 3
     iput v0, p0, Lcotlin/collections/o1/d$d;->b:I
 
     return-void

@@ -31,7 +31,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/video/d;
 
     invoke-direct {v1}, Lcom/commsource/video/d;-><init>()V
@@ -46,7 +45,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -67,7 +65,6 @@
 
     int-to-long v1, v1
 
-    .line 1
     div-long/2addr p1, v1
 
     long-to-int p2, p1
@@ -87,7 +84,6 @@
     :cond_0
     const-string p1, "%02d:%02d"
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -124,25 +120,20 @@
 
     int-to-long v1, v1
 
-    .line 1
     div-long/2addr p2, v1
 
     long-to-int p3, p2
 
-    .line 2
     rem-int/lit8 p2, p3, 0x3c
 
-    .line 3
     div-int/lit8 v1, p3, 0x3c
 
     rem-int/lit8 v1, v1, 0x3c
 
-    .line 4
     div-int/lit16 p3, p3, 0xe10
 
     const-string v2, "%02d:%02d"
 
-    .line 5
     invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -157,7 +148,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     sget-object p3, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     new-array p3, v6, [Ljava/lang/Object;
@@ -191,7 +181,6 @@
     :cond_1
     const-string v2, "%02d:%02d:%02d"
 
-    .line 7
     invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
@@ -200,7 +189,6 @@
 
     if-eqz v7, :cond_2
 
-    .line 8
     sget-object v2, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     new-array v2, v8, [Ljava/lang/Object;
@@ -237,7 +225,6 @@
 
     return-object p1
 
-    .line 9
     :cond_2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -247,7 +234,6 @@
 
     move-object p1, v2
 
-    .line 10
     :cond_3
     sget-object v2, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
@@ -297,7 +283,6 @@
 
     const-string v1, "%02d:%02d"
 
-    .line 1
     invoke-virtual {p0, v1, p1, p2}, Lcom/commsource/video/d;->b(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p1
@@ -318,7 +303,6 @@
 
     const-string v1, "%02d:%02d:%02d"
 
-    .line 1
     invoke-virtual {p0, v1, p1, p2}, Lcom/commsource/video/d;->b(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p1
@@ -341,7 +325,6 @@
 
     int-to-long v1, v1
 
-    .line 1
     div-long v1, p1, v1
 
     long-to-int v2, v1
@@ -354,20 +337,17 @@
 
     if-ltz v5, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lcom/commsource/video/d;->d(J)Ljava/lang/String;
 
     move-result-object p1
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/video/d;->c(J)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

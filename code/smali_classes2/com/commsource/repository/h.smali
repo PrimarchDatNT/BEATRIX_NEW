@@ -14,7 +14,6 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/commsource/repository/h;->a:I
@@ -27,12 +26,10 @@
 .method public final a(I)V
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/repository/h;->a:I
 
     if-le v0, p1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/repository/h;->c()V
 
     :cond_0
@@ -42,7 +39,6 @@
 .method public final b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/repository/h;->a:I
 
     return v0

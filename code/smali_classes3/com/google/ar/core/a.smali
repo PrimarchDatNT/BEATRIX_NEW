@@ -11,7 +11,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p2, p3}, Lcom/google/ar/core/ArCoreApk$Availability;-><init>(Ljava/lang/String;IILcom/google/ar/core/k;)V
 
     return-void

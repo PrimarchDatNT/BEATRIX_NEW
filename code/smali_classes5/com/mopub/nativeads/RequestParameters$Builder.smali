@@ -36,7 +36,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
 .method static synthetic access$100(Lcom/mopub/nativeads/RequestParameters$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/RequestParameters$Builder;->keywords:Ljava/lang/String;
 
     return-object p0
@@ -54,7 +52,6 @@
 .method static synthetic access$200(Lcom/mopub/nativeads/RequestParameters$Builder;)Ljava/util/EnumSet;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/RequestParameters$Builder;->desiredAssets:Ljava/util/EnumSet;
 
     return-object p0
@@ -63,7 +60,6 @@
 .method static synthetic access$300(Lcom/mopub/nativeads/RequestParameters$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/RequestParameters$Builder;->userDatakeywords:Ljava/lang/String;
 
     return-object p0
@@ -72,7 +68,6 @@
 .method static synthetic access$400(Lcom/mopub/nativeads/RequestParameters$Builder;)Landroid/location/Location;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/RequestParameters$Builder;->location:Landroid/location/Location;
 
     return-object p0
@@ -85,7 +80,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/mopub/nativeads/RequestParameters;
 
     const/4 v1, 0x0
@@ -110,7 +104,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Ljava/util/EnumSet;->copyOf(Ljava/util/EnumSet;)Ljava/util/EnumSet;
 
     move-result-object p1
@@ -125,7 +118,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/RequestParameters$Builder;->keywords:Ljava/lang/String;
 
     return-object p0
@@ -136,7 +128,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/MoPub;->canCollectPersonalInformation()Z
 
     move-result v0
@@ -159,7 +150,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/MoPub;->canCollectPersonalInformation()Z
 
     move-result v0

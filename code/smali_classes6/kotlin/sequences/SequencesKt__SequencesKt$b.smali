@@ -37,7 +37,6 @@
 
     iput-object p1, p0, Lcotlin/sequences/SequencesKt__SequencesKt$b;->a:Ljava/util/Iterator;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +57,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/SequencesKt__SequencesKt$b;->a:Ljava/util/Iterator;
 
     return-object v0

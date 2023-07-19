@@ -31,10 +31,8 @@
 .method constructor <init>(Lcom/google/protobuf/i1;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -45,7 +43,6 @@
 
     iput-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$SerializedForm;->messageClassName:Ljava/lang/String;
 
-    .line 3
     invoke-interface {p1}, Lcom/google/protobuf/i1;->P()[B
 
     move-result-object p1
@@ -58,7 +55,6 @@
 .method public static of(Lcom/google/protobuf/i1;)Lcom/google/protobuf/GeneratedMessageLite$SerializedForm;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/GeneratedMessageLite$SerializedForm;
 
     invoke-direct {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite$SerializedForm;-><init>(Lcom/google/protobuf/i1;)V
@@ -77,7 +73,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$SerializedForm;->messageClassName:Ljava/lang/String;
 
@@ -87,38 +82,32 @@
 
     const-string v1, "defaultInstance"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/google/protobuf/i1;
 
-    .line 5
     invoke-interface {v0}, Lcom/google/protobuf/i1;->W8()Lcom/google/protobuf/i1$a;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/google/protobuf/GeneratedMessageLite$SerializedForm;->asBytes:[B
 
-    .line 6
     invoke-interface {v0, v1}, Lcom/google/protobuf/i1$a;->nb([B)Lcom/google/protobuf/i1$a;
 
     move-result-object v0
 
-    .line 7
     invoke-interface {v0}, Lcom/google/protobuf/i1$a;->V7()Lcom/google/protobuf/i1;
 
     move-result-object v0
@@ -134,7 +123,6 @@
     :catch_0
     move-exception v0
 
-    .line 8
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "Unable to understand proto buffer"
@@ -146,7 +134,6 @@
     :catch_1
     move-exception v0
 
-    .line 9
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "Unable to call parsePartialFrom"
@@ -158,7 +145,6 @@
     :catch_2
     move-exception v0
 
-    .line 10
     new-instance v1, Ljava/lang/RuntimeException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -184,7 +170,6 @@
     :catch_3
     move-exception v0
 
-    .line 11
     new-instance v1, Ljava/lang/RuntimeException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -210,7 +195,6 @@
     :catch_4
     move-exception v0
 
-    .line 12
     new-instance v1, Ljava/lang/RuntimeException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -244,7 +228,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$SerializedForm;->messageClassName:Ljava/lang/String;
 
@@ -254,38 +237,32 @@
 
     const-string v1, "DEFAULT_INSTANCE"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/google/protobuf/i1;
 
-    .line 5
     invoke-interface {v0}, Lcom/google/protobuf/i1;->W8()Lcom/google/protobuf/i1$a;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/google/protobuf/GeneratedMessageLite$SerializedForm;->asBytes:[B
 
-    .line 6
     invoke-interface {v0, v1}, Lcom/google/protobuf/i1$a;->nb([B)Lcom/google/protobuf/i1$a;
 
     move-result-object v0
 
-    .line 7
     invoke-interface {v0}, Lcom/google/protobuf/i1$a;->V7()Lcom/google/protobuf/i1;
 
     move-result-object v0
@@ -301,7 +278,6 @@
     :catch_0
     move-exception v0
 
-    .line 8
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "Unable to understand proto buffer"
@@ -313,7 +289,6 @@
     :catch_1
     move-exception v0
 
-    .line 9
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "Unable to call parsePartialFrom"
@@ -325,7 +300,6 @@
     :catch_2
     move-exception v0
 
-    .line 10
     new-instance v1, Ljava/lang/RuntimeException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -348,7 +322,6 @@
 
     throw v1
 
-    .line 11
     :catch_3
     invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageLite$SerializedForm;->readResolveFallback()Ljava/lang/Object;
 
@@ -359,7 +332,6 @@
     :catch_4
     move-exception v0
 
-    .line 12
     new-instance v1, Ljava/lang/RuntimeException;
 
     new-instance v2, Ljava/lang/StringBuilder;

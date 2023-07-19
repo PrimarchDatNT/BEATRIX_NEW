@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/internal/view/SpotXActivity$a;->b:Lcom/spotxchange/internal/view/SpotXActivity;
 
     iput-boolean p2, p0, Lcom/spotxchange/internal/view/SpotXActivity$a;->a:Z
@@ -47,7 +46,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/internal/view/SpotXActivity$a;->b:Lcom/spotxchange/internal/view/SpotXActivity;
 
     iget-boolean v1, p0, Lcom/spotxchange/internal/view/SpotXActivity$a;->a:Z

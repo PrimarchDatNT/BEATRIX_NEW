@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$b;->g:Lcom/commsource/studio/sticker/StickerFragment;
 
     iput-object p2, p0, Lcom/commsource/studio/sticker/StickerFragment$b;->p:Lcom/meitu/template/bean/Sticker;
@@ -53,14 +52,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/bean/StickerLayerInfo;
 
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment$b;->p:Lcom/meitu/template/bean/Sticker;
 
     invoke-direct {v1, v2}, Lcom/commsource/studio/bean/StickerLayerInfo;-><init>(Lcom/meitu/template/bean/Sticker;)V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment$b;->g:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/sticker/StickerFragment;->Y(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/studio/sticker/StickerViewModel;
@@ -73,26 +70,22 @@
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v2}, Landroid/graphics/Rect;->width()I
 
     move-result v3
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->setWidth(I)V
 
-    .line 4
     invoke-virtual {v2}, Landroid/graphics/Rect;->height()I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/FocusLayerInfo;->setHeight(I)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v2
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/studio/sticker/StickerFragment$b;->g:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {v3}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -103,17 +96,14 @@
 
     move-result-object v4
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getWidth()I
 
     move-result v5
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getHeight()I
 
     move-result v6
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getWidth()I
 
     move-result v3
@@ -136,15 +126,12 @@
 
     const/4 v10, 0x0
 
-    .line 10
     invoke-static/range {v4 .. v10}, Lcom/commsource/studio/StudioCanvasContainer;->v(Lcom/commsource/studio/StudioCanvasContainer;IIZFILjava/lang/Object;)Lcom/commsource/studio/MatrixBox;
 
     move-result-object v3
 
-    .line 11
     invoke-virtual {v2, v3}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment$b;->g:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {v2}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -159,7 +146,6 @@
 
     move-result v2
 
-    .line 13
     iget-object v3, p0, Lcom/commsource/studio/sticker/StickerFragment$b;->g:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {v3}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -174,10 +160,8 @@
 
     move-result v3
 
-    .line 14
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->onUpdateMatrix(II)V
 
-    .line 15
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
     move-result-object v2
@@ -188,7 +172,6 @@
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

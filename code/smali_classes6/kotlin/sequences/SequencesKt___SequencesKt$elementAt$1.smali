@@ -54,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IndexOutOfBoundsException;
 
     new-instance v0, Ljava/lang/StringBuilder;

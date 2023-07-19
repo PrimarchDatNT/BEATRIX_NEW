@@ -37,10 +37,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -49,7 +47,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/firestore/model/n/h;->a:Lcom/google/firebase/firestore/model/l;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/model/n/h;->b:Ljava/util/List;
 
     return-void
@@ -71,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/h;->b:Ljava/util/List;
 
     return-object v0
@@ -80,7 +76,6 @@
 .method public b()Lcom/google/firebase/firestore/model/l;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/h;->a:Lcom/google/firebase/firestore/model/l;
 
     return-object v0

@@ -21,7 +21,6 @@
 
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -30,7 +29,6 @@
 
     const-string v0, "ISO-8859-1"
 
-    .line 2
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -41,7 +39,6 @@
 
     new-array v1, v0, [B
 
-    .line 3
     sput-object v1, Lcom/google/android/gms/internal/measurement/x3;->c:[B
 
     invoke-static {v1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
@@ -50,15 +47,12 @@
 
     sput-object v2, Lcom/google/android/gms/internal/measurement/x3;->d:Ljava/nio/ByteBuffer;
 
-    .line 4
     array-length v2, v1
 
-    .line 5
     invoke-static {v1, v0, v2, v0}, Lcom/google/android/gms/internal/measurement/a3;->c([BIIZ)Lcom/google/android/gms/internal/measurement/a3;
 
     move-result-object v0
 
-    .line 6
     sput-object v0, Lcom/google/android/gms/internal/measurement/x3;->e:Lcom/google/android/gms/internal/measurement/a3;
 
     return-void
@@ -76,7 +70,6 @@
 
     mul-int/lit8 p0, p0, 0x1f
 
-    .line 1
     aget-byte v1, p1, v0
 
     add-int/2addr p0, v1
@@ -128,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
@@ -137,7 +129,6 @@
 .method static e(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p0, Lcom/google/android/gms/internal/measurement/d5;
 
     invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/d5;->d()Lcom/google/android/gms/internal/measurement/c5;
@@ -169,7 +160,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     return-object p0
@@ -178,7 +168,6 @@
 .method static g(Lcom/google/android/gms/internal/measurement/d5;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p0, Lcom/google/android/gms/internal/measurement/j2;
 
     if-eqz v0, :cond_0
@@ -194,7 +183,6 @@
 .method public static h([B)Z
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/measurement/u6;->f([B)Z
 
     move-result p0
@@ -205,7 +193,6 @@
 .method public static i([B)Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/String;
 
     sget-object v1, Lcom/google/android/gms/internal/measurement/x3;->a:Ljava/nio/charset/Charset;
@@ -218,12 +205,10 @@
 .method public static j([B)I
     .locals 2
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0, p0, v1, v0}, Lcom/google/android/gms/internal/measurement/x3;->a(I[BII)I
 
     move-result p0

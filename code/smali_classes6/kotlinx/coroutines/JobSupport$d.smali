@@ -34,7 +34,6 @@
 
     iput-object p4, p0, Lcotlinx/coroutines/JobSupport$d;->f:Ljava/lang/Object;
 
-    .line 1
     invoke-direct {p0, p2}, Lcotlinx/coroutines/internal/m$c;-><init>(Lcotlinx/coroutines/internal/m;)V
 
     return-void
@@ -45,7 +44,6 @@
 .method public bridge synthetic h(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlinx/coroutines/internal/m;
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/JobSupport$d;->j(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
@@ -64,7 +62,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/JobSupport$d;->e:Lcotlinx/coroutines/JobSupport;
 
     invoke-virtual {p1}, Lcotlinx/coroutines/JobSupport;->D0()Ljava/lang/Object;

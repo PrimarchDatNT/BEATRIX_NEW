@@ -42,12 +42,10 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/android/billingclient/api/g$a;->e:I
 
     return-void
@@ -56,7 +54,6 @@
 .method synthetic constructor <init>(Lcom/android/billingclient/api/y;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lcom/android/billingclient/api/g$a;-><init>()V
 
     return-void
@@ -67,7 +64,6 @@
 .method public a()Lcom/android/billingclient/api/g;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/g$a;->f:Ljava/util/ArrayList;
 
     if-eqz v0, :cond_8
@@ -78,7 +74,6 @@
 
     if-nez v0, :cond_8
 
-    .line 2
     iget-object v0, p0, Lcom/android/billingclient/api/g$a;->f:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -104,7 +99,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -114,7 +108,6 @@
 
     throw v0
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/android/billingclient/api/g$a;->f:Ljava/util/ArrayList;
 
@@ -126,7 +119,6 @@
 
     if-le v0, v1, :cond_7
 
-    .line 5
     iget-object v0, p0, Lcom/android/billingclient/api/g$a;->f:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -135,12 +127,10 @@
 
     check-cast v0, Lcom/android/billingclient/api/SkuDetails;
 
-    .line 6
     invoke-virtual {v0}, Lcom/android/billingclient/api/SkuDetails;->q()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
     iget-object v3, p0, Lcom/android/billingclient/api/g$a;->f:Ljava/util/ArrayList;
 
     invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
@@ -160,7 +150,6 @@
 
     check-cast v6, Lcom/android/billingclient/api/SkuDetails;
 
-    .line 8
     invoke-virtual {v6}, Lcom/android/billingclient/api/SkuDetails;->q()Ljava/lang/String;
 
     move-result-object v6
@@ -173,7 +162,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -183,13 +171,11 @@
 
     throw v0
 
-    .line 10
     :cond_3
     invoke-virtual {v0}, Lcom/android/billingclient/api/SkuDetails;->r()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -198,7 +184,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 12
     iget-object v0, p0, Lcom/android/billingclient/api/g$a;->f:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -216,7 +201,6 @@
 
     check-cast v4, Lcom/android/billingclient/api/SkuDetails;
 
-    .line 13
     invoke-virtual {v4}, Lcom/android/billingclient/api/SkuDetails;->r()Ljava/lang/String;
 
     move-result-object v4
@@ -229,7 +213,6 @@
 
     goto :goto_2
 
-    .line 14
     :cond_4
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -237,7 +220,6 @@
 
     throw v0
 
-    .line 15
     :cond_5
     iget-object v1, p0, Lcom/android/billingclient/api/g$a;->f:Ljava/util/ArrayList;
 
@@ -256,7 +238,6 @@
 
     check-cast v5, Lcom/android/billingclient/api/SkuDetails;
 
-    .line 16
     invoke-virtual {v5}, Lcom/android/billingclient/api/SkuDetails;->r()Ljava/lang/String;
 
     move-result-object v5
@@ -269,7 +250,6 @@
 
     goto :goto_3
 
-    .line 17
     :cond_6
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -277,7 +257,6 @@
 
     throw v0
 
-    .line 18
     :cond_7
     new-instance v0, Lcom/android/billingclient/api/g;
 
@@ -285,47 +264,38 @@
 
     invoke-direct {v0, v1}, Lcom/android/billingclient/api/g;-><init>(Lcom/android/billingclient/api/y;)V
 
-    .line 19
     invoke-static {v0, v1}, Lcom/android/billingclient/api/g;->j(Lcom/android/billingclient/api/g;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 20
     iget-object v1, p0, Lcom/android/billingclient/api/g$a;->a:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/android/billingclient/api/g;->o(Lcom/android/billingclient/api/g;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 21
     iget-object v1, p0, Lcom/android/billingclient/api/g$a;->d:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/android/billingclient/api/g;->p(Lcom/android/billingclient/api/g;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 22
     iget-object v1, p0, Lcom/android/billingclient/api/g$a;->b:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/android/billingclient/api/g;->s(Lcom/android/billingclient/api/g;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 23
     iget-object v1, p0, Lcom/android/billingclient/api/g$a;->c:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/android/billingclient/api/g;->u(Lcom/android/billingclient/api/g;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 24
     iget v1, p0, Lcom/android/billingclient/api/g$a;->e:I
 
     invoke-static {v0, v1}, Lcom/android/billingclient/api/g;->i(Lcom/android/billingclient/api/g;I)I
 
-    .line 25
     iget-object v1, p0, Lcom/android/billingclient/api/g$a;->f:Ljava/util/ArrayList;
 
     invoke-static {v0, v1}, Lcom/android/billingclient/api/g;->l(Lcom/android/billingclient/api/g;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
-    .line 26
     iget-boolean v1, p0, Lcom/android/billingclient/api/g$a;->g:Z
 
     invoke-static {v0, v1}, Lcom/android/billingclient/api/g;->m(Lcom/android/billingclient/api/g;Z)Z
 
     return-object v0
 
-    .line 27
     :cond_8
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -343,7 +313,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/g$a;->a:Ljava/lang/String;
 
     return-object p0
@@ -356,7 +325,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/g$a;->d:Ljava/lang/String;
 
     return-object p0
@@ -373,10 +341,8 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/g$a;->b:Ljava/lang/String;
 
-    .line 2
     iput-object p2, p0, Lcom/android/billingclient/api/g$a;->c:Ljava/lang/String;
 
     return-object p0
@@ -385,7 +351,6 @@
 .method public e(I)Lcom/android/billingclient/api/g$a;
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/android/billingclient/api/g$a;->e:I
 
     return-object p0
@@ -398,15 +363,12 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     iput-object v0, p0, Lcom/android/billingclient/api/g$a;->f:Ljava/util/ArrayList;
 
     return-object p0
@@ -415,7 +377,6 @@
 .method public g(Z)Lcom/android/billingclient/api/g$a;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/android/billingclient/api/g$a;->g:Z
 
     return-object p0

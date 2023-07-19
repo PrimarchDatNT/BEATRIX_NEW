@@ -41,7 +41,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -56,14 +55,12 @@
 
     if-nez v2, :cond_0
 
-    .line 1
     invoke-static {p3, p4}, Lf/f/d/b/a/a/b;->d([BI)I
 
     move-result v0
 
     return v0
 
-    .line 2
     :cond_0
     invoke-static {p1, p2}, Ljava/lang/Double;->doubleToLongBits(D)J
 
@@ -111,7 +108,6 @@
 
     if-ge v1, v7, :cond_2
 
-    .line 3
     invoke-static {v2, v3}, Ljava/lang/Long;->numberOfLeadingZeros(J)I
 
     move-result v4
@@ -151,12 +147,10 @@
 
     add-int/lit8 v0, p4, 0x1
 
-    .line 4
     aput-byte v4, p3, p4
 
     const/16 v2, -0x80
 
-    .line 5
     aput-byte v2, p3, v0
 
     return v1
@@ -164,7 +158,6 @@
     :cond_3
     const/4 v0, -0x1
 
-    .line 6
     aput-byte v0, p3, p4
 
     return v5
@@ -172,12 +165,10 @@
     :cond_4
     add-int/lit8 v0, p4, 0x1
 
-    .line 7
     aput-byte v4, p3, p4
 
     const/16 v2, 0x60
 
-    .line 8
     aput-byte v2, p3, v0
 
     return v1
@@ -190,7 +181,6 @@
 
     move v5, p4
 
-    .line 9
     invoke-static/range {v0 .. v5}, Lf/f/d/b/a/a/b;->c(ZIJ[BI)I
 
     move-result v0
@@ -207,7 +197,6 @@
 
     if-nez v2, :cond_0
 
-    .line 1
     invoke-static {p3, p4}, Lf/f/d/b/a/a/b;->d([BI)I
 
     move-result p0
@@ -224,7 +213,6 @@
     :cond_1
     move v0, p0
 
-    .line 2
     invoke-static {p1, p2}, Ljava/lang/Long;->numberOfLeadingZeros(J)I
 
     move-result p0
@@ -247,7 +235,6 @@
 
     move v5, p4
 
-    .line 3
     invoke-static/range {v0 .. v5}, Lf/f/d/b/a/a/b;->c(ZIJ[BI)I
 
     move-result p0
@@ -343,10 +330,8 @@
 
     int-to-byte p1, p1
 
-    .line 1
     aput-byte p1, p4, p5
 
-    .line 2
     invoke-static {p2, p3}, Lf/f/d/b/a/a/b;->e(J)I
 
     move-result v3
@@ -379,7 +364,6 @@
 
     int-to-byte v1, v1
 
-    .line 3
     aput-byte v1, p4, p5
 
     shl-int/2addr p1, v3
@@ -406,10 +390,8 @@
 
     int-to-byte p1, p1
 
-    .line 4
     aput-byte p1, p4, v5
 
-    .line 5
     invoke-static {p2, p3}, Lf/f/d/b/a/a/b;->e(J)I
 
     move-result v3
@@ -439,7 +421,6 @@
 
     int-to-byte v3, v3
 
-    .line 6
     aput-byte v3, p4, p5
 
     and-int/2addr p1, v1
@@ -454,10 +435,8 @@
 
     int-to-byte p1, p1
 
-    .line 7
     aput-byte p1, p4, v4
 
-    .line 8
     invoke-static {p2, p3}, Lf/f/d/b/a/a/b;->e(J)I
 
     move-result v3
@@ -479,10 +458,8 @@
 
     int-to-byte p3, p3
 
-    .line 9
     aput-byte p3, p4, v0
 
-    .line 10
     invoke-static {p1, p2}, Lf/f/d/b/a/a/b;->e(J)I
 
     move-result v3
@@ -500,14 +477,12 @@
 
     int-to-byte p0, p0
 
-    .line 11
     aput-byte p0, p4, v0
 
     sub-int/2addr p1, p5
 
     return p1
 
-    .line 12
     :cond_7
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -523,7 +498,6 @@
 
     const/16 v0, -0x80
 
-    .line 1
     aput-byte v0, p0, p1
 
     const/4 p0, 0x1

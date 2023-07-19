@@ -26,7 +26,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter$FollowPlatformEnum;->values()[Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter$FollowPlatformEnum;
 
     move-result-object v1

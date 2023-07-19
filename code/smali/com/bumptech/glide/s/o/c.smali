@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method synthetic constructor <init>(Lcom/bumptech/glide/s/o/c$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/s/o/c;-><init>()V
 
     return-void
@@ -40,7 +38,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/s/o/c$c;
 
     invoke-direct {v0}, Lcom/bumptech/glide/s/o/c$c;-><init>()V

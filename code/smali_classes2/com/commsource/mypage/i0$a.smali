@@ -28,15 +28,12 @@
 .method public constructor <init>(Lcom/commsource/mypage/i0;Landroid/view/View;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
-    .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
     sget p1, Lcom/res/provider/ResID;->iv_thumb:I
 
-    .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -47,7 +44,6 @@
 
     sget p1, Lcom/res/provider/ResID;->cb_select:I
 
-    .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -58,7 +54,6 @@
 
     sget p1, Lcom/res/provider/ResID;->iv_default_select:I
 
-    .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -67,7 +62,6 @@
 
     iput-object p1, p0, Lcom/commsource/mypage/i0$a;->c:Landroid/widget/ImageView;
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/mypage/i0$a;->a:Landroid/widget/ImageView;
 
     new-instance v0, Lcom/commsource/mypage/a0;
@@ -86,7 +80,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object p1
@@ -111,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
     invoke-static {v1}, Lcom/commsource/mypage/i0;->a(Lcom/commsource/mypage/i0;)Ljava/util/List;
@@ -134,7 +126,6 @@
 
     goto/16 :goto_2
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
@@ -146,7 +137,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
     invoke-static {v1}, Lcom/commsource/mypage/i0;->a(Lcom/commsource/mypage/i0;)Ljava/util/List;
@@ -159,7 +149,6 @@
 
     check-cast p1, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
     invoke-static {v1}, Lcom/commsource/mypage/i0;->c(Lcom/commsource/mypage/i0;)Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -172,12 +161,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
@@ -197,7 +184,6 @@
 
     if-nez v1, :cond_3
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
     invoke-static {v1}, Lcom/commsource/mypage/i0;->d(Lcom/commsource/mypage/i0;)Ljava/util/Map;
@@ -212,7 +198,6 @@
 
     if-ge v1, v3, :cond_2
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
     invoke-static {v1}, Lcom/commsource/mypage/i0;->d(Lcom/commsource/mypage/i0;)Ljava/util/Map;
@@ -225,14 +210,12 @@
 
     invoke-interface {v1, v3, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/mypage/i0$a;->b:Landroid/widget/CheckBox;
 
     invoke-virtual {p1, v2}, Landroid/widget/CheckBox;->setChecked(Z)V
 
     goto :goto_0
 
-    .line 10
     :cond_2
     iget-object p1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
@@ -242,7 +225,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
     invoke-static {p1}, Lcom/commsource/mypage/i0;->e(Lcom/commsource/mypage/i0;)Ljava/lang/Runnable;
@@ -253,7 +235,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_3
     iget-object v1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
@@ -267,14 +248,12 @@
 
     invoke-interface {v1, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/mypage/i0$a;->b:Landroid/widget/CheckBox;
 
     const/4 v1, 0x0
 
     invoke-virtual {p1, v1}, Landroid/widget/CheckBox;->setChecked(Z)V
 
-    .line 14
     :cond_4
     :goto_0
     iget-object p1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
@@ -301,7 +280,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_5
     iget-object v1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
@@ -311,7 +289,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/mypage/i0$a;->d:Lcom/commsource/mypage/i0;
 
     invoke-static {v1}, Lcom/commsource/mypage/i0;->g(Lcom/commsource/mypage/i0;)Lcom/commsource/widget/CustomRecyclerView;
@@ -320,14 +297,12 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/widget/CustomRecyclerView;->j(IZ)V
 
-    .line 17
     :cond_6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 18
     :cond_7
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

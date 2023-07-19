@@ -37,12 +37,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/k4;->zzoj:I
 
     return-void
@@ -53,7 +51,6 @@
 .method public final a()Lcom/google/android/gms/internal/firebase_remote_config/zzfx;
     .locals 6
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcom/google/android/gms/internal/firebase_remote_config/b7;->O0()I
 
@@ -63,14 +60,12 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_remote_config/a5;->b()Lcom/google/android/gms/internal/firebase_remote_config/zzgo;
 
     move-result-object v1
 
     invoke-interface {p0, v1}, Lcom/google/android/gms/internal/firebase_remote_config/b7;->b(Lcom/google/android/gms/internal/firebase_remote_config/zzgo;)V
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_remote_config/a5;->a()Lcom/google/android/gms/internal/firebase_remote_config/zzfx;
 
     move-result-object v0
@@ -82,12 +77,10 @@
     :catch_0
     move-exception v0
 
-    .line 4
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "ByteString"
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v3
@@ -136,7 +129,6 @@
 
     move-result-object v2
 
-    .line 6
     invoke-direct {v1, v2, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     throw v1
@@ -145,7 +137,6 @@
 .method e()I
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -156,7 +147,6 @@
 .method f(I)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V

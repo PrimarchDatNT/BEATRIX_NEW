@@ -37,7 +37,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
@@ -50,7 +49,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -59,7 +57,6 @@
 .method static synthetic b(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/d$c;->c(Landroid/content/Context;)V
 
     return-void
@@ -68,14 +65,12 @@
 .method private static c(Landroid/content/Context;)V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/util/v;->c()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
@@ -86,7 +81,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -94,7 +88,6 @@
 
     check-cast p0, Landroid/app/Application;
 
-    .line 4
     sget-object v0, Lcom/google/firebase/d$c;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
@@ -103,12 +96,10 @@
 
     if-nez v0, :cond_1
 
-    .line 5
     new-instance v0, Lcom/google/firebase/d$c;
 
     invoke-direct {v0}, Lcom/google/firebase/d$c;-><init>()V
 
-    .line 6
     sget-object v1, Lcom/google/firebase/d$c;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
     const/4 v2, 0x0
@@ -119,10 +110,8 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     invoke-static {p0}, Lcom/google/android/gms/common/api/internal/c;->c(Landroid/app/Application;)V
 
-    .line 8
     invoke-static {}, Lcom/google/android/gms/common/api/internal/c;->b()Lcom/google/android/gms/common/api/internal/c;
 
     move-result-object p0
@@ -139,14 +128,12 @@
 .method public a(Z)V
     .locals 4
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/d;->a()Ljava/lang/Object;
 
     move-result-object v0
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     new-instance v1, Ljava/util/ArrayList;
 
@@ -176,7 +163,6 @@
 
     check-cast v2, Lcom/google/firebase/d;
 
-    .line 3
     invoke-static {v2}, Lcom/google/firebase/d;->c(Lcom/google/firebase/d;)Ljava/util/concurrent/atomic/AtomicBoolean;
 
     move-result-object v3
@@ -187,12 +173,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v2, p1}, Lcom/google/firebase/d;->d(Lcom/google/firebase/d;Z)V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     monitor-exit v0
 

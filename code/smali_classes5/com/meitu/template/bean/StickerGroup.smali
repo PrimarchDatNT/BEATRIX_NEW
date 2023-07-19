@@ -316,7 +316,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/meitu/template/bean/StickerGroup;->BG_COLOR:[I
@@ -341,15 +340,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/template/bean/StickerGroup;->downloadType:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/template/bean/StickerGroup;->available:I
 
     return-void
@@ -362,7 +358,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/template/bean/StickerGroup;->BG_COLOR:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -379,7 +374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/StickerGroup;->stickerList:Ljava/util/ArrayList;
 
     const/4 v2, 0x1
@@ -392,12 +386,10 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/template/bean/StickerGroup;->stickerList:Ljava/util/ArrayList;
 
@@ -428,12 +420,10 @@
 
     const/4 v3, 0x0
 
-    .line 4
     iget-object v4, p0, Lcom/meitu/template/bean/StickerGroup;->stickerList:Ljava/util/ArrayList;
 
     if-eqz v4, :cond_5
 
-    .line 5
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -451,7 +441,6 @@
 
     check-cast v5, Lcom/meitu/template/bean/Sticker;
 
-    .line 6
     invoke-virtual {v5}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v6
@@ -465,7 +454,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     invoke-virtual {v5}, Lcom/meitu/template/bean/Sticker;->isDownloading()Z
 
@@ -473,7 +461,6 @@
 
     if-eqz v6, :cond_4
 
-    .line 8
     invoke-virtual {v5}, Lcom/meitu/template/bean/e;->getDownloadProgress()I
 
     move-result v5
@@ -506,10 +493,8 @@
 
     float-to-int v1, v3
 
-    .line 9
     iput v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupProgress:I
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -524,7 +509,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -545,7 +529,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/meitu/template/bean/StickerGroup;
 
     if-eqz v1, :cond_0
@@ -578,7 +561,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->available:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -593,7 +575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->categoryId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -610,7 +591,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/StickerGroup;->displayIcon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -627,7 +607,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -664,7 +643,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->downloadType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -679,7 +657,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->enableTint:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -694,7 +671,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupBgColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -711,7 +687,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupCoverImage:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -726,7 +701,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupDownloadStatus:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -741,7 +715,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -758,7 +731,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -773,7 +745,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupPaidState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -788,7 +759,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -805,7 +775,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupSceneImage:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -820,7 +789,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -835,7 +803,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupTag:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -852,7 +819,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupThumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -867,7 +833,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->internalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -882,7 +847,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/StickerGroup;->localInsertTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -897,7 +861,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->lockLocalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -912,7 +875,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->needShow:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -927,12 +889,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupBgColor:I
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/Random;
 
     invoke-direct {v1}, Ljava/util/Random;-><init>()V
@@ -943,14 +903,12 @@
 
     move-result v1
 
-    .line 3
     sget-object v2, Lcom/meitu/template/bean/StickerGroup;->BG_COLOR:[I
 
     aget v1, v2, v1
 
     iput v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupBgColor:I
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupBgColor:I
 
@@ -968,7 +926,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/StickerGroup;->stickerBg:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -985,7 +942,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/StickerGroup;->stickerCreator:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1011,7 +967,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/StickerGroup;->stickerList:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1026,7 +981,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/StickerGroup;->updateAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1041,7 +995,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -1058,7 +1011,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/template/bean/StickerGroup;->isDeleteState:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1073,7 +1025,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/template/bean/StickerGroup;->isDownloadAllState:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1088,7 +1039,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->lockLocalState:I
 
     const/4 v2, 0x1
@@ -1097,12 +1047,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1116,7 +1064,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupPaidState:I
 
     const/4 v2, 0x1
@@ -1141,7 +1088,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/StickerGroup;->onCompareLocal(Lcom/meitu/template/bean/StickerGroup;)Z
@@ -1168,37 +1114,30 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget v1, p1, Lcom/meitu/template/bean/StickerGroup;->lockLocalState:I
 
     iput v1, p0, Lcom/meitu/template/bean/StickerGroup;->lockLocalState:I
 
-    .line 3
     iget v1, p1, Lcom/meitu/template/bean/StickerGroup;->needShow:I
 
     iput v1, p0, Lcom/meitu/template/bean/StickerGroup;->needShow:I
 
-    .line 4
     iget-boolean v1, p1, Lcom/meitu/template/bean/StickerGroup;->isDeleteState:Z
 
     iput-boolean v1, p0, Lcom/meitu/template/bean/StickerGroup;->isDeleteState:Z
 
-    .line 5
     iget-boolean v1, p1, Lcom/meitu/template/bean/StickerGroup;->isDownloadAllState:Z
 
     iput-boolean v1, p0, Lcom/meitu/template/bean/StickerGroup;->isDownloadAllState:Z
 
-    .line 6
     iget v1, p1, Lcom/meitu/template/bean/StickerGroup;->groupDownloadStatus:I
 
     iput v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupDownloadStatus:I
 
-    .line 7
     iget v1, p1, Lcom/meitu/template/bean/StickerGroup;->groupDownloadStatus:I
 
     iput v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupBgColor:I
 
-    .line 8
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->internalState:I
 
     iget v2, p1, Lcom/meitu/template/bean/StickerGroup;->internalState:I
@@ -1216,7 +1155,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 9
     :goto_0
     iget-object v2, p0, Lcom/meitu/template/bean/StickerGroup;->groupName:Ljava/lang/String;
 
@@ -1228,7 +1166,6 @@
 
     and-int/2addr v1, v2
 
-    .line 10
     iget-object v2, p0, Lcom/meitu/template/bean/StickerGroup;->groupCoverImage:Ljava/lang/String;
 
     iget-object v5, p1, Lcom/meitu/template/bean/StickerGroup;->groupCoverImage:Ljava/lang/String;
@@ -1239,7 +1176,6 @@
 
     and-int/2addr v1, v2
 
-    .line 11
     iget-object v2, p0, Lcom/meitu/template/bean/StickerGroup;->groupSceneImage:Ljava/lang/String;
 
     iget-object v5, p1, Lcom/meitu/template/bean/StickerGroup;->groupSceneImage:Ljava/lang/String;
@@ -1250,7 +1186,6 @@
 
     and-int/2addr v1, v2
 
-    .line 12
     iget-object v2, p0, Lcom/meitu/template/bean/StickerGroup;->groupThumbnail:Ljava/lang/String;
 
     iget-object v5, p1, Lcom/meitu/template/bean/StickerGroup;->groupThumbnail:Ljava/lang/String;
@@ -1261,7 +1196,6 @@
 
     and-int/2addr v1, v2
 
-    .line 13
     iget v2, p0, Lcom/meitu/template/bean/StickerGroup;->groupSort:I
 
     iget v5, p1, Lcom/meitu/template/bean/StickerGroup;->groupSort:I
@@ -1278,7 +1212,6 @@
     :goto_1
     and-int/2addr v1, v6
 
-    .line 14
     iget v6, p0, Lcom/meitu/template/bean/StickerGroup;->groupTag:I
 
     iget v7, p1, Lcom/meitu/template/bean/StickerGroup;->groupTag:I
@@ -1307,7 +1240,6 @@
     :goto_3
     and-int/2addr v1, v2
 
-    .line 15
     iget v2, p0, Lcom/meitu/template/bean/StickerGroup;->enableTint:I
 
     iget v5, p1, Lcom/meitu/template/bean/StickerGroup;->enableTint:I
@@ -1324,7 +1256,6 @@
     :goto_4
     and-int/2addr v1, v2
 
-    .line 16
     iget-object v2, p0, Lcom/meitu/template/bean/StickerGroup;->stickerBg:Ljava/lang/String;
 
     iget-object v5, p1, Lcom/meitu/template/bean/StickerGroup;->stickerBg:Ljava/lang/String;
@@ -1335,7 +1266,6 @@
 
     and-int/2addr v1, v2
 
-    .line 17
     iget-object v2, p0, Lcom/meitu/template/bean/StickerGroup;->stickerCreator:Ljava/lang/String;
 
     iget-object v5, p1, Lcom/meitu/template/bean/StickerGroup;->stickerCreator:Ljava/lang/String;
@@ -1346,7 +1276,6 @@
 
     and-int/2addr v1, v2
 
-    .line 18
     iget v2, p0, Lcom/meitu/template/bean/StickerGroup;->available:I
 
     iget v5, p1, Lcom/meitu/template/bean/StickerGroup;->available:I
@@ -1363,7 +1292,6 @@
     :goto_5
     and-int/2addr v1, v2
 
-    .line 19
     iget-wide v5, p0, Lcom/meitu/template/bean/StickerGroup;->updateAt:J
 
     iget-wide v7, p1, Lcom/meitu/template/bean/StickerGroup;->updateAt:J
@@ -1382,7 +1310,6 @@
     :goto_6
     and-int/2addr v1, v2
 
-    .line 20
     iget v2, p0, Lcom/meitu/template/bean/StickerGroup;->categoryId:I
 
     iget v5, p1, Lcom/meitu/template/bean/StickerGroup;->categoryId:I
@@ -1399,7 +1326,6 @@
     :goto_7
     and-int/2addr v1, v2
 
-    .line 21
     iget v2, p0, Lcom/meitu/template/bean/StickerGroup;->groupPaidState:I
 
     iget v5, p1, Lcom/meitu/template/bean/StickerGroup;->groupPaidState:I
@@ -1414,19 +1340,16 @@
     :goto_8
     and-int/2addr v1, v3
 
-    .line 22
     invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_9
 
-    .line 23
     iget-wide v2, p1, Lcom/meitu/template/bean/StickerGroup;->localInsertTime:J
 
     iput-wide v2, p0, Lcom/meitu/template/bean/StickerGroup;->localInsertTime:J
 
-    .line 24
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1440,7 +1363,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/StickerGroup;->onSortCompare(Lcom/meitu/template/bean/StickerGroup;)I
@@ -1467,7 +1389,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/StickerGroup;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1476,12 +1397,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupId:I
 
@@ -1509,7 +1428,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->available:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1524,7 +1442,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->categoryId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1539,7 +1456,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/template/bean/StickerGroup;->isDeleteState:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1558,7 +1474,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/StickerGroup;->displayIcon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1573,7 +1488,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/template/bean/StickerGroup;->isDownloadAllState:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1588,7 +1502,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->downloadType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1603,7 +1516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->enableTint:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1618,7 +1530,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->groupBgColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1637,7 +1548,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/StickerGroup;->groupCoverImage:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1652,7 +1562,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->groupDownloadStatus:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1667,7 +1576,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->groupId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1686,7 +1594,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/StickerGroup;->groupName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1701,7 +1608,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->groupPaidState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1716,7 +1622,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->groupProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1735,7 +1640,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/StickerGroup;->groupSceneImage:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1750,7 +1654,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->groupSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1765,7 +1668,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->groupTag:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1784,7 +1686,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/StickerGroup;->groupThumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1799,7 +1700,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->internalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1814,7 +1714,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/StickerGroup;->localInsertTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1829,7 +1728,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->lockLocalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1844,7 +1742,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/StickerGroup;->needShow:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1863,7 +1760,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/StickerGroup;->stickerBg:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1882,7 +1778,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/StickerGroup;->stickerCreator:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1909,7 +1804,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/StickerGroup;->stickerList:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1924,7 +1818,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/StickerGroup;->updateAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1941,7 +1834,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/StickerGroup;->groupId:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -1960,10 +1852,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/StickerGroup;->calculateGroupProgress()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/template/bean/StickerGroup;->stickerList:Ljava/util/ArrayList;
 
     const/4 v2, 0x1
@@ -1972,7 +1862,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1994,7 +1883,6 @@
 
     check-cast v6, Lcom/meitu/template/bean/Sticker;
 
-    .line 4
     invoke-virtual {v6}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v7
@@ -2005,7 +1893,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object v5, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
@@ -2028,7 +1915,6 @@
 
     const/4 v5, 0x0
 
-    .line 6
     :cond_2
     iget-object v1, p0, Lcom/meitu/template/bean/StickerGroup;->stickerList:Ljava/util/ArrayList;
 
@@ -2068,11 +1954,9 @@
     :cond_5
     const/4 v2, 0x0
 
-    .line 7
     :goto_2
     iput v2, p0, Lcom/meitu/template/bean/StickerGroup;->groupDownloadStatus:I
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

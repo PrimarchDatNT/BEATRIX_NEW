@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$d;->a:Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;
 
     iput-boolean p2, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$d;->b:Z
@@ -46,7 +45,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 10
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -75,21 +73,16 @@
 
     const-string v3, "new process %s"
 
-    .line 5
     invoke-static {v3, v1}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 6
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$d;->a:Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;
 
     iput-wide p1, v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->a:J
 
-    .line 7
     iput-object p5, v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->b:Ljava/lang/String;
 
-    .line 8
     iput-wide p3, v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->c:J
 
-    .line 9
     iget-boolean p1, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$d;->b:Z
 
     if-nez p1, :cond_0
@@ -113,24 +106,20 @@
 
     const-string v3, "new thread %s"
 
-    .line 1
     invoke-static {v3, v1}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$d;->a:Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;
 
     iget-object v3, v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->d:Ljava/util/Map;
 
     if-nez v3, :cond_0
 
-    .line 3
     new-instance v3, Ljava/util/HashMap;
 
     invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
 
     iput-object v3, v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->d:Ljava/util/Map;
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$d;->a:Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;
 

@@ -22,10 +22,8 @@
 .method constructor <init>(Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager$a;->a:Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
-    .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -40,7 +38,6 @@
 
     invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager$a;->a:Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
     invoke-static {v0}, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;->b(Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;)I
@@ -53,7 +50,6 @@
 
     add-int/2addr p3, p4
 
-    .line 2
     div-int/2addr p3, v1
 
     add-int/2addr p2, p1
@@ -66,7 +62,6 @@
 
     return p3
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager$a;->a:Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
@@ -78,12 +73,10 @@
 
     sub-int/2addr p3, p1
 
-    .line 4
     invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager$a;->a:Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
@@ -97,7 +90,6 @@
 
     sub-int/2addr p4, p2
 
-    .line 6
     invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p4
@@ -105,7 +97,6 @@
     :cond_2
     const/4 p1, 0x0
 
-    .line 7
     invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -122,7 +113,6 @@
 
     mul-int/lit16 p1, p1, 0x15e
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager$a;->a:Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
     invoke-static {v2}, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;->a(Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;)I

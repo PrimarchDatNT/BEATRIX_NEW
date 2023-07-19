@@ -24,14 +24,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/f1/h;
 
     invoke-direct {v1}, Lcom/commsource/camera/f1/h;-><init>()V
 
     sput-object v1, Lcom/commsource/camera/f1/h;->b:Lcom/commsource/camera/f1/h;
 
-    .line 2
     new-instance v1, Landroidx/core/app/FrameMetricsAggregator;
 
     invoke-direct {v1}, Landroidx/core/app/FrameMetricsAggregator;-><init>()V
@@ -46,7 +44,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,7 +59,6 @@
     :try_start_0
     const-string v1, "android.view.ViewPropertyAnimatorRT"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -71,7 +67,6 @@
 
     new-array v3, v2, [Ljava/lang/Class;
 
-    .line 2
     const-class v4, Landroid/view/View;
 
     const/4 v5, 0x0
@@ -86,14 +81,12 @@
 
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Constructor;->setAccessible(Z)V
 
     new-array v2, v2, [Ljava/lang/Object;
 
     aput-object p1, v2, v5
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -107,12 +100,10 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p1, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -128,14 +119,12 @@
     :try_start_0
     const-string v1, "android.view.ViewPropertyAnimator"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
 
     const-string v2, "mRTBackend"
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v1
@@ -146,10 +135,8 @@
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 4
     invoke-virtual {v1, p1, p2}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -159,10 +146,8 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -186,12 +171,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/f1/h;->a:Landroidx/core/app/FrameMetricsAggregator;
 
     invoke-virtual {v1, p1}, Landroidx/core/app/FrameMetricsAggregator;->add(Landroid/app/Activity;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -210,7 +193,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/f1/h;->b:Lcom/commsource/camera/f1/h;
 
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
@@ -227,7 +209,6 @@
 
     invoke-direct {v1, v2, p1}, Lcom/commsource/camera/f1/h;->g(Landroid/view/ViewPropertyAnimator;Ljava/lang/Object;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -243,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/f1/h;->a:Landroidx/core/app/FrameMetricsAggregator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -266,12 +246,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/f1/h;->a:Landroidx/core/app/FrameMetricsAggregator;
 
     invoke-virtual {v1, p1}, Landroidx/core/app/FrameMetricsAggregator;->remove(Landroid/app/Activity;)[Landroid/util/SparseIntArray;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -292,7 +270,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sput-object p1, Lcom/commsource/camera/f1/h;->a:Landroidx/core/app/FrameMetricsAggregator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -50,24 +50,20 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/mopub/nativeads/RequestParameters$Builder;->access$100(Lcom/mopub/nativeads/RequestParameters$Builder;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/nativeads/RequestParameters;->mKeywords:Ljava/lang/String;
 
-    .line 4
     invoke-static {p1}, Lcom/mopub/nativeads/RequestParameters$Builder;->access$200(Lcom/mopub/nativeads/RequestParameters$Builder;)Ljava/util/EnumSet;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/nativeads/RequestParameters;->mDesiredAssets:Ljava/util/EnumSet;
 
-    .line 5
     invoke-static {}, Lcom/mopub/common/MoPub;->canCollectPersonalInformation()Z
 
     move-result v0
@@ -76,7 +72,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 6
     invoke-static {p1}, Lcom/mopub/nativeads/RequestParameters$Builder;->access$300(Lcom/mopub/nativeads/RequestParameters$Builder;)Ljava/lang/String;
 
     move-result-object v2
@@ -91,7 +86,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 7
     invoke-static {p1}, Lcom/mopub/nativeads/RequestParameters$Builder;->access$400(Lcom/mopub/nativeads/RequestParameters$Builder;)Landroid/location/Location;
 
     move-result-object v1
@@ -105,7 +99,6 @@
 .method synthetic constructor <init>(Lcom/mopub/nativeads/RequestParameters$Builder;Lcom/mopub/nativeads/RequestParameters$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/nativeads/RequestParameters;-><init>(Lcom/mopub/nativeads/RequestParameters$Builder;)V
 
     return-void
@@ -116,12 +109,10 @@
 .method public final getDesiredAssets()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/RequestParameters;->mDesiredAssets:Ljava/util/EnumSet;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/util/EnumSet;->toArray()[Ljava/lang/Object;
 
     move-result-object v0
@@ -146,7 +137,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/RequestParameters;->mKeywords:Ljava/lang/String;
 
     return-object v0
@@ -157,7 +147,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/RequestParameters;->mLocation:Landroid/location/Location;
 
     return-object v0
@@ -168,7 +157,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/MoPub;->canCollectPersonalInformation()Z
 
     move-result v0
@@ -179,7 +167,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/RequestParameters;->mUserDataKeywords:Ljava/lang/String;
 

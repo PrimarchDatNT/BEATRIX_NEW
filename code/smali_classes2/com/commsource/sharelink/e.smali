@@ -36,10 +36,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_share_option:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
@@ -90,12 +88,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -104,7 +100,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/sharelink/e;->p:Lcom/commsource/beautyplus/f0/ii;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ii;->a:Lcom/commsource/widget/IconFrontView;
@@ -115,7 +110,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(I)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/sharelink/e;->p:Lcom/commsource/beautyplus/f0/ii;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ii;->b:Lcom/commsource/widget/AutoFitTextView;
@@ -130,7 +124,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -146,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/sharelink/e;->p:Lcom/commsource/beautyplus/f0/ii;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,7 +161,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/sharelink/e;->p:Lcom/commsource/beautyplus/f0/ii;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

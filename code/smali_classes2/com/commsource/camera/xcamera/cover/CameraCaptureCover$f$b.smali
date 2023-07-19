@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$f$b;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$f;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$f;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
@@ -63,7 +62,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

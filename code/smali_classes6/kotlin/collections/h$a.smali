@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcotlin/collections/h$a;-><init>()V
 
     return-void
@@ -64,7 +62,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Set;->size()I
 
     move-result v0
@@ -79,7 +76,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     invoke-interface {p1, p2}, Ljava/util/Collection;->containsAll(Ljava/util/Collection;)Z
 
@@ -106,7 +102,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -128,7 +123,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-virtual {v2}, Ljava/lang/Object;->hashCode()I
 
     move-result v2

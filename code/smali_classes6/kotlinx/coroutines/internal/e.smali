@@ -15,7 +15,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     :try_start_0
     const-class v0, Ljava/util/concurrent/ScheduledThreadPoolExecutor;
 
@@ -42,7 +41,6 @@
     :catchall_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     sput-object v0, Lcotlinx/coroutines/internal/e;->a:Ljava/lang/reflect/Method;
 
@@ -70,7 +68,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/IdentityHashMap;
 
     invoke-direct {v0, p0}, Ljava/util/IdentityHashMap;-><init>(I)V
@@ -91,7 +88,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     instance-of v1, p0, Ljava/util/concurrent/ScheduledExecutorService;
 
@@ -106,7 +102,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 2
     sget-object v2, Lcotlinx/coroutines/internal/e;->a:Ljava/lang/reflect/Method;
 
     if-eqz v2, :cond_1
@@ -145,7 +140,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
@@ -174,7 +168,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     const/4 v0, 0x1

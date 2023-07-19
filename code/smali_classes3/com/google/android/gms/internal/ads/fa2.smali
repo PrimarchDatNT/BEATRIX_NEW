@@ -25,10 +25,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/ga2;-><init>(Lcom/google/android/gms/internal/ads/da2;)V
 
-    .line 2
     new-instance v0, Landroid/media/AudioTimestamp;
 
     invoke-direct {v0}, Landroid/media/AudioTimestamp;-><init>()V
@@ -43,18 +41,14 @@
 .method public final b(Landroid/media/AudioTrack;Z)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/android/gms/internal/ads/ga2;->b(Landroid/media/AudioTrack;Z)V
 
     const-wide/16 p1, 0x0
 
-    .line 2
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/fa2;->k:J
 
-    .line 3
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/fa2;->l:J
 
-    .line 4
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/fa2;->m:J
 
     return-void
@@ -63,7 +57,6 @@
 .method public final d()Z
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ga2;->a:Landroid/media/AudioTrack;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/fa2;->j:Landroid/media/AudioTimestamp;
@@ -74,19 +67,16 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/fa2;->j:Landroid/media/AudioTimestamp;
 
     iget-wide v1, v1, Landroid/media/AudioTimestamp;->framePosition:J
 
-    .line 3
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/fa2;->l:J
 
     cmp-long v5, v3, v1
 
     if-lez v5, :cond_0
 
-    .line 4
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/fa2;->k:J
 
     const-wide/16 v5, 0x1
@@ -95,11 +85,9 @@
 
     iput-wide v3, p0, Lcom/google/android/gms/internal/ads/fa2;->k:J
 
-    .line 5
     :cond_0
     iput-wide v1, p0, Lcom/google/android/gms/internal/ads/fa2;->l:J
 
-    .line 6
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/fa2;->k:J
 
     const/16 v5, 0x20
@@ -117,7 +105,6 @@
 .method public final e()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/fa2;->j:Landroid/media/AudioTimestamp;
 
     iget-wide v0, v0, Landroid/media/AudioTimestamp;->nanoTime:J
@@ -128,7 +115,6 @@
 .method public final f()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/fa2;->m:J
 
     return-wide v0

@@ -82,6 +82,5 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     throw p2
 .end method

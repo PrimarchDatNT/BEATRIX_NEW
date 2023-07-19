@@ -39,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/j/g/b;
 
     const-string v2, "https://gondar.miraclevision.sg/refresh_gid"
@@ -52,7 +51,6 @@
 
     sput-object v1, Lcom/meitu/library/j/g/b;->k:Lcom/meitu/library/j/g/b;
 
-    .line 2
     new-instance v1, Lcom/meitu/library/j/g/b;
 
     const-string v2, "https://gondar.meitustat.com/refresh_gid"
@@ -73,16 +71,12 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/j/g/b;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/library/j/g/b;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/library/j/g/b;->c:Ljava/lang/String;
 
     return-void
@@ -97,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/j/g/b;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -112,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/j/g/b;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -127,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/j/g/b;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

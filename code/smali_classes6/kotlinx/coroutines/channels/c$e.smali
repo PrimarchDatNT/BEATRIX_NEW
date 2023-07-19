@@ -55,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p2}, Lcotlinx/coroutines/internal/m$e;-><init>(Lcotlinx/coroutines/internal/m;)V
 
     iput-object p1, p0, Lcotlinx/coroutines/channels/c$e;->e:Ljava/lang/Object;
@@ -74,14 +73,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     instance-of v0, p1, Lcotlinx/coroutines/channels/p;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     instance-of p1, p1, Lcotlinx/coroutines/channels/z;
 
@@ -107,14 +104,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p1, Lcotlinx/coroutines/internal/m$d;->a:Lcotlinx/coroutines/internal/m;
 
     if-eqz v0, :cond_5
 
     check-cast v0, Lcotlinx/coroutines/channels/z;
 
-    .line 2
     iget-object v1, p0, Lcotlinx/coroutines/channels/c$e;->e:Ljava/lang/Object;
 
     invoke-interface {v0, v1, p1}, Lcotlinx/coroutines/channels/z;->v(Ljava/lang/Object;Lcotlinx/coroutines/internal/m$d;)Lcotlinx/coroutines/internal/c0;
@@ -123,14 +118,12 @@
 
     if-eqz p1, :cond_4
 
-    .line 3
     sget-object v0, Lcotlinx/coroutines/internal/c;->b:Ljava/lang/Object;
 
     if-ne p1, v0, :cond_0
 
     return-object v0
 
-    .line 4
     :cond_0
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
@@ -167,13 +160,11 @@
 
     return-object p1
 
-    .line 5
     :cond_4
     sget-object p1, Lcotlinx/coroutines/internal/n;->a:Ljava/lang/Object;
 
     return-object p1
 
-    .line 6
     :cond_5
     new-instance p1, Lcotlin/TypeCastException;
 

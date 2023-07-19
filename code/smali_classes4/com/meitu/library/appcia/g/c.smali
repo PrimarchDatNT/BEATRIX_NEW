@@ -79,17 +79,14 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/library/appcia/g/c;->G:Ljava/util/HashMap;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -98,17 +95,14 @@
 
     const/4 v0, 0x1
 
-    .line 4
     iput v0, p0, Lcom/meitu/library/appcia/g/c;->J:I
 
-    .line 5
     new-instance v1, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
     iput-object v1, p0, Lcom/meitu/library/appcia/g/c;->M:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 6
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -127,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/library/appcia/g/c;->L:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,7 +148,6 @@
     :cond_0
     long-to-int p1, p1
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -169,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/appcia/g/c;->w:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -184,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/meitu/library/appcia/g/c;->L:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -199,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/appcia/g/c;->N:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -214,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/library/appcia/g/c;->w:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -229,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/appcia/g/c;->N:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -246,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c;->H:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->size()I
@@ -263,7 +249,6 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -271,7 +256,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -288,10 +272,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/appcia/g/c;->O:Lcom/meitu/library/appcia/f/e/d;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -304,14 +286,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c;->N:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;->getAndSet(Z)Z
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/library/appcia/g/c;->L:Z
 
     if-eqz v1, :cond_0
@@ -324,14 +304,12 @@
 
     if-gtz v5, :cond_0
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/appcia/g/c;->w:J
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -345,7 +323,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/appcia/g/c;->F:J
 
     const-wide/16 v3, 0x0
@@ -356,17 +333,14 @@
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/meitu/library/appcia/g/c;->K:Z
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c;->O:Lcom/meitu/library/appcia/f/e/d;
 
     if-eqz v1, :cond_0
 
     invoke-interface {v1}, Lcom/meitu/library/appcia/f/e/d;->b()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -380,7 +354,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/appcia/g/c;->K:Z
 
     if-nez v1, :cond_0
@@ -393,14 +366,12 @@
 
     if-gtz v5, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/appcia/g/c;->A:J
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -414,7 +385,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/appcia/g/c;->E:J
 
     const-wide/16 v3, 0x0
@@ -423,14 +393,12 @@
 
     if-gtz v5, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/appcia/g/c;->E:J
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/library/appcia/g/c;->F:J
 
     cmp-long v5, v1, v3
@@ -443,14 +411,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c;->O:Lcom/meitu/library/appcia/f/e/d;
 
     if-eqz v1, :cond_0
 
     invoke-interface {v1}, Lcom/meitu/library/appcia/f/e/d;->b()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -464,10 +430,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/appcia/g/c;->I:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -488,7 +452,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c;->G:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
@@ -497,7 +460,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c;->G:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -506,7 +468,6 @@
 
     check-cast v1, Ljava/lang/Long;
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -528,7 +489,6 @@
 
     if-lez v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c;->H:Ljava/util/HashMap;
 
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -537,7 +497,6 @@
 
     invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -551,7 +510,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/appcia/g/c;->D:J
 
     const-wide/16 v3, 0x0
@@ -560,14 +518,12 @@
 
     if-gtz v5, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/appcia/g/c;->D:J
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -583,7 +539,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "Launch"
@@ -598,7 +553,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/appcia/g/c;->K:Z
 
     if-nez v1, :cond_0
@@ -611,14 +565,12 @@
 
     if-gtz v5, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/appcia/g/c;->w:J
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -632,7 +584,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/appcia/g/c;->K:Z
 
     if-nez v1, :cond_0
@@ -645,14 +596,12 @@
 
     if-gtz v5, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/appcia/g/c;->y:J
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -666,7 +615,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c;->M:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -677,12 +625,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-boolean v1, p0, Lcom/meitu/library/appcia/g/c;->K:Z
 
@@ -704,10 +650,8 @@
 
     const-string v5, "Not ready now!"
 
-    .line 4
     invoke-static {v4, v1, v5, v3}, Lcom/meitu/library/appcia/f/d/a;->e(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -715,7 +659,6 @@
     :cond_1
     const/4 v1, 0x1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -736,7 +679,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c;->G:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
@@ -745,7 +687,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c;->G:Ljava/util/HashMap;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -758,7 +699,6 @@
 
     invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -774,7 +714,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-boolean p1, p0, Lcom/meitu/library/appcia/g/c;->K:Z
 
     if-nez p1, :cond_0
@@ -787,14 +726,12 @@
 
     if-gtz p1, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/appcia/g/c;->F:J
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/library/appcia/g/c;->E:J
 
     cmp-long p1, v1, v3
@@ -807,14 +744,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/library/appcia/g/c;->O:Lcom/meitu/library/appcia/f/e/d;
 
     if-eqz p1, :cond_0
 
     invoke-interface {p1}, Lcom/meitu/library/appcia/f/e/d;->b()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -828,7 +763,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/appcia/g/c;->K:Z
 
     if-nez v1, :cond_0
@@ -841,14 +775,12 @@
 
     if-gtz v5, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/appcia/g/c;->B:J
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -864,7 +796,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/appcia/g/c;->K:Z
 
     if-nez v1, :cond_0
@@ -879,14 +810,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/appcia/g/c;->x:J
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -900,12 +829,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c;->M:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -918,7 +845,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/appcia/g/c;->K:Z
 
     if-nez v1, :cond_0
@@ -931,14 +857,12 @@
 
     if-gtz v5, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/appcia/g/c;->C:J
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -952,10 +876,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/appcia/g/c;->J:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -973,12 +895,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/meitu/library/appcia/f/e/b;->n:Lcom/meitu/library/appcia/f/e/b$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/appcia/f/e/b$a;->j()Ljava/lang/String;
@@ -989,7 +909,6 @@
 
     invoke-virtual {v1, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/library/appcia/f/e/b$a;->i()Ljava/lang/String;
 
     move-result-object v2
@@ -998,17 +917,14 @@
 
     invoke-virtual {v1, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 4
     new-instance v2, Lorg/json/JSONArray;
 
     invoke-direct {v2}, Lorg/json/JSONArray;-><init>()V
 
-    .line 5
     new-instance v3, Lorg/json/JSONObject;
 
     invoke-direct {v3}, Lorg/json/JSONObject;-><init>()V
 
-    .line 6
     new-instance v4, Lorg/json/JSONObject;
 
     invoke-direct {v4}, Lorg/json/JSONObject;-><init>()V
@@ -1017,17 +933,14 @@
 
     const/4 v6, 0x1
 
-    .line 7
     invoke-virtual {v4, v5, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     const-string v5, "sdk_version"
 
     const-string v6, "1002020"
 
-    .line 8
     invoke-virtual {v4, v5, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 9
     iget-boolean v5, p0, Lcom/meitu/library/appcia/g/c;->K:Z
 
     const-string v6, "function"
@@ -1036,12 +949,10 @@
 
     const-string v5, "3"
 
-    .line 10
     invoke-virtual {v4, v6, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     goto :goto_0
 
-    .line 11
     :cond_0
     iget-boolean v5, p0, Lcom/meitu/library/appcia/g/c;->L:Z
 
@@ -1049,7 +960,6 @@
 
     const-string v5, "4"
 
-    .line 12
     invoke-virtual {v4, v6, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     goto :goto_0
@@ -1057,16 +967,13 @@
     :cond_1
     const-string v5, "1"
 
-    .line 13
     invoke-virtual {v4, v6, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 14
     :goto_0
     new-instance v5, Lorg/json/JSONObject;
 
     invoke-direct {v5}, Lorg/json/JSONObject;-><init>()V
 
-    .line 15
     iget-object v6, p0, Lcom/meitu/library/appcia/g/c;->H:Ljava/util/HashMap;
 
     invoke-virtual {v6}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
@@ -1111,7 +1018,6 @@
 
     check-cast v7, Ljava/lang/Long;
 
-    .line 16
     invoke-static {v12}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v13
@@ -1120,7 +1026,6 @@
 
     const-string v13, "value"
 
-    .line 17
     invoke-static {v7, v13}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Ljava/lang/Long;->longValue()J
@@ -1129,7 +1034,6 @@
 
     invoke-virtual {v5, v12, v13, v14}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 18
     new-instance v13, Ljava/lang/StringBuilder;
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
@@ -1154,7 +1058,6 @@
 
     goto :goto_1
 
-    .line 19
     :cond_3
     iget v6, p0, Lcom/meitu/library/appcia/g/c;->J:I
 
@@ -1162,7 +1065,6 @@
 
     invoke-virtual {v4, v7, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 20
     iget-wide v6, p0, Lcom/meitu/library/appcia/g/c;->x:J
 
     iget-wide v12, p0, Lcom/meitu/library/appcia/g/c;->w:J
@@ -1177,10 +1079,8 @@
 
     const-string v7, "startup_time"
 
-    .line 21
     invoke-virtual {v5, v7, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 22
     :cond_4
     iget-wide v6, p0, Lcom/meitu/library/appcia/g/c;->z:J
 
@@ -1196,10 +1096,8 @@
 
     const-string v7, "ad_load_time"
 
-    .line 23
     invoke-virtual {v5, v7, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 24
     :cond_5
     iget-wide v6, p0, Lcom/meitu/library/appcia/g/c;->B:J
 
@@ -1217,10 +1115,8 @@
 
     const-string v12, "ad_show_time"
 
-    .line 25
     invoke-virtual {v5, v12, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 26
     iget v6, p0, Lcom/meitu/library/appcia/g/c;->I:I
 
     if-eqz v6, :cond_6
@@ -1232,16 +1128,13 @@
     :cond_6
     const/4 v6, 0x5
 
-    .line 27
     iput v6, p0, Lcom/meitu/library/appcia/g/c;->I:I
 
     goto :goto_2
 
-    .line 28
     :cond_7
     iput v7, p0, Lcom/meitu/library/appcia/g/c;->I:I
 
-    .line 29
     :cond_8
     :goto_2
     iget v6, p0, Lcom/meitu/library/appcia/g/c;->I:I
@@ -1250,7 +1143,6 @@
 
     invoke-virtual {v4, v7, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 30
     iget-wide v6, p0, Lcom/meitu/library/appcia/g/c;->F:J
 
     iget-wide v12, p0, Lcom/meitu/library/appcia/g/c;->C:J
@@ -1265,10 +1157,8 @@
 
     const-string v7, "homepage_render_time"
 
-    .line 31
     invoke-virtual {v5, v7, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 32
     :cond_9
     iget-wide v6, p0, Lcom/meitu/library/appcia/g/c;->F:J
 
@@ -1284,10 +1174,8 @@
 
     const-string v7, "app_start_all_time"
 
-    .line 33
     invoke-virtual {v5, v7, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 34
     :cond_a
     iget-wide v6, p0, Lcom/meitu/library/appcia/g/c;->E:J
 
@@ -1303,14 +1191,11 @@
 
     const-string v7, "homepage_load_time"
 
-    .line 35
     invoke-virtual {v5, v7, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 36
     :cond_b
     invoke-virtual {v2, v3}, Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
 
-    .line 37
     sget-object v6, Lcom/meitu/library/appcia/f/e/b;->n:Lcom/meitu/library/appcia/f/e/b$a;
 
     invoke-virtual {v6}, Lcom/meitu/library/appcia/f/e/b$a;->g()Ljava/lang/String;
@@ -1319,14 +1204,12 @@
 
     invoke-virtual {v3, v7, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 38
     invoke-virtual {v6}, Lcom/meitu/library/appcia/f/e/b$a;->h()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-virtual {v3, v4, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 39
     invoke-virtual {v6}, Lcom/meitu/library/appcia/f/e/b$a;->f()Ljava/lang/String;
 
     move-result-object v3
@@ -1337,10 +1220,8 @@
 
     const-string v3, "report over"
 
-    .line 40
     invoke-static {v11, v10, v3, v2}, Lcom/meitu/library/appcia/f/d/a;->a(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 41
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1361,7 +1242,6 @@
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 42
     iget-wide v4, p0, Lcom/meitu/library/appcia/g/c;->w:J
 
     invoke-virtual {v2, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
@@ -1380,7 +1260,6 @@
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 43
     iget-wide v4, p0, Lcom/meitu/library/appcia/g/c;->y:J
 
     invoke-virtual {v2, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
@@ -1397,7 +1276,6 @@
 
     invoke-virtual {v2, v9}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 44
     iget-wide v4, p0, Lcom/meitu/library/appcia/g/c;->A:J
 
     invoke-virtual {v2, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
@@ -1416,7 +1294,6 @@
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 45
     iget-wide v4, p0, Lcom/meitu/library/appcia/g/c;->C:J
 
     invoke-virtual {v2, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
@@ -1425,7 +1302,6 @@
 
     invoke-virtual {v2, v9}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 46
     iget-wide v4, p0, Lcom/meitu/library/appcia/g/c;->E:J
 
     invoke-virtual {v2, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
@@ -1444,7 +1320,6 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 47
     iget v3, p0, Lcom/meitu/library/appcia/g/c;->J:I
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
@@ -1455,10 +1330,8 @@
 
     new-array v3, v8, [Ljava/lang/Object;
 
-    .line 48
     invoke-static {v11, v10, v2, v3}, Lcom/meitu/library/appcia/f/d/a;->a(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 49
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1471,7 +1344,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1484,7 +1356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/appcia/g/c;->E:J
 
     const-wide/16 v3, 0x0
@@ -1493,14 +1364,12 @@
 
     if-lez v5, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c;->O:Lcom/meitu/library/appcia/f/e/d;
 
     if-eqz v1, :cond_0
 
     invoke-interface {v1}, Lcom/meitu/library/appcia/f/e/d;->b()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1514,7 +1383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/appcia/g/c;->K:Z
 
     if-nez v1, :cond_0
@@ -1527,14 +1395,12 @@
 
     if-gtz v5, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/appcia/g/c;->z:J
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1556,7 +1422,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -1573,7 +1438,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

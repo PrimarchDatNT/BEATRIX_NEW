@@ -22,10 +22,8 @@
 .method public constructor <init>(Landroid/view/View;Landroid/view/ViewTreeObserver$OnScrollChangedListener;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/yq;-><init>(Landroid/view/View;)V
 
-    .line 2
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -40,7 +38,6 @@
 .method protected final d(Landroid/view/ViewTreeObserver;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p0}, Landroid/view/ViewTreeObserver;->addOnScrollChangedListener(Landroid/view/ViewTreeObserver$OnScrollChangedListener;)V
 
     return-void
@@ -49,7 +46,6 @@
 .method protected final e(Landroid/view/ViewTreeObserver;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p0}, Landroid/view/ViewTreeObserver;->removeOnScrollChangedListener(Landroid/view/ViewTreeObserver$OnScrollChangedListener;)V
 
     return-void
@@ -58,7 +54,6 @@
 .method public final onScrollChanged()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vq;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -69,12 +64,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Landroid/view/ViewTreeObserver$OnScrollChangedListener;->onScrollChanged()V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/yq;->b()V
 

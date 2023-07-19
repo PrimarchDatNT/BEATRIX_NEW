@@ -46,26 +46,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/d;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/a;->a:Ljava/lang/Integer;
 
     const-string p1, "Null payload"
 
-    .line 3
     invoke-static {p2, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/datatransport/a;->b:Ljava/lang/Object;
 
     const-string p1, "Null priority"
 
-    .line 5
     invoke-static {p3, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 6
     iput-object p3, p0, Lcom/google/android/datatransport/a;->c:Lcom/google/android/datatransport/Priority;
 
     return-void
@@ -78,7 +72,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/a;->a:Ljava/lang/Integer;
 
     return-object v0
@@ -92,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/a;->b:Ljava/lang/Object;
 
     return-object v0
@@ -101,7 +93,6 @@
 .method public c()Lcom/google/android/datatransport/Priority;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/a;->c:Lcom/google/android/datatransport/Priority;
 
     return-object v0
@@ -116,7 +107,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/datatransport/d;
 
@@ -124,10 +114,8 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     check-cast p1, Lcom/google/android/datatransport/d;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/datatransport/a;->a:Ljava/lang/Integer;
 
     if-nez v1, :cond_1
@@ -154,7 +142,6 @@
     :goto_0
     iget-object v1, p0, Lcom/google/android/datatransport/a;->b:Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/datatransport/d;->b()Ljava/lang/Object;
 
     move-result-object v3
@@ -167,7 +154,6 @@
 
     iget-object v1, p0, Lcom/google/android/datatransport/a;->c:Lcom/google/android/datatransport/Priority;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/datatransport/d;->c()Lcom/google/android/datatransport/Priority;
 
     move-result-object p1
@@ -193,7 +179,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/a;->a:Ljava/lang/Integer;
 
     if-nez v0, :cond_0
@@ -214,7 +199,6 @@
 
     mul-int v0, v0, v1
 
-    .line 2
     iget-object v2, p0, Lcom/google/android/datatransport/a;->b:Ljava/lang/Object;
 
     invoke-virtual {v2}, Ljava/lang/Object;->hashCode()I
@@ -225,7 +209,6 @@
 
     mul-int v0, v0, v1
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/datatransport/a;->c:Lcom/google/android/datatransport/Priority;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->hashCode()I
@@ -240,7 +223,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

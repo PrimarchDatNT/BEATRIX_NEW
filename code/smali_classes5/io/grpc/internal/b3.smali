@@ -43,12 +43,10 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     sget-object v0, Lio/grpc/Status;->v:Lio/grpc/Status;
 
     const-string v1, "Subchannel is NOT READY"
 
-    .line 2
     invoke-virtual {v0, v1}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v1
@@ -57,14 +55,12 @@
 
     const-string v2, "wait-for-ready RPC is not supported on Subchannel.asChannel()"
 
-    .line 3
     invoke-virtual {v0, v2}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v0
 
     sput-object v0, Lio/grpc/internal/b3;->h:Lio/grpc/Status;
 
-    .line 4
     new-instance v0, Lio/grpc/internal/l0;
 
     sget-object v2, Lio/grpc/internal/ClientStreamListener$RpcProgress;->REFUSED:Lio/grpc/internal/ClientStreamListener$RpcProgress;
@@ -91,10 +87,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/g;-><init>()V
 
-    .line 2
     new-instance v0, Lio/grpc/internal/b3$a;
 
     invoke-direct {v0, p0}, Lio/grpc/internal/b3$a;-><init>(Lio/grpc/internal/b3;)V
@@ -103,7 +97,6 @@
 
     const-string v0, "subchannel"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -114,7 +107,6 @@
 
     const-string p1, "executor"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -125,7 +117,6 @@
 
     const-string p1, "deadlineCancellationExecutor"
 
-    .line 5
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -136,7 +127,6 @@
 
     const-string p1, "callsTracer"
 
-    .line 6
     invoke-static {p4, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -147,7 +137,6 @@
 
     const-string p1, "configSelector"
 
-    .line 7
     invoke-static {p5, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -162,7 +151,6 @@
 .method static synthetic k(Lio/grpc/internal/b3;)Lio/grpc/internal/f1;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/b3;->a:Lio/grpc/internal/f1;
 
     return-object p0
@@ -171,7 +159,6 @@
 .method static synthetic l()Lio/grpc/internal/l0;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/b3;->i:Lio/grpc/internal/l0;
 
     return-object v0
@@ -182,7 +169,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/b3;->a:Lio/grpc/internal/f1;
 
     invoke-virtual {v0}, Lio/grpc/internal/f1;->R()Ljava/lang/String;
@@ -210,7 +196,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Lio/grpc/f;->e()Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -229,21 +214,18 @@
     :goto_0
     move-object v3, v0
 
-    .line 2
     invoke-virtual {p2}, Lio/grpc/f;->k()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     new-instance p1, Lio/grpc/internal/b3$b;
 
     invoke-direct {p1, p0, v3}, Lio/grpc/internal/b3$b;-><init>(Lio/grpc/internal/b3;Ljava/util/concurrent/Executor;)V
 
     return-object p1
 
-    .line 4
     :cond_1
     new-instance v0, Lio/grpc/internal/t;
 
@@ -251,7 +233,6 @@
 
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    .line 5
     invoke-virtual {p2, v1, v2}, Lio/grpc/f;->t(Lio/grpc/f$a;Ljava/lang/Object;)Lio/grpc/f;
 
     move-result-object v4
@@ -264,7 +245,6 @@
 
     iget-object p2, p0, Lio/grpc/internal/b3;->e:Ljava/util/concurrent/atomic/AtomicReference;
 
-    .line 6
     invoke-virtual {p2}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
 
     move-result-object p2

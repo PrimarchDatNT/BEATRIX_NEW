@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->T:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$a;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -71,7 +70,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$a;->e(Lcom/commsource/push/bean/h;)V
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$a;->b()Lcom/commsource/push/bean/h;
 
     move-result-object v2
@@ -95,7 +93,6 @@
 
     if-nez v2, :cond_2
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$a;->b()Lcom/commsource/push/bean/h;
 
     move-result-object v1
@@ -115,7 +112,6 @@
 
     if-lez v1, :cond_2
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -126,7 +122,6 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 5
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object v2
@@ -137,7 +132,6 @@
 
     invoke-virtual {v2, v1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->v(ILcom/commsource/util/common/d;)V
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

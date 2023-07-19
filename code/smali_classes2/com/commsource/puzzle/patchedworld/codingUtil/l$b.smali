@@ -34,7 +34,6 @@
 
     move v4, p4
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/commsource/puzzle/patchedworld/codingUtil/l$b;-><init>(FFFFF)V
 
     return-void
@@ -43,10 +42,8 @@
 .method public constructor <init>(FFFFF)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;-><init>(FFFF)V
 
-    .line 3
     iput p5, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/l$b;->e:F
 
     return-void
@@ -61,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/codingUtil/l$b;->b(F)Lcom/commsource/puzzle/patchedworld/codingUtil/l$b;
 
     move-result-object p1
@@ -78,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lcom/commsource/puzzle/patchedworld/codingUtil/l$b;
 
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/l$e;->a:F

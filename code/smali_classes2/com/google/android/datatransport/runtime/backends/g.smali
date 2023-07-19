@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method public static a()Lcom/google/android/datatransport/runtime/backends/g$a;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/backends/a$b;
 
     invoke-direct {v0}, Lcom/google/android/datatransport/runtime/backends/a$b;-><init>()V
@@ -47,7 +45,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/datatransport/runtime/backends/g;->a()Lcom/google/android/datatransport/runtime/backends/g$a;
 
     move-result-object v0

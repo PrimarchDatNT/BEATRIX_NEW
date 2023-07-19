@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,13 +19,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/beautyplus/setting/a0/b;->b(Landroid/content/Context;)V
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/beautyplus/setting/a0/b;->c(Landroid/content/Context;)V
 
-    .line 3
     :try_start_0
     invoke-static {p0}, Lcom/commsource/beautyplus/setting/a0/b;->e(Landroid/content/Context;)Ljava/io/File;
 
@@ -47,10 +43,8 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -64,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
@@ -76,7 +69,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyplus/setting/a0/b$a;
 
     const-string v2, "cache"
@@ -87,7 +79,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/bumptech/glide/c;->d(Landroid/content/Context;)Lcom/bumptech/glide/c;
 
@@ -102,10 +93,8 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -119,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
@@ -131,7 +119,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/bumptech/glide/c;->d(Landroid/content/Context;)Lcom/bumptech/glide/c;
 
     move-result-object p0
@@ -145,10 +132,8 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 4
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -163,35 +148,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_2
 
-    .line 2
     :try_start_0
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1}, Ljava/io/File;->delete()Z
 
-    .line 4
     invoke-virtual {v1}, Ljava/io/File;->isDirectory()Z
 
     move-result p0
 
     if-eqz p0, :cond_0
 
-    .line 5
     invoke-virtual {v1}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object p0
 
-    .line 6
     array-length v2, p0
 
     const/4 v3, 0x0
@@ -201,7 +180,6 @@
 
     aget-object v4, p0, v3
 
-    .line 7
     invoke-virtual {v4}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v4
@@ -217,19 +195,16 @@
     :cond_0
     if-eqz p1, :cond_2
 
-    .line 8
     invoke-virtual {v1}, Ljava/io/File;->isDirectory()Z
 
     move-result p0
 
     if-nez p0, :cond_1
 
-    .line 9
     invoke-virtual {v1}, Ljava/io/File;->delete()Z
 
     goto :goto_1
 
-    .line 10
     :cond_1
     invoke-virtual {v1}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
@@ -239,7 +214,6 @@
 
     if-nez p0, :cond_2
 
-    .line 11
     invoke-virtual {v1}, Ljava/io/File;->delete()Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -249,10 +223,8 @@
     :catch_0
     move-exception p0
 
-    .line 12
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 13
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -269,26 +241,22 @@
 
     const-string v1, "glide_disk_cache"
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/beautyplus/setting/a0/b;->i(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getCacheDir()Ljava/io/File;
 
@@ -298,12 +266,10 @@
 
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 6
     :cond_1
     new-instance v2, Ljava/io/File;
 
@@ -321,7 +287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/commsource/beautyplus/setting/a0/b;->e(Landroid/content/Context;)Ljava/io/File;
 
@@ -346,10 +311,8 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, ""
@@ -371,13 +334,11 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object p0
 
-    .line 2
     array-length v3, p0
 
     const/4 v4, 0x0
@@ -387,21 +348,18 @@
 
     aget-object v5, p0, v4
 
-    .line 3
     invoke-virtual {v5}, Ljava/io/File;->isDirectory()Z
 
     move-result v6
 
     if-eqz v6, :cond_0
 
-    .line 4
     invoke-static {v5}, Lcom/commsource/beautyplus/setting/a0/b;->g(Ljava/io/File;)J
 
     move-result-wide v5
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-virtual {v5}, Ljava/io/File;->length()J
 
@@ -419,10 +377,8 @@
     :catch_0
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -452,7 +408,6 @@
 
     if-gez v9, :cond_0
 
-    .line 1
     new-instance v1, Ljava/math/BigDecimal;
 
     invoke-static {p0, p1}, Ljava/lang/Double;->toString(D)Ljava/lang/String;
@@ -461,7 +416,6 @@
 
     invoke-direct {v1, p0}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -495,7 +449,6 @@
 
     if-gez v9, :cond_1
 
-    .line 3
     new-instance p0, Ljava/math/BigDecimal;
 
     invoke-static {v3, v4}, Ljava/lang/Double;->toString(D)Ljava/lang/String;
@@ -504,7 +457,6 @@
 
     invoke-direct {p0, p1}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
 
-    .line 4
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -538,7 +490,6 @@
 
     if-gez v3, :cond_2
 
-    .line 5
     new-instance v1, Ljava/math/BigDecimal;
 
     invoke-static {p0, p1}, Ljava/lang/Double;->toString(D)Ljava/lang/String;
@@ -547,7 +498,6 @@
 
     invoke-direct {v1, p0}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
 
-    .line 6
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -574,13 +524,11 @@
 
     return-object p0
 
-    .line 7
     :cond_2
     new-instance p0, Ljava/math/BigDecimal;
 
     invoke-direct {p0, v1, v2}, Ljava/math/BigDecimal;-><init>(D)V
 
-    .line 8
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -615,14 +563,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     invoke-static {v1, p0}, Lcom/commsource/beautyplus/util/v;->u(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
@@ -639,17 +585,14 @@
     :goto_0
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result p0
 
     if-nez p0, :cond_1
 
-    .line 4
     invoke-virtual {v2}, Ljava/io/File;->mkdirs()Z
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

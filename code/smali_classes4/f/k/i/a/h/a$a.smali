@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/k/i/a/h/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i/a/h/a$a;->a:Lf/k/i/a/h/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,14 +43,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Lokhttp3/Call;->isCanceled()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lf/k/i/a/h/a$a;->a:Lf/k/i/a/h/a;
 
     invoke-static {p1}, Lf/k/i/a/h/a;->a(Lf/k/i/a/h/a;)Lf/k/i/a/d;
@@ -62,7 +59,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lf/k/i/a/h/a$a;->a:Lf/k/i/a/h/a;
 
@@ -72,7 +68,6 @@
 
     invoke-virtual {p1, v1, p2}, Lf/k/i/a/h/a;->e(Lf/k/i/a/d;Ljava/lang/Exception;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -93,14 +88,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Lokhttp3/Call;->isCanceled()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lf/k/i/a/h/a$a;->a:Lf/k/i/a/h/a;
 
     invoke-static {p1}, Lf/k/i/a/h/a;->a(Lf/k/i/a/h/a;)Lf/k/i/a/d;
@@ -111,7 +104,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lf/k/i/a/h/a$a;->a:Lf/k/i/a/h/a;
 
@@ -125,7 +117,6 @@
 
     invoke-virtual {p1, v1}, Lf/k/i/a/h/a;->f(Lf/k/i/a/e;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

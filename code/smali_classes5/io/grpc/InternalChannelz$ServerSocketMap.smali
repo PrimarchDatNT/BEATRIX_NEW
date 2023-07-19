@@ -32,7 +32,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/concurrent/ConcurrentSkipListMap;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method synthetic constructor <init>(Lio/grpc/InternalChannelz$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/InternalChannelz$ServerSocketMap;-><init>()V
 
     return-void

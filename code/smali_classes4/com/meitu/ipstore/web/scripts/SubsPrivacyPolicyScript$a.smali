@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/scripts/SubsPrivacyPolicyScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/SubsPrivacyPolicyScript$a;->c:Lcom/meitu/ipstore/web/scripts/SubsPrivacyPolicyScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/ipstore/web/scripts/SubsPrivacyPolicyScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/web/scripts/SubsPrivacyPolicyScript$a;->d(Lcom/meitu/ipstore/web/scripts/SubsPrivacyPolicyScript$Model;)V
@@ -66,10 +64,8 @@
 
     const-string v0, "subsPrivacyPolicy"
 
-    .line 1
     invoke-static {v0}, Lf/k/m/j/e;->a(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v0
@@ -80,7 +76,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/ipstore/web/scripts/SubsPrivacyPolicyScript$a;->c:Lcom/meitu/ipstore/web/scripts/SubsPrivacyPolicyScript;
 
     invoke-virtual {v1}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
@@ -89,7 +84,6 @@
 
     invoke-interface {v0, v1}, Lf/k/m/d;->m(Landroid/app/Activity;)V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

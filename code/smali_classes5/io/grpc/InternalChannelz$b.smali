@@ -85,10 +85,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-interface {p12}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -115,31 +113,22 @@
     :goto_1
     const-string v1, "channels can have subchannels only, subchannels can have either sockets OR subchannels, neither can have both"
 
-    .line 4
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 5
     iput-object p1, p0, Lio/grpc/InternalChannelz$b;->a:Ljava/lang/String;
 
-    .line 6
     iput-object p2, p0, Lio/grpc/InternalChannelz$b;->b:Lio/grpc/ConnectivityState;
 
-    .line 7
     iput-object p3, p0, Lio/grpc/InternalChannelz$b;->c:Lio/grpc/InternalChannelz$ChannelTrace;
 
-    .line 8
     iput-wide p4, p0, Lio/grpc/InternalChannelz$b;->d:J
 
-    .line 9
     iput-wide p6, p0, Lio/grpc/InternalChannelz$b;->e:J
 
-    .line 10
     iput-wide p8, p0, Lio/grpc/InternalChannelz$b;->f:J
 
-    .line 11
     iput-wide p10, p0, Lio/grpc/InternalChannelz$b;->g:J
 
-    .line 12
     invoke-static {p12}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -148,7 +137,6 @@
 
     iput-object p1, p0, Lio/grpc/InternalChannelz$b;->h:Ljava/util/List;
 
-    .line 13
     invoke-static {p13}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -163,7 +151,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Lio/grpc/ConnectivityState;Lio/grpc/InternalChannelz$ChannelTrace;JJJJLjava/util/List;Ljava/util/List;Lio/grpc/InternalChannelz$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p13}, Lio/grpc/InternalChannelz$b;-><init>(Ljava/lang/String;Lio/grpc/ConnectivityState;Lio/grpc/InternalChannelz$ChannelTrace;JJJJLjava/util/List;Ljava/util/List;)V
 
     return-void

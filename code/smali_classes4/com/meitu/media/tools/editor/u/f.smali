@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,14 +21,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x12
 
     if-lt v1, v2, :cond_2
 
-    .line 2
     instance-of p1, p3, Landroid/view/Surface;
 
     if-nez p1, :cond_1
@@ -40,7 +37,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -64,7 +60,6 @@
 
     throw p1
 
-    .line 4
     :cond_1
     :goto_0
     new-instance p1, Lcom/meitu/media/tools/editor/u/e;
@@ -84,7 +79,6 @@
 
     if-lt v1, p3, :cond_3
 
-    .line 5
     new-instance p3, Lcom/meitu/media/tools/editor/u/d;
 
     move-object v2, p3
@@ -105,7 +99,6 @@
 
     return-object p3
 
-    .line 6
     :cond_3
     new-instance p1, Ljava/lang/RuntimeException;
 

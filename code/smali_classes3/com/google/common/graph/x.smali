@@ -46,13 +46,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/graph/x;->b:Lcom/google/common/graph/h;
 
-    .line 3
     iput-object p2, p0, Lcom/google/common/graph/x;->a:Ljava/lang/Object;
 
     return-void
@@ -67,7 +64,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/graph/m;
 
     const/4 v1, 0x0
@@ -76,11 +72,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/common/graph/m;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/graph/x;->b:Lcom/google/common/graph/h;
 
     invoke-interface {v0}, Lcom/google/common/graph/h;->e()Z
@@ -91,7 +85,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/common/graph/m;->c()Z
 
     move-result v0
@@ -100,18 +93,15 @@
 
     return v1
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Lcom/google/common/graph/m;->m()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/common/graph/m;->o()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 7
     iget-object v3, p0, Lcom/google/common/graph/x;->a:Ljava/lang/Object;
 
     invoke-virtual {v3, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
@@ -137,7 +127,6 @@
     :cond_2
     iget-object v3, p0, Lcom/google/common/graph/x;->a:Ljava/lang/Object;
 
-    .line 8
     invoke-virtual {v3, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -164,7 +153,6 @@
     :cond_4
     return v1
 
-    .line 9
     :cond_5
     invoke-virtual {p1}, Lcom/google/common/graph/m;->c()Z
 
@@ -174,7 +162,6 @@
 
     return v1
 
-    .line 10
     :cond_6
     iget-object v0, p0, Lcom/google/common/graph/x;->b:Lcom/google/common/graph/h;
 
@@ -184,17 +171,14 @@
 
     move-result-object v0
 
-    .line 11
     invoke-virtual {p1}, Lcom/google/common/graph/m;->h()Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 12
     invoke-virtual {p1}, Lcom/google/common/graph/m;->i()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 13
     iget-object v4, p0, Lcom/google/common/graph/x;->a:Ljava/lang/Object;
 
     invoke-virtual {v4, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
@@ -212,7 +196,6 @@
     :cond_7
     iget-object v4, p0, Lcom/google/common/graph/x;->a:Ljava/lang/Object;
 
-    .line 14
     invoke-virtual {v4, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -235,7 +218,6 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -246,7 +228,6 @@
 .method public size()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/x;->b:Lcom/google/common/graph/h;
 
     invoke-interface {v0}, Lcom/google/common/graph/h;->e()Z
@@ -255,7 +236,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/x;->b:Lcom/google/common/graph/h;
 
     iget-object v1, p0, Lcom/google/common/graph/x;->a:Ljava/lang/Object;
@@ -268,7 +248,6 @@
 
     iget-object v2, p0, Lcom/google/common/graph/x;->a:Ljava/lang/Object;
 
-    .line 3
     invoke-interface {v1, v2}, Lcom/google/common/graph/h;->i(Ljava/lang/Object;)I
 
     move-result v1
@@ -279,7 +258,6 @@
 
     iget-object v2, p0, Lcom/google/common/graph/x;->a:Ljava/lang/Object;
 
-    .line 4
     invoke-interface {v1, v2}, Lcom/google/common/graph/h;->b(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object v1
@@ -294,7 +272,6 @@
 
     return v0
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/google/common/graph/x;->b:Lcom/google/common/graph/h;
 

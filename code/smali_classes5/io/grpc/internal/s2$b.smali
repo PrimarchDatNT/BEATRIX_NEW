@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/s2$b;->b:Lio/grpc/internal/s2;
 
     iput-object p2, p0, Lio/grpc/internal/s2$b;->a:Lio/grpc/MethodDescriptor;
@@ -47,7 +46,6 @@
 .method public get()Lio/grpc/internal/h2;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/s2$b;->b:Lio/grpc/internal/s2;
 
     invoke-static {v0}, Lio/grpc/internal/s2;->b(Lio/grpc/internal/s2;)Z
@@ -56,12 +54,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lio/grpc/internal/h2;->f:Lio/grpc/internal/h2;
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/s2$b;->b:Lio/grpc/internal/s2;
 

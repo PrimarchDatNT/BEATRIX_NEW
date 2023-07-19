@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.finsky.externalreferrer.IGetInstallReferrerService"
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/a;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
 
     return-void
@@ -28,22 +27,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/a;->s()Landroid/os/Parcel;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/measurement/b0;->c(Landroid/os/Parcel;Landroid/os/Parcelable;)V
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/a;->Z(ILandroid/os/Parcel;)Landroid/os/Parcel;
 
     move-result-object p1
 
-    .line 4
     sget-object v0, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/measurement/b0;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
@@ -52,7 +47,6 @@
 
     check-cast v0, Landroid/os/Bundle;
 
-    .line 5
     invoke-virtual {p1}, Landroid/os/Parcel;->recycle()V
 
     return-object v0

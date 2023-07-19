@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/okhttp/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/a$c;->a:Lio/grpc/okhttp/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/a$c;->a:Lio/grpc/okhttp/a;
 
     invoke-static {v0}, Lio/grpc/okhttp/a;->b(Lio/grpc/okhttp/a;)Lokio/Buffer;
@@ -47,7 +45,6 @@
 
     invoke-virtual {v0}, Lokio/Buffer;->close()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/a$c;->a:Lio/grpc/okhttp/a;
 
@@ -57,7 +54,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lio/grpc/okhttp/a$c;->a:Lio/grpc/okhttp/a;
 
     invoke-static {v0}, Lio/grpc/okhttp/a;->d(Lio/grpc/okhttp/a;)Lokio/Sink;
@@ -73,7 +69,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     iget-object v1, p0, Lio/grpc/okhttp/a$c;->a:Lio/grpc/okhttp/a;
 
     invoke-static {v1}, Lio/grpc/okhttp/a;->f(Lio/grpc/okhttp/a;)Lio/grpc/okhttp/b$a;
@@ -82,7 +77,6 @@
 
     invoke-interface {v1, v0}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
 
-    .line 5
     :cond_0
     :goto_0
     :try_start_1
@@ -94,7 +88,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 6
     iget-object v0, p0, Lio/grpc/okhttp/a$c;->a:Lio/grpc/okhttp/a;
 
     invoke-static {v0}, Lio/grpc/okhttp/a;->g(Lio/grpc/okhttp/a;)Ljava/net/Socket;
@@ -110,7 +103,6 @@
     :catch_1
     move-exception v0
 
-    .line 7
     iget-object v1, p0, Lio/grpc/okhttp/a$c;->a:Lio/grpc/okhttp/a;
 
     invoke-static {v1}, Lio/grpc/okhttp/a;->f(Lio/grpc/okhttp/a;)Lio/grpc/okhttp/b$a;

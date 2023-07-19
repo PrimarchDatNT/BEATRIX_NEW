@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/google/android/gms/ads/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/fn2;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/xl2;->b:Lcom/google/android/gms/ads/b;
 
     return-void
@@ -25,7 +23,6 @@
 .method public final G5()Lcom/google/android/gms/ads/b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xl2;->b:Lcom/google/android/gms/ads/b;
 
     return-object v0
@@ -34,7 +31,6 @@
 .method public final a(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xl2;->b:Lcom/google/android/gms/ads/b;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/ads/b;->onAdFailedToLoad(I)V
@@ -45,7 +41,6 @@
 .method public final g()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xl2;->b:Lcom/google/android/gms/ads/b;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/b;->onAdLeftApplication()V
@@ -56,7 +51,6 @@
 .method public final j()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xl2;->b:Lcom/google/android/gms/ads/b;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/b;->onAdOpened()V
@@ -67,7 +61,6 @@
 .method public final k()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xl2;->b:Lcom/google/android/gms/ads/b;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/b;->onAdClosed()V
@@ -78,7 +71,6 @@
 .method public final onAdClicked()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xl2;->b:Lcom/google/android/gms/ads/b;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/b;->onAdClicked()V
@@ -89,7 +81,6 @@
 .method public final onAdImpression()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xl2;->b:Lcom/google/android/gms/ads/b;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/b;->onAdImpression()V
@@ -100,7 +91,6 @@
 .method public final onAdLoaded()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xl2;->b:Lcom/google/android/gms/ads/b;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/b;->onAdLoaded()V
@@ -111,7 +101,6 @@
 .method public final x7(Lcom/google/android/gms/internal/ads/zzuy;)V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/ads/a;
 
     iget v1, p1, Lcom/google/android/gms/internal/ads/zzuy;->a:I

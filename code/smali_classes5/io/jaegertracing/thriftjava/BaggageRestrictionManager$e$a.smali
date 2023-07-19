@@ -30,7 +30,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method public a(Lorg/apache/thrift/protocol/TProtocol;)Lio/jaegertracing/thriftjava/BaggageRestrictionManager$e;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$e;
 
     invoke-direct {v0, p1}, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$e;-><init>(Lorg/apache/thrift/protocol/TProtocol;)V
@@ -52,7 +50,6 @@
 .method public b(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)Lio/jaegertracing/thriftjava/BaggageRestrictionManager$e;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$e;
 
     invoke-direct {v0, p1, p2}, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$e;-><init>(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)V
@@ -63,7 +60,6 @@
 .method public bridge synthetic getClient(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/TServiceClient;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$e$a;->a(Lorg/apache/thrift/protocol/TProtocol;)Lio/jaegertracing/thriftjava/BaggageRestrictionManager$e;
 
     move-result-object p1
@@ -74,7 +70,6 @@
 .method public bridge synthetic getClient(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/TServiceClient;
     .locals 0
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$e$a;->b(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)Lio/jaegertracing/thriftjava/BaggageRestrictionManager$e;
 
     move-result-object p1

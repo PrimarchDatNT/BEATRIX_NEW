@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/android/gms/internal/ads/dr0;->j(Lcom/google/android/gms/internal/ads/nr0;Ljava/util/concurrent/Executor;)Ljava/util/Set;
 
     move-result-object p0
@@ -57,7 +56,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/NoSuchMethodError;
 
     invoke-direct {v0}, Ljava/lang/NoSuchMethodError;-><init>()V

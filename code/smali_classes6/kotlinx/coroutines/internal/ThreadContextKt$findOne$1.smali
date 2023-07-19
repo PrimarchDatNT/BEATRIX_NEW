@@ -102,7 +102,6 @@
 
     return-object p1
 
-    .line 1
     :cond_0
     instance-of p1, p2, Lcotlinx/coroutines/g3;
 

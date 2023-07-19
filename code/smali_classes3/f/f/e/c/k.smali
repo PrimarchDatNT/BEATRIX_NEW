@@ -63,12 +63,10 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/common/cache/CacheBuilder;->D()Lcom/google/common/cache/CacheBuilder;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/common/cache/CacheBuilder;->M()Lcom/google/common/cache/CacheBuilder;
 
     move-result-object v0
@@ -77,19 +75,16 @@
 
     invoke-direct {v1}, Lf/f/e/c/k$a;-><init>()V
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/google/common/cache/CacheBuilder;->b(Lcom/google/common/cache/CacheLoader;)Lcom/google/common/cache/h;
 
     move-result-object v0
 
     sput-object v0, Lf/f/e/c/k;->c:Lcom/google/common/cache/h;
 
-    .line 4
     invoke-static {}, Lcom/google/common/cache/CacheBuilder;->D()Lcom/google/common/cache/CacheBuilder;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/common/cache/CacheBuilder;->M()Lcom/google/common/cache/CacheBuilder;
 
     move-result-object v0
@@ -98,7 +93,6 @@
 
     invoke-direct {v1}, Lf/f/e/c/k$b;-><init>()V
 
-    .line 6
     invoke-virtual {v0, v1}, Lcom/google/common/cache/CacheBuilder;->b(Lcom/google/common/cache/CacheLoader;)Lcom/google/common/cache/h;
 
     move-result-object v0
@@ -111,17 +105,14 @@
 .method constructor <init>(Lf/f/e/c/e;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Maps;->V()Ljava/util/concurrent/ConcurrentMap;
 
     move-result-object v0
 
     iput-object v0, p0, Lf/f/e/c/k;->a:Ljava/util/concurrent/ConcurrentMap;
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -136,7 +127,6 @@
 .method static synthetic a(Ljava/lang/Class;)Lcom/google/common/collect/ImmutableList;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lf/f/e/c/k;->e(Ljava/lang/Class;)Lcom/google/common/collect/ImmutableList;
 
     move-result-object p0
@@ -159,17 +149,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/HashMultimap;->create()Lcom/google/common/collect/HashMultimap;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Lf/f/e/c/k;->d(Ljava/lang/Class;)Lcom/google/common/collect/ImmutableList;
 
     move-result-object v1
@@ -191,17 +178,14 @@
 
     check-cast v2, Ljava/lang/reflect/Method;
 
-    .line 4
     invoke-virtual {v2}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
 
     move-result-object v3
 
     const/4 v4, 0x0
 
-    .line 5
     aget-object v3, v3, v4
 
-    .line 6
     iget-object v4, p0, Lf/f/e/c/k;->b:Lf/f/e/c/e;
 
     invoke-static {v4, p1, v2}, Lf/f/e/c/g;->e(Lf/f/e/c/e;Ljava/lang/Object;Ljava/lang/reflect/Method;)Lf/f/e/c/g;
@@ -232,7 +216,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     :try_start_0
     sget-object v0, Lf/f/e/c/k;->d:Lcom/google/common/cache/h;
 
@@ -249,7 +232,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/RuntimeException;->getCause()Ljava/lang/Throwable;
 
     move-result-object p0
@@ -274,7 +256,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lf/f/e/c/k;->c:Lcom/google/common/cache/h;
 
     invoke-interface {v0, p0}, Lcom/google/common/cache/h;->getUnchecked(Ljava/lang/Object;)Ljava/lang/Object;
@@ -299,7 +280,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/reflect/TypeToken;->of(Ljava/lang/Class;)Lcom/google/common/reflect/TypeToken;
 
     move-result-object p0
@@ -312,12 +292,10 @@
 
     move-result-object p0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Maps;->Y()Ljava/util/HashMap;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -335,7 +313,6 @@
 
     check-cast v1, Ljava/lang/Class;
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Class;->getDeclaredMethods()[Ljava/lang/reflect/Method;
 
     move-result-object v1
@@ -351,7 +328,6 @@
 
     aget-object v5, v1, v4
 
-    .line 5
     const-class v6, Lf/f/e/c/f;
 
     invoke-virtual {v5, v6}, Ljava/lang/reflect/Method;->isAnnotationPresent(Ljava/lang/Class;)Z
@@ -366,12 +342,10 @@
 
     if-nez v6, :cond_2
 
-    .line 6
     invoke-virtual {v5}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
 
     move-result-object v6
 
-    .line 7
     array-length v7, v6
 
     const/4 v8, 0x1
@@ -390,19 +364,16 @@
 
     invoke-static {v8, v7, v5, v6}, Lcom/google/common/base/t;->w(ZLjava/lang/String;Ljava/lang/Object;I)V
 
-    .line 8
     new-instance v6, Lf/f/e/c/k$c;
 
     invoke-direct {v6, v5}, Lf/f/e/c/k$c;-><init>(Ljava/lang/reflect/Method;)V
 
-    .line 9
     invoke-interface {v0, v6}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v7
 
     if-nez v7, :cond_2
 
-    .line 10
     invoke-interface {v0, v6, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_2
@@ -410,7 +381,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
 
@@ -438,7 +408,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -447,7 +416,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Ljava/util/AbstractCollection;->size()I
 
     move-result v0
@@ -456,7 +424,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/common/collect/ImmutableSet;->iterator()Lcom/google/common/collect/l2;
 
     move-result-object p1
@@ -475,7 +442,6 @@
 
     check-cast v1, Ljava/lang/Class;
 
-    .line 4
     iget-object v2, p0, Lf/f/e/c/k;->a:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v2, v1}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -486,7 +452,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v1}, Ljava/util/concurrent/CopyOnWriteArraySet;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -495,7 +460,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -524,7 +488,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lf/f/e/c/k;->a:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -547,12 +510,10 @@
 .method h(Ljava/lang/Object;)V
     .locals 4
 
-    .line 1
     invoke-direct {p0, p1}, Lf/f/e/c/k;->b(Ljava/lang/Object;)Lcom/google/common/collect/l1;
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p1}, Lcom/google/common/collect/l1;->asMap()Ljava/util/Map;
 
     move-result-object p1
@@ -578,21 +539,18 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/Class;
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/util/Collection;
 
-    .line 5
     iget-object v2, p0, Lf/f/e/c/k;->a:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v2, v1}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -603,15 +561,12 @@
 
     if-nez v2, :cond_0
 
-    .line 6
     new-instance v2, Ljava/util/concurrent/CopyOnWriteArraySet;
 
     invoke-direct {v2}, Ljava/util/concurrent/CopyOnWriteArraySet;-><init>()V
 
-    .line 7
     iget-object v3, p0, Lf/f/e/c/k;->a:Ljava/util/concurrent/ConcurrentMap;
 
-    .line 8
     invoke-interface {v3, v1, v2}, Ljava/util/concurrent/ConcurrentMap;->putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -624,7 +579,6 @@
 
     check-cast v2, Ljava/util/concurrent/CopyOnWriteArraySet;
 
-    .line 9
     :cond_0
     invoke-virtual {v2, v0}, Ljava/util/concurrent/CopyOnWriteArraySet;->addAll(Ljava/util/Collection;)Z
 
@@ -637,12 +591,10 @@
 .method i(Ljava/lang/Object;)V
     .locals 4
 
-    .line 1
     invoke-direct {p0, p1}, Lf/f/e/c/k;->b(Ljava/lang/Object;)Lcom/google/common/collect/l1;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Lcom/google/common/collect/l1;->asMap()Ljava/util/Map;
 
     move-result-object v0
@@ -668,21 +620,18 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/Class;
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/util/Collection;
 
-    .line 5
     iget-object v3, p0, Lf/f/e/c/k;->a:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v3, v2}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -693,7 +642,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-virtual {v2, v1}, Ljava/util/concurrent/CopyOnWriteArraySet;->removeAll(Ljava/util/Collection;)Z
 
     move-result v1
@@ -702,7 +650,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 

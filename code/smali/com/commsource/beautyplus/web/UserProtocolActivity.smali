@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
@@ -43,10 +41,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/beautyplus/d0/a;->c:Lcom/commsource/beautyplus/d0/a;
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/beautyplus/d0/a;->c()Ljava/lang/String;
 
     move-result-object v1
@@ -63,7 +59,6 @@
     :goto_0
     sget v2, Lcom/res/provider/ResID;->bpwv_protocol:I
 
-    .line 4
     invoke-virtual {p0, v2}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
@@ -72,12 +67,10 @@
 
     iput-object v2, p0, Lcom/commsource/beautyplus/web/UserProtocolActivity;->N:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
-    .line 5
     invoke-virtual {v2, v1}, Lcom/meitu/webview/core/CommonWebView;->loadUrl(Ljava/lang/String;)V
 
     sget v1, Lcom/res/provider/ResID;->tv_agree:I
 
-    .line 6
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -88,7 +81,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -101,10 +93,8 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -127,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -140,18 +129,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->activity_user_protocol:I
 
-    .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautyplus/web/UserProtocolActivity;->L0()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -164,29 +149,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/UserProtocolActivity;->N:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/l2;->w(Landroid/view/View;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/web/UserProtocolActivity;->N:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     invoke-virtual {v1}, Landroid/webkit/WebView;->removeAllViews()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/web/UserProtocolActivity;->N:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     invoke-virtual {v1}, Lcom/meitu/webview/core/CommonWebView;->destroy()V
 
-    .line 5
     :cond_0
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -203,7 +182,6 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/UserProtocolActivity;->N:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     invoke-virtual {v1}, Landroid/webkit/WebView;->canGoBack()Z
@@ -212,19 +190,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/web/UserProtocolActivity;->N:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     invoke-virtual {p1}, Landroid/webkit/WebView;->goBack()V
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     invoke-super {p0, p1, p2}, Landroidx/appcompat/app/AppCompatActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
@@ -242,18 +217,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onPause()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/web/UserProtocolActivity;->N:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/webview/core/CommonWebView;->onPause()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -267,18 +238,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onResume()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/web/UserProtocolActivity;->N:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/webview/core/CommonWebView;->onResume()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

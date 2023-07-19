@@ -26,14 +26,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/util/e;
 
     invoke-direct {v1}, Lcom/commsource/camera/xcamera/util/e;-><init>()V
 
     sput-object v1, Lcom/commsource/camera/xcamera/util/e;->c:Lcom/commsource/camera/xcamera/util/e;
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -70,7 +68,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -83,10 +80,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getOnlineId()J
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getOnlineId()J
 
     move-result-wide v1
@@ -115,11 +110,9 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     iget-object p2, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->arPath:Ljava/lang/String;
 
-    .line 2
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -140,25 +133,21 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 4
     :cond_0
     new-instance p1, Lcom/commsource/camera/param/MakeupParam;
 
     invoke-direct {p1}, Lcom/commsource/camera/param/MakeupParam;-><init>()V
 
-    .line 5
     invoke-virtual {p1, p2}, Lcom/commsource/camera/param/MakeupParam;->setPlistPath(Ljava/lang/String;)V
 
     const/16 p2, 0x95
 
-    .line 6
     invoke-virtual {p1, p2}, Lcom/commsource/camera/param/MakeupParam;->setMakeupType(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -170,7 +159,6 @@
     :catch_0
     move-exception p1
 
-    .line 7
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -187,7 +175,6 @@
 
     invoke-static {v0, p1}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -204,7 +191,6 @@
 
     if-nez p2, :cond_1
 
-    .line 1
     new-instance p2, Ljava/io/File;
 
     invoke-direct {p2, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -222,14 +208,12 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     :goto_0
     invoke-static {p1}, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->parseEffectDegreePlist(Ljava/lang/String;)Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     move-result-object p1
 
-    .line 3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -247,7 +231,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -265,31 +248,26 @@
 
     invoke-static {p1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_2
 
-    .line 3
     new-instance v2, Lcom/commsource/camera/param/MakeupParam;
 
     invoke-direct {v2}, Lcom/commsource/camera/param/MakeupParam;-><init>()V
 
     const/16 v3, 0x92
 
-    .line 4
     invoke-virtual {v2, v3}, Lcom/commsource/camera/param/MakeupParam;->setMakeupType(I)V
 
-    .line 5
     invoke-virtual {v2, p2}, Lcom/commsource/camera/param/MakeupParam;->setPlistPath(Ljava/lang/String;)V
 
     if-eqz p2, :cond_1
 
     const/4 v3, 0x0
 
-    .line 6
     sget-object v5, Ljava/io/File;->separator:Ljava/lang/String;
 
     const-string v4, "File.separator"
@@ -356,7 +334,6 @@
     :catch_0
     move-exception p2
 
-    .line 7
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -373,7 +350,6 @@
 
     invoke-static {p1, p2}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -396,7 +372,6 @@
 
     const/4 v4, 0x0
 
-    .line 1
     :try_start_0
     iget-object v5, v0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->filterPath:Ljava/lang/String;
 
@@ -436,7 +411,6 @@
 
     invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -457,14 +431,12 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {v2}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v5
 
     if-eqz v5, :cond_2
 
-    .line 4
     :cond_0
     new-instance v5, Lcom/meitu/template/bean/Filter;
 
@@ -474,10 +446,8 @@
 
     const/4 v2, 0x1
 
-    .line 5
     invoke-virtual {v5, v2}, Lcom/meitu/template/bean/Filter;->setInternalState(I)V
 
-    .line 6
     iget v2, v0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->filterAlphaValue:F
 
     const/16 v6, 0x64
@@ -490,7 +460,6 @@
 
     invoke-virtual {v5, v2}, Lcom/meitu/template/bean/Filter;->setUserAlpha(I)V
 
-    .line 7
     invoke-virtual {v5}, Lcom/meitu/template/bean/Filter;->getUserAlpha()I
 
     move-result v2
@@ -499,7 +468,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 8
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -518,22 +486,18 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     iget-object v0, v0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->filterIconPath:Ljava/lang/String;
 
-    .line 10
     :goto_0
     invoke-virtual {v5, v0}, Lcom/meitu/template/bean/Filter;->setFilterThumbnail(Ljava/lang/String;)V
 
     move-object/from16 v0, p3
 
-    .line 11
     invoke-virtual {v5, v0}, Lcom/meitu/template/bean/Filter;->setLookName(Ljava/lang/String;)V
 
     move/from16 v0, p4
 
-    .line 12
     invoke-virtual {v5, v0}, Lcom/meitu/template/bean/Filter;->setLookNeedPay(Z)V
 
     goto :goto_1
@@ -541,13 +505,11 @@
     :cond_2
     move-object v5, v4
 
-    .line 13
     :goto_1
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v5
 
-    .line 14
     :cond_3
     new-instance v0, Ljava/lang/NullPointerException;
 
@@ -564,7 +526,6 @@
     :catch_0
     move-exception v0
 
-    .line 15
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -581,7 +542,6 @@
 
     invoke-static {v1, v0}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -607,7 +567,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     iget-object v8, p1, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupPath:Ljava/lang/String;
 
@@ -615,14 +574,12 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-static {v8}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result p2
 
     if-eqz p2, :cond_1
 
-    .line 3
     :cond_0
     new-instance p2, Ljava/util/HashMap;
 
@@ -630,25 +587,20 @@
 
     invoke-direct {p2, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 4
     new-instance v9, Lcom/commsource/camera/param/MakeupParam;
 
     invoke-direct {v9}, Lcom/commsource/camera/param/MakeupParam;-><init>()V
 
-    .line 5
     iget p1, p1, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupWholeValue:F
 
     invoke-virtual {v9, p1}, Lcom/commsource/camera/param/MakeupParam;->setAlpha(F)V
 
     const/4 p1, 0x2
 
-    .line 6
     invoke-virtual {v9, p1}, Lcom/commsource/camera/param/MakeupParam;->setMakeupType(I)V
 
-    .line 7
     invoke-virtual {v9, v8}, Lcom/commsource/camera/param/MakeupParam;->setPlistPath(Ljava/lang/String;)V
 
-    .line 8
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -697,7 +649,6 @@
 
     invoke-virtual {v9, v2}, Lcom/commsource/camera/param/MakeupParam;->setResourcePath(Ljava/lang/String;)V
 
-    .line 9
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -709,7 +660,6 @@
     :cond_1
     move-object p2, v1
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -720,7 +670,6 @@
     :catch_0
     move-exception p1
 
-    .line 11
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -739,7 +688,6 @@
 
     invoke-static {p2, p1}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -760,7 +708,6 @@
 
     float-to-int p1, p1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -773,12 +720,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/repository/child/makeup/h;
 
     invoke-direct {v1}, Lcom/commsource/repository/child/makeup/h;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/commsource/camera/xcamera/util/e;->c:Lcom/commsource/camera/xcamera/util/e;
 
     invoke-direct {v2, p1, p3}, Lcom/commsource/camera/xcamera/util/e;->h(Lcom/meitu/template/bean/LookMaterial;I)I
@@ -791,51 +736,40 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, p2}, Lcom/commsource/repository/child/makeup/h;->k0(I)V
 
-    .line 4
     invoke-virtual {v1, p2}, Lcom/commsource/repository/child/makeup/h;->f0(I)V
 
     const-string p2, "Preset"
 
-    .line 5
     invoke-virtual {v1, p2}, Lcom/commsource/repository/child/makeup/h;->w0(Ljava/lang/String;)V
 
     const-string p2, ""
 
-    .line 6
     invoke-virtual {v1, p2}, Lcom/commsource/repository/child/makeup/h;->s0(Ljava/lang/String;)V
 
     const/4 p2, 0x1
 
-    .line 7
     invoke-virtual {v1, p2}, Lcom/commsource/repository/child/makeup/h;->o0(I)V
 
-    .line 8
     invoke-virtual {v1, p2}, Lcom/commsource/repository/child/makeup/h;->F0(Z)V
 
-    .line 9
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->isPayLook()Z
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->A0(I)V
 
-    .line 10
     invoke-virtual {v1, p2}, Lcom/commsource/repository/child/makeup/h;->B0(Z)V
 
-    .line 11
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->isInside()I
 
     move-result p1
 
     invoke-virtual {v1, p1}, Lcom/commsource/repository/child/makeup/h;->u0(I)V
 
-    .line 12
     invoke-virtual {v1, p3}, Lcom/commsource/repository/child/makeup/h;->v0(I)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -879,7 +813,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -893,7 +826,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     invoke-interface {p1}, Ljava/util/Map;->size()I
 
@@ -905,12 +837,10 @@
 
     if-eq v3, v4, :cond_2
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_2
     invoke-interface {p2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -949,7 +879,6 @@
 
     check-cast v3, Lcom/commsource/camera/param/MakeupParam;
 
-    .line 5
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -967,18 +896,15 @@
 
     goto :goto_1
 
-    .line 6
     :cond_4
     invoke-virtual {v3}, Lcom/commsource/camera/param/MakeupParam;->getResourcePath()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {v4}, Lcom/commsource/camera/param/MakeupParam;->getResourcePath()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 8
     invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
@@ -989,14 +915,12 @@
 
     goto :goto_0
 
-    .line 9
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 10
     :cond_6
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1045,7 +969,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->clone()Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     move-result-object v1
@@ -1054,7 +977,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/k;->i()I
 
     move-result v2
@@ -1067,7 +989,6 @@
 
     iput v2, v1, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupWholeValue:F
 
-    .line 3
     iget-object p2, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
     invoke-virtual {p2}, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->clone()Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
@@ -1080,12 +1001,10 @@
 
     if-nez p3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 5
     :cond_0
     invoke-interface {p3}, Ljava/util/List;->size()I
 
@@ -1104,14 +1023,12 @@
 
     if-ge v5, v2, :cond_7
 
-    .line 6
     invoke-interface {p3, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v9
 
     check-cast v9, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;
 
-    .line 7
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getBeautyType()I
 
     move-result v10
@@ -1132,7 +1049,6 @@
 
     goto/16 :goto_2
 
-    .line 8
     :pswitch_0
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1146,7 +1062,6 @@
 
     goto/16 :goto_2
 
-    .line 9
     :pswitch_1
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1160,7 +1075,6 @@
 
     goto/16 :goto_2
 
-    .line 10
     :pswitch_2
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1174,7 +1088,6 @@
 
     goto :goto_2
 
-    .line 11
     :pswitch_3
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1188,7 +1101,6 @@
 
     goto :goto_2
 
-    .line 12
     :pswitch_4
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1210,7 +1122,6 @@
 
     goto :goto_2
 
-    .line 13
     :pswitch_5
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1224,7 +1135,6 @@
 
     goto :goto_2
 
-    .line 14
     :pswitch_6
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1238,7 +1148,6 @@
 
     goto :goto_2
 
-    .line 15
     :pswitch_7
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1252,7 +1161,6 @@
 
     goto :goto_2
 
-    .line 16
     :cond_2
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1266,7 +1174,6 @@
 
     goto :goto_2
 
-    .line 17
     :cond_3
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1280,7 +1187,6 @@
 
     goto :goto_2
 
-    .line 18
     :cond_4
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1294,7 +1200,6 @@
 
     goto :goto_2
 
-    .line 19
     :cond_5
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1308,7 +1213,6 @@
 
     goto :goto_2
 
-    .line 20
     :cond_6
     invoke-virtual {v9}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -1325,18 +1229,15 @@
 
     goto/16 :goto_0
 
-    .line 21
     :cond_7
     iput-object p2, v1, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyDefaults:Lcom/meitu/core/MTRtEffectRender$AnattaParameter;
 
-    .line 22
     invoke-virtual {p1}, Lcom/meitu/template/bean/k;->k()Landroid/util/SparseArray;
 
     move-result-object p1
 
     if-eqz p1, :cond_f
 
-    .line 23
     invoke-virtual {p1}, Landroid/util/SparseArray;->size()I
 
     move-result p2
@@ -1344,14 +1245,12 @@
     :goto_3
     if-ge v4, p2, :cond_f
 
-    .line 24
     invoke-virtual {p1, v4}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object p3
 
     check-cast p3, Lcom/commsource/repository/child/makeup/h;
 
-    .line 25
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->k()I
 
     move-result v2
@@ -1382,7 +1281,6 @@
 
     goto :goto_4
 
-    .line 26
     :pswitch_8
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->h()I
 
@@ -1396,7 +1294,6 @@
 
     goto :goto_4
 
-    .line 27
     :pswitch_9
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->h()I
 
@@ -1410,7 +1307,6 @@
 
     goto :goto_4
 
-    .line 28
     :pswitch_a
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->h()I
 
@@ -1424,7 +1320,6 @@
 
     goto :goto_4
 
-    .line 29
     :cond_8
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->h()I
 
@@ -1438,7 +1333,6 @@
 
     goto :goto_4
 
-    .line 30
     :cond_9
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->h()I
 
@@ -1452,7 +1346,6 @@
 
     goto :goto_4
 
-    .line 31
     :cond_a
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->h()I
 
@@ -1464,7 +1357,6 @@
 
     iput v2, v1, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeWholeValue:F
 
-    .line 32
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->h()I
 
     move-result v2
@@ -1475,7 +1367,6 @@
 
     iput v2, v1, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeShadowValue:F
 
-    .line 33
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->h()I
 
     move-result p3
@@ -1488,7 +1379,6 @@
 
     goto :goto_4
 
-    .line 34
     :cond_b
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->h()I
 
@@ -1502,7 +1392,6 @@
 
     goto :goto_4
 
-    .line 35
     :cond_c
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->h()I
 
@@ -1516,7 +1405,6 @@
 
     goto :goto_4
 
-    .line 36
     :cond_d
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->h()I
 
@@ -1530,7 +1418,6 @@
 
     goto :goto_4
 
-    .line 37
     :cond_e
     invoke-virtual {p3}, Lcom/commsource/repository/child/makeup/h;->h()I
 
@@ -1547,7 +1434,6 @@
 
     goto/16 :goto_3
 
-    .line 38
     :cond_f
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1582,14 +1468,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v15, Lcom/meitu/template/bean/LookMaterial;
 
     move-object v1, v15
 
     const-string v2, "look_material/20002/icon/blink.jpg"
 
-    .line 2
     invoke-static {v2}, Lcom/commsource/beautyplus/util/v;->o(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v10
@@ -1624,7 +1508,6 @@
 
     const/16 v17, 0x0
 
-    .line 3
     invoke-direct/range {v1 .. v17}, Lcom/meitu/template/bean/LookMaterial;-><init>(JILjava/lang/String;ILjava/lang/String;JLjava/lang/String;Ljava/lang/String;IILjava/lang/String;III)V
 
     const-string v1, "look_material/look_default"
@@ -1633,47 +1516,38 @@
 
     move-object/from16 v3, p0
 
-    .line 4
     invoke-direct {v3, v1, v2}, Lcom/commsource/camera/xcamera/util/e;->j(Ljava/lang/String;Z)Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    .line 5
     new-instance v4, Lcom/meitu/template/bean/k;
 
     const-string v5, ""
 
     invoke-direct {v4, v5, v2}, Lcom/meitu/template/bean/k;-><init>(Ljava/lang/String;Z)V
 
-    .line 6
     invoke-virtual {v4, v1}, Lcom/meitu/template/bean/k;->s(Lcom/commsource/camera/lookwheel/StyleEffectDegree;)V
 
     const/4 v5, 0x0
 
-    .line 7
     invoke-virtual {v4, v5}, Lcom/meitu/template/bean/k;->q(Lcom/commsource/camera/param/MakeupParam;)V
 
-    .line 8
     new-instance v6, Lcom/commsource/camera/param/MakeupParam;
 
     invoke-direct {v6}, Lcom/commsource/camera/param/MakeupParam;-><init>()V
 
     const/16 v7, 0x92
 
-    .line 9
     invoke-virtual {v6, v7}, Lcom/commsource/camera/param/MakeupParam;->setMakeupType(I)V
 
-    .line 10
     iget-object v7, v1, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftPath:Ljava/lang/String;
 
     if-eqz v7, :cond_1
 
-    .line 11
     invoke-virtual {v6, v7}, Lcom/commsource/camera/param/MakeupParam;->setPlistPath(Ljava/lang/String;)V
 
-    .line 12
     new-instance v14, Ljava/lang/StringBuilder;
 
     invoke-direct {v14}, Ljava/lang/StringBuilder;-><init>()V
@@ -1741,28 +1615,22 @@
 
     throw v1
 
-    .line 13
     :cond_1
     :goto_0
     invoke-virtual {v4, v6}, Lcom/meitu/template/bean/k;->t(Lcom/commsource/camera/param/MakeupParam;)V
 
-    .line 14
     iget-object v1, v1, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->beautyPath:Ljava/lang/String;
 
     invoke-virtual {v4, v1}, Lcom/meitu/template/bean/k;->r(Ljava/lang/String;)V
 
-    .line 15
     invoke-virtual {v4, v5}, Lcom/meitu/template/bean/k;->y(Ljava/util/HashMap;)V
 
-    .line 16
     invoke-virtual {v4, v5}, Lcom/meitu/template/bean/k;->x(Landroid/util/SparseArray;)V
 
     move-object/from16 v1, v18
 
-    .line 17
     invoke-virtual {v1, v4}, Lcom/meitu/template/bean/LookMaterial;->setEffectBean(Lcom/meitu/template/bean/k;)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1770,7 +1638,6 @@
     :cond_2
     move-object/from16 v1, v18
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1809,19 +1676,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->isInside()I
 
@@ -1838,7 +1702,6 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     iget v4, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupMouthValue:F
 
@@ -1850,7 +1713,6 @@
 
     if-eqz v7, :cond_4
 
-    .line 5
     invoke-direct {p0, v4}, Lcom/commsource/camera/xcamera/util/e;->p(F)I
 
     move-result v4
@@ -1863,7 +1725,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 6
     iget-object v8, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupMouthIconPath:Ljava/lang/String;
 
     invoke-static {v8}, Lcom/commsource/beautyplus/util/v;->o(Ljava/lang/String;)Ljava/lang/String;
@@ -1872,7 +1733,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSingleMakeup()Ljava/util/Map;
 
@@ -1903,17 +1763,13 @@
     :cond_3
     move-object v8, v5
 
-    .line 8
     :goto_1
     invoke-virtual {v4, v8}, Lcom/commsource/repository/child/makeup/h;->s0(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/makeup/h;->l0(Z)V
 
-    .line 10
     invoke-virtual {v1, v7, v4}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 11
     :cond_4
     iget v4, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupCheekValue:F
 
@@ -1921,7 +1777,6 @@
 
     if-eqz v7, :cond_7
 
-    .line 12
     invoke-direct {p0, v4}, Lcom/commsource/camera/xcamera/util/e;->p(F)I
 
     move-result v4
@@ -1934,7 +1789,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 13
     iget-object v8, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupCheekIconPath:Ljava/lang/String;
 
     invoke-static {v8}, Lcom/commsource/beautyplus/util/v;->o(Ljava/lang/String;)Ljava/lang/String;
@@ -1943,7 +1797,6 @@
 
     goto :goto_2
 
-    .line 14
     :cond_5
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSingleMakeup()Ljava/util/Map;
 
@@ -1974,17 +1827,13 @@
     :cond_6
     move-object v8, v5
 
-    .line 15
     :goto_2
     invoke-virtual {v4, v8}, Lcom/commsource/repository/child/makeup/h;->s0(Ljava/lang/String;)V
 
-    .line 16
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/makeup/h;->l0(Z)V
 
-    .line 17
     invoke-virtual {v1, v7, v4}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 18
     :cond_7
     iget v4, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeLashValue:F
 
@@ -1992,7 +1841,6 @@
 
     if-eqz v7, :cond_a
 
-    .line 19
     invoke-direct {p0, v4}, Lcom/commsource/camera/xcamera/util/e;->p(F)I
 
     move-result v4
@@ -2005,7 +1853,6 @@
 
     if-eqz v2, :cond_8
 
-    .line 20
     iget-object v8, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeLashIconPath:Ljava/lang/String;
 
     invoke-static {v8}, Lcom/commsource/beautyplus/util/v;->o(Ljava/lang/String;)Ljava/lang/String;
@@ -2014,7 +1861,6 @@
 
     goto :goto_3
 
-    .line 21
     :cond_8
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSingleMakeup()Ljava/util/Map;
 
@@ -2045,17 +1891,13 @@
     :cond_9
     move-object v8, v5
 
-    .line 22
     :goto_3
     invoke-virtual {v4, v8}, Lcom/commsource/repository/child/makeup/h;->s0(Ljava/lang/String;)V
 
-    .line 23
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/makeup/h;->l0(Z)V
 
-    .line 24
     invoke-virtual {v1, v7, v4}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 25
     :cond_a
     iget v4, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyePupilValue:F
 
@@ -2063,7 +1905,6 @@
 
     if-eqz v7, :cond_d
 
-    .line 26
     invoke-direct {p0, v4}, Lcom/commsource/camera/xcamera/util/e;->p(F)I
 
     move-result v4
@@ -2076,7 +1917,6 @@
 
     if-eqz v2, :cond_b
 
-    .line 27
     iget-object v8, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyePupilIconPath:Ljava/lang/String;
 
     invoke-static {v8}, Lcom/commsource/beautyplus/util/v;->o(Ljava/lang/String;)Ljava/lang/String;
@@ -2085,7 +1925,6 @@
 
     goto :goto_4
 
-    .line 28
     :cond_b
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSingleMakeup()Ljava/util/Map;
 
@@ -2116,17 +1955,13 @@
     :cond_c
     move-object v8, v5
 
-    .line 29
     :goto_4
     invoke-virtual {v4, v8}, Lcom/commsource/repository/child/makeup/h;->s0(Ljava/lang/String;)V
 
-    .line 30
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/makeup/h;->l0(Z)V
 
-    .line 31
     invoke-virtual {v1, v7, v4}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 32
     :cond_d
     iget v4, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeShadowValue:F
 
@@ -2134,7 +1969,6 @@
 
     if-eqz v7, :cond_10
 
-    .line 33
     invoke-direct {p0, v4}, Lcom/commsource/camera/xcamera/util/e;->p(F)I
 
     move-result v4
@@ -2147,7 +1981,6 @@
 
     if-eqz v2, :cond_e
 
-    .line 34
     iget-object v8, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeShadowIconPath:Ljava/lang/String;
 
     invoke-static {v8}, Lcom/commsource/beautyplus/util/v;->o(Ljava/lang/String;)Ljava/lang/String;
@@ -2156,7 +1989,6 @@
 
     goto :goto_5
 
-    .line 35
     :cond_e
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSingleMakeup()Ljava/util/Map;
 
@@ -2187,17 +2019,13 @@
     :cond_f
     move-object v8, v5
 
-    .line 36
     :goto_5
     invoke-virtual {v4, v8}, Lcom/commsource/repository/child/makeup/h;->s0(Ljava/lang/String;)V
 
-    .line 37
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/makeup/h;->l0(Z)V
 
-    .line 38
     invoke-virtual {v1, v7, v4}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 39
     :cond_10
     iget v4, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeBrowValue:F
 
@@ -2205,7 +2033,6 @@
 
     if-eqz v7, :cond_13
 
-    .line 40
     invoke-direct {p0, v4}, Lcom/commsource/camera/xcamera/util/e;->p(F)I
 
     move-result v4
@@ -2218,7 +2045,6 @@
 
     if-eqz v2, :cond_11
 
-    .line 41
     iget-object v8, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupEyeBrowIconPath:Ljava/lang/String;
 
     invoke-static {v8}, Lcom/commsource/beautyplus/util/v;->o(Ljava/lang/String;)Ljava/lang/String;
@@ -2227,7 +2053,6 @@
 
     goto :goto_6
 
-    .line 42
     :cond_11
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSingleMakeup()Ljava/util/Map;
 
@@ -2258,17 +2083,13 @@
     :cond_12
     move-object v8, v5
 
-    .line 43
     :goto_6
     invoke-virtual {v4, v8}, Lcom/commsource/repository/child/makeup/h;->s0(Ljava/lang/String;)V
 
-    .line 44
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/makeup/h;->l0(Z)V
 
-    .line 45
     invoke-virtual {v1, v7, v4}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 46
     :cond_13
     iget v4, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupHighLightValue:F
 
@@ -2276,7 +2097,6 @@
 
     if-eqz v7, :cond_16
 
-    .line 47
     invoke-direct {p0, v4}, Lcom/commsource/camera/xcamera/util/e;->p(F)I
 
     move-result v4
@@ -2289,7 +2109,6 @@
 
     if-eqz v2, :cond_14
 
-    .line 48
     iget-object v2, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupHighLightIconPath:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/commsource/beautyplus/util/v;->o(Ljava/lang/String;)Ljava/lang/String;
@@ -2298,7 +2117,6 @@
 
     goto :goto_7
 
-    .line 49
     :cond_14
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSingleMakeup()Ljava/util/Map;
 
@@ -2329,17 +2147,13 @@
     :cond_15
     move-object v2, v5
 
-    .line 50
     :goto_7
     invoke-virtual {v4, v2}, Lcom/commsource/repository/child/makeup/h;->s0(Ljava/lang/String;)V
 
-    .line 51
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/makeup/h;->l0(Z)V
 
-    .line 52
     invoke-virtual {v1, v7, v4}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 53
     :cond_16
     iget p2, p2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupWoCanValue:F
 
@@ -2347,7 +2161,6 @@
 
     if-eqz v2, :cond_18
 
-    .line 54
     invoke-direct {p0, p2}, Lcom/commsource/camera/xcamera/util/e;->p(F)I
 
     move-result p2
@@ -2358,7 +2171,6 @@
 
     move-result-object p2
 
-    .line 55
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSingleMakeup()Ljava/util/Map;
 
     move-result-object p1
@@ -2386,13 +2198,10 @@
     :cond_17
     invoke-virtual {p2, v5}, Lcom/commsource/repository/child/makeup/h;->s0(Ljava/lang/String;)V
 
-    .line 56
     invoke-virtual {p2, v3}, Lcom/commsource/repository/child/makeup/h;->l0(Z)V
 
-    .line 57
     invoke-virtual {v1, v2, p2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 58
     :cond_18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2408,7 +2217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/util/e;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2433,7 +2241,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->isInside()I
 
     move-result v1
@@ -2444,7 +2251,6 @@
 
     if-ne v1, v3, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2463,7 +2269,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2489,7 +2294,6 @@
 
     move-result-object p1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2505,7 +2309,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -2542,7 +2345,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/meitu/template/bean/k;
 
     sget-object v2, Lcom/commsource/camera/xcamera/util/e;->b:Ljava/lang/String;
@@ -2551,12 +2353,10 @@
 
     invoke-direct {v1, v2, v3}, Lcom/meitu/template/bean/k;-><init>(Ljava/lang/String;Z)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/util/e;->f(Lcom/meitu/template/bean/LookMaterial;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->isInside()I
 
     move-result v4
@@ -2567,7 +2367,6 @@
 
     const/4 v3, 0x1
 
-    .line 4
     :cond_0
     invoke-direct {p0, v2, v3}, Lcom/commsource/camera/xcamera/util/e;->j(Ljava/lang/String;Z)Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
@@ -2575,10 +2374,8 @@
 
     if-eqz v2, :cond_3
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/k;->s(Lcom/commsource/camera/lookwheel/StyleEffectDegree;)V
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getTitle()Ljava/lang/String;
 
     move-result-object v4
@@ -2593,21 +2390,18 @@
 
     invoke-virtual {v1, v4}, Lcom/meitu/template/bean/k;->u(Lcom/meitu/template/bean/Filter;)V
 
-    .line 7
     invoke-virtual {v1}, Lcom/meitu/template/bean/k;->g()Lcom/meitu/template/bean/Filter;
 
     move-result-object v4
 
     invoke-virtual {v1, v4}, Lcom/meitu/template/bean/k;->z(Lcom/meitu/template/bean/Filter;)V
 
-    .line 8
     invoke-direct {p0, v3, v2}, Lcom/commsource/camera/xcamera/util/e;->i(ZLcom/commsource/camera/lookwheel/StyleEffectDegree;)Lcom/commsource/camera/param/MakeupParam;
 
     move-result-object v4
 
     invoke-virtual {v1, v4}, Lcom/meitu/template/bean/k;->q(Lcom/commsource/camera/param/MakeupParam;)V
 
-    .line 9
     invoke-virtual {v1}, Lcom/meitu/template/bean/k;->e()Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     move-result-object v4
@@ -2621,7 +2415,6 @@
 
     invoke-virtual {v1, v4}, Lcom/meitu/template/bean/k;->r(Ljava/lang/String;)V
 
-    .line 10
     iget-object v4, v2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftPath:Ljava/lang/String;
 
     invoke-direct {p0, v3, v4}, Lcom/commsource/camera/xcamera/util/e;->k(ZLjava/lang/String;)Lcom/commsource/camera/param/MakeupParam;
@@ -2630,14 +2423,12 @@
 
     invoke-virtual {v1, v4}, Lcom/meitu/template/bean/k;->t(Lcom/commsource/camera/param/MakeupParam;)V
 
-    .line 11
     invoke-direct {p0, v2, v3}, Lcom/commsource/camera/xcamera/util/e;->o(Lcom/commsource/camera/lookwheel/StyleEffectDegree;Z)Ljava/util/HashMap;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Lcom/meitu/template/bean/k;->y(Ljava/util/HashMap;)V
 
-    .line 12
     invoke-virtual {v1}, Lcom/meitu/template/bean/k;->e()Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     move-result-object v3
@@ -2648,14 +2439,12 @@
 
     invoke-virtual {v1, v3}, Lcom/meitu/template/bean/k;->x(Landroid/util/SparseArray;)V
 
-    .line 13
     invoke-virtual {v1}, Lcom/meitu/template/bean/k;->k()Landroid/util/SparseArray;
 
     move-result-object v3
 
     if-eqz v3, :cond_2
 
-    .line 14
     invoke-virtual {v1}, Lcom/meitu/template/bean/k;->l()Ljava/util/HashMap;
 
     move-result-object v4
@@ -2670,7 +2459,6 @@
 
     invoke-virtual {v4, v3}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
-    .line 15
     :cond_2
     iget v2, v2, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupWholeValue:F
 
@@ -2684,15 +2472,12 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/k;->v(I)V
 
-    .line 16
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/LookMaterial;->setEffectBean(Lcom/meitu/template/bean/k;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 18
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2728,14 +2513,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/k;->f()Lcom/commsource/camera/param/MakeupParam;
 
     move-result-object v2
@@ -2744,14 +2527,12 @@
 
     const/16 v3, 0x92
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/k;->l()Ljava/util/HashMap;
 
@@ -2759,10 +2540,8 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/k;->c()Lcom/commsource/camera/param/MakeupParam;
 
@@ -2772,14 +2551,12 @@
 
     const/16 v2, 0x95
 
-    .line 7
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

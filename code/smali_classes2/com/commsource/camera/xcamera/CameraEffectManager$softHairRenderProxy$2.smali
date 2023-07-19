@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/newrender/renderproxy/u;
 
     invoke-direct {v1}, Lcom/commsource/camera/newrender/renderproxy/u;-><init>()V
@@ -88,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/CameraEffectManager$softHairRenderProxy$2;->invoke()Lcom/commsource/camera/newrender/renderproxy/u;
 
     move-result-object v1

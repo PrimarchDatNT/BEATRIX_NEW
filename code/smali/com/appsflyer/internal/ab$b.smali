@@ -62,7 +62,6 @@
 .method static synthetic $$a(Lcom/appsflyer/internal/ab$b;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/appsflyer/internal/ab$b;->urlString:Ljava/lang/String;
 
     return-object p0
@@ -71,7 +70,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/appsflyer/internal/ab$b;
 
     const-string v1, "ADOBE_AIR"
@@ -86,7 +84,6 @@
 
     sput-object v0, Lcom/appsflyer/internal/ab$b;->$$b:Lcom/appsflyer/internal/ab$b;
 
-    .line 2
     new-instance v0, Lcom/appsflyer/internal/ab$b;
 
     const-string v1, "ADOBE_MOBILE_SDK"
@@ -101,7 +98,6 @@
 
     sput-object v0, Lcom/appsflyer/internal/ab$b;->values:Lcom/appsflyer/internal/ab$b;
 
-    .line 3
     new-instance v0, Lcom/appsflyer/internal/ab$b;
 
     const-string v1, "COCOS2DX"
@@ -116,7 +112,6 @@
 
     sput-object v0, Lcom/appsflyer/internal/ab$b;->valueOf:Lcom/appsflyer/internal/ab$b;
 
-    .line 4
     new-instance v0, Lcom/appsflyer/internal/ab$b;
 
     const-string v1, "CORDOVA"
@@ -131,7 +126,6 @@
 
     sput-object v0, Lcom/appsflyer/internal/ab$b;->$$a:Lcom/appsflyer/internal/ab$b;
 
-    .line 5
     new-instance v0, Lcom/appsflyer/internal/ab$b;
 
     const-string v1, "DEFAULT"
@@ -144,7 +138,6 @@
 
     sput-object v0, Lcom/appsflyer/internal/ab$b;->AFDateFormat:Lcom/appsflyer/internal/ab$b;
 
-    .line 6
     new-instance v1, Lcom/appsflyer/internal/ab$b;
 
     const-string v7, "FLUTTER"
@@ -159,7 +152,6 @@
 
     sput-object v1, Lcom/appsflyer/internal/ab$b;->getInstance:Lcom/appsflyer/internal/ab$b;
 
-    .line 7
     new-instance v1, Lcom/appsflyer/internal/ab$b;
 
     const-string v7, "M_PARTICLE"
@@ -174,7 +166,6 @@
 
     sput-object v1, Lcom/appsflyer/internal/ab$b;->collectIntentsFromActivities:Lcom/appsflyer/internal/ab$b;
 
-    .line 8
     new-instance v1, Lcom/appsflyer/internal/ab$b;
 
     const-string v7, "NATIVE_SCRIPT"
@@ -189,7 +180,6 @@
 
     sput-object v1, Lcom/appsflyer/internal/ab$b;->getDataFormatter:Lcom/appsflyer/internal/ab$b;
 
-    .line 9
     new-instance v1, Lcom/appsflyer/internal/ab$b;
 
     const-string v7, "REACT_NATIVE"
@@ -204,7 +194,6 @@
 
     sput-object v1, Lcom/appsflyer/internal/ab$b;->AFDeepLinkManager:Lcom/appsflyer/internal/ab$b;
 
-    .line 10
     new-instance v1, Lcom/appsflyer/internal/ab$b;
 
     const-string v7, "SEGMENT"
@@ -219,7 +208,6 @@
 
     sput-object v1, Lcom/appsflyer/internal/ab$b;->dateFormatUTC:Lcom/appsflyer/internal/ab$b;
 
-    .line 11
     new-instance v1, Lcom/appsflyer/internal/ab$b;
 
     const-string v7, "UNITY"
@@ -234,7 +222,6 @@
 
     sput-object v1, Lcom/appsflyer/internal/ab$b;->context:Lcom/appsflyer/internal/ab$b;
 
-    .line 12
     new-instance v1, Lcom/appsflyer/internal/ab$b;
 
     const-string v7, "UNREAL_ENGINE"
@@ -249,7 +236,6 @@
 
     sput-object v1, Lcom/appsflyer/internal/ab$b;->getRequestListener:Lcom/appsflyer/internal/ab$b;
 
-    .line 13
     new-instance v1, Lcom/appsflyer/internal/ab$b;
 
     const-string v7, "XAMARIN"
@@ -268,7 +254,6 @@
 
     new-array v7, v7, [Lcom/appsflyer/internal/ab$b;
 
-    .line 14
     sget-object v14, Lcom/appsflyer/internal/ab$b;->$$b:Lcom/appsflyer/internal/ab$b;
 
     aput-object v14, v7, v2
@@ -337,13 +322,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/appsflyer/internal/ab$b;->urlString:Ljava/lang/String;
 
-    .line 3
     iput-object p4, p0, Lcom/appsflyer/internal/ab$b;->requestListener:Ljava/lang/String;
 
     return-void
@@ -352,7 +334,6 @@
 .method static synthetic AFDateFormat(Lcom/appsflyer/internal/ab$b;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/appsflyer/internal/ab$b;->requestListener:Ljava/lang/String;
 
     return-object p0
@@ -361,7 +342,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/appsflyer/internal/ab$b;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/appsflyer/internal/ab$b;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -376,7 +356,6 @@
 .method public static values()[Lcom/appsflyer/internal/ab$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/appsflyer/internal/ab$b;->key:[Lcom/appsflyer/internal/ab$b;
 
     invoke-virtual {v0}, [Lcom/appsflyer/internal/ab$b;->clone()Ljava/lang/Object;

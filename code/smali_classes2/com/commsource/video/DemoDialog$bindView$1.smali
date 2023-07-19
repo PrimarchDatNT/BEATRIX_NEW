@@ -46,7 +46,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$1;->a:Lcom/commsource/video/DemoDialog;
 
     invoke-virtual {v0}, Lcom/commsource/video/DemoDialog;->Q()Z
@@ -55,12 +54,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$1;->a:Lcom/commsource/video/DemoDialog;
 
@@ -68,7 +65,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/video/DemoDialog;->V(Z)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$1;->a:Lcom/commsource/video/DemoDialog;
 
     invoke-virtual {v0}, Lcom/commsource/video/DemoDialog;->L()Lcom/commsource/camera/f1/l;
@@ -79,7 +75,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$1;->a:Lcom/commsource/video/DemoDialog;
 
@@ -95,7 +90,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$1;->a:Lcom/commsource/video/DemoDialog;
 
     invoke-virtual {v0}, Lcom/commsource/video/DemoDialog;->M()Lcom/commsource/camera/f1/n;
@@ -110,7 +104,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/video/DemoDialog$bindView$1;->a:Lcom/commsource/video/DemoDialog;
 
     invoke-virtual {v0}, Lcom/commsource/video/DemoDialog;->O()Lcom/commsource/camera/f1/n;
@@ -125,7 +118,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 8
     sget-object v0, Lcom/commsource/video/XPlayer;->f:Lcom/commsource/video/XPlayer;
 
     iget-object v1, p0, Lcom/commsource/video/DemoDialog$bindView$1;->a:Lcom/commsource/video/DemoDialog;
@@ -148,7 +140,6 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/commsource/video/XPlayer;->c(Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lcotlin/jvm/u/a;)V
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

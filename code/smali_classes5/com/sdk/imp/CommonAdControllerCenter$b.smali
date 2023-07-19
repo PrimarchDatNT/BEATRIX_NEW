@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/CommonAdControllerCenter;Ljava/util/List;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/CommonAdControllerCenter$b;->b:Lcom/sdk/imp/CommonAdControllerCenter;
 
     iput-object p2, p0, Lcom/sdk/imp/CommonAdControllerCenter$b;->a:Ljava/util/List;
@@ -42,7 +41,6 @@
 .method public a(Ljava/lang/String;Lcom/sdk/api/InternalAdError;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/CommonAdControllerCenter$b;->b:Lcom/sdk/imp/CommonAdControllerCenter;
 
     iget-object p2, p0, Lcom/sdk/imp/CommonAdControllerCenter$b;->a:Ljava/util/List;
@@ -55,12 +53,10 @@
 .method public b(Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/CommonAdControllerCenter$b;->b:Lcom/sdk/imp/CommonAdControllerCenter;
 
     invoke-static {p1}, Lcom/sdk/imp/CommonAdControllerCenter;->a(Lcom/sdk/imp/CommonAdControllerCenter;)I
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/CommonAdControllerCenter$b;->b:Lcom/sdk/imp/CommonAdControllerCenter;
 
     iget-object p2, p0, Lcom/sdk/imp/CommonAdControllerCenter$b;->a:Ljava/util/List;

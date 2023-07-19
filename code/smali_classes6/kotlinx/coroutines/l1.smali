@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/j1;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
@@ -61,7 +59,6 @@
 
     throw p1
 
-    .line 2
     :cond_2
     :goto_1
     sget-object v0, Lcotlinx/coroutines/r0;->P:Lcotlinx/coroutines/r0;
@@ -74,19 +71,16 @@
 .method protected final V()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/l1;->S()Ljava/lang/Thread;
 
     move-result-object v0
 
-    .line 2
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v1
 
     if-eq v1, v0, :cond_1
 
-    .line 3
     invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v1

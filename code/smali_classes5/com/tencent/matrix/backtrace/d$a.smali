@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/tencent/matrix/backtrace/d;Landroid/os/CancellationSignal;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/backtrace/d$a;->b:Lcom/tencent/matrix/backtrace/d;
 
     iput-object p2, p0, Lcom/tencent/matrix/backtrace/d$a;->a:Landroid/os/CancellationSignal;
@@ -50,12 +49,10 @@
 
     const-string v3, "Going to warm up."
 
-    .line 1
     invoke-static {v2, v3, v1}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     new-instance v3, Ljava/io/File;
 
@@ -81,10 +78,8 @@
 
     new-array v4, v0, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {v2, v3, v4}, Lcom/tencent/matrix/util/b;->h(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 4
     iget-object v3, p0, Lcom/tencent/matrix/backtrace/d$a;->b:Lcom/tencent/matrix/backtrace/d;
 
     invoke-static {v3}, Lcom/tencent/matrix/backtrace/d;->b(Lcom/tencent/matrix/backtrace/d;)Lcom/tencent/matrix/backtrace/WarmUpScheduler;
@@ -97,7 +92,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     iget-object v3, p0, Lcom/tencent/matrix/backtrace/d$a;->b:Lcom/tencent/matrix/backtrace/d;
 
@@ -111,7 +105,6 @@
 
     new-array v4, v0, [Ljava/lang/Object;
 
-    .line 6
     invoke-static {v2, v3, v4}, Lcom/tencent/matrix/util/b;->h(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_0
     .catch Landroid/os/OperationCanceledException; {:try_start_0 .. :try_end_0} :catch_0
@@ -119,7 +112,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d$a;->b:Lcom/tencent/matrix/backtrace/d;
 
     invoke-static {v0, v1}, Lcom/tencent/matrix/backtrace/d;->f(Lcom/tencent/matrix/backtrace/d;Lcom/tencent/matrix/backtrace/e;)V
@@ -127,7 +119,6 @@
     :cond_1
     return-void
 
-    .line 8
     :cond_2
     :try_start_1
     iget-object v3, p0, Lcom/tencent/matrix/backtrace/d$a;->b:Lcom/tencent/matrix/backtrace/d;
@@ -155,12 +146,10 @@
 
     check-cast v4, Ljava/lang/String;
 
-    .line 9
     new-instance v5, Ljava/io/File;
 
     invoke-direct {v5, v4}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 10
     iget-object v4, p0, Lcom/tencent/matrix/backtrace/d$a;->a:Landroid/os/CancellationSignal;
 
     new-instance v6, Lcom/tencent/matrix/backtrace/d$a$a;
@@ -187,14 +176,12 @@
 
     new-array v5, v0, [Ljava/lang/Object;
 
-    .line 11
     invoke-static {v2, v3, v4, v5}, Lcom/tencent/matrix/util/b;->e(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
     if-eqz v1, :cond_4
 
-    .line 12
     :goto_1
     iget-object v3, p0, Lcom/tencent/matrix/backtrace/d$a;->b:Lcom/tencent/matrix/backtrace/d;
 
@@ -214,7 +201,6 @@
 
     invoke-static {v2, v1}, Lcom/tencent/matrix/backtrace/d;->f(Lcom/tencent/matrix/backtrace/d;Lcom/tencent/matrix/backtrace/e;)V
 
-    .line 13
     :cond_5
     throw v0
 
@@ -225,7 +211,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 14
     iget-object v4, p0, Lcom/tencent/matrix/backtrace/d$a;->b:Lcom/tencent/matrix/backtrace/d;
 
     invoke-static {v4, v1}, Lcom/tencent/matrix/backtrace/d;->f(Lcom/tencent/matrix/backtrace/d;Lcom/tencent/matrix/backtrace/e;)V
@@ -234,7 +219,6 @@
     :goto_2
     if-nez v3, :cond_7
 
-    .line 15
     iget-object v1, p0, Lcom/tencent/matrix/backtrace/d$a;->b:Lcom/tencent/matrix/backtrace/d;
 
     invoke-static {v1}, Lcom/tencent/matrix/backtrace/d;->b(Lcom/tencent/matrix/backtrace/d;)Lcom/tencent/matrix/backtrace/WarmUpScheduler;
@@ -245,7 +229,6 @@
 
     invoke-virtual {v1, v3}, Lcom/tencent/matrix/backtrace/WarmUpScheduler;->f(Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;)V
 
-    .line 16
     iget-object v1, p0, Lcom/tencent/matrix/backtrace/d$a;->b:Lcom/tencent/matrix/backtrace/d;
 
     invoke-static {v1}, Lcom/tencent/matrix/backtrace/d;->a(Lcom/tencent/matrix/backtrace/d;)Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;
@@ -260,7 +243,6 @@
 
     const-string v1, "Warm-up done."
 
-    .line 17
     invoke-static {v2, v1, v0}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_3
@@ -270,7 +252,6 @@
 
     const-string v1, "Warm-up cancelled."
 
-    .line 18
     invoke-static {v2, v1, v0}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :goto_3

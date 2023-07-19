@@ -56,7 +56,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     new-instance p1, Lcom/commsource/camera/xcamera/cover/window/H5Cover$c$a;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$c$a;-><init>(Lcom/commsource/camera/xcamera/cover/window/H5Cover$c;)V
@@ -67,7 +66,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$c;->a:Lcom/commsource/camera/xcamera/cover/window/H5Cover;
 
@@ -75,7 +73,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->X(Z)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -89,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$c;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V

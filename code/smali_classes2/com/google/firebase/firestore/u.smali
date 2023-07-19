@@ -32,10 +32,8 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1, p2}, Ljava/lang/Double;->isNaN(D)Z
 
     move-result v0
@@ -54,7 +52,6 @@
 
     if-gtz v2, :cond_1
 
-    .line 3
     invoke-static {p3, p4}, Ljava/lang/Double;->isNaN(D)Z
 
     move-result v0
@@ -73,15 +70,12 @@
 
     if-gtz v2, :cond_0
 
-    .line 4
     iput-wide p1, p0, Lcom/google/firebase/firestore/u;->a:D
 
-    .line 5
     iput-wide p3, p0, Lcom/google/firebase/firestore/u;->b:D
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -91,7 +85,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -113,7 +106,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/u;->a:D
 
     iget-wide v2, p1, Lcom/google/firebase/firestore/u;->a:D
@@ -124,7 +116,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-wide v0, p0, Lcom/google/firebase/firestore/u;->b:D
 
     iget-wide v2, p1, Lcom/google/firebase/firestore/u;->b:D
@@ -148,7 +139,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/firebase/firestore/u;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/u;->a(Lcom/google/firebase/firestore/u;)I
@@ -165,7 +155,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/u;
 
     const/4 v1, 0x0
@@ -174,11 +163,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/firebase/firestore/u;
 
-    .line 3
     iget-wide v2, p0, Lcom/google/firebase/firestore/u;->a:D
 
     iget-wide v4, p1, Lcom/google/firebase/firestore/u;->a:D
@@ -206,7 +193,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/u;->a:D
 
     return-wide v0
@@ -217,7 +203,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/u;->b:D
 
     return-wide v0
@@ -226,7 +211,6 @@
 .method public hashCode()I
     .locals 7
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/u;->a:D
 
     invoke-static {v0, v1}, Ljava/lang/Double;->doubleToLongBits(D)J
@@ -241,7 +225,6 @@
 
     long-to-int v1, v0
 
-    .line 2
     iget-wide v3, p0, Lcom/google/firebase/firestore/u;->b:D
 
     invoke-static {v3, v4}, Ljava/lang/Double;->doubleToLongBits(D)J
@@ -266,7 +249,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

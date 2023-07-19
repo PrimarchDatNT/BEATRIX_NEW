@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$a;Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$Model;Lf/k/m/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$a$a;->c:Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$a;
 
     iput-object p2, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$a$a;->a:Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$Model;
@@ -50,19 +49,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$a$a;->a:Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$Model;
 
     iget-object v2, v2, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$Model;->materialIds:[Ljava/lang/String;
 
     invoke-static {v1, v2}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$a$a;->b:Lf/k/m/d;
 
     iget-object v3, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$a$a;->c:Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$a;
@@ -99,7 +95,6 @@
 
     invoke-interface {v2, v3, v1, v4}, Lf/k/m/d;->j(Landroid/app/Activity;Ljava/util/List;Lf/k/m/d$a;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

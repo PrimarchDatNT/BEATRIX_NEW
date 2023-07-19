@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 
     goto/16 :goto_3
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Lcom/google/android/gms/ads/e;->s()Z
 
@@ -49,7 +47,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
@@ -60,7 +57,6 @@
 
     iget v1, v1, Landroid/util/DisplayMetrics;->density:F
 
-    .line 3
     invoke-virtual {p1, p0}, Lcom/google/android/gms/ads/e;->m(Landroid/content/Context;)I
 
     move-result v2
@@ -73,7 +69,6 @@
 
     move-result v2
 
-    .line 4
     invoke-virtual {p1, p0}, Lcom/google/android/gms/ads/e;->e(Landroid/content/Context;)I
 
     move-result p0
@@ -86,12 +81,10 @@
 
     move-result p0
 
-    .line 5
     new-instance p1, Lcom/google/android/gms/ads/e;
 
     invoke-direct {p1, v2, p0}, Lcom/google/android/gms/ads/e;-><init>(II)V
 
-    .line 6
     :cond_1
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -117,23 +110,19 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     invoke-virtual {p1}, Lcom/google/android/gms/ads/e;->l()I
 
     move-result v2
 
-    .line 8
     invoke-virtual {p2}, Lcom/google/android/gms/ads/e;->l()I
 
     move-result v3
 
-    .line 9
     invoke-virtual {p1}, Lcom/google/android/gms/ads/e;->d()I
 
     move-result v4
 
-    .line 10
     invoke-virtual {p2}, Lcom/google/android/gms/ads/e;->d()I
 
     move-result v5
@@ -154,7 +143,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_4
     invoke-virtual {p1}, Lcom/google/android/gms/ads/e;->s()Z
 
@@ -162,7 +150,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 12
     invoke-virtual {p1}, Lcom/google/android/gms/ads/e;->t()I
 
     move-result v2
@@ -199,7 +186,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_8
     invoke-virtual {v0}, Lcom/google/android/gms/ads/e;->l()I
 
@@ -211,7 +197,6 @@
 
     mul-int v1, v1, v2
 
-    .line 14
     invoke-virtual {p2}, Lcom/google/android/gms/ads/e;->l()I
 
     move-result v2

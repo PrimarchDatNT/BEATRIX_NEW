@@ -60,23 +60,18 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->K:Landroid/content/Context;
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/studio/layer/BaseLayer;->a:Z
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/studio/layer/BaseLayer;->b:Z
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/studio/layer/BaseLayer;->c:Z
 
-    .line 5
     new-instance p1, Lcom/commsource/studio/layer/BaseLayer$layerView$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/BaseLayer$layerView$2;-><init>(Lcom/commsource/studio/layer/BaseLayer;)V
@@ -87,7 +82,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->g:Lcotlin/w;
 
-    .line 6
     new-instance p1, Lcom/commsource/studio/layer/BaseLayer$gestureListener$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/BaseLayer$gestureListener$2;-><init>(Lcom/commsource/studio/layer/BaseLayer;)V
@@ -98,7 +92,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->p:Lcotlin/w;
 
-    .line 7
     new-instance p1, Landroidx/lifecycle/ViewModelProvider;
 
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->K:Landroid/content/Context;
@@ -142,7 +135,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->K:Landroid/content/Context;
 
     return-object v0
@@ -151,7 +143,6 @@
 .method public B()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/layer/BaseLayer;->b:Z
 
     return v0
@@ -176,7 +167,6 @@
 .method public final D()F
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -198,7 +188,6 @@
 .method public final E()F
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -238,7 +227,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     return-object v0
@@ -247,7 +235,6 @@
 .method public H()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/layer/BaseLayer;->c:Z
 
     return v0
@@ -256,7 +243,6 @@
 .method public final I()F
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -276,7 +262,6 @@
 .method public final J()F
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     const-string v1, "canvasContainer"
@@ -309,7 +294,6 @@
 .method public final K()F
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -331,7 +315,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -351,7 +334,6 @@
 .method public final M()F
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -371,7 +353,6 @@
 .method public final N()F
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -391,7 +372,6 @@
 .method public final O()F
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     const-string v1, "canvasContainer"
@@ -424,7 +404,6 @@
 .method public final P(FF)Z
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
 
     move-result v0
@@ -465,7 +444,6 @@
 .method public Q()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/layer/BaseLayer;->a:Z
 
     return v0
@@ -474,7 +452,6 @@
 .method public R()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/layer/BaseLayer;->d:Z
 
     return v0
@@ -483,7 +460,6 @@
 .method public final S(F)F
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->u()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v0
@@ -518,7 +494,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->u()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v0
@@ -529,7 +504,6 @@
 
     invoke-virtual {v0, p1}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v0
@@ -554,7 +528,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->u()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v0
@@ -567,7 +540,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     aget v1, p1, v0
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->K()F
@@ -580,7 +552,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     aget v1, p1, v0
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->N()F
@@ -607,7 +578,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     aget v1, p1, v0
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -624,7 +594,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     aget v1, p1, v0
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -655,7 +624,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     aget v1, p1, v0
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->K()F
@@ -668,7 +636,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     aget v1, p1, v0
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->N()F
@@ -679,7 +646,6 @@
 
     aput v1, p1, v0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->u()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v0
@@ -716,7 +682,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/layer/BaseLayer$b;
 
     invoke-direct {v0, p0, p1}, Lcom/commsource/studio/layer/BaseLayer$b;-><init>(Lcom/commsource/studio/layer/BaseLayer;Lcom/commsource/studio/MatrixBox;)V
@@ -737,7 +702,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/i$c;
 
     invoke-direct {v0}, Lcom/commsource/studio/i$c;-><init>()V
@@ -781,7 +745,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -824,14 +787,12 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/view/View;->invalidate()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -857,7 +818,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     return-void
@@ -874,7 +834,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->K:Landroid/content/Context;
 
     return-void
@@ -883,13 +842,10 @@
 .method public j0(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/BaseLayer;->a:Z
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->k0(Z)V
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->n0(Z)V
 
     return-void
@@ -898,10 +854,8 @@
 .method public k0(Z)V
     .locals 1
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/BaseLayer;->b:Z
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->C()Lcom/commsource/studio/i$c;
 
     move-result-object v0
@@ -914,7 +868,6 @@
 .method public l0(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/BaseLayer;->d:Z
 
     return-void
@@ -931,10 +884,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1, p0}, Lcom/commsource/studio/layer/BaseLayer$a;->g(Lcom/commsource/studio/layer/BaseLayer;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->C()Lcom/commsource/studio/i$c;
 
     move-result-object v0
@@ -955,7 +906,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->J:Lcom/commsource/studio/ImageStudioViewModel;
 
     return-void
@@ -966,7 +916,6 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -978,7 +927,6 @@
     :cond_0
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->invalidate()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v0
@@ -991,19 +939,16 @@
 .method public n0(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/BaseLayer;->c:Z
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->Q()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
@@ -1012,7 +957,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
@@ -1030,7 +974,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -1046,7 +989,6 @@
 .method public final q()F
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -1070,7 +1012,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -1090,7 +1031,6 @@
 .method public final s()F
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -1112,7 +1052,6 @@
 .method public final t()F
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     const-string v1, "canvasContainer"
@@ -1147,7 +1086,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -1169,7 +1107,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->z()F
@@ -1190,7 +1127,6 @@
 .method public final y()F
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v0, :cond_0
@@ -1214,7 +1150,6 @@
 .method public final z()F
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
 
     const-string v1, "canvasContainer"

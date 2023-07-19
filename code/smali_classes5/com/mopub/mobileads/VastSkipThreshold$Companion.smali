@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/mobileads/VastSkipThreshold$Companion;-><init>()V
 
     return-void
@@ -73,20 +71,16 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/VastSkipThreshold;
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/VastSkipThreshold$Companion;->getDefaultSkipMinSecs(Z)I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/VastSkipThreshold$Companion;->getDefaultSkipAfterSecs(Z)I
 
     move-result p1
 
-    .line 4
     invoke-direct {v0, v1, p1}, Lcom/mopub/mobileads/VastSkipThreshold;-><init>(II)V
 
     return-object v0

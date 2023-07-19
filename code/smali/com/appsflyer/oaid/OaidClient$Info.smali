@@ -26,7 +26,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-direct {p0, p1, v0}, Lcom/appsflyer/oaid/OaidClient$Info;-><init>(Ljava/lang/String;Ljava/lang/Boolean;)V
 
     return-void
@@ -37,13 +36,10 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/appsflyer/oaid/OaidClient$Info;->id:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/appsflyer/oaid/OaidClient$Info;->lat:Ljava/lang/Boolean;
 
     return-void
@@ -54,7 +50,6 @@
 .method public getId()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/oaid/OaidClient$Info;->id:Ljava/lang/String;
 
     return-object v0
@@ -65,7 +60,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/oaid/OaidClient$Info;->lat:Ljava/lang/Boolean;
 
     return-object v0

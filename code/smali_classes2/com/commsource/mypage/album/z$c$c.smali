@@ -32,7 +32,6 @@
 .method constructor <init>(Lcom/commsource/mypage/album/z$c;Lcom/commsource/cloudalbum/bean/CAImageInfo;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/z$c$c;->f:Lcom/commsource/mypage/album/z$c;
 
     iput-object p2, p0, Lcom/commsource/mypage/album/z$c$c;->d:Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -51,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/mypage/album/z$c$c;->c(Landroid/graphics/Bitmap;Lcom/bumptech/glide/request/k/f;)V
@@ -78,7 +76,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/album/z$c$c;->f:Lcom/commsource/mypage/album/z$c;
 
     iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -93,7 +90,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/album/z$c$c;->f:Lcom/commsource/mypage/album/z$c;
 
     iget-object v1, v1, Lcom/commsource/mypage/album/z$c;->e:Lcom/commsource/mypage/album/z;
@@ -126,7 +122,6 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/album/z$c$c;->d:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     iget-object v2, p0, Lcom/commsource/mypage/album/z$c$c;->f:Lcom/commsource/mypage/album/z$c;
@@ -151,7 +146,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/mypage/album/z$c$c;->f:Lcom/commsource/mypage/album/z$c;
 
     iget-object v0, v0, Lcom/commsource/mypage/album/z$c;->b:Lcom/commsource/beautyplus/f0/gh;
@@ -160,7 +154,6 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 5
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

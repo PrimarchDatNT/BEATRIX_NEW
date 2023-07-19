@@ -126,40 +126,28 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {p5}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {p6}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 7
     iput-object p1, p0, Lcom/mopub/common/SdkConfiguration;->mAdUnitId:Ljava/lang/String;
 
-    .line 8
     iput-object p2, p0, Lcom/mopub/common/SdkConfiguration;->mAdapterConfigurationClasses:Ljava/util/Set;
 
-    .line 9
     iput-object p3, p0, Lcom/mopub/common/SdkConfiguration;->mMediationSettings:[Lcom/mopub/common/MediationSettings;
 
-    .line 10
     iput-object p4, p0, Lcom/mopub/common/SdkConfiguration;->mLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 11
     iput-object p5, p0, Lcom/mopub/common/SdkConfiguration;->mMediatedNetworkConfigurations:Ljava/util/Map;
 
-    .line 12
     iput-object p6, p0, Lcom/mopub/common/SdkConfiguration;->mMoPubRequestOptions:Ljava/util/Map;
 
-    .line 13
     iput-boolean p7, p0, Lcom/mopub/common/SdkConfiguration;->mLegitimateInterestAllowed:Z
 
     return-void
@@ -168,7 +156,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Ljava/util/Set;[Lcom/mopub/common/MediationSettings;Lcom/mopub/common/logging/MoPubLog$LogLevel;Ljava/util/Map;Ljava/util/Map;ZLcom/mopub/common/SdkConfiguration$1;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p7}, Lcom/mopub/common/SdkConfiguration;-><init>(Ljava/lang/String;Ljava/util/Set;[Lcom/mopub/common/MediationSettings;Lcom/mopub/common/logging/MoPubLog$LogLevel;Ljava/util/Map;Ljava/util/Map;Z)V
 
     return-void
@@ -181,7 +168,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/SdkConfiguration;->mAdUnitId:Ljava/lang/String;
 
     return-object v0
@@ -201,7 +187,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/SdkConfiguration;->mAdapterConfigurationClasses:Ljava/util/Set;
 
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
@@ -214,7 +199,6 @@
 .method public getLegitimateInterestAllowed()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/common/SdkConfiguration;->mLegitimateInterestAllowed:Z
 
     return v0
@@ -225,7 +209,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/SdkConfiguration;->mLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     return-object v0
@@ -245,7 +228,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/SdkConfiguration;->mMediatedNetworkConfigurations:Ljava/util/Map;
 
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
@@ -260,7 +242,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/SdkConfiguration;->mMediationSettings:[Lcom/mopub/common/MediationSettings;
 
     array-length v1, v0
@@ -291,7 +272,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/SdkConfiguration;->mMoPubRequestOptions:Ljava/util/Map;
 
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;

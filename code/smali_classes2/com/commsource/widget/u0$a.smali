@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/widget/u0;Lcom/commsource/widget/u0$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/u0$a;->b:Lcom/commsource/widget/u0;
 
     iput-object p2, p0, Lcom/commsource/widget/u0$a;->a:Lcom/commsource/widget/u0$e;
@@ -43,21 +42,18 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/u0$a;->b:Lcom/commsource/widget/u0;
 
     iget-boolean v1, v0, Lcom/commsource/widget/u0;->L:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/u0$a;->a:Lcom/commsource/widget/u0$e;
 
     invoke-virtual {v0, p1, v1}, Lcom/commsource/widget/u0;->a(FLcom/commsource/widget/u0$e;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/u0$a;->a:Lcom/commsource/widget/u0$e;
 
@@ -65,28 +61,24 @@
 
     move-result v0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/u0$a;->a:Lcom/commsource/widget/u0$e;
 
     invoke-virtual {v1}, Lcom/commsource/widget/u0$e;->k()F
 
     move-result v1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/widget/u0$a;->a:Lcom/commsource/widget/u0$e;
 
     invoke-virtual {v2}, Lcom/commsource/widget/u0$e;->m()F
 
     move-result v2
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/widget/u0$a;->a:Lcom/commsource/widget/u0$e;
 
     invoke-virtual {v3}, Lcom/commsource/widget/u0$e;->l()F
 
     move-result v3
 
-    .line 7
     iget-object v4, p0, Lcom/commsource/widget/u0$a;->b:Lcom/commsource/widget/u0;
 
     iget-object v5, p0, Lcom/commsource/widget/u0$a;->a:Lcom/commsource/widget/u0$e;
@@ -105,10 +97,8 @@
 
     sub-float v7, v4, v0
 
-    .line 8
     sget-object v8, Lcom/commsource/widget/u0;->O:Landroid/view/animation/Interpolator;
 
-    .line 9
     invoke-interface {v8, v6}, Landroid/view/animation/Interpolator;->getInterpolation(F)F
 
     move-result v6
@@ -117,7 +107,6 @@
 
     add-float/2addr v2, v7
 
-    .line 10
     iget-object v6, p0, Lcom/commsource/widget/u0$a;->a:Lcom/commsource/widget/u0$e;
 
     invoke-virtual {v6, v2}, Lcom/commsource/widget/u0$e;->D(F)V
@@ -133,10 +122,8 @@
 
     div-float/2addr v0, v5
 
-    .line 11
     sget-object v2, Lcom/commsource/widget/u0;->O:Landroid/view/animation/Interpolator;
 
-    .line 12
     invoke-interface {v2, v0}, Landroid/view/animation/Interpolator;->getInterpolation(F)F
 
     move-result v0
@@ -145,7 +132,6 @@
 
     add-float/2addr v1, v4
 
-    .line 13
     iget-object v0, p0, Lcom/commsource/widget/u0$a;->a:Lcom/commsource/widget/u0$e;
 
     invoke-virtual {v0, v1}, Lcom/commsource/widget/u0$e;->z(F)V
@@ -157,7 +143,6 @@
 
     add-float/2addr v3, v0
 
-    .line 14
     iget-object v0, p0, Lcom/commsource/widget/u0$a;->a:Lcom/commsource/widget/u0$e;
 
     invoke-virtual {v0, v3}, Lcom/commsource/widget/u0$e;->B(F)V
@@ -168,7 +153,6 @@
 
     const/high16 v0, 0x44870000    # 1080.0f
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/widget/u0$a;->b:Lcom/commsource/widget/u0;
 
     iget v2, v1, Lcom/commsource/widget/u0;->p:F
@@ -181,10 +165,8 @@
 
     add-float/2addr p1, v2
 
-    .line 16
     invoke-virtual {v1, p1}, Lcom/commsource/widget/u0;->h(F)V
 
-    .line 17
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

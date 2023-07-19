@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/airbnb/lottie/LottieAnimationView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/LottieAnimationView$c;->a:Lcom/airbnb/lottie/LottieAnimationView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,7 +46,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/LottieAnimationView$c;->b(Ljava/lang/Throwable;)V
@@ -58,7 +56,6 @@
 .method public b(Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView$c;->a:Lcom/airbnb/lottie/LottieAnimationView;
 
     invoke-static {v0}, Lcom/airbnb/lottie/LottieAnimationView;->a(Lcom/airbnb/lottie/LottieAnimationView;)I
@@ -67,7 +64,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView$c;->a:Lcom/airbnb/lottie/LottieAnimationView;
 
     invoke-static {v0}, Lcom/airbnb/lottie/LottieAnimationView;->a(Lcom/airbnb/lottie/LottieAnimationView;)I
@@ -76,7 +72,6 @@
 
     invoke-virtual {v0, v1}, Lcom/airbnb/lottie/LottieAnimationView;->setImageResource(I)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView$c;->a:Lcom/airbnb/lottie/LottieAnimationView;
 
@@ -99,7 +94,6 @@
 
     move-result-object v0
 
-    .line 4
     :goto_0
     invoke-interface {v0, p1}, Lcom/airbnb/lottie/l;->a(Ljava/lang/Object;)V
 

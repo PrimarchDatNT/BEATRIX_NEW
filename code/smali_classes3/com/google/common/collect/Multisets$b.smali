@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/m1;Lcom/google/common/collect/m1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Multisets$b;->a:Lcom/google/common/collect/m1;
 
     iput-object p2, p0, Lcom/google/common/collect/Multisets$b;->b:Lcom/google/common/collect/m1;
@@ -48,7 +47,6 @@
 .method public count(Ljava/lang/Object;)I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multisets$b;->a:Lcom/google/common/collect/m1;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/m1;->count(Ljava/lang/Object;)I
@@ -61,7 +59,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/google/common/collect/Multisets$b;->b:Lcom/google/common/collect/m1;
 
@@ -87,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multisets$b;->a:Lcom/google/common/collect/m1;
 
     invoke-interface {v0}, Lcom/google/common/collect/m1;->elementSet()Ljava/util/Set;
@@ -117,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/AssertionError;
 
     const-string v1, "should never be called"
@@ -138,7 +133,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multisets$b;->a:Lcom/google/common/collect/m1;
 
     invoke-interface {v0}, Lcom/google/common/collect/m1;->entrySet()Ljava/util/Set;
@@ -149,7 +143,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lcom/google/common/collect/Multisets$b$a;
 
     invoke-direct {v1, p0, v0}, Lcom/google/common/collect/Multisets$b$a;-><init>(Lcom/google/common/collect/Multisets$b;Ljava/util/Iterator;)V

@@ -22,10 +22,8 @@
 .method public constructor <init>(Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/internal/ads/kd2;->a:I
 
     return-void
@@ -34,12 +32,10 @@
 .method private final c()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/kd2;->b:[Landroid/media/MediaCodecInfo;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroid/media/MediaCodecList;
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/kd2;->a:I
@@ -71,7 +67,6 @@
 
     const-string p1, "secure-playback"
 
-    .line 1
     invoke-virtual {p2, p1}, Landroid/media/MediaCodecInfo$CodecCapabilities;->isFeatureSupported(Ljava/lang/String;)Z
 
     move-result p1
@@ -82,10 +77,8 @@
 .method public final getCodecCount()I
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/kd2;->c()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/kd2;->b:[Landroid/media/MediaCodecInfo;
 
     array-length v0, v0
@@ -96,10 +89,8 @@
 .method public final getCodecInfoAt(I)Landroid/media/MediaCodecInfo;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/kd2;->c()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/kd2;->b:[Landroid/media/MediaCodecInfo;
 
     aget-object p1, v0, p1

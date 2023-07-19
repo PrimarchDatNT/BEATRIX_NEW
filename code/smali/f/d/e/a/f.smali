@@ -15,7 +15,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -40,12 +39,10 @@
 
     const/4 v0, 0x0
 
-    .line 2
     sput-object v0, Lf/d/e/a/f;->x:Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
 
     const/4 v0, 0x1
 
-    .line 3
     sput-boolean v0, Lf/d/e/a/f;->y:Z
 
     return-void
@@ -54,10 +51,8 @@
 .method public constructor <init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/d/e/a/a;-><init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
 
-    .line 2
     invoke-static {}, Lf/d/e/a/f;->h()Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
 
     move-result-object p1
@@ -70,19 +65,16 @@
 .method private static h()Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
     .locals 1
 
-    .line 1
     sget-object v0, Lf/d/e/a/f;->x:Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
 
     invoke-direct {v0}, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;-><init>()V
 
     sput-object v0, Lf/d/e/a/f;->x:Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
 
-    .line 3
     :cond_0
     sget-object v0, Lf/d/e/a/f;->x:Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
 
@@ -94,23 +86,19 @@
 .method public c()Z
     .locals 6
 
-    .line 1
     iget-boolean v0, p0, Lf/d/e/a/a;->f:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-boolean v0, p0, Lf/d/e/a/a;->g:Z
 
     return v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     if-eqz v0, :cond_4
 
-    .line 4
     iget-object v1, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -141,7 +129,6 @@
 
     if-nez v3, :cond_2
 
-    .line 5
     sget-object v0, Lf/d/e/a/f;->w:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -162,18 +149,15 @@
 
     invoke-static {v0, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     :cond_2
     iget-boolean v0, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz v0, :cond_3
 
-    .line 7
     iget-object v0, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     check-cast v0, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
 
-    .line 8
     sget-object v2, Lf/d/e/a/f;->w:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -202,14 +186,11 @@
 
     invoke-static {v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     :cond_3
     iput-boolean v1, p0, Lf/d/e/a/a;->f:Z
 
-    .line 10
     sput-boolean v1, Lf/d/e/a/f;->y:Z
 
-    .line 11
     :cond_4
     iget-boolean v0, p0, Lf/d/e/a/a;->g:Z
 
@@ -219,17 +200,14 @@
 .method public f()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v1, v0, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast v0, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
 
-    .line 3
     iget-object v1, p0, Lf/d/e/a/a;->c:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     iget-object v1, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->handOption:Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
@@ -242,7 +220,6 @@
 
     iput-wide v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 4
     iget v0, v0, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;->maxHandNum:I
 
     iput v0, v1, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;->maxHandNum:I
@@ -254,7 +231,6 @@
 .method public g()Z
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const/4 v1, 0x0
@@ -267,7 +243,6 @@
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {v0, v2}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     move-result v0
@@ -279,7 +254,6 @@
     :cond_0
     if-nez v1, :cond_1
 
-    .line 3
     sget-object v0, Lf/d/e/a/f;->w:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -300,18 +274,15 @@
 
     invoke-static {v0, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     :cond_1
     iget-boolean v0, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz v0, :cond_2
 
-    .line 5
     iget-object v0, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     check-cast v0, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandOption;
 
-    .line 6
     sget-object v3, Lf/d/e/a/f;->w:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -338,11 +309,9 @@
 
     invoke-static {v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 7
     :cond_2
     iput-boolean v2, p0, Lf/d/e/a/a;->f:Z
 
-    .line 8
     sput-boolean v2, Lf/d/e/a/f;->y:Z
 
     :cond_3

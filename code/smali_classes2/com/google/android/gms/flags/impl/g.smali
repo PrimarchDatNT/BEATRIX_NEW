@@ -28,7 +28,6 @@
 .method constructor <init>(Landroid/content/SharedPreferences;Ljava/lang/String;Ljava/lang/Long;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/flags/impl/g;->a:Landroid/content/SharedPreferences;
 
     iput-object p2, p0, Lcom/google/android/gms/flags/impl/g;->b:Ljava/lang/String;
@@ -50,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/flags/impl/g;->a:Landroid/content/SharedPreferences;
 
     iget-object v1, p0, Lcom/google/android/gms/flags/impl/g;->b:Ljava/lang/String;

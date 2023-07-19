@@ -36,7 +36,6 @@
 .method public final a(Lcom/google/firebase/components/g;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/iid/Registrar$a;
 
     const-class v1, Lcom/google/firebase/iid/FirebaseInstanceId;

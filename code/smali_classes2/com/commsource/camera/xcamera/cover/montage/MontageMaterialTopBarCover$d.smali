@@ -58,7 +58,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/montage/bean/c;->v()Lcom/commsource/camera/montage/bean/c;
 
     move-result-object v1
@@ -71,7 +70,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/bean/c;->l0(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$d;->a:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -94,7 +92,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$d;->a:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->G()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -107,7 +104,6 @@
 
     invoke-virtual {v3, v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->r1(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$d;->a:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
@@ -127,10 +123,8 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->S(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$d;->a:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -147,7 +141,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/studio/component/SaveBtnComponent;->setProState(Z)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

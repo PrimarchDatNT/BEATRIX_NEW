@@ -50,17 +50,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$g$a;->a:Lcom/commsource/studio/function/RelightFragment$g;
 
     iget-object v1, v1, Lcom/commsource/studio/function/RelightFragment$g;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->I0()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

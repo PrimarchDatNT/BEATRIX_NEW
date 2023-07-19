@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/vh0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/ads/u$a;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/um0;->a:Lcom/google/android/gms/internal/ads/vh0;
 
     return-void
@@ -23,7 +21,6 @@
 .method private static a(Lcom/google/android/gms/internal/ads/vh0;)Lcom/google/android/gms/internal/ads/ep2;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/vh0;->n()Lcom/google/android/gms/internal/ads/dp2;
 
     move-result-object p0
@@ -34,7 +31,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/dp2;->f5()Lcom/google/android/gms/internal/ads/ep2;
@@ -54,7 +50,6 @@
 .method public final onVideoEnd()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/um0;->a:Lcom/google/android/gms/internal/ads/vh0;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/um0;->a(Lcom/google/android/gms/internal/ads/vh0;)Lcom/google/android/gms/internal/ads/ep2;
@@ -65,7 +60,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/ep2;->onVideoEnd()V
@@ -79,7 +73,6 @@
 
     const-string v1, "Unable to call onVideoEnd()"
 
-    .line 3
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -88,7 +81,6 @@
 .method public final onVideoPause()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/um0;->a:Lcom/google/android/gms/internal/ads/vh0;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/um0;->a(Lcom/google/android/gms/internal/ads/vh0;)Lcom/google/android/gms/internal/ads/ep2;
@@ -99,7 +91,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/ep2;->onVideoPause()V
@@ -113,7 +104,6 @@
 
     const-string v1, "Unable to call onVideoEnd()"
 
-    .line 3
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -122,7 +112,6 @@
 .method public final onVideoStart()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/um0;->a:Lcom/google/android/gms/internal/ads/vh0;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/um0;->a(Lcom/google/android/gms/internal/ads/vh0;)Lcom/google/android/gms/internal/ads/ep2;
@@ -133,7 +122,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/ep2;->onVideoStart()V
@@ -147,7 +135,6 @@
 
     const-string v1, "Unable to call onVideoEnd()"
 
-    .line 3
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

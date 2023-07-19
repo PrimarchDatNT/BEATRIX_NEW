@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mraid/MraidController;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onClose()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-virtual {v0}, Lcom/mopub/mraid/MraidController;->handleClose()V
@@ -53,7 +51,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-virtual {v0, p1}, Lcom/mopub/mraid/MraidController;->handleConsoleMessage(Landroid/webkit/ConsoleMessage;)Z
@@ -75,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-virtual {v0, p1}, Lcom/mopub/mraid/MraidController;->handleExpand(Ljava/net/URI;)V
@@ -94,7 +90,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-virtual {v0, p1, p2}, Lcom/mopub/mraid/MraidController;->handleJsAlert(Ljava/lang/String;Landroid/webkit/JsResult;)Z
@@ -111,7 +106,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-virtual {p1}, Ljava/net/URI;->toString()Ljava/lang/String;
@@ -126,7 +120,6 @@
 .method public onPageFailedToLoad()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v0}, Lcom/mopub/mraid/MraidController;->access$500(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
@@ -135,7 +128,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v0}, Lcom/mopub/mraid/MraidController;->access$600(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
@@ -153,12 +145,10 @@
 .method public onPageLoaded()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-virtual {v0}, Lcom/mopub/mraid/MraidController;->handlePageLoad()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v0}, Lcom/mopub/mraid/MraidController;->access$200(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
@@ -167,7 +157,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v0}, Lcom/mopub/mraid/MraidController;->access$400(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
@@ -193,7 +182,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-virtual {v0, p1}, Lcom/mopub/mraid/MraidController;->handleRenderProcessGone(Lcom/mopub/mobileads/MoPubErrorCode;)V
@@ -209,7 +197,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     move v1, p1
@@ -235,7 +222,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-virtual {v0, p1, p2}, Lcom/mopub/mraid/MraidController;->handleSetOrientationProperties(ZLcom/mopub/mraid/MraidOrientation;)V
@@ -246,7 +232,6 @@
 .method public onVisibilityChanged(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v0}, Lcom/mopub/mraid/MraidController;->access$700(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mraid/MraidBridge;
@@ -259,7 +244,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mraid/MraidController$4;->this$0:Lcom/mopub/mraid/MraidController;
 
     invoke-static {v0}, Lcom/mopub/mraid/MraidController;->access$800(Lcom/mopub/mraid/MraidController;)Lcom/mopub/mraid/MraidBridge;

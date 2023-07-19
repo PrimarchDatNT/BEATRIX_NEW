@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/billing/activity/SubscribeViewModel;Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$b;->b:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-direct {p0, p2}, Lcom/commsource/billing/pro/g;-><init>(Lcom/commsource/beautyplus/router/RouterEntity;)V
@@ -43,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$b;->b:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v1, p1}, Lcom/commsource/billing/activity/SubscribeViewModel;->H(Lcom/commsource/billing/activity/SubscribeViewModel;Lcom/commsource/billing/bean/subsconfig/Config;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -60,10 +60,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     new-instance v0, Lcotlin/Pair;
@@ -76,7 +74,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->a:Landroidx/lifecycle/MutableLiveData;
 
-    .line 3
     new-instance p1, Ljava/util/LinkedList;
 
     invoke-direct {p1}, Ljava/util/LinkedList;-><init>()V
@@ -97,7 +94,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/component/UndoRedoComponent$c;->A()Z
 
     move-result p1
@@ -128,12 +124,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->c:Lcom/commsource/studio/v;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lcom/commsource/studio/v;->b()Z
 
     move-result v1
@@ -142,7 +136,6 @@
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->b:Ljava/util/LinkedList;
 
@@ -168,10 +161,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->b:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -189,12 +180,10 @@
 
     check-cast v2, Lcom/commsource/studio/v;
 
-    .line 3
     invoke-interface {v2}, Lcom/commsource/studio/v;->clear()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -210,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->c:Lcom/commsource/studio/v;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -238,7 +226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -255,7 +242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->c:Lcom/commsource/studio/v;
 
     if-eqz v1, :cond_1
@@ -268,24 +254,20 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->c:Lcom/commsource/studio/v;
 
     if-eqz v1, :cond_0
 
     invoke-interface {v1}, Lcom/commsource/studio/v;->i()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->b:Ljava/util/LinkedList;
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -303,12 +285,10 @@
 
     check-cast v2, Lcom/commsource/studio/v;
 
-    .line 6
     invoke-interface {v2}, Lcom/commsource/studio/v;->i()V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -326,7 +306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->c:Lcom/commsource/studio/v;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -343,7 +322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->c:Lcom/commsource/studio/v;
 
     if-eqz v1, :cond_1
@@ -356,24 +334,20 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->c:Lcom/commsource/studio/v;
 
     if-eqz v1, :cond_0
 
     invoke-interface {v1}, Lcom/commsource/studio/v;->k()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->b:Ljava/util/LinkedList;
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -391,12 +365,10 @@
 
     check-cast v2, Lcom/commsource/studio/v;
 
-    .line 6
     invoke-interface {v2}, Lcom/commsource/studio/v;->k()V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -410,14 +382,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/g2;->b()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->a:Landroidx/lifecycle/MutableLiveData;
 
     new-instance v2, Lcotlin/Pair;
@@ -436,7 +406,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->a:Landroidx/lifecycle/MutableLiveData;
 
@@ -454,7 +423,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -478,12 +446,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->b:Ljava/util/LinkedList;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -496,12 +462,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->c:Lcom/commsource/studio/v;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lcom/commsource/studio/v;->h()Z
 
     move-result v1
@@ -510,7 +474,6 @@
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->b:Ljava/util/LinkedList;
 

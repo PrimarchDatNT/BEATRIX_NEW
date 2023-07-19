@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewTextPageView$a;->a:Lcom/commsource/beautyplus/onboarding/NewTextPageView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -70,7 +68,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -95,7 +92,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewTextPageView$a;->a:Lcom/commsource/beautyplus/onboarding/NewTextPageView;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/NewTextPageView;->d(Lcom/commsource/beautyplus/onboarding/NewTextPageView;)Lcom/commsource/beautyplus/f0/em;
@@ -104,7 +100,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewTextPageView$a;->a:Lcom/commsource/beautyplus/onboarding/NewTextPageView;
 
     invoke-virtual {v0}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -113,7 +108,6 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/FrameLayout;->removeView(Landroid/view/View;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewTextPageView$a;->a:Lcom/commsource/beautyplus/onboarding/NewTextPageView;
 
@@ -121,7 +115,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/beautyplus/onboarding/NewTextPageView;->g(Lcom/commsource/beautyplus/onboarding/NewTextPageView;Lcom/commsource/beautyplus/f0/em;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -134,7 +127,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewTextPageView$a;->a:Lcom/commsource/beautyplus/onboarding/NewTextPageView;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/NewTextPageView;->d(Lcom/commsource/beautyplus/onboarding/NewTextPageView;)Lcom/commsource/beautyplus/f0/em;
@@ -161,7 +153,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewTextPageView$a;->a:Lcom/commsource/beautyplus/onboarding/NewTextPageView;
 
@@ -189,7 +180,6 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

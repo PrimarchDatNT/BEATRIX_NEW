@@ -49,7 +49,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     check-cast p1, Lcom/meitu/library/g/h/i/a;
 
@@ -66,15 +65,12 @@
 .method constructor <init>(Ljavax/microedition/khronos/egl/EGLContext;I)V
     .locals 6
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/library/g/h/e;-><init>()V
 
-    .line 3
     sget-object v0, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_DISPLAY:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     iput-object v0, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 4
     new-instance v0, Lcom/meitu/library/g/h/i/a;
 
     invoke-direct {v0}, Lcom/meitu/library/g/h/i/a;-><init>()V
@@ -83,17 +79,14 @@
 
     const/4 v0, -0x1
 
-    .line 5
     iput v0, p0, Lcom/meitu/library/g/h/i/b;->g:I
 
     const/4 v0, 0x1
 
     new-array v1, v0, [I
 
-    .line 6
     iput-object v1, p0, Lcom/meitu/library/g/h/i/b;->h:[I
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     sget-object v2, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_DISPLAY:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -102,10 +95,8 @@
 
     if-nez p1, :cond_0
 
-    .line 8
     sget-object p1, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_CONTEXT:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 9
     :cond_0
     invoke-static {}, Ljavax/microedition/khronos/egl/EGLContext;->getEGL()Ljavax/microedition/khronos/egl/EGL;
 
@@ -115,7 +106,6 @@
 
     iput-object v1, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
-    .line 10
     sget-object v2, Ljavax/microedition/khronos/egl/EGL10;->EGL_DEFAULT_DISPLAY:Ljava/lang/Object;
 
     invoke-interface {v1, v2}, Ljavax/microedition/khronos/egl/EGL10;->eglGetDisplay(Ljava/lang/Object;)Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -124,7 +114,6 @@
 
     iput-object v1, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 11
     sget-object v2, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_DISPLAY:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     if-eq v1, v2, :cond_5
@@ -133,7 +122,6 @@
 
     new-array v3, v2, [I
 
-    .line 12
     iget-object v4, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     invoke-interface {v4, v1, v3}, Ljavax/microedition/khronos/egl/EGL10;->eglInitialize(Ljavax/microedition/khronos/egl/EGLDisplay;[I)Z
@@ -148,7 +136,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 13
     iget-object p2, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v3, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -161,10 +148,8 @@
 
     new-array v3, v1, [I
 
-    .line 14
     fill-array-data v3, :array_0
 
-    .line 15
     iget-object v4, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v5, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -173,7 +158,6 @@
 
     move-result-object v3
 
-    .line 16
     iget-object v4, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     invoke-interface {v4}, Ljavax/microedition/khronos/egl/EGL10;->eglGetError()I
@@ -184,18 +168,14 @@
 
     if-ne v4, v5, :cond_1
 
-    .line 17
     iput-object p2, p0, Lcom/meitu/library/g/h/i/b;->e:Ljavax/microedition/khronos/egl/EGLConfig;
 
-    .line 18
     iget-object p2, p0, Lcom/meitu/library/g/h/i/b;->f:Lcom/meitu/library/g/h/i/a;
 
     invoke-virtual {p2, v3}, Lcom/meitu/library/g/h/i/a;->d(Ljavax/microedition/khronos/egl/EGLContext;)V
 
-    .line 19
     iput v1, p0, Lcom/meitu/library/g/h/i/b;->g:I
 
-    .line 20
     :cond_1
     iget-object p2, p0, Lcom/meitu/library/g/h/i/b;->f:Lcom/meitu/library/g/h/i/a;
 
@@ -205,7 +185,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 21
     iget-object p2, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v3, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -218,10 +197,8 @@
 
     new-array v1, v1, [I
 
-    .line 22
     fill-array-data v1, :array_1
 
-    .line 23
     iget-object v3, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v4, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -232,23 +209,18 @@
 
     const-string v1, "eglCreateContext"
 
-    .line 24
     invoke-direct {p0, v1}, Lcom/meitu/library/g/h/i/b;->p(Ljava/lang/String;)V
 
-    .line 25
     iput-object p2, p0, Lcom/meitu/library/g/h/i/b;->e:Ljavax/microedition/khronos/egl/EGLConfig;
 
-    .line 26
     iget-object p2, p0, Lcom/meitu/library/g/h/i/b;->f:Lcom/meitu/library/g/h/i/a;
 
     invoke-virtual {p2, p1}, Lcom/meitu/library/g/h/i/a;->d(Ljavax/microedition/khronos/egl/EGLContext;)V
 
-    .line 27
     iput v2, p0, Lcom/meitu/library/g/h/i/b;->g:I
 
     goto :goto_0
 
-    .line 28
     :cond_2
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -262,7 +234,6 @@
     :goto_0
     new-array p1, v0, [I
 
-    .line 29
     iget-object p2, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v0, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -282,10 +253,8 @@
     :cond_4
     const/4 p1, 0x0
 
-    .line 30
     iput-object p1, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 31
     new-instance p1, Ljava/lang/RuntimeException;
 
     const-string p2, "unable to initialize EGL14"
@@ -294,7 +263,6 @@
 
     throw p1
 
-    .line 32
     :cond_5
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -304,7 +272,6 @@
 
     throw p1
 
-    .line 33
     :cond_6
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -336,7 +303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     invoke-interface {v1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetError()I
@@ -347,12 +313,10 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v2, Lcom/meitu/library/deviceinfo/gles/exception/MTEglCheckRuntimeException;
 
@@ -394,7 +358,6 @@
 
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v9, v7
 
     const/4 v0, 0x0
@@ -418,19 +381,16 @@
 
     move-object v3, v11
 
-    .line 2
     invoke-direct/range {v0 .. v5}, Lcom/meitu/library/g/h/i/b;->u(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v12
 
     const/16 v4, 0x3026
 
-    .line 3
     invoke-direct/range {v0 .. v5}, Lcom/meitu/library/g/h/i/b;->u(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v0
 
-    .line 4
     iget v1, v6, Lcom/meitu/library/g/h/i/b;->m:I
 
     if-lt v12, v1, :cond_0
@@ -451,33 +411,28 @@
 
     move-object v3, v11
 
-    .line 5
     invoke-direct/range {v0 .. v5}, Lcom/meitu/library/g/h/i/b;->u(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v12
 
     const/16 v4, 0x3023
 
-    .line 6
     invoke-direct/range {v0 .. v5}, Lcom/meitu/library/g/h/i/b;->u(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v13
 
     const/16 v4, 0x3022
 
-    .line 7
     invoke-direct/range {v0 .. v5}, Lcom/meitu/library/g/h/i/b;->u(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v14
 
     const/16 v4, 0x3021
 
-    .line 8
     invoke-direct/range {v0 .. v5}, Lcom/meitu/library/g/h/i/b;->u(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v0
 
-    .line 9
     iget v1, v6, Lcom/meitu/library/g/h/i/b;->i:I
 
     if-ne v12, v1, :cond_0
@@ -494,7 +449,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 10
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v11
@@ -507,7 +461,6 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 11
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
@@ -524,45 +477,37 @@
 
     if-eq p2, v1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 2
     :cond_0
     array-length p2, p1
 
     add-int/lit8 v1, p2, 0x2
 
-    .line 3
     new-array v1, v1, [I
 
     add-int/lit8 v2, p2, -0x1
 
     const/4 v3, 0x0
 
-    .line 4
     invoke-static {p1, v3, v1, v3, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     const/16 p1, 0x3040
 
-    .line 5
     aput p1, v1, v2
 
     const/4 p1, 0x4
 
-    .line 6
     aput p1, v1, p2
 
     add-int/lit8 p2, p2, 0x1
 
     const/16 p1, 0x3038
 
-    .line 7
     aput p1, v1, p2
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -575,7 +520,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->h:[I
 
     invoke-interface {p1, p2, p3, p4, v1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetConfigAttrib(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;I[I)Z
@@ -584,7 +528,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/library/g/h/i/b;->h:[I
 
     const/4 p2, 0x0
@@ -595,7 +538,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -611,18 +553,14 @@
 
     const/16 v1, 0x8
 
-    .line 1
     iput v1, p0, Lcom/meitu/library/g/h/i/b;->i:I
 
-    .line 2
     iput v1, p0, Lcom/meitu/library/g/h/i/b;->j:I
 
-    .line 3
     iput v1, p0, Lcom/meitu/library/g/h/i/b;->k:I
 
     const/4 v2, 0x0
 
-    .line 4
     iput v2, p0, Lcom/meitu/library/g/h/i/b;->l:I
 
     if-eqz p3, :cond_0
@@ -634,11 +572,9 @@
     :cond_0
     const/4 p3, 0x0
 
-    .line 5
     :goto_0
     iput p3, p0, Lcom/meitu/library/g/h/i/b;->m:I
 
-    .line 6
     iput v2, p0, Lcom/meitu/library/g/h/i/b;->n:I
 
     const/16 v3, 0xd
@@ -707,7 +643,6 @@
 
     aput v1, v3, p3
 
-    .line 7
     invoke-direct {p0, v3, p4}, Lcom/meitu/library/g/h/i/b;->t([II)[I
 
     move-result-object p3
@@ -726,19 +661,16 @@
 
     move-object v10, p4
 
-    .line 8
     invoke-interface/range {v5 .. v10}, Ljavax/microedition/khronos/egl/EGL10;->eglChooseConfig(Ljavax/microedition/khronos/egl/EGLDisplay;[I[Ljavax/microedition/khronos/egl/EGLConfig;I[I)Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    .line 9
     aget v9, p4, v2
 
     if-lez v9, :cond_3
 
-    .line 10
     new-array v1, v9, [Ljavax/microedition/khronos/egl/EGLConfig;
 
     move-object v5, p1
@@ -751,26 +683,22 @@
 
     move-object v10, p4
 
-    .line 11
     invoke-interface/range {v5 .. v10}, Ljavax/microedition/khronos/egl/EGL10;->eglChooseConfig(Ljavax/microedition/khronos/egl/EGLDisplay;[I[Ljavax/microedition/khronos/egl/EGLConfig;I[I)Z
 
     move-result p3
 
     if-eqz p3, :cond_2
 
-    .line 12
     invoke-direct {p0, p1, p2, v1}, Lcom/meitu/library/g/h/i/b;->q(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;[Ljavax/microedition/khronos/egl/EGLConfig;)Ljavax/microedition/khronos/egl/EGLConfig;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 14
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -782,7 +710,6 @@
 
     throw p1
 
-    .line 15
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -794,7 +721,6 @@
 
     throw p1
 
-    .line 16
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -806,7 +732,6 @@
 
     throw p1
 
-    .line 17
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -828,7 +753,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -849,7 +773,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -870,7 +793,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/g/h/i/c;
 
     invoke-virtual {p0, p1, p2}, Lcom/meitu/library/g/h/i/b;->r(II)Ljavax/microedition/khronos/egl/EGLSurface;
@@ -891,7 +813,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/g/h/i/c;
 
     invoke-virtual {p0, p1}, Lcom/meitu/library/g/h/i/b;->s(Ljava/lang/Object;)Ljavax/microedition/khronos/egl/EGLSurface;
@@ -912,7 +833,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->f:Lcom/meitu/library/g/h/i/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -927,7 +847,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/g/h/i/b;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -942,14 +861,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/library/g/h/i/c;
 
     invoke-virtual {p1}, Lcom/meitu/library/g/h/i/c;->c()Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/library/g/h/i/b;->w(Ljavax/microedition/khronos/egl/EGLSurface;)Z
 
     move-result p1
@@ -966,24 +883,20 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     invoke-interface {v0}, Ljavax/microedition/khronos/egl/EGL10;->eglGetCurrentDisplay()Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     invoke-interface {v0}, Ljavax/microedition/khronos/egl/EGL10;->eglGetCurrentContext()Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 3
     iget-object v0, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     const/16 v1, 0x3059
 
     invoke-interface {v0, v1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetCurrentSurface(I)Ljavax/microedition/khronos/egl/EGLSurface;
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1001,10 +914,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1017,24 +928,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/library/g/h/i/c;
 
     invoke-virtual {p1}, Lcom/meitu/library/g/h/i/c;->c()Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object p1
 
-    .line 2
     check-cast p2, Lcom/meitu/library/g/h/i/c;
 
     invoke-virtual {p2}, Lcom/meitu/library/g/h/i/c;->c()Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object p2
 
-    .line 3
     invoke-virtual {p0, p1, p2}, Lcom/meitu/library/g/h/i/b;->x(Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLSurface;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1047,14 +954,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/library/g/h/i/c;
 
     invoke-virtual {p1}, Lcom/meitu/library/g/h/i/c;->c()Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/library/g/h/i/b;->y(Ljavax/microedition/khronos/egl/EGLSurface;)Z
 
     move-result p1
@@ -1071,7 +976,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -1096,7 +1000,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -1117,14 +1020,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/library/g/h/i/c;
 
     invoke-virtual {p1}, Lcom/meitu/library/g/h/i/c;->c()Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lcom/meitu/library/g/h/i/b;->z(Ljavax/microedition/khronos/egl/EGLSurface;I)I
 
     move-result p1
@@ -1141,14 +1042,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     sget-object v2, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_DISPLAY:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     sget-object v3, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_SURFACE:Ljavax/microedition/khronos/egl/EGLSurface;
@@ -1157,7 +1056,6 @@
 
     invoke-interface {v2, v1, v3, v3, v4}, Ljavax/microedition/khronos/egl/EGL10;->eglMakeCurrent(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLContext;)Z
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -1170,30 +1068,25 @@
 
     invoke-interface {v1, v2, v3}, Ljavax/microedition/khronos/egl/EGL10;->eglDestroyContext(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLContext;)Z
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     invoke-interface {v1, v2}, Ljavax/microedition/khronos/egl/EGL10;->eglTerminate(Ljavax/microedition/khronos/egl/EGLDisplay;)Z
 
-    .line 5
     :cond_0
     sget-object v1, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_DISPLAY:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     iput-object v1, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->f:Lcom/meitu/library/g/h/i/a;
 
     invoke-virtual {v1}, Lcom/meitu/library/g/h/i/a;->b()V
 
     const/4 v1, 0x0
 
-    .line 7
     iput-object v1, p0, Lcom/meitu/library/g/h/i/b;->e:Ljavax/microedition/khronos/egl/EGLConfig;
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1206,14 +1099,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/library/g/h/i/c;
 
     invoke-virtual {p1}, Lcom/meitu/library/g/h/i/c;->c()Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/library/g/h/i/b;->A(Ljavax/microedition/khronos/egl/EGLSurface;)Z
 
     move-result p1
@@ -1233,7 +1124,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1246,14 +1136,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/library/g/h/i/c;
 
     invoke-virtual {p1}, Lcom/meitu/library/g/h/i/c;->c()Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/library/g/h/i/b;->B(Ljavax/microedition/khronos/egl/EGLSurface;)Z
 
     move-result p1
@@ -1300,7 +1188,6 @@
 
     aput p2, v1, p1
 
-    .line 1
     iget-object p1, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object p2, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -1313,17 +1200,14 @@
 
     const-string p2, "eglCreatePbufferSurface"
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/meitu/library/g/h/i/b;->p(Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -1343,7 +1227,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -1358,17 +1241,14 @@
 
     const-string v1, "eglCreateWindowSurface"
 
-    .line 2
     invoke-direct {p0, v1}, Lcom/meitu/library/g/h/i/b;->p(Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -1388,7 +1268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->f:Lcom/meitu/library/g/h/i/a;
 
     iget-object v2, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
@@ -1407,7 +1286,6 @@
 
     const/16 v2, 0x3059
 
-    .line 2
     invoke-interface {v1, v2}, Ljavax/microedition/khronos/egl/EGL10;->eglGetCurrentSurface(I)Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object v1
@@ -1425,7 +1303,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1439,10 +1316,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v3, p0, Lcom/meitu/library/g/h/i/b;->f:Lcom/meitu/library/g/h/i/a;
@@ -1457,12 +1332,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -1482,10 +1355,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v3, p0, Lcom/meitu/library/g/h/i/b;->f:Lcom/meitu/library/g/h/i/a;
@@ -1514,7 +1385,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     iget-object v2, p0, Lcom/meitu/library/g/h/i/b;->c:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v3, p0, Lcom/meitu/library/g/h/i/b;->d:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -1523,7 +1393,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     aget p1, v1, p1
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

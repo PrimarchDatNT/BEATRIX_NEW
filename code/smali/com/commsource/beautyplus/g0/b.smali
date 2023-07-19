@@ -15,15 +15,12 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/beautyplus/g0/b;->a:Lf/d/e/a/m;
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
     return-void
@@ -39,12 +36,10 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/g0/b;->a:Lf/d/e/a/m;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lf/d/e/a/m;
 
     const/4 v2, 0x0
@@ -55,19 +50,16 @@
 
     const-string v2, "face_faceEnable"
 
-    .line 3
     sget-object v3, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-virtual {v1, v2, v3}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/g0/b;->a:Lf/d/e/a/m;
 
     const-string v2, "face_visibleEnable"
 
     invoke-virtual {v1, v2, v3}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/g0/b;->a:Lf/d/e/a/m;
 
     invoke-static {}, Lcom/commsource/util/x;->C()Z
@@ -76,7 +68,6 @@
 
     invoke-virtual {v1, v2}, Lf/d/e/a/m;->m(Z)V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/g0/b;->a:Lf/d/e/a/m;
 
@@ -103,30 +94,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/g0/b;->b:Lcom/commsource/beautyplus/g0/b;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/beautyplus/g0/b;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/beautyplus/g0/b;->b:Lcom/commsource/beautyplus/g0/b;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/beautyplus/g0/b;
 
     invoke-direct {v2}, Lcom/commsource/beautyplus/g0/b;-><init>()V
 
     sput-object v2, Lcom/commsource/beautyplus/g0/b;->b:Lcom/commsource/beautyplus/g0/b;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -143,7 +129,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/beautyplus/g0/b;->b:Lcom/commsource/beautyplus/g0/b;
@@ -162,20 +147,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/g0/b;->d(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -188,20 +169,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/g0/b;->e(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/core/types/FaceData;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -214,44 +191,34 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p1
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/g0/b;->i(Z)V
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/g0/b;->d(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/meitu/core/types/FaceData;
 
     invoke-direct {v2}, Lcom/meitu/core/types/FaceData;-><init>()V
 
-    .line 5
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/g0/d;->c(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/meitu/core/types/FaceData;)V
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 7
     new-instance p1, Lcom/commsource/camera/d1/g/j;
 
     invoke-direct {p1}, Lcom/commsource/camera/d1/g/j;-><init>()V
 
-    .line 8
     invoke-virtual {p1, v2}, Lcom/commsource/camera/d1/g/j;->r(Lcom/meitu/core/types/FaceData;)V
 
-    .line 9
     invoke-virtual {p1, v1}, Lcom/commsource/camera/d1/g/j;->q(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -266,10 +233,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/g0/b;->i(Z)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
     move-result-object v1
@@ -282,7 +247,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object v2, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     :cond_0
@@ -300,23 +264,18 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/g0/b;->i(Z)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/g0/b;->d(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-result-object p1
 
-    .line 3
     new-instance v1, Lcom/meitu/core/types/FaceData;
 
     invoke-direct {v1}, Lcom/meitu/core/types/FaceData;-><init>()V
 
-    .line 4
     invoke-static {p1, v1}, Lcom/commsource/beautyplus/g0/d;->c(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/meitu/core/types/FaceData;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -329,14 +288,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/material/ImageSegmentExecutor;->G()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
     move-result-object v1
@@ -351,7 +308,6 @@
 
     invoke-virtual {v1, v2, v3, v4}, Lf/d/e/a/m;->l(Ljava/lang/String;ZI)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
     move-result-object v1
@@ -362,7 +318,6 @@
 
     invoke-virtual {v1, v3, v2}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -376,7 +331,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
     move-result-object v1
@@ -389,7 +343,6 @@
 
     invoke-virtual {v1, v3, v2}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
     move-result-object v1
@@ -402,7 +355,6 @@
 
     invoke-virtual {v1, v3, v2}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
     move-result-object v1
@@ -415,7 +367,6 @@
 
     invoke-virtual {v1, v3, v2}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
     move-result-object v1
@@ -428,7 +379,6 @@
 
     invoke-virtual {v1, v3, v2}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
     move-result-object v1
@@ -441,7 +391,6 @@
 
     invoke-virtual {v1, v3, v2}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
     move-result-object v1
@@ -454,7 +403,6 @@
 
     invoke-virtual {v1, v2, p1}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -469,7 +417,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
     move-result-object p1
@@ -486,7 +433,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
@@ -502,7 +448,6 @@
 
     iput-wide v1, p1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -516,7 +461,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/g0/b;->f()Lf/d/e/a/m;
 
     move-result-object v1
@@ -527,7 +471,6 @@
 
     invoke-virtual {v1, v3, v2}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

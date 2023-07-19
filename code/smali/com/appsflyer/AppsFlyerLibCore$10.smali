@@ -25,7 +25,6 @@
 .method constructor <init>(Ljava/util/Map;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AppsFlyerLibCore$10;->valueOf:Ljava/util/Map;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -69,7 +67,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 2
     iget-object v2, p0, Lcom/appsflyer/AppsFlyerLibCore$10;->valueOf:Ljava/util/Map;
 
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -80,7 +77,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/appsflyer/AppsFlyerLibCore$10;->valueOf:Ljava/util/Map;
 
@@ -92,7 +88,6 @@
 .method public final valueOf(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/appsflyer/deeplink/DeepLinkCallbacks;->onDeepLinkingError(Ljava/lang/String;)V
 
     return-void

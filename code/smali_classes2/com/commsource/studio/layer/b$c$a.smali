@@ -47,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/b$c$a;->a:Lcom/commsource/studio/layer/b$c;
 
     iget-object v1, v1, Lcom/commsource/studio/layer/b$c;->a:Lcom/commsource/studio/layer/b;
@@ -62,7 +61,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/b$c$a;->a:Lcom/commsource/studio/layer/b$c;
 
     iget-object v1, v1, Lcom/commsource/studio/layer/b$c;->a:Lcom/commsource/studio/layer/b;
@@ -75,7 +73,6 @@
 
     check-cast v1, Lcom/commsource/studio/function/background/BackgroundView;
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundView;->getBackgroundDrawer()Lcom/commsource/studio/function/background/BackgroundDrawer;
 
     move-result-object v2
@@ -88,7 +85,6 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/studio/function/background/BackgroundDrawer;->v(Landroid/graphics/Bitmap;Lcom/commsource/studio/function/background/BackgroundTexture;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundView;->getBackgroundDrawer()Lcom/commsource/studio/function/background/BackgroundDrawer;
 
     move-result-object v2
@@ -113,12 +109,10 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/function/background/BackgroundDrawer;->m(I)V
 
-    .line 5
     invoke-virtual {v1}, Landroid/view/View;->postInvalidate()V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -130,7 +124,6 @@
 
     throw v1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

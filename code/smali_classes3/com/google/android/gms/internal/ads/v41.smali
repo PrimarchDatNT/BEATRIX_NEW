@@ -47,16 +47,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/v41;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/v41;->b:Lcom/google/android/gms/internal/ads/zzvh;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/v41;->c:Ljava/util/List;
 
     return-void
@@ -67,10 +63,8 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 4
 
-    .line 1
     check-cast p1, Landroid/os/Bundle;
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/internal/ads/p1;->a:Lcom/google/android/gms/internal/ads/y0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/y0;->a()Ljava/lang/Object;
@@ -85,12 +79,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
-    .line 4
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/v41;->a:Landroid/content/Context;
@@ -101,15 +93,12 @@
 
     const-string v2, "activity"
 
-    .line 5
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     new-instance v1, Landroid/os/Bundle;
 
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
-    .line 7
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/v41;->b:Lcom/google/android/gms/internal/ads/zzvh;
 
     iget v2, v2, Lcom/google/android/gms/internal/ads/zzvh;->f:I
@@ -118,7 +107,6 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 8
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/v41;->b:Lcom/google/android/gms/internal/ads/zzvh;
 
     iget v2, v2, Lcom/google/android/gms/internal/ads/zzvh;->b:I
@@ -129,10 +117,8 @@
 
     const-string v2, "size"
 
-    .line 9
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 10
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/v41;->c:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -141,10 +127,8 @@
 
     if-lez v1, :cond_0
 
-    .line 11
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/v41;->c:Ljava/util/List;
 
-    .line 12
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -159,13 +143,11 @@
 
     const-string v2, "parents"
 
-    .line 13
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
 
     :cond_0
     const-string v1, "view_hierarchy"
 
-    .line 14
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
     :cond_1

@@ -45,7 +45,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lio/grpc/t0$e;
 
     sget-object v1, Lio/grpc/Status;->g:Lio/grpc/Status;
@@ -72,18 +71,14 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/t0$e;->a:Lio/grpc/t0$h;
 
-    .line 3
     iput-object p2, p0, Lio/grpc/t0$e;->b:Lio/grpc/k$a;
 
     const-string p1, "status"
 
-    .line 4
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -92,7 +87,6 @@
 
     iput-object p1, p0, Lio/grpc/t0$e;->c:Lio/grpc/Status;
 
-    .line 5
     iput-boolean p4, p0, Lio/grpc/t0$e;->d:Z
 
     return-void
@@ -101,7 +95,6 @@
 .method public static e(Lio/grpc/Status;)Lio/grpc/t0$e;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/Status;->r()Z
 
     move-result v0
@@ -114,7 +107,6 @@
 
     invoke-static {v0, v2}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     new-instance v0, Lio/grpc/t0$e;
 
     const/4 v2, 0x0
@@ -127,7 +119,6 @@
 .method public static f(Lio/grpc/Status;)Lio/grpc/t0$e;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/Status;->r()Z
 
     move-result v0
@@ -138,7 +129,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     new-instance v0, Lio/grpc/t0$e;
 
     const/4 v1, 0x0
@@ -153,7 +143,6 @@
 .method public static g()Lio/grpc/t0$e;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/t0$e;->e:Lio/grpc/t0$e;
 
     return-object v0
@@ -164,7 +153,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lio/grpc/t0$e;->i(Lio/grpc/t0$h;Lio/grpc/k$a;)Lio/grpc/t0$e;
 
     move-result-object p0
@@ -179,12 +167,10 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lio/grpc/t0$e;
 
     const-string v1, "subchannel"
 
-    .line 2
     invoke-static {p0, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -205,7 +191,6 @@
 .method public a()Lio/grpc/Status;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/t0$e;->c:Lio/grpc/Status;
 
     return-object v0
@@ -216,7 +201,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/t0$e;->b:Lio/grpc/k$a;
 
     return-object v0
@@ -227,7 +211,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/t0$e;->a:Lio/grpc/t0$h;
 
     return-object v0
@@ -236,7 +219,6 @@
 .method public d()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/t0$e;->d:Z
 
     return v0
@@ -245,7 +227,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lio/grpc/t0$e;
 
     const/4 v1, 0x0
@@ -254,11 +235,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lio/grpc/t0$e;
 
-    .line 3
     iget-object v0, p0, Lio/grpc/t0$e;->a:Lio/grpc/t0$h;
 
     iget-object v2, p1, Lio/grpc/t0$e;->a:Lio/grpc/t0$h;
@@ -283,7 +262,6 @@
 
     iget-object v2, p1, Lio/grpc/t0$e;->b:Lio/grpc/k$a;
 
-    .line 4
     invoke-static {v0, v2}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
@@ -309,7 +287,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lio/grpc/t0$e;->a:Lio/grpc/t0$h;
 
     const/4 v2, 0x0
@@ -348,7 +325,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -357,7 +333,6 @@
 
     const-string v2, "subchannel"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -366,7 +341,6 @@
 
     const-string v2, "streamTracerFactory"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -375,7 +349,6 @@
 
     const-string v2, "status"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -384,12 +357,10 @@
 
     const-string v2, "drop"
 
-    .line 5
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->g(Ljava/lang/String;Z)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

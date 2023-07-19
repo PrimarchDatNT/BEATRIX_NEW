@@ -29,7 +29,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/sdk/api/AdStatus;
 
     const-string v1, "NORMAL"
@@ -40,7 +39,6 @@
 
     sput-object v0, Lcom/sdk/api/AdStatus;->NORMAL:Lcom/sdk/api/AdStatus;
 
-    .line 2
     new-instance v1, Lcom/sdk/api/AdStatus;
 
     const-string v3, "ABANDON"
@@ -59,7 +57,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/sdk/api/AdStatus;->$VALUES:[Lcom/sdk/api/AdStatus;
 
     return-void
@@ -73,10 +70,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/sdk/api/AdStatus;->mValue:I
 
     return-void
@@ -85,7 +80,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/sdk/api/AdStatus;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/sdk/api/AdStatus;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -100,7 +94,6 @@
 .method public static values()[Lcom/sdk/api/AdStatus;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/api/AdStatus;->$VALUES:[Lcom/sdk/api/AdStatus;
 
     invoke-virtual {v0}, [Lcom/sdk/api/AdStatus;->clone()Ljava/lang/Object;

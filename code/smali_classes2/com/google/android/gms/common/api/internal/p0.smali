@@ -10,7 +10,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/n0;Lcom/google/android/gms/common/api/internal/e1;Lcom/google/android/gms/common/internal/e$c;)V
     .locals 0
 
-    .line 1
     iput-object p3, p0, Lcom/google/android/gms/common/api/internal/p0;->b:Lcom/google/android/gms/common/internal/e$c;
 
     invoke-direct {p0, p2}, Lcom/google/android/gms/common/api/internal/g1;-><init>(Lcom/google/android/gms/common/api/internal/e1;)V
@@ -26,7 +25,6 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/p0;->b:Lcom/google/android/gms/common/internal/e$c;
 
     new-instance v1, Lcom/google/android/gms/common/ConnectionResult;

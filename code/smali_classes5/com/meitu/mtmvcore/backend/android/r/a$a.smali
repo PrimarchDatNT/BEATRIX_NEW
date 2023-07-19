@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/meitu/mtmvcore/backend/android/r/a;Landroid/os/Looper;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/r/a$a;->a:Lcom/meitu/mtmvcore/backend/android/r/a;
 
     invoke-direct {p0, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
@@ -39,10 +38,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/os/Handler;->handleMessage(Landroid/os/Message;)V
 
-    .line 2
     iget v1, p1, Landroid/os/Message;->what:I
 
     const/16 v2, 0x101
@@ -51,24 +48,19 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    .line 4
     instance-of v1, p1, Lcom/meitu/mtmvcore/backend/android/r/a$b;
 
     if-eqz v1, :cond_1
 
-    .line 5
     check-cast p1, Lcom/meitu/mtmvcore/backend/android/r/a$b;
 
-    .line 6
     invoke-interface {p1}, Lcom/meitu/mtmvcore/backend/android/r/a$b;->a()V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {}, Lcom/meitu/mtmvcore/backend/android/r/a;->a()Ljava/lang/String;
 
@@ -78,7 +70,6 @@
 
     invoke-static {p1, v1}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

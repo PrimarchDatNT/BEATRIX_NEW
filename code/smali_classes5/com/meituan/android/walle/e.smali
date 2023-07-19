@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meituan/android/walle/e;->b(Ljava/io/File;)Ljava/util/Map;
 
     move-result-object p0
@@ -29,12 +27,10 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -48,12 +44,10 @@
 
     if-nez p0, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 5
     :cond_1
     invoke-static {p0}, Lcom/meituan/android/walle/e;->c(Ljava/nio/ByteBuffer;)[B
 
@@ -84,7 +78,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/io/RandomAccessFile;
 
@@ -95,7 +88,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_4
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 2
     :try_start_1
     invoke-virtual {v2}, Ljava/io/RandomAccessFile;->getChannel()Ljava/nio/channels/FileChannel;
 
@@ -104,7 +96,6 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 3
     :try_start_2
     invoke-static {p0}, Lcom/meituan/android/walle/a;->b(Ljava/nio/channels/FileChannel;)Z
 
@@ -112,7 +103,6 @@
 
     if-nez v3, :cond_1
 
-    .line 4
     invoke-static {p0}, Lcom/meituan/android/walle/a;->c(Ljava/nio/channels/FileChannel;)Lcom/meituan/android/walle/d;
 
     move-result-object v3
@@ -123,7 +113,6 @@
 
     check-cast v3, Ljava/nio/ByteBuffer;
 
-    .line 5
     invoke-static {v3}, Lcom/meituan/android/walle/a;->f(Ljava/nio/ByteBuffer;)Ljava/util/Map;
 
     move-result-object v1
@@ -133,14 +122,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 6
     :try_start_3
     invoke-virtual {p0}, Ljava/nio/channels/FileChannel;->close()V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_0
     .catch Lcom/meituan/android/walle/SignatureNotFoundException; {:try_start_3 .. :try_end_3} :catch_7
 
-    .line 7
     :catch_0
     :cond_0
     :goto_0
@@ -152,7 +139,6 @@
 
     goto :goto_5
 
-    .line 8
     :cond_1
     :try_start_5
     new-instance v3, Ljava/lang/IllegalArgumentException;
@@ -195,7 +181,6 @@
     :goto_1
     if-eqz p0, :cond_2
 
-    .line 9
     :try_start_6
     invoke-virtual {p0}, Ljava/nio/channels/FileChannel;->close()V
     :try_end_6
@@ -211,14 +196,12 @@
     :goto_2
     if-eqz v2, :cond_3
 
-    .line 10
     :try_start_7
     invoke-virtual {v2}, Ljava/io/RandomAccessFile;->close()V
     :try_end_7
     .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_3
     .catch Lcom/meituan/android/walle/SignatureNotFoundException; {:try_start_7 .. :try_end_7} :catch_7
 
-    .line 11
     :catch_3
     :cond_3
     :try_start_8
@@ -237,7 +220,6 @@
     :goto_3
     if-eqz p0, :cond_4
 
-    .line 12
     :try_start_9
     invoke-virtual {p0}, Ljava/nio/channels/FileChannel;->close()V
     :try_end_9
@@ -255,7 +237,6 @@
 
     goto :goto_0
 
-    .line 13
     :catch_7
     :cond_5
     :goto_5
@@ -271,31 +252,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->arrayOffset()I
 
     move-result v2
 
-    .line 3
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->position()I
 
     move-result v3
 
     add-int/2addr v3, v2
 
-    .line 4
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->limit()I
 
     move-result p0
 
     add-int/2addr v2, p0
 
-    .line 5
     invoke-static {v1, v3, v2}, Ljava/util/Arrays;->copyOfRange([BII)[B
 
     move-result-object p0

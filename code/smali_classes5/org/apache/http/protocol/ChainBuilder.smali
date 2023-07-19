@@ -42,17 +42,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lorg/apache/http/protocol/ChainBuilder;->list:Ljava/util/LinkedList;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -70,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/ChainBuilder;->uniqueClasses:Ljava/util/Map;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -83,12 +79,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lorg/apache/http/protocol/ChainBuilder;->list:Ljava/util/LinkedList;
 
     invoke-virtual {v1, v0}, Ljava/util/LinkedList;->remove(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/http/protocol/ChainBuilder;->uniqueClasses:Ljava/util/Map;
 
@@ -119,7 +113,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
@@ -136,7 +129,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lorg/apache/http/protocol/ChainBuilder;->addFirst(Ljava/lang/Object;)Lorg/apache/http/protocol/ChainBuilder;
 
     goto :goto_0
@@ -159,7 +151,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     array-length v0, p1
 
@@ -170,7 +161,6 @@
 
     aget-object v2, p1, v1
 
-    .line 4
     invoke-virtual {p0, v2}, Lorg/apache/http/protocol/ChainBuilder;->addFirst(Ljava/lang/Object;)Lorg/apache/http/protocol/ChainBuilder;
 
     add-int/lit8 v1, v1, 0x1
@@ -197,7 +187,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
@@ -214,7 +203,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lorg/apache/http/protocol/ChainBuilder;->addLast(Ljava/lang/Object;)Lorg/apache/http/protocol/ChainBuilder;
 
     goto :goto_0
@@ -237,7 +225,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     array-length v0, p1
 
@@ -248,7 +235,6 @@
 
     aget-object v2, p1, v1
 
-    .line 4
     invoke-virtual {p0, v2}, Lorg/apache/http/protocol/ChainBuilder;->addLast(Ljava/lang/Object;)Lorg/apache/http/protocol/ChainBuilder;
 
     add-int/lit8 v1, v1, 0x1
@@ -273,11 +259,9 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1}, Lorg/apache/http/protocol/ChainBuilder;->ensureUnique(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/protocol/ChainBuilder;->list:Ljava/util/LinkedList;
 
     invoke-virtual {v0, p1}, Ljava/util/LinkedList;->addFirst(Ljava/lang/Object;)V
@@ -299,11 +283,9 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1}, Lorg/apache/http/protocol/ChainBuilder;->ensureUnique(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/protocol/ChainBuilder;->list:Ljava/util/LinkedList;
 
     invoke-virtual {v0, p1}, Ljava/util/LinkedList;->addLast(Ljava/lang/Object;)V
@@ -321,7 +303,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedList;
 
     iget-object v1, p0, Lorg/apache/http/protocol/ChainBuilder;->list:Ljava/util/LinkedList;

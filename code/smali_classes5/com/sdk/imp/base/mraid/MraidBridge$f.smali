@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/MraidBridge;Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/MraidBridge$f;->b:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     iput-object p2, p0, Lcom/sdk/imp/base/mraid/MraidBridge$f;->a:Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
@@ -42,7 +41,6 @@
 .method public a(Ljava/lang/Exception;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/MraidBridge$f;->b:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     iget-object v1, p0, Lcom/sdk/imp/base/mraid/MraidBridge$f;->a:Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;

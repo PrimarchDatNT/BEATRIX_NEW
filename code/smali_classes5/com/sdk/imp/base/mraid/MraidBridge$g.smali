@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;->values()[Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;
 
     move-result-object v0

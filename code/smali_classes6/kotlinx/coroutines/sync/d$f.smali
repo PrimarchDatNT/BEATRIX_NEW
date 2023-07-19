@@ -33,7 +33,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/v;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/sync/d$f;->a:Lcotlinx/coroutines/sync/d$d;
@@ -70,7 +69,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/sync/d$f;->a:Lcotlinx/coroutines/sync/d$d;
 
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/k;->g0()Z
@@ -79,7 +77,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlinx/coroutines/sync/MutexKt;->l()Lcotlinx/coroutines/sync/b;
 
     move-result-object v0
@@ -92,14 +89,12 @@
     :goto_0
     if-eqz p1, :cond_2
 
-    .line 3
     check-cast p1, Lcotlinx/coroutines/sync/d;
 
     sget-object v1, Lcotlinx/coroutines/sync/d;->a:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v1, p1, p0, v0}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
 
-    .line 4
     iget-object p1, p1, Lcotlinx/coroutines/sync/d;->_state:Ljava/lang/Object;
 
     iget-object v0, p0, Lcotlinx/coroutines/sync/d$f;->a:Lcotlinx/coroutines/sync/d$d;
@@ -118,7 +113,6 @@
     :goto_1
     return-object p1
 
-    .line 5
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 

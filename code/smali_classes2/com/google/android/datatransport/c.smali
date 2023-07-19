@@ -15,15 +15,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "name is null"
 
-    .line 2
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/datatransport/c;->a:Ljava/lang/String;
 
     return-void
@@ -36,7 +33,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/c;
 
     invoke-direct {v0, p0}, Lcom/google/android/datatransport/c;-><init>(Ljava/lang/String;)V
@@ -49,7 +45,6 @@
 .method public a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/c;->a:Ljava/lang/String;
 
     return-object v0
@@ -68,7 +63,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/google/android/datatransport/c;
 
@@ -78,7 +72,6 @@
 
     return p1
 
-    .line 2
     :cond_1
     iget-object v0, p0, Lcom/google/android/datatransport/c;->a:Ljava/lang/String;
 
@@ -96,7 +89,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/c;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -115,7 +107,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

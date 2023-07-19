@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lorg/apache/thrift/transport/TNonblockingServerSocket;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -53,7 +52,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lorg/apache/thrift/transport/TNonblockingServerSocket;-><init>(II)V
 
     return-void
@@ -67,7 +65,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/transport/TNonblockingServerSocket$NonblockingAbstractServerSocketArgs;
 
     invoke-direct {v0}, Lorg/apache/thrift/transport/TNonblockingServerSocket$NonblockingAbstractServerSocketArgs;-><init>()V
@@ -99,7 +96,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-direct {p0, p1, v0}, Lorg/apache/thrift/transport/TNonblockingServerSocket;-><init>(Ljava/net/InetSocketAddress;I)V
 
     return-void
@@ -113,7 +109,6 @@
         }
     .end annotation
 
-    .line 4
     new-instance v0, Lorg/apache/thrift/transport/TNonblockingServerSocket$NonblockingAbstractServerSocketArgs;
 
     invoke-direct {v0}, Lorg/apache/thrift/transport/TNonblockingServerSocket$NonblockingAbstractServerSocketArgs;-><init>()V
@@ -143,28 +138,22 @@
         }
     .end annotation
 
-    .line 5
     invoke-direct {p0}, Lorg/apache/thrift/transport/TNonblockingServerTransport;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocketChannel:Ljava/nio/channels/ServerSocketChannel;
 
-    .line 7
     iput-object v0, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     const/4 v1, 0x0
 
-    .line 8
     iput v1, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->clientTimeout_:I
 
-    .line 9
     iget v2, p1, Lorg/apache/thrift/transport/TServerTransport$AbstractServerTransportArgs;->clientTimeout:I
 
     iput v2, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->clientTimeout_:I
 
-    .line 10
     :try_start_0
     invoke-static {}, Ljava/nio/channels/ServerSocketChannel;->open()Ljava/nio/channels/ServerSocketChannel;
 
@@ -172,10 +161,8 @@
 
     iput-object v2, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocketChannel:Ljava/nio/channels/ServerSocketChannel;
 
-    .line 11
     invoke-virtual {v2, v1}, Ljava/nio/channels/ServerSocketChannel;->configureBlocking(Z)Ljava/nio/channels/SelectableChannel;
 
-    .line 12
     iget-object v1, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocketChannel:Ljava/nio/channels/ServerSocketChannel;
 
     invoke-virtual {v1}, Ljava/nio/channels/ServerSocketChannel;->socket()Ljava/net/ServerSocket;
@@ -186,10 +173,8 @@
 
     const/4 v2, 0x1
 
-    .line 13
     invoke-virtual {v1, v2}, Ljava/net/ServerSocket;->setReuseAddress(Z)V
 
-    .line 14
     iget-object v1, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     iget-object v2, p1, Lorg/apache/thrift/transport/TServerTransport$AbstractServerTransportArgs;->bindAddr:Ljava/net/InetSocketAddress;
@@ -205,10 +190,8 @@
     :catch_0
     move-exception v1
 
-    .line 15
     iput-object v0, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
-    .line 16
     new-instance v0, Lorg/apache/thrift/transport/TTransportException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -250,12 +233,10 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     if-eqz v0, :cond_1
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocketChannel:Ljava/nio/channels/ServerSocketChannel;
 
@@ -269,13 +250,11 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     new-instance v1, Lorg/apache/thrift/transport/TNonblockingSocket;
 
     invoke-direct {v1, v0}, Lorg/apache/thrift/transport/TNonblockingSocket;-><init>(Ljava/nio/channels/SocketChannel;)V
 
-    .line 5
     iget v0, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->clientTimeout_:I
 
     invoke-virtual {v1, v0}, Lorg/apache/thrift/transport/TNonblockingSocket;->setTimeout(I)V
@@ -287,14 +266,12 @@
     :catch_0
     move-exception v0
 
-    .line 6
     new-instance v1, Lorg/apache/thrift/transport/TTransportException;
 
     invoke-direct {v1, v0}, Lorg/apache/thrift/transport/TTransportException;-><init>(Ljava/lang/Throwable;)V
 
     throw v1
 
-    .line 7
     :cond_1
     new-instance v0, Lorg/apache/thrift/transport/TTransportException;
 
@@ -315,7 +292,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TNonblockingServerSocket;->acceptImpl()Lorg/apache/thrift/transport/TNonblockingSocket;
 
     move-result-object v0
@@ -326,12 +302,10 @@
 .method public close()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {v0}, Ljava/net/ServerSocket;->close()V
     :try_end_0
@@ -342,7 +316,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     sget-object v1, Lorg/apache/thrift/transport/TNonblockingServerSocket;->LOGGER:Lorg/slf4j/c;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -368,7 +341,6 @@
     :goto_0
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     :cond_0
@@ -378,7 +350,6 @@
 .method public getPort()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     if-nez v0, :cond_0
@@ -387,7 +358,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Ljava/net/ServerSocket;->getLocalPort()I
 
@@ -399,7 +369,6 @@
 .method public interrupt()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TNonblockingServerSocket;->close()V
 
     return-void
@@ -413,14 +382,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {v0, v1}, Ljava/net/ServerSocket;->setSoTimeout(I)V
     :try_end_0
@@ -431,7 +398,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     invoke-virtual {v0}, Ljava/net/SocketException;->printStackTrace()V
 
     :cond_0
@@ -442,7 +408,6 @@
 .method public registerSelector(Ljava/nio/channels/Selector;)V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TNonblockingServerSocket;->serverSocketChannel:Ljava/nio/channels/ServerSocketChannel;
 

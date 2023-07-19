@@ -29,16 +29,12 @@
 .method public constructor <init>(Lcom/mopub/volley/Request;Lcom/mopub/volley/Response;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mRequest:Lcom/mopub/volley/Request;
 
-    .line 3
     iput-object p2, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mResponse:Lcom/mopub/volley/Response;
 
-    .line 4
     iput-object p3, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mRunnable:Ljava/lang/Runnable;
 
     return-void
@@ -49,7 +45,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mRequest:Lcom/mopub/volley/Request;
 
     invoke-virtual {v0}, Lcom/mopub/volley/Request;->isCanceled()Z
@@ -58,7 +53,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mRequest:Lcom/mopub/volley/Request;
 
     const-string v1, "canceled-at-delivery"
@@ -67,7 +61,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mResponse:Lcom/mopub/volley/Response;
 
@@ -77,7 +70,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mRequest:Lcom/mopub/volley/Request;
 
     iget-object v1, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mResponse:Lcom/mopub/volley/Response;
@@ -88,7 +80,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mRequest:Lcom/mopub/volley/Request;
 
@@ -98,7 +89,6 @@
 
     invoke-virtual {v0, v1}, Lcom/mopub/volley/Request;->deliverError(Lcom/mopub/volley/VolleyError;)V
 
-    .line 6
     :goto_0
     iget-object v0, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mResponse:Lcom/mopub/volley/Response;
 
@@ -106,7 +96,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 7
     iget-object v0, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mRequest:Lcom/mopub/volley/Request;
 
     const-string v1, "intermediate-response"
@@ -115,7 +104,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     iget-object v0, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mRequest:Lcom/mopub/volley/Request;
 
@@ -123,13 +111,11 @@
 
     invoke-virtual {v0, v1}, Lcom/mopub/volley/Request;->finish(Ljava/lang/String;)V
 
-    .line 9
     :goto_1
     iget-object v0, p0, Lcom/mopub/volley/ExecutorDelivery$ResponseDeliveryRunnable;->mRunnable:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_3
 
-    .line 10
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
     :cond_3

@@ -13,13 +13,10 @@
 .method public constructor <init>([F[I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/airbnb/lottie/model/content/c;->a:[F
 
-    .line 3
     iput-object p2, p0, Lcom/airbnb/lottie/model/content/c;->b:[I
 
     return-void
@@ -30,7 +27,6 @@
 .method public a()[I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/c;->b:[I
 
     return-object v0
@@ -39,7 +35,6 @@
 .method public b()[F
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/c;->a:[F
 
     return-object v0
@@ -48,7 +43,6 @@
 .method public c()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/c;->b:[I
 
     array-length v0, v0
@@ -59,7 +53,6 @@
 .method public d(Lcom/airbnb/lottie/model/content/c;Lcom/airbnb/lottie/model/content/c;F)V
     .locals 4
 
-    .line 1
     iget-object v0, p1, Lcom/airbnb/lottie/model/content/c;->b:[I
 
     array-length v0, v0
@@ -72,7 +65,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     iget-object v1, p1, Lcom/airbnb/lottie/model/content/c;->b:[I
 
@@ -80,7 +72,6 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/airbnb/lottie/model/content/c;->a:[F
 
     iget-object v2, p1, Lcom/airbnb/lottie/model/content/c;->a:[F
@@ -97,7 +88,6 @@
 
     aput v2, v1, v0
 
-    .line 4
     iget-object v1, p0, Lcom/airbnb/lottie/model/content/c;->b:[I
 
     iget-object v2, p1, Lcom/airbnb/lottie/model/content/c;->b:[I
@@ -121,7 +111,6 @@
     :cond_0
     return-void
 
-    .line 5
     :cond_1
     new-instance p3, Ljava/lang/IllegalArgumentException;
 

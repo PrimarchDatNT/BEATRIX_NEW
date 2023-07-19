@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/camera/r0;Ljava/lang/String;Lcom/commsource/camera/r0$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/r0$a;->p:Lcom/commsource/camera/r0;
 
     iput-object p3, p0, Lcom/commsource/camera/r0$a;->g:Lcom/commsource/camera/r0$c;
@@ -43,19 +42,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/r0$a;->g:Lcom/commsource/camera/r0$c;
 
     iget-object v2, v2, Lcom/commsource/camera/r0$c;->d:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -76,7 +72,6 @@
 
     invoke-static {v1}, Lcom/commsource/beautyplus/p;->a(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

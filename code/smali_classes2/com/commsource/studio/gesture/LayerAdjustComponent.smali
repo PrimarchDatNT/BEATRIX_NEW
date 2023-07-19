@@ -45,17 +45,14 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->a:Landroid/graphics/Rect;
 
-    .line 3
     new-instance p1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -82,7 +79,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->b:Lcom/commsource/studio/ImageStudioViewModel;
 
-    .line 4
     new-instance p1, Lcom/commsource/widget/h1/e;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -93,7 +89,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->f:Lcom/commsource/widget/h1/e;
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -114,7 +109,6 @@
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -132,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->i([FLcom/commsource/studio/bean/FocusLayerInfo;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -147,7 +140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->p:Lcom/commsource/beautyplus/f0/kl;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -162,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->b:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -177,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->j()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -192,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->b:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -207,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->o()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -222,19 +210,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v8, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     if-eqz v8, :cond_5
 
     const/16 v1, 0x14
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v1
 
-    .line 3
     invoke-virtual {v8}, Landroid/view/ViewGroup;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v2
@@ -243,7 +228,6 @@
 
     check-cast v2, Landroid/view/ViewGroup$MarginLayoutParams;
 
-    .line 4
     new-instance v3, Lcotlin/jvm/internal/Ref$FloatRef;
 
     invoke-direct {v3}, Lcotlin/jvm/internal/Ref$FloatRef;-><init>()V
@@ -260,7 +244,6 @@
 
     iput v4, v3, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
-    .line 5
     new-instance v4, Lcotlin/jvm/internal/Ref$FloatRef;
 
     invoke-direct {v4}, Lcotlin/jvm/internal/Ref$FloatRef;-><init>()V
@@ -271,7 +254,6 @@
 
     const/4 v7, 0x0
 
-    .line 6
     aget v9, p1, v7
 
     float-to-int v9, v9
@@ -292,7 +274,6 @@
 
     const/4 v9, 0x1
 
-    .line 7
     aget v10, p1, v9
 
     float-to-int v10, v10
@@ -301,7 +282,6 @@
 
     iput v10, v2, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
-    .line 8
     aget v10, p1, v7
 
     invoke-virtual {v8}, Landroid/view/ViewGroup;->getWidth()I
@@ -324,7 +304,6 @@
 
     if-lez v10, :cond_0
 
-    .line 9
     invoke-virtual {v8}, Landroid/view/ViewGroup;->getWidth()I
 
     move-result v10
@@ -333,7 +312,6 @@
 
     iput v11, v2, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
 
-    .line 10
     aget v10, p1, v7
 
     int-to-float v11, v11
@@ -342,7 +320,6 @@
 
     iput v10, v3, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
-    .line 11
     :cond_0
     aget v10, p1, v7
 
@@ -366,10 +343,8 @@
 
     if-gez v10, :cond_1
 
-    .line 12
     iput v5, v2, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
 
-    .line 13
     aget v7, p1, v7
 
     int-to-float v5, v5
@@ -378,7 +353,6 @@
 
     iput v7, v3, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
-    .line 14
     :cond_1
     aget v5, p1, v9
 
@@ -404,7 +378,6 @@
 
     if-lez v5, :cond_3
 
-    .line 15
     aget v5, p1, v9
 
     invoke-virtual {v8}, Landroid/view/ViewGroup;->getHeight()I
@@ -427,7 +400,6 @@
 
     if-ltz v5, :cond_2
 
-    .line 16
     aget v5, p1, v9
 
     invoke-virtual {v8}, Landroid/view/ViewGroup;->getHeight()I
@@ -444,7 +416,6 @@
 
     iput v1, v2, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
-    .line 17
     invoke-virtual {v8}, Landroid/view/ViewGroup;->getHeight()I
 
     move-result v1
@@ -455,7 +426,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_2
     iget v1, v7, Landroid/graphics/Rect;->bottom:I
 
@@ -467,18 +437,14 @@
 
     iput v1, v2, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
-    .line 19
     :cond_3
     :goto_0
     invoke-virtual {v8, v2}, Landroid/view/ViewGroup;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 20
     invoke-static {v8}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 21
     invoke-virtual {v8, v6}, Landroid/view/ViewGroup;->setAlpha(F)V
 
-    .line 22
     new-instance v9, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;
 
     move-object v1, v9
@@ -497,7 +463,6 @@
 
     goto :goto_1
 
-    .line 23
     :cond_4
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -509,7 +474,6 @@
 
     throw p1
 
-    .line 24
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -524,7 +488,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->d:Landroid/view/View;
 
     const/4 v2, 0x0
@@ -533,7 +496,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setClickable(Z)V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->d:Landroid/view/View;
 
@@ -541,7 +503,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setFocusable(Z)V
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->p:Lcom/commsource/beautyplus/f0/kl;
 
@@ -553,38 +514,30 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-virtual {v1}, Landroid/view/ViewGroup;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v2
 
     const/4 v3, 0x0
 
-    .line 6
     invoke-virtual {v2, v3}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
-    .line 7
     invoke-virtual {v2}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
     const/4 v3, 0x0
 
-    .line 8
     invoke-virtual {v2, v3}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     const v3, 0x3dcccccd    # 0.1f
 
-    .line 9
     invoke-virtual {v2, v3}, Landroid/view/ViewPropertyAnimator;->scaleX(F)Landroid/view/ViewPropertyAnimator;
 
-    .line 10
     invoke-virtual {v2, v3}, Landroid/view/ViewPropertyAnimator;->scaleY(F)Landroid/view/ViewPropertyAnimator;
 
-    .line 11
     new-instance v3, Lcom/commsource/studio/gesture/LayerAdjustComponent$a;
 
     invoke-direct {v3, v1}, Lcom/commsource/studio/gesture/LayerAdjustComponent$a;-><init>(Landroidx/recyclerview/widget/RecyclerView;)V
@@ -593,14 +546,12 @@
 
     const-string v1, "animate"
 
-    .line 12
     invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v3, 0x15e
 
     invoke-virtual {v2, v3, v4}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
-    .line 13
     new-instance v1, Landroid/view/animation/OvershootInterpolator;
 
     const v3, 0x3f4ccccd    # 0.8f
@@ -609,10 +560,8 @@
 
     invoke-virtual {v2, v1}, Landroid/view/ViewPropertyAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
 
-    .line 14
     invoke-virtual {v2}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 15
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -626,7 +575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/view/View;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -635,17 +583,14 @@
 
     invoke-direct {v1, v2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance v2, Lcom/commsource/studio/gesture/LayerAdjustComponent$c;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/gesture/LayerAdjustComponent$c;-><init>(Lcom/commsource/studio/gesture/LayerAdjustComponent;)V
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->d:Landroid/view/View;
 
-    .line 4
     new-instance v1, Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -654,17 +599,14 @@
 
     invoke-direct {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->f:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
     const/4 v2, -0x1
 
-    .line 6
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setBackgroundColor(I)V
 
-    .line 7
     new-instance v2, Lcom/commsource/camera/b1/b;
 
     const/high16 v3, 0x41000000    # 8.0f
@@ -675,33 +617,26 @@
 
     const/4 v2, 0x1
 
-    .line 8
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setClipToOutline(Z)V
 
     const/16 v2, 0x1e
 
-    .line 9
     invoke-static {v2}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v2
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setTranslationZ(F)V
 
-    .line 10
     invoke-static {v1}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 11
     iput-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->d:Landroid/view/View;
 
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 14
     new-instance v2, Landroid/view/ViewGroup$LayoutParams;
 
     const/16 v3, 0xa0
@@ -714,25 +649,20 @@
 
     invoke-direct {v2, v3, v4}, Landroid/view/ViewGroup$LayoutParams;-><init>(II)V
 
-    .line 15
     invoke-virtual {p0, v1, v2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->p:Lcom/commsource/beautyplus/f0/kl;
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v1
 
-    .line 17
     new-instance v2, Landroid/view/ViewGroup$LayoutParams;
 
     invoke-direct {v2, v4, v4}, Landroid/view/ViewGroup$LayoutParams;-><init>(II)V
 
-    .line 18
     invoke-virtual {p0, v1, v2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -754,7 +684,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     if-eqz v1, :cond_0
@@ -769,17 +698,14 @@
 
     invoke-direct {v2, v3, v4}, Landroidx/recyclerview/widget/GridLayoutManager;-><init>(Landroid/content/Context;I)V
 
-    .line 2
     new-instance v3, Lcom/commsource/studio/gesture/LayerAdjustComponent$d;
 
     invoke-direct {v3, p1}, Lcom/commsource/studio/gesture/LayerAdjustComponent$d;-><init>(Ljava/util/List;)V
 
     invoke-virtual {v2, v3}, Landroidx/recyclerview/widget/GridLayoutManager;->setSpanSizeLookup(Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;)V
 
-    .line 3
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->g:Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;
 
@@ -791,24 +717,20 @@
 
     invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/RecyclerView;->removeItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 5
     :cond_1
     new-instance v1, Lcom/commsource/studio/gesture/LayerAdjustComponent$e;
 
     invoke-direct {v1, p1, p2}, Lcom/commsource/studio/gesture/LayerAdjustComponent$e;-><init>(Ljava/util/List;[I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     if-eqz p1, :cond_2
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 7
     :cond_2
     iput-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->g:Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -821,14 +743,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/h;->D0()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -836,10 +756,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v1}, Lf/d/i/h;->c1(Z)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->p:Lcom/commsource/beautyplus/f0/kl;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/kl;->c:Landroid/widget/LinearLayout;
@@ -852,7 +770,6 @@
 
     const/high16 v2, 0x40e00000    # 7.0f
 
-    .line 5
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v2
@@ -861,7 +778,6 @@
 
     const/high16 v4, 0x41a00000    # 20.0f
 
-    .line 6
     invoke-static {v4}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v4
@@ -870,19 +786,16 @@
 
     const/high16 v5, 0x41900000    # 18.0f
 
-    .line 7
     invoke-static {v5}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v5
 
     float-to-int v5, v5
 
-    .line 8
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v6
 
-    .line 9
     iget-object v7, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     if-nez v7, :cond_1
@@ -900,7 +813,6 @@
 
     check-cast v7, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 10
     iget-object v9, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->p:Lcom/commsource/beautyplus/f0/kl;
 
     iget-object v9, v9, Lcom/commsource/beautyplus/f0/kl;->c:Landroid/widget/LinearLayout;
@@ -915,7 +827,6 @@
 
     check-cast v9, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 11
     iget-object v8, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->p:Lcom/commsource/beautyplus/f0/kl;
 
     iget-object v8, v8, Lcom/commsource/beautyplus/f0/kl;->a:Landroid/widget/ImageView;
@@ -934,7 +845,6 @@
 
     check-cast v8, Landroid/widget/LinearLayout$LayoutParams;
 
-    .line 12
     iget-object v12, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->p:Lcom/commsource/beautyplus/f0/kl;
 
     iget-object v12, v12, Lcom/commsource/beautyplus/f0/kl;->b:Landroid/widget/TextView;
@@ -951,7 +861,6 @@
 
     check-cast v12, Landroid/widget/LinearLayout$LayoutParams;
 
-    .line 13
     iget-object v11, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     if-nez v11, :cond_2
@@ -988,7 +897,6 @@
 
     iput v11, v9, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 14
     iget v7, v7, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
     iget-object v11, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
@@ -1010,7 +918,6 @@
 
     if-lt v7, v11, :cond_6
 
-    .line 15
     iget-object v7, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     if-nez v7, :cond_5
@@ -1026,36 +933,28 @@
 
     add-int/2addr v7, v2
 
-    .line 16
     iput v7, v9, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
-    .line 17
     iput v4, v9, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
     sub-int/2addr v6, v4
 
     sub-int/2addr v6, v7
 
-    .line 18
     iput v6, v9, Landroid/widget/FrameLayout$LayoutParams;->width:I
 
     const/4 v2, 0x5
 
-    .line 19
     iput v2, v8, Landroid/widget/LinearLayout$LayoutParams;->gravity:I
 
-    .line 20
     iput v5, v8, Landroid/widget/LinearLayout$LayoutParams;->rightMargin:I
 
-    .line 21
     iput v1, v8, Landroid/widget/LinearLayout$LayoutParams;->leftMargin:I
 
-    .line 22
     iput v2, v12, Landroid/widget/LinearLayout$LayoutParams;->gravity:I
 
     goto :goto_0
 
-    .line 23
     :cond_6
     iget-object v7, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -1068,36 +967,28 @@
 
     move-result v7
 
-    .line 24
     iput v4, v9, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
     add-int/2addr v7, v2
 
-    .line 25
     iput v7, v9, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
     sub-int/2addr v6, v7
 
     sub-int/2addr v6, v4
 
-    .line 26
     iput v6, v9, Landroid/widget/FrameLayout$LayoutParams;->width:I
 
     const/4 v2, 0x3
 
-    .line 27
     iput v2, v8, Landroid/widget/LinearLayout$LayoutParams;->gravity:I
 
-    .line 28
     iput v1, v8, Landroid/widget/LinearLayout$LayoutParams;->rightMargin:I
 
-    .line 29
     iput v5, v8, Landroid/widget/LinearLayout$LayoutParams;->leftMargin:I
 
-    .line 30
     iput v2, v12, Landroid/widget/LinearLayout$LayoutParams;->gravity:I
 
-    .line 31
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->p:Lcom/commsource/beautyplus/f0/kl;
 
@@ -1107,7 +998,6 @@
 
     invoke-virtual {v1, v9}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 32
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->p:Lcom/commsource/beautyplus/f0/kl;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/kl;->a:Landroid/widget/ImageView;
@@ -1116,7 +1006,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 33
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->p:Lcom/commsource/beautyplus/f0/kl;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/kl;->b:Landroid/widget/TextView;
@@ -1125,12 +1014,10 @@
 
     invoke-virtual {v1, v12}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 34
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 35
     :cond_8
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1140,7 +1027,6 @@
 
     throw v1
 
-    .line 36
     :cond_9
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1150,7 +1036,6 @@
 
     throw v1
 
-    .line 37
     :cond_a
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1160,7 +1045,6 @@
 
     throw v1
 
-    .line 38
     :cond_b
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1249,7 +1133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->p:Lcom/commsource/beautyplus/f0/kl;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/kl;->c:Landroid/widget/LinearLayout;
@@ -1266,7 +1149,6 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1274,7 +1156,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1303,15 +1184,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->k()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -1325,12 +1203,10 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->d:Landroid/view/View;
 
@@ -1338,7 +1214,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setClickable(Z)V
 
-    .line 6
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->d:Landroid/view/View;
 
@@ -1346,11 +1221,9 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setFocusable(Z)V
 
-    .line 7
     :cond_3
     invoke-static {v2}, Lcom/commsource/studio/m0;->a0(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->a:Landroid/graphics/Rect;
 
     invoke-virtual {v1}, Landroid/graphics/Rect;->isEmpty()Z
@@ -1359,22 +1232,18 @@
 
     if-eqz v1, :cond_4
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->a:Landroid/graphics/Rect;
 
     const/16 v2, 0xa
 
-    .line 10
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v3
 
-    .line 11
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v4
 
-    .line 12
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v5
@@ -1385,7 +1254,6 @@
 
     sub-int/2addr v5, v6
 
-    .line 13
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
     move-result v6
@@ -1396,10 +1264,8 @@
 
     sub-int/2addr v6, v2
 
-    .line 14
     invoke-virtual {v1, v3, v4, v5, v6}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 15
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -1413,10 +1279,8 @@
 
     if-eqz v1, :cond_a
 
-    .line 16
     check-cast v1, Lcom/commsource/widget/h1/e;
 
-    .line 17
     instance-of v2, p2, Lcom/commsource/studio/bean/StickerLayerInfo;
 
     const/4 v3, 0x3
@@ -1432,7 +1296,6 @@
 
     if-eqz v2, :cond_6
 
-    .line 18
     :goto_0
     new-instance v2, Ljava/util/ArrayList;
 
@@ -1444,27 +1307,23 @@
 
     invoke-direct {v2, v5}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 19
     sget-object v5, Lcom/commsource/studio/gesture/AdjustOptEnum;->Eraser:Lcom/commsource/studio/gesture/AdjustOptEnum;
 
     invoke-virtual {v2, v4, v5}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
     new-array v3, v3, [I
 
-    .line 20
     fill-array-data v3, :array_0
 
     invoke-direct {p0, v2, v3}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->l(Ljava/util/List;[I)V
 
     goto :goto_2
 
-    .line 21
     :cond_6
     instance-of v2, p2, Lcom/commsource/studio/bean/TextLayerInfo;
 
     if-eqz v2, :cond_7
 
-    .line 22
     new-instance v2, Ljava/util/ArrayList;
 
     sget-object v5, Lcom/commsource/studio/gesture/AdjustOptEnum;->Companion:Lcom/commsource/studio/gesture/AdjustOptEnum$a;
@@ -1475,32 +1334,27 @@
 
     invoke-direct {v2, v5}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 23
     sget-object v5, Lcom/commsource/studio/gesture/AdjustOptEnum;->Flip:Lcom/commsource/studio/gesture/AdjustOptEnum;
 
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 24
     sget-object v5, Lcom/commsource/studio/gesture/AdjustOptEnum;->Edit:Lcom/commsource/studio/gesture/AdjustOptEnum;
 
     invoke-virtual {v2, v4, v5}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
     new-array v3, v3, [I
 
-    .line 25
     fill-array-data v3, :array_1
 
     invoke-direct {p0, v2, v3}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->l(Ljava/util/List;[I)V
 
     goto :goto_2
 
-    .line 26
     :cond_7
     instance-of v2, p2, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     if-eqz v2, :cond_9
 
-    .line 27
     new-instance v2, Ljava/util/ArrayList;
 
     sget-object v3, Lcom/commsource/studio/gesture/AdjustOptEnum;->Companion:Lcom/commsource/studio/gesture/AdjustOptEnum$a;
@@ -1511,7 +1365,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 28
     move-object v3, p2
 
     check-cast v3, Lcom/commsource/studio/bean/GroupLayerInfo;
@@ -1522,14 +1375,12 @@
 
     if-nez v3, :cond_8
 
-    .line 29
     sget-object v3, Lcom/commsource/studio/gesture/AdjustOptEnum;->MakeupGroup:Lcom/commsource/studio/gesture/AdjustOptEnum;
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 30
     :cond_8
     sget-object v3, Lcom/commsource/studio/gesture/AdjustOptEnum;->CancelGroup:Lcom/commsource/studio/gesture/AdjustOptEnum;
 
@@ -1540,14 +1391,12 @@
 
     new-array v3, v3, [I
 
-    .line 31
     fill-array-data v3, :array_2
 
     invoke-direct {p0, v2, v3}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->l(Ljava/util/List;[I)V
 
     goto :goto_2
 
-    .line 32
     :cond_9
     new-instance v2, Ljava/util/ArrayList;
 
@@ -1559,25 +1408,21 @@
 
     invoke-direct {v2, v5}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 33
     sget-object v5, Lcom/commsource/studio/gesture/AdjustOptEnum;->Cutout:Lcom/commsource/studio/gesture/AdjustOptEnum;
 
     invoke-virtual {v2, v4, v5}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
     new-array v3, v3, [I
 
-    .line 34
     fill-array-data v3, :array_3
 
     invoke-direct {p0, v2, v3}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->l(Ljava/util/List;[I)V
 
-    .line 35
     :goto_2
     const-class v3, Lcom/commsource/studio/gesture/LayerAdjustViewHolder;
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->N(Ljava/util/List;Ljava/lang/Class;)V
 
-    .line 36
     const-class v2, Lcom/commsource/studio/gesture/AdjustOptEnum;
 
     new-instance v3, Lcom/commsource/studio/gesture/LayerAdjustComponent$f;
@@ -1586,7 +1431,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 37
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     if-eqz v1, :cond_b
@@ -1599,7 +1443,6 @@
 
     goto :goto_3
 
-    .line 38
     :cond_a
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -1611,7 +1454,6 @@
 
     throw p1
 
-    .line 39
     :cond_b
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -58,16 +58,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/nk1;->a:Ljava/lang/Object;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/nk1;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/nk1;->c:Lcom/google/android/gms/internal/ads/rq1;
 
     return-void
@@ -83,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nk1;->a:Ljava/lang/Object;
 
     return-object v0
@@ -92,7 +87,6 @@
 .method public final addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nk1;->c:Lcom/google/android/gms/internal/ads/rq1;
 
     invoke-interface {v0, p1, p2}, Lcom/google/android/gms/internal/ads/rq1;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
@@ -103,7 +97,6 @@
 .method public final b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nk1;->b:Ljava/lang/String;
 
     return-object v0
@@ -112,7 +105,6 @@
 .method public final cancel(Z)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nk1;->c:Lcom/google/android/gms/internal/ads/rq1;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/Future;->cancel(Z)Z
@@ -137,7 +129,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nk1;->c:Lcom/google/android/gms/internal/ads/rq1;
 
     invoke-interface {v0}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
@@ -165,7 +156,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nk1;->c:Lcom/google/android/gms/internal/ads/rq1;
 
     invoke-interface {v0, p1, p2, p3}, Ljava/util/concurrent/Future;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
@@ -178,7 +168,6 @@
 .method public final isCancelled()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nk1;->c:Lcom/google/android/gms/internal/ads/rq1;
 
     invoke-interface {v0}, Ljava/util/concurrent/Future;->isCancelled()Z
@@ -191,7 +180,6 @@
 .method public final isDone()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nk1;->c:Lcom/google/android/gms/internal/ads/rq1;
 
     invoke-interface {v0}, Ljava/util/concurrent/Future;->isDone()Z
@@ -204,7 +192,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nk1;->b:Ljava/lang/String;
 
     invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I

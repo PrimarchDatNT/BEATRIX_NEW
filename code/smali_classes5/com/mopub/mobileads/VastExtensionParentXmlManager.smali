@@ -22,13 +22,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/mobileads/VastExtensionParentXmlManager;->mVastExtensionParentNode:Lorg/w3c/dom/Node;
 
     return-void
@@ -50,17 +47,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mobileads/VastExtensionParentXmlManager;->mVastExtensionParentNode:Lorg/w3c/dom/Node;
 
     const-string v2, "Extension"
 
-    .line 3
     invoke-static {v1, v2}, Lcom/mopub/mobileads/util/XmlUtils;->getMatchingChildNodes(Lorg/w3c/dom/Node;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
@@ -69,7 +63,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -88,7 +81,6 @@
 
     check-cast v2, Lorg/w3c/dom/Node;
 
-    .line 5
     new-instance v3, Lcom/mopub/mobileads/VastExtensionXmlManager;
 
     invoke-direct {v3, v2}, Lcom/mopub/mobileads/VastExtensionXmlManager;-><init>(Lorg/w3c/dom/Node;)V

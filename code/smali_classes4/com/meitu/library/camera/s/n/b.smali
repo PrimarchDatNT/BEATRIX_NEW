@@ -19,7 +19,6 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     sput-wide v1, Lcom/meitu/library/camera/s/n/b;->b:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -30,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -48,7 +46,6 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-wide v2, Lcom/meitu/library/camera/s/n/b;->b:J
 
     const-wide/16 v4, 0x0
@@ -63,7 +60,6 @@
 
     const/4 v3, 0x0
 
-    .line 2
     :try_start_1
     new-instance v4, Ljava/io/BufferedReader;
 
@@ -79,7 +75,6 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_3
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 3
     :try_start_2
     invoke-virtual {v4}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -93,7 +88,6 @@
 
     move-object v3, v2
 
-    .line 4
     :cond_0
     :try_start_3
     invoke-virtual {v4}, Ljava/io/BufferedReader;->close()V
@@ -106,7 +100,6 @@
     :catch_0
     move-exception v2
 
-    .line 5
     :goto_0
     :try_start_4
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
@@ -135,7 +128,6 @@
 
     move-object v4, v3
 
-    .line 6
     :goto_1
     :try_start_5
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
@@ -144,7 +136,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 7
     :try_start_6
     invoke-virtual {v4}, Ljava/io/BufferedReader;->close()V
     :try_end_6
@@ -163,7 +154,6 @@
 
     move-object v4, v3
 
-    .line 8
     :goto_2
     :try_start_7
     invoke-virtual {v2}, Ljava/io/FileNotFoundException;->printStackTrace()V
@@ -172,7 +162,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 9
     :try_start_8
     invoke-virtual {v4}, Ljava/io/BufferedReader;->close()V
     :try_end_8
@@ -192,7 +181,6 @@
 
     const/16 v2, 0x3a
 
-    .line 10
     :try_start_9
     invoke-virtual {v3, v2}, Ljava/lang/String;->indexOf(I)I
 
@@ -200,14 +188,12 @@
 
     const/16 v4, 0x6b
 
-    .line 11
     invoke-virtual {v3, v4}, Ljava/lang/String;->indexOf(I)I
 
     move-result v4
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 12
     invoke-virtual {v3, v2, v4}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v2
@@ -216,7 +202,6 @@
 
     move-result-object v2
 
-    .line 13
     invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v2
@@ -227,7 +212,6 @@
 
     const-string v2, "MTCSDCardUtil"
 
-    .line 14
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -258,7 +242,6 @@
     :goto_4
     if-eqz v3, :cond_2
 
-    .line 15
     :try_start_a
     invoke-virtual {v3}, Ljava/io/BufferedReader;->close()V
     :try_end_a
@@ -270,18 +253,15 @@
     :catch_7
     move-exception v3
 
-    .line 16
     :try_start_b
     invoke-virtual {v3}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 17
     :cond_2
     :goto_5
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v2
 
-    .line 18
     :cond_3
     :goto_6
     sget-wide v2, Lcom/meitu/library/camera/s/n/b;->b:J

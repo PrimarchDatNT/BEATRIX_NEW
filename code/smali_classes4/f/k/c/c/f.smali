@@ -33,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -46,10 +45,8 @@
 
     const/4 v1, 0x1
 
-    .line 2
     sput-boolean v1, Lf/k/c/c/f;->c:Z
 
-    .line 3
     :try_start_0
     const-class v2, Landroid/widget/Toast;
 
@@ -61,10 +58,8 @@
 
     sput-object v2, Lf/k/c/c/f;->d:Ljava/lang/reflect/Field;
 
-    .line 4
     invoke-virtual {v2, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 5
     sget-object v2, Lf/k/c/c/f;->d:Ljava/lang/reflect/Field;
 
     invoke-virtual {v2}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
@@ -79,7 +74,6 @@
 
     sput-object v2, Lf/k/c/c/f;->e:Ljava/lang/reflect/Field;
 
-    .line 6
     invoke-virtual {v2, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -89,10 +83,8 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -102,10 +94,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "u can\'t instantiate me..."
@@ -126,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -145,7 +134,6 @@
 
     invoke-static {p0, p1}, Lf/k/c/c/f;->C(Ljava/lang/CharSequence;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -162,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -181,7 +168,6 @@
 
     invoke-static {p0, p1}, Lf/k/c/c/f;->C(Ljava/lang/CharSequence;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -196,10 +182,8 @@
 
     const/16 v1, 0x11
 
-    .line 1
     invoke-static {p0, p1, v1}, Lf/k/c/c/f;->D(Ljava/lang/CharSequence;II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -214,10 +198,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, p2, v1}, Lf/k/c/c/f;->E(Ljava/lang/CharSequence;III)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -230,21 +212,17 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean p3, Lf/k/c/c/f;->c:Z
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-static {}, Lf/k/c/c/f;->e()V
 
-    .line 3
     :cond_0
     sget-object p3, Lf/k/c/c/f;->a:Landroid/widget/Toast;
 
     if-nez p3, :cond_1
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p3
@@ -255,23 +233,19 @@
 
     sput-object p0, Lf/k/c/c/f;->a:Landroid/widget/Toast;
 
-    .line 5
     :cond_1
     sget-object p0, Lf/k/c/c/f;->a:Landroid/widget/Toast;
 
     invoke-virtual {p0, p1}, Landroid/widget/Toast;->setDuration(I)V
 
-    .line 6
     sget-object p0, Lf/k/c/c/f;->a:Landroid/widget/Toast;
 
     invoke-static {p0}, Lf/k/c/c/f;->f(Landroid/widget/Toast;)V
 
-    .line 7
     sget-object p0, Lf/k/c/c/f;->a:Landroid/widget/Toast;
 
     invoke-virtual {p0}, Landroid/widget/Toast;->show()V
 
-    .line 8
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -284,14 +258,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
     invoke-static {p0, p1}, Lf/k/c/c/f;->C(Ljava/lang/CharSequence;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -308,10 +280,8 @@
 
     const/16 v2, 0x50
 
-    .line 1
     invoke-static {p0, v1, v2, p1}, Lf/k/c/c/f;->E(Ljava/lang/CharSequence;III)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -328,7 +298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -343,7 +312,6 @@
 
     invoke-static {p0}, Lf/k/c/c/f;->I(Ljava/lang/CharSequence;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -360,10 +328,8 @@
 
     const/16 v2, 0x11
 
-    .line 1
     invoke-static {p0, v1, v2}, Lf/k/c/c/f;->D(Ljava/lang/CharSequence;II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -376,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/c/c/f;->C(Ljava/lang/CharSequence;I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -391,7 +356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/c/c/f;->A(II)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -406,7 +370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lf/k/c/c/f;->B(II[Ljava/lang/Object;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -421,7 +384,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lf/k/c/c/f;->F(Ljava/lang/String;I[Ljava/lang/Object;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -436,20 +398,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/c/c/f;->a:Landroid/widget/Toast;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/widget/Toast;->cancel()V
 
     const/4 v1, 0x0
 
-    .line 3
     sput-object v1, Lf/k/c/c/f;->a:Landroid/widget/Toast;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -463,7 +421,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     sget-object v1, Lf/k/c/c/f;->d:Ljava/lang/reflect/Field;
 
@@ -471,7 +428,6 @@
 
     move-result-object p0
 
-    .line 2
     sget-object v1, Lf/k/c/c/f;->e:Ljava/lang/reflect/Field;
 
     invoke-virtual {v1, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -480,7 +436,6 @@
 
     check-cast v1, Landroid/os/Handler;
 
-    .line 3
     sget-object v2, Lf/k/c/c/f;->e:Ljava/lang/reflect/Field;
 
     new-instance v3, Lf/k/c/c/f$i;
@@ -496,10 +451,8 @@
     :catchall_0
     move-exception p0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -513,10 +466,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lf/k/c/c/f;->c:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -535,10 +486,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p0, v1}, Lf/k/c/c/f;->A(II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -557,10 +506,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p0, v1, p1}, Lf/k/c/c/f;->B(II[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -575,10 +522,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p0, v1}, Lf/k/c/c/f;->C(Ljava/lang/CharSequence;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -593,10 +538,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p0, v1, p1}, Lf/k/c/c/f;->F(Ljava/lang/String;I[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -613,7 +556,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -628,7 +570,6 @@
 
     invoke-static {p0}, Lf/k/c/c/f;->m(Ljava/lang/CharSequence;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -645,10 +586,8 @@
 
     const/16 v2, 0x11
 
-    .line 1
     invoke-static {p0, v1, v2}, Lf/k/c/c/f;->D(Ljava/lang/CharSequence;II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -665,7 +604,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/c/c/f;->b:Landroid/os/Handler;
 
     new-instance v2, Lf/k/c/c/f$f;
@@ -674,7 +612,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -691,7 +628,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/c/c/f;->b:Landroid/os/Handler;
 
     new-instance v2, Lf/k/c/c/f$g;
@@ -700,7 +636,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -713,7 +648,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/c/c/f;->b:Landroid/os/Handler;
 
     new-instance v2, Lf/k/c/c/f$e;
@@ -722,7 +656,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -735,7 +668,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/c/c/f;->b:Landroid/os/Handler;
 
     new-instance v2, Lf/k/c/c/f$h;
@@ -744,7 +676,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -763,10 +694,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1}, Lf/k/c/c/f;->A(II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -785,10 +714,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1, p1}, Lf/k/c/c/f;->B(II[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -803,10 +730,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1}, Lf/k/c/c/f;->C(Ljava/lang/CharSequence;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -821,10 +746,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1, p1}, Lf/k/c/c/f;->F(Ljava/lang/String;I[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -837,7 +760,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -850,17 +772,14 @@
 
     if-lez v3, :cond_0
 
-    .line 2
     invoke-static {p0}, Lf/k/c/c/f;->y(Ljava/lang/CharSequence;)V
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p0
 
     sput-wide p0, Lf/k/c/c/f;->f:J
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -878,7 +797,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/c/c/f;->b:Landroid/os/Handler;
 
     new-instance v2, Lf/k/c/c/f$b;
@@ -887,7 +805,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -904,7 +821,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/c/c/f;->b:Landroid/os/Handler;
 
     new-instance v2, Lf/k/c/c/f$c;
@@ -913,7 +829,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -926,7 +841,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/c/c/f;->b:Landroid/os/Handler;
 
     new-instance v2, Lf/k/c/c/f$a;
@@ -935,7 +849,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -948,7 +861,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/c/c/f;->b:Landroid/os/Handler;
 
     new-instance v2, Lf/k/c/c/f$d;
@@ -957,7 +869,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

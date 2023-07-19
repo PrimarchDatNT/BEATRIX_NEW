@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/squareup/okhttp/internal/Platform;->findPlatform()Lcom/squareup/okhttp/internal/Platform;
 
     move-result-object v0
@@ -35,7 +34,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,12 +50,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lokio/Buffer;
 
     invoke-direct {v0}, Lokio/Buffer;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -67,21 +63,18 @@
     :goto_0
     if-ge v2, v1, :cond_1
 
-    .line 3
     invoke-interface {p0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/squareup/okhttp/Protocol;
 
-    .line 4
     sget-object v4, Lcom/squareup/okhttp/Protocol;->HTTP_1_0:Lcom/squareup/okhttp/Protocol;
 
     if-ne v3, v4, :cond_0
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-virtual {v3}, Lcom/squareup/okhttp/Protocol;->toString()Ljava/lang/String;
 
@@ -93,7 +86,6 @@
 
     invoke-virtual {v0, v4}, Lokio/Buffer;->writeByte(I)Lokio/Buffer;
 
-    .line 6
     invoke-virtual {v3}, Lcom/squareup/okhttp/Protocol;->toString()Ljava/lang/String;
 
     move-result-object v3
@@ -105,7 +97,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {v0}, Lokio/Buffer;->readByteArray()[B
 
@@ -117,7 +108,6 @@
 .method private static findPlatform()Lcom/squareup/okhttp/internal/Platform;
     .locals 13
 
-    .line 1
     const-class v0, [B
 
     const/4 v1, 0x1
@@ -142,14 +132,12 @@
     :try_start_1
     const-string v3, "org.apache.harmony.xnet.provider.jsse.SSLParametersImpl"
 
-    .line 2
     invoke-static {v3}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v3
 
     goto :goto_0
 
-    .line 3
     :goto_1
     new-instance v6, Lcom/squareup/okhttp/internal/OptionalMethod;
 
@@ -165,7 +153,6 @@
 
     invoke-direct {v6, v7, v3, v4}, Lcom/squareup/okhttp/internal/OptionalMethod;-><init>(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)V
 
-    .line 4
     new-instance v3, Lcom/squareup/okhttp/internal/OptionalMethod;
 
     const-string v4, "setHostname"
@@ -183,7 +170,6 @@
     :try_start_2
     const-string v4, "android.net.TrafficStats"
 
-    .line 5
     invoke-static {v4}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v4
@@ -192,7 +178,6 @@
 
     new-array v9, v1, [Ljava/lang/Class;
 
-    .line 6
     const-class v10, Ljava/net/Socket;
 
     aput-object v10, v9, v2
@@ -209,7 +194,6 @@
 
     new-array v10, v1, [Ljava/lang/Class;
 
-    .line 7
     const-class v11, Ljava/net/Socket;
 
     aput-object v11, v10, v2
@@ -224,10 +208,8 @@
     :try_start_4
     const-string v9, "android.net.Network"
 
-    .line 8
     invoke-static {v9}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
-    .line 9
     new-instance v9, Lcom/squareup/okhttp/internal/OptionalMethod;
 
     const-string v10, "getAlpnSelectedProtocol"
@@ -239,7 +221,6 @@
     .catch Ljava/lang/ClassNotFoundException; {:try_start_4 .. :try_end_4} :catch_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_4 .. :try_end_4} :catch_1
 
-    .line 10
     :try_start_5
     new-instance v10, Lcom/squareup/okhttp/internal/OptionalMethod;
 
@@ -285,7 +266,6 @@
 
     move-object v9, v4
 
-    .line 11
     :try_start_6
     new-instance v0, Lcom/squareup/okhttp/internal/Platform$Android;
 
@@ -303,7 +283,6 @@
     :try_start_7
     const-string v0, "sun.security.ssl.SSLContextImpl"
 
-    .line 12
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -318,13 +297,11 @@
 
     const-string v4, "org.eclipse.jetty.alpn.ALPN"
 
-    .line 13
     :try_start_9
     invoke-static {v4}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v4
 
-    .line 14
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -343,7 +320,6 @@
 
     move-result-object v5
 
-    .line 15
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -362,7 +338,6 @@
 
     move-result-object v8
 
-    .line 16
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -387,7 +362,6 @@
 
     new-array v6, v6, [Ljava/lang/Class;
 
-    .line 17
     const-class v7, Ljavax/net/ssl/SSLSocket;
 
     aput-object v7, v6, v2
@@ -402,7 +376,6 @@
 
     new-array v6, v1, [Ljava/lang/Class;
 
-    .line 18
     const-class v7, Ljavax/net/ssl/SSLSocket;
 
     aput-object v7, v6, v2
@@ -415,7 +388,6 @@
 
     new-array v1, v1, [Ljava/lang/Class;
 
-    .line 19
     const-class v7, Ljavax/net/ssl/SSLSocket;
 
     aput-object v7, v1, v2
@@ -424,7 +396,6 @@
 
     move-result-object v7
 
-    .line 20
     new-instance v1, Lcom/squareup/okhttp/internal/Platform$JdkWithJettyBootPlatform;
 
     move-object v3, v1
@@ -438,7 +409,6 @@
 
     return-object v1
 
-    .line 21
     :catch_6
     :try_start_a
     new-instance v1, Lcom/squareup/okhttp/internal/Platform$JdkPlatform;
@@ -449,7 +419,6 @@
 
     return-object v1
 
-    .line 22
     :catch_7
     new-instance v0, Lcom/squareup/okhttp/internal/Platform;
 
@@ -461,7 +430,6 @@
 .method public static get()Lcom/squareup/okhttp/internal/Platform;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/internal/Platform;->PLATFORM:Lcom/squareup/okhttp/internal/Platform;
 
     return-object v0
@@ -482,7 +450,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Ljava/lang/Object;
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -494,7 +461,6 @@
 
     if-eq v1, v0, :cond_2
 
-    .line 2
     :try_start_0
     invoke-virtual {v1, p2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
@@ -502,17 +468,14 @@
 
     const/4 v4, 0x1
 
-    .line 3
     invoke-virtual {v3, v4}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 4
     invoke-virtual {v3, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     if-eqz v3, :cond_1
 
-    .line 5
     invoke-virtual {p1, v3}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     move-result v4
@@ -521,7 +484,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     invoke-virtual {p1, v3}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -536,7 +498,6 @@
     :goto_1
     return-object v2
 
-    .line 7
     :catch_0
     new-instance p0, Ljava/lang/AssertionError;
 
@@ -544,7 +505,6 @@
 
     throw p0
 
-    .line 8
     :catch_1
     invoke-virtual {v1}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
 
@@ -555,21 +515,18 @@
     :cond_2
     const-string v1, "delegate"
 
-    .line 9
     invoke-virtual {p2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_3
 
-    .line 10
     invoke-static {p0, v0, v1}, Lcom/squareup/okhttp/internal/Platform;->readFieldOrNull(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     if-eqz p0, :cond_3
 
-    .line 11
     invoke-static {p0, p1, p2}, Lcom/squareup/okhttp/internal/Platform;->readFieldOrNull(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -612,7 +569,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/net/Socket;->connect(Ljava/net/SocketAddress;I)V
 
     return-void
@@ -637,7 +593,6 @@
 .method public log(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
@@ -648,7 +603,6 @@
 .method public logW(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
@@ -678,7 +632,6 @@
 .method public trustRootIndex(Ljavax/net/ssl/X509TrustManager;)Lcom/squareup/okhttp/internal/tls/TrustRootIndex;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/internal/tls/RealTrustRootIndex;
 
     invoke-interface {p1}, Ljavax/net/ssl/X509TrustManager;->getAcceptedIssuers()[Ljava/security/cert/X509Certificate;

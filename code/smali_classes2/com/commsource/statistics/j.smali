@@ -23,7 +23,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/statistics/j;
 
     invoke-direct {v1}, Lcom/commsource/statistics/j;-><init>()V
@@ -32,7 +31,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     sput-object v1, Lcom/commsource/statistics/j;->q:Lcom/meitu/library/optimus/apm/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -43,7 +41,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/camera/statistics/StatisticsTeemoImpl;-><init>()V
 
     return-void
@@ -61,12 +58,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/commsource/statistics/j;->q:Lcom/meitu/library/optimus/apm/a;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/meitu/library/optimus/apm/a$b;
 
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
@@ -81,7 +76,6 @@
 
     sput-object v2, Lcom/commsource/statistics/j;->q:Lcom/meitu/library/optimus/apm/a;
 
-    .line 3
     invoke-static {}, Lcom/commsource/statistics/i;->e()Ljava/lang/String;
 
     move-result-object v2
@@ -92,7 +86,6 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     sget-object v2, Lcom/commsource/statistics/j;->q:Lcom/meitu/library/optimus/apm/a;
 
     invoke-virtual {v2}, Lcom/meitu/library/optimus/apm/a;->g()Lcom/meitu/library/optimus/apm/e;
@@ -105,7 +98,6 @@
 
     invoke-virtual {v2, v3}, Lcom/meitu/library/optimus/apm/e;->Q(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     sget-object v2, Lcom/commsource/statistics/j;->q:Lcom/meitu/library/optimus/apm/a;
 
@@ -132,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/statistics/j;->p:Lcom/commsource/statistics/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -159,21 +150,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v2, "camera_sdk_timecosuming"
 
-    .line 2
     invoke-virtual {v2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_5
 
-    .line 3
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -198,7 +186,6 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -225,14 +212,12 @@
 
     const-string p1, "effect_id"
 
-    .line 5
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -258,14 +243,12 @@
     :cond_0
     const-string p1, "primary_total"
 
-    .line 7
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 8
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -291,14 +274,12 @@
     :cond_1
     const-string p1, "render_total"
 
-    .line 9
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 10
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -324,14 +305,12 @@
     :cond_2
     const-string p1, "one_frame_handle"
 
-    .line 11
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
-    .line 12
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -357,14 +336,12 @@
     :cond_3
     const-string p1, "EncodeTextureOutputReceiver"
 
-    .line 13
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_4
 
-    .line 14
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -398,7 +375,6 @@
     :cond_4
     const-string p1, "\n    \u662f\u5426\u5f55\u5236\uff1a\u5426"
 
-    .line 15
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto/16 :goto_0
@@ -406,7 +382,6 @@
     :cond_5
     const-string v2, "camera_sdk_operate"
 
-    .line 16
     invoke-virtual {v2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -415,14 +390,12 @@
 
     const-string p1, "cold_boot"
 
-    .line 17
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_6
 
-    .line 18
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -448,14 +421,12 @@
     :cond_6
     const-string p1, "special_cold_boot"
 
-    .line 19
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_7
 
-    .line 20
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -481,14 +452,12 @@
     :cond_7
     const-string p1, "warm_boot"
 
-    .line 21
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_8
 
-    .line 22
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -514,14 +483,12 @@
     :cond_8
     const-string p1, "special_warm_boot"
 
-    .line 23
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_9
 
-    .line 24
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -547,14 +514,12 @@
     :cond_9
     const-string p1, "open_camera"
 
-    .line 25
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_a
 
-    .line 26
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -580,14 +545,12 @@
     :cond_a
     const-string p1, "resume_to_camera"
 
-    .line 27
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_b
 
-    .line 28
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -613,14 +576,12 @@
     :cond_b
     const-string p1, "quit_camera"
 
-    .line 29
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_c
 
-    .line 30
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -646,14 +607,12 @@
     :cond_c
     const-string p1, "switch_camera"
 
-    .line 31
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_d
 
-    .line 32
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -679,14 +638,12 @@
     :cond_d
     const-string p1, "switch_ratio"
 
-    .line 33
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_e
 
-    .line 34
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -712,14 +669,12 @@
     :cond_e
     const-string p1, "capture_to_confirm"
 
-    .line 35
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_f
 
-    .line 36
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -745,14 +700,12 @@
     :cond_f
     const-string p1, "cold_boot_error_data"
 
-    .line 37
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_10
 
-    .line 38
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -778,14 +731,12 @@
     :cond_10
     const-string p1, "special_cold_boot_error_data"
 
-    .line 39
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_11
 
-    .line 40
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -811,14 +762,12 @@
     :cond_11
     const-string p1, "warm_boot_error_data"
 
-    .line 41
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_12
 
-    .line 42
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -844,14 +793,12 @@
     :cond_12
     const-string p1, "special_warm_boot_error_data"
 
-    .line 43
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_13
 
-    .line 44
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -877,14 +824,12 @@
     :cond_13
     const-string p1, "open_camera_error_data"
 
-    .line 45
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_14
 
-    .line 46
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -910,14 +855,12 @@
     :cond_14
     const-string p1, "resume_to_camera_error_data"
 
-    .line 47
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_15
 
-    .line 48
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -943,14 +886,12 @@
     :cond_15
     const-string p1, "quit_camera_error_data"
 
-    .line 49
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_16
 
-    .line 50
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -976,14 +917,12 @@
     :cond_16
     const-string p1, "switch_camera_error_data"
 
-    .line 51
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_17
 
-    .line 52
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1011,14 +950,12 @@
     :cond_17
     const-string p1, "switch_ratio_error_data"
 
-    .line 53
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_18
 
-    .line 54
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1046,14 +983,12 @@
     :cond_18
     const-string p1, "capture_to_confirm_error_data"
 
-    .line 55
     invoke-interface {p2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_19
 
-    .line 56
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1078,7 +1013,6 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 57
     :cond_19
     :goto_0
     new-instance p1, Ljava/lang/StringBuilder;
@@ -1105,7 +1039,6 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 58
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1130,7 +1063,6 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 59
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1153,7 +1085,6 @@
 
     invoke-static {p2, p1}, Lcom/meitu/library/camera/util/h;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 60
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1174,10 +1105,8 @@
 
     const/16 v3, 0x3ec
 
-    .line 1
     invoke-static {v2, v3, p1, v1}, Lcom/commsource/statistics/i;->E(IILjava/lang/String;[Lcom/meitu/library/analytics/y/l/j/b$a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1194,7 +1123,6 @@
 
     new-array v2, v1, [Lcom/meitu/library/analytics/y/l/j/b$a;
 
-    .line 1
     new-instance v3, Lcom/meitu/library/analytics/y/l/j/b$a;
 
     invoke-direct {v3, p2, p3}, Lcom/meitu/library/analytics/y/l/j/b$a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
@@ -1207,7 +1135,6 @@
 
     invoke-static {v1, p2, p1, v2}, Lcom/commsource/statistics/i;->E(IILjava/lang/String;[Lcom/meitu/library/analytics/y/l/j/b$a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1230,19 +1157,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p2}, Ljava/util/Map;->size()I
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1266,7 +1190,6 @@
 
     invoke-interface {p2, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1287,7 +1210,6 @@
 
     invoke-interface {p2, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1308,14 +1230,12 @@
 
     invoke-interface {p2, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-static {}, Lcom/meitu/library/camera/util/h;->h()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 7
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1340,20 +1260,17 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/camera/util/h;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {p0, p1, p2}, Lcom/commsource/statistics/j;->A(Ljava/lang/String;Ljava/util/Map;)V
 
     :cond_1
     const-string v1, "camera_sdk_operate"
 
-    .line 9
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1363,14 +1280,12 @@
 
     const/16 v2, 0x3ec
 
-    .line 11
     invoke-static {p2}, Lcom/meitu/library/camera/statistics/a;->b(Ljava/util/Map;)[Lcom/meitu/library/analytics/y/l/j/b$a;
 
     move-result-object p2
 
     invoke-static {v1, v2, p1, p2}, Lcom/commsource/statistics/i;->E(IILjava/lang/String;[Lcom/meitu/library/analytics/y/l/j/b$a;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1383,10 +1298,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/meitu/library/camera/statistics/StatisticsTeemoImpl;->s(Ljava/lang/String;Lorg/json/JSONObject;)V
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1411,7 +1324,6 @@
 
     invoke-static {p2, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1424,7 +1336,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/statistics/j;->n:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1439,10 +1350,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/statistics/j;->n:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

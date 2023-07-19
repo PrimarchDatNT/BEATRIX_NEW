@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/HtmlWebViewClient;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/HtmlWebViewClient$1;->this$0:Lcom/mopub/mobileads/HtmlWebViewClient;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onClose()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient$1;->this$0:Lcom/mopub/mobileads/HtmlWebViewClient;
 
     invoke-static {v0}, Lcom/mopub/mobileads/HtmlWebViewClient;->access$100(Lcom/mopub/mobileads/HtmlWebViewClient;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
@@ -47,7 +45,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient$1;->this$0:Lcom/mopub/mobileads/HtmlWebViewClient;
 
     invoke-static {v0}, Lcom/mopub/mobileads/HtmlWebViewClient;->access$100(Lcom/mopub/mobileads/HtmlWebViewClient;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
@@ -63,7 +60,6 @@
 .method public onCrash()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient$1;->this$0:Lcom/mopub/mobileads/HtmlWebViewClient;
 
     invoke-static {v0}, Lcom/mopub/mobileads/HtmlWebViewClient;->access$100(Lcom/mopub/mobileads/HtmlWebViewClient;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
@@ -72,7 +68,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient$1;->this$0:Lcom/mopub/mobileads/HtmlWebViewClient;
 
     invoke-static {v0}, Lcom/mopub/mobileads/HtmlWebViewClient;->access$100(Lcom/mopub/mobileads/HtmlWebViewClient;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
@@ -88,7 +83,6 @@
 .method public onFailLoad()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient$1;->this$0:Lcom/mopub/mobileads/HtmlWebViewClient;
 
     invoke-static {v0}, Lcom/mopub/mobileads/HtmlWebViewClient;->access$000(Lcom/mopub/mobileads/HtmlWebViewClient;)Lcom/mopub/mobileads/BaseHtmlWebView;
@@ -97,7 +91,6 @@
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/BaseHtmlWebView;->stopLoading()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient$1;->this$0:Lcom/mopub/mobileads/HtmlWebViewClient;
 
     invoke-static {v0}, Lcom/mopub/mobileads/HtmlWebViewClient;->access$100(Lcom/mopub/mobileads/HtmlWebViewClient;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
@@ -106,7 +99,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient$1;->this$0:Lcom/mopub/mobileads/HtmlWebViewClient;
 
     invoke-static {v0}, Lcom/mopub/mobileads/HtmlWebViewClient;->access$100(Lcom/mopub/mobileads/HtmlWebViewClient;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
@@ -124,7 +116,6 @@
 .method public onFinishLoad()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient$1;->this$0:Lcom/mopub/mobileads/HtmlWebViewClient;
 
     invoke-static {v0}, Lcom/mopub/mobileads/HtmlWebViewClient;->access$000(Lcom/mopub/mobileads/HtmlWebViewClient;)Lcom/mopub/mobileads/BaseHtmlWebView;
@@ -133,7 +124,6 @@
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/BaseWebViewViewability;->setPageLoaded()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient$1;->this$0:Lcom/mopub/mobileads/HtmlWebViewClient;
 
     invoke-static {v0}, Lcom/mopub/mobileads/HtmlWebViewClient;->access$100(Lcom/mopub/mobileads/HtmlWebViewClient;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
@@ -142,7 +132,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/HtmlWebViewClient$1;->this$0:Lcom/mopub/mobileads/HtmlWebViewClient;
 
     invoke-static {v0}, Lcom/mopub/mobileads/HtmlWebViewClient;->access$100(Lcom/mopub/mobileads/HtmlWebViewClient;)Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;

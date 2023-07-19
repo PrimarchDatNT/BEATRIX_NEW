@@ -19,10 +19,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -41,7 +39,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/c1;->a:Ljava/util/ArrayList;
 
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -60,7 +57,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/c1;->a:Ljava/util/ArrayList;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -87,7 +83,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/c1;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->toString()Ljava/lang/String;

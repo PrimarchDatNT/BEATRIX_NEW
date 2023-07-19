@@ -90,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -101,7 +100,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     sput v1, Lcom/commsource/autocamera/AutoCameraActivity;->p0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -112,20 +110,16 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/autocamera/SimpleCameraActivity;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->a0:Z
 
-    .line 4
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
@@ -134,38 +128,30 @@
 
     const/4 v1, 0x0
 
-    .line 5
     iput-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->d0:Z
 
-    .line 6
     new-instance v2, Lcom/commsource/autocamera/b;
 
     invoke-direct {v2, p0}, Lcom/commsource/autocamera/b;-><init>(Lcom/commsource/autocamera/AutoCameraActivity;)V
 
     iput-object v2, p0, Lcom/commsource/autocamera/AutoCameraActivity;->e0:Ljava/lang/Runnable;
 
-    .line 7
     new-instance v2, Lcom/commsource/autocamera/k;
 
     invoke-direct {v2, p0}, Lcom/commsource/autocamera/k;-><init>(Lcom/commsource/autocamera/AutoCameraActivity;)V
 
     iput-object v2, p0, Lcom/commsource/autocamera/AutoCameraActivity;->f0:Landroid/view/View$OnClickListener;
 
-    .line 8
     iput-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->g0:Z
 
     const-string v2, "miniapp"
 
-    .line 9
     iput-object v2, p0, Lcom/commsource/autocamera/AutoCameraActivity;->h0:Ljava/lang/String;
 
-    .line 10
     iput v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->j0:I
 
-    .line 11
     iput v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->k0:I
 
-    .line 12
     iput-boolean v0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->l0:Z
 
     return-void
@@ -182,7 +168,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -191,7 +176,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->X1(Landroid/view/View;Z)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -200,7 +184,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->X1(Landroid/view/View;Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -209,7 +192,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->X1(Landroid/view/View;Z)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -218,7 +200,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->X1(Landroid/view/View;Z)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -229,7 +210,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -240,7 +220,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -252,7 +231,6 @@
 
     invoke-direct {p0, p1, v2}, Lcom/commsource/autocamera/AutoCameraActivity;->X1(Landroid/view/View;Z)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -261,7 +239,6 @@
 
     invoke-direct {p0, p1, v2}, Lcom/commsource/autocamera/AutoCameraActivity;->X1(Landroid/view/View;Z)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -278,7 +255,6 @@
 
     invoke-direct {p0, p1, v3}, Lcom/commsource/autocamera/AutoCameraActivity;->X1(Landroid/view/View;Z)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -287,20 +263,16 @@
 
     invoke-direct {p0, p1, v2}, Lcom/commsource/autocamera/AutoCameraActivity;->X1(Landroid/view/View;Z)V
 
-    .line 11
     iget-boolean p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->b0:Z
 
     if-eqz p1, :cond_1
 
-    .line 12
     iput-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->b0:Z
 
-    .line 13
     invoke-direct {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->y1()V
 
     goto :goto_0
 
-    .line 14
     :cond_1
     iget p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
@@ -318,7 +290,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -327,7 +298,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -340,7 +310,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -365,7 +334,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 18
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -380,12 +348,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/g;->S:Landroid/widget/ImageView;
@@ -396,7 +362,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -421,15 +386,12 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
     const/4 v1, 0x1
 
-    .line 5
     invoke-virtual {p0, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->Y1(Z)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -443,7 +405,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     move-object v2, v1
@@ -454,12 +415,10 @@
 
     if-ne p1, v2, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->onBackPressed()V
 
     goto/16 :goto_2
 
-    .line 3
     :cond_0
     move-object v2, v1
 
@@ -485,7 +444,6 @@
 
     goto/16 :goto_0
 
-    .line 4
     :cond_1
     move-object v2, v1
 
@@ -495,19 +453,16 @@
 
     if-ne p1, v2, :cond_2
 
-    .line 5
     sget-object p1, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->a:Lcom/commsource/mypage/album/BpAlbumJumpRouter;
 
     invoke-virtual {p1, p0}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->d(Landroid/app/Activity;)V
 
     const-string p1, "group_photo_inputpic"
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     goto/16 :goto_2
 
-    .line 7
     :cond_2
     move-object v2, v1
 
@@ -517,7 +472,6 @@
 
     if-ne p1, v2, :cond_3
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast p1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -530,12 +484,10 @@
 
     const-string p1, "flash"
 
-    .line 9
     invoke-static {v4, v3, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_2
 
-    .line 10
     :cond_3
     move-object v2, v1
 
@@ -547,22 +499,18 @@
 
     if-ne p1, v2, :cond_5
 
-    .line 11
     iput-boolean v5, p0, Lcom/commsource/autocamera/AutoCameraActivity;->Z:Z
 
     const-string/jumbo p1, "switch_camera"
 
-    .line 12
     invoke-static {v4, v3, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast p1, Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/autocamera/SimpleCameraViewModel;->O0()V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast p1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -573,7 +521,6 @@
 
     invoke-direct {p0, p1, v6}, Lcom/commsource/autocamera/AutoCameraActivity;->k2(Ljava/lang/String;Z)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast p1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -584,7 +531,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -597,7 +543,6 @@
 
     goto/16 :goto_2
 
-    .line 17
     :cond_4
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -611,7 +556,6 @@
 
     goto/16 :goto_2
 
-    .line 18
     :cond_5
     move-object v2, v1
 
@@ -621,19 +565,16 @@
 
     if-ne p1, v2, :cond_6
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->e0:Ljava/lang/Runnable;
 
     const-wide/16 v1, 0xbb8
 
     invoke-static {p1, v1, v2}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 20
     invoke-direct {p0, v6}, Lcom/commsource/autocamera/AutoCameraActivity;->d2(Z)V
 
     goto :goto_2
 
-    .line 21
     :cond_6
     move-object v2, v1
 
@@ -643,17 +584,14 @@
 
     if-ne p1, v2, :cond_7
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->e0:Ljava/lang/Runnable;
 
     invoke-static {p1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 23
     invoke-direct {p0, v5}, Lcom/commsource/autocamera/AutoCameraActivity;->d2(Z)V
 
     goto :goto_2
 
-    .line 24
     :cond_7
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
 
@@ -661,24 +599,19 @@
 
     if-ne p1, v1, :cond_10
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->Q:Lcom/commsource/camera/mvp/helper/d;
 
     if-eqz p1, :cond_8
 
-    .line 26
     invoke-virtual {p1}, Lcom/commsource/camera/mvp/helper/d;->a()V
 
-    .line 27
     :cond_8
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->T:Lcom/commsource/autocamera/g0;
 
     if-eqz p1, :cond_9
 
-    .line 28
     invoke-virtual {p1}, Lcom/commsource/autocamera/g0;->a()V
 
-    .line 29
     :cond_9
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
@@ -686,12 +619,10 @@
 
     invoke-virtual {p1, v6}, Lcom/commsource/autocamera/AutoCameraViewModel;->m1(Z)V
 
-    .line 30
     invoke-virtual {p0, v5}, Lcom/commsource/autocamera/AutoCameraActivity;->Y1(Z)V
 
     goto :goto_2
 
-    .line 31
     :cond_a
     :goto_0
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
@@ -704,12 +635,10 @@
 
     if-nez p1, :cond_b
 
-    .line 32
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 33
     :cond_b
     iget p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
@@ -719,7 +648,6 @@
 
     if-ne p1, v2, :cond_c
 
-    .line 34
     iput v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
     goto :goto_1
@@ -729,7 +657,6 @@
 
     if-ne p1, v1, :cond_d
 
-    .line 35
     iput v6, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
     goto :goto_1
@@ -739,7 +666,6 @@
 
     if-ne p1, v6, :cond_e
 
-    .line 36
     iput v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
     goto :goto_1
@@ -747,28 +673,22 @@
     :cond_e
     if-ne p1, v1, :cond_f
 
-    .line 37
     iput v2, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
     :cond_f
     :goto_1
     const-string p1, "delay"
 
-    .line 38
     invoke-static {v4, v3, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 39
     iget p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
     invoke-static {p1}, Lcom/commsource/autocamera/e0;->S(I)V
 
-    .line 40
     invoke-direct {p0, v5}, Lcom/commsource/autocamera/AutoCameraActivity;->j2(Z)V
 
-    .line 41
     invoke-direct {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->h2()V
 
-    .line 42
     :cond_10
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -785,64 +705,51 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->d0:Z
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->Z:Z
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v2, Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-virtual {v2}, Lcom/commsource/autocamera/AutoCameraViewModel;->W0()V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v2, Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-virtual {v2, v1}, Lcom/commsource/autocamera/AutoCameraViewModel;->m1(Z)V
 
-    .line 5
     iget-boolean v2, p0, Lcom/commsource/autocamera/AutoCameraActivity;->n0:Z
 
     if-eqz v2, :cond_0
 
-    .line 6
     iput-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->n0:Z
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/autocamera/AutoCameraActivity;->S:Lcom/commsource/autocamera/j0;
 
     invoke-virtual {v2}, Lcom/commsource/autocamera/j0;->h()V
 
-    .line 8
     :cond_0
     iget-boolean v2, p0, Lcom/commsource/autocamera/AutoCameraActivity;->a0:Z
 
     if-eqz v2, :cond_2
 
-    .line 9
     iput-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->a0:Z
 
-    .line 10
     invoke-static {}, Lcom/commsource/autocamera/e0;->P()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 11
     invoke-static {v1}, Lcom/commsource/autocamera/e0;->V(Z)V
 
-    .line 12
     invoke-direct {p0, v0}, Lcom/commsource/autocamera/AutoCameraActivity;->d2(Z)V
 
-    .line 13
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v0, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -855,11 +762,9 @@
 
     goto :goto_0
 
-    .line 14
     :cond_1
     invoke-static {v1}, Lcom/commsource/autocamera/e0;->T(Z)V
 
-    .line 15
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v0, Lcom/commsource/beautyplus/f0/g;
@@ -870,17 +775,14 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 16
     invoke-direct {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->y1()V
 
-    .line 17
     iget-object v0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->e0:Ljava/lang/Runnable;
 
     const-wide/16 v1, 0x2710
 
     invoke-static {v0, v1, v2}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 18
     :cond_2
     :goto_0
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
@@ -893,7 +795,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 19
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v0, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -902,7 +803,6 @@
 
     goto :goto_1
 
-    .line 20
     :cond_3
     sget-object v0, Lcom/commsource/material/ImageSegmentExecutor;->E:Lcom/commsource/material/ImageSegmentExecutor;
 
@@ -920,7 +820,6 @@
 
     invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lcotlin/jvm/u/l;)V
 
-    .line 21
     invoke-virtual {v0}, Lcom/commsource/material/ImageSegmentExecutor;->l()Lcom/commsource/material/download/b/a;
 
     move-result-object v1
@@ -935,7 +834,6 @@
 
     invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lcotlin/jvm/u/l;)V
 
-    .line 22
     invoke-virtual {v0}, Lcom/commsource/material/ImageSegmentExecutor;->l()Lcom/commsource/material/download/b/a;
 
     move-result-object v1
@@ -950,14 +848,12 @@
 
     invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lcotlin/jvm/u/l;)V
 
-    .line 23
     sget-object v1, Lcom/commsource/material/download/SegmentModel;->Human:Lcom/commsource/material/download/SegmentModel;
 
     const/4 v2, 0x0
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/material/ImageSegmentExecutor;->e(Lcom/commsource/material/download/SegmentModel;Lcom/commsource/material/download/b/c;)V
 
-    .line 24
     :goto_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -973,17 +869,14 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->Y1(Z)V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/autocamera/AutoCameraActivity;->T:Lcom/commsource/autocamera/g0;
 
     invoke-virtual {v2}, Lcom/commsource/autocamera/g0;->a()V
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v2, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -992,20 +885,16 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/autocamera/AutoCameraViewModel;->m1(Z)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v2, Lcom/commsource/autocamera/AutoCameraViewModel;
 
     invoke-virtual {v2, p1}, Lcom/commsource/autocamera/AutoCameraViewModel;->j1(Lcom/commsource/autocamera/SimpleCameraViewModel$f;)V
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/autocamera/AutoCameraActivity;->r1(Lcom/commsource/autocamera/SimpleCameraViewModel$f;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->x1()V
 
-    .line 7
     sget p1, Lcom/commsource/autocamera/AutoCameraActivity;->p0:I
 
     const/4 v2, 0x3
@@ -1014,16 +903,13 @@
 
     add-int/2addr p1, v1
 
-    .line 8
     sput p1, Lcom/commsource/autocamera/AutoCameraActivity;->p0:I
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->w1()V
 
-    .line 10
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1038,10 +924,8 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->w1()V
 
-    .line 2
     sget-object v0, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {v0}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -1050,7 +934,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/home/HomeDeepLinkAnalyze;->h()V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1065,7 +948,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->s1()Z
 
     move-result v1
@@ -1080,14 +962,12 @@
 
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->S:Lcom/commsource/autocamera/j0;
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/autocamera/j0;->e()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -1098,7 +978,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setAlpha(F)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -1109,10 +988,8 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-virtual {p0, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->Y1(Z)V
 
-    .line 6
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
@@ -1123,7 +1000,6 @@
 
     invoke-static {v1}, Lf/l/a/j;->h(Ljava/lang/String;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->S:Lcom/commsource/autocamera/j0;
 
     new-instance v2, Lcom/commsource/autocamera/AutoCameraActivity$f;
@@ -1132,7 +1008,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/autocamera/j0;->i(Landroid/graphics/RectF;Landroid/animation/AnimatorListenerAdapter;)V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1146,7 +1021,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->Z:Z
 
     const/16 v2, 0x8
@@ -1163,23 +1037,19 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_0
     iget-object v1, p1, Lcom/commsource/autocamera/AutoCameraViewModel$g;->b:Landroid/graphics/RectF;
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/autocamera/AutoCameraActivity;->c0:Landroid/graphics/RectF;
 
     invoke-virtual {v4, v1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 4
     iget-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->l0:Z
 
     if-nez v1, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->c0:Landroid/graphics/RectF;
 
     iget v4, v1, Landroid/graphics/RectF;->top:F
@@ -1196,7 +1066,6 @@
 
     iput v4, v1, Landroid/graphics/RectF;->top:F
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->c0:Landroid/graphics/RectF;
 
     iget v4, v1, Landroid/graphics/RectF;->bottom:F
@@ -1211,7 +1080,6 @@
 
     iput v4, v1, Landroid/graphics/RectF;->bottom:F
 
-    .line 7
     iget-object v1, p1, Lcom/commsource/autocamera/AutoCameraViewModel$g;->b:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->toShortString()Ljava/lang/String;
@@ -1222,7 +1090,6 @@
 
     invoke-static {v1, v4}, Lf/l/a/j;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
@@ -1234,7 +1101,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -1245,21 +1111,17 @@
 
     goto :goto_2
 
-    .line 10
     :cond_2
     iget-object v1, p1, Lcom/commsource/autocamera/AutoCameraViewModel$g;->b:Landroid/graphics/RectF;
 
     if-eqz v1, :cond_5
 
-    .line 11
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v1
 
-    .line 12
     div-int/lit8 v1, v1, 0x3
 
-    .line 13
     iget-object v4, p1, Lcom/commsource/autocamera/AutoCameraViewModel$g;->b:Landroid/graphics/RectF;
 
     invoke-virtual {v4}, Landroid/graphics/RectF;->width()F
@@ -1296,18 +1158,14 @@
     :goto_1
     const-string v5, "UpRatio"
 
-    .line 14
     invoke-static {v5, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 15
     iget-object v4, p0, Lcom/commsource/autocamera/AutoCameraActivity;->Q:Lcom/commsource/camera/mvp/helper/d;
 
     if-eqz v4, :cond_5
 
-    .line 16
     invoke-virtual {v4, v1}, Lcom/commsource/camera/mvp/helper/d;->b(F)V
 
-    .line 17
     :cond_5
     :goto_2
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
@@ -1331,12 +1189,10 @@
 
     invoke-virtual {v1, v4, v5, v6, v7}, Lcom/commsource/autocamera/PortraitView;->d(Landroid/graphics/RectF;FFI)V
 
-    .line 18
     iget v1, p1, Lcom/commsource/autocamera/AutoCameraViewModel$g;->e:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->W1(I)V
 
-    .line 19
     iget v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->j0:I
 
     iget v4, p1, Lcom/commsource/autocamera/AutoCameraViewModel$g;->a:I
@@ -1353,7 +1209,6 @@
 
     if-nez v1, :cond_8
 
-    .line 20
     iget p1, p1, Lcom/commsource/autocamera/AutoCameraViewModel$g;->a:I
 
     iput p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->j0:I
@@ -1362,7 +1217,6 @@
 
     if-gt p1, v1, :cond_7
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -1376,7 +1230,6 @@
     :cond_7
     if-le p1, v1, :cond_8
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -1385,14 +1238,12 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 23
     :cond_8
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 24
     :cond_9
     :goto_4
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
@@ -1403,7 +1254,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/autocamera/PortraitView;->setPreview(Z)V
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -1412,7 +1262,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 26
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1425,7 +1274,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v0, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -1436,7 +1284,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v0, Lcom/commsource/beautyplus/f0/g;
@@ -1445,7 +1292,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/camera/mvp/SimpleFocusView;->p()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1459,7 +1305,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -1478,7 +1323,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -1501,14 +1345,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1, p2}, Landroid/view/View;->setEnabled(Z)V
 
     if-eqz p2, :cond_0
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->setAlpha(F)V
 
     goto :goto_0
@@ -1516,10 +1358,8 @@
     :cond_0
     const/high16 p2, 0x3f000000    # 0.5f
 
-    .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1534,7 +1374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->R:Lcom/commsource/autocamera/i0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1549,7 +1388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->e0:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1564,7 +1402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->T:Lcom/commsource/autocamera/g0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1579,7 +1416,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/autocamera/AutoCameraActivity;->j2(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1594,15 +1430,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->R:Lcom/commsource/autocamera/i0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/commsource/autocamera/i0;->s(Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1616,7 +1449,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/autocamera/AutoCameraActivity;->X1(Landroid/view/View;Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1631,7 +1463,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/b0/a;->c()Lcom/commsource/beautyplus/b0/a;
 
     move-result-object v1
@@ -1642,10 +1473,8 @@
 
     const/4 v3, 0x0
 
-    .line 2
     invoke-virtual {v1, p0, p1, v2, v3}, Lcom/commsource/beautyplus/b0/a;->j(Landroid/content/Context;ILcom/commsource/widget/dialog/j0$b;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1658,7 +1487,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->S:Lcom/commsource/autocamera/j0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1673,7 +1501,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -1682,7 +1509,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -1709,7 +1535,6 @@
 
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1734,7 +1559,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->b0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1749,7 +1573,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/autocamera/AutoCameraActivity;->d2(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1769,14 +1592,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
     const/4 v2, -0x1
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -1789,7 +1610,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatActivity;->getResources()Landroid/content/res/Resources;
 
@@ -1801,7 +1621,6 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v2, Lcom/commsource/beautyplus/f0/g;
@@ -1838,7 +1657,6 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     :goto_0
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -1866,7 +1684,6 @@
 
     invoke-virtual {v1}, Landroid/animation/ObjectAnimator;->start()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1891,7 +1708,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->Y:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1906,7 +1722,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1921,7 +1736,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -1940,7 +1754,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -1955,7 +1768,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setTag(Ljava/lang/Object;)V
 
-    .line 3
     iget v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
     const-wide/16 v2, 0xc8
@@ -1964,7 +1776,6 @@
 
     if-ne v1, v4, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -1975,7 +1786,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -1990,7 +1800,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -2008,7 +1817,6 @@
 
     if-ne v1, v4, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -2019,7 +1827,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -2034,7 +1841,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -2052,7 +1858,6 @@
 
     if-ne v1, v4, :cond_2
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -2063,7 +1868,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -2078,7 +1882,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -2096,7 +1899,6 @@
 
     if-ne v1, v4, :cond_3
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -2107,7 +1909,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -2122,7 +1923,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -2145,7 +1945,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2154,7 +1953,6 @@
     :goto_0
     if-eqz p1, :cond_4
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -2177,7 +1975,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 18
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2191,7 +1988,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2206,7 +2002,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -2221,7 +2016,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast p1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -2232,7 +2026,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -2245,7 +2038,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->camera_screen_fillin_light_on:I
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2254,7 +2046,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -2268,21 +2059,18 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->camera_screen_fillin_light_off:I
 
-    .line 6
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-direct {p0, p1}, Lcom/commsource/autocamera/AutoCameraActivity;->f2(Ljava/lang/String;)V
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2290,12 +2078,10 @@
 
     if-eqz v1, :cond_3
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_3
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
@@ -2315,7 +2101,6 @@
 
     if-nez p1, :cond_4
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -2330,7 +2115,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->camera_flash_auto:I
 
-    .line 12
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2339,7 +2123,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_4
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -2353,7 +2136,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->camera_flash_permanent_on:I
 
-    .line 14
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2362,7 +2144,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_5
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -2376,14 +2157,12 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->camera_flash_off:I
 
-    .line 16
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-direct {p0, p1}, Lcom/commsource/autocamera/AutoCameraActivity;->f2(Ljava/lang/String;)V
 
-    .line 17
     :cond_6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2398,7 +2177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->j0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2413,7 +2191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->s1()Z
 
     move-result p0
@@ -2430,7 +2207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->W:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2445,7 +2221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->m0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2460,7 +2235,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->m0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2475,7 +2249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/autocamera/AutoCameraActivity;->l0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2490,14 +2263,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x10
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -2526,7 +2297,6 @@
 
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget v2, p1, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->d:I
 
     const/16 v4, 0x5a
@@ -2561,10 +2331,8 @@
     :goto_0
     const-string v4, "direction"
 
-    .line 4
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->b()Lcom/meitu/core/types/FaceData;
 
     move-result-object p1
@@ -2577,7 +2345,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v6
@@ -2593,7 +2360,6 @@
 
     const/4 v8, 0x0
 
-    .line 7
     :goto_1
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
@@ -2601,12 +2367,10 @@
 
     if-ge v6, v9, :cond_6
 
-    .line 8
     invoke-virtual {p1, v6}, Lcom/meitu/core/types/FaceData;->getGender(I)Lcom/meitu/core/types/FaceData$MTGender;
 
     move-result-object v9
 
-    .line 9
     sget-object v10, Lcom/meitu/core/types/FaceData$MTGender;->MALE:Lcom/meitu/core/types/FaceData$MTGender;
 
     if-ne v9, v10, :cond_4
@@ -2615,7 +2379,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_4
     sget-object v10, Lcom/meitu/core/types/FaceData$MTGender;->FEMALE:Lcom/meitu/core/types/FaceData$MTGender;
 
@@ -2629,7 +2392,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_6
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -2645,7 +2407,6 @@
 
     invoke-interface {v1, v5, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -2660,7 +2421,6 @@
 
     invoke-interface {v1, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -2685,16 +2445,12 @@
     :goto_3
     const-string p1, "0"
 
-    .line 14
     invoke-interface {v1, v5, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 15
     invoke-interface {v1, v4, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     :goto_4
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
@@ -2704,7 +2460,6 @@
 
     move-result-object p1
 
-    .line 18
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -2725,10 +2480,8 @@
 
     const-string/jumbo p1, "\u524d\u7f6e"
 
-    .line 19
     invoke-interface {v1, v7, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast p1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -2749,10 +2502,8 @@
     :cond_9
     const-string/jumbo p1, "\u540e\u7f6e"
 
-    .line 21
     invoke-interface {v1, v7, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast p1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -2773,7 +2524,6 @@
     :goto_5
     invoke-interface {v1, v6, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 23
     :goto_6
     iget p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
@@ -2783,12 +2533,10 @@
 
     const-string/jumbo p1, "\u5173\u95ed"
 
-    .line 24
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_7
 
-    .line 25
     :cond_b
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -2808,7 +2556,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 26
     :goto_7
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->W:Ljava/lang/String;
 
@@ -2816,7 +2563,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 27
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2843,7 +2589,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 28
     iget-boolean p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->g0:Z
 
     if-eqz p1, :cond_c
@@ -2862,10 +2607,8 @@
 
     const-string p1, "group_photo_save"
 
-    .line 29
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 30
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2878,19 +2621,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->d0:Z
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
@@ -2906,7 +2646,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/autocamera/i0;->q()Z
 
     move-result v1
@@ -2920,7 +2659,6 @@
     :cond_1
     const/4 v2, 0x1
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2948,7 +2686,6 @@
 
     const-string p2, "rotation"
 
-    .line 1
     invoke-static {p1, p2, v1}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
 
     move-result-object p1
@@ -2961,7 +2698,6 @@
 
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2975,7 +2711,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -2994,7 +2729,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewTreeObserver;->addOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3007,14 +2741,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->l0:Z
 
     const/4 v2, -0x1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3023,7 +2755,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3032,7 +2763,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3041,7 +2771,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3054,7 +2783,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3063,7 +2791,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3074,7 +2801,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -3086,7 +2812,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3095,7 +2820,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3104,7 +2828,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3117,7 +2840,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3126,7 +2848,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3135,7 +2856,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 14
     :goto_0
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -3147,37 +2867,29 @@
 
     move-result-object v1
 
-    .line 15
     instance-of v3, v1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
 
     if-eqz v3, :cond_2
 
-    .line 16
     check-cast v1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
 
-    .line 17
     iget-boolean v3, p0, Lcom/commsource/autocamera/AutoCameraActivity;->l0:Z
 
     sget v4, Lcom/res/provider/ResID;->rl_top:I
 
     if-eqz v3, :cond_1
 
-    .line 18
     iput v2, v1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->topToBottom:I
 
-    .line 19
     iput v4, v1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->topToTop:I
 
     goto :goto_1
 
-    .line 20
     :cond_1
     iput v2, v1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->topToTop:I
 
-    .line 21
     iput v4, v1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->topToBottom:I
 
-    .line 22
     :goto_1
     iget-object v2, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -3187,13 +2899,11 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 23
     :cond_2
     iget-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->l0:Z
 
     if-eqz v1, :cond_3
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3208,7 +2918,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 25
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3221,7 +2930,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 26
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3234,13 +2942,11 @@
 
     invoke-static {v1, v2}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 27
     :cond_3
     iget-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->l0:Z
 
     if-eqz v1, :cond_4
 
-    .line 28
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3257,7 +2963,6 @@
 
     goto :goto_2
 
-    .line 29
     :cond_4
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -3273,7 +2978,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setMaxWidth(I)V
 
-    .line 30
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3287,14 +2991,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/autocamera/e0;->K()I
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -3311,13 +3013,10 @@
 
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->n0:Z
 
-    .line 4
     iput v3, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3326,12 +3025,10 @@
 
     invoke-direct {p0, v1, v2}, Lcom/commsource/autocamera/AutoCameraActivity;->X1(Landroid/view/View;Z)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_0
     iget v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
@@ -3348,14 +3045,11 @@
 
     const/4 v1, -0x1
 
-    .line 8
     :cond_2
     iput v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
-    .line 9
     invoke-direct {p0, v2}, Lcom/commsource/autocamera/AutoCameraActivity;->j2(Z)V
 
-    .line 10
     iget v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
     if-eq v1, v3, :cond_3
@@ -3374,12 +3068,10 @@
 
     if-nez v1, :cond_3
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->S:Lcom/commsource/autocamera/j0;
 
     invoke-virtual {v1}, Lcom/commsource/autocamera/j0;->h()V
 
-    .line 12
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3393,7 +3085,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->R:Lcom/commsource/autocamera/i0;
 
     if-eqz v1, :cond_0
@@ -3466,7 +3157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -3475,7 +3165,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/autocamera/AutoCameraViewModel;->n1(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResID;->mMTCameraLayout:I
@@ -3498,7 +3187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResID;->mFocusView:I
@@ -3513,7 +3201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->activity_auto_camera:I
@@ -3541,7 +3228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3552,7 +3238,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3563,7 +3248,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3574,7 +3258,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3585,7 +3268,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3596,7 +3278,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3605,7 +3286,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 7
     new-instance v1, Lcom/commsource/autocamera/i0;
 
     iget-object v2, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
@@ -3616,7 +3296,6 @@
 
     iput-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->R:Lcom/commsource/autocamera/i0;
 
-    .line 8
     new-instance v1, Lcom/commsource/autocamera/j0;
 
     iget-object v2, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
@@ -3627,7 +3306,6 @@
 
     iput-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->S:Lcom/commsource/autocamera/j0;
 
-    .line 9
     new-instance v1, Lcom/commsource/autocamera/g0;
 
     iget-object v2, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
@@ -3638,7 +3316,6 @@
 
     iput-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->T:Lcom/commsource/autocamera/g0;
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->R:Lcom/commsource/autocamera/i0;
 
     new-instance v2, Lcom/commsource/autocamera/c;
@@ -3647,13 +3324,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/autocamera/i0;->r(Lcom/commsource/autocamera/i0$c;)V
 
-    .line 11
     invoke-direct {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->v1()V
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->u1()V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3666,7 +3340,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/autocamera/NewCaptureView;->setProgress(I)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3679,7 +3352,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/ExposureSeekBar;->setOnProgressChangeListener(Lcom/commsource/widget/ExposureSeekBar$a;)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3690,14 +3362,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 16
     invoke-static {}, Lcom/commsource/util/d2;->a()Lcom/commsource/util/d2;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->V:Lcom/commsource/util/d2;
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3718,7 +3388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -3733,7 +3402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -3772,7 +3440,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3783,7 +3450,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3794,7 +3460,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3805,7 +3470,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3816,7 +3480,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3827,7 +3490,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3838,7 +3500,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3849,7 +3510,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3860,7 +3520,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3871,7 +3530,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -3886,7 +3544,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -3901,7 +3558,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -3916,7 +3572,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -3929,10 +3584,8 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/autocamera/i;-><init>(Lcom/commsource/autocamera/AutoCameraActivity;)V
 
-    .line 14
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3945,7 +3598,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/autocamera/NewCaptureView;->setOnProgressChangeListener(Lcom/commsource/autocamera/NewCaptureView$d;)V
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3958,7 +3610,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/autocamera/NewCaptureView;->setOnCaptureTouchListener(Lcom/commsource/autocamera/NewCaptureView$c;)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -3973,7 +3624,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -3986,7 +3636,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/mvp/SimpleFocusView;->setOnFocusListener(Lcom/commsource/camera/mvp/SimpleFocusView$b;)V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -4001,7 +3650,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -4016,7 +3664,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4035,7 +3682,6 @@
 
     add-int/lit16 p1, p1, -0x168
 
-    .line 1
     :cond_0
     iget v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->k0:I
 
@@ -4049,18 +3695,14 @@
 
     if-gt v1, v2, :cond_5
 
-    .line 2
     iput p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->k0:I
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->S:Lcom/commsource/autocamera/j0;
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1, p1}, Lcom/commsource/autocamera/j0;->g(I)V
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -4072,12 +3714,10 @@
 
     move-result-object p1
 
-    .line 6
     instance-of v1, p1, Landroid/widget/FrameLayout$LayoutParams;
 
     if-eqz v1, :cond_4
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -4092,10 +3732,8 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setRotation(F)V
 
-    .line 8
     check-cast p1, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 9
     iget v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->k0:I
 
     const/4 v3, 0x0
@@ -4104,10 +3742,8 @@
 
     const/16 v1, 0x15
 
-    .line 10
     iput v1, p1, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -4133,10 +3769,8 @@
 
     const/16 v1, 0x13
 
-    .line 12
     iput v1, p1, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -4158,12 +3792,10 @@
     :cond_3
     const/16 v1, 0x51
 
-    .line 14
     iput v1, p1, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
     const/high16 v1, 0x42340000    # 45.0f
 
-    .line 15
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -4174,7 +3806,6 @@
 
     invoke-virtual {p1, v3, v3, v3, v1}, Landroid/widget/FrameLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 16
     :goto_0
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -4184,7 +3815,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 17
     :cond_4
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -4194,7 +3824,6 @@
 
     invoke-static {p1}, Lcom/commsource/camera/mvp/helper/e;->b(Landroidx/databinding/ViewStubProxy;)Landroid/view/View;
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4211,7 +3840,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->t1(Landroid/view/View;I)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4224,7 +3852,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->t1(Landroid/view/View;I)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4237,7 +3864,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->t1(Landroid/view/View;I)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4250,7 +3876,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->t1(Landroid/view/View;I)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4263,7 +3888,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->t1(Landroid/view/View;I)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4276,7 +3900,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->t1(Landroid/view/View;I)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4289,7 +3912,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->t1(Landroid/view/View;I)V
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4302,7 +3924,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->t1(Landroid/view/View;I)V
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4315,7 +3936,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->t1(Landroid/view/View;I)V
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4328,7 +3948,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->t1(Landroid/view/View;I)V
 
-    .line 28
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4341,7 +3960,6 @@
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->t1(Landroid/view/View;I)V
 
-    .line 29
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4359,14 +3977,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     iget p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->U:I
 
     const/4 v2, -0x1
 
     if-eq p1, v2, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4377,7 +3993,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4396,7 +4011,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4421,7 +4035,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -4433,12 +4046,10 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->setEnabled(Z)V
 
-    .line 6
     iget p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->j0:I
 
     if-gt p1, v2, :cond_1
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4447,7 +4058,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 8
     :cond_1
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -4457,7 +4067,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4466,7 +4075,6 @@
 
     invoke-virtual {p1, v2}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4475,7 +4083,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4484,7 +4091,6 @@
 
     invoke-direct {p0, p1, v2}, Lcom/commsource/autocamera/AutoCameraActivity;->X1(Landroid/view/View;Z)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4493,7 +4099,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast p1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -4504,7 +4109,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4513,7 +4117,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setEnabled(Z)V
 
-    .line 15
     :cond_2
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -4523,7 +4126,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4534,7 +4136,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_3
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -4544,7 +4145,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/autocamera/PortraitView;->setPreview(Z)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4553,7 +4153,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/RelativeLayout;->setEnabled(Z)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4564,7 +4163,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4573,7 +4171,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4582,7 +4179,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4591,7 +4187,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4600,7 +4195,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4609,7 +4203,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4618,7 +4211,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setEnabled(Z)V
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4627,7 +4219,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4636,7 +4227,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setEnabled(Z)V
 
-    .line 28
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4650,14 +4240,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/autocamera/a;
 
     invoke-direct {v1, p0}, Lcom/commsource/autocamera/a;-><init>(Lcom/commsource/autocamera/AutoCameraActivity;)V
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4670,7 +4258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -4691,7 +4278,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -4700,7 +4286,6 @@
 
     invoke-static {v1}, Lcom/commsource/camera/mvp/helper/e;->c(Landroidx/databinding/ViewStubProxy;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4719,7 +4304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v1
@@ -4736,7 +4320,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     invoke-super {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z
 
     move-result p1
@@ -4745,7 +4328,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getAction()I
 
@@ -4755,7 +4337,6 @@
 
     if-ne p1, v1, :cond_2
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->R:Lcom/commsource/autocamera/i0;
 
     if-eqz p1, :cond_1
@@ -4768,10 +4349,8 @@
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/autocamera/AutoCameraActivity;->d2(Z)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->e0:Ljava/lang/Runnable;
 
     const-wide/16 v2, 0xbb8
@@ -4780,7 +4359,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-direct {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->s1()Z
 
@@ -4794,7 +4372,6 @@
 
     if-nez p1, :cond_2
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -4805,7 +4382,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/LinearLayout;->setAlpha(F)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast p1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -4820,18 +4396,14 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/autocamera/SimpleCameraViewModel;->Q0(Z)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->b2()V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->g2()V
 
     const-string/jumbo p1, "\u97f3\u91cf\u952e"
 
-    .line 12
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->W:Ljava/lang/String;
 
-    .line 13
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4846,7 +4418,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
     move-result p1
@@ -4867,13 +4438,10 @@
 
     sget v2, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
 
-    .line 2
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4886,12 +4454,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->X:Lcom/commsource/camera/mvp/helper/f;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/mvp/helper/f;
 
     iget-object v2, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
@@ -4910,7 +4476,6 @@
 
     iput-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->X:Lcom/commsource/camera/mvp/helper/f;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->X:Lcom/commsource/camera/mvp/helper/f;
 
@@ -4918,7 +4483,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/mvp/helper/f;->g(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -4929,7 +4493,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -4938,7 +4501,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/ui/FastCaptureProgressBar;->b()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4951,12 +4513,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->P:Lcom/commsource/util/common/n;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/util/common/n;
 
     const/4 v2, 0x1
@@ -4967,10 +4527,8 @@
 
     sget v3, Lcom/res/provider/ResRAW;->timing:I
 
-    .line 3
     invoke-virtual {v1, v3}, Lcom/commsource/util/common/n;->d(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -4979,7 +4537,6 @@
 
     invoke-static {v1}, Lcom/commsource/camera/mvp/helper/e;->b(Landroidx/databinding/ViewStubProxy;)Landroid/view/View;
 
-    .line 5
     new-instance v1, Lcom/commsource/camera/mvp/helper/d;
 
     iget-object v3, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
@@ -4988,7 +4545,6 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/g;->d0:Landroidx/databinding/ViewStubProxy;
 
-    .line 6
     invoke-virtual {v3}, Landroidx/databinding/ViewStubProxy;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v3
@@ -5001,13 +4557,11 @@
 
     iput-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->Q:Lcom/commsource/camera/mvp/helper/d;
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->Q:Lcom/commsource/camera/mvp/helper/d;
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/camera/mvp/helper/d;->c(ILcom/commsource/camera/mvp/helper/d$a;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5020,15 +4574,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 2
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
-    .line 3
     const-class v2, Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -5037,7 +4588,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 4
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -5046,7 +4596,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5059,15 +4608,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/activity/ComponentActivity;->onBackPressed()V
 
     const-string v1, "group_photo_clk_home"
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5080,7 +4626,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/f/i;->V()Z
 
     move-result v1
@@ -5089,10 +4634,8 @@
 
     iput-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->l0:Z
 
-    .line 2
     invoke-super {p0, p1}, Lcom/commsource/autocamera/SimpleCameraActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
     move-result p1
@@ -5101,7 +4644,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast p1, Lcom/commsource/beautyplus/f0/g;
@@ -5119,17 +4661,14 @@
 
     sget v2, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
-    .line 5
     invoke-virtual {p0, p1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
 
-    .line 6
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 7
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -5142,7 +4681,6 @@
 
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->h0:Ljava/lang/String;
 
-    .line 8
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -5155,7 +4693,6 @@
 
     iput-boolean p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->g0:Z
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5169,15 +4706,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/autocamera/SimpleCameraActivity;->onDestroy()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->e0:Ljava/lang/Runnable;
 
     invoke-static {v1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5190,7 +4724,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/FragmentActivity;->onNewIntent(Landroid/content/Intent;)V
 
     if-eqz p1, :cond_1
@@ -5199,7 +4732,6 @@
 
     const-string v2, "IS_SHORTCUT"
 
-    .line 2
     invoke-virtual {p1, v2, v1}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
 
     move-result v1
@@ -5208,7 +4740,6 @@
 
     const-string v1, "FROM"
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -5219,11 +4750,9 @@
 
     const-string p1, "miniapp"
 
-    .line 4
     :cond_0
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->h0:Ljava/lang/String;
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5237,33 +4766,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/autocamera/SimpleCameraActivity;->onPause()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->Q:Lcom/commsource/camera/mvp/helper/d;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/camera/mvp/helper/d;->a()V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->T:Lcom/commsource/autocamera/g0;
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/autocamera/g0;->a()V
 
     :cond_1
     const/4 v1, 0x1
 
-    .line 6
     iput-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->i0:Z
 
-    .line 7
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -5290,7 +4812,6 @@
 
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5303,15 +4824,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/autocamera/SimpleCameraActivity;->onResume()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->V:Lcom/commsource/util/d2;
 
     invoke-virtual {v1}, Lcom/commsource/util/d2;->e()V
 
-    .line 3
     iget-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->i0:Z
 
     if-eqz v1, :cond_0
@@ -5328,18 +4846,14 @@
 
     const/4 v1, 0x0
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->i0:Z
 
     const/4 v1, 0x1
 
-    .line 5
     invoke-direct {p0, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->j2(Z)V
 
-    .line 6
     invoke-virtual {p0, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->Y1(Z)V
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->h0:Ljava/lang/String;
 
@@ -5349,7 +4863,6 @@
 
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5362,7 +4875,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     check-cast v1, Lcom/commsource/autocamera/AutoCameraViewModel;
@@ -5375,13 +4887,10 @@
 
     invoke-direct {p0, v1, v2}, Lcom/commsource/autocamera/AutoCameraActivity;->k2(Ljava/lang/String;Z)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/autocamera/AutoCameraActivity;->w1()V
 
-    .line 3
     invoke-super {p0}, Lcom/commsource/autocamera/SimpleCameraActivity;->onStop()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5394,7 +4903,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraActivity;->g0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5409,7 +4917,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -5420,7 +4927,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -5429,7 +4935,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/ui/FastCaptureProgressBar;->c()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5442,7 +4947,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g;
@@ -5451,7 +4955,6 @@
 
     invoke-static {v1}, Lcom/commsource/camera/mvp/helper/e;->a(Landroidx/databinding/ViewStubProxy;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

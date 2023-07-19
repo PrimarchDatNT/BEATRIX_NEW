@@ -63,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/q0/c$b;->a:Lcom/commsource/studio/q0/c;
 
     invoke-static {v1}, Lcom/commsource/studio/q0/c;->T(Lcom/commsource/studio/q0/c;)Lcom/commsource/widget/h1/e;
@@ -74,7 +73,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/widget/h1/e;->N(Ljava/util/List;Ljava/lang/Class;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -87,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/q0/c$b;->a(Ljava/util/List;)V

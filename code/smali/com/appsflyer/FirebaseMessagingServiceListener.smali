@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/messaging/FirebaseMessagingService;-><init>()V
 
     return-void
@@ -18,7 +17,6 @@
 .method public onNewToken(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/appsflyer/internal/event/uninstall/Register;
 
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;

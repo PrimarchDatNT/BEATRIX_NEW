@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$b0;->a:Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
     invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -51,7 +50,6 @@
 
     invoke-static {v0, p2}, Lf/d/i/e;->d2(Landroid/content/Context;Z)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

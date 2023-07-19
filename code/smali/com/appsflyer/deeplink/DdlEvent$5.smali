@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/appsflyer/AdvertisingIdObject;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/deeplink/DdlEvent$5;->AFDateFormat:Lcom/appsflyer/AdvertisingIdObject;
 
     invoke-direct {p0}, Ljava/util/HashMap;-><init>()V
@@ -40,10 +39,8 @@
 
     const-string/jumbo v0, "unhashed"
 
-    .line 2
     invoke-virtual {p0, p1, v0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object p1, p0, Lcom/appsflyer/deeplink/DdlEvent$5;->AFDateFormat:Lcom/appsflyer/AdvertisingIdObject;
 
     invoke-virtual {p1}, Lcom/appsflyer/AdvertisingIdObject;->getAdvertisingId()Ljava/lang/String;

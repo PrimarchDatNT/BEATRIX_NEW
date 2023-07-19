@@ -71,10 +71,8 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$mViewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$mViewBinding$2;-><init>(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;)V
@@ -85,7 +83,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->c:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$backgroundViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$backgroundViewModel$2;-><init>(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;)V
@@ -96,7 +93,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->d:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$studioViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$studioViewModel$2;-><init>(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;)V
@@ -107,7 +103,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->f:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2;-><init>(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;)V
@@ -118,7 +113,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->g:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$colorAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$colorAdapter$2;-><init>(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;)V
@@ -129,7 +123,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->p:Lcotlin/w;
 
-    .line 7
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$aspectRatioAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$aspectRatioAdapter$2;-><init>(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;)V
@@ -140,7 +133,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->J:Lcotlin/w;
 
-    .line 8
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$tracker$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$tracker$2;-><init>(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;)V
@@ -151,7 +143,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->K:Lcotlin/w;
 
-    .line 9
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     const/16 v1, 0x3a
@@ -164,7 +155,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->M:Lcom/commsource/camera/f1/n;
 
-    .line 10
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     const/16 v1, 0xf
@@ -177,7 +167,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->N:Lcom/commsource/camera/f1/n;
 
-    .line 11
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -190,7 +179,6 @@
 
     new-array v0, v0, [F
 
-    .line 12
     fill-array-data v0, :array_0
 
     invoke-static {v0}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -199,12 +187,10 @@
 
     const-wide/16 v1, 0x12c
 
-    .line 13
     invoke-virtual {v0, v1, v2}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object v0
 
-    .line 14
     new-instance v1, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;-><init>(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;)V
@@ -233,7 +219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->P(Lcom/commsource/studio/function/background/GradientMaterial;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -248,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -263,7 +247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->P:Lcom/commsource/studio/function/background/GradientMaterial;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -278,14 +261,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/GradientMaterial;->needDownload()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -296,7 +277,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -305,7 +285,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v1, Lcom/commsource/repository/child/GradientRepository;->s:Lcom/commsource/repository/child/GradientRepository;
 
@@ -317,13 +296,11 @@
 
     invoke-static {v1, p1, v2, v3, v4}, Lcom/commsource/repository/child/GradientRepository;->y(Lcom/commsource/repository/child/GradientRepository;Lcom/commsource/studio/function/background/GradientMaterial;ZILjava/lang/Object;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/GradientMaterial;->getConfig()Lcom/commsource/studio/function/background/GradientConfig;
 
@@ -331,15 +308,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 7
     new-instance v11, Lcom/commsource/studio/function/background/BackgroundColor;
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/GradientMaterial;->getId()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 9
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/GradientMaterial;->getIcon()Ljava/lang/String;
 
     move-result-object v2
@@ -354,42 +328,34 @@
     :goto_1
     move-object v4, v2
 
-    .line 10
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/GradientConfig;->getType()I
 
     move-result v5
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/GradientMaterial;->needPaid()Z
 
     move-result v6
 
-    .line 12
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/GradientConfig;->getStartPoint()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 13
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/GradientConfig;->getEndPoint()Ljava/lang/String;
 
     move-result-object v8
 
-    .line 14
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/GradientConfig;->getColors()[Ljava/lang/String;
 
     move-result-object v9
 
-    .line 15
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/GradientConfig;->getLocations()[F
 
     move-result-object v10
 
     move-object v2, v11
 
-    .line 16
     invoke-direct/range {v2 .. v10}, Lcom/commsource/studio/function/background/BackgroundColor;-><init>(Ljava/lang/String;Ljava/lang/String;IZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[F)V
 
-    .line 17
     sget-object p1, Lcom/commsource/studio/function/background/c;->e:Lcom/commsource/studio/function/background/c$a;
 
     invoke-virtual {p1, v11}, Lcom/commsource/studio/function/background/c$a;->c(Lcom/commsource/studio/function/background/BackgroundColor;)Lcom/commsource/studio/function/background/BackgroundType;
@@ -398,7 +364,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object v1
@@ -423,14 +388,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 19
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getBackgroundColor()Lcom/commsource/studio/function/background/BackgroundColor;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
-    .line 20
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundColor;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -439,10 +402,8 @@
 
     const-string v3, "background_gradient"
 
-    .line 21
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
@@ -450,7 +411,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/background/BackgroundViewModel;->X(Lcom/commsource/studio/function/background/BackgroundType;)V
 
-    .line 23
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p1
@@ -463,7 +423,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 24
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -477,7 +436,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -492,7 +450,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->P:Lcom/commsource/studio/function/background/GradientMaterial;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -577,7 +534,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->O:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -594,7 +550,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->N:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -611,7 +566,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->M:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -648,7 +602,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -738,7 +691,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -753,33 +705,27 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L:Z
 
     if-ne v1, p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-boolean p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L:Z
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->Q:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->Q:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -793,10 +739,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->m()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->O()Lcom/commsource/util/h1;
 
     move-result-object v1
@@ -813,7 +757,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/h1;->g(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->M()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -828,7 +771,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object v2
@@ -843,7 +785,6 @@
 
     invoke-virtual {v2, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -875,7 +816,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
 
     move-result-object p1
@@ -924,24 +864,20 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
 
     move-result-object p1
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/eb;->d:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->D()Lcom/commsource/widget/h1/e;
 
     move-result-object p2
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 4
     new-instance p2, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -952,28 +888,24 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 5
     new-instance p2, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$a;
 
     invoke-direct {p2, p1, p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$a;-><init>(Landroidx/recyclerview/widget/RecyclerView;Lcom/commsource/studio/function/background/BackgroundAdjustFragment;)V
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
 
     move-result-object p1
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/eb;->f:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->F()Lcom/commsource/widget/h1/e;
 
     move-result-object p2
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 8
     new-instance p2, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -982,21 +914,18 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
 
     move-result-object p1
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/eb;->g:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->J()Lcom/commsource/widget/h1/e;
 
     move-result-object p2
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 11
     new-instance p2, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1005,14 +934,12 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->O()Lcom/commsource/util/h1;
 
     move-result-object p2
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
 
     move-result-object p1
@@ -1025,7 +952,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
 
     move-result-object p1
@@ -1040,7 +966,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/function/background/GradientDrawer;->r(Z)V
 
-    .line 15
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
 
     move-result-object p1
@@ -1053,7 +978,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p1
@@ -1072,7 +996,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 17
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p1
@@ -1091,7 +1014,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p1
@@ -1110,7 +1032,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 19
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p1
@@ -1129,7 +1050,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 20
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p1
@@ -1148,7 +1068,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 21
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p1
@@ -1167,7 +1086,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 22
     sget-object p1, Lcom/commsource/repository/child/GradientRepository;->s:Lcom/commsource/repository/child/GradientRepository;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/GradientRepository;->A()Landroidx/lifecycle/MutableLiveData;
@@ -1184,17 +1102,14 @@
 
     invoke-virtual {p2, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 23
     invoke-virtual {p1}, Lcom/commsource/repository/child/GradientRepository;->C()Lcom/commsource/material/download/b/a;
 
     move-result-object p2
 
-    .line 24
     invoke-virtual {p2}, Lcom/commsource/material/download/b/a;->c()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v1
 
-    .line 25
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object v2
@@ -1203,55 +1118,44 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 26
     new-instance v4, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$b;
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$b;-><init>(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;)V
 
-    .line 27
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 28
     invoke-virtual {p2}, Lcom/commsource/material/download/b/a;->e()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v1
 
-    .line 29
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object v2
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 30
     new-instance v4, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$c;
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$c;-><init>(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;)V
 
-    .line 31
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 32
     invoke-virtual {p2}, Lcom/commsource/material/download/b/a;->b()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object p2
 
-    .line 33
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object v1
 
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 34
     new-instance v2, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$d;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$d;-><init>(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;)V
 
-    .line 35
     invoke-virtual {p2, v1, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 36
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p2
@@ -1270,7 +1174,6 @@
 
     invoke-virtual {p2, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 37
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p2
@@ -1289,15 +1192,12 @@
 
     invoke-virtual {p2, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 38
     invoke-virtual {p1}, Lcom/commsource/repository/child/GradientRepository;->w()V
 
-    .line 39
     sget-object p1, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/TextureRepository;->v()V
 
-    .line 40
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

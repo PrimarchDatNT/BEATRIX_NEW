@@ -19,7 +19,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
@@ -37,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/zr1;->a:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
@@ -57,7 +55,6 @@
 
     check-cast v1, Lcom/google/android/gms/internal/ads/wr1;
 
-    .line 2
     invoke-interface {v1, p0}, Lcom/google/android/gms/internal/ads/wr1;->a(Ljava/lang/String;)Z
 
     move-result v2
@@ -66,7 +63,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/security/GeneralSecurityException;
 

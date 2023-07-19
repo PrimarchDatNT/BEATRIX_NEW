@@ -32,7 +32,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/runtime/backends/g$a;-><init>()V
 
     return-void
@@ -43,14 +42,12 @@
 .method public a()Lcom/google/android/datatransport/runtime/backends/g;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/a$b;->a:Ljava/lang/Iterable;
 
     const-string v1, ""
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -65,7 +62,6 @@
 
     move-result-object v1
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
@@ -73,7 +69,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     new-instance v0, Lcom/google/android/datatransport/runtime/backends/a;
 
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/backends/a$b;->a:Ljava/lang/Iterable;
@@ -86,7 +81,6 @@
 
     return-object v0
 
-    .line 5
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -123,10 +117,8 @@
 
     const-string v0, "Null events"
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/runtime/backends/a$b;->a:Ljava/lang/Iterable;
 
     return-object p0
@@ -139,7 +131,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/runtime/backends/a$b;->b:[B
 
     return-object p0

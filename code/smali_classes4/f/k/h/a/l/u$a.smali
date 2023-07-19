@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/k/h/a/l/u;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/l/u$a;->a:Lf/k/h/a/l/u;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,12 +41,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/u$a;->a:Lf/k/h/a/l/u;
 
     invoke-static {v1}, Lf/k/h/a/l/u;->w(Lf/k/h/a/l/u;)V
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     iget-object v2, p0, Lf/k/h/a/l/u$a;->a:Lf/k/h/a/l/u;
@@ -58,7 +55,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 3
     invoke-static {}, Lf/k/h/a/l/u;->y()Ljava/lang/String;
 
     move-result-object v2
@@ -87,12 +83,10 @@
 
     invoke-static {v2, v3}, Lf/k/h/a/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v2, p0, Lf/k/h/a/l/u$a;->a:Lf/k/h/a/l/u;
 
     invoke-static {v2, v1}, Lf/k/h/a/l/u;->z(Lf/k/h/a/l/u;Ljava/util/List;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

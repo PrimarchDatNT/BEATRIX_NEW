@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/n0$e;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/n0$e$a;->b:Lcom/google/common/util/concurrent/n0$e;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/n0$e$a;->a:Ljava/lang/Runnable;
@@ -42,14 +41,12 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$e$a;->b:Lcom/google/common/util/concurrent/n0$e;
 
     const/4 v1, 0x0
 
     iput-boolean v1, v0, Lcom/google/common/util/concurrent/n0$e;->a:Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$e$a;->a:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
@@ -60,7 +57,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$e$a;->a:Ljava/lang/Runnable;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;

@@ -22,10 +22,8 @@
 .method constructor <init>(Ljava/util/regex/Matcher;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/base/d;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -42,7 +40,6 @@
 .method public a()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/JdkPattern$a;->a:Ljava/util/regex/Matcher;
 
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->end()I
@@ -55,7 +52,6 @@
 .method public b()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/JdkPattern$a;->a:Ljava/util/regex/Matcher;
 
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->find()Z
@@ -68,7 +64,6 @@
 .method public c(I)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/JdkPattern$a;->a:Ljava/util/regex/Matcher;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Matcher;->find(I)Z
@@ -81,7 +76,6 @@
 .method public d()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/JdkPattern$a;->a:Ljava/util/regex/Matcher;
 
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->matches()Z
@@ -94,7 +88,6 @@
 .method public e(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/JdkPattern$a;->a:Ljava/util/regex/Matcher;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Matcher;->replaceAll(Ljava/lang/String;)Ljava/lang/String;
@@ -107,7 +100,6 @@
 .method public f()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/JdkPattern$a;->a:Ljava/util/regex/Matcher;
 
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->start()I

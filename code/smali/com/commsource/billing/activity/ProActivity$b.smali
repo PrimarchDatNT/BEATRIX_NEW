@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/activity/ProActivity$b;->a:Lcom/commsource/billing/activity/ProActivity;
 
     iput-wide p2, p0, Lcom/commsource/billing/activity/ProActivity$b;->b:J
@@ -49,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity$b;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-virtual {v1}, Landroid/app/Activity;->isFinishing()Z
@@ -58,7 +56,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity$b;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/ProActivity;->P0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/billing/activity/SubscribeViewModel;
@@ -67,7 +64,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->T0()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -81,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity$b;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-virtual {v1}, Landroid/app/Activity;->isFinishing()Z
@@ -90,7 +85,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity$b;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/ProActivity;->O0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/beautyplus/f0/u0;
@@ -109,7 +103,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

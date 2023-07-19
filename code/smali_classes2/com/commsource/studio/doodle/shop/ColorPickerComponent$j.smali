@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$j;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->d(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)Lcom/commsource/widget/h1/e;
@@ -57,12 +56,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$j;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->k(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

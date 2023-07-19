@@ -80,7 +80,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -89,7 +88,6 @@
 .method public static final synthetic a(Lcotlin/collections/AbstractMap;Ljava/util/Map$Entry;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/collections/AbstractMap;->i(Ljava/util/Map$Entry;)Ljava/lang/String;
 
     move-result-object p0
@@ -107,12 +105,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/AbstractMap;->entrySet()Ljava/util/Set;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -132,7 +128,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -148,7 +143,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     check-cast v1, Ljava/util/Map$Entry;
 
@@ -164,7 +158,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -185,7 +178,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -237,7 +229,6 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
 
     const/4 v1, 0x0
@@ -246,23 +237,19 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 4
     invoke-interface {p0, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 5
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -278,7 +265,6 @@
     :cond_1
     if-nez v2, :cond_2
 
-    .line 6
     invoke-interface {p0, v0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result p1
@@ -309,7 +295,6 @@
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/collections/AbstractMap;->g(Ljava/lang/Object;)Ljava/util/Map$Entry;
 
     move-result-object p1
@@ -330,12 +315,10 @@
 .method public containsValue(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/AbstractMap;->entrySet()Ljava/util/Set;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Ljava/util/Collection;
 
     const/4 v2, 0x0
@@ -350,7 +333,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -369,7 +351,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -400,19 +381,16 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/AbstractMap;->a:Ljava/util/Set;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcotlin/collections/AbstractMap$b;
 
     invoke-direct {v0, p0}, Lcotlin/collections/AbstractMap$b;-><init>(Lcotlin/collections/AbstractMap;)V
 
     iput-object v0, p0, Lcotlin/collections/AbstractMap;->a:Ljava/util/Set;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcotlin/collections/AbstractMap;->a:Ljava/util/Set;
 
@@ -424,7 +402,6 @@
 .method public e()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/AbstractMap;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -447,7 +424,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/AbstractMap;->c()Ljava/util/Set;
 
     move-result-object v0
@@ -468,7 +444,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Ljava/util/Map;
 
@@ -478,7 +453,6 @@
 
     return v2
 
-    .line 2
     :cond_1
     invoke-virtual {p0}, Lcotlin/collections/AbstractMap;->size()I
 
@@ -494,13 +468,11 @@
 
     return v2
 
-    .line 3
     :cond_2
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
 
-    .line 4
     instance-of v1, p1, Ljava/util/Collection;
 
     if-eqz v1, :cond_3
@@ -513,7 +485,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -532,7 +503,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 6
     invoke-virtual {p0, v1}, Lcotlin/collections/AbstractMap;->b(Ljava/util/Map$Entry;)Z
 
     move-result v1
@@ -559,19 +529,16 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/AbstractMap;->b:Ljava/util/Collection;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcotlin/collections/AbstractMap$c;
 
     invoke-direct {v0, p0}, Lcotlin/collections/AbstractMap$c;-><init>(Lcotlin/collections/AbstractMap;)V
 
     iput-object v0, p0, Lcotlin/collections/AbstractMap;->b:Ljava/util/Collection;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcotlin/collections/AbstractMap;->b:Ljava/util/Collection;
 
@@ -593,7 +560,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/collections/AbstractMap;->g(Ljava/lang/Object;)Ljava/util/Map$Entry;
 
     move-result-object p1
@@ -616,7 +582,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/AbstractMap;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -631,7 +596,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/AbstractMap;->size()I
 
     move-result v0
@@ -659,7 +623,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/AbstractMap;->d()Ljava/util/Set;
 
     move-result-object v0
@@ -725,7 +688,6 @@
 .method public final bridge size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/AbstractMap;->e()I
 
     move-result v0
@@ -738,7 +700,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/AbstractMap;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -778,7 +739,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/AbstractMap;->f()Ljava/util/Collection;
 
     move-result-object v0

@@ -54,7 +54,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1}, Lcotlin/reflect/d;->c(Ljava/lang/Object;)Z
 
     move-result v0
@@ -63,12 +62,10 @@
 
     const-string p0, "null cannot be cast to non-null type T"
 
-    .line 2
     invoke-static {p1, p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/ClassCastException;
 
@@ -80,7 +77,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-interface {p0}, Lcotlin/reflect/d;->r()Ljava/lang/String;
 
     move-result-object p0
@@ -91,7 +87,6 @@
 
     move-result-object p0
 
-    .line 5
     invoke-direct {p1, p0}, Ljava/lang/ClassCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
@@ -139,7 +134,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1}, Lcotlin/reflect/d;->c(Ljava/lang/Object;)Z
 
     move-result p0

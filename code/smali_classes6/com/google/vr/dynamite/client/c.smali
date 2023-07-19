@@ -11,12 +11,10 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Exception;-><init>()V
 
     const/4 p1, 0x1
 
-    .line 2
     iput p1, p0, Lcom/google/vr/dynamite/client/c;->a:I
 
     return-void
@@ -27,7 +25,6 @@
 .method public final getMessage()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/vr/dynamite/client/c;->a:I
 
     const/4 v1, 0x1
@@ -50,7 +47,6 @@
     :cond_1
     const-string v0, "Package not available"
 
-    .line 2
     :goto_0
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 

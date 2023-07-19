@@ -60,17 +60,14 @@
 
     const/16 v0, 0x20
 
-    .line 1
     sput v0, Lkshark/internal/i/b;->i:I
 
     const/4 v0, 0x7
 
-    .line 2
     sput v0, Lkshark/internal/i/b;->j:I
 
     const/16 v0, 0x100
 
-    .line 3
     sput v0, Lkshark/internal/i/b;->k:I
 
     return-void
@@ -79,7 +76,6 @@
 .method private constructor <init>([BLkshark/internal/i/a;I)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/internal/i/b;->f:[B
@@ -88,17 +84,14 @@
 
     iput p3, p0, Lkshark/internal/i/b;->h:I
 
-    .line 3
     sget p2, Lkshark/internal/i/b;->j:I
 
     iput p2, p0, Lkshark/internal/i/b;->a:I
 
-    .line 4
     array-length p1, p1
 
     div-int/2addr p1, p3
 
-    .line 5
     sget p2, Lkshark/internal/i/b;->k:I
 
     mul-int/lit8 v0, p2, 0x2
@@ -110,10 +103,8 @@
     :cond_0
     mul-int p3, p3, p2
 
-    .line 6
     new-array p2, p3, [B
 
-    .line 7
     iput-object p2, p0, Lkshark/internal/i/b;->b:[B
 
     const/16 p2, 0x78
@@ -145,13 +136,11 @@
     :cond_3
     const/16 p1, 0x28
 
-    .line 8
     :goto_0
     new-array p2, p1, [I
 
     iput-object p2, p0, Lkshark/internal/i/b;->d:[I
 
-    .line 9
     new-array p1, p1, [I
 
     iput-object p1, p0, Lkshark/internal/i/b;->e:[I
@@ -162,7 +151,6 @@
 .method public synthetic constructor <init>([BLkshark/internal/i/a;ILcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lkshark/internal/i/b;-><init>([BLkshark/internal/i/a;I)V
 
     return-void
@@ -171,7 +159,6 @@
 .method public static final synthetic a()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lkshark/internal/i/b;->l:Z
 
     return v0
@@ -180,7 +167,6 @@
 .method public static final synthetic b()I
     .locals 1
 
-    .line 1
     sget v0, Lkshark/internal/i/b;->i:I
 
     return v0
@@ -189,7 +175,6 @@
 .method public static final synthetic c(Lkshark/internal/i/b;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lkshark/internal/i/b;->c:I
 
     return p0
@@ -198,7 +183,6 @@
 .method public static final synthetic d(Lkshark/internal/i/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lkshark/internal/i/b;->j()V
 
     return-void
@@ -207,7 +191,6 @@
 .method public static final synthetic e(Lkshark/internal/i/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lkshark/internal/i/b;->k()V
 
     return-void
@@ -216,7 +199,6 @@
 .method public static final synthetic f(Lkshark/internal/i/b;II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lkshark/internal/i/b;->n(II)V
 
     return-void
@@ -225,7 +207,6 @@
 .method public static final synthetic g(Lkshark/internal/i/b;I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lkshark/internal/i/b;->c:I
 
     return-void
@@ -234,7 +215,6 @@
 .method private final h(I)[B
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/i/b;->b:[B
 
     if-nez v0, :cond_0
@@ -276,7 +256,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     iget-object p1, p0, Lkshark/internal/i/b;->f:[B
 
@@ -290,7 +269,6 @@
 
     move-result p1
 
-    .line 3
     :goto_0
     iget v0, p0, Lkshark/internal/i/b;->h:I
 
@@ -298,10 +276,8 @@
 
     new-array p1, p1, [B
 
-    .line 4
     iput-object p1, p0, Lkshark/internal/i/b;->b:[B
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lkshark/internal/i/b;->b:[B
 
@@ -320,7 +296,6 @@
 
     move/from16 v1, p1
 
-    .line 1
     sget-boolean v2, Lkshark/internal/i/b;->l:Z
 
     const/4 v3, 0x2
@@ -332,7 +307,6 @@
     :cond_0
     if-eqz v2, :cond_1
 
-    .line 2
     iget v4, v0, Lkshark/internal/i/b;->c:I
 
     add-int/lit8 v5, v4, -0x2
@@ -341,23 +315,19 @@
 
     add-int/lit8 v4, v4, -0x3
 
-    .line 3
     :cond_1
     iget-object v4, v0, Lkshark/internal/i/b;->d:[I
 
     aget v14, v4, v1
 
-    .line 4
     iget-object v5, v0, Lkshark/internal/i/b;->e:[I
 
     aget v15, v5, v1
 
     add-int/lit8 v6, v1, 0x1
 
-    .line 5
     aget v13, v4, v6
 
-    .line 6
     aget v21, v5, v6
 
     if-eqz v2, :cond_2
@@ -367,10 +337,8 @@
     :cond_2
     add-int v7, v15, v21
 
-    .line 7
     aput v7, v5, v1
 
-    .line 8
     iget v7, v0, Lkshark/internal/i/b;->c:I
 
     add-int/lit8 v8, v7, -0x3
@@ -379,12 +347,10 @@
 
     add-int/2addr v1, v3
 
-    .line 9
     aget v3, v4, v1
 
     aput v3, v4, v6
 
-    .line 10
     aget v1, v5, v1
 
     aput v1, v5, v6
@@ -392,10 +358,8 @@
     :cond_3
     add-int/lit8 v7, v7, -0x1
 
-    .line 11
     iput v7, v0, Lkshark/internal/i/b;->c:I
 
-    .line 12
     sget-object v16, Lkshark/internal/i/b;->m:Lkshark/internal/i/b$a;
 
     iget-object v8, v0, Lkshark/internal/i/b;->f:[B
@@ -432,7 +396,6 @@
 
     return-void
 
-    .line 13
     :cond_4
     iget-object v1, v0, Lkshark/internal/i/b;->f:[B
 
@@ -467,12 +430,10 @@
     :cond_5
     if-gt v15, v1, :cond_6
 
-    .line 14
     invoke-direct {v0, v14, v15, v3, v1}, Lkshark/internal/i/b;->m(IIII)V
 
     goto :goto_0
 
-    .line 15
     :cond_6
     invoke-direct {v0, v14, v15, v3, v1}, Lkshark/internal/i/b;->l(IIII)V
 
@@ -483,7 +444,6 @@
 .method private final j()V
     .locals 5
 
-    .line 1
     :goto_0
     iget v0, p0, Lkshark/internal/i/b;->c:I
 
@@ -495,7 +455,6 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lkshark/internal/i/b;->e:[I
 
     add-int/lit8 v2, v0, -0x1
@@ -533,7 +492,6 @@
 
     if-gt v2, v3, :cond_2
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lkshark/internal/i/b;->e:[I
 
@@ -551,7 +509,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_2
     iget-object v1, p0, Lkshark/internal/i/b;->e:[I
 
@@ -565,7 +522,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_3
     :goto_1
     invoke-direct {p0, v0}, Lkshark/internal/i/b;->i(I)V
@@ -580,7 +536,6 @@
 .method private final k()V
     .locals 4
 
-    .line 1
     :goto_0
     iget v0, p0, Lkshark/internal/i/b;->c:I
 
@@ -592,7 +547,6 @@
 
     if-lez v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lkshark/internal/i/b;->e:[I
 
     add-int/lit8 v2, v0, -0x1
@@ -607,7 +561,6 @@
 
     add-int/lit8 v0, v0, -0x1
 
-    .line 3
     :cond_0
     invoke-direct {p0, v0}, Lkshark/internal/i/b;->i(I)V
 
@@ -626,7 +579,6 @@
 
     move/from16 v2, p4
 
-    .line 1
     sget-boolean v3, Lkshark/internal/i/b;->l:Z
 
     if-eqz v3, :cond_0
@@ -637,16 +589,13 @@
 
     add-int v3, p1, p2
 
-    .line 2
     :cond_0
     iget-object v13, v0, Lkshark/internal/i/b;->f:[B
 
-    .line 3
     invoke-direct {v0, v2}, Lkshark/internal/i/b;->h(I)[B
 
     move-result-object v14
 
-    .line 4
     iget v15, v0, Lkshark/internal/i/b;->h:I
 
     mul-int v3, v1, v15
@@ -655,7 +604,6 @@
 
     const/4 v12, 0x0
 
-    .line 5
     invoke-static {v13, v3, v14, v12, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     add-int v3, p1, p2
@@ -683,7 +631,6 @@
 
     add-int v10, v7, v8
 
-    .line 6
     aget-byte v10, v13, v10
 
     aput-byte v10, v13, v9
@@ -705,7 +652,6 @@
 
     mul-int v1, v1, v15
 
-    .line 7
     invoke-static {v14, v12, v13, v1, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     return-void
@@ -727,7 +673,6 @@
 
     mul-int v6, v6, v15
 
-    .line 8
     invoke-static {v13, v3, v13, v2, v6}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     mul-int v1, v1, v15
@@ -741,7 +686,6 @@
 
     add-int v3, v5, v12
 
-    .line 9
     aget-byte v3, v14, v3
 
     aput-byte v3, v13, v2
@@ -753,11 +697,9 @@
     :cond_3
     return-void
 
-    .line 10
     :cond_4
     iget-object v10, v0, Lkshark/internal/i/b;->g:Lkshark/internal/i/a;
 
-    .line 11
     iget v4, v0, Lkshark/internal/i/b;->a:I
 
     move v9, v4
@@ -771,7 +713,6 @@
 
     const/16 v19, 0x0
 
-    .line 12
     :goto_3
     sget-boolean v4, Lkshark/internal/i/b;->l:Z
 
@@ -789,7 +730,6 @@
 
     move v9, v3
 
-    .line 13
     invoke-interface/range {v4 .. v9}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v4
@@ -809,7 +749,6 @@
 
     add-int v8, v5, v6
 
-    .line 14
     aget-byte v8, v13, v8
 
     aput-byte v8, v13, v7
@@ -850,7 +789,6 @@
 
     add-int v8, v5, v6
 
-    .line 15
     aget-byte v8, v14, v8
 
     aput-byte v8, v13, v7
@@ -903,11 +841,9 @@
 
     move v12, v1
 
-    .line 16
     :goto_8
     sget-boolean v1, Lkshark/internal/i/b;->l:Z
 
-    .line 17
     sget-object v1, Lkshark/internal/i/b;->m:Lkshark/internal/i/b$a;
 
     add-int/lit8 v7, v19, -0x1
@@ -952,7 +888,6 @@
 
     mul-int v7, v1, v15
 
-    .line 18
     invoke-static {v13, v5, v13, v6, v7}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     if-nez v4, :cond_a
@@ -995,7 +930,6 @@
 
     add-int v7, v4, v5
 
-    .line 19
     aget-byte v7, v14, v7
 
     aput-byte v7, v13, v6
@@ -1023,7 +957,6 @@
 
     goto/16 :goto_e
 
-    .line 20
     :cond_d
     sget-object v4, Lkshark/internal/i/b;->m:Lkshark/internal/i/b$a;
 
@@ -1077,7 +1010,6 @@
 
     mul-int v7, v12, v15
 
-    .line 21
     invoke-static {v14, v5, v13, v6, v7}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     const/4 v5, 0x1
@@ -1119,7 +1051,6 @@
 
     add-int v10, v6, v7
 
-    .line 22
     aget-byte v10, v13, v10
 
     aput-byte v10, v13, v8
@@ -1152,13 +1083,11 @@
 
     const/4 v11, 0x1
 
-    .line 23
     :cond_11
     iput v11, v0, Lkshark/internal/i/b;->a:I
 
     if-ne v12, v5, :cond_12
 
-    .line 24
     sget-boolean v4, Lkshark/internal/i/b;->l:Z
 
     sub-int v2, v2, v17
@@ -1175,7 +1104,6 @@
 
     mul-int v5, v17, v15
 
-    .line 25
     invoke-static {v13, v3, v13, v4, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     mul-int v2, v2, v15
@@ -1191,7 +1119,6 @@
 
     add-int v3, v16, v12
 
-    .line 26
     aget-byte v3, v14, v3
 
     aput-byte v3, v13, v1
@@ -1203,7 +1130,6 @@
     :cond_12
     if-eqz v12, :cond_14
 
-    .line 27
     sget-boolean v3, Lkshark/internal/i/b;->l:Z
 
     add-int/lit8 v3, v12, -0x1
@@ -1214,13 +1140,11 @@
 
     mul-int v12, v12, v15
 
-    .line 28
     invoke-static {v14, v1, v13, v2, v12}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     :cond_13
     return-void
 
-    .line 29
     :cond_14
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
@@ -1233,7 +1157,6 @@
     :cond_15
     add-int/lit8 v17, v17, -0x1
 
-    .line 30
     sget v3, Lkshark/internal/i/b;->j:I
 
     move/from16 v4, p2
@@ -1322,7 +1245,6 @@
 
     move/from16 v2, p3
 
-    .line 1
     sget-boolean v3, Lkshark/internal/i/b;->l:Z
 
     if-eqz v3, :cond_0
@@ -1333,14 +1255,11 @@
 
     add-int v3, p1, v1
 
-    .line 2
     :cond_0
     iget-object v3, v0, Lkshark/internal/i/b;->f:[B
 
-    .line 3
     iget v13, v0, Lkshark/internal/i/b;->h:I
 
-    .line 4
     invoke-direct {v0, v1}, Lkshark/internal/i/b;->h(I)[B
 
     move-result-object v14
@@ -1351,7 +1270,6 @@
 
     const/4 v15, 0x0
 
-    .line 5
     invoke-static {v3, v4, v14, v15, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     mul-int v6, v2, v13
@@ -1365,7 +1283,6 @@
 
     add-int v9, v6, v7
 
-    .line 6
     aget-byte v9, v3, v9
 
     aput-byte v9, v3, v8
@@ -1389,7 +1306,6 @@
 
     mul-int v4, v4, v13
 
-    .line 7
     invoke-static {v14, v1, v3, v4, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     return-void
@@ -1403,7 +1319,6 @@
 
     mul-int v5, v6, v13
 
-    .line 8
     invoke-static {v3, v2, v3, v1, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     add-int/2addr v4, v6
@@ -1419,7 +1334,6 @@
 
     add-int v5, v1, v15
 
-    .line 9
     aget-byte v5, v14, v5
 
     aput-byte v5, v3, v2
@@ -1431,11 +1345,9 @@
     :cond_3
     return-void
 
-    .line 10
     :cond_4
     iget-object v11, v0, Lkshark/internal/i/b;->g:Lkshark/internal/i/a;
 
-    .line 11
     iget v5, v0, Lkshark/internal/i/b;->a:I
 
     move v10, v5
@@ -1453,7 +1365,6 @@
 
     const/16 v20, 0x0
 
-    .line 12
     :goto_3
     sget-boolean v4, Lkshark/internal/i/b;->l:Z
 
@@ -1469,7 +1380,6 @@
 
     move/from16 v9, v17
 
-    .line 13
     invoke-interface/range {v4 .. v9}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v4
@@ -1489,7 +1399,6 @@
 
     add-int v8, v5, v6
 
-    .line 14
     aget-byte v8, v3, v8
 
     aput-byte v8, v3, v7
@@ -1530,7 +1439,6 @@
 
     add-int v8, v5, v6
 
-    .line 15
     aget-byte v8, v14, v8
 
     aput-byte v8, v3, v7
@@ -1573,11 +1481,9 @@
 
     move/from16 v16, v10
 
-    .line 16
     :goto_8
     sget-boolean v4, Lkshark/internal/i/b;->l:Z
 
-    .line 17
     sget-object v4, Lkshark/internal/i/b;->m:Lkshark/internal/i/b$a;
 
     const/4 v10, 0x0
@@ -1612,7 +1518,6 @@
 
     mul-int v6, v12, v13
 
-    .line 18
     invoke-static {v14, v4, v3, v5, v6}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     add-int v4, v17, v12
@@ -1650,7 +1555,6 @@
 
     add-int v8, v5, v6
 
-    .line 19
     aget-byte v8, v3, v8
 
     aput-byte v8, v3, v7
@@ -1679,7 +1583,6 @@
 
     goto :goto_c
 
-    .line 20
     :cond_d
     sget-object v4, Lkshark/internal/i/b;->m:Lkshark/internal/i/b$a;
 
@@ -1713,7 +1616,6 @@
 
     mul-int v7, v4, v13
 
-    .line 21
     invoke-static {v3, v5, v3, v6, v7}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     add-int v5, v17, v4
@@ -1753,7 +1655,6 @@
 
     add-int v9, v6, v7
 
-    .line 22
     aget-byte v9, v14, v9
 
     aput-byte v9, v3, v8
@@ -1778,13 +1679,11 @@
 
     const/4 v12, 0x1
 
-    .line 23
     :cond_11
     iput v12, v0, Lkshark/internal/i/b;->a:I
 
     if-ne v1, v15, :cond_12
 
-    .line 24
     sget-boolean v1, Lkshark/internal/i/b;->l:Z
 
     mul-int v2, v2, v13
@@ -1793,7 +1692,6 @@
 
     mul-int v4, v18, v13
 
-    .line 25
     invoke-static {v3, v2, v3, v1, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     add-int v16, v16, v18
@@ -1811,7 +1709,6 @@
 
     add-int v2, v17, v15
 
-    .line 26
     aget-byte v2, v14, v2
 
     aput-byte v2, v3, v1
@@ -1823,7 +1720,6 @@
     :cond_12
     if-eqz v1, :cond_14
 
-    .line 27
     sget-boolean v2, Lkshark/internal/i/b;->l:Z
 
     mul-int v2, v17, v13
@@ -1832,13 +1728,11 @@
 
     mul-int v1, v1, v13
 
-    .line 28
     invoke-static {v14, v2, v3, v4, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     :cond_13
     return-void
 
-    .line 29
     :cond_14
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
@@ -1851,7 +1745,6 @@
     :cond_15
     add-int/lit8 v16, v16, -0x1
 
-    .line 30
     sget v5, Lkshark/internal/i/b;->j:I
 
     move/from16 v6, v22
@@ -1919,21 +1812,18 @@
 .method private final n(II)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/i/b;->d:[I
 
     iget v1, p0, Lkshark/internal/i/b;->c:I
 
     aput p1, v0, v1
 
-    .line 2
     iget-object p1, p0, Lkshark/internal/i/b;->e:[I
 
     aput p2, p1, v1
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 3
     iput v1, p0, Lkshark/internal/i/b;->c:I
 
     return-void

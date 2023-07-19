@@ -102,10 +102,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/ImageStudioActivity$editFilterViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/ImageStudioActivity$editFilterViewModel$2;-><init>(Lcom/commsource/studio/ImageStudioActivity;)V
@@ -116,7 +114,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/ImageStudioActivity;->P:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/ImageStudioActivity$textViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/ImageStudioActivity$textViewModel$2;-><init>(Lcom/commsource/studio/ImageStudioActivity;)V
@@ -127,7 +124,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/ImageStudioActivity;->Q:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/ImageStudioActivity$formulaViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/ImageStudioActivity$formulaViewModel$2;-><init>(Lcom/commsource/studio/ImageStudioActivity;)V
@@ -138,14 +134,12 @@
 
     iput-object v0, p0, Lcom/commsource/studio/ImageStudioActivity;->R:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/a;
 
     invoke-direct {v0}, Lcom/commsource/studio/a;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/ImageStudioActivity;->X:Lcom/commsource/studio/a;
 
-    .line 6
     new-instance v0, Lcom/commsource/studio/ImageStudioActivity$popupControllerChain$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/ImageStudioActivity$popupControllerChain$2;-><init>(Lcom/commsource/studio/ImageStudioActivity;)V
@@ -166,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_0
@@ -184,7 +177,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -197,12 +189,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->Y:Lcom/commsource/comic/widget/c;
 
     if-nez v1, :cond_1
 
-    .line 2
     new-instance v1, Lcom/commsource/comic/widget/c;
 
     sget v2, Lcom/res/provider/ResSTYLE;->updateDialog:I
@@ -213,14 +203,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v2, Lcom/commsource/studio/ImageStudioActivity$t0;
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/studio/ImageStudioActivity$t0;-><init>(Lcom/commsource/studio/ImageStudioActivity;Lcom/commsource/studio/formula/convert/g;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/comic/widget/c;->i(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->Y:Lcom/commsource/comic/widget/c;
 
@@ -228,7 +216,6 @@
 
     invoke-virtual {p1}, Landroid/app/Dialog;->show()V
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->Y:Lcom/commsource/comic/widget/c;
 
@@ -238,7 +225,6 @@
 
     invoke-virtual {p1, v1}, Landroid/app/Dialog;->setCancelable(Z)V
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->Y:Lcom/commsource/comic/widget/c;
 
@@ -246,7 +232,6 @@
 
     invoke-virtual {p1, v1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    .line 7
     :cond_3
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->Y:Lcom/commsource/comic/widget/c;
 
@@ -266,14 +251,12 @@
     :goto_0
     if-eqz p1, :cond_6
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->Y:Lcom/commsource/comic/widget/c;
 
     if-eqz p1, :cond_5
 
     invoke-virtual {p1, p2}, Lcom/commsource/comic/widget/c;->n(I)V
 
-    .line 9
     :cond_5
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->Y:Lcom/commsource/comic/widget/c;
 
@@ -281,7 +264,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/comic/widget/c;->k(Ljava/lang/String;)V
 
-    .line 10
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -295,7 +277,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/ImageStudioActivity;->c1(Landroid/view/View;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -310,7 +291,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioActivity;->g1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -325,7 +305,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/ImageStudioActivity;->X:Lcom/commsource/studio/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -340,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/ImageStudioActivity;->S:Lcom/commsource/studio/sub/SubTabEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -355,7 +333,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioActivity;->n1()Lcom/commsource/home/homepagedialog/b;
 
     move-result-object p0
@@ -372,7 +349,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/ImageStudioActivity;->q1(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -387,7 +363,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioActivity;->r1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -402,7 +377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/activity/ComponentActivity;->onBackPressed()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -417,7 +391,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioActivity;->v1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -432,7 +405,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/ImageStudioActivity;->w1(Lcom/commsource/studio/sub/SubModuleEnum;Landroid/os/Bundle;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -447,7 +419,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/ImageStudioActivity;->y1(Lcom/commsource/studio/sub/SubTabEnum;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -462,7 +433,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->X:Lcom/commsource/studio/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -477,7 +447,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->S:Lcom/commsource/studio/sub/SubTabEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -492,7 +461,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/ImageStudioActivity;->F1(Lcom/commsource/studio/formula/convert/g;ILjava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -507,7 +475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -520,12 +487,10 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/commsource/studio/ImageStudioActivity$b;
 
     invoke-direct {v2, p1}, Lcom/commsource/studio/ImageStudioActivity$b;-><init>(Landroid/view/View;)V
@@ -536,7 +501,6 @@
 
     const/high16 v1, 0x42480000    # 50.0f
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -547,12 +511,10 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 6
     new-instance v1, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v1}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -563,15 +525,12 @@
 
     const-wide/16 v1, 0x12c
 
-    .line 7
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -593,10 +552,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -609,33 +566,28 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const-wide/16 v1, 0x12c
 
-    .line 6
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 7
     new-instance v1, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v1}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -644,7 +596,6 @@
 
     move-result-object p1
 
-    .line 8
     new-instance v1, Lcom/commsource/studio/ImageStudioActivity$c;
 
     invoke-direct {v1, p2}, Lcom/commsource/studio/ImageStudioActivity$c;-><init>(Lcotlin/jvm/u/a;)V
@@ -653,10 +604,8 @@
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -675,7 +624,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/ImageStudioActivity;->d1(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
@@ -691,14 +639,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->Y:Lcom/commsource/comic/widget/c;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v3
@@ -713,14 +659,11 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 4
     :cond_1
     iput-object v2, p0, Lcom/commsource/studio/ImageStudioActivity;->Y:Lcom/commsource/comic/widget/c;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -753,22 +696,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/sharelink/b;
 
     invoke-direct {v1, p0}, Lcom/commsource/sharelink/b;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/commsource/sharelink/b;->o(Ljava/lang/String;)V
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/sharelink/b;->p(Z)V
 
     sget v2, Lcom/res/provider/ResSTRING;->t_image_saved:I
 
-    .line 4
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v2
@@ -779,7 +718,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/sharelink/b;->r(Ljava/lang/String;)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v2, :cond_0
@@ -805,14 +743,12 @@
     :goto_0
     invoke-virtual {v1, v2}, Lcom/commsource/sharelink/b;->n(I)V
 
-    .line 6
     new-instance v2, Lcom/commsource/studio/ImageStudioActivity$d;
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/studio/ImageStudioActivity$d;-><init>(Lcom/commsource/studio/ImageStudioActivity;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/sharelink/b;->q(Lcom/commsource/sharelink/a;)V
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/sharelink/b;->a()Lcom/commsource/sharelink/ShareDialog;
 
     move-result-object p1
@@ -821,12 +757,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 8
     sget-object v1, Lcom/commsource/studio/ImageStudioActivity$gotoImageSaveAndShareFragment$2;->INSTANCE:Lcom/commsource/studio/ImageStudioActivity$gotoImageSaveAndShareFragment$2;
 
     invoke-virtual {p1, v1}, Lcom/commsource/sharelink/ShareDialog;->d0(Lcotlin/jvm/u/a;)V
 
-    .line 9
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->W:Lcom/commsource/sharelink/ShareDialog;
 
@@ -834,7 +768,6 @@
 
     invoke-virtual {p1}, Lf/d/a;->F()V
 
-    .line 10
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -848,7 +781,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     const-string v2, "mViewModel"
@@ -887,7 +819,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
@@ -904,7 +835,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_4
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
@@ -920,7 +850,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -934,7 +863,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_0
@@ -961,19 +889,16 @@
 
     invoke-virtual {v1, p0, v2}, Lcom/commsource/studio/ImageStudioViewModel;->m1(Lcom/commsource/beautyplus/BaseActivity;Lcom/commsource/studio/StudioCanvasContainer;)V
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/sub/SubTabEnum;->Beauty:Lcom/commsource/studio/sub/SubTabEnum;
 
     invoke-direct {p0, v1}, Lcom/commsource/studio/ImageStudioActivity;->y1(Lcom/commsource/studio/sub/SubTabEnum;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/util/q2/b;
 
     invoke-direct {v1, p0}, Lcom/commsource/util/q2/b;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
     const-string v2, "android.permission.WRITE_EXTERNAL_STORAGE"
 
-    .line 4
     filled-new-array {v2}, [Ljava/lang/String;
 
     move-result-object v2
@@ -982,26 +907,22 @@
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/ImageStudioActivity$initData$1;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/ImageStudioActivity$initData$1;-><init>(Lcom/commsource/studio/ImageStudioActivity;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/q2/b;->a(Lcom/commsource/util/q2/f;)V
 
-    .line 6
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerManager;->X()V
 
-    .line 7
     sget-object v1, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     const/4 v2, 0x5
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/XRepository;->c(I)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1016,7 +937,6 @@
 
     sget v1, Lcom/res/provider/ResLAYOUT;->activity_image_studio:I
 
-    .line 1
     invoke-static {p0, v1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -1029,7 +949,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
-    .line 2
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
     move-result v1
@@ -1042,7 +961,6 @@
 
     if-eqz v1, :cond_9
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_0
@@ -1052,7 +970,6 @@
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k0;->a0:Lcom/commsource/widget/ProView;
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/f/i;->B()I
 
     move-result v5
@@ -1065,10 +982,8 @@
 
     add-int/2addr v5, v6
 
-    .line 5
     invoke-static {v1, v5}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_1
@@ -1084,7 +999,6 @@
 
     invoke-static {v1, v5}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_2
@@ -1108,7 +1022,6 @@
 
     invoke-static {v1, v5}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_3
@@ -1124,7 +1037,6 @@
 
     invoke-virtual {v1, v3, v5, v3, v3}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_4
@@ -1134,12 +1046,10 @@
     :cond_4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k0;->J:Landroid/widget/LinearLayout;
 
-    .line 10
     invoke-static {}, Lcom/meitu/library/p/f/i;->B()I
 
     move-result v5
 
-    .line 11
     invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v6
@@ -1165,17 +1075,14 @@
     :goto_0
     add-int/2addr v5, v6
 
-    .line 12
     invoke-static {v1, v5}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
     const/16 v5, 0x32
 
-    .line 13
     invoke-static {v5}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v5
 
-    .line 14
     invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v6
@@ -1205,10 +1112,8 @@
 
     neg-float v5, v5
 
-    .line 15
     invoke-virtual {v1, v5}, Landroid/widget/LinearLayout;->setTranslationY(F)V
 
-    .line 16
     :cond_9
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
@@ -1216,11 +1121,9 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
-    .line 17
     :cond_a
     invoke-virtual {v1, p0}, Lcom/commsource/beautyplus/f0/k0;->i(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 18
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/k0;->S:Lcom/commsource/widget/PressImageView;
 
     new-instance v6, Lcom/commsource/studio/ImageStudioActivity$e;
@@ -1229,7 +1132,6 @@
 
     invoke-virtual {v5, v6}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 19
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/k0;->e0:Lcom/commsource/studio/component/SaveBtnComponent;
 
     new-instance v6, Lcom/commsource/studio/ImageStudioActivity$f;
@@ -1238,7 +1140,6 @@
 
     invoke-virtual {v5, v6}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 20
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/k0;->Y:Landroid/widget/LinearLayout;
 
     new-instance v6, Lcom/commsource/studio/ImageStudioActivity$g;
@@ -1247,7 +1148,6 @@
 
     invoke-virtual {v5, v6}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 21
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/k0;->a0:Lcom/commsource/widget/ProView;
 
     invoke-static {}, Lf/d/i/h;->i0()Z
@@ -1256,14 +1156,12 @@
 
     invoke-virtual {v5, v6}, Lcom/commsource/widget/ProView;->setHasShowNotProBanner(Z)V
 
-    .line 22
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/k0;->a0:Lcom/commsource/widget/ProView;
 
     const/4 v6, 0x1
 
     invoke-virtual {v5, v6}, Lcom/commsource/widget/ProView;->setEditMode(Z)V
 
-    .line 23
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/k0;->a0:Lcom/commsource/widget/ProView;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1272,7 +1170,6 @@
 
     invoke-virtual {v5, v7}, Lcom/commsource/widget/ProView;->M(Ljava/lang/Integer;)V
 
-    .line 24
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/k0;->a0:Lcom/commsource/widget/ProView;
 
     new-instance v7, Lcom/commsource/studio/ImageStudioActivity$h;
@@ -1281,7 +1178,6 @@
 
     invoke-virtual {v5, v7}, Lcom/commsource/widget/ProView;->setOnClickProBannerListener(Lcom/commsource/widget/ProView$c;)V
 
-    .line 25
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/k0;->j0:Lcom/commsource/widget/PressTextView;
 
     new-instance v7, Lcom/commsource/studio/ImageStudioActivity$i;
@@ -1290,7 +1186,6 @@
 
     invoke-virtual {v5, v7}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 26
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/k0;->X:Lcom/commsource/studio/LayerSelectGuideView;
 
     iget-object v7, v1, Lcom/commsource/beautyplus/f0/k0;->W:Lcom/commsource/studio/gesture/LayerSelectComponent;
@@ -1301,7 +1196,6 @@
 
     invoke-virtual {v5, v7}, Lcom/commsource/studio/LayerSelectGuideView;->setContentBinding(Lcom/commsource/beautyplus/f0/ym;)V
 
-    .line 27
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k0;->X:Lcom/commsource/studio/LayerSelectGuideView;
 
     new-instance v5, Lcom/commsource/studio/ImageStudioActivity$j;
@@ -1310,7 +1204,6 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/studio/LayerSelectGuideView;->setOnHideListener(Lcom/commsource/studio/LayerSelectGuideView$c;)V
 
-    .line 28
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_b
@@ -1330,7 +1223,6 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/studio/StudioTabLayout;->setTabEnums(Ljava/util/List;)V
 
-    .line 29
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_c
@@ -1346,7 +1238,6 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/studio/StudioTabLayout;->setOnItemClickLister(Lcotlin/jvm/u/p;)V
 
-    .line 30
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_d
@@ -1362,12 +1253,10 @@
 
     invoke-virtual {v1, v5}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 31
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
 
-    .line 32
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentManager;->getFragments()Ljava/util/List;
 
     move-result-object v5
@@ -1376,7 +1265,6 @@
 
     invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 33
     invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -1394,7 +1282,6 @@
 
     check-cast v7, Landroidx/fragment/app/Fragment;
 
-    .line 34
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -1415,7 +1302,6 @@
 
     invoke-static {v8, v10, v2, v9, v2}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 35
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object v8
@@ -1428,13 +1314,11 @@
 
     goto :goto_2
 
-    .line 36
     :cond_e
     new-instance v1, Lcom/commsource/studio/ImageStudioActivity$o;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/ImageStudioActivity$o;-><init>(Lcom/commsource/studio/ImageStudioActivity;)V
 
-    .line 37
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v2, :cond_f
@@ -1454,7 +1338,6 @@
 
     invoke-virtual {v2, v1}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    .line 38
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_10
@@ -1472,7 +1355,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 39
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_11
@@ -1492,7 +1374,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->t_formula_update_content:I
 
-    .line 40
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v2
@@ -1507,7 +1388,6 @@
 
     aput-object v7, v5, v3
 
-    .line 41
     invoke-static {v5, v6}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object v3
@@ -1522,7 +1402,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 42
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_12
@@ -1540,7 +1419,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 43
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_13
@@ -1556,7 +1434,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 44
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_14
@@ -1572,10 +1449,8 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/StudioTabLayout;->setOnScrollOffsetChange(Lcotlin/jvm/u/l;)V
 
-    .line 45
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioActivity;->B1()V
 
-    .line 46
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1588,7 +1463,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {v1, p0}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -1603,10 +1477,8 @@
 
     check-cast v2, Lcom/commsource/studio/ImageStudioViewModel;
 
-    .line 2
     invoke-virtual {v2, p0}, Lcom/commsource/studio/f;->c(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->w0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1617,7 +1489,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->p0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1628,7 +1499,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->T0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1639,7 +1509,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->J0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1650,7 +1519,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->V0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1661,7 +1529,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->Y0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1672,7 +1539,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 9
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->d1()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1683,7 +1549,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 10
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->b0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1694,7 +1559,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 11
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->f0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1705,7 +1569,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 12
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->F0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1716,7 +1579,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 13
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->M0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1727,7 +1589,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 14
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->s0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1738,7 +1599,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 15
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->a0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1749,7 +1609,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 16
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->x0()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v3
@@ -1760,7 +1619,6 @@
 
     invoke-virtual {v3, p0, v4}, Lcom/commsource/beautyfilter/NoStickLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 17
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->a1()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1771,7 +1629,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 18
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->d0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1782,7 +1639,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 19
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->h0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1793,7 +1649,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 20
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->E0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1804,7 +1659,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 21
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->K0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1815,7 +1669,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 22
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->Z0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1826,7 +1679,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 23
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->U0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1837,7 +1689,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 24
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->L0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1848,7 +1699,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 25
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->G0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1859,7 +1709,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 26
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->o0()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v3
@@ -1870,7 +1719,6 @@
 
     invoke-virtual {v3, p0, v4}, Lcom/commsource/beautyfilter/NoStickLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 27
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->Z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1881,7 +1729,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 28
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->n0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1892,7 +1739,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 29
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->H0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1903,7 +1749,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 30
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->N0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -1916,12 +1761,10 @@
 
     const-string v3, "ViewModelProvider(this).\u2026\n            })\n        }"
 
-    .line 31
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v2, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
-    .line 32
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {v1, p0}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -1934,20 +1777,16 @@
 
     check-cast v1, Lcom/commsource/studio/component/ContrastComponent$a;
 
-    .line 33
     invoke-virtual {v1}, Lcom/commsource/studio/component/ContrastComponent$a;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
 
-    .line 34
     new-instance v2, Lcom/commsource/studio/ImageStudioActivity$f0;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/ImageStudioActivity$f0;-><init>(Lcom/commsource/studio/ImageStudioActivity;)V
 
-    .line 35
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 36
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     const-string v2, "mViewModel"
@@ -1967,7 +1806,6 @@
 
     invoke-virtual {v1, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 37
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioActivity;->p1()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v1
@@ -1976,15 +1814,12 @@
 
     move-result-object v1
 
-    .line 38
     new-instance v3, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4;
 
     invoke-direct {v3, p0}, Lcom/commsource/studio/ImageStudioActivity$initViewModel$4;-><init>(Lcom/commsource/studio/ImageStudioActivity;)V
 
-    .line 39
     invoke-virtual {v1, p0, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 40
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioActivity;->k1()Lcom/commsource/studio/formula/FormulaViewModel;
 
     move-result-object v1
@@ -1999,7 +1834,6 @@
 
     invoke-virtual {v1, p0, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 41
     invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v1
@@ -2013,7 +1847,6 @@
     :cond_1
     invoke-virtual {v1, v3}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 42
     invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v1
@@ -2031,21 +1864,18 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 43
     sget-object v1, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sticker/StickerConfig;->e0(Z)V
 
-    .line 44
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager;-><init>(Landroidx/lifecycle/LifecycleOwner;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager;->c()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager;
 
-    .line 45
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2058,7 +1888,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v1
@@ -2073,7 +1902,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
@@ -2096,7 +1924,6 @@
 
     invoke-static {p0, v1, v3, v4, v3}, Lcom/commsource/studio/ImageStudioActivity;->e1(Lcom/commsource/studio/ImageStudioActivity;Landroid/view/View;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_2
@@ -2112,7 +1939,6 @@
 
     invoke-static {p0, v1, v3, v4, v3}, Lcom/commsource/studio/ImageStudioActivity;->e1(Lcom/commsource/studio/ImageStudioActivity;Landroid/view/View;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_3
@@ -2132,15 +1958,12 @@
 
     invoke-direct {p0, v1, v2}, Lcom/commsource/studio/ImageStudioActivity;->d1(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
-    .line 5
     iput-object v3, p0, Lcom/commsource/studio/ImageStudioActivity;->T:Lcom/commsource/studio/function/BaseSubFragment;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2155,7 +1978,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/sub/SubModuleEnum;->getFragmentClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -2168,7 +1990,6 @@
 
     goto/16 :goto_2
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -2199,7 +2020,6 @@
 
     if-nez v1, :cond_b
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_2
@@ -2219,36 +2039,30 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->t_import_photo:I
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object p1
 
     sget p2, Lcom/res/provider/ResSTRING;->t_import:I
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 6
     new-instance v1, Lcom/commsource/studio/ImageStudioActivity$q0;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/ImageStudioActivity$q0;-><init>(Lcom/commsource/studio/ImageStudioActivity;)V
 
     sget v2, Lcom/res/provider/ResSTRING;->selfie_ai_cancel:I
 
-    .line 7
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 8
     invoke-static {p1, p2, v1, v2}, Lcom/commsource/widget/dialog/s0/t;->j0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 9
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
@@ -2263,7 +2077,6 @@
 
     move-result-object v1
 
-    .line 10
     iget-object v4, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v4, :cond_5
@@ -2279,7 +2092,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 11
     iget-object v4, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v4, :cond_6
@@ -2295,7 +2107,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_7
@@ -2337,7 +2148,6 @@
 
     invoke-static/range {v4 .. v11}, Lcom/commsource/studio/PictureSelectView;->s(Lcom/commsource/studio/PictureSelectView;Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLcotlin/jvm/u/l;ILjava/lang/Object;)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez p1, :cond_a
@@ -2357,13 +2167,11 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 14
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_b
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -2406,13 +2214,11 @@
 
     if-eqz v4, :cond_16
 
-    .line 16
     :cond_d
     invoke-virtual {p1}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
 
     move-result p1
 
-    .line 17
     sget-object p2, Lcom/commsource/studio/sub/SubModuleEnum;->AiBeauty:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {p2}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
@@ -2431,7 +2237,6 @@
 
     goto/16 :goto_1
 
-    .line 18
     :cond_e
     sget-object p2, Lcom/commsource/studio/sub/SubModuleEnum;->Evenly:Lcom/commsource/studio/sub/SubModuleEnum;
 
@@ -2451,7 +2256,6 @@
 
     goto/16 :goto_1
 
-    .line 19
     :cond_f
     sget-object p2, Lcom/commsource/studio/sub/SubModuleEnum;->Makeup:Lcom/commsource/studio/sub/SubModuleEnum;
 
@@ -2471,7 +2275,6 @@
 
     goto :goto_1
 
-    .line 20
     :cond_10
     sget-object p2, Lcom/commsource/studio/sub/SubModuleEnum;->Remold:Lcom/commsource/studio/sub/SubModuleEnum;
 
@@ -2491,7 +2294,6 @@
 
     goto :goto_1
 
-    .line 21
     :cond_11
     sget-object p2, Lcom/commsource/studio/sub/SubModuleEnum;->Shrink:Lcom/commsource/studio/sub/SubModuleEnum;
 
@@ -2511,7 +2313,6 @@
 
     goto :goto_1
 
-    .line 22
     :cond_12
     invoke-virtual {v1}, Lcom/commsource/studio/sub/SubModuleEnum;->getId()I
 
@@ -2529,7 +2330,6 @@
 
     goto :goto_1
 
-    .line 23
     :cond_13
     sget-object p2, Lcom/commsource/studio/sub/SubModuleEnum;->Countouring:Lcom/commsource/studio/sub/SubModuleEnum;
 
@@ -2549,7 +2349,6 @@
 
     goto :goto_1
 
-    .line 24
     :cond_14
     sget-object p2, Lcom/commsource/studio/sub/SubModuleEnum;->NoseSwing:Lcom/commsource/studio/sub/SubModuleEnum;
 
@@ -2567,17 +2366,14 @@
 
     invoke-static {p1}, Lf/k/c/c/f;->I(Ljava/lang/CharSequence;)V
 
-    .line 25
     :cond_15
     :goto_1
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioActivity;->f1()V
 
-    .line 26
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 27
     :cond_16
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -2598,22 +2394,18 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->t_edit_teethcorrection_noteeth_tip:I
 
-    .line 28
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-static {p1}, Lf/k/c/c/f;->I(Ljava/lang/CharSequence;)V
 
-    .line 29
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioActivity;->f1()V
 
-    .line 30
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 31
     :cond_18
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Companion:Lcom/commsource/studio/sub/SubModuleEnum$a;
 
@@ -2640,12 +2432,10 @@
 
     if-nez v4, :cond_1a
 
-    .line 32
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 33
     :cond_1a
     invoke-static {p0}, Lcom/meitu/library/p/h/a;->b(Landroid/content/Context;)Z
 
@@ -2663,18 +2453,14 @@
 
     if-eqz v1, :cond_1b
 
-    .line 34
     invoke-static {p0}, Lcom/commsource/widget/dialog/s0/t;->Y(Landroid/content/Context;)V
 
-    .line 35
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioActivity;->f1()V
 
-    .line 36
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 37
     :cond_1b
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -2695,7 +2481,6 @@
 
     invoke-virtual {v1, v4}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 38
     invoke-virtual {p1}, Lcom/commsource/studio/sub/SubModuleEnum;->getFragmentClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -2711,13 +2496,10 @@
 
     check-cast v1, Lcom/commsource/studio/function/BaseSubFragment;
 
-    .line 39
     invoke-virtual {v1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->o1(Landroid/os/Bundle;)V
 
-    .line 40
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/BaseSubFragment;->u1(Lcom/commsource/studio/sub/SubModuleEnum;)V
 
-    .line 41
     iget-object p2, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez p2, :cond_1e
@@ -2736,7 +2518,6 @@
     :cond_1f
     invoke-virtual {p2, v4}, Lcom/commsource/studio/PictureTransitionView;->setStudioViewModel(Lcom/commsource/studio/ImageStudioViewModel;)V
 
-    .line 42
     iget-object p2, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez p2, :cond_20
@@ -2761,14 +2542,12 @@
 
     invoke-virtual {p2, v4}, Lcom/commsource/studio/PictureTransitionView;->setCanvasContainer(Lcom/commsource/studio/StudioCanvasContainer;)V
 
-    .line 43
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->p0()Z
 
     move-result p2
 
     if-nez p2, :cond_22
 
-    .line 44
     sget-object p2, Lcom/commsource/studio/PictureTransitionView;->P:Lcom/commsource/studio/PictureTransitionView$a;
 
     const/4 v4, 0x1
@@ -2778,14 +2557,12 @@
     :cond_22
     const/4 v5, 0x0
 
-    .line 45
     iget-object v6, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v6, :cond_23
 
     invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
-    .line 46
     :cond_23
     iget-object v7, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -2800,10 +2577,8 @@
 
     move-object v4, v1
 
-    .line 47
     invoke-static/range {v4 .. v9}, Lcom/commsource/studio/function/BaseSubFragment;->S0(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/MatrixBox;Lcom/commsource/beautyplus/f0/k0;Lcom/commsource/studio/ImageStudioViewModel;ILjava/lang/Object;)V
 
-    .line 48
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p2
@@ -2812,7 +2587,6 @@
 
     move-result-object p2
 
-    .line 49
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v2, :cond_25
@@ -2838,12 +2612,10 @@
 
     move-result-object p1
 
-    .line 50
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
     const-string p1, "subFunctionFragment"
 
-    .line 51
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
@@ -2856,14 +2628,11 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 52
     :cond_26
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->z0()V
 
-    .line 53
     iput-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->T:Lcom/commsource/studio/function/BaseSubFragment;
 
-    .line 54
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez p1, :cond_27
@@ -2887,19 +2656,16 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 55
     new-instance p1, Lcom/commsource/studio/ImageStudioActivity$r0;
 
     invoke-direct {p1, p0, v1}, Lcom/commsource/studio/ImageStudioActivity$r0;-><init>(Lcom/commsource/studio/ImageStudioActivity;Lcom/commsource/studio/function/BaseSubFragment;)V
 
     invoke-static {p1}, Lcom/commsource/util/g2;->j(Ljava/lang/Runnable;)V
 
-    .line 56
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 57
     :cond_28
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2920,7 +2686,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/ImageStudioActivity;->w1(Lcom/commsource/studio/sub/SubModuleEnum;Landroid/os/Bundle;)V
 
@@ -2936,23 +2701,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->S:Lcom/commsource/studio/sub/SubTabEnum;
 
     if-ne p1, v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    .line 4
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v2
@@ -2967,17 +2728,14 @@
 
     check-cast v2, Lcom/commsource/studio/sub/BaseSubTabFragment;
 
-    .line 5
     iput-object v2, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 6
     check-cast v2, Lcom/commsource/studio/sub/BaseSubTabFragment;
 
     const-string v3, "mViewBinding"
 
     if-nez v2, :cond_2
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/studio/sub/SubTabEnum;->getFgClass()Ljava/lang/Class;
 
     move-result-object v2
@@ -2990,7 +2748,6 @@
 
     iput-object v2, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 8
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v2
@@ -2999,7 +2756,6 @@
 
     move-result-object v2
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v4, :cond_1
@@ -3029,12 +2785,10 @@
 
     move-result-object v2
 
-    .line 10
     invoke-virtual {v2}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
@@ -3052,10 +2806,8 @@
 
     move-result-object v2
 
-    .line 12
     invoke-virtual {v2}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 13
     :goto_0
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
@@ -3087,7 +2839,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 14
     iget-object v6, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast v6, Lcom/commsource/studio/sub/BaseSubTabFragment;
@@ -3115,7 +2866,6 @@
 
     invoke-static/range {v6 .. v11}, Lcom/commsource/studio/sub/BaseSubTabFragment;->F(Lcom/commsource/studio/sub/BaseSubTabFragment;ILandroid/view/View;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 15
     iget-object v6, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast v6, Lcom/commsource/studio/sub/BaseSubTabFragment;
@@ -3126,7 +2876,6 @@
 
     invoke-static {v6, v2, v5, v4, v5}, Lcom/commsource/studio/sub/BaseSubTabFragment;->D(Lcom/commsource/studio/sub/BaseSubTabFragment;ILandroid/view/View;ILjava/lang/Object;)V
 
-    .line 16
     :cond_5
     iget-object v2, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
@@ -3134,10 +2883,8 @@
 
     iput-object v2, p0, Lcom/commsource/studio/ImageStudioActivity;->U:Lcom/commsource/studio/sub/BaseSubTabFragment;
 
-    .line 17
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->S:Lcom/commsource/studio/sub/SubTabEnum;
 
-    .line 18
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     const-string v6, "mViewModel"
@@ -3162,7 +2909,6 @@
 
     invoke-virtual {v2, v7}, Lcom/commsource/studio/ImageStudioViewModel;->j2(I)V
 
-    .line 19
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v2, :cond_8
@@ -3176,7 +2922,6 @@
 
     invoke-static {v2, p1, v7, v4, v5}, Lcom/commsource/studio/StudioTabLayout;->l(Lcom/commsource/studio/StudioTabLayout;Lcom/commsource/studio/sub/SubTabEnum;ZILjava/lang/Object;)V
 
-    .line 20
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v2, :cond_9
@@ -3196,7 +2941,6 @@
 
     invoke-virtual {v2, p1}, Landroid/widget/FrameLayout;->setTag(Ljava/lang/Object;)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez p1, :cond_a
@@ -3222,10 +2966,8 @@
 
     invoke-virtual {p1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 22
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioActivity;->r1()V
 
-    .line 23
     sget-object p1, Lcom/commsource/widget/f1;->j:Lcom/commsource/widget/f1$a;
 
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
@@ -3259,7 +3001,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/f1;->m(Lcotlin/jvm/u/a;)V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3278,7 +3019,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->U:Lcom/commsource/studio/sub/BaseSubTabFragment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3301,7 +3041,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3324,7 +3063,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3343,7 +3081,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->Y:Lcom/commsource/comic/widget/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3358,12 +3095,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 2
     const-class v2, Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -3372,15 +3107,12 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
     const-string v2, "1005"
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 5
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -3389,7 +3121,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->w(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3475,7 +3206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_0
@@ -3491,7 +3221,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-super {p0, p1}, Landroid/app/Activity;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
     move-result p1
@@ -3503,7 +3232,6 @@
     :cond_1
     const/4 p1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -3516,7 +3244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     const-string v2, "mViewModel"
@@ -3546,7 +3273,6 @@
     :goto_0
     if-eqz v1, :cond_5
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_2
@@ -3562,7 +3288,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/bean/PictureLayerInfo;->setAnimationWrapper(Lcom/commsource/studio/h0;)V
 
-    .line 3
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
@@ -3581,7 +3306,6 @@
 
     invoke-static {v1, v3, v2, v4, v3}, Lcom/commsource/studio/PictureSelectView;->p(Lcom/commsource/studio/PictureSelectView;Lcom/commsource/studio/PictureAnimationWrapper;ZILjava/lang/Object;)V
 
-    .line 4
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3605,7 +3329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->T:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3622,7 +3345,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->U:Lcom/commsource/studio/sub/BaseSubTabFragment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3683,7 +3405,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_0
@@ -3705,12 +3426,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 2
     const-class v2, Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -3719,15 +3438,12 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
     const-string v2, "1005"
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 5
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -3736,7 +3452,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3751,7 +3466,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_0
@@ -3775,7 +3489,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->Y:Lcom/commsource/comic/widget/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3790,7 +3503,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->V:Lcom/commsource/studio/sticker/m;
 
     if-eqz v1, :cond_2
@@ -3806,20 +3518,17 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->V:Lcom/commsource/studio/sticker/m;
 
     if-eqz v1, :cond_1
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/m;->k()V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
@@ -3836,7 +3545,6 @@
 
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v1}, Landroid/view/View;->getVisibility()I
 
     move-result v1
@@ -3857,12 +3565,10 @@
     :goto_0
     if-eqz v1, :cond_5
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_5
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
@@ -3879,12 +3585,10 @@
 
     if-eqz v1, :cond_7
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_7
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->U:Lcom/commsource/studio/sub/BaseSubTabFragment;
 
@@ -3896,12 +3600,10 @@
 
     if-ne v1, v4, :cond_8
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_8
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
@@ -3920,7 +3622,6 @@
 
     if-eqz v1, :cond_c
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_a
@@ -3936,7 +3637,6 @@
 
     invoke-virtual {v1, v4}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez v1, :cond_b
@@ -3952,7 +3652,6 @@
 
     goto/16 :goto_1
 
-    .line 14
     :cond_c
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->T:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -3960,12 +3659,10 @@
 
     if-eqz v1, :cond_19
 
-    .line 15
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->I0()V
 
     goto/16 :goto_1
 
-    .line 16
     :cond_d
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->W:Lcom/commsource/sharelink/ShareDialog;
 
@@ -3977,7 +3674,6 @@
 
     if-ne v1, v4, :cond_e
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->W:Lcom/commsource/sharelink/ShareDialog;
 
     if-eqz v1, :cond_19
@@ -3986,7 +3682,6 @@
 
     goto/16 :goto_1
 
-    .line 18
     :cond_e
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -4005,7 +3700,6 @@
 
     if-eqz v1, :cond_11
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_10
@@ -4021,7 +3715,6 @@
 
     goto/16 :goto_1
 
-    .line 20
     :cond_11
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -4036,7 +3729,6 @@
 
     if-eqz v1, :cond_13
 
-    .line 21
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v1
@@ -4059,42 +3751,35 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->alert_dialog_img_edit_back_title:I
 
-    .line 22
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     sget v2, Lcom/res/provider/ResSTRING;->exit:I
 
-    .line 23
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 24
     new-instance v3, Lcom/commsource/studio/ImageStudioActivity$p0;
 
     invoke-direct {v3, p0}, Lcom/commsource/studio/ImageStudioActivity$p0;-><init>(Lcom/commsource/studio/ImageStudioActivity;)V
 
     sget v4, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 25
     invoke-virtual {p0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 26
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/widget/dialog/s0/t;->j0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 27
     :cond_13
     sget-object v1, Lcom/commsource/studio/DraftDataManager;->i:Lcom/commsource/studio/DraftDataManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/DraftDataManager$a;->a()V
 
-    .line 28
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_14
@@ -4120,7 +3805,6 @@
 
     if-eqz v1, :cond_15
 
-    .line 29
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/home/NewHomeActivity;
@@ -4129,18 +3813,14 @@
 
     const/high16 v2, 0x24000000
 
-    .line 30
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 31
     invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 32
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
     goto :goto_1
 
-    .line 33
     :cond_15
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -4155,18 +3835,15 @@
 
     if-eqz v1, :cond_17
 
-    .line 34
     sget-object v1, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->a:Lcom/commsource/mypage/album/BpAlbumJumpRouter;
 
     invoke-virtual {v1, p0}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->l(Landroid/app/Activity;)V
 
     goto :goto_1
 
-    .line 35
     :cond_17
     invoke-super {p0}, Landroidx/activity/ComponentActivity;->onBackPressed()V
 
-    .line 36
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_18
@@ -4176,7 +3853,6 @@
     :cond_18
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->L1()V
 
-    .line 37
     :cond_19
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4197,14 +3873,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getViewModelStore()Landroidx/lifecycle/ViewModelStore;
 
     move-result-object v1
 
     invoke-virtual {v1}, Landroidx/lifecycle/ViewModelStore;->clear()V
 
-    .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
@@ -4221,7 +3895,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -4239,7 +3912,6 @@
 
     check-cast v2, Landroidx/fragment/app/Fragment;
 
-    .line 4
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v3
@@ -4256,18 +3928,15 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 6
     sget-object p1, Lcom/commsource/studio/PictureSelectView;->c0:Lcom/commsource/studio/PictureSelectView$a;
 
     const/4 v1, 0x0
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/PictureSelectView$a;->b(Z)V
 
-    .line 7
     invoke-static {}, Lcom/commsource/util/x;->d()Z
 
     move-result p1
@@ -4276,7 +3945,6 @@
 
     if-nez p1, :cond_2
 
-    .line 8
     invoke-static {}, Lf/d/i/e;->S0()I
 
     move-result p1
@@ -4285,7 +3953,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->so_miss:I
 
-    .line 9
     invoke-static {p1}, Lf/k/c/c/f;->h(I)V
 
     goto :goto_1
@@ -4293,10 +3960,8 @@
     :cond_1
     sget p1, Lcom/res/provider/ResSTRING;->so_load_fail:I
 
-    .line 10
     invoke-static {p1}, Lf/k/c/c/f;->h(I)V
 
-    .line 11
     :goto_1
     invoke-static {}, Lcom/commsource/beautyplus/k;->d()Lcom/commsource/beautyplus/k;
 
@@ -4306,17 +3971,13 @@
 
     goto :goto_2
 
-    .line 12
     :cond_2
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioActivity;->t1()V
 
-    .line 13
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioActivity;->u1()V
 
-    .line 14
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioActivity;->s1()V
 
-    .line 15
     invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object p1
@@ -4327,11 +3988,9 @@
 
     invoke-virtual {p1, v3}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 16
     :goto_2
     invoke-static {p0, v2}, Lf/d/i/e;->H2(Landroid/content/Context;I)V
 
-    .line 17
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -4342,7 +4001,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 18
     sget-object p1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->BEAUTY_SUB_SORT_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->getGroupName()Ljava/lang/String;
@@ -4353,7 +4011,6 @@
 
     invoke-static {v3, p1}, Lf/d/i/e;->Z1(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 19
     :cond_3
     sget-object p1, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
@@ -4373,7 +4030,6 @@
 
     new-array v2, v2, [Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 20
     sget-object v3, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->AR_FACE_CONFIG_REF:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     aput-object v3, v2, v1
@@ -4384,14 +4040,12 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/statistics/o;->a([Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;)V
 
-    .line 21
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x1d
 
     if-lt p1, v2, :cond_5
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->N:Lcom/commsource/beautyplus/f0/k0;
 
     if-nez p1, :cond_4
@@ -4411,10 +4065,8 @@
 
     new-array v2, v5, [Landroid/graphics/Rect;
 
-    .line 23
     new-instance v3, Landroid/graphics/Rect;
 
-    .line 24
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v4
@@ -4431,29 +4083,24 @@
 
     float-to-int v4, v4
 
-    .line 25
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v5
 
-    .line 26
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
     move-result v6
 
-    .line 27
     invoke-direct {v3, v4, v1, v5, v6}, Landroid/graphics/Rect;-><init>(IIII)V
 
     aput-object v3, v2, v1
 
-    .line 28
     invoke-static {v2}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setSystemGestureExclusionRects(Ljava/util/List;)V
 
-    .line 29
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4467,10 +4114,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_0
@@ -4488,20 +4133,16 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p0}, Lcom/commsource/util/x;->l(Landroid/app/Activity;)V
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerManager;->l0()V
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {p0, v1}, Lf/d/i/e;->H2(Landroid/content/Context;I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4547,7 +4188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity;->T:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -49,7 +49,6 @@
 
     iput-object p4, p0, Lcotlinx/coroutines/flow/g$a;->d:Lcotlin/coroutines/CoroutineContext;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -70,7 +69,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-interface {p2}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
@@ -81,7 +79,6 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcotlinx/coroutines/flow/g$a;->a:Lcotlinx/coroutines/flow/d;
 
     invoke-static {v1, v0}, Lcotlinx/coroutines/flow/f;->J0(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/flow/d;
@@ -94,7 +91,6 @@
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcotlinx/coroutines/flow/g$a;->c:Lcotlin/jvm/u/l;
 
     invoke-interface {v1, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
@@ -115,7 +111,6 @@
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Lcotlinx/coroutines/flow/g$a$a;
 
     invoke-direct {v1, p1}, Lcotlinx/coroutines/flow/g$a$a;-><init>(Lcotlinx/coroutines/flow/e;)V
@@ -132,7 +127,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

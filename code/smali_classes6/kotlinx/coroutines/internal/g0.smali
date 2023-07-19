@@ -23,7 +23,6 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-static/range {v0 .. v6}, Lcotlinx/coroutines/internal/e0;->c(Ljava/lang/String;JJJ)J
 
     move-result-wide p0
@@ -40,14 +39,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/internal/e0;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-static {v0}, Lcotlin/text/m;->Z0(Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object p1
@@ -72,7 +69,6 @@
 
     return-wide v2
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -116,7 +112,6 @@
 
     throw p1
 
-    .line 4
     :cond_1
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -159,7 +154,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/internal/e0;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -190,7 +184,6 @@
 
     const p3, 0x7fffffff
 
-    .line 1
     :cond_1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/internal/e0;->b(Ljava/lang/String;III)I
 
@@ -224,7 +217,6 @@
 
     move-wide v1, p1
 
-    .line 1
     invoke-static/range {v0 .. v6}, Lcotlinx/coroutines/internal/e0;->c(Ljava/lang/String;JJJ)J
 
     move-result-wide p0

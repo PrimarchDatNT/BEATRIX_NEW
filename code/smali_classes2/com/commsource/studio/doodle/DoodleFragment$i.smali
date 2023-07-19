@@ -34,7 +34,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$i;->c:Lcom/commsource/studio/doodle/DoodleFragment;
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
 
     return-void
@@ -49,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodleFragment$i;->e(Lcom/commsource/studio/doodle/DoodleMaterial;)V
@@ -72,7 +70,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$i;->c:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->d0(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/comic/widget/c;
@@ -89,7 +86,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->isDownloading()Z
 
     move-result v1
@@ -112,7 +108,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getDownloadState()I
 
@@ -120,7 +115,6 @@
 
     if-eq p1, v2, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$i;->c:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodleFragment;->d0(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/comic/widget/c;
@@ -131,7 +125,6 @@
 
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

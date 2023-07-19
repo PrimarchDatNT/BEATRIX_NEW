@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/common/strategy/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/common/strategy/a$a;->a:Lcom/tencent/bugly/crashreport/common/strategy/a;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
@@ -35,7 +34,6 @@
 .method public final run()V
     .locals 4
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/tencent/bugly/proguard/p;->a()Lcom/tencent/bugly/proguard/p;
 
@@ -55,7 +53,6 @@
 
     const-string v1, "device"
 
-    .line 2
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -64,7 +61,6 @@
 
     const-string v2, "gateway"
 
-    .line 3
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -73,7 +69,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/tencent/bugly/crashreport/common/strategy/a$a;->a:Lcom/tencent/bugly/crashreport/common/strategy/a;
 
     invoke-static {v2}, Lcom/tencent/bugly/crashreport/common/strategy/a;->a(Lcom/tencent/bugly/crashreport/common/strategy/a;)Landroid/content/Context;
@@ -93,7 +88,6 @@
     :cond_0
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/common/strategy/a$a;->a:Lcom/tencent/bugly/crashreport/common/strategy/a;
 
     invoke-static {v1}, Lcom/tencent/bugly/crashreport/common/strategy/a;->a(Lcom/tencent/bugly/crashreport/common/strategy/a;)Landroid/content/Context;
@@ -110,7 +104,6 @@
 
     invoke-virtual {v1, v2}, Lcom/tencent/bugly/crashreport/common/info/a;->d(Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/common/strategy/a$a;->a:Lcom/tencent/bugly/crashreport/common/strategy/a;
 
@@ -120,7 +113,6 @@
 
     invoke-static {v0, v1}, Lcom/tencent/bugly/crashreport/common/strategy/a;->a(Lcom/tencent/bugly/crashreport/common/strategy/a;Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;)Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;
 
-    .line 7
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/common/strategy/a$a;->a:Lcom/tencent/bugly/crashreport/common/strategy/a;
 
     invoke-static {v0}, Lcom/tencent/bugly/crashreport/common/strategy/a;->b(Lcom/tencent/bugly/crashreport/common/strategy/a;)Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;
@@ -129,7 +121,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 8
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/strategy/a;->e()Ljava/lang/String;
 
     move-result-object v0
@@ -150,7 +141,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 9
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/common/strategy/a$a;->a:Lcom/tencent/bugly/crashreport/common/strategy/a;
 
     invoke-static {v0}, Lcom/tencent/bugly/crashreport/common/strategy/a;->b(Lcom/tencent/bugly/crashreport/common/strategy/a;)Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;
@@ -163,7 +153,6 @@
 
     iput-object v1, v0, Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;->p:Ljava/lang/String;
 
-    .line 10
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/common/strategy/a$a;->a:Lcom/tencent/bugly/crashreport/common/strategy/a;
 
     invoke-static {v0}, Lcom/tencent/bugly/crashreport/common/strategy/a;->b(Lcom/tencent/bugly/crashreport/common/strategy/a;)Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;
@@ -178,7 +167,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/common/strategy/a$a;->a:Lcom/tencent/bugly/crashreport/common/strategy/a;
 
@@ -190,7 +178,6 @@
 
     iput-object v1, v0, Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;->p:Ljava/lang/String;
 
-    .line 12
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/common/strategy/a$a;->a:Lcom/tencent/bugly/crashreport/common/strategy/a;
 
     invoke-static {v0}, Lcom/tencent/bugly/crashreport/common/strategy/a;->b(Lcom/tencent/bugly/crashreport/common/strategy/a;)Lcom/tencent/bugly/crashreport/common/strategy/StrategyBean;
@@ -208,17 +195,14 @@
     :catchall_0
     move-exception v0
 
-    .line 13
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_3
 
-    .line 14
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 15
     :cond_3
     :goto_0
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/common/strategy/a$a;->a:Lcom/tencent/bugly/crashreport/common/strategy/a;

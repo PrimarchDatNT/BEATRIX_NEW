@@ -27,10 +27,8 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/commsource/beautyplus/b0/f/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/ardata/j;-><init>(Landroid/content/Context;)V
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/beautyplus/b0/f/a;->h:Lcom/commsource/beautyplus/b0/f/a$a;
 
     return-void
@@ -43,12 +41,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/b0/e/a;->N(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -67,14 +63,12 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 4
     const-class v1, Lcom/commsource/beautyplus/b0/f/b/a;
 
     invoke-static {p1, v1}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
@@ -85,16 +79,13 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     iget-object p1, p1, Lcom/commsource/beautyplus/b0/f/b/a;->c:Ljava/util/List;
 
     iput-object p1, p0, Lcom/commsource/camera/ardata/j;->a:Ljava/util/List;
 
-    .line 6
     :cond_0
     invoke-direct {p0}, Lcom/commsource/beautyplus/b0/f/a;->q()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,17 +98,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/b0/f/a;->h:Lcom/commsource/beautyplus/b0/f/a$a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/ardata/j;->a:Ljava/util/List;
 
     invoke-interface {v1, v2}, Lcom/commsource/beautyplus/b0/f/a$a;->a(Ljava/util/List;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -131,10 +119,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Lcom/commsource/beautyplus/b0/e/a;->R(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -151,20 +137,16 @@
 
     const-string v1, "ABFrameApi"
 
-    .line 1
     invoke-static {v1}, Lf/l/a/j;->k(Ljava/lang/String;)Lf/l/a/m;
 
     move-result-object v1
 
     invoke-interface {v1, p2}, Lf/l/a/m;->b(Ljava/lang/String;)V
 
-    .line 2
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/ardata/j;->a(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyplus/b0/f/a;->r(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -179,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "ABFrameApi"
@@ -198,7 +179,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -206,17 +186,14 @@
     :cond_0
     const-string v1, "aaf5Jiach6_aPAAyWDsRFhfdAP6N1S8L"
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/b1;->a(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     invoke-static {v2}, Lf/k/l0/b/b;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 4
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v3
@@ -233,7 +210,6 @@
 
     sget v3, Lcom/res/provider/ResSTRING;->ab_test_url_test:I
 
-    .line 5
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -259,7 +235,6 @@
     :cond_1
     sget v3, Lcom/res/provider/ResSTRING;->ab_test_url:I
 
-    .line 6
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -280,7 +255,6 @@
 
     move-result-object p1
 
-    .line 7
     :goto_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -300,7 +274,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -313,20 +286,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/ardata/j;->k(Landroid/content/Context;)V
 
     const-string v1, "ABFrameApi"
 
     const-string v2, "onError"
 
-    .line 2
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/b0/f/a;->o(Landroid/content/Context;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -339,10 +308,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/ardata/j;->l(Lf/k/i/a/d;Ljava/lang/Exception;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -359,7 +326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/beautyplus/b0/f/b/a;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautyplus/b0/f/a;->p(Landroid/content/Context;Lcom/commsource/beautyplus/b0/f/b/a;)V
@@ -380,32 +346,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/ardata/j;->m(Landroid/content/Context;Ljava/lang/Object;)V
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p2, Lcom/commsource/beautyplus/b0/f/b/a;->c:Ljava/util/List;
 
     iput-object p2, p0, Lcom/commsource/camera/ardata/j;->a:Ljava/util/List;
 
-    .line 3
     :cond_0
     iget-object p2, p0, Lcom/commsource/camera/ardata/j;->a:Ljava/util/List;
 
     if-nez p2, :cond_1
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/b0/f/a;->o(Landroid/content/Context;)V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-direct {p0}, Lcom/commsource/beautyplus/b0/f/a;->q()V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

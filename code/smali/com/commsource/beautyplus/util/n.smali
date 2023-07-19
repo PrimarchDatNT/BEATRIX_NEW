@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,12 +23,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/util/n;->a:Landroid/graphics/Typeface;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
     move-result-object p0
@@ -42,7 +39,6 @@
 
     sput-object p0, Lcom/commsource/beautyplus/util/n;->a:Landroid/graphics/Typeface;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/commsource/beautyplus/util/n;->a:Landroid/graphics/Typeface;
 

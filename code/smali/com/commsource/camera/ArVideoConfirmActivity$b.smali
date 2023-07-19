@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/camera/ArVideoConfirmActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +45,6 @@
 
     new-array v2, v1, [I
 
-    .line 1
     iget-object v3, p0, Lcom/commsource/camera/ArVideoConfirmActivity$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
 
     invoke-static {v3}, Lcom/commsource/camera/ArVideoConfirmActivity;->U0(Lcom/commsource/camera/ArVideoConfirmActivity;)Lcom/commsource/beautyplus/f0/k;
@@ -57,7 +55,6 @@
 
     invoke-virtual {v3, v2}, Landroid/widget/RelativeLayout;->getLocationOnScreen([I)V
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/camera/ArVideoConfirmActivity$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
 
     invoke-static {v3}, Lcom/commsource/camera/ArVideoConfirmActivity;->V0(Lcom/commsource/camera/ArVideoConfirmActivity;)Landroid/view/View;
@@ -72,12 +69,10 @@
 
     const/high16 v4, 0x41a00000    # 20.0f
 
-    .line 3
     invoke-static {v4}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v4
 
-    .line 4
     iget-object v5, p0, Lcom/commsource/camera/ArVideoConfirmActivity$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
 
     invoke-static {v5}, Lcom/commsource/camera/ArVideoConfirmActivity;->V0(Lcom/commsource/camera/ArVideoConfirmActivity;)Landroid/view/View;
@@ -124,10 +119,8 @@
 
     float-to-int v5, v4
 
-    .line 5
     iput v5, v3, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
-    .line 6
     aget v5, v2, v9
 
     iget-object v7, p0, Lcom/commsource/camera/ArVideoConfirmActivity$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
@@ -150,7 +143,6 @@
 
     iput v5, v3, Landroid/widget/RelativeLayout$LayoutParams;->topMargin:I
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/camera/ArVideoConfirmActivity$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
 
     invoke-static {v5}, Lcom/commsource/camera/ArVideoConfirmActivity;->V0(Lcom/commsource/camera/ArVideoConfirmActivity;)Landroid/view/View;
@@ -159,7 +151,6 @@
 
     invoke-virtual {v5, v3}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/camera/ArVideoConfirmActivity$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
 
     invoke-static {v3}, Lcom/commsource/camera/ArVideoConfirmActivity;->V0(Lcom/commsource/camera/ArVideoConfirmActivity;)Landroid/view/View;
@@ -174,17 +165,14 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    .line 9
     invoke-virtual {v3}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v5
 
     check-cast v5, Landroid/widget/LinearLayout$LayoutParams;
 
-    .line 10
     iget-object v7, p0, Lcom/commsource/camera/ArVideoConfirmActivity$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
 
-    .line 11
     invoke-static {v7}, Lcom/commsource/camera/ArVideoConfirmActivity;->V0(Lcom/commsource/camera/ArVideoConfirmActivity;)Landroid/view/View;
 
     move-result-object v7
@@ -227,12 +215,10 @@
 
     iput v1, v5, Landroid/widget/LinearLayout$LayoutParams;->rightMargin:I
 
-    .line 12
     invoke-virtual {v3, v5}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     goto :goto_0
 
-    .line 13
     :cond_0
     aget v4, v2, v6
 
@@ -268,7 +254,6 @@
 
     iput v4, v3, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
-    .line 14
     aget v1, v2, v9
 
     iget-object v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
@@ -291,7 +276,6 @@
 
     iput v1, v3, Landroid/widget/RelativeLayout$LayoutParams;->topMargin:I
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
 
     invoke-static {v1}, Lcom/commsource/camera/ArVideoConfirmActivity;->V0(Lcom/commsource/camera/ArVideoConfirmActivity;)Landroid/view/View;
@@ -300,7 +284,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 16
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

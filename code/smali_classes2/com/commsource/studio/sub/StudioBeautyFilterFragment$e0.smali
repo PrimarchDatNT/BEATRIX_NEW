@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$e0;->b(ILjava/lang/Integer;)Z
@@ -73,12 +72,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$e0;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->J0()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

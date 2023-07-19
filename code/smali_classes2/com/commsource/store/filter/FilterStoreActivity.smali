@@ -69,17 +69,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/store/filter/FilterStoreActivity;->O:Landroid/os/Handler;
 
-    .line 3
     new-instance v0, Lcom/commsource/store/filter/FilterStoreActivity$mTagAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/store/filter/FilterStoreActivity$mTagAdapter$2;-><init>(Lcom/commsource/store/filter/FilterStoreActivity;)V
@@ -90,7 +87,6 @@
 
     iput-object v0, p0, Lcom/commsource/store/filter/FilterStoreActivity;->P:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/store/filter/FilterStoreActivity$searchViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/store/filter/FilterStoreActivity$searchViewModel$2;-><init>(Lcom/commsource/store/filter/FilterStoreActivity;)V
@@ -101,7 +97,6 @@
 
     iput-object v0, p0, Lcom/commsource/store/filter/FilterStoreActivity;->Q:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/store/filter/FilterStoreActivity$filterStoreViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/store/filter/FilterStoreActivity$filterStoreViewModel$2;-><init>(Lcom/commsource/store/filter/FilterStoreActivity;)V
@@ -122,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->q0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -137,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/store/filter/FilterStoreActivity;->O:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -152,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->W0()Lcom/commsource/store/filter/FilterStoreViewModel;
 
     move-result-object p0
@@ -169,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->X0()Lcom/commsource/widget/h1/e;
 
     move-result-object p0
@@ -186,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     if-nez p0, :cond_0
@@ -208,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->O:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -223,7 +212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -238,7 +226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->I0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -313,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->W0()Lcom/commsource/store/filter/FilterStoreViewModel;
 
     move-result-object v1
@@ -328,7 +314,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->W0()Lcom/commsource/store/filter/FilterStoreViewModel;
 
     move-result-object v1
@@ -343,7 +328,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->W0()Lcom/commsource/store/filter/FilterStoreViewModel;
 
     move-result-object v1
@@ -358,7 +342,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->W0()Lcom/commsource/store/filter/FilterStoreViewModel;
 
     move-result-object v1
@@ -373,7 +356,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -394,7 +376,6 @@
 
     invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->W0()Lcom/commsource/store/filter/FilterStoreViewModel;
 
     move-result-object v1
@@ -409,7 +390,6 @@
 
     invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->W0()Lcom/commsource/store/filter/FilterStoreViewModel;
 
     move-result-object v1
@@ -424,14 +404,12 @@
 
     invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->W0()Lcom/commsource/store/filter/FilterStoreViewModel;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/store/filter/FilterStoreViewModel;->G()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -446,12 +424,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 2
     const-class v2, Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -460,15 +436,12 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
     const-string v2, "1012_01"
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 5
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -477,7 +450,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->w(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -559,7 +531,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -580,10 +551,8 @@
 
     if-nez v2, :cond_3
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->x()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     const-string v2, "viewBinding"
@@ -597,7 +566,6 @@
 
     invoke-static {v1}, Lcom/commsource/camera/mvp/helper/e;->c(Landroidx/databinding/ViewStubProxy;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->O:Landroid/os/Handler;
 
     new-instance v3, Lcom/commsource/store/filter/FilterStoreActivity$b;
@@ -608,7 +576,6 @@
 
     invoke-virtual {v1, v3, v4, v5}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     if-nez v1, :cond_1
@@ -636,7 +603,6 @@
 
     invoke-virtual {v1, v5, v4, v5, v5}, Landroid/view/View;->setPadding(IIII)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     if-nez v1, :cond_2
@@ -658,7 +624,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -672,12 +637,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 2
     const-class v2, Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -686,15 +649,12 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
     const-string v2, "1012_01"
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 5
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -703,7 +663,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -716,7 +675,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->W0()Lcom/commsource/store/filter/FilterStoreViewModel;
 
     move-result-object v1
@@ -733,10 +691,8 @@
 
     sget v2, Lcom/res/provider/ResANIM;->slide_right_out:I
 
-    .line 2
     invoke-virtual {p0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -753,19 +709,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/res/provider/ResANIM;->slide_right_in:I
 
     sget v1, Lcom/res/provider/ResANIM;->slide_left_out:I
 
-    .line 2
     invoke-virtual {p0, p1, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->activity_filter_shop:I
 
-    .line 3
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -782,7 +735,6 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -798,7 +750,6 @@
 
     invoke-virtual {p1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     if-nez p1, :cond_1
@@ -818,7 +769,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     if-nez p1, :cond_2
@@ -834,7 +784,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->X0()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -847,7 +796,6 @@
 
     invoke-virtual {p1, v2, v4}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     if-nez p1, :cond_3
@@ -863,7 +811,6 @@
 
     invoke-virtual {p1, v3}, Landroidx/viewpager2/widget/ViewPager2;->setUserInputEnabled(Z)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     if-nez p1, :cond_4
@@ -879,7 +826,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/viewpager2/widget/ViewPager2;->registerOnPageChangeCallback(Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     if-nez p1, :cond_5
@@ -901,7 +847,6 @@
 
     move-result-object p1
 
-    .line 11
     new-instance v2, Lcom/commsource/store/filter/FilterStoreActivity$k;
 
     sget v3, Lcom/res/provider/ResSTRING;->if_filter_search:I
@@ -912,7 +857,6 @@
 
     invoke-virtual {p1, v2, v3}, Lcom/commsource/widget/title/XTitleBar;->k(Lcom/commsource/widget/title/a;I)Lcom/commsource/widget/title/XTitleBar;
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     if-nez p1, :cond_6
@@ -938,12 +882,10 @@
 
     const-string v3, "error"
 
-    .line 13
     invoke-virtual {p1, v3, v2}, Lcom/commsource/widget/mask/e$a;->b(Ljava/lang/String;I)Lcom/commsource/widget/mask/e$a;
 
     move-result-object p1
 
-    .line 14
     new-instance v2, Lcom/commsource/store/filter/FilterStoreActivity$o;
 
     invoke-direct {v2, p0}, Lcom/commsource/store/filter/FilterStoreActivity$o;-><init>(Lcom/commsource/store/filter/FilterStoreActivity;)V
@@ -952,10 +894,8 @@
 
     move-result-object p1
 
-    .line 15
     invoke-virtual {p1}, Lcom/commsource/widget/mask/e$a;->c()Lcom/commsource/widget/mask/e;
 
-    .line 16
     sget-object p1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -968,7 +908,6 @@
 
     if-nez p1, :cond_d
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     if-nez p1, :cond_7
@@ -1014,10 +953,8 @@
 
     if-eqz v5, :cond_a
 
-    .line 18
     check-cast v5, Lcom/commsource/widget/title/c;
 
-    .line 19
     invoke-virtual {v5}, Lcom/commsource/widget/title/c;->f()Lcom/commsource/widget/IconFrontView;
 
     move-result-object p1
@@ -1028,7 +965,6 @@
 
     goto :goto_0
 
-    .line 20
     :cond_a
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -1040,7 +976,6 @@
 
     throw p1
 
-    .line 21
     :cond_b
     :goto_0
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
@@ -1056,15 +991,12 @@
 
     goto :goto_1
 
-    .line 22
     :cond_d
     invoke-virtual {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->V0()V
 
-    .line 23
     :goto_1
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->Z0()V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1077,10 +1009,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/store/filter/FilterStoreActivity;->W0()Lcom/commsource/store/filter/FilterStoreViewModel;
 
     move-result-object v1
@@ -1091,7 +1021,6 @@
 
     invoke-virtual {v1, p0}, Lcom/commsource/beautyfilter/NoStickLiveData;->removeObservers(Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1104,17 +1033,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onStop()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->O:Landroid/os/Handler;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity;->N:Lcom/commsource/beautyplus/f0/y;
 
     if-nez v1, :cond_0
@@ -1128,7 +1054,6 @@
 
     invoke-static {v1}, Lcom/commsource/camera/mvp/helper/e;->a(Landroidx/databinding/ViewStubProxy;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

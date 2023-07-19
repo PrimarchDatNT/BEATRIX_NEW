@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/z40;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/b50;->a:Lcom/google/android/gms/internal/ads/z40;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final a(Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/b50;->a:Lcom/google/android/gms/internal/ads/z40;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/z40;->a(Lcom/google/android/gms/internal/ads/z40;)Lcom/google/android/gms/internal/ads/ub0;
@@ -59,10 +57,8 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/zzasm;
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/b50;->a:Lcom/google/android/gms/internal/ads/z40;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/z40;->a(Lcom/google/android/gms/internal/ads/z40;)Lcom/google/android/gms/internal/ads/ub0;

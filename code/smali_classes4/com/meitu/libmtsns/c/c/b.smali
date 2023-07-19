@@ -49,7 +49,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, v0, v1}, Lcom/meitu/libmtsns/c/c/b;-><init>(ILjava/lang/String;)V
 
     return-void
@@ -58,13 +57,10 @@
 .method public constructor <init>(ILjava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput p1, p0, Lcom/meitu/libmtsns/c/c/b;->a:I
 
-    .line 4
     iput-object p2, p0, Lcom/meitu/libmtsns/c/c/b;->b:Ljava/lang/String;
 
     return-void
@@ -79,7 +75,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object p0
@@ -89,7 +84,6 @@
 
     if-nez p0, :cond_1
 
-    .line 2
     new-instance p0, Lcom/meitu/libmtsns/c/c/b;
 
     invoke-direct {p0, p1, v1}, Lcom/meitu/libmtsns/c/c/b;-><init>(ILjava/lang/String;)V
@@ -109,7 +103,6 @@
 
     packed-switch p1, :pswitch_data_1
 
-    .line 3
     sget v1, Lcom/meitu/libmtsns/b$j;->S:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -118,7 +111,6 @@
 
     goto :goto_0
 
-    .line 4
     :pswitch_0
     sget v1, Lcom/meitu/libmtsns/b$j;->E:I
 
@@ -128,7 +120,6 @@
 
     goto :goto_0
 
-    .line 5
     :pswitch_1
     sget v1, Lcom/meitu/libmtsns/b$j;->H:I
 
@@ -138,7 +129,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_2
     sget v1, Lcom/meitu/libmtsns/b$j;->Q:I
 
@@ -148,7 +138,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_3
     sget v1, Lcom/meitu/libmtsns/b$j;->U:I
 
@@ -158,7 +147,6 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_4
     sget v1, Lcom/meitu/libmtsns/b$j;->L:I
 
@@ -168,7 +156,6 @@
 
     goto :goto_0
 
-    .line 9
     :pswitch_5
     sget v1, Lcom/meitu/libmtsns/b$j;->T:I
 
@@ -178,7 +165,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     sget v1, Lcom/meitu/libmtsns/b$j;->X:I
 
@@ -186,7 +172,6 @@
 
     move-result-object v1
 
-    .line 11
     :cond_3
     :goto_0
     :pswitch_6
@@ -227,7 +212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/libmtsns/c/c/b;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -242,7 +226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/c/c/b;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -257,10 +240,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/libmtsns/c/c/b;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -273,10 +254,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/c/c/b;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

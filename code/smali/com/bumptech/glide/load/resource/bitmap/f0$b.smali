@@ -34,12 +34,10 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x4
 
-    .line 2
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -66,7 +64,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p2, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/bumptech/glide/load/resource/bitmap/f0$b;->b([BLjava/lang/Integer;Ljava/security/MessageDigest;)V
@@ -93,16 +90,13 @@
 
     return-void
 
-    .line 1
     :cond_0
     invoke-virtual {p3, p1}, Ljava/security/MessageDigest;->update([B)V
 
-    .line 2
     iget-object p1, p0, Lcom/bumptech/glide/load/resource/bitmap/f0$b;->a:Ljava/nio/ByteBuffer;
 
     monitor-enter p1
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/f0$b;->a:Ljava/nio/ByteBuffer;
 
@@ -110,7 +104,6 @@
 
     invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 4
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/f0$b;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
@@ -127,7 +120,6 @@
 
     invoke-virtual {p3, p2}, Ljava/security/MessageDigest;->update([B)V
 
-    .line 5
     monitor-exit p1
 
     return-void

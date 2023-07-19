@@ -54,12 +54,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaChildStoreFragment$f;->a:Lcom/commsource/studio/formula/FormulaChildStoreFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/formula/FormulaChildStoreFragment;->C(Lcom/commsource/studio/formula/FormulaChildStoreFragment;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -72,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/FormulaChildStoreFragment$f;->a(Ljava/lang/Boolean;)V

@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/MoPubRewardedAdManager;Ljava/lang/String;Lcom/mopub/mobileads/AdData$Builder;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$3;->this$0:Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     iput-object p2, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$3;->val$adUnitId:Ljava/lang/String;
@@ -68,7 +67,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x1
@@ -99,13 +97,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$3;->this$0:Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     invoke-static {v0, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$302(Lcom/mopub/mobileads/MoPubRewardedAdManager;Lcom/mopub/mobileads/CreativeExperienceSettings;)Lcom/mopub/mobileads/CreativeExperienceSettings;
 
-    .line 3
     :goto_0
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$3;->val$adDataBuilder:Lcom/mopub/mobileads/AdData$Builder;
 
@@ -117,7 +113,6 @@
 
     invoke-virtual {p1, v0}, Lcom/mopub/mobileads/AdData$Builder;->creativeExperienceSettings(Lcom/mopub/mobileads/CreativeExperienceSettings;)Lcom/mopub/mobileads/AdData$Builder;
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$3;->this$0:Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$3;->val$baseAdClassName:Ljava/lang/String;
@@ -126,14 +121,12 @@
 
     iget-object v2, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$3;->val$adDataBuilder:Lcom/mopub/mobileads/AdData$Builder;
 
-    .line 5
     invoke-virtual {v2}, Lcom/mopub/mobileads/AdData$Builder;->build()Lcom/mopub/mobileads/AdData;
 
     move-result-object v2
 
     iget v3, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$3;->val$timeoutDelayMillis:I
 
-    .line 6
     invoke-static {p1, v0, v1, v2, v3}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$400(Lcom/mopub/mobileads/MoPubRewardedAdManager;Ljava/lang/String;Ljava/lang/String;Lcom/mopub/mobileads/AdData;I)V
 
     return-void

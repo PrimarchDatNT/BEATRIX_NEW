@@ -29,7 +29,6 @@
 .method constructor <init>(Lorg/apache/thrift/server/TThreadedSelectorServer$AcceptThread;Lorg/apache/thrift/server/TThreadedSelectorServer$SelectorThread;Lorg/apache/thrift/transport/TNonblockingTransport;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$AcceptThread$1;->this$1:Lorg/apache/thrift/server/TThreadedSelectorServer$AcceptThread;
 
     iput-object p2, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$AcceptThread$1;->val$targetThread:Lorg/apache/thrift/server/TThreadedSelectorServer$SelectorThread;
@@ -46,7 +45,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$AcceptThread$1;->this$1:Lorg/apache/thrift/server/TThreadedSelectorServer$AcceptThread;
 
     iget-object v1, p0, Lorg/apache/thrift/server/TThreadedSelectorServer$AcceptThread$1;->val$targetThread:Lorg/apache/thrift/server/TThreadedSelectorServer$SelectorThread;

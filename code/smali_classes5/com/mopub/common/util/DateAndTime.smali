@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/common/util/DateAndTime;
 
     invoke-direct {v0}, Lcom/mopub/common/util/DateAndTime;-><init>()V
@@ -24,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,7 +31,6 @@
 .method public static getTimeZoneOffsetString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
@@ -42,14 +39,12 @@
 
     invoke-direct {v0, v2, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
-    .line 2
     invoke-static {}, Lcom/mopub/common/util/DateAndTime;->localTimeZone()Ljava/util/TimeZone;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/text/SimpleDateFormat;->setTimeZone(Ljava/util/TimeZone;)V
 
-    .line 3
     invoke-static {}, Lcom/mopub/common/util/DateAndTime;->now()Ljava/util/Date;
 
     move-result-object v1
@@ -64,7 +59,6 @@
 .method public static localTimeZone()Ljava/util/TimeZone;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/util/DateAndTime;->instance:Lcom/mopub/common/util/DateAndTime;
 
     invoke-virtual {v0}, Lcom/mopub/common/util/DateAndTime;->internalLocalTimeZone()Ljava/util/TimeZone;
@@ -77,7 +71,6 @@
 .method public static now()Ljava/util/Date;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/util/DateAndTime;->instance:Lcom/mopub/common/util/DateAndTime;
 
     invoke-virtual {v0}, Lcom/mopub/common/util/DateAndTime;->internalNow()Ljava/util/Date;
@@ -95,7 +88,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sput-object p0, Lcom/mopub/common/util/DateAndTime;->instance:Lcom/mopub/common/util/DateAndTime;
 
     return-void
@@ -106,7 +98,6 @@
 .method public internalLocalTimeZone()Ljava/util/TimeZone;
     .locals 1
 
-    .line 1
     invoke-static {}, Ljava/util/TimeZone;->getDefault()Ljava/util/TimeZone;
 
     move-result-object v0
@@ -117,7 +108,6 @@
 .method public internalNow()Ljava/util/Date;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/Date;
 
     invoke-direct {v0}, Ljava/util/Date;-><init>()V

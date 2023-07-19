@@ -68,10 +68,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_background_color:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/function/background/ColorViewHolder$mViewBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/background/ColorViewHolder$mViewBinding$2;-><init>(Lcom/commsource/studio/function/background/ColorViewHolder;)V
@@ -113,12 +111,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/ColorViewHolder;->v()Lcom/commsource/beautyplus/f0/md;
 
     move-result-object p1
@@ -135,7 +131,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/function/background/GradientDrawer;->s(Z)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/ColorViewHolder;->v()Lcom/commsource/beautyplus/f0/md;
 
     move-result-object p1
@@ -154,7 +149,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/function/background/GradientDrawer;->a(Lcom/commsource/studio/function/background/BackgroundType;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/ColorViewHolder;->v()Lcom/commsource/beautyplus/f0/md;
 
     move-result-object p1
@@ -185,7 +179,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/function/background/GradientDrawer;->r(Z)V
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -208,7 +201,6 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/ColorViewHolder;->v()Lcom/commsource/beautyplus/f0/md;
 
     move-result-object p1
@@ -221,7 +213,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/ColorViewHolder;->v()Lcom/commsource/beautyplus/f0/md;
 
@@ -237,7 +228,6 @@
     :goto_0
     if-eqz p2, :cond_2
 
-    .line 8
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -261,7 +251,6 @@
     :cond_2
     const/4 p1, 0x0
 
-    .line 9
     :goto_1
     iget-object p2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -271,7 +260,6 @@
 
     invoke-virtual {p2, p1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

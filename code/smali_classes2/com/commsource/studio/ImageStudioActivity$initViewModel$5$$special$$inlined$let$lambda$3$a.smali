@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;
@@ -64,7 +63,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/Step;->getExtraInfo(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -74,7 +72,6 @@
     :cond_0
     move-object v1, v3
 
-    .line 3
     :goto_0
     iget-object v4, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
@@ -108,7 +105,6 @@
 
     const-string v4, "BP_cat_TEM_REM"
 
-    .line 4
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v5, v5, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;
@@ -129,7 +125,6 @@
 
     if-eqz v5, :cond_2
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v5, v5, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->$wrapper$inlined:Lcom/commsource/studio/formula/convert/g;
@@ -144,14 +139,12 @@
 
     if-eqz v5, :cond_4
 
-    .line 6
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
     move-result v8
 
     if-le v8, v6, :cond_4
 
-    .line 7
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -170,7 +163,6 @@
 
     const-string v4, ","
 
-    .line 8
     filled-new-array {v4}, [Ljava/lang/String;
 
     move-result-object v9
@@ -197,7 +189,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     new-instance v1, Ljava/lang/NullPointerException;
 
@@ -209,7 +200,6 @@
 
     throw v1
 
-    .line 10
     :cond_2
     iget-object v4, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
@@ -227,7 +217,6 @@
 
     const-string v5, "-2"
 
-    .line 11
     invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
@@ -236,7 +225,6 @@
 
     if-eqz v5, :cond_3
 
-    .line 12
     iget-object v4, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v4, v4, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->$wrapper$inlined:Lcom/commsource/studio/formula/convert/g;
@@ -260,14 +248,12 @@
     :cond_3
     const-string v5, "-9"
 
-    .line 13
     invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
 
     if-eqz v5, :cond_4
 
-    .line 14
     iget-object v4, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v4, v4, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->$wrapper$inlined:Lcom/commsource/studio/formula/convert/g;
@@ -286,7 +272,6 @@
 
     invoke-static {v4, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 15
     :cond_4
     :goto_1
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
@@ -303,7 +288,6 @@
 
     invoke-direct {v8}, Ljava/util/HashMap;-><init>()V
 
-    .line 16
     iget-object v9, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v9, v9, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->$wrapper$inlined:Lcom/commsource/studio/formula/convert/g;
@@ -316,15 +300,12 @@
 
     move-result-object v9
 
-    .line 17
     invoke-virtual {v8, v2, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v9, "FormulaCategoryId"
 
-    .line 18
     invoke-virtual {v8, v9, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 19
     iget-object v9, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v9, v9, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->$wrapper$inlined:Lcom/commsource/studio/formula/convert/g;
@@ -339,10 +320,8 @@
 
     const-string v10, "FormulaVersionCode"
 
-    .line 20
     invoke-virtual {v8, v10, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     iget-object v9, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v9, v9, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->$wrapper$inlined:Lcom/commsource/studio/formula/convert/g;
@@ -357,10 +336,8 @@
 
     const-string v10, "IsOriFormula"
 
-    .line 22
     invoke-virtual {v8, v10, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 23
     iget-object v9, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v9, v9, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->$wrapper$inlined:Lcom/commsource/studio/formula/convert/g;
@@ -379,7 +356,6 @@
 
     invoke-virtual {v9}, Lcom/commsource/studio/formula/convert/Framing;->getProportion()I
 
-    .line 24
     sget-object v9, Lcom/commsource/studio/formula/convert/b$a;->a:Lcom/commsource/studio/formula/convert/b$a;
 
     iget-object v10, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
@@ -396,18 +372,15 @@
 
     const-string v10, "FormulaBgCropEnum"
 
-    .line 25
     invoke-virtual {v8, v10, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
 
     check-cast v9, Ljava/lang/String;
 
-    .line 26
     :cond_5
     invoke-virtual {v5, v8}, Lcom/commsource/studio/ImageStudioViewModel;->C1(Ljava/util/Map;)V
 
-    .line 27
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v5, v5, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;
@@ -426,7 +399,6 @@
 
     invoke-virtual {v5}, Lcom/commsource/studio/gesture/GestureLayer;->R0()V
 
-    .line 28
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v5, v5, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->$wrapper$inlined:Lcom/commsource/studio/formula/convert/g;
@@ -437,7 +409,6 @@
 
     if-eqz v5, :cond_6
 
-    .line 29
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v5, v5, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;
@@ -452,7 +423,6 @@
 
     move-result-object v5
 
-    .line 30
     iget-object v8, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v8, v8, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->$wrapper$inlined:Lcom/commsource/studio/formula/convert/g;
@@ -461,10 +431,8 @@
 
     move-result-object v8
 
-    .line 31
     invoke-virtual {v5, v8}, Lcom/commsource/studio/bean/a;->W(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 32
     :cond_6
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
@@ -482,7 +450,6 @@
 
     invoke-static {v5, v3, v7, v3}, Lcom/commsource/studio/bean/a;->r0(Lcom/commsource/studio/bean/a;Ljava/lang/Boolean;ILjava/lang/Object;)V
 
-    .line 33
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v5, v5, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;
@@ -495,7 +462,6 @@
 
     invoke-virtual {v5}, Lcom/commsource/studio/ImageStudioViewModel;->Q()V
 
-    .line 34
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v5, v5, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;
@@ -508,7 +474,6 @@
 
     invoke-virtual {v5}, Lcom/commsource/studio/ImageStudioViewModel;->T()V
 
-    .line 35
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v5, v5, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;
@@ -517,7 +482,6 @@
 
     invoke-static {v5}, Lcom/commsource/studio/ImageStudioActivity;->O0(Lcom/commsource/studio/ImageStudioActivity;)V
 
-    .line 36
     iget-object v5, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v5, v5, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;
@@ -534,12 +498,10 @@
 
     if-eqz v5, :cond_7
 
-    .line 37
     invoke-virtual {v5, v2}, Lcom/commsource/studio/bean/Step;->getExtraInfo(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 38
     :cond_7
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -549,7 +511,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 39
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->this$0:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;
@@ -562,7 +523,6 @@
 
     invoke-virtual {v1, v6}, Lcom/commsource/studio/ImageStudioViewModel;->O(I)V
 
-    .line 40
     :cond_8
     new-instance v1, Ljava/util/HashMap;
 
@@ -570,7 +530,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 41
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;
 
     iget-object v2, v2, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$$special$$inlined$let$lambda$3;->$wrapper$inlined:Lcom/commsource/studio/formula/convert/g;
@@ -585,20 +544,16 @@
 
     const-string v3, "template_id"
 
-    .line 42
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v2, "tem_tag"
 
-    .line 43
     invoke-virtual {v1, v2, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v2, "beauty_template_material_use"
 
-    .line 44
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 45
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -13,13 +13,10 @@
 .method constructor <init>(Lcom/google/ar/core/Session;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/ar/core/AugmentedObjectDatabase;->session:Lcom/google/ar/core/Session;
 
-    .line 3
     iput-wide p2, p0, Lcom/google/ar/core/AugmentedObjectDatabase;->nativeHandle:J
 
     return-void
@@ -28,14 +25,12 @@
 .method public static createFromPath(Lcom/google/ar/core/Session;Ljava/lang/String;)Lcom/google/ar/core/AugmentedObjectDatabase;
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     invoke-static {v0, v1, p1}, Lcom/google/ar/core/AugmentedObjectDatabase;->nativeCreateFromPath(JLjava/lang/String;)J
 
     move-result-wide v0
 
-    .line 2
     new-instance p1, Lcom/google/ar/core/AugmentedObjectDatabase;
 
     invoke-direct {p1, p0, v0, v1}, Lcom/google/ar/core/AugmentedObjectDatabase;-><init>(Lcom/google/ar/core/Session;J)V
@@ -83,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/AugmentedObjectDatabase;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -92,10 +86,8 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/ar/core/AugmentedObjectDatabase;->nativeDestroy(J)J
 
-    .line 3
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -105,7 +97,6 @@
 .method public getExtentX()F
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedObjectDatabase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -122,7 +113,6 @@
 .method public getExtentY()F
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedObjectDatabase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -139,7 +129,6 @@
 .method public getExtentZ()F
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedObjectDatabase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -156,7 +145,6 @@
 .method public getName()Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedObjectDatabase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -173,7 +161,6 @@
 .method public getRoiBottom()I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedObjectDatabase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -190,7 +177,6 @@
 .method public getRoiLeft()I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedObjectDatabase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -207,7 +193,6 @@
 .method public getRoiRight()I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedObjectDatabase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -224,7 +209,6 @@
 .method public getRoiTop()I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedObjectDatabase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J

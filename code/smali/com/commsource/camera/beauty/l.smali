@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isFromAlbum()Z
 
     move-result v1
@@ -39,7 +37,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getAlbumPhotoPath()Ljava/lang/String;
 
     move-result-object v1
@@ -50,7 +47,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getAlbumPhotoPath()Ljava/lang/String;
 
     move-result-object p0
@@ -67,13 +63,11 @@
 
     return-object p0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isScreenShot()Z
 
@@ -83,7 +77,6 @@
 
     if-nez v1, :cond_2
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -118,7 +111,6 @@
 
     int-to-float p1, p1
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getHeight()I
 
     move-result v1
@@ -139,7 +131,6 @@
 
     move-result v12
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getX()I
 
     move-result v4
@@ -148,7 +139,6 @@
 
     move-result v5
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getWidth()I
 
     move-result v6
@@ -159,7 +149,6 @@
 
     iget v8, p0, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->mTakePictureRatio:I
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getExif()I
 
     move-result v9
@@ -172,17 +161,14 @@
 
     move-result-object v11
 
-    .line 11
     invoke-static/range {v4 .. v12}, Lcom/commsource/camera/f1/c;->c(IIIIIII[BF)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p0
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 13
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getScreenShotBitmap()Landroid/graphics/Bitmap;
 
@@ -192,7 +178,6 @@
 
     int-to-float p1, p1
 
-    .line 14
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -213,7 +198,6 @@
 
     move-result p1
 
-    .line 15
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -226,7 +210,6 @@
 
     move-result v1
 
-    .line 16
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v2
@@ -239,15 +222,12 @@
 
     move-result p1
 
-    .line 17
     invoke-static {v1, p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(II)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v2
 
-    .line 18
     invoke-static {p0, v2}, Lcom/meitu/core/types/NativeBitmap;->drawBitmap(Landroid/graphics/Bitmap;Lcom/meitu/core/types/NativeBitmap;)V
 
-    .line 19
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -263,22 +243,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/core/face/InterPoint;
 
     invoke-direct {v1}, Lcom/meitu/core/face/InterPoint;-><init>()V
 
-    .line 3
     invoke-virtual {v1, p0, p1}, Lcom/meitu/core/face/InterPoint;->run(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -286,7 +262,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -301,22 +276,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/core/face/InterPoint;
 
     invoke-direct {v1}, Lcom/meitu/core/face/InterPoint;-><init>()V
 
-    .line 3
     invoke-virtual {v1, p0, p1}, Lcom/meitu/core/face/InterPoint;->run(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -324,7 +295,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -352,18 +322,15 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-virtual {p0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -381,12 +348,10 @@
 
     check-cast v2, Landroid/graphics/RectF;
 
-    .line 4
     new-instance v3, Landroid/graphics/Rect;
 
     invoke-direct {v3}, Landroid/graphics/Rect;-><init>()V
 
-    .line 5
     iget v4, v2, Landroid/graphics/RectF;->left:F
 
     int-to-float v5, p1
@@ -399,7 +364,6 @@
 
     iput v4, v3, Landroid/graphics/Rect;->left:I
 
-    .line 6
     iget v4, v2, Landroid/graphics/RectF;->top:F
 
     int-to-float v6, p2
@@ -412,7 +376,6 @@
 
     iput v4, v3, Landroid/graphics/Rect;->top:I
 
-    .line 7
     iget v4, v2, Landroid/graphics/RectF;->right:F
 
     mul-float v4, v4, v5
@@ -423,7 +386,6 @@
 
     iput v4, v3, Landroid/graphics/Rect;->right:I
 
-    .line 8
     iget v2, v2, Landroid/graphics/RectF;->bottom:F
 
     mul-float v2, v2, v6
@@ -434,10 +396,8 @@
 
     iput v2, v3, Landroid/graphics/Rect;->bottom:I
 
-    .line 9
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 10
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -458,7 +418,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

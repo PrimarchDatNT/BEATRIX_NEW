@@ -59,7 +59,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcotlin/collections/AbstractCollection$toString$1;->this$0:Lcotlin/collections/AbstractCollection;
 
     if-ne p1, v0, :cond_0
@@ -80,7 +79,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/collections/AbstractCollection$toString$1;->invoke(Ljava/lang/Object;)Ljava/lang/CharSequence;
 
     move-result-object p1

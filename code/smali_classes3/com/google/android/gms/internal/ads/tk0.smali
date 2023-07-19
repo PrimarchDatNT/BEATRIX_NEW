@@ -26,10 +26,8 @@
 .method public final a(Z)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/tk0;->a:Lcom/google/android/gms/internal/ads/mq;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/mq;->f()V
 
     return-void

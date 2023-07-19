@@ -39,23 +39,18 @@
 .method constructor <init>(Ljava/lang/String;Lcom/appsflyer/internal/z;Landroid/content/Context;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/appsflyer/share/CrossPromotionHelper$c;->valueOf:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/appsflyer/share/CrossPromotionHelper$c;->AFDateFormat:Lcom/appsflyer/internal/z;
 
-    .line 4
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p1, p3}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object p1, p0, Lcom/appsflyer/share/CrossPromotionHelper$c;->$$a:Ljava/lang/ref/WeakReference;
 
-    .line 5
     iput-boolean p4, p0, Lcom/appsflyer/share/CrossPromotionHelper$c;->$$b:Z
 
     return-void
@@ -66,7 +61,6 @@
 .method public final run()V
     .locals 6
 
-    .line 1
     iget-boolean v0, p0, Lcom/appsflyer/share/CrossPromotionHelper$c;->$$b:Z
 
     if-eqz v0, :cond_0
@@ -76,7 +70,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :try_start_0
     new-instance v1, Ljava/net/URL;
 
@@ -94,16 +87,13 @@
 
     const/16 v0, 0x2710
 
-    .line 3
     :try_start_1
     invoke-virtual {v1, v0}, Ljava/net/URLConnection;->setConnectTimeout(I)V
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-virtual {v1, v0}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
 
-    .line 5
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v2
@@ -120,7 +110,6 @@
 
     if-eq v2, v3, :cond_1
 
-    .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v3, "call to "
@@ -145,7 +134,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -163,7 +151,6 @@
 
     invoke-static {v2, v0}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;Z)V
 
-    .line 8
     iget-object v0, p0, Lcom/appsflyer/share/CrossPromotionHelper$c;->AFDateFormat:Lcom/appsflyer/internal/z;
 
     if-eqz v0, :cond_3
@@ -176,7 +163,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 9
     iget-object v0, p0, Lcom/appsflyer/share/CrossPromotionHelper$c;->AFDateFormat:Lcom/appsflyer/internal/z;
 
     const-string v2, "Location"
@@ -185,10 +171,8 @@
 
     move-result-object v2
 
-    .line 10
     iput-object v2, v0, Lcom/appsflyer/internal/z;->valueOf:Ljava/lang/String;
 
-    .line 11
     iget-object v0, p0, Lcom/appsflyer/share/CrossPromotionHelper$c;->AFDateFormat:Lcom/appsflyer/internal/z;
 
     iget-object v2, p0, Lcom/appsflyer/share/CrossPromotionHelper$c;->$$a:Ljava/lang/ref/WeakReference;
@@ -199,12 +183,10 @@
 
     check-cast v2, Landroid/content/Context;
 
-    .line 12
     iget-object v3, v0, Lcom/appsflyer/internal/z;->valueOf:Ljava/lang/String;
 
     if-eqz v3, :cond_3
 
-    .line 13
     new-instance v3, Landroid/content/Intent;
 
     const-string v4, "android.intent.action.VIEW"
@@ -227,7 +209,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_2
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -251,7 +232,6 @@
     :goto_0
     if-eqz v1, :cond_4
 
-    .line 15
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
 
     return-void
@@ -270,7 +250,6 @@
 
     move-object v0, v5
 
-    .line 16
     :goto_1
     :try_start_2
     invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
@@ -285,7 +264,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 17
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_4
@@ -298,7 +276,6 @@
 
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
 
-    .line 18
     :cond_5
     throw v0
 .end method

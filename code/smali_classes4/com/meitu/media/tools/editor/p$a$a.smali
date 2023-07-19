@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/media/tools/editor/p$a;[Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/tools/editor/p$a$a;->b:Lcom/meitu/media/tools/editor/p$a;
 
     iput-object p2, p0, Lcom/meitu/media/tools/editor/p$a$a;->a:[Z
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :goto_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/p$a$a;->b:Lcom/meitu/media/tools/editor/p$a;
 
@@ -60,7 +58,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/Thread;->interrupted()Z
 
     move-result v1
@@ -77,7 +74,6 @@
 
     const-wide/16 v1, 0x1e
 
-    .line 3
     :try_start_0
     invoke-static {v1, v2}, Ljava/lang/Thread;->sleep(J)V
     :try_end_0
@@ -88,12 +84,10 @@
     :catch_0
     move-exception v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/InterruptedException;->printStackTrace()V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/p$a$a;->b:Lcom/meitu/media/tools/editor/p$a;
 
@@ -107,7 +101,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     :try_start_1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/p$a$a;->b:Lcom/meitu/media/tools/editor/p$a;
 
@@ -122,10 +115,8 @@
     :catch_1
     move-exception v1
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 8
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -25,14 +25,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0xa
 
     if-lt p3, v0, :cond_8
 
-    .line 2
     invoke-interface {p2}, Ljava/security/Key;->getEncoded()[B
 
     move-result-object v0
@@ -43,7 +41,6 @@
 
     if-lt v0, v1, :cond_7
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     const/4 v0, -0x1
@@ -107,7 +104,6 @@
 
     packed-switch v0, :pswitch_data_0
 
-    .line 4
     new-instance p2, Ljava/security/NoSuchAlgorithmException;
 
     const-string p3, "unknown Hmac algorithm: "
@@ -145,7 +141,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_4
     new-instance p1, Ljava/security/InvalidAlgorithmParameterException;
 
@@ -160,7 +155,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_5
     new-instance p1, Ljava/security/InvalidAlgorithmParameterException;
 
@@ -173,17 +167,13 @@
 
     if-gt p3, v0, :cond_6
 
-    .line 7
     :goto_2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/bz1;->c:Ljava/lang/String;
 
-    .line 8
     iput p3, p0, Lcom/google/android/gms/internal/ads/bz1;->b:I
 
-    .line 9
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/bz1;->d:Ljava/security/Key;
 
-    .line 10
     sget-object p3, Lcom/google/android/gms/internal/ads/oy1;->g:Lcom/google/android/gms/internal/ads/oy1;
 
     invoke-virtual {p3, p1}, Lcom/google/android/gms/internal/ads/oy1;->a(Ljava/lang/String;)Ljava/lang/Object;
@@ -194,12 +184,10 @@
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/bz1;->a:Ljavax/crypto/Mac;
 
-    .line 11
     invoke-virtual {p1, p2}, Ljavax/crypto/Mac;->init(Ljava/security/Key;)V
 
     return-void
 
-    .line 12
     :cond_6
     new-instance p1, Ljava/security/InvalidAlgorithmParameterException;
 
@@ -207,7 +195,6 @@
 
     throw p1
 
-    .line 13
     :cond_7
     new-instance p1, Ljava/security/InvalidAlgorithmParameterException;
 
@@ -217,7 +204,6 @@
 
     throw p1
 
-    .line 14
     :cond_8
     new-instance p1, Ljava/security/InvalidAlgorithmParameterException;
 
@@ -254,7 +240,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bz1;->a:Ljavax/crypto/Mac;
 
@@ -268,7 +253,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     sget-object v0, Lcom/google/android/gms/internal/ads/oy1;->g:Lcom/google/android/gms/internal/ads/oy1;
 
@@ -280,21 +264,17 @@
 
     check-cast v0, Ljavax/crypto/Mac;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/bz1;->d:Ljava/security/Key;
 
     invoke-virtual {v0, v1}, Ljavax/crypto/Mac;->init(Ljava/security/Key;)V
 
-    .line 4
     :goto_0
     invoke-virtual {v0, p1}, Ljavax/crypto/Mac;->update([B)V
 
-    .line 5
     iget p1, p0, Lcom/google/android/gms/internal/ads/bz1;->b:I
 
     new-array p1, p1, [B
 
-    .line 6
     invoke-virtual {v0}, Ljavax/crypto/Mac;->doFinal()[B
 
     move-result-object v0

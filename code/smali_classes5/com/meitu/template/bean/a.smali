@@ -49,7 +49,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -64,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/a;->c:Ljava/lang/String;
 
     const-string v2, "#AUTHFAILUE "
@@ -75,7 +73,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/template/bean/a;->c:Ljava/lang/String;
 
     const-string v3, "SUFFIX."
@@ -86,7 +83,6 @@
 
     if-lez v1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/template/bean/a;->c:Ljava/lang/String;
 
     add-int/lit8 v1, v1, 0x7
@@ -99,7 +95,6 @@
 
     return-object v1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/template/bean/a;->c:Ljava/lang/String;
 
@@ -113,7 +108,6 @@
 
     return-object v1
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/meitu/template/bean/a;->c:Ljava/lang/String;
 
@@ -129,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/a;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/a;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -159,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/a;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/a;->d:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -189,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/a;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -212,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/a;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -261,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/a;->a()Ljava/lang/String;
 
     move-result-object v1
@@ -276,10 +263,8 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v1}, Lf/d/i/e;->X2(Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -293,12 +278,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/template/bean/Chat;
 
     invoke-direct {v1}, Lcom/meitu/template/bean/Chat;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/template/bean/a;->e()J
 
     move-result-wide v2
@@ -309,7 +292,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Chat;->setTime(Ljava/lang/String;)V
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -342,7 +324,6 @@
 
     invoke-static {v3, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/template/bean/a;->c()I
 
     move-result v2
@@ -355,12 +336,10 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Chat;->setId(Ljava/lang/Float;)V
 
-    .line 5
     sget-object v2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Chat;->setChatFail(Ljava/lang/Boolean;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/template/bean/a;->d()I
 
     move-result v2
@@ -371,7 +350,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Chat;->setRole(Ljava/lang/Integer;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/meitu/template/bean/a;->b()Ljava/lang/String;
 
     move-result-object v2
@@ -386,7 +364,6 @@
 
     const/4 v2, 0x0
 
-    .line 8
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -395,7 +372,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/template/bean/a;->b()Ljava/lang/String;
 
@@ -411,28 +387,24 @@
 
     const/4 v2, 0x1
 
-    .line 10
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Chat;->setHasimg(Ljava/lang/Integer;)V
 
-    .line 11
     :cond_1
     :goto_0
     iget-wide v2, p0, Lcom/meitu/template/bean/a;->d:J
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/template/bean/Chat;->setMilesTime(J)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/meitu/template/bean/a;->a()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Chat;->setContent(Ljava/lang/String;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -445,10 +417,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/a;->c:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -461,10 +431,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/a;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -477,10 +445,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/a;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -493,10 +459,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/a;->e:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -509,10 +473,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/a;->d:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

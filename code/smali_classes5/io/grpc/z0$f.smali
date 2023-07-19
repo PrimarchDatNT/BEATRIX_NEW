@@ -25,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,7 +51,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {}, Lio/grpc/z0$h;->d()Lio/grpc/z0$h$a;
 
     move-result-object v0
@@ -69,7 +67,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/grpc/z0$f;->c(Lio/grpc/z0$h;)V
 
     return-void

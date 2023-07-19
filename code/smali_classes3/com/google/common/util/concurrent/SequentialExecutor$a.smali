@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/SequentialExecutor;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/SequentialExecutor$a;->b:Lcom/google/common/util/concurrent/SequentialExecutor;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/SequentialExecutor$a;->a:Ljava/lang/Runnable;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/SequentialExecutor$a;->a:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V

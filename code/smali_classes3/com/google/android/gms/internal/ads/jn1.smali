@@ -35,19 +35,14 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/jn1;->a:Lcom/google/android/gms/internal/ads/j82;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/jn1;->b:Ljava/io/File;
 
-    .line 4
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/jn1;->c:Ljava/io/File;
 
-    .line 5
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/jn1;->d:Ljava/io/File;
 
     return-void
@@ -58,7 +53,6 @@
 .method public final a()Z
     .locals 5
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -90,7 +84,6 @@
 .method public final b()Lcom/google/android/gms/internal/ads/j82;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jn1;->a:Lcom/google/android/gms/internal/ads/j82;
 
     return-object v0
@@ -99,7 +92,6 @@
 .method public final c()Ljava/io/File;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jn1;->b:Ljava/io/File;
 
     return-object v0
@@ -108,7 +100,6 @@
 .method public final d()Ljava/io/File;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jn1;->c:Ljava/io/File;
 
     return-object v0
@@ -117,12 +108,10 @@
 .method public final e()[B
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jn1;->e:[B
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jn1;->d:Ljava/io/File;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/kn1;->f(Ljava/io/File;)[B
@@ -131,7 +120,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/jn1;->e:[B
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jn1;->e:[B
 
@@ -141,7 +129,6 @@
 
     return-object v0
 
-    .line 4
     :cond_1
     array-length v1, v0
 
@@ -155,7 +142,6 @@
 .method public final f(J)Z
     .locals 4
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/jn1;->a:Lcom/google/android/gms/internal/ads/j82;
 
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/j82;->L()J

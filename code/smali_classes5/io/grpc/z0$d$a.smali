@@ -24,7 +24,6 @@
 .method constructor <init>(Lio/grpc/z0$d;Lio/grpc/z0$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/z0$d$a;->b:Lio/grpc/z0$d;
 
     iput-object p2, p0, Lio/grpc/z0$d$a;->a:Lio/grpc/z0$e;
@@ -48,7 +47,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z0$d$a;->a:Lio/grpc/z0$e;
 
     invoke-virtual {v0, p1}, Lio/grpc/z0$e;->d(Ljava/util/Map;)Lio/grpc/z0$c;

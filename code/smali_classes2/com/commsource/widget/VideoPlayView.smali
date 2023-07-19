@@ -55,7 +55,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/VideoPlayView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -64,12 +63,10 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroid/view/TextureView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, 0x0
 
-    .line 3
     iput p1, p0, Lcom/commsource/widget/VideoPlayView;->g:I
 
     return-void
@@ -78,12 +75,10 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1, p2, p3}, Landroid/view/TextureView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, 0x0
 
-    .line 5
     iput p1, p0, Lcom/commsource/widget/VideoPlayView;->g:I
 
     return-void
@@ -96,12 +91,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->J:Landroid/os/Handler;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/os/HandlerThread;
 
     const-string v2, "videoPlayThread"
@@ -110,10 +103,8 @@
 
     iput-object v1, p0, Lcom/commsource/widget/VideoPlayView;->L:Landroid/os/HandlerThread;
 
-    .line 3
     invoke-virtual {v1}, Landroid/os/HandlerThread;->start()V
 
-    .line 4
     new-instance v1, Landroid/os/Handler;
 
     iget-object v2, p0, Lcom/commsource/widget/VideoPlayView;->L:Landroid/os/HandlerThread;
@@ -126,13 +117,11 @@
 
     iput-object v1, p0, Lcom/commsource/widget/VideoPlayView;->J:Landroid/os/Handler;
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->K:Landroid/os/Handler;
 
     if-nez v1, :cond_1
 
-    .line 6
     new-instance v1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -143,11 +132,9 @@
 
     iput-object v1, p0, Lcom/commsource/widget/VideoPlayView;->K:Landroid/os/Handler;
 
-    .line 7
     :cond_1
     invoke-virtual {p0, p0}, Landroid/view/TextureView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -160,12 +147,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->f:Lcom/commsource/widget/VideoPlayView$b;
 
     invoke-interface {v1}, Lcom/commsource/widget/VideoPlayView$b;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -178,19 +163,16 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/VideoPlayView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->start()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/widget/VideoPlayView;->a:Landroid/media/MediaPlayer;
 
     iget-boolean v1, p0, Lcom/commsource/widget/VideoPlayView;->p:Z
 
     invoke-virtual {v0, v1}, Landroid/media/MediaPlayer;->setLooping(Z)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/widget/VideoPlayView;->f:Lcom/commsource/widget/VideoPlayView$b;
 
     if-eqz v0, :cond_0
@@ -199,14 +181,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     new-instance v1, Lcom/commsource/widget/e0;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/e0;-><init>(Lcom/commsource/widget/VideoPlayView;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -220,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/view/Surface;
 
     invoke-direct {v1, p1}, Landroid/view/Surface;-><init>(Landroid/graphics/SurfaceTexture;)V
@@ -229,7 +208,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     :try_start_0
     new-instance v1, Landroid/media/MediaPlayer;
 
@@ -237,12 +215,10 @@
 
     iput-object v1, p0, Lcom/commsource/widget/VideoPlayView;->a:Landroid/media/MediaPlayer;
 
-    .line 3
     iget v2, p0, Lcom/commsource/widget/VideoPlayView;->g:I
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/TextureView;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -251,14 +227,12 @@
 
     move-result-object v1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/widget/VideoPlayView;->b:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Landroid/content/res/AssetManager;->openFd(Ljava/lang/String;)Landroid/content/res/AssetFileDescriptor;
 
     move-result-object p1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {p1}, Landroid/content/res/AssetFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;
@@ -282,7 +256,6 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 7
     invoke-virtual {p0}, Landroid/view/TextureView;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -302,12 +275,10 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/widget/VideoPlayView;->d:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setDataSource(Ljava/lang/String;)V
 
-    .line 9
     :cond_2
     :goto_0
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->a:Landroid/media/MediaPlayer;
@@ -316,19 +287,16 @@
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setSurface(Landroid/view/Surface;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->prepare()V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->a:Landroid/media/MediaPlayer;
 
     iget-boolean v2, p0, Lcom/commsource/widget/VideoPlayView;->p:Z
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setLooping(Z)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->a:Landroid/media/MediaPlayer;
 
     new-instance v2, Lcom/commsource/widget/g0;
@@ -350,26 +318,21 @@
     :catch_0
     move-exception v1
 
-    .line 13
     :try_start_1
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 14
     :goto_1
     invoke-static {p1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :goto_2
     invoke-static {p1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -382,37 +345,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->stop()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->release()V
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcom/commsource/widget/VideoPlayView;->a:Landroid/media/MediaPlayer;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->M:Landroid/view/Surface;
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-virtual {v1}, Landroid/view/Surface;->release()V
 
-    .line 7
     :cond_0
     invoke-direct {p0}, Lcom/commsource/widget/VideoPlayView;->k()V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -426,22 +381,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->J:Landroid/os/Handler;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->L:Landroid/os/HandlerThread;
 
     invoke-virtual {v1}, Landroid/os/HandlerThread;->quit()Z
 
-    .line 3
     iput-object v2, p0, Lcom/commsource/widget/VideoPlayView;->J:Landroid/os/Handler;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -456,12 +407,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->isPlaying()Z
 
     move-result v1
@@ -473,7 +422,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -518,16 +466,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/VideoPlayView;->b:Ljava/lang/String;
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/widget/VideoPlayView;->f:Lcom/commsource/widget/VideoPlayView$b;
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/VideoPlayView;->a()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -540,16 +484,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/VideoPlayView;->d:Ljava/lang/String;
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/widget/VideoPlayView;->f:Lcom/commsource/widget/VideoPlayView$b;
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/VideoPlayView;->a()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -562,16 +502,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/VideoPlayView;->c:Ljava/lang/String;
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/widget/VideoPlayView;->f:Lcom/commsource/widget/VideoPlayView$b;
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/VideoPlayView;->a()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -584,17 +520,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayView;->J:Landroid/os/Handler;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v2, Lcom/commsource/widget/h0;
 
@@ -602,7 +535,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -615,24 +547,19 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/widget/VideoPlayView;->N:Lcom/commsource/widget/VideoPlayView$a;
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-interface {p3}, Lcom/commsource/widget/VideoPlayView$a;->a()V
 
-    .line 3
     :cond_0
     iget-object p3, p0, Lcom/commsource/widget/VideoPlayView;->J:Landroid/os/Handler;
 
     if-nez p3, :cond_1
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/widget/VideoPlayView;->a()V
 
-    .line 5
     :cond_1
     iget-object p3, p0, Lcom/commsource/widget/VideoPlayView;->J:Landroid/os/Handler;
 
@@ -642,7 +569,6 @@
 
     invoke-virtual {p3, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 6
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -655,10 +581,8 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/VideoPlayView;->o()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -673,7 +597,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -686,7 +609,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -699,10 +621,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/VideoPlayView;->g:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -715,10 +635,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/VideoPlayView;->p:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -731,10 +649,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/VideoPlayView;->N:Lcom/commsource/widget/VideoPlayView$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

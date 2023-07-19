@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
@@ -77,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$doAnimator$1;->this$0:Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->A(Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;)Lcom/commsource/beautyplus/f0/kj;
@@ -102,7 +100,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout;->setTranslationX(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$doAnimator$1;->this$0:Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->A(Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;)Lcom/commsource/beautyplus/f0/kj;
@@ -129,7 +126,6 @@
 
     if-gez v4, :cond_0
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$doAnimator$1;->this$0:Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
 
     invoke-static {v4}, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->A(Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;)Lcom/commsource/beautyplus/f0/kj;
@@ -152,7 +148,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v4, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$doAnimator$1;->this$0:Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
 
@@ -179,7 +174,6 @@
 
     if-nez p1, :cond_1
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$doAnimator$1;->this$0:Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->A(Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;)Lcom/commsource/beautyplus/f0/kj;
@@ -198,7 +192,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$doAnimator$1;->this$0:Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
 
@@ -216,7 +209,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/RelativeLayout;->setBackgroundColor(I)V
 
-    .line 8
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

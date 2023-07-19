@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/puzzle/patchedworld/u/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/u/b$b;->a:Lcom/commsource/puzzle/patchedworld/u/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/u/b$b;->a:Lcom/commsource/puzzle/patchedworld/u/b;
 
     invoke-static {v0}, Lcom/commsource/puzzle/patchedworld/u/b;->a(Lcom/commsource/puzzle/patchedworld/u/b;)Landroid/widget/RelativeLayout;
@@ -53,7 +51,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/u/b$b;->a:Lcom/commsource/puzzle/patchedworld/u/b;
 
     invoke-static {v0}, Lcom/commsource/puzzle/patchedworld/u/b;->b(Lcom/commsource/puzzle/patchedworld/u/b;)Landroid/widget/TextView;
@@ -64,7 +61,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/u/b$b;->a:Lcom/commsource/puzzle/patchedworld/u/b;
 
     invoke-static {v0}, Lcom/commsource/puzzle/patchedworld/u/b;->c(Lcom/commsource/puzzle/patchedworld/u/b;)Landroid/widget/TextView;
@@ -73,7 +69,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -86,7 +81,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -99,7 +93,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

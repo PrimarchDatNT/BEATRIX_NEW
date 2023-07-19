@@ -160,7 +160,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$asFairChannel$1;->label:I
 
     const/4 v2, 0x1
@@ -185,7 +184,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -195,13 +193,11 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     iget-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$asFairChannel$1;->p$:Lcotlinx/coroutines/channels/w;
 
-    .line 4
     invoke-interface {p1}, Lcotlinx/coroutines/channels/w;->b()Lcotlinx/coroutines/channels/c0;
 
     move-result-object v1
@@ -210,10 +206,8 @@
 
     check-cast v1, Lcotlinx/coroutines/channels/m;
 
-    .line 5
     iget-object v3, p0, Lcotlinx/coroutines/flow/internal/CombineKt$asFairChannel$1;->$flow:Lcotlinx/coroutines/flow/d;
 
-    .line 6
     new-instance v4, Lcotlinx/coroutines/flow/internal/CombineKt$asFairChannel$1$a;
 
     invoke-direct {v4, v1}, Lcotlinx/coroutines/flow/internal/CombineKt$asFairChannel$1$a;-><init>(Lcotlinx/coroutines/channels/m;)V
@@ -234,14 +228,12 @@
 
     return-object v0
 
-    .line 7
     :cond_2
     :goto_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 
-    .line 8
     :cond_3
     new-instance p1, Lcotlin/TypeCastException;
 

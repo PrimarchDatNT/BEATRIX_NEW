@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$c;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$c;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;->N0(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)Ljava/util/List;
@@ -51,7 +49,6 @@
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$c;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;->L0(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)Ljava/util/List;
@@ -76,7 +73,6 @@
 
     check-cast v2, Lcom/commsource/beautyplus/setting/country/github/a;
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/beautyplus/setting/country/github/a;->d()Ljava/lang/String;
 
     move-result-object v3
@@ -85,7 +81,6 @@
 
     move-result-object v3
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v4
@@ -110,7 +105,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     :cond_1
     iget-object v3, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$c;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
@@ -122,7 +116,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$c;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
@@ -132,7 +125,6 @@
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -145,7 +137,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -158,7 +149,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

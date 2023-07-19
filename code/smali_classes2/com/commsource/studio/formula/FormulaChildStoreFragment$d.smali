@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/formula/JsFormula;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/formula/FormulaChildStoreFragment$d;->b(ILcom/commsource/studio/formula/JsFormula;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/formula/FormulaChildStoreFragment$d;->a:Lcom/commsource/studio/formula/FormulaChildStoreFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/formula/FormulaChildStoreFragment;->x(Lcom/commsource/studio/formula/FormulaChildStoreFragment;)Lcom/commsource/studio/formula/FormulaStoreViewModel;
@@ -90,14 +88,12 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     const/16 v1, 0x8
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
     move-result-object p2
@@ -106,7 +102,6 @@
 
     invoke-interface {v0, v1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/formula/FormulaChildStoreFragment$d;->a:Lcom/commsource/studio/formula/FormulaChildStoreFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/formula/FormulaChildStoreFragment;->z(Lcom/commsource/studio/formula/FormulaChildStoreFragment;)Lcom/commsource/studio/formula/FormulaCategory;
@@ -133,12 +128,10 @@
 
     const-string p2, "template_shop_clk_material"
 
-    .line 5
     invoke-static {p2, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     const/4 p2, 0x1
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

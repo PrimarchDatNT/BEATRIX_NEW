@@ -49,12 +49,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/protobuf/z0$i$c;->b:Lcom/google/protobuf/z0$i;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/protobuf/z0$i$c;->a:Ljava/util/Map$Entry;
 
     return-void
@@ -70,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/z0$i$c;->a:Ljava/util/Map$Entry;
 
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -88,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/z0$i$c;->b:Lcom/google/protobuf/z0$i;
 
     invoke-static {v0}, Lcom/google/protobuf/z0$i;->a(Lcom/google/protobuf/z0$i;)Lcom/google/protobuf/z0$i$b;
@@ -116,12 +112,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/z0$i$c;->a:Ljava/util/Map$Entry;
 
     iget-object v1, p0, Lcom/google/protobuf/z0$i$c;->b:Lcom/google/protobuf/z0$i;
 
-    .line 2
     invoke-static {v1}, Lcom/google/protobuf/z0$i;->a(Lcom/google/protobuf/z0$i;)Lcom/google/protobuf/z0$i$b;
 
     move-result-object v1
@@ -130,7 +124,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-interface {v0, p1}, Ljava/util/Map$Entry;->setValue(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -141,7 +134,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/protobuf/z0$i$c;->b:Lcom/google/protobuf/z0$i;
 

@@ -31,14 +31,12 @@
 .method constructor <init>([Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Iterators$e;->b:[Ljava/lang/Object;
 
     invoke-direct {p0}, Lcom/google/common/collect/l2;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/google/common/collect/Iterators$e;->a:I
 
     return-void
@@ -49,7 +47,6 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/Iterators$e;->a:I
 
     iget-object v1, p0, Lcom/google/common/collect/Iterators$e;->b:[Ljava/lang/Object;
@@ -77,14 +74,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Iterators$e;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Iterators$e;->b:[Ljava/lang/Object;
 
     iget v1, p0, Lcom/google/common/collect/Iterators$e;->a:I
@@ -93,17 +88,14 @@
 
     const/4 v3, 0x0
 
-    .line 3
     aput-object v3, v0, v1
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 4
     iput v1, p0, Lcom/google/common/collect/Iterators$e;->a:I
 
     return-object v2
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 

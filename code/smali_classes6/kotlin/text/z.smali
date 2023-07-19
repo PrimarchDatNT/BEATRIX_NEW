@@ -23,7 +23,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcotlin/text/a;->a(I)I
 
     move-result p2
@@ -49,7 +48,6 @@
 
     and-int/lit16 p0, p0, 0xff
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
@@ -83,7 +81,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p0
@@ -115,7 +112,6 @@
 
     and-int/2addr p0, v0
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
@@ -148,7 +144,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/text/z;->g(Ljava/lang/String;)Lcotlin/b1;
 
     move-result-object v0
@@ -188,7 +183,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/text/z;->h(Ljava/lang/String;I)Lcotlin/b1;
 
     move-result-object p1
@@ -233,7 +227,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {p0, v0}, Lcotlin/text/z;->h(Ljava/lang/String;I)Lcotlin/b1;
 
     move-result-object p0
@@ -261,7 +254,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/text/z;->l(Ljava/lang/String;I)Lcotlin/f1;
 
     move-result-object p0
@@ -276,7 +268,6 @@
 
     const/16 v0, 0xff
 
-    .line 2
     invoke-static {v0}, Lcotlin/f1;->s(I)I
 
     move-result v0
@@ -292,7 +283,6 @@
     :cond_0
     int-to-byte p0, p0
 
-    .line 3
     invoke-static {p0}, Lcotlin/b1;->s(B)B
 
     move-result p0
@@ -324,7 +314,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/text/z;->k(Ljava/lang/String;)Lcotlin/f1;
 
     move-result-object v0
@@ -364,7 +353,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/text/z;->l(Ljava/lang/String;I)Lcotlin/f1;
 
     move-result-object p1
@@ -409,7 +397,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {p0, v0}, Lcotlin/text/z;->l(Ljava/lang/String;I)Lcotlin/f1;
 
     move-result-object p0
@@ -437,10 +424,8 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -456,14 +441,12 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {p0, v3}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
 
     const/16 v5, 0x30
 
-    .line 4
     invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result v5
@@ -487,7 +470,6 @@
     :cond_3
     const v4, 0x71c71c7
 
-    .line 5
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result v5
@@ -497,7 +479,6 @@
     :goto_0
     if-ge v6, v0, :cond_8
 
-    .line 6
     invoke-virtual {p0, v6}, Ljava/lang/String;->charAt(I)C
 
     move-result v8
@@ -510,7 +491,6 @@
 
     return-object v1
 
-    .line 7
     :cond_4
     invoke-static {v3, v7}, Lcotlin/v1;->c(II)I
 
@@ -520,12 +500,10 @@
 
     if-ne v7, v4, :cond_5
 
-    .line 8
     invoke-static {v2, v5}, Lcotlin/v1;->d(II)I
 
     move-result v7
 
-    .line 9
     invoke-static {v3, v7}, Lcotlin/v1;->c(II)I
 
     move-result v9
@@ -538,12 +516,10 @@
     :cond_6
     mul-int v3, v3, v5
 
-    .line 10
     invoke-static {v3}, Lcotlin/f1;->s(I)I
 
     move-result v3
 
-    .line 11
     invoke-static {v8}, Lcotlin/f1;->s(I)I
 
     move-result v8
@@ -554,7 +530,6 @@
 
     move-result v8
 
-    .line 12
     invoke-static {v8, v3}, Lcotlin/v1;->c(II)I
 
     move-result v3
@@ -570,7 +545,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_8
     invoke-static {v3}, Lcotlin/f1;->f(I)Lcotlin/f1;
 
@@ -596,7 +570,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/text/z;->o(Ljava/lang/String;)Lcotlin/j1;
 
     move-result-object v0
@@ -636,7 +609,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/text/z;->p(Ljava/lang/String;I)Lcotlin/j1;
 
     move-result-object p1
@@ -681,7 +653,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {p0, v0}, Lcotlin/text/z;->p(Ljava/lang/String;I)Lcotlin/j1;
 
     move-result-object p0
@@ -713,10 +684,8 @@
 
     invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static/range {p1 .. p1}, Lcotlin/text/a;->a(I)I
 
-    .line 2
     invoke-virtual/range {p0 .. p0}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -732,14 +701,12 @@
 
     const/4 v6, 0x0
 
-    .line 3
     invoke-virtual {v0, v6}, Ljava/lang/String;->charAt(I)C
 
     move-result v7
 
     const/16 v8, 0x30
 
-    .line 4
     invoke-static {v7, v8}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result v8
@@ -771,7 +738,6 @@
 
     int-to-long v9, v1
 
-    .line 5
     invoke-static {v9, v10}, Lcotlin/j1;->s(J)J
 
     move-result-wide v9
@@ -783,7 +749,6 @@
     :goto_2
     if-ge v6, v2, :cond_8
 
-    .line 6
     invoke-virtual {v0, v6}, Ljava/lang/String;->charAt(I)C
 
     move-result v15
@@ -796,7 +761,6 @@
 
     return-object v3
 
-    .line 7
     :cond_4
     invoke-static {v11, v12, v13, v14}, Lcotlin/v1;->g(JJ)I
 
@@ -808,12 +772,10 @@
 
     if-nez v16, :cond_5
 
-    .line 8
     invoke-static {v4, v5, v9, v10}, Lcotlin/v1;->h(JJ)J
 
     move-result-wide v13
 
-    .line 9
     invoke-static {v11, v12, v13, v14}, Lcotlin/v1;->g(JJ)I
 
     move-result v16
@@ -826,12 +788,10 @@
     :cond_6
     mul-long v11, v11, v9
 
-    .line 10
     invoke-static {v11, v12}, Lcotlin/j1;->s(J)J
 
     move-result-wide v11
 
-    .line 11
     invoke-static {v15}, Lcotlin/f1;->s(I)I
 
     move-result v15
@@ -852,7 +812,6 @@
 
     move-result-wide v4
 
-    .line 12
     invoke-static {v4, v5, v11, v12}, Lcotlin/v1;->g(JJ)I
 
     move-result v11
@@ -870,7 +829,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_8
     invoke-static {v11, v12}, Lcotlin/j1;->f(J)Lcotlin/j1;
 
@@ -896,7 +854,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/text/z;->s(Ljava/lang/String;)Lcotlin/p1;
 
     move-result-object v0
@@ -936,7 +893,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/text/z;->t(Ljava/lang/String;I)Lcotlin/p1;
 
     move-result-object p1
@@ -981,7 +937,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {p0, v0}, Lcotlin/text/z;->t(Ljava/lang/String;I)Lcotlin/p1;
 
     move-result-object p0
@@ -1009,7 +964,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/text/z;->l(Ljava/lang/String;I)Lcotlin/f1;
 
     move-result-object p0
@@ -1024,7 +978,6 @@
 
     const v0, 0xffff
 
-    .line 2
     invoke-static {v0}, Lcotlin/f1;->s(I)I
 
     move-result v0
@@ -1040,7 +993,6 @@
     :cond_0
     int-to-short p0, p0
 
-    .line 3
     invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0

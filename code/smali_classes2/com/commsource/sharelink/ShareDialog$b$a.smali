@@ -25,7 +25,6 @@
 
     iput-object p2, p0, Lcom/commsource/sharelink/ShareDialog$b$a;->d:Lcom/commsource/sharelink/ShareDialog$b;
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/util/delegate/process/i;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -40,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

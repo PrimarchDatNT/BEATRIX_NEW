@@ -32,10 +32,8 @@
 
     const/4 p2, 0x1
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/ads/wp1;-><init>(Lcom/google/android/gms/internal/ads/zzdsr;Z)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzdub;->P()V
 
     return-void
@@ -46,7 +44,6 @@
 .method public final synthetic V(Ljava/util/List;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -55,7 +52,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -75,7 +71,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, v1, Lcom/google/android/gms/internal/ads/yp1;->a:Ljava/lang/Object;
 
     goto :goto_1
@@ -88,7 +83,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 

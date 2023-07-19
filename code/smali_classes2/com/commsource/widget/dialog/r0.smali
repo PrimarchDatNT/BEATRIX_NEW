@@ -92,43 +92,36 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/r0;->b:Z
 
-    .line 3
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/dialog/r0;->g:Landroidx/lifecycle/MutableLiveData;
 
-    .line 4
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/dialog/r0;->h:Landroidx/lifecycle/MutableLiveData;
 
-    .line 5
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/dialog/r0;->i:Landroidx/lifecycle/MutableLiveData;
 
-    .line 6
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/dialog/r0;->j:Landroidx/lifecycle/MutableLiveData;
 
-    .line 7
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -145,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/dialog/r0;->W()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -160,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/dialog/r0;->c0(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -175,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/dialog/r0;->k:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -190,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/dialog/r0;->g:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -205,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/widget/dialog/r0;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -220,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/dialog/r0;->f:Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -235,7 +222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/dialog/r0;->X()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -250,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/dialog/r0;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -274,7 +259,6 @@
     :cond_0
     sget p0, Lcom/res/provider/ResSTRING;->purchasing_success:I
 
-    .line 1
     :goto_0
     invoke-static {p0}, Lf/k/c/c/f;->w(I)V
 
@@ -290,7 +274,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -303,7 +286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -316,12 +298,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/dialog/r0;->b:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/widget/dialog/r0;->d:Lcom/commsource/billing/pro/GmsManager;
 
     iget-object v4, p0, Lcom/commsource/widget/dialog/r0;->l:Ljava/lang/String;
@@ -343,10 +323,8 @@
     :cond_0
     sget p1, Lcom/res/provider/ResSTRING;->google_play_setup_failure:I
 
-    .line 3
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -360,7 +338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->d:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-virtual {p0}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
@@ -373,7 +350,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/billing/pro/GmsManager;->F(Landroid/content/Context;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -386,21 +362,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->l:Ljava/lang/String;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lf/d/i/n;->C1(Ljava/lang/String;Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->l:Ljava/lang/String;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lf/d/i/n;->H1(Ljava/lang/String;Z)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
     move-result-object v1
@@ -411,14 +384,12 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/dialog/r0;->i:Landroidx/lifecycle/MutableLiveData;
 
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -431,7 +402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/r0;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -446,7 +416,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/dialog/r0;->h:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -463,22 +432,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->d:Lcom/commsource/billing/pro/GmsManager;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/widget/dialog/r0;->e:Lcom/commsource/billing/b$c;
 
     invoke-virtual {v1, v2}, Lcom/commsource/billing/pro/GmsManager;->C(Lcom/commsource/billing/b$c;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->d:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/GmsManager;->o()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -492,7 +457,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->l:Ljava/lang/String;
 
     const-string v2, "com.commsource.beautyplus.unlock_ai_portrait"
@@ -503,14 +467,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "AI\u7f8e\u989c"
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->l:Ljava/lang/String;
 
@@ -522,14 +484,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "\u589e\u5f3a"
 
     return-object v0
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->l:Ljava/lang/String;
 
@@ -541,14 +501,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "\u8272\u6563"
 
     return-object v0
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->l:Ljava/lang/String;
 
@@ -560,14 +518,12 @@
 
     if-eqz v1, :cond_3
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "\u6d88\u9664\u7b14"
 
     return-object v0
 
-    .line 9
     :cond_3
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->l:Ljava/lang/String;
 
@@ -579,14 +535,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "\u6253\u5149"
 
     return-object v0
 
-    .line 11
     :cond_4
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->l:Ljava/lang/String;
 
@@ -598,14 +552,12 @@
 
     if-eqz v1, :cond_5
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "Montage"
 
     return-object v0
 
-    .line 13
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -629,7 +581,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->h:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -652,7 +603,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->i:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -677,7 +627,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->k:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -700,7 +649,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->g:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -723,7 +671,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->j:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -740,13 +687,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/widget/dialog/r0;->c:Z
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/widget/dialog/r0;->a0(Landroid/app/Activity;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -761,15 +705,12 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/widget/dialog/r0;->c:Z
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/widget/dialog/r0;->b:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/dialog/r0;->b0()V
 
     goto :goto_0
@@ -777,10 +718,8 @@
     :cond_0
     sget v1, Lcom/res/provider/ResSTRING;->google_play_setup_failure:I
 
-    .line 4
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -794,10 +733,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/r0;->l:Ljava/lang/String;
 
-    .line 2
     sget-object v1, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/GmsManager$a;->a()Lcom/commsource/billing/pro/GmsManager;
@@ -806,7 +743,6 @@
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/r0;->d:Lcom/commsource/billing/pro/GmsManager;
 
-    .line 3
     new-instance v2, Lcom/commsource/widget/dialog/r0$a;
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/widget/dialog/r0$a;-><init>(Lcom/commsource/widget/dialog/r0;Ljava/lang/String;)V
@@ -815,19 +751,16 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/billing/pro/GmsManager;->A(Lcom/commsource/billing/b$c;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->h:Landroidx/lifecycle/MutableLiveData;
 
     const-string v2, "QUERYING"
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->d:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-virtual {v1, p1}, Lcom/commsource/billing/pro/GmsManager;->u(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -842,7 +775,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p0}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
 
     move-result-object v1
@@ -865,7 +797,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
@@ -877,14 +808,12 @@
 
     iput-object p1, p0, Lcom/commsource/widget/dialog/r0;->f:Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;
 
-    .line 3
     new-instance v1, Lcom/commsource/widget/dialog/r0$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/dialog/r0$b;-><init>(Lcom/commsource/widget/dialog/r0;)V
 
     invoke-virtual {p1, v1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setOnAdListener(Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/dialog/r0;->f:Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->hasCacheAd()Z
@@ -893,7 +822,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/widget/dialog/r0;->g:Landroidx/lifecycle/MutableLiveData;
 
     const/4 v1, 0x0
@@ -906,7 +834,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
 
@@ -918,12 +845,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/widget/dialog/r0;->f:Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;->preload()Z
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/widget/dialog/r0;->g:Landroidx/lifecycle/MutableLiveData;
 
     const/4 v1, -0x1
@@ -934,14 +859,12 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 9
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_3
     :goto_1
     iget-object p1, p0, Lcom/commsource/widget/dialog/r0;->g:Landroidx/lifecycle/MutableLiveData;
@@ -954,7 +877,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -967,7 +889,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -980,7 +901,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1001,7 +921,6 @@
 
     if-ne p1, v1, :cond_2
 
-    .line 1
     new-instance p1, Ljava/util/HashMap;
 
     const/16 v1, 0x8
@@ -1012,22 +931,18 @@
 
     const-string v2, "\u9a6c\u8d5b\u514b"
 
-    .line 2
     invoke-virtual {p1, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "ID"
 
-    .line 3
     invoke-virtual {p1, v1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p2, "\u6765\u6e90"
 
     const-string v1, "\u4eba\u50cf\u7f8e\u989c"
 
-    .line 4
     invoke-virtual {p1, p2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-static {}, Lf/d/i/o;->m0()Z
 
     move-result p2
@@ -1059,10 +974,8 @@
 
     const-string p2, "ad_features_detail_show"
 
-    .line 6
     invoke-static {p2, p1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1076,7 +989,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1089,26 +1001,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->f:Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->hasCacheAd()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->f:Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;
 
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;->show(Landroid/app/Activity;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
 
@@ -1122,10 +1030,8 @@
 
     const/4 v1, 0x1
 
-    .line 5
     iput-boolean v1, p0, Lcom/commsource/widget/dialog/r0;->a:Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->g:Landroidx/lifecycle/MutableLiveData;
 
     const/4 v2, -0x1
@@ -1136,14 +1042,12 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0;->f:Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;
 
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;->show(Landroid/app/Activity;)V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object p1, p0, Lcom/commsource/widget/dialog/r0;->g:Landroidx/lifecycle/MutableLiveData;
 
@@ -1155,7 +1059,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 9
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

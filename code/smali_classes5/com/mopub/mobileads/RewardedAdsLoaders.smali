@@ -40,13 +40,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->moPubRewardedAdManager:Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
-    .line 3
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
@@ -59,7 +56,6 @@
 .method static synthetic access$000(Lcom/mopub/mobileads/RewardedAdsLoaders;)Lcom/mopub/mobileads/MoPubRewardedAdManager;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->moPubRewardedAdManager:Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     return-object p0
@@ -74,7 +70,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->mAdUnitToAdLoader:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -89,7 +84,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdLoaderRewardedAd;->getLastDeliveredResponse()Lcom/mopub/network/AdResponse;
 
@@ -111,7 +105,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->mAdUnitToAdLoader:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
@@ -126,7 +119,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->mAdUnitToAdLoader:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -139,7 +131,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/mopub/network/AdLoader;->creativeDownloadSuccess()V
 
@@ -164,7 +155,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->mAdUnitToAdLoader:Ljava/util/HashMap;
 
     return-object v0
@@ -177,7 +167,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->mAdUnitToAdLoader:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -188,7 +177,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/mopub/network/AdLoader;->hasMoreAds()Z
 
     move-result p1
@@ -213,7 +201,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->mAdUnitToAdLoader:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
@@ -281,13 +268,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->mAdUnitToAdLoader:Ljava/util/HashMap;
 
     invoke-virtual {v0, p2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -298,14 +282,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Lcom/mopub/network/AdLoader;->hasMoreAds()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 5
     :cond_0
     new-instance v0, Lcom/mopub/mobileads/AdLoaderRewardedAd;
 
@@ -325,12 +307,10 @@
 
     invoke-direct/range {v2 .. v7}, Lcom/mopub/mobileads/AdLoaderRewardedAd;-><init>(Ljava/lang/String;Lcom/mopub/common/AdFormat;Ljava/lang/String;Landroid/content/Context;Lcom/mopub/network/AdLoader$Listener;)V
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->mAdUnitToAdLoader:Ljava/util/HashMap;
 
     invoke-virtual {p1, p2, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     :cond_1
     invoke-virtual {v0, p4}, Lcom/mopub/network/AdLoader;->loadNextAd(Lcom/mopub/mobileads/MoPubError;)Lcom/mopub/network/MoPubRequest;
 
@@ -346,10 +326,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->mAdUnitToAdLoader:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -364,10 +342,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->mAdUnitToAdLoader:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -386,13 +362,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->mAdUnitToAdLoader:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -405,7 +378,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p1, p2}, Lcom/mopub/mobileads/AdLoaderRewardedAd;->trackClick(Landroid/content/Context;)V
 
@@ -423,13 +395,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders;->mAdUnitToAdLoader:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -442,7 +411,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p1, p2}, Lcom/mopub/mobileads/AdLoaderRewardedAd;->trackImpression(Landroid/content/Context;)V
 

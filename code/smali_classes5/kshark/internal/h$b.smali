@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lkshark/internal/h$b;->a:Lkshark/internal/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -60,7 +59,6 @@
 
     invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/h$b;->a:Lkshark/internal/h;
 
     invoke-static {v0}, Lkshark/internal/h;->d(Lkshark/internal/h;)Z
@@ -69,7 +67,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lkshark/internal/h$b;->a:Lkshark/internal/h;
 
     mul-int p3, p3, p1
@@ -78,7 +75,6 @@
 
     move-result-wide p2
 
-    .line 3
     iget-object v0, p0, Lkshark/internal/h$b;->a:Lkshark/internal/h;
 
     mul-int p5, p5, p1
@@ -91,7 +87,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lkshark/internal/h$b;->a:Lkshark/internal/h;
 
@@ -101,7 +96,6 @@
 
     move-result p2
 
-    .line 5
     iget-object p3, p0, Lkshark/internal/h$b;->a:Lkshark/internal/h;
 
     mul-int p5, p5, p1
@@ -110,7 +104,6 @@
 
     move-result p1
 
-    .line 6
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result p1

@@ -48,7 +48,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -61,7 +60,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -93,10 +91,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/model/h;->a:Ljava/lang/Object;
 
-    .line 2
     iput-object p2, p0, Lcom/airbnb/lottie/model/h;->b:Ljava/lang/Object;
 
     return-void
@@ -105,7 +101,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Landroidx/core/util/Pair;
 
     const/4 v1, 0x0
@@ -114,11 +109,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Landroidx/core/util/Pair;
 
-    .line 3
     iget-object v0, p1, Landroidx/core/util/Pair;->first:Ljava/lang/Object;
 
     iget-object v2, p0, Lcom/airbnb/lottie/model/h;->a:Ljava/lang/Object;
@@ -148,7 +141,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/h;->a:Ljava/lang/Object;
 
     const/4 v1, 0x0
@@ -185,7 +177,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

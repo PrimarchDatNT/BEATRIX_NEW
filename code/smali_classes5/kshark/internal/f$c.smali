@@ -28,7 +28,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/internal/f;-><init>(Lcotlin/jvm/internal/u;)V
 
     return-void
@@ -37,7 +36,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/internal/f$c;-><init>()V
 
     return-void

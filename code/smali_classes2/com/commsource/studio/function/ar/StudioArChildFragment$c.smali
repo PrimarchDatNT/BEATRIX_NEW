@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/ar/StudioArChildFragment$c;->b(ILcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment$c;->a:Lcom/commsource/studio/function/ar/StudioArChildFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->z()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -82,7 +80,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->K0()V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment$c;->a:Lcom/commsource/studio/function/ar/StudioArChildFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->z()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -93,7 +90,6 @@
 
     invoke-virtual {p2, v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->y(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

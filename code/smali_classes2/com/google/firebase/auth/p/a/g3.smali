@@ -39,21 +39,18 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/a$g;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/api/a$g;-><init>()V
 
     sput-object v0, Lcom/google/firebase/auth/p/a/g3;->a:Lcom/google/android/gms/common/api/a$g;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/auth/p/a/f3;
 
     invoke-direct {v1}, Lcom/google/firebase/auth/p/a/f3;-><init>()V
 
     sput-object v1, Lcom/google/firebase/auth/p/a/g3;->b:Lcom/google/android/gms/common/api/a$a;
 
-    .line 3
     new-instance v2, Lcom/google/android/gms/common/api/a;
 
     const-string v3, "InternalFirebaseAuth.FIREBASE_AUTH_API"
@@ -68,7 +65,6 @@
 .method public static a(Landroid/content/Context;Lcom/google/firebase/auth/p/a/i3;)Lcom/google/firebase/auth/p/a/q;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/p/a/q;
 
     invoke-direct {v0, p0, p1}, Lcom/google/firebase/auth/p/a/q;-><init>(Landroid/content/Context;Lcom/google/firebase/auth/p/a/i3;)V

@@ -30,16 +30,12 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/f/b/b/d/d$b;->a:Landroid/net/Uri;
 
-    .line 3
     iput-object p2, p0, Lf/f/b/b/d/d$b;->b:Landroid/net/Uri;
 
-    .line 4
     invoke-virtual {p3}, Landroid/view/View;->getId()I
 
     move-result p1
@@ -56,7 +52,6 @@
 
     const/4 v0, 0x0
 
-    .line 5
     invoke-direct {p0, p1, v0, p2}, Lf/f/b/b/d/d$b;-><init>(Landroid/net/Uri;Landroid/net/Uri;Landroid/view/View;)V
 
     return-void

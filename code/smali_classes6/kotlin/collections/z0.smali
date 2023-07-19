@@ -46,7 +46,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
 
     iput-object p1, p0, Lcotlin/collections/z0;->b:Ljava/util/List;
@@ -59,7 +58,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/z0;->b:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -77,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/z0;->b:Ljava/util/List;
 
     invoke-static {p0, p1}, Lcotlin/collections/z;->W0(Ljava/util/List;I)I

@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/layer/DeFocusLayer;
 
     iget-object v2, p0, Lcom/commsource/studio/function/SegmentFragment$maskLayer$2;->this$0:Lcom/commsource/studio/function/SegmentFragment;
@@ -71,14 +70,12 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/studio/layer/DeFocusLayer;-><init>(Landroid/content/Context;)V
 
-    .line 3
     new-instance v2, Lcom/commsource/studio/function/SegmentFragment$maskLayer$2$$special$$inlined$apply$lambda$1;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/SegmentFragment$maskLayer$2$$special$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/function/SegmentFragment$maskLayer$2;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/DeFocusLayer;->a1(Lcotlin/jvm/u/l;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -91,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/SegmentFragment$maskLayer$2;->invoke()Lcom/commsource/studio/layer/DeFocusLayer;
 
     move-result-object v1

@@ -32,7 +32,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/io/DefaultHttpRequestWriterFactory;
 
     invoke-direct {v0}, Lorg/apache/http/impl/io/DefaultHttpRequestWriterFactory;-><init>()V
@@ -47,7 +46,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-direct {p0, v0}, Lorg/apache/http/impl/io/DefaultHttpRequestWriterFactory;-><init>(Lorg/apache/http/message/LineFormatter;)V
 
     return-void
@@ -56,14 +54,12 @@
 .method public constructor <init>(Lorg/apache/http/message/LineFormatter;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-eqz p1, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p1, Lorg/apache/http/message/BasicLineFormatter;->INSTANCE:Lorg/apache/http/message/BasicLineFormatter;
 
@@ -88,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/io/DefaultHttpRequestWriter;
 
     iget-object v1, p0, Lorg/apache/http/impl/io/DefaultHttpRequestWriterFactory;->lineFormatter:Lorg/apache/http/message/LineFormatter;

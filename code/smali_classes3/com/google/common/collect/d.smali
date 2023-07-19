@@ -67,7 +67,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
 
     return-void
@@ -90,7 +89,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -115,7 +113,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/common/collect/d;->add(Ljava/lang/Object;I)I
 
     return v0
@@ -134,7 +131,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Multisets;->c(Lcom/google/common/collect/m1;Ljava/util/Collection;)Z
 
     move-result p1
@@ -152,7 +148,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-interface {p0, p1}, Lcom/google/common/collect/m1;->count(Ljava/lang/Object;)I
 
     move-result p1
@@ -180,7 +175,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/d$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/d$a;-><init>(Lcom/google/common/collect/d;)V
@@ -199,7 +193,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/d$b;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/d$b;-><init>(Lcom/google/common/collect/d;)V
@@ -230,12 +223,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/d;->elementSet:Ljava/util/Set;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/d;->createElementSet()Ljava/util/Set;
 
     move-result-object v0
@@ -268,12 +259,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/d;->entrySet:Ljava/util/Set;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/d;->createEntrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -291,7 +280,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Multisets;->i(Lcom/google/common/collect/m1;Ljava/lang/Object;)Z
 
     move-result p1
@@ -302,7 +290,6 @@
 .method public final hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -317,7 +304,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -338,7 +324,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -357,7 +342,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/common/collect/d;->remove(Ljava/lang/Object;I)I
 
     move-result p1
@@ -386,7 +370,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Multisets;->p(Lcom/google/common/collect/m1;Ljava/util/Collection;)Z
 
     move-result p1
@@ -407,7 +390,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Multisets;->s(Lcom/google/common/collect/m1;Ljava/util/Collection;)Z
 
     move-result p1
@@ -430,7 +412,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/common/collect/Multisets;->v(Lcom/google/common/collect/m1;Ljava/lang/Object;I)I
 
     move-result p1
@@ -453,7 +434,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 2
     invoke-static {p0, p1, p2, p3}, Lcom/google/common/collect/Multisets;->w(Lcom/google/common/collect/m1;Ljava/lang/Object;II)Z
 
     move-result p1
@@ -464,7 +444,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d;->entrySet()Ljava/util/Set;
 
     move-result-object v0

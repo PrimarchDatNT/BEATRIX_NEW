@@ -105,157 +105,108 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->a:J
 
-    .line 3
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->b:J
 
-    .line 4
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->c:J
 
-    .line 5
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->d:J
 
-    .line 6
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->e:J
 
-    .line 7
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->f:J
 
-    .line 8
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->g:J
 
-    .line 9
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->h:J
 
-    .line 10
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->i:J
 
     const/4 v0, 0x0
 
-    .line 11
     iput v0, p0, Lcom/meitu/hubble/i/a;->j:I
 
-    .line 12
     iput v0, p0, Lcom/meitu/hubble/i/a;->k:I
 
-    .line 13
     iput v0, p0, Lcom/meitu/hubble/i/a;->l:I
 
-    .line 14
     iput v0, p0, Lcom/meitu/hubble/i/a;->m:I
 
-    .line 15
     iput v0, p0, Lcom/meitu/hubble/i/a;->n:I
 
-    .line 16
     iput v0, p0, Lcom/meitu/hubble/i/a;->o:I
 
-    .line 17
     iput v0, p0, Lcom/meitu/hubble/i/a;->p:I
 
-    .line 18
     iput v0, p0, Lcom/meitu/hubble/i/a;->q:I
 
-    .line 19
     iput v0, p0, Lcom/meitu/hubble/i/a;->r:I
 
-    .line 20
     iput v0, p0, Lcom/meitu/hubble/i/a;->s:I
 
-    .line 21
     iput v0, p0, Lcom/meitu/hubble/i/a;->t:I
 
-    .line 22
     iput v0, p0, Lcom/meitu/hubble/i/a;->u:I
 
-    .line 23
     iput v0, p0, Lcom/meitu/hubble/i/a;->v:I
 
-    .line 24
     iput v0, p0, Lcom/meitu/hubble/i/a;->w:I
 
-    .line 25
     iput v0, p0, Lcom/meitu/hubble/i/a;->x:I
 
-    .line 26
     iput v0, p0, Lcom/meitu/hubble/i/a;->y:I
 
     const-wide/16 v0, 0x0
 
-    .line 27
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->z:D
 
-    .line 28
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->A:D
 
-    .line 29
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->B:D
 
-    .line 30
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->C:D
 
-    .line 31
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->D:D
 
-    .line 32
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->E:D
 
-    .line 33
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->F:D
 
-    .line 34
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->G:D
 
-    .line 35
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->H:D
 
-    .line 36
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->I:D
 
-    .line 37
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->J:D
 
-    .line 38
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->K:D
 
-    .line 39
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->L:D
 
-    .line 40
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->M:D
 
-    .line 41
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->N:D
 
-    .line 42
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->O:D
 
-    .line 43
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->P:D
 
-    .line 44
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->Q:D
 
-    .line 45
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->R:D
 
-    .line 46
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->S:D
 
-    .line 47
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->T:D
 
-    .line 48
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->U:D
 
-    .line 49
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->V:D
 
     return-void
@@ -266,7 +217,6 @@
 .method public a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/meitu/hubble/i/a;->y:I
 
     return v0
@@ -275,7 +225,6 @@
 .method public b()V
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->a:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->y:I
@@ -288,7 +237,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->z:D
 
-    .line 2
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->b:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->y:I
@@ -301,7 +249,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->A:D
 
-    .line 3
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->c:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->y:I
@@ -314,7 +261,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->C:D
 
-    .line 4
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->c:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->j:I
@@ -327,7 +273,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->B:D
 
-    .line 5
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->d:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->y:I
@@ -340,7 +285,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->E:D
 
-    .line 6
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->d:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->k:I
@@ -353,7 +297,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->D:D
 
-    .line 7
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->e:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->y:I
@@ -366,7 +309,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->G:D
 
-    .line 8
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->e:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->l:I
@@ -379,7 +321,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->F:D
 
-    .line 9
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->f:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->y:I
@@ -392,7 +333,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->I:D
 
-    .line 10
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->f:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->m:I
@@ -405,7 +345,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->H:D
 
-    .line 11
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->g:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->y:I
@@ -418,7 +357,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->K:D
 
-    .line 12
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->g:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->n:I
@@ -431,7 +369,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->J:D
 
-    .line 13
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->h:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->y:I
@@ -444,7 +381,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->M:D
 
-    .line 14
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->h:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->o:I
@@ -457,7 +393,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->L:D
 
-    .line 15
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->i:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->y:I
@@ -470,7 +405,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->O:D
 
-    .line 16
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->i:J
 
     iget v2, p0, Lcom/meitu/hubble/i/a;->p:I
@@ -483,7 +417,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->N:D
 
-    .line 17
     iget v0, p0, Lcom/meitu/hubble/i/a;->q:I
 
     int-to-long v0, v0
@@ -498,7 +431,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->P:D
 
-    .line 18
     iget v0, p0, Lcom/meitu/hubble/i/a;->r:I
 
     int-to-long v0, v0
@@ -513,7 +445,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->Q:D
 
-    .line 19
     iget v0, p0, Lcom/meitu/hubble/i/a;->s:I
 
     int-to-long v0, v0
@@ -528,7 +459,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->R:D
 
-    .line 20
     iget v0, p0, Lcom/meitu/hubble/i/a;->t:I
 
     int-to-long v0, v0
@@ -543,7 +473,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->S:D
 
-    .line 21
     iget v0, p0, Lcom/meitu/hubble/i/a;->u:I
 
     int-to-long v0, v0
@@ -558,7 +487,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->T:D
 
-    .line 22
     iget v0, p0, Lcom/meitu/hubble/i/a;->v:I
 
     int-to-long v0, v0
@@ -573,7 +501,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->U:D
 
-    .line 23
     iget v0, p0, Lcom/meitu/hubble/i/a;->w:I
 
     int-to-long v0, v0
@@ -594,7 +521,6 @@
 .method public c(Lcom/meitu/hubble/i/g/a;Lcom/meitu/hubble/i/g/b;)V
     .locals 8
 
-    .line 1
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->a:J
 
     iget-wide v2, p2, Lcom/meitu/hubble/i/g/b;->t:J
@@ -609,7 +535,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->a:J
 
-    .line 2
     iget-wide v0, p0, Lcom/meitu/hubble/i/a;->b:J
 
     iget-wide v2, p2, Lcom/meitu/hubble/i/g/b;->k:J
@@ -622,7 +547,6 @@
 
     iput-wide v0, p0, Lcom/meitu/hubble/i/a;->b:J
 
-    .line 3
     iget-wide v0, p2, Lcom/meitu/hubble/i/g/b;->l:J
 
     const/4 v2, 0x1
@@ -631,21 +555,18 @@
 
     if-lez v3, :cond_0
 
-    .line 4
     iget-wide v6, p0, Lcom/meitu/hubble/i/a;->c:J
 
     add-long/2addr v6, v0
 
     iput-wide v6, p0, Lcom/meitu/hubble/i/a;->c:J
 
-    .line 5
     iget v0, p0, Lcom/meitu/hubble/i/a;->j:I
 
     add-int/2addr v0, v2
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->j:I
 
-    .line 6
     :cond_0
     iget-wide v0, p2, Lcom/meitu/hubble/i/g/b;->o:J
 
@@ -653,21 +574,18 @@
 
     if-lez v3, :cond_1
 
-    .line 7
     iget-wide v6, p0, Lcom/meitu/hubble/i/a;->e:J
 
     add-long/2addr v6, v0
 
     iput-wide v6, p0, Lcom/meitu/hubble/i/a;->e:J
 
-    .line 8
     iget v0, p0, Lcom/meitu/hubble/i/a;->l:I
 
     add-int/2addr v0, v2
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->l:I
 
-    .line 9
     :cond_1
     iget-wide v0, p2, Lcom/meitu/hubble/i/g/b;->m:J
 
@@ -675,21 +593,18 @@
 
     if-lez v3, :cond_2
 
-    .line 10
     iget-wide v6, p0, Lcom/meitu/hubble/i/a;->d:J
 
     add-long/2addr v6, v0
 
     iput-wide v6, p0, Lcom/meitu/hubble/i/a;->d:J
 
-    .line 11
     iget v0, p0, Lcom/meitu/hubble/i/a;->k:I
 
     add-int/2addr v0, v2
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->k:I
 
-    .line 12
     :cond_2
     iget-wide v0, p2, Lcom/meitu/hubble/i/g/b;->p:J
 
@@ -697,21 +612,18 @@
 
     if-lez v3, :cond_3
 
-    .line 13
     iget-wide v6, p0, Lcom/meitu/hubble/i/a;->f:J
 
     add-long/2addr v6, v0
 
     iput-wide v6, p0, Lcom/meitu/hubble/i/a;->f:J
 
-    .line 14
     iget v0, p0, Lcom/meitu/hubble/i/a;->m:I
 
     add-int/2addr v0, v2
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->m:I
 
-    .line 15
     :cond_3
     iget-wide v0, p2, Lcom/meitu/hubble/i/g/b;->q:J
 
@@ -719,21 +631,18 @@
 
     if-lez v3, :cond_4
 
-    .line 16
     iget-wide v6, p0, Lcom/meitu/hubble/i/a;->g:J
 
     add-long/2addr v6, v0
 
     iput-wide v6, p0, Lcom/meitu/hubble/i/a;->g:J
 
-    .line 17
     iget v0, p0, Lcom/meitu/hubble/i/a;->n:I
 
     add-int/2addr v0, v2
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->n:I
 
-    .line 18
     :cond_4
     iget-wide v0, p2, Lcom/meitu/hubble/i/g/b;->r:J
 
@@ -741,21 +650,18 @@
 
     if-lez v3, :cond_5
 
-    .line 19
     iget-wide v6, p0, Lcom/meitu/hubble/i/a;->h:J
 
     add-long/2addr v6, v0
 
     iput-wide v6, p0, Lcom/meitu/hubble/i/a;->h:J
 
-    .line 20
     iget v0, p0, Lcom/meitu/hubble/i/a;->o:I
 
     add-int/2addr v0, v2
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->o:I
 
-    .line 21
     :cond_5
     iget-wide v0, p2, Lcom/meitu/hubble/i/g/b;->s:J
 
@@ -763,21 +669,18 @@
 
     if-lez v3, :cond_6
 
-    .line 22
     iget-wide v3, p0, Lcom/meitu/hubble/i/a;->i:J
 
     add-long/2addr v3, v0
 
     iput-wide v3, p0, Lcom/meitu/hubble/i/a;->i:J
 
-    .line 23
     iget v0, p0, Lcom/meitu/hubble/i/a;->p:I
 
     add-int/2addr v0, v2
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->p:I
 
-    .line 24
     :cond_6
     iget v0, p0, Lcom/meitu/hubble/i/a;->t:I
 
@@ -787,7 +690,6 @@
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->t:I
 
-    .line 25
     iget v0, p2, Lcom/meitu/hubble/i/g/b;->C:I
 
     if-eqz v0, :cond_9
@@ -800,7 +702,6 @@
 
     goto :goto_0
 
-    .line 26
     :cond_7
     iget v0, p0, Lcom/meitu/hubble/i/a;->s:I
 
@@ -810,7 +711,6 @@
 
     goto :goto_0
 
-    .line 27
     :cond_8
     iget v0, p0, Lcom/meitu/hubble/i/a;->r:I
 
@@ -820,7 +720,6 @@
 
     goto :goto_0
 
-    .line 28
     :cond_9
     iget v0, p0, Lcom/meitu/hubble/i/a;->q:I
 
@@ -828,20 +727,17 @@
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->q:I
 
-    .line 29
     :goto_0
     iget v0, p2, Lcom/meitu/hubble/i/g/b;->a:I
 
     if-eqz v0, :cond_a
 
-    .line 30
     iget v0, p0, Lcom/meitu/hubble/i/a;->v:I
 
     add-int/2addr v0, v2
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->v:I
 
-    .line 31
     :cond_a
     iget v0, p2, Lcom/meitu/hubble/i/g/b;->u:I
 
@@ -858,7 +754,6 @@
 
     if-lt v0, v1, :cond_d
 
-    .line 32
     :cond_c
     iget v0, p0, Lcom/meitu/hubble/i/a;->w:I
 
@@ -866,20 +761,17 @@
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->w:I
 
-    .line 33
     :cond_d
     iget-boolean p2, p2, Lcom/meitu/hubble/i/g/b;->D:Z
 
     if-eqz p2, :cond_e
 
-    .line 34
     iget p2, p0, Lcom/meitu/hubble/i/a;->x:I
 
     add-int/2addr p2, v2
 
     iput p2, p0, Lcom/meitu/hubble/i/a;->x:I
 
-    .line 35
     :cond_e
     invoke-virtual {p1}, Lcom/meitu/hubble/i/g/a;->l()Z
 
@@ -887,14 +779,12 @@
 
     if-eqz p2, :cond_f
 
-    .line 36
     iget v0, p0, Lcom/meitu/hubble/i/a;->u:I
 
     add-int/2addr v0, v2
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->u:I
 
-    .line 37
     :cond_f
     iget v0, p0, Lcom/meitu/hubble/i/a;->y:I
 
@@ -902,7 +792,6 @@
 
     iput v0, p0, Lcom/meitu/hubble/i/a;->y:I
 
-    .line 38
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -927,7 +816,6 @@
 
     move-result-object p2
 
-    .line 39
     iget-object p1, p1, Lcom/meitu/hubble/i/g/a;->K:Ljava/lang/String;
 
     invoke-virtual {p0, p1, p2}, Lcom/meitu/hubble/i/a;->e(Ljava/lang/String;Ljava/lang/String;)V
@@ -940,10 +828,8 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/hubble/i/a;->b()V
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -962,7 +848,6 @@
 
     new-array v6, v4, [Ljava/lang/Object;
 
-    .line 3
     iget-wide v7, v0, Lcom/meitu/hubble/i/a;->A:D
 
     invoke-static {v7, v8}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -993,7 +878,6 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     iget-wide v9, v0, Lcom/meitu/hubble/i/a;->C:D
 
     const-wide/16 v11, 0x0
@@ -1010,7 +894,6 @@
 
     new-array v13, v4, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {v9, v10}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v9
@@ -1054,7 +937,6 @@
 
     new-array v9, v4, [Ljava/lang/Object;
 
-    .line 6
     iget-wide v13, v0, Lcom/meitu/hubble/i/a;->E:D
 
     invoke-static {v13, v14}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -1099,7 +981,6 @@
 
     new-array v9, v4, [Ljava/lang/Object;
 
-    .line 7
     iget-wide v13, v0, Lcom/meitu/hubble/i/a;->G:D
 
     invoke-static {v13, v14}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -1142,7 +1023,6 @@
 
     aput-object v9, v3, v5
 
-    .line 8
     iget-wide v9, v0, Lcom/meitu/hubble/i/a;->I:D
 
     const-string v13, "---"
@@ -1158,7 +1038,6 @@
     :cond_1
     new-array v14, v4, [Ljava/lang/Object;
 
-    .line 9
     invoke-static {v9, v10}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v9
@@ -1183,7 +1062,6 @@
     :cond_2
     new-array v11, v4, [Ljava/lang/Object;
 
-    .line 10
     invoke-static {v9, v10}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v9
@@ -1197,7 +1075,6 @@
     :goto_1
     aput-object v13, v3, v8
 
-    .line 11
     invoke-static {v6, v3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
@@ -1212,7 +1089,6 @@
 
     new-array v9, v4, [Ljava/lang/Object;
 
-    .line 12
     iget-wide v10, v0, Lcom/meitu/hubble/i/a;->K:D
 
     invoke-static {v10, v11}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -1257,7 +1133,6 @@
 
     new-array v9, v4, [Ljava/lang/Object;
 
-    .line 13
     iget-wide v10, v0, Lcom/meitu/hubble/i/a;->M:D
 
     invoke-static {v10, v11}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -1302,7 +1177,6 @@
 
     new-array v9, v4, [Ljava/lang/Object;
 
-    .line 14
     iget-wide v10, v0, Lcom/meitu/hubble/i/a;->O:D
 
     invoke-static {v10, v11}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -1347,7 +1221,6 @@
 
     new-array v6, v4, [Ljava/lang/Object;
 
-    .line 15
     iget-wide v9, v0, Lcom/meitu/hubble/i/a;->z:D
 
     invoke-static {v9, v10}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -1378,7 +1251,6 @@
 
     new-array v9, v4, [Ljava/lang/Object;
 
-    .line 16
     iget-wide v10, v0, Lcom/meitu/hubble/i/a;->S:D
 
     invoke-static {v10, v11}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -1407,7 +1279,6 @@
 
     new-array v7, v4, [Ljava/lang/Object;
 
-    .line 17
     iget-wide v9, v0, Lcom/meitu/hubble/i/a;->T:D
 
     const-wide/high16 v11, 0x4059000000000000L    # 100.0
@@ -1434,7 +1305,6 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 18
     iget v3, v0, Lcom/meitu/hubble/i/a;->t:I
 
     iget v6, v0, Lcom/meitu/hubble/i/a;->y:I
@@ -1443,12 +1313,10 @@
 
     const-string v6, "    "
 
-    .line 19
     invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v7, "number all="
 
-    .line 20
     invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget v7, v0, Lcom/meitu/hubble/i/a;->y:I
@@ -1457,7 +1325,6 @@
 
     const-string v7, " reuse="
 
-    .line 21
     invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget v7, v0, Lcom/meitu/hubble/i/a;->u:I
@@ -1466,7 +1333,6 @@
 
     const-string v7, " try="
 
-    .line 22
     invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget v7, v0, Lcom/meitu/hubble/i/a;->t:I
@@ -1477,7 +1343,6 @@
 
     if-lez v3, :cond_3
 
-    .line 23
     invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v10, "+"
@@ -1514,7 +1379,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 24
     :cond_3
     iget v2, v0, Lcom/meitu/hubble/i/a;->v:I
 
@@ -1522,14 +1386,12 @@
 
     const-string v2, " netError:"
 
-    .line 25
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget v2, v0, Lcom/meitu/hubble/i/a;->v:I
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 26
     invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     new-array v2, v4, [Ljava/lang/Object;
@@ -1538,7 +1400,6 @@
 
     mul-double v13, v13, v11
 
-    .line 27
     invoke-static {v13, v14}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v3
@@ -1551,7 +1412,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 28
     :cond_4
     iget v2, v0, Lcom/meitu/hubble/i/a;->w:I
 
@@ -1559,14 +1419,12 @@
 
     const-string v2, " httpError:"
 
-    .line 29
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget v2, v0, Lcom/meitu/hubble/i/a;->w:I
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 30
     invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     new-array v2, v4, [Ljava/lang/Object;
@@ -1575,7 +1433,6 @@
 
     mul-double v13, v13, v11
 
-    .line 31
     invoke-static {v13, v14}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v3
@@ -1591,10 +1448,8 @@
     :cond_5
     const-string v2, "\n"
 
-    .line 32
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 33
     invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/4 v3, 0x6
@@ -1603,7 +1458,6 @@
 
     iget v7, v0, Lcom/meitu/hubble/i/a;->q:I
 
-    .line 34
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v7
@@ -1630,7 +1484,6 @@
 
     iget v7, v0, Lcom/meitu/hubble/i/a;->r:I
 
-    .line 35
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v7
@@ -1661,7 +1514,6 @@
 
     iget v10, v0, Lcom/meitu/hubble/i/a;->s:I
 
-    .line 36
     invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v10
@@ -1690,29 +1542,24 @@
 
     const-string v7, "connection type def=%d->%s; hubble=%d->%s; change=%d->%s"
 
-    .line 37
     invoke-static {v7, v3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 38
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 39
     iget v3, v0, Lcom/meitu/hubble/i/a;->x:I
 
     if-lez v3, :cond_6
 
-    .line 40
     invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     new-array v3, v8, [Ljava/lang/Object;
 
     iget v6, v0, Lcom/meitu/hubble/i/a;->x:I
 
-    .line 41
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v6
@@ -1733,7 +1580,6 @@
 
     div-double/2addr v7, v10
 
-    .line 42
     invoke-static {v7, v8}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v7
@@ -1748,17 +1594,14 @@
 
     const-string v4, "isHttpUrlConnection:%d->%s"
 
-    .line 43
     invoke-static {v4, v3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 44
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 45
     :cond_6
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -1770,21 +1613,18 @@
 .method public e(Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/meitu/hubble/d;->k()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/hubble/k/a;->a()Lcom/meitu/library/m/a/b;
 
     move-result-object v0
 
     invoke-virtual {v0, p2}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 3
     iget p2, p0, Lcom/meitu/hubble/i/a;->u:I
 
     int-to-float p2, p2
@@ -1799,7 +1639,6 @@
 
     div-float/2addr p2, v0
 
-    .line 4
     invoke-static {}, Lcom/meitu/hubble/k/a;->a()Lcom/meitu/library/m/a/b;
 
     move-result-object v0

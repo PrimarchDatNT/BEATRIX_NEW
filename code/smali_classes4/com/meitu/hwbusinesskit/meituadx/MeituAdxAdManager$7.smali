@@ -40,7 +40,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;Landroid/widget/ImageView;Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$7;->this$0:Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;
 
     iput-object p2, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$7;->val$ivBackground:Landroid/widget/ImageView;
@@ -77,7 +76,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$7;->this$0:Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;
 
     const/16 p3, 0x3f2
@@ -86,7 +84,6 @@
 
     invoke-static {p2, p3, p4}, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;->access$2500(Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;ILjava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -113,12 +110,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$7;->val$ivBackground:Landroid/widget/ImageView;
 
     invoke-virtual {p3, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 3
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
@@ -137,7 +132,6 @@
 
     invoke-static {p3, p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->logGlide(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$7;->this$0:Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;
 
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$7;->val$adModel:Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;
@@ -146,7 +140,6 @@
 
     invoke-static {p1, p3, p4}, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;->access$2600(Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;Ljava/lang/Object;Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -161,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     move-object v2, p1
 
     check-cast v2, Landroid/graphics/drawable/Drawable;

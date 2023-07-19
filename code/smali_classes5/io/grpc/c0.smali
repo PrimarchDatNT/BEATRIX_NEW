@@ -12,7 +12,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
         value = "https://github.com/grpc/grpc-java/issues/2222"
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -60,7 +58,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lio/grpc/c0;->c(Ljava/lang/String;Ljava/lang/String;)Lio/grpc/o1;
 
     move-result-object p1

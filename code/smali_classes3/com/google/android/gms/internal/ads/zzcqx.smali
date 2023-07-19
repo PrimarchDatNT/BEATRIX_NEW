@@ -15,10 +15,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p3}, Lcom/google/android/gms/internal/ads/zzcmi;-><init>(ILjava/lang/String;)V
 
-    .line 2
     iput p2, p0, Lcom/google/android/gms/internal/ads/zzcqx;->zzgkj:I
 
     return-void
@@ -29,7 +27,6 @@
 .method public final zzapo()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzcqx;->zzgkj:I
 
     return v0

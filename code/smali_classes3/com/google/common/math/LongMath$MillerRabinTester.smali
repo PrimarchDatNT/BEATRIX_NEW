@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/google/common/math/LongMath$MillerRabinTester$1;
 
     const-string v1, "SMALL"
@@ -45,7 +44,6 @@
 
     sput-object v0, Lcom/google/common/math/LongMath$MillerRabinTester;->SMALL:Lcom/google/common/math/LongMath$MillerRabinTester;
 
-    .line 2
     new-instance v1, Lcom/google/common/math/LongMath$MillerRabinTester$2;
 
     const-string v3, "LARGE"
@@ -64,7 +62,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/google/common/math/LongMath$MillerRabinTester;->$VALUES:[Lcom/google/common/math/LongMath$MillerRabinTester;
 
     return-void
@@ -78,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -87,7 +83,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;ILcom/google/common/math/LongMath$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/google/common/math/LongMath$MillerRabinTester;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -119,12 +114,10 @@
 
     move-wide v7, p5
 
-    .line 1
     invoke-virtual/range {v2 .. v8}, Lcom/google/common/math/LongMath$MillerRabinTester;->mulMod(JJJ)J
 
     move-result-wide v3
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1, p2, p5, p6}, Lcom/google/common/math/LongMath$MillerRabinTester;->squareMod(JJ)J
 
@@ -149,7 +142,6 @@
 
     if-gtz v2, :cond_0
 
-    .line 1
     sget-object v0, Lcom/google/common/math/LongMath$MillerRabinTester;->SMALL:Lcom/google/common/math/LongMath$MillerRabinTester;
 
     goto :goto_0
@@ -174,14 +166,12 @@
 
     sub-long v11, v7, v9
 
-    .line 1
     invoke-static {v11, v12}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
 
     move-result v13
 
     shr-long v3, v11, v13
 
-    .line 2
     rem-long v1, p1, v7
 
     const/4 v14, 0x1
@@ -199,7 +189,6 @@
 
     move-wide/from16 v5, p3
 
-    .line 3
     invoke-direct/range {v0 .. v6}, Lcom/google/common/math/LongMath$MillerRabinTester;->powMod(JJJ)J
 
     move-result-wide v0
@@ -229,7 +218,6 @@
     :cond_2
     move-object v4, p0
 
-    .line 4
     invoke-virtual {p0, v0, v1, v7, v8}, Lcom/google/common/math/LongMath$MillerRabinTester;->squareMod(JJ)J
 
     move-result-wide v0
@@ -245,7 +233,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/math/LongMath$MillerRabinTester;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/math/LongMath$MillerRabinTester;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -260,7 +247,6 @@
 .method public static values()[Lcom/google/common/math/LongMath$MillerRabinTester;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/math/LongMath$MillerRabinTester;->$VALUES:[Lcom/google/common/math/LongMath$MillerRabinTester;
 
     invoke-virtual {v0}, [Lcom/google/common/math/LongMath$MillerRabinTester;->clone()Ljava/lang/Object;

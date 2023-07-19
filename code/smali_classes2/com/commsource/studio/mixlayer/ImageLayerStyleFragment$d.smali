@@ -54,21 +54,18 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$d;->a:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;->B1(Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;)Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$d;->a:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;->A1(Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;)Lcom/commsource/studio/bean/FocusLayerInfo;
 
     move-result-object v2
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$d;->a:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;->E1(Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;)Lcom/commsource/studio/mixlayer/ShadowPosLayer;
@@ -83,7 +80,6 @@
 
     aget v3, v0, v3
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$d;->a:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;->E1(Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;)Lcom/commsource/studio/mixlayer/ShadowPosLayer;
@@ -98,7 +94,6 @@
 
     aget v4, v0, v4
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$d;->a:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
@@ -111,7 +106,6 @@
 
     move-result v5
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$d;->a:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
@@ -124,10 +118,8 @@
 
     move-result v6
 
-    .line 7
     invoke-virtual/range {v1 .. v6}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->m0(Lcom/commsource/studio/bean/FocusLayerInfo;FFII)V
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -140,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$d;->a(Ljava/lang/Boolean;)V

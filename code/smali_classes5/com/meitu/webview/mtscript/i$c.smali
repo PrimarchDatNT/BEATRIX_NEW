@@ -47,15 +47,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/i$c;->b:Lcom/meitu/webview/mtscript/i;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/webview/mtscript/i$c;->a:Ljava/lang/Class;
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i$c;->a()V
 
     return-void
@@ -66,7 +63,6 @@
 .method protected a()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/meitu/webview/utils/g;->q()Z
 
     move-result v0
@@ -77,7 +73,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {v0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
     :try_end_0
@@ -85,7 +80,6 @@
 
     goto :goto_0
 
-    .line 3
     :catch_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -103,7 +97,6 @@
 .method protected b(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -122,7 +115,6 @@
 
     invoke-static {v1, v0}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/webview/mtscript/i$c;->a:Ljava/lang/Class;
 
     invoke-static {p1, v0}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
@@ -135,10 +127,8 @@
 
     const-string v0, "Auto parse json to model failed, use the default model instance."
 
-    .line 3
     invoke-static {v1, v0}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lcom/meitu/webview/mtscript/i$c;->a:Ljava/lang/Class;
 
@@ -157,14 +147,12 @@
     :catch_0
     move-exception v0
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 6
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/i$c;->c(Lcom/meitu/webview/utils/UnProguard;)V
 
     :cond_1

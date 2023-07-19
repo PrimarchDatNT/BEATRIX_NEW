@@ -12,7 +12,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
@@ -54,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-direct {v0, p0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>(Ljava/lang/Object;)V
@@ -74,7 +71,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-direct {v0, p0}, Ljava/util/concurrent/atomic/AtomicReferenceArray;-><init>(I)V
@@ -94,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-direct {v0, p0}, Ljava/util/concurrent/atomic/AtomicReferenceArray;-><init>([Ljava/lang/Object;)V

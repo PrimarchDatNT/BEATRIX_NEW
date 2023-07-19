@@ -151,7 +151,6 @@
 
     const/16 v1, 0x18
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -160,7 +159,6 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -245,7 +243,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/16 p1, 0x8
@@ -312,12 +309,10 @@
 
     aput v2, p2, v5
 
-    .line 3
     iput-object p2, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->a:[I
 
     new-array p1, p1, [F
 
-    .line 4
     fill-array-data p1, :array_0
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->b:[F
@@ -338,27 +333,22 @@
 
     aput p3, p1, v3
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c:[I
 
     new-array p1, v4, [F
 
-    .line 6
     fill-array-data p1, :array_1
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->d:[F
 
-    .line 7
     iput-boolean v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->f:Z
 
-    .line 8
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->g:Landroid/graphics/RectF;
 
-    .line 9
     sget-object p1, Lcom/commsource/studio/function/relight/ColorSeekBar$backgroundPaint$2;->INSTANCE:Lcom/commsource/studio/function/relight/ColorSeekBar$backgroundPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -367,7 +357,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->p:Lcotlin/w;
 
-    .line 10
     sget-object p1, Lcom/commsource/studio/function/relight/ColorSeekBar$strokePaint$2;->INSTANCE:Lcom/commsource/studio/function/relight/ColorSeekBar$strokePaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -376,14 +365,12 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->J:Lcotlin/w;
 
-    .line 11
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->K:Landroid/graphics/RectF;
 
-    .line 12
     sget-object p1, Lcom/commsource/studio/function/relight/ColorSeekBar$thumbPaint$2;->INSTANCE:Lcom/commsource/studio/function/relight/ColorSeekBar$thumbPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -392,7 +379,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->L:Lcotlin/w;
 
-    .line 13
     sget-object p1, Lcom/commsource/studio/function/relight/ColorSeekBar$selectColorPaint$2;->INSTANCE:Lcom/commsource/studio/function/relight/ColorSeekBar$selectColorPaint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -401,7 +387,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->M:Lcotlin/w;
 
-    .line 14
     sget p1, Lcom/commsource/studio/function/relight/ColorSeekBar;->k0:F
 
     const/high16 p2, 0x40000000    # 2.0f
@@ -420,7 +405,6 @@
 
     div-float/2addr p1, p2
 
-    .line 15
     invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
 
     move-result p2
@@ -433,29 +417,24 @@
 
     const/16 p1, 0x64
 
-    .line 16
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->V:I
 
     const/4 p1, -0x1
 
-    .line 17
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->b0:I
 
-    .line 18
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->e0:Ljava/util/ArrayList;
 
-    .line 19
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->g0:Lcom/commsource/camera/f1/n;
 
-    .line 20
     new-instance p1, Lcom/commsource/studio/function/relight/ColorSeekBar$progressAnimator$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/relight/ColorSeekBar$progressAnimator$2;-><init>(Lcom/commsource/studio/function/relight/ColorSeekBar;)V
@@ -504,7 +483,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/function/relight/ColorSeekBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -518,7 +496,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/function/relight/ColorSeekBar;->k0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -533,7 +510,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->e0:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -548,7 +524,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/function/relight/ColorSeekBar;->l0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -563,7 +538,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/function/relight/ColorSeekBar;->k(FZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -578,7 +552,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->P:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_3
@@ -601,7 +574,6 @@
     :goto_0
     if-eqz v1, :cond_3
 
-    .line 2
     iget v2, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->d0:F
 
     iget v4, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->V:I
@@ -614,7 +586,6 @@
 
     div-float/2addr v2, v4
 
-    .line 3
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v4
@@ -631,7 +602,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -645,7 +615,6 @@
 
     sub-int/2addr v2, v3
 
-    .line 5
     :cond_2
     :goto_1
     invoke-virtual {v1, v2, v3}, Landroid/graphics/Bitmap;->getPixel(II)I
@@ -659,7 +628,6 @@
     :cond_3
     const/4 v1, -0x1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -692,7 +660,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->W:I
 
     int-to-float v2, v1
@@ -707,7 +674,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->V:I
 
@@ -723,11 +689,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->d0:F
 
-    .line 4
     :goto_0
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/ColorSeekBar;->getCurrentSelectColor()I
 
@@ -735,14 +699,12 @@
 
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->b0:I
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->i0:Lcom/commsource/studio/function/relight/ColorSeekBar$b;
 
     if-eqz v1, :cond_2
 
     invoke-interface {v1, p1, p2}, Lcom/commsource/studio/function/relight/ColorSeekBar$b;->a(IZ)V
 
-    .line 6
     :cond_2
     iget p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->d0:F
 
@@ -766,15 +728,12 @@
     :goto_1
     float-to-int p1, p1
 
-    .line 7
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c0:I
 
     if-eq v1, p1, :cond_4
 
-    .line 8
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c0:I
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->e0:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -794,7 +753,6 @@
 
     check-cast v1, Lcom/commsource/widget/XSeekBar$b;
 
-    .line 10
     iget v2, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c0:I
 
     iget v3, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
@@ -803,7 +761,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_4
     iget-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->e0:Ljava/util/ArrayList;
 
@@ -824,7 +781,6 @@
 
     check-cast v1, Lcom/commsource/widget/XSeekBar$b;
 
-    .line 12
     iget v2, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c0:I
 
     iget v3, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
@@ -833,11 +789,9 @@
 
     goto :goto_3
 
-    .line 13
     :cond_5
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -927,7 +881,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->e0:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
@@ -946,12 +899,10 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->e0:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -989,7 +940,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->g:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1004,7 +954,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->a0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1021,7 +970,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->P:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1036,7 +984,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->b0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1051,7 +998,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->f0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1068,7 +1014,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->a:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1085,7 +1030,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->b:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1100,7 +1044,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1115,7 +1058,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->T:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1130,7 +1072,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->U:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1145,7 +1086,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1160,7 +1100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->N:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1175,7 +1114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->V:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1190,7 +1128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->W:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1207,7 +1144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->i0:Lcom/commsource/studio/function/relight/ColorSeekBar$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1222,7 +1158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->d0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1237,7 +1172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->S:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1252,7 +1186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->R:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1269,7 +1202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->g0:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1284,7 +1216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1345,7 +1276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->K:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1362,7 +1292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1379,7 +1308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->d:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1416,7 +1344,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->W:I
 
     int-to-float v2, v1
@@ -1439,7 +1366,6 @@
 
     add-float/2addr p1, v1
 
-    .line 2
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->R:F
 
     cmpg-float v2, p1, v1
@@ -1451,7 +1377,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->S:F
 
@@ -1461,7 +1386,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1476,7 +1400,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1495,17 +1418,14 @@
 
     int-to-float p1, p1
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->f0:F
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/ColorSeekBar;->getProgressAnimator()Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/ColorSeekBar;->getProgressAnimator()Lcom/commsource/camera/f1/l;
 
     move-result-object p1
@@ -1517,7 +1437,6 @@
     :cond_0
     int-to-float p1, p1
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/relight/ColorSeekBar;->h(F)F
 
     move-result p2
@@ -1526,10 +1445,8 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/function/relight/ColorSeekBar;->k(FZ)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1551,10 +1468,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->g:Landroid/graphics/RectF;
 
     sget v2, Lcom/commsource/studio/function/relight/ColorSeekBar;->k0:F
@@ -1571,14 +1486,12 @@
 
     invoke-virtual {p1, v1, v4, v5, v6}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->K:Landroid/graphics/RectF;
 
     iget-object v4, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->g:Landroid/graphics/RectF;
 
     invoke-virtual {v1, v4}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->K:Landroid/graphics/RectF;
 
     sget v4, Lcom/commsource/studio/function/relight/ColorSeekBar;->l0:F
@@ -1589,7 +1502,6 @@
 
     invoke-virtual {v1, v5, v4}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->K:Landroid/graphics/RectF;
 
     div-float v4, v2, v3
@@ -1602,7 +1514,6 @@
 
     invoke-virtual {p1, v1, v4, v5, v6}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 6
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
 
     iget v4, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->O:I
@@ -1619,7 +1530,6 @@
 
     invoke-virtual {p1, v1, v4, v5, v6}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/relight/ColorSeekBar;->getSelectColorPaint()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -1628,7 +1538,6 @@
 
     invoke-virtual {v1, v4}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 8
     iget v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
 
     iget v4, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->O:I
@@ -1653,7 +1562,6 @@
 
     invoke-virtual {p1, v1, v4, v2, v3}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1666,26 +1574,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
     if-ne p1, p3, :cond_0
 
     if-ne p2, p4, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->N:I
 
-    .line 4
     iput p2, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->O:I
 
-    .line 5
     iget p2, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->T:F
 
     const/4 p3, 0x1
@@ -1698,7 +1601,6 @@
 
     int-to-float v1, p1
 
-    .line 6
     iget v2, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->U:F
 
     sub-float/2addr v1, v2
@@ -1713,10 +1615,8 @@
 
     sub-float/2addr p1, v2
 
-    .line 7
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->a0:F
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/relight/ColorSeekBar;->getBackgroundPaint()Landroid/graphics/Paint;
 
     move-result-object p1
@@ -1779,7 +1679,6 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->g:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
@@ -1830,7 +1729,6 @@
 
     invoke-virtual {p1, p2, p4, v5, v6}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 10
     iget p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->d0:F
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/relight/ColorSeekBar;->h(F)F
@@ -1839,14 +1737,12 @@
 
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
 
-    .line 11
     iget p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->d0:F
 
     const/4 p2, 0x0
 
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/function/relight/ColorSeekBar;->k(FZ)V
 
-    .line 12
     iget p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->N:I
 
     sget-object p2, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
@@ -1859,17 +1755,14 @@
 
     if-eqz p1, :cond_5
 
-    .line 13
     new-instance p2, Landroid/graphics/Canvas;
 
     invoke-direct {p2, p1}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 14
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1, p3}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 15
     new-instance p3, Landroid/graphics/LinearGradient;
 
     const/4 v2, 0x0
@@ -1916,10 +1809,8 @@
 
     invoke-virtual {p1, p3}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 16
     invoke-virtual {p2, p1}, Landroid/graphics/Canvas;->drawPaint(Landroid/graphics/Paint;)V
 
-    .line 17
     :cond_5
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/ColorSeekBar;->getCurrentSelectColor()I
 
@@ -1927,7 +1818,6 @@
 
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->b0:I
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1948,19 +1838,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v2
 
     iput v2, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
 
-    .line 3
     iget v3, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->R:F
 
     cmpg-float v4, v2, v3
@@ -1971,7 +1858,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget v3, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->S:F
 
@@ -1981,7 +1867,6 @@
 
     iput v3, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
 
-    .line 5
     :cond_1
     :goto_0
     iget v2, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
@@ -2010,7 +1895,6 @@
 
     float-to-int v3, v2
 
-    .line 6
     iget-boolean v4, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->f:Z
 
     if-nez v4, :cond_3
@@ -2019,12 +1903,10 @@
 
     if-lt v3, v4, :cond_2
 
-    .line 7
     iget v5, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c0:I
 
     if-ge v5, v4, :cond_2
 
-    .line 8
     invoke-static {}, Lcom/commsource/util/j2;->b()V
 
     goto :goto_1
@@ -2032,19 +1914,16 @@
     :cond_2
     if-gt v3, v4, :cond_3
 
-    .line 9
     iget v3, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c0:I
 
     if-le v3, v4, :cond_3
 
-    .line 10
     invoke-static {}, Lcom/commsource/util/j2;->b()V
 
     :cond_3
     :goto_1
     const/4 v3, 0x1
 
-    .line 11
     invoke-direct {p0, v2, v3}, Lcom/commsource/studio/function/relight/ColorSeekBar;->k(FZ)V
 
     if-eqz v1, :cond_7
@@ -2057,7 +1936,6 @@
 
     goto :goto_3
 
-    .line 12
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->e0:Ljava/util/ArrayList;
 
@@ -2078,14 +1956,12 @@
 
     check-cast v2, Lcom/commsource/widget/XSeekBar$b;
 
-    .line 13
     iget v4, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c0:I
 
     iget v5, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
 
     invoke-interface {v2, v4, v5, v3}, Lcom/commsource/widget/XSeekBar$b;->O(IFZ)V
 
-    .line 14
     iget v4, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c0:I
 
     iget v5, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
@@ -2094,7 +1970,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_5
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -2106,7 +1981,6 @@
 
     invoke-interface {v1, v2}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
 
-    .line 16
     :cond_6
     :goto_3
     invoke-super {p0, p1}, Landroid/view/View;->onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -2117,7 +1991,6 @@
 
     return p1
 
-    .line 17
     :cond_7
     iget-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->e0:Ljava/util/ArrayList;
 
@@ -2138,7 +2011,6 @@
 
     check-cast v1, Lcom/commsource/widget/XSeekBar$b;
 
-    .line 18
     iget v2, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c0:I
 
     iget v4, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
@@ -2147,7 +2019,6 @@
 
     goto :goto_4
 
-    .line 19
     :cond_8
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -2157,7 +2028,6 @@
 
     invoke-interface {p1, v3}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
 
-    .line 20
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2171,7 +2041,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->a0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2190,7 +2059,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->P:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2205,7 +2073,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2220,7 +2087,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->b0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2235,7 +2101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->f0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2250,7 +2115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2265,7 +2129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->T:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2280,7 +2143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->U:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2295,7 +2157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2310,7 +2171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->N:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2329,7 +2189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->i0:Lcom/commsource/studio/function/relight/ColorSeekBar$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2344,7 +2203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->d0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2361,10 +2219,8 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, p1, v1}, Lcom/commsource/studio/function/relight/ColorSeekBar;->j(IZ)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2377,7 +2233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->S:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2392,7 +2247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->R:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2407,7 +2261,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->Q:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2430,7 +2283,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->c:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2453,7 +2305,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/ColorSeekBar;->d:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

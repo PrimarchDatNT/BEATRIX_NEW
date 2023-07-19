@@ -49,31 +49,22 @@
 .method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/TextView;Landroid/widget/ImageButton;Landroid/widget/ProgressBar;Landroid/widget/TextView;Landroid/widget/Space;Landroid/widget/ImageView;Landroid/widget/TextView;Landroid/view/View;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
-    .line 2
     iput-object p4, p0, Lcom/commsource/beautyplus/f0/uk;->a:Landroid/widget/TextView;
 
-    .line 3
     iput-object p5, p0, Lcom/commsource/beautyplus/f0/uk;->b:Landroid/widget/ImageButton;
 
-    .line 4
     iput-object p6, p0, Lcom/commsource/beautyplus/f0/uk;->c:Landroid/widget/ProgressBar;
 
-    .line 5
     iput-object p7, p0, Lcom/commsource/beautyplus/f0/uk;->d:Landroid/widget/TextView;
 
-    .line 6
     iput-object p8, p0, Lcom/commsource/beautyplus/f0/uk;->f:Landroid/widget/Space;
 
-    .line 7
     iput-object p9, p0, Lcom/commsource/beautyplus/f0/uk;->g:Landroid/widget/ImageView;
 
-    .line 8
     iput-object p10, p0, Lcom/commsource/beautyplus/f0/uk;->p:Landroid/widget/TextView;
 
-    .line 9
     iput-object p11, p0, Lcom/commsource/beautyplus/f0/uk;->J:Landroid/view/View;
 
     return-void
@@ -86,7 +77,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -113,7 +103,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->layout_ai_loading:I
 
-    .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -132,7 +121,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -157,7 +145,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -191,7 +178,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->layout_ai_loading:I
 
-    .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -223,7 +209,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0

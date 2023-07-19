@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/f0;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/f0$a;->p:Lcom/commsource/aieditor/f0;
 
     iput p3, p0, Lcom/commsource/aieditor/f0$a;->g:I
@@ -47,7 +46,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     new-instance v3, Ljava/net/URL;
 
@@ -66,13 +64,11 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-static {v3}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
 
     move-result-object v4
 
-    .line 3
     new-instance v5, Ljava/net/URL;
 
     iget v6, p0, Lcom/commsource/aieditor/f0$a;->g:I
@@ -87,12 +83,10 @@
 
     move-result-object v2
 
-    .line 4
     invoke-static {v2}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
-    .line 5
     iget v6, p0, Lcom/commsource/aieditor/f0$a;->g:I
 
     const/4 v7, 0x1
@@ -107,7 +101,6 @@
 
     invoke-static {v4, v6, v8, v7}, Lcom/commsource/util/common/e;->D(Landroid/graphics/Bitmap;Ljava/lang/String;ILandroid/graphics/Bitmap$CompressFormat;)Z
 
-    .line 6
     iget v4, p0, Lcom/commsource/aieditor/f0$a;->g:I
 
     const/4 v6, 0x0
@@ -120,7 +113,6 @@
 
     invoke-static {v5, v4, v8, v6}, Lcom/commsource/util/common/e;->D(Landroid/graphics/Bitmap;Ljava/lang/String;ILandroid/graphics/Bitmap$CompressFormat;)Z
 
-    .line 7
     iget v4, p0, Lcom/commsource/aieditor/f0$a;->g:I
 
     invoke-static {v4}, Lcom/commsource/aieditor/c0;->K(I)Z
@@ -129,7 +121,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/aieditor/f0$a;->p:Lcom/commsource/aieditor/f0;
 
     invoke-static {v4}, Lcom/commsource/aieditor/f0;->y(Lcom/commsource/aieditor/f0;)Landroidx/lifecycle/MutableLiveData;
@@ -138,7 +129,6 @@
 
     invoke-virtual {v4, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/aieditor/f0$a;->p:Lcom/commsource/aieditor/f0;
 
     invoke-static {v4}, Lcom/commsource/aieditor/f0;->z(Lcom/commsource/aieditor/f0;)Landroidx/lifecycle/MutableLiveData;
@@ -151,7 +141,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     iget-object v4, p0, Lcom/commsource/aieditor/f0$a;->p:Lcom/commsource/aieditor/f0;
 
@@ -164,11 +153,9 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 11
     :goto_0
     invoke-static {v3}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 12
     invoke-static {v2}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
     goto :goto_2
@@ -207,12 +194,10 @@
 
     move-object v3, v2
 
-    .line 13
     :goto_1
     :try_start_2
     invoke-virtual {v4}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 14
     iget-object v4, p0, Lcom/commsource/aieditor/f0$a;->p:Lcom/commsource/aieditor/f0;
 
     invoke-static {v4}, Lcom/commsource/aieditor/f0;->z(Lcom/commsource/aieditor/f0;)Landroidx/lifecycle/MutableLiveData;
@@ -223,13 +208,10 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
-    .line 15
     invoke-static {v2}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 16
     invoke-static {v3}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 17
     :goto_2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -238,14 +220,11 @@
     :catchall_2
     move-exception v0
 
-    .line 18
     :goto_3
     invoke-static {v2}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 19
     invoke-static {v3}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 20
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v0

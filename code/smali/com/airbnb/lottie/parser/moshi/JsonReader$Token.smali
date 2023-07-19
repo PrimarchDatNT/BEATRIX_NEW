@@ -50,7 +50,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     const-string v1, "BEGIN_ARRAY"
@@ -61,7 +60,6 @@
 
     sput-object v0, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;->BEGIN_ARRAY:Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
-    .line 2
     new-instance v1, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     const-string v3, "END_ARRAY"
@@ -72,7 +70,6 @@
 
     sput-object v1, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;->END_ARRAY:Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
-    .line 3
     new-instance v3, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     const-string v5, "BEGIN_OBJECT"
@@ -83,7 +80,6 @@
 
     sput-object v3, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;->BEGIN_OBJECT:Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
-    .line 4
     new-instance v5, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     const-string v7, "END_OBJECT"
@@ -94,7 +90,6 @@
 
     sput-object v5, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;->END_OBJECT:Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
-    .line 5
     new-instance v7, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     const-string v9, "NAME"
@@ -105,7 +100,6 @@
 
     sput-object v7, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;->NAME:Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
-    .line 6
     new-instance v9, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     const-string v11, "STRING"
@@ -116,7 +110,6 @@
 
     sput-object v9, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;->STRING:Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
-    .line 7
     new-instance v11, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     const-string v13, "NUMBER"
@@ -127,7 +120,6 @@
 
     sput-object v11, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;->NUMBER:Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
-    .line 8
     new-instance v13, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     const-string v15, "BOOLEAN"
@@ -138,7 +130,6 @@
 
     sput-object v13, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;->BOOLEAN:Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
-    .line 9
     new-instance v15, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     const-string v14, "NULL"
@@ -149,7 +140,6 @@
 
     sput-object v15, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;->NULL:Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
-    .line 10
     new-instance v14, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     const-string v12, "END_DOCUMENT"
@@ -194,7 +184,6 @@
 
     aput-object v14, v12, v10
 
-    .line 11
     sput-object v12, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;->$VALUES:[Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     return-void
@@ -208,7 +197,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -217,7 +205,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -232,7 +219,6 @@
 .method public static values()[Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;->$VALUES:[Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     invoke-virtual {v0}, [Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;->clone()Ljava/lang/Object;

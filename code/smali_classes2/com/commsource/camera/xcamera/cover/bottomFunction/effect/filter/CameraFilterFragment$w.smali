@@ -53,7 +53,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -61,24 +60,20 @@
     :cond_0
     const-string p1, "item"
 
-    .line 2
     invoke-static {p3, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p3}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 3
     instance-of p3, p1, Lcom/meitu/template/bean/Filter;
 
     if-eqz p3, :cond_5
 
-    .line 4
     move-object p3, p1
 
     check-cast p3, Lcom/meitu/template/bean/Filter;
 
-    .line 5
     invoke-virtual {p3}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v1
@@ -116,13 +111,11 @@
     :cond_2
     const/4 p1, 0x0
 
-    .line 6
     :goto_1
     check-cast p1, Lcom/meitu/template/bean/Filter;
 
     if-eqz p1, :cond_5
 
-    .line 7
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->isDownloading()Z
 
     move-result v1
@@ -131,7 +124,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_3
     invoke-static {p1}, Lcom/commsource/camera/f1/f;->b(Lcom/meitu/template/bean/Filter;)Z
 
@@ -139,14 +131,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$w;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
     invoke-static {p1, p2, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;ILcom/meitu/template/bean/Filter;)V
 
     goto :goto_2
 
-    .line 10
     :cond_4
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->isDownloaded()Z
 
@@ -154,7 +144,6 @@
 
     if-nez p1, :cond_5
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$w;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->G(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -163,7 +152,6 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->K(ILcom/meitu/template/bean/Filter;)V
 
-    .line 12
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

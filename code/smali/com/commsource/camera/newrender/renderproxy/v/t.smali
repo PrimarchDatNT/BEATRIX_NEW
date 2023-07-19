@@ -29,20 +29,16 @@
 .method public constructor <init>(Lcom/commsource/camera/mvp/f/b;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->f:Z
 
-    .line 3
     sget-object v0, Lcom/google/ar/core/TrackingState;->PAUSED:Lcom/google/ar/core/TrackingState;
 
     iput-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->g:Lcom/google/ar/core/TrackingState;
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -51,41 +47,34 @@
 
     const/4 v0, 0x0
 
-    .line 5
     iput v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->J:I
 
     const/16 v0, 0x10
 
     new-array v0, v0, [F
 
-    .line 6
     iput-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->K:[F
 
     const/4 v0, 0x3
 
     new-array v0, v0, [F
 
-    .line 7
     iput-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->L:[F
 
     const/4 v0, 0x2
 
     new-array v0, v0, [F
 
-    .line 8
     iput-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->M:[F
 
-    .line 9
     iput-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->d:Lcom/commsource/camera/mvp/f/b;
 
-    .line 10
     new-instance p1, Lcom/commsource/camera/newrender/renderproxy/v/s;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/newrender/renderproxy/v/s;-><init>(Lcom/commsource/camera/newrender/renderproxy/v/t;)V
 
     iput-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->b:Lcom/commsource/camera/newrender/renderproxy/v/s;
 
-    .line 11
     new-instance p1, Lcom/commsource/camera/newrender/renderproxy/v/e0;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/newrender/renderproxy/v/e0;-><init>(Lcom/commsource/camera/newrender/renderproxy/v/t;)V
@@ -102,14 +91,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/t;->d2()Lcom/commsource/camera/param/MakeupParam;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/param/MakeupParam;->getArCoreType()I
 
     move-result v1
@@ -138,17 +125,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->f:Z
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 3
     iget-wide v3, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->p:J
 
     sub-long v3, v1, v3
@@ -159,7 +143,6 @@
 
     if-lez v7, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->d:Lcom/commsource/camera/mvp/f/b;
 
     iget v4, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->J:I
@@ -168,15 +151,12 @@
 
     const/4 v3, 0x0
 
-    .line 5
     iput v3, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->J:I
 
-    .line 6
     iput-wide v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->p:J
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->J:I
 
@@ -184,7 +164,6 @@
 
     iput v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->J:I
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -201,7 +180,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     const-class v1, Lcom/google/ar/core/Plane;
 
     invoke-virtual {p1, v1}, Lcom/meitu/library/d/b/f$b;->b(Ljava/lang/Class;)Ljava/util/Collection;
@@ -210,14 +188,12 @@
 
     if-eqz p1, :cond_4
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_4
 
-    .line 3
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -240,17 +216,14 @@
 
     check-cast v2, Lcom/google/ar/core/Plane;
 
-    .line 4
     invoke-virtual {v2}, Lcom/google/ar/core/Plane;->getTrackingState()Lcom/google/ar/core/TrackingState;
 
     move-result-object v4
 
-    .line 5
     sget-object v5, Lcom/google/ar/core/TrackingState;->TRACKING:Lcom/google/ar/core/TrackingState;
 
     if-ne v4, v5, :cond_0
 
-    .line 6
     invoke-virtual {v2}, Lcom/google/ar/core/Plane;->getCenterPose()Lcom/google/ar/core/Pose;
 
     move-result-object v4
@@ -259,7 +232,6 @@
 
     invoke-virtual {v4, v5, v1}, Lcom/google/ar/core/Pose;->toMatrix([FI)V
 
-    .line 7
     invoke-virtual {v2}, Lcom/google/ar/core/Plane;->getCenterPose()Lcom/google/ar/core/Pose;
 
     move-result-object v4
@@ -268,7 +240,6 @@
 
     invoke-virtual {v4, v5, v1}, Lcom/google/ar/core/Pose;->getTranslation([FI)V
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->M:[F
 
     invoke-virtual {v2}, Lcom/google/ar/core/Plane;->getExtentX()F
@@ -277,7 +248,6 @@
 
     aput v5, v4, v1
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->M:[F
 
     invoke-virtual {v2}, Lcom/google/ar/core/Plane;->getExtentZ()F
@@ -288,7 +258,6 @@
 
     aput v5, v4, v6
 
-    .line 10
     invoke-virtual {v2}, Lcom/google/ar/core/Plane;->getType()Lcom/google/ar/core/Plane$Type;
 
     move-result-object v4
@@ -303,7 +272,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_2
     invoke-virtual {v2}, Lcom/google/ar/core/Plane;->getType()Lcom/google/ar/core/Plane$Type;
 
@@ -315,7 +283,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_3
     invoke-virtual {v2}, Lcom/google/ar/core/Plane;->getType()Lcom/google/ar/core/Plane$Type;
 
@@ -327,7 +294,6 @@
 
     const/4 v5, 0x1
 
-    .line 13
     :goto_2
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -347,14 +313,12 @@
 
     iget-object v8, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->K:[F
 
-    .line 14
     invoke-virtual/range {v2 .. v8}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setARPlaneInfo(III[F[F[F)V
 
     move v3, v9
 
     goto :goto_0
 
-    .line 15
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -368,19 +332,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/library/d/b/c$c;->a()Ljava/util/List;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -399,21 +360,18 @@
     :goto_0
     if-ge v4, v1, :cond_1
 
-    .line 4
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v6
 
     check-cast v6, Lcom/meitu/library/d/b/i/a;
 
-    .line 5
     invoke-virtual {v6}, Lcom/meitu/library/d/b/i/a;->b()[F
 
     move-result-object v6
 
     mul-int/lit8 v7, v5, 0x3
 
-    .line 6
     aget v8, v6, v3
 
     aput v8, v2, v7
@@ -422,7 +380,6 @@
 
     const/4 v9, 0x1
 
-    .line 7
     aget v9, v6, v9
 
     aput v9, v2, v8
@@ -431,7 +388,6 @@
 
     add-int/2addr v7, v8
 
-    .line 8
     aget v6, v6, v8
 
     aput v6, v2, v7
@@ -442,7 +398,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -456,7 +411,6 @@
 
     invoke-virtual {p1, v1, v3, v2, v5}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setInstantPlacementInfo([FI[FI)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -471,7 +425,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object p2
@@ -482,12 +435,10 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -510,11 +461,9 @@
     :cond_1
     const/4 p3, 0x2
 
-    .line 4
     :goto_0
     invoke-virtual {p2, p3}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setDataSourceType(I)V
 
-    .line 5
     iget-boolean p2, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->f:Z
 
     if-nez p2, :cond_3
@@ -525,7 +474,6 @@
 
     if-nez p2, :cond_3
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->b:Lcom/commsource/camera/newrender/renderproxy/v/s;
 
     iget-object p3, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->g:Lcom/google/ar/core/TrackingState;
@@ -541,13 +489,11 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     iget-object p2, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->b:Lcom/commsource/camera/newrender/renderproxy/v/s;
 
     invoke-virtual {p2, v0}, Lcom/commsource/camera/newrender/renderproxy/v/s;->l(I)V
 
-    .line 8
     :goto_1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -563,7 +509,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object p3
@@ -574,7 +519,6 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/camera/d1/g/e;->c(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;)V
 
-    .line 10
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -590,7 +534,6 @@
 
     if-eqz p2, :cond_5
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object p3
@@ -599,7 +542,6 @@
 
     move-result-object p3
 
-    .line 12
     invoke-virtual {p2}, Lcom/commsource/camera/d1/g/b;->a()[F
 
     move-result-object v0
@@ -610,7 +552,6 @@
 
     invoke-virtual {p3, v0, p2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setAugmentedRealityMatrix([F[F)V
 
-    .line 13
     :cond_5
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -626,21 +567,18 @@
 
     if-eqz p2, :cond_6
 
-    .line 14
     invoke-virtual {p2}, Lcom/commsource/camera/d1/g/d;->a()Lcom/meitu/library/d/b/c$c;
 
     move-result-object p3
 
     if-eqz p3, :cond_6
 
-    .line 15
     invoke-virtual {p2}, Lcom/commsource/camera/d1/g/d;->a()Lcom/meitu/library/d/b/c$c;
 
     move-result-object p2
 
     invoke-direct {p0, p2}, Lcom/commsource/camera/newrender/renderproxy/v/t;->l2(Lcom/meitu/library/d/b/c$c;)V
 
-    .line 16
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -656,18 +594,15 @@
 
     if-eqz p2, :cond_7
 
-    .line 17
     invoke-virtual {p2}, Lcom/commsource/camera/d1/g/c;->a()Lcom/meitu/library/d/b/f$b;
 
     move-result-object p2
 
     invoke-direct {p0, p2}, Lcom/commsource/camera/newrender/renderproxy/v/t;->k2(Lcom/meitu/library/d/b/f$b;)V
 
-    .line 18
     :cond_7
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/v/t;->g2()V
 
-    .line 19
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -691,12 +626,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object p2
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v0
@@ -707,22 +640,18 @@
 
     const/16 v1, 0x1f
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
 
     move-result v0
 
     const-class v1, Lcom/commsource/camera/d1/g/b;
 
-    .line 4
     invoke-virtual {p2, v0, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->q(ZLjava/lang/Class;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object p2
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v0
@@ -733,22 +662,18 @@
 
     const/16 v1, 0x20
 
-    .line 7
     invoke-virtual {v0, v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
 
     move-result v0
 
     const-class v1, Lcom/commsource/camera/d1/g/c;
 
-    .line 8
     invoke-virtual {p2, v0, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->q(ZLjava/lang/Class;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object p2
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v0
@@ -759,17 +684,14 @@
 
     const/16 v1, 0x23
 
-    .line 11
     invoke-virtual {v0, v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
 
     move-result v0
 
     const-class v1, Lcom/commsource/camera/d1/g/d;
 
-    .line 12
     invoke-virtual {p2, v0, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->q(ZLjava/lang/Class;)V
 
-    .line 13
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -782,15 +704,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->a0()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->f:Z
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/newrender/renderproxy/v/t;->h2(Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -803,7 +722,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -816,7 +734,6 @@
 
     const/16 v2, 0x90
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -834,7 +751,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -847,7 +763,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->d:Lcom/commsource/camera/mvp/f/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -862,10 +777,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->f:Z
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -876,12 +789,10 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -900,18 +811,15 @@
     :cond_1
     iget-object v2, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->b:Lcom/commsource/camera/newrender/renderproxy/v/s;
 
-    .line 5
     :goto_0
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setCallbackObject(Lcom/meitu/mtlab/arkernelinterface/callback/ARKernelCallback;)V
 
     if-nez p1, :cond_2
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->b:Lcom/commsource/camera/newrender/renderproxy/v/s;
 
     invoke-virtual {p1}, Lcom/commsource/camera/newrender/renderproxy/v/s;->i()V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -925,10 +833,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->g:Lcom/google/ar/core/TrackingState;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -941,7 +847,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -952,10 +857,8 @@
 
     const/16 v2, 0xa
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->voidOperation(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -968,14 +871,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/t;->d2()Lcom/commsource/camera/param/MakeupParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/camera/param/MakeupParam;->getArCoreType()I
 
     move-result v0
@@ -984,7 +885,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->b:Lcom/commsource/camera/newrender/renderproxy/v/s;
 
     const/4 v1, 0x1
@@ -994,7 +894,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -1007,15 +906,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/t;->b:Lcom/commsource/camera/newrender/renderproxy/v/s;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/v/s;->i()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

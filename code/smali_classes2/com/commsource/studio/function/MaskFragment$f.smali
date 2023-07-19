@@ -67,19 +67,16 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$f;->a:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/MaskFragment;->C1()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 3
     const-class v3, Lcom/commsource/studio/function/MaskFragment$MaskItemViewHolder;
 
     invoke-virtual {v2, p1, v3}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
@@ -90,10 +87,8 @@
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/MaskFragment$f;->a:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -110,14 +105,12 @@
 
     move-result p1
 
-    .line 6
     sget-object v1, Lcom/commsource/studio/i0;->h:Lcom/commsource/studio/i0$a;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/i0$a;->a(I)I
 
     move-result p1
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$f;->a:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/MaskFragment;->E1()Lcom/commsource/studio/function/MaskFragment$b;
@@ -183,7 +176,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/MaskFragment$f;->a:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/MaskFragment;->E1()Lcom/commsource/studio/function/MaskFragment$b;
@@ -196,7 +188,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/camera/xcamera/cover/e;->b(Z)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/function/MaskFragment$f;->a:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/MaskFragment;->E1()Lcom/commsource/studio/function/MaskFragment$b;
@@ -209,7 +200,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 10
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -223,7 +213,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/MaskFragment$f;->a(Ljava/util/List;)V

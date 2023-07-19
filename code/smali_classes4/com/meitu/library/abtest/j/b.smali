@@ -29,14 +29,12 @@
 .method constructor <init>(Lcom/meitu/library/abtest/a;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/library/abtest/a;->l()Lcom/meitu/library/abtest/l/i;
 
     move-result-object v0
 
     invoke-direct {p0, v0}, Lcom/meitu/library/abtest/j/a;-><init>(Lcom/meitu/library/abtest/l/i;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/library/abtest/a;->g()Lcom/meitu/library/abtest/l/i;
 
     move-result-object p1
@@ -57,15 +55,12 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/meitu/library/abtest/j/a;->e()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/abtest/j/b;->A:Lcom/meitu/library/abtest/l/i;
 
     if-eqz v2, :cond_0
 
-    .line 3
     :try_start_0
     new-instance v3, Lorg/json/JSONObject;
 
@@ -77,12 +72,10 @@
 
     const-string v4, "PREFS_VERSION"
 
-    .line 4
     invoke-virtual {v3, v4}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
 
     move-result-wide v4
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/library/abtest/j/a;->getVersion()J
 
     move-result-wide v6
@@ -95,7 +88,6 @@
 
     const/4 v5, 0x0
 
-    .line 6
     invoke-virtual {p0, v3, v4, v5}, Lcom/meitu/library/abtest/j/a;->j(Lorg/json/JSONObject;ZZ)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_1
@@ -103,7 +95,6 @@
 
     goto :goto_0
 
-    .line 7
     :catch_0
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -127,7 +118,6 @@
 
     goto :goto_0
 
-    .line 8
     :catch_1
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -149,7 +139,6 @@
 
     invoke-static {v0, v2}, Lcom/meitu/library/abtest/g/a;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     :cond_0
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -164,15 +153,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/meitu/library/abtest/j/a;->k()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/abtest/j/b;->A:Lcom/meitu/library/abtest/l/i;
 
     if-eqz v1, :cond_0
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lcom/meitu/library/abtest/j/a;->w:Lcom/meitu/library/abtest/l/i;
 
@@ -182,7 +168,6 @@
 
     goto :goto_0
 
-    .line 4
     :catch_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -206,7 +191,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/abtest/g/a;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

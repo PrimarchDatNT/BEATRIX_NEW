@@ -21,10 +21,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/filterglextension/MLabStrokeTool;->j()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -33,23 +31,18 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     const/16 v0, 0x3e8
 
-    .line 3
     iput v0, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->b:I
 
-    .line 4
     invoke-static {}, Lcom/meitu/filterglextension/MLabStrokeTool;->j()V
 
-    .line 5
     :try_start_0
     invoke-direct {p0}, Lcom/meitu/filterglextension/MLabStrokeTool;->nCreate()J
 
@@ -59,7 +52,6 @@
 
     const/16 v0, 0xc8
 
-    .line 6
     iput v0, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->b:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -71,7 +63,6 @@
 
     const-string v1, "Failed to nCreate."
 
-    .line 7
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_0
@@ -81,23 +72,18 @@
 .method public constructor <init>(I)V
     .locals 2
 
-    .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 9
     iput-wide v0, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     const/16 v0, 0x3e8
 
-    .line 10
     iput v0, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->b:I
 
-    .line 11
     invoke-static {}, Lcom/meitu/filterglextension/MLabStrokeTool;->j()V
 
-    .line 12
     :try_start_0
     invoke-direct {p0}, Lcom/meitu/filterglextension/MLabStrokeTool;->nCreate()J
 
@@ -105,12 +91,10 @@
 
     iput-wide v0, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
-    .line 13
     iget v0, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->b:I
 
     if-le v0, p1, :cond_0
 
-    .line 14
     iput p1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->b:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -122,7 +106,6 @@
 
     const-string v0, "Failed to nCreate."
 
-    .line 15
     invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
@@ -140,7 +123,6 @@
     :try_start_0
     const-string v1, "gnustl_shared"
 
-    .line 1
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -150,14 +132,12 @@
     :catchall_0
     move-exception v1
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_0
     :try_start_1
     const-string v1, "c++_shared"
 
-    .line 3
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -167,14 +147,12 @@
     :catchall_1
     move-exception v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_1
     :try_start_2
     const-string v1, "mttypes"
 
-    .line 5
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
@@ -184,14 +162,12 @@
     :catchall_2
     move-exception v1
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_2
     :try_start_3
     const-string v1, "android-skia"
 
-    .line 7
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_3
@@ -201,14 +177,12 @@
     :catchall_3
     move-exception v1
 
-    .line 8
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_3
     :try_start_4
     const-string v1, "BeautyPlusEffectTools"
 
-    .line 9
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_4
@@ -218,14 +192,12 @@
     :catchall_4
     move-exception v1
 
-    .line 10
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_4
     :try_start_5
     const-string v1, "FilterGLExtension"
 
-    .line 11
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_5
@@ -235,10 +207,8 @@
     :catchall_5
     move-exception v1
 
-    .line 12
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 13
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -329,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nGetDistance(J)I
@@ -350,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nGetDrawLen(J)F
@@ -369,7 +337,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nGetResultTexture(J)J
@@ -388,7 +355,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nGetSize(J)F
@@ -407,7 +373,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nGetSkipLen(J)F
@@ -426,7 +391,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nGetStrokeSizeH(J)F
@@ -452,13 +416,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/filterglextension/MLabStrokeTool;->m()V
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -471,7 +432,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nGetStrokeSizeW(J)F
@@ -492,7 +452,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nGetType(J)I
@@ -513,7 +472,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nIsEnableInnerContours(J)Z
@@ -532,7 +490,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nGLInitialize(J)Z
@@ -551,12 +508,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nGLRelease(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -569,7 +524,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     const-wide/16 v3, 0x0
@@ -578,13 +532,10 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nFinalize(J)V
 
-    .line 3
     iput-wide v3, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -598,7 +549,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/filterglextension/MLabStrokeTool;->nRender(J)Z
@@ -617,7 +567,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Math;->abs(I)I
 
     move-result v1
@@ -626,18 +575,15 @@
 
     if-le v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/filterglextension/MLabStrokeTool;->nSetDistance(JI)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -658,18 +604,15 @@
 
     if-gez v5, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/filterglextension/MLabStrokeTool;->nSetDrawLen(JF)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -682,12 +625,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/filterglextension/MLabStrokeTool;->nSetEnableInnerContours(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -700,7 +641,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->b:I
 
     int-to-float v1, v1
@@ -709,7 +649,6 @@
 
     if-lez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -725,7 +664,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {p3}, Ljava/lang/Math;->abs(I)I
 
@@ -735,12 +673,10 @@
 
     if-le v1, v2, :cond_2
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     iget-wide v4, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
@@ -754,12 +690,10 @@
 
     invoke-direct/range {v3 .. v8}, Lcom/meitu/filterglextension/MLabStrokeTool;->nSetLineParams(JFII)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -774,7 +708,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p1
 
     const/4 v2, 0x2
@@ -791,18 +724,15 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/filterglextension/MLabStrokeTool;->nSetLinePatterns(J[F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -819,10 +749,8 @@
 
     const/16 v1, 0x10
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/meitu/filterglextension/MLabStrokeTool;->u(Landroid/graphics/Bitmap;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -845,13 +773,11 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p1
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -866,15 +792,12 @@
 
     invoke-direct/range {v1 .. v7}, Lcom/meitu/filterglextension/MLabStrokeTool;->nSetOriginalImageRgba(JJII)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -889,12 +812,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p1
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -903,10 +824,8 @@
 
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/meitu/filterglextension/MLabStrokeTool;->nSetPenImageRgba(JJ)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -919,7 +838,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->b:I
 
     int-to-float v1, v1
@@ -928,18 +846,15 @@
 
     if-lez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/filterglextension/MLabStrokeTool;->nSetSize(JF)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -960,18 +875,15 @@
 
     if-gez v5, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/filterglextension/MLabStrokeTool;->nSetSkipLen(JF)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -984,12 +896,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p1
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -998,10 +908,8 @@
 
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/meitu/filterglextension/MLabStrokeTool;->nSetTextureImageRgba(JJ)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1024,18 +932,15 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-wide v1, p0, Lcom/meitu/filterglextension/MLabStrokeTool;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/filterglextension/MLabStrokeTool;->nSetType(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

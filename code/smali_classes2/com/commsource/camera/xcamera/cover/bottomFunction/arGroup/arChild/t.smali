@@ -50,14 +50,12 @@
 
     const/high16 v1, 0x40e00000    # 7.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
 
     sput v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/t;->J:I
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v1
@@ -94,10 +92,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_ar_function:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
@@ -110,7 +106,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -120,17 +115,14 @@
 
     invoke-static {p2, v0}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 4
     iget-object p2, p1, Lcom/commsource/beautyplus/f0/yc;->d:Landroid/widget/FrameLayout;
 
     invoke-static {p2, v0}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 5
     iget-object p2, p1, Lcom/commsource/beautyplus/f0/yc;->a:Lcom/commsource/widget/PressImageView;
 
     invoke-static {p2, v0}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 6
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/yc;->a:Lcom/commsource/widget/PressImageView;
 
     invoke-static {p1, v0}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
@@ -171,10 +163,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/t;->p:Lcom/commsource/beautyplus/f0/yc;
 
     if-nez p1, :cond_0
@@ -204,14 +194,12 @@
 
     if-eqz p3, :cond_1
 
-    .line 3
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result p3
 
     if-eqz p3, :cond_2
 
-    .line 4
     :cond_1
     iget-object p3, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
@@ -219,7 +207,6 @@
 
     move-result-object p3
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v1
@@ -238,19 +225,16 @@
 
     sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_placeholder:I
 
-    .line 6
     invoke-virtual {p3, v1}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object p3
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/t;->p:Lcom/commsource/beautyplus/f0/yc;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/yc;->a:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {p3, v1}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 8
     :cond_2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -274,7 +258,6 @@
 
     if-ne p3, v3, :cond_3
 
-    .line 9
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/t;->p:Lcom/commsource/beautyplus/f0/yc;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/yc;->b:Landroid/widget/ImageView;
@@ -283,7 +266,6 @@
 
     invoke-virtual {p3, v5}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 10
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/t;->p:Lcom/commsource/beautyplus/f0/yc;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/yc;->b:Landroid/widget/ImageView;
@@ -294,7 +276,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/t;->p:Lcom/commsource/beautyplus/f0/yc;
 
@@ -304,7 +285,6 @@
 
     invoke-virtual {p3, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 12
     :goto_0
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -322,7 +302,6 @@
 
     if-ne p3, v2, :cond_5
 
-    .line 13
     invoke-static {}, Lcom/commsource/camera/montage/z;->e()Z
 
     move-result p3
@@ -331,7 +310,6 @@
 
     if-eqz p3, :cond_4
 
-    .line 14
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/t;->p:Lcom/commsource/beautyplus/f0/yc;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/yc;->c:Landroid/widget/ImageView;
@@ -340,7 +318,6 @@
 
     invoke-virtual {p3, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 15
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/t;->p:Lcom/commsource/beautyplus/f0/yc;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/yc;->c:Landroid/widget/ImageView;
@@ -351,7 +328,6 @@
 
     goto :goto_1
 
-    .line 16
     :cond_4
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/t;->p:Lcom/commsource/beautyplus/f0/yc;
 
@@ -361,7 +337,6 @@
 
     invoke-virtual {p3, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 17
     :cond_5
     :goto_1
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -378,7 +353,6 @@
 
     if-ne p1, v3, :cond_6
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/t;->p:Lcom/commsource/beautyplus/f0/yc;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/yc;->a:Lcom/commsource/widget/PressImageView;
@@ -389,7 +363,6 @@
 
     goto :goto_2
 
-    .line 19
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/t;->p:Lcom/commsource/beautyplus/f0/yc;
 
@@ -397,7 +370,6 @@
 
     invoke-virtual {p1, v4, v4, v4, v4}, Landroid/widget/ImageView;->setPadding(IIII)V
 
-    .line 20
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

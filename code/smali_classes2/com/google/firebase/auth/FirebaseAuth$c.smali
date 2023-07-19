@@ -28,7 +28,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/FirebaseAuth;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/FirebaseAuth$c;->b:Lcom/google/firebase/auth/FirebaseAuth;
 
     invoke-direct {p0, p1}, Lcom/google/firebase/auth/FirebaseAuth$d;-><init>(Lcom/google/firebase/auth/FirebaseAuth;)V
@@ -41,7 +40,6 @@
 .method public final x0(Lcom/google/android/gms/common/api/Status;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->z()I
 
     move-result v0
@@ -50,7 +48,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->z()I
 
     move-result v0
@@ -59,7 +56,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->z()I
 
     move-result p1
@@ -68,7 +64,6 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/google/firebase/auth/FirebaseAuth$c;->b:Lcom/google/firebase/auth/FirebaseAuth;
 

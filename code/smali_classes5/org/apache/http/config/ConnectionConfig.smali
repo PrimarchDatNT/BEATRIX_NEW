@@ -39,7 +39,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/config/ConnectionConfig$Builder;
 
     invoke-direct {v0}, Lorg/apache/http/config/ConnectionConfig$Builder;-><init>()V
@@ -56,25 +55,18 @@
 .method constructor <init>(IILjava/nio/charset/Charset;Ljava/nio/charset/CodingErrorAction;Ljava/nio/charset/CodingErrorAction;Lorg/apache/http/config/MessageConstraints;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lorg/apache/http/config/ConnectionConfig;->bufferSize:I
 
-    .line 3
     iput p2, p0, Lorg/apache/http/config/ConnectionConfig;->fragmentSizeHint:I
 
-    .line 4
     iput-object p3, p0, Lorg/apache/http/config/ConnectionConfig;->charset:Ljava/nio/charset/Charset;
 
-    .line 5
     iput-object p4, p0, Lorg/apache/http/config/ConnectionConfig;->malformedInputAction:Ljava/nio/charset/CodingErrorAction;
 
-    .line 6
     iput-object p5, p0, Lorg/apache/http/config/ConnectionConfig;->unmappableInputAction:Ljava/nio/charset/CodingErrorAction;
 
-    .line 7
     iput-object p6, p0, Lorg/apache/http/config/ConnectionConfig;->messageConstraints:Lorg/apache/http/config/MessageConstraints;
 
     return-void
@@ -85,10 +77,8 @@
 
     const-string v0, "Connection config"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lorg/apache/http/config/ConnectionConfig$Builder;
 
     invoke-direct {v0}, Lorg/apache/http/config/ConnectionConfig$Builder;-><init>()V
@@ -131,7 +121,6 @@
 .method public static custom()Lorg/apache/http/config/ConnectionConfig$Builder;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/config/ConnectionConfig$Builder;
 
     invoke-direct {v0}, Lorg/apache/http/config/ConnectionConfig$Builder;-><init>()V
@@ -149,7 +138,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/config/ConnectionConfig;->clone()Lorg/apache/http/config/ConnectionConfig;
 
     move-result-object v0
@@ -165,7 +153,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
@@ -178,7 +165,6 @@
 .method public getBufferSize()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/http/config/ConnectionConfig;->bufferSize:I
 
     return v0
@@ -187,7 +173,6 @@
 .method public getCharset()Ljava/nio/charset/Charset;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/config/ConnectionConfig;->charset:Ljava/nio/charset/Charset;
 
     return-object v0
@@ -196,7 +181,6 @@
 .method public getFragmentSizeHint()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/http/config/ConnectionConfig;->fragmentSizeHint:I
 
     return v0
@@ -205,7 +189,6 @@
 .method public getMalformedInputAction()Ljava/nio/charset/CodingErrorAction;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/config/ConnectionConfig;->malformedInputAction:Ljava/nio/charset/CodingErrorAction;
 
     return-object v0
@@ -214,7 +197,6 @@
 .method public getMessageConstraints()Lorg/apache/http/config/MessageConstraints;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/config/ConnectionConfig;->messageConstraints:Lorg/apache/http/config/MessageConstraints;
 
     return-object v0
@@ -223,7 +205,6 @@
 .method public getUnmappableInputAction()Ljava/nio/charset/CodingErrorAction;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/config/ConnectionConfig;->unmappableInputAction:Ljava/nio/charset/CodingErrorAction;
 
     return-object v0
@@ -232,14 +213,12 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v1, "[bufferSize="
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget v1, p0, Lorg/apache/http/config/ConnectionConfig;->bufferSize:I
@@ -290,7 +269,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0

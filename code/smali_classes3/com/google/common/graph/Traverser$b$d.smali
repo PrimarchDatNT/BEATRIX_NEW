@@ -54,26 +54,22 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/Traverser$b$d;->c:Lcom/google/common/graph/Traverser$b;
 
     invoke-direct {p0}, Lcom/google/common/collect/l2;-><init>()V
 
-    .line 2
     new-instance p1, Ljava/util/ArrayDeque;
 
     invoke-direct {p1}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object p1, p0, Lcom/google/common/graph/Traverser$b$d;->a:Ljava/util/Queue;
 
-    .line 3
     new-instance p1, Ljava/util/HashSet;
 
     invoke-direct {p1}, Ljava/util/HashSet;-><init>()V
 
     iput-object p1, p0, Lcom/google/common/graph/Traverser$b$d;->b:Ljava/util/Set;
 
-    .line 4
     invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -90,7 +86,6 @@
 
     move-result-object p2
 
-    .line 5
     iget-object v0, p0, Lcom/google/common/graph/Traverser$b$d;->b:Ljava/util/Set;
 
     invoke-interface {v0, p2}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
@@ -99,7 +94,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 6
     iget-object v0, p0, Lcom/google/common/graph/Traverser$b$d;->a:Ljava/util/Queue;
 
     invoke-interface {v0, p2}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
@@ -115,7 +109,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/Traverser$b$d;->a:Ljava/util/Queue;
 
     invoke-interface {v0}, Ljava/util/Queue;->isEmpty()Z
@@ -135,14 +128,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/Traverser$b$d;->a:Ljava/util/Queue;
 
     invoke-interface {v0}, Ljava/util/Queue;->remove()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/graph/Traverser$b$d;->c:Lcom/google/common/graph/Traverser$b;
 
     invoke-static {v1}, Lcom/google/common/graph/Traverser$b;->i(Lcom/google/common/graph/Traverser$b;)Lcom/google/common/graph/n0;
@@ -169,7 +160,6 @@
 
     move-result-object v2
 
-    .line 3
     iget-object v3, p0, Lcom/google/common/graph/Traverser$b$d;->b:Ljava/util/Set;
 
     invoke-interface {v3, v2}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
@@ -178,7 +168,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/google/common/graph/Traverser$b$d;->a:Ljava/util/Queue;
 
     invoke-interface {v3, v2}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z

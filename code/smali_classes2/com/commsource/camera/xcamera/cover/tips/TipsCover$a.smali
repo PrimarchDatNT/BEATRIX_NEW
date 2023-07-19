@@ -60,7 +60,6 @@
 
     goto :goto_1
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -68,7 +67,6 @@
 
     if-nez p1, :cond_3
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$a;->a:Lcom/commsource/camera/xcamera/cover/tips/TipsCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -81,7 +79,6 @@
 
     iget-object v1, p1, Lcom/commsource/beautyplus/f0/u4;->f:Lcom/commsource/comic/widget/StrokeTextView;
 
-    .line 3
     :cond_1
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
@@ -108,13 +105,11 @@
 
     move-result p1
 
-    .line 4
     :goto_0
     invoke-static {v1, p1}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
     goto :goto_3
 
-    .line 5
     :cond_3
     :goto_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$a;->a:Lcom/commsource/camera/xcamera/cover/tips/TipsCover;
@@ -129,7 +124,6 @@
 
     iget-object v1, p1, Lcom/commsource/beautyplus/f0/u4;->f:Lcom/commsource/comic/widget/StrokeTextView;
 
-    .line 6
     :cond_4
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
@@ -156,11 +150,9 @@
 
     move-result p1
 
-    .line 7
     :goto_2
     invoke-static {v1, p1}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 8
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -174,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$a;->a(Ljava/lang/Integer;)V

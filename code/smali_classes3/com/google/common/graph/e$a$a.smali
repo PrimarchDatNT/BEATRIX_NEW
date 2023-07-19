@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/google/common/graph/e$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/e$a$a;->a:Lcom/google/common/graph/e$a;
 
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
@@ -47,7 +46,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/graph/m;
 
     const/4 v1, 0x0
@@ -56,11 +54,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/common/graph/m;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/graph/e$a$a;->a:Lcom/google/common/graph/e$a;
 
     invoke-virtual {v0, p1}, Lcom/google/common/graph/a;->O(Lcom/google/common/graph/m;)Z
@@ -71,7 +67,6 @@
 
     iget-object v0, p0, Lcom/google/common/graph/e$a$a;->a:Lcom/google/common/graph/e$a;
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/common/graph/e$a;->m()Ljava/util/Set;
 
     move-result-object v0
@@ -88,7 +83,6 @@
 
     iget-object v0, p0, Lcom/google/common/graph/e$a$a;->a:Lcom/google/common/graph/e$a;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/common/graph/m;->h()Ljava/lang/Object;
 
     move-result-object v2
@@ -124,12 +118,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/e$a$a;->a:Lcom/google/common/graph/e$a;
 
     iget-object v0, v0, Lcom/google/common/graph/e$a;->a:Lcom/google/common/graph/e;
 
-    .line 2
     invoke-interface {v0}, Lcom/google/common/graph/e0;->c()Ljava/util/Set;
 
     move-result-object v0
@@ -142,7 +134,6 @@
 
     invoke-direct {v1, p0}, Lcom/google/common/graph/e$a$a$a;-><init>(Lcom/google/common/graph/e$a$a;)V
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/common/collect/Iterators;->c0(Ljava/util/Iterator;Lcom/google/common/base/n;)Ljava/util/Iterator;
 
     move-result-object v0
@@ -153,7 +144,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/e$a$a;->a:Lcom/google/common/graph/e$a;
 
     iget-object v0, v0, Lcom/google/common/graph/e$a;->a:Lcom/google/common/graph/e;

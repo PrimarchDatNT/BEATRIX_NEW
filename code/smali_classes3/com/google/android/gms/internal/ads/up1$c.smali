@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/up1$b;-><init>(Lcom/google/android/gms/internal/ads/tp1;)V
 
     return-void
@@ -29,7 +28,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/tp1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/up1$c;-><init>()V
 
     return-void
@@ -52,10 +50,8 @@
         }
     .end annotation
 
-    .line 1
     monitor-enter p1
 
-    .line 2
     :try_start_0
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/up1;->C(Lcom/google/android/gms/internal/ads/up1;)Ljava/util/Set;
 
@@ -63,10 +59,8 @@
 
     if-nez p2, :cond_0
 
-    .line 3
     invoke-static {p1, p3}, Lcom/google/android/gms/internal/ads/up1;->D(Lcom/google/android/gms/internal/ads/up1;Ljava/util/Set;)Ljava/util/Set;
 
-    .line 4
     :cond_0
     monitor-exit p1
 
@@ -85,10 +79,8 @@
 .method final b(Lcom/google/android/gms/internal/ads/up1;)I
     .locals 1
 
-    .line 1
     monitor-enter p1
 
-    .line 2
     :try_start_0
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/up1;->H(Lcom/google/android/gms/internal/ads/up1;)I
 
@@ -101,7 +93,6 @@
     :catchall_0
     move-exception v0
 
-    .line 3
     monitor-exit p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

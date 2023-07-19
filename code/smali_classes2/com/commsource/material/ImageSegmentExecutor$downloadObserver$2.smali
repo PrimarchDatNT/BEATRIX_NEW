@@ -81,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/material/download/b/a;
 
     invoke-direct {v1}, Lcom/commsource/material/download/b/a;-><init>()V
@@ -98,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/material/ImageSegmentExecutor$downloadObserver$2;->invoke()Lcom/commsource/material/download/b/a;
 
     move-result-object v1

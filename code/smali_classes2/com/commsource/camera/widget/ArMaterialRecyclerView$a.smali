@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/camera/widget/ArMaterialRecyclerView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/widget/ArMaterialRecyclerView$a;->a:Lcom/commsource/camera/widget/ArMaterialRecyclerView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/widget/ArMaterialRecyclerView$a;->b(ILcom/meitu/template/bean/ArMaterial;)Z
@@ -74,7 +72,6 @@
 
     if-le p1, v0, :cond_1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/widget/ArMaterialRecyclerView$a;->a:Lcom/commsource/camera/widget/ArMaterialRecyclerView;
 
     invoke-static {v0}, Lcom/commsource/camera/widget/ArMaterialRecyclerView;->a(Lcom/commsource/camera/widget/ArMaterialRecyclerView;)Ljava/util/List;
@@ -87,7 +84,6 @@
 
     if-ge p1, v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/widget/ArMaterialRecyclerView$a;->a:Lcom/commsource/camera/widget/ArMaterialRecyclerView;
 
     invoke-static {v0}, Lcom/commsource/camera/widget/ArMaterialRecyclerView;->a(Lcom/commsource/camera/widget/ArMaterialRecyclerView;)Ljava/util/List;
@@ -104,7 +100,6 @@
 
     move-result v0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/widget/ArMaterialRecyclerView$a;->a:Lcom/commsource/camera/widget/ArMaterialRecyclerView;
 
     invoke-static {v1}, Lcom/commsource/camera/widget/ArMaterialRecyclerView;->b(Lcom/commsource/camera/widget/ArMaterialRecyclerView;)Landroid/util/SparseBooleanArray;
@@ -117,7 +112,6 @@
 
     xor-int/lit8 v1, v1, 0x1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/widget/ArMaterialRecyclerView$a;->a:Lcom/commsource/camera/widget/ArMaterialRecyclerView;
 
     invoke-static {v2}, Lcom/commsource/camera/widget/ArMaterialRecyclerView;->b(Lcom/commsource/camera/widget/ArMaterialRecyclerView;)Landroid/util/SparseBooleanArray;
@@ -126,7 +120,6 @@
 
     invoke-virtual {v2, v0, v1}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/camera/widget/ArMaterialRecyclerView$a;->a:Lcom/commsource/camera/widget/ArMaterialRecyclerView;
 
     if-eqz v1, :cond_0
@@ -149,7 +142,6 @@
     :goto_0
     invoke-static {v0, v1}, Lcom/commsource/camera/widget/ArMaterialRecyclerView;->d(Lcom/commsource/camera/widget/ArMaterialRecyclerView;I)I
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/camera/widget/ArMaterialRecyclerView$a;->a:Lcom/commsource/camera/widget/ArMaterialRecyclerView;
 
     invoke-static {v0}, Lcom/commsource/camera/widget/ArMaterialRecyclerView;->e(Lcom/commsource/camera/widget/ArMaterialRecyclerView;)Lcom/commsource/widget/h1/e;
@@ -158,7 +150,6 @@
 
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemChanged(I)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/widget/ArMaterialRecyclerView$a;->a:Lcom/commsource/camera/widget/ArMaterialRecyclerView;
 
     invoke-static {p1}, Lcom/commsource/camera/widget/ArMaterialRecyclerView;->f(Lcom/commsource/camera/widget/ArMaterialRecyclerView;)Lcom/commsource/camera/widget/ArMaterialRecyclerView$b;
@@ -167,7 +158,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/widget/ArMaterialRecyclerView$a;->a:Lcom/commsource/camera/widget/ArMaterialRecyclerView;
 
     invoke-static {p1}, Lcom/commsource/camera/widget/ArMaterialRecyclerView;->f(Lcom/commsource/camera/widget/ArMaterialRecyclerView;)Lcom/commsource/camera/widget/ArMaterialRecyclerView$b;
@@ -185,7 +175,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 9
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

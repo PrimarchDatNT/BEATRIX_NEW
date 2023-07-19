@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/y/e0;
 
     invoke-direct {v0}, Lcom/airbnb/lottie/y/e0;-><init>()V
@@ -42,7 +41,6 @@
 
     const-string v3, "o"
 
-    .line 2
     filled-new-array {v0, v1, v2, v3}, [Ljava/lang/String;
 
     move-result-object v0
@@ -59,7 +57,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -75,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/airbnb/lottie/y/e0;->b(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Lcom/airbnb/lottie/model/content/h;
 
     move-result-object p1
@@ -91,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     move-result-object v0
@@ -100,10 +95,8 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b()V
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->c()V
 
@@ -117,7 +110,6 @@
 
     const/4 v4, 0x0
 
-    .line 4
     :goto_0
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -127,7 +119,6 @@
 
     if-eqz v5, :cond_5
 
-    .line 5
     sget-object v5, Lcom/airbnb/lottie/y/e0;->b:Lcom/airbnb/lottie/parser/moshi/JsonReader$a;
 
     invoke-virtual {p1, v5}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->o(Lcom/airbnb/lottie/parser/moshi/JsonReader$a;)I
@@ -146,15 +137,12 @@
 
     if-eq v5, v6, :cond_1
 
-    .line 6
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->p()V
 
-    .line 7
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {p1, p2}, Lcom/airbnb/lottie/y/p;->f(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Ljava/util/List;
 
@@ -162,7 +150,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-static {p1, p2}, Lcom/airbnb/lottie/y/p;->f(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Ljava/util/List;
 
@@ -170,7 +157,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-static {p1, p2}, Lcom/airbnb/lottie/y/p;->f(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Ljava/util/List;
 
@@ -178,7 +164,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_4
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->g()Z
 
@@ -186,11 +171,9 @@
 
     goto :goto_0
 
-    .line 12
     :cond_5
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->e()V
 
-    .line 13
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     move-result-object p2
@@ -199,7 +182,6 @@
 
     if-ne p2, v5, :cond_6
 
-    .line 14
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->d()V
 
     :cond_6
@@ -209,14 +191,12 @@
 
     if-eqz v3, :cond_a
 
-    .line 15
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result p1
 
     if-eqz p1, :cond_7
 
-    .line 16
     new-instance p1, Lcom/airbnb/lottie/model/content/h;
 
     new-instance p2, Landroid/graphics/PointF;
@@ -231,20 +211,17 @@
 
     return-object p1
 
-    .line 17
     :cond_7
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result p1
 
-    .line 18
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Landroid/graphics/PointF;
 
-    .line 19
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5, p1}, Ljava/util/ArrayList;-><init>(I)V
@@ -254,7 +231,6 @@
     :goto_1
     if-ge v7, p1, :cond_8
 
-    .line 20
     invoke-interface {v0, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -263,38 +239,32 @@
 
     add-int/lit8 v9, v7, -0x1
 
-    .line 21
     invoke-interface {v0, v9}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v10
 
     check-cast v10, Landroid/graphics/PointF;
 
-    .line 22
     invoke-interface {v3, v9}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v9
 
     check-cast v9, Landroid/graphics/PointF;
 
-    .line 23
     invoke-interface {v2, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v11
 
     check-cast v11, Landroid/graphics/PointF;
 
-    .line 24
     invoke-static {v10, v9}, Lcom/airbnb/lottie/z/g;->a(Landroid/graphics/PointF;Landroid/graphics/PointF;)Landroid/graphics/PointF;
 
     move-result-object v9
 
-    .line 25
     invoke-static {v8, v11}, Lcom/airbnb/lottie/z/g;->a(Landroid/graphics/PointF;Landroid/graphics/PointF;)Landroid/graphics/PointF;
 
     move-result-object v10
 
-    .line 26
     new-instance v11, Lcom/airbnb/lottie/model/a;
 
     invoke-direct {v11, v9, v10, v8}, Lcom/airbnb/lottie/model/a;-><init>(Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;)V
@@ -308,7 +278,6 @@
     :cond_8
     if-eqz v4, :cond_9
 
-    .line 27
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v7
@@ -317,45 +286,38 @@
 
     sub-int/2addr p1, v6
 
-    .line 28
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroid/graphics/PointF;
 
-    .line 29
     invoke-interface {v3, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/graphics/PointF;
 
-    .line 30
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroid/graphics/PointF;
 
-    .line 31
     invoke-static {v0, p1}, Lcom/airbnb/lottie/z/g;->a(Landroid/graphics/PointF;Landroid/graphics/PointF;)Landroid/graphics/PointF;
 
     move-result-object p1
 
-    .line 32
     invoke-static {v7, v1}, Lcom/airbnb/lottie/z/g;->a(Landroid/graphics/PointF;Landroid/graphics/PointF;)Landroid/graphics/PointF;
 
     move-result-object v0
 
-    .line 33
     new-instance v1, Lcom/airbnb/lottie/model/a;
 
     invoke-direct {v1, p1, v0, v7}, Lcom/airbnb/lottie/model/a;-><init>(Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;)V
 
     invoke-interface {v5, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 34
     :cond_9
     new-instance p1, Lcom/airbnb/lottie/model/content/h;
 
@@ -363,7 +325,6 @@
 
     return-object p1
 
-    .line 35
     :cond_a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

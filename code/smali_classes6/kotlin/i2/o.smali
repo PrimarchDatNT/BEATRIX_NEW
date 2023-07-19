@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
 .method public final b()Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/i2/o;->a()D
 
     move-result-wide v0
@@ -46,7 +44,6 @@
 .method public final c()Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/i2/o;->a()D
 
     move-result-wide v0
@@ -65,7 +62,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcotlin/i2/d;->v0(D)D
 
     move-result-wide p1
@@ -82,7 +78,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/i2/c;
 
     const/4 v1, 0x0

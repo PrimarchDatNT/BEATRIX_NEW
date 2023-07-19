@@ -74,13 +74,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/remote/componets/a;->a:Ljava/lang/Object;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/remote/componets/a;->b:Lcom/meitu/remote/componets/a$c;
 
     return-void
@@ -103,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/remote/componets/a;
 
     new-instance v2, Lcom/meitu/remote/componets/a$b;
@@ -140,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/componets/a;->b:Lcom/meitu/remote/componets/a$c;
 
     iget-object v2, p0, Lcom/meitu/remote/componets/a;->a:Ljava/lang/Object;

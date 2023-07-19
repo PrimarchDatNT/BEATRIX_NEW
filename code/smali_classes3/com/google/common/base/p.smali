@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -49,7 +48,6 @@
     :cond_0
     const-string p0, "Both parameters are null"
 
-    .line 1
     invoke-static {p1, p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     return-object p1
@@ -66,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/base/p$b;
 
     invoke-virtual {p0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -83,7 +80,6 @@
 .method public static c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/base/p$b;
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -104,7 +100,6 @@
 .method public static d(Ljava/lang/String;)Lcom/google/common/base/p$b;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/base/p$b;
 
     const/4 v1, 0x0

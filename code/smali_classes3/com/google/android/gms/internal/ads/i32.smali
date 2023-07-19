@@ -23,12 +23,10 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/zzeie;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/i32;->p:Lcom/google/android/gms/internal/ads/zzeie;
 
     invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/i32;->a()V
 
     return-void
@@ -37,7 +35,6 @@
 .method private final a()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/f32;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/i32;->p:Lcom/google/android/gms/internal/ads/zzeie;
@@ -48,7 +45,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/i32;->a:Lcom/google/android/gms/internal/ads/f32;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/f32;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -57,7 +53,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/i32;->b:Lcom/google/android/gms/internal/ads/zzeey;
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzeer;->size()I
 
     move-result v0
@@ -66,10 +61,8 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput v0, p0, Lcom/google/android/gms/internal/ads/i32;->d:I
 
-    .line 5
     iput v0, p0, Lcom/google/android/gms/internal/ads/i32;->f:I
 
     return-void
@@ -78,7 +71,6 @@
 .method private final b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/i32;->b:Lcom/google/android/gms/internal/ads/zzeey;
 
     if-eqz v0, :cond_1
@@ -89,7 +81,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 2
     iget v0, p0, Lcom/google/android/gms/internal/ads/i32;->f:I
 
     add-int/2addr v0, v1
@@ -98,10 +89,8 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput v0, p0, Lcom/google/android/gms/internal/ads/i32;->d:I
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/i32;->a:Lcom/google/android/gms/internal/ads/f32;
 
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/f32;->hasNext()Z
@@ -110,7 +99,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/i32;->a:Lcom/google/android/gms/internal/ads/f32;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/f32;->next()Ljava/lang/Object;
@@ -121,7 +109,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/i32;->b:Lcom/google/android/gms/internal/ads/zzeey;
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzeer;->size()I
 
     move-result v0
@@ -133,10 +120,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 7
     iput-object v1, p0, Lcom/google/android/gms/internal/ads/i32;->b:Lcom/google/android/gms/internal/ads/zzeey;
 
-    .line 8
     iput v0, p0, Lcom/google/android/gms/internal/ads/i32;->c:I
 
     :cond_1
@@ -151,29 +136,24 @@
     :goto_0
     if-lez v0, :cond_1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/i32;->b()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/i32;->b:Lcom/google/android/gms/internal/ads/zzeey;
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget v1, p0, Lcom/google/android/gms/internal/ads/i32;->c:I
 
     iget v2, p0, Lcom/google/android/gms/internal/ads/i32;->d:I
 
     sub-int/2addr v1, v2
 
-    .line 4
     invoke-static {v1, v0}, Ljava/lang/Math;->min(II)I
 
     move-result v1
 
     if-eqz p1, :cond_0
 
-    .line 5
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/i32;->b:Lcom/google/android/gms/internal/ads/zzeey;
 
     iget v3, p0, Lcom/google/android/gms/internal/ads/i32;->d:I
@@ -182,7 +162,6 @@
 
     add-int/2addr p2, v1
 
-    .line 6
     :cond_0
     iget v2, p0, Lcom/google/android/gms/internal/ads/i32;->d:I
 
@@ -210,14 +189,12 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/i32;->f:I
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/i32;->d:I
 
     add-int/2addr v0, v1
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/i32;->p:Lcom/google/android/gms/internal/ads/zzeie;
 
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzeer;->size()I
@@ -232,7 +209,6 @@
 .method public final mark(I)V
     .locals 1
 
-    .line 1
     iget p1, p0, Lcom/google/android/gms/internal/ads/i32;->f:I
 
     iget v0, p0, Lcom/google/android/gms/internal/ads/i32;->d:I
@@ -260,10 +236,8 @@
         }
     .end annotation
 
-    .line 5
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/i32;->b()V
 
-    .line 6
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/i32;->b:Lcom/google/android/gms/internal/ads/zzeey;
 
     if-nez v0, :cond_0
@@ -272,7 +246,6 @@
 
     return v0
 
-    .line 7
     :cond_0
     iget v1, p0, Lcom/google/android/gms/internal/ads/i32;->d:I
 
@@ -292,21 +265,18 @@
 .method public final read([BII)I
     .locals 1
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     if-ltz p2, :cond_1
 
     if-ltz p3, :cond_1
 
-    .line 2
     array-length v0, p1
 
     sub-int/2addr v0, p2
 
     if-gt p3, v0, :cond_1
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/i32;->c([BII)I
 
     move-result p1
@@ -318,7 +288,6 @@
     :cond_0
     return p1
 
-    .line 4
     :cond_1
     new-instance p1, Ljava/lang/IndexOutOfBoundsException;
 
@@ -332,7 +301,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/i32;->a()V
 
@@ -340,14 +308,12 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iget v2, p0, Lcom/google/android/gms/internal/ads/i32;->g:I
 
     invoke-direct {p0, v0, v1, v2}, Lcom/google/android/gms/internal/ads/i32;->c([BII)I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -384,7 +350,6 @@
 
     long-to-int p2, p1
 
-    .line 1
     invoke-direct {p0, v0, v1, p2}, Lcom/google/android/gms/internal/ads/i32;->c([BII)I
 
     move-result p1
@@ -393,7 +358,6 @@
 
     return-wide p1
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/IndexOutOfBoundsException;
 

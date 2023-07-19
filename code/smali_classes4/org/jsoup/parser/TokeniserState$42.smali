@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lorg/jsoup/parser/TokeniserState;-><init>(Ljava/lang/String;ILorg/jsoup/parser/TokeniserState$1;)V
 
     return-void
@@ -31,7 +30,6 @@
 .method read(Lorg/jsoup/parser/h;Lorg/jsoup/parser/a;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p2}, Lorg/jsoup/parser/a;->e()C
 
     move-result v0
@@ -44,31 +42,25 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Lorg/jsoup/parser/a;->L()V
 
-    .line 3
     invoke-virtual {p1, p0}, Lorg/jsoup/parser/h;->u(Lorg/jsoup/parser/TokeniserState;)V
 
-    .line 4
     sget-object p2, Lorg/jsoup/parser/TokeniserState;->BeforeAttributeName:Lorg/jsoup/parser/TokeniserState;
 
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->y(Lorg/jsoup/parser/TokeniserState;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p1, p0}, Lorg/jsoup/parser/h;->s(Lorg/jsoup/parser/TokeniserState;)V
 
-    .line 6
     sget-object p2, Lorg/jsoup/parser/TokeniserState;->Data:Lorg/jsoup/parser/TokeniserState;
 
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->y(Lorg/jsoup/parser/TokeniserState;)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object p2, p1, Lorg/jsoup/parser/h;->i:Lorg/jsoup/parser/Token$i;
 
@@ -76,10 +68,8 @@
 
     iput-boolean v0, p2, Lorg/jsoup/parser/Token$i;->i:Z
 
-    .line 8
     invoke-virtual {p1}, Lorg/jsoup/parser/h;->r()V
 
-    .line 9
     sget-object p2, Lorg/jsoup/parser/TokeniserState;->Data:Lorg/jsoup/parser/TokeniserState;
 
     invoke-virtual {p1, p2}, Lorg/jsoup/parser/h;->y(Lorg/jsoup/parser/TokeniserState;)V

@@ -18,10 +18,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/camera/s/k/a;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/library/camera/s/k/b;->A()V
 
     return-void
@@ -30,16 +28,12 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/meitu/library/camera/s/k/a;-><init>(Ljava/lang/String;)V
 
-    .line 4
     iput-object p2, p0, Lcom/meitu/library/camera/s/k/b;->g:Ljava/lang/String;
 
-    .line 5
     iput-object p3, p0, Lcom/meitu/library/camera/s/k/b;->h:Ljava/lang/String;
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/library/camera/s/k/b;->A()V
 
     return-void
@@ -48,7 +42,6 @@
 .method private A()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/camera/s/k/b;->g:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -57,14 +50,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/camera/s/k/h;->b()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/library/camera/s/k/b;->g:Ljava/lang/String;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/meitu/library/camera/s/k/b;->h:Ljava/lang/String;
 
@@ -74,14 +65,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/camera/s/k/h;->a()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/library/camera/s/k/b;->h:Ljava/lang/String;
 
-    .line 5
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -122,7 +111,6 @@
 
     return v1
 
-    .line 1
     :cond_1
     instance-of v2, p1, Lcom/meitu/library/camera/s/k/b;
 
@@ -130,11 +118,9 @@
 
     return v0
 
-    .line 2
     :cond_2
     check-cast p1, Lcom/meitu/library/camera/s/k/b;
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/k/b;->z()Ljava/lang/String;
 
     move-result-object v2
@@ -149,7 +135,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/k/b;->y()Ljava/lang/String;
 
     move-result-object v2
@@ -173,7 +158,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/camera/s/k/b;->i:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -186,7 +170,6 @@
 .method protected w()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/camera/s/k/b;->i:Ljava/lang/String;
 
     return-object v0
@@ -195,7 +178,6 @@
 .method protected x()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -222,7 +204,6 @@
 .method public y()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/camera/s/k/b;->h:Ljava/lang/String;
 
     return-object v0
@@ -231,7 +212,6 @@
 .method public z()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/camera/s/k/b;->g:Ljava/lang/String;
 
     return-object v0

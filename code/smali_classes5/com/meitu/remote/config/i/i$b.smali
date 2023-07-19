@@ -52,13 +52,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/remote/config/i/i$b;->b:Lcom/meitu/remote/config/g;
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/remote/config/i/i$b;->a:Ljava/util/Map;
 
     return-void
@@ -67,7 +64,6 @@
 .method synthetic constructor <init>(Ljava/util/Map;Lcom/meitu/remote/config/g;Lcom/meitu/remote/config/i/i$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/remote/config/i/i$b;-><init>(Ljava/util/Map;Lcom/meitu/remote/config/g;)V
 
     return-void
@@ -94,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/i$b;->a:Ljava/util/Map;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -111,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/i$b;->b:Lcom/meitu/remote/config/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

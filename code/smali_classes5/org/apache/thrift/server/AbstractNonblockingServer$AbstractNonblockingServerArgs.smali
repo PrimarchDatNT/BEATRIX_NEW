@@ -32,15 +32,12 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TNonblockingServerTransport;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/server/TServer$AbstractServerArgs;-><init>(Lorg/apache/thrift/transport/TServerTransport;)V
 
     const-wide/32 v0, 0x10000000
 
-    .line 2
     iput-wide v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractNonblockingServerArgs;->maxReadBufferBytes:J
 
-    .line 3
     new-instance p1, Lorg/apache/thrift/transport/TFramedTransport$Factory;
 
     invoke-direct {p1}, Lorg/apache/thrift/transport/TFramedTransport$Factory;-><init>()V

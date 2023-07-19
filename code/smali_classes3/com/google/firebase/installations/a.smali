@@ -23,16 +23,12 @@
 .method private constructor <init>(Ljava/lang/String;JJ)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/installations/n;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/installations/a;->a:Ljava/lang/String;
 
-    .line 4
     iput-wide p2, p0, Lcom/google/firebase/installations/a;->b:J
 
-    .line 5
     iput-wide p4, p0, Lcom/google/firebase/installations/a;->c:J
 
     return-void
@@ -41,7 +37,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;JJLcom/google/firebase/installations/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lcom/google/firebase/installations/a;-><init>(Ljava/lang/String;JJ)V
 
     return-void
@@ -54,7 +49,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/installations/a;->a:Ljava/lang/String;
 
     return-object v0
@@ -65,7 +59,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/installations/a;->c:J
 
     return-wide v0
@@ -76,7 +69,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/installations/a;->b:J
 
     return-wide v0
@@ -85,7 +77,6 @@
 .method public e()Lcom/google/firebase/installations/n$a;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/installations/a$b;
 
     const/4 v1, 0x0
@@ -104,7 +95,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/firebase/installations/n;
 
@@ -112,10 +102,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/firebase/installations/n;
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/installations/a;->a:Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/google/firebase/installations/n;->b()Ljava/lang/String;
@@ -130,7 +118,6 @@
 
     iget-wide v3, p0, Lcom/google/firebase/installations/a;->b:J
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/installations/n;->d()J
 
     move-result-wide v5
@@ -141,7 +128,6 @@
 
     iget-wide v3, p0, Lcom/google/firebase/installations/a;->c:J
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/installations/n;->c()J
 
     move-result-wide v5
@@ -165,7 +151,6 @@
 .method public hashCode()I
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/installations/a;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -178,7 +163,6 @@
 
     mul-int v0, v0, v1
 
-    .line 2
     iget-wide v2, p0, Lcom/google/firebase/installations/a;->b:J
 
     const/16 v4, 0x20
@@ -193,7 +177,6 @@
 
     mul-int v0, v0, v1
 
-    .line 3
     iget-wide v1, p0, Lcom/google/firebase/installations/a;->c:J
 
     ushr-long v3, v1, v4
@@ -210,7 +193,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

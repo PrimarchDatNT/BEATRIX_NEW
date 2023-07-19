@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/k/h/a/l/l;-><init>()V
 
     return-void

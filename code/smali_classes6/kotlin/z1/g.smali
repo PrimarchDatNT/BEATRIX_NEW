@@ -53,7 +53,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/z1/g;->a:Ljava/util/Comparator;
@@ -76,7 +75,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/z1/g;->a:Ljava/util/Comparator;
 
     return-object v0
@@ -90,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/z1/g;->a:Ljava/util/Comparator;
 
     invoke-interface {v0, p2, p1}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
@@ -113,7 +110,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/z1/g;->a:Ljava/util/Comparator;
 
     return-object v0

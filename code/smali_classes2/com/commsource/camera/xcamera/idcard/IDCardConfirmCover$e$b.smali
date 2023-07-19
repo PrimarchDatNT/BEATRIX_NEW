@@ -64,10 +64,8 @@
 
     const-string v2, "\u65e0\u9762\u90e8\u6570\u636e \u65e0\u6cd5\u4fdd\u5b58"
 
-    .line 1
     invoke-static {v2, v1}, Lf/k/c/c/f;->u(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

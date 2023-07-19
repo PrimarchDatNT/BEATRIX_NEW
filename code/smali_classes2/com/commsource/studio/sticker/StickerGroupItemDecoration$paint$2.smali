@@ -72,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x1
@@ -83,7 +82,6 @@
 
     long-to-int v3, v2
 
-    .line 3
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setColor(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -98,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sticker/StickerGroupItemDecoration$paint$2;->invoke()Landroid/graphics/Paint;
 
     move-result-object v1

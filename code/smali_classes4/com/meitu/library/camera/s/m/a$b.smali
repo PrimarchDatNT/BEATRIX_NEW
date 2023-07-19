@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/meitu/library/camera/s/m/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/camera/s/m/a$b;->a:Lcom/meitu/library/camera/s/m/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -63,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->v()Z
 
     move-result v1
@@ -72,29 +70,24 @@
 
     if-nez v1, :cond_4
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->q()Ljava/lang/Exception;
 
     move-result-object p1
 
-    .line 3
     instance-of v1, p1, Lcom/meitu/remote/config/RemoteConfigServerException;
 
     if-eqz v1, :cond_0
 
-    .line 4
     move-object v1, p1
 
     check-cast v1, Lcom/meitu/remote/config/RemoteConfigServerException;
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/camera/s/n/d;->h()Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    .line 6
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -117,7 +110,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     invoke-static {}, Lcom/meitu/library/camera/s/n/d;->h()Z
 
@@ -125,7 +117,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 8
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -154,7 +145,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/camera/s/n/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     :cond_2
     :goto_1
     invoke-static {}, Lcom/meitu/library/camera/s/n/d;->i()Z
@@ -165,16 +155,13 @@
 
     const-string v1, "StrategyKey fetchAndActive error!"
 
-    .line 10
     invoke-static {v2, v1, p1}, Lcom/meitu/library/camera/s/n/d;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_4
     invoke-static {}, Lcom/meitu/library/camera/s/n/d;->h()Z
 
@@ -182,7 +169,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 13
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -225,7 +211,6 @@
 
     invoke-static {v2, p1}, Lcom/meitu/library/camera/s/n/d;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

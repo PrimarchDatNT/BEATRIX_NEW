@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 
     const-string v0, "interstitial"
 
-    .line 1
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -72,13 +70,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v0
@@ -224,7 +219,6 @@
     :goto_0
     packed-switch v2, :pswitch_data_0
 
-    .line 4
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -252,14 +246,12 @@
     :pswitch_0
     const-string p0, "admob_full"
 
-    .line 5
     invoke-virtual {p0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
     if-eqz p0, :cond_9
 
-    .line 6
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -284,7 +276,6 @@
 
     return-object p0
 
-    .line 7
     :pswitch_1
     sget-object p0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->MOPUB_NATIVE:Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
@@ -294,7 +285,6 @@
 
     return-object p0
 
-    .line 8
     :pswitch_2
     sget-object p1, Lcom/mopub/common/AdFormat;->BANNER:Lcom/mopub/common/AdFormat;
 
@@ -311,7 +301,6 @@
     :cond_8
     sget-object p0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->MOPUB_FULLSCREEN:Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;
 
-    .line 9
     :goto_1
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->toString()Ljava/lang/String;
 
@@ -319,7 +308,6 @@
 
     return-object p0
 
-    .line 10
     :pswitch_3
     sget-object p0, Lcom/mopub/common/util/ResponseHeader;->CUSTOM_EVENT_NAME:Lcom/mopub/common/util/ResponseHeader;
 
@@ -329,7 +317,6 @@
 
     return-object p0
 
-    .line 11
     :cond_9
     :pswitch_4
     sget-object p0, Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;->MOPUB_FULLSCREEN:Lcom/mopub/mobileads/AdTypeTranslator$BaseAdType;

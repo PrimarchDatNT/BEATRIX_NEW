@@ -25,10 +25,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/i6;->a:Landroid/content/Context;
 
     return-void
@@ -49,7 +47,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->A()Lcom/google/android/gms/internal/ads/uk;
 
     move-result-object p1
@@ -67,7 +64,6 @@
     :cond_0
     const-string p1, "eventName"
 
-    .line 2
     invoke-interface {p2, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -76,14 +72,12 @@
 
     const-string v0, "eventId"
 
-    .line 3
     invoke-interface {p2, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     const/4 v0, -0x1
@@ -147,12 +141,10 @@
 
     const-string p1, "logScionEvent gmsg contained unsupported eventName"
 
-    .line 5
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
 
     return-void
 
-    .line 6
     :pswitch_0
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->A()Lcom/google/android/gms/internal/ads/uk;
 
@@ -164,7 +156,6 @@
 
     return-void
 
-    .line 7
     :pswitch_1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->A()Lcom/google/android/gms/internal/ads/uk;
 
@@ -176,7 +167,6 @@
 
     return-void
 
-    .line 8
     :pswitch_2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->A()Lcom/google/android/gms/internal/ads/uk;
 

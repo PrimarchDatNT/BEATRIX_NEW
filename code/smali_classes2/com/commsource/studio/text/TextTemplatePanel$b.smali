@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Ljava/lang/String;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/text/TextTemplatePanel$b;->b(ILjava/lang/String;)Z
@@ -73,14 +72,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/text/TextTemplatePanel$b;->a:Lcom/commsource/studio/text/TextTemplatePanel;
 
     const/4 v0, 0x0
 
     invoke-virtual {p2, v0}, Lcom/commsource/studio/text/TextTemplatePanel;->l(Lcom/commsource/studio/text/TextTemplateMaterial;)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/text/TextTemplatePanel$b;->a:Lcom/commsource/studio/text/TextTemplatePanel;
 
     invoke-static {p2}, Lcom/commsource/studio/text/TextTemplatePanel;->a(Lcom/commsource/studio/text/TextTemplatePanel;)Lcom/commsource/studio/text/TextViewModel;
@@ -95,7 +92,6 @@
 
     invoke-virtual {p2, v0}, Lcom/commsource/studio/text/TextViewModel;->z(Lcom/commsource/studio/text/TextTemplate;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -16,12 +15,10 @@
 .method private static a([B)Ljava/lang/String;
     .locals 9
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -58,7 +55,6 @@
     :goto_2
     int-to-char v5, v5
 
-    .line 3
     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     and-int/lit8 v5, v4, 0xf
@@ -78,7 +74,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_2
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -93,31 +88,26 @@
     :try_start_0
     const-string v0, "SHA-1"
 
-    .line 1
     invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v0
 
     const-string v1, "UTF-8"
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p0
 
     const/4 v1, 0x0
 
-    .line 3
     array-length v2, p0
 
     invoke-virtual {v0, p0, v1, v2}, Ljava/security/MessageDigest;->update([BII)V
 
-    .line 4
     invoke-virtual {v0}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object p0
 
-    .line 5
     invoke-static {p0}, Lf/r/c/e/b;->a([B)Ljava/lang/String;
 
     move-result-object p0
@@ -129,7 +119,6 @@
     :catch_0
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p0, 0x0

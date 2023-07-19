@@ -60,7 +60,6 @@
 
     if-eqz p2, :cond_6
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/material/HomeArModuleVH$e;->a:Lcom/commsource/home/material/HomeArModuleVH;
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -119,7 +118,6 @@
     :cond_2
     if-le v1, v3, :cond_6
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/material/HomeArModuleVH$e;->a:Lcom/commsource/home/material/HomeArModuleVH;
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -164,7 +162,6 @@
     :cond_4
     const-string v1, "viewShowState"
 
-    .line 3
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
@@ -187,7 +184,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_5
     iget-object p1, p0, Lcom/commsource/home/material/HomeArModuleVH$e;->a:Lcom/commsource/home/material/HomeArModuleVH;
 
@@ -239,7 +235,6 @@
 
     invoke-static/range {v3 .. v10}, Lcom/commsource/home/d;->d(Lcom/commsource/home/d;ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;ILjava/lang/Object;)V
 
-    .line 5
     :cond_6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -254,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     check-cast p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;

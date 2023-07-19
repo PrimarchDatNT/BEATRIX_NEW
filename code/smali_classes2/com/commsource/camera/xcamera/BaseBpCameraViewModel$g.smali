@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$g;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/p/a;-><init>()V
@@ -53,15 +52,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/p/a;->F(Lcom/google/ar/core/TrackingState;Lcom/google/ar/core/TrackingState;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$g;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->C0(Lcom/google/ar/core/TrackingState;Lcom/google/ar/core/TrackingState;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -86,15 +82,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/p/a;->h1(Lcom/meitu/library/d/a/a;Lcom/google/ar/core/Session;Lcom/meitu/library/d/a/a$c;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$g;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {p1, p3}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->P0(Lcom/meitu/library/d/a/a$c;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$g;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->X()Landroidx/lifecycle/MutableLiveData;
@@ -115,7 +108,6 @@
     :goto_0
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

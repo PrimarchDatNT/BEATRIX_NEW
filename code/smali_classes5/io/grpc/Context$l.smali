@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Deprecated. Do not call."
@@ -50,12 +48,10 @@
 .method public d(Lio/grpc/Context;)Lio/grpc/Context;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/Context$l;->b()Lio/grpc/Context;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/grpc/Context$l;->a(Lio/grpc/Context;)V
 
     return-object v0

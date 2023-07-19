@@ -36,7 +36,6 @@
 .method public final a(Lcom/google/android/gms/internal/ads/sw;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/sw;->J2()Ljava/lang/String;
 
     move-result-object v0
@@ -45,7 +44,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/sw;->Q8()Ljava/lang/String;
 

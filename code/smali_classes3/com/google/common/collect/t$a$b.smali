@@ -31,10 +31,8 @@
 .method constructor <init>(Lcom/google/common/collect/t$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/t$a$b;->b:Lcom/google/common/collect/t$a;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/Maps$z;-><init>(Ljava/util/Map;)V
 
     return-void
@@ -49,7 +47,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$a$b;->b:Lcom/google/common/collect/t$a;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/t$a;->e(Ljava/lang/Object;)Ljava/util/Collection;
@@ -79,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$a$b;->b:Lcom/google/common/collect/t$a;
 
     iget-object v0, v0, Lcom/google/common/collect/t$a;->d:Lcom/google/common/collect/t;
@@ -109,7 +105,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$a$b;->b:Lcom/google/common/collect/t$a;
 
     iget-object v0, v0, Lcom/google/common/collect/t$a;->d:Lcom/google/common/collect/t;

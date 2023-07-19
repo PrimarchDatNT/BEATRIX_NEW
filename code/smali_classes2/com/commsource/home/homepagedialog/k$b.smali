@@ -58,7 +58,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V

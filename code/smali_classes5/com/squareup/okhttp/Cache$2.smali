@@ -53,12 +53,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/Cache$2;->this$0:Lcom/squareup/okhttp/Cache;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/squareup/okhttp/Cache;->access$600(Lcom/squareup/okhttp/Cache;)Lcom/squareup/okhttp/internal/DiskLruCache;
 
     move-result-object p1
@@ -77,7 +75,6 @@
 .method public hasNext()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Cache$2;->nextUrl:Ljava/lang/String;
 
     const/4 v1, 0x1
@@ -89,10 +86,8 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/squareup/okhttp/Cache$2;->canRemove:Z
 
-    .line 3
     :goto_0
     iget-object v2, p0, Lcom/squareup/okhttp/Cache$2;->delegate:Ljava/util/Iterator;
 
@@ -102,7 +97,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     iget-object v2, p0, Lcom/squareup/okhttp/Cache$2;->delegate:Ljava/util/Iterator;
 
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -111,7 +105,6 @@
 
     check-cast v2, Lcom/squareup/okhttp/internal/DiskLruCache$Snapshot;
 
-    .line 5
     :try_start_0
     invoke-virtual {v2, v0}, Lcom/squareup/okhttp/internal/DiskLruCache$Snapshot;->getSource(I)Lokio/Source;
 
@@ -121,7 +114,6 @@
 
     move-result-object v3
 
-    .line 6
     invoke-interface {v3}, Lokio/BufferedSource;->readUtf8LineStrict()Ljava/lang/String;
 
     move-result-object v3
@@ -131,7 +123,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     invoke-virtual {v2}, Lcom/squareup/okhttp/internal/DiskLruCache$Snapshot;->close()V
 
     return v1
@@ -155,7 +146,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/squareup/okhttp/Cache$2;->next()Ljava/lang/String;
 
     move-result-object v0
@@ -166,29 +156,24 @@
 .method public next()Ljava/lang/String;
     .locals 2
 
-    .line 2
     invoke-virtual {p0}, Lcom/squareup/okhttp/Cache$2;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/squareup/okhttp/Cache$2;->nextUrl:Ljava/lang/String;
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcom/squareup/okhttp/Cache$2;->nextUrl:Ljava/lang/String;
 
     const/4 v1, 0x1
 
-    .line 5
     iput-boolean v1, p0, Lcom/squareup/okhttp/Cache$2;->canRemove:Z
 
     return-object v0
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -200,19 +185,16 @@
 .method public remove()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/Cache$2;->canRemove:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/Cache$2;->delegate:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 

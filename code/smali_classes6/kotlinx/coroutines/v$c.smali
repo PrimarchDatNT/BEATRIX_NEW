@@ -48,7 +48,6 @@
 .method public final execute(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/util/concurrent/RejectedExecutionException;
 
     const-string v0, "CommonPool was shutdown"

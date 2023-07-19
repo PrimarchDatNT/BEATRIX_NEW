@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/sl2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/an2;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/rl2;->b:Lcom/google/android/gms/internal/ads/sl2;
 
     return-void
@@ -25,7 +23,6 @@
 .method public final onAdClicked()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/rl2;->b:Lcom/google/android/gms/internal/ads/sl2;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/sl2;->onAdClicked()V

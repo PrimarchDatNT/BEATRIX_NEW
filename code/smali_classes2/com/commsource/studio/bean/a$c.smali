@@ -47,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/a$c;->b:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -58,14 +57,12 @@
 
     if-nez v1, :cond_3
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/bean/a$c;->a:Lcom/commsource/studio/bean/a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/bean/a;->E()Ljava/util/concurrent/CopyOnWriteArrayList;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -83,7 +80,6 @@
 
     check-cast v3, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 4
     invoke-virtual {v3}, Lcom/commsource/studio/bean/BaseLayerInfo;->getParentKey()Ljava/lang/String;
 
     move-result-object v4
@@ -98,20 +94,17 @@
 
     move-object v2, v3
 
-    .line 5
     :cond_1
     instance-of v4, v3, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     if-eqz v4, :cond_0
 
-    .line 6
     check-cast v3, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     invoke-virtual {v3}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSubLayerInfos()Ljava/util/ArrayList;
 
     move-result-object v3
 
-    .line 7
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -130,7 +123,6 @@
 
     check-cast v4, Lcotlin/Pair;
 
-    .line 8
     invoke-virtual {v4}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
@@ -149,7 +141,6 @@
 
     if-eqz v5, :cond_2
 
-    .line 9
     invoke-virtual {v4}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
@@ -158,13 +149,11 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/bean/a$c;->a:Lcom/commsource/studio/bean/a;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/a;->W(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

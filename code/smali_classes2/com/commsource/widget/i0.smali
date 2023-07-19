@@ -43,7 +43,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -56,12 +55,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/commsource/widget/i0;->e()Z
 
     move-result v2
@@ -70,16 +67,13 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_0
     sget-object v2, Lcom/google/ar/core/ArCoreApk$InstallStatus;->INSTALL_REQUESTED:Lcom/google/ar/core/ArCoreApk$InstallStatus;
 
-    .line 5
     :try_start_0
     invoke-static {}, Lcom/google/ar/core/ArCoreApk;->getInstance()Lcom/google/ar/core/ArCoreApk;
 
@@ -96,10 +90,8 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     :goto_0
     sget-object p1, Lcom/google/ar/core/ArCoreApk$InstallStatus;->INSTALLED:Lcom/google/ar/core/ArCoreApk$InstallStatus;
 
@@ -109,7 +101,6 @@
 
     if-ne v2, p1, :cond_4
 
-    .line 8
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -120,7 +111,6 @@
 
     move-result-object p1
 
-    .line 9
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -139,7 +129,6 @@
 
     invoke-static {v5, v1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     sget-object v1, Lcom/commsource/widget/i0$b;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -160,36 +149,29 @@
 
     if-eq p1, v3, :cond_1
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 12
     :cond_1
     invoke-static {p0, v2, v1}, Lf/d/i/e;->O2(Landroid/content/Context;Ljava/lang/String;Z)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 14
     :cond_2
     invoke-static {p0, v2, v1}, Lf/d/i/e;->O2(Landroid/content/Context;Ljava/lang/String;Z)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 16
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 17
     :cond_4
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -211,7 +193,6 @@
 
     const/4 p0, 0x4
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -224,35 +205,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/widget/i0;->h:Ljava/util/List;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/widget/i0;->f()V
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/widget/i0;->i:Ljava/util/List;
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/commsource/widget/i0;->g()V
 
-    .line 5
     :cond_1
     sget-object v1, Landroid/os/Build;->PRODUCT:Ljava/lang/String;
 
-    .line 6
     sget-object v2, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     invoke-virtual {v2}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 7
     sget-object v3, Lcom/commsource/widget/i0;->h:Ljava/util/List;
 
     const/4 v4, 0x1
@@ -274,7 +248,6 @@
     :cond_2
     const/4 v3, 0x0
 
-    .line 8
     :goto_0
     invoke-static {}, Lcom/commsource/camera/w0/a;->b()Lcom/commsource/camera/w0/a;
 
@@ -284,7 +257,6 @@
 
     move-result v6
 
-    .line 9
     sget-object v7, Lcom/commsource/widget/i0;->i:Ljava/util/List;
 
     if-eqz v7, :cond_3
@@ -302,7 +274,6 @@
     :cond_3
     const/4 v7, 0x0
 
-    .line 10
     :goto_1
     new-instance v8, Ljava/lang/StringBuilder;
 
@@ -328,7 +299,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -345,7 +315,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -362,7 +331,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -379,7 +347,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -399,7 +366,6 @@
     :cond_4
     const/4 v4, 0x0
 
-    .line 15
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -418,7 +384,6 @@
     :cond_7
     const/4 v4, 0x0
 
-    .line 16
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -436,14 +401,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getShowArCoreIcon()I
 
     move-result p0
 
     if-ne p0, v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/widget/i0;->b()Z
 
     move-result p0
@@ -455,7 +418,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -473,12 +435,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/beautyplus/util/h;->v(Lcom/meitu/template/bean/ArMaterial;)Z
 
@@ -507,14 +467,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x18
 
     if-lt v1, v2, :cond_1
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -538,7 +496,6 @@
     :goto_0
     const/4 v1, 0x1
 
-    .line 3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -554,12 +511,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
 
     move-result-object v1
 
-    .line 2
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -571,7 +526,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v3
@@ -580,12 +534,10 @@
 
     invoke-direct {v4}, Lcom/commsource/widget/i0$a;-><init>()V
 
-    .line 4
     invoke-virtual {v4}, Lcom/google/gson/reflect/TypeToken;->getType()Ljava/lang/reflect/Type;
 
     move-result-object v4
 
-    .line 5
     invoke-virtual {v3, v2, v4}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v2
@@ -601,10 +553,8 @@
     :catch_0
     move-exception v2
 
-    .line 6
     invoke-static {v2}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     :goto_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -626,10 +576,8 @@
 
     invoke-static {v1}, Lcom/commsource/beautyplus/p;->a(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {}, Lcom/commsource/widget/i0;->g()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -642,55 +590,44 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     const-string v2, "MOTO G (5S) PLUS"
 
-    .line 2
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     const-string v2, "MOTO G(6)"
 
-    .line 3
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     const-string v2, "SO-01K"
 
-    .line 4
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     const-string v2, "SO-05K"
 
-    .line 5
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     const-string v2, "SO-04J"
 
-    .line 6
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     const-string v2, "SO-03K"
 
-    .line 7
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     const-string v2, "G8142"
 
-    .line 8
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     const-string v2, "F8132"
 
-    .line 9
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 10
     sput-object v1, Lcom/commsource/widget/i0;->i:Ljava/util/List;
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

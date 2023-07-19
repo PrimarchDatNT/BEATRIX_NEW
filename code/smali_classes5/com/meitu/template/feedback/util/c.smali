@@ -51,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/template/feedback/util/c;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -62,15 +61,12 @@
 
     const/4 v1, -0x1
 
-    .line 2
     sput v1, Lcom/meitu/template/feedback/util/c;->f:I
 
     const-string v1, ""
 
-    .line 3
     sput-object v1, Lcom/meitu/template/feedback/util/c;->g:Ljava/lang/String;
 
-    .line 4
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x10
@@ -79,7 +75,6 @@
 
     sput-object v1, Lcom/meitu/template/feedback/util/c;->h:Ljava/util/Map;
 
-    .line 5
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
@@ -94,7 +89,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -107,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/template/feedback/util/c;->h:Ljava/util/Map;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -122,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/template/feedback/util/c;->k(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -137,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/template/feedback/util/c;->i:Ljava/util/Map;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -152,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/template/feedback/util/c;->h(Landroid/content/Context;Ljava/lang/String;Lcom/meitu/template/bean/Chat;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -167,19 +157,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/template/feedback/util/c;->j:Lf/k/i0/b/b;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lf/k/i0/b/b;
 
     invoke-direct {v1, p0}, Lf/k/i0/b/b;-><init>(Landroid/content/Context;)V
 
     sput-object v1, Lcom/meitu/template/feedback/util/c;->j:Lf/k/i0/b/b;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/meitu/template/feedback/util/c;->j:Lf/k/i0/b/b;
 
@@ -195,33 +182,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/template/bean/ChatFiled;
 
     invoke-direct {v1}, Lcom/meitu/template/bean/ChatFiled;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/Chat;->getContent()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/ChatFiled;->setImagePath(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/Chat;->getUploadState()Ljava/lang/Integer;
 
     move-result-object p1
 
     invoke-virtual {v1, p1}, Lcom/meitu/template/bean/ChatFiled;->setUploadState(Ljava/lang/Integer;)V
 
-    .line 4
     invoke-static {p0}, Lcom/meitu/template/oauth/a;->b(Landroid/content/Context;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 5
     :try_start_0
     invoke-static {p0}, Lcom/meitu/template/oauth/a;->d(Landroid/content/Context;)Ljava/lang/String;
 
@@ -236,12 +218,10 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-static {p0}, Lf/d/i/e;->U0(Landroid/content/Context;)Ljava/lang/String;
 
@@ -249,7 +229,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/template/bean/ChatFiled;->setToken(Ljava/lang/String;)V
 
-    .line 8
     :goto_0
     :try_start_1
     invoke-static {p0}, Lcom/meitu/template/feedback/util/c;->e(Landroid/content/Context;)Lf/k/i0/b/b;
@@ -265,7 +244,6 @@
     :catch_1
     move-exception p0
 
-    .line 9
     sget-object p1, Lcom/meitu/template/feedback/util/c;->a:Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -284,7 +262,6 @@
 
     invoke-static {p1, p0}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -298,14 +275,12 @@
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object p2, Lcom/meitu/template/feedback/util/c;->h:Ljava/util/Map;
 
     invoke-interface {p2, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -316,20 +291,16 @@
 
     const-string p3, "bean is null"
 
-    .line 3
     invoke-static {p1, p3, p2}, Lcom/meitu/template/feedback/util/c;->h(Landroid/content/Context;Ljava/lang/String;Lcom/meitu/template/bean/Chat;)V
 
-    .line 4
     sget-object p1, Lcom/meitu/template/feedback/util/c;->h:Ljava/util/Map;
 
     invoke-interface {p1, p0}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -349,15 +320,12 @@
 
     invoke-static {v1, v0}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     sget-object v0, Lcom/meitu/template/feedback/util/c;->i:Ljava/util/Map;
 
     invoke-interface {v0, p3, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     invoke-static {p1, p3, p2}, Lcom/meitu/template/feedback/util/c;->i(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -370,7 +338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/template/feedback/util/c;->a:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -391,31 +358,26 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-virtual {p2, p1}, Lcom/meitu/template/bean/Chat;->setChatFail(Ljava/lang/Boolean;)V
 
     const/4 p1, 0x2
 
-    .line 3
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
     invoke-virtual {p2, p1}, Lcom/meitu/template/bean/Chat;->setUploadState(Ljava/lang/Integer;)V
 
-    .line 4
     invoke-static {p0, p2}, Lcom/meitu/template/feedback/util/c;->f(Landroid/content/Context;Lcom/meitu/template/bean/Chat;)V
 
-    .line 5
     invoke-static {}, Lorg/greenrobot/eventbus/c;->g()Lorg/greenrobot/eventbus/c;
 
     move-result-object p0
 
     invoke-virtual {p0, p2}, Lorg/greenrobot/eventbus/c;->q(Ljava/lang/Object;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -429,21 +391,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/l0/a/a;
 
     invoke-direct {v1}, Lf/k/l0/a/a;-><init>()V
 
-    .line 2
     invoke-virtual {v1}, Lf/k/l0/a/a;->n()V
 
-    .line 3
     invoke-virtual {v1, p1}, Lf/k/l0/a/a;->u(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1, p2}, Lf/k/l0/a/a;->q(Ljava/lang/String;)V
 
-    .line 5
     const-class p2, Lcom/meitu/http/api/FeedbackApi;
 
     invoke-static {p2}, Lf/k/k/s;->n(Ljava/lang/Class;)Ljava/lang/Object;
@@ -452,7 +409,6 @@
 
     check-cast p2, Lcom/meitu/http/api/FeedbackApi;
 
-    .line 6
     invoke-virtual {p2, v1}, Lcom/meitu/http/api/FeedbackApi;->a(Lf/k/l0/a/a;)Lf/k/k/u/c;
 
     move-result-object p2
@@ -461,10 +417,8 @@
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/template/feedback/util/c$b;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {p2, v1}, Lf/k/k/u/c;->a(Lf/k/k/p;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -477,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -488,7 +441,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object v1, Lcom/meitu/template/feedback/util/c;->h:Ljava/util/Map;
 
@@ -496,24 +448,20 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
     invoke-virtual {p3, v1}, Lcom/meitu/template/bean/Chat;->setUploadState(Ljava/lang/Integer;)V
 
-    .line 4
     invoke-static {p0, p3}, Lcom/meitu/template/feedback/util/c;->f(Landroid/content/Context;Lcom/meitu/template/bean/Chat;)V
 
-    .line 5
     invoke-static {}, Lorg/greenrobot/eventbus/c;->g()Lorg/greenrobot/eventbus/c;
 
     move-result-object v1
 
     invoke-virtual {v1, p3}, Lorg/greenrobot/eventbus/c;->q(Ljava/lang/Object;)V
 
-    .line 6
     new-instance p3, Lcom/meitu/template/feedback/util/c$a;
 
     const-string v1, "UploadFeedbackPicTask"
@@ -522,12 +470,10 @@
 
     invoke-static {p3}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -542,14 +488,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/p/h/a;->b(Landroid/content/Context;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object p2, Lcom/meitu/template/feedback/util/c;->h:Ljava/util/Map;
 
     invoke-interface {p2, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -560,19 +504,16 @@
 
     sget p2, Lcom/res/provider/ResSTRING;->error_network:I
 
-    .line 3
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p2
 
     invoke-static {p0, p2, p1}, Lcom/meitu/template/feedback/util/c;->h(Landroid/content/Context;Ljava/lang/String;Lcom/meitu/template/bean/Chat;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     new-instance v1, Lcom/meitu/template/feedback/util/a;
 
@@ -580,7 +521,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/l1;->f(Ljava/lang/String;Lcom/commsource/util/l1$d;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -29,14 +29,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/measurement/b6;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/b6;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/measurement/c6;->a:Ljava/util/Iterator;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/measurement/e6;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/e6;-><init>()V
@@ -58,7 +56,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/c6;->b:Ljava/lang/Iterable;
 
     return-object v0
@@ -67,7 +64,6 @@
 .method static synthetic b()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/c6;->a:Ljava/util/Iterator;
 
     return-object v0

@@ -35,28 +35,22 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "firestore.googleapis.com"
 
-    .line 2
     iput-object v0, p0, Lcom/google/firebase/firestore/r$b;->a:Ljava/lang/String;
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/firebase/firestore/r$b;->b:Z
 
-    .line 4
     iput-boolean v0, p0, Lcom/google/firebase/firestore/r$b;->c:Z
 
-    .line 5
     iput-boolean v0, p0, Lcom/google/firebase/firestore/r$b;->d:Z
 
     const-wide/32 v0, 0x6400000
 
-    .line 6
     iput-wide v0, p0, Lcom/google/firebase/firestore/r$b;->e:J
 
     return-void
@@ -71,36 +65,30 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Provided settings must not be null."
 
-    .line 8
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     invoke-static {p1}, Lcom/google/firebase/firestore/r;->a(Lcom/google/firebase/firestore/r;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/firestore/r$b;->a:Ljava/lang/String;
 
-    .line 10
     invoke-static {p1}, Lcom/google/firebase/firestore/r;->b(Lcom/google/firebase/firestore/r;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/firebase/firestore/r$b;->b:Z
 
-    .line 11
     invoke-static {p1}, Lcom/google/firebase/firestore/r;->c(Lcom/google/firebase/firestore/r;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/firebase/firestore/r$b;->c:Z
 
-    .line 12
     invoke-static {p1}, Lcom/google/firebase/firestore/r;->d(Lcom/google/firebase/firestore/r;)Z
 
     move-result p1
@@ -113,7 +101,6 @@
 .method static synthetic a(Lcom/google/firebase/firestore/r$b;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/firestore/r$b;->a:Ljava/lang/String;
 
     return-object p0
@@ -122,7 +109,6 @@
 .method static synthetic b(Lcom/google/firebase/firestore/r$b;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/firebase/firestore/r$b;->b:Z
 
     return p0
@@ -131,7 +117,6 @@
 .method static synthetic c(Lcom/google/firebase/firestore/r$b;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/firebase/firestore/r$b;->c:Z
 
     return p0
@@ -140,7 +125,6 @@
 .method static synthetic d(Lcom/google/firebase/firestore/r$b;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/firebase/firestore/r$b;->d:Z
 
     return p0
@@ -149,7 +133,6 @@
 .method static synthetic e(Lcom/google/firebase/firestore/r$b;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/r$b;->e:J
 
     return-wide v0
@@ -165,7 +148,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/r$b;->b:Z
 
     if-nez v0, :cond_1
@@ -182,7 +164,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -192,7 +173,6 @@
 
     throw v0
 
-    .line 3
     :cond_1
     :goto_0
     new-instance v0, Lcom/google/firebase/firestore/r;
@@ -226,7 +206,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -236,7 +215,6 @@
 
     throw p1
 
-    .line 2
     :cond_1
     :goto_0
     iput-wide p1, p0, Lcom/google/firebase/firestore/r$b;->e:J
@@ -258,7 +236,6 @@
 
     const-string v0, "Provided host must not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -278,7 +255,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/firebase/firestore/r$b;->c:Z
 
     return-object p0
@@ -292,7 +268,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/firebase/firestore/r$b;->b:Z
 
     return-object p0
@@ -309,7 +284,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/firebase/firestore/r$b;->d:Z
 
     return-object p0

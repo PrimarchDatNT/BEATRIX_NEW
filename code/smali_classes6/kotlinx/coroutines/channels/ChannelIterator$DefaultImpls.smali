@@ -81,7 +81,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;->label:I
 
     const/4 v3, 0x1
@@ -98,7 +97,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -108,11 +106,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;->L$0:Ljava/lang/Object;
 
     iput v3, v0, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;->label:I
@@ -135,14 +131,12 @@
 
     if-eqz p1, :cond_4
 
-    .line 5
     invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 
-    .line 6
     :cond_4
     new-instance p0, Lcotlinx/coroutines/channels/ClosedReceiveChannelException;
 

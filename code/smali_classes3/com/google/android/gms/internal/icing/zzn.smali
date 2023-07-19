@@ -47,7 +47,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/m5;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/m5;-><init>()V
@@ -72,13 +71,10 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/internal/icing/zzn;->a:I
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/icing/zzn;->b:Landroid/os/Bundle;
 
     return-void
@@ -95,7 +91,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/gms/internal/icing/zzn;
 
@@ -105,11 +100,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/internal/icing/zzn;
 
-    .line 3
     iget v1, p0, Lcom/google/android/gms/internal/icing/zzn;->a:I
 
     iget v3, p1, Lcom/google/android/gms/internal/icing/zzn;->a:I
@@ -118,13 +111,11 @@
 
     return v2
 
-    .line 4
     :cond_2
     iget-object v1, p0, Lcom/google/android/gms/internal/icing/zzn;->b:Landroid/os/Bundle;
 
     if-nez v1, :cond_4
 
-    .line 5
     iget-object p1, p1, Lcom/google/android/gms/internal/icing/zzn;->b:Landroid/os/Bundle;
 
     if-nez p1, :cond_3
@@ -134,7 +125,6 @@
     :cond_3
     return v2
 
-    .line 6
     :cond_4
     iget-object v3, p1, Lcom/google/android/gms/internal/icing/zzn;->b:Landroid/os/Bundle;
 
@@ -142,7 +132,6 @@
 
     return v2
 
-    .line 7
     :cond_5
     invoke-virtual {v1}, Landroid/os/Bundle;->size()I
 
@@ -158,7 +147,6 @@
 
     return v2
 
-    .line 8
     :cond_6
     iget-object v1, p0, Lcom/google/android/gms/internal/icing/zzn;->b:Landroid/os/Bundle;
 
@@ -183,7 +171,6 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 9
     iget-object v4, p1, Lcom/google/android/gms/internal/icing/zzn;->b:Landroid/os/Bundle;
 
     invoke-virtual {v4, v3}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
@@ -194,7 +181,6 @@
 
     iget-object v4, p0, Lcom/google/android/gms/internal/icing/zzn;->b:Landroid/os/Bundle;
 
-    .line 10
     invoke-virtual {v4, v3}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -221,12 +207,10 @@
 .method public final hashCode()I
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget v1, p0, Lcom/google/android/gms/internal/icing/zzn;->a:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -235,12 +219,10 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/icing/zzn;->b:Landroid/os/Bundle;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Landroid/os/Bundle;->keySet()Ljava/util/Set;
 
     move-result-object v1
@@ -262,10 +244,8 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 5
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     iget-object v3, p0, Lcom/google/android/gms/internal/icing/zzn;->b:Landroid/os/Bundle;
 
     invoke-virtual {v3, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
@@ -281,7 +261,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 7
     invoke-interface {v0, v1}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -296,19 +275,16 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     iget v0, p0, Lcom/google/android/gms/internal/icing/zzn;->a:I
 
     const/4 v1, 0x1
 
     invoke-static {p1, v1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->F(Landroid/os/Parcel;II)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/zzn;->b:Landroid/os/Bundle;
 
     const/4 v1, 0x2
@@ -317,7 +293,6 @@
 
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->k(Landroid/os/Parcel;ILandroid/os/Bundle;Z)V
 
-    .line 4
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void

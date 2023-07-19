@@ -81,7 +81,6 @@
 .method static constructor <clinit>()V
     .locals 20
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v1, "OK"
@@ -92,7 +91,6 @@
 
     sput-object v0, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->OK:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v3, "CANCELLED"
@@ -103,7 +101,6 @@
 
     sput-object v1, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->CANCELLED:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 3
     new-instance v3, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v5, "UNKNOWN"
@@ -114,7 +111,6 @@
 
     sput-object v3, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->UNKNOWN:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 4
     new-instance v5, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v7, "INVALID_ARGUMENT"
@@ -125,7 +121,6 @@
 
     sput-object v5, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->INVALID_ARGUMENT:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 5
     new-instance v7, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v9, "DEADLINE_EXCEEDED"
@@ -136,7 +131,6 @@
 
     sput-object v7, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->DEADLINE_EXCEEDED:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 6
     new-instance v9, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v11, "NOT_FOUND"
@@ -147,7 +141,6 @@
 
     sput-object v9, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->NOT_FOUND:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 7
     new-instance v11, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v13, "ALREADY_EXISTS"
@@ -158,7 +151,6 @@
 
     sput-object v11, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->ALREADY_EXISTS:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 8
     new-instance v13, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v15, "PERMISSION_DENIED"
@@ -169,7 +161,6 @@
 
     sput-object v13, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->PERMISSION_DENIED:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 9
     new-instance v15, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v14, "RESOURCE_EXHAUSTED"
@@ -180,7 +171,6 @@
 
     sput-object v15, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->RESOURCE_EXHAUSTED:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 10
     new-instance v14, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v12, "FAILED_PRECONDITION"
@@ -191,7 +181,6 @@
 
     sput-object v14, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->FAILED_PRECONDITION:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 11
     new-instance v12, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v10, "ABORTED"
@@ -202,7 +191,6 @@
 
     sput-object v12, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->ABORTED:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 12
     new-instance v10, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v8, "OUT_OF_RANGE"
@@ -213,7 +201,6 @@
 
     sput-object v10, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->OUT_OF_RANGE:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 13
     new-instance v8, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v6, "UNIMPLEMENTED"
@@ -224,7 +211,6 @@
 
     sput-object v8, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->UNIMPLEMENTED:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 14
     new-instance v6, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v4, "INTERNAL"
@@ -235,7 +221,6 @@
 
     sput-object v6, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->INTERNAL:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 15
     new-instance v4, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v2, "UNAVAILABLE"
@@ -248,7 +233,6 @@
 
     sput-object v4, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->UNAVAILABLE:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 16
     new-instance v2, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v6, "DATA_LOSS"
@@ -261,7 +245,6 @@
 
     sput-object v2, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->DATA_LOSS:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 17
     new-instance v6, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     const-string v4, "UNAUTHENTICATED"
@@ -344,10 +327,8 @@
 
     aput-object v6, v4, v2
 
-    .line 18
     sput-object v4, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->$VALUES:[Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
-    .line 19
     invoke-static {}, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->buildStatusList()Landroid/util/SparseArray;
 
     move-result-object v0
@@ -365,10 +346,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->value:I
 
     return-void
@@ -385,12 +364,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->values()[Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     move-result-object v1
@@ -404,7 +381,6 @@
 
     aget-object v4, v1, v3
 
-    .line 3
     invoke-virtual {v4}, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->value()I
 
     move-result v5
@@ -417,7 +393,6 @@
 
     if-nez v5, :cond_0
 
-    .line 4
     invoke-virtual {v4}, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->value()I
 
     move-result v5
@@ -428,7 +403,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -446,7 +420,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {v4}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
@@ -473,7 +446,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->STATUS_LIST:Landroid/util/SparseArray;
 
     sget-object v1, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->UNKNOWN:Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
@@ -490,7 +462,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -505,7 +476,6 @@
 .method public static values()[Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->$VALUES:[Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;
 
     invoke-virtual {v0}, [Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->clone()Ljava/lang/Object;
@@ -524,7 +494,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/FirebaseFirestoreException$Code;->value:I
 
     return v0

@@ -28,7 +28,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$h;->b:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/r;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v1
@@ -84,7 +82,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$h;->b:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -93,13 +90,10 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->M:Landroid/widget/LinearLayout;
 
-    .line 3
     invoke-virtual {v1, p1}, Landroid/widget/LinearLayout;->setScaleX(F)V
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/widget/LinearLayout;->setScaleY(F)V
 
-    .line 5
     iget-boolean p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$h;->a:Z
 
     if-eq p1, p2, :cond_3
@@ -108,14 +102,11 @@
 
     const/16 p1, 0x1e
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 7
     :cond_0
     iput-boolean p2, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$h;->a:Z
 
-    .line 8
     invoke-virtual {v1}, Landroid/widget/LinearLayout;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
@@ -137,7 +128,6 @@
 
     long-to-int p2, v1
 
-    .line 9
     invoke-virtual {p1, p2}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
     goto :goto_0
@@ -147,10 +137,8 @@
 
     long-to-int p2, v1
 
-    .line 10
     invoke-virtual {p1, p2}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 11
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,7 +157,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$h;->b:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -184,36 +171,28 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {p1, v2}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->scaleX(F)Landroid/view/ViewPropertyAnimator;
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->scaleY(F)Landroid/view/ViewPropertyAnimator;
 
     const-wide/16 v1, 0xfa
 
-    .line 6
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
-    .line 7
     new-instance v1, Lcom/commsource/studio/gesture/LayerSelectComponent$h$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/gesture/LayerSelectComponent$h$a;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent$h;)V
 
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
-    .line 8
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$h;->b:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
@@ -223,16 +202,12 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ym;->M:Landroid/widget/LinearLayout;
 
-    .line 10
     invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setScaleX(F)V
 
-    .line 11
     invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setScaleY(F)V
 
-    .line 12
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 13
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -250,7 +225,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$h;->b:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -265,7 +239,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$h;->b:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
@@ -279,13 +252,11 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$h;->b:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-static {p1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->g(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -298,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$h;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -313,7 +283,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$h;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

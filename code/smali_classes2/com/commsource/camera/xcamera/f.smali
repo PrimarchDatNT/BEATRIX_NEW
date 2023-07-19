@@ -39,12 +39,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/f;->b:Landroid/app/Activity;
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -65,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/f;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -91,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -122,7 +118,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v1, 0x1
@@ -140,7 +135,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     array-length v3, p2
 
@@ -153,7 +147,6 @@
 
     if-ge v2, v3, :cond_a
 
-    .line 3
     aget v7, p3, v2
 
     const/4 v8, -0x1
@@ -174,7 +167,6 @@
 
     if-nez v7, :cond_4
 
-    .line 4
     aget-object v7, p2, v2
 
     invoke-static {v10, v7}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -187,7 +179,6 @@
 
     if-eqz v7, :cond_2
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->b:Landroid/app/Activity;
 
     invoke-static {p2}, Lcom/commsource/util/x0;->a(Landroid/content/Context;)Z
@@ -198,7 +189,6 @@
 
     if-nez v0, :cond_1
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -207,12 +197,10 @@
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;
 
@@ -224,12 +212,10 @@
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_2
     aget-object v7, p2, v2
 
@@ -243,7 +229,6 @@
 
     if-eqz v7, :cond_6
 
-    .line 11
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->b:Landroid/app/Activity;
 
     invoke-static {p2}, Lcom/commsource/util/x0;->a(Landroid/content/Context;)Z
@@ -254,7 +239,6 @@
 
     if-nez v0, :cond_3
 
-    .line 12
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -263,12 +247,10 @@
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 13
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 14
     :cond_3
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;
 
@@ -280,12 +262,10 @@
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 15
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_4
     aget-object v6, p2, v2
 
@@ -303,7 +283,6 @@
 
     goto :goto_2
 
-    .line 17
     :cond_5
     aget-object v6, p2, v2
 
@@ -319,7 +298,6 @@
 
     const/4 v5, 0x1
 
-    .line 18
     :cond_6
     :goto_2
     aget-object v6, p2, v2
@@ -336,22 +314,18 @@
 
     const-string v6, "microphone_auth_appr"
 
-    .line 19
     invoke-static {v6, v7}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 20
     aget v6, p3, v2
 
     if-nez v6, :cond_9
 
     const-string v6, "microphone_auth_yes"
 
-    .line 21
     invoke-static {v6, v7}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_3
 
-    .line 22
     :cond_7
     aget-object v6, p2, v2
 
@@ -363,22 +337,18 @@
 
     const-string v6, "camera_auth_appr"
 
-    .line 23
     invoke-static {v6, v7}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 24
     aget v6, p3, v2
 
     if-nez v6, :cond_9
 
     const-string v6, "camera_auth_yes"
 
-    .line 25
     invoke-static {v6, v7}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_3
 
-    .line 26
     :cond_8
     aget-object v6, p2, v2
 
@@ -390,17 +360,14 @@
 
     const-string v6, "album_auth_appr"
 
-    .line 27
     invoke-static {v6, v7}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 28
     aget v6, p3, v2
 
     if-nez v6, :cond_9
 
     const-string v6, "album_auth_yes"
 
-    .line 29
     invoke-static {v6, v7}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     :cond_9
@@ -414,7 +381,6 @@
 
     if-eqz v5, :cond_c
 
-    .line 30
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->b:Landroid/app/Activity;
 
     invoke-static {p2}, Lcom/commsource/util/x0;->a(Landroid/content/Context;)Z
@@ -425,7 +391,6 @@
 
     if-nez v0, :cond_b
 
-    .line 31
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -434,12 +399,10 @@
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 32
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 33
     :cond_b
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;
 
@@ -451,7 +414,6 @@
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 34
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -461,7 +423,6 @@
 
     if-nez v5, :cond_e
 
-    .line 35
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->b:Landroid/app/Activity;
 
     invoke-static {p2}, Lcom/commsource/util/x0;->a(Landroid/content/Context;)Z
@@ -472,7 +433,6 @@
 
     if-nez v0, :cond_d
 
-    .line 36
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -481,12 +441,10 @@
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 37
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 38
     :cond_d
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;
 
@@ -498,7 +456,6 @@
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 39
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -508,7 +465,6 @@
 
     if-eqz v5, :cond_10
 
-    .line 40
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->b:Landroid/app/Activity;
 
     invoke-static {p2}, Lcom/commsource/util/x0;->a(Landroid/content/Context;)Z
@@ -519,7 +475,6 @@
 
     if-nez v0, :cond_f
 
-    .line 41
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -528,12 +483,10 @@
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 42
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 43
     :cond_f
     iget-object p2, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;
 
@@ -545,12 +498,10 @@
 
     invoke-virtual {p2, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 44
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 45
     :cond_10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -564,17 +515,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     const-string v2, "android.permission.CAMERA"
 
-    .line 2
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/f;->b:Landroid/app/Activity;
 
     invoke-static {v2}, Lf/d/i/n;->M0(Landroid/content/Context;)Z
@@ -587,10 +535,8 @@
 
     const-string v2, "android.permission.RECORD_AUDIO"
 
-    .line 4
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/camera/xcamera/f;->b:Landroid/app/Activity;
 
     invoke-static {v2, v3}, Lf/d/i/n;->E1(Landroid/content/Context;Z)V
@@ -598,10 +544,8 @@
     :cond_0
     const-string v2, "android.permission.WRITE_EXTERNAL_STORAGE"
 
-    .line 6
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -610,12 +554,10 @@
 
     if-ge v2, v4, :cond_1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_1
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -626,7 +568,6 @@
     :goto_0
     if-ltz v2, :cond_3
 
-    .line 10
     iget-object v5, p0, Lcom/commsource/camera/xcamera/f;->b:Landroid/app/Activity;
 
     invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -641,7 +582,6 @@
 
     if-nez v5, :cond_2
 
-    .line 11
     invoke-interface {v1, v2}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     :cond_2
@@ -649,7 +589,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_3
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -657,12 +596,10 @@
 
     if-lez v2, :cond_5
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/camera/xcamera/f;->b:Landroid/app/Activity;
 
     new-array v3, v3, [Ljava/lang/String;
 
-    .line 14
     invoke-interface {v1, v3}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -671,12 +608,10 @@
 
     check-cast v1, [Ljava/lang/String;
 
-    .line 15
     invoke-static {v2, v1, v4}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
 
     goto :goto_1
 
-    .line 16
     :cond_4
     new-instance v1, Ljava/lang/NullPointerException;
 
@@ -688,7 +623,6 @@
 
     throw v1
 
-    .line 17
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -719,7 +653,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

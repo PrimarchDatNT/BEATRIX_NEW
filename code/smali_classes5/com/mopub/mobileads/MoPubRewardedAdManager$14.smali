@@ -27,7 +27,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$14;->val$currentlyShowingAdUnitId:Ljava/lang/String;
 
     iput-object p2, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$14;->val$serverCompletionUrl:Ljava/lang/String;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 9
 
-    .line 1
     invoke-static {}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$000()Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     move-result-object v0
@@ -63,7 +61,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lcom/mopub/common/MoPubReward;->getLabel()Ljava/lang/String;
 
@@ -76,14 +73,12 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object v0
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {v0}, Lcom/mopub/common/MoPubReward;->getAmount()I
 
@@ -96,7 +91,6 @@
     :goto_1
     move-object v6, v0
 
-    .line 5
     invoke-static {}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$000()Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     move-result-object v0
@@ -117,7 +111,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_2
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdAdapter;->getBaseAdClassName()Ljava/lang/String;
 
@@ -126,7 +119,6 @@
     :goto_2
     move-object v7, v0
 
-    .line 7
     invoke-static {}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$000()Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     move-result-object v0
@@ -141,7 +133,6 @@
 
     move-result-object v8
 
-    .line 8
     invoke-static {}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$000()Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     move-result-object v0
@@ -152,7 +143,6 @@
 
     iget-object v3, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$14;->val$serverCompletionUrl:Ljava/lang/String;
 
-    .line 9
     invoke-static {}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->access$000()Lcom/mopub/mobileads/MoPubRewardedAdManager;
 
     move-result-object v0
@@ -165,7 +155,6 @@
 
     move-result-object v4
 
-    .line 10
     invoke-static/range {v2 .. v8}, Lcom/mopub/mobileads/RewardedAdCompletionRequestHandler;->makeRewardedAdCompletionRequest(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void

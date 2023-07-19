@@ -73,7 +73,6 @@
     :cond_2
     const/4 v1, 0x1
 
-    .line 1
     :goto_0
     iget-object p1, p0, Lcom/commsource/mypage/album/MoreComponent$j;->a:Lcom/commsource/mypage/album/MoreComponent;
 
@@ -83,7 +82,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/mypage/f0;->e(Landroid/content/Context;I)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/album/MoreComponent$j;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -96,7 +94,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/mypage/album/z;->O(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/mypage/album/MoreComponent$j;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -109,7 +106,6 @@
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/mypage/album/MoreComponent$j;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-static {p1}, Lcom/commsource/mypage/album/MoreComponent;->f(Lcom/commsource/mypage/album/MoreComponent;)Lf/d/h/a/a;
@@ -120,7 +116,6 @@
 
     invoke-virtual {p1}, Lf/d/h/a/a;->dismiss()V
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -36,20 +36,16 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/library/optimus/apm/a;->b:Z
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/library/optimus/apm/a;->c:Z
 
-    .line 4
     new-instance v0, Lcom/meitu/library/optimus/apm/File/UploadResultCache;
 
     invoke-direct {v0}, Lcom/meitu/library/optimus/apm/File/UploadResultCache;-><init>()V
@@ -62,7 +58,6 @@
 .method static synthetic a(Landroid/content/Context;)Landroid/content/Context;
     .locals 0
 
-    .line 1
     sput-object p0, Lcom/meitu/library/optimus/apm/a;->g:Landroid/content/Context;
 
     return-object p0
@@ -71,7 +66,6 @@
 .method static synthetic b(Lcom/meitu/library/optimus/apm/a;)Lcom/meitu/library/optimus/apm/a;
     .locals 0
 
-    .line 1
     sput-object p0, Lcom/meitu/library/optimus/apm/a;->h:Lcom/meitu/library/optimus/apm/a;
 
     return-object p0
@@ -80,7 +74,6 @@
 .method protected static d()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/meitu/library/optimus/apm/a;->h:Lcom/meitu/library/optimus/apm/a;
 
     if-eqz v0, :cond_0
@@ -101,7 +94,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/meitu/library/optimus/apm/a;->h:Lcom/meitu/library/optimus/apm/a;
 
     invoke-virtual {v0}, Lcom/meitu/library/optimus/apm/a;->c()V
@@ -113,7 +105,6 @@
 .method public static h()Landroid/content/Context;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/meitu/library/optimus/apm/a;->g:Landroid/content/Context;
 
     return-object v0
@@ -124,7 +115,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/optimus/apm/x/j;->e(Ljava/util/concurrent/ExecutorService;)Z
 
     move-result p0
@@ -145,7 +135,6 @@
 .method public e()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/optimus/apm/a;->f:Lcom/meitu/library/optimus/apm/File/UploadResultCache;
 
     invoke-virtual {v0}, Lcom/meitu/library/optimus/apm/File/UploadResultCache;->a()V
@@ -156,7 +145,6 @@
 .method public f(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/optimus/apm/a;->f:Lcom/meitu/library/optimus/apm/File/UploadResultCache;
 
     const/4 v1, 0x0
@@ -169,7 +157,6 @@
 .method public g()Lcom/meitu/library/optimus/apm/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/optimus/apm/a;->a:Lcom/meitu/library/optimus/apm/e;
 
     return-object v0
@@ -185,13 +172,11 @@
 
     return-void
 
-    .line 1
     :cond_0
     iput-boolean p2, p0, Lcom/meitu/library/optimus/apm/a;->b:Z
 
     if-eqz p2, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
@@ -205,7 +190,6 @@
 .method public l(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/a;->d:Ljava/lang/String;
 
     return-void
@@ -214,7 +198,6 @@
 .method public m(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/library/optimus/apm/a;->c:Z
 
     return-void
@@ -240,12 +223,10 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     new-instance p2, Lorg/json/JSONObject;
 
     invoke-direct {p2}, Lorg/json/JSONObject;-><init>()V
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
@@ -255,7 +236,6 @@
 
     move-result-object p2
 
-    .line 3
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/meitu/library/optimus/apm/a;->p(Ljava/lang/String;[BLjava/util/List;Lcom/meitu/library/optimus/apm/a$a;)V
 
     return-void
@@ -316,12 +296,10 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     new-instance p2, Lorg/json/JSONObject;
 
     invoke-direct {p2}, Lorg/json/JSONObject;-><init>()V
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
@@ -331,7 +309,6 @@
 
     move-result-object p2
 
-    .line 3
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/meitu/library/optimus/apm/a;->t(Ljava/lang/String;[BLjava/util/List;Lcom/meitu/library/optimus/apm/a$a;)Lcom/meitu/library/optimus/apm/l;
 
     move-result-object p1

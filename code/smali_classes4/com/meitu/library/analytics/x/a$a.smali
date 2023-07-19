@@ -26,23 +26,18 @@
 .method constructor <init>(Lcom/meitu/library/analytics/x/a;Landroid/content/Context;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/x/a$a;->c:Lcom/meitu/library/analytics/x/a;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
 
-    .line 2
     invoke-static {p1, p0}, Lcom/meitu/library/analytics/x/a;->b(Lcom/meitu/library/analytics/x/a;Lcom/meitu/library/analytics/x/a$a;)Lcom/meitu/library/analytics/x/a$a;
 
-    .line 3
     iput-wide p3, p0, Lcom/meitu/library/analytics/x/a$a;->a:J
 
-    .line 4
     iput-object p2, p0, Lcom/meitu/library/analytics/x/a$a;->b:Landroid/content/Context;
 
     const-string p1, "Teemo_Mdid_GetDeviceThread"
 
-    .line 5
     invoke-virtual {p0, p1}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
     return-void
@@ -61,7 +56,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     iget-object v3, p0, Lcom/meitu/library/analytics/x/a$a;->c:Lcom/meitu/library/analytics/x/a;
 
@@ -71,17 +65,14 @@
 
     move-result v3
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 3
     iget-wide v6, p0, Lcom/meitu/library/analytics/x/a$a;->a:J
 
     sub-long/2addr v4, v6
 
-    .line 4
     iget-object v6, p0, Lcom/meitu/library/analytics/x/a$a;->c:Lcom/meitu/library/analytics/x/a;
 
     invoke-static {v6}, Lcom/meitu/library/analytics/x/a;->e(Lcom/meitu/library/analytics/x/a;)Lcom/meitu/library/analytics/x/b;
@@ -90,7 +81,6 @@
 
     invoke-virtual {v6, v3}, Lcom/meitu/library/analytics/x/b;->a(I)V
 
-    .line 5
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -137,29 +127,24 @@
 
     aput-object v3, v5, v6
 
-    .line 6
     invoke-static {v0, v4, v5}, Lcom/meitu/library/analytics/y/j/d;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     :goto_0
     iget-object v0, p0, Lcom/meitu/library/analytics/x/a$a;->c:Lcom/meitu/library/analytics/x/a;
 
     invoke-static {v0, v2}, Lcom/meitu/library/analytics/x/a;->b(Lcom/meitu/library/analytics/x/a;Lcom/meitu/library/analytics/x/a$a;)Lcom/meitu/library/analytics/x/a$a;
 
-    .line 8
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :goto_1
     iget-object v3, p0, Lcom/meitu/library/analytics/x/a$a;->c:Lcom/meitu/library/analytics/x/a;
 
     invoke-static {v3, v2}, Lcom/meitu/library/analytics/x/a;->b(Lcom/meitu/library/analytics/x/a;Lcom/meitu/library/analytics/x/a$a;)Lcom/meitu/library/analytics/x/a$a;
 
-    .line 10
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v0

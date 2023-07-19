@@ -16,7 +16,6 @@
 .method public static a(Landroid/content/SharedPreferences;Ljava/lang/String;Ljava/lang/Integer;)Ljava/lang/Integer;
     .locals 1
 
-    .line 1
     :try_start_0
     new-instance v0, Lcom/google/android/gms/flags/impl/e;
 
@@ -37,7 +36,6 @@
 
     const-string p1, "Flag value not available, returning default: "
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object p0

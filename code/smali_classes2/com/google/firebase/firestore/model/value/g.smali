@@ -11,10 +11,8 @@
 .method private constructor <init>(Ljava/lang/Long;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/model/value/i;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v0
@@ -27,7 +25,6 @@
 .method public static s(Ljava/lang/Long;)Lcom/google/firebase/firestore/model/value/g;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/model/value/g;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/firestore/model/value/g;-><init>(Ljava/lang/Long;)V
@@ -40,7 +37,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/model/value/g;
 
     if-eqz v0, :cond_0
@@ -69,7 +65,6 @@
 .method public bridge synthetic h()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/value/g;->p()Ljava/lang/Long;
 
     move-result-object v0
@@ -80,7 +75,6 @@
 .method public hashCode()I
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/model/value/g;->M:J
 
     const/16 v2, 0x20
@@ -97,7 +91,6 @@
 .method public o()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/model/value/g;->M:J
 
     return-wide v0
@@ -106,7 +99,6 @@
 .method public p()Ljava/lang/Long;
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/model/value/g;->M:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;

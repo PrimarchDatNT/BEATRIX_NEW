@@ -67,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v1
@@ -80,7 +79,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$b;->a:Lcom/commsource/camera/xcamera/cover/tips/TipsCover;
 
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
@@ -101,7 +99,6 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;->G(Lcom/commsource/camera/xcamera/cover/tips/TipsCover;Ljava/lang/String;J)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -115,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$b;->a(Lcotlin/Pair;)V

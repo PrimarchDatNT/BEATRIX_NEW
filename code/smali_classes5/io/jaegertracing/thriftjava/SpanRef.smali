@@ -85,7 +85,6 @@
 .method static constructor <clinit>()V
     .locals 12
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TStruct;
 
     const-string v1, "SpanRef"
@@ -94,7 +93,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/SpanRef;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v1, "refType"
@@ -107,7 +105,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/SpanRef;->REF_TYPE_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 3
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v2, "traceIdLow"
@@ -120,7 +117,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/SpanRef;->TRACE_ID_LOW_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 4
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v5, "traceIdHigh"
@@ -131,7 +127,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/SpanRef;->TRACE_ID_HIGH_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 5
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v6, "spanId"
@@ -142,7 +137,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/SpanRef;->SPAN_ID_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 6
     new-instance v0, Lio/jaegertracing/thriftjava/SpanRef$c;
 
     const/4 v7, 0x0
@@ -151,21 +145,18 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/SpanRef;->STANDARD_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 7
     new-instance v0, Lio/jaegertracing/thriftjava/SpanRef$e;
 
     invoke-direct {v0, v7}, Lio/jaegertracing/thriftjava/SpanRef$e;-><init>(Lio/jaegertracing/thriftjava/SpanRef$a;)V
 
     sput-object v0, Lio/jaegertracing/thriftjava/SpanRef;->TUPLE_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 8
     new-instance v0, Ljava/util/EnumMap;
 
     const-class v7, Lio/jaegertracing/thriftjava/SpanRef$_Fields;
 
     invoke-direct {v0, v7}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 9
     sget-object v7, Lio/jaegertracing/thriftjava/SpanRef$_Fields;->REF_TYPE:Lio/jaegertracing/thriftjava/SpanRef$_Fields;
 
     new-instance v8, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -182,7 +173,6 @@
 
     invoke-interface {v0, v7, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     sget-object v1, Lio/jaegertracing/thriftjava/SpanRef$_Fields;->TRACE_ID_LOW:Lio/jaegertracing/thriftjava/SpanRef$_Fields;
 
     new-instance v7, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -195,7 +185,6 @@
 
     invoke-interface {v0, v1, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     sget-object v1, Lio/jaegertracing/thriftjava/SpanRef$_Fields;->TRACE_ID_HIGH:Lio/jaegertracing/thriftjava/SpanRef$_Fields;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -208,7 +197,6 @@
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     sget-object v1, Lio/jaegertracing/thriftjava/SpanRef$_Fields;->SPAN_ID:Lio/jaegertracing/thriftjava/SpanRef$_Fields;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -221,14 +209,12 @@
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     sput-object v0, Lio/jaegertracing/thriftjava/SpanRef;->metaDataMap:Ljava/util/Map;
 
-    .line 14
     const-class v1, Lio/jaegertracing/thriftjava/SpanRef;
 
     invoke-static {v1, v0}, Lorg/apache/thrift/meta_data/FieldMetaData;->addStructMetaDataMap(Ljava/lang/Class;Ljava/util/Map;)V
@@ -239,12 +225,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
     return-void
@@ -253,43 +237,35 @@
 .method public constructor <init>(Lio/jaegertracing/thriftjava/SpanRef;)V
     .locals 2
 
-    .line 11
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 12
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
-    .line 13
     iget-byte v0, p1, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
-    .line 14
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/SpanRef;->isSetRefType()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 15
     iget-object v0, p1, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
     iput-object v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
-    .line 16
     :cond_0
     iget-wide v0, p1, Lio/jaegertracing/thriftjava/SpanRef;->traceIdLow:J
 
     iput-wide v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdLow:J
 
-    .line 17
     iget-wide v0, p1, Lio/jaegertracing/thriftjava/SpanRef;->traceIdHigh:J
 
     iput-wide v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdHigh:J
 
-    .line 18
     iget-wide v0, p1, Lio/jaegertracing/thriftjava/SpanRef;->spanId:J
 
     iput-wide v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->spanId:J
@@ -300,30 +276,22 @@
 .method public constructor <init>(Lio/jaegertracing/thriftjava/SpanRefType;JJJ)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lio/jaegertracing/thriftjava/SpanRef;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
-    .line 5
     iput-wide p2, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdLow:J
 
     const/4 p1, 0x1
 
-    .line 6
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/SpanRef;->setTraceIdLowIsSet(Z)V
 
-    .line 7
     iput-wide p4, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdHigh:J
 
-    .line 8
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/SpanRef;->setTraceIdHighIsSet(Z)V
 
-    .line 9
     iput-wide p6, p0, Lio/jaegertracing/thriftjava/SpanRef;->spanId:J
 
-    .line 10
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/SpanRef;->setSpanIdIsSet(Z)V
 
     return-void
@@ -332,7 +300,6 @@
 .method static synthetic access$300()Lorg/apache/thrift/protocol/TStruct;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/SpanRef;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
     return-object v0
@@ -341,7 +308,6 @@
 .method static synthetic access$400()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/SpanRef;->REF_TYPE_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -350,7 +316,6 @@
 .method static synthetic access$500()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/SpanRef;->TRACE_ID_LOW_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -359,7 +324,6 @@
 .method static synthetic access$600()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/SpanRef;->TRACE_ID_HIGH_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -368,7 +332,6 @@
 .method static synthetic access$700()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/SpanRef;->SPAN_ID_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -385,11 +348,9 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
     new-instance v1, Lorg/apache/thrift/transport/TIOStreamTransport;
@@ -407,7 +368,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -427,7 +387,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/apache/thrift/scheme/StandardScheme;
 
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TProtocol;->getScheme()Ljava/lang/Class;
@@ -463,7 +422,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -482,7 +440,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -497,29 +454,22 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p0, v0}, Lio/jaegertracing/thriftjava/SpanRef;->setTraceIdLowIsSet(Z)V
 
     const-wide/16 v1, 0x0
 
-    .line 3
     iput-wide v1, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdLow:J
 
-    .line 4
     invoke-virtual {p0, v0}, Lio/jaegertracing/thriftjava/SpanRef;->setTraceIdHighIsSet(Z)V
 
-    .line 5
     iput-wide v1, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdHigh:J
 
-    .line 6
     invoke-virtual {p0, v0}, Lio/jaegertracing/thriftjava/SpanRef;->setSpanIdIsSet(Z)V
 
-    .line 7
     iput-wide v1, p0, Lio/jaegertracing/thriftjava/SpanRef;->spanId:J
 
     return-void
@@ -528,7 +478,6 @@
 .method public compareTo(Lio/jaegertracing/thriftjava/SpanRef;)I
     .locals 4
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -543,7 +492,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -566,7 +514,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetRefType()Z
 
@@ -592,7 +539,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetRefType()Z
 
@@ -600,7 +546,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
     iget-object v1, p1, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
@@ -613,7 +558,6 @@
 
     return v0
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetTraceIdLow()Z
 
@@ -639,7 +583,6 @@
 
     return v0
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetTraceIdLow()Z
 
@@ -647,7 +590,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 9
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdLow:J
 
     iget-wide v2, p1, Lio/jaegertracing/thriftjava/SpanRef;->traceIdLow:J
@@ -660,7 +602,6 @@
 
     return v0
 
-    .line 10
     :cond_4
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetTraceIdHigh()Z
 
@@ -686,7 +627,6 @@
 
     return v0
 
-    .line 11
     :cond_5
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetTraceIdHigh()Z
 
@@ -694,7 +634,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 12
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdHigh:J
 
     iget-wide v2, p1, Lio/jaegertracing/thriftjava/SpanRef;->traceIdHigh:J
@@ -707,7 +646,6 @@
 
     return v0
 
-    .line 13
     :cond_6
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetSpanId()Z
 
@@ -733,7 +671,6 @@
 
     return v0
 
-    .line 14
     :cond_7
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetSpanId()Z
 
@@ -741,7 +678,6 @@
 
     if-eqz v0, :cond_8
 
-    .line 15
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->spanId:J
 
     iget-wide v2, p1, Lio/jaegertracing/thriftjava/SpanRef;->spanId:J
@@ -763,7 +699,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/SpanRef;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/SpanRef;->compareTo(Lio/jaegertracing/thriftjava/SpanRef;)I
@@ -776,7 +711,6 @@
 .method public deepCopy()Lio/jaegertracing/thriftjava/SpanRef;
     .locals 1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/thriftjava/SpanRef;
 
     invoke-direct {v0, p0}, Lio/jaegertracing/thriftjava/SpanRef;-><init>(Lio/jaegertracing/thriftjava/SpanRef;)V
@@ -787,7 +721,6 @@
 .method public bridge synthetic deepCopy()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->deepCopy()Lio/jaegertracing/thriftjava/SpanRef;
 
     move-result-object v0
@@ -811,13 +744,11 @@
 
     return v1
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetRefType()Z
 
     move-result v2
 
-    .line 4
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/SpanRef;->isSetRefType()Z
 
     move-result v3
@@ -833,7 +764,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     iget-object v2, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
@@ -847,7 +777,6 @@
 
     return v0
 
-    .line 6
     :cond_4
     iget-wide v2, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdLow:J
 
@@ -859,7 +788,6 @@
 
     return v0
 
-    .line 7
     :cond_5
     iget-wide v2, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdHigh:J
 
@@ -871,7 +799,6 @@
 
     return v0
 
-    .line 8
     :cond_6
     iget-wide v2, p0, Lio/jaegertracing/thriftjava/SpanRef;->spanId:J
 
@@ -900,13 +827,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/jaegertracing/thriftjava/SpanRef;
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lio/jaegertracing/thriftjava/SpanRef;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/SpanRef;->equals(Lio/jaegertracing/thriftjava/SpanRef;)Z
@@ -922,7 +847,6 @@
 .method public fieldForId(I)Lio/jaegertracing/thriftjava/SpanRef$_Fields;
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lio/jaegertracing/thriftjava/SpanRef$_Fields;->findByThriftId(I)Lio/jaegertracing/thriftjava/SpanRef$_Fields;
 
     move-result-object p1
@@ -933,7 +857,6 @@
 .method public bridge synthetic fieldForId(I)Lorg/apache/thrift/TFieldIdEnum;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/SpanRef;->fieldForId(I)Lio/jaegertracing/thriftjava/SpanRef$_Fields;
 
     move-result-object p1
@@ -944,7 +867,6 @@
 .method public getFieldValue(Lio/jaegertracing/thriftjava/SpanRef$_Fields;)Ljava/lang/Object;
     .locals 2
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/SpanRef$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -969,7 +891,6 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->getSpanId()J
 
     move-result-wide v0
@@ -980,7 +901,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -988,7 +908,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->getTraceIdHigh()J
 
@@ -1000,7 +919,6 @@
 
     return-object p1
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->getTraceIdLow()J
 
@@ -1012,7 +930,6 @@
 
     return-object p1
 
-    .line 7
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->getRefType()Lio/jaegertracing/thriftjava/SpanRefType;
 
@@ -1024,7 +941,6 @@
 .method public bridge synthetic getFieldValue(Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/SpanRef$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/SpanRef;->getFieldValue(Lio/jaegertracing/thriftjava/SpanRef$_Fields;)Ljava/lang/Object;
@@ -1037,7 +953,6 @@
 .method public getRefType()Lio/jaegertracing/thriftjava/SpanRefType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
     return-object v0
@@ -1046,7 +961,6 @@
 .method public getSpanId()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->spanId:J
 
     return-wide v0
@@ -1055,7 +969,6 @@
 .method public getTraceIdHigh()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdHigh:J
 
     return-wide v0
@@ -1064,7 +977,6 @@
 .method public getTraceIdLow()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdLow:J
 
     return-wide v0
@@ -1073,7 +985,6 @@
 .method public hashCode()I
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetRefType()Z
 
     move-result v0
@@ -1092,7 +1003,6 @@
 
     add-int/2addr v0, v1
 
-    .line 2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetRefType()Z
 
     move-result v2
@@ -1101,7 +1011,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 3
     iget-object v2, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
     invoke-virtual {v2}, Lio/jaegertracing/thriftjava/SpanRefType;->getValue()I
@@ -1113,7 +1022,6 @@
     :cond_1
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 4
     iget-wide v2, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdLow:J
 
     invoke-static {v2, v3}, Lorg/apache/thrift/TBaseHelper;->hashCode(J)I
@@ -1124,7 +1032,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 5
     iget-wide v2, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdHigh:J
 
     invoke-static {v2, v3}, Lorg/apache/thrift/TBaseHelper;->hashCode(J)I
@@ -1135,7 +1042,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 6
     iget-wide v1, p0, Lio/jaegertracing/thriftjava/SpanRef;->spanId:J
 
     invoke-static {v1, v2}, Lorg/apache/thrift/TBaseHelper;->hashCode(J)I
@@ -1152,7 +1058,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/SpanRef$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1177,14 +1082,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetSpanId()Z
 
     move-result p1
 
     return p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1192,7 +1095,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetTraceIdHigh()Z
 
@@ -1200,7 +1102,6 @@
 
     return p1
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetTraceIdLow()Z
 
@@ -1208,7 +1109,6 @@
 
     return p1
 
-    .line 7
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->isSetRefType()Z
 
@@ -1216,7 +1116,6 @@
 
     return p1
 
-    .line 8
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1228,7 +1127,6 @@
 .method public bridge synthetic isSet(Lorg/apache/thrift/TFieldIdEnum;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/SpanRef$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/SpanRef;->isSet(Lio/jaegertracing/thriftjava/SpanRef$_Fields;)Z
@@ -1241,7 +1139,6 @@
 .method public isSetRefType()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
     if-eqz v0, :cond_0
@@ -1260,7 +1157,6 @@
 .method public isSetSpanId()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
     const/4 v1, 0x2
@@ -1275,7 +1171,6 @@
 .method public isSetTraceIdHigh()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
     const/4 v1, 0x1
@@ -1290,7 +1185,6 @@
 .method public isSetTraceIdLow()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -1310,7 +1204,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thriftjava/SpanRef;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0
@@ -1323,7 +1216,6 @@
 .method public setFieldValue(Lio/jaegertracing/thriftjava/SpanRef$_Fields;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/SpanRef$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1353,12 +1245,10 @@
     :cond_0
     if-nez p2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->unsetSpanId()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     check-cast p2, Ljava/lang/Long;
 
@@ -1373,12 +1263,10 @@
     :cond_2
     if-nez p2, :cond_3
 
-    .line 5
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->unsetTraceIdHigh()V
 
     goto :goto_0
 
-    .line 6
     :cond_3
     check-cast p2, Ljava/lang/Long;
 
@@ -1393,12 +1281,10 @@
     :cond_4
     if-nez p2, :cond_5
 
-    .line 7
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->unsetTraceIdLow()V
 
     goto :goto_0
 
-    .line 8
     :cond_5
     check-cast p2, Ljava/lang/Long;
 
@@ -1413,12 +1299,10 @@
     :cond_6
     if-nez p2, :cond_7
 
-    .line 9
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/SpanRef;->unsetRefType()V
 
     goto :goto_0
 
-    .line 10
     :cond_7
     check-cast p2, Lio/jaegertracing/thriftjava/SpanRefType;
 
@@ -1431,7 +1315,6 @@
 .method public bridge synthetic setFieldValue(Lorg/apache/thrift/TFieldIdEnum;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/SpanRef$_Fields;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thriftjava/SpanRef;->setFieldValue(Lio/jaegertracing/thriftjava/SpanRef$_Fields;Ljava/lang/Object;)V
@@ -1442,7 +1325,6 @@
 .method public setRefType(Lio/jaegertracing/thriftjava/SpanRefType;)Lio/jaegertracing/thriftjava/SpanRef;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
     return-object p0
@@ -1455,7 +1337,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
     :cond_0
@@ -1465,12 +1346,10 @@
 .method public setSpanId(J)Lio/jaegertracing/thriftjava/SpanRef;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/thriftjava/SpanRef;->spanId:J
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/SpanRef;->setSpanIdIsSet(Z)V
 
     return-object p0
@@ -1479,7 +1358,6 @@
 .method public setSpanIdIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
     const/4 v1, 0x2
@@ -1496,12 +1374,10 @@
 .method public setTraceIdHigh(J)Lio/jaegertracing/thriftjava/SpanRef;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdHigh:J
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/SpanRef;->setTraceIdHighIsSet(Z)V
 
     return-object p0
@@ -1510,7 +1386,6 @@
 .method public setTraceIdHighIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
     const/4 v1, 0x1
@@ -1527,12 +1402,10 @@
 .method public setTraceIdLow(J)Lio/jaegertracing/thriftjava/SpanRef;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdLow:J
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/SpanRef;->setTraceIdLowIsSet(Z)V
 
     return-object p0
@@ -1541,7 +1414,6 @@
 .method public setTraceIdLowIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -1558,7 +1430,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "SpanRef("
@@ -1567,73 +1438,58 @@
 
     const-string v1, "refType:"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object v1, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
     if-nez v1, :cond_0
 
     const-string v1, "null"
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     :goto_0
     const-string v1, ", "
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "traceIdLow:"
 
-    .line 7
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     iget-wide v2, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdLow:J
 
     invoke-virtual {v0, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, "traceIdHigh:"
 
-    .line 10
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     iget-wide v2, p0, Lio/jaegertracing/thriftjava/SpanRef;->traceIdHigh:J
 
     invoke-virtual {v0, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, "spanId:"
 
-    .line 13
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     iget-wide v1, p0, Lio/jaegertracing/thriftjava/SpanRef;->spanId:J
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     const-string v1, ")"
 
-    .line 15
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -1646,7 +1502,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
     return-void
@@ -1655,7 +1510,6 @@
 .method public unsetSpanId()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
     const/4 v1, 0x2
@@ -1672,7 +1526,6 @@
 .method public unsetTraceIdHigh()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
     const/4 v1, 0x1
@@ -1689,7 +1542,6 @@
 .method public unsetTraceIdLow()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -1711,14 +1563,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/SpanRef;->refType:Lio/jaegertracing/thriftjava/SpanRefType;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -1753,7 +1603,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thriftjava/SpanRef;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0

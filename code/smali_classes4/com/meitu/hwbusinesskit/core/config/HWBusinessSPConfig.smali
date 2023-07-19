@@ -15,7 +15,6 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v0
@@ -32,23 +31,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;->INSTANCE:Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;->INSTANCE:Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     const-string v3, "hw_business_kit_shared_preferences_name"
@@ -57,7 +52,6 @@
 
     sput-object v2, Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;->INSTANCE:Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -74,7 +68,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;->INSTANCE:Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
@@ -95,12 +88,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;->getInstance()Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
@@ -126,7 +117,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p0
@@ -135,7 +125,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;->getInstance()Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
@@ -145,12 +134,10 @@
 
     invoke-virtual {p0, v1, p1}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->putValue(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

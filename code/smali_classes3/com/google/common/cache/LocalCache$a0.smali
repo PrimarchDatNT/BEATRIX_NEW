@@ -39,10 +39,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/cache/LocalCache$p;-><init>(Ljava/lang/Object;)V
 
-    .line 2
     iput p2, p0, Lcom/google/common/cache/LocalCache$a0;->b:I
 
     return-void
@@ -53,7 +51,6 @@
 .method public c()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/cache/LocalCache$a0;->b:I
 
     return v0

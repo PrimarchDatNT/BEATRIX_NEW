@@ -25,10 +25,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTVFXContent;->native_init()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -37,15 +35,12 @@
 .method public constructor <init>(J)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/media/mtmvcore/MTVFXContent;->nativeReleased:Z
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/meitu/media/mtmvcore/MTVFXContent;->native_setup(J)V
 
     return-void
@@ -110,20 +105,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTVFXContent;->nativeReleased:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -152,26 +143,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTVFXContent;->nativeReleased:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/media/mtmvcore/MTVFXContent;->native_finalize()V
 
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTVFXContent;->nativeReleased:Z
 
     :cond_0
     const-wide/16 v1, 0x0
 
-    .line 4
     iput-wide v1, p0, Lcom/meitu/media/mtmvcore/MTVFXContent;->mNativeContext:J
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

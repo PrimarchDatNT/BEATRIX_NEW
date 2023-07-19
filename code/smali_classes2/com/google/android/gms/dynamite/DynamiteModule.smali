@@ -96,56 +96,48 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/ThreadLocal;
 
     invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/dynamite/DynamiteModule;->g:Ljava/lang/ThreadLocal;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/dynamite/a;
 
     invoke-direct {v0}, Lcom/google/android/gms/dynamite/a;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/dynamite/DynamiteModule;->h:Lcom/google/android/gms/dynamite/DynamiteModule$a$a;
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/dynamite/b;
 
     invoke-direct {v0}, Lcom/google/android/gms/dynamite/b;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/dynamite/DynamiteModule;->i:Lcom/google/android/gms/dynamite/DynamiteModule$a;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/dynamite/c;
 
     invoke-direct {v0}, Lcom/google/android/gms/dynamite/c;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/dynamite/DynamiteModule;->j:Lcom/google/android/gms/dynamite/DynamiteModule$a;
 
-    .line 5
     new-instance v0, Lcom/google/android/gms/dynamite/d;
 
     invoke-direct {v0}, Lcom/google/android/gms/dynamite/d;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/dynamite/DynamiteModule;->k:Lcom/google/android/gms/dynamite/DynamiteModule$a;
 
-    .line 6
     new-instance v0, Lcom/google/android/gms/dynamite/e;
 
     invoke-direct {v0}, Lcom/google/android/gms/dynamite/e;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/dynamite/DynamiteModule;->l:Lcom/google/android/gms/dynamite/DynamiteModule$a;
 
-    .line 7
     new-instance v0, Lcom/google/android/gms/dynamite/f;
 
     invoke-direct {v0}, Lcom/google/android/gms/dynamite/f;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/dynamite/DynamiteModule;->m:Lcom/google/android/gms/dynamite/DynamiteModule$a;
 
-    .line 8
     new-instance v0, Lcom/google/android/gms/dynamite/g;
 
     invoke-direct {v0}, Lcom/google/android/gms/dynamite/g;-><init>()V
@@ -158,10 +150,8 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -182,13 +172,11 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object p0
@@ -221,28 +209,24 @@
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {p0, v2}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p0
 
     const-string v2, "MODULE_ID"
 
-    .line 4
     invoke-virtual {p0, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v2
 
     const-string v3, "MODULE_VERSION"
 
-    .line 5
     invoke-virtual {p0, v3}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object p0
 
     const/4 v3, 0x0
 
-    .line 6
     invoke-virtual {v2, v3}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -253,7 +237,6 @@
 
     if-nez v4, :cond_0
 
-    .line 7
     invoke-virtual {v2, v3}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -306,12 +289,10 @@
 
     move-result-object p0
 
-    .line 8
     invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     return v1
 
-    .line 9
     :cond_0
     invoke-virtual {p0, v3}, Ljava/lang/reflect/Field;->getInt(Ljava/lang/Object;)I
 
@@ -327,7 +308,6 @@
 
     const-string p1, "Failed to load module descriptor class: "
 
-    .line 10
     invoke-virtual {p0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object p0
@@ -358,7 +338,6 @@
 
     goto :goto_1
 
-    .line 11
     :catch_1
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -401,7 +380,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcom/google/android/gms/dynamite/DynamiteModule;->f(Landroid/content/Context;Ljava/lang/String;Z)I
 
     move-result p0
@@ -424,7 +402,6 @@
 
     const-string v1, "DynamiteModule"
 
-    .line 1
     sget-object v2, Lcom/google/android/gms/dynamite/DynamiteModule;->g:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v2}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -433,26 +410,21 @@
 
     check-cast v3, Lcom/google/android/gms/dynamite/DynamiteModule$b;
 
-    .line 2
     new-instance v4, Lcom/google/android/gms/dynamite/DynamiteModule$b;
 
     const/4 v5, 0x0
 
     invoke-direct {v4, v5}, Lcom/google/android/gms/dynamite/DynamiteModule$b;-><init>(Lcom/google/android/gms/dynamite/a;)V
 
-    .line 3
     invoke-virtual {v2, v4}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
 
-    .line 4
     :try_start_0
     sget-object v6, Lcom/google/android/gms/dynamite/DynamiteModule;->h:Lcom/google/android/gms/dynamite/DynamiteModule$a$a;
 
-    .line 5
     invoke-interface {p1, p0, p2, v6}, Lcom/google/android/gms/dynamite/DynamiteModule$a;->a(Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/dynamite/DynamiteModule$a$a;)Lcom/google/android/gms/dynamite/DynamiteModule$a$b;
 
     move-result-object v6
 
-    .line 6
     iget v7, v6, Lcom/google/android/gms/dynamite/DynamiteModule$a$b;->a:I
 
     iget v8, v6, Lcom/google/android/gms/dynamite/DynamiteModule$a$b;->b:I
@@ -507,7 +479,6 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 7
     iget v0, v6, Lcom/google/android/gms/dynamite/DynamiteModule$a$b;->c:I
 
     if-eqz v0, :cond_9
@@ -532,22 +503,18 @@
     :cond_1
     if-ne v0, v7, :cond_3
 
-    .line 8
     invoke-static {p0, p2}, Lcom/google/android/gms/dynamite/DynamiteModule;->m(Landroid/content/Context;Ljava/lang/String;)Lcom/google/android/gms/dynamite/DynamiteModule;
 
     move-result-object p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     iget-object p1, v4, Lcom/google/android/gms/dynamite/DynamiteModule$b;->a:Landroid/database/Cursor;
 
     if-eqz p1, :cond_2
 
-    .line 10
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
 
-    .line 11
     :cond_2
     invoke-virtual {v2, v3}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
 
@@ -556,7 +523,6 @@
     :cond_3
     if-ne v0, v8, :cond_8
 
-    .line 12
     :try_start_1
     iget v0, v6, Lcom/google/android/gms/dynamite/DynamiteModule$a$b;->b:I
 
@@ -567,15 +533,12 @@
     .catch Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 13
     iget-object p1, v4, Lcom/google/android/gms/dynamite/DynamiteModule$b;->a:Landroid/database/Cursor;
 
     if-eqz p1, :cond_4
 
-    .line 14
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
 
-    .line 15
     :cond_4
     invoke-virtual {v2, v3}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
 
@@ -587,7 +550,6 @@
     :try_start_2
     const-string v2, "Failed to load remote module: "
 
-    .line 16
     invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v8
@@ -618,44 +580,36 @@
     :goto_0
     invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 17
     iget v1, v6, Lcom/google/android/gms/dynamite/DynamiteModule$a$b;->a:I
 
     if-eqz v1, :cond_7
 
-    .line 18
     new-instance v2, Lcom/google/android/gms/dynamite/DynamiteModule$c;
 
     const/4 v6, 0x0
 
     invoke-direct {v2, v1, v6}, Lcom/google/android/gms/dynamite/DynamiteModule$c;-><init>(II)V
 
-    .line 19
     invoke-interface {p1, p0, p2, v2}, Lcom/google/android/gms/dynamite/DynamiteModule$a;->a(Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/dynamite/DynamiteModule$a$a;)Lcom/google/android/gms/dynamite/DynamiteModule$a$b;
 
     move-result-object p1
 
-    .line 20
     iget p1, p1, Lcom/google/android/gms/dynamite/DynamiteModule$a$b;->c:I
 
     if-ne p1, v7, :cond_7
 
-    .line 21
     invoke-static {p0, p2}, Lcom/google/android/gms/dynamite/DynamiteModule;->m(Landroid/content/Context;Ljava/lang/String;)Lcom/google/android/gms/dynamite/DynamiteModule;
 
     move-result-object p0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 22
     iget-object p1, v4, Lcom/google/android/gms/dynamite/DynamiteModule$b;->a:Landroid/database/Cursor;
 
     if-eqz p1, :cond_6
 
-    .line 23
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
 
-    .line 24
     :cond_6
     sget-object p1, Lcom/google/android/gms/dynamite/DynamiteModule;->g:Ljava/lang/ThreadLocal;
 
@@ -663,7 +617,6 @@
 
     return-object p0
 
-    .line 25
     :cond_7
     :try_start_3
     new-instance p0, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
@@ -674,7 +627,6 @@
 
     throw p0
 
-    .line 26
     :cond_8
     new-instance p0, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
@@ -700,7 +652,6 @@
 
     throw p0
 
-    .line 27
     :cond_9
     new-instance p0, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
@@ -743,15 +694,12 @@
     :catchall_0
     move-exception p0
 
-    .line 28
     iget-object p1, v4, Lcom/google/android/gms/dynamite/DynamiteModule$b;->a:Landroid/database/Cursor;
 
     if-eqz p1, :cond_a
 
-    .line 29
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
 
-    .line 30
     :cond_a
     sget-object p1, Lcom/google/android/gms/dynamite/DynamiteModule;->g:Ljava/lang/ThreadLocal;
 
@@ -763,7 +711,6 @@
 .method public static f(Landroid/content/Context;Ljava/lang/String;Z)I
     .locals 10
 
-    .line 1
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
@@ -775,7 +722,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 2
     :try_start_1
     sget-object v3, Lcom/google/android/gms/dynamite/DynamiteModule;->b:Ljava/lang/Boolean;
     :try_end_1
@@ -783,7 +729,6 @@
 
     if-nez v3, :cond_5
 
-    .line 3
     :try_start_2
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -793,10 +738,8 @@
 
     move-result-object v3
 
-    .line 4
     const-class v4, Lcom/google/android/gms/dynamite/DynamiteModule$DynamiteLoaderClassLoader;
 
-    .line 5
     invoke-virtual {v4}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v4
@@ -807,12 +750,10 @@
 
     const-string v4, "sClassLoader"
 
-    .line 6
     invoke-virtual {v3, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v4
 
-    .line 7
     monitor-enter v3
     :try_end_2
     .catch Ljava/lang/ClassNotFoundException; {:try_start_2 .. :try_end_2} :catch_4
@@ -822,7 +763,6 @@
 
     const/4 v5, 0x0
 
-    .line 8
     :try_start_3
     invoke-virtual {v4, v5}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -832,7 +772,6 @@
 
     if-eqz v6, :cond_1
 
-    .line 9
     invoke-static {}, Ljava/lang/ClassLoader;->getSystemClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v4
@@ -846,7 +785,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_0
     :try_start_4
     invoke-static {v6}, Lcom/google/android/gms/dynamite/DynamiteModule;->h(Ljava/lang/ClassLoader;)V
@@ -860,7 +798,6 @@
     :try_start_5
     const-string v6, "com.google.android.gms"
 
-    .line 11
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v7
@@ -869,14 +806,12 @@
 
     move-result-object v7
 
-    .line 12
     invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v6
 
     if-eqz v6, :cond_2
 
-    .line 13
     invoke-static {}, Ljava/lang/ClassLoader;->getSystemClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v0
@@ -887,14 +822,12 @@
 
     goto :goto_0
 
-    .line 14
     :cond_2
     :try_start_6
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/dynamite/DynamiteModule;->l(Landroid/content/Context;Ljava/lang/String;Z)I
 
     move-result v6
 
-    .line 15
     sget-object v7, Lcom/google/android/gms/dynamite/DynamiteModule;->e:Ljava/lang/String;
 
     if-eqz v7, :cond_4
@@ -907,7 +840,6 @@
 
     goto :goto_1
 
-    .line 16
     :cond_3
     new-instance v7, Lcom/google/android/gms/dynamite/h;
 
@@ -919,19 +851,15 @@
 
     invoke-direct {v7, v8, v9}, Lcom/google/android/gms/dynamite/h;-><init>(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
-    .line 17
     invoke-static {v7}, Lcom/google/android/gms/dynamite/DynamiteModule;->h(Ljava/lang/ClassLoader;)V
 
-    .line 18
     invoke-virtual {v4, v5, v7}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 19
     sput-object v0, Lcom/google/android/gms/dynamite/DynamiteModule;->b:Ljava/lang/Boolean;
     :try_end_6
     .catch Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException; {:try_start_6 .. :try_end_6} :catch_0
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
-    .line 20
     :try_start_7
     monitor-exit v3
     :try_end_7
@@ -944,7 +872,6 @@
 
     return v6
 
-    .line 21
     :cond_4
     :goto_1
     :try_start_9
@@ -959,7 +886,6 @@
 
     return v6
 
-    .line 22
     :catch_0
     :try_start_b
     invoke-static {}, Ljava/lang/ClassLoader;->getSystemClassLoader()Ljava/lang/ClassLoader;
@@ -970,7 +896,6 @@
 
     goto :goto_0
 
-    .line 23
     :catch_1
     :goto_2
     monitor-exit v3
@@ -1011,7 +936,6 @@
     :try_start_d
     const-string v3, "DynamiteModule"
 
-    .line 24
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -1042,19 +966,16 @@
 
     invoke-static {v3, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 25
     :goto_4
     sput-object v1, Lcom/google/android/gms/dynamite/DynamiteModule;->b:Ljava/lang/Boolean;
 
     move-object v3, v1
 
-    .line 26
     :cond_5
     monitor-exit v2
     :try_end_d
     .catchall {:try_start_d .. :try_end_d} :catchall_1
 
-    .line 27
     :try_start_e
     invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -1064,7 +985,6 @@
 
     if-eqz v0, :cond_7
 
-    .line 28
     :try_start_f
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/dynamite/DynamiteModule;->l(Landroid/content/Context;Ljava/lang/String;Z)I
 
@@ -1083,7 +1003,6 @@
 
     const-string v0, "Failed to retrieve remote module version: "
 
-    .line 29
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -1116,7 +1035,6 @@
 
     return p0
 
-    .line 30
     :cond_7
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/dynamite/DynamiteModule;->j(Landroid/content/Context;Ljava/lang/String;Z)I
 
@@ -1129,7 +1047,6 @@
     :catchall_1
     move-exception p1
 
-    .line 31
     :try_start_11
     monitor-exit v2
     :try_end_11
@@ -1143,10 +1060,8 @@
     :catchall_2
     move-exception p1
 
-    .line 32
     invoke-static {p0, p1}, Lcom/google/android/gms/common/util/i;->a(Landroid/content/Context;Ljava/lang/Throwable;)Z
 
-    .line 33
     throw p1
 .end method
 
@@ -1160,7 +1075,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     const-class v1, Lcom/google/android/gms/dynamite/DynamiteModule;
 
@@ -1170,18 +1084,15 @@
     .catch Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     sget-object v2, Lcom/google/android/gms/dynamite/DynamiteModule;->b:Ljava/lang/Boolean;
 
-    .line 3
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     if-eqz v2, :cond_4
 
-    .line 4
     :try_start_2
     invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -1189,7 +1100,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/dynamite/DynamiteModule;->k(Landroid/content/Context;Ljava/lang/String;I)Lcom/google/android/gms/dynamite/DynamiteModule;
 
     move-result-object p0
@@ -1199,7 +1109,6 @@
     :cond_0
     const-string v1, "DynamiteModule"
 
-    .line 6
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -1232,14 +1141,12 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 7
     invoke-static {p0}, Lcom/google/android/gms/dynamite/DynamiteModule;->n(Landroid/content/Context;)Lcom/google/android/gms/dynamite/i;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
-    .line 8
     invoke-interface {v1}, Lcom/google/android/gms/dynamite/i;->y5()I
 
     move-result v2
@@ -1248,7 +1155,6 @@
 
     if-lt v2, v3, :cond_1
 
-    .line 9
     invoke-static {p0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v2
@@ -1264,10 +1170,8 @@
 
     const-string v3, "Dynamite loader version < 2, falling back to createModuleContext"
 
-    .line 10
     invoke-static {v2, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 11
     invoke-static {p0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v2
@@ -1276,7 +1180,6 @@
 
     move-result-object p1
 
-    .line 12
     :goto_0
     invoke-static {p1}, Lcom/google/android/gms/dynamic/f;->B0(Lcom/google/android/gms/dynamic/d;)Ljava/lang/Object;
 
@@ -1284,7 +1187,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 13
     new-instance p2, Lcom/google/android/gms/dynamite/DynamiteModule;
 
     invoke-static {p1}, Lcom/google/android/gms/dynamic/f;->B0(Lcom/google/android/gms/dynamic/d;)Ljava/lang/Object;
@@ -1297,7 +1199,6 @@
 
     return-object p2
 
-    .line 14
     :cond_2
     new-instance p1, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
@@ -1307,7 +1208,6 @@
 
     throw p1
 
-    .line 15
     :cond_3
     new-instance p1, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
@@ -1317,7 +1217,6 @@
 
     throw p1
 
-    .line 16
     :cond_4
     new-instance p1, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
@@ -1334,7 +1233,6 @@
     :catchall_0
     move-exception p1
 
-    .line 17
     :try_start_3
     monitor-exit v1
     :try_end_3
@@ -1350,10 +1248,8 @@
     :catchall_1
     move-exception p1
 
-    .line 18
     invoke-static {p0, p1}, Lcom/google/android/gms/common/util/i;->a(Landroid/content/Context;Ljava/lang/Throwable;)Z
 
-    .line 19
     new-instance p0, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
     const-string p2, "Failed to load remote module."
@@ -1365,13 +1261,11 @@
     :catch_0
     move-exception p0
 
-    .line 20
     throw p0
 
     :catch_1
     move-exception p0
 
-    .line 21
     new-instance p1, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
     const-string p2, "Failed to load remote module."
@@ -1398,7 +1292,6 @@
     :try_start_0
     const-string v1, "com.google.android.gms.dynamiteloader.DynamiteLoaderV2"
 
-    .line 1
     invoke-virtual {p0, v1}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p0
@@ -1428,28 +1321,23 @@
     :cond_0
     const-string v1, "com.google.android.gms.dynamite.IDynamiteLoaderV2"
 
-    .line 2
     invoke-interface {p0, v1}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v1
 
-    .line 3
     instance-of v2, v1, Lcom/google/android/gms/dynamite/k;
 
     if-eqz v2, :cond_1
 
-    .line 4
     check-cast v1, Lcom/google/android/gms/dynamite/k;
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance v1, Lcom/google/android/gms/dynamite/l;
 
     invoke-direct {v1, p0}, Lcom/google/android/gms/dynamite/l;-><init>(Landroid/os/IBinder;)V
 
-    .line 6
     :goto_0
     sput-object v1, Lcom/google/android/gms/dynamite/DynamiteModule;->d:Lcom/google/android/gms/dynamite/k;
     :try_end_0
@@ -1484,7 +1372,6 @@
     :catch_4
     move-exception p0
 
-    .line 7
     :goto_1
     new-instance v1, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
@@ -1498,12 +1385,10 @@
 .method private static i()Ljava/lang/Boolean;
     .locals 3
 
-    .line 1
     const-class v0, Lcom/google/android/gms/dynamite/DynamiteModule;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget v1, Lcom/google/android/gms/dynamite/DynamiteModule;->f:I
 
@@ -1530,7 +1415,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1543,7 +1427,6 @@
 
     const-string v0, "DynamiteModule"
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/dynamite/DynamiteModule;->n(Landroid/content/Context;)Lcom/google/android/gms/dynamite/i;
 
     move-result-object v1
@@ -1554,7 +1437,6 @@
 
     return v2
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-interface {v1}, Lcom/google/android/gms/dynamite/i;->y5()I
@@ -1565,12 +1447,10 @@
 
     if-lt v3, v4, :cond_1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object p0
 
-    .line 4
     invoke-interface {v1, p0, p1, p2}, Lcom/google/android/gms/dynamite/i;->l8(Lcom/google/android/gms/dynamic/d;Ljava/lang/String;Z)I
 
     move-result p0
@@ -1580,10 +1460,8 @@
     :cond_1
     const-string v3, "IDynamite loader version < 2, falling back to getModuleVersion2"
 
-    .line 5
     invoke-static {v0, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     invoke-static {p0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object p0
@@ -1601,7 +1479,6 @@
 
     const-string p1, "Failed to retrieve remote module version: "
 
-    .line 7
     invoke-virtual {p0}, Landroid/os/RemoteException;->getMessage()Ljava/lang/String;
 
     move-result-object p0
@@ -1644,7 +1521,6 @@
 
     const-string v0, "DynamiteModule"
 
-    .line 1
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -1677,16 +1553,13 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     const-class v0, Lcom/google/android/gms/dynamite/DynamiteModule;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/google/android/gms/dynamite/DynamiteModule;->d:Lcom/google/android/gms/dynamite/k;
 
-    .line 4
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1695,7 +1568,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 5
     sget-object v2, Lcom/google/android/gms/dynamite/DynamiteModule;->g:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v2}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -1706,23 +1578,18 @@
 
     if-eqz v2, :cond_2
 
-    .line 6
     iget-object v3, v2, Lcom/google/android/gms/dynamite/DynamiteModule$b;->a:Landroid/database/Cursor;
 
     if-eqz v3, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
-    .line 8
     iget-object v2, v2, Lcom/google/android/gms/dynamite/DynamiteModule$b;->a:Landroid/database/Cursor;
 
-    .line 9
     invoke-static {v0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
-    .line 10
     invoke-static {}, Lcom/google/android/gms/dynamite/DynamiteModule;->i()Ljava/lang/Boolean;
 
     move-result-object v3
@@ -1737,20 +1604,16 @@
 
     const-string v4, "Dynamite loader version >= 2, using loadModule2NoCrashUtils"
 
-    .line 11
     invoke-static {v3, v4}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 12
     invoke-static {p0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object p0
 
-    .line 13
     invoke-static {v2}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v2
 
-    .line 14
     invoke-interface {v1, p0, p1, p2, v2}, Lcom/google/android/gms/dynamite/k;->J6(Lcom/google/android/gms/dynamic/d;Ljava/lang/String;ILcom/google/android/gms/dynamic/d;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object p0
@@ -1762,25 +1625,20 @@
 
     const-string v4, "Dynamite loader version < 2, falling back to loadModule2"
 
-    .line 15
     invoke-static {v3, v4}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 16
     invoke-static {p0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object p0
 
-    .line 17
     invoke-static {v2}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v2
 
-    .line 18
     invoke-interface {v1, p0, p1, p2, v2}, Lcom/google/android/gms/dynamite/k;->G6(Lcom/google/android/gms/dynamic/d;Ljava/lang/String;ILcom/google/android/gms/dynamic/d;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object p0
 
-    .line 19
     :goto_0
     invoke-static {p0}, Lcom/google/android/gms/dynamic/f;->B0(Lcom/google/android/gms/dynamic/d;)Ljava/lang/Object;
 
@@ -1790,14 +1648,12 @@
 
     if-eqz p0, :cond_1
 
-    .line 20
     new-instance p1, Lcom/google/android/gms/dynamite/DynamiteModule;
 
     invoke-direct {p1, p0}, Lcom/google/android/gms/dynamite/DynamiteModule;-><init>(Landroid/content/Context;)V
 
     return-object p1
 
-    .line 21
     :cond_1
     new-instance p0, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
@@ -1807,7 +1663,6 @@
 
     throw p0
 
-    .line 22
     :cond_2
     new-instance p0, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
@@ -1817,7 +1672,6 @@
 
     throw p0
 
-    .line 23
     :cond_3
     new-instance p0, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
@@ -1830,7 +1684,6 @@
     :catchall_0
     move-exception p0
 
-    .line 24
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -1849,7 +1702,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -1864,7 +1716,6 @@
     :cond_0
     const-string p0, "api"
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -1914,7 +1765,6 @@
 
     const/4 v6, 0x0
 
-    .line 3
     invoke-virtual/range {v1 .. v6}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object p0
@@ -1924,7 +1774,6 @@
 
     if-eqz p0, :cond_4
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -1934,14 +1783,12 @@
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getInt(I)I
 
     move-result p1
 
     if-lez p1, :cond_2
 
-    .line 6
     const-class p2, Lcom/google/android/gms/dynamite/DynamiteModule;
 
     monitor-enter p2
@@ -1951,7 +1798,6 @@
 
     const/4 v1, 0x2
 
-    .line 7
     :try_start_2
     invoke-interface {p0, v1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
@@ -1961,27 +1807,23 @@
 
     const-string v1, "loaderVersion"
 
-    .line 8
     invoke-interface {p0, v1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v1
 
     if-ltz v1, :cond_1
 
-    .line 9
     invoke-interface {p0, v1}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v1
 
     sput v1, Lcom/google/android/gms/dynamite/DynamiteModule;->f:I
 
-    .line 10
     :cond_1
     monitor-exit p2
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 11
     :try_start_3
     sget-object p2, Lcom/google/android/gms/dynamite/DynamiteModule;->g:Ljava/lang/ThreadLocal;
 
@@ -1993,12 +1835,10 @@
 
     if-eqz p2, :cond_2
 
-    .line 12
     iget-object v1, p2, Lcom/google/android/gms/dynamite/DynamiteModule$b;->a:Landroid/database/Cursor;
 
     if-nez v1, :cond_2
 
-    .line 13
     iput-object p0, p2, Lcom/google/android/gms/dynamite/DynamiteModule$b;->a:Landroid/database/Cursor;
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
@@ -2009,7 +1849,6 @@
     :catchall_0
     move-exception p1
 
-    .line 14
     :try_start_4
     monitor-exit p2
     :try_end_4
@@ -2027,7 +1866,6 @@
     :goto_1
     if-eqz v0, :cond_3
 
-    .line 15
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
     :cond_3
@@ -2039,10 +1877,8 @@
 
     const-string p2, "Failed to retrieve remote module version."
 
-    .line 16
     invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 17
     new-instance p1, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
     const-string p2, "Failed to connect to dynamite module ContentResolver."
@@ -2084,17 +1920,14 @@
 
     move-object p1, v0
 
-    .line 18
     :goto_2
     :try_start_7
     instance-of p2, p0, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
     if-eqz p2, :cond_5
 
-    .line 19
     throw p0
 
-    .line 20
     :cond_5
     new-instance p2, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 
@@ -2114,7 +1947,6 @@
     :goto_3
     if-eqz v0, :cond_6
 
-    .line 21
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
     :cond_6
@@ -2124,7 +1956,6 @@
 .method private static m(Landroid/content/Context;Ljava/lang/String;)Lcom/google/android/gms/dynamite/DynamiteModule;
     .locals 2
 
-    .line 1
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -2153,7 +1984,6 @@
 
     invoke-static {v0, p1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     new-instance p1, Lcom/google/android/gms/dynamite/DynamiteModule;
 
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
@@ -2168,23 +1998,19 @@
 .method private static n(Landroid/content/Context;)Lcom/google/android/gms/dynamite/i;
     .locals 5
 
-    .line 1
     const-class v0, Lcom/google/android/gms/dynamite/DynamiteModule;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/google/android/gms/dynamite/DynamiteModule;->c:Lcom/google/android/gms/dynamite/i;
 
     if-eqz v1, :cond_0
 
-    .line 3
     monitor-exit v0
 
     return-object v1
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/google/android/gms/common/e;->i()Lcom/google/android/gms/common/e;
 
@@ -2198,7 +2024,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -2211,24 +2036,20 @@
 
     const/4 v3, 0x3
 
-    .line 6
     invoke-virtual {p0, v1, v3}, Landroid/content/Context;->createPackageContext(Ljava/lang/String;I)Landroid/content/Context;
 
     move-result-object p0
 
-    .line 7
     invoke-virtual {p0}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object p0
 
     const-string v1, "com.google.android.gms.chimera.container.DynamiteLoaderImpl"
 
-    .line 8
     invoke-virtual {p0, v1}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p0
 
-    .line 9
     invoke-virtual {p0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
     move-result-object p0
@@ -2244,22 +2065,18 @@
     :cond_2
     const-string v1, "com.google.android.gms.dynamite.IDynamiteLoader"
 
-    .line 10
     invoke-interface {p0, v1}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v1
 
-    .line 11
     instance-of v3, v1, Lcom/google/android/gms/dynamite/i;
 
     if-eqz v3, :cond_3
 
-    .line 12
     check-cast v1, Lcom/google/android/gms/dynamite/i;
 
     goto :goto_0
 
-    .line 13
     :cond_3
     new-instance v1, Lcom/google/android/gms/dynamite/j;
 
@@ -2268,13 +2085,11 @@
     :goto_0
     if-eqz v1, :cond_5
 
-    .line 14
     sput-object v1, Lcom/google/android/gms/dynamite/DynamiteModule;->c:Lcom/google/android/gms/dynamite/i;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 15
     :try_start_2
     monitor-exit v0
 
@@ -2287,7 +2102,6 @@
 
     const-string v3, "Failed to load IDynamiteLoader from GmsCore: "
 
-    .line 16
     invoke-virtual {p0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object p0
@@ -2316,7 +2130,6 @@
     :goto_1
     invoke-static {v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 17
     :cond_5
     monitor-exit v0
 
@@ -2339,7 +2152,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/dynamite/DynamiteModule;->a:Landroid/content/Context;
 
     return-object v0
@@ -2356,7 +2168,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/dynamite/DynamiteModule;->a:Landroid/content/Context;
 
@@ -2368,7 +2179,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
     move-result-object v0
@@ -2394,7 +2204,6 @@
     :catch_2
     move-exception v0
 
-    .line 3
     :goto_0
     new-instance v1, Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;
 

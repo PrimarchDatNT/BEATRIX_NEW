@@ -15,7 +15,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/zzeag;->values()[Lcom/google/android/gms/internal/ads/zzeag;
 
     move-result-object v0
@@ -71,7 +70,6 @@
     :try_end_2
     .catch Ljava/lang/NoSuchFieldError; {:try_start_2 .. :try_end_2} :catch_2
 
-    .line 2
     :catch_2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zzeau;->values()[Lcom/google/android/gms/internal/ads/zzeau;
 
@@ -122,7 +120,6 @@
     :try_end_5
     .catch Ljava/lang/NoSuchFieldError; {:try_start_5 .. :try_end_5} :catch_5
 
-    .line 3
     :catch_5
     invoke-static {}, Lcom/google/android/gms/internal/ads/zzeav;->values()[Lcom/google/android/gms/internal/ads/zzeav;
 

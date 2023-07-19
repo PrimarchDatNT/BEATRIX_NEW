@@ -9,7 +9,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,20 +24,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/i9;
 
     invoke-direct {v0, p0, p2}, Lcom/google/android/gms/internal/firebase_remote_config/i9;-><init>(Lcom/google/android/gms/internal/firebase_remote_config/j9;Ljava/io/OutputStream;)V
 
-    .line 2
     new-instance p2, Ljava/util/zip/GZIPOutputStream;
 
     invoke-direct {p2, v0}, Ljava/util/zip/GZIPOutputStream;-><init>(Ljava/io/OutputStream;)V
 
-    .line 3
     invoke-interface {p1, p2}, Lcom/google/android/gms/internal/firebase_remote_config/k1;->writeTo(Ljava/io/OutputStream;)V
 
-    .line 4
     invoke-virtual {p2}, Ljava/util/zip/GZIPOutputStream;->close()V
 
     return-void

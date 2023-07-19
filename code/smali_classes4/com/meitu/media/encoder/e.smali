@@ -24,7 +24,6 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/meitu/media/encoder/e;-><init>(Ljava/lang/String;Lcom/meitu/media/encoder/Muxer$FORMAT;I)V
 
     return-void
@@ -36,10 +35,8 @@
         value = 0x12
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/media/encoder/Muxer;-><init>(Ljava/lang/String;Lcom/meitu/media/encoder/Muxer$FORMAT;I)V
 
-    .line 3
     :try_start_0
     sget-object p3, Lcom/meitu/media/encoder/e$a;->a:[I
 
@@ -53,7 +50,6 @@
 
     if-ne p2, p3, :cond_0
 
-    .line 4
     new-instance p2, Landroid/media/MediaMuxer;
 
     const/4 p3, 0x0
@@ -64,12 +60,10 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     iput-boolean p3, p0, Lcom/meitu/media/encoder/e;->j:Z
 
     return-void
 
-    .line 6
     :cond_0
     :try_start_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
@@ -85,7 +79,6 @@
     :catch_0
     move-exception p1
 
-    .line 7
     new-instance p2, Ljava/lang/RuntimeException;
 
     const-string p3, "MediaMuxer creation failed"
@@ -102,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/encoder/e;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/meitu/media/encoder/e;-><init>(Ljava/lang/String;Lcom/meitu/media/encoder/Muxer$FORMAT;I)V
@@ -124,38 +116,31 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/media/encoder/Muxer;->a(Landroid/media/MediaFormat;)I
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/media/encoder/e;->j:Z
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/media/encoder/e;->i:Landroid/media/MediaMuxer;
 
     invoke-virtual {v1, p1}, Landroid/media/MediaMuxer;->addTrack(Landroid/media/MediaFormat;)I
 
     move-result p1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/media/encoder/Muxer;->b()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/media/encoder/e;->p()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -175,10 +160,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/encoder/e;->q()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -191,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/encoder/e;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -209,10 +191,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/meitu/media/encoder/Muxer;->l()V
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/meitu/media/encoder/e;->i:Landroid/media/MediaMuxer;
 
@@ -225,10 +205,8 @@
     :catch_0
     move-exception v1
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/IllegalStateException;->printStackTrace()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -245,10 +223,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super/range {p0 .. p5}, Lcom/meitu/media/encoder/Muxer;->n(Landroid/media/MediaCodec;IILjava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
 
-    .line 2
     iget v1, p5, Landroid/media/MediaCodec$BufferInfo;->flags:I
 
     and-int/lit8 v2, v1, 0x2
@@ -257,15 +233,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {p1, p3, v3}, Landroid/media/MediaCodec;->releaseOutputBuffer(IZ)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     iget v2, p5, Landroid/media/MediaCodec$BufferInfo;->size:I
 
@@ -275,21 +248,17 @@
 
     if-nez v1, :cond_1
 
-    .line 6
     invoke-virtual {p1, p3, v3}, Landroid/media/MediaCodec;->releaseOutputBuffer(IZ)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     iget-boolean v1, p0, Lcom/meitu/media/encoder/e;->j:Z
 
     if-nez v1, :cond_2
 
-    .line 9
     new-instance p4, Ljava/lang/StringBuilder;
 
     invoke-direct {p4}, Ljava/lang/StringBuilder;-><init>()V
@@ -316,15 +285,12 @@
 
     invoke-static {p4, p2}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {p1, p3, v3}, Landroid/media/MediaCodec;->releaseOutputBuffer(IZ)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_2
     iget-wide v1, p5, Landroid/media/MediaCodec$BufferInfo;->presentationTimeUs:J
 
@@ -334,25 +300,20 @@
 
     iput-wide v1, p5, Landroid/media/MediaCodec$BufferInfo;->presentationTimeUs:J
 
-    .line 13
     iget-object v1, p0, Lcom/meitu/media/encoder/e;->i:Landroid/media/MediaMuxer;
 
     invoke-virtual {v1, p2, p4, p5}, Landroid/media/MediaMuxer;->writeSampleData(ILjava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
 
-    .line 14
     invoke-virtual {p1, p3, v3}, Landroid/media/MediaCodec;->releaseOutputBuffer(IZ)V
 
-    .line 15
     invoke-virtual {p0}, Lcom/meitu/media/encoder/Muxer;->c()Z
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    .line 16
     invoke-virtual {p0}, Lcom/meitu/media/encoder/e;->q()V
 
-    .line 17
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -369,17 +330,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/e;->i:Landroid/media/MediaMuxer;
 
     invoke-virtual {v1}, Landroid/media/MediaMuxer;->start()V
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/meitu/media/encoder/e;->j:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -395,17 +353,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/encoder/e;->j:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/meitu/media/encoder/e;->i:Landroid/media/MediaMuxer;
@@ -419,16 +374,13 @@
     :catch_0
     move-exception v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/IllegalStateException;->printStackTrace()V
 
     :goto_0
     const/4 v1, 0x0
 
-    .line 5
     iput-boolean v1, p0, Lcom/meitu/media/encoder/e;->j:Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -36,7 +36,6 @@
 .method public final a()Lcom/google/android/gms/internal/ads/rq1;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/rc1;->a:Lcom/google/android/gms/internal/ads/ca1;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;

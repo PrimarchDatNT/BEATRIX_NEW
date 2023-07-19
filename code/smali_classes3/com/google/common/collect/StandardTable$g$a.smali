@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/google/common/collect/StandardTable$g;Ljava/util/Iterator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/StandardTable$g$a;->b:Lcom/google/common/collect/StandardTable$g;
 
     iput-object p2, p0, Lcom/google/common/collect/StandardTable$g$a;->a:Ljava/util/Iterator;
@@ -58,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$g$a;->b:Lcom/google/common/collect/StandardTable$g;
 
     iget-object v1, p0, Lcom/google/common/collect/StandardTable$g$a;->a:Ljava/util/Iterator;
@@ -79,7 +77,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$g$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -92,7 +89,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/StandardTable$g$a;->a()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -103,12 +99,10 @@
 .method public remove()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$g$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$g$a;->b:Lcom/google/common/collect/StandardTable$g;
 
     invoke-virtual {v0}, Lcom/google/common/collect/StandardTable$g;->d()V

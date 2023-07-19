@@ -27,16 +27,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/ads/a;->a:I
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/ads/a;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/ads/a;->c:Ljava/lang/String;
 
     return-void
@@ -49,7 +45,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/ads/a;->a:I
 
     return v0
@@ -60,7 +55,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/a;->b:Ljava/lang/String;
 
     return-object v0

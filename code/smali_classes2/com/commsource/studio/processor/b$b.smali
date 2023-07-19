@@ -60,7 +60,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->space_unable_to_edit:I
 
-    .line 1
     invoke-static {v1}, Lf/k/c/c/f;->h(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

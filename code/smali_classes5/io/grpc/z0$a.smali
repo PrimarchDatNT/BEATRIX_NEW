@@ -24,7 +24,6 @@
 .method constructor <init>(Lio/grpc/z0;Lio/grpc/z0$g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/z0$a;->b:Lio/grpc/z0;
 
     iput-object p2, p0, Lio/grpc/z0$a;->a:Lio/grpc/z0$g;
@@ -39,7 +38,6 @@
 .method public a(Lio/grpc/Status;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z0$a;->a:Lio/grpc/z0$g;
 
     invoke-interface {v0, p1}, Lio/grpc/z0$g;->a(Lio/grpc/Status;)V
@@ -50,7 +48,6 @@
 .method public c(Lio/grpc/z0$h;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z0$a;->a:Lio/grpc/z0$g;
 
     invoke-virtual {p1}, Lio/grpc/z0$h;->a()Ljava/util/List;

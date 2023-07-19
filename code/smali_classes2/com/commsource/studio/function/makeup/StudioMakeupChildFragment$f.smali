@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$f;->a:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;->G(Lcom/commsource/repository/child/makeup/h;)V
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/repository/child/makeup/h;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$f;->a(Lcom/commsource/repository/child/makeup/h;)V

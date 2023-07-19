@@ -61,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioViewModel$addPictureToCanvas$2;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -78,21 +77,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$addPictureToCanvas$2;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->t0()Lcom/commsource/editengine/d;
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioViewModel$addPictureToCanvas$2;->$pictureInfo:Lcom/commsource/studio/bean/PictureLayerInfo;
 
     invoke-virtual {v2}, Lcom/commsource/studio/bean/ImageLayerInfo;->getTexturePath()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/ImageStudioViewModel$addPictureToCanvas$2;->$imageBitmap:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iget-object v3, v3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -107,10 +103,8 @@
 
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Lcom/commsource/editengine/d;->g(Ljava/lang/String;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

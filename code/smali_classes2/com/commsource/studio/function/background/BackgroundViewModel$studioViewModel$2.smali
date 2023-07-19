@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel$studioViewModel$2;->this$0:Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     const-class v2, Lcom/commsource/studio/ImageStudioViewModel;
@@ -78,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundViewModel$studioViewModel$2;->invoke()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1

@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment$i;->a:Lcom/commsource/studio/function/ar/StudioArChildFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->x()Lcom/commsource/widget/h1/e;
@@ -153,7 +151,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment$i;->a:Lcom/commsource/studio/function/ar/StudioArChildFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->x()Lcom/commsource/widget/h1/e;
@@ -170,7 +167,6 @@
 
     move-result p1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment$i;->a:Lcom/commsource/studio/function/ar/StudioArChildFragment;
 
     invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -183,7 +179,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/util/g2;->i(Landroid/content/Context;Ljava/lang/Runnable;)V
 
-    .line 5
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -197,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/ar/StudioArChildFragment$i;->a(Ljava/lang/Integer;)V

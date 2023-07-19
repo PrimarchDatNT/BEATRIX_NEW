@@ -41,27 +41,22 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/f0/g;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/autocamera/i0;->j:Landroid/graphics/Rect;
 
-    .line 3
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/autocamera/i0;->k:Landroid/graphics/Rect;
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/autocamera/i0;->a:Lcom/commsource/beautyplus/f0/g;
 
-    .line 5
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v0
@@ -86,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/autocamera/i0;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/autocamera/i0;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/autocamera/i0;->a:Lcom/commsource/beautyplus/f0/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/autocamera/i0;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -146,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/autocamera/i0;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -161,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/autocamera/i0;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -176,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/autocamera/i0;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -191,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/autocamera/i0;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/autocamera/i0;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -221,7 +207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/autocamera/i0;->j:Landroid/graphics/Rect;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -236,7 +221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/autocamera/i0;->k:Landroid/graphics/Rect;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -251,7 +235,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/autocamera/i0;->h:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -266,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/autocamera/i0;->h:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,7 +263,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/autocamera/i0;->i:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -296,7 +277,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/autocamera/i0;->i:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,7 +291,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/autocamera/i0;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -328,7 +307,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/autocamera/i0;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -343,10 +321,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/i0;->l:Lcom/commsource/autocamera/i0$c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -359,7 +335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/autocamera/i0;->b:Z
 
     if-eqz v1, :cond_5
@@ -370,7 +345,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/autocamera/i0;->c:Z
 
@@ -384,18 +358,14 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     iput-boolean v4, p0, Lcom/commsource/autocamera/i0;->c:Z
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/i0;->l:Lcom/commsource/autocamera/i0$c;
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-interface {p1, v4}, Lcom/commsource/autocamera/i0$c;->a(Z)V
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/autocamera/i0;->a:Lcom/commsource/beautyplus/f0/g;
 
@@ -403,7 +373,6 @@
 
     invoke-virtual {p1, v5}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/autocamera/i0;->a:Lcom/commsource/beautyplus/f0/g;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g;->j0:Lcom/commsource/widget/round/RoundLinearLayout;
@@ -414,49 +383,40 @@
 
     const/4 v1, 0x0
 
-    .line 8
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 9
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->scaleX(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->scaleY(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const/4 v1, 0x0
 
-    .line 12
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->translationX(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 13
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 14
     invoke-virtual {p1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 15
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/autocamera/i0;->a:Lcom/commsource/beautyplus/f0/g;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g;->j0:Lcom/commsource/widget/round/RoundLinearLayout;
@@ -467,7 +427,6 @@
 
     invoke-virtual {p1, v5}, Lcom/commsource/widget/round/a;->A(Z)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/autocamera/i0;->a:Lcom/commsource/beautyplus/f0/g;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g;->j0:Lcom/commsource/widget/round/RoundLinearLayout;
@@ -478,7 +437,6 @@
 
     invoke-virtual {p1, v5}, Lcom/commsource/widget/round/a;->t(I)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/autocamera/i0;->a:Lcom/commsource/beautyplus/f0/g;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g;->S:Landroid/widget/ImageView;
@@ -504,18 +462,14 @@
 
     if-nez p1, :cond_4
 
-    .line 19
     iput-boolean v5, p0, Lcom/commsource/autocamera/i0;->c:Z
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/autocamera/i0;->l:Lcom/commsource/autocamera/i0$c;
 
     if-eqz p1, :cond_3
 
-    .line 21
     invoke-interface {p1, v5}, Lcom/commsource/autocamera/i0$c;->a(Z)V
 
-    .line 22
     :cond_3
     iget-object p1, p0, Lcom/commsource/autocamera/i0;->a:Lcom/commsource/beautyplus/f0/g;
 
@@ -527,7 +481,6 @@
 
     invoke-virtual {p1, v4}, Lcom/commsource/widget/round/a;->A(Z)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/autocamera/i0;->a:Lcom/commsource/beautyplus/f0/g;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g;->j0:Lcom/commsource/widget/round/RoundLinearLayout;
@@ -540,7 +493,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/round/a;->t(I)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/autocamera/i0;->a:Lcom/commsource/beautyplus/f0/g;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g;->j0:Lcom/commsource/widget/round/RoundLinearLayout;
@@ -555,7 +507,6 @@
 
     mul-float v1, v1, v4
 
-    .line 25
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->scaleX(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -564,12 +515,10 @@
 
     mul-float v1, v1, v4
 
-    .line 26
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->scaleY(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 27
     invoke-virtual {p1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -578,22 +527,18 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/autocamera/i0$b;-><init>(Lcom/commsource/autocamera/i0;)V
 
-    .line 28
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 29
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 30
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 31
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

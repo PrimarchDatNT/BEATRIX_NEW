@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/MoPubRecyclerAdapter;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubRecyclerAdapter$1;->this$0:Lcom/mopub/nativeads/MoPubRecyclerAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubRecyclerAdapter$1;->this$0:Lcom/mopub/nativeads/MoPubRecyclerAdapter;
 
     invoke-static {v0, p1, p2}, Lcom/mopub/nativeads/MoPubRecyclerAdapter;->access$000(Lcom/mopub/nativeads/MoPubRecyclerAdapter;Ljava/util/List;Ljava/util/List;)V

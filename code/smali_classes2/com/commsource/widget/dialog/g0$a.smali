@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/commsource/widget/dialog/g0;Landroid/widget/ImageView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/g0$a;->M:Lcom/commsource/widget/dialog/g0;
 
     invoke-direct {p0, p2}, Lcom/bumptech/glide/request/j/j;-><init>(Landroid/widget/ImageView;)V
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/dialog/g0$a;->o(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/k/f;)V
@@ -76,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1}, Lcom/commsource/widget/dialog/g0$a;->p(Landroid/graphics/drawable/Drawable;)V
@@ -111,12 +108,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v0, p1, Lcom/bumptech/glide/integration/webp/decoder/k;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/widget/dialog/g0$a;->M:Lcom/commsource/widget/dialog/g0;
 
     invoke-static {v0}, Lcom/commsource/widget/dialog/g0;->A(Lcom/commsource/widget/dialog/g0;)Lcom/commsource/beautyplus/f0/c5;
@@ -127,19 +122,16 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/widget/dialog/g0$a;->M:Lcom/commsource/widget/dialog/g0;
 
     check-cast p1, Lcom/bumptech/glide/integration/webp/decoder/k;
 
     invoke-static {v0, p1}, Lcom/commsource/widget/dialog/g0;->B(Lcom/commsource/widget/dialog/g0;Lcom/bumptech/glide/integration/webp/decoder/k;)Lcom/bumptech/glide/integration/webp/decoder/k;
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/dialog/g0$a;->M:Lcom/commsource/widget/dialog/g0;
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/g0;->C(Lcom/commsource/widget/dialog/g0;)V
 
-    .line 5
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -157,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/g0$a;->M:Lcom/commsource/widget/dialog/g0;
 
     invoke-static {v1}, Lcom/commsource/widget/dialog/g0;->A(Lcom/commsource/widget/dialog/g0;)Lcom/commsource/beautyplus/f0/c5;
@@ -168,7 +159,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

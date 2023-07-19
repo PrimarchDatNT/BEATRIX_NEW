@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/commsource/album/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/album/b$a;->a:Lcom/commsource/album/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -62,14 +61,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/album/b$a;->a:Lcom/commsource/album/b;
 
     invoke-static {v1}, Lcom/commsource/album/b;->u(Lcom/commsource/album/b;)Lcom/commsource/widget/h1/e;
@@ -82,20 +79,16 @@
 
     const-class v3, Lcom/commsource/album/c;
 
-    .line 3
     invoke-virtual {v2, p1, v3}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -109,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/album/b$a;->a(Ljava/util/List;)V

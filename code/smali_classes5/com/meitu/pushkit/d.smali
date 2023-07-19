@@ -16,17 +16,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/Properties;
 
     invoke-direct {v0}, Ljava/util/Properties;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/pushkit/d;->a:Ljava/util/Properties;
 
-    .line 3
     new-instance v1, Ljava/io/FileInputStream;
 
     new-instance v2, Ljava/io/File;
@@ -58,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/pushkit/d;
 
     invoke-direct {v1}, Lcom/meitu/pushkit/d;-><init>()V
@@ -77,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/pushkit/d;->a:Ljava/util/Properties;
 
     invoke-virtual {v1, p1}, Ljava/util/Properties;->containsKey(Ljava/lang/Object;)Z
@@ -96,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/pushkit/d;->a:Ljava/util/Properties;
 
     invoke-virtual {v1, p1}, Ljava/util/Properties;->containsValue(Ljava/lang/Object;)Z
@@ -125,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/pushkit/d;->a:Ljava/util/Properties;
 
     invoke-virtual {v1}, Ljava/util/Properties;->entrySet()Ljava/util/Set;
@@ -144,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/pushkit/d;->a:Ljava/util/Properties;
 
     invoke-virtual {v1, p1}, Ljava/util/Properties;->getProperty(Ljava/lang/String;)Ljava/lang/String;
@@ -163,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/pushkit/d;->a:Ljava/util/Properties;
 
     invoke-virtual {v1, p1, p2}, Ljava/util/Properties;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -182,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/pushkit/d;->a:Ljava/util/Properties;
 
     invoke-virtual {v1}, Ljava/util/Properties;->isEmpty()Z
@@ -209,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/pushkit/d;->a:Ljava/util/Properties;
 
     invoke-virtual {v1}, Ljava/util/Properties;->keySet()Ljava/util/Set;
@@ -236,7 +225,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/pushkit/d;->a:Ljava/util/Properties;
 
     invoke-virtual {v1}, Ljava/util/Properties;->keys()Ljava/util/Enumeration;
@@ -255,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/pushkit/d;->a:Ljava/util/Properties;
 
     invoke-virtual {v1}, Ljava/util/Properties;->size()I
@@ -282,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/pushkit/d;->a:Ljava/util/Properties;
 
     invoke-virtual {v1}, Ljava/util/Properties;->values()Ljava/util/Collection;

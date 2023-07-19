@@ -59,7 +59,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v2
@@ -68,7 +67,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$y;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -76,7 +74,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->O0(Z)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$y;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {v2}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->C0()Lcom/commsource/beautyplus/f0/g8;
@@ -93,7 +90,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     iget-object v2, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$y;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
@@ -103,7 +99,6 @@
     :goto_1
     if-eqz p1, :cond_5
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$y;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->Y(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/studio/sub/d;
@@ -116,7 +111,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 6
     invoke-virtual {v2}, Lcom/commsource/studio/bean/FilterLayerInfo;->getFilter()Lcom/meitu/template/bean/Filter;
 
     move-result-object v3
@@ -131,21 +125,17 @@
 
     if-eq v3, v4, :cond_2
 
-    .line 7
     invoke-virtual {v2, v1}, Lcom/commsource/studio/bean/BaseLayerInfo;->setFromFormula(Z)V
 
-    .line 8
     :cond_2
     invoke-virtual {v2, p1}, Lcom/commsource/studio/bean/FilterLayerInfo;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 9
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getAlphaInBeauty()I
 
     move-result v1
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/bean/FilterLayerInfo;->setAlpha(I)V
 
-    .line 10
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$y;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -161,7 +151,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/bean/BaseLayerInfo;->updateLayerNode()V
 
-    .line 11
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$y;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -181,7 +170,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 12
     :cond_5
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$y;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -191,7 +179,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/sub/d;->y(Lcom/meitu/template/bean/Filter;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -204,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$y;->a(Lcom/meitu/template/bean/Filter;)V

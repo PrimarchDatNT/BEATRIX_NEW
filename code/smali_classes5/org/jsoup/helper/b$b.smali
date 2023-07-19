@@ -61,17 +61,14 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     iput-object v0, p0, Lorg/jsoup/helper/b$b;->c:Ljava/util/Map;
 
-    .line 4
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
@@ -84,7 +81,6 @@
 .method synthetic constructor <init>(Lorg/jsoup/helper/b$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/helper/b$b;-><init>()V
 
     return-void
@@ -96,12 +92,10 @@
     :try_start_0
     const-string v0, "ISO-8859-1"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Lorg/jsoup/helper/b$b;->V([B)Z
 
     move-result v1
@@ -110,7 +104,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/String;
 
@@ -139,10 +132,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/helper/b$b;->c:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -166,7 +157,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -179,7 +169,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -188,7 +177,6 @@
 
     return-object p1
 
-    .line 5
     :cond_1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
@@ -200,7 +188,6 @@
 .method private static V([B)Z
     .locals 8
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x3
@@ -262,14 +249,12 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 2
     :goto_2
     array-length v0, p0
 
     :goto_3
     if-ge v1, v0, :cond_9
 
-    .line 3
     aget-byte v4, p0, v1
 
     and-int/lit16 v5, v4, 0x80
@@ -309,7 +294,6 @@
 
     add-int/lit8 v4, v1, 0x3
 
-    .line 4
     :goto_4
     array-length v5, p0
 
@@ -322,7 +306,6 @@
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 5
     aget-byte v5, p0, v1
 
     and-int/2addr v5, v6
@@ -361,12 +344,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lorg/jsoup/b/b;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/helper/b$b;->c:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -390,7 +371,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -422,10 +402,8 @@
 
     const-string v0, "Cookie name must not be empty"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/helper/b$b;->d:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -442,10 +420,8 @@
 
     const-string v0, "Cookie name must not be empty"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/helper/b$b;->d:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -467,17 +443,14 @@
 
     const-string v0, "Header name must not be empty"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lorg/jsoup/helper/b$b;->W(Ljava/lang/String;)Ljava/util/Map$Entry;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lorg/jsoup/helper/b$b;->c:Ljava/util/Map;
 
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -495,10 +468,8 @@
 
     const-string v0, "Header name must not be empty"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lorg/jsoup/helper/b$b;->U(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
@@ -524,10 +495,8 @@
 
     const-string v0, "Cookie name must not be empty"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/helper/b$b;->d:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -548,10 +517,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lorg/jsoup/helper/b$b;->U(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
@@ -572,7 +539,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b$b;->c:Ljava/util/Map;
 
     return-object v0
@@ -590,7 +556,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     iget-object v1, p0, Lorg/jsoup/helper/b$b;->c:Ljava/util/Map;
@@ -601,7 +566,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    .line 2
     iget-object v1, p0, Lorg/jsoup/helper/b$b;->c:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -626,21 +590,18 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/String;
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/util/List;
 
-    .line 5
     invoke-interface {v2}, Ljava/util/List;->size()I
 
     move-result v4
@@ -649,7 +610,6 @@
 
     const/4 v4, 0x0
 
-    .line 6
     invoke-interface {v2, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -673,37 +633,31 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
     if-nez p2, :cond_0
 
     const-string p2, ""
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1}, Lorg/jsoup/helper/b$b;->J(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     iget-object v1, p0, Lorg/jsoup/helper/b$b;->c:Ljava/util/Map;
 
     invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_1
     invoke-static {p2}, Lorg/jsoup/helper/b$b;->T(Ljava/lang/String;)Ljava/lang/String;
 
@@ -727,15 +681,12 @@
 
     const-string v0, "Cookie name must not be empty"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "Cookie value must not be null"
 
-    .line 2
     invoke-static {p2, v0}, Lorg/jsoup/helper/c;->k(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lorg/jsoup/helper/b$b;->d:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -748,15 +699,12 @@
 
     const-string v0, "Header name must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->k(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lorg/jsoup/helper/b$b;->U(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -765,7 +713,6 @@
 
     const-string v0, ", "
 
-    .line 4
     invoke-static {p1, v0}, Lorg/jsoup/b/c;->j(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -790,10 +737,8 @@
 
     const-string v0, "URL must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->k(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iput-object p1, p0, Lorg/jsoup/helper/b$b;->a:Ljava/net/URL;
 
     return-object p0
@@ -812,13 +757,10 @@
 
     const-string v0, "Header name must not be empty"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lorg/jsoup/helper/b$b;->D(Ljava/lang/String;)Lorg/jsoup/Connection$a;
 
-    .line 3
     invoke-virtual {p0, p1, p2}, Lorg/jsoup/helper/b$b;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/Connection$a;
 
     return-object p0
@@ -836,10 +778,8 @@
 
     const-string v0, "Method must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->k(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iput-object p1, p0, Lorg/jsoup/helper/b$b;->b:Lorg/jsoup/Connection$Method;
 
     return-object p0
@@ -848,7 +788,6 @@
 .method public method()Lorg/jsoup/Connection$Method;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b$b;->b:Lorg/jsoup/Connection$Method;
 
     return-object v0
@@ -857,18 +796,14 @@
 .method public u(Ljava/lang/String;Ljava/lang/String;)Z
     .locals 1
 
-    .line 1
     invoke-static {p1}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p2}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p0, p1}, Lorg/jsoup/helper/b$b;->J(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 4
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -886,7 +821,6 @@
 
     check-cast v0, Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p2, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v0
@@ -906,7 +840,6 @@
 .method public url()Ljava/net/URL;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b$b;->a:Ljava/net/URL;
 
     return-object v0
@@ -924,7 +857,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b$b;->d:Ljava/util/Map;
 
     return-object v0

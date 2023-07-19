@@ -25,10 +25,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->e()I
@@ -45,7 +43,6 @@
 
     iput v0, p0, Lcom/commsource/studio/sticker/TextFragment;->L:I
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/sticker/TextFragment$mViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/sticker/TextFragment$mViewModel$2;-><init>(Lcom/commsource/studio/sticker/TextFragment;)V
@@ -66,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/TextFragment;->b0(Lcom/commsource/studio/text/TextGroupParam;Lcotlin/jvm/u/a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -81,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
 
     if-nez p0, :cond_0
@@ -103,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/TextFragment;->f0()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object p0
@@ -120,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/TextFragment;->O:Lcom/commsource/studio/text/TextStylePanel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -135,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/TextFragment;->N:Lcom/commsource/studio/text/TextTemplatePanel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -150,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -165,7 +156,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/TextFragment;->O:Lcom/commsource/studio/text/TextStylePanel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -180,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/TextFragment;->N:Lcom/commsource/studio/text/TextTemplatePanel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -207,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -224,12 +212,10 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->t_layers_limited:I
 
-    .line 2
     invoke-static {p1}, Lf/k/c/c/f;->H(I)V
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -258,7 +244,6 @@
     :cond_1
     const/4 v7, 0x0
 
-    .line 4
     :goto_0
     new-instance v1, Lcom/commsource/studio/bean/TextLayerInfo;
 
@@ -268,7 +253,6 @@
 
     const/16 v11, 0x96
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v4
@@ -309,30 +293,24 @@
 
     aput p1, v5, v2
 
-    .line 6
     invoke-virtual {v4}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
 
     move-result-object p1
 
     invoke-virtual {p1, v5}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 7
     aget p1, v5, v3
 
-    .line 8
     aget v2, v5, v2
 
-    .line 9
     invoke-virtual {v4}, Lcom/commsource/studio/MatrixBox;->getScale()F
 
     move-result v3
 
     const/4 v4, 0x0
 
-    .line 10
     invoke-virtual {v1, p1, v2, v3, v4}, Lcom/commsource/studio/bean/TextLayerInfo;->setPosition(FFFF)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object p1
@@ -349,7 +327,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/studio/gesture/GestureLayer;->z0(Lcom/commsource/studio/bean/TextLayerInfo;Lcotlin/jvm/u/a;)V
 
-    .line 12
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -369,7 +346,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/TextFragment;->b0(Lcom/commsource/studio/text/TextGroupParam;Lcotlin/jvm/u/a;)V
 
@@ -385,7 +361,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/u1;->f()Landroid/util/DisplayMetrics;
 
     move-result-object v1
@@ -400,7 +375,6 @@
 
     if-gez v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
 
     const-string v2, "mViewBinding"
@@ -426,7 +400,6 @@
 
     invoke-virtual {v1, v4, v5, v3, v5}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
 
     if-nez v1, :cond_1
@@ -442,7 +415,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -478,10 +450,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->B()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
 
     const-string v2, "mViewBinding"
@@ -499,7 +469,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -525,7 +494,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/ImageStudioViewModel;->e2([Landroid/view/View;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -555,14 +523,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/sticker/TextFragment$animateOut$1;
 
     invoke-direct {v1, p0, p3}, Lcom/commsource/studio/sticker/TextFragment$animateOut$1;-><init>(Lcom/commsource/studio/sticker/TextFragment;Lcotlin/jvm/u/a;)V
 
     invoke-super {p0, p1, p2, v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->E(ILandroid/view/View;Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -575,10 +541,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->G()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sticker/TextFragment;->f0()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v1
@@ -587,7 +551,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextViewModel;->W(Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
 
     if-nez v1, :cond_0
@@ -605,14 +568,12 @@
 
     if-nez v1, :cond_2
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->N:Lcom/commsource/studio/text/TextTemplatePanel;
 
     if-eqz v1, :cond_1
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTemplatePanel;->m()V
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->O:Lcom/commsource/studio/text/TextStylePanel;
 
@@ -622,7 +583,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->N:Lcom/commsource/studio/text/TextTemplatePanel;
 
@@ -630,7 +590,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTemplatePanel;->i()V
 
-    .line 7
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->O:Lcom/commsource/studio/text/TextStylePanel;
 
@@ -638,7 +597,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextStylePanel;->k()V
 
-    .line 8
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -653,17 +611,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->H()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sticker/TextFragment;->f0()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextViewModel;->A()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -676,7 +631,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sticker/TextFragment;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -691,7 +645,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -708,7 +661,6 @@
 
     if-nez v1, :cond_a
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/text/TextGroupParam;
 
     sget-object v2, Lcom/commsource/repository/child/TextTemplateRepository;->s:Lcom/commsource/repository/child/TextTemplateRepository;
@@ -719,7 +671,6 @@
 
     invoke-direct {v1, v3}, Lcom/commsource/studio/text/TextGroupParam;-><init>(Lcom/commsource/studio/text/TextTemplate;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -732,12 +683,10 @@
 
     const-string v3, "content"
 
-    .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 5
     sget-object v4, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
     const-string v5, "font"
@@ -752,27 +701,23 @@
 
     const-string v7, "BP_TEX_00000000"
 
-    .line 6
     invoke-static {v3, v7}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
     if-eqz v7, :cond_0
 
-    .line 7
     invoke-virtual {v2}, Lcom/commsource/repository/child/TextTemplateRepository;->C()Lcom/commsource/studio/text/TextTemplate;
 
     move-result-object v3
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {v2, v3}, Lcom/commsource/repository/child/TextTemplateRepository;->I(Ljava/lang/String;)Lcom/commsource/studio/text/TextTemplateMaterial;
 
     move-result-object v3
 
-    .line 9
     invoke-virtual {v2, v3}, Lcom/commsource/repository/child/TextTemplateRepository;->N(Lcom/commsource/studio/text/TextTemplateMaterial;)Lcom/commsource/studio/text/TextTemplate;
 
     move-result-object v7
@@ -781,7 +726,6 @@
 
     if-nez v7, :cond_1
 
-    .line 10
     iget-object v8, p0, Lcom/commsource/studio/sticker/TextFragment;->N:Lcom/commsource/studio/text/TextTemplatePanel;
 
     if-eqz v8, :cond_1
@@ -801,7 +745,6 @@
     :cond_2
     if-nez v3, :cond_5
 
-    .line 11
     invoke-virtual {v1, v5}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -812,7 +755,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
 
     if-nez v1, :cond_3
@@ -828,14 +770,12 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/text/TextTabView;->setSelectItem(I)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->O:Lcom/commsource/studio/text/TextStylePanel;
 
     if-eqz v1, :cond_4
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextStylePanel;->k()V
 
-    .line 14
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->N:Lcom/commsource/studio/text/TextTemplatePanel;
 
@@ -843,7 +783,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTemplatePanel;->i()V
 
-    .line 15
     :cond_5
     new-instance v1, Lcom/commsource/studio/text/TextGroupParam;
 
@@ -853,7 +792,6 @@
 
     invoke-direct {v1, v4}, Lcom/commsource/studio/text/TextGroupParam;-><init>(Lcom/commsource/studio/text/TextTemplate;)V
 
-    .line 16
     new-instance v4, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v4}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -864,7 +802,6 @@
 
     if-eqz v3, :cond_6
 
-    .line 17
     invoke-virtual {v3}, Lcom/commsource/studio/text/TextTemplate;->getTemplateId()Ljava/lang/String;
 
     move-result-object v7
@@ -873,32 +810,27 @@
 
     const-string v9, "text_id"
 
-    .line 18
     invoke-static {v8, v9, v7}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v7, 0x0
 
     const/4 v8, 0x2
 
-    .line 19
     invoke-static {v1, v3, v7, v8, v5}, Lcom/commsource/studio/text/TextGroupParam;->replaceTemplate$default(Lcom/commsource/studio/text/TextGroupParam;Lcom/commsource/studio/text/TextTemplate;ZILjava/lang/Object;)V
 
     :cond_6
     if-eqz v6, :cond_8
 
-    .line 20
     invoke-virtual {v6}, Lcom/commsource/studio/text/TextFontMaterial;->needDownload()Z
 
     move-result v3
 
     if-eqz v3, :cond_7
 
-    .line 21
     iput-object v6, v4, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 22
     :cond_7
     new-instance v3, Ljava/util/HashMap;
 
@@ -906,7 +838,6 @@
 
     invoke-direct {v3, v5}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 23
     invoke-virtual {v6}, Lcom/commsource/studio/text/TextFontMaterial;->getId()Ljava/lang/String;
 
     move-result-object v5
@@ -917,17 +848,14 @@
 
     const-string v5, "beau_clk_font_use"
 
-    .line 24
     invoke-static {v5, v3}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 25
     invoke-virtual {v6}, Lcom/commsource/studio/text/TextFontMaterial;->getId()Ljava/lang/String;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/text/TextGroupParam;->setFontId(Ljava/lang/String;)V
 
-    .line 26
     :cond_8
     :goto_1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -940,17 +868,14 @@
 
     invoke-virtual {v3, v5}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
-    .line 27
     :cond_9
     :goto_2
     invoke-virtual {v2}, Lcom/commsource/repository/child/TextTemplateRepository;->w()V
 
-    .line 28
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextFontRepository;->x()V
 
-    .line 29
     :cond_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -964,7 +889,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sticker/TextFragment;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -997,7 +921,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/cc;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/cc;
 
     move-result-object p1
@@ -1012,13 +935,11 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/cc;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     new-instance p1, Lcom/commsource/studio/text/TextTemplatePanel;
 
     iget-object v0, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
@@ -1032,7 +953,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/sticker/TextFragment;->N:Lcom/commsource/studio/text/TextTemplatePanel;
 
-    .line 4
     new-instance p1, Lcom/commsource/studio/text/TextStylePanel;
 
     iget-object v0, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
@@ -1046,7 +966,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/sticker/TextFragment;->O:Lcom/commsource/studio/text/TextStylePanel;
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
 
     if-nez p1, :cond_3
@@ -1098,13 +1017,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sticker/TextFragment;->e0()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
 
     const-string p2, "mViewBinding"
@@ -1122,7 +1038,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/text/TextTabView;->setCallBack(Lcotlin/jvm/u/l;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -1141,7 +1056,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -1160,7 +1074,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/sticker/TextFragment;->f0()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object p1
@@ -1179,7 +1092,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/sticker/TextFragment;->f0()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object p1
@@ -1188,7 +1100,6 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object v1
@@ -1197,15 +1108,12 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 9
     new-instance v2, Lcom/commsource/studio/sticker/TextFragment$d;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/sticker/TextFragment$d;-><init>(Lcom/commsource/studio/sticker/TextFragment;)V
 
-    .line 10
     invoke-virtual {p1, v1, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -1224,7 +1132,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -1243,7 +1150,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 13
     invoke-direct {p0}, Lcom/commsource/studio/sticker/TextFragment;->f0()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object p1
@@ -1262,7 +1168,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
 
     if-nez p1, :cond_1
@@ -1278,7 +1183,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

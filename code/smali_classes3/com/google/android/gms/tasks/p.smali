@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/google/android/gms/tasks/o;Lcom/google/android/gms/tasks/h;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/tasks/p;->a:Lcom/google/android/gms/tasks/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -37,7 +36,6 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/tasks/p;->a:Lcom/google/android/gms/tasks/h;
 
     invoke-interface {p1}, Lcom/google/android/gms/tasks/h;->c()V

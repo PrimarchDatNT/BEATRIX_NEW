@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
     move-result-object v1
@@ -29,12 +27,10 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->isMutable()Z
 
@@ -42,7 +38,6 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     sget-object v1, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     const/4 v2, 0x1
@@ -56,18 +51,15 @@
     :cond_1
     move-object v1, p0
 
-    .line 5
     :goto_0
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v8
 
-    .line 6
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v9
 
-    .line 7
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getByteCount()I
 
     move-result p0
@@ -82,36 +74,29 @@
 
     move-result-object p0
 
-    .line 8
     invoke-virtual {v1, p0}, Landroid/graphics/Bitmap;->copyPixelsToBuffer(Ljava/nio/Buffer;)V
 
-    .line 9
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
-    .line 10
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object v2
 
     const/4 v3, 0x0
 
-    .line 11
     :goto_1
     array-length v4, v2
 
     if-ge v3, v4, :cond_2
 
-    .line 12
     aget-byte v4, v2, v3
 
     add-int/lit8 v5, v3, 0x2
 
-    .line 13
     aget-byte v6, v2, v5
 
     aput-byte v6, v2, v3
 
-    .line 14
     aput-byte v4, v2, v5
 
     add-int/lit8 v3, v3, 0x4
@@ -121,15 +106,12 @@
     :cond_2
     mul-int v2, v8, v9
 
-    .line 15
     new-array v3, v2, [I
 
-    .line 16
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->asIntBuffer()Ljava/nio/IntBuffer;
 
     move-result-object p0
 
-    .line 17
     invoke-virtual {p0, v3}, Ljava/nio/IntBuffer;->get([I)Ljava/nio/IntBuffer;
 
     const/4 v4, 0x0
@@ -142,10 +124,8 @@
 
     move v5, v8
 
-    .line 18
     invoke-virtual/range {v2 .. v9}, Landroid/graphics/Bitmap;->setPixels([IIIIIII)V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

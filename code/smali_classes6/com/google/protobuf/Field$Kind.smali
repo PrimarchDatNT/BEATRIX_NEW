@@ -126,7 +126,6 @@
 .method static constructor <clinit>()V
     .locals 23
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/Field$Kind;
 
     const-string v1, "TYPE_UNKNOWN"
@@ -137,7 +136,6 @@
 
     sput-object v0, Lcom/google/protobuf/Field$Kind;->TYPE_UNKNOWN:Lcom/google/protobuf/Field$Kind;
 
-    .line 2
     new-instance v1, Lcom/google/protobuf/Field$Kind;
 
     const-string v3, "TYPE_DOUBLE"
@@ -148,7 +146,6 @@
 
     sput-object v1, Lcom/google/protobuf/Field$Kind;->TYPE_DOUBLE:Lcom/google/protobuf/Field$Kind;
 
-    .line 3
     new-instance v3, Lcom/google/protobuf/Field$Kind;
 
     const-string v5, "TYPE_FLOAT"
@@ -159,7 +156,6 @@
 
     sput-object v3, Lcom/google/protobuf/Field$Kind;->TYPE_FLOAT:Lcom/google/protobuf/Field$Kind;
 
-    .line 4
     new-instance v5, Lcom/google/protobuf/Field$Kind;
 
     const-string v7, "TYPE_INT64"
@@ -170,7 +166,6 @@
 
     sput-object v5, Lcom/google/protobuf/Field$Kind;->TYPE_INT64:Lcom/google/protobuf/Field$Kind;
 
-    .line 5
     new-instance v7, Lcom/google/protobuf/Field$Kind;
 
     const-string v9, "TYPE_UINT64"
@@ -181,7 +176,6 @@
 
     sput-object v7, Lcom/google/protobuf/Field$Kind;->TYPE_UINT64:Lcom/google/protobuf/Field$Kind;
 
-    .line 6
     new-instance v9, Lcom/google/protobuf/Field$Kind;
 
     const-string v11, "TYPE_INT32"
@@ -192,7 +186,6 @@
 
     sput-object v9, Lcom/google/protobuf/Field$Kind;->TYPE_INT32:Lcom/google/protobuf/Field$Kind;
 
-    .line 7
     new-instance v11, Lcom/google/protobuf/Field$Kind;
 
     const-string v13, "TYPE_FIXED64"
@@ -203,7 +196,6 @@
 
     sput-object v11, Lcom/google/protobuf/Field$Kind;->TYPE_FIXED64:Lcom/google/protobuf/Field$Kind;
 
-    .line 8
     new-instance v13, Lcom/google/protobuf/Field$Kind;
 
     const-string v15, "TYPE_FIXED32"
@@ -214,7 +206,6 @@
 
     sput-object v13, Lcom/google/protobuf/Field$Kind;->TYPE_FIXED32:Lcom/google/protobuf/Field$Kind;
 
-    .line 9
     new-instance v15, Lcom/google/protobuf/Field$Kind;
 
     const-string v14, "TYPE_BOOL"
@@ -225,7 +216,6 @@
 
     sput-object v15, Lcom/google/protobuf/Field$Kind;->TYPE_BOOL:Lcom/google/protobuf/Field$Kind;
 
-    .line 10
     new-instance v14, Lcom/google/protobuf/Field$Kind;
 
     const-string v12, "TYPE_STRING"
@@ -236,7 +226,6 @@
 
     sput-object v14, Lcom/google/protobuf/Field$Kind;->TYPE_STRING:Lcom/google/protobuf/Field$Kind;
 
-    .line 11
     new-instance v12, Lcom/google/protobuf/Field$Kind;
 
     const-string v10, "TYPE_GROUP"
@@ -247,7 +236,6 @@
 
     sput-object v12, Lcom/google/protobuf/Field$Kind;->TYPE_GROUP:Lcom/google/protobuf/Field$Kind;
 
-    .line 12
     new-instance v10, Lcom/google/protobuf/Field$Kind;
 
     const-string v8, "TYPE_MESSAGE"
@@ -258,7 +246,6 @@
 
     sput-object v10, Lcom/google/protobuf/Field$Kind;->TYPE_MESSAGE:Lcom/google/protobuf/Field$Kind;
 
-    .line 13
     new-instance v8, Lcom/google/protobuf/Field$Kind;
 
     const-string v6, "TYPE_BYTES"
@@ -269,7 +256,6 @@
 
     sput-object v8, Lcom/google/protobuf/Field$Kind;->TYPE_BYTES:Lcom/google/protobuf/Field$Kind;
 
-    .line 14
     new-instance v6, Lcom/google/protobuf/Field$Kind;
 
     const-string v4, "TYPE_UINT32"
@@ -280,7 +266,6 @@
 
     sput-object v6, Lcom/google/protobuf/Field$Kind;->TYPE_UINT32:Lcom/google/protobuf/Field$Kind;
 
-    .line 15
     new-instance v4, Lcom/google/protobuf/Field$Kind;
 
     const-string v2, "TYPE_ENUM"
@@ -293,7 +278,6 @@
 
     sput-object v4, Lcom/google/protobuf/Field$Kind;->TYPE_ENUM:Lcom/google/protobuf/Field$Kind;
 
-    .line 16
     new-instance v2, Lcom/google/protobuf/Field$Kind;
 
     const-string v6, "TYPE_SFIXED32"
@@ -306,7 +290,6 @@
 
     sput-object v2, Lcom/google/protobuf/Field$Kind;->TYPE_SFIXED32:Lcom/google/protobuf/Field$Kind;
 
-    .line 17
     new-instance v6, Lcom/google/protobuf/Field$Kind;
 
     const-string v4, "TYPE_SFIXED64"
@@ -319,7 +302,6 @@
 
     sput-object v6, Lcom/google/protobuf/Field$Kind;->TYPE_SFIXED64:Lcom/google/protobuf/Field$Kind;
 
-    .line 18
     new-instance v4, Lcom/google/protobuf/Field$Kind;
 
     const-string v2, "TYPE_SINT32"
@@ -332,7 +314,6 @@
 
     sput-object v4, Lcom/google/protobuf/Field$Kind;->TYPE_SINT32:Lcom/google/protobuf/Field$Kind;
 
-    .line 19
     new-instance v2, Lcom/google/protobuf/Field$Kind;
 
     const-string v6, "TYPE_SINT64"
@@ -345,7 +326,6 @@
 
     sput-object v2, Lcom/google/protobuf/Field$Kind;->TYPE_SINT64:Lcom/google/protobuf/Field$Kind;
 
-    .line 20
     new-instance v6, Lcom/google/protobuf/Field$Kind;
 
     const-string v4, "UNRECOGNIZED"
@@ -444,10 +424,8 @@
 
     aput-object v6, v4, v2
 
-    .line 21
     sput-object v4, Lcom/google/protobuf/Field$Kind;->$VALUES:[Lcom/google/protobuf/Field$Kind;
 
-    .line 22
     new-instance v0, Lcom/google/protobuf/Field$Kind$a;
 
     invoke-direct {v0}, Lcom/google/protobuf/Field$Kind$a;-><init>()V
@@ -465,10 +443,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/protobuf/Field$Kind;->value:I
 
     return-void
@@ -483,115 +459,96 @@
 
     return-object p0
 
-    .line 1
     :pswitch_0
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_SINT64:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 2
     :pswitch_1
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_SINT32:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 3
     :pswitch_2
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_SFIXED64:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 4
     :pswitch_3
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_SFIXED32:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 5
     :pswitch_4
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_ENUM:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 6
     :pswitch_5
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_UINT32:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 7
     :pswitch_6
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_BYTES:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 8
     :pswitch_7
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_MESSAGE:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 9
     :pswitch_8
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_GROUP:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 10
     :pswitch_9
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_STRING:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 11
     :pswitch_a
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_BOOL:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 12
     :pswitch_b
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_FIXED32:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 13
     :pswitch_c
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_FIXED64:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 14
     :pswitch_d
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_INT32:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 15
     :pswitch_e
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_UINT64:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 16
     :pswitch_f
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_INT64:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 17
     :pswitch_10
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_FLOAT:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 18
     :pswitch_11
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_DOUBLE:Lcom/google/protobuf/Field$Kind;
 
     return-object p0
 
-    .line 19
     :pswitch_12
     sget-object p0, Lcom/google/protobuf/Field$Kind;->TYPE_UNKNOWN:Lcom/google/protobuf/Field$Kind;
 
@@ -632,7 +589,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/Field$Kind;->internalValueMap:Lcom/google/protobuf/z0$d;
 
     return-object v0
@@ -643,7 +599,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/protobuf/Field$Kind;->forNumber(I)Lcom/google/protobuf/Field$Kind;
 
     move-result-object p0
@@ -654,7 +609,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/protobuf/Field$Kind;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/protobuf/Field$Kind;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -669,7 +623,6 @@
 .method public static values()[Lcom/google/protobuf/Field$Kind;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/Field$Kind;->$VALUES:[Lcom/google/protobuf/Field$Kind;
 
     invoke-virtual {v0}, [Lcom/google/protobuf/Field$Kind;->clone()Ljava/lang/Object;
@@ -686,7 +639,6 @@
 .method public final getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/Field$Kind;->value:I
 
     return v0

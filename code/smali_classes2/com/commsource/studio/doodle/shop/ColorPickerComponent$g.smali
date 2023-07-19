@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Ljava/lang/String;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$g;->b(ILjava/lang/String;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$g;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->d(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)Lcom/commsource/widget/h1/e;
@@ -96,7 +94,6 @@
 
     if-ge p1, v1, :cond_2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$g;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->d(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)Lcom/commsource/widget/h1/e;
@@ -115,7 +112,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$g;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->e(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)Lcotlin/jvm/u/l;
@@ -153,7 +149,6 @@
 
     throw p1
 
-    .line 4
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$g;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
@@ -164,17 +159,14 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$g;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->k(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$g;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->t()V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

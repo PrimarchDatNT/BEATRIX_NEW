@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$g$a;->b(Lcom/meitu/template/bean/ArMaterial;)V
@@ -77,14 +76,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->isDownload()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getNumber()I
 
     move-result p1
@@ -94,7 +91,6 @@
     :cond_0
     const p1, 0x7a130
 
-    .line 3
     :goto_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$g$a;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$g;
 
@@ -108,7 +104,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->z(IZ)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

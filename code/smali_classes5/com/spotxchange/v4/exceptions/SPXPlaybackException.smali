@@ -13,7 +13,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-direct {p0, p1, v0}, Lcom/spotxchange/v4/exceptions/SPXPlaybackException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -22,7 +21,6 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -39,7 +37,6 @@
 
     invoke-direct {p0, v0, p2}, Lcom/spotxchange/v4/exceptions/SPXException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     iput-object p1, p0, Lcom/spotxchange/v4/exceptions/SPXPlaybackException;->description:Ljava/lang/String;
 
     return-void

@@ -40,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/activity/ProActivity$u;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -97,7 +96,6 @@
 
     invoke-static {p4, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/billing/activity/ProActivity$u;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {p2}, Lcom/commsource/billing/activity/ProActivity;->O0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/beautyplus/f0/u0;
@@ -112,7 +110,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/billing/activity/ProActivity$u;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {p2}, Lcom/commsource/billing/activity/ProActivity;->O0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/beautyplus/f0/u0;
@@ -127,7 +124,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/billing/activity/ProActivity$u;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {p2}, Lcom/commsource/billing/activity/ProActivity;->O0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/beautyplus/f0/u0;
@@ -142,7 +138,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -187,7 +182,6 @@
 
     invoke-static {p3, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -202,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     move-object v2, p1
 
     check-cast v2, Landroid/graphics/drawable/Drawable;

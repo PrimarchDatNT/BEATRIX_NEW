@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/n/a/c/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/a$a;->a:Lf/n/a/c/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

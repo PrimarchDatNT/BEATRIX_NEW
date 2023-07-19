@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Landroid/os/ParcelFileDescriptor;
 
     return-object v0
@@ -63,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Landroid/os/ParcelFileDescriptor;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/k/f$b$a;->d(Landroid/os/ParcelFileDescriptor;)V
@@ -79,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/k/f$b$a;->e(Ljava/io/File;)Landroid/os/ParcelFileDescriptor;
 
     move-result-object p1
@@ -95,7 +91,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Landroid/os/ParcelFileDescriptor;->close()V
 
     return-void
@@ -111,7 +106,6 @@
 
     const/high16 v0, 0x10000000
 
-    .line 1
     invoke-static {p1, v0}, Landroid/os/ParcelFileDescriptor;->open(Ljava/io/File;I)Landroid/os/ParcelFileDescriptor;
 
     move-result-object p1

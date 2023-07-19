@@ -51,7 +51,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/internal/c;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/api/internal/c;-><init>()V
@@ -66,24 +65,20 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/c;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/c;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -92,7 +87,6 @@
 
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/c;->d:Z
 
     return-void
@@ -103,7 +97,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/api/internal/c;->f:Lcom/google/android/gms/common/api/internal/c;
 
     return-object v0
@@ -114,29 +107,23 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/api/internal/c;->f:Lcom/google/android/gms/common/api/internal/c;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, v0, Lcom/google/android/gms/common/api/internal/c;->d:Z
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {p0, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/app/Application;->registerComponentCallbacks(Landroid/content/ComponentCallbacks;)V
 
     const/4 p0, 0x1
 
-    .line 5
     iput-boolean p0, v0, Lcom/google/android/gms/common/api/internal/c;->d:Z
 
-    .line 6
     :cond_0
     monitor-exit v0
 
@@ -155,12 +142,10 @@
 .method private final e(Z)V
     .locals 5
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/api/internal/c;->f:Lcom/google/android/gms/common/api/internal/c;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/c;->c:Ljava/util/ArrayList;
 
@@ -181,12 +166,10 @@
 
     check-cast v4, Lcom/google/android/gms/common/api/internal/c$a;
 
-    .line 3
     invoke-interface {v4, p1}, Lcom/google/android/gms/common/api/internal/c$a;->a(Z)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     monitor-exit v0
 
@@ -209,18 +192,15 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/api/internal/c;->f:Lcom/google/android/gms/common/api/internal/c;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/c;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -240,7 +220,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/c;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -259,7 +238,6 @@
         value = 0x10
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/c;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -268,22 +246,18 @@
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/common/util/v;->e()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     new-instance p1, Landroid/app/ActivityManager$RunningAppProcessInfo;
 
     invoke-direct {p1}, Landroid/app/ActivityManager$RunningAppProcessInfo;-><init>()V
 
-    .line 4
     invoke-static {p1}, Landroid/app/ActivityManager;->getMyMemoryState(Landroid/app/ActivityManager$RunningAppProcessInfo;)V
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/c;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x1
@@ -300,7 +274,6 @@
 
     if-le p1, v0, :cond_1
 
-    .line 6
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/c;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {p1, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
@@ -310,7 +283,6 @@
     :cond_0
     return p1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/c;->d()Z
@@ -323,7 +295,6 @@
 .method public final onActivityCreated(Landroid/app/Activity;Landroid/os/Bundle;)V
     .locals 2
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/c;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 p2, 0x1
@@ -334,14 +305,12 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/c;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1, p2}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/c;->e(Z)V
 
     :cond_0
@@ -363,7 +332,6 @@
 .method public final onActivityResumed(Landroid/app/Activity;)V
     .locals 3
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/c;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v0, 0x1
@@ -374,14 +342,12 @@
 
     move-result p1
 
-    .line 2
     iget-object v2, p0, Lcom/google/android/gms/common/api/internal/c;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v2, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-direct {p0, v1}, Lcom/google/android/gms/common/api/internal/c;->e(Z)V
 
     :cond_0
@@ -425,7 +391,6 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/c;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v0, 0x0
@@ -438,12 +403,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/c;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {p1, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 3
     invoke-direct {p0, v1}, Lcom/google/android/gms/common/api/internal/c;->e(Z)V
 
     :cond_0

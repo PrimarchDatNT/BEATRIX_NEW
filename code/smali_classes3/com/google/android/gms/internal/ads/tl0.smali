@@ -7,7 +7,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/rl0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/u7;-><init>()V
 
     return-void

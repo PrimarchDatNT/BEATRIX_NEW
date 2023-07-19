@@ -40,7 +40,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/ScrawlLayer$DrawPathView;->a:Lcom/commsource/studio/layer/ScrawlLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
@@ -132,7 +131,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/ScrawlLayer$DrawPathView;->a:Lcom/commsource/studio/layer/ScrawlLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->K()F
@@ -150,7 +148,6 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/ScrawlLayer$DrawPathView;->a:Lcom/commsource/studio/layer/ScrawlLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -167,7 +164,6 @@
 
     invoke-virtual {p1, v3, v3, v1, v2}, Landroid/graphics/Canvas;->clipRect(FFFF)Z
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/layer/ScrawlLayer$DrawPathView;->a:Lcom/commsource/studio/layer/ScrawlLayer;
 
@@ -178,7 +174,6 @@
     :cond_2
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/ScrawlLayer;->d(Landroid/graphics/Canvas;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -32,17 +32,14 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lio/grpc/internal/z;->a:Ljava/util/ArrayList;
 
-    .line 3
     sget-object v0, Lio/grpc/ConnectivityState;->IDLE:Lio/grpc/ConnectivityState;
 
     iput-object v0, p0, Lio/grpc/internal/z;->b:Lio/grpc/ConnectivityState;
@@ -55,14 +52,12 @@
 .method a()Lio/grpc/ConnectivityState;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/z;->b:Lio/grpc/ConnectivityState;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
@@ -82,10 +77,8 @@
 
     const-string v0, "newState"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/z;->b:Lio/grpc/ConnectivityState;
 
     if-eq v0, p1, :cond_1
@@ -96,10 +89,8 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 3
     iput-object p1, p0, Lio/grpc/internal/z;->b:Lio/grpc/ConnectivityState;
 
-    .line 4
     iget-object p1, p0, Lio/grpc/internal/z;->a:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->isEmpty()Z
@@ -110,18 +101,15 @@
 
     return-void
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lio/grpc/internal/z;->a:Ljava/util/ArrayList;
 
-    .line 6
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lio/grpc/internal/z;->a:Ljava/util/ArrayList;
 
-    .line 7
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -139,7 +127,6 @@
 
     check-cast v0, Lio/grpc/internal/z$a;
 
-    .line 8
     invoke-virtual {v0}, Lio/grpc/internal/z$a;->a()V
 
     goto :goto_0
@@ -153,35 +140,28 @@
 
     const-string v0, "callback"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "executor"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "source"
 
-    .line 3
     invoke-static {p3, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     new-instance v0, Lio/grpc/internal/z$a;
 
     invoke-direct {v0, p1, p2}, Lio/grpc/internal/z$a;-><init>(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
-    .line 5
     iget-object p1, p0, Lio/grpc/internal/z;->b:Lio/grpc/ConnectivityState;
 
     if-eq p1, p3, :cond_0
 
-    .line 6
     invoke-virtual {v0}, Lio/grpc/internal/z$a;->a()V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object p1, p0, Lio/grpc/internal/z;->a:Ljava/util/ArrayList;
 

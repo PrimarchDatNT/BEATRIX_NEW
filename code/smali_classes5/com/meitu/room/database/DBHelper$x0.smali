@@ -19,7 +19,6 @@
 .method constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/room/migration/Migration;-><init>(II)V
 
     return-void
@@ -44,15 +43,12 @@
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `FORMULA_MATERIAL_DUFFLE` (`FormulaId` TEXT NOT NULL, `FormulaThumbnail` TEXT, `FormulaConfig` TEXT, `PaidState` INTEGER NOT NULL, `ProductsInfo` TEXT, `IconRatio` TEXT, `CreateTime` INTEGER NOT NULL, `HotState` INTEGER NOT NULL, `HotSort` INTEGER NOT NULL, `RecommendState` INTEGER NOT NULL, `RecommendSort` INTEGER NOT NULL, `NewState` INTEGER NOT NULL, `EndedAt` INTEGER NOT NULL, `Sort` TEXT, `RecentUseTime` INTEGER NOT NULL, `CategoryId` TEXT, `DownloadState` INTEGER NOT NULL, `InternalState` INTEGER NOT NULL, PRIMARY KEY(`FormulaId`))"
 
-    .line 1
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `FORMULA_CATEGORY` (`CategoryId` TEXT NOT NULL, `CategoryName` TEXT, `CategorySort` INTEGER NOT NULL, `InternalState` INTEGER NOT NULL, PRIMARY KEY(`CategoryId`))"
 
-    .line 2
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

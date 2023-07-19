@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/statistics/b;->e(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -35,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/statistics/b;->f(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -50,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/statistics/b;->g(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -76,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
@@ -85,12 +80,10 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
@@ -98,7 +91,6 @@
 
     if-eqz p0, :cond_6
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v2
@@ -113,7 +105,6 @@
 
     goto/16 :goto_2
 
-    .line 5
     :cond_1
     new-instance v2, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
@@ -127,33 +118,26 @@
 
     const-string v3, "MTAiModel"
 
-    .line 6
     invoke-virtual {v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->setModelDirectory(Ljava/lang/String;)V
 
-    .line 7
     new-instance v3, Lcom/meitu/mtlab/MTAiInterface/MTImageRecognitionModule/MTImageRecognitionOption;
 
     invoke-direct {v3}, Lcom/meitu/mtlab/MTAiInterface/MTImageRecognitionModule/MTImageRecognitionOption;-><init>()V
 
     const-wide/16 v5, 0x1
 
-    .line 8
     iput-wide v5, v3, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const/16 v5, 0x12
 
-    .line 9
     invoke-virtual {v2, v5, v3}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->registerModule(ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;)I
 
-    .line 10
     new-instance v6, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     invoke-direct {v6}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
 
-    .line 11
     iput-object v3, v6, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->imageRecognitionOption:Lcom/meitu/mtlab/MTAiInterface/MTImageRecognitionModule/MTImageRecognitionOption;
 
-    .line 12
     invoke-static {p0}, Lcom/commsource/beautyplus/g0/a;->a(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     move-result-object v3
@@ -164,32 +148,26 @@
 
     if-eqz v3, :cond_5
 
-    .line 13
     iget-object v3, v3, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->imageRecognitionResult:Lcom/meitu/mtlab/MTAiInterface/MTImageRecognitionModule/MTImageRecognitionResult;
 
     if-eqz v3, :cond_5
 
-    .line 14
     iget-object v3, v3, Lcom/meitu/mtlab/MTAiInterface/MTImageRecognitionModule/MTImageRecognitionResult;->thirdLevelRecognitions:[Lcom/meitu/mtlab/MTAiInterface/MTImageRecognitionModule/MTImageRecognition;
 
     if-eqz v3, :cond_5
 
-    .line 15
     array-length v6, v3
 
     if-lez v6, :cond_5
 
-    .line 16
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 17
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 18
     new-instance v8, Ljava/text/DecimalFormat;
 
     const-string v9, "0.000"
@@ -198,13 +176,11 @@
 
     const/4 v9, 0x0
 
-    .line 19
     :goto_0
     array-length v10, v3
 
     if-ge v9, v10, :cond_3
 
-    .line 20
     aget-object v10, v3, v9
 
     iget v10, v10, Lcom/meitu/mtlab/MTAiInterface/MTImageRecognitionModule/MTImageRecognition;->category:I
@@ -215,7 +191,6 @@
 
     goto :goto_1
 
-    .line 21
     :cond_2
     aget-object v10, v3, v9
 
@@ -227,7 +202,6 @@
 
     invoke-virtual {v6, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 22
     aget-object v11, v3, v9
 
     iget v11, v11, Lcom/meitu/mtlab/MTAiInterface/MTImageRecognitionModule/MTImageRecognition;->score:F
@@ -247,7 +221,6 @@
 
     goto :goto_0
 
-    .line 23
     :cond_3
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->length()I
 
@@ -255,7 +228,6 @@
 
     if-lez v3, :cond_4
 
-    .line 24
     invoke-virtual {v6}, Ljava/lang/StringBuilder;->length()I
 
     move-result v3
@@ -270,7 +242,6 @@
 
     invoke-interface {v1, v6, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 25
     :cond_4
     invoke-virtual {v7}, Ljava/lang/StringBuilder;->length()I
 
@@ -278,7 +249,6 @@
 
     if-lez v3, :cond_5
 
-    .line 26
     invoke-virtual {v7}, Ljava/lang/StringBuilder;->length()I
 
     move-result v3
@@ -293,19 +263,15 @@
 
     invoke-interface {v1, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 27
     :cond_5
     invoke-virtual {v2, v5}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
-    .line 28
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 29
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 30
     :cond_6
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -326,7 +292,6 @@
 
     if-gt p0, v1, :cond_0
 
-    .line 1
     invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p0
@@ -337,7 +302,6 @@
 
     invoke-static {v1, v2, p0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -367,10 +331,8 @@
 
     const-string v2, "data"
 
-    .line 1
     invoke-static {v1, v2, p0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -383,7 +345,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
@@ -396,7 +357,6 @@
 
     const-string p0, "\u767d\u79cd\u4eba"
 
-    .line 2
     invoke-interface {v1, v3, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
@@ -408,7 +368,6 @@
 
     const-string p0, "\u9ec4\u79cd\u4eba"
 
-    .line 3
     invoke-interface {v1, v3, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
@@ -420,7 +379,6 @@
 
     const-string p0, "\u9ed1\u79cd\u4eba"
 
-    .line 4
     invoke-interface {v1, v3, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
@@ -432,7 +390,6 @@
 
     const-string p0, "\u5370\u5ea6\u5317\u90e8"
 
-    .line 5
     invoke-interface {v1, v3, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
@@ -442,7 +399,6 @@
 
     const-string p0, "\u5370\u5ea6\u5357\u90e8"
 
-    .line 6
     invoke-interface {v1, v3, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
@@ -454,7 +410,6 @@
 
     const-string p0, "\u4e1c\u5357\u4e9a"
 
-    .line 7
     invoke-interface {v1, v3, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
@@ -462,16 +417,13 @@
     :cond_5
     const-string p0, "\u672a\u77e5"
 
-    .line 8
     invoke-interface {v1, v3, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :goto_0
     const-string p0, "userinform_ethnicity"
 
-    .line 9
     invoke-static {p0, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -484,7 +436,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
@@ -504,12 +455,10 @@
     :cond_0
     const-string p0, "\u5176\u4ed6"
 
-    .line 2
     invoke-interface {v1, v2, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 3
     :cond_1
     :goto_0
     new-instance v3, Ljava/lang/StringBuilder;
@@ -520,7 +469,6 @@
 
     const-string p0, "\u4eba,"
 
-    .line 4
     invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_2
@@ -528,7 +476,6 @@
 
     const-string p0, "\u732b,"
 
-    .line 5
     invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_3
@@ -536,10 +483,8 @@
 
     const-string p0, "\u72d7,"
 
-    .line 6
     invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     :cond_4
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -547,7 +492,6 @@
 
     const/4 p1, 0x0
 
-    .line 8
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result p2
@@ -563,10 +507,8 @@
     :goto_1
     const-string p0, "userinform_photoscenes"
 
-    .line 9
     invoke-static {p0, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -579,7 +521,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/statistics/b$a;
 
     const-string v2, "statisticAgeGenderRace"
@@ -588,7 +529,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

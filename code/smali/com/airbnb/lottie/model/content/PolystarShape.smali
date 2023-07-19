@@ -67,37 +67,26 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->b:Lcom/airbnb/lottie/model/content/PolystarShape$Type;
 
-    .line 4
     iput-object p3, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->c:Lcom/airbnb/lottie/model/i/b;
 
-    .line 5
     iput-object p4, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->d:Lcom/airbnb/lottie/model/i/m;
 
-    .line 6
     iput-object p5, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->e:Lcom/airbnb/lottie/model/i/b;
 
-    .line 7
     iput-object p6, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->f:Lcom/airbnb/lottie/model/i/b;
 
-    .line 8
     iput-object p7, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->g:Lcom/airbnb/lottie/model/i/b;
 
-    .line 9
     iput-object p8, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->h:Lcom/airbnb/lottie/model/i/b;
 
-    .line 10
     iput-object p9, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->i:Lcom/airbnb/lottie/model/i/b;
 
-    .line 11
     iput-boolean p10, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->j:Z
 
     return-void
@@ -108,7 +97,6 @@
 .method public a(Lcom/airbnb/lottie/j;Lcom/airbnb/lottie/model/layer/a;)Lcom/airbnb/lottie/w/b/c;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/w/b/o;
 
     invoke-direct {v0, p1, p2, p0}, Lcom/airbnb/lottie/w/b/o;-><init>(Lcom/airbnb/lottie/j;Lcom/airbnb/lottie/model/layer/a;Lcom/airbnb/lottie/model/content/PolystarShape;)V
@@ -119,7 +107,6 @@
 .method public b()Lcom/airbnb/lottie/model/i/b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->f:Lcom/airbnb/lottie/model/i/b;
 
     return-object v0
@@ -128,7 +115,6 @@
 .method public c()Lcom/airbnb/lottie/model/i/b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->h:Lcom/airbnb/lottie/model/i/b;
 
     return-object v0
@@ -137,7 +123,6 @@
 .method public d()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->a:Ljava/lang/String;
 
     return-object v0
@@ -146,7 +131,6 @@
 .method public e()Lcom/airbnb/lottie/model/i/b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->g:Lcom/airbnb/lottie/model/i/b;
 
     return-object v0
@@ -155,7 +139,6 @@
 .method public f()Lcom/airbnb/lottie/model/i/b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->i:Lcom/airbnb/lottie/model/i/b;
 
     return-object v0
@@ -164,7 +147,6 @@
 .method public g()Lcom/airbnb/lottie/model/i/b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->c:Lcom/airbnb/lottie/model/i/b;
 
     return-object v0
@@ -182,7 +164,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->d:Lcom/airbnb/lottie/model/i/m;
 
     return-object v0
@@ -191,7 +172,6 @@
 .method public i()Lcom/airbnb/lottie/model/i/b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->e:Lcom/airbnb/lottie/model/i/b;
 
     return-object v0
@@ -200,7 +180,6 @@
 .method public j()Lcom/airbnb/lottie/model/content/PolystarShape$Type;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->b:Lcom/airbnb/lottie/model/content/PolystarShape$Type;
 
     return-object v0
@@ -209,7 +188,6 @@
 .method public k()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/airbnb/lottie/model/content/PolystarShape;->j:Z
 
     return v0

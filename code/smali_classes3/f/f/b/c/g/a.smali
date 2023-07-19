@@ -15,7 +15,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     move-result v0
@@ -39,14 +37,12 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {p0, v0}, Landroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
     move-result-object p0
@@ -55,7 +51,6 @@
 
     return-object p0
 
-    .line 4
     :cond_0
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -73,7 +68,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     move-result v0
@@ -82,14 +76,12 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {p0, v0}, Landroidx/appcompat/content/res/AppCompatResources;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p0
@@ -98,7 +90,6 @@
 
     return-object p0
 
-    .line 4
     :cond_0
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -120,7 +111,6 @@
     .annotation build Landroidx/annotation/StyleableRes;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     move-result p0
@@ -142,7 +132,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     move-result v0
@@ -151,14 +140,12 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 3
     new-instance p2, Lf/f/b/c/g/b;
 
     invoke-direct {p2, p0, p1}, Lf/f/b/c/g/b;-><init>(Landroid/content/Context;I)V

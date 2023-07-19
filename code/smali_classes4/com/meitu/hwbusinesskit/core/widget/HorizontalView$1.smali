@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/core/widget/HorizontalView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/widget/HorizontalView$1;->this$0:Lcom/meitu/hwbusinesskit/core/widget/HorizontalView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/widget/HorizontalView;->access$000()Ljava/lang/String;
 
     move-result-object v1
@@ -69,7 +67,6 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/widget/HorizontalView$1;->this$0:Lcom/meitu/hwbusinesskit/core/widget/HorizontalView;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/widget/HorizontalView;->access$200(Lcom/meitu/hwbusinesskit/core/widget/HorizontalView;)Lcom/meitu/hwbusinesskit/core/widget/HorizontalView$OnViewChangeListener;
@@ -84,14 +81,12 @@
 
     invoke-interface {v1, v2}, Lcom/meitu/hwbusinesskit/core/widget/HorizontalView$OnViewChangeListener;->onDisplay(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/widget/HorizontalView$1;->this$0:Lcom/meitu/hwbusinesskit/core/widget/HorizontalView;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/meitu/hwbusinesskit/core/widget/HorizontalView;->access$302(Lcom/meitu/hwbusinesskit/core/widget/HorizontalView;Z)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

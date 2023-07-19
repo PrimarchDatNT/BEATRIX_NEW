@@ -50,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$e;->b:Lcom/commsource/studio/effect/k;
 
     instance-of v1, v1, Lcom/commsource/studio/effect/v;
@@ -69,7 +68,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$e;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->c0()Lcom/commsource/studio/function/background/BackgroundViewModel;
@@ -88,7 +86,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/function/background/BackgroundViewModel;->V(Lcom/commsource/studio/function/background/BackgroundViewModel;Lcom/commsource/studio/function/background/BackgroundType;Lcom/commsource/studio/function/background/BackgroundTexture;Lcom/commsource/easyeditor/entity/CropEnum;ILjava/lang/Object;)V
 
-    .line 3
     :cond_0
     iget-object v8, p0, Lcom/commsource/studio/ImageStudioViewModel$e;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -104,7 +101,6 @@
 
     invoke-static/range {v8 .. v13}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$e;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     const/4 v2, 0x1
@@ -113,7 +109,6 @@
 
     invoke-static {v1, v3, v2, v3}, Lcom/commsource/studio/ImageStudioViewModel;->D1(Lcom/commsource/studio/ImageStudioViewModel;Ljava/util/Map;ILjava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -21,10 +21,8 @@
 .method public constructor <init>(Landroid/graphics/PointF;Landroid/graphics/PointF;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/airbnb/lottie/a0/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
@@ -37,10 +35,8 @@
 .method public constructor <init>(Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/view/animation/Interpolator;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Lcom/airbnb/lottie/a0/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;Landroid/view/animation/Interpolator;)V
 
-    .line 4
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
@@ -55,7 +51,6 @@
 .method public bridge synthetic a(Lcom/airbnb/lottie/a0/b;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/airbnb/lottie/a0/f;->a(Lcom/airbnb/lottie/a0/b;)Ljava/lang/Object;
 
     move-result-object p1
@@ -66,7 +61,6 @@
 .method bridge synthetic e(Ljava/lang/Object;Ljava/lang/Object;F)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Landroid/graphics/PointF;
 
     check-cast p2, Landroid/graphics/PointF;
@@ -81,14 +75,12 @@
 .method f(Landroid/graphics/PointF;Landroid/graphics/PointF;F)Landroid/graphics/PointF;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/a0/e;->g:Landroid/graphics/PointF;
 
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
     iget v2, p2, Landroid/graphics/PointF;->x:F
 
-    .line 2
     invoke-static {v1, v2, p3}, Lcom/airbnb/lottie/z/g;->k(FFF)F
 
     move-result v1
@@ -97,15 +89,12 @@
 
     iget p2, p2, Landroid/graphics/PointF;->y:F
 
-    .line 3
     invoke-static {p1, p2, p3}, Lcom/airbnb/lottie/z/g;->k(FFF)F
 
     move-result p1
 
-    .line 4
     invoke-virtual {v0, v1, p1}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 5
     iget-object p1, p0, Lcom/airbnb/lottie/a0/e;->g:Landroid/graphics/PointF;
 
     return-object p1

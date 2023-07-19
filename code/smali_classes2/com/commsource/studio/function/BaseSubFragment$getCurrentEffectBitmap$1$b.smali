@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1$b;->a:Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;
 
     iget-object v2, v1, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;->$runnable:Lcotlin/jvm/u/l;

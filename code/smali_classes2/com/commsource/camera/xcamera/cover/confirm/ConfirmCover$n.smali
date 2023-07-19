@@ -57,10 +57,8 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -69,7 +67,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->U0()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->S()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
@@ -82,7 +79,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->Q()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -107,7 +103,6 @@
 
     iget p1, p1, Lcom/meitu/template/bean/ArMaterialGroup;->number:I
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->Q()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -116,7 +111,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->I0(I)V
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -130,7 +124,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 7
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->T:Landroid/widget/RelativeLayout;
 
     const-string v3, "it.rlConfirmContainer"
@@ -139,7 +132,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 8
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->N:Landroid/widget/FrameLayout;
 
     const-string v3, "it.flBackground"
@@ -148,17 +140,14 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 9
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->V:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->l()V
 
-    .line 10
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
     invoke-virtual {v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->w()V
 
-    .line 11
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
     const-string v3, "it.sourceImageView"
@@ -167,26 +156,22 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 12
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
     const/4 v4, 0x0
 
     invoke-virtual {v2, v1, v4}, Lcom/commsource/camera/beauty/WaterMarkImageView;->o0(Landroid/graphics/Bitmap;Z)V
 
-    .line 13
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
     invoke-virtual {v2, v1, v4}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->n0(Landroid/graphics/Bitmap;Z)V
 
-    .line 14
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
     const/high16 v4, 0x3f800000    # 1.0f
 
     invoke-virtual {v2, v4}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->setFilterAlpha(F)V
 
-    .line 15
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -195,17 +180,14 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->setShowOriginalBitmap(Z)V
 
-    .line 16
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/beauty/WaterMarkImageView;->setWaterMarkBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 17
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/beauty/WaterMarkImageView;->setArWaterMarkBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 18
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -214,17 +196,14 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 19
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
     invoke-virtual {v2}, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;->W()V
 
-    .line 20
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;->setOnChangeListener(Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView$c;)V
 
-    .line 21
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -240,7 +219,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -253,7 +231,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -266,7 +243,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->P()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a;
@@ -275,7 +251,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a;->y(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->P()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a;
@@ -288,7 +263,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->b0()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;
@@ -301,7 +275,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 27
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -315,7 +288,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$n;->a(Ljava/lang/Boolean;)V

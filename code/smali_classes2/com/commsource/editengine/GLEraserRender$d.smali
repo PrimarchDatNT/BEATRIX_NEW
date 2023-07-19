@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$d;->a:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-static {v1}, Lcom/commsource/editengine/GLEraserRender;->d(Lcom/commsource/editengine/GLEraserRender;)Lcom/commsource/studio/bean/ImageLayerInfo;
@@ -76,7 +75,6 @@
 
     invoke-virtual {v1, v2, v4}, Lcom/commsource/editengine/node/b;->D(ZLcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 2
     :cond_1
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$d;->a:Lcom/commsource/editengine/GLEraserRender;
 
@@ -107,7 +105,6 @@
 
     invoke-virtual {v1, v2, v4}, Lcom/commsource/editengine/node/b;->B(ZLcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 3
     :cond_3
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$d;->a:Lcom/commsource/editengine/GLEraserRender;
 
@@ -119,7 +116,6 @@
 
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -43,7 +43,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcotlinx/coroutines/channels/m;-><init>(Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/l;Z)V
 
     return-void
@@ -58,7 +57,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/m;->x1()Lcotlinx/coroutines/channels/l;
 
     move-result-object p1
@@ -75,7 +73,6 @@
 .method public bridge synthetic b()Lcotlinx/coroutines/channels/c0;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/m;->b()Lcotlinx/coroutines/channels/l;
 
     move-result-object v0
@@ -86,7 +83,6 @@
 .method public isActive()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcotlinx/coroutines/a;->isActive()Z
 
     move-result v0
@@ -101,7 +97,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/m;->x1()Lcotlinx/coroutines/channels/l;
 
     move-result-object v0
@@ -114,7 +109,6 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcotlinx/coroutines/a;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object p2
@@ -128,7 +122,6 @@
 .method public bridge synthetic t1(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/t1;
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/channels/v;->D1(Lcotlin/t1;)V

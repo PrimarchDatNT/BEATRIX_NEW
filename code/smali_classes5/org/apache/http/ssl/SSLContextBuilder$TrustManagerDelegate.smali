@@ -27,13 +27,10 @@
 .method constructor <init>(Ljavax/net/ssl/X509TrustManager;Lorg/apache/http/ssl/TrustStrategy;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/http/ssl/SSLContextBuilder$TrustManagerDelegate;->trustManager:Ljavax/net/ssl/X509TrustManager;
 
-    .line 3
     iput-object p2, p0, Lorg/apache/http/ssl/SSLContextBuilder$TrustManagerDelegate;->trustStrategy:Lorg/apache/http/ssl/TrustStrategy;
 
     return-void
@@ -49,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/ssl/SSLContextBuilder$TrustManagerDelegate;->trustManager:Ljavax/net/ssl/X509TrustManager;
 
     invoke-interface {v0, p1, p2}, Ljavax/net/ssl/X509TrustManager;->checkClientTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V
@@ -65,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/ssl/SSLContextBuilder$TrustManagerDelegate;->trustStrategy:Lorg/apache/http/ssl/TrustStrategy;
 
     invoke-interface {v0, p1, p2}, Lorg/apache/http/ssl/TrustStrategy;->isTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)Z
@@ -74,7 +69,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/ssl/SSLContextBuilder$TrustManagerDelegate;->trustManager:Ljavax/net/ssl/X509TrustManager;
 
     invoke-interface {v0, p1, p2}, Ljavax/net/ssl/X509TrustManager;->checkServerTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V
@@ -86,7 +80,6 @@
 .method public getAcceptedIssuers()[Ljava/security/cert/X509Certificate;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/ssl/SSLContextBuilder$TrustManagerDelegate;->trustManager:Ljavax/net/ssl/X509TrustManager;
 
     invoke-interface {v0}, Ljavax/net/ssl/X509TrustManager;->getAcceptedIssuers()[Ljava/security/cert/X509Certificate;

@@ -13,13 +13,10 @@
 .method public constructor <init>(Ljava/lang/String;Lcom/google/firebase/crashlytics/e/i/h;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/k;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/k;->b:Lcom/google/firebase/crashlytics/e/i/h;
 
     return-void
@@ -28,7 +25,6 @@
 .method private b()Ljava/io/File;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/k;->b:Lcom/google/firebase/crashlytics/e/i/h;
@@ -49,7 +45,6 @@
 .method public a()Z
     .locals 4
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/common/k;->b()Ljava/io/File;
 
@@ -66,7 +61,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v1
@@ -98,7 +92,6 @@
 .method public c()Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/common/k;->b()Ljava/io/File;
 
     move-result-object v0
@@ -113,7 +106,6 @@
 .method public d()Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/common/k;->b()Ljava/io/File;
 
     move-result-object v0

@@ -18,7 +18,6 @@
 
     const-string v0, "MusicRecording"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/firebase/appindexing/g/i;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -43,7 +42,6 @@
 
     const-string p1, "byArtist"
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/appindexing/g/i;->d(Ljava/lang/String;[Lcom/google/firebase/appindexing/g/i;)Lcom/google/firebase/appindexing/g/i;
 
     move-result-object p1
@@ -68,7 +66,6 @@
 
     const-string p1, "duration"
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/appindexing/g/i;->b(Ljava/lang/String;[J)Lcom/google/firebase/appindexing/g/i;
 
     move-result-object p1
@@ -95,7 +92,6 @@
 
     const-string p1, "inAlbum"
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/appindexing/g/i;->d(Ljava/lang/String;[Lcom/google/firebase/appindexing/g/i;)Lcom/google/firebase/appindexing/g/i;
 
     move-result-object p1
@@ -114,7 +110,6 @@
 
     const-string v0, "inPlaylist"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lcom/google/firebase/appindexing/g/i;->d(Ljava/lang/String;[Lcom/google/firebase/appindexing/g/i;)Lcom/google/firebase/appindexing/g/i;
 
     move-result-object p1

@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/s5;Lcom/google/android/gms/measurement/internal/v6;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/u5;->b:Lcom/google/android/gms/measurement/internal/s5;
 
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/u5;->a:Lcom/google/android/gms/measurement/internal/v6;
@@ -31,14 +30,12 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/u5;->b:Lcom/google/android/gms/measurement/internal/s5;
 
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/u5;->a:Lcom/google/android/gms/measurement/internal/v6;
 
     invoke-static {v0, v1}, Lcom/google/android/gms/measurement/internal/s5;->e(Lcom/google/android/gms/measurement/internal/s5;Lcom/google/android/gms/measurement/internal/v6;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/u5;->b:Lcom/google/android/gms/measurement/internal/s5;
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/s5;->c()V

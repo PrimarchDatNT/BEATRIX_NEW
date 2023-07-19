@@ -33,10 +33,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -49,14 +47,12 @@
 .method public static e(Lcom/google/android/gms/internal/ads/yr;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/mt;->h(Lcom/google/android/gms/internal/ads/yr;)Lcom/google/android/gms/internal/ads/kt;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/kt;->e:Lcom/google/android/gms/internal/ads/pt;
 
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/pt;->c()V
@@ -74,12 +70,10 @@
 .method static h(Lcom/google/android/gms/internal/ads/yr;)Lcom/google/android/gms/internal/ads/kt;
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->y()Lcom/google/android/gms/internal/ads/mt;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/mt;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -97,7 +91,6 @@
 
     check-cast v1, Lcom/google/android/gms/internal/ads/kt;
 
-    .line 3
     iget-object v2, v1, Lcom/google/android/gms/internal/ads/kt;->d:Lcom/google/android/gms/internal/ads/yr;
 
     if-ne v2, p0, :cond_0
@@ -115,7 +108,6 @@
 .method public final b(Lcom/google/android/gms/internal/ads/kt;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mt;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -126,7 +118,6 @@
 .method public final c(Lcom/google/android/gms/internal/ads/kt;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mt;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
@@ -145,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mt;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;

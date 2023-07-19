@@ -15,7 +15,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 .method public hashBytes(Ljava/nio/ByteBuffer;)Lcom/google/common/hash/HashCode;
     .locals 1
 
-    .line 4
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v0
@@ -49,7 +47,6 @@
 .method public hashBytes([B)Lcom/google/common/hash/HashCode;
     .locals 2
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -66,12 +63,10 @@
 
     add-int v0, p2, p3
 
-    .line 2
     array-length v1, p1
 
     invoke-static {p2, v0, v1}, Lcom/google/common/base/t;->f0(III)V
 
-    .line 3
     invoke-virtual {p0, p3}, Lcom/google/common/hash/c;->newHasher(I)Lcom/google/common/hash/j;
 
     move-result-object v0
@@ -92,7 +87,6 @@
 
     const/4 v0, 0x4
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/common/hash/c;->newHasher(I)Lcom/google/common/hash/j;
 
     move-result-object v0
@@ -113,7 +107,6 @@
 
     const/16 v0, 0x8
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/common/hash/c;->newHasher(I)Lcom/google/common/hash/j;
 
     move-result-object v0
@@ -142,7 +135,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/hash/i;->newHasher()Lcom/google/common/hash/j;
 
     move-result-object v0
@@ -161,7 +153,6 @@
 .method public hashString(Ljava/lang/CharSequence;Ljava/nio/charset/Charset;)Lcom/google/common/hash/HashCode;
     .locals 1
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/hash/i;->newHasher()Lcom/google/common/hash/j;
 
     move-result-object v0
@@ -180,14 +171,12 @@
 .method public hashUnencodedChars(Ljava/lang/CharSequence;)Lcom/google/common/hash/HashCode;
     .locals 1
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
 
     mul-int/lit8 v0, v0, 0x2
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/common/hash/c;->newHasher(I)Lcom/google/common/hash/j;
 
     move-result-object v0
@@ -218,10 +207,8 @@
     :goto_0
     const-string v1, "expectedInputSize must be >= 0 but was %s"
 
-    .line 1
     invoke-static {v0, v1, p1}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
-    .line 2
     invoke-interface {p0}, Lcom/google/common/hash/i;->newHasher()Lcom/google/common/hash/j;
 
     move-result-object p1

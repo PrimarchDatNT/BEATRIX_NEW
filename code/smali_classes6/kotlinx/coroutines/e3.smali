@@ -14,7 +14,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlinx/coroutines/e2;-><init>(Lcotlinx/coroutines/c2;)V
 
     return-void

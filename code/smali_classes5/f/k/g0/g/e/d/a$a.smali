@@ -35,7 +35,6 @@
 .method constructor <init>(Lf/k/g0/g/e/d/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/g0/g/e/d/a$a;->a:Lf/k/g0/g/e/d/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -61,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/g0/g/e/d/a$a;->b(Lcom/google/android/gms/tasks/k;)Lf/k/g0/g/e/b$a;
 
     move-result-object p1
@@ -97,32 +95,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->r()Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/String;
 
-    .line 2
     invoke-static {}, Lf/k/g0/g/e/b$a;->a()Lf/k/g0/g/e/b$a$a;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1, p1}, Lf/k/g0/g/e/b$a$a;->b(Ljava/lang/String;)Lf/k/g0/g/e/b$a$a;
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-virtual {v1, p1}, Lf/k/g0/g/e/b$a$a;->c(Z)Lf/k/g0/g/e/b$a$a;
 
     const-string p1, "firebase"
 
-    .line 5
     invoke-virtual {v1, p1}, Lf/k/g0/g/e/b$a$a;->d(Ljava/lang/String;)Lf/k/g0/g/e/b$a$a;
 
-    .line 6
     invoke-virtual {v1}, Lf/k/g0/g/e/b$a$a;->a()Lf/k/g0/g/e/b$a;
 
     move-result-object p1

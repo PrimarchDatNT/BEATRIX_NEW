@@ -19,7 +19,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/gms/internal/measurement/m1;-><init>(Lcom/google/android/gms/internal/measurement/s1;Ljava/lang/String;Ljava/lang/Object;Lcom/google/android/gms/internal/measurement/o1;)V
 
     return-void
@@ -30,28 +29,23 @@
 .method final synthetic e(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 3
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Boolean;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/lang/Boolean;
 
     return-object p1
 
-    .line 3
     :cond_0
     instance-of v0, p1, Ljava/lang/String;
 
     if-eqz v0, :cond_2
 
-    .line 4
     move-object v0, p1
 
     check-cast v0, Ljava/lang/String;
 
-    .line 5
     sget-object v1, Lcom/google/android/gms/internal/measurement/w0;->c:Ljava/util/regex/Pattern;
 
     invoke-virtual {v1, v0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -64,12 +58,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     return-object p1
 
-    .line 7
     :cond_1
     sget-object v1, Lcom/google/android/gms/internal/measurement/w0;->d:Ljava/util/regex/Pattern;
 
@@ -83,12 +75,10 @@
 
     if-eqz v0, :cond_2
 
-    .line 8
     sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     return-object p1
 
-    .line 9
     :cond_2
     invoke-super {p0}, Lcom/google/android/gms/internal/measurement/m1;->m()Ljava/lang/String;
 

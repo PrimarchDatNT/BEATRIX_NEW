@@ -50,10 +50,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/g1$c;->a:Lcom/google/common/collect/f1;
 
     return-void
@@ -69,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/g1$c;->a:Lcom/google/common/collect/f1;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/f1;->a(Ljava/lang/Object;)Ljava/lang/Object;
@@ -82,15 +79,12 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/collect/g1$c;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/g1$c;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/g1$c;->a:Lcom/google/common/collect/f1;
 
     iget-object p1, p1, Lcom/google/common/collect/g1$c;->a:Lcom/google/common/collect/f1;
@@ -110,7 +104,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/g1$c;->a:Lcom/google/common/collect/f1;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I

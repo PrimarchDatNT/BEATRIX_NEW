@@ -79,14 +79,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/f;->sCanceledAvailabilityNotification:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
@@ -101,7 +99,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -115,7 +112,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/f;->sCanceledAvailabilityNotification:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x1
@@ -132,7 +128,6 @@
     :try_start_0
     const-string v0, "notification"
 
-    .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -143,7 +138,6 @@
 
     const/16 v0, 0x28c4
 
-    .line 3
     invoke-virtual {p0, v0}, Landroid/app/NotificationManager;->cancel(I)V
     :try_end_0
     .catch Ljava/lang/SecurityException; {:try_start_0 .. :try_end_0} :catch_0
@@ -161,7 +155,6 @@
     .annotation build Lcom/google/android/gms/common/internal/e0;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/f;->zzal:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x1
@@ -186,33 +179,28 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/e;->i()Lcom/google/android/gms/common/e;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, p0, p1}, Lcom/google/android/gms/common/e;->k(Landroid/content/Context;I)I
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/common/e;->i()Lcom/google/android/gms/common/e;
 
     move-result-object v0
 
     const-string v1, "e"
 
-    .line 4
     invoke-virtual {v0, p0, p1, v1}, Lcom/google/android/gms/common/e;->e(Landroid/content/Context;ILjava/lang/String;)Landroid/content/Intent;
 
     move-result-object p0
 
     const/16 v0, 0x39
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -233,14 +221,12 @@
 
     if-nez p0, :cond_0
 
-    .line 6
     new-instance p0, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;
 
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;-><init>(I)V
 
     throw p0
 
-    .line 7
     :cond_0
     new-instance v0, Lcom/google/android/gms/common/GooglePlayServicesRepairableException;
 
@@ -267,7 +253,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -281,7 +266,6 @@
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     iget p0, p0, Landroid/content/pm/PackageInfo;->versionCode:I
 
     return p0
@@ -291,7 +275,6 @@
 
     const-string v1, "Google Play services is missing."
 
-    .line 3
     invoke-static {p0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return v0
@@ -310,10 +293,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->q(Z)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v0
@@ -333,12 +314,10 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/e;->i()Lcom/google/android/gms/common/e;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, p1, p0, p2}, Lcom/google/android/gms/common/e;->f(Landroid/content/Context;II)Landroid/app/PendingIntent;
 
     move-result-object p0
@@ -357,7 +336,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/ConnectionResult;->l0(I)Ljava/lang/String;
 
     move-result-object p0
@@ -376,7 +354,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/e;->i()Lcom/google/android/gms/common/e;
 
     move-result-object v0
@@ -400,7 +377,6 @@
 
     const/4 v1, 0x3
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Landroid/content/Context;->createPackageContext(Ljava/lang/String;I)Landroid/content/Context;
 
     move-result-object p0
@@ -420,7 +396,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -428,7 +403,6 @@
 
     const-string v0, "com.google.android.gms"
 
-    .line 2
     invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->getResourcesForApplication(Ljava/lang/String;)Landroid/content/res/Resources;
 
     move-result-object p0
@@ -451,7 +425,6 @@
     .annotation build Lcom/google/android/gms/common/internal/e0;
     .end annotation
 
-    .line 1
     sget-boolean v0, Lcom/google/android/gms/common/f;->zzak:Z
 
     const/4 v1, 0x0
@@ -460,7 +433,6 @@
 
     if-nez v0, :cond_1
 
-    .line 2
     :try_start_0
     invoke-static {p0}, Lcom/google/android/gms/common/p/c;->a(Landroid/content/Context;)Lcom/google/android/gms/common/p/b;
 
@@ -470,43 +442,36 @@
 
     const/16 v4, 0x40
 
-    .line 3
     invoke-virtual {v0, v3, v4}, Lcom/google/android/gms/common/p/b;->e(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     move-result-object v0
 
-    .line 4
     invoke-static {p0}, Lcom/google/android/gms/common/g;->a(Landroid/content/Context;)Lcom/google/android/gms/common/g;
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-static {v0, v1}, Lcom/google/android/gms/common/g;->g(Landroid/content/pm/PackageInfo;Z)Z
 
     move-result p0
 
     if-nez p0, :cond_0
 
-    .line 6
     invoke-static {v0, v2}, Lcom/google/android/gms/common/g;->g(Landroid/content/pm/PackageInfo;Z)Z
 
     move-result p0
 
     if-eqz p0, :cond_0
 
-    .line 7
     sput-boolean v2, Lcom/google/android/gms/common/f;->zzaj:Z
 
     goto :goto_0
 
-    .line 8
     :cond_0
     sput-boolean v1, Lcom/google/android/gms/common/f;->zzaj:Z
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     :goto_0
     sput-boolean v2, Lcom/google/android/gms/common/f;->zzak:Z
 
@@ -525,30 +490,25 @@
 
     const-string v3, "Cannot find Google Play services package name."
 
-    .line 10
     invoke-static {v0, v3, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 11
     sput-boolean v2, Lcom/google/android/gms/common/f;->zzak:Z
 
     goto :goto_2
 
-    .line 12
     :goto_1
     sput-boolean v2, Lcom/google/android/gms/common/f;->zzak:Z
 
     throw p0
 
-    .line 13
     :cond_1
     :goto_2
     sget-boolean p0, Lcom/google/android/gms/common/f;->zzaj:Z
 
     if-nez p0, :cond_3
 
-    .line 14
     invoke-static {}, Lcom/google/android/gms/common/util/l;->f()Z
 
     move-result p0
@@ -576,7 +536,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sget v0, Lcom/google/android/gms/common/f;->GOOGLE_PLAY_SERVICES_VERSION_CODE:I
 
     invoke-static {p0, v0}, Lcom/google/android/gms/common/f;->isGooglePlayServicesAvailable(Landroid/content/Context;I)I
@@ -594,13 +553,11 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    .line 3
     sget v1, Lcom/google/android/gms/common/i$b;->a:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -614,10 +571,8 @@
 
     const-string v1, "The Google Play services resources were not found. Check your project configuration to ensure that the resources are included."
 
-    .line 4
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -631,7 +586,6 @@
 
     if-nez v0, :cond_2
 
-    .line 6
     sget-object v0, Lcom/google/android/gms/common/f;->zzal:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -640,21 +594,18 @@
 
     if-nez v0, :cond_2
 
-    .line 7
     invoke-static {p0}, Lcom/google/android/gms/common/internal/o1;->b(Landroid/content/Context;)I
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 8
     sget v1, Lcom/google/android/gms/common/f;->GOOGLE_PLAY_SERVICES_VERSION_CODE:I
 
     if-ne v0, v1, :cond_0
 
     goto :goto_1
 
-    .line 9
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -688,7 +639,6 @@
 
     throw p0
 
-    .line 10
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -698,7 +648,6 @@
 
     throw p0
 
-    .line 11
     :cond_2
     :goto_1
     invoke-static {p0}, Lcom/google/android/gms/common/util/l;->h(Landroid/content/Context;)Z
@@ -720,7 +669,6 @@
     :cond_3
     const/4 v0, 0x0
 
-    .line 12
     :goto_2
     invoke-static {p0, v0, p1}, Lcom/google/android/gms/common/f;->zza(Landroid/content/Context;ZI)I
 
@@ -737,7 +685,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/common/util/c0;->a(Landroid/content/Context;I)Z
 
     move-result p0
@@ -769,7 +716,6 @@
 
     const-string p1, "com.google.android.gms"
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/common/f;->isUninstalledAppPossiblyUpdating(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p0
@@ -799,7 +745,6 @@
 
     const-string p1, "com.android.vending"
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/common/f;->isUninstalledAppPossiblyUpdating(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p0
@@ -821,7 +766,6 @@
         value = 0x12
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/util/v;->g()Z
 
     move-result v0
@@ -830,14 +774,12 @@
 
     const-string v0, "user"
 
-    .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroid/os/UserManager;
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
@@ -850,7 +792,6 @@
 
     const-string v0, "restricted_profile"
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -887,7 +828,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/util/l;->c(Landroid/content/Context;)Z
 
     move-result p0
@@ -903,12 +843,10 @@
 
     const-string v0, "com.google.android.gms"
 
-    .line 1
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/common/util/v;->j()Z
 
     move-result v1
@@ -919,7 +857,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -935,7 +872,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -953,7 +889,6 @@
 
     check-cast v4, Landroid/content/pm/PackageInstaller$SessionInfo;
 
-    .line 5
     invoke-virtual {v4}, Landroid/content/pm/PackageInstaller$SessionInfo;->getAppPackageName()Ljava/lang/String;
 
     move-result-object v4
@@ -969,7 +904,6 @@
     :catch_0
     return v3
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -977,7 +911,6 @@
 
     const/16 v4, 0x2000
 
-    .line 7
     :try_start_1
     invoke-virtual {v1, p1, v4}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
 
@@ -985,12 +918,10 @@
 
     if-eqz v0, :cond_2
 
-    .line 8
     iget-boolean p0, p1, Landroid/content/pm/ApplicationInfo;->enabled:Z
 
     return p0
 
-    .line 9
     :cond_2
     iget-boolean p1, p1, Landroid/content/pm/ApplicationInfo;->enabled:Z
 
@@ -1055,7 +986,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/common/util/c0;->b(Landroid/content/Context;ILjava/lang/String;)Z
 
     move-result p0
@@ -1083,11 +1013,9 @@
     :cond_0
     const/4 v3, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v3}, Lcom/google/android/gms/common/internal/b0;->a(Z)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v3
@@ -1105,7 +1033,6 @@
 
     const/16 v7, 0x2040
 
-    .line 3
     invoke-virtual {v3, v4, v7}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     move-result-object v4
@@ -1117,7 +1044,6 @@
     :catch_0
     const-string p0, "Google Play Store is missing."
 
-    .line 4
     invoke-static {v6, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return v5
@@ -1126,7 +1052,6 @@
     :goto_1
     const/16 v7, 0x40
 
-    .line 5
     :try_start_1
     invoke-virtual {v3, v0, v7}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
@@ -1134,10 +1059,8 @@
     :try_end_1
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_1 .. :try_end_1} :catch_2
 
-    .line 6
     invoke-static {p0}, Lcom/google/android/gms/common/g;->a(Landroid/content/Context;)Lcom/google/android/gms/common/g;
 
-    .line 7
     invoke-static {v7, v1}, Lcom/google/android/gms/common/g;->g(Landroid/content/pm/PackageInfo;Z)Z
 
     move-result p0
@@ -1146,7 +1069,6 @@
 
     const-string p0, "Google Play services signature invalid."
 
-    .line 8
     invoke-static {v6, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return v5
@@ -1154,7 +1076,6 @@
     :cond_2
     if-eqz p1, :cond_4
 
-    .line 9
     invoke-static {v4, v1}, Lcom/google/android/gms/common/g;->g(Landroid/content/pm/PackageInfo;Z)Z
 
     move-result p0
@@ -1169,7 +1090,6 @@
 
     aget-object p1, p1, v2
 
-    .line 10
     invoke-virtual {p0, p1}, Landroid/content/pm/Signature;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -1179,12 +1099,10 @@
     :cond_3
     const-string p0, "Google Play Store signature invalid."
 
-    .line 11
     invoke-static {v6, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return v5
 
-    .line 12
     :cond_4
     iget p0, v7, Landroid/content/pm/PackageInfo;->versionCode:I
 
@@ -1192,14 +1110,12 @@
 
     move-result p0
 
-    .line 13
     invoke-static {p2}, Lcom/google/android/gms/common/util/h0;->a(I)I
 
     move-result p1
 
     if-ge p0, p1, :cond_5
 
-    .line 14
     iget p0, v7, Landroid/content/pm/PackageInfo;->versionCode:I
 
     const/16 p1, 0x4d
@@ -1230,13 +1146,11 @@
 
     return p0
 
-    .line 15
     :cond_5
     iget-object p0, v7, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
 
     if-nez p0, :cond_6
 
-    .line 16
     :try_start_2
     invoke-virtual {v3, v0, v2}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
 
@@ -1251,12 +1165,10 @@
 
     const-string p1, "Google Play services missing when getting application info."
 
-    .line 17
     invoke-static {v6, p1, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return v1
 
-    .line 18
     :cond_6
     :goto_2
     iget-boolean p0, p0, Landroid/content/pm/ApplicationInfo;->enabled:Z
@@ -1273,7 +1185,6 @@
     :catch_2
     const-string p0, "Google Play services is missing."
 
-    .line 19
     invoke-static {v6, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return v1

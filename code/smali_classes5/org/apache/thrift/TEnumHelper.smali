@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lorg/apache/thrift/TEnumHelper;->ajc$preClinit()V
 
     return-void
@@ -20,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +27,6 @@
 .method private static synthetic ajc$preClinit()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lorg/apache/thrift/TEnumHelper;
@@ -93,7 +90,6 @@
 
     new-array v3, v2, [Ljava/lang/Class;
 
-    .line 1
     sget-object v4, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     const/4 v5, 0x0
@@ -106,7 +102,6 @@
 
     new-array v1, v2, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -168,7 +163,6 @@
 .method static final synthetic invoke_aroundBody0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0

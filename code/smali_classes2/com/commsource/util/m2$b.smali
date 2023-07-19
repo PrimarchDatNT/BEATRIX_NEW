@@ -34,7 +34,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +53,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->getAsString()Ljava/lang/String;
 
@@ -83,7 +81,6 @@
     :cond_0
     const/4 p3, 0x0
 
-    .line 2
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -94,7 +91,6 @@
 
     return-object p1
 
-    .line 3
     :catch_0
     :cond_1
     :try_start_1
@@ -115,7 +111,6 @@
     :catch_1
     move-exception p1
 
-    .line 4
     new-instance p3, Lcom/google/gson/JsonSyntaxException;
 
     invoke-direct {p3, p1}, Lcom/google/gson/JsonSyntaxException;-><init>(Ljava/lang/Throwable;)V
@@ -132,7 +127,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance p3, Lcom/google/gson/JsonPrimitive;
 
     invoke-direct {p3, p1}, Lcom/google/gson/JsonPrimitive;-><init>(Ljava/lang/Number;)V
@@ -154,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/util/m2$b;->a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Integer;
 
     move-result-object p1
@@ -171,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/util/m2$b;->b(Ljava/lang/Integer;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

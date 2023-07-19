@@ -58,7 +58,6 @@
 .method public constructor <init>()V
     .locals 6
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v1, 0x0
@@ -71,15 +70,12 @@
 
     move-object v0, p0
 
-    .line 2
     invoke-static/range {v0 .. v5}, Lcotlinx/coroutines/internal/a0;->k(Lcotlinx/coroutines/internal/a0;JLcotlinx/coroutines/internal/z;ILjava/lang/Object;)Lcotlinx/coroutines/internal/z;
 
     move-result-object v0
 
-    .line 3
     iput-object v0, p0, Lcotlinx/coroutines/internal/a0;->_head:Ljava/lang/Object;
 
-    .line 4
     iput-object v0, p0, Lcotlinx/coroutines/internal/a0;->_tail:Ljava/lang/Object;
 
     return-void
@@ -93,13 +89,11 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcotlinx/coroutines/internal/a0;->_head:Ljava/lang/Object;
 
     check-cast v0, Lcotlinx/coroutines/internal/z;
 
-    .line 2
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/z;->b()J
 
     move-result-wide v1
@@ -114,7 +108,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     sget-object v1, Lcotlinx/coroutines/internal/a0;->a:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
@@ -126,7 +119,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p1, Lcotlinx/coroutines/internal/z;->prev:Ljava/lang/Object;
 
     return-void
@@ -140,13 +132,11 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcotlinx/coroutines/internal/a0;->_tail:Ljava/lang/Object;
 
     check-cast v0, Lcotlinx/coroutines/internal/z;
 
-    .line 2
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/z;->b()J
 
     move-result-wide v1
@@ -161,7 +151,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     sget-object v1, Lcotlinx/coroutines/internal/a0;->b:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
@@ -185,7 +174,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcotlinx/coroutines/internal/a0;->j(JLcotlinx/coroutines/internal/z;)Lcotlinx/coroutines/internal/z;
 
@@ -193,7 +181,6 @@
 
     return-object p0
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -217,7 +204,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/a0;->_head:Ljava/lang/Object;
 
     check-cast v0, Lcotlinx/coroutines/internal/z;
@@ -240,7 +226,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     :goto_0
     invoke-virtual {p1}, Lcotlinx/coroutines/internal/z;->b()J
 
@@ -252,14 +237,12 @@
 
     if-gez v3, :cond_3
 
-    .line 2
     invoke-virtual {p1}, Lcotlinx/coroutines/internal/z;->c()Lcotlinx/coroutines/internal/z;
 
     move-result-object v0
 
     if-nez v0, :cond_2
 
-    .line 3
     invoke-virtual {p1}, Lcotlinx/coroutines/internal/z;->b()J
 
     move-result-wide v0
@@ -272,30 +255,25 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {p1, v2, v0}, Lcotlinx/coroutines/internal/z;->a(Lcotlinx/coroutines/internal/z;Lcotlinx/coroutines/internal/z;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {p1}, Lcotlinx/coroutines/internal/z;->d()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-virtual {p1}, Lcotlinx/coroutines/internal/z;->g()V
 
-    .line 7
     :cond_0
     invoke-direct {p0, v0}, Lcotlinx/coroutines/internal/a0;->i(Lcotlinx/coroutines/internal/z;)V
 
     goto :goto_1
 
-    .line 8
     :cond_1
     invoke-virtual {p1}, Lcotlinx/coroutines/internal/z;->c()Lcotlinx/coroutines/internal/z;
 
@@ -311,7 +289,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_3
     invoke-virtual {p1}, Lcotlinx/coroutines/internal/z;->b()J
 
@@ -342,7 +319,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcotlinx/coroutines/internal/z;->b()J
 
     move-result-wide v0
@@ -353,7 +329,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcotlinx/coroutines/internal/a0;->e(Lcotlinx/coroutines/internal/z;J)Lcotlinx/coroutines/internal/z;
 
@@ -361,7 +336,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-direct {p0, p1}, Lcotlinx/coroutines/internal/a0;->h(Lcotlinx/coroutines/internal/z;)V
 
     return-object p1
@@ -383,7 +357,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/a0;->_tail:Ljava/lang/Object;
 
     check-cast v0, Lcotlinx/coroutines/internal/z;

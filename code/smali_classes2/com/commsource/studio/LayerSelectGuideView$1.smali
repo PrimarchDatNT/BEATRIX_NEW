@@ -42,19 +42,16 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/common/k;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/LayerSelectGuideView$1;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
@@ -64,14 +61,12 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/LayerSelectGuideView$1;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     invoke-static {v0}, Lcom/commsource/studio/LayerSelectGuideView;->j(Lcom/commsource/studio/LayerSelectGuideView;)V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/commsource/studio/LayerSelectGuideView$1;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
@@ -85,7 +80,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/studio/LayerSelectGuideView$1;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     invoke-static {v0}, Lcom/commsource/studio/LayerSelectGuideView;->c(Lcom/commsource/studio/LayerSelectGuideView;)Lcom/airbnb/lottie/LottieAnimationView;
@@ -94,7 +88,6 @@
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/LottieAnimationView;->k()V
 
-    .line 7
     :cond_2
     iget-object v0, p0, Lcom/commsource/studio/LayerSelectGuideView$1;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
@@ -108,7 +101,6 @@
 
     invoke-static {v0, v1, v2, v3, v4}, Lcom/commsource/util/l0;->c(Landroid/view/View;ZJLcotlin/jvm/u/a;)V
 
-    .line 8
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

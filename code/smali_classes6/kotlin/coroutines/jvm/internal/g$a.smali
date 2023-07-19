@@ -57,7 +57,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/coroutines/jvm/internal/g$a;->a:Ljava/lang/reflect/Method;

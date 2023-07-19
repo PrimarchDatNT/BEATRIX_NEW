@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/view/View;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/XDownloadButton$Executer$execute$2;->invoke(Landroid/view/View;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$2;->$task:Lcotlin/jvm/u/a;
 
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;

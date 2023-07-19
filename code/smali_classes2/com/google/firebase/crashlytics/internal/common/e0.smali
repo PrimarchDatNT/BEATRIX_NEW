@@ -28,15 +28,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/e0;->a:Ljava/lang/String;
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
@@ -51,12 +48,10 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -67,7 +62,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-virtual {p0, v0, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p0
@@ -93,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/e0;->b:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
@@ -108,7 +101,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/e0;->a:Ljava/lang/String;
 
     return-object v0
@@ -119,12 +111,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/common/e0;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/e0;->b:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v0}, Ljava/util/concurrent/ConcurrentHashMap;->size()I
@@ -143,7 +133,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object p1
@@ -161,13 +150,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {p2}, Lcom/google/firebase/crashlytics/internal/common/e0;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 5
     :goto_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/e0;->b:Ljava/util/concurrent/ConcurrentHashMap;
 
@@ -175,7 +162,6 @@
 
     return-void
 
-    .line 6
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -189,7 +175,6 @@
 .method public e(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/common/e0;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1

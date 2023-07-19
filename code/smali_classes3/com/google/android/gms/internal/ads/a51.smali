@@ -25,15 +25,12 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/kh1;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "the targeting must not be null"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/a51;->a:Lcom/google/android/gms/internal/ads/kh1;
 
     return-void
@@ -44,22 +41,18 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 13
 
-    .line 1
     check-cast p1, Landroid/os/Bundle;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/a51;->a:Lcom/google/android/gms/internal/ads/kh1;
 
     iget-object v1, v0, Lcom/google/android/gms/internal/ads/kh1;->d:Lcom/google/android/gms/internal/ads/zzve;
 
-    .line 3
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/kh1;->f:Ljava/lang/String;
 
     const-string v2, "slotname"
 
     invoke-virtual {p1, v2, v0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     sget-object v0, Lcom/google/android/gms/internal/ads/z41;->a:[I
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/a51;->a:Lcom/google/android/gms/internal/ads/kh1;
@@ -85,7 +78,6 @@
     :cond_0
     const-string v0, "is_rewarded_interstitial"
 
-    .line 5
     invoke-virtual {p1, v0, v3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     goto :goto_0
@@ -93,10 +85,8 @@
     :cond_1
     const-string v0, "is_new_rewarded"
 
-    .line 6
     invoke-virtual {p1, v0, v3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 7
     :goto_0
     new-instance v0, Ljava/text/SimpleDateFormat;
 
@@ -112,7 +102,6 @@
 
     invoke-direct {v4, v5, v6}, Ljava/util/Date;-><init>(J)V
 
-    .line 8
     invoke-virtual {v0, v4}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object v0
@@ -137,20 +126,16 @@
     :goto_1
     const-string v5, "cust_age"
 
-    .line 9
     invoke-static {p1, v5, v0, v4}, Lcom/google/android/gms/internal/ads/ph1;->f(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 10
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/zzve;->c:Landroid/os/Bundle;
 
     const-string v4, "extras"
 
     invoke-static {p1, v4, v0}, Lcom/google/android/gms/internal/ads/ph1;->b(Landroid/os/Bundle;Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 11
     iget v0, v1, Lcom/google/android/gms/internal/ads/zzve;->d:I
 
-    .line 12
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -171,20 +156,16 @@
     :goto_2
     const-string v6, "cust_gender"
 
-    .line 13
     invoke-static {p1, v6, v0, v4}, Lcom/google/android/gms/internal/ads/ph1;->d(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Integer;Z)V
 
-    .line 14
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/zzve;->f:Ljava/util/List;
 
     const-string v4, "kw"
 
     invoke-static {p1, v4, v0}, Lcom/google/android/gms/internal/ads/ph1;->g(Landroid/os/Bundle;Ljava/lang/String;Ljava/util/List;)V
 
-    .line 15
     iget v0, v1, Lcom/google/android/gms/internal/ads/zzve;->p:I
 
-    .line 16
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -203,20 +184,16 @@
     :goto_3
     const-string v6, "tag_for_child_directed_treatment"
 
-    .line 17
     invoke-static {p1, v6, v0, v4}, Lcom/google/android/gms/internal/ads/ph1;->d(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Integer;Z)V
 
-    .line 18
     iget-boolean v0, v1, Lcom/google/android/gms/internal/ads/zzve;->g:Z
 
     if-eqz v0, :cond_5
 
     const-string v4, "test_request"
 
-    .line 19
     invoke-virtual {p1, v4, v0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 20
     :cond_5
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -240,17 +217,14 @@
     :goto_4
     const-string v6, "d_imp_hdr"
 
-    .line 21
     invoke-static {p1, v6, v0, v4}, Lcom/google/android/gms/internal/ads/ph1;->d(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Integer;Z)V
 
-    .line 22
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/zzve;->K:Ljava/lang/String;
 
     iget v4, v1, Lcom/google/android/gms/internal/ads/zzve;->a:I
 
     if-lt v4, v2, :cond_7
 
-    .line 23
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -267,15 +241,12 @@
     :goto_5
     const-string v4, "ppid"
 
-    .line 24
     invoke-static {p1, v4, v0, v2}, Lcom/google/android/gms/internal/ads/ph1;->f(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 25
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/zzve;->M:Landroid/location/Location;
 
     if-eqz v0, :cond_8
 
-    .line 26
     invoke-virtual {v0}, Landroid/location/Location;->getAccuracy()F
 
     move-result v2
@@ -288,7 +259,6 @@
 
     move-result-object v2
 
-    .line 27
     invoke-virtual {v0}, Landroid/location/Location;->getTime()J
 
     move-result-wide v6
@@ -301,7 +271,6 @@
 
     move-result-object v4
 
-    .line 28
     invoke-virtual {v0}, Landroid/location/Location;->getLatitude()D
 
     move-result-wide v6
@@ -316,7 +285,6 @@
 
     move-result-object v6
 
-    .line 29
     invoke-virtual {v0}, Landroid/location/Location;->getLongitude()D
 
     move-result-wide v11
@@ -329,12 +297,10 @@
 
     move-result-object v0
 
-    .line 30
     new-instance v7, Landroid/os/Bundle;
 
     invoke-direct {v7}, Landroid/os/Bundle;-><init>()V
 
-    .line 31
     invoke-virtual {v2}, Ljava/lang/Float;->floatValue()F
 
     move-result v2
@@ -343,7 +309,6 @@
 
     invoke-virtual {v7, v9, v2}, Landroid/os/Bundle;->putFloat(Ljava/lang/String;F)V
 
-    .line 32
     invoke-virtual {v6}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v9
@@ -352,7 +317,6 @@
 
     invoke-virtual {v7, v2, v9, v10}, Landroid/os/Bundle;->putLong(Ljava/lang/String;J)V
 
-    .line 33
     invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v9
@@ -361,7 +325,6 @@
 
     invoke-virtual {v7, v0, v9, v10}, Landroid/os/Bundle;->putLong(Ljava/lang/String;J)V
 
-    .line 34
     invoke-virtual {v4}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v9
@@ -372,10 +335,8 @@
 
     const-string v0, "uule"
 
-    .line 35
     invoke-virtual {p1, v0, v7}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 36
     :cond_8
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/zzve;->N:Ljava/lang/String;
 
@@ -383,45 +344,38 @@
 
     invoke-static {p1, v2, v0}, Lcom/google/android/gms/internal/ads/ph1;->e(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 37
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/zzve;->X:Ljava/util/List;
 
     const-string v2, "neighboring_content_urls"
 
     invoke-static {p1, v2, v0}, Lcom/google/android/gms/internal/ads/ph1;->g(Landroid/os/Bundle;Ljava/lang/String;Ljava/util/List;)V
 
-    .line 38
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/zzve;->P:Landroid/os/Bundle;
 
     const-string v2, "custom_targeting"
 
     invoke-static {p1, v2, v0}, Lcom/google/android/gms/internal/ads/ph1;->b(Landroid/os/Bundle;Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 39
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/zzve;->Q:Ljava/util/List;
 
     const-string v2, "category_exclusions"
 
     invoke-static {p1, v2, v0}, Lcom/google/android/gms/internal/ads/ph1;->g(Landroid/os/Bundle;Ljava/lang/String;Ljava/util/List;)V
 
-    .line 40
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/zzve;->R:Ljava/lang/String;
 
     const-string v2, "request_agent"
 
     invoke-static {p1, v2, v0}, Lcom/google/android/gms/internal/ads/ph1;->e(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 41
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/zzve;->S:Ljava/lang/String;
 
     const-string v2, "request_pkg"
 
     invoke-static {p1, v2, v0}, Lcom/google/android/gms/internal/ads/ph1;->e(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 42
     iget-boolean v0, v1, Lcom/google/android/gms/internal/ads/zzve;->T:Z
 
-    .line 43
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
@@ -442,20 +396,16 @@
     :goto_6
     const-string v4, "is_designed_for_families"
 
-    .line 44
     invoke-static {p1, v4, v0, v2}, Lcom/google/android/gms/internal/ads/ph1;->c(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Boolean;Z)V
 
-    .line 45
     iget v0, v1, Lcom/google/android/gms/internal/ads/zzve;->a:I
 
     const/16 v2, 0x8
 
     if-lt v0, v2, :cond_b
 
-    .line 46
     iget v0, v1, Lcom/google/android/gms/internal/ads/zzve;->V:I
 
-    .line 47
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -472,10 +422,8 @@
     :goto_7
     const-string v2, "tag_for_under_age_of_consent"
 
-    .line 48
     invoke-static {p1, v2, v0, v3}, Lcom/google/android/gms/internal/ads/ph1;->d(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Integer;Z)V
 
-    .line 49
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/zzve;->W:Ljava/lang/String;
 
     const-string v1, "max_ad_content_rating"

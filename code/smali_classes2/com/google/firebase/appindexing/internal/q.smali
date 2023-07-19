@@ -10,10 +10,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/appindexing/d;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/firebase/appindexing/internal/s;
 
     invoke-direct {v0, p1}, Lcom/google/firebase/appindexing/internal/s;-><init>(Landroid/content/Context;)V
@@ -42,12 +40,10 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     instance-of v1, p2, Lcom/google/firebase/appindexing/internal/zza;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance p1, Lcom/google/firebase/appindexing/FirebaseAppIndexingInvalidArgumentException;
 
     const-string p2, "Custom Action objects are not allowed. Please use the \'Actions\' or \'ActionBuilder\' class for creating Action objects."
@@ -60,7 +56,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     check-cast p2, Lcom/google/firebase/appindexing/internal/zza;
 
@@ -68,7 +63,6 @@
 
     aput-object p2, v0, v1
 
-    .line 4
     aget-object p2, v0, v1
 
     invoke-virtual {p2}, Lcom/google/firebase/appindexing/internal/zza;->y()Lcom/google/firebase/appindexing/internal/zzb;
@@ -77,7 +71,6 @@
 
     invoke-virtual {p2, p1}, Lcom/google/firebase/appindexing/internal/zzb;->y(I)V
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/google/firebase/appindexing/internal/q;->c:Lcom/google/firebase/appindexing/internal/s;
 
@@ -109,7 +102,6 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/google/firebase/appindexing/internal/q;->d(ILcom/google/firebase/appindexing/a;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -132,7 +124,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/google/firebase/appindexing/internal/q;->d(ILcom/google/firebase/appindexing/a;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1

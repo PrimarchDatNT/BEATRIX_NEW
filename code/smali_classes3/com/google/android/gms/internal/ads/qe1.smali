@@ -36,7 +36,6 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/re1;
 
     return-object p1

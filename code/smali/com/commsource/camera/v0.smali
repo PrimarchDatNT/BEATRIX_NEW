@@ -32,7 +32,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x10
@@ -49,7 +48,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/v0;->b()Ljava/util/HashMap;
 
     move-result-object v1
@@ -77,7 +74,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/camera/v0;->b()Ljava/util/HashMap;
 
     move-result-object v1
@@ -98,7 +94,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -128,7 +123,6 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v2, Ljava/text/SimpleDateFormat;
 
     const-string/jumbo v3, "yyyy-MM-dd HH:mm"
@@ -137,7 +131,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     :try_start_1
     sget-object v3, Lcom/commsource/camera/v0;->a:Ljava/util/HashMap;
 
@@ -147,29 +140,24 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     new-instance v3, Lcom/commsource/camera/v0$a;
 
     invoke-direct {v3}, Lcom/commsource/camera/v0$a;-><init>()V
 
     const-wide/32 v4, 0xc3501
 
-    .line 4
     iput-wide v4, v3, Lcom/commsource/camera/v0$a;->a:J
 
     const-string v6, "2018-05-31 18:00"
 
-    .line 5
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->c:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {v2, v6}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v6
 
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->b:Ljava/util/Date;
 
-    .line 7
     sget-object v6, Lcom/commsource/camera/v0;->a:Ljava/util/HashMap;
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -178,29 +166,24 @@
 
     invoke-virtual {v6, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     new-instance v3, Lcom/commsource/camera/v0$a;
 
     invoke-direct {v3}, Lcom/commsource/camera/v0$a;-><init>()V
 
     const-wide/32 v4, 0xc3502
 
-    .line 9
     iput-wide v4, v3, Lcom/commsource/camera/v0$a;->a:J
 
     const-string v6, "2018-06-01 18:00"
 
-    .line 10
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->c:Ljava/lang/String;
 
-    .line 11
     invoke-virtual {v2, v6}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v6
 
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->b:Ljava/util/Date;
 
-    .line 12
     sget-object v6, Lcom/commsource/camera/v0;->a:Ljava/util/HashMap;
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -209,29 +192,24 @@
 
     invoke-virtual {v6, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     new-instance v3, Lcom/commsource/camera/v0$a;
 
     invoke-direct {v3}, Lcom/commsource/camera/v0$a;-><init>()V
 
     const-wide/32 v4, 0xc3503
 
-    .line 14
     iput-wide v4, v3, Lcom/commsource/camera/v0$a;->a:J
 
     const-string v6, "2018-06-02 18:00"
 
-    .line 15
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->c:Ljava/lang/String;
 
-    .line 16
     invoke-virtual {v2, v6}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v6
 
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->b:Ljava/util/Date;
 
-    .line 17
     sget-object v6, Lcom/commsource/camera/v0;->a:Ljava/util/HashMap;
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -240,29 +218,24 @@
 
     invoke-virtual {v6, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 18
     new-instance v3, Lcom/commsource/camera/v0$a;
 
     invoke-direct {v3}, Lcom/commsource/camera/v0$a;-><init>()V
 
     const-wide/32 v4, 0xc3504
 
-    .line 19
     iput-wide v4, v3, Lcom/commsource/camera/v0$a;->a:J
 
     const-string v6, "2018-06-03 18:00"
 
-    .line 20
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->c:Ljava/lang/String;
 
-    .line 21
     invoke-virtual {v2, v6}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v6
 
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->b:Ljava/util/Date;
 
-    .line 22
     sget-object v6, Lcom/commsource/camera/v0;->a:Ljava/util/HashMap;
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -271,29 +244,24 @@
 
     invoke-virtual {v6, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 23
     new-instance v3, Lcom/commsource/camera/v0$a;
 
     invoke-direct {v3}, Lcom/commsource/camera/v0$a;-><init>()V
 
     const-wide/32 v4, 0xc3505
 
-    .line 24
     iput-wide v4, v3, Lcom/commsource/camera/v0$a;->a:J
 
     const-string v6, "2018-06-04 18:00"
 
-    .line 25
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->c:Ljava/lang/String;
 
-    .line 26
     invoke-virtual {v2, v6}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v6
 
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->b:Ljava/util/Date;
 
-    .line 27
     sget-object v6, Lcom/commsource/camera/v0;->a:Ljava/util/HashMap;
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -302,29 +270,24 @@
 
     invoke-virtual {v6, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 28
     new-instance v3, Lcom/commsource/camera/v0$a;
 
     invoke-direct {v3}, Lcom/commsource/camera/v0$a;-><init>()V
 
     const-wide/32 v4, 0xc3506
 
-    .line 29
     iput-wide v4, v3, Lcom/commsource/camera/v0$a;->a:J
 
     const-string v6, "2018-06-05 18:00"
 
-    .line 30
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->c:Ljava/lang/String;
 
-    .line 31
     invoke-virtual {v2, v6}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v6
 
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->b:Ljava/util/Date;
 
-    .line 32
     sget-object v6, Lcom/commsource/camera/v0;->a:Ljava/util/HashMap;
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -333,29 +296,24 @@
 
     invoke-virtual {v6, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 33
     new-instance v3, Lcom/commsource/camera/v0$a;
 
     invoke-direct {v3}, Lcom/commsource/camera/v0$a;-><init>()V
 
     const-wide/32 v4, 0xc3507
 
-    .line 34
     iput-wide v4, v3, Lcom/commsource/camera/v0$a;->a:J
 
     const-string v6, "2018-06-06 18:00"
 
-    .line 35
     iput-object v6, v3, Lcom/commsource/camera/v0$a;->c:Ljava/lang/String;
 
-    .line 36
     invoke-virtual {v2, v6}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v2
 
     iput-object v2, v3, Lcom/commsource/camera/v0$a;->b:Ljava/util/Date;
 
-    .line 37
     sget-object v2, Lcom/commsource/camera/v0;->a:Ljava/util/HashMap;
 
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -372,11 +330,9 @@
     :catch_0
     move-exception v2
 
-    .line 38
     :try_start_2
     invoke-static {v2}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 39
     :cond_0
     :goto_0
     sget-object v2, Lcom/commsource/camera/v0;->a:Ljava/util/HashMap;
@@ -404,7 +360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/v0;->b()Ljava/util/HashMap;
 
     move-result-object v1
@@ -423,12 +378,10 @@
 
     if-eqz p0, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/v0$a;->b:Ljava/util/Date;
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -454,7 +407,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -487,7 +439,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -503,7 +454,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getNumber()I
 
     move-result v1

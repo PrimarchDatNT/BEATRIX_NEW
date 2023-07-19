@@ -19,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/e1;->a()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -30,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/commsource/util/e1;
@@ -124,7 +121,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
     :try_end_0
@@ -135,10 +131,8 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 3
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,20 +149,16 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object v0
 
-    .line 3
     iget-object v0, v0, Landroid/content/pm/ApplicationInfo;->nativeLibraryDir:Ljava/lang/String;
 
-    .line 4
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -189,12 +179,10 @@
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     new-instance v4, Ljava/io/File;
 
     invoke-direct {v4, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v4}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -207,19 +195,16 @@
 
     if-eqz v0, :cond_2
 
-    .line 7
     invoke-virtual {v4}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    .line 8
     array-length v4, v0
 
     if-lez v4, :cond_3
 
-    .line 9
     array-length v4, v0
 
     const/4 v10, 0x0
@@ -231,7 +216,6 @@
 
     aget-object v12, v0, v10
 
-    .line 10
     invoke-virtual {v12}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v13
@@ -242,7 +226,6 @@
 
     if-eqz v13, :cond_0
 
-    .line 11
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -255,7 +238,6 @@
 
     invoke-virtual {v11, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-static {v12}, Lcom/commsource/util/o0;->b(Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v12
@@ -268,7 +250,6 @@
 
     move-result-object v11
 
-    .line 13
     invoke-virtual {v3, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/4 v11, 0x1
@@ -281,7 +262,6 @@
     :cond_1
     if-nez v11, :cond_3
 
-    .line 14
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -305,10 +285,8 @@
     :cond_2
     const-string v0, "nativeLibDir no exist\n"
 
-    .line 15
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
     :cond_3
     :goto_1
     new-instance v0, Ljava/io/File;
@@ -323,7 +301,6 @@
 
     invoke-direct {v0, v4, v10}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 17
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     move-result v4
@@ -334,7 +311,6 @@
 
     if-eqz v4, :cond_4
 
-    .line 18
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -351,7 +327,6 @@
 
     invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 19
     invoke-static {v0}, Lcom/commsource/util/o0;->b(Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v0
@@ -364,12 +339,10 @@
 
     move-result-object v0
 
-    .line 20
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_2
 
-    .line 21
     :cond_4
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -393,7 +366,6 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 22
     :goto_2
     invoke-static/range {p0 .. p0}, Lcom/commsource/util/e1;->i(Landroid/content/Context;)[Ljava/lang/String;
 
@@ -419,7 +391,6 @@
 
     if-ge v0, v7, :cond_5
 
-    .line 23
     :try_start_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -445,7 +416,6 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 24
     new-instance v0, Ljava/util/zip/ZipFile;
 
     new-instance v7, Ljava/io/File;
@@ -463,7 +433,6 @@
     :catch_0
     move-exception v0
 
-    .line 25
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     move v0, v15
@@ -480,13 +449,11 @@
 
     goto/16 :goto_d
 
-    .line 26
     :cond_6
     invoke-static {}, Lcom/commsource/util/e1;->j()[Ljava/lang/String;
 
     move-result-object v7
 
-    .line 27
     array-length v14, v7
 
     const/4 v15, 0x0
@@ -496,7 +463,6 @@
 
     aget-object v8, v7, v15
 
-    .line 28
     invoke-virtual {v13}, Ljava/util/zip/ZipFile;->entries()Ljava/util/Enumeration;
 
     move-result-object v16
@@ -505,7 +471,6 @@
 
     const/4 v0, 0x0
 
-    .line 29
     :goto_7
     invoke-interface/range {v16 .. v16}, Ljava/util/Enumeration;->hasMoreElements()Z
 
@@ -513,7 +478,6 @@
 
     if-eqz v17, :cond_a
 
-    .line 30
     invoke-interface/range {v16 .. v16}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
 
     move-result-object v17
@@ -522,14 +486,12 @@
 
     check-cast v2, Ljava/util/zip/ZipEntry;
 
-    .line 31
     invoke-virtual {v2}, Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;
 
     move-result-object v9
 
     move/from16 v18, v0
 
-    .line 32
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -554,7 +516,6 @@
 
     move-result-object v0
 
-    .line 33
     invoke-static {v9}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -573,7 +534,6 @@
 
     if-eqz v0, :cond_9
 
-    .line 34
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -594,7 +554,6 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 35
     :try_start_1
     invoke-virtual {v13, v2}, Ljava/util/zip/ZipFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
 
@@ -602,7 +561,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
-    .line 36
     :try_start_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -633,7 +591,6 @@
 
     if-eqz v2, :cond_7
 
-    .line 37
     :try_start_4
     invoke-virtual {v2}, Ljava/io/InputStream;->close()V
     :try_end_4
@@ -660,7 +617,6 @@
 
     const/4 v2, 0x0
 
-    .line 38
     :goto_8
     :try_start_5
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
@@ -669,7 +625,6 @@
 
     if-eqz v2, :cond_7
 
-    .line 39
     :try_start_6
     invoke-virtual {v2}, Ljava/io/InputStream;->close()V
     :try_end_6
@@ -682,10 +637,8 @@
 
     move-object v2, v0
 
-    .line 40
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 41
     :cond_7
     :goto_9
     invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -701,7 +654,6 @@
 
     if-eqz v2, :cond_8
 
-    .line 42
     :try_start_7
     invoke-virtual {v2}, Ljava/io/InputStream;->close()V
     :try_end_7
@@ -714,14 +666,12 @@
 
     move-object v2, v0
 
-    .line 43
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_8
     :goto_a
     const v2, 0x936b
 
-    .line 44
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -757,7 +707,6 @@
     :goto_c
     if-nez v0, :cond_c
 
-    .line 45
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -794,7 +743,6 @@
 
     const/4 v4, 0x0
 
-    .line 46
     invoke-static {v13}, Lcom/commsource/util/e1;->b(Ljava/io/Closeable;)V
 
     :goto_d
@@ -814,10 +762,8 @@
     :try_start_8
     const-string v0, "sourceDir has : "
 
-    .line 47
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 48
     new-instance v0, Ljava/io/File;
 
     invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
@@ -845,7 +791,6 @@
 
     aget-object v2, v0, v9
 
-    .line 49
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -873,10 +818,8 @@
     :cond_f
     const-string v0, ".\n"
 
-    .line 50
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 51
     invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
@@ -889,7 +832,6 @@
 
     move-result-object v0
 
-    .line 52
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -915,10 +857,8 @@
     :catchall_4
     move-exception v0
 
-    .line 53
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 54
     :goto_f
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -942,7 +882,6 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 55
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -961,7 +900,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/e1;->i(Landroid/content/Context;)[Ljava/lang/String;
 
     move-result-object p0
@@ -990,7 +928,6 @@
 
     if-ge v6, v8, :cond_0
 
-    .line 2
     :try_start_0
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -1008,7 +945,6 @@
 
     invoke-static {v9, v6}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     new-instance v6, Ljava/util/zip/ZipFile;
 
     new-instance v8, Ljava/io/File;
@@ -1028,7 +964,6 @@
     :catch_0
     move-exception v6
 
-    .line 4
     invoke-virtual {v6}, Ljava/io/IOException;->printStackTrace()V
 
     move v6, v7
@@ -1041,13 +976,11 @@
 
     goto :goto_5
 
-    .line 5
     :cond_1
     invoke-static {}, Lcom/commsource/util/e1;->j()[Ljava/lang/String;
 
     move-result-object v5
 
-    .line 6
     array-length v6, v5
 
     const/4 v7, 0x0
@@ -1057,7 +990,6 @@
 
     aget-object v8, v5, v7
 
-    .line 7
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -1080,12 +1012,10 @@
 
     move-result-object v8
 
-    .line 8
     invoke-virtual {v3}, Ljava/util/zip/ZipFile;->entries()Ljava/util/Enumeration;
 
     move-result-object v10
 
-    .line 9
     :cond_2
     :goto_4
     invoke-interface {v10}, Ljava/util/Enumeration;->hasMoreElements()Z
@@ -1094,14 +1024,12 @@
 
     if-eqz v11, :cond_3
 
-    .line 10
     invoke-interface {v10}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
 
     move-result-object v11
 
     check-cast v11, Ljava/util/zip/ZipEntry;
 
-    .line 11
     invoke-virtual {v11}, Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;
 
     move-result-object v12
@@ -1112,7 +1040,6 @@
 
     if-eqz v12, :cond_2
 
-    .line 12
     new-instance v12, Ljava/lang/StringBuilder;
 
     invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
@@ -1140,7 +1067,6 @@
 
     goto :goto_3
 
-    .line 13
     :cond_4
     invoke-static {v3}, Lcom/commsource/util/e1;->b(Ljava/io/Closeable;)V
 
@@ -1149,7 +1075,6 @@
 
     goto/16 :goto_0
 
-    .line 14
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1167,7 +1092,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Landroid/content/Context;->getDir(Ljava/lang/String;I)Ljava/io/File;
 
     move-result-object p0
@@ -1184,7 +1108,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1201,7 +1124,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1223,7 +1145,6 @@
     :try_start_0
     const-string v2, "dalvik.system.VMRuntime"
 
-    .line 1
     invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v2
@@ -1232,14 +1153,12 @@
 
     new-array v4, v1, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {v2, v3, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v3
 
     new-array v4, v1, [Ljava/lang/Object;
 
-    .line 3
     sget-object v5, Lcom/commsource/util/e1;->b:Lorg/aspectj/lang/c$b;
 
     const/4 v6, 0x0
@@ -1288,7 +1207,6 @@
 
     if-nez v5, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1299,14 +1217,12 @@
 
     new-array v11, v1, [Ljava/lang/Class;
 
-    .line 5
     invoke-virtual {v2, v7, v11}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v2
 
     new-array v7, v1, [Ljava/lang/Object;
 
-    .line 6
     sget-object v11, Lcom/commsource/util/e1;->c:Lorg/aspectj/lang/c$b;
 
     invoke-static {v11, v6, v2, v5, v7}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -1339,12 +1255,10 @@
 
     move-result-object v2
 
-    .line 7
     instance-of v3, v2, Ljava/lang/Boolean;
 
     if-eqz v3, :cond_1
 
-    .line 8
     check-cast v2, Ljava/lang/Boolean;
 
     invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
@@ -1360,10 +1274,8 @@
     :catchall_0
     move-exception v2
 
-    .line 9
     invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1377,12 +1289,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object p0
 
-    .line 2
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v2, 0x0
@@ -1401,24 +1311,20 @@
 
     if-eqz v4, :cond_0
 
-    .line 3
     array-length v4, v1
 
     add-int/2addr v4, v3
 
     new-array v4, v4, [Ljava/lang/String;
 
-    .line 4
     iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->sourceDir:Ljava/lang/String;
 
     aput-object p0, v4, v2
 
-    .line 5
     array-length p0, v1
 
     invoke-static {v1, v2, v4, v3, p0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -1426,7 +1332,6 @@
     :cond_0
     new-array v1, v3, [Ljava/lang/String;
 
-    .line 7
     iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->sourceDir:Ljava/lang/String;
 
     aput-object p0, v1, v2
@@ -1443,7 +1348,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x15
@@ -1456,12 +1360,10 @@
 
     if-lez v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     sget-object v1, Landroid/os/Build;->CPU_ABI2:Ljava/lang/String;
 
@@ -1479,7 +1381,6 @@
 
     new-array v2, v2, [Ljava/lang/String;
 
-    .line 4
     sget-object v5, Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
 
     aput-object v5, v2, v3
@@ -1493,7 +1394,6 @@
     :cond_1
     new-array v1, v4, [Ljava/lang/String;
 
-    .line 5
     sget-object v2, Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
 
     aput-object v2, v1, v3

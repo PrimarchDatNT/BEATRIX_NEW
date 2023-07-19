@@ -36,10 +36,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/greenrobot/greendao/f;->a:Lorg/greenrobot/greendao/a;
 
     return-void
@@ -58,7 +56,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/a;->C()Lorg/greenrobot/greendao/k/e;
 
     move-result-object p0
@@ -71,7 +68,6 @@
 .method public a()Lorg/greenrobot/greendao/k/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/f;->a:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->C()Lorg/greenrobot/greendao/k/e;
@@ -93,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/f;->a:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0, p1}, Lorg/greenrobot/greendao/a;->S(Landroid/database/Cursor;)Ljava/util/List;
@@ -113,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/f;->a:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0, p1, p2, p3}, Lorg/greenrobot/greendao/a;->W(Landroid/database/Cursor;IZ)Ljava/lang/Object;
@@ -133,7 +127,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/f;->a:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0, p1}, Lorg/greenrobot/greendao/a;->Z(Landroid/database/Cursor;)Ljava/lang/Object;

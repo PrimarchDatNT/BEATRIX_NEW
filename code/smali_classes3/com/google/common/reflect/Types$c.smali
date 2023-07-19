@@ -31,10 +31,8 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     const-class v0, Lcom/google/common/reflect/Types$c;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getTypeParameters()[Ljava/lang/reflect/TypeVariable;
 
     move-result-object v1
@@ -47,12 +45,10 @@
 
     const-string v3, "X"
 
-    .line 3
     invoke-static {v0, v3, v2}, Lcom/google/common/reflect/Types;->l(Ljava/lang/reflect/GenericDeclaration;Ljava/lang/String;[Ljava/lang/reflect/Type;)Ljava/lang/reflect/TypeVariable;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -67,7 +63,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

@@ -13,10 +13,8 @@
 .method public constructor <init>(Lcom/meitu/library/g/h/e;Landroid/graphics/SurfaceTexture;)V
     .locals 0
 
-    .line 6
     invoke-direct {p0, p1}, Lcom/meitu/library/g/h/d;-><init>(Lcom/meitu/library/g/h/e;)V
 
-    .line 7
     invoke-virtual {p0, p2}, Lcom/meitu/library/g/h/d;->b(Ljava/lang/Object;)V
 
     return-void
@@ -25,23 +23,18 @@
 .method public constructor <init>(Lcom/meitu/library/g/h/e;Ljava/lang/Object;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/g/h/d;-><init>(Lcom/meitu/library/g/h/e;)V
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/meitu/library/g/h/d;->b(Ljava/lang/Object;)V
 
-    .line 3
     instance-of p1, p2, Landroid/view/Surface;
 
     if-eqz p1, :cond_0
 
-    .line 4
     check-cast p2, Landroid/view/Surface;
 
     iput-object p2, p0, Lcom/meitu/library/g/h/h;->f:Landroid/view/Surface;
 
-    .line 5
     :cond_0
     iput-boolean p3, p0, Lcom/meitu/library/g/h/h;->g:Z
 
@@ -57,23 +50,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/h;->f:Landroid/view/Surface;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/g/h/d;->a:Lcom/meitu/library/g/h/e;
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/meitu/library/g/h/d;->b(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -93,29 +81,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/g/h/d;->g()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/g/h/h;->f:Landroid/view/Surface;
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-boolean v2, p0, Lcom/meitu/library/g/h/h;->g:Z
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Landroid/view/Surface;->release()V
 
     :cond_0
     const/4 v1, 0x0
 
-    .line 5
     iput-object v1, p0, Lcom/meitu/library/g/h/h;->f:Landroid/view/Surface;
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

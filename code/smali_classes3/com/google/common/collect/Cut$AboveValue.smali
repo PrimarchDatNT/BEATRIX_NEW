@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -63,14 +62,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Cut$AboveValue;->leastValueAbove(Lcom/google/common/collect/DiscreteDomain;)Ljava/lang/Comparable;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/Cut;->belowValue(Ljava/lang/Comparable;)Lcom/google/common/collect/Cut;
 
     move-result-object p1
@@ -89,7 +86,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/common/collect/Cut;
 
     invoke-super {p0, p1}, Lcom/google/common/collect/Cut;->compareTo(Lcom/google/common/collect/Cut;)I
@@ -104,7 +100,6 @@
 
     const/16 v0, 0x28
 
-    .line 1
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     iget-object v0, p0, Lcom/google/common/collect/Cut;->endpoint:Ljava/lang/Comparable;
@@ -117,7 +112,6 @@
 .method describeAsUpperBound(Ljava/lang/StringBuilder;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Cut;->endpoint:Ljava/lang/Comparable;
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
@@ -139,7 +133,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/common/collect/Cut;->endpoint:Ljava/lang/Comparable;
 
     return-object p1
@@ -148,7 +141,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Cut;->endpoint:Ljava/lang/Comparable;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -168,7 +160,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Cut;->endpoint:Ljava/lang/Comparable;
 
     invoke-static {v0, p1}, Lcom/google/common/collect/Range;->compareOrThrow(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
@@ -198,7 +189,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Cut;->endpoint:Ljava/lang/Comparable;
 
     invoke-virtual {p1, v0}, Lcom/google/common/collect/DiscreteDomain;->next(Ljava/lang/Comparable;)Ljava/lang/Comparable;
@@ -211,7 +201,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -238,7 +227,6 @@
 .method typeAsLowerBound()Lcom/google/common/collect/BoundType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/BoundType;->OPEN:Lcom/google/common/collect/BoundType;
 
     return-object v0
@@ -247,7 +235,6 @@
 .method typeAsUpperBound()Lcom/google/common/collect/BoundType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/BoundType;->CLOSED:Lcom/google/common/collect/BoundType;
 
     return-object v0
@@ -266,7 +253,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/Cut$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -285,7 +271,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/AssertionError;
 
@@ -293,7 +278,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/google/common/collect/Cut;->endpoint:Ljava/lang/Comparable;
 
@@ -303,7 +287,6 @@
 
     if-nez p1, :cond_2
 
-    .line 4
     invoke-static {}, Lcom/google/common/collect/Cut;->belowAll()Lcom/google/common/collect/Cut;
 
     move-result-object p1
@@ -332,7 +315,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/Cut$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -349,7 +331,6 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/google/common/collect/Cut;->endpoint:Ljava/lang/Comparable;
 
     invoke-virtual {p2, p1}, Lcom/google/common/collect/DiscreteDomain;->next(Ljava/lang/Comparable;)Ljava/lang/Comparable;
@@ -358,7 +339,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/common/collect/Cut;->aboveAll()Lcom/google/common/collect/Cut;
 
     move-result-object p1
@@ -373,7 +353,6 @@
     :goto_0
     return-object p1
 
-    .line 4
     :cond_1
     new-instance p1, Ljava/lang/AssertionError;
 

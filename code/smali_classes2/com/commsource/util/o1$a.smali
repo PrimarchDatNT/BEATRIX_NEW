@@ -37,7 +37,6 @@
 .method constructor <init>(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/o1$a;->b:Ljava/util/List;
 
     iput-object p2, p0, Lcom/commsource/util/o1$a;->c:Ljava/util/List;
@@ -52,7 +51,6 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
@@ -69,12 +67,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/util/o1$a;->a:I
 
     sub-int/2addr v1, p1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/util/o1$a;->c:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
@@ -101,7 +97,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/util/o1$a;->a(I)I
 
     move-result p1
@@ -113,7 +108,6 @@
 
     add-int v1, p1, v0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/util/o1$a;->c:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
@@ -122,7 +116,6 @@
 
     if-ge v1, v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/util/o1$a;->p:Ljava/util/List;
 
     iget-object v3, p0, Lcom/commsource/util/o1$a;->c:Ljava/util/List;
@@ -138,7 +131,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -152,14 +144,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/util/o1$a;->a:I
 
     add-int/2addr v1, p2
 
     iput v1, p0, Lcom/commsource/util/o1$a;->a:I
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/util/o1$a;->a(I)I
 
     move-result p1
@@ -171,7 +161,6 @@
 
     add-int v2, p1, v1
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/util/o1$a;->c:Ljava/util/List;
 
     invoke-interface {v3}, Ljava/util/List;->size()I
@@ -180,7 +169,6 @@
 
     if-ge v2, v3, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/util/o1$a;->d:Ljava/util/List;
 
     iget-object v4, p0, Lcom/commsource/util/o1$a;->c:Ljava/util/List;
@@ -196,7 +184,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -210,7 +197,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -223,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/util/o1$a;->a:I
 
     sub-int/2addr v1, p2
@@ -235,7 +220,6 @@
     :goto_0
     if-ge v1, p2, :cond_1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/util/o1$a;->b:Ljava/util/List;
 
     add-int v3, p1, v1
@@ -246,21 +230,18 @@
 
     check-cast v2, Lcom/commsource/util/common/j;
 
-    .line 3
     invoke-interface {v2}, Lcom/commsource/util/common/j;->isNeedRemove()Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/util/o1$a;->f:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 5
     :cond_0
     iget-object v3, p0, Lcom/commsource/util/o1$a;->g:Ljava/util/List;
 
@@ -271,7 +252,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

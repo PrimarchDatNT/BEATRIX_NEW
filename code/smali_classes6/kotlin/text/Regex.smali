@@ -65,7 +65,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object p1
@@ -108,7 +107,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     sget-object v0, Lcotlin/text/Regex;->Companion:Lcotlin/text/Regex$a;
 
     invoke-static {p2}, Lcotlin/text/RegexKt;->f(Ljava/lang/Iterable;)I
@@ -151,7 +149,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     sget-object v0, Lcotlin/text/Regex;->Companion:Lcotlin/text/Regex$a;
 
     invoke-virtual {p2}, Lcotlin/text/RegexOption;->getValue()I
@@ -188,7 +185,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
@@ -205,7 +201,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcotlin/text/Regex;->find(Ljava/lang/CharSequence;I)Lcotlin/text/k;
 
@@ -223,7 +218,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcotlin/text/Regex;->findAll(Ljava/lang/CharSequence;I)Lcotlin/sequences/m;
 
@@ -241,7 +235,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcotlin/text/Regex;->split(Ljava/lang/CharSequence;I)Ljava/util/List;
 
@@ -253,7 +246,6 @@
 .method private final writeReplace()Ljava/lang/Object;
     .locals 3
 
-    .line 1
     new-instance v0, Lcotlin/text/Regex$Serialized;
 
     iget-object v1, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
@@ -290,7 +282,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -317,7 +308,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -361,14 +351,12 @@
 
     if-ltz p2, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
 
     if-gt p2, v0, :cond_0
 
-    .line 2
     new-instance v0, Lcotlin/text/Regex$findAll$1;
 
     invoke-direct {v0, p0, p1, p2}, Lcotlin/text/Regex$findAll$1;-><init>(Lcotlin/text/Regex;Ljava/lang/CharSequence;I)V
@@ -381,7 +369,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
 
@@ -428,7 +415,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/Regex;->_options:Ljava/util/Set;
 
     if-eqz v0, :cond_0
@@ -442,21 +428,18 @@
 
     move-result v0
 
-    .line 2
     const-class v1, Lcotlin/text/RegexOption;
 
     invoke-static {v1}, Ljava/util/EnumSet;->allOf(Ljava/lang/Class;)Ljava/util/EnumSet;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcotlin/text/Regex$fromInt$$inlined$apply$lambda$1;
 
     invoke-direct {v2, v0}, Lcotlin/text/Regex$fromInt$$inlined$apply$lambda$1;-><init>(I)V
 
     invoke-static {v1, v2}, Lcotlin/collections/s;->P0(Ljava/lang/Iterable;Lcotlin/jvm/u/l;)Z
 
-    .line 4
     invoke-static {v1}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object v0
@@ -465,7 +448,6 @@
 
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     iput-object v0, p0, Lcotlin/text/Regex;->_options:Ljava/util/Set;
 
     :goto_0
@@ -477,7 +459,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0}, Ljava/util/regex/Pattern;->pattern()Ljava/lang/String;
@@ -504,7 +485,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -533,7 +513,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -568,7 +547,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -627,28 +605,23 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {p0, p1, v0, v1, v2}, Lcotlin/text/Regex;->find$default(Lcotlin/text/Regex;Ljava/lang/CharSequence;IILjava/lang/Object;)Lcotlin/text/k;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v2
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3, v2}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    .line 5
     :cond_0
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
 
-    .line 6
     invoke-interface {v1}, Lcotlin/text/k;->X1()Lcotlin/g2/k;
 
     move-result-object v4
@@ -663,7 +636,6 @@
 
     invoke-virtual {v3, p1, v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-interface {p2, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -672,7 +644,6 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-interface {v1}, Lcotlin/text/k;->X1()Lcotlin/g2/k;
 
     move-result-object v0
@@ -687,7 +658,6 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 9
     invoke-interface {v1}, Lcotlin/text/k;->next()Lcotlin/text/k;
 
     move-result-object v1
@@ -699,10 +669,8 @@
     :cond_1
     if-ge v0, v2, :cond_2
 
-    .line 10
     invoke-virtual {v3, p1, v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
 
-    .line 11
     :cond_2
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -714,7 +682,6 @@
 
     return-object p1
 
-    .line 12
     :cond_3
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
@@ -744,7 +711,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -802,14 +768,12 @@
     :goto_0
     if-eqz v2, :cond_6
 
-    .line 1
     iget-object v2, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v2, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v2
 
-    .line 2
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v3
@@ -820,7 +784,6 @@
 
     goto :goto_2
 
-    .line 3
     :cond_1
     new-instance v3, Ljava/util/ArrayList;
 
@@ -837,7 +800,6 @@
 
     sub-int/2addr p2, v1
 
-    .line 4
     :cond_3
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->start()I
 
@@ -853,14 +815,12 @@
 
     invoke-virtual {v3, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 5
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->end()I
 
     move-result v0
 
     if-ltz p2, :cond_4
 
-    .line 6
     invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
 
     move-result v1
@@ -869,7 +829,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->find()Z
 
@@ -877,7 +836,6 @@
 
     if-nez v1, :cond_3
 
-    .line 8
     :goto_1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
@@ -895,7 +853,6 @@
 
     return-object v3
 
-    .line 9
     :cond_5
     :goto_2
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -908,7 +865,6 @@
 
     return-object p1
 
-    .line 10
     :cond_6
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -944,7 +900,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     return-object v0
@@ -955,7 +910,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0}, Ljava/util/regex/Pattern;->toString()Ljava/lang/String;

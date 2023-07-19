@@ -32,7 +32,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/BoundType;
 
     const-string v1, "OPEN"
@@ -43,7 +42,6 @@
 
     sput-object v0, Lcom/google/common/collect/BoundType;->OPEN:Lcom/google/common/collect/BoundType;
 
-    .line 2
     new-instance v1, Lcom/google/common/collect/BoundType;
 
     const-string v3, "CLOSED"
@@ -62,7 +60,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/google/common/collect/BoundType;->$VALUES:[Lcom/google/common/collect/BoundType;
 
     return-void
@@ -76,10 +73,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-boolean p3, p0, Lcom/google/common/collect/BoundType;->inclusive:Z
 
     return-void
@@ -90,7 +85,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/google/common/collect/BoundType;->CLOSED:Lcom/google/common/collect/BoundType;
 
     goto :goto_0
@@ -105,7 +99,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/collect/BoundType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/collect/BoundType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -120,7 +113,6 @@
 .method public static values()[Lcom/google/common/collect/BoundType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/BoundType;->$VALUES:[Lcom/google/common/collect/BoundType;
 
     invoke-virtual {v0}, [Lcom/google/common/collect/BoundType;->clone()Ljava/lang/Object;
@@ -137,7 +129,6 @@
 .method flip()Lcom/google/common/collect/BoundType;
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/collect/BoundType;->inclusive:Z
 
     xor-int/lit8 v0, v0, 0x1

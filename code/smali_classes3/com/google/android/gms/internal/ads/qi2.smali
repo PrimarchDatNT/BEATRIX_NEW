@@ -21,7 +21,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ri2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,12 +31,10 @@
 .method public final synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 2
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/wi2;
 
     check-cast p2, Lcom/google/android/gms/internal/ads/wi2;
 
-    .line 2
     iget v0, p1, Lcom/google/android/gms/internal/ads/wi2;->c:I
 
     iget v1, p2, Lcom/google/android/gms/internal/ads/wi2;->c:I
@@ -48,7 +45,6 @@
 
     return v0
 
-    .line 3
     :cond_0
     iget-wide v0, p1, Lcom/google/android/gms/internal/ads/wi2;->a:J
 

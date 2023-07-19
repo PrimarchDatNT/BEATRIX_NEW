@@ -37,20 +37,16 @@
 .method public constructor <init>([Ljava/lang/String;Lcom/meitu/webview/core/CommonWebView;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$b;->a:[Ljava/lang/String;
 
-    .line 3
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$b;->b:Ljava/lang/ref/WeakReference;
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$b;->c:Ljava/lang/String;
 
     return-void
@@ -65,7 +61,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lcom/google/gson/Gson;
 
     invoke-direct {v1}, Lcom/google/gson/Gson;-><init>()V
@@ -79,7 +74,6 @@
     :cond_0
     const-string p1, "{}"
 
-    .line 2
     :goto_0
     iget-object v1, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$b;->b:Ljava/lang/ref/WeakReference;
 
@@ -93,7 +87,6 @@
 
     const-string v2, "rewardVideoCallback"
 
-    .line 3
     invoke-static {v2, p1}, Lcom/meitu/ipstore/web/scripts/b;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -105,10 +98,8 @@
     :cond_1
     const-string p1, "webview already release!"
 
-    .line 4
     invoke-static {p1}, Lf/k/m/j/e;->o(Ljava/lang/String;)V
 
-    .line 5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -124,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$PlayRewardVideoResult;
 
     iget-object v2, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$b;->a:[Ljava/lang/String;
@@ -137,7 +127,6 @@
 
     invoke-direct {p0, v1}, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$b;->e(Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$PlayRewardVideoResult;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -150,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$PlayRewardVideoResult;
 
     iget-object v2, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$b;->a:[Ljava/lang/String;
@@ -161,7 +149,6 @@
 
     invoke-direct {p0, v1}, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$b;->e(Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$PlayRewardVideoResult;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -174,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v1
@@ -191,7 +177,6 @@
 
     invoke-virtual {v1, v2, v3, p1}, Lcom/meitu/ipstore/core/b;->A([Ljava/lang/String;ZLjava/lang/String;)V
 
-    .line 2
     new-instance v1, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$PlayRewardVideoResult;
 
     iget-object v2, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$b;->a:[Ljava/lang/String;
@@ -202,7 +187,6 @@
 
     invoke-direct {p0, v1}, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$b;->e(Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$PlayRewardVideoResult;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -215,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$PlayRewardVideoResult;
 
     iget-object v2, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$b;->a:[Ljava/lang/String;
@@ -228,7 +211,6 @@
 
     invoke-direct {p0, v1}, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$b;->e(Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$PlayRewardVideoResult;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

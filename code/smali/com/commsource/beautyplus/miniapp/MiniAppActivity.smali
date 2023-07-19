@@ -63,25 +63,20 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->V:Z
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Y:Lcom/bumptech/glide/integration/webp/decoder/k;
 
     const/4 v1, 0x0
 
-    .line 4
     iput v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Z:I
 
-    .line 5
     iput-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->b0:Lcom/commsource/beautyplus/router/RouterEntity;
 
     return-void
@@ -96,10 +91,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1, v1, p1, p2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->C1(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/beautyplus/router/RouterEntity;IZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -112,14 +105,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-direct {v1, p0, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -128,27 +119,21 @@
 
     const-string v2, "EXTRA_PROTOCOL"
 
-    .line 3
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     :cond_0
     const-string p1, "EXTRA_FROM"
 
-    .line 4
     invoke-virtual {v1, p1, p3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     const-string p1, "DEEP_LINK"
 
-    .line 5
     invoke-virtual {v1, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 6
     invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 7
     invoke-static {p0}, Lcom/commsource/util/h2;->f(Landroid/app/Activity;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -161,14 +146,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-direct {v1, p0, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -177,32 +160,25 @@
 
     const-string v2, "EXTRA_PROTOCOL"
 
-    .line 3
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     :cond_0
     const-string p1, "BOTTOM_STATE"
 
-    .line 4
     invoke-virtual {v1, p1, p4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     const-string p1, "EXTRA_FROM"
 
-    .line 5
     invoke-virtual {v1, p1, p3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     const-string p1, "DEEP_LINK"
 
-    .line 6
     invoke-virtual {v1, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
-    .line 7
     invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 8
     invoke-static {p0}, Lcom/commsource/util/h2;->f(Landroid/app/Activity;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -219,17 +195,14 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Y:Lcom/bumptech/glide/integration/webp/decoder/k;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Lcom/bumptech/glide/integration/webp/decoder/k;->isRunning()Z
 
@@ -237,12 +210,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Y:Lcom/bumptech/glide/integration/webp/decoder/k;
 
     invoke-virtual {v0}, Lcom/bumptech/glide/integration/webp/decoder/k;->stop()V
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
@@ -252,19 +223,16 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Y:Lcom/bumptech/glide/integration/webp/decoder/k;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/bumptech/glide/integration/webp/decoder/k;->s(I)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Y:Lcom/bumptech/glide/integration/webp/decoder/k;
 
     invoke-virtual {v0}, Lcom/bumptech/glide/integration/webp/decoder/k;->t()V
 
-    .line 8
     new-instance v0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$f;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$f;-><init>(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)V
@@ -273,7 +241,6 @@
 
     invoke-static {v0, v1, v2}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -286,7 +253,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->h1()Z
 
     move-result p0
@@ -303,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -318,7 +283,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->P:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -333,7 +297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->X:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -348,7 +311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->X:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -363,7 +325,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -378,7 +339,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Y:Lcom/bumptech/glide/integration/webp/decoder/k;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -393,7 +353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->D1(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -408,7 +367,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->b0:Lcom/commsource/beautyplus/router/RouterEntity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -423,7 +381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->T:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -438,7 +395,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->X0(Ljava/lang/String;Ljava/util/List;)I
 
     move-result p0
@@ -457,12 +413,10 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->easy_editor_content:I
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v2
@@ -475,19 +429,16 @@
 
     sub-int/2addr v2, v4
 
-    .line 3
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->v1(Ljava/lang/String;I)I
 
     move-result v1
 
     sget v2, Lcom/res/provider/ResSTRING;->normal_editor_content:I
 
-    .line 4
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v4
@@ -498,14 +449,12 @@
 
     sub-int/2addr v4, v3
 
-    .line 6
     invoke-static {v2, v4}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->v1(Ljava/lang/String;I)I
 
     move-result v2
 
     add-int/2addr v1, v2
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -529,7 +478,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     invoke-interface {p2}, Ljava/util/List;->size()I
 
@@ -537,7 +485,6 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 2
     invoke-interface {p2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -554,7 +501,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -567,7 +513,6 @@
     :cond_1
     const/4 p1, -0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -580,7 +525,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Z:I
 
     mul-int/lit16 v2, v1, 0x8b
@@ -595,7 +539,6 @@
 
     add-int/2addr v2, v3
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->W0()I
 
     move-result v3
@@ -614,7 +557,6 @@
 
     sub-int/2addr v1, v2
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -635,7 +577,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
@@ -652,30 +593,25 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getUriString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-direct {p0, v1, p1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->X0(Ljava/lang/String;Ljava/util/List;)I
 
@@ -683,14 +619,12 @@
 
     if-lez v2, :cond_2
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/am;->R:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v3, v2}, Landroidx/recyclerview/widget/RecyclerView;->scrollToPosition(I)V
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/am;->R:Landroidx/recyclerview/widget/RecyclerView;
@@ -703,7 +637,6 @@
 
     invoke-virtual {v3, v4, v1, v2}, Landroid/view/ViewGroup;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -717,7 +650,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
@@ -734,7 +666,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->d:Lcom/commsource/widget/PressImageView;
@@ -743,14 +674,12 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setScaleX(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->d:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setScaleY(F)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->f:Landroid/widget/LinearLayout;
@@ -763,21 +692,18 @@
 
     invoke-virtual {v1, v5}, Landroid/widget/LinearLayout;->setTranslationY(F)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->p:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setScaleX(F)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->p:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setScaleY(F)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->J:Landroidx/constraintlayout/widget/ConstraintLayout;
@@ -788,7 +714,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->setTranslationY(F)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->g:Lcom/commsource/widget/PressImageView;
@@ -797,14 +722,12 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setScaleX(F)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->g:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setScaleY(F)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->g:Lcom/commsource/widget/PressImageView;
@@ -817,7 +740,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setTranslationY(F)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->b:Landroid/view/View;
@@ -828,7 +750,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->N:Landroid/view/View;
@@ -839,7 +760,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->T:Lcom/commsource/widget/PressAutoFitTextView;
@@ -848,38 +768,32 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->S:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->O:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
-    .line 16
     invoke-virtual {v1}, Landroid/widget/RelativeLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 17
     iput v2, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->m:F
 
     const/high16 v2, 0x42700000    # 60.0f
 
-    .line 18
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
 
     iput v2, v1, Landroid/widget/RelativeLayout$LayoutParams;->bottomMargin:I
 
-    .line 19
     iget-object v2, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/am;->O:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -888,39 +802,33 @@
 
     goto :goto_0
 
-    .line 20
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->O:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
-    .line 21
     invoke-virtual {v1}, Landroid/widget/RelativeLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 22
     iput v2, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->m:F
 
     const/high16 v2, 0x42a00000    # 80.0f
 
-    .line 23
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
 
     iput v2, v1, Landroid/widget/RelativeLayout$LayoutParams;->bottomMargin:I
 
-    .line 24
     iget-object v2, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/am;->O:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
     invoke-virtual {v2, v1}, Landroid/widget/RelativeLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 25
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -934,7 +842,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->R:Landroidx/recyclerview/widget/RecyclerView;
@@ -943,7 +850,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->removeItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->R:Landroidx/recyclerview/widget/RecyclerView;
@@ -952,7 +858,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -965,7 +870,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->g:Lcom/commsource/widget/PressImageView;
@@ -974,35 +878,30 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/PressImageView;->setHighLight(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->g:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {v1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->J:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-virtual {v1, p0}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->f:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, p0}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->L:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {v1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->R:Landroidx/recyclerview/widget/RecyclerView;
@@ -1013,14 +912,12 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->V:Landroid/view/View;
 
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1033,7 +930,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->R:Landroidx/recyclerview/widget/RecyclerView;
@@ -1044,7 +940,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->R:Landroidx/recyclerview/widget/RecyclerView;
@@ -1053,7 +948,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
@@ -1063,7 +957,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/f/i;->P()Z
 
     move-result v1
@@ -1080,7 +973,6 @@
     :goto_0
     iput v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->U:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1093,14 +985,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->Q:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->O:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -1111,7 +1001,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->c:Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;
@@ -1126,7 +1015,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->setSelected(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->c:Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;
@@ -1137,14 +1025,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->setOnSelectListener(Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup$b;)V
 
-    .line 5
     invoke-static {}, Lcom/commsource/util/d2;->a()Lcom/commsource/util/d2;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->W:Lcom/commsource/util/d2;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1157,12 +1043,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->M()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->H()Landroidx/lifecycle/MutableLiveData;
@@ -1175,7 +1059,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->L()Landroidx/lifecycle/MutableLiveData;
@@ -1188,7 +1071,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->K()Landroidx/lifecycle/MutableLiveData;
@@ -1201,7 +1083,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->I()Landroidx/lifecycle/MutableLiveData;
@@ -1214,7 +1095,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1227,7 +1107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->a0:Landroid/animation/ObjectAnimator;
 
     if-eqz v1, :cond_0
@@ -1266,7 +1145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Y:Lcom/bumptech/glide/integration/webp/decoder/k;
 
     if-eqz v1, :cond_0
@@ -1299,14 +1177,12 @@
 
     const-string v1, "beautyplus://handover"
 
-    .line 1
     invoke-virtual {p1, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-interface {p2, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p2
@@ -1321,10 +1197,8 @@
 
     const-string v2, "miniapp_feature"
 
-    .line 3
     invoke-static {v1, v2, p2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
@@ -1336,12 +1210,10 @@
 
     if-nez p2, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     instance-of p3, p2, Lcom/commsource/beautyplus/miniapp/i;
 
@@ -1349,15 +1221,12 @@
 
     if-eqz p3, :cond_2
 
-    .line 7
     check-cast p2, Lcom/commsource/beautyplus/miniapp/i;
 
-    .line 8
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->f()Landroid/graphics/Rect;
 
     move-result-object p2
 
-    .line 9
     iget-object p3, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/am;->K:Landroid/widget/ImageView;
@@ -1374,7 +1243,6 @@
 
     invoke-static {p3, v2}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 10
     iget-object p3, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/am;->K:Landroid/widget/ImageView;
@@ -1393,21 +1261,17 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     instance-of p3, p2, Lcom/commsource/beautyplus/miniapp/j;
 
     if-eqz p3, :cond_3
 
-    .line 12
     check-cast p2, Lcom/commsource/beautyplus/miniapp/j;
 
-    .line 13
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->f()Landroid/graphics/Rect;
 
     move-result-object p2
 
-    .line 14
     iget-object p3, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/am;->K:Landroid/widget/ImageView;
@@ -1424,7 +1288,6 @@
 
     invoke-static {p3, v2}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 15
     iget-object p3, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/am;->K:Landroid/widget/ImageView;
@@ -1441,12 +1304,10 @@
 
     invoke-static {p3, p2}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 16
     :cond_3
     :goto_0
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->w1(Ljava/lang/String;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1461,12 +1322,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
@@ -1476,20 +1335,16 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->e1()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->c1()V
 
-    .line 5
     :goto_0
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->T:Ljava/util/List;
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->P:Lcom/commsource/widget/h1/e;
 
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
@@ -1498,7 +1353,6 @@
 
     iget-object v3, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
-    .line 7
     invoke-virtual {v3}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->O()Z
 
     move-result v3
@@ -1517,23 +1371,18 @@
 
     move-result-object v2
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v2
 
-    .line 9
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->E(Ljava/util/List;)V
 
-    .line 11
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Z0(Ljava/util/List;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1546,7 +1395,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->x1()V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1561,14 +1409,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->P:Lcom/commsource/widget/h1/e;
 
     if-eqz v1, :cond_1
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->H()Landroidx/lifecycle/MutableLiveData;
@@ -1585,7 +1431,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v3
@@ -1598,7 +1443,6 @@
 
     if-le v3, v4, :cond_0
 
-    .line 4
     aget v3, p1, v2
 
     invoke-interface {v1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1607,12 +1451,10 @@
 
     check-cast v1, Lcom/commsource/beautyplus/miniapp/k;
 
-    .line 5
     aget v3, p1, v5
 
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/miniapp/k;->u(I)V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->P:Lcom/commsource/widget/h1/e;
 
@@ -1622,7 +1464,6 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemChanged(ILjava/lang/Object;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1638,7 +1479,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
@@ -1649,10 +1489,8 @@
 
     const-string v1, "HandoverMode"
 
-    .line 2
     invoke-static {v1, p1}, Lf/d/i/e;->O3(Ljava/lang/String;Z)V
 
-    .line 3
     new-instance p1, Landroid/content/Intent;
 
     const-class v1, Lcom/commsource/helpcapture/HelpSelfieActivity;
@@ -1661,10 +1499,8 @@
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1678,7 +1514,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Landroid/content/Intent;
 
@@ -1686,12 +1521,10 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    .line 2
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     sget v2, Lcom/res/provider/ResSTRING;->software_grade_url:I
 
-    .line 3
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -1702,7 +1535,6 @@
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -1712,19 +1544,15 @@
     :catch_0
     move-exception v1
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     sget v1, Lcom/res/provider/ResSTRING;->open_failed:I
 
-    .line 6
     invoke-static {v1}, Lf/k/c/c/f;->h(I)V
 
-    .line 7
     :goto_0
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1737,14 +1565,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v3, Landroid/text/TextPaint;
 
     invoke-direct {v3}, Landroid/text/TextPaint;-><init>()V
 
     const/high16 v1, 0x41700000    # 15.0f
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -1753,7 +1579,6 @@
 
     invoke-virtual {v3, v1}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    .line 3
     new-instance v9, Landroid/text/StaticLayout;
 
     sget-object v5, Landroid/text/Layout$Alignment;->ALIGN_NORMAL:Landroid/text/Layout$Alignment;
@@ -1772,7 +1597,6 @@
 
     invoke-direct/range {v1 .. v8}, Landroid/text/StaticLayout;-><init>(Ljava/lang/CharSequence;Landroid/text/TextPaint;ILandroid/text/Layout$Alignment;FFZ)V
 
-    .line 4
     invoke-virtual {v9}, Landroid/text/StaticLayout;->getHeight()I
 
     move-result p0
@@ -1789,13 +1613,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Lcom/bumptech/glide/load/resource/bitmap/m;
 
     invoke-direct {v1}, Lcom/bumptech/glide/load/resource/bitmap/m;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/am;->K:Landroid/widget/ImageView;
@@ -1810,7 +1632,6 @@
 
     sget v3, Lcom/res/provider/ResDRAWABLE;->img_miniapp_click_animator:I
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -1819,7 +1640,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2, v1}, Lcom/commsource/beautyplus/z;->t2(Lcom/bumptech/glide/load/i;)Lcom/commsource/beautyplus/z;
 
     move-result-object v2
@@ -1830,7 +1650,6 @@
 
     invoke-direct {v4, v1}, Lcom/bumptech/glide/integration/webp/decoder/n;-><init>(Lcom/bumptech/glide/load/i;)V
 
-    .line 5
     invoke-virtual {v2, v3, v4}, Lcom/commsource/beautyplus/z;->u2(Ljava/lang/Class;Lcom/bumptech/glide/load/i;)Lcom/commsource/beautyplus/z;
 
     move-result-object v1
@@ -1843,7 +1662,6 @@
 
     invoke-direct {v2, p0, v3, p1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;-><init>(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;Landroid/widget/ImageView;Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/bumptech/glide/i;->i1(Lcom/bumptech/glide/request/j/p;)Lcom/bumptech/glide/request/j/p;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -1853,10 +1671,8 @@
     :catch_0
     move-exception p1
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1870,7 +1686,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/dialog/s0/t$a;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
@@ -1887,7 +1702,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->update_beautyplus_version:I
 
-    .line 2
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -1898,14 +1712,12 @@
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/s0/t$a;->p(Z)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v1
 
     sget v2, Lcom/res/provider/ResSTRING;->update_push_ok:I
 
-    .line 4
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -1918,14 +1730,12 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/miniapp/b;-><init>(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)V
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/s0/t$a;->v(Lcom/commsource/widget/dialog/s0/y;)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v1
 
     sget v2, Lcom/res/provider/ResSTRING;->no_next_time:I
 
-    .line 6
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -1934,15 +1744,12 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1959,10 +1766,8 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v1, v1, v2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->B1(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/beautyplus/router/RouterEntity;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1977,10 +1782,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v1, v1, p1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->B1(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/beautyplus/router/RouterEntity;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1995,20 +1798,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 2
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
     const-string v2, "1006"
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 4
     const-class v2, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -2017,7 +1816,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 5
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -2026,7 +1824,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->w(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2047,20 +1844,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 2
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
     const-string v2, "1006"
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 4
     const-class v2, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -2069,7 +1862,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 5
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -2078,7 +1870,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2107,19 +1898,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->h1()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
@@ -2131,12 +1919,10 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->s(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->T(Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/am;->O:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -2151,7 +1937,6 @@
 
     const/4 v2, 0x1
 
-    .line 6
     invoke-virtual {v1}, Landroid/widget/RelativeLayout;->getHeight()I
 
     move-result v4
@@ -2168,31 +1953,26 @@
 
     const-wide/16 v2, 0xc8
 
-    .line 7
     invoke-virtual {v1, v2, v3}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->a0:Landroid/animation/ObjectAnimator;
 
-    .line 8
     new-instance v2, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$b;
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$b;-><init>(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)V
 
     invoke-virtual {v1, v2}, Landroid/animation/ObjectAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->a0:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ObjectAnimator;->start()V
 
     const-string v1, "miniapp_collapse"
 
-    .line 10
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2205,19 +1985,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->h1()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
@@ -2225,7 +2002,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->T(Z)V
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result p1
@@ -2234,17 +2010,14 @@
 
     goto/16 :goto_0
 
-    .line 5
     :sswitch_0
     invoke-virtual {p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->onBackPressed()V
 
     goto/16 :goto_0
 
-    .line 6
     :sswitch_1
     invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
 
-    .line 7
     invoke-static {p0}, Lf/d/i/g;->j(Landroid/content/Context;)Z
 
     move-result p1
@@ -2257,7 +2030,6 @@
 
     if-nez p1, :cond_2
 
-    .line 8
     :cond_1
     new-instance p1, Lcom/commsource/camera/ardata/e;
 
@@ -2268,35 +2040,28 @@
     :cond_2
     const-string p1, "home_to_selfie"
 
-    .line 9
     invoke-static {p0, p1}, Lcom/commsource/statistics/m;->h(Landroid/content/Context;Ljava/lang/String;)V
 
     const-string p1, "home_clk_selfie"
 
-    .line 10
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     const-string p1, "self_protrait"
 
-    .line 11
     invoke-static {p0, p1}, Lcom/commsource/statistics/c;->i(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {p0}, Lcom/commsource/util/w0;->g(Landroid/app/Activity;)V
 
     const-string/jumbo p1, "\u9996\u9875\u70b9\u51fb\u81ea\u62cd"
 
-    .line 13
     invoke-static {p1}, Lcom/commsource/beautyplus/p;->a(Ljava/lang/String;)V
 
-    .line 14
     invoke-static {p0}, Lf/d/i/e;->A1(Landroid/content/Context;)Z
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    .line 15
     invoke-static {p0}, Lcom/commsource/util/b1;->a(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
@@ -2311,16 +2076,13 @@
 
     const-string p1, "new_user_homepage_selfie"
 
-    .line 16
     invoke-static {p0, p1}, Lcom/commsource/statistics/m;->h(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 17
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
     goto :goto_0
 
-    .line 18
     :sswitch_2
     invoke-static {}, Lf/d/i/o;->o0()Z
 
@@ -2330,7 +2092,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->ad_slot_album:I
 
-    .line 19
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2339,14 +2100,12 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->ad_slot_save_via_selfie:I
 
-    .line 20
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->preloadAdvert(Ljava/lang/String;)V
 
-    .line 21
     :cond_4
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
@@ -2354,7 +2113,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/d;->l()V
 
-    .line 22
     invoke-static {p0}, Lf/d/i/g;->j(Landroid/content/Context;)Z
 
     move-result p1
@@ -2367,7 +2125,6 @@
 
     if-nez p1, :cond_6
 
-    .line 23
     :cond_5
     new-instance p1, Lcom/commsource/camera/ardata/e;
 
@@ -2375,21 +2132,17 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/ardata/j;->n()V
 
-    .line 24
     :cond_6
     sget-object p1, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->a:Lcom/commsource/mypage/album/BpAlbumJumpRouter;
 
     invoke-virtual {p1, p0}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->i(Landroid/app/Activity;)V
 
-    .line 25
     invoke-static {p0}, Lcom/commsource/util/h2;->c(Landroid/app/Activity;)V
 
     const-string p1, "home_clk_beautify"
 
-    .line 26
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 27
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2412,12 +2165,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->mini_app_activity:I
 
-    .line 2
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -2426,7 +2177,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
-    .line 3
     invoke-static {p0}, Landroidx/lifecycle/ViewModelProviders;->of(Landroidx/fragment/app/FragmentActivity;)Landroidx/lifecycle/ViewModelProvider;
 
     move-result-object p1
@@ -2441,17 +2191,14 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->b1()V
 
-    .line 5
     new-instance p1, Lcom/commsource/widget/h1/e;
 
     invoke-direct {p1, p0}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->P:Lcom/commsource/widget/h1/e;
 
-    .line 6
     new-instance v1, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$a;-><init>(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)V
@@ -2460,7 +2207,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/widget/h1/e;->I(Lcom/commsource/widget/h1/e$b;Ljava/lang/Class;)V
 
-    .line 7
     new-instance p1, Landroidx/recyclerview/widget/GridLayoutManager;
 
     const/4 v1, 0x2
@@ -2473,21 +2219,18 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->R:Landroidx/recyclerview/widget/GridLayoutManager;
 
-    .line 8
     new-instance p1, Landroidx/recyclerview/widget/LinearLayoutManager;
 
     invoke-direct {p1, p0}, Landroidx/recyclerview/widget/LinearLayoutManager;-><init>(Landroid/content/Context;)V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Q:Landroidx/recyclerview/widget/LinearLayoutManager;
 
-    .line 9
     new-instance p1, Lcom/commsource/beautyplus/miniapp/l;
 
     invoke-direct {p1}, Lcom/commsource/beautyplus/miniapp/l;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->S:Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/am;->R:Landroidx/recyclerview/widget/RecyclerView;
@@ -2496,10 +2239,8 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 11
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->f1()V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
@@ -2514,7 +2255,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 13
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
@@ -2536,22 +2276,17 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 14
     :goto_0
     invoke-virtual {p1, v2}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->T(Z)V
 
-    .line 15
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->g1()V
 
-    .line 16
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->d1()V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->R()V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2564,15 +2299,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2585,7 +2317,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object p4, p3, Lcom/commsource/beautyplus/f0/am;->Q:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -2594,26 +2325,22 @@
 
     if-ne p1, p4, :cond_0
 
-    .line 2
     invoke-virtual {p4}, Landroid/widget/RelativeLayout;->getHeight()I
 
     move-result p3
 
     iput p3, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Z:I
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N:Lcom/commsource/beautyplus/f0/am;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/am;->O:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
     invoke-virtual {p3, p5}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 4
     invoke-virtual {p1, p0}, Landroid/view/View;->removeOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-boolean p4, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->V:Z
 
@@ -2627,14 +2354,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     iput-boolean p5, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->V:Z
 
     const/4 p1, 0x2
 
     new-array p1, p1, [F
 
-    .line 7
     invoke-virtual {p3}, Landroid/widget/RelativeLayout;->getHeight()I
 
     move-result p4
@@ -2657,15 +2382,12 @@
 
     const-wide/16 p3, 0xc8
 
-    .line 8
     invoke-virtual {p1, p3, p4}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
 
-    .line 10
     :cond_1
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2680,17 +2402,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onPause()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->T(Z)V
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2717,7 +2436,6 @@
 
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2730,15 +2448,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onResume()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->W:Lcom/commsource/util/d2;
 
     invoke-virtual {v1}, Lcom/commsource/util/d2;->e()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

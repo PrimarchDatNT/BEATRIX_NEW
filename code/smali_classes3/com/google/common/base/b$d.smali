@@ -22,10 +22,8 @@
 .method public constructor <init>(Ljava/lang/CharSequence;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/base/b;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -36,7 +34,6 @@
 
     iput-object p1, p0, Lcom/google/common/base/b$d;->b:[C
 
-    .line 3
     invoke-static {p1}, Ljava/util/Arrays;->sort([C)V
 
     return-void
@@ -47,7 +44,6 @@
 .method public B(C)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/b$d;->b:[C
 
     invoke-static {v0, p1}, Ljava/util/Arrays;->binarySearch([CC)I
@@ -72,7 +68,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/b$d;->b:[C
 
     array-length v1, v0
@@ -84,7 +79,6 @@
 
     aget-char v3, v0, v2
 
-    .line 2
     invoke-virtual {p1, v3}, Ljava/util/BitSet;->set(I)V
 
     add-int/lit8 v2, v2, 0x1
@@ -100,7 +94,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/lang/Character;
 
     invoke-super {p0, p1}, Lcom/google/common/base/b;->e(Ljava/lang/Character;)Z
@@ -113,14 +106,12 @@
 .method public toString()Ljava/lang/String;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "CharMatcher.anyOf(\""
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/base/b$d;->b:[C
 
     array-length v2, v1
@@ -132,7 +123,6 @@
 
     aget-char v4, v1, v3
 
-    .line 3
     invoke-static {v4}, Lcom/google/common/base/b;->a(C)Ljava/lang/String;
 
     move-result-object v4
@@ -146,10 +136,8 @@
     :cond_0
     const-string v1, "\")"
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0

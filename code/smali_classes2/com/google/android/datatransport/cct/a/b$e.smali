@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/cct/a/b$e;
 
     invoke-direct {v0}, Lcom/google/android/datatransport/cct/a/b$e;-><init>()V
@@ -47,7 +46,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,12 +61,10 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/datatransport/cct/a/l;
 
     check-cast p2, Lcom/google/firebase/encoders/e;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/datatransport/cct/a/l;->g()J
 
     move-result-wide v0
@@ -77,7 +73,6 @@
 
     invoke-interface {p2, v2, v0, v1}, Lcom/google/firebase/encoders/e;->c(Ljava/lang/String;J)Lcom/google/firebase/encoders/e;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/datatransport/cct/a/l;->h()J
 
     move-result-wide v0
@@ -86,7 +81,6 @@
 
     invoke-interface {p2, v2, v0, v1}, Lcom/google/firebase/encoders/e;->c(Ljava/lang/String;J)Lcom/google/firebase/encoders/e;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/datatransport/cct/a/l;->b()Lcom/google/android/datatransport/cct/a/zzp;
 
     move-result-object v0
@@ -95,7 +89,6 @@
 
     invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/e;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/firebase/encoders/e;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/datatransport/cct/a/l;->d()Ljava/lang/Integer;
 
     move-result-object v0
@@ -104,7 +97,6 @@
 
     invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/e;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/firebase/encoders/e;
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/android/datatransport/cct/a/l;->e()Ljava/lang/String;
 
     move-result-object v0
@@ -113,7 +105,6 @@
 
     invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/e;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/firebase/encoders/e;
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/android/datatransport/cct/a/l;->c()Ljava/util/List;
 
     move-result-object v0
@@ -122,7 +113,6 @@
 
     invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/e;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/firebase/encoders/e;
 
-    .line 8
     invoke-virtual {p1}, Lcom/google/android/datatransport/cct/a/l;->f()Lcom/google/android/datatransport/cct/a/zzu;
 
     move-result-object p1

@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroid/widget/TextView;
 
     iget-object v2, p0, Lcom/commsource/widget/part/XSeekTextView$textView$2;->$context:Landroid/content/Context;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/part/XSeekTextView$textView$2;->invoke()Landroid/widget/TextView;
 
     move-result-object v1

@@ -46,7 +46,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -55,10 +54,8 @@
 
     const-string v2, "\u6ee4\u955c\u7ba1\u7406\u9875"
 
-    .line 2
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->z(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;)Lcom/commsource/beautyplus/f0/ye;
@@ -69,7 +66,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewGroup;->performClick()Z
 
-    .line 4
     sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$b;->b:Lcom/commsource/widget/h1/d;
@@ -90,7 +86,6 @@
 
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$b;->b:Lcom/commsource/widget/h1/d;
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -107,7 +102,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$b;->b:Lcom/commsource/widget/h1/d;
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -120,7 +114,6 @@
 
     invoke-virtual {v1, v3}, Lcom/meitu/template/bean/Filter;->setCollectedState(I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$b;->b:Lcom/commsource/widget/h1/d;
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -135,12 +128,10 @@
 
     const-string v1, "filter_favorite_remove"
 
-    .line 8
     invoke-static {v1, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$b;->b:Lcom/commsource/widget/h1/d;
 
@@ -156,7 +147,6 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/meitu/template/bean/Filter;->setCollectedTime(J)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$b;->b:Lcom/commsource/widget/h1/d;
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -169,10 +159,8 @@
 
     const-string v1, "filter_favorite"
 
-    .line 11
     invoke-static {v1, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 12
     :goto_0
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;
 
@@ -206,7 +194,6 @@
     :goto_1
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 13
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->x(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewModel;
@@ -225,7 +212,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 14
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

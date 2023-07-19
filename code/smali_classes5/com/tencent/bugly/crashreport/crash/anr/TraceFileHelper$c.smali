@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$c;->a:Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;
 
     iput-object p2, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$c;->b:Ljava/lang/String;
@@ -50,7 +49,6 @@
 
     new-array v1, v0, [Ljava/lang/Object;
 
-    .line 12
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -63,7 +61,6 @@
 
     invoke-static {p1, v1}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 13
     iget-object p1, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$c;->a:Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;
 
     iget-wide v1, p1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->a:J
@@ -107,10 +104,8 @@
 
     const-string v3, "new process %s"
 
-    .line 6
     invoke-static {v3, v1}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 7
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$c;->b:Ljava/lang/String;
 
     invoke-virtual {p5, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -121,19 +116,15 @@
 
     return v0
 
-    .line 8
     :cond_0
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$c;->a:Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;
 
     iput-wide p1, v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->a:J
 
-    .line 9
     iput-object p5, v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->b:Ljava/lang/String;
 
-    .line 10
     iput-wide p3, v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->c:J
 
-    .line 11
     iget-boolean p1, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$c;->c:Z
 
     if-nez p1, :cond_1
@@ -157,10 +148,8 @@
 
     const-string v3, "new thread %s"
 
-    .line 1
     invoke-static {v3, v1}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$c;->a:Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;
 
     iget-wide v3, v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->a:J
@@ -183,20 +172,17 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v3, v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->d:Ljava/util/Map;
 
     if-nez v3, :cond_1
 
-    .line 4
     new-instance v3, Ljava/util/HashMap;
 
     invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
 
     iput-object v3, v1, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;->d:Ljava/util/Map;
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$c;->a:Lcom/tencent/bugly/crashreport/crash/anr/TraceFileHelper$a;
 

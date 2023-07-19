@@ -29,7 +29,6 @@
 .method constructor <init>(Lf/k/h/a/l/x/g;ZLjava/util/List;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/l/x/g$b;->c:Lf/k/h/a/l/x/g;
 
     iput-boolean p2, p0, Lf/k/h/a/l/x/g$b;->a:Z
@@ -60,17 +59,14 @@
 
     if-nez p1, :cond_2
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-boolean v2, p0, Lf/k/h/a/l/x/g$b;->a:Z
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lf/k/h/a/l/x/g$b;->b:Ljava/util/List;
 
     invoke-interface {v1, v2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
@@ -78,17 +74,14 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 4
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v2
 
     if-lez v2, :cond_1
 
-    .line 5
     invoke-interface {v1, p2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 6
     :cond_1
     iget-object p2, p0, Lf/k/h/a/l/x/g$b;->c:Lf/k/h/a/l/x/g;
 
@@ -96,13 +89,11 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-boolean v1, p0, Lf/k/h/a/l/x/g$b;->a:Z
 
     if-eqz v1, :cond_3
 
-    .line 8
     iget-object p2, p0, Lf/k/h/a/l/x/g$b;->c:Lf/k/h/a/l/x/g;
 
     iget-object v1, p0, Lf/k/h/a/l/x/g$b;->b:Ljava/util/List;
@@ -111,19 +102,16 @@
 
     goto :goto_0
 
-    .line 9
     :cond_3
     iget-object v1, p0, Lf/k/h/a/l/x/g$b;->c:Lf/k/h/a/l/x/g;
 
     invoke-static {v1, p1, p2}, Lf/k/h/a/l/x/g;->f(Lf/k/h/a/l/x/g;ILjava/util/List;)V
 
-    .line 10
     :goto_0
     iget-object p1, p0, Lf/k/h/a/l/x/g$b;->c:Lf/k/h/a/l/x/g;
 
     invoke-static {p1}, Lf/k/h/a/l/x/g;->g(Lf/k/h/a/l/x/g;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

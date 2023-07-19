@@ -24,7 +24,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/bumptech/glide/s/o/c;-><init>(Lcom/bumptech/glide/s/o/c$a;)V
 
     return-void
@@ -35,7 +34,6 @@
 .method public b(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/bumptech/glide/s/o/c$c;->b:Z
 
     return-void
@@ -44,14 +42,12 @@
 .method public c()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/s/o/c$c;->b:Z
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 

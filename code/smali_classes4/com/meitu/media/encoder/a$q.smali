@@ -36,7 +36,6 @@
 .method public constructor <init>(Lcom/meitu/media/encoder/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/a$q;->a:Lcom/meitu/media/encoder/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

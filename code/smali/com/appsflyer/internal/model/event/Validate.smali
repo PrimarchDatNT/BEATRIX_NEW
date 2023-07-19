@@ -11,7 +11,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     const-string v1, "af_purchase"
@@ -26,7 +25,6 @@
 .method public urlString(Ljava/lang/String;)Lcom/appsflyer/AFEvent;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/appsflyer/AFEvent;->addChannel(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1

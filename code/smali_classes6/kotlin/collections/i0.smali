@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcotlin/collections/i0;->a:I
@@ -116,7 +115,6 @@
 .method public final e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/collections/i0;->a:I
 
     return v0
@@ -175,7 +173,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/i0;->b:Ljava/lang/Object;
 
     return-object v0

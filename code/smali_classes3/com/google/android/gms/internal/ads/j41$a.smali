@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
 .method static synthetic a(Lcom/google/android/gms/internal/ads/j41$a;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/j41$a;->a:Ljava/lang/String;
 
     return-object p0
@@ -42,7 +40,6 @@
 .method public final b(Ljava/lang/String;)Lcom/google/android/gms/internal/ads/j41$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/j41$a;->a:Ljava/lang/String;
 
     return-object p0

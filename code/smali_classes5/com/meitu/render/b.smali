@@ -27,25 +27,20 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/MTFilterGLRender;-><init>()V
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 2
     iput v0, p0, Lcom/meitu/render/b;->b:F
 
-    .line 3
     iput v0, p0, Lcom/meitu/render/b;->c:F
 
     const/4 v0, 0x0
 
-    .line 4
     iput v0, p0, Lcom/meitu/render/b;->d:F
 
     const/4 v0, 0x0
 
-    .line 5
     iput v0, p0, Lcom/meitu/render/b;->e:I
 
     return-void
@@ -60,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/render/b;->c:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -75,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/render/b;->d:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -90,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/render/b;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -105,17 +97,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/render/b;->a:Lcom/meitu/render/b$a;
 
     if-eqz v1, :cond_0
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-interface {v1, v2}, Lcom/meitu/render/b$a;->a(Ljava/util/List;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -135,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/core/MTFilterType;->Filter_MeiYan_Normal:I
 
     sget v2, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
@@ -144,7 +132,6 @@
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 2
     sget v1, Lcom/meitu/core/MTFilterType;->Filter_SoftHair:I
 
     sget v2, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
@@ -153,7 +140,6 @@
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 3
     sget v1, Lcom/meitu/core/MTFilterType;->Filter_Slider:I
 
     sget v2, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
@@ -162,10 +148,8 @@
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 4
     iput p1, p0, Lcom/meitu/render/b;->c:F
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -184,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/core/MTFilterType;->Filter_Noise:I
 
     sget v2, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
@@ -193,17 +176,14 @@
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 2
     sget v1, Lcom/meitu/core/MTFilterType;->Filter_Dispersion:I
 
     sget v2, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 3
     iput p1, p0, Lcom/meitu/render/b;->d:F
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -222,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/core/MTFilterType;->Filter_Old:I
 
     sget v2, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
@@ -231,24 +210,20 @@
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 2
     iput p1, p0, Lcom/meitu/render/b;->c:F
 
-    .line 3
     iget v1, p0, Lcom/meitu/render/b;->e:I
 
     const/4 v2, -0x1
 
     if-eq v1, v2, :cond_0
 
-    .line 4
     sget v2, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget v1, Lcom/meitu/core/MTFilterType;->Filter_Old:I
 
@@ -256,7 +231,6 @@
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -270,10 +244,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/render/b;->a:Lcom/meitu/render/b$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -292,7 +264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/core/MTFilterType;->Filter_Dispersion:I
 
     sget v2, Lcom/meitu/core/MTFilterType;->uvt_VECT2:I
@@ -301,7 +272,6 @@
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue_floatArray(ILjava/lang/String;[FI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -316,14 +286,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/core/MTFilterGLRender;->setFilterData(Lcom/meitu/parse/FilterData;)Z
 
     move-result v1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-wide v2, p1, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     const-wide/16 v4, 0x0
@@ -332,24 +300,20 @@
 
     if-eqz v6, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/parse/FilterData;->getFilterAlpha()F
 
     move-result v2
 
     iput v2, p0, Lcom/meitu/render/b;->c:F
 
-    .line 4
     iput v2, p0, Lcom/meitu/render/b;->b:F
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/parse/FilterData;->getFilterID()I
 
     move-result p1
 
     iput p1, p0, Lcom/meitu/render/b;->e:I
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

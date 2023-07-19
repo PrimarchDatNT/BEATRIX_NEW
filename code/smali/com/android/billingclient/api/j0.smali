@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/android/billingclient/api/e;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Lcom/android/billingclient/api/p;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/j0;->f:Lcom/android/billingclient/api/e;
 
     iput-object p2, p0, Lcom/android/billingclient/api/j0;->a:Ljava/lang/String;
@@ -59,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/j0;->f:Lcom/android/billingclient/api/e;
 
     iget-object v1, p0, Lcom/android/billingclient/api/j0;->a:Ljava/lang/String;
@@ -68,12 +66,10 @@
 
     iget-object v3, p0, Lcom/android/billingclient/api/j0;->c:Ljava/lang/String;
 
-    .line 2
     invoke-virtual {v0, v1, v2, v3}, Lcom/android/billingclient/api/e;->u(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)Lcom/android/billingclient/api/SkuDetails$a;
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcom/android/billingclient/api/j0;->f:Lcom/android/billingclient/api/e;
 
     new-instance v2, Lcom/android/billingclient/api/l0;

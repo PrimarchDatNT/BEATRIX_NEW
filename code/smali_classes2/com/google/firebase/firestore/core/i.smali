@@ -20,10 +20,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/TreeMap;
 
     invoke-direct {v0}, Ljava/util/TreeMap;-><init>()V
@@ -38,7 +36,6 @@
 .method public a(Lcom/google/firebase/firestore/core/DocumentViewChange;)V
     .locals 7
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/DocumentViewChange;->b()Lcom/google/firebase/firestore/model/Document;
 
     move-result-object v0
@@ -47,7 +44,6 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/firestore/core/i;->a:Ljava/util/TreeMap;
 
     invoke-virtual {v1, v0}, Ljava/util/TreeMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -58,25 +54,21 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/firestore/core/i;->a:Ljava/util/TreeMap;
 
     invoke-virtual {v1, v0, p1}, Ljava/util/TreeMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {v1}, Lcom/google/firebase/firestore/core/DocumentViewChange;->c()Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/DocumentViewChange;->c()Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
     move-result-object v3
 
-    .line 6
     sget-object v4, Lcom/google/firebase/firestore/core/DocumentViewChange$Type;->ADDED:Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
     if-eq v3, v4, :cond_1
@@ -85,14 +77,12 @@
 
     if-ne v2, v5, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/google/firebase/firestore/core/i;->a:Ljava/util/TreeMap;
 
     invoke-virtual {v1, v0, p1}, Ljava/util/TreeMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 8
     :cond_1
     sget-object v5, Lcom/google/firebase/firestore/core/DocumentViewChange$Type;->METADATA:Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
@@ -102,7 +92,6 @@
 
     if-eq v2, v5, :cond_2
 
-    .line 9
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/DocumentViewChange;->b()Lcom/google/firebase/firestore/model/Document;
 
     move-result-object p1
@@ -111,14 +100,12 @@
 
     move-result-object p1
 
-    .line 10
     iget-object v1, p0, Lcom/google/firebase/firestore/core/i;->a:Ljava/util/TreeMap;
 
     invoke-virtual {v1, v0, p1}, Ljava/util/TreeMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 11
     :cond_2
     sget-object v5, Lcom/google/firebase/firestore/core/DocumentViewChange$Type;->MODIFIED:Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
@@ -126,7 +113,6 @@
 
     if-ne v2, v5, :cond_3
 
-    .line 12
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/DocumentViewChange;->b()Lcom/google/firebase/firestore/model/Document;
 
     move-result-object p1
@@ -135,7 +121,6 @@
 
     move-result-object p1
 
-    .line 13
     iget-object v1, p0, Lcom/google/firebase/firestore/core/i;->a:Ljava/util/TreeMap;
 
     invoke-virtual {v1, v0, p1}, Ljava/util/TreeMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -147,7 +132,6 @@
 
     if-ne v2, v4, :cond_4
 
-    .line 14
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/DocumentViewChange;->b()Lcom/google/firebase/firestore/model/Document;
 
     move-result-object p1
@@ -156,14 +140,12 @@
 
     move-result-object p1
 
-    .line 15
     iget-object v1, p0, Lcom/google/firebase/firestore/core/i;->a:Ljava/util/TreeMap;
 
     invoke-virtual {v1, v0, p1}, Ljava/util/TreeMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 16
     :cond_4
     sget-object v6, Lcom/google/firebase/firestore/core/DocumentViewChange$Type;->REMOVED:Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
@@ -171,7 +153,6 @@
 
     if-ne v2, v4, :cond_5
 
-    .line 17
     iget-object p1, p0, Lcom/google/firebase/firestore/core/i;->a:Ljava/util/TreeMap;
 
     invoke-virtual {p1, v0}, Ljava/util/TreeMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -183,7 +164,6 @@
 
     if-ne v2, v5, :cond_6
 
-    .line 18
     invoke-virtual {v1}, Lcom/google/firebase/firestore/core/DocumentViewChange;->b()Lcom/google/firebase/firestore/model/Document;
 
     move-result-object p1
@@ -192,7 +172,6 @@
 
     move-result-object p1
 
-    .line 19
     iget-object v1, p0, Lcom/google/firebase/firestore/core/i;->a:Ljava/util/TreeMap;
 
     invoke-virtual {v1, v0, p1}, Ljava/util/TreeMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -204,7 +183,6 @@
 
     if-ne v2, v6, :cond_7
 
-    .line 20
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/DocumentViewChange;->b()Lcom/google/firebase/firestore/model/Document;
 
     move-result-object p1
@@ -213,7 +191,6 @@
 
     move-result-object p1
 
-    .line 21
     iget-object v1, p0, Lcom/google/firebase/firestore/core/i;->a:Ljava/util/TreeMap;
 
     invoke-virtual {v1, v0, p1}, Ljava/util/TreeMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -236,7 +213,6 @@
 
     const-string v0, "Unsupported combination of changes %s after %s"
 
-    .line 22
     invoke-static {v0, p1}, Lcom/google/firebase/firestore/util/b;->a(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/AssertionError;
 
     move-result-object p1
@@ -255,7 +231,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/core/i;->a:Ljava/util/TreeMap;

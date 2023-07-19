@@ -47,22 +47,18 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/commsource/camera/d1/g/j;->d:I
 
-    .line 3
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/d1/g/j;->e:Landroid/util/SparseArray;
 
-    .line 4
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
@@ -81,19 +77,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/d1/g/j;->c()Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
@@ -103,7 +96,6 @@
 
     const/4 v3, 0x0
 
-    .line 4
     :goto_0
     iget-object v4, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
@@ -113,7 +105,6 @@
 
     if-ge v3, v4, :cond_2
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/d1/g/j;->c()Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-result-object v4
@@ -124,20 +115,17 @@
 
     iget-object v4, v4, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
-    .line 6
     array-length v5, v4
 
     new-array v5, v5, [Landroid/graphics/PointF;
 
     const/4 v6, 0x0
 
-    .line 7
     :goto_1
     array-length v7, v4
 
     if-ge v6, v7, :cond_1
 
-    .line 8
     new-instance v7, Landroid/graphics/PointF;
 
     aget-object v8, v4, v6
@@ -160,7 +148,6 @@
 
     iget v9, v9, Landroid/graphics/PointF;->y:F
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/camera/d1/g/j;->c()Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-result-object v10
@@ -181,7 +168,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_1
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -189,7 +175,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-static {v1}, Lcom/meitu/beautypluseffecttools/MTOSFacialRegionHide;->checkTeethOcclusion(Ljava/util/ArrayList;)[Z
 
@@ -197,7 +182,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/d1/g/j;->h:[Z
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -210,12 +194,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->a:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
     move-result-object v1
@@ -224,7 +206,6 @@
 
     invoke-virtual {v1, v2, p1, p2, p3}, Lcom/commsource/camera/f1/d;->h(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;IIZ)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -238,7 +219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->a:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -253,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->a:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     if-eqz v1, :cond_0
@@ -262,20 +241,17 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     array-length v1, v1
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
@@ -287,7 +263,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -300,7 +275,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -315,12 +289,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/core/types/FaceData;->getDetectHeight()I
 
     move-result v1
@@ -329,13 +301,11 @@
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->a:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, v1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     iget v1, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->height:I
@@ -347,7 +317,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -360,24 +329,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->g:Lcom/meitu/core/face/InterPoint;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/core/face/InterPoint;
 
     invoke-direct {v1}, Lcom/meitu/core/face/InterPoint;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/camera/d1/g/j;->g:Lcom/meitu/core/face/InterPoint;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
     invoke-virtual {v1, v2}, Lcom/meitu/core/face/InterPoint;->run(Lcom/meitu/core/types/FaceData;)Z
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->g:Lcom/meitu/core/face/InterPoint;
 
@@ -393,7 +358,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/d1/g/j;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -408,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->c:Ljava/util/List;
 
     if-eqz v1, :cond_2
@@ -423,7 +386,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget v1, p0, Lcom/commsource/camera/d1/g/j;->d:I
 
@@ -439,7 +401,6 @@
 
     if-ltz v1, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/d1/g/j;->c:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -452,7 +413,6 @@
 
     return-object v1
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
@@ -460,7 +420,6 @@
 
     return-object v1
 
-    .line 5
     :cond_2
     :goto_0
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
@@ -477,19 +436,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/face/InterPoint;
 
     invoke-direct {v1}, Lcom/meitu/core/face/InterPoint;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/d1/g/j;->i()Lcom/meitu/core/types/FaceData;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/meitu/core/face/InterPoint;->run(Lcom/meitu/core/types/FaceData;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -502,14 +458,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->h:[Z
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_2
 
-    .line 2
     array-length v3, v1
 
     const/4 v4, 0x0
@@ -531,7 +485,6 @@
     :cond_1
     move v2, v4
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -545,7 +498,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->h:[Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -560,7 +512,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->e:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -581,7 +532,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->f:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -602,12 +552,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/core/types/FaceData;->getDetectWidth()I
 
     move-result v1
@@ -616,13 +564,11 @@
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->a:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, v1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     iget v1, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->width:I
@@ -634,7 +580,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -647,7 +592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->c:Ljava/util/List;
 
     if-eqz v1, :cond_0
@@ -672,10 +616,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/d1/g/j;->a:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -688,10 +630,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -706,12 +646,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->a:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
@@ -729,7 +667,6 @@
 
     if-nez v1, :cond_2
 
-    .line 3
     :cond_1
     iget-object p2, p0, Lcom/commsource/camera/d1/g/j;->a:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
@@ -737,13 +674,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
     if-eqz v1, :cond_4
 
-    .line 5
     iget v1, p0, Lcom/commsource/camera/d1/g/j;->d:I
 
     if-ltz v1, :cond_3
@@ -774,7 +709,6 @@
 
     if-nez p2, :cond_3
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/camera/d1/g/j;->c:Ljava/util/List;
 
     iget v1, p0, Lcom/commsource/camera/d1/g/j;->d:I
@@ -789,7 +723,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     iget-object p2, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
@@ -797,11 +730,9 @@
 
     goto :goto_0
 
-    .line 8
     :cond_4
     invoke-virtual {p1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;->reset()V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -817,7 +748,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -825,15 +755,12 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p1, v1}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->setFaceCount(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->a:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     iget v3, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->width:I
@@ -844,16 +771,13 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/g0/f;->b(Lcom/meitu/core/types/FaceData;Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;)V
 
-    .line 7
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -870,32 +794,26 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/core/MTRtEffectFaceData;->clear()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->a:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {p1, v1}, Lcom/commsource/beautyplus/g0/h;->b(Lcom/meitu/core/MTRtEffectFaceData;Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
     if-eqz v1, :cond_3
 
-    .line 6
     iget v1, p0, Lcom/commsource/camera/d1/g/j;->d:I
 
     if-ltz v1, :cond_2
@@ -926,30 +844,25 @@
 
     if-eqz p2, :cond_2
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/camera/d1/g/j;->c:Ljava/util/List;
 
     iget v1, p0, Lcom/commsource/camera/d1/g/j;->d:I
 
-    .line 8
     invoke-interface {p2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Lcom/meitu/core/types/FaceData;
 
-    .line 9
     invoke-static {p1, p2}, Lcom/commsource/beautyplus/g0/h;->c(Lcom/meitu/core/MTRtEffectFaceData;Lcom/meitu/core/types/FaceData;)V
 
     goto :goto_0
 
-    .line 10
     :cond_2
     iget-object p2, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
     invoke-static {p1, p2}, Lcom/commsource/beautyplus/g0/h;->c(Lcom/meitu/core/MTRtEffectFaceData;Lcom/meitu/core/types/FaceData;)V
 
-    .line 11
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -964,10 +877,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/d1/g/j;->d:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -980,19 +891,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/d1/g/j;->p()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->e:Landroid/util/SparseArray;
 
@@ -1000,14 +908,12 @@
 
     invoke-virtual {v1, v2, p1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/d1/g/j;->f:Landroid/util/SparseArray;
 
     iget v1, p0, Lcom/commsource/camera/d1/g/j;->d:I
 
     invoke-virtual {p1, v1, p2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1020,17 +926,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/util/LinkedList;
 
@@ -1042,7 +945,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     iget-object v3, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
 
@@ -1052,7 +954,6 @@
 
     if-ge v2, v3, :cond_1
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/camera/d1/g/j;->c:Ljava/util/List;
 
     iget-object v4, p0, Lcom/commsource/camera/d1/g/j;->b:Lcom/meitu/core/types/FaceData;
@@ -1073,7 +974,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

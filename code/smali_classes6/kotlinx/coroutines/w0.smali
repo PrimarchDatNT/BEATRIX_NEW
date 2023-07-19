@@ -116,21 +116,18 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcotlinx/coroutines/z0;-><init>(I)V
 
     iput-object p1, p0, Lcotlinx/coroutines/w0;->p:Lcotlinx/coroutines/CoroutineDispatcher;
 
     iput-object p2, p0, Lcotlinx/coroutines/w0;->J:Lcotlin/coroutines/c;
 
-    .line 2
     invoke-static {}, Lcotlinx/coroutines/x0;->c()Lcotlinx/coroutines/internal/c0;
 
     move-result-object p1
 
     iput-object p1, p0, Lcotlinx/coroutines/w0;->d:Ljava/lang/Object;
 
-    .line 3
     instance-of p1, p2, Lcotlin/coroutines/jvm/internal/c;
 
     const/4 v0, 0x0
@@ -144,7 +141,6 @@
 
     iput-object p2, p0, Lcotlinx/coroutines/w0;->f:Lcotlin/coroutines/jvm/internal/c;
 
-    .line 4
     invoke-virtual {p0}, Lcotlinx/coroutines/w0;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object p1
@@ -155,7 +151,6 @@
 
     iput-object p1, p0, Lcotlinx/coroutines/w0;->g:Ljava/lang/Object;
 
-    .line 5
     iput-object v0, p0, Lcotlinx/coroutines/w0;->_reusableCancellableContinuation:Ljava/lang/Object;
 
     return-void
@@ -190,7 +185,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/w0;->f:Lcotlin/coroutines/jvm/internal/c;
 
     return-object v0
@@ -225,10 +219,8 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/w0;->d:Ljava/lang/Object;
 
-    .line 2
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v1
@@ -260,7 +252,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     :goto_1
     invoke-static {}, Lcotlinx/coroutines/x0;->c()Lcotlinx/coroutines/internal/c0;
@@ -290,18 +281,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcotlinx/coroutines/w0;->_reusableCancellableContinuation:Ljava/lang/Object;
 
-    .line 2
     sget-object v1, Lcotlinx/coroutines/x0;->b:Lcotlinx/coroutines/internal/c0;
 
     const/4 v2, 0x0
 
     if-ne v0, v1, :cond_1
 
-    .line 3
     sget-object v0, Lcotlinx/coroutines/w0;->K:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v0, p0, v1, p1}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -317,13 +305,11 @@
 
     return-object v2
 
-    .line 4
     :cond_2
     instance-of p1, v0, Ljava/lang/Throwable;
 
     if-eqz p1, :cond_4
 
-    .line 5
     sget-object p1, Lcotlinx/coroutines/w0;->K:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {p1, p0, v0, v2}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -332,12 +318,10 @@
 
     if-eqz p1, :cond_3
 
-    .line 6
     check-cast v0, Ljava/lang/Throwable;
 
     return-object v0
 
-    .line 7
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -351,7 +335,6 @@
 
     throw p1
 
-    .line 8
     :cond_4
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -391,13 +374,11 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcotlinx/coroutines/w0;->_reusableCancellableContinuation:Ljava/lang/Object;
 
     if-nez v0, :cond_1
 
-    .line 2
     sget-object v0, Lcotlinx/coroutines/x0;->b:Lcotlinx/coroutines/internal/c0;
 
     iput-object v0, p0, Lcotlinx/coroutines/w0;->_reusableCancellableContinuation:Ljava/lang/Object;
@@ -406,13 +387,11 @@
 
     return-object v0
 
-    .line 3
     :cond_1
     instance-of v1, v0, Lcotlinx/coroutines/n;
 
     if-eqz v1, :cond_2
 
-    .line 4
     sget-object v1, Lcotlinx/coroutines/w0;->K:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     sget-object v2, Lcotlinx/coroutines/x0;->b:Lcotlinx/coroutines/internal/c0;
@@ -423,12 +402,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     check-cast v0, Lcotlinx/coroutines/n;
 
     return-object v0
 
-    .line 6
     :cond_2
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -469,15 +446,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p2, p0, Lcotlinx/coroutines/w0;->d:Ljava/lang/Object;
 
     const/4 p2, 0x1
 
-    .line 2
     iput p2, p0, Lcotlinx/coroutines/z0;->c:I
 
-    .line 3
     iget-object p2, p0, Lcotlinx/coroutines/w0;->p:Lcotlinx/coroutines/CoroutineDispatcher;
 
     invoke-virtual {p2, p1, p0}, Lcotlinx/coroutines/CoroutineDispatcher;->v(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
@@ -498,7 +472,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/w0;->_reusableCancellableContinuation:Ljava/lang/Object;
 
     instance-of v1, v0, Lcotlinx/coroutines/n;
@@ -527,14 +500,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/w0;->_reusableCancellableContinuation:Ljava/lang/Object;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_2
 
-    .line 2
     instance-of v2, v0, Lcotlinx/coroutines/n;
 
     const/4 v3, 0x1
@@ -562,11 +533,9 @@
         .end annotation
     .end param
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcotlinx/coroutines/w0;->_reusableCancellableContinuation:Ljava/lang/Object;
 
-    .line 2
     sget-object v1, Lcotlinx/coroutines/x0;->b:Lcotlinx/coroutines/internal/c0;
 
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -577,7 +546,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     sget-object v0, Lcotlinx/coroutines/w0;->K:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v0, p0, v1, p1}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -588,7 +556,6 @@
 
     return v3
 
-    .line 4
     :cond_1
     instance-of v1, v0, Ljava/lang/Throwable;
 
@@ -596,7 +563,6 @@
 
     return v3
 
-    .line 5
     :cond_2
     sget-object v1, Lcotlinx/coroutines/w0;->K:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
@@ -620,19 +586,16 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/w0;->J:Lcotlin/coroutines/c;
 
     invoke-interface {v0}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
 
-    .line 2
     invoke-static {p1}, Lcotlinx/coroutines/a0;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcotlinx/coroutines/w0;->p:Lcotlinx/coroutines/CoroutineDispatcher;
 
     invoke-virtual {v2, v0}, Lcotlinx/coroutines/CoroutineDispatcher;->w(Lcotlin/coroutines/CoroutineContext;)Z
@@ -643,20 +606,16 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     iput-object v1, p0, Lcotlinx/coroutines/w0;->d:Ljava/lang/Object;
 
-    .line 5
     iput v3, p0, Lcotlinx/coroutines/z0;->c:I
 
-    .line 6
     iget-object p1, p0, Lcotlinx/coroutines/w0;->p:Lcotlinx/coroutines/CoroutineDispatcher;
 
     invoke-virtual {p1, v0, p0}, Lcotlinx/coroutines/CoroutineDispatcher;->u(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
 
     goto :goto_1
 
-    .line 7
     :cond_0
     sget-object v0, Lcotlinx/coroutines/i3;->b:Lcotlinx/coroutines/i3;
 
@@ -664,20 +623,16 @@
 
     move-result-object v0
 
-    .line 8
     invoke-virtual {v0}, Lcotlinx/coroutines/j1;->N()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 9
     iput-object v1, p0, Lcotlinx/coroutines/w0;->d:Ljava/lang/Object;
 
-    .line 10
     iput v3, p0, Lcotlinx/coroutines/z0;->c:I
 
-    .line 11
     invoke-virtual {v0, p0}, Lcotlinx/coroutines/j1;->G(Lcotlinx/coroutines/z0;)V
 
     goto :goto_1
@@ -685,10 +640,8 @@
     :cond_1
     const/4 v1, 0x1
 
-    .line 12
     invoke-virtual {v0, v1}, Lcotlinx/coroutines/j1;->K(Z)V
 
-    .line 13
     :try_start_0
     invoke-virtual {p0}, Lcotlinx/coroutines/w0;->getContext()Lcotlin/coroutines/CoroutineContext;
 
@@ -696,29 +649,24 @@
 
     iget-object v3, p0, Lcotlinx/coroutines/w0;->g:Ljava/lang/Object;
 
-    .line 14
     invoke-static {v2, v3}, Lcotlinx/coroutines/internal/ThreadContextKt;->c(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 15
     :try_start_1
     iget-object v4, p0, Lcotlinx/coroutines/w0;->J:Lcotlin/coroutines/c;
 
     invoke-interface {v4, p1}, Lcotlin/coroutines/c;->resumeWith(Ljava/lang/Object;)V
 
-    .line 16
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 17
     :try_start_2
     invoke-static {v2, v3}, Lcotlinx/coroutines/internal/ThreadContextKt;->a(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)V
 
-    .line 18
     :cond_2
     invoke-virtual {v0}, Lcotlinx/coroutines/j1;->Q()Z
 
@@ -731,7 +679,6 @@
     :catchall_0
     move-exception p1
 
-    .line 19
     invoke-static {v2, v3}, Lcotlinx/coroutines/internal/ThreadContextKt;->a(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)V
 
     throw p1
@@ -743,13 +690,11 @@
 
     const/4 v2, 0x0
 
-    .line 20
     :try_start_3
     invoke-virtual {p0, p1, v2}, Lcotlinx/coroutines/z0;->j(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
-    .line 21
     :goto_0
     invoke-virtual {v0, v1}, Lcotlinx/coroutines/j1;->A(Z)V
 
@@ -771,12 +716,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcotlinx/coroutines/a0;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcotlinx/coroutines/w0;->p:Lcotlinx/coroutines/CoroutineDispatcher;
 
     invoke-virtual {p0}, Lcotlinx/coroutines/w0;->getContext()Lcotlin/coroutines/CoroutineContext;
@@ -791,13 +734,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iput-object v0, p0, Lcotlinx/coroutines/w0;->d:Ljava/lang/Object;
 
-    .line 4
     iput v2, p0, Lcotlinx/coroutines/z0;->c:I
 
-    .line 5
     iget-object p1, p0, Lcotlinx/coroutines/w0;->p:Lcotlinx/coroutines/CoroutineDispatcher;
 
     invoke-virtual {p0}, Lcotlinx/coroutines/w0;->getContext()Lcotlin/coroutines/CoroutineContext;
@@ -808,7 +748,6 @@
 
     goto/16 :goto_3
 
-    .line 6
     :cond_0
     sget-object v1, Lcotlinx/coroutines/i3;->b:Lcotlinx/coroutines/i3;
 
@@ -816,29 +755,23 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Lcotlinx/coroutines/j1;->N()Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 8
     iput-object v0, p0, Lcotlinx/coroutines/w0;->d:Ljava/lang/Object;
 
-    .line 9
     iput v2, p0, Lcotlinx/coroutines/z0;->c:I
 
-    .line 10
     invoke-virtual {v1, p0}, Lcotlinx/coroutines/j1;->G(Lcotlinx/coroutines/z0;)V
 
     goto :goto_3
 
-    .line 11
     :cond_1
     invoke-virtual {v1, v2}, Lcotlinx/coroutines/j1;->K(Z)V
 
-    .line 12
     :try_start_0
     invoke-virtual {p0}, Lcotlinx/coroutines/w0;->getContext()Lcotlin/coroutines/CoroutineContext;
 
@@ -854,14 +787,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 13
     invoke-interface {v0}, Lcotlinx/coroutines/c2;->isActive()Z
 
     move-result v3
 
     if-nez v3, :cond_2
 
-    .line 14
     invoke-interface {v0}, Lcotlinx/coroutines/c2;->p()Ljava/util/concurrent/CancellationException;
 
     move-result-object v0
@@ -888,27 +819,23 @@
     :goto_0
     if-nez v0, :cond_3
 
-    .line 15
     invoke-virtual {p0}, Lcotlinx/coroutines/w0;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
 
     iget-object v3, p0, Lcotlinx/coroutines/w0;->g:Ljava/lang/Object;
 
-    .line 16
     invoke-static {v0, v3}, Lcotlinx/coroutines/internal/ThreadContextKt;->c(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 17
     :try_start_1
     iget-object v4, p0, Lcotlinx/coroutines/w0;->J:Lcotlin/coroutines/c;
 
     invoke-interface {v4, p1}, Lcotlin/coroutines/c;->resumeWith(Ljava/lang/Object;)V
 
-    .line 18
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -916,7 +843,6 @@
     :try_start_2
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 19
     invoke-static {v0, v3}, Lcotlinx/coroutines/internal/ThreadContextKt;->a(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)V
 
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -934,7 +860,6 @@
 
     throw p1
 
-    .line 20
     :cond_3
     :goto_1
     invoke-virtual {v1}, Lcotlinx/coroutines/j1;->Q()Z
@@ -945,7 +870,6 @@
 
     if-nez p1, :cond_3
 
-    .line 21
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->d(I)V
 
     goto :goto_2
@@ -955,7 +879,6 @@
 
     const/4 v0, 0x0
 
-    .line 22
     :try_start_3
     invoke-virtual {p0, p1, v0}, Lcotlinx/coroutines/z0;->j(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
     :try_end_3
@@ -963,7 +886,6 @@
 
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 23
     :goto_2
     invoke-virtual {v1, v2}, Lcotlinx/coroutines/j1;->A(Z)V
 
@@ -975,10 +897,8 @@
     :catchall_2
     move-exception p1
 
-    .line 24
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 25
     invoke-virtual {v1, v2}, Lcotlinx/coroutines/j1;->A(Z)V
 
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -991,7 +911,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1030,7 +949,6 @@
 .method public final v()Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/w0;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
@@ -1045,14 +963,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcotlinx/coroutines/c2;->isActive()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-interface {v0}, Lcotlinx/coroutines/c2;->p()Ljava/util/concurrent/CancellationException;
 
     move-result-object v0
@@ -1086,34 +1002,29 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/w0;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
 
     iget-object v1, p0, Lcotlinx/coroutines/w0;->g:Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0, v1}, Lcotlinx/coroutines/internal/ThreadContextKt;->c(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    .line 3
     :try_start_0
     iget-object v3, p0, Lcotlinx/coroutines/w0;->J:Lcotlin/coroutines/c;
 
     invoke-interface {v3, p1}, Lcotlin/coroutines/c;->resumeWith(Ljava/lang/Object;)V
 
-    .line 4
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {v0, v1}, Lcotlinx/coroutines/internal/ThreadContextKt;->a(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)V
 
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->c(I)V

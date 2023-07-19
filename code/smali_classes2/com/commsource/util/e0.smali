@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,18 +23,15 @@
 
     const-string v2, "N/A"
 
-    .line 1
     :try_start_0
     new-instance v3, Ljava/io/FileReader;
 
     invoke-direct {v3, v1}, Ljava/io/FileReader;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Ljava/io/BufferedReader;
 
     invoke-direct {v1, v3}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -45,7 +41,6 @@
 
     const-string v5, "Hardware"
 
-    .line 4
     invoke-virtual {v4, v5}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -54,7 +49,6 @@
 
     const-string v5, ":"
 
-    .line 5
     invoke-virtual {v4, v5}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v4
@@ -63,16 +57,13 @@
 
     aget-object v2, v4, v5
 
-    .line 6
     :cond_1
     invoke-virtual {v3}, Ljava/io/FileReader;->close()V
 
-    .line 7
     invoke-virtual {v1}, Ljava/io/BufferedReader;->close()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 8
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -88,7 +79,6 @@
 
     const-string v1, "N/A"
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/io/FileReader;
 
@@ -96,25 +86,20 @@
 
     invoke-direct {v2, v3}, Ljava/io/FileReader;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance v3, Ljava/io/BufferedReader;
 
     invoke-direct {v3, v2}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 
-    .line 3
     invoke-virtual {v3}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 4
     invoke-virtual {v4}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v2}, Ljava/io/FileReader;->close()V
 
-    .line 6
     invoke-virtual {v3}, Ljava/io/BufferedReader;->close()V
     :try_end_0
     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_1
@@ -125,7 +110,6 @@
     :catch_0
     move-exception v2
 
-    .line 7
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_0
@@ -133,10 +117,8 @@
     :catch_1
     move-exception v2
 
-    .line 8
     invoke-virtual {v2}, Ljava/io/FileNotFoundException;->printStackTrace()V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -150,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/e0;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -161,7 +142,6 @@
 
     move-result v1
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/e0;->e()Ljava/lang/String;
 
     move-result-object v2
@@ -190,22 +170,18 @@
 
     div-float/2addr v1, v2
 
-    .line 3
     invoke-static {}, Ljava/text/NumberFormat;->getNumberInstance()Ljava/text/NumberFormat;
 
     move-result-object v2
 
     const/4 v3, 0x2
 
-    .line 4
     invoke-virtual {v2, v3}, Ljava/text/NumberFormat;->setMaximumFractionDigits(I)V
 
-    .line 5
     sget-object v3, Ljava/math/RoundingMode;->HALF_UP:Ljava/math/RoundingMode;
 
     invoke-virtual {v2, v3}, Ljava/text/NumberFormat;->setRoundingMode(Ljava/math/RoundingMode;)V
 
-    .line 6
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -238,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v1
@@ -247,7 +222,6 @@
 
     move-result-wide v1
 
-    .line 2
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v3
@@ -256,22 +230,18 @@
 
     move-result-wide v3
 
-    .line 3
     invoke-static {}, Ljava/text/NumberFormat;->getNumberInstance()Ljava/text/NumberFormat;
 
     move-result-object v5
 
     const/4 v6, 0x2
 
-    .line 4
     invoke-virtual {v5, v6}, Ljava/text/NumberFormat;->setMaximumFractionDigits(I)V
 
-    .line 5
     sget-object v6, Ljava/math/RoundingMode;->HALF_UP:Ljava/math/RoundingMode;
 
     invoke-virtual {v5, v6}, Ljava/text/NumberFormat;->setRoundingMode(Ljava/math/RoundingMode;)V
 
-    .line 6
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -319,22 +289,18 @@
 
     const-string v2, "/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq"
 
-    .line 1
     filled-new-array {v1, v2}, [Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/lang/ProcessBuilder;
 
     invoke-direct {v2, v1}, Ljava/lang/ProcessBuilder;-><init>([Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v2}, Ljava/lang/ProcessBuilder;->start()Ljava/lang/Process;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
 
     move-result-object v1
@@ -347,7 +313,6 @@
 
     const-string v3, ""
 
-    .line 5
     :goto_0
     :try_start_1
     invoke-virtual {v1, v2}, Ljava/io/InputStream;->read([B)I
@@ -358,7 +323,6 @@
 
     if-eq v4, v5, :cond_0
 
-    .line 6
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -377,7 +341,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-virtual {v1}, Ljava/io/InputStream;->close()V
     :try_end_1
@@ -388,12 +351,10 @@
     :catch_0
     move-exception v1
 
-    .line 8
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     const-string v3, "N/A"
 
-    .line 9
     :goto_1
     invoke-virtual {v3}, Ljava/lang/String;->trim()Ljava/lang/String;
 
@@ -416,22 +377,18 @@
 
     const-string v2, "/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_min_freq"
 
-    .line 1
     filled-new-array {v1, v2}, [Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/lang/ProcessBuilder;
 
     invoke-direct {v2, v1}, Ljava/lang/ProcessBuilder;-><init>([Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v2}, Ljava/lang/ProcessBuilder;->start()Ljava/lang/Process;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
 
     move-result-object v1
@@ -444,7 +401,6 @@
 
     const-string v3, ""
 
-    .line 5
     :goto_0
     :try_start_1
     invoke-virtual {v1, v2}, Ljava/io/InputStream;->read([B)I
@@ -455,7 +411,6 @@
 
     if-eq v4, v5, :cond_0
 
-    .line 6
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -474,7 +429,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-virtual {v1}, Ljava/io/InputStream;->close()V
     :try_end_1
@@ -485,12 +439,10 @@
     :catch_0
     move-exception v1
 
-    .line 8
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     const-string v3, "N/A"
 
-    .line 9
     :goto_1
     invoke-virtual {v3}, Ljava/lang/String;->trim()Ljava/lang/String;
 

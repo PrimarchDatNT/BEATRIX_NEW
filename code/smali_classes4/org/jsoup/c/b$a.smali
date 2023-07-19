@@ -18,7 +18,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/jsoup/c/b$e;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -27,7 +26,6 @@
 .method static a(Ljava/lang/String;)Lorg/jsoup/c/b$a;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/jsoup/c/b$a;
 
     invoke-direct {v0, p0}, Lorg/jsoup/c/b$a;-><init>(Ljava/lang/String;)V

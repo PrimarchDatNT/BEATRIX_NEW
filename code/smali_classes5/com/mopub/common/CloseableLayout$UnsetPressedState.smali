@@ -25,7 +25,6 @@
 .method private constructor <init>(Lcom/mopub/common/CloseableLayout;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/CloseableLayout$UnsetPressedState;->this$0:Lcom/mopub/common/CloseableLayout;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/mopub/common/CloseableLayout;Lcom/mopub/common/CloseableLayout$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/mopub/common/CloseableLayout$UnsetPressedState;-><init>(Lcom/mopub/common/CloseableLayout;)V
 
     return-void
@@ -47,7 +45,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/CloseableLayout$UnsetPressedState;->this$0:Lcom/mopub/common/CloseableLayout;
 
     invoke-static {v0}, Lcom/mopub/common/CloseableLayout;->access$100(Lcom/mopub/common/CloseableLayout;)Landroid/widget/ImageButton;
@@ -56,7 +53,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/CloseableLayout$UnsetPressedState;->this$0:Lcom/mopub/common/CloseableLayout;
 
     invoke-static {v0}, Lcom/mopub/common/CloseableLayout;->access$100(Lcom/mopub/common/CloseableLayout;)Landroid/widget/ImageButton;

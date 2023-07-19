@@ -21,14 +21,12 @@
 .method constructor <init>(Lcom/meitu/library/gid/base/u;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/library/gid/base/u;->t()Lcom/meitu/library/gid/base/l0/a;
 
     move-result-object v0
 
     invoke-direct {p0, v0}, Lcom/meitu/library/gid/base/s0/a;-><init>(Lcom/meitu/library/gid/base/l0/a;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/library/gid/base/u;->k()Lcom/meitu/library/gid/base/l0/a;
 
     move-result-object p1
@@ -49,15 +47,12 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/meitu/library/gid/base/s0/a;->e()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/gid/base/s0/b;->A:Lcom/meitu/library/gid/base/l0/a;
 
     if-eqz v2, :cond_0
 
-    .line 3
     :try_start_0
     new-instance v3, Lorg/json/JSONObject;
 
@@ -69,12 +64,10 @@
 
     const-string v4, "PREFS_VERSION"
 
-    .line 4
     invoke-virtual {v3, v4}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
 
     move-result-wide v4
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/library/gid/base/s0/a;->getVersion()J
 
     move-result-wide v6
@@ -83,14 +76,12 @@
 
     if-lez v8, :cond_0
 
-    .line 6
     new-instance v4, Ljava/util/HashSet;
 
     const/4 v5, 0x1
 
     invoke-direct {v4, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 7
     sget-object v6, Lcom/meitu/library/gid/base/s0/c;->f:Lcom/meitu/library/gid/base/s0/c;
 
     iget-object v6, v6, Lcom/meitu/library/gid/base/s0/c;->a:Ljava/lang/String;
@@ -99,7 +90,6 @@
 
     const/4 v6, 0x0
 
-    .line 8
     invoke-virtual {p0, v3, v5, v6, v4}, Lcom/meitu/library/gid/base/s0/a;->k(Lorg/json/JSONObject;ZZLjava/util/Set;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_1
@@ -107,7 +97,6 @@
 
     goto :goto_0
 
-    .line 9
     :catch_0
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -131,7 +120,6 @@
 
     goto :goto_0
 
-    .line 10
     :catch_1
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -153,7 +141,6 @@
 
     invoke-static {v0, v2}, Lcom/meitu/library/gid/base/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     :cond_0
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -168,15 +155,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/meitu/library/gid/base/s0/a;->l()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/gid/base/s0/b;->A:Lcom/meitu/library/gid/base/l0/a;
 
     if-eqz v1, :cond_0
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lcom/meitu/library/gid/base/s0/a;->w:Lcom/meitu/library/gid/base/l0/a;
 
@@ -186,7 +170,6 @@
 
     goto :goto_0
 
-    .line 4
     :catch_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -210,7 +193,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/gid/base/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

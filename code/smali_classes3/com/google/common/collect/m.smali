@@ -12,7 +12,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -53,7 +51,6 @@
 
     throw p1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -85,7 +82,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -123,7 +119,6 @@
 
     return-wide p0
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -155,7 +150,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -185,7 +179,6 @@
 
     const-string v0, "no calls to next() since the last call to remove()"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
     return-void

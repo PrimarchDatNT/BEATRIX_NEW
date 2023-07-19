@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/m;Z[Lcom/meitu/library/analytics/sdk/content/Switcher;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/m$a;->c:Lcom/meitu/library/analytics/m;
 
     iput-boolean p2, p0, Lcom/meitu/library/analytics/m$a;->a:Z
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/m$a;->c:Lcom/meitu/library/analytics/m;
 
     iget-object v1, v1, Lcom/meitu/library/analytics/a;->a:Lcom/meitu/library/analytics/sdk/content/f;
@@ -61,7 +59,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/analytics/sdk/content/f;->t0(Z[Lcom/meitu/library/analytics/sdk/content/Switcher;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

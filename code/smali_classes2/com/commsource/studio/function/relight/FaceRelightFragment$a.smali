@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     move-result v1
@@ -94,7 +93,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/relight/FaceRelightFragment$a;->a:Lcom/commsource/studio/function/relight/FaceRelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/relight/FaceRelightFragment;->z(Lcom/commsource/studio/function/relight/FaceRelightFragment;)Lcom/commsource/studio/function/relight/g;
@@ -119,7 +117,6 @@
 
     check-cast p1, Lcom/commsource/studio/function/relight/d;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/relight/FaceRelightFragment$a;->a:Lcom/commsource/studio/function/relight/FaceRelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/relight/FaceRelightFragment;->x(Lcom/commsource/studio/function/relight/FaceRelightFragment;)Lcom/commsource/beautyplus/f0/ea;
@@ -140,7 +137,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/function/relight/ColorSeekBar;->j(IZ)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/relight/FaceRelightFragment$a;->a:Lcom/commsource/studio/function/relight/FaceRelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/relight/FaceRelightFragment;->x(Lcom/commsource/studio/function/relight/FaceRelightFragment;)Lcom/commsource/beautyplus/f0/ea;
@@ -159,7 +155,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/XSeekBar;->t(IZ)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/relight/FaceRelightFragment$a;->a:Lcom/commsource/studio/function/relight/FaceRelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/relight/FaceRelightFragment;->x(Lcom/commsource/studio/function/relight/FaceRelightFragment;)Lcom/commsource/beautyplus/f0/ea;
@@ -178,7 +173,6 @@
 
     invoke-virtual {v1, p1, v3}, Lcom/commsource/widget/XSeekBar;->t(IZ)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -192,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/relight/FaceRelightFragment$a;->a(Ljava/lang/Integer;)V

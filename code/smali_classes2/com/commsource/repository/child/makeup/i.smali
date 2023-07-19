@@ -69,7 +69,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -84,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/repository/child/makeup/i;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -99,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/repository/child/makeup/i;->e:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/makeup/i;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/makeup/i;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -150,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/makeup/i;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -165,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/repository/child/makeup/i;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -180,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/repository/child/makeup/i;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -195,7 +187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/repository/child/makeup/i;->g:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -210,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/repository/child/makeup/i;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -225,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/repository/child/makeup/i;->e:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -244,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/repository/child/makeup/i;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -263,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/repository/child/makeup/i;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -278,7 +265,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/repository/child/makeup/i;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -293,7 +279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/repository/child/makeup/i;->g:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -312,7 +297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/repository/child/makeup/i;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -327,7 +311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/repository/child/makeup/i;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -344,12 +327,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/repository/child/makeup/h;
 
     invoke-direct {v1}, Lcom/commsource/repository/child/makeup/h;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/repository/child/makeup/i;->a:Ljava/lang/String;
 
     if-eqz v2, :cond_0
@@ -362,42 +343,34 @@
     :goto_0
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/repository/child/makeup/i;->b:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->s0(Ljava/lang/String;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/repository/child/makeup/i;->c:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->w0(Ljava/lang/String;)V
 
-    .line 5
     iget v2, p0, Lcom/commsource/repository/child/makeup/i;->d:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->k0(I)V
 
-    .line 6
     iget v2, p0, Lcom/commsource/repository/child/makeup/i;->h:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->A0(I)V
 
-    .line 7
     iget v2, p0, Lcom/commsource/repository/child/makeup/i;->f:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->x0(I)V
 
-    .line 8
     iget-wide v2, p0, Lcom/commsource/repository/child/makeup/i;->g:J
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/repository/child/makeup/h;->y0(J)V
 
-    .line 9
     iget-wide v2, p0, Lcom/commsource/repository/child/makeup/i;->e:J
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/repository/child/makeup/h;->q0(J)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

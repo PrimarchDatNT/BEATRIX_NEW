@@ -51,7 +51,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Ljava/util/concurrent/Executors;->newCachedThreadPool()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -64,27 +63,20 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lorg/greenrobot/eventbus/e;->a:Z
 
-    .line 3
     iput-boolean v0, p0, Lorg/greenrobot/eventbus/e;->b:Z
 
-    .line 4
     iput-boolean v0, p0, Lorg/greenrobot/eventbus/e;->c:Z
 
-    .line 5
     iput-boolean v0, p0, Lorg/greenrobot/eventbus/e;->d:Z
 
-    .line 6
     iput-boolean v0, p0, Lorg/greenrobot/eventbus/e;->f:Z
 
-    .line 7
     sget-object v0, Lorg/greenrobot/eventbus/e;->l:Ljava/util/concurrent/ExecutorService;
 
     iput-object v0, p0, Lorg/greenrobot/eventbus/e;->i:Ljava/util/concurrent/ExecutorService;
@@ -97,19 +89,16 @@
 .method public a(Lorg/greenrobot/eventbus/o/d;)Lorg/greenrobot/eventbus/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/eventbus/e;->k:Ljava/util/List;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lorg/greenrobot/eventbus/e;->k:Ljava/util/List;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/greenrobot/eventbus/e;->k:Ljava/util/List;
 
@@ -121,7 +110,6 @@
 .method public b()Lorg/greenrobot/eventbus/c;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/greenrobot/eventbus/c;
 
     invoke-direct {v0, p0}, Lorg/greenrobot/eventbus/c;-><init>(Lorg/greenrobot/eventbus/e;)V
@@ -132,7 +120,6 @@
 .method public c(Z)Lorg/greenrobot/eventbus/e;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/greenrobot/eventbus/e;->f:Z
 
     return-object p0
@@ -141,7 +128,6 @@
 .method public d(Ljava/util/concurrent/ExecutorService;)Lorg/greenrobot/eventbus/e;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/greenrobot/eventbus/e;->i:Ljava/util/concurrent/ExecutorService;
 
     return-object p0
@@ -150,7 +136,6 @@
 .method public e(Z)Lorg/greenrobot/eventbus/e;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/greenrobot/eventbus/e;->g:Z
 
     return-object p0
@@ -159,32 +144,27 @@
 .method public f()Lorg/greenrobot/eventbus/c;
     .locals 3
 
-    .line 1
     const-class v0, Lorg/greenrobot/eventbus/c;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lorg/greenrobot/eventbus/c;->r:Lorg/greenrobot/eventbus/c;
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lorg/greenrobot/eventbus/e;->b()Lorg/greenrobot/eventbus/c;
 
     move-result-object v1
 
     sput-object v1, Lorg/greenrobot/eventbus/c;->r:Lorg/greenrobot/eventbus/c;
 
-    .line 4
     sget-object v1, Lorg/greenrobot/eventbus/c;->r:Lorg/greenrobot/eventbus/c;
 
     monitor-exit v0
 
     return-object v1
 
-    .line 5
     :cond_0
     new-instance v1, Lorg/greenrobot/eventbus/EventBusException;
 
@@ -197,7 +177,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -208,7 +187,6 @@
 .method public g(Z)Lorg/greenrobot/eventbus/e;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/greenrobot/eventbus/e;->b:Z
 
     return-object p0
@@ -217,7 +195,6 @@
 .method public h(Z)Lorg/greenrobot/eventbus/e;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/greenrobot/eventbus/e;->a:Z
 
     return-object p0
@@ -226,7 +203,6 @@
 .method public i(Z)Lorg/greenrobot/eventbus/e;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/greenrobot/eventbus/e;->d:Z
 
     return-object p0
@@ -235,7 +211,6 @@
 .method public j(Z)Lorg/greenrobot/eventbus/e;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/greenrobot/eventbus/e;->c:Z
 
     return-object p0
@@ -252,19 +227,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/eventbus/e;->j:Ljava/util/List;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lorg/greenrobot/eventbus/e;->j:Ljava/util/List;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/greenrobot/eventbus/e;->j:Ljava/util/List;
 
@@ -276,7 +248,6 @@
 .method public l(Z)Lorg/greenrobot/eventbus/e;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/greenrobot/eventbus/e;->h:Z
 
     return-object p0
@@ -285,7 +256,6 @@
 .method public m(Z)Lorg/greenrobot/eventbus/e;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/greenrobot/eventbus/e;->e:Z
 
     return-object p0

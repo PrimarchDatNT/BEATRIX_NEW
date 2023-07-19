@@ -99,7 +99,6 @@
 
     invoke-static {p10, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->id:Ljava/lang/String;
@@ -300,7 +299,6 @@
 
     long-to-int p2, p1
 
-    .line 1
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -571,12 +569,10 @@
 
     if-ne p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p1, Lcom/commsource/studio/function/background/BackgroundTexture;
 
@@ -612,7 +608,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->alpha:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -629,7 +624,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->blackBlend:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -646,7 +640,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->blend:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -671,12 +664,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -688,7 +679,6 @@
 
     ushr-int/lit8 v2, v2, 0x10
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result v3
@@ -699,7 +689,6 @@
 
     ushr-int/lit8 v3, v3, 0x8
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result v4
@@ -730,7 +719,6 @@
 
     const/4 v3, -0x1
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result v4
@@ -746,7 +734,6 @@
     :cond_1
     const/high16 v3, -0x1000000
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -768,7 +755,6 @@
 
     if-lez p1, :cond_3
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->lightBlend:Ljava/lang/String;
 
     goto :goto_0
@@ -782,19 +768,16 @@
 
     if-gez p1, :cond_4
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->darkBlend:Ljava/lang/String;
 
     goto :goto_0
 
-    .line 9
     :cond_4
     iget-object v3, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->blend:Ljava/lang/String;
 
     :goto_0
     if-nez v3, :cond_5
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->blend:Ljava/lang/String;
 
     :cond_5
@@ -802,7 +785,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_6
     invoke-virtual {v3}, Ljava/lang/String;->hashCode()I
 
@@ -815,7 +797,6 @@
     :sswitch_0
     const-string p1, "multiply"
 
-    .line 12
     invoke-virtual {v3, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -829,7 +810,6 @@
     :sswitch_1
     const-string p1, "screen"
 
-    .line 13
     invoke-virtual {v3, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -843,7 +823,6 @@
     :sswitch_2
     const-string p1, "overlay"
 
-    .line 14
     invoke-virtual {v3, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -864,7 +843,6 @@
     :goto_1
     sget-object v1, Landroid/graphics/PorterDuff$Mode;->OVERLAY:Landroid/graphics/PorterDuff$Mode;
 
-    .line 15
     :cond_7
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -891,7 +869,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->darkBlend:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -908,7 +885,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -925,7 +901,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->lightBlend:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -942,7 +917,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->path:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -959,7 +933,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->whiteBlend:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1142,7 +1115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->isInternal:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1157,7 +1129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/background/BackgroundTexture;->isPaid:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

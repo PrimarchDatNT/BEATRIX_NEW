@@ -32,7 +32,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/f;
 
     invoke-direct {v0}, Lcom/airbnb/lottie/model/f;-><init>()V
@@ -47,10 +46,8 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroidx/collection/LruCache;
 
     const/16 v1, 0x14
@@ -65,7 +62,6 @@
 .method public static c()Lcom/airbnb/lottie/model/f;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/model/f;->b:Lcom/airbnb/lottie/model/f;
 
     return-object v0
@@ -76,7 +72,6 @@
 .method public a()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/f;->a:Landroidx/collection/LruCache;
 
     invoke-virtual {v0}, Landroidx/collection/LruCache;->evictAll()V
@@ -99,7 +94,6 @@
 
     return-object p1
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/model/f;->a:Landroidx/collection/LruCache;
 
@@ -123,7 +117,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/model/f;->a:Landroidx/collection/LruCache;
 
@@ -135,7 +128,6 @@
 .method public e(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/f;->a:Landroidx/collection/LruCache;
 
     invoke-virtual {v0, p1}, Landroidx/collection/LruCache;->resize(I)V

@@ -48,7 +48,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Ldagger/internal/j;
 
     const/4 v1, 0x0
@@ -68,10 +67,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Ldagger/internal/j;->a:Ljava/lang/Object;
 
     return-void
@@ -89,7 +86,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ldagger/internal/j;
 
     const-string v1, "instance cannot be null"
@@ -117,14 +113,12 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {}, Ldagger/internal/j;->c()Ldagger/internal/j;
 
     move-result-object p0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Ldagger/internal/j;
 
@@ -148,7 +142,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Ldagger/internal/j;->b:Ldagger/internal/j;
 
     return-object v0
@@ -164,7 +157,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ldagger/internal/j;->a:Ljava/lang/Object;
 
     return-object v0

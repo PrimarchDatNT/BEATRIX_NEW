@@ -25,10 +25,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/n5;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/o5;->a:Lcom/google/android/gms/internal/ads/n5;
 
     return-void
@@ -51,7 +49,6 @@
 
     const-string p1, "name"
 
-    .line 1
     invoke-interface {p2, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -62,12 +59,10 @@
 
     const-string p1, "App event with no name parameter."
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/o5;->a:Lcom/google/android/gms/internal/ads/n5;
 

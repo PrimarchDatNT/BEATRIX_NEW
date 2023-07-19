@@ -57,19 +57,16 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     move-result p1
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$f$a;
 
     invoke-direct {v1, p1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$f$a;-><init>(ILcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$f;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->j(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -83,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$f;->a(Ljava/lang/Integer;)V

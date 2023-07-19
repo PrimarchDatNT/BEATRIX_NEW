@@ -66,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroidx/core/util/Pools$SynchronizedPool;
 
     const/16 v2, 0x64
@@ -83,17 +82,14 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroidx/collection/ArrayMap;
 
     invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;->d:Landroidx/collection/ArrayMap;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -110,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;->g:Landroidx/core/util/Pools$SynchronizedPool;
 
     invoke-virtual {v1}, Landroidx/core/util/Pools$SynchronizedPool;->acquire()Ljava/lang/Object;
@@ -121,16 +116,13 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;
 
     invoke-direct {v1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;-><init>()V
 
-    .line 3
     :cond_0
     iput-object p0, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;->a:Landroid/view/View;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -147,25 +139,20 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;->a:Landroid/view/View;
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;->d:Landroidx/collection/ArrayMap;
 
     invoke-virtual {v1}, Landroidx/collection/SimpleArrayMap;->clear()V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;->e:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->clear()V
 
-    .line 4
     sget-object v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;->g:Landroidx/core/util/Pools$SynchronizedPool;
 
     invoke-virtual {v1, p0}, Landroidx/core/util/Pools$SynchronizedPool;->release(Ljava/lang/Object;)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -178,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

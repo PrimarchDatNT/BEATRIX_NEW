@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/setting/about/AboutActivity;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/about/AboutActivity$d;->g:Lcom/commsource/beautyplus/setting/about/AboutActivity;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -37,7 +36,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/about/AboutActivity$d;->g:Lcom/commsource/beautyplus/setting/about/AboutActivity;
 
     invoke-static {v1}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
@@ -46,7 +44,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -54,20 +51,17 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/about/AboutActivity$d;->g:Lcom/commsource/beautyplus/setting/about/AboutActivity;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/setting/about/AboutActivity;->M0(Lcom/commsource/beautyplus/setting/about/AboutActivity;)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/about/AboutActivity$d;->g:Lcom/commsource/beautyplus/setting/about/AboutActivity;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/setting/about/AboutActivity;->N0(Lcom/commsource/beautyplus/setting/about/AboutActivity;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -85,7 +79,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -111,7 +104,6 @@
 
     invoke-static {v0, v2}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -136,7 +128,6 @@
 
     invoke-static {v0, v2}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/iid/FirebaseInstanceId;->e()Lcom/google/firebase/iid/FirebaseInstanceId;
 
     move-result-object v0
@@ -152,25 +143,21 @@
     :catch_0
     move-exception v0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0
 
-    .line 5
     :goto_0
     iget-object v2, p0, Lcom/commsource/beautyplus/setting/about/AboutActivity$d;->g:Lcom/commsource/beautyplus/setting/about/AboutActivity;
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/BaseActivity;->r0()V
 
-    .line 6
     new-instance v2, Lcom/commsource/beautyplus/setting/about/a;
 
     invoke-direct {v2, p0, v0}, Lcom/commsource/beautyplus/setting/about/a;-><init>(Lcom/commsource/beautyplus/setting/about/AboutActivity$d;Z)V
 
     invoke-static {v2}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

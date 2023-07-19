@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView$a;->g:Lcom/commsource/studio/layer/ContrastLayer$ContrastView;
 
     iput-object p2, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView$a;->p:Landroid/content/Context;
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView$a;->p:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -69,12 +67,10 @@
 
     const/4 v3, 0x0
 
-    .line 2
     invoke-static {v1, v2, v3}, Lcom/meitu/library/p/e/a;->Y(Landroid/graphics/Bitmap;FZ)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView$a;->g:Lcom/commsource/studio/layer/ContrastLayer$ContrastView;
 
     new-instance v3, Landroid/graphics/BitmapShader;
@@ -85,7 +81,6 @@
 
     invoke-static {v2, v3}, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->e(Lcom/commsource/studio/layer/ContrastLayer$ContrastView;Landroid/graphics/BitmapShader;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView$a;->g:Lcom/commsource/studio/layer/ContrastLayer$ContrastView;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->d(Lcom/commsource/studio/layer/ContrastLayer$ContrastView;)Landroid/graphics/Paint;
@@ -100,7 +95,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

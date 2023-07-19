@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/sdk/imp/InterstitialActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/InterstitialActivity$c;->a:Lcom/sdk/imp/InterstitialActivity;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
@@ -35,7 +34,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/InterstitialActivity$c$a;
 
     invoke-direct {v0, p0}, Lcom/sdk/imp/InterstitialActivity$c$a;-><init>(Lcom/sdk/imp/InterstitialActivity$c;)V

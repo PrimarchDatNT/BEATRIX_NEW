@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/common/VideoCacheService;
 
     invoke-direct {v0}, Lcom/mopub/common/VideoCacheService;-><init>()V
@@ -32,7 +31,6 @@
 
     const-string v0, "mopub-video-cache"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/mopub/common/CacheService;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -49,7 +47,6 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/VideoCacheService;->INSTANCE:Lcom/mopub/common/VideoCacheService;
 
     invoke-virtual {v0}, Lcom/mopub/common/CacheService;->clearAndNullCache()V
@@ -69,7 +66,6 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/VideoCacheService;->INSTANCE:Lcom/mopub/common/VideoCacheService;
 
     invoke-virtual {v0, p0}, Lcom/mopub/common/CacheService;->containsKeyDiskCache(Ljava/lang/String;)Z
@@ -94,7 +90,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/VideoCacheService;->INSTANCE:Lcom/mopub/common/VideoCacheService;
 
     invoke-virtual {v0, p0}, Lcom/mopub/common/CacheService;->getFromDiskCache(Ljava/lang/String;)[B
@@ -119,7 +114,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/VideoCacheService;->INSTANCE:Lcom/mopub/common/VideoCacheService;
 
     invoke-virtual {v0, p0}, Lcom/mopub/common/CacheService;->getFilePathDiskCache(Ljava/lang/String;)Ljava/lang/String;
@@ -140,7 +134,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/VideoCacheService;->INSTANCE:Lcom/mopub/common/VideoCacheService;
 
     invoke-virtual {v0}, Lcom/mopub/common/CacheService;->getDiskLruCache()Lcom/mopub/common/DiskLruCache;
@@ -162,7 +155,6 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/VideoCacheService;->INSTANCE:Lcom/mopub/common/VideoCacheService;
 
     invoke-virtual {v0, p0}, Lcom/mopub/common/CacheService;->initializeDiskCache(Landroid/content/Context;)Z
@@ -188,7 +180,6 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/VideoCacheService;->INSTANCE:Lcom/mopub/common/VideoCacheService;
 
     invoke-virtual {v0, p0, p1}, Lcom/mopub/common/CacheService;->putToDiskCache(Ljava/lang/String;Ljava/io/InputStream;)Z
@@ -214,7 +205,6 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .line 2
     sget-object v0, Lcom/mopub/common/VideoCacheService;->INSTANCE:Lcom/mopub/common/VideoCacheService;
 
     invoke-virtual {v0, p0, p1}, Lcom/mopub/common/CacheService;->putToDiskCache(Ljava/lang/String;[B)Z

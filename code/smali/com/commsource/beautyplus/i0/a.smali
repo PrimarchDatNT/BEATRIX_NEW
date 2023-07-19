@@ -16,10 +16,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/e;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/e;-><init>(Landroidx/fragment/app/Fragment;)V
@@ -38,7 +36,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/e;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/e;->d()Z
@@ -57,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -72,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -85,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -98,13 +92,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 4
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onAttach(Landroid/app/Activity;)V
 
-    .line 5
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/i0/a;->r(Landroid/content/Context;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -117,13 +108,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onAttach(Landroid/content/Context;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/i0/a;->r(Landroid/content/Context;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -136,15 +124,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onHiddenChanged(Z)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/i0/a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/e;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/e;->e()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -157,15 +142,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onPause()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/e;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/e;->f()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -178,15 +160,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onResume()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/e;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/e;->g()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -199,7 +178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     check-cast v1, Landroidx/fragment/app/FragmentActivity;
@@ -216,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     if-nez v1, :cond_0
@@ -227,12 +204,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast p1, Landroid/app/Activity;
 
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -246,15 +221,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->setUserVisibleHint(Z)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/i0/a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/e;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/e;->h()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

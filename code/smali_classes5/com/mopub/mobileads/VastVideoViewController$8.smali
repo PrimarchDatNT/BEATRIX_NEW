@@ -41,7 +41,6 @@
 
     const-string p1, "event"
 
-    .line 1
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
@@ -84,27 +83,22 @@
     :goto_1
     if-nez p1, :cond_4
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/mobileads/VastVideoViewController$8;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-static {p1}, Lcom/mopub/mobileads/VastVideoViewController;->access$getExternalViewabilitySessionManager$p(Lcom/mopub/mobileads/VastVideoViewController;)Lcom/mopub/common/ExternalViewabilitySessionManager;
 
     move-result-object p1
 
-    .line 3
     sget-object v0, Lcom/mopub/common/VideoEvent;->AD_CLICK_THRU:Lcom/mopub/common/VideoEvent;
 
-    .line 4
     iget-object v1, p0, Lcom/mopub/mobileads/VastVideoViewController$8;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastVideoViewController;->getCurrentPosition()I
 
     move-result v1
 
-    .line 5
     invoke-virtual {p1, v0, v1}, Lcom/mopub/common/ExternalViewabilitySessionManager;->recordVideoEvent(Lcom/mopub/common/VideoEvent;I)V
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/mobileads/VastVideoViewController$8;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastVideoViewController;->isComplete()Z
@@ -113,14 +107,12 @@
 
     invoke-virtual {p1, v0}, Lcom/mopub/mobileads/VastVideoViewController;->setClosing(Z)V
 
-    .line 7
     iget-object p1, p0, Lcom/mopub/mobileads/VastVideoViewController$8;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     const-string v0, "com.mopub.action.fullscreen.click"
 
     invoke-virtual {p1, v0}, Lcom/mopub/mobileads/BaseVideoViewController;->broadcastAction(Ljava/lang/String;)V
 
-    .line 8
     iget-object p1, p0, Lcom/mopub/mobileads/VastVideoViewController$8;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastVideoViewController;->getVastVideoConfig()Lcom/mopub/mobileads/VastVideoConfig;
@@ -133,7 +125,6 @@
 
     move-result-object v0
 
-    .line 9
     iget-object v1, p0, Lcom/mopub/mobileads/VastVideoViewController$8;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastVideoViewController;->getDuration()I
@@ -175,7 +166,6 @@
 
     move-result v1
 
-    .line 10
     :goto_3
     invoke-virtual {p1, v0, v1, p2}, Lcom/mopub/mobileads/VastVideoConfig;->handleClickForResult(Landroid/app/Activity;II)V
 

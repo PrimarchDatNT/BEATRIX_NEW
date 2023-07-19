@@ -43,12 +43,10 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lokhttp3/OkHttpClient;
 
     invoke-direct {v0}, Lokhttp3/OkHttpClient;-><init>()V
 
-    .line 2
     invoke-virtual {v0}, Lokhttp3/OkHttpClient;->newBuilder()Lokhttp3/OkHttpClient$Builder;
 
     move-result-object v0
@@ -57,12 +55,10 @@
 
     const-wide/16 v2, 0x2710
 
-    .line 3
     invoke-virtual {v0, v2, v3, v1}, Lokhttp3/OkHttpClient$Builder;->callTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
 
     move-result-object v0
@@ -86,24 +82,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/firebase/crashlytics/internal/network/a;->e:Lokhttp3/MultipartBody$Builder;
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/network/a;->a:Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
-    .line 4
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/network/a;->b:Ljava/lang/String;
 
-    .line 5
     iput-object p3, p0, Lcom/google/firebase/crashlytics/internal/network/a;->c:Ljava/util/Map;
 
-    .line 6
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
@@ -116,7 +106,6 @@
 .method private a()Lokhttp3/Request;
     .locals 5
 
-    .line 1
     new-instance v0, Lokhttp3/Request$Builder;
 
     invoke-direct {v0}, Lokhttp3/Request$Builder;-><init>()V
@@ -125,7 +114,6 @@
 
     invoke-direct {v1}, Lokhttp3/CacheControl$Builder;-><init>()V
 
-    .line 2
     invoke-virtual {v1}, Lokhttp3/CacheControl$Builder;->noCache()Lokhttp3/CacheControl$Builder;
 
     move-result-object v1
@@ -138,7 +126,6 @@
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/network/a;->b:Ljava/lang/String;
 
     invoke-static {v1}, Lokhttp3/HttpUrl;->parse(Ljava/lang/String;)Lokhttp3/HttpUrl;
@@ -149,7 +136,6 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lcom/google/firebase/crashlytics/internal/network/a;->c:Ljava/util/Map;
 
     invoke-interface {v2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -173,7 +159,6 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 5
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -192,7 +177,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v1}, Lokhttp3/HttpUrl$Builder;->build()Lokhttp3/HttpUrl;
 
@@ -202,7 +186,6 @@
 
     move-result-object v0
 
-    .line 7
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/network/a;->d:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -226,7 +209,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 8
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
@@ -245,7 +227,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/network/a;->e:Lokhttp3/MultipartBody$Builder;
 
@@ -260,7 +241,6 @@
 
     move-result-object v1
 
-    .line 10
     :goto_2
     iget-object v2, p0, Lcom/google/firebase/crashlytics/internal/network/a;->a:Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
@@ -272,7 +252,6 @@
 
     move-result-object v0
 
-    .line 11
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v0
@@ -283,12 +262,10 @@
 .method private c()Lokhttp3/MultipartBody$Builder;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/network/a;->e:Lokhttp3/MultipartBody$Builder;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
@@ -301,7 +278,6 @@
 
     iput-object v0, p0, Lcom/google/firebase/crashlytics/internal/network/a;->e:Lokhttp3/MultipartBody$Builder;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/network/a;->e:Lokhttp3/MultipartBody$Builder;
 
@@ -318,19 +294,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/network/a;->a()Lokhttp3/Request;
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lcom/google/firebase/crashlytics/internal/network/a;->f:Lokhttp3/OkHttpClient;
 
     invoke-virtual {v1, v0}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Lokhttp3/Call;->execute()Lokhttp3/Response;
 
     move-result-object v0
@@ -345,7 +318,6 @@
 .method public d(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/network/a;->d:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -366,7 +338,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v0
@@ -389,7 +360,6 @@
 .method public f()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/network/a;->a:Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->name()Ljava/lang/String;
@@ -402,7 +372,6 @@
 .method public g(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/network/a;->c()Lokhttp3/MultipartBody$Builder;
 
     move-result-object v0
@@ -419,17 +388,14 @@
 .method public h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Lcom/google/firebase/crashlytics/internal/network/a;
     .locals 0
 
-    .line 1
     invoke-static {p3}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object p3
 
-    .line 2
     invoke-static {p3, p4}, Lokhttp3/RequestBody;->create(Lokhttp3/MediaType;Ljava/io/File;)Lokhttp3/RequestBody;
 
     move-result-object p3
 
-    .line 3
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/network/a;->c()Lokhttp3/MultipartBody$Builder;
 
     move-result-object p4

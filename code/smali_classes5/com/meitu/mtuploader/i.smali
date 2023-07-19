@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
@@ -38,7 +36,6 @@
     :try_start_0
     const-string v2, "url"
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getUrl()Ljava/lang/String;
 
     move-result-object v3
@@ -47,7 +44,6 @@
 
     const-string v2, "connectTimeout"
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getConnectTimeout()I
 
     move-result v3
@@ -56,14 +52,12 @@
 
     const-string v2, "socketTimeout"
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getSocketTimeout()I
 
     move-result p0
 
     invoke-virtual {v1, v2, p0}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 5
     invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -77,7 +71,6 @@
     :catch_0
     move-exception p0
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -102,7 +95,6 @@
 
     const/4 p0, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -115,29 +107,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getUrl()Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "115.231.105.166"
 
-    .line 2
     filled-new-array {v2}, [Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Lf/n/a/b/d;
 
     invoke-direct {v3, v1, v2}, Lf/n/a/b/d;-><init>(Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getBackupUrl()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 5
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -148,7 +135,6 @@
 
     if-nez v2, :cond_0
 
-    .line 6
     new-instance v2, Lf/n/a/b/d;
 
     new-array v6, v5, [Ljava/lang/String;
@@ -160,23 +146,19 @@
     :cond_0
     move-object v2, v4
 
-    .line 7
     :goto_0
     new-instance v1, Lf/n/a/b/c;
 
     invoke-direct {v1, v3, v2}, Lf/n/a/b/c;-><init>(Lf/n/a/b/d;Lf/n/a/b/d;)V
 
-    .line 8
     invoke-static {}, Lcom/meitu/mtuploader/MtUploadService;->t()Lcom/meitu/mtuploader/GlobalConfig;
 
     move-result-object v2
 
-    .line 9
     invoke-virtual {v2}, Lcom/meitu/mtuploader/GlobalConfig;->getChunkedPutThreshold()I
 
     move-result v3
 
-    .line 10
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getChunkSize()I
 
     move-result v6
@@ -194,7 +176,6 @@
 
     move-result v6
 
-    .line 11
     :goto_1
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getConnectTimeout()I
 
@@ -213,7 +194,6 @@
 
     move-result v7
 
-    .line 12
     :goto_2
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getSocketTimeout()I
 
@@ -232,7 +212,6 @@
 
     move-result v8
 
-    .line 13
     :goto_3
     new-instance v9, Ljava/lang/StringBuilder;
 
@@ -268,7 +247,6 @@
 
     invoke-static {v10, v9}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -285,7 +263,6 @@
 
     invoke-static {v10, v9}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -302,14 +279,12 @@
 
     invoke-static {v10, v9}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getStatisticUploadBean()Lcom/meitu/mtuploader/s/a;
 
     move-result-object v9
 
     invoke-virtual {v9, v6}, Lcom/meitu/mtuploader/s/a;->m(I)V
 
-    .line 17
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getStatisticUploadBean()Lcom/meitu/mtuploader/s/a;
 
     move-result-object v9
@@ -320,7 +295,6 @@
 
     invoke-virtual {v9, v10}, Lcom/meitu/mtuploader/s/a;->n(Ljava/lang/String;)V
 
-    .line 18
     new-instance v9, Ljava/io/File;
 
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getFile()Ljava/lang/String;
@@ -329,7 +303,6 @@
 
     invoke-direct {v9, v10}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 19
     invoke-virtual {v9}, Ljava/io/File;->length()J
 
     move-result-wide v9
@@ -349,7 +322,6 @@
     :cond_4
     const/4 v9, 0x1
 
-    .line 20
     :goto_4
     invoke-virtual {p0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getStatisticUploadBean()Lcom/meitu/mtuploader/s/a;
 
@@ -357,19 +329,16 @@
 
     invoke-virtual {v10, v9}, Lcom/meitu/mtuploader/s/a;->r(I)V
 
-    .line 21
     invoke-virtual {v2}, Lcom/meitu/mtuploader/GlobalConfig;->isFastdnsEnabled()Z
 
     move-result v2
 
     if-eqz v2, :cond_5
 
-    .line 22
     new-instance v2, Lcom/meitu/mtuploader/c;
 
     invoke-direct {v2}, Lcom/meitu/mtuploader/c;-><init>()V
 
-    .line 23
     new-instance v4, Lcom/qiniu/android/dns/a;
 
     sget-object v9, Lcom/qiniu/android/dns/NetworkInfo;->l:Lcom/qiniu/android/dns/NetworkInfo;
@@ -380,7 +349,6 @@
 
     invoke-direct {v4, v9, v10}, Lcom/qiniu/android/dns/a;-><init>(Lcom/qiniu/android/dns/NetworkInfo;[Lcom/qiniu/android/dns/c;)V
 
-    .line 24
     :cond_5
     new-instance v2, Lf/n/a/c/a$b;
 
@@ -390,12 +358,10 @@
 
     move-result-object v2
 
-    .line 25
     invoke-virtual {v2, v6}, Lf/n/a/c/a$b;->m(I)Lf/n/a/c/a$b;
 
     move-result-object v2
 
-    .line 26
     invoke-static {}, Lcom/meitu/mtuploader/k;->e()Lf/n/a/c/e;
 
     move-result-object v3
@@ -406,37 +372,30 @@
 
     move-result-object v2
 
-    .line 27
     invoke-virtual {v2, v1}, Lf/n/a/c/a$b;->w(Lf/n/a/b/e;)Lf/n/a/c/a$b;
 
     move-result-object v1
 
-    .line 28
     invoke-virtual {v1, v5}, Lf/n/a/c/a$b;->u(I)Lf/n/a/c/a$b;
 
     move-result-object v1
 
-    .line 29
     invoke-virtual {v1, v4}, Lf/n/a/c/a$b;->o(Lcom/qiniu/android/dns/a;)Lf/n/a/c/a$b;
 
     move-result-object v1
 
-    .line 30
     invoke-virtual {v1, v7}, Lf/n/a/c/a$b;->n(I)Lf/n/a/c/a$b;
 
     move-result-object v1
 
-    .line 31
     invoke-virtual {v1, v8}, Lf/n/a/c/a$b;->t(I)Lf/n/a/c/a$b;
 
     move-result-object v1
 
-    .line 32
     invoke-virtual {v1}, Lf/n/a/c/a$b;->l()Lf/n/a/c/a;
 
     move-result-object v1
 
-    .line 33
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

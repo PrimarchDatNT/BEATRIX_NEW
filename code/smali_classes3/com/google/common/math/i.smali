@@ -27,28 +27,22 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/google/common/math/i;->a:J
 
     const-wide/16 v0, 0x0
 
-    .line 3
     iput-wide v0, p0, Lcom/google/common/math/i;->b:D
 
-    .line 4
     iput-wide v0, p0, Lcom/google/common/math/i;->c:D
 
     const-wide/high16 v0, 0x7ff8000000000000L    # Double.NaN
 
-    .line 5
     iput-wide v0, p0, Lcom/google/common/math/i;->d:D
 
-    .line 6
     iput-wide v0, p0, Lcom/google/common/math/i;->e:D
 
     return-void
@@ -57,7 +51,6 @@
 .method static i(DD)D
     .locals 1
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/primitives/Doubles;->n(D)Z
 
     move-result v0
@@ -66,7 +59,6 @@
 
     return-wide p2
 
-    .line 2
     :cond_0
     invoke-static {p2, p3}, Lcom/google/common/primitives/Doubles;->n(D)Z
 
@@ -103,7 +95,6 @@
 
     move-wide/from16 v9, p9
 
-    .line 1
     iget-wide v11, v0, Lcom/google/common/math/i;->a:J
 
     const-wide/16 v13, 0x0
@@ -112,19 +103,14 @@
 
     if-nez v15, :cond_0
 
-    .line 2
     iput-wide v1, v0, Lcom/google/common/math/i;->a:J
 
-    .line 3
     iput-wide v3, v0, Lcom/google/common/math/i;->b:D
 
-    .line 4
     iput-wide v5, v0, Lcom/google/common/math/i;->c:D
 
-    .line 5
     iput-wide v7, v0, Lcom/google/common/math/i;->d:D
 
-    .line 6
     iput-wide v9, v0, Lcom/google/common/math/i;->e:D
 
     goto :goto_1
@@ -132,10 +118,8 @@
     :cond_0
     add-long/2addr v11, v1
 
-    .line 7
     iput-wide v11, v0, Lcom/google/common/math/i;->a:J
 
-    .line 8
     iget-wide v11, v0, Lcom/google/common/math/i;->b:D
 
     invoke-static {v11, v12}, Lcom/google/common/primitives/Doubles;->n(D)Z
@@ -150,7 +134,6 @@
 
     if-eqz v11, :cond_1
 
-    .line 9
     iget-wide v11, v0, Lcom/google/common/math/i;->b:D
 
     sub-double v13, v3, v11
@@ -159,7 +142,6 @@
 
     mul-double v15, v13, v1
 
-    .line 10
     iget-wide v9, v0, Lcom/google/common/math/i;->a:J
 
     long-to-double v9, v9
@@ -170,7 +152,6 @@
 
     iput-wide v11, v0, Lcom/google/common/math/i;->b:D
 
-    .line 11
     iget-wide v9, v0, Lcom/google/common/math/i;->c:D
 
     sub-double/2addr v3, v11
@@ -187,7 +168,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_1
     iget-wide v1, v0, Lcom/google/common/math/i;->b:D
 
@@ -199,10 +179,8 @@
 
     const-wide/high16 v1, 0x7ff8000000000000L    # Double.NaN
 
-    .line 13
     iput-wide v1, v0, Lcom/google/common/math/i;->c:D
 
-    .line 14
     :goto_0
     iget-wide v1, v0, Lcom/google/common/math/i;->d:D
 
@@ -212,7 +190,6 @@
 
     iput-wide v1, v0, Lcom/google/common/math/i;->d:D
 
-    .line 15
     iget-wide v1, v0, Lcom/google/common/math/i;->e:D
 
     move-wide/from16 v3, p9
@@ -232,7 +209,6 @@
 .method public a(D)V
     .locals 9
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/i;->a:J
 
     const-wide/high16 v2, 0x7ff8000000000000L    # Double.NaN
@@ -245,26 +221,20 @@
 
     if-nez v8, :cond_0
 
-    .line 2
     iput-wide v4, p0, Lcom/google/common/math/i;->a:J
 
-    .line 3
     iput-wide p1, p0, Lcom/google/common/math/i;->b:D
 
-    .line 4
     iput-wide p1, p0, Lcom/google/common/math/i;->d:D
 
-    .line 5
     iput-wide p1, p0, Lcom/google/common/math/i;->e:D
 
-    .line 6
     invoke-static {p1, p2}, Lcom/google/common/primitives/Doubles;->n(D)Z
 
     move-result p1
 
     if-nez p1, :cond_2
 
-    .line 7
     iput-wide v2, p0, Lcom/google/common/math/i;->c:D
 
     goto :goto_1
@@ -272,10 +242,8 @@
     :cond_0
     add-long/2addr v0, v4
 
-    .line 8
     iput-wide v0, p0, Lcom/google/common/math/i;->a:J
 
-    .line 9
     invoke-static {p1, p2}, Lcom/google/common/primitives/Doubles;->n(D)Z
 
     move-result v0
@@ -290,12 +258,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 10
     iget-wide v0, p0, Lcom/google/common/math/i;->b:D
 
     sub-double v2, p1, v0
 
-    .line 11
     iget-wide v4, p0, Lcom/google/common/math/i;->a:J
 
     long-to-double v4, v4
@@ -306,7 +272,6 @@
 
     iput-wide v0, p0, Lcom/google/common/math/i;->b:D
 
-    .line 12
     iget-wide v4, p0, Lcom/google/common/math/i;->c:D
 
     sub-double v0, p1, v0
@@ -319,7 +284,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_1
     iget-wide v0, p0, Lcom/google/common/math/i;->b:D
 
@@ -329,10 +293,8 @@
 
     iput-wide v0, p0, Lcom/google/common/math/i;->b:D
 
-    .line 14
     iput-wide v2, p0, Lcom/google/common/math/i;->c:D
 
-    .line 15
     :goto_0
     iget-wide v0, p0, Lcom/google/common/math/i;->d:D
 
@@ -342,7 +304,6 @@
 
     iput-wide v0, p0, Lcom/google/common/math/i;->d:D
 
-    .line 16
     iget-wide v0, p0, Lcom/google/common/math/i;->e:D
 
     invoke-static {v0, v1, p1, p2}, Ljava/lang/Math;->max(DD)D
@@ -359,7 +320,6 @@
 .method public b(Lcom/google/common/math/Stats;)V
     .locals 16
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Lcom/google/common/math/Stats;->count()J
 
     move-result-wide v0
@@ -372,7 +332,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual/range {p1 .. p1}, Lcom/google/common/math/Stats;->count()J
 
@@ -404,7 +363,6 @@
 .method public c(Lcom/google/common/math/i;)V
     .locals 16
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Lcom/google/common/math/i;->j()J
 
     move-result-wide v0
@@ -417,7 +375,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual/range {p1 .. p1}, Lcom/google/common/math/i;->j()J
 
@@ -458,7 +415,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -476,7 +432,6 @@
 
     check-cast v0, Ljava/lang/Number;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Number;->doubleValue()D
 
     move-result-wide v0
@@ -501,7 +456,6 @@
         }
     .end annotation
 
-    .line 1
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -509,7 +463,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -531,7 +484,6 @@
 .method public varargs f([D)V
     .locals 4
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -541,7 +493,6 @@
 
     aget-wide v2, p1, v1
 
-    .line 2
     invoke-virtual {p0, v2, v3}, Lcom/google/common/math/i;->a(D)V
 
     add-int/lit8 v1, v1, 0x1
@@ -555,7 +506,6 @@
 .method public varargs g([I)V
     .locals 4
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -567,7 +517,6 @@
 
     int-to-double v2, v2
 
-    .line 2
     invoke-virtual {p0, v2, v3}, Lcom/google/common/math/i;->a(D)V
 
     add-int/lit8 v1, v1, 0x1
@@ -581,7 +530,6 @@
 .method public varargs h([J)V
     .locals 4
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -593,7 +541,6 @@
 
     long-to-double v2, v2
 
-    .line 2
     invoke-virtual {p0, v2, v3}, Lcom/google/common/math/i;->a(D)V
 
     add-int/lit8 v1, v1, 0x1
@@ -607,7 +554,6 @@
 .method public j()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/i;->a:J
 
     return-wide v0
@@ -616,7 +562,6 @@
 .method public k()D
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/i;->a:J
 
     const-wide/16 v2, 0x0
@@ -635,7 +580,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 2
     iget-wide v0, p0, Lcom/google/common/math/i;->e:D
 
     return-wide v0
@@ -644,7 +588,6 @@
 .method public l()D
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/i;->a:J
 
     const-wide/16 v2, 0x0
@@ -663,7 +606,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 2
     iget-wide v0, p0, Lcom/google/common/math/i;->b:D
 
     return-wide v0
@@ -672,7 +614,6 @@
 .method public n()D
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/i;->a:J
 
     const-wide/16 v2, 0x0
@@ -691,7 +632,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 2
     iget-wide v0, p0, Lcom/google/common/math/i;->d:D
 
     return-wide v0
@@ -700,7 +640,6 @@
 .method public final o()D
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/math/i;->p()D
 
     move-result-wide v0
@@ -715,7 +654,6 @@
 .method public final p()D
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/i;->a:J
 
     const-wide/16 v2, 0x0
@@ -734,7 +672,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 2
     iget-wide v0, p0, Lcom/google/common/math/i;->c:D
 
     invoke-static {v0, v1}, Ljava/lang/Double;->isNaN(D)Z
@@ -747,7 +684,6 @@
 
     return-wide v0
 
-    .line 3
     :cond_1
     iget-wide v0, p0, Lcom/google/common/math/i;->a:J
 
@@ -761,7 +697,6 @@
 
     return-wide v0
 
-    .line 4
     :cond_2
     iget-wide v0, p0, Lcom/google/common/math/i;->c:D
 
@@ -781,7 +716,6 @@
 .method public final q()D
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/math/i;->r()D
 
     move-result-wide v0
@@ -796,7 +730,6 @@
 .method public final r()D
     .locals 6
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/i;->a:J
 
     const-wide/16 v2, 0x1
@@ -815,7 +748,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 2
     iget-wide v0, p0, Lcom/google/common/math/i;->c:D
 
     invoke-static {v0, v1}, Ljava/lang/Double;->isNaN(D)Z
@@ -828,7 +760,6 @@
 
     return-wide v0
 
-    .line 3
     :cond_1
     iget-wide v0, p0, Lcom/google/common/math/i;->c:D
 
@@ -850,7 +781,6 @@
 .method public s()Lcom/google/common/math/Stats;
     .locals 12
 
-    .line 1
     new-instance v11, Lcom/google/common/math/Stats;
 
     iget-wide v1, p0, Lcom/google/common/math/i;->a:J
@@ -873,7 +803,6 @@
 .method public final t()D
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/i;->b:D
 
     iget-wide v2, p0, Lcom/google/common/math/i;->a:J
@@ -888,7 +817,6 @@
 .method u()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/i;->c:D
 
     return-wide v0

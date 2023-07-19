@@ -53,10 +53,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/Ordering;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/common/collect/ExplicitOrdering;->rankMap:Lcom/google/common/collect/ImmutableMap;
 
     return-void
@@ -72,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/collect/Maps;->Q(Ljava/util/Collection;)Lcom/google/common/collect/ImmutableMap;
 
     move-result-object p1
@@ -90,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ExplicitOrdering;->rankMap:Lcom/google/common/collect/ImmutableMap;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/ImmutableMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -101,14 +97,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
 
     return p1
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/common/collect/Ordering$IncomparableValueException;
 
@@ -127,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/ExplicitOrdering;->rank(Ljava/lang/Object;)I
 
     move-result p1
@@ -148,15 +141,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/collect/ExplicitOrdering;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/ExplicitOrdering;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/ExplicitOrdering;->rankMap:Lcom/google/common/collect/ImmutableMap;
 
     iget-object p1, p1, Lcom/google/common/collect/ExplicitOrdering;->rankMap:Lcom/google/common/collect/ImmutableMap;
@@ -176,7 +166,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ExplicitOrdering;->rankMap:Lcom/google/common/collect/ImmutableMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMap;->hashCode()I
@@ -189,7 +178,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

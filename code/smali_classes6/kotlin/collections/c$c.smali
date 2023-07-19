@@ -42,12 +42,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/c$c;->c:Lcotlin/collections/c;
 
     invoke-direct {p0, p1}, Lcotlin/collections/c$b;-><init>(Lcotlin/collections/c;)V
 
-    .line 2
     sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     invoke-virtual {p1}, Lcotlin/collections/AbstractCollection;->size()I
@@ -56,7 +54,6 @@
 
     invoke-virtual {v0, p2, p1}, Lcotlin/collections/c$a;->c(II)V
 
-    .line 3
     invoke-virtual {p0, p2}, Lcotlin/collections/c$b;->b(I)V
 
     return-void
@@ -84,7 +81,6 @@
 .method public hasPrevious()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/c$b;->a()I
 
     move-result v0
@@ -105,7 +101,6 @@
 .method public nextIndex()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/c$b;->a()I
 
     move-result v0
@@ -121,14 +116,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/c$c;->hasPrevious()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcotlin/collections/c$c;->c:Lcotlin/collections/c;
 
     invoke-virtual {p0}, Lcotlin/collections/c$b;->a()I
@@ -149,7 +142,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -161,7 +153,6 @@
 .method public previousIndex()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/c$b;->a()I
 
     move-result v0

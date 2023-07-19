@@ -39,12 +39,10 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lorg/json/JSONArray;
 
     invoke-direct {v1, p0}, Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance p0, Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Lorg/json/JSONArray;->length()I
@@ -53,7 +51,6 @@
 
     invoke-direct {p0, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     invoke-virtual {v1}, Lorg/json/JSONArray;->length()I
 
     move-result v2
@@ -63,14 +60,12 @@
     :goto_0
     if-ge v3, v2, :cond_5
 
-    .line 4
     invoke-virtual {v1, v3}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v4
 
     const-string v5, "brand"
 
-    .line 5
     invoke-virtual {v4, v5}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v5
@@ -91,7 +86,6 @@
     :goto_1
     const-string v5, "major"
 
-    .line 6
     invoke-virtual {v4, v5}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v5
@@ -110,7 +104,6 @@
     :goto_2
     const-string v5, "minor"
 
-    .line 7
     invoke-virtual {v4, v5}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v5
@@ -129,7 +122,6 @@
     :goto_3
     const-string v5, "level"
 
-    .line 8
     invoke-virtual {v4, v5}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v5
@@ -154,7 +146,6 @@
     :goto_4
     const-string v5, "cpu_product"
 
-    .line 9
     invoke-virtual {v4, v5}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v4
@@ -170,7 +161,6 @@
     :cond_4
     move-object v11, v6
 
-    .line 10
     :goto_5
     new-instance v4, Lcom/meitu/library/h/n/a;
 
@@ -184,7 +174,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -219,7 +208,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
@@ -228,7 +216,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
     move-result v2
@@ -238,7 +225,6 @@
     :goto_0
     if-ge v3, v2, :cond_0
 
-    .line 3
     invoke-virtual {p0, v3}, Lorg/json/JSONArray;->getString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -249,7 +235,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

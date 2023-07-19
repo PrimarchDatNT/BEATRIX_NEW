@@ -16,21 +16,16 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/firebase/auth/internal/v;->c:Z
 
-    .line 4
     iput v0, p0, Lcom/google/firebase/auth/internal/v;->a:I
 
-    .line 5
     iput-object p2, p0, Lcom/google/firebase/auth/internal/v;->b:Lcom/google/firebase/auth/internal/o0;
 
-    .line 6
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
@@ -39,7 +34,6 @@
 
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/c;->c(Landroid/app/Application;)V
 
-    .line 7
     invoke-static {}, Lcom/google/android/gms/common/api/internal/c;->b()Lcom/google/android/gms/common/api/internal/c;
 
     move-result-object p1
@@ -48,7 +42,6 @@
 
     invoke-direct {p2, p0}, Lcom/google/firebase/auth/internal/y;-><init>(Lcom/google/firebase/auth/internal/v;)V
 
-    .line 8
     invoke-virtual {p1, p2}, Lcom/google/android/gms/common/api/internal/c;->a(Lcom/google/android/gms/common/api/internal/c$a;)V
 
     return-void
@@ -57,7 +50,6 @@
 .method public constructor <init>(Lcom/google/firebase/d;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/d;->l()Landroid/content/Context;
 
     move-result-object v0
@@ -74,7 +66,6 @@
 .method static synthetic b(Lcom/google/firebase/auth/internal/v;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/firebase/auth/internal/v;->c:Z
 
     return p1
@@ -83,7 +74,6 @@
 .method static synthetic c(Lcom/google/firebase/auth/internal/v;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/auth/internal/v;->f()Z
 
     move-result p0
@@ -94,7 +84,6 @@
 .method static synthetic d(Lcom/google/firebase/auth/internal/v;)Lcom/google/firebase/auth/internal/o0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/auth/internal/v;->b:Lcom/google/firebase/auth/internal/o0;
 
     return-object p0
@@ -103,7 +92,6 @@
 .method private final f()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/auth/internal/v;->a:I
 
     if-lez v0, :cond_0
@@ -127,7 +115,6 @@
 .method public final a()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/v;->b:Lcom/google/firebase/auth/internal/o0;
 
     invoke-virtual {v0}, Lcom/google/firebase/auth/internal/o0;->a()V
@@ -142,7 +129,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzes;->y0()J
 
@@ -156,7 +142,6 @@
 
     const-wide/16 v0, 0xe10
 
-    .line 2
     :cond_1
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzes;->V()J
 
@@ -168,25 +153,20 @@
 
     add-long/2addr v2, v0
 
-    .line 3
     iget-object p1, p0, Lcom/google/firebase/auth/internal/v;->b:Lcom/google/firebase/auth/internal/o0;
 
-    .line 4
     iput-wide v2, p1, Lcom/google/firebase/auth/internal/o0;->b:J
 
     const-wide/16 v0, -0x1
 
-    .line 5
     iput-wide v0, p1, Lcom/google/firebase/auth/internal/o0;->c:J
 
-    .line 6
     invoke-direct {p0}, Lcom/google/firebase/auth/internal/v;->f()Z
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    .line 7
     iget-object p1, p0, Lcom/google/firebase/auth/internal/v;->b:Lcom/google/firebase/auth/internal/o0;
 
     invoke-virtual {p1}, Lcom/google/firebase/auth/internal/o0;->b()V
@@ -200,22 +180,18 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/auth/internal/v;->a:I
 
     if-nez v0, :cond_0
 
-    .line 2
     iput p1, p0, Lcom/google/firebase/auth/internal/v;->a:I
 
-    .line 3
     invoke-direct {p0}, Lcom/google/firebase/auth/internal/v;->f()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/auth/internal/v;->b:Lcom/google/firebase/auth/internal/o0;
 
     invoke-virtual {v0}, Lcom/google/firebase/auth/internal/o0;->b()V
@@ -225,17 +201,14 @@
     :cond_0
     if-nez p1, :cond_1
 
-    .line 5
     iget v0, p0, Lcom/google/firebase/auth/internal/v;->a:I
 
     if-eqz v0, :cond_1
 
-    .line 6
     iget-object v0, p0, Lcom/google/firebase/auth/internal/v;->b:Lcom/google/firebase/auth/internal/o0;
 
     invoke-virtual {v0}, Lcom/google/firebase/auth/internal/o0;->a()V
 
-    .line 7
     :cond_1
     :goto_0
     iput p1, p0, Lcom/google/firebase/auth/internal/v;->a:I

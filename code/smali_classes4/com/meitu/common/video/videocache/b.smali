@@ -16,10 +16,8 @@
 .method public constructor <init>([B)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/common/video/videocache/b;->a:[B
 
     return-void
@@ -39,7 +37,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/ByteArrayInputStream;
 
     iget-object v2, p0, Lcom/meitu/common/video/videocache/b;->a:[B
@@ -48,10 +45,8 @@
 
     iput-object v1, p0, Lcom/meitu/common/video/videocache/b;->b:Ljava/io/ByteArrayInputStream;
 
-    .line 2
     invoke-virtual {v1, p1, p2}, Ljava/io/ByteArrayInputStream;->skip(J)J
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -87,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/b;->a:[B
 
     array-length v1, v1
@@ -111,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/b;->b:Ljava/io/ByteArrayInputStream;
 
     array-length v2, p1

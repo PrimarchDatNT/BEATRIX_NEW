@@ -29,7 +29,6 @@
 
     const-string v1, "yyyy-MM-dd\'T\'HH:mmZZZZZ"
 
-    .line 1
     filled-new-array {v0, v1}, [Ljava/lang/String;
 
     move-result-object v0
@@ -42,7 +41,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -66,7 +64,6 @@
 
     if-gt p1, v0, :cond_0
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -83,7 +80,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -116,7 +112,6 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -206,7 +201,6 @@
 .method private parseDate(Ljava/lang/String;)Ljava/util/Date;
     .locals 7
 
-    .line 1
     sget-object v0, Lcom/mopub/mraid/MraidNativeCommandHandler;->DATE_FORMATS:[Ljava/lang/String;
 
     array-length v1, v0
@@ -220,7 +214,6 @@
 
     aget-object v4, v0, v3
 
-    .line 2
     :try_start_0
     new-instance v5, Ljava/text/SimpleDateFormat;
 
@@ -268,21 +261,18 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v1, "frequency"
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_8
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -291,7 +281,6 @@
 
     const-string v2, "interval"
 
-    .line 4
     invoke-interface {p1, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
@@ -300,7 +289,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -319,7 +307,6 @@
     :goto_0
     const-string v3, "daily"
 
-    .line 6
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -332,12 +319,10 @@
 
     const-string p1, "FREQ=DAILY;"
 
-    .line 7
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     if-eq v2, v4, :cond_8
 
-    .line 8
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -359,7 +344,6 @@
     :cond_1
     const-string v3, "weekly"
 
-    .line 9
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -368,12 +352,10 @@
 
     const-string v1, "FREQ=WEEKLY;"
 
-    .line 10
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     if-eq v2, v4, :cond_2
 
-    .line 11
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -393,14 +375,12 @@
     :cond_2
     const-string v1, "daysInWeek"
 
-    .line 12
     invoke-interface {p1, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_8
 
-    .line 13
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -413,7 +393,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 14
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -434,7 +413,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -447,7 +425,6 @@
     :cond_4
     const-string v3, "monthly"
 
-    .line 16
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -456,12 +433,10 @@
 
     const-string v1, "FREQ=MONTHLY;"
 
-    .line 17
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     if-eq v2, v4, :cond_5
 
-    .line 18
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -481,14 +456,12 @@
     :cond_5
     const-string v1, "daysInMonth"
 
-    .line 19
     invoke-interface {p1, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_8
 
-    .line 20
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -501,7 +474,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 21
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -522,7 +494,6 @@
 
     goto :goto_1
 
-    .line 22
     :cond_6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -530,7 +501,6 @@
 
     throw p1
 
-    .line 23
     :cond_7
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -540,7 +510,6 @@
 
     throw p1
 
-    .line 24
     :cond_8
     :goto_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -566,14 +535,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     const-string v1, "description"
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
@@ -588,7 +555,6 @@
 
     if-eqz v3, :cond_7
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -597,7 +563,6 @@
 
     invoke-interface {v0, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-interface {p1, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
@@ -610,7 +575,6 @@
 
     if-eqz v3, :cond_6
 
-    .line 5
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -623,7 +587,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 6
     invoke-virtual {v2}, Ljava/util/Date;->getTime()J
 
     move-result-wide v2
@@ -638,7 +601,6 @@
 
     const-string v2, "end"
 
-    .line 7
     invoke-interface {p1, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
@@ -651,7 +613,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 8
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -664,7 +625,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 9
     invoke-virtual {v2}, Ljava/util/Date;->getTime()J
 
     move-result-wide v2
@@ -679,7 +639,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -693,14 +652,12 @@
     :goto_0
     const-string v2, "location"
 
-    .line 11
     invoke-interface {p1, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    .line 12
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -712,14 +669,12 @@
     :cond_2
     const-string v2, "summary"
 
-    .line 13
     invoke-interface {p1, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-eqz v3, :cond_3
 
-    .line 14
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -729,14 +684,12 @@
     :cond_3
     const-string v1, "transparency"
 
-    .line 15
     invoke-interface {p1, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
-    .line 16
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -755,10 +708,8 @@
 
     const-string v2, "availability"
 
-    .line 17
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 18
     :cond_4
     invoke-direct {p0, p1}, Lcom/mopub/mraid/MraidNativeCommandHandler;->parseRecurrenceRule(Ljava/util/Map;)Ljava/lang/String;
 
@@ -770,7 +721,6 @@
 
     return-object v0
 
-    .line 19
     :cond_5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -780,7 +730,6 @@
 
     throw p1
 
-    .line 20
     :cond_6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -790,7 +739,6 @@
 
     throw p1
 
-    .line 21
     :cond_7
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -809,7 +757,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -820,12 +767,10 @@
 
     const-string v2, ","
 
-    .line 2
     invoke-virtual {p1, v2}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     array-length v3, p1
 
     const/4 v4, 0x0
@@ -837,19 +782,16 @@
 
     aget-object v6, p1, v4
 
-    .line 4
     invoke-static {v6}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v6
 
     add-int/lit8 v7, v6, 0x1f
 
-    .line 5
     aget-boolean v8, v1, v7
 
     if-nez v8, :cond_0
 
-    .line 6
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -868,7 +810,6 @@
 
     invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     aput-boolean v5, v1, v7
 
     :cond_0
@@ -876,13 +817,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     array-length p1, p1
 
     if-eqz p1, :cond_2
 
-    .line 9
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
     move-result p1
@@ -891,14 +830,12 @@
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->deleteCharAt(I)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 
-    .line 11
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -917,7 +854,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -928,12 +864,10 @@
 
     const-string v3, ","
 
-    .line 2
     invoke-virtual {p1, v3}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     array-length v4, p1
 
     const/4 v5, 0x0
@@ -947,7 +881,6 @@
 
     aget-object v8, p1, v6
 
-    .line 4
     invoke-static {v8}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v8
@@ -956,13 +889,11 @@
 
     const/4 v8, 0x0
 
-    .line 5
     :cond_0
     aget-boolean v9, v2, v8
 
     if-nez v9, :cond_1
 
-    .line 6
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -981,7 +912,6 @@
 
     invoke-virtual {v0, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     aput-boolean v7, v2, v8
 
     :cond_1
@@ -989,13 +919,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     array-length p1, p1
 
     if-eqz p1, :cond_3
 
-    .line 9
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
     move-result p1
@@ -1004,14 +932,12 @@
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->deleteCharAt(I)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 
-    .line 11
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1035,7 +961,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object p2
@@ -1046,7 +971,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 

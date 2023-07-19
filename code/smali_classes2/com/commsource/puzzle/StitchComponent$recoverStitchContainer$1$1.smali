@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/common/animutil/ObjAnim;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1$1;->invoke(Lcom/meitu/common/animutil/ObjAnim;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;
 
     iget-object v1, v1, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;->this$0:Lcom/commsource/puzzle/StitchComponent;
@@ -102,12 +100,10 @@
 
     aput v3, v2, v4
 
-    .line 3
     invoke-virtual {p1, v2}, Lcom/meitu/common/animutil/ObjAnim;->V([F)V
 
     new-array v1, v1, [F
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;
 
     iget-object v2, v2, Lcom/commsource/puzzle/StitchComponent$recoverStitchContainer$1;->$targetY:Lcotlin/jvm/internal/Ref$FloatRef;
@@ -118,7 +114,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/common/animutil/ObjAnim;->b0([F)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a$a;->b:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
     iput-object p2, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a$a;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;
@@ -46,7 +45,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a$a;->b:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->d:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;
@@ -77,7 +75,6 @@
 
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a$a;->b:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
-    .line 2
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
 
     move-result v0
@@ -98,7 +95,6 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a$a;->b:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->d:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;
@@ -127,7 +123,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;->S0(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;Lcom/meitu/countrylocation/LocationBean;)Lcom/meitu/countrylocation/LocationBean;
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a$a;->b:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->d:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;
@@ -140,7 +135,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a$a;->b:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->d:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;
@@ -157,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->setLocationCountryCode(Ljava/lang/String;)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a$a;->b:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->d:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;
@@ -174,7 +167,6 @@
 
     invoke-static {v0, v1}, Lf/d/l/b;->a(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a$a;->b:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->d:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;
@@ -187,7 +179,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/util/c0;->J(Landroid/content/Context;Lcom/meitu/countrylocation/LocationBean;)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a$a;->b:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->d:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;
@@ -198,7 +189,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/util/c0;->I(Landroid/content/Context;Lcom/meitu/countrylocation/Localizer$Type;)V
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a$a;->b:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->d:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;
@@ -209,14 +199,12 @@
 
     invoke-static {v0, v1}, Lf/d/i/e;->g4(Landroid/content/Context;Z)V
 
-    .line 10
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a$a;->b:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->d:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;
 
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
-    .line 11
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

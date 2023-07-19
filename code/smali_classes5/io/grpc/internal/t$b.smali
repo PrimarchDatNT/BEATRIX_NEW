@@ -31,14 +31,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/t$b;->d:Lio/grpc/internal/t;
 
     iput-object p2, p0, Lio/grpc/internal/t$b;->b:Lio/grpc/h$a;
 
     iput-object p3, p0, Lio/grpc/internal/t$b;->c:Lio/grpc/Status;
 
-    .line 2
     invoke-static {p1}, Lio/grpc/internal/t;->r(Lio/grpc/internal/t;)Lio/grpc/Context;
 
     move-result-object p1
@@ -53,7 +51,6 @@
 .method public a()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t$b;->d:Lio/grpc/internal/t;
 
     iget-object v1, p0, Lio/grpc/internal/t$b;->b:Lio/grpc/h$a;

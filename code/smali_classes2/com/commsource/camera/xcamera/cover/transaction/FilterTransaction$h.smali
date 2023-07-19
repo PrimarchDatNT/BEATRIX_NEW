@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$h;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;->B(Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -74,7 +73,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$h;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;->B(Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -102,7 +100,6 @@
 
     const/4 v7, 0x0
 
-    .line 3
     :goto_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$h;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
@@ -140,7 +137,6 @@
 
     invoke-static/range {v2 .. v9}, Lcom/commsource/camera/xcamera/cover/tips/a;->J(Lcom/commsource/camera/xcamera/cover/tips/a;Lcom/meitu/template/bean/Filter;Ljava/lang/String;JZILjava/lang/Object;)V
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -154,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$h;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;)V

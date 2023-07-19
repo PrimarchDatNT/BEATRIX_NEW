@@ -39,7 +39,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/mopub/mobileads/MoPubView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -48,10 +47,8 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 3
     sget-object v0, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->MATCH_VIEW:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     invoke-direct {p0, p1, p2, v0}, Lcom/mopub/mobileads/MoPubView;->getMoPubAdSizeFromAttributeSet(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/mopub/mobileads/MoPubView$MoPubAdSize;)Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
@@ -60,13 +57,10 @@
 
     iput-object p2, p0, Lcom/mopub/mobileads/MoPubView;->mMoPubAdSize:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
-    .line 4
     invoke-static {p1}, Lcom/mopub/common/util/ManifestUtils;->checkWebViewActivitiesDeclared(Landroid/content/Context;)V
 
-    .line 5
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubView;->mContext:Landroid/content/Context;
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getVisibility()I
 
     move-result p2
@@ -75,20 +69,16 @@
 
     const/4 p2, 0x0
 
-    .line 7
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->setHorizontalScrollBarEnabled(Z)V
 
-    .line 8
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->setVerticalScrollBarEnabled(Z)V
 
-    .line 9
     invoke-static {p1, p0}, Lcom/mopub/mobileads/factories/AdViewControllerFactory;->create(Landroid/content/Context;Lcom/mopub/mobileads/MoPubAd;)Lcom/mopub/mobileads/AdViewController;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/MoPubView;->setAdViewController(Lcom/mopub/mobileads/AdViewController;)V
 
-    .line 10
     invoke-direct {p0}, Lcom/mopub/mobileads/MoPubView;->registerScreenStateBroadcastReceiver()V
 
     return-void
@@ -97,7 +87,6 @@
 .method static synthetic access$000(Lcom/mopub/mobileads/MoPubView;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/mopub/mobileads/MoPubView;->mScreenVisibility:I
 
     return p0
@@ -106,7 +95,6 @@
 .method static synthetic access$100(Lcom/mopub/mobileads/MoPubView;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/MoPubView;->setAdVisibility(I)V
 
     return-void
@@ -115,7 +103,6 @@
 .method private getMoPubAdSizeFromAttributeSet(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/mopub/mobileads/MoPubView$MoPubAdSize;)Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
 
     move-result-object p1
@@ -128,21 +115,17 @@
 
     move-result-object p1
 
-    .line 2
     :try_start_0
     sget p2, Lcom/mopub/mobileads/base/R$styleable;->MoPubView_moPubAdSize:I
 
-    .line 3
     invoke-virtual {p3}, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->toInt()I
 
     move-result v0
 
-    .line 4
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getInteger(II)I
 
     move-result p2
 
-    .line 5
     invoke-static {p2}, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->valueOf(I)Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     move-result-object p3
@@ -150,7 +133,6 @@
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     :goto_0
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
@@ -164,7 +146,6 @@
     :catch_0
     move-exception p2
 
-    .line 7
     :try_start_1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -189,7 +170,6 @@
     :goto_1
     return-object p3
 
-    .line 8
     :goto_2
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
@@ -199,14 +179,12 @@
 .method private registerScreenStateBroadcastReceiver()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/MoPubView$1;
 
     invoke-direct {v0, p0}, Lcom/mopub/mobileads/MoPubView$1;-><init>(Lcom/mopub/mobileads/MoPubView;)V
 
     iput-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mScreenStateReceiver:Landroid/content/BroadcastReceiver;
 
-    .line 2
     new-instance v0, Landroid/content/IntentFilter;
 
     const-string v1, "android.intent.action.SCREEN_OFF"
@@ -215,10 +193,8 @@
 
     const-string v1, "android.intent.action.USER_PRESENT"
 
-    .line 3
     invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/mopub/mobileads/MoPubView;->mContext:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/mopub/mobileads/MoPubView;->mScreenStateReceiver:Landroid/content/BroadcastReceiver;
@@ -231,14 +207,12 @@
 .method private setAdVisibility(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/mopub/common/util/Visibility;->isScreenVisible(I)Z
 
@@ -246,14 +220,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdViewController;->resumeRefresh()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
@@ -266,7 +238,6 @@
 .method private unregisterScreenStateBroadcastReceiver()V
     .locals 4
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mContext:Landroid/content/Context;
 
@@ -278,7 +249,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -303,7 +273,6 @@
 .method public destroy()V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -318,23 +287,18 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/mobileads/MoPubView;->unregisterScreenStateBroadcastReceiver()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->removeAllViews()V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdViewController;->cleanup()V
 
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     :cond_0
@@ -344,12 +308,10 @@
 .method public forceRefresh()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdViewController;->forceRefresh()V
 
     :cond_0
@@ -359,7 +321,6 @@
 .method public getActivity()Landroid/app/Activity;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mContext:Landroid/content/Context;
 
     check-cast v0, Landroid/app/Activity;
@@ -372,7 +333,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/AdFormat;->BANNER:Lcom/mopub/common/AdFormat;
 
     return-object v0
@@ -391,7 +351,6 @@
 .method public getAdSize()Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mMoPubAdSize:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     return-object v0
@@ -410,7 +369,6 @@
 .method public getAdViewController()Lcom/mopub/mobileads/AdViewController;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     return-object v0
@@ -429,7 +387,6 @@
 .method public getAutorefreshEnabled()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
@@ -440,7 +397,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -462,7 +418,6 @@
 .method public getBannerAdListener()Lcom/mopub/mobileads/MoPubView$BannerAdListener;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mBannerAdListener:Lcom/mopub/mobileads/MoPubView$BannerAdListener;
 
     return-object v0
@@ -521,7 +476,6 @@
 .method public getTesting()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
@@ -532,7 +486,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -572,10 +525,8 @@
 .method public loadAd(Lcom/mopub/mobileads/MoPubView$MoPubAdSize;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/MoPubView;->setAdSize(Lcom/mopub/mobileads/MoPubView$MoPubAdSize;)V
 
-    .line 2
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->loadAd()V
 
     return-void
@@ -594,21 +545,17 @@
 .method public onAdClicked()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdViewController;->registerClick()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mBannerAdListener:Lcom/mopub/mobileads/MoPubView$BannerAdListener;
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-interface {v0, p0}, Lcom/mopub/mobileads/MoPubView$BannerAdListener;->onBannerClicked(Lcom/mopub/mobileads/MoPubView;)V
 
     :cond_1
@@ -618,21 +565,17 @@
 .method public onAdCollapsed()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdViewController;->dismissOverlay()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mBannerAdListener:Lcom/mopub/mobileads/MoPubView$BannerAdListener;
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-interface {v0, p0}, Lcom/mopub/mobileads/MoPubView$BannerAdListener;->onBannerCollapsed(Lcom/mopub/mobileads/MoPubView;)V
 
     :cond_1
@@ -658,21 +601,17 @@
 .method public onAdExpanded()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdViewController;->engageOverlay()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mBannerAdListener:Lcom/mopub/mobileads/MoPubView$BannerAdListener;
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-interface {v0, p0}, Lcom/mopub/mobileads/MoPubView$BannerAdListener;->onBannerExpanded(Lcom/mopub/mobileads/MoPubView;)V
 
     :cond_1
@@ -686,12 +625,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mBannerAdListener:Lcom/mopub/mobileads/MoPubView$BannerAdListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p0, p1}, Lcom/mopub/mobileads/MoPubView$BannerAdListener;->onBannerFailed(Lcom/mopub/mobileads/MoPubView;Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :cond_0
@@ -711,12 +648,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mBannerAdListener:Lcom/mopub/mobileads/MoPubView$BannerAdListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p0, p1}, Lcom/mopub/mobileads/MoPubView$BannerAdListener;->onBannerFailed(Lcom/mopub/mobileads/MoPubView;Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :cond_0
@@ -726,21 +661,17 @@
 .method public onAdLoaded()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdViewController;->show()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mBannerAdListener:Lcom/mopub/mobileads/MoPubView$BannerAdListener;
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-interface {v0, p0}, Lcom/mopub/mobileads/MoPubView$BannerAdListener;->onBannerLoaded(Lcom/mopub/mobileads/MoPubView;)V
 
     :cond_1
@@ -750,12 +681,10 @@
 .method public onAdPauseAutoRefresh()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdViewController;->engageOverlay()V
 
     :cond_0
@@ -765,12 +694,10 @@
 .method public onAdResumeAutoRefresh()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdViewController;->dismissOverlay()V
 
     :cond_0
@@ -786,17 +713,14 @@
 .method public onApplyWindowInsets(Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
     .locals 2
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1c
 
     if-lt v0, v1, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/MoPubView;->setWindowInsets(Landroid/view/WindowInsets;)V
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->onApplyWindowInsets(Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
 
@@ -808,17 +732,14 @@
 .method protected onAttachedToWindow()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Landroid/widget/FrameLayout;->onAttachedToWindow()V
 
-    .line 2
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1c
 
     if-lt v0, v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getRootWindowInsets()Landroid/view/WindowInsets;
 
     move-result-object v0
@@ -832,7 +753,6 @@
 .method protected onWindowVisibilityChanged(I)V
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/MoPubView;->mScreenVisibility:I
 
     invoke-static {v0, p1}, Lcom/mopub/common/util/Visibility;->hasScreenVisibilityChanged(II)Z
@@ -841,10 +761,8 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iput p1, p0, Lcom/mopub/mobileads/MoPubView;->mScreenVisibility:I
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/MoPubView;->setAdVisibility(I)V
 
     :cond_0
@@ -864,7 +782,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/graphics/Point;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
@@ -877,12 +794,10 @@
 
     invoke-direct {v0, v1, v2}, Landroid/graphics/Point;-><init>(II)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getParent()Landroid/view/ViewParent;
 
     move-result-object v2
@@ -895,7 +810,6 @@
 
     if-gez v2, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getParent()Landroid/view/ViewParent;
 
     move-result-object v2
@@ -908,7 +822,6 @@
 
     iput v2, v0, Landroid/graphics/Point;->x:I
 
-    .line 5
     :cond_0
     iget-object v2, p0, Lcom/mopub/mobileads/MoPubView;->mMoPubAdSize:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
@@ -916,7 +829,6 @@
 
     if-eq v2, v3, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/mopub/mobileads/MoPubView;->mContext:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -929,7 +841,6 @@
 
     iget v1, v1, Landroid/util/DisplayMetrics;->density:F
 
-    .line 7
     iget-object v2, p0, Lcom/mopub/mobileads/MoPubView;->mMoPubAdSize:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     invoke-virtual {v2}, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->toInt()I
@@ -952,7 +863,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getParent()Landroid/view/ViewParent;
 
@@ -966,7 +876,6 @@
 
     if-gez v1, :cond_2
 
-    .line 9
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
@@ -1003,7 +912,6 @@
 .method public setAdSize(Lcom/mopub/mobileads/MoPubView$MoPubAdSize;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubView;->mMoPubAdSize:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     return-void
@@ -1024,7 +932,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     return-void
@@ -1033,12 +940,10 @@
 .method public setAutorefreshEnabled(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p1}, Lcom/mopub/mobileads/AdViewController;->setShouldAllowAutoRefresh(Z)V
 
     :cond_0
@@ -1048,7 +953,6 @@
 .method public setBannerAdListener(Lcom/mopub/mobileads/MoPubView$BannerAdListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubView;->mBannerAdListener:Lcom/mopub/mobileads/MoPubView$BannerAdListener;
 
     return-void
@@ -1081,7 +985,6 @@
 .method public setTesting(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
@@ -1115,12 +1018,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubView;->mAdViewController:Lcom/mopub/mobileads/AdViewController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p1}, Lcom/mopub/mobileads/AdViewController;->setWindowInsets(Landroid/view/WindowInsets;)V
 
     :cond_0

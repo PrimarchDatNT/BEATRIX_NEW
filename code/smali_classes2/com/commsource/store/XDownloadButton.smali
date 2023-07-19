@@ -118,10 +118,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     new-instance p2, Lcom/commsource/store/XDownloadButton$tvDownloadBefore$2;
 
     invoke-direct {p2, p1}, Lcom/commsource/store/XDownloadButton$tvDownloadBefore$2;-><init>(Landroid/content/Context;)V
@@ -132,7 +130,6 @@
 
     iput-object p2, p0, Lcom/commsource/store/XDownloadButton;->a:Lcotlin/w;
 
-    .line 4
     new-instance p2, Lcom/commsource/store/XDownloadButton$ivPro$2;
 
     invoke-direct {p2, p1}, Lcom/commsource/store/XDownloadButton$ivPro$2;-><init>(Landroid/content/Context;)V
@@ -143,7 +140,6 @@
 
     iput-object p2, p0, Lcom/commsource/store/XDownloadButton;->b:Lcotlin/w;
 
-    .line 5
     new-instance p2, Lcom/commsource/store/XDownloadButton$ifDownloadBefore$2;
 
     invoke-direct {p2, p1}, Lcom/commsource/store/XDownloadButton$ifDownloadBefore$2;-><init>(Landroid/content/Context;)V
@@ -154,7 +150,6 @@
 
     iput-object p2, p0, Lcom/commsource/store/XDownloadButton;->c:Lcotlin/w;
 
-    .line 6
     new-instance p2, Lcom/commsource/store/XDownloadButton$tvDownloadNext$2;
 
     invoke-direct {p2, p1}, Lcom/commsource/store/XDownloadButton$tvDownloadNext$2;-><init>(Landroid/content/Context;)V
@@ -165,7 +160,6 @@
 
     iput-object p2, p0, Lcom/commsource/store/XDownloadButton;->d:Lcotlin/w;
 
-    .line 7
     new-instance p2, Lcom/commsource/store/XDownloadButton$cvDownload$2;
 
     invoke-direct {p2, p1}, Lcom/commsource/store/XDownloadButton$cvDownload$2;-><init>(Landroid/content/Context;)V
@@ -176,7 +170,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/XDownloadButton;->f:Lcotlin/w;
 
-    .line 8
     new-instance p1, Lcom/commsource/store/XDownloadButton$executer$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/store/XDownloadButton$executer$2;-><init>(Lcom/commsource/store/XDownloadButton;)V
@@ -187,7 +180,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/XDownloadButton;->g:Lcotlin/w;
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/store/XDownloadButton;->getIvPro()Landroid/widget/ImageView;
 
     move-result-object p1
@@ -220,7 +212,6 @@
 
     invoke-virtual {p0, p1, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/store/XDownloadButton;->getTvDownloadNext()Landroid/widget/TextView;
 
     move-result-object p1
@@ -233,7 +224,6 @@
 
     invoke-virtual {p0, p1, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/store/XDownloadButton;->getTvDownloadBefore()Landroid/widget/TextView;
 
     move-result-object p1
@@ -244,7 +234,6 @@
 
     invoke-virtual {p0, p1, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/store/XDownloadButton;->getCvDownload()Lcom/commsource/widget/CircleDownloadProgressView;
 
     move-result-object p1
@@ -265,7 +254,6 @@
 
     invoke-virtual {p0, p1, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/store/XDownloadButton;->getIfDownloadBefore()Lcom/commsource/widget/IconFrontView;
 
     move-result-object p1
@@ -305,7 +293,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/store/XDownloadButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -319,7 +306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/store/XDownloadButton;->setProgress(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -354,14 +340,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/store/XDownloadButton;->getCvDownload()Lcom/commsource/widget/CircleDownloadProgressView;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/CircleDownloadProgressView;->b(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -447,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/store/XDownloadButton;->getExecuter()Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v1
@@ -456,21 +439,18 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/store/XDownloadButton$Executer;->C(Z)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/store/XDownloadButton;->getExecuter()Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v1
 
     invoke-virtual {v1, v2}, Lcom/commsource/store/XDownloadButton$Executer;->B(Z)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/store/XDownloadButton;->getExecuter()Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v1
 
     invoke-virtual {v1, v2}, Lcom/commsource/store/XDownloadButton$Executer;->D(Z)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/store/XDownloadButton;->getExecuter()Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v1

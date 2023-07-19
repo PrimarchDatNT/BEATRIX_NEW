@@ -23,13 +23,10 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/BaseWebView;-><init>(Landroid/content/Context;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/mobileads/VastWebView;->disableScrollingAndZoom()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
 
     move-result-object p1
@@ -40,17 +37,14 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/webkit/WebView;->setBackgroundColor(I)V
 
-    .line 5
     new-instance p1, Lcom/mopub/mobileads/VastWebView$VastWebViewOnTouchListener;
 
     invoke-direct {p1, p0}, Lcom/mopub/mobileads/VastWebView$VastWebViewOnTouchListener;-><init>(Lcom/mopub/mobileads/VastWebView;)V
 
     invoke-virtual {p0, p1}, Landroid/webkit/WebView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 6
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result p1
@@ -73,18 +67,14 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     new-instance v0, Lcom/mopub/mobileads/VastWebView;
 
     invoke-direct {v0, p0}, Lcom/mopub/mobileads/VastWebView;-><init>(Landroid/content/Context;)V
 
-    .line 4
     invoke-virtual {p1, v0}, Lcom/mopub/mobileads/VastResource;->initializeWebView(Lcom/mopub/mobileads/VastWebView;)V
 
     return-object v0
@@ -95,26 +85,20 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/webkit/WebView;->setHorizontalScrollBarEnabled(Z)V
 
-    .line 2
     invoke-virtual {p0, v0}, Landroid/webkit/WebView;->setHorizontalScrollbarOverlay(Z)V
 
-    .line 3
     invoke-virtual {p0, v0}, Landroid/webkit/WebView;->setVerticalScrollBarEnabled(Z)V
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/webkit/WebView;->setVerticalScrollbarOverlay(Z)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Landroid/webkit/WebSettings;->setSupportZoom(Z)V
 
-    .line 6
     invoke-virtual {p0, v0}, Landroid/webkit/WebView;->setScrollBarStyle(I)V
 
     return-void
@@ -133,7 +117,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastWebView;->mVastWebViewClickListener:Lcom/mopub/mobileads/VastWebView$VastWebViewClickListener;
 
     return-object v0
@@ -142,7 +125,6 @@
 .method loadData(Ljava/lang/String;)V
     .locals 8
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -191,7 +173,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/VastWebView;->mVastWebViewClickListener:Lcom/mopub/mobileads/VastWebView$VastWebViewClickListener;
 
     return-void

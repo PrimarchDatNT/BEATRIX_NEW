@@ -41,7 +41,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/scwang/smartrefresh/layout/constant/a;
 
     const/4 v1, 0x0
@@ -50,7 +49,6 @@
 
     sput-object v0, Lcom/scwang/smartrefresh/layout/constant/a;->c:Lcom/scwang/smartrefresh/layout/constant/a;
 
-    .line 2
     new-instance v2, Lcom/scwang/smartrefresh/layout/constant/a;
 
     const/4 v3, 0x1
@@ -59,7 +57,6 @@
 
     sput-object v2, Lcom/scwang/smartrefresh/layout/constant/a;->d:Lcom/scwang/smartrefresh/layout/constant/a;
 
-    .line 3
     new-instance v4, Lcom/scwang/smartrefresh/layout/constant/a;
 
     const/4 v5, 0x2
@@ -68,7 +65,6 @@
 
     sput-object v4, Lcom/scwang/smartrefresh/layout/constant/a;->e:Lcom/scwang/smartrefresh/layout/constant/a;
 
-    .line 4
     new-instance v6, Lcom/scwang/smartrefresh/layout/constant/a;
 
     const/4 v7, 0x3
@@ -77,7 +73,6 @@
 
     sput-object v6, Lcom/scwang/smartrefresh/layout/constant/a;->f:Lcom/scwang/smartrefresh/layout/constant/a;
 
-    .line 5
     new-instance v8, Lcom/scwang/smartrefresh/layout/constant/a;
 
     const/4 v9, 0x4
@@ -86,7 +81,6 @@
 
     sput-object v8, Lcom/scwang/smartrefresh/layout/constant/a;->g:Lcom/scwang/smartrefresh/layout/constant/a;
 
-    .line 6
     new-instance v10, Lcom/scwang/smartrefresh/layout/constant/a;
 
     const/4 v11, 0x5
@@ -95,7 +89,6 @@
 
     sput-object v10, Lcom/scwang/smartrefresh/layout/constant/a;->h:Lcom/scwang/smartrefresh/layout/constant/a;
 
-    .line 7
     new-instance v12, Lcom/scwang/smartrefresh/layout/constant/a;
 
     const/4 v13, 0x6
@@ -104,7 +97,6 @@
 
     sput-object v12, Lcom/scwang/smartrefresh/layout/constant/a;->i:Lcom/scwang/smartrefresh/layout/constant/a;
 
-    .line 8
     new-instance v14, Lcom/scwang/smartrefresh/layout/constant/a;
 
     const/4 v15, 0x7
@@ -113,7 +105,6 @@
 
     sput-object v14, Lcom/scwang/smartrefresh/layout/constant/a;->j:Lcom/scwang/smartrefresh/layout/constant/a;
 
-    .line 9
     new-instance v15, Lcom/scwang/smartrefresh/layout/constant/a;
 
     const/16 v13, 0x8
@@ -122,7 +113,6 @@
 
     sput-object v15, Lcom/scwang/smartrefresh/layout/constant/a;->k:Lcom/scwang/smartrefresh/layout/constant/a;
 
-    .line 10
     new-instance v13, Lcom/scwang/smartrefresh/layout/constant/a;
 
     const/16 v11, 0x9
@@ -131,7 +121,6 @@
 
     sput-object v13, Lcom/scwang/smartrefresh/layout/constant/a;->l:Lcom/scwang/smartrefresh/layout/constant/a;
 
-    .line 11
     new-instance v11, Lcom/scwang/smartrefresh/layout/constant/a;
 
     const/16 v9, 0xa
@@ -140,7 +129,6 @@
 
     sput-object v11, Lcom/scwang/smartrefresh/layout/constant/a;->m:Lcom/scwang/smartrefresh/layout/constant/a;
 
-    .line 12
     new-instance v7, Lcom/scwang/smartrefresh/layout/constant/a;
 
     invoke-direct {v7, v9, v3}, Lcom/scwang/smartrefresh/layout/constant/a;-><init>(IZ)V
@@ -193,7 +181,6 @@
 
     aput-object v7, v9, v0
 
-    .line 13
     sput-object v9, Lcom/scwang/smartrefresh/layout/constant/a;->o:[Lcom/scwang/smartrefresh/layout/constant/a;
 
     return-void
@@ -202,13 +189,10 @@
 .method private constructor <init>(IZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/scwang/smartrefresh/layout/constant/a;->a:I
 
-    .line 3
     iput-boolean p2, p0, Lcom/scwang/smartrefresh/layout/constant/a;->b:Z
 
     return-void
@@ -219,7 +203,6 @@
 .method public a(Lcom/scwang/smartrefresh/layout/constant/a;)Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/scwang/smartrefresh/layout/constant/a;->a:I
 
     iget p1, p1, Lcom/scwang/smartrefresh/layout/constant/a;->a:I
@@ -255,12 +238,10 @@
 .method public b()Lcom/scwang/smartrefresh/layout/constant/a;
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/scwang/smartrefresh/layout/constant/a;->b:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/scwang/smartrefresh/layout/constant/a;->o:[Lcom/scwang/smartrefresh/layout/constant/a;
 
     iget v1, p0, Lcom/scwang/smartrefresh/layout/constant/a;->a:I
@@ -278,12 +259,10 @@
 .method public c()Lcom/scwang/smartrefresh/layout/constant/a;
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/scwang/smartrefresh/layout/constant/a;->b:Z
 
     if-eqz v0, :cond_1
 
-    .line 2
     sget-object v0, Lcom/scwang/smartrefresh/layout/constant/a;->o:[Lcom/scwang/smartrefresh/layout/constant/a;
 
     iget v1, p0, Lcom/scwang/smartrefresh/layout/constant/a;->a:I
@@ -292,14 +271,12 @@
 
     aget-object v0, v0, v1
 
-    .line 3
     iget-boolean v1, v0, Lcom/scwang/smartrefresh/layout/constant/a;->b:Z
 
     if-nez v1, :cond_0
 
     return-object v0
 
-    .line 4
     :cond_0
     sget-object v0, Lcom/scwang/smartrefresh/layout/constant/a;->c:Lcom/scwang/smartrefresh/layout/constant/a;
 

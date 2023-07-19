@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/et1;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/gt1;->b:Lcom/google/android/gms/internal/ads/et1;
 
     invoke-direct {p0, p2}, Lcom/google/android/gms/internal/ads/vr1;-><init>(Ljava/lang/Class;)V
@@ -40,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/ex1;
 
     return-void
@@ -54,10 +52,8 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/ex1;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/bx1;->F()Lcom/google/android/gms/internal/ads/bx1$a;
 
     move-result-object v0
@@ -91,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/t02;->b()Lcom/google/android/gms/internal/ads/t02;
 
     move-result-object v0

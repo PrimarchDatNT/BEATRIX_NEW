@@ -70,7 +70,6 @@
 .method public constructor <init>(Lcom/meitu/media/tools/editor/b;)V
     .locals 11
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/tools/editor/b$a;->l:Lcom/meitu/media/tools/editor/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -79,14 +78,12 @@
 
     new-array v1, v0, [F
 
-    .line 2
     fill-array-data v1, :array_0
 
     iput-object v1, p0, Lcom/meitu/media/tools/editor/b$a;->a:[F
 
     new-array v0, v0, [F
 
-    .line 3
     fill-array-data v0, :array_1
 
     iput-object v0, p0, Lcom/meitu/media/tools/editor/b$a;->b:[F
@@ -95,20 +92,16 @@
 
     new-array v3, v2, [F
 
-    .line 4
     iput-object v3, p0, Lcom/meitu/media/tools/editor/b$a;->d:[F
 
     new-array v2, v2, [F
 
-    .line 5
     iput-object v2, p0, Lcom/meitu/media/tools/editor/b$a;->e:[F
 
     const/16 v2, -0x3039
 
-    .line 6
     iput v2, p0, Lcom/meitu/media/tools/editor/b$a;->g:I
 
-    .line 7
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v3, 0x15
@@ -117,7 +110,6 @@
 
     if-lt v2, v3, :cond_0
 
-    .line 8
     array-length v1, v0
 
     mul-int/lit8 v1, v1, 0x4
@@ -126,7 +118,6 @@
 
     move-result-object v1
 
-    .line 9
     invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     move-result-object v5
@@ -141,7 +132,6 @@
 
     iput-object v1, p0, Lcom/meitu/media/tools/editor/b$a;->c:Ljava/nio/FloatBuffer;
 
-    .line 10
     invoke-virtual {v1, v0}, Ljava/nio/FloatBuffer;->put([F)Ljava/nio/FloatBuffer;
 
     move-result-object v0
@@ -150,7 +140,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     array-length v0, v1
 
@@ -160,7 +149,6 @@
 
     move-result-object v0
 
-    .line 12
     invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     move-result-object v5
@@ -175,20 +163,17 @@
 
     iput-object v0, p0, Lcom/meitu/media/tools/editor/b$a;->c:Ljava/nio/FloatBuffer;
 
-    .line 13
     invoke-virtual {v0, v1}, Ljava/nio/FloatBuffer;->put([F)Ljava/nio/FloatBuffer;
 
     move-result-object v0
 
     invoke-virtual {v0, v4}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 14
     :goto_0
     iget-object v0, p0, Lcom/meitu/media/tools/editor/b$a;->d:[F
 
     invoke-static {v0, v4}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
-    .line 15
     invoke-static {p1}, Lcom/meitu/media/tools/editor/b;->d(Lcom/meitu/media/tools/editor/b;)Lcom/meitu/media/tools/editor/p;
 
     move-result-object p1
@@ -201,7 +186,6 @@
 
     const/4 p1, 0x0
 
-    .line 16
     :cond_1
     iget-object v5, p0, Lcom/meitu/media/tools/editor/b$a;->d:[F
 
@@ -219,7 +203,6 @@
 
     invoke-static/range {v5 .. v10}, Landroid/opengl/Matrix;->rotateM([FIFFFF)V
 
-    .line 17
     iget-object p1, p0, Lcom/meitu/media/tools/editor/b$a;->e:[F
 
     invoke-static {p1, v4}, Landroid/opengl/Matrix;->setIdentityM([FI)V
@@ -286,7 +269,6 @@
 
     const v1, 0x8b31
 
-    .line 1
     invoke-direct {p0, v1, p1}, Lcom/meitu/media/tools/editor/b$a;->g(ILjava/lang/String;)I
 
     move-result p1
@@ -295,7 +277,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -303,19 +284,16 @@
     :cond_0
     const v2, 0x8b30
 
-    .line 3
     invoke-direct {p0, v2, p2}, Lcom/meitu/media/tools/editor/b$a;->g(ILjava/lang/String;)I
 
     move-result p2
 
     if-nez p2, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_1
     invoke-static {}, Landroid/opengl/GLES20;->glCreateProgram()I
 
@@ -325,25 +303,19 @@
 
     const-string v3, "[CodecOutputSurface]Could not create program"
 
-    .line 6
     invoke-static {v3}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 7
     :cond_2
     invoke-static {v2, p1}, Landroid/opengl/GLES20;->glAttachShader(II)V
 
     const-string p1, "glAttachShader"
 
-    .line 8
     invoke-virtual {p0, p1}, Lcom/meitu/media/tools/editor/b$a;->b(Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v2, p2}, Landroid/opengl/GLES20;->glAttachShader(II)V
 
-    .line 10
     invoke-virtual {p0, p1}, Lcom/meitu/media/tools/editor/b$a;->b(Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v2}, Landroid/opengl/GLES20;->glLinkProgram(I)V
 
     const/4 p1, 0x1
@@ -352,20 +324,16 @@
 
     const v3, 0x8b82
 
-    .line 12
     invoke-static {v2, v3, p2, v1}, Landroid/opengl/GLES20;->glGetProgramiv(II[II)V
 
-    .line 13
     aget p2, p2, v1
 
     if-eq p2, p1, :cond_3
 
     const-string p1, "[CodecOutputSurface]Could not link program: "
 
-    .line 14
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 15
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -386,7 +354,6 @@
 
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v2}, Landroid/opengl/GLES20;->glDeleteProgram(I)V
 
     goto :goto_0
@@ -394,7 +361,6 @@
     :cond_3
     move v1, v2
 
-    .line 17
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -408,12 +374,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/opengl/GLES20;->glCreateShader(I)I
 
     move-result v1
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -430,10 +394,8 @@
 
     invoke-virtual {p0, v2}, Lcom/meitu/media/tools/editor/b$a;->b(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v1, p2}, Landroid/opengl/GLES20;->glShaderSource(ILjava/lang/String;)V
 
-    .line 4
     invoke-static {v1}, Landroid/opengl/GLES20;->glCompileShader(I)V
 
     const/4 p2, 0x1
@@ -444,15 +406,12 @@
 
     const/4 v3, 0x0
 
-    .line 5
     invoke-static {v1, v2, p2, v3}, Landroid/opengl/GLES20;->glGetShaderiv(II[II)V
 
-    .line 6
     aget p2, p2, v3
 
     if-nez p2, :cond_0
 
-    .line 7
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -473,7 +432,6 @@
 
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 8
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -494,12 +452,10 @@
 
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v1}, Landroid/opengl/GLES20;->glDeleteShader(I)V
 
     const/4 v1, 0x0
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -519,7 +475,6 @@
 
     const-string p1, "#extension GL_OES_EGL_image_external : require\nprecision mediump float;\nvarying vec2 vTextureCoord;\nuniform samplerExternalOES sTexture;\nvoid main() {\n    gl_FragColor = texture2D(sTexture, vTextureCoord);\n}\n"
 
-    .line 1
     :cond_0
     iget v1, p0, Lcom/meitu/media/tools/editor/b$a;->f:I
 
@@ -527,7 +482,6 @@
 
     const-string v1, "uniform mat4 uMVPMatrix;\nuniform mat4 uSTMatrix;\nattribute vec4 aPosition;\nattribute vec4 aTextureCoord;\nvarying vec2 vTextureCoord;\nvoid main() {\n    gl_Position = uMVPMatrix * aPosition;\n    vTextureCoord = (uSTMatrix * aTextureCoord).xy;\n}\n"
 
-    .line 2
     invoke-direct {p0, v1, p1}, Lcom/meitu/media/tools/editor/b$a;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p1
@@ -536,12 +490,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -561,19 +513,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -597,7 +546,6 @@
 
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 4
     new-instance v2, Ljava/lang/RuntimeException;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -630,12 +578,10 @@
 
     if-ltz p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -680,10 +626,8 @@
 
     const-string v3, "onDrawFrame start"
 
-    .line 1
     invoke-virtual {v0, v3}, Lcom/meitu/media/tools/editor/b$a;->b(Ljava/lang/String;)V
 
-    .line 2
     iget-object v3, v0, Lcom/meitu/media/tools/editor/b$a;->e:[F
 
     move-object/from16 v4, p1
@@ -698,12 +642,10 @@
 
     if-eqz p3, :cond_0
 
-    .line 3
     invoke-static {v3, v10}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
     const/4 v5, 0x0
 
-    .line 4
     iget-object v6, v0, Lcom/meitu/media/tools/editor/b$a;->d:[F
 
     const/4 v7, 0x0
@@ -716,7 +658,6 @@
 
     invoke-static/range {v4 .. v9}, Landroid/opengl/Matrix;->multiplyMM([FI[FI[FI)V
 
-    .line 5
     :cond_0
     iget-object v4, v0, Lcom/meitu/media/tools/editor/b$a;->l:Lcom/meitu/media/tools/editor/b;
 
@@ -762,49 +703,40 @@
 
     const/16 v4, 0x4000
 
-    .line 6
     invoke-static {v4}, Landroid/opengl/GLES20;->glClear(I)V
 
     const/16 v4, 0xbe2
 
-    .line 7
     invoke-static {v4}, Landroid/opengl/GLES20;->glEnable(I)V
 
     const/16 v5, 0x303
 
     const/4 v6, 0x1
 
-    .line 8
     invoke-static {v6, v6, v6, v5}, Landroid/opengl/GLES20;->glBlendFuncSeparate(IIII)V
 
-    .line 9
     iget v5, v0, Lcom/meitu/media/tools/editor/b$a;->f:I
 
     invoke-static {v5}, Landroid/opengl/GLES20;->glUseProgram(I)V
 
     const-string v5, "glUseProgram"
 
-    .line 10
     invoke-virtual {v0, v5}, Lcom/meitu/media/tools/editor/b$a;->b(Ljava/lang/String;)V
 
     const v5, 0x84c0
 
-    .line 11
     invoke-static {v5}, Landroid/opengl/GLES20;->glActiveTexture(I)V
 
-    .line 12
     iget v5, v0, Lcom/meitu/media/tools/editor/b$a;->g:I
 
     const v7, 0x8d65
 
     invoke-static {v7, v5}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 13
     iget-object v5, v0, Lcom/meitu/media/tools/editor/b$a;->c:Ljava/nio/FloatBuffer;
 
     invoke-virtual {v5, v10}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 14
     iget v11, v0, Lcom/meitu/media/tools/editor/b$a;->j:I
 
     const/4 v12, 0x3
@@ -823,27 +755,22 @@
 
     const-string v5, "glVertexAttribPointer maPosition"
 
-    .line 15
     invoke-virtual {v0, v5}, Lcom/meitu/media/tools/editor/b$a;->b(Ljava/lang/String;)V
 
-    .line 16
     iget v5, v0, Lcom/meitu/media/tools/editor/b$a;->j:I
 
     invoke-static {v5}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
 
     const-string v5, "glEnableVertexAttribArray maPositionHandle"
 
-    .line 17
     invoke-virtual {v0, v5}, Lcom/meitu/media/tools/editor/b$a;->b(Ljava/lang/String;)V
 
-    .line 18
     iget-object v5, v0, Lcom/meitu/media/tools/editor/b$a;->c:Ljava/nio/FloatBuffer;
 
     const/4 v8, 0x3
 
     invoke-virtual {v5, v8}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 19
     iget v11, v0, Lcom/meitu/media/tools/editor/b$a;->k:I
 
     const/4 v12, 0x2
@@ -856,25 +783,20 @@
 
     const-string v5, "glVertexAttribPointer maTextureHandle"
 
-    .line 20
     invoke-virtual {v0, v5}, Lcom/meitu/media/tools/editor/b$a;->b(Ljava/lang/String;)V
 
-    .line 21
     iget v5, v0, Lcom/meitu/media/tools/editor/b$a;->k:I
 
     invoke-static {v5}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
 
     const-string v5, "glEnableVertexAttribArray maTextureHandle"
 
-    .line 22
     invoke-virtual {v0, v5}, Lcom/meitu/media/tools/editor/b$a;->b(Ljava/lang/String;)V
 
-    .line 23
     iget v5, v0, Lcom/meitu/media/tools/editor/b$a;->h:I
 
     invoke-static {v5, v6, v10, v3, v10}, Landroid/opengl/GLES20;->glUniformMatrix4fv(IIZ[FI)V
 
-    .line 24
     iget v3, v0, Lcom/meitu/media/tools/editor/b$a;->i:I
 
     iget-object v5, v0, Lcom/meitu/media/tools/editor/b$a;->e:[F
@@ -885,18 +807,14 @@
 
     const/4 v5, 0x4
 
-    .line 25
     invoke-static {v3, v10, v5}, Landroid/opengl/GLES20;->glDrawArrays(III)V
 
     const-string v3, "glDrawArrays"
 
-    .line 26
     invoke-virtual {v0, v3}, Lcom/meitu/media/tools/editor/b$a;->b(Ljava/lang/String;)V
 
-    .line 27
     invoke-static {v7, v10}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 28
     array-length v3, v1
 
     :goto_0
@@ -908,7 +826,6 @@
 
     goto :goto_1
 
-    .line 29
     :cond_1
     invoke-virtual {v5}, Lcom/meitu/media/tools/editor/s;->c()V
 
@@ -917,11 +834,9 @@
 
     goto :goto_0
 
-    .line 30
     :cond_2
     invoke-static {v4}, Landroid/opengl/GLES20;->glDisable(I)V
 
-    .line 31
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -934,7 +849,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/b$a;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -956,7 +870,6 @@
 
     const-string v2, "#extension GL_OES_EGL_image_external : require\nprecision mediump float;\nvarying vec2 vTextureCoord;\nuniform samplerExternalOES sTexture;\nvoid main() {\n    gl_FragColor = texture2D(sTexture, vTextureCoord);\n}\n"
 
-    .line 1
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/tools/editor/b$a;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v1
@@ -967,17 +880,14 @@
 
     const-string v2, "aPosition"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/opengl/GLES20;->glGetAttribLocation(ILjava/lang/String;)I
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/media/tools/editor/b$a;->j:I
 
-    .line 3
     invoke-virtual {p0, v1, v2}, Lcom/meitu/media/tools/editor/b$a;->c(ILjava/lang/String;)V
 
-    .line 4
     iget v1, p0, Lcom/meitu/media/tools/editor/b$a;->f:I
 
     const-string v2, "aTextureCoord"
@@ -988,10 +898,8 @@
 
     iput v1, p0, Lcom/meitu/media/tools/editor/b$a;->k:I
 
-    .line 5
     invoke-virtual {p0, v1, v2}, Lcom/meitu/media/tools/editor/b$a;->c(ILjava/lang/String;)V
 
-    .line 6
     iget v1, p0, Lcom/meitu/media/tools/editor/b$a;->f:I
 
     const-string v2, "uMVPMatrix"
@@ -1002,10 +910,8 @@
 
     iput v1, p0, Lcom/meitu/media/tools/editor/b$a;->h:I
 
-    .line 7
     invoke-virtual {p0, v1, v2}, Lcom/meitu/media/tools/editor/b$a;->c(ILjava/lang/String;)V
 
-    .line 8
     iget v1, p0, Lcom/meitu/media/tools/editor/b$a;->f:I
 
     const-string v2, "uSTMatrix"
@@ -1016,7 +922,6 @@
 
     iput v1, p0, Lcom/meitu/media/tools/editor/b$a;->i:I
 
-    .line 9
     invoke-virtual {p0, v1, v2}, Lcom/meitu/media/tools/editor/b$a;->c(ILjava/lang/String;)V
 
     const/4 v1, 0x1
@@ -1025,54 +930,44 @@
 
     const/4 v3, 0x0
 
-    .line 10
     invoke-static {v1, v2, v3}, Landroid/opengl/GLES20;->glGenTextures(I[II)V
 
-    .line 11
     aget v1, v2, v3
 
     iput v1, p0, Lcom/meitu/media/tools/editor/b$a;->g:I
 
     const v2, 0x8d65
 
-    .line 12
     invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
     const/16 v1, 0x2801
 
     const v3, 0x46180400    # 9729.0f
 
-    .line 13
     invoke-static {v2, v1, v3}, Landroid/opengl/GLES20;->glTexParameterf(IIF)V
 
     const/16 v1, 0x2800
 
-    .line 14
     invoke-static {v2, v1, v3}, Landroid/opengl/GLES20;->glTexParameterf(IIF)V
 
     const/16 v1, 0x2802
 
     const v3, 0x812f
 
-    .line 15
     invoke-static {v2, v1, v3}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
     const/16 v1, 0x2803
 
-    .line 16
     invoke-static {v2, v1, v3}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
     const-string v1, "glTexParameter"
 
-    .line 17
     invoke-virtual {p0, v1}, Lcom/meitu/media/tools/editor/b$a;->b(Ljava/lang/String;)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 19
     :cond_0
     new-instance v1, Ljava/lang/RuntimeException;
 

@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/DialogDelegate$mViewBindig$2;->this$0:Lcom/commsource/widget/dialog/delegate/DialogDelegate;
 
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->c()Lcom/commsource/widget/dialog/delegate/b;
@@ -102,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/DialogDelegate$mViewBindig$2;->invoke()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1

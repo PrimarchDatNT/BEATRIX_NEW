@@ -17,7 +17,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/CancellationException;
 
     invoke-direct {v0, p0}, Ljava/util/concurrent/CancellationException;-><init>(Ljava/lang/String;)V
@@ -36,7 +35,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/CancellationException;
 
     if-eqz p0, :cond_0

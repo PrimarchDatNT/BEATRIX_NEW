@@ -42,10 +42,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lf/d/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog$adapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog$adapter$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;)V
@@ -56,7 +54,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->X:Lcotlin/w;
 
-    .line 3
     sget-object v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog$layoutManager$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog$layoutManager$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -65,7 +62,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->Y:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog$timer$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog$timer$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;)V
@@ -86,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast p0, Lcom/commsource/beautyplus/f0/w5;
@@ -103,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -118,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -129,7 +122,6 @@
 
     const-string v2, "locationBean"
 
-    .line 2
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
@@ -138,7 +130,6 @@
 
     const-string v2, "CN"
 
-    .line 3
     invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -217,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -228,7 +218,6 @@
 
     const-string v2, "locationBean"
 
-    .line 2
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
@@ -237,7 +226,6 @@
 
     const-string v2, "TH"
 
-    .line 3
     invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -315,7 +303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->M()Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
     move-result-object v1
@@ -326,7 +313,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;->o(Lcom/commsource/util/common/d;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->M()Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
     move-result-object v1
@@ -335,7 +321,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;->p(I)V
 
-    .line 3
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/w5;
@@ -352,7 +337,6 @@
 
     invoke-virtual {v1, v4}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 4
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/w5;
@@ -367,7 +351,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 5
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/w5;
@@ -380,7 +363,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->Q()Z
 
     move-result v1
@@ -401,7 +383,6 @@
 
     sget v8, Lcom/res/provider/ResDRAWABLE;->selfie_look_blink_img:I
 
-    .line 7
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v8
@@ -410,7 +391,6 @@
 
     sget v6, Lcom/res/provider/ResDRAWABLE;->selfie_look_film_img:I
 
-    .line 8
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v6
@@ -419,7 +399,6 @@
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_honey_img:I
 
-    .line 9
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -428,7 +407,6 @@
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_gray_img:I
 
-    .line 10
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -437,21 +415,18 @@
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_black_img:I
 
-    .line 11
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
     aput-object v2, v1, v3
 
-    .line 12
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
 
     goto :goto_0
 
-    .line 13
     :cond_0
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->T()Z
 
@@ -463,7 +438,6 @@
 
     sget v8, Lcom/res/provider/ResDRAWABLE;->selfie_look_gleam_img_style2:I
 
-    .line 14
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v8
@@ -472,7 +446,6 @@
 
     sget v6, Lcom/res/provider/ResDRAWABLE;->selfie_look_fairy_img_style2:I
 
-    .line 15
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v6
@@ -481,7 +454,6 @@
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_sunkiss_img_style2:I
 
-    .line 16
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -490,7 +462,6 @@
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_grain_img_style2:I
 
-    .line 17
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -499,14 +470,12 @@
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_jaguar_img_style2:I
 
-    .line 18
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
     aput-object v2, v1, v3
 
-    .line 19
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -518,7 +487,6 @@
 
     sget v8, Lcom/res/provider/ResDRAWABLE;->selfie_look_celeb_img_style3:I
 
-    .line 20
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v8
@@ -527,7 +495,6 @@
 
     sget v6, Lcom/res/provider/ResDRAWABLE;->selfie_look_sculped_img_style3:I
 
-    .line 21
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v6
@@ -536,7 +503,6 @@
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_nudist_img_style3:I
 
-    .line 22
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -545,7 +511,6 @@
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_gray_img_style3:I
 
-    .line 23
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -554,45 +519,37 @@
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_grain_img_style3:I
 
-    .line 24
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
     aput-object v2, v1, v3
 
-    .line 25
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 26
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->L()Lcom/commsource/widget/h1/e;
 
     move-result-object v2
 
-    .line 27
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v3
 
-    .line 28
     const-class v4, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideViewHolder;
 
     invoke-virtual {v3, v1, v4}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v1
 
-    .line 29
     invoke-virtual {v1}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v1
 
-    .line 30
     invoke-virtual {v2, v1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 31
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/w5;
@@ -607,7 +564,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/IndicatorView;->setPointRadius(F)V
 
-    .line 32
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/w5;
@@ -622,7 +578,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/IndicatorView;->setPointMargin(I)V
 
-    .line 33
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/w5;
@@ -635,7 +590,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/IndicatorView;->setSelectColor(I)V
 
-    .line 34
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/w5;
@@ -646,7 +600,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/IndicatorView;->setNormalColor(I)V
 
-    .line 35
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/w5;
@@ -655,7 +608,6 @@
 
     invoke-virtual {v1, v7}, Lcom/commsource/widget/IndicatorView;->setCount(I)V
 
-    .line 36
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/w5;
@@ -668,7 +620,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 37
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/w5;
@@ -681,7 +632,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 38
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->P()Lcom/commsource/camera/f1/s$a;
 
     move-result-object v1
@@ -690,7 +640,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/f1/s$a;->f(J)V
 
-    .line 39
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -703,7 +652,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_look_guide:I
@@ -846,7 +794,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->b0:Landroid/view/View$OnClickListener;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -881,7 +828,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->a0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -900,7 +846,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->b0:Landroid/view/View$OnClickListener;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -915,7 +860,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->a0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -930,17 +874,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->P()Lcom/commsource/camera/f1/s$a;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/s$a;->c()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -953,17 +894,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->P()Lcom/commsource/camera/f1/s$a;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/s$a;->c()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -976,17 +914,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onDestroy()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;->P()Lcom/commsource/camera/f1/s$a;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/s$a;->c()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

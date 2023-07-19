@@ -27,7 +27,6 @@
 .method constructor <init>(Landroid/view/View;Lcotlin/jvm/u/a;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/l0$b;->a:Landroid/view/View;
 
     iput-object p2, p0, Lcom/commsource/util/l0$b;->b:Lcotlin/jvm/u/a;
@@ -52,10 +51,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/util/l0$b;->b:Lcotlin/jvm/u/a;
 
     if-eqz p1, :cond_0
@@ -66,18 +63,15 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     iget-boolean p1, p0, Lcom/commsource/util/l0$b;->c:Z
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/util/l0$b;->a:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

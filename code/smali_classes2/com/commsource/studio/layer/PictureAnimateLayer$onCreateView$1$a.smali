@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1$a;->a:Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1;
 
     iget-object v1, v1, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1;->b:Lcom/commsource/studio/layer/PictureAnimateLayer;
@@ -57,7 +56,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1$a;->a:Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1;
 
     iget-object v1, v1, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1;->b:Lcom/commsource/studio/layer/PictureAnimateLayer;
@@ -74,7 +72,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1$a;->a:Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1;
 
@@ -84,7 +81,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/PictureAnimateLayer;->w0(Lcotlin/jvm/u/a;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

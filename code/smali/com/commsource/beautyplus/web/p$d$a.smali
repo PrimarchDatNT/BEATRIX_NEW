@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/web/p$d;Ljava/util/List;ZLcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/p$d$a;->i:Lcom/commsource/beautyplus/web/p$d;
 
     iput-object p4, p0, Lcom/commsource/beautyplus/web/p$d$a;->g:Lcom/meitu/webview/core/CommonWebView;
@@ -60,7 +59,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -79,14 +77,12 @@
 
     check-cast v0, Lcom/commsource/util/q2/e;
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/util/q2/e;->b()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/beautyplus/web/p$d$a;->i:Lcom/commsource/beautyplus/web/p$d;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/web/p$d;->b:Lcom/commsource/beautyplus/web/p;
@@ -105,7 +101,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/beautyplus/web/p;->r(Lcom/commsource/beautyplus/web/p;Lcom/commsource/beautyplus/web/mtscript/g;)Lcom/commsource/beautyplus/web/mtscript/g;
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/beautyplus/web/p$d$a;->i:Lcom/commsource/beautyplus/web/p$d;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/web/p$d;->b:Lcom/commsource/beautyplus/web/p;
@@ -118,7 +113,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/beautyplus/web/mtscript/g;->J(I)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/beautyplus/web/p$d$a;->i:Lcom/commsource/beautyplus/web/p$d;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/web/p$d;->b:Lcom/commsource/beautyplus/web/p;
@@ -131,7 +125,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

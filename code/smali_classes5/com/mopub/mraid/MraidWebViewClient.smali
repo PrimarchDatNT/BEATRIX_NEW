@@ -13,7 +13,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -38,7 +37,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/webkit/WebViewClient;-><init>()V
 
     return-void
@@ -47,7 +45,6 @@
 .method private createMraidInjectionResponse()Landroid/webkit/WebResourceResponse;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayInputStream;
 
     sget-object v1, Lcom/mopub/mraid/MraidWebViewClient;->MRAID_INJECTION_JAVASCRIPT:Ljava/lang/String;
@@ -58,7 +55,6 @@
 
     invoke-direct {v0, v1}, Ljava/io/ByteArrayInputStream;-><init>([B)V
 
-    .line 2
     new-instance v1, Landroid/webkit/WebResourceResponse;
 
     const-string v2, "text/javascript"
@@ -81,7 +77,6 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
@@ -92,7 +87,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Landroid/net/Uri;->getLastPathSegment()Ljava/lang/String;
 
     move-result-object p1
@@ -117,21 +111,18 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p2}, Lcom/mopub/mraid/MraidWebViewClient;->matchesInjectionUrl(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/mraid/MraidWebViewClient;->createMraidInjectionResponse()Landroid/webkit/WebResourceResponse;
 
     move-result-object p1
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-super {p0, p1, p2}, Landroid/webkit/WebViewClient;->shouldInterceptRequest(Landroid/webkit/WebView;Ljava/lang/String;)Landroid/webkit/WebResourceResponse;
 

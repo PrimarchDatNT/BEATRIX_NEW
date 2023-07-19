@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1$a;->g:Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1;
 
     iput-object p2, p0, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1$a;->p:Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1$a;->g:Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
@@ -73,7 +71,6 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1$a;->g:Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1;
 
     iget-object v2, v2, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
@@ -88,14 +85,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v2, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1$a$a;
 
     invoke-direct {v2, p0, v1}, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1$a$a;-><init>(Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1$a;Lcom/commsource/studio/bean/PictureLayerInfo;)V
 
     invoke-static {v2}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

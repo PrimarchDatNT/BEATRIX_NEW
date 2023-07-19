@@ -27,13 +27,10 @@
 .method private constructor <init>(Lcom/google/common/util/concurrent/CycleDetectingLockFactory;Lcom/google/common/util/concurrent/CycleDetectingLockFactory$c;Z)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$CycleDetectingReentrantLock;->this$0:Lcom/google/common/util/concurrent/CycleDetectingLockFactory;
 
-    .line 3
     invoke-direct {p0, p3}, Ljava/util/concurrent/locks/ReentrantLock;-><init>(Z)V
 
-    .line 4
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -48,7 +45,6 @@
 .method synthetic constructor <init>(Lcom/google/common/util/concurrent/CycleDetectingLockFactory;Lcom/google/common/util/concurrent/CycleDetectingLockFactory$c;ZLcom/google/common/util/concurrent/CycleDetectingLockFactory$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$CycleDetectingReentrantLock;-><init>(Lcom/google/common/util/concurrent/CycleDetectingLockFactory;Lcom/google/common/util/concurrent/CycleDetectingLockFactory$c;Z)V
 
     return-void
@@ -59,7 +55,6 @@
 .method public getLockGraphNode()Lcom/google/common/util/concurrent/CycleDetectingLockFactory$c;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$CycleDetectingReentrantLock;->lockGraphNode:Lcom/google/common/util/concurrent/CycleDetectingLockFactory$c;
 
     return-object v0
@@ -68,7 +63,6 @@
 .method public isAcquiredByCurrentThread()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/concurrent/locks/ReentrantLock;->isHeldByCurrentThread()Z
 
     move-result v0
@@ -79,18 +73,15 @@
 .method public lock()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$CycleDetectingReentrantLock;->this$0:Lcom/google/common/util/concurrent/CycleDetectingLockFactory;
 
     invoke-static {v0, p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->c(Lcom/google/common/util/concurrent/CycleDetectingLockFactory;Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
-    .line 2
     :try_start_0
     invoke-super {p0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->d(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
     return-void
@@ -100,7 +91,6 @@
 
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->d(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
-    .line 4
     throw v0
 .end method
 
@@ -112,18 +102,15 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$CycleDetectingReentrantLock;->this$0:Lcom/google/common/util/concurrent/CycleDetectingLockFactory;
 
     invoke-static {v0, p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->c(Lcom/google/common/util/concurrent/CycleDetectingLockFactory;Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
-    .line 2
     :try_start_0
     invoke-super {p0}, Ljava/util/concurrent/locks/ReentrantLock;->lockInterruptibly()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->d(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
     return-void
@@ -133,19 +120,16 @@
 
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->d(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
-    .line 4
     throw v0
 .end method
 
 .method public tryLock()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$CycleDetectingReentrantLock;->this$0:Lcom/google/common/util/concurrent/CycleDetectingLockFactory;
 
     invoke-static {v0, p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->c(Lcom/google/common/util/concurrent/CycleDetectingLockFactory;Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
-    .line 2
     :try_start_0
     invoke-super {p0}, Ljava/util/concurrent/locks/ReentrantLock;->tryLock()Z
 
@@ -153,7 +137,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->d(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
     return v0
@@ -163,7 +146,6 @@
 
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->d(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
-    .line 4
     throw v0
 .end method
 
@@ -175,12 +157,10 @@
         }
     .end annotation
 
-    .line 5
     iget-object v0, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$CycleDetectingReentrantLock;->this$0:Lcom/google/common/util/concurrent/CycleDetectingLockFactory;
 
     invoke-static {v0, p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->c(Lcom/google/common/util/concurrent/CycleDetectingLockFactory;Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
-    .line 6
     :try_start_0
     invoke-super {p0, p1, p2, p3}, Ljava/util/concurrent/locks/ReentrantLock;->tryLock(JLjava/util/concurrent/TimeUnit;)Z
 
@@ -188,7 +168,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->d(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
     return p1
@@ -198,20 +177,17 @@
 
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->d(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
-    .line 8
     throw p1
 .end method
 
 .method public unlock()V
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->d(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
     return-void
@@ -221,6 +197,5 @@
 
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->d(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
-    .line 3
     throw v0
 .end method

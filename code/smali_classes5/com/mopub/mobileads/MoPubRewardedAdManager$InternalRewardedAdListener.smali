@@ -26,10 +26,8 @@
 .method constructor <init>(Lcom/mopub/mobileads/AdAdapter;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$InternalRewardedAdListener;->adAdapter:Lcom/mopub/mobileads/AdAdapter;
 
     return-void
@@ -40,7 +38,6 @@
 .method public onAdClicked()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CLICKED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v1, 0x0
@@ -49,7 +46,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$InternalRewardedAdListener;->adAdapter:Lcom/mopub/mobileads/AdAdapter;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdAdapter;->getAdNetworkId()Ljava/lang/String;
@@ -80,21 +76,17 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-static {v0, p1}, Lcom/mopub/common/MoPubReward;->success(Ljava/lang/String;I)Lcom/mopub/common/MoPubReward;
 
     move-result-object p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$InternalRewardedAdListener;->adAdapter:Lcom/mopub/mobileads/AdAdapter;
 
-    .line 3
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdAdapter;->getAdNetworkId()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     invoke-static {v0, v1, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->onRewardedAdCompleted(Lcom/mopub/mobileads/AdAdapter;Ljava/lang/String;Lcom/mopub/common/MoPubReward;)V
 
     return-void
@@ -103,7 +95,6 @@
 .method public onAdDismissed()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->DID_DISAPPEAR:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v1, 0x0
@@ -112,7 +103,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$InternalRewardedAdListener;->adAdapter:Lcom/mopub/mobileads/AdAdapter;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdAdapter;->getAdNetworkId()Ljava/lang/String;
@@ -137,7 +127,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/MoPubRewardedAdManager$15;->$SwitchMap$com$mopub$mobileads$MoPubErrorCode:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -158,20 +147,16 @@
 
     if-eq v0, v3, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$InternalRewardedAdListener;->adAdapter:Lcom/mopub/mobileads/AdAdapter;
 
-    .line 3
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdAdapter;->getAdNetworkId()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     invoke-static {v0, v1, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->onRewardedAdLoadFailure(Lcom/mopub/mobileads/AdAdapter;Ljava/lang/String;Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->SHOW_FAILED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
@@ -193,15 +178,12 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 6
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$InternalRewardedAdListener;->adAdapter:Lcom/mopub/mobileads/AdAdapter;
 
-    .line 7
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdAdapter;->getAdNetworkId()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 8
     invoke-static {v0, v1, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->onRewardedAdShowError(Lcom/mopub/mobileads/AdAdapter;Ljava/lang/String;Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :goto_0
@@ -221,7 +203,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v1, 0x2
@@ -246,7 +227,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager$InternalRewardedAdListener;->onAdFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     return-void
@@ -255,7 +235,6 @@
 .method public onAdLoaded()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->LOAD_SUCCESS:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v1, 0x0
@@ -264,15 +243,12 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$InternalRewardedAdListener;->adAdapter:Lcom/mopub/mobileads/AdAdapter;
 
-    .line 3
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdAdapter;->getAdNetworkId()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     invoke-static {v0, v1}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->onRewardedAdLoadSuccess(Lcom/mopub/mobileads/AdAdapter;Ljava/lang/String;)V
 
     return-void
@@ -293,7 +269,6 @@
 .method public onAdShown()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->SHOW_SUCCESS:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v1, 0x0
@@ -302,7 +277,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$InternalRewardedAdListener;->adAdapter:Lcom/mopub/mobileads/AdAdapter;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdAdapter;->getAdNetworkId()Ljava/lang/String;

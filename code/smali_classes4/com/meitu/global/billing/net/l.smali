@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/global/billing/net/l;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -60,17 +59,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/global/billing/net/l;->a:Ljava/util/Set;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -103,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/global/billing/net/l;->b:Ljava/util/Map;
 
@@ -113,7 +108,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/global/billing/net/l;->b:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -129,7 +123,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     :try_start_1
     iget-object v1, p0, Lcom/meitu/global/billing/net/l;->a:Ljava/util/Set;
@@ -140,14 +133,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/global/billing/net/k;
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/global/billing/net/l;->b:Ljava/util/Map;
 
     invoke-interface {v2, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -155,7 +146,6 @@
     .catch Ljava/lang/InstantiationException; {:try_start_1 .. :try_end_1} :catch_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -163,7 +153,6 @@
     :catch_0
     move-exception p1
 
-    .line 7
     sget-object v1, Lcom/meitu/global/billing/net/l;->c:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/IllegalAccessException;->getMessage()Ljava/lang/String;
@@ -177,7 +166,6 @@
     :catch_1
     move-exception p1
 
-    .line 8
     sget-object v1, Lcom/meitu/global/billing/net/l;->c:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/InstantiationException;->getMessage()Ljava/lang/String;
@@ -186,7 +174,6 @@
 
     invoke-static {v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     :cond_1
     :goto_0
     new-instance p1, Lcom/meitu/global/billing/net/OkHttpDataFetcher;
@@ -216,12 +203,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/l;->a:Ljava/util/Set;
 
     invoke-interface {v1, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

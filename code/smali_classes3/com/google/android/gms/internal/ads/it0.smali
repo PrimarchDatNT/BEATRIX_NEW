@@ -36,10 +36,8 @@
 .method public final d(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
     .locals 1
 
-    .line 1
     check-cast p1, Ljava/util/concurrent/TimeoutException;
 
-    .line 2
     new-instance p1, Lcom/google/android/gms/internal/ads/zzcmi;
 
     sget v0, Lcom/google/android/gms/internal/ads/bi1;->e:I

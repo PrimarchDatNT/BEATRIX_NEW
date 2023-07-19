@@ -66,7 +66,6 @@
 .method private constructor <init>(III)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-eqz p3, :cond_1
@@ -75,22 +74,18 @@
 
     if-eq p3, v0, :cond_0
 
-    .line 3
     iput p1, p0, Lcotlin/g2/r;->a:I
 
-    .line 4
     invoke-static {p1, p2, p3}, Lcotlin/internal/p;->d(III)I
 
     move-result p1
 
     iput p1, p0, Lcotlin/g2/r;->b:I
 
-    .line 5
     iput p3, p0, Lcotlin/g2/r;->c:I
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -100,7 +95,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -114,7 +108,6 @@
 .method public synthetic constructor <init>(IIILcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcotlin/g2/r;-><init>(III)V
 
     return-void
@@ -125,7 +118,6 @@
 .method public final c()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/g2/r;->a:I
 
     return v0
@@ -134,7 +126,6 @@
 .method public final e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/g2/r;->b:I
 
     return v0
@@ -147,7 +138,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlin/g2/r;
 
     if-eqz v0, :cond_2
@@ -204,7 +194,6 @@
 .method public final h()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/g2/r;->c:I
 
     return v0
@@ -213,7 +202,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/r;->isEmpty()Z
 
     move-result v0
@@ -248,7 +236,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/g2/s;
 
     iget v1, p0, Lcotlin/g2/r;->a:I
@@ -267,7 +254,6 @@
 .method public isEmpty()Z
     .locals 4
 
-    .line 1
     iget v0, p0, Lcotlin/g2/r;->c:I
 
     const/4 v1, 0x1
@@ -311,7 +297,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/r;->i()Lcotlin/collections/l1;
 
     move-result-object v0
@@ -324,7 +309,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/g2/r;->c:I
 
     const-string v1, " step "

@@ -25,7 +25,6 @@
 .method constructor <init>(Landroid/webkit/WebView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/CrashReport$a;->a:Landroid/webkit/WebView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final addJavascriptInterface(Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/CrashReport$a;->a:Landroid/webkit/WebView;
 
     invoke-virtual {v0, p1, p2}, Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V
@@ -49,7 +47,6 @@
 .method public final getContentDescription()Ljava/lang/CharSequence;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/CrashReport$a;->a:Landroid/webkit/WebView;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->getContentDescription()Ljava/lang/CharSequence;
@@ -62,7 +59,6 @@
 .method public final getUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/CrashReport$a;->a:Landroid/webkit/WebView;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->getUrl()Ljava/lang/String;
@@ -75,7 +71,6 @@
 .method public final loadUrl(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/CrashReport$a;->a:Landroid/webkit/WebView;
 
     invoke-virtual {v0, p1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
@@ -86,14 +81,12 @@
 .method public final setJavaScriptEnabled(Z)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/tencent/bugly/crashreport/CrashReport$a;->a:Landroid/webkit/WebView;
 
     invoke-virtual {p1}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Landroid/webkit/WebSettings;->getJavaScriptEnabled()Z
 
     move-result v0
@@ -102,7 +95,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-virtual {p1, v0}, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
 
     :cond_0

@@ -30,7 +30,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/jvm/internal/g;
 
     invoke-direct {v0, p0}, Lcotlin/jvm/internal/g;-><init>([Ljava/lang/Object;)V

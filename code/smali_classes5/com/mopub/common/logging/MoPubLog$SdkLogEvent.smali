@@ -54,7 +54,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$LogLevel;->DEBUG:Lcom/mopub/common/logging/MoPubLog$LogLevel;
@@ -69,7 +68,6 @@
 
     sput-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->INIT_STARTED:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
-    .line 2
     new-instance v2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     sget-object v4, Lcom/mopub/common/logging/MoPubLog$LogLevel;->INFO:Lcom/mopub/common/logging/MoPubLog$LogLevel;
@@ -84,7 +82,6 @@
 
     sput-object v2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->INIT_FINISHED:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
-    .line 3
     new-instance v5, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const-string v7, "INIT_FAILED"
@@ -97,7 +94,6 @@
 
     sput-object v5, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->INIT_FAILED:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
-    .line 4
     new-instance v4, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const-string v7, "CUSTOM"
@@ -110,7 +106,6 @@
 
     sput-object v4, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
-    .line 5
     new-instance v7, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const-string v10, "CUSTOM_WITH_THROWABLE"
@@ -123,7 +118,6 @@
 
     sput-object v7, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
-    .line 6
     new-instance v10, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const-string v12, "ERROR"
@@ -136,7 +130,6 @@
 
     sput-object v10, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
-    .line 7
     new-instance v12, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const-string v14, "ERROR_WITH_THROWABLE"
@@ -169,7 +162,6 @@
 
     aput-object v12, v1, v15
 
-    .line 8
     sput-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->$VALUES:[Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     return-void
@@ -194,19 +186,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p4}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p3, p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->mLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 5
     iput-object p4, p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->mMessageFormat:Ljava/lang/String;
 
     return-void
@@ -215,7 +202,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -230,7 +216,6 @@
 .method public static values()[Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->$VALUES:[Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     invoke-virtual {v0}, [Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->clone()Ljava/lang/Object;
@@ -249,7 +234,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->mLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     return-object v0
@@ -264,7 +248,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->INIT_FINISHED:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     if-ne p0, v0, :cond_1
@@ -275,7 +258,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     aget-object v1, p1, v0
 
     const-string v2, "\n"
@@ -284,7 +266,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -293,16 +274,13 @@
 
     const-string v1, "No adapters initialized."
 
-    .line 4
     aput-object v1, p1, v0
 
     goto :goto_0
 
-    .line 5
     :cond_0
     aput-object v1, p1, v0
 
-    .line 6
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->mMessageFormat:Ljava/lang/String;

@@ -33,7 +33,6 @@
 .method public constructor <init>(Lcotlin/jvm/u/q;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/f2/a$a;->b:Lcotlin/jvm/u/q;
 
     iput-object p2, p0, Lcotlin/f2/a$a;->c:Ljava/lang/Object;
@@ -63,7 +62,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/f2/a$a;->b:Lcotlin/jvm/u/q;
 
     invoke-interface {v0, p1, p2, p3}, Lcotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

@@ -19,22 +19,18 @@
 .method public constructor <init>(J)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/high16 v0, -0x8000000000000000L
 
-    .line 2
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/fp;->b:J
 
-    .line 3
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/fp;->c:Ljava/lang/Object;
 
-    .line 4
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/fp;->a:J
 
     return-void
@@ -45,12 +41,10 @@
 .method public final a()Z
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/fp;->c:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->j()Lcom/google/android/gms/common/util/g;
 
@@ -60,7 +54,6 @@
 
     move-result-wide v1
 
-    .line 3
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/fp;->b:J
 
     iget-wide v5, p0, Lcom/google/android/gms/internal/ads/fp;->a:J
@@ -73,18 +66,15 @@
 
     const/4 v1, 0x0
 
-    .line 4
     monitor-exit v0
 
     return v1
 
-    .line 5
     :cond_0
     iput-wide v1, p0, Lcom/google/android/gms/internal/ads/fp;->b:J
 
     const/4 v1, 0x1
 
-    .line 6
     monitor-exit v0
 
     return v1
@@ -92,7 +82,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -103,16 +92,13 @@
 .method public final b(J)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/fp;->c:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/fp;->a:J
 
-    .line 3
     monitor-exit v0
 
     return-void

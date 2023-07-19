@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -57,7 +55,6 @@
 
     add-int/2addr v1, v0
 
-    .line 2
     new-array v0, v1, [Ljava/lang/String;
 
     const/4 v2, 0x0
@@ -65,7 +62,6 @@
     :goto_0
     if-ge v2, v1, :cond_1
 
-    .line 3
     sget v3, Lcom/mopub/common/logging/MoPubDefaultLogger;->MAX_MESSAGE_LENGTH_BYTES:I
 
     mul-int v4, v2, v3
@@ -74,7 +70,6 @@
 
     mul-int v3, v3, v5
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v6
@@ -83,7 +78,6 @@
 
     move-result v3
 
-    .line 5
     invoke-virtual {p0, v4, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v3
@@ -119,7 +113,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p4}, Lcom/mopub/common/logging/MoPubDefaultLogger;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p4
@@ -155,7 +148,6 @@
 
     const-string v3, "[%s][%s] %s"
 
-    .line 2
     invoke-static {v3, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
@@ -179,7 +171,6 @@
 
     const-string v3, "[%s][%s][%s] %s"
 
-    .line 3
     invoke-static {v3, v8}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3

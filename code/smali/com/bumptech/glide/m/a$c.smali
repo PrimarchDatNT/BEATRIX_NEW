@@ -28,15 +28,12 @@
 .method private constructor <init>(Lcom/bumptech/glide/m/a;Lcom/bumptech/glide/m/a$d;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/m/a$c;->d:Lcom/bumptech/glide/m/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p2, p0, Lcom/bumptech/glide/m/a$c;->a:Lcom/bumptech/glide/m/a$d;
 
-    .line 4
     invoke-static {p2}, Lcom/bumptech/glide/m/a$d;->e(Lcom/bumptech/glide/m/a$d;)Z
 
     move-result p2
@@ -63,7 +60,6 @@
 .method synthetic constructor <init>(Lcom/bumptech/glide/m/a;Lcom/bumptech/glide/m/a$d;Lcom/bumptech/glide/m/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/bumptech/glide/m/a$c;-><init>(Lcom/bumptech/glide/m/a;Lcom/bumptech/glide/m/a$d;)V
 
     return-void
@@ -72,7 +68,6 @@
 .method static synthetic c(Lcom/bumptech/glide/m/a$c;)Lcom/bumptech/glide/m/a$d;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/bumptech/glide/m/a$c;->a:Lcom/bumptech/glide/m/a$d;
 
     return-object p0
@@ -81,7 +76,6 @@
 .method static synthetic d(Lcom/bumptech/glide/m/a$c;)[Z
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/bumptech/glide/m/a$c;->b:[Z
 
     return-object p0
@@ -95,12 +89,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/m/a$c;->d:Lcom/bumptech/glide/m/a;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/bumptech/glide/m/a$c;->a:Lcom/bumptech/glide/m/a$d;
 
@@ -110,7 +102,6 @@
 
     if-ne v1, p0, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/bumptech/glide/m/a$c;->a:Lcom/bumptech/glide/m/a$d;
 
     invoke-static {v1}, Lcom/bumptech/glide/m/a$d;->e(Lcom/bumptech/glide/m/a$d;)Z
@@ -121,14 +112,12 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return-object v2
 
-    .line 5
     :cond_0
     :try_start_1
     new-instance v1, Ljava/io/FileInputStream;
@@ -149,13 +138,11 @@
 
     return-object v1
 
-    .line 6
     :catch_0
     monitor-exit v0
 
     return-object v2
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -166,7 +153,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -184,7 +170,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/m/a$c;->d:Lcom/bumptech/glide/m/a;
 
     const/4 v1, 0x0
@@ -197,12 +182,10 @@
 .method public b()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/m/a$c;->c:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lcom/bumptech/glide/m/a$c;->a()V
     :try_end_0
@@ -221,14 +204,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/m/a$c;->d:Lcom/bumptech/glide/m/a;
 
     const/4 v1, 0x1
 
     invoke-static {v0, p0, v1}, Lcom/bumptech/glide/m/a;->g(Lcom/bumptech/glide/m/a;Lcom/bumptech/glide/m/a$c;Z)V
 
-    .line 2
     iput-boolean v1, p0, Lcom/bumptech/glide/m/a$c;->c:Z
 
     return-void
@@ -242,12 +223,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/m/a$c;->d:Lcom/bumptech/glide/m/a;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/bumptech/glide/m/a$c;->a:Lcom/bumptech/glide/m/a$d;
 
@@ -257,7 +236,6 @@
 
     if-ne v1, p0, :cond_2
 
-    .line 3
     iget-object v1, p0, Lcom/bumptech/glide/m/a$c;->a:Lcom/bumptech/glide/m/a$d;
 
     invoke-static {v1}, Lcom/bumptech/glide/m/a$d;->e(Lcom/bumptech/glide/m/a$d;)Z
@@ -266,14 +244,12 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/bumptech/glide/m/a$c;->b:[Z
 
     const/4 v2, 0x1
 
     aput-boolean v2, v1, p1
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/bumptech/glide/m/a$c;->a:Lcom/bumptech/glide/m/a$d;
 
@@ -281,7 +257,6 @@
 
     move-result-object p1
 
-    .line 6
     iget-object v1, p0, Lcom/bumptech/glide/m/a$c;->d:Lcom/bumptech/glide/m/a;
 
     invoke-static {v1}, Lcom/bumptech/glide/m/a;->f(Lcom/bumptech/glide/m/a;)Ljava/io/File;
@@ -294,7 +269,6 @@
 
     if-nez v1, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/bumptech/glide/m/a$c;->d:Lcom/bumptech/glide/m/a;
 
     invoke-static {v1}, Lcom/bumptech/glide/m/a;->f(Lcom/bumptech/glide/m/a;)Ljava/io/File;
@@ -303,13 +277,11 @@
 
     invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
 
-    .line 8
     :cond_1
     monitor-exit v0
 
     return-object p1
 
-    .line 9
     :cond_2
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -320,7 +292,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -336,14 +307,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bumptech/glide/m/a$c;->h(I)Ljava/io/InputStream;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/bumptech/glide/m/a;->c(Ljava/io/InputStream;)Ljava/lang/String;
 
     move-result-object p1
@@ -367,7 +336,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/io/FileOutputStream;
 
@@ -377,7 +345,6 @@
 
     invoke-direct {v1, p1}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
 
-    .line 2
     new-instance p1, Ljava/io/OutputStreamWriter;
 
     sget-object v2, Lcom/bumptech/glide/m/c;->b:Ljava/nio/charset/Charset;
@@ -386,13 +353,11 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 3
     :try_start_1
     invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     invoke-static {p1}, Lcom/bumptech/glide/m/c;->a(Ljava/io/Closeable;)V
 
     return-void
@@ -410,6 +375,5 @@
     :goto_0
     invoke-static {v0}, Lcom/bumptech/glide/m/c;->a(Ljava/io/Closeable;)V
 
-    .line 5
     throw p2
 .end method

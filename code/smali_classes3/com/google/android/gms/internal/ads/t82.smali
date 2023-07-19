@@ -19,7 +19,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     sget v0, Lcom/google/android/gms/internal/ads/pg2;->a:I
 
     const/16 v1, 0x17
@@ -33,11 +32,9 @@
     :cond_0
     const/16 v0, 0x18fc
 
-    .line 2
     :goto_0
     sput v0, Lcom/google/android/gms/internal/ads/t82;->a:I
 
-    .line 3
     new-instance v0, Ljava/util/UUID;
 
     const-wide/16 v1, 0x0
@@ -46,7 +43,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/t82;->b:Ljava/util/UUID;
 
-    .line 4
     new-instance v0, Ljava/util/UUID;
 
     const-wide v1, 0x1077efecc0b24d02L
@@ -57,7 +53,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/t82;->c:Ljava/util/UUID;
 
-    .line 5
     new-instance v0, Ljava/util/UUID;
 
     const-wide v1, -0x121074568629b532L    # -3.563403477674908E221
@@ -68,7 +63,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/t82;->d:Ljava/util/UUID;
 
-    .line 6
     new-instance v0, Ljava/util/UUID;
 
     const-wide v1, -0x65fb0f8667bfbd7aL
@@ -96,7 +90,6 @@
     :cond_0
     const-wide/16 v0, 0x3e8
 
-    .line 1
     div-long/2addr p0, v0
 
     return-wide p0

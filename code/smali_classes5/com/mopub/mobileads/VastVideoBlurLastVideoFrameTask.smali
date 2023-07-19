@@ -57,16 +57,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->mMediaMetadataRetriever:Landroid/media/MediaMetadataRetriever;
 
-    .line 3
     iput-object p2, p0, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->mBlurredLastVideoFrameImageView:Landroid/widget/ImageView;
 
-    .line 4
     iput p3, p0, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->mVideoDuration:I
 
     return-void
@@ -77,7 +73,6 @@
 .method protected varargs doInBackground([Ljava/lang/String;)Ljava/lang/Boolean;
     .locals 5
 
-    .line 2
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     if-eqz p1, :cond_2
@@ -94,17 +89,14 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     :try_start_0
     aget-object p1, p1, v1
 
-    .line 4
     iget-object v2, p0, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->mMediaMetadataRetriever:Landroid/media/MediaMetadataRetriever;
 
     invoke-virtual {v2, p1}, Landroid/media/MediaMetadataRetriever;->setDataSource(Ljava/lang/String;)V
 
-    .line 5
     iget-object p1, p0, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->mMediaMetadataRetriever:Landroid/media/MediaMetadataRetriever;
 
     iget v2, p0, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->mVideoDuration:I
@@ -132,14 +124,12 @@
     :cond_1
     const/4 v2, 0x4
 
-    .line 6
     invoke-static {p1, v2}, Lcom/mopub/common/util/ImageUtils;->applyFastGaussianBlurToBitmap(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->mBlurredLastVideoFrame:Landroid/graphics/Bitmap;
 
-    .line 7
     sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -149,7 +139,6 @@
     :catch_0
     move-exception p1
 
-    .line 8
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v3, 0x2
@@ -174,7 +163,6 @@
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, [Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->doInBackground([Ljava/lang/String;)Ljava/lang/Boolean;
@@ -192,7 +180,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->mBlurredLastVideoFrame:Landroid/graphics/Bitmap;
 
     return-object v0
@@ -201,7 +188,6 @@
 .method protected onCancelled()V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -222,14 +208,12 @@
 .method protected onPostExecute(Ljava/lang/Boolean;)V
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Landroid/os/AsyncTask;->isCancelled()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->onCancelled()V
 
     return-void
@@ -237,21 +221,18 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 5
     iget-object p1, p0, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->mBlurredLastVideoFrameImageView:Landroid/widget/ImageView;
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->mBlurredLastVideoFrame:Landroid/graphics/Bitmap;
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->mBlurredLastVideoFrameImageView:Landroid/widget/ImageView;
 
     const/16 v0, 0x64
@@ -265,7 +246,6 @@
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/VastVideoBlurLastVideoFrameTask;->onPostExecute(Ljava/lang/Boolean;)V

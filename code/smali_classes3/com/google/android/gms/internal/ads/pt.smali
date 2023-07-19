@@ -31,17 +31,14 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/yr;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/yr;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/pt;->a:Landroid/content/Context;
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     move-result-object v0
@@ -60,7 +57,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/pt;->b:Ljava/lang/String;
 
-    .line 4
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -73,7 +69,6 @@
 .method static synthetic d(Lcom/google/android/gms/internal/ads/pt;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/pt;->x(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -84,7 +79,6 @@
 .method static synthetic e(Lcom/google/android/gms/internal/ads/pt;Ljava/lang/String;Ljava/util/Map;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/ads/pt;->n(Ljava/lang/String;Ljava/util/Map;)V
 
     return-void
@@ -103,7 +97,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pt;->c:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -114,7 +107,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1, p2}, Lcom/google/android/gms/internal/ads/i8;->y(Ljava/lang/String;Ljava/util/Map;)V
 
     :cond_0
@@ -124,7 +116,6 @@
 .method private static x(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
 
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
@@ -394,7 +385,6 @@
 .method protected final i(Ljava/lang/String;Ljava/lang/String;I)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/pp;->b:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/tt;
@@ -411,7 +401,6 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/pp;->b:Landroid/os/Handler;
 
     new-instance v14, Lcom/google/android/gms/internal/ads/qt;
@@ -450,7 +439,6 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/pp;->b:Landroid/os/Handler;
 
     new-instance v12, Lcom/google/android/gms/internal/ads/rt;
@@ -489,7 +477,6 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/pp;->b:Landroid/os/Handler;
 
     new-instance v7, Lcom/google/android/gms/internal/ads/vt;
@@ -518,7 +505,6 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/pp;->b:Landroid/os/Handler;
 
     new-instance v7, Lcom/google/android/gms/internal/ads/st;
@@ -573,7 +559,6 @@
 .method public u(Ljava/lang/String;[Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/ads/pt;->v(Ljava/lang/String;)Z
 
     move-result p1
@@ -587,7 +572,6 @@
 .method protected w(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->a()Lcom/google/android/gms/internal/ads/pp;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/pp;->v(Ljava/lang/String;)Ljava/lang/String;

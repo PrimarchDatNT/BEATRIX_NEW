@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/utils/j;->c:Lcom/meitu/flymedia/glx/utils/j;
 
     if-nez v1, :cond_0
@@ -41,7 +39,6 @@
 
     sput-object v1, Lcom/meitu/flymedia/glx/utils/j;->c:Lcom/meitu/flymedia/glx/utils/j;
 
-    .line 2
     :cond_0
     sget-object v1, Lcom/meitu/flymedia/glx/utils/j;->c:Lcom/meitu/flymedia/glx/utils/j;
 
@@ -68,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->b:Lcom/meitu/flymedia/glx/utils/b;
 
     if-nez v1, :cond_0
@@ -79,7 +75,6 @@
 
     iput-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->b:Lcom/meitu/flymedia/glx/utils/b;
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->b:Lcom/meitu/flymedia/glx/utils/b;
 
@@ -91,7 +86,6 @@
 
     invoke-virtual {v1, v2, v3, p1}, Lcom/meitu/flymedia/glx/utils/b;->c([Ljava/lang/Object;II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -115,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->a:Lcom/meitu/flymedia/glx/utils/l;
 
     if-nez v1, :cond_0
@@ -126,7 +119,6 @@
 
     iput-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->a:Lcom/meitu/flymedia/glx/utils/l;
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->a:Lcom/meitu/flymedia/glx/utils/l;
 
@@ -138,7 +130,6 @@
 
     invoke-virtual {v1, v2, p2, v3, p1}, Lcom/meitu/flymedia/glx/utils/l;->c([Ljava/lang/Object;Ljava/util/Comparator;II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -158,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->b:Lcom/meitu/flymedia/glx/utils/b;
 
     if-nez v1, :cond_0
@@ -169,7 +159,6 @@
 
     iput-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->b:Lcom/meitu/flymedia/glx/utils/b;
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->b:Lcom/meitu/flymedia/glx/utils/b;
 
@@ -179,7 +168,6 @@
 
     invoke-virtual {v1, p1, v2, v3}, Lcom/meitu/flymedia/glx/utils/b;->c([Ljava/lang/Object;II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -199,7 +187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->b:Lcom/meitu/flymedia/glx/utils/b;
 
     if-nez v1, :cond_0
@@ -210,13 +197,11 @@
 
     iput-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->b:Lcom/meitu/flymedia/glx/utils/b;
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->b:Lcom/meitu/flymedia/glx/utils/b;
 
     invoke-virtual {v1, p1, p2, p3}, Lcom/meitu/flymedia/glx/utils/b;->c([Ljava/lang/Object;II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -238,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->a:Lcom/meitu/flymedia/glx/utils/l;
 
     if-nez v1, :cond_0
@@ -249,7 +233,6 @@
 
     iput-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->a:Lcom/meitu/flymedia/glx/utils/l;
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->a:Lcom/meitu/flymedia/glx/utils/l;
 
@@ -259,7 +242,6 @@
 
     invoke-virtual {v1, p1, p2, v2, v3}, Lcom/meitu/flymedia/glx/utils/l;->c([Ljava/lang/Object;Ljava/util/Comparator;II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -281,7 +263,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->a:Lcom/meitu/flymedia/glx/utils/l;
 
     if-nez v1, :cond_0
@@ -292,13 +273,11 @@
 
     iput-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->a:Lcom/meitu/flymedia/glx/utils/l;
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->a:Lcom/meitu/flymedia/glx/utils/l;
 
     invoke-virtual {v1, p1, p2, p3, p4}, Lcom/meitu/flymedia/glx/utils/l;->c([Ljava/lang/Object;Ljava/util/Comparator;II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

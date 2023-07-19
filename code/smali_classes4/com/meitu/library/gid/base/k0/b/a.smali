@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Double;->doubleToRawLongBits(D)J
 
     move-result-wide p0
@@ -37,7 +35,6 @@
 
     int-to-byte p0, p0
 
-    .line 2
     aput-byte p0, p2, p3
 
     add-int/lit8 p0, p3, 0x4
@@ -46,7 +43,6 @@
 
     int-to-byte v2, v2
 
-    .line 3
     aput-byte v2, p2, p0
 
     add-int/lit8 p0, p3, 0x5
@@ -57,7 +53,6 @@
 
     int-to-byte v2, v2
 
-    .line 4
     aput-byte v2, p2, p0
 
     add-int/lit8 p0, p3, 0x1
@@ -68,7 +63,6 @@
 
     int-to-byte v2, v2
 
-    .line 5
     aput-byte v2, p2, p0
 
     add-int/lit8 p0, p3, 0x2
@@ -79,7 +73,6 @@
 
     int-to-byte v2, v2
 
-    .line 6
     aput-byte v2, p2, p0
 
     add-int/lit8 p0, p3, 0x6
@@ -90,7 +83,6 @@
 
     int-to-byte v2, v2
 
-    .line 7
     aput-byte v2, p2, p0
 
     add-int/lit8 p0, p3, 0x7
@@ -101,7 +93,6 @@
 
     int-to-byte p1, p1
 
-    .line 8
     aput-byte p1, p2, p0
 
     add-int/lit8 p3, p3, 0x3
@@ -112,10 +103,8 @@
 
     int-to-byte p0, p0
 
-    .line 9
     aput-byte p0, p2, p3
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 p0, 0x8
@@ -130,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
     move-result p0
@@ -139,7 +127,6 @@
 
     int-to-byte v1, v1
 
-    .line 2
     aput-byte v1, p1, p2
 
     add-int/lit8 v1, p2, 0x1
@@ -150,7 +137,6 @@
 
     int-to-byte v2, v2
 
-    .line 3
     aput-byte v2, p1, v1
 
     add-int/lit8 v1, p2, 0x2
@@ -161,7 +147,6 @@
 
     int-to-byte v2, v2
 
-    .line 4
     aput-byte v2, p1, v1
 
     add-int/lit8 p2, p2, 0x3
@@ -172,10 +157,8 @@
 
     int-to-byte p0, p0
 
-    .line 5
     aput-byte p0, p1, p2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p0, 0x4
@@ -208,7 +191,6 @@
 
     int-to-byte v2, v2
 
-    .line 1
     aput-byte v2, p1, p2
 
     ushr-int/lit8 p0, p0, 0x7
@@ -225,7 +207,6 @@
 
     int-to-byte v4, v4
 
-    .line 2
     aput-byte v4, p1, v1
 
     ushr-int/lit8 p0, p0, 0x7
@@ -240,7 +221,6 @@
 
     int-to-byte v4, v4
 
-    .line 3
     aput-byte v4, p1, v3
 
     ushr-int/lit8 p0, p0, 0x7
@@ -255,7 +235,6 @@
 
     int-to-byte v3, v3
 
-    .line 4
     aput-byte v3, p1, v1
 
     ushr-int/lit8 p0, p0, 0x7
@@ -278,12 +257,10 @@
 
     int-to-byte p0, p0
 
-    .line 5
     aput-byte p0, p1, v1
 
     sub-int/2addr v2, p2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -330,7 +307,6 @@
 
     int-to-byte v4, v5
 
-    .line 1
     aput-byte v4, p2, p3
 
     const/4 v4, 0x7
@@ -353,7 +329,6 @@
 
     int-to-byte v10, v11
 
-    .line 2
     aput-byte v10, p2, v1
 
     ushr-long/2addr p0, v4
@@ -372,7 +347,6 @@
 
     int-to-byte v10, v11
 
-    .line 3
     aput-byte v10, p2, v5
 
     ushr-long/2addr p0, v4
@@ -391,7 +365,6 @@
 
     int-to-byte v10, v11
 
-    .line 4
     aput-byte v10, p2, v1
 
     ushr-long/2addr p0, v4
@@ -410,7 +383,6 @@
 
     int-to-byte v10, v11
 
-    .line 5
     aput-byte v10, p2, v5
 
     ushr-long/2addr p0, v4
@@ -429,7 +401,6 @@
 
     int-to-byte v10, v11
 
-    .line 6
     aput-byte v10, p2, v1
 
     ushr-long/2addr p0, v4
@@ -448,7 +419,6 @@
 
     int-to-byte v10, v11
 
-    .line 7
     aput-byte v10, p2, v5
 
     ushr-long/2addr p0, v4
@@ -467,7 +437,6 @@
 
     int-to-byte v10, v11
 
-    .line 8
     aput-byte v10, p2, v1
 
     ushr-long/2addr p0, v4
@@ -486,7 +455,6 @@
 
     int-to-byte v2, v3
 
-    .line 9
     aput-byte v2, p2, v5
 
     ushr-long/2addr p0, v4
@@ -509,12 +477,10 @@
 
     int-to-byte p0, p1
 
-    .line 10
     aput-byte p0, p2, v1
 
     sub-int/2addr v2, p3
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2

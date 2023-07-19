@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/DeFocusLayer$saveMask$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -72,24 +71,20 @@
 
     const/16 v1, 0x1e
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/w1;->j(I)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     sget-object v1, Lcom/commsource/studio/layer/DeFocusLayer$saveMask$1$a;->a:Lcom/commsource/studio/layer/DeFocusLayer$saveMask$1$a;
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$saveMask$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
@@ -114,7 +109,6 @@
     :cond_1
     invoke-virtual {v1, v2}, Lcom/commsource/studio/e0;->l(Ljava/lang/Object;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$saveMask$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/DeFocusLayer;->O0()Lcom/commsource/studio/layer/FaceLabelLayer$a;
@@ -145,7 +139,6 @@
     :goto_0
     invoke-virtual {v1, v3}, Lcom/commsource/studio/layer/FaceLabelLayer$a;->d(Ljava/util/List;)V
 
-    .line 7
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$saveMask$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
@@ -159,7 +152,6 @@
 
     invoke-static {v1, v4, v4, v3, v2}, Lcom/commsource/studio/component/UndoRedoComponent$c;->I(Lcom/commsource/studio/component/UndoRedoComponent$c;ZZILjava/lang/Object;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

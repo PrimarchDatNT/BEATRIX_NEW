@@ -43,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/reflect/c;-><init>(Ljava/lang/reflect/AccessibleObject;)V
 
     return-void
@@ -63,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/reflect/e$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/reflect/e$a;-><init>(Ljava/lang/reflect/Constructor;)V
@@ -85,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/reflect/e$b;
 
     invoke-direct {v0, p0}, Lcom/google/common/reflect/e$b;-><init>(Ljava/lang/reflect/Method;)V
@@ -106,30 +103,25 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/reflect/e;->x0()[Ljava/lang/reflect/Type;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/reflect/e;->z0()[[Ljava/lang/annotation/Annotation;
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lcom/google/common/collect/ImmutableList;->builder()Lcom/google/common/collect/ImmutableList$a;
 
     move-result-object v2
 
     const/4 v3, 0x0
 
-    .line 4
     :goto_0
     array-length v4, v0
 
     if-ge v3, v4, :cond_0
 
-    .line 5
     new-instance v4, Lcom/google/common/reflect/h;
 
     aget-object v5, v0, v3
@@ -148,7 +140,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v2}, Lcom/google/common/collect/ImmutableList$a;->m()Lcom/google/common/collect/ImmutableList;
 
@@ -167,7 +158,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/reflect/e;->y0()Ljava/lang/reflect/Type;
 
     move-result-object v0
@@ -203,7 +193,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -248,7 +237,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/reflect/e;->B0()Lcom/google/common/reflect/TypeToken;
 
     move-result-object v0
@@ -261,7 +249,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -273,7 +260,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/reflect/e;->B0()Lcom/google/common/reflect/TypeToken;
 
     move-result-object v2
@@ -307,7 +293,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/reflect/TypeToken;->of(Ljava/lang/Class;)Lcom/google/common/reflect/TypeToken;
 
     move-result-object p1
@@ -326,7 +311,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/reflect/c;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -344,7 +328,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/reflect/c;->getDeclaringClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -362,7 +345,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/reflect/e;->getDeclaringClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -377,7 +359,6 @@
 .method public bridge synthetic hashCode()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/reflect/c;->hashCode()I
 
     move-result v0
@@ -388,7 +369,6 @@
 .method public bridge synthetic toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/reflect/c;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -409,12 +389,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableList;->builder()Lcom/google/common/collect/ImmutableList$a;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/reflect/e;->w0()[Ljava/lang/reflect/Type;
 
     move-result-object v1
@@ -428,19 +406,16 @@
 
     aget-object v4, v1, v3
 
-    .line 3
     invoke-static {v4}, Lcom/google/common/reflect/TypeToken;->of(Ljava/lang/reflect/Type;)Lcom/google/common/reflect/TypeToken;
 
     move-result-object v4
 
-    .line 4
     invoke-virtual {v0, v4}, Lcom/google/common/collect/ImmutableList$a;->i(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList$a;
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableList$a;->m()Lcom/google/common/collect/ImmutableList;
 

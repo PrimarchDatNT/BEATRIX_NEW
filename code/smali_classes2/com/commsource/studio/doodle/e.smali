@@ -36,7 +36,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_doodle_manager_layout:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     return-void

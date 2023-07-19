@@ -42,7 +42,6 @@
 
     const-string v3, "com.heytap.openid.IOpenID"
 
-    .line 1
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/meitu/library/analytics/x/c$e;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -57,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/library/analytics/x/c$e;->a(Landroid/content/Context;)Z
 
     move-result p1
@@ -74,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/library/analytics/x/c$e;->b(Landroid/content/Context;)Z
 
     move-result p1
@@ -91,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/library/analytics/x/c$e;->c(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
@@ -108,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/x/c$l;->k:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -117,14 +112,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/library/analytics/x/c$l;->k:Ljava/lang/String;
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/meitu/library/analytics/x/c$l;->k:Ljava/lang/String;
 
@@ -145,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/x/c$l;->j:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -154,7 +146,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     :try_start_0
     invoke-virtual {p0, p1}, Lcom/meitu/library/analytics/x/c$l;->e(Landroid/content/Context;)Ljava/lang/String;
 
@@ -162,7 +153,6 @@
 
     iput-object v1, p0, Lcom/meitu/library/analytics/x/c$l;->k:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p1
@@ -179,14 +169,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     array-length v1, p1
 
     if-lez v1, :cond_1
 
     const/4 v1, 0x0
 
-    .line 5
     aget-object p1, p1, v1
 
     invoke-virtual {p1}, Landroid/content/pm/Signature;->toByteArray()[B
@@ -195,22 +183,18 @@
 
     const-string v2, "SHA1"
 
-    .line 6
     invoke-static {v2}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v2
 
-    .line 7
     invoke-virtual {v2, p1}, Ljava/security/MessageDigest;->digest([B)[B
 
     move-result-object p1
 
-    .line 8
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 9
     array-length v3, p1
 
     :goto_0
@@ -222,7 +206,6 @@
 
     or-int/lit16 v4, v4, 0x100
 
-    .line 10
     invoke-static {v4}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -241,7 +224,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -251,7 +233,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 12
     :catchall_0
     :cond_1
     iget-object p1, p0, Lcom/meitu/library/analytics/x/c$l;->j:Ljava/lang/String;
@@ -268,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "OUID"

@@ -13,7 +13,6 @@
 
     const-string v0, "Cannot convert empty string to tracer state"
 
-    .line 1
     invoke-direct {p0, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     return-void

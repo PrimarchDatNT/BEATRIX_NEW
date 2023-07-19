@@ -57,7 +57,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -76,22 +75,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/c;->d:Lcom/commsource/studio/function/background/BackgroundType;
 
     const/4 v1, 0x0
 
     if-nez p1, :cond_0
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/studio/function/background/c;->c:Landroid/graphics/Shader;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget v2, p0, Lcom/commsource/studio/function/background/c;->a:I
 
@@ -103,7 +98,6 @@
 
     goto/16 :goto_3
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getColors()[I
 
@@ -161,7 +155,6 @@
     :goto_1
     if-eqz v2, :cond_8
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getType()I
 
     move-result v2
@@ -176,11 +169,9 @@
 
     goto/16 :goto_2
 
-    .line 7
     :cond_4
     new-instance v1, Landroid/graphics/SweepGradient;
 
-    .line 8
     iget v2, p0, Lcom/commsource/studio/function/background/c;->a:I
 
     int-to-float v2, v2
@@ -193,7 +184,6 @@
 
     mul-float v2, v2, v6
 
-    .line 9
     iget v6, p0, Lcom/commsource/studio/function/background/c;->b:I
 
     int-to-float v6, v6
@@ -206,20 +196,16 @@
 
     mul-float v6, v6, v7
 
-    .line 10
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getColors()[I
 
     move-result-object v7
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getPositions()[F
 
     move-result-object v8
 
-    .line 12
     invoke-direct {v1, v2, v6, v7, v8}, Landroid/graphics/SweepGradient;-><init>(FF[I[F)V
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getStartPoint()[F
 
     move-result-object v2
@@ -236,7 +222,6 @@
 
     if-ne v2, v3, :cond_7
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getEndPoint()[F
 
     move-result-object v2
@@ -269,7 +254,6 @@
 
     float-to-double v2, v2
 
-    .line 15
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getEndPoint()[F
 
     move-result-object v6
@@ -304,7 +288,6 @@
 
     div-double/2addr v2, v6
 
-    .line 16
     invoke-static {v2, v3}, Ljava/lang/Math;->atan(D)D
 
     move-result-wide v2
@@ -319,7 +302,6 @@
 
     div-double/2addr v6, v2
 
-    .line 17
     new-instance v2, Landroid/graphics/Matrix;
 
     invoke-direct {v2}, Landroid/graphics/Matrix;-><init>()V
@@ -328,7 +310,6 @@
 
     double-to-float v3, v6
 
-    .line 18
     iget v6, p0, Lcom/commsource/studio/function/background/c;->a:I
 
     int-to-float v6, v6
@@ -341,7 +322,6 @@
 
     mul-float v6, v6, v5
 
-    .line 19
     iget v5, p0, Lcom/commsource/studio/function/background/c;->b:I
 
     int-to-float v5, v5
@@ -354,15 +334,12 @@
 
     mul-float v5, v5, p1
 
-    .line 20
     invoke-virtual {v2, v3, v6, v5}, Landroid/graphics/Matrix;->postRotate(FFF)Z
 
-    .line 21
     invoke-virtual {v1, v2}, Landroid/graphics/SweepGradient;->setLocalMatrix(Landroid/graphics/Matrix;)V
 
     goto/16 :goto_2
 
-    .line 22
     :cond_5
     iget v1, p0, Lcom/commsource/studio/function/background/c;->a:I
 
@@ -376,7 +353,6 @@
 
     mul-float v7, v1, v2
 
-    .line 23
     iget v1, p0, Lcom/commsource/studio/function/background/c;->b:I
 
     int-to-float v1, v1
@@ -389,7 +365,6 @@
 
     mul-float v8, v1, v2
 
-    .line 24
     iget v1, p0, Lcom/commsource/studio/function/background/c;->a:I
 
     int-to-double v1, v1
@@ -422,7 +397,6 @@
 
     move-result-wide v1
 
-    .line 25
     iget v3, p0, Lcom/commsource/studio/function/background/c;->b:I
 
     int-to-double v11, v3
@@ -455,27 +429,22 @@
 
     add-double/2addr v1, v3
 
-    .line 26
     invoke-static {v1, v2}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v1
 
     double-to-float v9, v1
 
-    .line 27
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getColors()[I
 
     move-result-object v10
 
-    .line 28
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getPositions()[F
 
     move-result-object v11
 
-    .line 29
     sget-object v12, Landroid/graphics/Shader$TileMode;->CLAMP:Landroid/graphics/Shader$TileMode;
 
-    .line 30
     new-instance v1, Landroid/graphics/RadialGradient;
 
     move-object v6, v1
@@ -484,7 +453,6 @@
 
     goto :goto_2
 
-    .line 31
     :cond_6
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getStartPoint()[F
 
@@ -502,7 +470,6 @@
 
     if-ne v2, v3, :cond_7
 
-    .line 32
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getEndPoint()[F
 
     move-result-object v1
@@ -517,7 +484,6 @@
 
     sub-float/2addr v1, v2
 
-    .line 33
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getEndPoint()[F
 
     move-result-object v2
@@ -532,67 +498,55 @@
 
     sub-float/2addr v2, v3
 
-    .line 34
     new-instance v11, Landroid/graphics/LinearGradient;
 
     const/4 v4, 0x0
 
     const/4 v5, 0x0
 
-    .line 35
     iget v3, p0, Lcom/commsource/studio/function/background/c;->a:I
 
     int-to-float v3, v3
 
     mul-float v6, v3, v1
 
-    .line 36
     iget v1, p0, Lcom/commsource/studio/function/background/c;->b:I
 
     int-to-float v1, v1
 
     mul-float v7, v1, v2
 
-    .line 37
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getColors()[I
 
     move-result-object v8
 
-    .line 38
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundType;->getPositions()[F
 
     move-result-object v9
 
-    .line 39
     sget-object v10, Landroid/graphics/Shader$TileMode;->CLAMP:Landroid/graphics/Shader$TileMode;
 
     move-object v3, v11
 
-    .line 40
     invoke-direct/range {v3 .. v10}, Landroid/graphics/LinearGradient;-><init>(FFFF[I[FLandroid/graphics/Shader$TileMode;)V
 
     move-object v1, v11
 
-    .line 41
     :cond_7
     :goto_2
     iput-object v1, p0, Lcom/commsource/studio/function/background/c;->c:Landroid/graphics/Shader;
 
-    .line 42
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 43
     :cond_8
     iput-object v1, p0, Lcom/commsource/studio/function/background/c;->c:Landroid/graphics/Shader;
 
-    .line 44
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 45
     :cond_9
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -607,18 +561,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/c;->a:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/studio/function/background/c;->b:I
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/background/c;->d:Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/background/c;->a(Lcom/commsource/studio/function/background/BackgroundType;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -633,7 +583,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/c;->d:Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -650,7 +599,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/c;->c:Landroid/graphics/Shader;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -669,7 +617,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/c;->d:Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -688,7 +635,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/c;->c:Landroid/graphics/Shader;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

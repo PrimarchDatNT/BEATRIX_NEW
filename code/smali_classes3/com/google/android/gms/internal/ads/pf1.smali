@@ -26,12 +26,10 @@
 .method public final a(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/pf1;->a:I
 
     check-cast p1, Lcom/google/android/gms/internal/ads/nj;
 
-    .line 2
     invoke-interface {p1, v0}, Lcom/google/android/gms/internal/ads/nj;->S8(I)V
 
     return-void

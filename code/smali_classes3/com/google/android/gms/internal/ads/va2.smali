@@ -19,13 +19,10 @@
 .method private constructor <init>(Landroid/media/MediaCodec$CryptoInfo;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/va2;->a:Landroid/media/MediaCodec$CryptoInfo;
 
-    .line 3
     new-instance p1, Landroid/media/MediaCodec$CryptoInfo$Pattern;
 
     const/4 v0, 0x0
@@ -40,7 +37,6 @@
 .method synthetic constructor <init>(Landroid/media/MediaCodec$CryptoInfo;Lcom/google/android/gms/internal/ads/sa2;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/va2;-><init>(Landroid/media/MediaCodec$CryptoInfo;)V
 
     return-void
@@ -49,12 +45,10 @@
 .method private final a(II)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/va2;->b:Landroid/media/MediaCodec$CryptoInfo$Pattern;
 
     invoke-virtual {v0, p1, p2}, Landroid/media/MediaCodec$CryptoInfo$Pattern;->set(II)V
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/va2;->a:Landroid/media/MediaCodec$CryptoInfo;
 
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/va2;->b:Landroid/media/MediaCodec$CryptoInfo$Pattern;
@@ -69,7 +63,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p1}, Lcom/google/android/gms/internal/ads/va2;->a(II)V
 
     return-void

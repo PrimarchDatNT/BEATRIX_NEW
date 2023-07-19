@@ -61,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/relight/NewRelightFragment$applyManualEffect$$inlined$run$lambda$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -78,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$applyManualEffect$$inlined$run$lambda$1;->$this_run:Lcom/commsource/studio/function/relight/NewRelightFragment$manualProcessor$2$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
@@ -99,12 +97,10 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m$a;->b()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$applyManualEffect$$inlined$run$lambda$1;->this$0:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->O1(Lcom/commsource/studio/function/relight/NewRelightFragment;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

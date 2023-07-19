@@ -24,15 +24,12 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lio/grpc/a;->b:Lio/grpc/a;
 
     iput-object v0, p0, Lio/grpc/k$b$a;->a:Lio/grpc/a;
 
-    .line 3
     sget-object v0, Lio/grpc/f;->k:Lio/grpc/f;
 
     iput-object v0, p0, Lio/grpc/k$b$a;->b:Lio/grpc/f;
@@ -45,7 +42,6 @@
 .method public a()Lio/grpc/k$b;
     .locals 3
 
-    .line 1
     new-instance v0, Lio/grpc/k$b;
 
     iget-object v1, p0, Lio/grpc/k$b$a;->a:Lio/grpc/a;
@@ -62,7 +58,6 @@
 
     const-string v0, "callOptions cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -79,7 +74,6 @@
 
     const-string v0, "transportAttrs cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

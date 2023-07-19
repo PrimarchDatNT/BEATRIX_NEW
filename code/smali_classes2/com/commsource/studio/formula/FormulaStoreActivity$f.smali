@@ -44,7 +44,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result p1
@@ -65,7 +64,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -73,7 +71,6 @@
 
     if-ne p1, v1, :cond_3
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -84,12 +81,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$f;->a:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaStoreActivity;->T0(Lcom/commsource/studio/formula/FormulaStoreActivity;)V
 
-    .line 5
     sget-object p1, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-virtual {p1}, Lcom/commsource/studio/formula/FormulaRepo;->z()V
@@ -99,10 +94,8 @@
     :cond_2
     sget p1, Lcom/res/provider/ResSTRING;->error_network:I
 
-    .line 6
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
 
-    .line 7
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

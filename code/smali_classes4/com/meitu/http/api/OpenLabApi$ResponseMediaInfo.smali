@@ -63,7 +63,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;->media_data:Ljava/lang/String;
@@ -279,7 +278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;->media_data:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -296,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;->media_extra:Lcom/meitu/http/api/OpenLabApi$MaskExtra;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -313,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;->media_profiles:Lcom/meitu/http/api/OpenLabApi$MediaProfiles;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -395,7 +391,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;->media_data:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -418,7 +413,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;->media_extra:Lcom/meitu/http/api/OpenLabApi$MaskExtra;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -441,7 +435,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;->media_profiles:Lcom/meitu/http/api/OpenLabApi$MediaProfiles;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

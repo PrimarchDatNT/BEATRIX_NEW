@@ -33,7 +33,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -83,7 +82,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v1
@@ -94,12 +92,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sticker/StickerConfig;->k0(Z)V
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
@@ -108,7 +104,6 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 4
     sget-object p1, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/sticker/StickerRepository;->v(Ljava/util/List;)V
@@ -116,7 +111,6 @@
     :cond_2
     if-eqz p3, :cond_3
 
-    .line 5
     sget-object p1, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/sticker/StickerRepository;->a(Ljava/util/List;)V
@@ -124,12 +118,10 @@
     :cond_3
     if-eqz p4, :cond_4
 
-    .line 6
     sget-object p1, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
     invoke-virtual {p1, p4}, Lcom/commsource/studio/sticker/StickerRepository;->v(Ljava/util/List;)V
 
-    .line 7
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -151,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     check-cast p2, Ljava/util/List;

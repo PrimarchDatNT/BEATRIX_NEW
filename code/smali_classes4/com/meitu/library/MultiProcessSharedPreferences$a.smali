@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/meitu/library/MultiProcessSharedPreferences;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/MultiProcessSharedPreferences$a;->a:Lcom/meitu/library/MultiProcessSharedPreferences;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -41,7 +40,6 @@
 
     const-string v0, "value"
 
-    .line 1
     invoke-virtual {p2, v0}, Landroid/content/Intent;->getSerializableExtra(Ljava/lang/String;)Ljava/io/Serializable;
 
     move-result-object v0
@@ -50,12 +48,10 @@
 
     const-string v1, "name"
 
-    .line 2
     invoke-virtual {p2, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/MultiProcessSharedPreferences$a;->a:Lcom/meitu/library/MultiProcessSharedPreferences;
 
     invoke-static {v1}, Lcom/meitu/library/MultiProcessSharedPreferences;->a(Lcom/meitu/library/MultiProcessSharedPreferences;)Ljava/lang/String;
@@ -70,19 +66,16 @@
 
     if-eqz v0, :cond_2
 
-    .line 4
     new-instance p2, Ljava/util/ArrayList;
 
     iget-object v1, p0, Lcom/meitu/library/MultiProcessSharedPreferences$a;->a:Lcom/meitu/library/MultiProcessSharedPreferences;
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/MultiProcessSharedPreferences;->b(Lcom/meitu/library/MultiProcessSharedPreferences;)Ljava/util/List;
 
     move-result-object v1
 
     invoke-direct {p2, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 6
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -92,14 +85,12 @@
     :goto_0
     if-ltz v1, :cond_2
 
-    .line 7
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
-    .line 8
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -118,7 +109,6 @@
 
     check-cast v4, Ljava/lang/ref/SoftReference;
 
-    .line 9
     invoke-virtual {v4}, Ljava/lang/ref/SoftReference;->get()Ljava/lang/Object;
 
     move-result-object v4
@@ -127,10 +117,8 @@
 
     if-eqz v4, :cond_0
 
-    .line 10
     iget-object v5, p0, Lcom/meitu/library/MultiProcessSharedPreferences$a;->a:Lcom/meitu/library/MultiProcessSharedPreferences;
 
-    .line 11
     invoke-interface {v4, v5, v2}, Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;->onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V
 
     goto :goto_1
@@ -140,7 +128,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

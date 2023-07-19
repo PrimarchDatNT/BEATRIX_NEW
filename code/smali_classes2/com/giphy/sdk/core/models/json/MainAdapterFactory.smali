@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,12 +32,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p0, p2}, Lcom/google/gson/Gson;->getDelegateAdapter(Lcom/google/gson/TypeAdapterFactory;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;
 
     move-result-object p1
 
-    .line 2
     new-instance p2, Lcom/giphy/sdk/core/models/json/MainAdapterFactory$1;
 
     invoke-direct {p2, p0, p1}, Lcom/giphy/sdk/core/models/json/MainAdapterFactory$1;-><init>(Lcom/giphy/sdk/core/models/json/MainAdapterFactory;Lcom/google/gson/TypeAdapter;)V

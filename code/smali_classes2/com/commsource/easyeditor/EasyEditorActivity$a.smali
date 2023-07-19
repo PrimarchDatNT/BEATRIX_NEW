@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/easyeditor/EasyEditorActivity;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/EasyEditorActivity$a;->b:Lcom/commsource/easyeditor/EasyEditorActivity;
 
     iput-object p2, p0, Lcom/commsource/easyeditor/EasyEditorActivity$a;->a:Ljava/lang/String;
@@ -46,14 +45,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/easyeditor/EasyEditorActivity$a;->b:Lcom/commsource/easyeditor/EasyEditorActivity;
 
     iget-object v0, p0, Lcom/commsource/easyeditor/EasyEditorActivity$a;->a:Ljava/lang/String;
 
     invoke-static {p2, v0}, Lcom/commsource/easyeditor/EasyEditorActivity;->O0(Lcom/commsource/easyeditor/EasyEditorActivity;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -66,14 +63,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/EasyEditorActivity$a;->b:Lcom/commsource/easyeditor/EasyEditorActivity;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/EasyEditorActivity$a;->a:Ljava/lang/String;
 
     invoke-static {v1, v2}, Lcom/commsource/easyeditor/EasyEditorActivity;->O0(Lcom/commsource/easyeditor/EasyEditorActivity;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -86,14 +81,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/EasyEditorActivity$a;->b:Lcom/commsource/easyeditor/EasyEditorActivity;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/EasyEditorActivity$a;->a:Ljava/lang/String;
 
     invoke-static {v1, v2}, Lcom/commsource/easyeditor/EasyEditorActivity;->O0(Lcom/commsource/easyeditor/EasyEditorActivity;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

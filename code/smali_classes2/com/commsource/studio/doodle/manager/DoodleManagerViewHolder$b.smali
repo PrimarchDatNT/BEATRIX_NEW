@@ -43,7 +43,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$b;->a:Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -106,7 +105,6 @@
     :goto_0
     invoke-virtual {v0, v4}, Lcom/commsource/studio/doodle/DoodleMaterial;->setCollectState(I)V
 
-    .line 2
     :cond_1
     iget-object v0, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$b;->a:Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;
 
@@ -168,7 +166,6 @@
     :goto_1
     invoke-virtual {v0, v6, v7}, Lcom/commsource/studio/doodle/DoodleMaterial;->setCollectTime(J)V
 
-    .line 3
     :cond_3
     sget-object v0, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
@@ -210,7 +207,6 @@
 
     if-eqz v6, :cond_7
 
-    .line 4
     iget-object v8, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$b;->a:Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;
 
     invoke-static {v8}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->v(Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;)Lcom/commsource/studio/doodle/h;
@@ -219,7 +215,6 @@
 
     invoke-virtual {v8, v2}, Lcom/commsource/studio/doodle/h;->a0(Z)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$b;->a:Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -260,7 +255,6 @@
 
     invoke-virtual {v6, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setCollectState(I)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$b;->a:Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -296,10 +290,8 @@
 
     invoke-virtual {v6, v1, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setCollectTime(J)V
 
-    .line 7
     invoke-virtual {v0, v6}, Lcom/commsource/studio/doodle/NewDoodleRepository;->i0(Lcom/commsource/studio/doodle/DoodleMaterial;)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$b;->a:Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->v(Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;)Lcom/commsource/studio/doodle/h;
@@ -314,13 +306,11 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 9
     :cond_7
     iget-object v0, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$b;->a:Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->x(Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;)V
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

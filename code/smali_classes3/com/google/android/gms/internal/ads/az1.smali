@@ -24,7 +24,6 @@
 
     int-to-byte v2, v3
 
-    .line 1
     aput-byte v2, p0, v1
 
     add-int/lit8 v0, v0, 0x1
@@ -46,7 +45,6 @@
 
     move-object/from16 v1, p1
 
-    .line 1
     array-length v2, v0
 
     const/16 v3, 0x20
@@ -55,7 +53,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {v0, v2, v2}, Lcom/google/android/gms/internal/ads/az1;->d([BII)J
 
     move-result-wide v4
@@ -68,7 +65,6 @@
 
     const/4 v9, 0x2
 
-    .line 3
     invoke-static {v0, v8, v9}, Lcom/google/android/gms/internal/ads/az1;->d([BII)J
 
     move-result-wide v10
@@ -81,7 +77,6 @@
 
     const/4 v13, 0x4
 
-    .line 4
     invoke-static {v0, v12, v13}, Lcom/google/android/gms/internal/ads/az1;->d([BII)J
 
     move-result-wide v14
@@ -92,7 +87,6 @@
 
     const/16 v3, 0x9
 
-    .line 5
     invoke-static {v0, v3, v12}, Lcom/google/android/gms/internal/ads/az1;->d([BII)J
 
     move-result-wide v17
@@ -105,7 +99,6 @@
 
     const/16 v7, 0x8
 
-    .line 6
     invoke-static {v0, v6, v7}, Lcom/google/android/gms/internal/ads/az1;->d([BII)J
 
     move-result-wide v21
@@ -140,7 +133,6 @@
 
     const/4 v3, 0x0
 
-    .line 7
     :goto_0
     array-length v12, v1
 
@@ -150,7 +142,6 @@
 
     if-ge v3, v12, :cond_1
 
-    .line 8
     array-length v12, v1
 
     sub-int/2addr v12, v3
@@ -159,22 +150,18 @@
 
     move-result v12
 
-    .line 9
     invoke-static {v1, v3, v7, v2, v12}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     const/16 v44, 0x1
 
-    .line 10
     aput-byte v44, v7, v12
 
     if-eq v12, v13, :cond_0
 
     add-int/lit8 v12, v12, 0x1
 
-    .line 11
     invoke-static {v7, v12, v6, v2}, Ljava/util/Arrays;->fill([BIIB)V
 
-    .line 12
     :cond_0
     invoke-static {v7, v2, v2}, Lcom/google/android/gms/internal/ads/az1;->d([BII)J
 
@@ -182,7 +169,6 @@
 
     add-long v41, v41, v44
 
-    .line 13
     invoke-static {v7, v8, v9}, Lcom/google/android/gms/internal/ads/az1;->d([BII)J
 
     move-result-wide v44
@@ -193,7 +179,6 @@
 
     const/4 v12, 0x4
 
-    .line 14
     invoke-static {v7, v6, v12}, Lcom/google/android/gms/internal/ads/az1;->d([BII)J
 
     move-result-wide v45
@@ -202,7 +187,6 @@
 
     const/16 v12, 0x9
 
-    .line 15
     invoke-static {v7, v12, v6}, Lcom/google/android/gms/internal/ads/az1;->d([BII)J
 
     move-result-wide v45
@@ -213,7 +197,6 @@
 
     const/16 v8, 0xc
 
-    .line 16
     invoke-static {v7, v8, v6}, Lcom/google/android/gms/internal/ads/az1;->d([BII)J
 
     move-result-wide v45
@@ -525,7 +508,6 @@
 
     and-long/2addr v1, v11
 
-    .line 17
     invoke-static {v0, v13}, Lcom/google/android/gms/internal/ads/az1;->c([BI)J
 
     move-result-wide v7
@@ -534,7 +516,6 @@
 
     and-long v7, v9, v11
 
-    .line 18
     invoke-static {v0, v14}, Lcom/google/android/gms/internal/ads/az1;->c([BI)J
 
     move-result-wide v14
@@ -551,7 +532,6 @@
 
     const/16 v15, 0x18
 
-    .line 19
     invoke-static {v0, v15}, Lcom/google/android/gms/internal/ads/az1;->c([BI)J
 
     move-result-wide v15
@@ -566,7 +546,6 @@
 
     const/16 v15, 0x1c
 
-    .line 20
     invoke-static {v0, v15}, Lcom/google/android/gms/internal/ads/az1;->c([BI)J
 
     move-result-wide v15
@@ -583,27 +562,22 @@
 
     const/4 v5, 0x0
 
-    .line 21
     invoke-static {v2, v7, v8, v5}, Lcom/google/android/gms/internal/ads/az1;->a([BJI)V
 
     const/4 v5, 0x4
 
-    .line 22
     invoke-static {v2, v9, v10, v5}, Lcom/google/android/gms/internal/ads/az1;->a([BJI)V
 
     const/16 v5, 0x8
 
-    .line 23
     invoke-static {v2, v3, v4, v5}, Lcom/google/android/gms/internal/ads/az1;->a([BJI)V
 
     const/16 v3, 0xc
 
-    .line 24
     invoke-static {v2, v0, v1, v3}, Lcom/google/android/gms/internal/ads/az1;->a([BJI)V
 
     return-object v2
 
-    .line 25
     :cond_2
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -617,7 +591,6 @@
 .method private static c([BI)J
     .locals 2
 
-    .line 1
     aget-byte v0, p0, p1
 
     and-int/lit16 v0, v0, 0xff
@@ -664,7 +637,6 @@
 .method private static d([BII)J
     .locals 2
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/ads/az1;->c([BI)J
 
     move-result-wide p0

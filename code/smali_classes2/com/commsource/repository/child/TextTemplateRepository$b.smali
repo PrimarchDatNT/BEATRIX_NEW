@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/commsource/studio/text/TextTemplateMaterial;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/repository/child/TextTemplateRepository$b;->a:Lcom/commsource/studio/text/TextTemplateMaterial;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/TextTemplateRepository$b;->a:Lcom/commsource/studio/text/TextTemplateMaterial;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->setDownloadProgress(I)V
 
-    .line 2
     sget-object p1, Lcom/commsource/repository/child/TextTemplateRepository;->s:Lcom/commsource/repository/child/TextTemplateRepository;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/TextTemplateRepository;->B()Lcom/commsource/material/download/b/a;
@@ -59,7 +56,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/material/download/b/a;->h(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -80,19 +76,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/TextTemplateRepository$b;->a:Lcom/commsource/studio/text/TextTemplateMaterial;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextTemplateMaterial;->setDownloadState(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/repository/child/TextTemplateRepository$b;->a:Lcom/commsource/studio/text/TextTemplateMaterial;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextTemplateMaterial;->setDownloadProgress(I)V
 
-    .line 3
     sget-object v1, Lcom/commsource/repository/child/TextTemplateRepository;->s:Lcom/commsource/repository/child/TextTemplateRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextTemplateRepository;->B()Lcom/commsource/material/download/b/a;
@@ -111,7 +104,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/material/download/b/a;->g(Lcom/commsource/material/download/b/a;Ljava/lang/Object;Ljava/lang/Throwable;ZILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -124,14 +116,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/TextTemplateRepository$b;->a:Lcom/commsource/studio/text/TextTemplateMaterial;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextTemplateMaterial;->setDownloadProgress(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/repository/child/TextTemplateRepository;->s:Lcom/commsource/repository/child/TextTemplateRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextTemplateRepository;->B()Lcom/commsource/material/download/b/a;
@@ -142,7 +132,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/material/download/b/a;->i(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -155,21 +144,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/TextTemplateRepository$b;->a:Lcom/commsource/studio/text/TextTemplateMaterial;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextTemplateMaterial;->setDownloadState(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/repository/child/TextTemplateRepository$b;->a:Lcom/commsource/studio/text/TextTemplateMaterial;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextTemplateMaterial;->setDownloadProgress(I)V
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -200,7 +186,6 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/repository/child/TextTemplateRepository$b;->a:Lcom/commsource/studio/text/TextTemplateMaterial;
 
     const-class v4, Lcom/commsource/studio/text/TextTemplateConfig;
@@ -213,7 +198,6 @@
 
     invoke-virtual {v3, v1}, Lcom/commsource/studio/text/TextTemplateMaterial;->setConfig(Lcom/commsource/studio/text/TextTemplateConfig;)V
 
-    .line 5
     invoke-static {v2}, Lcom/commsource/repository/child/TextTemplateRepository;->r(Lcom/commsource/repository/child/TextTemplateRepository;)Lf/k/i0/a/c1;
 
     move-result-object v1
@@ -222,7 +206,6 @@
 
     invoke-interface {v1, v3}, Lf/k/i0/a/c1;->h1(Lcom/commsource/studio/text/TextTemplateMaterial;)V
 
-    .line 6
     invoke-virtual {v2}, Lcom/commsource/repository/child/TextTemplateRepository;->B()Lcom/commsource/material/download/b/a;
 
     move-result-object v1
@@ -235,7 +218,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     invoke-virtual {v2}, Lcom/commsource/repository/child/TextTemplateRepository;->B()Lcom/commsource/material/download/b/a;
 
     move-result-object v1
@@ -244,7 +226,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/material/download/b/a;->j(Ljava/lang/Object;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

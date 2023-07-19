@@ -87,13 +87,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/webview/core/CommonWebView;->W:Z
 
-    .line 2
     sput-boolean v1, Lcom/meitu/webview/core/CommonWebView;->a0:Z
 
-    .line 3
     sput-boolean v1, Lcom/meitu/webview/core/CommonWebView;->b0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -104,15 +101,12 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/meitu/webview/core/CommonWebView;->d:I
 
-    .line 3
     new-instance p1, Lcom/meitu/webview/core/h;
 
     invoke-direct {p1}, Lcom/meitu/webview/core/h;-><init>()V
@@ -121,18 +115,14 @@
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/meitu/webview/core/CommonWebView;->P:Z
 
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lcom/meitu/webview/core/CommonWebView;->Q:Z
 
-    .line 6
     iput-boolean p1, p0, Lcom/meitu/webview/core/CommonWebView;->S:Z
 
-    .line 7
     invoke-direct {p0}, Lcom/meitu/webview/core/CommonWebView;->r()V
 
     return-void
@@ -141,15 +131,12 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 8
     invoke-direct {p0, p1, p2}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, -0x1
 
-    .line 9
     iput p1, p0, Lcom/meitu/webview/core/CommonWebView;->d:I
 
-    .line 10
     new-instance p1, Lcom/meitu/webview/core/h;
 
     invoke-direct {p1}, Lcom/meitu/webview/core/h;-><init>()V
@@ -158,18 +145,14 @@
 
     const/4 p1, 0x1
 
-    .line 11
     iput-boolean p1, p0, Lcom/meitu/webview/core/CommonWebView;->P:Z
 
     const/4 p2, 0x0
 
-    .line 12
     iput-boolean p2, p0, Lcom/meitu/webview/core/CommonWebView;->Q:Z
 
-    .line 13
     iput-boolean p1, p0, Lcom/meitu/webview/core/CommonWebView;->S:Z
 
-    .line 14
     invoke-direct {p0}, Lcom/meitu/webview/core/CommonWebView;->r()V
 
     return-void
@@ -178,15 +161,12 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 15
     invoke-direct {p0, p1, p2, p3}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, -0x1
 
-    .line 16
     iput p1, p0, Lcom/meitu/webview/core/CommonWebView;->d:I
 
-    .line 17
     new-instance p1, Lcom/meitu/webview/core/h;
 
     invoke-direct {p1}, Lcom/meitu/webview/core/h;-><init>()V
@@ -195,18 +175,14 @@
 
     const/4 p1, 0x1
 
-    .line 18
     iput-boolean p1, p0, Lcom/meitu/webview/core/CommonWebView;->P:Z
 
     const/4 p2, 0x0
 
-    .line 19
     iput-boolean p2, p0, Lcom/meitu/webview/core/CommonWebView;->Q:Z
 
-    .line 20
     iput-boolean p1, p0, Lcom/meitu/webview/core/CommonWebView;->S:Z
 
-    .line 21
     invoke-direct {p0}, Lcom/meitu/webview/core/CommonWebView;->r()V
 
     return-void
@@ -219,10 +195,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/webview/mtscript/l;->e(Lcom/meitu/webview/mtscript/l;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -235,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->a:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -257,21 +230,17 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/webkit/WebView;->clearCache(Z)V
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/meitu/webview/core/CommonWebView;->a:Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/core/CommonWebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -286,17 +255,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/webview/core/CommonWebView;->Q:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_0
     invoke-virtual {p0}, Landroid/webkit/WebView;->getHitTestResult()Landroid/webkit/WebView$HitTestResult;
@@ -307,7 +273,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-virtual {v1}, Landroid/webkit/WebView$HitTestResult;->getType()I
 
     move-result v2
@@ -320,13 +285,11 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 5
     :cond_1
     new-instance v2, Lcom/meitu/webview/core/CommonWebView$b;
 
     invoke-direct {v2, p0, v1}, Lcom/meitu/webview/core/CommonWebView$b;-><init>(Lcom/meitu/webview/core/CommonWebView;Landroid/webkit/WebView$HitTestResult;)V
 
-    .line 6
     invoke-virtual {p0}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -337,7 +300,6 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {p0}, Landroid/webkit/WebView;->getId()I
 
     move-result v3
@@ -350,13 +312,11 @@
 
     invoke-interface {p1, v2}, Landroid/view/MenuItem;->setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem;
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -370,10 +330,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/webview/mtscript/l;->g(Lcom/meitu/webview/mtscript/l;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -386,7 +344,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/meitu/webview/core/CommonWebView;->P:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -401,7 +358,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/webview/core/CommonWebView;->J:Lf/k/o0/c/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -416,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/webview/core/CommonWebView;->N:Lcom/meitu/webview/download/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -431,7 +386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/webview/core/CommonWebView;->K:Lf/k/o0/c/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -446,7 +400,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/webview/core/CommonWebView;->G(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -469,7 +422,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/webview/core/CommonWebView;->d0:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -484,7 +436,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/webview/core/CommonWebView;->a0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -499,7 +450,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/webview/core/CommonWebView;->W:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -514,7 +464,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/webview/core/CommonWebView;->U:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -529,19 +478,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/webview/core/CommonWebView;->c0:Lcom/meitu/webview/mtscript/m;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/webview/mtscript/m;
 
     invoke-direct {v1}, Lcom/meitu/webview/mtscript/m;-><init>()V
 
     sput-object v1, Lcom/meitu/webview/core/CommonWebView;->c0:Lcom/meitu/webview/mtscript/m;
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/meitu/webview/core/CommonWebView;->c0:Lcom/meitu/webview/mtscript/m;
 
@@ -557,14 +503,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/webview/mtscript/n/a;
 
     invoke-direct {v1}, Lcom/meitu/webview/mtscript/n/a;-><init>()V
 
     invoke-static {v1}, Lcom/meitu/webview/mtscript/l;->e(Lcom/meitu/webview/mtscript/l;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -577,14 +521,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/webview/core/CommonWebView$a;
 
     invoke-direct {v1, p0}, Lcom/meitu/webview/core/CommonWebView$a;-><init>(Lcom/meitu/webview/core/CommonWebView;)V
 
     invoke-virtual {p0, v1}, Landroid/webkit/WebView;->setDownloadListener(Landroid/webkit/DownloadListener;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -601,10 +543,8 @@
 
     const-string v1, "initEnvironmentWithSystemCore"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     :try_start_0
     invoke-static {}, Lcom/meitu/webview/core/CommonWebView;->l()V
     :try_end_0
@@ -617,13 +557,10 @@
 
     const-string v2, "initEnvironmentWithSystemCore failure"
 
-    .line 3
     invoke-static {v0, v2}, Lcom/meitu/webview/utils/g;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 5
     :goto_0
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -637,22 +574,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/webview/core/d;
 
     invoke-direct {v1}, Lcom/meitu/webview/core/d;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->g:Lcom/meitu/webview/core/d;
 
-    .line 2
     invoke-virtual {v1, p0}, Lcom/meitu/webview/core/d;->f(Lcom/meitu/webview/core/CommonWebView;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->g:Lcom/meitu/webview/core/d;
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/core/CommonWebView;->setWebChromeClient(Landroid/webkit/WebChromeClient;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -667,19 +600,15 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/webkit/WebView;->setScrollBarStyle(I)V
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/meitu/webview/core/CommonWebView;->o(Landroid/webkit/WebSettings;)V
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/meitu/webview/core/CommonWebView;->q(Landroid/webkit/WebSettings;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -689,20 +618,15 @@
     :catch_0
     move-exception v1
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 6
     :goto_0
     invoke-direct {p0}, Lcom/meitu/webview/core/CommonWebView;->m()V
 
-    .line 7
     invoke-direct {p0}, Lcom/meitu/webview/core/CommonWebView;->s()V
 
-    .line 8
     invoke-direct {p0}, Lcom/meitu/webview/core/CommonWebView;->p()V
 
-    .line 9
     invoke-static {}, Lcom/meitu/webview/core/CommonWebView;->x()Z
 
     move-result v1
@@ -715,10 +639,8 @@
 
     const/4 v3, 0x0
 
-    .line 10
     invoke-virtual {p0, v1, v3}, Lcom/meitu/webview/core/CommonWebView;->setLayerType(ILandroid/graphics/Paint;)V
 
-    .line 11
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -739,7 +661,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 12
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -761,7 +682,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -774,22 +694,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/webview/core/f;
 
     invoke-direct {v1}, Lcom/meitu/webview/core/f;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->f:Lcom/meitu/webview/core/f;
 
-    .line 2
     invoke-virtual {v1, p0}, Lcom/meitu/webview/core/f;->setCommonWebView(Lcom/meitu/webview/core/CommonWebView;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->f:Lcom/meitu/webview/core/f;
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/core/CommonWebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -802,10 +718,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/webview/utils/b;->i(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -826,10 +740,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/webview/core/CommonWebView;->d0:Ljava/util/ArrayList;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -842,10 +754,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lcom/meitu/webview/core/CommonWebView;->a0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -858,10 +768,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lcom/meitu/webview/core/CommonWebView;->W:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -874,10 +782,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/meitu/webview/core/CommonWebView;->U:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -890,10 +796,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lcom/meitu/webview/core/CommonWebView;->b0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -906,10 +810,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/webview/core/CommonWebView;->c0:Lcom/meitu/webview/mtscript/m;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -922,10 +824,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lcom/meitu/webview/core/CommonWebView;->V:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -938,7 +838,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/webview/core/CommonWebView;->b0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -953,7 +852,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/webview/core/CommonWebView;->V:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -970,11 +868,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/webkit/WebView;->removeAllViews()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/webkit/WebView;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
@@ -983,10 +879,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1, p0}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/webview/core/CommonWebView;->w()Z
 
@@ -996,12 +890,10 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     :try_start_1
     invoke-virtual {p0}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
@@ -1016,7 +908,6 @@
 
     check-cast v1, Landroid/view/accessibility/AccessibilityManager;
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v2
@@ -1031,35 +922,29 @@
 
     const/4 v3, 0x1
 
-    .line 8
     invoke-virtual {v2, v3}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 9
     invoke-virtual {v2, v1}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
-    .line 10
     instance-of v2, v1, Ljava/util/List;
 
     if-eqz v2, :cond_2
 
-    .line 11
     check-cast v1, Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
     goto :goto_0
 
-    .line 12
     :cond_2
     instance-of v2, v1, Ljava/util/Map;
 
     if-eqz v2, :cond_3
 
-    .line 13
     check-cast v1, Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->clear()V
@@ -1071,7 +956,6 @@
     :catch_0
     move-exception v1
 
-    .line 14
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1094,7 +978,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/webview/utils/g;->y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1111,10 +994,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v1, v1, v1}, Lcom/meitu/webview/core/CommonWebView;->D(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1139,10 +1020,8 @@
 
     move-object v5, p4
 
-    .line 1
     invoke-virtual/range {v1 .. v6}, Lcom/meitu/webview/core/CommonWebView;->E(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1168,30 +1047,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/core/CommonWebView;->a:Ljava/lang/String;
 
-    .line 2
     iput-object p4, p0, Lcom/meitu/webview/core/CommonWebView;->b:Ljava/lang/String;
 
-    .line 3
     iput-object p5, p0, Lcom/meitu/webview/core/CommonWebView;->c:Ljava/util/Map;
 
-    .line 4
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
 
     if-nez p1, :cond_1
 
-    .line 5
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 6
     invoke-static {p2, p3, p0}, Lcom/meitu/webview/utils/d;->d(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/webview/utils/d$c;)V
 
     goto :goto_0
@@ -1199,10 +1072,8 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/meitu/webview/core/CommonWebView;->G(Z)V
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1239,10 +1110,8 @@
 
     move-object v6, p2
 
-    .line 1
     invoke-virtual/range {v1 .. v6}, Lcom/meitu/webview/core/CommonWebView;->E(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1255,19 +1124,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/webview/core/CommonWebView;->t()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
 
@@ -1281,7 +1147,6 @@
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1298,24 +1163,18 @@
 
     const-string v2, "destroy"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript;->R()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/webview/core/CommonWebView;->B()V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->p:Lcom/meitu/webview/core/h;
 
     invoke-virtual {v1}, Lcom/meitu/webview/core/h;->a()V
 
-    .line 5
     invoke-super {p0}, Landroid/webkit/WebView;->destroy()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1330,10 +1189,8 @@
 
     const-string v1, ""
 
-    .line 1
     iput-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1346,7 +1203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->O:Lf/k/o0/c/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1361,7 +1217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->J:Lf/k/o0/c/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1376,7 +1231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/webview/core/CommonWebView;->d:I
 
     if-gez v1, :cond_0
@@ -1396,7 +1250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->N:Lcom/meitu/webview/download/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1411,7 +1264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1435,7 +1287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->c:Ljava/util/Map;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1450,7 +1301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, ""
@@ -1465,7 +1315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->K:Lf/k/o0/c/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1480,7 +1329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1495,7 +1343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "SYSTEM"
@@ -1510,7 +1357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/webview/utils/g;->j()Ljava/lang/String;
 
     move-result-object v1
@@ -1527,7 +1373,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->M:Lf/k/o0/c/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1542,7 +1387,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->L:Lf/k/o0/c/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1557,12 +1401,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->c:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->clear()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1575,14 +1417,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/webview/mtscript/h;->a()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/core/CommonWebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1597,10 +1437,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/meitu/webview/core/CommonWebView;->k(Ljava/lang/String;Lcom/meitu/webview/core/g;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1613,7 +1451,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1634,14 +1471,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->p:Lcom/meitu/webview/core/h;
 
     invoke-virtual {v1, p0, p1, p2}, Lcom/meitu/webview/core/h;->b(Lcom/meitu/webview/core/CommonWebView;Ljava/lang/String;Lcom/meitu/webview/core/g;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p2, Ljava/lang/StringBuilder;
 
@@ -1659,7 +1494,6 @@
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/core/CommonWebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1676,7 +1510,6 @@
     :try_start_0
     const-string v1, "CommonWebView"
 
-    .line 1
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1693,7 +1526,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-super {p0, p1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -1703,10 +1535,8 @@
     :catch_0
     move-exception p1
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1733,7 +1563,6 @@
     :try_start_0
     const-string v1, "CommonWebView"
 
-    .line 5
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1756,7 +1585,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-super {p0, p1, p2}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;Ljava/util/Map;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -1766,10 +1594,8 @@
     :catch_0
     move-exception p1
 
-    .line 7
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1783,7 +1609,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1816,10 +1641,8 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setUserAgentString(Ljava/lang/String;)V
 
-    .line 3
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1838,7 +1661,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/webview/utils/g;->m(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1851,13 +1673,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/webkit/WebView;->onCreateContextMenu(Landroid/view/ContextMenu;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/webview/core/CommonWebView;->H(Landroid/view/ContextMenu;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1874,18 +1693,14 @@
 
     const-string v2, "onPause"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/meitu/webview/core/CommonWebView;->R:Z
 
-    .line 3
     invoke-super {p0}, Landroid/webkit/WebView;->onPause()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1902,44 +1717,35 @@
 
     const-string v2, "onResume"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-super {p0}, Landroid/webkit/WebView;->onResume()V
 
     const/4 v1, 0x0
 
-    .line 3
     iput-boolean v1, p0, Lcom/meitu/webview/core/CommonWebView;->R:Z
 
-    .line 4
     iget-boolean v2, p0, Lcom/meitu/webview/core/CommonWebView;->S:Z
 
     if-eqz v2, :cond_0
 
-    .line 5
     iput-boolean v1, p0, Lcom/meitu/webview/core/CommonWebView;->S:Z
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {}, Lcom/meitu/webview/mtscript/h;->k()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/webview/mtscript/g;->f(Ljava/lang/String;)Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 8
     invoke-virtual {p0, v1}, Lcom/meitu/webview/core/CommonWebView;->j(Ljava/lang/String;)V
 
-    .line 9
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1956,7 +1762,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     :try_start_0
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
     :try_end_0
@@ -1967,58 +1772,43 @@
     :catch_0
     nop
 
-    .line 2
     :goto_0
     sget-object v2, Landroid/webkit/WebSettings$PluginState;->ON:Landroid/webkit/WebSettings$PluginState;
 
     invoke-virtual {p1, v2}, Landroid/webkit/WebSettings;->setPluginState(Landroid/webkit/WebSettings$PluginState;)V
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setSupportZoom(Z)V
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setBuiltInZoomControls(Z)V
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setAllowFileAccess(Z)V
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setUseWideViewPort(Z)V
 
-    .line 7
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setLoadWithOverviewMode(Z)V
 
-    .line 8
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setJavaScriptCanOpenWindowsAutomatically(Z)V
 
-    .line 9
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setDatabaseEnabled(Z)V
 
-    .line 10
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setDomStorageEnabled(Z)V
 
-    .line 11
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setGeolocationEnabled(Z)V
 
-    .line 12
     sget-object v2, Landroid/webkit/WebSettings$LayoutAlgorithm;->NORMAL:Landroid/webkit/WebSettings$LayoutAlgorithm;
 
     invoke-virtual {p1, v2}, Landroid/webkit/WebSettings;->setLayoutAlgorithm(Landroid/webkit/WebSettings$LayoutAlgorithm;)V
 
     const/4 v2, 0x0
 
-    .line 13
     invoke-virtual {p1, v2}, Landroid/webkit/WebSettings;->setDisplayZoomControls(Z)V
 
     const/16 v3, 0x64
 
-    .line 14
     invoke-virtual {p1, v3}, Landroid/webkit/WebSettings;->setTextZoom(I)V
 
-    .line 15
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setAppCacheEnabled(Z)V
 
-    .line 16
     invoke-virtual {p0}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
 
     move-result-object v3
@@ -2029,10 +1819,8 @@
 
     if-nez v3, :cond_0
 
-    .line 17
     invoke-virtual {p1, v1}, Landroid/webkit/WebSettings;->setCacheMode(I)V
 
-    .line 18
     :cond_0
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -2040,7 +1828,6 @@
 
     if-lt v1, v3, :cond_1
 
-    .line 19
     invoke-virtual {p0}, Lcom/meitu/webview/core/CommonWebView;->w()Z
 
     move-result v3
@@ -2049,7 +1836,6 @@
 
     const/4 v3, 0x2
 
-    .line 20
     invoke-virtual {p1, v3}, Landroid/webkit/WebSettings;->setMixedContentMode(I)V
 
     :cond_1
@@ -2057,7 +1843,6 @@
 
     if-lt v1, v3, :cond_2
 
-    .line 21
     invoke-virtual {p1, v2}, Landroid/webkit/WebSettings;->setMediaPlaybackRequiresUserGesture(Z)V
 
     :cond_2
@@ -2065,13 +1850,10 @@
 
     if-lt v1, v3, :cond_3
 
-    .line 22
     invoke-virtual {p1, v2}, Landroid/webkit/WebSettings;->setAllowFileAccessFromFileURLs(Z)V
 
-    .line 23
     invoke-virtual {p1, v2}, Landroid/webkit/WebSettings;->setAllowUniversalAccessFromFileURLs(Z)V
 
-    .line 24
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2085,7 +1867,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -2096,12 +1877,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Landroid/webkit/WebView;->getUrl()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/webview/core/CommonWebView;->w()Z
 
     move-result v2
@@ -2122,16 +1901,13 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/meitu/webview/core/CommonWebView;->loadUrl(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-super {p0}, Landroid/webkit/WebView;->reload()V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2146,10 +1922,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/core/CommonWebView;->J:Lf/k/o0/c/a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2162,10 +1936,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/webview/core/CommonWebView;->d:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2178,10 +1950,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/core/CommonWebView;->N:Lcom/meitu/webview/download/a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2194,7 +1964,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/webview/core/CommonWebView;->w()Z
 
     move-result v1
@@ -2210,17 +1979,14 @@
 
     const-string v1, "X5 CORE can not call webview.setDrawingCacheEnabled(true). Ignore this invoke."
 
-    .line 2
     invoke-static {p1, v1}, Lcom/meitu/webview/utils/g;->y(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 3
     :cond_1
     :goto_0
     invoke-super {p0, p1}, Landroid/webkit/WebView;->setDrawingCacheEnabled(Z)V
 
-    .line 4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2234,10 +2000,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/webview/core/CommonWebView;->P:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2250,10 +2014,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/webview/core/CommonWebView;->Q:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2266,14 +2028,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/webview/core/CommonWebView;->w()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-super {p0, p1, p2}, Landroid/webkit/WebView;->setLayerType(ILandroid/graphics/Paint;)V
 
     goto :goto_0
@@ -2283,10 +2043,8 @@
 
     const-string p2, "X5 CORE can not call webview.setLayerType(). Ignore this invoke."
 
-    .line 3
     invoke-static {p1, p2}, Lcom/meitu/webview/utils/g;->y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2300,10 +2058,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/core/CommonWebView;->O:Lf/k/o0/c/b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2316,10 +2072,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/core/CommonWebView;->K:Lf/k/o0/c/c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2334,7 +2088,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2347,30 +2100,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/meitu/webview/core/d;
 
     if-eqz v1, :cond_0
 
-    .line 2
     move-object v1, p1
 
     check-cast v1, Lcom/meitu/webview/core/d;
 
     iput-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->g:Lcom/meitu/webview/core/d;
 
-    .line 3
     invoke-virtual {v1, p0}, Lcom/meitu/webview/core/d;->f(Lcom/meitu/webview/core/CommonWebView;)V
 
-    .line 4
     invoke-super {p0, p1}, Landroid/webkit/WebView;->setWebChromeClient(Landroid/webkit/WebChromeClient;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2390,10 +2137,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/core/CommonWebView;->M:Lf/k/o0/c/e;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2406,10 +2151,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/core/CommonWebView;->L:Lf/k/o0/c/f;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2422,30 +2165,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/meitu/webview/core/f;
 
     if-eqz v1, :cond_0
 
-    .line 2
     move-object v1, p1
 
     check-cast v1, Lcom/meitu/webview/core/f;
 
     iput-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->f:Lcom/meitu/webview/core/f;
 
-    .line 3
     invoke-virtual {v1, p0}, Lcom/meitu/webview/core/f;->setCommonWebView(Lcom/meitu/webview/core/CommonWebView;)V
 
-    .line 4
     invoke-super {p0, p1}, Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2465,7 +2202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -2476,12 +2212,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
 
@@ -2489,19 +2223,16 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    .line 4
     invoke-virtual {v1}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_1
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -2509,14 +2240,12 @@
 
     if-lt v3, v4, :cond_2
 
-    .line 7
     invoke-virtual {v1}, Landroid/app/Activity;->isDestroyed()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -2524,7 +2253,6 @@
     :cond_2
     const/4 v1, 0x1
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -2537,7 +2265,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/webview/core/CommonWebView;->P:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2552,7 +2279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/webview/core/CommonWebView;->R:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2567,7 +2293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -2582,12 +2307,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->g:Lcom/meitu/webview/core/d;
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2612,12 +2335,10 @@
 
     invoke-static {v2, v1}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView;->g:Lcom/meitu/webview/core/d;
 
     invoke-virtual {v1, p1, p2, p3}, Lcom/meitu/webview/core/d;->c(IILandroid/content/Intent;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

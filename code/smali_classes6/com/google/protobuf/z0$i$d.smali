@@ -52,12 +52,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/protobuf/z0$i$d;->b:Lcom/google/protobuf/z0$i;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/protobuf/z0$i$d;->a:Ljava/util/Iterator;
 
     return-void
@@ -75,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/z0$i$c;
 
     iget-object v1, p0, Lcom/google/protobuf/z0$i$d;->b:Lcom/google/protobuf/z0$i;
@@ -96,7 +93,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/z0$i$d;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -109,7 +105,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/z0$i$d;->a()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -120,7 +115,6 @@
 .method public remove()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/z0$i$d;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V

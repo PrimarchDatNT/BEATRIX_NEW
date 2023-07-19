@@ -183,59 +183,50 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/shader/k;
 
     invoke-direct {v0}, Lcom/commsource/studio/shader/k;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->N:Lcom/commsource/studio/shader/k;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/processor/StyleProcessor$b;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/processor/StyleProcessor$b;-><init>(Lcom/commsource/studio/processor/StyleProcessor;)V
 
     iput-object v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->Q:Lcom/commsource/studio/processor/StyleProcessor$b;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/processor/StyleProcessor$d;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/processor/StyleProcessor$d;-><init>(Lcom/commsource/studio/processor/StyleProcessor;)V
 
     iput-object v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->R:Lcom/commsource/studio/processor/StyleProcessor$d;
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/processor/StyleProcessor$c;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/processor/StyleProcessor$c;-><init>(Lcom/commsource/studio/processor/StyleProcessor;)V
 
     iput-object v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->S:Lcom/commsource/studio/processor/StyleProcessor$c;
 
-    .line 6
     new-instance v0, Lcom/commsource/studio/processor/StyleProcessor$e;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/processor/StyleProcessor$e;-><init>(Lcom/commsource/studio/processor/StyleProcessor;)V
 
     iput-object v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->T:Lcom/commsource/studio/processor/StyleProcessor$e;
 
-    .line 7
     new-instance v0, Lcom/commsource/studio/processor/StyleProcessor$SubCloudProcessor;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/processor/StyleProcessor$SubCloudProcessor;-><init>(Lcom/commsource/studio/processor/StyleProcessor;)V
 
     iput-object v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->U:Lcom/commsource/studio/processor/StyleProcessor$SubCloudProcessor;
 
-    .line 8
     new-instance v0, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor;-><init>(Lcom/commsource/studio/processor/StyleProcessor;)V
 
     iput-object v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->V:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor;
 
-    .line 9
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -246,7 +237,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->X:Landroid/os/Handler;
 
-    .line 10
     new-instance v0, Lcom/commsource/studio/processor/StyleProcessor$f;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/processor/StyleProcessor$f;-><init>(Lcom/commsource/studio/processor/StyleProcessor;)V
@@ -255,13 +245,10 @@
 
     const/4 v0, 0x1
 
-    .line 11
     iput-boolean v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->Z:Z
 
-    .line 12
     iput-boolean v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->a0:Z
 
-    .line 13
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -270,24 +257,20 @@
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 14
     iput v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->l0:F
 
-    .line 15
     iput v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->r0:F
 
     const/4 v0, 0x2
 
     new-array v0, v0, [F
 
-    .line 16
     fill-array-data v0, :array_0
 
     iput-object v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->t0:[F
 
     const/16 v0, 0x64
 
-    .line 17
     iput v0, p0, Lcom/commsource/studio/processor/StyleProcessor;->y0:I
 
     return-void
@@ -321,7 +304,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/processor/StyleProcessor;->B0(Lcom/commsource/studio/bean/f;ZLcotlin/jvm/u/a;)V
 
@@ -337,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/processor/StyleProcessor;->V(Landroid/graphics/Bitmap;Lcom/commsource/studio/bean/f;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -352,7 +333,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/StyleProcessor;->W()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -367,7 +347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/StyleProcessor;->X()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -382,7 +361,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/processor/StyleProcessor;->Y:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -397,7 +375,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/processor/StyleProcessor;->X:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -412,7 +389,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/processor/StyleProcessor;->y0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -427,7 +403,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/processor/StyleProcessor;->O:Lcom/commsource/studio/bean/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -442,7 +417,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/processor/StyleProcessor;->b0:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -457,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/studio/processor/StyleProcessor;->z0(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -472,7 +445,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->y0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -487,7 +459,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->O:Lcom/commsource/studio/bean/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -502,7 +473,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->b0:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -517,14 +487,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -553,10 +521,8 @@
 
     move-result-object p2
 
-    .line 3
     invoke-static {p1, p2}, Lcom/commsource/util/common/e;->C(Landroid/graphics/Bitmap;Ljava/lang/String;)Z
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->b0:Ljava/util/HashMap;
 
     invoke-virtual {p1, v1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -565,7 +531,6 @@
 
     check-cast p1, Ljava/lang/String;
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -579,20 +544,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->a0:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/processor/StyleProcessor;->A0()V
 
     const/4 v1, 0x0
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->a0:Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -606,7 +567,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->O:Lcom/commsource/studio/bean/f;
 
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor;->P:Lcom/commsource/studio/bean/f;
@@ -619,12 +579,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->P:Lcom/commsource/studio/bean/f;
 
     iput-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->O:Lcom/commsource/studio/bean/f;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor;->e0:Lcotlin/jvm/u/l;
 
     if-eqz v2, :cond_0
@@ -635,7 +593,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -649,7 +606,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -660,17 +616,14 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->g(Ljava/lang/String;)Ljava/io/File;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -684,7 +637,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -711,14 +663,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p3, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
     const v2, 0x8d40
 
     invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 2
     iget v1, p3, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
     iget p3, p3, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
@@ -727,7 +677,6 @@
 
     invoke-static {v3, v3, v1, p3}, Landroid/opengl/GLES20;->glViewport(IIII)V
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/studio/processor/StyleProcessor;->N:Lcom/commsource/studio/shader/k;
 
     iget p1, p1, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
@@ -742,10 +691,8 @@
 
     invoke-virtual {p3, p1, p2, p4}, Lcom/commsource/studio/shader/k;->k(IIF)V
 
-    .line 4
     invoke-static {v2, v3}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -760,14 +707,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/i0;->h()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
@@ -780,7 +725,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -790,7 +734,6 @@
 
     move-result-object v1
 
-    .line 4
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
@@ -800,7 +743,6 @@
 
     invoke-direct {v3}, Lcom/commsource/camera/d1/g/g;-><init>()V
 
-    .line 5
     sget-object v4, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-static {v1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
@@ -817,7 +759,6 @@
 
     invoke-virtual {v3, v5}, Lcom/commsource/camera/d1/g/g;->h(I)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v5
@@ -826,7 +767,6 @@
 
     invoke-virtual {v3, v5}, Lcom/commsource/camera/d1/g/g;->i(I)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v5
@@ -835,10 +775,8 @@
 
     invoke-virtual {v3, v5}, Lcom/commsource/camera/d1/g/g;->f(I)V
 
-    .line 8
     invoke-virtual {v2, v3}, Lcom/commsource/studio/o;->u(Lcom/commsource/camera/d1/g/g;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v2
@@ -847,7 +785,6 @@
 
     invoke-direct {v3}, Lcom/commsource/camera/d1/g/s;-><init>()V
 
-    .line 10
     invoke-static {v1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v1
@@ -860,7 +797,6 @@
 
     move-result-object v1
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v4
@@ -889,28 +825,24 @@
 
     double-to-int v4, v4
 
-    .line 12
     invoke-static {v1, v4}, Lcom/meitu/core/processor/BlurProcessor;->stackBlur_bitmap(Landroid/graphics/Bitmap;I)Z
 
     const/16 v4, 0x14
 
     const/4 v5, 0x0
 
-    .line 13
     invoke-static {v1, v4, v5}, Lcom/meitu/core/processor/MteBaseEffectUtil;->findMaskDownBorderNorm(Landroid/graphics/Bitmap;IZ)F
 
     move-result v4
 
     iput v4, p0, Lcom/commsource/studio/processor/StyleProcessor;->l0:F
 
-    .line 14
     invoke-static {v1, v5}, Lcom/commsource/easyeditor/utils/opengl/n;->t(Landroid/graphics/Bitmap;Z)I
 
     move-result v1
 
     invoke-virtual {v3, v1}, Lcom/commsource/camera/d1/g/s;->h(I)V
 
-    .line 15
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
@@ -919,7 +851,6 @@
 
     invoke-virtual {v3, v1}, Lcom/commsource/camera/d1/g/s;->i(I)V
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
@@ -928,13 +859,10 @@
 
     invoke-virtual {v3, v1}, Lcom/commsource/camera/d1/g/s;->f(I)V
 
-    .line 17
     invoke-virtual {v2, v3}, Lcom/commsource/studio/o;->D(Lcom/commsource/camera/d1/g/s;)V
 
-    .line 18
     invoke-direct {p0}, Lcom/commsource/studio/processor/StyleProcessor;->Z()V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -965,10 +893,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->P:Lcom/commsource/studio/bean/f;
 
-    .line 2
     iget-boolean p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->W:Z
 
     if-eqz p1, :cond_0
@@ -978,10 +904,8 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->W:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->f()Lcom/commsource/easyeditor/utils/opengl/c;
 
     move-result-object p1
@@ -1001,15 +925,12 @@
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/processor/StyleProcessor$g;-><init>(Lcom/commsource/studio/processor/StyleProcessor;)V
 
-    .line 5
     new-instance v1, Lcom/commsource/studio/processor/StyleProcessor$h;
 
     invoke-direct {v1, p0, p3}, Lcom/commsource/studio/processor/StyleProcessor$h;-><init>(Lcom/commsource/studio/processor/StyleProcessor;Lcotlin/jvm/u/a;)V
 
-    .line 6
     invoke-virtual {p1, p2, v1}, Lcom/commsource/easyeditor/utils/opengl/e;->i(Ljava/lang/Runnable;Ljava/lang/Runnable;)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1023,7 +944,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->k0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1038,7 +958,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->j0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1053,7 +972,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->i0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1068,7 +986,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->g0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1083,7 +1000,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->h0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1098,7 +1014,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->l0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1113,7 +1028,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->f0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1128,7 +1042,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->v0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1143,7 +1056,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->u0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1158,7 +1070,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->x0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1173,7 +1084,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->q0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1188,7 +1098,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->n0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1203,7 +1112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->p0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1218,7 +1126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->m0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1233,7 +1140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->o0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1252,7 +1158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->M:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1267,7 +1172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->w0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1290,7 +1194,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->t0:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1305,7 +1208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->s0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1320,7 +1222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->r0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1349,7 +1250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->d0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1364,7 +1264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1375,7 +1274,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -1386,7 +1284,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     array-length v2, v1
 
     const/4 v3, 0x0
@@ -1396,14 +1293,12 @@
 
     aget-object v4, v1, v3
 
-    .line 4
     invoke-virtual {v4}, Ljava/io/File;->deleteOnExit()V
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1431,7 +1326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->e0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1446,7 +1340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->W:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1461,15 +1354,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->a()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->N:Lcom/commsource/studio/shader/k;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->e()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1482,7 +1372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->k0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1511,7 +1400,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor;->c0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1526,7 +1414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->j0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1541,53 +1428,43 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->c()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->N:Lcom/commsource/studio/shader/k;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->f()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->M:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->Q:Lcom/commsource/studio/processor/StyleProcessor$b;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/StyleProcessor$b;->b()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->R:Lcom/commsource/studio/processor/StyleProcessor$d;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/StyleProcessor$d;->b()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->S:Lcom/commsource/studio/processor/StyleProcessor$c;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/StyleProcessor$c;->d()V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->T:Lcom/commsource/studio/processor/StyleProcessor$e;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/StyleProcessor$e;->e()V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->U:Lcom/commsource/studio/processor/StyleProcessor$SubCloudProcessor;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/StyleProcessor$SubCloudProcessor;->f()V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->V:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor;->g()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1600,7 +1477,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->i0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1615,7 +1491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->g0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1630,7 +1505,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->h0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1645,7 +1519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->l0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1660,7 +1533,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->f0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1675,7 +1547,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->v0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1690,7 +1561,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->u0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1705,7 +1575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->x0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1720,7 +1589,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->q0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1735,7 +1603,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->n0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1750,7 +1617,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->p0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1765,7 +1631,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->m0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1780,7 +1645,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->o0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1797,7 +1661,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->M:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1812,7 +1675,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->w0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1835,17 +1697,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->Z:Z
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->M:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->o()Lcom/commsource/studio/shader/n;
 
     move-result-object v2
@@ -1859,24 +1718,19 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->Z:Z
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->M:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz v1, :cond_4
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor;->P:Lcom/commsource/studio/bean/f;
 
     if-nez v2, :cond_2
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/processor/StyleProcessor;->X()V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->o()Lcom/commsource/studio/shader/n;
 
     move-result-object v2
@@ -1892,10 +1746,8 @@
     :cond_2
     if-nez v2, :cond_3
 
-    .line 9
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 10
     :cond_3
     invoke-virtual {v2}, Lcom/commsource/studio/bean/f;->g()I
 
@@ -1905,7 +1757,6 @@
 
     goto :goto_0
 
-    .line 11
     :pswitch_0
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor;->V:Lcom/commsource/studio/processor/StyleProcessor$SubCloudArProcessor;
 
@@ -1913,7 +1764,6 @@
 
     goto :goto_0
 
-    .line 12
     :pswitch_1
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor;->U:Lcom/commsource/studio/processor/StyleProcessor$SubCloudProcessor;
 
@@ -1921,7 +1771,6 @@
 
     goto :goto_0
 
-    .line 13
     :pswitch_2
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor;->R:Lcom/commsource/studio/processor/StyleProcessor$d;
 
@@ -1929,7 +1778,6 @@
 
     goto :goto_0
 
-    .line 14
     :pswitch_3
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor;->T:Lcom/commsource/studio/processor/StyleProcessor$e;
 
@@ -1937,7 +1785,6 @@
 
     goto :goto_0
 
-    .line 15
     :pswitch_4
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor;->S:Lcom/commsource/studio/processor/StyleProcessor$c;
 
@@ -1945,13 +1792,11 @@
 
     goto :goto_0
 
-    .line 16
     :pswitch_5
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor;->Q:Lcom/commsource/studio/processor/StyleProcessor$b;
 
     invoke-virtual {v3, v2, v1}, Lcom/commsource/studio/processor/StyleProcessor$b;->c(Lcom/commsource/studio/bean/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 17
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -1961,7 +1806,6 @@
 
     invoke-direct {p0, v2, v1, p1, v3}, Lcom/commsource/studio/processor/StyleProcessor;->z0(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;I)V
 
-    .line 18
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1987,7 +1831,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->t0:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2002,7 +1845,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->s0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2017,7 +1859,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->r0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2044,7 +1885,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->d0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2071,7 +1911,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->e0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2098,7 +1937,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->c0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2113,7 +1951,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/processor/StyleProcessor;->W:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

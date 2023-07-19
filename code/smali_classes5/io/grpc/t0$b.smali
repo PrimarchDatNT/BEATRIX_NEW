@@ -57,12 +57,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "addresses are not set"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -73,7 +71,6 @@
 
     const-string p1, "attrs"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -84,7 +81,6 @@
 
     const-string p1, "customOptions"
 
-    .line 5
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -99,7 +95,6 @@
 .method synthetic constructor <init>(Ljava/util/List;Lio/grpc/a;[[Ljava/lang/Object;Lio/grpc/t0$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lio/grpc/t0$b;-><init>(Ljava/util/List;Lio/grpc/a;[[Ljava/lang/Object;)V
 
     return-void
@@ -108,7 +103,6 @@
 .method public static d()Lio/grpc/t0$b$a;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/t0$b$a;
 
     invoke-direct {v0}, Lio/grpc/t0$b$a;-><init>()V
@@ -129,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/t0$b;->a:Ljava/util/List;
 
     return-object v0
@@ -138,7 +131,6 @@
 .method public b()Lio/grpc/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/t0$b;->b:Lio/grpc/a;
 
     return-object v0
@@ -158,14 +150,12 @@
 
     const-string v0, "key"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 v0, 0x0
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget-object v2, p0, Lio/grpc/t0$b;->c:[[Ljava/lang/Object;
 
@@ -173,7 +163,6 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 3
     aget-object v2, v2, v1
 
     aget-object v2, v2, v0
@@ -184,7 +173,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     iget-object p1, p0, Lio/grpc/t0$b;->c:[[Ljava/lang/Object;
 
     aget-object p1, p1, v1
@@ -200,7 +188,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {p1}, Lio/grpc/t0$b$b;->a(Lio/grpc/t0$b$b;)Ljava/lang/Object;
 
@@ -212,7 +199,6 @@
 .method public e()Lio/grpc/t0$b$a;
     .locals 2
 
-    .line 1
     invoke-static {}, Lio/grpc/t0$b;->d()Lio/grpc/t0$b$a;
 
     move-result-object v0
@@ -241,7 +227,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -250,7 +235,6 @@
 
     const-string v2, "addrs"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -259,14 +243,12 @@
 
     const-string v2, "attrs"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
     iget-object v1, p0, Lio/grpc/t0$b;->c:[[Ljava/lang/Object;
 
-    .line 4
     invoke-static {v1}, Ljava/util/Arrays;->deepToString([Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -277,7 +259,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

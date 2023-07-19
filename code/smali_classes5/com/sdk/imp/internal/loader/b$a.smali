@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/internal/loader/b;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/internal/loader/b$a;->b:Lcom/sdk/imp/internal/loader/b;
 
     iput-object p2, p0, Lcom/sdk/imp/internal/loader/b$a;->a:Ljava/lang/String;
@@ -56,18 +55,15 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-object v0, p1, Lcom/sdk/imp/webview/i;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lf/q/b/b;->E(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b$a;->b:Lcom/sdk/imp/internal/loader/b;
 
     iget p1, p1, Lcom/sdk/imp/webview/i;->a:I
@@ -78,7 +74,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/sdk/imp/internal/loader/b$a;->b:Lcom/sdk/imp/internal/loader/b;
 

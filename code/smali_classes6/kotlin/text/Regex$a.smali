@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcotlin/text/Regex$a;-><init>()V
 
     return-void
@@ -37,7 +35,6 @@
 .method public static final synthetic a(Lcotlin/text/Regex$a;I)I
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/text/Regex$a;->b(I)I
 
     move-result p0
@@ -73,7 +70,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Ljava/util/regex/Pattern;->quote(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -98,7 +94,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Ljava/util/regex/Matcher;->quoteReplacement(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -123,7 +118,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/text/RegexOption;->LITERAL:Lcotlin/text/RegexOption;
 
     new-instance v1, Lcotlin/text/Regex;

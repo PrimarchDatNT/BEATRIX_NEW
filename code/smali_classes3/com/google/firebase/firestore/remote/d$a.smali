@@ -24,12 +24,10 @@
 .method constructor <init>(Lcom/google/firebase/firestore/remote/d;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/remote/d$a;->b:Lcom/google/firebase/firestore/remote/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p2, p0, Lcom/google/firebase/firestore/remote/d$a;->a:J
 
     return-void
@@ -40,7 +38,6 @@
 .method a(Ljava/lang/Runnable;)V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/d$a;->b:Lcom/google/firebase/firestore/remote/d;
 
     invoke-static {v0}, Lcom/google/firebase/firestore/remote/d;->c(Lcom/google/firebase/firestore/remote/d;)Lcom/google/firebase/firestore/util/AsyncQueue;
@@ -49,7 +46,6 @@
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/util/AsyncQueue;->z()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/d$a;->b:Lcom/google/firebase/firestore/remote/d;
 
     invoke-static {v0}, Lcom/google/firebase/firestore/remote/d;->d(Lcom/google/firebase/firestore/remote/d;)J
@@ -62,16 +58,13 @@
 
     if-nez v4, :cond_0
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/google/firebase/firestore/remote/d$a;->b:Lcom/google/firebase/firestore/remote/d;
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -86,7 +79,6 @@
 
     const-string v1, "stream callback skipped by CloseGuardedRunner."
 
-    .line 6
     invoke-static {p1, v1, v0}, Lcom/google/firebase/firestore/util/Logger;->a(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :goto_0

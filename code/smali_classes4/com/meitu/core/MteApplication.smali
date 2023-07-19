@@ -34,12 +34,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/core/MteApplication;->application:Lcom/meitu/core/MteApplication;
 
     const/4 v1, 0x0
 
-    .line 2
     sput-boolean v1, Lcom/meitu/core/MteApplication;->needPrintfError:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -50,12 +48,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/core/MteApplication;->context:Landroid/content/Context;
 
     return-void
@@ -68,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/core/MteApplication;
@@ -119,16 +114,13 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/meitu/core/MteApplication;->application:Lcom/meitu/core/MteApplication;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/core/MteApplication;->newInstance()Lcom/meitu/core/MteApplication;
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/meitu/core/MteApplication;->application:Lcom/meitu/core/MteApplication;
     :try_end_0
@@ -141,12 +133,10 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -159,7 +149,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -178,10 +167,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     sput-boolean v1, Lcom/meitu/core/MteApplication;->needPrintfError:Z
 
-    .line 2
     invoke-static {}, Lcom/meitu/core/MteApplication;->getInstance()Lcom/meitu/core/MteApplication;
 
     move-result-object v1
@@ -198,7 +185,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     :try_start_0
     invoke-static {}, Lcom/meitu/core/MteApplication;->getInstance()Lcom/meitu/core/MteApplication;
 
@@ -217,10 +203,8 @@
     :catchall_0
     const-string v1, "ReLinker load gnustl_shared error"
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 5
     :goto_0
     :try_start_1
     invoke-static {}, Lcom/meitu/core/MteApplication;->getInstance()Lcom/meitu/core/MteApplication;
@@ -240,10 +224,8 @@
     :catchall_1
     const-string v1, "ReLinker load c++_shared error"
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 7
     :goto_1
     :try_start_2
     invoke-static {}, Lcom/meitu/core/MteApplication;->getInstance()Lcom/meitu/core/MteApplication;
@@ -265,15 +247,12 @@
 
     const-string v2, "ReLinker load mttypes error"
 
-    .line 8
     invoke-static {v2}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_4
 
-    .line 10
     :cond_0
     :try_start_3
     invoke-static {v4}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
@@ -285,10 +264,8 @@
     :catchall_3
     const-string v1, "System load gnustl_shared error"
 
-    .line 11
     invoke-static {v1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 12
     :goto_2
     :try_start_4
     invoke-static {v3}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
@@ -300,10 +277,8 @@
     :catchall_4
     const-string v1, "System load c++_shared error"
 
-    .line 13
     invoke-static {v1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 14
     :goto_3
     :try_start_5
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
@@ -317,13 +292,10 @@
 
     const-string v2, "System load mttypes error"
 
-    .line 15
     invoke-static {v2}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 16
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 17
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -342,26 +314,22 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/core/MteApplication;->application:Lcom/meitu/core/MteApplication;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/meitu/core/MteApplication;
 
     invoke-direct {v2}, Lcom/meitu/core/MteApplication;-><init>()V
 
     sput-object v2, Lcom/meitu/core/MteApplication;->application:Lcom/meitu/core/MteApplication;
 
-    .line 3
     new-instance v2, Ljava/lang/Object;
 
     invoke-direct {v2}, Ljava/lang/Object;-><init>()V
 
     sput-object v2, Lcom/meitu/core/MteApplication;->mSyncLock:Ljava/lang/Object;
 
-    .line 4
     :cond_0
     sget-object v2, Lcom/meitu/core/MteApplication;->application:Lcom/meitu/core/MteApplication;
 
@@ -390,7 +358,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/MteApplication;->context:Landroid/content/Context;
 
     if-nez v1, :cond_1
@@ -398,7 +365,6 @@
     :try_start_0
     const-string v1, "com.meitu.library.application.BaseApplication"
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -414,7 +380,6 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 3
     invoke-virtual {v1, v2, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
@@ -429,7 +394,6 @@
     :try_start_2
     new-array v4, v3, [Ljava/lang/Object;
 
-    .line 4
     sget-object v5, Lcom/meitu/core/MteApplication;->ajc$tjp_0:Lorg/aspectj/lang/c$b;
 
     invoke-static {v5, p0, v1, v2, v4}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -480,7 +444,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     sget-object v2, Lcom/meitu/core/MteApplication;->mSyncLock:Ljava/lang/Object;
 
     monitor-enter v2
@@ -490,7 +453,6 @@
     .catch Ljava/lang/NoSuchMethodException; {:try_start_2 .. :try_end_2} :catch_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 6
     :try_start_3
     invoke-virtual {v1}, Landroid/app/Application;->getBaseContext()Landroid/content/Context;
 
@@ -498,7 +460,6 @@
 
     iput-object v1, p0, Lcom/meitu/core/MteApplication;->context:Landroid/content/Context;
 
-    .line 7
     monitor-exit v2
 
     goto :goto_0
@@ -523,7 +484,6 @@
     :catch_0
     nop
 
-    .line 8
     :cond_0
     :goto_0
     iget-object v1, p0, Lcom/meitu/core/MteApplication;->context:Landroid/content/Context;
@@ -536,10 +496,8 @@
 
     const-string v1, "ERROR: please setContext for MteApplication."
 
-    .line 9
     invoke-static {v1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 10
     :cond_1
     iget-object v1, p0, Lcom/meitu/core/MteApplication;->context:Landroid/content/Context;
 
@@ -555,26 +513,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/MteApplication;->mSyncLock:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     sget-object v2, Lcom/meitu/core/MteApplication;->application:Lcom/meitu/core/MteApplication;
 
     iput-object p1, v2, Lcom/meitu/core/MteApplication;->context:Landroid/content/Context;
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -582,7 +535,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     monitor-exit v1
     :try_end_1

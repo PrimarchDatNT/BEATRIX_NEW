@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/gid/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/gid/d$b;->a:Lcom/meitu/library/analytics/gid/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -65,7 +63,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
@@ -78,7 +75,6 @@
 
     const/4 v2, 0x2
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/analytics/gid/i;->d()Lcom/meitu/library/analytics/gid/i;
 
     move-result-object v4
@@ -87,22 +83,18 @@
 
     move-result v4
 
-    .line 4
     invoke-static {v1, v2, v4, v3}, Lcom/meitu/library/analytics/gid/j;->a(IIILjava/lang/String;)V
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/analytics/gid/i;->d()Lcom/meitu/library/analytics/gid/i;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/library/analytics/gid/i;->j()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_0
     iget-object v4, p0, Lcom/meitu/library/analytics/gid/d$b;->a:Lcom/meitu/library/analytics/gid/d;
 
@@ -112,7 +104,6 @@
 
     if-nez v4, :cond_1
 
-    .line 8
     iget-object v1, p0, Lcom/meitu/library/analytics/gid/d$b;->a:Lcom/meitu/library/analytics/gid/d;
 
     invoke-static {v1}, Lcom/meitu/library/analytics/gid/d;->d(Lcom/meitu/library/analytics/gid/d;)Ljava/lang/Runnable;
@@ -121,12 +112,10 @@
 
     invoke-static {v1}, Lcom/meitu/library/analytics/gid/d;->e(Ljava/lang/Runnable;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_1
     sget-object v4, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_ANDROID_ID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
@@ -144,7 +133,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/library/analytics/gid/d$b;->a:Lcom/meitu/library/analytics/gid/d;
 
     invoke-static {v1}, Lcom/meitu/library/analytics/gid/d;->f(Lcom/meitu/library/analytics/gid/d;)Lcom/meitu/library/analytics/sdk/content/f;
@@ -163,7 +151,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 12
     invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -172,11 +159,9 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     invoke-static {v4}, Lcom/meitu/library/analytics/gid/d;->h(I)I
 
-    .line 14
     iget-object v3, p0, Lcom/meitu/library/analytics/gid/d$b;->a:Lcom/meitu/library/analytics/gid/d;
 
     invoke-static {v3}, Lcom/meitu/library/analytics/gid/d;->f(Lcom/meitu/library/analytics/gid/d;)Lcom/meitu/library/analytics/sdk/content/f;
@@ -195,14 +180,12 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 15
     invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_3
 
-    .line 16
     iget-object v3, p0, Lcom/meitu/library/analytics/gid/d$b;->a:Lcom/meitu/library/analytics/gid/d;
 
     invoke-static {v3}, Lcom/meitu/library/analytics/gid/d;->f(Lcom/meitu/library/analytics/gid/d;)Lcom/meitu/library/analytics/sdk/content/f;
@@ -215,7 +198,6 @@
 
     invoke-virtual {v3, v5, v1}, Lcom/meitu/library/analytics/y/n/i;->n(Lcom/meitu/library/analytics/y/n/d;Ljava/lang/Object;)Lcom/meitu/library/analytics/y/n/i;
 
-    .line 17
     :cond_3
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -239,7 +221,6 @@
 
     goto :goto_1
 
-    .line 18
     :cond_4
     :goto_0
     invoke-static {}, Lcom/meitu/library/analytics/gid/d;->g()I
@@ -250,10 +231,8 @@
 
     if-ge v1, v3, :cond_5
 
-    .line 19
     invoke-static {}, Lcom/meitu/library/analytics/gid/d;->i()I
 
-    .line 20
     iget-object v1, p0, Lcom/meitu/library/analytics/gid/d$b;->a:Lcom/meitu/library/analytics/gid/d;
 
     invoke-static {v1}, Lcom/meitu/library/analytics/gid/d;->f(Lcom/meitu/library/analytics/gid/d;)Lcom/meitu/library/analytics/sdk/content/f;
@@ -276,7 +255,6 @@
 
     invoke-virtual {v1, v3, v6}, Lcom/meitu/library/analytics/y/n/i;->n(Lcom/meitu/library/analytics/y/n/d;Ljava/lang/Object;)Lcom/meitu/library/analytics/y/n/i;
 
-    .line 21
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -309,7 +287,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     invoke-static {}, Lcom/meitu/library/analytics/y/h/f;->g()Lcom/meitu/library/analytics/y/h/h;
 
     move-result-object v1
@@ -340,11 +317,9 @@
 
     goto :goto_1
 
-    .line 23
     :cond_5
     invoke-static {v4}, Lcom/meitu/library/analytics/gid/d;->h(I)I
 
-    .line 24
     :cond_6
     :goto_1
     invoke-static {}, Lcom/meitu/library/analytics/gid/d;->g()I
@@ -353,44 +328,36 @@
 
     if-nez v1, :cond_7
 
-    .line 25
     iget-object v1, p0, Lcom/meitu/library/analytics/gid/d$b;->a:Lcom/meitu/library/analytics/gid/d;
 
     invoke-static {v1}, Lcom/meitu/library/analytics/gid/d;->j(Lcom/meitu/library/analytics/gid/d;)V
 
     const-string v1, "====== updateCount == 0"
 
-    .line 26
     invoke-static {v2, v1}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
-    .line 27
     invoke-static {v1}, Lcom/meitu/library/analytics/gid/d;->k(Z)Z
 
-    .line 28
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/gid/d;->b(J)J
 
-    .line 29
     iget-object v1, p0, Lcom/meitu/library/analytics/gid/d$b;->a:Lcom/meitu/library/analytics/gid/d;
 
     invoke-static {v1}, Lcom/meitu/library/analytics/gid/d;->l(Lcom/meitu/library/analytics/gid/d;)V
 
-    .line 30
     invoke-static {v4}, Lcom/meitu/library/analytics/gid/d;->k(Z)Z
 
-    .line 31
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/gid/d;->b(J)J
 
-    .line 32
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

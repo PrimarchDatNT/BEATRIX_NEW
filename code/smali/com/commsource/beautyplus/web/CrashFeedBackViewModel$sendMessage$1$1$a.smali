@@ -23,7 +23,6 @@
 .method constructor <init>(Lcom/meitu/template/bean/Chat;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackViewModel$sendMessage$1$1$a;->g:Lcom/meitu/template/bean/Chat;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -40,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/i0/b/b;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -49,12 +47,10 @@
 
     invoke-direct {v1, v2}, Lf/k/i0/b/b;-><init>(Landroid/content/Context;)V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautyplus/web/CrashFeedBackViewModel$sendMessage$1$1$a;->g:Lcom/meitu/template/bean/Chat;
 
     invoke-virtual {v1, v2}, Lf/k/i0/b/b;->h(Lcom/meitu/template/bean/Chat;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

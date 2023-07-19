@@ -22,10 +22,8 @@
 .method constructor <init>(Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$a;->p:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -40,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$a;->p:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
 
     invoke-static {v1}, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;->a(Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;)Lcom/commsource/easyeditor/widget/WheelLayoutManager;

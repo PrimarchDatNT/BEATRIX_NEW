@@ -51,7 +51,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     check-cast p0, Lcotlin/collections/o1/b;
 
     invoke-virtual {p0}, Lcotlin/collections/o1/b;->r()Ljava/util/List;
@@ -92,7 +91,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/t;->j(I)Ljava/util/List;
 
     move-result-object p0
@@ -137,7 +135,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/collections/t;->i()Ljava/util/List;
 
     move-result-object v0
@@ -171,19 +168,16 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v0, v1, v2}, Lcotlin/internal/l;->a(III)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/collections/s;->V()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/ArithmeticException;
 
@@ -218,19 +212,16 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v0, v1, v2}, Lcotlin/internal/l;->a(III)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/collections/s;->W()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/ArithmeticException;
 
@@ -259,7 +250,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/jvm/internal/t;->a(Ljava/util/Collection;)[Ljava/lang/Object;
 
     move-result-object p0
@@ -284,7 +274,6 @@
 
     const-string v0, "null cannot be cast to non-null type kotlin.Array<kotlin.Any?>"
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcotlin/jvm/internal/t;->b(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;
@@ -324,7 +313,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -337,7 +325,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     array-length p1, p0
 
@@ -378,7 +365,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/o1/b;
 
     invoke-direct {v0}, Lcotlin/collections/o1/b;-><init>()V
@@ -411,7 +397,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/o1/b;
 
     invoke-direct {v0, p0}, Lcotlin/collections/o1/b;-><init>(I)V
@@ -434,7 +419,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
@@ -475,7 +459,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->K5(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p0
@@ -524,7 +507,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->K5(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p0
@@ -551,7 +533,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Collections;->list(Ljava/util/Enumeration;)Ljava/util/ArrayList;
 
     move-result-object p0

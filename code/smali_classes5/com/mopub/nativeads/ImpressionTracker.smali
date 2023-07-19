@@ -79,7 +79,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v1, Ljava/util/WeakHashMap;
 
     invoke-direct {v1}, Ljava/util/WeakHashMap;-><init>()V
@@ -98,7 +97,6 @@
 
     new-instance v5, Landroid/os/Handler;
 
-    .line 2
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object p1
@@ -107,7 +105,6 @@
 
     move-object v0, p0
 
-    .line 3
     invoke-direct/range {v0 .. v5}, Lcom/mopub/nativeads/ImpressionTracker;-><init>(Ljava/util/Map;Ljava/util/Map;Lcom/mopub/common/VisibilityTracker$VisibilityChecker;Lcom/mopub/common/VisibilityTracker;Landroid/os/Handler;)V
 
     return-void
@@ -157,35 +154,26 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     iput-object p1, p0, Lcom/mopub/nativeads/ImpressionTracker;->mTrackedViews:Ljava/util/Map;
 
-    .line 6
     iput-object p2, p0, Lcom/mopub/nativeads/ImpressionTracker;->mPollingViews:Ljava/util/Map;
 
-    .line 7
     iput-object p3, p0, Lcom/mopub/nativeads/ImpressionTracker;->mVisibilityChecker:Lcom/mopub/common/VisibilityTracker$VisibilityChecker;
 
-    .line 8
     iput-object p4, p0, Lcom/mopub/nativeads/ImpressionTracker;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
-    .line 9
     new-instance p1, Lcom/mopub/nativeads/ImpressionTracker$1;
 
     invoke-direct {p1, p0}, Lcom/mopub/nativeads/ImpressionTracker$1;-><init>(Lcom/mopub/nativeads/ImpressionTracker;)V
 
     iput-object p1, p0, Lcom/mopub/nativeads/ImpressionTracker;->mVisibilityTrackerListener:Lcom/mopub/common/VisibilityTracker$VisibilityTrackerListener;
 
-    .line 10
     invoke-virtual {p4, p1}, Lcom/mopub/common/VisibilityTracker;->setVisibilityTrackerListener(Lcom/mopub/common/VisibilityTracker$VisibilityTrackerListener;)V
 
-    .line 11
     iput-object p5, p0, Lcom/mopub/nativeads/ImpressionTracker;->mPollHandler:Landroid/os/Handler;
 
-    .line 12
     new-instance p1, Lcom/mopub/nativeads/ImpressionTracker$PollingRunnable;
 
     invoke-direct {p1, p0}, Lcom/mopub/nativeads/ImpressionTracker$PollingRunnable;-><init>(Lcom/mopub/nativeads/ImpressionTracker;)V
@@ -198,7 +186,6 @@
 .method static synthetic access$000(Lcom/mopub/nativeads/ImpressionTracker;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mTrackedViews:Ljava/util/Map;
 
     return-object p0
@@ -207,7 +194,6 @@
 .method static synthetic access$100(Lcom/mopub/nativeads/ImpressionTracker;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mPollingViews:Ljava/util/Map;
 
     return-object p0
@@ -216,7 +202,6 @@
 .method static synthetic access$200(Lcom/mopub/nativeads/ImpressionTracker;)Lcom/mopub/common/VisibilityTracker$VisibilityChecker;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mVisibilityChecker:Lcom/mopub/common/VisibilityTracker$VisibilityChecker;
 
     return-object p0
@@ -225,7 +210,6 @@
 .method private removePollingView(Landroid/view/View;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mPollingViews:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -242,7 +226,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mTrackedViews:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -253,11 +236,9 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1}, Lcom/mopub/nativeads/ImpressionTracker;->removeView(Landroid/view/View;)V
 
-    .line 3
     invoke-interface {p2}, Lcom/mopub/nativeads/ImpressionInterface;->isImpressionRecorded()Z
 
     move-result v0
@@ -266,25 +247,21 @@
 
     return-void
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mTrackedViews:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
     invoke-interface {p2}, Lcom/mopub/nativeads/ImpressionInterface;->getImpressionMinPercentageViewed()I
 
     move-result v1
 
-    .line 6
     invoke-interface {p2}, Lcom/mopub/nativeads/ImpressionInterface;->getImpressionMinVisiblePx()Ljava/lang/Integer;
 
     move-result-object p2
 
-    .line 7
     invoke-virtual {v0, p1, v1, p2}, Lcom/mopub/common/VisibilityTracker;->addView(Landroid/view/View;ILjava/lang/Integer;)V
 
     return-void
@@ -293,22 +270,18 @@
 .method public clear()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mTrackedViews:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->clear()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mPollingViews:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->clear()V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
     invoke-virtual {v0}, Lcom/mopub/common/VisibilityTracker;->clear()V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mPollHandler:Landroid/os/Handler;
 
     const/4 v1, 0x0
@@ -321,17 +294,14 @@
 .method public destroy()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/nativeads/ImpressionTracker;->clear()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
     invoke-virtual {v0}, Lcom/mopub/common/VisibilityTracker;->destroy()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mVisibilityTrackerListener:Lcom/mopub/common/VisibilityTracker$VisibilityTrackerListener;
 
     return-void
@@ -348,7 +318,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mVisibilityTrackerListener:Lcom/mopub/common/VisibilityTracker$VisibilityTrackerListener;
 
     return-object v0
@@ -357,15 +326,12 @@
 .method public removeView(Landroid/view/View;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mTrackedViews:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/mopub/nativeads/ImpressionTracker;->removePollingView(Landroid/view/View;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
     invoke-virtual {v0, p1}, Lcom/mopub/common/VisibilityTracker;->removeView(Landroid/view/View;)V
@@ -378,7 +344,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mPollHandler:Landroid/os/Handler;
 
     const/4 v1, 0x0
@@ -391,7 +356,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/ImpressionTracker;->mPollHandler:Landroid/os/Handler;
 

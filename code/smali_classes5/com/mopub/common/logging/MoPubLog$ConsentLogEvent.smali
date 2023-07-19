@@ -66,7 +66,6 @@
 .method static constructor <clinit>()V
     .locals 17
 
-    .line 1
     new-instance v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$LogLevel;->DEBUG:Lcom/mopub/common/logging/MoPubLog$LogLevel;
@@ -81,7 +80,6 @@
 
     sput-object v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->SYNC_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
-    .line 2
     new-instance v2, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const-string v4, "SYNC_COMPLETED"
@@ -94,7 +92,6 @@
 
     sput-object v2, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->SYNC_COMPLETED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
-    .line 3
     new-instance v4, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const-string v6, "SYNC_FAILED"
@@ -107,7 +104,6 @@
 
     sput-object v4, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->SYNC_FAILED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
-    .line 4
     new-instance v6, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const-string v8, "UPDATED"
@@ -120,7 +116,6 @@
 
     sput-object v6, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->UPDATED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
-    .line 5
     new-instance v8, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const-string v10, "SHOULD_SHOW_DIALOG"
@@ -133,7 +128,6 @@
 
     sput-object v8, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->SHOULD_SHOW_DIALOG:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
-    .line 6
     new-instance v10, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const-string v12, "LOAD_ATTEMPTED"
@@ -146,7 +140,6 @@
 
     sput-object v10, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->LOAD_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
-    .line 7
     new-instance v12, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const-string v14, "LOAD_SUCCESS"
@@ -159,7 +152,6 @@
 
     sput-object v12, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->LOAD_SUCCESS:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
-    .line 8
     new-instance v13, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const-string v14, "LOAD_FAILED"
@@ -172,7 +164,6 @@
 
     sput-object v13, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
-    .line 9
     new-instance v11, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const-string v14, "SHOW_ATTEMPTED"
@@ -185,7 +176,6 @@
 
     sput-object v11, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->SHOW_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
-    .line 10
     new-instance v9, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const-string v14, "SHOW_SUCCESS"
@@ -198,7 +188,6 @@
 
     sput-object v9, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->SHOW_SUCCESS:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
-    .line 11
     new-instance v7, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const-string v14, "SHOW_FAILED"
@@ -211,7 +200,6 @@
 
     sput-object v7, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->SHOW_FAILED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
-    .line 12
     new-instance v5, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const-string v14, "CUSTOM"
@@ -224,7 +212,6 @@
 
     sput-object v5, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
-    .line 13
     new-instance v3, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const-string v14, "CUSTOM_WITH_THROWABLE"
@@ -293,7 +280,6 @@
 
     aput-object v3, v1, v15
 
-    .line 14
     sput-object v1, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->$VALUES:[Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     return-void
@@ -318,19 +304,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p4}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p3, p0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->mLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 5
     iput-object p4, p0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->mMessageFormat:Ljava/lang/String;
 
     return-void
@@ -339,7 +320,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -354,7 +334,6 @@
 .method public static values()[Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->$VALUES:[Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     invoke-virtual {v0}, [Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->clone()Ljava/lang/Object;
@@ -373,7 +352,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->mLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     return-object v0
@@ -388,7 +366,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->UPDATED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     if-ne p0, v0, :cond_1
@@ -401,7 +378,6 @@
 
     if-le v0, v1, :cond_1
 
-    .line 2
     aget-object v0, p1, v1
 
     instance-of v0, v0, Ljava/lang/Boolean;
@@ -428,7 +404,6 @@
     :goto_0
     aput-object v0, p1, v1
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->mMessageFormat:Ljava/lang/String;
 

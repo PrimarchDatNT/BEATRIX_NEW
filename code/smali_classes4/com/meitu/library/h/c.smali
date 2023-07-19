@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,12 +35,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/g/e;
 
     invoke-direct {v1, p1}, Lcom/meitu/library/g/e;-><init>(Landroid/content/Context;)V
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/g/e;->E()F
 
     move-result p1
@@ -56,7 +53,6 @@
 
     if-ltz p1, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/library/g/e;->A()[Ljava/lang/Integer;
 
     move-result-object p1
@@ -98,7 +94,6 @@
     :cond_2
     const/4 v3, 0x2
 
-    .line 4
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

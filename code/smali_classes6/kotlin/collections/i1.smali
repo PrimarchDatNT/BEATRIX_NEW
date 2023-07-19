@@ -31,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,7 +41,6 @@
 .method public final a()B
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/i1;->b()B
 
     move-result v0
@@ -56,7 +54,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/i1;->a()B
 
     move-result v0

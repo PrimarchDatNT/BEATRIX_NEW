@@ -13,24 +13,20 @@
 .method constructor <init>(Lcom/meitu/global/billing/purchase/data/MTGPurchase;Lcom/meitu/global/billing/net/data/PurchaseInfo;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;-><init>(Lcom/meitu/global/billing/purchase/data/MTGPurchase;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/meitu/global/billing/net/data/PurchaseInfo;->getOrderId()Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->orderId:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {p2}, Lcom/meitu/global/billing/net/data/PurchaseInfo;->isInGracePeriod()Z
 
     move-result p1
 
     iput-boolean p1, p0, Lcom/meitu/global/billing/purchase/data/SubsPurchase;->inGracePeriod:Z
 
-    .line 4
     invoke-virtual {p2}, Lcom/meitu/global/billing/net/data/PurchaseInfo;->getExpireTimeMs()J
 
     move-result-wide p1
@@ -49,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/global/billing/purchase/data/SubsPurchase;->expireTimeMs:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -64,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -95,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/global/billing/purchase/data/SubsPurchase;->inGracePeriod:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

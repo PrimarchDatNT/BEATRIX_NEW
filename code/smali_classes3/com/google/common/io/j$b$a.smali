@@ -40,12 +40,10 @@
 .method constructor <init>(Lcom/google/common/io/j$b;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/io/j$b$a;->d:Lcom/google/common/io/j$b;
 
     invoke-direct {p0}, Lcom/google/common/collect/AbstractIterator;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/common/io/j$b;->s()Lcom/google/common/base/w;
 
     move-result-object v0
@@ -70,7 +68,6 @@
 .method protected bridge synthetic a()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/io/j$b$a;->d()Ljava/lang/String;
 
     move-result-object v0
@@ -81,7 +78,6 @@
 .method protected d()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/j$b$a;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -90,7 +86,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/io/j$b$a;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -99,7 +94,6 @@
 
     check-cast v0, Ljava/lang/String;
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/io/j$b$a;->c:Ljava/util/Iterator;
 
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -117,7 +111,6 @@
     :cond_0
     return-object v0
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractIterator;->b()Ljava/lang/Object;
 

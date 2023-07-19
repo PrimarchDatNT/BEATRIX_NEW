@@ -59,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
@@ -76,7 +75,6 @@
 
     if-lez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->b:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-static {v1}, Lcom/commsource/studio/ImageStudioActivity;->P0(Lcom/commsource/studio/ImageStudioActivity;)Lcom/commsource/studio/a;
@@ -87,7 +85,6 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/studio/a;->f(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->b:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -100,7 +97,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     invoke-static {}, Lf/d/i/h;->H0()Z
 
     move-result v1
@@ -109,10 +105,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-static {v2}, Lf/d/i/h;->y1(Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->b:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -135,7 +129,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->b:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -147,12 +140,10 @@
 
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 8
     sget-object v3, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     sget v3, Lcom/res/provider/ResSTRING;->t_select_x_layer:I
 
-    .line 9
     invoke-static {v3}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v3
@@ -169,7 +160,6 @@
 
     aput-object v7, v6, v2
 
-    .line 10
     invoke-static {v6, v5}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object v2
@@ -184,7 +174,6 @@
 
     const-string v3, "it"
 
-    .line 11
     invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
@@ -197,7 +186,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 12
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->b:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -217,7 +205,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/l0;->n0(Landroid/view/View;FLcotlin/jvm/u/a;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->b:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -238,7 +225,6 @@
 
     move-result v1
 
-    .line 14
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -257,7 +243,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->b:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -268,7 +253,6 @@
 
     move-result-object p1
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->b:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -289,12 +273,10 @@
 
     move-result-object v1
 
-    .line 17
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
     goto :goto_1
 
-    .line 18
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->b:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -304,7 +286,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/studio/a;->f(Z)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->b:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -317,7 +298,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->b:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -338,7 +318,6 @@
 
     invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 21
     invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
@@ -361,7 +340,6 @@
 
     const/16 v2, 0x32
 
-    .line 22
     invoke-static {v2}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v2
@@ -376,7 +354,6 @@
 
     invoke-static {p1, v1, v2}, Lcom/commsource/util/l0;->l0(Landroid/view/View;FLcotlin/jvm/u/a;)V
 
-    .line 23
     :cond_4
     :goto_1
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->a:Lcom/commsource/studio/ImageStudioViewModel;
@@ -401,7 +378,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -414,7 +390,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->a(Ljava/lang/Integer;)V

@@ -34,20 +34,16 @@
 .method constructor <init>(Lcom/meitu/library/appcia/h/d/a;Lcom/meitu/library/appcia/h/e/b$a;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/library/appcia/h/e/b$a;->c:Ljava/util/LinkedList;
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/library/appcia/h/e/b$a;->a:Lcom/meitu/library/appcia/h/d/a;
 
-    .line 4
     iput-object p2, p0, Lcom/meitu/library/appcia/h/e/b$a;->b:Lcom/meitu/library/appcia/h/e/b$a;
 
     return-void
@@ -60,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/appcia/h/e/b$a;->d()I
 
     move-result p0
@@ -77,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/appcia/h/e/b$a;->c(Lcom/meitu/library/appcia/h/e/b$a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -92,12 +86,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/h/e/b$a;->c:Ljava/util/LinkedList;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedList;->addFirst(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -110,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/h/e/b$a;->a:Lcom/meitu/library/appcia/h/d/a;
 
     if-nez v1, :cond_0

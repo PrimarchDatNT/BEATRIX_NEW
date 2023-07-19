@@ -63,10 +63,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/mopub/common/ViewabilityVendor$Builder;->access$000(Lcom/mopub/common/ViewabilityVendor$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -79,7 +77,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-static {p1}, Lcom/mopub/common/ViewabilityVendor$Builder;->access$100(Lcom/mopub/common/ViewabilityVendor$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -90,14 +87,12 @@
 
     if-nez v0, :cond_0
 
-    .line 5
     invoke-static {p1}, Lcom/mopub/common/ViewabilityVendor$Builder;->access$200(Lcom/mopub/common/ViewabilityVendor$Builder;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/common/ViewabilityVendor;->vendorKey:Ljava/lang/String;
 
-    .line 6
     new-instance v0, Ljava/net/URL;
 
     invoke-static {p1}, Lcom/mopub/common/ViewabilityVendor$Builder;->access$100(Lcom/mopub/common/ViewabilityVendor$Builder;)Ljava/lang/String;
@@ -108,14 +103,12 @@
 
     iput-object v0, p0, Lcom/mopub/common/ViewabilityVendor;->javascriptResourceUrl:Ljava/net/URL;
 
-    .line 7
     invoke-static {p1}, Lcom/mopub/common/ViewabilityVendor$Builder;->access$300(Lcom/mopub/common/ViewabilityVendor$Builder;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/common/ViewabilityVendor;->verificationParameters:Ljava/lang/String;
 
-    .line 8
     invoke-static {p1}, Lcom/mopub/common/ViewabilityVendor$Builder;->access$400(Lcom/mopub/common/ViewabilityVendor$Builder;)Ljava/lang/String;
 
     move-result-object p1
@@ -124,7 +117,6 @@
 
     return-void
 
-    .line 9
     :cond_0
     new-instance p1, Ljava/security/InvalidParameterException;
 
@@ -143,7 +135,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/common/ViewabilityVendor;-><init>(Lcom/mopub/common/ViewabilityVendor$Builder;)V
 
     return-void
@@ -158,7 +149,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/mopub/common/ViewabilityVendor$Builder;
 
     const-string v1, "javascriptResourceUrl"
@@ -173,7 +163,6 @@
 
     const-string v2, ""
 
-    .line 2
     invoke-virtual {p0, v1, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -184,7 +173,6 @@
 
     const-string v3, "vendorKey"
 
-    .line 3
     invoke-virtual {p0, v3, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -195,14 +183,12 @@
 
     const-string v3, "verificationParameters"
 
-    .line 4
     invoke-virtual {p0, v3, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
     invoke-virtual {v1, p0}, Lcom/mopub/common/ViewabilityVendor$Builder;->withVerificationParameters(Ljava/lang/String;)Lcom/mopub/common/ViewabilityVendor$Builder;
 
-    .line 5
     invoke-virtual {v0}, Lcom/mopub/common/ViewabilityVendor$Builder;->build()Lcom/mopub/common/ViewabilityVendor;
 
     move-result-object p0
@@ -230,7 +216,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -239,7 +224,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
@@ -247,19 +231,16 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 3
     invoke-virtual {p0, v1}, Lorg/json/JSONArray;->optJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v2
 
-    .line 4
     invoke-static {v2}, Lcom/mopub/common/ViewabilityVendor;->createFromJson(Lorg/json/JSONObject;)Lcom/mopub/common/ViewabilityVendor;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-virtual {v0, v2}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -282,7 +263,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/mopub/common/ViewabilityVendor;
 
@@ -292,11 +272,9 @@
 
     return v1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/mopub/common/ViewabilityVendor;
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/common/ViewabilityVendor;->vendorKey:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/mopub/common/ViewabilityVendor;->vendorKey:Ljava/lang/String;
@@ -309,7 +287,6 @@
 
     return v1
 
-    .line 4
     :cond_2
     iget-object v0, p0, Lcom/mopub/common/ViewabilityVendor;->javascriptResourceUrl:Ljava/net/URL;
 
@@ -323,7 +300,6 @@
 
     return v1
 
-    .line 5
     :cond_3
     iget-object v0, p0, Lcom/mopub/common/ViewabilityVendor;->verificationParameters:Ljava/lang/String;
 
@@ -337,7 +313,6 @@
 
     return v1
 
-    .line 6
     :cond_4
     iget-object v0, p0, Lcom/mopub/common/ViewabilityVendor;->verificationNotExecuted:Ljava/lang/String;
 
@@ -355,7 +330,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ViewabilityVendor;->javascriptResourceUrl:Ljava/net/URL;
 
     return-object v0
@@ -366,7 +340,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ViewabilityVendor;->vendorKey:Ljava/lang/String;
 
     return-object v0
@@ -377,7 +350,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ViewabilityVendor;->verificationNotExecuted:Ljava/lang/String;
 
     return-object v0
@@ -388,7 +360,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ViewabilityVendor;->verificationParameters:Ljava/lang/String;
 
     return-object v0
@@ -397,7 +368,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ViewabilityVendor;->vendorKey:Ljava/lang/String;
 
     const/4 v1, 0x0
@@ -416,7 +386,6 @@
     :goto_0
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v2, p0, Lcom/mopub/common/ViewabilityVendor;->javascriptResourceUrl:Ljava/net/URL;
 
     invoke-virtual {v2}, Ljava/net/URL;->hashCode()I
@@ -427,7 +396,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-object v2, p0, Lcom/mopub/common/ViewabilityVendor;->verificationParameters:Ljava/lang/String;
 
     if-eqz v2, :cond_1
@@ -446,7 +414,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     iget-object v2, p0, Lcom/mopub/common/ViewabilityVendor;->verificationNotExecuted:Ljava/lang/String;
 
     if-eqz v2, :cond_2
@@ -466,12 +433,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/common/ViewabilityVendor;->vendorKey:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -482,19 +447,16 @@
 
     iget-object v2, p0, Lcom/mopub/common/ViewabilityVendor;->javascriptResourceUrl:Ljava/net/URL;
 
-    .line 3
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v2, p0, Lcom/mopub/common/ViewabilityVendor;->verificationParameters:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0

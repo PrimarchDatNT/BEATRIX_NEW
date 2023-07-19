@@ -31,10 +31,8 @@
 .method protected constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 7
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v6, Lcom/meitu/library/analytics/sdk/db/e$a;
 
     const/4 v4, 0x0
@@ -53,7 +51,6 @@
 
     iput-object v6, p0, Lcom/meitu/library/analytics/sdk/db/e;->a:Lcom/meitu/library/analytics/sdk/db/e$a;
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/library/analytics/sdk/db/e;->c()Ljava/lang/String;
 
     move-result-object p1
@@ -75,12 +72,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/library/analytics/sdk/db/e;->e:Lcom/meitu/library/analytics/sdk/db/e;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/meitu/library/analytics/sdk/db/e;
 
     const-string v3, "teemo.db"
@@ -89,7 +84,6 @@
 
     sput-object v2, Lcom/meitu/library/analytics/sdk/db/e;->e:Lcom/meitu/library/analytics/sdk/db/e;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/meitu/library/analytics/sdk/db/e;->e:Lcom/meitu/library/analytics/sdk/db/e;
 
@@ -116,14 +110,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/sdk/db/e;->b:Ljava/lang/String;
 
     const-string v2, "====== events ======"
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/j/d;->g(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     sget-object v1, Lcom/meitu/library/analytics/sdk/db/e;->b:Ljava/lang/String;
 
     const-string v2, " | _id | event_id | event_type | session_id | params | "
@@ -134,12 +126,10 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {p0, v1, v2}, Landroid/database/sqlite/SQLiteDatabase;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object p0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Landroid/database/Cursor;->moveToNext()Z
 
@@ -147,7 +137,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     sget-object v1, Lcom/meitu/library/analytics/sdk/db/e;->b:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -160,7 +149,6 @@
 
     const-string v4, "_id"
 
-    .line 6
     invoke-interface {p0, v4}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result v4
@@ -175,7 +163,6 @@
 
     const-string v4, "event_id"
 
-    .line 7
     invoke-interface {p0, v4}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result v4
@@ -190,7 +177,6 @@
 
     const-string v4, "event_type"
 
-    .line 8
     invoke-interface {p0, v4}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result v4
@@ -205,7 +191,6 @@
 
     const-string v4, "session_id"
 
-    .line 9
     invoke-interface {p0, v4}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result v4
@@ -220,7 +205,6 @@
 
     const-string v4, "params"
 
-    .line 10
     invoke-interface {p0, v4}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result v4
@@ -237,16 +221,13 @@
 
     move-result-object v2
 
-    .line 11
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/j/d;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 12
     :cond_0
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -259,14 +240,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/sdk/db/e;->b:Ljava/lang/String;
 
     const-string v2, "====== sessions ======"
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/j/d;->g(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     sget-object v1, Lcom/meitu/library/analytics/sdk/db/e;->b:Ljava/lang/String;
 
     const-string v2, " | session_id | session_value | "
@@ -277,12 +256,10 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {p0, v1, v2}, Landroid/database/sqlite/SQLiteDatabase;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object p0
 
-    .line 4
     :goto_0
     invoke-interface {p0}, Landroid/database/Cursor;->moveToNext()Z
 
@@ -290,7 +267,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     sget-object v1, Lcom/meitu/library/analytics/sdk/db/e;->b:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -303,7 +279,6 @@
 
     const-string v4, "session_id"
 
-    .line 6
     invoke-interface {p0, v4}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result v4
@@ -318,7 +293,6 @@
 
     const-string v4, "session_value"
 
-    .line 7
     invoke-interface {p0, v4}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result v4
@@ -335,16 +309,13 @@
 
     move-result-object v2
 
-    .line 8
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/j/d;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -359,7 +330,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/e;->a:Lcom/meitu/library/analytics/sdk/db/e$a;
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteOpenHelper;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
@@ -378,7 +348,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "EventDatabaseHelper"
@@ -393,7 +362,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/e;->a:Lcom/meitu/library/analytics/sdk/db/e$a;
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
@@ -417,13 +385,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/e;->a:Lcom/meitu/library/analytics/sdk/db/e$a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteOpenHelper;->close()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -433,7 +399,6 @@
     :catch_0
     move-exception v1
 
-    .line 3
     sget-object v2, Lcom/meitu/library/analytics/sdk/db/e;->b:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -456,12 +421,10 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     :goto_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

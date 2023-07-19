@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/MoPubAdAdapter;Landroid/widget/AdapterView$OnItemLongClickListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubAdAdapter$5;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
     iput-object p2, p0, Lcom/mopub/nativeads/MoPubAdAdapter$5;->val$listener:Landroid/widget/AdapterView$OnItemLongClickListener;
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter$5;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
     invoke-virtual {v0, p3}, Lcom/mopub/nativeads/MoPubAdAdapter;->isAd(I)Z
@@ -64,7 +62,6 @@
 
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter$5;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
-    .line 2
     invoke-static {v0}, Lcom/mopub/nativeads/MoPubAdAdapter;->access$200(Lcom/mopub/nativeads/MoPubAdAdapter;)Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     move-result-object v0
@@ -79,7 +76,6 @@
 
     move-wide v5, p4
 
-    .line 3
     invoke-interface/range {v1 .. v6}, Landroid/widget/AdapterView$OnItemLongClickListener;->onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z
 
     move-result p1

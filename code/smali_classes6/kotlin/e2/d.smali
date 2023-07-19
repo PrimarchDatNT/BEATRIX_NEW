@@ -24,7 +24,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->exp(D)D
 
     move-result-wide p0
@@ -41,7 +40,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide p0
@@ -60,7 +58,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->exp(D)D
 
     move-result-wide v0
@@ -81,7 +78,6 @@
 
     int-to-double v0, p2
 
-    .line 1
     invoke-static {p0, p1, v0, v1}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide p0
@@ -98,7 +94,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->expm1(D)D
 
     move-result-wide p0
@@ -119,7 +114,6 @@
 
     float-to-double p0, p1
 
-    .line 1
     invoke-static {v0, v1, p0, p1}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide p0
@@ -140,7 +134,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->expm1(D)D
 
     move-result-wide v0
@@ -163,7 +156,6 @@
 
     int-to-double p0, p1
 
-    .line 1
     invoke-static {v0, v1, p0, p1}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide p0
@@ -182,7 +174,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->floor(D)D
 
     move-result-wide p0
@@ -199,7 +190,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->rint(D)D
 
     move-result-wide p0
@@ -218,7 +208,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->floor(D)D
 
     move-result-wide v0
@@ -239,7 +228,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->rint(D)D
 
     move-result-wide v0
@@ -252,7 +240,6 @@
 .method private static final G(D)D
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide p0
@@ -266,7 +253,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Double;->isNaN(D)Z
 
     move-result v0
@@ -296,7 +282,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     invoke-static {p0, p1}, Ljava/lang/Math;->round(D)J
 
@@ -307,7 +292,6 @@
     :goto_0
     return v0
 
-    .line 3
     :cond_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -321,7 +305,6 @@
 .method private static final H(F)F
     .locals 0
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->abs(F)F
 
     move-result p0
@@ -335,7 +318,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Float;->isNaN(F)Z
 
     move-result v0
@@ -361,7 +343,6 @@
 .method private static final I(I)I
     .locals 0
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->abs(I)I
 
     move-result p0
@@ -375,7 +356,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Double;->isNaN(D)Z
 
     move-result v0
@@ -401,7 +381,6 @@
 .method private static final J(J)J
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->abs(J)J
 
     move-result-wide p0
@@ -417,7 +396,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/e2/d;->I0(D)J
 
     move-result-wide v0
@@ -446,7 +424,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->signum(D)D
 
     move-result-wide p0
@@ -475,7 +452,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->signum(F)F
 
     move-result p0
@@ -504,7 +480,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide p0
@@ -535,7 +510,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide v0
@@ -548,7 +522,6 @@
 .method private static final O(D)D
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->signum(D)D
 
     move-result-wide p0
@@ -565,7 +538,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->sinh(D)D
 
     move-result-wide p0
@@ -576,7 +548,6 @@
 .method private static final P(F)F
     .locals 0
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->signum(F)F
 
     move-result p0
@@ -595,7 +566,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->sinh(D)D
 
     move-result-wide v0
@@ -637,7 +607,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide p0
@@ -683,7 +652,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v0
@@ -714,7 +682,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->tan(D)D
 
     move-result-wide p0
@@ -745,7 +712,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->tan(D)D
 
     move-result-wide v0
@@ -773,7 +739,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->tanh(D)D
 
     move-result-wide p0
@@ -801,7 +766,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->tanh(D)D
 
     move-result-wide v0
@@ -814,7 +778,6 @@
 .method private static final W(D)D
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->ulp(D)D
 
     move-result-wide p0
@@ -828,7 +791,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Double;->isNaN(D)Z
 
     move-result v0
@@ -852,14 +814,12 @@
 
     if-lez v2, :cond_1
 
-    .line 2
     invoke-static {p0, p1}, Ljava/lang/Math;->floor(D)D
 
     move-result-wide p0
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {p0, p1}, Ljava/lang/Math;->ceil(D)D
 
@@ -873,7 +833,6 @@
 .method private static final X(F)F
     .locals 0
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->ulp(F)F
 
     move-result p0
@@ -887,7 +846,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Float;->isNaN(F)Z
 
     move-result v0
@@ -913,7 +871,6 @@
 
     float-to-double v0, p0
 
-    .line 2
     invoke-static {v0, v1}, Ljava/lang/Math;->floor(D)D
 
     move-result-wide v0
@@ -923,7 +880,6 @@
     :cond_1
     float-to-double v0, p0
 
-    .line 3
     invoke-static {v0, v1}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide v0
@@ -957,7 +913,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Ljava/lang/Math;->copySign(DD)D
 
     move-result-wide p0
@@ -988,7 +943,6 @@
 
     int-to-double v0, p2
 
-    .line 1
     invoke-static {p0, p1, v0, v1}, Ljava/lang/Math;->copySign(DD)D
 
     move-result-wide p0
@@ -1005,7 +959,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Ljava/lang/Math;->IEEEremainder(DD)D
 
     move-result-wide p0
@@ -1022,7 +975,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Ljava/lang/Math;->hypot(DD)D
 
     move-result-wide p0
@@ -1039,7 +991,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->copySign(FF)F
 
     move-result p0
@@ -1060,7 +1011,6 @@
 
     float-to-double p0, p1
 
-    .line 1
     invoke-static {v0, v1, p0, p1}, Ljava/lang/Math;->IEEEremainder(DD)D
 
     move-result-wide p0
@@ -1083,7 +1033,6 @@
 
     float-to-double p0, p1
 
-    .line 1
     invoke-static {v0, v1, p0, p1}, Ljava/lang/Math;->hypot(DD)D
 
     move-result-wide p0
@@ -1104,7 +1053,6 @@
 
     int-to-float p1, p1
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->copySign(FF)F
 
     move-result p0
@@ -1121,7 +1069,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide p0
@@ -1138,7 +1085,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide p0
@@ -1155,7 +1101,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->abs(F)F
 
     move-result p0
@@ -1174,7 +1119,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide v0
@@ -1193,7 +1137,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->abs(I)I
 
     move-result p0
@@ -1210,7 +1153,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->log1p(D)D
 
     move-result-wide p0
@@ -1227,7 +1169,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->abs(J)J
 
     move-result-wide p0
@@ -1246,7 +1187,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->log1p(D)D
 
     move-result-wide v0
@@ -1265,7 +1205,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->acos(D)D
 
     move-result-wide p0
@@ -1293,7 +1232,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Ljava/lang/Math;->log(D)D
 
@@ -1325,7 +1263,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->acos(D)D
 
     move-result-wide v0
@@ -1358,7 +1295,6 @@
     :cond_0
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide v0
@@ -1400,7 +1336,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     sget-wide v2, Lcotlin/e2/a;->e:D
 
@@ -1408,7 +1343,6 @@
 
     if-lez v4, :cond_1
 
-    .line 2
     invoke-static {p0, p1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide p0
@@ -1422,7 +1356,6 @@
     :cond_1
     sub-double v2, p0, v0
 
-    .line 3
     sget-wide v4, Lcotlin/e2/a;->d:D
 
     cmpl-double v6, v2, v4
@@ -1433,7 +1366,6 @@
 
     sub-double/2addr v2, v0
 
-    .line 4
     invoke-static {v2, v3}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v0
@@ -1446,13 +1378,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {v2, v3}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide p0
 
-    .line 6
     sget-wide v0, Lcotlin/e2/a;->c:D
 
     cmpl-double v2, p0, v0
@@ -1474,7 +1404,6 @@
     :cond_3
     const-wide/high16 v0, 0x4000000000000000L    # 2.0
 
-    .line 7
     invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v0
@@ -1494,7 +1423,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->log10(D)D
 
     move-result-wide p0
@@ -1513,7 +1441,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/e2/d;->i(D)D
 
     move-result-wide v0
@@ -1534,7 +1461,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->log10(D)D
 
     move-result-wide v0
@@ -1553,7 +1479,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->asin(D)D
 
     move-result-wide p0
@@ -1567,7 +1492,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide p0
@@ -1590,7 +1514,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->asin(D)D
 
     move-result-wide v0
@@ -1608,7 +1531,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide v0
@@ -1628,14 +1550,12 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     sget-wide v0, Lcotlin/e2/a;->d:D
 
     cmpl-double v2, p0, v0
 
     if-ltz v2, :cond_2
 
-    .line 2
     sget-wide v0, Lcotlin/e2/a;->f:D
 
     const/4 v2, 0x1
@@ -1644,14 +1564,12 @@
 
     if-lez v3, :cond_1
 
-    .line 3
     sget-wide v0, Lcotlin/e2/a;->e:D
 
     cmpl-double v3, p0, v0
 
     if-lez v3, :cond_0
 
-    .line 4
     invoke-static {p0, p1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide p0
@@ -1675,7 +1593,6 @@
 
     add-double/2addr p0, v0
 
-    .line 5
     invoke-static {p0, p1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide p0
@@ -1689,7 +1606,6 @@
 
     add-double/2addr v0, v2
 
-    .line 6
     invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v0
@@ -1711,7 +1627,6 @@
 
     neg-double p0, p0
 
-    .line 7
     invoke-static {p0, p1}, Lcotlin/e2/d;->m(D)D
 
     move-result-wide p0
@@ -1720,7 +1635,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     invoke-static {p0, p1}, Ljava/lang/Math;->abs(D)D
 
@@ -1758,7 +1672,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Ljava/lang/Math;->max(DD)D
 
     move-result-wide p0
@@ -1777,7 +1690,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/e2/d;->m(D)D
 
     move-result-wide v0
@@ -1796,7 +1708,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->max(FF)F
 
     move-result p0
@@ -1813,7 +1724,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->atan(D)D
 
     move-result-wide p0
@@ -1830,7 +1740,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->max(II)I
 
     move-result p0
@@ -1849,7 +1758,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->atan(D)D
 
     move-result-wide v0
@@ -1868,7 +1776,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Ljava/lang/Math;->max(JJ)J
 
     move-result-wide p0
@@ -1885,7 +1792,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Ljava/lang/Math;->atan2(DD)D
 
     move-result-wide p0
@@ -1902,7 +1808,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Ljava/lang/Math;->min(DD)D
 
     move-result-wide p0
@@ -1923,7 +1828,6 @@
 
     float-to-double p0, p1
 
-    .line 1
     invoke-static {v0, v1, p0, p1}, Ljava/lang/Math;->atan2(DD)D
 
     move-result-wide p0
@@ -1942,7 +1846,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->min(FF)F
 
     move-result p0
@@ -1956,7 +1859,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide v0
@@ -1967,7 +1869,6 @@
 
     if-gez v4, :cond_1
 
-    .line 2
     invoke-static {p0, p1}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide v0
@@ -2004,7 +1905,6 @@
 
     div-double/2addr v2, v0
 
-    .line 3
     invoke-static {v2, v3}, Ljava/lang/Math;->log(D)D
 
     move-result-wide p0
@@ -2027,7 +1927,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->min(II)I
 
     move-result p0
@@ -2046,7 +1945,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/e2/d;->s(D)D
 
     move-result-wide v0
@@ -2065,7 +1963,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Ljava/lang/Math;->min(JJ)J
 
     move-result-wide p0
@@ -2082,7 +1979,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide p0
@@ -2101,7 +1997,6 @@
 
     const-wide/high16 v0, -0x10000000000000L    # Double.NEGATIVE_INFINITY
 
-    .line 1
     invoke-static {p0, p1, v0, v1}, Ljava/lang/Math;->nextAfter(DD)D
 
     move-result-wide p0
@@ -2120,7 +2015,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide v0
@@ -2141,7 +2035,6 @@
 
     const-wide/high16 v0, -0x10000000000000L    # Double.NEGATIVE_INFINITY
 
-    .line 1
     invoke-static {p0, v0, v1}, Ljava/lang/Math;->nextAfter(FD)F
 
     move-result p0
@@ -2158,7 +2051,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->cos(D)D
 
     move-result-wide p0
@@ -2175,7 +2067,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Ljava/lang/Math;->nextAfter(DD)D
 
     move-result-wide p0
@@ -2194,7 +2085,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->cos(D)D
 
     move-result-wide v0
@@ -2215,7 +2105,6 @@
 
     float-to-double v0, p1
 
-    .line 1
     invoke-static {p0, v0, v1}, Ljava/lang/Math;->nextAfter(FD)F
 
     move-result p0
@@ -2232,7 +2121,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->cosh(D)D
 
     move-result-wide p0
@@ -2249,7 +2137,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Math;->nextUp(D)D
 
     move-result-wide p0
@@ -2268,7 +2155,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->cosh(D)D
 
     move-result-wide v0
@@ -2287,7 +2173,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->nextUp(F)F
 
     move-result p0

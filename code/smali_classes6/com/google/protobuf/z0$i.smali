@@ -70,13 +70,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractMap;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/protobuf/z0$i;->a:Ljava/util/Map;
 
-    .line 3
     iput-object p2, p0, Lcom/google/protobuf/z0$i;->b:Lcom/google/protobuf/z0$i$b;
 
     return-void
@@ -85,7 +82,6 @@
 .method static synthetic a(Lcom/google/protobuf/z0$i;)Lcom/google/protobuf/z0$i$b;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/protobuf/z0$i;->b:Lcom/google/protobuf/z0$i$b;
 
     return-object p0
@@ -106,7 +102,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/z0$i$a;
 
     invoke-direct {v0, p0, p1}, Lcom/google/protobuf/z0$i$a;-><init>(Lcom/google/protobuf/z0$d;Lcom/google/protobuf/z0$c;)V
@@ -127,7 +122,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/z0$i$e;
 
     iget-object v1, p0, Lcom/google/protobuf/z0$i;->a:Ljava/util/Map;
@@ -151,7 +145,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/z0$i;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -164,7 +157,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/protobuf/z0$i;->b:Lcom/google/protobuf/z0$i$b;
 
@@ -183,7 +175,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/z0$i;->a:Ljava/util/Map;
 
     iget-object v1, p0, Lcom/google/protobuf/z0$i;->b:Lcom/google/protobuf/z0$i$b;
@@ -202,7 +193,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iget-object p2, p0, Lcom/google/protobuf/z0$i;->b:Lcom/google/protobuf/z0$i$b;
 

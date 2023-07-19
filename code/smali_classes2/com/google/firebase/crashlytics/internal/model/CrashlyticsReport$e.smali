@@ -32,7 +32,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/model/f$b;
 
     invoke-direct {v0}, Lcom/google/firebase/crashlytics/internal/model/f$b;-><init>()V
@@ -113,7 +111,6 @@
         name = "identifier"
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;->h()Ljava/lang/String;
 
     move-result-object v0
@@ -169,7 +166,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;->n()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$b;
 
     move-result-object v0
@@ -194,7 +190,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;->b()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$a;
 
     move-result-object v0
@@ -203,7 +198,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;->n()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$b;
 
     move-result-object v0
@@ -228,24 +222,20 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;->n()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$b;
 
     move-result-object v0
 
-    .line 2
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$b;->e(Ljava/lang/Long;)Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$b;
 
-    .line 3
     invoke-virtual {v0, p3}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$b;->c(Z)Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$b;
 
     if-eqz p4, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$f;->a()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$f$a;
 
     move-result-object p1
@@ -264,7 +254,6 @@
 
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$b;->a()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$b;->a()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e;
 

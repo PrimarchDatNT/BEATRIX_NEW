@@ -59,15 +59,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/r/b/a;->a()V
 
     const/4 v1, 0x0
 
-    .line 2
     sput-boolean v1, Lcom/meitu/media/tools/editor/VideoFilterEdit;->noNotifyInfo:Z
 
-    .line 3
     new-instance v1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -86,25 +83,20 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/tools/editor/f;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->isOpened:Z
 
-    .line 3
     new-instance v1, Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-direct {v1}, Lcom/meitu/media/tools/filter/MediaFilter;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
-    .line 4
     iput v0, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mWatermarkNum:I
 
-    .line 5
     invoke-virtual {p1}, Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;
 
     move-result-object p1
@@ -121,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Lcom/meitu/media/tools/editor/e;->d:I
 
     if-ltz v1, :cond_0
@@ -130,12 +121,10 @@
 
     if-ltz v2, :cond_0
 
-    .line 2
     iget-object v3, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v3, v1, v2}, Lcom/meitu/media/tools/filter/MediaFilter;->Y(II)I
 
-    .line 3
     :cond_0
     iget v1, p1, Lcom/meitu/media/tools/editor/e;->b:I
 
@@ -145,12 +134,10 @@
 
     if-lez v2, :cond_1
 
-    .line 4
     iget-object v3, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v3, v1, v2}, Lcom/meitu/media/tools/filter/MediaFilter;->Z(II)I
 
-    .line 5
     :cond_1
     iget v1, p1, Lcom/meitu/media/tools/editor/e;->k:F
 
@@ -162,12 +149,10 @@
 
     if-lez v1, :cond_2
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/tools/filter/MediaFilter;->k0(I)I
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     iget v4, p1, Lcom/meitu/media/tools/editor/e;->j:F
@@ -176,7 +161,6 @@
 
     invoke-virtual {v1, v4, v5}, Lcom/meitu/media/tools/filter/MediaFilter;->j0(FF)I
 
-    .line 8
     :cond_2
     iget v1, p1, Lcom/meitu/media/tools/editor/e;->h:I
 
@@ -186,12 +170,10 @@
 
     if-lez v4, :cond_3
 
-    .line 9
     iget-object v5, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v5, v1, v4}, Lcom/meitu/media/tools/filter/MediaFilter;->g0(II)I
 
-    .line 10
     :cond_3
     iget-wide v4, p1, Lcom/meitu/media/tools/editor/e;->g:D
 
@@ -207,7 +189,6 @@
 
     if-nez v1, :cond_5
 
-    .line 11
     :cond_4
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
@@ -217,7 +198,6 @@
 
     iput-wide v4, p1, Lcom/meitu/media/tools/editor/e;->g:D
 
-    .line 12
     :cond_5
     iget-wide v4, p1, Lcom/meitu/media/tools/editor/e;->f:D
 
@@ -231,7 +211,6 @@
 
     if-lez v1, :cond_6
 
-    .line 13
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     double-to-float v4, v4
@@ -240,7 +219,6 @@
 
     invoke-virtual {v1, v4, v5}, Lcom/meitu/media/tools/filter/MediaFilter;->a0(FF)I
 
-    .line 14
     :cond_6
     iget v1, p1, Lcom/meitu/media/tools/editor/e;->m:I
 
@@ -254,7 +232,6 @@
 
     if-lez v1, :cond_8
 
-    .line 15
     :cond_7
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
@@ -270,7 +247,6 @@
 
     invoke-virtual {v1, v4, v5, v8, v9}, Lcom/meitu/media/tools/filter/MediaFilter;->l0(IIII)I
 
-    .line 16
     :cond_8
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
@@ -284,7 +260,6 @@
 
     invoke-virtual {v1, v4, v5, v8, v9}, Lcom/meitu/media/tools/filter/MediaFilter;->l0(IIII)I
 
-    .line 17
     iget v1, p1, Lcom/meitu/media/tools/editor/e;->j:F
 
     cmpl-float v1, v1, v3
@@ -297,12 +272,10 @@
 
     if-lez v1, :cond_9
 
-    .line 18
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/tools/filter/MediaFilter;->k0(I)I
 
-    .line 19
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     iget v2, p1, Lcom/meitu/media/tools/editor/e;->j:F
@@ -311,7 +284,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/media/tools/filter/MediaFilter;->j0(FF)I
 
-    .line 20
     :cond_9
     invoke-virtual {p1}, Lcom/meitu/media/tools/editor/e;->e()I
 
@@ -319,7 +291,6 @@
 
     if-lez v1, :cond_a
 
-    .line 21
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/editor/e;->e()I
@@ -328,14 +299,12 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/tools/filter/MediaFilter;->c0(I)I
 
-    .line 22
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2, v2}, Lcom/meitu/media/tools/filter/MediaFilter;->g0(II)I
 
-    .line 23
     :cond_a
     invoke-virtual {p1}, Lcom/meitu/media/tools/editor/e;->g()F
 
@@ -347,7 +316,6 @@
 
     if-lez v3, :cond_b
 
-    .line 24
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/editor/e;->g()F
@@ -356,7 +324,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/tools/filter/MediaFilter;->f0(F)I
 
-    .line 25
     :cond_b
     iget-object p1, p1, Lcom/meitu/media/tools/editor/e;->t:Ljava/util/ArrayList;
 
@@ -377,7 +344,6 @@
 
     check-cast v1, Lcom/meitu/media/tools/editor/e$a;
 
-    .line 26
     iget-object v3, v1, Lcom/meitu/media/tools/editor/e$a;->a:Landroid/graphics/Bitmap;
 
     iget v4, v1, Lcom/meitu/media/tools/editor/e$a;->b:F
@@ -398,7 +364,6 @@
 
     goto :goto_0
 
-    .line 27
     :cond_c
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -412,19 +377,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Ljava/io/File;->isFile()Z
 
@@ -432,15 +394,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Ljava/io/File;->delete()Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Ljava/io/File;->isDirectory()Z
 
@@ -448,21 +407,18 @@
 
     if-eqz v1, :cond_4
 
-    .line 7
     invoke-virtual {p1}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object p1
 
     if-eqz p1, :cond_3
 
-    .line 8
     array-length v1, p1
 
     if-nez v1, :cond_2
 
     goto :goto_1
 
-    .line 9
     :cond_2
     array-length v1, p1
 
@@ -473,21 +429,18 @@
 
     aget-object v3, p1, v2
 
-    .line 10
     invoke-direct {p0, v3}, Lcom/meitu/media/tools/editor/VideoFilterEdit;->removeFile(Ljava/io/File;)V
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 11
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -503,7 +456,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mAudioBitrate:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -518,7 +470,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mVideoBitrate:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -533,12 +484,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1}, Lcom/meitu/media/tools/filter/MediaFilter;->c()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -555,21 +504,17 @@
 
     const-string p1, "[VideoFilterEdit]audio source file name is null"
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1, p1, p2, p3}, Lcom/meitu/media/tools/filter/MediaFilter;->d(Ljava/lang/String;ZF)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -586,17 +531,14 @@
 
     const-string p1, "[VideoFilterEdit]file name  null"
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
     const/4 p1, -0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
@@ -604,7 +546,6 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -621,15 +562,12 @@
 
     const-string p1, "[VideoFilterEdit]WatermarkFile bitmap is null"
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mCacheDir:Ljava/io/File;
 
@@ -641,7 +579,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -666,21 +603,18 @@
 
     move-result-object v1
 
-    .line 5
     iget v2, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mWatermarkNum:I
 
     add-int/lit8 v2, v2, 0x1
 
     iput v2, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mWatermarkNum:I
 
-    .line 6
     new-instance v2, Ljava/io/File;
 
     iget-object v3, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mCacheDir:Ljava/io/File;
 
     invoke-direct {v2, v3, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 7
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -699,20 +633,17 @@
 
     move-result-object v1
 
-    .line 8
     :try_start_0
     new-instance v3, Ljava/io/FileOutputStream;
 
     invoke-direct {v3, v1}, Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
 
-    .line 9
     sget-object v4, Landroid/graphics/Bitmap$CompressFormat;->PNG:Landroid/graphics/Bitmap$CompressFormat;
 
     const/16 v5, 0x64
 
     invoke-virtual {p1, v4, v5, v3}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
-    .line 10
     invoke-virtual {v3}, Ljava/io/FileOutputStream;->close()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -722,10 +653,8 @@
     :catch_0
     move-exception p1
 
-    .line 11
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 12
     :goto_0
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -779,14 +708,12 @@
 
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 14
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     float-to-int v2, p2
@@ -813,13 +740,11 @@
 
     invoke-virtual/range {p1 .. p8}, Lcom/meitu/media/tools/filter/MediaFilter;->m0(Ljava/lang/String;IIIIFF)I
 
-    .line 15
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_2
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -839,7 +764,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     if-eqz v1, :cond_0
@@ -854,7 +778,6 @@
 
     move v6, p5
 
-    .line 2
     invoke-virtual/range {v1 .. v6}, Lcom/meitu/media/tools/filter/MediaFilter;->j(Ljava/lang/String;Ljava/lang/String;III)I
 
     move-result p1
@@ -866,7 +789,6 @@
     :cond_0
     const/16 p1, -0x63
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -879,12 +801,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1, p2, p3, p4}, Lcom/meitu/media/tools/filter/MediaFilter;->k(Ljava/lang/String;Ljava/lang/String;FF)I
 
     move-result p1
@@ -896,7 +816,6 @@
     :cond_0
     const/16 p1, -0x63
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -909,23 +828,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->isOpened:Z
 
     if-nez v1, :cond_0
 
     const-string v1, "[VideoFilterEdit]video not opened, abort"
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1}, Lcom/meitu/media/tools/filter/MediaFilter;->b()Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -938,22 +853,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->isOpened:Z
 
     if-nez v1, :cond_0
 
     const-string v1, "[VideoFilterEdit]Cut video err, open file first!"
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
@@ -961,15 +872,12 @@
 
     const-string v1, "[VideoFilterEdit]video close"
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/media/tools/utils/debug/Logger;->u(Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
-    .line 6
     iput-boolean v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->isOpened:Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -982,12 +890,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/tools/filter/MediaFilter;->a(Lcom/meitu/media/tools/editor/VideoFilterEdit;)J
 
     move-result-wide v5
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mCacheDir:Ljava/io/File;
 
     if-eqz v1, :cond_2
@@ -1000,7 +906,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     new-instance v7, Ljava/io/File;
 
     iget-object v2, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mCacheDir:Ljava/io/File;
@@ -1025,17 +930,14 @@
 
     invoke-direct {v7, v2, v3}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 4
     invoke-direct {p0, v7}, Lcom/meitu/media/tools/editor/VideoFilterEdit;->removeFile(Ljava/io/File;)V
 
-    .line 5
     invoke-virtual {v7}, Ljava/io/File;->exists()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 6
     invoke-virtual {v7}, Ljava/io/File;->mkdirs()Z
 
     move-result v1
@@ -1045,17 +947,14 @@
 
     const-string p1, "[VideoFilterEdit]make temp file dir failed"
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
     const/4 p1, -0x1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 9
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1075,7 +974,6 @@
 
     move-result-object v4
 
-    .line 10
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     move-object v2, p1
@@ -1086,15 +984,12 @@
 
     move-result p1
 
-    .line 11
     invoke-direct {p0, v7}, Lcom/meitu/media/tools/editor/VideoFilterEdit;->removeFile(Ljava/io/File;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 13
     :cond_2
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1119,7 +1014,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->isOpened:Z
 
     const/4 v2, 0x0
@@ -1128,19 +1022,15 @@
 
     const-string p1, "[VideoFilterEdit]Cut video err, open file first!"
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     iget-object v1, p1, Lcom/meitu/media/tools/editor/e;->a:Ljava/lang/String;
 
-    .line 5
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -1157,15 +1047,12 @@
 
     invoke-static {v3}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 6
     iget-wide v3, p1, Lcom/meitu/media/tools/editor/e;->q:J
 
-    .line 7
     iget-object v5, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v5, v3, v4}, Lcom/meitu/media/tools/filter/MediaFilter;->h0(J)I
 
-    .line 8
     iget-object v3, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v3, v1}, Lcom/meitu/media/tools/filter/MediaFilter;->e0(Ljava/lang/String;)I
@@ -1176,19 +1063,15 @@
 
     const-string p1, "[VideoFilterEdit]Open out file err!"
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 11
     :cond_1
     invoke-direct {p0, p1}, Lcom/meitu/media/tools/editor/VideoFilterEdit;->outParameterAssm(Lcom/meitu/media/tools/editor/e;)V
 
-    .line 12
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->T()I
@@ -1199,7 +1082,6 @@
 
     const/4 v2, 0x1
 
-    .line 13
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1213,12 +1095,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/tools/filter/MediaFilter;->a(Lcom/meitu/media/tools/editor/VideoFilterEdit;)J
 
     move-result-wide v7
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     int-to-long v5, p4
@@ -1245,7 +1125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mAudioStreamDuration:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1260,7 +1139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1}, Lcom/meitu/media/tools/filter/MediaFilter;->o()F
@@ -1279,7 +1157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1, p1}, Lcom/meitu/media/tools/filter/MediaFilter;->M(I)Ljava/lang/String;
@@ -1298,7 +1175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1}, Lcom/meitu/media/tools/filter/MediaFilter;->q()[F
@@ -1317,7 +1193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mShowHeight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1332,7 +1207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mShowWidth:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1347,7 +1221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1}, Lcom/meitu/media/tools/filter/MediaFilter;->K()I
@@ -1366,7 +1239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1}, Lcom/meitu/media/tools/filter/MediaFilter;->w()D
@@ -1406,7 +1278,6 @@
 
     goto :goto_1
 
-    .line 1
     :cond_1
     :goto_0
     iget-object p2, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
@@ -1419,10 +1290,8 @@
 
     const-string p1, "[VideoFilterEdit]size is < 0"
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
@@ -1430,23 +1299,19 @@
     :cond_2
     const/4 p3, 0x0
 
-    .line 4
     aget v2, v2, p3
 
-    .line 5
     aget p3, v1, p3
 
     move v1, p2
 
     move p2, v2
 
-    .line 6
     :goto_1
     invoke-static {v1}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object v2
 
-    .line 7
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -1475,7 +1340,6 @@
 
     invoke-static {v1}, Lcom/meitu/media/tools/utils/debug/Logger;->u(Ljava/lang/String;)V
 
-    .line 8
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1, p1, v2, p2, p3}, Lcom/meitu/media/tools/filter/MediaFilter;->s(FLjava/nio/ByteBuffer;II)I
@@ -1486,15 +1350,12 @@
 
     const-string p1, "[VideoFilterEdit]Get frame data 2 Bimap null"
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 11
     :cond_3
     sget-object p1, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
@@ -1502,10 +1363,8 @@
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1, v2}, Landroid/graphics/Bitmap;->copyPixelsFromBuffer(Ljava/nio/Buffer;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -1518,7 +1377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mVideoHeight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1533,7 +1391,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mRotation:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1548,7 +1405,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mVideoStreamDuration:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1563,7 +1419,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mVideoWidth:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1578,7 +1433,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -1593,12 +1447,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->isOpened:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1}, Lcom/meitu/media/tools/filter/MediaFilter;->g()V
@@ -1606,39 +1458,32 @@
     :cond_0
     const-string v1, "[VideoFilterEdit]init"
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {p0}, Lcom/meitu/media/tools/filter/MediaFilter;->a(Lcom/meitu/media/tools/editor/VideoFilterEdit;)J
 
     move-result-wide v1
 
-    .line 5
     iget-object v3, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v3}, Lcom/meitu/media/tools/filter/MediaFilter;->N()I
 
-    .line 6
     new-instance v3, Ljava/io/File;
 
     invoke-direct {v3, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v3}, Ljava/io/File;->exists()Z
 
     move-result v3
 
     if-nez v3, :cond_1
 
-    .line 8
     iget-boolean p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->isOpened:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 9
     :cond_1
     :try_start_0
     iget-object v3, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
@@ -1651,7 +1496,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 10
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->y()I
@@ -1660,7 +1504,6 @@
 
     iput p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mVideoWidth:I
 
-    .line 11
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->x()I
@@ -1669,7 +1512,6 @@
 
     iput p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mVideoHeight:I
 
-    .line 12
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->A()I
@@ -1678,7 +1520,6 @@
 
     iput p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mShowWidth:I
 
-    .line 13
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->C()I
@@ -1687,7 +1528,6 @@
 
     iput p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mShowHeight:I
 
-    .line 14
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->z()I
@@ -1696,7 +1536,6 @@
 
     iput p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mRotation:I
 
-    .line 15
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->B()J
@@ -1705,7 +1544,6 @@
 
     iput-wide v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mVideoBitrate:J
 
-    .line 16
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->v()J
@@ -1714,7 +1552,6 @@
 
     iput-wide v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mAudioBitrate:J
 
-    .line 17
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->L()I
@@ -1725,7 +1562,6 @@
 
     iput-wide v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mVideoStreamDuration:J
 
-    .line 18
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->n()I
@@ -1736,7 +1572,6 @@
 
     iput-wide v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mAudioStreamDuration:J
 
-    .line 19
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1787,7 +1622,6 @@
 
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
-    .line 20
     invoke-virtual {v1}, Lcom/meitu/media/tools/filter/MediaFilter;->w()D
 
     move-result-wide v1
@@ -1798,14 +1632,12 @@
 
     move-result-object p1
 
-    .line 21
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const/4 p1, 0x1
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1813,13 +1645,11 @@
     :catchall_0
     move-exception p1
 
-    .line 23
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_2
     const/4 p1, 0x0
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1832,10 +1662,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 8
     invoke-direct {p0, p1}, Lcom/meitu/media/tools/editor/VideoFilterEdit;->outParameterAssm(Lcom/meitu/media/tools/editor/e;)V
 
-    .line 9
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->T()I
@@ -1846,10 +1674,8 @@
 
     const-string v1, "[VideoFilterEdit]Reverse err!"
 
-    .line 10
     invoke-static {v1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 11
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1863,42 +1689,35 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->isOpened:Z
 
     if-nez v1, :cond_0
 
     const-string p1, "[VideoFilterEdit]video not opened"
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
     const/4 p1, -0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1, p1}, Lcom/meitu/media/tools/filter/MediaFilter;->e0(Ljava/lang/String;)I
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1, p2}, Lcom/meitu/media/tools/filter/MediaFilter;->k0(I)I
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {p1}, Lcom/meitu/media/tools/filter/MediaFilter;->T()I
 
     move-result p1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1911,7 +1730,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p1, Lcom/meitu/media/tools/editor/e;->u:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -1934,7 +1752,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -1951,20 +1768,17 @@
 
     invoke-static {v3}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 3
     iget-object v3, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v3, v2}, Lcom/meitu/media/tools/filter/MediaFilter;->e(Ljava/lang/String;)I
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {p0}, Lcom/meitu/media/tools/filter/MediaFilter;->a(Lcom/meitu/media/tools/editor/VideoFilterEdit;)J
 
     move-result-wide v1
 
-    .line 5
     iget-object v3, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     iget-object p1, p1, Lcom/meitu/media/tools/editor/e;->a:Ljava/lang/String;
@@ -1973,7 +1787,6 @@
 
     move-result p1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1986,12 +1799,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/tools/filter/MediaFilter;->a(Lcom/meitu/media/tools/editor/VideoFilterEdit;)J
 
     move-result-wide v5
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     move-object v2, p1
@@ -2016,12 +1827,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/media/tools/filter/MediaFilter;->D(I)I
 
     move-result p1
@@ -2033,7 +1842,6 @@
     :cond_0
     const/4 p1, -0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2046,12 +1854,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/media/tools/filter/MediaFilter;->E(I)I
 
     move-result p1
@@ -2063,7 +1869,6 @@
     :cond_0
     const/4 p1, -0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2082,7 +1887,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     iget-object v3, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v3, v2, v1}, Lcom/meitu/media/tools/filter/MediaFilter;->t([I[I)I
@@ -2101,7 +1905,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     if-eqz v1, :cond_0
@@ -2118,10 +1921,8 @@
 
     move v7, p6
 
-    .line 2
     invoke-virtual/range {v1 .. v7}, Lcom/meitu/media/tools/filter/MediaFilter;->Q(IIIIII)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2135,23 +1936,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/media/tools/editor/VideoFilterEdit;->noNotifyInfo:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     const-class v1, Lcom/meitu/media/tools/editor/VideoFilterEdit;
 
     monitor-enter v1
 
-    .line 4
     :try_start_0
     invoke-virtual {p0}, Lcom/meitu/media/tools/editor/f;->getListener()Lcom/meitu/media/tools/editor/f$a;
 
@@ -2161,10 +1958,8 @@
 
     const-string p1, "[VideoFilterEdit]_postInfo getListener() == null return"
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->R(Ljava/lang/String;)V
 
-    .line 6
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -2173,7 +1968,6 @@
 
     return-void
 
-    .line 7
     :cond_1
     :try_start_1
     new-instance v2, Ljava/lang/ref/WeakReference;
@@ -2184,7 +1978,6 @@
 
     invoke-direct {v2, v3}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    .line 8
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -2193,14 +1986,12 @@
 
     if-ne p1, v1, :cond_2
 
-    .line 9
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    .line 10
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
@@ -2209,7 +2000,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 11
     invoke-interface {p1, p0}, Lcom/meitu/media/tools/editor/f$a;->b(Lcom/meitu/media/tools/editor/f;)V
 
     goto :goto_0
@@ -2219,14 +2009,12 @@
 
     if-ne p1, v1, :cond_3
 
-    .line 12
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    .line 13
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
@@ -2243,7 +2031,6 @@
 
     move-wide v5, p4
 
-    .line 14
     invoke-interface/range {v1 .. v6}, Lcom/meitu/media/tools/editor/f$a;->c(Lcom/meitu/media/tools/editor/f;DD)V
 
     goto :goto_0
@@ -2253,14 +2040,12 @@
 
     if-ne p1, p2, :cond_4
 
-    .line 15
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    .line 16
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
@@ -2269,7 +2054,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 17
     invoke-interface {p1, p0}, Lcom/meitu/media/tools/editor/f$a;->d(Lcom/meitu/media/tools/editor/f;)V
 
     goto :goto_0
@@ -2279,14 +2063,12 @@
 
     if-ne p2, p1, :cond_5
 
-    .line 18
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    .line 19
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
@@ -2295,10 +2077,8 @@
 
     if-eqz p1, :cond_5
 
-    .line 20
     invoke-interface {p1, p0}, Lcom/meitu/media/tools/editor/f$a;->a(Lcom/meitu/media/tools/editor/f;)V
 
-    .line 21
     :cond_5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2308,7 +2088,6 @@
     :catchall_0
     move-exception p1
 
-    .line 22
     :try_start_2
     monitor-exit v1
     :try_end_2
@@ -2326,7 +2105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2339,12 +2117,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1, p2, p3, p4}, Lcom/meitu/media/tools/filter/MediaFilter;->X([BI[B[I)I
 
     move-result p1
@@ -2356,7 +2132,6 @@
     :cond_0
     const/4 p1, -0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2369,14 +2144,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_3
 
-    .line 5
     invoke-virtual {v1, p2}, Lcom/meitu/media/tools/filter/MediaFilter;->E(I)I
 
     move-result v1
@@ -2385,19 +2158,15 @@
 
     const-string p1, "[VideoFilterEdit]getNextResampleOutBufferSizeWithNextInputSize failed"
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 8
     :cond_0
     new-array v3, v1, [B
 
-    .line 9
     iget-object v4, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v4, p1, p2, v3, p3}, Lcom/meitu/media/tools/filter/MediaFilter;->X([BI[B[I)I
@@ -2408,7 +2177,6 @@
 
     const/4 p1, 0x0
 
-    .line 10
     aget p2, p3, p1
 
     if-lez p2, :cond_2
@@ -2419,7 +2187,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2429,15 +2196,12 @@
     :goto_0
     const-string p1, "[VideoFilterEdit]resample failed"
 
-    .line 12
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 14
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2451,12 +2215,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     invoke-virtual {v1, p1}, Lcom/meitu/media/tools/filter/MediaFilter;->d0(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2469,12 +2231,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/tools/filter/MediaFilter;->a(Lcom/meitu/media/tools/editor/VideoFilterEdit;)J
 
     move-result-wide v6
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/tools/editor/VideoFilterEdit;->mediaFilter:Lcom/meitu/media/tools/filter/MediaFilter;
 
     move-object v2, p1

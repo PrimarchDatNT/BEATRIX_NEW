@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/puzzle/patchedworld/u/a$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/u/a$c$a;->a:Lcom/commsource/puzzle/patchedworld/u/a$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/u/a$c$a;->a:Lcom/commsource/puzzle/patchedworld/u/a$c;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/u/a$c;->p:Lcom/commsource/puzzle/patchedworld/u/a;
@@ -53,7 +51,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/puzzle/patchedworld/PatchedWorldView;->J0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/u/a$c$a;->a:Lcom/commsource/puzzle/patchedworld/u/a$c;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/u/a$c;->p:Lcom/commsource/puzzle/patchedworld/u/a;
@@ -66,7 +63,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/puzzle/patchedworld/PatchedWorldView;->D0(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/u/a$c$a;->a:Lcom/commsource/puzzle/patchedworld/u/a$c;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/u/a$c;->p:Lcom/commsource/puzzle/patchedworld/u/a;
@@ -77,7 +73,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/puzzle/patchedworld/PatchedWorldView;->setSupportSwapPatchPhoto(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/u/a$c$a;->a:Lcom/commsource/puzzle/patchedworld/u/a$c;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/u/a$c;->p:Lcom/commsource/puzzle/patchedworld/u/a;
@@ -90,7 +85,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/puzzle/patchedworld/PatchedWorldView;->setWorldScrollableOnYAxis(Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/u/a$c$a;->a:Lcom/commsource/puzzle/patchedworld/u/a$c;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/u/a$c;->p:Lcom/commsource/puzzle/patchedworld/u/a;
@@ -101,7 +95,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/puzzle/patchedworld/PatchedWorldView;->setPhotoPatchConfined(Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/u/a$c$a;->a:Lcom/commsource/puzzle/patchedworld/u/a$c;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/u/a$c;->p:Lcom/commsource/puzzle/patchedworld/u/a;
@@ -112,7 +105,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/puzzle/patchedworld/u/a;->z(Lcom/commsource/puzzle/patchedworld/t/d;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/u/a$c$a;->a:Lcom/commsource/puzzle/patchedworld/u/a$c;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/u/a$c;->p:Lcom/commsource/puzzle/patchedworld/u/a;
@@ -123,7 +115,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/puzzle/patchedworld/u/a;->A(F)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -13,7 +13,6 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/lu;Lcom/google/android/gms/internal/ads/mk2;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/nv;-><init>(Lcom/google/android/gms/internal/ads/lu;Lcom/google/android/gms/internal/ads/mk2;Z)V
 
     return-void
@@ -28,7 +27,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     invoke-interface {p2}, Landroid/webkit/WebResourceRequest;->getUrl()Landroid/net/Uri;
 
     move-result-object v0
@@ -37,7 +35,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {p2}, Landroid/webkit/WebResourceRequest;->getUrl()Landroid/net/Uri;
 

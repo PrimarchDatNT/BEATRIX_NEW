@@ -86,19 +86,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/vp0;->a:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/vp0;->b:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/vp0;->c:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/vp0;->d:Lcom/google/android/gms/internal/ads/d62;
 
     return-void
@@ -109,7 +104,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vp0;->a:Lcom/google/android/gms/internal/ads/d62;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/d62;->get()Ljava/lang/Object;
@@ -142,10 +136,8 @@
 
     check-cast v3, Ljava/util/Map;
 
-    .line 2
     sget-object v4, Lcom/google/android/gms/internal/ads/w;->Y2:Lcom/google/android/gms/internal/ads/h;
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v5
@@ -154,7 +146,6 @@
 
     move-result-object v4
 
-    .line 4
     check-cast v4, Ljava/lang/Boolean;
 
     invoke-virtual {v4}, Ljava/lang/Boolean;->booleanValue()Z
@@ -163,7 +154,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 5
     new-instance v4, Lcom/google/android/gms/internal/ads/mk2;
 
     new-instance v5, Lcom/google/android/gms/internal/ads/qk2;
@@ -172,19 +162,16 @@
 
     invoke-direct {v4, v5}, Lcom/google/android/gms/internal/ads/mk2;-><init>(Lcom/google/android/gms/internal/ads/qk2;)V
 
-    .line 6
     new-instance v1, Lcom/google/android/gms/internal/ads/xp0;
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/ads/xp0;-><init>(Ljava/lang/String;)V
 
     invoke-virtual {v4, v1}, Lcom/google/android/gms/internal/ads/mk2;->b(Lcom/google/android/gms/internal/ads/ok2;)V
 
-    .line 7
     new-instance v0, Lcom/google/android/gms/internal/ads/yp0;
 
     invoke-direct {v0, v4, v3}, Lcom/google/android/gms/internal/ads/yp0;-><init>(Lcom/google/android/gms/internal/ads/mk2;Ljava/util/Map;)V
 
-    .line 8
     new-instance v1, Lcom/google/android/gms/internal/ads/od0;
 
     invoke-direct {v1, v0, v2}, Lcom/google/android/gms/internal/ads/od0;-><init>(Ljava/lang/Object;Ljava/util/concurrent/Executor;)V
@@ -195,7 +182,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
@@ -204,7 +190,6 @@
     :goto_0
     const-string v1, "Cannot return null from a non-@Nullable @Provides method"
 
-    .line 10
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/a62;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0

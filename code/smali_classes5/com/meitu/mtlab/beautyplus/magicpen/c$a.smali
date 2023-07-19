@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/meitu/mtlab/beautyplus/magicpen/c;FFFF)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/c$a;->f:Lcom/meitu/mtlab/beautyplus/magicpen/c;
 
     iput p2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/c$a;->a:F
@@ -58,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/c$a;->a:F
 
     iget v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/c$a;->b:F
@@ -71,10 +69,8 @@
 
     const/16 v1, 0x4000
 
-    .line 2
     invoke-static {v1}, Landroid/opengl/GLES20;->glClear(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

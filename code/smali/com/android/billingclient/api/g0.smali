@@ -17,13 +17,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/android/billingclient/api/g0;->a:Landroid/content/Context;
 
-    .line 3
     new-instance p1, Lcom/android/billingclient/api/h0;
 
     const/4 v0, 0x0
@@ -38,7 +35,6 @@
 .method static synthetic a(Lcom/android/billingclient/api/g0;)Lcom/android/billingclient/api/h0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/android/billingclient/api/g0;->b:Lcom/android/billingclient/api/h0;
 
     return-object p0
@@ -49,7 +45,6 @@
 .method final b()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/g0;->b:Lcom/android/billingclient/api/h0;
 
     iget-object v1, p0, Lcom/android/billingclient/api/g0;->a:Landroid/content/Context;
@@ -68,7 +63,6 @@
 .method final c()Lcom/android/billingclient/api/n;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/g0;->b:Lcom/android/billingclient/api/h0;
 
     invoke-static {v0}, Lcom/android/billingclient/api/h0;->a(Lcom/android/billingclient/api/h0;)Lcom/android/billingclient/api/n;
@@ -81,7 +75,6 @@
 .method final d()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/g0;->b:Lcom/android/billingclient/api/h0;
 
     iget-object v1, p0, Lcom/android/billingclient/api/g0;->a:Landroid/content/Context;

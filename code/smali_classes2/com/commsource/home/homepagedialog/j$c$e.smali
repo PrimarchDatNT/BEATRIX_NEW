@@ -46,14 +46,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/j$c$e;->b:Lcotlin/jvm/internal/Ref$BooleanRef;
 
     const/4 v2, 0x1
 
     iput-boolean v2, v1, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/j$c$e;->a:Lcom/commsource/home/homepagedialog/j$c;
 
     iget-object v1, v1, Lcom/commsource/home/homepagedialog/j$c;->g:Lcom/commsource/home/homepagedialog/j;
@@ -68,7 +66,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/j$c$e;->a:Lcom/commsource/home/homepagedialog/j$c;
 
     iget-object v3, v1, Lcom/commsource/home/homepagedialog/j$c;->g:Lcom/commsource/home/homepagedialog/j;
@@ -79,12 +76,10 @@
 
     invoke-static {v3, v4, v1, v2}, Lcom/commsource/home/homepagedialog/j;->l(Lcom/commsource/home/homepagedialog/j;Lcom/commsource/push/NotificationBarPush;Ljava/lang/String;Z)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/j$c$e;->a:Lcom/commsource/home/homepagedialog/j$c;
 
@@ -98,7 +93,6 @@
 
     invoke-static {v2, v3, v1, v4}, Lcom/commsource/home/homepagedialog/j;->l(Lcom/commsource/home/homepagedialog/j;Lcom/commsource/push/NotificationBarPush;Ljava/lang/String;Z)V
 
-    .line 6
     sget-object v1, Lcom/commsource/beautyplus/router/c;->b:Lcom/commsource/beautyplus/router/c;
 
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/j$c$e;->a:Lcom/commsource/home/homepagedialog/j$c;
@@ -119,7 +113,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyplus/router/c;->c(Landroid/app/Activity;Landroid/net/Uri;)Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

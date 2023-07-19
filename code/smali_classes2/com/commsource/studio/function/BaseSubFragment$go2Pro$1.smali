@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/t;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment$go2Pro$1;->invoke(Lcom/commsource/studio/effect/t;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment$go2Pro$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/BaseSubFragment;->w0()Lcom/commsource/studio/component/StudioProViewModel;
@@ -116,7 +114,6 @@
 
     invoke-static/range {v1 .. v7}, Lcom/commsource/studio/component/StudioProViewModel;->K(Lcom/commsource/studio/component/StudioProViewModel;Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

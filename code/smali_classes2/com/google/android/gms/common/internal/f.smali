@@ -117,7 +117,6 @@
 
     move-object/from16 v8, p8
 
-    .line 1
     invoke-direct/range {v0 .. v9}, Lcom/google/android/gms/common/internal/f;-><init>(Landroid/accounts/Account;Ljava/util/Set;Ljava/util/Map;ILandroid/view/View;Ljava/lang/String;Ljava/lang/String;Lf/f/b/b/l/a;Z)V
 
     return-void
@@ -145,15 +144,12 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/common/internal/f;->a:Landroid/accounts/Account;
 
     if-nez p2, :cond_0
 
-    .line 4
     sget-object p1, Ljava/util/Collections;->EMPTY_SET:Ljava/util/Set;
 
     goto :goto_0
@@ -168,36 +164,27 @@
 
     if-nez p3, :cond_1
 
-    .line 5
     sget-object p3, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
 
     :cond_1
     iput-object p3, p0, Lcom/google/android/gms/common/internal/f;->d:Ljava/util/Map;
 
-    .line 6
     iput-object p5, p0, Lcom/google/android/gms/common/internal/f;->f:Landroid/view/View;
 
-    .line 7
     iput p4, p0, Lcom/google/android/gms/common/internal/f;->e:I
 
-    .line 8
     iput-object p6, p0, Lcom/google/android/gms/common/internal/f;->g:Ljava/lang/String;
 
-    .line 9
     iput-object p7, p0, Lcom/google/android/gms/common/internal/f;->h:Ljava/lang/String;
 
-    .line 10
     iput-object p8, p0, Lcom/google/android/gms/common/internal/f;->i:Lf/f/b/b/l/a;
 
-    .line 11
     iput-boolean p9, p0, Lcom/google/android/gms/common/internal/f;->j:Z
 
-    .line 12
     new-instance p2, Ljava/util/HashSet;
 
     invoke-direct {p2, p1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 
-    .line 13
     invoke-interface {p3}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     move-result-object p1
@@ -219,14 +206,12 @@
 
     check-cast p3, Lcom/google/android/gms/common/internal/f$b;
 
-    .line 14
     iget-object p3, p3, Lcom/google/android/gms/common/internal/f$b;->a:Ljava/util/Set;
 
     invoke-interface {p2, p3}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
 
     goto :goto_1
 
-    .line 15
     :cond_2
     invoke-static {p2}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
@@ -242,7 +227,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/i$a;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/common/api/i$a;-><init>(Landroid/content/Context;)V
@@ -264,7 +248,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f;->a:Landroid/accounts/Account;
 
     return-object v0
@@ -281,7 +264,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f;->a:Landroid/accounts/Account;
 
     if-eqz v0, :cond_0
@@ -301,14 +283,12 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f;->a:Landroid/accounts/Account;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Landroid/accounts/Account;
 
@@ -335,7 +315,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f;->c:Ljava/util/Set;
 
     return-object v0
@@ -357,7 +336,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f;->d:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -368,7 +346,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v0, p1, Lcom/google/android/gms/common/internal/f$b;->a:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->isEmpty()Z
@@ -379,7 +356,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/HashSet;
 
@@ -387,14 +363,12 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 
-    .line 4
     iget-object p1, p1, Lcom/google/android/gms/common/internal/f$b;->a:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
 
     return-object v0
 
-    .line 5
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/google/android/gms/common/internal/f;->b:Ljava/util/Set;
@@ -407,7 +381,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f;->k:Ljava/lang/Integer;
 
     return-object v0
@@ -418,7 +391,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/internal/f;->e:I
 
     return v0
@@ -437,7 +409,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f;->d:Ljava/util/Map;
 
     return-object v0
@@ -448,7 +419,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f;->h:Ljava/lang/String;
 
     return-object v0
@@ -462,7 +432,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f;->g:Ljava/lang/String;
 
     return-object v0
@@ -482,7 +451,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f;->b:Ljava/util/Set;
 
     return-object v0
@@ -493,7 +461,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f;->i:Lf/f/b/b/l/a;
 
     return-object v0
@@ -507,7 +474,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f;->f:Landroid/view/View;
 
     return-object v0
@@ -516,7 +482,6 @@
 .method public final o()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/common/internal/f;->j:Z
 
     return v0
@@ -525,7 +490,6 @@
 .method public final p(Ljava/lang/Integer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/f;->k:Ljava/lang/Integer;
 
     return-void

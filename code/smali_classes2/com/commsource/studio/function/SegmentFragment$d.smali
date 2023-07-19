@@ -44,10 +44,8 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->t_click_label_cutout_tips:I
 
-    .line 1
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$d;->a:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/SegmentFragment;->D1(Lcom/commsource/studio/function/SegmentFragment;)Lcom/commsource/studio/layer/FaceLabelLayer;
@@ -64,7 +62,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -64,10 +64,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -84,12 +82,10 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
@@ -97,14 +93,12 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return v2
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1}, Lcom/google/android/gms/internal/ads/dp2;->P()F
@@ -124,10 +118,8 @@
 
     const-string v3, "Unable to call getAspectRatio on video controller."
 
-    .line 5
     invoke-static {v3, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     monitor-exit v0
 
     return v2
@@ -135,7 +127,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -148,12 +139,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
@@ -161,14 +150,12 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return v2
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1}, Lcom/google/android/gms/internal/ads/dp2;->getPlaybackState()I
@@ -188,10 +175,8 @@
 
     const-string v3, "Unable to call getPlaybackState on video controller."
 
-    .line 5
     invoke-static {v3, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     monitor-exit v0
 
     return v2
@@ -199,7 +184,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -210,12 +194,10 @@
 .method public final c()F
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
@@ -223,14 +205,12 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return v2
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1}, Lcom/google/android/gms/internal/ads/dp2;->W()F
@@ -250,10 +230,8 @@
 
     const-string v3, "Unable to call getCurrentTime on video controller."
 
-    .line 5
     invoke-static {v3, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     monitor-exit v0
 
     return v2
@@ -261,7 +239,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -272,12 +249,10 @@
 .method public final d()F
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
@@ -285,14 +260,12 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return v2
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1}, Lcom/google/android/gms/internal/ads/dp2;->getDuration()F
@@ -312,10 +285,8 @@
 
     const-string v3, "Unable to call getDuration on video controller."
 
-    .line 5
     invoke-static {v3, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     monitor-exit v0
 
     return v2
@@ -323,7 +294,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -336,12 +306,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->c:Lcom/google/android/gms/ads/u$a;
 
@@ -352,7 +320,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -363,12 +330,10 @@
 .method public final f()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
@@ -389,7 +354,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -400,12 +364,10 @@
 .method public final g()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
@@ -413,14 +375,12 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return v2
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1}, Lcom/google/android/gms/internal/ads/dp2;->t1()Z
@@ -440,10 +400,8 @@
 
     const-string v3, "Unable to call isClickToExpandEnabled."
 
-    .line 5
     invoke-static {v3, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     monitor-exit v0
 
     return v2
@@ -451,7 +409,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -462,12 +419,10 @@
 .method public final h()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
@@ -475,14 +430,12 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return v2
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1}, Lcom/google/android/gms/internal/ads/dp2;->t9()Z
@@ -502,10 +455,8 @@
 
     const-string v3, "Unable to call isUsingCustomPlayerControls."
 
-    .line 5
     invoke-static {v3, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     monitor-exit v0
 
     return v2
@@ -513,7 +464,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -524,12 +474,10 @@
 .method public final i()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
@@ -537,14 +485,12 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return v2
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1}, Lcom/google/android/gms/internal/ads/dp2;->R6()Z
@@ -564,10 +510,8 @@
 
     const-string v3, "Unable to call isMuted on video controller."
 
-    .line 5
     invoke-static {v3, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     monitor-exit v0
 
     return v2
@@ -575,7 +519,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -586,25 +529,21 @@
 .method public final j(Z)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1, p1}, Lcom/google/android/gms/internal/ads/dp2;->x2(Z)V
@@ -620,10 +559,8 @@
     :try_start_2
     const-string v1, "Unable to call mute on video controller."
 
-    .line 5
     invoke-static {v1, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     :goto_0
     monitor-exit v0
 
@@ -642,25 +579,21 @@
 .method public final k()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1}, Lcom/google/android/gms/internal/ads/dp2;->pause()V
@@ -676,10 +609,8 @@
     :try_start_2
     const-string v2, "Unable to call pause on video controller."
 
-    .line 5
     invoke-static {v2, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     :goto_0
     monitor-exit v0
 
@@ -698,25 +629,21 @@
 .method public final l()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1}, Lcom/google/android/gms/internal/ads/dp2;->play()V
@@ -732,10 +659,8 @@
     :try_start_2
     const-string v2, "Unable to call play on video controller."
 
-    .line 5
     invoke-static {v2, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     :goto_0
     monitor-exit v0
 
@@ -756,31 +681,25 @@
 
     const-string v0, "VideoLifecycleCallbacks may not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iput-object p1, p0, Lcom/google/android/gms/ads/u;->c:Lcom/google/android/gms/ads/u$a;
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
     if-nez v1, :cond_0
 
-    .line 5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return-void
 
-    .line 6
     :cond_0
     :try_start_1
     new-instance v2, Lcom/google/android/gms/internal/ads/c;
@@ -800,10 +719,8 @@
     :try_start_2
     const-string v1, "Unable to call setVideoLifecycleCallbacks on video controller."
 
-    .line 7
     invoke-static {v1, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 8
     :goto_0
     monitor-exit v0
 
@@ -822,25 +739,21 @@
 .method public final n()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1}, Lcom/google/android/gms/internal/ads/dp2;->stop()V
@@ -856,10 +769,8 @@
     :try_start_2
     const-string v2, "Unable to call stop on video controller."
 
-    .line 5
     invoke-static {v2, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     :goto_0
     monitor-exit v0
 
@@ -878,24 +789,19 @@
 .method public final o(Lcom/google/android/gms/internal/ads/dp2;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iput-object p1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/ads/u;->c:Lcom/google/android/gms/ads/u$a;
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/google/android/gms/ads/u;->m(Lcom/google/android/gms/ads/u$a;)V
 
-    .line 5
     :cond_0
     monitor-exit v0
 
@@ -914,12 +820,10 @@
 .method public final p()Lcom/google/android/gms/internal/ads/dp2;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/u;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/ads/u;->b:Lcom/google/android/gms/internal/ads/dp2;
 
@@ -930,7 +834,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

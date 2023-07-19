@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/concurrent/AbstractExecutorService;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Ljava/util/concurrent/AbstractExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -54,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/android/gms/internal/ads/fr1;->I(Ljava/lang/Runnable;Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/fr1;
 
     move-result-object p1
@@ -76,7 +73,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/fr1;->J(Ljava/util/concurrent/Callable;)Lcom/google/android/gms/internal/ads/fr1;
 
     move-result-object p1
@@ -98,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Ljava/util/concurrent/AbstractExecutorService;->submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -111,7 +106,6 @@
 .method public synthetic submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
     .locals 0
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/ads/np1;->H0(Ljava/lang/Runnable;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p1
@@ -126,7 +120,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-super {p0, p1, p2}, Ljava/util/concurrent/AbstractExecutorService;->submit(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Future;
 
     move-result-object p1
@@ -139,7 +132,6 @@
 .method public synthetic submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/ads/np1;->q0(Ljava/util/concurrent/Callable;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p1

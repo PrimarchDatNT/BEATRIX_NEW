@@ -26,7 +26,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/scheme/StandardScheme;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 .method synthetic constructor <init>(Lio/jaegertracing/thrift/sampling_manager/SamplingManager$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result$a;-><init>()V
 
     return-void
@@ -51,35 +49,28 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readStructBegin()Lorg/apache/thrift/protocol/TStruct;
 
-    .line 2
     :goto_0
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readFieldBegin()Lorg/apache/thrift/protocol/TField;
 
     move-result-object v0
 
-    .line 3
     iget-byte v1, v0, Lorg/apache/thrift/protocol/TField;->type:B
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readStructEnd()V
 
-    .line 5
     invoke-virtual {p2}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;->validate()V
 
     return-void
 
-    .line 6
     :cond_0
     iget-short v0, v0, Lorg/apache/thrift/protocol/TField;->id:S
 
     if-eqz v0, :cond_1
 
-    .line 7
     invoke-static {p1, v1}, Lorg/apache/thrift/protocol/TProtocolUtil;->skip(Lorg/apache/thrift/protocol/TProtocol;B)V
 
     goto :goto_1
@@ -89,28 +80,23 @@
 
     if-ne v1, v0, :cond_2
 
-    .line 8
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
 
     invoke-direct {v0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;-><init>()V
 
     iput-object v0, p2, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;->success:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
 
-    .line 9
     invoke-virtual {v0, p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->read(Lorg/apache/thrift/protocol/TProtocol;)V
 
     const/4 v0, 0x1
 
-    .line 10
     invoke-virtual {p2, v0}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;->setSuccessIsSet(Z)V
 
     goto :goto_1
 
-    .line 11
     :cond_2
     invoke-static {p1, v1}, Lorg/apache/thrift/protocol/TProtocolUtil;->skip(Lorg/apache/thrift/protocol/TProtocol;B)V
 
-    .line 12
     :goto_1
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readFieldEnd()V
 
@@ -125,41 +111,33 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;->validate()V
 
-    .line 2
     invoke-static {}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;->access$1000()Lorg/apache/thrift/protocol/TStruct;
 
     move-result-object v0
 
     invoke-virtual {p1, v0}, Lorg/apache/thrift/protocol/TProtocol;->writeStructBegin(Lorg/apache/thrift/protocol/TStruct;)V
 
-    .line 3
     iget-object v0, p2, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;->success:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-static {}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;->access$1100()Lorg/apache/thrift/protocol/TField;
 
     move-result-object v0
 
     invoke-virtual {p1, v0}, Lorg/apache/thrift/protocol/TProtocol;->writeFieldBegin(Lorg/apache/thrift/protocol/TField;)V
 
-    .line 5
     iget-object p2, p2, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;->success:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
 
     invoke-virtual {p2, p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->write(Lorg/apache/thrift/protocol/TProtocol;)V
 
-    .line 6
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->writeFieldEnd()V
 
-    .line 7
     :cond_0
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->writeFieldStop()V
 
-    .line 8
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->writeStructEnd()V
 
     return-void
@@ -173,7 +151,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result$a;->a(Lorg/apache/thrift/protocol/TProtocol;Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;)V
@@ -189,7 +166,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result$a;->b(Lorg/apache/thrift/protocol/TProtocol;Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;)V

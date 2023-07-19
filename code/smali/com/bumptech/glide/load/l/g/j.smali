@@ -65,16 +65,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/l/g/j;->a:Ljava/util/List;
 
-    .line 3
     iput-object p2, p0, Lcom/bumptech/glide/load/l/g/j;->b:Lcom/bumptech/glide/load/g;
 
-    .line 4
     iput-object p3, p0, Lcom/bumptech/glide/load/l/g/j;->c:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     return-void
@@ -83,7 +79,6 @@
 .method private static e(Ljava/io/InputStream;)[B
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayOutputStream;
 
     const/16 v1, 0x4000
@@ -93,7 +88,6 @@
     :try_start_0
     new-array v1, v1, [B
 
-    .line 2
     :goto_0
     invoke-virtual {p0, v1}, Ljava/io/InputStream;->read([B)I
 
@@ -105,18 +99,15 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {v0, v1, v3, v2}, Ljava/io/ByteArrayOutputStream;->write([BII)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->flush()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object p0
@@ -130,7 +121,6 @@
 
     const-string v1, "StreamGifDecoder"
 
-    .line 6
     invoke-static {v1, v0}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v0
@@ -139,7 +129,6 @@
 
     const-string v0, "Error reading data from stream"
 
-    .line 7
     invoke-static {v1, v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_1
@@ -166,7 +155,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/io/InputStream;
 
     invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/load/l/g/j;->d(Ljava/io/InputStream;Lcom/bumptech/glide/load/f;)Z
@@ -192,7 +180,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/io/InputStream;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/l/g/j;->c(Ljava/io/InputStream;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -231,7 +218,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/bumptech/glide/load/l/g/j;->e(Ljava/io/InputStream;)[B
 
     move-result-object p1
@@ -242,13 +228,11 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-static {p1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/j;->b:Lcom/bumptech/glide/load/g;
 
     invoke-interface {v0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/g;->b(Ljava/lang/Object;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -274,7 +258,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/l/g/i;->b:Lcom/bumptech/glide/load/e;
 
     invoke-virtual {p2, v0}, Lcom/bumptech/glide/load/f;->c(Lcom/bumptech/glide/load/e;)Ljava/lang/Object;
@@ -293,7 +276,6 @@
 
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/j;->c:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
-    .line 2
     invoke-static {p2, p1, v0}, Lcom/bumptech/glide/load/b;->b(Ljava/util/List;Ljava/io/InputStream;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     move-result-object p1

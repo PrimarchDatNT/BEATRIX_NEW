@@ -24,7 +24,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Landroidx/collection/ArrayMap;
 
     invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
@@ -41,7 +40,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/google/android/gms/internal/measurement/n1;->a:Landroidx/collection/ArrayMap;
 
@@ -55,7 +53,6 @@
 
     const-string v2, "content://com.google.android.gms.phenotype/"
 
-    .line 2
     invoke-static {p0}, Landroid/net/Uri;->encode(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -88,12 +85,10 @@
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v1, p0, v2}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :cond_1
     monitor-exit v0
 

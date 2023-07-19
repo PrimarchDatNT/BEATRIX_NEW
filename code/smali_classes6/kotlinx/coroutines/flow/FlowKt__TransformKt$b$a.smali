@@ -41,7 +41,6 @@
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$b$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +57,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$b$a;->a:Lcotlinx/coroutines/flow/e;
 
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$b$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
@@ -87,13 +85,11 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 
-    .line 3
     :cond_1
     new-instance p1, Ljava/lang/ArithmeticException;
 

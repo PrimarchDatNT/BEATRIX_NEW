@@ -33,7 +33,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/AbstractFuture;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 .method public final addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/util/concurrent/AbstractFuture;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     return-void
@@ -55,7 +53,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/util/concurrent/AbstractFuture;->cancel(Z)Z
 
     move-result p1
@@ -81,7 +78,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/util/concurrent/AbstractFuture;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -110,7 +106,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 2
     invoke-super {p0, p1, p2, p3}, Lcom/google/common/util/concurrent/AbstractFuture;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
     move-result-object p1
@@ -121,7 +116,6 @@
 .method public final isCancelled()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/util/concurrent/AbstractFuture;->isCancelled()Z
 
     move-result v0
@@ -132,7 +126,6 @@
 .method public final isDone()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/util/concurrent/AbstractFuture;->isDone()Z
 
     move-result v0

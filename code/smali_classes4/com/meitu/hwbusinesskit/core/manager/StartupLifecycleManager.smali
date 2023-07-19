@@ -25,20 +25,16 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->mIsColdStartup:Z
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->mIsHotStartup:Z
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v0
@@ -61,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->mIsColdStartup:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -76,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->mIsColdStartup:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -91,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->mActivityCount:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -106,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->mActivityCount:I
 
     add-int/lit8 v2, v1, 0x1
@@ -125,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->mActivityCount:I
 
     add-int/lit8 v2, v1, -0x1
@@ -144,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->mIsCallbackStop:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -159,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->mIsCallbackStop:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->mIsHotStartup:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -191,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->mIsHotStartup:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

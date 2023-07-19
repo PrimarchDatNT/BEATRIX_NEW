@@ -22,10 +22,8 @@
 .method public constructor <init>(Lcom/meitu/puckerrecyclerview/ScrollLeftLinearLayoutManager;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/ScrollLeftLinearLayoutManager$a;->a:Lcom/meitu/puckerrecyclerview/ScrollLeftLinearLayoutManager;
 
-    .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -40,7 +38,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 p1, 0xc8
@@ -55,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, -0x1

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/volley/ServerError;-><init>()V
 
     return-void
@@ -16,7 +15,6 @@
 .method public constructor <init>(Lcom/mopub/volley/NetworkResponse;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/volley/ServerError;-><init>(Lcom/mopub/volley/NetworkResponse;)V
 
     return-void

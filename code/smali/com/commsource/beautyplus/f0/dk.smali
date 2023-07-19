@@ -34,10 +34,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/commsource/beautyplus/f0/dk;->W:Landroidx/databinding/ViewDataBinding$IncludedLayouts;
 
-    .line 2
     new-instance v1, Landroid/util/SparseIntArray;
 
     invoke-direct {v1}, Landroid/util/SparseIntArray;-><init>()V
@@ -48,101 +46,86 @@
 
     const/4 v3, 0x5
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->colorPicker:I
 
     const/4 v3, 0x6
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->seek_bar_1_title:I
 
     const/4 v3, 0x7
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->seek_bar_1:I
 
     const/16 v3, 0x8
 
-    .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->seek_bar_2_title:I
 
     const/16 v3, 0x9
 
-    .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->seek_bar_2:I
 
     const/16 v3, 0xa
 
-    .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->seek_bar_3_title:I
 
     const/16 v3, 0xb
 
-    .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->bottomSpace:I
 
     const/16 v3, 0xc
 
-    .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->seek_bar_3:I
 
     const/16 v3, 0xd
 
-    .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->text_style_bar:I
 
     const/16 v3, 0xe
 
-    .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->style_title:I
 
     const/16 v3, 0xf
 
-    .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->disable_panel_prompt:I
 
     const/16 v3, 0x10
 
-    .line 14
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->disable_prompt:I
 
     const/16 v3, 0x11
 
-    .line 15
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
     sget v2, Lcom/res/provider/ResID;->cancel_template:I
 
     const/16 v3, 0x12
 
-    .line 16
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -159,7 +142,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/commsource/beautyplus/f0/dk;->W:Landroidx/databinding/ViewDataBinding$IncludedLayouts;
 
     sget-object v1, Lcom/commsource/beautyplus/f0/dk;->X:Landroid/util/SparseIntArray;
@@ -188,7 +170,6 @@
 
     const/4 v4, 0x1
 
-    .line 2
     aget-object v4, p3, v4
 
     check-cast v4, Lcom/commsource/widget/IconFrontView;
@@ -305,49 +286,40 @@
 
     move-object/from16 v2, p0
 
-    .line 3
     iput-wide v0, v2, Lcom/commsource/beautyplus/f0/dk;->V:J
 
-    .line 4
     iget-object v0, v2, Lcom/commsource/beautyplus/f0/ck;->a:Lcom/commsource/widget/IconFrontView;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 5
     iget-object v0, v2, Lcom/commsource/beautyplus/f0/ck;->p:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
-    .line 6
     aget-object v0, p3, v0
 
     check-cast v0, Landroid/widget/RelativeLayout;
 
     iput-object v0, v2, Lcom/commsource/beautyplus/f0/dk;->U:Landroid/widget/RelativeLayout;
 
-    .line 7
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setTag(Ljava/lang/Object;)V
 
-    .line 8
     iget-object v0, v2, Lcom/commsource/beautyplus/f0/ck;->Q:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 9
     iget-object v0, v2, Lcom/commsource/beautyplus/f0/ck;->T:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
     move-object/from16 v0, p2
 
-    .line 10
     invoke-virtual {v2, v0}, Landroidx/databinding/ViewDataBinding;->setRootTag(Landroid/view/View;)V
 
-    .line 11
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/beautyplus/f0/dk;->invalidateAll()V
 
     return-void
@@ -364,19 +336,15 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-wide v3, v1, Lcom/commsource/beautyplus/f0/dk;->V:J
 
     const-wide/16 v5, 0x0
 
-    .line 3
     iput-wide v5, v1, Lcom/commsource/beautyplus/f0/dk;->V:J
 
-    .line 4
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -389,7 +357,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 5
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/ck;->a:Lcom/commsource/widget/IconFrontView;
 
     const/4 v4, 0x0
@@ -416,7 +383,6 @@
 
     invoke-static/range {v3 .. v12}, Lf/k/c/c/c;->d(Landroid/view/View;IIFIFFFFF)V
 
-    .line 6
     iget-object v13, v1, Lcom/commsource/beautyplus/f0/ck;->p:Lcom/commsource/widget/IconFrontView;
 
     const/4 v14, 0x0
@@ -441,7 +407,6 @@
 
     invoke-static/range {v13 .. v22}, Lf/k/c/c/c;->d(Landroid/view/View;IIFIFFFFF)V
 
-    .line 7
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/ck;->Q:Lcom/commsource/widget/IconFrontView;
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
@@ -450,7 +415,6 @@
 
     invoke-static/range {v3 .. v12}, Lf/k/c/c/c;->d(Landroid/view/View;IIFIFFFFF)V
 
-    .line 8
     iget-object v13, v1, Lcom/commsource/beautyplus/f0/ck;->T:Lcom/commsource/widget/IconFrontView;
 
     invoke-static {v13, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
@@ -459,7 +423,6 @@
 
     invoke-static/range {v13 .. v22}, Lf/k/c/c/c;->d(Landroid/view/View;IIFIFFFFF)V
 
-    .line 9
     :cond_0
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -468,7 +431,6 @@
     :catchall_0
     move-exception v0
 
-    .line 10
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -486,10 +448,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-wide v1, p0, Lcom/commsource/beautyplus/f0/dk;->V:J
 
@@ -501,7 +461,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -510,7 +469,6 @@
 
     return v1
 
-    .line 4
     :cond_0
     :try_start_1
     monitor-exit p0
@@ -519,7 +477,6 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -527,7 +484,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     :try_start_2
     monitor-exit p0
     :try_end_2
@@ -545,24 +501,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
     const-wide/16 v1, 0x1
 
-    .line 2
     :try_start_0
     iput-wide v1, p0, Lcom/commsource/beautyplus/f0/dk;->V:J
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-virtual {p0}, Landroidx/databinding/ViewDataBinding;->requestRebind()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -570,7 +521,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -588,7 +538,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -607,7 +556,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

@@ -65,7 +65,6 @@
 .method static constructor <clinit>()V
     .locals 33
 
-    .line 1
     new-instance v6, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v1, "NO_ERROR"
@@ -84,7 +83,6 @@
 
     sput-object v6, Lcom/squareup/okhttp/internal/framed/ErrorCode;->NO_ERROR:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 2
     new-instance v0, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v8, "PROTOCOL_ERROR"
@@ -103,7 +101,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/internal/framed/ErrorCode;->PROTOCOL_ERROR:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 3
     new-instance v1, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v14, "INVALID_STREAM"
@@ -122,7 +119,6 @@
 
     sput-object v1, Lcom/squareup/okhttp/internal/framed/ErrorCode;->INVALID_STREAM:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 4
     new-instance v2, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v8, "UNSUPPORTED_VERSION"
@@ -139,7 +135,6 @@
 
     sput-object v2, Lcom/squareup/okhttp/internal/framed/ErrorCode;->UNSUPPORTED_VERSION:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 5
     new-instance v3, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v14, "STREAM_IN_USE"
@@ -154,7 +149,6 @@
 
     sput-object v3, Lcom/squareup/okhttp/internal/framed/ErrorCode;->STREAM_IN_USE:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 6
     new-instance v4, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v8, "STREAM_ALREADY_CLOSED"
@@ -169,7 +163,6 @@
 
     sput-object v4, Lcom/squareup/okhttp/internal/framed/ErrorCode;->STREAM_ALREADY_CLOSED:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 7
     new-instance v5, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v14, "INTERNAL_ERROR"
@@ -188,7 +181,6 @@
 
     sput-object v5, Lcom/squareup/okhttp/internal/framed/ErrorCode;->INTERNAL_ERROR:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 8
     new-instance v13, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v8, "FLOW_CONTROL_ERROR"
@@ -205,7 +197,6 @@
 
     sput-object v13, Lcom/squareup/okhttp/internal/framed/ErrorCode;->FLOW_CONTROL_ERROR:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 9
     new-instance v7, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v15, "STREAM_CLOSED"
@@ -224,7 +215,6 @@
 
     sput-object v7, Lcom/squareup/okhttp/internal/framed/ErrorCode;->STREAM_CLOSED:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 10
     new-instance v8, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v21, "FRAME_TOO_LARGE"
@@ -243,7 +233,6 @@
 
     sput-object v8, Lcom/squareup/okhttp/internal/framed/ErrorCode;->FRAME_TOO_LARGE:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 11
     new-instance v9, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v15, "REFUSED_STREAM"
@@ -260,7 +249,6 @@
 
     sput-object v9, Lcom/squareup/okhttp/internal/framed/ErrorCode;->REFUSED_STREAM:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 12
     new-instance v10, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v21, "CANCEL"
@@ -277,7 +265,6 @@
 
     sput-object v10, Lcom/squareup/okhttp/internal/framed/ErrorCode;->CANCEL:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 13
     new-instance v11, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v15, "COMPRESSION_ERROR"
@@ -294,7 +281,6 @@
 
     sput-object v11, Lcom/squareup/okhttp/internal/framed/ErrorCode;->COMPRESSION_ERROR:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 14
     new-instance v12, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v21, "CONNECT_ERROR"
@@ -311,7 +297,6 @@
 
     sput-object v12, Lcom/squareup/okhttp/internal/framed/ErrorCode;->CONNECT_ERROR:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 15
     new-instance v20, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v15, "ENHANCE_YOUR_CALM"
@@ -326,7 +311,6 @@
 
     sput-object v20, Lcom/squareup/okhttp/internal/framed/ErrorCode;->ENHANCE_YOUR_CALM:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 16
     new-instance v14, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v22, "INADEQUATE_SECURITY"
@@ -343,7 +327,6 @@
 
     sput-object v14, Lcom/squareup/okhttp/internal/framed/ErrorCode;->INADEQUATE_SECURITY:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 17
     new-instance v15, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v28, "HTTP_1_1_REQUIRED"
@@ -362,7 +345,6 @@
 
     sput-object v15, Lcom/squareup/okhttp/internal/framed/ErrorCode;->HTTP_1_1_REQUIRED:Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
-    .line 18
     new-instance v16, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     const-string v22, "INVALID_CREDENTIALS"
@@ -457,7 +439,6 @@
 
     aput-object v16, v15, v0
 
-    .line 19
     sput-object v15, Lcom/squareup/okhttp/internal/framed/ErrorCode;->$VALUES:[Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     return-void
@@ -471,16 +452,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/squareup/okhttp/internal/framed/ErrorCode;->httpCode:I
 
-    .line 3
     iput p4, p0, Lcom/squareup/okhttp/internal/framed/ErrorCode;->spdyRstCode:I
 
-    .line 4
     iput p5, p0, Lcom/squareup/okhttp/internal/framed/ErrorCode;->spdyGoAwayCode:I
 
     return-void
@@ -489,7 +466,6 @@
 .method public static fromHttp2(I)Lcom/squareup/okhttp/internal/framed/ErrorCode;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/squareup/okhttp/internal/framed/ErrorCode;->values()[Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     move-result-object v0
@@ -503,7 +479,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget v4, v3, Lcom/squareup/okhttp/internal/framed/ErrorCode;->httpCode:I
 
     if-ne v4, p0, :cond_0
@@ -524,7 +499,6 @@
 .method public static fromSpdy3Rst(I)Lcom/squareup/okhttp/internal/framed/ErrorCode;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/squareup/okhttp/internal/framed/ErrorCode;->values()[Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     move-result-object v0
@@ -538,7 +512,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget v4, v3, Lcom/squareup/okhttp/internal/framed/ErrorCode;->spdyRstCode:I
 
     if-ne v4, p0, :cond_0
@@ -559,7 +532,6 @@
 .method public static fromSpdyGoAway(I)Lcom/squareup/okhttp/internal/framed/ErrorCode;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/squareup/okhttp/internal/framed/ErrorCode;->values()[Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     move-result-object v0
@@ -573,7 +545,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget v4, v3, Lcom/squareup/okhttp/internal/framed/ErrorCode;->spdyGoAwayCode:I
 
     if-ne v4, p0, :cond_0
@@ -594,7 +565,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/squareup/okhttp/internal/framed/ErrorCode;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -609,7 +579,6 @@
 .method public static values()[Lcom/squareup/okhttp/internal/framed/ErrorCode;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/internal/framed/ErrorCode;->$VALUES:[Lcom/squareup/okhttp/internal/framed/ErrorCode;
 
     invoke-virtual {v0}, [Lcom/squareup/okhttp/internal/framed/ErrorCode;->clone()Ljava/lang/Object;

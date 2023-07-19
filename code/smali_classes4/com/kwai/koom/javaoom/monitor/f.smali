@@ -21,17 +21,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/kwai/koom/javaoom/monitor/f;->a:Ljava/util/List;
 
-    .line 3
     new-instance v0, Lcom/kwai/koom/javaoom/monitor/g;
 
     invoke-direct {v0}, Lcom/kwai/koom/javaoom/monitor/g;-><init>()V
@@ -46,7 +43,6 @@
 .method public a(Lcom/kwai/koom/javaoom/monitor/e;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/monitor/f;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -57,7 +53,6 @@
 .method public b(Lcom/kwai/koom/javaoom/monitor/e;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/monitor/f;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
@@ -68,7 +63,6 @@
 .method public c(Lcom/kwai/koom/javaoom/monitor/h;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/monitor/f;->b:Lcom/kwai/koom/javaoom/monitor/g;
 
     invoke-virtual {v0, p1}, Lcom/kwai/koom/javaoom/monitor/g;->e(Lcom/kwai/koom/javaoom/monitor/h;)V
@@ -79,7 +73,6 @@
 .method public d()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/monitor/f;->b:Lcom/kwai/koom/javaoom/monitor/g;
 
     iget-object v1, p0, Lcom/kwai/koom/javaoom/monitor/f;->a:Ljava/util/List;
@@ -92,7 +85,6 @@
 .method public e(Lcom/kwai/koom/javaoom/monitor/e;)V
     .locals 0
 
-    .line 1
     invoke-interface {p1}, Lcom/kwai/koom/javaoom/monitor/e;->start()V
 
     return-void
@@ -101,7 +93,6 @@
 .method public f()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/monitor/f;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -121,12 +112,10 @@
 
     check-cast v1, Lcom/kwai/koom/javaoom/monitor/e;
 
-    .line 2
     invoke-interface {v1}, Lcom/kwai/koom/javaoom/monitor/e;->stop()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/kwai/koom/javaoom/monitor/f;->b:Lcom/kwai/koom/javaoom/monitor/g;
 
@@ -138,7 +127,6 @@
 .method public g(Lcom/kwai/koom/javaoom/monitor/e;)V
     .locals 0
 
-    .line 1
     invoke-interface {p1}, Lcom/kwai/koom/javaoom/monitor/e;->stop()V
 
     return-void

@@ -78,7 +78,6 @@
 .method static constructor <clinit>()V
     .locals 25
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/VastAgent$ReportEvent;
 
     const-string v1, "CREATE_VIEW"
@@ -129,7 +128,6 @@
 
     sput-object v7, Lcom/sdk/imp/VastAgent$ReportEvent;->PAUSE:Lcom/sdk/imp/VastAgent$ReportEvent;
 
-    .line 2
     new-instance v9, Lcom/sdk/imp/VastAgent$ReportEvent;
 
     const-string v11, "FIRSTQUARTILE"
@@ -160,7 +158,6 @@
 
     sput-object v13, Lcom/sdk/imp/VastAgent$ReportEvent;->THIRDQUARTILE:Lcom/sdk/imp/VastAgent$ReportEvent;
 
-    .line 3
     new-instance v15, Lcom/sdk/imp/VastAgent$ReportEvent;
 
     const-string v14, "MUTE"
@@ -201,7 +198,6 @@
 
     sput-object v10, Lcom/sdk/imp/VastAgent$ReportEvent;->RESUME:Lcom/sdk/imp/VastAgent$ReportEvent;
 
-    .line 4
     new-instance v8, Lcom/sdk/imp/VastAgent$ReportEvent;
 
     const-string v6, "FULL_SCREEN"
@@ -222,7 +218,6 @@
 
     sput-object v6, Lcom/sdk/imp/VastAgent$ReportEvent;->EXIT_FULL_SCREEN:Lcom/sdk/imp/VastAgent$ReportEvent;
 
-    .line 5
     new-instance v4, Lcom/sdk/imp/VastAgent$ReportEvent;
 
     const-string v2, "IMPRESSION"
@@ -271,7 +266,6 @@
 
     sput-object v4, Lcom/sdk/imp/VastAgent$ReportEvent;->CLICK_TRACKING:Lcom/sdk/imp/VastAgent$ReportEvent;
 
-    .line 6
     new-instance v2, Lcom/sdk/imp/VastAgent$ReportEvent;
 
     const-string v6, "COMPANION_CREATE_VIEW"
@@ -302,7 +296,6 @@
 
     sput-object v6, Lcom/sdk/imp/VastAgent$ReportEvent;->COMPANION_CLICK_TRACKING:Lcom/sdk/imp/VastAgent$ReportEvent;
 
-    .line 7
     new-instance v4, Lcom/sdk/imp/VastAgent$ReportEvent;
 
     const-string v8, "PROGRESS"
@@ -423,7 +416,6 @@
 
     aput-object v2, v4, v0
 
-    .line 8
     sput-object v4, Lcom/sdk/imp/VastAgent$ReportEvent;->$VALUES:[Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-void
@@ -437,10 +429,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/sdk/imp/VastAgent$ReportEvent;->order:I
 
     return-void
@@ -449,7 +439,6 @@
 .method static synthetic access$200(Lcom/sdk/imp/VastAgent$ReportEvent;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/sdk/imp/VastAgent$ReportEvent;->order:I
 
     return p0
@@ -458,7 +447,6 @@
 .method public static getEvent(Ljava/lang/String;)Lcom/sdk/imp/VastAgent$ReportEvent;
     .locals 2
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -472,14 +460,12 @@
     :cond_0
     const-string v0, "creativeView"
 
-    .line 2
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->CREATE_VIEW:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -487,14 +473,12 @@
     :cond_1
     const-string v0, "start"
 
-    .line 4
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    .line 5
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->START:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -502,14 +486,12 @@
     :cond_2
     const-string v0, "firstQuartile"
 
-    .line 6
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 7
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->FIRSTQUARTILE:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -517,14 +499,12 @@
     :cond_3
     const-string v0, "midpoint"
 
-    .line 8
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_4
 
-    .line 9
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->MIDPOINT:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -532,14 +512,12 @@
     :cond_4
     const-string v0, "thirdQuartile"
 
-    .line 10
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_5
 
-    .line 11
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->THIRDQUARTILE:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -547,14 +525,12 @@
     :cond_5
     const-string v0, "complete"
 
-    .line 12
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_6
 
-    .line 13
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->PLAY_COMPLETE:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -562,14 +538,12 @@
     :cond_6
     const-string v0, "close"
 
-    .line 14
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_7
 
-    .line 15
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->CLOSE:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -577,14 +551,12 @@
     :cond_7
     const-string v0, "pause"
 
-    .line 16
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_8
 
-    .line 17
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->PAUSE:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -592,14 +564,12 @@
     :cond_8
     const-string v0, "resume"
 
-    .line 18
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_9
 
-    .line 19
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->RESUME:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -607,14 +577,12 @@
     :cond_9
     const-string v0, "mute"
 
-    .line 20
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_a
 
-    .line 21
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->MUTE:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -622,14 +590,12 @@
     :cond_a
     const-string v0, "unmute"
 
-    .line 22
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_b
 
-    .line 23
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->UNMUTE:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -637,14 +603,12 @@
     :cond_b
     const-string v0, "fullscreen"
 
-    .line 24
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_c
 
-    .line 25
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->FULL_SCREEN:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -652,14 +616,12 @@
     :cond_c
     const-string v0, "exitFullscreen"
 
-    .line 26
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_d
 
-    .line 27
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->EXIT_FULL_SCREEN:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -667,14 +629,12 @@
     :cond_d
     const-string v0, "ClickTracking"
 
-    .line 28
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_e
 
-    .line 29
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->CLICK_TRACKING:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -682,14 +642,12 @@
     :cond_e
     const-string v0, "Error"
 
-    .line 30
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_f
 
-    .line 31
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->ERROR:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -697,14 +655,12 @@
     :cond_f
     const-string v0, "Impression"
 
-    .line 32
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_10
 
-    .line 33
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->IMPRESSION:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -712,14 +668,12 @@
     :cond_10
     const-string v0, "CompanionClickTracking"
 
-    .line 34
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_11
 
-    .line 35
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->COMPANION_CLICK_TRACKING:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -727,14 +681,12 @@
     :cond_11
     const-string v0, "progress"
 
-    .line 36
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_12
 
-    .line 37
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->PROGRESS:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -742,14 +694,12 @@
     :cond_12
     const-string v0, "skip"
 
-    .line 38
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
     if-eqz p0, :cond_13
 
-    .line 39
     sget-object p0, Lcom/sdk/imp/VastAgent$ReportEvent;->SKIP:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     return-object p0
@@ -761,7 +711,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/sdk/imp/VastAgent$ReportEvent;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/sdk/imp/VastAgent$ReportEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -776,7 +725,6 @@
 .method public static values()[Lcom/sdk/imp/VastAgent$ReportEvent;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/VastAgent$ReportEvent;->$VALUES:[Lcom/sdk/imp/VastAgent$ReportEvent;
 
     invoke-virtual {v0}, [Lcom/sdk/imp/VastAgent$ReportEvent;->clone()Ljava/lang/Object;

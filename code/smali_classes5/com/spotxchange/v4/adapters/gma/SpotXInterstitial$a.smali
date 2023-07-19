@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial$a;->b:Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial;
 
     iput-object p2, p0, Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial$a;->a:Ljava/lang/Exception;
@@ -47,12 +46,10 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial$a;->a:Ljava/lang/Exception;
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial$a;->b:Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial;
 
     invoke-static {v0}, Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial;->a(Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial;)Lcom/google/android/gms/ads/mediation/customevent/d;
@@ -63,7 +60,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial;->b()Ljava/lang/String;
 
@@ -77,14 +73,12 @@
 
     invoke-static {v0, v1}, Lf/r/c/e/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial$a;->a:Ljava/lang/Exception;
 
     instance-of v1, v0, Lcom/spotxchange/v4/exceptions/SPXNoAdsException;
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial$a;->b:Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial;
 
     invoke-static {v0}, Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial;->a(Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial;)Lcom/google/android/gms/ads/mediation/customevent/d;
@@ -97,13 +91,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     instance-of v0, v0, Lcom/spotxchange/v4/exceptions/SPXMissingParamException;
 
     if-eqz v0, :cond_2
 
-    .line 7
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial$a;->b:Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial;
 
     invoke-static {v0}, Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial;->a(Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial;)Lcom/google/android/gms/ads/mediation/customevent/d;
@@ -116,7 +108,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial$a;->b:Lcom/spotxchange/v4/adapters/gma/SpotXInterstitial;
 

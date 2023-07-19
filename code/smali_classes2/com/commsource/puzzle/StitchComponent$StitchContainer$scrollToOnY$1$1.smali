@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
@@ -77,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$scrollToOnY$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer$scrollToOnY$1;
 
     iget-object v2, v1, Lcom/commsource/puzzle/StitchComponent$StitchContainer$scrollToOnY$1;->$func:Lcotlin/jvm/u/l;
@@ -96,7 +94,6 @@
 
     invoke-interface {v2, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

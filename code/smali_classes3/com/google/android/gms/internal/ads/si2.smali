@@ -15,7 +15,6 @@
     :try_start_0
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p0
@@ -24,13 +23,11 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
 
     move-result-object p0
 
-    .line 3
     :goto_0
     array-length v0, p0
 
@@ -58,18 +55,15 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result p0
@@ -85,17 +79,14 @@
     :goto_0
     if-ge v3, p0, :cond_f
 
-    .line 4
     invoke-static {v1, v3}, Ljava/lang/Character;->codePointAt([CI)I
 
     move-result v6
 
-    .line 5
     invoke-static {v6}, Ljava/lang/Character;->charCount(I)I
 
     move-result v7
 
-    .line 6
     invoke-static {v6}, Ljava/lang/Character;->isLetter(I)Z
 
     move-result v8
@@ -104,12 +95,10 @@
 
     if-eqz v8, :cond_7
 
-    .line 7
     invoke-static {v6}, Ljava/lang/Character$UnicodeBlock;->of(I)Ljava/lang/Character$UnicodeBlock;
 
     move-result-object v8
 
-    .line 8
     sget-object v10, Ljava/lang/Character$UnicodeBlock;->BOPOMOFO:Ljava/lang/Character$UnicodeBlock;
 
     if-eq v8, v10, :cond_2
@@ -221,7 +210,6 @@
 
     if-eqz v4, :cond_8
 
-    .line 9
     new-instance v4, Ljava/lang/String;
 
     sub-int v6, v3, v5
@@ -230,7 +218,6 @@
 
     invoke-virtual {v0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 10
     :cond_8
     new-instance v4, Ljava/lang/String;
 
@@ -243,7 +230,6 @@
 
     goto :goto_8
 
-    .line 11
     :cond_9
     invoke-static {v6}, Ljava/lang/Character;->isLetterOrDigit(I)Z
 
@@ -251,7 +237,6 @@
 
     if-nez v8, :cond_c
 
-    .line 12
     invoke-static {v6}, Ljava/lang/Character;->getType(I)I
 
     move-result v8
@@ -260,7 +245,6 @@
 
     if-eq v8, v10, :cond_c
 
-    .line 13
     invoke-static {v6}, Ljava/lang/Character;->getType(I)I
 
     move-result v8
@@ -274,14 +258,12 @@
     :cond_a
     if-eqz p1, :cond_b
 
-    .line 14
     invoke-static {v6}, Ljava/lang/Character;->charCount(I)I
 
     move-result v8
 
     if-ne v8, v9, :cond_b
 
-    .line 15
     invoke-static {v6}, Ljava/lang/Character;->toChars(I)[C
 
     move-result-object v6
@@ -299,7 +281,6 @@
     :cond_b
     if-eqz v4, :cond_e
 
-    .line 16
     new-instance v4, Ljava/lang/String;
 
     sub-int v6, v3, v5
@@ -329,7 +310,6 @@
     :cond_f
     if-eqz v4, :cond_10
 
-    .line 17
     new-instance p0, Ljava/lang/String;
 
     sub-int/2addr v3, v5
@@ -338,7 +318,6 @@
 
     invoke-virtual {v0, p0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 18
     :cond_10
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -346,7 +325,6 @@
 
     new-array p0, p0, [Ljava/lang/String;
 
-    .line 19
     invoke-virtual {v0, p0}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p0

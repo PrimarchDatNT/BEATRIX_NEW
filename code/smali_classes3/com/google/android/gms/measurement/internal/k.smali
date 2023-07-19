@@ -41,13 +41,10 @@
 
     move-wide/from16 v7, p11
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
     invoke-static/range {p2 .. p2}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     const/4 v9, 0x1
@@ -67,7 +64,6 @@
     :cond_0
     const/4 v13, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v13}, Lcom/google/android/gms/common/internal/b0;->a(Z)V
 
@@ -82,7 +78,6 @@
     :cond_1
     const/4 v13, 0x0
 
-    .line 5
     :goto_1
     invoke-static {v13}, Lcom/google/android/gms/common/internal/b0;->a(Z)V
 
@@ -97,7 +92,6 @@
     :cond_2
     const/4 v13, 0x0
 
-    .line 6
     :goto_2
     invoke-static {v13}, Lcom/google/android/gms/common/internal/b0;->a(Z)V
 
@@ -110,55 +104,43 @@
     :cond_3
     const/4 v9, 0x0
 
-    .line 7
     :goto_3
     invoke-static {v9}, Lcom/google/android/gms/common/internal/b0;->a(Z)V
 
     move-object v9, p1
 
-    .line 8
     iput-object v9, v0, Lcom/google/android/gms/measurement/internal/k;->a:Ljava/lang/String;
 
     move-object/from16 v9, p2
 
-    .line 9
     iput-object v9, v0, Lcom/google/android/gms/measurement/internal/k;->b:Ljava/lang/String;
 
-    .line 10
     iput-wide v1, v0, Lcom/google/android/gms/measurement/internal/k;->c:J
 
-    .line 11
     iput-wide v3, v0, Lcom/google/android/gms/measurement/internal/k;->d:J
 
-    .line 12
     iput-wide v5, v0, Lcom/google/android/gms/measurement/internal/k;->e:J
 
     move-wide/from16 v1, p9
 
-    .line 13
     iput-wide v1, v0, Lcom/google/android/gms/measurement/internal/k;->f:J
 
-    .line 14
     iput-wide v7, v0, Lcom/google/android/gms/measurement/internal/k;->g:J
 
     move-object/from16 v1, p13
 
-    .line 15
     iput-object v1, v0, Lcom/google/android/gms/measurement/internal/k;->h:Ljava/lang/Long;
 
     move-object/from16 v1, p14
 
-    .line 16
     iput-object v1, v0, Lcom/google/android/gms/measurement/internal/k;->i:Ljava/lang/Long;
 
     move-object/from16 v1, p15
 
-    .line 17
     iput-object v1, v0, Lcom/google/android/gms/measurement/internal/k;->j:Ljava/lang/Long;
 
     move-object/from16 v1, p16
 
-    .line 18
     iput-object v1, v0, Lcom/google/android/gms/measurement/internal/k;->k:Ljava/lang/Boolean;
 
     return-void
@@ -191,7 +173,6 @@
 
     const/16 v16, 0x0
 
-    .line 19
     invoke-direct/range {v0 .. v16}, Lcom/google/android/gms/measurement/internal/k;-><init>(Ljava/lang/String;Ljava/lang/String;JJJJJLjava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Boolean;)V
 
     return-void
@@ -206,7 +187,6 @@
 
     move-wide/from16 v10, p1
 
-    .line 1
     new-instance v18, Lcom/google/android/gms/measurement/internal/k;
 
     move-object/from16 v1, v18
@@ -251,7 +231,6 @@
 
     move-wide/from16 v12, p1
 
-    .line 1
     new-instance v18, Lcom/google/android/gms/measurement/internal/k;
 
     move-object/from16 v1, v18
@@ -268,7 +247,6 @@
 
     iget-wide v10, v0, Lcom/google/android/gms/measurement/internal/k;->f:J
 
-    .line 2
     invoke-static/range {p3 .. p4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v14
@@ -299,7 +277,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual/range {p3 .. p3}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v1
@@ -315,7 +292,6 @@
     :cond_0
     move-object/from16 v18, p3
 
-    .line 2
     :goto_0
     new-instance v1, Lcom/google/android/gms/measurement/internal/k;
 

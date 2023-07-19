@@ -11,10 +11,8 @@
 .method public constructor <init>(ILjava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p2}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/internal/ads/zzdrj;->zzhjr:I
 
     return-void
@@ -23,10 +21,8 @@
 .method public constructor <init>(ILjava/lang/Throwable;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p2}, Ljava/lang/Exception;-><init>(Ljava/lang/Throwable;)V
 
-    .line 4
     iput p1, p0, Lcom/google/android/gms/internal/ads/zzdrj;->zzhjr:I
 
     return-void
@@ -37,7 +33,6 @@
 .method public final zzavz()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzdrj;->zzhjr:I
 
     return v0

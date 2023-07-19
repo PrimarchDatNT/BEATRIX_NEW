@@ -45,7 +45,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$d;->a:Lcotlin/sequences/m;
 
     iput-object p2, p0, Lcotlin/sequences/SequencesKt___SequencesKt$d;->b:Ljava/util/Comparator;
@@ -70,19 +69,16 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$d;->a:Lcotlin/sequences/m;
 
     invoke-static {v0}, Lcotlin/sequences/p;->W2(Lcotlin/sequences/m;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$d;->b:Ljava/util/Comparator;
 
     invoke-static {v0, v1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0

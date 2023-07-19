@@ -26,10 +26,8 @@
 .method public final L(Lcom/google/android/gms/internal/ads/th2;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/kl0;->a:Lcom/google/android/gms/internal/ads/lu;
 
-    .line 2
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/lu;->r()Lcom/google/android/gms/internal/ads/vv;
 
     move-result-object v0
@@ -42,7 +40,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-interface {v0, v1, p1, v2}, Lcom/google/android/gms/internal/ads/vv;->i(IIZ)V
 
     return-void

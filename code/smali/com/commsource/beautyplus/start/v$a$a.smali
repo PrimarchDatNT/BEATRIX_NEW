@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/start/v$a;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/start/v$a$a;->p:Lcom/commsource/beautyplus/start/v$a;
 
     iput-object p3, p0, Lcom/commsource/beautyplus/start/v$a$a;->g:Ljava/lang/String;
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -62,7 +60,6 @@
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/start/v$a$a;->g:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -71,12 +68,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
@@ -84,18 +79,15 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     const-class v2, Lcom/commsource/beautyplus/start/v;
 
     monitor-enter v2
 
-    .line 7
     :try_start_0
     invoke-static {}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->values()[Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
@@ -112,26 +104,22 @@
 
     aget-object v7, v3, v5
 
-    .line 8
     invoke-virtual {v7}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->getCode()I
 
     move-result v7
 
-    .line 9
     invoke-static {v1, v7}, Lf/d/i/a;->O(Landroid/content/Context;I)Z
 
     move-result v8
 
     if-nez v8, :cond_2
 
-    .line 10
     invoke-static {v1, v7, v6}, Lcom/commsource/beautyplus/util/d;->i(Landroid/content/Context;IZ)Z
 
     move-result v6
 
     if-eqz v6, :cond_2
 
-    .line 11
     invoke-static {v1, v7}, Lf/d/i/a;->T(Landroid/content/Context;I)V
 
     :cond_2
@@ -139,13 +127,11 @@
 
     goto :goto_0
 
-    .line 12
     :cond_3
     monitor-exit v2
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/beautyplus/start/v$a$a;->g:Ljava/lang/String;
 
     const-class v3, Lcom/commsource/beautyplus/data/a;
@@ -158,19 +144,16 @@
 
     if-eqz v2, :cond_8
 
-    .line 14
     invoke-virtual {v2}, Lcom/commsource/beautyplus/data/a;->a()Ljava/util/List;
 
     move-result-object v3
 
     if-eqz v3, :cond_8
 
-    .line 15
     invoke-virtual {v2}, Lcom/commsource/beautyplus/data/a;->a()Ljava/util/List;
 
     move-result-object v2
 
-    .line 16
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -189,7 +172,6 @@
 
     check-cast v3, Lcom/commsource/beautyplus/data/a$a;
 
-    .line 17
     invoke-virtual {v3}, Lcom/commsource/beautyplus/data/a$a;->a()I
 
     move-result v3
@@ -202,21 +184,18 @@
 
     if-gt v3, v4, :cond_5
 
-    .line 18
     invoke-static {v1, v3}, Lf/d/i/a;->O(Landroid/content/Context;I)Z
 
     move-result v4
 
     if-nez v4, :cond_5
 
-    .line 19
     invoke-static {v1, v3, v6}, Lcom/commsource/beautyplus/util/d;->i(Landroid/content/Context;IZ)Z
 
     move-result v4
 
     if-eqz v4, :cond_5
 
-    .line 20
     invoke-static {v1, v3}, Lf/d/i/a;->T(Landroid/content/Context;I)V
 
     :cond_5
@@ -237,7 +216,6 @@
 
     if-gt v3, v4, :cond_4
 
-    .line 21
     :cond_7
     invoke-static {v1, v3}, Lf/d/i/a;->O(Landroid/content/Context;I)Z
 
@@ -245,19 +223,16 @@
 
     if-nez v4, :cond_4
 
-    .line 22
     invoke-static {v1, v3, v6}, Lcom/commsource/beautyplus/util/d;->i(Landroid/content/Context;IZ)Z
 
     move-result v4
 
     if-eqz v4, :cond_4
 
-    .line 23
     invoke-static {v1, v3}, Lf/d/i/a;->T(Landroid/content/Context;I)V
 
     goto :goto_1
 
-    .line 24
     :cond_8
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -279,7 +254,6 @@
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 25
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -287,7 +261,6 @@
     :catchall_0
     move-exception v1
 
-    .line 26
     :try_start_1
     monitor-exit v2
     :try_end_1

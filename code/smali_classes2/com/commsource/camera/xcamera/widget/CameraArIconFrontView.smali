@@ -81,10 +81,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/IconFrontView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 2
     new-instance p1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -105,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->S:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -120,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->P:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -135,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->R:Lcom/commsource/push/bean/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -150,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->S:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -165,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->R:Lcom/commsource/push/bean/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -180,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->R:Lcom/commsource/push/bean/h;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->N:Lcom/commsource/push/bean/h;
@@ -225,7 +217,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_2
     sget-object v1, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->R:Lcom/commsource/push/bean/h;
 
@@ -233,10 +224,8 @@
 
     if-nez v1, :cond_3
 
-    .line 3
     iput-object v2, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->K:Lcom/commsource/camera/f1/o;
 
-    .line 4
     invoke-virtual {p0}, Landroid/widget/TextView;->invalidate()V
 
     goto :goto_2
@@ -244,7 +233,6 @@
     :cond_3
     if-eqz v1, :cond_8
 
-    .line 5
     iget-object v3, v1, Lcom/commsource/push/bean/e;->g:Ljava/lang/String;
 
     const/4 v4, 0x0
@@ -261,15 +249,12 @@
 
     if-eq v3, v4, :cond_4
 
-    .line 6
     iput-object v2, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->K:Lcom/commsource/camera/f1/o;
 
-    .line 7
     invoke-virtual {p0}, Landroid/widget/TextView;->invalidate()V
 
     goto :goto_2
 
-    .line 8
     :cond_4
     new-instance v2, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c;
 
@@ -281,7 +266,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_5
     iget-object v3, v1, Lcom/commsource/push/bean/h;->i:Ljava/lang/String;
 
@@ -291,7 +275,6 @@
 
     if-nez v3, :cond_7
 
-    .line 10
     iget-object v3, v1, Lcom/commsource/push/bean/h;->i:Ljava/lang/String;
 
     invoke-static {v3}, Landroid/webkit/URLUtil;->isHttpUrl(Ljava/lang/String;)Z
@@ -300,7 +283,6 @@
 
     if-nez v3, :cond_6
 
-    .line 11
     iget-object v3, v1, Lcom/commsource/push/bean/h;->i:Ljava/lang/String;
 
     invoke-static {v3}, Landroid/webkit/URLUtil;->isHttpsUrl(Ljava/lang/String;)Z
@@ -309,7 +291,6 @@
 
     if-eqz v3, :cond_7
 
-    .line 12
     :cond_6
     invoke-virtual {p0}, Landroid/widget/TextView;->getContext()Landroid/content/Context;
 
@@ -319,7 +300,6 @@
 
     move-result-object v2
 
-    .line 13
     iget-object v1, v1, Lcom/commsource/push/bean/h;->i:Ljava/lang/String;
 
     invoke-virtual {v2, v1}, Lcom/commsource/util/u0$d;->m(Ljava/lang/String;)Lcom/commsource/util/u0$d;
@@ -328,7 +308,6 @@
 
     const/16 v2, 0x23
 
-    .line 14
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v3
@@ -341,7 +320,6 @@
 
     move-result-object v1
 
-    .line 15
     new-instance v2, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$b;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$b;-><init>(Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;)V
@@ -350,21 +328,17 @@
 
     goto :goto_2
 
-    .line 16
     :cond_7
     iput-object v2, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->K:Lcom/commsource/camera/f1/o;
 
-    .line 17
     invoke-virtual {p0}, Landroid/widget/TextView;->invalidate()V
 
-    .line 18
     :cond_8
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 19
     :cond_9
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -452,7 +426,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->O:Landroid/graphics/drawable/AnimationDrawable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -469,7 +442,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->K:Lcom/commsource/camera/f1/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -486,7 +458,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->N:Lcom/commsource/push/bean/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -501,7 +472,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->M:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -516,7 +486,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -531,26 +500,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->O:Landroid/graphics/drawable/AnimationDrawable;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/graphics/drawable/AnimationDrawable;->stop()V
 
-    .line 3
     iput-object v2, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->O:Landroid/graphics/drawable/AnimationDrawable;
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->P:Landroid/os/Handler;
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -563,15 +527,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->T:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$a;->c()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->n()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -596,14 +557,12 @@
 
     const-string v1, "ar_icon"
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/content/Context;->getExternalFilesDir(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
-    .line 2
     new-instance p1, Ljava/io/File;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -634,7 +593,6 @@
 
     invoke-direct {p1, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
@@ -656,13 +614,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/widget/TextView;->onDetachedFromWindow()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->l()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -683,21 +638,17 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->K:Lcom/commsource/camera/f1/o;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-super {p0, p1}, Lcom/commsource/widget/IconFrontView;->onDraw(Landroid/graphics/Canvas;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 4
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->L:I
 
     int-to-float v1, v1
@@ -714,18 +665,15 @@
 
     invoke-virtual {p1, v1, v3}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->K:Lcom/commsource/camera/f1/o;
 
     if-eqz v1, :cond_1
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/o;->c(Landroid/graphics/Canvas;)V
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -739,16 +687,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/TextView;->onSizeChanged(IIII)V
 
-    .line 2
     iput p1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->L:I
 
-    .line 3
     iput p2, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->M:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -779,7 +723,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -822,7 +765,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->O:Landroid/graphics/drawable/AnimationDrawable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -841,7 +783,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->K:Lcom/commsource/camera/f1/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -860,7 +801,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->N:Lcom/commsource/push/bean/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -875,7 +815,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->M:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -890,7 +829,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

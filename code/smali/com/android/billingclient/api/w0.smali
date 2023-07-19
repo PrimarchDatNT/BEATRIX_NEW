@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/android/billingclient/api/e;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/w0;->b:Lcom/android/billingclient/api/e;
 
     iput-object p2, p0, Lcom/android/billingclient/api/w0;->a:Ljava/lang/String;
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/w0;->b:Lcom/android/billingclient/api/e;
 
     invoke-static {v0}, Lcom/android/billingclient/api/e;->M(Lcom/android/billingclient/api/e;)Lf/f/b/b/h/e/a;
@@ -56,7 +54,6 @@
 
     iget-object v1, p0, Lcom/android/billingclient/api/w0;->b:Lcom/android/billingclient/api/e;
 
-    .line 2
     invoke-static {v1}, Lcom/android/billingclient/api/e;->F(Lcom/android/billingclient/api/e;)Landroid/content/Context;
 
     move-result-object v1
@@ -69,14 +66,12 @@
 
     iget-object v3, p0, Lcom/android/billingclient/api/w0;->b:Lcom/android/billingclient/api/e;
 
-    .line 3
     invoke-static {v3}, Lcom/android/billingclient/api/e;->Q(Lcom/android/billingclient/api/e;)Landroid/os/Bundle;
 
     move-result-object v3
 
     const/4 v4, 0x7
 
-    .line 4
     invoke-interface {v0, v4, v1, v2, v3}, Lf/f/b/b/h/e/a;->h9(ILjava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)I
 
     move-result v0

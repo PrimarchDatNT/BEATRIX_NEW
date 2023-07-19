@@ -41,12 +41,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->this$0:Lorg/apache/thrift/async/TAsyncClientManager;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
 
-    .line 2
     new-instance p1, Ljava/util/TreeSet;
 
     new-instance v0, Lorg/apache/thrift/async/TAsyncClientManager$TAsyncMethodCallTimeoutComparator;
@@ -59,7 +57,6 @@
 
     iput-object p1, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->timeoutWatchSet:Ljava/util/TreeSet;
 
-    .line 3
     invoke-static {}, Ljava/nio/channels/spi/SelectorProvider;->provider()Ljava/nio/channels/spi/SelectorProvider;
 
     move-result-object p1
@@ -72,10 +69,8 @@
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->running:Z
 
-    .line 5
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -96,7 +91,6 @@
 
     invoke-virtual {p0, v0}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {p0, p1}, Ljava/lang/Thread;->setDaemon(Z)V
 
     return-void
@@ -105,7 +99,6 @@
 .method private startPendingMethods()V
     .locals 4
 
-    .line 1
     :cond_0
     :goto_0
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->this$0:Lorg/apache/thrift/async/TAsyncClientManager;
@@ -122,18 +115,15 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->selector:Ljava/nio/channels/Selector;
 
     invoke-virtual {v0, v1}, Lorg/apache/thrift/async/TAsyncMethodCall;->start(Ljava/nio/channels/Selector;)V
 
-    .line 3
     invoke-virtual {v0}, Lorg/apache/thrift/async/TAsyncMethodCall;->getClient()Lorg/apache/thrift/async/TAsyncClient;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Lorg/apache/thrift/async/TAsyncClient;->hasTimeout()Z
 
     move-result v2
@@ -146,7 +136,6 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->timeoutWatchSet:Ljava/util/TreeSet;
 
     invoke-virtual {v1, v0}, Ljava/util/TreeSet;->add(Ljava/lang/Object;)Z
@@ -158,7 +147,6 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-static {}, Lorg/apache/thrift/async/TAsyncClientManager;->access$100()Lorg/slf4j/c;
 
     move-result-object v2
@@ -167,7 +155,6 @@
 
     invoke-interface {v2, v3, v1}, Lorg/slf4j/c;->warn(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 7
     invoke-virtual {v0, v1}, Lorg/apache/thrift/async/TAsyncMethodCall;->onError(Ljava/lang/Exception;)V
 
     goto :goto_0
@@ -179,19 +166,16 @@
 .method private timeoutMethods()V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->timeoutWatchSet:Ljava/util/TreeSet;
 
     invoke-virtual {v0}, Ljava/util/TreeSet;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 3
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -199,14 +183,12 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lorg/apache/thrift/async/TAsyncMethodCall;
 
-    .line 5
     invoke-virtual {v3}, Lorg/apache/thrift/async/TAsyncMethodCall;->getTimeoutTimestamp()J
 
     move-result-wide v4
@@ -215,10 +197,8 @@
 
     if-ltz v6, :cond_0
 
-    .line 6
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
-    .line 7
     new-instance v4, Ljava/util/concurrent/TimeoutException;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -268,7 +248,6 @@
 .method private transitionMethods()V
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->selector:Ljava/nio/channels/Selector;
 
@@ -280,7 +259,6 @@
 
     move-result-object v0
 
-    .line 2
     :cond_0
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -289,17 +267,14 @@
 
     if-eqz v1, :cond_3
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/nio/channels/SelectionKey;
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
-    .line 5
     invoke-virtual {v1}, Ljava/nio/channels/SelectionKey;->isValid()Z
 
     move-result v2
@@ -308,7 +283,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {v1}, Ljava/nio/channels/SelectionKey;->attachment()Ljava/lang/Object;
 
@@ -316,10 +290,8 @@
 
     check-cast v2, Lorg/apache/thrift/async/TAsyncMethodCall;
 
-    .line 7
     invoke-virtual {v2, v1}, Lorg/apache/thrift/async/TAsyncMethodCall;->transition(Ljava/nio/channels/SelectionKey;)V
 
-    .line 8
     invoke-virtual {v2}, Lorg/apache/thrift/async/TAsyncMethodCall;->isFinished()Z
 
     move-result v1
@@ -336,7 +308,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 9
     :cond_2
     iget-object v1, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->timeoutWatchSet:Ljava/util/TreeSet;
 
@@ -349,7 +320,6 @@
     :catch_0
     move-exception v0
 
-    .line 10
     invoke-static {}, Lorg/apache/thrift/async/TAsyncClientManager;->access$100()Lorg/slf4j/c;
 
     move-result-object v1
@@ -369,10 +339,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->running:Z
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->selector:Ljava/nio/channels/Selector;
 
     invoke-virtual {v0}, Ljava/nio/channels/Selector;->wakeup()Ljava/nio/channels/Selector;
@@ -383,7 +351,6 @@
 .method public getSelector()Ljava/nio/channels/Selector;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->selector:Ljava/nio/channels/Selector;
 
     return-object v0
@@ -392,13 +359,11 @@
 .method public run()V
     .locals 5
 
-    .line 1
     :goto_0
     iget-boolean v0, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->running:Z
 
     if-eqz v0, :cond_2
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->timeoutWatchSet:Ljava/util/TreeSet;
 
@@ -408,14 +373,12 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->selector:Ljava/nio/channels/Selector;
 
     invoke-virtual {v0}, Ljava/nio/channels/Selector;->select()I
 
     goto :goto_1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->timeoutWatchSet:Ljava/util/TreeSet;
 
@@ -429,7 +392,6 @@
 
     move-result-wide v0
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -442,14 +404,12 @@
 
     if-lez v4, :cond_1
 
-    .line 6
     iget-object v2, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->selector:Ljava/nio/channels/Selector;
 
     invoke-virtual {v2, v0, v1}, Ljava/nio/channels/Selector;->select(J)I
 
     goto :goto_1
 
-    .line 7
     :cond_1
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->selector:Ljava/nio/channels/Selector;
 
@@ -468,7 +428,6 @@
     :catch_1
     move-exception v0
 
-    .line 8
     :try_start_1
     invoke-static {}, Lorg/apache/thrift/async/TAsyncClientManager;->access$100()Lorg/slf4j/c;
 
@@ -478,21 +437,17 @@
 
     invoke-interface {v1, v2, v0}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 9
     :goto_1
     invoke-direct {p0}, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->transitionMethods()V
 
-    .line 10
     invoke-direct {p0}, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->timeoutMethods()V
 
-    .line 11
     invoke-direct {p0}, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->startPendingMethods()V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
     goto :goto_0
 
-    .line 12
     :goto_2
     invoke-static {}, Lorg/apache/thrift/async/TAsyncClientManager;->access$100()Lorg/slf4j/c;
 
@@ -504,7 +459,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     :try_start_2
     iget-object v0, p0, Lorg/apache/thrift/async/TAsyncClientManager$SelectThread;->selector:Ljava/nio/channels/Selector;
@@ -518,7 +472,6 @@
     :catch_2
     move-exception v0
 
-    .line 14
     invoke-static {}, Lorg/apache/thrift/async/TAsyncClientManager;->access$100()Lorg/slf4j/c;
 
     move-result-object v1

@@ -20,7 +20,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;-><init>()V
 
     return-void
@@ -44,15 +43,12 @@
 .method public a()V
     .locals 3
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->a()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/processor/h;->J()Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -71,12 +67,10 @@
 
     check-cast v1, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 4
     instance-of v2, v1, Lcom/commsource/camera/newrender/renderproxy/m;
 
     if-nez v2, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->f()Lcom/commsource/easyeditor/utils/opengl/c;
 
     move-result-object v2
@@ -85,13 +79,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/h;->J()Ljava/util/List;
 
     move-result-object v0
 
-    .line 7
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -109,7 +101,6 @@
 
     check-cast v1, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/n;->h()V
 
     goto :goto_1
@@ -121,15 +112,12 @@
 .method public c()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->c()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/processor/h;->J()Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -147,7 +135,6 @@
 
     check-cast v1, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/n;->i()V
 
     goto :goto_0
@@ -167,7 +154,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v2

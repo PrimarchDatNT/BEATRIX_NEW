@@ -24,7 +24,6 @@
 
     const-string v0, "camera_camera1_"
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/meitu/library/camera/s/k/a;-><init>(Ljava/lang/String;Ljava/util/Map;)V
 
     return-void

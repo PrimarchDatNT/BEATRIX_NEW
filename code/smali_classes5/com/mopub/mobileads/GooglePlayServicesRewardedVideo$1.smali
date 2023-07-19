@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$1;->this$0:Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     invoke-direct {p0}, Lcom/mopub/common/BaseLifecycleListener;-><init>()V
@@ -39,10 +38,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/mopub/common/BaseLifecycleListener;->onPause(Landroid/app/Activity;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$1;->this$0:Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->access$000(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)Lcom/google/android/gms/ads/y/c;
@@ -51,7 +48,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$1;->this$0:Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->access$000(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)Lcom/google/android/gms/ads/y/c;
@@ -71,10 +67,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/mopub/common/BaseLifecycleListener;->onResume(Landroid/app/Activity;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$1;->this$0:Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->access$000(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)Lcom/google/android/gms/ads/y/c;
@@ -83,7 +77,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$1;->this$0:Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
 
     invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->access$000(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)Lcom/google/android/gms/ads/y/c;

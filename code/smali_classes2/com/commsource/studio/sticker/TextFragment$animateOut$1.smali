@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sticker/TextFragment$animateOut$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment$animateOut$1;->$callback:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_0
@@ -85,7 +83,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment$animateOut$1;->this$0:Lcom/commsource/studio/sticker/TextFragment;
 
@@ -101,7 +98,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment$animateOut$1;->this$0:Lcom/commsource/studio/sticker/TextFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -128,7 +124,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/ImageStudioViewModel;->e2([Landroid/view/View;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -36,26 +36,20 @@
 .method constructor <init>(Lcom/google/firebase/firestore/local/h0;Lcom/google/firebase/firestore/local/z$a;Lcom/google/firebase/firestore/local/i;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/local/f0;->a:Lcom/google/firebase/firestore/local/h0;
 
-    .line 3
     iput-object p3, p0, Lcom/google/firebase/firestore/local/f0;->b:Lcom/google/firebase/firestore/local/i;
 
-    .line 4
     new-instance p3, Ljava/util/HashMap;
 
     invoke-direct {p3}, Ljava/util/HashMap;-><init>()V
 
     iput-object p3, p0, Lcom/google/firebase/firestore/local/f0;->c:Ljava/util/Map;
 
-    .line 5
     new-instance p3, Lcom/google/firebase/firestore/core/a0;
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/firebase/firestore/local/h0;->n()Lcom/google/firebase/firestore/local/i0;
 
     move-result-object p1
@@ -70,10 +64,8 @@
 
     const-wide/16 v0, -0x1
 
-    .line 7
     iput-wide v0, p0, Lcom/google/firebase/firestore/local/f0;->g:J
 
-    .line 8
     new-instance p1, Lcom/google/firebase/firestore/local/z;
 
     invoke-direct {p1, p0, p2}, Lcom/google/firebase/firestore/local/z;-><init>(Lcom/google/firebase/firestore/local/w;Lcom/google/firebase/firestore/local/z$a;)V
@@ -86,7 +78,6 @@
 .method private p(Lcom/google/firebase/firestore/model/e;J)Z
     .locals 4
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/f0;->r(Lcom/google/firebase/firestore/model/e;)Z
 
     move-result v0
@@ -97,7 +88,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->d:Lcom/google/firebase/firestore/local/q0;
 
@@ -109,7 +99,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->a:Lcom/google/firebase/firestore/local/h0;
 
@@ -125,7 +114,6 @@
 
     return v1
 
-    .line 4
     :cond_2
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->c:Ljava/util/Map;
 
@@ -137,7 +125,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v2
@@ -160,7 +147,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     aget-wide v0, p0, p1
 
     const-wide/16 v2, 0x1
@@ -175,7 +161,6 @@
 .method private r(Lcom/google/firebase/firestore/model/e;)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->a:Lcom/google/firebase/firestore/local/h0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/h0;->m()Ljava/lang/Iterable;
@@ -199,7 +184,6 @@
 
     check-cast v1, Lcom/google/firebase/firestore/local/g0;
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/google/firebase/firestore/local/g0;->a(Lcom/google/firebase/firestore/model/e;)Z
 
     move-result v1
@@ -221,7 +205,6 @@
 .method public B1()J
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->a:Lcom/google/firebase/firestore/local/h0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/h0;->n()Lcom/google/firebase/firestore/local/i0;
@@ -238,7 +221,6 @@
 
     add-long/2addr v0, v2
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/firestore/local/f0;->a:Lcom/google/firebase/firestore/local/h0;
 
     invoke-virtual {v2}, Lcom/google/firebase/firestore/local/h0;->o()Lcom/google/firebase/firestore/local/j0;
@@ -253,7 +235,6 @@
 
     add-long/2addr v0, v2
 
-    .line 3
     iget-object v2, p0, Lcom/google/firebase/firestore/local/f0;->a:Lcom/google/firebase/firestore/local/h0;
 
     invoke-virtual {v2}, Lcom/google/firebase/firestore/local/h0;->m()Ljava/lang/Iterable;
@@ -277,7 +258,6 @@
 
     check-cast v3, Lcom/google/firebase/firestore/local/g0;
 
-    .line 4
     iget-object v4, p0, Lcom/google/firebase/firestore/local/f0;->b:Lcom/google/firebase/firestore/local/i;
 
     invoke-virtual {v3, v4}, Lcom/google/firebase/firestore/local/g0;->b(Lcom/google/firebase/firestore/local/i;)J
@@ -303,7 +283,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->a:Lcom/google/firebase/firestore/local/h0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/h0;->n()Lcom/google/firebase/firestore/local/i0;
@@ -326,7 +305,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->c:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -351,7 +329,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -374,7 +351,6 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -392,7 +368,6 @@
 .method public c(Lcom/google/firebase/firestore/local/n0;)V
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/local/n0;->f()Lcom/google/firebase/firestore/model/l;
 
     move-result-object v0
@@ -405,12 +380,10 @@
 
     move-result-wide v2
 
-    .line 2
     invoke-virtual {p1, v0, v1, v2, v3}, Lcom/google/firebase/firestore/local/n0;->a(Lcom/google/firebase/firestore/model/l;Lcom/google/protobuf/ByteString;J)Lcom/google/firebase/firestore/local/n0;
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->a:Lcom/google/firebase/firestore/local/h0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/h0;->n()Lcom/google/firebase/firestore/local/i0;
@@ -425,7 +398,6 @@
 .method public d()Lcom/google/firebase/firestore/local/z;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->e:Lcom/google/firebase/firestore/local/z;
 
     return-object v0
@@ -434,7 +406,6 @@
 .method public e()J
     .locals 6
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/local/f0;->g:J
 
     const/4 v2, 0x0
@@ -459,7 +430,6 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iget-wide v0, p0, Lcom/google/firebase/firestore/local/f0;->g:J
 
     return-wide v0
@@ -468,14 +438,12 @@
 .method public f(J)I
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->a:Lcom/google/firebase/firestore/local/h0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/h0;->o()Lcom/google/firebase/firestore/local/j0;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/j0;->f()Lcom/google/firebase/database/collection/d;
 
     move-result-object v1
@@ -500,24 +468,20 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/google/firebase/firestore/model/e;
 
-    .line 4
     invoke-direct {p0, v3, p1, p2}, Lcom/google/firebase/firestore/local/f0;->p(Lcom/google/firebase/firestore/model/e;J)Z
 
     move-result v4
 
     if-nez v4, :cond_0
 
-    .line 5
     invoke-virtual {v0, v3}, Lcom/google/firebase/firestore/local/j0;->b(Lcom/google/firebase/firestore/model/e;)V
 
-    .line 6
     iget-object v4, p0, Lcom/google/firebase/firestore/local/f0;->c:Ljava/util/Map;
 
     invoke-interface {v4, v3}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -540,7 +504,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->a:Lcom/google/firebase/firestore/local/h0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/h0;->n()Lcom/google/firebase/firestore/local/i0;
@@ -557,7 +520,6 @@
 .method public h(Lcom/google/firebase/firestore/model/e;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->c:Ljava/util/Map;
 
     invoke-virtual {p0}, Lcom/google/firebase/firestore/local/f0;->e()J
@@ -576,7 +538,6 @@
 .method public i()V
     .locals 6
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/local/f0;->g:J
 
     const/4 v2, 0x0
@@ -601,7 +562,6 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iput-wide v3, p0, Lcom/google/firebase/firestore/local/f0;->g:J
 
     return-void
@@ -610,7 +570,6 @@
 .method public j()V
     .locals 6
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/local/f0;->g:J
 
     const/4 v2, 0x0
@@ -635,7 +594,6 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->f:Lcom/google/firebase/firestore/core/a0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/a0;->a()J
@@ -650,7 +608,6 @@
 .method public k(Lcom/google/firebase/firestore/model/e;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->c:Ljava/util/Map;
 
     invoke-virtual {p0}, Lcom/google/firebase/firestore/local/f0;->e()J
@@ -669,7 +626,6 @@
 .method public l()J
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->a:Lcom/google/firebase/firestore/local/h0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/h0;->n()Lcom/google/firebase/firestore/local/i0;
@@ -684,7 +640,6 @@
 
     new-array v2, v2, [J
 
-    .line 2
     invoke-static {v2}, Lcom/google/firebase/firestore/local/e0;->a([J)Lcom/google/firebase/firestore/util/m;
 
     move-result-object v3
@@ -693,7 +648,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     aget-wide v3, v2, v3
 
     add-long/2addr v0, v3
@@ -704,7 +658,6 @@
 .method public m(Lcom/google/firebase/firestore/local/q0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/local/f0;->d:Lcom/google/firebase/firestore/local/q0;
 
     return-void
@@ -713,7 +666,6 @@
 .method public n(Lcom/google/firebase/firestore/model/e;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->c:Ljava/util/Map;
 
     invoke-virtual {p0}, Lcom/google/firebase/firestore/local/f0;->e()J
@@ -732,7 +684,6 @@
 .method public o(Lcom/google/firebase/firestore/model/e;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/f0;->c:Ljava/util/Map;
 
     invoke-virtual {p0}, Lcom/google/firebase/firestore/local/f0;->e()J

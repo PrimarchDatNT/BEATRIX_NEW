@@ -43,7 +43,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/util/l;->b:Lcom/commsource/beautyplus/util/l$a;
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x20
@@ -60,7 +59,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -73,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/util/l;->a:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

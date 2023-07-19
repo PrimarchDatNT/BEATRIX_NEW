@@ -8,7 +8,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Exception;-><init>()V
 
     return-void
@@ -23,7 +22,6 @@
 
     const-string v0, "Detail message must not be empty"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->h(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -42,7 +40,6 @@
 
     const-string v0, "Detail message must not be empty"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->h(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1

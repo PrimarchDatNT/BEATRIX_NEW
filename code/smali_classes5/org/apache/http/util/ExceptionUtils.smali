@@ -20,7 +20,6 @@
 
     invoke-static {}, Lorg/apache/http/util/ExceptionUtils;->ajc$preClinit()V
 
-    .line 1
     invoke-static {}, Lorg/apache/http/util/ExceptionUtils;->getInitCauseMethod()Ljava/lang/reflect/Method;
 
     move-result-object v0
@@ -33,7 +32,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,7 +40,6 @@
 .method private static synthetic ajc$preClinit()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lorg/apache/http/util/ExceptionUtils;
@@ -94,12 +91,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     const-class v2, Ljava/lang/Throwable;
 
     aput-object v2, v0, v1
 
-    .line 2
     const-class v1, Ljava/lang/Throwable;
 
     const-string v2, "initCause"
@@ -121,7 +116,6 @@
 .method public static initCause(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
     .locals 6
 
-    .line 1
     sget-object v0, Lorg/apache/http/util/ExceptionUtils;->INIT_CAUSE_METHOD:Ljava/lang/reflect/Method;
 
     if-eqz v0, :cond_0
@@ -135,7 +129,6 @@
 
     aput-object p1, v2, v3
 
-    .line 2
     sget-object p1, Lorg/apache/http/util/ExceptionUtils;->ajc$tjp_0:Lorg/aspectj/lang/c$b;
 
     const/4 v4, 0x0
@@ -186,7 +179,6 @@
 .method static final synthetic invoke_aroundBody0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0

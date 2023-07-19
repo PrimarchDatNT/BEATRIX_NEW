@@ -43,10 +43,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/sdk/imp/base/l;->a:Lcom/sdk/imp/base/l$a;
 
     return-void
@@ -69,14 +67,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/net/URL;
 
     invoke-direct {v0, p1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
@@ -88,11 +84,9 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :try_start_1
     invoke-virtual {v0, v1}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
 
-    .line 4
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x15
@@ -103,19 +97,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     new-instance v1, Lcom/sdk/imp/base/j;
 
     invoke-direct {v1}, Lcom/sdk/imp/base/j;-><init>()V
 
-    .line 6
     move-object v2, v0
 
     check-cast v2, Ljavax/net/ssl/HttpsURLConnection;
 
     invoke-virtual {v2, v1}, Ljavax/net/ssl/HttpsURLConnection;->setSSLSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)V
 
-    .line 7
     :cond_0
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
@@ -131,7 +122,6 @@
 
     const-string p1, "Location"
 
-    .line 8
     invoke-virtual {v0, p1}, Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -140,7 +130,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 9
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_1
@@ -173,7 +162,6 @@
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 
-    .line 10
     :cond_4
     throw p1
 .end method
@@ -189,7 +177,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/base/l;
 
     invoke-direct {v0, p1}, Lcom/sdk/imp/base/l;-><init>(Lcom/sdk/imp/base/l$a;)V
@@ -203,7 +190,6 @@
 
     aput-object p0, v1, v2
 
-    .line 2
     invoke-static {v0, v1}, Lcom/sdk/imp/base/a;->c(Landroid/os/AsyncTask;[Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -215,7 +201,6 @@
 
     const-string v0, "Failed to resolve url"
 
-    .line 3
     invoke-interface {p1, v0, p0}, Lcom/sdk/imp/base/l$a;->onFailure(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
@@ -237,7 +222,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     array-length v1, p1
 
     if-nez v1, :cond_0
@@ -247,7 +231,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     aget-object p1, p1, v1
 
@@ -260,7 +243,6 @@
 
     if-ge v1, v3, :cond_2
 
-    .line 3
     sget-object v2, Lcom/sdk/imp/base/UrlAction;->OPEN_IN_APP_BROWSER:Lcom/sdk/imp/base/UrlAction;
 
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
@@ -275,7 +257,6 @@
 
     return-object p1
 
-    .line 4
     :cond_1
     invoke-direct {p0, p1}, Lcom/sdk/imp/base/l;->b(Ljava/lang/String;)Ljava/lang/String;
 
@@ -311,10 +292,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Landroid/os/AsyncTask;->onPostExecute(Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/os/AsyncTask;->isCancelled()Z
 
     move-result v0
@@ -325,18 +304,15 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/base/l;->a:Lcom/sdk/imp/base/l$a;
 
     if-eqz v0, :cond_2
 
-    .line 4
     invoke-interface {v0, p1}, Lcom/sdk/imp/base/l$a;->onSuccess(Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lcom/sdk/imp/base/l;->onCancelled()V
@@ -355,7 +331,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     check-cast p1, [Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/sdk/imp/base/l;->a([Ljava/lang/String;)Ljava/lang/String;
@@ -368,10 +343,8 @@
 .method protected onCancelled()V
     .locals 3
 
-    .line 1
     invoke-super {p0}, Landroid/os/AsyncTask;->onCancelled()V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/base/l;->a:Lcom/sdk/imp/base/l$a;
 
     if-eqz v0, :cond_0
@@ -380,7 +353,6 @@
 
     const-string v2, "Task for resolving url was cancelled"
 
-    .line 3
     invoke-interface {v0, v2, v1}, Lcom/sdk/imp/base/l$a;->onFailure(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
@@ -394,7 +366,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/sdk/imp/base/l;->d(Ljava/lang/String;)V

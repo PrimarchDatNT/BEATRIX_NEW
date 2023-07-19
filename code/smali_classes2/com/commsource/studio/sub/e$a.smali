@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/e$a;->a:Lcom/commsource/studio/sub/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -49,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/e$a;->a:Lcom/commsource/studio/sub/e;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/e;->X()Lcom/commsource/beautyplus/f0/gc;
@@ -62,7 +60,6 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/sub/e$a;->a:Lcom/commsource/studio/sub/e;
 
     invoke-virtual {v2}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
@@ -87,7 +84,6 @@
 
     const/16 v4, 0x9c
 
-    .line 3
     invoke-static {v4}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v4
@@ -124,13 +120,10 @@
 
     invoke-virtual {v3, v4, v1}, Lcom/commsource/studio/AdjustGuideView;->o(II)V
 
-    .line 4
     invoke-virtual {v3}, Lcom/commsource/studio/AdjustGuideView;->p()V
 
-    .line 5
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/sub/e$a;->a:Lcom/commsource/studio/sub/e;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/e;->X()Lcom/commsource/beautyplus/f0/gc;
@@ -149,7 +142,6 @@
 
     invoke-virtual {v1, p0}, Landroid/view/ViewTreeObserver;->removeOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

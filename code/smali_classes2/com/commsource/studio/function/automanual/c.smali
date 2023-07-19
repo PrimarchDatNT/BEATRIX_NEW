@@ -32,7 +32,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/automanual/d;-><init>(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/c;->c:Lcom/commsource/studio/processor/f;
@@ -51,7 +50,6 @@
 
     const/4 p2, 0x0
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/function/automanual/c;-><init>(Lcom/commsource/studio/processor/f;Lcom/commsource/studio/layer/PaintMaskLayer;)V
 
@@ -69,10 +67,8 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/c;->c:Lcom/commsource/studio/processor/f;
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/processor/f;->O()Lcom/commsource/studio/shader/m;
 
     move-result-object p1
@@ -83,7 +79,6 @@
 
     invoke-static {p1}, Lcom/commsource/easyeditor/utils/opengl/n;->a(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/c;->d:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     if-eqz p1, :cond_2
@@ -98,7 +93,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/e;->f()Lcom/commsource/studio/g;
 
@@ -112,10 +106,8 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/c;->c:Lcom/commsource/studio/processor/f;
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/studio/processor/f;->O()Lcom/commsource/studio/shader/m;
 
     move-result-object v1
@@ -126,7 +118,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 7
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/e;->g()Lcom/commsource/studio/g;
 
@@ -140,7 +131,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/studio/function/automanual/c;->d:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     if-eqz v0, :cond_2
@@ -163,15 +153,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/e;
 
     invoke-direct {v0}, Lcom/commsource/studio/e;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/c;->c:Lcom/commsource/studio/processor/f;
 
-    .line 3
     new-instance v2, Lcom/commsource/studio/g;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -192,7 +179,6 @@
 
     invoke-virtual {v0, v2}, Lcom/commsource/studio/e;->r(Lcom/commsource/studio/g;)V
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/g;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/f;->O()Lcom/commsource/studio/shader/m;
@@ -211,12 +197,10 @@
 
     invoke-virtual {v0, v2}, Lcom/commsource/studio/e;->p(Lcom/commsource/studio/g;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/c;->d:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     if-eqz v1, :cond_0
 
-    .line 6
     new-instance v2, Lcom/commsource/studio/g;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/PaintMaskLayer;->I0()Lcom/commsource/beautymain/widget/gesturewidget/g;
@@ -246,10 +230,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/function/automanual/d;->e(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/automanual/c;->c:Lcom/commsource/studio/processor/f;
 
     invoke-virtual {v0}, Lcom/commsource/studio/processor/f;->N()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -272,14 +254,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/e;->i()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/e;->b()Lcom/commsource/studio/g;
 
     move-result-object p1
@@ -292,10 +272,8 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/function/automanual/c;->c:Lcom/commsource/studio/processor/f;
 
-    .line 4
     invoke-virtual {v0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v0
@@ -304,7 +282,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/e;->h()Lcom/commsource/studio/g;
 
@@ -318,17 +295,14 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/studio/function/automanual/c;->c:Lcom/commsource/studio/processor/f;
 
-    .line 7
     invoke-virtual {v0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v0
 
     invoke-static {p1, v0}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 8
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/c;->c:Lcom/commsource/studio/processor/f;
@@ -353,7 +327,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/automanual/c;->d:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     return-object v0
@@ -377,7 +350,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/c;->d:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     return-void

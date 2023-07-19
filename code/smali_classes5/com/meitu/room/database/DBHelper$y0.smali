@@ -19,7 +19,6 @@
 .method constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/room/migration/Migration;-><init>(II)V
 
     return-void
@@ -44,10 +43,8 @@
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `ONLINE_DIALOG_ENTITY` (`Rid` TEXT NOT NULL, `SubStatus` INTEGER NOT NULL, `UserStatus` INTEGER NOT NULL, `DeviceLevel` INTEGER NOT NULL, `Weight` INTEGER NOT NULL, `Bout` INTEGER NOT NULL, `Number` INTEGER NOT NULL, `TriggerType` INTEGER NOT NULL, `PopupType` INTEGER NOT NULL, `PopupConfig` TEXT, `createdAt` INTEGER NOT NULL, `updateAt` INTEGER NOT NULL, PRIMARY KEY(`Rid`))"
 
-    .line 1
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

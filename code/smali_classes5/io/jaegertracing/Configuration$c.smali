@@ -28,10 +28,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lio/jaegertracing/Configuration$e;
 
     invoke-direct {v0}, Lio/jaegertracing/Configuration$e;-><init>()V
@@ -44,7 +42,6 @@
 .method static synthetic a(Lio/jaegertracing/Configuration$c;Lio/jaegertracing/a/k/e;)Lio/jaegertracing/b/g;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/jaegertracing/Configuration$c;->f(Lio/jaegertracing/a/k/e;)Lio/jaegertracing/b/g;
 
     move-result-object p0
@@ -55,14 +52,12 @@
 .method public static b()Lio/jaegertracing/Configuration$c;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/jaegertracing/Configuration$c;
 
     invoke-direct {v0}, Lio/jaegertracing/Configuration$c;-><init>()V
 
     const-string v1, "JAEGER_REPORTER_LOG_SPANS"
 
-    .line 2
     invoke-static {v1}, Lio/jaegertracing/Configuration;->f(Ljava/lang/String;)Z
 
     move-result v1
@@ -77,7 +72,6 @@
 
     const-string v1, "JAEGER_REPORTER_FLUSH_INTERVAL"
 
-    .line 3
     invoke-static {v1}, Lio/jaegertracing/Configuration;->e(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object v1
@@ -88,7 +82,6 @@
 
     const-string v1, "JAEGER_REPORTER_MAX_QUEUE_SIZE"
 
-    .line 4
     invoke-static {v1}, Lio/jaegertracing/Configuration;->e(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object v1
@@ -97,7 +90,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-static {}, Lio/jaegertracing/Configuration$e;->a()Lio/jaegertracing/Configuration$e;
 
     move-result-object v1
@@ -112,19 +104,16 @@
 .method private f(Lio/jaegertracing/a/k/e;)Lio/jaegertracing/b/g;
     .locals 4
 
-    .line 1
     new-instance v0, Lio/jaegertracing/a/m/e$c;
 
     invoke-direct {v0}, Lio/jaegertracing/a/m/e$c;-><init>()V
 
-    .line 2
     invoke-virtual {v0, p1}, Lio/jaegertracing/a/m/e$c;->e(Lio/jaegertracing/a/k/e;)Lio/jaegertracing/a/m/e$c;
 
     move-result-object p1
 
     iget-object v0, p0, Lio/jaegertracing/Configuration$c;->d:Lio/jaegertracing/Configuration$e;
 
-    .line 3
     invoke-virtual {v0}, Lio/jaegertracing/Configuration$e;->h()Lio/jaegertracing/b/j;
 
     move-result-object v0
@@ -137,7 +126,6 @@
 
     const/16 v1, 0x3e8
 
-    .line 4
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -158,7 +146,6 @@
 
     const/16 v1, 0x64
 
-    .line 5
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -175,12 +162,10 @@
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Lio/jaegertracing/a/m/e$c;->a()Lio/jaegertracing/a/m/e;
 
     move-result-object p1
 
-    .line 7
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     iget-object v1, p0, Lio/jaegertracing/Configuration$c;->a:Ljava/lang/Boolean;
@@ -191,12 +176,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 8
     new-instance v0, Lio/jaegertracing/a/m/c;
 
     invoke-direct {v0}, Lio/jaegertracing/a/m/c;-><init>()V
 
-    .line 9
     new-instance v1, Lio/jaegertracing/a/m/a;
 
     const/4 v2, 0x2
@@ -224,7 +207,6 @@
 .method public c()Ljava/lang/Integer;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/Configuration$c;->b:Ljava/lang/Integer;
 
     return-object v0
@@ -233,7 +215,6 @@
 .method public d()Ljava/lang/Boolean;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/Configuration$c;->a:Ljava/lang/Boolean;
 
     return-object v0
@@ -242,7 +223,6 @@
 .method public e()Ljava/lang/Integer;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/Configuration$c;->c:Ljava/lang/Integer;
 
     return-object v0
@@ -251,7 +231,6 @@
 .method public g()Lio/jaegertracing/Configuration$e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/Configuration$c;->d:Lio/jaegertracing/Configuration$e;
 
     return-object v0
@@ -260,7 +239,6 @@
 .method public h(Ljava/lang/Integer;)Lio/jaegertracing/Configuration$c;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/Configuration$c;->b:Ljava/lang/Integer;
 
     return-object p0
@@ -269,7 +247,6 @@
 .method public i(Ljava/lang/Boolean;)Lio/jaegertracing/Configuration$c;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/Configuration$c;->a:Ljava/lang/Boolean;
 
     return-object p0
@@ -278,7 +255,6 @@
 .method public j(Ljava/lang/Integer;)Lio/jaegertracing/Configuration$c;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/Configuration$c;->c:Ljava/lang/Integer;
 
     return-object p0
@@ -287,7 +263,6 @@
 .method public k(Lio/jaegertracing/Configuration$e;)Lio/jaegertracing/Configuration$c;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/Configuration$c;->d:Lio/jaegertracing/Configuration$e;
 
     return-object p0

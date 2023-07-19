@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -79,10 +78,8 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Lf/k/k/d;->z()Lf/k/k/d;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -95,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/material/DownloadTask$httpRequest$2;->invoke()Lf/k/k/f;
 
     move-result-object v1

@@ -48,7 +48,6 @@
 .method static constructor <clinit>()V
     .locals 12
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     const-string v1, "MATCH_VIEW"
@@ -61,7 +60,6 @@
 
     sput-object v0, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->MATCH_VIEW:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
-    .line 2
     new-instance v1, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     const-string v3, "HEIGHT_50"
@@ -74,7 +72,6 @@
 
     sput-object v1, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->HEIGHT_50:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
-    .line 3
     new-instance v3, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     const-string v5, "HEIGHT_90"
@@ -87,7 +84,6 @@
 
     sput-object v3, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->HEIGHT_90:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
-    .line 4
     new-instance v5, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     const-string v7, "HEIGHT_250"
@@ -100,7 +96,6 @@
 
     sput-object v5, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->HEIGHT_250:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
-    .line 5
     new-instance v7, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     const-string v9, "HEIGHT_280"
@@ -127,7 +122,6 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->$VALUES:[Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     return-void
@@ -141,10 +135,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->mSizeInt:I
 
     return-void
@@ -171,30 +163,25 @@
 
     if-eq p0, v0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->MATCH_VIEW:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     return-object p0
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->HEIGHT_280:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     return-object p0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->HEIGHT_250:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     return-object p0
 
-    .line 5
     :cond_2
     sget-object p0, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->HEIGHT_90:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     return-object p0
 
-    .line 6
     :cond_3
     sget-object p0, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->HEIGHT_50:Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
@@ -204,7 +191,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -219,7 +205,6 @@
 .method public static values()[Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->$VALUES:[Lcom/mopub/mobileads/MoPubView$MoPubAdSize;
 
     invoke-virtual {v0}, [Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->clone()Ljava/lang/Object;
@@ -236,7 +221,6 @@
 .method public toInt()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/MoPubView$MoPubAdSize;->mSizeInt:I
 
     return v0

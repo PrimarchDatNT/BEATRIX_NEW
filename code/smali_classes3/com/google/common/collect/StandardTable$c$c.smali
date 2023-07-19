@@ -29,10 +29,8 @@
 .method constructor <init>(Lcom/google/common/collect/StandardTable$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/StandardTable$c$c;->b:Lcom/google/common/collect/StandardTable$c;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/Maps$z;-><init>(Ljava/util/Map;)V
 
     return-void
@@ -43,7 +41,6 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$c$c;->b:Lcom/google/common/collect/StandardTable$c;
 
     iget-object v1, v0, Lcom/google/common/collect/StandardTable$c;->f:Lcom/google/common/collect/StandardTable;
@@ -60,7 +57,6 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$c$c;->b:Lcom/google/common/collect/StandardTable$c;
 
     iget-object v1, v0, Lcom/google/common/collect/StandardTable$c;->f:Lcom/google/common/collect/StandardTable;
@@ -94,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$c$c;->b:Lcom/google/common/collect/StandardTable$c;
 
     invoke-static {p1}, Lcom/google/common/base/Predicates;->n(Ljava/util/Collection;)Lcom/google/common/base/u;

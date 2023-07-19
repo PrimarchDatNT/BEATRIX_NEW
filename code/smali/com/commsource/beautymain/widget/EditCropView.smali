@@ -126,7 +126,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0, v1}, Lcom/commsource/beautymain/widget/EditCropView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -137,7 +136,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/beautymain/widget/EditCropView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -146,60 +144,50 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 6
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/ViewGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/16 p3, 0x8
 
     new-array v0, p3, [Landroid/widget/ImageView;
 
-    .line 4
     iput-object v0, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/EditCropView;->M:Z
 
-    .line 6
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/EditCropView;->N:Z
 
-    .line 7
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->P:Landroid/graphics/RectF;
 
-    .line 8
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->Q:Landroid/graphics/RectF;
 
-    .line 9
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
-    .line 10
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
-    .line 11
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->T:Landroid/graphics/RectF;
 
-    .line 12
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
@@ -208,31 +196,26 @@
 
     const-string v1, ""
 
-    .line 13
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->V:Ljava/lang/String;
 
-    .line 14
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->W:Landroid/graphics/Rect;
 
-    .line 15
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->a0:Landroid/graphics/Matrix;
 
-    .line 16
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->b0:Landroid/graphics/Matrix;
 
-    .line 17
     new-instance v1, Landroid/graphics/Point;
 
     invoke-direct {v1, v0, v0}, Landroid/graphics/Point;-><init>(II)V
@@ -241,36 +224,30 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 18
     iput v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d0:F
 
-    .line 19
     new-instance v1, Landroid/graphics/Path;
 
     invoke-direct {v1}, Landroid/graphics/Path;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->j0:Landroid/graphics/Path;
 
-    .line 20
     sget-object v1, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_NONE:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
-    .line 21
     new-instance v1, Landroid/graphics/PointF;
 
     invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->l0:Landroid/graphics/PointF;
 
-    .line 22
     new-instance v1, Landroid/graphics/PointF;
 
     invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->m0:Landroid/graphics/PointF;
 
-    .line 23
     new-instance v1, Landroid/graphics/PointF;
 
     invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
@@ -279,20 +256,16 @@
 
     new-array v1, p3, [Landroid/graphics/PointF;
 
-    .line 24
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->p0:[Landroid/graphics/PointF;
 
     new-array p3, p3, [Z
 
-    .line 25
     iput-object p3, p0, Lcom/commsource/beautymain/widget/EditCropView;->q0:[Z
 
     const/4 p3, 0x0
 
-    .line 26
     iput p3, p0, Lcom/commsource/beautymain/widget/EditCropView;->r0:F
 
-    .line 27
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->setWillNotDraw(Z)V
 
     const/4 p3, 0x2
@@ -307,19 +280,16 @@
 
     if-eqz p2, :cond_0
 
-    .line 28
     sget-object v5, Lcom/res/provider/ResSTYLEABLE;->p0:[I
 
     invoke-virtual {p1, p2, v5}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
-    .line 29
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
-    .line 30
     invoke-virtual {p2, v0, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     move-result v3
@@ -330,46 +300,38 @@
 
     iput-object v3, p0, Lcom/commsource/beautymain/widget/EditCropView;->a:Landroid/graphics/drawable/Drawable;
 
-    .line 31
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
-    .line 32
     invoke-virtual {p2, v4, v2}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     move-result v2
 
-    .line 33
     invoke-virtual {v3, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->b:Landroid/graphics/drawable/Drawable;
 
-    .line 34
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
-    .line 35
     invoke-virtual {p2, p3, v1}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     move-result v1
 
-    .line 36
     invoke-virtual {v2, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->c:Landroid/graphics/drawable/Drawable;
 
-    .line 37
     invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
 
     goto :goto_0
 
-    .line 38
     :cond_0
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getResources()Landroid/content/res/Resources;
 
@@ -381,7 +343,6 @@
 
     iput-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->a:Landroid/graphics/drawable/Drawable;
 
-    .line 39
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getResources()Landroid/content/res/Resources;
 
     move-result-object p2
@@ -392,7 +353,6 @@
 
     iput-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->b:Landroid/graphics/drawable/Drawable;
 
-    .line 40
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getResources()Landroid/content/res/Resources;
 
     move-result-object p2
@@ -403,7 +363,6 @@
 
     iput-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->c:Landroid/graphics/drawable/Drawable;
 
-    .line 41
     :goto_0
     iget-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->a:Landroid/graphics/drawable/Drawable;
 
@@ -419,7 +378,6 @@
 
     invoke-virtual {p2, v0, v0, v1, v2}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 42
     iget-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
@@ -434,7 +392,6 @@
 
     invoke-virtual {p2, v0, v0, v1, v2}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 43
     iget-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->c:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
@@ -449,7 +406,6 @@
 
     invoke-virtual {p2, v0, v0, v1, v2}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 44
     iget-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
@@ -466,7 +422,6 @@
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->a:Landroid/graphics/drawable/Drawable;
 
-    .line 45
     invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     move-result p2
@@ -476,7 +431,6 @@
     :cond_1
     iget-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->a:Landroid/graphics/drawable/Drawable;
 
-    .line 46
     invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     move-result p2
@@ -486,17 +440,14 @@
 
     iput p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->K:I
 
-    .line 47
     invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object p1
 
     sget p2, Lcom/res/provider/ResLAYOUT;->beauty_edit_crop_view:I
 
-    .line 48
     invoke-virtual {p1, p2, p0, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    .line 49
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     sget p2, Lcom/res/provider/ResID;->img_edit_cut_view_corner_1:I
@@ -509,7 +460,6 @@
 
     aput-object p2, p1, v0
 
-    .line 50
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     sget p2, Lcom/res/provider/ResID;->img_edit_cut_view_corner_2:I
@@ -522,7 +472,6 @@
 
     aput-object p2, p1, v4
 
-    .line 51
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     sget p2, Lcom/res/provider/ResID;->img_edit_cut_view_corner_3:I
@@ -535,7 +484,6 @@
 
     aput-object p2, p1, p3
 
-    .line 52
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     const/4 p2, 0x3
@@ -550,7 +498,6 @@
 
     aput-object p3, p1, p2
 
-    .line 53
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     sget p2, Lcom/res/provider/ResID;->img_edit_cut_view_corner_5:I
@@ -565,7 +512,6 @@
 
     aput-object p2, p1, p3
 
-    .line 54
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     const/4 p2, 0x5
@@ -580,7 +526,6 @@
 
     aput-object v1, p1, p2
 
-    .line 55
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     sget p2, Lcom/res/provider/ResID;->img_edit_cut_view_corner_7:I
@@ -595,7 +540,6 @@
 
     aput-object p2, p1, v1
 
-    .line 56
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     const/4 p2, 0x7
@@ -610,7 +554,6 @@
 
     aput-object v2, p1, p2
 
-    .line 57
     :goto_2
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
@@ -620,7 +563,6 @@
 
     if-ge v0, p3, :cond_2
 
-    .line 58
     aget-object p1, p1, v0
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->a:Landroid/graphics/drawable/Drawable;
@@ -636,7 +578,6 @@
 
     goto :goto_3
 
-    .line 59
     :cond_3
     aget-object p1, p1, v0
 
@@ -646,7 +587,6 @@
 
     goto :goto_4
 
-    .line 60
     :cond_4
     :goto_3
     aget-object p1, p1, v0
@@ -655,7 +595,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 61
     :goto_4
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
@@ -667,7 +606,6 @@
 
     goto :goto_2
 
-    .line 62
     :cond_5
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/EditCropView;->n()V
 
@@ -681,7 +619,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v1}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
@@ -704,7 +641,6 @@
 
     add-float/2addr v1, v3
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/beautymain/widget/EditCropView;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v3}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
@@ -725,14 +661,12 @@
 
     add-float/2addr v3, v2
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->P:Landroid/graphics/RectF;
 
     invoke-virtual {v2}, Landroid/graphics/RectF;->width()F
 
     move-result v2
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/beautymain/widget/EditCropView;->P:Landroid/graphics/RectF;
 
     invoke-virtual {v4}, Landroid/graphics/RectF;->height()F
@@ -757,19 +691,16 @@
 
     if-gtz v2, :cond_2
 
-    .line 5
     iput v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->p:F
 
     div-float/2addr p2, p1
 
     mul-float v1, v1, p2
 
-    .line 6
     iput v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->J:F
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iput v3, p0, Lcom/commsource/beautymain/widget/EditCropView;->J:F
 
@@ -777,10 +708,8 @@
 
     mul-float v3, v3, p1
 
-    .line 8
     iput v3, p0, Lcom/commsource/beautymain/widget/EditCropView;->p:F
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -794,7 +723,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -807,7 +735,6 @@
 
     float-to-int v1, v1
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v2
@@ -820,7 +747,6 @@
 
     float-to-int v2, v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     int-to-float v1, v1
@@ -829,21 +755,16 @@
 
     invoke-virtual {v3, v1, v2}, Landroid/graphics/RectF;->offset(FF)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->left:F
 
-    .line 5
     iget v3, v1, Landroid/graphics/RectF;->top:F
 
-    .line 6
     iget v4, v1, Landroid/graphics/RectF;->right:F
 
-    .line 7
     iget v5, v1, Landroid/graphics/RectF;->bottom:F
 
-    .line 8
     iget-object v6, p0, Lcom/commsource/beautymain/widget/EditCropView;->P:Landroid/graphics/RectF;
 
     iget v7, v6, Landroid/graphics/RectF;->left:F
@@ -852,7 +773,6 @@
 
     if-gez v8, :cond_0
 
-    .line 9
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -863,7 +783,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     iget v6, v6, Landroid/graphics/RectF;->right:F
 
@@ -871,7 +790,6 @@
 
     if-lez v7, :cond_1
 
-    .line 11
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -880,7 +798,6 @@
 
     move v4, v6
 
-    .line 12
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
@@ -895,7 +812,6 @@
 
     if-gez v6, :cond_2
 
-    .line 13
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
 
     move-result v1
@@ -906,7 +822,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_2
     iget v6, v1, Landroid/graphics/RectF;->bottom:F
 
@@ -916,7 +831,6 @@
 
     if-lez v6, :cond_3
 
-    .line 15
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
 
     move-result v1
@@ -925,19 +839,16 @@
 
     move v5, v7
 
-    .line 16
     :cond_3
     :goto_1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {v1, v2, v3, v4, v5}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautymain/widget/EditCropView;->C(Landroid/graphics/RectF;)V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->l0:Landroid/graphics/PointF;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
@@ -950,7 +861,6 @@
 
     invoke-virtual {v1, v2, p1}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -963,12 +873,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->m0:Landroid/graphics/PointF;
 
     const/4 v3, 0x0
@@ -983,7 +891,6 @@
 
     invoke-virtual {v2, v4, v3}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->n0:Landroid/graphics/PointF;
 
     const/4 v3, 0x1
@@ -998,7 +905,6 @@
 
     invoke-virtual {v2, v4, p1}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->m0:Landroid/graphics/PointF;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->n0:Landroid/graphics/PointF;
@@ -1007,7 +913,6 @@
 
     move-result p1
 
-    .line 5
     iget v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->r0:F
 
     sub-float/2addr p1, v2
@@ -1026,21 +931,18 @@
 
     if-lez v2, :cond_0
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
     invoke-virtual {v2}, Landroid/graphics/RectF;->centerX()F
 
     move-result v2
 
-    .line 7
     iget-object v4, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
     invoke-virtual {v4}, Landroid/graphics/RectF;->centerY()F
 
     move-result v4
 
-    .line 8
     iget-object v5, p0, Lcom/commsource/beautymain/widget/EditCropView;->P:Landroid/graphics/RectF;
 
     iget v6, v5, Landroid/graphics/RectF;->left:F
@@ -1051,12 +953,10 @@
 
     sub-float/2addr v5, v2
 
-    .line 9
     invoke-static {v6, v5}, Ljava/lang/Math;->min(FF)F
 
     move-result v2
 
-    .line 10
     iget-object v5, p0, Lcom/commsource/beautymain/widget/EditCropView;->P:Landroid/graphics/RectF;
 
     iget v6, v5, Landroid/graphics/RectF;->top:F
@@ -1067,14 +967,12 @@
 
     sub-float/2addr v5, v4
 
-    .line 11
     invoke-static {v6, v5}, Ljava/lang/Math;->min(FF)F
 
     move-result v4
 
     mul-float v2, v2, v3
 
-    .line 12
     iget-object v5, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
     invoke-virtual {v5}, Landroid/graphics/RectF;->width()F
@@ -1085,7 +983,6 @@
 
     mul-float v4, v4, v3
 
-    .line 13
     iget-object v5, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
     invoke-virtual {v5}, Landroid/graphics/RectF;->height()F
@@ -1094,7 +991,6 @@
 
     div-float/2addr v4, v5
 
-    .line 14
     invoke-static {v2, v4}, Ljava/lang/Math;->min(FF)F
 
     move-result v2
@@ -1107,7 +1003,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_0
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
@@ -1117,7 +1012,6 @@
 
     mul-float v2, v2, p1
 
-    .line 16
     iget-object v4, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
     invoke-virtual {v4}, Landroid/graphics/RectF;->height()F
@@ -1126,7 +1020,6 @@
 
     mul-float v4, v4, p1
 
-    .line 17
     iget v5, p0, Lcom/commsource/beautymain/widget/EditCropView;->p:F
 
     cmpg-float v2, v2, v5
@@ -1139,7 +1032,6 @@
 
     if-gez v2, :cond_3
 
-    .line 18
     :cond_1
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
@@ -1155,7 +1047,6 @@
 
     div-float/2addr p1, v2
 
-    .line 19
     iget v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->p:F
 
     iget v4, p0, Lcom/commsource/beautymain/widget/EditCropView;->J:F
@@ -1166,7 +1057,6 @@
 
     if-gez p1, :cond_2
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
     invoke-virtual {p1}, Landroid/graphics/RectF;->width()F
@@ -1177,7 +1067,6 @@
 
     goto :goto_0
 
-    .line 21
     :cond_2
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
@@ -1187,7 +1076,6 @@
 
     div-float p1, v4, p1
 
-    .line 22
     :cond_3
     :goto_0
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
@@ -1210,7 +1098,6 @@
 
     double-to-float v2, v4
 
-    .line 23
     iget-object v4, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
     invoke-virtual {v4}, Landroid/graphics/RectF;->height()F
@@ -1229,7 +1116,6 @@
 
     double-to-float p1, v4
 
-    .line 24
     iget-object v4, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
     invoke-virtual {v4}, Landroid/graphics/RectF;->centerX()F
@@ -1244,7 +1130,6 @@
 
     iget-object v6, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
-    .line 25
     invoke-virtual {v6}, Landroid/graphics/RectF;->centerX()F
 
     move-result v6
@@ -1255,17 +1140,14 @@
 
     move-result v7
 
-    .line 26
     invoke-virtual {v1, v4, v5, v6, v7}, Landroid/graphics/RectF;->set(FFFF)V
 
     neg-float v2, v2
 
     neg-float p1, p1
 
-    .line 27
     invoke-virtual {v1, v2, p1}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 28
     iget p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->p:F
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
@@ -1274,7 +1156,6 @@
 
     sub-float/2addr p1, v2
 
-    .line 29
     iget v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->J:F
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
@@ -1289,7 +1170,6 @@
 
     if-lez v5, :cond_4
 
-    .line 30
     iget v5, v1, Landroid/graphics/RectF;->left:F
 
     div-float/2addr p1, v3
@@ -1298,7 +1178,6 @@
 
     iput v5, v1, Landroid/graphics/RectF;->left:F
 
-    .line 31
     iget v5, v1, Landroid/graphics/RectF;->right:F
 
     add-float/2addr v5, p1
@@ -1310,7 +1189,6 @@
 
     if-lez p1, :cond_5
 
-    .line 32
     iget p1, v1, Landroid/graphics/RectF;->top:F
 
     div-float/2addr v2, v3
@@ -1319,18 +1197,15 @@
 
     iput p1, v1, Landroid/graphics/RectF;->top:F
 
-    .line 33
     iget p1, v1, Landroid/graphics/RectF;->bottom:F
 
     add-float/2addr p1, v2
 
     iput p1, v1, Landroid/graphics/RectF;->bottom:F
 
-    .line 34
     :cond_5
     invoke-virtual {p0, v1}, Lcom/commsource/beautymain/widget/EditCropView;->C(Landroid/graphics/RectF;)V
 
-    .line 35
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1343,14 +1218,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
     iget v2, p2, Landroid/graphics/PointF;->x:F
 
     sub-float/2addr v1, v2
 
-    .line 2
     iget p1, p1, Landroid/graphics/PointF;->y:F
 
     iget p2, p2, Landroid/graphics/PointF;->y:F
@@ -1365,7 +1238,6 @@
 
     float-to-double p1, v1
 
-    .line 3
     invoke-static {p1, p2}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide p1
@@ -1394,12 +1266,10 @@
 
     div-float/2addr p2, p3
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Rect;->width()I
 
     move-result p3
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Rect;->height()I
 
     move-result v2
@@ -1433,7 +1303,6 @@
 
     float-to-int p3, v4
 
-    .line 3
     :goto_0
     invoke-virtual {p1}, Landroid/graphics/Rect;->width()I
 
@@ -1441,12 +1310,10 @@
 
     if-le p3, p2, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Landroid/graphics/Rect;->width()I
 
     move-result p3
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Landroid/graphics/Rect;->height()I
 
@@ -1454,18 +1321,15 @@
 
     if-le v2, p2, :cond_2
 
-    .line 6
     invoke-virtual {p1}, Landroid/graphics/Rect;->height()I
 
     move-result v2
 
-    .line 7
     :cond_2
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
 
-    .line 8
     invoke-virtual {p1}, Landroid/graphics/Rect;->centerX()I
 
     move-result v1
@@ -1474,7 +1338,6 @@
 
     iput v1, p2, Landroid/graphics/RectF;->left:F
 
-    .line 9
     invoke-virtual {p1}, Landroid/graphics/Rect;->centerY()I
 
     move-result p1
@@ -1483,12 +1346,10 @@
 
     iput p1, p2, Landroid/graphics/RectF;->top:F
 
-    .line 10
     iget v1, p2, Landroid/graphics/RectF;->left:F
 
     iput v1, p2, Landroid/graphics/RectF;->right:F
 
-    .line 11
     iput p1, p2, Landroid/graphics/RectF;->bottom:F
 
     int-to-float p1, p3
@@ -1505,18 +1366,14 @@
 
     neg-float p3, v1
 
-    .line 12
     invoke-virtual {p2, p1, p3}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 13
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
 
-    .line 14
     invoke-virtual {p2, p1}, Landroid/graphics/RectF;->round(Landroid/graphics/Rect;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -1529,12 +1386,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p2}, Lcom/commsource/beautymain/widget/EditCropView;->g(Lcom/commsource/beautymain/widget/EditCropView$CutMode;)Landroid/graphics/Point;
 
     move-result-object p2
 
-    .line 2
     iget v1, p2, Landroid/graphics/Point;->x:I
 
     iget p2, p2, Landroid/graphics/Point;->y:I
@@ -1555,7 +1410,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautymain/widget/EditCropView;->l(Landroid/view/View;)I
 
     move-result p1
@@ -1564,21 +1418,18 @@
 
     if-eq p1, v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->p0:[Landroid/graphics/PointF;
 
     aget-object v2, v1, p1
 
     if-nez v2, :cond_0
 
-    .line 3
     new-instance v2, Landroid/graphics/PointF;
 
     invoke-direct {v2}, Landroid/graphics/PointF;-><init>()V
 
     aput-object v2, v1, p1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->p0:[Landroid/graphics/PointF;
 
@@ -1591,7 +1442,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -1604,7 +1454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     const/4 v2, 0x0
@@ -1629,7 +1478,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     aget-object v2, v1, v10
 
@@ -1639,7 +1487,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     aget-object v2, v1, v9
 
@@ -1649,7 +1496,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     aget-object v2, v1, v8
 
@@ -1659,7 +1505,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     aget-object v2, v1, v7
 
@@ -1669,7 +1514,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     aget-object v2, v1, v6
 
@@ -1679,7 +1523,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_5
     aget-object v2, v1, v5
 
@@ -1689,7 +1532,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_6
     aget-object v1, v1, v4
 
@@ -1702,7 +1544,6 @@
     :cond_7
     const/4 v2, -0x1
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1716,7 +1557,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x3
@@ -1725,7 +1565,6 @@
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->e0:Landroid/graphics/Paint;
 
-    .line 2
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x1
@@ -1734,26 +1573,22 @@
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->g0:Landroid/graphics/Paint;
 
-    .line 3
     sget-object v3, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->g0:Landroid/graphics/Paint;
 
     const/high16 v3, -0x1000000
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->g0:Landroid/graphics/Paint;
 
     const/16 v3, 0x80
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 6
     new-instance v1, Landroid/graphics/Paint;
 
     invoke-direct {v1, v2}, Landroid/graphics/Paint;-><init>(I)V
@@ -1762,24 +1597,20 @@
 
     const/4 v3, -0x1
 
-    .line 7
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->f0:Landroid/graphics/Paint;
 
     const/16 v4, 0x4d
 
     invoke-virtual {v1, v4}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->f0:Landroid/graphics/Paint;
 
     sget-object v4, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v4}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->f0:Landroid/graphics/Paint;
 
     const/high16 v4, 0x3f800000    # 1.0f
@@ -1792,7 +1623,6 @@
 
     invoke-virtual {v1, v5}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 11
     new-instance v1, Landroid/graphics/Paint;
 
     invoke-direct {v1, v2}, Landroid/graphics/Paint;-><init>(I)V
@@ -1801,7 +1631,6 @@
 
     const/high16 v2, 0x41700000    # 15.0f
 
-    .line 12
     invoke-virtual {p0, v2}, Lcom/commsource/beautymain/widget/EditCropView;->d(F)I
 
     move-result v2
@@ -1810,12 +1639,10 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->h0:Landroid/graphics/Paint;
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->h0:Landroid/graphics/Paint;
 
     const/high16 v2, 0x40000000    # 2.0f
@@ -1824,7 +1651,6 @@
 
     invoke-virtual {v1, v2, v4, v4, v3}, Landroid/graphics/Paint;->setShadowLayer(FFFI)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1837,7 +1663,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->c0:Landroid/graphics/Point;
 
     iget v2, v1, Landroid/graphics/Point;->x:I
@@ -1880,7 +1705,6 @@
 
     float-to-double v3, v3
 
-    .line 1
     invoke-static {v3, v4}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide v3
@@ -1891,26 +1715,22 @@
 
     float-to-double v4, v4
 
-    .line 2
     invoke-static {v4, v5}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide v4
 
     double-to-float v4, v4
 
-    .line 3
     invoke-direct/range {p0 .. p0}, Lcom/commsource/beautymain/widget/EditCropView;->o()Z
 
     move-result v5
 
-    .line 4
     new-instance v6, Landroid/graphics/RectF;
 
     iget-object v7, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-direct {v6, v7}, Landroid/graphics/RectF;-><init>(Landroid/graphics/RectF;)V
 
-    .line 5
     iget-object v7, v0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     const/4 v8, 0x0
@@ -1947,7 +1767,6 @@
 
     const/4 v4, 0x0
 
-    .line 6
     :cond_0
     iget v9, v6, Landroid/graphics/RectF;->left:F
 
@@ -1961,7 +1780,6 @@
 
     if-gez v9, :cond_1
 
-    .line 7
     iget-object v3, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v3, v3, Landroid/graphics/RectF;->left:F
@@ -1970,7 +1788,6 @@
 
     move v3, v8
 
-    .line 8
     :cond_1
     iget v8, v6, Landroid/graphics/RectF;->top:F
 
@@ -1982,7 +1799,6 @@
 
     if-gez v8, :cond_f
 
-    .line 9
     iget-object v4, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v4, v4, Landroid/graphics/RectF;->top:F
@@ -1991,7 +1807,6 @@
 
     goto/16 :goto_2
 
-    .line 10
     :cond_2
     aget-object v2, v7, v16
 
@@ -2009,7 +1824,6 @@
 
     const/4 v4, 0x0
 
-    .line 11
     :cond_3
     iget v2, v6, Landroid/graphics/RectF;->right:F
 
@@ -2023,7 +1837,6 @@
 
     if-lez v2, :cond_4
 
-    .line 12
     iget-object v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v2, v2, Landroid/graphics/RectF;->right:F
@@ -2032,7 +1845,6 @@
 
     move v3, v9
 
-    .line 13
     :cond_4
     iget v2, v6, Landroid/graphics/RectF;->top:F
 
@@ -2044,7 +1856,6 @@
 
     if-gez v2, :cond_f
 
-    .line 14
     iget-object v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v2, v2, Landroid/graphics/RectF;->top:F
@@ -2054,7 +1865,6 @@
 
     goto/16 :goto_2
 
-    .line 15
     :cond_5
     aget-object v2, v7, v11
 
@@ -2072,7 +1882,6 @@
 
     const/4 v4, 0x0
 
-    .line 16
     :cond_6
     iget v2, v6, Landroid/graphics/RectF;->right:F
 
@@ -2086,7 +1895,6 @@
 
     if-lez v2, :cond_7
 
-    .line 17
     iget-object v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v2, v2, Landroid/graphics/RectF;->right:F
@@ -2095,7 +1903,6 @@
 
     move v3, v9
 
-    .line 18
     :cond_7
     iget v2, v6, Landroid/graphics/RectF;->bottom:F
 
@@ -2107,14 +1914,12 @@
 
     if-lez v2, :cond_f
 
-    .line 19
     iget-object v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v2, v2, Landroid/graphics/RectF;->bottom:F
 
     goto :goto_0
 
-    .line 20
     :cond_8
     aget-object v2, v7, v10
 
@@ -2132,7 +1937,6 @@
 
     const/4 v4, 0x0
 
-    .line 21
     :cond_9
     iget v2, v6, Landroid/graphics/RectF;->left:F
 
@@ -2146,7 +1950,6 @@
 
     if-gez v2, :cond_a
 
-    .line 22
     iget-object v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v2, v2, Landroid/graphics/RectF;->left:F
@@ -2155,7 +1958,6 @@
 
     move v3, v9
 
-    .line 23
     :cond_a
     iget v2, v6, Landroid/graphics/RectF;->bottom:F
 
@@ -2167,20 +1969,17 @@
 
     if-lez v2, :cond_f
 
-    .line 24
     iget-object v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v2, v2, Landroid/graphics/RectF;->bottom:F
 
     goto :goto_0
 
-    .line 25
     :cond_b
     aget-object v2, v7, v15
 
     if-ne v1, v2, :cond_c
 
-    .line 26
     iget v2, v6, Landroid/graphics/RectF;->top:F
 
     add-float/2addr v2, v4
@@ -2193,20 +1992,17 @@
 
     if-gez v2, :cond_f
 
-    .line 27
     iget-object v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v2, v2, Landroid/graphics/RectF;->top:F
 
     goto :goto_0
 
-    .line 28
     :cond_c
     aget-object v2, v7, v14
 
     if-ne v1, v2, :cond_d
 
-    .line 29
     iget v2, v6, Landroid/graphics/RectF;->right:F
 
     add-float/2addr v2, v3
@@ -2219,7 +2015,6 @@
 
     if-lez v2, :cond_f
 
-    .line 30
     iget-object v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v2, v2, Landroid/graphics/RectF;->right:F
@@ -2229,13 +2024,11 @@
 
     goto :goto_2
 
-    .line 31
     :cond_d
     aget-object v2, v7, v13
 
     if-ne v1, v2, :cond_e
 
-    .line 32
     iget v2, v6, Landroid/graphics/RectF;->bottom:F
 
     add-float/2addr v2, v4
@@ -2248,20 +2041,17 @@
 
     if-lez v2, :cond_f
 
-    .line 33
     iget-object v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v2, v2, Landroid/graphics/RectF;->bottom:F
 
     goto/16 :goto_0
 
-    .line 34
     :cond_e
     aget-object v2, v7, v12
 
     if-ne v1, v2, :cond_f
 
-    .line 35
     iget v2, v6, Landroid/graphics/RectF;->left:F
 
     add-float/2addr v2, v3
@@ -2274,7 +2064,6 @@
 
     if-gez v2, :cond_f
 
-    .line 36
     iget-object v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v2, v2, Landroid/graphics/RectF;->left:F
@@ -2285,7 +2074,6 @@
     :goto_2
     if-eqz v5, :cond_12
 
-    .line 37
     aget-object v2, v7, v15
 
     if-eq v1, v2, :cond_10
@@ -2297,7 +2085,6 @@
     :cond_10
     const/4 v3, 0x0
 
-    .line 38
     :cond_11
     aget-object v2, v7, v14
 
@@ -2310,7 +2097,6 @@
     :goto_3
     goto :goto_4
 
-    .line 39
     :cond_12
     iget-object v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->c0:Landroid/graphics/Point;
 
@@ -2318,7 +2104,6 @@
 
     int-to-float v7, v7
 
-    .line 40
     iget v2, v2, Landroid/graphics/Point;->y:I
 
     int-to-float v2, v2
@@ -2340,7 +2125,6 @@
     :cond_14
     div-float v8, v3, v4
 
-    .line 41
     invoke-static {v8}, Ljava/lang/Math;->abs(F)F
 
     move-result v8
@@ -2353,7 +2137,6 @@
 
     if-lez v8, :cond_16
 
-    .line 42
     invoke-static {v4}, Ljava/lang/Math;->abs(F)F
 
     move-result v2
@@ -2385,7 +2168,6 @@
     :cond_16
     div-float/2addr v2, v7
 
-    .line 43
     invoke-static {v3}, Ljava/lang/Math;->abs(F)F
 
     move-result v7
@@ -2408,7 +2190,6 @@
 
     mul-float v4, v4, v2
 
-    .line 44
     :cond_18
     :goto_7
     iget-object v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
@@ -2421,21 +2202,18 @@
 
     if-eqz v5, :cond_1a
 
-    .line 45
     iget v1, v6, Landroid/graphics/RectF;->left:F
 
     add-float/2addr v1, v3
 
     iput v1, v6, Landroid/graphics/RectF;->left:F
 
-    .line 46
     iget v1, v6, Landroid/graphics/RectF;->top:F
 
     add-float/2addr v1, v4
 
     iput v1, v6, Landroid/graphics/RectF;->top:F
 
-    .line 47
     invoke-virtual {v6}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -2446,14 +2224,12 @@
 
     if-gez v1, :cond_19
 
-    .line 48
     iget v1, v6, Landroid/graphics/RectF;->right:F
 
     sub-float/2addr v1, v2
 
     iput v1, v6, Landroid/graphics/RectF;->left:F
 
-    .line 49
     :cond_19
     invoke-virtual {v6}, Landroid/graphics/RectF;->height()F
 
@@ -2465,7 +2241,6 @@
 
     if-gez v1, :cond_34
 
-    .line 50
     iget v1, v6, Landroid/graphics/RectF;->bottom:F
 
     sub-float/2addr v1, v2
@@ -2474,7 +2249,6 @@
 
     goto/16 :goto_10
 
-    .line 51
     :cond_1a
     iget v1, v6, Landroid/graphics/RectF;->left:F
 
@@ -2512,17 +2286,14 @@
     :goto_9
     add-float v1, v1, v17
 
-    .line 52
     iput v1, v6, Landroid/graphics/RectF;->left:F
 
-    .line 53
     iget v1, v6, Landroid/graphics/RectF;->top:F
 
     add-float/2addr v1, v4
 
     iput v1, v6, Landroid/graphics/RectF;->top:F
 
-    .line 54
     invoke-virtual {v6}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -2543,7 +2314,6 @@
 
     if-gez v1, :cond_34
 
-    .line 55
     :cond_1d
     iget v1, v6, Landroid/graphics/RectF;->right:F
 
@@ -2553,7 +2323,6 @@
 
     iput v1, v6, Landroid/graphics/RectF;->left:F
 
-    .line 56
     iget v1, v6, Landroid/graphics/RectF;->bottom:F
 
     iget v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->J:F
@@ -2564,7 +2333,6 @@
 
     goto/16 :goto_10
 
-    .line 57
     :cond_1e
     aget-object v7, v2, v16
 
@@ -2572,21 +2340,18 @@
 
     if-eqz v5, :cond_20
 
-    .line 58
     iget v1, v6, Landroid/graphics/RectF;->right:F
 
     add-float/2addr v1, v3
 
     iput v1, v6, Landroid/graphics/RectF;->right:F
 
-    .line 59
     iget v1, v6, Landroid/graphics/RectF;->top:F
 
     add-float/2addr v1, v4
 
     iput v1, v6, Landroid/graphics/RectF;->top:F
 
-    .line 60
     invoke-virtual {v6}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -2597,14 +2362,12 @@
 
     if-gez v1, :cond_1f
 
-    .line 61
     iget v1, v6, Landroid/graphics/RectF;->left:F
 
     add-float/2addr v1, v2
 
     iput v1, v6, Landroid/graphics/RectF;->right:F
 
-    .line 62
     :cond_1f
     invoke-virtual {v6}, Landroid/graphics/RectF;->height()F
 
@@ -2616,7 +2379,6 @@
 
     if-gez v1, :cond_34
 
-    .line 63
     iget v1, v6, Landroid/graphics/RectF;->bottom:F
 
     sub-float/2addr v1, v2
@@ -2625,7 +2387,6 @@
 
     goto/16 :goto_10
 
-    .line 64
     :cond_20
     iget v1, v6, Landroid/graphics/RectF;->right:F
 
@@ -2663,17 +2424,14 @@
     :goto_b
     add-float v1, v1, v17
 
-    .line 65
     iput v1, v6, Landroid/graphics/RectF;->right:F
 
-    .line 66
     iget v1, v6, Landroid/graphics/RectF;->top:F
 
     add-float/2addr v1, v4
 
     iput v1, v6, Landroid/graphics/RectF;->top:F
 
-    .line 67
     invoke-virtual {v6}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -2694,7 +2452,6 @@
 
     if-gez v1, :cond_34
 
-    .line 68
     :cond_23
     iget v1, v6, Landroid/graphics/RectF;->left:F
 
@@ -2704,7 +2461,6 @@
 
     iput v1, v6, Landroid/graphics/RectF;->right:F
 
-    .line 69
     iget v1, v6, Landroid/graphics/RectF;->bottom:F
 
     iget v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->J:F
@@ -2715,7 +2471,6 @@
 
     goto/16 :goto_10
 
-    .line 70
     :cond_24
     aget-object v7, v2, v11
 
@@ -2723,21 +2478,18 @@
 
     if-eqz v5, :cond_26
 
-    .line 71
     iget v1, v6, Landroid/graphics/RectF;->right:F
 
     add-float/2addr v1, v3
 
     iput v1, v6, Landroid/graphics/RectF;->right:F
 
-    .line 72
     iget v1, v6, Landroid/graphics/RectF;->bottom:F
 
     add-float/2addr v1, v4
 
     iput v1, v6, Landroid/graphics/RectF;->bottom:F
 
-    .line 73
     invoke-virtual {v6}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -2748,14 +2500,12 @@
 
     if-gez v1, :cond_25
 
-    .line 74
     iget v1, v6, Landroid/graphics/RectF;->left:F
 
     add-float/2addr v1, v2
 
     iput v1, v6, Landroid/graphics/RectF;->right:F
 
-    .line 75
     :cond_25
     invoke-virtual {v6}, Landroid/graphics/RectF;->height()F
 
@@ -2767,7 +2517,6 @@
 
     if-gez v1, :cond_34
 
-    .line 76
     iget v1, v6, Landroid/graphics/RectF;->top:F
 
     add-float/2addr v1, v2
@@ -2776,7 +2525,6 @@
 
     goto/16 :goto_10
 
-    .line 77
     :cond_26
     iget v1, v6, Landroid/graphics/RectF;->right:F
 
@@ -2814,17 +2562,14 @@
     :goto_d
     add-float v1, v1, v17
 
-    .line 78
     iput v1, v6, Landroid/graphics/RectF;->right:F
 
-    .line 79
     iget v1, v6, Landroid/graphics/RectF;->bottom:F
 
     add-float/2addr v1, v4
 
     iput v1, v6, Landroid/graphics/RectF;->bottom:F
 
-    .line 80
     invoke-virtual {v6}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -2845,7 +2590,6 @@
 
     if-gez v1, :cond_34
 
-    .line 81
     :cond_29
     iget v1, v6, Landroid/graphics/RectF;->left:F
 
@@ -2855,7 +2599,6 @@
 
     iput v1, v6, Landroid/graphics/RectF;->right:F
 
-    .line 82
     iget v1, v6, Landroid/graphics/RectF;->top:F
 
     iget v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->J:F
@@ -2866,7 +2609,6 @@
 
     goto/16 :goto_10
 
-    .line 83
     :cond_2a
     aget-object v7, v2, v10
 
@@ -2874,21 +2616,18 @@
 
     if-eqz v5, :cond_2c
 
-    .line 84
     iget v1, v6, Landroid/graphics/RectF;->left:F
 
     add-float/2addr v1, v3
 
     iput v1, v6, Landroid/graphics/RectF;->left:F
 
-    .line 85
     iget v1, v6, Landroid/graphics/RectF;->bottom:F
 
     add-float/2addr v1, v4
 
     iput v1, v6, Landroid/graphics/RectF;->bottom:F
 
-    .line 86
     invoke-virtual {v6}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -2899,14 +2638,12 @@
 
     if-gez v1, :cond_2b
 
-    .line 87
     iget v1, v6, Landroid/graphics/RectF;->right:F
 
     sub-float/2addr v1, v2
 
     iput v1, v6, Landroid/graphics/RectF;->left:F
 
-    .line 88
     :cond_2b
     invoke-virtual {v6}, Landroid/graphics/RectF;->height()F
 
@@ -2918,7 +2655,6 @@
 
     if-gez v1, :cond_34
 
-    .line 89
     iget v1, v6, Landroid/graphics/RectF;->top:F
 
     add-float/2addr v1, v2
@@ -2927,7 +2663,6 @@
 
     goto/16 :goto_10
 
-    .line 90
     :cond_2c
     iget v1, v6, Landroid/graphics/RectF;->left:F
 
@@ -2965,17 +2700,14 @@
     :goto_f
     add-float v1, v1, v17
 
-    .line 91
     iput v1, v6, Landroid/graphics/RectF;->left:F
 
-    .line 92
     iget v1, v6, Landroid/graphics/RectF;->bottom:F
 
     add-float/2addr v1, v4
 
     iput v1, v6, Landroid/graphics/RectF;->bottom:F
 
-    .line 93
     invoke-virtual {v6}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -2996,7 +2728,6 @@
 
     if-gez v1, :cond_34
 
-    .line 94
     :cond_2f
     iget v1, v6, Landroid/graphics/RectF;->right:F
 
@@ -3006,7 +2737,6 @@
 
     iput v1, v6, Landroid/graphics/RectF;->left:F
 
-    .line 95
     iget v1, v6, Landroid/graphics/RectF;->top:F
 
     iget v2, v0, Lcom/commsource/beautymain/widget/EditCropView;->J:F
@@ -3017,20 +2747,17 @@
 
     goto :goto_10
 
-    .line 96
     :cond_30
     aget-object v5, v2, v15
 
     if-ne v1, v5, :cond_31
 
-    .line 97
     iget v1, v6, Landroid/graphics/RectF;->top:F
 
     add-float/2addr v1, v4
 
     iput v1, v6, Landroid/graphics/RectF;->top:F
 
-    .line 98
     invoke-virtual {v6}, Landroid/graphics/RectF;->height()F
 
     move-result v1
@@ -3041,7 +2768,6 @@
 
     if-gez v1, :cond_34
 
-    .line 99
     iget v1, v6, Landroid/graphics/RectF;->bottom:F
 
     sub-float/2addr v1, v2
@@ -3050,20 +2776,17 @@
 
     goto :goto_10
 
-    .line 100
     :cond_31
     aget-object v5, v2, v14
 
     if-ne v1, v5, :cond_32
 
-    .line 101
     iget v1, v6, Landroid/graphics/RectF;->right:F
 
     add-float/2addr v1, v3
 
     iput v1, v6, Landroid/graphics/RectF;->right:F
 
-    .line 102
     invoke-virtual {v6}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -3074,7 +2797,6 @@
 
     if-gez v1, :cond_34
 
-    .line 103
     iget v1, v6, Landroid/graphics/RectF;->left:F
 
     add-float/2addr v1, v2
@@ -3083,20 +2805,17 @@
 
     goto :goto_10
 
-    .line 104
     :cond_32
     aget-object v5, v2, v13
 
     if-ne v1, v5, :cond_33
 
-    .line 105
     iget v1, v6, Landroid/graphics/RectF;->bottom:F
 
     add-float/2addr v1, v4
 
     iput v1, v6, Landroid/graphics/RectF;->bottom:F
 
-    .line 106
     invoke-virtual {v6}, Landroid/graphics/RectF;->height()F
 
     move-result v1
@@ -3107,7 +2826,6 @@
 
     if-gez v1, :cond_34
 
-    .line 107
     iget v1, v6, Landroid/graphics/RectF;->top:F
 
     add-float/2addr v1, v2
@@ -3116,20 +2834,17 @@
 
     goto :goto_10
 
-    .line 108
     :cond_33
     aget-object v2, v2, v12
 
     if-ne v1, v2, :cond_34
 
-    .line 109
     iget v1, v6, Landroid/graphics/RectF;->left:F
 
     add-float/2addr v1, v3
 
     iput v1, v6, Landroid/graphics/RectF;->left:F
 
-    .line 110
     invoke-virtual {v6}, Landroid/graphics/RectF;->width()F
 
     move-result v1
@@ -3140,21 +2855,18 @@
 
     if-gez v1, :cond_34
 
-    .line 111
     iget v1, v6, Landroid/graphics/RectF;->right:F
 
     sub-float/2addr v1, v2
 
     iput v1, v6, Landroid/graphics/RectF;->left:F
 
-    .line 112
     :cond_34
     :goto_10
     invoke-virtual {v0, v6}, Lcom/commsource/beautymain/widget/EditCropView;->C(Landroid/graphics/RectF;)V
 
     const/16 v1, 0x552
 
-    .line 113
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3169,12 +2881,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_NONE:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3187,7 +2897,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3206,7 +2915,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->V:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3223,7 +2931,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v3, v1, Landroid/graphics/RectF;->left:F
 
     iget-object v4, v0, Lcom/commsource/beautymain/widget/EditCropView;->P:Landroid/graphics/RectF;
@@ -3234,10 +2941,8 @@
 
     if-gez v3, :cond_0
 
-    .line 2
     iput v5, v1, Landroid/graphics/RectF;->left:F
 
-    .line 3
     :cond_0
     iget v3, v1, Landroid/graphics/RectF;->top:F
 
@@ -3247,10 +2952,8 @@
 
     if-gez v3, :cond_1
 
-    .line 4
     iput v5, v1, Landroid/graphics/RectF;->top:F
 
-    .line 5
     :cond_1
     iget v3, v1, Landroid/graphics/RectF;->right:F
 
@@ -3260,10 +2963,8 @@
 
     if-lez v3, :cond_2
 
-    .line 6
     iput v5, v1, Landroid/graphics/RectF;->right:F
 
-    .line 7
     :cond_2
     iget v3, v1, Landroid/graphics/RectF;->bottom:F
 
@@ -3273,7 +2974,6 @@
 
     if-lez v3, :cond_3
 
-    .line 8
     iput v4, v1, Landroid/graphics/RectF;->bottom:F
 
     :cond_3
@@ -3281,21 +2981,18 @@
 
     new-array v3, v3, [F
 
-    .line 9
     iget v4, v1, Landroid/graphics/RectF;->left:F
 
     const/4 v5, 0x0
 
     aput v4, v3, v5
 
-    .line 10
     iget v6, v1, Landroid/graphics/RectF;->top:F
 
     const/4 v7, 0x1
 
     aput v6, v3, v7
 
-    .line 11
     iget v8, v1, Landroid/graphics/RectF;->right:F
 
     const/4 v9, 0x2
@@ -3312,7 +3009,6 @@
 
     const/4 v8, 0x5
 
-    .line 12
     iget v10, v1, Landroid/graphics/RectF;->bottom:F
 
     aput v10, v3, v8
@@ -3325,7 +3021,6 @@
 
     aput v10, v3, v4
 
-    .line 13
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/RectF;->centerX()F
 
     move-result v4
@@ -3336,21 +3031,18 @@
 
     const/16 v4, 0x9
 
-    .line 14
     iget v10, v1, Landroid/graphics/RectF;->top:F
 
     aput v10, v3, v4
 
     const/16 v4, 0xa
 
-    .line 15
     iget v10, v1, Landroid/graphics/RectF;->right:F
 
     aput v10, v3, v4
 
     const/16 v4, 0xb
 
-    .line 16
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/RectF;->centerY()F
 
     move-result v10
@@ -3359,7 +3051,6 @@
 
     const/16 v4, 0xc
 
-    .line 17
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/RectF;->centerX()F
 
     move-result v10
@@ -3368,28 +3059,24 @@
 
     const/16 v4, 0xd
 
-    .line 18
     iget v10, v1, Landroid/graphics/RectF;->bottom:F
 
     aput v10, v3, v4
 
     const/16 v4, 0xe
 
-    .line 19
     iget v10, v1, Landroid/graphics/RectF;->left:F
 
     aput v10, v3, v4
 
     const/16 v4, 0xf
 
-    .line 20
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/RectF;->centerY()F
 
     move-result v10
 
     aput v10, v3, v4
 
-    .line 21
     new-instance v4, Landroid/graphics/Rect;
 
     invoke-direct {v4}, Landroid/graphics/Rect;-><init>()V
@@ -3398,7 +3085,6 @@
 
     const/4 v11, 0x0
 
-    .line 22
     :goto_0
     iget-object v12, v0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
@@ -3406,7 +3092,6 @@
 
     if-ge v10, v13, :cond_4
 
-    .line 23
     aget v13, v3, v11
 
     float-to-int v13, v13
@@ -3415,20 +3100,16 @@
 
     add-int/lit8 v14, v11, 0x1
 
-    .line 24
     aget v14, v3, v14
 
     float-to-int v14, v14
 
     iput v14, v4, Landroid/graphics/Rect;->top:I
 
-    .line 25
     iput v13, v4, Landroid/graphics/Rect;->right:I
 
-    .line 26
     iput v14, v4, Landroid/graphics/Rect;->bottom:I
 
-    .line 27
     aget-object v12, v12, v10
 
     invoke-virtual {v12}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
@@ -3441,7 +3122,6 @@
 
     shr-int/2addr v12, v7
 
-    .line 28
     iget-object v13, v0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     aget-object v13, v13, v10
@@ -3460,24 +3140,20 @@
 
     neg-int v13, v13
 
-    .line 29
     invoke-virtual {v4, v12, v13}, Landroid/graphics/Rect;->inset(II)V
 
-    .line 30
     iget-object v12, v0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     aget-object v12, v12, v10
 
     invoke-virtual {v12, v5}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 31
     iget-object v12, v0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     aget-object v12, v12, v10
 
     invoke-virtual {v12, v7}, Landroid/widget/ImageView;->setEnabled(Z)V
 
-    .line 32
     iget-object v12, v0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     aget-object v12, v12, v10
@@ -3492,7 +3168,6 @@
 
     invoke-virtual {v12, v13, v14, v15, v6}, Landroid/widget/ImageView;->layout(IIII)V
 
-    .line 33
     invoke-virtual {v4}, Landroid/graphics/Rect;->setEmpty()V
 
     add-int/lit8 v10, v10, 0x1
@@ -3503,7 +3178,6 @@
 
     goto :goto_0
 
-    .line 34
     :cond_4
     iget-object v3, v0, Lcom/commsource/beautymain/widget/EditCropView;->c0:Landroid/graphics/Point;
 
@@ -3518,7 +3192,6 @@
     :cond_5
     const/4 v6, 0x4
 
-    .line 35
     :goto_1
     iget-object v3, v0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
@@ -3526,12 +3199,10 @@
 
     if-ge v6, v4, :cond_6
 
-    .line 36
     aget-object v3, v3, v6
 
     invoke-virtual {v3, v5}, Landroid/widget/ImageView;->setEnabled(Z)V
 
-    .line 37
     iget-object v3, v0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
     aget-object v3, v3, v6
@@ -3542,13 +3213,11 @@
 
     goto :goto_1
 
-    .line 38
     :cond_6
     iget-object v3, v0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {v3, v1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 39
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3561,17 +3230,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/EditCropView;->getCropSelectedRectFRatio()Landroid/graphics/RectF;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->U:Landroid/graphics/Rect;
 
     invoke-virtual {v2}, Landroid/graphics/Rect;->setEmpty()V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->U:Landroid/graphics/Rect;
 
     iget v3, v1, Landroid/graphics/RectF;->left:F
@@ -3598,7 +3264,6 @@
 
     iput v3, v2, Landroid/graphics/Rect;->left:I
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->U:Landroid/graphics/Rect;
 
     iget v3, v1, Landroid/graphics/RectF;->top:F
@@ -3623,7 +3288,6 @@
 
     iput v3, v2, Landroid/graphics/Rect;->top:I
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->U:Landroid/graphics/Rect;
 
     iget v3, v1, Landroid/graphics/RectF;->right:F
@@ -3648,14 +3312,12 @@
 
     iput v3, v2, Landroid/graphics/Rect;->right:I
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->U:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/RectF;->bottom:F
 
     iget-object v3, p0, Lcom/commsource/beautymain/widget/EditCropView;->O:Landroid/graphics/Rect;
 
-    .line 7
     invoke-virtual {v3}, Landroid/graphics/Rect;->height()I
 
     move-result v3
@@ -3674,7 +3336,6 @@
 
     iput v1, v2, Landroid/graphics/Rect;->bottom:I
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3687,20 +3348,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->setEmpty()V
 
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->L:Landroid/graphics/Bitmap;
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/ViewGroup;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3713,7 +3370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -3736,7 +3392,6 @@
 
     float-to-int p1, p1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -3749,7 +3404,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->L:Landroid/graphics/Bitmap;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->O:Landroid/graphics/Rect;
@@ -3760,7 +3414,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3773,14 +3426,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->V:Ljava/lang/String;
 
     iget-object v0, p0, Lcom/commsource/beautymain/widget/EditCropView;->h0:Landroid/graphics/Paint;
 
     invoke-virtual {p5, p2, p3, p4, v0}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3793,14 +3444,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Point;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2, v2}, Landroid/graphics/Point;-><init>(II)V
 
-    .line 2
     sget-object v3, Lcom/commsource/beautymain/widget/EditCropView$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -3823,37 +3472,31 @@
 
     goto :goto_0
 
-    .line 3
     :pswitch_0
     invoke-virtual {v1, v3, v4}, Landroid/graphics/Point;->set(II)V
 
     goto :goto_0
 
-    .line 4
     :pswitch_1
     invoke-virtual {v1, v4, v3}, Landroid/graphics/Point;->set(II)V
 
     goto :goto_0
 
-    .line 5
     :pswitch_2
     invoke-virtual {v1, v5, v7}, Landroid/graphics/Point;->set(II)V
 
     goto :goto_0
 
-    .line 6
     :pswitch_3
     invoke-virtual {v1, v7, v5}, Landroid/graphics/Point;->set(II)V
 
     goto :goto_0
 
-    .line 7
     :pswitch_4
     invoke-virtual {v1, v7, v6}, Landroid/graphics/Point;->set(II)V
 
     goto :goto_0
 
-    .line 8
     :pswitch_5
     invoke-virtual {v1, v6, v7}, Landroid/graphics/Point;->set(II)V
 
@@ -3862,18 +3505,15 @@
     :pswitch_6
     const/4 p1, 0x1
 
-    .line 9
     invoke-virtual {v1, p1, p1}, Landroid/graphics/Point;->set(II)V
 
     goto :goto_0
 
-    .line 10
     :pswitch_7
     invoke-virtual {v1, v2, v2}, Landroid/graphics/Point;->set(II)V
 
     goto :goto_0
 
-    .line 11
     :pswitch_8
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->O:Landroid/graphics/Rect;
 
@@ -3889,7 +3529,6 @@
 
     invoke-virtual {v1, p1, v2}, Landroid/graphics/Point;->set(II)V
 
-    .line 12
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3916,31 +3555,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->b0:Landroid/graphics/Matrix;
 
     invoke-virtual {v2}, Landroid/graphics/Matrix;->reset()V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->a0:Landroid/graphics/Matrix;
 
     iget-object v3, p0, Lcom/commsource/beautymain/widget/EditCropView;->b0:Landroid/graphics/Matrix;
 
     invoke-virtual {v2, v3}, Landroid/graphics/Matrix;->invert(Landroid/graphics/Matrix;)Z
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->b0:Landroid/graphics/Matrix;
 
     iget-object v3, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {v2, v1, v3}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;Landroid/graphics/RectF;)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -3953,12 +3587,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->T:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->setEmpty()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->T:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
@@ -3979,7 +3611,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->left:F
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->T:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
@@ -4000,7 +3631,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->top:F
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->T:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
@@ -4021,7 +3651,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->right:F
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->T:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
@@ -4034,7 +3663,6 @@
 
     sub-float/2addr v2, v4
 
-    .line 6
     invoke-virtual {v3}, Landroid/graphics/RectF;->height()F
 
     move-result v3
@@ -4043,7 +3671,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->bottom:F
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->T:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4058,7 +3685,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->P:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4073,7 +3699,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->K:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4088,7 +3713,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4103,7 +3727,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->O:Landroid/graphics/Rect;
 
     if-eqz v1, :cond_5
@@ -4116,7 +3739,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     new-instance v1, Landroid/graphics/RectF;
 
@@ -4124,7 +3746,6 @@
 
     invoke-direct {v1, v2}, Landroid/graphics/RectF;-><init>(Landroid/graphics/Rect;)V
 
-    .line 3
     new-instance v2, Landroid/graphics/RectF;
 
     iget v3, p0, Lcom/commsource/beautymain/widget/EditCropView;->f:I
@@ -4141,7 +3762,6 @@
 
     iput-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->Q:Landroid/graphics/RectF;
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->a0:Landroid/graphics/Matrix;
 
     new-instance v3, Landroid/graphics/RectF;
@@ -4170,14 +3790,12 @@
 
     invoke-virtual {v2, v1, v3, v4}, Landroid/graphics/Matrix;->setRectToRect(Landroid/graphics/RectF;Landroid/graphics/RectF;Landroid/graphics/Matrix$ScaleToFit;)Z
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->a0:Landroid/graphics/Matrix;
 
     iget-object v3, p0, Lcom/commsource/beautymain/widget/EditCropView;->P:Landroid/graphics/RectF;
 
     invoke-virtual {v2, v3, v1}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;Landroid/graphics/RectF;)Z
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {v2}, Landroid/graphics/RectF;->isEmpty()Z
@@ -4194,7 +3812,6 @@
 
     if-nez v2, :cond_3
 
-    .line 7
     :cond_1
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->c0:Landroid/graphics/Point;
 
@@ -4208,10 +3825,8 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 8
     invoke-direct {p0, v2, v2}, Lcom/commsource/beautymain/widget/EditCropView;->E(FF)V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->O:Landroid/graphics/Rect;
 
     sget-object v3, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_1_1:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
@@ -4225,14 +3840,12 @@
     :cond_2
     int-to-float v3, v3
 
-    .line 10
     iget v2, v2, Landroid/graphics/Point;->y:I
 
     int-to-float v2, v2
 
     invoke-direct {p0, v3, v2}, Lcom/commsource/beautymain/widget/EditCropView;->E(FF)V
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->O:Landroid/graphics/Rect;
 
     iget-object v3, p0, Lcom/commsource/beautymain/widget/EditCropView;->c0:Landroid/graphics/Point;
@@ -4245,13 +3858,11 @@
 
     move-result-object v2
 
-    .line 12
     :goto_0
     iget-object v3, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {v3, v2}, Landroid/graphics/RectF;->set(Landroid/graphics/Rect;)V
 
-    .line 13
     :cond_3
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->a0:Landroid/graphics/Matrix;
 
@@ -4259,7 +3870,6 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 14
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
     move-result v2
@@ -4270,7 +3880,6 @@
 
     if-gtz v2, :cond_4
 
-    .line 15
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
 
     move-result v1
@@ -4281,42 +3890,33 @@
 
     const/4 v1, 0x1
 
-    .line 16
     iput-boolean v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->N:Z
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->P:Landroid/graphics/RectF;
 
     invoke-virtual {v1, v2}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/EditCropView;->r()V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->i0:Lcom/commsource/beautymain/widget/EditCropView$b;
 
     if-eqz v1, :cond_4
 
-    .line 20
     invoke-interface {v1}, Lcom/commsource/beautymain/widget/EditCropView$b;->a()V
 
-    .line 21
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/EditCropView;->D()V
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {p0, v1}, Lcom/commsource/beautymain/widget/EditCropView;->C(Landroid/graphics/RectF;)V
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 24
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4335,10 +3935,8 @@
 
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super/range {p0 .. p1}, Landroid/view/ViewGroup;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->L:Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_1
@@ -4351,19 +3949,15 @@
 
     goto/16 :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 4
     invoke-virtual/range {p0 .. p1}, Lcom/commsource/beautymain/widget/EditCropView;->e(Landroid/graphics/Canvas;)V
 
-    .line 5
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->j0:Landroid/graphics/Path;
 
     invoke-virtual {v0}, Landroid/graphics/Path;->reset()V
 
-    .line 6
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->j0:Landroid/graphics/Path;
 
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/beautymain/widget/EditCropView;->getMaxMaskAreaRectF()Landroid/graphics/RectF;
@@ -4374,7 +3968,6 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;->addRect(Landroid/graphics/RectF;Landroid/graphics/Path$Direction;)V
 
-    .line 7
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->j0:Landroid/graphics/Path;
 
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/beautymain/widget/EditCropView;->getSelectAreaRectF()Landroid/graphics/RectF;
@@ -4385,46 +3978,38 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;->addRect(Landroid/graphics/RectF;Landroid/graphics/Path$Direction;)V
 
-    .line 8
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->j0:Landroid/graphics/Path;
 
     iget-object v1, v6, Lcom/commsource/beautymain/widget/EditCropView;->g0:Landroid/graphics/Paint;
 
     invoke-virtual {v7, v0, v1}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 9
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget-object v1, v6, Lcom/commsource/beautymain/widget/EditCropView;->f0:Landroid/graphics/Paint;
 
     invoke-virtual {v7, v0, v1}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 10
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {v0}, Landroid/graphics/RectF;->width()F
 
     move-result v9
 
-    .line 11
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {v0}, Landroid/graphics/RectF;->height()F
 
     move-result v0
 
-    .line 12
     iget-object v1, v6, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v10, v1, Landroid/graphics/RectF;->left:F
 
-    .line 13
     iget v11, v1, Landroid/graphics/RectF;->top:F
 
-    .line 14
     iget v12, v1, Landroid/graphics/RectF;->right:F
 
-    .line 15
     iget v13, v1, Landroid/graphics/RectF;->bottom:F
 
     const/high16 v14, 0x40400000    # 3.0f
@@ -4433,7 +4018,6 @@
 
     add-float v4, v11, v15
 
-    .line 16
     iget-object v5, v6, Lcom/commsource/beautymain/widget/EditCropView;->f0:Landroid/graphics/Paint;
 
     move-object/from16 v0, p1
@@ -4452,7 +4036,6 @@
 
     add-float v4, v11, v15
 
-    .line 17
     iget-object v5, v6, Lcom/commsource/beautymain/widget/EditCropView;->f0:Landroid/graphics/Paint;
 
     move v2, v4
@@ -4463,7 +4046,6 @@
 
     add-float v3, v10, v9
 
-    .line 18
     iget-object v5, v6, Lcom/commsource/beautymain/widget/EditCropView;->f0:Landroid/graphics/Paint;
 
     move v1, v3
@@ -4478,14 +4060,12 @@
 
     add-float v3, v10, v9
 
-    .line 19
     iget-object v5, v6, Lcom/commsource/beautymain/widget/EditCropView;->f0:Landroid/graphics/Paint;
 
     move v1, v3
 
     invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 20
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->U:Landroid/graphics/Rect;
 
     invoke-virtual {v0}, Landroid/graphics/Rect;->width()I
@@ -4500,12 +4080,10 @@
 
     invoke-virtual {v6, v0, v1}, Lcom/commsource/beautymain/widget/EditCropView;->B(II)V
 
-    .line 21
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->W:Landroid/graphics/Rect;
 
     invoke-virtual {v0}, Landroid/graphics/Rect;->setEmpty()V
 
-    .line 22
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->h0:Landroid/graphics/Paint;
 
     iget-object v1, v6, Lcom/commsource/beautymain/widget/EditCropView;->V:Ljava/lang/String;
@@ -4520,7 +4098,6 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Paint;->getTextBounds(Ljava/lang/String;IILandroid/graphics/Rect;)V
 
-    .line 23
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v1, v0, Landroid/graphics/RectF;->left:F
@@ -4543,7 +4120,6 @@
 
     add-float v3, v1, v0
 
-    .line 24
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget v1, v0, Landroid/graphics/RectF;->top:F
@@ -4566,7 +4142,6 @@
 
     add-float v4, v1, v0
 
-    .line 25
     iget-object v0, v6, Lcom/commsource/beautymain/widget/EditCropView;->W:Landroid/graphics/Rect;
 
     invoke-virtual {v0}, Landroid/graphics/Rect;->width()I
@@ -4585,18 +4160,14 @@
 
     invoke-virtual/range {v0 .. v5}, Lcom/commsource/beautymain/widget/EditCropView;->f(IIFFLandroid/graphics/Canvas;)V
 
-    .line 26
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 27
     invoke-super/range {p0 .. p1}, Landroid/view/ViewGroup;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 28
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 29
     :cond_1
     :goto_0
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4611,7 +4182,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4624,31 +4194,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/ViewGroup;->onSizeChanged(IIII)V
 
-    .line 2
     iput p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->f:I
 
-    .line 3
     iput p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->g:I
 
     const-string p1, "rotate"
 
     const-string p2, "initCutViewLayout"
 
-    .line 4
     invoke-static {p1, p2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/EditCropView;->m()V
 
     const/4 p1, 0x1
 
-    .line 6
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->M:Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4661,7 +4224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     sget-object v2, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_LOCK:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
@@ -4670,12 +4232,10 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
@@ -4699,7 +4259,6 @@
 
     goto/16 :goto_1
 
-    .line 4
     :cond_1
     invoke-direct {p0, p1}, Lcom/commsource/beautymain/widget/EditCropView;->l(Landroid/view/View;)I
 
@@ -4707,7 +4266,6 @@
 
     if-eq v1, v7, :cond_7
 
-    .line 5
     invoke-virtual {p2, v6}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v2
@@ -4720,7 +4278,6 @@
 
     sub-float/2addr v2, v4
 
-    .line 6
     invoke-virtual {p2, v6}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result p2
@@ -4733,17 +4290,14 @@
 
     sub-float/2addr p2, v4
 
-    .line 7
     iget-object v4, p0, Lcom/commsource/beautymain/widget/EditCropView;->q0:[Z
 
     aget-boolean v4, v4, v1
 
     if-eqz v4, :cond_2
 
-    .line 8
     invoke-direct {p0, p1, v2, p2}, Lcom/commsource/beautymain/widget/EditCropView;->t(Landroid/view/View;FF)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/EditCropView;->D()V
 
     goto :goto_0
@@ -4755,7 +4309,6 @@
 
     add-float/2addr v2, p2
 
-    .line 10
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -4764,7 +4317,6 @@
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p1}, Landroid/view/ViewConfiguration;->getScaledTouchSlop()I
 
     move-result p1
@@ -4775,19 +4327,16 @@
 
     if-lez p1, :cond_3
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->q0:[Z
 
     aput-boolean v3, p1, v1
 
-    .line 13
     :cond_3
     :goto_0
     invoke-virtual {p0}, Landroid/view/ViewGroup;->invalidate()V
 
     goto :goto_1
 
-    .line 14
     :cond_4
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -4809,14 +4358,12 @@
 
     invoke-virtual {p2, v2}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
-    .line 15
     invoke-direct {p0, p1}, Lcom/commsource/beautymain/widget/EditCropView;->l(Landroid/view/View;)I
 
     move-result p1
 
     if-eq p1, v7, :cond_5
 
-    .line 16
     iget-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->p0:[Landroid/graphics/PointF;
 
     aget-object p2, p2, p1
@@ -4825,23 +4372,19 @@
 
     invoke-virtual {p2, v1, v1}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 17
     iget-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->q0:[Z
 
     aput-boolean v6, p2, p1
 
-    .line 18
     :cond_5
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->o0:Ljava/lang/Runnable;
 
     if-eqz p1, :cond_7
 
-    .line 19
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_1
 
-    .line 20
     :cond_6
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -4849,32 +4392,26 @@
 
     const v7, 0x3f99999a    # 1.2f
 
-    .line 21
     invoke-virtual {v1, v7}, Landroid/view/ViewPropertyAnimator;->scaleX(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 22
     invoke-virtual {v1, v7}, Landroid/view/ViewPropertyAnimator;->scaleY(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 23
     invoke-virtual {v1, v4, v5}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 24
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
-    .line 25
     invoke-direct {p0, p1}, Lcom/commsource/beautymain/widget/EditCropView;->k(Landroid/view/View;)Landroid/graphics/PointF;
 
     move-result-object p1
 
     if-eqz p1, :cond_7
 
-    .line 26
     invoke-virtual {p2, v6}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v1
@@ -4885,7 +4422,6 @@
 
     invoke-virtual {p1, v1, p2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 27
     :cond_7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4900,7 +4436,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     sget-object v2, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_LOCK:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
@@ -4909,12 +4444,10 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionMasked()I
 
@@ -4940,7 +4473,6 @@
 
     goto/16 :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
@@ -4948,7 +4480,6 @@
 
     if-ne v1, v4, :cond_3
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->m0:Landroid/graphics/PointF;
 
     const/4 v2, 0x0
@@ -4963,7 +4494,6 @@
 
     invoke-virtual {v1, v4, v2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->n0:Landroid/graphics/PointF;
 
     invoke-virtual {p1, v3}, Landroid/view/MotionEvent;->getX(I)F
@@ -4976,7 +4506,6 @@
 
     invoke-virtual {v1, v2, p1}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->m0:Landroid/graphics/PointF;
@@ -4999,21 +4528,18 @@
 
     iget v1, v1, Landroid/graphics/PointF;->y:F
 
-    .line 8
     invoke-virtual {p1, v2, v1}, Landroid/graphics/RectF;->contains(FF)Z
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->S:Landroid/graphics/RectF;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {p1, v1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->m0:Landroid/graphics/PointF;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->n0:Landroid/graphics/PointF;
@@ -5024,14 +4550,12 @@
 
     iput p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->r0:F
 
-    .line 11
     sget-object p1, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_SCALE:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     goto :goto_1
 
-    .line 12
     :cond_2
     sget-object p1, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_NONE:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
@@ -5039,23 +4563,19 @@
 
     goto :goto_1
 
-    .line 13
     :cond_3
     iput v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->r0:F
 
-    .line 14
     sget-object p1, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_NONE:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->l0:Landroid/graphics/PointF;
 
     invoke-virtual {p1, v2, v2}, Landroid/graphics/PointF;->set(FF)V
 
     goto :goto_1
 
-    .line 16
     :cond_4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
@@ -5063,55 +4583,44 @@
 
     if-ne v1, v2, :cond_5
 
-    .line 17
     invoke-direct {p0, p1}, Lcom/commsource/beautymain/widget/EditCropView;->b(Landroid/view/MotionEvent;)V
 
     goto :goto_0
 
-    .line 18
     :cond_5
     sget-object v2, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_SCALE:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     if-ne v1, v2, :cond_6
 
-    .line 19
     invoke-direct {p0, p1}, Lcom/commsource/beautymain/widget/EditCropView;->c(Landroid/view/MotionEvent;)V
 
-    .line 20
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/EditCropView;->D()V
 
-    .line 21
     :cond_6
     :goto_0
     invoke-virtual {p0}, Landroid/view/ViewGroup;->invalidate()V
 
     goto :goto_1
 
-    .line 22
     :cond_7
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->l0:Landroid/graphics/PointF;
 
     invoke-virtual {p1, v2, v2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 23
     iput v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->r0:F
 
-    .line 24
     sget-object p1, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_NONE:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->o0:Ljava/lang/Runnable;
 
     if-eqz p1, :cond_a
 
-    .line 26
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_1
 
-    .line 27
     :cond_8
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->l0:Landroid/graphics/PointF;
 
@@ -5125,7 +4634,6 @@
 
     invoke-virtual {v1, v4, p1}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 28
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->l0:Landroid/graphics/PointF;
@@ -5140,25 +4648,21 @@
 
     if-eqz p1, :cond_9
 
-    .line 29
     sget-object p1, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_DRAG:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     goto :goto_1
 
-    .line 30
     :cond_9
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->l0:Landroid/graphics/PointF;
 
     invoke-virtual {p1, v2, v2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 31
     sget-object p1, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_NONE:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
-    .line 32
     :cond_a
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5173,7 +4677,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     sget-object v2, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_LOCK:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
@@ -5200,7 +4703,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->N:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5215,12 +4717,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_LOCK:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5235,12 +4735,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {v1, p1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5260,10 +4758,8 @@
 
     if-lez v1, :cond_0
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d0:F
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5277,10 +4773,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->o0:Ljava/lang/Runnable;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5293,10 +4787,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->i0:Lcom/commsource/beautymain/widget/EditCropView$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5309,12 +4801,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_FREE_CUT:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/beautymain/widget/EditCropView;->x(Landroid/graphics/Bitmap;Lcom/commsource/beautymain/widget/EditCropView$CutMode;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5327,7 +4817,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/EditCropView;->P:Landroid/graphics/RectF;
@@ -5350,15 +4839,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/graphics/RectF;->setEmpty()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5374,17 +4860,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->isRecycled()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->L:Landroid/graphics/Bitmap;
 
-    .line 3
     new-instance p1, Landroid/graphics/Rect;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->L:Landroid/graphics/Bitmap;
@@ -5405,12 +4888,10 @@
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->O:Landroid/graphics/Rect;
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->c0:Landroid/graphics/Point;
 
     invoke-virtual {p1, p2, p3}, Landroid/graphics/Point;->set(II)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5424,19 +4905,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p2}, Lcom/commsource/beautymain/widget/EditCropView;->g(Lcom/commsource/beautymain/widget/EditCropView$CutMode;)Landroid/graphics/Point;
 
     move-result-object p2
 
-    .line 2
     iget v1, p2, Landroid/graphics/Point;->x:I
 
     iget p2, p2, Landroid/graphics/Point;->y:I
 
     invoke-virtual {p0, p1, v1, p2}, Lcom/commsource/beautymain/widget/EditCropView;->w(Landroid/graphics/Bitmap;II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5449,7 +4927,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->O:Landroid/graphics/Rect;
 
     if-eqz v1, :cond_5
@@ -5460,28 +4937,23 @@
 
     if-nez v1, :cond_5
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->k0:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     sget-object v2, Lcom/commsource/beautymain/widget/EditCropView$TouchMode;->MODE_LOCK:Lcom/commsource/beautymain/widget/EditCropView$TouchMode;
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->c0:Landroid/graphics/Point;
 
     iput p1, v1, Landroid/graphics/Point;->x:I
 
-    .line 5
     iput p2, v1, Landroid/graphics/Point;->y:I
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/EditCropView;->o()Z
 
     move-result v1
@@ -5492,7 +4964,6 @@
 
     int-to-float v2, p2
 
-    .line 7
     invoke-direct {p0, v1, v2}, Lcom/commsource/beautymain/widget/EditCropView;->E(FF)V
 
     goto :goto_0
@@ -5500,10 +4971,8 @@
     :cond_1
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 8
     invoke-direct {p0, v1, v1}, Lcom/commsource/beautymain/widget/EditCropView;->E(FF)V
 
-    .line 9
     :goto_0
     iget v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->f:I
 
@@ -5520,47 +4989,39 @@
 
     if-eqz p2, :cond_3
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautymain/widget/EditCropView;->O:Landroid/graphics/Rect;
 
     invoke-direct {p0, v1, p1, p2}, Lcom/commsource/beautymain/widget/EditCropView;->i(Landroid/graphics/Rect;II)Landroid/graphics/Rect;
 
     move-result-object p1
 
-    .line 11
     iget-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {p2, p1}, Landroid/graphics/RectF;->set(Landroid/graphics/Rect;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->a0:Landroid/graphics/Matrix;
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 13
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/EditCropView;->D()V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->R:Landroid/graphics/RectF;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/EditCropView;->C(Landroid/graphics/RectF;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 17
     :cond_5
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -5580,19 +5041,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/EditCropView;->g(Lcom/commsource/beautymain/widget/EditCropView$CutMode;)Landroid/graphics/Point;
 
     move-result-object p1
 
-    .line 2
     iget v1, p1, Landroid/graphics/Point;->x:I
 
     iget p1, p1, Landroid/graphics/Point;->y:I
 
     invoke-virtual {p0, v1, p1}, Lcom/commsource/beautymain/widget/EditCropView;->y(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

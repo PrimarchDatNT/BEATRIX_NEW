@@ -11,7 +11,6 @@
 .method public static final A(I)D
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
@@ -24,7 +23,6 @@
 .method public static final B(J)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
@@ -73,7 +71,6 @@
 .method public static final F(D)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
@@ -86,7 +83,6 @@
 .method public static final G(I)D
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
@@ -99,7 +95,6 @@
 .method public static final H(J)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
@@ -148,7 +143,6 @@
 .method public static final L(D)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
@@ -161,7 +155,6 @@
 .method public static final M(I)D
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
@@ -174,7 +167,6 @@
 .method public static final N(J)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
@@ -223,7 +215,6 @@
 .method private static final R()Ljava/util/concurrent/TimeUnit;
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
     return-object v0
@@ -247,7 +238,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p2, p3, p0, p1}, Lcotlin/i2/d;->e0(DD)D
 
     move-result-wide p0
@@ -267,7 +257,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p1, p2, p0}, Lcotlin/i2/d;->f0(DI)D
 
     move-result-wide p0
@@ -292,10 +281,8 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 2
     invoke-static {p0, p1, p2, v0}, Lcotlin/i2/h;->b(DLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
@@ -326,7 +313,6 @@
 
     int-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1, p1}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
@@ -353,7 +339,6 @@
 
     long-to-double p0, p0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
@@ -364,7 +349,6 @@
 .method public static final synthetic a()Ljava/util/concurrent/TimeUnit;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcotlin/i2/e;->R()Ljava/util/concurrent/TimeUnit;
 
     move-result-object v0
@@ -375,7 +359,6 @@
 .method public static final b(D)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
@@ -388,7 +371,6 @@
 .method public static final c(I)D
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
@@ -401,7 +383,6 @@
 .method public static final d(J)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
@@ -450,7 +431,6 @@
 .method public static final h(D)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
@@ -463,7 +443,6 @@
 .method public static final i(I)D
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
@@ -476,7 +455,6 @@
 .method public static final j(J)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
@@ -525,7 +503,6 @@
 .method public static final n(D)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
@@ -538,7 +515,6 @@
 .method public static final o(I)D
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
@@ -551,7 +527,6 @@
 .method public static final p(J)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
@@ -600,7 +575,6 @@
 .method public static final t(D)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
@@ -613,7 +587,6 @@
 .method public static final u(I)D
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
@@ -626,7 +599,6 @@
 .method public static final v(J)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
@@ -675,7 +647,6 @@
 .method public static final z(D)D
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D

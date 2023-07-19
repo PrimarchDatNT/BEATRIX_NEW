@@ -45,20 +45,16 @@
 .method public constructor <init>(Lorg/w3c/dom/Document;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/Stack;
 
     invoke-direct {v0}, Ljava/util/Stack;-><init>()V
 
     iput-object v0, p0, Lorg/jsoup/helper/d$a;->b:Ljava/util/Stack;
 
-    .line 3
     iput-object p1, p0, Lorg/jsoup/helper/d$a;->a:Lorg/w3c/dom/Document;
 
-    .line 4
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
@@ -71,7 +67,6 @@
 .method private c(Lorg/jsoup/nodes/j;Lorg/w3c/dom/Element;)V
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Lorg/jsoup/nodes/j;->i()Lorg/jsoup/nodes/b;
 
     move-result-object p1
@@ -94,7 +89,6 @@
 
     check-cast v0, Lorg/jsoup/nodes/a;
 
-    .line 2
     invoke-virtual {v0}, Lorg/jsoup/nodes/a;->c()Ljava/lang/String;
 
     move-result-object v1
@@ -109,14 +103,12 @@
 
     const-string v2, "[a-zA-Z_:][-a-zA-Z0-9_:.]*"
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Lorg/jsoup/nodes/a;->d()Ljava/lang/String;
 
     move-result-object v0
@@ -132,12 +124,10 @@
 .method private d(Lorg/jsoup/nodes/Element;)Ljava/lang/String;
     .locals 5
 
-    .line 1
     invoke-virtual {p1}, Lorg/jsoup/nodes/Element;->i()Lorg/jsoup/nodes/b;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lorg/jsoup/nodes/b;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -158,14 +148,12 @@
 
     check-cast v1, Lorg/jsoup/nodes/a;
 
-    .line 3
     invoke-virtual {v1}, Lorg/jsoup/nodes/a;->c()Ljava/lang/String;
 
     move-result-object v3
 
     const-string v4, "xmlns"
 
-    .line 4
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -177,7 +165,6 @@
     :cond_1
     const-string v2, "xmlns:"
 
-    .line 5
     invoke-virtual {v3, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v2
@@ -186,12 +173,10 @@
 
     const/4 v2, 0x6
 
-    .line 6
     invoke-virtual {v3, v2}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 7
     :goto_1
     iget-object v3, p0, Lorg/jsoup/helper/d$a;->b:Ljava/util/Stack;
 
@@ -209,7 +194,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-virtual {p1}, Lorg/jsoup/nodes/Element;->f2()Ljava/lang/String;
 
@@ -223,7 +207,6 @@
 
     if-lez v0, :cond_3
 
-    .line 9
     invoke-virtual {p1}, Lorg/jsoup/nodes/Element;->f2()Ljava/lang/String;
 
     move-result-object p1
@@ -243,7 +226,6 @@
 .method public a(Lorg/jsoup/nodes/j;I)V
     .locals 0
 
-    .line 1
     instance-of p1, p1, Lorg/jsoup/nodes/Element;
 
     if-eqz p1, :cond_0
@@ -258,7 +240,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lorg/jsoup/helper/d$a;->c:Lorg/w3c/dom/Element;
 
     invoke-interface {p1}, Lorg/w3c/dom/Element;->getParentNode()Lorg/w3c/dom/Node;
@@ -269,7 +250,6 @@
 
     iput-object p1, p0, Lorg/jsoup/helper/d$a;->c:Lorg/w3c/dom/Element;
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lorg/jsoup/helper/d$a;->b:Ljava/util/Stack;
 
@@ -281,7 +261,6 @@
 .method public b(Lorg/jsoup/nodes/j;I)V
     .locals 2
 
-    .line 1
     iget-object p2, p0, Lorg/jsoup/helper/d$a;->b:Ljava/util/Stack;
 
     new-instance v0, Ljava/util/HashMap;
@@ -298,20 +277,16 @@
 
     invoke-virtual {p2, v0}, Ljava/util/Stack;->push(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     instance-of p2, p1, Lorg/jsoup/nodes/Element;
 
     if-eqz p2, :cond_2
 
-    .line 3
     check-cast p1, Lorg/jsoup/nodes/Element;
 
-    .line 4
     invoke-direct {p0, p1}, Lorg/jsoup/helper/d$a;->d(Lorg/jsoup/nodes/Element;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 5
     iget-object v0, p0, Lorg/jsoup/helper/d$a;->b:Ljava/util/Stack;
 
     invoke-virtual {v0}, Ljava/util/Stack;->peek()Ljava/lang/Object;
@@ -326,7 +301,6 @@
 
     check-cast p2, Ljava/lang/String;
 
-    .line 6
     invoke-virtual {p1}, Lorg/jsoup/nodes/Element;->f2()Ljava/lang/String;
 
     move-result-object v0
@@ -335,14 +309,12 @@
 
     const-string v1, ":"
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 8
     iget-object p2, p0, Lorg/jsoup/helper/d$a;->a:Lorg/w3c/dom/Document;
 
     const-string v1, ""
@@ -353,7 +325,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iget-object v1, p0, Lorg/jsoup/helper/d$a;->a:Lorg/w3c/dom/Document;
 
@@ -361,42 +332,34 @@
 
     move-result-object p2
 
-    .line 10
     :goto_0
     invoke-direct {p0, p1, p2}, Lorg/jsoup/helper/d$a;->c(Lorg/jsoup/nodes/j;Lorg/w3c/dom/Element;)V
 
-    .line 11
     iget-object p1, p0, Lorg/jsoup/helper/d$a;->c:Lorg/w3c/dom/Element;
 
     if-nez p1, :cond_1
 
-    .line 12
     iget-object p1, p0, Lorg/jsoup/helper/d$a;->a:Lorg/w3c/dom/Document;
 
     invoke-interface {p1, p2}, Lorg/w3c/dom/Document;->appendChild(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
 
     goto :goto_1
 
-    .line 13
     :cond_1
     invoke-interface {p1, p2}, Lorg/w3c/dom/Element;->appendChild(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
 
-    .line 14
     :goto_1
     iput-object p2, p0, Lorg/jsoup/helper/d$a;->c:Lorg/w3c/dom/Element;
 
     goto :goto_2
 
-    .line 15
     :cond_2
     instance-of p2, p1, Lorg/jsoup/nodes/m;
 
     if-eqz p2, :cond_3
 
-    .line 16
     check-cast p1, Lorg/jsoup/nodes/m;
 
-    .line 17
     iget-object p2, p0, Lorg/jsoup/helper/d$a;->a:Lorg/w3c/dom/Document;
 
     invoke-virtual {p1}, Lorg/jsoup/nodes/m;->n0()Ljava/lang/String;
@@ -407,23 +370,19 @@
 
     move-result-object p1
 
-    .line 18
     iget-object p2, p0, Lorg/jsoup/helper/d$a;->c:Lorg/w3c/dom/Element;
 
     invoke-interface {p2, p1}, Lorg/w3c/dom/Element;->appendChild(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
 
     goto :goto_2
 
-    .line 19
     :cond_3
     instance-of p2, p1, Lorg/jsoup/nodes/d;
 
     if-eqz p2, :cond_4
 
-    .line 20
     check-cast p1, Lorg/jsoup/nodes/d;
 
-    .line 21
     iget-object p2, p0, Lorg/jsoup/helper/d$a;->a:Lorg/w3c/dom/Document;
 
     invoke-virtual {p1}, Lorg/jsoup/nodes/d;->n0()Ljava/lang/String;
@@ -434,23 +393,19 @@
 
     move-result-object p1
 
-    .line 22
     iget-object p2, p0, Lorg/jsoup/helper/d$a;->c:Lorg/w3c/dom/Element;
 
     invoke-interface {p2, p1}, Lorg/w3c/dom/Element;->appendChild(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
 
     goto :goto_2
 
-    .line 23
     :cond_4
     instance-of p2, p1, Lorg/jsoup/nodes/e;
 
     if-eqz p2, :cond_5
 
-    .line 24
     check-cast p1, Lorg/jsoup/nodes/e;
 
-    .line 25
     iget-object p2, p0, Lorg/jsoup/helper/d$a;->a:Lorg/w3c/dom/Document;
 
     invoke-virtual {p1}, Lorg/jsoup/nodes/e;->n0()Ljava/lang/String;
@@ -461,7 +416,6 @@
 
     move-result-object p1
 
-    .line 26
     iget-object p2, p0, Lorg/jsoup/helper/d$a;->c:Lorg/w3c/dom/Element;
 
     invoke-interface {p2, p1}, Lorg/w3c/dom/Element;->appendChild(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;

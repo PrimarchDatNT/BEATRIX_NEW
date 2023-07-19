@@ -69,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v11, Lcom/commsource/easyeditor/entity/CropEnum;
 
     sget-object v12, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MODE_ORIGINAL:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
@@ -98,7 +97,6 @@
 
     sput-object v11, Lcom/commsource/easyeditor/entity/CropEnum;->Origin:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 2
     new-instance v23, Lcom/commsource/easyeditor/entity/CropEnum;
 
     sget-object v17, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_FREE_CUT:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
@@ -125,7 +123,6 @@
 
     sput-object v23, Lcom/commsource/easyeditor/entity/CropEnum;->Free:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 3
     new-instance v13, Lcom/commsource/easyeditor/entity/CropEnum;
 
     sget-object v5, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_1_1:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
@@ -148,7 +145,6 @@
 
     sput-object v13, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_11:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 4
     new-instance v14, Lcom/commsource/easyeditor/entity/CropEnum;
 
     sget-object v28, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_9_16:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
@@ -175,7 +171,6 @@
 
     sput-object v14, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_916:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 5
     new-instance v15, Lcom/commsource/easyeditor/entity/CropEnum;
 
     sget-object v5, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_16_9:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
@@ -202,7 +197,6 @@
 
     sput-object v15, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_169:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 6
     new-instance v16, Lcom/commsource/easyeditor/entity/CropEnum;
 
     sget-object v28, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_2_3:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
@@ -229,7 +223,6 @@
 
     sput-object v16, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_23:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 7
     new-instance v17, Lcom/commsource/easyeditor/entity/CropEnum;
 
     sget-object v5, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_3_2:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
@@ -256,7 +249,6 @@
 
     sput-object v17, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_32:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 8
     new-instance v18, Lcom/commsource/easyeditor/entity/CropEnum;
 
     sget-object v28, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_3_4:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
@@ -283,7 +275,6 @@
 
     sput-object v18, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_34:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 9
     new-instance v19, Lcom/commsource/easyeditor/entity/CropEnum;
 
     sget-object v5, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MODE_4_5:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
@@ -310,7 +301,6 @@
 
     sput-object v19, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_45:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 10
     new-instance v20, Lcom/commsource/easyeditor/entity/CropEnum;
 
     sget-object v28, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_4_3:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
@@ -337,7 +327,6 @@
 
     sput-object v20, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_43:Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 11
     new-instance v21, Lcom/commsource/easyeditor/entity/CropEnum;
 
     const-string v2, "EQUAL_PADDING"
@@ -412,7 +401,6 @@
 
     aput-object v21, v1, v2
 
-    .line 12
     sput-object v1, Lcom/commsource/easyeditor/entity/CropEnum;->$VALUES:[Lcom/commsource/easyeditor/entity/CropEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -432,32 +420,24 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/commsource/easyeditor/entity/CropEnum;->id:I
 
-    .line 3
     iput-object p4, p0, Lcom/commsource/easyeditor/entity/CropEnum;->cutMode:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
-    .line 4
     iput p5, p0, Lcom/commsource/easyeditor/entity/CropEnum;->nameRes:I
 
-    .line 5
     iput p6, p0, Lcom/commsource/easyeditor/entity/CropEnum;->iconFontRes:I
 
-    .line 6
     iput-object p7, p0, Lcom/commsource/easyeditor/entity/CropEnum;->statisticName:Ljava/lang/String;
 
     int-to-float p1, p8
 
-    .line 7
     iput p1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->width:F
 
     int-to-float p1, p9
 
-    .line 8
     iput p1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->height:F
 
     return-void
@@ -470,7 +450,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/easyeditor/entity/CropEnum;->values()[Lcom/commsource/easyeditor/entity/CropEnum;
 
     move-result-object v1
@@ -484,12 +463,10 @@
 
     aget-object v4, v1, v3
 
-    .line 2
     iget v5, v4, Lcom/commsource/easyeditor/entity/CropEnum;->id:I
 
     if-ne v5, p0, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -499,7 +476,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/commsource/easyeditor/entity/CropEnum;->Origin:Lcom/commsource/easyeditor/entity/CropEnum;
 
@@ -515,7 +491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/Rotation;->NORMAL:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     if-eq p0, v1, :cond_1
@@ -526,7 +501,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p0, Lcom/commsource/easyeditor/entity/CropEnum$a;->a:[I
 
@@ -538,12 +512,10 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 4
     :pswitch_0
     sget-object p0, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_34:Lcom/commsource/easyeditor/entity/CropEnum;
 
@@ -551,7 +523,6 @@
 
     return-object p0
 
-    .line 5
     :pswitch_1
     sget-object p0, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_43:Lcom/commsource/easyeditor/entity/CropEnum;
 
@@ -559,7 +530,6 @@
 
     return-object p0
 
-    .line 6
     :pswitch_2
     sget-object p0, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_23:Lcom/commsource/easyeditor/entity/CropEnum;
 
@@ -567,7 +537,6 @@
 
     return-object p0
 
-    .line 7
     :pswitch_3
     sget-object p0, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_32:Lcom/commsource/easyeditor/entity/CropEnum;
 
@@ -575,7 +544,6 @@
 
     return-object p0
 
-    .line 8
     :pswitch_4
     sget-object p0, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_916:Lcom/commsource/easyeditor/entity/CropEnum;
 
@@ -583,7 +551,6 @@
 
     return-object p0
 
-    .line 9
     :pswitch_5
     sget-object p0, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_169:Lcom/commsource/easyeditor/entity/CropEnum;
 
@@ -591,13 +558,11 @@
 
     return-object p0
 
-    .line 10
     :pswitch_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 11
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -627,7 +592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/easyeditor/entity/CropEnum;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -648,7 +612,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/entity/CropEnum;->$VALUES:[Lcom/commsource/easyeditor/entity/CropEnum;
 
     invoke-virtual {v1}, [Lcom/commsource/easyeditor/entity/CropEnum;->clone()Ljava/lang/Object;
@@ -671,7 +634,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->width:F
 
     const/4 v2, 0x0
@@ -691,7 +653,6 @@
     :cond_0
     div-float/2addr v1, v3
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v1
@@ -704,7 +665,6 @@
     :goto_0
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 3
     invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v1
@@ -721,7 +681,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -736,7 +695,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->cutMode:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -751,7 +709,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->height:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -766,7 +723,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->iconFontRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -781,7 +737,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->nameRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -796,7 +751,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->statisticName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -811,7 +765,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->width:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -826,7 +779,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/entity/CropEnum;->Origin:Lcom/commsource/easyeditor/entity/CropEnum;
 
     if-eq p0, v1, :cond_0
@@ -859,10 +811,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->height:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -875,10 +825,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->iconFontRes:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -891,10 +839,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/CropEnum;->width:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

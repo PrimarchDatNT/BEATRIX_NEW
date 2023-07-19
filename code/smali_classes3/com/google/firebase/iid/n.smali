@@ -30,12 +30,10 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/iid/n;->a:Lcom/google/firebase/iid/h;
 
     iget-object v1, p0, Lcom/google/firebase/iid/n;->b:Lcom/google/firebase/iid/r;
 
-    .line 2
     iget v1, v1, Lcom/google/firebase/iid/r;->a:I
 
     invoke-virtual {v0, v1}, Lcom/google/firebase/iid/h;->b(I)V

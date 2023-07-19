@@ -67,31 +67,26 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 3
     new-instance p2, Landroid/widget/FrameLayout;
 
     invoke-direct {p2, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     iput-object p2, p0, Lcom/commsource/video/view/XVideoContainer;->a:Landroid/widget/FrameLayout;
 
-    .line 4
     new-instance v0, Landroid/widget/ImageView;
 
     invoke-direct {v0, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Lcom/commsource/video/view/XVideoContainer;->c:Landroid/widget/ImageView;
 
-    .line 5
     new-instance v1, Lcom/commsource/video/view/XVideoContainer$a;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/video/view/XVideoContainer$a;-><init>(Lcom/commsource/video/view/XVideoContainer;Landroid/content/Context;)V
 
     iput-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->d:Ljava/lang/Runnable;
 
-    .line 6
     new-instance p1, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v1, -0x1
@@ -102,7 +97,6 @@
 
     invoke-virtual {p0, p2, p1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 7
     new-instance p1, Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-direct {p1, v1, v1, v2}, Landroid/widget/FrameLayout$LayoutParams;-><init>(III)V
@@ -111,7 +105,6 @@
 
     const/4 p1, 0x0
 
-    .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->setElevation(F)V
 
     return-void
@@ -126,7 +119,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/video/view/XVideoContainer;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -146,7 +138,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/video/view/XVideoContainer;->c(Lcom/commsource/video/c;Z)V
 
@@ -166,7 +157,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     new-instance p2, Landroid/graphics/drawable/ColorDrawable;
 
     sget p3, Lcom/res/provider/ResCOLOR;->Gray_Background:I
@@ -192,28 +182,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$1;-><init>(Lcom/commsource/video/view/XVideoContainer;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setOnVideoUiStateChange(Lcotlin/jvm/u/l;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$2;
 
     invoke-direct {v1, p0}, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$2;-><init>(Lcom/commsource/video/view/XVideoContainer;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setOnVideoEventChange(Lcotlin/jvm/u/l;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$3;
 
     invoke-direct {v1, p0}, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$3;-><init>(Lcom/commsource/video/view/XVideoContainer;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setEnterFullScreen(Lcotlin/jvm/u/a;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -228,16 +214,12 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setOnVideoUiStateChange(Lcotlin/jvm/u/l;)V
 
-    .line 2
     invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setOnVideoEventChange(Lcotlin/jvm/u/l;)V
 
-    .line 3
     invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setEnterFullScreen(Lcotlin/jvm/u/a;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -331,21 +313,17 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoContainer;->i()V
 
-    .line 4
     new-instance p2, Lcom/commsource/video/view/XVideoRenderView;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -362,7 +340,6 @@
 
     invoke-direct {p2, v1, v3, v2, v3}, Lcom/commsource/video/view/XVideoRenderView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcotlin/jvm/internal/u;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->a:Landroid/widget/FrameLayout;
 
     new-instance v2, Landroid/widget/FrameLayout$LayoutParams;
@@ -375,7 +352,6 @@
 
     invoke-virtual {v1, p2, v2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 6
     sget-object v1, Lcom/commsource/video/f;->b:Lcom/commsource/video/f$a;
 
     invoke-virtual {v1}, Lcom/commsource/video/f$a;->b()Lcom/commsource/video/f;
@@ -384,51 +360,42 @@
 
     invoke-virtual {p2, v1}, Lcom/commsource/video/view/XVideoRenderView;->h(Lcom/commsource/video/f;)V
 
-    .line 7
     invoke-direct {p0, p2}, Lcom/commsource/video/view/XVideoContainer;->h(Lcom/commsource/video/view/XVideoRenderView;)V
 
-    .line 8
     invoke-virtual {p2}, Lcom/commsource/video/view/XVideoRenderView;->f()V
 
-    .line 9
     invoke-virtual {p2}, Lcom/commsource/video/view/XVideoRenderView;->getPlayer()Lcom/commsource/video/decoder/a;
 
     move-result-object v1
 
     invoke-interface {v1}, Lcom/commsource/video/decoder/b;->stop()V
 
-    .line 10
     invoke-virtual {p2}, Lcom/commsource/video/view/XVideoRenderView;->getPlayer()Lcom/commsource/video/decoder/a;
 
     move-result-object v1
 
     invoke-interface {v1, p1}, Lcom/commsource/video/decoder/b;->e(Lcom/commsource/video/c;)V
 
-    .line 11
     invoke-virtual {p2}, Lcom/commsource/video/view/XVideoRenderView;->getPlayer()Lcom/commsource/video/decoder/a;
 
     move-result-object p1
 
     invoke-interface {p1}, Lcom/commsource/video/decoder/b;->p()V
 
-    .line 12
     invoke-virtual {p2}, Lcom/commsource/video/view/XVideoRenderView;->getPlayer()Lcom/commsource/video/decoder/a;
 
     move-result-object p1
 
     invoke-interface {p1}, Lcom/commsource/video/decoder/b;->o()V
 
-    .line 13
     invoke-virtual {p2}, Lcom/commsource/video/view/XVideoRenderView;->getPlayer()Lcom/commsource/video/decoder/a;
 
     move-result-object p1
 
     invoke-interface {p1}, Lcom/commsource/video/decoder/b;->start()V
 
-    .line 14
     iput-object p2, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -457,7 +424,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -466,29 +432,24 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/commsource/util/u0$d;->m(Ljava/lang/String;)Lcom/commsource/util/u0$d;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->r(Landroid/graphics/drawable/Drawable;)Lcom/commsource/util/u0$d;
 
     move-result-object p1
 
-    .line 4
     sget-object p2, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->u(Landroid/widget/ImageView$ScaleType;)Lcom/commsource/util/u0$d;
 
     move-result-object p1
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/video/view/XVideoContainer;->c:Landroid/widget/ImageView;
 
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -509,39 +470,30 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoContainer;->i()V
 
-    .line 2
     iget-object v1, p1, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v2, p1, Lcom/commsource/video/view/XVideoContainer;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v2, v1}, Landroid/widget/FrameLayout;->removeView(Landroid/view/View;)V
 
-    .line 4
     invoke-direct {p1, v1}, Lcom/commsource/video/view/XVideoContainer;->m(Lcom/commsource/video/view/XVideoRenderView;)V
 
     const/4 v2, 0x0
 
-    .line 5
     iput-object v2, p1, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
-    .line 6
     iput-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
-    .line 7
     invoke-direct {p0, v1}, Lcom/commsource/video/view/XVideoContainer;->h(Lcom/commsource/video/view/XVideoRenderView;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/video/view/XVideoContainer;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -557,7 +509,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->d:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -574,7 +525,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->a:Landroid/widget/FrameLayout;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -591,7 +541,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->c:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -608,7 +557,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -623,33 +571,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/video/view/XVideoRenderView;->k()V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/video/view/XVideoRenderView;->i()V
 
-    .line 4
     invoke-direct {p0, v1}, Lcom/commsource/video/view/XVideoContainer;->m(Lcom/commsource/video/view/XVideoRenderView;)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/video/view/XVideoContainer;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v2, v1}, Landroid/widget/FrameLayout;->removeViewInLayout(Landroid/view/View;)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/video/view/XVideoRenderView;->getPlayer()Lcom/commsource/video/decoder/a;
 
     move-result-object v2
 
     invoke-interface {v2}, Lcom/commsource/video/decoder/b;->stop()V
 
-    .line 7
     sget-object v2, Lcom/commsource/video/XPlayer;->f:Lcom/commsource/video/XPlayer;
 
     new-instance v3, Lcom/commsource/video/view/XVideoContainer$b;
@@ -660,10 +601,8 @@
 
     const/4 v1, 0x0
 
-    .line 8
     iput-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -677,25 +616,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0, v1}, Lcom/commsource/video/view/XVideoContainer;->m(Lcom/commsource/video/view/XVideoRenderView;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/video/view/XVideoContainer;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v2, v1}, Landroid/widget/FrameLayout;->removeViewInLayout(Landroid/view/View;)V
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -709,7 +643,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
     if-eqz v1, :cond_0
@@ -722,7 +655,6 @@
 
     invoke-interface {v1}, Lcom/commsource/video/decoder/b;->pause()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -736,7 +668,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
     if-eqz v1, :cond_0
@@ -755,7 +686,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
     if-eqz v1, :cond_1
@@ -770,7 +700,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
@@ -784,7 +713,6 @@
 
     invoke-interface {v1}, Lcom/commsource/video/decoder/b;->start()V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -799,13 +727,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/widget/FrameLayout;->onDetachedFromWindow()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoContainer;->i()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -822,7 +747,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/view/XVideoContainer;->b:Lcom/commsource/video/view/XVideoRenderView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

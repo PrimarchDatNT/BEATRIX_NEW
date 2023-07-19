@@ -26,12 +26,10 @@
 .method public final f(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/m80;->a:Landroid/content/Context;
 
     check-cast p1, Lcom/google/android/gms/internal/ads/k80;
 
-    .line 2
     invoke-interface {p1, v0}, Lcom/google/android/gms/internal/ads/k80;->s(Landroid/content/Context;)V
 
     return-void

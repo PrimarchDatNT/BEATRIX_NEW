@@ -48,7 +48,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
     const-string v1, "MANUAL_TRIGGER"
@@ -59,7 +58,6 @@
 
     sput-object v0, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;->MANUAL_TRIGGER:Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
-    .line 2
     new-instance v1, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
     const-string v3, "MANUAL_TRIGGER_ON_CRASH"
@@ -70,7 +68,6 @@
 
     sput-object v1, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;->MANUAL_TRIGGER_ON_CRASH:Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
-    .line 3
     new-instance v3, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
     const-string v5, "HEAP_OVER_THRESHOLD"
@@ -81,7 +78,6 @@
 
     sput-object v3, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;->HEAP_OVER_THRESHOLD:Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
-    .line 4
     new-instance v5, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
     const-string v7, "HEAP_THRASHING_HEAVILY"
@@ -92,7 +88,6 @@
 
     sput-object v5, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;->HEAP_THRASHING_HEAVILY:Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
-    .line 5
     new-instance v7, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
     const-string v9, "HEAP_OOM_CRASH"
@@ -103,7 +98,6 @@
 
     sput-object v7, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;->HEAP_OOM_CRASH:Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
-    .line 6
     new-instance v9, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
     const-string v11, "FD_OVER_THRESHOLD"
@@ -114,7 +108,6 @@
 
     sput-object v9, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;->FD_OVER_THRESHOLD:Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
-    .line 7
     new-instance v11, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
     const-string v13, "FD_OOM_CRASH"
@@ -125,7 +118,6 @@
 
     sput-object v11, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;->FD_OOM_CRASH:Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
-    .line 8
     new-instance v13, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
     const-string v15, "THREAD_OVER_THRESHOLD"
@@ -136,7 +128,6 @@
 
     sput-object v13, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;->THREAD_OVER_THRESHOLD:Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
-    .line 9
     new-instance v15, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
     const-string v14, "THREAD_OOM_CRASH"
@@ -175,7 +166,6 @@
 
     aput-object v15, v14, v12
 
-    .line 10
     sput-object v14, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;->$VALUES:[Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
     return-void
@@ -189,7 +179,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -198,7 +187,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -213,7 +201,6 @@
 .method public static values()[Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;->$VALUES:[Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;
 
     invoke-virtual {v0}, [Lcom/kwai/koom/javaoom/monitor/TriggerReason$DumpReason;->clone()Ljava/lang/Object;

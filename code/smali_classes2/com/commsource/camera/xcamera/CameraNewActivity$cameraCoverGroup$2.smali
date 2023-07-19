@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v7, Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$cameraCoverGroup$2;->this$0:Lcom/commsource/camera/xcamera/CameraNewActivity;
@@ -75,20 +74,16 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v7, v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->setBackWeight(I)V
 
-    .line 4
     invoke-virtual {v7, v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->setPhysicsWeight(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$cameraCoverGroup$2;->this$0:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-virtual {v7, v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->i(Landroidx/fragment/app/FragmentActivity;)Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     move-result-object v1
 
-    .line 6
     new-instance v2, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;-><init>()V
@@ -97,10 +92,8 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->c()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v7
@@ -113,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$cameraCoverGroup$2;->invoke()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1

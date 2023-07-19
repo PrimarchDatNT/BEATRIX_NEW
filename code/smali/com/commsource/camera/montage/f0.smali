@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 .method public A(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/montage/f0;->d:I
 
     return-void
@@ -42,7 +40,6 @@
 .method public B(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/f0;->c:Ljava/lang/String;
 
     return-void
@@ -55,17 +52,14 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onSaveInstanceState(Landroid/os/Bundle;)V
 
-    .line 2
     iget v0, p0, Lcom/commsource/camera/montage/f0;->d:I
 
     const-string v1, "GROUP_TYPE"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/montage/f0;->c:Ljava/lang/String;
 
     const-string v1, "CATEGORY_ID"
@@ -86,14 +80,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     if-eqz p2, :cond_0
 
     const-string p1, "CATEGORY_ID"
 
-    .line 2
     invoke-virtual {p2, p1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -102,7 +94,6 @@
 
     const-string p1, "GROUP_TYPE"
 
-    .line 3
     invoke-virtual {p2, p1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
 
     move-result p1
@@ -118,7 +109,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/montage/f0;->x()V
 
     :cond_0
@@ -128,7 +118,6 @@
 .method public u()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/camera/montage/f0;->d:I
 
     return v0
@@ -137,7 +126,6 @@
 .method public w()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/montage/f0;->c:Ljava/lang/String;
 
     return-object v0
@@ -149,7 +137,6 @@
 .method public z(Ljava/lang/String;IZ)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/f0;->c:Ljava/lang/String;
 
     return-void

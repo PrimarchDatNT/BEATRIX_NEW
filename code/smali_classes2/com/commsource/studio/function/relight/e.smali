@@ -54,7 +54,6 @@
 .method public constructor <init>(FFFIII)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/commsource/studio/function/relight/e;->h:F
@@ -69,49 +68,42 @@
 
     iput p6, p0, Lcom/commsource/studio/function/relight/e;->m:I
 
-    .line 2
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/e;->a:Landroid/graphics/PointF;
 
-    .line 3
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/e;->b:Landroid/graphics/PointF;
 
-    .line 4
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/e;->c:Landroid/graphics/Matrix;
 
-    .line 5
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/e;->d:Landroid/graphics/PointF;
 
-    .line 6
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/e;->e:Landroid/graphics/PointF;
 
-    .line 7
     new-instance p1, Landroid/graphics/Camera;
 
     invoke-direct {p1}, Landroid/graphics/Camera;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/e;->f:Landroid/graphics/Camera;
 
-    .line 8
     new-instance p1, Landroid/graphics/PointF;
 
     invoke-direct {p1}, Landroid/graphics/PointF;-><init>()V
@@ -160,7 +152,6 @@
 
     move v8, p6
 
-    .line 9
     invoke-direct/range {v2 .. v8}, Lcom/commsource/studio/function/relight/e;-><init>(FFFIII)V
 
     return-void
@@ -175,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/e;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -190,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/e;->d:Landroid/graphics/PointF;
 
     iget v1, v1, Landroid/graphics/PointF;->x:F
@@ -217,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/e;->d:Landroid/graphics/PointF;
 
     iget v1, v1, Landroid/graphics/PointF;->y:F
@@ -246,7 +234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/e;->e:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -261,7 +248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/e;->m:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -278,7 +264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/e;->g:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -295,7 +280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/e;->d:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -312,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/e;->c:Landroid/graphics/Matrix;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -327,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/e;->j:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -342,7 +324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/e;->h:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -357,7 +338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/e;->i:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -374,7 +354,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/e;->b:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -389,7 +368,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/e;->l:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -404,7 +382,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/e;->b:Landroid/graphics/PointF;
 
     const/high16 v2, 0x40000000    # 2.0f
@@ -413,14 +390,12 @@
 
     invoke-virtual {v1, p4, p4}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 2
     iget-object p4, p0, Lcom/commsource/studio/function/relight/e;->a:Landroid/graphics/PointF;
 
     iget-object v1, p0, Lcom/commsource/studio/function/relight/e;->b:Landroid/graphics/PointF;
 
     invoke-virtual {p4, v1}, Landroid/graphics/PointF;->set(Landroid/graphics/PointF;)V
 
-    .line 3
     iget-object p4, p0, Lcom/commsource/studio/function/relight/e;->e:Landroid/graphics/PointF;
 
     iget-object v1, p0, Lcom/commsource/studio/function/relight/e;->b:Landroid/graphics/PointF;
@@ -435,24 +410,20 @@
 
     invoke-virtual {p4, p1, p2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/relight/e;->d:Landroid/graphics/PointF;
 
     iget-object p2, p0, Lcom/commsource/studio/function/relight/e;->e:Landroid/graphics/PointF;
 
     invoke-virtual {p1, p2}, Landroid/graphics/PointF;->set(Landroid/graphics/PointF;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/relight/e;->g:Landroid/graphics/PointF;
 
     iget-object p2, p0, Lcom/commsource/studio/function/relight/e;->e:Landroid/graphics/PointF;
 
     invoke-virtual {p1, p2}, Landroid/graphics/PointF;->set(Landroid/graphics/PointF;)V
 
-    .line 6
     iput p3, p0, Lcom/commsource/studio/function/relight/e;->j:F
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -465,38 +436,32 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/e;->g:Landroid/graphics/PointF;
 
     iget v2, v1, Landroid/graphics/PointF;->x:F
 
     sub-float/2addr p1, v2
 
-    .line 2
     iget v1, v1, Landroid/graphics/PointF;->y:F
 
     sub-float/2addr p2, v1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/relight/e;->d:Landroid/graphics/PointF;
 
     iget v2, v1, Landroid/graphics/PointF;->x:F
 
     add-float/2addr v2, p1
 
-    .line 4
     iget p1, v1, Landroid/graphics/PointF;->y:F
 
     add-float/2addr p1, p2
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/studio/function/relight/e;->e:Landroid/graphics/PointF;
 
     iget v1, p2, Landroid/graphics/PointF;->x:F
 
     sub-float v1, v2, v1
 
-    .line 6
     iget p2, p2, Landroid/graphics/PointF;->y:F
 
     sub-float p2, p1, p2
@@ -505,7 +470,6 @@
 
     float-to-double v5, v1
 
-    .line 7
     invoke-static {v3, v4, v5, v6}, Ljava/lang/Math;->atan2(DD)D
 
     move-result-wide v5
@@ -532,14 +496,12 @@
 
     add-double/2addr v8, v3
 
-    .line 8
     invoke-static {v8, v9}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v3
 
     double-to-float v3, v3
 
-    .line 9
     iget v4, p0, Lcom/commsource/studio/function/relight/e;->j:F
 
     cmpl-float v3, v3, v4
@@ -552,7 +514,6 @@
 
     float-to-double p1, v5
 
-    .line 10
     invoke-static {p1, p2}, Ljava/lang/Math;->cos(D)D
 
     move-result-wide v1
@@ -563,7 +524,6 @@
 
     mul-float v1, v1, v2
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/studio/function/relight/e;->d:Landroid/graphics/PointF;
 
     iget-object v3, p0, Lcom/commsource/studio/function/relight/e;->e:Landroid/graphics/PointF;
@@ -574,7 +534,6 @@
 
     iput v3, v2, Landroid/graphics/PointF;->x:F
 
-    .line 12
     invoke-static {p1, p2}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide p1
@@ -585,7 +544,6 @@
 
     mul-float p2, p2, p1
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/function/relight/e;->d:Landroid/graphics/PointF;
 
     iget-object v2, p0, Lcom/commsource/studio/function/relight/e;->e:Landroid/graphics/PointF;
@@ -598,16 +556,13 @@
 
     goto :goto_0
 
-    .line 14
     :cond_0
     iget-object v3, p0, Lcom/commsource/studio/function/relight/e;->d:Landroid/graphics/PointF;
 
     iput v2, v3, Landroid/graphics/PointF;->x:F
 
-    .line 15
     iput p1, v3, Landroid/graphics/PointF;->y:F
 
-    .line 16
     :goto_0
     iget p1, p0, Lcom/commsource/studio/function/relight/e;->h:F
 
@@ -617,7 +572,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 17
     iget-object v3, p0, Lcom/commsource/studio/function/relight/e;->d:Landroid/graphics/PointF;
 
     iget v4, v3, Landroid/graphics/PointF;->x:F
@@ -626,10 +580,8 @@
 
     if-lez v4, :cond_1
 
-    .line 18
     iput p1, v3, Landroid/graphics/PointF;->x:F
 
-    .line 19
     :cond_1
     iget p1, p0, Lcom/commsource/studio/function/relight/e;->i:F
 
@@ -637,7 +589,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 20
     iget-object v3, p0, Lcom/commsource/studio/function/relight/e;->d:Landroid/graphics/PointF;
 
     iget v4, v3, Landroid/graphics/PointF;->x:F
@@ -646,13 +597,11 @@
 
     if-gez v4, :cond_2
 
-    .line 21
     iput p1, v3, Landroid/graphics/PointF;->x:F
 
     :cond_2
     const/high16 p1, 0x42a00000    # 80.0f
 
-    .line 22
     iget v3, p0, Lcom/commsource/studio/function/relight/e;->j:F
 
     div-float/2addr p1, v3
@@ -661,24 +610,20 @@
 
     mul-float p1, p1, p2
 
-    .line 23
     iget-object v4, p0, Lcom/commsource/studio/function/relight/e;->f:Landroid/graphics/Camera;
 
     invoke-virtual {v4}, Landroid/graphics/Camera;->save()V
 
-    .line 24
     iget-object v4, p0, Lcom/commsource/studio/function/relight/e;->f:Landroid/graphics/Camera;
 
     invoke-virtual {v4, v3}, Landroid/graphics/Camera;->rotateY(F)V
 
-    .line 25
     iget-object v3, p0, Lcom/commsource/studio/function/relight/e;->f:Landroid/graphics/Camera;
 
     neg-float p1, p1
 
     invoke-virtual {v3, p1}, Landroid/graphics/Camera;->rotateX(F)V
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/studio/function/relight/e;->f:Landroid/graphics/Camera;
 
     iget-object v3, p0, Lcom/commsource/studio/function/relight/e;->d:Landroid/graphics/PointF;
@@ -691,7 +636,6 @@
 
     invoke-virtual {p1, v4, v3, v2}, Landroid/graphics/Camera;->translate(FFF)V
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/studio/function/relight/e;->f:Landroid/graphics/Camera;
 
     iget-object v2, p0, Lcom/commsource/studio/function/relight/e;->c:Landroid/graphics/Matrix;
@@ -716,7 +660,6 @@
 
     add-double/2addr v3, v5
 
-    .line 28
     invoke-static {v3, v4}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v3
@@ -731,7 +674,6 @@
 
     sub-float/2addr v2, p2
 
-    .line 29
     iget-object p1, p0, Lcom/commsource/studio/function/relight/e;->c:Landroid/graphics/Matrix;
 
     iget-object p2, p0, Lcom/commsource/studio/function/relight/e;->a:Landroid/graphics/PointF;
@@ -756,12 +698,10 @@
 
     invoke-virtual {p1, v1, p2}, Landroid/graphics/Matrix;->preTranslate(FF)Z
 
-    .line 30
     iget-object p1, p0, Lcom/commsource/studio/function/relight/e;->c:Landroid/graphics/Matrix;
 
     invoke-virtual {p1, v2, v2}, Landroid/graphics/Matrix;->preScale(FF)Z
 
-    .line 31
     iget-object p1, p0, Lcom/commsource/studio/function/relight/e;->a:Landroid/graphics/PointF;
 
     iget-object p2, p0, Lcom/commsource/studio/function/relight/e;->b:Landroid/graphics/PointF;
@@ -772,14 +712,12 @@
 
     iput v1, p1, Landroid/graphics/PointF;->x:F
 
-    .line 32
     iget v1, p2, Landroid/graphics/PointF;->y:F
 
     mul-float v1, v1, v2
 
     iput v1, p1, Landroid/graphics/PointF;->y:F
 
-    .line 33
     iget-object p1, p0, Lcom/commsource/studio/function/relight/e;->c:Landroid/graphics/Matrix;
 
     iget v1, p2, Landroid/graphics/PointF;->x:F
@@ -798,12 +736,10 @@
 
     invoke-virtual {p1, v1, p2}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 34
     iget-object p1, p0, Lcom/commsource/studio/function/relight/e;->f:Landroid/graphics/Camera;
 
     invoke-virtual {p1}, Landroid/graphics/Camera;->restore()V
 
-    .line 35
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -816,7 +752,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/e;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -831,7 +766,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/e;->m:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -846,7 +780,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/e;->j:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -861,7 +794,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/e;->h:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -876,7 +808,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/e;->i:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -891,7 +822,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/e;->l:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

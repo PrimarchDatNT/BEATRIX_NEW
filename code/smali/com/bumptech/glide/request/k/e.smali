@@ -49,14 +49,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/k/e;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/k/e;-><init>()V
 
     sput-object v0, Lcom/bumptech/glide/request/k/e;->a:Lcom/bumptech/glide/request/k/e;
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/request/k/e$a;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/k/e$a;-><init>()V
@@ -69,7 +67,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -87,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/request/k/e;->a:Lcom/bumptech/glide/request/k/e;
 
     return-object v0
@@ -105,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/request/k/e;->b:Lcom/bumptech/glide/request/k/g;
 
     return-object v0

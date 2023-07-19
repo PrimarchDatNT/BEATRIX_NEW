@@ -33,7 +33,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-direct {p0, v0, v1, v2}, Lcom/google/ar/core/TrackableBase;-><init>(JLcom/google/ar/core/Session;)V
 
     return-void
@@ -42,10 +41,8 @@
 .method constructor <init>(JLcom/google/ar/core/Session;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/ar/core/TrackableBase;-><init>(JLcom/google/ar/core/Session;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/ar/core/AugmentedFace;->populateMeshData()V
 
     return-void
@@ -74,7 +71,6 @@
 .method public bridge synthetic createAnchor(Lcom/google/ar/core/Pose;)Lcom/google/ar/core/Anchor;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/ar/core/TrackableBase;->createAnchor(Lcom/google/ar/core/Pose;)Lcom/google/ar/core/Anchor;
 
     move-result-object p1
@@ -85,7 +81,6 @@
 .method public bridge synthetic equals(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/ar/core/TrackableBase;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -96,7 +91,6 @@
 .method public bridge synthetic getAnchors()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/ar/core/TrackableBase;->getAnchors()Ljava/util/Collection;
 
     move-result-object v0
@@ -107,7 +101,6 @@
 .method public getCenterPose()Lcom/google/ar/core/Pose;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/TrackableBase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -124,7 +117,6 @@
 .method public getMeshNormals()Ljava/nio/FloatBuffer;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedFace;->normalsBuffer:Ljava/nio/FloatBuffer;
 
     return-object v0
@@ -133,7 +125,6 @@
 .method public getMeshTextureCoordinates()Ljava/nio/FloatBuffer;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedFace;->textureCoordinatesBuffer:Ljava/nio/FloatBuffer;
 
     return-object v0
@@ -142,7 +133,6 @@
 .method public getMeshTriangleIndices()Ljava/nio/ShortBuffer;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedFace;->triangleIndicesBuffer:Ljava/nio/ShortBuffer;
 
     return-object v0
@@ -151,7 +141,6 @@
 .method public getMeshVertices()Ljava/nio/FloatBuffer;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/AugmentedFace;->verticesBuffer:Ljava/nio/FloatBuffer;
 
     return-object v0
@@ -160,7 +149,6 @@
 .method public getRegionPose(Lcom/google/ar/core/AugmentedFace$RegionType;)Lcom/google/ar/core/Pose;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/TrackableBase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -181,7 +169,6 @@
 .method public bridge synthetic getTrackingState()Lcom/google/ar/core/TrackingState;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/ar/core/TrackableBase;->getTrackingState()Lcom/google/ar/core/TrackingState;
 
     move-result-object v0
@@ -192,7 +179,6 @@
 .method public bridge synthetic hashCode()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/ar/core/TrackableBase;->hashCode()I
 
     move-result v0
@@ -203,96 +189,80 @@
 .method populateMeshData()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/TrackableBase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/TrackableBase;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/AugmentedFace;->nativeGetMeshVerticesByteBuffer(JJ)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/Session;->directByteBufferOrDefault(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/ar/core/AugmentedFace;->verticesBuffer:Ljava/nio/FloatBuffer;
 
-    .line 5
     iget-object v0, p0, Lcom/google/ar/core/TrackableBase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/TrackableBase;->nativeHandle:J
 
-    .line 6
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/AugmentedFace;->nativeGetMeshNormalsByteBuffer(JJ)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 7
     invoke-static {v0}, Lcom/google/ar/core/Session;->directByteBufferOrDefault(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 8
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/ar/core/AugmentedFace;->normalsBuffer:Ljava/nio/FloatBuffer;
 
-    .line 9
     iget-object v0, p0, Lcom/google/ar/core/TrackableBase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/TrackableBase;->nativeHandle:J
 
-    .line 10
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/AugmentedFace;->nativeGetMeshTextureCoordinatesByteBuffer(JJ)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 11
     invoke-static {v0}, Lcom/google/ar/core/Session;->directByteBufferOrDefault(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 12
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/ar/core/AugmentedFace;->textureCoordinatesBuffer:Ljava/nio/FloatBuffer;
 
-    .line 13
     iget-object v0, p0, Lcom/google/ar/core/TrackableBase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/TrackableBase;->nativeHandle:J
 
-    .line 14
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/AugmentedFace;->nativeGetMeshTriangleIndicesByteBuffer(JJ)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 15
     invoke-static {v0}, Lcom/google/ar/core/Session;->directByteBufferOrDefault(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 16
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->asShortBuffer()Ljava/nio/ShortBuffer;
 
     move-result-object v0

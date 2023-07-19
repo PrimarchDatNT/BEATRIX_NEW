@@ -137,7 +137,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/internal/g3;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/api/internal/g3;-><init>()V
@@ -152,17 +151,14 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/k;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v1, 0x1
@@ -171,14 +167,12 @@
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->d:Ljava/util/concurrent/CountDownLatch;
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->e:Ljava/util/ArrayList;
 
-    .line 5
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
@@ -187,10 +181,8 @@
 
     const/4 v0, 0x0
 
-    .line 6
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->o:Z
 
-    .line 7
     new-instance v0, Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -201,7 +193,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->b:Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
-    .line 8
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     const/4 v1, 0x0
@@ -221,17 +212,14 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 18
     invoke-direct {p0}, Lcom/google/android/gms/common/api/k;-><init>()V
 
-    .line 19
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
-    .line 20
     new-instance v0, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v1, 0x1
@@ -240,14 +228,12 @@
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->d:Ljava/util/concurrent/CountDownLatch;
 
-    .line 21
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->e:Ljava/util/ArrayList;
 
-    .line 22
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
@@ -256,17 +242,14 @@
 
     const/4 v0, 0x0
 
-    .line 23
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->o:Z
 
-    .line 24
     new-instance v0, Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult$a;-><init>(Landroid/os/Looper;)V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->b:Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
-    .line 25
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     const/4 v0, 0x0
@@ -283,17 +266,14 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 9
     invoke-direct {p0}, Lcom/google/android/gms/common/api/k;-><init>()V
 
-    .line 10
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
-    .line 11
     new-instance v0, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v1, 0x1
@@ -302,14 +282,12 @@
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->d:Ljava/util/concurrent/CountDownLatch;
 
-    .line 12
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->e:Ljava/util/ArrayList;
 
-    .line 13
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
@@ -318,12 +296,10 @@
 
     const/4 v0, 0x0
 
-    .line 14
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->o:Z
 
     if-eqz p1, :cond_0
 
-    .line 15
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/i;->r()Landroid/os/Looper;
 
     move-result-object v0
@@ -335,7 +311,6 @@
 
     move-result-object v0
 
-    .line 16
     :goto_0
     new-instance v1, Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
@@ -343,7 +318,6 @@
 
     iput-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->b:Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
-    .line 17
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -373,17 +347,14 @@
         }
     .end annotation
 
-    .line 26
     invoke-direct {p0}, Lcom/google/android/gms/common/api/k;-><init>()V
 
-    .line 27
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
-    .line 28
     new-instance v0, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v1, 0x1
@@ -392,14 +363,12 @@
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->d:Ljava/util/concurrent/CountDownLatch;
 
-    .line 29
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->e:Ljava/util/ArrayList;
 
-    .line 30
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
@@ -408,12 +377,10 @@
 
     const/4 v0, 0x0
 
-    .line 31
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->o:Z
 
     const-string v0, "CallbackHandler must not be null"
 
-    .line 32
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -422,7 +389,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->b:Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
-    .line 33
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     const/4 v0, 0x0
@@ -442,12 +408,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->j:Z
 
@@ -467,7 +431,6 @@
 
     invoke-static {v1, v3}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n()Z
 
     move-result v1
@@ -476,26 +439,20 @@
 
     invoke-static {v1, v3}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->h:Lcom/google/android/gms/common/api/p;
 
     const/4 v3, 0x0
 
-    .line 5
     iput-object v3, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->h:Lcom/google/android/gms/common/api/p;
 
-    .line 6
     iput-object v3, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->f:Lcom/google/android/gms/common/api/q;
 
-    .line 7
     iput-boolean v2, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->j:Z
 
-    .line 8
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->g:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v0, v3}, Ljava/util/concurrent/atomic/AtomicReference;->getAndSet(Ljava/lang/Object;)Ljava/lang/Object;
@@ -506,7 +463,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 10
     invoke-interface {v0, p0}, Lcom/google/android/gms/common/api/internal/t2;->a(Lcom/google/android/gms/common/api/internal/BasePendingResult;)V
 
     :cond_1
@@ -515,7 +471,6 @@
     :catchall_0
     move-exception v1
 
-    .line 11
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -527,7 +482,6 @@
 .method static synthetic q(Lcom/google/android/gms/common/api/internal/BasePendingResult;)Lcom/google/android/gms/common/api/p;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->h:Lcom/google/android/gms/common/api/p;
 
     return-object p0
@@ -541,20 +495,16 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->h:Lcom/google/android/gms/common/api/p;
 
     const/4 p1, 0x0
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->m:Lcom/google/android/gms/common/internal/r;
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->d:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->h:Lcom/google/android/gms/common/api/p;
 
     invoke-interface {v0}, Lcom/google/android/gms/common/api/p;->getStatus()Lcom/google/android/gms/common/api/Status;
@@ -563,30 +513,25 @@
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->i:Lcom/google/android/gms/common/api/Status;
 
-    .line 5
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->k:Z
 
     if-eqz v0, :cond_0
 
-    .line 6
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->f:Lcom/google/android/gms/common/api/q;
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->f:Lcom/google/android/gms/common/api/q;
 
     if-nez v0, :cond_1
 
-    .line 8
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->h:Lcom/google/android/gms/common/api/p;
 
     instance-of v0, v0, Lcom/google/android/gms/common/api/m;
 
     if-eqz v0, :cond_2
 
-    .line 9
     new-instance v0, Lcom/google/android/gms/common/api/internal/BasePendingResult$b;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult$b;-><init>(Lcom/google/android/gms/common/api/internal/BasePendingResult;Lcom/google/android/gms/common/api/internal/g3;)V
@@ -595,16 +540,13 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->b:Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
     const/4 v0, 0x2
 
-    .line 11
     invoke-virtual {p1, v0}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 12
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->b:Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->f:Lcom/google/android/gms/common/api/q;
@@ -615,7 +557,6 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/google/android/gms/common/api/internal/BasePendingResult$a;->a(Lcom/google/android/gms/common/api/q;Lcom/google/android/gms/common/api/p;)V
 
-    .line 13
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->e:Ljava/util/ArrayList;
@@ -637,14 +578,12 @@
 
     check-cast v2, Lcom/google/android/gms/common/api/k$a;
 
-    .line 14
     iget-object v3, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->i:Lcom/google/android/gms/common/api/Status;
 
     invoke-interface {v2, v3}, Lcom/google/android/gms/common/api/k$a;->a(Lcom/google/android/gms/common/api/Status;)V
 
     goto :goto_1
 
-    .line 15
     :cond_3
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->e:Ljava/util/ArrayList;
 
@@ -656,12 +595,10 @@
 .method public static t(Lcom/google/android/gms/common/api/p;)V
     .locals 3
 
-    .line 1
     instance-of v0, p0, Lcom/google/android/gms/common/api/m;
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     move-object v0, p0
 
@@ -676,7 +613,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -730,15 +666,12 @@
     :goto_0
     const-string v1, "Callback cannot be null."
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->b(ZLjava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n()Z
 
@@ -746,20 +679,17 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->i:Lcom/google/android/gms/common/api/Status;
 
     invoke-interface {p1, v1}, Lcom/google/android/gms/common/api/k$a;->a(Lcom/google/android/gms/common/api/Status;)V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->e:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :goto_1
     monitor-exit v0
 
@@ -785,10 +715,8 @@
 
     const-string v0, "await must not be called on the UI thread"
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->j(Ljava/lang/String;)V
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->j:Z
 
     const/4 v1, 0x1
@@ -799,7 +727,6 @@
 
     invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n:Lcom/google/android/gms/common/api/internal/n2;
 
     if-nez v0, :cond_0
@@ -814,7 +741,6 @@
 
     invoke-static {v1, v0}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->d:Ljava/util/concurrent/CountDownLatch;
 
@@ -824,13 +750,11 @@
 
     goto :goto_1
 
-    .line 5
     :catch_0
     sget-object v0, Lcom/google/android/gms/common/api/Status;->g:Lcom/google/android/gms/common/api/Status;
 
     invoke-virtual {p0, v0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->u(Lcom/google/android/gms/common/api/Status;)V
 
-    .line 6
     :goto_1
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n()Z
 
@@ -840,7 +764,6 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->m()Lcom/google/android/gms/common/api/p;
 
     move-result-object v0
@@ -866,10 +789,8 @@
 
     const-string v0, "await must not be called on the UI thread when time is greater than zero."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->j(Ljava/lang/String;)V
 
-    .line 2
     :cond_0
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->j:Z
 
@@ -881,7 +802,6 @@
 
     invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n:Lcom/google/android/gms/common/api/internal/n2;
 
     if-nez v0, :cond_1
@@ -896,7 +816,6 @@
 
     invoke-static {v1, v0}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->d:Ljava/util/concurrent/CountDownLatch;
 
@@ -906,7 +825,6 @@
 
     if-nez p1, :cond_2
 
-    .line 5
     sget-object p1, Lcom/google/android/gms/common/api/Status;->J:Lcom/google/android/gms/common/api/Status;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->u(Lcom/google/android/gms/common/api/Status;)V
@@ -915,13 +833,11 @@
 
     goto :goto_1
 
-    .line 6
     :catch_0
     sget-object p1, Lcom/google/android/gms/common/api/Status;->g:Lcom/google/android/gms/common/api/Status;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->u(Lcom/google/android/gms/common/api/Status;)V
 
-    .line 7
     :cond_2
     :goto_1
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n()Z
@@ -932,7 +848,6 @@
 
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->m()Lcom/google/android/gms/common/api/p;
 
     move-result-object p1
@@ -945,12 +860,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->k:Z
 
@@ -962,7 +875,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->m:Lcom/google/android/gms/common/internal/r;
     :try_end_0
@@ -970,14 +882,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     :try_start_1
     invoke-interface {v1}, Lcom/google/android/gms/common/internal/r;->cancel()V
     :try_end_1
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     :catch_0
     :cond_1
     :try_start_2
@@ -987,10 +897,8 @@
 
     const/4 v1, 0x1
 
-    .line 6
     iput-boolean v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->k:Z
 
-    .line 7
     sget-object v1, Lcom/google/android/gms/common/api/Status;->K:Lcom/google/android/gms/common/api/Status;
 
     invoke-virtual {p0, v1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->l(Lcom/google/android/gms/common/api/Status;)Lcom/google/android/gms/common/api/p;
@@ -999,12 +907,10 @@
 
     invoke-direct {p0, v1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->r(Lcom/google/android/gms/common/api/p;)V
 
-    .line 8
     monitor-exit v0
 
     return-void
 
-    .line 9
     :cond_2
     :goto_0
     monitor-exit v0
@@ -1014,7 +920,6 @@
     :catchall_0
     move-exception v1
 
-    .line 10
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -1025,12 +930,10 @@
 .method public g()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->k:Z
 
@@ -1041,7 +944,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1062,7 +964,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
     monitor-enter v0
@@ -1071,16 +972,13 @@
 
     const/4 p1, 0x0
 
-    .line 2
     :try_start_0
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->f:Lcom/google/android/gms/common/api/q;
 
-    .line 3
     monitor-exit v0
 
     return-void
 
-    .line 4
     :cond_0
     iget-boolean v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->j:Z
 
@@ -1102,7 +1000,6 @@
 
     invoke-static {v1, v4}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n:Lcom/google/android/gms/common/api/internal/n2;
 
     if-nez v1, :cond_2
@@ -1117,19 +1014,16 @@
 
     invoke-static {v2, v1}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/k;->g()Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    .line 7
     monitor-exit v0
 
     return-void
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n()Z
 
@@ -1137,7 +1031,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 9
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->b:Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->m()Lcom/google/android/gms/common/api/p;
@@ -1148,11 +1041,9 @@
 
     goto :goto_2
 
-    .line 10
     :cond_4
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->f:Lcom/google/android/gms/common/api/q;
 
-    .line 11
     :goto_2
     monitor-exit v0
 
@@ -1183,7 +1074,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
     monitor-enter v0
@@ -1192,16 +1082,13 @@
 
     const/4 p1, 0x0
 
-    .line 2
     :try_start_0
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->f:Lcom/google/android/gms/common/api/q;
 
-    .line 3
     monitor-exit v0
 
     return-void
 
-    .line 4
     :cond_0
     iget-boolean v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->j:Z
 
@@ -1223,7 +1110,6 @@
 
     invoke-static {v1, v4}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n:Lcom/google/android/gms/common/api/internal/n2;
 
     if-nez v1, :cond_2
@@ -1238,19 +1124,16 @@
 
     invoke-static {v2, v1}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/k;->g()Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    .line 7
     monitor-exit v0
 
     return-void
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n()Z
 
@@ -1258,7 +1141,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 9
     iget-object p2, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->b:Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->m()Lcom/google/android/gms/common/api/p;
@@ -1269,11 +1151,9 @@
 
     goto :goto_2
 
-    .line 10
     :cond_4
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->f:Lcom/google/android/gms/common/api/q;
 
-    .line 11
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->b:Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
     invoke-virtual {p4, p2, p3}, Ljava/util/concurrent/TimeUnit;->toMillis(J)J
@@ -1282,14 +1162,12 @@
 
     const/4 p4, 0x2
 
-    .line 12
     invoke-virtual {p1, p4, p0}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
 
     move-result-object p4
 
     invoke-virtual {p1, p4, p2, p3}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
-    .line 13
     :goto_2
     monitor-exit v0
 
@@ -1319,7 +1197,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->j:Z
 
     const/4 v1, 0x1
@@ -1330,12 +1207,10 @@
 
     invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n:Lcom/google/android/gms/common/api/internal/n2;
 
@@ -1355,7 +1230,6 @@
 
     invoke-static {v2, v4}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 4
     iget-object v2, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->f:Lcom/google/android/gms/common/api/q;
 
     if-nez v2, :cond_1
@@ -1372,7 +1246,6 @@
 
     invoke-static {v2, v4}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 5
     iget-boolean v2, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->k:Z
 
     if-nez v2, :cond_2
@@ -1384,10 +1257,8 @@
 
     invoke-static {v3, v2}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 6
     iput-boolean v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->o:Z
 
-    .line 7
     new-instance v1, Lcom/google/android/gms/common/api/internal/n2;
 
     iget-object v2, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->c:Ljava/lang/ref/WeakReference;
@@ -1396,21 +1267,18 @@
 
     iput-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n:Lcom/google/android/gms/common/api/internal/n2;
 
-    .line 8
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n:Lcom/google/android/gms/common/api/internal/n2;
 
     invoke-virtual {v1, p1}, Lcom/google/android/gms/common/api/t;->c(Lcom/google/android/gms/common/api/s;)Lcom/google/android/gms/common/api/t;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n()Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    .line 10
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->b:Lcom/google/android/gms/common/api/internal/BasePendingResult$a;
 
     iget-object v2, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n:Lcom/google/android/gms/common/api/internal/n2;
@@ -1423,13 +1291,11 @@
 
     goto :goto_2
 
-    .line 11
     :cond_3
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n:Lcom/google/android/gms/common/api/internal/n2;
 
     iput-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->f:Lcom/google/android/gms/common/api/q;
 
-    .line 12
     :goto_2
     monitor-exit v0
 
@@ -1438,7 +1304,6 @@
     :catchall_0
     move-exception p1
 
-    .line 13
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1475,7 +1340,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->d:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->getCount()J
@@ -1503,16 +1367,13 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->m:Lcom/google/android/gms/common/internal/r;
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -1538,12 +1399,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->l:Z
 
@@ -1555,7 +1414,6 @@
 
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n()Z
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n()Z
 
     move-result v1
@@ -1578,7 +1436,6 @@
 
     invoke-static {v1, v4}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 4
     iget-boolean v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->j:Z
 
     if-nez v1, :cond_1
@@ -1593,19 +1450,15 @@
 
     invoke-static {v2, v1}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->r(Lcom/google/android/gms/common/api/p;)V
 
-    .line 6
     monitor-exit v0
 
     return-void
 
-    .line 7
     :cond_2
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->t(Lcom/google/android/gms/common/api/p;)V
 
-    .line 8
     monitor-exit v0
 
     return-void
@@ -1613,7 +1466,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1624,7 +1476,6 @@
 .method public final s(Lcom/google/android/gms/common/api/internal/t2;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->g:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
@@ -1635,12 +1486,10 @@
 .method public final u(Lcom/google/android/gms/common/api/Status;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->n()Z
 
@@ -1648,7 +1497,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->l(Lcom/google/android/gms/common/api/Status;)Lcom/google/android/gms/common/api/p;
 
     move-result-object p1
@@ -1657,10 +1505,8 @@
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->l:Z
 
-    .line 5
     :cond_0
     monitor-exit v0
 
@@ -1679,12 +1525,10 @@
 .method public final v()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->c:Ljava/lang/ref/WeakReference;
 
@@ -1696,16 +1540,13 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-boolean v1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->o:Z
 
     if-nez v1, :cond_1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/k;->f()V
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/k;->g()Z
 
@@ -1718,7 +1559,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1729,7 +1569,6 @@
 .method public final w()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->o:Z
 
     if-nez v0, :cond_1

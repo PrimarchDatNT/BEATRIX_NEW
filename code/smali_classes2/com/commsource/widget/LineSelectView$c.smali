@@ -48,10 +48,8 @@
 
     iput-boolean p5, p0, Lcom/commsource/widget/LineSelectView$c;->p:Z
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p3}, Lcom/commsource/widget/LineSelectView;->d(Lcom/commsource/widget/LineSelectView;)F
 
     move-result p1
@@ -70,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/LineSelectView$c;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -85,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/LineSelectView$c;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -100,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/LineSelectView$c;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -123,7 +118,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -136,7 +130,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/LineSelectView$c;->f:Lcom/commsource/widget/LineSelectView;
 
     invoke-static {v1}, Lcom/commsource/widget/LineSelectView;->c(Lcom/commsource/widget/LineSelectView;)F
@@ -155,7 +148,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/widget/LineSelectView;->f(Lcom/commsource/widget/LineSelectView;F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/LineSelectView$c;->f:Lcom/commsource/widget/LineSelectView;
 
     iget v2, p0, Lcom/commsource/widget/LineSelectView$c;->d:F
@@ -170,24 +162,20 @@
 
     invoke-static {v1, v2}, Lcom/commsource/widget/LineSelectView;->g(Lcom/commsource/widget/LineSelectView;F)V
 
-    .line 4
     iget v1, p0, Lcom/commsource/widget/LineSelectView$c;->c:F
 
     mul-float p1, p1, v1
 
     iput p1, p0, Lcom/commsource/widget/LineSelectView$c;->a:F
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/widget/LineSelectView$c;->f:Lcom/commsource/widget/LineSelectView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

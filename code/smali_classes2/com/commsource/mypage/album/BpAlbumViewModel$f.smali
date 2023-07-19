@@ -62,7 +62,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$f;->b:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/mypage/album/BpAlbumViewModel;->M()Landroidx/lifecycle/MutableLiveData;
@@ -75,14 +74,12 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$f;->b:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     iget-boolean v0, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$f;->e:Z
 
     invoke-static {p1, v0}, Lcom/commsource/mypage/album/BpAlbumViewModel;->z(Lcom/commsource/mypage/album/BpAlbumViewModel;Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$f;->b:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->D()Lcom/commsource/mypage/album/AlbumSetting;
@@ -95,23 +92,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$f;->d:Landroid/app/Activity;
 
-    .line 5
     new-instance v8, Lcom/commsource/mypage/album/w;
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$f;->b:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->D()Lcom/commsource/mypage/album/AlbumSetting;
 
     move-result-object v2
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$f;->c:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$f;->a:Landroid/app/Activity;
 
     invoke-virtual {v1}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
@@ -132,13 +124,10 @@
 
     move-object v1, v8
 
-    .line 9
     invoke-direct/range {v1 .. v7}, Lcom/commsource/mypage/album/w;-><init>(Lcom/commsource/mypage/album/AlbumSetting;Lcom/commsource/cloudalbum/bean/CAImageInfo;Landroid/os/Bundle;IILcotlin/jvm/internal/u;)V
 
-    .line 10
     invoke-interface {p1, v0, v8}, Lcom/commsource/mypage/album/OnImageSelectCallback;->onImageSelect(Landroid/app/Activity;Lcom/commsource/mypage/album/w;)V
 
-    .line 11
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

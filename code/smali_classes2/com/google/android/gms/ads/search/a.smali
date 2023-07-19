@@ -19,10 +19,8 @@
 .method private constructor <init>(Lcom/google/android/gms/ads/search/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/ads/search/a$a;->S(Lcom/google/android/gms/ads/search/a$a;)Lcom/google/android/gms/ads/search/b$a;
 
     move-result-object p1
@@ -39,7 +37,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/ads/search/a$a;Lcom/google/android/gms/ads/search/c;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/android/gms/ads/search/a;-><init>(Lcom/google/android/gms/ads/search/a$a;)V
 
     return-void
@@ -60,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/search/a;->a:Lcom/google/android/gms/ads/search/b;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/ads/search/b;->j(Ljava/lang/Class;)Landroid/os/Bundle;
@@ -85,7 +81,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/search/a;->a:Lcom/google/android/gms/ads/search/b;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/ads/search/b;->p(Ljava/lang/Class;)Lcom/google/android/gms/ads/mediation/b0;
@@ -108,7 +103,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/search/a;->a:Lcom/google/android/gms/ads/search/b;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/ads/search/b;->q(Ljava/lang/Class;)Landroid/os/Bundle;
@@ -121,7 +115,6 @@
 .method public final d()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/search/a;->a:Lcom/google/android/gms/ads/search/b;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/search/b;->r()Ljava/lang/String;
@@ -134,7 +127,6 @@
 .method public final e(Landroid/content/Context;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/search/a;->a:Lcom/google/android/gms/ads/search/b;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/ads/search/b;->s(Landroid/content/Context;)Z
@@ -147,7 +139,6 @@
 .method final f()Lcom/google/android/gms/internal/ads/kp2;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/search/a;->a:Lcom/google/android/gms/ads/search/b;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/search/b;->t()Lcom/google/android/gms/internal/ads/kp2;

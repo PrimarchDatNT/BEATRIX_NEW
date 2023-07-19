@@ -43,7 +43,6 @@
 
     const-string v4, "javax."
 
-    .line 1
     filled-new-array {v0, v1, v2, v3, v4}, [Ljava/lang/String;
 
     move-result-object v0
@@ -56,7 +55,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -69,7 +67,6 @@
 
     const/high16 v0, 0x20000000
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcom/google/android/gms/common/util/i;->b(Landroid/content/Context;Ljava/lang/Throwable;I)Z
 
     move-result p0
@@ -82,11 +79,9 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -100,7 +95,6 @@
 
     const-string v0, "Error adding exception to DropBox!"
 
-    .line 3
     invoke-static {p1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return p2

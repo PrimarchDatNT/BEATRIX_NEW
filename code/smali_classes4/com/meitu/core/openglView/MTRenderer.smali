@@ -69,78 +69,58 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mWidth:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mHeight:I
 
     const/4 v1, -0x1
 
-    .line 4
     iput v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mtextureOut:I
 
-    .line 5
     iput v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureDes:I
 
-    .line 6
     iput v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureSrc:I
 
-    .line 7
     iput v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mOutputWidth:I
 
-    .line 8
     iput v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mOutputHeight:I
 
-    .line 9
     iput-boolean v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mIsShowOrgBitmap:Z
 
-    .line 10
     iput-boolean v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mRunning:Z
 
-    .line 11
     iput-boolean v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mDestroy:Z
 
-    .line 12
     iput-boolean v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mIsInit:Z
 
     const/4 v0, 0x0
 
-    .line 13
     iput-object v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mMTOpenGL:Lcom/meitu/core/openglView/MTOpenGL;
 
     const/4 v1, 0x0
 
-    .line 14
     iput v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mColorR:F
 
-    .line 15
     iput v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mColorG:F
 
-    .line 16
     iput v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mColorB:F
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 17
     iput v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mColorA:F
 
-    .line 18
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mLock:Ljava/lang/Object;
 
-    .line 19
     iput-object v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mComplete:Lcom/meitu/core/openglView/MTRenderer$RenderComplete;
 
-    .line 20
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -157,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/core/openglView/MTRenderer;->mOutputWidth:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -172,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/core/openglView/MTRenderer;->mOutputHeight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -187,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/core/openglView/MTRenderer;->mWidth:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -202,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/core/openglView/MTRenderer;->mHeight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -217,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/core/openglView/MTRenderer;->mMTOpenGL:Lcom/meitu/core/openglView/MTOpenGL;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -232,7 +207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureSrc:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -247,7 +221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureSrc:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -262,7 +235,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/core/openglView/MTRenderer;->mtextureOut:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -277,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/core/openglView/MTRenderer;->mtextureOut:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -292,7 +263,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureDes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -307,7 +277,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureDes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -322,7 +291,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureSrc:I
 
     const/4 v2, 0x0
@@ -337,13 +305,10 @@
 
     aput v1, v5, v2
 
-    .line 2
     invoke-static {v3, v5, v2}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
-    .line 3
     iput v4, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureSrc:I
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mtextureOut:I
 
@@ -353,13 +318,10 @@
 
     aput v1, v5, v2
 
-    .line 5
     invoke-static {v3, v5, v2}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
-    .line 6
     iput v4, p0, Lcom/meitu/core/openglView/MTRenderer;->mtextureOut:I
 
-    .line 7
     :cond_1
     iget v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureDes:I
 
@@ -369,31 +331,24 @@
 
     aput v1, v5, v2
 
-    .line 8
     invoke-static {v3, v5, v2}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
-    .line 9
     iput v4, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureDes:I
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mMTOpenGL:Lcom/meitu/core/openglView/MTOpenGL;
 
     if-eqz v1, :cond_3
 
-    .line 11
     invoke-virtual {v1}, Lcom/meitu/core/openglView/MTOpenGL;->release()V
 
-    .line 12
     :cond_3
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mProcessor:Lcom/meitu/core/openglView/MTEffectBase;
 
     if-eqz v1, :cond_4
 
-    .line 13
     invoke-virtual {v1}, Lcom/meitu/core/openglView/MTEffectBase;->release()V
 
-    .line 14
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -407,36 +362,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mIsInit:Z
 
     if-nez v1, :cond_1
 
-    .line 2
     new-instance v1, Lcom/meitu/core/openglView/MTOpenGL;
 
     invoke-direct {v1}, Lcom/meitu/core/openglView/MTOpenGL;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mMTOpenGL:Lcom/meitu/core/openglView/MTOpenGL;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/core/openglView/MTOpenGL;->init()V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mProcessor:Lcom/meitu/core/openglView/MTEffectBase;
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/core/openglView/MTEffectBase;->init()V
 
     :cond_0
     const/4 v1, 0x1
 
-    .line 6
     iput-boolean v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mIsInit:Z
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -450,10 +398,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :goto_0
     :try_start_0
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mRunOnDraw:Ljava/util/List;
@@ -464,7 +410,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mRunOnDraw:Ljava/util/List;
 
     const/4 v2, 0x0
@@ -479,13 +424,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -493,7 +436,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -513,21 +455,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mRunOnDraw:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -535,7 +473,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -553,7 +490,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mMTOpenGL:Lcom/meitu/core/openglView/MTOpenGL;
 
     if-eqz v1, :cond_0
@@ -580,7 +516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mHeight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -595,7 +530,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mRunning:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -610,7 +544,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mMTOpenGL:Lcom/meitu/core/openglView/MTOpenGL;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -625,7 +558,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mOutputHeight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -640,7 +572,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mOutputWidth:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -657,14 +588,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lcom/meitu/core/openglView/MTRenderer$3;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/openglView/MTRenderer$3;-><init>(Lcom/meitu/core/openglView/MTRenderer;Lcom/meitu/core/openglView/MTRenderer$SaveComplete;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/openglView/MTRenderer;->addDrawRun(Ljava/lang/Runnable;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -678,7 +607,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mMTOpenGL:Lcom/meitu/core/openglView/MTOpenGL;
 
     if-eqz v1, :cond_0
@@ -705,7 +633,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mMTOpenGL:Lcom/meitu/core/openglView/MTOpenGL;
 
     if-eqz v1, :cond_0
@@ -732,7 +659,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureDes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -747,7 +673,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mtextureOut:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -762,7 +687,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureSrc:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -777,7 +701,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mWidth:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -792,17 +715,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mMTOpenGL:Lcom/meitu/core/openglView/MTOpenGL;
 
     if-eqz v1, :cond_0
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/core/openglView/MTOpenGL;->setMatrix([F)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -816,28 +736,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 5
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mWidth:I
 
-    .line 6
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mHeight:I
 
-    .line 7
     new-instance v1, Lcom/meitu/core/openglView/MTRenderer$1;
 
     invoke-direct {v1, p0, p1, p2, p3}, Lcom/meitu/core/openglView/MTRenderer$1;-><init>(Lcom/meitu/core/openglView/MTRenderer;Landroid/graphics/Bitmap;ZLcom/meitu/core/openglView/MTRenderer$RenderComplete;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/openglView/MTRenderer;->addDrawRun(Ljava/lang/Runnable;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -850,7 +766,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -859,15 +774,12 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {p0, p1, v1, v2}, Lcom/meitu/core/openglView/MTRenderer;->loadTexture(Landroid/graphics/Bitmap;ZLcom/meitu/core/openglView/MTRenderer$RenderComplete;)V
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-interface {p2}, Lcom/meitu/core/openglView/MTRenderer$RenderComplete;->complete()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -881,7 +793,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mIsInit:Z
 
     if-eqz v0, :cond_3
@@ -895,37 +806,29 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mRunning:Z
 
-    .line 3
     iget-object v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 4
     :try_start_0
     iget-boolean v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mDestroy:Z
 
-    .line 5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const/16 v0, 0x4100
 
-    .line 6
     invoke-static {v0}, Landroid/opengl/GLES20;->glClear(I)V
 
-    .line 7
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTRenderer;->onRunDraw()V
 
-    .line 8
     iget-boolean v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mIsShowOrgBitmap:Z
 
     if-eqz v0, :cond_1
 
-    .line 9
     iget-object v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mMTOpenGL:Lcom/meitu/core/openglView/MTOpenGL;
 
     iget v2, p0, Lcom/meitu/core/openglView/MTRenderer;->mTextureSrc:I
@@ -934,7 +837,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mMTOpenGL:Lcom/meitu/core/openglView/MTOpenGL;
 
@@ -947,17 +849,13 @@
 
     if-eqz v1, :cond_2
 
-    .line 11
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTRenderer;->destroy()V
 
-    .line 12
     iput-boolean v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mIsInit:Z
 
-    .line 13
     :cond_2
     iput-boolean v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mRunning:Z
 
-    .line 14
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -965,7 +863,6 @@
     :catchall_0
     move-exception v1
 
-    .line 15
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -975,7 +872,6 @@
 
     throw v1
 
-    .line 16
     :cond_3
     :goto_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -990,18 +886,14 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p2, p0, Lcom/meitu/core/openglView/MTRenderer;->mOutputWidth:I
 
-    .line 2
     iput p3, p0, Lcom/meitu/core/openglView/MTRenderer;->mOutputHeight:I
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-static {v0, v0, p2, p3}, Landroid/opengl/GLES20;->glViewport(IIII)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1014,7 +906,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p2, p0, Lcom/meitu/core/openglView/MTRenderer;->mColorR:F
 
     iget v0, p0, Lcom/meitu/core/openglView/MTRenderer;->mColorG:F
@@ -1027,21 +918,16 @@
 
     const/16 p2, 0xb71
 
-    .line 2
     invoke-static {p2}, Landroid/opengl/GLES20;->glDisable(I)V
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTRenderer;->initEGL()V
 
-    .line 4
     iget-object p2, p0, Lcom/meitu/core/openglView/MTRenderer;->mComplete:Lcom/meitu/core/openglView/MTRenderer$RenderComplete;
 
     if-eqz p2, :cond_0
 
-    .line 5
     invoke-interface {p2}, Lcom/meitu/core/openglView/MTRenderer$RenderComplete;->complete()V
 
-    .line 6
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1055,23 +941,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer;->mLock:Ljava/lang/Object;
 
     monitor-enter v1
 
     const/4 v2, 0x1
 
-    .line 2
     :try_start_0
     iput-boolean v2, p0, Lcom/meitu/core/openglView/MTRenderer;->mDestroy:Z
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1079,7 +961,6 @@
     :catchall_0
     move-exception v2
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1097,14 +978,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/openglView/MTRenderer$2;
 
     invoke-direct {v1, p0}, Lcom/meitu/core/openglView/MTRenderer$2;-><init>(Lcom/meitu/core/openglView/MTRenderer;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/openglView/MTRenderer;->addDrawRun(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1129,7 +1008,6 @@
 
     div-float/2addr p1, v1
 
-    .line 1
     iput p1, p0, Lcom/meitu/core/openglView/MTRenderer;->mColorR:F
 
     :cond_0
@@ -1141,7 +1019,6 @@
 
     div-float/2addr p1, v1
 
-    .line 2
     iput p1, p0, Lcom/meitu/core/openglView/MTRenderer;->mColorG:F
 
     :cond_1
@@ -1153,7 +1030,6 @@
 
     div-float/2addr p1, v1
 
-    .line 3
     iput p1, p0, Lcom/meitu/core/openglView/MTRenderer;->mColorB:F
 
     :cond_2
@@ -1165,10 +1041,8 @@
 
     div-float/2addr p1, v1
 
-    .line 4
     iput p1, p0, Lcom/meitu/core/openglView/MTRenderer;->mColorA:F
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1184,10 +1058,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/openglView/MTRenderer;->mProcessor:Lcom/meitu/core/openglView/MTEffectBase;
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1201,10 +1073,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/openglView/MTRenderer;->mComplete:Lcom/meitu/core/openglView/MTRenderer$RenderComplete;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1217,10 +1087,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/core/openglView/MTRenderer;->mIsShowOrgBitmap:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

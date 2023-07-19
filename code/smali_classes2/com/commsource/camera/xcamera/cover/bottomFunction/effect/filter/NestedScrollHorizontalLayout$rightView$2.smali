@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroid/widget/ImageView;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/NestedScrollHorizontalLayout$rightView$2;->$context:Landroid/content/Context;
@@ -65,15 +64,12 @@
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->arrow_right_icon_forward:I
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -86,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/NestedScrollHorizontalLayout$rightView$2;->invoke()Landroid/widget/ImageView;
 
     move-result-object v1

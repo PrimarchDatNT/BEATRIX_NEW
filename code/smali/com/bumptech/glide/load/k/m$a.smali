@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/bumptech/glide/load/k/m;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/load/k/m$a;->e:Lcom/bumptech/glide/load/k/m;
 
     invoke-direct {p0, p2, p3}, Lcom/bumptech/glide/s/h;-><init>(J)V
@@ -51,7 +50,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/bumptech/glide/load/k/m$b;
 
     invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/load/k/m$a;->r(Lcom/bumptech/glide/load/k/m$b;Ljava/lang/Object;)V
@@ -77,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/bumptech/glide/load/k/m$b;->c()V
 
     return-void

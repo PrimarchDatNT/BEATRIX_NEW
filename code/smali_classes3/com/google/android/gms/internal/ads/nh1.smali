@@ -20,7 +20,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p0
@@ -43,12 +42,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -66,19 +63,16 @@
 
     check-cast v1, Lcom/google/android/gms/internal/ads/tg1;
 
-    .line 3
     iget-boolean v2, v1, Lcom/google/android/gms/internal/ads/tg1;->c:Z
 
     if-eqz v2, :cond_0
 
-    .line 4
     sget-object v1, Lcom/google/android/gms/ads/e;->p:Lcom/google/android/gms/ads/e;
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v2, Lcom/google/android/gms/ads/e;
 
@@ -92,7 +86,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -106,7 +99,6 @@
 
     check-cast p1, [Lcom/google/android/gms/ads/e;
 
-    .line 7
     new-instance v0, Lcom/google/android/gms/internal/ads/zzvh;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/ads/zzvh;-><init>(Landroid/content/Context;[Lcom/google/android/gms/ads/e;)V
@@ -117,14 +109,12 @@
 .method public static c(Lcom/google/android/gms/internal/ads/zzvh;)Lcom/google/android/gms/internal/ads/tg1;
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/zzvh;->K:Z
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance p0, Lcom/google/android/gms/internal/ads/tg1;
 
     const/4 v0, -0x3
@@ -135,7 +125,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/ads/tg1;
 

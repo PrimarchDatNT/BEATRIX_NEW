@@ -25,7 +25,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/RelightFragment$j;->a:Lcom/commsource/studio/function/RelightFragment;
 
-    .line 1
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/function/RelightFragment$j$a;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/RelightFragment$j$a;-><init>(Lcom/commsource/studio/function/RelightFragment$j;)V
@@ -53,7 +51,6 @@
 
     invoke-static {v0, v1, v2}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

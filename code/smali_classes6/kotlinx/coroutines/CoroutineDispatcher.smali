@@ -37,7 +37,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/coroutines/d;->s:Lcotlin/coroutines/d$b;
 
     invoke-direct {p0, v0}, Lcotlin/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext$b;)V
@@ -66,7 +65,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     check-cast p1, Lcotlinx/coroutines/w0;
 
     invoke-virtual {p1}, Lcotlinx/coroutines/w0;->p()Lcotlinx/coroutines/n;
@@ -109,7 +107,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/coroutines/d$a;->b(Lcotlin/coroutines/d;Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
 
     move-result-object p1
@@ -138,7 +135,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/w0;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/w0;-><init>(Lcotlinx/coroutines/CoroutineDispatcher;Lcotlin/coroutines/c;)V
@@ -164,7 +160,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/coroutines/d$a;->c(Lcotlin/coroutines/d;Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext;
 
     move-result-object p1
@@ -177,7 +172,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -229,7 +223,6 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/CoroutineDispatcher;->u(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
 
     return-void

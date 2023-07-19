@@ -46,12 +46,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$i;->b:Lcotlin/jvm/u/a;
 
     invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$i;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->X0()Ljava/lang/Runnable;
@@ -60,14 +58,12 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$i;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->g2(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$i;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->Y0()Landroidx/lifecycle/MutableLiveData;
@@ -78,7 +74,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

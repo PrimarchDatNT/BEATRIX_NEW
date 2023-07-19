@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorProcessActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$a;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$a;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->O0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/aieditor/d0;
@@ -55,20 +53,17 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$a;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-virtual {v0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->onBackPressed()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$a;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-virtual {v0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 4
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

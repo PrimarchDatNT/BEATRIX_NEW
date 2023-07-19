@@ -40,10 +40,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$cameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$cameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;)V
@@ -54,7 +52,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->b:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$confirmViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$confirmViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;)V
@@ -65,7 +62,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->c:Lcotlin/w;
 
-    .line 4
     sget-object v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$feedbackManager$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$feedbackManager$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -74,7 +70,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->d:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$processLoadingDialog$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$processLoadingDialog$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;)V
@@ -95,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object p0
@@ -112,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -127,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->L(Lcom/meitu/hwbusinesskit/core/ad/NativeAd;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -182,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->getAdStyle()Ljava/lang/String;
 
     move-result-object v1
@@ -197,7 +188,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/d0$a;
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/a;->q()Lcom/commsource/camera/xcamera/cover/CoverGroup;
@@ -210,10 +200,8 @@
 
     invoke-direct {v1, v4}, Lcom/commsource/camera/d0$a;-><init>(Landroid/content/Context;)V
 
-    .line 3
     invoke-virtual {v1, p0}, Lcom/commsource/camera/d0$a;->j(Lcom/commsource/camera/b0;)Lcom/commsource/camera/d0$a;
 
-    .line 4
     new-instance v4, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$l;
 
     invoke-direct {v4, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$l;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;)V
@@ -230,7 +218,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v1, Lcom/commsource/camera/c0$a;
 
@@ -244,10 +231,8 @@
 
     invoke-direct {v1, v4}, Lcom/commsource/camera/c0$a;-><init>(Landroid/content/Context;)V
 
-    .line 6
     invoke-virtual {v1, p0}, Lcom/commsource/camera/c0$a;->l(Lcom/commsource/camera/b0;)Lcom/commsource/camera/c0$a;
 
-    .line 7
     new-instance v4, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$m;
 
     invoke-direct {v4, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$m;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;)V
@@ -268,7 +253,6 @@
 
     move-object v1, v7
 
-    .line 8
     :goto_0
     new-instance v4, Lcotlin/jvm/internal/Ref$BooleanRef;
 
@@ -278,14 +262,12 @@
 
     iput-boolean v5, v4, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    .line 9
     new-instance v6, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$n;
 
     invoke-direct {v6, p0, v4, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$n;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;Lcotlin/jvm/internal/Ref$BooleanRef;Lcom/meitu/hwbusinesskit/core/ad/NativeAd;)V
 
     invoke-virtual {p1, v6}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setOnAdListener(Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;)V
 
-    .line 10
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->getAdStyle()Ljava/lang/String;
 
     move-result-object v6
@@ -296,12 +278,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 11
     iput-boolean v5, v4, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-eqz v1, :cond_2
 
-    .line 12
     invoke-virtual {v1, p1}, Lcom/commsource/camera/d0$a;->h(Lcom/meitu/hwbusinesskit/core/ad/NativeAd;)Lcom/commsource/camera/d0$a;
 
     move-result-object p1
@@ -315,12 +295,10 @@
     :cond_1
     const/4 v1, 0x1
 
-    .line 13
     iput-boolean v1, v4, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-eqz v3, :cond_2
 
-    .line 14
     invoke-virtual {v3, p1}, Lcom/commsource/camera/c0$a;->j(Lcom/meitu/hwbusinesskit/core/ad/NativeAd;)Lcom/commsource/camera/c0$a;
 
     move-result-object p1
@@ -329,7 +307,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/c0$a;->n()V
 
-    .line 15
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -344,7 +321,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -359,7 +335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->D()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object p0
@@ -402,7 +377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->f:Landroid/app/Dialog;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -439,7 +413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -454,7 +427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -473,7 +445,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->f:Landroid/app/Dialog;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -492,14 +463,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->F()Lcom/commsource/beautyplus/m0/a;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyplus/m0/a;->c(Landroid/view/View;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/a;->q()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object p1
@@ -518,7 +487,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/a;->q()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1
@@ -541,10 +509,8 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Landroid/app/Dialog;->show()V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -562,7 +528,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -583,7 +548,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -599,7 +563,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -610,7 +573,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->D()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object v1
@@ -623,12 +585,10 @@
 
     const-string v1, "movecheck_appr"
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->D()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
@@ -642,10 +602,8 @@
 
     const-string v1, "selfieconfirm_appr"
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -660,7 +618,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/a;->q()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1
@@ -675,7 +632,6 @@
 
     invoke-virtual {v1, p0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -698,7 +654,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -721,7 +676,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -744,7 +698,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -767,7 +720,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -790,7 +742,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -813,7 +764,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -836,7 +786,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -859,7 +808,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -882,7 +830,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 11
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -905,7 +852,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->E()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -928,7 +874,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -941,7 +886,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

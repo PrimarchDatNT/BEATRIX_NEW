@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2$a;->a:Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;
 
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/i;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2$a;->a:Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;
 
     iget-object v1, v1, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;->this$0:Lcom/commsource/video/cover/GestureVideoCover;
@@ -64,7 +62,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2$a;->a:Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;
 
     iget-object v1, v1, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;->this$0:Lcom/commsource/video/cover/GestureVideoCover;
@@ -75,7 +72,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2$a;->a:Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;
 
@@ -89,7 +85,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/cover/GestureVideoCover;->y(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2$a;->a:Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;
 
     iget-object v1, v1, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;->this$0:Lcom/commsource/video/cover/GestureVideoCover;
@@ -108,7 +103,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/view/XVideoUIGroup;->i(Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2$a;->a:Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;
 
     iget-object v1, v1, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;->this$0:Lcom/commsource/video/cover/GestureVideoCover;
@@ -119,7 +113,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2$a;->a:Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;
 
     iget-object v1, v1, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;->this$0:Lcom/commsource/video/cover/GestureVideoCover;
@@ -132,7 +125,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 7
     :cond_1
     invoke-super {p0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/i;->onTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
 

@@ -100,17 +100,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroidx/appcompat/widget/AppCompatImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/16 p1, 0x8
 
     new-array p1, p1, [F
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/widget/CornerImageView;->a:[F
 
-    .line 4
     sget-object p1, Lcom/commsource/widget/CornerImageView$paint$2;->INSTANCE:Lcom/commsource/widget/CornerImageView$paint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -119,7 +116,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/CornerImageView;->b:Lcotlin/w;
 
-    .line 5
     new-instance p1, Landroid/graphics/PorterDuffXfermode;
 
     sget-object p2, Landroid/graphics/PorterDuff$Mode;->DST_OUT:Landroid/graphics/PorterDuff$Mode;
@@ -128,21 +124,18 @@
 
     iput-object p1, p0, Lcom/commsource/widget/CornerImageView;->c:Landroid/graphics/PorterDuffXfermode;
 
-    .line 6
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/CornerImageView;->d:Landroid/graphics/Path;
 
-    .line 7
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/CornerImageView;->f:Landroid/graphics/Path;
 
-    .line 8
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
@@ -168,7 +161,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/CornerImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -206,7 +198,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/widget/CornerImageView;->a:[F
 
     const/4 v0, 0x0
@@ -332,7 +323,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/CornerImageView;->a:[F
 
     const/4 v2, 0x6
@@ -341,13 +331,10 @@
 
     const/4 v2, 0x7
 
-    .line 2
     aput p1, v1, v2
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/ImageView;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -360,7 +347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/CornerImageView;->a:[F
 
     const/4 v2, 0x4
@@ -369,13 +355,10 @@
 
     const/4 v2, 0x5
 
-    .line 2
     aput p1, v1, v2
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/ImageView;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -388,7 +371,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/CornerImageView;->a:[F
 
     const/4 v2, 0x0
@@ -397,13 +379,10 @@
 
     const/4 v2, 0x1
 
-    .line 2
     aput p1, v1, v2
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/ImageView;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -416,7 +395,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/CornerImageView;->a:[F
 
     const/4 v2, 0x2
@@ -425,13 +403,10 @@
 
     const/4 v2, 0x3
 
-    .line 2
     aput p1, v1, v2
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/ImageView;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -444,7 +419,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/CornerImageView;->a:[F
 
     const/4 v2, 0x0
@@ -453,43 +427,34 @@
 
     const/4 v2, 0x1
 
-    .line 2
     aput p1, v1, v2
 
     const/4 p1, 0x2
 
-    .line 3
     aput p2, v1, p1
 
     const/4 p1, 0x3
 
-    .line 4
     aput p2, v1, p1
 
     const/4 p1, 0x4
 
-    .line 5
     aput p3, v1, p1
 
     const/4 p1, 0x5
 
-    .line 6
     aput p3, v1, p1
 
     const/4 p1, 0x6
 
-    .line 7
     aput p4, v1, p1
 
     const/4 p1, 0x7
 
-    .line 8
     aput p4, v1, p1
 
-    .line 9
     invoke-virtual {p0}, Landroid/widget/ImageView;->postInvalidate()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -504,7 +469,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/CornerImageView;->c:Landroid/graphics/PorterDuffXfermode;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -527,20 +491,17 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/widget/CornerImageView;->g:Landroid/graphics/RectF;
 
     const/16 v3, 0x1f
 
     invoke-virtual {p1, v2, v1, v3}, Landroid/graphics/Canvas;->saveLayer(Landroid/graphics/RectF;Landroid/graphics/Paint;I)I
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/widget/CornerImageView;->d:Landroid/graphics/Path;
 
     invoke-virtual {v2}, Landroid/graphics/Path;->reset()V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/widget/CornerImageView;->d:Landroid/graphics/Path;
 
     iget-object v3, p0, Lcom/commsource/widget/CornerImageView;->g:Landroid/graphics/RectF;
@@ -551,12 +512,10 @@
 
     invoke-virtual {v2, v3, v4, v5}, Landroid/graphics/Path;->addRoundRect(Landroid/graphics/RectF;[FLandroid/graphics/Path$Direction;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/widget/CornerImageView;->f:Landroid/graphics/Path;
 
     invoke-virtual {v2}, Landroid/graphics/Path;->reset()V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/widget/CornerImageView;->f:Landroid/graphics/Path;
 
     iget-object v3, p0, Lcom/commsource/widget/CornerImageView;->g:Landroid/graphics/RectF;
@@ -565,7 +524,6 @@
 
     invoke-virtual {v2, v3, v4}, Landroid/graphics/Path;->addRect(Landroid/graphics/RectF;Landroid/graphics/Path$Direction;)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/widget/CornerImageView;->f:Landroid/graphics/Path;
 
     iget-object v3, p0, Lcom/commsource/widget/CornerImageView;->d:Landroid/graphics/Path;
@@ -574,10 +532,8 @@
 
     invoke-virtual {v2, v3, v4}, Landroid/graphics/Path;->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
 
-    .line 7
     invoke-super {p0, p1}, Landroid/widget/ImageView;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/widget/CornerImageView;->getPaint()Landroid/graphics/Paint;
 
     move-result-object v2
@@ -588,7 +544,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/widget/CornerImageView;->f:Landroid/graphics/Path;
 
     invoke-direct {p0}, Lcom/commsource/widget/CornerImageView;->getPaint()Landroid/graphics/Paint;
@@ -597,7 +552,6 @@
 
     invoke-virtual {p1, v2, v3}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 10
     :cond_1
     invoke-direct {p0}, Lcom/commsource/widget/CornerImageView;->getPaint()Landroid/graphics/Paint;
 
@@ -607,10 +561,8 @@
 
     if-eqz p1, :cond_2
 
-    .line 11
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 12
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -624,10 +576,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/ImageView;->onSizeChanged(IIII)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/widget/CornerImageView;->g:Landroid/graphics/RectF;
 
     int-to-float p1, p1
@@ -638,7 +588,6 @@
 
     invoke-virtual {p3, p4, p4, p1, p2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

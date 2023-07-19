@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$j$a;->a:Lcom/commsource/studio/function/RelightFragment$j;
 
     iget-object v1, v1, Lcom/commsource/studio/function/RelightFragment$j;->a:Lcom/commsource/studio/function/RelightFragment;
@@ -55,7 +54,6 @@
 
     invoke-virtual {v1}, Landroid/widget/RelativeLayout;->performClick()Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

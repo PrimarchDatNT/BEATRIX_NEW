@@ -25,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,10 +33,8 @@
 .method public constructor <init>(Landroid/os/Bundle;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     sput-object p1, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$GooglePlayServicesMediationSettings;->npaBundle:Landroid/os/Bundle;
 
     return-void
@@ -46,7 +43,6 @@
 .method static synthetic access$100()Landroid/os/Bundle;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$GooglePlayServicesMediationSettings;->getNpaBundle()Landroid/os/Bundle;
 
     move-result-object v0
@@ -57,7 +53,6 @@
 .method private static getNpaBundle()Landroid/os/Bundle;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$GooglePlayServicesMediationSettings;->npaBundle:Landroid/os/Bundle;
 
     return-object v0
@@ -68,7 +63,6 @@
 .method public setNpaBundle(Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     sput-object p1, Lcom/mopub/mobileads/GooglePlayServicesInterstitial$GooglePlayServicesMediationSettings;->npaBundle:Landroid/os/Bundle;
 
     return-void

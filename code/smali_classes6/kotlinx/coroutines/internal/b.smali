@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -65,7 +64,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/b;->a:Lcotlinx/coroutines/internal/d;
 
     if-nez v0, :cond_0
@@ -110,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/internal/b;->a:Lcotlinx/coroutines/internal/d;
 
     return-void

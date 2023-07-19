@@ -87,49 +87,34 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/ja1;->a:Z
 
-    .line 3
     iput-boolean p2, p0, Lcom/google/android/gms/internal/ads/ja1;->b:Z
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/ja1;->c:Ljava/lang/String;
 
-    .line 5
     iput-boolean p4, p0, Lcom/google/android/gms/internal/ads/ja1;->d:Z
 
-    .line 6
     iput-boolean p5, p0, Lcom/google/android/gms/internal/ads/ja1;->e:Z
 
-    .line 7
     iput-boolean p6, p0, Lcom/google/android/gms/internal/ads/ja1;->f:Z
 
-    .line 8
     iput-object p7, p0, Lcom/google/android/gms/internal/ads/ja1;->g:Ljava/lang/String;
 
-    .line 9
     iput-object p8, p0, Lcom/google/android/gms/internal/ads/ja1;->h:Ljava/util/ArrayList;
 
-    .line 10
     iput-object p9, p0, Lcom/google/android/gms/internal/ads/ja1;->i:Ljava/lang/String;
 
-    .line 11
     iput-object p10, p0, Lcom/google/android/gms/internal/ads/ja1;->j:Ljava/lang/String;
 
-    .line 12
     iput-object p11, p0, Lcom/google/android/gms/internal/ads/ja1;->k:Ljava/lang/String;
 
-    .line 13
     iput-boolean p12, p0, Lcom/google/android/gms/internal/ads/ja1;->l:Z
 
-    .line 14
     iput-object p13, p0, Lcom/google/android/gms/internal/ads/ja1;->m:Ljava/lang/String;
 
-    .line 15
     iput-wide p14, p0, Lcom/google/android/gms/internal/ads/ja1;->n:J
 
     return-void
@@ -140,59 +125,50 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 4
 
-    .line 1
     check-cast p1, Landroid/os/Bundle;
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/ja1;->a:Z
 
     const-string v1, "cog"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 3
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/ja1;->b:Z
 
     const-string v1, "coh"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja1;->c:Ljava/lang/String;
 
     const-string v1, "gl"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/ja1;->d:Z
 
     const-string v1, "simulator"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 6
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/ja1;->e:Z
 
     const-string v1, "is_latchsky"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 7
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/ja1;->f:Z
 
     const-string v1, "is_sidewinder"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 8
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja1;->g:Ljava/lang/String;
 
     const-string v1, "hl"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja1;->h:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
@@ -201,14 +177,12 @@
 
     if-nez v0, :cond_0
 
-    .line 10
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja1;->h:Ljava/util/ArrayList;
 
     const-string v1, "hl_list"
 
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
-    .line 11
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja1;->i:Ljava/lang/String;
 
@@ -216,7 +190,6 @@
 
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja1;->m:Ljava/lang/String;
 
     const-string v1, "submodel"
@@ -225,25 +198,20 @@
 
     const-string v0, "device"
 
-    .line 13
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/ph1;->a(Landroid/os/Bundle;Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object v1
 
-    .line 14
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 15
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ja1;->k:Ljava/lang/String;
 
     const-string v0, "build"
 
     invoke-virtual {v1, v0, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     sget-object p1, Lcom/google/android/gms/internal/ads/w;->U1:Lcom/google/android/gms/internal/ads/h;
 
-    .line 17
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v0
@@ -252,7 +220,6 @@
 
     move-result-object p1
 
-    .line 18
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -261,7 +228,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 19
     iget-wide v2, p0, Lcom/google/android/gms/internal/ads/ja1;->n:J
 
     const-string p1, "remaining_data_partition_space"
@@ -271,22 +237,18 @@
     :cond_1
     const-string p1, "browser"
 
-    .line 20
     invoke-static {v1, p1}, Lcom/google/android/gms/internal/ads/ph1;->a(Landroid/os/Bundle;Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object v0
 
-    .line 21
     invoke-virtual {v1, p1, v0}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 22
     iget-boolean p1, p0, Lcom/google/android/gms/internal/ads/ja1;->l:Z
 
     const-string v2, "is_browser_custom_tabs_capable"
 
     invoke-virtual {v0, v2, p1}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 23
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ja1;->j:Ljava/lang/String;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -297,15 +259,12 @@
 
     const-string p1, "play_store"
 
-    .line 24
     invoke-static {v1, p1}, Lcom/google/android/gms/internal/ads/ph1;->a(Landroid/os/Bundle;Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object v0
 
-    .line 25
     invoke-virtual {v1, p1, v0}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 26
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ja1;->j:Ljava/lang/String;
 
     const-string v1, "package_version"

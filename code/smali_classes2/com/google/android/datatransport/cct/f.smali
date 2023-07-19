@@ -7,7 +7,6 @@
 .method static a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -24,7 +23,6 @@
 
     if-gt v0, v1, :cond_2
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -41,7 +39,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -49,21 +46,18 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 4
     invoke-virtual {p0, v1}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v2
 
     if-le v2, v1, :cond_0
 
-    .line 6
     invoke-virtual {p1, v1}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
@@ -75,7 +69,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -83,7 +76,6 @@
 
     return-object p0
 
-    .line 8
     :cond_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 

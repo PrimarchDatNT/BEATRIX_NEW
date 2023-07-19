@@ -27,10 +27,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -66,7 +64,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/bumptech/glide/q/a;->a:Ljava/util/List;
 
@@ -78,7 +75,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -114,7 +110,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/bumptech/glide/q/a;->a:Ljava/util/List;
 
@@ -135,14 +130,12 @@
 
     check-cast v1, Lcom/bumptech/glide/q/a$a;
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/bumptech/glide/q/a$a;->a(Ljava/lang/Class;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object p1, v1, Lcom/bumptech/glide/q/a$a;->b:Lcom/bumptech/glide/load/a;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -154,7 +147,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 4
     monitor-exit p0
 
     return-object p1
@@ -191,7 +183,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/bumptech/glide/q/a;->a:Ljava/util/List;
 
@@ -205,7 +196,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void

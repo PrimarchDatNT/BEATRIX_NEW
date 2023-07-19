@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/util/c2$c;Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;J)V
     .locals 6
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/c2$c$a;->a:Lcom/commsource/util/c2$c;
 
     move-object v0, p0
@@ -51,13 +50,10 @@
 
     const/16 v1, 0xa
 
-    .line 1
     invoke-static {v1}, Landroid/os/Process;->setThreadPriority(I)V
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Thread;->run()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

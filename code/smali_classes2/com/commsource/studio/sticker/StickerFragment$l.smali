@@ -56,7 +56,6 @@
 
     const-string v1, "isChange"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -65,7 +64,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$l;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/StickerFragment;->W(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/widget/h1/e;
@@ -78,7 +76,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$l;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/StickerFragment;->W(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/widget/h1/e;
@@ -113,13 +110,11 @@
     :cond_1
     const/4 p1, -0x2
 
-    .line 4
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$l;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/sticker/StickerFragment;->u0(I)V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -133,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment$l;->a(Ljava/lang/Boolean;)V

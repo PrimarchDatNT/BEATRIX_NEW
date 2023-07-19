@@ -22,13 +22,10 @@
 .method constructor <init>(JLcom/google/ar/core/Session;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p3, p0, Lcom/google/ar/core/TrackableBase;->session:Lcom/google/ar/core/Session;
 
-    .line 3
     iput-wide p1, p0, Lcom/google/ar/core/TrackableBase;->nativeHandle:J
 
     return-void
@@ -37,7 +34,6 @@
 .method static internalGetType(JJ)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/google/ar/core/TrackableBase;->nativeGetType(JJ)I
 
     move-result p0
@@ -48,7 +44,6 @@
 .method static internalReleaseNativeHandle(J)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/ar/core/TrackableBase;->nativeReleaseTrackable(J)V
 
     return-void
@@ -74,7 +69,6 @@
 .method public createAnchor(Lcom/google/ar/core/Pose;)Lcom/google/ar/core/Anchor;
     .locals 8
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/Anchor;
 
     iget-object v1, p0, Lcom/google/ar/core/TrackableBase;->session:Lcom/google/ar/core/Session;
@@ -101,7 +95,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
 
-    .line 1
     instance-of v0, p1, Lcom/google/ar/core/TrackableBase;
 
     const/4 v1, 0x0
@@ -110,11 +103,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/ar/core/TrackableBase;
 
-    .line 3
     iget-wide v2, p1, Lcom/google/ar/core/TrackableBase;->nativeHandle:J
 
     iget-wide v4, p0, Lcom/google/ar/core/TrackableBase;->nativeHandle:J
@@ -139,7 +130,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/TrackableBase;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -148,13 +138,10 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/ar/core/TrackableBase;->nativeReleaseTrackable(J)V
 
-    .line 3
     iput-wide v2, p0, Lcom/google/ar/core/TrackableBase;->nativeHandle:J
 
-    .line 4
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -172,19 +159,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/TrackableBase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, p0, Lcom/google/ar/core/TrackableBase;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/TrackableBase;->nativeGetAnchors(JJ)[J
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/google/ar/core/Session;->convertNativeAnchorsToCollection([J)Ljava/util/Collection;
 
     move-result-object v0
@@ -195,19 +179,16 @@
 .method public getTrackingState()Lcom/google/ar/core/TrackingState;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/TrackableBase;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/TrackableBase;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/TrackableBase;->nativeGetTrackingState(JJ)I
 
     move-result v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/TrackingState;->forNumber(I)Lcom/google/ar/core/TrackingState;
 
     move-result-object v0
@@ -218,7 +199,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/TrackableBase;->nativeHandle:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;

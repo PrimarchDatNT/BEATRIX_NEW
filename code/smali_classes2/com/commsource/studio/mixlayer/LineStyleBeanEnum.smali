@@ -73,7 +73,6 @@
 
     new-array v7, v12, [F
 
-    .line 1
     fill-array-data v7, :array_0
 
     new-array v8, v12, [F
@@ -104,12 +103,10 @@
 
     new-array v4, v12, [F
 
-    .line 2
     fill-array-data v4, :array_2
 
     new-array v5, v12, [F
 
-    .line 3
     fill-array-data v5, :array_3
 
     const-string v14, "STYLE2"
@@ -128,7 +125,6 @@
 
     move-object/from16 v18, v5
 
-    .line 4
     invoke-direct/range {v13 .. v20}, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;-><init>(Ljava/lang/String;II[F[FILjava/lang/String;)V
 
     sput-object v3, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->STYLE2:Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;
@@ -141,12 +137,10 @@
 
     new-array v4, v1, [F
 
-    .line 5
     fill-array-data v4, :array_4
 
     new-array v1, v1, [F
 
-    .line 6
     fill-array-data v1, :array_5
 
     const-string v14, "STYLE3"
@@ -165,7 +159,6 @@
 
     move-object/from16 v18, v1
 
-    .line 7
     invoke-direct/range {v13 .. v20}, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;-><init>(Ljava/lang/String;II[F[FILjava/lang/String;)V
 
     sput-object v3, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->STYLE3:Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;
@@ -176,12 +169,10 @@
 
     new-array v3, v12, [F
 
-    .line 8
     fill-array-data v3, :array_6
 
     new-array v4, v12, [F
 
-    .line 9
     fill-array-data v4, :array_7
 
     const-string v22, "STYLE4"
@@ -200,7 +191,6 @@
 
     move-object/from16 v26, v4
 
-    .line 10
     invoke-direct/range {v21 .. v28}, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;-><init>(Ljava/lang/String;II[F[FILjava/lang/String;)V
 
     sput-object v1, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->STYLE4:Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;
@@ -288,7 +278,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->id:I
@@ -353,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->icon:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -368,7 +356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -385,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->logName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -402,7 +388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->oriParams:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -419,7 +404,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->params:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -434,7 +418,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->icon:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -449,7 +432,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -472,7 +454,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->logName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -495,7 +476,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->oriParams:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -518,7 +498,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->params:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

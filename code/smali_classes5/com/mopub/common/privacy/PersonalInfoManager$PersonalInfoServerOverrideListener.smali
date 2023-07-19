@@ -25,7 +25,6 @@
 .method private constructor <init>(Lcom/mopub/common/privacy/PersonalInfoManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/mopub/common/privacy/PersonalInfoManager;Lcom/mopub/common/privacy/PersonalInfoManager$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;-><init>(Lcom/mopub/common/privacy/PersonalInfoManager;)V
 
     return-void
@@ -51,14 +49,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     sget-object v0, Lcom/mopub/common/privacy/ConsentStatus;->EXPLICIT_NO:Lcom/mopub/common/privacy/ConsentStatus;
@@ -69,7 +65,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
@@ -83,7 +78,6 @@
 .method public onForceGdprApplies()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-virtual {v0}, Lcom/mopub/common/privacy/PersonalInfoManager;->forceGdprApplies()V
@@ -98,14 +92,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     sget-object v0, Lcom/mopub/common/privacy/ConsentStatus;->UNKNOWN:Lcom/mopub/common/privacy/ConsentStatus;
@@ -116,7 +108,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
@@ -134,14 +125,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-static {v0}, Lcom/mopub/common/privacy/PersonalInfoManager;->access$300(Lcom/mopub/common/privacy/PersonalInfoManager;)Lcom/mopub/common/privacy/PersonalInfoData;
@@ -150,7 +139,6 @@
 
     invoke-virtual {v0, p1}, Lcom/mopub/common/privacy/PersonalInfoData;->setConsentChangeReason(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
@@ -162,7 +150,6 @@
 
     invoke-virtual {p1, v0}, Lcom/mopub/common/privacy/PersonalInfoData;->setShouldReacquireConsent(Z)V
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-static {p1}, Lcom/mopub/common/privacy/PersonalInfoManager;->access$300(Lcom/mopub/common/privacy/PersonalInfoManager;)Lcom/mopub/common/privacy/PersonalInfoData;
@@ -181,7 +168,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-static {v0}, Lcom/mopub/common/privacy/PersonalInfoManager;->access$300(Lcom/mopub/common/privacy/PersonalInfoManager;)Lcom/mopub/common/privacy/PersonalInfoData;
@@ -198,7 +184,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -207,7 +192,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
@@ -217,7 +201,6 @@
 
     invoke-virtual {v0, p1}, Lcom/mopub/common/privacy/PersonalInfoData;->setAdUnit(Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;->this$0:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-static {p1}, Lcom/mopub/common/privacy/PersonalInfoManager;->access$300(Lcom/mopub/common/privacy/PersonalInfoManager;)Lcom/mopub/common/privacy/PersonalInfoData;

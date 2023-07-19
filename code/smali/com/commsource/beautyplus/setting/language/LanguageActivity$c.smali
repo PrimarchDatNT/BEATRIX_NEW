@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/beautyplus/setting/language/a;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautyplus/setting/language/LanguageActivity$c;->b(ILcom/commsource/beautyplus/setting/language/a;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity$c;->a:Lcom/commsource/beautyplus/setting/language/LanguageActivity;
 
     invoke-virtual {v0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N0()Lcom/commsource/widget/h1/e;
@@ -82,7 +80,6 @@
 
     invoke-virtual {v0, p2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v0
@@ -97,7 +94,6 @@
 
     const-string v1, "resources"
 
-    .line 3
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
@@ -110,7 +106,6 @@
 
     invoke-virtual {v1, v2}, Landroid/content/res/Configuration;->setLocale(Ljava/util/Locale;)V
 
-    .line 4
     invoke-virtual {v0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     move-result-object v1
@@ -121,7 +116,6 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/Resources;->updateConfiguration(Landroid/content/res/Configuration;Landroid/util/DisplayMetrics;)V
 
-    .line 5
     sget-object v0, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->b:Lcom/commsource/beautyplus/setting/language/LanguageConfig;
 
     invoke-virtual {p2}, Lcom/commsource/beautyplus/setting/language/a;->e()Ljava/util/Locale;
@@ -138,7 +132,6 @@
 
     invoke-virtual {v0, p2}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->j(Ljava/lang/String;)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity$c;->a:Lcom/commsource/beautyplus/setting/language/LanguageActivity;
 
     new-instance v0, Landroid/content/Intent;
@@ -151,7 +144,6 @@
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

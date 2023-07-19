@@ -67,34 +67,28 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/RelightAutoFragment$f;->a:Lcom/commsource/studio/function/relight/RelightAutoFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/relight/RelightAutoFragment;->A(Lcom/commsource/studio/function/relight/RelightAutoFragment;)Lcom/commsource/widget/h1/e;
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 3
     const-class v3, Lcom/commsource/studio/function/relight/AutoRelightMaterialViewHolder;
 
     invoke-virtual {v2, p1, v3}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 6
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -136,7 +130,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/relight/RelightAutoFragment$f;->a:Lcom/commsource/studio/function/relight/RelightAutoFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/RelightAutoFragment;->A(Lcom/commsource/studio/function/relight/RelightAutoFragment;)Lcom/commsource/widget/h1/e;
@@ -145,7 +138,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/relight/RelightAutoFragment$f;->a:Lcom/commsource/studio/function/relight/RelightAutoFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/relight/RelightAutoFragment;->C(Lcom/commsource/studio/function/relight/RelightAutoFragment;)Lcom/commsource/studio/function/relight/g;
@@ -158,7 +150,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -172,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/relight/RelightAutoFragment$f;->a(Ljava/util/List;)V

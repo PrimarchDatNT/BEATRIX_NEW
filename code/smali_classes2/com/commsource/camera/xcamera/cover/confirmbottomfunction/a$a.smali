@@ -47,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getGlOriBitmap()Landroid/graphics/Bitmap;
@@ -72,7 +71,6 @@
     :goto_0
     if-eqz v1, :cond_4
 
-    .line 2
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
     move-result-object v2
@@ -87,7 +85,6 @@
 
     invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v5}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isFront()Z
@@ -105,7 +102,6 @@
     :cond_1
     const/4 v5, 0x2
 
-    .line 4
     :goto_1
     iget-object v7, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
@@ -115,22 +111,18 @@
 
     if-nez v7, :cond_3
 
-    .line 5
     iget-object v7, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v7}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getAiFaceData()Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-result-object v7
 
-    .line 6
     iget-object v8, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
-    .line 7
     invoke-static {v1, v8}, Lcom/commsource/camera/d1/c;->c(Landroid/graphics/Bitmap;Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Lcom/commsource/camera/d1/e;
 
     move-result-object v9
 
-    .line 8
     iget-object v10, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a;->b:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v10}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFaceData()Lcom/meitu/core/types/FaceData;
@@ -141,17 +133,14 @@
 
     move-result-object v9
 
-    .line 9
     invoke-virtual {v9, v7}, Lcom/commsource/camera/d1/e;->p(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/commsource/camera/d1/e;
 
     move-result-object v7
 
-    .line 10
     invoke-virtual {v7, v4, v6}, Lcom/commsource/camera/d1/e;->l(ZZ)Landroid/graphics/Bitmap;
 
     move-result-object v6
 
-    .line 11
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v7
@@ -170,16 +159,13 @@
 
     if-eqz v7, :cond_2
 
-    .line 12
     invoke-static {v6, v4}, Lcom/meitu/library/camera/util/l;->s(Landroid/graphics/Bitmap;Z)Landroid/graphics/Bitmap;
 
     move-result-object v6
 
-    .line 13
     :cond_2
     invoke-virtual {v8, v6}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiBeautyBefore(Landroid/graphics/Bitmap;)V
 
-    .line 14
     :cond_3
     new-instance v4, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a$a$a;
 
@@ -189,7 +175,6 @@
 
     invoke-static {v3, v2, v4, v1, v5}, Lcom/commsource/util/q;->l(Ljava/lang/String;Landroid/graphics/Bitmap;Lcom/meitu/mtlab/g/d/a;II)V
 
-    .line 15
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

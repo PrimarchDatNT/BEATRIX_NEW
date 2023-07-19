@@ -58,12 +58,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/SlimLayer$b;->a:Lcom/commsource/studio/layer/SlimLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/SlimLayer;->y0(Lcom/commsource/studio/layer/SlimLayer;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/SlimLayer$b;->a:Lcom/commsource/studio/layer/SlimLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/SlimLayer;->A0()Lcom/commsource/studio/layer/h;
@@ -80,7 +78,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/l;->e(Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -93,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/SlimLayer$b;->a(Ljava/lang/Boolean;)V

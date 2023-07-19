@@ -29,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/graph/a;-><init>()V
 
     return-void
@@ -52,12 +51,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/g$b;
 
     invoke-direct {v0, p0}, Lcom/google/common/graph/g$b;-><init>(Lcom/google/common/graph/r0;)V
 
-    .line 2
     invoke-interface {p0}, Lcom/google/common/graph/r0;->c()Ljava/util/Set;
 
     move-result-object p0
@@ -74,7 +71,6 @@
 .method public bridge synthetic c()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/graph/a;->c()Ljava/util/Set;
 
     move-result-object v0
@@ -85,7 +81,6 @@
 .method public bridge synthetic d(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/graph/a;->d(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -106,7 +101,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/common/graph/r0;
 
@@ -116,11 +110,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/common/graph/r0;
 
-    .line 3
     invoke-interface {p0}, Lcom/google/common/graph/r0;->e()Z
 
     move-result v1
@@ -131,7 +123,6 @@
 
     if-ne v1, v3, :cond_2
 
-    .line 4
     invoke-interface {p0}, Lcom/google/common/graph/r0;->m()Ljava/util/Set;
 
     move-result-object v1
@@ -146,7 +137,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-static {p0}, Lcom/google/common/graph/g;->Q(Lcom/google/common/graph/r0;)Ljava/util/Map;
 
     move-result-object v1
@@ -173,7 +163,6 @@
 .method public bridge synthetic f(Lcom/google/common/graph/m;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/a;->f(Lcom/google/common/graph/m;)Z
 
     move-result p1
@@ -184,7 +173,6 @@
 .method public bridge synthetic g(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/a;->g(Ljava/lang/Object;)I
 
     move-result p1
@@ -195,7 +183,6 @@
 .method public final hashCode()I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/graph/g;->Q(Lcom/google/common/graph/r0;)Ljava/util/Map;
 
     move-result-object v0
@@ -210,7 +197,6 @@
 .method public bridge synthetic i(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/a;->i(Ljava/lang/Object;)I
 
     move-result p1
@@ -221,7 +207,6 @@
 .method public bridge synthetic l(Ljava/lang/Object;)Ljava/util/Set;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/a;->l(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -232,7 +217,6 @@
 .method public bridge synthetic n(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/a;->n(Ljava/lang/Object;)I
 
     move-result p1
@@ -243,7 +227,6 @@
 .method public bridge synthetic p()Lcom/google/common/graph/ElementOrder;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/graph/a;->p()Lcom/google/common/graph/ElementOrder;
 
     move-result-object v0
@@ -261,7 +244,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/g$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/graph/g$a;-><init>(Lcom/google/common/graph/g;)V
@@ -272,7 +254,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -281,7 +262,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-interface {p0}, Lcom/google/common/graph/r0;->e()Z
 
     move-result v1
@@ -292,7 +272,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-interface {p0}, Lcom/google/common/graph/r0;->j()Z
 
     move-result v1
@@ -303,7 +282,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-interface {p0}, Lcom/google/common/graph/r0;->m()Ljava/util/Set;
 
     move-result-object v1
@@ -314,7 +292,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-static {p0}, Lcom/google/common/graph/g;->Q(Lcom/google/common/graph/r0;)Ljava/util/Map;
 
     move-result-object v1

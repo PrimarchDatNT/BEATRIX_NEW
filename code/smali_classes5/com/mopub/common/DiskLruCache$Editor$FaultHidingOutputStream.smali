@@ -22,10 +22,8 @@
 .method private constructor <init>(Lcom/mopub/common/DiskLruCache$Editor;Ljava/io/OutputStream;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/common/DiskLruCache$Editor$FaultHidingOutputStream;->this$1:Lcom/mopub/common/DiskLruCache$Editor;
 
-    .line 3
     invoke-direct {p0, p2}, Ljava/io/FilterOutputStream;-><init>(Ljava/io/OutputStream;)V
 
     return-void
@@ -34,7 +32,6 @@
 .method synthetic constructor <init>(Lcom/mopub/common/DiskLruCache$Editor;Ljava/io/OutputStream;Lcom/mopub/common/DiskLruCache$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/mopub/common/DiskLruCache$Editor$FaultHidingOutputStream;-><init>(Lcom/mopub/common/DiskLruCache$Editor;Ljava/io/OutputStream;)V
 
     return-void
@@ -45,7 +42,6 @@
 .method public close()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
@@ -55,7 +51,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     iget-object v0, p0, Lcom/mopub/common/DiskLruCache$Editor$FaultHidingOutputStream;->this$1:Lcom/mopub/common/DiskLruCache$Editor;
 
@@ -70,7 +65,6 @@
 .method public flush()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
@@ -80,7 +74,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     iget-object v0, p0, Lcom/mopub/common/DiskLruCache$Editor$FaultHidingOutputStream;->this$1:Lcom/mopub/common/DiskLruCache$Editor;
 
@@ -95,7 +88,6 @@
 .method public write(I)V
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
@@ -105,7 +97,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     iget-object p1, p0, Lcom/mopub/common/DiskLruCache$Editor$FaultHidingOutputStream;->this$1:Lcom/mopub/common/DiskLruCache$Editor;
 
@@ -124,7 +115,6 @@
         .end annotation
     .end param
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
@@ -134,7 +124,6 @@
 
     goto :goto_0
 
-    .line 4
     :catch_0
     iget-object p1, p0, Lcom/mopub/common/DiskLruCache$Editor$FaultHidingOutputStream;->this$1:Lcom/mopub/common/DiskLruCache$Editor;
 

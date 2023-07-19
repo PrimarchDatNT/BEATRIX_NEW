@@ -56,14 +56,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firestore/v1/k0;
 
     invoke-direct {v0}, Lcom/google/firestore/v1/k0;-><init>()V
 
     sput-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->ug()V
 
     return-void
@@ -72,15 +70,12 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageLite;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/google/firestore/v1/k0;->f:Ljava/lang/String;
 
-    .line 3
     iput-object v0, p0, Lcom/google/firestore/v1/k0;->p:Ljava/lang/String;
 
     return-void
@@ -89,7 +84,6 @@
 .method private Ah(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/firestore/v1/k0;->g:I
 
     return-void
@@ -98,10 +92,8 @@
 .method private Bh(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/firestore/v1/k0;->p:Ljava/lang/String;
 
     return-void
@@ -110,13 +102,10 @@
 .method private Ch(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -129,10 +118,8 @@
 .method private Dh(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/firestore/v1/k0;->f:Ljava/lang/String;
 
     return-void
@@ -141,13 +128,10 @@
 .method private Eh(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -160,7 +144,6 @@
 .method static synthetic ah()Lcom/google/firestore/v1/k0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     return-object v0
@@ -169,7 +152,6 @@
 .method static synthetic bh(Lcom/google/firestore/v1/k0;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/k0;->Dh(Ljava/lang/String;)V
 
     return-void
@@ -178,7 +160,6 @@
 .method static synthetic ch(Lcom/google/firestore/v1/k0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firestore/v1/k0;->lh()V
 
     return-void
@@ -187,7 +168,6 @@
 .method static synthetic dh(Lcom/google/firestore/v1/k0;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/k0;->Eh(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -196,7 +176,6 @@
 .method static synthetic eh(Lcom/google/firestore/v1/k0;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/k0;->Ah(I)V
 
     return-void
@@ -205,7 +184,6 @@
 .method static synthetic fh(Lcom/google/firestore/v1/k0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firestore/v1/k0;->jh()V
 
     return-void
@@ -214,7 +192,6 @@
 .method static synthetic gh(Lcom/google/firestore/v1/k0;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/k0;->Bh(Ljava/lang/String;)V
 
     return-void
@@ -223,7 +200,6 @@
 .method static synthetic hh(Lcom/google/firestore/v1/k0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firestore/v1/k0;->kh()V
 
     return-void
@@ -232,7 +208,6 @@
 .method static synthetic ih(Lcom/google/firestore/v1/k0;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firestore/v1/k0;->Ch(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -243,7 +218,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/google/firestore/v1/k0;->g:I
 
     return-void
@@ -252,7 +226,6 @@
 .method private kh()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/firestore/v1/k0;->mh()Lcom/google/firestore/v1/k0;
 
     move-result-object v0
@@ -269,7 +242,6 @@
 .method private lh()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/firestore/v1/k0;->mh()Lcom/google/firestore/v1/k0;
 
     move-result-object v0
@@ -286,7 +258,6 @@
 .method public static mh()Lcom/google/firestore/v1/k0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     return-object v0
@@ -295,7 +266,6 @@
 .method public static nh()Lcom/google/firestore/v1/k0$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -310,7 +280,6 @@
 .method public static oh(Lcom/google/firestore/v1/k0;)Lcom/google/firestore/v1/k0$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -336,7 +305,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Ig(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -356,7 +324,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Jg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -376,7 +343,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Kg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -396,7 +362,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Lg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -416,7 +381,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Mg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -436,7 +400,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Ng(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -456,7 +419,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Og(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -476,7 +438,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Pg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -496,7 +457,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Qg(Lcom/google/protobuf/GeneratedMessageLite;[B)Lcom/google/protobuf/GeneratedMessageLite;
@@ -516,7 +476,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Rg(Lcom/google/protobuf/GeneratedMessageLite;[BLcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -539,7 +498,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Qf()Lcom/google/protobuf/s1;
@@ -554,7 +512,6 @@
 .method public E()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firestore/v1/k0;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -567,7 +524,6 @@
 .method protected final S6(Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 5
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/k0$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -584,14 +540,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     throw p1
 
-    .line 3
     :pswitch_0
     sget-object p1, Lcom/google/firestore/v1/k0;->N:Lcom/google/protobuf/s1;
 
@@ -601,13 +555,11 @@
 
     monitor-enter p1
 
-    .line 4
     :try_start_0
     sget-object p2, Lcom/google/firestore/v1/k0;->N:Lcom/google/protobuf/s1;
 
     if-nez p2, :cond_0
 
-    .line 5
     new-instance p2, Lcom/google/protobuf/GeneratedMessageLite$c;
 
     sget-object p3, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
@@ -616,7 +568,6 @@
 
     sput-object p2, Lcom/google/firestore/v1/k0;->N:Lcom/google/protobuf/s1;
 
-    .line 6
     :cond_0
     monitor-exit p1
 
@@ -631,25 +582,21 @@
 
     throw p2
 
-    .line 7
     :cond_1
     :goto_0
     sget-object p1, Lcom/google/firestore/v1/k0;->N:Lcom/google/protobuf/s1;
 
     return-object p1
 
-    .line 8
     :pswitch_1
     check-cast p2, Lcom/google/protobuf/q;
 
-    .line 9
     check-cast p3, Lcom/google/protobuf/j0;
 
     :cond_2
     :goto_1
     if-nez v1, :cond_7
 
-    .line 10
     :try_start_1
     invoke-virtual {p2}, Lcom/google/protobuf/q;->X()I
 
@@ -669,7 +616,6 @@
 
     if-eq p1, p3, :cond_3
 
-    .line 11
     invoke-virtual {p2, p1}, Lcom/google/protobuf/q;->g0(I)Z
 
     move-result p1
@@ -678,18 +624,15 @@
 
     goto :goto_2
 
-    .line 12
     :cond_3
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 13
     iput-object p1, p0, Lcom/google/firestore/v1/k0;->p:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 14
     :cond_4
     invoke-virtual {p2}, Lcom/google/protobuf/q;->D()I
 
@@ -699,13 +642,11 @@
 
     goto :goto_1
 
-    .line 15
     :cond_5
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 16
     iput-object p1, p0, Lcom/google/firestore/v1/k0;->f:Ljava/lang/String;
     :try_end_1
     .catch Lcom/google/protobuf/InvalidProtocolBufferException; {:try_start_1 .. :try_end_1} :catch_1
@@ -728,13 +669,11 @@
     :catch_0
     move-exception p1
 
-    .line 17
     :try_start_2
     new-instance p2, Ljava/lang/RuntimeException;
 
     new-instance p3, Lcom/google/protobuf/InvalidProtocolBufferException;
 
-    .line 18
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -752,7 +691,6 @@
     :catch_1
     move-exception p1
 
-    .line 19
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-virtual {p1, p0}, Lcom/google/protobuf/InvalidProtocolBufferException;->setUnfinishedMessage(Lcom/google/protobuf/i1;)Lcom/google/protobuf/InvalidProtocolBufferException;
@@ -765,25 +703,20 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 20
     :goto_3
     throw p1
 
-    .line 21
     :cond_7
     :pswitch_2
     sget-object p1, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     return-object p1
 
-    .line 22
     :pswitch_3
     check-cast p2, Lcom/google/protobuf/GeneratedMessageLite$k;
 
-    .line 23
     check-cast p3, Lcom/google/firestore/v1/k0;
 
-    .line 24
     iget-object p1, p0, Lcom/google/firestore/v1/k0;->f:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -796,7 +729,6 @@
 
     iget-object v3, p3, Lcom/google/firestore/v1/k0;->f:Ljava/lang/String;
 
-    .line 25
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
@@ -805,14 +737,12 @@
 
     iget-object v4, p3, Lcom/google/firestore/v1/k0;->f:Ljava/lang/String;
 
-    .line 26
     invoke-interface {p2, p1, v0, v3, v4}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/firestore/v1/k0;->f:Ljava/lang/String;
 
-    .line 27
     iget p1, p0, Lcom/google/firestore/v1/k0;->g:I
 
     if-eqz p1, :cond_8
@@ -838,7 +768,6 @@
 
     iput p1, p0, Lcom/google/firestore/v1/k0;->g:I
 
-    .line 28
     iget-object p1, p0, Lcom/google/firestore/v1/k0;->p:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -851,7 +780,6 @@
 
     iget-object v1, p3, Lcom/google/firestore/v1/k0;->p:Ljava/lang/String;
 
-    .line 29
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -860,19 +788,16 @@
 
     iget-object p3, p3, Lcom/google/firestore/v1/k0;->p:Ljava/lang/String;
 
-    .line 30
     invoke-interface {p2, p1, v0, v1, p3}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/firestore/v1/k0;->p:Ljava/lang/String;
 
-    .line 31
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$j;->a:Lcom/google/protobuf/GeneratedMessageLite$j;
 
     return-object p0
 
-    .line 32
     :pswitch_4
     new-instance p1, Lcom/google/firestore/v1/k0$b;
 
@@ -883,13 +808,11 @@
     :pswitch_5
     return-object v0
 
-    .line 33
     :pswitch_6
     sget-object p1, Lcom/google/firestore/v1/k0;->M:Lcom/google/firestore/v1/k0;
 
     return-object p1
 
-    .line 34
     :pswitch_7
     new-instance p1, Lcom/google/firestore/v1/k0;
 
@@ -913,7 +836,6 @@
 .method public Y6()I
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
     const/4 v1, -0x1
@@ -925,7 +847,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     iget-object v1, p0, Lcom/google/firestore/v1/k0;->f:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
@@ -936,7 +857,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firestore/v1/k0;->getParent()Ljava/lang/String;
 
     move-result-object v2
@@ -947,7 +867,6 @@
 
     add-int/2addr v0, v1
 
-    .line 4
     :cond_1
     iget v1, p0, Lcom/google/firestore/v1/k0;->g:I
 
@@ -955,14 +874,12 @@
 
     const/4 v2, 0x2
 
-    .line 5
     invoke-static {v2, v1}, Lcom/google/protobuf/CodedOutputStream;->C(II)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 6
     :cond_2
     iget-object v1, p0, Lcom/google/firestore/v1/k0;->p:Ljava/lang/String;
 
@@ -974,7 +891,6 @@
 
     const/4 v1, 0x3
 
-    .line 7
     invoke-virtual {p0}, Lcom/google/firestore/v1/k0;->b0()Ljava/lang/String;
 
     move-result-object v2
@@ -985,7 +901,6 @@
 
     add-int/2addr v0, v1
 
-    .line 8
     :cond_3
     iput v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
@@ -995,7 +910,6 @@
 .method public b0()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firestore/v1/k0;->p:Ljava/lang/String;
 
     return-object v0
@@ -1004,7 +918,6 @@
 .method public getPageSize()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firestore/v1/k0;->g:I
 
     return v0
@@ -1013,7 +926,6 @@
 .method public getParent()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firestore/v1/k0;->f:Ljava/lang/String;
 
     return-object v0
@@ -1022,7 +934,6 @@
 .method public j0()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firestore/v1/k0;->p:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -1040,7 +951,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firestore/v1/k0;->f:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
@@ -1051,14 +961,12 @@
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firestore/v1/k0;->getParent()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->o1(ILjava/lang/String;)V
 
-    .line 3
     :cond_0
     iget v0, p0, Lcom/google/firestore/v1/k0;->g:I
 
@@ -1066,10 +974,8 @@
 
     const/4 v1, 0x2
 
-    .line 4
     invoke-virtual {p1, v1, v0}, Lcom/google/protobuf/CodedOutputStream;->O0(II)V
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/firestore/v1/k0;->p:Ljava/lang/String;
 
@@ -1081,7 +987,6 @@
 
     const/4 v0, 0x3
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/firestore/v1/k0;->b0()Ljava/lang/String;
 
     move-result-object v1

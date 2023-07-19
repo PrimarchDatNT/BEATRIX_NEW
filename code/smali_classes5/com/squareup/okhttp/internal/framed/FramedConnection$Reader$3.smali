@@ -24,7 +24,6 @@
 .method varargs constructor <init>(Lcom/squareup/okhttp/internal/framed/FramedConnection$Reader;Ljava/lang/String;[Ljava/lang/Object;Lcom/squareup/okhttp/internal/framed/Settings;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection$Reader$3;->this$1:Lcom/squareup/okhttp/internal/framed/FramedConnection$Reader;
 
     iput-object p4, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection$Reader$3;->val$peerSettings:Lcom/squareup/okhttp/internal/framed/Settings;
@@ -39,7 +38,6 @@
 .method public execute()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/framed/FramedConnection$Reader$3;->this$1:Lcom/squareup/okhttp/internal/framed/FramedConnection$Reader;
 

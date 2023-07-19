@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$d;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/TopBarCover;->G()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -67,7 +66,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -79,7 +77,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object v2, Lcom/commsource/camera/xcamera/cover/k;->a:[I
 
@@ -99,7 +96,6 @@
 
     if-eq p1, v2, :cond_2
 
-    .line 4
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$d;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
@@ -113,7 +109,6 @@
 
     if-nez p1, :cond_4
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$d;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -132,7 +127,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$d;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
@@ -150,7 +144,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$d;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
@@ -166,7 +159,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 8
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -181,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/TopBarCover$d;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V

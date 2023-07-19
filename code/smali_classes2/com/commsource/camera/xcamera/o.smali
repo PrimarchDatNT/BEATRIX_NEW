@@ -63,17 +63,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/p/b;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/commsource/camera/xcamera/o;->c:I
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/camera/xcamera/o;->J:Z
 
     return-void
@@ -86,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/o;->J:Z
 
     if-eqz v1, :cond_5
@@ -121,7 +117,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_2
     iget v1, p0, Lcom/commsource/camera/xcamera/o;->c:I
 
@@ -131,64 +126,52 @@
 
     aput v1, v4, v3
 
-    .line 3
     invoke-static {v2, v4, v3}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
     const/4 v1, -0x1
 
-    .line 4
     iput v1, p0, Lcom/commsource/camera/xcamera/o;->c:I
 
-    .line 5
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/o;->p:Ljava/lang/String;
 
-    .line 6
     invoke-static {v3}, Lcom/commsource/camera/mvp/a;->k(Z)I
 
     move-result v4
 
-    .line 7
     invoke-static {v1, v4, v2, v3}, Lcom/commsource/util/common/e;->u(Ljava/lang/String;IZZ)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
     if-eqz v1, :cond_4
 
-    .line 8
     invoke-static {v1, v3}, Lcom/commsource/beautymain/utils/j;->c(Landroid/graphics/Bitmap;Z)I
 
     move-result v2
 
     iput v2, p0, Lcom/commsource/camera/xcamera/o;->c:I
 
-    .line 9
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v2
 
     iput v2, p0, Lcom/commsource/camera/xcamera/o;->f:I
 
-    .line 10
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v2
 
     iput v2, p0, Lcom/commsource/camera/xcamera/o;->g:I
 
-    .line 11
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 12
     :cond_4
     iput-boolean v3, p0, Lcom/commsource/camera/xcamera/o;->J:Z
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 14
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -213,10 +196,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/p/b;->D(Lcom/meitu/library/camera/MTCamera;Lcom/meitu/library/camera/MTCamera$h;)V
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result p1
@@ -243,7 +224,6 @@
     :goto_0
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/o;->b:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -256,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/o;->c:I
 
     const/4 v2, 0x1
@@ -269,15 +248,12 @@
 
     aput v1, v3, v4
 
-    .line 2
     invoke-static {v2, v3, v4}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
     const/4 v1, -0x1
 
-    .line 3
     iput v1, p0, Lcom/commsource/camera/xcamera/o;->c:I
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/o;->d:Lcom/meitu/library/n/a/i;
 
@@ -288,13 +264,10 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 5
     iput-object v1, p0, Lcom/commsource/camera/xcamera/o;->d:Lcom/meitu/library/n/a/i;
 
-    .line 6
     iput-boolean v2, p0, Lcom/commsource/camera/xcamera/o;->J:Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -311,10 +284,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/o;->a:Lcom/meitu/library/camera/q/g;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -349,7 +320,6 @@
 
     invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v4, v0, Lcom/commsource/camera/xcamera/o;->b:Z
 
     const/4 v5, 0x0
@@ -360,24 +330,19 @@
 
     if-eqz v4, :cond_4
 
-    .line 2
     invoke-direct/range {p0 .. p0}, Lcom/commsource/camera/xcamera/o;->g()V
 
-    .line 3
     iget v4, v0, Lcom/commsource/camera/xcamera/o;->c:I
 
     if-gez v4, :cond_0
 
-    .line 4
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_0
     iget-object v1, v1, Lcom/meitu/library/n/a/s/h/b;->f:Lcom/meitu/library/n/a/j;
 
-    .line 6
     iget v4, v0, Lcom/commsource/camera/xcamera/o;->f:I
 
     int-to-float v6, v4
@@ -487,7 +452,6 @@
 
     sub-float/2addr v6, v4
 
-    .line 7
     :goto_1
     sget-object v8, Lcom/commsource/camera/xcamera/o;->K:Lcom/commsource/camera/xcamera/o$a;
 
@@ -527,27 +491,22 @@
 
     move-result-object v15
 
-    .line 8
     invoke-virtual {v1}, Lcom/meitu/library/n/a/j;->a()V
 
-    .line 9
     iget-object v13, v0, Lcom/commsource/camera/xcamera/o;->d:Lcom/meitu/library/n/a/i;
 
     if-eqz v13, :cond_3
 
-    .line 10
     sget-object v14, Lcom/meitu/library/n/a/c;->d:Ljava/nio/FloatBuffer;
 
     new-array v1, v12, [I
 
-    .line 11
     iget v4, v0, Lcom/commsource/camera/xcamera/o;->c:I
 
     aput v4, v1, v5
 
     const/16 v17, 0xde1
 
-    .line 12
     iget-object v2, v2, Lcom/meitu/library/n/a/s/h/a;->a:Lcom/meitu/library/n/b/k/b;
 
     const-string v4, "inputTextureProcessResultData.outFbo"
@@ -558,24 +517,19 @@
 
     move-result v18
 
-    .line 13
     sget-object v19, Lcom/meitu/library/n/a/c;->i:[F
 
-    .line 14
     sget-object v20, Lcom/meitu/library/n/a/c;->r:[F
 
     move-object/from16 v16, v1
 
-    .line 15
     invoke-virtual/range {v13 .. v20}, Lcom/meitu/library/n/a/i;->a(Ljava/nio/FloatBuffer;Ljava/nio/FloatBuffer;[III[F[F)V
 
-    .line 16
     :cond_3
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v12
 
-    .line 17
     :cond_4
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -589,7 +543,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/n/a/i;
 
     const/4 v2, 0x1
@@ -598,7 +551,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/o;->d:Lcom/meitu/library/n/a/i;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -613,7 +565,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/o;->a:Lcom/meitu/library/camera/q/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -636,7 +587,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v1
@@ -652,14 +602,11 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iput-object p1, p0, Lcom/commsource/camera/xcamera/o;->p:Ljava/lang/String;
 
-    .line 3
     iput-boolean v2, p0, Lcom/commsource/camera/xcamera/o;->J:Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -672,7 +619,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/o;->b:Z
 
     const/4 v2, 0x1
@@ -733,7 +679,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -34,24 +34,18 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/library/analytics/y/l/j/a;->d:[Lcom/meitu/library/analytics/y/l/j/b$a;
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/library/analytics/y/l/j/a;->e:[Lcom/meitu/library/analytics/y/l/j/b$a;
 
-    .line 4
     iput p1, p0, Lcom/meitu/library/analytics/y/l/j/a;->b:I
 
-    .line 5
     iput-object p2, p0, Lcom/meitu/library/analytics/y/l/j/a;->a:Ljava/lang/String;
 
-    .line 6
     invoke-static {p3}, Lcom/meitu/library/analytics/y/l/j/a;->b(Landroid/content/Intent;)Ljava/lang/String;
 
     move-result-object p1
@@ -70,20 +64,17 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, ""
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
     move-result-object v2
@@ -105,7 +96,6 @@
     :cond_1
     move-object v2, v3
 
-    .line 4
     :goto_0
     invoke-virtual {p0}, Landroid/content/Intent;->getCategories()Ljava/util/Set;
 
@@ -113,14 +103,12 @@
 
     if-eqz p0, :cond_2
 
-    .line 5
     invoke-interface {p0}, Ljava/util/Set;->size()I
 
     move-result v4
 
     if-lez v4, :cond_2
 
-    .line 6
     invoke-interface {p0}, Ljava/util/Set;->size()I
 
     move-result v3
@@ -135,12 +123,10 @@
 
     const-string v3, "="
 
-    .line 7
     invoke-static {p0, v3}, Lcom/meitu/library/analytics/y/o/x;->c([Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 8
     :cond_2
     new-instance p0, Ljava/util/HashMap;
 
@@ -148,20 +134,16 @@
 
     const-string v4, "action"
 
-    .line 9
     invoke-interface {p0, v4, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "data"
 
-    .line 10
     invoke-interface {p0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "categories"
 
-    .line 11
     invoke-interface {p0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     invoke-static {p0}, Lcom/meitu/library/analytics/y/o/x;->d(Ljava/util/Map;)Ljava/lang/String;
 
     move-result-object p0
@@ -180,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/l/j/a;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -195,14 +176,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/analytics/y/l/j/a;->b(Landroid/content/Intent;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/library/analytics/y/l/j/a;->c:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

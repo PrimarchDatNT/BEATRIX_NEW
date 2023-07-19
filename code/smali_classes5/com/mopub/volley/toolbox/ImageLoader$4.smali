@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/volley/toolbox/ImageLoader;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/toolbox/ImageLoader$4;->this$0:Lcom/mopub/volley/toolbox/ImageLoader;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/ImageLoader$4;->this$0:Lcom/mopub/volley/toolbox/ImageLoader;
 
     invoke-static {v0}, Lcom/mopub/volley/toolbox/ImageLoader;->access$200(Lcom/mopub/volley/toolbox/ImageLoader;)Ljava/util/HashMap;
@@ -66,7 +64,6 @@
 
     check-cast v1, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;
 
-    .line 2
     invoke-static {v1}, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->access$300(Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;)Ljava/util/List;
 
     move-result-object v2
@@ -88,7 +85,6 @@
 
     check-cast v3, Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;
 
-    .line 3
     invoke-static {v3}, Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;->access$400(Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;)Lcom/mopub/volley/toolbox/ImageLoader$ImageListener;
 
     move-result-object v4
@@ -97,7 +93,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {v1}, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->getError()Lcom/mopub/volley/VolleyError;
 
@@ -105,14 +100,12 @@
 
     if-nez v4, :cond_2
 
-    .line 5
     invoke-static {v1}, Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;->access$000(Lcom/mopub/volley/toolbox/ImageLoader$BatchedImageRequest;)Landroid/graphics/Bitmap;
 
     move-result-object v4
 
     invoke-static {v3, v4}, Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;->access$502(Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 6
     invoke-static {v3}, Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;->access$400(Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;)Lcom/mopub/volley/toolbox/ImageLoader$ImageListener;
 
     move-result-object v4
@@ -123,7 +116,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {v3}, Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;->access$400(Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;)Lcom/mopub/volley/toolbox/ImageLoader$ImageListener;
 
@@ -137,7 +129,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     iget-object v0, p0, Lcom/mopub/volley/toolbox/ImageLoader$4;->this$0:Lcom/mopub/volley/toolbox/ImageLoader;
 
@@ -147,7 +138,6 @@
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
-    .line 9
     iget-object v0, p0, Lcom/mopub/volley/toolbox/ImageLoader$4;->this$0:Lcom/mopub/volley/toolbox/ImageLoader;
 
     const/4 v1, 0x0

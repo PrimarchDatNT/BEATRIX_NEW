@@ -36,14 +36,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/util/AbstractCollection;->size()I
 
     move-result v0
 
     invoke-direct {p0, v0, p2}, Lcom/google/android/gms/internal/firebase_auth/v;-><init>(II)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/x;->c:Lcom/google/android/gms/internal/firebase_auth/zzay;
 
     return-void
@@ -59,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/x;->c:Lcom/google/android/gms/internal/firebase_auth/zzay;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;

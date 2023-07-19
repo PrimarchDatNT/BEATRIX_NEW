@@ -76,7 +76,6 @@
 
     sput-object v1, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
-    .line 1
     sget-object v1, Lcotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lcotlin/LazyThreadSafetyMode;
 
     sget-object v2, Lcom/commsource/billing/pro/GmsManager$Companion$instance$2;->INSTANCE:Lcom/commsource/billing/pro/GmsManager$Companion$instance$2;
@@ -95,24 +94,20 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/billing/pro/GmsManager$b;
 
     invoke-direct {v0}, Lcom/commsource/billing/pro/GmsManager$b;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/billing/pro/GmsManager;->a:Lcom/commsource/billing/pro/GmsManager$b;
 
-    .line 3
     new-instance v0, Lcom/commsource/billing/pro/GmsManager$c;
 
     invoke-direct {v0}, Lcom/commsource/billing/pro/GmsManager$c;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/billing/pro/GmsManager;->b:Lcom/commsource/billing/pro/GmsManager$c;
 
-    .line 4
     sget-object v0, Lcom/commsource/billing/pro/GmsManager$purchaseData$2;->INSTANCE:Lcom/commsource/billing/pro/GmsManager$purchaseData$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -121,7 +116,6 @@
 
     iput-object v0, p0, Lcom/commsource/billing/pro/GmsManager;->d:Lcotlin/w;
 
-    .line 5
     sget-object v0, Lcom/commsource/billing/pro/GmsManager$subscribeResultEvent$2;->INSTANCE:Lcom/commsource/billing/pro/GmsManager$subscribeResultEvent$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -130,7 +124,6 @@
 
     iput-object v0, p0, Lcom/commsource/billing/pro/GmsManager;->e:Lcotlin/w;
 
-    .line 6
     new-instance v0, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v0}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -143,7 +136,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/billing/pro/GmsManager;-><init>()V
 
     return-void
@@ -165,12 +157,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
 
-    .line 2
     iget-object v7, p0, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
 
     if-nez v7, :cond_0
@@ -194,7 +184,6 @@
 
     invoke-interface {v7, v8}, Lcom/commsource/billing/pro/b;->d(Lf/k/h/a/l/y/g;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -207,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -240,7 +228,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -261,21 +248,18 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->getProductId()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-static {v1}, Lf/d/i/o;->L0(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->getPurchaseToken()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-static {v1}, Lf/d/i/o;->A0(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->getPaymentType()I
 
     move-result v1
@@ -286,21 +270,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 6
     check-cast p1, Lcom/meitu/global/billing/purchase/data/SubsPurchase;
 
     invoke-virtual {p1}, Lcom/meitu/global/billing/purchase/data/SubsPurchase;->getExpireTimeMs()J
 
     move-result-wide v4
 
-    .line 7
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
 
     invoke-static {p1, v4, v5}, Lf/d/i/o;->I0(Landroid/content/Context;J)V
 
-    .line 8
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -319,7 +300,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -331,7 +311,6 @@
 
     throw p1
 
-    .line 10
     :cond_1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -341,13 +320,11 @@
 
     invoke-static {p1, v1, v2}, Lf/d/i/o;->I0(Landroid/content/Context;J)V
 
-    .line 11
     :goto_0
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager;->a:Lcom/commsource/billing/pro/GmsManager$b;
 
     invoke-virtual {p1, v3, p2}, Lcom/commsource/billing/pro/GmsManager$b;->k(II)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -360,7 +337,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/pro/GmsManager;->h:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -375,7 +351,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/billing/pro/GmsManager;->a:Lcom/commsource/billing/pro/GmsManager$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -390,7 +365,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/billing/pro/GmsManager;->b:Lcom/commsource/billing/pro/GmsManager$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -405,7 +379,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/billing/pro/GmsManager;->n()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -420,7 +393,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/billing/pro/GmsManager;->t(Lcom/meitu/global/billing/purchase/data/MTGPurchase;Ljava/lang/String;Ljava/lang/String;I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -435,7 +407,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/billing/pro/GmsManager;->H(Lcom/meitu/global/billing/purchase/data/MTGPurchase;I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -450,7 +421,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/l/v;->s()Lf/k/h/a/l/p;
 
     move-result-object v1
@@ -465,7 +435,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     :try_start_0
     invoke-virtual {v1}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->getOrderId()Ljava/lang/String;
 
@@ -473,7 +442,6 @@
 
     const-string v2, "orderId"
 
-    .line 3
     invoke-static {v8, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v8}, Ljava/lang/CharSequence;->length()I
@@ -516,14 +484,12 @@
 
     move-object v2, v8
 
-    .line 4
     invoke-static/range {v2 .. v7}, Lcotlin/text/m;->n3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     move-result v1
 
     if-lez v1, :cond_1
 
-    .line 5
     invoke-virtual {v8, v9, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v8
@@ -535,7 +501,6 @@
     :cond_1
     const-string/jumbo v1, "zdf"
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -552,7 +517,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->b:Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;
 
     const-string v2, "original_order_id"
@@ -570,10 +534,8 @@
     :catch_0
     move-exception v1
 
-    .line 8
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 9
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -609,7 +571,6 @@
 
     move v5, p5
 
-    .line 1
     invoke-virtual/range {v0 .. v6}, Lcom/commsource/billing/pro/GmsManager;->r(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcom/commsource/billing/pro/e;)V
 
     invoke-static {p8}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -628,17 +589,14 @@
 
     const-string/jumbo v2, "\u5185\u8d2d\u8d2d\u4e70\u6210\u529f"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->a:Lcom/commsource/billing/pro/GmsManager$b;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2, p4}, Lcom/commsource/billing/pro/GmsManager$b;->k(II)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object p4
@@ -649,28 +607,24 @@
 
     add-int/2addr p4, v2
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v1
 
     invoke-static {v1, p4}, Lf/d/i/e;->y3(Landroid/content/Context;I)V
 
-    .line 5
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p4
 
     if-nez p4, :cond_0
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->getProductId()Ljava/lang/String;
 
     move-result-object p1
 
     invoke-static {p1, p2, p3}, Lcom/commsource/statistics/i;->v(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -692,12 +646,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->a:Lcom/commsource/billing/pro/GmsManager$b;
 
     invoke-virtual {v1, p1}, Lcom/commsource/billing/pro/GmsManager$b;->a(Lcom/commsource/billing/b$c;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -719,12 +671,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->b:Lcom/commsource/billing/pro/GmsManager$c;
 
     invoke-virtual {v1, p1}, Lcom/commsource/billing/pro/GmsManager$c;->c(Lf/k/h/a/l/y/g;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -743,12 +693,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->a:Lcom/commsource/billing/pro/GmsManager$b;
 
     invoke-virtual {v1, p1}, Lcom/commsource/billing/pro/GmsManager$b;->b(Lcom/commsource/billing/b$c;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -768,12 +716,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->b:Lcom/commsource/billing/pro/GmsManager$c;
 
     invoke-virtual {v1, p1}, Lcom/commsource/billing/pro/GmsManager$c;->d(Lf/k/h/a/l/y/g;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -795,7 +741,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/p/h/a;->b(Landroid/content/Context;)Z
 
     move-result v1
@@ -804,12 +749,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-direct {p0, p1, v1}, Lcom/commsource/billing/pro/GmsManager;->E(Landroid/content/Context;Lcom/commsource/billing/pro/a;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager;->a:Lcom/commsource/billing/pro/GmsManager$b;
 
@@ -817,7 +760,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/billing/pro/GmsManager$b;->s(I)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -852,19 +794,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/p/h/a;->b(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/commsource/billing/pro/GmsManager;->E(Landroid/content/Context;Lcom/commsource/billing/pro/a;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager;->a:Lcom/commsource/billing/pro/GmsManager$b;
 
@@ -872,7 +811,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/billing/pro/GmsManager$b;->s(I)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -898,7 +836,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
 
     if-nez v1, :cond_0
@@ -914,7 +851,6 @@
 
     invoke-interface {v1, p1, p2, v2}, Lcom/commsource/billing/pro/b;->f(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/billing/pro/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -939,7 +875,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -960,7 +895,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
 
     if-nez v1, :cond_0
@@ -972,7 +906,6 @@
     :cond_0
     invoke-interface {v1, p1}, Lcom/commsource/billing/pro/b;->g(Lf/k/h/a/l/y/c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1028,7 +961,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->f:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1082,7 +1014,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->f:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -1109,13 +1040,11 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     sget-object v3, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     const/4 v3, 0x2
@@ -1144,7 +1073,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     :goto_1
     new-instance v2, Landroid/content/Intent;
 
@@ -1152,17 +1080,14 @@
 
     invoke-direct {v2, v3}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
 
     invoke-virtual {v2, v1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 6
     invoke-virtual {p1, v2}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1175,7 +1100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/l/v;->s()Lf/k/h/a/l/p;
 
     move-result-object v1
@@ -1186,7 +1110,6 @@
 
     invoke-interface {v1}, Lf/k/h/a/l/p;->o()Lcom/meitu/global/billing/purchase/data/SubsPurchase;
 
-    .line 2
     invoke-static {}, Lf/k/h/a/l/v;->s()Lf/k/h/a/l/p;
 
     move-result-object v1
@@ -1197,14 +1120,12 @@
 
     invoke-interface {v1, v2}, Lf/k/h/a/l/p;->l(Lf/k/h/a/l/y/k;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/billing/pro/i/b;
 
     invoke-direct {v1}, Lcom/commsource/billing/pro/i/b;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1217,7 +1138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1230,7 +1150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1243,14 +1162,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/g2;->b()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/billing/pro/GmsManager;->j()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v1
@@ -1263,7 +1180,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/billing/pro/GmsManager;->j()Lcom/commsource/beautyfilter/NoStickLiveData;
 
@@ -1275,7 +1191,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyfilter/NoStickLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1311,7 +1226,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1373,14 +1287,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/p/h/a;->b(Landroid/content/Context;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, v7, Lcom/commsource/billing/pro/GmsManager;->a:Lcom/commsource/billing/pro/GmsManager$b;
 
     const/4 v1, 0x6
@@ -1391,12 +1303,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     invoke-interface {v3, v0}, Lcom/commsource/billing/pro/e;->a(Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1405,7 +1315,6 @@
     :cond_1
     move/from16 v2, p5
 
-    .line 5
     iget-object v11, v7, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
 
     if-nez v11, :cond_2
@@ -1435,7 +1344,6 @@
 
     invoke-interface {v11, p1, p2, v12}, Lcom/commsource/billing/pro/b;->b(Landroid/app/Activity;Ljava/lang/String;Lf/k/h/a/l/y/d;)V
 
-    .line 6
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1456,25 +1364,20 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/commsource/billing/pro/GmsManager;->v(Ljava/util/List;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1504,7 +1407,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
 
     if-nez v1, :cond_0
@@ -1522,7 +1424,6 @@
 
     invoke-interface {v1, v3, p1, v2}, Lcom/commsource/billing/pro/b;->a(Ljava/lang/String;Ljava/util/List;Lcom/commsource/billing/pro/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1535,7 +1436,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
 
     if-nez v1, :cond_0
@@ -1551,7 +1451,6 @@
 
     invoke-interface {v1, v2}, Lcom/commsource/billing/pro/b;->d(Lf/k/h/a/l/y/g;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1576,7 +1475,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1605,7 +1503,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
 
     if-nez v1, :cond_0
@@ -1623,7 +1520,6 @@
 
     invoke-interface {v1, v3, p1, v2}, Lcom/commsource/billing/pro/b;->a(Ljava/lang/String;Ljava/util/List;Lcom/commsource/billing/pro/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1657,7 +1553,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
 
     if-nez v0, :cond_0
@@ -1673,7 +1568,6 @@
 
     invoke-interface {v0, p1, v1}, Lcom/commsource/billing/pro/b;->e(Ljava/util/List;Lcom/commsource/billing/pro/a;)V
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

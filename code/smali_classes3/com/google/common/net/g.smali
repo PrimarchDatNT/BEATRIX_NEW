@@ -24,7 +24,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/common/net/f;
 
     const-string v1, "-_.*"
@@ -35,7 +34,6 @@
 
     sput-object v0, Lcom/google/common/net/g;->c:Lf/f/e/b/f;
 
-    .line 2
     new-instance v0, Lcom/google/common/net/f;
 
     const-string v1, "-._~!$\'()*,;&=@:+"
@@ -46,7 +44,6 @@
 
     sput-object v0, Lcom/google/common/net/g;->d:Lf/f/e/b/f;
 
-    .line 3
     new-instance v0, Lcom/google/common/net/f;
 
     const-string v1, "-._~!$\'()*,;&=@:+/?"
@@ -61,7 +58,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -70,7 +66,6 @@
 .method public static a()Lf/f/e/b/f;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/net/g;->c:Lf/f/e/b/f;
 
     return-object v0
@@ -79,7 +74,6 @@
 .method public static b()Lf/f/e/b/f;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/net/g;->e:Lf/f/e/b/f;
 
     return-object v0
@@ -88,7 +82,6 @@
 .method public static c()Lf/f/e/b/f;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/net/g;->d:Lf/f/e/b/f;
 
     return-object v0

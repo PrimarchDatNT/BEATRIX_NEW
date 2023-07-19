@@ -31,14 +31,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/internal/g;
 
     invoke-direct {v0}, Lcotlinx/coroutines/flow/internal/g;-><init>()V
 
     sput-object v0, Lcotlinx/coroutines/flow/internal/g;->b:Lcotlinx/coroutines/flow/internal/g;
 
-    .line 2
     sget-object v0, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     sput-object v0, Lcotlinx/coroutines/flow/internal/g;->a:Lcotlin/coroutines/CoroutineContext;
@@ -49,7 +47,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,7 +59,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/flow/internal/g;->a:Lcotlin/coroutines/CoroutineContext;
 
     return-object v0

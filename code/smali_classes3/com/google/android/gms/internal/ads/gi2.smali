@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/hi2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/gi2;->a:Lcom/google/android/gms/internal/ads/hi2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -27,7 +26,6 @@
 .method public final run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gi2;->a:Lcom/google/android/gms/internal/ads/hi2;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/hi2;->d(Lcom/google/android/gms/internal/ads/hi2;)Ljava/lang/Object;
@@ -36,7 +34,6 @@
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/gi2;->a:Lcom/google/android/gms/internal/ads/hi2;
 
@@ -54,7 +51,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/gi2;->a:Lcom/google/android/gms/internal/ads/hi2;
 
     const/4 v2, 0x0
@@ -63,10 +59,8 @@
 
     const-string v1, "App went background"
 
-    .line 4
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/gi2;->a:Lcom/google/android/gms/internal/ads/hi2;
 
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/hi2;->k(Lcom/google/android/gms/internal/ads/hi2;)Ljava/util/List;
@@ -92,7 +86,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     :try_start_1
     invoke-interface {v3, v2}, Lcom/google/android/gms/internal/ads/ji2;->a(Z)V
     :try_end_1
@@ -107,7 +100,6 @@
     :try_start_2
     const-string v4, ""
 
-    .line 7
     invoke-static {v4, v3}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_0
@@ -115,10 +107,8 @@
     :cond_0
     const-string v1, "App is still foreground"
 
-    .line 8
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 9
     :cond_1
     monitor-exit v0
 

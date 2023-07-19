@@ -31,7 +31,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/bean/b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/util/b$b;->c(Lcom/commsource/camera/xcamera/bean/b;)V
@@ -75,7 +73,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +91,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object v1
@@ -110,7 +106,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -118,10 +113,8 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     const-class v2, Lcom/commsource/camera/xcamera/bean/b;
 
-    .line 4
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v1
@@ -130,22 +123,18 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-static {v1}, Lf/d/i/e;->m2(Lcom/commsource/camera/xcamera/bean/b;)V
 
-    .line 6
     sget-object p1, Lcom/commsource/camera/xcamera/util/b;->b:Lcom/commsource/camera/xcamera/util/b;
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/util/b;->c(Lcom/commsource/camera/xcamera/bean/b;)V
 
     const/4 p1, 0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 8
     :cond_1
     invoke-static {p0, p1}, Lf/k/k/o;->c(Lf/k/k/p;Lokhttp3/Response;)Z
 

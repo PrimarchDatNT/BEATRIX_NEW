@@ -65,24 +65,20 @@
 .method public constructor <init>(II)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->a:Z
 
     const/4 v0, -0x1
 
-    .line 3
     iput v0, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->h:I
 
     const/4 v1, 0x2
 
     new-array v1, v1, [F
 
-    .line 4
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -91,13 +87,10 @@
 
     iput-object v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
-    .line 5
     iput v0, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->m:I
 
-    .line 6
     iput p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->b:I
 
-    .line 7
     iput p2, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->f:I
 
     return-void
@@ -116,19 +109,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->a:Z
 
     const/4 v2, 0x1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getItemCount()I
 
@@ -154,7 +144,6 @@
 
     if-lez v1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getItemCount()I
 
     move-result v1
@@ -184,7 +173,6 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -198,19 +186,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->findViewByPosition(I)Landroid/view/View;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->getViewForPosition(I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -224,17 +209,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->l:Ljava/util/List;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getItemCount()I
 
@@ -245,7 +227,6 @@
     :goto_0
     if-ge v2, v1, :cond_2
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->l:Ljava/util/List;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -258,7 +239,6 @@
 
     if-nez v3, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -268,14 +248,12 @@
 
     add-int/2addr p1, v1
 
-    .line 6
     rem-int/2addr p1, v1
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -289,7 +267,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Math;->abs(F)F
 
     move-result p1
@@ -330,14 +307,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->e:I
 
     const/4 v2, 0x1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -345,23 +320,19 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-direct {p0, v1, p1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c(ILandroidx/recyclerview/widget/RecyclerView$Recycler;)Landroid/view/View;
 
     move-result-object p1
 
     if-nez p1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_1
     invoke-virtual {p0, p1, v1, v1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->measureChildWithMargins(Landroid/view/View;II)V
 
-    .line 6
     iget v3, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->b:I
 
     if-nez v3, :cond_2
@@ -386,7 +357,6 @@
 
     div-float/2addr p1, v3
 
-    .line 7
     iget v4, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->f:I
 
     int-to-float v4, v4
@@ -427,10 +397,8 @@
 
     add-int/2addr v3, v2
 
-    .line 8
     iput v3, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->g:I
 
-    .line 9
     iget v3, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->o:I
 
     int-to-float v3, v3
@@ -439,7 +407,6 @@
 
     iput v3, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c:F
 
-    .line 10
     :cond_3
     iget p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->e:I
 
@@ -463,23 +430,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->n:Lcom/commsource/easyeditor/widget/WheelLayoutManager$c;
 
     if-eqz v1, :cond_0
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-interface {v1, v2}, Lcom/commsource/easyeditor/widget/WheelLayoutManager$c;->a(I)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->k:Lcom/commsource/util/common/b;
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -490,7 +453,6 @@
 
     invoke-interface {v1, p1, p2}, Lcom/commsource/util/common/b;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -504,7 +466,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p3}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p3
@@ -519,20 +480,16 @@
 
     add-float/2addr p1, p3
 
-    .line 2
     iput p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c:F
 
     const/4 p1, -0x1
 
-    .line 3
     iput p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->m:I
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->i:Landroidx/recyclerview/widget/RecyclerView$Recycler;
 
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->l(Landroidx/recyclerview/widget/RecyclerView$Recycler;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -563,7 +520,6 @@
 
     goto/16 :goto_6
 
-    .line 1
     :cond_0
     iget v0, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->b:I
 
@@ -589,14 +545,12 @@
 
     if-gez v4, :cond_2
 
-    .line 2
     iget v4, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->d:F
 
     div-float/2addr v4, v3
 
     sub-float/2addr p3, v4
 
-    .line 3
     invoke-direct {p0, p3}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->e(F)F
 
     move-result v4
@@ -617,7 +571,6 @@
 
     div-float/2addr v5, v3
 
-    .line 4
     iget v6, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->f:I
 
     int-to-float v6, v6
@@ -644,7 +597,6 @@
 
     int-to-float p3, p3
 
-    .line 5
     iget v5, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->e:I
 
     int-to-float v5, v5
@@ -657,12 +609,10 @@
 
     if-le p3, v0, :cond_3
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 7
     :cond_2
     iget v4, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->d:F
 
@@ -670,7 +620,6 @@
 
     add-float/2addr p3, v4
 
-    .line 8
     invoke-direct {p0, p3}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->e(F)F
 
     move-result v4
@@ -691,7 +640,6 @@
 
     div-float/2addr v0, v3
 
-    .line 9
     iget v5, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->f:I
 
     int-to-float v5, v5
@@ -718,7 +666,6 @@
 
     int-to-float v0, p3
 
-    .line 10
     iget v5, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->e:I
 
     int-to-float v5, v5
@@ -731,12 +678,10 @@
 
     if-gez v0, :cond_3
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 12
     :cond_3
     invoke-virtual {p2}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -746,7 +691,6 @@
 
     if-nez v0, :cond_4
 
-    .line 13
     invoke-virtual {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->addView(Landroid/view/View;)V
 
     const/4 v0, 0x1
@@ -759,15 +703,12 @@
     :goto_1
     if-eqz v0, :cond_6
 
-    .line 14
     invoke-virtual {p0, p2, v2, v2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->measureChildWithMargins(Landroid/view/View;II)V
 
-    .line 15
     iget v6, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->b:I
 
     if-nez v6, :cond_5
 
-    .line 16
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getHeight()I
 
     move-result v6
@@ -780,7 +721,6 @@
 
     div-int/lit8 v6, v6, 0x2
 
-    .line 17
     invoke-virtual {p2}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v7
@@ -799,12 +739,10 @@
 
     div-int/lit8 v8, v8, 0x2
 
-    .line 18
     invoke-virtual {p2, p3, v6, v7, v8}, Landroid/view/View;->layout(IIII)V
 
     goto :goto_2
 
-    .line 19
     :cond_5
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getWidth()I
 
@@ -818,7 +756,6 @@
 
     div-int/lit8 v6, v6, 0x2
 
-    .line 20
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getWidth()I
 
     move-result v7
@@ -837,18 +774,15 @@
 
     add-int/2addr v8, p3
 
-    .line 21
     invoke-virtual {p2, v6, p3, v7, v8}, Landroid/view/View;->layout(IIII)V
 
     goto :goto_2
 
-    .line 22
     :cond_6
     iget v6, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->b:I
 
     if-nez v6, :cond_7
 
-    .line 23
     invoke-virtual {p2}, Landroid/view/View;->getLeft()I
 
     move-result v6
@@ -865,7 +799,6 @@
 
     goto :goto_2
 
-    .line 24
     :cond_7
     invoke-virtual {p2}, Landroid/view/View;->getTop()I
 
@@ -892,22 +825,18 @@
 
     sub-float/2addr v6, v7
 
-    .line 25
     invoke-static {v1, v6}, Ljava/lang/Math;->max(FF)F
 
     move-result v6
 
-    .line 26
     iget v7, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->b:I
 
     if-nez v7, :cond_9
 
     if-eqz v0, :cond_8
 
-    .line 27
     invoke-virtual {p0, p2, v2, v2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->measureChildWithMargins(Landroid/view/View;II)V
 
-    .line 28
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getHeight()I
 
     move-result v0
@@ -920,7 +849,6 @@
 
     div-int/lit8 v0, v0, 0x2
 
-    .line 29
     invoke-virtual {p2}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v2
@@ -939,12 +867,10 @@
 
     div-int/lit8 v7, v7, 0x2
 
-    .line 30
     invoke-virtual {p2, p3, v0, v2, v7}, Landroid/view/View;->layout(IIII)V
 
     goto :goto_3
 
-    .line 31
     :cond_8
     invoke-virtual {p2}, Landroid/view/View;->getLeft()I
 
@@ -960,11 +886,9 @@
 
     invoke-virtual {p2, p3}, Landroid/view/View;->offsetLeftAndRight(I)V
 
-    .line 32
     :goto_3
     invoke-virtual {p2, v1}, Landroid/view/View;->setPivotX(F)V
 
-    .line 33
     invoke-virtual {p2}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result p3
@@ -975,10 +899,8 @@
 
     invoke-virtual {p2, p3}, Landroid/view/View;->setPivotY(F)V
 
-    .line 34
     invoke-virtual {p2, v4}, Landroid/view/View;->setScaleX(F)V
 
-    .line 35
     invoke-virtual {p2, v6}, Landroid/view/View;->setAlpha(F)V
 
     goto :goto_5
@@ -986,10 +908,8 @@
     :cond_9
     if-eqz v0, :cond_a
 
-    .line 36
     invoke-virtual {p0, p2, v2, v2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->measureChildWithMargins(Landroid/view/View;II)V
 
-    .line 37
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getWidth()I
 
     move-result v0
@@ -1002,7 +922,6 @@
 
     div-int/lit8 v0, v0, 0x2
 
-    .line 38
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getWidth()I
 
     move-result v2
@@ -1021,12 +940,10 @@
 
     add-int/2addr v7, p3
 
-    .line 39
     invoke-virtual {p2, v0, p3, v2, v7}, Landroid/view/View;->layout(IIII)V
 
     goto :goto_4
 
-    .line 40
     :cond_a
     invoke-virtual {p2}, Landroid/view/View;->getTop()I
 
@@ -1042,7 +959,6 @@
 
     invoke-virtual {p2, p3}, Landroid/view/View;->offsetTopAndBottom(I)V
 
-    .line 41
     :goto_4
     invoke-virtual {p2}, Landroid/view/View;->getMeasuredWidth()I
 
@@ -1054,22 +970,17 @@
 
     invoke-virtual {p2, p3}, Landroid/view/View;->setPivotX(F)V
 
-    .line 42
     invoke-virtual {p2, v1}, Landroid/view/View;->setPivotY(F)V
 
-    .line 43
     invoke-virtual {p2, v4}, Landroid/view/View;->setScaleY(F)V
 
-    .line 44
     invoke-virtual {p2, v6}, Landroid/view/View;->setAlpha(F)V
 
-    .line 45
     :goto_5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 46
     :cond_b
     :goto_6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1084,10 +995,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->detachAndScrapAttachedViews(Landroidx/recyclerview/widget/RecyclerView$Recycler;)V
 
-    .line 2
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getItemCount()I
 
     move-result v1
@@ -1098,7 +1007,6 @@
 
     goto/16 :goto_6
 
-    .line 3
     :cond_0
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->f(Landroidx/recyclerview/widget/RecyclerView$Recycler;)Z
 
@@ -1106,12 +1014,10 @@
 
     if-nez v2, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     new-instance v2, Ljava/util/ArrayList;
 
@@ -1121,7 +1027,6 @@
 
     const/4 v4, 0x0
 
-    .line 6
     :goto_0
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getChildCount()I
 
@@ -1129,7 +1034,6 @@
 
     if-ge v4, v5, :cond_2
 
-    .line 7
     invoke-virtual {p0, v4}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getChildAt(I)Landroid/view/View;
 
     move-result-object v5
@@ -1140,7 +1044,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     iget v4, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c:F
 
@@ -1176,14 +1079,12 @@
 
     float-to-int v4, v4
 
-    .line 9
     iget-boolean v5, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->a:Z
 
     if-nez v5, :cond_4
 
     add-int/lit8 v5, v1, -0x1
 
-    .line 10
     invoke-static {v5, v4}, Ljava/lang/Math;->min(II)I
 
     move-result v4
@@ -1192,7 +1093,6 @@
 
     move-result v4
 
-    .line 11
     :cond_4
     rem-int v5, v4, v1
 
@@ -1200,22 +1100,18 @@
 
     rem-int/2addr v5, v1
 
-    .line 12
     iget v6, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->g:I
 
     sub-int v6, v5, v6
 
-    .line 13
     iget-boolean v7, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->a:Z
 
     if-nez v7, :cond_5
 
-    .line 14
     invoke-static {v3, v6}, Ljava/lang/Math;->max(II)I
 
     move-result v6
 
-    .line 15
     :cond_5
     iget v3, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c:F
 
@@ -1235,13 +1131,11 @@
 
     add-float/2addr v3, v4
 
-    .line 16
     :goto_2
     iget-boolean v4, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->a:Z
 
     if-eqz v4, :cond_6
 
-    .line 17
     rem-int/2addr v6, v1
 
     add-int/2addr v6, v1
@@ -1259,14 +1153,12 @@
     :goto_3
     if-ltz v6, :cond_9
 
-    .line 18
     invoke-direct {p0, v3}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->a(F)Z
 
     move-result v4
 
     if-eqz v4, :cond_9
 
-    .line 19
     invoke-direct {p0, v6, p1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c(ILandroidx/recyclerview/widget/RecyclerView$Recycler;)Landroid/view/View;
 
     move-result-object v4
@@ -1275,7 +1167,6 @@
 
     goto :goto_4
 
-    .line 20
     :cond_8
     invoke-direct {p0, v6, v4, v3}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->k(ILandroid/view/View;F)Z
 
@@ -1283,10 +1174,8 @@
 
     if-eqz v7, :cond_9
 
-    .line 21
     invoke-interface {v2, v4}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 22
     :cond_9
     iget v4, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->d:F
 
@@ -1300,7 +1189,6 @@
 
     if-gez v4, :cond_c
 
-    .line 23
     :goto_4
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -1319,12 +1207,10 @@
 
     check-cast v2, Landroid/view/View;
 
-    .line 24
     invoke-virtual {p0, v2, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->removeAndRecycleView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$Recycler;)V
 
     goto :goto_5
 
-    .line 25
     :cond_a
     iget p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->h:I
 
@@ -1334,14 +1220,11 @@
 
     const/16 p1, 0xf
 
-    .line 26
     invoke-static {p1}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 27
     :cond_b
     iput v5, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->h:I
 
-    .line 28
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1351,7 +1234,6 @@
 
     goto :goto_2
 
-    .line 29
     :cond_d
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1366,12 +1248,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->a:Z
 
     if-nez v1, :cond_2
 
-    .line 2
     iget v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c:F
 
     const/4 v2, 0x0
@@ -1410,7 +1290,6 @@
 
     float-to-int p1, p1
 
-    .line 3
     :cond_2
     iget v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c:F
 
@@ -1422,10 +1301,8 @@
 
     iput v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c:F
 
-    .line 4
     invoke-direct {p0, p2}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->l(Landroidx/recyclerview/widget/RecyclerView$Recycler;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1438,14 +1315,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->e:I
 
     if-nez v1, :cond_0
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1457,7 +1332,6 @@
 
     div-float/2addr p1, v1
 
-    .line 3
     iget v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->d:F
 
     mul-float p1, p1, v1
@@ -1476,7 +1350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->m:I
 
     const/4 v2, -0x1
@@ -1501,7 +1374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getItemCount()I
 
     move-result v1
@@ -1532,7 +1404,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getItemCount()I
 
     move-result v1
@@ -1563,7 +1434,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
 
     const/4 v2, -0x2
@@ -1598,13 +1468,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->a:Z
 
-    .line 2
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1626,10 +1493,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->k:Lcom/commsource/util/common/b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1642,13 +1507,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->i:Landroidx/recyclerview/widget/RecyclerView$Recycler;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->l(Landroidx/recyclerview/widget/RecyclerView$Recycler;)V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1665,7 +1527,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->h:I
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->s(IZ)V
@@ -1675,21 +1536,17 @@
     :cond_0
     if-ne p1, v1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->n:Lcom/commsource/easyeditor/widget/WheelLayoutManager$c;
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {p1, v1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager$c;->a(I)V
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1703,10 +1560,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->n:Lcom/commsource/easyeditor/widget/WheelLayoutManager$c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1727,10 +1582,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->l:Ljava/util/List;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1745,10 +1598,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->s(IZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1761,28 +1612,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getItemCount()I
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->d(I)I
 
     move-result p1
 
-    .line 4
     iput p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->m:I
 
-    .line 5
     iget v2, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c:F
 
     iget v3, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->d:F
@@ -1817,7 +1663,6 @@
 
     float-to-int v2, v2
 
-    .line 6
     iget-boolean v3, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->a:Z
 
     if-nez v3, :cond_2
@@ -1826,7 +1671,6 @@
 
     add-int/lit8 v4, v1, -0x1
 
-    .line 7
     invoke-static {v4, v2}, Ljava/lang/Math;->min(II)I
 
     move-result v2
@@ -1835,7 +1679,6 @@
 
     move-result v2
 
-    .line 8
     :cond_2
     iget v3, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c:F
 
@@ -1847,14 +1690,12 @@
 
     sub-float/2addr v3, v4
 
-    .line 9
     rem-int/2addr v2, v1
 
     add-int/2addr v2, v1
 
     rem-int/2addr v2, v1
 
-    .line 10
     iget-boolean v4, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->a:Z
 
     if-eqz v4, :cond_4
@@ -1863,7 +1704,6 @@
 
     add-int/2addr v4, v1
 
-    .line 11
     rem-int/2addr v4, v1
 
     int-to-float v4, v4
@@ -1878,7 +1718,6 @@
 
     neg-int v2, v2
 
-    .line 12
     rem-int/2addr v2, v1
 
     int-to-float v1, v2
@@ -1887,7 +1726,6 @@
 
     sub-float/2addr v1, v3
 
-    .line 13
     invoke-static {v4}, Ljava/lang/Math;->abs(F)F
 
     move-result v2
@@ -1916,7 +1754,6 @@
 
     sub-float v4, v1, v3
 
-    .line 14
     :goto_1
     new-instance v1, Lcom/commsource/easyeditor/widget/y;
 
@@ -1926,43 +1763,34 @@
 
     if-nez p1, :cond_5
 
-    .line 15
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 17
     :cond_5
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->n:Lcom/commsource/easyeditor/widget/WheelLayoutManager$c;
 
     if-eqz p1, :cond_6
 
-    .line 18
     invoke-interface {p1, v6}, Lcom/commsource/easyeditor/widget/WheelLayoutManager$c;->a(I)V
 
-    .line 19
     :cond_6
     iget p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c:F
 
-    .line 20
     iget-object p2, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 21
     iget-object p2, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->removeAllListeners()V
 
-    .line 22
     iget-object p2, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 23
     iget-object p2, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
     new-instance v2, Lcom/commsource/easyeditor/widget/z;
@@ -1971,7 +1799,6 @@
 
     invoke-virtual {p2, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
     new-instance p2, Lcom/commsource/easyeditor/widget/WheelLayoutManager$a;
@@ -1988,7 +1815,6 @@
 
     mul-float v4, v4, v1
 
-    .line 25
     invoke-static {v4}, Ljava/lang/Math;->abs(F)F
 
     move-result v1
@@ -2003,14 +1829,12 @@
 
     move-result p1
 
-    .line 26
     iget-object p2, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
     int-to-long v1, p1
 
     invoke-virtual {p2, v1, v2}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
     new-instance p2, Landroid/view/animation/DecelerateInterpolator;
@@ -2019,12 +1843,10 @@
 
     invoke-virtual {p1, p2}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 28
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 29
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2037,7 +1859,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->m(ILandroidx/recyclerview/widget/RecyclerView$Recycler;)I
 
     move-result p1
@@ -2054,35 +1875,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->h:I
 
     const/4 v1, -0x1
 
-    .line 2
     iput v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->m:I
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->d(I)I
 
     move-result p1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->removeAllListeners()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->j:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 7
     iget v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->d:F
 
     const/4 v2, 0x0
@@ -2091,7 +1905,6 @@
 
     if-nez v2, :cond_0
 
-    .line 8
     iput p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->o:I
 
     goto :goto_0
@@ -2101,19 +1914,15 @@
 
     mul-float v2, v2, v1
 
-    .line 9
     iput v2, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->c:F
 
-    .line 10
     :goto_0
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->k:Lcom/commsource/util/common/b;
 
     if-eqz v1, :cond_1
 
-    .line 12
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -2122,7 +1931,6 @@
 
     invoke-interface {v1, p1, v2}, Lcom/commsource/util/common/b;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 13
     :cond_1
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->n:Lcom/commsource/easyeditor/widget/WheelLayoutManager$c;
 
@@ -2130,10 +1938,8 @@
 
     const/4 v1, 0x0
 
-    .line 14
     invoke-interface {p1, v1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager$c;->a(I)V
 
-    .line 15
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2147,7 +1953,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->m(ILandroidx/recyclerview/widget/RecyclerView$Recycler;)I
 
     move-result p1

@@ -43,7 +43,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$b;->a:Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
     invoke-static {v0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->A(Lcom/commsource/store/sticker/StickerStoreDetailFragment;)Lcom/meitu/template/bean/StickerGroup;
@@ -52,10 +51,8 @@
 
     if-eqz v0, :cond_3
 
-    .line 2
     invoke-virtual {v0}, Lcom/meitu/template/bean/StickerGroup;->updateGroupDownloadState()V
 
-    .line 3
     invoke-virtual {v0}, Lcom/meitu/template/bean/StickerGroup;->getGroupDownloadStatus()I
 
     move-result v1
@@ -64,14 +61,12 @@
 
     if-ne v1, v2, :cond_2
 
-    .line 4
     invoke-virtual {v0}, Lcom/meitu/template/bean/StickerGroup;->getStickerList()Ljava/util/ArrayList;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -90,7 +85,6 @@
 
     check-cast v2, Lcom/meitu/template/bean/Sticker;
 
-    .line 6
     invoke-virtual {v2}, Lcom/meitu/template/bean/Sticker;->getDownloadFrom()I
 
     move-result v3
@@ -103,14 +97,12 @@
 
     if-eq v3, v5, :cond_0
 
-    .line 7
     invoke-virtual {v4}, Lcom/commsource/studio/k;->d()I
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/meitu/template/bean/Sticker;->setDownloadFrom(I)V
 
-    .line 8
     sget-object v3, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v2}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
@@ -119,12 +111,10 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/sticker/StickerManager;->Y(I)V
 
-    .line 9
     invoke-virtual {v3, v2}, Lcom/commsource/studio/sticker/StickerManager;->o0(Lcom/meitu/template/bean/Sticker;)V
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$b;->a:Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
@@ -146,7 +136,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 11
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
@@ -157,10 +146,8 @@
 
     const-string v3, "\u8d34\u7eb8\u8be6\u60c5\u9875"
 
-    .line 12
     invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     invoke-virtual {v0}, Lcom/meitu/template/bean/StickerGroup;->getCategoryId()I
 
     move-result v2
@@ -173,7 +160,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     invoke-virtual {v0}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v0
@@ -188,12 +174,10 @@
 
     const-string v0, "sticker_shop_clk_try"
 
-    .line 15
     invoke-static {v0, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_1
 
-    .line 16
     :cond_2
     invoke-virtual {v0}, Lcom/meitu/template/bean/StickerGroup;->isDownloadAllState()Z
 
@@ -201,12 +185,10 @@
 
     if-nez v1, :cond_3
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$b;->a:Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
     invoke-static {v1, v0}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->x(Lcom/commsource/store/sticker/StickerStoreDetailFragment;Lcom/meitu/template/bean/StickerGroup;)V
 
-    .line 18
     :cond_3
     :goto_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

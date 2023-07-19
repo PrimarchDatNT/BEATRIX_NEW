@@ -45,10 +45,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/graphics/Paint;
 
     const/4 v1, 0x3
@@ -57,7 +55,6 @@
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
-    .line 3
     new-instance v0, Landroid/graphics/PorterDuffXfermode;
 
     sget-object v1, Landroid/graphics/PorterDuff$Mode;->CLEAR:Landroid/graphics/PorterDuff$Mode;
@@ -66,7 +63,6 @@
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->e:Landroid/graphics/Xfermode;
 
-    .line 4
     new-instance v0, Landroid/graphics/PorterDuffXfermode;
 
     sget-object v1, Landroid/graphics/PorterDuff$Mode;->SRC_IN:Landroid/graphics/PorterDuff$Mode;
@@ -77,10 +73,8 @@
 
     const/4 v0, 0x0
 
-    .line 5
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->h:I
 
-    .line 6
     iput v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->i:I
 
     return-void
@@ -95,33 +89,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->b:Landroid/graphics/Canvas;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->e:Landroid/graphics/Xfermode;
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
     sget-object v2, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->b:Landroid/graphics/Canvas;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
@@ -130,12 +119,10 @@
 
     const/4 v1, 0x1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -153,7 +140,6 @@
 
     if-lez p2, :cond_2
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->a:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_0
@@ -169,34 +155,27 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 2
     iput-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->b:Landroid/graphics/Canvas;
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->isRecycled()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 5
     iput-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->a:Landroid/graphics/Bitmap;
 
-    .line 6
     :cond_1
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->h:I
 
-    .line 7
     iput p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->i:I
 
-    .line 8
     sget-object v1, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     invoke-static {p1, p2, v1}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
@@ -205,7 +184,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->a:Landroid/graphics/Bitmap;
 
-    .line 9
     new-instance p1, Landroid/graphics/Canvas;
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->a:Landroid/graphics/Bitmap;
@@ -216,7 +194,6 @@
 
     const/4 p1, 0x1
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -224,7 +201,6 @@
     :cond_2
     const/4 p1, 0x0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -237,19 +213,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/g;->b(II)Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/g;->a()Z
 
     move-result p1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -263,12 +236,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->b:Landroid/graphics/Canvas;
 
     if-eqz v1, :cond_3
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->c:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_0
@@ -280,14 +251,11 @@
     :cond_0
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 4
     :cond_1
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->g:I
 
-    .line 5
     iget p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->h:I
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->i:I
@@ -300,19 +268,16 @@
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->c:Landroid/graphics/Bitmap;
 
-    .line 6
     new-instance p1, Landroid/graphics/Canvas;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->c:Landroid/graphics/Bitmap;
 
     invoke-direct {p1, v1}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 7
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->g:I
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->drawColor(I)V
 
-    .line 8
     :cond_2
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
@@ -320,21 +285,18 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
     const/16 v1, 0xff
 
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->b:Landroid/graphics/Canvas;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->c:Landroid/graphics/Bitmap;
@@ -345,7 +307,6 @@
 
     invoke-virtual {p1, v1, v3, v3, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
     const/4 v1, 0x0
@@ -354,7 +315,6 @@
 
     const/4 p1, 0x1
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -362,7 +322,6 @@
     :cond_3
     const/4 p1, 0x0
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -375,7 +334,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->b:Landroid/graphics/Canvas;
 
     const/4 v2, 0x0
@@ -390,26 +348,22 @@
 
     if-lez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->e:Landroid/graphics/Xfermode;
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
     sget-object v3, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
     const/high16 v3, 0x40000000    # 2.0f
@@ -418,14 +372,12 @@
 
     invoke-virtual {v1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->b:Landroid/graphics/Canvas;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->d:Landroid/graphics/Paint;
 
     invoke-virtual {p2, p1, v1}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -441,7 +393,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->c:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -458,7 +409,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->a:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -475,7 +425,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->b:Landroid/graphics/Canvas;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -494,10 +443,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->a:Landroid/graphics/Bitmap;
 
-    .line 2
     new-instance p1, Landroid/graphics/Canvas;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->a:Landroid/graphics/Bitmap;
@@ -506,7 +453,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/g;->b:Landroid/graphics/Canvas;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

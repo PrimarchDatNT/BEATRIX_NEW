@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/SegmentFragment$maskLayer$2$$special$$inlined$apply$lambda$1;->invoke(Ljava/util/List;)V
@@ -88,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$maskLayer$2$$special$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/function/SegmentFragment$maskLayer$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/SegmentFragment$maskLayer$2;->this$0:Lcom/commsource/studio/function/SegmentFragment;
@@ -101,7 +99,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/FaceLabelLayer;->q0(Ljava/util/List;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -22,10 +22,8 @@
 .method constructor <init>(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/graph/i$j;->a:Ljava/lang/Object;
 
     return-void
@@ -34,7 +32,6 @@
 .method static synthetic a(Lcom/google/common/graph/i$j;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/graph/i$j;->a:Ljava/lang/Object;
 
     return-object p0

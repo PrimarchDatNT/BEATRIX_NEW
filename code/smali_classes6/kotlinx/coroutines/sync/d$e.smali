@@ -51,7 +51,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/b;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/sync/d$e;->b:Lcotlinx/coroutines/sync/d;
@@ -85,14 +84,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/sync/MutexKt;->l()Lcotlinx/coroutines/sync/b;
 
     move-result-object p2
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p2, p0, Lcotlinx/coroutines/sync/d$e;->c:Ljava/lang/Object;
 
@@ -111,7 +108,6 @@
 
     move-object p2, v0
 
-    .line 3
     :goto_0
     iget-object v0, p0, Lcotlinx/coroutines/sync/d$e;->b:Lcotlinx/coroutines/sync/d;
 
@@ -140,12 +136,10 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/sync/d$e$a;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/sync/d$e$a;-><init>(Lcotlinx/coroutines/sync/d$e;Lcotlinx/coroutines/internal/d;)V
 
-    .line 2
     iget-object p1, p0, Lcotlinx/coroutines/sync/d$e;->b:Lcotlinx/coroutines/sync/d;
 
     sget-object v1, Lcotlinx/coroutines/sync/d;->a:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
@@ -166,7 +160,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcotlinx/coroutines/sync/d$e;->b:Lcotlinx/coroutines/sync/d;
 

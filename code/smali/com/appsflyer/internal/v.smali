@@ -19,7 +19,6 @@
 
     const-string v0, "E3F9E1E0CF99D0E56A055BA65E241B3399F7CEA524326B0CDD6EC1327ED0FDC1"
 
-    .line 1
     filled-new-array {v0}, [Ljava/lang/String;
 
     move-result-object v0
@@ -39,7 +38,6 @@
     :try_start_0
     const-string v1, "aid"
 
-    .line 1
     iget-object v2, p0, Lcom/appsflyer/internal/ContentFetcher;->context:Landroid/content/Context;
 
     invoke-virtual {v2}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
@@ -60,7 +58,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v4
@@ -75,7 +72,6 @@
 
     const/4 v8, 0x0
 
-    .line 3
     invoke-virtual/range {v3 .. v8}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v2
@@ -84,7 +80,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     :try_start_1
     invoke-interface {v2}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -92,7 +87,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 5
     invoke-interface {v2, v1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v0
@@ -105,7 +99,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
     :cond_0
@@ -136,7 +129,6 @@
 
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
-    .line 7
     :cond_3
     throw v0
 .end method
@@ -148,10 +140,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/appsflyer/internal/ContentFetcher;->start()V
 
-    .line 2
     invoke-super {p0}, Lcom/appsflyer/internal/ContentFetcher;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -166,10 +156,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/appsflyer/internal/ContentFetcher;->start()V
 
-    .line 2
     invoke-super {p0}, Lcom/appsflyer/internal/ContentFetcher;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -182,7 +170,6 @@
 .method public final synthetic query()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/appsflyer/internal/v;->values()Ljava/lang/String;
 
     move-result-object v0

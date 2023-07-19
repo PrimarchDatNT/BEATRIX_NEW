@@ -13,10 +13,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/vh0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/s2;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
     return-void
@@ -25,7 +23,6 @@
 .method private final J5()F
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
@@ -46,7 +43,6 @@
 
     const-string v1, "Remote exception getting video controller aspect ratio."
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0
@@ -63,7 +59,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     invoke-static {p0}, Lcom/google/android/gms/dynamic/f;->B0(Lcom/google/android/gms/dynamic/d;)Ljava/lang/Object;
 
@@ -73,7 +68,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     move-result v1
@@ -82,14 +76,12 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     move-result v1
 
     if-eq v1, v2, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     move-result v0
@@ -113,10 +105,8 @@
 .method public final I1(Lcom/google/android/gms/dynamic/d;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->e2:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -125,7 +115,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -134,7 +123,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/mh0;->c:Lcom/google/android/gms/dynamic/d;
 
     :cond_0
@@ -149,14 +137,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->c:Lcom/google/android/gms/dynamic/d;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
@@ -170,7 +156,6 @@
 
     return-object v0
 
-    .line 3
     :cond_1
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/u2;->H2()Lcom/google/android/gms/dynamic/d;
 
@@ -187,10 +172,8 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->m4:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -199,7 +182,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -212,7 +194,6 @@
 
     return v1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
@@ -224,7 +205,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/vh0;->i()F
@@ -233,7 +213,6 @@
 
     return v0
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
@@ -243,27 +222,23 @@
 
     if-eqz v0, :cond_2
 
-    .line 7
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/mh0;->J5()F
 
     move-result v0
 
     return v0
 
-    .line 8
     :cond_2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->c:Lcom/google/android/gms/dynamic/d;
 
     if-eqz v0, :cond_3
 
-    .line 9
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/mh0;->c6(Lcom/google/android/gms/dynamic/d;)F
 
     move-result v0
 
     return v0
 
-    .line 10
     :cond_3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
@@ -278,7 +253,6 @@
     :cond_4
     if-eqz v0, :cond_5
 
-    .line 11
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/u2;->getWidth()I
 
     move-result v2
@@ -293,7 +267,6 @@
 
     if-eq v2, v3, :cond_5
 
-    .line 12
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/u2;->getWidth()I
 
     move-result v2
@@ -320,7 +293,6 @@
 
     return v2
 
-    .line 13
     :cond_6
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/u2;->H2()Lcom/google/android/gms/dynamic/d;
 
@@ -341,10 +313,8 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->n4:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -353,7 +323,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -366,7 +335,6 @@
 
     return v1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
@@ -376,7 +344,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/vh0;->n()Lcom/google/android/gms/internal/ads/dp2;
@@ -401,10 +368,8 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->n4:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -413,7 +378,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -426,7 +390,6 @@
 
     return v1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
@@ -436,7 +399,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/vh0;->n()Lcom/google/android/gms/internal/ads/dp2;
@@ -461,10 +423,8 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->n4:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -473,7 +433,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -486,7 +445,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
@@ -505,10 +463,8 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->n4:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -517,7 +473,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -530,7 +485,6 @@
 
     return v1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
@@ -551,10 +505,8 @@
 .method public final l4(Lcom/google/android/gms/internal/ads/h4;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->n4:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -563,7 +515,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -574,7 +525,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
@@ -586,17 +536,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/mh0;->b:Lcom/google/android/gms/internal/ads/vh0;
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/vh0;->n()Lcom/google/android/gms/internal/ads/dp2;
 
     move-result-object v0
 
     check-cast v0, Lcom/google/android/gms/internal/ads/dv;
 
-    .line 7
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/dv;->l4(Lcom/google/android/gms/internal/ads/h4;)V
 
     :cond_1

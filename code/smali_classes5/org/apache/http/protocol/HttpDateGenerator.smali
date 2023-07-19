@@ -40,7 +40,6 @@
 
     const-string v0, "GMT"
 
-    .line 1
     invoke-static {v0}, Ljava/util/TimeZone;->getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
 
     move-result-object v0
@@ -53,20 +52,16 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lorg/apache/http/protocol/HttpDateGenerator;->dateAsLong:J
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lorg/apache/http/protocol/HttpDateGenerator;->dateAsText:Ljava/lang/String;
 
-    .line 4
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
@@ -77,7 +72,6 @@
 
     iput-object v0, p0, Lorg/apache/http/protocol/HttpDateGenerator;->dateformat:Ljava/text/DateFormat;
 
-    .line 5
     sget-object v1, Lorg/apache/http/protocol/HttpDateGenerator;->GMT:Ljava/util/TimeZone;
 
     invoke-virtual {v0, v1}, Ljava/text/DateFormat;->setTimeZone(Ljava/util/TimeZone;)V
@@ -92,13 +86,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 2
     iget-wide v2, p0, Lorg/apache/http/protocol/HttpDateGenerator;->dateAsLong:J
 
     sub-long v2, v0, v2
@@ -109,7 +101,6 @@
 
     if-lez v6, :cond_0
 
-    .line 3
     iget-object v2, p0, Lorg/apache/http/protocol/HttpDateGenerator;->dateformat:Ljava/text/DateFormat;
 
     new-instance v3, Ljava/util/Date;
@@ -122,10 +113,8 @@
 
     iput-object v2, p0, Lorg/apache/http/protocol/HttpDateGenerator;->dateAsText:Ljava/lang/String;
 
-    .line 4
     iput-wide v0, p0, Lorg/apache/http/protocol/HttpDateGenerator;->dateAsLong:J
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lorg/apache/http/protocol/HttpDateGenerator;->dateAsText:Ljava/lang/String;
     :try_end_0

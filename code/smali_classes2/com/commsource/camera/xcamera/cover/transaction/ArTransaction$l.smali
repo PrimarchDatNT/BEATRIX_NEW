@@ -57,7 +57,6 @@
 
     if-nez p1, :cond_1
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$l;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -68,7 +67,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->y1(Z)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$l;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;->M()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
@@ -87,7 +85,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getEffectBean()Lcom/meitu/template/bean/k;
 
     move-result-object v1
@@ -104,7 +101,6 @@
 
     invoke-virtual {v1, v2}, Landroid/util/SparseArray;->remove(I)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$l;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
@@ -120,7 +116,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$l;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
@@ -132,7 +127,6 @@
 
     move-result v1
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getNumber()I
 
     move-result v2
@@ -147,10 +141,8 @@
 
     move-result v5
 
-    .line 7
     invoke-static {v1, v2, v3, v4, v5}, Lcom/commsource/camera/beauty/ArAnalyAgent;->c(ZJIZ)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$l;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -159,7 +151,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->r1(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 9
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$l;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
@@ -170,7 +161,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->G1()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -183,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$l;->a(Lcom/meitu/template/bean/ArMaterial;)V

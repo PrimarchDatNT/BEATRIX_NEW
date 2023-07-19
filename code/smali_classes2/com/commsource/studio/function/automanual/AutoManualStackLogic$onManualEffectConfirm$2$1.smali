@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2$1;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
@@ -82,7 +80,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2$1;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2;
 
     iget-object v2, v2, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
@@ -97,10 +94,8 @@
 
     const/4 v3, 0x0
 
-    .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/studio/e;->l(Z)V
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2$1;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2;
 
     iget-object v4, v4, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
@@ -119,10 +114,8 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/e;->n(Landroid/util/SparseIntArray;)V
 
-    .line 6
     invoke-virtual {v2, v1}, Lcom/commsource/studio/e0;->l(Ljava/lang/Object;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2$1;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
@@ -135,7 +128,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/effect/c;->K(Z)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2$1;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onManualEffectConfirm$2;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
@@ -148,7 +140,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/component/UndoRedoComponent$c;->H(ZZ)V
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

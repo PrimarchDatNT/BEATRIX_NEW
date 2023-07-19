@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -21,7 +20,6 @@
 .method public a(Lio/jaegertracing/Configuration$e;)Lio/jaegertracing/b/j;
     .locals 0
 
-    .line 1
     new-instance p1, Lio/jaegertracing/a/o/a;
 
     invoke-direct {p1}, Lio/jaegertracing/a/o/a;-><init>()V

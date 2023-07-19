@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/AndroidReferenceMatchers$Companion;-><init>()V
 
     return-void
@@ -49,7 +47,6 @@
 
     if-eqz p5, :cond_1
 
-    .line 1
     invoke-static {}, Lkshark/AndroidReferenceMatchers;->access$getALWAYS$cp()Lcotlin/jvm/u/l;
 
     move-result-object p4
@@ -78,15 +75,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lkshark/LibraryLeakReferenceMatcher;
 
-    .line 2
     new-instance v1, Lkshark/AndroidReferenceMatchers$Companion$libraryLeak$1;
 
     invoke-direct {v1, p3}, Lkshark/AndroidReferenceMatchers$Companion$libraryLeak$1;-><init>(Lcotlin/jvm/u/l;)V
 
-    .line 3
     invoke-direct {v0, p1, p2, v1}, Lkshark/LibraryLeakReferenceMatcher;-><init>(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
     return-object v0
@@ -106,7 +100,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     invoke-static {}, Lkshark/AndroidReferenceMatchers;->access$getALWAYS$cp()Lcotlin/jvm/u/l;
 
     move-result-object p3
@@ -133,7 +126,6 @@
 
     if-eqz p5, :cond_1
 
-    .line 1
     invoke-static {}, Lkshark/AndroidReferenceMatchers;->access$getALWAYS$cp()Lcotlin/jvm/u/l;
 
     move-result-object p4
@@ -174,12 +166,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -197,7 +187,6 @@
 
     check-cast v1, Lkshark/AndroidReferenceMatchers;
 
-    .line 3
     invoke-virtual {v1, v0}, Lkshark/AndroidReferenceMatchers;->add$shark(Ljava/util/List;)V
 
     goto :goto_0
@@ -220,7 +209,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lkshark/AndroidReferenceMatchers;->Companion:Lkshark/AndroidReferenceMatchers$Companion;
 
     const-class v1, Lkshark/AndroidReferenceMatchers;
@@ -254,25 +242,18 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lkshark/AndroidReferenceMatchers;->Companion:Lkshark/AndroidReferenceMatchers$Companion;
 
-    .line 2
     sget-object v1, Lkshark/AndroidReferenceMatchers;->REFERENCES:Lkshark/AndroidReferenceMatchers;
 
-    .line 3
     sget-object v2, Lkshark/AndroidReferenceMatchers;->FINALIZER_WATCHDOG_DAEMON:Lkshark/AndroidReferenceMatchers;
 
-    .line 4
     sget-object v3, Lkshark/AndroidReferenceMatchers;->MAIN:Lkshark/AndroidReferenceMatchers;
 
-    .line 5
     sget-object v4, Lkshark/AndroidReferenceMatchers;->LEAK_CANARY_THREAD:Lkshark/AndroidReferenceMatchers;
 
-    .line 6
     sget-object v5, Lkshark/AndroidReferenceMatchers;->EVENT_RECEIVER__MMESSAGE_QUEUE:Lkshark/AndroidReferenceMatchers;
 
-    .line 7
     invoke-static {v1, v2, v3, v4, v5}, Ljava/util/EnumSet;->of(Ljava/lang/Enum;Ljava/lang/Enum;Ljava/lang/Enum;Ljava/lang/Enum;Ljava/lang/Enum;)Ljava/util/EnumSet;
 
     move-result-object v1
@@ -281,7 +262,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {v0, v1}, Lkshark/AndroidReferenceMatchers$Companion;->a(Ljava/util/Set;)Ljava/util/List;
 
     move-result-object v0
@@ -310,7 +290,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lkshark/n;
 
     new-instance v1, Lkshark/ReferencePattern$InstanceFieldPattern;
@@ -335,7 +314,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lkshark/n;
 
     new-instance v1, Lkshark/ReferencePattern$JavaLocalPattern;
@@ -399,7 +377,6 @@
 
     invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lkshark/ReferencePattern$InstanceFieldPattern;
 
     invoke-direct {v0, p1, p2}, Lkshark/ReferencePattern$InstanceFieldPattern;-><init>(Ljava/lang/String;Ljava/lang/String;)V
@@ -454,7 +431,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lkshark/ReferencePattern$NativeGlobalVariablePattern;
 
     invoke-direct {v0, p1}, Lkshark/ReferencePattern$NativeGlobalVariablePattern;-><init>(Ljava/lang/String;)V
@@ -518,7 +494,6 @@
 
     invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lkshark/ReferencePattern$StaticFieldPattern;
 
     invoke-direct {v0, p1, p2}, Lkshark/ReferencePattern$StaticFieldPattern;-><init>(Ljava/lang/String;Ljava/lang/String;)V

@@ -26,7 +26,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;Landroid/app/Activity;Lcom/commsource/mypage/album/y$f;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/commsource/mypage/album/y$a;->g:Ljava/lang/String;
 
     iput-object p3, p0, Lcom/commsource/mypage/album/y$a;->p:Landroid/app/Activity;
@@ -45,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/widget/dialog/s0/t;->L(Landroid/content/Context;)Z
 
     move-result v1
@@ -54,7 +52,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->toast_image_damaged_please_choose_again:I
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -70,10 +67,8 @@
     :cond_0
     const/4 p0, 0x2
 
-    .line 3
     invoke-interface {p1, p0, p2}, Lcom/commsource/mypage/album/y$f;->a(ILjava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,14 +83,12 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->toast_image_aspect_ratio_too_big:I
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
-    .line 2
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -106,20 +99,16 @@
 
     sget v4, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 3
     invoke-virtual {p0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 4
     invoke-static {v1, v2, v3, p0}, Lcom/commsource/widget/dialog/s0/t;->j0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;)V
 
     const/4 p0, 0x1
 
-    .line 5
     invoke-interface {p1, p0, p2}, Lcom/commsource/mypage/album/y$f;->a(ILjava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -134,7 +123,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-interface {p0, v1, p1}, Lcom/commsource/mypage/album/y$f;->a(ILjava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -151,13 +139,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-interface {p0, v1, p1}, Lcom/commsource/mypage/album/y$f;->a(ILjava/lang/String;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -172,14 +157,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/y$a;->g:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/library/p/e/a;->q(Ljava/lang/String;)Landroid/graphics/BitmapFactory$Options;
 
     move-result-object v1
 
-    .line 2
     iget-boolean v2, v1, Landroid/graphics/BitmapFactory$Options;->mCancel:Z
 
     if-nez v2, :cond_3
@@ -221,7 +204,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/mypage/album/y$a;->J:Lcom/commsource/mypage/album/y$f;
 
@@ -233,12 +215,10 @@
 
     invoke-static {v3}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     :goto_0
     iget-object v1, p0, Lcom/commsource/mypage/album/y$a;->p:Landroid/app/Activity;
@@ -253,12 +233,10 @@
 
     invoke-static {v4}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_3
     :goto_1
     iget-object v1, p0, Lcom/commsource/mypage/album/y$a;->p:Landroid/app/Activity;
@@ -273,7 +251,6 @@
 
     invoke-static {v4}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

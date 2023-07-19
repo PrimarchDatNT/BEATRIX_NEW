@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/network/AdLoader;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdLoader$1;->this$0:Lcom/mopub/network/AdLoader;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->RESPONSE_RECEIVED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v1, 0x1
@@ -59,17 +57,14 @@
 
     invoke-static {v0, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/AdLoader$1;->this$0:Lcom/mopub/network/AdLoader;
 
     invoke-static {v0, v1}, Lcom/mopub/network/AdLoader;->access$002(Lcom/mopub/network/AdLoader;Z)Z
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/network/AdLoader$1;->this$0:Lcom/mopub/network/AdLoader;
 
     invoke-static {v0, v4}, Lcom/mopub/network/AdLoader;->access$102(Lcom/mopub/network/AdLoader;Z)Z
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/network/AdLoader$1;->this$0:Lcom/mopub/network/AdLoader;
 
     invoke-static {v0, p1}, Lcom/mopub/network/AdLoader;->access$200(Lcom/mopub/network/AdLoader;Lcom/mopub/network/MoPubNetworkError;)V
@@ -84,7 +79,6 @@
         .end annotation
     .end param
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/AdLoader$1;->this$0:Lcom/mopub/network/AdLoader;
 
     invoke-static {v0}, Lcom/mopub/network/AdLoader;->access$300(Lcom/mopub/network/AdLoader;)Ljava/lang/Object;
@@ -93,7 +87,6 @@
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/mopub/network/AdLoader$1;->this$0:Lcom/mopub/network/AdLoader;
 
@@ -101,19 +94,16 @@
 
     invoke-static {v1, v2}, Lcom/mopub/network/AdLoader;->access$102(Lcom/mopub/network/AdLoader;Z)Z
 
-    .line 4
     iget-object v1, p0, Lcom/mopub/network/AdLoader$1;->this$0:Lcom/mopub/network/AdLoader;
 
     iput-object p1, v1, Lcom/mopub/network/AdLoader;->mMultiAdResponse:Lcom/mopub/network/MultiAdResponse;
 
-    .line 5
     invoke-virtual {p1}, Lcom/mopub/network/MultiAdResponse;->hasNext()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/network/AdLoader$1;->this$0:Lcom/mopub/network/AdLoader;
 
     iget-object v1, p1, Lcom/mopub/network/AdLoader;->mMultiAdResponse:Lcom/mopub/network/MultiAdResponse;
@@ -124,7 +114,6 @@
 
     invoke-static {p1, v1}, Lcom/mopub/network/AdLoader;->access$400(Lcom/mopub/network/AdLoader;Lcom/mopub/network/AdResponse;)V
 
-    .line 7
     :cond_0
     monitor-exit v0
 
@@ -147,7 +136,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/mopub/network/MultiAdResponse;
 
     invoke-virtual {p0, p1}, Lcom/mopub/network/AdLoader$1;->onResponse(Lcom/mopub/network/MultiAdResponse;)V

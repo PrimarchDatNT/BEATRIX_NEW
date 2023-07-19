@@ -25,7 +25,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/g1;->a:Lcom/commsource/widget/XSeekBar;
@@ -43,7 +42,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/g1;->a:Lcom/commsource/widget/XSeekBar;
 
     return-object v0

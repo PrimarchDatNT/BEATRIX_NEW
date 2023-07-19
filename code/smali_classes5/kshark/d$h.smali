@@ -25,7 +25,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/d;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-wide p1, p0, Lkshark/d$h;->a:J
@@ -38,7 +37,6 @@
 .method public a()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/d$h;->a:J
 
     return-wide v0

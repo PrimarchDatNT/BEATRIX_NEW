@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/StitchComponent$c;->g:Lcom/commsource/puzzle/StitchComponent;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$c;->g:Lcom/commsource/puzzle/StitchComponent;
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->puzzle_handle_icon_up:I
@@ -58,7 +56,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/puzzle/StitchComponent;->v(Lcom/commsource/puzzle/StitchComponent;Landroid/graphics/Bitmap;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$c;->g:Lcom/commsource/puzzle/StitchComponent;
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->puzzle_handle_icon_down:I
@@ -69,7 +66,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/puzzle/StitchComponent;->u(Lcom/commsource/puzzle/StitchComponent;Landroid/graphics/Bitmap;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$c;->g:Lcom/commsource/puzzle/StitchComponent;
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->puzzle_handle_icon_up_down:I
@@ -80,7 +76,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/puzzle/StitchComponent;->w(Lcom/commsource/puzzle/StitchComponent;Landroid/graphics/Bitmap;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$c;->g:Lcom/commsource/puzzle/StitchComponent;
 
     invoke-static {v1}, Lcom/commsource/puzzle/StitchComponent;->g(Lcom/commsource/puzzle/StitchComponent;)Landroid/graphics/RectF;
@@ -103,7 +98,6 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$c;->g:Lcom/commsource/puzzle/StitchComponent;
 
     invoke-static {v1}, Lcom/commsource/puzzle/StitchComponent;->h(Lcom/commsource/puzzle/StitchComponent;)Landroid/graphics/RectF;
@@ -118,7 +112,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -65,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontPage$d;->a:Lcom/commsource/studio/text/TextFontPage;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextFontPage;->c(Lcom/commsource/studio/text/TextFontPage;)Lcom/commsource/beautyplus/f0/ef;
@@ -86,15 +85,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast v1, Lcom/commsource/widget/h1/e;
 
-    .line 3
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 4
     const-class v3, Lcom/commsource/studio/text/g;
 
     invoke-virtual {v2, p1, v3}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
@@ -103,7 +99,6 @@
 
     const/4 v2, 0x1
 
-    .line 5
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -118,17 +113,14 @@
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -140,7 +132,6 @@
 
     throw p1
 
-    .line 9
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/text/TextFontPage$d;->a(Ljava/util/List;)V

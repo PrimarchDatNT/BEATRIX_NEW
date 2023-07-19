@@ -23,7 +23,6 @@
 .method constructor <init>(Landroidx/recyclerview/widget/GridLayoutManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$c;->a:Landroidx/recyclerview/widget/GridLayoutManager;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;-><init>()V
@@ -48,7 +47,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-object v3, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$c;->a:Landroidx/recyclerview/widget/GridLayoutManager;
 
@@ -65,7 +63,6 @@
     :cond_1
     const/4 v1, 0x1
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

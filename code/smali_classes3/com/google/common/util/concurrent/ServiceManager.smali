@@ -63,7 +63,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/util/concurrent/ServiceManager;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -76,14 +75,12 @@
 
     sput-object v0, Lcom/google/common/util/concurrent/ServiceManager;->c:Ljava/util/logging/Logger;
 
-    .line 2
     new-instance v0, Lcom/google/common/util/concurrent/ServiceManager$a;
 
     invoke-direct {v0}, Lcom/google/common/util/concurrent/ServiceManager$a;-><init>()V
 
     sput-object v0, Lcom/google/common/util/concurrent/ServiceManager;->d:Lcom/google/common/util/concurrent/j0$a;
 
-    .line 3
     new-instance v0, Lcom/google/common/util/concurrent/ServiceManager$b;
 
     invoke-direct {v0}, Lcom/google/common/util/concurrent/ServiceManager$b;-><init>()V
@@ -105,22 +102,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/ImmutableList;->copyOf(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableList;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 4
     sget-object p1, Lcom/google/common/util/concurrent/ServiceManager;->c:Ljava/util/logging/Logger;
 
     sget-object v0, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
@@ -135,7 +128,6 @@
 
     invoke-virtual {p1, v0, v3, v1}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 5
     new-instance p1, Lcom/google/common/util/concurrent/ServiceManager$d;
 
     invoke-direct {p1, v2}, Lcom/google/common/util/concurrent/ServiceManager$d;-><init>(Lcom/google/common/util/concurrent/ServiceManager$a;)V
@@ -144,7 +136,6 @@
 
     move-result-object p1
 
-    .line 6
     :cond_0
     new-instance v0, Lcom/google/common/util/concurrent/ServiceManager$f;
 
@@ -152,15 +143,12 @@
 
     iput-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->a:Lcom/google/common/util/concurrent/ServiceManager$f;
 
-    .line 7
     iput-object p1, p0, Lcom/google/common/util/concurrent/ServiceManager;->b:Lcom/google/common/collect/ImmutableList;
 
-    .line 8
     new-instance v1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v1, v0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    .line 9
     invoke-virtual {p1}, Lcom/google/common/collect/ImmutableList;->iterator()Lcom/google/common/collect/l2;
 
     move-result-object p1
@@ -178,7 +166,6 @@
 
     check-cast v0, Lcom/google/common/util/concurrent/Service;
 
-    .line 10
     new-instance v2, Lcom/google/common/util/concurrent/ServiceManager$e;
 
     invoke-direct {v2, v0, v1}, Lcom/google/common/util/concurrent/ServiceManager$e;-><init>(Lcom/google/common/util/concurrent/Service;Ljava/lang/ref/WeakReference;)V
@@ -189,7 +176,6 @@
 
     invoke-interface {v0, v2, v3}, Lcom/google/common/util/concurrent/Service;->a(Lcom/google/common/util/concurrent/Service$b;Ljava/util/concurrent/Executor;)V
 
-    .line 11
     invoke-interface {v0}, Lcom/google/common/util/concurrent/Service;->f()Lcom/google/common/util/concurrent/Service$State;
 
     move-result-object v2
@@ -212,7 +198,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_2
     iget-object p1, p0, Lcom/google/common/util/concurrent/ServiceManager;->a:Lcom/google/common/util/concurrent/ServiceManager$f;
 
@@ -224,7 +209,6 @@
 .method static synthetic b()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/util/concurrent/ServiceManager;->c:Ljava/util/logging/Logger;
 
     return-object v0
@@ -233,7 +217,6 @@
 .method static synthetic c()Lcom/google/common/util/concurrent/j0$a;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/util/concurrent/ServiceManager;->e:Lcom/google/common/util/concurrent/j0$a;
 
     return-object v0
@@ -242,7 +225,6 @@
 .method static synthetic d()Lcom/google/common/util/concurrent/j0$a;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/util/concurrent/ServiceManager;->d:Lcom/google/common/util/concurrent/j0$a;
 
     return-object v0
@@ -253,7 +235,6 @@
 .method public bridge synthetic a()Lcom/google/common/collect/ImmutableMultimap;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/ServiceManager;->l()Lcom/google/common/collect/ImmutableSetMultimap;
 
     move-result-object v0
@@ -269,7 +250,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->a:Lcom/google/common/util/concurrent/ServiceManager$f;
 
     invoke-static {}, Lcom/google/common/util/concurrent/n0;->d()Ljava/util/concurrent/Executor;
@@ -284,7 +264,6 @@
 .method public f(Lcom/google/common/util/concurrent/ServiceManager$c;Ljava/util/concurrent/Executor;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->a:Lcom/google/common/util/concurrent/ServiceManager$f;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/common/util/concurrent/ServiceManager$f;->a(Lcom/google/common/util/concurrent/ServiceManager$c;Ljava/util/concurrent/Executor;)V
@@ -295,7 +274,6 @@
 .method public g()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->a:Lcom/google/common/util/concurrent/ServiceManager$f;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/ServiceManager$f;->b()V
@@ -311,7 +289,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->a:Lcom/google/common/util/concurrent/ServiceManager$f;
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/google/common/util/concurrent/ServiceManager$f;->c(JLjava/util/concurrent/TimeUnit;)V
@@ -322,7 +299,6 @@
 .method public i()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->a:Lcom/google/common/util/concurrent/ServiceManager$f;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/ServiceManager$f;->d()V
@@ -338,7 +314,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->a:Lcom/google/common/util/concurrent/ServiceManager$f;
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/google/common/util/concurrent/ServiceManager$f;->e(JLjava/util/concurrent/TimeUnit;)V
@@ -349,7 +324,6 @@
 .method public k()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->b:Lcom/google/common/collect/ImmutableList;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableList;->iterator()Lcom/google/common/collect/l2;
@@ -369,7 +343,6 @@
 
     check-cast v1, Lcom/google/common/util/concurrent/Service;
 
-    .line 2
     invoke-interface {v1}, Lcom/google/common/util/concurrent/Service;->isRunning()Z
 
     move-result v1
@@ -398,7 +371,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->a:Lcom/google/common/util/concurrent/ServiceManager$f;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/ServiceManager$f;->l()Lcom/google/common/collect/ImmutableSetMultimap;
@@ -413,7 +385,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->b:Lcom/google/common/collect/ImmutableList;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableList;->iterator()Lcom/google/common/collect/l2;
@@ -433,12 +404,10 @@
 
     check-cast v1, Lcom/google/common/util/concurrent/Service;
 
-    .line 2
     invoke-interface {v1}, Lcom/google/common/util/concurrent/Service;->f()Lcom/google/common/util/concurrent/Service$State;
 
     move-result-object v2
 
-    .line 3
     sget-object v3, Lcom/google/common/util/concurrent/Service$State;->NEW:Lcom/google/common/util/concurrent/Service$State;
 
     if-ne v2, v3, :cond_0
@@ -457,7 +426,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->b:Lcom/google/common/collect/ImmutableList;
 
@@ -478,13 +446,11 @@
 
     check-cast v1, Lcom/google/common/util/concurrent/Service;
 
-    .line 5
     :try_start_0
     iget-object v2, p0, Lcom/google/common/util/concurrent/ServiceManager;->a:Lcom/google/common/util/concurrent/ServiceManager$f;
 
     invoke-virtual {v2, v1}, Lcom/google/common/util/concurrent/ServiceManager$f;->o(Lcom/google/common/util/concurrent/Service;)V
 
-    .line 6
     invoke-interface {v1}, Lcom/google/common/util/concurrent/Service;->e()Lcom/google/common/util/concurrent/Service;
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
@@ -494,7 +460,6 @@
     :catch_0
     move-exception v2
 
-    .line 7
     sget-object v3, Lcom/google/common/util/concurrent/ServiceManager;->c:Ljava/util/logging/Logger;
 
     sget-object v4, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
@@ -533,7 +498,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->a:Lcom/google/common/util/concurrent/ServiceManager$f;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/ServiceManager$f;->m()Lcom/google/common/collect/ImmutableMap;
@@ -548,7 +512,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager;->b:Lcom/google/common/collect/ImmutableList;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableList;->iterator()Lcom/google/common/collect/l2;
@@ -568,7 +531,6 @@
 
     check-cast v1, Lcom/google/common/util/concurrent/Service;
 
-    .line 2
     invoke-interface {v1}, Lcom/google/common/util/concurrent/Service;->i()Lcom/google/common/util/concurrent/Service;
 
     goto :goto_0
@@ -580,7 +542,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     const-class v0, Lcom/google/common/util/concurrent/ServiceManager;
 
     invoke-static {v0}, Lcom/google/common/base/p;->b(Ljava/lang/Class;)Lcom/google/common/base/p$b;
@@ -591,7 +552,6 @@
 
     const-class v2, Lcom/google/common/util/concurrent/ServiceManager$d;
 
-    .line 2
     invoke-static {v2}, Lcom/google/common/base/Predicates;->o(Ljava/lang/Class;)Lcom/google/common/base/u;
 
     move-result-object v2
@@ -610,7 +570,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextStylePanel$c;->a:Lcom/commsource/studio/text/TextStylePanel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -61,7 +59,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -74,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePanel$c;->a:Lcom/commsource/studio/text/TextStylePanel;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextStylePanel;->b(Lcom/commsource/studio/text/TextStylePanel;)Lcom/commsource/studio/text/d;
@@ -98,7 +94,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextFontPage;->l()V
 
-    .line 2
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

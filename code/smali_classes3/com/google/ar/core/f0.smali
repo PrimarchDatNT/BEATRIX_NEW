@@ -11,7 +11,6 @@
 .method constructor <init>(Lcom/google/ar/core/InstallActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ar/core/f0;->a:Lcom/google/ar/core/InstallActivity;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -24,7 +23,6 @@
 .method public final onAnimationEnd(Landroid/animation/Animator;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/ar/core/f0;->a:Lcom/google/ar/core/InstallActivity;
 
     invoke-static {p1}, Lcom/google/ar/core/InstallActivity;->access$300(Lcom/google/ar/core/InstallActivity;)V

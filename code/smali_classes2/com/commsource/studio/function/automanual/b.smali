@@ -58,7 +58,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/automanual/d;-><init>(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/b;->c:Lcom/commsource/studio/processor/b;
@@ -88,7 +87,6 @@
 
     move-object p3, v0
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/function/automanual/b;-><init>(Lcom/commsource/studio/processor/b;Lcom/commsource/studio/layer/PaintMaskLayer;Lcom/commsource/studio/MagnifyComponent;)V
 
@@ -112,10 +110,8 @@
 
     if-nez p1, :cond_1
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/b;->c:Lcom/commsource/studio/processor/b;
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/processor/b;->N()Landroid/graphics/Bitmap;
 
     move-result-object v2
@@ -132,7 +128,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/processor/b;->S(Landroid/graphics/Bitmap;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/processor/b;->L()Landroid/graphics/Bitmap;
 
     move-result-object v1
@@ -143,7 +138,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/b;->e:Lcom/commsource/studio/MagnifyComponent;
 
     if-eqz v1, :cond_0
@@ -154,7 +148,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/MagnifyComponent;->setMagnifyBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/b;->d:Lcom/commsource/studio/layer/PaintMaskLayer;
 
@@ -170,7 +163,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/e;->f()Lcom/commsource/studio/g;
 
@@ -184,10 +176,8 @@
 
     if-eqz v2, :cond_3
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/studio/function/automanual/b;->c:Lcom/commsource/studio/processor/b;
 
-    .line 8
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
     move-result-object v4
@@ -202,14 +192,12 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/processor/b;->S(Landroid/graphics/Bitmap;)V
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/studio/function/automanual/b;->e:Lcom/commsource/studio/MagnifyComponent;
 
     if-eqz v4, :cond_2
 
     invoke-virtual {v4, v2}, Lcom/commsource/studio/MagnifyComponent;->setMagnifyBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 10
     :cond_2
     invoke-virtual {v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->e()Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -217,7 +205,6 @@
 
     invoke-static {v2, v3}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 11
     :cond_3
     invoke-virtual {p1}, Lcom/commsource/studio/e;->g()Lcom/commsource/studio/g;
 
@@ -231,12 +218,10 @@
 
     if-eqz p1, :cond_4
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/studio/function/automanual/b;->d:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     if-eqz v2, :cond_4
 
-    .line 13
     invoke-virtual {v2}, Lcom/commsource/studio/layer/PaintMaskLayer;->I0()Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     move-result-object v3
@@ -251,14 +236,12 @@
 
     invoke-virtual {v3, p1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->i(Landroid/graphics/Bitmap;)V
 
-    .line 14
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 15
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -275,15 +258,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/e;
 
     invoke-direct {v1}, Lcom/commsource/studio/e;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/function/automanual/b;->c:Lcom/commsource/studio/processor/b;
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/studio/processor/b;->L()Landroid/graphics/Bitmap;
 
     move-result-object v2
@@ -310,12 +290,10 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/e;->p(Lcom/commsource/studio/g;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/function/automanual/b;->d:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/studio/layer/PaintMaskLayer;->I0()Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     move-result-object v2
@@ -341,7 +319,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/e;->q(Lcom/commsource/studio/g;)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -363,15 +340,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/function/automanual/d;->e(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/b;->c:Lcom/commsource/studio/processor/b;
 
     invoke-virtual {p1}, Lcom/commsource/studio/processor/b;->O()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/b;->e:Lcom/commsource/studio/MagnifyComponent;
 
     if-eqz p1, :cond_0
@@ -384,7 +358,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/MagnifyComponent;->setMagnifyBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -406,7 +379,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/e;->b()Lcom/commsource/studio/g;
 
     move-result-object p1
@@ -419,20 +391,16 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/b;->c:Lcom/commsource/studio/processor/b;
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v2
 
     invoke-static {p1, v2}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/processor/b;->O()V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/automanual/b;->e:Lcom/commsource/studio/MagnifyComponent;
 
     if-eqz p1, :cond_0
@@ -445,7 +413,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/MagnifyComponent;->setMagnifyBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -461,7 +428,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/b;->e:Lcom/commsource/studio/MagnifyComponent;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -478,7 +444,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/b;->d:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -497,7 +462,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/b;->e:Lcom/commsource/studio/MagnifyComponent;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -516,7 +480,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/b;->d:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

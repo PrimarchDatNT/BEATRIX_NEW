@@ -27,7 +27,6 @@
 .method constructor <init>(Ljava/util/concurrent/Executor;Lcom/google/common/base/z;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/n0$b;->a:Ljava/util/concurrent/Executor;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/n0$b;->b:Lcom/google/common/base/z;
@@ -42,7 +41,6 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$b;->a:Ljava/util/concurrent/Executor;
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/n0$b;->b:Lcom/google/common/base/z;

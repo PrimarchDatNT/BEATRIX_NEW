@@ -39,7 +39,6 @@
 
     const-string v1, "LightPusher"
 
-    .line 1
     sput-object v1, Lcom/meitu/pushkit/g;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -50,20 +49,16 @@
 .method public constructor <init>(Landroid/os/Handler;Lcom/meitu/pushkit/f0;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/pushkit/g;->c:Ljava/util/List;
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/pushkit/g;->a:Landroid/os/Handler;
 
-    .line 4
     iput-object p2, p0, Lcom/meitu/pushkit/g;->b:Lcom/meitu/pushkit/f0;
 
     return-void
@@ -87,12 +82,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/pushkit/g;->c:Ljava/util/List;
 
@@ -104,20 +97,17 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/pushkit/g;->c:Ljava/util/List;
 
     const/4 v2, 0x0
 
     invoke-interface {v1, v2}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/meitu/pushkit/g;->c:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -133,14 +123,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x1a
 
     if-lt v1, v2, :cond_1
 
-    .line 2
     sget-object v1, Lcom/meitu/pushkit/g;->d:Ljava/lang/String;
 
     invoke-virtual {p1, v1}, Landroid/app/NotificationManager;->getNotificationChannel(Ljava/lang/String;)Landroid/app/NotificationChannel;
@@ -149,7 +137,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     new-instance v1, Landroid/app/NotificationChannel;
 
     sget-object v2, Lcom/meitu/pushkit/g;->d:Ljava/lang/String;
@@ -160,10 +147,8 @@
 
     invoke-direct {v1, v2, v4, v3}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/app/NotificationManager;->createNotificationChannel(Landroid/app/NotificationChannel;)V
 
-    .line 5
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object p1
@@ -186,13 +171,11 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     sget-object p1, Lcom/meitu/pushkit/g;->d:Ljava/lang/String;
 
     invoke-virtual {p2, p1}, Landroid/app/Notification$Builder;->setChannelId(Ljava/lang/String;)Landroid/app/Notification$Builder;
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -210,7 +193,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/meitu/pushkit/g;->a:Landroid/os/Handler;
 
     const/16 v1, 0x11
@@ -221,19 +203,16 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/pushkit/g;->a:Landroid/os/Handler;
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/pushkit/f;->d()Lcom/meitu/pushkit/f;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/meitu/pushkit/f;->a()V
 
-    .line 4
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object p1
@@ -244,11 +223,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/pushkit/g;->j()Z
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -263,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/pushkit/f;->d()Lcom/meitu/pushkit/f;
 
     move-result-object v1
@@ -272,17 +248,14 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/meitu/pushkit/g;->f(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     iput-object v1, p0, Lcom/meitu/pushkit/g;->c:Ljava/util/List;
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
@@ -310,10 +283,8 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/pushkit/g;->j()Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -326,15 +297,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/pushkit/g;->c:Ljava/util/List;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/pushkit/f;->d()Lcom/meitu/pushkit/f;
 
@@ -342,7 +310,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/pushkit/f;->a()V
 
-    .line 4
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v1
@@ -351,7 +318,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -376,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -385,24 +350,20 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
-    .line 4
     :try_start_0
     new-instance v2, Lorg/json/JSONArray;
 
     invoke-direct {v2, p1}, Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v2}, Lorg/json/JSONArray;->length()I
 
     move-result p1
@@ -412,38 +373,32 @@
     :goto_0
     if-ge v3, p1, :cond_2
 
-    .line 6
     invoke-virtual {v2, v3}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v4
 
     const-string v5, "payload"
 
-    .line 7
     invoke-virtual {v4, v5}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
     const-string v6, "channelId"
 
-    .line 8
     invoke-virtual {v4, v6}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
 
     move-result v4
 
-    .line 9
     invoke-static {v5}, Lcom/meitu/pushkit/u;->h(Ljava/lang/String;)Lcom/meitu/pushkit/sdk/info/PushInfo;
 
     move-result-object v5
 
     if-eqz v5, :cond_1
 
-    .line 10
     invoke-static {v4}, Lcom/meitu/pushkit/sdk/info/PushChannel;->getPushChannel(I)Lcom/meitu/pushkit/sdk/info/PushChannel;
 
     move-result-object v4
 
-    .line 11
     new-instance v6, Landroid/util/Pair;
 
     invoke-direct {v6, v5, v4}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -460,7 +415,6 @@
     :catch_0
     move-exception p1
 
-    .line 12
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v2
@@ -469,7 +423,6 @@
 
     invoke-virtual {v2, v3, p1}, Lcom/meitu/library/m/a/b;->i(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 13
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -483,17 +436,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/pushkit/h;->n0:Z
 
     if-ne v1, p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Landroid/os/Message;->obtain()Landroid/os/Message;
 
@@ -501,10 +451,8 @@
 
     const/16 v2, 0x10
 
-    .line 4
     iput v2, v1, Landroid/os/Message;->what:I
 
-    .line 5
     sput-boolean p1, Lcom/meitu/pushkit/h;->n0:Z
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -513,12 +461,10 @@
 
     iput-object p1, v1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/pushkit/g;->a:Landroid/os/Handler;
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -531,7 +477,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/pushkit/f;->d()Lcom/meitu/pushkit/f;
 
     move-result-object v1
@@ -544,7 +489,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object p1
@@ -553,12 +497,10 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/library/m/a/b;->f(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getTokenInfo()Lcom/meitu/pushkit/sdk/info/TokenInfo;
 
@@ -566,7 +508,6 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object p1
@@ -575,36 +516,29 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/library/m/a/b;->f(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     new-instance v1, Landroid/util/Pair;
 
     invoke-direct {v1, p1, p2}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 8
     invoke-static {}, Landroid/os/Message;->obtain()Landroid/os/Message;
 
     move-result-object p1
 
     const/16 p2, 0xb
 
-    .line 9
     iput p2, p1, Landroid/os/Message;->what:I
 
-    .line 10
     iput-object v1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    .line 11
     iget-object p2, p0, Lcom/meitu/pushkit/g;->a:Landroid/os/Handler;
 
     invoke-virtual {p2, p1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -617,14 +551,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getTokenInfo()Lcom/meitu/pushkit/sdk/info/TokenInfo;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object p1
@@ -633,12 +565,10 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/library/m/a/b;->f(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-static {}, Landroid/os/Message;->obtain()Landroid/os/Message;
 
@@ -646,21 +576,16 @@
 
     const/16 v2, 0xc
 
-    .line 5
     iput v2, v1, Landroid/os/Message;->what:I
 
-    .line 6
     iput-object p1, v1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    .line 7
     iput p2, v1, Landroid/os/Message;->arg1:I
 
-    .line 8
     iget-object p1, p0, Lcom/meitu/pushkit/g;->a:Landroid/os/Handler;
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -673,14 +598,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/pushkit/h;->n0:Z
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v1
@@ -689,12 +612,10 @@
 
     invoke-virtual {v1, v3}, Lcom/meitu/library/m/a/b;->f(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/pushkit/g;->c:Ljava/util/List;
 
@@ -704,7 +625,6 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v1
@@ -713,12 +633,10 @@
 
     invoke-virtual {v1, v3}, Lcom/meitu/library/m/a/b;->f(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 7
     :cond_1
     new-instance v1, Ljava/util/LinkedList;
 
@@ -726,7 +644,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/LinkedList;-><init>(Ljava/util/Collection;)V
 
-    .line 8
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -744,17 +661,14 @@
 
     check-cast v3, Landroid/util/Pair;
 
-    .line 9
     iget-object v4, v3, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v4, Lcom/meitu/pushkit/sdk/info/PushInfo;
 
-    .line 10
     iget-object v3, v3, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     check-cast v3, Lcom/meitu/pushkit/sdk/info/PushChannel;
 
-    .line 11
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getContext()Landroid/content/Context;
 
     move-result-object v5
@@ -767,7 +681,6 @@
 
     if-nez v5, :cond_2
 
-    .line 12
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v3
@@ -792,7 +705,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getContext()Landroid/content/Context;
 
@@ -808,7 +720,6 @@
 
     if-nez v6, :cond_3
 
-    .line 14
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v3
@@ -841,7 +752,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_3
     new-instance v6, Landroid/content/Intent;
 
@@ -851,15 +761,12 @@
 
     const-string v7, "android.intent.category.DEFAULT"
 
-    .line 16
     invoke-virtual {v6, v7}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 17
     iget-object v7, v4, Lcom/meitu/pushkit/sdk/info/PushInfo;->pkg:Ljava/lang/String;
 
     invoke-virtual {v6, v7}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 18
     iget-object v7, v5, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v7, Ljava/lang/String;
@@ -872,10 +779,8 @@
 
     const/high16 v5, 0x10000000
 
-    .line 19
     invoke-virtual {v6, v5}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 20
     invoke-virtual {v3}, Lcom/meitu/pushkit/sdk/info/PushChannel;->getPushChannelId()I
 
     move-result v3
@@ -884,14 +789,12 @@
 
     invoke-virtual {v6, v5, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 21
     iget-object v3, v4, Lcom/meitu/pushkit/sdk/info/PushInfo;->payload:Ljava/lang/String;
 
     const-string v5, "payload"
 
     invoke-virtual {v6, v5, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 22
     :try_start_0
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getContext()Landroid/content/Context;
 
@@ -899,7 +802,6 @@
 
     invoke-virtual {v3, v6}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 23
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v3
@@ -929,7 +831,6 @@
     :catchall_0
     move-exception v2
 
-    .line 24
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v3
@@ -938,14 +839,12 @@
 
     invoke-virtual {v3, v4, v2}, Lcom/meitu/library/m/a/b;->i(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 25
     iget-object v2, p0, Lcom/meitu/pushkit/g;->b:Lcom/meitu/pushkit/f0;
 
     const/4 v3, 0x2
 
     invoke-interface {v2, v3}, Lcom/meitu/pushkit/f0;->a(I)V
 
-    .line 26
     :cond_4
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
@@ -971,21 +870,18 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 27
     invoke-static {}, Lcom/meitu/pushkit/f;->d()Lcom/meitu/pushkit/f;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/pushkit/f;->a()V
 
-    .line 28
     iget-object v1, p0, Lcom/meitu/pushkit/g;->c:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
     const/4 v1, 0x1
 
-    .line 29
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -998,21 +894,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Lcom/meitu/pushkit/sdk/info/PushChannel;->isValid(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_7
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_7
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/pushkit/u;->h(Ljava/lang/String;)Lcom/meitu/pushkit/sdk/info/PushInfo;
 
     move-result-object v1
@@ -1021,7 +914,6 @@
 
     goto/16 :goto_2
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/meitu/pushkit/h;->w()Lcom/meitu/pushkit/h;
 
@@ -1035,7 +927,6 @@
 
     if-nez v2, :cond_1
 
-    .line 5
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object p1
@@ -1058,12 +949,10 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     iget-object v2, v1, Lcom/meitu/pushkit/sdk/info/PushInfo;->scheme:Ljava/lang/String;
 
@@ -1071,22 +960,18 @@
 
     move-result-object v2
 
-    .line 8
     new-instance v3, Landroid/content/Intent;
 
     const-string v4, "android.intent.action.VIEW"
 
     invoke-direct {v3, v4}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 9
     iget-object v4, v1, Lcom/meitu/pushkit/sdk/info/PushInfo;->pkg:Ljava/lang/String;
 
     invoke-virtual {v3, v4}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 10
     invoke-virtual {v3, v2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 11
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getContext()Landroid/content/Context;
 
     move-result-object v4
@@ -1097,7 +982,6 @@
 
     if-nez v3, :cond_2
 
-    .line 12
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object p1
@@ -1128,12 +1012,10 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/library/m/a/b;->f(Ljava/lang/String;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 14
     :cond_2
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getContext()Landroid/content/Context;
 
@@ -1147,7 +1029,6 @@
 
     check-cast v4, Landroid/app/NotificationManager;
 
-    .line 15
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getContext()Landroid/content/Context;
 
     move-result-object v5
@@ -1164,7 +1045,6 @@
 
     move-result-object v5
 
-    .line 16
     new-instance v6, Landroid/content/Intent;
 
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getContext()Landroid/content/Context;
@@ -1175,7 +1055,6 @@
 
     invoke-direct {v6, v7, v8}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 17
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getContext()Landroid/content/Context;
 
     move-result-object v7
@@ -1188,13 +1067,10 @@
 
     const-string v7, "action.receive.light.push"
 
-    .line 18
     invoke-virtual {v6, v7}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 19
     invoke-virtual {v6, v2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 20
     iget-object v2, v3, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v2, Ljava/lang/String;
@@ -1203,7 +1079,6 @@
 
     invoke-virtual {v6, v7, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 21
     iget-object v2, v3, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     check-cast v2, Ljava/lang/String;
@@ -1214,20 +1089,16 @@
 
     const-string v2, "channelId"
 
-    .line 22
     invoke-virtual {v6, v2, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     const-string p2, "pushInfo"
 
-    .line 23
     invoke-virtual {v6, p2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     const-string p2, "payload"
 
-    .line 24
     invoke-virtual {v6, p2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 25
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -1238,7 +1109,6 @@
 
     move-result-object p1
 
-    .line 26
     new-instance p2, Landroid/app/Notification$Builder;
 
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getContext()Landroid/content/Context;
@@ -1247,46 +1117,38 @@
 
     invoke-direct {p2, v2}, Landroid/app/Notification$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 27
     invoke-virtual {p2, v5}, Landroid/app/Notification$Builder;->setLargeIcon(Landroid/graphics/Bitmap;)Landroid/app/Notification$Builder;
 
     move-result-object p2
 
     iget-object v2, v1, Lcom/meitu/pushkit/sdk/info/PushInfo;->title:Ljava/lang/String;
 
-    .line 28
     invoke-virtual {p2, v2}, Landroid/app/Notification$Builder;->setContentTitle(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
 
     move-result-object p2
 
     iget-object v2, v1, Lcom/meitu/pushkit/sdk/info/PushInfo;->desc:Ljava/lang/String;
 
-    .line 29
     invoke-virtual {p2, v2}, Landroid/app/Notification$Builder;->setContentText(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
 
     move-result-object p2
 
-    .line 30
     invoke-virtual {p2, p1}, Landroid/app/Notification$Builder;->setContentIntent(Landroid/app/PendingIntent;)Landroid/app/Notification$Builder;
 
     move-result-object p1
 
     const/4 p2, 0x1
 
-    .line 31
     invoke-virtual {p1, p2}, Landroid/app/Notification$Builder;->setAutoCancel(Z)Landroid/app/Notification$Builder;
 
     move-result-object p1
 
-    .line 32
     invoke-direct {p0, v4, p1}, Lcom/meitu/pushkit/g;->e(Landroid/app/NotificationManager;Landroid/app/Notification$Builder;)V
 
-    .line 33
     sget p2, Lcom/meitu/pushkit/sdk/MeituPush;->smallIcon:I
 
     if-nez p2, :cond_3
 
-    .line 34
     invoke-static {}, Lcom/meitu/pushkit/sdk/MeituPush;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -1301,18 +1163,15 @@
 
     sput p2, Lcom/meitu/pushkit/sdk/MeituPush;->smallIcon:I
 
-    .line 35
     :cond_3
     sget p2, Lcom/meitu/pushkit/sdk/MeituPush;->smallIcon:I
 
     if-eqz p2, :cond_4
 
-    .line 36
     invoke-virtual {p1, p2}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
 
     goto :goto_0
 
-    .line 37
     :cond_4
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
@@ -1322,7 +1181,6 @@
 
     invoke-virtual {p2, v2}, Lcom/meitu/library/m/a/b;->f(Ljava/lang/String;)V
 
-    .line 38
     :goto_0
     sget p2, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -1330,20 +1188,17 @@
 
     if-lt p2, v2, :cond_5
 
-    .line 39
     invoke-virtual {p1}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
 
     move-result-object p1
 
     goto :goto_1
 
-    .line 40
     :cond_5
     invoke-virtual {p1}, Landroid/app/Notification$Builder;->getNotification()Landroid/app/Notification;
 
     move-result-object p1
 
-    .line 41
     :goto_1
     invoke-static {}, Lcom/meitu/pushkit/l;->v()Z
 
@@ -1353,10 +1208,8 @@
 
     const/4 p2, 0x0
 
-    .line 42
     invoke-static {p1, p2}, Lcom/meitu/pushkit/l;->f(Landroid/app/Notification;Landroid/graphics/Bitmap;)V
 
-    .line 43
     :cond_6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1366,7 +1219,6 @@
 
     invoke-virtual {v4, p2, p1}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
 
-    .line 44
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object p1
@@ -1389,12 +1241,10 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 45
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 46
     :cond_7
     :goto_2
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
@@ -1423,7 +1273,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/m/a/b;->f(Ljava/lang/String;)V
 
-    .line 47
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1445,17 +1294,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/pushkit/g;->a(Landroid/util/Pair;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/pushkit/g;->j()Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/meitu/pushkit/f;->d()Lcom/meitu/pushkit/f;
 
     move-result-object p1
@@ -1464,7 +1310,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/pushkit/f;->s0(Ljava/util/List;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

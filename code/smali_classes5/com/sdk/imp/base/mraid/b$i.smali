@@ -32,14 +32,12 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/b$i;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/sdk/imp/base/mraid/b$i;->b:I
 
     return-void
@@ -54,10 +52,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/sdk/imp/base/i;->a(Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
@@ -66,7 +62,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     new-instance v0, Landroid/content/IntentFilter;
 
     const-string v1, "android.intent.action.CONFIGURATION_CHANGED"
@@ -82,17 +77,14 @@
 .method public b()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$i;->a:Landroid/content/Context;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p0}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/sdk/imp/base/mraid/b$i;->a:Landroid/content/Context;
 
     :cond_0
@@ -102,14 +94,12 @@
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/base/mraid/b$i;->a:Landroid/content/Context;
 
     if-nez p1, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -123,22 +113,18 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/sdk/imp/base/mraid/b$i;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {p1}, Lcom/sdk/imp/base/mraid/b;->g(Lcom/sdk/imp/base/mraid/b;)I
 
     move-result p1
 
-    .line 4
     iget p2, p0, Lcom/sdk/imp/base/mraid/b$i;->b:I
 
     if-eq p1, p2, :cond_1
 
-    .line 5
     iput p1, p0, Lcom/sdk/imp/base/mraid/b$i;->b:I
 
-    .line 6
     iget-object p2, p0, Lcom/sdk/imp/base/mraid/b$i;->c:Lcom/sdk/imp/base/mraid/b;
 
     invoke-virtual {p2, p1}, Lcom/sdk/imp/base/mraid/b;->A(I)V

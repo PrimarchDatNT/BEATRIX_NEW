@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/camera/ardata/j;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ardata/j$a;->g:Lcom/commsource/camera/ardata/j;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ardata/j$a;->g:Lcom/commsource/camera/ardata/j;
 
     invoke-static {v1}, Lcom/commsource/camera/ardata/j;->b(Lcom/commsource/camera/ardata/j;)Ljava/lang/ref/WeakReference;
@@ -54,7 +52,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/camera/ardata/j;->g:Ljava/util/concurrent/ConcurrentHashMap;
 
     iget-object v2, p0, Lcom/commsource/camera/ardata/j$a;->g:Lcom/commsource/camera/ardata/j;
@@ -65,18 +62,15 @@
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/commsource/camera/ardata/j$a;->g:Lcom/commsource/camera/ardata/j;
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/ardata/j;->d(Landroid/content/Context;)V
 
-    .line 5
     new-instance v2, Lf/k/i/a/d;
 
     iget-object v3, p0, Lcom/commsource/camera/ardata/j$a;->g:Lcom/commsource/camera/ardata/j;
@@ -87,7 +81,6 @@
 
     iget-object v4, p0, Lcom/commsource/camera/ardata/j$a;->g:Lcom/commsource/camera/ardata/j;
 
-    .line 6
     invoke-virtual {v4, v1}, Lcom/commsource/camera/ardata/j;->i(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v4
@@ -110,7 +103,6 @@
 
     invoke-direct {v2, v3, v4, v5, v6}, Lf/k/i/a/d;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)V
 
-    .line 7
     invoke-static {}, Lf/k/i/a/b;->f()Lf/k/i/a/b;
 
     move-result-object v3
@@ -121,7 +113,6 @@
 
     invoke-virtual {v3, v2, v4}, Lf/k/i/a/b;->n(Lf/k/i/a/d;Lf/k/i/a/h/a;)V
 
-    .line 8
     sget-object v1, Lcom/commsource/camera/ardata/j;->g:Ljava/util/concurrent/ConcurrentHashMap;
 
     iget-object v2, p0, Lcom/commsource/camera/ardata/j$a;->g:Lcom/commsource/camera/ardata/j;
@@ -132,7 +123,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/ManagedChannelImpl$v;Lio/grpc/internal/ManagedChannelImpl$v$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$v$b;->b:Lio/grpc/internal/ManagedChannelImpl$v;
 
     iput-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$v$b;->a:Lio/grpc/internal/ManagedChannelImpl$v$c;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v$b;->b:Lio/grpc/internal/ManagedChannelImpl$v;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
@@ -61,7 +59,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v$b;->b:Lio/grpc/internal/ManagedChannelImpl$v;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
@@ -72,7 +69,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v$b;->b:Lio/grpc/internal/ManagedChannelImpl$v;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
@@ -83,7 +79,6 @@
 
     invoke-static {v0, v1}, Lio/grpc/internal/ManagedChannelImpl;->S(Lio/grpc/internal/ManagedChannelImpl;Ljava/util/Collection;)Ljava/util/Collection;
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v$b;->b:Lio/grpc/internal/ManagedChannelImpl$v;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
@@ -98,7 +93,6 @@
 
     invoke-virtual {v1, v0, v2}, Lio/grpc/internal/b1;->d(Ljava/lang/Object;Z)V
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v$b;->b:Lio/grpc/internal/ManagedChannelImpl$v;
 
@@ -114,7 +108,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v$b;->a:Lio/grpc/internal/ManagedChannelImpl$v$c;
 

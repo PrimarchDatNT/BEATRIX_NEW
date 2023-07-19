@@ -28,7 +28,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -49,7 +48,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     sget-boolean v0, Lcom/google/common/base/k$d;->a:Z
 
     const/4 v1, 0x0
@@ -58,7 +56,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {}, Ljava/lang/ClassLoader;->getSystemClassLoader()Ljava/lang/ClassLoader;
@@ -72,7 +69,6 @@
     :try_start_1
     const-string v2, "com.google.common.base.internal.Finalizer"
 
-    .line 3
     invoke-virtual {v0, v2}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -85,7 +81,6 @@
     :cond_1
     return-object v1
 
-    .line 4
     :catch_1
     invoke-static {}, Lcom/google/common/base/k;->a()Ljava/util/logging/Logger;
 

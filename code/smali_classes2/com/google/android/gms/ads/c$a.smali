@@ -24,13 +24,10 @@
 .method private constructor <init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/in2;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     iput-object p1, p0, Lcom/google/android/gms/ads/c$a;->a:Landroid/content/Context;
 
-    .line 7
     iput-object p2, p0, Lcom/google/android/gms/ads/c$a;->b:Lcom/google/android/gms/internal/ads/in2;
 
     return-void
@@ -41,14 +38,12 @@
 
     const-string v0, "context cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroid/content/Context;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->b()Lcom/google/android/gms/internal/ads/im2;
 
     move-result-object v1
@@ -57,12 +52,10 @@
 
     invoke-direct {v2}, Lcom/google/android/gms/internal/ads/qb;-><init>()V
 
-    .line 3
     invoke-virtual {v1, p1, p2, v2}, Lcom/google/android/gms/internal/ads/im2;->i(Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/internal/ads/tb;)Lcom/google/android/gms/internal/ads/in2;
 
     move-result-object p1
 
-    .line 4
     invoke-direct {p0, v0, p1}, Lcom/google/android/gms/ads/c$a;-><init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/in2;)V
 
     return-void
@@ -73,7 +66,6 @@
 .method public a()Lcom/google/android/gms/ads/c;
     .locals 3
 
-    .line 1
     :try_start_0
     new-instance v0, Lcom/google/android/gms/ads/c;
 
@@ -96,7 +88,6 @@
 
     const-string v1, "Failed to build AdLoader."
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0
@@ -109,7 +100,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/ads/c$a;->b:Lcom/google/android/gms/internal/ads/in2;
 
@@ -128,7 +118,6 @@
 
     const-string v0, "Failed to add app install ad listener"
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
@@ -140,7 +129,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/ads/c$a;->b:Lcom/google/android/gms/internal/ads/in2;
 
@@ -159,7 +147,6 @@
 
     const-string v0, "Failed to add content ad listener"
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
@@ -169,26 +156,21 @@
 .method public d(Ljava/lang/String;Lcom/google/android/gms/ads/formats/f$c;Lcom/google/android/gms/ads/formats/f$b;)Lcom/google/android/gms/ads/c$a;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/b5;
 
     invoke-direct {v0, p2, p3}, Lcom/google/android/gms/internal/ads/b5;-><init>(Lcom/google/android/gms/ads/formats/f$c;Lcom/google/android/gms/ads/formats/f$b;)V
 
-    .line 2
     :try_start_0
     iget-object p2, p0, Lcom/google/android/gms/ads/c$a;->b:Lcom/google/android/gms/internal/ads/in2;
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/b5;->e()Lcom/google/android/gms/internal/ads/c4;
 
     move-result-object p3
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/b5;->f()Lcom/google/android/gms/internal/ads/b4;
 
     move-result-object v0
 
-    .line 5
     invoke-interface {p2, p1, p3, v0}, Lcom/google/android/gms/internal/ads/in2;->F4(Ljava/lang/String;Lcom/google/android/gms/internal/ads/c4;Lcom/google/android/gms/internal/ads/b4;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
@@ -200,7 +182,6 @@
 
     const-string p2, "Failed to add custom template ad listener"
 
-    .line 6
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
@@ -212,12 +193,10 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     array-length v0, p2
 
     if-lez v0, :cond_0
 
-    .line 2
     :try_start_0
     new-instance v0, Lcom/google/android/gms/internal/ads/zzvh;
 
@@ -225,7 +204,6 @@
 
     invoke-direct {v0, v1, p2}, Lcom/google/android/gms/internal/ads/zzvh;-><init>(Landroid/content/Context;[Lcom/google/android/gms/ads/e;)V
 
-    .line 3
     iget-object p2, p0, Lcom/google/android/gms/ads/c$a;->b:Lcom/google/android/gms/internal/ads/in2;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/i5;
@@ -243,13 +221,11 @@
 
     const-string p2, "Failed to add publisher banner ad listener"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
     return-object p0
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -263,7 +239,6 @@
 .method public f(Lcom/google/android/gms/ads/formats/i$a;)Lcom/google/android/gms/ads/c$a;
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/ads/c$a;->b:Lcom/google/android/gms/internal/ads/in2;
 
@@ -282,7 +257,6 @@
 
     const-string v0, "Failed to add google native ad listener"
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
@@ -292,7 +266,6 @@
 .method public g(Lcom/google/android/gms/ads/b;)Lcom/google/android/gms/ads/c$a;
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/ads/c$a;->b:Lcom/google/android/gms/internal/ads/in2;
 
@@ -311,7 +284,6 @@
 
     const-string v0, "Failed to set AdListener."
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
@@ -336,7 +308,6 @@
 .method public i(Lcom/google/android/gms/ads/formats/b;)Lcom/google/android/gms/ads/c$a;
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/ads/c$a;->b:Lcom/google/android/gms/internal/ads/in2;
 
@@ -355,7 +326,6 @@
 
     const-string v0, "Failed to specify native ad options"
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
@@ -365,7 +335,6 @@
 .method public j(Lcom/google/android/gms/ads/formats/PublisherAdViewOptions;)Lcom/google/android/gms/ads/c$a;
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/ads/c$a;->b:Lcom/google/android/gms/internal/ads/in2;
 
@@ -380,7 +349,6 @@
 
     const-string v0, "Failed to specify DFP banner ad options"
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0

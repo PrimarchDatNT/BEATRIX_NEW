@@ -25,7 +25,6 @@
 .method public constructor <init>(JI)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-wide p1, p0, Lkshark/m$b$c$a$a;->a:J
@@ -92,7 +91,6 @@
 .method public final e()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/m$b$c$a$a;->a:J
 
     return-wide v0
@@ -164,7 +162,6 @@
 .method public final f()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/m$b$c$a$a;->b:I
 
     return v0

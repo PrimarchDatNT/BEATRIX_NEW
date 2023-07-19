@@ -66,12 +66,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->d:Ljava/lang/String;
 
-    .line 2
     new-instance p1, Lcom/commsource/repository/OnlineLocalMaterialCompator$runTask$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/repository/OnlineLocalMaterialCompator$runTask$2;-><init>(Lcom/commsource/repository/OnlineLocalMaterialCompator;)V
@@ -94,7 +92,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     :cond_0
     invoke-direct {p0, p1}, Lcom/commsource/repository/OnlineLocalMaterialCompator;-><init>(Ljava/lang/String;)V
 
@@ -112,13 +109,11 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->h(Z)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -141,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2, p0}, Lcom/commsource/util/o1;->a(Ljava/util/List;Ljava/util/List;Lcom/commsource/util/o1$c;)Ljava/util/List;
 
     return-void
@@ -152,7 +146,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lf/k/k/h;
 
     invoke-virtual {p0, p1}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->u(Lf/k/k/h;)V
@@ -167,25 +160,20 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/k/o;->d(Lf/k/k/p;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->c:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->b:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->l()Lcom/commsource/util/s2/b;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/commsource/util/s2/b;->e()V
 
-    .line 5
     invoke-virtual {p0, p1}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->t(Ljava/lang/Throwable;)V
 
     return-void
@@ -194,7 +182,6 @@
 .method public bridge synthetic c(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     check-cast p2, Ljava/util/List;
@@ -262,7 +249,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->f(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
@@ -282,7 +268,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -322,14 +307,12 @@
 .method public final h(Z)V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->c:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-boolean v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->b:Z
 
@@ -339,7 +322,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -356,15 +338,12 @@
     :cond_2
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->c:Z
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->d:Ljava/lang/String;
 
     if-eqz p1, :cond_3
 
-    .line 6
     const-class p1, Lcom/meitu/http/api/a;
 
     invoke-static {p1}, Lf/k/k/s;->n(Ljava/lang/Class;)Ljava/lang/Object;
@@ -373,7 +352,6 @@
 
     check-cast p1, Lcom/meitu/http/api/a;
 
-    .line 7
     sget-object v0, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     iget-object v1, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->d:Ljava/lang/String;
@@ -408,7 +386,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->d:Ljava/lang/String;
 
     return-object v0
@@ -435,12 +412,10 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->d:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     invoke-virtual {v1, v0}, Lcom/commsource/repository/XRepository;->g(Ljava/lang/String;)Ljava/lang/String;
@@ -458,7 +433,6 @@
 .method public final n()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->b:Z
 
     if-nez v0, :cond_1
@@ -491,7 +465,6 @@
 .method public final o()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->c:Z
 
     return v0
@@ -508,7 +481,6 @@
 .method public final p()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->b:Z
 
     return v0
@@ -540,10 +512,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/util/p1;->a(Lcom/commsource/util/o1$c;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -634,7 +604,6 @@
 
     invoke-static {v0, v3, v1, v2, v1}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->s(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
 
     return-void
@@ -690,20 +659,16 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->c:Z
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->b:Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->d:Ljava/lang/String;
 
     if-eqz v1, :cond_2
 
-    .line 4
     sget-object v2, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     invoke-virtual {v2, v1}, Lcom/commsource/repository/XRepository;->g(Ljava/lang/String;)Ljava/lang/String;
@@ -732,7 +697,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-virtual {p1}, Lf/k/k/h;->b()Ljava/lang/Object;
 
     move-result-object v1
@@ -754,7 +718,6 @@
     :cond_1
     if-eqz v3, :cond_2
 
-    .line 6
     invoke-virtual {p0, v3}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->f(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
@@ -765,7 +728,6 @@
 
     invoke-direct {p0, v0, v1}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->r(Ljava/util/List;Ljava/util/List;)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->d:Ljava/lang/String;
 
     invoke-virtual {p1}, Lf/k/k/h;->d()Ljava/lang/String;
@@ -774,7 +736,6 @@
 
     invoke-virtual {v2, v0, p1}, Lcom/commsource/repository/XRepository;->h(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->l()Lcom/commsource/util/s2/b;
 
@@ -796,14 +757,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->c:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-boolean v0, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->b:Z
 
@@ -811,7 +770,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -825,7 +783,6 @@
 
     return-void
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->l()Lcom/commsource/util/s2/b;
 
@@ -839,7 +796,6 @@
 .method public final w(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->c:Z
 
     return-void
@@ -848,7 +804,6 @@
 .method public final x(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/repository/OnlineLocalMaterialCompator;->b:Z
 
     return-void

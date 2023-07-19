@@ -15,21 +15,18 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/g0;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/g0;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/d0;->a:Lcom/google/android/gms/internal/ads/d0;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/f0;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/f0;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/d0;->b:Lcom/google/android/gms/internal/ads/d0;
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/ads/i0;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/i0;-><init>()V
@@ -42,7 +39,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

@@ -19,7 +19,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -37,33 +36,28 @@
     :try_start_0
     const-string v1, "https://play.google.com/store/apps/details?id=com.commsource.beautyplus&hl=en"
 
-    .line 1
     invoke-static {v1}, Lorg/jsoup/a;->d(Ljava/lang/String;)Lorg/jsoup/Connection;
 
     move-result-object v1
 
     const/16 v2, 0x7530
 
-    .line 2
     invoke-interface {v1, v2}, Lorg/jsoup/Connection;->d(I)Lorg/jsoup/Connection;
 
     move-result-object v1
 
     const-string v2, "Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6"
 
-    .line 3
     invoke-interface {v1, v2}, Lorg/jsoup/Connection;->v(Ljava/lang/String;)Lorg/jsoup/Connection;
 
     move-result-object v1
 
     const-string v2, "http://www.google.com"
 
-    .line 4
     invoke-interface {v1, v2}, Lorg/jsoup/Connection;->y(Ljava/lang/String;)Lorg/jsoup/Connection;
 
     move-result-object v1
 
-    .line 5
     invoke-interface {v1}, Lorg/jsoup/Connection;->get()Lorg/jsoup/nodes/Document;
 
     move-result-object v1
@@ -74,12 +68,10 @@
 
     const-string v3, "Current Version"
 
-    .line 6
     invoke-virtual {v1, v3}, Lorg/jsoup/nodes/Element;->l1(Ljava/lang/String;)Lorg/jsoup/select/Elements;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -97,14 +89,12 @@
 
     check-cast v3, Lorg/jsoup/nodes/Element;
 
-    .line 8
     invoke-virtual {v3}, Lorg/jsoup/nodes/Element;->d2()Lorg/jsoup/select/Elements;
 
     move-result-object v4
 
     if-eqz v4, :cond_0
 
-    .line 9
     invoke-virtual {v3}, Lorg/jsoup/nodes/Element;->d2()Lorg/jsoup/select/Elements;
 
     move-result-object v3
@@ -113,7 +103,6 @@
 
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {v3}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -131,14 +120,12 @@
 
     check-cast v2, Lorg/jsoup/nodes/Element;
 
-    .line 11
     invoke-virtual {v2}, Lorg/jsoup/nodes/Element;->h2()Ljava/lang/String;
 
     move-result-object v2
 
     goto :goto_0
 
-    .line 12
     :cond_1
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -146,7 +133,6 @@
 
     if-nez v1, :cond_2
 
-    .line 13
     invoke-static {v2}, Lf/d/i/e;->m3(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -156,10 +142,8 @@
     :catch_0
     move-exception v1
 
-    .line 14
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 15
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

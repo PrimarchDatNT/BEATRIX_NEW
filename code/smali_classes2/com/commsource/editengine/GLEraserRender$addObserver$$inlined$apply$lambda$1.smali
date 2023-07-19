@@ -35,7 +35,6 @@
 
     iput-object p2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,7 +61,6 @@
 
     if-lez v2, :cond_0
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-static {v2}, Lcom/commsource/editengine/GLEraserRender;->b(Lcom/commsource/editengine/GLEraserRender;)Lcom/commsource/easyeditor/utils/opengl/f;
@@ -114,10 +112,8 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->a(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-virtual {p1}, Lcom/commsource/editengine/GLEraserRender;->q()Lcom/commsource/studio/shader/m;
@@ -178,21 +174,18 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getScale()F
 
     move-result v1
 
     div-float/2addr p2, v1
 
-    .line 4
     invoke-virtual {p1, p2}, Lcom/commsource/studio/shader/m;->D(F)V
 
     const/4 p1, 0x2
 
     new-array p1, p1, [F
 
-    .line 5
     invoke-virtual {p3}, Landroid/view/MotionEvent;->getX()F
 
     move-result p2
@@ -209,7 +202,6 @@
 
     aput p2, p1, p3
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -226,7 +218,6 @@
 
     invoke-virtual {p2, p1}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -243,7 +234,6 @@
 
     invoke-virtual {p2, p1}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-static {p2}, Lcom/commsource/editengine/GLEraserRender;->d(Lcom/commsource/editengine/GLEraserRender;)Lcom/commsource/studio/bean/ImageLayerInfo;
@@ -260,7 +250,6 @@
 
     invoke-virtual {p2, p1}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 9
     aget p2, p1, v1
 
     aget p1, p1, p3
@@ -271,7 +260,6 @@
 
     iput-boolean p1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->a:Z
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -296,7 +284,6 @@
 
     new-array v0, p2, [F
 
-    .line 1
     invoke-virtual {p3}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -313,7 +300,6 @@
 
     aput p3, v0, v1
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p3}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -330,7 +316,6 @@
 
     invoke-virtual {p3, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p3}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -347,7 +332,6 @@
 
     invoke-virtual {p3, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-static {p3}, Lcom/commsource/editengine/GLEraserRender;->d(Lcom/commsource/editengine/GLEraserRender;)Lcom/commsource/studio/bean/ImageLayerInfo;
@@ -364,7 +348,6 @@
 
     invoke-virtual {p3, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 5
     iget-object p3, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-virtual {p3}, Lcom/commsource/editengine/GLEraserRender;->q()Lcom/commsource/studio/shader/m;
@@ -383,7 +366,6 @@
 
     invoke-static/range {v3 .. v8}, Lcom/commsource/studio/shader/m;->m(Lcom/commsource/studio/shader/m;FFZILjava/lang/Object;)V
 
-    .line 6
     aget p3, v0, v2
 
     aget v0, v0, v1
@@ -394,10 +376,8 @@
 
     if-eqz p3, :cond_0
 
-    .line 7
     iput-boolean v1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->a:Z
 
-    .line 8
     :cond_0
     iget-object p3, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
@@ -409,7 +389,6 @@
 
     invoke-static {p3, v1, v0, p2, v0}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -430,7 +409,6 @@
 
     invoke-static {p3, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-virtual {p2}, Lcom/commsource/editengine/GLEraserRender;->q()Lcom/commsource/studio/shader/m;
@@ -491,21 +469,18 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getScale()F
 
     move-result v1
 
     div-float/2addr v0, v1
 
-    .line 3
     invoke-virtual {p2, v0}, Lcom/commsource/studio/shader/m;->D(F)V
 
     const/4 p2, 0x2
 
     new-array v0, p2, [F
 
-    .line 4
     invoke-virtual {p3}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -522,7 +497,6 @@
 
     aput p3, v0, v1
 
-    .line 5
     iget-object p3, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p3}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -539,7 +513,6 @@
 
     invoke-virtual {p3, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 6
     iget-object p3, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p3}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -556,7 +529,6 @@
 
     invoke-virtual {p3, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 7
     iget-object p3, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-static {p3}, Lcom/commsource/editengine/GLEraserRender;->d(Lcom/commsource/editengine/GLEraserRender;)Lcom/commsource/studio/bean/ImageLayerInfo;
@@ -573,7 +545,6 @@
 
     invoke-virtual {p3, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 8
     iget-object p3, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-virtual {p3}, Lcom/commsource/editengine/GLEraserRender;->q()Lcom/commsource/studio/shader/m;
@@ -592,7 +563,6 @@
 
     invoke-static/range {v3 .. v8}, Lcom/commsource/studio/shader/m;->m(Lcom/commsource/studio/shader/m;FFZILjava/lang/Object;)V
 
-    .line 9
     aget p3, v0, v2
 
     aget v0, v0, v1
@@ -603,7 +573,6 @@
 
     iput-boolean p3, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->a:Z
 
-    .line 10
     iget-object p3, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-virtual {p3}, Lcom/commsource/editengine/GLEraserRender;->r()Lcom/commsource/editengine/d;
@@ -614,7 +583,6 @@
 
     invoke-static {p3, v1, v0, p2, v0}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -635,7 +603,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -654,12 +621,10 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p5, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->a:Z
 
     if-nez p5, :cond_0
 
-    .line 2
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -679,7 +644,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -688,7 +652,6 @@
 
     invoke-virtual {p2, p5}, Lcom/commsource/studio/layer/BaseLayer;->W([F)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -705,7 +668,6 @@
 
     invoke-virtual {p2, p5}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -722,7 +684,6 @@
 
     invoke-virtual {p2, p5}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-static {p2}, Lcom/commsource/editengine/GLEraserRender;->d(Lcom/commsource/editengine/GLEraserRender;)Lcom/commsource/studio/bean/ImageLayerInfo;
@@ -739,7 +700,6 @@
 
     invoke-virtual {p2, p5}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-virtual {p2}, Lcom/commsource/editengine/GLEraserRender;->q()Lcom/commsource/studio/shader/m;
@@ -752,7 +712,6 @@
 
     invoke-virtual {p2, v1, v2, p1}, Lcom/commsource/studio/shader/m;->l(FFZ)V
 
-    .line 8
     :cond_1
     aget p2, p5, v0
 
@@ -764,10 +723,8 @@
 
     if-eqz p2, :cond_2
 
-    .line 9
     iput-boolean p1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->a:Z
 
-    .line 10
     :cond_2
     iget-object p2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
@@ -783,7 +740,6 @@
 
     invoke-static {p2, v0, p5, p1, p4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-virtual {p1}, Lcom/commsource/editengine/GLEraserRender;->q()Lcom/commsource/studio/shader/m;
@@ -792,7 +748,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/shader/m;->y()V
 
-    .line 12
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

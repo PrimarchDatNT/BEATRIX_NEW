@@ -43,7 +43,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     return-void
@@ -74,21 +73,18 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p3}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p3}, Landroid/content/Intent;->getFlags()I
 
     move-result p2
 
     and-int/lit8 p2, p2, 0x3
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p3
@@ -103,7 +99,6 @@
 
     invoke-virtual {p3, p1, p2}, Landroid/content/ContentResolver;->takePersistableUriPermission(Landroid/net/Uri;I)V
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p2
@@ -114,12 +109,10 @@
 
     move-result-object p2
 
-    .line 5
     invoke-interface {p2}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object p2
 
-    .line 6
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -128,18 +121,15 @@
 
     invoke-interface {p2, p3, p1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 7
     invoke-interface {p2}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     :cond_0
     const/4 p1, 0x1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -161,7 +151,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     :try_start_0
     new-instance v1, Landroid/content/Intent;
 
@@ -171,7 +160,6 @@
 
     const/16 v2, 0x3f0
 
-    .line 2
     invoke-virtual {p1, v1, v2}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -181,10 +169,8 @@
     :catch_0
     move-exception p1
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

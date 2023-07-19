@@ -59,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -72,7 +71,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->O()Lf/k/i0/a/g0;
@@ -85,7 +83,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
@@ -97,7 +94,6 @@
 
     move-result-object v1
 
-    .line 4
     :goto_0
     sget-object v3, Lcom/commsource/camera/a1/g;->g:[I
 
@@ -105,14 +101,12 @@
 
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     new-instance v4, Ljava/util/ArrayList;
 
     array-length v5, v3
 
     invoke-direct {v4, v5}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 6
     array-length v5, v3
 
     const/4 v6, 0x0
@@ -124,12 +118,10 @@
 
     aget v8, v3, v7
 
-    .line 7
     new-instance v9, Lcom/commsource/repository/child/makeup/e;
 
     invoke-direct {v9, v8}, Lcom/commsource/repository/child/makeup/e;-><init>(I)V
 
-    .line 8
     sget-object v10, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;
 
     invoke-virtual {v10, v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;->b(I)I
@@ -138,14 +130,12 @@
 
     invoke-virtual {v9, v11}, Lcom/commsource/repository/child/makeup/e;->g(I)V
 
-    .line 9
     invoke-virtual {v10, v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;->g(I)I
 
     move-result v10
 
     invoke-virtual {v9, v10}, Lcom/commsource/repository/child/makeup/e;->h(I)V
 
-    .line 10
     invoke-virtual {v9}, Lcom/commsource/repository/child/makeup/e;->c()Ljava/util/ArrayList;
 
     move-result-object v10
@@ -158,7 +148,6 @@
 
     invoke-virtual {v10, v12}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 11
     invoke-virtual {v9}, Lcom/commsource/repository/child/makeup/e;->a()Ljava/util/ArrayList;
 
     move-result-object v10
@@ -169,14 +158,12 @@
 
     invoke-virtual {v10, v8}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 12
     invoke-interface {v4, v9}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v7, v7, 0x1
 
     goto :goto_1
 
-    .line 13
     :cond_1
     invoke-interface {v4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -196,7 +183,6 @@
 
     check-cast v3, Lcom/commsource/repository/child/makeup/e;
 
-    .line 14
     sget-object v5, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->i:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;
 
     invoke-virtual {v3}, Lcom/commsource/repository/child/makeup/e;->e()I
@@ -207,7 +193,6 @@
 
     move-result-object v5
 
-    .line 15
     invoke-virtual {v3}, Lcom/commsource/repository/child/makeup/e;->c()Ljava/util/ArrayList;
 
     move-result-object v7
@@ -236,7 +221,6 @@
 
     check-cast v10, Lcom/commsource/repository/child/makeup/h;
 
-    .line 16
     invoke-static {v11, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v11
@@ -262,7 +246,6 @@
     :cond_4
     if-eqz v9, :cond_5
 
-    .line 17
     sget-object v5, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {v5}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->z()Landroid/util/SparseArray;
@@ -275,7 +258,6 @@
 
     invoke-virtual {v5, v7, v9}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 18
     :cond_5
     sget-object v5, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->i:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;
 
@@ -287,7 +269,6 @@
 
     move-result-object v5
 
-    .line 19
     invoke-virtual {v3}, Lcom/commsource/repository/child/makeup/e;->a()Ljava/util/ArrayList;
 
     move-result-object v7
@@ -310,7 +291,6 @@
 
     check-cast v9, Lcom/commsource/repository/child/makeup/h;
 
-    .line 20
     invoke-static {v11, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v10
@@ -336,7 +316,6 @@
     :cond_7
     if-eqz v8, :cond_2
 
-    .line 21
     sget-object v5, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {v5}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->A()Landroid/util/SparseArray;
@@ -351,20 +330,17 @@
 
     goto/16 :goto_2
 
-    .line 22
     :cond_8
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-static {v1, v4}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->r(Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;Ljava/util/List;)V
 
-    .line 23
     invoke-static {}, Lcom/commsource/util/g2;->b()Z
 
     move-result v2
 
     if-eqz v2, :cond_9
 
-    .line 24
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -373,7 +349,6 @@
 
     goto :goto_5
 
-    .line 25
     :cond_9
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->y()Landroidx/lifecycle/MutableLiveData;
 
@@ -381,11 +356,9 @@
 
     invoke-virtual {v2, v4}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 26
     :goto_5
     invoke-virtual {v1, v6}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->Y(Z)V
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

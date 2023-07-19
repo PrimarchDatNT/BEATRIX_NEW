@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/m/d;->a:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -41,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/m/d;->c()Landroid/content/res/Resources;
 
     move-result-object v1
@@ -62,12 +59,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/m/d;->b:Landroid/content/res/Resources;
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lf/k/h/a/m/d;->a:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -76,7 +71,6 @@
 
     sput-object v1, Lf/k/h/a/m/d;->b:Landroid/content/res/Resources;
 
-    .line 3
     :cond_0
     sget-object v1, Lf/k/h/a/m/d;->b:Landroid/content/res/Resources;
 
@@ -92,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/m/d;->a:Landroid/content/Context;
 
     invoke-virtual {v1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -111,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/m/d;->a:Landroid/content/Context;
 
     invoke-virtual {v1, p0, p1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -139,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/m/d;->a:Landroid/content/Context;
 
     invoke-virtual {v1, p0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -158,14 +149,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
     sput-object p0, Lf/k/h/a/m/d;->a:Landroid/content/Context;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

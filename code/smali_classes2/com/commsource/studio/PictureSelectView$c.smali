@@ -31,7 +31,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -64,7 +63,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/h0;->N()I
 
@@ -76,7 +74,6 @@
 
     if-ne v3, v4, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/h0;->U()F
 
     move-result p1
@@ -91,7 +88,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/h0;->N()I
 
@@ -114,7 +110,6 @@
     :goto_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -128,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/h0;
 
     check-cast p2, Lcom/commsource/studio/h0;

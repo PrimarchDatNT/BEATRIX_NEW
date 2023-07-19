@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$e$b;->a:Lcom/commsource/studio/function/StyleFragment$e;
 
     iget-object v1, v1, Lcom/commsource/studio/function/StyleFragment$e;->a:Lcom/commsource/studio/function/StyleFragment;
@@ -70,7 +69,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/function/StyleFragment$e$b;->a:Lcom/commsource/studio/function/StyleFragment$e;
 
     iget-object v2, v2, Lcom/commsource/studio/function/StyleFragment$e;->a:Lcom/commsource/studio/function/StyleFragment;
@@ -91,7 +89,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/Number;->intValue()I
 
     move-result v2
@@ -126,7 +123,6 @@
 
     move-result v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/function/StyleFragment$e$b;->a:Lcom/commsource/studio/function/StyleFragment$e;
 
     iget-object v2, v2, Lcom/commsource/studio/function/StyleFragment$e;->a:Lcom/commsource/studio/function/StyleFragment;
@@ -141,7 +137,6 @@
 
     invoke-static {v2, v1, v4, v5, v3}, Lcom/commsource/widget/LineSelectView;->j(Lcom/commsource/widget/LineSelectView;IZILjava/lang/Object;)V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

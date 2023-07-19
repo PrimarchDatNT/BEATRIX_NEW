@@ -44,10 +44,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_look:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
@@ -79,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->isInside()I
 
     move-result v1
@@ -88,12 +85,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
@@ -101,7 +96,6 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -196,7 +190,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p3
@@ -215,7 +208,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/sg;->a:Lcom/commsource/widget/RotateLoadingView;
@@ -224,7 +216,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/sg;->c:Lcom/commsource/widget/IconFrontView;
@@ -233,7 +224,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/sg;->d:Lcom/commsource/widget/IconFrontView;
@@ -244,7 +234,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -258,7 +247,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 6
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/sg;->a:Lcom/commsource/widget/RotateLoadingView;
@@ -267,7 +255,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 7
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/sg;->c:Lcom/commsource/widget/IconFrontView;
@@ -278,7 +265,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
@@ -288,7 +274,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 9
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/sg;->a:Lcom/commsource/widget/RotateLoadingView;
@@ -297,7 +282,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 10
     :goto_0
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
@@ -307,7 +291,6 @@
 
     const/4 p3, 0x1
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/sg;->d:Lcom/commsource/widget/IconFrontView;
@@ -318,7 +301,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_2
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
@@ -335,7 +317,6 @@
 
     if-eqz p3, :cond_3
 
-    .line 13
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/sg;->K:Lcom/commsource/widget/round/RoundFrameLayout;
@@ -346,7 +327,6 @@
 
     goto :goto_2
 
-    .line 14
     :cond_3
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
@@ -356,7 +336,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 15
     :goto_2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -372,7 +351,6 @@
 
     if-eqz p3, :cond_4
 
-    .line 16
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/sg;->p:Landroid/widget/ImageView;
@@ -381,7 +359,6 @@
 
     invoke-virtual {p3, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 17
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/sg;->p:Landroid/widget/ImageView;
@@ -392,7 +369,6 @@
 
     goto :goto_3
 
-    .line 18
     :cond_4
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
@@ -402,7 +378,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 19
     :goto_3
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -418,7 +393,6 @@
 
     if-eqz p2, :cond_5
 
-    .line 20
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/sg;->g:Lcom/commsource/widget/CornerImageView;
@@ -427,7 +401,6 @@
 
     invoke-virtual {p2, v0}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
-    .line 21
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/sg;->g:Lcom/commsource/widget/CornerImageView;
@@ -438,7 +411,6 @@
 
     goto :goto_4
 
-    .line 22
     :cond_5
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
@@ -448,7 +420,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 23
     :goto_4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -483,12 +454,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_2
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v1
@@ -499,14 +468,12 @@
 
     if-eqz p3, :cond_0
 
-    .line 3
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
@@ -514,7 +481,6 @@
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/template/bean/LookMaterial;->getIcon()Ljava/lang/String;
 
     move-result-object v3
@@ -525,12 +491,10 @@
 
     sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_filter_icon_placeholder:I
 
-    .line 6
     invoke-virtual {v2, v3}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object v2
 
-    .line 7
     invoke-direct {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->x(Lcom/meitu/template/bean/LookMaterial;)Lcom/commsource/util/u0$d;
 
     move-result-object v3
@@ -539,14 +503,12 @@
 
     move-result-object v2
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/sg;->f:Lcom/commsource/widget/CircleImageView;
 
     invoke-virtual {v2, v3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/sg;->J:Lcom/commsource/widget/round/RoundFrameLayout;
@@ -573,7 +535,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/widget/round/a;->q(I)V
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/sg;->L:Lcom/commsource/widget/round/RoundFrameLayout;
@@ -600,7 +561,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/widget/round/a;->q(I)V
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/sg;->K:Lcom/commsource/widget/round/RoundFrameLayout;
@@ -627,7 +587,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/widget/round/a;->q(I)V
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/sg;->M:Lcom/commsource/widget/AutoFitTextView;
@@ -642,11 +601,9 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 13
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->y(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 14
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -662,7 +619,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -685,7 +641,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;->p:Lcom/commsource/beautyplus/f0/sg;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

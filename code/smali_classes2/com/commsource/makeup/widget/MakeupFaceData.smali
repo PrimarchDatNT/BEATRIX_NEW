@@ -59,7 +59,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/makeup/widget/MakeupFaceData;-><init>(Landroid/graphics/RectF;)V
 
     return-void
@@ -68,15 +67,12 @@
 .method public constructor <init>(Landroid/graphics/RectF;)V
     .locals 3
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 3
     iput v0, p0, Lcom/commsource/makeup/widget/MakeupFaceData;->mIndex:I
 
-    .line 4
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
@@ -90,7 +86,6 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/makeup/widget/MakeupFaceData;->mPartFeatureOnOff:Landroid/util/SparseArray;
 
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
@@ -104,7 +99,6 @@
     :cond_0
     if-nez p1, :cond_1
 
-    .line 6
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
@@ -113,7 +107,6 @@
 
     return-void
 
-    .line 7
     :cond_1
     iput-object p1, p0, Lcom/commsource/makeup/widget/MakeupFaceData;->mFaceRect:Landroid/graphics/RectF;
 
@@ -129,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/makeup/widget/MakeupFaceData;->mFaceRect:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/makeup/widget/MakeupFaceData;->mIndex:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -159,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/makeup/widget/MakeupFaceData;->mIsSelected:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/makeup/widget/MakeupFaceData;->mIsTouched:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -189,10 +178,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/makeup/widget/MakeupFaceData;->mFaceRect:Landroid/graphics/RectF;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -205,10 +192,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/makeup/widget/MakeupFaceData;->mIndex:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -221,10 +206,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/makeup/widget/MakeupFaceData;->mIsSelected:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -237,10 +220,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/makeup/widget/MakeupFaceData;->mIsTouched:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

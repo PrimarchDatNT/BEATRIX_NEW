@@ -46,10 +46,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -58,27 +56,20 @@
 .method private constructor <init>(II)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/core/types/NativeBitmap;->mReadWriteLock:Ljava/util/concurrent/locks/ReadWriteLock;
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/core/types/NativeBitmap;->mReadLock:Ljava/util/concurrent/locks/Lock;
 
-    .line 4
     iput-object v0, p0, Lcom/meitu/core/types/NativeBitmap;->mWriteLock:Ljava/util/concurrent/locks/Lock;
 
-    .line 5
     iput p1, p0, Lcom/meitu/core/types/NativeBitmap;->mWidth:I
 
-    .line 6
     iput p2, p0, Lcom/meitu/core/types/NativeBitmap;->mHeight:I
 
-    .line 7
     :try_start_0
     invoke-static {p1, p2}, Lcom/meitu/core/types/NativeBitmap;->nativeCreate(II)J
 
@@ -87,7 +78,6 @@
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     :goto_0
     iput-wide p1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
@@ -102,13 +92,10 @@
     :try_start_1
     const-string v0, "NativeBitmap nativeCreate catch fail, try again!"
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 11
     invoke-static {p1, p2}, Lcom/meitu/core/types/NativeBitmap;->nativeCreate(II)J
 
     move-result-wide p1
@@ -117,7 +104,6 @@
 
     goto :goto_0
 
-    .line 12
     :goto_1
     sget-object p1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
@@ -139,21 +125,18 @@
 
     invoke-static {p1, p2}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     new-instance p1, Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
     invoke-direct {p1}, Ljava/util/concurrent/locks/ReentrantReadWriteLock;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/core/types/NativeBitmap;->mReadWriteLock:Ljava/util/concurrent/locks/ReadWriteLock;
 
-    .line 14
     invoke-interface {p1}, Ljava/util/concurrent/locks/ReadWriteLock;->readLock()Ljava/util/concurrent/locks/Lock;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/core/types/NativeBitmap;->mReadLock:Ljava/util/concurrent/locks/Lock;
 
-    .line 15
     iget-object p1, p0, Lcom/meitu/core/types/NativeBitmap;->mReadWriteLock:Ljava/util/concurrent/locks/ReadWriteLock;
 
     invoke-interface {p1}, Ljava/util/concurrent/locks/ReadWriteLock;->writeLock()Ljava/util/concurrent/locks/Lock;
@@ -167,10 +150,8 @@
     :goto_2
     const-wide/16 v0, 0x0
 
-    .line 16
     iput-wide v0, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
-    .line 17
     throw p1
 .end method
 
@@ -181,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/meitu/core/types/NativeBitmap;
 
     const/4 v2, 0x0
@@ -200,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/types/NativeBitmap;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/types/NativeBitmap;-><init>(II)V
@@ -219,12 +198,10 @@
 
     if-eqz p0, :cond_0
 
-    .line 6
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
 
-    .line 7
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v2
@@ -233,14 +210,12 @@
 
     if-lez v2, :cond_0
 
-    .line 8
     new-instance v1, Lcom/meitu/core/types/NativeBitmap;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2, v2}, Lcom/meitu/core/types/NativeBitmap;-><init>(II)V
 
-    .line 9
     invoke-virtual {v1, p0}, Lcom/meitu/core/types/NativeBitmap;->setImage(Landroid/graphics/Bitmap;)Z
 
     goto :goto_0
@@ -248,7 +223,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -262,14 +236,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     new-instance v1, Lcom/meitu/core/types/NativeBitmap;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2, v2}, Lcom/meitu/core/types/NativeBitmap;-><init>(II)V
 
-    .line 4
     iget-wide v3, v1, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     move-object v5, p0
@@ -282,7 +254,6 @@
 
     invoke-static/range {v3 .. v8}, Lcom/meitu/core/types/NativeBitmap;->nativeSetPixels(J[IIII)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -299,10 +270,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 11
     invoke-virtual {p1, p0}, Lcom/meitu/core/types/NativeBitmap;->setImage(Landroid/graphics/Bitmap;)Z
 
-    .line 12
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -320,18 +289,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 7
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readLock()V
 
-    .line 8
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/NativeBitmap;->nativeCopyToBitmap(JLandroid/graphics/Bitmap;)Z
 
-    .line 9
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readUnLock()V
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -349,26 +314,20 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readLock()V
 
-    .line 2
     invoke-direct {p1}, Lcom/meitu/core/types/NativeBitmap;->writeLock()V
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     iget-wide v3, p1, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/core/types/NativeBitmap;->nativeScale(JJ)Z
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readUnLock()V
 
-    .line 5
     invoke-direct {p1}, Lcom/meitu/core/types/NativeBitmap;->writeUnLock()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -436,12 +395,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/types/NativeBitmap;->mReadLock:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -454,12 +411,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/types/NativeBitmap;->mReadLock:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -472,12 +427,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/types/NativeBitmap;->mWriteLock:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -490,12 +443,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/types/NativeBitmap;->mWriteLock:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -510,7 +461,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/types/NativeBitmap;
 
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
@@ -523,10 +473,8 @@
 
     invoke-direct {v1, v2, v3}, Lcom/meitu/core/types/NativeBitmap;-><init>(II)V
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readLock()V
 
-    .line 3
     iget-wide v2, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -535,10 +483,8 @@
 
     invoke-static {v2, v3, v4, v5}, Lcom/meitu/core/types/NativeBitmap;->nativeCopy(JJ)Z
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readUnLock()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -551,7 +497,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -572,7 +517,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -601,12 +545,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v2, Lcom/meitu/core/types/NativeBitmap;
 
     iget v3, p0, Lcom/meitu/core/types/NativeBitmap;->mWidth:I
@@ -617,7 +559,6 @@
 
     invoke-direct {v2, v3, v4}, Lcom/meitu/core/types/NativeBitmap;-><init>(II)V
 
-    .line 3
     new-instance v3, Lcom/meitu/core/types/NativeBitmap;
 
     iget v4, p0, Lcom/meitu/core/types/NativeBitmap;->mWidth:I
@@ -628,10 +569,8 @@
 
     invoke-direct {v3, v4, v5}, Lcom/meitu/core/types/NativeBitmap;-><init>(II)V
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readLock()V
 
-    .line 5
     iget-wide v6, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -644,16 +583,12 @@
 
     invoke-static/range {v6 .. v11}, Lcom/meitu/core/types/NativeBitmap;->nativeCutTopDown(JJJ)Z
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readUnLock()V
 
-    .line 7
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 8
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -671,7 +606,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->isRecycled()Z
 
@@ -679,7 +613,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -702,7 +635,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
@@ -724,7 +656,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :goto_0
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
@@ -732,10 +663,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -743,10 +672,8 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -759,10 +686,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readLock()V
 
-    .line 7
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
@@ -777,10 +702,8 @@
 
     move-result-object v1
 
-    .line 8
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readUnLock()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -797,25 +720,20 @@
 
     if-lez p2, :cond_0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readLock()V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/types/NativeBitmap;->nativeToBitmapBGRX(JII)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readUnLock()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -835,7 +753,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/NativeBitmap;->nativeGetHeight(J)I
@@ -854,10 +771,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readLock()V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
@@ -872,10 +787,8 @@
 
     move-result-object v1
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readUnLock()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -892,25 +805,20 @@
 
     if-lez p2, :cond_0
 
-    .line 5
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readLock()V
 
-    .line 6
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/types/NativeBitmap;->nativeGetImage(JII)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    .line 7
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->readUnLock()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 9
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -930,7 +838,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/NativeBitmap;->nativeGetPixelsPointer(J)J
@@ -949,7 +856,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/NativeBitmap;->nativeGetWidth(J)I
@@ -968,21 +874,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/core/types/NativeBitmap;->mWidth:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/core/types/NativeBitmap;->mHeight:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -995,7 +898,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/NativeBitmap;->nativeIsRecycled(J)Z
@@ -1014,7 +916,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1029,18 +930,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->writeLock()V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/NativeBitmap;->nativeRelease(J)V
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->writeUnLock()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1053,25 +950,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/types/NativeBitmap;
 
     invoke-direct {v1, p1, p2}, Lcom/meitu/core/types/NativeBitmap;-><init>(II)V
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->writeLock()V
 
-    .line 3
     iget-wide p1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     iget-wide v2, v1, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-static {p1, p2, v2, v3}, Lcom/meitu/core/types/NativeBitmap;->nativeScale(JJ)Z
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->writeUnLock()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1084,10 +976,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->writeLock()V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     move-object v3, p1
@@ -1102,13 +992,10 @@
 
     move-result p1
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->invalidate()V
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->writeUnLock()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1121,23 +1008,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->writeLock()V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/types/NativeBitmap;->nativeSetImage(JLandroid/graphics/Bitmap;)Z
 
     move-result p1
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->invalidate()V
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->writeUnLock()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1150,10 +1032,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->writeLock()V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/types/NativeBitmap;->nativeBitmap:J
 
     move-object v3, p1
@@ -1168,13 +1048,10 @@
 
     move-result p1
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->invalidate()V
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/core/types/NativeBitmap;->writeUnLock()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1187,10 +1064,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->invalidate()V
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

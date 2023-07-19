@@ -27,7 +27,6 @@
 .method constructor <init>(Lorg/greenrobot/eventbus/util/a;Lorg/greenrobot/eventbus/util/a$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/greenrobot/eventbus/util/a$a;->b:Lorg/greenrobot/eventbus/util/a;
 
     iput-object p2, p0, Lorg/greenrobot/eventbus/util/a$a;->a:Lorg/greenrobot/eventbus/util/a$c;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/greenrobot/eventbus/util/a$a;->a:Lorg/greenrobot/eventbus/util/a$c;
 
@@ -55,7 +53,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     :try_start_1
     iget-object v1, p0, Lorg/greenrobot/eventbus/util/a$a;->b:Lorg/greenrobot/eventbus/util/a;
 
@@ -77,12 +74,10 @@
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 3
     instance-of v1, v0, Lorg/greenrobot/eventbus/util/e;
 
     if-eqz v1, :cond_0
 
-    .line 4
     move-object v1, v0
 
     check-cast v1, Lorg/greenrobot/eventbus/util/e;
@@ -95,7 +90,6 @@
 
     invoke-interface {v1, v2}, Lorg/greenrobot/eventbus/util/e;->b(Ljava/lang/Object;)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lorg/greenrobot/eventbus/util/a$a;->b:Lorg/greenrobot/eventbus/util/a;
 
@@ -111,14 +105,12 @@
     :catch_1
     move-exception v1
 
-    .line 6
     sget-object v2, Lorg/greenrobot/eventbus/c;->q:Ljava/lang/String;
 
     const-string v3, "Original exception:"
 
     invoke-static {v2, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 7
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v2, "Could not create failure event"

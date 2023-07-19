@@ -33,15 +33,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lcom/mopub/network/AdLoader;-><init>(Ljava/lang/String;Lcom/mopub/common/AdFormat;Ljava/lang/String;Landroid/content/Context;Lcom/mopub/network/AdLoader$Listener;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/mopub/mobileads/AdLoaderRewardedAd;->mImpressionTrackerFired:Z
 
-    .line 3
     iput-boolean p1, p0, Lcom/mopub/mobileads/AdLoaderRewardedAd;->mClickTrackerFired:Z
 
     return-void
@@ -63,19 +60,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mLastDeliveredResponse:Lcom/mopub/network/AdResponse;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/network/AdResponse;->getClickTrackingUrls()Ljava/util/List;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
@@ -89,12 +83,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mMultiAdResponse:Lcom/mopub/network/MultiAdResponse;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/network/MultiAdResponse;->getFailURL()Ljava/lang/String;
 
     move-result-object v0
@@ -121,19 +113,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mLastDeliveredResponse:Lcom/mopub/network/AdResponse;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/network/AdResponse;->getImpressionTrackingUrls()Ljava/util/List;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
@@ -147,7 +136,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mLastDeliveredResponse:Lcom/mopub/network/AdResponse;
 
     return-object v0
@@ -160,10 +148,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mLastDeliveredResponse:Lcom/mopub/network/AdResponse;
 
     if-eqz v0, :cond_1
@@ -177,15 +163,12 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/mopub/mobileads/AdLoaderRewardedAd;->mClickTrackerFired:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdLoaderRewardedAd;->getClickUrls()Ljava/util/List;
 
     move-result-object v0
 
-    .line 5
     invoke-static {v0, p1}, Lcom/mopub/network/TrackingRequest;->makeTrackingHttpRequest(Ljava/lang/Iterable;Landroid/content/Context;)V
 
     :cond_1
@@ -200,10 +183,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mLastDeliveredResponse:Lcom/mopub/network/AdResponse;
 
     if-eqz v0, :cond_1
@@ -217,25 +198,20 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/mopub/mobileads/AdLoaderRewardedAd;->mImpressionTrackerFired:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/mopub/mobileads/AdLoaderRewardedAd;->getImpressionUrls()Ljava/util/List;
 
     move-result-object v0
 
-    .line 5
     invoke-static {v0, p1}, Lcom/mopub/network/TrackingRequest;->makeTrackingHttpRequest(Ljava/lang/Iterable;Landroid/content/Context;)V
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/network/AdLoader;->mLastDeliveredResponse:Lcom/mopub/network/AdResponse;
 
     invoke-virtual {p1}, Lcom/mopub/network/AdResponse;->getAdUnitId()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 7
     new-instance v0, Lcom/mopub/network/SingleImpression;
 
     iget-object v1, p0, Lcom/mopub/network/AdLoader;->mLastDeliveredResponse:Lcom/mopub/network/AdResponse;

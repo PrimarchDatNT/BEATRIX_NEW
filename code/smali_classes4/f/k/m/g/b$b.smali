@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/k/m/g/b$b;->a:Lf/k/m/g/b;
 
     iput-object p2, p0, Lf/k/m/g/b$b;->b:Lcom/meitu/ipstore/core/c$a;
@@ -59,21 +58,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/m/g/b$b;->a:Lf/k/m/g/b;
 
     const-string v2, "onPurchaseError"
 
     invoke-static {v1, p1, v2}, Lf/k/m/g/b;->j(Lf/k/m/g/b;ILjava/lang/String;)V
 
-    .line 2
     new-instance v1, Lf/k/m/g/b$b$b;
 
     invoke-direct {v1, p0, p1}, Lf/k/m/g/b$b$b;-><init>(Lf/k/m/g/b$b;I)V
 
     invoke-static {v1}, Lf/k/m/j/j;->i(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -90,14 +86,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lf/k/m/g/b$b$a;
 
     invoke-direct {v0, p0}, Lf/k/m/g/b$b$a;-><init>(Lf/k/m/g/b$b;)V
 
     invoke-static {v0}, Lf/k/m/j/j;->i(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -110,7 +104,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -127,14 +120,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lf/k/m/g/b$b$c;
 
     invoke-direct {v0, p0}, Lf/k/m/g/b$b$c;-><init>(Lf/k/m/g/b$b;)V
 
     invoke-static {v0}, Lf/k/m/j/j;->i(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/AutoCameraActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$d;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;->getModel()Lcom/commsource/material/download/SegmentModel;
 
     move-result-object p1
@@ -63,12 +61,10 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$d;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
@@ -82,7 +78,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$d;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     iget-object p1, p1, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
@@ -93,22 +88,18 @@
 
     const/4 p1, 0x3
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/autocamera/e0;->S(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraActivity$d;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-static {v1, p1}, Lcom/commsource/autocamera/AutoCameraActivity;->k1(Lcom/commsource/autocamera/AutoCameraActivity;I)I
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$d;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     const/4 v1, 0x0
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->d1(Lcom/commsource/autocamera/AutoCameraActivity;Z)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$d;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-static {p1}, Lcom/commsource/autocamera/AutoCameraActivity;->Z0(Lcom/commsource/autocamera/AutoCameraActivity;)Lcom/commsource/autocamera/i0;
@@ -131,7 +122,6 @@
 
     if-nez p1, :cond_1
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$d;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     iget-object v3, p1, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
@@ -142,7 +132,6 @@
 
     invoke-static {p1, v3, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->e1(Lcom/commsource/autocamera/AutoCameraActivity;Landroid/view/View;Z)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$d;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-static {p1}, Lcom/commsource/autocamera/AutoCameraActivity;->f1(Lcom/commsource/autocamera/AutoCameraActivity;)Lcom/commsource/autocamera/j0;
@@ -153,13 +142,11 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     iget-object p1, p0, Lcom/commsource/autocamera/AutoCameraActivity$d;->a:Lcom/commsource/autocamera/AutoCameraActivity;
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/AutoCameraActivity;->g1(Lcom/commsource/autocamera/AutoCameraActivity;Z)Z
 
-    .line 12
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -173,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;
 
     invoke-virtual {p0, p1}, Lcom/commsource/autocamera/AutoCameraActivity$d;->a(Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;)Lcotlin/t1;

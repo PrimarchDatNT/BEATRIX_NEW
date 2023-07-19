@@ -27,13 +27,10 @@
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/DnsNameResolver$g;->a:Ljava/lang/String;
 
-    .line 3
     iput p2, p0, Lio/grpc/internal/DnsNameResolver$g;->b:I
 
     return-void
@@ -55,7 +52,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     const-class v2, Lio/grpc/internal/DnsNameResolver$g;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -66,11 +62,9 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     check-cast p1, Lio/grpc/internal/DnsNameResolver$g;
 
-    .line 3
     iget v2, p0, Lio/grpc/internal/DnsNameResolver$g;->b:I
 
     iget v3, p1, Lio/grpc/internal/DnsNameResolver$g;->b:I
@@ -107,7 +101,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lio/grpc/internal/DnsNameResolver$g;->a:Ljava/lang/String;
 
     const/4 v2, 0x0
@@ -134,7 +127,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -143,7 +135,6 @@
 
     const-string v2, "host"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -152,12 +143,10 @@
 
     const-string v2, "port"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->d(Ljava/lang/String;I)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

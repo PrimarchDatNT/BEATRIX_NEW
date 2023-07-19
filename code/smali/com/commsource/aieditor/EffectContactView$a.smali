@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/EffectContactView;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -37,14 +36,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/EffectContactView;->L(Lcom/commsource/aieditor/EffectContactView;Z)Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/EffectContactView;->V(Lcom/commsource/aieditor/EffectContactView;)Landroid/graphics/Bitmap;
@@ -53,7 +50,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/EffectContactView;->Q(Lcom/commsource/aieditor/EffectContactView;)Z
@@ -62,25 +58,21 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/EffectContactView;->R(Lcom/commsource/aieditor/EffectContactView;Z)Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-virtual {v1}, Lcom/commsource/aieditor/EffectContactView;->q0()V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -95,14 +87,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/EffectContactView;->L(Lcom/commsource/aieditor/EffectContactView;Z)Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/EffectContactView;->M(Lcom/commsource/aieditor/EffectContactView;)Landroid/graphics/Bitmap;
@@ -129,7 +119,6 @@
 
     goto/16 :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
@@ -149,7 +138,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/aieditor/EffectContactView;->W(Lcom/commsource/aieditor/EffectContactView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -168,17 +156,14 @@
 
     invoke-static {v1, v3}, Lcom/commsource/aieditor/EffectContactView;->X(Lcom/commsource/aieditor/EffectContactView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/EffectContactView;->Y(Lcom/commsource/aieditor/EffectContactView;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/EffectContactView;->Z(Lcom/commsource/aieditor/EffectContactView;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->getWidth()I
@@ -195,7 +180,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/aieditor/EffectContactView;->b0(Lcom/commsource/aieditor/EffectContactView;I)I
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/EffectContactView;->c0(Lcom/commsource/aieditor/EffectContactView;)[F
@@ -212,7 +196,6 @@
 
     aput v3, v1, v2
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/EffectContactView;->c0(Lcom/commsource/aieditor/EffectContactView;)[F
@@ -225,7 +208,6 @@
 
     aput v3, v1, v2
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/EffectContactView;->d0(Lcom/commsource/aieditor/EffectContactView;)Landroid/graphics/Rect;
@@ -240,7 +222,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->left:I
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/EffectContactView;->N(Lcom/commsource/aieditor/EffectContactView;)Landroid/graphics/Rect;
@@ -255,7 +236,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     new-instance v2, Landroid/graphics/RectF;
@@ -274,7 +254,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/EffectContactView;->O(Lcom/commsource/aieditor/EffectContactView;Landroid/graphics/RectF;)Landroid/graphics/RectF;
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/EffectContactView;->P(Lcom/commsource/aieditor/EffectContactView;)Landroid/graphics/RectF;
@@ -289,7 +268,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/aieditor/EffectContactView$a;->g:Lcom/commsource/aieditor/EffectContactView;
 
     new-instance v2, Lcom/commsource/aieditor/x;
@@ -298,12 +276,10 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->post(Ljava/lang/Runnable;)Z
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

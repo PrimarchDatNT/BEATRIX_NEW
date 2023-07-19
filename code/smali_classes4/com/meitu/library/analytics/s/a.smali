@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,19 +44,16 @@
 
     const-string v1, "onProcessStart"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/meitu/library/analytics/y/o/a0;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -73,7 +69,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v0
@@ -97,10 +92,8 @@
 
     const-string v2, "env_digits"
 
-    .line 5
     invoke-static {v1, v2, v0}, Lcom/meitu/library/analytics/o;->V(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

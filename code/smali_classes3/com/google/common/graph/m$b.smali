@@ -35,7 +35,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/common/graph/m;-><init>(Ljava/lang/Object;Ljava/lang/Object;Lcom/google/common/graph/m$a;)V
 
     return-void
@@ -44,7 +43,6 @@
 .method synthetic constructor <init>(Ljava/lang/Object;Ljava/lang/Object;Lcom/google/common/graph/m$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/graph/m$b;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
@@ -73,7 +71,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/common/graph/m;
 
@@ -83,11 +80,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/common/graph/m;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/graph/m$b;->c()Z
 
     move-result v1
@@ -100,7 +95,6 @@
 
     return v2
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lcom/google/common/graph/m$b;->m()Ljava/lang/Object;
 
@@ -146,7 +140,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/m$b;->m()Ljava/lang/Object;
 
     move-result-object v1
@@ -173,7 +166,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/graph/m;->e()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -189,7 +181,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/m;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -205,7 +196,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/m;->i()Ljava/lang/Object;
 
     move-result-object v0
@@ -216,7 +206,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

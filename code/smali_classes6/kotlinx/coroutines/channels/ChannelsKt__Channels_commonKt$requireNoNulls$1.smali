@@ -130,7 +130,6 @@
 
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$requireNoNulls$1;->label:I
 
     if-nez v0, :cond_1

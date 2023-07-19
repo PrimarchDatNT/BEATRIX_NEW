@@ -57,10 +57,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
-    .line 2
     invoke-static {}, Lcom/commsource/beautymain/utils/h;->d()Lcom/commsource/beautymain/utils/h;
 
     move-result-object p1
@@ -71,7 +69,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautymain/utils/h;->k(Lcom/commsource/beautymain/utils/h$b;)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/beautymain/utils/h;->d()Lcom/commsource/beautymain/utils/h;
 
     move-result-object p1
@@ -92,7 +89,6 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$f;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->A(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;)Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -107,14 +103,12 @@
 
     invoke-static {p1, v1, v2, v3}, Lcom/commsource/camera/xcamera/cover/confirm/b;->N(Lcom/commsource/camera/xcamera/cover/confirm/b;ZILjava/lang/Object;)V
 
-    .line 5
     invoke-static {}, Lcom/commsource/beautymain/utils/h;->d()Lcom/commsource/beautymain/utils/h;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/commsource/beautymain/utils/h;->j()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -128,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$f;->a(Ljava/lang/Boolean;)V

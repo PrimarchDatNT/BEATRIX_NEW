@@ -39,7 +39,6 @@
 .method public final run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/y2$a;->a:Lcotlin/jvm/u/a;
 
     invoke-interface {v0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;

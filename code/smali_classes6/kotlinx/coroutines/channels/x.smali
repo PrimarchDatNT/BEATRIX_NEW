@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/m;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/channels/b;->d:Ljava/lang/Object;
 
     return-object v0

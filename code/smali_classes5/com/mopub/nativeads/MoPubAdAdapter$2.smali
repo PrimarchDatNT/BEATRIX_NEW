@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/MoPubAdAdapter;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubAdAdapter$2;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
     invoke-direct {p0}, Landroid/database/DataSetObserver;-><init>()V
@@ -35,7 +34,6 @@
 .method public onChanged()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter$2;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
     invoke-static {v0}, Lcom/mopub/nativeads/MoPubAdAdapter;->access$200(Lcom/mopub/nativeads/MoPubAdAdapter;)Lcom/mopub/nativeads/MoPubStreamAdPlacer;
@@ -54,7 +52,6 @@
 
     invoke-virtual {v0, v1}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->setItemCount(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter$2;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
     invoke-virtual {v0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
@@ -65,7 +62,6 @@
 .method public onInvalidated()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter$2;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
     invoke-virtual {v0}, Landroid/widget/BaseAdapter;->notifyDataSetInvalidated()V

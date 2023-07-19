@@ -89,10 +89,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     new-instance p1, Lcom/commsource/studio/function/background/GradientDrawer;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/background/GradientDrawer;-><init>(Landroid/view/View;)V
@@ -118,7 +116,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/function/background/BackgroundItemView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -205,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundItemView;->a:Lcom/commsource/studio/function/background/GradientDrawer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -228,15 +224,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundItemView;->a:Lcom/commsource/studio/function/background/GradientDrawer;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/background/GradientDrawer;->m(Landroid/graphics/Canvas;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -249,15 +242,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/function/background/BackgroundItemView;->a:Lcom/commsource/studio/function/background/GradientDrawer;
 
     invoke-virtual {p3, p1, p2}, Lcom/commsource/studio/function/background/GradientDrawer;->n(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

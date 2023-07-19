@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$j;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/FilterStoreActivity$j;->e(Ljava/lang/Boolean;)V
@@ -75,7 +73,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;
@@ -94,7 +91,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/store/filter/FilterStoreActivity$j;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {v0}, Lcom/commsource/store/filter/FilterStoreActivity;->P0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/store/filter/FilterStoreViewModel;
@@ -113,7 +109,6 @@
 
     goto/16 :goto_1
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;
 
@@ -129,7 +124,6 @@
 
     goto/16 :goto_1
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/commsource/store/filter/FilterStoreActivity$j;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
@@ -143,7 +137,6 @@
 
     if-ltz v0, :cond_5
 
-    .line 5
     sget-object v0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -166,7 +159,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 6
     invoke-virtual {v0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v0
@@ -181,13 +173,11 @@
 
     if-eqz v0, :cond_2
 
-    .line 7
     invoke-virtual {v0}, Lcom/meitu/template/bean/j;->b()I
 
     :cond_2
     if-eqz v0, :cond_4
 
-    .line 8
     invoke-virtual {v0}, Lcom/meitu/template/bean/j;->j()I
 
     move-result v1
@@ -196,7 +186,6 @@
 
     if-ne v1, v2, :cond_4
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity$j;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/filter/FilterStoreActivity;->P0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/store/filter/FilterStoreViewModel;
@@ -249,7 +238,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_4
     iget-object v0, p0, Lcom/commsource/store/filter/FilterStoreActivity$j;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
@@ -279,18 +267,15 @@
 
     goto :goto_1
 
-    .line 11
     :cond_5
     iget-object v0, p0, Lcom/commsource/store/filter/FilterStoreActivity$j;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-virtual {v0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 12
     iget-object v0, p0, Lcom/commsource/store/filter/FilterStoreActivity$j;->c:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {v0}, Lcom/commsource/util/h2;->e(Landroid/app/Activity;)V
 
-    .line 13
     :cond_6
     :goto_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

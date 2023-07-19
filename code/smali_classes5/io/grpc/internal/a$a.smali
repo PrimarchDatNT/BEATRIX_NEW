@@ -33,14 +33,12 @@
 .method public constructor <init>(Lio/grpc/internal/a;Lio/grpc/y0;Lio/grpc/internal/y2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/a$a;->e:Lio/grpc/internal/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string p1, "headers"
 
-    .line 2
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -51,7 +49,6 @@
 
     const-string p1, "statsTraceCtx"
 
-    .line 3
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -70,10 +67,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lio/grpc/internal/a$a;->b:Z
 
-    .line 2
     iget-object v1, p0, Lio/grpc/internal/a$a;->d:[B
 
     if-eqz v1, :cond_0
@@ -88,7 +83,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/a$a;->e:Lio/grpc/internal/a;
 
     invoke-virtual {v0}, Lio/grpc/internal/a;->C()Lio/grpc/internal/a$b;
@@ -103,10 +97,8 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lio/grpc/internal/a$a;->d:[B
 
-    .line 5
     iput-object v0, p0, Lio/grpc/internal/a$a;->a:Lio/grpc/y0;
 
     return-void
@@ -117,15 +109,12 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lio/grpc/internal/a$a;->b:Z
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lio/grpc/internal/a$a;->d:[B
 
-    .line 3
     iput-object v0, p0, Lio/grpc/internal/a$a;->a:Lio/grpc/y0;
 
     return-void
@@ -158,7 +147,6 @@
 .method public isClosed()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/a$a;->b:Z
 
     return v0
@@ -167,7 +155,6 @@
 .method public j(Ljava/io/InputStream;)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/a$a;->d:[B
 
     const/4 v1, 0x0
@@ -186,7 +173,6 @@
 
     invoke-static {v0, v2}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     :try_start_0
     invoke-static {p1}, Lcom/google/common/io/g;->u(Ljava/io/InputStream;)[B
 
@@ -196,12 +182,10 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3
     iget-object p1, p0, Lio/grpc/internal/a$a;->c:Lio/grpc/internal/y2;
 
     invoke-virtual {p1, v1}, Lio/grpc/internal/y2;->k(I)V
 
-    .line 4
     iget-object v2, p0, Lio/grpc/internal/a$a;->c:Lio/grpc/internal/y2;
 
     const/4 v3, 0x0
@@ -218,7 +202,6 @@
 
     invoke-virtual/range {v2 .. v7}, Lio/grpc/internal/y2;->l(IJJ)V
 
-    .line 5
     iget-object p1, p0, Lio/grpc/internal/a$a;->c:Lio/grpc/internal/y2;
 
     iget-object v0, p0, Lio/grpc/internal/a$a;->d:[B
@@ -229,7 +212,6 @@
 
     invoke-virtual {p1, v0, v1}, Lio/grpc/internal/y2;->m(J)V
 
-    .line 6
     iget-object p1, p0, Lio/grpc/internal/a$a;->c:Lio/grpc/internal/y2;
 
     iget-object v0, p0, Lio/grpc/internal/a$a;->d:[B
@@ -245,7 +227,6 @@
     :catch_0
     move-exception p1
 
-    .line 7
     new-instance v0, Ljava/lang/RuntimeException;
 
     invoke-direct {v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V

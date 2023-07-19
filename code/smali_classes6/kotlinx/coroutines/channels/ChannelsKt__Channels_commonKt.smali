@@ -34,7 +34,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumes$1;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumes$1;-><init>(Lcotlinx/coroutines/channels/y;)V
@@ -66,7 +65,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -99,7 +97,6 @@
 
     add-int/lit8 v5, v3, 0x1
 
-    .line 2
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -112,7 +109,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -122,7 +118,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -132,7 +127,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -143,7 +137,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -226,7 +219,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$none$3;->label:I
 
     const/4 v3, 0x1
@@ -295,7 +287,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -305,13 +296,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p2, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -387,7 +376,6 @@
 
     move-result-object p2
 
-    .line 5
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -412,7 +400,6 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -428,7 +415,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_5
     :try_start_3
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
@@ -437,12 +423,10 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 9
     invoke-static {v3}, Lcotlin/coroutines/jvm/internal/a;->a(Z)Ljava/lang/Boolean;
 
     move-result-object p0
@@ -461,7 +445,6 @@
 
     move-object p0, p1
 
-    .line 10
     :goto_3
     :try_start_4
     throw p0
@@ -473,7 +456,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -507,7 +489,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1;-><init>([Lcotlinx/coroutines/channels/y;)V
@@ -594,7 +575,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$groupBy$1;->label:I
 
     const/4 v4, 0x1
@@ -677,7 +657,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -687,18 +666,15 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     const/4 v3, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -778,38 +754,31 @@
 
     move-result-object v0
 
-    .line 6
     invoke-interface {v6, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v13
 
-    .line 7
     invoke-interface {v11, v13}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v14
 
     if-nez v14, :cond_4
 
-    .line 8
     new-instance v14, Ljava/util/ArrayList;
 
     invoke-direct {v14}, Ljava/util/ArrayList;-><init>()V
 
-    .line 9
     invoke-interface {v11, v13, v14}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     :cond_4
     check-cast v14, Ljava/util/List;
 
-    .line 11
     invoke-interface {v14, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     move-object v0, v12
 
     goto :goto_1
 
-    .line 12
     :cond_5
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -817,7 +786,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 13
     invoke-static {v3, v10}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -837,7 +805,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 14
     :goto_4
     :try_start_3
     throw v1
@@ -851,7 +818,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 15
     invoke-static {v3, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -883,7 +849,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -914,7 +879,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -935,14 +899,12 @@
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p1
 
-    .line 4
     :cond_1
     :try_start_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -951,12 +913,10 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 6
     sget-object p0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     return-object p0
@@ -964,7 +924,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     :try_start_2
     throw p1
     :try_end_2
@@ -975,7 +934,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -1050,7 +1008,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$count$1;->label:I
 
     const/4 v3, 0x1
@@ -1115,7 +1072,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -1125,11 +1081,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p1, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {p1}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -1140,7 +1094,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -1210,7 +1163,6 @@
 
     invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
-    .line 6
     iget p1, v7, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/2addr p1, v3
@@ -1221,16 +1173,13 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 8
     invoke-static {v1, v6}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
-    .line 9
     iget p0, v7, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
@@ -1251,7 +1200,6 @@
 
     move-object p0, p1
 
-    .line 10
     :goto_3
     :try_start_3
     throw p0
@@ -1261,7 +1209,6 @@
     :catchall_3
     move-exception p1
 
-    .line 11
     invoke-static {v1, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -1354,7 +1301,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$groupBy$2;->label:I
 
     const/4 v4, 0x1
@@ -1441,7 +1387,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -1451,18 +1396,15 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     const/4 v3, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -1546,31 +1488,25 @@
 
     move-result-object v0
 
-    .line 6
     invoke-interface {v6, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v14
 
-    .line 7
     invoke-interface {v12, v14}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v15
 
     if-nez v15, :cond_4
 
-    .line 8
     new-instance v15, Ljava/util/ArrayList;
 
     invoke-direct {v15}, Ljava/util/ArrayList;-><init>()V
 
-    .line 9
     invoke-interface {v12, v14, v15}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     :cond_4
     check-cast v15, Ljava/util/List;
 
-    .line 11
     invoke-interface {v7, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -1581,7 +1517,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_5
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -1589,7 +1524,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 13
     invoke-static {v3, v11}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -1609,7 +1543,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 14
     :goto_4
     :try_start_3
     throw v1
@@ -1623,7 +1556,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 15
     invoke-static {v3, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -1657,7 +1589,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->K()Lcotlinx/coroutines/selects/d;
 
     move-result-object p0
@@ -1749,7 +1680,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$count$3;->label:I
 
     const/4 v3, 0x1
@@ -1826,7 +1756,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -1836,11 +1765,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -1851,7 +1778,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -1933,7 +1859,6 @@
 
     move-result-object p2
 
-    .line 6
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -1963,7 +1888,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -1971,12 +1895,10 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 9
     iget p0, v8, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
@@ -1997,7 +1919,6 @@
 
     move-object p0, p1
 
-    .line 10
     :goto_3
     :try_start_3
     throw p0
@@ -2009,7 +1930,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -2039,14 +1959,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -2075,36 +1993,29 @@
 
     move-result-object v3
 
-    .line 3
     invoke-interface {p1, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
-    .line 4
     invoke-interface {v0, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
     if-nez v5, :cond_0
 
-    .line 5
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     invoke-interface {v0, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     :cond_0
     check-cast v5, Ljava/util/List;
 
-    .line 8
     invoke-interface {v5, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 9
     :cond_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -2114,7 +2025,6 @@
 
     const/4 p1, 0x0
 
-    .line 10
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -2124,7 +2034,6 @@
     :catchall_0
     move-exception p1
 
-    .line 11
     :try_start_1
     throw p1
     :try_end_1
@@ -2135,7 +2044,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 12
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -2222,7 +2130,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$partition$1;->label:I
 
     const/4 v3, 0x1
@@ -2303,7 +2210,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -2313,23 +2219,19 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v4, 0x0
 
-    .line 6
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -2417,7 +2319,6 @@
 
     move-result-object p2
 
-    .line 7
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v10
@@ -2430,12 +2331,10 @@
 
     if-eqz v10, :cond_4
 
-    .line 8
     invoke-virtual {v9, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_3
 
-    .line 9
     :cond_4
     invoke-virtual {v8, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -2452,7 +2351,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -2460,12 +2358,10 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 12
     new-instance p0, Lcotlin/Pair;
 
     invoke-direct {p0, v9, v8}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -2484,7 +2380,6 @@
 
     move-object p0, p1
 
-    .line 13
     :goto_4
     :try_start_3
     throw p0
@@ -2496,7 +2391,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 14
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -2528,7 +2422,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -2560,7 +2453,6 @@
 
     move-result-object v4
 
-    .line 2
     invoke-interface {p1, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -2577,7 +2469,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -2587,12 +2478,10 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 5
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -2602,7 +2491,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     throw p1
     :try_end_1
@@ -2613,7 +2501,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -2647,14 +2534,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -2683,31 +2568,25 @@
 
     move-result-object v3
 
-    .line 3
     invoke-interface {p1, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
-    .line 4
     invoke-interface {v0, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
     if-nez v5, :cond_0
 
-    .line 5
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     invoke-interface {v0, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     :cond_0
     check-cast v5, Ljava/util/List;
 
-    .line 8
     invoke-interface {p2, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -2716,7 +2595,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -2726,7 +2604,6 @@
 
     const/4 p1, 0x0
 
-    .line 10
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -2736,7 +2613,6 @@
     :catchall_0
     move-exception p1
 
-    .line 11
     :try_start_1
     throw p1
     :try_end_1
@@ -2747,7 +2623,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 12
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -2777,19 +2652,16 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v2, 0x1
 
-    .line 3
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -2818,7 +2690,6 @@
 
     move-result-object v4
 
-    .line 4
     invoke-interface {p1, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -2831,18 +2702,15 @@
 
     if-eqz v5, :cond_0
 
-    .line 5
     invoke-virtual {v0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v1, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 7
     :cond_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -2852,12 +2720,10 @@
 
     const/4 p1, 0x0
 
-    .line 8
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 9
     new-instance p0, Lcotlin/Pair;
 
     invoke-direct {p0, v0, v1}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -2867,7 +2733,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     :try_start_1
     throw p1
     :try_end_1
@@ -2878,7 +2743,6 @@
 
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -2912,7 +2776,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$distinct$1;
 
     const/4 v1, 0x0
@@ -3009,7 +2872,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$groupByTo$1;->label:I
 
     const/4 v3, 0x1
@@ -3080,7 +2942,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -3090,13 +2951,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p3, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -3181,31 +3040,25 @@
 
     move-result-object p3
 
-    .line 5
     invoke-interface {v5, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
 
-    .line 6
     invoke-interface {v1, v8}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
 
     if-nez v9, :cond_4
 
-    .line 7
     new-instance v9, Ljava/util/ArrayList;
 
     invoke-direct {v9}, Ljava/util/ArrayList;-><init>()V
 
-    .line 8
     invoke-interface {v1, v8, v9}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     :cond_4
     check-cast v9, Ljava/util/List;
 
-    .line 10
     invoke-interface {v9, p3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     move-object p3, v2
@@ -3218,7 +3071,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -3226,7 +3078,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 12
     invoke-static {v2, v4}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -3247,7 +3098,6 @@
 
     move-object p0, p1
 
-    .line 13
     :goto_3
     :try_start_4
     throw p0
@@ -3259,7 +3109,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 14
     invoke-static {v2, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -3298,7 +3147,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-interface {p0, p1}, Lcotlinx/coroutines/channels/y;->L(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3358,7 +3206,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/o;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -3479,7 +3326,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$groupByTo$3;->label:I
 
     const/4 v4, 0x1
@@ -3566,7 +3412,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -3576,13 +3421,11 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -3662,31 +3505,25 @@
 
     move-result-object v0
 
-    .line 5
     invoke-interface {v6, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v13
 
-    .line 6
     invoke-interface {v5, v13}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v14
 
     if-nez v14, :cond_4
 
-    .line 7
     new-instance v14, Ljava/util/ArrayList;
 
     invoke-direct {v14}, Ljava/util/ArrayList;-><init>()V
 
-    .line 8
     invoke-interface {v5, v13, v14}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     :cond_4
     check-cast v14, Ljava/util/List;
 
-    .line 10
     invoke-interface {v7, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -3697,7 +3534,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_5
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -3705,7 +3541,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 12
     invoke-static {v2, v11}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -3725,7 +3560,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 13
     :goto_4
     :try_start_3
     throw v1
@@ -3739,7 +3573,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 14
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -3818,7 +3651,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$reduce$1;->label:I
 
     const/4 v3, 0x2
@@ -3871,7 +3703,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -3881,7 +3712,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$reduce$1;->L$5:Ljava/lang/Object;
 
@@ -3924,13 +3754,11 @@
 
     const/4 v2, 0x0
 
-    .line 4
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object p2
 
-    .line 5
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$reduce$1;->L$0:Ljava/lang/Object;
 
     iput-object p1, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$reduce$1;->L$1:Ljava/lang/Object;
@@ -3978,7 +3806,6 @@
 
     if-eqz p2, :cond_7
 
-    .line 6
     invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p2
@@ -3999,7 +3826,6 @@
 
     move-object v2, v9
 
-    .line 7
     :goto_2
     :try_start_4
     iput-object v8, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$reduce$1;->L$0:Ljava/lang/Object;
@@ -4047,7 +3873,6 @@
 
     if-eqz p2, :cond_6
 
-    .line 8
     invoke-interface {p1}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p2
@@ -4062,18 +3887,15 @@
 
     goto :goto_2
 
-    .line 9
     :cond_6
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {v6, v5}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p0
 
-    .line 11
     :cond_7
     :try_start_6
     new-instance p0, Ljava/lang/UnsupportedOperationException;
@@ -4093,7 +3915,6 @@
 
     move-object p0, p1
 
-    .line 12
     :goto_4
     :try_start_7
     throw p0
@@ -4105,7 +3926,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 13
     invoke-static {v5, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -4120,7 +3940,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p1
@@ -4161,7 +3980,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -4190,36 +4008,29 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p2, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 3
     invoke-interface {p1, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
     if-nez v4, :cond_0
 
-    .line 4
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     invoke-interface {p1, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_0
     check-cast v4, Ljava/util/List;
 
-    .line 7
     invoke-interface {v4, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 8
     :cond_1
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -4229,7 +4040,6 @@
 
     const/4 p2, 0x0
 
-    .line 9
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -4239,7 +4049,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     :try_start_1
     throw p1
     :try_end_1
@@ -4250,7 +4059,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -4282,7 +4090,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -4290,7 +4097,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->e(I)V
 
     invoke-interface {v1, p2}, Lcotlinx/coroutines/channels/ChannelIterator;->b(Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4307,12 +4113,10 @@
 
     if-eqz v3, :cond_1
 
-    .line 3
     invoke-interface {v1}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 4
     :goto_0
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->e(I)V
 
@@ -4330,7 +4134,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 5
     invoke-interface {v1}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object v4
@@ -4346,19 +4149,16 @@
     :cond_0
     const/4 p1, 0x2
 
-    .line 6
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
     const/4 p2, 0x0
 
-    .line 7
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object v3
 
-    .line 8
     :cond_1
     :try_start_1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -4374,7 +4174,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     :try_start_2
     throw p1
     :try_end_2
@@ -4385,7 +4184,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -4425,7 +4223,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/o;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -4487,7 +4284,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -4516,31 +4312,25 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p2, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 3
     invoke-interface {p1, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
     if-nez v4, :cond_0
 
-    .line 4
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     invoke-interface {p1, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_0
     check-cast v4, Ljava/util/List;
 
-    .line 7
     invoke-interface {p3, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -4549,7 +4339,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -4559,7 +4348,6 @@
 
     const/4 p2, 0x0
 
-    .line 9
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -4569,7 +4357,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     :try_start_1
     throw p1
     :try_end_1
@@ -4580,7 +4367,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -4661,7 +4447,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$reduceIndexed$1;->label:I
 
     const/4 v3, 0x2
@@ -4716,7 +4501,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -4726,7 +4510,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$reduceIndexed$1;->L$5:Ljava/lang/Object;
 
@@ -4769,13 +4552,11 @@
 
     const/4 v2, 0x0
 
-    .line 4
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object p2
 
-    .line 5
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$reduceIndexed$1;->L$0:Ljava/lang/Object;
 
     iput-object p1, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$reduceIndexed$1;->L$1:Ljava/lang/Object;
@@ -4823,7 +4604,6 @@
 
     if-eqz p2, :cond_7
 
-    .line 6
     invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p2
@@ -4844,7 +4624,6 @@
 
     const/4 p1, 0x1
 
-    .line 7
     :goto_2
     :try_start_4
     iput-object v9, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$reduceIndexed$1;->L$0:Ljava/lang/Object;
@@ -4894,7 +4673,6 @@
 
     if-eqz p2, :cond_6
 
-    .line 8
     invoke-static {p1}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -4915,18 +4693,15 @@
 
     goto :goto_2
 
-    .line 9
     :cond_6
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {v7, v6}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p0
 
-    .line 11
     :cond_7
     :try_start_6
     new-instance p0, Ljava/lang/UnsupportedOperationException;
@@ -4946,7 +4721,6 @@
 
     move-object p0, p1
 
-    .line 12
     :goto_4
     :try_start_7
     throw p0
@@ -4958,7 +4732,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 13
     invoke-static {v5, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -4973,7 +4746,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p2
@@ -5053,7 +4825,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$indexOf$1;->label:I
 
     const/4 v3, 0x1
@@ -5128,7 +4899,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -5138,11 +4908,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -5153,7 +4921,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -5235,14 +5002,12 @@
 
     move-result-object p2
 
-    .line 6
     invoke-static {v2, p2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p2
 
     if-eqz p2, :cond_4
 
-    .line 7
     iget p0, v8, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
@@ -5251,12 +5016,10 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 8
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object p0
 
-    .line 9
     :cond_4
     :try_start_3
     iget p2, v8, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -5275,18 +5038,15 @@
 
     goto :goto_1
 
-    .line 10
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 11
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     const/4 p0, -0x1
 
-    .line 12
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -5305,7 +5065,6 @@
 
     move-object p0, p1
 
-    .line 13
     :goto_3
     :try_start_4
     throw p0
@@ -5315,7 +5074,6 @@
     :catchall_3
     move-exception p1
 
-    .line 14
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -5345,7 +5103,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -5353,7 +5110,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->e(I)V
 
     invoke-interface {v1, p2}, Lcotlinx/coroutines/channels/ChannelIterator;->b(Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5370,14 +5126,12 @@
 
     if-eqz v3, :cond_1
 
-    .line 3
     invoke-interface {v1}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
     const/4 v4, 0x1
 
-    .line 4
     :goto_0
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->e(I)V
 
@@ -5395,7 +5149,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 5
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -5417,19 +5170,16 @@
     :cond_0
     const/4 p1, 0x2
 
-    .line 6
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
     const/4 p2, 0x0
 
-    .line 7
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object v3
 
-    .line 8
     :cond_1
     :try_start_1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -5445,7 +5195,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     :try_start_2
     throw p1
     :try_end_2
@@ -5456,7 +5205,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -5507,7 +5255,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/o;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -5612,7 +5359,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$indexOfFirst$1;->label:I
 
     const/4 v3, 0x1
@@ -5689,7 +5435,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -5699,11 +5444,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -5714,7 +5457,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -5796,7 +5538,6 @@
 
     move-result-object p2
 
-    .line 6
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -5809,7 +5550,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 7
     iget p0, v8, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
@@ -5822,14 +5562,12 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p0
 
-    .line 9
     :cond_4
     :try_start_3
     iget p2, v8, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -5848,7 +5586,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -5856,14 +5593,12 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
     const/4 p0, -0x1
 
-    .line 12
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -5882,7 +5617,6 @@
 
     move-object p0, p1
 
-    .line 13
     :goto_3
     :try_start_4
     throw p0
@@ -5894,7 +5628,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 14
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -5928,7 +5661,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$requireNoNulls$1;
 
     const/4 v1, 0x0
@@ -5951,7 +5683,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p1
@@ -5988,7 +5719,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -6021,7 +5751,6 @@
 
     move-result-object v4
 
-    .line 2
     invoke-interface {p1, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -6034,7 +5763,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -6045,7 +5773,6 @@
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 4
     invoke-static {p0, v5}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -6057,7 +5784,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     :try_start_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -6066,14 +5792,12 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, v5}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     const/4 p0, -0x1
 
-    .line 7
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -6083,7 +5807,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_2
     throw p1
     :try_end_2
@@ -6094,7 +5817,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -6167,7 +5889,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$single$1;->label:I
 
     const/4 v3, 0x2
@@ -6216,7 +5937,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -6226,7 +5946,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$single$1;->L$4:Ljava/lang/Object;
 
@@ -6265,13 +5984,11 @@
 
     const/4 p1, 0x0
 
-    .line 4
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object v2
 
-    .line 5
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$single$1;->L$0:Ljava/lang/Object;
 
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$single$1;->L$1:Ljava/lang/Object;
@@ -6319,12 +6036,10 @@
 
     if-eqz p1, :cond_7
 
-    .line 6
     invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 7
     iput-object v6, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$single$1;->L$0:Ljava/lang/Object;
 
     iput-object v5, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$single$1;->L$1:Ljava/lang/Object;
@@ -6372,12 +6087,10 @@
 
     if-nez p1, :cond_6
 
-    .line 8
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object p0
 
-    .line 9
     :cond_6
     :try_start_5
     new-instance p0, Ljava/lang/IllegalArgumentException;
@@ -6390,7 +6103,6 @@
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
-    .line 10
     :cond_7
     :try_start_6
     new-instance p0, Ljava/util/NoSuchElementException;
@@ -6410,7 +6122,6 @@
 
     move-object p0, p1
 
-    .line 11
     :goto_3
     :try_start_7
     throw p0
@@ -6420,7 +6131,6 @@
     :catchall_3
     move-exception p1
 
-    .line 12
     invoke-static {v5, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -6495,7 +6205,6 @@
 
     move-result-object v3
 
-    .line 1
     iget v4, v2, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$elementAt$1;->label:I
 
     const/16 v5, 0x2e
@@ -6568,7 +6277,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -6578,7 +6286,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
@@ -6588,7 +6295,6 @@
 
     const/4 v4, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -6676,7 +6382,6 @@
 
     if-ne v4, v0, :cond_4
 
-    .line 5
     invoke-static {v2, v12}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v1
@@ -6692,7 +6397,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_5
     :try_start_3
     invoke-static {v4}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
@@ -6701,7 +6405,6 @@
 
     invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
 
-    .line 7
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -6739,7 +6442,6 @@
 
     goto :goto_4
 
-    .line 8
     :cond_6
     :try_start_4
     invoke-static/range {p1 .. p1}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
@@ -6748,7 +6450,6 @@
 
     invoke-virtual {v1}, Ljava/lang/Number;->intValue()I
 
-    .line 9
     new-instance v1, Ljava/lang/IndexOutOfBoundsException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -6771,7 +6472,6 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_2
 
-    .line 10
     :goto_4
     :try_start_5
     throw v1
@@ -6783,7 +6483,6 @@
 
     move-object v3, v0
 
-    .line 11
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw v3
@@ -6864,7 +6563,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$indexOfLast$1;->label:I
 
     const/4 v3, 0x1
@@ -6945,7 +6643,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -6955,11 +6652,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -6968,7 +6663,6 @@
 
     iput v2, p2, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 5
     new-instance v2, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v2}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -6979,7 +6673,6 @@
 
     const/4 v4, 0x0
 
-    .line 6
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -7067,7 +6760,6 @@
 
     move-result-object p2
 
-    .line 7
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -7080,12 +6772,10 @@
 
     if-eqz p2, :cond_4
 
-    .line 8
     iget p2, v8, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     iput p2, v9, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 9
     :cond_4
     iget p2, v8, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
@@ -7105,7 +6795,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -7113,12 +6802,10 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 12
     iget p0, v9, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
@@ -7139,7 +6826,6 @@
 
     move-object p0, p1
 
-    .line 13
     :goto_3
     :try_start_3
     throw p0
@@ -7151,7 +6837,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 14
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -7232,7 +6917,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$single$3;->label:I
 
     const/4 v3, 0x0
@@ -7315,7 +6999,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -7325,18 +7008,15 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     iput-object v3, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     new-instance v2, Lcotlin/jvm/internal/Ref$BooleanRef;
 
     invoke-direct {v2}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
@@ -7345,7 +7025,6 @@
 
     iput-boolean v5, v2, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    .line 6
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -7433,7 +7112,6 @@
 
     move-result-object p2
 
-    .line 7
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v10
@@ -7446,20 +7124,16 @@
 
     if-eqz v10, :cond_5
 
-    .line 8
     iget-boolean v10, v8, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-nez v10, :cond_4
 
-    .line 9
     iput-object p2, v9, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 10
     iput-boolean v4, v8, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     goto :goto_3
 
-    .line 11
     :cond_4
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -7483,7 +7157,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_6
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -7491,22 +7164,18 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 13
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 14
     iget-boolean p0, v8, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-eqz p0, :cond_7
 
-    .line 15
     iget-object p0, v9, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     return-object p0
 
-    .line 16
     :cond_7
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -7528,7 +7197,6 @@
 
     move-object p0, p1
 
-    .line 17
     :goto_4
     :try_start_3
     throw p0
@@ -7540,7 +7208,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 18
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -7621,7 +7288,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$elementAtOrElse$1;->label:I
 
     const/4 v3, 0x1
@@ -7686,7 +7352,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -7696,7 +7361,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
@@ -7704,7 +7368,6 @@
 
     if-gez p1, :cond_3
 
-    .line 4
     :try_start_1
     invoke-static {p1}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
@@ -7720,7 +7383,6 @@
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, p3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -7730,7 +7392,6 @@
     :cond_3
     const/4 v2, 0x0
 
-    .line 6
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -7820,10 +7481,8 @@
 
     const/4 p0, 0x3
 
-    .line 7
     invoke-static {p0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {p2, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -7843,7 +7502,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_6
     :try_start_4
     invoke-static {v6}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
@@ -7860,7 +7518,6 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {p2, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -7879,7 +7536,6 @@
 
     move-object p0, p1
 
-    .line 11
     :goto_3
     :try_start_5
     throw p0
@@ -7891,7 +7547,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 12
     invoke-static {p2, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -7923,7 +7578,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -7956,7 +7610,6 @@
 
     move-result-object v5
 
-    .line 2
     invoke-interface {p1, v5}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -7976,7 +7629,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -7986,12 +7638,10 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 5
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -8001,7 +7651,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     throw p1
     :try_end_1
@@ -8012,7 +7661,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -8044,7 +7692,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -8080,7 +7727,6 @@
 
     move-result-object v6
 
-    .line 2
     invoke-interface {p1, v6}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
@@ -8101,7 +7747,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -8111,7 +7756,6 @@
 
     throw p1
 
-    .line 4
     :cond_2
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -8119,7 +7763,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -8128,7 +7771,6 @@
 
     return-object v5
 
-    .line 6
     :cond_3
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -8141,7 +7783,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     :try_start_1
     throw p1
     :try_end_1
@@ -8152,7 +7793,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -8188,7 +7828,6 @@
 
     if-gez p1, :cond_0
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -8204,7 +7843,6 @@
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 2
     :goto_0
     invoke-static {p0, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
@@ -8212,7 +7850,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
@@ -8252,10 +7889,8 @@
 
     const/4 p1, 0x3
 
-    .line 4
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -8267,7 +7902,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     :try_start_2
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -8289,7 +7923,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     :try_start_3
     throw p1
     :try_end_3
@@ -8300,7 +7933,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -8373,7 +8005,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$last$1;->label:I
 
     const/4 v3, 0x2
@@ -8422,7 +8053,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -8432,7 +8062,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$last$1;->L$4:Ljava/lang/Object;
 
@@ -8471,13 +8100,11 @@
 
     const/4 p1, 0x0
 
-    .line 4
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object v2
 
-    .line 5
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$last$1;->L$0:Ljava/lang/Object;
 
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$last$1;->L$1:Ljava/lang/Object;
@@ -8525,7 +8152,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 6
     invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p1
@@ -8544,7 +8170,6 @@
 
     move-object v4, v8
 
-    .line 7
     :goto_2
     :try_start_4
     iput-object v7, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$last$1;->L$0:Ljava/lang/Object;
@@ -8590,7 +8215,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 8
     invoke-interface {v2}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p1
@@ -8601,13 +8225,11 @@
 
     goto :goto_2
 
-    .line 9
     :cond_6
     invoke-static {v6, v5}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object p0
 
-    .line 10
     :cond_7
     :try_start_6
     new-instance p0, Ljava/util/NoSuchElementException;
@@ -8627,7 +8249,6 @@
 
     move-object p0, p1
 
-    .line 11
     :goto_4
     :try_start_7
     throw p0
@@ -8637,7 +8258,6 @@
     :catchall_3
     move-exception p1
 
-    .line 12
     invoke-static {v5, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -8708,7 +8328,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$singleOrNull$1;->label:I
 
     const/4 v3, 0x2
@@ -8759,7 +8378,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -8769,7 +8387,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$singleOrNull$1;->L$4:Ljava/lang/Object;
 
@@ -8806,13 +8423,11 @@
     :cond_3
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object p1
 
-    .line 5
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$singleOrNull$1;->L$0:Ljava/lang/Object;
 
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$singleOrNull$1;->L$1:Ljava/lang/Object;
@@ -8860,19 +8475,16 @@
 
     if-nez p1, :cond_5
 
-    .line 6
     invoke-static {v6, v4}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v5
 
-    .line 7
     :cond_5
     :try_start_4
     invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 8
     iput-object v7, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$singleOrNull$1;->L$0:Ljava/lang/Object;
 
     iput-object v6, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$singleOrNull$1;->L$1:Ljava/lang/Object;
@@ -8920,7 +8532,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 9
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v5
@@ -8937,7 +8548,6 @@
 
     move-object p0, p1
 
-    .line 10
     :goto_3
     :try_start_6
     throw p0
@@ -8947,7 +8557,6 @@
     :catchall_3
     move-exception p1
 
-    .line 11
     invoke-static {v6, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -9018,7 +8627,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$elementAtOrNull$1;->label:I
 
     const/4 v3, 0x0
@@ -9079,7 +8687,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -9089,13 +8696,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     if-gez p1, :cond_3
 
-    .line 4
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v3
@@ -9103,7 +8708,6 @@
     :cond_3
     const/4 p2, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -9190,7 +8794,6 @@
 
     if-ne v1, p1, :cond_5
 
-    .line 6
     invoke-static {v6, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object p2
@@ -9223,7 +8826,6 @@
 
     move-object p0, p1
 
-    .line 7
     :goto_3
     :try_start_4
     throw p0
@@ -9233,7 +8835,6 @@
     :catchall_3
     move-exception p1
 
-    .line 8
     invoke-static {p2, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -9312,7 +8913,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$last$3;->label:I
 
     const/4 v3, 0x0
@@ -9395,7 +8995,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -9405,18 +9004,15 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     iput-object v3, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     new-instance v2, Lcotlin/jvm/internal/Ref$BooleanRef;
 
     invoke-direct {v2}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
@@ -9425,7 +9021,6 @@
 
     iput-boolean v5, v2, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    .line 6
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -9513,7 +9108,6 @@
 
     move-result-object p2
 
-    .line 7
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v10
@@ -9526,10 +9120,8 @@
 
     if-eqz v10, :cond_4
 
-    .line 8
     iput-object p2, v9, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 9
     iput-boolean v4, v8, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     :cond_4
@@ -9545,7 +9137,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -9553,22 +9144,18 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 12
     iget-boolean p0, v8, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-eqz p0, :cond_6
 
-    .line 13
     iget-object p0, v9, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     return-object p0
 
-    .line 14
     :cond_6
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -9590,7 +9177,6 @@
 
     move-object p0, p1
 
-    .line 15
     :goto_3
     :try_start_3
     throw p0
@@ -9602,7 +9188,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 16
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -9685,7 +9270,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$singleOrNull$3;->label:I
 
     const/4 v4, 0x0
@@ -9772,7 +9356,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -9782,18 +9365,15 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     iput-object v4, v0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     new-instance v3, Lcotlin/jvm/internal/Ref$BooleanRef;
 
     invoke-direct {v3}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
@@ -9802,7 +9382,6 @@
 
     iput-boolean v6, v3, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    .line 6
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -9882,7 +9461,6 @@
 
     move-result-object v0
 
-    .line 7
     invoke-interface {v6, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v14
@@ -9895,7 +9473,6 @@
 
     if-eqz v14, :cond_5
 
-    .line 8
     iget-boolean v14, v11, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -9906,19 +9483,16 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {v2, v10}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object v4
 
-    .line 10
     :cond_4
     :try_start_3
     iput-object v0, v12, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 11
     iput-boolean v5, v11, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     :cond_5
@@ -9926,7 +9500,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_6
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -9934,19 +9507,16 @@
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 13
     invoke-static {v2, v10}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 14
     iget-boolean v0, v11, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-nez v0, :cond_7
 
     return-object v4
 
-    .line 15
     :cond_7
     iget-object v0, v12, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
@@ -9965,7 +9535,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 16
     :goto_4
     :try_start_4
     throw v1
@@ -9979,7 +9548,6 @@
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 17
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -10030,7 +9598,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/o;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -10084,7 +9651,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -10120,7 +9686,6 @@
 
     move-result-object v6
 
-    .line 2
     invoke-interface {p1, v6}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
@@ -10139,7 +9704,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -10147,7 +9711,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 4
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -10156,7 +9719,6 @@
 
     return-object v5
 
-    .line 5
     :cond_2
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -10169,7 +9731,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     throw p1
     :try_end_1
@@ -10180,7 +9741,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -10212,7 +9772,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -10248,7 +9807,6 @@
 
     move-result-object v6
 
-    .line 2
     invoke-interface {p1, v6}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
@@ -10267,10 +9825,8 @@
 
     const/4 p1, 0x2
 
-    .line 3
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 4
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -10284,7 +9840,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     :try_start_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -10293,7 +9848,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -10308,7 +9862,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     :try_start_2
     throw p1
     :try_end_2
@@ -10319,7 +9872,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -10334,7 +9886,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p1
@@ -10414,7 +9965,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$lastIndexOf$1;->label:I
 
     const/4 v3, 0x1
@@ -10493,7 +10043,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -10503,11 +10052,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -10516,7 +10063,6 @@
 
     iput v2, p2, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 5
     new-instance v2, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v2}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -10527,7 +10073,6 @@
 
     const/4 v4, 0x0
 
-    .line 6
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -10615,19 +10160,16 @@
 
     move-result-object p2
 
-    .line 7
     invoke-static {v2, p2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p2
 
     if-eqz p2, :cond_4
 
-    .line 8
     iget p2, v8, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     iput p2, v9, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 9
     :cond_4
     iget p2, v8, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
@@ -10647,16 +10189,13 @@
 
     goto :goto_1
 
-    .line 10
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 11
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
-    .line 12
     iget p0, v9, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
@@ -10677,7 +10216,6 @@
 
     move-object p0, p1
 
-    .line 13
     :goto_3
     :try_start_3
     throw p0
@@ -10687,7 +10225,6 @@
     :catchall_3
     move-exception p1
 
-    .line 14
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -10768,7 +10305,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$sumBy$1;->label:I
 
     const/4 v3, 0x1
@@ -10845,7 +10381,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -10855,11 +10390,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -10870,7 +10403,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -10952,7 +10484,6 @@
 
     move-result-object p2
 
-    .line 6
     iget v9, v8, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
@@ -10979,7 +10510,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -10987,12 +10517,10 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 9
     iget p0, v8, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
@@ -11013,7 +10541,6 @@
 
     move-object p0, p1
 
-    .line 10
     :goto_3
     :try_start_3
     throw p0
@@ -11025,7 +10552,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -11078,7 +10604,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/o;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -11173,7 +10698,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$lastOrNull$1;->label:I
 
     const/4 v3, 0x0
@@ -11217,7 +10741,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -11227,7 +10750,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$lastOrNull$1;->L$4:Ljava/lang/Object;
 
@@ -11264,13 +10786,11 @@
     :cond_3
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object p1
 
-    .line 5
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$lastOrNull$1;->L$0:Ljava/lang/Object;
 
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$lastOrNull$1;->L$1:Ljava/lang/Object;
@@ -11318,12 +10838,10 @@
 
     if-nez p1, :cond_5
 
-    .line 6
     invoke-static {v6, v5}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v3
 
-    .line 7
     :cond_5
     :try_start_4
     invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
@@ -11339,7 +10857,6 @@
     :goto_2
     move-object p0, v6
 
-    .line 8
     :try_start_5
     iput-object v7, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$lastOrNull$1;->L$0:Ljava/lang/Object;
 
@@ -11384,7 +10901,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 9
     invoke-interface {v2}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p1
@@ -11393,7 +10909,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_7
     invoke-static {v6, v5}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
@@ -11406,7 +10921,6 @@
 
     move-object p0, p1
 
-    .line 11
     :goto_4
     :try_start_7
     throw p0
@@ -11416,7 +10930,6 @@
     :catchall_2
     move-exception p1
 
-    .line 12
     invoke-static {v6, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -11446,7 +10959,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -11477,7 +10989,6 @@
 
     move-result-object v4
 
-    .line 2
     invoke-interface {p1, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -11492,7 +11003,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -11502,12 +11012,10 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 5
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -11517,7 +11025,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     throw p1
     :try_end_1
@@ -11528,7 +11035,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -11543,7 +11049,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p1
@@ -11629,7 +11134,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$lastOrNull$3;->label:I
 
     const/4 v3, 0x0
@@ -11708,7 +11212,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -11718,18 +11221,15 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     iput-object v3, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -11811,7 +11311,6 @@
 
     move-result-object p2
 
-    .line 6
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
@@ -11824,7 +11323,6 @@
 
     if-eqz v9, :cond_4
 
-    .line 7
     iput-object p2, v8, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     :cond_4
@@ -11838,7 +11336,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -11846,12 +11343,10 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 10
     iget-object p0, v8, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     return-object p0
@@ -11868,7 +11363,6 @@
 
     move-object p0, p1
 
-    .line 11
     :goto_3
     :try_start_3
     throw p0
@@ -11880,7 +11374,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 12
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -11965,7 +11458,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$sumByDouble$1;->label:I
 
     const/4 v4, 0x1
@@ -12044,7 +11536,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -12054,11 +11545,9 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcotlin/jvm/internal/Ref$DoubleRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$DoubleRef;-><init>()V
@@ -12069,7 +11558,6 @@
 
     const/4 v3, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -12145,7 +11633,6 @@
 
     move-result-object v0
 
-    .line 6
     iget-wide v12, v10, Lcotlin/jvm/internal/Ref$DoubleRef;->element:D
 
     invoke-interface {v5, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
@@ -12166,7 +11653,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -12174,12 +11660,10 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v2, v9}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 9
     iget-wide v0, v10, Lcotlin/jvm/internal/Ref$DoubleRef;->element:D
 
     invoke-static {v0, v1}, Lcotlin/coroutines/jvm/internal/a;->d(D)Ljava/lang/Double;
@@ -12201,7 +11685,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 10
     :goto_4
     :try_start_3
     throw v1
@@ -12215,7 +11698,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -12306,7 +11788,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterIndexedTo$1;->label:I
 
     const/4 v4, 0x1
@@ -12393,7 +11874,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -12403,11 +11883,9 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -12418,7 +11896,6 @@
 
     const/4 v3, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -12502,7 +11979,6 @@
 
     move-result-object v0
 
-    .line 6
     new-instance v14, Lcotlin/collections/i0;
 
     iget v15, v12, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -12521,7 +11997,6 @@
 
     move-result-object v4
 
-    .line 7
     invoke-static {v0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -12547,7 +12022,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_5
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -12557,7 +12031,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {v3, v11}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -12577,7 +12050,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 10
     :goto_4
     :try_start_3
     throw v1
@@ -12593,7 +12065,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v3, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -12625,7 +12096,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -12659,7 +12129,6 @@
 
     move-result-object v4
 
-    .line 2
     invoke-interface {p1, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -12676,7 +12145,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -12684,7 +12152,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 4
     invoke-static {p0, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -12694,7 +12161,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -12705,7 +12171,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -12737,7 +12202,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -12768,7 +12232,6 @@
 
     move-result-object v4
 
-    .line 2
     invoke-interface {p1, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -12783,7 +12246,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -12793,12 +12255,10 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 5
     invoke-static {v2, v3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object p0
@@ -12808,7 +12268,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     throw p1
     :try_end_1
@@ -12819,7 +12278,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -12910,7 +12368,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterIndexedTo$3;->label:I
 
     const/4 v4, 0x2
@@ -12984,7 +12441,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -12994,7 +12450,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     iget-object v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterIndexedTo$3;->L$9:Ljava/lang/Object;
 
@@ -13063,7 +12518,6 @@
     :cond_3
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -13074,7 +12528,6 @@
 
     const/4 v3, 0x0
 
-    .line 5
     :try_start_2
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -13178,7 +12631,6 @@
 
     move-result-object v0
 
-    .line 6
     new-instance v15, Lcotlin/collections/i0;
 
     iget v5, v10, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -13199,7 +12651,6 @@
 
     move-object/from16 p0, v2
 
-    .line 7
     invoke-static {v4}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -13330,7 +12781,6 @@
 
     goto/16 :goto_1
 
-    .line 8
     :cond_7
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -13340,7 +12790,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {v3, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -13360,7 +12809,6 @@
     :goto_5
     move-object v1, v0
 
-    .line 10
     :goto_6
     :try_start_4
     throw v1
@@ -13376,7 +12824,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v3, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -13427,7 +12874,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/o;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -13489,7 +12935,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/o;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -13547,7 +12992,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -13578,7 +13022,6 @@
 
     move-result-object v4
 
-    .line 2
     new-instance v5, Lcotlin/collections/i0;
 
     add-int/lit8 v6, v3, 0x1
@@ -13593,7 +13036,6 @@
 
     move-result-object v4
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -13617,7 +13059,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -13627,7 +13068,6 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -13637,7 +13077,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     throw p1
     :try_end_1
@@ -13648,7 +13087,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -13663,7 +13101,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p1
@@ -13683,7 +13120,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p2
@@ -13724,7 +13160,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -13755,7 +13190,6 @@
 
     move-result-object v4
 
-    .line 2
     new-instance v5, Lcotlin/collections/i0;
 
     add-int/lit8 v6, v3, 0x1
@@ -13770,7 +13204,6 @@
 
     move-result-object v4
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -13802,7 +13235,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -13812,7 +13244,6 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -13822,7 +13253,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     throw p1
     :try_end_1
@@ -13833,7 +13263,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -13886,7 +13315,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/o;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -13959,7 +13387,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/o;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -14032,7 +13459,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterNot$1;
 
     const/4 v1, 0x0
@@ -14053,7 +13479,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p1
@@ -14073,7 +13498,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p1
@@ -14093,7 +13517,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p1
@@ -14151,7 +13574,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/o;->X0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -14234,7 +13656,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$toChannel$1;->label:I
 
     const/4 v3, 0x2
@@ -14302,7 +13723,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -14312,7 +13732,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$toChannel$1;->L$6:Ljava/lang/Object;
 
@@ -14369,7 +13788,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -14449,7 +13867,6 @@
 
     move-result-object v8
 
-    .line 5
     iput-object v5, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$toChannel$1;->L$0:Ljava/lang/Object;
 
     iput-object v7, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$toChannel$1;->L$1:Ljava/lang/Object;
@@ -14497,13 +13914,11 @@
 
     goto :goto_1
 
-    .line 6
     :cond_6
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 7
     invoke-static {p2, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v7
@@ -14520,7 +13935,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_4
     throw p0
@@ -14530,7 +13944,6 @@
     :catchall_3
     move-exception p1
 
-    .line 9
     invoke-static {p2, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -14611,7 +14024,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$all$1;->label:I
 
     const/4 v3, 0x1
@@ -14680,7 +14092,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -14690,13 +14101,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p2, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -14772,7 +14181,6 @@
 
     move-result-object p2
 
-    .line 5
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -14797,7 +14205,6 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -14813,7 +14220,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_5
     :try_start_3
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
@@ -14822,12 +14228,10 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 9
     invoke-static {v3}, Lcotlin/coroutines/jvm/internal/a;->a(Z)Ljava/lang/Boolean;
 
     move-result-object p0
@@ -14846,7 +14250,6 @@
 
     move-object p0, p1
 
-    .line 10
     :goto_3
     :try_start_4
     throw p0
@@ -14858,7 +14261,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -14892,7 +14294,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterNotNull$1;
 
     const/4 v1, 0x0
@@ -14926,7 +14327,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p1
@@ -15010,7 +14410,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$toCollection$1;->label:I
 
     const/4 v3, 0x1
@@ -15079,7 +14478,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -15089,13 +14487,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p2, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -15171,7 +14567,6 @@
 
     move-result-object p2
 
-    .line 5
     invoke-interface {v2, p2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     move-object p2, v5
@@ -15182,13 +14577,11 @@
 
     goto :goto_1
 
-    .line 6
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 7
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v2
@@ -15205,7 +14598,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_3
     throw p0
@@ -15215,7 +14607,6 @@
     :catchall_3
     move-exception p1
 
-    .line 9
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -15245,7 +14636,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -15276,7 +14666,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -15297,14 +14686,12 @@
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p1
 
-    .line 4
     :cond_1
     :try_start_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -15313,12 +14700,10 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 6
     sget-object p0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     return-object p0
@@ -15326,7 +14711,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     :try_start_2
     throw p1
     :try_end_2
@@ -15337,7 +14721,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -15416,7 +14799,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterNotNullTo$1;->label:I
 
     const/4 v3, 0x1
@@ -15485,7 +14867,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -15495,13 +14876,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p2, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -15579,7 +14958,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 5
     invoke-interface {v2, p2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     :cond_4
@@ -15591,13 +14969,11 @@
 
     goto :goto_1
 
-    .line 6
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 7
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v2
@@ -15614,7 +14990,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_3
     throw p0
@@ -15624,7 +14999,6 @@
     :catchall_3
     move-exception p1
 
-    .line 9
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -15713,7 +15087,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexedNotNullTo$1;->label:I
 
     const/4 v4, 0x1
@@ -15800,7 +15173,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -15810,11 +15182,9 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -15825,7 +15195,6 @@
 
     const/4 v3, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -15909,7 +15278,6 @@
 
     move-result-object v0
 
-    .line 6
     new-instance v14, Lcotlin/collections/i0;
 
     iget v15, v12, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -15928,7 +15296,6 @@
 
     move-result-object v4
 
-    .line 7
     invoke-static {v0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -15952,7 +15319,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_5
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -15962,7 +15328,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {v3, v11}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -15982,7 +15347,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 10
     :goto_4
     :try_start_3
     throw v1
@@ -15998,7 +15362,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v3, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -16034,7 +15397,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->f2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -16109,7 +15471,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$any$1;->label:I
 
     const/4 v3, 0x1
@@ -16152,7 +15513,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -16162,13 +15522,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p1, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -16194,7 +15552,6 @@
 
     return-object v1
 
-    .line 5
     :cond_3
     :goto_1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
@@ -16208,7 +15565,6 @@
 
     move-object p0, p1
 
-    .line 6
     :goto_2
     :try_start_2
     throw p0
@@ -16218,7 +15574,6 @@
     :catchall_2
     move-exception p1
 
-    .line 7
     invoke-static {v1, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -16295,7 +15650,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterNotNullTo$3;->label:I
 
     const/4 v3, 0x2
@@ -16363,7 +15717,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -16373,7 +15726,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterNotNullTo$3;->L$6:Ljava/lang/Object;
 
@@ -16440,7 +15792,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -16521,7 +15872,6 @@
 
     if-eqz p2, :cond_5
 
-    .line 5
     iput-object p0, v6, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterNotNullTo$3;->L$0:Ljava/lang/Object;
 
     iput-object v1, v6, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterNotNullTo$3;->L$1:Ljava/lang/Object;
@@ -16561,13 +15911,11 @@
 
     goto :goto_1
 
-    .line 6
     :cond_6
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
-    .line 7
     invoke-static {v5, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v1
@@ -16586,7 +15934,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_5
     throw p0
@@ -16596,7 +15943,6 @@
     :catchall_3
     move-exception p1
 
-    .line 9
     invoke-static {v5, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -16685,7 +16031,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexedNotNullTo$3;->label:I
 
     const/4 v4, 0x2
@@ -16761,7 +16106,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -16771,7 +16115,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     iget-object v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexedNotNullTo$3;->L$9:Ljava/lang/Object;
 
@@ -16840,7 +16183,6 @@
     :cond_3
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -16851,7 +16193,6 @@
 
     const/4 v3, 0x0
 
-    .line 5
     :try_start_2
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -16955,7 +16296,6 @@
 
     move-result-object v0
 
-    .line 6
     new-instance v15, Lcotlin/collections/i0;
 
     iget v5, v10, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -16976,7 +16316,6 @@
 
     move-object/from16 p0, v2
 
-    .line 7
     invoke-static {v4}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -17103,7 +16442,6 @@
 
     goto/16 :goto_1
 
-    .line 8
     :cond_7
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -17113,7 +16451,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {v3, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -17133,7 +16470,6 @@
     :goto_5
     move-object v1, v0
 
-    .line 10
     :goto_6
     :try_start_4
     throw v1
@@ -17149,7 +16485,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v3, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -17232,7 +16567,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$toMap$2;->label:I
 
     const/4 v3, 0x1
@@ -17301,7 +16635,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -17311,13 +16644,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p2, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -17395,7 +16726,6 @@
 
     check-cast p2, Lcotlin/Pair;
 
-    .line 5
     invoke-virtual {p2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
@@ -17414,13 +16744,11 @@
 
     goto :goto_1
 
-    .line 6
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 7
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v2
@@ -17437,7 +16765,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_3
     throw p0
@@ -17447,7 +16774,6 @@
     :catchall_3
     move-exception p1
 
-    .line 9
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -17528,7 +16854,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$any$3;->label:I
 
     const/4 v3, 0x1
@@ -17597,7 +16922,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -17607,13 +16931,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p2, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -17689,7 +17011,6 @@
 
     move-result-object p2
 
-    .line 5
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -17712,7 +17033,6 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -17728,7 +17048,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_5
     :try_start_3
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
@@ -17737,14 +17056,12 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
     const/4 p0, 0x0
 
-    .line 9
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/a;->a(Z)Ljava/lang/Boolean;
 
     move-result-object p0
@@ -17763,7 +17080,6 @@
 
     move-object p0, p1
 
-    .line 10
     :goto_3
     :try_start_4
     throw p0
@@ -17775,7 +17091,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -17862,7 +17177,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterNotTo$1;->label:I
 
     const/4 v3, 0x1
@@ -17935,7 +17249,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -17945,13 +17258,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p3, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -18036,7 +17347,6 @@
 
     move-result-object p3
 
-    .line 5
     invoke-interface {v5, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
@@ -18062,7 +17372,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -18070,7 +17379,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {v2, v4}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -18089,7 +17397,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_4
     throw p0
@@ -18101,7 +17408,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {p3, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -18137,7 +17443,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -18168,7 +17473,6 @@
 
     move-result-object v4
 
-    .line 2
     new-instance v5, Lcotlin/collections/i0;
 
     add-int/lit8 v6, v3, 0x1
@@ -18183,7 +17487,6 @@
 
     move-result-object v4
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -18201,7 +17504,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -18211,7 +17513,6 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -18221,7 +17522,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     throw p1
     :try_end_1
@@ -18232,7 +17532,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -18277,7 +17576,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
@@ -18313,7 +17611,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -18344,7 +17641,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -18365,14 +17661,12 @@
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p2}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p1
 
-    .line 4
     :cond_1
     :try_start_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -18381,12 +17675,10 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 6
     sget-object p0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     return-object p0
@@ -18394,7 +17686,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     :try_start_2
     throw p1
     :try_end_2
@@ -18405,7 +17696,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -18494,7 +17784,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterNotTo$3;->label:I
 
     const/4 v4, 0x2
@@ -18576,7 +17865,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -18586,7 +17874,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     iget-object v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterNotTo$3;->L$7:Ljava/lang/Object;
 
@@ -18665,7 +17952,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     :try_start_2
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -18741,7 +18027,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-interface {v7, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v13
@@ -18789,7 +18074,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_6
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -18797,7 +18081,6 @@
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {v2, v8}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -18817,7 +18100,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 8
     :goto_4
     :try_start_4
     throw v1
@@ -18831,7 +18113,6 @@
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -18867,7 +18148,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -18898,7 +18178,6 @@
 
     move-result-object v4
 
-    .line 2
     new-instance v5, Lcotlin/collections/i0;
 
     add-int/lit8 v6, v3, 0x1
@@ -18913,7 +18192,6 @@
 
     move-result-object v4
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -18939,7 +18217,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -18949,7 +18226,6 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -18959,7 +18235,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     throw p1
     :try_end_1
@@ -18970,7 +18245,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -19011,7 +18285,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -19102,7 +18375,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$associate$1;->label:I
 
     const/4 v3, 0x1
@@ -19183,7 +18455,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -19193,18 +18464,15 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Ljava/util/LinkedHashMap;
 
     invoke-direct {p2}, Ljava/util/LinkedHashMap;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -19288,7 +18556,6 @@
 
     move-result-object p2
 
-    .line 6
     invoke-interface {v4, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -19313,7 +18580,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -19321,7 +18587,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v1, v8}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -19340,7 +18605,6 @@
 
     move-object p0, p1
 
-    .line 9
     :goto_3
     :try_start_3
     throw p0
@@ -19352,7 +18616,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {v1, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -19388,7 +18651,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -19418,7 +18680,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p2, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -19435,7 +18696,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -19445,7 +18705,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -19455,7 +18714,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -19466,7 +18724,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -19557,7 +18814,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexedTo$1;->label:I
 
     const/4 v4, 0x1
@@ -19644,7 +18900,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -19654,11 +18909,9 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -19669,7 +18922,6 @@
 
     const/4 v3, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -19749,7 +19001,6 @@
 
     move-result-object v0
 
-    .line 6
     iget v13, v11, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/lit8 v14, v13, 0x1
@@ -19770,7 +19021,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -19778,7 +19028,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v2, v10}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -19798,7 +19047,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 9
     :goto_4
     :try_start_3
     throw v1
@@ -19812,7 +19060,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -19853,7 +19100,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
@@ -19887,14 +19133,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -19923,7 +19167,6 @@
 
     move-result-object v3
 
-    .line 3
     invoke-interface {p1, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -19942,7 +19185,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -19952,7 +19194,6 @@
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -19962,7 +19203,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     throw p1
     :try_end_1
@@ -19973,7 +19213,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -20009,7 +19248,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -20039,7 +19277,6 @@
 
     move-result-object v3
 
-    .line 2
     invoke-interface {p2, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -20064,7 +19301,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -20074,7 +19310,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -20084,7 +19319,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -20095,7 +19329,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -20186,7 +19419,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexedTo$3;->label:I
 
     const/4 v4, 0x2
@@ -20276,7 +19508,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -20286,7 +19517,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     iget-object v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexedTo$3;->L$8:Ljava/lang/Object;
 
@@ -20351,7 +19581,6 @@
     :cond_3
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -20362,7 +19591,6 @@
 
     const/4 v3, 0x0
 
-    .line 5
     :try_start_2
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -20462,7 +19690,6 @@
 
     move-result-object v0
 
-    .line 6
     iget v14, v8, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/lit8 v15, v14, 0x1
@@ -20534,7 +19761,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_6
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -20542,7 +19768,6 @@
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v2, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -20562,7 +19787,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 9
     :goto_4
     :try_start_4
     throw v1
@@ -20576,7 +19800,6 @@
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -20617,7 +19840,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->g2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -20700,7 +19922,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$associateBy$1;->label:I
 
     const/4 v3, 0x1
@@ -20781,7 +20002,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -20791,18 +20011,15 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Ljava/util/LinkedHashMap;
 
     invoke-direct {p2}, Ljava/util/LinkedHashMap;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -20886,7 +20103,6 @@
 
     move-result-object p2
 
-    .line 6
     invoke-interface {v4, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v10
@@ -20901,7 +20117,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -20909,7 +20124,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v1, v8}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -20928,7 +20142,6 @@
 
     move-object p0, p1
 
-    .line 9
     :goto_3
     :try_start_3
     throw p0
@@ -20940,7 +20153,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {v1, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -21027,7 +20239,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterTo$1;->label:I
 
     const/4 v3, 0x1
@@ -21100,7 +20311,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -21110,13 +20320,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p3, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -21201,7 +20409,6 @@
 
     move-result-object p3
 
-    .line 5
     invoke-interface {v5, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
@@ -21227,7 +20434,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -21235,7 +20441,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {v2, v4}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -21254,7 +20459,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_4
     throw p0
@@ -21266,7 +20470,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {p3, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -21302,7 +20505,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -21335,7 +20537,6 @@
 
     add-int/lit8 v5, v3, 0x1
 
-    .line 2
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -21350,7 +20551,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -21360,7 +20560,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -21370,7 +20569,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -21381,7 +20579,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -21422,7 +20619,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/o;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -21535,7 +20731,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$associateBy$2;->label:I
 
     const/4 v3, 0x1
@@ -21618,7 +20813,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -21628,18 +20822,15 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p3, Ljava/util/LinkedHashMap;
 
     invoke-direct {p3}, Ljava/util/LinkedHashMap;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -21729,7 +20920,6 @@
 
     move-result-object p3
 
-    .line 6
     invoke-interface {v2, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v10
@@ -21750,7 +20940,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -21758,7 +20947,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v0, v5}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -21777,7 +20965,6 @@
 
     move-object p0, p1
 
-    .line 9
     :goto_3
     :try_start_3
     throw p0
@@ -21789,7 +20976,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -21878,7 +21064,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterTo$3;->label:I
 
     const/4 v4, 0x2
@@ -21960,7 +21145,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -21970,7 +21154,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     iget-object v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$filterTo$3;->L$7:Ljava/lang/Object;
 
@@ -22049,7 +21232,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     :try_start_2
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -22125,7 +21307,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-interface {v7, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v13
@@ -22173,7 +21354,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_6
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -22181,7 +21361,6 @@
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {v2, v8}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -22201,7 +21380,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 8
     :goto_4
     :try_start_4
     throw v1
@@ -22215,7 +21393,6 @@
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -22251,7 +21428,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -22284,7 +21460,6 @@
 
     add-int/lit8 v5, v3, 0x1
 
-    .line 2
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -22307,7 +21482,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -22317,7 +21491,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -22327,7 +21500,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -22338,7 +21510,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -22353,7 +21524,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p1
@@ -22388,14 +21558,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -22424,7 +21592,6 @@
 
     move-result-object v3
 
-    .line 3
     invoke-interface {p1, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -22433,7 +21600,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -22443,7 +21609,6 @@
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -22453,7 +21618,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     throw p1
     :try_end_1
@@ -22464,7 +21628,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -22500,7 +21663,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -22530,7 +21692,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p2, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -22547,7 +21708,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -22557,7 +21717,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -22567,7 +21726,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -22578,7 +21736,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -22629,7 +21786,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/o;->V0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -22676,7 +21832,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v3, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$zip$1;->INSTANCE:Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$zip$1;
 
     const/4 v2, 0x0
@@ -22722,14 +21877,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -22758,7 +21911,6 @@
 
     move-result-object v3
 
-    .line 3
     invoke-interface {p1, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -22771,7 +21923,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -22781,7 +21932,6 @@
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -22791,7 +21941,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     throw p1
     :try_end_1
@@ -22802,7 +21951,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -22838,7 +21986,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -22868,7 +22015,6 @@
 
     move-result-object v3
 
-    .line 2
     invoke-interface {p2, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -22893,7 +22039,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -22903,7 +22048,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -22913,7 +22057,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -22924,7 +22067,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -22939,7 +22081,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p1
@@ -22999,7 +22140,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     const/4 v1, 0x2
@@ -23120,7 +22260,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$associateByTo$1;->label:I
 
     const/4 v3, 0x1
@@ -23193,7 +22332,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -23203,13 +22341,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p3, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -23294,7 +22430,6 @@
 
     move-result-object p3
 
-    .line 5
     invoke-interface {v5, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
@@ -23311,7 +22446,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -23319,7 +22453,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {v2, v4}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -23338,7 +22471,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_4
     throw p0
@@ -23350,7 +22482,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {p3, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -23433,7 +22564,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$find$1;->label:I
 
     const/4 v4, 0x0
@@ -23514,7 +22644,6 @@
 
     goto/16 :goto_5
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -23524,11 +22653,9 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -23604,7 +22731,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-interface {v7, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v13
@@ -23623,7 +22749,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {v3, v11}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -23637,7 +22762,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_5
     :try_start_3
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
@@ -23646,7 +22770,6 @@
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v3, v11}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -23667,7 +22790,6 @@
     :goto_4
     move-object v1, v0
 
-    .line 9
     :goto_5
     :try_start_4
     throw v1
@@ -23681,7 +22803,6 @@
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {v3, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -23768,7 +22889,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapNotNullTo$1;->label:I
 
     const/4 v3, 0x1
@@ -23841,7 +22961,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -23851,13 +22970,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p3, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -23942,7 +23059,6 @@
 
     move-result-object p3
 
-    .line 5
     invoke-interface {v5, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p3
@@ -23966,7 +23082,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -23974,7 +23089,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {v2, v4}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -23993,7 +23107,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_4
     throw p0
@@ -24005,7 +23118,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {p3, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -24020,7 +23132,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p2
@@ -24120,7 +23231,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$associateByTo$3;->label:I
 
     const/4 v3, 0x1
@@ -24195,7 +23305,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -24205,13 +23314,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p4}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p4, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -24295,7 +23402,6 @@
 
     move-result-object p4
 
-    .line 5
     invoke-interface {v1, p4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
@@ -24314,7 +23420,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -24322,7 +23427,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p3, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -24336,7 +23440,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_3
     throw p0
@@ -24348,7 +23451,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {p3, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -24380,7 +23482,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -24411,7 +23512,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -24430,7 +23530,6 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -24439,7 +23538,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     :try_start_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -24448,7 +23546,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -24459,7 +23556,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_2
     throw p1
     :try_end_2
@@ -24470,7 +23566,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -24557,7 +23652,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapNotNullTo$3;->label:I
 
     const/4 v3, 0x2
@@ -24615,7 +23709,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -24625,7 +23718,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapNotNullTo$3;->L$7:Ljava/lang/Object;
 
@@ -24684,7 +23776,6 @@
 
     const/4 p3, 0x0
 
-    .line 4
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -24774,7 +23865,6 @@
 
     move-result-object p3
 
-    .line 5
     invoke-interface {v6, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
@@ -24868,7 +23958,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_7
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -24876,7 +23965,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p2, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -24895,7 +23983,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_4
     :try_start_4
     throw p0
@@ -24907,7 +23994,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {p2, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -24943,7 +24029,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -24972,7 +24057,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p2, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -24981,7 +24065,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -24991,7 +24074,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -25001,7 +24083,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -25012,7 +24093,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -25093,7 +24173,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$findLast$1;->label:I
 
     const/4 v3, 0x0
@@ -25176,7 +24255,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -25186,18 +24264,15 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance p2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     iput-object v3, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -25281,7 +24356,6 @@
 
     move-result-object p2
 
-    .line 6
     invoke-interface {v3, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v10
@@ -25294,7 +24368,6 @@
 
     if-eqz v10, :cond_4
 
-    .line 7
     iput-object p2, v9, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     :cond_4
@@ -25306,7 +24379,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -25314,12 +24386,10 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {v1, v8}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 10
     iget-object p0, v9, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     return-object p0
@@ -25336,7 +24406,6 @@
 
     move-object p0, p1
 
-    .line 11
     :goto_3
     :try_start_3
     throw p0
@@ -25348,7 +24417,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 12
     invoke-static {v1, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -25384,7 +24452,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -25414,7 +24481,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p2, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -25425,7 +24491,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -25435,7 +24500,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -25445,7 +24509,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -25456,7 +24519,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -25496,7 +24558,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -25525,7 +24586,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p2, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -25538,7 +24598,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -25548,7 +24607,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -25558,7 +24616,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -25569,7 +24626,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -25601,7 +24657,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -25635,7 +24690,6 @@
 
     move-result-object v4
 
-    .line 2
     invoke-interface {p1, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -25652,7 +24706,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -25660,7 +24713,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 4
     invoke-static {p0, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -25670,7 +24722,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -25681,7 +24732,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -25717,7 +24767,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -25747,7 +24796,6 @@
 
     move-result-object v3
 
-    .line 2
     invoke-interface {p2, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -25766,7 +24814,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -25776,7 +24823,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -25786,7 +24832,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -25797,7 +24842,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -25888,7 +24932,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$associateTo$1;->label:I
 
     const/4 v3, 0x1
@@ -25961,7 +25004,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -25971,13 +25013,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p3, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -26062,7 +25102,6 @@
 
     move-result-object p3
 
-    .line 5
     invoke-interface {v5, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p3
@@ -26089,7 +25128,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -26097,7 +25135,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {v2, v4}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -26116,7 +25153,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_4
     throw p0
@@ -26128,7 +25164,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {p3, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -26201,7 +25236,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$first$1;->label:I
 
     const/4 v3, 0x1
@@ -26242,7 +25276,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -26252,19 +25285,16 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p1, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object v2
 
-    .line 5
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$first$1;->L$0:Ljava/lang/Object;
 
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$first$1;->L$1:Ljava/lang/Object;
@@ -26308,19 +25338,16 @@
 
     if-eqz p1, :cond_4
 
-    .line 6
     invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 7
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object p0
 
-    .line 8
     :cond_4
     :try_start_3
     new-instance p0, Ljava/util/NoSuchElementException;
@@ -26340,7 +25367,6 @@
 
     move-object p0, p1
 
-    .line 9
     :goto_2
     :try_start_4
     throw p0
@@ -26350,7 +25376,6 @@
     :catchall_2
     move-exception p1
 
-    .line 10
     invoke-static {v2, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -26435,7 +25460,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapTo$1;->label:I
 
     const/4 v3, 0x1
@@ -26508,7 +25532,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -26518,13 +25541,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p3, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -26609,7 +25630,6 @@
 
     move-result-object p3
 
-    .line 5
     invoke-interface {v5, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p3
@@ -26626,7 +25646,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -26634,7 +25653,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {v2, v4}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -26653,7 +25671,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_4
     throw p0
@@ -26665,7 +25682,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {p3, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -26701,7 +25717,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -26730,7 +25745,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p2, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -26749,7 +25763,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -26759,7 +25772,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -26769,7 +25781,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -26780,7 +25791,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -26861,7 +25871,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$first$3;->label:I
 
     const/4 v3, 0x1
@@ -26930,7 +25939,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -26940,13 +25948,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p2, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -27022,7 +26028,6 @@
 
     move-result-object p2
 
-    .line 5
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
@@ -27041,7 +26046,6 @@
 
     invoke-static {p0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -27057,7 +26061,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_5
     :try_start_3
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
@@ -27066,12 +26069,10 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v0, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 9
     new-instance p0, Ljava/util/NoSuchElementException;
 
     const-string p1, "ReceiveChannel contains no element matching the predicate."
@@ -27092,7 +26093,6 @@
 
     move-object p0, p1
 
-    .line 10
     :goto_3
     :try_start_4
     throw p0
@@ -27104,7 +26104,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -27191,7 +26190,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapTo$3;->label:I
 
     const/4 v3, 0x2
@@ -27271,7 +26269,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -27281,7 +26278,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapTo$3;->L$7:Ljava/lang/Object;
 
@@ -27340,7 +26336,6 @@
 
     const/4 p3, 0x0
 
-    .line 4
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -27430,7 +26425,6 @@
 
     move-result-object p3
 
-    .line 5
     invoke-interface {v6, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
@@ -27486,7 +26480,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_6
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -27494,7 +26487,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p2, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -27513,7 +26505,6 @@
 
     move-object p0, p1
 
-    .line 8
     :goto_3
     :try_start_4
     throw p0
@@ -27525,7 +26516,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {p2, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -27560,7 +26550,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     instance-of v1, p1, Ljava/util/concurrent/CancellationException;
 
     if-nez v1, :cond_0
@@ -27586,7 +26575,6 @@
 
     move-object v0, p1
 
-    .line 2
     :cond_2
     :goto_1
     invoke-interface {p0, v0}, Lcotlinx/coroutines/channels/y;->d(Ljava/util/concurrent/CancellationException;)V
@@ -27618,7 +26606,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -27649,7 +26636,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -27668,14 +26654,12 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object v2
 
-    .line 4
     :cond_1
     :try_start_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -27684,12 +26668,10 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 6
     new-instance p0, Ljava/util/NoSuchElementException;
 
     const-string p1, "ReceiveChannel contains no element matching the predicate."
@@ -27701,7 +26683,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     :try_start_2
     throw p1
     :try_end_2
@@ -27712,7 +26693,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -27748,7 +26728,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -27777,7 +26756,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p2, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -27786,7 +26764,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -27796,7 +26773,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -27806,7 +26782,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -27817,7 +26792,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -27854,7 +26828,6 @@
     .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/i;->A()Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -27863,7 +26836,6 @@
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -27873,7 +26845,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     invoke-static {p0, v0, v1, v0}, Lcotlinx/coroutines/channels/y$a;->b(Lcotlinx/coroutines/channels/y;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -27883,10 +26854,8 @@
     :catchall_0
     move-exception p1
 
-    .line 4
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, v0, v1, v0}, Lcotlinx/coroutines/channels/y$a;->b(Lcotlinx/coroutines/channels/y;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -27959,7 +26928,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$firstOrNull$1;->label:I
 
     const/4 v3, 0x0
@@ -28002,7 +26970,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -28012,17 +26979,14 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object p1
 
-    .line 5
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$firstOrNull$1;->L$0:Ljava/lang/Object;
 
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$firstOrNull$1;->L$1:Ljava/lang/Object;
@@ -28066,12 +27030,10 @@
 
     if-nez p1, :cond_4
 
-    .line 6
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v3
 
-    .line 7
     :cond_4
     :try_start_3
     invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
@@ -28080,7 +27042,6 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 8
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object p0
@@ -28092,7 +27053,6 @@
 
     move-object p0, p1
 
-    .line 9
     :goto_2
     :try_start_4
     throw p0
@@ -28102,7 +27062,6 @@
     :catchall_2
     move-exception p1
 
-    .line 10
     invoke-static {v2, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -28136,7 +27095,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -28165,7 +27123,6 @@
 
     move-result-object v3
 
-    .line 2
     invoke-interface {p2, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -28182,7 +27139,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -28192,7 +27148,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -28202,7 +27157,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -28213,7 +27167,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -28252,7 +27205,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -28264,7 +27216,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {p0, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -28274,7 +27225,6 @@
     :catchall_0
     move-exception p1
 
-    .line 3
     :try_start_1
     throw p1
     :try_end_1
@@ -28283,10 +27233,8 @@
     :catchall_1
     move-exception v1
 
-    .line 4
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -28367,7 +27315,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$firstOrNull$3;->label:I
 
     const/4 v3, 0x0
@@ -28438,7 +27385,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -28448,11 +27394,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -28528,7 +27472,6 @@
 
     move-result-object p2
 
-    .line 5
     invoke-interface {v2, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
@@ -28547,7 +27490,6 @@
 
     invoke-static {p0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {v0, v8}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -28563,7 +27505,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_5
     :try_start_3
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
@@ -28572,7 +27513,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v0, v8}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -28591,7 +27531,6 @@
 
     move-object p0, p1
 
-    .line 9
     :goto_3
     :try_start_4
     throw p0
@@ -28603,7 +27542,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {v0, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -28688,7 +27626,6 @@
 
     move-result-object v3
 
-    .line 1
     iget v4, v2, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$maxBy$1;->label:I
 
     const/4 v5, 0x0
@@ -28760,7 +27697,6 @@
 
     goto/16 :goto_5
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -28770,7 +27706,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     iget-object v1, v2, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$maxBy$1;->L$5:Ljava/lang/Object;
 
@@ -28823,13 +27758,11 @@
     :cond_3
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     :try_start_2
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object v0
 
-    .line 5
     iput-object v1, v2, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$maxBy$1;->L$0:Ljava/lang/Object;
 
     move-object/from16 v4, p1
@@ -28884,21 +27817,18 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {v1, v9}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object v5
 
-    .line 7
     :cond_5
     :try_start_3
     invoke-interface {v8}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 8
     invoke-interface {v10, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -28915,7 +27845,6 @@
 
     move-object v0, v15
 
-    .line 9
     :goto_3
     iput-object v12, v2, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$maxBy$1;->L$0:Ljava/lang/Object;
 
@@ -28961,19 +27890,16 @@
 
     if-eqz v0, :cond_8
 
-    .line 10
     invoke-interface {v9}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 11
     invoke-interface {v11, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v13
 
     check-cast v13, Ljava/lang/Comparable;
 
-    .line 12
     invoke-interface {v5, v13}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v14
@@ -28995,11 +27921,9 @@
 
     goto :goto_3
 
-    .line 13
     :cond_8
     invoke-static {v6}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 14
     invoke-static {v1, v10}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v6}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -29011,7 +27935,6 @@
 
     move-object v2, v0
 
-    .line 15
     :goto_5
     :try_start_4
     throw v2
@@ -29025,7 +27948,6 @@
 
     invoke-static {v7}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 16
     invoke-static {v1, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v7}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -29106,7 +28028,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumeEach$1;->label:I
 
     const/4 v3, 0x0
@@ -29164,7 +28085,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -29174,16 +28094,13 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     invoke-interface {p0}, Lcotlinx/coroutines/channels/i;->A()Lcotlinx/coroutines/channels/y;
 
     move-result-object v2
 
-    .line 5
     :try_start_1
     invoke-interface {v2}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -29266,7 +28183,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -29274,7 +28190,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {v7, v3, v4, v3}, Lcotlinx/coroutines/channels/y$a;->b(Lcotlinx/coroutines/channels/y;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -29332,7 +28247,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -29363,7 +28277,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -29382,14 +28295,12 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object v2
 
-    .line 4
     :cond_1
     :try_start_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -29398,7 +28309,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -29408,7 +28318,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_2
     throw p1
     :try_end_2
@@ -29419,7 +28328,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -29451,7 +28359,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -29459,7 +28366,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->e(I)V
 
     invoke-interface {v1, p2}, Lcotlinx/coroutines/channels/ChannelIterator;->b(Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -29484,28 +28390,24 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     invoke-static {p0, v4}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object v4
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 5
     invoke-interface {p1, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Ljava/lang/Comparable;
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->e(I)V
@@ -29524,19 +28426,16 @@
 
     if-eqz v6, :cond_2
 
-    .line 7
     invoke-interface {v1}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object v6
 
-    .line 8
     invoke-interface {p1, v6}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, Ljava/lang/Comparable;
 
-    .line 9
     invoke-interface {v5, v7}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v8
@@ -29554,10 +28453,8 @@
     :cond_2
     const/4 p1, 0x2
 
-    .line 10
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {p0, v4}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -29567,7 +28464,6 @@
     :catchall_0
     move-exception p1
 
-    .line 12
     :try_start_2
     throw p1
     :try_end_2
@@ -29578,7 +28474,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 13
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -29659,7 +28554,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumeEach$3;->label:I
 
     const/4 v3, 0x1
@@ -29722,7 +28616,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -29732,13 +28625,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p2, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -29823,7 +28714,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
@@ -29831,7 +28721,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {v4, v6}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -29850,7 +28739,6 @@
 
     move-object p0, p1
 
-    .line 7
     :goto_3
     :try_start_4
     throw p0
@@ -29862,7 +28750,6 @@
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {p2, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -29915,7 +28802,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/o;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -30016,7 +28902,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$maxWith$1;->label:I
 
     const/4 v3, 0x0
@@ -30064,7 +28949,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -30074,7 +28958,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$maxWith$1;->L$5:Ljava/lang/Object;
 
@@ -30115,13 +28998,11 @@
     :cond_3
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object p2
 
-    .line 5
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$maxWith$1;->L$0:Ljava/lang/Object;
 
     iput-object p1, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$maxWith$1;->L$1:Ljava/lang/Object;
@@ -30173,12 +29054,10 @@
 
     if-nez p2, :cond_5
 
-    .line 6
     invoke-static {v5, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v3
 
-    .line 7
     :cond_5
     :try_start_4
     invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
@@ -30196,7 +29075,6 @@
     :goto_2
     move-object p0, v5
 
-    .line 8
     :try_start_5
     iput-object v7, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$maxWith$1;->L$0:Ljava/lang/Object;
 
@@ -30243,12 +29121,10 @@
 
     if-eqz p2, :cond_8
 
-    .line 9
     invoke-interface {p1}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p2
 
-    .line 10
     invoke-interface {v6, p0, p2}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result v8
@@ -30264,7 +29140,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_8
     invoke-static {v5, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
@@ -30277,7 +29152,6 @@
 
     move-object p0, p1
 
-    .line 12
     :goto_4
     :try_start_7
     throw p0
@@ -30287,7 +29161,6 @@
     :catchall_2
     move-exception p1
 
-    .line 13
     invoke-static {v5, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -30313,7 +29186,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/i;->A()Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -30322,7 +29194,6 @@
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -30355,7 +29226,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -30363,7 +29233,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 4
     invoke-static {p0, v0, v1, v0}, Lcotlinx/coroutines/channels/y$a;->b(Lcotlinx/coroutines/channels/y;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -30389,7 +29258,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object p1
@@ -30479,7 +29347,6 @@
 
     move-result-object v3
 
-    .line 1
     iget v4, v2, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$minBy$1;->label:I
 
     const/4 v5, 0x0
@@ -30551,7 +29418,6 @@
 
     goto/16 :goto_5
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -30561,7 +29427,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     iget-object v1, v2, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$minBy$1;->L$5:Ljava/lang/Object;
 
@@ -30614,13 +29479,11 @@
     :cond_3
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     :try_start_2
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object v0
 
-    .line 5
     iput-object v1, v2, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$minBy$1;->L$0:Ljava/lang/Object;
 
     move-object/from16 v4, p1
@@ -30675,21 +29538,18 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {v1, v9}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object v5
 
-    .line 7
     :cond_5
     :try_start_3
     invoke-interface {v8}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 8
     invoke-interface {v10, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -30706,7 +29566,6 @@
 
     move-object v0, v15
 
-    .line 9
     :goto_3
     iput-object v12, v2, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$minBy$1;->L$0:Ljava/lang/Object;
 
@@ -30752,19 +29611,16 @@
 
     if-eqz v0, :cond_8
 
-    .line 10
     invoke-interface {v9}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 11
     invoke-interface {v11, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v13
 
     check-cast v13, Ljava/lang/Comparable;
 
-    .line 12
     invoke-interface {v5, v13}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v14
@@ -30786,11 +29642,9 @@
 
     goto :goto_3
 
-    .line 13
     :cond_8
     invoke-static {v6}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 14
     invoke-static {v1, v10}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v6}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -30802,7 +29656,6 @@
 
     move-object v2, v0
 
-    .line 15
     :goto_5
     :try_start_4
     throw v2
@@ -30816,7 +29669,6 @@
 
     invoke-static {v7}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 16
     invoke-static {v1, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v7}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -30846,7 +29698,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -30879,7 +29730,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -30889,7 +29739,6 @@
 
     const/4 p2, 0x0
 
-    .line 3
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -30899,7 +29748,6 @@
     :catchall_0
     move-exception p1
 
-    .line 4
     :try_start_1
     throw p1
     :try_end_1
@@ -30910,7 +29758,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -30993,7 +29840,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$fold$1;->label:I
 
     const/4 v4, 0x1
@@ -31078,7 +29924,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -31088,11 +29933,9 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -31103,7 +29946,6 @@
 
     const/4 v5, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -31183,7 +30025,6 @@
 
     move-result-object v0
 
-    .line 6
     iget-object v13, v11, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     invoke-interface {v6, v13, v0}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -31196,7 +30037,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -31204,12 +30044,10 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v2, v10}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 9
     iget-object v0, v11, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     return-object v0
@@ -31227,7 +30065,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 10
     :goto_4
     :try_start_3
     throw v1
@@ -31241,7 +30078,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -31273,7 +30109,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -31281,7 +30116,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->e(I)V
 
     invoke-interface {v1, p2}, Lcotlinx/coroutines/channels/ChannelIterator;->b(Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -31306,28 +30140,24 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     invoke-static {p0, v4}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object v4
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 5
     invoke-interface {p1, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Ljava/lang/Comparable;
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v2}, Lcotlin/jvm/internal/c0;->e(I)V
@@ -31346,19 +30176,16 @@
 
     if-eqz v6, :cond_2
 
-    .line 7
     invoke-interface {v1}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object v6
 
-    .line 8
     invoke-interface {p1, v6}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, Ljava/lang/Comparable;
 
-    .line 9
     invoke-interface {v5, v7}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v8
@@ -31376,10 +30203,8 @@
     :cond_2
     const/4 p1, 0x2
 
-    .line 10
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 11
     invoke-static {p0, v4}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -31389,7 +30214,6 @@
     :catchall_0
     move-exception p1
 
-    .line 12
     :try_start_2
     throw p1
     :try_end_2
@@ -31400,7 +30224,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 13
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -31487,7 +30310,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumeEachIndexed$1;->label:I
 
     const/4 v4, 0x1
@@ -31566,7 +30388,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -31576,11 +30397,9 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -31591,7 +30410,6 @@
 
     const/4 v3, 0x0
 
-    .line 5
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -31667,7 +30485,6 @@
 
     move-result-object v0
 
-    .line 6
     new-instance v12, Lcotlin/collections/i0;
 
     iget v13, v10, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -31684,7 +30501,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -31692,7 +30508,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 8
     invoke-static {v2, v9}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -31712,7 +30527,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 9
     :goto_4
     :try_start_3
     throw v1
@@ -31726,7 +30540,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 10
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -31758,7 +30571,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -31787,14 +30599,12 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p2, p1, v2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -31804,7 +30614,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -31814,7 +30623,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -31825,7 +30633,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -31904,7 +30711,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$minWith$1;->label:I
 
     const/4 v3, 0x0
@@ -31952,7 +30758,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -31962,7 +30767,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$minWith$1;->L$5:Ljava/lang/Object;
 
@@ -32003,13 +30807,11 @@
     :cond_3
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     :try_start_2
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object p2
 
-    .line 5
     iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$minWith$1;->L$0:Ljava/lang/Object;
 
     iput-object p1, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$minWith$1;->L$1:Ljava/lang/Object;
@@ -32061,12 +30863,10 @@
 
     if-nez p2, :cond_5
 
-    .line 6
     invoke-static {v5, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v3
 
-    .line 7
     :cond_5
     :try_start_4
     invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
@@ -32084,7 +30884,6 @@
     :goto_2
     move-object p0, v5
 
-    .line 8
     :try_start_5
     iput-object v7, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$minWith$1;->L$0:Ljava/lang/Object;
 
@@ -32131,12 +30930,10 @@
 
     if-eqz p2, :cond_8
 
-    .line 9
     invoke-interface {p1}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p2
 
-    .line 10
     invoke-interface {v6, p0, p2}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result v8
@@ -32152,7 +30949,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_8
     invoke-static {v5, v3}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
@@ -32165,7 +30961,6 @@
 
     move-object p0, p1
 
-    .line 12
     :goto_4
     :try_start_7
     throw p0
@@ -32175,7 +30970,6 @@
     :catchall_2
     move-exception p1
 
-    .line 13
     invoke-static {v5, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1
@@ -32205,7 +30999,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -32236,7 +31029,6 @@
 
     move-result-object v4
 
-    .line 2
     new-instance v5, Lcotlin/collections/i0;
 
     add-int/lit8 v6, v3, 0x1
@@ -32249,7 +31041,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
@@ -32259,7 +31050,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p0, p2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -32269,7 +31059,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     throw p1
     :try_end_1
@@ -32280,7 +31069,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 6
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -32365,7 +31153,6 @@
 
     move-result-object v2
 
-    .line 1
     iget v3, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$foldIndexed$1;->label:I
 
     const/4 v4, 0x1
@@ -32454,7 +31241,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -32464,11 +31250,9 @@
 
     throw v0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Lcotlin/jvm/internal/Ref$IntRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
@@ -32477,7 +31261,6 @@
 
     iput v3, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 5
     new-instance v3, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v3}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -32488,7 +31271,6 @@
 
     const/4 v6, 0x0
 
-    .line 6
     :try_start_1
     invoke-interface/range {p0 .. p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -32570,7 +31352,6 @@
 
     move-result-object v0
 
-    .line 7
     iget v14, v12, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/lit8 v15, v14, 0x1
@@ -32593,7 +31374,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_4
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
@@ -32601,12 +31381,10 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 9
     invoke-static {v2, v10}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
 
-    .line 10
     iget-object v0, v11, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     return-object v0
@@ -32624,7 +31402,6 @@
     :goto_3
     move-object v1, v0
 
-    .line 11
     :goto_4
     :try_start_3
     throw v1
@@ -32638,7 +31415,6 @@
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 12
     invoke-static {v2, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     invoke-static {v4}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -32713,7 +31489,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$none$1;->label:I
 
     const/4 v3, 0x1
@@ -32756,7 +31531,6 @@
 
     goto :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -32766,13 +31540,11 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 p1, 0x0
 
-    .line 4
     :try_start_1
     invoke-interface {p0}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -32818,7 +31590,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 5
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v0
@@ -32830,7 +31601,6 @@
 
     move-object p0, p1
 
-    .line 6
     :goto_3
     :try_start_2
     throw p0
@@ -32840,7 +31610,6 @@
     :catchall_2
     move-exception p1
 
-    .line 7
     invoke-static {v1, p0}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw p1

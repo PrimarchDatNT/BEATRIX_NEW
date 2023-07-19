@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/e;Ljava/util/concurrent/ScheduledExecutorService;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/e$a;->b:Lcom/google/common/util/concurrent/e;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/e$a;->a:Ljava/util/concurrent/ScheduledExecutorService;
@@ -39,7 +38,6 @@
 .method public a(Lcom/google/common/util/concurrent/Service$State;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/common/util/concurrent/e$a;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {p1}, Ljava/util/concurrent/ScheduledExecutorService;->shutdown()V
@@ -50,7 +48,6 @@
 .method public e(Lcom/google/common/util/concurrent/Service$State;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/common/util/concurrent/e$a;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {p1}, Ljava/util/concurrent/ScheduledExecutorService;->shutdown()V

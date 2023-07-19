@@ -36,14 +36,12 @@
 .method public constructor <init>(I)V
     .locals 6
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     add-int/lit8 p1, p1, 0x1
 
     int-to-double v0, p1
 
-    .line 2
     invoke-static {v0, v1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide v0
@@ -66,7 +64,6 @@
 
     int-to-double v0, v0
 
-    .line 3
     invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v0
@@ -81,7 +78,6 @@
 
     and-long/2addr v0, v2
 
-    .line 4
     iput-wide v0, p0, Lcom/google/firebase/database/collection/l$b$a;->a:J
 
     return-void
@@ -90,7 +86,6 @@
 .method static synthetic b(Lcom/google/firebase/database/collection/l$b$a;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/firebase/database/collection/l$b$a;->b:I
 
     return p0
@@ -99,7 +94,6 @@
 .method static synthetic c(Lcom/google/firebase/database/collection/l$b$a;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/database/collection/l$b$a;->a:J
 
     return-wide v0
@@ -118,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/l$b$a$a;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/database/collection/l$b$a$a;-><init>(Lcom/google/firebase/database/collection/l$b$a;)V

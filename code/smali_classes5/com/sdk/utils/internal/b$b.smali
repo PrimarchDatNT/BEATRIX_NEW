@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/utils/internal/b$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/utils/internal/b$b;->a:Lcom/sdk/utils/internal/b$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,10 +37,8 @@
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    .line 1
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/utils/internal/b$b;->a:Lcom/sdk/utils/internal/b$c;
 
     invoke-interface {p1}, Lcom/sdk/utils/internal/b$c;->a()V

@@ -32,10 +32,8 @@
 .method private varargs constructor <init>(Ljava/io/File;[Lcom/google/common/io/FileWriteMode;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/io/e;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -44,7 +42,6 @@
 
     iput-object p1, p0, Lcom/google/common/io/Files$d;->a:Ljava/io/File;
 
-    .line 4
     invoke-static {p2}, Lcom/google/common/collect/ImmutableSet;->copyOf([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p1
@@ -57,7 +54,6 @@
 .method synthetic constructor <init>(Ljava/io/File;[Lcom/google/common/io/FileWriteMode;Lcom/google/common/io/Files$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/io/Files$d;-><init>(Ljava/io/File;[Lcom/google/common/io/FileWriteMode;)V
 
     return-void
@@ -73,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/io/Files$d;->f()Ljava/io/FileOutputStream;
 
     move-result-object v0
@@ -89,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileOutputStream;
 
     iget-object v1, p0, Lcom/google/common/io/Files$d;->a:Ljava/io/File;
@@ -110,7 +104,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

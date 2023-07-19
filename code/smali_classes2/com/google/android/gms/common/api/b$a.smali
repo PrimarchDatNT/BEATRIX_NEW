@@ -31,17 +31,14 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/i;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/b$a;->a:Ljava/util/List;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/common/api/b$a;->b:Lcom/google/android/gms/common/api/i;
 
     return-void
@@ -63,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/d;
 
     iget-object v1, p0, Lcom/google/android/gms/common/api/b$a;->a:Ljava/util/List;
@@ -74,7 +70,6 @@
 
     invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/d;-><init>(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/common/api/b$a;->a:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -85,7 +80,6 @@
 .method public final b()Lcom/google/android/gms/common/api/b;
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/b;
 
     iget-object v1, p0, Lcom/google/android/gms/common/api/b$a;->a:Ljava/util/List;

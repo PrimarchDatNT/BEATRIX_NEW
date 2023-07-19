@@ -27,7 +27,6 @@
 .method constructor <init>(Lorg/jsoup/nodes/Element;Ljava/lang/StringBuilder;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/nodes/Element$b;->b:Lorg/jsoup/nodes/Element;
 
     iput-object p2, p0, Lorg/jsoup/nodes/Element$b;->a:Ljava/lang/StringBuilder;
@@ -48,15 +47,12 @@
 .method public b(Lorg/jsoup/nodes/j;I)V
     .locals 0
 
-    .line 1
     instance-of p2, p1, Lorg/jsoup/nodes/m;
 
     if-eqz p2, :cond_0
 
-    .line 2
     check-cast p1, Lorg/jsoup/nodes/m;
 
-    .line 3
     iget-object p2, p0, Lorg/jsoup/nodes/Element$b;->a:Ljava/lang/StringBuilder;
 
     invoke-virtual {p1}, Lorg/jsoup/nodes/m;->n0()Ljava/lang/String;

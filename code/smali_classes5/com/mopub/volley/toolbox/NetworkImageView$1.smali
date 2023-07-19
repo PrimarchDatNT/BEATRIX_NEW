@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/volley/toolbox/NetworkImageView;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1;->this$0:Lcom/mopub/volley/toolbox/NetworkImageView;
 
     iput-boolean p2, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1;->val$isInLayoutPass:Z
@@ -42,7 +41,6 @@
 .method public onErrorResponse(Lcom/mopub/volley/VolleyError;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1;->this$0:Lcom/mopub/volley/toolbox/NetworkImageView;
 
     invoke-static {p1}, Lcom/mopub/volley/toolbox/NetworkImageView;->access$000(Lcom/mopub/volley/toolbox/NetworkImageView;)I
@@ -51,7 +49,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1;->this$0:Lcom/mopub/volley/toolbox/NetworkImageView;
 
     invoke-static {p1}, Lcom/mopub/volley/toolbox/NetworkImageView;->access$000(Lcom/mopub/volley/toolbox/NetworkImageView;)I
@@ -62,7 +59,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1;->this$0:Lcom/mopub/volley/toolbox/NetworkImageView;
 
@@ -72,7 +68,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1;->this$0:Lcom/mopub/volley/toolbox/NetworkImageView;
 
     invoke-static {p1}, Lcom/mopub/volley/toolbox/NetworkImageView;->access$100(Lcom/mopub/volley/toolbox/NetworkImageView;)Landroid/graphics/Bitmap;
@@ -91,12 +86,10 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget-boolean p2, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1;->val$isInLayoutPass:Z
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1;->this$0:Lcom/mopub/volley/toolbox/NetworkImageView;
 
     new-instance v0, Lcom/mopub/volley/toolbox/NetworkImageView$1$1;
@@ -107,7 +100,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;->getBitmap()Landroid/graphics/Bitmap;
 
@@ -115,7 +107,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     iget-object p2, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1;->this$0:Lcom/mopub/volley/toolbox/NetworkImageView;
 
     invoke-virtual {p1}, Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;->getBitmap()Landroid/graphics/Bitmap;
@@ -126,7 +117,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1;->this$0:Lcom/mopub/volley/toolbox/NetworkImageView;
 
@@ -136,7 +126,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1;->this$0:Lcom/mopub/volley/toolbox/NetworkImageView;
 
     invoke-static {p1}, Lcom/mopub/volley/toolbox/NetworkImageView;->access$200(Lcom/mopub/volley/toolbox/NetworkImageView;)I
@@ -147,7 +136,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object p1, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1;->this$0:Lcom/mopub/volley/toolbox/NetworkImageView;
 
@@ -155,7 +143,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 8
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     :cond_3

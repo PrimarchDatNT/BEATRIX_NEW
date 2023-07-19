@@ -51,15 +51,12 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/magicpen/NativeBaseClass;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
-    .line 3
     new-instance v0, Lcom/meitu/core/magicpen/NativeGLMagicPen$1;
 
     invoke-direct {v0, p0}, Lcom/meitu/core/magicpen/NativeGLMagicPen$1;-><init>(Lcom/meitu/core/magicpen/NativeGLMagicPen;)V
@@ -76,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -91,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nCreate()J
 
     move-result-wide v1
@@ -242,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nCanRedo(J)Z
@@ -261,7 +255,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nCanUndo(J)Z
@@ -280,7 +273,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nGLRelease(J)Z
@@ -299,7 +291,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     move-object v1, p0
@@ -326,7 +317,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     move-object v1, p0
@@ -355,7 +345,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     move-object v1, p0
@@ -386,7 +375,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nOnDrawFrame(JF)Z
@@ -407,7 +395,6 @@
 
     move-object v10, p0
 
-    .line 1
     iget-wide v2, v10, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     move-object v1, p0
@@ -440,7 +427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nOnDrawMagnifier(J[F[F)Z
@@ -459,7 +445,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     move-object v1, p0
@@ -486,7 +471,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     move-object v1, p0
@@ -513,7 +497,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide p2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     const/4 v0, 0x1
@@ -534,7 +517,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nOnSurfaceChanged(JII)Z
@@ -553,7 +535,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nOnSurfaceCreated(J)Z
@@ -572,7 +553,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nRedo(J)Z
@@ -591,7 +571,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nRelease(J)Z
@@ -610,7 +589,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nRenderForSave_bitmap(J)Landroid/graphics/Bitmap;
@@ -629,12 +607,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/types/NativeBitmap;->createBitmap()Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v1
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -643,7 +619,6 @@
 
     invoke-direct {p0, v2, v3, v4, v5}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nRenderForSave(JJ)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -656,7 +631,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nRenderForSave2Rect(J)[F
@@ -675,7 +649,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nRenderForSave2RectBitmap(J[F)Landroid/graphics/Bitmap;
@@ -694,7 +667,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nRenderForSave_path(JLjava/lang/String;)Z
@@ -713,7 +685,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -736,7 +707,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     move-object v1, p0
@@ -765,7 +735,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nSetCustomImage(J[Landroid/graphics/Bitmap;)Z
@@ -792,7 +761,6 @@
 
     if-lez v5, :cond_0
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nSetDensity(JF)Z
@@ -821,7 +789,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nOnDrawMask(JZ)Z
@@ -848,7 +815,6 @@
 
     if-lez v5, :cond_0
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nSetMagicPenSize(JFZ)Z
@@ -877,7 +843,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     move-object v1, p0
@@ -906,7 +871,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -929,7 +893,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nSetMaskType(JI)Z
@@ -954,7 +917,6 @@
 
     if-lez v1, :cond_0
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nSetMosaicPenSize(JFZ)Z
@@ -983,7 +945,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     move-object v1, p0
@@ -1012,7 +973,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nSetScrawlModeWithBitmap(JLandroid/graphics/Bitmap;I)Z
@@ -1031,7 +991,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nSetScrawlMode(JLjava/lang/String;I)Z
@@ -1050,7 +1009,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nUndo(J)Z
@@ -1069,7 +1027,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     const/16 v5, 0xa
@@ -1096,7 +1053,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 4
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     const/4 v6, 0x0
@@ -1123,7 +1079,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 5
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     move-object v1, p0
@@ -1150,7 +1105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -1179,7 +1133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -1208,12 +1161,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nClearSteps(J)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1231,20 +1182,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nFinalize(J)Z
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
-    .line 3
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1257,7 +1204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nGetHeightScale(J)F
@@ -1276,7 +1222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nGetWidthScale(J)F
@@ -1295,7 +1240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nResultIsFixedEffect(J)Z
@@ -1316,7 +1260,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nSetGestureMatrix(J[F)Z
@@ -1330,7 +1273,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1343,12 +1285,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->nSetMobileLevel(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

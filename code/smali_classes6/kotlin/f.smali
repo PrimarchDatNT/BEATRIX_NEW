@@ -14,7 +14,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
@@ -41,7 +40,6 @@
 .method public static final synthetic b()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/f;->a:Ljava/lang/Object;
 
     return-object v0
@@ -76,7 +74,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/h;
 
     invoke-virtual {p0}, Lcotlin/e;->a()Lcotlin/jvm/u/q;

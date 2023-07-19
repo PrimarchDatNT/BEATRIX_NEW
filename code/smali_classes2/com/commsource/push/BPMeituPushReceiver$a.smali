@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/commsource/push/BPMeituPushReceiver;Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/push/BPMeituPushReceiver$a;->J:Lcom/commsource/push/BPMeituPushReceiver;
 
     iput-object p3, p0, Lcom/commsource/push/BPMeituPushReceiver$a;->g:Landroid/content/Context;
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/appsflyer/AppsFlyerLib;->getInstance()Lcom/appsflyer/AppsFlyerLib;
 
@@ -66,10 +64,8 @@
     :catchall_0
     move-exception v1
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

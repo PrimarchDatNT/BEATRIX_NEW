@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/p0$b;->a:Lcom/commsource/util/p0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/util/p0$b;->a:Lcom/commsource/util/p0;
 
     invoke-static {p2}, Lcom/commsource/util/p0;->a(Lcom/commsource/util/p0;)Z
@@ -57,12 +55,10 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/util/p0$b;->a:Lcom/commsource/util/p0;
 
     invoke-virtual {p2}, Lcom/commsource/util/p0;->h()V
 
-    .line 3
     invoke-static {}, Landroid/view/Choreographer;->getInstance()Landroid/view/Choreographer;
 
     move-result-object p2
@@ -71,7 +67,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/commsource/util/p0$b;->a:Lcom/commsource/util/p0;
 
@@ -81,7 +76,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 5
     invoke-static {}, Landroid/view/Choreographer;->getInstance()Landroid/view/Choreographer;
 
     move-result-object p2
@@ -90,7 +84,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {}, Landroid/view/Choreographer;->getInstance()Landroid/view/Choreographer;
 
@@ -98,7 +91,6 @@
 
     invoke-virtual {p2, p0}, Landroid/view/Choreographer;->removeFrameCallback(Landroid/view/Choreographer$FrameCallback;)V
 
-    .line 7
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

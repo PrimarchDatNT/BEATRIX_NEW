@@ -73,12 +73,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/commsource/beautymain/data/e;->e:I
 
     return-void
@@ -87,49 +85,40 @@
 .method public constructor <init>(Lcom/meitu/core/types/FaceData;II)V
     .locals 6
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 4
     iput v0, p0, Lcom/commsource/beautymain/data/e;->e:I
 
-    .line 5
     iput p2, p0, Lcom/commsource/beautymain/data/e;->c:I
 
-    .line 6
     iput p3, p0, Lcom/commsource/beautymain/data/e;->d:I
 
-    .line 7
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/data/e;->a:Landroid/util/SparseArray;
 
-    .line 8
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/data/e;->b:Landroid/util/SparseArray;
 
-    .line 9
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/data/e;->h:Landroid/util/SparseArray;
 
-    .line 10
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautymain/data/e;->f:Landroid/util/SparseArray;
 
-    .line 11
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
@@ -138,7 +127,6 @@
 
     const/4 v1, 0x0
 
-    .line 12
     :goto_0
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
@@ -146,17 +134,14 @@
 
     if-ge v1, v2, :cond_0
 
-    .line 13
     invoke-virtual {p1, v1, p2, p3}, Lcom/meitu/core/types/FaceData;->getFaceRect(III)Landroid/graphics/Rect;
 
     move-result-object v2
 
-    .line 14
     iget-object v3, p0, Lcom/commsource/beautymain/data/e;->b:Landroid/util/SparseArray;
 
     invoke-virtual {v3, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 15
     iget-object v3, p0, Lcom/commsource/beautymain/data/e;->a:Landroid/util/SparseArray;
 
     const/4 v4, 0x1
@@ -171,7 +156,6 @@
 
     invoke-virtual {v3, v1, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 16
     iget-object v3, p0, Lcom/commsource/beautymain/data/e;->h:Landroid/util/SparseArray;
 
     new-instance v5, Lcom/commsource/beautymain/data/e$a;
@@ -180,12 +164,10 @@
 
     invoke-virtual {v3, v1, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 17
     iget-object v3, p0, Lcom/commsource/beautymain/data/e;->g:Landroid/util/SparseArray;
 
     invoke-virtual {v3, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 18
     iget-object v2, p0, Lcom/commsource/beautymain/data/e;->f:Landroid/util/SparseArray;
 
     new-array v3, v4, [I
@@ -202,7 +184,6 @@
 
     goto :goto_0
 
-    .line 19
     :cond_0
     iput v0, p0, Lcom/commsource/beautymain/data/e;->e:I
 
@@ -218,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/data/e;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->size()I
@@ -237,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/data/e;->f:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -266,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/data/e;->g:Landroid/util/SparseArray;
 
     if-eqz v1, :cond_4
@@ -279,7 +257,6 @@
 
     if-le v1, v2, :cond_4
 
-    .line 2
     iget v1, p0, Lcom/commsource/beautymain/data/e;->c:I
 
     int-to-float v3, v1
@@ -346,18 +323,14 @@
 
     div-float/2addr p2, v1
 
-    .line 3
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 4
     invoke-virtual {v1, v8, v8}, Landroid/graphics/Matrix;->setScale(FF)V
 
-    .line 5
     invoke-virtual {v1, p1, p2}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 6
     new-instance p1, Landroid/util/SparseArray;
 
     iget-object p2, p0, Lcom/commsource/beautymain/data/e;->g:Landroid/util/SparseArray;
@@ -372,7 +345,6 @@
 
     const/4 v3, 0x0
 
-    .line 7
     :goto_1
     iget-object v4, p0, Lcom/commsource/beautymain/data/e;->g:Landroid/util/SparseArray;
 
@@ -382,7 +354,6 @@
 
     if-ge v3, v4, :cond_3
 
-    .line 8
     new-instance v4, Landroid/graphics/RectF;
 
     iget-object v5, p0, Lcom/commsource/beautymain/data/e;->g:Landroid/util/SparseArray;
@@ -395,10 +366,8 @@
 
     invoke-direct {v4, v5}, Landroid/graphics/RectF;-><init>(Landroid/graphics/Rect;)V
 
-    .line 9
     invoke-virtual {v1, v4}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 10
     invoke-virtual {p1, v3}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -407,24 +376,19 @@
 
     if-nez v5, :cond_1
 
-    .line 11
     new-instance v5, Lcom/commsource/makeup/widget/MakeupFaceData;
 
     invoke-direct {v5, v4}, Lcom/commsource/makeup/widget/MakeupFaceData;-><init>(Landroid/graphics/RectF;)V
 
-    .line 12
     invoke-virtual {v5, v3}, Lcom/commsource/makeup/widget/MakeupFaceData;->setIndex(I)V
 
-    .line 13
     invoke-virtual {v5, p2}, Lcom/commsource/makeup/widget/MakeupFaceData;->setIsSelected(Z)V
 
     goto :goto_2
 
-    .line 14
     :cond_1
     invoke-virtual {v5, v4}, Lcom/commsource/makeup/widget/MakeupFaceData;->setFaceRect(Landroid/graphics/RectF;)V
 
-    .line 15
     :goto_2
     iget v4, p0, Lcom/commsource/beautymain/data/e;->e:I
 
@@ -440,14 +404,12 @@
     :goto_3
     invoke-virtual {v5, v4}, Lcom/commsource/makeup/widget/MakeupFaceData;->setIsSelected(Z)V
 
-    .line 16
     invoke-virtual {p1, v3, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_1
 
-    .line 17
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -456,7 +418,6 @@
     :cond_4
     const/4 p1, 0x0
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -469,7 +430,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/data/e;->h:Landroid/util/SparseArray;
 
     if-eqz v1, :cond_0
@@ -480,7 +440,6 @@
 
     if-le v1, p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/data/e;->h:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -496,7 +455,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -509,7 +467,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/data/e;->f:Landroid/util/SparseArray;
 
     iget v2, p0, Lcom/commsource/beautymain/data/e;->e:I
@@ -532,7 +489,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/data/e;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -547,7 +503,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/data/e;->h:Landroid/util/SparseArray;
 
     if-eqz v1, :cond_0
@@ -560,7 +515,6 @@
 
     if-le v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/data/e;->h:Landroid/util/SparseArray;
 
     invoke-virtual {v1, v2}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -576,7 +530,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -589,7 +542,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/data/e;->h:Landroid/util/SparseArray;
 
     const/4 v2, 0x0
@@ -604,7 +556,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget-object v3, p0, Lcom/commsource/beautymain/data/e;->h:Landroid/util/SparseArray;
 
@@ -614,7 +565,6 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/beautymain/data/e;->h:Landroid/util/SparseArray;
 
     invoke-virtual {v3, v1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -629,7 +579,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -641,7 +590,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -655,10 +603,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautymain/data/e;->e:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -671,7 +617,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/g0/b;->g()Lcom/commsource/beautyplus/g0/b;
 
     move-result-object v1
@@ -682,7 +627,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
@@ -695,7 +639,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
@@ -703,7 +646,6 @@
 
     if-ge v3, v4, :cond_2
 
-    .line 4
     iget v4, p0, Lcom/commsource/beautymain/data/e;->c:I
 
     iget v5, p0, Lcom/commsource/beautymain/data/e;->d:I
@@ -712,19 +654,16 @@
 
     move-result-object v4
 
-    .line 5
     invoke-virtual {v4}, Landroid/graphics/Rect;->centerX()I
 
     move-result v5
 
-    .line 6
     invoke-virtual {v4}, Landroid/graphics/Rect;->centerY()I
 
     move-result v6
 
     const/4 v7, 0x0
 
-    .line 7
     :goto_1
     iget-object v8, p0, Lcom/commsource/beautymain/data/e;->b:Landroid/util/SparseArray;
 
@@ -734,7 +673,6 @@
 
     if-ge v7, v8, :cond_1
 
-    .line 8
     iget-object v8, p0, Lcom/commsource/beautymain/data/e;->b:Landroid/util/SparseArray;
 
     invoke-virtual {v8, v7}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -743,17 +681,14 @@
 
     check-cast v8, Landroid/graphics/Rect;
 
-    .line 9
     invoke-virtual {v8}, Landroid/graphics/Rect;->centerX()I
 
     move-result v9
 
-    .line 10
     invoke-virtual {v8}, Landroid/graphics/Rect;->centerY()I
 
     move-result v10
 
-    .line 11
     invoke-virtual {v4, v9, v10}, Landroid/graphics/Rect;->contains(II)Z
 
     move-result v9
@@ -766,12 +701,10 @@
 
     if-eqz v8, :cond_0
 
-    .line 12
     iget-object v8, p0, Lcom/commsource/beautymain/data/e;->g:Landroid/util/SparseArray;
 
     invoke-virtual {v8, v7, v4}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 13
     iget-object v8, p0, Lcom/commsource/beautymain/data/e;->f:Landroid/util/SparseArray;
 
     new-array v9, v2, [I
@@ -794,7 +727,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -808,7 +740,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/data/e;->h:Landroid/util/SparseArray;
 
     if-eqz v1, :cond_0
@@ -819,12 +750,10 @@
 
     if-le v1, p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/data/e;->h:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1, p2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

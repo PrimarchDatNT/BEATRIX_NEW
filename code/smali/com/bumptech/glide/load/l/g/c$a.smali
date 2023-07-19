@@ -25,10 +25,8 @@
 .method constructor <init>(Lcom/bumptech/glide/load/l/g/g;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/l/g/c$a;->a:Lcom/bumptech/glide/load/l/g/g;
 
     return-void
@@ -49,7 +47,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/load/l/g/c;
 
     invoke-direct {v0, p0}, Lcom/bumptech/glide/load/l/g/c;-><init>(Lcom/bumptech/glide/load/l/g/c$a;)V
@@ -62,7 +59,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/load/l/g/c$a;->newDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object p1

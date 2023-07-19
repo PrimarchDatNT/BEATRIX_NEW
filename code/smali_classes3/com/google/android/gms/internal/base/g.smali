@@ -12,14 +12,12 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/base/g;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/base/g;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/base/g;->a:Lcom/google/android/gms/internal/base/g;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/base/h;
 
     const/4 v1, 0x0
@@ -34,7 +32,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
 
     return-void
@@ -43,7 +40,6 @@
 .method static synthetic a()Lcom/google/android/gms/internal/base/g;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/base/g;->a:Lcom/google/android/gms/internal/base/g;
 
     return-object v0
@@ -60,7 +56,6 @@
 .method public final getConstantState()Landroid/graphics/drawable/Drawable$ConstantState;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/base/g;->b:Lcom/google/android/gms/internal/base/h;
 
     return-object v0

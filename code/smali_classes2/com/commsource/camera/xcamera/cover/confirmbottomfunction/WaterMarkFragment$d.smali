@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$d;->b(ILcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$d;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->J()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;
@@ -86,7 +84,6 @@
 
     invoke-virtual {v1, p2}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->y(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$d;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->I()Lcom/commsource/beautyplus/f0/kc;
@@ -97,7 +94,6 @@
 
     invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

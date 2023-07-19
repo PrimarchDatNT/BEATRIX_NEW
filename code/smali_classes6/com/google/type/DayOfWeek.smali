@@ -73,7 +73,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/type/DayOfWeek;
 
     const-string v1, "DAY_OF_WEEK_UNSPECIFIED"
@@ -84,7 +83,6 @@
 
     sput-object v0, Lcom/google/type/DayOfWeek;->DAY_OF_WEEK_UNSPECIFIED:Lcom/google/type/DayOfWeek;
 
-    .line 2
     new-instance v1, Lcom/google/type/DayOfWeek;
 
     const-string v3, "MONDAY"
@@ -95,7 +93,6 @@
 
     sput-object v1, Lcom/google/type/DayOfWeek;->MONDAY:Lcom/google/type/DayOfWeek;
 
-    .line 3
     new-instance v3, Lcom/google/type/DayOfWeek;
 
     const-string v5, "TUESDAY"
@@ -106,7 +103,6 @@
 
     sput-object v3, Lcom/google/type/DayOfWeek;->TUESDAY:Lcom/google/type/DayOfWeek;
 
-    .line 4
     new-instance v5, Lcom/google/type/DayOfWeek;
 
     const-string v7, "WEDNESDAY"
@@ -117,7 +113,6 @@
 
     sput-object v5, Lcom/google/type/DayOfWeek;->WEDNESDAY:Lcom/google/type/DayOfWeek;
 
-    .line 5
     new-instance v7, Lcom/google/type/DayOfWeek;
 
     const-string v9, "THURSDAY"
@@ -128,7 +123,6 @@
 
     sput-object v7, Lcom/google/type/DayOfWeek;->THURSDAY:Lcom/google/type/DayOfWeek;
 
-    .line 6
     new-instance v9, Lcom/google/type/DayOfWeek;
 
     const-string v11, "FRIDAY"
@@ -139,7 +133,6 @@
 
     sput-object v9, Lcom/google/type/DayOfWeek;->FRIDAY:Lcom/google/type/DayOfWeek;
 
-    .line 7
     new-instance v11, Lcom/google/type/DayOfWeek;
 
     const-string v13, "SATURDAY"
@@ -150,7 +143,6 @@
 
     sput-object v11, Lcom/google/type/DayOfWeek;->SATURDAY:Lcom/google/type/DayOfWeek;
 
-    .line 8
     new-instance v13, Lcom/google/type/DayOfWeek;
 
     const-string v15, "SUNDAY"
@@ -161,7 +153,6 @@
 
     sput-object v13, Lcom/google/type/DayOfWeek;->SUNDAY:Lcom/google/type/DayOfWeek;
 
-    .line 9
     new-instance v15, Lcom/google/type/DayOfWeek;
 
     const-string v14, "UNRECOGNIZED"
@@ -204,10 +195,8 @@
 
     aput-object v15, v10, v12
 
-    .line 10
     sput-object v10, Lcom/google/type/DayOfWeek;->$VALUES:[Lcom/google/type/DayOfWeek;
 
-    .line 11
     new-instance v0, Lcom/google/type/DayOfWeek$a;
 
     invoke-direct {v0}, Lcom/google/type/DayOfWeek$a;-><init>()V
@@ -225,10 +214,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/type/DayOfWeek;->value:I
 
     return-void
@@ -243,49 +230,41 @@
 
     return-object p0
 
-    .line 1
     :pswitch_0
     sget-object p0, Lcom/google/type/DayOfWeek;->SUNDAY:Lcom/google/type/DayOfWeek;
 
     return-object p0
 
-    .line 2
     :pswitch_1
     sget-object p0, Lcom/google/type/DayOfWeek;->SATURDAY:Lcom/google/type/DayOfWeek;
 
     return-object p0
 
-    .line 3
     :pswitch_2
     sget-object p0, Lcom/google/type/DayOfWeek;->FRIDAY:Lcom/google/type/DayOfWeek;
 
     return-object p0
 
-    .line 4
     :pswitch_3
     sget-object p0, Lcom/google/type/DayOfWeek;->THURSDAY:Lcom/google/type/DayOfWeek;
 
     return-object p0
 
-    .line 5
     :pswitch_4
     sget-object p0, Lcom/google/type/DayOfWeek;->WEDNESDAY:Lcom/google/type/DayOfWeek;
 
     return-object p0
 
-    .line 6
     :pswitch_5
     sget-object p0, Lcom/google/type/DayOfWeek;->TUESDAY:Lcom/google/type/DayOfWeek;
 
     return-object p0
 
-    .line 7
     :pswitch_6
     sget-object p0, Lcom/google/type/DayOfWeek;->MONDAY:Lcom/google/type/DayOfWeek;
 
     return-object p0
 
-    .line 8
     :pswitch_7
     sget-object p0, Lcom/google/type/DayOfWeek;->DAY_OF_WEEK_UNSPECIFIED:Lcom/google/type/DayOfWeek;
 
@@ -317,7 +296,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/type/DayOfWeek;->internalValueMap:Lcom/google/protobuf/z0$d;
 
     return-object v0
@@ -328,7 +306,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/type/DayOfWeek;->forNumber(I)Lcom/google/type/DayOfWeek;
 
     move-result-object p0
@@ -339,7 +316,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/type/DayOfWeek;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/type/DayOfWeek;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -354,7 +330,6 @@
 .method public static values()[Lcom/google/type/DayOfWeek;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/type/DayOfWeek;->$VALUES:[Lcom/google/type/DayOfWeek;
 
     invoke-virtual {v0}, [Lcom/google/type/DayOfWeek;->clone()Ljava/lang/Object;
@@ -371,7 +346,6 @@
 .method public final getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/type/DayOfWeek;->value:I
 
     return v0

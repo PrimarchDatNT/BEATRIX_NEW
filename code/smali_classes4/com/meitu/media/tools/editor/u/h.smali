@@ -19,44 +19,36 @@
 .method public constructor <init>(III)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/tools/editor/u/b;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/media/tools/editor/u/h;->d:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/media/tools/editor/u/h;->e:I
 
     if-lez p1, :cond_0
 
     if-lez p2, :cond_0
 
-    .line 4
     iput p1, p0, Lcom/meitu/media/tools/editor/u/h;->d:I
 
-    .line 5
     iput p2, p0, Lcom/meitu/media/tools/editor/u/h;->e:I
 
     mul-int p1, p1, p2
 
     mul-int/lit8 p1, p1, 0x4
 
-    .line 6
     invoke-static {p1}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/media/tools/editor/u/h;->f:Ljava/nio/ByteBuffer;
 
-    .line 7
     sget-object p2, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-virtual {p1, p2}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
-    .line 8
     iget p1, p0, Lcom/meitu/media/tools/editor/u/h;->d:I
 
     iget v0, p0, Lcom/meitu/media/tools/editor/u/h;->e:I
@@ -73,15 +65,12 @@
 
     iput-object p1, p0, Lcom/meitu/media/tools/editor/u/h;->g:Ljava/nio/ByteBuffer;
 
-    .line 9
     invoke-virtual {p1, p2}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
-    .line 10
     iput p3, p0, Lcom/meitu/media/tools/editor/u/h;->c:I
 
     return-void
 
-    .line 11
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -99,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/h;->g:Ljava/nio/ByteBuffer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -114,12 +102,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/h;->f:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
-    .line 2
     iget v4, p0, Lcom/meitu/media/tools/editor/u/h;->d:I
 
     iget v5, p0, Lcom/meitu/media/tools/editor/u/h;->e:I
@@ -136,17 +122,14 @@
 
     invoke-static/range {v2 .. v8}, Landroid/opengl/GLES20;->glReadPixels(IIIIIILjava/nio/Buffer;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/h;->g:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/h;->f:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
-    .line 5
     iget v1, p0, Lcom/meitu/media/tools/editor/u/h;->c:I
 
     const/16 v2, 0x27
@@ -163,7 +146,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/h;->f:Ljava/nio/ByteBuffer;
 
@@ -179,7 +161,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_1
     new-instance v1, Ljava/lang/IllegalStateException;
 
@@ -205,7 +186,6 @@
 
     throw v1
 
-    .line 8
     :pswitch_2
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/h;->f:Ljava/nio/ByteBuffer;
 
@@ -221,7 +201,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/h;->f:Ljava/nio/ByteBuffer;
 
@@ -237,7 +216,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/h;->f:Ljava/nio/ByteBuffer;
 
@@ -254,12 +232,10 @@
     :goto_0
     if-eqz v1, :cond_2
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 12
     :cond_2
     new-instance v1, Ljava/lang/RuntimeException;
 

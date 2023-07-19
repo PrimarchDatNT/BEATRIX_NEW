@@ -44,7 +44,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$k;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;
 
     new-instance v1, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$k$a;
@@ -53,7 +52,6 @@
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

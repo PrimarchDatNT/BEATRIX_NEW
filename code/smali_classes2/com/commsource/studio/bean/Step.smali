@@ -54,24 +54,20 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/bean/Step;->keyObjMap:Ljava/util/HashMap;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/bean/Step;->extraInfo:Ljava/util/HashMap;
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -101,17 +97,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/bean/Step;-><init>()V
 
-    .line 6
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/studio/bean/Step;->layerSize:I
 
-    .line 7
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -131,17 +124,14 @@
 
     const/4 v1, 0x1
 
-    .line 8
     invoke-virtual {v0, v1}, Lcom/commsource/studio/bean/BaseLayerInfo;->copy(Z)Lcom/commsource/studio/bean/BaseLayerInfo;
 
     move-result-object v1
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/bean/Step;->layerInfos:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/studio/bean/Step;->keyObjMap:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Lcom/commsource/studio/bean/BaseLayerInfo;->getParentKey()Ljava/lang/String;
@@ -169,7 +159,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/bean/Step;->setExtraInfo(Ljava/util/Map;)Lcom/commsource/studio/bean/Step;
 
@@ -191,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -210,21 +198,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/bean/Step;
 
     iget-object v2, p0, Lcom/commsource/studio/bean/Step;->layerInfos:Ljava/util/ArrayList;
 
     invoke-direct {v1, v2}, Lcom/commsource/studio/bean/Step;-><init>(Ljava/util/List;)V
 
-    .line 2
     iget-object v2, v1, Lcom/commsource/studio/bean/Step;->extraInfo:Ljava/util/HashMap;
 
     iget-object v3, p0, Lcom/commsource/studio/bean/Step;->extraInfo:Ljava/util/HashMap;
 
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -247,7 +232,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/Step;->extraInfo:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -280,7 +264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/bean/Step;->extraInfo:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -306,7 +289,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/Step;->layerInfos:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -321,7 +303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/bean/Step;->layerSize:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -344,10 +325,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p1, Lcom/commsource/studio/bean/Step;->keyObjMap:Ljava/util/HashMap;
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -369,14 +348,12 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/bean/Step;->keyObjMap:Ljava/util/HashMap;
 
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -389,7 +366,6 @@
 
     check-cast v1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 5
     instance-of v3, v2, Lcom/commsource/studio/bean/ImageLayerInfo;
 
     if-eqz v3, :cond_0
@@ -404,14 +380,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     check-cast v2, Lcom/commsource/studio/bean/ImageLayerInfo;
 
     invoke-virtual {v2}, Lcom/commsource/studio/bean/ImageLayerInfo;->getTexturePath()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 7
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -435,7 +409,6 @@
     :cond_2
     const/4 p1, 0x1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -443,7 +416,6 @@
     :cond_3
     const/4 p1, 0x0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -475,12 +447,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/Step;->extraInfo:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -494,7 +464,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/Step;->layerSize:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

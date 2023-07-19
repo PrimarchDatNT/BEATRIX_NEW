@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/im2;Landroid/widget/FrameLayout;Landroid/widget/FrameLayout;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/vm2;->e:Lcom/google/android/gms/internal/ads/im2;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/vm2;->b:Landroid/widget/FrameLayout;
@@ -51,10 +50,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vm2;->b:Landroid/widget/FrameLayout;
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v0
@@ -65,7 +62,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p1, v0, v1}, Lcom/google/android/gms/internal/ads/zn2;->j8(Lcom/google/android/gms/dynamic/d;Lcom/google/android/gms/dynamic/d;)Lcom/google/android/gms/internal/ads/y2;
 
     move-result-object p1
@@ -76,14 +72,12 @@
 .method protected final synthetic c()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vm2;->d:Landroid/content/Context;
 
     const-string v1, "native_ad_view_delegate"
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/im2;->j(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/fq2;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/fq2;-><init>()V
@@ -99,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vm2;->e:Lcom/google/android/gms/internal/ads/im2;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/im2;->m(Lcom/google/android/gms/internal/ads/im2;)Lcom/google/android/gms/internal/ads/z4;

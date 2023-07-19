@@ -72,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lf/k/k/u/a;
 
     invoke-virtual {p0, p1}, Lcom/meitu/http/api/ArApi$giphyAnalytics$2;->invoke(Lf/k/k/u/a;)V
@@ -107,7 +106,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

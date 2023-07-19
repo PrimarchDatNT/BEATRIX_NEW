@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$d$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$d;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -49,10 +48,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationStart(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$d$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$d;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
@@ -63,7 +60,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->J0()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$d$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$d;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment$d;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
@@ -76,7 +72,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->J(Lcom/commsource/repository/child/makeup/e;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

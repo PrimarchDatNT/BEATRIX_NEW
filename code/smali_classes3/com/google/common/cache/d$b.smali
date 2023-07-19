@@ -18,7 +18,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/cache/d$d;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method protected b(Lcom/google/common/cache/d;JLjava/util/concurrent/TimeUnit;)V
     .locals 2
 
-    .line 1
     iget-object v0, p1, Lcom/google/common/cache/d;->k:Ljava/util/concurrent/TimeUnit;
 
     if-nez v0, :cond_0
@@ -46,10 +44,8 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     iput-wide p2, p1, Lcom/google/common/cache/d;->j:J
 
-    .line 3
     iput-object p4, p1, Lcom/google/common/cache/d;->k:Ljava/util/concurrent/TimeUnit;
 
     return-void

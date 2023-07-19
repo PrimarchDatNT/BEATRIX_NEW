@@ -10,13 +10,10 @@
 .method constructor <init>([B)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/icing/zzcn;-><init>()V
 
-    .line 2
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/icing/zzco;->zzgf:[B
 
     return-void
@@ -33,7 +30,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/gms/internal/icing/zzce;
 
@@ -43,7 +39,6 @@
 
     return v2
 
-    .line 2
     :cond_1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/zzce;->size()I
 
@@ -61,7 +56,6 @@
 
     return v2
 
-    .line 3
     :cond_2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/zzce;->size()I
 
@@ -71,21 +65,17 @@
 
     return v0
 
-    .line 4
     :cond_3
     instance-of v0, p1, Lcom/google/android/gms/internal/icing/zzco;
 
     if-eqz v0, :cond_5
 
-    .line 5
     check-cast p1, Lcom/google/android/gms/internal/icing/zzco;
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/zzce;->zzaq()I
 
     move-result v0
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/android/gms/internal/icing/zzce;->zzaq()I
 
     move-result v1
@@ -98,7 +88,6 @@
 
     return v2
 
-    .line 8
     :cond_4
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/zzce;->size()I
 
@@ -110,7 +99,6 @@
 
     return p1
 
-    .line 9
     :cond_5
     invoke-virtual {p1, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -122,7 +110,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/zzco;->zzgf:[B
 
     array-length v0, v0
@@ -133,7 +120,6 @@
 .method protected final zza(III)I
     .locals 1
 
-    .line 20
     iget-object p2, p0, Lcom/google/android/gms/internal/icing/zzco;->zzgf:[B
 
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/zzco;->zzar()I
@@ -150,7 +136,6 @@
 .method public final zza(II)Lcom/google/android/gms/internal/icing/zzce;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/zzce;->size()I
 
     move-result p1
@@ -163,12 +148,10 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     sget-object p1, Lcom/google/android/gms/internal/icing/zzce;->zzfx:Lcom/google/android/gms/internal/icing/zzce;
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance p2, Lcom/google/android/gms/internal/icing/zzcj;
 
@@ -186,7 +169,6 @@
 .method protected final zza(Ljava/nio/charset/Charset;)Ljava/lang/String;
     .locals 4
 
-    .line 5
     new-instance v0, Ljava/lang/String;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/icing/zzco;->zzgf:[B
@@ -212,7 +194,6 @@
         }
     .end annotation
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/zzco;->zzgf:[B
 
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/zzco;->zzar()I
@@ -231,49 +212,40 @@
 .method final zza(Lcom/google/android/gms/internal/icing/zzce;II)Z
     .locals 5
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/android/gms/internal/icing/zzce;->size()I
 
     move-result p2
 
     if-gt p3, p2, :cond_4
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/android/gms/internal/icing/zzce;->size()I
 
     move-result p2
 
     if-gt p3, p2, :cond_3
 
-    .line 8
     instance-of p2, p1, Lcom/google/android/gms/internal/icing/zzco;
 
     const/4 v0, 0x0
 
     if-eqz p2, :cond_2
 
-    .line 9
     check-cast p1, Lcom/google/android/gms/internal/icing/zzco;
 
-    .line 10
     iget-object p2, p0, Lcom/google/android/gms/internal/icing/zzco;->zzgf:[B
 
-    .line 11
     iget-object v1, p1, Lcom/google/android/gms/internal/icing/zzco;->zzgf:[B
 
-    .line 12
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/zzco;->zzar()I
 
     move-result v2
 
     add-int/2addr v2, p3
 
-    .line 13
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/zzco;->zzar()I
 
     move-result p3
 
-    .line 14
     invoke-virtual {p1}, Lcom/google/android/gms/internal/icing/zzco;->zzar()I
 
     move-result p1
@@ -281,7 +253,6 @@
     :goto_0
     if-ge p3, v2, :cond_1
 
-    .line 15
     aget-byte v3, p2, p3
 
     aget-byte v4, v1, p1
@@ -302,7 +273,6 @@
 
     return p1
 
-    .line 16
     :cond_2
     invoke-virtual {p1, v0, p3}, Lcom/google/android/gms/internal/icing/zzce;->zza(II)Lcom/google/android/gms/internal/icing/zzce;
 
@@ -318,11 +288,9 @@
 
     return p1
 
-    .line 17
     :cond_3
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
-    .line 18
     invoke-virtual {p1}, Lcom/google/android/gms/internal/icing/zzce;->size()I
 
     move-result p1
@@ -353,7 +321,6 @@
 
     throw p2
 
-    .line 19
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -387,12 +354,10 @@
 .method public final zzap()Z
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/zzco;->zzar()I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/icing/zzco;->zzgf:[B
 
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/zzce;->size()I
@@ -419,7 +384,6 @@
 .method public zzk(I)B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/zzco;->zzgf:[B
 
     aget-byte p1, v0, p1
@@ -430,7 +394,6 @@
 .method zzl(I)B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/zzco;->zzgf:[B
 
     aget-byte p1, v0, p1

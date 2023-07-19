@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/getkeepsafe/relinker/e;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/getkeepsafe/relinker/e$b;->b:Lcom/getkeepsafe/relinker/e;
 
     iput-object p2, p0, Lcom/getkeepsafe/relinker/e$b;->a:Ljava/lang/String;
@@ -42,7 +41,6 @@
 .method public accept(Ljava/io/File;Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/getkeepsafe/relinker/e$b;->a:Ljava/lang/String;
 
     invoke-virtual {p2, p1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z

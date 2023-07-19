@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/camera/montage/d0$a;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/d0$a$a;->b:Lcom/commsource/camera/montage/d0$a;
 
     iput p2, p0, Lcom/commsource/camera/montage/d0$a$a;->a:I
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/d0$a$a;->b:Lcom/commsource/camera/montage/d0$a;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/d0$a;->getItemViewType(I)I
@@ -54,7 +52,6 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 2
     iget p1, p0, Lcom/commsource/camera/montage/d0$a$a;->a:I
 
     div-int/lit8 p1, p1, 0x4
@@ -63,7 +60,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     iget p1, p0, Lcom/commsource/camera/montage/d0$a$a;->a:I
 

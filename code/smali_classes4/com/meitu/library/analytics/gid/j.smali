@@ -16,7 +16,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,26 +28,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/analytics/y/c/h;
 
     invoke-direct {v1}, Lcom/meitu/library/analytics/y/c/h;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/content/f;->H()Lcom/meitu/library/analytics/sdk/content/f$f;
 
     move-result-object v2
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/analytics/sdk/content/f$f;->i(Lcom/meitu/library/analytics/y/l/e;)V
 
-    .line 4
     :cond_0
     new-instance v2, Lcom/meitu/library/analytics/y/l/j/b$a;
 
@@ -60,7 +55,6 @@
 
     invoke-direct {v2, v3, p0}, Lcom/meitu/library/analytics/y/l/j/b$a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     new-instance p0, Lcom/meitu/library/analytics/y/l/j/b$a;
 
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -71,7 +65,6 @@
 
     invoke-direct {p0, v3, p1}, Lcom/meitu/library/analytics/y/l/j/b$a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     new-instance p1, Lcom/meitu/library/analytics/y/l/j/b$a;
 
     invoke-static {p2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -82,14 +75,12 @@
 
     invoke-direct {p1, v3, p2}, Lcom/meitu/library/analytics/y/l/j/b$a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     new-instance p2, Lcom/meitu/library/analytics/y/l/j/b$a;
 
     const-string v3, "error_info"
 
     invoke-direct {p2, v3, p3}, Lcom/meitu/library/analytics/y/l/j/b$a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     new-instance p3, Lcom/meitu/library/analytics/y/l/j/b;
 
     const/4 v5, 0x2
@@ -126,10 +117,8 @@
 
     invoke-direct/range {v4 .. v11}, Lcom/meitu/library/analytics/y/l/j/b;-><init>(IILjava/lang/String;JI[Lcom/meitu/library/analytics/y/l/j/b$a;)V
 
-    .line 9
     invoke-virtual {v1, p3}, Lcom/meitu/library/analytics/y/c/h;->h(Lcom/meitu/library/analytics/y/l/j/b;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -26,14 +26,12 @@
 .method private constructor <init>(Lcom/squareup/okhttp/Call;Lcom/squareup/okhttp/Callback;Z)V
     .locals 2
 
-    .line 2
     iput-object p1, p0, Lcom/squareup/okhttp/Call$AsyncCall;->this$0:Lcom/squareup/okhttp/Call;
 
     const/4 v0, 0x1
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 3
     iget-object p1, p1, Lcom/squareup/okhttp/Call;->originalRequest:Lcom/squareup/okhttp/Request;
 
     invoke-virtual {p1}, Lcom/squareup/okhttp/Request;->urlString()Ljava/lang/String;
@@ -48,10 +46,8 @@
 
     invoke-direct {p0, p1, v0}, Lcom/squareup/okhttp/internal/NamedRunnable;-><init>(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 4
     iput-object p2, p0, Lcom/squareup/okhttp/Call$AsyncCall;->responseCallback:Lcom/squareup/okhttp/Callback;
 
-    .line 5
     iput-boolean p3, p0, Lcom/squareup/okhttp/Call$AsyncCall;->forWebSocket:Z
 
     return-void
@@ -60,7 +56,6 @@
 .method synthetic constructor <init>(Lcom/squareup/okhttp/Call;Lcom/squareup/okhttp/Callback;ZLcom/squareup/okhttp/Call$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/squareup/okhttp/Call$AsyncCall;-><init>(Lcom/squareup/okhttp/Call;Lcom/squareup/okhttp/Callback;Z)V
 
     return-void
@@ -71,7 +66,6 @@
 .method cancel()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Call$AsyncCall;->this$0:Lcom/squareup/okhttp/Call;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/Call;->cancel()V
@@ -86,7 +80,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     iget-object v2, p0, Lcom/squareup/okhttp/Call$AsyncCall;->this$0:Lcom/squareup/okhttp/Call;
 
@@ -96,7 +89,6 @@
 
     move-result-object v2
 
-    .line 2
     iget-object v3, p0, Lcom/squareup/okhttp/Call$AsyncCall;->this$0:Lcom/squareup/okhttp/Call;
 
     iget-boolean v1, v3, Lcom/squareup/okhttp/Call;->canceled:Z
@@ -106,7 +98,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     :try_start_1
     iget-object v1, p0, Lcom/squareup/okhttp/Call$AsyncCall;->responseCallback:Lcom/squareup/okhttp/Callback;
 
@@ -124,7 +115,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/squareup/okhttp/Call$AsyncCall;->responseCallback:Lcom/squareup/okhttp/Callback;
 
@@ -133,7 +123,6 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     :goto_0
     iget-object v0, p0, Lcom/squareup/okhttp/Call$AsyncCall;->this$0:Lcom/squareup/okhttp/Call;
 
@@ -169,7 +158,6 @@
     :goto_1
     if-eqz v0, :cond_1
 
-    .line 6
     :try_start_2
     sget-object v0, Lcom/squareup/okhttp/internal/Internal;->logger:Ljava/util/logging/Logger;
 
@@ -199,7 +187,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v0, p0, Lcom/squareup/okhttp/Call$AsyncCall;->this$0:Lcom/squareup/okhttp/Call;
 
@@ -216,7 +203,6 @@
 
     move-result-object v0
 
-    .line 8
     :goto_2
     iget-object v2, p0, Lcom/squareup/okhttp/Call$AsyncCall;->responseCallback:Lcom/squareup/okhttp/Callback;
 
@@ -229,7 +215,6 @@
     :goto_3
     return-void
 
-    .line 9
     :goto_4
     iget-object v1, p0, Lcom/squareup/okhttp/Call$AsyncCall;->this$0:Lcom/squareup/okhttp/Call;
 
@@ -249,7 +234,6 @@
 .method get()Lcom/squareup/okhttp/Call;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Call$AsyncCall;->this$0:Lcom/squareup/okhttp/Call;
 
     return-object v0
@@ -258,7 +242,6 @@
 .method host()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Call$AsyncCall;->this$0:Lcom/squareup/okhttp/Call;
 
     iget-object v0, v0, Lcom/squareup/okhttp/Call;->originalRequest:Lcom/squareup/okhttp/Request;
@@ -277,7 +260,6 @@
 .method request()Lcom/squareup/okhttp/Request;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Call$AsyncCall;->this$0:Lcom/squareup/okhttp/Call;
 
     iget-object v0, v0, Lcom/squareup/okhttp/Call;->originalRequest:Lcom/squareup/okhttp/Request;
@@ -288,7 +270,6 @@
 .method tag()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Call$AsyncCall;->this$0:Lcom/squareup/okhttp/Call;
 
     iget-object v0, v0, Lcom/squareup/okhttp/Call;->originalRequest:Lcom/squareup/okhttp/Request;

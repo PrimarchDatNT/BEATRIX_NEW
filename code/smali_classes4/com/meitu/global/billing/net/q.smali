@@ -26,10 +26,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/global/billing/net/DataModel;-><init>(Lcom/meitu/global/billing/net/j;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/global/billing/net/DataModel;->f:Ljava/util/Map;
 
     sget-object v1, Lcom/meitu/global/billing/net/DataModel$HttpMethod;->GET:Lcom/meitu/global/billing/net/DataModel$HttpMethod;

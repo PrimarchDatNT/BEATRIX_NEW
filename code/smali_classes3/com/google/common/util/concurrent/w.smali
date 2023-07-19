@@ -36,7 +36,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/v;-><init>()V
 
     return-void
@@ -47,7 +46,6 @@
 .method protected bridge synthetic J0()Ljava/util/concurrent/Future;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/w;->M0()Lcom/google/common/util/concurrent/g0;
 
     move-result-object v0
@@ -68,7 +66,6 @@
 .method public addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/w;->M0()Lcom/google/common/util/concurrent/g0;
 
     move-result-object v0
@@ -81,7 +78,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/w;->M0()Lcom/google/common/util/concurrent/g0;
 
     move-result-object v0

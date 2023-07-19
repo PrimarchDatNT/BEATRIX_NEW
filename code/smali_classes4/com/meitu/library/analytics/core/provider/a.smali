@@ -19,10 +19,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
@@ -44,10 +42,8 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/core/provider/a;->a:Landroid/util/SparseArray;
 
-    .line 2
     invoke-virtual {v1}, Landroid/util/SparseArray;->size()I
 
     move-result v2
@@ -59,7 +55,6 @@
     :goto_0
     if-ge v3, v2, :cond_0
 
-    .line 3
     invoke-virtual {v1, v3}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -76,7 +71,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -104,7 +98,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/core/provider/a;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -115,7 +108,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -124,17 +116,14 @@
 
     return p3
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-virtual {p1, p2, p3}, Landroid/util/SparseIntArray;->get(II)I
 
     move-result p3
 
-    .line 4
     invoke-virtual {p1, p2}, Landroid/util/SparseIntArray;->delete(I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -163,7 +152,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/core/provider/a;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -174,7 +162,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/util/SparseIntArray;->clone()Landroid/util/SparseIntArray;
 
     move-result-object p1
@@ -190,7 +177,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :try_start_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_1
@@ -218,10 +204,8 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/core/provider/a;->a:Landroid/util/SparseArray;
 
-    .line 2
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -230,15 +214,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2, p2, p4}, Landroid/util/SparseIntArray;->get(II)I
 
     move-result p1
 
-    .line 4
     invoke-virtual {v2, p2, p3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -247,20 +228,16 @@
 
     return p1
 
-    .line 6
     :cond_0
     :try_start_1
     new-instance v2, Landroid/util/SparseIntArray;
 
     invoke-direct {v2}, Landroid/util/SparseIntArray;-><init>()V
 
-    .line 7
     invoke-virtual {v2, p2, p3}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 8
     invoke-virtual {v1, p1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0

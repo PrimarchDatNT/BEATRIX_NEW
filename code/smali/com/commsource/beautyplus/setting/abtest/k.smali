@@ -40,10 +40,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_abtest_group:I
 
-    .line 1
     invoke-direct {p0, p1, v0, p2}, Lf/k/c/b/d;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -64,19 +62,16 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/abtest/k;->r:Lcom/commsource/beautyplus/setting/abtest/k$a;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/beautyplus/setting/abtest/o;->a()Ljava/util/List;
 
     move-result-object p1
 
     invoke-interface {v0, p1}, Lcom/commsource/beautyplus/setting/abtest/k$a;->a(Ljava/util/List;)V
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -92,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/beautyplus/setting/abtest/o;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/beautyplus/setting/abtest/k;->D(Lf/k/c/b/f/c;Lcom/commsource/beautyplus/setting/abtest/o;I)V
@@ -109,14 +103,12 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lf/k/c/b/f/c;->c()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
 
     check-cast p1, Lcom/commsource/beautyplus/f0/sc;
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/beautyplus/setting/abtest/o;->a()Ljava/util/List;
 
     move-result-object v0
@@ -138,7 +130,6 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautyplus/setting/abtest/k;->q:Ljava/lang/String;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->getCode()I
@@ -155,7 +146,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->getName()Ljava/lang/String;
 
     move-result-object v0
@@ -169,7 +159,6 @@
 
     const/4 v1, 0x0
 
-    .line 5
     :goto_0
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/sc;->c:Landroid/widget/TextView;
 
@@ -179,19 +168,14 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     invoke-virtual {p2, v0}, Lcom/commsource/beautyplus/setting/abtest/o;->f(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {p2, v1}, Lcom/commsource/beautyplus/setting/abtest/o;->h(Z)V
 
-    .line 8
     invoke-virtual {p1, p2}, Lcom/commsource/beautyplus/f0/sc;->i(Lcom/commsource/beautyplus/setting/abtest/o;)V
 
-    .line 9
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
-    .line 10
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -212,10 +196,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/k;->r:Lcom/commsource/beautyplus/setting/abtest/k$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -228,10 +210,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/k;->q:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

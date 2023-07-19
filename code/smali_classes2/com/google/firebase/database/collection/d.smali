@@ -32,7 +32,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -75,7 +74,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/firebase/database/collection/d;
 
@@ -85,11 +83,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/database/collection/d;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/d;->e()Ljava/util/Comparator;
 
     move-result-object v1
@@ -106,7 +102,6 @@
 
     return v2
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/d;->size()I
 
@@ -120,18 +115,15 @@
 
     return v2
 
-    .line 5
     :cond_3
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/d;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/firebase/database/collection/d;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
-    .line 7
     :cond_4
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -139,7 +131,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 8
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
@@ -173,7 +164,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/d;->e()Ljava/util/Comparator;
 
     move-result-object v0
@@ -182,7 +172,6 @@
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/d;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -202,7 +191,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->hashCode()I
 
     move-result v2
@@ -330,12 +318,10 @@
 .method public toString()Ljava/lang/String;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -348,10 +334,8 @@
 
     const-string v1, "{"
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/d;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -380,16 +364,13 @@
     :cond_0
     const-string v4, ", "
 
-    .line 5
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :goto_1
     const-string v4, "("
 
-    .line 6
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -398,10 +379,8 @@
 
     const-string v4, "=>"
 
-    .line 8
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -410,7 +389,6 @@
 
     const-string v3, ")"
 
-    .line 10
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
@@ -418,10 +396,8 @@
     :cond_1
     const-string v1, "};"
 
-    .line 11
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0

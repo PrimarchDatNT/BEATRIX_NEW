@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$c;->a:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -57,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/http/api/AdvanceApi$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$c;->c(Lcom/meitu/http/api/AdvanceApi$a;)V
@@ -74,7 +72,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -102,18 +99,15 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Lf/d/i/c;->K()Lf/d/i/c;
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v2
@@ -128,7 +122,6 @@
 
     invoke-virtual {v1, p1}, Lf/d/i/c;->O(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

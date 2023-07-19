@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/okhttp/u;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -36,7 +35,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lio/grpc/okhttp/u;->b(Ljava/util/List;)[[B
 
     move-result-object p0
@@ -80,7 +77,6 @@
     .annotation runtime Ljavax/annotation/c;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -89,7 +85,6 @@
 
     new-array v0, v0, [[B
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -111,7 +106,6 @@
 
     add-int/lit8 v3, v1, 0x1
 
-    .line 3
     iget-object v4, v2, Lio/grpc/okhttp/internal/framed/c;->a:Lokio/ByteString;
 
     invoke-virtual {v4}, Lokio/ByteString;->toByteArray()[B
@@ -122,7 +116,6 @@
 
     add-int/lit8 v1, v3, 0x1
 
-    .line 4
     iget-object v2, v2, Lio/grpc/okhttp/internal/framed/c;->b:Lokio/ByteString;
 
     invoke-virtual {v2}, Lokio/ByteString;->toByteArray()[B
@@ -133,7 +126,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lio/grpc/internal/e3;->e([[B)[[B
 
@@ -145,7 +137,6 @@
 .method static c(Lcom/squareup/okhttp/ConnectionSpec;)Lio/grpc/okhttp/internal/a;
     .locals 6
 
-    .line 1
     invoke-virtual {p0}, Lcom/squareup/okhttp/ConnectionSpec;->isTls()Z
 
     move-result v0
@@ -154,12 +145,10 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/squareup/okhttp/ConnectionSpec;->tlsVersions()Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -173,7 +162,6 @@
     :goto_0
     if-ge v4, v1, :cond_0
 
-    .line 4
     invoke-interface {v0, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -190,13 +178,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/squareup/okhttp/ConnectionSpec;->cipherSuites()Ljava/util/List;
 
     move-result-object v0
 
-    .line 6
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -206,7 +192,6 @@
     :goto_1
     if-ge v3, v1, :cond_1
 
-    .line 7
     invoke-interface {v0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -227,7 +212,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     new-instance v0, Lio/grpc/okhttp/internal/a$b;
 
@@ -237,7 +221,6 @@
 
     invoke-direct {v0, v1}, Lio/grpc/okhttp/internal/a$b;-><init>(Z)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/squareup/okhttp/ConnectionSpec;->supportsTlsExtensions()Z
 
     move-result p0
@@ -246,17 +229,14 @@
 
     move-result-object p0
 
-    .line 10
     invoke-virtual {p0, v2}, Lio/grpc/okhttp/internal/a$b;->j([Ljava/lang/String;)Lio/grpc/okhttp/internal/a$b;
 
     move-result-object p0
 
-    .line 11
     invoke-virtual {p0, v4}, Lio/grpc/okhttp/internal/a$b;->f([Lio/grpc/okhttp/internal/CipherSuite;)Lio/grpc/okhttp/internal/a$b;
 
     move-result-object p0
 
-    .line 12
     invoke-virtual {p0}, Lio/grpc/okhttp/internal/a$b;->e()Lio/grpc/okhttp/internal/a;
 
     move-result-object p0
@@ -276,7 +256,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lio/grpc/okhttp/u;->b(Ljava/util/List;)[[B
 
     move-result-object p0
@@ -309,12 +288,10 @@
 
     const-string v8, "Exception caught while reading socket option"
 
-    .line 1
     new-instance v9, Lio/grpc/InternalChannelz$i$a;
 
     invoke-direct {v9}, Lio/grpc/InternalChannelz$i$a;-><init>()V
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Ljava/net/Socket;->getSoLinger()I
 
@@ -333,7 +310,6 @@
     :catch_0
     move-exception v10
 
-    .line 3
     sget-object v11, Lio/grpc/okhttp/u;->a:Ljava/util/logging/Logger;
 
     sget-object v12, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
@@ -342,10 +318,8 @@
 
     const-string v10, "SO_LINGER"
 
-    .line 4
     invoke-virtual {v9, v10, v7}, Lio/grpc/InternalChannelz$i$a;->b(Ljava/lang/String;Ljava/lang/String;)Lio/grpc/InternalChannelz$i$a;
 
-    .line 5
     :goto_0
     :try_start_1
     invoke-virtual {p0}, Ljava/net/Socket;->getSoTimeout()I
@@ -365,7 +339,6 @@
     :catch_1
     move-exception v10
 
-    .line 6
     sget-object v11, Lio/grpc/okhttp/u;->a:Ljava/util/logging/Logger;
 
     sget-object v12, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
@@ -374,10 +347,8 @@
 
     const-string v10, "SO_TIMEOUT"
 
-    .line 7
     invoke-virtual {v9, v10, v7}, Lio/grpc/InternalChannelz$i$a;->b(Ljava/lang/String;Ljava/lang/String;)Lio/grpc/InternalChannelz$i$a;
 
-    .line 8
     :goto_1
     :try_start_2
     invoke-virtual {p0}, Ljava/net/Socket;->getTcpNoDelay()Z
@@ -393,17 +364,14 @@
     :catch_2
     move-exception v10
 
-    .line 9
     sget-object v11, Lio/grpc/okhttp/u;->a:Ljava/util/logging/Logger;
 
     sget-object v12, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
 
     invoke-virtual {v11, v12, v8, v10}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 10
     invoke-virtual {v9, v6, v7}, Lio/grpc/InternalChannelz$i$a;->b(Ljava/lang/String;Ljava/lang/String;)Lio/grpc/InternalChannelz$i$a;
 
-    .line 11
     :goto_2
     :try_start_3
     invoke-virtual {p0}, Ljava/net/Socket;->getReuseAddress()Z
@@ -419,17 +387,14 @@
     :catch_3
     move-exception v6
 
-    .line 12
     sget-object v10, Lio/grpc/okhttp/u;->a:Ljava/util/logging/Logger;
 
     sget-object v11, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
 
     invoke-virtual {v10, v11, v8, v6}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 13
     invoke-virtual {v9, v5, v7}, Lio/grpc/InternalChannelz$i$a;->b(Ljava/lang/String;Ljava/lang/String;)Lio/grpc/InternalChannelz$i$a;
 
-    .line 14
     :goto_3
     :try_start_4
     invoke-virtual {p0}, Ljava/net/Socket;->getSendBufferSize()I
@@ -445,17 +410,14 @@
     :catch_4
     move-exception v5
 
-    .line 15
     sget-object v6, Lio/grpc/okhttp/u;->a:Ljava/util/logging/Logger;
 
     sget-object v10, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
 
     invoke-virtual {v6, v10, v8, v5}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 16
     invoke-virtual {v9, v4, v7}, Lio/grpc/InternalChannelz$i$a;->b(Ljava/lang/String;Ljava/lang/String;)Lio/grpc/InternalChannelz$i$a;
 
-    .line 17
     :goto_4
     :try_start_5
     invoke-virtual {p0}, Ljava/net/Socket;->getReceiveBufferSize()I
@@ -471,17 +433,14 @@
     :catch_5
     move-exception v4
 
-    .line 18
     sget-object v5, Lio/grpc/okhttp/u;->a:Ljava/util/logging/Logger;
 
     sget-object v6, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
 
     invoke-virtual {v5, v6, v8, v4}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 19
     invoke-virtual {v9, v3, v7}, Lio/grpc/InternalChannelz$i$a;->b(Ljava/lang/String;Ljava/lang/String;)Lio/grpc/InternalChannelz$i$a;
 
-    .line 20
     :goto_5
     :try_start_6
     invoke-virtual {p0}, Ljava/net/Socket;->getKeepAlive()Z
@@ -497,17 +456,14 @@
     :catch_6
     move-exception v3
 
-    .line 21
     sget-object v4, Lio/grpc/okhttp/u;->a:Ljava/util/logging/Logger;
 
     sget-object v5, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
 
     invoke-virtual {v4, v5, v8, v3}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 22
     invoke-virtual {v9, v2, v7}, Lio/grpc/InternalChannelz$i$a;->b(Ljava/lang/String;Ljava/lang/String;)Lio/grpc/InternalChannelz$i$a;
 
-    .line 23
     :goto_6
     :try_start_7
     invoke-virtual {p0}, Ljava/net/Socket;->getOOBInline()Z
@@ -523,17 +479,14 @@
     :catch_7
     move-exception v2
 
-    .line 24
     sget-object v3, Lio/grpc/okhttp/u;->a:Ljava/util/logging/Logger;
 
     sget-object v4, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
 
     invoke-virtual {v3, v4, v8, v2}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 25
     invoke-virtual {v9, v1, v7}, Lio/grpc/InternalChannelz$i$a;->b(Ljava/lang/String;Ljava/lang/String;)Lio/grpc/InternalChannelz$i$a;
 
-    .line 26
     :goto_7
     :try_start_8
     invoke-virtual {p0}, Ljava/net/Socket;->getTrafficClass()I
@@ -549,17 +502,14 @@
     :catch_8
     move-exception p0
 
-    .line 27
     sget-object v1, Lio/grpc/okhttp/u;->a:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
 
     invoke-virtual {v1, v2, v8, p0}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 28
     invoke-virtual {v9, v0, v7}, Lio/grpc/InternalChannelz$i$a;->b(Ljava/lang/String;Ljava/lang/String;)Lio/grpc/InternalChannelz$i$a;
 
-    .line 29
     :goto_8
     invoke-virtual {v9}, Lio/grpc/InternalChannelz$i$a;->d()Lio/grpc/InternalChannelz$i;
 

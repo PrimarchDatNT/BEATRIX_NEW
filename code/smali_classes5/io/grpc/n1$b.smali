@@ -37,7 +37,6 @@
 .method constructor <init>(Lio/grpc/MethodDescriptor;Lio/grpc/MethodDescriptor;Lio/grpc/l1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/n1$b;->a:Lio/grpc/MethodDescriptor;
 
     iput-object p2, p0, Lio/grpc/n1$b;->b:Lio/grpc/MethodDescriptor;
@@ -65,20 +64,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/n1$b$a;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/n1$b$a;-><init>(Lio/grpc/n1$b;Lio/grpc/k1;)V
 
-    .line 2
     iget-object p1, p0, Lio/grpc/n1$b;->c:Lio/grpc/l1;
 
-    .line 3
     invoke-interface {p1, v0, p2}, Lio/grpc/l1;->a(Lio/grpc/k1;Lio/grpc/y0;)Lio/grpc/k1$a;
 
     move-result-object p1
 
-    .line 4
     new-instance p2, Lio/grpc/n1$b$b;
 
     invoke-direct {p2, p0, p1}, Lio/grpc/n1$b$b;-><init>(Lio/grpc/n1$b;Lio/grpc/k1$a;)V

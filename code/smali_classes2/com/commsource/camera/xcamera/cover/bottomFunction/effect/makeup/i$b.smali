@@ -60,10 +60,8 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->cur_filter_no_support_makeup:I
 
-    .line 1
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

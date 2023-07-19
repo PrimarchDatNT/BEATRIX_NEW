@@ -28,7 +28,6 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 2
     sget-object v0, Lcotlinx/coroutines/scheduling/g;->b:Lcotlinx/coroutines/scheduling/g;
 
     const-wide/16 v1, 0x0
@@ -45,7 +44,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-wide p1, p0, Lcotlinx/coroutines/scheduling/h;->a:J
@@ -60,7 +58,6 @@
 .method public final b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/h;->b:Lcotlinx/coroutines/scheduling/i;
 
     invoke-interface {v0}, Lcotlinx/coroutines/scheduling/i;->k()I

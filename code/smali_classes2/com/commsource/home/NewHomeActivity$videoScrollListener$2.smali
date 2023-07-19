@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/home/NewHomeActivity$videoScrollListener$2$a;
 
     iget-object v2, p0, Lcom/commsource/home/NewHomeActivity$videoScrollListener$2;->this$0:Lcom/commsource/home/NewHomeActivity;
@@ -78,7 +77,6 @@
 
     invoke-direct {v1, p0, v2, v3}, Lcom/commsource/home/NewHomeActivity$videoScrollListener$2$a;-><init>(Lcom/commsource/home/NewHomeActivity$videoScrollListener$2;Landroidx/recyclerview/widget/RecyclerView;Ll/a/a/a/a/a/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -91,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/home/NewHomeActivity$videoScrollListener$2;->invoke()Lcom/commsource/home/NewHomeActivity$videoScrollListener$2$a;
 
     move-result-object v1

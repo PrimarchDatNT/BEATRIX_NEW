@@ -56,27 +56,22 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/w0;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lio/grpc/y1/a$b;->d:Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
-    .line 4
     iput-object p2, p0, Lio/grpc/y1/a$b;->b:Landroid/content/Context;
 
     if-eqz p2, :cond_0
 
     const-string p1, "connectivity"
 
-    .line 5
     invoke-virtual {p2, p1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -85,7 +80,6 @@
 
     iput-object p1, p0, Lio/grpc/y1/a$b;->c:Landroid/net/ConnectivityManager;
 
-    .line 6
     :try_start_0
     invoke-direct {p0}, Lio/grpc/y1/a$b;->w()V
     :try_end_0
@@ -100,7 +94,6 @@
 
     const-string v0, "Failed to configure network monitoring. Does app have ACCESS_NETWORK_STATE permission?"
 
-    .line 7
     invoke-static {p2, v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     goto :goto_0
@@ -108,7 +101,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 8
     iput-object p1, p0, Lio/grpc/y1/a$b;->c:Landroid/net/ConnectivityManager;
 
     :goto_0
@@ -118,7 +110,6 @@
 .method static synthetic t(Lio/grpc/y1/a$b;)Landroid/net/ConnectivityManager;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/y1/a$b;->c:Landroid/net/ConnectivityManager;
 
     return-object p0
@@ -127,7 +118,6 @@
 .method static synthetic u(Lio/grpc/y1/a$b;)Landroid/content/Context;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/y1/a$b;->b:Landroid/content/Context;
 
     return-object p0
@@ -136,7 +126,6 @@
 .method static synthetic v(Lio/grpc/y1/a$b;)Lio/grpc/w0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
     return-object p0
@@ -148,7 +137,6 @@
         value = "lock"
     .end annotation
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v1, 0x0
@@ -161,17 +149,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lio/grpc/y1/a$b$c;
 
     invoke-direct {v0, p0, v1}, Lio/grpc/y1/a$b$c;-><init>(Lio/grpc/y1/a$b;Lio/grpc/y1/a$a;)V
 
-    .line 3
     iget-object v1, p0, Lio/grpc/y1/a$b;->c:Landroid/net/ConnectivityManager;
 
     invoke-virtual {v1, v0}, Landroid/net/ConnectivityManager;->registerDefaultNetworkCallback(Landroid/net/ConnectivityManager$NetworkCallback;)V
 
-    .line 4
     new-instance v1, Lio/grpc/y1/a$b$a;
 
     invoke-direct {v1, p0, v0}, Lio/grpc/y1/a$b$a;-><init>(Lio/grpc/y1/a$b;Lio/grpc/y1/a$b$c;)V
@@ -180,25 +165,21 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v0, Lio/grpc/y1/a$b$d;
 
     invoke-direct {v0, p0, v1}, Lio/grpc/y1/a$b$d;-><init>(Lio/grpc/y1/a$b;Lio/grpc/y1/a$a;)V
 
-    .line 6
     new-instance v1, Landroid/content/IntentFilter;
 
     const-string v2, "android.net.conn.CONNECTIVITY_CHANGE"
 
     invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    .line 7
     iget-object v2, p0, Lio/grpc/y1/a$b;->b:Landroid/content/Context;
 
     invoke-virtual {v2, v0, v1}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    .line 8
     new-instance v1, Lio/grpc/y1/a$b$b;
 
     invoke-direct {v1, p0, v0}, Lio/grpc/y1/a$b$b;-><init>(Lio/grpc/y1/a$b;Lio/grpc/y1/a$b$d;)V
@@ -212,26 +193,21 @@
 .method private x()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y1/a$b;->d:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/y1/a$b;->e:Ljava/lang/Runnable;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lio/grpc/y1/a$b;->e:Ljava/lang/Runnable;
 
-    .line 5
     :cond_0
     monitor-exit v0
 
@@ -252,7 +228,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/g;->b()Ljava/lang/String;
@@ -280,7 +255,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
     invoke-virtual {v0, p1, p2}, Lio/grpc/g;->j(Lio/grpc/MethodDescriptor;Lio/grpc/f;)Lio/grpc/h;
@@ -298,7 +272,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
     invoke-virtual {v0, p1, p2, p3}, Lio/grpc/w0;->k(JLjava/util/concurrent/TimeUnit;)Z
@@ -311,7 +284,6 @@
 .method public l()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/w0;->l()V
@@ -322,7 +294,6 @@
 .method public m(Z)Lio/grpc/ConnectivityState;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
     invoke-virtual {v0, p1}, Lio/grpc/w0;->m(Z)Lio/grpc/ConnectivityState;
@@ -335,7 +306,6 @@
 .method public n()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/w0;->n()Z
@@ -348,7 +318,6 @@
 .method public o()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/w0;->o()Z
@@ -361,7 +330,6 @@
 .method public p(Lio/grpc/ConnectivityState;Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
     invoke-virtual {v0, p1, p2}, Lio/grpc/w0;->p(Lio/grpc/ConnectivityState;Ljava/lang/Runnable;)V
@@ -372,7 +340,6 @@
 .method public q()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/w0;->q()V
@@ -383,10 +350,8 @@
 .method public r()Lio/grpc/w0;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/y1/a$b;->x()V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/w0;->r()Lio/grpc/w0;
@@ -399,10 +364,8 @@
 .method public s()Lio/grpc/w0;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/y1/a$b;->x()V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/y1/a$b;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/w0;->s()Lio/grpc/w0;

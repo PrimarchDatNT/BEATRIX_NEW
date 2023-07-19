@@ -56,7 +56,6 @@
 
     const-string v1, "LayerSelectComponent"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -65,7 +64,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$b;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -90,7 +88,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/LayerManageListLayout;->B(Ljava/util/List;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -104,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/gesture/LayerSelectComponent$b;->a(Ljava/lang/String;)V

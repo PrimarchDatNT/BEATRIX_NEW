@@ -16,7 +16,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method protected final synthetic initialValue()Ljava/lang/Object;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;

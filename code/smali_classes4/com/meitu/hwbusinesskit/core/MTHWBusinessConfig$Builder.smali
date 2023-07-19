@@ -77,35 +77,28 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->isDebug:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->isUseFormalAdId:Z
 
     const-string v0, ""
 
-    .line 4
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->countryCode:Ljava/lang/String;
 
     const-string v0, "en"
 
-    .line 5
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->language:Ljava/lang/String;
 
     const-string v0, "f"
 
-    .line 6
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->userGender:Ljava/lang/String;
 
     const/4 v0, 0x1
 
-    .line 7
     iput-boolean v0, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->isGoogleServiceAvailable:Z
 
     return-void
@@ -120,87 +113,70 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;
 
     invoke-direct {v1}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;-><init>()V
 
-    .line 2
     iget-boolean v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->isDebug:Z
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setIsDebug(Z)V
 
-    .line 3
     iget-boolean v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->isUseFormalAdId:Z
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setIsUseFormalAdId(Z)V
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->language:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setLanguage(Ljava/lang/String;)V
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->countryCode:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setCountryCode(Ljava/lang/String;)V
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->userGender:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setUserGender(Ljava/lang/String;)V
 
-    .line 7
     iget v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->firebaseDefaultConfig:I
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setFirebaseDefaultConfig(I)V
 
-    .line 8
     iget v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->firebaseDefaultConfigCn:I
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setFirebaseDefaultConfigCn(I)V
 
-    .line 9
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->channel:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setChannel(Ljava/lang/String;)V
 
-    .line 10
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->googleAdChoicesPlacementMap:Ljava/util/Map;
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setGoogleAdChoicesPlacementMap(Ljava/util/Map;)V
 
-    .line 11
     iget-boolean v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->isGoogleServiceAvailable:Z
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setIsGoogleServiceAvailable(Z)V
 
-    .line 12
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->adLayoutIds:Ljava/util/Map;
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setAdLayoutIds(Ljava/util/Map;)V
 
-    .line 13
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->platformAppKeys:Ljava/util/Map;
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setPlatformAppKeys(Ljava/util/Map;)V
 
-    .line 14
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->analyticsAgent:Lcom/meitu/hwbusinesskit/core/statistics/IHwbAnalyticsAgent;
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setHwbAnalyticsAgent(Lcom/meitu/hwbusinesskit/core/statistics/IHwbAnalyticsAgent;)V
 
-    .line 15
     iget-boolean v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->agreeGDPRProtocol:Z
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setAgreeGDPRProtocol(Z)V
 
-    .line 16
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->adSlotFilter:Lcom/meitu/hwbusinesskit/core/utils/AdSlotFilter;
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->setAdSlotFilter(Lcom/meitu/hwbusinesskit/core/utils/AdSlotFilter;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -215,7 +191,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -232,14 +207,12 @@
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object p1
@@ -254,7 +227,6 @@
 
     iput-boolean p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->isGoogleServiceAvailable:Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -268,10 +240,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->isDebug:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -284,10 +254,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->isUseFormalAdId:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -300,32 +268,27 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->adLayoutIds:Ljava/util/Map;
 
     if-nez v1, :cond_1
 
-    .line 4
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->adLayoutIds:Ljava/util/Map;
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->adLayoutIds:Ljava/util/Map;
 
@@ -335,7 +298,6 @@
 
     invoke-interface {v1, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -360,7 +322,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-interface {p1}, Ljava/util/Map;->isEmpty()Z
 
     move-result v1
@@ -369,31 +330,26 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->adLayoutIds:Ljava/util/Map;
 
     if-nez v1, :cond_1
 
-    .line 9
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->adLayoutIds:Ljava/util/Map;
 
-    .line 10
     :cond_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->adLayoutIds:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 12
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -408,10 +364,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->adSlotFilter:Lcom/meitu/hwbusinesskit/core/utils/AdSlotFilter;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -424,10 +378,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->agreeGDPRProtocol:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -440,10 +392,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->channel:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -456,10 +406,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->firebaseDefaultConfig:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -472,10 +420,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->firebaseDefaultConfigCn:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -498,10 +444,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->googleAdChoicesPlacementMap:Ljava/util/Map;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -514,10 +458,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->analyticsAgent:Lcom/meitu/hwbusinesskit/core/statistics/IHwbAnalyticsAgent;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -530,10 +472,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->language:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -546,10 +486,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->countryCode:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -562,7 +500,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -577,31 +514,26 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->platformAppKeys:Ljava/util/Map;
 
     if-nez v1, :cond_1
 
-    .line 3
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->platformAppKeys:Ljava/util/Map;
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->platformAppKeys:Ljava/util/Map;
 
     invoke-interface {v1, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 6
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -628,7 +560,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-interface {p1}, Ljava/util/Map;->isEmpty()Z
 
     move-result v1
@@ -637,31 +568,26 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->platformAppKeys:Ljava/util/Map;
 
     if-nez v1, :cond_1
 
-    .line 9
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->platformAppKeys:Ljava/util/Map;
 
-    .line 10
     :cond_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->platformAppKeys:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 12
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -676,10 +602,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->userGender:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

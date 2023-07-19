@@ -34,7 +34,6 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/common/util/concurrent/Striped$d;->a:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,7 +46,6 @@
 .method public a()Ljava/util/concurrent/Semaphore;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/Semaphore;
 
     iget v1, p0, Lcom/google/common/util/concurrent/Striped$d;->a:I
@@ -62,7 +60,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/Striped$d;->a()Ljava/util/concurrent/Semaphore;
 
     move-result-object v0

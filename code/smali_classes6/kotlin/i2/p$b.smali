@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlin/i2/p$b;
 
     invoke-direct {v0}, Lcotlin/i2/p$b;-><init>()V
@@ -46,7 +45,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     sget-object v0, Lcotlin/i2/m;->c:Lcotlin/i2/m;
@@ -77,7 +75,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/i2/m;->c:Lcotlin/i2/m;
 
     invoke-virtual {v0}, Lcotlin/i2/m;->toString()Ljava/lang/String;

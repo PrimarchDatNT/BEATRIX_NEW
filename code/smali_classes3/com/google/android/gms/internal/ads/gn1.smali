@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/jl1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/gn1;->a:Lcom/google/android/gms/internal/ads/jl1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -27,7 +26,6 @@
 .method public final run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gn1;->a:Lcom/google/android/gms/internal/ads/jl1;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/jl1;->k(Lcom/google/android/gms/internal/ads/jl1;)Ljava/lang/Object;
@@ -36,7 +34,6 @@
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/gn1;->a:Lcom/google/android/gms/internal/ads/jl1;
 
@@ -46,19 +43,16 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/gn1;->a:Lcom/google/android/gms/internal/ads/jl1;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lcom/google/android/gms/internal/ads/jl1;->l(Lcom/google/android/gms/internal/ads/jl1;Z)Z
 
-    .line 4
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     :try_start_1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gn1;->a:Lcom/google/android/gms/internal/ads/jl1;
 
@@ -71,7 +65,6 @@
     :catch_0
     move-exception v0
 
-    .line 6
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/gn1;->a:Lcom/google/android/gms/internal/ads/jl1;
 
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/jl1;->s(Lcom/google/android/gms/internal/ads/jl1;)Lcom/google/android/gms/internal/ads/wl1;
@@ -84,7 +77,6 @@
 
     invoke-virtual {v1, v2, v3, v4, v0}, Lcom/google/android/gms/internal/ads/wl1;->b(IJLjava/lang/Exception;)Lcom/google/android/gms/tasks/k;
 
-    .line 7
     :goto_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gn1;->a:Lcom/google/android/gms/internal/ads/jl1;
 
@@ -94,7 +86,6 @@
 
     monitor-enter v1
 
-    .line 8
     :try_start_2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gn1;->a:Lcom/google/android/gms/internal/ads/jl1;
 
@@ -102,7 +93,6 @@
 
     invoke-static {v0, v2}, Lcom/google/android/gms/internal/ads/jl1;->l(Lcom/google/android/gms/internal/ads/jl1;Z)Z
 
-    .line 9
     monitor-exit v1
 
     return-void
@@ -116,7 +106,6 @@
 
     throw v0
 
-    .line 10
     :cond_0
     :try_start_3
     monitor-exit v0
@@ -126,7 +115,6 @@
     :catchall_1
     move-exception v1
 
-    .line 11
     monitor-exit v0
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1

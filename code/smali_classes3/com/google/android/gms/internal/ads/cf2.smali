@@ -17,7 +17,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0, v1}, Lcom/google/android/gms/internal/ads/cf2;-><init>(Lcom/google/android/gms/internal/ads/se2;IILjava/lang/Object;)V
 
     return-void
@@ -34,15 +33,12 @@
 
     aput p2, p3, p4
 
-    .line 2
     invoke-direct {p0, p1, p3}, Lcom/google/android/gms/internal/ads/ve2;-><init>(Lcom/google/android/gms/internal/ads/se2;[I)V
 
-    .line 3
     iput p4, p0, Lcom/google/android/gms/internal/ads/cf2;->g:I
 
     const/4 p1, 0x0
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/cf2;->h:Ljava/lang/Object;
 
     return-void

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/b$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/b$a$b;->a:Lcom/google/common/util/concurrent/b$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 5
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/b$a$b;->a:Lcom/google/common/util/concurrent/b$a;
 
@@ -46,12 +44,10 @@
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/b;->o()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/util/concurrent/b$a$b;->a:Lcom/google/common/util/concurrent/b$a;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/f;->v()V
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/util/concurrent/b$a$b;->a:Lcom/google/common/util/concurrent/b$a;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/f;->isRunning()Z
@@ -62,7 +58,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     :try_start_1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b$a$b;->a:Lcom/google/common/util/concurrent/b$a;
 
@@ -77,7 +72,6 @@
     :catchall_0
     move-exception v0
 
-    .line 5
     :try_start_2
     iget-object v1, p0, Lcom/google/common/util/concurrent/b$a$b;->a:Lcom/google/common/util/concurrent/b$a;
 
@@ -93,7 +87,6 @@
     :catch_0
     move-exception v1
 
-    .line 6
     :try_start_3
     invoke-static {}, Lcom/google/common/util/concurrent/b;->j()Ljava/util/logging/Logger;
 
@@ -105,7 +98,6 @@
 
     invoke-virtual {v2, v3, v4, v1}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 7
     :goto_0
     iget-object v1, p0, Lcom/google/common/util/concurrent/b$a$b;->a:Lcom/google/common/util/concurrent/b$a;
 
@@ -113,7 +105,6 @@
 
     return-void
 
-    .line 8
     :cond_0
     :goto_1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b$a$b;->a:Lcom/google/common/util/concurrent/b$a;
@@ -122,7 +113,6 @@
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/b;->n()V
 
-    .line 9
     iget-object v0, p0, Lcom/google/common/util/concurrent/b$a$b;->a:Lcom/google/common/util/concurrent/b$a;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/f;->w()V
@@ -134,7 +124,6 @@
     :catchall_1
     move-exception v0
 
-    .line 10
     iget-object v1, p0, Lcom/google/common/util/concurrent/b$a$b;->a:Lcom/google/common/util/concurrent/b$a;
 
     invoke-virtual {v1, v0}, Lcom/google/common/util/concurrent/f;->u(Ljava/lang/Throwable;)V

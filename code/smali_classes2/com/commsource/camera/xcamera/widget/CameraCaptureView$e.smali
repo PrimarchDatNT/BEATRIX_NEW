@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$e;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -49,10 +48,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/f1/l$a;->b(Lcom/commsource/camera/f1/l;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$e;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-virtual {p1}, Landroid/view/View;->getScaleX()F
@@ -61,14 +58,12 @@
 
     invoke-static {p1, v1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->x(Lcom/commsource/camera/xcamera/widget/CameraCaptureView;F)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$e;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     const/4 v1, 0x0
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -85,17 +80,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/f1/l$a;->d(Lcom/commsource/camera/f1/l;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$e;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$e;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->e(Lcom/commsource/camera/xcamera/widget/CameraCaptureView;)Lcom/commsource/camera/xcamera/widget/CameraCaptureView$a;
@@ -112,7 +104,6 @@
 
     invoke-interface {p1, v1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$a;->a(I)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -126,10 +117,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/f1/l$a;->e(FF)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$e;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->o(Lcom/commsource/camera/xcamera/widget/CameraCaptureView;)F
@@ -138,22 +127,18 @@
 
     mul-float p1, p1, p2
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$e;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-virtual {p2, p1}, Landroid/view/View;->setScaleX(F)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$e;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-virtual {p2, p1}, Landroid/view/View;->setScaleY(F)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$e;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

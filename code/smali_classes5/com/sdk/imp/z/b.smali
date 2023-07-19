@@ -21,10 +21,8 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/sdk/imp/z/b;->b:I
 
     return-void
@@ -41,10 +39,8 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/sdk/imp/z/b;->a:Ljava/util/List;
 
     return-void
@@ -63,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/z/b;->a:Ljava/util/List;
 
     return-object v0
@@ -72,7 +67,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/z/b;->b:I
 
     return v0
@@ -81,7 +75,6 @@
 .method public c(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/sdk/imp/z/b;->b:I
 
     return-void

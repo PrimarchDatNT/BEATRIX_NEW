@@ -38,22 +38,16 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p1, p0, Lcom/mopub/common/privacy/AdvertisingId;->mAdvertisingId:Ljava/lang/String;
 
-    .line 5
     iput-object p2, p0, Lcom/mopub/common/privacy/AdvertisingId;->mMopubId:Ljava/lang/String;
 
-    .line 6
     iput-boolean p3, p0, Lcom/mopub/common/privacy/AdvertisingId;->mDoNotTrack:Z
 
     return-void
@@ -64,12 +58,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/privacy/AdvertisingId;->generateIdString()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lcom/mopub/common/privacy/AdvertisingId;
 
     const-string v2, ""
@@ -86,7 +78,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
 
     move-result-object v0
@@ -109,7 +100,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/mopub/common/privacy/AdvertisingId;
 
@@ -119,11 +109,9 @@
 
     return v1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/mopub/common/privacy/AdvertisingId;
 
-    .line 3
     iget-boolean v0, p0, Lcom/mopub/common/privacy/AdvertisingId;->mDoNotTrack:Z
 
     iget-boolean v2, p1, Lcom/mopub/common/privacy/AdvertisingId;->mDoNotTrack:Z
@@ -132,7 +120,6 @@
 
     return v1
 
-    .line 4
     :cond_2
     iget-object v0, p0, Lcom/mopub/common/privacy/AdvertisingId;->mAdvertisingId:Ljava/lang/String;
 
@@ -146,7 +133,6 @@
 
     return v1
 
-    .line 5
     :cond_3
     iget-object v0, p0, Lcom/mopub/common/privacy/AdvertisingId;->mMopubId:Ljava/lang/String;
 
@@ -164,7 +150,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/common/privacy/AdvertisingId;->mDoNotTrack:Z
 
     if-nez v0, :cond_1
@@ -181,7 +166,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -201,7 +185,6 @@
 
     return-object p1
 
-    .line 3
     :cond_1
     :goto_0
     new-instance p1, Ljava/lang/StringBuilder;
@@ -226,7 +209,6 @@
 .method public getIdentifier(Z)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/common/privacy/AdvertisingId;->mDoNotTrack:Z
 
     if-nez v0, :cond_1
@@ -253,7 +235,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/AdvertisingId;->mAdvertisingId:Ljava/lang/String;
 
     return-object v0
@@ -264,7 +245,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/AdvertisingId;->mAdvertisingId:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -277,7 +257,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -301,7 +280,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/AdvertisingId;->mAdvertisingId:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -310,7 +288,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/common/privacy/AdvertisingId;->mMopubId:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
@@ -321,7 +298,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-boolean v1, p0, Lcom/mopub/common/privacy/AdvertisingId;->mDoNotTrack:Z
 
     add-int/2addr v0, v1
@@ -332,7 +308,6 @@
 .method public isDoNotTrack()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/common/privacy/AdvertisingId;->mDoNotTrack:Z
 
     return v0
@@ -343,7 +318,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

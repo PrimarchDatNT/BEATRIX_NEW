@@ -24,12 +24,10 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/np2;Lcom/google/android/gms/ads/initialization/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/np2$a;->c:Lcom/google/android/gms/internal/ads/np2;
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/k7;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/np2$a;->b:Lcom/google/android/gms/ads/initialization/b;
 
     return-void
@@ -38,7 +36,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/np2;Lcom/google/android/gms/ads/initialization/b;Lcom/google/android/gms/internal/ads/rp2;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/ads/np2$a;-><init>(Lcom/google/android/gms/internal/ads/np2;Lcom/google/android/gms/ads/initialization/b;)V
 
     return-void
@@ -63,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/np2$a;->b:Lcom/google/android/gms/ads/initialization/b;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/np2$a;->c:Lcom/google/android/gms/internal/ads/np2;

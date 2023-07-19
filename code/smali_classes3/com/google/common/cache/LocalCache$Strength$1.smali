@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/google/common/cache/LocalCache$Strength;-><init>(Ljava/lang/String;ILcom/google/common/cache/LocalCache$a;)V
 
     return-void
@@ -39,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/base/Equivalence;->equals()Lcom/google/common/base/Equivalence;
 
     move-result-object v0
@@ -69,7 +67,6 @@
 
     if-ne p4, p1, :cond_0
 
-    .line 1
     new-instance p1, Lcom/google/common/cache/LocalCache$p;
 
     invoke-direct {p1, p3}, Lcom/google/common/cache/LocalCache$p;-><init>(Ljava/lang/Object;)V

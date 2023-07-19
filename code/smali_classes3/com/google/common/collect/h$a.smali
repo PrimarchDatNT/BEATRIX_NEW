@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/h$a;->d:Lcom/google/common/collect/h;
 
     invoke-direct {p0}, Lcom/google/common/collect/s;-><init>()V
@@ -50,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/h$a;->d:Lcom/google/common/collect/h;
 
     invoke-virtual {v0}, Lcom/google/common/collect/h;->descendingEntryIterator()Ljava/util/Iterator;
@@ -70,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/h$a;->d:Lcom/google/common/collect/h;
 
     return-object v0
@@ -86,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/h$a;->d:Lcom/google/common/collect/h;
 
     invoke-virtual {v0}, Lcom/google/common/collect/h;->descendingIterator()Ljava/util/Iterator;

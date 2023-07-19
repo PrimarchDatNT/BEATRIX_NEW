@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/model/value/h;
 
     invoke-direct {v0}, Lcom/google/firebase/firestore/model/value/h;-><init>()V
@@ -24,7 +23,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/model/value/e;-><init>()V
 
     return-void
@@ -33,7 +31,6 @@
 .method public static o()Lcom/google/firebase/firestore/model/value/h;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/model/value/h;->M:Lcom/google/firebase/firestore/model/value/h;
 
     return-object v0
@@ -44,7 +41,6 @@
 .method public a(Lcom/google/firebase/firestore/model/value/e;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/model/value/h;
 
     if-eqz v0, :cond_0
@@ -53,7 +49,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/value/e;->f(Lcom/google/firebase/firestore/model/value/e;)I
 
@@ -65,7 +60,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/firebase/firestore/model/value/e;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/value/h;->a(Lcom/google/firebase/firestore/model/value/e;)I
@@ -78,7 +72,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     instance-of p1, p1, Lcom/google/firebase/firestore/model/value/h;
 
     return p1

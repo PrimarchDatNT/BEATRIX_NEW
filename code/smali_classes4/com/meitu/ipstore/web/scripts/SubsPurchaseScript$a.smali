@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript$a;->c:Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript$a;->d(Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript$Model;)V
@@ -64,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -85,7 +82,6 @@
 
     invoke-static {v1}, Lf/k/m/j/e;->a(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v1
@@ -96,7 +92,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript$a;->c:Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript;
 
     invoke-virtual {v2}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
@@ -111,7 +106,6 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript$a;->c:Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript;
 
     invoke-virtual {p1}, Lcom/meitu/webview/mtscript/i;->A()Lcom/meitu/webview/core/CommonWebView;
@@ -120,7 +114,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript$a;->c:Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript;
 
     invoke-virtual {v1}, Lcom/meitu/webview/mtscript/i;->p()Ljava/lang/String;
@@ -131,25 +124,21 @@
 
     const-string v3, ""
 
-    .line 6
     invoke-static {v2, v3}, Lcom/meitu/ipstore/web/scripts/b;->c(ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 7
     invoke-static {v1, v2}, Lcom/meitu/webview/mtscript/h;->i(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v1}, Lcom/meitu/webview/core/CommonWebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_1
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
@@ -165,15 +154,12 @@
 
     iget-object v2, p0, Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript$a;->c:Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript;
 
-    .line 10
     invoke-virtual {v2}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v3
 
-    .line 11
     invoke-virtual {v1, p1, v2, v3}, Lcom/meitu/ipstore/core/b;->h(Ljava/lang/String;Lcom/meitu/ipstore/core/c$a;Landroid/app/Activity;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

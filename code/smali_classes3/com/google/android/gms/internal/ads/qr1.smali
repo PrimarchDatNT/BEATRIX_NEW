@@ -54,10 +54,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/sr1;->e()Ljava/util/Set;
 
     move-result-object v0
@@ -70,7 +68,6 @@
 
     const-class v0, Ljava/lang/Void;
 
-    .line 3
     invoke-virtual {v0, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -79,7 +76,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -89,7 +85,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -106,7 +101,6 @@
 
     const-string p1, "Given internalKeyMananger %s does not support primitive class %s"
 
-    .line 6
     invoke-static {p1, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -115,12 +109,10 @@
 
     throw v0
 
-    .line 7
     :cond_1
     :goto_0
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/qr1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
-    .line 8
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/qr1;->b:Ljava/lang/Class;
 
     return-void
@@ -136,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/tr1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/qr1;->a:Lcom/google/android/gms/internal/ads/sr1;
@@ -164,7 +155,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Ljava/lang/Void;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/qr1;->b:Ljava/lang/Class;
@@ -175,12 +165,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qr1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/sr1;->h(Lcom/google/android/gms/internal/ads/l22;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qr1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/qr1;->b:Ljava/lang/Class;
@@ -191,7 +179,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/security/GeneralSecurityException;
 
@@ -214,7 +201,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qr1;->b:Ljava/lang/Class;
 
     return-object v0
@@ -223,7 +209,6 @@
 .method public final b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qr1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/sr1;->a()Ljava/lang/String;
@@ -241,7 +226,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/qr1;->g()Lcom/google/android/gms/internal/ads/tr1;
 
@@ -258,14 +242,12 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/security/GeneralSecurityException;
 
     const-string v1, "Failures parsing proto of type "
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/qr1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
-    .line 3
     invoke-virtual {v2}, Lcom/google/android/gms/internal/ads/sr1;->g()Lcom/google/android/gms/internal/ads/vr1;
 
     move-result-object v2
@@ -315,7 +297,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/qr1;->g()Lcom/google/android/gms/internal/ads/tr1;
 
@@ -325,24 +306,20 @@
 
     move-result-object p1
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zzebf;->H()Lcom/google/android/gms/internal/ads/zzebf$a;
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/qr1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/sr1;->a()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/zzebf$a;->o(Ljava/lang/String;)Lcom/google/android/gms/internal/ads/zzebf$a;
 
     move-result-object v0
 
-    .line 5
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/l22;->T()Lcom/google/android/gms/internal/ads/zzeer;
 
     move-result-object p1
@@ -353,7 +330,6 @@
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qr1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/sr1;->d()Lcom/google/android/gms/internal/ads/zzebf$zza;
 
     move-result-object v0
@@ -362,7 +338,6 @@
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/f12$b;->x9()Lcom/google/android/gms/internal/ads/l22;
 
     move-result-object p1
@@ -378,7 +353,6 @@
     :catch_0
     move-exception p1
 
-    .line 8
     new-instance v0, Ljava/security/GeneralSecurityException;
 
     const-string v1, "Unexpected proto"
@@ -404,7 +378,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qr1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
@@ -412,7 +385,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/qr1;->h(Lcom/google/android/gms/internal/ads/l22;)Ljava/lang/Object;
 
     move-result-object p1
@@ -424,14 +396,12 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v0, Ljava/security/GeneralSecurityException;
 
     const-string v1, "Failures parsing proto of type "
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/qr1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
-    .line 4
     invoke-virtual {v2}, Lcom/google/android/gms/internal/ads/sr1;->c()Ljava/lang/Class;
 
     move-result-object v2
@@ -485,10 +455,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qr1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/sr1;->c()Ljava/lang/Class;
 
     move-result-object v0
@@ -523,26 +491,22 @@
     :goto_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/qr1;->a:Lcom/google/android/gms/internal/ads/sr1;
 
-    .line 3
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/sr1;->c()Ljava/lang/Class;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1, p1}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/qr1;->h(Lcom/google/android/gms/internal/ads/l22;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/security/GeneralSecurityException;
 

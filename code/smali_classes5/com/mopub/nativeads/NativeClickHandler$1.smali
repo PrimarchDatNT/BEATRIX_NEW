@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/NativeClickHandler;Lcom/mopub/nativeads/ClickInterface;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/NativeClickHandler$1;->this$0:Lcom/mopub/nativeads/NativeClickHandler;
 
     iput-object p2, p0, Lcom/mopub/nativeads/NativeClickHandler$1;->val$clickInterface:Lcom/mopub/nativeads/ClickInterface;
@@ -42,7 +41,6 @@
 .method public onClick(Landroid/view/View;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeClickHandler$1;->val$clickInterface:Lcom/mopub/nativeads/ClickInterface;
 
     invoke-interface {v0, p1}, Lcom/mopub/nativeads/ClickInterface;->handleClick(Landroid/view/View;)V

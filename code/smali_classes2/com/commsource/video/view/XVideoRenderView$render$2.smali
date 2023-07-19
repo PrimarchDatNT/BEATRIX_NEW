@@ -60,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/video/render/RenderTextureView;
 
     iget-object v2, p0, Lcom/commsource/video/view/XVideoRenderView$render$2;->$context:Landroid/content/Context;
@@ -73,17 +72,14 @@
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/video/render/RenderTextureView;->setTakeOverSurfaceTexture(Z)V
 
-    .line 4
     new-instance v2, Lcom/commsource/video/view/XVideoRenderView$render$2$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$render$2$a;-><init>(Lcom/commsource/video/view/XVideoRenderView$render$2;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/render/RenderTextureView;->setRenderCallback(Lcom/commsource/video/render/b;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -96,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView$render$2;->invoke()Lcom/commsource/video/render/RenderTextureView;
 
     move-result-object v1

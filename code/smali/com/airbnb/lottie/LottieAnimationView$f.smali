@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/airbnb/lottie/LottieAnimationView;Lcom/airbnb/lottie/a0/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/LottieAnimationView$f;->e:Lcom/airbnb/lottie/LottieAnimationView;
 
     iput-object p2, p0, Lcom/airbnb/lottie/LottieAnimationView$f;->d:Lcom/airbnb/lottie/a0/l;
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView$f;->d:Lcom/airbnb/lottie/a0/l;
 
     invoke-interface {v0, p1}, Lcom/airbnb/lottie/a0/l;->a(Lcom/airbnb/lottie/a0/b;)Ljava/lang/Object;

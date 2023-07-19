@@ -20,7 +20,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/database/CursorWrapper;-><init>(Landroid/database/Cursor;)V
 
     const/4 v0, 0x0
@@ -30,12 +29,10 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     instance-of v1, p1, Landroid/database/CursorWrapper;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast p1, Landroid/database/CursorWrapper;
 
     invoke-virtual {p1}, Landroid/database/CursorWrapper;->getWrappedCursor()Landroid/database/Cursor;
@@ -46,13 +43,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     instance-of v0, p1, Landroid/database/AbstractWindowedCursor;
 
     if-nez v0, :cond_2
 
-    .line 5
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     const-string v1, "Unknown type: "
@@ -91,11 +86,9 @@
 
     throw v0
 
-    .line 6
     :cond_2
     check-cast p1, Landroid/database/AbstractWindowedCursor;
 
-    .line 7
     iput-object p1, p0, Lcom/google/android/gms/common/o/a;->a:Landroid/database/AbstractWindowedCursor;
 
     return-void
@@ -108,7 +101,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/o/a;->a:Landroid/database/AbstractWindowedCursor;
 
     invoke-virtual {v0, p1}, Landroid/database/AbstractWindowedCursor;->setWindow(Landroid/database/CursorWindow;)V
@@ -121,7 +113,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/o/a;->a:Landroid/database/AbstractWindowedCursor;
 
     invoke-virtual {v0, p1, p2}, Landroid/database/AbstractWindowedCursor;->fillWindow(ILandroid/database/CursorWindow;)V
@@ -134,7 +125,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/o/a;->a:Landroid/database/AbstractWindowedCursor;
 
     invoke-virtual {v0}, Landroid/database/AbstractWindowedCursor;->getWindow()Landroid/database/CursorWindow;
@@ -147,7 +137,6 @@
 .method public synthetic getWrappedCursor()Landroid/database/Cursor;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/o/a;->a:Landroid/database/AbstractWindowedCursor;
 
     return-object v0
@@ -156,7 +145,6 @@
 .method public onMove(II)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/o/a;->a:Landroid/database/AbstractWindowedCursor;
 
     invoke-virtual {v0, p1, p2}, Landroid/database/AbstractWindowedCursor;->onMove(II)Z

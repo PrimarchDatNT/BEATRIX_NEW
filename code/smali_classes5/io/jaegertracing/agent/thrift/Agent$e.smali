@@ -27,7 +27,6 @@
 .method public constructor <init>(Lorg/apache/thrift/protocol/TProtocol;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p1}, Lorg/apache/thrift/TServiceClient;-><init>(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)V
 
     return-void
@@ -36,7 +35,6 @@
 .method public constructor <init>(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lorg/apache/thrift/TServiceClient;-><init>(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)V
 
     return-void
@@ -52,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/agent/thrift/Agent$e;->l(Lio/jaegertracing/thriftjava/Batch;)V
 
     return-void
@@ -75,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/agent/thrift/Agent$e;->m(Ljava/util/List;)V
 
     return-void
@@ -89,17 +85,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/jaegertracing/agent/thrift/Agent$emitBatch_args;
 
     invoke-direct {v0}, Lio/jaegertracing/agent/thrift/Agent$emitBatch_args;-><init>()V
 
-    .line 2
     invoke-virtual {v0, p1}, Lio/jaegertracing/agent/thrift/Agent$emitBatch_args;->setBatch(Lio/jaegertracing/thriftjava/Batch;)Lio/jaegertracing/agent/thrift/Agent$emitBatch_args;
 
     const-string p1, "emitBatch"
 
-    .line 3
     invoke-virtual {p0, p1, v0}, Lorg/apache/thrift/TServiceClient;->sendBaseOneway(Ljava/lang/String;Lorg/apache/thrift/TBase;)V
 
     return-void
@@ -122,17 +115,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/jaegertracing/agent/thrift/Agent$emitZipkinBatch_args;
 
     invoke-direct {v0}, Lio/jaegertracing/agent/thrift/Agent$emitZipkinBatch_args;-><init>()V
 
-    .line 2
     invoke-virtual {v0, p1}, Lio/jaegertracing/agent/thrift/Agent$emitZipkinBatch_args;->setSpans(Ljava/util/List;)Lio/jaegertracing/agent/thrift/Agent$emitZipkinBatch_args;
 
     const-string p1, "emitZipkinBatch"
 
-    .line 3
     invoke-virtual {p0, p1, v0}, Lorg/apache/thrift/TServiceClient;->sendBaseOneway(Ljava/lang/String;Lorg/apache/thrift/TBase;)V
 
     return-void

@@ -32,7 +32,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/reflect/g$b;
 
     const/4 v1, 0x0
@@ -65,7 +63,6 @@
 .method public bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/Map$Entry;
 
     invoke-virtual {p0, p1}, Lcom/google/common/reflect/g$b$b;->a(Ljava/util/Map$Entry;)Ljava/util/Map$Entry;

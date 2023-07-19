@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/scripts/SubsRestoreScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/SubsRestoreScript$a;->c:Lcom/meitu/ipstore/web/scripts/SubsRestoreScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/ipstore/web/scripts/SubsRestoreScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/web/scripts/SubsRestoreScript$a;->d(Lcom/meitu/ipstore/web/scripts/SubsRestoreScript$Model;)V
@@ -66,10 +64,8 @@
 
     const-string v0, "SubsRestore"
 
-    .line 1
     invoke-static {v0}, Lf/k/m/j/e;->a(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v0
@@ -82,17 +78,14 @@
 
     iget-object v1, p0, Lcom/meitu/ipstore/web/scripts/SubsRestoreScript$a;->c:Lcom/meitu/ipstore/web/scripts/SubsRestoreScript;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v2
 
     const/4 v3, 0x2
 
-    .line 4
     invoke-virtual {v0, v3, v1, v2}, Lcom/meitu/ipstore/core/b;->g(ILcom/meitu/ipstore/core/c$b;Landroid/app/Activity;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

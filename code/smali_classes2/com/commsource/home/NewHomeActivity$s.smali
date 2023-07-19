@@ -26,7 +26,6 @@
 
     iput-object p1, p0, Lcom/commsource/home/NewHomeActivity$s;->a:Lcom/commsource/home/NewHomeActivity;
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     return-void
@@ -73,7 +72,6 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildViewHolder(Landroid/view/View;)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     move-result-object p2
@@ -88,12 +86,10 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iput p3, p1, Landroid/graphics/Rect;->top:I
 
     goto :goto_1
 
-    .line 3
     :cond_0
     iget-object p4, p0, Lcom/commsource/home/NewHomeActivity$s;->a:Lcom/commsource/home/NewHomeActivity;
 
@@ -116,7 +112,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 4
     invoke-virtual {p2}, Lcom/commsource/home/entity/ContentModule;->getType()Ljava/lang/Integer;
 
     move-result-object p2
@@ -134,7 +129,6 @@
 
     if-eq p2, p4, :cond_3
 
-    .line 5
     :goto_0
     sget-object p2, Lcom/commsource/home/c;->y:Lcom/commsource/home/c;
 
@@ -146,11 +140,9 @@
 
     goto :goto_1
 
-    .line 6
     :cond_3
     iput p3, p1, Landroid/graphics/Rect;->top:I
 
-    .line 7
     :cond_4
     :goto_1
     sget-object p2, Lcom/commsource/home/c;->y:Lcom/commsource/home/c;
@@ -161,7 +153,6 @@
 
     iput p2, p1, Landroid/graphics/Rect;->bottom:I
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

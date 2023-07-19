@@ -89,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/os/HandlerThread;
 
     const-string v2, "SpCommitThread"
@@ -98,10 +97,8 @@
 
     sput-object v1, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->sHandlerThread:Landroid/os/HandlerThread;
 
-    .line 2
     invoke-virtual {v1}, Landroid/os/HandlerThread;->start()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -110,10 +107,8 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
     const/4 v1, 0x1
@@ -122,7 +117,6 @@
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mIntSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
-    .line 3
     new-instance v0, Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
     const/4 v1, 0x2
@@ -131,7 +125,6 @@
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mFloatSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
-    .line 4
     new-instance v0, Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
     const/4 v1, 0x5
@@ -140,7 +133,6 @@
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mBooleanSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
-    .line 5
     new-instance v0, Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
     const/4 v1, 0x4
@@ -149,7 +141,6 @@
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mStringSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
-    .line 6
     new-instance v0, Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
     const/4 v1, 0x3
@@ -160,14 +151,12 @@
 
     const/4 v0, 0x0
 
-    .line 7
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mSharedPreferences:Landroid/content/SharedPreferences;
 
-    .line 8
     new-instance p1, Lcom/meitu/hwbusinesskit/core/config/SPConfig$1;
 
     sget-object p2, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->sHandlerThread:Landroid/os/HandlerThread;
@@ -190,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mIntSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -205,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mFloatSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -220,7 +207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mLongSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -235,7 +221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mBooleanSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -250,7 +235,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mStringSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -265,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mHandler:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -280,7 +263,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mSharedPreferences:Landroid/content/SharedPreferences;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -297,20 +279,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mSharedPreferences:Landroid/content/SharedPreferences;
 
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v1
 
-    .line 2
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->clear()Landroid/content/SharedPreferences$Editor;
 
-    .line 3
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -323,7 +301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -358,19 +335,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mBooleanSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
@@ -383,7 +357,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
@@ -394,7 +367,6 @@
 
     return p1
 
-    .line 5
     :cond_1
     :try_start_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mSharedPreferences:Landroid/content/SharedPreferences;
@@ -412,13 +384,10 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->remove(Ljava/lang/String;)Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -431,19 +400,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mFloatSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
@@ -456,7 +422,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Float;->floatValue()F
 
     move-result p1
@@ -467,7 +432,6 @@
 
     return p1
 
-    .line 5
     :cond_1
     :try_start_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mSharedPreferences:Landroid/content/SharedPreferences;
@@ -485,13 +449,10 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->remove(Ljava/lang/String;)Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -504,19 +465,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mIntSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
@@ -529,7 +487,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -540,7 +497,6 @@
 
     return p1
 
-    .line 5
     :cond_1
     :try_start_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mSharedPreferences:Landroid/content/SharedPreferences;
@@ -558,13 +514,10 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->remove(Ljava/lang/String;)Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -577,19 +530,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p2
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mLongSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
@@ -602,7 +552,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide p1
@@ -613,7 +562,6 @@
 
     return-wide p1
 
-    .line 5
     :cond_1
     :try_start_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mSharedPreferences:Landroid/content/SharedPreferences;
@@ -631,13 +579,10 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->remove(Ljava/lang/String;)Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p2
@@ -650,19 +595,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mStringSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
@@ -677,12 +619,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 5
     :cond_1
     :try_start_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mSharedPreferences:Landroid/content/SharedPreferences;
@@ -700,13 +640,10 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->remove(Ljava/lang/String;)Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
@@ -719,7 +656,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 17
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -728,12 +664,10 @@
 
     const/4 p1, 0x0
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 19
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mFloatSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
@@ -745,7 +679,6 @@
 
     const/4 p1, 0x1
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -758,7 +691,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 5
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -767,12 +699,10 @@
 
     const/4 p1, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mIntSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
@@ -784,7 +714,6 @@
 
     const/4 p1, 0x1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -797,7 +726,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -806,12 +734,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mLongSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
@@ -823,7 +749,6 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -836,7 +761,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 9
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -845,7 +769,6 @@
 
     const/4 p1, 0x0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -855,7 +778,6 @@
 
     const-string p2, ""
 
-    .line 11
     :cond_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mStringSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
@@ -863,7 +785,6 @@
 
     const/4 p1, 0x1
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -876,7 +797,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 13
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -885,12 +805,10 @@
 
     const/4 p1, 0x0
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 15
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mBooleanSPHelper:Lcom/meitu/hwbusinesskit/core/config/SPConfig$ConcurrentSPHelper;
 
@@ -902,7 +820,6 @@
 
     const/4 p1, 0x1
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -915,7 +832,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -924,12 +840,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->mSharedPreferences:Landroid/content/SharedPreferences;
 
@@ -937,10 +851,8 @@
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1, p1}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 5
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     move-result p1

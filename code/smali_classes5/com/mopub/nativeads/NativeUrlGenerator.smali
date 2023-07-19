@@ -19,7 +19,6 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/common/AdUrlGenerator;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -28,7 +27,6 @@
 .method private setDesiredAssets()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeUrlGenerator;->mDesiredAssets:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -37,7 +35,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/NativeUrlGenerator;->mDesiredAssets:Ljava/lang/String;
 
     const-string v1, "assets"
@@ -51,7 +48,6 @@
 .method private setSequenceNumber()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/NativeUrlGenerator;->mSequenceNumber:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -60,7 +56,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/NativeUrlGenerator;->mSequenceNumber:Ljava/lang/String;
 
     const-string v1, "MAGIC_NO"
@@ -78,26 +73,20 @@
 
     const-string v0, "/m/ad"
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/mopub/common/BaseUrlGenerator;->initUrlString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/common/AdUrlGenerator;->mContext:Landroid/content/Context;
 
     invoke-static {p1}, Lcom/mopub/common/ClientMetadata;->getInstance(Landroid/content/Context;)Lcom/mopub/common/ClientMetadata;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/mopub/common/AdUrlGenerator;->addBaseParams(Lcom/mopub/common/ClientMetadata;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/mopub/nativeads/NativeUrlGenerator;->setDesiredAssets()V
 
-    .line 5
     invoke-direct {p0}, Lcom/mopub/nativeads/NativeUrlGenerator;->setSequenceNumber()V
 
-    .line 6
     invoke-virtual {p0}, Lcom/mopub/common/BaseUrlGenerator;->getFinalUrlString()Ljava/lang/String;
 
     move-result-object p1
@@ -110,7 +99,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/mopub/nativeads/NativeUrlGenerator;->withAdUnitId(Ljava/lang/String;)Lcom/mopub/nativeads/NativeUrlGenerator;
 
     move-result-object p1
@@ -123,7 +111,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/common/AdUrlGenerator;->mAdUnitId:Ljava/lang/String;
 
     return-object p0
@@ -140,14 +127,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/MoPub;->canCollectPersonalInformation()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/mopub/nativeads/RequestParameters;->getUserDataKeywords()Ljava/lang/String;
 
     move-result-object v0
@@ -160,14 +145,12 @@
     :goto_0
     iput-object v0, p0, Lcom/mopub/common/AdUrlGenerator;->mUserDataKeywords:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/nativeads/RequestParameters;->getKeywords()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/common/AdUrlGenerator;->mKeywords:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/mopub/nativeads/RequestParameters;->getDesiredAssets()Ljava/lang/String;
 
     move-result-object p1
@@ -183,7 +166,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1

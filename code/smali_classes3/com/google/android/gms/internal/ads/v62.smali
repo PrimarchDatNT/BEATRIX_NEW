@@ -18,7 +18,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/p62;IZ)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/v62;->c:Lcom/google/android/gms/internal/ads/p62;
 
     iput p2, p0, Lcom/google/android/gms/internal/ads/v62;->a:I
@@ -35,7 +34,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/v62;->c:Lcom/google/android/gms/internal/ads/p62;
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/v62;->a:I
@@ -46,12 +44,10 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/v62;->c:Lcom/google/android/gms/internal/ads/p62;
 
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/p62;->c(Lcom/google/android/gms/internal/ads/p62;Lcom/google/android/gms/internal/ads/zzcf$zza;)Lcom/google/android/gms/internal/ads/zzcf$zza;
 
-    .line 3
     iget v1, p0, Lcom/google/android/gms/internal/ads/v62;->a:I
 
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/p62;->m(ILcom/google/android/gms/internal/ads/zzcf$zza;)Z
@@ -60,7 +56,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/v62;->c:Lcom/google/android/gms/internal/ads/p62;
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/v62;->a:I

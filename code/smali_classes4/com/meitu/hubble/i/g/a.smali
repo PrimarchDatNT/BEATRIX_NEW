@@ -131,48 +131,36 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/hubble/i/g/a;->b:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/hubble/i/g/a;->c:Z
 
-    .line 4
     iput-boolean v0, p0, Lcom/meitu/hubble/i/g/a;->d:Z
 
     const/4 v1, 0x0
 
-    .line 5
     iput v1, p0, Lcom/meitu/hubble/i/g/a;->A:I
 
-    .line 6
     iput v0, p0, Lcom/meitu/hubble/i/g/a;->B:I
 
     const/4 v0, -0x1
 
-    .line 7
     iput v0, p0, Lcom/meitu/hubble/i/g/a;->R:I
 
     const/4 v0, 0x0
 
-    .line 8
     iput-object v0, p0, Lcom/meitu/hubble/i/g/a;->W:Ljava/lang/String;
 
-    .line 9
     iput-boolean v1, p0, Lcom/meitu/hubble/i/g/a;->X:Z
 
-    .line 10
     iput-boolean v1, p0, Lcom/meitu/hubble/i/g/a;->Y:Z
 
-    .line 11
     iput-boolean v1, p0, Lcom/meitu/hubble/i/g/a;->a0:Z
 
-    .line 12
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v0
@@ -210,7 +198,6 @@
     :cond_0
     const-wide/16 p2, -0x1
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -224,7 +211,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hubble/i/g/a;->D:Ljava/util/List;
 
     const/4 v2, 0x0
@@ -239,7 +225,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/hubble/i/g/a;->D:Ljava/util/List;
 
@@ -247,13 +232,11 @@
 
     move-result v1
 
-    .line 3
     new-array v3, v1, [Ljava/lang/String;
 
     :goto_0
     if-ge v2, v1, :cond_2
 
-    .line 4
     iget-object v4, p0, Lcom/meitu/hubble/i/g/a;->D:Ljava/util/List;
 
     invoke-interface {v4, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -262,7 +245,6 @@
 
     check-cast v4, Ljava/net/InetAddress;
 
-    .line 5
     invoke-virtual {v4}, Ljava/net/InetAddress;->getHostAddress()Ljava/lang/String;
 
     move-result-object v4
@@ -277,7 +259,6 @@
     :goto_1
     new-array v3, v2, [Ljava/lang/String;
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -291,7 +272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hubble/i/g/a;->R:I
 
     const/16 v2, 0x1bd
@@ -309,18 +289,15 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     iget-object v1, p0, Lcom/meitu/hubble/i/g/a;->I:Ljava/io/IOException;
 
     if-eqz v1, :cond_2
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/hubble/k/b;->d(Ljava/lang/Exception;)I
 
     move-result v2
 
-    .line 4
     iget-boolean v1, p0, Lcom/meitu/hubble/i/g/a;->Y:Z
 
     if-eqz v1, :cond_3
@@ -336,7 +313,6 @@
     :cond_2
     const/4 v2, 0x0
 
-    .line 5
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -353,7 +329,6 @@
 
     if-eqz p0, :cond_3
 
-    .line 1
     invoke-virtual {p0}, Lokhttp3/Headers;->size()I
 
     move-result v1
@@ -365,7 +340,6 @@
     :cond_0
     const/16 v1, 0x50
 
-    .line 2
     invoke-virtual {p0}, Lokhttp3/Headers;->size()I
 
     move-result v2
@@ -376,7 +350,6 @@
 
     const/4 v4, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {p0}, Lokhttp3/Headers;->size()I
 
@@ -384,24 +357,20 @@
 
     if-ge v4, v5, :cond_2
 
-    .line 4
     invoke-virtual {p0, v4}, Lokhttp3/Headers;->name(I)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 5
     invoke-virtual {p0, v4}, Lokhttp3/Headers;->value(I)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 6
     invoke-virtual {v6}, Ljava/lang/String;->length()I
 
     move-result v7
 
     if-le v7, v1, :cond_1
 
-    .line 7
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -420,7 +389,6 @@
 
     move-result-object v6
 
-    .line 8
     :cond_1
     new-instance v7, Ljava/lang/StringBuilder;
 
@@ -444,7 +412,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -454,7 +421,6 @@
     :goto_1
     const/4 p0, 0x0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -469,7 +435,6 @@
 
     move-object v1, p0
 
-    .line 1
     iget v2, v1, Lcom/meitu/hubble/i/g/a;->B:I
 
     const/4 v3, 0x1
@@ -482,7 +447,6 @@
 
     move-wide v6, p3
 
-    .line 2
     invoke-static {v4, v5, p3, p4}, Ljava/lang/Math;->max(JJ)J
 
     move-result-wide v6
@@ -491,7 +455,6 @@
 
     move-wide v6, p5
 
-    .line 3
     invoke-static {v4, v5, p5, p6}, Ljava/lang/Math;->max(JJ)J
 
     move-result-wide v6
@@ -500,7 +463,6 @@
 
     move-wide v6, p7
 
-    .line 4
     invoke-static {v4, v5, v6, v7}, Ljava/lang/Math;->max(JJ)J
 
     move-result-wide v6
@@ -509,7 +471,6 @@
 
     move-wide/from16 v6, p9
 
-    .line 5
     invoke-static {v4, v5, v6, v7}, Ljava/lang/Math;->max(JJ)J
 
     move-result-wide v6
@@ -518,7 +479,6 @@
 
     move-wide/from16 v6, p11
 
-    .line 6
     invoke-static {v4, v5, v6, v7}, Ljava/lang/Math;->max(JJ)J
 
     move-result-wide v6
@@ -527,7 +487,6 @@
 
     move-wide/from16 v6, p13
 
-    .line 7
     invoke-static {v4, v5, v6, v7}, Ljava/lang/Math;->max(JJ)J
 
     move-result-wide v4
@@ -539,7 +498,6 @@
     :cond_0
     const-wide/16 v2, -0x1
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -555,7 +513,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/hubble/i/g/a;->C:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -570,7 +527,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hubble/i/g/a;->J:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/hubble/k/b;->a(Ljava/lang/String;)Ljava/lang/String;
@@ -589,7 +545,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/hubble/i/g/a;->z:J
 
     const-wide/16 v3, 0x0
@@ -598,12 +553,10 @@
 
     if-gtz v5, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-wide v5, p0, Lcom/meitu/hubble/i/g/a;->g:J
 
@@ -617,12 +570,10 @@
 
     if-nez v7, :cond_1
 
-    .line 4
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/a;->h:J
 
     goto/16 :goto_0
 
-    .line 5
     :cond_1
     iget-wide v5, p0, Lcom/meitu/hubble/i/g/a;->j:J
 
@@ -636,10 +587,8 @@
 
     if-nez v7, :cond_2
 
-    .line 6
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/a;->m:J
 
-    .line 7
     iget-wide v5, p0, Lcom/meitu/hubble/i/g/a;->k:J
 
     cmp-long v7, v5, v3
@@ -652,12 +601,10 @@
 
     if-nez v7, :cond_7
 
-    .line 8
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/a;->l:J
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-wide v5, p0, Lcom/meitu/hubble/i/g/a;->k:J
 
@@ -671,12 +618,10 @@
 
     if-nez v7, :cond_3
 
-    .line 10
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/a;->l:J
 
     goto :goto_0
 
-    .line 11
     :cond_3
     iget-wide v5, p0, Lcom/meitu/hubble/i/g/a;->p:J
 
@@ -690,12 +635,10 @@
 
     if-nez v7, :cond_4
 
-    .line 12
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/a;->q:J
 
     goto :goto_0
 
-    .line 13
     :cond_4
     iget-wide v5, p0, Lcom/meitu/hubble/i/g/a;->r:J
 
@@ -709,12 +652,10 @@
 
     if-nez v7, :cond_5
 
-    .line 14
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/a;->s:J
 
     goto :goto_0
 
-    .line 15
     :cond_5
     iget-wide v5, p0, Lcom/meitu/hubble/i/g/a;->t:J
 
@@ -728,12 +669,10 @@
 
     if-nez v7, :cond_6
 
-    .line 16
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/a;->u:J
 
     goto :goto_0
 
-    .line 17
     :cond_6
     iget-wide v5, p0, Lcom/meitu/hubble/i/g/a;->v:J
 
@@ -747,10 +686,8 @@
 
     if-nez v7, :cond_7
 
-    .line 18
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/a;->w:J
 
-    .line 19
     :cond_7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -765,7 +702,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/hubble/i/g/a;->c:Z
 
     const-wide/16 v2, 0x0
@@ -774,7 +710,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-wide v4, p0, Lcom/meitu/hubble/i/g/a;->j:J
 
@@ -782,7 +717,6 @@
 
     if-lez v1, :cond_2
 
-    .line 3
     iget-wide v6, p0, Lcom/meitu/hubble/i/g/a;->k:J
 
     cmp-long v1, v6, v2
@@ -794,7 +728,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     iget-wide v6, p0, Lcom/meitu/hubble/i/g/a;->m:J
 
@@ -807,7 +740,6 @@
     :cond_2
     const-wide/16 v2, -0x1
 
-    .line 5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -821,14 +753,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Lcom/meitu/hubble/k/b;->e(Lokhttp3/Call;)Lokhttp3/OkHttpClient;
 
     move-result-object p2
 
     if-eqz p2, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -838,7 +768,6 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 3
     :try_start_0
     invoke-static {p1}, Lcom/meitu/hubble/k/b;->m(Landroid/content/Context;)Lcom/meitu/hubble/i/d;
 
@@ -853,7 +782,6 @@
     :catchall_0
     move-exception p1
 
-    .line 4
     invoke-static {}, Lcom/meitu/hubble/k/a;->a()Lcom/meitu/library/m/a/b;
 
     move-result-object p2
@@ -862,7 +790,6 @@
 
     invoke-virtual {p2, v1, p1}, Lcom/meitu/library/m/a/b;->i(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -877,7 +804,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hubble/i/g/a;->R:I
 
     const/16 v2, 0x12c
@@ -894,7 +820,6 @@
 
     const-string v2, "location"
 
-    .line 2
     invoke-virtual {v1, v2}, Lokhttp3/Headers;->get(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -912,7 +837,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -926,7 +850,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/hubble/i/g/a;->b:Z
 
     if-eqz v1, :cond_1
@@ -935,7 +858,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hubble/i/g/a;->J:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/webkit/URLUtil;->isHttpsUrl(Ljava/lang/String;)Z
@@ -944,7 +866,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-boolean v1, p0, Lcom/meitu/hubble/i/g/a;->d:Z
 
     goto :goto_0
@@ -957,7 +878,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -973,45 +893,38 @@
 
     invoke-static/range {v17 .. v17}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v13, Lcom/meitu/hubble/i/g/b;
 
     invoke-direct {v13}, Lcom/meitu/hubble/i/g/b;-><init>()V
 
-    .line 2
     invoke-direct/range {p0 .. p0}, Lcom/meitu/hubble/i/g/a;->f()I
 
     move-result v1
 
     iput v1, v13, Lcom/meitu/hubble/i/g/b;->a:I
 
-    .line 3
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->J:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/hubble/k/b;->n(Ljava/lang/String;)Landroid/util/Pair;
 
     move-result-object v1
 
-    .line 4
     iget-object v2, v1, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v2, Ljava/lang/String;
 
     iput-object v2, v13, Lcom/meitu/hubble/i/g/b;->b:Ljava/lang/String;
 
-    .line 5
     iget-object v1, v1, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     check-cast v1, [Ljava/lang/String;
 
     iput-object v1, v13, Lcom/meitu/hubble/i/g/b;->F:[Ljava/lang/String;
 
-    .line 6
     iget-wide v1, v0, Lcom/meitu/hubble/i/g/a;->a:J
 
     iput-wide v1, v13, Lcom/meitu/hubble/i/g/b;->j:J
 
-    .line 7
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->N:Lokhttp3/Headers;
 
     invoke-static {v1}, Lcom/meitu/hubble/i/g/a;->g(Lokhttp3/Headers;)[Ljava/lang/String;
@@ -1020,7 +933,6 @@
 
     iput-object v1, v13, Lcom/meitu/hubble/i/g/b;->G:[Ljava/lang/String;
 
-    .line 8
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->O:Lokhttp3/Headers;
 
     invoke-static {v1}, Lcom/meitu/hubble/i/g/a;->g(Lokhttp3/Headers;)[Ljava/lang/String;
@@ -1029,7 +941,6 @@
 
     iput-object v1, v13, Lcom/meitu/hubble/i/g/b;->H:[Ljava/lang/String;
 
-    .line 9
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->E:Ljava/net/InetSocketAddress;
 
     const-string v18, ""
@@ -1052,7 +963,6 @@
     :goto_0
     iput-object v1, v13, Lcom/meitu/hubble/i/g/b;->c:Ljava/lang/String;
 
-    .line 10
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->M:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1071,7 +981,6 @@
     :goto_1
     iput-object v1, v13, Lcom/meitu/hubble/i/g/b;->d:Ljava/lang/String;
 
-    .line 11
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->H:Lokhttp3/Protocol;
 
     if-nez v1, :cond_2
@@ -1088,7 +997,6 @@
     :goto_2
     iput-object v1, v13, Lcom/meitu/hubble/i/g/b;->e:Ljava/lang/String;
 
-    .line 12
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->G:Ljava/net/Proxy;
 
     if-eqz v1, :cond_4
@@ -1115,7 +1023,6 @@
     :goto_4
     iput-boolean v1, v13, Lcom/meitu/hubble/i/g/b;->f:Z
 
-    .line 13
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->F:Lokhttp3/Handshake;
 
     if-nez v1, :cond_5
@@ -1136,7 +1043,6 @@
     :goto_5
     iput-object v1, v13, Lcom/meitu/hubble/i/g/b;->g:Ljava/lang/String;
 
-    .line 14
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->F:Lokhttp3/Handshake;
 
     if-nez v1, :cond_6
@@ -1157,14 +1063,12 @@
     :goto_6
     iput-object v1, v13, Lcom/meitu/hubble/i/g/b;->h:Ljava/lang/String;
 
-    .line 15
     invoke-static {}, Lokhttp3/internal/Version;->userAgent()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, v13, Lcom/meitu/hubble/i/g/b;->i:Ljava/lang/String;
 
-    .line 16
     iget-wide v1, v0, Lcom/meitu/hubble/i/g/a;->f:J
 
     iget-wide v3, v0, Lcom/meitu/hubble/i/g/a;->C:J
@@ -1175,7 +1079,6 @@
 
     iput-wide v1, v13, Lcom/meitu/hubble/i/g/b;->k:J
 
-    .line 17
     iget-boolean v1, v0, Lcom/meitu/hubble/i/g/a;->b:Z
 
     const-wide/16 v2, 0x0
@@ -1198,19 +1101,16 @@
     :goto_7
     iput-wide v4, v13, Lcom/meitu/hubble/i/g/b;->m:J
 
-    .line 18
     iget v1, v0, Lcom/meitu/hubble/i/g/a;->i:I
 
     iput v1, v13, Lcom/meitu/hubble/i/g/b;->n:I
 
-    .line 19
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/hubble/i/g/a;->h()J
 
     move-result-wide v4
 
     iput-wide v4, v13, Lcom/meitu/hubble/i/g/b;->o:J
 
-    .line 20
     iget-boolean v1, v0, Lcom/meitu/hubble/i/g/a;->d:Z
 
     if-eqz v1, :cond_8
@@ -1237,7 +1137,6 @@
     :goto_8
     iput-wide v2, v13, Lcom/meitu/hubble/i/g/b;->p:J
 
-    .line 21
     iget-wide v1, v0, Lcom/meitu/hubble/i/g/a;->o:J
 
     iget-wide v3, v0, Lcom/meitu/hubble/i/g/a;->q:J
@@ -1254,7 +1153,6 @@
 
     iput-wide v1, v13, Lcom/meitu/hubble/i/g/b;->q:J
 
-    .line 22
     iget-wide v1, v0, Lcom/meitu/hubble/i/g/a;->q:J
 
     iget-wide v3, v0, Lcom/meitu/hubble/i/g/a;->s:J
@@ -1271,7 +1169,6 @@
 
     iput-wide v1, v13, Lcom/meitu/hubble/i/g/b;->r:J
 
-    .line 23
     iget-wide v1, v0, Lcom/meitu/hubble/i/g/a;->u:J
 
     iget-wide v3, v0, Lcom/meitu/hubble/i/g/a;->y:J
@@ -1288,7 +1185,6 @@
 
     iput-wide v1, v13, Lcom/meitu/hubble/i/g/b;->s:J
 
-    .line 24
     iget-wide v1, v0, Lcom/meitu/hubble/i/g/a;->f:J
 
     iget-wide v3, v0, Lcom/meitu/hubble/i/g/a;->y:J
@@ -1307,7 +1203,6 @@
 
     iput-wide v1, v13, Lcom/meitu/hubble/i/g/b;->t:J
 
-    .line 25
     iget-wide v1, v13, Lcom/meitu/hubble/i/g/b;->k:J
 
     iget-wide v3, v13, Lcom/meitu/hubble/i/g/b;->m:J
@@ -1346,12 +1241,10 @@
 
     move-object/from16 v0, p0
 
-    .line 26
     iget v1, v0, Lcom/meitu/hubble/i/g/a;->R:I
 
     iput v1, v2, Lcom/meitu/hubble/i/g/b;->u:I
 
-    .line 27
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->S:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1370,7 +1263,6 @@
     :goto_9
     iput-object v1, v2, Lcom/meitu/hubble/i/g/b;->v:Ljava/lang/String;
 
-    .line 28
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->T:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1389,7 +1281,6 @@
     :goto_a
     iput-object v1, v2, Lcom/meitu/hubble/i/g/b;->w:Ljava/lang/String;
 
-    .line 29
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->U:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1408,44 +1299,36 @@
     :goto_b
     iput-object v1, v2, Lcom/meitu/hubble/i/g/b;->x:Ljava/lang/String;
 
-    .line 30
     iget-wide v3, v0, Lcom/meitu/hubble/i/g/a;->P:J
 
     iput-wide v3, v2, Lcom/meitu/hubble/i/g/b;->y:J
 
-    .line 31
     iget-wide v3, v0, Lcom/meitu/hubble/i/g/a;->Q:J
 
     iput-wide v3, v2, Lcom/meitu/hubble/i/g/b;->z:J
 
-    .line 32
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->W:Ljava/lang/String;
 
     iput-object v1, v2, Lcom/meitu/hubble/i/g/b;->A:Ljava/lang/String;
 
-    .line 33
     iget v1, v0, Lcom/meitu/hubble/i/g/a;->B:I
 
     iput v1, v2, Lcom/meitu/hubble/i/g/b;->B:I
 
-    .line 34
     iget v1, v0, Lcom/meitu/hubble/i/g/a;->A:I
 
     iput v1, v2, Lcom/meitu/hubble/i/g/b;->C:I
 
-    .line 35
     iget-boolean v1, v0, Lcom/meitu/hubble/i/g/a;->X:Z
 
     iput-boolean v1, v2, Lcom/meitu/hubble/i/g/b;->D:Z
 
-    .line 36
     invoke-direct/range {p0 .. p0}, Lcom/meitu/hubble/i/g/a;->e()[Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, v2, Lcom/meitu/hubble/i/g/b;->E:[Ljava/lang/String;
 
-    .line 37
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->I:Ljava/io/IOException;
 
     if-nez v1, :cond_c
@@ -1466,7 +1349,6 @@
     :goto_c
     iput-object v1, v2, Lcom/meitu/hubble/i/g/b;->I:Ljava/lang/String;
 
-    .line 38
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->I:Ljava/io/IOException;
 
     if-nez v1, :cond_d
@@ -1485,12 +1367,10 @@
 
     if-nez p1, :cond_e
 
-    .line 39
     iget-boolean v1, v0, Lcom/meitu/hubble/i/g/a;->a0:Z
 
     if-eqz v1, :cond_f
 
-    .line 40
     :cond_e
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->I:Ljava/io/IOException;
 
@@ -1500,13 +1380,11 @@
 
     iput-object v1, v2, Lcom/meitu/hubble/i/g/b;->K:Ljava/lang/String;
 
-    .line 41
     :cond_f
     iget-object v1, v0, Lcom/meitu/hubble/i/g/a;->V:Lcom/meitu/hubble/i/d;
 
     iput-object v1, v2, Lcom/meitu/hubble/i/g/b;->L:Lcom/meitu/hubble/i/d;
 
-    .line 42
     invoke-static/range {v17 .. v17}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -1519,7 +1397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/hubble/i/g/a;->C:J
 
     const-wide/16 v3, 0x0
@@ -1528,14 +1405,12 @@
 
     if-nez v5, :cond_0
 
-    .line 2
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/hubble/i/g/a;->C:J
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1549,7 +1424,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hubble/i/g/a;->J:Ljava/lang/String;
 
     if-eqz v1, :cond_2
@@ -1562,13 +1436,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/hubble/i/g/a;->J:Ljava/lang/String;
 
     const-string v2, "?"
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v2
@@ -1577,12 +1449,10 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/meitu/hubble/i/g/a;->J:Ljava/lang/String;
 
@@ -1592,12 +1462,10 @@
 
     move-result-object v1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 7
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -38,25 +38,18 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/airbnb/lottie/model/content/i;->c:Ljava/lang/String;
 
-    .line 3
     iput-boolean p2, p0, Lcom/airbnb/lottie/model/content/i;->a:Z
 
-    .line 4
     iput-object p3, p0, Lcom/airbnb/lottie/model/content/i;->b:Landroid/graphics/Path$FillType;
 
-    .line 5
     iput-object p4, p0, Lcom/airbnb/lottie/model/content/i;->d:Lcom/airbnb/lottie/model/i/a;
 
-    .line 6
     iput-object p5, p0, Lcom/airbnb/lottie/model/content/i;->e:Lcom/airbnb/lottie/model/i/d;
 
-    .line 7
     iput-boolean p6, p0, Lcom/airbnb/lottie/model/content/i;->f:Z
 
     return-void
@@ -67,7 +60,6 @@
 .method public a(Lcom/airbnb/lottie/j;Lcom/airbnb/lottie/model/layer/a;)Lcom/airbnb/lottie/w/b/c;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/w/b/g;
 
     invoke-direct {v0, p1, p2, p0}, Lcom/airbnb/lottie/w/b/g;-><init>(Lcom/airbnb/lottie/j;Lcom/airbnb/lottie/model/layer/a;Lcom/airbnb/lottie/model/content/i;)V
@@ -80,7 +72,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/i;->d:Lcom/airbnb/lottie/model/i/a;
 
     return-object v0
@@ -89,7 +80,6 @@
 .method public c()Landroid/graphics/Path$FillType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/i;->b:Landroid/graphics/Path$FillType;
 
     return-object v0
@@ -98,7 +88,6 @@
 .method public d()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/i;->c:Ljava/lang/String;
 
     return-object v0
@@ -109,7 +98,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/i;->e:Lcom/airbnb/lottie/model/i/d;
 
     return-object v0
@@ -118,7 +106,6 @@
 .method public f()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/airbnb/lottie/model/content/i;->f:Z
 
     return v0
@@ -127,7 +114,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

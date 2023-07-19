@@ -14,7 +14,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/w4;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_remote_config/w4;-><init>()V
@@ -29,14 +28,12 @@
 
     const-string v0, "java.version"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "9"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -47,13 +44,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/google/android/gms/internal/firebase_remote_config/w4;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     :goto_0
     sget-object v1, Lcom/google/android/gms/internal/firebase_remote_config/zzdz;->zzig:Lcom/google/android/gms/internal/firebase_remote_config/zzdz;
 
@@ -77,17 +72,14 @@
 .method private constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "java/"
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 7
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_remote_config/w4;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -96,10 +88,8 @@
 
     const-string p1, " http-google-%s/"
 
-    .line 8
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-static {p4}, Lcom/google/android/gms/internal/firebase_remote_config/w4;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -112,10 +102,8 @@
 
     const-string p1, " "
 
-    .line 10
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     invoke-static {p2}, Lcom/google/android/gms/internal/firebase_remote_config/w4;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -124,17 +112,14 @@
 
     const-string p1, "/"
 
-    .line 12
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 13
     invoke-static {p3}, Lcom/google/android/gms/internal/firebase_remote_config/w4;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     :cond_0
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -148,7 +133,6 @@
 .method private static b(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object p0
@@ -176,7 +160,6 @@
     :cond_0
     const-string v0, "(\\d+\\.\\d+\\.\\d+).*"
 
-    .line 1
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -185,7 +168,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v1
@@ -194,7 +176,6 @@
 
     const/4 p0, 0x1
 
-    .line 3
     invoke-virtual {v0, p0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object p0
@@ -206,7 +187,6 @@
 .method private static d()Lcom/google/android/gms/internal/firebase_remote_config/w4;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/w4;->b:Lcom/google/android/gms/internal/firebase_remote_config/w4;
 
     return-object v0
@@ -215,7 +195,6 @@
 .method static synthetic e()Lcom/google/android/gms/internal/firebase_remote_config/w4;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_remote_config/w4;->d()Lcom/google/android/gms/internal/firebase_remote_config/w4;
 
     move-result-object v0
@@ -228,7 +207,6 @@
 .method final a(Ljava/lang/String;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/w4;->a:Ljava/lang/String;
 
     const/4 v1, 0x1

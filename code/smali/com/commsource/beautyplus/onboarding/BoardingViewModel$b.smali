@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/BoardingViewModel$b;->a:Lcom/commsource/beautyplus/onboarding/BoardingViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,10 +55,8 @@
 
     const/4 v4, 0x2
 
-    .line 1
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/BoardingViewModel$b;->a:Lcom/commsource/beautyplus/onboarding/BoardingViewModel;
 
     invoke-static {}, Lcom/commsource/util/c0;->k()Z
@@ -68,7 +65,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->y(Lcom/commsource/beautyplus/onboarding/BoardingViewModel;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -93,7 +89,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -148,7 +143,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 2
     invoke-virtual {p3}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 
     move-result-object p1
@@ -159,14 +153,12 @@
 
     if-nez p1, :cond_2
 
-    .line 3
     invoke-virtual {p3}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 
     move-result-object p1
 
     goto :goto_2
 
-    .line 4
     :cond_2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -184,7 +176,6 @@
 
     move-result-object p1
 
-    .line 5
     :goto_2
     iget-object p3, p0, Lcom/commsource/beautyplus/onboarding/BoardingViewModel$b;->a:Lcom/commsource/beautyplus/onboarding/BoardingViewModel;
 
@@ -194,7 +185,6 @@
 
     invoke-static {p3, p1}, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->y(Lcom/commsource/beautyplus/onboarding/BoardingViewModel;Z)V
 
-    .line 6
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -207,7 +197,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -228,10 +217,8 @@
 
     const/4 v4, 0x2
 
-    .line 1
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/BoardingViewModel$b;->a:Lcom/commsource/beautyplus/onboarding/BoardingViewModel;
 
     invoke-static {}, Lcom/commsource/util/c0;->k()Z
@@ -240,7 +227,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->y(Lcom/commsource/beautyplus/onboarding/BoardingViewModel;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

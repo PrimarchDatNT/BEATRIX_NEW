@@ -34,18 +34,14 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/i2/p$b;->c:Lcotlin/i2/p$b;
 
-    .line 2
     invoke-interface {v0}, Lcotlin/i2/p;->a()Lcotlin/i2/o;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {p0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {v0}, Lcotlin/i2/o;->a()D
 
     move-result-wide v0
@@ -88,15 +84,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/i2/p;->a()Lcotlin/i2/o;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lcotlin/i2/o;->a()D
 
     move-result-wide p0
@@ -136,20 +129,16 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/i2/p$b;->c:Lcotlin/i2/p$b;
 
-    .line 2
     invoke-interface {v0}, Lcotlin/i2/p;->a()Lcotlin/i2/o;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {p0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 4
     new-instance v1, Lcotlin/i2/s;
 
     invoke-virtual {v0}, Lcotlin/i2/o;->a()D
@@ -204,17 +193,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/i2/p;->a()Lcotlin/i2/o;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 3
     new-instance v0, Lcotlin/i2/s;
 
     invoke-virtual {p0}, Lcotlin/i2/o;->a()D

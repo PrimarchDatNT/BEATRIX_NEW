@@ -31,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -70,7 +69,6 @@
 
     move/from16 v4, p3
 
-    .line 1
     invoke-static/range {v1 .. v13}, Lcom/meitu/core/processor/EyeBrightProcessor;->autoBrightEyeOstu(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;FFFFFFFFFF)Z
 
     move-result v1
@@ -87,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 25
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     if-eqz p0, :cond_0
@@ -96,7 +93,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 26
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
     move-result-wide v2
@@ -133,7 +129,6 @@
 
     goto :goto_0
 
-    .line 27
     :cond_0
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
@@ -143,7 +138,6 @@
 
     const/4 v1, 0x0
 
-    .line 28
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -163,7 +157,6 @@
 
     const/4 v0, 0x0
 
-    .line 14
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -171,63 +164,54 @@
     :cond_0
     const-string v2, "darkenPupilSize"
 
-    .line 15
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v7
 
     const-string v2, "darkenPupilValue"
 
-    .line 16
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v8
 
     const-string v2, "whiteEyes"
 
-    .line 17
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v9
 
     const-string v2, "whiteClean"
 
-    .line 18
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v10
 
     const-string v2, "whiteArea"
 
-    .line 19
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v11
 
     const-string v2, "irisBright"
 
-    .line 20
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v12
 
     const-string v2, "detailAlpha"
 
-    .line 21
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v13
 
     const-string v2, "detailEmphasis"
 
-    .line 22
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v14
 
     const-string v2, "detailSmooth"
 
-    .line 23
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v15
@@ -240,7 +224,6 @@
 
     move/from16 v6, p4
 
-    .line 24
     invoke-static/range {v3 .. v15}, Lcom/meitu/core/processor/EyeBrightProcessor;->autoBrightEyeOstu(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;FFFFFFFFFF)Z
 
     move-result v0
@@ -283,7 +266,6 @@
 
     move/from16 v4, p3
 
-    .line 2
     invoke-static/range {v1 .. v13}, Lcom/meitu/core/processor/EyeBrightProcessor;->autoBrightEyeOstu(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;FFFFFFFFFF)Z
 
     move-result v1
@@ -300,7 +282,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 29
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     if-eqz p0, :cond_0
@@ -309,7 +290,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 30
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -348,7 +328,6 @@
 
     goto :goto_0
 
-    .line 31
     :cond_0
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
@@ -358,7 +337,6 @@
 
     const/4 v1, 0x0
 
-    .line 32
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -378,7 +356,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -386,63 +363,54 @@
     :cond_0
     const-string v2, "darkenPupilSize"
 
-    .line 4
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v7
 
     const-string v2, "darkenPupilValue"
 
-    .line 5
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v8
 
     const-string v2, "whiteEyes"
 
-    .line 6
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v9
 
     const-string v2, "whiteClean"
 
-    .line 7
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v10
 
     const-string v2, "whiteArea"
 
-    .line 8
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v11
 
     const-string v2, "irisBright"
 
-    .line 9
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v12
 
     const-string v2, "detailAlpha"
 
-    .line 10
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v13
 
     const-string v2, "detailEmphasis"
 
-    .line 11
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v14
 
     const-string v2, "detailSmooth"
 
-    .line 12
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v15
@@ -455,7 +423,6 @@
 
     move/from16 v6, p4
 
-    .line 13
     invoke-static/range {v3 .. v15}, Lcom/meitu/core/processor/EyeBrightProcessor;->autoBrightEyeOstu(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;FFFFFFFFFF)Z
 
     move-result v0
@@ -472,24 +439,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 15
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     if-eqz p0, :cond_0
 
-    .line 16
     invoke-static {p0, p1, p2}, Lcom/meitu/core/processor/EyeBrightProcessor;->nativeBrightEye_bitmap(Landroid/graphics/Bitmap;II)Z
 
     move-result p1
 
-    .line 17
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 18
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -536,7 +499,6 @@
 
     goto :goto_0
 
-    .line 19
     :cond_0
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
@@ -546,7 +508,6 @@
 
     const/4 p1, 0x0
 
-    .line 20
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -564,19 +525,16 @@
 
     const-string v1, "radius"
 
-    .line 5
     invoke-virtual {p1, v1}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v1
 
     const-string v2, "intensity"
 
-    .line 6
     invoke-virtual {p1, v2}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result p1
 
-    .line 7
     invoke-static {p0, v1, p1}, Lcom/meitu/core/processor/EyeBrightProcessor;->brightProc(Landroid/graphics/Bitmap;II)Z
 
     move-result p0
@@ -588,7 +546,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -601,14 +558,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 9
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     if-eqz p0, :cond_0
 
-    .line 10
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -617,12 +572,10 @@
 
     move-result p1
 
-    .line 11
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 12
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -669,7 +622,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_0
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
@@ -679,7 +631,6 @@
 
     const/4 p1, 0x0
 
-    .line 14
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -697,19 +648,16 @@
 
     const-string v1, "radius"
 
-    .line 1
     invoke-virtual {p1, v1}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v1
 
     const-string v2, "intensity"
 
-    .line 2
     invoke-virtual {p1, v2}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0, v1, p1}, Lcom/meitu/core/processor/EyeBrightProcessor;->brightProc(Lcom/meitu/core/types/NativeBitmap;II)Z
 
     move-result p0
@@ -721,7 +669,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0

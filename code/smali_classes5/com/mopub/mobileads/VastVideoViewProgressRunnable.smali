@@ -44,22 +44,18 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p3}, Lcom/mopub/mobileads/RepeatingHandlerRunnable;-><init>(Landroid/os/Handler;)V
 
     iput-object p1, p0, Lcom/mopub/mobileads/VastVideoViewProgressRunnable;->videoViewController:Lcom/mopub/mobileads/VastVideoViewController;
 
     iput-object p2, p0, Lcom/mopub/mobileads/VastVideoViewProgressRunnable;->vastVideoConfig:Lcom/mopub/mobileads/VastVideoConfig;
 
-    .line 2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     new-instance p3, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;
 
-    .line 4
     sget-object v0, Lcom/mopub/common/VideoEvent;->AD_VIDEO_FIRST_QUARTILE:Lcom/mopub/common/VideoEvent;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->name()Ljava/lang/String;
@@ -68,10 +64,8 @@
 
     const/high16 v1, 0x3e800000    # 0.25f
 
-    .line 5
     invoke-direct {p3, v0, v1}, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;-><init>(Ljava/lang/String;F)V
 
-    .line 6
     sget-object v0, Lcom/mopub/mobileads/VastTracker$MessageType;->QUARTILE_EVENT:Lcom/mopub/mobileads/VastTracker$MessageType;
 
     invoke-virtual {p3, v0}, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;->messageType(Lcom/mopub/mobileads/VastTracker$MessageType;)Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;
@@ -82,13 +76,10 @@
 
     move-result-object p3
 
-    .line 7
     invoke-interface {p1, p3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     new-instance p3, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;
 
-    .line 9
     sget-object v1, Lcom/mopub/common/VideoEvent;->AD_VIDEO_MIDPOINT:Lcom/mopub/common/VideoEvent;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
@@ -97,10 +88,8 @@
 
     const/high16 v2, 0x3f000000    # 0.5f
 
-    .line 10
     invoke-direct {p3, v1, v2}, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;-><init>(Ljava/lang/String;F)V
 
-    .line 11
     invoke-virtual {p3, v0}, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;->messageType(Lcom/mopub/mobileads/VastTracker$MessageType;)Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;
 
     move-result-object p3
@@ -109,13 +98,10 @@
 
     move-result-object p3
 
-    .line 12
     invoke-interface {p1, p3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 13
     new-instance p3, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;
 
-    .line 14
     sget-object v1, Lcom/mopub/common/VideoEvent;->AD_VIDEO_THIRD_QUARTILE:Lcom/mopub/common/VideoEvent;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
@@ -124,10 +110,8 @@
 
     const/high16 v2, 0x3f400000    # 0.75f
 
-    .line 15
     invoke-direct {p3, v1, v2}, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;-><init>(Ljava/lang/String;F)V
 
-    .line 16
     invoke-virtual {p3, v0}, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;->messageType(Lcom/mopub/mobileads/VastTracker$MessageType;)Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;
 
     move-result-object p3
@@ -136,10 +120,8 @@
 
     move-result-object p3
 
-    .line 17
     invoke-interface {p1, p3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 18
     invoke-virtual {p2, p1}, Lcom/mopub/mobileads/VastVideoConfig;->addFractionalTrackers(Ljava/util/List;)V
 
     return-void
@@ -150,21 +132,18 @@
 .method public doWork()V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewProgressRunnable;->videoViewController:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/VastVideoViewController;->getDuration()I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mobileads/VastVideoViewProgressRunnable;->videoViewController:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastVideoViewController;->getCurrentPosition()I
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/mopub/mobileads/VastVideoViewProgressRunnable;->videoViewController:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastVideoViewController;->updateProgressBar()V
@@ -173,7 +152,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/mopub/mobileads/VastVideoViewProgressRunnable;->vastVideoConfig:Lcom/mopub/mobileads/VastVideoConfig;
 
@@ -181,12 +159,10 @@
 
     move-result-object v0
 
-    .line 5
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -207,13 +183,10 @@
 
     move-result-object v3
 
-    .line 7
     check-cast v3, Lcom/mopub/mobileads/VastTracker;
 
-    .line 8
     invoke-virtual {v3}, Lcom/mopub/mobileads/VastTracker;->setTracked()V
 
-    .line 9
     invoke-virtual {v3}, Lcom/mopub/mobileads/VastTracker;->getMessageType()Lcom/mopub/mobileads/VastTracker$MessageType;
 
     move-result-object v6
@@ -232,7 +205,6 @@
 
     if-ne v6, v5, :cond_2
 
-    .line 10
     iget-object v5, p0, Lcom/mopub/mobileads/VastVideoViewProgressRunnable;->videoViewController:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v3}, Lcom/mopub/mobileads/VastTracker;->getContent()Ljava/lang/String;
@@ -243,7 +215,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     new-instance v0, Lcotlin/NoWhenBranchMatchedException;
 
@@ -251,7 +222,6 @@
 
     throw v0
 
-    .line 12
     :cond_3
     invoke-virtual {v3}, Lcom/mopub/mobileads/VastTracker;->getContent()Ljava/lang/String;
 
@@ -260,12 +230,10 @@
     :goto_1
     if-eqz v4, :cond_1
 
-    .line 13
     invoke-interface {v2, v4}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 14
     :cond_4
     invoke-interface {v2}, Ljava/util/Collection;->isEmpty()Z
 
@@ -283,12 +251,10 @@
     :goto_2
     if-eqz v2, :cond_6
 
-    .line 15
     new-instance v0, Lcom/mopub/mobileads/VastMacroHelper;
 
     invoke-direct {v0, v2}, Lcom/mopub/mobileads/VastMacroHelper;-><init>(Ljava/util/List;)V
 
-    .line 16
     iget-object v2, p0, Lcom/mopub/mobileads/VastVideoViewProgressRunnable;->videoViewController:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastVideoViewController;->getNetworkMediaFileUrl()Ljava/lang/String;
@@ -299,7 +265,6 @@
 
     move-result-object v0
 
-    .line 17
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -316,17 +281,14 @@
 
     move-result-object v0
 
-    .line 18
     iget-object v2, p0, Lcom/mopub/mobileads/VastVideoViewProgressRunnable;->videoViewController:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v2}, Lcom/mopub/mobileads/BaseVideoViewController;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    .line 19
     invoke-static {v0, v2}, Lcom/mopub/network/TrackingRequest;->makeTrackingHttpRequest(Ljava/lang/Iterable;Landroid/content/Context;)V
 
-    .line 20
     :cond_6
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewProgressRunnable;->videoViewController:Lcom/mopub/mobileads/VastVideoViewController;
 

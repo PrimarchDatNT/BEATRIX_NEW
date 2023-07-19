@@ -52,7 +52,6 @@
 
     const-string v14, "TOO_MANY_REQUESTS"
 
-    .line 1
     filled-new-array/range {v0 .. v14}, [Ljava/lang/String;
 
     move-result-object v0
@@ -71,7 +70,6 @@
 
     const-string v6, "INVALID"
 
-    .line 2
     filled-new-array/range {v1 .. v6}, [Ljava/lang/String;
 
     move-result-object v0
@@ -84,7 +82,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/webkit/WebViewClient;-><init>()V
 
     return-void
@@ -101,7 +98,6 @@
 .method final c(Lcom/google/android/gms/internal/ads/pw;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/nw;->a:Lcom/google/android/gms/internal/ads/pw;
 
     return-void
@@ -131,7 +127,6 @@
     :cond_0
     const-string p1, "Loading resource: "
 
-    .line 1
     invoke-static {p2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -158,7 +153,6 @@
     :goto_0
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
-    .line 2
     new-instance p1, Lcom/google/android/gms/internal/ads/mw;
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/internal/ads/mw;-><init>(Ljava/lang/String;)V
@@ -175,23 +169,19 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p1, Lcom/google/android/gms/internal/ads/mw;
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/internal/ads/mw;-><init>(Ljava/lang/String;)V
 
-    .line 2
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/nw;->a:Lcom/google/android/gms/internal/ads/pw;
 
     if-eqz p2, :cond_1
 
-    .line 3
     invoke-interface {p2, p1}, Lcom/google/android/gms/internal/ads/pw;->h0(Lcom/google/android/gms/internal/ads/mw;)V
 
     return-void
 
-    .line 4
     :cond_1
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/ads/nw;->b(Lcom/google/android/gms/internal/ads/mw;)V
 
@@ -207,14 +197,12 @@
 
     add-int/lit8 p1, p1, -0x1
 
-    .line 1
     sget-object p3, Lcom/google/android/gms/internal/ads/nw;->b:[Ljava/lang/String;
 
     array-length p3, p3
 
     if-lt p1, p3, :cond_1
 
-    .line 2
     :cond_0
     invoke-static {p2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -229,7 +217,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     invoke-virtual {p3}, Landroid/net/http/SslError;->getPrimaryError()I
 
@@ -237,18 +224,15 @@
 
     if-ltz p1, :cond_1
 
-    .line 2
     sget-object p2, Lcom/google/android/gms/internal/ads/nw;->c:[Ljava/lang/String;
 
     array-length p2, p2
 
     if-lt p1, p2, :cond_2
 
-    .line 3
     :cond_1
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
-    .line 4
     :cond_2
     invoke-virtual {p3}, Landroid/net/http/SslError;->getUrl()Ljava/lang/String;
 
@@ -263,7 +247,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 2
     invoke-interface {p2}, Landroid/webkit/WebResourceRequest;->getUrl()Landroid/net/Uri;
 
     move-result-object p1
@@ -272,7 +255,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p1, Lcom/google/android/gms/internal/ads/mw;
 
@@ -300,7 +282,6 @@
 
     return-object p1
 
-    .line 1
     :cond_0
     new-instance p1, Lcom/google/android/gms/internal/ads/mw;
 
@@ -316,7 +297,6 @@
 .method public final shouldOverrideKeyEvent(Landroid/webkit/WebView;Landroid/view/KeyEvent;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p2}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result p1
@@ -372,7 +352,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 2
     invoke-interface {p2}, Landroid/webkit/WebResourceRequest;->getUrl()Landroid/net/Uri;
 
     move-result-object p1
@@ -381,7 +360,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p1, Lcom/google/android/gms/internal/ads/mw;
 
@@ -409,7 +387,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     new-instance p1, Lcom/google/android/gms/internal/ads/mw;
 

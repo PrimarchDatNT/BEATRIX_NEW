@@ -43,7 +43,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v1, 0x0
@@ -70,38 +69,28 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/mopub/common/ViewabilityTracker;->impressionOccurred:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/mopub/common/ViewabilityTracker;->tracking:Z
 
-    .line 4
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 7
     sget-object v0, Lcom/mopub/common/ViewabilityTracker$STATE;->INIT:Lcom/mopub/common/ViewabilityTracker$STATE;
 
     iput-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->state:Lcom/mopub/common/ViewabilityTracker$STATE;
 
-    .line 8
     iput-object p1, p0, Lcom/mopub/common/ViewabilityTracker;->adSession:Lcom/iab/omid/library/mopub/adsession/b;
 
-    .line 9
     iput-object p2, p0, Lcom/mopub/common/ViewabilityTracker;->adEvents:Lcom/iab/omid/library/mopub/adsession/a;
 
-    .line 10
     sget-object p1, Lcom/mopub/common/ViewabilityTracker;->sessionCounter:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {p1}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
@@ -110,7 +99,6 @@
 
     iput p1, p0, Lcom/mopub/common/ViewabilityTracker;->sessionID:I
 
-    .line 11
     invoke-virtual {p0, p3}, Lcom/mopub/common/ViewabilityTracker;->registerTrackedView(Landroid/view/View;)V
 
     return-void
@@ -143,66 +131,54 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {p1}, Lcom/mopub/common/ViewabilityTracker;->createVerificationResources(Ljava/util/Set;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 5
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 6
     invoke-static {}, Lcom/mopub/common/ViewabilityManager;->getPartner()Lcom/iab/omid/library/mopub/adsession/e;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-static {}, Lcom/mopub/common/ViewabilityManager;->getOmidJsServiceContent()Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, ""
 
-    .line 8
     invoke-static {v0, v1, p1, v2, v2}, Lcom/iab/omid/library/mopub/adsession/d;->c(Lcom/iab/omid/library/mopub/adsession/e;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)Lcom/iab/omid/library/mopub/adsession/d;
 
     move-result-object p1
 
-    .line 9
     sget-object v0, Lcom/iab/omid/library/mopub/adsession/ImpressionType;->BEGIN_TO_RENDER:Lcom/iab/omid/library/mopub/adsession/ImpressionType;
 
     sget-object v1, Lcom/iab/omid/library/mopub/adsession/Owner;->NATIVE:Lcom/iab/omid/library/mopub/adsession/Owner;
 
     const/4 v2, 0x0
 
-    .line 10
     invoke-static {p0, v0, v1, p2, v2}, Lcom/iab/omid/library/mopub/adsession/c;->a(Lcom/iab/omid/library/mopub/adsession/CreativeType;Lcom/iab/omid/library/mopub/adsession/ImpressionType;Lcom/iab/omid/library/mopub/adsession/Owner;Lcom/iab/omid/library/mopub/adsession/Owner;Z)Lcom/iab/omid/library/mopub/adsession/c;
 
     move-result-object p0
 
-    .line 11
     invoke-static {p0, p1}, Lcom/iab/omid/library/mopub/adsession/b;->b(Lcom/iab/omid/library/mopub/adsession/c;Lcom/iab/omid/library/mopub/adsession/d;)Lcom/iab/omid/library/mopub/adsession/b;
 
     move-result-object p0
 
     return-object p0
 
-    .line 12
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -212,7 +188,6 @@
 
     throw p0
 
-    .line 13
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -253,14 +228,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Set;->size()I
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/iab/omid/library/mopub/adsession/CreativeType;->NATIVE_DISPLAY:Lcom/iab/omid/library/mopub/adsession/CreativeType;
 
     sget-object v1, Lcom/iab/omid/library/mopub/adsession/Owner;->NONE:Lcom/iab/omid/library/mopub/adsession/Owner;
@@ -269,19 +242,16 @@
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1}, Lcom/iab/omid/library/mopub/adsession/a;->a(Lcom/iab/omid/library/mopub/adsession/b;)Lcom/iab/omid/library/mopub/adsession/a;
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Lcom/mopub/common/ViewabilityTracker;
 
     invoke-direct {v1, p1, v0, p0}, Lcom/mopub/common/ViewabilityTracker;-><init>(Lcom/iab/omid/library/mopub/adsession/b;Lcom/iab/omid/library/mopub/adsession/a;Landroid/view/View;)V
 
     return-object v1
 
-    .line 5
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -313,12 +283,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -336,7 +304,6 @@
 
     check-cast v1, Lcom/mopub/common/ViewabilityVendor;
 
-    .line 3
     :try_start_0
     invoke-virtual {v1}, Lcom/mopub/common/ViewabilityVendor;->getVendorKey()Ljava/lang/String;
 
@@ -360,23 +327,19 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     invoke-virtual {v1}, Lcom/mopub/common/ViewabilityVendor;->getVendorKey()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v1}, Lcom/mopub/common/ViewabilityVendor;->getJavascriptResourceUrl()Ljava/net/URL;
 
     move-result-object v3
 
-    .line 6
     invoke-virtual {v1}, Lcom/mopub/common/ViewabilityVendor;->getVerificationParameters()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
     invoke-static {v2, v3, v1}, Lcom/iab/omid/library/mopub/adsession/f;->a(Ljava/lang/String;Ljava/net/URL;Ljava/lang/String;)Lcom/iab/omid/library/mopub/adsession/f;
 
     move-result-object v1
@@ -385,7 +348,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     :goto_1
     invoke-virtual {v1}, Lcom/mopub/common/ViewabilityVendor;->getJavascriptResourceUrl()Ljava/net/URL;
@@ -426,7 +388,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/ViewabilityManager;->getPartner()Lcom/iab/omid/library/mopub/adsession/e;
 
     move-result-object v0
@@ -435,12 +396,10 @@
 
     const-string v1, ""
 
-    .line 2
     invoke-static {v0, p0, v1, v1}, Lcom/iab/omid/library/mopub/adsession/d;->a(Lcom/iab/omid/library/mopub/adsession/e;Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;)Lcom/iab/omid/library/mopub/adsession/d;
 
     move-result-object v0
 
-    .line 3
     sget-object v1, Lcom/iab/omid/library/mopub/adsession/CreativeType;->HTML_DISPLAY:Lcom/iab/omid/library/mopub/adsession/CreativeType;
 
     sget-object v2, Lcom/iab/omid/library/mopub/adsession/ImpressionType;->BEGIN_TO_RENDER:Lcom/iab/omid/library/mopub/adsession/ImpressionType;
@@ -455,24 +414,20 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {v1, v0}, Lcom/iab/omid/library/mopub/adsession/b;->b(Lcom/iab/omid/library/mopub/adsession/c;Lcom/iab/omid/library/mopub/adsession/d;)Lcom/iab/omid/library/mopub/adsession/b;
 
     move-result-object v0
 
-    .line 5
     invoke-static {v0}, Lcom/iab/omid/library/mopub/adsession/a;->a(Lcom/iab/omid/library/mopub/adsession/b;)Lcom/iab/omid/library/mopub/adsession/a;
 
     move-result-object v1
 
-    .line 6
     new-instance v2, Lcom/mopub/common/ViewabilityTracker;
 
     invoke-direct {v2, v0, v1, p0}, Lcom/mopub/common/ViewabilityTracker;-><init>(Lcom/iab/omid/library/mopub/adsession/b;Lcom/iab/omid/library/mopub/adsession/a;Landroid/view/View;)V
 
     return-object v2
 
-    .line 7
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -492,7 +447,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/ViewabilityManager;->isActive()Z
 
     move-result v0
@@ -503,7 +457,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 2
     sget-object v0, Lcom/mopub/common/ViewabilityTracker$1;->$SwitchMap$com$mopub$common$ViewabilityTracker$STATE:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -528,7 +481,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->state:Lcom/mopub/common/ViewabilityTracker$STATE;
 
@@ -540,17 +492,14 @@
 
     if-eq v0, v3, :cond_6
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->adSession:Lcom/iab/omid/library/mopub/adsession/b;
 
     invoke-virtual {v0}, Lcom/iab/omid/library/mopub/adsession/b;->d()V
 
-    .line 5
     iput-boolean v1, p0, Lcom/mopub/common/ViewabilityTracker;->tracking:Z
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-boolean v0, p0, Lcom/mopub/common/ViewabilityTracker;->impressionOccurred:Z
 
@@ -558,7 +507,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->state:Lcom/mopub/common/ViewabilityTracker$STATE;
 
@@ -570,18 +518,15 @@
 
     if-ne v0, v3, :cond_6
 
-    .line 8
     :cond_3
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->adEvents:Lcom/iab/omid/library/mopub/adsession/a;
 
     invoke-virtual {v0}, Lcom/iab/omid/library/mopub/adsession/a;->b()V
 
-    .line 9
     iput-boolean v2, p0, Lcom/mopub/common/ViewabilityTracker;->impressionOccurred:Z
 
     goto :goto_0
 
-    .line 10
     :cond_4
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->state:Lcom/mopub/common/ViewabilityTracker$STATE;
 
@@ -589,29 +534,24 @@
 
     if-ne v0, v3, :cond_6
 
-    .line 11
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->adSession:Lcom/iab/omid/library/mopub/adsession/b;
 
     invoke-virtual {v0}, Lcom/iab/omid/library/mopub/adsession/b;->j()V
 
-    .line 12
     sget-object v0, Lcom/iab/omid/library/mopub/adsession/media/Position;->STANDALONE:Lcom/iab/omid/library/mopub/adsession/media/Position;
 
     invoke-static {v2, v0}, Lcom/iab/omid/library/mopub/adsession/media/b;->b(ZLcom/iab/omid/library/mopub/adsession/media/Position;)Lcom/iab/omid/library/mopub/adsession/media/b;
 
     move-result-object v0
 
-    .line 13
     iget-object v1, p0, Lcom/mopub/common/ViewabilityTracker;->adEvents:Lcom/iab/omid/library/mopub/adsession/a;
 
     invoke-virtual {v1, v0}, Lcom/iab/omid/library/mopub/adsession/a;->d(Lcom/iab/omid/library/mopub/adsession/media/b;)V
 
-    .line 14
     iput-boolean v2, p0, Lcom/mopub/common/ViewabilityTracker;->tracking:Z
 
     goto :goto_0
 
-    .line 15
     :cond_5
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->state:Lcom/mopub/common/ViewabilityTracker$STATE;
 
@@ -619,17 +559,14 @@
 
     if-ne v0, v3, :cond_6
 
-    .line 16
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->adSession:Lcom/iab/omid/library/mopub/adsession/b;
 
     invoke-virtual {v0}, Lcom/iab/omid/library/mopub/adsession/b;->j()V
 
-    .line 17
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->adEvents:Lcom/iab/omid/library/mopub/adsession/a;
 
     invoke-virtual {v0}, Lcom/iab/omid/library/mopub/adsession/a;->c()V
 
-    .line 18
     iput-boolean v2, p0, Lcom/mopub/common/ViewabilityTracker;->tracking:Z
 
     :goto_0
@@ -639,10 +576,8 @@
     :goto_1
     if-eqz v1, :cond_7
 
-    .line 19
     iput-object p1, p0, Lcom/mopub/common/ViewabilityTracker;->state:Lcom/mopub/common/ViewabilityTracker$STATE;
 
-    .line 20
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -675,7 +610,6 @@
 
     goto :goto_2
 
-    .line 21
     :cond_7
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -708,7 +642,6 @@
 .method hasImpressionOccurred()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/common/ViewabilityTracker;->impressionOccurred:Z
 
     return v0
@@ -717,7 +650,6 @@
 .method isTracking()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/common/ViewabilityTracker;->tracking:Z
 
     return v0
@@ -730,14 +662,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/ViewabilityManager;->isViewabilityEnabled()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -779,7 +709,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -798,7 +727,6 @@
 
     invoke-virtual {p0, v0}, Lcom/mopub/common/ViewabilityTracker;->log(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->adSession:Lcom/iab/omid/library/mopub/adsession/b;
 
     iget-object p2, p2, Lcom/mopub/common/ViewabilityObstruction;->value:Lcom/iab/omid/library/mopub/adsession/FriendlyObstructionPurpose;
@@ -827,7 +755,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -845,7 +772,6 @@
 
     check-cast v0, Landroid/util/Pair;
 
-    .line 2
     :try_start_0
     iget-object v1, v0, Landroid/util/Pair;->first:Ljava/lang/Object;
 
@@ -864,7 +790,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x1
@@ -908,7 +833,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->adSession:Lcom/iab/omid/library/mopub/adsession/b;
 
     invoke-virtual {v0, p1}, Lcom/iab/omid/library/mopub/adsession/b;->g(Landroid/view/View;)V
@@ -923,10 +847,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -945,7 +867,6 @@
 
     invoke-virtual {p0, v0}, Lcom/mopub/common/ViewabilityTracker;->log(Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/common/ViewabilityTracker;->adSession:Lcom/iab/omid/library/mopub/adsession/b;
 
     invoke-virtual {v0, p1}, Lcom/iab/omid/library/mopub/adsession/b;->i(Landroid/view/View;)V
@@ -956,7 +877,6 @@
 .method startTracking()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -975,7 +895,6 @@
 
     invoke-virtual {p0, v0}, Lcom/mopub/common/ViewabilityTracker;->log(Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/ViewabilityTracker$STATE;->STARTED:Lcom/mopub/common/ViewabilityTracker$STATE;
 
     invoke-virtual {p0, v0}, Lcom/mopub/common/ViewabilityTracker;->changeState(Lcom/mopub/common/ViewabilityTracker$STATE;)V
@@ -986,7 +905,6 @@
 .method stopTracking()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1005,7 +923,6 @@
 
     invoke-virtual {p0, v0}, Lcom/mopub/common/ViewabilityTracker;->log(Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/ViewabilityTracker$STATE;->STOPPED:Lcom/mopub/common/ViewabilityTracker$STATE;
 
     invoke-virtual {p0, v0}, Lcom/mopub/common/ViewabilityTracker;->changeState(Lcom/mopub/common/ViewabilityTracker$STATE;)V
@@ -1016,7 +933,6 @@
 .method public trackImpression()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1035,7 +951,6 @@
 
     invoke-virtual {p0, v0}, Lcom/mopub/common/ViewabilityTracker;->log(Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/ViewabilityTracker$STATE;->IMPRESSED:Lcom/mopub/common/ViewabilityTracker$STATE;
 
     invoke-virtual {p0, v0}, Lcom/mopub/common/ViewabilityTracker;->changeState(Lcom/mopub/common/ViewabilityTracker$STATE;)V

@@ -14,7 +14,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,14 +33,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/mtlab/MTAiInterface/MTSceneryBoundaryLineModule/MTSceneryBoundaryLine;
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSceneryBoundaryLineModule/MTSceneryBoundaryLine;->boundaryline:[Landroid/graphics/PointF;
 
     if-eqz v2, :cond_0
@@ -50,7 +47,6 @@
 
     if-lez v3, :cond_0
 
-    .line 3
     array-length v2, v2
 
     new-array v2, v2, [Landroid/graphics/PointF;
@@ -59,7 +55,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTSceneryBoundaryLineModule/MTSceneryBoundaryLine;->boundaryline:[Landroid/graphics/PointF;
 
@@ -67,7 +62,6 @@
 
     if-ge v2, v3, :cond_0
 
-    .line 5
     iget-object v3, v1, Lcom/meitu/mtlab/MTAiInterface/MTSceneryBoundaryLineModule/MTSceneryBoundaryLine;->boundaryline:[Landroid/graphics/PointF;
 
     new-instance v4, Landroid/graphics/PointF;
@@ -90,7 +84,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

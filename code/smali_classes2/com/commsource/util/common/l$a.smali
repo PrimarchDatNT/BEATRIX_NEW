@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/util/common/l;Landroid/os/Looper;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/common/l$a;->a:Lcom/commsource/util/common/l;
 
     invoke-direct {p0, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
@@ -39,12 +38,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/os/Handler;->handleMessage(Landroid/os/Message;)V
 
     if-eqz p1, :cond_6
 
-    .line 2
     iget-object v1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     instance-of v2, v1, Ljava/lang/String;
@@ -53,11 +50,9 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     check-cast v1, Ljava/lang/String;
 
-    .line 4
     iget p1, p1, Landroid/os/Message;->what:I
 
     const/4 v2, 0x1
@@ -82,7 +77,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/util/common/l$a;->a:Lcom/commsource/util/common/l;
 
@@ -94,7 +88,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/commsource/util/common/l$a;->a:Lcom/commsource/util/common/l;
 
@@ -106,7 +99,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     iget-object p1, p0, Lcom/commsource/util/common/l$a;->a:Lcom/commsource/util/common/l;
 
@@ -118,7 +110,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_4
     iget-object p1, p0, Lcom/commsource/util/common/l$a;->a:Lcom/commsource/util/common/l;
 
@@ -130,7 +121,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_5
     iget-object p1, p0, Lcom/commsource/util/common/l$a;->a:Lcom/commsource/util/common/l;
 
@@ -140,13 +130,11 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/util/common/l$b;->a(Ljava/lang/String;)V
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

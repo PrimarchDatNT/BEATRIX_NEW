@@ -29,10 +29,8 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/content/ContextWrapper;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     const/4 v0, 0x0
@@ -47,7 +45,6 @@
 .method public static b(Landroid/content/Context;)Lcom/google/android/gms/internal/ads/bi;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/bi;
 
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/bi;->f(Landroid/content/Context;)Landroid/content/Context;
@@ -62,12 +59,10 @@
 .method public static c(Landroid/content/Context;)Landroid/content/Context;
     .locals 1
 
-    .line 1
     instance-of v0, p0, Lcom/google/android/gms/internal/ads/bi;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, Lcom/google/android/gms/internal/ads/bi;
 
     invoke-virtual {p0}, Landroid/content/ContextWrapper;->getBaseContext()Landroid/content/Context;
@@ -76,7 +71,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/bi;->f(Landroid/content/Context;)Landroid/content/Context;
 
@@ -90,20 +84,17 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bi;->a:Landroid/content/Context;
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Intent;->getComponent()Landroid/content/ComponentName;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/Intent;->getComponent()Landroid/content/ComponentName;
 
     move-result-object v0
@@ -126,7 +117,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Landroid/content/Intent;->clone()Ljava/lang/Object;
 
@@ -134,7 +124,6 @@
 
     check-cast v0, Landroid/content/Intent;
 
-    .line 5
     invoke-super {p0}, Landroid/content/ContextWrapper;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
@@ -151,12 +140,10 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     monitor-exit p0
 
     return-object v0
 
-    .line 7
     :cond_1
     :goto_0
     monitor-exit p0
@@ -176,7 +163,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bi;->b:Ljava/lang/ref/WeakReference;
 
@@ -190,20 +176,16 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p1, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 3
     invoke-super {p0, p1}, Landroid/content/ContextWrapper;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 4
     monitor-exit p0
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_1
     invoke-virtual {p1}, Landroid/content/Intent;->clone()Ljava/lang/Object;
@@ -212,7 +194,6 @@
 
     check-cast v2, Landroid/content/Intent;
 
-    .line 6
     invoke-virtual {p1}, Landroid/content/Intent;->getFlags()I
 
     move-result v3
@@ -223,12 +204,10 @@
 
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 7
     invoke-virtual {v0, v2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 8
     monitor-exit p0
 
     return-void
@@ -236,7 +215,6 @@
     :catchall_0
     move-exception v0
 
-    .line 9
     :try_start_2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
@@ -246,15 +224,12 @@
 
     invoke-virtual {v2, v0, v3}, Lcom/google/android/gms/internal/ads/em;->e(Ljava/lang/Throwable;Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {p1, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 11
     invoke-super {p0, p1}, Landroid/content/ContextWrapper;->startActivity(Landroid/content/Intent;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 12
     monitor-exit p0
 
     return-void
@@ -270,7 +245,6 @@
 .method private static f(Landroid/content/Context;)Landroid/content/Context;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
@@ -297,7 +271,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1, v0}, Landroid/content/ContextWrapper;->createPackageContext(Ljava/lang/String;I)Landroid/content/Context;
 
@@ -307,7 +280,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -331,13 +303,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bi;->a:Landroid/content/Context;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object v0
@@ -348,7 +318,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-super {p0}, Landroid/content/ContextWrapper;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
@@ -374,13 +343,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bi;->a:Landroid/content/Context;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v0
@@ -391,7 +358,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-super {p0}, Landroid/content/ContextWrapper;->getPackageName()Ljava/lang/String;
@@ -417,13 +383,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bi;->a:Landroid/content/Context;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Landroid/content/Context;->getPackageResourcePath()Ljava/lang/String;
 
     move-result-object v0
@@ -434,7 +398,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-super {p0}, Landroid/content/ContextWrapper;->getPackageResourcePath()Ljava/lang/String;
@@ -460,7 +423,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/bi;->d(Landroid/content/Intent;)Landroid/content/Intent;
 
@@ -470,7 +432,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void

@@ -27,7 +27,6 @@
 .method strictfp constructor <init>(Lcom/meitu/mtlab/g/g/d;Lcom/meitu/mtlab/g/d/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/g/g/d$e;->b:Lcom/meitu/mtlab/g/g/d;
 
     iput-object p2, p0, Lcom/meitu/mtlab/g/g/d$e;->a:Lcom/meitu/mtlab/g/d/b;
@@ -46,14 +45,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/d$e;->b:Lcom/meitu/mtlab/g/g/d;
 
     iget-object v2, p0, Lcom/meitu/mtlab/g/g/d$e;->a:Lcom/meitu/mtlab/g/d/b;
 
     invoke-static {v1, p1, p2, v2}, Lcom/meitu/mtlab/g/g/d;->c(Lcom/meitu/mtlab/g/g/d;Lokhttp3/Call;Ljava/lang/Exception;Lcom/meitu/mtlab/g/d/b;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -66,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p2}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
@@ -76,7 +72,6 @@
 
     move-result-object p2
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/mtlab/g/i/c;->h(Ljava/lang/String;)I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -86,14 +81,12 @@
     :catch_0
     move-exception p2
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/d$e;->b:Lcom/meitu/mtlab/g/g/d;
 
     iget-object v2, p0, Lcom/meitu/mtlab/g/g/d$e;->a:Lcom/meitu/mtlab/g/d/b;
 
     invoke-static {v1, p1, p2, v2}, Lcom/meitu/mtlab/g/g/d;->c(Lcom/meitu/mtlab/g/g/d;Lokhttp3/Call;Ljava/lang/Exception;Lcom/meitu/mtlab/g/d/b;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -39,7 +39,6 @@
 
     const-string v1, ""
 
-    .line 1
     sput-object v1, Lf/k/m/j/f;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -50,7 +49,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lf/k/m/j/f;
@@ -142,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/k/m/j/f;->c(Landroid/content/Context;)I
 
     move-result p0
@@ -160,7 +156,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -178,7 +173,6 @@
     :try_start_0
     const-string v1, "connectivity"
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -187,7 +181,6 @@
 
     sput-object p0, Lf/k/m/j/f;->a:Landroid/net/ConnectivityManager;
 
-    .line 2
     sget-object v1, Lf/k/m/j/f;->j:Lorg/aspectj/lang/c$b;
 
     const/4 v2, 0x0
@@ -236,12 +229,10 @@
 
     const/4 p0, -0x3
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->isConnected()Z
@@ -254,12 +245,10 @@
 
     const/4 p0, -0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 6
     :cond_1
     :try_start_2
     sget-object v1, Lf/k/m/j/f;->b:Landroid/net/NetworkInfo;
@@ -276,7 +265,6 @@
 
     sget-object v1, Lf/k/m/j/f;->b:Landroid/net/NetworkInfo;
 
-    .line 7
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->getExtraInfo()Ljava/lang/String;
 
     move-result-object v1
@@ -297,12 +285,10 @@
 
     const/4 p0, -0x5
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -311,12 +297,10 @@
     :catch_0
     move-exception p0
 
-    .line 10
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->c(Ljava/lang/Exception;)V
 
     const/4 p0, -0x4
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -329,14 +313,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/k/m/j/f;->i(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
 
     const-string v1, "wifi"
 
-    .line 2
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -352,7 +334,6 @@
     :cond_0
     const-string v1, "3g"
 
-    .line 3
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -366,7 +347,6 @@
     :cond_1
     const-string v1, "net"
 
-    .line 4
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -378,7 +358,6 @@
     :cond_2
     const-string v1, ""
 
-    .line 5
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -387,7 +366,6 @@
 
     const/4 v2, 0x0
 
-    .line 6
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -402,7 +380,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -419,7 +396,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -453,12 +429,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/util/HashMap;
 
@@ -468,7 +442,6 @@
 
     const-string v2, "appKey"
 
-    .line 3
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -481,7 +454,6 @@
 
     if-nez v3, :cond_1
 
-    .line 4
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -497,7 +469,6 @@
     :cond_1
     const-string v2, "appVersion"
 
-    .line 5
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -510,7 +481,6 @@
 
     if-nez v3, :cond_2
 
-    .line 6
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -526,7 +496,6 @@
     :cond_2
     const-string v2, "0.1.0"
 
-    .line 7
     invoke-static {v2}, Lf/k/m/j/f;->j(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -537,7 +506,6 @@
 
     const-string v2, "Android"
 
-    .line 8
     invoke-static {v2}, Lf/k/m/j/f;->j(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -548,7 +516,6 @@
 
     const-string v2, "packageName"
 
-    .line 9
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -561,7 +528,6 @@
 
     if-nez v3, :cond_3
 
-    .line 10
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -577,7 +543,6 @@
     :cond_3
     const-string v2, "gid"
 
-    .line 11
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -590,7 +555,6 @@
 
     if-nez v3, :cond_4
 
-    .line 12
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -606,7 +570,6 @@
     :cond_4
     const-string v2, "arcore"
 
-    .line 13
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -619,7 +582,6 @@
 
     if-nez v3, :cond_5
 
-    .line 14
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -635,7 +597,6 @@
     :cond_5
     const-string v2, "locale"
 
-    .line 15
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -648,7 +609,6 @@
 
     if-nez v3, :cond_6
 
-    .line 16
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -664,7 +624,6 @@
     :cond_6
     const-string v2, "model"
 
-    .line 17
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -677,7 +636,6 @@
 
     if-nez v3, :cond_7
 
-    .line 18
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -693,7 +651,6 @@
     :cond_7
     const-string v2, "testNationCode"
 
-    .line 19
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -706,7 +663,6 @@
 
     if-nez v3, :cond_8
 
-    .line 20
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -722,7 +678,6 @@
     :cond_8
     const-string v2, "enableSubs"
 
-    .line 21
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -735,7 +690,6 @@
 
     if-nez v3, :cond_9
 
-    .line 22
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -748,7 +702,6 @@
 
     invoke-virtual {v1, v2, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 23
     :cond_9
     sget-object p0, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
@@ -760,7 +713,6 @@
 
     invoke-virtual {v1, v2, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 24
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -785,7 +737,6 @@
 
     invoke-virtual {v1, v2, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 25
     :try_start_0
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -829,7 +780,6 @@
 
     const-string v2, "lang"
 
-    .line 26
     invoke-static {p0}, Lf/k/m/j/f;->j(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -838,7 +788,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 27
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -852,7 +801,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/m/j/f;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -880,7 +828,6 @@
     :try_start_0
     const-string v6, "connectivity"
 
-    .line 1
     invoke-virtual {p0, v6}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -889,7 +836,6 @@
 
     sput-object p0, Lf/k/m/j/f;->a:Landroid/net/ConnectivityManager;
 
-    .line 2
     sget-object v6, Lf/k/m/j/f;->k:Lorg/aspectj/lang/c$b;
 
     const/4 v7, 0x0
@@ -934,7 +880,6 @@
 
     if-eqz p0, :cond_6
 
-    .line 3
     invoke-virtual {p0}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result p0
@@ -943,7 +888,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object p0, Lf/k/m/j/f;->b:Landroid/net/NetworkInfo;
 
@@ -963,12 +907,10 @@
 
     if-eqz p0, :cond_1
 
-    .line 5
     invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 6
     :cond_1
     :try_start_1
     sget-object p0, Lf/k/m/j/f;->b:Landroid/net/NetworkInfo;
@@ -979,7 +921,6 @@
 
     if-eqz p0, :cond_5
 
-    .line 7
     sget-object p0, Lf/k/m/j/f;->b:Landroid/net/NetworkInfo;
 
     invoke-virtual {p0}, Landroid/net/NetworkInfo;->getExtraInfo()Ljava/lang/String;
@@ -990,7 +931,6 @@
 
     move-result-object p0
 
-    .line 8
     invoke-virtual {p0, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -999,12 +939,10 @@
 
     if-eqz v3, :cond_2
 
-    .line 9
     invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 10
     :cond_2
     :try_start_2
     invoke-virtual {p0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
@@ -1015,12 +953,10 @@
 
     if-eqz v2, :cond_3
 
-    .line 11
     invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 12
     :cond_3
     :try_start_3
     invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
@@ -1031,12 +967,10 @@
 
     if-eqz v1, :cond_4
 
-    .line 13
     invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
 
-    .line 14
     :cond_4
     invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1048,12 +982,10 @@
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_0
 
-    .line 15
     invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 16
     :cond_6
     :goto_0
     invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1063,10 +995,8 @@
     :catch_0
     move-exception p0
 
-    .line 17
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->c(Ljava/lang/Exception;)V
 
-    .line 18
     invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -1079,7 +1009,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1108,14 +1037,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/k/m/j/f;->i(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
 
     const-string v1, "wifi"
 
-    .line 2
     invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -1132,10 +1059,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lf/k/m/j/f;->c:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1148,7 +1073,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/k/m/j/f;->c(Landroid/content/Context;)I
 
     move-result v1
@@ -1157,7 +1081,6 @@
 
     invoke-static {p0, v1, v2}, Lf/k/m/j/f;->o(Landroid/app/Activity;IZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1172,10 +1095,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v1}, Lf/k/m/j/f;->o(Landroid/app/Activity;IZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1224,7 +1145,6 @@
 
     const-string v1, "\u68c0\u6d4b\u7f51\u7edc\u51fa\u73b0\u5f02\u5e38"
 
-    .line 1
     :cond_3
     :goto_0
     new-instance v2, Landroid/app/AlertDialog$Builder;
@@ -1233,7 +1153,6 @@
 
     const-string v3, "\u63d0\u793a"
 
-    .line 2
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v2
@@ -1258,12 +1177,10 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
 
     const-string v2, "\u8bbe\u7f6e"
 
-    .line 4
     new-instance v3, Lf/k/m/j/f$a;
 
     invoke-direct {v3, p2, p0, p1}, Lf/k/m/j/f$a;-><init>(ZLandroid/app/Activity;I)V
@@ -1272,7 +1189,6 @@
 
     const-string p1, "\u53d6\u6d88"
 
-    .line 5
     new-instance v2, Lf/k/m/j/f$b;
 
     invoke-direct {v2, p2, p0}, Lf/k/m/j/f$b;-><init>(ZLandroid/app/Activity;)V
@@ -1281,7 +1197,6 @@
 
     move-result-object p0
 
-    .line 6
     invoke-virtual {p0}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -1291,10 +1206,8 @@
     :catch_0
     move-exception p0
 
-    .line 7
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->c(Ljava/lang/Exception;)V
 
-    .line 8
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

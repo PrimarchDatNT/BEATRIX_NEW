@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$d;->a:Lcom/commsource/studio/sticker/manage/StickerManagerFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->B(Lcom/commsource/studio/sticker/manage/StickerManagerFragment;)Lcom/commsource/beautyplus/f0/oa;
@@ -63,12 +62,10 @@
 
     check-cast v0, Landroidx/recyclerview/widget/LinearLayoutManager;
 
-    .line 2
     invoke-virtual {v0}, Landroidx/recyclerview/widget/LinearLayoutManager;->findLastVisibleItemPosition()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getChildAt(I)Landroid/view/View;
 
     move-result-object v0
@@ -91,7 +88,6 @@
     :goto_0
     const-string v1, "event"
 
-    .line 4
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
@@ -116,7 +112,6 @@
 
     if-lez p2, :cond_3
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$d;->a:Lcom/commsource/studio/sticker/manage/StickerManagerFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->A(Lcom/commsource/studio/sticker/manage/StickerManagerFragment;)Lcom/commsource/widget/h1/e;
@@ -146,7 +141,6 @@
 
     const-string v1, "eveyItem"
 
-    .line 6
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -157,17 +151,14 @@
 
     check-cast v0, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 7
     invoke-virtual {v0}, Lcom/meitu/template/bean/StickerGroup;->isDeleteState()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-virtual {v0, v2}, Lcom/meitu/template/bean/StickerGroup;->setDeleteState(Z)V
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$d;->a:Lcom/commsource/studio/sticker/manage/StickerManagerFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->A(Lcom/commsource/studio/sticker/manage/StickerManagerFragment;)Lcom/commsource/widget/h1/e;
@@ -184,7 +175,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_2
     new-instance p2, Lcotlin/TypeCastException;
 
@@ -196,14 +186,12 @@
 
     throw p2
 
-    .line 11
     :cond_3
     :goto_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 12
     :cond_4
     new-instance p2, Lcotlin/TypeCastException;
 

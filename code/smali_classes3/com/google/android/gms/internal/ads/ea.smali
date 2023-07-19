@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/aa;Lcom/google/android/gms/internal/ads/w9;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ea;->a:Lcom/google/android/gms/internal/ads/w9;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,15 +37,12 @@
 .method public final synthetic a(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/v8;
 
     const-string v0, "Getting a new session for JS Engine."
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ea;->a:Lcom/google/android/gms/internal/ads/w9;
 
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/v8;->x0()Lcom/google/android/gms/internal/ads/ha;

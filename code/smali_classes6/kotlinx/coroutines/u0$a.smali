@@ -45,12 +45,10 @@
 
     if-gtz v2, :cond_0
 
-    .line 1
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Lcotlinx/coroutines/n;
 
@@ -62,15 +60,12 @@
 
     invoke-direct {v0, v1, v2}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
-    .line 3
     invoke-interface {p0, p1, p2, v0}, Lcotlinx/coroutines/u0;->b(JLcotlinx/coroutines/m;)V
 
-    .line 4
     invoke-virtual {v0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 5
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p1
@@ -92,7 +87,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/s0;->a()Lcotlinx/coroutines/u0;
 
     move-result-object p0

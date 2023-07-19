@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/google/common/graph/e0;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/v$c;->a:Lcom/google/common/graph/e0;
 
     iput-object p2, p0, Lcom/google/common/graph/v$c;->b:Ljava/lang/Object;
@@ -55,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/v$c;->a:Lcom/google/common/graph/e0;
 
     invoke-interface {v0, p1}, Lcom/google/common/graph/e0;->F(Ljava/lang/Object;)Lcom/google/common/graph/m;

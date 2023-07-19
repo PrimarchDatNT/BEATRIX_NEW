@@ -71,7 +71,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/d0;->j:Lcom/commsource/studio/gesture/a;
@@ -80,7 +79,6 @@
 
     iput p3, p0, Lcom/commsource/studio/d0;->l:I
 
-    .line 2
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     if-eqz p1, :cond_0
@@ -89,21 +87,18 @@
 
     iput-object p1, p0, Lcom/commsource/studio/d0;->a:Landroid/view/ViewGroup;
 
-    .line 3
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/d0;->b:Landroid/graphics/Rect;
 
-    .line 4
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/d0;->c:Landroid/graphics/Rect;
 
-    .line 5
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
@@ -114,7 +109,6 @@
 
     new-array p1, p1, [F
 
-    .line 6
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -125,12 +119,10 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 7
     iput p1, p0, Lcom/commsource/studio/d0;->i:F
 
     return-void
 
-    .line 8
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -160,7 +152,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/d0;->b(FLcotlin/jvm/u/a;)V
 
@@ -214,7 +205,6 @@
 
     move v2, p2
 
-    .line 1
     invoke-virtual/range {v0 .. v6}, Lcom/commsource/studio/d0;->d(IIZJLcotlin/jvm/u/a;)V
 
     invoke-static {p8}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -231,7 +221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/d0;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -250,7 +239,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     iget v2, p0, Lcom/commsource/studio/d0;->i:F
 
     const/4 v3, 0x0
@@ -267,14 +255,12 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/commsource/studio/d0$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/d0$a;-><init>(Lcom/commsource/studio/d0;)V
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 3
     sget-object v2, Lcom/commsource/studio/LayerManageListLayout;->d0:Lcom/commsource/studio/LayerManageListLayout$a;
 
     invoke-virtual {v2}, Lcom/commsource/studio/LayerManageListLayout$a;->a()J
@@ -283,10 +269,8 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 4
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -315,7 +299,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     iget v2, p0, Lcom/commsource/studio/d0;->i:F
 
     const/4 v3, 0x0
@@ -330,21 +313,18 @@
 
     move-result-object p1
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/d0$b;
 
     invoke-direct {v1, p0, p2}, Lcom/commsource/studio/d0$b;-><init>(Lcom/commsource/studio/d0;Lcotlin/jvm/u/a;)V
 
     invoke-virtual {p1, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/studio/d0$c;
 
     invoke-direct {v1, p0, p2}, Lcom/commsource/studio/d0$c;-><init>(Lcom/commsource/studio/d0;Lcotlin/jvm/u/a;)V
 
     invoke-virtual {p1, v1}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 4
     sget-object p2, Lcom/commsource/studio/LayerManageListLayout;->d0:Lcom/commsource/studio/LayerManageListLayout$a;
 
     invoke-virtual {p2}, Lcom/commsource/studio/LayerManageListLayout$a;->a()J
@@ -353,10 +333,8 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 5
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -381,7 +359,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/d0;->c:Landroid/graphics/Rect;
 
     iget v2, v1, Landroid/graphics/Rect;->left:I
@@ -394,7 +371,6 @@
 
     const/4 p3, 0x0
 
-    .line 2
     :cond_0
     iget v2, p0, Lcom/commsource/studio/d0;->k:I
 
@@ -410,7 +386,6 @@
 
     if-nez p3, :cond_1
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/d0;->e:Landroid/animation/ValueAnimator;
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -421,25 +396,21 @@
 
     if-nez p2, :cond_2
 
-    .line 4
     :cond_1
     iget-object p2, p0, Lcom/commsource/studio/d0;->e:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/studio/d0;->e:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/studio/d0;->e:Landroid/animation/ValueAnimator;
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p4, p5}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/d0;->e:Landroid/animation/ValueAnimator;
 
     new-instance p2, Lcom/commsource/studio/d0$d;
@@ -448,12 +419,10 @@
 
     invoke-virtual {p1, p2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/d0;->e:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -467,7 +436,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/d0;->i:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -484,7 +452,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/d0;->a:Landroid/view/ViewGroup;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -501,7 +468,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/d0;->b:Landroid/graphics/Rect;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -516,7 +482,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/d0;->l:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -542,7 +507,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/d0;->h:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -559,7 +523,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/d0;->d:Landroid/graphics/Rect;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -576,7 +539,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/d0;->c:Landroid/graphics/Rect;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -593,7 +555,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/d0;->j:Lcom/commsource/studio/gesture/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -608,7 +569,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/d0;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -623,7 +583,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/d0;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -638,7 +597,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/d0;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -653,7 +611,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/d0;->d:Landroid/graphics/Rect;
 
     iget v2, p0, Lcom/commsource/studio/d0;->k:I
@@ -666,7 +623,6 @@
 
     invoke-virtual {v1, p1, p2, v2, v3}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -679,17 +635,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/d0;->c:Landroid/graphics/Rect;
 
     invoke-virtual {v1, p1, p2}, Landroid/graphics/Rect;->offset(II)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/d0;->b:Landroid/graphics/Rect;
 
     invoke-virtual {v1, p1, p2}, Landroid/graphics/Rect;->offset(II)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/d0;->h:Lcotlin/jvm/u/a;
 
     if-eqz p1, :cond_0
@@ -700,7 +653,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -714,10 +666,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/d0;->b:Landroid/graphics/Rect;
 
-    .line 2
     iget v2, v1, Landroid/graphics/Rect;->left:I
 
     iget v3, p0, Lcom/commsource/studio/d0;->k:I
@@ -726,7 +676,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 3
     iget v2, v1, Landroid/graphics/Rect;->top:I
 
     iget v4, p0, Lcom/commsource/studio/d0;->l:I
@@ -735,41 +684,34 @@
 
     iput v2, v1, Landroid/graphics/Rect;->bottom:I
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/d0;->c:Landroid/graphics/Rect;
 
-    .line 5
     iget v2, v1, Landroid/graphics/Rect;->left:I
 
     add-int/2addr v2, v3
 
     iput v2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 6
     iget v2, v1, Landroid/graphics/Rect;->top:I
 
     add-int/2addr v2, v4
 
     iput v2, v1, Landroid/graphics/Rect;->bottom:I
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/d0;->d:Landroid/graphics/Rect;
 
-    .line 8
     iget v2, v1, Landroid/graphics/Rect;->left:I
 
     add-int/2addr v2, v3
 
     iput v2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 9
     iget v2, v1, Landroid/graphics/Rect;->top:I
 
     add-int/2addr v2, v4
 
     iput v2, v1, Landroid/graphics/Rect;->bottom:I
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -782,7 +724,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/d0;->c:Landroid/graphics/Rect;
 
     iget v2, p0, Lcom/commsource/studio/d0;->k:I
@@ -795,7 +736,6 @@
 
     invoke-virtual {v1, p1, p2, v2, v3}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/d0;->e:Landroid/animation/ValueAnimator;
 
     const-string p2, "animator"
@@ -808,14 +748,12 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/d0;->b:Landroid/graphics/Rect;
 
     iget-object p2, p0, Lcom/commsource/studio/d0;->c:Landroid/graphics/Rect;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/d0;->h:Lcotlin/jvm/u/a;
 
     if-eqz p1, :cond_0
@@ -826,7 +764,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -842,7 +779,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -907,15 +843,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/d0;->i:F
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/d0;->j:Lcom/commsource/studio/gesture/a;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/gesture/a;->H(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -936,7 +869,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/d0;->a:Landroid/view/ViewGroup;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -951,7 +883,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/d0;->l:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -978,7 +909,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/d0;->h:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -993,7 +923,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/d0;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1008,7 +937,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/d0;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

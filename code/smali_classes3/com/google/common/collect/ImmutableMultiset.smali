@@ -64,7 +64,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableMultisetGwtSerializationDependencies;-><init>()V
 
     return-void
@@ -82,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/ImmutableMultiset$b;
 
     invoke-direct {v0}, Lcom/google/common/collect/ImmutableMultiset$b;-><init>()V
@@ -102,7 +100,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/ImmutableMultiset$b;
 
     invoke-direct {v0}, Lcom/google/common/collect/ImmutableMultiset$b;-><init>()V
@@ -134,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/ImmutableMultiset$b;
 
     invoke-interface {p0}, Ljava/util/Collection;->size()I
@@ -143,7 +139,6 @@
 
     invoke-direct {v0, v1}, Lcom/google/common/collect/ImmutableMultiset$b;-><init>(I)V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -161,7 +156,6 @@
 
     check-cast v1, Lcom/google/common/collect/m1$a;
 
-    .line 3
     invoke-interface {v1}, Lcom/google/common/collect/m1$a;->getElement()Ljava/lang/Object;
 
     move-result-object v2
@@ -174,7 +168,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMultiset$b;->l()Lcom/google/common/collect/ImmutableMultiset;
 
@@ -197,17 +190,14 @@
         }
     .end annotation
 
-    .line 2
     instance-of v0, p0, Lcom/google/common/collect/ImmutableMultiset;
 
     if-eqz v0, :cond_0
 
-    .line 3
     move-object v0, p0
 
     check-cast v0, Lcom/google/common/collect/ImmutableMultiset;
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableCollection;->isPartialView()Z
 
     move-result v1
@@ -216,21 +206,17 @@
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance v0, Lcom/google/common/collect/ImmutableMultiset$b;
 
-    .line 6
     invoke-static {p0}, Lcom/google/common/collect/Multisets;->l(Ljava/lang/Iterable;)I
 
     move-result v1
 
     invoke-direct {v0, v1}, Lcom/google/common/collect/ImmutableMultiset$b;-><init>(I)V
 
-    .line 7
     invoke-virtual {v0, p0}, Lcom/google/common/collect/ImmutableMultiset$b;->i(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMultiset$b;
 
-    .line 8
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMultiset$b;->l()Lcom/google/common/collect/ImmutableMultiset;
 
     move-result-object p0
@@ -252,7 +238,6 @@
         }
     .end annotation
 
-    .line 9
     new-instance v0, Lcom/google/common/collect/ImmutableMultiset$b;
 
     invoke-direct {v0}, Lcom/google/common/collect/ImmutableMultiset$b;-><init>()V
@@ -280,7 +265,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/collect/ImmutableMultiset;->copyFromElements([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMultiset;
 
     move-result-object p0
@@ -299,7 +283,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v0
@@ -335,7 +318,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/RegularImmutableMultiset;->EMPTY:Lcom/google/common/collect/RegularImmutableMultiset;
 
     return-object v0
@@ -361,7 +343,6 @@
 
     aput-object p0, v0, v1
 
-    .line 2
     invoke-static {v0}, Lcom/google/common/collect/ImmutableMultiset;->copyFromElements([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMultiset;
 
     move-result-object p0
@@ -393,7 +374,6 @@
 
     aput-object p1, v0, p0
 
-    .line 3
     invoke-static {v0}, Lcom/google/common/collect/ImmutableMultiset;->copyFromElements([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMultiset;
 
     move-result-object p0
@@ -429,7 +409,6 @@
 
     aput-object p2, v0, p0
 
-    .line 4
     invoke-static {v0}, Lcom/google/common/collect/ImmutableMultiset;->copyFromElements([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMultiset;
 
     move-result-object p0
@@ -469,7 +448,6 @@
 
     aput-object p3, v0, p0
 
-    .line 5
     invoke-static {v0}, Lcom/google/common/collect/ImmutableMultiset;->copyFromElements([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMultiset;
 
     move-result-object p0
@@ -513,7 +491,6 @@
 
     aput-object p4, v0, p0
 
-    .line 6
     invoke-static {v0}, Lcom/google/common/collect/ImmutableMultiset;->copyFromElements([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMultiset;
 
     move-result-object p0
@@ -533,7 +510,6 @@
         }
     .end annotation
 
-    .line 7
     new-instance v0, Lcom/google/common/collect/ImmutableMultiset$b;
 
     invoke-direct {v0}, Lcom/google/common/collect/ImmutableMultiset$b;-><init>()V
@@ -589,7 +565,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -607,12 +582,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMultiset;->asList:Lcom/google/common/collect/ImmutableList;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/ImmutableCollection;->asList()Lcom/google/common/collect/ImmutableList;
 
     move-result-object v0
@@ -630,7 +603,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-interface {p0, p1}, Lcom/google/common/collect/m1;->count(Ljava/lang/Object;)I
 
     move-result p1
@@ -653,7 +625,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableMultiset;->entrySet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -675,7 +646,6 @@
 
     check-cast v1, Lcom/google/common/collect/m1$a;
 
-    .line 2
     invoke-interface {v1}, Lcom/google/common/collect/m1$a;->getCount()I
 
     move-result v2
@@ -688,7 +658,6 @@
 
     invoke-static {p1, p2, v2, v3}, Ljava/util/Arrays;->fill([Ljava/lang/Object;IILjava/lang/Object;)V
 
-    .line 3
     invoke-interface {v1}, Lcom/google/common/collect/m1$a;->getCount()I
 
     move-result v1
@@ -714,7 +683,6 @@
 .method public bridge synthetic elementSet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableMultiset;->elementSet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -733,12 +701,10 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMultiset;->entrySet:Lcom/google/common/collect/ImmutableSet;
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableMultiset;->createEntrySet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -752,7 +718,6 @@
 .method public bridge synthetic entrySet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableMultiset;->entrySet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -767,7 +732,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Multisets;->i(Lcom/google/common/collect/m1;Ljava/lang/Object;)Z
 
     move-result p1
@@ -788,7 +752,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableMultiset;->entrySet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -810,7 +773,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableMultiset;->entrySet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -819,7 +781,6 @@
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Lcom/google/common/collect/ImmutableMultiset$a;
 
     invoke-direct {v1, p0, v0}, Lcom/google/common/collect/ImmutableMultiset$a;-><init>(Lcom/google/common/collect/ImmutableMultiset;Ljava/util/Iterator;)V
@@ -830,7 +791,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableMultiset;->iterator()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -846,7 +806,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -868,7 +827,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -890,7 +848,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -901,7 +858,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableMultiset;->entrySet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0

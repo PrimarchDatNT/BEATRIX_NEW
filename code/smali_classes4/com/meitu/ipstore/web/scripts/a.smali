@@ -7,10 +7,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -25,7 +23,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -46,12 +43,10 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
@@ -59,19 +54,16 @@
 
     const-string v3, "mtips"
 
-    .line 4
     invoke-static {v2, v3}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 6
     :cond_1
     invoke-virtual {p2}, Landroid/net/Uri;->getHost()Ljava/lang/String;
 
@@ -79,12 +71,10 @@
 
     if-nez v2, :cond_2
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 8
     :cond_2
     invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
 
@@ -355,12 +345,10 @@
     :goto_0
     packed-switch v3, :pswitch_data_0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 10
     :pswitch_0
     new-instance v1, Lcom/meitu/ipstore/web/scripts/SubsTeamsServiceScript;
 
@@ -374,7 +362,6 @@
 
     return p0
 
-    .line 11
     :pswitch_1
     new-instance v1, Lcom/meitu/ipstore/web/scripts/PurchaseScript;
 
@@ -388,7 +375,6 @@
 
     return p0
 
-    .line 12
     :pswitch_2
     new-instance v1, Lcom/meitu/ipstore/web/scripts/UseMaterialScript;
 
@@ -402,7 +388,6 @@
 
     return p0
 
-    .line 13
     :pswitch_3
     new-instance v1, Lcom/meitu/ipstore/web/scripts/RestoreScript;
 
@@ -416,7 +401,6 @@
 
     return p0
 
-    .line 14
     :pswitch_4
     new-instance v1, Lcom/meitu/ipstore/web/scripts/ValidateSubsScript;
 
@@ -430,7 +414,6 @@
 
     return p0
 
-    .line 15
     :pswitch_5
     new-instance v1, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript;
 
@@ -444,7 +427,6 @@
 
     return p0
 
-    .line 16
     :pswitch_6
     new-instance v1, Lcom/meitu/ipstore/web/scripts/FreeMaterialsScript;
 
@@ -458,7 +440,6 @@
 
     return p0
 
-    .line 17
     :pswitch_7
     new-instance v1, Lcom/meitu/ipstore/web/scripts/SubsRestoreScript;
 
@@ -472,7 +453,6 @@
 
     return p0
 
-    .line 18
     :pswitch_8
     new-instance v1, Lcom/meitu/ipstore/web/scripts/StatisticsScript;
 
@@ -486,7 +466,6 @@
 
     return p0
 
-    .line 19
     :pswitch_9
     new-instance v1, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript;
 
@@ -500,7 +479,6 @@
 
     return p0
 
-    .line 20
     :pswitch_a
     new-instance v1, Lcom/meitu/ipstore/web/scripts/SubsPrivacyPolicyScript;
 
@@ -514,7 +492,6 @@
 
     return p0
 
-    .line 21
     :pswitch_b
     new-instance v1, Lcom/meitu/ipstore/web/scripts/d;
 
@@ -528,7 +505,6 @@
 
     return p0
 
-    .line 22
     :pswitch_c
     new-instance v1, Lcom/meitu/ipstore/web/scripts/WebVCUpdateScript;
 
@@ -542,7 +518,6 @@
 
     return p0
 
-    .line 23
     :pswitch_d
     new-instance v1, Lcom/meitu/ipstore/web/scripts/SubsPurchaseScript;
 
@@ -556,7 +531,6 @@
 
     return p0
 
-    .line 24
     :pswitch_e
     new-instance v1, Lcom/meitu/ipstore/web/scripts/ValidateProductsScript;
 
@@ -570,7 +544,6 @@
 
     return p0
 
-    .line 25
     :pswitch_f
     new-instance v1, Lcom/meitu/ipstore/web/scripts/c;
 

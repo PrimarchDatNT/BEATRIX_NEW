@@ -53,59 +53,48 @@
 .method public constructor <init>(Lcom/meitu/core/openglView/MTSurfaceView;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/high16 v0, 0x41000000    # 8.0f
 
-    .line 2
     iput v0, p0, Lcom/meitu/core/openglView/MTListener;->SCALE_MAX:F
 
     const/high16 v0, 0x3f400000    # 0.75f
 
-    .line 3
     iput v0, p0, Lcom/meitu/core/openglView/MTListener;->SCALE_MODULUS:F
 
     const v0, 0x3f2aaaab
 
-    .line 4
     iput v0, p0, Lcom/meitu/core/openglView/MTListener;->MOVE_MODULUS:F
 
     const/16 v0, 0xc8
 
-    .line 5
     iput v0, p0, Lcom/meitu/core/openglView/MTListener;->DEFAULT_ANIM_DURATION:I
 
     const-wide/16 v0, 0x8
 
-    .line 6
     iput-wide v0, p0, Lcom/meitu/core/openglView/MTListener;->FRAME_INTERVAL:J
 
     const v0, 0x3df5c28f    # 0.12f
 
-    .line 7
     iput v0, p0, Lcom/meitu/core/openglView/MTListener;->ANIM_FRAME_RATE:F
 
     const/16 v0, 0x10
 
     new-array v0, v0, [F
 
-    .line 8
     iput-object v0, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 9
     iput v0, p0, Lcom/meitu/core/openglView/MTListener;->oldDist:F
 
-    .line 10
     new-instance v0, Landroid/graphics/PointF;
 
     invoke-direct {v0}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/core/openglView/MTListener;->midStart:Landroid/graphics/PointF;
 
-    .line 11
     new-instance v0, Landroid/graphics/PointF;
 
     invoke-direct {v0}, Landroid/graphics/PointF;-><init>()V
@@ -116,30 +105,24 @@
 
     new-array v1, v0, [F
 
-    .line 12
     iput-object v1, p0, Lcom/meitu/core/openglView/MTListener;->leftBtmNew:[F
 
     new-array v1, v0, [F
 
-    .line 13
     iput-object v1, p0, Lcom/meitu/core/openglView/MTListener;->rightBtmNew:[F
 
     new-array v1, v0, [F
 
-    .line 14
     iput-object v1, p0, Lcom/meitu/core/openglView/MTListener;->leftTopNew:[F
 
     new-array v0, v0, [F
 
-    .line 15
     iput-object v0, p0, Lcom/meitu/core/openglView/MTListener;->rightTopNew:[F
 
     if-eqz p1, :cond_0
 
-    .line 16
     iput-object p1, p0, Lcom/meitu/core/openglView/MTListener;->mSurfaceView:Lcom/meitu/core/openglView/MTSurfaceView;
 
-    .line 17
     :cond_0
     iget-object p1, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
@@ -157,7 +140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getScale()F
 
     move-result p0
@@ -174,7 +156,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/core/openglView/MTListener;->setScale(F)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -189,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getTransX()F
 
     move-result p0
@@ -206,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/core/openglView/MTListener;->setTransX(F)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -221,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getTransY()F
 
     move-result p0
@@ -238,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/core/openglView/MTListener;->setTransY(F)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -253,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->requestChange()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -270,20 +246,17 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget v1, p1, Lcom/meitu/core/openglView/MTListener$AnimModel;->duration:I
 
     if-gez v1, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-direct {p0, v1}, Lcom/meitu/core/openglView/MTListener;->getAnimFrames(I)I
 
     move-result v4
 
-    .line 3
     iget v1, p1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getScale()F
@@ -296,7 +269,6 @@
 
     div-float v5, v1, v2
 
-    .line 4
     iget v1, p1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultTransX:F
 
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getTransX()F
@@ -307,7 +279,6 @@
 
     div-float v6, v1, v2
 
-    .line 5
     iget v1, p1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultTransY:F
 
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getTransY()F
@@ -318,7 +289,6 @@
 
     div-float v7, v1, v2
 
-    .line 6
     new-instance v1, Ljava/lang/Thread;
 
     new-instance v9, Lcom/meitu/core/openglView/MTListener$1;
@@ -333,15 +303,12 @@
 
     invoke-direct {v1, v9}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/Thread;->start()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -368,7 +335,6 @@
 
     float-to-int p1, p1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -381,7 +347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
     const/high16 v2, 0x3f800000    # 1.0f
@@ -407,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
     const/high16 v2, 0x3f800000    # 1.0f
@@ -433,7 +397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
     const/4 v2, 0x0
@@ -452,7 +415,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
     const/16 v2, 0xc
@@ -471,7 +433,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
     const/16 v2, 0xd
@@ -490,7 +451,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->leftBtmNew:[F
 
     const/4 v2, 0x1
@@ -503,7 +463,6 @@
 
     if-lez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -511,7 +470,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -524,7 +482,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->leftBtmNew:[F
 
     const/4 v2, 0x0
@@ -539,12 +496,10 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -558,7 +513,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->rightTopNew:[F
 
     const/4 v2, 0x0
@@ -573,12 +527,10 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -592,7 +544,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->rightTopNew:[F
 
     const/4 v2, 0x1
@@ -605,7 +556,6 @@
 
     if-gez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -613,7 +563,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -628,7 +577,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p2, v1}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v2
@@ -645,7 +593,6 @@
 
     div-float/2addr v2, v4
 
-    .line 2
     invoke-virtual {p2, v1}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result v1
@@ -658,7 +605,6 @@
 
     div-float/2addr v1, v4
 
-    .line 3
     invoke-direct {p0, v2}, Lcom/meitu/core/openglView/MTListener;->xMappingGL(F)F
 
     move-result p2
@@ -669,7 +615,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -684,22 +629,18 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/core/openglView/MTOpenGLUtil;->VERTEX:[F
 
-    .line 2
     iget-object v3, v0, Lcom/meitu/core/openglView/MTListener;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
     if-eqz v3, :cond_0
 
-    .line 3
     invoke-virtual {v3}, Lcom/meitu/core/openglView/MTRenderer;->getAdjustCube()[F
 
     move-result-object v2
 
     if-nez v2, :cond_0
 
-    .line 4
     sget-object v2, Lcom/meitu/core/openglView/MTOpenGLUtil;->VERTEX:[F
 
     :cond_0
@@ -709,7 +650,6 @@
 
     const/4 v10, 0x0
 
-    .line 5
     aget v4, v2, v10
 
     aput v4, v8, v10
@@ -734,7 +674,6 @@
 
     new-array v15, v3, [F
 
-    .line 6
     aget v7, v2, v4
 
     aput v7, v15, v10
@@ -749,7 +688,6 @@
 
     new-array v14, v3, [F
 
-    .line 7
     aget v7, v2, v3
 
     aput v7, v14, v10
@@ -768,7 +706,6 @@
 
     const/4 v7, 0x6
 
-    .line 8
     aget v7, v2, v7
 
     aput v7, v3, v10
@@ -783,7 +720,6 @@
 
     aput v12, v3, v6
 
-    .line 9
     iget-object v4, v0, Lcom/meitu/core/openglView/MTListener;->leftBtmNew:[F
 
     const/4 v5, 0x0
@@ -796,7 +732,6 @@
 
     invoke-static/range {v4 .. v9}, Landroid/opengl/Matrix;->multiplyMV([FI[FI[FI)V
 
-    .line 10
     iget-object v13, v0, Lcom/meitu/core/openglView/MTListener;->rightBtmNew:[F
 
     const/4 v2, 0x0
@@ -817,7 +752,6 @@
 
     invoke-static/range {v13 .. v18}, Landroid/opengl/Matrix;->multiplyMV([FI[FI[FI)V
 
-    .line 11
     iget-object v2, v0, Lcom/meitu/core/openglView/MTListener;->leftTopNew:[F
 
     const/16 v17, 0x0
@@ -834,7 +768,6 @@
 
     invoke-static/range {v16 .. v21}, Landroid/opengl/Matrix;->multiplyMV([FI[FI[FI)V
 
-    .line 12
     iget-object v2, v0, Lcom/meitu/core/openglView/MTListener;->rightTopNew:[F
 
     move-object/from16 v16, v2
@@ -843,7 +776,6 @@
 
     invoke-static/range {v16 .. v21}, Landroid/opengl/Matrix;->multiplyMV([FI[FI[FI)V
 
-    .line 13
     iget-object v2, v0, Lcom/meitu/core/openglView/MTListener;->leftBtmNew:[F
 
     aget v3, v2, v10
@@ -871,7 +803,6 @@
     :goto_0
     const/4 v2, 0x1
 
-    .line 14
     :goto_1
     iget-object v3, v0, Lcom/meitu/core/openglView/MTListener;->rightBtmNew:[F
 
@@ -898,7 +829,6 @@
     :goto_2
     const/4 v3, 0x1
 
-    .line 15
     :goto_3
     iget-object v5, v0, Lcom/meitu/core/openglView/MTListener;->leftTopNew:[F
 
@@ -925,7 +855,6 @@
     :goto_4
     const/4 v4, 0x1
 
-    .line 16
     :goto_5
     iget-object v5, v0, Lcom/meitu/core/openglView/MTListener;->rightTopNew:[F
 
@@ -964,7 +893,6 @@
     :cond_9
     const/4 v10, 0x1
 
-    .line 17
     :cond_a
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -978,15 +906,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->mSurfaceView:Lcom/meitu/core/openglView/MTSurfaceView;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/core/openglView/MTSurfaceView;->requestChange()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1000,7 +925,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
     const/4 v2, 0x0
@@ -1009,10 +933,8 @@
 
     const/4 v2, 0x5
 
-    .line 2
     aput p1, v1, v2
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1025,14 +947,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
     const/16 v2, 0xc
 
     aput p1, v1, v2
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1045,14 +965,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
     const/16 v2, 0xd
 
     aput p1, v1, v2
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1067,7 +985,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v2
@@ -1080,7 +997,6 @@
 
     sub-float/2addr v2, v4
 
-    .line 2
     invoke-virtual {p1, v1}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result v1
@@ -1099,7 +1015,6 @@
 
     float-to-double v1, v2
 
-    .line 3
     invoke-static {v1, v2}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v1
@@ -1118,27 +1033,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     new-instance v1, Lcom/meitu/core/openglView/MTListener$AnimModel;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, p0, v2}, Lcom/meitu/core/openglView/MTListener$AnimModel;-><init>(Lcom/meitu/core/openglView/MTListener;Lcom/meitu/core/openglView/MTListener$1;)V
 
-    .line 4
     iput p1, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->duration:I
 
-    .line 5
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getTransX()F
 
     move-result p1
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getTransY()F
 
     move-result v2
 
-    .line 7
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getScale()F
 
     move-result v3
@@ -1151,18 +1061,14 @@
 
     if-gtz v3, :cond_0
 
-    .line 8
     iput v5, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
-    .line 9
     iput v4, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultTransX:F
 
-    .line 10
     iput v4, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultTransY:F
 
     goto/16 :goto_2
 
-    .line 11
     :cond_0
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getScale()F
 
@@ -1174,10 +1080,8 @@
 
     if-lez v3, :cond_1
 
-    .line 12
     iput v6, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
-    .line 13
     iget-object p1, p0, Lcom/meitu/core/openglView/MTListener;->mid:Landroid/graphics/PointF;
 
     iget p1, p1, Landroid/graphics/PointF;->x:F
@@ -1198,7 +1102,6 @@
 
     sub-float/2addr p1, v2
 
-    .line 14
     iget-object v2, p0, Lcom/meitu/core/openglView/MTListener;->mid:Landroid/graphics/PointF;
 
     iget v2, v2, Landroid/graphics/PointF;->y:F
@@ -1225,10 +1128,8 @@
 
     const/4 v6, 0x0
 
-    .line 15
     invoke-static {v3, v6}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
-    .line 16
     iget v7, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
     aput v7, v3, v6
@@ -1245,12 +1146,10 @@
 
     aput v2, v3, v6
 
-    .line 17
     invoke-direct {p0, v3}, Lcom/meitu/core/openglView/MTListener;->outCheck([F)Z
 
     goto :goto_0
 
-    .line 18
     :cond_1
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getScale()F
 
@@ -1258,7 +1157,6 @@
 
     iput v3, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
-    .line 19
     iget-object v3, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
     invoke-direct {p0, v3}, Lcom/meitu/core/openglView/MTListener;->outCheck([F)Z
@@ -1267,12 +1165,10 @@
 
     if-nez v3, :cond_2
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 21
     :cond_2
     :goto_0
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->isLeftIn()Z
@@ -1287,12 +1183,10 @@
 
     if-eqz v3, :cond_3
 
-    .line 22
     iput v4, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultTransX:F
 
     goto :goto_1
 
-    .line 23
     :cond_3
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->isRightIn()Z
 
@@ -1300,7 +1194,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 24
     iget p1, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getImgRatioWith()F
@@ -1313,7 +1206,6 @@
 
     if-lez p1, :cond_4
 
-    .line 25
     iget p1, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getImgRatioWith()F
@@ -1328,13 +1220,11 @@
 
     goto :goto_1
 
-    .line 26
     :cond_4
     iput v4, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultTransX:F
 
     goto :goto_1
 
-    .line 27
     :cond_5
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->isLeftIn()Z
 
@@ -1342,7 +1232,6 @@
 
     if-eqz v3, :cond_7
 
-    .line 28
     iget p1, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getImgRatioWith()F
@@ -1355,7 +1244,6 @@
 
     if-lez p1, :cond_6
 
-    .line 29
     iget p1, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getImgRatioWith()F
@@ -1370,17 +1258,14 @@
 
     goto :goto_1
 
-    .line 30
     :cond_6
     iput v4, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultTransX:F
 
     goto :goto_1
 
-    .line 31
     :cond_7
     iput p1, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultTransX:F
 
-    .line 32
     :goto_1
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->isTopIn()Z
 
@@ -1394,12 +1279,10 @@
 
     if-eqz p1, :cond_8
 
-    .line 33
     iput v4, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultTransY:F
 
     goto :goto_2
 
-    .line 34
     :cond_8
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->isBtmIn()Z
 
@@ -1407,7 +1290,6 @@
 
     if-eqz p1, :cond_a
 
-    .line 35
     iget p1, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getImgRatioHeight()F
@@ -1420,7 +1302,6 @@
 
     if-lez p1, :cond_9
 
-    .line 36
     iget p1, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getImgRatioHeight()F
@@ -1435,13 +1316,11 @@
 
     goto :goto_2
 
-    .line 37
     :cond_9
     iput v4, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultTransY:F
 
     goto :goto_2
 
-    .line 38
     :cond_a
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->isTopIn()Z
 
@@ -1449,7 +1328,6 @@
 
     if-eqz p1, :cond_c
 
-    .line 39
     iget p1, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getImgRatioHeight()F
@@ -1462,7 +1340,6 @@
 
     if-lez p1, :cond_b
 
-    .line 40
     iget p1, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultScale:F
 
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getImgRatioHeight()F
@@ -1477,21 +1354,17 @@
 
     goto :goto_2
 
-    .line 41
     :cond_b
     iput v4, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultTransY:F
 
     goto :goto_2
 
-    .line 42
     :cond_c
     iput v2, v1, Lcom/meitu/core/openglView/MTListener$AnimModel;->resultTransY:F
 
-    .line 43
     :goto_2
     invoke-direct {p0, v1}, Lcom/meitu/core/openglView/MTListener;->asyAnim(Lcom/meitu/core/openglView/MTListener$AnimModel;)V
 
-    .line 44
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1504,7 +1377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
     const/high16 v2, 0x3f800000    # 1.0f
@@ -1538,7 +1410,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
     const/high16 v2, 0x3f800000    # 1.0f
@@ -1574,7 +1445,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1589,19 +1459,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener;->midStart:Landroid/graphics/PointF;
 
     invoke-direct {p0, v1, p1}, Lcom/meitu/core/openglView/MTListener;->midPointAndMappingGL(Landroid/graphics/PointF;Landroid/view/MotionEvent;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/core/openglView/MTListener;->spacing(Landroid/view/MotionEvent;)F
 
     move-result p1
 
     iput p1, p0, Lcom/meitu/core/openglView/MTListener;->oldDist:F
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1614,10 +1481,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1632,10 +1497,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/openglView/MTListener;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1651,10 +1514,8 @@
 
     const/16 v1, 0xc8
 
-    .line 1
     invoke-direct {p0, v1}, Lcom/meitu/core/openglView/MTListener;->touchUpAnim(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1667,22 +1528,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getScale()F
 
     move-result v1
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/core/openglView/MTListener;->spacing(Landroid/view/MotionEvent;)F
 
     move-result v2
 
-    .line 3
     iget v3, p0, Lcom/meitu/core/openglView/MTListener;->oldDist:F
 
     div-float v3, v2, v3
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getScale()F
 
     move-result v4
@@ -1709,7 +1566,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getScale()F
 
@@ -1733,12 +1589,10 @@
 
     sub-float/2addr v3, v4
 
-    .line 6
     :cond_1
     :goto_0
     iput v2, p0, Lcom/meitu/core/openglView/MTListener;->oldDist:F
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
     const/4 v4, 0x0
@@ -1747,12 +1601,10 @@
 
     invoke-static {v2, v4, v3, v3, v5}, Landroid/opengl/Matrix;->scaleM([FIFFF)V
 
-    .line 8
     iget-object v2, p0, Lcom/meitu/core/openglView/MTListener;->mid:Landroid/graphics/PointF;
 
     invoke-direct {p0, v2, p1}, Lcom/meitu/core/openglView/MTListener;->midPointAndMappingGL(Landroid/graphics/PointF;Landroid/view/MotionEvent;)V
 
-    .line 9
     iget-object p1, p0, Lcom/meitu/core/openglView/MTListener;->mid:Landroid/graphics/PointF;
 
     iget v2, p1, Landroid/graphics/PointF;->x:F
@@ -1763,20 +1615,16 @@
 
     sub-float v6, v2, v6
 
-    .line 10
     iget p1, p1, Landroid/graphics/PointF;->y:F
 
     iget v7, v3, Landroid/graphics/PointF;->y:F
 
     sub-float v7, p1, v7
 
-    .line 11
     iput v2, v3, Landroid/graphics/PointF;->x:F
 
-    .line 12
     iput p1, v3, Landroid/graphics/PointF;->y:F
 
-    .line 13
     iget-object p1, p0, Lcom/meitu/core/openglView/MTListener;->mProjectionMatrix:[F
 
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getScale()F
@@ -1789,7 +1637,6 @@
 
     mul-float v6, v6, v2
 
-    .line 14
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->getScale()F
 
     move-result v3
@@ -1798,10 +1645,8 @@
 
     mul-float v7, v7, v2
 
-    .line 15
     invoke-static {p1, v4, v6, v7, v5}, Landroid/opengl/Matrix;->translateM([FIFFF)V
 
-    .line 16
     iget-object p1, p0, Lcom/meitu/core/openglView/MTListener;->mid:Landroid/graphics/PointF;
 
     iget p1, p1, Landroid/graphics/PointF;->x:F
@@ -1824,7 +1669,6 @@
 
     invoke-direct {p0, p1}, Lcom/meitu/core/openglView/MTListener;->setTransX(F)V
 
-    .line 17
     iget-object p1, p0, Lcom/meitu/core/openglView/MTListener;->mid:Landroid/graphics/PointF;
 
     iget p1, p1, Landroid/graphics/PointF;->y:F
@@ -1847,10 +1691,8 @@
 
     invoke-direct {p0, p1}, Lcom/meitu/core/openglView/MTListener;->setTransY(F)V
 
-    .line 18
     invoke-direct {p0}, Lcom/meitu/core/openglView/MTListener;->requestChange()V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getRoot()Landroid/view/View;
 
     move-result-object v1
@@ -31,7 +29,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getRoot()Landroid/view/View;
 
@@ -41,12 +38,10 @@
 
     invoke-virtual {p0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -65,12 +60,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->isInflated()Z
 
@@ -84,7 +77,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getRoot()Landroid/view/View;
 
     move-result-object p0
@@ -93,7 +85,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getViewStub()Landroid/view/ViewStub;
 
@@ -101,12 +92,10 @@
 
     if-nez v2, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getViewStub()Landroid/view/ViewStub;
 
@@ -130,12 +119,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->isInflated()Z
 
@@ -156,14 +143,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getViewStub()Landroid/view/ViewStub;
 
     move-result-object v1
 
     invoke-virtual {v1}, Landroid/view/ViewStub;->inflate()Landroid/view/View;
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getRoot()Landroid/view/View;
 
@@ -171,7 +156,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 5
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getRoot()Landroid/view/View;
 
     move-result-object p0
@@ -180,7 +164,6 @@
 
     invoke-virtual {p0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -198,7 +181,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getRoot()Landroid/view/View;
 
     move-result-object v2
@@ -217,7 +199,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->isInflated()Z
 
@@ -242,7 +223,6 @@
 
     return v1
 
-    .line 3
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -259,7 +239,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->isInflated()Z
 
     move-result v1
@@ -274,7 +253,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getRoot()Landroid/view/View;
 
@@ -288,20 +266,17 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getRoot()Landroid/view/View;
 
     move-result-object p0
 
     invoke-virtual {v1, p0}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -318,7 +293,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getRoot()Landroid/view/View;
 
     move-result-object v1
@@ -327,7 +301,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getRoot()Landroid/view/View;
 
@@ -337,12 +310,10 @@
 
     invoke-virtual {p0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -359,7 +330,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->isInflated()Z
 
     move-result v1
@@ -374,7 +344,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroidx/databinding/ViewStubProxy;->getRoot()Landroid/view/View;
 
@@ -384,12 +353,10 @@
 
     invoke-virtual {p0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

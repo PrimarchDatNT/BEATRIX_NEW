@@ -19,38 +19,32 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/df;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/df;->a(Lcom/google/android/gms/internal/ads/df;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/af;->a:Z
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/df;->g(Lcom/google/android/gms/internal/ads/df;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/af;->b:Z
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/df;->h(Lcom/google/android/gms/internal/ads/df;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/af;->c:Z
 
-    .line 5
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/df;->i(Lcom/google/android/gms/internal/ads/df;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/af;->d:Z
 
-    .line 6
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/df;->j(Lcom/google/android/gms/internal/ads/df;)Z
 
     move-result p1
@@ -63,7 +57,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/df;Lcom/google/android/gms/internal/ads/ze;)V
     .locals 0
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/af;-><init>(Lcom/google/android/gms/internal/ads/df;)V
 
     return-void
@@ -74,7 +67,6 @@
 .method public final a()Lorg/json/JSONObject;
     .locals 3
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
@@ -84,7 +76,6 @@
 
     iget-boolean v2, p0, Lcom/google/android/gms/internal/ads/af;->a:Z
 
-    .line 2
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -93,7 +84,6 @@
 
     iget-boolean v2, p0, Lcom/google/android/gms/internal/ads/af;->b:Z
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -102,7 +92,6 @@
 
     iget-boolean v2, p0, Lcom/google/android/gms/internal/ads/af;->c:Z
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -111,7 +100,6 @@
 
     iget-boolean v2, p0, Lcom/google/android/gms/internal/ads/af;->d:Z
 
-    .line 5
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -120,7 +108,6 @@
 
     iget-boolean v2, p0, Lcom/google/android/gms/internal/ads/af;->e:Z
 
-    .line 6
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -134,7 +121,6 @@
 
     const-string v1, "Error occured while obtaining the MRAID capabilities."
 
-    .line 7
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0

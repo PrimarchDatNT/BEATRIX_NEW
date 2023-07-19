@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/firestore/remote/WatchChange$WatchTargetChangeType;->values()[Lcom/google/firebase/firestore/remote/WatchChange$WatchTargetChangeType;
 
     move-result-object v0

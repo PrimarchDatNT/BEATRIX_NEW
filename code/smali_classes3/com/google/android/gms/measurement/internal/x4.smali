@@ -77,7 +77,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Landroid/util/Pair;
 
     const-wide/16 v1, 0x0
@@ -98,10 +97,8 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/s5;)V
     .locals 5
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/measurement/internal/n6;-><init>(Lcom/google/android/gms/measurement/internal/s5;)V
 
-    .line 2
     new-instance p1, Lcom/google/android/gms/measurement/internal/c5;
 
     const-string v0, "last_upload"
@@ -112,7 +109,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->e:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 3
     new-instance p1, Lcom/google/android/gms/measurement/internal/c5;
 
     const-string v0, "last_upload_attempt"
@@ -121,7 +117,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->f:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 4
     new-instance p1, Lcom/google/android/gms/measurement/internal/c5;
 
     const-string v0, "backoff"
@@ -130,7 +125,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->g:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 5
     new-instance p1, Lcom/google/android/gms/measurement/internal/c5;
 
     const-string v0, "last_delete_stale"
@@ -139,7 +133,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->h:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 6
     new-instance p1, Lcom/google/android/gms/measurement/internal/c5;
 
     const-string v0, "time_before_start"
@@ -150,7 +143,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->p:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 7
     new-instance p1, Lcom/google/android/gms/measurement/internal/c5;
 
     const-string v0, "session_timeout"
@@ -161,7 +153,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->q:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 8
     new-instance p1, Lcom/google/android/gms/measurement/internal/z4;
 
     const-string v0, "start_new_session"
@@ -172,7 +163,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->r:Lcom/google/android/gms/measurement/internal/z4;
 
-    .line 9
     new-instance p1, Lcom/google/android/gms/measurement/internal/c5;
 
     const-string v0, "last_pause_time"
@@ -181,7 +171,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->v:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 10
     new-instance p1, Lcom/google/android/gms/measurement/internal/c5;
 
     const-string v0, "time_active"
@@ -190,7 +179,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->w:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 11
     new-instance p1, Lcom/google/android/gms/measurement/internal/f5;
 
     const-string v0, "non_personalized_ads"
@@ -201,7 +189,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->s:Lcom/google/android/gms/measurement/internal/f5;
 
-    .line 12
     new-instance p1, Lcom/google/android/gms/measurement/internal/z4;
 
     const-string v0, "use_dynamite_api"
@@ -212,7 +199,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->t:Lcom/google/android/gms/measurement/internal/z4;
 
-    .line 13
     new-instance p1, Lcom/google/android/gms/measurement/internal/z4;
 
     const-string v0, "allow_remote_dynamite"
@@ -221,7 +207,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->u:Lcom/google/android/gms/measurement/internal/z4;
 
-    .line 14
     new-instance p1, Lcom/google/android/gms/measurement/internal/c5;
 
     const-string v0, "midnight_offset"
@@ -230,7 +215,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->i:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 15
     new-instance p1, Lcom/google/android/gms/measurement/internal/c5;
 
     const-string v0, "first_open_time"
@@ -239,7 +223,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->j:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 16
     new-instance p1, Lcom/google/android/gms/measurement/internal/c5;
 
     const-string v0, "app_install_time"
@@ -248,7 +231,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->k:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 17
     new-instance p1, Lcom/google/android/gms/measurement/internal/f5;
 
     const-string v0, "app_instance_id"
@@ -257,7 +239,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->l:Lcom/google/android/gms/measurement/internal/f5;
 
-    .line 18
     new-instance p1, Lcom/google/android/gms/measurement/internal/z4;
 
     const-string v0, "app_backgrounded"
@@ -266,7 +247,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->y:Lcom/google/android/gms/measurement/internal/z4;
 
-    .line 19
     new-instance p1, Lcom/google/android/gms/measurement/internal/z4;
 
     const-string v0, "deep_link_retrieval_complete"
@@ -275,7 +255,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->z:Lcom/google/android/gms/measurement/internal/z4;
 
-    .line 20
     new-instance p1, Lcom/google/android/gms/measurement/internal/c5;
 
     const-string v0, "deep_link_retrieval_attempts"
@@ -284,7 +263,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->A:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 21
     new-instance p1, Lcom/google/android/gms/measurement/internal/f5;
 
     const-string v0, "firebase_feature_rollouts"
@@ -303,20 +281,16 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/o4;->O()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object v0
 
-    .line 4
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v1
@@ -325,7 +299,6 @@
 
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/measurement/internal/q4;->b(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -336,10 +309,8 @@
 
     const-string v1, "deferred_analytics_collection"
 
-    .line 6
     invoke-interface {v0, v1, p1}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
-    .line 7
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     return-void
@@ -350,10 +321,8 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -364,10 +333,8 @@
 
     const-string v1, "admob_app_id"
 
-    .line 3
     invoke-interface {v0, v1, p1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 4
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     return-void
@@ -381,13 +348,10 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/n6;->m()V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/x4;->c:Landroid/content/SharedPreferences;
 
     return-object v0
@@ -398,10 +362,8 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -422,10 +384,8 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -446,10 +406,8 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -466,7 +424,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
@@ -490,15 +447,12 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->H()Ljava/lang/Boolean;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v1
@@ -507,15 +461,12 @@
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->clear()Landroid/content/SharedPreferences$Editor;
 
-    .line 5
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     if-eqz v0, :cond_0
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v0
@@ -531,10 +482,8 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -547,7 +496,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -575,10 +523,8 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -591,18 +537,14 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->e()Lcom/google/android/gms/measurement/internal/i;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/n6;->m()V
 
-    .line 5
     sget-object v2, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
 
-    .line 6
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -615,7 +557,6 @@
 
     if-nez v3, :cond_0
 
-    .line 7
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v3
@@ -624,10 +565,8 @@
 
     move-result-object v3
 
-    .line 8
     invoke-interface {v3, v1, v2}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 9
     invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     :cond_0
@@ -639,7 +578,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/x4;->c:Landroid/content/SharedPreferences;
 
     const-string v1, "deferred_analytics_collection"
@@ -656,7 +594,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->f()Landroid/content/Context;
 
     move-result-object v0
@@ -673,7 +610,6 @@
 
     const-string v1, "has_been_opened"
 
-    .line 2
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v0
@@ -682,7 +618,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/x4;->c:Landroid/content/SharedPreferences;
 
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
@@ -691,29 +626,23 @@
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
-    .line 5
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 6
     :cond_0
     new-instance v0, Lcom/google/android/gms/measurement/internal/b5;
 
     const-wide/16 v1, 0x0
 
-    .line 7
     sget-object v3, Lcom/google/android/gms/measurement/internal/o;->d:Lcom/google/android/gms/measurement/internal/c4;
 
     const/4 v4, 0x0
 
-    .line 8
     invoke-virtual {v3, v4}, Lcom/google/android/gms/measurement/internal/c4;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 9
     check-cast v3, Ljava/lang/Long;
 
     invoke-virtual {v3}, Ljava/lang/Long;->longValue()J
@@ -732,7 +661,6 @@
 
     move-object v4, p0
 
-    .line 10
     invoke-direct/range {v3 .. v8}, Lcom/google/android/gms/measurement/internal/b5;-><init>(Lcom/google/android/gms/measurement/internal/x4;Ljava/lang/String;JLcom/google/android/gms/measurement/internal/a5;)V
 
     iput-object v0, p0, Lcom/google/android/gms/measurement/internal/x4;->d:Lcom/google/android/gms/measurement/internal/b5;
@@ -770,10 +698,8 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->u()Lcom/google/android/gms/common/util/g;
 
     move-result-object v1
@@ -782,7 +708,6 @@
 
     move-result-wide v1
 
-    .line 3
     iget-object v3, p0, Lcom/google/android/gms/measurement/internal/x4;->m:Ljava/lang/String;
 
     if-eqz v3, :cond_0
@@ -793,7 +718,6 @@
 
     if-gez v5, :cond_0
 
-    .line 4
     new-instance p1, Landroid/util/Pair;
 
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/x4;->m:Ljava/lang/String;
@@ -808,13 +732,11 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
     move-result-object v3
 
-    .line 6
     sget-object v4, Lcom/google/android/gms/measurement/internal/o;->c:Lcom/google/android/gms/measurement/internal/c4;
 
     invoke-virtual {v3, p1, v4}, Lcom/google/android/gms/measurement/internal/va;->m(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/c4;)J
@@ -823,15 +745,12 @@
 
     add-long/2addr v1, v3
 
-    .line 7
     iput-wide v1, p0, Lcom/google/android/gms/measurement/internal/x4;->o:J
 
     const/4 p1, 0x1
 
-    .line 8
     invoke-static {p1}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->setShouldSkipGmsCoreVersionCheck(Z)V
 
-    .line 9
     :try_start_0
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->f()Landroid/content/Context;
 
@@ -843,27 +762,23 @@
 
     if-eqz p1, :cond_1
 
-    .line 10
     invoke-virtual {p1}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->getId()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/google/android/gms/measurement/internal/x4;->m:Ljava/lang/String;
 
-    .line 11
     invoke-virtual {p1}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->isLimitAdTrackingEnabled()Z
 
     move-result p1
 
     iput-boolean p1, p0, Lcom/google/android/gms/measurement/internal/x4;->n:Z
 
-    .line 12
     :cond_1
     iget-object p1, p0, Lcom/google/android/gms/measurement/internal/x4;->m:Ljava/lang/String;
 
     if-nez p1, :cond_2
 
-    .line 13
     iput-object v0, p0, Lcom/google/android/gms/measurement/internal/x4;->m:Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -873,7 +788,6 @@
     :catch_0
     move-exception p1
 
-    .line 14
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
@@ -886,17 +800,14 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/google/android/gms/measurement/internal/q4;->b(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 15
     iput-object v0, p0, Lcom/google/android/gms/measurement/internal/x4;->m:Ljava/lang/String;
 
     :cond_2
     :goto_0
     const/4 p1, 0x0
 
-    .line 16
     invoke-static {p1}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->setShouldSkipGmsCoreVersionCheck(Z)V
 
-    .line 17
     new-instance p1, Landroid/util/Pair;
 
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/x4;->m:Ljava/lang/String;
@@ -917,10 +828,8 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -931,10 +840,8 @@
 
     const-string v1, "use_service"
 
-    .line 3
     invoke-interface {v0, v1, p1}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
-    .line 4
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     return-void
@@ -943,7 +850,6 @@
 .method final t(J)Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/x4;->q:Lcom/google/android/gms/measurement/internal/c5;
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/c5;->a()J
@@ -954,7 +860,6 @@
 
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/x4;->v:Lcom/google/android/gms/measurement/internal/c5;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/c5;->a()J
 
     move-result-wide v0
@@ -978,10 +883,8 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/android/gms/measurement/internal/x4;->r(Ljava/lang/String;)Landroid/util/Pair;
 
     move-result-object p1
@@ -990,7 +893,6 @@
 
     check-cast p1, Ljava/lang/String;
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/measurement/internal/ia;->F0()Ljava/security/MessageDigest;
 
     move-result-object v0
@@ -1001,7 +903,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
 
@@ -1039,10 +940,8 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -1053,10 +952,8 @@
 
     const-string v1, "measurement_enabled"
 
-    .line 3
     invoke-interface {v0, v1, p1}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
-    .line 4
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     return-void
@@ -1067,10 +964,8 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -1081,10 +976,8 @@
 
     const-string v1, "gmp_app_id"
 
-    .line 3
     invoke-interface {v0, v1, p1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 4
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     return-void

@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/t3/a$b$a;->a:Lcotlinx/coroutines/t3/a$b;
 
     iput-object p2, p0, Lcotlinx/coroutines/t3/a$b$a;->b:Lcotlinx/coroutines/t3/c;
@@ -50,7 +49,6 @@
 .method public dispose()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/t3/a$b$a;->a:Lcotlinx/coroutines/t3/a$b;
 
     iget-object v0, v0, Lcotlinx/coroutines/t3/a$b;->f:Lcotlinx/coroutines/t3/a;

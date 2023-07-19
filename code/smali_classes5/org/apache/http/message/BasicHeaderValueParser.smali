@@ -36,14 +36,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/message/BasicHeaderValueParser;
 
     invoke-direct {v0}, Lorg/apache/http/message/BasicHeaderValueParser;-><init>()V
 
     sput-object v0, Lorg/apache/http/message/BasicHeaderValueParser;->DEFAULT:Lorg/apache/http/message/BasicHeaderValueParser;
 
-    .line 2
     new-instance v0, Lorg/apache/http/message/BasicHeaderValueParser;
 
     invoke-direct {v0}, Lorg/apache/http/message/BasicHeaderValueParser;-><init>()V
@@ -54,7 +52,6 @@
 
     new-array v0, v0, [I
 
-    .line 3
     fill-array-data v0, :array_0
 
     invoke-static {v0}, Lorg/apache/http/message/TokenParser;->INIT_BITSET([I)Ljava/util/BitSet;
@@ -67,7 +64,6 @@
 
     new-array v0, v0, [I
 
-    .line 4
     fill-array-data v0, :array_1
 
     invoke-static {v0}, Lorg/apache/http/message/TokenParser;->INIT_BITSET([I)Ljava/util/BitSet;
@@ -97,10 +93,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lorg/apache/http/message/TokenParser;->INSTANCE:Lorg/apache/http/message/TokenParser;
 
     iput-object v0, p0, Lorg/apache/http/message/BasicHeaderValueParser;->tokenParser:Lorg/apache/http/message/TokenParser;
@@ -118,10 +112,8 @@
 
     const-string v0, "Value"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -130,10 +122,8 @@
 
     invoke-direct {v0, v1}, Lorg/apache/http/util/CharArrayBuffer;-><init>(I)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lorg/apache/http/util/CharArrayBuffer;->append(Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Lorg/apache/http/message/ParserCursor;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -148,7 +138,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object p1, Lorg/apache/http/message/BasicHeaderValueParser;->INSTANCE:Lorg/apache/http/message/BasicHeaderValueParser;
 
@@ -170,10 +159,8 @@
 
     const-string v0, "Value"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -182,10 +169,8 @@
 
     invoke-direct {v0, v1}, Lorg/apache/http/util/CharArrayBuffer;-><init>(I)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lorg/apache/http/util/CharArrayBuffer;->append(Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Lorg/apache/http/message/ParserCursor;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -200,7 +185,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object p1, Lorg/apache/http/message/BasicHeaderValueParser;->INSTANCE:Lorg/apache/http/message/BasicHeaderValueParser;
 
@@ -222,10 +206,8 @@
 
     const-string v0, "Value"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -234,10 +216,8 @@
 
     invoke-direct {v0, v1}, Lorg/apache/http/util/CharArrayBuffer;-><init>(I)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lorg/apache/http/util/CharArrayBuffer;->append(Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Lorg/apache/http/message/ParserCursor;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -252,7 +232,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object p1, Lorg/apache/http/message/BasicHeaderValueParser;->INSTANCE:Lorg/apache/http/message/BasicHeaderValueParser;
 
@@ -274,10 +253,8 @@
 
     const-string v0, "Value"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -286,10 +263,8 @@
 
     invoke-direct {v0, v1}, Lorg/apache/http/util/CharArrayBuffer;-><init>(I)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lorg/apache/http/util/CharArrayBuffer;->append(Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Lorg/apache/http/message/ParserCursor;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -304,7 +279,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object p1, Lorg/apache/http/message/BasicHeaderValueParser;->INSTANCE:Lorg/apache/http/message/BasicHeaderValueParser;
 
@@ -321,7 +295,6 @@
 .method protected createHeaderElement(Ljava/lang/String;Ljava/lang/String;[Lorg/apache/http/NameValuePair;)Lorg/apache/http/HeaderElement;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/message/BasicHeaderElement;
 
     invoke-direct {v0, p1, p2, p3}, Lorg/apache/http/message/BasicHeaderElement;-><init>(Ljava/lang/String;Ljava/lang/String;[Lorg/apache/http/NameValuePair;)V
@@ -332,7 +305,6 @@
 .method protected createNameValuePair(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/http/NameValuePair;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/message/BasicNameValuePair;
 
     invoke-direct {v0, p1, p2}, Lorg/apache/http/message/BasicNameValuePair;-><init>(Ljava/lang/String;Ljava/lang/String;)V
@@ -345,20 +317,16 @@
 
     const-string v0, "Char array buffer"
 
-    .line 6
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Parser cursor"
 
-    .line 7
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 8
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 9
     :cond_0
     :goto_0
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->atEnd()Z
@@ -367,12 +335,10 @@
 
     if-nez v1, :cond_2
 
-    .line 10
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/BasicHeaderValueParser;->parseHeaderElement(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)Lorg/apache/http/HeaderElement;
 
     move-result-object v1
 
-    .line 11
     invoke-interface {v1}, Lorg/apache/http/HeaderElement;->getName()Ljava/lang/String;
 
     move-result-object v2
@@ -389,13 +355,11 @@
 
     if-eqz v2, :cond_0
 
-    .line 12
     :cond_1
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 13
     :cond_2
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -417,27 +381,22 @@
 
     const-string v0, "Char array buffer"
 
-    .line 6
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Parser cursor"
 
-    .line 7
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 8
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/BasicHeaderValueParser;->parseNameValuePair(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)Lorg/apache/http/NameValuePair;
 
     move-result-object v0
 
-    .line 9
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->atEnd()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 10
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v1
@@ -452,7 +411,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 11
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/BasicHeaderValueParser;->parseParameters(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)[Lorg/apache/http/NameValuePair;
 
     move-result-object p1
@@ -462,7 +420,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 12
     :goto_0
     invoke-interface {v0}, Lorg/apache/http/NameValuePair;->getName()Ljava/lang/String;
 
@@ -484,15 +441,12 @@
 
     const-string v0, "Char array buffer"
 
-    .line 6
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Parser cursor"
 
-    .line 7
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 8
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderValueParser;->tokenParser:Lorg/apache/http/message/TokenParser;
 
     sget-object v1, Lorg/apache/http/message/BasicHeaderValueParser;->TOKEN_DELIMS:Ljava/util/BitSet;
@@ -501,7 +455,6 @@
 
     move-result-object v0
 
-    .line 9
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->atEnd()Z
 
     move-result v1
@@ -510,14 +463,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 10
     new-instance p1, Lorg/apache/http/message/BasicNameValuePair;
 
     invoke-direct {p1, v0, v2}, Lorg/apache/http/message/BasicNameValuePair;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object p1
 
-    .line 11
     :cond_0
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
@@ -527,7 +478,6 @@
 
     move-result v1
 
-    .line 12
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v3
@@ -540,14 +490,12 @@
 
     if-eq v1, v3, :cond_1
 
-    .line 13
     invoke-virtual {p0, v0, v2}, Lorg/apache/http/message/BasicHeaderValueParser;->createNameValuePair(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/http/NameValuePair;
 
     move-result-object p1
 
     return-object p1
 
-    .line 14
     :cond_1
     iget-object v1, p0, Lorg/apache/http/message/BasicHeaderValueParser;->tokenParser:Lorg/apache/http/message/TokenParser;
 
@@ -557,14 +505,12 @@
 
     move-result-object p1
 
-    .line 15
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->atEnd()Z
 
     move-result v1
 
     if-nez v1, :cond_2
 
-    .line 16
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v1
@@ -573,7 +519,6 @@
 
     invoke-virtual {p2, v1}, Lorg/apache/http/message/ParserCursor;->updatePos(I)V
 
-    .line 17
     :cond_2
     invoke-virtual {p0, v0, p1}, Lorg/apache/http/message/BasicHeaderValueParser;->createNameValuePair(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/http/NameValuePair;
 
@@ -589,22 +534,18 @@
 
     const-string v0, "Char array buffer"
 
-    .line 18
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Parser cursor"
 
-    .line 19
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 20
     new-instance v0, Ljava/util/BitSet;
 
     invoke-direct {v0}, Ljava/util/BitSet;-><init>()V
 
     if-eqz p3, :cond_0
 
-    .line 21
     array-length v1, p3
 
     const/4 v2, 0x0
@@ -614,7 +555,6 @@
 
     aget-char v3, p3, v2
 
-    .line 22
     invoke-virtual {v0, v3}, Ljava/util/BitSet;->set(I)V
 
     add-int/lit8 v2, v2, 0x1
@@ -624,17 +564,14 @@
     :cond_0
     const/16 p3, 0x3d
 
-    .line 23
     invoke-virtual {v0, p3}, Ljava/util/BitSet;->set(I)V
 
-    .line 24
     iget-object v1, p0, Lorg/apache/http/message/BasicHeaderValueParser;->tokenParser:Lorg/apache/http/message/TokenParser;
 
     invoke-virtual {v1, p1, p2, v0}, Lorg/apache/http/message/TokenParser;->parseToken(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;Ljava/util/BitSet;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 25
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->atEnd()Z
 
     move-result v2
@@ -643,14 +580,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 26
     new-instance p1, Lorg/apache/http/message/BasicNameValuePair;
 
     invoke-direct {p1, v1, v3}, Lorg/apache/http/message/BasicNameValuePair;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object p1
 
-    .line 27
     :cond_1
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
@@ -660,7 +595,6 @@
 
     move-result v2
 
-    .line 28
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v4
@@ -671,32 +605,27 @@
 
     if-eq v2, p3, :cond_2
 
-    .line 29
     invoke-virtual {p0, v1, v3}, Lorg/apache/http/message/BasicHeaderValueParser;->createNameValuePair(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/http/NameValuePair;
 
     move-result-object p1
 
     return-object p1
 
-    .line 30
     :cond_2
     invoke-virtual {v0, p3}, Ljava/util/BitSet;->clear(I)V
 
-    .line 31
     iget-object p3, p0, Lorg/apache/http/message/BasicHeaderValueParser;->tokenParser:Lorg/apache/http/message/TokenParser;
 
     invoke-virtual {p3, p1, p2, v0}, Lorg/apache/http/message/TokenParser;->parseValue(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;Ljava/util/BitSet;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 32
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->atEnd()Z
 
     move-result p3
 
     if-nez p3, :cond_3
 
-    .line 33
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result p3
@@ -705,7 +634,6 @@
 
     invoke-virtual {p2, p3}, Lorg/apache/http/message/ParserCursor;->updatePos(I)V
 
-    .line 34
     :cond_3
     invoke-virtual {p0, v1, p1}, Lorg/apache/http/message/BasicHeaderValueParser;->createNameValuePair(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/http/NameValuePair;
 
@@ -719,25 +647,20 @@
 
     const-string v0, "Char array buffer"
 
-    .line 6
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Parser cursor"
 
-    .line 7
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 8
     iget-object v0, p0, Lorg/apache/http/message/BasicHeaderValueParser;->tokenParser:Lorg/apache/http/message/TokenParser;
 
     invoke-virtual {v0, p1, p2}, Lorg/apache/http/message/TokenParser;->skipWhiteSpace(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)V
 
-    .line 9
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 10
     :cond_0
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->atEnd()Z
 
@@ -745,15 +668,12 @@
 
     if-nez v1, :cond_1
 
-    .line 11
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/BasicHeaderValueParser;->parseNameValuePair(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)Lorg/apache/http/NameValuePair;
 
     move-result-object v1
 
-    .line 12
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 13
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v1
@@ -768,7 +688,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 14
     :cond_1
     invoke-interface {v0}, Ljava/util/List;->size()I
 

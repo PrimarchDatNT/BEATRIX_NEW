@@ -54,12 +54,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/gesture/AdjustOptEnum;->Edit:Lcom/commsource/studio/gesture/AdjustOptEnum;
 
     if-ne p1, v1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment$a;->a:Lcom/commsource/studio/sticker/TextFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/TextFragment;->U(Lcom/commsource/studio/sticker/TextFragment;)Lcom/commsource/beautyplus/f0/cc;
@@ -72,7 +70,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/text/TextTabView;->setSelectItem(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment$a;->a:Lcom/commsource/studio/sticker/TextFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/TextFragment;->W(Lcom/commsource/studio/sticker/TextFragment;)Lcom/commsource/studio/text/TextStylePanel;
@@ -83,7 +80,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextStylePanel;->k()V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment$a;->a:Lcom/commsource/studio/sticker/TextFragment;
 
@@ -95,7 +91,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplatePanel;->i()V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -109,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/gesture/AdjustOptEnum;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/TextFragment$a;->a(Lcom/commsource/studio/gesture/AdjustOptEnum;)V

@@ -38,17 +38,14 @@
 .method constructor <init>(Landroid/content/Context;Ljava/util/concurrent/ExecutorService;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
     iput-object v0, p0, Lf/k/g0/g/d/g;->c:Ljava/util/Map;
 
-    .line 3
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -59,13 +56,10 @@
 
     iput-object v0, p0, Lf/k/g0/g/d/g;->d:Landroid/os/Handler;
 
-    .line 4
     iput-object p1, p0, Lf/k/g0/g/d/g;->a:Landroid/content/Context;
 
-    .line 5
     iput-object p2, p0, Lf/k/g0/g/d/g;->b:Ljava/util/concurrent/ExecutorService;
 
-    .line 6
     new-instance p2, Landroidx/core/util/AtomicFile;
 
     new-instance v0, Ljava/io/File;
@@ -98,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/g0/g/d/g;->d()Lf/k/g0/g/d/f;
 
     move-result-object p0
@@ -127,14 +120,12 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/d/g;->e:Landroidx/core/util/AtomicFile;
 
     invoke-virtual {v1}, Landroidx/core/util/AtomicFile;->readFully()[B
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lorg/json/JSONObject;
 
     new-instance v3, Ljava/lang/String;
@@ -187,7 +178,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_1
     iget-object v2, p0, Lf/k/g0/g/d/g;->e:Landroidx/core/util/AtomicFile;
 
@@ -195,7 +185,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p1}, Lf/k/g0/g/d/f;->b()Lorg/json/JSONObject;
 
     move-result-object p1
@@ -214,13 +203,11 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 3
     :try_start_2
     iget-object p1, p0, Lf/k/g0/g/d/g;->e:Landroidx/core/util/AtomicFile;
 
     invoke-virtual {p1, v1}, Landroidx/core/util/AtomicFile;->finishWrite(Ljava/io/FileOutputStream;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -232,13 +219,11 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_3
     iget-object v2, p0, Lf/k/g0/g/d/g;->e:Landroidx/core/util/AtomicFile;
 
     invoke-virtual {v2, v1}, Landroidx/core/util/AtomicFile;->failWrite(Ljava/io/FileOutputStream;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1
@@ -271,12 +256,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/d/g;->c:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -313,7 +296,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     new-instance p1, Ljava/util/ArrayList;
 
     iget-object v1, p0, Lf/k/g0/g/d/g;->c:Ljava/util/Map;
@@ -328,7 +310,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
@@ -340,7 +321,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     iget-object v2, p0, Lf/k/g0/g/d/g;->c:Ljava/util/Map;
 
     invoke-interface {v2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -365,7 +345,6 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -378,7 +357,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 5
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -387,7 +365,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -405,14 +382,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/d/g;->c:Ljava/util/Map;
 
     iget-object v2, p1, Lf/k/g0/g/d/d$a;->a:Ljava/lang/String;
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object p1, p0, Lf/k/g0/g/d/g;->b:Ljava/util/concurrent/ExecutorService;
 
     new-instance v1, Lf/k/g0/g/d/g$a;
@@ -421,7 +396,6 @@
 
     invoke-static {p1, v1}, Lcom/google/android/gms/tasks/n;->d(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;)Lcom/google/android/gms/tasks/k;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

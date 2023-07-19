@@ -29,10 +29,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$c;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
-    .line 2
     invoke-direct {p0}, Landroidx/viewpager/widget/ViewPager$SimpleOnPageChangeListener;-><init>()V
 
     return-void
@@ -47,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$c;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->Y(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/widget/h1/e;
@@ -56,7 +53,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$c;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->Z(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/beautyplus/f0/o7;
@@ -67,7 +63,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$c;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->Z(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/beautyplus/f0/o7;
@@ -84,7 +79,6 @@
 
     invoke-static {v1, p1, v2, v3, v4}, Lcom/commsource/widget/LineSelectView;->j(Lcom/commsource/widget/LineSelectView;IZILjava/lang/Object;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$c;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->Y(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/widget/h1/e;
@@ -99,7 +93,6 @@
 
     check-cast v1, Lcom/commsource/studio/doodle/j;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/doodle/DoodleFragment$c;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/doodle/DoodleFragment;->V(Lcom/commsource/studio/doodle/DoodleFragment;)Z
@@ -108,7 +101,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/j;->a()Ljava/lang/String;
 
     move-result-object v2
@@ -130,7 +122,6 @@
     :cond_0
     const-string v3, "-2"
 
-    .line 7
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -144,7 +135,6 @@
     :cond_1
     const-string v3, "-1"
 
-    .line 8
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -155,7 +145,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     :goto_0
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/j;->a()Ljava/lang/String;
@@ -167,10 +156,8 @@
 
     const-string v3, "bru_material_tag"
 
-    .line 10
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$c;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -180,7 +167,6 @@
 
     if-nez p1, :cond_4
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment$c;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/doodle/DoodleFragment;->a0(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/studio/doodle/h;
@@ -195,13 +181,11 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 13
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 14
     :cond_5
     new-instance p1, Lcotlin/TypeCastException;
 

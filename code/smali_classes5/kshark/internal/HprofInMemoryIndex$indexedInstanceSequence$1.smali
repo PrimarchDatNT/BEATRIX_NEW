@@ -59,7 +59,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lkshark/internal/HprofInMemoryIndex$indexedInstanceSequence$1;->invoke(Lcotlin/Pair;)Lcotlin/Pair;
@@ -96,7 +95,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v0
@@ -107,17 +105,14 @@
 
     move-result-wide v0
 
-    .line 3
     invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lkshark/internal/a;
 
-    .line 4
     new-instance v2, Lkshark/internal/d$b;
 
-    .line 5
     iget-object v3, p0, Lkshark/internal/HprofInMemoryIndex$indexedInstanceSequence$1;->this$0:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-static {v3}, Lkshark/internal/HprofInMemoryIndex;->b(Lkshark/internal/HprofInMemoryIndex;)I
@@ -128,15 +123,12 @@
 
     move-result-wide v3
 
-    .line 6
     invoke-virtual {p1}, Lkshark/internal/a;->b()J
 
     move-result-wide v5
 
-    .line 7
     invoke-direct {v2, v3, v4, v5, v6}, Lkshark/internal/d$b;-><init>(JJ)V
 
-    .line 8
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1

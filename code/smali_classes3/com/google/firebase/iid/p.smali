@@ -19,7 +19,6 @@
 
     const/4 p2, 0x2
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/firebase/iid/r;-><init>(IILandroid/os/Bundle;)V
 
     return-void
@@ -34,7 +33,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result p1
@@ -43,12 +41,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/firebase/iid/r;->c(Ljava/lang/Object;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Lcom/google/firebase/iid/zzam;
 

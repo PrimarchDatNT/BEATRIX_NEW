@@ -34,7 +34,6 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/encoder/a$b;->a:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/encoder/a$b;->a:I
 
     const/4 v2, 0x2
@@ -86,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/encoder/a$b;->a()Ljava/lang/Integer;
 
     move-result-object v1

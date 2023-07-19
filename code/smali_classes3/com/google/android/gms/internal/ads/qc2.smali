@@ -13,13 +13,10 @@
 .method public constructor <init>(JI)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/qc2;->a:J
 
-    .line 3
     iput p3, p0, Lcom/google/android/gms/internal/ads/qc2;->b:I
 
     return-void

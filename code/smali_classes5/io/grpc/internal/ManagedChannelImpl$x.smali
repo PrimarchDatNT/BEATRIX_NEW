@@ -33,21 +33,16 @@
 .method constructor <init>(ZIILio/grpc/internal/AutoConfiguredLoadBalancerFactory;Lio/grpc/ChannelLogger;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/z0$j;-><init>()V
 
-    .line 2
     iput-boolean p1, p0, Lio/grpc/internal/ManagedChannelImpl$x;->a:Z
 
-    .line 3
     iput p2, p0, Lio/grpc/internal/ManagedChannelImpl$x;->b:I
 
-    .line 4
     iput p3, p0, Lio/grpc/internal/ManagedChannelImpl$x;->c:I
 
     const-string p1, "autoLoadBalancerFactory"
 
-    .line 5
     invoke-static {p4, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -58,7 +53,6 @@
 
     const-string p1, "channelLogger"
 
-    .line 6
     invoke-static {p5, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -84,13 +78,11 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$x;->d:Lio/grpc/internal/AutoConfiguredLoadBalancerFactory;
 
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$x;->e:Lio/grpc/ChannelLogger;
 
-    .line 2
     invoke-virtual {v0, p1, v1}, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory;->f(Ljava/util/Map;Lio/grpc/ChannelLogger;)Lio/grpc/z0$c;
 
     move-result-object v0
@@ -101,7 +93,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Lio/grpc/z0$c;->d()Lio/grpc/Status;
 
@@ -109,7 +100,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v0}, Lio/grpc/z0$c;->d()Lio/grpc/Status;
 
     move-result-object p1
@@ -120,13 +110,11 @@
 
     return-object p1
 
-    .line 5
     :cond_1
     invoke-virtual {v0}, Lio/grpc/z0$c;->c()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 6
     :goto_0
     iget-boolean v1, p0, Lio/grpc/internal/ManagedChannelImpl$x;->a:Z
 
@@ -134,12 +122,10 @@
 
     iget v3, p0, Lio/grpc/internal/ManagedChannelImpl$x;->c:I
 
-    .line 7
     invoke-static {p1, v1, v2, v3, v0}, Lio/grpc/internal/n1;->b(Ljava/util/Map;ZIILjava/lang/Object;)Lio/grpc/internal/n1;
 
     move-result-object p1
 
-    .line 8
     invoke-static {p1}, Lio/grpc/z0$c;->a(Ljava/lang/Object;)Lio/grpc/z0$c;
 
     move-result-object p1
@@ -151,12 +137,10 @@
     :catch_0
     move-exception p1
 
-    .line 9
     sget-object v0, Lio/grpc/Status;->i:Lio/grpc/Status;
 
     const-string v1, "failed to parse service config"
 
-    .line 10
     invoke-virtual {v0, v1}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object v0
@@ -165,7 +149,6 @@
 
     move-result-object p1
 
-    .line 11
     invoke-static {p1}, Lio/grpc/z0$c;->b(Lio/grpc/Status;)Lio/grpc/z0$c;
 
     move-result-object p1

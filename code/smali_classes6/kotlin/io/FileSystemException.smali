@@ -43,7 +43,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1, p2, p3}, Lcotlin/io/e;->a(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -77,7 +76,6 @@
 
     move-object p3, v0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcotlin/io/FileSystemException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
 
@@ -91,7 +89,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/io/FileSystemException;->file:Ljava/io/File;
 
     return-object v0
@@ -102,7 +99,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/io/FileSystemException;->other:Ljava/io/File;
 
     return-object v0
@@ -113,7 +109,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/io/FileSystemException;->reason:Ljava/lang/String;
 
     return-object v0

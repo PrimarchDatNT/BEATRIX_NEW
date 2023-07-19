@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/w;-><init>(Lcom/google/common/collect/l1;Lcom/google/common/base/u;)V
 
     return-void
@@ -56,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/w;->s()Lcom/google/common/collect/l1;
 
     move-result-object v0
@@ -69,7 +67,6 @@
 .method public bridge synthetic get(Ljava/lang/Object;)Ljava/util/Collection;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/v;->get(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -87,7 +84,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0, p1}, Lcom/google/common/collect/w;->get(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1
@@ -104,7 +100,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/v;->removeAll(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -128,7 +123,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0, p1}, Lcom/google/common/collect/w;->removeAll(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1
@@ -141,7 +135,6 @@
 .method public bridge synthetic replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/Collection;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/v;->replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p1
@@ -161,7 +154,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/c;->replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/Collection;
 
     move-result-object p1
@@ -174,7 +166,6 @@
 .method public bridge synthetic s()Lcom/google/common/collect/l1;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/v;->b()Lcom/google/common/collect/i1;
 
     move-result-object v0

@@ -20,13 +20,10 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/util/concurrent/ExecutorService;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/k/g0/g/e/e/a;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lf/k/g0/g/e/e/a;->b:Ljava/util/concurrent/ExecutorService;
 
     return-void
@@ -52,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/e/e/a;->b:Ljava/util/concurrent/ExecutorService;
 
     new-instance v2, Lf/k/g0/g/e/e/a$a;
@@ -77,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "gid"
@@ -92,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0

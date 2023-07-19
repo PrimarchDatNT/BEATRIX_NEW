@@ -31,7 +31,6 @@
 .method constructor <init>(Ljava/lang/Iterable;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/h1$g;->b:Ljava/lang/Iterable;
 
     iput p2, p0, Lcom/google/common/collect/h1$g;->c:I
@@ -53,17 +52,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/h1$g;->b:Ljava/lang/Iterable;
 
     instance-of v1, v0, Ljava/util/List;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast v0, Ljava/util/List;
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -74,7 +70,6 @@
 
     move-result v1
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v2
@@ -89,18 +84,15 @@
 
     return-object v0
 
-    .line 5
     :cond_0
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 6
     iget v1, p0, Lcom/google/common/collect/h1$g;->c:I
 
     invoke-static {v0, v1}, Lcom/google/common/collect/Iterators;->b(Ljava/util/Iterator;I)I
 
-    .line 7
     new-instance v1, Lcom/google/common/collect/h1$g$a;
 
     invoke-direct {v1, p0, v0}, Lcom/google/common/collect/h1$g$a;-><init>(Lcom/google/common/collect/h1$g;Ljava/util/Iterator;)V

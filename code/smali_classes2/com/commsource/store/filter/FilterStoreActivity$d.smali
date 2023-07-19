@@ -54,12 +54,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/store/filter/FilterStoreActivity$d;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {v2}, Lcom/commsource/store/filter/FilterStoreActivity;->P0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/store/filter/FilterStoreViewModel;
@@ -88,7 +86,6 @@
 
     const-string v2, "filterId"
 
-    .line 3
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
@@ -99,22 +96,18 @@
 
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$d;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-virtual {p1, v3, v1}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$d;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$d;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/util/h2;->e(Landroid/app/Activity;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -127,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/FilterStoreActivity$d;->a(Ljava/lang/Integer;)V

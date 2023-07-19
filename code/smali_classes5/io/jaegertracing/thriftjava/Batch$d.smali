@@ -26,7 +26,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/scheme/TupleScheme;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 .method synthetic constructor <init>(Lio/jaegertracing/thriftjava/Batch$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/jaegertracing/thriftjava/Batch$d;-><init>()V
 
     return-void
@@ -51,25 +49,20 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lorg/apache/thrift/protocol/TTupleProtocol;
 
-    .line 2
     new-instance v0, Lio/jaegertracing/thriftjava/Process;
 
     invoke-direct {v0}, Lio/jaegertracing/thriftjava/Process;-><init>()V
 
     iput-object v0, p2, Lio/jaegertracing/thriftjava/Batch;->process:Lio/jaegertracing/thriftjava/Process;
 
-    .line 3
     invoke-virtual {v0, p1}, Lio/jaegertracing/thriftjava/Process;->read(Lorg/apache/thrift/protocol/TProtocol;)V
 
     const/4 v0, 0x1
 
-    .line 4
     invoke-virtual {p2, v0}, Lio/jaegertracing/thriftjava/Batch;->setProcessIsSet(Z)V
 
-    .line 5
     new-instance v1, Lorg/apache/thrift/protocol/TList;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->readI32()I
@@ -80,7 +73,6 @@
 
     invoke-direct {v1, v3, v2}, Lorg/apache/thrift/protocol/TList;-><init>(BI)V
 
-    .line 6
     new-instance v2, Ljava/util/ArrayList;
 
     iget v3, v1, Lorg/apache/thrift/protocol/TList;->size:I
@@ -91,21 +83,17 @@
 
     const/4 v2, 0x0
 
-    .line 7
     :goto_0
     iget v3, v1, Lorg/apache/thrift/protocol/TList;->size:I
 
     if-ge v2, v3, :cond_0
 
-    .line 8
     new-instance v3, Lio/jaegertracing/thriftjava/Span;
 
     invoke-direct {v3}, Lio/jaegertracing/thriftjava/Span;-><init>()V
 
-    .line 9
     invoke-virtual {v3, p1}, Lio/jaegertracing/thriftjava/Span;->read(Lorg/apache/thrift/protocol/TProtocol;)V
 
-    .line 10
     iget-object v4, p2, Lio/jaegertracing/thriftjava/Batch;->spans:Ljava/util/List;
 
     invoke-interface {v4, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -114,7 +102,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     invoke-virtual {p2, v0}, Lio/jaegertracing/thriftjava/Batch;->setSpansIsSet(Z)V
 
@@ -129,15 +116,12 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lorg/apache/thrift/protocol/TTupleProtocol;
 
-    .line 2
     iget-object v0, p2, Lio/jaegertracing/thriftjava/Batch;->process:Lio/jaegertracing/thriftjava/Process;
 
     invoke-virtual {v0, p1}, Lio/jaegertracing/thriftjava/Process;->write(Lorg/apache/thrift/protocol/TProtocol;)V
 
-    .line 3
     iget-object v0, p2, Lio/jaegertracing/thriftjava/Batch;->spans:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -146,7 +130,6 @@
 
     invoke-virtual {p1, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeI32(I)V
 
-    .line 4
     iget-object p2, p2, Lio/jaegertracing/thriftjava/Batch;->spans:Ljava/util/List;
 
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -166,7 +149,6 @@
 
     check-cast v0, Lio/jaegertracing/thriftjava/Span;
 
-    .line 5
     invoke-virtual {v0, p1}, Lio/jaegertracing/thriftjava/Span;->write(Lorg/apache/thrift/protocol/TProtocol;)V
 
     goto :goto_0
@@ -183,7 +165,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Lio/jaegertracing/thriftjava/Batch;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thriftjava/Batch$d;->a(Lorg/apache/thrift/protocol/TProtocol;Lio/jaegertracing/thriftjava/Batch;)V
@@ -199,7 +180,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Lio/jaegertracing/thriftjava/Batch;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thriftjava/Batch$d;->b(Lorg/apache/thrift/protocol/TProtocol;Lio/jaegertracing/thriftjava/Batch;)V

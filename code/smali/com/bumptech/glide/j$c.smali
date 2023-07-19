@@ -35,12 +35,10 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/j$c;->b:Lcom/bumptech/glide/j;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/bumptech/glide/j$c;->a:Lcom/bumptech/glide/manager/m;
 
     return-void
@@ -53,18 +51,15 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/bumptech/glide/j$c;->b:Lcom/bumptech/glide/j;
 
     monitor-enter p1
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/bumptech/glide/j$c;->a:Lcom/bumptech/glide/manager/m;
 
     invoke-virtual {v0}, Lcom/bumptech/glide/manager/m;->g()V
 
-    .line 3
     monitor-exit p1
 
     goto :goto_0

@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/formula/FormulaFragment$switchRv$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$switchRv$1;->this$0:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaFragment;->Y(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/beautyplus/f0/m8;
@@ -81,7 +79,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/formula/DragToSwitchLayout;->f()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$switchRv$1;->this$0:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaFragment;->Y(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/beautyplus/f0/m8;
@@ -94,7 +91,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->scrollToPosition(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$switchRv$1;->this$0:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaFragment;->Y(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/beautyplus/f0/m8;
@@ -109,7 +105,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

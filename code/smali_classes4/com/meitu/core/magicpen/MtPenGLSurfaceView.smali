@@ -49,39 +49,30 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/opengl/GLSurfaceView;-><init>(Landroid/content/Context;)V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mScaleGestureDetector:Landroid/view/ScaleGestureDetector;
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsSingleMode:Z
 
-    .line 4
     iput-boolean v0, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsProcessing:Z
 
-    .line 5
     iput-boolean v0, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsOperated:Z
 
     const/4 v0, 0x0
 
-    .line 6
     iput v0, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDrawPointX:F
 
-    .line 7
     iput v0, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDrawPointY:F
 
     const-wide/16 v0, 0x0
 
-    .line 8
     iput-wide v0, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDownTime:J
 
-    .line 9
     invoke-direct {p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->initGL(Landroid/content/Context;)V
 
     return-void
@@ -90,39 +81,30 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 2
 
-    .line 10
     invoke-direct {p0, p1, p2}, Landroid/opengl/GLSurfaceView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p2, 0x0
 
-    .line 11
     iput-object p2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mScaleGestureDetector:Landroid/view/ScaleGestureDetector;
 
     const/4 p2, 0x0
 
-    .line 12
     iput-boolean p2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsSingleMode:Z
 
-    .line 13
     iput-boolean p2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsProcessing:Z
 
-    .line 14
     iput-boolean p2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsOperated:Z
 
     const/4 p2, 0x0
 
-    .line 15
     iput p2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDrawPointX:F
 
-    .line 16
     iput p2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDrawPointY:F
 
     const-wide/16 v0, 0x0
 
-    .line 17
     iput-wide v0, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDownTime:J
 
-    .line 18
     invoke-direct {p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->initGL(Landroid/content/Context;)V
 
     return-void
@@ -135,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -150,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mListener:Lcom/meitu/core/magicpen/IMtPenCallback;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -167,34 +147,28 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/opengl/GLSurfaceView;->setEGLContextClientVersion(I)V
 
-    .line 2
     new-instance v1, Lcom/meitu/core/magicpen/MtPenRenderer;
 
     invoke-direct {v1, p1, p0}, Lcom/meitu/core/magicpen/MtPenRenderer;-><init>(Landroid/content/Context;Lcom/meitu/core/magicpen/MtPenGLSurfaceView;)V
 
     iput-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mRenderer:Lcom/meitu/core/magicpen/MtPenRenderer;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/MtPenRenderer;->getMtNativePen()Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mRenderer:Lcom/meitu/core/magicpen/MtPenRenderer;
 
     invoke-virtual {p0, p1}, Landroid/opengl/GLSurfaceView;->setRenderer(Landroid/opengl/GLSurfaceView$Renderer;)V
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-virtual {p0, p1}, Landroid/opengl/GLSurfaceView;->setRenderMode(I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -209,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsOperated:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -224,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mRenderer:Lcom/meitu/core/magicpen/MtPenRenderer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -239,7 +211,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->CanRedo()Z
@@ -258,7 +229,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->CanUndo()Z
@@ -277,17 +247,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$1;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$1;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;FF)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -300,17 +267,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$2;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$2;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;FF)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -323,17 +287,14 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance p2, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$3;
 
     invoke-direct {p2, p0}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$3;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;)V
 
     invoke-virtual {p0, p2}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -346,15 +307,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mScaleGestureDetector:Landroid/view/ScaleGestureDetector;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Landroid/view/ScaleGestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
@@ -362,14 +320,12 @@
 
     iput v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDrawPointX:F
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDrawPointY:F
 
-    .line 5
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
@@ -398,7 +354,6 @@
 
     goto/16 :goto_1
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
@@ -406,41 +361,34 @@
 
     if-ne v1, v4, :cond_9
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
     iput-wide v3, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDownTime:J
 
-    .line 8
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->invalidate()V
 
-    .line 9
     iput-boolean v2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsSingleMode:Z
 
-    .line 10
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionIndex()I
 
     move-result v1
 
     if-nez v1, :cond_2
 
-    .line 11
     invoke-virtual {p1, v2}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDrawPointX:F
 
-    .line 12
     invoke-virtual {p1, v2}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result p1
 
     iput p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDrawPointY:F
 
-    .line 13
     :cond_2
     iget p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDrawPointX:F
 
@@ -458,7 +406,6 @@
 
     goto/16 :goto_1
 
-    .line 14
     :cond_3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -466,15 +413,12 @@
 
     iput-wide v4, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDownTime:J
 
-    .line 15
     iput-boolean v3, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsSingleMode:Z
 
-    .line 16
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->invalidate()V
 
     goto :goto_1
 
-    .line 17
     :cond_4
     iget-boolean p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsSingleMode:Z
 
@@ -494,13 +438,10 @@
 
     if-lez p1, :cond_9
 
-    .line 18
     iput-boolean v2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsOperated:Z
 
-    .line 19
     iput-boolean v2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsProcessing:Z
 
-    .line 20
     iget p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDrawPointX:F
 
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->getHeight()I
@@ -515,21 +456,17 @@
 
     invoke-virtual {p0, p1, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->onFingerMove(FF)V
 
-    .line 21
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->invalidate()V
 
     goto :goto_1
 
-    .line 22
     :cond_5
     iget-boolean p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsOperated:Z
 
     if-eqz p1, :cond_6
 
-    .line 23
     iput-boolean v3, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsProcessing:Z
 
-    .line 24
     iget p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDrawPointX:F
 
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->getHeight()I
@@ -546,41 +483,32 @@
 
     goto :goto_0
 
-    .line 25
     :cond_6
     iget-object p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mListener:Lcom/meitu/core/magicpen/IMtPenCallback;
 
     if-eqz p1, :cond_7
 
-    .line 26
     invoke-interface {p1}, Lcom/meitu/core/magicpen/IMtPenCallback;->onCancelDrawing()V
 
-    .line 27
     :cond_7
     :goto_0
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->invalidate()V
 
-    .line 28
     iput-boolean v3, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsSingleMode:Z
 
-    .line 29
     iget-object p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mListener:Lcom/meitu/core/magicpen/IMtPenCallback;
 
     if-eqz p1, :cond_9
 
-    .line 30
     invoke-interface {p1}, Lcom/meitu/core/magicpen/IMtPenCallback;->onTouchEnd()V
 
     goto :goto_1
 
-    .line 31
     :cond_8
     iput-boolean v2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mIsSingleMode:Z
 
-    .line 32
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->invalidate()V
 
-    .line 33
     iget p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDrawPointX:F
 
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->getHeight()I
@@ -595,22 +523,18 @@
 
     invoke-virtual {p0, p1, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->onFingerDown(FF)V
 
-    .line 34
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
     iput-wide v3, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mDownTime:J
 
-    .line 35
     iget-object p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mListener:Lcom/meitu/core/magicpen/IMtPenCallback;
 
     if-eqz p1, :cond_9
 
-    .line 36
     invoke-interface {p1}, Lcom/meitu/core/magicpen/IMtPenCallback;->onTouchBegan()V
 
-    .line 37
     :cond_9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -625,17 +549,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$21;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$21;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishRedo;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -648,18 +569,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mRenderer:Lcom/meitu/core/magicpen/MtPenRenderer;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/MtPenRenderer;->destroy()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -673,12 +590,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->resultIsFixedEffect()Z
 
     move-result v1
@@ -690,7 +605,6 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -703,12 +617,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mRenderer:Lcom/meitu/core/magicpen/MtPenRenderer;
 
     invoke-virtual {v1, p1}, Lcom/meitu/core/magicpen/MtPenRenderer;->runOnDrawBackground(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -721,12 +633,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mRenderer:Lcom/meitu/core/magicpen/MtPenRenderer;
 
     invoke-virtual {v1, p1}, Lcom/meitu/core/magicpen/MtPenRenderer;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -741,17 +651,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$23;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$23;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSave2Bitmap;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -767,17 +674,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$22;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$22;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSave2NativeBitmap;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -793,17 +697,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$24;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$24;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSave2RectBitmap;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -819,7 +720,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mRenderer:Lcom/meitu/core/magicpen/MtPenRenderer;
 
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
@@ -832,17 +732,14 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/core/magicpen/MtPenRenderer;->setImageSize(II)V
 
-    .line 6
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$6;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$6;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Landroid/graphics/Bitmap;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetBitmapBackgroundCallback;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawBackground(Ljava/lang/Runnable;)V
 
-    .line 7
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -858,7 +755,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mRenderer:Lcom/meitu/core/magicpen/MtPenRenderer;
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
@@ -871,17 +767,14 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/core/magicpen/MtPenRenderer;->setImageSize(II)V
 
-    .line 2
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$5;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$5;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetNativeBitmapBackgroundCallback;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawBackground(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -897,7 +790,6 @@
 
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, v6, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mRenderer:Lcom/meitu/core/magicpen/MtPenRenderer;
 
     move v2, p1
@@ -928,7 +820,6 @@
 
     invoke-virtual {v0, v1, v5, v9, v11}, Lcom/meitu/core/magicpen/MtPenRenderer;->setBackgroundColor(FFFF)V
 
-    .line 2
     new-instance v9, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$4;
 
     move-object v0, v9
@@ -945,10 +836,8 @@
 
     invoke-virtual {p0, v9}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 4
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -961,18 +850,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mListener:Lcom/meitu/core/magicpen/IMtPenCallback;
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mRenderer:Lcom/meitu/core/magicpen/MtPenRenderer;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1, p1}, Lcom/meitu/core/magicpen/MtPenRenderer;->setCallback(Lcom/meitu/core/magicpen/IMtPenCallback;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -986,17 +871,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$15;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$15;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;[Landroid/graphics/Bitmap;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1009,12 +891,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->mMtNativePen:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-virtual {v1, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->SetDensity(F)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1027,17 +907,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$7;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$7;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Z)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1052,22 +929,18 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     new-instance p1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$13;
 
     invoke-direct {p1, p0, p4}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$13;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetMtPen;)V
 
     invoke-virtual {p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v7, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$14;
 
@@ -1087,10 +960,8 @@
 
     invoke-virtual {p0, v7}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1103,7 +974,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$12;
 
     move-object v1, v7
@@ -1122,10 +992,8 @@
 
     invoke-virtual {p0, v7}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1138,14 +1006,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$25;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$25;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Z)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1158,7 +1024,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$9;
 
     move-object v1, v7
@@ -1177,10 +1042,8 @@
 
     invoke-virtual {p0, v7}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1195,17 +1058,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$8;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$8;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$setMosaicMaskDataComplete;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1219,17 +1079,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$10;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$10;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;I)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1242,7 +1099,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$11;
 
     move-object v1, v9
@@ -1267,10 +1123,8 @@
 
     invoke-virtual {p0, v9}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1283,7 +1137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$17;
 
     move-object v1, v7
@@ -1302,10 +1155,8 @@
 
     invoke-virtual {p0, v7}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1318,17 +1169,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$16;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$16;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;F)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1341,17 +1189,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 4
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$19;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$19;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Landroid/graphics/Bitmap;Lcom/meitu/core/magicpen/NativeGLMagicPen$MosaicScrawlType;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1364,17 +1209,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$18;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$18;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Ljava/lang/String;Lcom/meitu/core/magicpen/NativeGLMagicPen$MosaicScrawlType;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1387,17 +1229,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$20;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$20;-><init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishUndo;)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->runOnDrawPen(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

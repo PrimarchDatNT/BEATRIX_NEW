@@ -39,7 +39,6 @@
 .method constructor <init>(Lorg/apache/thrift/server/TServlet;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TServlet$1;->this$0:Lorg/apache/thrift/server/TServlet;
 
     iput-object p2, p0, Lorg/apache/thrift/server/TServlet$1;->val$key:Ljava/lang/String;
@@ -56,7 +55,6 @@
 .method public bridge synthetic getKey()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/server/TServlet$1;->getKey()Ljava/lang/String;
 
     move-result-object v0
@@ -67,7 +65,6 @@
 .method public getKey()Ljava/lang/String;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/server/TServlet$1;->val$key:Ljava/lang/String;
 
     return-object v0
@@ -76,7 +73,6 @@
 .method public bridge synthetic getValue()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/server/TServlet$1;->getValue()Ljava/lang/String;
 
     move-result-object v0
@@ -87,7 +83,6 @@
 .method public getValue()Ljava/lang/String;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/server/TServlet$1;->val$value:Ljava/lang/String;
 
     return-object v0
@@ -96,7 +91,6 @@
 .method public bridge synthetic setValue(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lorg/apache/thrift/server/TServlet$1;->setValue(Ljava/lang/String;)Ljava/lang/String;

@@ -7,7 +7,6 @@
 .method public constructor <init>(Lcom/google/firebase/firestore/model/e;Lcom/google/firebase/firestore/model/n/k;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/firebase/firestore/model/n/e;-><init>(Lcom/google/firebase/firestore/model/e;Lcom/google/firebase/firestore/model/n/k;)V
 
     return-void
@@ -28,10 +27,8 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/n/e;->k(Lcom/google/firebase/firestore/model/i;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/n/e;->f()Lcom/google/firebase/firestore/model/n/k;
 
     move-result-object p2
@@ -44,7 +41,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance p1, Lcom/google/firebase/firestore/model/j;
 
@@ -68,10 +64,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/n/e;->k(Lcom/google/firebase/firestore/model/i;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/google/firebase/firestore/model/n/h;->a()Ljava/util/List;
 
     move-result-object p1
@@ -94,10 +88,8 @@
 
     const-string v2, "Transform results received by DeleteMutation."
 
-    .line 3
     invoke-static {p1, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 4
     new-instance p1, Lcom/google/firebase/firestore/model/j;
 
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/n/e;->d()Lcom/google/firebase/firestore/model/e;
@@ -135,7 +127,6 @@
     :cond_0
     if-eqz p1, :cond_2
 
-    .line 1
     const-class v0, Lcom/google/firebase/firestore/model/n/b;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -146,11 +137,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/firestore/model/n/b;
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/n/e;->g(Lcom/google/firebase/firestore/model/n/e;)Z
 
     move-result p1
@@ -175,7 +164,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/n/e;->i()I
 
     move-result v0
@@ -186,7 +174,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

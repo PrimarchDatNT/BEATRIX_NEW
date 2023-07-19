@@ -40,10 +40,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lbolts/r;->a:Landroid/content/Context;
 
     return-void
@@ -57,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lbolts/r;->g(Lorg/json/JSONArray;)Ljava/util/Map;
 
     move-result-object p0
@@ -68,7 +65,6 @@
 .method static synthetic b(Ljava/util/Map;Landroid/net/Uri;)Lbolts/b;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lbolts/r;->f(Ljava/util/Map;Landroid/net/Uri;)Lbolts/b;
 
     move-result-object p0
@@ -79,7 +75,6 @@
 .method static synthetic c(Lbolts/r;)Landroid/content/Context;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lbolts/r;->a:Landroid/content/Context;
 
     return-object p0
@@ -93,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lbolts/r;->h(Ljava/net/URLConnection;)Ljava/lang/String;
 
     move-result-object p0
@@ -120,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -129,7 +122,6 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object p0
@@ -155,14 +147,12 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     const-string v2, "android"
 
-    .line 2
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -171,12 +161,10 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v2
 
-    .line 4
     :cond_0
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -203,33 +191,28 @@
 
     check-cast v3, Ljava/util/Map;
 
-    .line 5
     invoke-static {v3, v4}, Lbolts/r;->e(Ljava/util/Map;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v4
 
     const-string v8, "package"
 
-    .line 6
     invoke-static {v3, v8}, Lbolts/r;->e(Ljava/util/Map;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v8
 
     const-string v9, "class"
 
-    .line 7
     invoke-static {v3, v9}, Lbolts/r;->e(Ljava/util/Map;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v9
 
     const-string v10, "app_name"
 
-    .line 8
     invoke-static {v3, v10}, Lbolts/r;->e(Ljava/util/Map;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v3
 
-    .line 9
     invoke-interface {v4}, Ljava/util/List;->size()I
 
     move-result v10
@@ -261,7 +244,6 @@
     :goto_0
     if-ge v5, v10, :cond_1
 
-    .line 10
     invoke-interface {v4}, Ljava/util/List;->size()I
 
     move-result v11
@@ -286,12 +268,10 @@
     :goto_1
     check-cast v11, Ljava/lang/String;
 
-    .line 11
     invoke-static {v11}, Lbolts/r;->i(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v11
 
-    .line 12
     invoke-interface {v8}, Ljava/util/List;->size()I
 
     move-result v12
@@ -316,7 +296,6 @@
     :goto_2
     check-cast v12, Ljava/lang/String;
 
-    .line 13
     invoke-interface {v9}, Ljava/util/List;->size()I
 
     move-result v13
@@ -341,7 +320,6 @@
     :goto_3
     check-cast v13, Ljava/lang/String;
 
-    .line 14
     invoke-interface {v3}, Ljava/util/List;->size()I
 
     move-result v14
@@ -366,12 +344,10 @@
     :goto_4
     check-cast v14, Ljava/lang/String;
 
-    .line 15
     new-instance v15, Lbolts/b$a;
 
     invoke-direct {v15, v12, v13, v11, v14}, Lbolts/b$a;-><init>(Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;)V
 
-    .line 16
     invoke-interface {v1, v15}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v5, v5, 0x1
@@ -381,7 +357,6 @@
     :cond_6
     const-string/jumbo v2, "web"
 
-    .line 17
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -390,21 +365,18 @@
 
     if-eqz v0, :cond_8
 
-    .line 18
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v2
 
     if-lez v2, :cond_8
 
-    .line 19
     invoke-interface {v0, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/util/Map;
 
-    .line 20
     invoke-interface {v0, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -413,7 +385,6 @@
 
     const-string/jumbo v3, "should_fallback"
 
-    .line 21
     invoke-interface {v0, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -422,14 +393,12 @@
 
     if-eqz v0, :cond_7
 
-    .line 22
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v3
 
     if-lez v3, :cond_7
 
-    .line 23
     invoke-interface {v0, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -448,7 +417,6 @@
 
     const-string v8, "0"
 
-    .line 24
     filled-new-array {v3, v4, v8}, [Ljava/lang/String;
 
     move-result-object v3
@@ -477,14 +445,12 @@
 
     if-eqz v2, :cond_9
 
-    .line 25
     invoke-interface {v2}, Ljava/util/List;->size()I
 
     move-result v0
 
     if-lez v0, :cond_9
 
-    .line 26
     invoke-interface {v2, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -497,7 +463,6 @@
 
     check-cast v0, Ljava/lang/String;
 
-    .line 27
     invoke-static {v0}, Lbolts/r;->i(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v6
@@ -507,7 +472,6 @@
     :cond_8
     move-object/from16 v6, p1
 
-    .line 28
     :cond_9
     :goto_6
     new-instance v0, Lbolts/b;
@@ -539,7 +503,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -548,7 +511,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
@@ -556,26 +518,22 @@
 
     if-ge v2, v3, :cond_8
 
-    .line 3
     invoke-virtual {p0, v2}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v3
 
     const-string v4, "property"
 
-    .line 4
     invoke-virtual {v3, v4}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     const-string v5, ":"
 
-    .line 5
     invoke-virtual {v4, v5}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v4
 
-    .line 6
     aget-object v5, v4, v1
 
     const-string v6, "al"
@@ -595,7 +553,6 @@
 
     const/4 v6, 0x1
 
-    .line 7
     :goto_1
     array-length v8, v4
 
@@ -603,7 +560,6 @@
 
     if-ge v6, v8, :cond_5
 
-    .line 8
     aget-object v8, v4, v6
 
     invoke-interface {v7, v8}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -614,17 +570,14 @@
 
     if-nez v8, :cond_1
 
-    .line 9
     new-instance v8, Ljava/util/ArrayList;
 
     invoke-direct {v8}, Ljava/util/ArrayList;-><init>()V
 
-    .line 10
     aget-object v10, v4, v6
 
     invoke-interface {v7, v10, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     :cond_1
     invoke-interface {v8}, Ljava/util/List;->size()I
 
@@ -649,7 +602,6 @@
     :cond_2
     if-eqz v9, :cond_4
 
-    .line 12
     array-length v7, v4
 
     sub-int/2addr v7, v5
@@ -663,14 +615,12 @@
 
     goto :goto_3
 
-    .line 13
     :cond_4
     :goto_2
     new-instance v7, Ljava/util/HashMap;
 
     invoke-direct {v7}, Ljava/util/HashMap;-><init>()V
 
-    .line 14
     invoke-interface {v8, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :goto_3
@@ -681,14 +631,12 @@
     :cond_5
     const-string v4, "content"
 
-    .line 15
     invoke-virtual {v3, v4}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
 
     move-result v5
 
     if-eqz v5, :cond_7
 
-    .line 16
     invoke-virtual {v3, v4}, Lorg/json/JSONObject;->isNull(Ljava/lang/String;)Z
 
     move-result v5
@@ -697,12 +645,10 @@
 
     if-eqz v5, :cond_6
 
-    .line 17
     invoke-interface {v7, v6, v9}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_4
 
-    .line 18
     :cond_6
     invoke-virtual {v3, v4}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -728,17 +674,14 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Ljava/net/HttpURLConnection;
 
     if-eqz v0, :cond_0
 
-    .line 2
     move-object v0, p0
 
     check-cast v0, Ljava/net/HttpURLConnection;
 
-    .line 3
     :try_start_0
     invoke-virtual {p0}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
 
@@ -748,7 +691,6 @@
 
     goto :goto_0
 
-    .line 4
     :catch_0
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getErrorStream()Ljava/io/InputStream;
 
@@ -756,13 +698,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
 
     move-result-object v0
 
-    .line 6
     :goto_0
     :try_start_1
     new-instance v1, Ljava/io/ByteArrayOutputStream;
@@ -773,7 +713,6 @@
 
     new-array v2, v2, [B
 
-    .line 7
     :goto_1
     invoke-virtual {v0, v2}, Ljava/io/InputStream;->read([B)I
 
@@ -785,12 +724,10 @@
 
     if-eq v3, v4, :cond_1
 
-    .line 8
     invoke-virtual {v1, v2, v5, v3}, Ljava/io/ByteArrayOutputStream;->write([BII)V
 
     goto :goto_1
 
-    .line 9
     :cond_1
     invoke-virtual {p0}, Ljava/net/URLConnection;->getContentEncoding()Ljava/lang/String;
 
@@ -798,19 +735,16 @@
 
     if-nez v2, :cond_4
 
-    .line 10
     invoke-virtual {p0}, Ljava/net/URLConnection;->getContentType()Ljava/lang/String;
 
     move-result-object p0
 
     const-string v3, ";"
 
-    .line 11
     invoke-virtual {p0, v3}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
 
-    .line 12
     array-length v3, p0
 
     :goto_2
@@ -818,14 +752,12 @@
 
     aget-object v4, p0, v5
 
-    .line 13
     invoke-virtual {v4}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v4
 
     const-string v6, "charset="
 
-    .line 14
     invoke-virtual {v4, v6}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v6
@@ -834,7 +766,6 @@
 
     const/16 p0, 0x8
 
-    .line 15
     invoke-virtual {v4, p0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p0
@@ -854,7 +785,6 @@
 
     const-string v2, "UTF-8"
 
-    .line 16
     :cond_4
     new-instance p0, Ljava/lang/String;
 
@@ -866,7 +796,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 17
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
 
     return-object p0
@@ -888,7 +817,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-static {p0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -912,17 +840,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lbolts/j;
 
     invoke-direct {v0}, Lbolts/j;-><init>()V
 
-    .line 2
     new-instance v1, Lbolts/j;
 
     invoke-direct {v1}, Lbolts/j;-><init>()V
 
-    .line 3
     new-instance v2, Lbolts/r$c;
 
     invoke-direct {v2, p0, p1, v0, v1}, Lbolts/r$c;-><init>(Lbolts/r;Landroid/net/Uri;Lbolts/j;Lbolts/j;)V

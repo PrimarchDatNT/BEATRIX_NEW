@@ -30,7 +30,6 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/common/collect/MultimapBuilder$b;->b:I
 
     invoke-direct {p0}, Lcom/google/common/collect/MultimapBuilder$f;-><init>()V
@@ -56,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/MultimapBuilder$b;->b:I
 
     invoke-static {v0}, Lcom/google/common/collect/r1;->f(I)Ljava/util/Map;

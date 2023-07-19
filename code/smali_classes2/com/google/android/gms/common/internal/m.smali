@@ -23,7 +23,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,18 +45,15 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/internal/m;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/google/android/gms/common/internal/m;->b:Lcom/google/android/gms/common/internal/m;
 
     if-nez v1, :cond_0
 
-    .line 3
     new-instance v1, Lcom/google/android/gms/common/internal/d1;
 
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
@@ -69,13 +64,11 @@
 
     sput-object v1, Lcom/google/android/gms/common/internal/m;->b:Lcom/google/android/gms/common/internal/m;
 
-    .line 4
     :cond_0
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     sget-object p0, Lcom/google/android/gms/common/internal/m;->b:Lcom/google/android/gms/common/internal/m;
 
     return-object p0
@@ -83,7 +76,6 @@
     :catchall_0
     move-exception p0
 
-    .line 6
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -99,7 +91,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/internal/m$a;
 
     const/16 v1, 0x81
@@ -118,7 +109,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/internal/m$a;
 
     const/16 v1, 0x81
@@ -137,7 +127,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/internal/m$a;
 
     const/16 v1, 0x81
@@ -154,7 +143,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/internal/m$a;
 
     const/16 v1, 0x81
@@ -169,7 +157,6 @@
 .method public final f(Ljava/lang/String;Ljava/lang/String;ILandroid/content/ServiceConnection;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/internal/m$a;
 
     invoke-direct {v0, p1, p2, p3}, Lcom/google/android/gms/common/internal/m$a;-><init>(Ljava/lang/String;Ljava/lang/String;I)V

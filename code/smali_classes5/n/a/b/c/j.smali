@@ -10,7 +10,6 @@
 .method constructor <init>(ILjava/lang/String;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Ln/a/b/c/l;-><init>(ILjava/lang/String;Ljava/lang/Class;)V
 
     return-void
@@ -19,7 +18,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Ln/a/b/c/l;-><init>(Ljava/lang/String;)V
 
     return-void

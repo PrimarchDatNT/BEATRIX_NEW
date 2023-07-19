@@ -18,16 +18,12 @@
 .method public varargs constructor <init>(I[Lcom/google/firebase/crashlytics/e/l/d;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/firebase/crashlytics/e/l/a;->a:I
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/crashlytics/e/l/a;->b:[Lcom/google/firebase/crashlytics/e/l/d;
 
-    .line 4
     new-instance p2, Lcom/google/firebase/crashlytics/e/l/b;
 
     invoke-direct {p2, p1}, Lcom/google/firebase/crashlytics/e/l/b;-><init>(I)V
@@ -42,7 +38,6 @@
 .method public a([Ljava/lang/StackTraceElement;)[Ljava/lang/StackTraceElement;
     .locals 7
 
-    .line 1
     array-length v0, p1
 
     iget v1, p0, Lcom/google/firebase/crashlytics/e/l/a;->a:I
@@ -51,7 +46,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/l/a;->b:[Lcom/google/firebase/crashlytics/e/l/d;
 
@@ -66,7 +60,6 @@
 
     aget-object v4, v0, v2
 
-    .line 3
     array-length v5, v3
 
     iget v6, p0, Lcom/google/firebase/crashlytics/e/l/a;->a:I
@@ -75,7 +68,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-interface {v4, p1}, Lcom/google/firebase/crashlytics/e/l/d;->a([Ljava/lang/StackTraceElement;)[Ljava/lang/StackTraceElement;
 
@@ -85,7 +77,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     :goto_1
     array-length p1, v3
@@ -94,7 +85,6 @@
 
     if-le p1, v0, :cond_3
 
-    .line 6
     iget-object p1, p0, Lcom/google/firebase/crashlytics/e/l/a;->c:Lcom/google/firebase/crashlytics/e/l/b;
 
     invoke-virtual {p1, v3}, Lcom/google/firebase/crashlytics/e/l/b;->a([Ljava/lang/StackTraceElement;)[Ljava/lang/StackTraceElement;

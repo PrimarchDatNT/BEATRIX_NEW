@@ -163,7 +163,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->label:I
 
     const/4 v2, 0x1
@@ -188,7 +187,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -198,13 +196,11 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     iget-object p1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->p$:Lcotlinx/coroutines/m0;
 
-    .line 4
     new-instance v1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -213,12 +209,10 @@
 
     iput-object v3, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     iget-object v3, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->this$0:Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;
 
     iget-object v3, v3, Lcotlinx/coroutines/flow/internal/ChannelFlowOperator;->c:Lcotlinx/coroutines/flow/d;
 
-    .line 6
     new-instance v4, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3$invokeSuspend$$inlined$collect$1;
 
     invoke-direct {v4, p0, p1, v1}, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3$invokeSuspend$$inlined$collect$1;-><init>(Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;Lcotlinx/coroutines/m0;Lcotlin/jvm/internal/Ref$ObjectRef;)V
@@ -239,7 +233,6 @@
 
     return-object v0
 
-    .line 7
     :cond_2
     :goto_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;

@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 
     const/4 v3, 0x0
 
-    .line 1
     invoke-static {p0, v1, v2, v3}, Lcom/commsource/util/common/l;->x(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -53,10 +51,8 @@
 
     const-string v2, "CONTACT_WAY"
 
-    .line 1
     invoke-static {p0, v1, v2, p1}, Lcom/commsource/util/common/l;->C(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/concurrent/atomic/AtomicLong;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lcom/google/common/cache/LongAddables$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/cache/LongAddables$PureJavaLongAddable;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
 .method public add(J)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/util/concurrent/atomic/AtomicLong;->getAndAdd(J)J
 
     return-void
@@ -50,7 +47,6 @@
 .method public increment()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicLong;->getAndIncrement()J
 
     return-void
@@ -59,7 +55,6 @@
 .method public sum()J
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicLong;->get()J
 
     move-result-wide v0

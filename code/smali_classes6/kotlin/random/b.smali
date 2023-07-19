@@ -14,10 +14,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcotlin/random/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcotlin/random/b$a;
 
     invoke-direct {v0}, Lcotlin/random/b$a;-><init>()V
@@ -34,7 +32,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/random/b;->c:Lcotlin/random/b$a;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;

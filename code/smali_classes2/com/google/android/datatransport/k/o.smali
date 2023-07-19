@@ -37,16 +37,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/k/o;->a:Ljava/util/Set;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/datatransport/k/o;->b:Lcom/google/android/datatransport/k/n;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/datatransport/k/o;->c:Lcom/google/android/datatransport/k/r;
 
     return-void
@@ -73,7 +69,6 @@
 
     const-string v0, "proto"
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/datatransport/c;->b(Ljava/lang/String;)Lcom/google/android/datatransport/c;
 
     move-result-object v0
@@ -103,7 +98,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p2, p0, Lcom/google/android/datatransport/k/o;->a:Ljava/util/Set;
 
     invoke-interface {p2, p3}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
@@ -112,7 +106,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     new-instance p2, Lcom/google/android/datatransport/k/q;
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/o;->b:Lcom/google/android/datatransport/k/n;
@@ -131,7 +124,6 @@
 
     return-object p2
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -151,7 +143,6 @@
 
     const-string p3, "%s is not supported byt this factory. Supported encodings are: %s."
 
-    .line 4
     invoke-static {p3, p2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2

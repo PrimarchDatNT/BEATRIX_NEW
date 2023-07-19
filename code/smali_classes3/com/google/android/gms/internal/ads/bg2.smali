@@ -19,7 +19,6 @@
 
     new-array v0, v0, [B
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lcom/google/android/gms/internal/ads/bg2;->a:[B
@@ -28,7 +27,6 @@
 
     new-array v0, v0, [I
 
-    .line 2
     fill-array-data v0, :array_1
 
     sput-object v0, Lcom/google/android/gms/internal/ads/bg2;->b:[I
@@ -37,7 +35,6 @@
 
     new-array v0, v0, [I
 
-    .line 3
     fill-array-data v0, :array_2
 
     sput-object v0, Lcom/google/android/gms/internal/ads/bg2;->c:[I
@@ -97,7 +94,6 @@
 
     const/4 v0, 0x5
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/kg2;->a(I)I
 
     move-result v0
@@ -108,7 +104,6 @@
 
     const/4 v0, 0x6
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/kg2;->a(I)I
 
     move-result p0
@@ -124,7 +119,6 @@
 
     const/4 v0, 0x4
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/kg2;->a(I)I
 
     move-result v0
@@ -135,7 +129,6 @@
 
     const/16 v0, 0x18
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/kg2;->a(I)I
 
     move-result p0
@@ -154,11 +147,9 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 3
     :goto_0
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/cg2;->a(Z)V
 
-    .line 4
     sget-object p0, Lcom/google/android/gms/internal/ads/bg2;->b:[I
 
     aget p0, p0, v0
@@ -170,7 +161,6 @@
 .method public static c([BII)[B
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/bg2;->a:[B
 
     array-length v1, v0
@@ -179,14 +169,12 @@
 
     new-array v1, v1, [B
 
-    .line 2
     array-length v2, v0
 
     const/4 v3, 0x0
 
     invoke-static {v0, v3, v1, v3, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 3
     array-length v0, v0
 
     invoke-static {p0, p1, v1, v0, p2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
@@ -206,24 +194,20 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/kg2;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/kg2;-><init>([B)V
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/bg2;->a(Lcom/google/android/gms/internal/ads/kg2;)I
 
     move-result p0
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/bg2;->b(Lcom/google/android/gms/internal/ads/kg2;)I
 
     move-result v1
 
     const/4 v2, 0x4
 
-    .line 4
     invoke-virtual {v0, v2}, Lcom/google/android/gms/internal/ads/kg2;->a(I)I
 
     move-result v3
@@ -236,13 +220,11 @@
 
     if-ne p0, v4, :cond_1
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/bg2;->b(Lcom/google/android/gms/internal/ads/kg2;)I
 
     move-result v1
 
-    .line 6
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/bg2;->a(Lcom/google/android/gms/internal/ads/kg2;)I
 
     move-result p0
@@ -251,12 +233,10 @@
 
     if-ne p0, v4, :cond_1
 
-    .line 7
     invoke-virtual {v0, v2}, Lcom/google/android/gms/internal/ads/kg2;->a(I)I
 
     move-result v3
 
-    .line 8
     :cond_1
     sget-object p0, Lcom/google/android/gms/internal/ads/bg2;->c:[I
 
@@ -273,11 +253,9 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/cg2;->a(Z)V
 
-    .line 10
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0

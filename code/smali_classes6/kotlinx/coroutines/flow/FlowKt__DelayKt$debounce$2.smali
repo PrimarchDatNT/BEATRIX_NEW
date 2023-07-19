@@ -188,7 +188,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v2, v1, Lcotlinx/coroutines/flow/FlowKt__DelayKt$debounce$2;->label:I
 
     const/4 v3, 0x1
@@ -233,7 +232,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -243,7 +241,6 @@
 
     throw v0
 
-    .line 3
     :cond_1
     invoke-static/range {p1 .. p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
@@ -255,7 +252,6 @@
 
     const/4 v6, -0x1
 
-    .line 4
     new-instance v7, Lcotlinx/coroutines/flow/FlowKt__DelayKt$debounce$2$values$1;
 
     const/4 v11, 0x0
@@ -272,7 +268,6 @@
 
     move-result-object v4
 
-    .line 5
     new-instance v5, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v5}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -291,7 +286,6 @@
 
     move-object v2, v0
 
-    .line 6
     :goto_0
     iget-object v0, v12, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
@@ -299,7 +293,6 @@
 
     if-eq v0, v4, :cond_5
 
-    .line 7
     iput-object v15, v11, Lcotlinx/coroutines/flow/FlowKt__DelayKt$debounce$2;->L$0:Ljava/lang/Object;
 
     iput-object v14, v11, Lcotlinx/coroutines/flow/FlowKt__DelayKt$debounce$2;->L$1:Ljava/lang/Object;
@@ -312,12 +305,10 @@
 
     iput v3, v11, Lcotlinx/coroutines/flow/FlowKt__DelayKt$debounce$2;->label:I
 
-    .line 8
     new-instance v10, Lcotlinx/coroutines/selects/b;
 
     invoke-direct {v10, v11}, Lcotlinx/coroutines/selects/b;-><init>(Lcotlin/coroutines/c;)V
 
-    .line 9
     :try_start_0
     invoke-interface {v13}, Lcotlinx/coroutines/channels/y;->K()Lcotlinx/coroutines/selects/d;
 
@@ -343,12 +334,10 @@
 
     invoke-interface {v10, v0, v3}, Lcotlinx/coroutines/selects/a;->x(Lcotlinx/coroutines/selects/d;Lcotlin/jvm/u/p;)V
 
-    .line 10
     iget-object v5, v12, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     if-eqz v5, :cond_2
 
-    .line 11
     iget-wide v8, v11, Lcotlinx/coroutines/flow/FlowKt__DelayKt$debounce$2;->$timeoutMillis:J
 
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$debounce$2$invokeSuspend$$inlined$select$lambda$2;
@@ -405,17 +394,14 @@
 
     move-object/from16 v18, v11
 
-    .line 12
     :goto_1
     invoke-virtual {v3, v0}, Lcotlinx/coroutines/selects/b;->n0(Ljava/lang/Throwable;)V
 
-    .line 13
     :goto_2
     invoke-virtual {v3}, Lcotlinx/coroutines/selects/b;->m0()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 14
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v3
@@ -437,7 +423,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_5
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 

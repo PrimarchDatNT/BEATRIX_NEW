@@ -40,7 +40,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/t2;
 
     iget-object v1, p0, Lcotlinx/coroutines/j3$a;->a:Lcotlinx/coroutines/j3;
@@ -103,7 +102,6 @@
 .method public bridge synthetic newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/j3$a;->a(Ljava/lang/Runnable;)Lcotlinx/coroutines/t2;
 
     move-result-object p1

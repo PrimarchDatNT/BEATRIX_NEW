@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/camera/mvp/helper/h;->c(Landroid/content/Context;)Z
 
     move-result v1
@@ -53,14 +51,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/d/i/n;->V0(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/util/b1;->h(Landroid/content/Context;)Z
 
     move-result v1
@@ -73,7 +69,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lf/d/i/n;->Z0(Landroid/content/Context;)Z
 
@@ -88,7 +83,6 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -102,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/b1;->h(Landroid/content/Context;)Z
 
     move-result v1
@@ -121,7 +114,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/util/c0;->w(Landroid/content/Context;)Z
 
     move-result p0
@@ -139,7 +131,6 @@
     :goto_0
     const/4 p0, 0x1
 
-    .line 3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -32,7 +32,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;Landroid/widget/ImageView;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;->N:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     iput-object p3, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;->M:Ljava/lang/String;
@@ -59,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;->o(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/k/f;)V
@@ -80,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;->p(Landroid/graphics/drawable/Drawable;)V
@@ -115,13 +112,11 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     instance-of v0, p1, Lcom/bumptech/glide/integration/webp/decoder/k;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;->N:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Q0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Lcom/commsource/beautyplus/f0/am;
@@ -132,14 +127,12 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;->N:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     check-cast p1, Lcom/bumptech/glide/integration/webp/decoder/k;
 
     invoke-static {v0, p1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->R0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;Lcom/bumptech/glide/integration/webp/decoder/k;)Lcom/bumptech/glide/integration/webp/decoder/k;
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;->N:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;->M:Ljava/lang/String;
@@ -153,10 +146,8 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 6
     :cond_0
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -175,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;->N:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->Q0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Lcom/commsource/beautyplus/f0/am;
@@ -186,7 +176,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/MTCommandImageBase64GetScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandImageBase64GetScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandImageBase64GetScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandImageBase64GetScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandImageBase64GetScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandImageBase64GetScript$Model;)V
@@ -64,12 +62,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandImageBase64GetScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandImageBase64GetScript;
 
     invoke-static {v1, p1}, Lcom/meitu/webview/mtscript/MTCommandImageBase64GetScript;->I(Lcom/meitu/webview/mtscript/MTCommandImageBase64GetScript;Lcom/meitu/webview/mtscript/MTCommandImageBase64GetScript$Model;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -52,17 +52,14 @@
 .method private constructor <init>(Lio/grpc/internal/j2;Lio/grpc/okhttp/b$a;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lio/grpc/okhttp/a;->a:Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Lokio/Buffer;
 
     invoke-direct {v0}, Lokio/Buffer;-><init>()V
@@ -71,18 +68,14 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lio/grpc/okhttp/a;->f:Z
 
-    .line 5
     iput-boolean v0, p0, Lio/grpc/okhttp/a;->g:Z
 
-    .line 6
     iput-boolean v0, p0, Lio/grpc/okhttp/a;->p:Z
 
     const-string v0, "executor"
 
-    .line 7
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -93,7 +86,6 @@
 
     const-string p1, "exceptionHandler"
 
-    .line 8
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -108,7 +100,6 @@
 .method static synthetic a(Lio/grpc/okhttp/a;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/a;->a:Ljava/lang/Object;
 
     return-object p0
@@ -117,7 +108,6 @@
 .method static synthetic b(Lio/grpc/okhttp/a;)Lokio/Buffer;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/a;->b:Lokio/Buffer;
 
     return-object p0
@@ -126,7 +116,6 @@
 .method static synthetic c(Lio/grpc/okhttp/a;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/okhttp/a;->f:Z
 
     return p1
@@ -135,7 +124,6 @@
 .method static synthetic d(Lio/grpc/okhttp/a;)Lokio/Sink;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/a;->J:Lokio/Sink;
 
     return-object p0
@@ -144,7 +132,6 @@
 .method static synthetic e(Lio/grpc/okhttp/a;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/okhttp/a;->g:Z
 
     return p1
@@ -153,7 +140,6 @@
 .method static synthetic f(Lio/grpc/okhttp/a;)Lio/grpc/okhttp/b$a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/a;->d:Lio/grpc/okhttp/b$a;
 
     return-object p0
@@ -162,7 +148,6 @@
 .method static synthetic g(Lio/grpc/okhttp/a;)Ljava/net/Socket;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/a;->K:Ljava/net/Socket;
 
     return-object p0
@@ -171,7 +156,6 @@
 .method static i(Lio/grpc/internal/j2;Lio/grpc/okhttp/b$a;)Lio/grpc/okhttp/a;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/okhttp/a;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/okhttp/a;-><init>(Lio/grpc/internal/j2;Lio/grpc/okhttp/b$a;)V
@@ -184,7 +168,6 @@
 .method public close()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/okhttp/a;->p:Z
 
     if-eqz v0, :cond_0
@@ -194,10 +177,8 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lio/grpc/okhttp/a;->p:Z
 
-    .line 3
     iget-object v0, p0, Lio/grpc/okhttp/a;->c:Lio/grpc/internal/j2;
 
     new-instance v1, Lio/grpc/okhttp/a$c;
@@ -217,17 +198,14 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/okhttp/a;->p:Z
 
     if-nez v0, :cond_1
 
     const-string v0, "AsyncSink.flush"
 
-    .line 2
     invoke-static {v0}, Li/b/c;->l(Ljava/lang/String;)V
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/a;->a:Ljava/lang/Object;
 
@@ -235,20 +213,17 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 4
     :try_start_1
     iget-boolean v1, p0, Lio/grpc/okhttp/a;->g:Z
 
     if-eqz v1, :cond_0
 
-    .line 5
     monitor-exit v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     const-string v0, "AsyncSink.flush"
 
-    .line 6
     invoke-static {v0}, Li/b/c;->n(Ljava/lang/String;)V
 
     return-void
@@ -256,16 +231,13 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 7
     :try_start_2
     iput-boolean v1, p0, Lio/grpc/okhttp/a;->g:Z
 
-    .line 8
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 9
     :try_start_3
     iget-object v0, p0, Lio/grpc/okhttp/a;->c:Lio/grpc/internal/j2;
 
@@ -279,7 +251,6 @@
 
     const-string v0, "AsyncSink.flush"
 
-    .line 10
     invoke-static {v0}, Li/b/c;->n(Ljava/lang/String;)V
 
     return-void
@@ -287,7 +258,6 @@
     :catchall_0
     move-exception v1
 
-    .line 11
     :try_start_4
     monitor-exit v0
     :try_end_4
@@ -303,12 +273,10 @@
 
     const-string v1, "AsyncSink.flush"
 
-    .line 12
     invoke-static {v1}, Li/b/c;->n(Ljava/lang/String;)V
 
     throw v0
 
-    .line 13
     :cond_1
     new-instance v0, Ljava/io/IOException;
 
@@ -322,7 +290,6 @@
 .method h(Lokio/Sink;Ljava/net/Socket;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/a;->J:Lokio/Sink;
 
     if-nez v0, :cond_0
@@ -341,7 +308,6 @@
 
     const-string v0, "sink"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -352,7 +318,6 @@
 
     const-string p1, "socket"
 
-    .line 3
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -367,7 +332,6 @@
 .method public timeout()Lokio/Timeout;
     .locals 1
 
-    .line 1
     sget-object v0, Lokio/Timeout;->NONE:Lokio/Timeout;
 
     return-object v0
@@ -383,20 +347,16 @@
 
     const-string v0, "source"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-boolean v0, p0, Lio/grpc/okhttp/a;->p:Z
 
     if-nez v0, :cond_2
 
     const-string v0, "AsyncSink.write"
 
-    .line 3
     invoke-static {v0}, Li/b/c;->l(Ljava/lang/String;)V
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/a;->a:Ljava/lang/Object;
 
@@ -404,13 +364,11 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     :try_start_1
     iget-object v1, p0, Lio/grpc/okhttp/a;->b:Lokio/Buffer;
 
     invoke-virtual {v1, p1, p2, p3}, Lokio/Buffer;->write(Lokio/Buffer;J)V
 
-    .line 6
     iget-boolean p1, p0, Lio/grpc/okhttp/a;->f:Z
 
     if-nez p1, :cond_1
@@ -436,15 +394,12 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 7
     iput-boolean p1, p0, Lio/grpc/okhttp/a;->f:Z
 
-    .line 8
     monitor-exit v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 9
     :try_start_2
     iget-object p1, p0, Lio/grpc/okhttp/a;->c:Lio/grpc/internal/j2;
 
@@ -458,12 +413,10 @@
 
     const-string p1, "AsyncSink.write"
 
-    .line 10
     invoke-static {p1}, Li/b/c;->n(Ljava/lang/String;)V
 
     return-void
 
-    .line 11
     :cond_1
     :goto_0
     :try_start_3
@@ -473,7 +426,6 @@
 
     const-string p1, "AsyncSink.write"
 
-    .line 12
     invoke-static {p1}, Li/b/c;->n(Ljava/lang/String;)V
 
     return-void
@@ -481,7 +433,6 @@
     :catchall_0
     move-exception p1
 
-    .line 13
     :try_start_4
     monitor-exit v0
     :try_end_4
@@ -497,12 +448,10 @@
 
     const-string p2, "AsyncSink.write"
 
-    .line 14
     invoke-static {p2}, Li/b/c;->n(Ljava/lang/String;)V
 
     throw p1
 
-    .line 15
     :cond_2
     new-instance p1, Ljava/io/IOException;
 

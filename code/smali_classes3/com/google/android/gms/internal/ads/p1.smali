@@ -33,7 +33,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/y0;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -42,7 +41,6 @@
 
     const-string v0, "gads:adshield:enable_adshield_instrumentation"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/y0;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0

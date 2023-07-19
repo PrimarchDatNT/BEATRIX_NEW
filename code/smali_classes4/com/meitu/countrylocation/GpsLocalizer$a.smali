@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/countrylocation/GpsLocalizer;Landroid/location/LocationManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/GpsLocalizer$a;->b:Lcom/meitu/countrylocation/GpsLocalizer;
 
     iput-object p2, p0, Lcom/meitu/countrylocation/GpsLocalizer$a;->a:Landroid/location/LocationManager;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -65,12 +63,10 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/countrylocation/GpsLocalizer$a;->a:Landroid/location/LocationManager;
 
     invoke-virtual {v1, p0}, Landroid/location/LocationManager;->removeUpdates(Landroid/location/LocationListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/countrylocation/GpsLocalizer$a;->b:Lcom/meitu/countrylocation/GpsLocalizer;
 
     invoke-virtual {v1}, Lcom/meitu/countrylocation/Localizer;->c()Z
@@ -79,12 +75,10 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/countrylocation/GpsLocalizer$a;->b:Lcom/meitu/countrylocation/GpsLocalizer;
 
     invoke-static {v1, p1}, Lcom/meitu/countrylocation/GpsLocalizer;->j(Lcom/meitu/countrylocation/GpsLocalizer;Landroid/location/Location;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -98,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -117,12 +110,10 @@
 
     invoke-static {v1, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/countrylocation/GpsLocalizer$a;->a:Landroid/location/LocationManager;
 
     invoke-virtual {p1, p0}, Landroid/location/LocationManager;->removeUpdates(Landroid/location/LocationListener;)V
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/countrylocation/GpsLocalizer$a;->b:Lcom/meitu/countrylocation/GpsLocalizer;
 
     invoke-virtual {p1}, Lcom/meitu/countrylocation/Localizer;->c()Z
@@ -131,12 +122,10 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/countrylocation/GpsLocalizer$a;->b:Lcom/meitu/countrylocation/GpsLocalizer;
 
     invoke-virtual {p1}, Lcom/meitu/countrylocation/Localizer;->e()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -150,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -169,7 +157,6 @@
 
     invoke-static {v1, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -182,7 +169,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
@@ -201,7 +187,6 @@
 
     invoke-static {p3, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

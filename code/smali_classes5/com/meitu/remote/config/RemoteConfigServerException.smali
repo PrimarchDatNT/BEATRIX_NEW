@@ -20,10 +20,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/meitu/remote/config/RemoteConfigException;-><init>(Ljava/lang/String;)V
 
-    .line 2
     iput p1, p0, Lcom/meitu/remote/config/RemoteConfigServerException;->httpStatusCode:I
 
     return-void
@@ -45,10 +43,8 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0, p2, p3}, Lcom/meitu/remote/config/RemoteConfigException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 4
     iput p1, p0, Lcom/meitu/remote/config/RemoteConfigServerException;->httpStatusCode:I
 
     return-void
@@ -63,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/remote/config/RemoteConfigServerException;->httpStatusCode:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

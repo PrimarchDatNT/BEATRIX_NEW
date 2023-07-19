@@ -28,7 +28,6 @@
 .method constructor <init>(J)V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
@@ -47,17 +46,14 @@
     :goto_0
     const-string v1, "data length is zero!"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/atomic/AtomicLongArray;
 
     const-wide/16 v1, 0x40
 
     sget-object v3, Ljava/math/RoundingMode;->CEILING:Ljava/math/RoundingMode;
 
-    .line 4
     invoke-static {p1, p2, v1, v2, v3}, Lcom/google/common/math/LongMath;->g(JJLjava/math/RoundingMode;)J
 
     move-result-wide p1
@@ -70,7 +66,6 @@
 
     iput-object v0, p0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
-    .line 5
     invoke-static {}, Lcom/google/common/hash/LongAddables;->a()Lcom/google/common/hash/n;
 
     move-result-object p1
@@ -83,10 +78,8 @@
 .method constructor <init>([J)V
     .locals 6
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 7
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -105,14 +98,12 @@
 
     invoke-static {v0, v2}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 8
     new-instance v0, Ljava/util/concurrent/atomic/AtomicLongArray;
 
     invoke-direct {v0, p1}, Ljava/util/concurrent/atomic/AtomicLongArray;-><init>([J)V
 
     iput-object v0, p0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
-    .line 9
     invoke-static {}, Lcom/google/common/hash/LongAddables;->a()Lcom/google/common/hash/n;
 
     move-result-object v0
@@ -121,7 +112,6 @@
 
     const-wide/16 v2, 0x0
 
-    .line 10
     array-length v0, p1
 
     :goto_1
@@ -129,7 +119,6 @@
 
     aget-wide v4, p1, v1
 
-    .line 11
     invoke-static {v4, v5}, Ljava/lang/Long;->bitCount(J)I
 
     move-result v4
@@ -142,7 +131,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_1
     iget-object p1, p0, Lcom/google/common/hash/BloomFilterStrategies$a;->b:Lcom/google/common/hash/n;
 
@@ -154,7 +142,6 @@
 .method public static g(Ljava/util/concurrent/atomic/AtomicLongArray;)[J
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicLongArray;->length()I
 
     move-result v0
@@ -166,7 +153,6 @@
     :goto_0
     if-ge v2, v0, :cond_0
 
-    .line 2
     invoke-virtual {p0, v2}, Ljava/util/concurrent/atomic/AtomicLongArray;->get(I)J
 
     move-result-wide v3
@@ -186,7 +172,6 @@
 .method a()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/hash/BloomFilterStrategies$a;->b:Lcom/google/common/hash/n;
 
     invoke-interface {v0}, Lcom/google/common/hash/n;->sum()J
@@ -199,7 +184,6 @@
 .method b()J
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicLongArray;->length()I
@@ -218,7 +202,6 @@
 .method c()Lcom/google/common/hash/BloomFilterStrategies$a;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/hash/BloomFilterStrategies$a;
 
     iget-object v1, p0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
@@ -235,7 +218,6 @@
 .method d(J)Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
     const/4 v1, 0x6
@@ -280,10 +262,8 @@
 
     move-object/from16 v1, p1
 
-    .line 1
     iget-object v2, v0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
-    .line 2
     invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicLongArray;->length()I
 
     move-result v2
@@ -310,26 +290,22 @@
     :goto_0
     iget-object v3, v0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
-    .line 3
     invoke-virtual {v3}, Ljava/util/concurrent/atomic/AtomicLongArray;->length()I
 
     move-result v3
 
     iget-object v6, v1, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
-    .line 4
     invoke-virtual {v6}, Ljava/util/concurrent/atomic/AtomicLongArray;->length()I
 
     move-result v6
 
     const-string v7, "BitArrays must be of equal length (%s != %s)"
 
-    .line 5
     invoke-static {v2, v7, v3, v6}, Lcom/google/common/base/t;->m(ZLjava/lang/String;II)V
 
     const/4 v2, 0x0
 
-    .line 6
     :goto_1
     iget-object v3, v0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
@@ -339,14 +315,12 @@
 
     if-ge v2, v3, :cond_4
 
-    .line 7
     iget-object v3, v1, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
     invoke-virtual {v3, v2}, Ljava/util/concurrent/atomic/AtomicLongArray;->get(I)J
 
     move-result-wide v6
 
-    .line 8
     :cond_1
     iget-object v3, v0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
@@ -364,7 +338,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_2
     iget-object v8, v0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
@@ -385,7 +358,6 @@
     :goto_2
     if-eqz v3, :cond_3
 
-    .line 10
     invoke-static/range {v16 .. v17}, Ljava/lang/Long;->bitCount(J)I
 
     move-result v3
@@ -396,7 +368,6 @@
 
     sub-int/2addr v3, v6
 
-    .line 11
     iget-object v6, v0, Lcom/google/common/hash/BloomFilterStrategies$a;->b:Lcom/google/common/hash/n;
 
     int-to-long v7, v3
@@ -419,15 +390,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/hash/BloomFilterStrategies$a;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/hash/BloomFilterStrategies$a;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
     invoke-static {v0}, Lcom/google/common/hash/BloomFilterStrategies$a;->g(Ljava/util/concurrent/atomic/AtomicLongArray;)[J
@@ -455,7 +423,6 @@
 .method f(J)Z
     .locals 10
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/hash/BloomFilterStrategies$a;->d(J)Z
 
     move-result v0
@@ -479,7 +446,6 @@
 
     shl-long p1, v2, p2
 
-    .line 2
     :cond_1
     iget-object v2, p0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
@@ -495,7 +461,6 @@
 
     return v1
 
-    .line 3
     :cond_2
     iget-object v4, p0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
@@ -507,7 +472,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/google/common/hash/BloomFilterStrategies$a;->b:Lcom/google/common/hash/n;
 
     invoke-interface {p1}, Lcom/google/common/hash/n;->increment()V
@@ -520,7 +484,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/hash/BloomFilterStrategies$a;->a:Ljava/util/concurrent/atomic/AtomicLongArray;
 
     invoke-static {v0}, Lcom/google/common/hash/BloomFilterStrategies$a;->g(Ljava/util/concurrent/atomic/AtomicLongArray;)[J

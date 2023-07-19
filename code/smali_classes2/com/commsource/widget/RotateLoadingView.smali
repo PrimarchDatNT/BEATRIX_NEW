@@ -26,7 +26,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/RotateLoadingView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -49,7 +48,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/RotateLoadingView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -70,14 +68,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, 0x2
 
     new-array p1, p1, [F
 
-    .line 4
     fill-array-data p1, :array_0
 
     const-string p2, "rotation"
@@ -90,14 +86,12 @@
 
     const-string p2, "animator"
 
-    .line 5
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v0, 0x3e8
 
     invoke-virtual {p1, v0, v1}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
-    .line 6
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance p3, Landroid/view/animation/LinearInterpolator;
@@ -106,7 +100,6 @@
 
     invoke-virtual {p1, p3}, Landroid/animation/ObjectAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 7
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p2, -0x1
@@ -202,15 +195,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/RotateLoadingView;->a:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ObjectAnimator;->cancel()V
 
-    .line 2
     invoke-super {p0}, Landroid/view/View;->onDetachedFromWindow()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -223,19 +213,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onWindowVisibilityChanged(I)V
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/util/l0;->z(Landroid/view/View;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/RotateLoadingView;->a:Landroid/animation/ObjectAnimator;
 
     const-string v1, "animator"
@@ -248,20 +235,17 @@
 
     if-nez p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/RotateLoadingView;->a:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/widget/RotateLoadingView;->a:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->cancel()V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -276,17 +260,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/util/l0;->z(Landroid/view/View;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/RotateLoadingView;->a:Landroid/animation/ObjectAnimator;
 
     const-string v1, "animator"
@@ -299,20 +280,17 @@
 
     if-nez p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/RotateLoadingView;->a:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/widget/RotateLoadingView;->a:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->cancel()V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

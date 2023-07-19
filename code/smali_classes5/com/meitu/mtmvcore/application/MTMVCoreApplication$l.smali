@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;IILjava/util/concurrent/Semaphore;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$l;->d:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     iput p2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$l;->a:I
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$l;->d:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     iget v2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$l;->a:I
@@ -63,7 +61,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$200(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;II)V
 
-    .line 2
     iget v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$l;->a:I
 
     iget v2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$l;->b:I
@@ -76,18 +73,14 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 3
     invoke-static {v1, v1, v1, v2}, Landroid/opengl/GLES20;->glClearColor(FFFF)V
 
     const/16 v1, 0x4000
 
-    .line 4
     invoke-static {v1}, Landroid/opengl/GLES20;->glClear(I)V
 
-    .line 5
     invoke-static {}, Landroid/opengl/GLES20;->glFinish()V
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$l;->d:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$000(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)Lcom/meitu/mtmvcore/backend/android/r/a;
@@ -100,12 +93,10 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/mtmvcore/backend/android/r/a;->l(II)V
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$l;->c:Ljava/util/concurrent/Semaphore;
 
     invoke-virtual {v1}, Ljava/util/concurrent/Semaphore;->release()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

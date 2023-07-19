@@ -26,7 +26,6 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcotlinx/coroutines/internal/p$b;->a:I

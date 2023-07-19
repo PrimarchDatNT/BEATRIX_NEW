@@ -16,15 +16,12 @@
 .method public constructor <init>(Lcom/google/android/gms/measurement/internal/m5;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/o5;->b:Lcom/google/android/gms/measurement/internal/m5;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/o5;->a:Ljava/lang/String;
 
     return-void
@@ -42,7 +39,6 @@
 
     move-result-object p1
 
-    .line 1
     iget-object p2, p0, Lcom/google/android/gms/measurement/internal/o5;->b:Lcom/google/android/gms/measurement/internal/m5;
 
     invoke-virtual {p2}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
@@ -59,7 +55,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void

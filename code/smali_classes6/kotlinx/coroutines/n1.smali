@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "REMOVED_TASK"
@@ -37,7 +36,6 @@
 
     sput-object v0, Lcotlinx/coroutines/n1;->a:Lcotlinx/coroutines/internal/c0;
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "CLOSED_EMPTY"
@@ -64,7 +62,6 @@
 .method public static final synthetic c()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/n1;->h:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -73,7 +70,6 @@
 .method public static final synthetic d()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/n1;->a:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -84,7 +80,6 @@
 
     const-wide/32 v0, 0xf4240
 
-    .line 1
     div-long/2addr p0, v0
 
     return-wide p0

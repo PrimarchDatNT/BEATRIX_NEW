@@ -41,7 +41,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/i2/a;->b:Ljava/util/concurrent/TimeUnit;
@@ -56,7 +55,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v7, Lcotlin/i2/a$a;
 
     invoke-virtual {p0}, Lcotlin/i2/a;->c()D
@@ -85,7 +83,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/i2/a;->b:Ljava/util/concurrent/TimeUnit;
 
     return-object v0

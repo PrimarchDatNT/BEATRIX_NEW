@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$b;->b:Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;
 
     iput p2, p0, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$b;->a:I
@@ -43,10 +42,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$b;->b:Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;
 
     invoke-static {p1}, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;->f(Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;)Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$c;
@@ -65,7 +62,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$b;->b:Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;
 
     invoke-static {p1}, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;->f(Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;)Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$c;
@@ -76,7 +72,6 @@
 
     invoke-interface {p1, v2, v1}, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$c;->b(IZ)V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$b;->b:Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;
 
@@ -88,17 +83,14 @@
 
     invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$b;->b:Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;
 
     invoke-static {p1, v1}, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;->h(Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;Z)Z
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$b;->b:Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

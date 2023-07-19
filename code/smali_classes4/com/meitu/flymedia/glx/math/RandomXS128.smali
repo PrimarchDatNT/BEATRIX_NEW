@@ -19,10 +19,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/util/Random;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/Random;
 
     invoke-direct {v0}, Ljava/util/Random;-><init>()V
@@ -39,10 +37,8 @@
 .method public constructor <init>(J)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/util/Random;-><init>()V
 
-    .line 4
     invoke-virtual {p0, p1, p2}, Lcom/meitu/flymedia/glx/math/RandomXS128;->setSeed(J)V
 
     return-void
@@ -51,10 +47,8 @@
 .method public constructor <init>(JJ)V
     .locals 0
 
-    .line 5
     invoke-direct {p0}, Ljava/util/Random;-><init>()V
 
-    .line 6
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/meitu/flymedia/glx/math/RandomXS128;->setState(JJ)V
 
     return-void
@@ -89,7 +83,6 @@
 
     xor-long/2addr p0, v1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p0
@@ -106,7 +99,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/flymedia/glx/math/RandomXS128;->seed0:J
 
     goto :goto_0
@@ -127,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/flymedia/glx/math/RandomXS128;->nextLong()J
 
     move-result-wide v1
@@ -154,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/flymedia/glx/math/RandomXS128;->nextLong()J
 
     move-result-wide v1
@@ -189,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p1
 
     :cond_0
@@ -206,7 +195,6 @@
     :cond_1
     const/16 v3, 0x8
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Lcom/meitu/flymedia/glx/math/RandomXS128;->nextLong()J
 
@@ -223,7 +211,6 @@
 
     int-to-byte v3, v3
 
-    .line 3
     aput-byte v3, p1, v1
 
     shr-long/2addr v4, v2
@@ -232,7 +219,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -246,7 +232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/flymedia/glx/math/RandomXS128;->nextLong()J
 
     move-result-wide v1
@@ -273,7 +258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/flymedia/glx/math/RandomXS128;->nextLong()J
 
     move-result-wide v1
@@ -302,7 +286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/flymedia/glx/math/RandomXS128;->nextLong()J
 
     move-result-wide v1
@@ -323,7 +306,6 @@
 
     int-to-long v1, p1
 
-    .line 2
     invoke-virtual {p0, v1, v2}, Lcom/meitu/flymedia/glx/math/RandomXS128;->nextLong(J)J
 
     move-result-wide v1
@@ -342,13 +324,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/flymedia/glx/math/RandomXS128;->seed0:J
 
-    .line 2
     iget-wide v3, p0, Lcom/meitu/flymedia/glx/math/RandomXS128;->seed1:J
 
-    .line 3
     iput-wide v3, p0, Lcom/meitu/flymedia/glx/math/RandomXS128;->seed0:J
 
     const/16 v5, 0x17
@@ -371,7 +350,6 @@
 
     xor-long/2addr v1, v5
 
-    .line 4
     iput-wide v1, p0, Lcom/meitu/flymedia/glx/math/RandomXS128;->seed1:J
 
     add-long/2addr v1, v3
@@ -394,7 +372,6 @@
 
     if-lez v3, :cond_1
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/flymedia/glx/math/RandomXS128;->nextLong()J
 
@@ -404,7 +381,6 @@
 
     ushr-long/2addr v3, v5
 
-    .line 6
     rem-long v5, v3, p1
 
     sub-long/2addr v3, v5
@@ -419,12 +395,10 @@
 
     if-ltz v7, :cond_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v5
 
-    .line 8
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -452,20 +426,17 @@
 
     const-wide/high16 p1, -0x8000000000000000L
 
-    .line 1
     :cond_0
     invoke-static {p1, p2}, Lcom/meitu/flymedia/glx/math/RandomXS128;->murmurHash3(J)J
 
     move-result-wide p1
 
-    .line 2
     invoke-static {p1, p2}, Lcom/meitu/flymedia/glx/math/RandomXS128;->murmurHash3(J)J
 
     move-result-wide v1
 
     invoke-virtual {p0, p1, p2, v1, v2}, Lcom/meitu/flymedia/glx/math/RandomXS128;->setState(JJ)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -478,13 +449,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/flymedia/glx/math/RandomXS128;->seed0:J
 
-    .line 2
     iput-wide p3, p0, Lcom/meitu/flymedia/glx/math/RandomXS128;->seed1:J
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

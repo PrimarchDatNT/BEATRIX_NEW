@@ -103,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/text/TextConfig;
 
     invoke-direct {v1}, Lcom/commsource/studio/text/TextConfig;-><init>()V
@@ -114,63 +113,54 @@
 
     new-array v2, v1, [I
 
-    .line 2
     fill-array-data v2, :array_0
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig;->o:[I
 
     new-array v2, v1, [I
 
-    .line 3
     fill-array-data v2, :array_1
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig;->p:[I
 
     new-array v2, v1, [F
 
-    .line 4
     fill-array-data v2, :array_2
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig;->q:[F
 
     new-array v2, v1, [F
 
-    .line 5
     fill-array-data v2, :array_3
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig;->r:[F
 
     new-array v2, v1, [F
 
-    .line 6
     fill-array-data v2, :array_4
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig;->s:[F
 
     new-array v2, v1, [F
 
-    .line 7
     fill-array-data v2, :array_5
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig;->t:[F
 
     new-array v2, v1, [F
 
-    .line 8
     fill-array-data v2, :array_6
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig;->u:[F
 
     new-array v2, v1, [F
 
-    .line 9
     fill-array-data v2, :array_7
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig;->v:[F
 
     new-array v1, v1, [F
 
-    .line 10
     fill-array-data v1, :array_8
 
     sput-object v1, Lcom/commsource/studio/text/TextConfig;->w:[F
@@ -245,19 +235,16 @@
 
     const-string v36, "#A46E84"
 
-    .line 11
     filled-new-array/range {v2 .. v36}, [Ljava/lang/String;
 
     move-result-object v1
 
-    .line 12
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
 
     sput-object v1, Lcom/commsource/studio/text/TextConfig;->z:Ljava/util/ArrayList;
 
-    .line 13
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -348,7 +335,6 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v0
@@ -371,7 +357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextConfig;->q:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -388,7 +373,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextConfig;->w:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -414,7 +398,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextConfig;->z:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -431,7 +414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/u1;->k()Ljava/lang/String;
 
     move-result-object v1
@@ -466,7 +448,6 @@
     :cond_1
     const-string v2, "th"
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -480,7 +461,6 @@
     :cond_2
     const-string v2, "ko"
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -494,7 +474,6 @@
     :cond_3
     const-string v2, "ja"
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -508,7 +487,6 @@
     :cond_4
     const-string v2, "en"
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -523,7 +501,6 @@
     :goto_0
     const-string v1, "BP_FON_00000000"
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -539,7 +516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextConfig;->A:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -556,7 +532,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextConfig;->r:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -573,7 +548,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextConfig;->s:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -590,7 +564,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextConfig;->p:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -607,7 +580,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextConfig;->o:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -624,7 +596,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextConfig;->t:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -641,7 +612,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextConfig;->u:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -658,7 +628,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextConfig;->v:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -691,7 +660,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     aget v2, p1, v1
 
     sub-int/2addr p3, v2
@@ -756,7 +724,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     aget p1, p1, v1
 
     int-to-float p1, p1
@@ -772,7 +739,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     aget p1, p1, v1
 
     int-to-float p1, p1
@@ -784,7 +750,6 @@
     :goto_0
     mul-float p3, p3, p1
 
-    .line 3
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -803,7 +768,6 @@
 
     invoke-static {p2, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
@@ -834,7 +798,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     aget v2, p2, v1
 
     sub-float/2addr p3, v2
@@ -903,7 +866,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     aget p2, p2, v1
 
     div-float/2addr p3, p2
@@ -912,7 +874,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     aget p2, p2, v1
 
@@ -925,7 +886,6 @@
 
     mul-float p3, p3, p1
 
-    .line 3
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -944,7 +904,6 @@
 
     invoke-static {p2, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3

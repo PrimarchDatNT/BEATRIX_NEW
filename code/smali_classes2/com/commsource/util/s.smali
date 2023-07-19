@@ -7,7 +7,6 @@
 .method public constructor <init>([Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ln/a/b/b/a;-><init>([Ljava/lang/Object;)V
 
     return-void
@@ -22,7 +21,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Ln/a/b/b/a;->state:[Ljava/lang/Object;
 
     const/4 v1, 0x0

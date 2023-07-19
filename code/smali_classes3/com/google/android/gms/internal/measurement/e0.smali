@@ -15,7 +15,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/measurement/qc$d;Landroid/app/Activity;Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/e0;->p:Lcom/google/android/gms/internal/measurement/qc$d;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/measurement/e0;->f:Landroid/app/Activity;
@@ -39,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/e0;->p:Lcom/google/android/gms/internal/measurement/qc$d;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/measurement/qc$d;->a:Lcom/google/android/gms/internal/measurement/qc;
@@ -50,7 +48,6 @@
 
     iget-object v1, p0, Lcom/google/android/gms/internal/measurement/e0;->f:Landroid/app/Activity;
 
-    .line 2
     invoke-static {v1}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v1
@@ -59,7 +56,6 @@
 
     iget-wide v3, p0, Lcom/google/android/gms/internal/measurement/qc$a;->b:J
 
-    .line 3
     invoke-interface {v0, v1, v2, v3, v4}, Lcom/google/android/gms/internal/measurement/ma;->onActivityCreated(Lcom/google/android/gms/dynamic/d;Landroid/os/Bundle;J)V
 
     return-void

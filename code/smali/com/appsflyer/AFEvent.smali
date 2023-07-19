@@ -69,7 +69,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0, v0, v0, v0}, Lcom/appsflyer/AFEvent;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Landroid/content/Context;)V
 
     return-void
@@ -94,25 +93,20 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
-    .line 4
     iput-object p1, p0, Lcom/appsflyer/AFEvent;->values:Ljava/lang/String;
 
-    .line 5
     iput-object p2, p0, Lcom/appsflyer/AFEvent;->collectIntentsFromActivities:Ljava/lang/String;
 
     if-eqz p3, :cond_0
 
-    .line 6
     invoke-virtual {p3}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
@@ -125,7 +119,6 @@
     :goto_0
     iput-boolean p1, p0, Lcom/appsflyer/AFEvent;->getDataFormatter:Z
 
-    .line 7
     invoke-virtual {p0, p4}, Lcom/appsflyer/AFEvent;->context(Landroid/content/Context;)Lcom/appsflyer/AFEvent;
 
     return-void
@@ -136,7 +129,6 @@
 .method final $$a()[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/AFEvent;->context:[B
 
     return-object v0
@@ -147,7 +139,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/appsflyer/AppsFlyerLibCore;->getInstance()Lcom/appsflyer/AppsFlyerLibCore;
 
     move-result-object v0
@@ -162,29 +153,24 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
 
     move-result-object p1
 
     const-string v1, "channel"
 
-    .line 4
     invoke-virtual {p1, v1, v0}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p1}, Landroid/net/Uri$Builder;->build()Landroid/net/Uri;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -205,7 +191,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
@@ -216,7 +201,6 @@
 .method public context()Landroid/app/Application;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/appsflyer/AFEvent;->urlString:Landroid/app/Application;
 
     return-object v0
@@ -227,7 +211,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
@@ -245,7 +228,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/AFEvent;->dateFormatUTC:Lcom/appsflyer/attribution/AppsFlyerRequestListener;
 
     return-object v0
@@ -254,7 +236,6 @@
 .method public isEncrypt()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/appsflyer/AFEvent;->getDataFormatter:Z
 
     return v0
@@ -263,7 +244,6 @@
 .method protected key(Ljava/lang/String;)Lcom/appsflyer/AFEvent;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AFEvent;->requestListener:Ljava/lang/String;
 
     return-object p0
@@ -272,7 +252,6 @@
 .method public key()Ljava/lang/String;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/appsflyer/AFEvent;->requestListener:Ljava/lang/String;
 
     return-object v0
@@ -290,7 +269,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     return-object v0
@@ -299,7 +277,6 @@
 .method public post([B)Lcom/appsflyer/AFEvent;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AFEvent;->context:[B
 
     return-object p0
@@ -308,7 +285,6 @@
 .method public requestListener(Lcom/appsflyer/attribution/AppsFlyerRequestListener;)Lcom/appsflyer/AFEvent;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AFEvent;->dateFormatUTC:Lcom/appsflyer/attribution/AppsFlyerRequestListener;
 
     return-object p0
@@ -317,7 +293,6 @@
 .method public urlString(Ljava/lang/String;)Lcom/appsflyer/AFEvent;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AFEvent;->collectIntentsFromActivities:Ljava/lang/String;
 
     return-object p0
@@ -326,7 +301,6 @@
 .method protected urlString()Ljava/lang/String;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/appsflyer/AFEvent;->collectIntentsFromActivities:Ljava/lang/String;
 
     return-object v0
@@ -335,7 +309,6 @@
 .method final valueOf()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/appsflyer/AFEvent;->getInstance:Z
 
     return v0

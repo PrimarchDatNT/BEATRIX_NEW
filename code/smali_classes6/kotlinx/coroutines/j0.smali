@@ -31,7 +31,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/j0$a;
 
     sget-object v1, Lcotlinx/coroutines/CoroutineExceptionHandler;->t:Lcotlinx/coroutines/CoroutineExceptionHandler$b;
@@ -54,7 +53,6 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .line 1
     :try_start_0
     sget-object v0, Lcotlinx/coroutines/CoroutineExceptionHandler;->t:Lcotlinx/coroutines/CoroutineExceptionHandler$b;
 
@@ -66,14 +64,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p0, p1}, Lcotlinx/coroutines/CoroutineExceptionHandler;->handleException(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/i0;->a(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V
 
@@ -82,7 +78,6 @@
     :catchall_0
     move-exception v0
 
-    .line 4
     invoke-static {p1, v0}, Lcotlinx/coroutines/j0;->c(Ljava/lang/Throwable;Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
     move-result-object p1
@@ -109,7 +104,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -117,7 +111,6 @@
 
     invoke-direct {v0, v1, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0, p0}, Lcotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     return-object v0

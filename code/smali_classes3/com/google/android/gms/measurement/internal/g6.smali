@@ -28,7 +28,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/t5;Lcom/google/android/gms/measurement/internal/zzm;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/g6;->b:Lcom/google/android/gms/measurement/internal/t5;
 
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/g6;->a:Lcom/google/android/gms/measurement/internal/zzm;
@@ -48,7 +47,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/g6;->b:Lcom/google/android/gms/measurement/internal/t5;
 
     invoke-static {v0}, Lcom/google/android/gms/measurement/internal/t5;->Z(Lcom/google/android/gms/measurement/internal/t5;)Lcom/google/android/gms/measurement/internal/aa;
@@ -57,14 +55,12 @@
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/aa;->d0()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/g6;->b:Lcom/google/android/gms/measurement/internal/t5;
 
     invoke-static {v0}, Lcom/google/android/gms/measurement/internal/t5;->Z(Lcom/google/android/gms/measurement/internal/t5;)Lcom/google/android/gms/measurement/internal/aa;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/aa;->U()Lcom/google/android/gms/measurement/internal/d;
 
     move-result-object v0
@@ -73,7 +69,6 @@
 
     iget-object v1, v1, Lcom/google/android/gms/measurement/internal/zzm;->a:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/google/android/gms/measurement/internal/d;->I(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0

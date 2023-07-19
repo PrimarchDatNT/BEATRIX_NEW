@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -30,14 +29,12 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     invoke-static {p3}, Lcom/meitu/core/processor/MteHairDrawProcessor;->changeBackgroundDictToFloatArray(Lcom/meitu/core/parse/MteDict;)[F
 
     move-result-object v8
 
     if-eqz v8, :cond_1
 
-    .line 2
     aget v2, v8, v1
 
     const/4 v3, 0x0
@@ -46,7 +43,6 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v2
@@ -67,7 +63,6 @@
 
     return p0
 
-    .line 4
     :cond_0
     invoke-static {p3, p4}, Lcom/meitu/core/processor/MteHairDrawProcessor;->changeBackgroundDictToStringArray(Lcom/meitu/core/parse/MteDict;Ljava/lang/String;)[Ljava/lang/String;
 
@@ -75,7 +70,6 @@
 
     if-eqz v9, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v2
@@ -96,7 +90,6 @@
 
     return p0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -118,7 +111,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -146,7 +138,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -163,7 +154,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -171,7 +161,6 @@
     :cond_0
     const-string v1, "bFlowerBox"
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v1
@@ -198,7 +187,6 @@
 
     const-string v5, "FlowerWidth"
 
-    .line 3
     invoke-virtual {p0, v5}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v5
@@ -209,7 +197,6 @@
 
     const-string v4, "FlowerHeight"
 
-    .line 4
     invoke-virtual {p0, v4}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v4
@@ -220,7 +207,6 @@
 
     const-string v3, "FlowerLeft"
 
-    .line 5
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -231,7 +217,6 @@
 
     const-string v2, "FlowerRight"
 
-    .line 6
     invoke-virtual {p0, v2}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result p0
@@ -240,7 +225,6 @@
 
     aput p0, v1, v6
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -254,7 +238,6 @@
 
     const-string v5, "BpRaid"
 
-    .line 8
     invoke-virtual {p0, v5}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v5
@@ -265,7 +248,6 @@
 
     const-string v4, "ssRaid"
 
-    .line 9
     invoke-virtual {p0, v4}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v4
@@ -276,7 +258,6 @@
 
     const-string v3, "yhRaid"
 
-    .line 10
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result p0
@@ -285,7 +266,6 @@
 
     aput p0, v1, v2
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -304,7 +284,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -312,7 +291,6 @@
     :cond_0
     const-string v2, "bFlowerBox"
 
-    .line 2
     invoke-virtual {p0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v2
@@ -321,14 +299,12 @@
 
     const-string v2, "scPath"
 
-    .line 3
     invoke-virtual {p0, v2}, Lcom/meitu/core/parse/MteDict;->dictForKey(Ljava/lang/String;)Lcom/meitu/core/parse/MteDict;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    .line 4
     invoke-virtual {v2}, Lcom/meitu/core/parse/MteDict;->size()I
 
     move-result v1
@@ -337,12 +313,10 @@
 
     add-int/2addr v1, v3
 
-    .line 5
     new-array v4, v1, [Ljava/lang/String;
 
     const/4 v5, 0x0
 
-    .line 6
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -370,7 +344,6 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 7
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -400,7 +373,6 @@
     :cond_1
     move-object v1, v4
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -418,12 +390,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/core/parse/MteDict;->size()I
 
@@ -433,12 +403,10 @@
 
     if-ge v2, v3, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_1
     new-array v1, v2, [F
 
@@ -446,7 +414,6 @@
 
     const-string v3, "tempR"
 
-    .line 5
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -459,7 +426,6 @@
 
     const-string v3, "tempG"
 
-    .line 6
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -472,7 +438,6 @@
 
     const-string v3, "tempB"
 
-    .line 7
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -485,7 +450,6 @@
 
     const-string v3, "fcH"
 
-    .line 8
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -498,7 +462,6 @@
 
     const-string v3, "fcW"
 
-    .line 9
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -511,7 +474,6 @@
 
     const-string v3, "ddH"
 
-    .line 10
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -524,7 +486,6 @@
 
     const-string v3, "ddW"
 
-    .line 11
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -537,7 +498,6 @@
 
     const-string v3, "zcH"
 
-    .line 12
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -550,7 +510,6 @@
 
     const-string v3, "zcW"
 
-    .line 13
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -563,7 +522,6 @@
 
     const-string v3, "ddLight"
 
-    .line 14
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -576,7 +534,6 @@
 
     const-string v3, "ddAlpha"
 
-    .line 15
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v3
@@ -587,7 +544,6 @@
 
     const-string v3, "ddNum"
 
-    .line 16
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -600,7 +556,6 @@
 
     const-string v3, "fcLight"
 
-    .line 17
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -613,7 +568,6 @@
 
     const-string v3, "fcAlpha"
 
-    .line 18
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v3
@@ -624,7 +578,6 @@
 
     const-string v3, "fcNum"
 
-    .line 19
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -637,7 +590,6 @@
 
     const-string v3, "zcLight"
 
-    .line 20
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -650,7 +602,6 @@
 
     const-string v3, "zcAlpha"
 
-    .line 21
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v3
@@ -661,7 +612,6 @@
 
     const-string v3, "zcNum"
 
-    .line 22
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -674,7 +624,6 @@
 
     const-string v3, "xxW"
 
-    .line 23
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -687,7 +636,6 @@
 
     const-string v3, "xxAlpha"
 
-    .line 24
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v3
@@ -698,7 +646,6 @@
 
     const-string v3, "xxNum"
 
-    .line 25
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -711,7 +658,6 @@
 
     const-string v3, "Hair_Low"
 
-    .line 26
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -724,7 +670,6 @@
 
     const-string v3, "Hair_Mid"
 
-    .line 27
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -737,7 +682,6 @@
 
     const-string v3, "Face_Mid"
 
-    .line 28
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -750,7 +694,6 @@
 
     const-string v3, "ggArea"
 
-    .line 29
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v3
@@ -761,7 +704,6 @@
 
     const-string v3, "ggLight"
 
-    .line 30
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -774,7 +716,6 @@
 
     const-string v3, "ggAlpha"
 
-    .line 31
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v3
@@ -785,7 +726,6 @@
 
     const-string v3, "yhRaid"
 
-    .line 32
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -798,7 +738,6 @@
 
     const-string v3, "rsRaid"
 
-    .line 33
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -811,7 +750,6 @@
 
     const-string v3, "DB_Alpha"
 
-    .line 34
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v3
@@ -822,7 +760,6 @@
 
     const-string v3, "BpRaid"
 
-    .line 35
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -835,7 +772,6 @@
 
     const-string v3, "ssRaid"
 
-    .line 36
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -848,7 +784,6 @@
 
     const-string v3, "rhRaid"
 
-    .line 37
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result v3
@@ -861,7 +796,6 @@
 
     const-string v3, "rhExtent"
 
-    .line 38
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v3
@@ -872,7 +806,6 @@
 
     const-string v3, "rhTh"
 
-    .line 39
     invoke-virtual {p0, v3}, Lcom/meitu/core/parse/MteDict;->intValueForKey(Ljava/lang/String;)I
 
     move-result p0
@@ -881,7 +814,6 @@
 
     aput p0, v1, v2
 
-    .line 40
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -908,14 +840,12 @@
 
     if-eqz p6, :cond_0
 
-    .line 6
     invoke-static/range {p6 .. p6}, Lcom/meitu/core/processor/MteHairDrawProcessor;->changeDictToFloatArray(Lcom/meitu/core/parse/MteDict;)[F
 
     move-result-object v12
 
     if-eqz v12, :cond_0
 
-    .line 7
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
     move-result-wide v2
@@ -928,7 +858,6 @@
 
     move-result-wide v6
 
-    .line 8
     invoke-virtual/range {p4 .. p4}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v8
@@ -939,7 +868,6 @@
 
     move-object v1, p0
 
-    .line 9
     invoke-static/range {v1 .. v12}, Lcom/meitu/core/processor/MteHairDrawProcessor;->nativeDraw(Landroid/graphics/Bitmap;JJJJJ[F)Z
 
     move-result v1
@@ -951,7 +879,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -978,14 +905,12 @@
 
     if-eqz p6, :cond_0
 
-    .line 1
     invoke-static/range {p6 .. p6}, Lcom/meitu/core/processor/MteHairDrawProcessor;->changeDictToFloatArray(Lcom/meitu/core/parse/MteDict;)[F
 
     move-result-object v13
 
     if-eqz v13, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -998,7 +923,6 @@
 
     move-result-wide v5
 
-    .line 3
     invoke-virtual/range {p3 .. p3}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v7
@@ -1011,7 +935,6 @@
 
     move-result-wide v11
 
-    .line 4
     invoke-static/range {v1 .. v13}, Lcom/meitu/core/processor/MteHairDrawProcessor;->nativeDraw(JJJJJJ[F)Z
 
     move-result v1
@@ -1023,7 +946,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

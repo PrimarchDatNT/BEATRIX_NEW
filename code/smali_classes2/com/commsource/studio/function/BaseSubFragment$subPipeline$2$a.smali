@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2$a;->N:Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2;
 
     invoke-direct {p0, p2}, Lcom/commsource/editengine/d;-><init>(Lcom/commsource/editengine/b;)V
@@ -49,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/editengine/d;->q()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1

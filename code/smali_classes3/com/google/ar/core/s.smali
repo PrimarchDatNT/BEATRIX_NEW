@@ -29,12 +29,10 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/s;->a:Landroid/hardware/camera2/CameraDevice$StateCallback;
 
     iget-object v1, p0, Lcom/google/ar/core/s;->b:Landroid/hardware/camera2/CameraDevice;
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/hardware/camera2/CameraDevice$StateCallback;->onDisconnected(Landroid/hardware/camera2/CameraDevice;)V
 
     return-void

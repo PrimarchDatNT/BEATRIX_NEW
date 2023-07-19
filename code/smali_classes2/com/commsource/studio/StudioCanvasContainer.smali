@@ -107,7 +107,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/StudioCanvasContainer;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -130,7 +129,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/StudioCanvasContainer;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -151,52 +149,44 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->b:Lcom/commsource/studio/MatrixBox;
 
-    .line 5
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->c:Lcom/commsource/studio/MatrixBox;
 
-    .line 6
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->d:Lcom/commsource/studio/MatrixBox;
 
-    .line 7
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->f:Lcom/commsource/studio/MatrixBox;
 
-    .line 8
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->L:Landroid/graphics/RectF;
 
-    .line 9
     new-instance p1, Ljava/util/LinkedList;
 
     invoke-direct {p1}, Ljava/util/LinkedList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->M:Ljava/util/List;
 
-    .line 10
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 p2, 0x1
@@ -205,7 +195,6 @@
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 11
     invoke-static {p2}, Lcom/commsource/util/l0;->o(F)F
 
     move-result p2
@@ -216,18 +205,14 @@
 
     long-to-int p3, p2
 
-    .line 12
     invoke-virtual {p1, p3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 13
     sget-object p2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 14
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
 
-    .line 15
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
@@ -236,35 +221,30 @@
 
     const/4 p1, 0x3
 
-    .line 16
     invoke-static {p1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p2
 
     iput p2, p0, Lcom/commsource/studio/StudioCanvasContainer;->V:F
 
-    .line 17
     invoke-static {p1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->W:F
 
-    .line 18
     new-instance p1, Lcom/commsource/studio/StudioCanvasContainer$a;
 
     invoke-direct {p1}, Lcom/commsource/studio/StudioCanvasContainer$a;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->a0:Lcom/commsource/studio/StudioCanvasContainer$a;
 
-    .line 19
     new-instance p2, Lcom/commsource/studio/i;
 
     invoke-direct {p2, p1}, Lcom/commsource/studio/i;-><init>(Lcom/commsource/studio/i$d;)V
 
     iput-object p2, p0, Lcom/commsource/studio/StudioCanvasContainer;->b0:Lcom/commsource/studio/i;
 
-    .line 20
     new-instance p1, Lcom/commsource/studio/layer/k;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -281,13 +261,10 @@
 
     const/4 v1, 0x0
 
-    .line 21
     invoke-static {p0, p1, p2, p3, v1}, Lcom/commsource/studio/StudioCanvasContainer;->e(Lcom/commsource/studio/StudioCanvasContainer;Lcom/commsource/studio/layer/BaseLayer;IILjava/lang/Object;)V
 
-    .line 22
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->c0:Lcom/commsource/studio/layer/k;
 
-    .line 23
     new-instance p1, Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -298,19 +275,14 @@
 
     invoke-direct {p1, v2}, Lcom/commsource/studio/gesture/GestureLayer;-><init>(Landroid/content/Context;)V
 
-    .line 24
     invoke-static {p0, p1, p2, p3, v1}, Lcom/commsource/studio/StudioCanvasContainer;->e(Lcom/commsource/studio/StudioCanvasContainer;Lcom/commsource/studio/layer/BaseLayer;IILjava/lang/Object;)V
 
-    .line 25
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->d0:Lcom/commsource/studio/gesture/GestureLayer;
 
-    .line 26
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->setClipChildren(Z)V
 
-    .line 27
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->setClipToPadding(Z)V
 
-    .line 28
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->setWillNotDraw(Z)V
 
     return-void
@@ -327,7 +299,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 1
     iget p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->U:F
 
     :cond_0
@@ -335,7 +306,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget p2, p0, Lcom/commsource/studio/StudioCanvasContainer;->T:F
 
     :cond_1
@@ -352,7 +322,6 @@
 
     const/4 p4, 0x0
 
-    .line 3
     :cond_3
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/StudioCanvasContainer;->A(FFZLcotlin/jvm/u/a;)V
 
@@ -368,7 +337,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
@@ -395,7 +363,6 @@
 
     invoke-direct {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/StudioCanvasContainer;->c:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
@@ -404,23 +371,18 @@
 
     invoke-virtual {v2, v1}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/StudioCanvasContainer;->a0:Lcom/commsource/studio/StudioCanvasContainer$a;
 
-    .line 4
     new-instance v3, Landroid/graphics/Rect;
 
     invoke-direct {v3}, Landroid/graphics/Rect;-><init>()V
 
-    .line 5
     invoke-virtual {v1, v3}, Landroid/graphics/RectF;->roundOut(Landroid/graphics/Rect;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->L:Landroid/graphics/RectF;
 
     invoke-virtual {v2, v3, v1}, Lcom/commsource/studio/j;->q(Landroid/graphics/Rect;Landroid/graphics/RectF;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -433,7 +395,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/StudioCanvasContainer;->l()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -454,7 +415,6 @@
 
     const/4 p2, -0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/StudioCanvasContainer;->d(Lcom/commsource/studio/layer/BaseLayer;I)V
 
@@ -478,7 +438,6 @@
 
     const/4 p1, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/StudioCanvasContainer;->f(Z)V
 
@@ -494,7 +453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->d0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/GestureLayer;->H0()Lcom/commsource/studio/b;
@@ -517,7 +475,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 1
     iget p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->U:F
 
     :cond_0
@@ -525,7 +482,6 @@
 
     if-eqz p5, :cond_1
 
-    .line 2
     iget p2, p0, Lcom/commsource/studio/StudioCanvasContainer;->T:F
 
     :cond_1
@@ -545,10 +501,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->M:Ljava/util/List;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -566,7 +520,6 @@
 
     check-cast v2, Lcom/commsource/studio/layer/BaseLayer;
 
-    .line 3
     iget v3, p0, Lcom/commsource/studio/StudioCanvasContainer;->g:F
 
     iget v4, p0, Lcom/commsource/studio/StudioCanvasContainer;->J:F
@@ -577,7 +530,6 @@
 
     invoke-virtual {v2, v3, v4, v5, v6}, Lcom/commsource/studio/layer/BaseLayer;->Y(FFFF)V
 
-    .line 4
     iget v3, p0, Lcom/commsource/studio/StudioCanvasContainer;->O:I
 
     iget v4, p0, Lcom/commsource/studio/StudioCanvasContainer;->P:I
@@ -586,7 +538,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -600,24 +551,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->d:Lcom/commsource/studio/MatrixBox;
 
     iget-object v2, p0, Lcom/commsource/studio/StudioCanvasContainer;->c:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->d:Lcom/commsource/studio/MatrixBox;
 
     iget-object v2, p0, Lcom/commsource/studio/StudioCanvasContainer;->b:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->preConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->M:Ljava/util/List;
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -635,18 +582,15 @@
 
     check-cast v2, Lcom/commsource/studio/layer/BaseLayer;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/StudioCanvasContainer;->d:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/layer/BaseLayer;->Z(Lcom/commsource/studio/MatrixBox;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/StudioCanvasContainer;->C()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -663,7 +607,6 @@
 
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, v9, Lcom/commsource/studio/StudioCanvasContainer;->d0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v0}, Lcom/commsource/studio/layer/BaseLayer;->R()Z
@@ -672,10 +615,8 @@
 
     if-eqz v0, :cond_3
 
-    .line 2
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 3
     iget-object v0, v9, Lcom/commsource/studio/StudioCanvasContainer;->d:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v0}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -684,7 +625,6 @@
 
     invoke-virtual {v10, v0}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 4
     iget-object v0, v9, Lcom/commsource/studio/StudioCanvasContainer;->f:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v0}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -699,15 +639,12 @@
 
     const/4 v12, 0x2
 
-    .line 5
     invoke-static {v9, v10, v0, v12, v1}, Lcom/commsource/studio/StudioCanvasContainer;->o(Lcom/commsource/studio/StudioCanvasContainer;Landroid/graphics/Canvas;FILjava/lang/Object;)V
 
-    .line 6
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b;->v()[Lcom/commsource/studio/b$b;
 
     move-result-object v13
 
-    .line 7
     array-length v14, v13
 
     const/4 v15, 0x0
@@ -723,7 +660,6 @@
 
     const/4 v3, 0x0
 
-    .line 8
     invoke-static/range {v16 .. v16}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v4
@@ -744,20 +680,17 @@
 
     move-object/from16 v8, v16
 
-    .line 9
     invoke-static/range {v0 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->s(Lcom/commsource/studio/StudioCanvasContainer;Landroid/graphics/Canvas;Lcom/commsource/studio/b$b;FIFFILjava/lang/Object;)V
 
     add-int/lit8 v8, v17, 0x1
 
     goto :goto_0
 
-    .line 10
     :cond_0
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b;->A()[Lcom/commsource/studio/b$b;
 
     move-result-object v13
 
-    .line 11
     array-length v14, v13
 
     const/4 v8, 0x0
@@ -769,7 +702,6 @@
 
     const/4 v3, 0x0
 
-    .line 12
     invoke-static/range {v16 .. v16}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v4
@@ -790,20 +722,17 @@
 
     move-object/from16 v8, v17
 
-    .line 13
     invoke-static/range {v0 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->s(Lcom/commsource/studio/StudioCanvasContainer;Landroid/graphics/Canvas;Lcom/commsource/studio/b$b;FIFFILjava/lang/Object;)V
 
     add-int/lit8 v8, v18, 0x1
 
     goto :goto_1
 
-    .line 14
     :cond_1
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b;->C()[Lcom/commsource/studio/b$b;
 
     move-result-object v13
 
-    .line 15
     array-length v14, v13
 
     :goto_2
@@ -813,14 +742,12 @@
 
     const/4 v3, 0x0
 
-    .line 16
     invoke-static/range {v16 .. v16}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v4
 
     const/4 v5, 0x0
 
-    .line 17
     invoke-static {v12}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v6
@@ -833,18 +760,15 @@
 
     move-object/from16 v1, p1
 
-    .line 18
     invoke-static/range {v0 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->s(Lcom/commsource/studio/StudioCanvasContainer;Landroid/graphics/Canvas;Lcom/commsource/studio/b$b;FIFFILjava/lang/Object;)V
 
     add-int/lit8 v15, v15, 0x1
 
     goto :goto_2
 
-    .line 19
     :cond_2
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 20
     :cond_3
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -862,14 +786,12 @@
 
     const/4 v0, 0x4
 
-    .line 1
     invoke-static {v0}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v0
 
     div-float v13, v0, p2
 
-    .line 2
     iget-object v0, v11, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
 
     const/high16 v1, 0x3f000000    # 0.5f
@@ -882,7 +804,6 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 3
     iget v0, v11, Lcom/commsource/studio/StudioCanvasContainer;->O:I
 
     int-to-float v1, v0
@@ -895,7 +816,6 @@
 
     div-float v4, v0, v14
 
-    .line 4
     iget v0, v11, Lcom/commsource/studio/StudioCanvasContainer;->P:I
 
     int-to-float v5, v0
@@ -916,10 +836,8 @@
 
     move v7, v13
 
-    .line 5
     invoke-static/range {v0 .. v10}, Lcom/commsource/studio/StudioCanvasContainer;->q(Lcom/commsource/studio/StudioCanvasContainer;Landroid/graphics/Canvas;FFFFFFIILjava/lang/Object;)V
 
-    .line 6
     iget v0, v11, Lcom/commsource/studio/StudioCanvasContainer;->O:I
 
     mul-int/lit8 v1, v0, 0x2
@@ -934,7 +852,6 @@
 
     div-float v4, v0, v14
 
-    .line 7
     iget v0, v11, Lcom/commsource/studio/StudioCanvasContainer;->P:I
 
     int-to-float v5, v0
@@ -943,17 +860,14 @@
 
     move-object/from16 v1, p1
 
-    .line 8
     invoke-static/range {v0 .. v10}, Lcom/commsource/studio/StudioCanvasContainer;->q(Lcom/commsource/studio/StudioCanvasContainer;Landroid/graphics/Canvas;FFFFFFIILjava/lang/Object;)V
 
-    .line 9
     iget v0, v11, Lcom/commsource/studio/StudioCanvasContainer;->P:I
 
     int-to-float v1, v0
 
     div-float v3, v1, v14
 
-    .line 10
     iget v1, v11, Lcom/commsource/studio/StudioCanvasContainer;->O:I
 
     int-to-float v4, v1
@@ -968,10 +882,8 @@
 
     move-object/from16 v1, p1
 
-    .line 11
     invoke-static/range {v0 .. v10}, Lcom/commsource/studio/StudioCanvasContainer;->q(Lcom/commsource/studio/StudioCanvasContainer;Landroid/graphics/Canvas;FFFFFFIILjava/lang/Object;)V
 
-    .line 12
     iget v0, v11, Lcom/commsource/studio/StudioCanvasContainer;->P:I
 
     mul-int/lit8 v1, v0, 0x2
@@ -980,7 +892,6 @@
 
     div-float v3, v1, v14
 
-    .line 13
     iget v1, v11, Lcom/commsource/studio/StudioCanvasContainer;->O:I
 
     int-to-float v4, v1
@@ -995,10 +906,8 @@
 
     move-object/from16 v1, p1
 
-    .line 14
     invoke-static/range {v0 .. v10}, Lcom/commsource/studio/StudioCanvasContainer;->q(Lcom/commsource/studio/StudioCanvasContainer;Landroid/graphics/Canvas;FFFFFFIILjava/lang/Object;)V
 
-    .line 15
     invoke-static {v12}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1015,7 +924,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/StudioCanvasContainer;->d:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p2}, Lcom/commsource/studio/MatrixBox;->getScale()F
@@ -1058,7 +966,6 @@
     :cond_0
     sub-float v1, p4, p2
 
-    .line 1
     :goto_0
     invoke-static {v1}, Ljava/lang/Math;->abs(F)F
 
@@ -1100,7 +1007,6 @@
 
     move v11, v2
 
-    .line 2
     iget-object v1, v0, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
 
     move/from16 v2, p8
@@ -1130,7 +1036,6 @@
     :cond_4
     move/from16 v5, p3
 
-    .line 3
     :goto_4
     iget-object v6, v0, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
 
@@ -1140,7 +1045,6 @@
 
     move/from16 v3, p3
 
-    .line 4
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
     if-nez v8, :cond_5
@@ -1166,7 +1070,6 @@
     :cond_6
     move/from16 v3, p5
 
-    .line 5
     :goto_6
     iget-object v6, v0, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
 
@@ -1176,7 +1079,6 @@
 
     move/from16 v5, p5
 
-    .line 6
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
     const/4 v1, 0x0
@@ -1247,7 +1149,6 @@
     :cond_a
     move/from16 v16, v14
 
-    .line 7
     :goto_b
     iget-object v2, v0, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
 
@@ -1261,7 +1162,6 @@
 
     goto :goto_7
 
-    .line 8
     :cond_b
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1309,7 +1209,6 @@
 
     move/from16 v10, p7
 
-    .line 1
     invoke-direct/range {v3 .. v11}, Lcom/commsource/studio/StudioCanvasContainer;->p(Landroid/graphics/Canvas;FFFFFFI)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1326,19 +1225,16 @@
 
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, v9, Lcom/commsource/studio/StudioCanvasContainer;->S:Landroid/graphics/Path;
 
     invoke-virtual {v0}, Landroid/graphics/Path;->reset()V
 
-    .line 2
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->e()Z
 
     move-result v0
 
     if-eqz v0, :cond_5
 
-    .line 3
     iget-object v0, v9, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -1351,35 +1247,30 @@
 
     invoke-virtual {v0, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 4
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->c()Landroid/graphics/PointF;
 
     move-result-object v0
 
     iget v0, v0, Landroid/graphics/PointF;->x:F
 
-    .line 5
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->c()Landroid/graphics/PointF;
 
     move-result-object v2
 
     iget v2, v2, Landroid/graphics/PointF;->y:F
 
-    .line 6
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->a()Landroid/graphics/PointF;
 
     move-result-object v3
 
     iget v3, v3, Landroid/graphics/PointF;->x:F
 
-    .line 7
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->a()Landroid/graphics/PointF;
 
     move-result-object v4
 
     iget v4, v4, Landroid/graphics/PointF;->y:F
 
-    .line 8
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->b()Ljava/lang/Boolean;
 
     move-result-object v5
@@ -1397,7 +1288,6 @@
     :cond_0
     const/high16 v1, -0x40800000    # -1.0f
 
-    .line 9
     :goto_0
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->c()Landroid/graphics/PointF;
 
@@ -1415,7 +1305,6 @@
 
     if-nez v5, :cond_1
 
-    .line 10
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->c()Landroid/graphics/PointF;
 
     move-result-object v0
@@ -1434,7 +1323,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_1
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->c()Landroid/graphics/PointF;
 
@@ -1452,7 +1340,6 @@
 
     if-nez v5, :cond_2
 
-    .line 12
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->c()Landroid/graphics/PointF;
 
     move-result-object v2
@@ -1479,31 +1366,26 @@
 
     move v13, v4
 
-    .line 13
     iget-object v0, v9, Lcom/commsource/studio/StudioCanvasContainer;->S:Landroid/graphics/Path;
 
     invoke-virtual {v0, v14, v11}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 14
     iget-object v0, v9, Lcom/commsource/studio/StudioCanvasContainer;->S:Landroid/graphics/Path;
 
     invoke-virtual {v0, v15, v13}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 15
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->d()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 16
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->c()Landroid/graphics/PointF;
 
     move-result-object v0
 
     iget v2, v0, Landroid/graphics/PointF;->x:F
 
-    .line 17
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->c()Landroid/graphics/PointF;
 
     move-result-object v0
@@ -1516,7 +1398,6 @@
 
     iget v4, v0, Landroid/graphics/PointF;->x:F
 
-    .line 18
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->a()Landroid/graphics/PointF;
 
     move-result-object v0
@@ -1533,14 +1414,12 @@
 
     move/from16 v8, p4
 
-    .line 19
     invoke-direct/range {v0 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->p(Landroid/graphics/Canvas;FFFFFFI)V
 
     move-object/from16 v6, p1
 
     goto :goto_2
 
-    .line 20
     :cond_3
     iget-object v0, v9, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
 
@@ -1548,7 +1427,6 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 21
     iget-object v0, v9, Lcom/commsource/studio/StudioCanvasContainer;->S:Landroid/graphics/Path;
 
     iget-object v1, v9, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
@@ -1557,7 +1435,6 @@
 
     invoke-virtual {v6, v0, v1}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 22
     :goto_2
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->b()Ljava/lang/Boolean;
 
@@ -1565,7 +1442,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 23
     iget v0, v9, Lcom/commsource/studio/StudioCanvasContainer;->V:F
 
     div-float v0, v0, p3
@@ -1574,7 +1450,6 @@
 
     div-float v7, v0, v1
 
-    .line 24
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->c()Landroid/graphics/PointF;
 
     move-result-object v0
@@ -1595,7 +1470,6 @@
 
     add-float v3, v14, v7
 
-    .line 25
     iget-object v5, v9, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
 
     move-object/from16 v0, p1
@@ -1604,14 +1478,12 @@
 
     move v4, v11
 
-    .line 26
     invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
     sub-float v0, v15, v7
 
     add-float v1, v15, v7
 
-    .line 27
     iget-object v2, v9, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
 
     move/from16 p2, v0
@@ -1624,12 +1496,10 @@
 
     move-object/from16 p6, v2
 
-    .line 28
     invoke-virtual/range {p1 .. p6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
     goto :goto_3
 
-    .line 29
     :cond_4
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/b$b;->c()Landroid/graphics/PointF;
 
@@ -1651,7 +1521,6 @@
 
     add-float v1, v11, v7
 
-    .line 30
     iget-object v2, v9, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
 
     move-object/from16 v11, p1
@@ -1668,14 +1537,12 @@
 
     move-object/from16 v16, v2
 
-    .line 31
     invoke-virtual/range {v11 .. v16}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
     sub-float v0, v4, v7
 
     add-float v1, v4, v7
 
-    .line 32
     iget-object v2, v9, Lcom/commsource/studio/StudioCanvasContainer;->R:Landroid/graphics/Paint;
 
     move/from16 p2, v3
@@ -1688,10 +1555,8 @@
 
     move-object/from16 p6, v2
 
-    .line 33
     invoke-virtual/range {p1 .. p6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 34
     :cond_5
     :goto_3
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1710,7 +1575,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/StudioCanvasContainer;->d:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p3}, Lcom/commsource/studio/MatrixBox;->getScale()F
@@ -1748,7 +1612,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 2
     invoke-static {p4}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p5
@@ -1760,7 +1623,6 @@
 
     if-eqz p3, :cond_3
 
-    .line 3
     invoke-static {p4}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p6
@@ -1801,7 +1663,6 @@
 
     const/high16 p4, 0x3e800000    # 0.25f
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/StudioCanvasContainer;->u(IIZF)Lcom/commsource/studio/MatrixBox;
 
@@ -1819,19 +1680,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/StudioCanvasContainer;->x()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
@@ -1855,10 +1713,8 @@
 
     if-le v1, v2, :cond_1
 
-    .line 4
     iput v3, p0, Lcom/commsource/studio/StudioCanvasContainer;->J:F
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getHeight()I
 
     move-result v1
@@ -1867,7 +1723,6 @@
 
     iput v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->K:F
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getHeight()I
 
     move-result v1
@@ -1880,7 +1735,6 @@
 
     div-float/2addr v1, v2
 
-    .line 7
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v2
@@ -1901,7 +1755,6 @@
 
     iput v2, p0, Lcom/commsource/studio/StudioCanvasContainer;->g:F
 
-    .line 8
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v2
@@ -1930,7 +1783,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
@@ -1944,7 +1796,6 @@
 
     div-float/2addr v1, v2
 
-    .line 10
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getHeight()I
 
     move-result v2
@@ -1965,7 +1816,6 @@
 
     iput v2, p0, Lcom/commsource/studio/StudioCanvasContainer;->J:F
 
-    .line 11
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getHeight()I
 
     move-result v2
@@ -1984,10 +1834,8 @@
 
     iput v2, p0, Lcom/commsource/studio/StudioCanvasContainer;->K:F
 
-    .line 12
     iput v3, p0, Lcom/commsource/studio/StudioCanvasContainer;->g:F
 
-    .line 13
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v2
@@ -1999,7 +1847,6 @@
     :goto_0
     move v4, v1
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->L:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/studio/StudioCanvasContainer;->g:F
@@ -2012,12 +1859,10 @@
 
     invoke-virtual {v1, v2, v3, v5, v6}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->f:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->reset()V
 
-    .line 16
     iget-object v3, p0, Lcom/commsource/studio/StudioCanvasContainer;->f:Lcom/commsource/studio/MatrixBox;
 
     const/4 v5, 0x0
@@ -2030,7 +1875,6 @@
 
     invoke-static/range {v3 .. v8}, Lcom/commsource/studio/MatrixBox;->postScale$default(Lcom/commsource/studio/MatrixBox;FFFILjava/lang/Object;)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->f:Lcom/commsource/studio/MatrixBox;
 
     iget v2, p0, Lcom/commsource/studio/StudioCanvasContainer;->g:F
@@ -2039,10 +1883,8 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 18
     invoke-direct {p0}, Lcom/commsource/studio/StudioCanvasContainer;->C()V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->a0:Lcom/commsource/studio/StudioCanvasContainer$a;
 
     new-instance v2, Lcom/commsource/studio/StudioCanvasContainer$b;
@@ -2051,10 +1893,8 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/j;->p(Lcom/commsource/studio/j$b;)V
 
-    .line 20
     invoke-direct {p0}, Lcom/commsource/studio/StudioCanvasContainer;->k()V
 
-    .line 21
     sget-object v1, Lcom/commsource/studio/PictureTransitionView;->P:Lcom/commsource/studio/PictureTransitionView$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/PictureTransitionView$a;->a()Z
@@ -2063,7 +1903,6 @@
 
     if-nez v1, :cond_2
 
-    .line 22
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->postInvalidate()V
 
     :cond_2
@@ -2081,15 +1920,12 @@
 
     move-object v2, p0
 
-    .line 23
     invoke-static/range {v2 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     const/4 v1, 0x1
 
-    .line 24
     iput-boolean v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->a:Z
 
-    .line 25
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2102,7 +1938,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v1
@@ -2163,13 +1998,10 @@
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput v2, v0, Lcom/commsource/studio/StudioCanvasContainer;->T:F
 
-    .line 2
     iput v1, v0, Lcom/commsource/studio/StudioCanvasContainer;->U:F
 
-    .line 3
     iget v4, v0, Lcom/commsource/studio/StudioCanvasContainer;->O:I
 
     iget v5, v0, Lcom/commsource/studio/StudioCanvasContainer;->P:I
@@ -2180,14 +2012,12 @@
 
     if-eqz p3, :cond_0
 
-    .line 4
     iget-object v6, v0, Lcom/commsource/studio/StudioCanvasContainer;->c:Lcom/commsource/studio/MatrixBox;
 
     const/4 v8, 0x0
 
     const-wide/16 v9, 0x12c
 
-    .line 5
     new-instance v11, Lcom/commsource/studio/StudioCanvasContainer$setContainerPadding$1;
 
     invoke-direct {v11, p0}, Lcom/commsource/studio/StudioCanvasContainer$setContainerPadding$1;-><init>(Lcom/commsource/studio/StudioCanvasContainer;)V
@@ -2198,21 +2028,17 @@
 
     move-object/from16 v12, p4
 
-    .line 6
     invoke-static/range {v6 .. v14}, Lcom/commsource/studio/MatrixBox;->animateToMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v1, v0, Lcom/commsource/studio/StudioCanvasContainer;->c:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1, v7}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/StudioCanvasContainer;->l()V
 
-    .line 9
     :goto_0
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2305,14 +2131,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1, p0}, Lcom/commsource/studio/layer/BaseLayer;->h0(Lcom/commsource/studio/StudioCanvasContainer;)V
 
     const/4 v1, -0x1
 
     if-eq p2, v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->M:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -2323,13 +2147,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->M:Ljava/util/List;
 
     invoke-interface {v1, p2, p1}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v1
@@ -2338,25 +2160,21 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     :goto_0
     iget-object p2, p0, Lcom/commsource/studio/StudioCanvasContainer;->M:Ljava/util/List;
 
     invoke-interface {p2, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p2
 
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 7
     :goto_1
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->X()V
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/studio/StudioCanvasContainer;->a0:Lcom/commsource/studio/StudioCanvasContainer$a;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->C()Lcom/commsource/studio/i$c;
@@ -2365,14 +2183,12 @@
 
     invoke-virtual {p2, v1}, Lcom/commsource/studio/i$c;->c(Lcom/commsource/studio/i$d;)V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/studio/StudioCanvasContainer;->x()Z
 
     move-result p2
 
     if-eqz p2, :cond_2
 
-    .line 10
     iget p2, p0, Lcom/commsource/studio/StudioCanvasContainer;->g:F
 
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->J:F
@@ -2383,19 +2199,16 @@
 
     invoke-virtual {p1, p2, v1, v2, v3}, Lcom/commsource/studio/layer/BaseLayer;->Y(FFFF)V
 
-    .line 11
     iget p2, p0, Lcom/commsource/studio/StudioCanvasContainer;->O:I
 
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->P:I
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/studio/layer/BaseLayer;->a0(II)V
 
-    .line 12
     iget-object p2, p0, Lcom/commsource/studio/StudioCanvasContainer;->d:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->Z(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 13
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2417,17 +2230,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->draw(Landroid/graphics/Canvas;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/StudioCanvasContainer;->getFocusGestureHelper()Lcom/commsource/studio/b;
 
     move-result-object v1
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/studio/StudioCanvasContainer;->m(Landroid/graphics/Canvas;Lcom/commsource/studio/b;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2442,20 +2252,17 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->a0:Lcom/commsource/studio/StudioCanvasContainer$a;
 
     invoke-virtual {p1}, Lcom/commsource/studio/j;->j()V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->a0:Lcom/commsource/studio/StudioCanvasContainer$a;
 
     invoke-virtual {p1}, Lcom/commsource/studio/j;->k()V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2469,7 +2276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2486,7 +2292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->f:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2501,7 +2306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2518,7 +2322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->b:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2535,7 +2338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->N:Lcom/commsource/studio/layer/BaseLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2550,7 +2352,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->T:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2565,7 +2366,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->U:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2582,7 +2382,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->d0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2599,7 +2398,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->c0:Lcom/commsource/studio/layer/k;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2614,7 +2412,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2629,7 +2426,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->V:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2644,7 +2440,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->W:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2661,7 +2456,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->c:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2678,7 +2472,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->d:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2693,7 +2486,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->K:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2708,7 +2500,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->K:F
 
     iget v2, p0, Lcom/commsource/studio/StudioCanvasContainer;->J:F
@@ -2729,7 +2520,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->g:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2746,7 +2536,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->L:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2761,7 +2550,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2776,7 +2564,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->J:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2791,7 +2578,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->p:F
 
     iget v2, p0, Lcom/commsource/studio/StudioCanvasContainer;->g:F
@@ -2814,7 +2600,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
@@ -2833,10 +2618,8 @@
 
     invoke-direct {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    .line 2
     new-instance v2, Landroid/graphics/RectF;
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v3
@@ -2845,7 +2628,6 @@
 
     sub-float/2addr v3, p1
 
-    .line 4
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getHeight()I
 
     move-result p1
@@ -2858,10 +2640,8 @@
 
     sub-float/2addr p1, p2
 
-    .line 5
     invoke-direct {v2, v4, v4, v3, p1}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result p1
@@ -2874,35 +2654,28 @@
 
     move-result-object p1
 
-    .line 7
     new-instance p2, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p2}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 8
     new-instance p3, Landroid/graphics/Matrix;
 
     invoke-direct {p3}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 9
     sget-object p4, Landroid/graphics/Matrix$ScaleToFit;->CENTER:Landroid/graphics/Matrix$ScaleToFit;
 
     invoke-virtual {p3, p1, v1, p4}, Landroid/graphics/Matrix;->setRectToRect(Landroid/graphics/RectF;Landroid/graphics/RectF;Landroid/graphics/Matrix$ScaleToFit;)Z
 
-    .line 10
     new-instance p4, Landroid/graphics/Matrix;
 
     invoke-direct {p4}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 11
     sget-object v1, Landroid/graphics/Matrix$ScaleToFit;->CENTER:Landroid/graphics/Matrix$ScaleToFit;
 
     invoke-virtual {p4, p1, v2, v1}, Landroid/graphics/Matrix;->setRectToRect(Landroid/graphics/RectF;Landroid/graphics/RectF;Landroid/graphics/Matrix$ScaleToFit;)Z
 
-    .line 12
     invoke-virtual {p2, p3}, Lcom/commsource/studio/MatrixBox;->set(Landroid/graphics/Matrix;)V
 
-    .line 13
     invoke-virtual {p2}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
 
     move-result-object p1
@@ -2911,7 +2684,6 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/MatrixBox;->set(Landroid/graphics/Matrix;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
@@ -2932,12 +2704,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->a0:Lcom/commsource/studio/StudioCanvasContainer$a;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/j;->h(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2950,13 +2720,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/StudioCanvasContainer;->w()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2980,7 +2747,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/StudioCanvasContainer;->x()Z
 
     move-result v1
@@ -2989,7 +2755,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->b0:Lcom/commsource/studio/i;
 
@@ -2997,7 +2762,6 @@
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -3006,7 +2770,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -3019,7 +2782,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3042,7 +2804,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->f:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3057,7 +2818,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3080,7 +2840,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->b:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3099,7 +2858,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->N:Lcom/commsource/studio/layer/BaseLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3114,7 +2872,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->T:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3129,7 +2886,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->U:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3144,7 +2900,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3167,7 +2922,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->c:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3190,7 +2944,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->d:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3205,7 +2958,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->K:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3220,7 +2972,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->g:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3243,7 +2994,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->L:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3258,7 +3008,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3273,7 +3022,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->J:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3290,12 +3038,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortWidth()I
 
     move-result v2
@@ -3320,7 +3066,6 @@
 
     move-result v2
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortHeight()I
 
     move-result v3
@@ -3345,7 +3090,6 @@
 
     move-result v3
 
-    .line 4
     new-instance v4, Lcom/commsource/studio/layer/Position;
 
     invoke-direct {v4}, Lcom/commsource/studio/layer/Position;-><init>()V
@@ -3370,7 +3114,6 @@
 
     div-float/2addr v3, v7
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v2
@@ -3384,7 +3127,6 @@
     :cond_0
     mul-float v2, v2, v9
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v3
@@ -3393,11 +3135,9 @@
 
     div-float v3, v2, v3
 
-    .line 7
     :goto_0
     invoke-virtual {v4, v3}, Lcom/commsource/studio/layer/Position;->setRatio(F)V
 
-    .line 8
     invoke-virtual {v4}, Lcom/commsource/studio/layer/Position;->getCenterOffset()Landroid/graphics/PointF;
 
     move-result-object v2
@@ -3406,14 +3146,12 @@
 
     iput v3, v2, Landroid/graphics/PointF;->x:F
 
-    .line 9
     invoke-virtual {v4}, Lcom/commsource/studio/layer/Position;->getCenterOffset()Landroid/graphics/PointF;
 
     move-result-object v2
 
     iput v3, v2, Landroid/graphics/PointF;->y:F
 
-    .line 10
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v2
@@ -3428,7 +3166,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->b:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrixBox()Lcom/commsource/studio/MatrixBox;
@@ -3437,7 +3174,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->f:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrixBox()Lcom/commsource/studio/MatrixBox;
@@ -3446,7 +3182,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -3461,31 +3196,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 2
     new-instance v2, Lcom/commsource/studio/layer/Position;
 
     invoke-direct {v2}, Lcom/commsource/studio/layer/Position;-><init>()V
 
-    .line 3
     invoke-virtual {v2, p4}, Lcom/commsource/studio/layer/Position;->setRatio(F)V
 
     const/high16 p4, 0x3f000000    # 0.5f
 
     if-eqz p3, :cond_0
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/studio/layer/Position;->getCenterOffset()Landroid/graphics/PointF;
 
     move-result-object p3
 
     iput p4, p3, Landroid/graphics/PointF;->x:F
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/studio/layer/Position;->getCenterOffset()Landroid/graphics/PointF;
 
     move-result-object p3
@@ -3497,7 +3227,6 @@
     :cond_0
     const p3, -0x41b33334    # -0.19999999f
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/studio/StudioCanvasContainer;->L:Landroid/graphics/RectF;
 
     invoke-virtual {v3}, Landroid/graphics/RectF;->width()F
@@ -3532,7 +3261,6 @@
 
     const v3, 0x3e4ccccc    # 0.19999999f
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/studio/StudioCanvasContainer;->L:Landroid/graphics/RectF;
 
     invoke-virtual {v5}, Landroid/graphics/RectF;->height()F
@@ -3563,7 +3291,6 @@
 
     add-float/2addr v3, p4
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/studio/layer/Position;->getCenterOffset()Landroid/graphics/PointF;
 
     move-result-object p4
@@ -3574,7 +3301,6 @@
 
     iput v4, p4, Landroid/graphics/PointF;->x:F
 
-    .line 9
     invoke-virtual {v2}, Lcom/commsource/studio/layer/Position;->getCenterOffset()Landroid/graphics/PointF;
 
     move-result-object p4
@@ -3585,7 +3311,6 @@
 
     iput p3, p4, Landroid/graphics/PointF;->y:F
 
-    .line 10
     :goto_0
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
@@ -3601,7 +3326,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->b:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrixBox()Lcom/commsource/studio/MatrixBox;
@@ -3610,7 +3334,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->f:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrixBox()Lcom/commsource/studio/MatrixBox;
@@ -3619,7 +3342,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -3642,7 +3364,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->N:Lcom/commsource/studio/layer/BaseLayer;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -3653,10 +3374,8 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->N:Lcom/commsource/studio/layer/BaseLayer;
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
@@ -3664,15 +3383,12 @@
 
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->removeView(Landroid/view/View;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->M:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->d0()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/StudioCanvasContainer;->a0:Lcom/commsource/studio/StudioCanvasContainer$a;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->C()Lcom/commsource/studio/i$c;
@@ -3681,7 +3397,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/i$c;->e(Lcom/commsource/studio/i$d;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3694,16 +3409,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/StudioCanvasContainer;->O:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/studio/StudioCanvasContainer;->P:I
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/StudioCanvasContainer;->w()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

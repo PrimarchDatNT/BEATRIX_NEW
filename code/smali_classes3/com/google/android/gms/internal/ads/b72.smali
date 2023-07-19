@@ -68,7 +68,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -85,35 +84,28 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/zzev;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput-byte v0, p0, Lcom/google/android/gms/internal/ads/b72;->L:B
 
-    .line 3
     iput v0, p0, Lcom/google/android/gms/internal/ads/b72;->M:I
 
     const-wide/16 v0, -0x3
 
-    .line 4
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/b72;->N:J
 
-    .line 5
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/b72;->a:Landroid/content/Context;
 
-    .line 6
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/b72;->g:Lcom/google/android/gms/internal/ads/zzev;
 
     const-string p2, "power"
 
-    .line 7
     invoke-virtual {p1, p2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p2
@@ -124,7 +116,6 @@
 
     const-string p2, "keyguard"
 
-    .line 8
     invoke-virtual {p1, p2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p2
@@ -133,19 +124,16 @@
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/b72;->d:Landroid/app/KeyguardManager;
 
-    .line 9
     instance-of p2, p1, Landroid/app/Application;
 
     if-eqz p2, :cond_0
 
-    .line 10
     move-object p2, p1
 
     check-cast p2, Landroid/app/Application;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/b72;->b:Landroid/app/Application;
 
-    .line 11
     new-instance p2, Lcom/google/android/gms/internal/ads/a42;
 
     check-cast p1, Landroid/app/Application;
@@ -157,7 +145,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 12
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/ads/b72;->g(Landroid/view/View;)V
 
     return-void
@@ -168,7 +155,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b72;->J:Ljava/lang/ref/WeakReference;
 
     if-eqz v0, :cond_0
@@ -190,14 +176,12 @@
 .method private final b(Landroid/app/Activity;I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b72;->J:Ljava/lang/ref/WeakReference;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
@@ -207,13 +191,11 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-virtual {p1}, Landroid/view/Window;->peekDecorView()Landroid/view/View;
 
     move-result-object p1
 
-    .line 4
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->a()Landroid/view/View;
 
     move-result-object v0
@@ -222,7 +204,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-virtual {v0}, Landroid/view/View;->getRootView()Landroid/view/View;
 
     move-result-object v0
@@ -233,7 +214,6 @@
 
     if-ne v0, p1, :cond_2
 
-    .line 6
     iput p2, p0, Lcom/google/android/gms/internal/ads/b72;->M:I
 
     :cond_2
@@ -243,7 +223,6 @@
 .method static synthetic c(Lcom/google/android/gms/internal/ads/b72;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->f()V
 
     return-void
@@ -252,7 +231,6 @@
 .method private final d()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/b72;->O:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/a72;
@@ -267,14 +245,12 @@
 .method private final f()V
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b72;->J:Ljava/lang/ref/WeakReference;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->a()Landroid/view/View;
 
@@ -286,15 +262,12 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     iput-wide v2, p0, Lcom/google/android/gms/internal/ads/b72;->N:J
 
-    .line 4
     iput-byte v1, p0, Lcom/google/android/gms/internal/ads/b72;->L:B
 
     return-void
 
-    .line 5
     :cond_1
     invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
 
@@ -313,7 +286,6 @@
     :cond_2
     const/4 v4, 0x0
 
-    .line 6
     :goto_0
     invoke-virtual {v0}, Landroid/view/View;->isShown()Z
 
@@ -325,7 +297,6 @@
 
     int-to-byte v4, v4
 
-    .line 7
     :cond_3
     iget-object v7, p0, Lcom/google/android/gms/internal/ads/b72;->c:Landroid/os/PowerManager;
 
@@ -341,11 +312,9 @@
 
     int-to-byte v4, v4
 
-    .line 8
     :cond_4
     iget-object v7, p0, Lcom/google/android/gms/internal/ads/b72;->g:Lcom/google/android/gms/internal/ads/zzev;
 
-    .line 9
     invoke-virtual {v7}, Lcom/google/android/gms/internal/ads/zzev;->a()Z
 
     move-result v7
@@ -356,21 +325,18 @@
 
     if-eqz v7, :cond_7
 
-    .line 10
     invoke-virtual {v7}, Landroid/app/KeyguardManager;->inKeyguardRestrictedInputMode()Z
 
     move-result v7
 
     if-eqz v7, :cond_7
 
-    .line 11
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/z62;->g(Landroid/view/View;)Landroid/app/Activity;
 
     move-result-object v7
 
     if-eqz v7, :cond_6
 
-    .line 12
     invoke-virtual {v7}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v7
@@ -381,7 +347,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_5
     invoke-virtual {v7}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
 
@@ -390,7 +355,6 @@
     :goto_1
     if-eqz v7, :cond_6
 
-    .line 14
     iget v7, v7, Landroid/view/WindowManager$LayoutParams;->flags:I
 
     const/high16 v8, 0x80000
@@ -422,7 +386,6 @@
 
     int-to-byte v4, v4
 
-    .line 15
     :cond_9
     new-instance v5, Landroid/graphics/Rect;
 
@@ -438,7 +401,6 @@
 
     int-to-byte v4, v4
 
-    .line 16
     :cond_a
     new-instance v5, Landroid/graphics/Rect;
 
@@ -454,13 +416,11 @@
 
     int-to-byte v4, v4
 
-    .line 17
     :cond_b
     invoke-virtual {v0}, Landroid/view/View;->getWindowVisibility()I
 
     move-result v0
 
-    .line 18
     iget v5, p0, Lcom/google/android/gms/internal/ads/b72;->M:I
 
     if-eq v5, v1, :cond_c
@@ -474,18 +434,15 @@
 
     int-to-byte v4, v0
 
-    .line 19
     :cond_d
     iget-byte v0, p0, Lcom/google/android/gms/internal/ads/b72;->L:B
 
     if-eq v0, v4, :cond_f
 
-    .line 20
     iput-byte v4, p0, Lcom/google/android/gms/internal/ads/b72;->L:B
 
     if-nez v4, :cond_e
 
-    .line 21
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v0
@@ -497,7 +454,6 @@
 
     sub-long v0, v2, v0
 
-    .line 22
     :goto_4
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/b72;->N:J
 
@@ -508,76 +464,62 @@
 .method private final h(Landroid/view/View;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/ViewTreeObserver;->isAlive()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/b72;->p:Ljava/lang/ref/WeakReference;
 
-    .line 4
     invoke-virtual {p1, p0}, Landroid/view/ViewTreeObserver;->addOnScrollChangedListener(Landroid/view/ViewTreeObserver$OnScrollChangedListener;)V
 
-    .line 5
     invoke-virtual {p1, p0}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/b72;->f:Landroid/content/BroadcastReceiver;
 
     if-nez p1, :cond_1
 
-    .line 7
     new-instance p1, Landroid/content/IntentFilter;
 
     invoke-direct {p1}, Landroid/content/IntentFilter;-><init>()V
 
     const-string v0, "android.intent.action.SCREEN_ON"
 
-    .line 8
     invoke-virtual {p1, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     const-string v0, "android.intent.action.SCREEN_OFF"
 
-    .line 9
     invoke-virtual {p1, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     const-string v0, "android.intent.action.USER_PRESENT"
 
-    .line 10
     invoke-virtual {p1, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    .line 11
     new-instance v0, Lcom/google/android/gms/internal/ads/d72;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/d72;-><init>(Lcom/google/android/gms/internal/ads/b72;)V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/b72;->f:Landroid/content/BroadcastReceiver;
 
-    .line 12
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/b72;->a:Landroid/content/Context;
 
     invoke-virtual {v1, v0, p1}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    .line 13
     :cond_1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/b72;->b:Landroid/app/Application;
 
     if-eqz p1, :cond_2
 
-    .line 14
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b72;->K:Lcom/google/android/gms/internal/ads/a42;
 
@@ -595,13 +537,11 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/b72;->p:Ljava/lang/ref/WeakReference;
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v1
@@ -610,26 +550,21 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/view/ViewTreeObserver;->isAlive()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {v1, p0}, Landroid/view/ViewTreeObserver;->removeOnScrollChangedListener(Landroid/view/ViewTreeObserver$OnScrollChangedListener;)V
 
-    .line 5
     invoke-virtual {v1, p0}, Landroid/view/ViewTreeObserver;->removeGlobalOnLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    .line 6
     :cond_0
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/b72;->p:Ljava/lang/ref/WeakReference;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 7
     :catch_0
     :cond_1
     :try_start_1
@@ -637,17 +572,14 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1}, Landroid/view/ViewTreeObserver;->isAlive()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 9
     invoke-virtual {p1, p0}, Landroid/view/ViewTreeObserver;->removeOnScrollChangedListener(Landroid/view/ViewTreeObserver$OnScrollChangedListener;)V
 
-    .line 10
     invoke-virtual {p1, p0}, Landroid/view/ViewTreeObserver;->removeGlobalOnLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
@@ -657,14 +589,12 @@
     :catch_1
     nop
 
-    .line 11
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/b72;->f:Landroid/content/BroadcastReceiver;
 
     if-eqz p1, :cond_3
 
-    .line 12
     :try_start_2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/b72;->a:Landroid/content/Context;
 
@@ -672,17 +602,14 @@
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
 
-    .line 13
     :catch_2
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/b72;->f:Landroid/content/BroadcastReceiver;
 
-    .line 14
     :cond_3
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/b72;->b:Landroid/app/Application;
 
     if-eqz p1, :cond_4
 
-    .line 15
     :try_start_3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b72;->K:Lcom/google/android/gms/internal/ads/a42;
 
@@ -700,7 +627,6 @@
 .method public final e()J
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/b72;->N:J
 
     const-wide/16 v2, -0x2
@@ -717,10 +643,8 @@
 
     const-wide/16 v0, -0x3
 
-    .line 2
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/b72;->N:J
 
-    .line 3
     :cond_0
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/b72;->N:J
 
@@ -730,20 +654,16 @@
 .method final g(Landroid/view/View;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->a()Landroid/view/View;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p0}, Landroid/view/View;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
-    .line 3
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/b72;->i(Landroid/view/View;)V
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/lang/ref/WeakReference;
 
@@ -753,7 +673,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 5
     invoke-virtual {p1}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v0
@@ -782,16 +701,13 @@
     :goto_1
     if-eqz v0, :cond_3
 
-    .line 6
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/b72;->h(Landroid/view/View;)V
 
-    .line 7
     :cond_3
     invoke-virtual {p1, p0}, Landroid/view/View;->addOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
     const-wide/16 v0, -0x2
 
-    .line 8
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/b72;->N:J
 
     return-void
@@ -799,7 +715,6 @@
     :cond_4
     const-wide/16 v0, -0x3
 
-    .line 9
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/b72;->N:J
 
     return-void
@@ -810,10 +725,8 @@
 
     const/4 p2, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/ads/b72;->b(Landroid/app/Activity;I)V
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->f()V
 
     return-void
@@ -822,7 +735,6 @@
 .method public final onActivityDestroyed(Landroid/app/Activity;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->f()V
 
     return-void
@@ -833,10 +745,8 @@
 
     const/4 v0, 0x4
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/ads/b72;->b(Landroid/app/Activity;I)V
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->f()V
 
     return-void
@@ -847,13 +757,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/ads/b72;->b(Landroid/app/Activity;I)V
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->f()V
 
-    .line 3
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->d()V
 
     return-void
@@ -862,7 +769,6 @@
 .method public final onActivitySaveInstanceState(Landroid/app/Activity;Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->f()V
 
     return-void
@@ -873,10 +779,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/ads/b72;->b(Landroid/app/Activity;I)V
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->f()V
 
     return-void
@@ -885,7 +789,6 @@
 .method public final onActivityStopped(Landroid/app/Activity;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->f()V
 
     return-void
@@ -894,7 +797,6 @@
 .method public final onGlobalLayout()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->f()V
 
     return-void
@@ -903,7 +805,6 @@
 .method public final onScrollChanged()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->f()V
 
     return-void
@@ -914,13 +815,10 @@
 
     const/4 v0, -0x1
 
-    .line 1
     iput v0, p0, Lcom/google/android/gms/internal/ads/b72;->M:I
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/b72;->h(Landroid/view/View;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->f()V
 
     return-void
@@ -931,16 +829,12 @@
 
     const/4 v0, -0x1
 
-    .line 1
     iput v0, p0, Lcom/google/android/gms/internal/ads/b72;->M:I
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->f()V
 
-    .line 3
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/b72;->d()V
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/b72;->i(Landroid/view/View;)V
 
     return-void

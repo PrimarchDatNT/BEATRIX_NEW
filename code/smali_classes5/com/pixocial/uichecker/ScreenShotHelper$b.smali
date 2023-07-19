@@ -52,10 +52,8 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper$b;->b:Lcom/pixocial/uichecker/ScreenShotHelper;
 
-    .line 2
     invoke-direct {p0, p2}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
 
     iput-object p3, p0, Lcom/pixocial/uichecker/ScreenShotHelper$b;->a:Landroid/net/Uri;
@@ -70,7 +68,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper$b;->a:Landroid/net/Uri;
 
     return-object v0
@@ -87,7 +84,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper$b;->a:Landroid/net/Uri;
 
     return-void
@@ -100,10 +96,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/database/ContentObserver;->onChange(ZLandroid/net/Uri;)V
 
-    .line 2
     iget-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper$b;->b:Lcom/pixocial/uichecker/ScreenShotHelper;
 
     invoke-virtual {p1}, Lcom/pixocial/uichecker/ScreenShotHelper;->h()Z
@@ -114,7 +108,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper$b;->b:Lcom/pixocial/uichecker/ScreenShotHelper;
 

@@ -59,7 +59,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/e0;
 
     const/4 v1, 0x0
@@ -68,7 +67,6 @@
 
     sput-object v0, Lcom/google/common/util/concurrent/e0;->b:Lcom/google/common/util/concurrent/g0;
 
-    .line 2
     const-class v0, Lcom/google/common/util/concurrent/e0;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -96,10 +94,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/util/concurrent/e0;->a:Ljava/lang/Object;
 
     return-void
@@ -112,15 +108,12 @@
 
     const-string v0, "Runnable was null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Executor was null."
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     :try_start_0
     invoke-interface {p2, p1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
     :try_end_0
@@ -131,7 +124,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     sget-object v1, Lcom/google/common/util/concurrent/e0;->c:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
@@ -178,7 +170,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/e0;->a:Ljava/lang/Object;
 
     return-object v0
@@ -200,10 +191,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {p3}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/e0;->get()Ljava/lang/Object;
 
     move-result-object p1
@@ -230,7 +219,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

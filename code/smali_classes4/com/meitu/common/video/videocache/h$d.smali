@@ -27,12 +27,10 @@
 .method public constructor <init>(Lcom/meitu/common/video/videocache/h;Ljava/util/concurrent/CountDownLatch;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/video/videocache/h$d;->b:Lcom/meitu/common/video/videocache/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/common/video/videocache/h$d;->a:Ljava/util/concurrent/CountDownLatch;
 
     return-void
@@ -47,17 +45,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h$d;->a:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h$d;->b:Lcom/meitu/common/video/videocache/h;
 
     invoke-static {v1}, Lcom/meitu/common/video/videocache/h;->a(Lcom/meitu/common/video/videocache/h;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

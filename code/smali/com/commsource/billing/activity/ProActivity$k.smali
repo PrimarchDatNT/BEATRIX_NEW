@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/activity/ProActivity$k;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -49,7 +48,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/billing/activity/ProActivity$k;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v0}, Lcom/commsource/billing/activity/ProActivity;->O0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/beautyplus/f0/u0;
@@ -66,7 +64,6 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/billing/activity/ProActivity$k;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v0}, Lcom/commsource/billing/activity/ProActivity;->O0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/beautyplus/f0/u0;
@@ -79,7 +76,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -98,10 +94,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/Animator;->removeAllListeners()V
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity$k;->a:Lcom/commsource/billing/activity/ProActivity;
 
@@ -117,7 +111,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

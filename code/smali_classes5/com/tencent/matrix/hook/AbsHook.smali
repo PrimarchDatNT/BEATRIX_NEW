@@ -19,10 +19,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/tencent/matrix/hook/AbsHook$Status;->UNCOMMIT:Lcom/tencent/matrix/hook/AbsHook$Status;
 
     iput-object v0, p0, Lcom/tencent/matrix/hook/AbsHook;->a:Lcom/tencent/matrix/hook/AbsHook$Status;
@@ -40,7 +38,6 @@
 .method public b()Lcom/tencent/matrix/hook/AbsHook$Status;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/hook/AbsHook;->a:Lcom/tencent/matrix/hook/AbsHook$Status;
 
     return-object v0
@@ -55,7 +52,6 @@
 .method e(Lcom/tencent/matrix/hook/AbsHook$Status;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/hook/AbsHook;->a:Lcom/tencent/matrix/hook/AbsHook$Status;
 
     return-void

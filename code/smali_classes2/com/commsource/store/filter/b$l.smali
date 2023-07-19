@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/b$l;->a:Lcom/commsource/store/filter/b;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
@@ -79,19 +78,16 @@
 
     const/high16 p4, 0x41800000    # 16.0f
 
-    .line 1
     invoke-static {p4}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p4
 
     const/high16 v1, 0x42960000    # 75.0f
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result v2
@@ -104,7 +100,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
@@ -134,11 +129,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p1, p4, p4, p4, v3}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

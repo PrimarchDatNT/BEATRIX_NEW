@@ -26,7 +26,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
@@ -41,10 +40,8 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
@@ -55,7 +52,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {p1, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p1
@@ -70,21 +66,17 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/auth/api/signin/internal/b;->c:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/google/android/gms/auth/api/signin/internal/b;->d:Lcom/google/android/gms/auth/api/signin/internal/b;
 
     if-nez v1, :cond_0
 
-    .line 4
     new-instance v1, Lcom/google/android/gms/auth/api/signin/internal/b;
 
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
@@ -95,13 +87,11 @@
 
     sput-object v1, Lcom/google/android/gms/auth/api/signin/internal/b;->d:Lcom/google/android/gms/auth/api/signin/internal/b;
 
-    .line 5
     :cond_0
     sget-object p0, Lcom/google/android/gms/auth/api/signin/internal/b;->d:Lcom/google/android/gms/auth/api/signin/internal/b;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     return-object p0
@@ -109,7 +99,6 @@
     :catchall_0
     move-exception p0
 
-    .line 7
     sget-object v0, Lcom/google/android/gms/auth/api/signin/internal/b;->c:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
@@ -120,12 +109,10 @@
 .method private final g(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->b:Landroid/content/SharedPreferences;
 
@@ -141,7 +128,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
@@ -151,7 +137,6 @@
     :catchall_0
     move-exception p1
 
-    .line 4
     iget-object p2, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {p2}, Ljava/util/concurrent/locks/Lock;->unlock()V
@@ -162,7 +147,6 @@
 .method private static h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -210,7 +194,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -224,7 +207,6 @@
     :cond_0
     const-string v0, "googleSignInAccount"
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/auth/api/signin/internal/b;->h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -235,7 +217,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     :try_start_0
     invoke-static {p1}, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->L0(Ljava/lang/String;)Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;
 
@@ -258,7 +239,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -272,7 +252,6 @@
     :cond_0
     const-string v0, "googleSignInOptions"
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/auth/api/signin/internal/b;->h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -283,7 +262,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     :try_start_0
     invoke-static {p1}, Lcom/google/android/gms/auth/api/signin/GoogleSignInOptions;->A0(Ljava/lang/String;)Lcom/google/android/gms/auth/api/signin/GoogleSignInOptions;
 
@@ -303,12 +281,10 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->b:Landroid/content/SharedPreferences;
 
@@ -320,7 +296,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
@@ -330,7 +305,6 @@
     :catchall_0
     move-exception p1
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
@@ -341,12 +315,10 @@
 .method private final m(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->b:Landroid/content/SharedPreferences;
 
@@ -362,7 +334,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
@@ -372,7 +343,6 @@
     :catchall_0
     move-exception p1
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
@@ -387,12 +357,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->b:Landroid/content/SharedPreferences;
 
@@ -408,7 +376,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
@@ -418,7 +385,6 @@
     :catchall_0
     move-exception v0
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/auth/api/signin/internal/b;->a:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
@@ -436,12 +402,10 @@
 
     const-string v0, "defaultGoogleSignInAccount"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/b;->k(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-direct {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/b;->i(Ljava/lang/String;)Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;
 
     move-result-object v0
@@ -459,12 +423,10 @@
 
     const-string v0, "defaultGoogleSignInAccount"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/b;->k(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-direct {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/b;->j(Ljava/lang/String;)Lcom/google/android/gms/auth/api/signin/GoogleSignInOptions;
 
     move-result-object v0
@@ -482,7 +444,6 @@
 
     const-string v0, "refreshToken"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/b;->k(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -495,36 +456,28 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->W0()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "defaultGoogleSignInAccount"
 
-    .line 4
     invoke-direct {p0, v1, v0}, Lcom/google/android/gms/auth/api/signin/internal/b;->g(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->W0()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "googleSignInAccount"
 
-    .line 8
     invoke-static {v1, v0}, Lcom/google/android/gms/auth/api/signin/internal/b;->h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -533,12 +486,10 @@
 
     move-result-object p1
 
-    .line 9
     invoke-direct {p0, v1, p1}, Lcom/google/android/gms/auth/api/signin/internal/b;->g(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, "googleSignInOptions"
 
-    .line 10
     invoke-static {p1, v0}, Lcom/google/android/gms/auth/api/signin/internal/b;->h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -557,15 +508,12 @@
 
     const-string v0, "defaultGoogleSignInAccount"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/b;->k(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-direct {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/b;->m(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -574,7 +522,6 @@
 
     const-string v0, "googleSignInAccount"
 
-    .line 4
     invoke-static {v0, v1}, Lcom/google/android/gms/auth/api/signin/internal/b;->h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -583,7 +530,6 @@
 
     const-string v0, "googleSignInOptions"
 
-    .line 5
     invoke-static {v0, v1}, Lcom/google/android/gms/auth/api/signin/internal/b;->h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0

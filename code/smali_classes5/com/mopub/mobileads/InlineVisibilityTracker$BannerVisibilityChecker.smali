@@ -28,25 +28,20 @@
 .method constructor <init>(II)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/high16 v0, -0x8000000000000000L
 
-    .line 2
     iput-wide v0, p0, Lcom/mopub/mobileads/InlineVisibilityTracker$BannerVisibilityChecker;->mStartTimeMillis:J
 
-    .line 3
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/mobileads/InlineVisibilityTracker$BannerVisibilityChecker;->mClipRect:Landroid/graphics/Rect;
 
-    .line 4
     iput p1, p0, Lcom/mopub/mobileads/InlineVisibilityTracker$BannerVisibilityChecker;->mMinVisibleDips:I
 
-    .line 5
     iput p2, p0, Lcom/mopub/mobileads/InlineVisibilityTracker$BannerVisibilityChecker;->mMinVisibleMillis:I
 
     return-void
@@ -57,7 +52,6 @@
 .method hasBeenVisibleYet()Z
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/mopub/mobileads/InlineVisibilityTracker$BannerVisibilityChecker;->mStartTimeMillis:J
 
     const-wide/high16 v2, -0x8000000000000000L
@@ -80,7 +74,6 @@
 .method hasRequiredTimeElapsed()Z
     .locals 6
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/InlineVisibilityTracker$BannerVisibilityChecker;->hasBeenVisibleYet()Z
 
     move-result v0
@@ -91,7 +84,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
@@ -130,7 +122,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 1
     invoke-virtual {p2}, Landroid/view/View;->getVisibility()I
 
     move-result v1
@@ -145,7 +136,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Landroid/view/View;->getWidth()I
 
@@ -161,7 +151,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/mopub/mobileads/InlineVisibilityTracker$BannerVisibilityChecker;->mClipRect:Landroid/graphics/Rect;
 
@@ -173,7 +162,6 @@
 
     return v0
 
-    .line 4
     :cond_2
     iget-object p1, p0, Lcom/mopub/mobileads/InlineVisibilityTracker$BannerVisibilityChecker;->mClipRect:Landroid/graphics/Rect;
 
@@ -183,17 +171,14 @@
 
     int-to-float p1, p1
 
-    .line 5
     invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 6
     invoke-static {p1, v1}, Lcom/mopub/common/util/Dips;->pixelsToIntDips(FLandroid/content/Context;)I
 
     move-result p1
 
-    .line 7
     iget-object v1, p0, Lcom/mopub/mobileads/InlineVisibilityTracker$BannerVisibilityChecker;->mClipRect:Landroid/graphics/Rect;
 
     invoke-virtual {v1}, Landroid/graphics/Rect;->height()I
@@ -202,12 +187,10 @@
 
     int-to-float v1, v1
 
-    .line 8
     invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p2
 
-    .line 9
     invoke-static {v1, p2}, Lcom/mopub/common/util/Dips;->pixelsToIntDips(FLandroid/content/Context;)I
 
     move-result p2
@@ -216,7 +199,6 @@
 
     int-to-long p1, p1
 
-    .line 10
     iget v1, p0, Lcom/mopub/mobileads/InlineVisibilityTracker$BannerVisibilityChecker;->mMinVisibleDips:I
 
     int-to-long v1, v1
@@ -235,7 +217,6 @@
 .method setStartTimeMillis()V
     .locals 2
 
-    .line 1
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     move-result-wide v0

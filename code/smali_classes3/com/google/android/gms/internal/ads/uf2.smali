@@ -31,10 +31,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -60,13 +58,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/uf2;->b:Ljava/util/Map;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/uf2;->a:Ljava/util/Map;
@@ -79,7 +75,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/uf2;->b:Ljava/util/Map;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/uf2;->b:Ljava/util/Map;
     :try_end_0

@@ -30,7 +30,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/internal/SafeCollectorKt$emitFun$1;
 
     invoke-direct {v0}, Lcotlinx/coroutines/flow/internal/SafeCollectorKt$emitFun$1;-><init>()V
@@ -51,7 +50,6 @@
 .method public static final synthetic a()Lcotlin/jvm/u/q;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/flow/internal/SafeCollectorKt;->a:Lcotlin/jvm/u/q;
 
     return-object v0

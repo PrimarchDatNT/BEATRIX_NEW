@@ -154,7 +154,6 @@
 
     sput-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
-    .line 1
     sget-object v1, Lcotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lcotlin/LazyThreadSafetyMode;
 
     sget-object v2, Lcom/commsource/beautyfilter/NewBeautyFilterManager$Companion$instance$2;->INSTANCE:Lcom/commsource/beautyfilter/NewBeautyFilterManager$Companion$instance$2;
@@ -173,10 +172,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$mFilterRepository$2;->INSTANCE:Lcom/commsource/beautyfilter/NewBeautyFilterManager$mFilterRepository$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -185,7 +182,6 @@
 
     iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->a:Lcotlin/w;
 
-    .line 3
     sget-object v0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$mOriFilter$2;->INSTANCE:Lcom/commsource/beautyfilter/NewBeautyFilterManager$mOriFilter$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -194,63 +190,54 @@
 
     iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->b:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v0}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 5
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->d:Landroid/util/SparseArray;
 
-    .line 6
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->e:Landroid/util/SparseArray;
 
-    .line 7
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->f:Landroid/util/SparseArray;
 
-    .line 8
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->g:Ljava/util/ArrayList;
 
-    .line 9
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->h:Ljava/util/ArrayList;
 
-    .line 10
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->i:Ljava/util/ArrayList;
 
-    .line 11
     new-instance v0, Lcom/commsource/material/download/b/a;
 
     invoke-direct {v0}, Lcom/commsource/material/download/b/a;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->m:Lcom/commsource/material/download/b/a;
 
-    .line 12
     new-instance v0, Lcom/commsource/material/download/b/a;
 
     invoke-direct {v0}, Lcom/commsource/material/download/b/a;-><init>()V
@@ -263,7 +250,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 13
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;-><init>()V
 
     return-void
@@ -292,40 +278,32 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-static/range {p1 .. p1}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v5
 
-    .line 5
     sget-object v6, Lcom/commsource/beautyfilter/NewBeautyFilterManager$c;->a:Lcom/commsource/beautyfilter/NewBeautyFilterManager$c;
 
     invoke-static {v5, v6}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 6
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 7
     new-instance v6, Ljava/util/ArrayList;
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    .line 8
     invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -348,7 +326,6 @@
 
     check-cast v10, Lcom/commsource/beautyfilter/a;
 
-    .line 9
     invoke-virtual {v10}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result v11
@@ -377,7 +354,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     new-instance v5, Ljava/util/ArrayList;
 
@@ -389,7 +365,6 @@
 
     invoke-direct {v5, v7}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 11
     invoke-interface {v6}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v6
@@ -405,20 +380,16 @@
 
     move-result-object v7
 
-    .line 12
     check-cast v7, Lcom/commsource/beautyfilter/a;
 
-    .line 13
     invoke-static/range {p2 .. p2}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v11
 
-    .line 14
     new-instance v12, Ljava/util/ArrayList;
 
     invoke-direct {v12}, Ljava/util/ArrayList;-><init>()V
 
-    .line 15
     invoke-interface {v11}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v11
@@ -440,7 +411,6 @@
 
     check-cast v15, Lcom/meitu/template/bean/j;
 
-    .line 16
     invoke-virtual {v15}, Lcom/meitu/template/bean/j;->d()I
 
     move-result v1
@@ -530,7 +500,6 @@
 
     goto :goto_3
 
-    .line 17
     :cond_8
     sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$d;->a:Lcom/commsource/beautyfilter/NewBeautyFilterManager$d;
 
@@ -538,20 +507,16 @@
 
     move-result-object v1
 
-    .line 18
     invoke-virtual {v7, v1}, Lcom/commsource/beautyfilter/a;->k(Ljava/util/List;)V
 
-    .line 19
     invoke-virtual {v7}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result v9
 
     if-lez v9, :cond_9
 
-    .line 20
     invoke-virtual {v3, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 21
     :cond_9
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -570,17 +535,14 @@
 
     check-cast v10, Lcom/meitu/template/bean/j;
 
-    .line 22
     invoke-static/range {p3 .. p3}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v11
 
-    .line 23
     new-instance v12, Ljava/util/ArrayList;
 
     invoke-direct {v12}, Ljava/util/ArrayList;-><init>()V
 
-    .line 24
     invoke-interface {v11}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v11
@@ -600,7 +562,6 @@
 
     check-cast v15, Lcom/meitu/template/bean/Filter;
 
-    .line 25
     invoke-virtual {v15}, Lcom/meitu/template/bean/Filter;->getGroupId()I
 
     move-result v15
@@ -628,7 +589,6 @@
 
     goto :goto_7
 
-    .line 26
     :cond_c
     sget-object v8, Lcom/commsource/beautyfilter/NewBeautyFilterManager$e;->a:Lcom/commsource/beautyfilter/NewBeautyFilterManager$e;
 
@@ -636,24 +596,20 @@
 
     move-result-object v8
 
-    .line 27
     invoke-virtual {v10, v8}, Lcom/meitu/template/bean/j;->F(Ljava/util/List;)V
 
-    .line 28
     invoke-virtual {v7}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result v8
 
     if-lez v8, :cond_d
 
-    .line 29
     invoke-virtual {v10}, Lcom/meitu/template/bean/j;->g()Ljava/util/List;
 
     move-result-object v8
 
     if-eqz v8, :cond_d
 
-    .line 30
     invoke-interface {v8}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v8
@@ -671,7 +627,6 @@
 
     check-cast v10, Lcom/meitu/template/bean/Filter;
 
-    .line 31
     sget-object v11, Lcom/commsource/beautyfilter/NewFilterConfig;->A:Lcom/commsource/beautyfilter/NewFilterConfig$a;
 
     const/4 v12, 0x0
@@ -680,7 +635,6 @@
 
     invoke-static {v11, v10, v13, v14, v12}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->q(Lcom/commsource/beautyfilter/NewFilterConfig$a;Lcom/meitu/template/bean/Filter;IILjava/lang/Object;)V
 
-    .line 32
     invoke-virtual {v4, v10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_9
@@ -697,7 +651,6 @@
     :cond_e
     const/4 v13, 0x0
 
-    .line 33
     invoke-interface {v5, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     const/16 v1, 0x6c3a
@@ -711,7 +664,6 @@
 
     const/4 v13, 0x0
 
-    .line 34
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -761,34 +713,27 @@
 
     if-eqz v10, :cond_13
 
-    .line 35
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1, v3}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 36
     new-instance v5, Lcom/commsource/beautyfilter/NewBeautyFilterManager$b;
 
     invoke-direct {v5, v0, v3}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$b;-><init>(Lcom/commsource/beautyfilter/NewBeautyFilterManager;Ljava/util/ArrayList;)V
 
     invoke-static {v1, v5}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 37
     invoke-virtual {v10, v1}, Lcom/commsource/beautyfilter/a;->k(Ljava/util/List;)V
 
-    .line 38
     :cond_13
     iput-object v2, v0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->g:Ljava/util/ArrayList;
 
-    .line 39
     iput-object v3, v0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->h:Ljava/util/ArrayList;
 
-    .line 40
     iput-object v4, v0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->i:Ljava/util/ArrayList;
 
     const/16 v1, 0x6c3a
 
-    .line 41
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -812,7 +757,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$f;
 
     invoke-direct {v1, p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$f;-><init>(Lcom/commsource/beautyfilter/NewBeautyFilterManager;)V
@@ -821,17 +765,14 @@
 
     move-result-object p1
 
-    .line 2
     new-instance p2, Landroid/util/SparseArray;
 
     invoke-direct {p2}, Landroid/util/SparseArray;-><init>()V
 
     const-string v1, "compareResult"
 
-    .line 3
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -849,7 +790,6 @@
 
     check-cast v1, Lcom/commsource/beautyfilter/a;
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result v2
@@ -858,11 +798,9 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iput-object p2, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->f:Landroid/util/SparseArray;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -888,7 +826,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$g;
 
     invoke-direct {v1, p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$g;-><init>(Lcom/commsource/beautyfilter/NewBeautyFilterManager;)V
@@ -897,17 +834,14 @@
 
     move-result-object p1
 
-    .line 2
     new-instance p2, Landroid/util/SparseArray;
 
     invoke-direct {p2}, Landroid/util/SparseArray;-><init>()V
 
     const-string v1, "compareResult"
 
-    .line 3
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -925,7 +859,6 @@
 
     check-cast v1, Lcom/meitu/template/bean/j;
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->k()I
 
     move-result v2
@@ -934,11 +867,9 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iput-object p2, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->d:Landroid/util/SparseArray;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -962,7 +893,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$h;
 
     invoke-direct {v1, p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$h;-><init>(Lcom/commsource/beautyfilter/NewBeautyFilterManager;)V
@@ -971,17 +901,14 @@
 
     move-result-object p1
 
-    .line 2
     new-instance p2, Landroid/util/SparseArray;
 
     invoke-direct {p2}, Landroid/util/SparseArray;-><init>()V
 
     const-string v1, "compareResult"
 
-    .line 3
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -999,7 +926,6 @@
 
     check-cast v1, Lcom/meitu/template/bean/Filter;
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v2
@@ -1008,11 +934,9 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iput-object p2, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->e:Landroid/util/SparseArray;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1031,7 +955,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->O(Z)Ljava/util/List;
 
@@ -1055,7 +978,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->S(Lcom/meitu/template/bean/Filter;Ljava/lang/String;)Lcom/commsource/material/download/b/c;
 
@@ -1093,7 +1015,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->z(Ljava/util/List;Ljava/util/List;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1114,7 +1035,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->c0(IZ)Ljava/util/List;
 
@@ -1132,7 +1052,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->C(Landroid/util/SparseArray;Landroid/util/SparseArray;Landroid/util/SparseArray;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1147,7 +1066,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->D(Ljava/util/List;Ljava/util/List;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1162,7 +1080,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->E(Ljava/util/List;Ljava/util/List;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1177,7 +1094,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->F(Ljava/util/List;Ljava/util/List;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1192,7 +1108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->p:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1207,22 +1122,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
-    .line 2
     new-instance v2, Landroid/util/SparseArray;
 
     invoke-direct {v2}, Landroid/util/SparseArray;-><init>()V
 
-    .line 3
     new-instance v3, Landroid/util/SparseArray;
 
     invoke-direct {v3}, Landroid/util/SparseArray;-><init>()V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
     move-result-object v4
@@ -1231,7 +1142,6 @@
 
     move-result-object v4
 
-    .line 5
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -1249,7 +1159,6 @@
 
     check-cast v5, Lcom/commsource/beautyfilter/a;
 
-    .line 6
     invoke-virtual {v5}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result v6
@@ -1258,7 +1167,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
@@ -1268,7 +1176,6 @@
 
     move-result-object v4
 
-    .line 8
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -1286,7 +1193,6 @@
 
     check-cast v5, Lcom/meitu/template/bean/j;
 
-    .line 9
     invoke-virtual {v5}, Lcom/meitu/template/bean/j;->k()I
 
     move-result v6
@@ -1295,7 +1201,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
@@ -1305,7 +1210,6 @@
 
     move-result-object v4
 
-    .line 11
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -1323,7 +1227,6 @@
 
     check-cast v5, Lcom/meitu/template/bean/Filter;
 
-    .line 12
     invoke-virtual {v5}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v6
@@ -1332,13 +1235,11 @@
 
     goto :goto_2
 
-    .line 13
     :cond_2
     invoke-static {v3}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 14
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -1357,32 +1258,25 @@
 
     check-cast v5, Lcom/commsource/beautyfilter/a;
 
-    .line 15
     invoke-direct {p0, v5}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->k0(Lcom/commsource/beautyfilter/a;)Ljava/lang/String;
 
     move-result-object v6
 
     if-eqz v6, :cond_3
 
-    .line 16
     invoke-virtual {v5, v6}, Lcom/commsource/beautyfilter/a;->i(Ljava/lang/String;)V
 
     goto :goto_3
 
-    .line 17
     :cond_4
     invoke-direct {p0, v3, v2, v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->C(Landroid/util/SparseArray;Landroid/util/SparseArray;Landroid/util/SparseArray;)V
 
-    .line 18
     iput-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->e:Landroid/util/SparseArray;
 
-    .line 19
     iput-object v2, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->d:Landroid/util/SparseArray;
 
-    .line 20
     iput-object v3, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->f:Landroid/util/SparseArray;
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1395,7 +1289,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->f:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1410,7 +1303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->e:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1425,7 +1317,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result p1
@@ -1459,7 +1350,6 @@
     :pswitch_0
     sget p1, Lcom/res/provider/ResSTRING;->category_meishi:I
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1469,7 +1359,6 @@
     :pswitch_1
     sget p1, Lcom/res/provider/ResSTRING;->category_dianying:I
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1479,7 +1368,6 @@
     :pswitch_2
     sget p1, Lcom/res/provider/ResSTRING;->category_jiaopian:I
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1489,7 +1377,6 @@
     :pswitch_3
     sget p1, Lcom/res/provider/ResSTRING;->category_rixi:I
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1499,7 +1386,6 @@
     :pswitch_4
     sget p1, Lcom/res/provider/ResSTRING;->category_jindian:I
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1509,7 +1395,6 @@
     :pswitch_5
     sget p1, Lcom/res/provider/ResSTRING;->category_ziran:I
 
-    .line 7
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1519,7 +1404,6 @@
     :cond_0
     sget p1, Lcom/res/provider/ResSTRING;->favorites:I
 
-    .line 8
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1529,7 +1413,6 @@
     :cond_1
     sget p1, Lcom/res/provider/ResSTRING;->filter_recommend:I
 
-    .line 9
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1539,7 +1422,6 @@
     :cond_2
     sget p1, Lcom/res/provider/ResSTRING;->category_jiari:I
 
-    .line 10
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1549,7 +1431,6 @@
     :cond_3
     sget p1, Lcom/res/provider/ResSTRING;->filter_shop_premium:I
 
-    .line 11
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1559,12 +1440,10 @@
     :cond_4
     sget p1, Lcom/res/provider/ResSTRING;->t_all:I
 
-    .line 12
     invoke-static {p1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 13
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1590,7 +1469,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
     move-result-object p0
@@ -1607,7 +1485,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->d:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1622,7 +1499,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->i0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1637,7 +1513,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result v1
@@ -1694,7 +1569,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1709,7 +1583,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1724,7 +1597,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result v1
@@ -1773,7 +1645,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->l:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1788,7 +1659,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1818,7 +1688,6 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 2
     invoke-static {}, Lf/d/i/j;->K()I
 
     move-result p1
@@ -1844,7 +1713,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->s0(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1859,7 +1727,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->l0(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v1
@@ -1868,12 +1735,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getNeedShow()I
 
@@ -1883,12 +1748,10 @@
 
     if-ne v1, v3, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->isHot()Z
 
@@ -1932,7 +1795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1947,7 +1809,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -1956,7 +1817,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyfilter/NoStickLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1969,7 +1829,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->f:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1984,7 +1843,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->e:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1999,7 +1857,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->d:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2014,7 +1871,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2029,7 +1885,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->l:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2044,7 +1899,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->y0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2059,7 +1913,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyfilter/NewFilterConfig;->A:Lcom/commsource/beautyfilter/NewFilterConfig$a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->d()I
@@ -2072,7 +1925,6 @@
 
     if-ge v2, v3, :cond_e
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->e()Lcom/commsource/beautyfilter/NewFilterConfig;
 
     move-result-object v1
@@ -2081,27 +1933,22 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewFilterConfig$FilterOnlineInfo;->getData()Ljava/util/List;
 
     move-result-object v1
 
-    .line 7
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -2130,18 +1977,15 @@
     :cond_0
     check-cast v8, Lcom/commsource/beautyfilter/a;
 
-    .line 8
     invoke-virtual {v8, v7}, Lcom/commsource/beautyfilter/a;->j(I)V
 
     move v7, v9
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-interface {v2, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 10
     new-instance v5, Ljava/util/ArrayList;
 
     const/16 v7, 0xa
@@ -2152,7 +1996,6 @@
 
     invoke-direct {v5, v7}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 11
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2168,10 +2011,8 @@
 
     move-result-object v7
 
-    .line 12
     check-cast v7, Lcom/commsource/beautyfilter/a;
 
-    .line 13
     invoke-virtual {v7}, Lcom/commsource/beautyfilter/a;->d()Ljava/util/List;
 
     move-result-object v8
@@ -2180,7 +2021,6 @@
 
     if-eqz v8, :cond_6
 
-    .line 14
     invoke-interface {v8}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v8
@@ -2207,29 +2047,24 @@
     :cond_2
     check-cast v11, Lcom/meitu/template/bean/j;
 
-    .line 15
     invoke-virtual {v11, v10}, Lcom/meitu/template/bean/j;->P(I)V
 
     const/4 v10, 0x1
 
-    .line 16
     invoke-virtual {v11, v10}, Lcom/meitu/template/bean/j;->S(I)V
 
-    .line 17
     invoke-virtual {v7}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result v13
 
     invoke-virtual {v11, v13}, Lcom/meitu/template/bean/j;->B(I)V
 
-    .line 18
     invoke-virtual {v11}, Lcom/meitu/template/bean/j;->g()Ljava/util/List;
 
     move-result-object v13
 
     if-eqz v13, :cond_4
 
-    .line 19
     invoke-interface {v13}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v13
@@ -2256,20 +2091,16 @@
     :cond_3
     check-cast v15, Lcom/meitu/template/bean/Filter;
 
-    .line 20
     invoke-virtual {v15, v14}, Lcom/meitu/template/bean/Filter;->setFilterSort(I)V
 
-    .line 21
     invoke-virtual {v15, v10}, Lcom/meitu/template/bean/Filter;->setInternalState(I)V
 
-    .line 22
     invoke-virtual {v11}, Lcom/meitu/template/bean/j;->k()I
 
     move-result v14
 
     invoke-virtual {v15, v14}, Lcom/meitu/template/bean/Filter;->setGroupId(I)V
 
-    .line 23
     sget-object v14, Lcom/commsource/beautyfilter/NewFilterConfig;->A:Lcom/commsource/beautyfilter/NewFilterConfig$a;
 
     invoke-virtual {v14, v15}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->f(Lcom/meitu/template/bean/Filter;)Ljava/lang/String;
@@ -2280,10 +2111,8 @@
 
     const/4 v10, 0x2
 
-    .line 24
     invoke-static {v14, v15, v6, v10, v9}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->o(Lcom/commsource/beautyfilter/NewFilterConfig$a;Lcom/meitu/template/bean/Filter;IILjava/lang/Object;)Lcom/meitu/template/bean/Filter;
 
-    .line 25
     invoke-interface {v4, v15}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     move/from16 v14, v16
@@ -2292,7 +2121,6 @@
 
     goto :goto_3
 
-    .line 26
     :cond_4
     invoke-interface {v3, v11}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -2300,17 +2128,14 @@
 
     goto :goto_2
 
-    .line 27
     :cond_5
     sget-object v9, Lcotlin/t1;->a:Lcotlin/t1;
 
-    .line 28
     :cond_6
     invoke-interface {v5, v9}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_1
 
-    .line 29
     :cond_7
     sget-object v1, Lcom/commsource/beautyfilter/NewFilterConfig;->A:Lcom/commsource/beautyfilter/NewFilterConfig$a;
 
@@ -2322,10 +2147,8 @@
 
     move-result-object v1
 
-    .line 30
     invoke-interface {v2, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 31
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2343,7 +2166,6 @@
 
     check-cast v2, Lcom/commsource/beautyfilter/a;
 
-    .line 32
     invoke-direct/range {p0 .. p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
     move-result-object v5
@@ -2358,14 +2180,12 @@
 
     if-eqz v5, :cond_8
 
-    .line 33
     invoke-virtual {v5}, Lcom/commsource/beautyfilter/a;->c()I
 
     move-result v5
 
     invoke-virtual {v2, v5}, Lcom/commsource/beautyfilter/a;->j(I)V
 
-    .line 34
     invoke-direct/range {p0 .. p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
     move-result-object v5
@@ -2374,7 +2194,6 @@
 
     goto :goto_4
 
-    .line 35
     :cond_8
     invoke-direct/range {p0 .. p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
@@ -2384,7 +2203,6 @@
 
     goto :goto_4
 
-    .line 36
     :cond_9
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -2403,7 +2221,6 @@
 
     check-cast v2, Lcom/meitu/template/bean/j;
 
-    .line 37
     invoke-direct/range {p0 .. p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
     move-result-object v3
@@ -2418,21 +2235,18 @@
 
     if-eqz v3, :cond_a
 
-    .line 38
     invoke-virtual {v3}, Lcom/meitu/template/bean/j;->q()I
 
     move-result v5
 
     invoke-virtual {v2, v5}, Lcom/meitu/template/bean/j;->P(I)V
 
-    .line 39
     invoke-virtual {v3}, Lcom/meitu/template/bean/j;->n()I
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/meitu/template/bean/j;->M(I)V
 
-    .line 40
     invoke-direct/range {p0 .. p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
     move-result-object v3
@@ -2441,7 +2255,6 @@
 
     goto :goto_5
 
-    .line 41
     :cond_a
     invoke-direct/range {p0 .. p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
@@ -2451,7 +2264,6 @@
 
     goto :goto_5
 
-    .line 42
     :cond_b
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -2470,7 +2282,6 @@
 
     check-cast v2, Lcom/meitu/template/bean/Filter;
 
-    .line 43
     invoke-direct/range {p0 .. p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
     move-result-object v3
@@ -2485,84 +2296,72 @@
 
     if-eqz v3, :cond_c
 
-    .line 44
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getFilterSort()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/meitu/template/bean/Filter;->setFilterSort(I)V
 
-    .line 45
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getCollectedState()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/meitu/template/bean/Filter;->setCollectedState(I)V
 
-    .line 46
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getCollectedTime()J
 
     move-result-wide v4
 
     invoke-virtual {v2, v4, v5}, Lcom/meitu/template/bean/Filter;->setCollectedTime(J)V
 
-    .line 47
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getDownloadState()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/meitu/template/bean/Filter;->setDownloadState(I)V
 
-    .line 48
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getNeedNewMode()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/meitu/template/bean/Filter;->setNeedNewMode(I)V
 
-    .line 49
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getNeedBodyMask()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/meitu/template/bean/Filter;->setNeedBodyMask(I)V
 
-    .line 50
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getNeedHairMask()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/meitu/template/bean/Filter;->setNeedHairMask(I)V
 
-    .line 51
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getFilterDefaultAlpha()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/meitu/template/bean/Filter;->setFilterDefaultAlpha(I)V
 
-    .line 52
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getAlphaInCamera()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/meitu/template/bean/Filter;->setAlphaInCamera(I)V
 
-    .line 53
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getAlphaInBeauty()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/meitu/template/bean/Filter;->setAlphaInBeauty(I)V
 
-    .line 54
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getUserAlpha()I
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/meitu/template/bean/Filter;->setUserAlpha(I)V
 
-    .line 55
     invoke-direct/range {p0 .. p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
     move-result-object v3
@@ -2571,7 +2370,6 @@
 
     goto :goto_6
 
-    .line 56
     :cond_c
     invoke-direct/range {p0 .. p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
@@ -2581,7 +2379,6 @@
 
     goto :goto_6
 
-    .line 57
     :cond_d
     sget-object v1, Lcom/commsource/beautyfilter/NewFilterConfig;->A:Lcom/commsource/beautyfilter/NewFilterConfig$a;
 
@@ -2591,7 +2388,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->t(I)V
 
-    .line 58
     :cond_e
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2617,7 +2413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyfilter/NewFilterConfig;->A:Lcom/commsource/beautyfilter/NewFilterConfig$a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->h()Z
@@ -2626,10 +2421,8 @@
 
     if-nez v2, :cond_5
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->r()V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->e()Lcom/commsource/beautyfilter/NewFilterConfig;
 
     move-result-object v2
@@ -2638,7 +2431,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewFilterConfig$a;->e()Lcom/commsource/beautyfilter/NewFilterConfig;
 
     move-result-object v1
@@ -2647,12 +2439,10 @@
 
     move-result-object v1
 
-    .line 5
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2673,7 +2463,6 @@
 
     check-cast v5, Lcom/meitu/template/bean/Filter;
 
-    .line 7
     invoke-virtual {v5}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v5
@@ -2692,7 +2481,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     new-instance p1, Ljava/util/ArrayList;
 
@@ -2704,7 +2492,6 @@
 
     invoke-direct {p1, v4}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 9
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -2720,35 +2507,29 @@
 
     move-result-object v4
 
-    .line 10
     check-cast v4, Lcom/meitu/template/bean/Filter;
 
     const/4 v5, 0x1
 
-    .line 11
     invoke-virtual {v4, v5}, Lcom/meitu/template/bean/Filter;->setCollectedState(I)V
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
     move-result-object v5
 
     invoke-virtual {v5, v4}, Lcom/commsource/beautyfilter/NewFilterRepository;->x(Lcom/meitu/template/bean/Filter;)V
 
-    .line 13
     sget-object v4, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-interface {p1, v4}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 14
     :cond_2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 15
     invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -2769,7 +2550,6 @@
 
     check-cast v4, Lcom/meitu/template/bean/j;
 
-    .line 16
     invoke-virtual {v4}, Lcom/meitu/template/bean/j;->k()I
 
     move-result v4
@@ -2788,7 +2568,6 @@
 
     goto :goto_2
 
-    .line 17
     :cond_4
     new-instance p2, Ljava/util/ArrayList;
 
@@ -2798,7 +2577,6 @@
 
     invoke-direct {p2, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 18
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2814,29 +2592,24 @@
 
     move-result-object v1
 
-    .line 19
     check-cast v1, Lcom/meitu/template/bean/j;
 
     const/4 v2, 0x2
 
-    .line 20
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/j;->M(I)V
 
-    .line 21
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
     move-result-object v2
 
     invoke-virtual {v2, v1}, Lcom/commsource/beautyfilter/NewFilterRepository;->w(Lcom/meitu/template/bean/j;)V
 
-    .line 22
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-interface {p2, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_3
 
-    .line 23
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2860,7 +2633,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -2871,19 +2643,16 @@
 
     if-eqz v1, :cond_4
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->d:Landroid/util/SparseArray;
 
     invoke-static {v1}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2906,7 +2675,6 @@
 
     check-cast v5, Lcom/meitu/template/bean/j;
 
-    .line 5
     invoke-virtual {v5}, Lcom/meitu/template/bean/j;->t()I
 
     move-result v5
@@ -2924,7 +2692,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -2944,7 +2711,6 @@
 
     check-cast v2, Lcom/meitu/template/bean/j;
 
-    .line 7
     invoke-virtual {v2}, Lcom/meitu/template/bean/j;->e()I
 
     move-result v3
@@ -2953,12 +2719,10 @@
 
     if-ne v3, v5, :cond_3
 
-    .line 8
     invoke-virtual {p0, v2, v4, p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->H(Lcom/meitu/template/bean/j;ZLjava/lang/String;)V
 
     goto :goto_1
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2980,7 +2744,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v1}, Lcom/commsource/material/c;->e()Lcom/commsource/material/d;
@@ -2993,7 +2756,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/material/d;->w(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3014,7 +2776,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$i;
 
     const-string v2, "DELETE-FILE"
@@ -3023,7 +2784,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3052,19 +2812,16 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p3, Lcom/commsource/material/download/b/b$b;
 
     invoke-direct {p3}, Lcom/commsource/material/download/b/b$b;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/j;->g()Ljava/util/List;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -3083,7 +2840,6 @@
 
     check-cast v1, Lcom/meitu/template/bean/Filter;
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/template/bean/Filter;->isDownloading()Z
 
     move-result v2
@@ -3096,7 +2852,6 @@
 
     if-nez v2, :cond_0
 
-    .line 5
     invoke-virtual {p0, v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->g0(Lcom/meitu/template/bean/Filter;)Lcom/commsource/material/download/c/d;
 
     move-result-object v2
@@ -3119,7 +2874,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;
 
@@ -3127,7 +2881,6 @@
 
     invoke-virtual {p3, v0}, Lcom/commsource/material/download/b/b$b;->c(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;
 
-    .line 7
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3154,10 +2907,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v1, p1, p2, p3}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->J(ZLcom/meitu/template/bean/Filter;ZLjava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3182,7 +2933,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->isDownloading()Z
 
     move-result v1
@@ -3197,13 +2947,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v2, Lcom/commsource/material/download/b/b$b;
 
     invoke-direct {v2}, Lcom/commsource/material/download/b/b$b;-><init>()V
 
-    .line 3
     invoke-virtual {p0, p2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->g0(Lcom/meitu/template/bean/Filter;)Lcom/commsource/material/download/c/d;
 
     move-result-object v3
@@ -3224,29 +2972,24 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1, p3}, Lcom/commsource/material/download/b/b$b;->h(Z)Lcom/commsource/material/download/b/b$b;
 
     move-result-object p3
 
-    .line 5
     invoke-virtual {p3, p1}, Lcom/commsource/material/download/b/b$b;->l(Z)Lcom/commsource/material/download/b/b$b;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p0, p2, p4}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->S(Lcom/meitu/template/bean/Filter;Ljava/lang/String;)Lcom/commsource/material/download/b/c;
 
     move-result-object p2
 
     invoke-virtual {p1, p2}, Lcom/commsource/material/download/b/b$b;->c(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3272,7 +3015,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     iget-object v2, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->i:Ljava/util/ArrayList;
@@ -3302,7 +3044,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     iget-object v2, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->h:Ljava/util/ArrayList;
@@ -3332,15 +3073,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->g:Ljava/util/ArrayList;
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -3361,7 +3099,6 @@
 
     check-cast v4, Lcom/commsource/beautyfilter/a;
 
-    .line 4
     invoke-direct {p0, v4}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->n0(Lcom/commsource/beautyfilter/a;)Z
 
     move-result v4
@@ -3374,7 +3111,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3390,7 +3126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->f:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -3422,19 +3157,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->e:Landroid/util/SparseArray;
 
     invoke-static {v1}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -3455,7 +3187,6 @@
 
     check-cast v4, Lcom/meitu/template/bean/Filter;
 
-    .line 4
     invoke-virtual {p0, v4}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->l0(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v5
@@ -3482,7 +3213,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-virtual {v4}, Lcom/meitu/template/bean/Filter;->isSpecialFilter()Z
 
     move-result v4
@@ -3512,7 +3242,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     sget-object p1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$k;->a:Lcom/commsource/beautyfilter/NewBeautyFilterManager$k;
 
@@ -3520,7 +3249,6 @@
 
     move-result-object p1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -3544,7 +3272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->n:Lcom/commsource/material/download/b/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3570,7 +3297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->m:Lcom/commsource/material/download/b/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3599,7 +3325,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$l;
 
     invoke-direct {v1, p0, p2, p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$l;-><init>(Lcom/commsource/beautyfilter/NewBeautyFilterManager;Ljava/lang/String;Lcom/meitu/template/bean/Filter;)V
@@ -3620,7 +3345,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Z()Lcom/meitu/template/bean/Filter;
 
     move-result-object p1
@@ -3629,7 +3353,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->e:Landroid/util/SparseArray;
 
@@ -3662,15 +3385,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->g:Ljava/util/ArrayList;
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -3691,7 +3411,6 @@
 
     check-cast v4, Lcom/commsource/beautyfilter/a;
 
-    .line 4
     invoke-direct {p0, v4}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->n0(Lcom/commsource/beautyfilter/a;)Z
 
     move-result v4
@@ -3704,7 +3423,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3720,7 +3438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->d:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -3741,7 +3458,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->f:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -3752,19 +3468,16 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/a;->d()Ljava/util/List;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -3785,7 +3498,6 @@
 
     check-cast v3, Lcom/meitu/template/bean/j;
 
-    .line 5
     invoke-direct {p0, v3}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q0(Lcom/meitu/template/bean/j;)Z
 
     move-result v3
@@ -3798,7 +3510,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -3816,7 +3527,6 @@
     :goto_1
     const/4 v1, 0x0
 
-    .line 7
     invoke-static {p1, v1}, Lcom/commsource/util/l0;->B(Ljava/lang/Integer;I)I
 
     move-result p1
@@ -3866,19 +3576,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->d:Landroid/util/SparseArray;
 
     invoke-static {v1}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -3899,7 +3606,6 @@
 
     check-cast v4, Lcom/meitu/template/bean/j;
 
-    .line 4
     invoke-virtual {v4}, Lcom/meitu/template/bean/j;->n()I
 
     move-result v4
@@ -3920,7 +3626,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3934,7 +3639,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/XRepository;->f()Lcom/commsource/repository/c;
@@ -3943,7 +3647,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/repository/c;->d()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3967,20 +3670,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->i:Ljava/util/ArrayList;
 
-    .line 3
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -4001,7 +3700,6 @@
 
     check-cast v5, Lcom/meitu/template/bean/Filter;
 
-    .line 5
     invoke-virtual {p0, v5}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->l0(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v6
@@ -4036,7 +3734,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
@@ -4052,15 +3749,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->l:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->u0()V
 
-    .line 3
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->l:Z
 
@@ -4113,7 +3807,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->f:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -4133,7 +3826,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     :goto_0
     new-instance v1, Ljava/util/ArrayList;
 
@@ -4141,7 +3833,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -4160,19 +3851,16 @@
 
     check-cast v2, Lcom/meitu/template/bean/j;
 
-    .line 4
     invoke-virtual {v2}, Lcom/meitu/template/bean/j;->g()Ljava/util/List;
 
     move-result-object v2
 
     if-eqz v2, :cond_1
 
-    .line 5
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -4193,7 +3881,6 @@
 
     check-cast v5, Lcom/meitu/template/bean/Filter;
 
-    .line 7
     invoke-direct {p0, v5}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->r0(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v6
@@ -4235,13 +3922,11 @@
 
     goto :goto_2
 
-    .line 8
     :cond_6
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     goto :goto_1
 
-    .line 9
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4255,7 +3940,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/XRepository;->f()Lcom/commsource/repository/c;
@@ -4264,7 +3948,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/repository/c;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4288,15 +3971,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->g:Ljava/util/ArrayList;
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -4317,7 +3997,6 @@
 
     check-cast v4, Lcom/commsource/beautyfilter/a;
 
-    .line 4
     invoke-direct {p0, v4}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->p0(Lcom/commsource/beautyfilter/a;)Z
 
     move-result v4
@@ -4330,7 +4009,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4355,20 +4033,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->h:Ljava/util/ArrayList;
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -4391,7 +4065,6 @@
 
     check-cast v6, Lcom/meitu/template/bean/j;
 
-    .line 5
     invoke-direct {p0, v6}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q0(Lcom/meitu/template/bean/j;)Z
 
     move-result v6
@@ -4423,12 +4096,10 @@
 
     if-eq p1, v1, :cond_7
 
-    .line 6
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 7
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -4449,7 +4120,6 @@
 
     check-cast v7, Lcom/meitu/template/bean/j;
 
-    .line 8
     invoke-virtual {v7}, Lcom/meitu/template/bean/j;->d()I
 
     move-result v7
@@ -4470,7 +4140,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_4
     invoke-interface {v1}, Ljava/util/Collection;->size()I
 
@@ -4498,13 +4167,11 @@
 
     goto/16 :goto_c
 
-    .line 10
     :cond_7
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 11
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -4525,7 +4192,6 @@
 
     check-cast v6, Lcom/meitu/template/bean/j;
 
-    .line 12
     invoke-virtual {v6}, Lcom/meitu/template/bean/j;->n()I
 
     move-result v6
@@ -4546,19 +4212,16 @@
 
     goto :goto_5
 
-    .line 13
     :cond_a
     invoke-virtual {v2, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     goto :goto_c
 
-    .line 14
     :cond_b
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 15
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -4579,7 +4242,6 @@
 
     check-cast v6, Lcom/meitu/template/bean/j;
 
-    .line 16
     invoke-virtual {v6}, Lcom/meitu/template/bean/j;->r()I
 
     move-result v6
@@ -4602,19 +4264,16 @@
 
     goto :goto_7
 
-    .line 17
     :cond_e
     invoke-virtual {v2, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     goto :goto_c
 
-    .line 18
     :cond_f
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 19
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -4635,7 +4294,6 @@
 
     check-cast v6, Lcom/meitu/template/bean/j;
 
-    .line 20
     invoke-virtual {v6}, Lcom/meitu/template/bean/j;->r()I
 
     move-result v7
@@ -4668,11 +4326,9 @@
 
     goto :goto_9
 
-    .line 21
     :cond_13
     invoke-virtual {v2, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 22
     :cond_14
     :goto_c
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4697,15 +4353,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/material/download/c/d;
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterFileUrl()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -4732,7 +4385,6 @@
 
     move-result-object v3
 
-    .line 4
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -4755,7 +4407,6 @@
 
     const/4 v4, 0x1
 
-    .line 5
     invoke-direct {v1, v2, v3, v4, p1}, Lcom/commsource/material/download/c/d;-><init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4770,19 +4421,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->d:Landroid/util/SparseArray;
 
     invoke-static {v1}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -4807,7 +4455,6 @@
 
     check-cast v6, Lcom/meitu/template/bean/j;
 
-    .line 4
     invoke-virtual {v6}, Lcom/meitu/template/bean/j;->t()I
 
     move-result v6
@@ -4845,7 +4492,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$m;
 
     const-string v2, "Init-Filter-Manager"
@@ -4854,7 +4500,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4875,12 +4520,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getGroupId()I
 
@@ -4896,12 +4539,10 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getGroupId()I
 
@@ -4923,12 +4564,10 @@
 
     if-nez p1, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4942,7 +4581,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->l:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4965,7 +4603,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getDisplayInList()I
 
     move-result v1
@@ -5007,7 +4644,6 @@
 
     if-ne v1, v3, :cond_1
 
-    .line 2
     invoke-static {}, Lf/d/i/j;->K()I
 
     move-result v1
@@ -5023,7 +4659,6 @@
 
     if-ne v1, v3, :cond_2
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -5073,7 +4708,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5088,22 +4722,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->j:Z
 
     if-nez v1, :cond_0
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->k:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$n;
 
@@ -5113,7 +4743,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5134,7 +4763,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$o;
 
     const-string v2, "UPDATE-FILTER-DB"
@@ -5143,7 +4771,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5166,14 +4793,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyfilter/NewFilterRepository;->x(Lcom/meitu/template/bean/Filter;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5194,7 +4819,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$p;
 
     const-string v2, "UPDATE-GROUP-DB"
@@ -5203,7 +4827,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -74,7 +74,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     const-class v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -87,7 +86,6 @@
 
     const-string v1, "Unable to locate Brightcove SDK"
 
-    .line 2
     invoke-static {v0, v1}, Lf/r/c/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -96,32 +94,26 @@
 .method public constructor <init>(Lcom/brightcove/player/event/EventEmitter;Landroid/content/Context;Landroid/view/ViewGroup;)V
     .locals 0
 
-    .line 12
     const-class p2, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
 
     invoke-direct {p0, p1, p2}, Lcom/brightcove/player/event/AbstractComponent;-><init>(Lcom/brightcove/player/event/EventEmitter;Ljava/lang/Class;)V
 
     const/4 p1, 0x0
 
-    .line 13
     iput-boolean p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->g:Z
 
-    .line 14
     sget-object p2, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;->NO_PLAYER:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
     iput-object p2, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->p:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
-    .line 15
     iput-boolean p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->J:Z
 
-    .line 16
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->K:Ljava/util/ArrayList;
 
-    .line 17
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -156,57 +148,46 @@
         .end annotation
     .end param
 
-    .line 1
     const-class v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
 
     invoke-direct {p0, p1, v0}, Lcom/brightcove/player/event/AbstractComponent;-><init>(Lcom/brightcove/player/event/EventEmitter;Ljava/lang/Class;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->g:Z
 
-    .line 3
     sget-object v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;->NO_PLAYER:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
     iput-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->p:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
-    .line 4
     iput-boolean p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->J:Z
 
-    .line 5
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->K:Ljava/util/ArrayList;
 
-    .line 6
     iput-object p3, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->a:Lcom/spotxchange/v4/e;
 
-    .line 7
     iput-object p2, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->d:Landroid/view/ViewGroup;
 
-    .line 8
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
-    .line 9
     sget-object p2, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->L:Ljava/lang/String;
 
     const-string p3, "pluginName"
 
     invoke-interface {p1, p3, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     iget-object p2, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->eventEmitter:Lcom/brightcove/player/event/EventEmitter;
 
     const-string p3, "registerPlugin"
 
     invoke-interface {p2, p3, p1}, Lcom/brightcove/player/event/EventEmitter;->emit(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 11
     new-instance p1, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     const/4 p2, 0x0
@@ -223,7 +204,6 @@
 .method static synthetic a(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->s()V
 
     return-void
@@ -232,7 +212,6 @@
 .method static synthetic b(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Lcom/brightcove/player/event/Event;)Lcom/brightcove/player/event/Event;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->c:Lcom/brightcove/player/event/Event;
 
     return-object p1
@@ -241,7 +220,6 @@
 .method static synthetic c(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Lcom/spotxchange/v4/c;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->b:Lcom/spotxchange/v4/c;
 
     return-object p0
@@ -250,7 +228,6 @@
 .method static synthetic d(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->v()V
 
     return-void
@@ -259,7 +236,6 @@
 .method static synthetic e(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Lcom/brightcove/player/event/EventEmitter;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->eventEmitter:Lcom/brightcove/player/event/EventEmitter;
 
     return-object p0
@@ -268,7 +244,6 @@
 .method static synthetic f(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->u()Z
 
     move-result p0
@@ -279,7 +254,6 @@
 .method static synthetic g(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Lcom/brightcove/player/event/EventEmitter;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->eventEmitter:Lcom/brightcove/player/event/EventEmitter;
 
     return-object p0
@@ -288,7 +262,6 @@
 .method static synthetic h(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Ljava/util/ArrayList;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->K:Ljava/util/ArrayList;
 
     return-object p0
@@ -297,7 +270,6 @@
 .method static synthetic i(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->t()Z
 
     move-result p0
@@ -308,7 +280,6 @@
 .method static synthetic j(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->p:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
     return-object p0
@@ -317,7 +288,6 @@
 .method static synthetic k(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;)Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->p:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
     return-object p1
@@ -326,7 +296,6 @@
 .method static synthetic l(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Lcom/brightcove/player/event/EventEmitter;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->eventEmitter:Lcom/brightcove/player/event/EventEmitter;
 
     return-object p0
@@ -335,7 +304,6 @@
 .method static synthetic m(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Lcom/brightcove/player/event/EventEmitter;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->eventEmitter:Lcom/brightcove/player/event/EventEmitter;
 
     return-object p0
@@ -344,7 +312,6 @@
 .method static synthetic n(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Landroid/widget/FrameLayout;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->f:Landroid/widget/FrameLayout;
 
     return-object p0
@@ -353,7 +320,6 @@
 .method static synthetic o(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Landroid/widget/FrameLayout;)Landroid/widget/FrameLayout;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->f:Landroid/widget/FrameLayout;
 
     return-object p1
@@ -362,7 +328,6 @@
 .method static synthetic p(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Landroid/view/ViewGroup;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->d:Landroid/view/ViewGroup;
 
     return-object p0
@@ -371,7 +336,6 @@
 .method static synthetic q(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->J:Z
 
     return p0
@@ -380,7 +344,6 @@
 .method static synthetic r(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->J:Z
 
     return p1
@@ -391,15 +354,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->g:Z
 
-    .line 2
     sget-object v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;->LOADING:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
     iput-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->p:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
-    .line 3
     new-instance v0, Lcom/spotxchange/v4/c;
 
     iget-object v1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->f:Landroid/widget/FrameLayout;
@@ -408,10 +368,8 @@
 
     iput-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->b:Lcom/spotxchange/v4/c;
 
-    .line 4
     invoke-virtual {v0, p0}, Landroid/database/Observable;->registerObserver(Ljava/lang/Object;)V
 
-    .line 5
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->b:Lcom/spotxchange/v4/c;
 
     invoke-virtual {v0}, Lcom/spotxchange/v4/c;->F0()V
@@ -422,7 +380,6 @@
 .method private t()Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->f:Landroid/widget/FrameLayout;
 
     const/4 v1, 0x0
@@ -431,7 +388,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->getParent()Landroid/view/ViewParent;
 
@@ -450,7 +406,6 @@
 .method private u()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->K:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -461,26 +416,21 @@
 
     if-lez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->K:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->J:Z
 
-    .line 4
     invoke-direct {p0}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->s()V
 
     return v0
 
-    .line 5
     :cond_0
     iput-boolean v1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->J:Z
 
-    .line 6
     invoke-direct {p0}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->s()V
 
     return v1
@@ -489,14 +439,12 @@
 .method private v()V
     .locals 5
 
-    .line 1
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     iget-object v1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->K:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    .line 2
     invoke-direct {p0}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->t()Z
 
     move-result v1
@@ -505,7 +453,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->d:Landroid/view/ViewGroup;
 
@@ -513,14 +460,12 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
-    .line 4
     iget-object v1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->c:Lcom/brightcove/player/event/Event;
 
     const-string v2, "skipCuePoints"
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lcom/brightcove/player/event/Event;
 
     const-string v3, "play"
@@ -529,28 +474,23 @@
 
     iput-object v1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->c:Lcom/brightcove/player/event/Event;
 
-    .line 6
     iget-object v1, v1, Lcom/brightcove/player/event/Event;->properties:Ljava/util/Map;
 
     invoke-interface {v1, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     :cond_1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 8
     iget-object v3, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->c:Lcom/brightcove/player/event/Event;
 
     const-string v4, "original"
 
     invoke-interface {v1, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     invoke-interface {v1, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->eventEmitter:Lcom/brightcove/player/event/EventEmitter;
 
     const-string v2, "willResumeContent"
@@ -571,7 +511,6 @@
 .method public onComplete(Lcom/spotxchange/v4/h/b;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->eventEmitter:Lcom/brightcove/player/event/EventEmitter;
 
     const-string v0, "adCompleted"
@@ -584,7 +523,6 @@
 .method public onError(Lcom/spotxchange/v4/h/b;Ljava/lang/Exception;)V
     .locals 0
 
-    .line 1
     new-instance p1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -605,7 +543,6 @@
 .method public onGroupComplete(Lcom/spotxchange/v4/h/c;)V
     .locals 1
 
-    .line 1
     new-instance p1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -626,7 +563,6 @@
 .method public onGroupStart(Lcom/spotxchange/v4/h/c;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->eventEmitter:Lcom/brightcove/player/event/EventEmitter;
 
     const-string v0, "adBreakStarted"
@@ -639,7 +575,6 @@
 .method public onLoadedAds(Lcom/spotxchange/v4/SpotXAdPlayer;Lcom/spotxchange/v4/h/c;Ljava/lang/Exception;)V
     .locals 0
 
-    .line 1
     new-instance p1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -662,10 +597,8 @@
 
     const/4 p1, 0x1
 
-    .line 1
     iput-boolean p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->g:Z
 
-    .line 2
     iget-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->eventEmitter:Lcom/brightcove/player/event/EventEmitter;
 
     const-string v0, "adPaused"
@@ -678,17 +611,14 @@
 .method public onPlay(Lcom/spotxchange/v4/h/b;)V
     .locals 1
 
-    .line 1
     iget-boolean p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->g:Z
 
     if-eqz p1, :cond_0
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->g:Z
 
-    .line 3
     iget-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->eventEmitter:Lcom/brightcove/player/event/EventEmitter;
 
     const-string v0, "adResumed"
@@ -708,7 +638,6 @@
 .method public onStart(Lcom/spotxchange/v4/h/b;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->eventEmitter:Lcom/brightcove/player/event/EventEmitter;
 
     const-string v0, "adStarted"
@@ -721,7 +650,6 @@
 .method public onTimeUpdate(Lcom/spotxchange/v4/h/b;D)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->eventEmitter:Lcom/brightcove/player/event/EventEmitter;
 
     const-string p2, "adProgress"
@@ -744,7 +672,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->a:Lcom/spotxchange/v4/e;
 
     return-object p1

@@ -18,7 +18,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/d8;Ljava/util/concurrent/atomic/AtomicReference;Lcom/google/android/gms/measurement/internal/zzm;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/l8;->c:Lcom/google/android/gms/measurement/internal/d8;
 
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/l8;->a:Ljava/util/concurrent/atomic/AtomicReference;
@@ -35,12 +34,10 @@
 .method public final run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/l8;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/l8;->c:Lcom/google/android/gms/measurement/internal/d8;
 
@@ -50,7 +47,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/l8;->c:Lcom/google/android/gms/measurement/internal/d8;
 
     invoke-virtual {v1}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
@@ -68,7 +64,6 @@
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :try_start_1
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/l8;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
@@ -80,7 +75,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_2
     iget-object v2, p0, Lcom/google/android/gms/measurement/internal/l8;->a:Ljava/util/concurrent/atomic/AtomicReference;
@@ -93,7 +87,6 @@
 
     invoke-virtual {v2, v1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    .line 6
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/l8;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
@@ -104,7 +97,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     iget-object v2, p0, Lcom/google/android/gms/measurement/internal/l8;->c:Lcom/google/android/gms/measurement/internal/d8;
 
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/d4;->m()Lcom/google/android/gms/measurement/internal/u6;
@@ -113,7 +105,6 @@
 
     invoke-virtual {v2, v1}, Lcom/google/android/gms/measurement/internal/u6;->N(Ljava/lang/String;)V
 
-    .line 8
     iget-object v2, p0, Lcom/google/android/gms/measurement/internal/l8;->c:Lcom/google/android/gms/measurement/internal/d8;
 
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/k6;->j()Lcom/google/android/gms/measurement/internal/x4;
@@ -124,7 +115,6 @@
 
     invoke-virtual {v2, v1}, Lcom/google/android/gms/measurement/internal/f5;->b(Ljava/lang/String;)V
 
-    .line 9
     :cond_1
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/l8;->c:Lcom/google/android/gms/measurement/internal/d8;
 
@@ -133,7 +123,6 @@
     .catch Landroid/os/RemoteException; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 10
     :try_start_3
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/l8;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
@@ -151,7 +140,6 @@
     :catch_0
     move-exception v1
 
-    .line 11
     :try_start_4
     iget-object v2, p0, Lcom/google/android/gms/measurement/internal/l8;->c:Lcom/google/android/gms/measurement/internal/d8;
 
@@ -169,31 +157,26 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
-    .line 12
     :try_start_5
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/l8;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v1}, Ljava/lang/Object;->notify()V
 
-    .line 13
     :goto_0
     monitor-exit v0
 
     return-void
 
-    .line 14
     :goto_1
     iget-object v2, p0, Lcom/google/android/gms/measurement/internal/l8;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v2}, Ljava/lang/Object;->notify()V
 
-    .line 15
     throw v1
 
     :catchall_1
     move-exception v1
 
-    .line 16
     monitor-exit v0
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1

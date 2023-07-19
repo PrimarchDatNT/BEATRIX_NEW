@@ -70,7 +70,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/e$c;->a:Lcom/commsource/studio/sub/e;
 
     invoke-static {v1}, Lcom/commsource/studio/sub/e;->T(Lcom/commsource/studio/sub/e;)Lcom/commsource/widget/h1/e;
@@ -89,14 +88,12 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/sub/e$c;->a:Lcom/commsource/studio/sub/e;
 
     invoke-virtual {v2}, Lcom/commsource/studio/sub/e;->X()Lcom/commsource/beautyplus/f0/gc;
@@ -107,7 +104,6 @@
 
     invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
@@ -119,7 +115,6 @@
 
     invoke-static {p1, v1}, Lf/d/i/h;->G1(Lcom/commsource/studio/sub/SubModuleEnum;Z)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/sub/e$c;->a:Lcom/commsource/studio/sub/e;
 
     invoke-static {p1}, Lcom/commsource/studio/sub/e;->T(Lcom/commsource/studio/sub/e;)Lcom/commsource/widget/h1/e;
@@ -128,7 +123,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/widget/h1/e;->p()V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -142,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/e$c;->a(Lcotlin/Pair;)V

@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lbolts/a$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lbolts/a$b;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;

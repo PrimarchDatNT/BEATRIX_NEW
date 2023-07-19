@@ -18,16 +18,12 @@
 .method constructor <init>(ILjava/lang/String;Ljava/lang/Class;[Ljava/lang/Class;[Ljava/lang/String;[Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Ln/a/b/c/j;-><init>(ILjava/lang/String;Ljava/lang/Class;)V
 
-    .line 2
     iput-object p4, p0, Ln/a/b/c/c;->m:[Ljava/lang/Class;
 
-    .line 3
     iput-object p5, p0, Ln/a/b/c/c;->n:[Ljava/lang/String;
 
-    .line 4
     iput-object p6, p0, Ln/a/b/c/c;->o:[Ljava/lang/Class;
 
     return-void
@@ -36,7 +32,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p1}, Ln/a/b/c/j;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -47,7 +42,6 @@
 .method public c()[Ljava/lang/Class;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/c;->m:[Ljava/lang/Class;
 
     if-nez v0, :cond_0
@@ -60,7 +54,6 @@
 
     iput-object v0, p0, Ln/a/b/c/c;->m:[Ljava/lang/Class;
 
-    .line 2
     :cond_0
     iget-object v0, p0, Ln/a/b/c/c;->m:[Ljava/lang/Class;
 
@@ -70,7 +63,6 @@
 .method public d()[Ljava/lang/Class;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/c;->o:[Ljava/lang/Class;
 
     if-nez v0, :cond_0
@@ -83,7 +75,6 @@
 
     iput-object v0, p0, Ln/a/b/c/c;->o:[Ljava/lang/Class;
 
-    .line 2
     :cond_0
     iget-object v0, p0, Ln/a/b/c/c;->o:[Ljava/lang/Class;
 
@@ -93,7 +84,6 @@
 .method public f()[Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/c;->n:[Ljava/lang/String;
 
     if-nez v0, :cond_0
@@ -106,7 +96,6 @@
 
     iput-object v0, p0, Ln/a/b/c/c;->n:[Ljava/lang/String;
 
-    .line 2
     :cond_0
     iget-object v0, p0, Ln/a/b/c/c;->n:[Ljava/lang/String;
 

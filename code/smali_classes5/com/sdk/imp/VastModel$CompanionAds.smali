@@ -57,7 +57,6 @@
 .method public constructor <init>(Lcom/sdk/imp/VastModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel$CompanionAds;->this$0:Lcom/sdk/imp/VastModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -70,7 +69,6 @@
 .method public getAdHeight()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/VastModel$CompanionAds;->adHeight:I
 
     return v0
@@ -79,7 +77,6 @@
 .method public getAdId()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel$CompanionAds;->adId:Ljava/lang/String;
 
     return-object v0
@@ -88,7 +85,6 @@
 .method public getAdWidth()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/VastModel$CompanionAds;->adWidth:I
 
     return v0
@@ -107,19 +103,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel$CompanionAds;->companionReportUrls:Ljava/util/Map;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/sdk/imp/VastModel$CompanionAds;->companionReportUrls:Ljava/util/Map;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/VastModel$CompanionAds;->companionReportUrls:Ljava/util/Map;
 
@@ -137,7 +130,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/VastModel$CompanionAds;->staticResourceList:Ljava/util/List;
 
     return-object v0
@@ -146,7 +138,6 @@
 .method public setAdHeight(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/sdk/imp/VastModel$CompanionAds;->adHeight:I
 
     return-void
@@ -155,7 +146,6 @@
 .method public setAdId(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel$CompanionAds;->adId:Ljava/lang/String;
 
     return-void
@@ -164,7 +154,6 @@
 .method public setAdWidth(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/sdk/imp/VastModel$CompanionAds;->adWidth:I
 
     return-void
@@ -181,7 +170,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VastModel$CompanionAds;->staticResourceList:Ljava/util/List;
 
     return-void
@@ -190,7 +178,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

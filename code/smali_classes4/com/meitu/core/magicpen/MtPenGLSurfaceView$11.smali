@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$MosaicType;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetMtPen;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$11;->this$0:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     iput-boolean p2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$11;->val$isFromAsset:Z
@@ -66,18 +65,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/magicpen/parser/PEXXmlParser;
 
     invoke-direct {v1}, Lcom/meitu/core/magicpen/parser/PEXXmlParser;-><init>()V
 
-    .line 2
     :try_start_0
     iget-boolean v2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$11;->val$isFromAsset:Z
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$11;->this$0:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     invoke-virtual {v2}, Landroid/opengl/GLSurfaceView;->getContext()Landroid/content/Context;
@@ -100,7 +96,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     new-instance v2, Ljava/io/FileInputStream;
 
@@ -120,7 +115,6 @@
     :catch_0
     move-exception v1
 
-    .line 5
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_0
@@ -128,7 +122,6 @@
     :catch_1
     move-exception v1
 
-    .line 6
     invoke-virtual {v1}, Lorg/xmlpull/v1/XmlPullParserException;->printStackTrace()V
 
     :goto_0
@@ -137,7 +130,6 @@
     :goto_1
     if-nez v1, :cond_1
 
-    .line 7
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -158,18 +150,15 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/parser/PEXXmlParser$PEXEntity;->GetFloatBuffer()[F
 
     move-result-object v4
 
-    .line 10
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$11;->this$0:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     invoke-static {v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->access$000(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;)Lcom/meitu/core/magicpen/NativeGLMagicPen;
@@ -188,15 +177,12 @@
 
     invoke-virtual/range {v3 .. v8}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->MosaicPenInit([FLjava/lang/String;Ljava/lang/String;IZ)Z
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$11;->val$callback:Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetMtPen;
 
     if-eqz v1, :cond_2
 
-    .line 12
     invoke-interface {v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetMtPen;->successfulSetMtPen()V
 
-    .line 13
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

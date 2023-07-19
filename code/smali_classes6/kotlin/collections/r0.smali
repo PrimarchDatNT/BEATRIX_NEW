@@ -45,12 +45,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p0, Lcotlin/collections/o0;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, Lcotlin/collections/o0;
 
     invoke-interface {p0, p1}, Lcotlin/collections/o0;->B0(Ljava/lang/Object;)Ljava/lang/Object;
@@ -59,7 +57,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-interface {p0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -67,7 +64,6 @@
 
     if-nez v0, :cond_2
 
-    .line 4
     invoke-interface {p0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result p0
@@ -76,7 +72,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance p0, Ljava/util/NoSuchElementException;
 
@@ -144,7 +139,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p0, Lcotlin/collections/o0;
 
     if-eqz v0, :cond_0
@@ -161,7 +155,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcotlin/collections/p0;
 
@@ -214,7 +207,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p0, Lcotlin/collections/w0;
 
     if-eqz v0, :cond_0
@@ -231,7 +223,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcotlin/collections/x0;
 

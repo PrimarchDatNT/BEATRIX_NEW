@@ -38,18 +38,14 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/icing/p5;->a:Ljava/lang/String;
 
     const/4 p1, 0x1
 
-    .line 3
     iput p1, p0, Lcom/google/android/gms/internal/icing/p5;->d:I
 
-    .line 4
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -66,7 +62,6 @@
 
     const/4 p1, 0x1
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/internal/icing/p5;->c:Z
 
     return-object p0
@@ -75,7 +70,6 @@
 .method public final b()Lcom/google/android/gms/internal/icing/zzs;
     .locals 11
 
-    .line 1
     new-instance v10, Lcom/google/android/gms/internal/icing/zzs;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/icing/p5;->a:Ljava/lang/String;
@@ -90,7 +84,6 @@
 
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/p5;->f:Ljava/util/List;
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v6
@@ -121,7 +114,6 @@
 .method public final c(Ljava/lang/String;)Lcom/google/android/gms/internal/icing/p5;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/icing/p5;->b:Ljava/lang/String;
 
     return-object p0
@@ -132,7 +124,6 @@
 
     const/4 p1, 0x1
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/internal/icing/p5;->e:Z
 
     return-object p0
@@ -141,7 +132,6 @@
 .method public final e(Ljava/lang/String;)Lcom/google/android/gms/internal/icing/p5;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/icing/p5;->g:Ljava/lang/String;
 
     return-object p0

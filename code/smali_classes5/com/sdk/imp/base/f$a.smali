@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/f$a;->a:Lcom/sdk/imp/base/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onClose()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/f$a;->a:Lcom/sdk/imp/base/f;
 
     invoke-static {v0}, Lcom/sdk/imp/base/f;->b(Lcom/sdk/imp/base/f;)Lcom/sdk/imp/base/g;
@@ -53,7 +51,6 @@
 .method public onFailLoad()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/f$a;->a:Lcom/sdk/imp/base/f;
 
     invoke-static {v0}, Lcom/sdk/imp/base/f;->b(Lcom/sdk/imp/base/f;)Lcom/sdk/imp/base/g;
@@ -70,7 +67,6 @@
 .method public onFinishLoad()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/f$a;->a:Lcom/sdk/imp/base/f;
 
     invoke-static {v0}, Lcom/sdk/imp/base/f;->b(Lcom/sdk/imp/base/f;)Lcom/sdk/imp/base/g;

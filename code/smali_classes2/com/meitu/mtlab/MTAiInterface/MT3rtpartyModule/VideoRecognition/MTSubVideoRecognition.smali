@@ -17,12 +17,10 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     return-void
@@ -35,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionGetLabel(IIZ)Ljava/lang/String;
 
     move-result-object p0
@@ -99,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     iget-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->modelPath:Ljava/lang/String;
@@ -122,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionGetFirstLevel(I)I
 
     move-result p1
@@ -139,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionGetResult(J)Lcom/meitu/mtlab/MTAiInterface/MTVideoRecognitionModule/MTVideoRecognitionResult;
@@ -158,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionGetSecondLevel(I)I
 
     move-result p1
@@ -175,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionGetVideoKeyFrameNumber(J)I
@@ -194,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     const-wide/16 v3, 0x0
@@ -203,7 +194,6 @@
 
     if-nez v5, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->videoPath:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionHandleForPathCreate(Ljava/lang/String;)J
@@ -212,7 +202,6 @@
 
     iput-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -226,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionHandleRelease(J)I
@@ -245,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionOpenRuntime(JI)I
@@ -264,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionRun(J)I
@@ -283,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionScale(JF)I
@@ -302,7 +287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionSetDurationTime(JJ)I
@@ -321,7 +305,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionSetEnableDecodeKeyFrameOnly(JI)I
@@ -340,7 +323,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionSetSkipFrame(JI)I
@@ -359,7 +341,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionSetStartTime(JJ)I
@@ -383,12 +364,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->handle:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MT3rtpartyModule/VideoRecognition/MTSubVideoRecognition;->nativeMTlabaiSubVideoRecognitionHandleRelease(J)I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

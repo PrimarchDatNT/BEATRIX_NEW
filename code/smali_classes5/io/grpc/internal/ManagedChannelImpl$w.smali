@@ -25,12 +25,10 @@
 .method private constructor <init>(Ljava/util/concurrent/ScheduledExecutorService;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "delegate"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -45,7 +43,6 @@
 .method synthetic constructor <init>(Ljava/util/concurrent/ScheduledExecutorService;Lio/grpc/internal/ManagedChannelImpl$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/internal/ManagedChannelImpl$w;-><init>(Ljava/util/concurrent/ScheduledExecutorService;)V
 
     return-void
@@ -61,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1, p2, p3}, Ljava/util/concurrent/ScheduledExecutorService;->awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
@@ -74,7 +70,6 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ScheduledExecutorService;->execute(Ljava/lang/Runnable;)V
@@ -105,7 +100,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ScheduledExecutorService;->invokeAll(Ljava/util/Collection;)Ljava/util/List;
@@ -140,7 +134,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1, p2, p3, p4}, Ljava/util/concurrent/ScheduledExecutorService;->invokeAll(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/util/List;
@@ -171,7 +164,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ScheduledExecutorService;->invokeAny(Ljava/util/Collection;)Ljava/lang/Object;
@@ -205,7 +197,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1, p2, p3, p4}, Ljava/util/concurrent/ScheduledExecutorService;->invokeAny(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
@@ -218,7 +209,6 @@
 .method public isShutdown()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ScheduledExecutorService;->isShutdown()Z
@@ -231,7 +221,6 @@
 .method public isTerminated()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ScheduledExecutorService;->isTerminated()Z
@@ -255,7 +244,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1, p2, p3, p4}, Ljava/util/concurrent/ScheduledExecutorService;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
@@ -281,7 +269,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1, p2, p3, p4}, Ljava/util/concurrent/ScheduledExecutorService;->schedule(Ljava/util/concurrent/Callable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
@@ -305,7 +292,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     move-object v1, p1
@@ -337,7 +323,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     move-object v1, p1
@@ -358,7 +343,6 @@
 .method public shutdown()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Restricted: shutdown() is not allowed"
@@ -379,7 +363,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Restricted: shutdownNow() is not allowed"
@@ -401,7 +384,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ScheduledExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
@@ -425,7 +407,6 @@
         }
     .end annotation
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1, p2}, Ljava/util/concurrent/ScheduledExecutorService;->submit(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Future;
@@ -449,7 +430,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$w;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ScheduledExecutorService;->submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;

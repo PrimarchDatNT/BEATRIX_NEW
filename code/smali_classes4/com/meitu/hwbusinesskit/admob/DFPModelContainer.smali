@@ -17,7 +17,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-direct {p0, v0, v0, p1}, Lcom/meitu/hwbusinesskit/admob/DFPModelContainer;-><init>(Lcom/google/android/gms/ads/formats/f;Lcom/google/android/gms/ads/formats/i;Lcom/google/android/gms/ads/AdView;)V
 
     return-void
@@ -28,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0, v0}, Lcom/meitu/hwbusinesskit/admob/DFPModelContainer;-><init>(Lcom/google/android/gms/ads/formats/f;Lcom/google/android/gms/ads/formats/i;Lcom/google/android/gms/ads/AdView;)V
 
     return-void
@@ -37,16 +35,12 @@
 .method public constructor <init>(Lcom/google/android/gms/ads/formats/f;Lcom/google/android/gms/ads/formats/i;Lcom/google/android/gms/ads/AdView;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/admob/DFPModelContainer;->nativeCustomTemplateAd:Lcom/google/android/gms/ads/formats/f;
 
-    .line 6
     iput-object p2, p0, Lcom/meitu/hwbusinesskit/admob/DFPModelContainer;->unifiedNativeAd:Lcom/google/android/gms/ads/formats/i;
 
-    .line 7
     iput-object p3, p0, Lcom/meitu/hwbusinesskit/admob/DFPModelContainer;->adView:Lcom/google/android/gms/ads/AdView;
 
     return-void
@@ -57,7 +51,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, v0, p1, v0}, Lcom/meitu/hwbusinesskit/admob/DFPModelContainer;-><init>(Lcom/google/android/gms/ads/formats/f;Lcom/google/android/gms/ads/formats/i;Lcom/google/android/gms/ads/AdView;)V
 
     return-void
@@ -72,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/DFPModelContainer;->adView:Lcom/google/android/gms/ads/AdView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -87,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/DFPModelContainer;->nativeCustomTemplateAd:Lcom/google/android/gms/ads/formats/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -102,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/DFPModelContainer;->unifiedNativeAd:Lcom/google/android/gms/ads/formats/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,10 +107,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/admob/DFPModelContainer;->adView:Lcom/google/android/gms/ads/AdView;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -133,10 +121,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/admob/DFPModelContainer;->nativeCustomTemplateAd:Lcom/google/android/gms/ads/formats/f;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -149,10 +135,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/admob/DFPModelContainer;->unifiedNativeAd:Lcom/google/android/gms/ads/formats/i;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

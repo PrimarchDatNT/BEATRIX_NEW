@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -49,20 +47,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->a:Landroid/hardware/Camera;
 
     if-eqz v1, :cond_2
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v1}, Landroid/hardware/Camera;->stopPreview()V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/g/c;->a:Landroid/hardware/Camera;
 
     if-nez v1, :cond_1
@@ -74,13 +69,11 @@
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcom/meitu/library/g/c;->a:Landroid/hardware/Camera;
 
     :cond_2
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -95,14 +88,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -119,7 +110,6 @@
     :cond_1
     const-string v1, ""
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -133,14 +123,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -153,7 +141,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -167,14 +154,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -187,7 +172,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -201,14 +185,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -221,7 +203,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -246,14 +227,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -266,7 +245,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -282,7 +260,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,19 +285,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v2, :cond_1
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -328,7 +302,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -346,7 +319,6 @@
 
     check-cast v3, Landroid/hardware/Camera$Size;
 
-    .line 5
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -371,12 +343,10 @@
 
     move-result-object v3
 
-    .line 6
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -401,19 +371,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v2, :cond_1
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -421,7 +388,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -439,7 +405,6 @@
 
     check-cast v3, Landroid/hardware/Camera$Size;
 
-    .line 5
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -464,12 +429,10 @@
 
     move-result-object v3
 
-    .line 6
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -494,14 +457,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -514,7 +475,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -539,14 +499,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -559,7 +517,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -584,14 +541,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -604,7 +559,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -629,14 +583,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -649,7 +601,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -674,14 +625,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -694,7 +643,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -719,14 +667,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -739,7 +685,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -764,14 +709,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -784,7 +727,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -809,14 +751,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -829,7 +769,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -843,14 +782,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -863,7 +800,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -877,14 +813,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -897,7 +831,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -911,14 +844,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/c;->b:Landroid/hardware/Camera$Parameters;
 
     if-eqz v1, :cond_1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -931,7 +862,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -948,7 +878,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Landroid/hardware/Camera;->open(I)Landroid/hardware/Camera;
 
@@ -958,7 +887,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -970,7 +898,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

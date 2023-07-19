@@ -31,7 +31,6 @@
 .method constructor <init>(Lio/grpc/internal/a$c;Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;Lio/grpc/y0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/a$c$a;->d:Lio/grpc/internal/a$c;
 
     iput-object p2, p0, Lio/grpc/internal/a$c$a;->a:Lio/grpc/Status;
@@ -50,7 +49,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/a$c$a;->d:Lio/grpc/internal/a$c;
 
     iget-object v1, p0, Lio/grpc/internal/a$c$a;->a:Lio/grpc/Status;

@@ -24,12 +24,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcom/appsflyer/AppsFlyerLibCore;->getInstance()Lcom/appsflyer/AppsFlyerLibCore;
 
     move-result-object v0
 
-    .line 2
     invoke-static {p0}, Lcom/appsflyer/AppsFlyerLibCore;->getSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     move-result-object v1
@@ -46,7 +44,6 @@
 
     const-string p0, "Install referrer will not load, the counter > 2, "
 
-    .line 3
     invoke-static {p0}, Lcom/appsflyer/AFLogger;->afRDLog(Ljava/lang/String;)V
 
     return v2
@@ -56,13 +53,11 @@
 
     const-string v1, "com.android.installreferrer.api.InstallReferrerClient"
 
-    .line 4
     :try_start_0
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     const-string v1, "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
 
-    .line 5
     invoke-static {p0, v1}, Lcom/appsflyer/AndroidUtils;->isPermissionAvailable(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p0
@@ -71,7 +66,6 @@
 
     const-string p0, "Install referrer is allowed"
 
-    .line 6
     invoke-static {p0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
@@ -84,7 +78,6 @@
     :cond_1
     const-string p0, "Install referrer is not allowed"
 
-    .line 7
     invoke-static {p0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
     return v2
@@ -94,7 +87,6 @@
 
     const-string v1, "An error occurred while trying to verify manifest : "
 
-    .line 8
     invoke-virtual {v1, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -103,7 +95,6 @@
 
     return v2
 
-    .line 9
     :catch_0
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -131,10 +122,8 @@
 
     const-string v0, "google"
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/appsflyer/internal/referrer/Referrer;-><init>(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 2
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
@@ -149,7 +138,6 @@
 .method public start(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lcom/appsflyer/internal/referrer/GoogleReferrer;->$$a(Landroid/content/Context;)Z
 
     move-result v0
@@ -158,11 +146,9 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/appsflyer/internal/referrer/Referrer;->start()V
 
-    .line 3
     :try_start_0
     invoke-static {p1}, Lcom/android/installreferrer/api/InstallReferrerClient;->newBuilder(Landroid/content/Context;)Lcom/android/installreferrer/api/InstallReferrerClient$Builder;
 
@@ -174,10 +160,8 @@
 
     const-string v1, "Connecting to Install Referrer Library..."
 
-    .line 4
     invoke-static {v1}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 5
     new-instance v1, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;
 
     invoke-direct {v1, p0, p1, v0}, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;-><init>(Lcom/appsflyer/internal/referrer/GoogleReferrer;Landroid/content/Context;Lcom/android/installreferrer/api/InstallReferrerClient;)V
@@ -193,7 +177,6 @@
 
     const-string v0, "referrerClient -> startConnection"
 
-    .line 6
     invoke-static {v0, p1}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

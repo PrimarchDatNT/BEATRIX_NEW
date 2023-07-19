@@ -19,10 +19,8 @@
 .method constructor <init>(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/database/AbstractCursor;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/analytics/zipper/c;->a:Ljava/lang/Object;
 
     return-void
@@ -39,7 +37,6 @@
 
     const-string v1, "single"
 
-    .line 1
     filled-new-array {v1}, [Ljava/lang/String;
 
     move-result-object v1
@@ -56,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/zipper/c;->a:Ljava/lang/Object;
 
     if-eqz v1, :cond_0
@@ -85,12 +81,10 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/meitu/library/analytics/zipper/c;->a:Ljava/lang/Object;
 
@@ -98,7 +92,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 3
     check-cast p1, Ljava/lang/Double;
 
     invoke-virtual {p1}, Ljava/lang/Double;->doubleValue()D
@@ -109,7 +102,6 @@
 
     return-wide v1
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -127,12 +119,10 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/meitu/library/analytics/zipper/c;->a:Ljava/lang/Object;
 
@@ -140,7 +130,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p1, Ljava/lang/Float;
 
     invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
@@ -151,7 +140,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -169,12 +157,10 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/meitu/library/analytics/zipper/c;->a:Ljava/lang/Object;
 
@@ -182,7 +168,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
@@ -193,7 +178,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -211,12 +195,10 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/meitu/library/analytics/zipper/c;->a:Ljava/lang/Object;
 
@@ -224,7 +206,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 3
     check-cast p1, Ljava/lang/Long;
 
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
@@ -235,7 +216,6 @@
 
     return-wide v1
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -253,12 +233,10 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/meitu/library/analytics/zipper/c;->a:Ljava/lang/Object;
 
@@ -266,7 +244,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p1, Ljava/lang/Short;
 
     invoke-virtual {p1}, Ljava/lang/Short;->shortValue()S
@@ -277,7 +254,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -295,12 +271,10 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/meitu/library/analytics/zipper/c;->a:Ljava/lang/Object;
 
@@ -308,14 +282,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast p1, Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
@@ -337,12 +309,10 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/meitu/library/analytics/zipper/c;->a:Ljava/lang/Object;
 

@@ -43,7 +43,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -65,7 +64,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/google/firebase/firestore/model/value/e;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/value/e;->a(Lcom/google/firebase/firestore/model/value/e;)I
@@ -81,7 +79,6 @@
 .method protected f(Lcom/google/firebase/firestore/model/value/e;)I
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/value/e;->g()I
 
     move-result v0
@@ -110,7 +107,6 @@
 
     const-string v2, "Default compareTo should not be used for values of same type."
 
-    .line 2
     invoke-static {v1, v2, v0}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     return p1
@@ -132,7 +128,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/value/e;->h()Ljava/lang/Object;
 
     move-result-object p1
@@ -143,7 +138,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/value/e;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -154,7 +148,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 

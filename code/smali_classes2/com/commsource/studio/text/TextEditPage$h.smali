@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextEditPage$h;->a:Lcom/commsource/beautyplus/f0/mm;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;

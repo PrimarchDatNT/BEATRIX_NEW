@@ -61,7 +61,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -70,7 +69,6 @@
 .method synthetic constructor <init>(Lio/grpc/MethodDescriptor$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/MethodDescriptor$b;-><init>()V
 
     return-void
@@ -91,7 +89,6 @@
     .annotation runtime Ljavax/annotation/c;
     .end annotation
 
-    .line 1
     new-instance v10, Lio/grpc/MethodDescriptor;
 
     iget-object v1, p0, Lio/grpc/MethodDescriptor$b;->c:Lio/grpc/MethodDescriptor$MethodType;
@@ -131,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/MethodDescriptor$b;->d:Ljava/lang/String;
 
     return-object p0
@@ -147,14 +143,12 @@
         }
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/MethodDescriptor$b;->e:Z
 
     if-nez p1, :cond_0
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lio/grpc/MethodDescriptor$b;->f:Z
 
     :cond_0
@@ -173,7 +167,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/MethodDescriptor$b;->a:Lio/grpc/MethodDescriptor$c;
 
     return-object p0
@@ -191,7 +184,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/MethodDescriptor$b;->b:Lio/grpc/MethodDescriptor$c;
 
     return-object p0
@@ -207,14 +199,12 @@
         }
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/MethodDescriptor$b;->f:Z
 
     if-eqz p1, :cond_0
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lio/grpc/MethodDescriptor$b;->e:Z
 
     :cond_0
@@ -231,7 +221,6 @@
         }
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/MethodDescriptor$b;->h:Z
 
     return-object p0
@@ -253,7 +242,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/MethodDescriptor$b;->g:Ljava/lang/Object;
 
     return-object p0
@@ -271,7 +259,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/MethodDescriptor$b;->c:Lio/grpc/MethodDescriptor$MethodType;
 
     return-object p0

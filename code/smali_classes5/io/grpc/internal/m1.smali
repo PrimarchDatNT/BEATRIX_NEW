@@ -44,24 +44,20 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/ref/ReferenceQueue;
 
     invoke-direct {v0}, Ljava/lang/ref/ReferenceQueue;-><init>()V
 
     sput-object v0, Lio/grpc/internal/m1;->c:Ljava/lang/ref/ReferenceQueue;
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
     sput-object v0, Lio/grpc/internal/m1;->d:Ljava/util/concurrent/ConcurrentMap;
 
-    .line 3
     const-class v0, Lio/grpc/internal/m1;
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v0
@@ -78,7 +74,6 @@
 .method constructor <init>(Lio/grpc/w0;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lio/grpc/internal/m1;->c:Ljava/lang/ref/ReferenceQueue;
 
     sget-object v1, Lio/grpc/internal/m1;->d:Ljava/util/concurrent/ConcurrentMap;
@@ -107,10 +102,8 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1}, Lio/grpc/internal/r0;-><init>(Lio/grpc/w0;)V
 
-    .line 3
     new-instance v0, Lio/grpc/internal/m1$a;
 
     invoke-direct {v0, p0, p1, p2, p3}, Lio/grpc/internal/m1$a;-><init>(Lio/grpc/internal/m1;Lio/grpc/w0;Ljava/lang/ref/ReferenceQueue;Ljava/util/concurrent/ConcurrentMap;)V
@@ -123,7 +116,6 @@
 .method static synthetic t()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/m1;->e:Ljava/util/logging/Logger;
 
     return-object v0
@@ -134,12 +126,10 @@
 .method public r()Lio/grpc/w0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/m1;->b:Lio/grpc/internal/m1$a;
 
     invoke-static {v0}, Lio/grpc/internal/m1$a;->a(Lio/grpc/internal/m1$a;)V
 
-    .line 2
     invoke-super {p0}, Lio/grpc/internal/r0;->r()Lio/grpc/w0;
 
     move-result-object v0
@@ -150,12 +140,10 @@
 .method public s()Lio/grpc/w0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/m1;->b:Lio/grpc/internal/m1$a;
 
     invoke-static {v0}, Lio/grpc/internal/m1$a;->a(Lio/grpc/internal/m1$a;)V
 
-    .line 2
     invoke-super {p0}, Lio/grpc/internal/r0;->s()Lio/grpc/w0;
 
     move-result-object v0

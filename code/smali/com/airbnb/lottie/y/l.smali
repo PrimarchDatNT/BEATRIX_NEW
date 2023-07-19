@@ -25,10 +25,8 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/airbnb/lottie/y/l;->a:I
 
     return-void
@@ -46,12 +44,10 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/airbnb/lottie/y/l;->a:I
 
     mul-int/lit8 v0, v0, 0x4
 
-    .line 2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v1
@@ -60,7 +56,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-interface {p2}, Ljava/util/List;->size()I
 
@@ -70,17 +65,14 @@
 
     div-int/lit8 v1, v1, 0x2
 
-    .line 4
     new-array v2, v1, [D
 
-    .line 5
     new-array v1, v1, [D
 
     const/4 v3, 0x0
 
     const/4 v4, 0x0
 
-    .line 6
     :goto_0
     invoke-interface {p2}, Ljava/util/List;->size()I
 
@@ -88,12 +80,10 @@
 
     if-ge v0, v5, :cond_2
 
-    .line 7
     rem-int/lit8 v5, v0, 0x2
 
     if-nez v5, :cond_1
 
-    .line 8
     invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -110,7 +100,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -133,7 +122,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     :goto_2
     invoke-virtual {p1}, Lcom/airbnb/lottie/model/content/c;->c()I
@@ -142,14 +130,12 @@
 
     if-ge v3, p2, :cond_3
 
-    .line 11
     invoke-virtual {p1}, Lcom/airbnb/lottie/model/content/c;->a()[I
 
     move-result-object p2
 
     aget p2, p2, v3
 
-    .line 12
     invoke-virtual {p1}, Lcom/airbnb/lottie/model/content/c;->b()[F
 
     move-result-object v0
@@ -162,27 +148,22 @@
 
     move-result v0
 
-    .line 13
     invoke-static {p2}, Landroid/graphics/Color;->red(I)I
 
     move-result v4
 
-    .line 14
     invoke-static {p2}, Landroid/graphics/Color;->green(I)I
 
     move-result v5
 
-    .line 15
     invoke-static {p2}, Landroid/graphics/Color;->blue(I)I
 
     move-result p2
 
-    .line 16
     invoke-static {v0, v4, v5, p2}, Landroid/graphics/Color;->argb(IIII)I
 
     move-result p2
 
-    .line 17
     invoke-virtual {p1}, Lcom/airbnb/lottie/model/content/c;->a()[I
 
     move-result-object v0
@@ -212,7 +193,6 @@
 
     const/4 v3, 0x1
 
-    .line 1
     :goto_0
     array-length v4, v0
 
@@ -222,13 +202,10 @@
 
     add-int/lit8 v4, v3, -0x1
 
-    .line 2
     aget-wide v7, v0, v4
 
-    .line 3
     aget-wide v9, v0, v3
 
-    .line 4
     aget-wide v11, v0, v3
 
     cmpl-double v13, v11, p1
@@ -245,12 +222,10 @@
 
     const-wide/high16 v17, 0x3ff0000000000000L    # 1.0
 
-    .line 5
     invoke-static/range {v13 .. v18}, Lcom/airbnb/lottie/z/g;->b(DDD)D
 
     move-result-wide v11
 
-    .line 6
     aget-wide v7, v1, v4
 
     aget-wide v9, v1, v3
@@ -271,7 +246,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     array-length v0, v1
 
@@ -292,7 +266,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/airbnb/lottie/y/l;->d(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Lcom/airbnb/lottie/model/content/c;
 
     move-result-object p1
@@ -308,12 +281,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     move-result-object v0
@@ -336,10 +307,8 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b()V
 
-    .line 4
     :cond_1
     :goto_1
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
@@ -348,7 +317,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v4
@@ -366,10 +334,8 @@
     :cond_2
     if-eqz v0, :cond_3
 
-    .line 6
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->d()V
 
-    .line 7
     :cond_3
     iget p1, p0, Lcom/airbnb/lottie/y/l;->a:I
 
@@ -377,7 +343,6 @@
 
     if-ne p1, v0, :cond_4
 
-    .line 8
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result p1
@@ -386,20 +351,17 @@
 
     iput p1, p0, Lcom/airbnb/lottie/y/l;->a:I
 
-    .line 9
     :cond_4
     iget p1, p0, Lcom/airbnb/lottie/y/l;->a:I
 
     new-array v0, p1, [F
 
-    .line 10
     new-array p1, p1, [I
 
     const/4 v1, 0x0
 
     const/4 v4, 0x0
 
-    .line 11
     :goto_2
     iget v5, p0, Lcom/airbnb/lottie/y/l;->a:I
 
@@ -407,10 +369,8 @@
 
     if-ge v3, v5, :cond_9
 
-    .line 12
     div-int/lit8 v5, v3, 0x4
 
-    .line 13
     invoke-interface {p2, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -423,7 +383,6 @@
 
     float-to-double v6, v6
 
-    .line 14
     rem-int/lit8 v8, v3, 0x4
 
     if-eqz v8, :cond_8
@@ -449,7 +408,6 @@
 
     const/16 v7, 0xff
 
-    .line 15
     invoke-static {v7, v1, v4, v6}, Landroid/graphics/Color;->argb(IIII)I
 
     move-result v6
@@ -475,7 +433,6 @@
     :cond_8
     double-to-float v6, v6
 
-    .line 16
     aput v6, v0, v5
 
     :goto_3
@@ -483,13 +440,11 @@
 
     goto :goto_2
 
-    .line 17
     :cond_9
     new-instance v1, Lcom/airbnb/lottie/model/content/c;
 
     invoke-direct {v1, v0, p1}, Lcom/airbnb/lottie/model/content/c;-><init>([F[I)V
 
-    .line 18
     invoke-direct {p0, v1, p2}, Lcom/airbnb/lottie/y/l;->b(Lcom/airbnb/lottie/model/content/c;Ljava/util/List;)V
 
     return-object v1

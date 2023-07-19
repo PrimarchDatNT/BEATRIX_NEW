@@ -33,7 +33,6 @@
 .method constructor <init>(Landroid/content/Context;Lcom/sdk/imp/internal/loader/Ad;Lcom/sdk/imp/s$g;Lcom/sdk/api/VideoCardAd;Ljava/util/HashMap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/s$a;->a:Landroid/content/Context;
 
     iput-object p2, p0, Lcom/sdk/imp/s$a;->b:Lcom/sdk/imp/internal/loader/Ad;
@@ -54,7 +53,6 @@
 .method public a(Lcom/sdk/api/InternalAdError;)V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/s;->a()Ljava/lang/String;
 
     move-result-object v0
@@ -79,7 +77,6 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/s$a;->c:Lcom/sdk/imp/s$g;
 
     invoke-static {v0, p1}, Lcom/sdk/imp/s;->b(Lcom/sdk/imp/s$g;Lcom/sdk/api/InternalAdError;)V
@@ -90,7 +87,6 @@
 .method public b(Lcom/sdk/imp/VastModel;)V
     .locals 6
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/s;->a()Ljava/lang/String;
 
     move-result-object v0
@@ -101,7 +97,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Lcom/sdk/imp/VastModel;->getMtType()I
 
     move-result v0
@@ -126,7 +121,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/s$a;->a:Landroid/content/Context;
 
@@ -134,14 +128,12 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {p1}, Lcom/sdk/imp/VastModel;->isMediaUrlAvailable()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-static {}, Lcom/sdk/imp/s;->a()Ljava/lang/String;
 
     move-result-object p1
@@ -150,7 +142,6 @@
 
     invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     iget-object p1, p0, Lcom/sdk/imp/s$a;->c:Lcom/sdk/imp/s$g;
 
     sget-object v0, Lcom/sdk/api/InternalAdError;->MEDIA_TYPE_ERROR:Lcom/sdk/api/InternalAdError;
@@ -159,7 +150,6 @@
 
     return-void
 
-    .line 7
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -167,7 +157,6 @@
 
     invoke-static {v1, v2}, Lcom/sdk/imp/s;->d(J)J
 
-    .line 8
     iget-object v1, p0, Lcom/sdk/imp/s$a;->d:Lcom/sdk/api/VideoCardAd;
 
     sget-object v2, Lcom/sdk/api/Const$Event;->DOWNLOAD_START:Lcom/sdk/api/Const$Event;
@@ -178,7 +167,6 @@
 
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/sdk/api/VideoCardAd;->I(Lcom/sdk/api/Const$Event;IJ)V
 
-    .line 9
     invoke-static {}, Lcom/sdk/imp/s;->a()Ljava/lang/String;
 
     move-result-object v1
@@ -199,7 +187,6 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 10
     iget-object v1, p0, Lcom/sdk/imp/s$a;->a:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/sdk/imp/s$a;->d:Lcom/sdk/api/VideoCardAd;
@@ -216,7 +203,6 @@
 
     return-void
 
-    .line 11
     :cond_2
     :goto_0
     invoke-static {}, Lcom/sdk/imp/s;->a()Ljava/lang/String;
@@ -227,7 +213,6 @@
 
     invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 12
     iget-object p1, p0, Lcom/sdk/imp/s$a;->c:Lcom/sdk/imp/s$g;
 
     sget-object v0, Lcom/sdk/api/InternalAdError;->APP_EXISTED_ERROR:Lcom/sdk/api/InternalAdError;

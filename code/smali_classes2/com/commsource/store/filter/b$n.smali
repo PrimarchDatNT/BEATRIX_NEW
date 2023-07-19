@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/filter/b$n;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v1}, Lcom/commsource/store/filter/b;->D(Lcom/commsource/store/filter/b;)Lcom/commsource/beautyplus/f0/ia;
@@ -77,7 +76,6 @@
 
     iput v2, v1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

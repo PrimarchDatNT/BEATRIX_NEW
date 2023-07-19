@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,12 +32,10 @@
 .method public final a()Landroid/os/Bundle;
     .locals 3
 
-    .line 1
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
-    .line 2
     iget v1, p0, Lcom/google/android/gms/ads/mediation/g$a;->a:I
 
     const-string v2, "capabilities"
@@ -53,7 +50,6 @@
 
     const/4 p1, 0x1
 
-    .line 1
     iput p1, p0, Lcom/google/android/gms/ads/mediation/g$a;->a:I
 
     return-object p0

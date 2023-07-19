@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/decoder/d$a;->a:Lcom/commsource/video/decoder/d;
 
     invoke-direct {p0, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
@@ -55,13 +54,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/os/Handler;->handleMessage(Landroid/os/Message;)V
 
-    .line 2
     iget p1, p1, Landroid/os/Message;->what:I
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/video/decoder/d$a;->a:Lcom/commsource/video/decoder/d;
 
     invoke-static {v1}, Lcom/commsource/video/decoder/d;->a(Lcom/commsource/video/decoder/d;)I
@@ -70,17 +66,14 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/video/decoder/d$a;->a:Lcom/commsource/video/decoder/d;
 
     invoke-virtual {p1}, Lcom/commsource/video/decoder/d;->g()V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/video/decoder/d$a;->a:Lcom/commsource/video/decoder/d;
 
     invoke-static {p1}, Lcom/commsource/video/decoder/d;->b(Lcom/commsource/video/decoder/d;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -37,7 +37,6 @@
 
     const-string v0, ""
 
-    .line 1
     new-instance v1, Lcom/mopub/network/Networking;
 
     invoke-direct {v1}, Lcom/mopub/network/Networking;-><init>()V
@@ -47,7 +46,6 @@
     :try_start_0
     const-string v1, "http.agent"
 
-    .line 2
     invoke-static {v1, v0}, Ljava/lang/System;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -56,7 +54,6 @@
 
     goto :goto_0
 
-    .line 3
     :catch_0
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -79,7 +76,6 @@
 
     move-object v0, v1
 
-    .line 4
     :cond_0
     sput-object v0, Lcom/mopub/network/Networking;->DEFAULT_USER_AGENT:Ljava/lang/String;
 
@@ -89,7 +85,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -109,19 +104,15 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     sput-object v1, Lcom/mopub/network/Networking;->requestQueue:Lcom/mopub/network/MoPubRequestQueue;
 
-    .line 2
     sput-object v1, Lcom/mopub/network/Networking;->imageLoader:Lcom/mopub/network/MoPubImageLoader;
 
-    .line 3
     sput-object v1, Lcom/mopub/network/Networking;->userAgent:Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit v0
 
     return-void
@@ -139,7 +130,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/network/Networking;->userAgent:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -177,7 +167,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcom/mopub/network/Networking;->imageLoader:Lcom/mopub/network/MoPubImageLoader;
 
     if-eqz v0, :cond_0
@@ -193,7 +182,6 @@
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/mopub/network/Networking;->imageLoader:Lcom/mopub/network/MoPubImageLoader;
 
@@ -203,23 +191,19 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {p0}, Lcom/mopub/network/Networking;->getRequestQueue(Landroid/content/Context;)Lcom/mopub/network/MoPubRequestQueue;
 
     move-result-object v1
 
-    .line 4
     invoke-static {p0}, Lcom/mopub/common/util/DeviceUtils;->memoryCacheSizeBytes(Landroid/content/Context;)I
 
     move-result p0
 
-    .line 5
     new-instance v2, Lcom/mopub/network/Networking$getImageLoader$1$1$imageCache$1;
 
     invoke-direct {v2, p0, p0}, Lcom/mopub/network/Networking$getImageLoader$1$1$imageCache$1;-><init>(II)V
 
-    .line 6
     new-instance p0, Lcom/mopub/network/MoPubImageLoader;
 
     new-instance v3, Lcom/mopub/network/Networking$getImageLoader$1$1$1;
@@ -228,12 +212,10 @@
 
     invoke-direct {p0, v1, v3}, Lcom/mopub/network/MoPubImageLoader;-><init>(Lcom/mopub/network/MoPubRequestQueue;Lcom/mopub/network/MoPubImageLoader$ImageCache;)V
 
-    .line 7
     sput-object p0, Lcom/mopub/network/Networking;->imageLoader:Lcom/mopub/network/MoPubImageLoader;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     :goto_0
     monitor-exit v0
 
@@ -258,7 +240,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/network/Networking;->requestQueue:Lcom/mopub/network/MoPubRequestQueue;
 
     return-object v0
@@ -280,7 +261,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Lcom/mopub/network/Networking;->requestQueue:Lcom/mopub/network/MoPubRequestQueue;
 
     if-eqz v0, :cond_0
@@ -296,7 +276,6 @@
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/mopub/network/Networking;->requestQueue:Lcom/mopub/network/MoPubRequestQueue;
 
@@ -304,7 +283,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     sget-object v1, Lcom/mopub/network/CustomSSLSocketFactory;->Companion:Lcom/mopub/network/CustomSSLSocketFactory$Companion;
 
@@ -314,7 +292,6 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
@@ -327,7 +304,6 @@
 
     move-result-object v2
 
-    .line 6
     new-instance v3, Ljava/io/File;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -362,31 +338,25 @@
 
     invoke-direct {v3, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 7
     sget-object p0, Lcom/mopub/network/Networking;->urlRewriter:Lcom/mopub/network/MoPubUrlRewriter;
 
     if-eqz p0, :cond_2
 
-    .line 8
     new-instance v4, Lcom/mopub/network/MoPubRequestQueue;
 
     invoke-direct {v4, v2, v1, p0, v3}, Lcom/mopub/network/MoPubRequestQueue;-><init>(Ljava/lang/String;Ljavax/net/ssl/SSLSocketFactory;Lcom/mopub/network/MoPubUrlRewriter;Ljava/io/File;)V
 
-    .line 9
     sput-object v4, Lcom/mopub/network/Networking;->requestQueue:Lcom/mopub/network/MoPubRequestQueue;
 
-    .line 10
     invoke-virtual {v4}, Lcom/mopub/network/MoPubRequestQueue;->start()V
 
     goto :goto_0
 
-    .line 11
     :cond_2
     new-instance p0, Lcom/mopub/network/Networking$getRequestQueue$1$1$tempUrlRewriter$1;
 
     invoke-direct {p0}, Lcom/mopub/network/Networking$getRequestQueue$1$1$tempUrlRewriter$1;-><init>()V
 
-    .line 12
     new-instance v4, Lcom/mopub/network/MoPubRequestQueue;
 
     invoke-direct {v4, v2, v1, p0, v3}, Lcom/mopub/network/MoPubRequestQueue;-><init>(Ljava/lang/String;Ljavax/net/ssl/SSLSocketFactory;Lcom/mopub/network/MoPubUrlRewriter;Ljava/io/File;)V
@@ -396,7 +366,6 @@
     :goto_0
     move-object v1, v4
 
-    .line 13
     :goto_1
     monitor-exit v0
 
@@ -444,7 +413,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/network/Networking;->urlRewriter:Lcom/mopub/network/MoPubUrlRewriter;
 
     return-object v0
@@ -474,7 +442,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcom/mopub/network/Networking;->userAgent:Ljava/lang/String;
 
     const/4 v1, 0x0
@@ -483,7 +450,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
     move-result v3
@@ -506,7 +472,6 @@
 
     return-object v0
 
-    .line 3
     :cond_2
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
@@ -524,16 +489,13 @@
 
     if-eqz v0, :cond_3
 
-    .line 4
     sget-object p0, Lcom/mopub/network/Networking;->DEFAULT_USER_AGENT:Ljava/lang/String;
 
     return-object p0
 
-    .line 5
     :cond_3
     sget-object v0, Lcom/mopub/network/Networking;->DEFAULT_USER_AGENT:Ljava/lang/String;
 
-    .line 6
     :try_start_0
     invoke-static {p0}, Landroid/webkit/WebSettings;->getDefaultUserAgent(Landroid/content/Context;)Ljava/lang/String;
 
@@ -549,7 +511,6 @@
 
     goto :goto_2
 
-    .line 7
     :catch_0
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -561,7 +522,6 @@
 
     invoke-static {p0, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 8
     :goto_2
     sput-object v0, Lcom/mopub/network/Networking;->userAgent:Ljava/lang/String;
 
@@ -584,13 +544,11 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sput-object p0, Lcom/mopub/network/Networking;->imageLoader:Lcom/mopub/network/MoPubImageLoader;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit v0
 
     return-void
@@ -619,13 +577,11 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sput-object p0, Lcom/mopub/network/Networking;->requestQueue:Lcom/mopub/network/MoPubRequestQueue;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit v0
 
     return-void
@@ -645,7 +601,6 @@
         .end annotation
     .end param
 
-    .line 1
     sput-object p0, Lcom/mopub/network/Networking;->urlRewriter:Lcom/mopub/network/MoPubUrlRewriter;
 
     return-void
@@ -667,13 +622,11 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sput-object p0, Lcom/mopub/network/Networking;->userAgent:Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit v0
 
     return-void

@@ -37,31 +37,26 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/g1;-><init>(Lcom/commsource/widget/XSeekBar;)V
 
-    .line 2
     new-instance v0, Landroid/graphics/Path;
 
     invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/widget/part/c;->b:Landroid/graphics/Path;
 
-    .line 3
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/widget/part/c;->c:Landroid/graphics/RectF;
 
-    .line 4
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/widget/part/c;->d:Landroid/graphics/RectF;
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/widget/XSeekBar;->getContentHeight()F
 
     move-result p1
@@ -80,7 +75,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
 
     move-result-object v0
@@ -132,7 +126,6 @@
 
     move-result v0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
 
@@ -167,7 +160,6 @@
     :cond_1
     move v1, v0
 
-    .line 3
     :goto_1
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
 
@@ -200,7 +192,6 @@
 
     move-result v0
 
-    .line 4
     :goto_2
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
 
@@ -210,7 +201,6 @@
 
     move-result v2
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
 
     move-result-object v3
@@ -227,7 +217,6 @@
 
     move-result v3
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
 
     move-result-object v4
@@ -244,12 +233,10 @@
 
     iput v4, p0, Lcom/commsource/widget/part/c;->e:F
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/widget/part/c;->b:Landroid/graphics/Path;
 
     invoke-virtual {v3}, Landroid/graphics/Path;->reset()V
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/widget/part/c;->b:Landroid/graphics/Path;
 
     add-float v4, v1, v2
@@ -274,7 +261,6 @@
 
     invoke-virtual {v3, v4, v5}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/widget/part/c;->c:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
@@ -313,7 +299,6 @@
 
     invoke-virtual {v3, v1, v5, v4, v2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/widget/part/c;->b:Landroid/graphics/Path;
 
     iget-object v2, p0, Lcom/commsource/widget/part/c;->c:Landroid/graphics/RectF;
@@ -326,7 +311,6 @@
 
     invoke-virtual {v1, v2, v3, v4, v5}, Landroid/graphics/Path;->arcTo(Landroid/graphics/RectF;FFZ)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/widget/part/c;->b:Landroid/graphics/Path;
 
     iget v2, p0, Lcom/commsource/widget/part/c;->e:F
@@ -353,7 +337,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/widget/part/c;->d:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/widget/part/c;->e:F
@@ -398,7 +381,6 @@
 
     invoke-virtual {v1, v2, v3, v0, v7}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 13
     iget-object v0, p0, Lcom/commsource/widget/part/c;->b:Landroid/graphics/Path;
 
     iget-object v1, p0, Lcom/commsource/widget/part/c;->d:Landroid/graphics/RectF;
@@ -407,12 +389,10 @@
 
     invoke-virtual {v0, v1, v2, v4, v5}, Landroid/graphics/Path;->arcTo(Landroid/graphics/RectF;FFZ)V
 
-    .line 14
     iget-object v0, p0, Lcom/commsource/widget/part/c;->b:Landroid/graphics/Path;
 
     invoke-virtual {v0}, Landroid/graphics/Path;->close()V
 
-    .line 15
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -433,7 +413,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/g1;->b()Lcom/commsource/widget/XSeekBar;
 
     move-result-object v1
@@ -444,12 +423,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/part/c;->b:Landroid/graphics/Path;
 
@@ -463,7 +440,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -478,7 +454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/part/c;->c:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -495,7 +470,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/part/c;->b:Landroid/graphics/Path;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -510,7 +484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/part/c;->e:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -527,7 +500,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/part/c;->d:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -542,7 +514,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/part/c;->e:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

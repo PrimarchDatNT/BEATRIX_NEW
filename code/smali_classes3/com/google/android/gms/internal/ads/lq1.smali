@@ -51,13 +51,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/lq1;->a:Ljava/util/concurrent/Future;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/lq1;->b:Lcom/google/android/gms/internal/ads/gq1;
 
     return-void
@@ -68,31 +65,26 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lq1;->a:Ljava/util/concurrent/Future;
 
     instance-of v1, v0, Lcom/google/android/gms/internal/ads/jr1;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast v0, Lcom/google/android/gms/internal/ads/jr1;
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/hr1;->a(Lcom/google/android/gms/internal/ads/jr1;)Ljava/lang/Throwable;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/lq1;->b:Lcom/google/android/gms/internal/ads/gq1;
 
     invoke-interface {v1, v0}, Lcom/google/android/gms/internal/ads/gq1;->a(Ljava/lang/Throwable;)V
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lq1;->a:Ljava/util/concurrent/Future;
@@ -105,7 +97,6 @@
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/Error; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/lq1;->b:Lcom/google/android/gms/internal/ads/gq1;
 
     invoke-interface {v1, v0}, Lcom/google/android/gms/internal/ads/gq1;->onSuccess(Ljava/lang/Object;)V
@@ -120,7 +111,6 @@
     :catch_1
     move-exception v0
 
-    .line 7
     :goto_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/lq1;->b:Lcom/google/android/gms/internal/ads/gq1;
 
@@ -131,7 +121,6 @@
     :catch_2
     move-exception v0
 
-    .line 8
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/lq1;->b:Lcom/google/android/gms/internal/ads/gq1;
 
     invoke-virtual {v0}, Ljava/util/concurrent/ExecutionException;->getCause()Ljava/lang/Throwable;
@@ -146,7 +135,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/eo1;->a(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/go1;
 
     move-result-object v0

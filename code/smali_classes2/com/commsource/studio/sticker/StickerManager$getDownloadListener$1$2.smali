@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -77,14 +76,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$2;->this$0:Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;
 
     iget-object v1, v1, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;->$sticker:Lcom/meitu/template/bean/Sticker;
 
     invoke-virtual {v1, p1}, Lcom/meitu/template/bean/e;->setDownloadProgress(I)V
 
-    .line 3
     sget-object p1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1$2;->this$0:Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;
@@ -93,7 +90,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/studio/sticker/StickerManager;->r(Lcom/commsource/studio/sticker/StickerManager;Lcom/meitu/template/bean/Sticker;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

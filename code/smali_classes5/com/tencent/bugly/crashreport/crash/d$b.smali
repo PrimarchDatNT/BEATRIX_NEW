@@ -35,7 +35,6 @@
 .method constructor <init>(Ljava/lang/Thread;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/crash/d$b;->a:Ljava/lang/Thread;
 
     iput p2, p0, Lcom/tencent/bugly/crashreport/crash/d$b;->b:I
@@ -60,7 +59,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/tencent/bugly/crashreport/crash/d;->a()Lcom/tencent/bugly/crashreport/crash/d;
 
@@ -72,12 +70,10 @@
 
     new-array v2, v0, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {v1, v2}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/tencent/bugly/crashreport/crash/d;->a()Lcom/tencent/bugly/crashreport/crash/d;
 
@@ -104,14 +100,12 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/Throwable;)Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_1
@@ -119,7 +113,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 6
     iget-object v2, p0, Lcom/tencent/bugly/crashreport/crash/d$b;->c:Ljava/lang/String;
 
     aput-object v2, v1, v0

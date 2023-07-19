@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/i$v;Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$v$a;->b:Lcom/google/firebase/crashlytics/internal/common/i$v;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/i$v$a;->a:Ljava/lang/Boolean;
@@ -66,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/i$v$a;->b:Lcom/google/firebase/crashlytics/internal/common/i$v;
 
     iget-object v0, v0, Lcom/google/firebase/crashlytics/internal/common/i$v;->c:Lcom/google/firebase/crashlytics/internal/common/i;
@@ -79,7 +77,6 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/i$v$a;->a:Ljava/lang/Boolean;
 
     invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -88,7 +85,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v1
@@ -97,7 +93,6 @@
 
     invoke-virtual {v1, v2}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/i$v$a;->b:Lcom/google/firebase/crashlytics/internal/common/i$v;
 
     iget-object v1, v1, Lcom/google/firebase/crashlytics/internal/common/i$v;->c:Lcom/google/firebase/crashlytics/internal/common/i;
@@ -108,7 +103,6 @@
 
     invoke-virtual {v1, v0}, Lcom/google/firebase/crashlytics/e/j/a;->c(Ljava/util/List;)V
 
-    .line 5
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/i$v$a;->b:Lcom/google/firebase/crashlytics/internal/common/i$v;
 
     iget-object v0, v0, Lcom/google/firebase/crashlytics/internal/common/i$v;->c:Lcom/google/firebase/crashlytics/internal/common/i;
@@ -119,7 +113,6 @@
 
     invoke-virtual {v0}, Lcom/google/firebase/crashlytics/internal/common/c0;->q()V
 
-    .line 6
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/i$v$a;->b:Lcom/google/firebase/crashlytics/internal/common/i$v;
 
     iget-object v0, v0, Lcom/google/firebase/crashlytics/internal/common/i$v;->c:Lcom/google/firebase/crashlytics/internal/common/i;
@@ -130,14 +123,12 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/tasks/l;->e(Ljava/lang/Object;)Z
 
-    .line 7
     invoke-static {v1}, Lcom/google/android/gms/tasks/n;->g(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
 
     return-object v0
 
-    .line 8
     :cond_0
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
@@ -147,14 +138,12 @@
 
     invoke-virtual {v1, v2}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 9
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/i$v$a;->a:Ljava/lang/Boolean;
 
     invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v1
 
-    .line 10
     iget-object v2, p0, Lcom/google/firebase/crashlytics/internal/common/i$v$a;->b:Lcom/google/firebase/crashlytics/internal/common/i$v;
 
     iget-object v2, v2, Lcom/google/firebase/crashlytics/internal/common/i$v;->c:Lcom/google/firebase/crashlytics/internal/common/i;
@@ -165,7 +154,6 @@
 
     invoke-virtual {v2, v1}, Lcom/google/firebase/crashlytics/internal/common/q;->a(Z)V
 
-    .line 11
     iget-object v2, p0, Lcom/google/firebase/crashlytics/internal/common/i$v$a;->b:Lcom/google/firebase/crashlytics/internal/common/i$v;
 
     iget-object v2, v2, Lcom/google/firebase/crashlytics/internal/common/i$v;->c:Lcom/google/firebase/crashlytics/internal/common/i;
@@ -178,7 +166,6 @@
 
     move-result-object v2
 
-    .line 12
     iget-object v3, p0, Lcom/google/firebase/crashlytics/internal/common/i$v$a;->b:Lcom/google/firebase/crashlytics/internal/common/i$v;
 
     iget-object v3, v3, Lcom/google/firebase/crashlytics/internal/common/i$v;->a:Lcom/google/android/gms/tasks/k;
@@ -202,7 +189,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/common/i$v$a;->a()Lcom/google/android/gms/tasks/k;
 
     move-result-object v0

@@ -36,7 +36,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/b0;-><init>()V
 
     return-void
@@ -59,7 +58,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -83,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcom/google/common/util/concurrent/p;
 
     if-eqz v0, :cond_0
@@ -117,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/common/util/concurrent/a0;->a(Lcom/google/common/util/concurrent/g0;Lcom/google/common/util/concurrent/z;Ljava/util/concurrent/Executor;)V
 
     return-void
@@ -145,7 +141,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/google/common/util/concurrent/a0;->d(Lcom/google/common/util/concurrent/g0;Ljava/lang/Class;Lcom/google/common/base/n;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/g0;
 
     move-result-object p1
@@ -177,7 +172,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/google/common/util/concurrent/a0;->e(Lcom/google/common/util/concurrent/g0;Ljava/lang/Class;Lcom/google/common/util/concurrent/j;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/g0;
 
     move-result-object p1
@@ -203,7 +197,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/common/util/concurrent/a0;->w(Lcom/google/common/util/concurrent/g0;Lcom/google/common/base/n;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/g0;
 
     move-result-object p1
@@ -229,7 +222,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/common/util/concurrent/a0;->x(Lcom/google/common/util/concurrent/g0;Lcom/google/common/util/concurrent/j;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/g0;
 
     move-result-object p1
@@ -255,7 +247,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcom/google/common/util/concurrent/a0;->C(Lcom/google/common/util/concurrent/g0;JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/g0;
 
     move-result-object p1

@@ -1151,7 +1151,6 @@
 
     sput-object v0, Lkshark/AndroidReferenceMatchers;->Companion:Lkshark/AndroidReferenceMatchers$Companion;
 
-    .line 1
     sget-object v0, Lkshark/AndroidReferenceMatchers$Companion$ALWAYS$1;->INSTANCE:Lkshark/AndroidReferenceMatchers$Companion$ALWAYS$1;
 
     sput-object v0, Lkshark/AndroidReferenceMatchers;->ALWAYS:Lcotlin/jvm/u/l;
@@ -1167,7 +1166,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -1176,7 +1174,6 @@
 .method public synthetic constructor <init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lkshark/AndroidReferenceMatchers;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -1185,7 +1182,6 @@
 .method public static final synthetic access$getALWAYS$cp()Lcotlin/jvm/u/l;
     .locals 1
 
-    .line 1
     sget-object v0, Lkshark/AndroidReferenceMatchers;->ALWAYS:Lcotlin/jvm/u/l;
 
     return-object v0

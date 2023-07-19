@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/qiniu/android/http/a;Lcom/qiniu/android/dns/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/qiniu/android/http/a$a;->b:Lcom/qiniu/android/http/a;
 
     iput-object p2, p0, Lcom/qiniu/android/http/a$a;->a:Lcom/qiniu/android/dns/a;
@@ -58,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/qiniu/android/http/a$a;->a:Lcom/qiniu/android/dns/a;
 
@@ -74,17 +72,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-static {p1, v0}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/net/UnknownHostException;
 
@@ -109,10 +104,8 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 6
     new-instance v0, Ljava/net/UnknownHostException;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;

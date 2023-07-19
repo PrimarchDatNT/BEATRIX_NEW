@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/c$a;->a:Lcom/commsource/home/homepagedialog/c;
 
     invoke-virtual {v1}, Lcom/commsource/home/homepagedialog/c;->k()Lcom/commsource/beautyplus/BaseActivity;
@@ -67,7 +66,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/c$a;->a:Lcom/commsource/home/homepagedialog/c;
@@ -84,10 +82,8 @@
 
     const-string v3, "EXTRA_SUBPAGE_MODE"
 
-    .line 3
     invoke-virtual {v1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 4
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v3, "source_click_position"
@@ -96,7 +92,6 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/c$a;->a:Lcom/commsource/home/homepagedialog/c;
 
     invoke-virtual {v2}, Lcom/commsource/home/homepagedialog/c;->k()Lcom/commsource/beautyplus/BaseActivity;
@@ -105,7 +100,6 @@
 
     invoke-virtual {v2, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/c$a;->a:Lcom/commsource/home/homepagedialog/c;
 
     invoke-virtual {v1}, Lcom/commsource/home/homepagedialog/c;->k()Lcom/commsource/beautyplus/BaseActivity;
@@ -114,7 +108,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/h2;->c(Landroid/app/Activity;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

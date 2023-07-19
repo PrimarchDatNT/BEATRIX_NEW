@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/n0$f;Ljava/util/concurrent/ExecutorService;JLjava/util/concurrent/TimeUnit;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/n0$f$a;->d:Lcom/google/common/util/concurrent/n0$f;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/n0$f$a;->a:Ljava/util/concurrent/ExecutorService;
@@ -50,13 +49,11 @@
 .method public run()V
     .locals 4
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$f$a;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/util/concurrent/n0$f$a;->a:Ljava/util/concurrent/ExecutorService;
 
     iget-wide v1, p0, Lcom/google/common/util/concurrent/n0$f$a;->b:J

@@ -43,7 +43,6 @@
 
     move v2, p2
 
-    .line 4
     invoke-direct/range {v0 .. v6}, Lcotlin/random/h;-><init>(IIIIII)V
 
     return-void
@@ -52,7 +51,6 @@
 .method public constructor <init>(IIIIII)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlin/random/e;-><init>()V
 
     iput p1, p0, Lcotlin/random/h;->c:I
@@ -94,7 +92,6 @@
     :goto_1
     if-ge p2, p1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcotlin/random/h;->l()I
 
     add-int/lit8 p2, p2, 0x1
@@ -104,7 +101,6 @@
     :cond_1
     return-void
 
-    .line 3
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -124,7 +120,6 @@
 .method public b(I)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/random/h;->l()I
 
     move-result v0
@@ -139,32 +134,26 @@
 .method public l()I
     .locals 3
 
-    .line 1
     iget v0, p0, Lcotlin/random/h;->c:I
 
     ushr-int/lit8 v1, v0, 0x2
 
     xor-int/2addr v0, v1
 
-    .line 2
     iget v1, p0, Lcotlin/random/h;->d:I
 
     iput v1, p0, Lcotlin/random/h;->c:I
 
-    .line 3
     iget v1, p0, Lcotlin/random/h;->e:I
 
     iput v1, p0, Lcotlin/random/h;->d:I
 
-    .line 4
     iget v1, p0, Lcotlin/random/h;->f:I
 
     iput v1, p0, Lcotlin/random/h;->e:I
 
-    .line 5
     iget v1, p0, Lcotlin/random/h;->g:I
 
-    .line 6
     iput v1, p0, Lcotlin/random/h;->f:I
 
     shl-int/lit8 v2, v0, 0x1
@@ -177,10 +166,8 @@
 
     xor-int/2addr v0, v1
 
-    .line 7
     iput v0, p0, Lcotlin/random/h;->g:I
 
-    .line 8
     iget v1, p0, Lcotlin/random/h;->h:I
 
     const v2, 0x587c5

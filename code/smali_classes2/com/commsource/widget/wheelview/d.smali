@@ -28,7 +28,6 @@
 
     const/16 v1, 0x9
 
-    .line 1
     invoke-direct {p0, v0, v1}, Lcom/commsource/widget/wheelview/d;-><init>(II)V
 
     return-void
@@ -39,7 +38,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/wheelview/d;-><init>(IILjava/lang/String;)V
 
     return-void
@@ -48,16 +46,12 @@
 .method public constructor <init>(IILjava/lang/String;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput p1, p0, Lcom/commsource/widget/wheelview/d;->a:I
 
-    .line 5
     iput p2, p0, Lcom/commsource/widget/wheelview/d;->b:I
 
-    .line 6
     iput-object p3, p0, Lcom/commsource/widget/wheelview/d;->c:Ljava/lang/String;
 
     return-void
@@ -72,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/wheelview/d;->b:I
 
     iget v2, p0, Lcom/commsource/widget/wheelview/d;->a:I
@@ -93,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/wheelview/d;->b:I
 
     invoke-static {v1}, Ljava/lang/Math;->abs(I)I
@@ -110,7 +102,6 @@
 
     move-result v1
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -119,14 +110,12 @@
 
     move-result v1
 
-    .line 3
     iget v2, p0, Lcom/commsource/widget/wheelview/d;->a:I
 
     if-gez v2, :cond_0
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -142,19 +131,16 @@
 
     if-ltz p1, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/wheelview/d;->a()I
 
     move-result v1
 
     if-ge p1, v1, :cond_1
 
-    .line 2
     iget v1, p0, Lcom/commsource/widget/wheelview/d;->a:I
 
     add-int/2addr v1, p1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/wheelview/d;->c:Ljava/lang/String;
 
     if-eqz p1, :cond_0
@@ -198,7 +184,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1

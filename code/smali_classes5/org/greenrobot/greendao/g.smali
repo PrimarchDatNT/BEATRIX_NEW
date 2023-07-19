@@ -48,22 +48,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lorg/greenrobot/greendao/k/a;
 
     invoke-direct {v0, p1, p2}, Lorg/greenrobot/greendao/k/a;-><init>(Lorg/greenrobot/greendao/database/a;Ljava/lang/Class;)V
 
-    .line 3
     invoke-virtual {v0, p3}, Lorg/greenrobot/greendao/k/a;->f(Lorg/greenrobot/greendao/identityscope/a;)V
 
     const/4 p1, 0x1
 
     new-array p3, p1, [Ljava/lang/Class;
 
-    .line 4
     const-class v1, Lorg/greenrobot/greendao/k/a;
 
     const/4 v2, 0x0
@@ -78,7 +74,6 @@
 
     aput-object v0, p1, v2
 
-    .line 5
     invoke-virtual {p2, p1}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -102,7 +97,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/g;->a:Lorg/greenrobot/greendao/a;
 
     return-object v0
@@ -116,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/g;->a:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0, p1}, Lorg/greenrobot/greendao/a;->v(Ljava/lang/Object;)Ljava/lang/Object;
@@ -129,7 +122,6 @@
 .method public c()[Lorg/greenrobot/greendao/h;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/g;->a:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->A()[Lorg/greenrobot/greendao/h;
@@ -142,7 +134,6 @@
 .method public d()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/g;->a:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->P()Z
@@ -162,7 +153,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/g;->a:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0, p1, p2}, Lorg/greenrobot/greendao/a;->f0(Landroid/database/Cursor;I)Ljava/lang/Object;
@@ -182,7 +172,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/g;->a:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0, p1, p2}, Lorg/greenrobot/greendao/a;->h0(Landroid/database/Cursor;I)Ljava/lang/Object;

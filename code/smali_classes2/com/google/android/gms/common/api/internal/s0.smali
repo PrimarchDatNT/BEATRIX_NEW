@@ -12,7 +12,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/r0;Lcom/google/android/gms/common/api/internal/e1;Lcom/google/android/gms/common/api/internal/k0;Lcom/google/android/gms/signin/internal/zaj;)V
     .locals 0
 
-    .line 1
     iput-object p3, p0, Lcom/google/android/gms/common/api/internal/s0;->b:Lcom/google/android/gms/common/api/internal/k0;
 
     iput-object p4, p0, Lcom/google/android/gms/common/api/internal/s0;->c:Lcom/google/android/gms/signin/internal/zaj;
@@ -27,7 +26,6 @@
 .method public final a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/s0;->b:Lcom/google/android/gms/common/api/internal/k0;
 
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/s0;->c:Lcom/google/android/gms/signin/internal/zaj;

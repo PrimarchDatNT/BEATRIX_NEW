@@ -9,17 +9,14 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     iget-object v3, v0, Lcom/google/android/gms/internal/ads/uo2;->c:Ljava/util/Map;
 
     const-string v4, "Date"
 
-    .line 3
     invoke-interface {v3, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -28,7 +25,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 4
     invoke-static {v4}, Lcom/google/android/gms/internal/ads/xq;->c(Ljava/lang/String;)J
 
     move-result-wide v7
@@ -41,7 +37,6 @@
     :goto_0
     const-string v4, "Cache-Control"
 
-    .line 5
     invoke-interface {v3, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -54,7 +49,6 @@
 
     const-string v11, ","
 
-    .line 6
     invoke-virtual {v4, v11, v10}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v4
@@ -65,13 +59,11 @@
 
     const-wide/16 v14, 0x0
 
-    .line 7
     :goto_1
     array-length v9, v4
 
     if-ge v10, v9, :cond_7
 
-    .line 8
     aget-object v9, v4, v10
 
     invoke-virtual {v9}, Ljava/lang/String;->trim()Ljava/lang/String;
@@ -80,7 +72,6 @@
 
     const-string v5, "no-cache"
 
-    .line 9
     invoke-virtual {v9, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
@@ -100,7 +91,6 @@
     :cond_1
     const-string v5, "max-age="
 
-    .line 10
     invoke-virtual {v9, v5}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v5
@@ -109,7 +99,6 @@
 
     const/16 v5, 0x8
 
-    .line 11
     :try_start_0
     invoke-virtual {v9, v5}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
@@ -126,7 +115,6 @@
     :cond_2
     const-string v5, "stale-while-revalidate="
 
-    .line 12
     invoke-virtual {v9, v5}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v5
@@ -135,7 +123,6 @@
 
     const/16 v5, 0x17
 
-    .line 13
     :try_start_1
     invoke-virtual {v9, v5}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
@@ -152,7 +139,6 @@
     :cond_3
     const-string v5, "must-revalidate"
 
-    .line 14
     invoke-virtual {v9, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
@@ -200,7 +186,6 @@
     :goto_4
     const-string v4, "Expires"
 
-    .line 15
     invoke-interface {v3, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -209,7 +194,6 @@
 
     if-eqz v4, :cond_9
 
-    .line 16
     invoke-static {v4}, Lcom/google/android/gms/internal/ads/xq;->c(Ljava/lang/String;)J
 
     move-result-wide v4
@@ -222,7 +206,6 @@
     :goto_5
     const-string v6, "Last-Modified"
 
-    .line 17
     invoke-interface {v3, v6}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v6
@@ -231,7 +214,6 @@
 
     if-eqz v6, :cond_a
 
-    .line 18
     invoke-static {v6}, Lcom/google/android/gms/internal/ads/xq;->c(Ljava/lang/String;)J
 
     move-result-wide v16
@@ -246,7 +228,6 @@
     :goto_6
     const-string v6, "ETag"
 
-    .line 19
     invoke-interface {v3, v6}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v6
@@ -267,7 +248,6 @@
 
     goto :goto_7
 
-    .line 20
     :cond_b
     invoke-static {v14, v15}, Ljava/lang/Long;->signum(J)I
 
@@ -302,38 +282,29 @@
     :cond_d
     move-wide v1, v9
 
-    .line 21
     :goto_8
     new-instance v4, Lcom/google/android/gms/internal/ads/ee2;
 
     invoke-direct {v4}, Lcom/google/android/gms/internal/ads/ee2;-><init>()V
 
-    .line 22
     iget-object v5, v0, Lcom/google/android/gms/internal/ads/uo2;->b:[B
 
     iput-object v5, v4, Lcom/google/android/gms/internal/ads/ee2;->a:[B
 
-    .line 23
     iput-object v6, v4, Lcom/google/android/gms/internal/ads/ee2;->b:Ljava/lang/String;
 
-    .line 24
     iput-wide v1, v4, Lcom/google/android/gms/internal/ads/ee2;->f:J
 
-    .line 25
     iput-wide v9, v4, Lcom/google/android/gms/internal/ads/ee2;->e:J
 
-    .line 26
     iput-wide v7, v4, Lcom/google/android/gms/internal/ads/ee2;->c:J
 
     move-wide/from16 v1, v18
 
-    .line 27
     iput-wide v1, v4, Lcom/google/android/gms/internal/ads/ee2;->d:J
 
-    .line 28
     iput-object v3, v4, Lcom/google/android/gms/internal/ads/ee2;->g:Ljava/util/Map;
 
-    .line 29
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/uo2;->d:Ljava/util/List;
 
     iput-object v0, v4, Lcom/google/android/gms/internal/ads/ee2;->h:Ljava/util/List;
@@ -344,7 +315,6 @@
 .method static b(J)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/xq;->d()Ljava/text/SimpleDateFormat;
 
     move-result-object v0
@@ -363,7 +333,6 @@
 .method private static c(Ljava/lang/String;)J
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/google/android/gms/internal/ads/xq;->d()Ljava/text/SimpleDateFormat;
 
@@ -394,7 +363,6 @@
 
     const-string p0, "Unable to parse dateStr: %s, falling back to 0"
 
-    .line 2
     invoke-static {v0, p0, v1}, Lcom/google/android/gms/internal/ads/bf;->e(Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     const-wide/16 v0, 0x0
@@ -405,7 +373,6 @@
 .method private static d()Ljava/text/SimpleDateFormat;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
@@ -416,7 +383,6 @@
 
     const-string v1, "GMT"
 
-    .line 2
     invoke-static {v1}, Ljava/util/TimeZone;->getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
 
     move-result-object v1

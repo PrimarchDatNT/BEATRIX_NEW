@@ -39,7 +39,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/library/analytics/x/c$o;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -50,12 +49,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/library/analytics/x/c$o;->a:Ljava/lang/Class;
 
     return-void
@@ -68,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/library/analytics/x/c$o;
@@ -119,7 +115,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -138,7 +133,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -161,7 +155,6 @@
     :try_start_0
     const-string v0, "com.android.id.impl.IdProviderImpl"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -172,7 +165,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -180,7 +172,6 @@
     :catchall_0
     const/4 v0, 0x0
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -193,7 +184,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/x/c$o;->b:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -202,7 +192,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/meitu/library/analytics/x/c$o;->a:Ljava/lang/Class;
 
@@ -210,7 +199,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/library/analytics/x/c$o;->a:Ljava/lang/Class;
 
     const-string v3, "getOAID"
@@ -233,7 +221,6 @@
 
     aput-object p1, v3, v7
 
-    .line 4
     sget-object p1, Lcom/meitu/library/analytics/x/c$o;->c:Lorg/aspectj/lang/c$b;
 
     invoke-static {p1, p0, v2, v1, v3}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -278,7 +265,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -292,10 +278,8 @@
     :catchall_0
     const/4 p1, 0x0
 
-    .line 6
     sput-object p1, Lcom/meitu/library/analytics/x/c$o;->b:Ljava/lang/String;
 
-    .line 7
     :cond_0
     :goto_0
     sget-object p1, Lcom/meitu/library/analytics/x/c$o;->b:Ljava/lang/String;

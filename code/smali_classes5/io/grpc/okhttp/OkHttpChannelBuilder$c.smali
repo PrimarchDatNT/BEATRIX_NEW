@@ -88,7 +88,6 @@
 
     move-object v1, p1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v2, 0x1
@@ -104,13 +103,11 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 3
     :goto_0
     iput-boolean v4, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->c:Z
 
     if-eqz v4, :cond_1
 
-    .line 4
     sget-object v4, Lio/grpc/internal/GrpcUtil;->I:Lio/grpc/internal/v2$d;
 
     invoke-static {v4}, Lio/grpc/internal/v2;->d(Lio/grpc/internal/v2$d;)Ljava/lang/Object;
@@ -129,35 +126,28 @@
 
     move-object v4, p3
 
-    .line 5
     iput-object v4, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->f:Ljavax/net/SocketFactory;
 
     move-object v4, p4
 
-    .line 6
     iput-object v4, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->g:Ljavax/net/ssl/SSLSocketFactory;
 
     move-object v4, p5
 
-    .line 7
     iput-object v4, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->p:Ljavax/net/ssl/HostnameVerifier;
 
     move-object v4, p6
 
-    .line 8
     iput-object v4, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->J:Lio/grpc/okhttp/internal/a;
 
     move v4, p7
 
-    .line 9
     iput v4, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->K:I
 
     move/from16 v4, p8
 
-    .line 10
     iput-boolean v4, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->L:Z
 
-    .line 11
     new-instance v4, Lio/grpc/internal/n;
 
     const-string v5, "keepalive time nanos"
@@ -170,27 +160,22 @@
 
     move-wide/from16 v4, p11
 
-    .line 12
     iput-wide v4, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->N:J
 
     move/from16 v4, p13
 
-    .line 13
     iput v4, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->O:I
 
     move/from16 v4, p14
 
-    .line 14
     iput-boolean v4, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->P:Z
 
     move/from16 v4, p15
 
-    .line 15
     iput v4, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->Q:I
 
     move/from16 v4, p17
 
-    .line 16
     iput-boolean v4, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->S:Z
 
     if-nez v1, :cond_2
@@ -200,7 +185,6 @@
     :cond_2
     const/4 v2, 0x0
 
-    .line 17
     :goto_2
     iput-boolean v2, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->b:Z
 
@@ -208,7 +192,6 @@
 
     move-object/from16 v4, p16
 
-    .line 18
     invoke-static {v4, v3}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -219,7 +202,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 19
     invoke-static {}, Lio/grpc/okhttp/OkHttpChannelBuilder;->C0()Lio/grpc/internal/v2$d;
 
     move-result-object v1
@@ -234,7 +216,6 @@
 
     goto :goto_3
 
-    .line 20
     :cond_3
     iput-object v1, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->a:Ljava/util/concurrent/Executor;
 
@@ -245,7 +226,6 @@
 .method synthetic constructor <init>(Ljava/util/concurrent/Executor;Ljava/util/concurrent/ScheduledExecutorService;Ljavax/net/SocketFactory;Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/HostnameVerifier;Lio/grpc/okhttp/internal/a;IZJJIZILio/grpc/internal/g3$b;ZLio/grpc/okhttp/OkHttpChannelBuilder$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p17}, Lio/grpc/okhttp/OkHttpChannelBuilder$c;-><init>(Ljava/util/concurrent/Executor;Ljava/util/concurrent/ScheduledExecutorService;Ljavax/net/SocketFactory;Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/HostnameVerifier;Lio/grpc/okhttp/internal/a;IZJJIZILio/grpc/internal/g3$b;Z)V
 
     return-void
@@ -256,7 +236,6 @@
 .method public B0()Ljava/util/concurrent/ScheduledExecutorService;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->R:Ljava/util/concurrent/ScheduledExecutorService;
 
     return-object v0
@@ -265,7 +244,6 @@
 .method public close()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->T:Z
 
     if-eqz v0, :cond_0
@@ -275,28 +253,23 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->T:Z
 
-    .line 3
     iget-boolean v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->c:Z
 
     if-eqz v0, :cond_1
 
-    .line 4
     sget-object v0, Lio/grpc/internal/GrpcUtil;->I:Lio/grpc/internal/v2$d;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->R:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-static {v0, v1}, Lio/grpc/internal/v2;->f(Lio/grpc/internal/v2$d;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :cond_1
     iget-boolean v0, p0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->b:Z
 
     if-eqz v0, :cond_2
 
-    .line 6
     invoke-static {}, Lio/grpc/okhttp/OkHttpChannelBuilder;->C0()Lio/grpc/internal/v2$d;
 
     move-result-object v0
@@ -314,46 +287,38 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     iget-boolean v1, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->T:Z
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->M:Lio/grpc/internal/n;
 
     invoke-virtual {v1}, Lio/grpc/internal/n;->d()Lio/grpc/internal/n$b;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lio/grpc/okhttp/OkHttpChannelBuilder$c$a;
 
     move-object v15, v2
 
     invoke-direct {v2, v0, v1}, Lio/grpc/okhttp/OkHttpChannelBuilder$c$a;-><init>(Lio/grpc/okhttp/OkHttpChannelBuilder$c;Lio/grpc/internal/n$b;)V
 
-    .line 4
     move-object/from16 v3, p1
 
     check-cast v3, Ljava/net/InetSocketAddress;
 
-    .line 5
     new-instance v19, Lio/grpc/okhttp/f;
 
     move-object/from16 v2, v19
 
-    .line 6
     invoke-virtual/range {p2 .. p2}, Lio/grpc/internal/w$a;->a()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 7
     invoke-virtual/range {p2 .. p2}, Lio/grpc/internal/w$a;->e()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 8
     invoke-virtual/range {p2 .. p2}, Lio/grpc/internal/w$a;->c()Lio/grpc/a;
 
     move-result-object v6
@@ -372,7 +337,6 @@
 
     iget v13, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->O:I
 
-    .line 9
     invoke-virtual/range {p2 .. p2}, Lio/grpc/internal/w$a;->d()Lio/grpc/HttpConnectProxiedSocketAddress;
 
     move-result-object v14
@@ -385,7 +349,6 @@
 
     iget-object v1, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->d:Lio/grpc/internal/g3$b;
 
-    .line 10
     invoke-virtual {v1}, Lio/grpc/internal/g3$b;->a()Lio/grpc/internal/g3;
 
     move-result-object v17
@@ -396,14 +359,12 @@
 
     invoke-direct/range {v2 .. v18}, Lio/grpc/okhttp/f;-><init>(Ljava/net/InetSocketAddress;Ljava/lang/String;Ljava/lang/String;Lio/grpc/a;Ljava/util/concurrent/Executor;Ljavax/net/SocketFactory;Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/HostnameVerifier;Lio/grpc/okhttp/internal/a;IILio/grpc/HttpConnectProxiedSocketAddress;Ljava/lang/Runnable;ILio/grpc/internal/g3;Z)V
 
-    .line 11
     iget-boolean v1, v0, Lio/grpc/okhttp/OkHttpChannelBuilder$c;->L:Z
 
     if-eqz v1, :cond_0
 
     const/4 v5, 0x1
 
-    .line 12
     invoke-virtual/range {p3 .. p3}, Lio/grpc/internal/n$b;->b()J
 
     move-result-wide v6
@@ -414,13 +375,11 @@
 
     move-object/from16 v4, v19
 
-    .line 13
     invoke-virtual/range {v4 .. v10}, Lio/grpc/okhttp/f;->U(ZJJZ)V
 
     :cond_0
     return-object v19
 
-    .line 14
     :cond_1
     new-instance v1, Ljava/lang/IllegalStateException;
 

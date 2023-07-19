@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6$$special$$inlined$let$lambda$1$a;->a:Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6$$special$$inlined$let$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6$$special$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6;
@@ -61,7 +60,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/ColorPickerLayer;->K0(Landroid/graphics/Bitmap;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6$$special$$inlined$let$lambda$1$a;->a:Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6$$special$$inlined$let$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6$$special$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6;
@@ -74,7 +72,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->X()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6$$special$$inlined$let$lambda$1$a;->a:Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6$$special$$inlined$let$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6$$special$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6;
@@ -89,7 +86,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/ColorPickerLayer;->j0(Z)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

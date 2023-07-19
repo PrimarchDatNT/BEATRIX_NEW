@@ -30,7 +30,6 @@
 
     move-object v6, p5
 
-    .line 1
     invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/common/internal/k;-><init>(Landroid/content/Context;Landroid/os/Looper;ILcom/google/android/gms/common/internal/f;Lcom/google/android/gms/common/api/i$b;Lcom/google/android/gms/common/api/i$c;)V
 
     return-void
@@ -66,22 +65,18 @@
     :cond_0
     const-string v0, "com.google.android.gms.appdatasearch.internal.ILightweightAppDataSearch"
 
-    .line 1
     invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcom/google/android/gms/internal/icing/c;
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v0, Lcom/google/android/gms/internal/icing/c;
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/icing/d;
 

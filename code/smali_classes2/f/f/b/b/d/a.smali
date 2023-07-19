@@ -54,7 +54,6 @@
 .method private constructor <init>(Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lf/f/b/b/d/e;-><init>(Landroid/os/Bundle;)V
 
     return-void
@@ -63,7 +62,6 @@
 .method synthetic constructor <init>(Landroid/os/Bundle;Lf/f/b/b/d/f;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lf/f/b/b/d/a;-><init>(Landroid/os/Bundle;)V
 
     return-void
@@ -74,7 +72,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0, p2}, Lf/f/b/b/d/a;->c(Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Landroid/net/Uri;)Lf/f/b/b/d/a;
 
     move-result-object p0
@@ -85,7 +82,6 @@
 .method public static c(Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Landroid/net/Uri;)Lf/f/b/b/d/a;
     .locals 1
 
-    .line 1
     new-instance v0, Lf/f/b/b/d/a$a;
 
     invoke-direct {v0, p0}, Lf/f/b/b/d/a$a;-><init>(Ljava/lang/String;)V
@@ -94,7 +90,6 @@
 
     invoke-direct {p0}, Lf/f/b/b/d/e$a;-><init>()V
 
-    .line 2
     invoke-virtual {p0, p1}, Lf/f/b/b/d/e$a;->i(Ljava/lang/String;)Lf/f/b/b/d/e$a;
 
     move-result-object p0
@@ -105,7 +100,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
@@ -116,22 +110,18 @@
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0, p3}, Lf/f/b/b/d/e$a;->k(Landroid/net/Uri;)Lf/f/b/b/d/e$a;
 
     move-result-object p0
 
-    .line 5
     invoke-virtual {p0}, Lf/f/b/b/d/e$a;->a()Lf/f/b/b/d/e;
 
     move-result-object p0
 
-    .line 6
     invoke-virtual {v0, p0}, Lf/f/b/b/d/a$a;->t(Lf/f/b/b/d/e;)Lf/f/b/b/d/a$a;
 
     move-result-object p0
 
-    .line 7
     invoke-virtual {p0}, Lf/f/b/b/d/e$a;->a()Lf/f/b/b/d/e;
 
     move-result-object p0

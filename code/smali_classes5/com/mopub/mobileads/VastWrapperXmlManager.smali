@@ -15,10 +15,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;-><init>(Lorg/w3c/dom/Node;)V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
     return-void
@@ -31,7 +29,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->mNode:Lorg/w3c/dom/Node;
 
     const-string v1, "VASTAdTagURI"
@@ -40,7 +37,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Lcom/mopub/mobileads/util/XmlUtils;->getNodeValue(Lorg/w3c/dom/Node;)Ljava/lang/String;
 
     move-result-object v0

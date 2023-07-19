@@ -25,7 +25,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment$a;->a:Lcom/commsource/store/doodle/DoodleChildStoreFragment;
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment$a;->a:Lcom/commsource/store/doodle/DoodleChildStoreFragment;
 
     invoke-static {v1}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->A(Lcom/commsource/store/doodle/DoodleChildStoreFragment;)Lcom/commsource/widget/h1/e;

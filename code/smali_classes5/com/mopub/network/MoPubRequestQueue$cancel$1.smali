@@ -45,7 +45,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequestQueue$cancel$1;->$request:Lcom/mopub/network/MoPubRequest;
 
     invoke-virtual {v0}, Lcom/mopub/network/MoPubRequest;->getVolleyRequest$mopub_sdk_networking_release()Lcom/mopub/network/MoPubRequest$VolleyRequest;

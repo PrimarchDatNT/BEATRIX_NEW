@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/MoPubInline;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubInline$1;->this$0:Lcom/mopub/mobileads/MoPubInline;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onClicked()V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->CLICKED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const/4 v1, 0x1
@@ -53,14 +51,12 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline$1;->this$0:Lcom/mopub/mobileads/MoPubInline;
 
     iget-object v0, v0, Lcom/mopub/mobileads/BaseAd;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;->onAdClicked()V
 
     :cond_0
@@ -70,14 +66,12 @@
 .method public onClose()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline$1;->this$0:Lcom/mopub/mobileads/MoPubInline;
 
     iget-object v0, v0, Lcom/mopub/mobileads/BaseAd;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$InlineInteractionListener;->onAdCollapsed()V
 
     :cond_0
@@ -87,14 +81,12 @@
 .method public onExpand()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline$1;->this$0:Lcom/mopub/mobileads/MoPubInline;
 
     iget-object v0, v0, Lcom/mopub/mobileads/BaseAd;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$InlineInteractionListener;->onAdExpanded()V
 
     :cond_0
@@ -104,7 +96,6 @@
 .method public onFailed()V
     .locals 5
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->SHOW_FAILED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const/4 v1, 0x3
@@ -119,7 +110,6 @@
 
     sget-object v2, Lcom/mopub/mobileads/MoPubErrorCode;->INLINE_SHOW_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 2
     invoke-virtual {v2}, Lcom/mopub/mobileads/MoPubErrorCode;->getIntCode()I
 
     move-result v3
@@ -136,17 +126,14 @@
 
     aput-object v2, v1, v3
 
-    .line 3
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline$1;->this$0:Lcom/mopub/mobileads/MoPubInline;
 
     iget-object v0, v0, Lcom/mopub/mobileads/BaseAd;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-interface {v0, v2}, Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;->onAdFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :cond_0
@@ -156,7 +143,6 @@
 .method public onFailedToLoad(Lcom/mopub/mobileads/MoPubErrorCode;)V
     .locals 4
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const/4 v0, 0x3
@@ -171,7 +157,6 @@
 
     sget-object v1, Lcom/mopub/mobileads/MoPubErrorCode;->INLINE_LOAD_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 2
     invoke-virtual {v1}, Lcom/mopub/mobileads/MoPubErrorCode;->getIntCode()I
 
     move-result v2
@@ -188,17 +173,14 @@
 
     aput-object v1, v0, v2
 
-    .line 3
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubInline$1;->this$0:Lcom/mopub/mobileads/MoPubInline;
 
     iget-object p1, p1, Lcom/mopub/mobileads/BaseAd;->mLoadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
     if-eqz p1, :cond_0
 
-    .line 5
     invoke-interface {p1, v1}, Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;->onAdLoadFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :cond_0
@@ -208,10 +190,8 @@
 .method public onLoaded(Landroid/view/View;)V
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/mobileads/AdViewController;->setShouldHonorServerDimensions(Landroid/view/View;)V
 
-    .line 2
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_SUCCESS:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const/4 v0, 0x1
@@ -226,17 +206,14 @@
 
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubInline$1;->this$0:Lcom/mopub/mobileads/MoPubInline;
 
     iget-object p1, p1, Lcom/mopub/mobileads/BaseAd;->mLoadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-interface {p1}, Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;->onAdLoaded()V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubInline$1;->this$0:Lcom/mopub/mobileads/MoPubInline;
 
@@ -246,7 +223,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubInline$1;->this$0:Lcom/mopub/mobileads/MoPubInline;
 
     invoke-static {p1}, Lcom/mopub/mobileads/MoPubInline;->access$000(Lcom/mopub/mobileads/MoPubInline;)Landroid/os/Handler;
@@ -274,7 +250,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const/4 v1, 0x3
@@ -305,14 +280,12 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline$1;->this$0:Lcom/mopub/mobileads/MoPubInline;
 
     iget-object v0, v0, Lcom/mopub/mobileads/BaseAd;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;->onAdFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :cond_0
@@ -322,7 +295,6 @@
 .method public onResize(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline$1;->this$0:Lcom/mopub/mobileads/MoPubInline;
 
     iget-object v0, v0, Lcom/mopub/mobileads/BaseAd;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
@@ -334,12 +306,10 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$InlineInteractionListener;->onAdResumeAutoRefresh()V
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-interface {v0}, Lcom/mopub/mobileads/AdLifecycleListener$InlineInteractionListener;->onAdPauseAutoRefresh()V
 

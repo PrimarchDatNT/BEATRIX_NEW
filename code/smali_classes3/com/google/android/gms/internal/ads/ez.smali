@@ -30,12 +30,10 @@
 .method public final run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ez;->a:Lcom/google/android/gms/internal/ads/bz;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ez;->b:Ljava/lang/Runnable;
 
-    .line 2
     sget-object v2, Lcom/google/android/gms/internal/ads/dq;->e:Lcom/google/android/gms/internal/ads/uq1;
 
     new-instance v3, Lcom/google/android/gms/internal/ads/dz;

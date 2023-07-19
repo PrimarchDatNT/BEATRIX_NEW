@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/Rect;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/gesture/NormalContainerViewHolder$1;->invoke(Landroid/graphics/Rect;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder$1;->this$0:Lcom/commsource/studio/gesture/NormalContainerViewHolder;
 
     invoke-static {v1}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->K(Lcom/commsource/studio/gesture/NormalContainerViewHolder;)Landroid/graphics/drawable/GradientDrawable;
@@ -92,7 +90,6 @@
 
     new-array v2, v2, [F
 
-    .line 3
     iget v3, p1, Landroid/graphics/Rect;->left:I
 
     int-to-float v4, v3
@@ -107,7 +104,6 @@
 
     aput v3, v2, v4
 
-    .line 4
     iget v3, p1, Landroid/graphics/Rect;->top:I
 
     int-to-float v4, v3
@@ -122,7 +118,6 @@
 
     aput v3, v2, v4
 
-    .line 5
     iget v3, p1, Landroid/graphics/Rect;->right:I
 
     int-to-float v4, v3
@@ -137,7 +132,6 @@
 
     aput v3, v2, v4
 
-    .line 6
     iget p1, p1, Landroid/graphics/Rect;->bottom:I
 
     int-to-float v3, p1
@@ -152,10 +146,8 @@
 
     aput p1, v2, v3
 
-    .line 7
     invoke-virtual {v1, v2}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadii([F)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

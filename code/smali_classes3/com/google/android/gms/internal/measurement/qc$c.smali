@@ -22,10 +22,8 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/t6;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/lc;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/qc$c;->b:Lcom/google/android/gms/measurement/internal/t6;
 
     return-void
@@ -36,7 +34,6 @@
 .method public final U0(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;J)V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/qc$c;->b:Lcom/google/android/gms/measurement/internal/t6;
 
     move-object v1, p1
@@ -55,7 +52,6 @@
 .method public final zza()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/qc$c;->b:Lcom/google/android/gms/measurement/internal/t6;
 
     invoke-static {v0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I

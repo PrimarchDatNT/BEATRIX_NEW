@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundViewModel$onSelectTexture$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel$onSelectTexture$1;->this$0:Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundViewModel;->P()Lcom/commsource/studio/ImageStudioViewModel;
@@ -81,7 +79,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundViewModel$onSelectTexture$1;->this$0:Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/background/BackgroundViewModel;->P()Lcom/commsource/studio/ImageStudioViewModel;
@@ -96,7 +93,6 @@
 
     move-result v2
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/function/background/BackgroundViewModel$onSelectTexture$1;->this$0:Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     invoke-virtual {v3}, Lcom/commsource/studio/function/background/BackgroundViewModel;->P()Lcom/commsource/studio/ImageStudioViewModel;
@@ -111,10 +107,8 @@
 
     move-result v3
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/StudioCanvasContainer;->z(II)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel$onSelectTexture$1;->this$0:Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundViewModel;->P()Lcom/commsource/studio/ImageStudioViewModel;
@@ -139,7 +133,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel$onSelectTexture$1;->this$0:Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundViewModel;->P()Lcom/commsource/studio/ImageStudioViewModel;
@@ -156,7 +149,6 @@
 
     invoke-static {v1, v2, v3, v2}, Lcom/commsource/studio/bean/a;->X(Lcom/commsource/studio/bean/a;Lcom/commsource/studio/bean/BaseLayerInfo;ILjava/lang/Object;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel$onSelectTexture$1;->this$0:Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundViewModel;->P()Lcom/commsource/studio/ImageStudioViewModel;
@@ -175,7 +167,6 @@
 
     invoke-static/range {v4 .. v9}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel$onSelectTexture$1;->this$0:Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundViewModel;->P()Lcom/commsource/studio/ImageStudioViewModel;
@@ -184,7 +175,6 @@
 
     invoke-static {v1, v2, v3, v2}, Lcom/commsource/studio/ImageStudioViewModel;->D1(Lcom/commsource/studio/ImageStudioViewModel;Ljava/util/Map;ILjava/lang/Object;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/ln;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 .method public final b(Landroid/view/View;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->isAttachedToWindow()Z
 
     move-result p1
@@ -35,7 +33,6 @@
 .method public final r()Landroid/view/ViewGroup$LayoutParams;
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/view/ViewGroup$LayoutParams;
 
     const/4 v1, -0x1

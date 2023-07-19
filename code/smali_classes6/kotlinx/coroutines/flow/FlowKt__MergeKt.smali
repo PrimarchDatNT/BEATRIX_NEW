@@ -23,7 +23,6 @@
 
     const v3, 0x7fffffff
 
-    .line 1
     invoke-static {v0, v1, v2, v3}, Lcotlinx/coroutines/internal/e0;->b(Ljava/lang/String;III)I
 
     move-result v0
@@ -79,12 +78,10 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$flatMapConcat$$inlined$map$1;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/flow/FlowKt__MergeKt$flatMapConcat$$inlined$map$1;-><init>(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/p;)V
 
-    .line 2
     invoke-static {v0}, Lcotlinx/coroutines/flow/f;->B0(Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/flow/d;
 
     move-result-object p0
@@ -133,7 +130,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$flatMapLatest$1;
 
     const/4 v1, 0x0
@@ -185,12 +181,10 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$flatMapMerge$$inlined$map$1;
 
     invoke-direct {v0, p0, p2}, Lcotlinx/coroutines/flow/FlowKt__MergeKt$flatMapMerge$$inlined$map$1;-><init>(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/p;)V
 
-    .line 2
     invoke-static {v0, p1}, Lcotlinx/coroutines/flow/f;->C0(Lcotlinx/coroutines/flow/d;I)Lcotlinx/coroutines/flow/d;
 
     move-result-object p0
@@ -205,7 +199,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     sget p1, Lcotlinx/coroutines/flow/FlowKt__MergeKt;->a:I
 
     :cond_0
@@ -242,7 +235,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$a;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__MergeKt$a;-><init>(Lcotlinx/coroutines/flow/d;)V
@@ -292,7 +284,6 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/flow/f;->B0(Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/flow/d;
 
     move-result-object p0
@@ -323,7 +314,6 @@
     :goto_1
     return-object p0
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -357,7 +347,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     sget p1, Lcotlinx/coroutines/flow/FlowKt__MergeKt;->a:I
 
     :cond_0
@@ -371,7 +360,6 @@
 .method public static final i()I
     .locals 1
 
-    .line 1
     sget v0, Lcotlinx/coroutines/flow/FlowKt__MergeKt;->a:I
 
     return v0
@@ -416,7 +404,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$mapLatest$1;
 
     const/4 v1, 0x0
@@ -456,7 +443,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v6, Lcotlinx/coroutines/flow/internal/ChannelLimitedFlowMerge;
 
     const/4 v2, 0x0
@@ -500,7 +486,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/k;->Y4([Ljava/lang/Object;)Ljava/lang/Iterable;
 
     move-result-object p0
@@ -555,7 +540,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v7, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;
 
     const/4 v3, 0x0

@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/c0;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/f$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/f$b;-><init>()V
 
     return-void
@@ -46,7 +44,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0

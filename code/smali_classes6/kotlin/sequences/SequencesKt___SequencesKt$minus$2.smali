@@ -45,7 +45,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$2;->a:Lcotlin/sequences/m;
 
     iput-object p2, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$2;->b:[Ljava/lang/Object;
@@ -70,14 +69,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$2;->b:[Ljava/lang/Object;
 
     invoke-static {v0}, Lcotlin/collections/k;->ky([Ljava/lang/Object;)Ljava/util/HashSet;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$2;->a:Lcotlin/sequences/m;
 
     new-instance v2, Lcotlin/sequences/SequencesKt___SequencesKt$minus$2$iterator$1;

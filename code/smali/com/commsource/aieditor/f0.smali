@@ -29,17 +29,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroidx/lifecycle/ViewModel;-><init>()V
 
-    .line 2
     new-instance v0, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v0}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/aieditor/f0;->a:Landroidx/lifecycle/MutableLiveData;
 
-    .line 3
     new-instance v0, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v0}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -56,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/aieditor/f0;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -71,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/aieditor/f0;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -96,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/f0;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -119,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/f0;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -134,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
@@ -145,7 +137,6 @@
 
     const-string v3, "agreement"
 
-    .line 2
     invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     if-eqz p1, :cond_0
@@ -160,15 +151,12 @@
     :goto_0
     const-string v2, "clk"
 
-    .line 3
     invoke-virtual {v1, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p1, "ai_editor_popup_clk"
 
-    .line 4
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -187,19 +175,16 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/aieditor/c0;->K(I)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/aieditor/f0;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v2, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     new-instance v0, Lcom/commsource/aieditor/f0$a;
 
     const-string v2, "Request-Demonstration-Image"
@@ -210,13 +195,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/aieditor/f0;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

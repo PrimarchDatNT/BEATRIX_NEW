@@ -27,10 +27,8 @@
 .method public constructor <init>(Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractNonblockingServerArgs;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/server/TServer;-><init>(Lorg/apache/thrift/server/TServer$AbstractServerArgs;)V
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -45,7 +43,6 @@
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer;->LOGGER:Lorg/slf4j/c;
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/atomic/AtomicLong;
 
     const-wide/16 v1, 0x0
@@ -54,7 +51,6 @@
 
     iput-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer;->readBufferBytesAllocated:Ljava/util/concurrent/atomic/AtomicLong;
 
-    .line 4
     iget-wide v0, p1, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractNonblockingServerArgs;->maxReadBufferBytes:J
 
     iput-wide v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer;->MAX_READ_BUFFER_BYTES:J
@@ -70,7 +66,6 @@
 .method public serve()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer;->startThreads()Z
 
     move-result v0
@@ -79,7 +74,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer;->startListening()Z
 
@@ -92,18 +86,14 @@
     :cond_1
     const/4 v0, 0x1
 
-    .line 3
     invoke-virtual {p0, v0}, Lorg/apache/thrift/server/TServer;->setServing(Z)V
 
-    .line 4
     invoke-virtual {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer;->waitForShutdown()V
 
     const/4 v0, 0x0
 
-    .line 5
     invoke-virtual {p0, v0}, Lorg/apache/thrift/server/TServer;->setServing(Z)V
 
-    .line 6
     invoke-virtual {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer;->stopListening()V
 
     return-void
@@ -112,7 +102,6 @@
 .method protected startListening()Z
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/server/TServer;->serverTransport_:Lorg/apache/thrift/transport/TServerTransport;
 
@@ -127,7 +116,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     iget-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer;->LOGGER:Lorg/slf4j/c;
 
     const-string v2, "Failed to start listening on server socket!"
@@ -145,7 +133,6 @@
 .method protected stopListening()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/TServer;->serverTransport_:Lorg/apache/thrift/transport/TServerTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TServerTransport;->close()V

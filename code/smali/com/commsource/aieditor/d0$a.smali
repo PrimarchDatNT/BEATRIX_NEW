@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/d0;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/d0$a;->J:Lcom/commsource/aieditor/d0;
 
     iput-object p3, p0, Lcom/commsource/aieditor/d0$a;->g:Ljava/lang/String;
@@ -49,7 +48,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/aieditor/d0$a;->J:Lcom/commsource/aieditor/d0;
 
     invoke-static {v2}, Lcom/commsource/aieditor/d0;->y(Lcom/commsource/aieditor/d0;)Landroid/graphics/Bitmap;
@@ -62,7 +60,6 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/aieditor/d0$a;->J:Lcom/commsource/aieditor/d0;
 
     iget-object v3, p0, Lcom/commsource/aieditor/d0$a;->g:Ljava/lang/String;
@@ -75,7 +72,6 @@
 
     invoke-static {v2, v3}, Lcom/commsource/aieditor/d0;->z(Lcom/commsource/aieditor/d0;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/commsource/aieditor/d0$a;->J:Lcom/commsource/aieditor/d0;
 
@@ -91,14 +87,12 @@
 
     invoke-virtual {v2, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     iget v2, p0, Lcom/commsource/aieditor/d0$a;->p:I
 
     const/4 v3, 0x6
 
     if-eq v2, v3, :cond_1
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v2
@@ -109,7 +103,6 @@
 
     if-nez v2, :cond_1
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/aieditor/d0$a;->J:Lcom/commsource/aieditor/d0;
 
     invoke-static {v2}, Lcom/commsource/aieditor/d0;->B(Lcom/commsource/aieditor/d0;)Landroidx/lifecycle/MutableLiveData;
@@ -118,12 +111,10 @@
 
     invoke-virtual {v2, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     iget v2, p0, Lcom/commsource/aieditor/d0$a;->p:I
 
@@ -143,14 +134,12 @@
 
     iget-object v3, p0, Lcom/commsource/aieditor/d0$a;->g:Ljava/lang/String;
 
-    .line 9
     invoke-static {v2, v3}, Lcom/commsource/aieditor/d0;->D(Lcom/commsource/aieditor/d0;Ljava/lang/String;)Z
 
     move-result v2
 
     if-nez v2, :cond_2
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/aieditor/d0$a;->J:Lcom/commsource/aieditor/d0;
 
     invoke-static {v2}, Lcom/commsource/aieditor/d0;->E(Lcom/commsource/aieditor/d0;)Landroidx/lifecycle/MutableLiveData;
@@ -159,16 +148,13 @@
 
     invoke-virtual {v2, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 11
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_2
     iget v0, p0, Lcom/commsource/aieditor/d0$a;->p:I
 
-    .line 13
     invoke-static {v0}, Lcom/commsource/aieditor/c0;->P(I)Ljava/lang/String;
 
     move-result-object v0
@@ -177,10 +163,8 @@
 
     const-string v3, "miniapp_feature"
 
-    .line 14
     invoke-static {v2, v3, v0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     iget-object v0, p0, Lcom/commsource/aieditor/d0$a;->J:Lcom/commsource/aieditor/d0;
 
     iget v2, p0, Lcom/commsource/aieditor/d0$a;->p:I
@@ -189,7 +173,6 @@
 
     invoke-virtual {v0, v2, v3}, Lcom/commsource/aieditor/d0;->U(ILjava/lang/String;)V
 
-    .line 16
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

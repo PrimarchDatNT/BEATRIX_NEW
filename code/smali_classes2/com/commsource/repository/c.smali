@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,19 +32,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/c;->a:Lcom/commsource/repository/d;
 
     if-eqz v1, :cond_1
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/repository/d;->b()Ljava/util/ArrayList;
 
     move-result-object v3
 
-    .line 3
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -63,7 +59,6 @@
 
     check-cast v4, Lcom/commsource/repository/e;
 
-    .line 4
     invoke-interface {v4}, Lcom/commsource/repository/e;->c()Z
 
     move-result v4
@@ -75,15 +70,12 @@
     :cond_0
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/repository/d;->d()V
 
     const/4 v1, 0x0
 
-    .line 6
     iput-object v1, p0, Lcom/commsource/repository/c;->a:Lcom/commsource/repository/d;
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -99,10 +91,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/commsource/repository/c;->a:Lcom/commsource/repository/d;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -117,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/c;->a:Lcom/commsource/repository/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -132,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/c;->a:Lcom/commsource/repository/d;
 
     if-eqz v1, :cond_0
@@ -142,10 +130,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/repository/c;->a:Lcom/commsource/repository/d;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -166,20 +152,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/repository/c;->a:Lcom/commsource/repository/d;
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/repository/c;->a()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/repository/c;->a:Lcom/commsource/repository/d;
 
     if-eqz p1, :cond_0
 
     invoke-virtual {p1}, Lcom/commsource/repository/d;->f()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -197,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/repository/c;->a:Lcom/commsource/repository/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

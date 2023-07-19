@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/f/b/c/j/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/f/b/c/j/d$a;->a:Lf/f/b/c/j/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onScrollChanged()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/j/d$a;->a:Lf/f/b/c/j/d;
 
     invoke-virtual {v0}, Lf/f/b/c/j/d;->e()V

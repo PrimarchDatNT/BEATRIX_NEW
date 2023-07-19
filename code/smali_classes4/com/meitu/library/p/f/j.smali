@@ -35,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/Locale;
 
     const-string v2, "th"
@@ -54,7 +53,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -67,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
@@ -76,7 +73,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
@@ -87,7 +83,6 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 3
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object p1
@@ -96,7 +91,6 @@
 
     goto :goto_0
 
-    .line 4
     :pswitch_0
     sget-object p1, Lcom/meitu/library/p/f/j;->h:Ljava/util/Locale;
 
@@ -104,7 +98,6 @@
 
     goto :goto_0
 
-    .line 5
     :pswitch_1
     sget-object p1, Ljava/util/Locale;->JAPANESE:Ljava/util/Locale;
 
@@ -112,7 +105,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_2
     sget-object p1, Ljava/util/Locale;->KOREAN:Ljava/util/Locale;
 
@@ -120,7 +112,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_3
     sget-object p1, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
@@ -128,7 +119,6 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_4
     sget-object p1, Ljava/util/Locale;->TRADITIONAL_CHINESE:Ljava/util/Locale;
 
@@ -136,13 +126,11 @@
 
     goto :goto_0
 
-    .line 9
     :pswitch_5
     sget-object p1, Ljava/util/Locale;->CHINA:Ljava/util/Locale;
 
     iput-object p1, v1, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
 
-    .line 10
     :goto_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -150,7 +138,6 @@
 
     invoke-virtual {p0, v1, v2}, Landroid/content/res/Resources;->updateConfiguration(Landroid/content/res/Configuration;Landroid/util/DisplayMetrics;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -175,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v1
@@ -184,14 +170,12 @@
 
     if-eqz v1, :cond_8
 
-    .line 2
     invoke-virtual {v1}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
     move-result-object v3
 
     if-eqz v3, :cond_8
 
-    .line 3
     invoke-virtual {v1}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
     move-result-object v3
@@ -200,7 +184,6 @@
 
     move-result-object v3
 
-    .line 4
     invoke-virtual {v1}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
     move-result-object v4
@@ -211,7 +194,6 @@
 
     const-string v4, "CN"
 
-    .line 5
     invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -233,7 +215,6 @@
     :cond_0
     const-string v4, "TW"
 
-    .line 6
     invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -262,7 +243,6 @@
     :cond_2
     const-string v4, "EN"
 
-    .line 7
     invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
@@ -280,7 +260,6 @@
     :cond_3
     const-string v4, "KR"
 
-    .line 8
     invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -300,7 +279,6 @@
     :cond_4
     const-string v4, "JP"
 
-    .line 9
     invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -320,7 +298,6 @@
     :cond_5
     const-string v1, "TH"
 
-    .line 10
     invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -341,7 +318,6 @@
     :goto_1
     const/4 v2, 0x4
 
-    .line 11
     :cond_8
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -356,7 +332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v1
@@ -365,14 +340,12 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v1
@@ -390,7 +363,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -403,17 +375,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v1}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
     move-result-object v1
@@ -424,7 +393,6 @@
 
     const-string v3, "zh"
 
-    .line 4
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -459,7 +427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v1
@@ -468,14 +435,12 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v1
@@ -493,7 +458,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -519,7 +483,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 1
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

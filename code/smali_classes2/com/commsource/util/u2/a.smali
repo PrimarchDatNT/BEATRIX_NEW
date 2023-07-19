@@ -24,7 +24,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/commsource/util/u2/a;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -41,7 +40,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -50,21 +48,16 @@
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/commsource/util/u2/a;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/util/u2/a;->b:Ljava/lang/String;
 
-    .line 5
     iput p2, p0, Lcom/commsource/util/u2/a;->a:I
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
@@ -82,7 +75,6 @@
 .method public b()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/commsource/util/u2/a;->c:J
 
     return-wide v0
@@ -91,7 +83,6 @@
 .method public c()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/util/u2/a;->a:I
 
     return v0
@@ -100,7 +91,6 @@
 .method public d(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/util/u2/a;->d:J
 
     return-void
@@ -109,7 +99,6 @@
 .method public e(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/util/u2/a;->c:J
 
     return-void
@@ -128,12 +117,10 @@
 
     const-string v4, "["
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
 
-    .line 2
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v7
@@ -142,7 +129,6 @@
 
     move-result-object v7
 
-    .line 3
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v8
@@ -169,7 +155,6 @@
 
     invoke-virtual {v8, v9}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
-    .line 4
     :try_start_0
     sget-object v8, Lcom/commsource/util/u2/a;->f:Ljava/lang/String;
 
@@ -197,24 +182,20 @@
 
     invoke-static {v8, v9}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/util/u2/a;->a()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v9
 
     invoke-virtual {v9, v7}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v9
 
-    .line 8
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -256,19 +237,16 @@
     :catchall_0
     move-exception v8
 
-    .line 9
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v9
 
     invoke-virtual {v9, v7}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v9
 
-    .line 11
     sget-object v11, Lcom/commsource/util/u2/a;->f:Ljava/lang/String;
 
     new-instance v12, Ljava/lang/StringBuilder;
@@ -307,6 +285,5 @@
 
     invoke-static {v11, v0}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     throw v8
 .end method

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1$1;->this$0:Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1;->a:Lcom/commsource/studio/function/SegmentFragment;
@@ -80,7 +78,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1$1;->this$0:Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1;
 
     iget-object v2, v2, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1;->a:Lcom/commsource/studio/function/SegmentFragment;
@@ -97,7 +94,6 @@
 
     move-result-object v2
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1$1;->this$0:Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1;
 
     iget-object v3, v3, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1;->a:Lcom/commsource/studio/function/SegmentFragment;
@@ -114,7 +110,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 5
     :cond_0
     iget-object v4, p0, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1$1;->this$0:Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1;
 
@@ -130,19 +125,16 @@
 
     xor-int/2addr v4, v5
 
-    .line 6
     invoke-virtual {v1, v2, v3, v4}, Lcom/commsource/studio/sticker/a;->A(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Z)Lcotlin/Pair;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Landroid/graphics/Bitmap;
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1$1;->this$0:Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1;
 
     iget-object v3, v3, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1;->a:Lcom/commsource/studio/function/SegmentFragment;
@@ -159,7 +151,6 @@
 
     invoke-virtual {v3, v1}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1$1;->this$0:Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1;->a:Lcom/commsource/studio/function/SegmentFragment;
@@ -170,7 +161,6 @@
 
     invoke-virtual {v1, v3, v2, v5}, Lcom/commsource/studio/function/BaseSubFragment;->V(Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;Z)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

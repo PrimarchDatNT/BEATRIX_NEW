@@ -63,7 +63,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/BeautyBlingView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -78,7 +77,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/BeautyBlingView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -91,25 +89,20 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, 0x0
 
-    .line 4
     iput p1, p0, Lcom/commsource/widget/BeautyBlingView;->g:I
 
-    .line 5
     iput p1, p0, Lcom/commsource/widget/BeautyBlingView;->p:I
 
-    .line 6
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->J:Landroid/graphics/Rect;
 
-    .line 7
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
@@ -122,7 +115,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->L:Landroid/graphics/Rect;
 
-    .line 8
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
@@ -135,7 +127,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->N:Landroid/graphics/Rect;
 
-    .line 9
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
@@ -150,10 +141,8 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 10
     iput p1, p0, Lcom/commsource/widget/BeautyBlingView;->Q:F
 
-    .line 11
     invoke-direct {p0}, Lcom/commsource/widget/BeautyBlingView;->f()V
 
     return-void
@@ -166,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/BeautyBlingView;->R:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -181,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/widget/BeautyBlingView;->S:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -196,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/BeautyBlingView;->o()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -211,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v1
@@ -230,25 +215,21 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getHeight()I
 
     move-result v2
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/widget/BeautyBlingView;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v3
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/widget/BeautyBlingView;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {v4}, Landroid/graphics/Bitmap;->getHeight()I
@@ -281,7 +262,6 @@
 
     div-float/2addr v5, v1
 
-    .line 6
     iput v5, p0, Lcom/commsource/widget/BeautyBlingView;->Q:F
 
     goto :goto_0
@@ -303,14 +283,12 @@
 
     div-float/2addr v5, v2
 
-    .line 7
     iput v5, p0, Lcom/commsource/widget/BeautyBlingView;->Q:F
 
     move v7, v1
 
     const/4 v2, 0x0
 
-    .line 8
     :goto_0
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->J:Landroid/graphics/Rect;
 
@@ -334,22 +312,18 @@
 
     sub-float/2addr v4, v2
 
-    .line 9
     invoke-static {v4}, Ljava/lang/Math;->round(F)I
 
     move-result v2
 
-    .line 10
     invoke-virtual {v1, v5, v6, v3, v2}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->K:Landroid/graphics/Rect;
 
     iget-object v2, p0, Lcom/commsource/widget/BeautyBlingView;->J:Landroid/graphics/Rect;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->L:Landroid/graphics/Rect;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
@@ -364,7 +338,6 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->P:Landroid/graphics/Rect;
 
     iget v2, p0, Lcom/commsource/widget/BeautyBlingView;->g:I
@@ -375,12 +348,10 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -395,14 +366,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/BeautyBlingView;->g:I
 
     iget v2, p0, Lcom/commsource/widget/BeautyBlingView;->T:I
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->c:Landroid/graphics/Paint;
 
     iget-object v2, p0, Lcom/commsource/widget/BeautyBlingView;->U:Landroid/graphics/LinearGradient;
@@ -411,7 +380,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->c:Landroid/graphics/Paint;
 
@@ -437,10 +405,8 @@
 
     invoke-direct/range {v2 .. v9}, Landroid/graphics/LinearGradient;-><init>(FFFFIILandroid/graphics/Shader$TileMode;)V
 
-    .line 4
     invoke-virtual {v1, v10}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 5
     :goto_0
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->a:Landroid/graphics/Bitmap;
 
@@ -456,7 +422,6 @@
 
     const/4 v7, 0x0
 
-    .line 6
     iget v1, p0, Lcom/commsource/widget/BeautyBlingView;->g:I
 
     int-to-float v8, v1
@@ -473,7 +438,6 @@
 
     invoke-virtual/range {v5 .. v10}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -486,7 +450,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -499,31 +462,26 @@
 
     iput v1, p0, Lcom/commsource/widget/BeautyBlingView;->T:I
 
-    .line 2
     iput v1, p0, Lcom/commsource/widget/BeautyBlingView;->g:I
 
-    .line 3
     new-instance v1, Landroid/graphics/Paint;
 
     invoke-direct {v1}, Landroid/graphics/Paint;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->d:Landroid/graphics/Paint;
 
-    .line 4
     new-instance v1, Landroid/graphics/Paint;
 
     invoke-direct {v1}, Landroid/graphics/Paint;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->f:Landroid/graphics/Paint;
 
-    .line 5
     new-instance v1, Landroid/graphics/Paint;
 
     invoke-direct {v1}, Landroid/graphics/Paint;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->c:Landroid/graphics/Paint;
 
-    .line 6
     new-instance v1, Landroid/graphics/LinearGradient;
 
     iget v2, p0, Lcom/commsource/widget/BeautyBlingView;->g:I
@@ -548,12 +506,10 @@
 
     iput-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->U:Landroid/graphics/LinearGradient;
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/widget/BeautyBlingView;->c:Landroid/graphics/Paint;
 
     invoke-virtual {v2, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->c:Landroid/graphics/Paint;
 
     new-instance v2, Landroid/graphics/PorterDuffXfermode;
@@ -566,10 +522,8 @@
 
     const/4 v1, 0x0
 
-    .line 9
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->setWillNotDraw(Z)V
 
-    .line 10
     new-instance v1, Landroid/view/View;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -582,10 +536,8 @@
 
     const/16 v2, 0x8
 
-    .line 11
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->R:Landroid/view/View;
 
     new-instance v2, Landroid/widget/FrameLayout$LayoutParams;
@@ -596,7 +548,6 @@
 
     invoke-virtual {p0, v1, v2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 13
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -621,7 +572,6 @@
 
     invoke-virtual {v1, v2}, Lcom/bumptech/glide/i;->i1(Lcom/bumptech/glide/request/j/p;)Lcom/bumptech/glide/request/j/p;
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -634,7 +584,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -645,7 +594,6 @@
 
     move-result p1
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/widget/BeautyBlingView;->k(F)V
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -654,15 +602,12 @@
 
     if-nez p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->V:Lcom/commsource/widget/BeautyBlingView$b;
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-interface {p1}, Lcom/commsource/widget/BeautyBlingView$b;->a()V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->R:Landroid/view/View;
 
@@ -672,10 +617,8 @@
 
     const/4 p1, 0x0
 
-    .line 6
     iput-boolean p1, p0, Lcom/commsource/widget/BeautyBlingView;->S:Z
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -693,14 +636,12 @@
 
     new-array v1, v1, [F
 
-    .line 1
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/commsource/widget/b;
 
     invoke-direct {v2, p0}, Lcom/commsource/widget/b;-><init>(Lcom/commsource/widget/BeautyBlingView;)V
@@ -709,21 +650,16 @@
 
     const-wide/16 v2, 0x535
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 4
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/widget/BeautyBlingView;->o()V
 
     const/4 v1, 0x1
 
-    .line 6
     iput-boolean v1, p0, Lcom/commsource/widget/BeautyBlingView;->S:Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -744,7 +680,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v1
@@ -759,7 +694,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
@@ -773,7 +707,6 @@
 
     move-result p1
 
-    .line 3
     iget v1, p0, Lcom/commsource/widget/BeautyBlingView;->T:I
 
     invoke-static {p1, v1}, Ljava/lang/Math;->min(II)I
@@ -782,12 +715,10 @@
 
     iput v1, p0, Lcom/commsource/widget/BeautyBlingView;->g:I
 
-    .line 4
     iput p1, p0, Lcom/commsource/widget/BeautyBlingView;->p:I
 
     int-to-float p1, p1
 
-    .line 5
     iget v1, p0, Lcom/commsource/widget/BeautyBlingView;->Q:F
 
     mul-float p1, p1, v1
@@ -796,14 +727,12 @@
 
     move-result p1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->K:Landroid/graphics/Rect;
 
     iget-object v2, p0, Lcom/commsource/widget/BeautyBlingView;->J:Landroid/graphics/Rect;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->K:Landroid/graphics/Rect;
 
     iget v2, v1, Landroid/graphics/Rect;->left:I
@@ -812,7 +741,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->left:I
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->L:Landroid/graphics/Rect;
 
     iget v2, p0, Lcom/commsource/widget/BeautyBlingView;->p:I
@@ -829,14 +757,12 @@
 
     invoke-virtual {v1, v2, v5, v3, v4}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->M:Landroid/graphics/Rect;
 
     iget-object v2, p0, Lcom/commsource/widget/BeautyBlingView;->J:Landroid/graphics/Rect;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->M:Landroid/graphics/Rect;
 
     iget v2, v1, Landroid/graphics/Rect;->left:I
@@ -845,7 +771,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->N:Landroid/graphics/Rect;
 
     iget v1, p0, Lcom/commsource/widget/BeautyBlingView;->p:I
@@ -856,14 +781,12 @@
 
     invoke-virtual {p1, v5, v5, v1, v2}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->O:Landroid/graphics/Rect;
 
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->M:Landroid/graphics/Rect;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->O:Landroid/graphics/Rect;
 
     iget v1, p1, Landroid/graphics/Rect;->right:I
@@ -884,7 +807,6 @@
 
     iput v1, p1, Landroid/graphics/Rect;->left:I
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->P:Landroid/graphics/Rect;
 
     iget v1, p0, Lcom/commsource/widget/BeautyBlingView;->g:I
@@ -895,15 +817,12 @@
 
     invoke-virtual {p1, v5, v5, v1, v2}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 15
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->invalidate()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 17
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -918,48 +837,39 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->R:Landroid/view/View;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->R:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    .line 3
     instance-of v2, v1, Lcom/bumptech/glide/integration/webp/decoder/k;
 
     if-eqz v2, :cond_1
 
-    .line 4
     check-cast v1, Lcom/bumptech/glide/integration/webp/decoder/k;
 
-    .line 5
     invoke-virtual {v1}, Lcom/bumptech/glide/integration/webp/decoder/k;->isRunning()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-virtual {v1}, Lcom/bumptech/glide/integration/webp/decoder/k;->stop()V
 
     :cond_0
     const/4 v2, 0x1
 
-    .line 7
     invoke-virtual {v1, v2}, Lcom/bumptech/glide/integration/webp/decoder/k;->s(I)V
 
-    .line 8
     invoke-virtual {v1}, Lcom/bumptech/glide/integration/webp/decoder/k;->start()V
 
-    .line 9
     :cond_1
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->R:Landroid/view/View;
 
@@ -967,14 +877,12 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->R:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 11
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v2
@@ -991,29 +899,24 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 12
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
     const-wide/16 v2, 0x85
 
-    .line 13
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setStartDelay(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
     const-wide/16 v2, 0x535
 
-    .line 14
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 15
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1046,10 +949,8 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 1
     invoke-virtual {p0, p1, p2, v1}, Lcom/commsource/widget/BeautyBlingView;->m(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1062,13 +963,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->a:Landroid/graphics/Bitmap;
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/widget/BeautyBlingView;->b:Landroid/graphics/Bitmap;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->f:Landroid/graphics/Paint;
 
     const/high16 p2, 0x437f0000    # 255.0f
@@ -1079,7 +977,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->d:Landroid/graphics/Paint;
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -1092,10 +989,8 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/widget/BeautyBlingView;->d()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1108,7 +1003,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/a;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/a;-><init>(Lcom/commsource/widget/BeautyBlingView;)V
@@ -1117,7 +1011,6 @@
 
     invoke-virtual {p0, v1, v2, v3}, Landroid/widget/FrameLayout;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1130,7 +1023,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->a:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_1
@@ -1141,7 +1033,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/widget/BeautyBlingView;->K:Landroid/graphics/Rect;
 
@@ -1151,7 +1042,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->a:Landroid/graphics/Bitmap;
 
     iget-object v2, p0, Lcom/commsource/widget/BeautyBlingView;->M:Landroid/graphics/Rect;
@@ -1162,7 +1052,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/BeautyBlingView;->b:Landroid/graphics/Bitmap;
 
     iget-object v2, p0, Lcom/commsource/widget/BeautyBlingView;->M:Landroid/graphics/Rect;
@@ -1173,7 +1062,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
-    .line 5
     iget v1, p0, Lcom/commsource/widget/BeautyBlingView;->p:I
 
     iget v2, p0, Lcom/commsource/widget/BeautyBlingView;->g:I
@@ -1186,7 +1074,6 @@
 
     int-to-float v6, v1
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getHeight()I
 
     move-result v1
@@ -1203,7 +1090,6 @@
 
     move-result v1
 
-    .line 7
     iget v2, p0, Lcom/commsource/widget/BeautyBlingView;->p:I
 
     iget v3, p0, Lcom/commsource/widget/BeautyBlingView;->g:I
@@ -1216,18 +1102,14 @@
 
     invoke-virtual {p1, v2, v3}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 8
     invoke-direct {p0, p1}, Lcom/commsource/widget/BeautyBlingView;->e(Landroid/graphics/Canvas;)V
 
-    .line 9
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1242,10 +1124,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->onSizeChanged(IIII)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->R:Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -1256,7 +1136,6 @@
 
     iput p2, p1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->R:Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -1265,10 +1144,8 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/widget/BeautyBlingView;->d()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1281,10 +1158,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/BeautyBlingView;->V:Lcom/commsource/widget/BeautyBlingView$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

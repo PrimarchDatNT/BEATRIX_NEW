@@ -34,7 +34,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$b;->c:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
 
     return-void
@@ -49,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/function/background/GradientMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$b;->e(Lcom/commsource/studio/function/background/GradientMaterial;)V
@@ -72,7 +70,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$b;->c:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->J()Lcom/commsource/widget/h1/e;
@@ -81,7 +78,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->v(Ljava/lang/Object;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

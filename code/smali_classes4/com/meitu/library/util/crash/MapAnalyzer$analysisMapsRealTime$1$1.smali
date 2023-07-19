@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     check-cast p2, Ljava/lang/Number;
@@ -88,7 +87,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/util/crash/MapAnalyzer$analysisMapsRealTime$1$1;->this$0:Lcom/meitu/library/util/crash/MapAnalyzer$analysisMapsRealTime$1;
 
     iget-object v2, v1, Lcom/meitu/library/util/crash/MapAnalyzer$analysisMapsRealTime$1;->$total:Lcotlin/jvm/internal/Ref$LongRef;
@@ -99,7 +97,6 @@
 
     iput-wide v3, v2, Lcotlin/jvm/internal/Ref$LongRef;->element:J
 
-    .line 3
     iget-object v1, v1, Lcom/meitu/library/util/crash/MapAnalyzer$analysisMapsRealTime$1;->$map:Landroid/util/ArrayMap;
 
     invoke-virtual {v1, p1}, Landroid/util/ArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -126,7 +123,6 @@
 
     add-long/2addr p2, v1
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/util/crash/MapAnalyzer$analysisMapsRealTime$1$1;->this$0:Lcom/meitu/library/util/crash/MapAnalyzer$analysisMapsRealTime$1;
 
     iget-object v1, v1, Lcom/meitu/library/util/crash/MapAnalyzer$analysisMapsRealTime$1;->$map:Landroid/util/ArrayMap;
@@ -137,7 +133,6 @@
 
     invoke-interface {v1, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

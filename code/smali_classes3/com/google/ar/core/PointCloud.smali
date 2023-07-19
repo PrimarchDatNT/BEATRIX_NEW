@@ -16,20 +16,16 @@
 .method protected constructor <init>()V
     .locals 3
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 6
     iput-wide v0, p0, Lcom/google/ar/core/PointCloud;->nativeHandle:J
 
     const/4 v2, 0x0
 
-    .line 7
     iput-object v2, p0, Lcom/google/ar/core/PointCloud;->session:Lcom/google/ar/core/Session;
 
-    .line 8
     iput-wide v0, p0, Lcom/google/ar/core/PointCloud;->nativeHandle:J
 
     return-void
@@ -38,18 +34,14 @@
 .method constructor <init>(Lcom/google/ar/core/Session;J)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/google/ar/core/PointCloud;->nativeHandle:J
 
-    .line 3
     iput-object p1, p0, Lcom/google/ar/core/PointCloud;->session:Lcom/google/ar/core/Session;
 
-    .line 4
     iput-wide p2, p0, Lcom/google/ar/core/PointCloud;->nativeHandle:J
 
     return-void
@@ -72,7 +64,6 @@
 .method public close()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/ar/core/PointCloud;->release()V
 
     return-void
@@ -86,7 +77,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/PointCloud;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -95,10 +85,8 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-direct {p0, v0, v1}, Lcom/google/ar/core/PointCloud;->nativeReleasePointCloud(J)V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -108,7 +96,6 @@
 .method public getIds()Ljava/nio/IntBuffer;
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/PointCloud;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -117,29 +104,24 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/google/ar/core/PointCloud;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v2, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
-    .line 3
     invoke-direct {p0, v2, v3, v0, v1}, Lcom/google/ar/core/PointCloud;->nativeGetIds(JJ)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 4
     invoke-static {v0}, Lcom/google/ar/core/Session;->directByteBufferOrDefault(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->asIntBuffer()Ljava/nio/IntBuffer;
 
     move-result-object v0
 
     return-object v0
 
-    .line 6
     :cond_0
     new-instance v0, Lcom/google/ar/core/exceptions/DeadlineExceededException;
 
@@ -151,7 +133,6 @@
 .method public getPoints()Ljava/nio/FloatBuffer;
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/PointCloud;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -160,29 +141,24 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/google/ar/core/PointCloud;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v2, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
-    .line 3
     invoke-direct {p0, v2, v3, v0, v1}, Lcom/google/ar/core/PointCloud;->nativeGetData(JJ)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 4
     invoke-static {v0}, Lcom/google/ar/core/Session;->directByteBufferOrDefault(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
 
     move-result-object v0
 
     return-object v0
 
-    .line 6
     :cond_0
     new-instance v0, Lcom/google/ar/core/exceptions/DeadlineExceededException;
 
@@ -194,7 +170,6 @@
 .method public getTimestamp()J
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/PointCloud;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -203,7 +178,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/google/ar/core/PointCloud;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v2, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -214,7 +188,6 @@
 
     return-wide v0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/ar/core/exceptions/DeadlineExceededException;
 
@@ -226,14 +199,12 @@
 .method public release()V
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/PointCloud;->nativeHandle:J
 
     invoke-direct {p0, v0, v1}, Lcom/google/ar/core/PointCloud;->nativeReleasePointCloud(J)V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/google/ar/core/PointCloud;->nativeHandle:J
 
     return-void

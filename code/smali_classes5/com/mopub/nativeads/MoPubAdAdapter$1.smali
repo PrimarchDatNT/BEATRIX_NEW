@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/MoPubAdAdapter;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubAdAdapter$1;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p2, p0, Lcom/mopub/nativeads/MoPubAdAdapter$1;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
     invoke-static {p2, p1}, Lcom/mopub/nativeads/MoPubAdAdapter;->access$000(Lcom/mopub/nativeads/MoPubAdAdapter;Ljava/util/List;)V

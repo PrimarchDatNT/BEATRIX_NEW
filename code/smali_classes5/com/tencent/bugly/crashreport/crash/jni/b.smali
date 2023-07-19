@@ -19,7 +19,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -44,7 +43,6 @@
 
     goto/16 :goto_b
 
-    .line 85
     :cond_0
     new-instance v2, Ljava/io/File;
 
@@ -52,7 +50,6 @@
 
     invoke-direct {v2, p1, v3}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 86
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result p1
@@ -67,7 +64,6 @@
 
     goto/16 :goto_a
 
-    .line 87
     :cond_1
     :try_start_0
     new-instance p1, Ljava/io/BufferedInputStream;
@@ -81,7 +77,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_4
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 88
     :try_start_1
     invoke-static {p1}, Lcom/tencent/bugly/crashreport/crash/jni/b;->a(Ljava/io/BufferedInputStream;)Ljava/lang/String;
 
@@ -93,7 +88,6 @@
 
     const-string v4, "NATIVE_RQD_REPORT"
 
-    .line 89
     invoke-virtual {v2, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -102,7 +96,6 @@
 
     goto :goto_4
 
-    .line 90
     :cond_2
     new-instance v2, Ljava/util/HashMap;
 
@@ -111,7 +104,6 @@
     :goto_0
     move-object v4, v1
 
-    .line 91
     :goto_1
     invoke-static {p1}, Lcom/tencent/bugly/crashreport/crash/jni/b;->a(Ljava/io/BufferedInputStream;)Ljava/lang/String;
 
@@ -125,7 +117,6 @@
 
     goto :goto_1
 
-    .line 92
     :cond_3
     invoke-interface {v2, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -140,13 +131,11 @@
 
     aput-object v4, p2, v0
 
-    .line 93
     invoke-static {p0, p2}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_3
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 94
     :try_start_2
     invoke-virtual {p1}, Ljava/io/BufferedInputStream;->close()V
     :try_end_2
@@ -157,13 +146,11 @@
     :catch_0
     move-exception p0
 
-    .line 95
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_2
     return-object v1
 
-    .line 96
     :cond_5
     :try_start_3
     invoke-static {p0, v2, p2}, Lcom/tencent/bugly/crashreport/crash/jni/b;->a(Landroid/content/Context;Ljava/util/Map;Lcom/tencent/bugly/crashreport/crash/jni/NativeExceptionHandler;)Lcom/tencent/bugly/crashreport/crash/CrashDetailBean;
@@ -173,7 +160,6 @@
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 97
     :try_start_4
     invoke-virtual {p1}, Ljava/io/BufferedInputStream;->close()V
     :try_end_4
@@ -184,7 +170,6 @@
     :catch_1
     move-exception p1
 
-    .line 98
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_3
@@ -199,13 +184,11 @@
 
     aput-object v2, p2, v0
 
-    .line 99
     invoke-static {p0, p2}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_3
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 
-    .line 100
     :try_start_6
     invoke-virtual {p1}, Ljava/io/BufferedInputStream;->close()V
     :try_end_6
@@ -216,7 +199,6 @@
     :catch_2
     move-exception p0
 
-    .line 101
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_5
@@ -237,7 +219,6 @@
 
     move-object p1, v1
 
-    .line 102
     :goto_6
     :try_start_7
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
@@ -246,7 +227,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 103
     :try_start_8
     invoke-virtual {p1}, Ljava/io/BufferedInputStream;->close()V
     :try_end_8
@@ -257,7 +237,6 @@
     :catch_5
     move-exception p0
 
-    .line 104
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_7
@@ -272,7 +251,6 @@
     :goto_8
     if-eqz v1, :cond_8
 
-    .line 105
     :try_start_9
     invoke-virtual {v1}, Ljava/io/BufferedInputStream;->close()V
     :try_end_9
@@ -283,10 +261,8 @@
     :catch_6
     move-exception p1
 
-    .line 106
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 107
     :cond_8
     :goto_9
     throw p0
@@ -301,7 +277,6 @@
 
     const-string p1, "get eup record file args error"
 
-    .line 108
     invoke-static {p1, p0}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v1
@@ -331,7 +306,6 @@
 
     return-object v1
 
-    .line 8
     :cond_0
     invoke-static/range {p0 .. p0}, Lcom/tencent/bugly/crashreport/common/info/a;->a(Landroid/content/Context;)Lcom/tencent/bugly/crashreport/common/info/a;
 
@@ -345,7 +319,6 @@
 
     const-string v2, "abnormal com info not created"
 
-    .line 9
     invoke-static {v2, v0}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v1
@@ -353,7 +326,6 @@
     :cond_1
     const-string v2, "intStateStr"
 
-    .line 10
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -362,7 +334,6 @@
 
     if-eqz v2, :cond_1c
 
-    .line 11
     invoke-virtual {v2}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v4
@@ -375,7 +346,6 @@
 
     goto/16 :goto_8
 
-    .line 12
     :cond_2
     invoke-static {v2}, Lcom/tencent/bugly/crashreport/crash/jni/b;->d(Ljava/lang/String;)Ljava/util/Map;
 
@@ -387,7 +357,6 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    .line 13
     invoke-interface/range {p1 .. p1}, Ljava/util/Map;->size()I
 
     move-result v0
@@ -408,7 +377,6 @@
     :try_start_0
     const-string v5, "sino"
 
-    .line 14
     invoke-interface {v2, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -419,7 +387,6 @@
 
     const-string v5, "sud"
 
-    .line 15
     invoke-interface {v2, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -430,7 +397,6 @@
 
     const-string v5, "soVersion"
 
-    .line 16
     invoke-interface {v0, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -439,7 +405,6 @@
 
     check-cast v19, Ljava/lang/String;
 
-    .line 17
     invoke-static/range {v19 .. v19}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -450,7 +415,6 @@
 
     new-array v2, v3, [Ljava/lang/Object;
 
-    .line 18
     invoke-static {v0, v2}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v1
@@ -458,7 +422,6 @@
     :cond_4
     const-string v5, "errorAddr"
 
-    .line 19
     invoke-interface {v0, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -482,7 +445,6 @@
     :try_start_1
     const-string v5, "codeMsg"
 
-    .line 20
     invoke-interface {v0, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -496,7 +458,6 @@
     :cond_6
     const-string v7, "tombPath"
 
-    .line 21
     invoke-interface {v0, v7}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
@@ -515,7 +476,6 @@
     :goto_1
     const-string v7, "signalName"
 
-    .line 22
     invoke-interface {v0, v7}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
@@ -529,12 +489,10 @@
     :cond_8
     const-string v8, "errnoMsg"
 
-    .line 23
     invoke-interface {v0, v8}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v8, "stack"
 
-    .line 24
     invoke-interface {v0, v8}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
@@ -548,7 +506,6 @@
     :cond_9
     const-string v9, "jstack"
 
-    .line 25
     invoke-interface {v0, v9}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
@@ -557,7 +514,6 @@
 
     if-eqz v9, :cond_a
 
-    .line 26
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -577,7 +533,6 @@
     :cond_a
     const-string v9, "sico"
 
-    .line 27
     invoke-interface {v2, v9}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
@@ -592,7 +547,6 @@
 
     if-eqz v9, :cond_b
 
-    .line 28
     :try_start_2
     invoke-virtual {v9}, Ljava/lang/Integer;->intValue()I
 
@@ -600,7 +554,6 @@
 
     if-lez v9, :cond_b
 
-    .line 29
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -631,7 +584,6 @@
     :goto_2
     const-string v7, "nativeLog"
 
-    .line 30
     invoke-interface {v0, v7}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
@@ -640,7 +592,6 @@
 
     if-eqz v7, :cond_c
 
-    .line 31
     invoke-virtual {v7}, Ljava/lang/String;->isEmpty()Z
 
     move-result v9
@@ -649,7 +600,6 @@
 
     const-string v9, "BuglyNativeLog.txt"
 
-    .line 32
     invoke-static {v1, v7, v9}, Lcom/tencent/bugly/proguard/z;->a(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)[B
 
     move-result-object v7
@@ -664,7 +614,6 @@
     :goto_3
     const-string v7, "sendingProcess"
 
-    .line 33
     invoke-interface {v0, v7}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
@@ -678,7 +627,6 @@
     :cond_d
     const-string v9, "spd"
 
-    .line 34
     invoke-interface {v2, v9}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
@@ -687,7 +635,6 @@
 
     if-eqz v9, :cond_e
 
-    .line 35
     new-instance v13, Ljava/lang/StringBuilder;
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
@@ -709,7 +656,6 @@
 
     const-string v7, "threadName"
 
-    .line 36
     invoke-interface {v0, v7}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
@@ -723,7 +669,6 @@
     :cond_f
     const-string v9, "et"
 
-    .line 37
     invoke-interface {v2, v9}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
@@ -732,7 +677,6 @@
 
     if-eqz v9, :cond_10
 
-    .line 38
     new-instance v13, Ljava/lang/StringBuilder;
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
@@ -754,7 +698,6 @@
 
     const-string v7, "processName"
 
-    .line 39
     invoke-interface {v0, v7}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
@@ -771,7 +714,6 @@
     :goto_4
     const-string v7, "ep"
 
-    .line 40
     invoke-interface {v2, v7}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
@@ -780,7 +722,6 @@
 
     if-eqz v7, :cond_12
 
-    .line 41
     new-instance v13, Ljava/lang/StringBuilder;
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
@@ -802,7 +743,6 @@
 
     const-string v6, "key-value"
 
-    .line 42
     invoke-interface {v0, v6}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v6
@@ -811,19 +751,16 @@
 
     if-eqz v6, :cond_15
 
-    .line 43
     new-instance v10, Ljava/util/HashMap;
 
     invoke-direct {v10}, Ljava/util/HashMap;-><init>()V
 
     const-string v11, "\n"
 
-    .line 44
     invoke-virtual {v6, v11}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v6
 
-    .line 45
     array-length v11, v6
 
     const/4 v13, 0x0
@@ -835,12 +772,10 @@
 
     const-string v4, "="
 
-    .line 46
     invoke-virtual {v1, v4}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v1
 
-    .line 47
     array-length v4, v1
 
     move-object/from16 v17, v6
@@ -849,7 +784,6 @@
 
     if-ne v4, v6, :cond_13
 
-    .line 48
     aget-object v4, v1, v3
 
     const/4 v6, 0x1
@@ -880,7 +814,6 @@
     :goto_6
     const-string v1, "ets"
 
-    .line 49
     invoke-interface {v2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -895,7 +828,6 @@
 
     const-string v1, "etms"
 
-    .line 50
     invoke-interface {v2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -912,19 +844,16 @@
 
     mul-long v10, v10, v17
 
-    .line 51
     div-long v1, v1, v17
 
     add-long/2addr v1, v10
 
-    .line 52
     invoke-static {v8}, Lcom/tencent/bugly/crashreport/crash/jni/b;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v13
 
     const-string v4, "sysLogPath"
 
-    .line 53
     invoke-interface {v0, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -935,7 +864,6 @@
 
     const-string v4, "jniLogPath"
 
-    .line 54
     invoke-interface {v0, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -956,7 +884,6 @@
 
     move-object v11, v5
 
-    .line 55
     invoke-interface/range {v6 .. v23}, Lcom/tencent/bugly/crashreport/crash/jni/NativeExceptionHandler;->packageCrashDatas(Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLjava/util/Map;ZZ)Lcom/tencent/bugly/crashreport/crash/CrashDetailBean;
 
     move-result-object v1
@@ -965,7 +892,6 @@
 
     const-string v2, "userId"
 
-    .line 56
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -982,16 +908,13 @@
 
     aput-object v2, v6, v3
 
-    .line 57
     invoke-static {v4, v6}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 58
     iput-object v2, v1, Lcom/tencent/bugly/crashreport/crash/CrashDetailBean;->m:Ljava/lang/String;
 
     :cond_16
     const-string v2, "sysLog"
 
-    .line 59
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -1000,13 +923,11 @@
 
     if-eqz v2, :cond_17
 
-    .line 60
     iput-object v2, v1, Lcom/tencent/bugly/crashreport/crash/CrashDetailBean;->w:Ljava/lang/String;
 
     :cond_17
     const-string v2, "appVersion"
 
-    .line 61
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -1023,16 +944,13 @@
 
     aput-object v2, v6, v3
 
-    .line 62
     invoke-static {v4, v6}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 63
     iput-object v2, v1, Lcom/tencent/bugly/crashreport/crash/CrashDetailBean;->f:Ljava/lang/String;
 
     :cond_18
     const-string v2, "isAppForeground"
 
-    .line 64
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -1049,12 +967,10 @@
 
     aput-object v2, v6, v3
 
-    .line 65
     invoke-static {v4, v6}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const-string v4, "true"
 
-    .line 66
     invoke-virtual {v2, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v2
@@ -1064,7 +980,6 @@
     :cond_19
     const-string v2, "launchTime"
 
-    .line 67
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -1081,12 +996,10 @@
 
     aput-object v0, v5, v3
 
-    .line 68
     invoke-static {v2, v5}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 69
     :try_start_3
     invoke-static {v0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
@@ -1102,7 +1015,6 @@
     :catch_0
     move-exception v0
 
-    .line 70
     :try_start_4
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
@@ -1110,19 +1022,16 @@
 
     if-nez v2, :cond_1a
 
-    .line 71
     invoke-virtual {v0}, Ljava/lang/NumberFormatException;->printStackTrace()V
 
     :cond_1a
     :goto_7
     const/4 v2, 0x0
 
-    .line 72
     iput-object v2, v1, Lcom/tencent/bugly/crashreport/crash/CrashDetailBean;->z:Ljava/util/Map;
 
     const/4 v2, 0x1
 
-    .line 73
     iput-boolean v2, v1, Lcom/tencent/bugly/crashreport/crash/CrashDetailBean;->k:Z
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
@@ -1137,10 +1046,8 @@
 
     const-string v2, "error format"
 
-    .line 74
     invoke-static {v2, v1}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 75
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     const/4 v1, 0x0
@@ -1153,7 +1060,6 @@
 
     const-string v2, "no intStateStr"
 
-    .line 76
     invoke-static {v2, v0}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v1
@@ -1173,7 +1079,6 @@
 
     return-object v0
 
-    .line 77
     :cond_0
     :try_start_0
     new-instance v1, Ljava/io/ByteArrayOutputStream;
@@ -1184,7 +1089,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 78
     :goto_0
     :try_start_1
     invoke-virtual {p0}, Ljava/io/BufferedInputStream;->read()I
@@ -1197,7 +1101,6 @@
 
     if-nez v2, :cond_1
 
-    .line 79
     new-instance p0, Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
@@ -1210,12 +1113,10 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 80
     invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->close()V
 
     return-object p0
 
-    .line 81
     :cond_1
     :try_start_2
     invoke-virtual {v1, v2}, Ljava/io/ByteArrayOutputStream;->write(I)V
@@ -1224,7 +1125,6 @@
 
     goto :goto_0
 
-    .line 82
     :cond_2
     invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->close()V
 
@@ -1240,7 +1140,6 @@
 
     move-object v1, v0
 
-    .line 83
     :goto_1
     :try_start_3
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
@@ -1249,7 +1148,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 84
     invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->close()V
 
     :cond_3
@@ -1279,27 +1177,23 @@
     :cond_0
     const-string v0, "\n"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_4
 
-    .line 2
     array-length v2, v1
 
     if-nez v2, :cond_1
 
     goto :goto_1
 
-    .line 3
     :cond_1
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 4
     array-length v2, v1
 
     const/4 v3, 0x0
@@ -1311,14 +1205,12 @@
 
     const-string v5, "java.lang.Thread.getStackTrace("
 
-    .line 5
     invoke-virtual {v4, v5}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v5
 
     if-nez v5, :cond_2
 
-    .line 6
     invoke-virtual {p0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -1328,7 +1220,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -1350,13 +1241,11 @@
 
     goto/16 :goto_5
 
-    .line 131
     :cond_0
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 132
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result v2
@@ -1376,7 +1265,6 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    .line 133
     invoke-virtual {v1}, Ljava/io/File;->length()J
 
     move-result-wide v3
@@ -1401,7 +1289,6 @@
 
     invoke-static {v3, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 134
     sget-object v2, Lcom/tencent/bugly/crashreport/crash/jni/b;->a:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -1410,12 +1297,10 @@
 
     const-string v3, "Add this record file to list for cleaning lastly."
 
-    .line 135
     invoke-static {v3, v2}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     if-nez p2, :cond_2
 
-    .line 136
     new-instance p2, Ljava/io/File;
 
     invoke-direct {p2, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -1426,13 +1311,11 @@
 
     goto/16 :goto_3
 
-    .line 137
     :cond_2
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 138
     :try_start_0
     new-instance v2, Ljava/io/BufferedReader;
 
@@ -1450,7 +1333,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 139
     :cond_3
     :goto_0
     :try_start_1
@@ -1460,7 +1342,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 140
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1479,7 +1360,6 @@
 
     move-result-object v1
 
-    .line 141
     invoke-virtual {v1, v0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v1
@@ -1490,7 +1370,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 142
     invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v0, "\n"
@@ -1500,7 +1379,6 @@
     :cond_4
     if-lez p1, :cond_3
 
-    .line 143
     invoke-virtual {p0}, Ljava/lang/StringBuilder;->length()I
 
     move-result v0
@@ -1509,7 +1387,6 @@
 
     if-eqz p3, :cond_5
 
-    .line 144
     invoke-virtual {p0}, Ljava/lang/StringBuilder;->length()I
 
     move-result p2
@@ -1518,7 +1395,6 @@
 
     goto :goto_1
 
-    .line 145
     :cond_5
     invoke-virtual {p0}, Ljava/lang/StringBuilder;->length()I
 
@@ -1530,7 +1406,6 @@
 
     goto :goto_0
 
-    .line 146
     :cond_6
     :goto_1
     invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -1539,7 +1414,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 147
     :try_start_2
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
     :try_end_2
@@ -1550,7 +1424,6 @@
     :catch_0
     move-exception p1
 
-    .line 148
     invoke-static {p1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     goto :goto_3
@@ -1565,12 +1438,10 @@
     :catchall_1
     move-exception p1
 
-    .line 149
     :goto_2
     :try_start_3
     invoke-static {p1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
-    .line 150
     new-instance p2, Ljava/lang/StringBuilder;
 
     const-string p3, "\n[error:"
@@ -1601,7 +1472,6 @@
 
     if-eqz v0, :cond_7
 
-    .line 151
     :try_start_4
     invoke-virtual {v0}, Ljava/io/BufferedReader;->close()V
     :try_end_4
@@ -1626,10 +1496,8 @@
     :catch_1
     move-exception p1
 
-    .line 152
     invoke-static {p1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
-    .line 153
     :cond_8
     :goto_4
     throw p0
@@ -1648,20 +1516,17 @@
 
     goto :goto_0
 
-    .line 109
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 110
     invoke-static {p0, p1}, Lcom/tencent/bugly/crashreport/crash/jni/b;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 111
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v2
@@ -1670,13 +1535,10 @@
 
     const-string v2, "Register infos:\n"
 
-    .line 112
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 113
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 114
     :cond_1
     invoke-static {p0, p1}, Lcom/tencent/bugly/crashreport/crash/jni/b;->c(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -1684,14 +1546,12 @@
 
     if-eqz p0, :cond_3
 
-    .line 115
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result p1
 
     if-nez p1, :cond_3
 
-    .line 116
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
     move-result p1
@@ -1700,19 +1560,15 @@
 
     const-string p1, "\n"
 
-    .line 117
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_2
     const-string p1, "System SO infos:\n"
 
-    .line 118
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 119
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 120
     :cond_3
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -1732,7 +1588,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 121
     sget-object v0, Lcom/tencent/bugly/crashreport/crash/jni/b;->a:Ljava/util/List;
 
     new-instance v1, Ljava/io/File;
@@ -1743,7 +1598,6 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 122
     sget-object v0, Lcom/tencent/bugly/crashreport/crash/jni/b;->a:Ljava/util/List;
 
     new-instance v1, Ljava/io/File;
@@ -1754,7 +1608,6 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 123
     sget-object v0, Lcom/tencent/bugly/crashreport/crash/jni/b;->a:Ljava/util/List;
 
     new-instance v1, Ljava/io/File;
@@ -1765,7 +1618,6 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 124
     sget-object v0, Lcom/tencent/bugly/crashreport/crash/jni/b;->a:Ljava/util/List;
 
     new-instance v1, Ljava/io/File;
@@ -1778,10 +1630,8 @@
 
     if-eqz p0, :cond_0
 
-    .line 125
     invoke-static {p1}, Lcom/tencent/bugly/crashreport/crash/jni/b;->c(Ljava/lang/String;)V
 
-    .line 126
     :cond_0
     sget-object p0, Lcom/tencent/bugly/crashreport/crash/jni/b;->a:Ljava/util/List;
 
@@ -1793,7 +1643,6 @@
 
     if-lez p0, :cond_2
 
-    .line 127
     sget-object p0, Lcom/tencent/bugly/crashreport/crash/jni/b;->a:Ljava/util/List;
 
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1814,7 +1663,6 @@
 
     check-cast p1, Ljava/io/File;
 
-    .line 128
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -1827,7 +1675,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 129
     invoke-virtual {p1}, Ljava/io/File;->delete()Z
 
     const/4 v0, 0x1
@@ -1836,7 +1683,6 @@
 
     const/4 v1, 0x0
 
-    .line 130
     invoke-virtual {p1}, Ljava/io/File;->getAbsoluteFile()Ljava/io/File;
 
     move-result-object p1
@@ -1862,7 +1708,6 @@
 
     return-object v0
 
-    .line 25
     :cond_0
     new-instance v1, Ljava/io/File;
 
@@ -1870,14 +1715,12 @@
 
     invoke-direct {v1, p0, v2}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 26
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result p0
 
     if-eqz p0, :cond_1
 
-    .line 27
     invoke-virtual {v1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object p0
@@ -1893,7 +1736,6 @@
 
     const-string v0, "reg_record.txt"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/io/BufferedReader;
 
     move-result-object p0
@@ -1904,21 +1746,18 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     invoke-virtual {p0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_7
 
-    .line 4
     invoke-virtual {v2, p1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p1
@@ -1938,7 +1777,6 @@
 
     const/4 v5, 0x0
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -1950,7 +1788,6 @@
 
     if-eqz v6, :cond_5
 
-    .line 6
     :try_start_1
     rem-int/lit8 v8, v4, 0x4
 
@@ -1958,18 +1795,15 @@
 
     if-lez v4, :cond_2
 
-    .line 7
     invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_2
     const-string v5, "  "
 
-    .line 8
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
-    .line 9
     :cond_3
     invoke-virtual {v6}, Ljava/lang/String;->length()I
 
@@ -1984,31 +1818,26 @@
     :cond_4
     sub-int v5, v2, v5
 
-    .line 10
     invoke-virtual {p1, v3, v5}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     :goto_1
     invoke-virtual {v6}, Ljava/lang/String;->length()I
 
     move-result v5
 
-    .line 12
     invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v4, v4, 0x1
 
     goto :goto_0
 
-    .line 13
     :cond_5
     invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -2017,7 +1846,6 @@
 
     if-eqz p0, :cond_6
 
-    .line 15
     :try_start_2
     invoke-virtual {p0}, Ljava/io/BufferedReader;->close()V
     :try_end_2
@@ -2028,7 +1856,6 @@
     :catch_0
     move-exception p0
 
-    .line 16
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     :cond_6
@@ -2039,7 +1866,6 @@
     :goto_3
     if-eqz p0, :cond_8
 
-    .line 17
     :try_start_3
     invoke-virtual {p0}, Ljava/io/BufferedReader;->close()V
     :try_end_3
@@ -2050,7 +1876,6 @@
     :catch_1
     move-exception p0
 
-    .line 18
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     :cond_8
@@ -2060,7 +1885,6 @@
     :catchall_0
     move-exception p1
 
-    .line 19
     :try_start_4
     invoke-static {p1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
     :try_end_4
@@ -2068,7 +1892,6 @@
 
     if-eqz p0, :cond_9
 
-    .line 20
     :try_start_5
     invoke-virtual {p0}, Ljava/io/BufferedReader;->close()V
     :try_end_5
@@ -2079,7 +1902,6 @@
     :catch_2
     move-exception p0
 
-    .line 21
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     :cond_9
@@ -2091,7 +1913,6 @@
 
     if-eqz p0, :cond_a
 
-    .line 22
     :try_start_6
     invoke-virtual {p0}, Ljava/io/BufferedReader;->close()V
     :try_end_6
@@ -2102,10 +1923,8 @@
     :catch_3
     move-exception p0
 
-    .line 23
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
-    .line 24
     :cond_a
     :goto_6
     throw p1
@@ -2116,7 +1935,6 @@
 
     const-string v0, "map_record.txt"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/io/BufferedReader;
 
     move-result-object p0
@@ -2127,21 +1945,18 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     invoke-virtual {p0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_4
 
-    .line 4
     invoke-virtual {v2, p1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p1
@@ -2150,7 +1965,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_1
     :goto_0
     invoke-virtual {p0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -2161,20 +1975,16 @@
 
     const-string v2, "  "
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string p1, "\n"
 
-    .line 8
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -2184,7 +1994,6 @@
 
     if-eqz p0, :cond_3
 
-    .line 10
     :try_start_1
     invoke-virtual {p0}, Ljava/io/BufferedReader;->close()V
     :try_end_1
@@ -2195,7 +2004,6 @@
     :catch_0
     move-exception p0
 
-    .line 11
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     :cond_3
@@ -2206,7 +2014,6 @@
     :goto_2
     if-eqz p0, :cond_5
 
-    .line 12
     :try_start_2
     invoke-virtual {p0}, Ljava/io/BufferedReader;->close()V
     :try_end_2
@@ -2217,7 +2024,6 @@
     :catch_1
     move-exception p0
 
-    .line 13
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     :cond_5
@@ -2227,7 +2033,6 @@
     :catchall_0
     move-exception p1
 
-    .line 14
     :try_start_3
     invoke-static {p1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
     :try_end_3
@@ -2235,7 +2040,6 @@
 
     if-eqz p0, :cond_6
 
-    .line 15
     :try_start_4
     invoke-virtual {p0}, Ljava/io/BufferedReader;->close()V
     :try_end_4
@@ -2246,7 +2050,6 @@
     :catch_2
     move-exception p0
 
-    .line 16
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     :cond_6
@@ -2258,7 +2061,6 @@
 
     if-eqz p0, :cond_7
 
-    .line 17
     :try_start_5
     invoke-virtual {p0}, Ljava/io/BufferedReader;->close()V
     :try_end_5
@@ -2269,10 +2071,8 @@
     :catch_3
     move-exception p0
 
-    .line 18
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
-    .line 19
     :cond_7
     :goto_5
     throw p1
@@ -2285,14 +2085,12 @@
 
     return-void
 
-    .line 20
     :cond_0
     :try_start_0
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 21
     invoke-virtual {v0}, Ljava/io/File;->canRead()Z
 
     move-result p0
@@ -2305,14 +2103,12 @@
 
     if-eqz p0, :cond_2
 
-    .line 22
     invoke-virtual {v0}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object p0
 
     if-eqz p0, :cond_2
 
-    .line 23
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -2324,7 +2120,6 @@
 
     aget-object v3, p0, v2
 
-    .line 24
     invoke-virtual {v3}, Ljava/io/File;->canRead()Z
 
     move-result v4
@@ -2347,7 +2142,6 @@
 
     if-nez v8, :cond_1
 
-    .line 25
     invoke-virtual {v3}, Ljava/io/File;->delete()Z
 
     const-string v4, "Delete empty record file %s"
@@ -2356,7 +2150,6 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    .line 26
     invoke-virtual {v3}, Ljava/io/File;->getAbsoluteFile()Ljava/io/File;
 
     move-result-object v3
@@ -2378,7 +2171,6 @@
     :catchall_0
     move-exception p0
 
-    .line 27
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     return-void
@@ -2409,7 +2201,6 @@
 
     const/4 v2, 0x1
 
-    .line 1
     :try_start_0
     new-instance v3, Ljava/util/HashMap;
 
@@ -2417,12 +2208,10 @@
 
     const-string v4, ","
 
-    .line 2
     invoke-virtual {p0, v4}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v4
 
-    .line 3
     array-length v5, v4
 
     const/4 v6, 0x0
@@ -2434,12 +2223,10 @@
 
     const-string v8, ":"
 
-    .line 4
     invoke-virtual {v7, v8}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v8
 
-    .line 5
     array-length v9, v8
 
     const/4 v10, 0x2
@@ -2452,12 +2239,10 @@
 
     aput-object v7, v4, v1
 
-    .line 6
     invoke-static {v3, v4}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v0
 
-    .line 7
     :cond_1
     aget-object v7, v8, v2
 
@@ -2465,7 +2250,6 @@
 
     move-result v7
 
-    .line 8
     aget-object v8, v8, v1
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2492,10 +2276,8 @@
 
     const-string p0, "error format intStateStr %s"
 
-    .line 9
     invoke-static {p0, v2}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 10
     invoke-virtual {v3}, Ljava/lang/Exception;->printStackTrace()V
 
     return-object v0

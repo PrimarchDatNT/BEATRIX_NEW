@@ -21,13 +21,10 @@
 .method synthetic constructor <init>(Lcom/google/android/datatransport/cct/a/zzt$zzc;Lcom/google/android/datatransport/cct/a/zzt$zzb;Lcom/google/android/datatransport/cct/a/i$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/cct/a/zzt;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/i;->a:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/datatransport/cct/a/i;->b:Lcom/google/android/datatransport/cct/a/zzt$zzb;
 
     return-void
@@ -40,7 +37,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/cct/a/i;->b:Lcom/google/android/datatransport/cct/a/zzt$zzb;
 
     return-object v0
@@ -51,7 +47,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/cct/a/i;->a:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     return-object v0
@@ -66,7 +61,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/datatransport/cct/a/zzt;
 
@@ -74,7 +68,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/datatransport/cct/a/i;->a:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     if-nez v1, :cond_1
@@ -83,23 +76,19 @@
 
     check-cast v1, Lcom/google/android/datatransport/cct/a/i;
 
-    .line 3
     iget-object v1, v1, Lcom/google/android/datatransport/cct/a/i;->a:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     if-nez v1, :cond_3
 
     goto :goto_0
 
-    .line 4
     :cond_1
     move-object v3, p1
 
     check-cast v3, Lcom/google/android/datatransport/cct/a/i;
 
-    .line 5
     iget-object v3, v3, Lcom/google/android/datatransport/cct/a/i;->a:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
-    .line 6
     invoke-virtual {v1, v3}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -111,24 +100,19 @@
 
     if-nez v1, :cond_2
 
-    .line 7
     check-cast p1, Lcom/google/android/datatransport/cct/a/i;
 
-    .line 8
     iget-object p1, p1, Lcom/google/android/datatransport/cct/a/i;->b:Lcom/google/android/datatransport/cct/a/zzt$zzb;
 
     if-nez p1, :cond_3
 
     goto :goto_1
 
-    .line 9
     :cond_2
     check-cast p1, Lcom/google/android/datatransport/cct/a/i;
 
-    .line 10
     iget-object p1, p1, Lcom/google/android/datatransport/cct/a/i;->b:Lcom/google/android/datatransport/cct/a/zzt$zzb;
 
-    .line 11
     invoke-virtual {v1, p1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -150,7 +134,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/cct/a/i;->a:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     const/4 v1, 0x0
@@ -173,7 +156,6 @@
 
     mul-int v0, v0, v2
 
-    .line 2
     iget-object v2, p0, Lcom/google/android/datatransport/cct/a/i;->b:Lcom/google/android/datatransport/cct/a/zzt$zzb;
 
     if-nez v2, :cond_1
@@ -194,7 +176,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

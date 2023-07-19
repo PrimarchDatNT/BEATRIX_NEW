@@ -32,12 +32,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/dialog/i0;-><init>()V
 
     const/4 v0, 0x5
 
-    .line 2
     iput v0, p0, Lcom/commsource/camera/i0;->Y:I
 
     return-void
@@ -50,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -69,10 +66,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/commsource/camera/i0;->Z:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -93,10 +88,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/i0;->Y:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -109,10 +102,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/i0;->X:Lcom/commsource/camera/i0$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -125,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result p1
@@ -134,7 +124,6 @@
 
     goto :goto_0
 
-    .line 2
     :pswitch_0
     iget-object p1, p0, Lcom/commsource/camera/i0;->W:Lcom/commsource/beautyplus/f0/c7;
 
@@ -150,12 +139,10 @@
 
     iput-object p1, p0, Lcom/commsource/camera/i0;->Z:Ljava/lang/String;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/i0;->X:Lcom/commsource/camera/i0$a;
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/i0;->W:Lcom/commsource/beautyplus/f0/c7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/c7;->a:Lcom/commsource/widget/ArEditTextView;
@@ -172,16 +159,13 @@
 
     goto :goto_0
 
-    .line 5
     :pswitch_1
     iget-object p1, p0, Lcom/commsource/camera/i0;->X:Lcom/commsource/camera/i0$a;
 
     if-eqz p1, :cond_0
 
-    .line 6
     invoke-interface {p1}, Lcom/commsource/camera/i0$a;->b()V
 
-    .line 7
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,17 +190,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/widget/dialog/i0;->onCreate(Landroid/os/Bundle;)V
 
     const/4 p1, 0x0
 
     sget v1, Lcom/res/provider/ResSTYLE;->ar_text_style:I
 
-    .line 2
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/dialog/i0;->setStyle(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -247,7 +228,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p1, v0, p2, v1}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -256,7 +236,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/i0;->W:Lcom/commsource/beautyplus/f0/c7;
 
-    .line 2
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object p1
@@ -273,10 +252,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/widget/dialog/i0;->onDismiss(Landroid/content/DialogInterface;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -289,17 +266,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/widget/dialog/i0;->onStart()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->getDialog()Landroid/app/Dialog;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v1
@@ -308,7 +282,6 @@
 
     invoke-virtual {v1, v2, v2}, Landroid/view/Window;->setLayout(II)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -330,10 +303,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->getDialog()Landroid/app/Dialog;
 
     move-result-object p1
@@ -346,7 +317,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/Window;->setSoftInputMode(I)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->getDialog()Landroid/app/Dialog;
 
     move-result-object p1
@@ -355,7 +325,6 @@
 
     invoke-virtual {p1, p2}, Landroid/app/Dialog;->requestWindowFeature(I)Z
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/i0;->W:Lcom/commsource/beautyplus/f0/c7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c7;->a:Lcom/commsource/widget/ArEditTextView;
@@ -364,7 +333,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/i0;->W:Lcom/commsource/beautyplus/f0/c7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c7;->a:Lcom/commsource/widget/ArEditTextView;
@@ -387,14 +355,12 @@
     :goto_0
     invoke-virtual {p1, v1}, Landroid/widget/EditText;->setSelection(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/i0;->W:Lcom/commsource/beautyplus/f0/c7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c7;->a:Lcom/commsource/widget/ArEditTextView;
 
     invoke-virtual {p1, v2}, Landroid/widget/EditText;->setSelection(I)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/i0;->W:Lcom/commsource/beautyplus/f0/c7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c7;->a:Lcom/commsource/widget/ArEditTextView;
@@ -411,21 +377,18 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/EditText;->setFilters([Landroid/text/InputFilter;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/i0;->W:Lcom/commsource/beautyplus/f0/c7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c7;->b:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {p1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/i0;->W:Lcom/commsource/beautyplus/f0/c7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c7;->c:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {p1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/camera/i0;->W:Lcom/commsource/beautyplus/f0/c7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c7;->a:Lcom/commsource/widget/ArEditTextView;
@@ -436,7 +399,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/ArEditTextView;->setOnCancelDialogImp(Lcom/commsource/widget/ArEditTextView$a;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

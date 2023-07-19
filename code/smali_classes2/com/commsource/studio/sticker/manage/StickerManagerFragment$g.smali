@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$g;->c:Lcom/commsource/studio/sticker/manage/StickerManagerFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$g;->e(Ljava/lang/Boolean;)V
@@ -77,15 +75,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$g;->c:Lcom/commsource/studio/sticker/manage/StickerManagerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->x(Lcom/commsource/studio/sticker/manage/StickerManagerFragment;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

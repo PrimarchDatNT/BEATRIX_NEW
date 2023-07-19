@@ -57,7 +57,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/ae;
 
     const-class v1, Lcom/google/ar/core/Trackable;
@@ -72,7 +71,6 @@
 
     sput-object v0, Lcom/google/ar/core/Session$b;->c:Lcom/google/ar/core/Session$b;
 
-    .line 2
     new-instance v1, Lcom/google/ar/core/ad;
 
     const-string v2, "UNKNOWN_TO_JAVA"
@@ -87,7 +85,6 @@
 
     sput-object v1, Lcom/google/ar/core/Session$b;->a:Lcom/google/ar/core/Session$b;
 
-    .line 3
     new-instance v2, Lcom/google/ar/core/ag;
 
     const-class v5, Lcom/google/ar/core/Plane;
@@ -102,7 +99,6 @@
 
     sput-object v2, Lcom/google/ar/core/Session$b;->d:Lcom/google/ar/core/Session$b;
 
-    .line 4
     new-instance v5, Lcom/google/ar/core/af;
 
     const-class v6, Lcom/google/ar/core/Point;
@@ -117,7 +113,6 @@
 
     sput-object v5, Lcom/google/ar/core/Session$b;->e:Lcom/google/ar/core/Session$b;
 
-    .line 5
     new-instance v6, Lcom/google/ar/core/ai;
 
     const-class v8, Lcom/google/ar/core/AugmentedImage;
@@ -132,7 +127,6 @@
 
     sput-object v6, Lcom/google/ar/core/Session$b;->f:Lcom/google/ar/core/Session$b;
 
-    .line 6
     new-instance v8, Lcom/google/ar/core/ah;
 
     const-class v10, Lcom/google/ar/core/AugmentedFace;
@@ -147,7 +141,6 @@
 
     sput-object v8, Lcom/google/ar/core/Session$b;->g:Lcom/google/ar/core/Session$b;
 
-    .line 7
     new-instance v10, Lcom/google/ar/core/aj;
 
     const-class v12, Lcom/google/ar/core/AugmentedObject;
@@ -182,7 +175,6 @@
 
     aput-object v10, v12, v15
 
-    .line 8
     sput-object v12, Lcom/google/ar/core/Session$b;->j:[Lcom/google/ar/core/Session$b;
 
     return-void
@@ -200,13 +192,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/ar/core/Session$b;->b:I
 
-    .line 3
     iput-object p4, p0, Lcom/google/ar/core/Session$b;->i:Ljava/lang/Class;
 
     return-void
@@ -215,7 +204,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;IILjava/lang/Class;B)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/ar/core/Session$b;-><init>(Ljava/lang/String;IILjava/lang/Class;)V
 
     return-void
@@ -234,7 +222,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/ar/core/Session$b;->values()[Lcom/google/ar/core/Session$b;
 
     move-result-object v0
@@ -248,7 +235,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget-object v4, v3, Lcom/google/ar/core/Session$b;->i:Ljava/lang/Class;
 
     if-eqz v4, :cond_0
@@ -266,7 +252,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p0, Lcom/google/ar/core/Session$b;->a:Lcom/google/ar/core/Session$b;
 
@@ -276,7 +261,6 @@
 .method public static values()[Lcom/google/ar/core/Session$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/ar/core/Session$b;->j:[Lcom/google/ar/core/Session$b;
 
     invoke-virtual {v0}, [Lcom/google/ar/core/Session$b;->clone()Ljava/lang/Object;

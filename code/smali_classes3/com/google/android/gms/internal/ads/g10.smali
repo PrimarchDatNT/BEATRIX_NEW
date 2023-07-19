@@ -9,7 +9,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 

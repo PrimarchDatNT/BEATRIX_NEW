@@ -12,7 +12,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lio/grpc/n1$c;->b(Lio/grpc/m1;Lio/grpc/l1;)Lio/grpc/n1$c;
 
     move-result-object p0
@@ -60,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lio/grpc/n1$c;->b(Lio/grpc/m1;Lio/grpc/l1;)Lio/grpc/n1$c;
 
     move-result-object p0
@@ -90,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lio/grpc/n1;->m(Lio/grpc/o1;Lio/grpc/MethodDescriptor;)Lio/grpc/o1;
 
     move-result-object p0

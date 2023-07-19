@@ -30,7 +30,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     new-array v0, p0, [I
 
     const/4 v1, 0x0

@@ -48,7 +48,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/h;->a(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/t0;
 
     move-result-object p0
@@ -59,7 +58,6 @@
 .method public static synthetic b(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/t0;
     .locals 0
 
-    .line 1
     invoke-static/range {p0 .. p5}, Lcotlinx/coroutines/h;->b(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/t0;
 
     move-result-object p0
@@ -107,7 +105,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/h;->c(Lcotlinx/coroutines/CoroutineDispatcher;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -135,7 +132,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/h;->c(Lcotlinx/coroutines/CoroutineDispatcher;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -184,7 +180,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/h;->e(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/c2;
 
     move-result-object p0
@@ -195,7 +190,6 @@
 .method public static synthetic f(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/c2;
     .locals 0
 
-    .line 1
     invoke-static/range {p0 .. p5}, Lcotlinx/coroutines/h;->f(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/c2;
 
     move-result-object p0
@@ -236,7 +230,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/g;->a(Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Ljava/lang/Object;
 
     move-result-object p0
@@ -252,7 +245,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/g;->b(Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -297,7 +289,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/h;->g(Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0

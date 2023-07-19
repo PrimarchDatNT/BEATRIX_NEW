@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/onboarding/VideoTransformView$startPlayVideoWithAnim$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -75,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$startPlayVideoWithAnim$1;->this$0:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->e(Lcom/commsource/beautyplus/onboarding/VideoTransformView;)Lcom/commsource/beautyplus/f0/q1;
@@ -96,7 +94,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v5, Landroidx/dynamicanimation/animation/SpringAnimation;
 
     sget-object v6, Landroidx/dynamicanimation/animation/DynamicAnimation;->TRANSLATION_X:Landroidx/dynamicanimation/animation/DynamicAnimation$ViewProperty;
@@ -109,7 +106,6 @@
 
     invoke-direct {v5, v1, v6, v7}, Landroidx/dynamicanimation/animation/SpringAnimation;-><init>(Ljava/lang/Object;Landroidx/dynamicanimation/animation/FloatPropertyCompat;F)V
 
-    .line 4
     invoke-virtual {v5}, Landroidx/dynamicanimation/animation/SpringAnimation;->getSpring()Landroidx/dynamicanimation/animation/SpringForce;
 
     move-result-object v1
@@ -118,16 +114,12 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1, v2}, Landroidx/dynamicanimation/animation/SpringForce;->setDampingRatio(F)Landroidx/dynamicanimation/animation/SpringForce;
 
-    .line 6
     invoke-virtual {v5, v4}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setStartVelocity(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
-    .line 7
     invoke-virtual {v5}, Landroidx/dynamicanimation/animation/SpringAnimation;->start()V
 
-    .line 8
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$startPlayVideoWithAnim$1;->this$0:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
@@ -151,7 +143,6 @@
 
     invoke-virtual {v1, v6}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 9
     new-instance v1, Landroidx/dynamicanimation/animation/SpringAnimation;
 
     iget-object v6, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$startPlayVideoWithAnim$1;->this$0:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
@@ -168,7 +159,6 @@
 
     invoke-direct {v1, v6, v7, v4}, Landroidx/dynamicanimation/animation/SpringAnimation;-><init>(Ljava/lang/Object;Landroidx/dynamicanimation/animation/FloatPropertyCompat;F)V
 
-    .line 10
     invoke-virtual {v1}, Landroidx/dynamicanimation/animation/SpringAnimation;->getSpring()Landroidx/dynamicanimation/animation/SpringForce;
 
     move-result-object v6
@@ -177,23 +167,18 @@
 
     move-result-object v3
 
-    .line 11
     invoke-virtual {v3, v2}, Landroidx/dynamicanimation/animation/SpringForce;->setDampingRatio(F)Landroidx/dynamicanimation/animation/SpringForce;
 
-    .line 12
     invoke-virtual {v1, v4}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setStartVelocity(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
-    .line 13
     invoke-static {v5}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v2
 
     invoke-virtual {v1, v2}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setStartValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
-    .line 14
     invoke-virtual {v1}, Landroidx/dynamicanimation/animation/SpringAnimation;->start()V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$startPlayVideoWithAnim$1;->this$0:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->i(Lcom/commsource/beautyplus/onboarding/VideoTransformView;)Lcom/commsource/camera/f1/l;
@@ -202,7 +187,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$startPlayVideoWithAnim$1;->$onStartRenderCallback:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_1
@@ -213,7 +197,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 17
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -42,7 +42,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -57,67 +56,54 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/hwbusinesskit/core/bean/AdData;
 
     invoke-direct {v1}, Lcom/meitu/hwbusinesskit/core/bean/AdData;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mAction:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setAction(Ljava/lang/String;)V
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mAdId:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setAdId(Ljava/lang/String;)V
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mUrl:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setUrl(Ljava/lang/String;)V
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mPlatform:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setPlatform(Ljava/lang/String;)V
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mSubPlatform:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setSubPlatform(Ljava/lang/String;)V
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mAdType:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setAdType(Ljava/lang/String;)V
 
-    .line 8
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mAdSlotId:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setAdSlotId(Ljava/lang/String;)V
 
-    .line 9
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mAdSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setAdSlot(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)V
 
-    .line 10
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mTag:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setTag(Ljava/lang/String;)V
 
-    .line 11
     iget v2, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mShowTimeSecond:I
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setShowTimeSecond(I)V
 
-    .line 12
     iget v2, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mPlatformOrder:I
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setPlatformOrder(I)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -130,10 +116,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mAction:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -146,10 +130,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mAdId:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -162,10 +144,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mAdSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -178,10 +158,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mAdSlotId:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -194,10 +172,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mAdType:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -210,10 +186,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mPlatform:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -226,10 +200,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mPlatformOrder:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -242,10 +214,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mShowTimeSecond:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -258,10 +228,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mSubPlatform:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -274,10 +242,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mTag:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -290,10 +256,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/AdData$Builder;->mUrl:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

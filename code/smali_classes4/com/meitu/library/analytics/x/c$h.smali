@@ -31,13 +31,10 @@
 .method constructor <init>(Ljava/lang/String;Ljava/util/concurrent/CountDownLatch;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/analytics/x/c$h;->b:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/library/analytics/x/c$h;->c:Ljava/util/concurrent/CountDownLatch;
 
     return-void
@@ -56,12 +53,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/meitu/library/analytics/x/c$h;->a:Lcom/meitu/library/analytics/x/c$g;
 
@@ -73,19 +68,16 @@
 
     return v3
 
-    .line 3
     :cond_1
     :try_start_0
     invoke-virtual {p1, p2, p0, v3}, Landroid/content/Context;->bindService(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z
 
     move-result p1
 
-    .line 4
     iget-object p2, p0, Lcom/meitu/library/analytics/x/c$h;->c:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {p2}, Ljava/util/concurrent/CountDownLatch;->await()V
 
-    .line 5
     iget-object p2, p0, Lcom/meitu/library/analytics/x/c$h;->d:Landroid/os/IBinder;
 
     iget-object v2, p0, Lcom/meitu/library/analytics/x/c$h;->b:Ljava/lang/String;
@@ -98,12 +90,10 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 7
     :catchall_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -117,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/x/c$h;->a:Lcom/meitu/library/analytics/x/c$g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -132,18 +121,15 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iput-object p2, p0, Lcom/meitu/library/analytics/x/c$h;->d:Landroid/os/IBinder;
 
-    .line 2
     iget-object p2, p0, Lcom/meitu/library/analytics/x/c$h;->c:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {p2}, Ljava/util/concurrent/CountDownLatch;->countDown()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :catchall_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -159,13 +145,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/meitu/library/analytics/x/c$h;->a:Lcom/meitu/library/analytics/x/c$g;
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/library/analytics/x/c$h;->d:Landroid/os/IBinder;
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

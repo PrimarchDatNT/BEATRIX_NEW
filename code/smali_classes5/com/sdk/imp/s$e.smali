@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/s$g;Lcom/sdk/api/InternalAdError;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/s$e;->a:Lcom/sdk/imp/s$g;
 
     iput-object p2, p0, Lcom/sdk/imp/s$e;->b:Lcom/sdk/api/InternalAdError;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/s$e;->a:Lcom/sdk/imp/s$g;
 
     iget-object v1, p0, Lcom/sdk/imp/s$e;->b:Lcom/sdk/api/InternalAdError;

@@ -22,10 +22,8 @@
 .method protected constructor <init>(Ljava/util/concurrent/ExecutorService;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -54,12 +52,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableList;->builder()Lcom/google/common/collect/ImmutableList$a;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -77,7 +73,6 @@
 
     check-cast v1, Ljava/util/concurrent/Callable;
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/google/common/util/concurrent/d1;->b(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Callable;
 
     move-result-object v1
@@ -86,7 +81,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableList$a;->m()Lcom/google/common/collect/ImmutableList;
 
@@ -102,7 +96,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/concurrent/Executors;->callable(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Callable;
 
     move-result-object p1
@@ -111,7 +104,6 @@
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/google/common/util/concurrent/d1$a;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/util/concurrent/d1$a;-><init>(Lcom/google/common/util/concurrent/d1;Ljava/util/concurrent/Callable;)V
@@ -127,7 +119,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0, p1, p2, p3}, Ljava/util/concurrent/ExecutorService;->awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
@@ -154,7 +145,6 @@
 .method public final execute(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-virtual {p0, p1}, Lcom/google/common/util/concurrent/d1;->a(Ljava/lang/Runnable;)Ljava/lang/Runnable;
@@ -189,7 +179,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/d1;->c(Ljava/util/Collection;)Lcom/google/common/collect/ImmutableList;
@@ -228,7 +217,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/d1;->c(Ljava/util/Collection;)Lcom/google/common/collect/ImmutableList;
@@ -263,7 +251,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/d1;->c(Ljava/util/Collection;)Lcom/google/common/collect/ImmutableList;
@@ -301,7 +288,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/d1;->c(Ljava/util/Collection;)Lcom/google/common/collect/ImmutableList;
@@ -318,7 +304,6 @@
 .method public final isShutdown()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->isShutdown()Z
@@ -331,7 +316,6 @@
 .method public final isTerminated()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->isTerminated()Z
@@ -344,7 +328,6 @@
 .method public final shutdown()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
@@ -363,7 +346,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdownNow()Ljava/util/List;
@@ -385,7 +367,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-virtual {p0, p1}, Lcom/google/common/util/concurrent/d1;->a(Ljava/lang/Runnable;)Ljava/lang/Runnable;
@@ -413,7 +394,6 @@
         }
     .end annotation
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-virtual {p0, p1}, Lcom/google/common/util/concurrent/d1;->a(Ljava/lang/Runnable;)Ljava/lang/Runnable;
@@ -441,7 +421,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/d1;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;

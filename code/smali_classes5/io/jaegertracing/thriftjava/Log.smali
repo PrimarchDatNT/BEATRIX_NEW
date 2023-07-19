@@ -81,7 +81,6 @@
 .method static constructor <clinit>()V
     .locals 10
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TStruct;
 
     const-string v1, "Log"
@@ -90,7 +89,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Log;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v1, "timestamp"
@@ -103,7 +101,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Log;->TIMESTAMP_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 3
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v4, "fields"
@@ -116,7 +113,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Log;->FIELDS_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 4
     new-instance v0, Lio/jaegertracing/thriftjava/Log$c;
 
     const/4 v6, 0x0
@@ -125,21 +121,18 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Log;->STANDARD_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 5
     new-instance v0, Lio/jaegertracing/thriftjava/Log$e;
 
     invoke-direct {v0, v6}, Lio/jaegertracing/thriftjava/Log$e;-><init>(Lio/jaegertracing/thriftjava/Log$a;)V
 
     sput-object v0, Lio/jaegertracing/thriftjava/Log;->TUPLE_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 6
     new-instance v0, Ljava/util/EnumMap;
 
     const-class v6, Lio/jaegertracing/thriftjava/Log$_Fields;
 
     invoke-direct {v0, v6}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 7
     sget-object v6, Lio/jaegertracing/thriftjava/Log$_Fields;->TIMESTAMP:Lio/jaegertracing/thriftjava/Log$_Fields;
 
     new-instance v7, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -152,7 +145,6 @@
 
     invoke-interface {v0, v6, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     sget-object v1, Lio/jaegertracing/thriftjava/Log$_Fields;->FIELDS:Lio/jaegertracing/thriftjava/Log$_Fields;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -173,14 +165,12 @@
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     sput-object v0, Lio/jaegertracing/thriftjava/Log;->metaDataMap:Ljava/util/Map;
 
-    .line 10
     const-class v1, Lio/jaegertracing/thriftjava/Log;
 
     invoke-static {v1, v0}, Lorg/apache/thrift/meta_data/FieldMetaData;->addStructMetaDataMap(Ljava/lang/Class;Ljava/util/Map;)V
@@ -191,12 +181,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/Log;->__isset_bitfield:B
 
     return-void
@@ -213,18 +201,14 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Lio/jaegertracing/thriftjava/Log;-><init>()V
 
-    .line 4
     iput-wide p1, p0, Lio/jaegertracing/thriftjava/Log;->timestamp:J
 
     const/4 p1, 0x1
 
-    .line 5
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Log;->setTimestampIsSet(Z)V
 
-    .line 6
     iput-object p3, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     return-void
@@ -233,32 +217,26 @@
 .method public constructor <init>(Lio/jaegertracing/thriftjava/Log;)V
     .locals 3
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 8
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/Log;->__isset_bitfield:B
 
-    .line 9
     iget-byte v0, p1, Lio/jaegertracing/thriftjava/Log;->__isset_bitfield:B
 
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/Log;->__isset_bitfield:B
 
-    .line 10
     iget-wide v0, p1, Lio/jaegertracing/thriftjava/Log;->timestamp:J
 
     iput-wide v0, p0, Lio/jaegertracing/thriftjava/Log;->timestamp:J
 
-    .line 11
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Log;->isSetFields()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 12
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p1, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
@@ -269,7 +247,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 13
     iget-object p1, p1, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -289,7 +266,6 @@
 
     check-cast v1, Lio/jaegertracing/thriftjava/Tag;
 
-    .line 14
     new-instance v2, Lio/jaegertracing/thriftjava/Tag;
 
     invoke-direct {v2, v1}, Lio/jaegertracing/thriftjava/Tag;-><init>(Lio/jaegertracing/thriftjava/Tag;)V
@@ -298,7 +274,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_0
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
@@ -309,7 +284,6 @@
 .method static synthetic access$300()Lorg/apache/thrift/protocol/TStruct;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Log;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
     return-object v0
@@ -318,7 +292,6 @@
 .method static synthetic access$400()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Log;->TIMESTAMP_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -327,7 +300,6 @@
 .method static synthetic access$500()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Log;->FIELDS_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -344,11 +316,9 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/Log;->__isset_bitfield:B
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
     new-instance v1, Lorg/apache/thrift/transport/TIOStreamTransport;
@@ -366,7 +336,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -386,7 +355,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/apache/thrift/scheme/StandardScheme;
 
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TProtocol;->getScheme()Ljava/lang/Class;
@@ -422,7 +390,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -441,7 +408,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -454,19 +420,16 @@
 .method public addToFields(Lio/jaegertracing/thriftjava/Tag;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
@@ -480,17 +443,14 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0}, Lio/jaegertracing/thriftjava/Log;->setTimestampIsSet(Z)V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lio/jaegertracing/thriftjava/Log;->timestamp:J
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     return-void
@@ -499,7 +459,6 @@
 .method public compareTo(Lio/jaegertracing/thriftjava/Log;)I
     .locals 4
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -514,7 +473,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -537,7 +495,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->isSetTimestamp()Z
 
@@ -563,7 +520,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->isSetTimestamp()Z
 
@@ -571,7 +527,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/Log;->timestamp:J
 
     iget-wide v2, p1, Lio/jaegertracing/thriftjava/Log;->timestamp:J
@@ -584,7 +539,6 @@
 
     return v0
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->isSetFields()Z
 
@@ -610,7 +564,6 @@
 
     return v0
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->isSetFields()Z
 
@@ -618,7 +571,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 9
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     iget-object p1, p1, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
@@ -640,7 +592,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Log;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Log;->compareTo(Lio/jaegertracing/thriftjava/Log;)I
@@ -653,7 +604,6 @@
 .method public deepCopy()Lio/jaegertracing/thriftjava/Log;
     .locals 1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/thriftjava/Log;
 
     invoke-direct {v0, p0}, Lio/jaegertracing/thriftjava/Log;-><init>(Lio/jaegertracing/thriftjava/Log;)V
@@ -664,7 +614,6 @@
 .method public bridge synthetic deepCopy()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->deepCopy()Lio/jaegertracing/thriftjava/Log;
 
     move-result-object v0
@@ -688,7 +637,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     iget-wide v2, p0, Lio/jaegertracing/thriftjava/Log;->timestamp:J
 
@@ -700,13 +648,11 @@
 
     return v0
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->isSetFields()Z
 
     move-result v2
 
-    .line 5
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Log;->isSetFields()Z
 
     move-result v3
@@ -722,7 +668,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     iget-object v2, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
@@ -753,13 +698,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/jaegertracing/thriftjava/Log;
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lio/jaegertracing/thriftjava/Log;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Log;->equals(Lio/jaegertracing/thriftjava/Log;)Z
@@ -775,7 +718,6 @@
 .method public fieldForId(I)Lio/jaegertracing/thriftjava/Log$_Fields;
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lio/jaegertracing/thriftjava/Log$_Fields;->findByThriftId(I)Lio/jaegertracing/thriftjava/Log$_Fields;
 
     move-result-object p1
@@ -786,7 +728,6 @@
 .method public bridge synthetic fieldForId(I)Lorg/apache/thrift/TFieldIdEnum;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Log;->fieldForId(I)Lio/jaegertracing/thriftjava/Log$_Fields;
 
     move-result-object p1
@@ -797,7 +738,6 @@
 .method public getFieldValue(Lio/jaegertracing/thriftjava/Log$_Fields;)Ljava/lang/Object;
     .locals 2
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/Log$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -814,14 +754,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->getFields()Ljava/util/List;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -829,7 +767,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->getTimestamp()J
 
@@ -845,7 +782,6 @@
 .method public bridge synthetic getFieldValue(Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Log$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Log;->getFieldValue(Lio/jaegertracing/thriftjava/Log$_Fields;)Ljava/lang/Object;
@@ -866,7 +802,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     return-object v0
@@ -883,7 +818,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -904,7 +838,6 @@
 .method public getFieldsSize()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -925,7 +858,6 @@
 .method public getTimestamp()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/Log;->timestamp:J
 
     return-wide v0
@@ -934,7 +866,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/Log;->timestamp:J
 
     invoke-static {v0, v1}, Lorg/apache/thrift/TBaseHelper;->hashCode(J)I
@@ -947,7 +878,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->isSetFields()Z
 
     move-result v1
@@ -964,7 +894,6 @@
     :goto_0
     add-int/2addr v0, v1
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->isSetFields()Z
 
     move-result v1
@@ -973,7 +902,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 4
     iget-object v1, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->hashCode()I
@@ -991,7 +919,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/Log$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1008,14 +935,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->isSetFields()Z
 
     move-result p1
 
     return p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1023,7 +948,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->isSetTimestamp()Z
 
@@ -1031,7 +955,6 @@
 
     return p1
 
-    .line 6
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1043,7 +966,6 @@
 .method public bridge synthetic isSet(Lorg/apache/thrift/TFieldIdEnum;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Log$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Log;->isSet(Lio/jaegertracing/thriftjava/Log$_Fields;)Z
@@ -1056,7 +978,6 @@
 .method public isSetFields()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -1075,7 +996,6 @@
 .method public isSetTimestamp()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/Log;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -1095,7 +1015,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thriftjava/Log;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0
@@ -1108,7 +1027,6 @@
 .method public setFieldValue(Lio/jaegertracing/thriftjava/Log$_Fields;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/Log$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1130,12 +1048,10 @@
     :cond_0
     if-nez p2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->unsetFields()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     check-cast p2, Ljava/util/List;
 
@@ -1146,12 +1062,10 @@
     :cond_2
     if-nez p2, :cond_3
 
-    .line 5
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Log;->unsetTimestamp()V
 
     goto :goto_0
 
-    .line 6
     :cond_3
     check-cast p2, Ljava/lang/Long;
 
@@ -1168,7 +1082,6 @@
 .method public bridge synthetic setFieldValue(Lorg/apache/thrift/TFieldIdEnum;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Log$_Fields;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thriftjava/Log;->setFieldValue(Lio/jaegertracing/thriftjava/Log$_Fields;Ljava/lang/Object;)V
@@ -1188,7 +1101,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     return-object p0
@@ -1201,7 +1113,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     :cond_0
@@ -1211,12 +1122,10 @@
 .method public setTimestamp(J)Lio/jaegertracing/thriftjava/Log;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/thriftjava/Log;->timestamp:J
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Log;->setTimestampIsSet(Z)V
 
     return-object p0
@@ -1225,7 +1134,6 @@
 .method public setTimestampIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/Log;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -1242,7 +1150,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "Log("
@@ -1251,47 +1158,38 @@
 
     const-string v1, "timestamp:"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-wide v1, p0, Lio/jaegertracing/thriftjava/Log;->timestamp:J
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     const-string v1, ", "
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, "fields:"
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     iget-object v1, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     if-nez v1, :cond_0
 
     const-string v1, "null"
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     :goto_0
     const-string v1, ")"
 
-    .line 9
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -1304,7 +1202,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     return-void
@@ -1313,7 +1210,6 @@
 .method public unsetTimestamp()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/Log;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -1335,14 +1231,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Log;->fields:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -1377,7 +1271,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thriftjava/Log;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0

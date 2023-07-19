@@ -45,7 +45,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/SynchronizedLazyImpl;
 
     invoke-direct {v0, p1, p0}, Lcotlin/SynchronizedLazyImpl;-><init>(Lcotlin/jvm/u/a;Ljava/lang/Object;)V
@@ -87,7 +86,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/x;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -108,7 +106,6 @@
 
     if-ne p0, v0, :cond_0
 
-    .line 2
     new-instance p0, Lcotlin/UnsafeLazyImpl;
 
     invoke-direct {p0, p1}, Lcotlin/UnsafeLazyImpl;-><init>(Lcotlin/jvm/u/a;)V
@@ -122,7 +119,6 @@
 
     throw p0
 
-    .line 3
     :cond_1
     new-instance p0, Lcotlin/SafePublicationLazyImpl;
 
@@ -130,7 +126,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     new-instance p0, Lcotlin/SynchronizedLazyImpl;
 
@@ -167,7 +162,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/SynchronizedLazyImpl;
 
     const/4 v1, 0x0

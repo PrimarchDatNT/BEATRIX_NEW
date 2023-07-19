@@ -99,7 +99,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/internal/e;->c:Lkshark/b0$i;
@@ -112,7 +111,6 @@
 
     iput-object p5, p0, Lkshark/internal/e;->g:Ljava/lang/Long;
 
-    .line 2
     invoke-virtual {p1}, Lkshark/b0$i;->d()J
 
     move-result-wide p1
@@ -143,7 +141,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual {p5}, Ljava/lang/Long;->longValue()J
 
@@ -174,7 +171,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/e;->e:Ljava/lang/String;
 
     return-object v0
@@ -183,7 +179,6 @@
 .method public final b()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lkshark/internal/e;->a:Z
 
     return v0
@@ -194,7 +189,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/e;->d:Ljava/lang/String;
 
     return-object v0
@@ -205,7 +199,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/e;->c:Lkshark/b0$i;
 
     return-object v0
@@ -216,7 +209,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/e;->g:Ljava/lang/Long;
 
     return-object v0
@@ -227,7 +219,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/e;->f:Ljava/lang/Long;
 
     return-object v0
@@ -236,7 +227,6 @@
 .method public final g()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lkshark/internal/e;->b:Z
 
     return v0

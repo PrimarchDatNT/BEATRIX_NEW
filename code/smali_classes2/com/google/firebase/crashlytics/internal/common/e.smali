@@ -21,13 +21,10 @@
 .method private constructor <init>(Ljava/lang/Float;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p2, p0, Lcom/google/firebase/crashlytics/internal/common/e;->b:Z
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/e;->a:Ljava/lang/Float;
 
     return-void
@@ -36,7 +33,6 @@
 .method public static a(Landroid/content/Context;)Lcom/google/firebase/crashlytics/internal/common/e;
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/content/IntentFilter;
 
     const-string v1, "android.intent.action.BATTERY_CHANGED"
@@ -45,19 +41,16 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, v1, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/e;->f(Landroid/content/Intent;)Z
 
     move-result v0
 
-    .line 4
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/common/e;->d(Landroid/content/Intent;)Ljava/lang/Float;
 
     move-result-object v1
@@ -67,7 +60,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 5
     :goto_0
     new-instance p0, Lcom/google/firebase/crashlytics/internal/common/e;
 
@@ -83,14 +75,12 @@
 
     const/4 v1, -0x1
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v0
 
     const-string v2, "scale"
 
-    .line 2
     invoke-virtual {p0, v2, v1}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result p0
@@ -108,7 +98,6 @@
 
     div-float/2addr v0, p0
 
-    .line 3
     invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object p0
@@ -129,7 +118,6 @@
 
     const/4 v1, -0x1
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result p0
@@ -161,7 +149,6 @@
 .method public b()Ljava/lang/Float;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/e;->a:Ljava/lang/Float;
 
     return-object v0
@@ -170,7 +157,6 @@
 .method public c()I
     .locals 5
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/crashlytics/internal/common/e;->b:Z
 
     if-eqz v0, :cond_2
@@ -181,7 +167,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Ljava/lang/Float;->floatValue()F
 
@@ -214,7 +199,6 @@
 .method e()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/crashlytics/internal/common/e;->b:Z
 
     return v0

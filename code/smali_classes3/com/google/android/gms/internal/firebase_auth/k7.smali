@@ -6,7 +6,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,7 +24,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0, p1, p2, p3}, Lcom/google/android/gms/internal/firebase_auth/k7;->a(I[BII)I
 
     move-result p1

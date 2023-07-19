@@ -90,12 +90,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/comic/widget/StrokeTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     sget p1, Lcom/res/provider/ResCOLOR;->white:I
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -104,12 +102,10 @@
 
     const/16 p1, 0x11
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setGravity(I)V
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setAlpha(F)V
 
     return-void
@@ -131,7 +127,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/part/XSeekCameraTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -147,29 +142,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/widget/XSeekBar$b$a;->c(Lcom/commsource/widget/XSeekBar$b;IF)V
 
-    .line 2
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/part/XSeekCameraTextView;->f:Lcom/commsource/widget/XSeekBar;
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/View;->getTranslationY()F
 
     move-result p1
 
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setTranslationY(F)V
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Landroid/widget/TextView;->getWidth()I
 
@@ -185,14 +175,12 @@
 
     invoke-virtual {p0, p2}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/TextView;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 7
     invoke-virtual {p0}, Landroid/widget/TextView;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -205,22 +193,18 @@
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 8
     invoke-virtual {p1, p2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const-wide/16 v1, 0xc8
 
-    .line 9
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -233,17 +217,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
-    .line 2
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/TextView;->getWidth()I
 
     move-result p1
@@ -258,7 +239,6 @@
 
     invoke-virtual {p0, p2}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -271,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->b(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -359,15 +338,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/part/XSeekCameraTextView;->f:Lcom/commsource/widget/XSeekBar;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1, p0}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -381,17 +357,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->d(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
-    .line 2
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/TextView;->getWidth()I
 
     move-result p1
@@ -408,17 +381,14 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/TextView;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/TextView;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -431,22 +401,18 @@
 
     const-wide/16 p2, 0xc8
 
-    .line 7
     invoke-virtual {p1, p2, p3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const/4 p2, 0x0
 
-    .line 8
     invoke-virtual {p1, p2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -6,7 +6,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/j9;Ljava/io/OutputStream;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p2}, Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
 
     return-void
@@ -22,7 +21,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Ljava/io/BufferedOutputStream;->flush()V
     :try_end_0

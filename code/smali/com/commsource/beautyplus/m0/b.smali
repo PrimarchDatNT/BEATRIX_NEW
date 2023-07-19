@@ -23,7 +23,6 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyplus/m0/c;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -47,27 +46,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/google/gson/Gson;
 
     invoke-direct {v1}, Lcom/google/gson/Gson;-><init>()V
 
-    .line 2
     new-instance v2, Lcom/commsource/beautyplus/m0/b$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/m0/b$a;-><init>(Lcom/commsource/beautyplus/m0/b;)V
 
-    .line 3
     invoke-virtual {v2}, Lcom/google/gson/reflect/TypeToken;->getType()Ljava/lang/reflect/Type;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v1, p1, v2}, Lcom/google/gson/Gson;->toJson(Ljava/lang/Object;Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -80,13 +74,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/m0/b;->l(Landroid/content/Context;)V
 
-    .line 2
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/m0/c;->g(Landroid/content/Context;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -109,24 +100,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/m0/b$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/beautyplus/m0/b$b;-><init>(Lcom/commsource/beautyplus/m0/b;)V
 
-    .line 2
     invoke-virtual {v1}, Lcom/google/gson/reflect/TypeToken;->getType()Ljava/lang/reflect/Type;
 
     move-result-object v1
 
-    .line 3
     invoke-static {p1, v1}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/util/List;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -139,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/m0/c;->c:Ljava/lang/String;
 
     const-string v2, "KEY_TIME_OUT_TIME"
@@ -150,7 +136,6 @@
 
     move-result-wide v3
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
@@ -163,10 +148,8 @@
 
     if-lez v1, :cond_0
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/m0/c;->d(Landroid/content/Context;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/m0/c;->c:Ljava/lang/String;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -175,7 +158,6 @@
 
     invoke-static {p1, v1, v2, v3, v4}, Lcom/commsource/util/common/l;->B(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;J)Z
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

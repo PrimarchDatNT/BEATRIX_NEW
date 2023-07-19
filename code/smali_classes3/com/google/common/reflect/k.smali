@@ -33,22 +33,18 @@
 .method protected constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/reflect/j;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/reflect/j;->capture()Ljava/lang/reflect/Type;
 
     move-result-object v0
 
-    .line 3
     instance-of v1, v0, Ljava/lang/reflect/TypeVariable;
 
     const-string v2, "%s should be a type variable."
 
     invoke-static {v1, v2, v0}, Lcom/google/common/base/t;->u(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 4
     check-cast v0, Ljava/lang/reflect/TypeVariable;
 
     iput-object v0, p0, Lcom/google/common/reflect/k;->a:Ljava/lang/reflect/TypeVariable;
@@ -65,15 +61,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/reflect/k;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/reflect/k;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/reflect/k;->a:Ljava/lang/reflect/TypeVariable;
 
     iget-object p1, p1, Lcom/google/common/reflect/k;->a:Ljava/lang/reflect/TypeVariable;
@@ -93,7 +86,6 @@
 .method public final hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/k;->a:Ljava/lang/reflect/TypeVariable;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -106,7 +98,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/k;->a:Ljava/lang/reflect/TypeVariable;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;

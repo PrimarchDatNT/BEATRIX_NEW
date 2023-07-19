@@ -28,7 +28,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
 .method private O0()V
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -49,7 +47,6 @@
 
     check-cast v0, Ljava/lang/reflect/ParameterizedType;
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/reflect/ParameterizedType;->getActualTypeArguments()[Ljava/lang/reflect/Type;
 
     move-result-object v0
@@ -60,7 +57,6 @@
 
     check-cast v0, Ljava/lang/Class;
 
-    .line 3
     invoke-static {p0}, Landroidx/lifecycle/ViewModelProviders;->of(Landroidx/fragment/app/FragmentActivity;)Landroidx/lifecycle/ViewModelProvider;
 
     move-result-object v1
@@ -80,16 +76,13 @@
     :catch_0
     move-exception v0
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v0
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/base/BaseVMActivity;->N:Lcom/commsource/beautyplus/base/BaseVm;
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
@@ -111,7 +104,6 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -138,17 +130,14 @@
 
     invoke-static {v1, v0}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/base/BaseVMActivity;->L0()I
 
     move-result p1
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V
 
-    .line 4
     invoke-static {p0}, Lcom/commsource/util/g1;->b(Landroid/content/Context;)Z
 
     move-result p1
@@ -157,14 +146,11 @@
 
     return-void
 
-    .line 5
     :cond_0
     invoke-direct {p0}, Lcom/commsource/beautyplus/base/BaseVMActivity;->O0()V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/beautyplus/base/BaseVMActivity;->N0()V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/beautyplus/base/BaseVMActivity;->M0()V
 
     return-void
@@ -173,10 +159,8 @@
 .method protected onDestroy()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -209,10 +193,8 @@
 .method protected onPause()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onPause()V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -245,10 +227,8 @@
 .method protected onResume()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onResume()V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -281,10 +261,8 @@
 .method protected onStart()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onStart()V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -317,10 +295,8 @@
 .method protected onStop()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onStop()V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

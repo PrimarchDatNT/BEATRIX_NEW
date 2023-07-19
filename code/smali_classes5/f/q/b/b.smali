@@ -49,14 +49,12 @@
 
     invoke-static {}, Lf/q/b/b;->e()V
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v0, Lf/q/b/b;->b:Ljava/util/ArrayList;
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const v1, 0xa2c2a
@@ -67,7 +65,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     sput-object v0, Lf/q/b/b;->d:Lf/q/b/b$b;
 
     return-void
@@ -76,7 +73,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -89,27 +85,23 @@
 
     const-string v0, "phone"
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/telephony/TelephonyManager;
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getSimOperator()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -120,14 +112,12 @@
 
     const/4 v0, 0x0
 
-    .line 5
     invoke-virtual {p0, v0, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lf/q/b/b;->e:Ljava/lang/String;
 
-    .line 6
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -137,7 +127,6 @@
 
     if-lt v0, v2, :cond_1
 
-    .line 7
     invoke-virtual {p0, v1, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p0
@@ -151,10 +140,8 @@
     :catch_0
     const-string p0, ""
 
-    .line 8
     sput-object p0, Lf/q/b/b;->e:Ljava/lang/String;
 
-    .line 9
     sput-object p0, Lf/q/b/b;->f:Ljava/lang/String;
 
     :cond_1
@@ -165,7 +152,6 @@
 .method static final synthetic B(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -176,7 +162,6 @@
 .method static final synthetic C(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -189,7 +174,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
@@ -202,7 +186,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isDigitsOnly(Ljava/lang/CharSequence;)Z
 
     move-result p0
@@ -218,7 +201,6 @@
 .method public static E(Ljava/lang/String;)Z
     .locals 2
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -232,7 +214,6 @@
     :cond_0
     const-string v0, "https://play.google.com"
 
-    .line 2
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
@@ -249,7 +230,6 @@
 
     const-string v0, "market:"
 
-    .line 3
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p0
@@ -279,7 +259,6 @@
 
     goto :goto_1
 
-    .line 1
     :cond_0
     invoke-static {}, Lcom/sdk/utils/internal/d;->g()Lcom/sdk/utils/internal/d;
 
@@ -307,21 +286,18 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v2
 
     if-lez v2, :cond_2
 
-    .line 3
     invoke-interface {v1, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result p0
 
     return p0
 
-    .line 4
     :cond_2
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
@@ -353,7 +329,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {}, Lcom/sdk/utils/internal/d;->g()Lcom/sdk/utils/internal/d;
 
@@ -365,14 +340,12 @@
 
     if-eqz p2, :cond_1
 
-    .line 2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v1
 
     if-lez v1, :cond_1
 
-    .line 3
     invoke-interface {p2, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result p0
@@ -382,7 +355,6 @@
     :cond_1
     const/4 p2, 0x1
 
-    .line 4
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -409,12 +381,10 @@
 
     const-string v1, "UNKNOWN"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/b;->y(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -434,7 +404,6 @@
 .method public static I(Landroid/content/pm/ApplicationInfo;)Z
     .locals 1
 
-    .line 1
     iget p0, p0, Landroid/content/pm/ApplicationInfo;->flags:I
 
     and-int/lit8 v0, p0, 0x1
@@ -468,24 +437,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lf/q/b/b;->z(Ljava/lang/String;)[B
 
     move-result-object p0
 
-    .line 2
     new-instance v0, Ljavax/crypto/spec/DESKeySpec;
 
     invoke-direct {v0, p0}, Ljavax/crypto/spec/DESKeySpec;-><init>([B)V
 
     const-string p0, "DES"
 
-    .line 3
     invoke-static {p0}, Ljavax/crypto/SecretKeyFactory;->getInstance(Ljava/lang/String;)Ljavax/crypto/SecretKeyFactory;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0, v0}, Ljavax/crypto/SecretKeyFactory;->generateSecret(Ljava/security/spec/KeySpec;)Ljavax/crypto/SecretKey;
 
     move-result-object p0
@@ -496,7 +461,6 @@
 .method public static K(Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/sdk/api/a;->g()Landroid/content/Context;
 
     move-result-object v0
@@ -505,7 +469,6 @@
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     invoke-virtual {v0, p1}, Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -522,7 +485,6 @@
 
     const-string v1, "stackerror:"
 
-    .line 3
     invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const/4 p1, 0x0
@@ -530,7 +492,6 @@
     :goto_0
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-static {p0, p1}, Lf/q/b/b;->U(Landroid/content/Context;Landroid/content/Intent;)Z
 
     :cond_0
@@ -540,21 +501,18 @@
 .method public static L(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
     .locals 1
 
-    .line 1
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lf/q/b/b;->K(Landroid/content/Context;Ljava/lang/String;)V
 
     const/4 p0, 0x1
 
     return p0
 
-    .line 3
     :cond_0
     new-instance p1, Landroid/content/Intent;
 
@@ -566,7 +524,6 @@
 
     invoke-direct {p1, v0, p2}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 4
     invoke-static {p0, p1}, Lf/q/b/b;->U(Landroid/content/Context;Landroid/content/Intent;)Z
 
     move-result p0
@@ -577,7 +534,6 @@
 .method public static M(Ljava/lang/String;Landroid/content/Context;Lcom/sdk/imp/internal/loader/Ad;)V
     .locals 1
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -588,14 +544,12 @@
 
     const-string p2, "refferrer="
 
-    .line 2
     invoke-virtual {p0, p2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result p2
 
     if-nez p2, :cond_0
 
-    .line 3
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -610,7 +564,6 @@
 
     move-result-object p0
 
-    .line 4
     :cond_0
     new-instance p2, Landroid/content/Intent;
 
@@ -622,7 +575,6 @@
 
     invoke-direct {p2, v0, p0}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 5
     invoke-static {p1, p2}, Lf/q/b/b;->U(Landroid/content/Context;Landroid/content/Intent;)Z
 
     :cond_1
@@ -632,7 +584,6 @@
 .method public static N(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
@@ -643,7 +594,6 @@
 
     invoke-direct {v0, v1, p1}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 2
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
@@ -658,10 +608,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {v0, p2}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -675,14 +623,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-lez p1, :cond_1
 
-    .line 6
     invoke-static {p0, v0}, Lf/q/b/b;->U(Landroid/content/Context;Landroid/content/Intent;)Z
 
     return v1
@@ -696,7 +642,6 @@
 .method public static O(Landroid/content/Context;Ljava/lang/String;)Z
     .locals 9
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -707,7 +652,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     new-instance v0, Landroid/content/Intent;
 
@@ -719,7 +663,6 @@
 
     invoke-direct {v0, v2, p1}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p1
@@ -734,14 +677,12 @@
 
     if-eqz p1, :cond_6
 
-    .line 4
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v3
 
     if-le v3, v2, :cond_6
 
-    .line 5
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -764,7 +705,6 @@
 
     check-cast v6, Landroid/content/pm/ResolveInfo;
 
-    .line 6
     iget-object v7, v6, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     iget-object v7, v7, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
@@ -777,14 +717,12 @@
 
     if-eqz v7, :cond_2
 
-    .line 7
     iget-object v3, v6, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     iget-object v4, v3, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 8
     :cond_2
     iget-object v7, v6, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
@@ -796,14 +734,12 @@
 
     if-eqz v7, :cond_1
 
-    .line 9
     iget-object v5, v6, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     iget-object v5, v5, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
 
     goto :goto_0
 
-    .line 10
     :cond_3
     :goto_1
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -812,7 +748,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 11
     invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -821,7 +756,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_4
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -838,11 +772,9 @@
     :cond_5
     move-object v5, v4
 
-    .line 13
     :goto_2
     invoke-virtual {v0, v5}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 14
     invoke-static {p0, v0}, Lf/q/b/b;->U(Landroid/content/Context;Landroid/content/Intent;)Z
 
     return v2
@@ -850,14 +782,12 @@
     :cond_6
     if-eqz p1, :cond_7
 
-    .line 15
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-ne p1, v2, :cond_7
 
-    .line 16
     invoke-static {p0, v0}, Lf/q/b/b;->U(Landroid/content/Context;Landroid/content/Intent;)Z
 
     return v2
@@ -899,7 +829,6 @@
 .method public static Q(Ljava/lang/String;)I
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -916,7 +845,6 @@
 
     const-string v1, "stackerror:"
 
-    .line 2
     invoke-static {v0, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const/4 p0, 0x0
@@ -932,13 +860,11 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lf/q/b/b;->d:Lf/q/b/b$b;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lf/q/b/b$b;
 
     const/4 v2, 0x0
@@ -947,24 +873,20 @@
 
     sput-object v1, Lf/q/b/b;->d:Lf/q/b/b$b;
 
-    .line 3
     new-instance v1, Landroid/content/IntentFilter;
 
     invoke-direct {v1}, Landroid/content/IntentFilter;-><init>()V
 
     const-string v2, "android.intent.action.USER_PRESENT"
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    .line 5
     sget-object v2, Lf/q/b/b;->d:Lf/q/b/b$b;
 
     invoke-virtual {p0, v2, v1}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     :cond_0
     monitor-exit v0
 
@@ -981,7 +903,6 @@
 .method public static S(Ljava/lang/String;)I
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
 
@@ -1002,7 +923,6 @@
 
     const-string v1, "loader stackerror:"
 
-    .line 2
     invoke-static {v0, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const/4 p0, 0x0
@@ -1013,7 +933,6 @@
 .method public static T(Ljava/lang/String;)J
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Ljava/lang/Long;->valueOf(Ljava/lang/String;)Ljava/lang/Long;
 
@@ -1034,7 +953,6 @@
 
     const-string v1, "loader stackerror:"
 
-    .line 2
     invoke-static {v0, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const-wide/16 v0, 0x0
@@ -1045,7 +963,6 @@
 .method public static U(Landroid/content/Context;Landroid/content/Intent;)Z
     .locals 1
 
-    .line 1
     :try_start_0
     instance-of v0, p0, Landroid/app/Activity;
 
@@ -1053,13 +970,11 @@
 
     const v0, 0x10008000
 
-    .line 2
     invoke-virtual {p1, v0}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     :cond_0
     const-string v0, "keyguard"
 
-    .line 3
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -1068,24 +983,20 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {v0}, Landroid/app/KeyguardManager;->inKeyguardRestrictedInputMode()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-static {}, Lcom/sdk/api/a;->h()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-static {p0, p1}, Lf/q/b/b;->d(Landroid/content/Context;Landroid/content/Intent;)V
 
-    .line 7
     invoke-static {}, Lcom/sdk/api/a;->g()Landroid/content/Context;
 
     move-result-object p0
@@ -1094,7 +1005,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-virtual {p0, p1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
@@ -1115,7 +1025,6 @@
 .method public static V(Ljava/lang/String;)Z
     .locals 1
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -1144,7 +1053,6 @@
 .method public static W([B)Ljava/lang/String;
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, ""
@@ -1153,7 +1061,6 @@
 
     if-eqz p0, :cond_3
 
-    .line 2
     array-length v1, p0
 
     if-gtz v1, :cond_0
@@ -1165,23 +1072,19 @@
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     array-length v3, p0
 
     if-ge v2, v3, :cond_2
 
-    .line 4
     aget-byte v3, p0, v2
 
     and-int/lit16 v3, v3, 0xff
 
-    .line 5
     invoke-static {v3}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 6
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -1190,10 +1093,8 @@
 
     if-ge v4, v5, :cond_1
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 8
     :cond_1
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1201,7 +1102,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -1223,23 +1123,19 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lf/q/b/b;->d:Lf/q/b/b$b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
     const/4 p0, 0x0
 
-    .line 3
     sput-object p0, Lf/q/b/b;->d:Lf/q/b/b$b;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :cond_0
     monitor-exit v0
 
@@ -1256,22 +1152,18 @@
 .method public static a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lf/q/b/b;->x(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     sget-object p0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
-    .line 4
     :cond_0
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1288,7 +1180,6 @@
 .method static synthetic b()Ljava/util/ArrayList;
     .locals 1
 
-    .line 1
     sget-object v0, Lf/q/b/b;->b:Ljava/util/ArrayList;
 
     return-object v0
@@ -1297,7 +1188,6 @@
 .method static synthetic c(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lf/q/b/b;->X(Landroid/content/Context;)V
 
     return-void
@@ -1306,12 +1196,10 @@
 .method private static d(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 3
 
-    .line 1
     sget-object v0, Lf/q/b/b;->b:Ljava/util/ArrayList;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lf/q/b/b;->c:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -1327,15 +1215,12 @@
 
     move-result-object p1
 
-    .line 3
     sget-object v1, Lf/q/b/b;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 4
     invoke-static {p0}, Lf/q/b/b;->R(Landroid/content/Context;)V
 
-    .line 5
     monitor-exit v0
 
     return-void
@@ -1353,7 +1238,6 @@
 .method private static synthetic e()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lf/q/b/b;
@@ -1428,7 +1312,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-static/range {p0 .. p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1440,7 +1323,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     new-instance v2, Lorg/json/JSONObject;
 
@@ -1450,21 +1332,18 @@
 
     const-string v3, "st"
 
-    .line 3
     invoke-virtual {v2, v3, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     const-string v4, "et"
 
-    .line 4
     invoke-virtual {v2, v4, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v4, "TimeHelper"
 
-    .line 5
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -1491,12 +1370,10 @@
 
     const/4 v5, 0x1
 
-    .line 6
     invoke-virtual {v2, v4, v5}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result v2
 
-    .line 7
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -1511,7 +1388,6 @@
 
     goto/16 :goto_6
 
-    .line 8
     :cond_1
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
@@ -1539,7 +1415,6 @@
     :goto_0
     if-eqz v4, :cond_3
 
-    .line 9
     invoke-static {v3}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v3
@@ -1548,7 +1423,6 @@
 
     mul-long v3, v3, v6
 
-    .line 10
     invoke-static {v0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v8
@@ -1562,11 +1436,9 @@
 
     goto :goto_3
 
-    .line 11
     :cond_3
     new-instance v4, Ljava/text/SimpleDateFormat;
 
-    .line 12
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v6
@@ -1585,7 +1457,6 @@
     :goto_2
     invoke-direct {v4, v6}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {v4, v3}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v3
@@ -1594,7 +1465,6 @@
 
     move-result-wide v6
 
-    .line 14
     invoke-virtual {v4, v0}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v0
@@ -1626,7 +1496,6 @@
     :cond_6
     const/4 v15, 0x0
 
-    .line 15
     :goto_4
     new-instance v0, Lcom/sdk/utils/internal/f;
 
@@ -1636,7 +1505,6 @@
 
     if-eqz p2, :cond_7
 
-    .line 16
     invoke-virtual {v0}, Lcom/sdk/utils/internal/f;->a()Z
 
     move-result v0
@@ -1660,7 +1528,6 @@
     :catch_0
     move-exception v0
 
-    .line 17
     invoke-virtual {v0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -1677,7 +1544,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-static/range {p0 .. p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1688,7 +1554,6 @@
 
     return v2
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v1, Lorg/json/JSONObject;
@@ -1699,14 +1564,12 @@
 
     const-string v3, "st"
 
-    .line 3
     invoke-virtual {v1, v3, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     const-string v4, "et"
 
-    .line 4
     invoke-virtual {v1, v4, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -1715,12 +1578,10 @@
 
     const/4 v5, 0x1
 
-    .line 5
     invoke-virtual {v1, v4, v5}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result v1
 
-    .line 6
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -1738,7 +1599,6 @@
     :cond_1
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-static {v3}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v3
@@ -1747,7 +1607,6 @@
 
     mul-long v3, v3, v6
 
-    .line 8
     invoke-static {v0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v8
@@ -1761,7 +1620,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     new-instance v4, Ljava/text/SimpleDateFormat;
 
@@ -1769,7 +1627,6 @@
 
     invoke-direct {v4, v6}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {v4, v3}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v3
@@ -1778,7 +1635,6 @@
 
     move-result-wide v6
 
-    .line 11
     invoke-virtual {v4, v0}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v0
@@ -1803,7 +1659,6 @@
     :cond_3
     const/4 v15, 0x0
 
-    .line 12
     :goto_2
     new-instance v0, Lcom/sdk/utils/internal/f;
 
@@ -1813,7 +1668,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 13
     invoke-virtual {v0}, Lcom/sdk/utils/internal/f;->a()Z
 
     move-result v0
@@ -1841,7 +1695,6 @@
 
     const-string v3, "loader stackerror:"
 
-    .line 14
     invoke-static {v1, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return v2
@@ -1852,7 +1705,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -1864,7 +1716,6 @@
 
     return v3
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -1894,7 +1745,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1905,7 +1755,6 @@
 
     return v2
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v1, Lorg/json/JSONObject;
@@ -1914,19 +1763,16 @@
 
     const-string p0, "st"
 
-    .line 3
     invoke-virtual {v1, p0, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
     const-string v3, "et"
 
-    .line 4
     invoke-virtual {v1, v3, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p0
@@ -1953,7 +1799,6 @@
     :catch_0
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -1968,7 +1813,6 @@
 .method public static j([II)Z
     .locals 4
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -2003,7 +1847,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/String;
 
     invoke-direct {v0, p0}, Ljava/lang/String;-><init>([B)V
@@ -2014,17 +1857,14 @@
 
     const-string v0, "DES/ECB/PKCS5Padding"
 
-    .line 2
     invoke-static {v0}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v0
 
     const/4 v1, 0x2
 
-    .line 3
     invoke-virtual {v0, v1, p0}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 4
     invoke-virtual {v0, p1}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
     move-result-object p0
@@ -2040,7 +1880,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/String;
 
     invoke-direct {v0, p0}, Ljava/lang/String;-><init>([B)V
@@ -2051,17 +1890,14 @@
 
     const-string v0, "DES/ECB/PKCS5Padding"
 
-    .line 2
     invoke-static {v0}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {v0, v1, p0}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 4
     invoke-virtual {v0, p1}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
     move-result-object p0
@@ -2072,30 +1908,25 @@
 .method public static m(Landroid/content/Context;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     move-result-object v0
 
-    .line 4
     iget-object v0, v0, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
 
     iget v0, v0, Landroid/content/pm/ApplicationInfo;->labelRes:I
 
-    .line 5
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
@@ -2111,7 +1942,6 @@
     :catch_0
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const-string p0, ""
@@ -2124,13 +1954,11 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
@@ -2139,7 +1967,6 @@
 
     move-result-object p0
 
-    .line 3
     iget p0, p0, Landroid/content/pm/PackageInfo;->versionCode:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -2153,7 +1980,6 @@
 
     const-string v2, "stackerror:"
 
-    .line 4
     invoke-static {v1, v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return v0
@@ -2162,14 +1988,12 @@
 .method public static o(Landroid/content/Context;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lf/q/b/b;->s(Landroid/content/Context;)Ljava/util/Locale;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
     move-result-object p0
@@ -2189,14 +2013,12 @@
     :try_start_0
     const-string v0, "phone"
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/telephony/TelephonyManager;
 
-    .line 2
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
     move-result-object p0
@@ -2218,17 +2040,14 @@
 
     const-string v0, "\\."
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     array-length v0, p0
 
     if-lez v0, :cond_0
 
-    .line 3
     array-length v0, p0
 
     add-int/lit8 v0, v0, -0x1
@@ -2252,14 +2071,12 @@
 .method public static r(Landroid/content/Context;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lf/q/b/b;->s(Landroid/content/Context;)Ljava/util/Locale;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
     move-result-object p0
@@ -2278,14 +2095,12 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object p0
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -2293,14 +2108,12 @@
 
     if-eqz p0, :cond_2
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     move-result-object p0
 
     if-eqz p0, :cond_1
 
-    .line 4
     iget-object p0, p0, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
 
     goto :goto_0
@@ -2311,14 +2124,12 @@
     :goto_0
     if-nez p0, :cond_3
 
-    .line 5
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object p0
 
     goto :goto_1
 
-    .line 6
     :cond_2
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
@@ -2332,7 +2143,6 @@
 .method public static t(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lf/q/b/b;->e:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -2341,10 +2151,8 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Lf/q/b/b;->A(Landroid/content/Context;)V
 
-    .line 3
     :cond_0
     sget-object p0, Lf/q/b/b;->e:Ljava/lang/String;
 
@@ -2354,7 +2162,6 @@
 .method public static u(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lf/q/b/b;->f:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -2363,10 +2170,8 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Lf/q/b/b;->A(Landroid/content/Context;)V
 
-    .line 3
     :cond_0
     sget-object p0, Lf/q/b/b;->f:Ljava/lang/String;
 
@@ -2376,25 +2181,21 @@
 .method public static v(Landroid/content/Context;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v0, p0, v1}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     move-result-object p0
 
-    .line 4
     iget-object p0, p0, Landroid/content/pm/PackageInfo;->packageName:Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -2404,7 +2205,6 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const-string p0, ""
@@ -2415,7 +2215,6 @@
 .method public static w(Landroid/content/Context;Z)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lf/q/b/b;->g:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -2426,21 +2225,18 @@
 
     const-string v0, ""
 
-    .line 2
     sput-object v0, Lf/q/b/b;->g:Ljava/lang/String;
 
     if-eqz p0, :cond_0
 
     const-string v0, "phone"
 
-    .line 3
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/telephony/TelephonyManager;
 
-    .line 4
     :try_start_0
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getSimOperatorName()Ljava/lang/String;
 
@@ -2459,7 +2255,6 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 5
     sget-object p0, Lf/q/b/b;->g:Ljava/lang/String;
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -2468,7 +2263,6 @@
 
     if-nez p0, :cond_1
 
-    .line 6
     :try_start_1
     sget-object p0, Lf/q/b/b;->g:Ljava/lang/String;
 
@@ -2485,10 +2279,8 @@
     :catch_1
     move-exception p0
 
-    .line 7
     invoke-virtual {p0}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
 
-    .line 8
     :cond_1
     sget-object p0, Lf/q/b/b;->g:Ljava/lang/String;
 
@@ -2501,7 +2293,6 @@
     :try_start_0
     const-string v0, "android.os.SystemProperties"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -2526,7 +2317,6 @@
 
     aput-object p0, v1, v5
 
-    .line 2
     sget-object p0, Lf/q/b/b;->j:Lorg/aspectj/lang/c$b;
 
     const/4 v3, 0x0
@@ -2584,7 +2374,6 @@
 .method private static y(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 8
 
-    .line 1
     const-class v0, Ljava/lang/String;
 
     :try_start_0
@@ -2618,7 +2407,6 @@
 
     aput-object p1, v1, v6
 
-    .line 2
     sget-object p0, Lf/q/b/b;->k:Lorg/aspectj/lang/c$b;
 
     const/4 v2, 0x0
@@ -2672,7 +2460,6 @@
 .method public static z(Ljava/lang/String;)[B
     .locals 6
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -2690,19 +2477,16 @@
 
     add-int/lit8 v4, v3, 0x1
 
-    .line 2
     invoke-virtual {p0, v3}, Ljava/lang/String;->charAt(I)C
 
     move-result v3
 
     add-int/lit8 v5, v4, 0x1
 
-    .line 3
     invoke-virtual {p0, v4}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
 
-    .line 4
     invoke-static {v3}, Lf/q/b/b;->P(C)I
 
     move-result v3

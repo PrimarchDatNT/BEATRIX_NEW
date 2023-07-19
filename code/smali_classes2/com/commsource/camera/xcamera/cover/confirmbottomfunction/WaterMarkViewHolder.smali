@@ -36,10 +36,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_water_mark:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkViewHolder$mViewBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkViewHolder$mViewBinding$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkViewHolder;)V
@@ -81,21 +79,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_3
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result p3
 
     if-eqz p3, :cond_1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkViewHolder;->v()Lcom/commsource/beautyplus/f0/sk;
 
@@ -111,14 +106,12 @@
 
     invoke-virtual {p3, p1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {p1}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
 
     move-result-object p1
 
-    .line 5
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
@@ -151,7 +144,6 @@
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkViewHolder;->v()Lcom/commsource/beautyplus/f0/sk;
 
     move-result-object p3
@@ -160,7 +152,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 7
     :cond_1
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
@@ -170,7 +161,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkViewHolder;->v()Lcom/commsource/beautyplus/f0/sk;
 
     move-result-object p1
@@ -183,7 +173,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkViewHolder;->v()Lcom/commsource/beautyplus/f0/sk;
 
@@ -195,7 +184,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 10
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

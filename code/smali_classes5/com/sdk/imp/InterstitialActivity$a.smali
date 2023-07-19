@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/InterstitialActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/InterstitialActivity$a;->a:Lcom/sdk/imp/InterstitialActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -50,14 +49,12 @@
 .method public onAdClicked()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/InterstitialActivity$a;->a:Lcom/sdk/imp/InterstitialActivity;
 
     const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lcom/sdk/imp/InterstitialActivity;->a(Lcom/sdk/imp/InterstitialActivity;Z)Z
 
-    .line 2
     invoke-static {}, Lcom/sdk/imp/InterstitialActivity;->b()Lcom/sdk/api/f;
 
     move-result-object v0
@@ -77,7 +74,6 @@
 .method public onAdImpression()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/InterstitialActivity;->b()Lcom/sdk/api/f;
 
     move-result-object v0

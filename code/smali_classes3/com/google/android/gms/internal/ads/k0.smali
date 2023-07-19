@@ -34,13 +34,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/k0;->b:Lcom/google/android/gms/internal/ads/j0;
 
-    .line 3
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
@@ -55,7 +52,6 @@
 .method public final a(Ljava/lang/String;Lcom/google/android/gms/internal/ads/h0;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/k0;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -66,7 +62,6 @@
 .method public final b(Ljava/lang/String;Ljava/lang/String;J)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/k0;->b:Lcom/google/android/gms/internal/ads/j0;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/k0;->a:Ljava/util/Map;
@@ -91,11 +86,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v0, p2, p3, p4, v1}, Lcom/google/android/gms/internal/ads/j0;->a(Lcom/google/android/gms/internal/ads/h0;J[Ljava/lang/String;)Z
 
-    .line 3
     :cond_1
     :goto_0
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/k0;->a:Ljava/util/Map;
@@ -108,13 +101,11 @@
 
     goto :goto_1
 
-    .line 4
     :cond_2
     invoke-virtual {v0, p3, p4}, Lcom/google/android/gms/internal/ads/j0;->c(J)Lcom/google/android/gms/internal/ads/h0;
 
     move-result-object p3
 
-    .line 5
     :goto_1
     invoke-interface {p2, p1, p3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -126,7 +117,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/k0;->b:Lcom/google/android/gms/internal/ads/j0;
 
     return-object v0

@@ -29,10 +29,8 @@
 .method public constructor <init>(Lcom/google/firebase/crashlytics/e/i/h;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$c0;->a:Lcom/google/firebase/crashlytics/e/i/h;
 
     return-void
@@ -43,7 +41,6 @@
 .method public a()Ljava/io/File;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/i$c0;->a:Lcom/google/firebase/crashlytics/e/i/h;
@@ -56,14 +53,12 @@
 
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
 
     :cond_0

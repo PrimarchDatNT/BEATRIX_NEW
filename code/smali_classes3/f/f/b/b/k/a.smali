@@ -24,14 +24,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/e;->i()Lcom/google/android/gms/common/e;
 
     move-result-object v0
 
     sput-object v0, Lf/f/b/b/k/a;->a:Lcom/google/android/gms/common/e;
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -40,7 +38,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     sput-object v0, Lf/f/b/b/k/a;->c:Ljava/lang/reflect/Method;
 
     return-void
@@ -49,7 +46,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -66,24 +62,20 @@
 
     const-string v0, "Context must not be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     sget-object v0, Lf/f/b/b/k/a;->a:Lcom/google/android/gms/common/e;
 
     const v1, 0xb5f608
 
     invoke-virtual {v0, p0, v1}, Lcom/google/android/gms/common/e;->p(Landroid/content/Context;I)V
 
-    .line 3
     invoke-static {p0}, Lf/f/b/b/k/a;->d(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 4
     invoke-static {p0}, Lf/f/b/b/k/a;->e(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object v0
@@ -93,12 +85,10 @@
 
     if-eqz v0, :cond_6
 
-    .line 5
     sget-object v2, Lf/f/b/b/k/a;->b:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 6
     :try_start_0
     sget-object v3, Lf/f/b/b/k/a;->c:Ljava/lang/reflect/Method;
 
@@ -108,35 +98,30 @@
 
     if-nez v3, :cond_1
 
-    .line 7
     invoke-virtual {v0}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v3
 
     const-string v6, "com.google.android.gms.common.security.ProviderInstallerImpl"
 
-    .line 8
     invoke-virtual {v3, v6}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v3
 
     new-array v6, v5, [Ljava/lang/Class;
 
-    .line 9
     const-class v7, Landroid/content/Context;
 
     aput-object v7, v6, v4
 
     const-string v7, "insertProvider"
 
-    .line 10
     invoke-virtual {v3, v7, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v3
 
     sput-object v3, Lf/f/b/b/k/a;->c:Ljava/lang/reflect/Method;
 
-    .line 11
     :cond_1
     sget-object v3, Lf/f/b/b/k/a;->c:Ljava/lang/reflect/Method;
 
@@ -151,7 +136,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 12
     :try_start_1
     monitor-exit v2
 
@@ -165,7 +149,6 @@
     :catch_0
     move-exception v0
 
-    .line 13
     invoke-virtual {v0}, Ljava/lang/Exception;->getCause()Ljava/lang/Throwable;
 
     move-result-object v3
@@ -174,7 +157,6 @@
 
     const/4 v5, 0x6
 
-    .line 14
     invoke-static {v4, v5}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v4
@@ -183,7 +165,6 @@
 
     if-nez v3, :cond_2
 
-    .line 15
     invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v4
@@ -200,7 +181,6 @@
 
     const-string v6, "Failed to install provider: "
 
-    .line 16
     invoke-static {v4}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
@@ -233,18 +213,15 @@
     :cond_5
     move-object v0, v3
 
-    .line 17
     :goto_2
     invoke-static {p0, v0}, Lcom/google/android/gms/common/util/i;->a(Landroid/content/Context;Ljava/lang/Throwable;)Z
 
-    .line 18
     new-instance p0, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;
 
     invoke-direct {p0, v1}, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;-><init>(I)V
 
     throw p0
 
-    .line 19
     :goto_3
     monitor-exit v2
     :try_end_1
@@ -257,10 +234,8 @@
 
     const-string v0, "Failed to get remote context"
 
-    .line 20
     invoke-static {p0, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 21
     new-instance p0, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;
 
     invoke-direct {p0, v1}, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;-><init>(I)V
@@ -273,20 +248,16 @@
 
     const-string v0, "Context must not be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Listener must not be null"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Must be called on the UI thread"
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 4
     new-instance v0, Lf/f/b/b/k/b;
 
     invoke-direct {v0, p0, p1}, Lf/f/b/b/k/b;-><init>(Landroid/content/Context;Lf/f/b/b/k/a$a;)V
@@ -295,7 +266,6 @@
 
     new-array p0, p0, [Ljava/lang/Void;
 
-    .line 5
     invoke-virtual {v0, p0}, Landroid/os/AsyncTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     return-void
@@ -304,7 +274,6 @@
 .method static synthetic c()Lcom/google/android/gms/common/e;
     .locals 1
 
-    .line 1
     sget-object v0, Lf/f/b/b/k/a;->a:Lcom/google/android/gms/common/e;
 
     return-object v0
@@ -315,18 +284,15 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     :try_start_0
     sget-object v0, Lcom/google/android/gms/dynamite/DynamiteModule;->l:Lcom/google/android/gms/dynamite/DynamiteModule$a;
 
     const-string v1, "providerinstaller"
 
-    .line 2
     invoke-static {p0, v0, v1}, Lcom/google/android/gms/dynamite/DynamiteModule;->e(Landroid/content/Context;Lcom/google/android/gms/dynamite/DynamiteModule$a;Ljava/lang/String;)Lcom/google/android/gms/dynamite/DynamiteModule;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/dynamite/DynamiteModule;->b()Landroid/content/Context;
 
     move-result-object p0
@@ -340,7 +306,6 @@
 
     const-string v0, "Failed to load providerinstaller module: "
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object p0
@@ -381,7 +346,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/google/android/gms/common/f;->getRemoteContext(Landroid/content/Context;)Landroid/content/Context;
 
@@ -396,7 +360,6 @@
 
     const-string v1, "Failed to load GMS Core context for providerinstaller: "
 
-    .line 2
     invoke-virtual {v0}, Landroid/content/res/Resources$NotFoundException;->getMessage()Ljava/lang/String;
 
     move-result-object v2
@@ -429,7 +392,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {p0, v0}, Lcom/google/android/gms/common/util/i;->a(Landroid/content/Context;Ljava/lang/Throwable;)Z
 
     const/4 p0, 0x0

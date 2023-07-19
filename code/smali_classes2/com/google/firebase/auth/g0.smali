@@ -12,7 +12,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/FirebaseAuth;Lcom/google/firebase/auth/PhoneAuthProvider$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/g0;->c:Lcom/google/firebase/auth/FirebaseAuth;
 
     iput-object p2, p0, Lcom/google/firebase/auth/g0;->b:Lcom/google/firebase/auth/PhoneAuthProvider$a;
@@ -33,12 +32,10 @@
 .method public final b(Ljava/lang/String;Lcom/google/firebase/auth/PhoneAuthProvider$ForceResendingToken;)V
     .locals 1
 
-    .line 1
     iget-object p2, p0, Lcom/google/firebase/auth/g0;->b:Lcom/google/firebase/auth/PhoneAuthProvider$a;
 
     iget-object v0, p0, Lcom/google/firebase/auth/g0;->c:Lcom/google/firebase/auth/FirebaseAuth;
 
-    .line 2
     invoke-static {v0}, Lcom/google/firebase/auth/FirebaseAuth;->i0(Lcom/google/firebase/auth/FirebaseAuth;)Lcom/google/firebase/auth/internal/g0;
 
     move-result-object v0
@@ -51,7 +48,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p2, p1}, Lcom/google/firebase/auth/PhoneAuthProvider$a;->c(Lcom/google/firebase/auth/PhoneAuthCredential;)V
 
     return-void
@@ -60,7 +56,6 @@
 .method public final c(Lcom/google/firebase/auth/PhoneAuthCredential;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/g0;->b:Lcom/google/firebase/auth/PhoneAuthProvider$a;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/auth/PhoneAuthProvider$a;->c(Lcom/google/firebase/auth/PhoneAuthCredential;)V
@@ -71,7 +66,6 @@
 .method public final d(Lcom/google/firebase/FirebaseException;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/g0;->b:Lcom/google/firebase/auth/PhoneAuthProvider$a;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/auth/PhoneAuthProvider$a;->d(Lcom/google/firebase/FirebaseException;)V

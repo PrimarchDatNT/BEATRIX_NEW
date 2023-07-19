@@ -34,12 +34,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/repository/child/makeup/i;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput v0, p0, Lcom/commsource/repository/child/makeup/f;->k:I
 
     return-void
@@ -56,17 +54,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/repository/child/makeup/i;->q()Lcom/commsource/repository/child/makeup/h;
 
     move-result-object v1
 
-    .line 2
     iget v2, p0, Lcom/commsource/repository/child/makeup/f;->j:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->G0(I)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/repository/child/makeup/f;->i:Lcom/meitu/template/bean/i;
 
     const/4 v3, 0x0
@@ -87,10 +82,8 @@
 
     const/4 v2, 0x2
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->h0(I)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/repository/child/makeup/f;->i:Lcom/meitu/template/bean/i;
 
     if-eqz v2, :cond_1
@@ -102,12 +95,10 @@
     :cond_1
     invoke-virtual {v1, v3}, Lcom/commsource/repository/child/makeup/h;->E0(Ljava/lang/String;)V
 
-    .line 6
     iget v2, p0, Lcom/commsource/repository/child/makeup/f;->k:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->n0(I)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -120,7 +111,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/repository/child/makeup/f;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -137,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/makeup/f;->i:Lcom/meitu/template/bean/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -152,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/repository/child/makeup/f;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -167,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/repository/child/makeup/f;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -186,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/repository/child/makeup/f;->i:Lcom/meitu/template/bean/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -201,7 +187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/repository/child/makeup/f;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

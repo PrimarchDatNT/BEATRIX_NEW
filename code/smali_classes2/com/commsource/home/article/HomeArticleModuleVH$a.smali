@@ -19,7 +19,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     return-void
@@ -66,7 +65,6 @@
 
     invoke-static {p4, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object p2, Lcom/commsource/home/c;->y:Lcom/commsource/home/c;
 
     invoke-virtual {p2}, Lcom/commsource/home/c;->h()I
@@ -77,7 +75,6 @@
 
     iput p3, p1, Landroid/graphics/Rect;->right:I
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/home/c;->h()I
 
     move-result p2
@@ -86,7 +83,6 @@
 
     iput p2, p1, Landroid/graphics/Rect;->left:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

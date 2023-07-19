@@ -57,7 +57,6 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     iput p1, p0, Lcom/commsource/util/delegate/process/k;->a:I
@@ -74,7 +73,6 @@
 
     const/4 p1, -0x1
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1}, Lcom/commsource/util/delegate/process/k;-><init>(I)V
 
@@ -102,12 +100,10 @@
 
     const-string p2, "TARGET_GROUP_ID"
 
-    .line 1
     invoke-virtual {p3, p2, p1}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result p1
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/util/delegate/process/k;->e(I)V
 
     :cond_0
@@ -125,7 +121,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcom/commsource/store/sticker/StickerStoreActivity;->W:Lcom/commsource/store/sticker/StickerStoreActivity$a;
 
     iget v1, p0, Lcom/commsource/util/delegate/process/k;->a:I
@@ -134,7 +129,6 @@
 
     invoke-virtual {v0, p1, v2, v1}, Lcom/commsource/store/sticker/StickerStoreActivity$a;->a(Landroidx/fragment/app/Fragment;II)V
 
-    .line 2
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -160,7 +154,6 @@
 .method public final d()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/util/delegate/process/k;->a:I
 
     return v0

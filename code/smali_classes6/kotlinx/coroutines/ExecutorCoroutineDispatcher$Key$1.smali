@@ -60,7 +60,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/coroutines/CoroutineContext$a;
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/ExecutorCoroutineDispatcher$Key$1;->invoke(Lcotlin/coroutines/CoroutineContext$a;)Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
@@ -79,7 +78,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 2
     instance-of v0, p1, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
 
     if-nez v0, :cond_0

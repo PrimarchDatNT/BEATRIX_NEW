@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/MoPubStreamAdPlacer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubStreamAdPlacer$4;->this$0:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onAdsAvailable()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubStreamAdPlacer$4;->this$0:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->handleAdsAvailable()V

@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -51,21 +50,16 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->b:Ljava/lang/String;
 
-    .line 3
     iput-object v0, p0, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->c:Ljava/lang/Thread;
 
-    .line 4
     iput-object v0, p0, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->d:Ljava/lang/String;
 
-    .line 5
     iput-object v0, p0, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->e:Ljava/util/Map;
 
     return-void
@@ -78,7 +72,6 @@
 
     if-eqz p0, :cond_e
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -87,21 +80,18 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1, p0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 3
     new-instance p0, Lcom/tencent/bugly/crashreport/crash/h5/a;
 
     invoke-direct {p0}, Lcom/tencent/bugly/crashreport/crash/h5/a;-><init>()V
 
     const-string v2, "projectRoot"
 
-    .line 4
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -115,7 +105,6 @@
     :cond_1
     const-string v2, "context"
 
-    .line 5
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -129,7 +118,6 @@
     :cond_2
     const-string v2, "url"
 
-    .line 6
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -143,7 +131,6 @@
     :cond_3
     const-string v2, "userAgent"
 
-    .line 7
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -157,7 +144,6 @@
     :cond_4
     const-string v2, "language"
 
-    .line 8
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -171,7 +157,6 @@
     :cond_5
     const-string v2, "name"
 
-    .line 9
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -182,7 +167,6 @@
 
     const-string v3, "null"
 
-    .line 10
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -194,7 +178,6 @@
     :cond_6
     const-string v2, "stacktrace"
 
-    .line 11
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -206,7 +189,6 @@
     :cond_7
     const-string v3, "\n"
 
-    .line 12
     invoke-virtual {v2, v3}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v3
@@ -219,7 +201,6 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    .line 13
     invoke-static {p0, v1}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-object v0
@@ -227,14 +208,12 @@
     :cond_8
     add-int/lit8 v5, v3, 0x1
 
-    .line 14
     invoke-virtual {v2, v5}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v5
 
     iput-object v5, p0, Lcom/tencent/bugly/crashreport/crash/h5/a;->h:Ljava/lang/String;
 
-    .line 15
     invoke-virtual {v2, v4, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v2
@@ -243,14 +222,12 @@
 
     const-string v3, ":"
 
-    .line 16
     invoke-virtual {v2, v3}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v2
 
     if-lez v2, :cond_9
 
-    .line 17
     iget-object v3, p0, Lcom/tencent/bugly/crashreport/crash/h5/a;->g:Ljava/lang/String;
 
     add-int/lit8 v2, v2, 0x1
@@ -264,14 +241,12 @@
     :cond_9
     const-string v2, "file"
 
-    .line 18
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/tencent/bugly/crashreport/crash/h5/a;->i:Ljava/lang/String;
 
-    .line 19
     iget-object v2, p0, Lcom/tencent/bugly/crashreport/crash/h5/a;->f:Ljava/lang/String;
 
     if-nez v2, :cond_a
@@ -281,7 +256,6 @@
     :cond_a
     const-string v2, "lineNumber"
 
-    .line 20
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
 
     move-result-wide v2
@@ -299,7 +273,6 @@
     :cond_b
     const-string v2, "columnNumber"
 
-    .line 21
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
 
     move-result-wide v1
@@ -317,10 +290,8 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    .line 22
     invoke-static {v1, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 23
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "[projectRoot]: "
@@ -339,7 +310,6 @@
 
     invoke-static {v1, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 24
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "[context]: "
@@ -358,7 +328,6 @@
 
     invoke-static {v1, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 25
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "[url]: "
@@ -377,7 +346,6 @@
 
     invoke-static {v1, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 26
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "[userAgent]: "
@@ -396,7 +364,6 @@
 
     invoke-static {v1, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 27
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "[language]: "
@@ -415,7 +382,6 @@
 
     invoke-static {v1, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 28
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "[name]: "
@@ -434,7 +400,6 @@
 
     invoke-static {v1, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 29
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "[message]: "
@@ -453,7 +418,6 @@
 
     invoke-static {v1, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 30
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "[stacktrace]: \n"
@@ -472,7 +436,6 @@
 
     invoke-static {v1, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 31
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "[file]: "
@@ -491,7 +454,6 @@
 
     invoke-static {v1, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 32
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "[lineNumber]: "
@@ -510,7 +472,6 @@
 
     invoke-static {v1, v2}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 33
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "[columnNumber]: "
@@ -540,14 +501,12 @@
     :catchall_0
     move-exception p0
 
-    .line 34
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_e
 
-    .line 35
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_e
@@ -562,7 +521,6 @@
 
     if-eqz p0, :cond_4
 
-    .line 1
     sget-object v1, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->a:Ljava/util/HashSet;
 
     invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
@@ -581,13 +539,11 @@
 
     goto :goto_2
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;
 
     invoke-direct {v1}, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;-><init>()V
 
-    .line 3
     sget-object v2, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->a:Ljava/util/HashSet;
 
     invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
@@ -600,7 +556,6 @@
 
     invoke-virtual {v2, v3}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 4
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v2
@@ -611,7 +566,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -671,7 +625,6 @@
     :goto_1
     iput-object v0, v1, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->d:Ljava/lang/String;
 
-    .line 6
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -720,7 +673,6 @@
 
     const-string p1, "Log from js: %s"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -739,12 +691,10 @@
 
     const-string v0, "Payload from JS is null."
 
-    .line 1
     invoke-static {v0, p1}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/lang/String;->getBytes()[B
 
@@ -754,7 +704,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->b:Ljava/lang/String;
 
     if-eqz v2, :cond_1
@@ -769,12 +718,10 @@
 
     const-string v0, "Same payload from js. Please check whether you\'ve injected bugly.js more than one times."
 
-    .line 4
     invoke-static {v0, p1}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
 
-    .line 5
     :cond_1
     iput-object v1, p0, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->b:Ljava/lang/String;
 
@@ -782,10 +729,8 @@
 
     const-string v2, "Handling JS exception ..."
 
-    .line 6
     invoke-static {v2, v1}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 7
     invoke-static {p1}, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->a(Ljava/lang/String;)Lcom/tencent/bugly/crashreport/crash/h5/a;
 
     move-result-object p1
@@ -796,18 +741,15 @@
 
     const-string v0, "Failed to parse payload."
 
-    .line 8
     invoke-static {v0, p1}, Lcom/tencent/bugly/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
 
-    .line 9
     :cond_2
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 10
     new-instance v1, Ljava/util/LinkedHashMap;
 
     invoke-direct {v1}, Ljava/util/LinkedHashMap;-><init>()V
@@ -876,19 +818,16 @@
     :cond_8
     invoke-interface {v0, v1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
 
-    .line 11
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->e:Ljava/util/Map;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
 
-    .line 12
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->d:Ljava/lang/String;
 
     const-string v2, "Java Stack"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     iget-object v1, p0, Lcom/tencent/bugly/crashreport/crash/h5/H5JavaScriptInterface;->c:Ljava/lang/Thread;
 
     if-eqz p1, :cond_9

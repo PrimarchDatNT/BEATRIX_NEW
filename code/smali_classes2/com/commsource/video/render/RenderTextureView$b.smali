@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +55,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
 
     invoke-static {v1}, Lcom/commsource/video/render/RenderTextureView;->g(Lcom/commsource/video/render/RenderTextureView;)Lcom/commsource/video/render/b;
@@ -65,17 +63,14 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/video/render/RenderTextureView$a;
 
     iget-object v3, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
 
     invoke-direct {v2, v3, v3, p1}, Lcom/commsource/video/render/RenderTextureView$a;-><init>(Lcom/commsource/video/render/RenderTextureView;Lcom/commsource/video/render/RenderTextureView;Landroid/graphics/SurfaceTexture;)V
 
-    .line 3
     invoke-interface {v1, v2, p2, p3}, Lcom/commsource/video/render/b;->a(Lcom/commsource/video/render/c;II)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -97,7 +92,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
 
     invoke-static {v1}, Lcom/commsource/video/render/RenderTextureView;->g(Lcom/commsource/video/render/RenderTextureView;)Lcom/commsource/video/render/b;
@@ -106,17 +100,14 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/video/render/RenderTextureView$a;
 
     iget-object v3, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
 
     invoke-direct {v2, v3, v3, p1}, Lcom/commsource/video/render/RenderTextureView$a;-><init>(Lcom/commsource/video/render/RenderTextureView;Lcom/commsource/video/render/RenderTextureView;Landroid/graphics/SurfaceTexture;)V
 
-    .line 3
     invoke-interface {v1, v2}, Lcom/commsource/video/render/b;->c(Lcom/commsource/video/render/c;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
 
@@ -140,10 +131,8 @@
 
     const/4 v4, 0x0
 
-    .line 5
     invoke-static {v2, v3, v4, v1, v4}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
 
     invoke-virtual {v1}, Lcom/commsource/video/render/RenderTextureView;->getOwnSurfaceTexture()Landroid/graphics/SurfaceTexture;
@@ -154,13 +143,11 @@
 
     invoke-virtual {v1}, Landroid/graphics/SurfaceTexture;->release()V
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
 
     invoke-static {v1, v4}, Lcom/commsource/video/render/RenderTextureView;->k(Lcom/commsource/video/render/RenderTextureView;Landroid/graphics/SurfaceTexture;)V
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
 
@@ -170,12 +157,10 @@
 
     if-eqz v1, :cond_3
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
 
     invoke-static {v1, p1}, Lcom/commsource/video/render/RenderTextureView;->k(Lcom/commsource/video/render/RenderTextureView;Landroid/graphics/SurfaceTexture;)V
 
-    .line 10
     :cond_3
     iget-object p1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
 
@@ -205,7 +190,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
 
     invoke-static {v1}, Lcom/commsource/video/render/RenderTextureView;->g(Lcom/commsource/video/render/RenderTextureView;)Lcom/commsource/video/render/b;
@@ -214,7 +198,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/video/render/RenderTextureView$a;
 
     iget-object v3, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
@@ -223,10 +206,8 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-interface {v1, v2, p1, p2, p3}, Lcom/commsource/video/render/b;->b(Lcom/commsource/video/render/c;III)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -248,7 +229,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

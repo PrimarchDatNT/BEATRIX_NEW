@@ -46,7 +46,6 @@
 .method static constructor <clinit>()V
     .locals 8
 
-    .line 1
     new-instance v0, Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     const-string v1, "DEBUG"
@@ -59,7 +58,6 @@
 
     sput-object v0, Lcom/mopub/common/logging/MoPubLog$LogLevel;->DEBUG:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     const-string v3, "INFO"
@@ -72,7 +70,6 @@
 
     sput-object v1, Lcom/mopub/common/logging/MoPubLog$LogLevel;->INFO:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 3
     new-instance v3, Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     const-string v5, "NONE"
@@ -95,7 +92,6 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lcom/mopub/common/logging/MoPubLog$LogLevel;->$VALUES:[Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     return-void
@@ -111,13 +107,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/mopub/common/logging/MoPubLog$LogLevel;->mLevel:I
 
-    .line 3
     iput-object p4, p0, Lcom/mopub/common/logging/MoPubLog$LogLevel;->mLevelString:Ljava/lang/String;
 
     return-void
@@ -136,18 +129,15 @@
 
     if-eq p0, v0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$LogLevel;->NONE:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     return-object p0
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$LogLevel;->INFO:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     return-object p0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$LogLevel;->DEBUG:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
@@ -157,7 +147,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/logging/MoPubLog$LogLevel;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -172,7 +161,6 @@
 .method public static values()[Lcom/mopub/common/logging/MoPubLog$LogLevel;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$LogLevel;->$VALUES:[Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     invoke-virtual {v0}, [Lcom/mopub/common/logging/MoPubLog$LogLevel;->clone()Ljava/lang/Object;
@@ -191,7 +179,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/mopub/common/logging/MoPubLog$LogLevel;->mLevel:I
 
     return v0
@@ -202,7 +189,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/logging/MoPubLog$LogLevel;->mLevelString:Ljava/lang/String;
 
     return-object v0

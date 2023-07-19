@@ -42,17 +42,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->g:Ljava/util/List;
 
-    .line 3
     sget-object v0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder$handler$2;->INSTANCE:Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder$handler$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -61,7 +58,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->h:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder$a;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder$a;-><init>(Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;)V
@@ -78,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -93,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->c:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -108,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -123,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->g:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->d:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -168,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -183,7 +172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->c:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -198,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -213,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -228,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->d:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -267,7 +252,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->i:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -286,26 +270,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p4, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->a:Ljava/lang/String;
 
-    .line 2
     iput p1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->b:I
 
-    .line 3
     iput-wide p2, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->c:J
 
     const/4 p1, 0x0
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->f:Z
 
     const/4 p1, 0x1
 
-    .line 5
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->e:Z
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->l()Landroid/os/Handler;
 
     move-result-object p1
@@ -314,7 +292,6 @@
 
     invoke-virtual {p1, p2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -327,12 +304,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->f:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->g:Ljava/util/List;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -341,7 +316,6 @@
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_0
     iget-boolean p1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->e:Z
 
@@ -349,27 +323,22 @@
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->f:Z
 
     const/4 p1, 0x0
 
-    .line 5
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->e:Z
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->d:J
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->g:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->clear()V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->l()Landroid/os/Handler;
 
     move-result-object p1
@@ -380,7 +349,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/grpc/ConnectivityState;->values()[Lio/grpc/ConnectivityState;
 
     move-result-object v0

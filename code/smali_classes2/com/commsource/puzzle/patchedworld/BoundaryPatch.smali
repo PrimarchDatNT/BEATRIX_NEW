@@ -63,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -80,29 +79,24 @@
 .method protected constructor <init>(Landroid/os/Parcel;)V
     .locals 0
 
-    .line 17
     invoke-direct {p0, p1}, Lcom/commsource/puzzle/patchedworld/VisualPatch;-><init>(Landroid/os/Parcel;)V
 
     const/4 p1, 0x1
 
-    .line 18
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->h1:I
 
-    .line 19
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->i1:Ljava/util/List;
 
-    .line 20
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->j1:Ljava/util/List;
 
-    .line 21
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -119,43 +113,36 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/puzzle/patchedworld/VisualPatch;-><init>(Lcom/commsource/puzzle/patchedworld/VisualPatch$b;)V
 
     const/4 v0, 0x1
 
-    .line 2
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->h1:I
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->i1:Ljava/util/List;
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->j1:Ljava/util/List;
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->k1:Ljava/util/List;
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/puzzle/patchedworld/BoundaryPatch$a;->L0(Lcom/commsource/puzzle/patchedworld/BoundaryPatch$a;)I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->h1:I
 
-    .line 7
     invoke-static {p1}, Lcom/commsource/puzzle/patchedworld/BoundaryPatch$a;->M0(Lcom/commsource/puzzle/patchedworld/BoundaryPatch$a;)[I
 
     move-result-object v0
@@ -164,7 +151,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 8
     invoke-static {p1}, Lcom/commsource/puzzle/patchedworld/BoundaryPatch$a;->M0(Lcom/commsource/puzzle/patchedworld/BoundaryPatch$a;)[I
 
     move-result-object v0
@@ -178,7 +164,6 @@
 
     aget v4, v0, v3
 
-    .line 9
     iget-object v5, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->i1:Ljava/util/List;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -191,7 +176,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     invoke-static {p1}, Lcom/commsource/puzzle/patchedworld/BoundaryPatch$a;->N0(Lcom/commsource/puzzle/patchedworld/BoundaryPatch$a;)[I
 
@@ -205,7 +189,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 11
     invoke-static {p1}, Lcom/commsource/puzzle/patchedworld/BoundaryPatch$a;->N0(Lcom/commsource/puzzle/patchedworld/BoundaryPatch$a;)[I
 
     move-result-object v0
@@ -219,7 +202,6 @@
 
     aget v4, v0, v3
 
-    .line 12
     iget-object v5, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->j1:Ljava/util/List;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -232,7 +214,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_1
     invoke-static {p1}, Lcom/commsource/puzzle/patchedworld/BoundaryPatch$a;->O0(Lcom/commsource/puzzle/patchedworld/BoundaryPatch$a;)[I
 
@@ -245,7 +226,6 @@
 
     aget v2, p1, v1
 
-    .line 14
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->k1:Ljava/util/List;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -258,7 +238,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_2
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->j1:Ljava/util/List;
 
@@ -270,7 +249,6 @@
 
     invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->k1:Ljava/util/List;
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -300,7 +278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->i1:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -323,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->j1:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -346,7 +322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->k1:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -365,7 +340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->h1:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -380,7 +354,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/BoundaryPatch;->h1:I
 
     const/4 v2, 0x1

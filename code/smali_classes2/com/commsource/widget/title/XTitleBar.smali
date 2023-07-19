@@ -121,27 +121,22 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const-string p3, ""
 
-    .line 2
     iput-object p3, p0, Lcom/commsource/widget/title/XTitleBar;->a:Ljava/lang/String;
 
     const/4 p3, 0x1
 
-    .line 3
     iput-boolean p3, p0, Lcom/commsource/widget/title/XTitleBar;->b:Z
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/widget/title/XTitleBar;->d:Ljava/util/List;
 
-    .line 5
     new-instance v0, Lcom/commsource/widget/title/XTitleBar$contentView$2;
 
     invoke-direct {v0, p1}, Lcom/commsource/widget/title/XTitleBar$contentView$2;-><init>(Landroid/content/Context;)V
@@ -154,7 +149,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 6
     sget-object v0, Lcom/res/provider/ResSTYLEABLE;->E2:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -167,7 +161,6 @@
 
     const/4 p2, 0x2
 
-    .line 7
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 
     move-result-object p2
@@ -176,7 +169,6 @@
 
     const/4 p2, 0x0
 
-    .line 8
     invoke-virtual {p1, p2, p3}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
@@ -185,7 +177,6 @@
 
     sget p2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
-    .line 9
     invoke-static {p2}, Lcom/meitu/library/p/d/b;->d(I)I
 
     move-result p2
@@ -196,17 +187,13 @@
 
     iput p2, p0, Lcom/commsource/widget/title/XTitleBar;->c:I
 
-    .line 10
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 11
     :cond_0
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->r()V
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->q()V
 
-    .line 13
     sget-object p1, Lcom/commsource/widget/title/XTitleBar$alphaValuer$2;->INSTANCE:Lcom/commsource/widget/title/XTitleBar$alphaValuer$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -215,7 +202,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/title/XTitleBar;->K:Lcotlin/w;
 
-    .line 14
     new-instance p1, Lcom/commsource/widget/title/XTitleBar$scrollAnimator$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/widget/title/XTitleBar$scrollAnimator$2;-><init>(Lcom/commsource/widget/title/XTitleBar;)V
@@ -226,7 +212,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/title/XTitleBar;->L:Lcotlin/w;
 
-    .line 15
     new-instance p1, Lcom/commsource/widget/title/XTitleBar$c;
 
     invoke-direct {p1, p0}, Lcom/commsource/widget/title/XTitleBar$c;-><init>(Lcom/commsource/widget/title/XTitleBar;)V
@@ -235,7 +220,6 @@
 
     const/4 p1, -0x1
 
-    .line 16
     iput p1, p0, Lcom/commsource/widget/title/XTitleBar;->P:I
 
     return-void
@@ -257,7 +241,6 @@
 
     const/4 p3, 0x0
 
-    .line 17
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/title/XTitleBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -271,7 +254,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/title/XTitleBar;->d:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -286,7 +268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getAlphaValuer()Lcom/commsource/camera/f1/n;
 
     move-result-object p0
@@ -303,7 +284,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getScrollAnimator()Lcom/commsource/camera/f1/l;
 
     move-result-object p0
@@ -320,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -335,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/title/XTitleBar;->g:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -410,7 +388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -425,7 +402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/title/XTitleBar;->g:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -446,7 +422,6 @@
 
     const/16 p2, 0x13
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/title/XTitleBar;->k(Lcom/commsource/widget/title/a;I)Lcom/commsource/widget/title/XTitleBar;
 
@@ -470,7 +445,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/title/XTitleBar;->m(Landroidx/core/widget/NestedScrollView;Z)V
 
@@ -492,7 +466,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/title/XTitleBar;->n(Landroidx/recyclerview/widget/RecyclerView;Z)V
 
@@ -508,7 +481,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
     if-nez v1, :cond_0
@@ -520,12 +492,10 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/widget/title/XTitleBar;->b:Z
 
     invoke-virtual {p0, v1}, Lcom/commsource/widget/title/XTitleBar;->u(Z)Lcom/commsource/widget/title/XTitleBar;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -538,7 +508,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/BoldTextView;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -553,7 +522,6 @@
 
     iput-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
-    .line 2
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v2, -0x1
@@ -562,10 +530,8 @@
 
     invoke-direct {v1, v2, v2, v3}, Landroid/widget/FrameLayout$LayoutParams;-><init>(III)V
 
-    .line 3
     iput v3, v1, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
     if-nez v4, :cond_0
@@ -575,7 +541,6 @@
     :cond_0
     invoke-virtual {v4, v1}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
     if-nez v1, :cond_1
@@ -585,7 +550,6 @@
     :cond_1
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setGravity(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
     if-nez v1, :cond_2
@@ -601,7 +565,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setBackgroundColor(I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
     if-nez v1, :cond_3
@@ -617,7 +580,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
     if-nez v1, :cond_4
@@ -631,19 +593,16 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/commsource/widget/AutoFitTextView;->setTextSize(IF)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getContentView()Landroid/widget/FrameLayout;
 
     move-result-object v1
 
     invoke-virtual {p0, v1, v2, v2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;II)V
 
-    .line 11
     new-instance v1, Landroid/view/View;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -656,7 +615,6 @@
 
     if-nez v1, :cond_5
 
-    .line 12
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
@@ -668,7 +626,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setBackgroundColor(I)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->g:Landroid/view/View;
 
     if-nez v1, :cond_6
@@ -690,19 +647,16 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->g:Landroid/view/View;
 
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 15
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
     move-result v1
 
     if-eqz v1, :cond_8
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
     const/4 v2, 0x0
@@ -715,7 +669,6 @@
 
     invoke-virtual {v1, v2, v3, v2, v2}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    .line 17
     :cond_7
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getContentView()Landroid/widget/FrameLayout;
 
@@ -727,7 +680,6 @@
 
     invoke-virtual {v1, v2, v3, v2, v2}, Landroid/widget/FrameLayout;->setPadding(IIII)V
 
-    .line 18
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -823,7 +775,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->d:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -902,7 +853,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->d:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
@@ -911,7 +861,6 @@
 
     if-nez v1, :cond_4
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -920,29 +869,24 @@
 
     move-result-object v1
 
-    .line 3
     iput-object v1, p1, Lcom/commsource/widget/title/a;->a:Landroid/view/View;
 
     if-eqz v1, :cond_4
 
-    .line 4
     invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v2
 
     if-nez v2, :cond_4
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/widget/title/XTitleBar;->d:Ljava/util/List;
 
     invoke-interface {v2, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/widget/title/XTitleBar;->N:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v2
@@ -957,21 +901,18 @@
 
     if-nez v2, :cond_1
 
-    .line 8
     new-instance v2, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v7, -0x2
 
     invoke-direct {v2, v7, v7, p2}, Landroid/widget/FrameLayout$LayoutParams;-><init>(III)V
 
-    .line 9
     invoke-virtual {p1}, Lcom/commsource/widget/title/a;->b()[I
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 10
     aget p2, p1, v6
 
     aget v5, p1, v5
@@ -982,7 +923,6 @@
 
     invoke-virtual {v2, p2, v5, v4, p1}, Landroid/widget/FrameLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 11
     :cond_0
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getContentView()Landroid/widget/FrameLayout;
 
@@ -992,7 +932,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_1
     invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -1002,14 +941,12 @@
 
     check-cast v2, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/widget/title/a;->b()[I
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    .line 14
     aget v6, p1, v6
 
     aget v5, p1, v5
@@ -1020,14 +957,11 @@
 
     invoke-virtual {v2, v6, v5, v4, p1}, Landroid/widget/FrameLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 15
     :cond_2
     iput p2, v2, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 16
     invoke-virtual {v1, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 17
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getContentView()Landroid/widget/FrameLayout;
 
     move-result-object p1
@@ -1036,7 +970,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_3
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -1048,7 +981,6 @@
 
     throw p1
 
-    .line 19
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1071,26 +1003,21 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->M:Landroid/view/View;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-object p1, p0, Lcom/commsource/widget/title/XTitleBar;->M:Landroid/view/View;
 
-    .line 4
     iput-boolean p2, p0, Lcom/commsource/widget/title/XTitleBar;->J:Z
 
     if-eqz p2, :cond_1
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getAlphaValuer()Lcom/commsource/camera/f1/n;
 
     move-result-object p2
@@ -1101,7 +1028,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getAlphaValuer()Lcom/commsource/camera/f1/n;
 
@@ -1111,7 +1037,6 @@
 
     invoke-virtual {p2, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 7
     :goto_0
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getScrollAnimator()Lcom/commsource/camera/f1/l;
 
@@ -1121,28 +1046,24 @@
 
     invoke-virtual {p2, v1, v2}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getScrollAnimator()Lcom/commsource/camera/f1/l;
 
     move-result-object p2
 
     invoke-virtual {p2}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getScrollAnimator()Lcom/commsource/camera/f1/l;
 
     move-result-object p2
 
     invoke-virtual {p2}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 10
     new-instance p2, Lcom/commsource/widget/title/XTitleBar$b;
 
     invoke-direct {p2, p0}, Lcom/commsource/widget/title/XTitleBar$b;-><init>(Lcom/commsource/widget/title/XTitleBar;)V
 
     invoke-virtual {p1, p2}, Landroidx/core/widget/NestedScrollView;->setOnScrollChangeListener(Landroidx/core/widget/NestedScrollView$OnScrollChangeListener;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1163,26 +1084,21 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->M:Landroid/view/View;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-object p1, p0, Lcom/commsource/widget/title/XTitleBar;->M:Landroid/view/View;
 
-    .line 4
     iput-boolean p2, p0, Lcom/commsource/widget/title/XTitleBar;->J:Z
 
     if-eqz p2, :cond_1
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getAlphaValuer()Lcom/commsource/camera/f1/n;
 
     move-result-object p2
@@ -1193,7 +1109,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getAlphaValuer()Lcom/commsource/camera/f1/n;
 
@@ -1203,7 +1118,6 @@
 
     invoke-virtual {p2, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 7
     :goto_0
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getScrollAnimator()Lcom/commsource/camera/f1/l;
 
@@ -1213,28 +1127,24 @@
 
     invoke-virtual {p2, v1, v2}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getScrollAnimator()Lcom/commsource/camera/f1/l;
 
     move-result-object p2
 
     invoke-virtual {p2}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/widget/title/XTitleBar;->getScrollAnimator()Lcom/commsource/camera/f1/l;
 
     move-result-object p2
 
     invoke-virtual {p2}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 10
     new-instance p2, Lcom/commsource/widget/title/XTitleBar$a;
 
     invoke-direct {p2, p0}, Lcom/commsource/widget/title/XTitleBar$a;-><init>(Lcom/commsource/widget/title/XTitleBar;)V
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1247,7 +1157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Landroid/view/View$MeasureSpec;->getMode(I)I
 
     move-result v1
@@ -1264,27 +1173,22 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/widget/title/XTitleBar;->O:Z
 
     if-nez v1, :cond_1
 
-    .line 3
     iput p2, p0, Lcom/commsource/widget/title/XTitleBar;->P:I
 
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/widget/title/XTitleBar;->O:Z
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget p2, p0, Lcom/commsource/widget/title/XTitleBar;->P:I
 
-    .line 6
     :goto_0
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
@@ -1292,7 +1196,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-static {p2}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
     move-result p2
@@ -1311,13 +1214,11 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     invoke-super {p0, p1, p2}, Landroid/widget/FrameLayout;->onMeasure(II)V
 
     goto :goto_1
 
-    .line 9
     :cond_3
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
@@ -1327,7 +1228,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 10
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F
 
     move-result p2
@@ -1350,7 +1250,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_4
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F
 
@@ -1364,7 +1263,6 @@
 
     invoke-super {p0, p1, p2}, Landroid/widget/FrameLayout;->onMeasure(II)V
 
-    .line 12
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1378,7 +1276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/title/XTitleBar;->J:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1393,7 +1290,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/title/XTitleBar;->J:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1425,12 +1321,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->d:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1441,17 +1335,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
 
     if-ne v1, p0, :cond_0
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->removeView(Landroid/view/View;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1467,17 +1358,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/title/XTitleBar;->b:Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/title/XTitleBar;->g:Landroid/view/View;
 
     if-eqz p1, :cond_2
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -1495,11 +1383,9 @@
     :goto_0
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -1518,10 +1404,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/title/XTitleBar;->a:Ljava/lang/String;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
     if-eqz v1, :cond_1
@@ -1532,7 +1416,6 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/title/XTitleBar;->f:Lcom/commsource/widget/BoldTextView;
 
     if-nez v1, :cond_0
@@ -1542,7 +1425,6 @@
     :cond_0
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

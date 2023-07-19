@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/XSeekBar$progressAnimator$2$a;->a:Lcom/commsource/widget/XSeekBar$progressAnimator$2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +55,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar$progressAnimator$2$a;->a:Lcom/commsource/widget/XSeekBar$progressAnimator$2;
 
     iget-object p1, p1, Lcom/commsource/widget/XSeekBar$progressAnimator$2;->this$0:Lcom/commsource/widget/XSeekBar;
@@ -82,7 +80,6 @@
 
     check-cast v1, Lcom/commsource/widget/XSeekBar$b;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/widget/XSeekBar$progressAnimator$2$a;->a:Lcom/commsource/widget/XSeekBar$progressAnimator$2;
 
     iget-object v2, v2, Lcom/commsource/widget/XSeekBar$progressAnimator$2;->this$0:Lcom/commsource/widget/XSeekBar;
@@ -105,7 +102,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -127,7 +123,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar$progressAnimator$2$a;->a:Lcom/commsource/widget/XSeekBar$progressAnimator$2;
 
     iget-object p1, p1, Lcom/commsource/widget/XSeekBar$progressAnimator$2;->this$0:Lcom/commsource/widget/XSeekBar;
@@ -154,7 +149,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -183,7 +177,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar$progressAnimator$2$a;->a:Lcom/commsource/widget/XSeekBar$progressAnimator$2;
 
     iget-object p1, p1, Lcom/commsource/widget/XSeekBar$progressAnimator$2;->this$0:Lcom/commsource/widget/XSeekBar;
@@ -209,7 +202,6 @@
 
     check-cast v1, Lcom/commsource/widget/XSeekBar$b;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/widget/XSeekBar$progressAnimator$2$a;->a:Lcom/commsource/widget/XSeekBar$progressAnimator$2;
 
     iget-object v2, v2, Lcom/commsource/widget/XSeekBar$progressAnimator$2;->this$0:Lcom/commsource/widget/XSeekBar;
@@ -232,7 +224,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -246,7 +237,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/XSeekBar$progressAnimator$2$a;->a:Lcom/commsource/widget/XSeekBar$progressAnimator$2;
 
     iget-object v0, v0, Lcom/commsource/widget/XSeekBar$progressAnimator$2;->this$0:Lcom/commsource/widget/XSeekBar;
@@ -259,7 +249,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/widget/XSeekBar$progressAnimator$2$a;->a:Lcom/commsource/widget/XSeekBar$progressAnimator$2;
 
     iget-object v0, v0, Lcom/commsource/widget/XSeekBar$progressAnimator$2;->this$0:Lcom/commsource/widget/XSeekBar;
@@ -270,7 +259,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/widget/XSeekBar;->setProgressX(F)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/widget/XSeekBar$progressAnimator$2$a;->a:Lcom/commsource/widget/XSeekBar$progressAnimator$2;
 
     iget-object v0, v0, Lcom/commsource/widget/XSeekBar$progressAnimator$2;->this$0:Lcom/commsource/widget/XSeekBar;
@@ -279,7 +267,6 @@
 
     invoke-static {v0, p1, v1}, Lcom/commsource/widget/XSeekBar;->e(Lcom/commsource/widget/XSeekBar;FZ)V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

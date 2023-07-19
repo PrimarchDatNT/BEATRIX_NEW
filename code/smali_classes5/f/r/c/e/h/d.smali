@@ -11,10 +11,8 @@
 .method public constructor <init>(Lf/r/c/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Lf/r/c/b;->b()Landroid/content/SharedPreferences;
 
     move-result-object p1
@@ -29,7 +27,6 @@
 .method public a()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lf/r/c/e/h/d;->a:Landroid/content/SharedPreferences;
 
     const-string v1, "IABConsent_ConsentString"
@@ -46,7 +43,6 @@
 .method public b()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lf/r/c/e/h/d;->a:Landroid/content/SharedPreferences;
 
     const-string v1, "IABTCF_gdprApplies"
@@ -63,7 +59,6 @@
 .method public c()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lf/r/c/e/h/d;->a:Landroid/content/SharedPreferences;
 
     const-string v1, "IABConsent_SubjectToGDPR"
@@ -80,7 +75,6 @@
 .method public d()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lf/r/c/e/h/d;->a:Landroid/content/SharedPreferences;
 
     const-string v1, "IABTCF_TCString"
@@ -97,7 +91,6 @@
 .method public e()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lf/r/c/e/h/d;->a:Landroid/content/SharedPreferences;
 
     const-string v1, "IABUSPrivacy_String"

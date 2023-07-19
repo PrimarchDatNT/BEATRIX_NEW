@@ -28,7 +28,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/reflect/TypeToken$f;-><init>(Lcom/google/common/reflect/TypeToken$a;)V
 
     return-void
@@ -39,7 +38,6 @@
 .method bridge synthetic e(Ljava/lang/Object;)Ljava/lang/Iterable;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Class;
 
     invoke-virtual {p0, p1}, Lcom/google/common/reflect/TypeToken$f$b;->i(Ljava/lang/Class;)Ljava/lang/Iterable;
@@ -52,7 +50,6 @@
 .method bridge synthetic f(Ljava/lang/Object;)Ljava/lang/Class;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Class;
 
     invoke-virtual {p0, p1}, Lcom/google/common/reflect/TypeToken$f$b;->j(Ljava/lang/Class;)Ljava/lang/Class;
@@ -67,7 +64,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/lang/Class;
 
     invoke-virtual {p0, p1}, Lcom/google/common/reflect/TypeToken$f$b;->k(Ljava/lang/Class;)Ljava/lang/Class;
@@ -91,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Class;->getInterfaces()[Ljava/lang/Class;
 
     move-result-object p1
@@ -133,7 +128,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
 
     move-result-object p1

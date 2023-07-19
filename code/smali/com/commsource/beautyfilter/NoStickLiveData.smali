@@ -43,15 +43,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     const/high16 v0, -0x80000000
 
-    .line 2
     iput v0, p0, Lcom/commsource/beautyfilter/NoStickLiveData;->a:I
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArraySet;
 
     invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArraySet;-><init>()V
@@ -71,14 +68,12 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyfilter/NoStickLiveData;->a:I
 
     add-int/lit8 v1, v1, 0x1
 
     iput v1, p0, Lcom/commsource/beautyfilter/NoStickLiveData;->a:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyfilter/NoStickLiveData;->b:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     invoke-virtual {v1}, Ljava/util/concurrent/CopyOnWriteArraySet;->iterator()Ljava/util/Iterator;
@@ -98,7 +93,6 @@
 
     check-cast v2, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;->b()Lcom/commsource/beautyfilter/NoStickLiveData$a;
 
     move-result-object v3
@@ -107,7 +101,6 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/beautyfilter/NoStickLiveData$a;->d(I)V
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;->b()Lcom/commsource/beautyfilter/NoStickLiveData$a;
 
     move-result-object v2
@@ -118,7 +111,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -173,32 +165,26 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyfilter/NoStickLiveData;->a:I
 
     invoke-virtual {p2, v1}, Lcom/commsource/beautyfilter/NoStickLiveData$a;->d(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;-><init>(Lcom/commsource/beautyfilter/NoStickLiveData;Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautyfilter/NoStickLiveData;->b:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     invoke-virtual {v2, v1}, Ljava/util/concurrent/CopyOnWriteArraySet;->add(Ljava/lang/Object;)Z
 
-    .line 4
     invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v2
 
     invoke-virtual {v2, v1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 5
     invoke-super {p0, p1, p2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -237,14 +223,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData$b;
 
     invoke-direct {v1, p2}, Lcom/commsource/beautyfilter/NoStickLiveData$b;-><init>(Lcotlin/jvm/u/l;)V
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -265,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -306,10 +289,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -331,13 +312,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData;->c()V
 
-    .line 2
     invoke-super {p0, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -358,7 +336,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NoStickLiveData;->b:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     invoke-virtual {v1}, Ljava/util/concurrent/CopyOnWriteArraySet;->iterator()Ljava/util/Iterator;
@@ -379,25 +356,21 @@
 
     check-cast v2, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;
 
-    .line 2
     invoke-virtual {v2, p1}, Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;->c(Landroidx/lifecycle/LifecycleOwner;)Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/beautyfilter/NoStickLiveData;->b:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     invoke-virtual {v3, v2}, Ljava/util/concurrent/CopyOnWriteArraySet;->remove(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-super {p0, p1}, Landroidx/lifecycle/LiveData;->removeObservers(Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -419,13 +392,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData;->c()V
 
-    .line 2
     invoke-super {p0, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

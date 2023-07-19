@@ -42,10 +42,8 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/dq1;-><init>()V
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/internal/ads/zzdvw;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/ads/zzdvw;-><init>(Lcom/google/android/gms/internal/ads/fr1;Lcom/google/android/gms/internal/ads/vp1;)V
@@ -65,10 +63,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/dq1;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/zzdvv;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/ads/zzdvv;-><init>(Lcom/google/android/gms/internal/ads/fr1;Ljava/util/concurrent/Callable;)V
@@ -96,7 +92,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/fr1;
 
     invoke-static {p0, p1}, Ljava/util/concurrent/Executors;->callable(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Callable;
@@ -122,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/fr1;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/fr1;-><init>(Ljava/util/concurrent/Callable;)V
@@ -135,28 +129,23 @@
 .method protected final b()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/internal/ads/zzdtu;->b()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzdtu;->l()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/fr1;->J:Lcom/google/android/gms/internal/ads/zzdve;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzdve;->interruptTask()V
 
     :cond_0
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/fr1;->J:Lcom/google/android/gms/internal/ads/zzdve;
 
     return-void
@@ -165,12 +154,10 @@
 .method protected final h()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/fr1;->J:Lcom/google/android/gms/internal/ads/zzdve;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -205,7 +192,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-super {p0}, Lcom/google/android/gms/internal/ads/zzdtu;->h()Ljava/lang/String;
 
@@ -217,18 +203,15 @@
 .method public final run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/fr1;->J:Lcom/google/android/gms/internal/ads/zzdve;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzdve;->run()V
 
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/fr1;->J:Lcom/google/android/gms/internal/ads/zzdve;
 
     return-void

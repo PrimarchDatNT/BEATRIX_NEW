@@ -24,7 +24,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     invoke-static {}, Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;->values()[Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;
 
     move-result-object v0
@@ -96,7 +95,6 @@
     :try_end_3
     .catch Ljava/lang/NoSuchFieldError; {:try_start_3 .. :try_end_3} :catch_3
 
-    .line 2
     :catch_3
     invoke-static {}, Lcom/tencent/matrix/backtrace/WeChatBacktrace$WarmUpTiming;->values()[Lcom/tencent/matrix/backtrace/WeChatBacktrace$WarmUpTiming;
 

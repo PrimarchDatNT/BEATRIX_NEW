@@ -55,7 +55,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/collections/k0;->b:Ljava/util/Iterator;
@@ -78,7 +77,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/i0;
 
     iget v1, p0, Lcotlin/collections/k0;->a:I
@@ -106,7 +104,6 @@
 .method public final hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/k0;->b:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -119,7 +116,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/k0;->a()Lcotlin/collections/i0;
 
     move-result-object v0

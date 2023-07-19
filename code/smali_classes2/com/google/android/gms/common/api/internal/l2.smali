@@ -19,7 +19,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/w$a;[Lcom/google/android/gms/common/Feature;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/l2;->c:Lcom/google/android/gms/common/api/internal/w$a;
 
     const/4 p1, 0x0
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/l2;->c:Lcom/google/android/gms/common/api/internal/w$a;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/w$a;->f(Lcom/google/android/gms/common/api/internal/w$a;)Lcom/google/android/gms/common/api/internal/r;

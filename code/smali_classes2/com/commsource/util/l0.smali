@@ -21,7 +21,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Float;->floatValue()F
 
     move-result p0
@@ -30,7 +29,6 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -50,7 +48,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
     move-result p0
@@ -59,7 +56,6 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -79,7 +75,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Long;->longValue()J
 
     move-result-wide p0
@@ -88,7 +83,6 @@
 
     return-wide p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -118,12 +112,10 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -143,7 +135,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p0
@@ -152,7 +143,6 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -172,7 +162,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcom/commsource/util/l0;->A(Ljava/lang/Float;F)F
 
@@ -196,7 +185,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcom/commsource/util/l0;->B(Ljava/lang/Integer;I)I
 
@@ -220,7 +208,6 @@
 
     const-wide/16 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1, p2}, Lcom/commsource/util/l0;->C(Ljava/lang/Long;J)J
 
@@ -244,7 +231,6 @@
 
     const-string p1, ""
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcom/commsource/util/l0;->D(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -268,7 +254,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcom/commsource/util/l0;->E(Ljava/lang/Boolean;Z)Z
 
@@ -306,7 +291,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/k0;->a:[I
 
     invoke-virtual {p2}, Ljava/lang/Enum;->ordinal()I
@@ -335,7 +319,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/meitu/library/util/Debug/Debug;->b:Ljava/lang/String;
 
@@ -349,7 +332,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_2
     sget-object p1, Lcom/meitu/library/util/Debug/Debug;->b:Ljava/lang/String;
 
@@ -363,7 +345,6 @@
 
     goto :goto_2
 
-    .line 4
     :cond_4
     sget-object p1, Lcom/meitu/library/util/Debug/Debug;->b:Ljava/lang/String;
 
@@ -377,7 +358,6 @@
 
     goto :goto_3
 
-    .line 5
     :cond_6
     sget-object p1, Lcom/meitu/library/util/Debug/Debug;->b:Ljava/lang/String;
 
@@ -391,14 +371,12 @@
 
     goto :goto_4
 
-    .line 6
     :cond_8
     sget-object p1, Lcom/meitu/library/util/Debug/Debug;->b:Ljava/lang/String;
 
     :goto_4
     invoke-static {p1, p0}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -423,7 +401,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     sget-object p2, Lcom/meitu/library/util/Debug/Debug$DebugLevel;->INFO:Lcom/meitu/library/util/Debug/Debug$DebugLevel;
 
     :cond_1
@@ -473,7 +450,6 @@
 
     const/4 v4, 0x0
 
-    .line 1
     aput v4, v2, v3
 
     add-int/lit8 v3, v3, 0x1
@@ -483,7 +459,6 @@
     :cond_1
     move-object p1, v2
 
-    .line 2
     :goto_1
     iget v2, p0, Landroid/graphics/RectF;->left:F
 
@@ -497,7 +472,6 @@
 
     const/4 v3, 0x2
 
-    .line 3
     iget v4, p0, Landroid/graphics/RectF;->right:F
 
     aput v4, p1, v3
@@ -508,7 +482,6 @@
 
     const/4 v1, 0x4
 
-    .line 4
     aput v4, p1, v1
 
     const/4 v1, 0x5
@@ -519,14 +492,12 @@
 
     const/4 v1, 0x6
 
-    .line 5
     aput v2, p1, v1
 
     const/4 v1, 0x7
 
     aput p0, p1, v1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -545,7 +516,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcom/commsource/util/l0;->M(Landroid/graphics/RectF;[F)[F
 
@@ -589,7 +559,6 @@
 
     move-object v2, p0
 
-    .line 1
     invoke-static/range {v2 .. v7}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -609,12 +578,10 @@
 
     move-object v1, p0
 
-    .line 2
     invoke-static/range {v1 .. v6}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -628,7 +595,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p0
@@ -674,7 +640,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/s;->K1(Ljava/lang/Iterable;)I
 
     move-result v1
@@ -689,7 +654,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcotlin/g2/i;->c()I
 
     move-result v2
@@ -711,7 +675,6 @@
     :cond_0
     if-lt v2, v3, :cond_1
 
-    .line 3
     :goto_0
     invoke-static {p0, v2}, Lcotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
@@ -725,7 +688,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -759,7 +721,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -771,7 +732,6 @@
     :cond_0
     if-le v1, p1, :cond_1
 
-    .line 2
     invoke-interface {p0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p0
@@ -784,7 +744,6 @@
     :goto_0
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -805,7 +764,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object p0
@@ -850,10 +808,8 @@
 
     aput p2, v1, p1
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadii([F)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -896,7 +852,6 @@
 
     const/4 p4, 0x0
 
-    .line 1
     :cond_3
     invoke-static {p0, p1, p2, p3, p4}, Lcom/commsource/util/l0;->S(Landroid/view/View;FFFF)V
 
@@ -920,7 +875,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p0
@@ -938,7 +892,6 @@
 
     invoke-virtual {p0, p1, p1, p1, p1}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
 
-    .line 2
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -960,7 +913,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
@@ -981,20 +933,16 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     move-object v2, v1
 
     check-cast v2, Landroid/view/ViewGroup$MarginLayoutParams;
 
-    .line 3
     invoke-virtual {v2, p1, p2, p3, p4}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
 
-    .line 4
     invoke-virtual {p0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     new-instance p0, Lcotlin/TypeCastException;
 
@@ -1006,7 +954,6 @@
 
     throw p0
 
-    .line 6
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1029,7 +976,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
@@ -1058,7 +1004,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p2
@@ -1087,7 +1032,6 @@
 
     if-eqz v0, :cond_8
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p3
@@ -1116,7 +1060,6 @@
 
     if-eqz p5, :cond_b
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p4
@@ -1166,7 +1109,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object p0
@@ -1175,10 +1117,8 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1200,7 +1140,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object p0
@@ -1209,10 +1148,8 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Landroid/graphics/drawable/GradientDrawable;->setStroke(II)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1240,12 +1177,10 @@
 
     if-ne p2, v1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -1255,20 +1190,16 @@
 
     if-eq p1, v1, :cond_1
 
-    .line 3
     iput p1, v2, Landroid/view/ViewGroup$LayoutParams;->height:I
 
     :cond_1
     if-eq p2, v1, :cond_2
 
-    .line 4
     iput p2, v2, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 5
     :cond_2
     invoke-virtual {p0, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1296,10 +1227,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -1312,7 +1241,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p0
@@ -1323,7 +1251,6 @@
 
     move-result-object p0
 
-    .line 4
     new-instance v1, Lcom/commsource/util/l0$a;
 
     invoke-direct {v1, p3}, Lcom/commsource/util/l0$a;-><init>(Ljava/lang/Runnable;)V
@@ -1332,7 +1259,6 @@
 
     move-result-object p0
 
-    .line 5
     new-instance p3, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {p3}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -1341,15 +1267,12 @@
 
     move-result-object p0
 
-    .line 6
     invoke-virtual {p0, p1, p2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p0
 
-    .line 7
     invoke-virtual {p0}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1377,7 +1300,6 @@
 
     const/4 p2, -0x1
 
-    .line 1
     :cond_1
     invoke-static {p0, p1, p2}, Lcom/commsource/util/l0;->Z(Landroid/view/View;II)V
 
@@ -1406,7 +1328,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/util/l0;->a(Landroid/view/View;JLjava/lang/Runnable;)V
 
@@ -1432,16 +1353,13 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1477,7 +1395,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -1490,7 +1407,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->getVisibility()I
 
     move-result v1
@@ -1499,7 +1415,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1507,10 +1422,8 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-static {p0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -1522,12 +1435,10 @@
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1, p2, p3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p2
 
-    .line 7
     new-instance p3, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {p3}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -1536,7 +1447,6 @@
 
     move-result-object p2
 
-    .line 8
     new-instance p3, Lcom/commsource/util/l0$b;
 
     invoke-direct {p3, p0, p4, p1}, Lcom/commsource/util/l0$b;-><init>(Landroid/view/View;Lcotlin/jvm/u/a;Z)V
@@ -1545,10 +1455,8 @@
 
     move-result-object p0
 
-    .line 9
     invoke-virtual {p0}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1575,7 +1483,6 @@
 
     if-lez v3, :cond_0
 
-    .line 1
     new-instance v1, Lcom/commsource/util/l0$d;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/util/l0$d;-><init>(Landroidx/recyclerview/widget/RecyclerView;I)V
@@ -1584,11 +1491,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1622,7 +1527,6 @@
 
     const/4 p4, 0x0
 
-    .line 1
     :cond_2
     invoke-static {p0, p1, p2, p3, p4}, Lcom/commsource/util/l0;->c(Landroid/view/View;ZJLcotlin/jvm/u/a;)V
 
@@ -1657,7 +1561,6 @@
 
     if-ltz p1, :cond_3
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -1669,7 +1572,6 @@
     :cond_0
     if-ltz p2, :cond_2
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -1678,35 +1580,29 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-interface {p0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 4
     invoke-interface {p0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
     invoke-interface {p0, p1, v2}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-interface {p0, p2, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1743,7 +1639,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -1758,10 +1653,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -1771,7 +1664,6 @@
 
     move-result-object p0
 
-    .line 4
     new-instance p1, Lcom/commsource/util/l0$c;
 
     invoke-direct {p1, p5}, Lcom/commsource/util/l0$c;-><init>(Lcotlin/jvm/u/a;)V
@@ -1780,7 +1672,6 @@
 
     move-result-object p0
 
-    .line 5
     new-instance p1, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {p1}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -1789,15 +1680,12 @@
 
     move-result-object p0
 
-    .line 6
     invoke-virtual {p0, p3, p4}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p0
 
-    .line 7
     invoke-virtual {p0}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1812,7 +1700,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p0
@@ -1881,7 +1768,6 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-static/range {v0 .. v5}, Lcom/commsource/util/l0;->e(Landroid/view/View;FZJLcotlin/jvm/u/a;)V
 
     invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1906,7 +1792,6 @@
 
     const-string v1, ":"
 
-    .line 1
     filled-new-array {v1}, [Ljava/lang/String;
 
     move-result-object v3
@@ -1925,7 +1810,6 @@
 
     move-result-object p0
 
-    .line 2
     :try_start_0
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -1946,7 +1830,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-interface {p0, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -1977,7 +1860,6 @@
     :catch_0
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1999,7 +1881,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -2036,7 +1917,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, v1}, Ljava/lang/String;->charAt(I)C
 
@@ -2046,14 +1926,12 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {p0}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result p0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2078,7 +1956,6 @@
     :catch_0
     const/4 p0, -0x1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2104,7 +1981,6 @@
 
     or-int/2addr p0, p1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -2127,7 +2003,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     new-instance v2, Ljava/util/Locale;
@@ -2138,7 +2013,6 @@
 
     invoke-direct {v1, p2, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
-    .line 2
     new-instance p2, Ljava/util/Date;
 
     invoke-direct {p2, p0, p1}, Ljava/util/Date;-><init>(J)V
@@ -2169,7 +2043,6 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcom/commsource/util/l0;->h(IF)I
 
@@ -2193,7 +2066,6 @@
 
     const-string p2, "hh:mm:ss"
 
-    .line 1
     :cond_0
     invoke-static {p0, p1, p2}, Lcom/commsource/util/l0;->h0(JLjava/lang/String;)Ljava/lang/String;
 
@@ -2227,7 +2099,6 @@
 
     goto :goto_1
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Landroid/util/SparseIntArray;->size()I
 
@@ -2239,12 +2110,10 @@
 
     if-eq v2, v3, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Landroid/util/SparseIntArray;->size()I
 
@@ -2255,7 +2124,6 @@
     :goto_0
     if-ge v3, v2, :cond_3
 
-    .line 4
     invoke-virtual {p0, v3}, Landroid/util/SparseIntArray;->valueAt(I)I
 
     move-result v4
@@ -2266,7 +2134,6 @@
 
     if-eq v4, v5, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -2276,7 +2143,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2284,7 +2150,6 @@
 
     return p0
 
-    .line 7
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2321,7 +2186,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -2334,12 +2198,10 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0, p1}, Landroid/view/ViewPropertyAnimator;->translationX(F)Landroid/view/ViewPropertyAnimator;
 
     const-wide/16 v1, 0x0
@@ -2348,10 +2210,8 @@
 
     if-lez v3, :cond_0
 
-    .line 4
     invoke-virtual {p0, p2, p3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
-    .line 5
     :cond_0
     new-instance v1, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
@@ -2359,7 +2219,6 @@
 
     invoke-virtual {p0, v1}, Landroid/view/ViewPropertyAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
 
-    .line 6
     new-instance v1, Lcom/commsource/util/l0$e;
 
     move-object v2, v1
@@ -2378,10 +2237,8 @@
 
     move-result-object p0
 
-    .line 7
     invoke-virtual {p0}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2420,12 +2277,10 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -2434,7 +2289,6 @@
 
     invoke-static {p0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2452,7 +2306,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
@@ -2471,7 +2324,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2498,7 +2350,6 @@
 
     const/4 p4, 0x0
 
-    .line 1
     :cond_1
     invoke-static {p0, p1, p2, p3, p4}, Lcom/commsource/util/l0;->j0(Landroid/view/View;FJLcotlin/jvm/u/a;)V
 
@@ -2537,7 +2388,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-interface {p0}, Ljava/util/List;->size()I
@@ -2546,7 +2396,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2564,7 +2413,6 @@
 
     check-cast v2, Landroid/graphics/Point;
 
-    .line 3
     new-instance v3, Landroid/graphics/Point;
 
     invoke-direct {v3, v2}, Landroid/graphics/Point;-><init>(Landroid/graphics/Point;)V
@@ -2573,7 +2421,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2609,19 +2456,16 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/l0;->z(Landroid/view/View;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -2635,25 +2479,20 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 4
     invoke-static {p0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1, p1}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
 
-    .line 7
     new-instance v2, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v2}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
 
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
 
-    .line 8
     new-instance v2, Lcom/commsource/util/l0$f;
 
     invoke-direct {v2, v1, p0, p1, p2}, Lcom/commsource/util/l0$f;-><init>(Landroid/view/ViewPropertyAnimator;Landroid/view/View;FLcotlin/jvm/u/a;)V
@@ -2662,10 +2501,8 @@
 
     move-result-object p0
 
-    .line 9
     invoke-virtual {p0}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2678,7 +2515,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p0
@@ -2701,7 +2537,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1, p2}, Lcom/commsource/util/l0;->l0(Landroid/view/View;FLcotlin/jvm/u/a;)V
 
@@ -2719,7 +2554,6 @@
 
     int-to-float p0, p0
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p0
@@ -2758,7 +2592,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
@@ -2771,27 +2604,22 @@
 
     invoke-virtual {v0}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p0
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
 
-    .line 5
     new-instance v0, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v0}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
 
     invoke-virtual {p0, v0}, Landroid/view/ViewPropertyAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
 
-    .line 6
     new-instance v0, Lcom/commsource/util/l0$g;
 
     invoke-direct {v0, p0, p2}, Lcom/commsource/util/l0$g;-><init>(Landroid/view/ViewPropertyAnimator;Lcotlin/jvm/u/a;)V
@@ -2800,10 +2628,8 @@
 
     move-result-object p0
 
-    .line 7
     invoke-virtual {p0}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2816,7 +2642,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p0
@@ -2839,7 +2664,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1, p2}, Lcom/commsource/util/l0;->n0(Landroid/view/View;FLcotlin/jvm/u/a;)V
 
@@ -2857,7 +2681,6 @@
 
     int-to-float p0, p0
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p0
@@ -2896,7 +2719,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -2909,15 +2731,12 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0, p1}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
 
-    .line 4
     new-instance v1, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v1}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -2930,10 +2749,8 @@
 
     if-lez v3, :cond_0
 
-    .line 5
     invoke-virtual {p0, p2, p3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
-    .line 6
     :cond_0
     new-instance v1, Lcom/commsource/util/l0$h;
 
@@ -2953,10 +2770,8 @@
 
     move-result-object p0
 
-    .line 7
     invoke-virtual {p0}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2985,10 +2800,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/c/c/c;->k(Landroid/view/View;[I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3014,7 +2827,6 @@
 
     const/4 p4, 0x0
 
-    .line 1
     :cond_1
     invoke-static {p0, p1, p2, p3, p4}, Lcom/commsource/util/l0;->p0(Landroid/view/View;FJLcotlin/jvm/u/a;)V
 
@@ -3038,7 +2850,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v1, p1
 
     const/4 v2, 0x1
@@ -3064,7 +2875,6 @@
 
     move v2, v4
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3077,7 +2887,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3120,7 +2929,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v1
@@ -3132,7 +2940,6 @@
     :goto_0
     if-ge v3, v1, :cond_7
 
-    .line 2
     invoke-virtual {p0, v3}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
@@ -3145,7 +2952,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {v4}, Landroid/view/View;->getRight()I
 
     move-result v7
@@ -3164,7 +2970,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     invoke-virtual {v4}, Landroid/view/View;->getLeft()I
 
@@ -3184,7 +2989,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_1
     invoke-virtual {v4}, Landroid/view/View;->getBottom()I
 
@@ -3204,7 +3008,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     invoke-virtual {v4}, Landroid/view/View;->getTop()I
 
@@ -3233,7 +3036,6 @@
     :goto_1
     const/4 v5, 0x0
 
-    .line 7
     :goto_2
     invoke-virtual {p0, v4}, Landroidx/recyclerview/widget/RecyclerView;->getChildViewHolder(Landroid/view/View;)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
@@ -3241,7 +3043,6 @@
 
     if-eqz v4, :cond_6
 
-    .line 8
     instance-of v6, v4, Lcom/commsource/widget/h1/f;
 
     if-eqz v6, :cond_5
@@ -3256,7 +3057,6 @@
     :goto_3
     if-eqz v6, :cond_6
 
-    .line 9
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -3270,7 +3070,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3292,7 +3091,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
 
     move-result-object v1
@@ -3352,7 +3150,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v1
@@ -3364,7 +3161,6 @@
     :goto_0
     if-ge v3, v1, :cond_6
 
-    .line 2
     invoke-virtual {p0, v3}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
@@ -3377,7 +3173,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {v4}, Landroid/view/View;->getRight()I
 
     move-result v7
@@ -3396,7 +3191,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     invoke-virtual {v4}, Landroid/view/View;->getLeft()I
 
@@ -3416,7 +3210,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_1
     invoke-virtual {v4}, Landroid/view/View;->getBottom()I
 
@@ -3436,7 +3229,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     invoke-virtual {v4}, Landroid/view/View;->getTop()I
 
@@ -3465,7 +3257,6 @@
     :goto_1
     const/4 v5, 0x0
 
-    .line 7
     :goto_2
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3482,7 +3273,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3510,16 +3300,13 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 1
     iget p0, p0, Landroid/graphics/RectF;->right:F
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget p0, p0, Landroid/graphics/RectF;->left:F
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3541,12 +3328,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/util/SparseIntArray;->size()I
 
@@ -3557,14 +3342,12 @@
     :goto_0
     if-ge v3, v2, :cond_2
 
-    .line 3
     invoke-virtual {p0, v3}, Landroid/util/SparseIntArray;->valueAt(I)I
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p0, 0x1
@@ -3576,7 +3359,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3604,16 +3386,13 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 1
     iget p0, p0, Landroid/graphics/RectF;->bottom:F
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget p0, p0, Landroid/graphics/RectF;->top:F
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3649,14 +3428,12 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/util/SparseArray;->size()I
 
@@ -3665,7 +3442,6 @@
     :goto_0
     if-ge v2, v3, :cond_0
 
-    .line 3
     invoke-virtual {p0, v2}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -3678,11 +3454,9 @@
 
     goto :goto_0
 
-    .line 4
     :catch_0
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3714,14 +3488,12 @@
 
     const/4 v1, 0x0
 
-    .line 1
     aget-object v2, p1, v1
 
     iget v3, p0, Landroid/graphics/RectF;->left:F
 
     aput v3, v2, v1
 
-    .line 2
     aget-object v2, p1, v1
 
     iget v4, p0, Landroid/graphics/RectF;->top:F
@@ -3730,26 +3502,22 @@
 
     aput v4, v2, v5
 
-    .line 3
     aget-object v2, p1, v5
 
     iget v6, p0, Landroid/graphics/RectF;->right:F
 
     aput v6, v2, v1
 
-    .line 4
     aget-object v2, p1, v5
 
     aput v4, v2, v5
 
     const/4 v2, 0x2
 
-    .line 5
     aget-object v4, p1, v2
 
     aput v6, v4, v1
 
-    .line 6
     aget-object v2, p1, v2
 
     iget p0, p0, Landroid/graphics/RectF;->bottom:F
@@ -3758,17 +3526,14 @@
 
     const/4 v2, 0x3
 
-    .line 7
     aget-object v4, p1, v2
 
     aput v3, v4, v1
 
-    .line 8
     aget-object p1, p1, v2
 
     aput p0, p1, v5
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3791,10 +3556,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3817,10 +3580,8 @@
 
     const/16 v1, 0x8
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3843,10 +3604,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/view/View;->performHapticFeedback(I)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3869,10 +3628,8 @@
 
     const/4 v1, 0x4
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3893,7 +3650,6 @@
 
     invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getVisibility()I
 
     move-result p0

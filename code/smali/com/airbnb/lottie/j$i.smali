@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/airbnb/lottie/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/j$i;->a:Lcom/airbnb/lottie/j;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/airbnb/lottie/j$i;->a:Lcom/airbnb/lottie/j;
 
     invoke-static {p1}, Lcom/airbnb/lottie/j;->a(Lcom/airbnb/lottie/j;)Lcom/airbnb/lottie/model/layer/b;
@@ -47,7 +45,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/airbnb/lottie/j$i;->a:Lcom/airbnb/lottie/j;
 
     invoke-static {p1}, Lcom/airbnb/lottie/j;->a(Lcom/airbnb/lottie/j;)Lcom/airbnb/lottie/model/layer/b;

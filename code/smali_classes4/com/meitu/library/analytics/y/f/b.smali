@@ -17,13 +17,10 @@
 .method public constructor <init>(DD)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/meitu/library/analytics/y/f/b;->b:D
 
-    .line 3
     iput-wide p3, p0, Lcom/meitu/library/analytics/y/f/b;->a:D
 
     return-void
@@ -38,12 +35,10 @@
 
     const-string v1, ":"
 
-    .line 1
     invoke-virtual {p0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x2
@@ -52,12 +47,10 @@
 
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/meitu/library/analytics/y/f/b;
 
@@ -99,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -138,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/analytics/y/f/b;->a:D
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/analytics/y/f/b;->b:D
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

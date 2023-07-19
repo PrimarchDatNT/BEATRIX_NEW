@@ -26,12 +26,10 @@
 .method public final d(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/q41;->a:Lcom/google/android/gms/internal/ads/zzasm;
 
     check-cast p1, Ljava/io/InputStream;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/s41;
 
     new-instance v2, Landroid/util/JsonReader;
@@ -46,12 +44,10 @@
 
     iget-object p1, v0, Lcom/google/android/gms/internal/ads/zzasm;->a:Landroid/os/Bundle;
 
-    .line 3
     invoke-virtual {v1, p1}, Lcom/google/android/gms/internal/ads/s41;->a(Landroid/os/Bundle;)Lcom/google/android/gms/internal/ads/s41;
 
     move-result-object p1
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p1

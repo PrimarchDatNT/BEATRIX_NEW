@@ -62,13 +62,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcotlin/SynchronizedLazyImpl;->initializer:Lcotlin/jvm/u/a;
 
-    .line 3
     sget-object p1, Lcotlin/n1;->a:Lcotlin/n1;
 
     iput-object p1, p0, Lcotlin/SynchronizedLazyImpl;->_value:Ljava/lang/Object;
@@ -80,7 +77,6 @@
     :cond_0
     move-object p2, p0
 
-    .line 4
     :goto_0
     iput-object p2, p0, Lcotlin/SynchronizedLazyImpl;->lock:Ljava/lang/Object;
 
@@ -96,7 +92,6 @@
 
     const/4 p2, 0x0
 
-    .line 5
     :cond_0
     invoke-direct {p0, p1, p2}, Lcotlin/SynchronizedLazyImpl;-><init>(Lcotlin/jvm/u/a;Ljava/lang/Object;)V
 
@@ -106,7 +101,6 @@
 .method private final writeReplace()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlin/InitializedLazyImpl;
 
     invoke-virtual {p0}, Lcotlin/SynchronizedLazyImpl;->getValue()Ljava/lang/Object;
@@ -128,23 +122,19 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/SynchronizedLazyImpl;->_value:Ljava/lang/Object;
 
-    .line 2
     sget-object v1, Lcotlin/n1;->a:Lcotlin/n1;
 
     if-eq v0, v1, :cond_0
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcotlin/SynchronizedLazyImpl;->lock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 4
     :try_start_0
     iget-object v2, p0, Lcotlin/SynchronizedLazyImpl;->_value:Ljava/lang/Object;
 
@@ -152,7 +142,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcotlin/SynchronizedLazyImpl;->initializer:Lcotlin/jvm/u/a;
 
@@ -162,17 +151,14 @@
 
     move-result-object v2
 
-    .line 6
     iput-object v2, p0, Lcotlin/SynchronizedLazyImpl;->_value:Ljava/lang/Object;
 
     const/4 v1, 0x0
 
-    .line 7
     iput-object v1, p0, Lcotlin/SynchronizedLazyImpl;->initializer:Lcotlin/jvm/u/a;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     :goto_0
     monitor-exit v0
 
@@ -189,7 +175,6 @@
 .method public isInitialized()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlin/SynchronizedLazyImpl;->_value:Ljava/lang/Object;
 
     sget-object v1, Lcotlin/n1;->a:Lcotlin/n1;
@@ -212,7 +197,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/SynchronizedLazyImpl;->isInitialized()Z
 
     move-result v0

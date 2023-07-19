@@ -29,10 +29,8 @@
 .method public constructor <init>(Lcom/google/common/collect/z0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/z0$b;->b:Lcom/google/common/collect/z0;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/d2$b;-><init>(Lcom/google/common/collect/b2;)V
 
     return-void

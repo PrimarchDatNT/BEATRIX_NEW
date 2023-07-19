@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$g;->a:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/MaskFragment;->D1()Lcom/commsource/beautyplus/f0/e9;
@@ -79,7 +78,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/studio/MaskCompositionView;->u(Lcom/commsource/studio/i0;Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$g;->a:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/MaskFragment;->C1()Lcom/commsource/widget/h1/e;
@@ -88,7 +86,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -101,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/i0;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/MaskFragment$g;->a(Lcom/commsource/studio/i0;)V

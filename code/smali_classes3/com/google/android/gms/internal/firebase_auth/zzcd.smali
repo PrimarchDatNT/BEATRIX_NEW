@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/l0;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/l0;-><init>()V
@@ -65,13 +64,10 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/zzcd;->a:Lcom/google/firebase/auth/PhoneAuthCredential;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/firebase_auth/zzcd;->b:Ljava/lang/String;
 
     return-void
@@ -82,30 +78,24 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_auth/zzcd;->a:Lcom/google/firebase/auth/PhoneAuthCredential;
 
     const/4 v2, 0x1
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-static {p1, v2, v1, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/a;->S(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
-    .line 4
     iget-object p2, p0, Lcom/google/android/gms/internal/firebase_auth/zzcd;->b:Ljava/lang/String;
 
     const/4 v1, 0x2
 
-    .line 5
     invoke-static {p1, v1, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 6
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void

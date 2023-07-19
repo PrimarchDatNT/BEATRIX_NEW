@@ -22,7 +22,6 @@
 .method public constructor <init>(Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;Z)V
     .locals 8
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$j;->k:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;
 
     if-eqz p2, :cond_0
@@ -53,7 +52,6 @@
 
     move-object v1, p1
 
-    .line 2
     invoke-direct/range {v0 .. v7}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$c;-><init>(Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;IIIIII)V
 
     return-void

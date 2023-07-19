@@ -20,12 +20,10 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/yg2;Landroid/media/MediaCodec;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ah2;->a:Lcom/google/android/gms/internal/ads/yg2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Landroid/os/Handler;
 
     invoke-direct {p1}, Landroid/os/Handler;-><init>()V
@@ -38,7 +36,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/yg2;Landroid/media/MediaCodec;Lcom/google/android/gms/internal/ads/xg2;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/ads/ah2;-><init>(Lcom/google/android/gms/internal/ads/yg2;Landroid/media/MediaCodec;)V
 
     return-void
@@ -53,7 +50,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ah2;->a:Lcom/google/android/gms/internal/ads/yg2;
 
     iget-object p2, p1, Lcom/google/android/gms/internal/ads/yg2;->y0:Lcom/google/android/gms/internal/ads/ah2;
@@ -62,7 +58,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/yg2;->X()V
 

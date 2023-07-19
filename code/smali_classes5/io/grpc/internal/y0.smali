@@ -38,10 +38,8 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     new-instance v0, Lio/grpc/internal/y0;
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
     move-result-object v1
@@ -68,16 +66,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lio/grpc/internal/y0;->a:I
 
-    .line 3
     iput-wide p2, p0, Lio/grpc/internal/y0;->b:J
 
-    .line 4
     invoke-static {p4}, Lcom/google/common/collect/ImmutableSet;->copyOf(Ljava/util/Collection;)Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p1
@@ -103,7 +97,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     const-class v2, Lio/grpc/internal/y0;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -114,11 +107,9 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     check-cast p1, Lio/grpc/internal/y0;
 
-    .line 3
     iget v2, p0, Lio/grpc/internal/y0;->a:I
 
     iget v3, p1, Lio/grpc/internal/y0;->a:I
@@ -137,7 +128,6 @@
 
     iget-object p1, p1, Lio/grpc/internal/y0;->c:Ljava/util/Set;
 
-    .line 4
     invoke-static {v2, p1}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -164,7 +154,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget v1, p0, Lio/grpc/internal/y0;->a:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -201,7 +190,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -210,7 +198,6 @@
 
     const-string v2, "maxAttempts"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->d(Ljava/lang/String;I)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -219,7 +206,6 @@
 
     const-string v3, "hedgingDelayNanos"
 
-    .line 3
     invoke-virtual {v0, v3, v1, v2}, Lcom/google/common/base/p$b;->e(Ljava/lang/String;J)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -228,12 +214,10 @@
 
     const-string v2, "nonFatalStatusCodes"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

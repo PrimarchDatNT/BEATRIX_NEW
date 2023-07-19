@@ -19,7 +19,6 @@
 
     move-object v3, p3
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/internal/ads/zzejq;-><init>(Ljava/lang/String;ILcom/google/android/gms/internal/ads/zzejt;ILcom/google/android/gms/internal/ads/m42;)V
 
     return-void

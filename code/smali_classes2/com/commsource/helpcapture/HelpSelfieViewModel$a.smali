@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/helpcapture/HelpSelfieViewModel;Ljava/lang/String;Landroid/graphics/Bitmap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$a;->p:Lcom/commsource/helpcapture/HelpSelfieViewModel;
 
     iput-object p3, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$a;->g:Landroid/graphics/Bitmap;
@@ -43,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->y()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$a;->g:Landroid/graphics/Bitmap;
 
     invoke-static {v2}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
@@ -59,7 +56,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$a;->g:Landroid/graphics/Bitmap;
 
     invoke-static {v2, v3, v1}, Lcom/commsource/util/b0;->b(Landroid/graphics/Bitmap;ILjava/lang/String;)Z
@@ -69,7 +65,6 @@
     :cond_0
     if-eqz v3, :cond_1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$a;->p:Lcom/commsource/helpcapture/HelpSelfieViewModel;
 
     invoke-static {v2}, Lcom/commsource/helpcapture/HelpSelfieViewModel;->S0(Lcom/commsource/helpcapture/HelpSelfieViewModel;)Ljava/lang/String;
@@ -82,12 +77,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$a;->p:Lcom/commsource/helpcapture/HelpSelfieViewModel;
 
     invoke-static {v2, v1}, Lcom/commsource/helpcapture/HelpSelfieViewModel;->T0(Lcom/commsource/helpcapture/HelpSelfieViewModel;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 6
     :cond_1
     iget-object v2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$a;->p:Lcom/commsource/helpcapture/HelpSelfieViewModel;
 
@@ -105,7 +98,6 @@
     :goto_0
     invoke-virtual {v2, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

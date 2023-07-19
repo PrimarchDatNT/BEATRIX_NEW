@@ -57,12 +57,10 @@
 
     const/16 v0, 0x8
 
-    .line 1
     invoke-static {v0}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$initViewModel$11;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -87,7 +85,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/sticker/StickerFragment$initViewModel$11;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/sticker/StickerFragment;->X(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/beautyplus/f0/ma;
@@ -106,7 +103,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$initViewModel$11;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
@@ -130,7 +126,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->setShowTranslateX(F)V
 
-    .line 5
     :goto_0
     iget-object v0, p0, Lcom/commsource/studio/sticker/StickerFragment$initViewModel$11;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
@@ -144,7 +139,6 @@
 
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
 
     move-result v0
@@ -161,7 +155,6 @@
     :goto_1
     if-eqz v0, :cond_2
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/studio/sticker/StickerFragment$initViewModel$11;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/sticker/StickerFragment;->X(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/beautyplus/f0/ma;
@@ -176,7 +169,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->F(Lcotlin/jvm/u/a;)V
 
-    .line 8
     :cond_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -190,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment$initViewModel$11;->a(Ljava/lang/Boolean;)V

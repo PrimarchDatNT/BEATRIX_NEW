@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,15 +21,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroid/webkit/WebView;->stopLoading()V
 
     const-string p1, ""
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -38,7 +34,6 @@
 
     if-lt p1, v0, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Landroid/webkit/WebView;->onPause()V
 
     return-void
@@ -47,7 +42,6 @@
     :try_start_0
     const-string p1, "onPause"
 
-    .line 5
     invoke-static {p0, p1}, Lcom/sdk/imp/webview/h;->c(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -63,14 +57,12 @@
         .end annotation
     .end param
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xb
 
     if-lt v0, v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/webkit/WebView;->onResume()V
 
     return-void
@@ -79,7 +71,6 @@
     :try_start_0
     const-string v0, "onResume"
 
-    .line 3
     invoke-static {p0, v0}, Lcom/sdk/imp/webview/h;->c(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -91,7 +82,6 @@
 .method public static c(Landroid/webkit/WebView;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/webview/j$a;
 
     invoke-direct {v0}, Lcom/sdk/imp/webview/j$a;-><init>()V

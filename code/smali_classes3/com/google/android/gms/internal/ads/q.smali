@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/n;Landroid/content/SharedPreferences$Editor;Lorg/json/JSONObject;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/q;->a:Landroid/content/SharedPreferences$Editor;
 
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/q;->b:Lorg/json/JSONObject;

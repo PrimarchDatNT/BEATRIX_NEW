@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/c;->b:Ljava/nio/charset/Charset;
 
     const-string v1, "com.bumptech.glide.load.resource.bitmap.RoundedCorners"
@@ -34,7 +33,6 @@
 .method public constructor <init>(I)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/load/resource/bitmap/h;-><init>()V
 
     if-lez p1, :cond_0
@@ -49,10 +47,8 @@
     :goto_0
     const-string v1, "roundingRadius must be greater than 0."
 
-    .line 2
     invoke-static {v0, v1}, Lcom/bumptech/glide/s/k;->a(ZLjava/lang/String;)V
 
-    .line 3
     iput p1, p0, Lcom/bumptech/glide/load/resource/bitmap/a0;->c:I
 
     return-void
@@ -67,14 +63,12 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/a0;->e:[B
 
     invoke-virtual {p1, v0}, Ljava/security/MessageDigest;->update([B)V
 
     const/4 v0, 0x4
 
-    .line 2
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -89,7 +83,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1, v0}, Ljava/security/MessageDigest;->update([B)V
 
     return-void
@@ -106,7 +99,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget p3, p0, Lcom/bumptech/glide/load/resource/bitmap/a0;->c:I
 
     invoke-static {p1, p2, p3}, Lcom/bumptech/glide/load/resource/bitmap/c0;->q(Lcom/bumptech/glide/load/engine/bitmap_recycle/e;Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
@@ -119,17 +111,14 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lcom/bumptech/glide/load/resource/bitmap/a0;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/bumptech/glide/load/resource/bitmap/a0;
 
-    .line 3
     iget v0, p0, Lcom/bumptech/glide/load/resource/bitmap/a0;->c:I
 
     iget p1, p1, Lcom/bumptech/glide/load/resource/bitmap/a0;->c:I
@@ -145,7 +134,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/load/resource/bitmap/a0;->c:I
 
     invoke-static {v0}, Lcom/bumptech/glide/s/m;->n(I)I

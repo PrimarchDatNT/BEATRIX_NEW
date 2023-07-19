@@ -23,7 +23,6 @@
 
     const-string v0, "com.google.vr.dynamite.client.IObjectWrapper"
 
-    .line 1
     invoke-direct {p0, v0}, Lf/f/a/a/a;-><init>(Ljava/lang/String;)V
 
     return-void

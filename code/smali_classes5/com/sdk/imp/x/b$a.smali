@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/sdk/imp/x/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/x/b$a;->a:Lcom/sdk/imp/x/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,12 +51,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/x/b$a;->a:Lcom/sdk/imp/x/b;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/sdk/imp/x/b$a;->a:Lcom/sdk/imp/x/b;
 
@@ -69,18 +66,15 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
 
     return-object v2
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/sdk/imp/x/b$a;->a:Lcom/sdk/imp/x/b;
 
     invoke-static {v1}, Lcom/sdk/imp/x/b;->b(Lcom/sdk/imp/x/b;)V
 
-    .line 5
     iget-object v1, p0, Lcom/sdk/imp/x/b$a;->a:Lcom/sdk/imp/x/b;
 
     invoke-static {v1}, Lcom/sdk/imp/x/b;->g(Lcom/sdk/imp/x/b;)Z
@@ -89,19 +83,16 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/sdk/imp/x/b$a;->a:Lcom/sdk/imp/x/b;
 
     invoke-static {v1}, Lcom/sdk/imp/x/b;->j(Lcom/sdk/imp/x/b;)V
 
-    .line 7
     iget-object v1, p0, Lcom/sdk/imp/x/b$a;->a:Lcom/sdk/imp/x/b;
 
     const/4 v3, 0x0
 
     invoke-static {v1, v3}, Lcom/sdk/imp/x/b;->k(Lcom/sdk/imp/x/b;I)I
 
-    .line 8
     :cond_1
     monitor-exit v0
 
@@ -125,7 +116,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/sdk/imp/x/b$a;->a()Ljava/lang/Void;
 
     move-result-object v0

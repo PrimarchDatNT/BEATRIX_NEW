@@ -50,24 +50,20 @@
 .method public constructor <init>(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
-    .line 2
     new-instance v0, Landroidx/collection/SparseArrayCompat;
 
     invoke-direct {v0}, Landroidx/collection/SparseArrayCompat;-><init>()V
 
     iput-object v0, p0, Lf/k/c/b/h/d;->a:Landroidx/collection/SparseArrayCompat;
 
-    .line 3
     new-instance v0, Landroidx/collection/SparseArrayCompat;
 
     invoke-direct {v0}, Landroidx/collection/SparseArrayCompat;-><init>()V
 
     iput-object v0, p0, Lf/k/c/b/h/d;->b:Landroidx/collection/SparseArrayCompat;
 
-    .line 4
     iput-object p1, p0, Lf/k/c/b/h/d;->c:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     return-void
@@ -80,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/d;->c:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->getItemCount()I
@@ -99,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/c/b/h/d;->d()I
 
     move-result v1
@@ -132,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/c/b/h/d;->d()I
 
     move-result v1
@@ -159,12 +152,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p3}, Lf/k/c/b/h/d;->getItemViewType(I)I
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lf/k/c/b/h/d;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v2, v1}, Landroidx/collection/SparseArrayCompat;->get(I)Ljava/lang/Object;
@@ -173,7 +164,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Landroidx/recyclerview/widget/GridLayoutManager;->getSpanCount()I
 
     move-result p1
@@ -182,7 +172,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lf/k/c/b/h/d;->b:Landroidx/collection/SparseArrayCompat;
 
@@ -192,7 +181,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {p1}, Landroidx/recyclerview/widget/GridLayoutManager;->getSpanCount()I
 
     move-result p1
@@ -204,7 +192,6 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 6
     invoke-virtual {p2, p3}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->getSpanSize(I)I
 
     move-result p1
@@ -216,7 +203,6 @@
     :cond_2
     const/4 p1, 0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -231,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/d;->b:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1}, Landroidx/collection/SparseArrayCompat;->size()I
@@ -244,7 +229,6 @@
 
     invoke-virtual {v1, v2, p1}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -257,7 +241,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/d;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1}, Landroidx/collection/SparseArrayCompat;->size()I
@@ -270,7 +253,6 @@
 
     invoke-virtual {v1, v2, p1}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -283,7 +265,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/d;->b:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1}, Landroidx/collection/SparseArrayCompat;->size()I
@@ -302,7 +283,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/d;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1}, Landroidx/collection/SparseArrayCompat;->size()I
@@ -321,7 +301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/c/b/h/d;->d()I
 
     move-result v1
@@ -350,14 +329,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/c/b/h/d;->g(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/k/c/b/h/d;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1}, Landroidx/collection/SparseArrayCompat;->keyAt(I)I
@@ -368,7 +345,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-direct {p0, p1}, Lf/k/c/b/h/d;->f(I)Z
 
@@ -376,7 +352,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lf/k/c/b/h/d;->b:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {p0}, Lf/k/c/b/h/d;->d()I
@@ -399,7 +374,6 @@
 
     return p1
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lf/k/c/b/h/d;->c:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
@@ -435,7 +409,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/d;->b:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1}, Landroidx/collection/SparseArrayCompat;->indexOfValue(Ljava/lang/Object;)I
@@ -444,15 +417,12 @@
 
     if-ltz p1, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRemoved(I)V
 
-    .line 3
     iget-object v1, p0, Lf/k/c/b/h/d;->b:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1}, Landroidx/collection/SparseArrayCompat;->remove(I)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -466,7 +436,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/d;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1}, Landroidx/collection/SparseArrayCompat;->indexOfValue(Ljava/lang/Object;)I
@@ -475,15 +444,12 @@
 
     if-ltz p1, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRemoved(I)V
 
-    .line 3
     iget-object v1, p0, Lf/k/c/b/h/d;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1}, Landroidx/collection/SparseArrayCompat;->remove(I)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -497,7 +463,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/d;->c:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     new-instance v2, Lf/k/c/b/h/a;
@@ -506,7 +471,6 @@
 
     invoke-static {v1, p1, v2}, Lf/k/c/b/g/a;->a(Landroidx/recyclerview/widget/RecyclerView$Adapter;Landroidx/recyclerview/widget/RecyclerView;Lf/k/c/b/g/a$b;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -519,19 +483,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p2}, Lf/k/c/b/h/d;->g(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0, p2}, Lf/k/c/b/h/d;->f(I)Z
 
@@ -539,12 +500,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lf/k/c/b/h/d;->c:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
@@ -556,7 +515,6 @@
 
     invoke-virtual {v1, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -569,7 +527,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/d;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p2}, Landroidx/collection/SparseArrayCompat;->get(I)Ljava/lang/Object;
@@ -588,7 +545,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lf/k/c/b/h/d;->c:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
@@ -600,7 +556,6 @@
 
     return-object p1
 
-    .line 3
     :cond_1
     :goto_0
     iget-object v1, p0, Lf/k/c/b/h/d;->a:Landroidx/collection/SparseArrayCompat;
@@ -611,14 +566,12 @@
 
     if-nez v1, :cond_2
 
-    .line 4
     iget-object v1, p0, Lf/k/c/b/h/d;->b:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p2}, Landroidx/collection/SparseArrayCompat;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 5
     :cond_2
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
@@ -630,7 +583,6 @@
 
     move-result-object p1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -643,17 +595,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/d;->c:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 
-    .line 2
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getLayoutPosition()I
 
     move-result v1
 
-    .line 3
     invoke-direct {p0, v1}, Lf/k/c/b/h/d;->g(I)Z
 
     move-result v2
@@ -666,11 +615,9 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lf/k/c/b/g/a;->b(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

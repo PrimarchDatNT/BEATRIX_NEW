@@ -59,7 +59,6 @@
 
     move-object v2, p1
 
-    .line 1
     invoke-direct/range {v0 .. v9}, Lcom/google/android/gms/internal/measurement/s1;-><init>(Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;ZZZZLcom/google/android/gms/internal/measurement/w1;)V
 
     return-void
@@ -86,38 +85,28 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/s1;->a:Ljava/lang/String;
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/internal/measurement/s1;->b:Landroid/net/Uri;
 
-    .line 5
     iput-object p3, p0, Lcom/google/android/gms/internal/measurement/s1;->c:Ljava/lang/String;
 
-    .line 6
     iput-object p4, p0, Lcom/google/android/gms/internal/measurement/s1;->d:Ljava/lang/String;
 
     const/4 p2, 0x0
 
-    .line 7
     iput-boolean p2, p0, Lcom/google/android/gms/internal/measurement/s1;->e:Z
 
-    .line 8
     iput-boolean p2, p0, Lcom/google/android/gms/internal/measurement/s1;->f:Z
 
-    .line 9
     iput-boolean p2, p0, Lcom/google/android/gms/internal/measurement/s1;->g:Z
 
-    .line 10
     iput-boolean p2, p0, Lcom/google/android/gms/internal/measurement/s1;->h:Z
 
-    .line 11
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/s1;->i:Lcom/google/android/gms/internal/measurement/w1;
 
     return-void
@@ -140,7 +129,6 @@
 
     const-wide/high16 p2, -0x3ff8000000000000L    # -3.0
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/m1;->a(Lcom/google/android/gms/internal/measurement/s1;Ljava/lang/String;D)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object p1
@@ -161,7 +149,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/m1;->b(Lcom/google/android/gms/internal/measurement/s1;Ljava/lang/String;J)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object p1
@@ -183,7 +170,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/m1;->c(Lcom/google/android/gms/internal/measurement/s1;Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object p1
@@ -204,7 +190,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/m1;->d(Lcom/google/android/gms/internal/measurement/s1;Ljava/lang/String;Z)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object p1

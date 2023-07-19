@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,42 +27,34 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    .line 2
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object p0
 
-    .line 3
     instance-of p1, p0, Landroidx/recyclerview/widget/GridLayoutManager;
 
     if-eqz p1, :cond_0
 
-    .line 4
     check-cast p0, Landroidx/recyclerview/widget/GridLayoutManager;
 
-    .line 5
     invoke-virtual {p0}, Landroidx/recyclerview/widget/GridLayoutManager;->getSpanSizeLookup()Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;
 
     move-result-object p1
 
-    .line 6
     new-instance v1, Lf/k/c/b/g/a$a;
 
     invoke-direct {v1, p2, p0, p1}, Lf/k/c/b/g/a$a;-><init>(Lf/k/c/b/g/a$b;Landroidx/recyclerview/widget/GridLayoutManager;Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;)V
 
     invoke-virtual {p0, v1}, Landroidx/recyclerview/widget/GridLayoutManager;->setSpanSizeLookup(Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;)V
 
-    .line 7
     invoke-virtual {p0}, Landroidx/recyclerview/widget/GridLayoutManager;->getSpanCount()I
 
     move-result p1
 
     invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/GridLayoutManager;->setSpanCount(I)V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -77,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -86,20 +76,16 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     instance-of v1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-virtual {p0, v1}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;->setFullSpan(Z)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

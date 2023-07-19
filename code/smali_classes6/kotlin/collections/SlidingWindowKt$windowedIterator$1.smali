@@ -205,7 +205,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->label:I
 
     const/4 v2, 0x5
@@ -234,7 +233,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -244,7 +242,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->L$1:Ljava/lang/Object;
 
@@ -313,7 +310,6 @@
 
     check-cast p1, Lcotlin/sequences/o;
 
-    .line 4
     iget v1, p0, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->$size:I
 
     const/16 v8, 0x400
@@ -322,7 +318,6 @@
 
     move-result v1
 
-    .line 5
     iget v8, p0, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->$step:I
 
     iget v9, p0, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->$size:I
@@ -331,14 +326,12 @@
 
     if-ltz v8, :cond_c
 
-    .line 6
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     const/4 v1, 0x0
 
-    .line 7
     iget-object v3, p0, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->$iterator:Ljava/util/Iterator;
 
     move-object v4, p1
@@ -369,11 +362,9 @@
 
     goto :goto_1
 
-    .line 8
     :cond_7
     invoke-virtual {v3, v9}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 9
     invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
 
     move-result v9
@@ -382,7 +373,6 @@
 
     if-ne v9, v10, :cond_6
 
-    .line 10
     iput-object v4, p1, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->L$0:Ljava/lang/Object;
 
     iput-object v3, p1, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->L$1:Ljava/lang/Object;
@@ -404,7 +394,6 @@
     :cond_8
     move v1, v8
 
-    .line 11
     :goto_2
     iget-boolean v8, p1, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->$reuseBuffer:Z
 
@@ -426,7 +415,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_a
     invoke-interface {v3}, Ljava/util/Collection;->isEmpty()Z
 
@@ -436,7 +424,6 @@
 
     if-eqz v1, :cond_15
 
-    .line 13
     iget-boolean v1, p1, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->$partialWindows:Z
 
     if-nez v1, :cond_b
@@ -466,13 +453,11 @@
 
     return-object v0
 
-    .line 14
     :cond_c
     new-instance v5, Lcotlin/collections/a1;
 
     invoke-direct {v5, v1}, Lcotlin/collections/a1;-><init>(I)V
 
-    .line 15
     iget-object v1, p0, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->$iterator:Ljava/util/Iterator;
 
     move-object v8, p1
@@ -491,17 +476,14 @@
 
     move-result-object v9
 
-    .line 16
     invoke-virtual {v5, v9}, Lcotlin/collections/a1;->m(Ljava/lang/Object;)V
 
-    .line 17
     invoke-virtual {v5}, Lcotlin/collections/a1;->s()Z
 
     move-result v9
 
     if-eqz v9, :cond_d
 
-    .line 18
     invoke-virtual {v5}, Lcotlin/collections/AbstractCollection;->size()I
 
     move-result v9
@@ -516,7 +498,6 @@
 
     goto :goto_4
 
-    .line 19
     :cond_e
     iget-boolean v9, p1, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->$reuseBuffer:Z
 
@@ -548,7 +529,6 @@
 
     return-object v0
 
-    .line 20
     :cond_10
     :goto_6
     iget v9, p1, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->$step:I
@@ -557,7 +537,6 @@
 
     goto :goto_4
 
-    .line 21
     :cond_11
     iget-boolean v1, p1, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->$partialWindows:Z
 
@@ -567,7 +546,6 @@
 
     move-object v4, v8
 
-    .line 22
     :goto_7
     invoke-virtual {v1}, Lcotlin/collections/AbstractCollection;->size()I
 
@@ -577,7 +555,6 @@
 
     if-le v5, v8, :cond_14
 
-    .line 23
     iget-boolean v5, p1, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->$reuseBuffer:Z
 
     if-eqz v5, :cond_12
@@ -608,7 +585,6 @@
 
     return-object v0
 
-    .line 24
     :cond_13
     :goto_9
     iget v5, p1, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;->$step:I
@@ -617,7 +593,6 @@
 
     goto :goto_7
 
-    .line 25
     :cond_14
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
 
@@ -643,7 +618,6 @@
 
     return-object v0
 
-    .line 26
     :cond_15
     :goto_a
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;

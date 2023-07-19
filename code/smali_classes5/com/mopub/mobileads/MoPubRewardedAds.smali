@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/MoPubRewardedAds;
 
     invoke-direct {v0}, Lcom/mopub/mobileads/MoPubRewardedAds;-><init>()V
@@ -30,7 +29,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -66,7 +64,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->getAvailableRewards(Ljava/lang/String;)Ljava/util/Set;
 
     move-result-object p0
@@ -94,7 +91,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->hasAd(Ljava/lang/String;)Z
 
     move-result p0
@@ -110,7 +106,6 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/mopub/common/SdkConfiguration;->getMediationSettings()[Lcom/mopub/common/MediationSettings;
 
     move-result-object p1
@@ -156,7 +151,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     array-length v0, p2
 
     invoke-static {p2, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -194,7 +188,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -234,7 +227,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->selectReward(Ljava/lang/String;Lcom/mopub/common/MoPubReward;)V
 
     return-void
@@ -252,7 +244,6 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->setRewardedAdListener(Lcom/mopub/mobileads/MoPubRewardedAdListener;)V
 
     return-void
@@ -274,7 +265,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->showAd(Ljava/lang/String;)V
 
     return-void
@@ -300,7 +290,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p0, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->showAd(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void

@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, [F
 
     check-cast p2, Ljava/lang/Number;
@@ -96,7 +95,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4$1$1;->this$0:Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4$1;->a:Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4;
@@ -109,16 +107,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2, p2}, Lcom/commsource/studio/processor/StyleProcessor;->W0(F)V
 
-    .line 4
     invoke-virtual {v2, p3}, Lcom/commsource/studio/processor/StyleProcessor;->V0(I)V
 
-    .line 5
     invoke-virtual {v2, p1}, Lcom/commsource/studio/processor/StyleProcessor;->U0([F)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4$1$1;->this$0:Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4$1;
 
     iget-object v3, p1, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4$1;->b:Lcom/commsource/studio/bean/f;
@@ -133,7 +127,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/processor/StyleProcessor;->C0(Lcom/commsource/studio/processor/StyleProcessor;Lcom/commsource/studio/bean/f;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

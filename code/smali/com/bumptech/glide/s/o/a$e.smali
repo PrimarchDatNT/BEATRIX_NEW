@@ -84,16 +84,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/s/o/a$e;->c:Landroidx/core/util/Pools$Pool;
 
-    .line 3
     iput-object p2, p0, Lcom/bumptech/glide/s/o/a$e;->a:Lcom/bumptech/glide/s/o/a$d;
 
-    .line 4
     iput-object p3, p0, Lcom/bumptech/glide/s/o/a$e;->b:Lcom/bumptech/glide/s/o/a$g;
 
     return-void
@@ -109,7 +105,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/s/o/a$e;->c:Landroidx/core/util/Pools$Pool;
 
     invoke-interface {v0}, Landroidx/core/util/Pools$Pool;->acquire()Ljava/lang/Object;
@@ -118,7 +113,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/s/o/a$e;->a:Lcom/bumptech/glide/s/o/a$d;
 
     invoke-interface {v0}, Lcom/bumptech/glide/s/o/a$d;->create()Ljava/lang/Object;
@@ -129,14 +123,12 @@
 
     const-string v2, "FactoryPools"
 
-    .line 3
     invoke-static {v2, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -157,13 +149,11 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     :cond_0
     instance-of v1, v0, Lcom/bumptech/glide/s/o/a$f;
 
     if-eqz v1, :cond_1
 
-    .line 6
     move-object v1, v0
 
     check-cast v1, Lcom/bumptech/glide/s/o/a$f;
@@ -192,12 +182,10 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p1, Lcom/bumptech/glide/s/o/a$f;
 
     if-eqz v0, :cond_0
 
-    .line 2
     move-object v0, p1
 
     check-cast v0, Lcom/bumptech/glide/s/o/a$f;
@@ -210,13 +198,11 @@
 
     invoke-virtual {v0, v1}, Lcom/bumptech/glide/s/o/c;->b(Z)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/bumptech/glide/s/o/a$e;->b:Lcom/bumptech/glide/s/o/a$g;
 
     invoke-interface {v0, p1}, Lcom/bumptech/glide/s/o/a$g;->a(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lcom/bumptech/glide/s/o/a$e;->c:Landroidx/core/util/Pools$Pool;
 
     invoke-interface {v0, p1}, Landroidx/core/util/Pools$Pool;->release(Ljava/lang/Object;)Z

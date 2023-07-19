@@ -22,12 +22,10 @@
 .method constructor <init>(Lio/grpc/t0$e;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/t0$i;-><init>()V
 
     const-string v0, "result"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -44,7 +42,6 @@
 .method public a(Lio/grpc/t0$f;)Lio/grpc/t0$e;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lio/grpc/internal/w1$c;->a:Lio/grpc/t0$e;
 
     return-object p1
@@ -53,7 +50,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     const-class v0, Lio/grpc/internal/w1$c;
 
     invoke-static {v0}, Lcom/google/common/base/p;->b(Ljava/lang/Class;)Lcom/google/common/base/p$b;

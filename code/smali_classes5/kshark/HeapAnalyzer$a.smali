@@ -92,7 +92,6 @@
 
     invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/HeapAnalyzer$a;->a:Lkshark/i;
@@ -111,7 +110,6 @@
 .method public final a()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lkshark/HeapAnalyzer$a;->c:Z
 
     return v0
@@ -122,7 +120,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapAnalyzer$a;->a:Lkshark/i;
 
     return-object v0
@@ -142,7 +139,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapAnalyzer$a;->d:Ljava/util/List;
 
     return-object v0
@@ -162,7 +158,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapAnalyzer$a;->b:Ljava/util/List;
 
     return-object v0

@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/crash/c;ZLjava/lang/Thread;Ljava/lang/Throwable;Ljava/lang/String;[BZ)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/crash/c$a;->p:Lcom/tencent/bugly/crashreport/crash/c;
 
     iput-boolean p2, p0, Lcom/tencent/bugly/crashreport/crash/c$a;->a:Z
@@ -71,7 +70,6 @@
 
     new-array v3, v1, [Ljava/lang/Object;
 
-    .line 1
     iget-boolean v4, p0, Lcom/tencent/bugly/crashreport/crash/c$a;->a:Z
 
     invoke-static {v4}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -82,7 +80,6 @@
 
     invoke-static {v2, v3}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 2
     iget-object v2, p0, Lcom/tencent/bugly/crashreport/crash/c$a;->p:Lcom/tencent/bugly/crashreport/crash/c;
 
     invoke-static {v2}, Lcom/tencent/bugly/crashreport/crash/c;->a(Lcom/tencent/bugly/crashreport/crash/c;)Lcom/tencent/bugly/crashreport/crash/e;
@@ -101,7 +98,6 @@
 
     invoke-virtual/range {v3 .. v8}, Lcom/tencent/bugly/crashreport/crash/e;->a(Ljava/lang/Thread;Ljava/lang/Throwable;ZLjava/lang/String;[B)V
 
-    .line 3
     iget-boolean v2, p0, Lcom/tencent/bugly/crashreport/crash/c$a;->g:Z
 
     if-eqz v2, :cond_0
@@ -110,10 +106,8 @@
 
     new-array v3, v0, [Ljava/lang/Object;
 
-    .line 4
     invoke-static {v2, v3}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 5
     iget-object v2, p0, Lcom/tencent/bugly/crashreport/crash/c$a;->p:Lcom/tencent/bugly/crashreport/crash/c;
 
     invoke-static {v2}, Lcom/tencent/bugly/crashreport/crash/c;->b(Lcom/tencent/bugly/crashreport/crash/c;)Landroid/content/Context;
@@ -134,20 +128,17 @@
     :catchall_0
     move-exception v2
 
-    .line 6
     invoke-static {v2}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/Throwable;)Z
 
     move-result v3
 
     if-eq v3, v1, :cond_1
 
-    .line 7
     invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_1
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 8
     iget-object v2, p0, Lcom/tencent/bugly/crashreport/crash/c$a;->c:Ljava/lang/Throwable;
 
     invoke-virtual {v2}, Ljava/lang/Throwable;->toString()Ljava/lang/String;

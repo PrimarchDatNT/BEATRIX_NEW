@@ -25,7 +25,6 @@
 .method constructor <init>(Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AFExecutor$5$1;->values:Ljava/lang/Runnable;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,14 +39,12 @@
 
     const-string v0, "AppsFlyer"
 
-    .line 1
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
     move-result v0
 
     invoke-static {v0}, Landroid/net/TrafficStats;->setThreadStatsTag(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/appsflyer/AFExecutor$5$1;->values:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V

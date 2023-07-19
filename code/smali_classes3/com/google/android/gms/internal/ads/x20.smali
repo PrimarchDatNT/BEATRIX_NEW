@@ -25,10 +25,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/h20;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/x20;->a:Lcom/google/android/gms/internal/ads/h20;
 
     return-void
@@ -41,10 +39,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/x20;->a:Lcom/google/android/gms/internal/ads/h20;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/h20;->b()Lcom/google/android/gms/internal/ads/lu;
 
     move-result-object v0

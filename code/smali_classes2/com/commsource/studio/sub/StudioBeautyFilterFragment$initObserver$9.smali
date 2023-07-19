@@ -57,14 +57,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$initObserver$9;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;
@@ -73,7 +71,6 @@
 
     move-result-object v2
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$initObserver$9;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
@@ -86,7 +83,6 @@
 
     invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     const-class v4, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;
 
     const/4 v5, 0x0
@@ -97,7 +93,6 @@
 
     const/4 v8, 0x0
 
-    .line 5
     invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->i(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;Landroid/view/View;Ljava/lang/Class;IIILjava/lang/Object;)Lcom/commsource/beautyplus/i0/a;
 
     move-result-object v1
@@ -106,7 +101,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->l0(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$initObserver$9;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->e0(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;
@@ -128,12 +122,10 @@
 
     const-string v2, "\u4eba\u50cf\u7f8e\u989c"
 
-    .line 7
     invoke-static {p1, v1, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$initObserver$9;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -143,7 +135,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->V0()V
 
-    .line 9
     sget-object p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;
@@ -162,7 +153,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->e(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;Ljava/lang/Class;IIILjava/lang/Object;)Z
 
-    .line 10
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -177,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$initObserver$9;->a(Ljava/lang/Boolean;)V

@@ -23,17 +23,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/firebase/appindexing/a$b$a;->a:Z
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/firebase/appindexing/a$b$a;->b:Z
 
     return-void
@@ -44,7 +41,6 @@
 .method public a(Z)Lcom/google/firebase/appindexing/a$b$a;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/firebase/appindexing/a$b$a;->a:Z
 
     return-object p0
@@ -53,7 +49,6 @@
 .method public final b()Lcom/google/firebase/appindexing/internal/zzb;
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/google/firebase/appindexing/internal/zzb;
 
     iget-boolean v1, p0, Lcom/google/firebase/appindexing/a$b$a;->a:Z

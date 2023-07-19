@@ -41,7 +41,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer$DrawPathView;->a:Lcom/commsource/studio/function/relight/NewRelightLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
@@ -135,7 +134,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer$DrawPathView;->a:Lcom/commsource/studio/function/relight/NewRelightLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->K()F
@@ -150,7 +148,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer$DrawPathView;->a:Lcom/commsource/studio/function/relight/NewRelightLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/function/relight/NewRelightLayer;->A0(Lcom/commsource/studio/function/relight/NewRelightLayer;)Lcom/commsource/studio/function/relight/e;
@@ -159,14 +156,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/function/relight/e;->h()Landroid/graphics/Matrix;
 
     move-result-object v2
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/function/relight/NewRelightLayer$DrawPathView;->a:Lcom/commsource/studio/function/relight/NewRelightLayer;
 
     invoke-static {v2}, Lcom/commsource/studio/function/relight/NewRelightLayer;->y0(Lcom/commsource/studio/function/relight/NewRelightLayer;)Landroid/graphics/RectF;
@@ -197,7 +192,6 @@
 
     invoke-virtual {v2, v4, v4, v3, v1}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer$DrawPathView;->a:Lcom/commsource/studio/function/relight/NewRelightLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/relight/NewRelightLayer;->C0()Landroid/graphics/Bitmap;
@@ -220,7 +214,6 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -75,7 +75,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/stats/d;
 
     invoke-direct {v0}, Lcom/google/android/gms/stats/d;-><init>()V
@@ -104,7 +103,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -123,7 +121,6 @@
 
     move-object v4, p3
 
-    .line 2
     invoke-direct/range {v1 .. v6}, Lcom/google/android/gms/stats/c;-><init>(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -162,7 +159,6 @@
 
     move-object v5, p5
 
-    .line 3
     invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/stats/c;-><init>(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -196,25 +192,20 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     iput-object p0, p0, Lcom/google/android/gms/stats/c;->a:Ljava/lang/Object;
 
     const/4 p4, 0x1
 
-    .line 6
     iput-boolean p4, p0, Lcom/google/android/gms/stats/c;->i:Z
 
-    .line 7
     new-instance p4, Ljava/util/HashMap;
 
     invoke-direct {p4}, Ljava/util/HashMap;-><init>()V
 
     iput-object p4, p0, Lcom/google/android/gms/stats/c;->j:Ljava/util/Map;
 
-    .line 8
     new-instance p4, Ljava/util/HashSet;
 
     invoke-direct {p4}, Ljava/util/HashSet;-><init>()V
@@ -225,7 +216,6 @@
 
     iput-object p4, p0, Lcom/google/android/gms/stats/c;->k:Ljava/util/Set;
 
-    .line 9
     new-instance p4, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 p6, 0x0
@@ -236,33 +226,26 @@
 
     const-string p4, "WakeLock: context must not be null"
 
-    .line 10
     invoke-static {p1, p4}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p4, "WakeLock: wakeLockName must not be empty"
 
-    .line 11
     invoke-static {p3, p4}, Lcom/google/android/gms/common/internal/b0;->h(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 12
     iput p2, p0, Lcom/google/android/gms/stats/c;->d:I
 
     const/4 p4, 0x0
 
-    .line 13
     iput-object p4, p0, Lcom/google/android/gms/stats/c;->f:Ljava/lang/String;
 
-    .line 14
     iput-object p4, p0, Lcom/google/android/gms/stats/c;->g:Ljava/lang/String;
 
-    .line 15
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p4
 
     iput-object p4, p0, Lcom/google/android/gms/stats/c;->h:Landroid/content/Context;
 
-    .line 16
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p6
@@ -277,7 +260,6 @@
 
     const-string p6, "*gcore*:"
 
-    .line 17
     invoke-static {p3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -306,47 +288,40 @@
 
     goto :goto_1
 
-    .line 18
     :cond_1
     iput-object p3, p0, Lcom/google/android/gms/stats/c;->e:Ljava/lang/String;
 
     :goto_1
     const-string p6, "power"
 
-    .line 19
     invoke-virtual {p1, p6}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p6
 
     check-cast p6, Landroid/os/PowerManager;
 
-    .line 20
     invoke-virtual {p6, p2, p3}, Landroid/os/PowerManager;->newWakeLock(ILjava/lang/String;)Landroid/os/PowerManager$WakeLock;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/google/android/gms/stats/c;->b:Landroid/os/PowerManager$WakeLock;
 
-    .line 21
     invoke-static {p1}, Lcom/google/android/gms/common/util/e0;->d(Landroid/content/Context;)Z
 
     move-result p3
 
     if-eqz p3, :cond_4
 
-    .line 22
     invoke-static {p5}, Lcom/google/android/gms/common/util/b0;->b(Ljava/lang/String;)Z
 
     move-result p3
 
     if-eqz p3, :cond_2
 
-    .line 23
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p5
 
-    .line 24
     :cond_2
     invoke-static {p1, p5}, Lcom/google/android/gms/common/util/e0;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/os/WorkSource;
 
@@ -356,32 +331,26 @@
 
     if-eqz p1, :cond_4
 
-    .line 25
     invoke-static {p4}, Lcom/google/android/gms/common/util/e0;->d(Landroid/content/Context;)Z
 
     move-result p3
 
     if-eqz p3, :cond_4
 
-    .line 26
     iget-object p3, p0, Lcom/google/android/gms/stats/c;->c:Landroid/os/WorkSource;
 
     if-eqz p3, :cond_3
 
-    .line 27
     invoke-virtual {p3, p1}, Landroid/os/WorkSource;->add(Landroid/os/WorkSource;)Z
 
     goto :goto_2
 
-    .line 28
     :cond_3
     iput-object p1, p0, Lcom/google/android/gms/stats/c;->c:Landroid/os/WorkSource;
 
-    .line 29
     :goto_2
     iget-object p1, p0, Lcom/google/android/gms/stats/c;->c:Landroid/os/WorkSource;
 
-    .line 30
     :try_start_0
     invoke-virtual {p2, p1}, Landroid/os/PowerManager$WakeLock;->setWorkSource(Landroid/os/WorkSource;)V
     :try_end_0
@@ -398,7 +367,6 @@
     :catch_1
     move-exception p1
 
-    .line 31
     :goto_3
     invoke-virtual {p1}, Ljava/lang/RuntimeException;->toString()Ljava/lang/String;
 
@@ -408,14 +376,12 @@
 
     invoke-static {p2, p1}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 32
     :cond_4
     :goto_4
     sget-object p1, Lcom/google/android/gms/stats/c;->n:Ljava/util/concurrent/ScheduledExecutorService;
 
     if-nez p1, :cond_5
 
-    .line 33
     invoke-static {}, Lcom/google/android/gms/common/n/a;->a()Lcom/google/android/gms/common/n/a$a;
 
     move-result-object p1
@@ -433,7 +399,6 @@
 .method private final e(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/stats/c;->i:Z
 
     if-eqz v0, :cond_1
@@ -468,7 +433,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/stats/c;->c:Landroid/os/WorkSource;
 
     invoke-static {v0}, Lcom/google/android/gms/common/util/e0;->c(Landroid/os/WorkSource;)Ljava/util/List;
@@ -481,7 +445,6 @@
 .method private final g(I)V
     .locals 2
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/stats/c;->b:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {p1}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
@@ -490,7 +453,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     :try_start_0
     iget-object p1, p0, Lcom/google/android/gms/stats/c;->b:Landroid/os/PowerManager$WakeLock;
 
@@ -503,7 +465,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -516,7 +477,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/stats/c;->e:Ljava/lang/String;
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -533,7 +493,6 @@
 
     invoke-static {v1, v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 5
     :goto_0
     iget-object p1, p0, Lcom/google/android/gms/stats/c;->b:Landroid/os/PowerManager$WakeLock;
 
@@ -541,7 +500,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     throw p1
 
@@ -555,7 +513,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/stats/c;->g(I)V
 
     return-void
@@ -568,24 +525,20 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/stats/c;->m:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, v0}, Lcom/google/android/gms/stats/c;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/stats/c;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/stats/c;->j:Ljava/util/Map;
 
@@ -610,15 +563,12 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/stats/c;->j:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->clear()V
 
-    .line 6
     iput v2, p0, Lcom/google/android/gms/stats/c;->l:I
 
-    .line 7
     :cond_1
     iget-boolean v1, p0, Lcom/google/android/gms/stats/c;->i:Z
 
@@ -626,7 +576,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 8
     iget-object v1, p0, Lcom/google/android/gms/stats/c;->j:Ljava/util/Map;
 
     invoke-interface {v1, v6}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -637,7 +586,6 @@
 
     if-nez v1, :cond_2
 
-    .line 9
     iget-object v1, p0, Lcom/google/android/gms/stats/c;->j:Ljava/util/Map;
 
     new-array v3, v12, [Ljava/lang/Integer;
@@ -654,7 +602,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     aget-object v3, v1, v2
 
@@ -673,7 +620,6 @@
     :goto_0
     if-nez v2, :cond_4
 
-    .line 11
     :cond_3
     iget-boolean v1, p0, Lcom/google/android/gms/stats/c;->i:Z
 
@@ -683,7 +629,6 @@
 
     if-nez v1, :cond_5
 
-    .line 12
     :cond_4
     invoke-static {}, Lcom/google/android/gms/common/stats/d;->a()Lcom/google/android/gms/common/stats/d;
 
@@ -693,7 +638,6 @@
 
     iget-object v3, p0, Lcom/google/android/gms/stats/c;->b:Landroid/os/PowerManager$WakeLock;
 
-    .line 13
     invoke-static {v3, v6}, Lcom/google/android/gms/common/stats/c;->b(Landroid/os/PowerManager$WakeLock;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -706,30 +650,25 @@
 
     iget v8, p0, Lcom/google/android/gms/stats/c;->d:I
 
-    .line 14
     invoke-direct {p0}, Lcom/google/android/gms/stats/c;->f()Ljava/util/List;
 
     move-result-object v9
 
     move-wide v10, p1
 
-    .line 15
     invoke-virtual/range {v1 .. v11}, Lcom/google/android/gms/common/stats/d;->e(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/List;J)V
 
-    .line 16
     iget v1, p0, Lcom/google/android/gms/stats/c;->l:I
 
     add-int/2addr v1, v12
 
     iput v1, p0, Lcom/google/android/gms/stats/c;->l:I
 
-    .line 17
     :cond_5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 18
     iget-object v0, p0, Lcom/google/android/gms/stats/c;->b:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->acquire()V
@@ -740,7 +679,6 @@
 
     if-lez v2, :cond_6
 
-    .line 19
     sget-object v0, Lcom/google/android/gms/stats/c;->n:Ljava/util/concurrent/ScheduledExecutorService;
 
     new-instance v1, Lcom/google/android/gms/stats/e;
@@ -749,7 +687,6 @@
 
     sget-object v2, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 20
     invoke-interface {v0, v1, p1, p2, v2}, Ljava/util/concurrent/ScheduledExecutorService;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
 
     :cond_6
@@ -758,7 +695,6 @@
     :catchall_0
     move-exception p1
 
-    .line 21
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -772,7 +708,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/stats/c;->b:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
@@ -787,7 +722,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/stats/c;->m:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->decrementAndGet()I
@@ -798,7 +732,6 @@
 
     const-string v0, "WakeLock"
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/stats/c;->e:Ljava/lang/String;
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -816,17 +749,14 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     invoke-direct {p0, v0}, Lcom/google/android/gms/stats/c;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/stats/c;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 5
     :try_start_0
     iget-boolean v1, p0, Lcom/google/android/gms/stats/c;->i:Z
 
@@ -836,7 +766,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 6
     iget-object v1, p0, Lcom/google/android/gms/stats/c;->j:Ljava/util/Map;
 
     invoke-interface {v1, v6}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -852,7 +781,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     aget-object v2, v1, v11
 
@@ -862,7 +790,6 @@
 
     if-ne v2, v10, :cond_2
 
-    .line 8
     iget-object v1, p0, Lcom/google/android/gms/stats/c;->j:Ljava/util/Map;
 
     invoke-interface {v1, v6}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -871,7 +798,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     aget-object v2, v1, v11
 
@@ -892,7 +818,6 @@
     :goto_1
     if-nez v1, :cond_4
 
-    .line 10
     :cond_3
     iget-boolean v1, p0, Lcom/google/android/gms/stats/c;->i:Z
 
@@ -902,7 +827,6 @@
 
     if-ne v1, v10, :cond_5
 
-    .line 11
     :cond_4
     invoke-static {}, Lcom/google/android/gms/common/stats/d;->a()Lcom/google/android/gms/common/stats/d;
 
@@ -912,7 +836,6 @@
 
     iget-object v3, p0, Lcom/google/android/gms/stats/c;->b:Landroid/os/PowerManager$WakeLock;
 
-    .line 12
     invoke-static {v3, v6}, Lcom/google/android/gms/common/stats/c;->b(Landroid/os/PowerManager$WakeLock;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -925,28 +848,23 @@
 
     iget v8, p0, Lcom/google/android/gms/stats/c;->d:I
 
-    .line 13
     invoke-direct {p0}, Lcom/google/android/gms/stats/c;->f()Ljava/util/List;
 
     move-result-object v9
 
-    .line 14
     invoke-virtual/range {v1 .. v9}, Lcom/google/android/gms/common/stats/d;->d(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/List;)V
 
-    .line 15
     iget v1, p0, Lcom/google/android/gms/stats/c;->l:I
 
     sub-int/2addr v1, v10
 
     iput v1, p0, Lcom/google/android/gms/stats/c;->l:I
 
-    .line 16
     :cond_5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 17
     invoke-direct {p0, v11}, Lcom/google/android/gms/stats/c;->g(I)V
 
     return-void
@@ -954,7 +872,6 @@
     :catchall_0
     move-exception v1
 
-    .line 18
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -968,12 +885,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/stats/c;->b:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0, p1}, Landroid/os/PowerManager$WakeLock;->setReferenceCounted(Z)V
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/stats/c;->i:Z
 
     return-void

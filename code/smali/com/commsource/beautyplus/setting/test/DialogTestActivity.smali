@@ -20,10 +20,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$mViewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$mViewBinding$2;-><init>(Lcom/commsource/beautyplus/setting/test/DialogTestActivity;)V
@@ -141,10 +139,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -159,7 +155,6 @@
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(Landroid/view/View;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -170,7 +165,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -179,7 +173,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -190,7 +183,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -199,7 +191,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -208,7 +199,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -231,7 +221,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/EditText;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -252,7 +241,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/EditText;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -273,7 +261,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/EditText;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -294,7 +281,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/EditText;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -315,7 +301,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/EditText;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -336,7 +321,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/EditText;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N0()Lcom/commsource/beautyplus/f0/s;
 
     move-result-object p1
@@ -349,7 +333,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

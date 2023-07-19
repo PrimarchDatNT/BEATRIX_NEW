@@ -12,10 +12,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/UnsupportedApiCallException;->zzas:Lcom/google/android/gms/common/Feature;
 
     return-void
@@ -26,7 +24,6 @@
 .method public final getMessage()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/UnsupportedApiCallException;->zzas:Lcom/google/android/gms/common/Feature;
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;

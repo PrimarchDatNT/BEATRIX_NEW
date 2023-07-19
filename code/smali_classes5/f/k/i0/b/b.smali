@@ -23,14 +23,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     sput-object v1, Lf/k/i0/b/b;->c:Ljava/lang/Object;
 
-    .line 2
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
@@ -45,10 +43,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object p1, Lcom/meitu/room/database/DBHelper;->c:Lcom/meitu/room/database/DBHelper;
 
     invoke-virtual {p1}, Lcom/meitu/room/database/DBHelper;->c()Lcom/meitu/room/database/MTBeautyplusDatabase;
@@ -61,7 +57,6 @@
 
     iput-object v0, p0, Lf/k/i0/b/b;->b:Lf/k/i0/a/h;
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/room/database/DBHelper;->c()Lcom/meitu/room/database/MTBeautyplusDatabase;
 
     move-result-object p1
@@ -82,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/i0/b/b;->d:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/i0/b/b;->a:Lf/k/i0/a/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -112,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/i0/b/b;->c:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -127,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/i0/b/b;->b:Lf/k/i0/a/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/i0/b/b$a;
 
     const-string v2, "deleteChatFiled"
@@ -153,7 +143,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -176,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -185,12 +173,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     sget-object v1, Lf/k/i0/b/b;->d:Ljava/lang/Object;
 
@@ -198,7 +184,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     :try_start_0
     iget-object p2, p0, Lf/k/i0/b/b;->a:Lf/k/i0/a/j;
 
@@ -214,7 +199,6 @@
 
     return-object p1
 
-    .line 5
     :cond_1
     :try_start_1
     iget-object p2, p0, Lf/k/i0/b/b;->a:Lf/k/i0/a/j;
@@ -234,7 +218,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_2
     monitor-exit v1
     :try_end_2
@@ -262,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -271,18 +253,15 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     sget-object v1, Lf/k/i0/b/b;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 4
     :try_start_0
     iget-object v2, p0, Lf/k/i0/b/b;->b:Lf/k/i0/a/h;
 
@@ -301,7 +280,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -321,7 +299,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lf/k/i0/b/b$d;
 
     const-string v2, "insertChat"
@@ -330,7 +307,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -356,7 +332,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
@@ -365,7 +340,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Lf/k/i0/b/b$c;
 
@@ -375,12 +349,10 @@
 
     invoke-static {p1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -397,7 +369,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lf/k/i0/b/b$b;
 
     const-string v2, "insertOrUpdateChatFiled"
@@ -406,7 +377,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

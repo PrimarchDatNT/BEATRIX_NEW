@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/filter/b$d;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v1, p1}, Lcom/commsource/store/filter/b;->I(Lcom/commsource/store/filter/b;Lcom/meitu/template/bean/j;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/filter/b$d;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v1}, Lcom/commsource/store/filter/b;->D(Lcom/commsource/store/filter/b;)Lcom/commsource/beautyplus/f0/ia;
@@ -77,12 +75,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/f0/ia;->i(Lcom/meitu/template/bean/j;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/filter/b$d;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v1}, Lcom/commsource/store/filter/b;->E(Lcom/commsource/store/filter/b;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/store/filter/b$d;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v1}, Lcom/commsource/store/filter/b;->C(Lcom/commsource/store/filter/b;)Lcom/commsource/widget/h1/e;
@@ -103,7 +99,6 @@
 
     aput-object p1, v4, v5
 
-    .line 5
     invoke-static {v4}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -114,7 +109,6 @@
 
     move-result-object v2
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/template/bean/j;->g()Ljava/util/List;
 
     move-result-object v4
@@ -129,7 +123,6 @@
 
     aput-object p1, v3, v5
 
-    .line 7
     invoke-static {v3}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object p1
@@ -140,15 +133,12 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/widget/h1/c;->k()Ljava/util/List;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/store/filter/b$d;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {p1}, Lcom/commsource/store/filter/b;->C(Lcom/commsource/store/filter/b;)Lcom/commsource/widget/h1/e;
@@ -157,7 +147,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/widget/h1/e;->p()V
 
-    .line 11
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -171,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/j;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/b$d;->a(Lcom/meitu/template/bean/j;)V

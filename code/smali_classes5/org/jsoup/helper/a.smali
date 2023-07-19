@@ -31,7 +31,6 @@
 
     const-string v0, "(?i)\\bcharset=\\s*(?:[\"\'])?([^\\s,;\"\']*)"
 
-    .line 1
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -40,7 +39,6 @@
 
     const-string v0, "-_1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
@@ -53,7 +51,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -71,7 +68,6 @@
 
     new-array v0, v0, [B
 
-    .line 1
     :goto_0
     invoke-virtual {p0, v0}, Ljava/io/InputStream;->read([B)I
 
@@ -83,7 +79,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {p1, v0, v2, v1}, Ljava/io/OutputStream;->write([BII)V
 
     goto :goto_0
@@ -95,30 +90,25 @@
 .method private static b(Ljava/nio/ByteBuffer;)Lorg/jsoup/helper/a$a;
     .locals 7
 
-    .line 1
     invoke-virtual {p0}, Ljava/nio/Buffer;->mark()Ljava/nio/Buffer;
 
     const/4 v0, 0x4
 
     new-array v1, v0, [B
 
-    .line 2
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v2
 
     if-lt v2, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
 
-    .line 4
     invoke-virtual {p0}, Ljava/nio/Buffer;->rewind()Ljava/nio/Buffer;
 
     :cond_0
     const/4 p0, 0x0
 
-    .line 5
     aget-byte v0, v1, p0
 
     const/4 v2, 0x3
@@ -162,7 +152,6 @@
 
     if-nez v0, :cond_3
 
-    .line 6
     :cond_2
     new-instance v0, Lorg/jsoup/helper/a$a;
 
@@ -172,7 +161,6 @@
 
     return-object v0
 
-    .line 7
     :cond_3
     aget-byte v0, v1, p0
 
@@ -191,7 +179,6 @@
 
     if-ne v0, v4, :cond_6
 
-    .line 8
     :cond_5
     new-instance v0, Lorg/jsoup/helper/a$a;
 
@@ -201,7 +188,6 @@
 
     return-object v0
 
-    .line 9
     :cond_6
     aget-byte p0, v1, p0
 
@@ -221,7 +207,6 @@
 
     if-ne p0, v0, :cond_7
 
-    .line 10
     new-instance p0, Lorg/jsoup/helper/a$a;
 
     const-string v0, "UTF-8"
@@ -241,7 +226,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -258,7 +242,6 @@
 
     return-object v0
 
-    .line 1
     :cond_0
     sget-object v1, Lorg/jsoup/helper/a;->a:Ljava/util/regex/Pattern;
 
@@ -266,7 +249,6 @@
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v1
@@ -275,7 +257,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-virtual {p0, v0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object p0
@@ -288,12 +269,10 @@
 
     const-string v1, ""
 
-    .line 4
     invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 5
     invoke-static {p0}, Lorg/jsoup/helper/a;->k(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -312,7 +291,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
@@ -336,7 +314,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lorg/jsoup/parser/e;->c()Lorg/jsoup/parser/e;
 
     move-result-object v0
@@ -356,7 +333,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lorg/jsoup/helper/a;->i(Ljava/io/InputStream;Ljava/lang/String;Ljava/lang/String;Lorg/jsoup/parser/e;)Lorg/jsoup/nodes/Document;
 
     move-result-object p0
@@ -367,12 +343,10 @@
 .method static h()Ljava/lang/String;
     .locals 5
 
-    .line 1
     invoke-static {}, Lorg/jsoup/b/c;->b()Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/util/Random;
 
     invoke-direct {v1}, Ljava/util/Random;-><init>()V
@@ -384,7 +358,6 @@
 
     if-ge v2, v3, :cond_0
 
-    .line 3
     sget-object v3, Lorg/jsoup/helper/a;->e:[C
 
     array-length v4, v3
@@ -401,7 +374,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lorg/jsoup/b/c;->o(Ljava/lang/StringBuilder;)Ljava/lang/String;
 
@@ -426,7 +398,6 @@
 
     if-nez v0, :cond_0
 
-    .line 1
     new-instance v0, Lorg/jsoup/nodes/Document;
 
     invoke-direct {v0, v1}, Lorg/jsoup/nodes/Document;-><init>(Ljava/lang/String;)V
@@ -438,22 +409,18 @@
 
     const/4 v4, 0x0
 
-    .line 2
     invoke-static {v0, v3, v4}, Lorg/jsoup/b/a;->d(Ljava/io/InputStream;II)Lorg/jsoup/b/a;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0, v3}, Ljava/io/InputStream;->mark(I)V
 
     const/16 v5, 0x13ff
 
-    .line 4
     invoke-static {v0, v5}, Lorg/jsoup/helper/a;->j(Ljava/io/InputStream;I)Ljava/nio/ByteBuffer;
 
     move-result-object v5
 
-    .line 5
     invoke-virtual {v0}, Ljava/io/InputStream;->read()I
 
     move-result v6
@@ -471,18 +438,15 @@
     :cond_1
     const/4 v6, 0x0
 
-    .line 6
     :goto_0
     invoke-virtual {v0}, Ljava/io/InputStream;->reset()V
 
-    .line 7
     invoke-static {v5}, Lorg/jsoup/helper/a;->b(Ljava/nio/ByteBuffer;)Lorg/jsoup/helper/a$a;
 
     move-result-object v7
 
     if-eqz v7, :cond_2
 
-    .line 8
     invoke-static {v7}, Lorg/jsoup/helper/a$a;->a(Lorg/jsoup/helper/a$a;)Ljava/lang/String;
 
     move-result-object v9
@@ -499,7 +463,6 @@
 
     if-nez v9, :cond_d
 
-    .line 9
     :try_start_0
     invoke-static {v10}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
@@ -509,14 +472,12 @@
 
     move-result-object v5
 
-    .line 10
     invoke-virtual {v5}, Ljava/nio/CharBuffer;->hasArray()Z
 
     move-result v12
 
     if-eqz v12, :cond_3
 
-    .line 11
     new-instance v12, Ljava/io/CharArrayReader;
 
     invoke-virtual {v5}, Ljava/nio/CharBuffer;->array()[C
@@ -531,7 +492,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_3
     invoke-virtual {v5}, Ljava/nio/CharBuffer;->toString()Ljava/lang/String;
 
@@ -546,12 +506,10 @@
     :goto_2
     const-string v12, "meta[http-equiv=content-type], meta[charset]"
 
-    .line 13
     invoke-virtual {v5, v12}, Lorg/jsoup/nodes/Element;->Y1(Ljava/lang/String;)Lorg/jsoup/select/Elements;
 
     move-result-object v12
 
-    .line 14
     invoke-virtual {v12}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v12
@@ -573,7 +531,6 @@
 
     const-string v15, "http-equiv"
 
-    .line 15
     invoke-virtual {v14, v15}, Lorg/jsoup/nodes/j;->z(Ljava/lang/String;)Z
 
     move-result v15
@@ -582,7 +539,6 @@
 
     const-string v13, "content"
 
-    .line 16
     invoke-virtual {v14, v13}, Lorg/jsoup/nodes/j;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v13
@@ -596,14 +552,12 @@
 
     const-string v15, "charset"
 
-    .line 17
     invoke-virtual {v14, v15}, Lorg/jsoup/nodes/j;->z(Ljava/lang/String;)Z
 
     move-result v16
 
     if-eqz v16, :cond_6
 
-    .line 18
     invoke-virtual {v14, v15}, Lorg/jsoup/nodes/j;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v13
@@ -614,45 +568,37 @@
     :cond_7
     if-nez v13, :cond_a
 
-    .line 19
     invoke-virtual {v5}, Lorg/jsoup/nodes/Element;->n()I
 
     move-result v12
 
     if-lez v12, :cond_a
 
-    .line 20
     invoke-virtual {v5, v4}, Lorg/jsoup/nodes/j;->m(I)Lorg/jsoup/nodes/j;
 
     move-result-object v12
 
-    .line 21
     instance-of v14, v12, Lorg/jsoup/nodes/n;
 
     if-eqz v14, :cond_8
 
-    .line 22
     check-cast v12, Lorg/jsoup/nodes/n;
 
     goto :goto_3
 
-    .line 23
     :cond_8
     instance-of v14, v12, Lorg/jsoup/nodes/d;
 
     if-eqz v14, :cond_9
 
-    .line 24
     check-cast v12, Lorg/jsoup/nodes/d;
 
-    .line 25
     invoke-virtual {v12}, Lorg/jsoup/nodes/d;->o0()Z
 
     move-result v14
 
     if-eqz v14, :cond_9
 
-    .line 26
     invoke-virtual {v12}, Lorg/jsoup/nodes/d;->l0()Lorg/jsoup/nodes/n;
 
     move-result-object v12
@@ -665,7 +611,6 @@
     :goto_3
     if-eqz v12, :cond_a
 
-    .line 27
     invoke-virtual {v12}, Lorg/jsoup/nodes/n;->o0()Ljava/lang/String;
 
     move-result-object v14
@@ -680,12 +625,10 @@
 
     const-string v13, "encoding"
 
-    .line 28
     invoke-virtual {v12, v13}, Lorg/jsoup/nodes/n;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v13
 
-    .line 29
     :cond_a
     invoke-static {v13}, Lorg/jsoup/helper/a;->k(Ljava/lang/String;)Ljava/lang/String;
 
@@ -693,14 +636,12 @@
 
     if-eqz v12, :cond_b
 
-    .line 30
     invoke-virtual {v12, v10}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v13
 
     if-nez v13, :cond_b
 
-    .line 31
     invoke-virtual {v12}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v5
@@ -730,7 +671,6 @@
     :catch_0
     move-exception v0
 
-    .line 32
     invoke-virtual {v0}, Lorg/jsoup/UncheckedIOException;->ioException()Ljava/io/IOException;
 
     move-result-object v0
@@ -740,7 +680,6 @@
     :cond_d
     const-string v5, "Must set charset arg to character set of file to parse. Set to null to attempt to detect from HTML"
 
-    .line 33
     invoke-static {v9, v5}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_4
@@ -750,7 +689,6 @@
 
     move-object v9, v10
 
-    .line 34
     :cond_e
     new-instance v5, Ljava/io/BufferedReader;
 
@@ -762,7 +700,6 @@
 
     if-eqz v7, :cond_10
 
-    .line 35
     invoke-static {v7}, Lorg/jsoup/helper/a$a;->b(Lorg/jsoup/helper/a$a;)Z
 
     move-result v3
@@ -771,7 +708,6 @@
 
     const-wide/16 v6, 0x1
 
-    .line 36
     invoke-virtual {v5, v6, v7}, Ljava/io/BufferedReader;->skip(J)J
 
     move-result-wide v11
@@ -782,11 +718,9 @@
 
     const/4 v4, 0x1
 
-    .line 37
     :cond_f
     invoke-static {v4}, Lorg/jsoup/helper/c;->d(Z)V
 
-    .line 38
     :cond_10
     :try_start_1
     invoke-virtual {v2, v5, v1}, Lorg/jsoup/parser/e;->j(Ljava/io/Reader;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
@@ -795,26 +729,22 @@
     :try_end_1
     .catch Lorg/jsoup/UncheckedIOException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 39
     invoke-static {v9}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v1
 
-    .line 40
     invoke-virtual {v11}, Lorg/jsoup/nodes/Document;->F2()Lorg/jsoup/nodes/Document$OutputSettings;
 
     move-result-object v2
 
     invoke-virtual {v2, v1}, Lorg/jsoup/nodes/Document$OutputSettings;->c(Ljava/nio/charset/Charset;)Lorg/jsoup/nodes/Document$OutputSettings;
 
-    .line 41
     invoke-virtual {v1}, Ljava/nio/charset/Charset;->canEncode()Z
 
     move-result v1
 
     if-nez v1, :cond_11
 
-    .line 42
     invoke-static {v10}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v1
@@ -828,14 +758,12 @@
 
     move-object v1, v0
 
-    .line 43
     invoke-virtual {v1}, Lorg/jsoup/UncheckedIOException;->ioException()Ljava/io/IOException;
 
     move-result-object v0
 
     throw v0
 
-    .line 44
     :cond_11
     :goto_5
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
@@ -863,17 +791,14 @@
     :goto_0
     const-string v1, "maxSize must be 0 (unlimited) or larger"
 
-    .line 1
     invoke-static {v0, v1}, Lorg/jsoup/helper/c;->e(ZLjava/lang/String;)V
 
     const v0, 0x8000
 
-    .line 2
     invoke-static {p0, v0, p1}, Lorg/jsoup/b/a;->d(Ljava/io/InputStream;II)Lorg/jsoup/b/a;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0, p1}, Lorg/jsoup/b/a;->b(I)Ljava/nio/ByteBuffer;
 
     move-result-object p0
@@ -888,7 +813,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -897,7 +821,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
@@ -911,7 +834,6 @@
 
     move-result-object p0
 
-    .line 3
     :try_start_0
     invoke-static {p0}, Ljava/nio/charset/Charset;->isSupported(Ljava/lang/String;)Z
 
@@ -921,7 +843,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     sget-object v1, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
@@ -929,7 +850,6 @@
 
     move-result-object p0
 
-    .line 5
     invoke-static {p0}, Ljava/nio/charset/Charset;->isSupported(Ljava/lang/String;)Z
 
     move-result v1

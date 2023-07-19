@@ -27,7 +27,6 @@
 .method public constructor <init>(Lcom/meitu/puckerrecyclerview/j;Landroid/view/ViewGroup;Landroid/view/View;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/puckerrecyclerview/l;-><init>(Lcom/meitu/puckerrecyclerview/j;Landroid/view/ViewGroup;Landroid/view/View;)V
 
     return-void
@@ -38,7 +37,6 @@
 .method protected f()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/puckerrecyclerview/i;->d:Lcom/meitu/puckerrecyclerview/j$c;
 
     if-eqz v0, :cond_0
@@ -57,7 +55,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/puckerrecyclerview/l;->a()Lcom/meitu/puckerrecyclerview/j;
 
@@ -93,7 +90,6 @@
 .method public j(Lcom/meitu/puckerrecyclerview/j$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/i;->d:Lcom/meitu/puckerrecyclerview/j$c;
 
     return-void

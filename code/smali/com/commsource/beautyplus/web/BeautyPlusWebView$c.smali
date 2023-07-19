@@ -25,7 +25,6 @@
 .method private constructor <init>(Lcom/commsource/beautyplus/web/BeautyPlusWebView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$c;->a:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/commsource/beautyplus/web/BeautyPlusWebView;Lcom/commsource/beautyplus/web/BeautyPlusWebView$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/web/BeautyPlusWebView$c;-><init>(Lcom/commsource/beautyplus/web/BeautyPlusWebView;)V
 
     return-void
@@ -51,12 +49,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$c;->a:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     invoke-virtual {p3}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p3
@@ -65,10 +61,8 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->link_not_correct:I
 
-    .line 3
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -77,7 +71,6 @@
     :try_start_0
     const-string p3, "/"
 
-    .line 5
     invoke-virtual {p1, p3}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result p3
@@ -92,7 +85,6 @@
 
     move-result-object p3
 
-    .line 6
     iget-object p4, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$c;->a:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
     invoke-virtual {p4}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
@@ -101,7 +93,6 @@
 
     const-string p5, ".apk"
 
-    .line 7
     invoke-virtual {p1, p5}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result p5
@@ -117,13 +108,11 @@
     :cond_1
     const/4 p5, 0x0
 
-    .line 8
     :goto_0
     invoke-static {p4, p1, p3, p5}, Lcom/commsource/util/common/FileDownloader;->d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/BroadcastReceiver;)V
 
     sget p1, Lcom/res/provider/ResSTRING;->downloading:I
 
-    .line 9
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -133,15 +122,12 @@
     :catch_0
     move-exception p1
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     sget p1, Lcom/res/provider/ResSTRING;->download_failed:I
 
-    .line 11
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
-    .line 12
     :goto_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

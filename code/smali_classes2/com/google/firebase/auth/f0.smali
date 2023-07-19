@@ -15,7 +15,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/FirebaseAuth;Lcom/google/firebase/v/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/f0;->b:Lcom/google/firebase/auth/FirebaseAuth;
 
     iput-object p2, p0, Lcom/google/firebase/auth/f0;->a:Lcom/google/firebase/v/c;
@@ -30,7 +29,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/f0;->b:Lcom/google/firebase/auth/FirebaseAuth;
 
     invoke-static {v0}, Lcom/google/firebase/auth/FirebaseAuth;->P(Lcom/google/firebase/auth/FirebaseAuth;)Ljava/util/List;
@@ -54,14 +52,12 @@
 
     check-cast v1, Lcom/google/firebase/auth/internal/a;
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/auth/f0;->a:Lcom/google/firebase/v/c;
 
     invoke-interface {v1, v2}, Lcom/google/firebase/auth/internal/a;->a(Lcom/google/firebase/v/c;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/auth/f0;->b:Lcom/google/firebase/auth/FirebaseAuth;
 
@@ -86,7 +82,6 @@
 
     check-cast v1, Lcom/google/firebase/auth/FirebaseAuth$b;
 
-    .line 4
     iget-object v2, p0, Lcom/google/firebase/auth/f0;->b:Lcom/google/firebase/auth/FirebaseAuth;
 
     invoke-interface {v1, v2}, Lcom/google/firebase/auth/FirebaseAuth$b;->a(Lcom/google/firebase/auth/FirebaseAuth;)V

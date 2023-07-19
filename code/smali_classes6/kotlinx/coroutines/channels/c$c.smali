@@ -40,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcotlinx/coroutines/channels/c$b;-><init>(Lcotlinx/coroutines/internal/k;Ljava/lang/Object;)V
 
     return-void
@@ -59,10 +58,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcotlinx/coroutines/internal/m$b;->f(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;)V
 
-    .line 2
     instance-of p2, p1, Lcotlinx/coroutines/channels/c$a;
 
     if-nez p2, :cond_0

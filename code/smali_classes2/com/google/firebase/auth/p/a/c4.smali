@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/p/a/b0;Lcom/google/android/gms/internal/firebase_auth/h2;Lcom/google/android/gms/internal/firebase_auth/zzem;Lcom/google/firebase/auth/p/a/q2;Lcom/google/android/gms/internal/firebase_auth/zzes;Lcom/google/firebase/auth/p/a/v3;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/p/a/c4;->f:Lcom/google/firebase/auth/p/a/b0;
 
     iput-object p2, p0, Lcom/google/firebase/auth/p/a/c4;->a:Lcom/google/android/gms/internal/firebase_auth/h2;
@@ -61,7 +60,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->e:Lcom/google/firebase/auth/p/a/v3;
 
     invoke-interface {v0, p1}, Lcom/google/firebase/auth/p/a/v3;->a(Ljava/lang/String;)V
@@ -72,10 +70,8 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 3
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/k2;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->a:Lcom/google/android/gms/internal/firebase_auth/h2;
 
     const-string v1, "EMAIL"
@@ -88,14 +84,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->b:Lcom/google/android/gms/internal/firebase_auth/zzem;
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/firebase_auth/zzem;->V(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzem;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->a:Lcom/google/android/gms/internal/firebase_auth/h2;
 
@@ -105,7 +99,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->b:Lcom/google/android/gms/internal/firebase_auth/zzem;
 
     iget-object v2, p0, Lcom/google/firebase/auth/p/a/c4;->a:Lcom/google/android/gms/internal/firebase_auth/h2;
@@ -116,7 +109,6 @@
 
     invoke-virtual {v0, v2}, Lcom/google/android/gms/internal/firebase_auth/zzem;->V(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzem;
 
-    .line 6
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->a:Lcom/google/android/gms/internal/firebase_auth/h2;
@@ -129,14 +121,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 7
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->b:Lcom/google/android/gms/internal/firebase_auth/zzem;
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/firebase_auth/zzem;->l0(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzem;
 
     goto :goto_1
 
-    .line 8
     :cond_2
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->a:Lcom/google/android/gms/internal/firebase_auth/h2;
 
@@ -146,7 +136,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 9
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->b:Lcom/google/android/gms/internal/firebase_auth/zzem;
 
     iget-object v2, p0, Lcom/google/firebase/auth/p/a/c4;->a:Lcom/google/android/gms/internal/firebase_auth/h2;
@@ -157,7 +146,6 @@
 
     invoke-virtual {v0, v2}, Lcom/google/android/gms/internal/firebase_auth/zzem;->l0(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzem;
 
-    .line 10
     :cond_3
     :goto_1
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->a:Lcom/google/android/gms/internal/firebase_auth/h2;
@@ -170,14 +158,12 @@
 
     if-eqz v0, :cond_4
 
-    .line 11
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->b:Lcom/google/android/gms/internal/firebase_auth/zzem;
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/firebase_auth/zzem;->w0(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzem;
 
     goto :goto_2
 
-    .line 12
     :cond_4
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->a:Lcom/google/android/gms/internal/firebase_auth/h2;
 
@@ -187,7 +173,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 13
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->b:Lcom/google/android/gms/internal/firebase_auth/zzem;
 
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/c4;->a:Lcom/google/android/gms/internal/firebase_auth/h2;
@@ -198,7 +183,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/firebase_auth/zzem;->w0(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzem;
 
-    .line 14
     :cond_5
     :goto_2
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->a:Lcom/google/android/gms/internal/firebase_auth/h2;
@@ -213,7 +197,6 @@
 
     if-nez v0, :cond_6
 
-    .line 15
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->b:Lcom/google/android/gms/internal/firebase_auth/zzem;
 
     const-string v1, "redacted"
@@ -228,7 +211,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/firebase_auth/zzem;->y0(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzem;
 
-    .line 16
     :cond_6
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/k2;->c()Ljava/util/List;
 
@@ -238,33 +220,28 @@
 
     goto :goto_3
 
-    .line 17
     :cond_7
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 18
     :goto_3
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/c4;->b:Lcom/google/android/gms/internal/firebase_auth/zzem;
 
     invoke-virtual {v1, v0}, Lcom/google/android/gms/internal/firebase_auth/zzem;->Q(Ljava/util/List;)Lcom/google/android/gms/internal/firebase_auth/zzem;
 
-    .line 19
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/c4;->c:Lcom/google/firebase/auth/p/a/q2;
 
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/c4;->f:Lcom/google/firebase/auth/p/a/b0;
 
     iget-object v2, p0, Lcom/google/firebase/auth/p/a/c4;->d:Lcom/google/android/gms/internal/firebase_auth/zzes;
 
-    .line 20
     invoke-static {v1, v2, p1}, Lcom/google/firebase/auth/p/a/b0;->b(Lcom/google/firebase/auth/p/a/b0;Lcom/google/android/gms/internal/firebase_auth/zzes;Lcom/google/android/gms/internal/firebase_auth/k2;)Lcom/google/android/gms/internal/firebase_auth/zzes;
 
     move-result-object p1
 
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/c4;->b:Lcom/google/android/gms/internal/firebase_auth/zzem;
 
-    .line 21
     invoke-virtual {v0, p1, v1}, Lcom/google/firebase/auth/p/a/q2;->e(Lcom/google/android/gms/internal/firebase_auth/zzes;Lcom/google/android/gms/internal/firebase_auth/zzem;)V
 
     return-void

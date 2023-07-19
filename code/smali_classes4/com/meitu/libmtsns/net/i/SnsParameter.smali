@@ -33,7 +33,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,13 +41,10 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/libmtsns/net/i/SnsParameter;->name:Ljava/lang/String;
 
-    .line 4
     iput-object p2, p0, Lcom/meitu/libmtsns/net/i/SnsParameter;->value:Ljava/lang/String;
 
     return-void
@@ -63,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/libmtsns/net/i/SnsParameter;->name:Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/meitu/libmtsns/net/i/SnsParameter;->getName()Ljava/lang/String;
@@ -76,7 +71,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/libmtsns/net/i/SnsParameter;->value:Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/meitu/libmtsns/net/i/SnsParameter;->getValue()Ljava/lang/String;
@@ -87,7 +81,6 @@
 
     move-result v1
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -101,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/libmtsns/net/i/SnsParameter;
 
     invoke-virtual {p0, p1}, Lcom/meitu/libmtsns/net/i/SnsParameter;->compareTo(Lcom/meitu/libmtsns/net/i/SnsParameter;)I
@@ -124,7 +116,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -134,21 +125,17 @@
 
     if-ne p0, p1, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_1
     instance-of v3, p1, Lcom/meitu/libmtsns/net/i/SnsParameter;
 
     if-eqz v3, :cond_3
 
-    .line 4
     check-cast p1, Lcom/meitu/libmtsns/net/i/SnsParameter;
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/libmtsns/net/i/SnsParameter;->getName()Ljava/lang/String;
 
     move-result-object v3
@@ -184,7 +171,6 @@
 
     return v1
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -198,7 +184,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/net/i/SnsParameter;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -213,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/net/i/SnsParameter;->value:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -228,10 +212,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/net/i/SnsParameter;->name:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -244,10 +226,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/net/i/SnsParameter;->value:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -260,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

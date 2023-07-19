@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
@@ -43,17 +42,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
 
     const/4 p2, 0x0
 
     invoke-static {p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;->B(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

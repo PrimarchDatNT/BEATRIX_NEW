@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/camera/ArVideoConfirmActivity;Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;Lcom/commsource/widget/p0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$f;->e:Lcom/commsource/camera/ArVideoConfirmActivity;
 
     iput-object p3, p0, Lcom/commsource/camera/ArVideoConfirmActivity$f;->d:Lcom/commsource/widget/p0;
@@ -45,14 +44,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$f;->d:Lcom/commsource/widget/p0;
 
     invoke-virtual {p1}, Lcom/commsource/widget/p0;->b()V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$f;->e:Lcom/commsource/camera/ArVideoConfirmActivity;
 
@@ -64,7 +61,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->l()V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/jaegertracing/Configuration$Propagation;->values()[Lio/jaegertracing/Configuration$Propagation;
 
     move-result-object v0

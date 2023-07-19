@@ -20,19 +20,14 @@
 .method public constructor <init>(Ljava/lang/String;ILcom/airbnb/lottie/model/i/h;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/airbnb/lottie/model/content/k;->a:Ljava/lang/String;
 
-    .line 3
     iput p2, p0, Lcom/airbnb/lottie/model/content/k;->b:I
 
-    .line 4
     iput-object p3, p0, Lcom/airbnb/lottie/model/content/k;->c:Lcom/airbnb/lottie/model/i/h;
 
-    .line 5
     iput-boolean p4, p0, Lcom/airbnb/lottie/model/content/k;->d:Z
 
     return-void
@@ -43,7 +38,6 @@
 .method public a(Lcom/airbnb/lottie/j;Lcom/airbnb/lottie/model/layer/a;)Lcom/airbnb/lottie/w/b/c;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/w/b/r;
 
     invoke-direct {v0, p1, p2, p0}, Lcom/airbnb/lottie/w/b/r;-><init>(Lcom/airbnb/lottie/j;Lcom/airbnb/lottie/model/layer/a;Lcom/airbnb/lottie/model/content/k;)V
@@ -54,7 +48,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/k;->a:Ljava/lang/String;
 
     return-object v0
@@ -63,7 +56,6 @@
 .method public c()Lcom/airbnb/lottie/model/i/h;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/content/k;->c:Lcom/airbnb/lottie/model/i/h;
 
     return-object v0
@@ -72,7 +64,6 @@
 .method public d()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/airbnb/lottie/model/content/k;->d:Z
 
     return v0
@@ -81,7 +72,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

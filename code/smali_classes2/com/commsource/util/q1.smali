@@ -31,7 +31,6 @@
 
     const-string v3, "android.permission.RECORD_AUDIO"
 
-    .line 1
     filled-new-array {v1, v2, v3}, [Ljava/lang/String;
 
     move-result-object v1
@@ -46,7 +45,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/q1;->a:Ljava/util/List;
 
     if-eqz v1, :cond_0
@@ -80,7 +77,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
@@ -90,10 +86,8 @@
 
     const-string v2, "android.permission.ACCESS_FINE_LOCATION"
 
-    .line 3
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     sget-object v1, Lcom/commsource/util/q1;->a:Ljava/util/List;
 
     const-string v2, "android.permission.ACCESS_COARSE_LOCATION"
@@ -103,7 +97,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 5
     sget-object v2, Lcom/commsource/util/q1;->a:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -124,7 +117,6 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 6
     invoke-static {p0, v3}, Lcom/commsource/util/q1;->b(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v4
@@ -133,18 +125,15 @@
 
     if-nez v1, :cond_3
 
-    .line 7
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 8
     :cond_3
     invoke-interface {v1, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -158,14 +147,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x17
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Landroidx/core/content/ContextCompat;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result p0
@@ -175,7 +162,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -193,12 +179,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     sget-object v2, Lcom/commsource/util/q1;->a:Ljava/util/List;
 
@@ -210,7 +194,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 3
     :cond_1
     new-instance v2, Ljava/util/ArrayList;
 
@@ -220,17 +203,14 @@
 
     const-string v3, "android.permission.ACCESS_FINE_LOCATION"
 
-    .line 4
     invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     sget-object v2, Lcom/commsource/util/q1;->a:Ljava/util/List;
 
     const-string v3, "android.permission.ACCESS_COARSE_LOCATION"
 
     invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :cond_2
     sget-object v2, Lcom/commsource/util/q1;->a:Ljava/util/List;
 
@@ -251,14 +231,12 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 7
     invoke-static {p0, v3}, Lcom/commsource/util/q1;->b(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v3
 
     if-eqz v3, :cond_3
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -266,7 +244,6 @@
     :cond_4
     const/4 p0, 0x1
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -279,7 +256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v2, 0x0
@@ -288,12 +264,10 @@
 
     if-ge v1, v3, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/util/q1;->b:[Ljava/lang/String;
 
@@ -306,7 +280,6 @@
 
     aget-object v5, v1, v4
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v6
@@ -317,7 +290,6 @@
 
     if-eqz v5, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -329,7 +301,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

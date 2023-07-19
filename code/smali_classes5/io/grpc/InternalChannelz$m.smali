@@ -49,67 +49,54 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     move-wide v1, p1
 
-    .line 2
     iput-wide v1, v0, Lio/grpc/InternalChannelz$m;->a:J
 
     move-wide v1, p3
 
-    .line 3
     iput-wide v1, v0, Lio/grpc/InternalChannelz$m;->b:J
 
     move-wide v1, p5
 
-    .line 4
     iput-wide v1, v0, Lio/grpc/InternalChannelz$m;->c:J
 
     move-wide v1, p7
 
-    .line 5
     iput-wide v1, v0, Lio/grpc/InternalChannelz$m;->d:J
 
     move-wide v1, p9
 
-    .line 6
     iput-wide v1, v0, Lio/grpc/InternalChannelz$m;->e:J
 
     move-wide v1, p11
 
-    .line 7
     iput-wide v1, v0, Lio/grpc/InternalChannelz$m;->f:J
 
     move-wide/from16 v1, p13
 
-    .line 8
     iput-wide v1, v0, Lio/grpc/InternalChannelz$m;->g:J
 
     move-wide/from16 v1, p15
 
-    .line 9
     iput-wide v1, v0, Lio/grpc/InternalChannelz$m;->h:J
 
     move-wide/from16 v1, p17
 
-    .line 10
     iput-wide v1, v0, Lio/grpc/InternalChannelz$m;->i:J
 
     move-wide/from16 v1, p19
 
-    .line 11
     iput-wide v1, v0, Lio/grpc/InternalChannelz$m;->j:J
 
     move-wide/from16 v1, p21
 
-    .line 12
     iput-wide v1, v0, Lio/grpc/InternalChannelz$m;->k:J
 
     move-wide/from16 v1, p23
 
-    .line 13
     iput-wide v1, v0, Lio/grpc/InternalChannelz$m;->l:J
 
     return-void

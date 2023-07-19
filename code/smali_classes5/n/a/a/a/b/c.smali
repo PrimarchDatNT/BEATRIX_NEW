@@ -43,15 +43,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Ln/a/a/a/b/c;->c:Lorg/aspectj/lang/reflect/c;
 
     const-string p1, "at_type"
 
-    .line 3
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -67,7 +64,6 @@
     :cond_0
     const-string p1, "at_field"
 
-    .line 4
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -83,7 +79,6 @@
     :cond_1
     const-string p1, "at_method"
 
-    .line 5
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -99,7 +94,6 @@
     :cond_2
     const-string p1, "at_constructor"
 
-    .line 6
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -110,7 +104,6 @@
 
     iput-object p1, p0, Ln/a/a/a/b/c;->d:Lorg/aspectj/lang/reflect/DeclareAnnotation$Kind;
 
-    .line 7
     :goto_0
     iget-object p1, p0, Ln/a/a/a/b/c;->d:Lorg/aspectj/lang/reflect/DeclareAnnotation$Kind;
 
@@ -118,7 +111,6 @@
 
     if-ne p1, p2, :cond_3
 
-    .line 8
     new-instance p1, Ln/a/a/a/b/s;
 
     invoke-direct {p1, p3}, Ln/a/a/a/b/s;-><init>(Ljava/lang/String;)V
@@ -127,7 +119,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_3
     new-instance p1, Ln/a/a/a/b/p;
 
@@ -135,16 +126,13 @@
 
     iput-object p1, p0, Ln/a/a/a/b/c;->f:Lorg/aspectj/lang/reflect/y;
 
-    .line 10
     :goto_1
     iput-object p4, p0, Ln/a/a/a/b/c;->a:Ljava/lang/annotation/Annotation;
 
-    .line 11
     iput-object p5, p0, Ln/a/a/a/b/c;->b:Ljava/lang/String;
 
     return-void
 
-    .line 12
     :cond_4
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -179,7 +167,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/c;->c:Lorg/aspectj/lang/reflect/c;
 
     return-object v0
@@ -188,7 +175,6 @@
 .method public c()Lorg/aspectj/lang/reflect/a0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/c;->e:Lorg/aspectj/lang/reflect/a0;
 
     return-object v0
@@ -197,7 +183,6 @@
 .method public d()Ljava/lang/annotation/Annotation;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/c;->a:Ljava/lang/annotation/Annotation;
 
     return-object v0
@@ -206,7 +191,6 @@
 .method public e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/c;->b:Ljava/lang/String;
 
     return-object v0
@@ -215,7 +199,6 @@
 .method public f()Lorg/aspectj/lang/reflect/y;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/c;->f:Lorg/aspectj/lang/reflect/y;
 
     return-object v0
@@ -224,7 +207,6 @@
 .method public k()Lorg/aspectj/lang/reflect/DeclareAnnotation$Kind;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/c;->d:Lorg/aspectj/lang/reflect/DeclareAnnotation$Kind;
 
     return-object v0
@@ -233,17 +215,14 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
 
     const-string v1, "declare @"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 3
     sget-object v1, Ln/a/a/a/b/c$a;->a:[I
 
     invoke-virtual {p0}, Ln/a/a/a/b/c;->k()Lorg/aspectj/lang/reflect/DeclareAnnotation$Kind;
@@ -277,10 +256,8 @@
     :cond_0
     const-string v1, "constructor : "
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 5
     invoke-virtual {p0}, Ln/a/a/a/b/c;->f()Lorg/aspectj/lang/reflect/y;
 
     move-result-object v1
@@ -296,10 +273,8 @@
     :cond_1
     const-string v1, "field : "
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 7
     invoke-virtual {p0}, Ln/a/a/a/b/c;->f()Lorg/aspectj/lang/reflect/y;
 
     move-result-object v1
@@ -315,10 +290,8 @@
     :cond_2
     const-string v1, "method : "
 
-    .line 8
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 9
     invoke-virtual {p0}, Ln/a/a/a/b/c;->f()Lorg/aspectj/lang/reflect/y;
 
     move-result-object v1
@@ -334,10 +307,8 @@
     :cond_3
     const-string v1, "type : "
 
-    .line 10
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 11
     invoke-virtual {p0}, Ln/a/a/a/b/c;->c()Lorg/aspectj/lang/reflect/a0;
 
     move-result-object v1
@@ -351,17 +322,14 @@
     :goto_0
     const-string v1, " : "
 
-    .line 12
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 13
     invoke-virtual {p0}, Ln/a/a/a/b/c;->e()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 14
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object v0

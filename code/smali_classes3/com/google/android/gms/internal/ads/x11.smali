@@ -7,7 +7,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/v11;Lcom/google/android/gms/internal/ads/xf0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/google/android/gms/internal/ads/te0;-><init>(Lcom/google/android/gms/internal/ads/xf0;)V
 
     return-void
@@ -29,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
     move-result-object p1

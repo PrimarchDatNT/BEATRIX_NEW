@@ -41,7 +41,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
@@ -135,7 +134,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/PictureTransitionView;->P:Lcom/commsource/studio/PictureTransitionView$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/PictureTransitionView$a;->a()Z
@@ -144,16 +142,13 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -166,7 +161,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/GestureLayer;->I0()Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -175,7 +169,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 6
     instance-of v2, v1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     const/high16 v3, 0x3fc00000    # 1.5f
@@ -190,7 +183,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 7
     move-object v2, v1
 
     check-cast v2, Lcom/commsource/studio/bean/GroupLayerInfo;
@@ -199,7 +191,6 @@
 
     move-result-object v2
 
-    .line 8
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -217,7 +208,6 @@
 
     check-cast v8, Lcotlin/Pair;
 
-    .line 9
     iget-object v9, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v9}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -232,7 +222,6 @@
 
     invoke-virtual {v9, v8}, Lcom/commsource/studio/text/b;->T(Lcom/commsource/studio/bean/FocusLayerInfo;)V
 
-    .line 10
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v8}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -255,7 +244,6 @@
 
     if-eqz v8, :cond_1
 
-    .line 11
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v8}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -264,7 +252,6 @@
 
     invoke-virtual {v8, v7}, Lcom/commsource/studio/text/b;->W(Z)V
 
-    .line 12
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v8}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -279,7 +266,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_1
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
@@ -289,7 +275,6 @@
 
     invoke-virtual {v8, v5}, Lcom/commsource/studio/text/b;->W(Z)V
 
-    .line 14
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v8}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -302,7 +287,6 @@
 
     invoke-virtual {v8, v9}, Lcom/commsource/studio/text/b;->Z(F)V
 
-    .line 15
     :goto_1
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
@@ -316,7 +300,6 @@
 
     invoke-virtual {v8, v9}, Lcom/commsource/studio/text/b;->Y(F)V
 
-    .line 16
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v8}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -325,7 +308,6 @@
 
     invoke-virtual {v8}, Lcom/commsource/studio/text/b;->h0()V
 
-    .line 17
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v8}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -336,7 +318,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getGroupLayerInfo()Lcom/commsource/studio/bean/GroupLayerInfo;
 
@@ -368,7 +349,6 @@
     :goto_2
     if-le v2, v7, :cond_5
 
-    .line 19
     iget-object v2, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v2}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -381,7 +361,6 @@
 
     invoke-virtual {v2, v8}, Lcom/commsource/studio/text/b;->T(Lcom/commsource/studio/bean/FocusLayerInfo;)V
 
-    .line 20
     iget-object v2, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v2}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -394,7 +373,6 @@
 
     invoke-virtual {v2, v8}, Lcom/commsource/studio/text/b;->Y(F)V
 
-    .line 21
     iget-object v2, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v2}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -403,7 +381,6 @@
 
     invoke-virtual {v2, v7}, Lcom/commsource/studio/text/b;->W(Z)V
 
-    .line 22
     iget-object v2, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v2}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -416,7 +393,6 @@
 
     invoke-virtual {v2, v8}, Lcom/commsource/studio/text/b;->Z(F)V
 
-    .line 23
     iget-object v2, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v2}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -425,7 +401,6 @@
 
     invoke-virtual {v2}, Lcom/commsource/studio/text/b;->h0()V
 
-    .line 24
     iget-object v2, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v2}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -434,7 +409,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/studio/text/b;->v(Landroid/graphics/Canvas;)V
 
-    .line 25
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getGroupLayerInfo()Lcom/commsource/studio/bean/GroupLayerInfo;
 
     move-result-object v2
@@ -447,7 +421,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 26
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -466,7 +439,6 @@
 
     check-cast v8, Lcotlin/Pair;
 
-    .line 27
     invoke-virtual {v8}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v9
@@ -481,7 +453,6 @@
 
     if-eqz v9, :cond_4
 
-    .line 28
     iget-object v9, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v9}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -496,7 +467,6 @@
 
     invoke-virtual {v9, v8}, Lcom/commsource/studio/text/b;->T(Lcom/commsource/studio/bean/FocusLayerInfo;)V
 
-    .line 29
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v8}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -509,7 +479,6 @@
 
     invoke-virtual {v8, v9}, Lcom/commsource/studio/text/b;->Y(F)V
 
-    .line 30
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v8}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -518,7 +487,6 @@
 
     invoke-virtual {v8, v7}, Lcom/commsource/studio/text/b;->W(Z)V
 
-    .line 31
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v8}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -531,7 +499,6 @@
 
     invoke-virtual {v8, v9}, Lcom/commsource/studio/text/b;->Z(F)V
 
-    .line 32
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v8}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -540,7 +507,6 @@
 
     invoke-virtual {v8}, Lcom/commsource/studio/text/b;->h0()V
 
-    .line 33
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v8}, Lcom/commsource/studio/gesture/GestureLayer;->G0()Lcom/commsource/studio/text/b;
@@ -551,7 +517,6 @@
 
     goto :goto_3
 
-    .line 34
     :cond_5
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getGroupLayerInfo()Lcom/commsource/studio/bean/GroupLayerInfo;
 
@@ -559,7 +524,6 @@
 
     if-nez v2, :cond_6
 
-    .line 35
     iget-object v2, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v2}, Lcom/commsource/studio/gesture/GestureLayer;->J0()Lcom/commsource/studio/text/b;
@@ -574,7 +538,6 @@
 
     goto :goto_4
 
-    .line 36
     :cond_6
     iget-object v2, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
@@ -588,7 +551,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/studio/text/b;->Y(F)V
 
-    .line 37
     :goto_4
     iget-object v2, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
@@ -610,7 +572,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 38
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/GestureLayer;->J0()Lcom/commsource/studio/text/b;
@@ -619,7 +580,6 @@
 
     invoke-virtual {v1, v7}, Lcom/commsource/studio/text/b;->W(Z)V
 
-    .line 39
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/GestureLayer;->J0()Lcom/commsource/studio/text/b;
@@ -634,7 +594,6 @@
 
     goto :goto_5
 
-    .line 40
     :cond_7
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
@@ -644,7 +603,6 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/studio/text/b;->W(Z)V
 
-    .line 41
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/GestureLayer;->J0()Lcom/commsource/studio/text/b;
@@ -657,7 +615,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/b;->Z(F)V
 
-    .line 42
     :goto_5
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
@@ -667,7 +624,6 @@
 
     invoke-virtual {v1, v7}, Lcom/commsource/studio/text/b;->V(Z)V
 
-    .line 43
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/GestureLayer;->J0()Lcom/commsource/studio/text/b;
@@ -676,7 +632,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/b;->h0()V
 
-    .line 44
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/GestureLayer;->J0()Lcom/commsource/studio/text/b;
@@ -685,11 +640,9 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/text/b;->v(Landroid/graphics/Canvas;)V
 
-    .line 45
     :cond_8
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 46
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

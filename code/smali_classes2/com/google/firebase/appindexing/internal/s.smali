@@ -16,7 +16,6 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/s2;->c:Lcom/google/android/gms/common/api/a;
 
     new-instance v1, Lcom/google/firebase/k;

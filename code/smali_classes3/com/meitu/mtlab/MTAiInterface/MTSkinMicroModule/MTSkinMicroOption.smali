@@ -65,32 +65,26 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->mNativeInstance:J
 
     const v2, 0x3e147ae1    # 0.145f
 
-    .line 3
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->definition_threshold:F
 
     const/4 v2, 0x0
 
-    .line 4
     iput-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->vol_data:[I
 
-    .line 5
     iput-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->water_data:[I
 
     cmp-long v2, v0, v0
 
     if-nez v2, :cond_0
 
-    .line 6
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->nativeCreateInstance()J
 
     move-result-wide v0
@@ -136,15 +130,12 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     iput-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->mNativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->nativeClearOption(J)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -157,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 v0, 0x14
@@ -177,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->mNativeInstance:J
 
@@ -185,10 +174,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -196,10 +183,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -212,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -227,14 +211,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->mNativeInstance:J
 
     iget-wide v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->nativeSetOption(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -247,27 +229,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->nativeEnableDetectSkinMicro(JJ)V
 
-    .line 4
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->definition_threshold:F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->nativeSetDefinitionThreshold(JF)V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->vol_data:[I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->nativeSetVolData(J[I)V
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->water_data:[I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTSkinMicroModule/MTSkinMicroOption;->nativeSetWaterData(J[I)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

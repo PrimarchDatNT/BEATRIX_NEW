@@ -36,7 +36,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lio/grpc/stub/g;->d(Lio/grpc/stub/g$f;)Lio/grpc/l1;
 
     move-result-object p0
@@ -82,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lio/grpc/stub/g;->d(Lio/grpc/stub/g$f;)Lio/grpc/l1;
 
     move-result-object p0
@@ -106,7 +103,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lio/grpc/stub/g;->f(Lio/grpc/stub/g$i;)Lio/grpc/l1;
 
     move-result-object p0
@@ -130,7 +126,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/stub/g$g;
 
     invoke-direct {v0, p0}, Lio/grpc/stub/g$g;-><init>(Lio/grpc/stub/g$f;)V
@@ -154,7 +149,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lio/grpc/stub/g;->f(Lio/grpc/stub/g$i;)Lio/grpc/l1;
 
     move-result-object p0
@@ -178,7 +172,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/stub/g$j;
 
     invoke-direct {v0, p0}, Lio/grpc/stub/g$j;-><init>(Lio/grpc/stub/g$i;)V
@@ -202,10 +195,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lio/grpc/stub/g;->h(Lio/grpc/MethodDescriptor;Lio/grpc/stub/h;)V
 
-    .line 2
     new-instance p0, Lio/grpc/stub/g$c;
 
     invoke-direct {p0}, Lio/grpc/stub/g$c;-><init>()V
@@ -227,22 +218,18 @@
 
     const-string v0, "methodDescriptor"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "responseObserver"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     sget-object v0, Lio/grpc/Status;->t:Lio/grpc/Status;
 
     const/4 v1, 0x1
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p0}, Lio/grpc/MethodDescriptor;->d()Ljava/lang/String;
 
     move-result-object p0
@@ -253,7 +240,6 @@
 
     const-string p0, "Method %s is unimplemented"
 
-    .line 5
     invoke-static {p0, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -262,12 +248,10 @@
 
     move-result-object p0
 
-    .line 6
     invoke-virtual {p0}, Lio/grpc/Status;->e()Lio/grpc/StatusRuntimeException;
 
     move-result-object p0
 
-    .line 7
     invoke-interface {p1, p0}, Lio/grpc/stub/h;->b(Ljava/lang/Throwable;)V
 
     return-void

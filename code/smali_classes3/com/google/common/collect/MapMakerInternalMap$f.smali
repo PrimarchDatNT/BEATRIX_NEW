@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/MapMakerInternalMap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/MapMakerInternalMap$f;->K:Lcom/google/common/collect/MapMakerInternalMap;
 
     invoke-direct {p0, p1}, Lcom/google/common/collect/MapMakerInternalMap$h;-><init>(Lcom/google/common/collect/MapMakerInternalMap;)V
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/MapMakerInternalMap$h;->c()Lcom/google/common/collect/MapMakerInternalMap$z;
 
     move-result-object v0
@@ -62,7 +60,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/MapMakerInternalMap$f;->f()Ljava/util/Map$Entry;
 
     move-result-object v0

@@ -34,10 +34,8 @@
 .method public constructor <init>(Landroid/app/Application;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -46,12 +44,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iput-object p1, p0, Lcom/tencent/matrix/c$b;->a:Landroid/app/Application;
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -67,12 +63,10 @@
 .method public a()Lcom/tencent/matrix/c;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/c$b;->b:Lcom/tencent/matrix/g/d;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/tencent/matrix/g/a;
 
     iget-object v1, p0, Lcom/tencent/matrix/c$b;->a:Landroid/app/Application;
@@ -81,7 +75,6 @@
 
     iput-object v0, p0, Lcom/tencent/matrix/c$b;->b:Lcom/tencent/matrix/g/d;
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/tencent/matrix/c;
 
@@ -101,12 +94,10 @@
 .method public b(Lcom/tencent/matrix/g/c;)Lcom/tencent/matrix/c$b;
     .locals 3
 
-    .line 1
     invoke-virtual {p1}, Lcom/tencent/matrix/g/c;->getTag()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/tencent/matrix/c$b;->c:Ljava/util/HashSet;
 
     invoke-virtual {v1}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
@@ -126,7 +117,6 @@
 
     check-cast v2, Lcom/tencent/matrix/g/c;
 
-    .line 3
     invoke-virtual {v2}, Lcom/tencent/matrix/g/c;->getTag()Ljava/lang/String;
 
     move-result-object v2
@@ -139,7 +129,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -161,7 +150,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/tencent/matrix/c$b;->c:Ljava/util/HashSet;
 
@@ -173,7 +161,6 @@
 .method public c(Lcom/tencent/matrix/g/d;)Lcom/tencent/matrix/c$b;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/c$b;->b:Lcom/tencent/matrix/g/d;
 
     return-object p0

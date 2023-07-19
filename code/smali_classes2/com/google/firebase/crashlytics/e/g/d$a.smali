@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/e/g/d;[B[I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/e/g/d$a;->c:Lcom/google/firebase/crashlytics/e/g/d;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/e/g/d$a;->a:[B
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/g/d$a;->a:[B
 
@@ -63,7 +61,6 @@
 
     invoke-virtual {p1, v0, v1, p2}, Ljava/io/InputStream;->read([BII)I
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/g/d$a;->b:[I
 
     aget v1, v0, v2
@@ -74,7 +71,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-virtual {p1}, Ljava/io/InputStream;->close()V
 
     return-void

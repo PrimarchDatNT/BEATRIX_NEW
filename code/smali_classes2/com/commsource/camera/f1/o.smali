@@ -47,10 +47,8 @@
 .method public constructor <init>(I)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -59,7 +57,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/f1/o;->b:Lcom/commsource/camera/f1/n;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     const/4 v2, 0x0
@@ -68,35 +65,30 @@
 
     iput-object v0, p0, Lcom/commsource/camera/f1/o;->c:Lcom/commsource/camera/f1/n;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     invoke-direct {v0, v2}, Lcom/commsource/camera/f1/n;-><init>(F)V
 
     iput-object v0, p0, Lcom/commsource/camera/f1/o;->d:Lcom/commsource/camera/f1/n;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     invoke-direct {v0, v1}, Lcom/commsource/camera/f1/n;-><init>(F)V
 
     iput-object v0, p0, Lcom/commsource/camera/f1/o;->e:Lcom/commsource/camera/f1/n;
 
-    .line 6
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     invoke-direct {v0, v2}, Lcom/commsource/camera/f1/n;-><init>(F)V
 
     iput-object v0, p0, Lcom/commsource/camera/f1/o;->f:Lcom/commsource/camera/f1/n;
 
-    .line 7
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     invoke-direct {v0, v2}, Lcom/commsource/camera/f1/n;-><init>(F)V
 
     iput-object v0, p0, Lcom/commsource/camera/f1/o;->g:Lcom/commsource/camera/f1/n;
 
-    .line 8
     invoke-static {p1}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
@@ -113,10 +105,8 @@
         .end annotation
     .end param
 
-    .line 9
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 10
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -125,7 +115,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/f1/o;->b:Lcom/commsource/camera/f1/n;
 
-    .line 11
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     const/4 v2, 0x0
@@ -134,35 +123,30 @@
 
     iput-object v0, p0, Lcom/commsource/camera/f1/o;->c:Lcom/commsource/camera/f1/n;
 
-    .line 12
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     invoke-direct {v0, v2}, Lcom/commsource/camera/f1/n;-><init>(F)V
 
     iput-object v0, p0, Lcom/commsource/camera/f1/o;->d:Lcom/commsource/camera/f1/n;
 
-    .line 13
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     invoke-direct {v0, v1}, Lcom/commsource/camera/f1/n;-><init>(F)V
 
     iput-object v0, p0, Lcom/commsource/camera/f1/o;->e:Lcom/commsource/camera/f1/n;
 
-    .line 14
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     invoke-direct {v0, v2}, Lcom/commsource/camera/f1/n;-><init>(F)V
 
     iput-object v0, p0, Lcom/commsource/camera/f1/o;->f:Lcom/commsource/camera/f1/n;
 
-    .line 15
     new-instance v0, Lcom/commsource/camera/f1/n;
 
     invoke-direct {v0, v2}, Lcom/commsource/camera/f1/n;-><init>(F)V
 
     iput-object v0, p0, Lcom/commsource/camera/f1/o;->g:Lcom/commsource/camera/f1/n;
 
-    .line 16
     iput-object p1, p0, Lcom/commsource/camera/f1/o;->a:Landroid/graphics/drawable/Drawable;
 
     return-void
@@ -179,12 +163,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->e:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/n;->h(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -197,14 +179,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->b:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/n;->a(F)F
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/f1/o;->g:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/f1/n;->a(F)F
@@ -219,7 +199,6 @@
 
     float-to-int v2, v2
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/camera/f1/o;->f:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v4, p1}, Lcom/commsource/camera/f1/n;->a(F)F
@@ -232,7 +211,6 @@
 
     float-to-int v1, v4
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/camera/f1/o;->c:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v3, p1}, Lcom/commsource/camera/f1/n;->a(F)F
@@ -241,7 +219,6 @@
 
     float-to-int v3, v3
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/camera/f1/o;->d:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v4, p1}, Lcom/commsource/camera/f1/n;->a(F)F
@@ -250,14 +227,12 @@
 
     float-to-int v4, v4
 
-    .line 6
     iget-object v5, p0, Lcom/commsource/camera/f1/o;->e:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v5, p1}, Lcom/commsource/camera/f1/n;->a(F)F
 
     move-result p1
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/camera/f1/o;->a:Landroid/graphics/drawable/Drawable;
 
     if-eqz v5, :cond_0
@@ -280,7 +255,6 @@
 
     invoke-virtual {v5, p1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
 
-    .line 8
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/f1/o;->a:Landroid/graphics/drawable/Drawable;
 
@@ -292,7 +266,6 @@
 
     invoke-virtual {p1, v5, v6, v1, v2}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 9
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/f1/o;->a:Landroid/graphics/drawable/Drawable;
 
@@ -306,7 +279,6 @@
 
     invoke-virtual {p1, v3, v4}, Landroid/graphics/Rect;->offset(II)V
 
-    .line 10
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -328,7 +300,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->a:Landroid/graphics/drawable/Drawable;
 
     const/4 v2, 0x0
@@ -370,14 +341,12 @@
     :cond_1
     if-lez v2, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->a:Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_2
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -393,7 +362,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->e:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -410,7 +378,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->g:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -427,7 +394,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -444,7 +410,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->c:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -461,7 +426,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->d:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -478,7 +442,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->f:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -495,7 +458,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->b:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -512,12 +474,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->g:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/n;->h(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -534,10 +494,8 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/camera/f1/o;->b(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -550,7 +508,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->a:Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_0
@@ -591,7 +548,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/f1/o;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -608,12 +564,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->e:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -628,12 +582,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->c:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -648,12 +600,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->d:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -668,12 +618,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->b:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -688,12 +636,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->c:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/n;->h(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -708,12 +654,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->d:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/n;->h(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -728,12 +672,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->f:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/n;->h(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -748,12 +690,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->b:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/f1/n;->h(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

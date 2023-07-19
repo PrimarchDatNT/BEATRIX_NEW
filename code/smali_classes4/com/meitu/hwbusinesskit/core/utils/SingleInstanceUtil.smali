@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,30 +23,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/SingleInstanceUtil;->gson:Lcom/google/gson/Gson;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/hwbusinesskit/core/utils/SingleInstanceUtil;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/hwbusinesskit/core/utils/SingleInstanceUtil;->gson:Lcom/google/gson/Gson;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/google/gson/Gson;
 
     invoke-direct {v2}, Lcom/google/gson/Gson;-><init>()V
 
     sput-object v2, Lcom/meitu/hwbusinesskit/core/utils/SingleInstanceUtil;->gson:Lcom/google/gson/Gson;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -64,7 +58,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/SingleInstanceUtil;->gson:Lcom/google/gson/Gson;

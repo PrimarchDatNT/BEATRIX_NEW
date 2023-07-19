@@ -78,7 +78,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/util/Reflection$MethodBuilder;->ajc$preClinit()V
 
     return-void
@@ -95,26 +94,20 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mInstance:Ljava/lang/Object;
 
-    .line 4
     iput-object p2, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mMethodName:Ljava/lang/String;
 
-    .line 5
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p2, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mParameterClasses:Ljava/util/List;
 
-    .line 6
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
@@ -123,7 +116,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 7
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -142,7 +134,6 @@
 .method private static synthetic ajc$preClinit()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/mopub/common/util/Reflection$MethodBuilder;
@@ -215,7 +206,6 @@
 .method static final synthetic invoke_aroundBody0(Lcom/mopub/common/util/Reflection$MethodBuilder;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -226,7 +216,6 @@
 .method static final synthetic invoke_aroundBody2(Lcom/mopub/common/util/Reflection$MethodBuilder;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -260,15 +249,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mParameterClasses:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mParameters:Ljava/util/List;
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -295,20 +281,16 @@
         }
     .end annotation
 
-    .line 4
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
 
-    .line 6
     iget-object v0, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mParameterClasses:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     iget-object p1, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mParameters:Ljava/util/List;
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -327,7 +309,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mParameterClasses:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -336,7 +317,6 @@
 
     new-array v0, v0, [Ljava/lang/Class;
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mParameterClasses:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
@@ -345,7 +325,6 @@
 
     check-cast v0, [Ljava/lang/Class;
 
-    .line 3
     iget-object v1, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mClass:Ljava/lang/Class;
 
     iget-object v2, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mMethodName:Ljava/lang/String;
@@ -354,17 +333,14 @@
 
     move-result-object v0
 
-    .line 4
     iget-boolean v1, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mIsAccessible:Z
 
     const/4 v2, 0x1
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v0, v2}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mParameters:Ljava/util/List;
 
@@ -372,7 +348,6 @@
 
     move-result-object v1
 
-    .line 7
     iget-boolean v3, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mIsStatic:Z
 
     const/16 v4, 0x1010
@@ -391,7 +366,6 @@
 
     const/4 v3, 0x0
 
-    .line 8
     sget-object v10, Lcom/mopub/common/util/Reflection$MethodBuilder;->ajc$tjp_0:Lorg/aspectj/lang/c$b;
 
     invoke-static {v10, p0, v0, v3, v1}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -428,7 +402,6 @@
 
     return-object v0
 
-    .line 9
     :cond_1
     iget-object v3, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mInstance:Ljava/lang/Object;
 
@@ -476,7 +449,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mIsAccessible:Z
 
     return-object p0
@@ -500,15 +472,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mIsStatic:Z
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mClass:Ljava/lang/Class;
 
     return-object p0
@@ -529,15 +498,12 @@
         }
     .end annotation
 
-    .line 4
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/mopub/common/util/Reflection$MethodBuilder;->mIsStatic:Z
 
-    .line 6
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1

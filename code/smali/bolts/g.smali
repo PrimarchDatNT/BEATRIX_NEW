@@ -11,10 +11,8 @@
 .method constructor <init>(Lbolts/i;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lbolts/g;->a:Lbolts/i;
 
     return-void
@@ -25,7 +23,6 @@
 .method public a()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lbolts/g;->a:Lbolts/i;
 
     invoke-virtual {v0}, Lbolts/i;->h()Z
@@ -38,7 +35,6 @@
 .method public b(Ljava/lang/Runnable;)Lbolts/h;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lbolts/g;->a:Lbolts/i;
 
     invoke-virtual {v0, p1}, Lbolts/i;->j(Ljava/lang/Runnable;)Lbolts/h;
@@ -56,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lbolts/g;->a:Lbolts/i;
 
     invoke-virtual {v0}, Lbolts/i;->k()V
@@ -67,7 +62,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     const/4 v1, 0x3

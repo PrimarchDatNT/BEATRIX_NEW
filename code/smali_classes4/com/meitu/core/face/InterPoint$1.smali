@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/core/face/InterPoint;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/face/InterPoint$1;->this$0:Lcom/meitu/core/face/InterPoint;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/face/InterPoint$1;->this$0:Lcom/meitu/core/face/InterPoint;
 
     invoke-static {}, Lcom/meitu/core/face/InterPoint;->access$000()J
@@ -51,7 +49,6 @@
 
     iput-wide v2, v1, Lcom/meitu/core/face/InterPoint;->nativeInstance:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

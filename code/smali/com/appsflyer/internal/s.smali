@@ -15,7 +15,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
         .end annotation
     .end param
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -44,7 +42,6 @@
 
     aget-object v3, p1, v2
 
-    .line 2
     invoke-static {p0, v3}, Lcom/appsflyer/AndroidUtils;->isPermissionAvailable(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v3
@@ -82,7 +79,6 @@
     :try_start_0
     const-string v2, "location"
 
-    .line 3
     invoke-virtual {p1, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
@@ -93,19 +89,16 @@
 
     const-string v4, "android.permission.ACCESS_COARSE_LOCATION"
 
-    .line 4
     filled-new-array {v0, v4}, [Ljava/lang/String;
 
     move-result-object v4
 
-    .line 5
     invoke-static {p1, v4}, Lcom/appsflyer/internal/s;->AFDateFormat(Landroid/content/Context;[Ljava/lang/String;)Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
-    .line 6
     invoke-virtual {v2, v3}, Landroid/location/LocationManager;->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;
 
     move-result-object v3
@@ -118,19 +111,16 @@
     :goto_0
     const-string v4, "gps"
 
-    .line 7
     filled-new-array {v0}, [Ljava/lang/String;
 
     move-result-object v0
 
-    .line 8
     invoke-static {p1, v0}, Lcom/appsflyer/internal/s;->AFDateFormat(Landroid/content/Context;[Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 9
     invoke-virtual {v2, v4}, Landroid/location/LocationManager;->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;
 
     move-result-object p1
@@ -161,7 +151,6 @@
 
     if-nez p1, :cond_5
 
-    .line 10
     :cond_4
     invoke-virtual {v3}, Landroid/location/Location;->getTime()J
 

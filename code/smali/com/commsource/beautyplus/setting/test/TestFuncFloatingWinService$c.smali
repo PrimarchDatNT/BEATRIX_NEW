@@ -43,7 +43,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$c;->a:Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;
 
     new-instance v1, Landroid/content/Intent;
@@ -56,13 +55,10 @@
 
     const/high16 v2, 0x10000000
 
-    .line 2
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 3
     invoke-virtual {v0, v1}, Landroid/app/Service;->startActivity(Landroid/content/Intent;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

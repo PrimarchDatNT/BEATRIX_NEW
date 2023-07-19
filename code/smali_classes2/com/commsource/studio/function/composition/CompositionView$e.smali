@@ -52,7 +52,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -67,7 +66,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$e;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/composition/CompositionView;->getViewPortRectF()Landroid/graphics/RectF;
@@ -88,7 +86,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->left:F
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$e;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/composition/CompositionView;->getViewPortRectF()Landroid/graphics/RectF;
@@ -109,7 +106,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->right:F
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$e;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/composition/CompositionView;->getViewPortRectF()Landroid/graphics/RectF;
@@ -130,7 +126,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->top:F
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$e;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/composition/CompositionView;->getViewPortRectF()Landroid/graphics/RectF;
@@ -151,29 +146,24 @@
 
     iput p1, v1, Landroid/graphics/RectF;->bottom:F
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/function/composition/CompositionView$e;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-static {p1}, Lcom/commsource/studio/function/composition/CompositionView;->r(Lcom/commsource/studio/function/composition/CompositionView;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/composition/CompositionView$e;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     const/4 v1, 0x0
 
     invoke-static {p1, v1}, Lcom/commsource/studio/function/composition/CompositionView;->q(Lcom/commsource/studio/function/composition/CompositionView;Z)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/composition/CompositionView$e;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

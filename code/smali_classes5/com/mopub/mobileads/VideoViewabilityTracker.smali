@@ -76,7 +76,6 @@
 
     invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p3, p4, p5}, Lcom/mopub/mobileads/VastTracker;-><init>(Ljava/lang/String;Lcom/mopub/mobileads/VastTracker$MessageType;Z)V
 
     iput p1, p0, Lcom/mopub/mobileads/VideoViewabilityTracker;->viewablePlaytimeMS:I
@@ -91,7 +90,6 @@
 .method public final getPercentViewable()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/VideoViewabilityTracker;->percentViewable:I
 
     return v0
@@ -100,7 +98,6 @@
 .method public final getViewablePlaytimeMS()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/VideoViewabilityTracker;->viewablePlaytimeMS:I
 
     return v0

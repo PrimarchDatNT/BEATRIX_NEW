@@ -38,7 +38,6 @@
 
     sput-object v0, Lcotlin/random/e;->b:Lcotlin/random/e$a;
 
-    .line 1
     sget-object v0, Lcotlin/internal/l;->a:Lcotlin/internal/k;
 
     invoke-virtual {v0}, Lcotlin/internal/k;->b()Lcotlin/random/e;
@@ -53,7 +52,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,7 +60,6 @@
 .method public static final synthetic a()Lcotlin/random/e;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/random/e;->a:Lcotlin/random/e;
 
     return-object v0
@@ -84,7 +81,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     array-length p3, p1
 
     :cond_1
@@ -94,7 +90,6 @@
 
     return-object p0
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -115,7 +110,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, v0}, Lcotlin/random/e;->b(I)I
 
     move-result v1
@@ -136,7 +130,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-array p1, p1, [B
 
     invoke-virtual {p0, p1}, Lcotlin/random/e;->e([B)[B
@@ -159,7 +152,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -184,7 +176,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -232,7 +223,6 @@
 
     sub-int v0, p3, p2
 
-    .line 2
     div-int/lit8 v0, v0, 0x4
 
     const/4 v2, 0x0
@@ -240,14 +230,12 @@
     :goto_3
     if-ge v2, v0, :cond_4
 
-    .line 3
     invoke-virtual {p0}, Lcotlin/random/e;->l()I
 
     move-result v3
 
     int-to-byte v4, v3
 
-    .line 4
     aput-byte v4, p1, p2
 
     add-int/lit8 v4, p2, 0x1
@@ -256,7 +244,6 @@
 
     int-to-byte v5, v5
 
-    .line 5
     aput-byte v5, p1, v4
 
     add-int/lit8 v4, p2, 0x2
@@ -265,7 +252,6 @@
 
     int-to-byte v5, v5
 
-    .line 6
     aput-byte v5, p1, v4
 
     add-int/lit8 v4, p2, 0x3
@@ -274,7 +260,6 @@
 
     int-to-byte v3, v3
 
-    .line 7
     aput-byte v3, p1, v4
 
     add-int/lit8 p2, p2, 0x4
@@ -288,7 +273,6 @@
 
     mul-int/lit8 v0, p3, 0x8
 
-    .line 8
     invoke-virtual {p0, v0}, Lcotlin/random/e;->b(I)I
 
     move-result v0
@@ -304,7 +288,6 @@
 
     int-to-byte v3, v3
 
-    .line 9
     aput-byte v3, p1, v2
 
     add-int/lit8 v1, v1, 0x1
@@ -314,7 +297,6 @@
     :cond_5
     return-object p1
 
-    .line 10
     :cond_6
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -348,7 +330,6 @@
 
     throw p2
 
-    .line 11
     :cond_7
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -396,7 +377,6 @@
 
     const/16 v0, 0x1a
 
-    .line 1
     invoke-virtual {p0, v0}, Lcotlin/random/e;->b(I)I
 
     move-result v0
@@ -419,7 +399,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0, v1, p1, p2}, Lcotlin/random/e;->j(DD)D
 
     move-result-wide p1
@@ -430,12 +409,10 @@
 .method public j(DD)D
     .locals 6
 
-    .line 1
     invoke-static {p1, p2, p3, p4}, Lcotlin/random/f;->d(DD)V
 
     sub-double v0, p3, p1
 
-    .line 2
     invoke-static {v0, v1}, Ljava/lang/Double;->isInfinite(D)Z
 
     move-result v2
@@ -488,7 +465,6 @@
     :goto_1
     if-eqz v3, :cond_2
 
-    .line 3
     invoke-virtual {p0}, Lcotlin/random/e;->h()D
 
     move-result-wide v0
@@ -511,7 +487,6 @@
 
     goto :goto_2
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lcotlin/random/e;->h()D
 
@@ -528,7 +503,6 @@
 
     const-wide/high16 p1, -0x10000000000000L    # Double.NEGATIVE_INFINITY
 
-    .line 5
     invoke-static {p3, p4, p1, p2}, Ljava/lang/Math;->nextAfter(DD)D
 
     move-result-wide p1
@@ -542,7 +516,6 @@
 
     const/16 v0, 0x18
 
-    .line 1
     invoke-virtual {p0, v0}, Lcotlin/random/e;->b(I)I
 
     move-result v0
@@ -563,7 +536,6 @@
 
     const/16 v0, 0x20
 
-    .line 1
     invoke-virtual {p0, v0}, Lcotlin/random/e;->b(I)I
 
     move-result v0
@@ -576,7 +548,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lcotlin/random/e;->n(II)I
 
     move-result p1
@@ -587,7 +558,6 @@
 .method public n(II)I
     .locals 3
 
-    .line 1
     invoke-static {p1, p2}, Lcotlin/random/f;->e(II)V
 
     sub-int v0, p2, p1
@@ -600,7 +570,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     :goto_0
     invoke-virtual {p0}, Lcotlin/random/e;->l()I
@@ -624,19 +593,16 @@
 
     if-ne p2, v0, :cond_3
 
-    .line 3
     invoke-static {v0}, Lcotlin/random/f;->g(I)I
 
     move-result p2
 
-    .line 4
     invoke-virtual {p0, p2}, Lcotlin/random/e;->b(I)I
 
     move-result p2
 
     goto :goto_2
 
-    .line 5
     :cond_3
     invoke-virtual {p0}, Lcotlin/random/e;->l()I
 
@@ -644,7 +610,6 @@
 
     ushr-int/lit8 p2, p2, 0x1
 
-    .line 6
     rem-int v1, p2, v0
 
     sub-int/2addr p2, v1
@@ -666,7 +631,6 @@
 .method public o()J
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/random/e;->l()I
 
     move-result v0
@@ -693,7 +657,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0, v1, p1, p2}, Lcotlin/random/e;->q(JJ)J
 
     move-result-wide p1
@@ -704,7 +667,6 @@
 .method public q(JJ)J
     .locals 9
 
-    .line 1
     invoke-static {p1, p2, p3, p4}, Lcotlin/random/f;->f(JJ)V
 
     sub-long v0, p3, p1
@@ -737,12 +699,10 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-static {p3}, Lcotlin/random/f;->g(I)I
 
     move-result p3
 
-    .line 3
     invoke-virtual {p0, p3}, Lcotlin/random/e;->b(I)I
 
     move-result p3
@@ -757,20 +717,17 @@
     :cond_0
     if-ne v1, v4, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcotlin/random/e;->l()I
 
     move-result p3
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v1}, Lcotlin/random/f;->g(I)I
 
     move-result p3
 
-    .line 6
     invoke-virtual {p0, p3}, Lcotlin/random/e;->b(I)I
 
     move-result p3
@@ -789,7 +746,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Lcotlin/random/e;->o()J
 
@@ -797,7 +753,6 @@
 
     ushr-long/2addr p3, v4
 
-    .line 8
     rem-long v5, p3, v0
 
     sub-long/2addr p3, v5
@@ -819,7 +774,6 @@
 
     return-wide p1
 
-    .line 9
     :cond_3
     :goto_2
     invoke-virtual {p0}, Lcotlin/random/e;->o()J

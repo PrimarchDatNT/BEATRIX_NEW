@@ -17,21 +17,16 @@
 .method public constructor <init>(III)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/library/appcia/h/d/a;->d:I
 
-    .line 3
     iput p1, p0, Lcom/meitu/library/appcia/h/d/a;->a:I
 
-    .line 4
     iput p2, p0, Lcom/meitu/library/appcia/h/d/a;->b:I
 
-    .line 5
     iput p3, p0, Lcom/meitu/library/appcia/h/d/a;->c:I
 
     return-void
@@ -46,14 +41,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/appcia/h/d/a;->d:I
 
     add-int/lit8 v1, v1, 0x1
 
     iput v1, p0, Lcom/meitu/library/appcia/h/d/a;->d:I
 
-    .line 2
     iget v1, p0, Lcom/meitu/library/appcia/h/d/a;->b:I
 
     int-to-long v1, v1
@@ -64,7 +57,6 @@
 
     iput p1, p0, Lcom/meitu/library/appcia/h/d/a;->b:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -77,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

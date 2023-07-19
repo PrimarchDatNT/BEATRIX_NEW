@@ -21,7 +21,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lcom/google/android/gms/internal/ads/iw;
 
@@ -68,7 +67,6 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object v1
@@ -77,7 +75,6 @@
 
     invoke-virtual {v1, v0, v2}, Lcom/google/android/gms/internal/ads/em;->e(Ljava/lang/Throwable;Ljava/lang/String;)V
 
-    .line 3
     new-instance v1, Lcom/google/android/gms/internal/ads/zzbfz;
 
     const-string v2, "Webview initialization failed."

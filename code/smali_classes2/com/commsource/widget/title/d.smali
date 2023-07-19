@@ -23,10 +23,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/title/a;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/widget/title/d;->c:Ljava/lang/String;
 
     return-void
@@ -41,7 +39,6 @@
 
     new-array v0, v0, [I
 
-    .line 1
     fill-array-data v0, :array_0
 
     return-object v0
@@ -60,7 +57,6 @@
 .method public bridge synthetic d(Landroid/content/Context;)Landroid/view/View;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/widget/title/d;->e(Landroid/content/Context;)Landroid/widget/TextView;
 
     move-result-object p1
@@ -71,19 +67,16 @@
 .method public e(Landroid/content/Context;)Landroid/widget/TextView;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/title/d;->b:Landroid/widget/TextView;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroid/widget/TextView;
 
     invoke-direct {v0, p1}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Lcom/commsource/widget/title/d;->b:Landroid/widget/TextView;
 
-    .line 3
     new-instance v0, Landroid/util/TypedValue;
 
     invoke-direct {v0}, Landroid/util/TypedValue;-><init>()V
@@ -98,7 +91,6 @@
 
     aput v2, v1, v3
 
-    .line 4
     invoke-virtual {p1}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
 
     move-result-object p1
@@ -109,7 +101,6 @@
 
     move-result-object p1
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/widget/title/d;->b:Landroid/widget/TextView;
 
     invoke-virtual {p1, v3}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -118,7 +109,6 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/widget/title/d;->c:Ljava/lang/String;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -127,14 +117,12 @@
 
     if-nez p1, :cond_0
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/widget/title/d;->b:Landroid/widget/TextView;
 
     iget-object v0, p0, Lcom/commsource/widget/title/d;->c:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 8
     :cond_0
     iget-object p1, p0, Lcom/commsource/widget/title/d;->b:Landroid/widget/TextView;
 

@@ -39,7 +39,6 @@
 .method constructor <init>(Lbolts/o;Lbolts/g;Lbolts/k;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/o$d;->c:Lbolts/o;
 
     iput-object p2, p0, Lbolts/o$d;->a:Lbolts/g;
@@ -65,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lbolts/o$d;->a:Lbolts/g;
 
     if-eqz v0, :cond_0
@@ -76,14 +74,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lbolts/o;->i()Lbolts/o;
 
     move-result-object p1
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lbolts/o;->J()Z
 
@@ -91,7 +87,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Lbolts/o;->E()Ljava/lang/Exception;
 
     move-result-object p1
@@ -102,7 +97,6 @@
 
     return-object p1
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Lbolts/o;->H()Z
 
@@ -110,14 +104,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     invoke-static {}, Lbolts/o;->i()Lbolts/o;
 
     move-result-object p1
 
     return-object p1
 
-    .line 7
     :cond_2
     iget-object v0, p0, Lbolts/o$d;->b:Lbolts/k;
 
@@ -136,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lbolts/o$d;->a(Lbolts/o;)Lbolts/o;
 
     move-result-object p1

@@ -30,7 +30,6 @@
 .method private constructor <init>(Lio/grpc/internal/ManagedChannelImpl;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$r;->b:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-direct {p0}, Lio/grpc/internal/b1;-><init>()V
@@ -41,7 +40,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/internal/ManagedChannelImpl$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lio/grpc/internal/ManagedChannelImpl$r;-><init>(Lio/grpc/internal/ManagedChannelImpl;)V
 
     return-void
@@ -52,7 +50,6 @@
 .method protected a()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$r;->b:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-virtual {v0}, Lio/grpc/internal/ManagedChannelImpl;->S0()V
@@ -63,7 +60,6 @@
 .method protected b()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$r;->b:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->x(Lio/grpc/internal/ManagedChannelImpl;)Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -78,7 +74,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$r;->b:Lio/grpc/internal/ManagedChannelImpl;
 

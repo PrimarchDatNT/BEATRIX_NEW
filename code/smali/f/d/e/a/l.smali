@@ -25,7 +25,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -56,10 +55,8 @@
 .method public constructor <init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/d/e/a/a;-><init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
 
-    .line 2
     new-instance p1, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
     invoke-direct {p1}, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;-><init>()V
@@ -78,7 +75,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -91,7 +87,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -104,19 +99,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lf/d/e/a/a;->f:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-boolean v1, p0, Lf/d/e/a/a;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
@@ -124,7 +116,6 @@
 
     const/16 v2, 0x1f
 
-    .line 4
     iget-object v3, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -153,7 +144,6 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     sget-object v1, Lf/d/e/a/l;->w:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -174,18 +164,15 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     :cond_2
     iget-boolean v1, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz v1, :cond_3
 
-    .line 7
     iget-object v1, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     check-cast v1, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
-    .line 8
     sget-object v2, Lf/d/e/a/l;->w:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -214,7 +201,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     :cond_3
     iget-boolean v1, p0, Lf/d/e/a/a;->g:Z
 
@@ -238,7 +224,6 @@
 
     const-string/jumbo v4, "wrinkleSegmentForeheadEnable"
 
-    .line 1
     invoke-virtual {v4, v1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -253,12 +238,10 @@
 
     if-eqz v4, :cond_3
 
-    .line 2
     instance-of v4, v2, Ljava/lang/Boolean;
 
     if-eqz v4, :cond_3
 
-    .line 3
     move-object v4, v2
 
     check-cast v4, Ljava/lang/Boolean;
@@ -267,20 +250,16 @@
 
     move-result v4
 
-    .line 4
     iget-object v10, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v11, v10, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
     if-eqz v11, :cond_3
 
-    .line 5
     check-cast v10, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
-    .line 6
     iput v9, v10, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;->foreheadModelType:I
 
-    .line 7
     iget-wide v11, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v13, 0x1
@@ -305,7 +284,6 @@
 
     or-long/2addr v11, v13
 
-    .line 8
     iput-wide v11, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_1
@@ -315,16 +293,13 @@
 
     and-long/2addr v11, v13
 
-    .line 9
     iput-wide v11, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 10
     :goto_1
     iget-boolean v10, v0, Lf/d/e/a/a;->i:Z
 
     if-eqz v10, :cond_2
 
-    .line 11
     sget-object v10, Lf/d/e/a/l;->w:Ljava/lang/String;
 
     new-instance v11, Ljava/lang/StringBuilder;
@@ -347,26 +322,22 @@
 
     invoke-static {v10, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 12
     :cond_2
     iput-boolean v9, v0, Lf/d/e/a/a;->f:Z
 
     :cond_3
     const-string/jumbo v4, "wrinkleSegmentEyeEnable"
 
-    .line 13
     invoke-virtual {v4, v1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-eqz v4, :cond_7
 
-    .line 14
     instance-of v4, v2, Ljava/lang/Boolean;
 
     if-eqz v4, :cond_7
 
-    .line 15
     move-object v4, v2
 
     check-cast v4, Ljava/lang/Boolean;
@@ -375,20 +346,16 @@
 
     move-result v4
 
-    .line 16
     iget-object v10, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v11, v10, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
     if-eqz v11, :cond_7
 
-    .line 17
     check-cast v10, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
-    .line 18
     iput v9, v10, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;->eyeModelType:I
 
-    .line 19
     iget-wide v11, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v13, 0x2
@@ -413,7 +380,6 @@
 
     or-long/2addr v11, v13
 
-    .line 20
     iput-wide v11, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_3
@@ -423,16 +389,13 @@
 
     and-long/2addr v11, v13
 
-    .line 21
     iput-wide v11, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 22
     :goto_3
     iget-boolean v10, v0, Lf/d/e/a/a;->i:Z
 
     if-eqz v10, :cond_6
 
-    .line 23
     sget-object v10, Lf/d/e/a/l;->w:Ljava/lang/String;
 
     new-instance v11, Ljava/lang/StringBuilder;
@@ -455,26 +418,22 @@
 
     invoke-static {v10, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 24
     :cond_6
     iput-boolean v9, v0, Lf/d/e/a/a;->f:Z
 
     :cond_7
     const-string/jumbo v4, "wrinkleSegmentNasoEnable"
 
-    .line 25
     invoke-virtual {v4, v1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-eqz v4, :cond_b
 
-    .line 26
     instance-of v4, v2, Ljava/lang/Boolean;
 
     if-eqz v4, :cond_b
 
-    .line 27
     move-object v4, v2
 
     check-cast v4, Ljava/lang/Boolean;
@@ -483,20 +442,16 @@
 
     move-result v4
 
-    .line 28
     iget-object v10, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v11, v10, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
     if-eqz v11, :cond_b
 
-    .line 29
     check-cast v10, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
-    .line 30
     iput v9, v10, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;->nasoModelType:I
 
-    .line 31
     iget-wide v11, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v13, 0x4
@@ -521,7 +476,6 @@
 
     or-long/2addr v11, v13
 
-    .line 32
     iput-wide v11, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_5
@@ -531,16 +485,13 @@
 
     and-long/2addr v11, v13
 
-    .line 33
     iput-wide v11, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 34
     :goto_5
     iget-boolean v10, v0, Lf/d/e/a/a;->i:Z
 
     if-eqz v10, :cond_a
 
-    .line 35
     sget-object v10, Lf/d/e/a/l;->w:Ljava/lang/String;
 
     new-instance v11, Ljava/lang/StringBuilder;
@@ -563,26 +514,22 @@
 
     invoke-static {v10, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 36
     :cond_a
     iput-boolean v9, v0, Lf/d/e/a/a;->f:Z
 
     :cond_b
     const-string/jumbo v4, "wrinkleSegmentNeckEnable"
 
-    .line 37
     invoke-virtual {v4, v1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-eqz v4, :cond_f
 
-    .line 38
     instance-of v4, v2, Ljava/lang/Boolean;
 
     if-eqz v4, :cond_f
 
-    .line 39
     move-object v4, v2
 
     check-cast v4, Ljava/lang/Boolean;
@@ -591,20 +538,16 @@
 
     move-result v4
 
-    .line 40
     iget-object v10, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v11, v10, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
     if-eqz v11, :cond_f
 
-    .line 41
     check-cast v10, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
-    .line 42
     iput v9, v10, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;->neckModelType:I
 
-    .line 43
     iget-wide v11, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v13, 0x8
@@ -629,7 +572,6 @@
 
     or-long/2addr v11, v13
 
-    .line 44
     iput-wide v11, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_7
@@ -639,16 +581,13 @@
 
     and-long/2addr v11, v13
 
-    .line 45
     iput-wide v11, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 46
     :goto_7
     iget-boolean v10, v0, Lf/d/e/a/a;->i:Z
 
     if-eqz v10, :cond_e
 
-    .line 47
     sget-object v10, Lf/d/e/a/l;->w:Ljava/lang/String;
 
     new-instance v11, Ljava/lang/StringBuilder;
@@ -671,26 +610,22 @@
 
     invoke-static {v10, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 48
     :cond_e
     iput-boolean v9, v0, Lf/d/e/a/a;->f:Z
 
     :cond_f
     const-string/jumbo v4, "wrinkleSegmentOutsideSkinEnable"
 
-    .line 49
     invoke-virtual {v4, v1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_13
 
-    .line 50
     instance-of v1, v2, Ljava/lang/Boolean;
 
     if-eqz v1, :cond_13
 
-    .line 51
     move-object v1, v2
 
     check-cast v1, Ljava/lang/Boolean;
@@ -699,17 +634,14 @@
 
     move-result v1
 
-    .line 52
     iget-object v2, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v4, v2, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
     if-eqz v4, :cond_13
 
-    .line 53
     check-cast v2, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
-    .line 54
     iget-wide v10, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v12, 0x20
@@ -729,7 +661,6 @@
 
     or-long v7, v10, v12
 
-    .line 55
     iput-wide v7, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_8
@@ -739,16 +670,13 @@
 
     and-long/2addr v7, v10
 
-    .line 56
     iput-wide v7, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 57
     :goto_8
     iget-boolean v2, v0, Lf/d/e/a/a;->i:Z
 
     if-eqz v2, :cond_12
 
-    .line 58
     sget-object v2, Lf/d/e/a/l;->w:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -771,11 +699,9 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 59
     :cond_12
     iput-boolean v9, v0, Lf/d/e/a/a;->f:Z
 
-    .line 60
     :cond_13
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -791,7 +717,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -804,17 +729,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
     if-eqz v2, :cond_0
 
-    .line 2
     check-cast v1, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
-    .line 3
     iget-object v2, p0, Lf/d/e/a/a;->c:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     iget-object v2, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->wrinkleDetectionOption:Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
@@ -829,18 +751,14 @@
 
     const/4 v3, 0x4
 
-    .line 4
     iput v3, v2, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;->dilationEyeLeft:I
 
-    .line 5
     iput v3, v2, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;->dilationEyeRight:I
 
-    .line 6
     iget-boolean v2, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz v2, :cond_0
 
-    .line 7
     sget-object v2, Lf/d/e/a/l;->w:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -881,7 +799,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -895,19 +812,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lf/d/e/a/a;->g:Z
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
@@ -915,7 +829,6 @@
 
     const/16 v3, 0x1f
 
-    .line 4
     invoke-virtual {v1, v3}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     move-result v1
@@ -932,7 +845,6 @@
     :goto_0
     if-nez v1, :cond_2
 
-    .line 5
     sget-object v3, Lf/d/e/a/l;->w:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -953,18 +865,15 @@
 
     invoke-static {v3, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     :cond_2
     iget-boolean v3, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz v3, :cond_3
 
-    .line 7
     iget-object v3, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     check-cast v3, Lcom/meitu/mtlab/MTAiInterface/MTWrinkleDetectionModule/MTWrinkleDetectionOption;
 
-    .line 8
     sget-object v4, Lf/d/e/a/l;->w:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -991,13 +900,11 @@
 
     invoke-static {v4, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     :cond_3
     iput-boolean v2, p0, Lf/d/e/a/a;->f:Z
 
     move v2, v1
 
-    .line 10
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

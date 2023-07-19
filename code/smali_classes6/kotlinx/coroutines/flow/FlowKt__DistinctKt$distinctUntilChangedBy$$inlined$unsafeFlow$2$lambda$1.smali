@@ -45,7 +45,6 @@
 
     iput-object p3, p0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;->c:Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;->c:Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2;
 
     iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2;->b:Lcotlin/jvm/u/l;
@@ -83,7 +81,6 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;->b:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iget-object v1, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -108,13 +105,11 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;->b:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iput-object v0, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 4
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;->a:Lcotlinx/coroutines/flow/e;
 
     const/4 v1, 0x0
@@ -135,7 +130,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 5
     :cond_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -185,7 +179,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1$1;->label:I
 
     const/4 v3, 0x1
@@ -212,7 +205,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -222,11 +214,9 @@
 
     throw p1
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;->c:Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2;
 
     iget-object p2, p2, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2;->b:Lcotlin/jvm/u/l;
@@ -235,7 +225,6 @@
 
     move-result-object p2
 
-    .line 5
     iget-object v2, p0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;->b:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iget-object v2, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -260,13 +249,11 @@
 
     if-nez v2, :cond_4
 
-    .line 6
     :cond_3
     iget-object v2, p0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;->b:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iput-object p2, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 7
     iget-object v2, p0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;->a:Lcotlinx/coroutines/flow/e;
 
     iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1$1;->L$0:Ljava/lang/Object;
@@ -289,7 +276,6 @@
 
     return-object v1
 
-    .line 8
     :cond_4
     :goto_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;

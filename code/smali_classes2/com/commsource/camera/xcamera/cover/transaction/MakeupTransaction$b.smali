@@ -66,7 +66,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$b;->a:Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->B(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -85,7 +84,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$b;->a:Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->A(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
@@ -130,10 +128,8 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 4
     invoke-virtual {p1}, Landroid/util/SparseArray;->size()I
 
     move-result v3
@@ -143,7 +139,6 @@
     :goto_1
     if-ge v4, v3, :cond_1
 
-    .line 5
     invoke-virtual {p1, v4}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v5
@@ -158,7 +153,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Landroid/util/SparseArray;->size()I
 
@@ -167,19 +161,16 @@
     :goto_2
     if-ge v2, v1, :cond_2
 
-    .line 7
     invoke-virtual {p1, v2}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v3
 
-    .line 8
     invoke-virtual {p1, v2}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Lcom/commsource/repository/child/makeup/h;
 
-    .line 9
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$b;->a:Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;
 
     invoke-static {v5}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;->z(Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;)Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -196,7 +187,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$b;->a:Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;
 
@@ -210,12 +200,10 @@
 
     if-eqz v1, :cond_3
 
-    .line 11
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->i:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->p(Landroid/util/SparseArray;)V
 
-    .line 12
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -229,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/util/SparseArray;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$b;->a(Landroid/util/SparseArray;)V

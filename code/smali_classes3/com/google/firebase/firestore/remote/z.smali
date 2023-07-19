@@ -28,15 +28,12 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/firebase/firestore/remote/z;->a:I
 
-    .line 3
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
@@ -45,15 +42,12 @@
 
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, p0, Lcom/google/firebase/firestore/remote/z;->c:Z
 
-    .line 5
     sget-object v1, Lcom/google/protobuf/ByteString;->EMPTY:Lcom/google/protobuf/ByteString;
 
     iput-object v1, p0, Lcom/google/firebase/firestore/remote/z;->d:Lcom/google/protobuf/ByteString;
 
-    .line 6
     iput-boolean v0, p0, Lcom/google/firebase/firestore/remote/z;->e:Z
 
     return-void
@@ -66,10 +60,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/firebase/firestore/remote/z;->c:Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/z;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -82,10 +74,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/firebase/firestore/remote/z;->c:Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/z;->b:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->clear()V
@@ -96,7 +86,6 @@
 .method c()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/remote/z;->c:Z
 
     return v0
@@ -105,7 +94,6 @@
 .method d()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/remote/z;->e:Z
 
     return v0
@@ -114,7 +102,6 @@
 .method e()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/remote/z;->a:I
 
     if-eqz v0, :cond_0
@@ -135,10 +122,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/firebase/firestore/remote/z;->c:Z
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/firebase/firestore/remote/z;->e:Z
 
     return-void
@@ -147,7 +132,6 @@
 .method g()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/remote/z;->a:I
 
     add-int/lit8 v0, v0, 0x1
@@ -160,7 +144,6 @@
 .method h()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/remote/z;->a:I
 
     add-int/lit8 v0, v0, -0x1
@@ -175,10 +158,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/firebase/firestore/remote/z;->c:Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/z;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -189,22 +170,18 @@
 .method j()Lcom/google/firebase/firestore/remote/y;
     .locals 10
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/firestore/model/e;->h()Lcom/google/firebase/database/collection/f;
 
     move-result-object v0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/firestore/model/e;->h()Lcom/google/firebase/database/collection/f;
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/firestore/model/e;->h()Lcom/google/firebase/database/collection/f;
 
     move-result-object v2
 
-    .line 4
     iget-object v3, p0, Lcom/google/firebase/firestore/remote/z;->b:Ljava/util/Map;
 
     invoke-interface {v3}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -234,21 +211,18 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 5
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/google/firebase/firestore/model/e;
 
-    .line 6
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
-    .line 7
     sget-object v2, Lcom/google/firebase/firestore/remote/z$a;->a:[I
 
     invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
@@ -269,7 +243,6 @@
 
     if-ne v2, v5, :cond_0
 
-    .line 8
     invoke-virtual {v9, v1}, Lcom/google/firebase/database/collection/f;->h(Ljava/lang/Object;)Lcom/google/firebase/database/collection/f;
 
     move-result-object v0
@@ -287,14 +260,12 @@
 
     const-string v0, "Encountered invalid change type: %s"
 
-    .line 9
     invoke-static {v0, v1}, Lcom/google/firebase/firestore/util/b;->a(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/AssertionError;
 
     move-result-object v0
 
     throw v0
 
-    .line 10
     :cond_1
     invoke-virtual {v8, v1}, Lcom/google/firebase/database/collection/f;->h(Ljava/lang/Object;)Lcom/google/firebase/database/collection/f;
 
@@ -304,7 +275,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-virtual {v7, v1}, Lcom/google/firebase/database/collection/f;->h(Ljava/lang/Object;)Lcom/google/firebase/database/collection/f;
 
@@ -314,7 +284,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_3
     new-instance v0, Lcom/google/firebase/firestore/remote/y;
 
@@ -332,7 +301,6 @@
 .method k(Lcom/google/protobuf/ByteString;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->isEmpty()Z
 
     move-result v0
@@ -341,10 +309,8 @@
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/firebase/firestore/remote/z;->c:Z
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/firestore/remote/z;->d:Lcom/google/protobuf/ByteString;
 
     :cond_0

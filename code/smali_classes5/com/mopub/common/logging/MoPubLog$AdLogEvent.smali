@@ -76,7 +76,6 @@
 .method static constructor <clinit>()V
     .locals 22
 
-    .line 1
     new-instance v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$LogLevel;->DEBUG:Lcom/mopub/common/logging/MoPubLog$LogLevel;
@@ -91,7 +90,6 @@
 
     sput-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->REQUESTED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 2
     new-instance v2, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v4, "RESPONSE_RECEIVED"
@@ -104,7 +102,6 @@
 
     sput-object v2, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->RESPONSE_RECEIVED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 3
     new-instance v4, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     sget-object v6, Lcom/mopub/common/logging/MoPubLog$LogLevel;->INFO:Lcom/mopub/common/logging/MoPubLog$LogLevel;
@@ -119,7 +116,6 @@
 
     sput-object v4, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->LOAD_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 4
     new-instance v7, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v9, "LOAD_SUCCESS"
@@ -132,7 +128,6 @@
 
     sput-object v7, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->LOAD_SUCCESS:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 5
     new-instance v9, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v11, "LOAD_FAILED"
@@ -145,7 +140,6 @@
 
     sput-object v9, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 6
     new-instance v11, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v13, "SHOW_ATTEMPTED"
@@ -158,7 +152,6 @@
 
     sput-object v11, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->SHOW_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 7
     new-instance v13, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v15, "SHOW_SUCCESS"
@@ -171,7 +164,6 @@
 
     sput-object v13, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->SHOW_SUCCESS:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 8
     new-instance v12, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v15, "SHOW_FAILED"
@@ -184,7 +176,6 @@
 
     sput-object v12, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->SHOW_FAILED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 9
     new-instance v6, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v10, "EXPIRED"
@@ -197,7 +188,6 @@
 
     sput-object v6, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->EXPIRED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 10
     new-instance v10, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v14, "CLICKED"
@@ -210,7 +200,6 @@
 
     sput-object v10, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CLICKED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 11
     new-instance v8, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v14, "WILL_APPEAR"
@@ -223,7 +212,6 @@
 
     sput-object v8, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->WILL_APPEAR:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 12
     new-instance v5, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v14, "DID_APPEAR"
@@ -236,7 +224,6 @@
 
     sput-object v5, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->DID_APPEAR:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 13
     new-instance v3, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v14, "WILL_DISAPPEAR"
@@ -251,7 +238,6 @@
 
     sput-object v3, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->WILL_DISAPPEAR:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 14
     new-instance v5, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v14, "DID_DISAPPEAR"
@@ -266,7 +252,6 @@
 
     sput-object v5, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->DID_DISAPPEAR:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 15
     new-instance v3, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v14, "SHOULD_REWARD"
@@ -281,7 +266,6 @@
 
     sput-object v3, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->SHOULD_REWARD:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 16
     new-instance v5, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v14, "WILL_LEAVE_APPLICATION"
@@ -296,7 +280,6 @@
 
     sput-object v5, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->WILL_LEAVE_APPLICATION:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 17
     new-instance v3, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v14, "CUSTOM"
@@ -311,7 +294,6 @@
 
     sput-object v3, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
-    .line 18
     new-instance v5, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const-string v14, "CUSTOM_WITH_THROWABLE"
@@ -400,7 +382,6 @@
 
     aput-object v5, v1, v15
 
-    .line 19
     sput-object v1, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->$VALUES:[Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     return-void
@@ -425,19 +406,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p4}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p3, p0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->mLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 5
     iput-object p4, p0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->mMessageFormat:Ljava/lang/String;
 
     return-void
@@ -446,7 +422,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -461,7 +436,6 @@
 .method public static values()[Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->$VALUES:[Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     invoke-virtual {v0}, [Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->clone()Ljava/lang/Object;
@@ -480,7 +454,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->mLogLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     return-object v0
@@ -495,7 +468,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->mMessageFormat:Ljava/lang/String;
 
     invoke-static {v0, p1}, Ljava/text/MessageFormat;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

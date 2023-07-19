@@ -50,7 +50,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$g;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
     invoke-virtual {v0}, Lcom/commsource/home/banner/HomeSmallBannerAdVH;->P()Landroid/content/Context;
@@ -61,7 +60,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v1, "source_click_position"
@@ -70,7 +68,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$g;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
     invoke-virtual {v0}, Lcom/commsource/home/banner/HomeSmallBannerAdVH;->P()Landroid/content/Context;
@@ -81,13 +78,11 @@
 
     invoke-static {v0, v2}, Lcom/commsource/billing/activity/c;->a(Landroid/app/Activity;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$g;->b:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

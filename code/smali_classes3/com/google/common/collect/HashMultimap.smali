@@ -46,7 +46,6 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-direct {p0, v0, v1}, Lcom/google/common/collect/HashMultimap;-><init>(II)V
 
     return-void
@@ -55,7 +54,6 @@
 .method private constructor <init>(II)V
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/r1;->d(I)Ljava/util/Map;
 
     move-result-object p1
@@ -64,7 +62,6 @@
 
     const/4 p1, 0x2
 
-    .line 3
     iput p1, p0, Lcom/google/common/collect/HashMultimap;->expectedValuesPerKey:I
 
     if-ltz p2, :cond_0
@@ -76,11 +73,9 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {p1}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 5
     iput p2, p0, Lcom/google/common/collect/HashMultimap;->expectedValuesPerKey:I
 
     return-void
@@ -96,7 +91,6 @@
         }
     .end annotation
 
-    .line 6
     invoke-interface {p1}, Lcom/google/common/collect/l1;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -113,10 +107,8 @@
 
     const/4 v0, 0x2
 
-    .line 7
     iput v0, p0, Lcom/google/common/collect/HashMultimap;->expectedValuesPerKey:I
 
-    .line 8
     invoke-virtual {p0, p1}, Lcom/google/common/collect/HashMultimap;->putAll(Lcom/google/common/collect/l1;)Z
 
     return-void
@@ -136,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/HashMultimap;
 
     invoke-direct {v0}, Lcom/google/common/collect/HashMultimap;-><init>()V
@@ -158,7 +149,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/HashMultimap;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/HashMultimap;-><init>(II)V
@@ -182,7 +172,6 @@
         }
     .end annotation
 
-    .line 3
     new-instance v0, Lcom/google/common/collect/HashMultimap;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/HashMultimap;-><init>(Lcom/google/common/collect/l1;)V
@@ -202,30 +191,24 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->defaultReadObject()V
 
     const/4 v0, 0x2
 
-    .line 2
     iput v0, p0, Lcom/google/common/collect/HashMultimap;->expectedValuesPerKey:I
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/collect/w1;->h(Ljava/io/ObjectInputStream;)I
 
     move-result v0
 
     const/16 v1, 0xc
 
-    .line 4
     invoke-static {v1}, Lcom/google/common/collect/r1;->d(I)Ljava/util/Map;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p0, v1}, Lcom/google/common/collect/AbstractMapBasedMultimap;->setMap(Ljava/util/Map;)V
 
-    .line 6
     invoke-static {p0, p1, v0}, Lcom/google/common/collect/w1;->e(Lcom/google/common/collect/l1;Ljava/io/ObjectInputStream;I)V
 
     return-void
@@ -242,10 +225,8 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectOutputStream;->defaultWriteObject()V
 
-    .line 2
     invoke-static {p0, p1}, Lcom/google/common/collect/w1;->j(Lcom/google/common/collect/l1;Ljava/io/ObjectOutputStream;)V
 
     return-void
@@ -256,7 +237,6 @@
 .method public bridge synthetic asMap()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/AbstractSetMultimap;->asMap()Ljava/util/Map;
 
     move-result-object v0
@@ -267,7 +247,6 @@
 .method public bridge synthetic clear()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap;->clear()V
 
     return-void
@@ -284,7 +263,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/c;->containsEntry(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -299,7 +277,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/AbstractMapBasedMultimap;->containsKey(Ljava/lang/Object;)Z
 
     move-result p1
@@ -314,7 +291,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/c;->containsValue(Ljava/lang/Object;)Z
 
     move-result p1
@@ -325,7 +301,6 @@
 .method bridge synthetic createCollection()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/HashMultimap;->createCollection()Ljava/util/Set;
 
     move-result-object v0
@@ -343,7 +318,6 @@
         }
     .end annotation
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/HashMultimap;->expectedValuesPerKey:I
 
     invoke-static {v0}, Lcom/google/common/collect/r1;->e(I)Ljava/util/Set;
@@ -356,7 +330,6 @@
 .method public bridge synthetic entries()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/AbstractSetMultimap;->entries()Ljava/util/Set;
 
     move-result-object v0
@@ -371,7 +344,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/AbstractSetMultimap;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -386,7 +358,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/AbstractSetMultimap;->get(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -397,7 +368,6 @@
 .method public bridge synthetic hashCode()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c;->hashCode()I
 
     move-result v0
@@ -408,7 +378,6 @@
 .method public bridge synthetic isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c;->isEmpty()Z
 
     move-result v0
@@ -419,7 +388,6 @@
 .method public bridge synthetic keySet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -430,7 +398,6 @@
 .method public bridge synthetic keys()Lcom/google/common/collect/m1;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c;->keys()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -451,7 +418,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/AbstractSetMultimap;->put(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -464,7 +430,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/c;->putAll(Lcom/google/common/collect/l1;)Z
 
     move-result p1
@@ -481,7 +446,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 2
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/c;->putAll(Ljava/lang/Object;Ljava/lang/Iterable;)Z
 
     move-result p1
@@ -502,7 +466,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/c;->remove(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -519,7 +482,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/AbstractSetMultimap;->removeAll(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -536,7 +498,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/AbstractSetMultimap;->replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/Set;
 
     move-result-object p1
@@ -547,7 +508,6 @@
 .method public bridge synthetic size()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap;->size()I
 
     move-result v0
@@ -558,7 +518,6 @@
 .method public bridge synthetic toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -569,7 +528,6 @@
 .method public bridge synthetic values()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap;->values()Ljava/util/Collection;
 
     move-result-object v0

@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/google/common/io/q;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/io/q$b;->a:Lcom/google/common/io/q;
 
     invoke-direct {p0}, Lcom/google/common/io/f;-><init>()V
@@ -40,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/q$b;->a:Lcom/google/common/io/q;
 
     invoke-static {v0}, Lcom/google/common/io/q;->a(Lcom/google/common/io/q;)Ljava/io/InputStream;

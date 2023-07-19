@@ -42,12 +42,10 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Landroid/text/style/ReplacementSpan;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput v0, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;->a:I
 
     return-void
@@ -56,10 +54,8 @@
 .method private constructor <init>(I)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Landroid/text/style/ReplacementSpan;-><init>()V
 
-    .line 5
     iput p1, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;->a:I
 
     return-void
@@ -68,7 +64,6 @@
 .method synthetic constructor <init>(ILcom/commsource/camera/mvp/helper/XSpanUtils$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;-><init>(I)V
 
     return-void
@@ -77,12 +72,10 @@
 .method private a()Landroid/graphics/drawable/Drawable;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;->b:Ljava/lang/ref/WeakReference;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -97,12 +90,10 @@
     :goto_0
     if-nez v0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;->b()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v1, v0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -129,29 +120,24 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;->a()Landroid/graphics/drawable/Drawable;
 
     move-result-object p2
 
-    .line 2
     invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
 
     move-result-object p3
 
-    .line 3
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
     sub-int p4, p8, p6
 
-    .line 4
     invoke-virtual {p3}, Landroid/graphics/Rect;->height()I
 
     move-result p9
 
     if-ge p9, p4, :cond_3
 
-    .line 5
     iget p4, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;->a:I
 
     const/4 p9, 0x3
@@ -169,7 +155,6 @@
 
     add-int/2addr p8, p6
 
-    .line 6
     invoke-virtual {p3}, Landroid/graphics/Rect;->height()I
 
     move-result p3
@@ -188,7 +173,6 @@
 
     if-ne p4, p6, :cond_2
 
-    .line 7
     invoke-virtual {p3}, Landroid/graphics/Rect;->height()I
 
     move-result p3
@@ -199,7 +183,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     invoke-virtual {p3}, Landroid/graphics/Rect;->height()I
 
@@ -209,7 +192,6 @@
 
     goto :goto_0
 
-    .line 9
     :goto_1
     invoke-virtual {p1, p5, p3}, Landroid/graphics/Canvas;->translate(FF)V
 
@@ -218,14 +200,11 @@
     :cond_3
     int-to-float p3, p6
 
-    .line 10
     invoke-virtual {p1, p5, p3}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 11
     :goto_2
     invoke-virtual {p2, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 12
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
     return-void
@@ -238,45 +217,38 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;->a()Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
 
     move-result-object p1
 
     if-eqz p5, :cond_2
 
-    .line 3
     iget p2, p5, Landroid/graphics/Paint$FontMetricsInt;->bottom:I
 
     iget p3, p5, Landroid/graphics/Paint$FontMetricsInt;->top:I
 
     sub-int/2addr p2, p3
 
-    .line 4
     invoke-virtual {p1}, Landroid/graphics/Rect;->height()I
 
     move-result p3
 
     if-ge p2, p3, :cond_2
 
-    .line 5
     iget p3, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;->a:I
 
     const/4 p4, 0x3
 
     if-ne p3, p4, :cond_0
 
-    .line 6
     iget p2, p5, Landroid/graphics/Paint$FontMetricsInt;->top:I
 
     iput p2, p5, Landroid/graphics/Paint$FontMetricsInt;->top:I
 
-    .line 7
     invoke-virtual {p1}, Landroid/graphics/Rect;->height()I
 
     move-result p2
@@ -294,7 +266,6 @@
 
     if-ne p3, p4, :cond_1
 
-    .line 8
     invoke-virtual {p1}, Landroid/graphics/Rect;->height()I
 
     move-result p3
@@ -309,7 +280,6 @@
 
     iput p3, p5, Landroid/graphics/Paint$FontMetricsInt;->top:I
 
-    .line 9
     invoke-virtual {p1}, Landroid/graphics/Rect;->height()I
 
     move-result p3
@@ -322,7 +292,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     invoke-virtual {p1}, Landroid/graphics/Rect;->height()I
 
@@ -336,21 +305,17 @@
 
     iput p2, p5, Landroid/graphics/Paint$FontMetricsInt;->top:I
 
-    .line 11
     iput p3, p5, Landroid/graphics/Paint$FontMetricsInt;->bottom:I
 
-    .line 12
     :goto_0
     iget p2, p5, Landroid/graphics/Paint$FontMetricsInt;->top:I
 
     iput p2, p5, Landroid/graphics/Paint$FontMetricsInt;->ascent:I
 
-    .line 13
     iget p2, p5, Landroid/graphics/Paint$FontMetricsInt;->bottom:I
 
     iput p2, p5, Landroid/graphics/Paint$FontMetricsInt;->descent:I
 
-    .line 14
     :cond_2
     iget p1, p1, Landroid/graphics/Rect;->right:I
 

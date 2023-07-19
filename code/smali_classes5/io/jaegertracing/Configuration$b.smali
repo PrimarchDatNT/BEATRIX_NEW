@@ -34,10 +34,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -62,10 +60,8 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lio/jaegertracing/Configuration$b;->a:Ljava/util/Map;
 
     return-void
@@ -91,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -100,15 +95,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
-    .line 3
     invoke-interface {p0, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     :cond_0
     invoke-interface {v0, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -120,14 +112,12 @@
 
     const-string v0, "\'"
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     const-string v2, "JAEGER_PROPAGATION"
 
-    .line 2
     invoke-static {v2}, Lio/jaegertracing/Configuration;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -136,7 +126,6 @@
 
     const-string v3, ","
 
-    .line 3
     invoke-virtual {v2, v3}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v2
@@ -162,7 +151,6 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 4
     :try_start_0
     sget-object v4, Lio/jaegertracing/Configuration$a;->a:[I
 
@@ -188,7 +176,6 @@
 
     if-eq v4, v5, :cond_0
 
-    .line 5
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -209,7 +196,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     sget-object v4, Li/a/i/a$a;->c:Li/a/i/a;
 
@@ -223,7 +209,6 @@
 
     invoke-static {v1, v4, v5}, Lio/jaegertracing/Configuration$b;->a(Ljava/util/Map;Li/a/i/a;Lio/jaegertracing/b/c;)V
 
-    .line 7
     sget-object v4, Li/a/i/a$a;->b:Li/a/i/a;
 
     new-instance v5, Lio/jaegertracing/a/l/a$b;
@@ -238,7 +223,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     sget-object v4, Li/a/i/a$a;->c:Li/a/i/a;
 
@@ -248,7 +232,6 @@
 
     invoke-static {v1, v4, v6}, Lio/jaegertracing/Configuration$b;->a(Ljava/util/Map;Li/a/i/a;Lio/jaegertracing/b/c;)V
 
-    .line 9
     sget-object v4, Li/a/i/a$a;->b:Li/a/i/a;
 
     new-instance v5, Lio/jaegertracing/a/l/e;
@@ -263,7 +246,6 @@
 
     goto :goto_0
 
-    .line 10
     :catch_0
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -285,7 +267,6 @@
 
     goto/16 :goto_0
 
-    .line 11
     :cond_2
     new-instance v0, Lio/jaegertracing/Configuration$b;
 
@@ -299,12 +280,10 @@
 .method public b(Lio/jaegertracing/a/e$a;)V
     .locals 1
 
-    .line 1
     sget-object v0, Li/a/i/a$a;->c:Li/a/i/a;
 
     invoke-virtual {p0, p1, v0}, Lio/jaegertracing/Configuration$b;->e(Lio/jaegertracing/a/e$a;Li/a/i/a;)V
 
-    .line 2
     sget-object v0, Li/a/i/a$a;->b:Li/a/i/a;
 
     invoke-virtual {p0, p1, v0}, Lio/jaegertracing/Configuration$b;->e(Lio/jaegertracing/a/e$a;Li/a/i/a;)V
@@ -327,7 +306,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/Configuration$b;->a:Ljava/util/Map;
 
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
@@ -349,7 +327,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/Configuration$b;->a:Ljava/util/Map;
 
     invoke-interface {v0, p2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -358,7 +335,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lio/jaegertracing/Configuration$b;->a:Ljava/util/Map;
 
     invoke-interface {v0, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -367,7 +343,6 @@
 
     check-cast v0, Ljava/util/List;
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -378,7 +353,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -394,11 +368,9 @@
 
     move-object v0, v1
 
-    .line 5
     :goto_0
     invoke-virtual {p1, p2, v0}, Lio/jaegertracing/a/e$a;->q(Li/a/i/a;Lio/jaegertracing/b/e;)Lio/jaegertracing/a/e$a;
 
-    .line 6
     invoke-virtual {p1, p2, v0}, Lio/jaegertracing/a/e$a;->p(Li/a/i/a;Lio/jaegertracing/b/d;)Lio/jaegertracing/a/e$a;
 
     :cond_1
@@ -419,7 +391,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/Configuration$b;->a:Ljava/util/Map;
 
     invoke-static {v0, p1, p2}, Lio/jaegertracing/Configuration$b;->a(Ljava/util/Map;Li/a/i/a;Lio/jaegertracing/b/c;)V

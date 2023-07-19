@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -77,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment$onViewCreated$1;->this$0:Lcom/commsource/studio/sticker/TextFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/TextFragment;->V(Lcom/commsource/studio/sticker/TextFragment;)Lcom/commsource/studio/text/TextViewModel;
@@ -94,7 +92,6 @@
 
     if-nez p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment$onViewCreated$1;->this$0:Lcom/commsource/studio/sticker/TextFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/TextFragment;->X(Lcom/commsource/studio/sticker/TextFragment;)Lcom/commsource/studio/text/TextTemplatePanel;
@@ -105,7 +102,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplatePanel;->m()V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment$onViewCreated$1;->this$0:Lcom/commsource/studio/sticker/TextFragment;
 
@@ -119,7 +115,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment$onViewCreated$1;->this$0:Lcom/commsource/studio/sticker/TextFragment;
 
@@ -131,7 +126,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplatePanel;->i()V
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment$onViewCreated$1;->this$0:Lcom/commsource/studio/sticker/TextFragment;
 
@@ -143,7 +137,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextStylePanel;->k()V
 
-    .line 7
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

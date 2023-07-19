@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lio/grpc/p1;->d()Lio/grpc/p1;
 
     move-result-object v0
@@ -93,7 +91,6 @@
         value = "https://github.com/grpc/grpc-java/issues/2861"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -115,7 +112,6 @@
         value = "https://github.com/grpc/grpc-java/issues/2132"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -212,7 +208,6 @@
         value = "https://github.com/grpc/grpc-java/issues/3706"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -234,7 +229,6 @@
         value = "https://github.com/grpc/grpc-java/issues/3117"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -262,10 +256,8 @@
     :goto_0
     const-string v0, "bytes must be >= 0"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/j1;->q()Lio/grpc/j1;
 
     move-result-object p1
@@ -293,10 +285,8 @@
     :goto_0
     const-string v0, "maxInboundMetadataSize must be > 0"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/j1;->q()Lio/grpc/j1;
 
     move-result-object p1
@@ -318,7 +308,6 @@
         value = "https://github.com/grpc/grpc-java/issues/4017"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -348,7 +337,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V

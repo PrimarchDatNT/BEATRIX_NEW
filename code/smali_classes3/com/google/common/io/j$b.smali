@@ -28,7 +28,6 @@
 
     const-string v0, "\r\n|\n|\r"
 
-    .line 1
     invoke-static {v0}, Lcom/google/common/base/w;->m(Ljava/lang/String;)Lcom/google/common/base/w;
 
     move-result-object v0
@@ -41,10 +40,8 @@
 .method protected constructor <init>(Ljava/lang/CharSequence;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/io/j;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -59,7 +56,6 @@
 .method static synthetic s()Lcom/google/common/base/w;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/io/j$b;->b:Lcom/google/common/base/w;
 
     return-object v0
@@ -76,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/io/j$b$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/io/j$b$a;-><init>(Lcom/google/common/io/j$b;)V
@@ -89,7 +84,6 @@
 .method public i()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/j$b;->a:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
@@ -112,7 +106,6 @@
 .method public j()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/j$b;->a:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
@@ -135,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/j$b;->a:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
@@ -158,7 +150,6 @@
 .method public m()Ljava/io/Reader;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/io/h;
 
     iget-object v1, p0, Lcom/google/common/io/j$b;->a:Ljava/lang/CharSequence;
@@ -171,7 +162,6 @@
 .method public n()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/j$b;->a:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
@@ -184,12 +174,10 @@
 .method public o()Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/io/j$b;->t()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
@@ -222,7 +210,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/io/j$b;->t()Ljava/util/Iterator;
 
     move-result-object v0
@@ -252,12 +239,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/io/j$b;->t()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 2
     :cond_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -265,7 +250,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -278,7 +262,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     :cond_1
     invoke-interface {p1}, Lcom/google/common/io/t;->a()Ljava/lang/Object;
 
@@ -290,7 +273,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

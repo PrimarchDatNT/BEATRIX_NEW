@@ -24,15 +24,12 @@
 .method constructor <init>(Ljava/io/InputStream;J)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V
 
     const-wide/16 v0, -0x1
 
-    .line 2
     iput-wide v0, p0, Lcom/google/common/io/g$d;->b:J
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     const-wide/16 v0, 0x0
@@ -51,10 +48,8 @@
     :goto_0
     const-string v0, "limit must be non-negative"
 
-    .line 4
     invoke-static {p1, v0}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 5
     iput-wide p2, p0, Lcom/google/common/io/g$d;->a:J
 
     return-void
@@ -70,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
 
     invoke-virtual {v0}, Ljava/io/InputStream;->available()I
@@ -95,20 +89,17 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
 
     invoke-virtual {v0, p1}, Ljava/io/InputStream;->mark(I)V
 
-    .line 2
     iget-wide v0, p0, Lcom/google/common/io/g$d;->a:J
 
     iput-wide v0, p0, Lcom/google/common/io/g$d;->b:J
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -129,7 +120,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/io/g$d;->a:J
 
     const/4 v2, -0x1
@@ -142,7 +132,6 @@
 
     return v2
 
-    .line 2
     :cond_0
     iget-object v0, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
 
@@ -152,7 +141,6 @@
 
     if-eq v0, v2, :cond_1
 
-    .line 3
     iget-wide v1, p0, Lcom/google/common/io/g$d;->a:J
 
     const-wide/16 v3, 0x1
@@ -173,7 +161,6 @@
         }
     .end annotation
 
-    .line 4
     iget-wide v0, p0, Lcom/google/common/io/g$d;->a:J
 
     const/4 v2, -0x1
@@ -189,14 +176,12 @@
     :cond_0
     int-to-long v3, p3
 
-    .line 5
     invoke-static {v3, v4, v0, v1}, Ljava/lang/Math;->min(JJ)J
 
     move-result-wide v0
 
     long-to-int p3, v0
 
-    .line 6
     iget-object v0, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/InputStream;->read([BII)I
@@ -205,7 +190,6 @@
 
     if-eq p1, v2, :cond_1
 
-    .line 7
     iget-wide p2, p0, Lcom/google/common/io/g$d;->a:J
 
     int-to-long v0, p1
@@ -228,7 +212,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
 
@@ -238,7 +221,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-wide v0, p0, Lcom/google/common/io/g$d;->b:J
 
     const-wide/16 v2, -0x1
@@ -247,24 +229,20 @@
 
     if-eqz v4, :cond_0
 
-    .line 3
     iget-object v0, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
 
     invoke-virtual {v0}, Ljava/io/InputStream;->reset()V
 
-    .line 4
     iget-wide v0, p0, Lcom/google/common/io/g$d;->b:J
 
     iput-wide v0, p0, Lcom/google/common/io/g$d;->a:J
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     monitor-exit p0
 
     return-void
 
-    .line 6
     :cond_0
     :try_start_1
     new-instance v0, Ljava/io/IOException;
@@ -275,7 +253,6 @@
 
     throw v0
 
-    .line 7
     :cond_1
     new-instance v0, Ljava/io/IOException;
 
@@ -303,21 +280,18 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/io/g$d;->a:J
 
     invoke-static {p1, p2, v0, v1}, Ljava/lang/Math;->min(JJ)J
 
     move-result-wide p1
 
-    .line 2
     iget-object v0, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
 
     invoke-virtual {v0, p1, p2}, Ljava/io/InputStream;->skip(J)J
 
     move-result-wide p1
 
-    .line 3
     iget-wide v0, p0, Lcom/google/common/io/g$d;->a:J
 
     sub-long/2addr v0, p1

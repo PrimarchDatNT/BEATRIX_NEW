@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;
@@ -65,7 +64,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a$a;->b:Lcom/meitu/template/bean/ArMaterial;
 
     if-eqz v1, :cond_1
@@ -84,14 +82,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->z()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;
@@ -110,7 +106,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;
 
@@ -134,7 +129,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a$a;->b:Lcom/meitu/template/bean/ArMaterial;
 
@@ -148,14 +142,12 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->z()V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;
@@ -174,7 +166,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 9
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;
 
@@ -198,7 +189,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;
 
@@ -218,7 +208,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 11
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -115,7 +115,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -137,7 +136,6 @@
     :cond_0
     const-string p0, "https://mtpush.meitu.com/"
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -160,7 +158,6 @@
     :cond_0
     const-string p0, "https://push.meitu.com/"
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -174,36 +171,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/pushkit/x;->Y:Landroid/os/HandlerThread;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/pushkit/x;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/pushkit/x;->Y:Landroid/os/HandlerThread;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Landroid/os/HandlerThread;
 
     const-string v3, "pushkit_work"
 
     invoke-direct {v2, v3}, Landroid/os/HandlerThread;-><init>(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v2}, Landroid/os/HandlerThread;->start()V
 
-    .line 6
     sput-object v2, Lcom/meitu/pushkit/x;->Y:Landroid/os/HandlerThread;
 
-    .line 7
     :cond_0
     monitor-exit v1
 
@@ -220,7 +210,6 @@
 
     throw v2
 
-    .line 8
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/pushkit/x;->Y:Landroid/os/HandlerThread;

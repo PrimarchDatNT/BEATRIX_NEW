@@ -17,7 +17,6 @@
 .method public constructor <init>(Landroid/widget/ImageView;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bumptech/glide/request/j/j;-><init>(Landroid/widget/ImageView;)V
 
     return-void
@@ -28,7 +27,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/bumptech/glide/request/j/j;-><init>(Landroid/widget/ImageView;Z)V
 
     return-void
@@ -39,7 +37,6 @@
 .method protected bridge synthetic m(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/request/j/c;->o(Landroid/graphics/Bitmap;)V
@@ -50,7 +47,6 @@
 .method protected o(Landroid/graphics/Bitmap;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/r;->b:Landroid/view/View;
 
     check-cast v0, Landroid/widget/ImageView;

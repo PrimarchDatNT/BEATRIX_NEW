@@ -64,40 +64,28 @@
 .method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILcom/commsource/widget/RotateLoadingView;Landroid/widget/FrameLayout;Lcom/commsource/widget/IconFrontView;Lcom/commsource/widget/IconFrontView;Lcom/commsource/widget/CircleImageView;Lcom/commsource/widget/CornerImageView;Landroid/widget/ImageView;Lcom/commsource/widget/round/RoundFrameLayout;Lcom/commsource/widget/round/RoundFrameLayout;Lcom/commsource/widget/round/RoundFrameLayout;Lcom/commsource/widget/AutoFitTextView;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
-    .line 2
     iput-object p4, p0, Lcom/commsource/beautyplus/f0/sg;->a:Lcom/commsource/widget/RotateLoadingView;
 
-    .line 3
     iput-object p5, p0, Lcom/commsource/beautyplus/f0/sg;->b:Landroid/widget/FrameLayout;
 
-    .line 4
     iput-object p6, p0, Lcom/commsource/beautyplus/f0/sg;->c:Lcom/commsource/widget/IconFrontView;
 
-    .line 5
     iput-object p7, p0, Lcom/commsource/beautyplus/f0/sg;->d:Lcom/commsource/widget/IconFrontView;
 
-    .line 6
     iput-object p8, p0, Lcom/commsource/beautyplus/f0/sg;->f:Lcom/commsource/widget/CircleImageView;
 
-    .line 7
     iput-object p9, p0, Lcom/commsource/beautyplus/f0/sg;->g:Lcom/commsource/widget/CornerImageView;
 
-    .line 8
     iput-object p10, p0, Lcom/commsource/beautyplus/f0/sg;->p:Landroid/widget/ImageView;
 
-    .line 9
     iput-object p11, p0, Lcom/commsource/beautyplus/f0/sg;->J:Lcom/commsource/widget/round/RoundFrameLayout;
 
-    .line 10
     iput-object p12, p0, Lcom/commsource/beautyplus/f0/sg;->K:Lcom/commsource/widget/round/RoundFrameLayout;
 
-    .line 11
     iput-object p13, p0, Lcom/commsource/beautyplus/f0/sg;->L:Lcom/commsource/widget/round/RoundFrameLayout;
 
-    .line 12
     iput-object p14, p0, Lcom/commsource/beautyplus/f0/sg;->M:Lcom/commsource/widget/AutoFitTextView;
 
     return-void
@@ -110,7 +98,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -137,7 +124,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_look:I
 
-    .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -156,7 +142,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -181,7 +166,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -215,7 +199,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_look:I
 
-    .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -247,7 +230,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0

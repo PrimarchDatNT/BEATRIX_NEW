@@ -11,7 +11,6 @@
 .method constructor <init>(Lcom/android/billingclient/api/e;Landroid/os/Handler;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/zzh;->a:Lcom/android/billingclient/api/e;
 
     invoke-direct {p0, p2}, Landroid/os/ResultReceiver;-><init>(Landroid/os/Handler;)V
@@ -24,7 +23,6 @@
 .method public final onReceiveResult(ILandroid/os/Bundle;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/zzh;->a:Lcom/android/billingclient/api/e;
 
     invoke-static {v0}, Lcom/android/billingclient/api/e;->v(Lcom/android/billingclient/api/e;)Lcom/android/billingclient/api/g0;
@@ -41,28 +39,23 @@
 
     const-string p1, "PurchasesUpdatedListener is null - no way to return the response."
 
-    .line 2
     invoke-static {v1, p1}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lf/f/b/b/h/e/b;->h(Landroid/os/Bundle;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 4
     invoke-static {}, Lcom/android/billingclient/api/h;->c()Lcom/android/billingclient/api/h$a;
 
     move-result-object v3
 
-    .line 5
     invoke-virtual {v3, p1}, Lcom/android/billingclient/api/h$a;->c(I)Lcom/android/billingclient/api/h$a;
 
     move-result-object p1
 
-    .line 6
     invoke-static {p2, v1}, Lf/f/b/b/h/e/b;->k(Landroid/os/Bundle;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -71,12 +64,10 @@
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1}, Lcom/android/billingclient/api/h$a;->a()Lcom/android/billingclient/api/h;
 
     move-result-object p1
 
-    .line 8
     invoke-interface {v0, p1, v2}, Lcom/android/billingclient/api/n;->h(Lcom/android/billingclient/api/h;Ljava/util/List;)V
 
     return-void

@@ -43,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/i2/s;->a:Ljava/lang/Object;
@@ -56,7 +55,6 @@
 .method public synthetic constructor <init>(Ljava/lang/Object;DLcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lcotlin/i2/s;-><init>(Ljava/lang/Object;D)V
 
     return-void
@@ -132,7 +130,6 @@
 .method public final e()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcotlin/i2/s;->b:D
 
     return-wide v0
@@ -195,7 +192,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/i2/s;->a:Ljava/lang/Object;
 
     return-object v0

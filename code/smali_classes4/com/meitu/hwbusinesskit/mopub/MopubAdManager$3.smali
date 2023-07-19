@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager$3;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager$3;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;
 
     invoke-virtual {p1}, Lcom/mopub/nativeads/NativeErrorCode;->toString()Ljava/lang/String;
@@ -53,7 +51,6 @@
 
     invoke-static {v1, v2, p1}, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;->access$2000(Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;ILjava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -66,17 +63,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/hwbusinesskit/mopub/MoPubAdModelContainer;
 
     invoke-direct {v1, p1}, Lcom/meitu/hwbusinesskit/mopub/MoPubAdModelContainer;-><init>(Lcom/mopub/nativeads/NativeAd;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager$3;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;
 
     invoke-static {p1, v1}, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;->access$1900(Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

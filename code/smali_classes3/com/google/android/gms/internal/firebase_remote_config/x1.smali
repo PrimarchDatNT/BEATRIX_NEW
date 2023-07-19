@@ -10,7 +10,6 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/z1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/x1;->a:Lcom/google/android/gms/internal/firebase_remote_config/z1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -28,12 +27,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/b2;
 
     invoke-direct {v0, p0, p1, p2, p3}, Lcom/google/android/gms/internal/firebase_remote_config/b2;-><init>(Lcom/google/android/gms/internal/firebase_remote_config/x1;Ljava/lang/String;Ljava/lang/String;Lcom/google/android/gms/internal/firebase_remote_config/f2;)V
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/x1;->a:Lcom/google/android/gms/internal/firebase_remote_config/z1;
 
     iget-object p1, p1, Lcom/google/android/gms/internal/firebase_remote_config/z1;->a:Lcom/google/android/gms/internal/firebase_remote_config/w1;

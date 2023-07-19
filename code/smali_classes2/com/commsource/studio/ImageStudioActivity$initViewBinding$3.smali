@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -88,7 +87,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$initViewBinding$3;->this$0:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-static {v0}, Lcom/commsource/studio/ImageStudioActivity;->Q0(Lcom/commsource/studio/ImageStudioActivity;)Lcom/commsource/studio/sub/SubTabEnum;
@@ -97,7 +95,6 @@
 
     if-eq v0, p2, :cond_0
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/studio/sub/SubTabEnum;->getStatisticName()Ljava/lang/String;
 
     move-result-object v0
@@ -106,10 +103,8 @@
 
     const-string v2, "\u5b50\u529f\u80fd"
 
-    .line 4
     invoke-static {v1, v2, v0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$initViewBinding$3;->this$0:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -133,7 +128,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$initViewBinding$3;->this$0:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -144,7 +138,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/ImageStudioViewModel;->O(I)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$initViewBinding$3;->this$0:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -157,7 +150,6 @@
 
     invoke-virtual {v0, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

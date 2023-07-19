@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/f1$n;Lio/grpc/Status;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/f1$n$b;->b:Lio/grpc/internal/f1$n;
 
     iput-object p2, p0, Lio/grpc/internal/f1$n$b;->a:Lio/grpc/Status;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f1$n$b;->b:Lio/grpc/internal/f1$n;
 
     iget-object v0, v0, Lio/grpc/internal/f1$n;->d:Lio/grpc/internal/f1;
@@ -61,7 +59,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/f1$n$b;->b:Lio/grpc/internal/f1$n;
 
@@ -79,12 +76,10 @@
 
     if-ne v0, v2, :cond_1
 
-    .line 3
     iget-object v0, v1, Lio/grpc/internal/f1$n;->d:Lio/grpc/internal/f1;
 
     invoke-static {v0, v3}, Lio/grpc/internal/f1;->m(Lio/grpc/internal/f1;Lio/grpc/internal/o1;)Lio/grpc/internal/o1;
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/f1$n$b;->b:Lio/grpc/internal/f1$n;
 
     iget-object v0, v0, Lio/grpc/internal/f1$n;->d:Lio/grpc/internal/f1;
@@ -95,7 +90,6 @@
 
     invoke-virtual {v0}, Lio/grpc/internal/f1$m;->g()V
 
-    .line 5
     iget-object v0, p0, Lio/grpc/internal/f1$n$b;->b:Lio/grpc/internal/f1$n;
 
     iget-object v0, v0, Lio/grpc/internal/f1$n;->d:Lio/grpc/internal/f1;
@@ -106,7 +100,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     iget-object v0, v1, Lio/grpc/internal/f1$n;->d:Lio/grpc/internal/f1;
 
@@ -120,7 +113,6 @@
 
     if-ne v0, v2, :cond_4
 
-    .line 7
     iget-object v0, v1, Lio/grpc/internal/f1$n;->d:Lio/grpc/internal/f1;
 
     invoke-static {v0}, Lio/grpc/internal/f1;->k(Lio/grpc/internal/f1;)Lio/grpc/o;
@@ -147,7 +139,6 @@
 
     iget-object v1, v1, Lio/grpc/internal/f1$n;->d:Lio/grpc/internal/f1;
 
-    .line 8
     invoke-static {v1}, Lio/grpc/internal/f1;->k(Lio/grpc/internal/f1;)Lio/grpc/o;
 
     move-result-object v1
@@ -158,10 +149,8 @@
 
     const-string v2, "Expected state is CONNECTING, actual state is %s"
 
-    .line 9
     invoke-static {v0, v2, v1}, Lcom/google/common/base/t;->x0(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 10
     iget-object v0, p0, Lio/grpc/internal/f1$n$b;->b:Lio/grpc/internal/f1$n;
 
     iget-object v0, v0, Lio/grpc/internal/f1$n;->d:Lio/grpc/internal/f1;
@@ -172,7 +161,6 @@
 
     invoke-virtual {v0}, Lio/grpc/internal/f1$m;->d()V
 
-    .line 11
     iget-object v0, p0, Lio/grpc/internal/f1$n$b;->b:Lio/grpc/internal/f1$n;
 
     iget-object v0, v0, Lio/grpc/internal/f1$n;->d:Lio/grpc/internal/f1;
@@ -187,14 +175,12 @@
 
     if-nez v0, :cond_3
 
-    .line 12
     iget-object v0, p0, Lio/grpc/internal/f1$n$b;->b:Lio/grpc/internal/f1$n;
 
     iget-object v0, v0, Lio/grpc/internal/f1$n;->d:Lio/grpc/internal/f1;
 
     invoke-static {v0, v3}, Lio/grpc/internal/f1;->o(Lio/grpc/internal/f1;Lio/grpc/internal/y;)Lio/grpc/internal/y;
 
-    .line 13
     iget-object v0, p0, Lio/grpc/internal/f1$n$b;->b:Lio/grpc/internal/f1$n;
 
     iget-object v0, v0, Lio/grpc/internal/f1$n;->d:Lio/grpc/internal/f1;
@@ -205,7 +191,6 @@
 
     invoke-virtual {v0}, Lio/grpc/internal/f1$m;->g()V
 
-    .line 14
     iget-object v0, p0, Lio/grpc/internal/f1$n$b;->b:Lio/grpc/internal/f1$n;
 
     iget-object v0, v0, Lio/grpc/internal/f1$n;->d:Lio/grpc/internal/f1;
@@ -216,7 +201,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_3
     iget-object v0, p0, Lio/grpc/internal/f1$n$b;->b:Lio/grpc/internal/f1$n;
 

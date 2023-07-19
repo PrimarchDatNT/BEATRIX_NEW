@@ -11,12 +11,10 @@
 .method public constructor <init>(Lorg/apache/http/entity/ContentProducer;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/http/entity/AbstractHttpEntity;-><init>()V
 
     const-string v0, "Content producer"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -38,15 +36,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
-    .line 2
     invoke-virtual {p0, v0}, Lorg/apache/http/entity/EntityTemplate;->writeTo(Ljava/io/OutputStream;)V
 
-    .line 3
     new-instance v1, Ljava/io/ByteArrayInputStream;
 
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
@@ -92,10 +87,8 @@
 
     const-string v0, "Output stream"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/entity/EntityTemplate;->contentproducer:Lorg/apache/http/entity/ContentProducer;
 
     invoke-interface {v0, p1}, Lorg/apache/http/entity/ContentProducer;->writeTo(Ljava/io/OutputStream;)V

@@ -50,16 +50,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/r1$c;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/l2;->a:Lio/grpc/MethodDescriptor;
 
-    .line 3
     iput-object p2, p0, Lio/grpc/internal/l2;->b:Lio/grpc/a;
 
-    .line 4
     iput-object p3, p0, Lio/grpc/internal/l2;->c:Ljava/lang/String;
 
     return-void
@@ -70,7 +66,6 @@
 .method public a()Lio/grpc/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l2;->b:Lio/grpc/a;
 
     return-object v0
@@ -81,7 +76,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l2;->c:Ljava/lang/String;
 
     return-object v0
@@ -97,7 +91,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l2;->a:Lio/grpc/MethodDescriptor;
 
     return-object v0
@@ -106,7 +99,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lio/grpc/internal/l2;
 
     const/4 v1, 0x0
@@ -115,11 +107,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lio/grpc/internal/l2;
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/l2;->a:Lio/grpc/MethodDescriptor;
 
     iget-object v2, p1, Lio/grpc/internal/l2;->a:Lio/grpc/MethodDescriptor;
@@ -134,7 +124,6 @@
 
     iget-object v2, p1, Lio/grpc/internal/l2;->b:Lio/grpc/a;
 
-    .line 4
     invoke-static {v0, v2}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
@@ -145,7 +134,6 @@
 
     iget-object p1, p1, Lio/grpc/internal/l2;->c:Ljava/lang/String;
 
-    .line 5
     invoke-static {v0, p1}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -165,7 +153,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lio/grpc/internal/l2;->a:Lio/grpc/MethodDescriptor;
 
     const/4 v2, 0x0

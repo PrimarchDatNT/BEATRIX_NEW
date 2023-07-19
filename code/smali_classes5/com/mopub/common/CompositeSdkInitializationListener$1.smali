@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/common/CompositeSdkInitializationListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/CompositeSdkInitializationListener$1;->this$0:Lcom/mopub/common/CompositeSdkInitializationListener;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/CompositeSdkInitializationListener$1;->this$0:Lcom/mopub/common/CompositeSdkInitializationListener;
 
     invoke-static {v0}, Lcom/mopub/common/CompositeSdkInitializationListener;->access$000(Lcom/mopub/common/CompositeSdkInitializationListener;)Lcom/mopub/common/SdkInitializationListener;
@@ -47,7 +45,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/CompositeSdkInitializationListener$1;->this$0:Lcom/mopub/common/CompositeSdkInitializationListener;
 
     invoke-static {v0}, Lcom/mopub/common/CompositeSdkInitializationListener;->access$000(Lcom/mopub/common/CompositeSdkInitializationListener;)Lcom/mopub/common/SdkInitializationListener;
@@ -56,7 +53,6 @@
 
     invoke-interface {v0}, Lcom/mopub/common/SdkInitializationListener;->onInitializationFinished()V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/common/CompositeSdkInitializationListener$1;->this$0:Lcom/mopub/common/CompositeSdkInitializationListener;
 
     const/4 v1, 0x0

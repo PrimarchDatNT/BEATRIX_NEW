@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$windowManager$2;->this$0:Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;
 
     const-string/jumbo v2, "window"
@@ -91,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$windowManager$2;->invoke()Landroid/view/WindowManager;
 
     move-result-object v1

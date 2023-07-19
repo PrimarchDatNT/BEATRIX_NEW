@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/google/common/reflect/TypeToken$TypeFilter$1;
 
     const-string v1, "IGNORE_TYPE_VARIABLE_OR_WILDCARD"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/google/common/reflect/TypeToken$TypeFilter;->IGNORE_TYPE_VARIABLE_OR_WILDCARD:Lcom/google/common/reflect/TypeToken$TypeFilter;
 
-    .line 2
     new-instance v1, Lcom/google/common/reflect/TypeToken$TypeFilter$2;
 
     const-string v3, "INTERFACE_ONLY"
@@ -70,7 +68,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/google/common/reflect/TypeToken$TypeFilter;->$VALUES:[Lcom/google/common/reflect/TypeToken$TypeFilter;
 
     return-void
@@ -84,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -93,7 +89,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;ILcom/google/common/reflect/TypeToken$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/google/common/reflect/TypeToken$TypeFilter;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -102,7 +97,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/reflect/TypeToken$TypeFilter;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/reflect/TypeToken$TypeFilter;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -117,7 +111,6 @@
 .method public static values()[Lcom/google/common/reflect/TypeToken$TypeFilter;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/reflect/TypeToken$TypeFilter;->$VALUES:[Lcom/google/common/reflect/TypeToken$TypeFilter;
 
     invoke-virtual {v0}, [Lcom/google/common/reflect/TypeToken$TypeFilter;->clone()Ljava/lang/Object;

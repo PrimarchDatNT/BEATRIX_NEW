@@ -26,10 +26,8 @@
 .method public final call()Ljava/lang/Object;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ob1;->a:Lcom/google/android/gms/internal/ads/pb1;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/mb1;
 
     iget-object v2, v0, Lcom/google/android/gms/internal/ads/pb1;->a:Lcom/google/android/gms/internal/ads/ak2;

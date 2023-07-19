@@ -42,10 +42,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_auth/a3;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/k4$c;->b:Lcom/google/android/gms/internal/firebase_auth/k4;
 
     return-void
@@ -61,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/k4$c;->b:Lcom/google/android/gms/internal/firebase_auth/k4;
 
     invoke-static {v0, p1, p2}, Lcom/google/android/gms/internal/firebase_auth/k4;->j(Lcom/google/android/gms/internal/firebase_auth/k4;Lcom/google/android/gms/internal/firebase_auth/l3;Lcom/google/android/gms/internal/firebase_auth/z3;)Lcom/google/android/gms/internal/firebase_auth/k4;

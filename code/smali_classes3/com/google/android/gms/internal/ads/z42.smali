@@ -36,7 +36,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/ads/z42;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/l52;->b(Ljava/lang/Class;)Lcom/google/android/gms/internal/ads/l52;
@@ -51,28 +50,22 @@
 .method protected constructor <init>(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, -0x1
 
-    .line 2
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/z42;->J:J
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/z42;->L:Ljava/nio/ByteBuffer;
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/z42;->a:Ljava/lang/String;
 
     const/4 p1, 0x1
 
-    .line 5
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/z42;->d:Z
 
-    .line 6
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/z42;->c:Z
 
     return-void
@@ -83,7 +76,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/z42;->d:Z
     :try_end_0
@@ -91,16 +83,13 @@
 
     if-nez v0, :cond_1
 
-    .line 2
     :try_start_1
     sget-object v0, Lcom/google/android/gms/internal/ads/z42;->M:Lcom/google/android/gms/internal/ads/l52;
 
     const-string v1, "mem mapping "
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/z42;->a:Ljava/lang/String;
 
-    .line 4
     invoke-static {v2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -127,7 +116,6 @@
     :goto_0
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/l52;->a(Ljava/lang/String;)V
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/z42;->K:Lcom/google/android/gms/internal/ads/f52;
 
     iget-wide v1, p0, Lcom/google/android/gms/internal/ads/z42;->g:J
@@ -145,7 +133,6 @@
 
     const/4 v0, 0x1
 
-    .line 6
     :try_start_2
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/z42;->d:Z
 
@@ -154,7 +141,6 @@
     :catch_0
     move-exception v0
 
-    .line 7
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -163,7 +149,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 8
     :cond_1
     :goto_1
     monitor-exit p0
@@ -183,7 +168,6 @@
 .method public final a(Lcom/google/android/gms/internal/ads/c70;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/z42;->b:Lcom/google/android/gms/internal/ads/c70;
 
     return-void
@@ -197,14 +181,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/f52;->O2()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/z42;->g:J
 
-    .line 2
     invoke-virtual {p2}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result p2
@@ -215,13 +197,10 @@
 
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/z42;->p:J
 
-    .line 3
     iput-wide p3, p0, Lcom/google/android/gms/internal/ads/z42;->J:J
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/z42;->K:Lcom/google/android/gms/internal/ads/f52;
 
-    .line 5
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/f52;->O2()J
 
     move-result-wide v0
@@ -232,13 +211,10 @@
 
     const/4 p1, 0x0
 
-    .line 6
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/z42;->d:Z
 
-    .line 7
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/z42;->c:Z
 
-    .line 8
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/z42;->d()V
 
     return-void
@@ -249,19 +225,15 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/z42;->c()V
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/internal/ads/z42;->M:Lcom/google/android/gms/internal/ads/l52;
 
     const-string v1, "parsing details of "
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/z42;->a:Ljava/lang/String;
 
-    .line 4
     invoke-static {v2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -288,30 +260,24 @@
     :goto_0
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/l52;->a(Ljava/lang/String;)V
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/z42;->f:Ljava/nio/ByteBuffer;
 
     if-eqz v0, :cond_2
 
     const/4 v1, 0x1
 
-    .line 6
     iput-boolean v1, p0, Lcom/google/android/gms/internal/ads/z42;->c:Z
 
-    .line 7
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
-    .line 8
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/z42;->e(Ljava/nio/ByteBuffer;)V
 
-    .line 9
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v1
 
     if-lez v1, :cond_1
 
-    .line 10
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->slice()Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -321,12 +287,10 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 11
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/z42;->f:Ljava/nio/ByteBuffer;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 12
     :cond_2
     monitor-exit p0
 
@@ -346,7 +310,6 @@
 .method public final getType()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/z42;->a:Ljava/lang/String;
 
     return-object v0

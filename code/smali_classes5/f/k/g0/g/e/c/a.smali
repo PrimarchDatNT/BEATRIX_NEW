@@ -14,17 +14,14 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/util/concurrent/ExecutorService;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lf/k/g0/g/b;->b()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     new-instance v0, Lf/k/g0/g/e/c/b;
 
     invoke-direct {v0, p1, p2}, Lf/k/g0/g/e/c/b;-><init>(Landroid/content/Context;Ljava/util/concurrent/ExecutorService;)V
@@ -33,7 +30,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Lf/k/g0/g/e/c/c;
 
@@ -65,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/e/c/a;->a:Lf/k/g0/g/e/b;
 
     invoke-interface {v1}, Lf/k/g0/g/e/b;->get()Lcom/google/android/gms/tasks/k;
@@ -86,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "adid"
@@ -101,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/e/c/a;->a:Lf/k/g0/g/e/b;
 
     invoke-interface {v1}, Lf/k/g0/g/e/b;->isEnabled()Z

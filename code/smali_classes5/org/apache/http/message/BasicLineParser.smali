@@ -28,14 +28,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/message/BasicLineParser;
 
     invoke-direct {v0}, Lorg/apache/http/message/BasicLineParser;-><init>()V
 
     sput-object v0, Lorg/apache/http/message/BasicLineParser;->DEFAULT:Lorg/apache/http/message/BasicLineParser;
 
-    .line 2
     new-instance v0, Lorg/apache/http/message/BasicLineParser;
 
     invoke-direct {v0}, Lorg/apache/http/message/BasicLineParser;-><init>()V
@@ -50,7 +48,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-direct {p0, v0}, Lorg/apache/http/message/BasicLineParser;-><init>(Lorg/apache/http/ProtocolVersion;)V
 
     return-void
@@ -59,14 +56,12 @@
 .method public constructor <init>(Lorg/apache/http/ProtocolVersion;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-eqz p1, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object p1, Lorg/apache/http/HttpVersion;->HTTP_1_1:Lorg/apache/http/HttpVersion;
 
@@ -86,10 +81,8 @@
 
     const-string v0, "Value"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -98,14 +91,12 @@
 
     invoke-direct {v0, v1}, Lorg/apache/http/util/CharArrayBuffer;-><init>(I)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lorg/apache/http/util/CharArrayBuffer;->append(Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object p1, Lorg/apache/http/message/BasicLineParser;->INSTANCE:Lorg/apache/http/message/BasicLineParser;
 
@@ -127,10 +118,8 @@
 
     const-string v0, "Value"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -139,10 +128,8 @@
 
     invoke-direct {v0, v1}, Lorg/apache/http/util/CharArrayBuffer;-><init>(I)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lorg/apache/http/util/CharArrayBuffer;->append(Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Lorg/apache/http/message/ParserCursor;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -157,7 +144,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object p1, Lorg/apache/http/message/BasicLineParser;->INSTANCE:Lorg/apache/http/message/BasicLineParser;
 
@@ -179,10 +165,8 @@
 
     const-string v0, "Value"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -191,10 +175,8 @@
 
     invoke-direct {v0, v1}, Lorg/apache/http/util/CharArrayBuffer;-><init>(I)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lorg/apache/http/util/CharArrayBuffer;->append(Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Lorg/apache/http/message/ParserCursor;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -209,7 +191,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object p1, Lorg/apache/http/message/BasicLineParser;->INSTANCE:Lorg/apache/http/message/BasicLineParser;
 
@@ -231,10 +212,8 @@
 
     const-string v0, "Value"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -243,10 +222,8 @@
 
     invoke-direct {v0, v1}, Lorg/apache/http/util/CharArrayBuffer;-><init>(I)V
 
-    .line 3
     invoke-virtual {v0, p0}, Lorg/apache/http/util/CharArrayBuffer;->append(Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Lorg/apache/http/message/ParserCursor;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -261,7 +238,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object p1, Lorg/apache/http/message/BasicLineParser;->INSTANCE:Lorg/apache/http/message/BasicLineParser;
 
@@ -278,7 +254,6 @@
 .method protected createProtocolVersion(II)Lorg/apache/http/ProtocolVersion;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicLineParser;->protocol:Lorg/apache/http/ProtocolVersion;
 
     invoke-virtual {v0, p1, p2}, Lorg/apache/http/ProtocolVersion;->forVersion(II)Lorg/apache/http/ProtocolVersion;
@@ -291,7 +266,6 @@
 .method protected createRequestLine(Ljava/lang/String;Ljava/lang/String;Lorg/apache/http/ProtocolVersion;)Lorg/apache/http/RequestLine;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/message/BasicRequestLine;
 
     invoke-direct {v0, p1, p2, p3}, Lorg/apache/http/message/BasicRequestLine;-><init>(Ljava/lang/String;Ljava/lang/String;Lorg/apache/http/ProtocolVersion;)V
@@ -302,7 +276,6 @@
 .method protected createStatusLine(Lorg/apache/http/ProtocolVersion;ILjava/lang/String;)Lorg/apache/http/StatusLine;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/message/BasicStatusLine;
 
     invoke-direct {v0, p1, p2, p3}, Lorg/apache/http/message/BasicStatusLine;-><init>(Lorg/apache/http/ProtocolVersion;ILjava/lang/String;)V
@@ -315,32 +288,26 @@
 
     const-string v0, "Char array buffer"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Parser cursor"
 
-    .line 2
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result p2
 
-    .line 4
     iget-object v0, p0, Lorg/apache/http/message/BasicLineParser;->protocol:Lorg/apache/http/ProtocolVersion;
 
     invoke-virtual {v0}, Lorg/apache/http/ProtocolVersion;->getProtocol()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 6
     invoke-virtual {p1}, Lorg/apache/http/util/CharArrayBuffer;->length()I
 
     move-result v2
@@ -356,7 +323,6 @@
     :cond_0
     if-gez p2, :cond_1
 
-    .line 7
     invoke-virtual {p1}, Lorg/apache/http/util/CharArrayBuffer;->length()I
 
     move-result p2
@@ -370,7 +336,6 @@
     :cond_1
     if-nez p2, :cond_2
 
-    .line 8
     :goto_0
     invoke-virtual {p1}, Lorg/apache/http/util/CharArrayBuffer;->length()I
 
@@ -398,7 +363,6 @@
 
     add-int/lit8 v3, v2, 0x4
 
-    .line 9
     invoke-virtual {p1}, Lorg/apache/http/util/CharArrayBuffer;->length()I
 
     move-result v5
@@ -421,7 +385,6 @@
 
     add-int v5, p2, v6
 
-    .line 10
     invoke-virtual {p1, v5}, Lorg/apache/http/util/CharArrayBuffer;->charAt(I)C
 
     move-result v5
@@ -447,7 +410,6 @@
     :cond_5
     if-eqz v5, :cond_7
 
-    .line 11
     invoke-virtual {p1, v2}, Lorg/apache/http/util/CharArrayBuffer;->charAt(I)C
 
     move-result p1
@@ -473,7 +435,6 @@
         }
     .end annotation
 
-    .line 5
     new-instance v0, Lorg/apache/http/message/BufferedHeader;
 
     invoke-direct {v0, p1}, Lorg/apache/http/message/BufferedHeader;-><init>(Lorg/apache/http/util/CharArrayBuffer;)V
@@ -491,40 +452,32 @@
 
     const-string v0, "Char array buffer"
 
-    .line 6
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Parser cursor"
 
-    .line 7
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 8
     iget-object v0, p0, Lorg/apache/http/message/BasicLineParser;->protocol:Lorg/apache/http/ProtocolVersion;
 
     invoke-virtual {v0}, Lorg/apache/http/ProtocolVersion;->getProtocol()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 9
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 10
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v2
 
-    .line 11
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getUpperBound()I
 
     move-result v3
 
-    .line 12
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/BasicLineParser;->skipWhitespace(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)V
 
-    .line 13
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v4
@@ -552,7 +505,6 @@
 
     add-int v9, v4, v10
 
-    .line 14
     invoke-virtual {p1, v9}, Lorg/apache/http/util/CharArrayBuffer;->charAt(I)C
 
     move-result v9
@@ -578,7 +530,6 @@
     :cond_1
     if-eqz v9, :cond_3
 
-    .line 15
     invoke-virtual {p1, v5}, Lorg/apache/http/util/CharArrayBuffer;->charAt(I)C
 
     move-result v0
@@ -601,7 +552,6 @@
 
     const/16 v0, 0x2e
 
-    .line 16
     invoke-virtual {p1, v0, v4, v3}, Lorg/apache/http/util/CharArrayBuffer;->indexOf(III)I
 
     move-result v0
@@ -610,7 +560,6 @@
 
     if-eq v0, v1, :cond_5
 
-    .line 17
     :try_start_0
     invoke-virtual {p1, v4, v0}, Lorg/apache/http/util/CharArrayBuffer;->substringTrimmed(II)Ljava/lang/String;
 
@@ -626,7 +575,6 @@
 
     const/16 v5, 0x20
 
-    .line 18
     invoke-virtual {p1, v5, v0, v3}, Lorg/apache/http/util/CharArrayBuffer;->indexOf(III)I
 
     move-result v5
@@ -635,7 +583,6 @@
 
     move v5, v3
 
-    .line 19
     :cond_4
     :try_start_1
     invoke-virtual {p1, v0, v5}, Lorg/apache/http/util/CharArrayBuffer;->substringTrimmed(II)Ljava/lang/String;
@@ -648,17 +595,14 @@
     :try_end_1
     .catch Ljava/lang/NumberFormatException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 20
     invoke-virtual {p2, v5}, Lorg/apache/http/message/ParserCursor;->updatePos(I)V
 
-    .line 21
     invoke-virtual {p0, v4, p1}, Lorg/apache/http/message/BasicLineParser;->createProtocolVersion(II)Lorg/apache/http/ProtocolVersion;
 
     move-result-object p1
 
     return-object p1
 
-    .line 22
     :catch_0
     new-instance p2, Lorg/apache/http/ParseException;
 
@@ -684,7 +628,6 @@
 
     throw p2
 
-    .line 23
     :catch_1
     new-instance p2, Lorg/apache/http/ParseException;
 
@@ -710,7 +653,6 @@
 
     throw p2
 
-    .line 24
     :cond_5
     new-instance p2, Lorg/apache/http/ParseException;
 
@@ -736,7 +678,6 @@
 
     throw p2
 
-    .line 25
     :cond_6
     new-instance p2, Lorg/apache/http/ParseException;
 
@@ -760,7 +701,6 @@
 
     throw p2
 
-    .line 26
     :cond_7
     new-instance p2, Lorg/apache/http/ParseException;
 
@@ -797,96 +737,77 @@
 
     const-string v1, "Char array buffer"
 
-    .line 6
     invoke-static {p1, v1}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v1, "Parser cursor"
 
-    .line 7
     invoke-static {p2, v1}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 8
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v1
 
-    .line 9
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getUpperBound()I
 
     move-result v2
 
-    .line 10
     :try_start_0
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/BasicLineParser;->skipWhitespace(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)V
 
-    .line 11
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v3
 
     const/16 v4, 0x20
 
-    .line 12
     invoke-virtual {p1, v4, v3, v2}, Lorg/apache/http/util/CharArrayBuffer;->indexOf(III)I
 
     move-result v5
 
     if-ltz v5, :cond_2
 
-    .line 13
     invoke-virtual {p1, v3, v5}, Lorg/apache/http/util/CharArrayBuffer;->substringTrimmed(II)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 14
     invoke-virtual {p2, v5}, Lorg/apache/http/message/ParserCursor;->updatePos(I)V
 
-    .line 15
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/BasicLineParser;->skipWhitespace(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)V
 
-    .line 16
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v5
 
-    .line 17
     invoke-virtual {p1, v4, v5, v2}, Lorg/apache/http/util/CharArrayBuffer;->indexOf(III)I
 
     move-result v4
 
     if-ltz v4, :cond_1
 
-    .line 18
     invoke-virtual {p1, v5, v4}, Lorg/apache/http/util/CharArrayBuffer;->substringTrimmed(II)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 19
     invoke-virtual {p2, v4}, Lorg/apache/http/message/ParserCursor;->updatePos(I)V
 
-    .line 20
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/BasicLineParser;->parseProtocolVersion(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)Lorg/apache/http/ProtocolVersion;
 
     move-result-object v4
 
-    .line 21
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/BasicLineParser;->skipWhitespace(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)V
 
-    .line 22
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->atEnd()Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    .line 23
     invoke-virtual {p0, v3, v5, v4}, Lorg/apache/http/message/BasicLineParser;->createRequestLine(Ljava/lang/String;Ljava/lang/String;Lorg/apache/http/ProtocolVersion;)Lorg/apache/http/RequestLine;
 
     move-result-object p1
 
     return-object p1
 
-    .line 24
     :cond_0
     new-instance p2, Lorg/apache/http/ParseException;
 
@@ -910,7 +831,6 @@
 
     throw p2
 
-    .line 25
     :cond_1
     new-instance p2, Lorg/apache/http/ParseException;
 
@@ -934,7 +854,6 @@
 
     throw p2
 
-    .line 26
     :cond_2
     new-instance p2, Lorg/apache/http/ParseException;
 
@@ -960,7 +879,6 @@
     :try_end_0
     .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 27
     :catch_0
     new-instance p2, Lorg/apache/http/ParseException;
 
@@ -995,41 +913,33 @@
 
     const-string v0, "Char array buffer"
 
-    .line 6
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Parser cursor"
 
-    .line 7
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 8
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v0
 
-    .line 9
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getUpperBound()I
 
     move-result v1
 
-    .line 10
     :try_start_0
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/BasicLineParser;->parseProtocolVersion(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)Lorg/apache/http/ProtocolVersion;
 
     move-result-object v2
 
-    .line 11
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/message/BasicLineParser;->skipWhitespace(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)V
 
-    .line 12
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result p2
 
     const/16 v3, 0x20
 
-    .line 13
     invoke-virtual {p1, v3, p2, v1}, Lorg/apache/http/util/CharArrayBuffer;->indexOf(III)I
 
     move-result v3
@@ -1038,7 +948,6 @@
 
     move v3, v1
 
-    .line 14
     :cond_0
     invoke-virtual {p1, p2, v3}, Lorg/apache/http/util/CharArrayBuffer;->substringTrimmed(II)Ljava/lang/String;
 
@@ -1046,7 +955,6 @@
 
     const/4 v4, 0x0
 
-    .line 15
     :goto_0
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
@@ -1058,7 +966,6 @@
 
     if-ge v4, v5, :cond_2
 
-    .line 16
     :try_start_1
     invoke-virtual {p2, v4}, Ljava/lang/String;->charAt(I)C
 
@@ -1074,7 +981,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_1
     new-instance p2, Lorg/apache/http/ParseException;
 
@@ -1100,7 +1006,6 @@
     :try_end_1
     .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 18
     :cond_2
     :try_start_2
     invoke-static {p2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -1112,7 +1017,6 @@
 
     if-ge v3, v1, :cond_3
 
-    .line 19
     :try_start_3
     invoke-virtual {p1, v3, v1}, Lorg/apache/http/util/CharArrayBuffer;->substringTrimmed(II)Ljava/lang/String;
 
@@ -1123,7 +1027,6 @@
     :cond_3
     const-string v3, ""
 
-    .line 20
     :goto_1
     invoke-virtual {p0, v2, p2, v3}, Lorg/apache/http/message/BasicLineParser;->createStatusLine(Lorg/apache/http/ProtocolVersion;ILjava/lang/String;)Lorg/apache/http/StatusLine;
 
@@ -1131,7 +1034,6 @@
 
     return-object p1
 
-    .line 21
     :catch_0
     new-instance p2, Lorg/apache/http/ParseException;
 
@@ -1157,7 +1059,6 @@
     :try_end_3
     .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_3 .. :try_end_3} :catch_1
 
-    .line 22
     :catch_1
     new-instance p2, Lorg/apache/http/ParseException;
 
@@ -1187,12 +1088,10 @@
 .method protected skipWhitespace(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getPos()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p2}, Lorg/apache/http/message/ParserCursor;->getUpperBound()I
 
     move-result v1
@@ -1200,7 +1099,6 @@
     :goto_0
     if-ge v0, v1, :cond_0
 
-    .line 3
     invoke-virtual {p1, v0}, Lorg/apache/http/util/CharArrayBuffer;->charAt(I)C
 
     move-result v2
@@ -1215,7 +1113,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p2, v0}, Lorg/apache/http/message/ParserCursor;->updatePos(I)V
 

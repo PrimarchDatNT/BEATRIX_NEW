@@ -14,7 +14,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;->onActivityResult(IILandroid/content/Intent;)V
 
     const-string v0, "ProxyBillingActivity"
@@ -38,7 +36,6 @@
 
     if-ne p1, v1, :cond_3
 
-    .line 2
     invoke-static {p3, v0}, Lf/f/b/b/h/e/b;->a(Landroid/content/Intent;Ljava/lang/String;)I
 
     move-result p1
@@ -52,7 +49,6 @@
     :cond_0
     const/16 v1, 0x55
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -75,7 +71,6 @@
 
     invoke-static {v0, p2}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_1
     iget-object p2, p0, Lcom/android/billingclient/api/ProxyBillingActivity;->a:Landroid/os/ResultReceiver;
 
@@ -98,7 +93,6 @@
     :cond_3
     const/16 p2, 0x45
 
-    .line 5
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3, p2}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -119,7 +113,6 @@
 
     invoke-static {v0, p1}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     :goto_1
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
@@ -133,7 +126,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
     const-string v0, "result_receiver"
@@ -144,10 +136,8 @@
 
     const-string p1, "Launching Play Store billing flow"
 
-    .line 2
     invoke-static {v1, p1}, Lf/f/b/b/h/e/b;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -160,7 +150,6 @@
 
     iput-object p1, p0, Lcom/android/billingclient/api/ProxyBillingActivity;->a:Landroid/os/ResultReceiver;
 
-    .line 4
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -175,7 +164,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -188,7 +176,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
@@ -202,7 +189,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 7
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -218,7 +204,6 @@
     :cond_1
     move-object p1, v2
 
-    .line 8
     :goto_0
     :try_start_0
     invoke-virtual {p1}, Landroid/app/PendingIntent;->getIntentSender()Landroid/content/IntentSender;
@@ -239,7 +224,6 @@
 
     move-object v3, p0
 
-    .line 9
     invoke-virtual/range {v3 .. v9}, Landroid/app/Activity;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;III)V
     :try_end_0
     .catch Landroid/content/IntentSender$SendIntentException; {:try_start_0 .. :try_end_0} :catch_0
@@ -249,7 +233,6 @@
     :catch_0
     move-exception p1
 
-    .line 10
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -280,14 +263,12 @@
 
     invoke-static {v1, p1}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     iget-object p1, p0, Lcom/android/billingclient/api/ProxyBillingActivity;->a:Landroid/os/ResultReceiver;
 
     const/4 v0, 0x6
 
     invoke-virtual {p1, v0, v2}, Landroid/os/ResultReceiver;->send(ILandroid/os/Bundle;)V
 
-    .line 12
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
@@ -295,10 +276,8 @@
     :cond_2
     const-string v2, "Launching Play Store billing flow from savedInstanceState"
 
-    .line 13
     invoke-static {v1, v2}, Lf/f/b/b/h/e/b;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
     move-result-object p1
@@ -317,7 +296,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/ProxyBillingActivity;->a:Landroid/os/ResultReceiver;
 
     const-string v1, "result_receiver"

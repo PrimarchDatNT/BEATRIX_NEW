@@ -27,7 +27,6 @@
 .method constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/NativeRendererHelper$1;->val$context:Landroid/content/Context;
 
     iput-object p2, p0, Lcom/mopub/nativeads/NativeRendererHelper$1;->val$privacyInformationClickthroughUrl:Ljava/lang/String;
@@ -42,7 +41,6 @@
 .method public onClick(Landroid/view/View;)V
     .locals 4
 
-    .line 1
     new-instance p1, Lcom/mopub/common/UrlHandler$Builder;
 
     invoke-direct {p1}, Lcom/mopub/common/UrlHandler$Builder;-><init>()V
@@ -83,12 +81,10 @@
 
     aput-object v2, v1, v3
 
-    .line 2
     invoke-virtual {p1, v0, v1}, Lcom/mopub/common/UrlHandler$Builder;->withSupportedUrlActions(Lcom/mopub/common/UrlAction;[Lcom/mopub/common/UrlAction;)Lcom/mopub/common/UrlHandler$Builder;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/common/UrlHandler$Builder;->build()Lcom/mopub/common/UrlHandler;
 
     move-result-object p1

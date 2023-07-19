@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlin/f2/a;
 
     invoke-direct {v0}, Lcotlin/f2/a;-><init>()V
@@ -30,7 +29,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/f2/b;
 
     invoke-direct {v0}, Lcotlin/f2/b;-><init>()V
@@ -92,7 +89,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/f2/a$a;
 
     invoke-direct {v0, p2, p1, p1}, Lcotlin/f2/a$a;-><init>(Lcotlin/jvm/u/q;Ljava/lang/Object;Ljava/lang/Object;)V
@@ -130,7 +126,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/f2/a$b;
 
     invoke-direct {v0, p2, p1, p1}, Lcotlin/f2/a$b;-><init>(Lcotlin/jvm/u/q;Ljava/lang/Object;Ljava/lang/Object;)V

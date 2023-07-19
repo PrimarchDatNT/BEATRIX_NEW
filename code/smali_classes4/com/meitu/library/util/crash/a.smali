@@ -25,7 +25,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/util/crash/a;
 
     invoke-direct {v1}, Lcom/meitu/library/util/crash/a;-><init>()V
@@ -40,7 +39,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -86,7 +84,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
@@ -101,7 +98,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_4
     .catchall {:try_start_0 .. :try_end_0} :catchall_3
 
-    .line 2
     :try_start_1
     new-instance v3, Ljava/io/DataOutputStream;
 
@@ -118,7 +114,6 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_3
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
-    .line 3
     :try_start_2
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
@@ -139,7 +134,6 @@
 
     const-string v5, "command"
 
-    .line 4
     invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v5, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
@@ -158,15 +152,12 @@
 
     const-string v4, "\n"
 
-    .line 5
     invoke-virtual {v3, v4}, Ljava/io/DataOutputStream;->writeBytes(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v3}, Ljava/io/DataOutputStream;->flush()V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -181,13 +172,10 @@
     :cond_1
     const-string p1, "exit\n"
 
-    .line 8
     invoke-virtual {v3, p1}, Ljava/io/DataOutputStream;->writeBytes(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v3}, Ljava/io/DataOutputStream;->flush()V
 
-    .line 10
     new-instance p1, Ljava/io/BufferedReader;
 
     new-instance v4, Ljava/io/InputStreamReader;
@@ -203,13 +191,11 @@
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 11
     :try_start_3
     new-instance v1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    .line 12
     :cond_2
     :goto_1
     invoke-virtual {p1}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -220,12 +206,10 @@
 
     if-eqz v4, :cond_3
 
-    .line 13
     check-cast v4, Ljava/lang/String;
 
     if-eqz v4, :cond_2
 
-    .line 14
     invoke-interface {p2, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
@@ -233,12 +217,10 @@
 
     goto :goto_1
 
-    .line 15
     :cond_3
     :try_start_4
     invoke-virtual {v3}, Ljava/io/DataOutputStream;->close()V
 
-    .line 16
     invoke-virtual {p1}, Ljava/io/BufferedReader;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_0
@@ -248,10 +230,8 @@
     :catch_0
     move-exception p1
 
-    .line 17
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 18
     :goto_2
     invoke-virtual {v2}, Ljava/lang/Process;->destroy()V
 
@@ -331,7 +311,6 @@
 
     move-object v2, p2
 
-    .line 19
     :goto_3
     :try_start_5
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
@@ -340,7 +319,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 20
     :try_start_6
     invoke-virtual {v1}, Ljava/io/DataOutputStream;->close()V
 
@@ -355,14 +333,12 @@
     :goto_4
     if-eqz p2, :cond_5
 
-    .line 21
     invoke-virtual {p2}, Ljava/io/BufferedReader;->close()V
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_5
 
     goto :goto_6
 
-    .line 22
     :goto_5
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
@@ -372,7 +348,6 @@
 
     goto :goto_2
 
-    .line 23
     :cond_6
     :goto_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -385,7 +360,6 @@
     :goto_8
     if-eqz v1, :cond_7
 
-    .line 24
     :try_start_7
     invoke-virtual {v1}, Ljava/io/DataOutputStream;->close()V
 
@@ -400,14 +374,12 @@
     :goto_9
     if-eqz p2, :cond_8
 
-    .line 25
     invoke-virtual {p2}, Ljava/io/BufferedReader;->close()V
     :try_end_7
     .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_6
 
     goto :goto_b
 
-    .line 26
     :goto_a
     invoke-virtual {p2}, Ljava/io/IOException;->printStackTrace()V
 
@@ -415,7 +387,6 @@
     :goto_b
     if-eqz v2, :cond_9
 
-    .line 27
     invoke-virtual {v2}, Ljava/lang/Process;->destroy()V
 
     :cond_9

@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$j;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     const/4 v2, 0x0

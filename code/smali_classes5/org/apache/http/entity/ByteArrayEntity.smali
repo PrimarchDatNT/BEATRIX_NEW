@@ -30,7 +30,6 @@
 
     const/4 v0, 0x0
 
-    .line 17
     invoke-direct {p0, p1, v0}, Lorg/apache/http/entity/ByteArrayEntity;-><init>([BLorg/apache/http/entity/ContentType;)V
 
     return-void
@@ -41,7 +40,6 @@
 
     const/4 v0, 0x0
 
-    .line 18
     invoke-direct {p0, p1, p2, p3, v0}, Lorg/apache/http/entity/ByteArrayEntity;-><init>([BIILorg/apache/http/entity/ContentType;)V
 
     return-void
@@ -50,17 +48,14 @@
 .method public constructor <init>([BIILorg/apache/http/entity/ContentType;)V
     .locals 2
 
-    .line 8
     invoke-direct {p0}, Lorg/apache/http/entity/AbstractHttpEntity;-><init>()V
 
     const-string v0, "Source byte array"
 
-    .line 9
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     if-ltz p2, :cond_1
 
-    .line 10
     array-length v0, p1
 
     if-gt p2, v0, :cond_1
@@ -75,21 +70,16 @@
 
     if-gt v0, v1, :cond_1
 
-    .line 11
     iput-object p1, p0, Lorg/apache/http/entity/ByteArrayEntity;->content:[B
 
-    .line 12
     iput-object p1, p0, Lorg/apache/http/entity/ByteArrayEntity;->b:[B
 
-    .line 13
     iput p2, p0, Lorg/apache/http/entity/ByteArrayEntity;->off:I
 
-    .line 14
     iput p3, p0, Lorg/apache/http/entity/ByteArrayEntity;->len:I
 
     if-eqz p4, :cond_0
 
-    .line 15
     invoke-virtual {p4}, Lorg/apache/http/entity/ContentType;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -99,7 +89,6 @@
     :cond_0
     return-void
 
-    .line 16
     :cond_1
     new-instance p4, Ljava/lang/IndexOutOfBoundsException;
 
@@ -139,33 +128,26 @@
 .method public constructor <init>([BLorg/apache/http/entity/ContentType;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/http/entity/AbstractHttpEntity;-><init>()V
 
     const-string v0, "Source byte array"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lorg/apache/http/entity/ByteArrayEntity;->content:[B
 
-    .line 4
     iput-object p1, p0, Lorg/apache/http/entity/ByteArrayEntity;->b:[B
 
     const/4 v0, 0x0
 
-    .line 5
     iput v0, p0, Lorg/apache/http/entity/ByteArrayEntity;->off:I
 
-    .line 6
     array-length p1, p1
 
     iput p1, p0, Lorg/apache/http/entity/ByteArrayEntity;->len:I
 
     if-eqz p2, :cond_0
 
-    .line 7
     invoke-virtual {p2}, Lorg/apache/http/entity/ContentType;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -186,7 +168,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
@@ -197,7 +178,6 @@
 .method public getContent()Ljava/io/InputStream;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayInputStream;
 
     iget-object v1, p0, Lorg/apache/http/entity/ByteArrayEntity;->b:[B
@@ -214,7 +194,6 @@
 .method public getContentLength()J
     .locals 2
 
-    .line 1
     iget v0, p0, Lorg/apache/http/entity/ByteArrayEntity;->len:I
 
     int-to-long v0, v0
@@ -248,10 +227,8 @@
 
     const-string v0, "Output stream"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/entity/ByteArrayEntity;->b:[B
 
     iget v1, p0, Lorg/apache/http/entity/ByteArrayEntity;->off:I
@@ -260,7 +237,6 @@
 
     invoke-virtual {p1, v0, v1, v2}, Ljava/io/OutputStream;->write([BII)V
 
-    .line 3
     invoke-virtual {p1}, Ljava/io/OutputStream;->flush()V
 
     return-void

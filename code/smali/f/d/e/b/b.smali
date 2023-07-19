@@ -21,14 +21,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/d/e/b/b;
 
     invoke-direct {v1}, Lf/d/e/b/b;-><init>()V
 
     sput-object v1, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
-    .line 2
     const-class v1, Lf/d/e/b/b;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -45,7 +43,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -68,7 +65,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -83,13 +79,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p1
 
-    .line 3
     sget-object v1, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-virtual {v1, p1}, Lf/d/e/b/b;->b(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
@@ -100,10 +94,8 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -112,7 +104,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -135,7 +126,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v2
@@ -150,7 +140,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->A(Lcom/meitu/core/types/NativeBitmap;)Z
 
@@ -158,30 +147,25 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_1
     new-instance v2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    .line 5
     new-instance v3, Lf/d/e/a/m;
 
     const/4 v4, 0x0
 
     invoke-direct {v3, v4}, Lf/d/e/a/m;-><init>(I)V
 
-    .line 6
     invoke-virtual {v3}, Lf/d/e/a/m;->e()Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     move-result-object v4
 
-    .line 7
     iget-object v5, v4, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
@@ -190,7 +174,6 @@
 
     iput v6, v5, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskWidth:I
 
-    .line 8
     iget-object v4, v4, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
@@ -199,21 +182,18 @@
 
     iput v5, v4, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskHeight:I
 
-    .line 9
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v4
 
     invoke-virtual {v3, v4}, Lf/d/e/a/m;->m(Z)V
 
-    .line 10
     sget-object v4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     const-string v5, "SEGMENT_BODY"
 
     invoke-virtual {v3, v5, v4}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 11
     invoke-virtual {v3, p1, v1}, Lf/d/e/a/m;->b(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;)Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     move-result-object p1
@@ -229,10 +209,8 @@
     :cond_2
     iput-object v1, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 12
     invoke-virtual {v3}, Lf/d/e/a/m;->j()V
 
-    .line 13
     iget-object p1, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
@@ -241,7 +219,6 @@
 
     return-object p1
 
-    .line 14
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -268,7 +245,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -283,13 +259,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p1
 
-    .line 3
     sget-object v1, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-virtual {v1, p1, p2, p3}, Lf/d/e/b/b;->d(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;I)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
@@ -300,10 +274,8 @@
 
     move-result-object p2
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
@@ -312,7 +284,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -341,7 +312,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v3
@@ -356,7 +326,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->A(Lcom/meitu/core/types/NativeBitmap;)Z
 
@@ -364,30 +333,25 @@
 
     if-nez v3, :cond_1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 4
     :cond_1
     new-instance v3, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v3}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    .line 5
     new-instance v4, Lf/d/e/a/m;
 
     const/4 v5, 0x0
 
     invoke-direct {v4, v5}, Lf/d/e/a/m;-><init>(I)V
 
-    .line 6
     invoke-virtual {v4}, Lf/d/e/a/m;->e()Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     move-result-object v5
 
-    .line 7
     iget-object v6, v5, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
@@ -396,7 +360,6 @@
 
     iput v7, v6, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskWidth:I
 
-    .line 8
     iget-object v5, v5, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
@@ -405,7 +368,6 @@
 
     iput v6, v5, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskHeight:I
 
-    .line 9
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v5
@@ -418,14 +380,12 @@
 
     if-ltz p3, :cond_2
 
-    .line 10
     invoke-virtual {v4}, Lf/d/e/a/m;->g()Lf/d/e/a/j;
 
     move-result-object v6
 
     invoke-virtual {v6, p2, p3}, Lf/d/e/a/j;->j(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;I)V
 
-    .line 11
     invoke-virtual {v4, v5, v0}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
     goto :goto_0
@@ -433,10 +393,8 @@
     :cond_2
     const-string p2, "face_faceEnable"
 
-    .line 12
     invoke-virtual {v4, p2, v0}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 13
     sget-object p2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     invoke-virtual {v4, v5, p2}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
@@ -444,10 +402,8 @@
     :goto_0
     const-string p2, "SEGMENT_FACECONTOURSKIN"
 
-    .line 14
     invoke-virtual {v4, p2, v0}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 15
     invoke-virtual {v4, p1, v2}, Lf/d/e/a/m;->b(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;)Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     move-result-object p1
@@ -463,10 +419,8 @@
     :cond_3
     iput-object v2, v3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 16
     invoke-virtual {v4}, Lf/d/e/a/m;->j()V
 
-    .line 17
     iget-object p1, v3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
@@ -475,7 +429,6 @@
 
     return-object p1
 
-    .line 18
     :cond_4
     :goto_1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -498,7 +451,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -513,13 +465,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p1
 
-    .line 3
     sget-object v1, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-virtual {v1, p1}, Lf/d/e/b/b;->f(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
@@ -530,15 +480,12 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 6
     :cond_1
     :goto_0
     sget-object p1, Lf/d/e/b/b;->a:Ljava/lang/String;
@@ -549,7 +496,6 @@
 
     const/4 p1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -572,7 +518,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v2
@@ -587,7 +532,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->A(Lcom/meitu/core/types/NativeBitmap;)Z
 
@@ -595,30 +539,25 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_1
     new-instance v2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    .line 5
     new-instance v3, Lf/d/e/a/m;
 
     const/4 v4, 0x0
 
     invoke-direct {v3, v4}, Lf/d/e/a/m;-><init>(I)V
 
-    .line 6
     invoke-virtual {v3}, Lf/d/e/a/m;->e()Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     move-result-object v4
 
-    .line 7
     iget-object v5, v4, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
@@ -627,7 +566,6 @@
 
     iput v6, v5, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskWidth:I
 
-    .line 8
     iget-object v4, v4, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
@@ -636,21 +574,18 @@
 
     iput v5, v4, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskHeight:I
 
-    .line 9
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v4
 
     invoke-virtual {v3, v4}, Lf/d/e/a/m;->m(Z)V
 
-    .line 10
     sget-object v4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     const-string v5, "SEGMENT_HAIR"
 
     invoke-virtual {v3, v5, v4}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 11
     invoke-virtual {v3, p1, v1}, Lf/d/e/a/m;->b(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;)Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     move-result-object p1
@@ -666,10 +601,8 @@
     :cond_2
     iput-object v1, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 12
     invoke-virtual {v3}, Lf/d/e/a/m;->j()V
 
-    .line 13
     iget-object p1, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
@@ -678,7 +611,6 @@
 
     return-object p1
 
-    .line 14
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -701,7 +633,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -716,13 +647,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p1
 
-    .line 3
     sget-object v1, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-virtual {v1, p1}, Lf/d/e/b/b;->h(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
@@ -733,15 +662,12 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 6
     :cond_1
     :goto_0
     sget-object p1, Lf/d/e/b/b;->a:Ljava/lang/String;
@@ -752,7 +678,6 @@
 
     const/4 p1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -775,7 +700,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v2
@@ -790,7 +714,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->A(Lcom/meitu/core/types/NativeBitmap;)Z
 
@@ -798,30 +721,25 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_1
     new-instance v2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    .line 5
     new-instance v3, Lf/d/e/a/m;
 
     const/4 v4, 0x0
 
     invoke-direct {v3, v4}, Lf/d/e/a/m;-><init>(I)V
 
-    .line 6
     invoke-virtual {v3}, Lf/d/e/a/m;->e()Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     move-result-object v4
 
-    .line 7
     iget-object v5, v4, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
@@ -830,7 +748,6 @@
 
     iput v6, v5, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskWidth:I
 
-    .line 8
     iget-object v4, v4, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
@@ -839,21 +756,18 @@
 
     iput v5, v4, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskHeight:I
 
-    .line 9
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v4
 
     invoke-virtual {v3, v4}, Lf/d/e/a/m;->m(Z)V
 
-    .line 10
     sget-object v4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     const-string v5, "SEGMENT_SKIN"
 
     invoke-virtual {v3, v5, v4}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 11
     invoke-virtual {v3, p1, v1}, Lf/d/e/a/m;->b(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;)Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     move-result-object p1
@@ -869,10 +783,8 @@
     :cond_2
     iput-object v1, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 12
     invoke-virtual {v3}, Lf/d/e/a/m;->j()V
 
-    .line 13
     iget-object p1, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
@@ -881,7 +793,6 @@
 
     return-object p1
 
-    .line 14
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -906,7 +817,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v2
@@ -921,7 +831,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->A(Lcom/meitu/core/types/NativeBitmap;)Z
 
@@ -929,30 +838,25 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_1
     new-instance v2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    .line 5
     new-instance v3, Lf/d/e/a/m;
 
     const/4 v4, 0x0
 
     invoke-direct {v3, v4}, Lf/d/e/a/m;-><init>(I)V
 
-    .line 6
     invoke-virtual {v3}, Lf/d/e/a/m;->e()Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     move-result-object v4
 
-    .line 7
     iget-object v5, v4, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
@@ -961,7 +865,6 @@
 
     iput v6, v5, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskWidth:I
 
-    .line 8
     iget-object v4, v4, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
@@ -970,21 +873,18 @@
 
     iput v5, v4, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskHeight:I
 
-    .line 9
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v4
 
     invoke-virtual {v3, v4}, Lf/d/e/a/m;->m(Z)V
 
-    .line 10
     sget-object v4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     const-string v5, "SEGMENT_SKY"
 
     invoke-virtual {v3, v5, v4}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 11
     invoke-virtual {v3, p1, v1}, Lf/d/e/a/m;->b(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;)Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     move-result-object p1
@@ -1000,10 +900,8 @@
     :cond_2
     iput-object v1, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 12
     invoke-virtual {v3}, Lf/d/e/a/m;->j()V
 
-    .line 13
     iget-object p1, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
@@ -1012,7 +910,6 @@
 
     return-object p1
 
-    .line 14
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1027,7 +924,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/d/e/b/b;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1052,12 +948,10 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 2
     :cond_0
     iget v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->width:I
 
@@ -1067,14 +961,12 @@
 
     new-array v1, v1, [I
 
-    .line 3
     iget-object v2, p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->maskData:[B
 
     const-string v3, "maskData"
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     array-length v3, v2
 
     const/4 v4, 0x0
@@ -1102,7 +994,6 @@
 
     add-int/2addr v9, v6
 
-    .line 5
     aput v9, v1, v5
 
     add-int/lit8 v4, v4, 0x1
@@ -1111,7 +1002,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget v2, p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->width:I
 
@@ -1151,12 +1041,10 @@
 
     const/4 p1, -0x1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1}, Lf/d/e/b/b;->k(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;)Landroid/graphics/Bitmap;
 

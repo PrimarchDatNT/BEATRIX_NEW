@@ -41,17 +41,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/utils/opengl/GLTextureView;-><init>(Landroid/content/Context;)V
 
     const/16 p1, 0x8
 
     new-array p1, p1, [F
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/studio/MagnifyGLView;->L:[F
 
-    .line 3
     invoke-virtual {p0, p0}, Lcom/commsource/easyeditor/utils/opengl/GLTextureView;->setRenderer(Lcom/commsource/easyeditor/utils/opengl/a;)V
 
     return-void
@@ -66,15 +63,12 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 1
     invoke-static {v1, v1, v1, v1}, Landroid/opengl/GLES20;->glClearColor(FFFF)V
 
     const/16 v1, 0x4100
 
-    .line 2
     invoke-static {v1}, Landroid/opengl/GLES20;->glClear(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -87,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/TextureView;->getWidth()I
 
     move-result v1
@@ -100,7 +93,6 @@
 
     invoke-static {v3, v3, v1, v2}, Landroid/opengl/GLES20;->glViewport(IIII)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/MagnifyGLView;->J:Lcom/commsource/studio/shader/g;
 
     if-nez v1, :cond_0
@@ -114,7 +106,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/studio/shader/g;->l(Lcom/commsource/easyeditor/utils/opengl/f;[F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -133,7 +124,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -146,7 +136,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -230,7 +219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyGLView;->K:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -247,7 +235,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyGLView;->J:Lcom/commsource/studio/shader/g;
 
     if-nez v1, :cond_0
@@ -271,7 +258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyGLView;->L:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -294,7 +280,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/TextureView;->getWidth()I
 
     move-result v1
@@ -312,7 +297,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     aget v2, p1, v1
 
     div-float/2addr v2, p2
@@ -321,14 +305,12 @@
 
     int-to-float v4, v3
 
-    .line 3
     aget p1, p1, v3
 
     div-float/2addr p1, p3
 
     sub-float/2addr v4, p1
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/TextureView;->getWidth()I
 
     move-result p1
@@ -339,7 +321,6 @@
 
     div-float/2addr p1, p4
 
-    .line 5
     invoke-virtual {p0}, Landroid/view/TextureView;->getHeight()I
 
     move-result p2
@@ -350,7 +331,6 @@
 
     div-float/2addr p2, p4
 
-    .line 6
     iget-object p3, p0, Lcom/commsource/studio/MagnifyGLView;->L:[F
 
     const/4 p4, 0x2
@@ -371,22 +351,18 @@
 
     sub-float v1, v5, v1
 
-    .line 7
     aput v1, p3, v3
 
     add-float/2addr v2, p1
 
-    .line 8
     aput v2, p3, p4
 
     const/4 p1, 0x3
 
-    .line 9
     aput v1, p3, p1
 
     const/4 p1, 0x4
 
-    .line 10
     aput v6, p3, p1
 
     const/4 p1, 0x5
@@ -395,28 +371,22 @@
 
     sub-float/2addr v5, v4
 
-    .line 11
     aput v5, p3, p1
 
     const/4 p1, 0x6
 
-    .line 12
     aput v2, p3, p1
 
     const/4 p1, 0x7
 
-    .line 13
     aput v5, p3, p1
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/easyeditor/utils/opengl/GLTextureView;->d()V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -431,7 +401,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/shader/g;
 
     invoke-direct {v1}, Lcom/commsource/studio/shader/g;-><init>()V
@@ -442,13 +411,11 @@
 
     const-string v2, "imageProgram"
 
-    .line 2
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->e()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -461,7 +428,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyGLView;->J:Lcom/commsource/studio/shader/g;
 
     if-nez v1, :cond_0
@@ -473,7 +439,6 @@
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->f()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -490,21 +455,16 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v1, v2}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/MagnifyGLView;->g()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/MagnifyGLView;->K:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-direct {p0, v1}, Lcom/commsource/studio/MagnifyGLView;->h(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -518,7 +478,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -535,7 +494,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MagnifyGLView;->K:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -558,7 +516,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MagnifyGLView;->J:Lcom/commsource/studio/shader/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -581,7 +538,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MagnifyGLView;->L:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

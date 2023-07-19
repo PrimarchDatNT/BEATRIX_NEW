@@ -34,7 +34,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/base/Absent;->withType()Lcom/google/common/base/Optional;
 
     move-result-object v0
@@ -78,7 +76,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/google/common/base/Optional;->absent()Lcom/google/common/base/Optional;
 
     move-result-object p0
@@ -108,7 +105,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/base/Present;
 
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
@@ -139,10 +135,8 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/base/Optional$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/base/Optional$a;-><init>(Ljava/lang/Iterable;)V

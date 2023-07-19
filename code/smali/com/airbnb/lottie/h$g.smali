@@ -37,7 +37,6 @@
 .method constructor <init>(Lorg/json/JSONObject;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/h$g;->a:Lorg/json/JSONObject;
 
     iput-object p2, p0, Lcom/airbnb/lottie/h$g;->b:Ljava/lang/String;
@@ -60,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/h$g;->a:Lorg/json/JSONObject;
 
     iget-object v1, p0, Lcom/airbnb/lottie/h$g;->b:Ljava/lang/String;
@@ -80,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/h$g;->a()Lcom/airbnb/lottie/p;
 
     move-result-object v0

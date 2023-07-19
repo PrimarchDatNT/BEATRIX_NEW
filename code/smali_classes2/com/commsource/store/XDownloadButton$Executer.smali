@@ -59,53 +59,44 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     const/4 v0, 0x1
 
-    .line 2
     iput v0, p0, Lcom/commsource/store/XDownloadButton$Executer;->d:I
 
-    .line 3
     iput v0, p0, Lcom/commsource/store/XDownloadButton$Executer;->e:I
 
     const/16 v1, 0x30
 
-    .line 4
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v2
 
     iput v2, p0, Lcom/commsource/store/XDownloadButton$Executer;->h:F
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->i:F
 
-    .line 6
     new-instance v1, Landroid/graphics/Paint;
 
     invoke-direct {v1, v0}, Landroid/graphics/Paint;-><init>(I)V
 
     const/16 v0, 0xa
 
-    .line 7
     invoke-static {v0}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v0
 
     invoke-virtual {v1, v0}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 8
     iput-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->l:Landroid/graphics/Paint;
 
-    .line 9
     iget v0, p0, Lcom/commsource/store/XDownloadButton$Executer;->d:I
 
     invoke-direct {p0, v0}, Lcom/commsource/store/XDownloadButton$Executer;->m(I)Landroid/graphics/drawable/Drawable;
@@ -114,7 +105,6 @@
 
     iput-object v0, p0, Lcom/commsource/store/XDownloadButton$Executer;->f:Landroid/graphics/drawable/Drawable;
 
-    .line 10
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     return-void
@@ -141,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/store/XDownloadButton$Executer;->j:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -156,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/store/XDownloadButton$Executer;->h:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -171,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/store/XDownloadButton$Executer;->k:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -186,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/store/XDownloadButton$Executer;->i:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -201,7 +187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/store/XDownloadButton$Executer;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -216,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/store/XDownloadButton$Executer;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -231,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->j:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -246,7 +229,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->h:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -261,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->k:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -276,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->i:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -291,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -306,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -321,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {v1}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
@@ -351,10 +328,8 @@
     :cond_0
     const/high16 p1, 0x40000000    # 2.0f
 
-    .line 2
     invoke-virtual {v1, p1, v4}, Landroid/graphics/drawable/GradientDrawable;->setGradientCenter(FF)V
 
-    .line 3
     sget-object p1, Landroid/graphics/drawable/GradientDrawable$Orientation;->LEFT_RIGHT:Landroid/graphics/drawable/GradientDrawable$Orientation;
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/GradientDrawable;->setOrientation(Landroid/graphics/drawable/GradientDrawable$Orientation;)V
@@ -363,7 +338,6 @@
 
     sget v4, Lcom/res/provider/ResCOLOR;->color_ff48b1:I
 
-    .line 4
     invoke-static {v4}, Lcom/commsource/util/l0;->P(I)I
 
     move-result v4
@@ -393,14 +367,12 @@
     :cond_1
     sget p1, Lcom/res/provider/ResCOLOR;->black40:I
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/util/l0;->P(I)I
 
     move-result p1
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 6
     invoke-static {v4}, Lcom/commsource/util/l0;->m(F)I
 
     move-result p1
@@ -415,13 +387,11 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-virtual {v1, v2}, Landroid/graphics/drawable/GradientDrawable;->setGradientType(I)V
 
     const/16 p1, 0x64
 
-    .line 8
     invoke-static {p1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p1
@@ -430,10 +400,8 @@
 
     const/high16 p1, -0x40800000    # -1.0f
 
-    .line 9
     invoke-virtual {v1, v4, p1}, Landroid/graphics/drawable/GradientDrawable;->setGradientCenter(FF)V
 
-    .line 10
     sget-object p1, Landroid/graphics/drawable/GradientDrawable$Orientation;->TOP_BOTTOM:Landroid/graphics/drawable/GradientDrawable$Orientation;
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/GradientDrawable;->setOrientation(Landroid/graphics/drawable/GradientDrawable$Orientation;)V
@@ -442,7 +410,6 @@
 
     sget v4, Lcom/res/provider/ResCOLOR;->Premium_Black:I
 
-    .line 11
     invoke-static {v4}, Lcom/commsource/util/l0;->P(I)I
 
     move-result v4
@@ -464,14 +431,12 @@
     :cond_3
     sget p1, Lcom/res/provider/ResCOLOR;->white:I
 
-    .line 12
     invoke-static {p1}, Lcom/commsource/util/l0;->P(I)I
 
     move-result p1
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 13
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p1
@@ -487,14 +452,12 @@
     :goto_0
     const/16 p1, 0x17
 
-    .line 14
     invoke-static {p1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p1
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -513,7 +476,6 @@
 
     const/16 p2, 0x30
 
-    .line 1
     invoke-static {p2}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p2
@@ -556,7 +518,6 @@
 
     const/16 p2, 0x30
 
-    .line 1
     invoke-static {p2}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p2
@@ -611,10 +572,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->g:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -627,7 +586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -642,7 +600,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -657,7 +614,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -678,26 +634,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->e:I
 
     if-ne v1, p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 3
     :cond_0
     iput p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->e:I
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->c:Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -712,7 +663,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->l:Landroid/graphics/Paint;
 
     invoke-static {p1}, Lcom/commsource/util/l0;->p(I)F
@@ -721,7 +671,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton;->getTvDownloadBefore()Landroid/widget/TextView;
@@ -734,7 +683,6 @@
 
     invoke-virtual {v1, v2, p1}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton;->getTvDownloadNext()Landroid/widget/TextView;
@@ -743,7 +691,6 @@
 
     invoke-virtual {v1, v2, p1}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -758,7 +705,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p1
@@ -767,7 +713,6 @@
 
     iput p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->h:F
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {p1}, Lcom/commsource/store/XDownloadButton;->getTvDownloadBefore()Landroid/widget/TextView;
@@ -776,7 +721,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {p1}, Lcom/commsource/store/XDownloadButton;->getIfDownloadBefore()Lcom/commsource/widget/IconFrontView;
@@ -785,7 +729,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -808,7 +751,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->l:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
@@ -819,7 +761,6 @@
 
     const/16 v2, 0x14
 
-    .line 2
     invoke-static {v2}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v2
@@ -836,7 +777,6 @@
 
     iput p2, p0, Lcom/commsource/store/XDownloadButton$Executer;->h:F
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {p2}, Lcom/commsource/store/XDownloadButton;->getTvDownloadBefore()Landroid/widget/TextView;
@@ -845,7 +785,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {p1}, Lcom/commsource/store/XDownloadButton;->getTvDownloadBefore()Landroid/widget/TextView;
@@ -854,7 +793,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {p1}, Lcom/commsource/store/XDownloadButton;->getIfDownloadBefore()Lcom/commsource/widget/IconFrontView;
@@ -863,7 +801,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -886,7 +823,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->l:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
@@ -897,7 +833,6 @@
 
     const/16 v2, 0x14
 
-    .line 2
     invoke-static {v2}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v2
@@ -914,7 +849,6 @@
 
     iput p2, p0, Lcom/commsource/store/XDownloadButton$Executer;->i:F
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {p2}, Lcom/commsource/store/XDownloadButton;->getTvDownloadNext()Landroid/widget/TextView;
@@ -923,7 +857,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -938,26 +871,22 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v2, v0, Lcom/commsource/store/XDownloadButton$Executer;->b:Z
 
     if-eqz v2, :cond_1
 
-    .line 2
     iget-object v2, v0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     iget-object v3, v0, Lcom/commsource/store/XDownloadButton$Executer;->f:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 3
     iget v2, v0, Lcom/commsource/store/XDownloadButton$Executer;->d:I
 
     const/4 v3, 0x1
 
     if-eq v2, v3, :cond_0
 
-    .line 4
     iget-object v2, v0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {v2}, Lcom/commsource/store/XDownloadButton;->getTvDownloadBefore()Landroid/widget/TextView;
@@ -972,7 +901,6 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 5
     iget-object v2, v0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {v2}, Lcom/commsource/store/XDownloadButton;->getTvDownloadNext()Landroid/widget/TextView;
@@ -985,7 +913,6 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 6
     iget-object v2, v0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {v2}, Lcom/commsource/store/XDownloadButton;->getCvDownload()Lcom/commsource/widget/CircleDownloadProgressView;
@@ -1000,7 +927,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/widget/CircleDownloadProgressView;->setmMaskCircleColor(I)V
 
-    .line 7
     iget-object v2, v0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {v2}, Lcom/commsource/store/XDownloadButton;->getCvDownload()Lcom/commsource/widget/CircleDownloadProgressView;
@@ -1015,7 +941,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object v2, v0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
@@ -1031,7 +956,6 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 9
     iget-object v2, v0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {v2}, Lcom/commsource/store/XDownloadButton;->getTvDownloadNext()Landroid/widget/TextView;
@@ -1044,7 +968,6 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 10
     iget-object v2, v0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {v2}, Lcom/commsource/store/XDownloadButton;->getCvDownload()Lcom/commsource/widget/CircleDownloadProgressView;
@@ -1059,7 +982,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/widget/CircleDownloadProgressView;->setmMaskCircleColor(I)V
 
-    .line 11
     iget-object v2, v0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-virtual {v2}, Lcom/commsource/store/XDownloadButton;->getCvDownload()Lcom/commsource/widget/CircleDownloadProgressView;
@@ -1072,31 +994,26 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/widget/CircleDownloadProgressView;->setmCircleColor(I)V
 
-    .line 12
     :cond_1
     :goto_0
     new-instance v2, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;
 
     invoke-direct {v2, v0}, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;-><init>(Lcom/commsource/store/XDownloadButton$Executer;)V
 
-    .line 13
     iget-boolean v3, v0, Lcom/commsource/store/XDownloadButton$Executer;->a:Z
 
     if-eqz v3, :cond_2
 
-    .line 14
     iget-object v3, v0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     iget v4, v0, Lcom/commsource/store/XDownloadButton$Executer;->g:I
 
     invoke-static {v3, v4}, Lcom/commsource/store/XDownloadButton;->c(Lcom/commsource/store/XDownloadButton;I)V
 
-    .line 15
     iget-boolean v3, v0, Lcom/commsource/store/XDownloadButton$Executer;->c:Z
 
     if-eqz v3, :cond_3
 
-    .line 16
     iget-object v4, v0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     const-wide/16 v5, 0x0
@@ -1115,7 +1032,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_2
     iget-object v11, v0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
@@ -1133,7 +1049,6 @@
 
     invoke-static/range {v11 .. v17}, Lcom/commsource/camera/f1/j;->b(Landroid/view/View;JLandroid/view/animation/Interpolator;Lcotlin/jvm/u/l;ILjava/lang/Object;)Lcom/commsource/camera/f1/k;
 
-    .line 18
     :cond_3
     :goto_1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1150,7 +1065,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->m:Lcom/commsource/store/XDownloadButton;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1165,7 +1079,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1180,7 +1093,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1197,10 +1109,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->a:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -1213,7 +1123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1234,12 +1143,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->d:I
 
     if-ne v1, p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -1247,20 +1154,16 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/store/XDownloadButton$Executer;->b:Z
 
-    .line 4
     iput p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->d:I
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/store/XDownloadButton$Executer;->m(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/store/XDownloadButton$Executer;->f:Landroid/graphics/drawable/Drawable;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

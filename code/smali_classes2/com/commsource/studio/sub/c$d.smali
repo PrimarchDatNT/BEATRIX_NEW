@@ -71,7 +71,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v1
@@ -86,7 +85,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sub/c$d;->a:Lcom/commsource/studio/sub/c;
 
     invoke-static {v1}, Lcom/commsource/studio/sub/c;->V(Lcom/commsource/studio/sub/c;)Lcom/commsource/widget/h1/e;
@@ -105,7 +103,6 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/sub/c$d;->a:Lcom/commsource/studio/sub/c;
 
     invoke-virtual {v2}, Lcom/commsource/studio/sub/c;->f0()Lcom/commsource/beautyplus/f0/gc;
@@ -119,7 +116,6 @@
     :cond_1
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object p1
@@ -130,10 +126,8 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {p1, v1}, Lf/d/i/h;->G1(Lcom/commsource/studio/sub/SubModuleEnum;Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/sub/c$d;->a:Lcom/commsource/studio/sub/c;
 
     invoke-static {v1}, Lcom/commsource/studio/sub/c;->V(Lcom/commsource/studio/sub/c;)Lcom/commsource/widget/h1/e;
@@ -142,7 +136,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->q(Ljava/lang/Object;)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -156,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/c$d;->a(Lcotlin/Pair;)V

@@ -15,7 +15,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/hmacsha/e;->a()J
 
     move-result-wide v1
@@ -32,7 +31,6 @@
 
     const-string v0, "netTimeService"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/meitu/mtlab/hmacsha/NetTimeIntentService;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -41,7 +39,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Landroid/app/IntentService;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -60,7 +57,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -79,7 +75,6 @@
 
     if-lez v6, :cond_0
 
-    .line 2
     :try_start_0
     new-instance v0, Ljava/net/URL;
 
@@ -87,15 +82,12 @@
 
     invoke-direct {v0, v1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Ljava/net/URLConnection;->connect()V
 
-    .line 5
     invoke-virtual {v0}, Ljava/net/URLConnection;->getDate()J
 
     move-result-wide v0
@@ -111,17 +103,14 @@
     :catch_0
     move-exception v0
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 7
     invoke-static {}, Lcom/meitu/mtlab/hmacsha/e;->a()J
 
     move-result-wide v0
 
     sput-wide v0, Lcom/meitu/mtlab/hmacsha/NetTimeIntentService;->a:J
 
-    .line 8
     :cond_0
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

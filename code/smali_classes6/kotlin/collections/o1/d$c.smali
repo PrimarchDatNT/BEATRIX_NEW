@@ -65,7 +65,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/collections/o1/d$c;->a:Lcotlin/collections/o1/d;
@@ -84,7 +83,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0
@@ -138,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/d$c;->a:Lcotlin/collections/o1/d;
 
     invoke-static {v0}, Lcotlin/collections/o1/d;->b(Lcotlin/collections/o1/d;)[Ljava/lang/Object;
@@ -160,7 +157,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/d$c;->a:Lcotlin/collections/o1/d;
 
     invoke-static {v0}, Lcotlin/collections/o1/d;->e(Lcotlin/collections/o1/d;)[Ljava/lang/Object;
@@ -179,7 +175,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/o1/d$c;->getKey()Ljava/lang/Object;
 
     move-result-object v0
@@ -222,24 +217,20 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/o1/d$c;->a:Lcotlin/collections/o1/d;
 
     invoke-virtual {v0}, Lcotlin/collections/o1/d;->n()V
 
-    .line 2
     iget-object v0, p0, Lcotlin/collections/o1/d$c;->a:Lcotlin/collections/o1/d;
 
     invoke-static {v0}, Lcotlin/collections/o1/d;->a(Lcotlin/collections/o1/d;)[Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 3
     iget v1, p0, Lcotlin/collections/o1/d$c;->b:I
 
     aget-object v2, v0, v1
 
-    .line 4
     aput-object p1, v0, v1
 
     return-object v2
@@ -250,7 +241,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

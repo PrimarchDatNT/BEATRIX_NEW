@@ -11,7 +11,6 @@
 
     move-object/from16 v1, p3
 
-    .line 1
     :goto_0
     invoke-virtual/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/jg2;->q()I
 
@@ -21,12 +20,10 @@
 
     if-le v2, v3, :cond_6
 
-    .line 2
     invoke-static/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/we2;->b(Lcom/google/android/gms/internal/ads/jg2;)I
 
     move-result v2
 
-    .line 3
     invoke-static/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/we2;->b(Lcom/google/android/gms/internal/ads/jg2;)I
 
     move-result v4
@@ -35,7 +32,6 @@
 
     if-eq v4, v5, :cond_5
 
-    .line 4
     invoke-virtual/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/jg2;->q()I
 
     move-result v5
@@ -59,33 +55,27 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-virtual/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/jg2;->b()I
 
     move-result v2
 
-    .line 6
     invoke-virtual/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/jg2;->g()I
 
     move-result v5
 
-    .line 7
     invoke-virtual/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/jg2;->h()I
 
     move-result v9
 
-    .line 8
     invoke-virtual/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v10
 
-    .line 9
     invoke-virtual/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/jg2;->g()I
 
     move-result v11
 
-    .line 10
     invoke-virtual {v0, v2}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     const/16 v2, 0xb5
@@ -113,27 +103,22 @@
     :goto_2
     if-eqz v2, :cond_4
 
-    .line 11
     invoke-virtual {v0, v7}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
-    .line 12
     invoke-virtual/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/jg2;->g()I
 
     move-result v2
 
     and-int/lit8 v2, v2, 0x1f
 
-    .line 13
     invoke-virtual {v0, v3}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
     mul-int/lit8 v2, v2, 0x3
 
-    .line 14
     invoke-virtual/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/jg2;->b()I
 
     move-result v3
 
-    .line 15
     array-length v5, v1
 
     :goto_3
@@ -141,10 +126,8 @@
 
     aget-object v9, v1, v8
 
-    .line 16
     invoke-virtual {v0, v3}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
-    .line 17
     invoke-interface {v9, v0, v2}, Lcom/google/android/gms/internal/ads/ob2;->a(Lcom/google/android/gms/internal/ads/jg2;I)V
 
     const/4 v12, 0x1
@@ -157,7 +140,6 @@
 
     move v13, v2
 
-    .line 18
     invoke-interface/range {v9 .. v15}, Lcom/google/android/gms/internal/ads/ob2;->d(JIIILcom/google/android/gms/internal/ads/rb2;)V
 
     add-int/lit8 v8, v8, 0x1
@@ -169,12 +151,10 @@
 
     sub-int/2addr v4, v2
 
-    .line 19
     invoke-virtual {v0, v4}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
     goto :goto_0
 
-    .line 20
     :cond_4
     invoke-virtual {v0, v4}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
@@ -186,10 +166,8 @@
 
     const-string v3, "Skipping remainder of malformed SEI NAL unit."
 
-    .line 21
     invoke-static {v2, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 22
     invoke-virtual/range {p2 .. p2}, Lcom/google/android/gms/internal/ads/jg2;->c()I
 
     move-result v2
@@ -207,7 +185,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->q()I
 
@@ -219,7 +196,6 @@
 
     return p0
 
-    .line 2
     :cond_1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->g()I
 

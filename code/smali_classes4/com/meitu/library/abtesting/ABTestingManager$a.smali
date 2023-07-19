@@ -25,7 +25,6 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtesting/ABTestingManager$a;->a:Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtesting/ABTestingManager;->a()Landroid/content/BroadcastReceiver;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -59,17 +56,14 @@
 
     const-string v2, "run: register connectivity receiver on API 24+"
 
-    .line 3
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/j/d;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     new-instance v2, Lcom/meitu/library/abtesting/broadcast/ABTestingNetworkBroadcastReceiver;
 
     invoke-direct {v2}, Lcom/meitu/library/abtesting/broadcast/ABTestingNetworkBroadcastReceiver;-><init>()V
 
     invoke-static {v2}, Lcom/meitu/library/abtesting/ABTestingManager;->b(Landroid/content/BroadcastReceiver;)Landroid/content/BroadcastReceiver;
 
-    .line 5
     :try_start_0
     iget-object v2, p0, Lcom/meitu/library/abtesting/ABTestingManager$a;->a:Landroid/content/Context;
 
@@ -92,10 +86,8 @@
     :catch_0
     const-string v2, "unable to register network-state-changed receiver"
 
-    .line 6
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/j/d;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -59,10 +59,8 @@
 .method public constructor <init>(Lf/k/t/b$b;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/camera/q/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/library/camera/util/q;
 
     const/4 v1, 0x4
@@ -73,32 +71,26 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lf/k/t/b;->K:Z
 
-    .line 4
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     iput-object v1, p0, Lf/k/t/b;->L:Ljava/lang/Object;
 
-    .line 5
     iput-boolean v0, p0, Lf/k/t/b;->M:Z
 
     const/4 v0, 0x1
 
-    .line 6
     iput v0, p0, Lf/k/t/b;->N:I
 
-    .line 7
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lf/k/t/b;->O:Landroid/graphics/RectF;
 
-    .line 8
     invoke-static {p1}, Lf/k/t/b$b;->a(Lf/k/t/b$b;)Ljava/util/List;
 
     move-result-object p1
@@ -115,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p1, Lcom/meitu/library/renderarch/arch/data/b/c;->a:Lcom/meitu/library/renderarch/arch/data/b/g;
 
     iget-object v1, v1, Lcom/meitu/library/renderarch/arch/data/b/g;->a:[B
@@ -124,37 +115,30 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     iget-object v3, p0, Lf/k/t/b;->p:Lcom/meitu/mtobjdetect/MTThingsDetectorNative;
 
     if-nez v3, :cond_1
 
-    .line 4
     invoke-direct {p0}, Lf/k/t/b;->y1()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lf/k/t/b;->u1()Lcom/meitu/mtobjdetect/MTAnimalData;
 
     move-result-object v1
 
-    .line 7
     iget-boolean v2, p1, Lcom/meitu/library/renderarch/arch/data/b/c;->c:Z
 
     if-eqz v2, :cond_3
 
-    .line 8
     iget-object v2, p1, Lcom/meitu/library/renderarch/arch/data/b/c;->b:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     iget-object v2, v2, Lcom/meitu/library/renderarch/arch/data/b/f;->a:Ljava/nio/ByteBuffer;
@@ -165,7 +149,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 9
     iget-wide v4, v1, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     iget-object v2, p1, Lcom/meitu/library/renderarch/arch/data/b/c;->b:Lcom/meitu/library/renderarch/arch/data/b/f;
@@ -184,7 +167,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     iget-wide v4, v1, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
@@ -210,7 +192,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     iget-wide v4, v1, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
@@ -228,13 +209,11 @@
 
     invoke-virtual/range {v3 .. v10}, Lcom/meitu/mtobjdetect/MTThingsDetectorNative;->d(J[BIIII)I
 
-    .line 12
     :goto_0
     iget-boolean v2, p1, Lcom/meitu/library/renderarch/arch/data/b/c;->c:Z
 
     if-eqz v2, :cond_4
 
-    .line 13
     iget-object v2, p1, Lcom/meitu/library/renderarch/arch/data/b/c;->b:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     iget v6, v2, Lcom/meitu/library/renderarch/arch/data/b/f;->b:I
@@ -253,7 +232,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_4
     iget-object v2, p1, Lcom/meitu/library/renderarch/arch/data/b/c;->a:Lcom/meitu/library/renderarch/arch/data/b/g;
 
@@ -271,7 +249,6 @@
 
     invoke-direct/range {v4 .. v9}, Lf/k/t/b;->e2(Lcom/meitu/mtobjdetect/MTAnimalData;IIILandroid/graphics/RectF;)V
 
-    .line 15
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -285,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/t/b;->getNodesServer()Lcom/meitu/library/camera/q/g;
 
     move-result-object v1
@@ -298,7 +274,6 @@
 
     const/4 v3, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -306,7 +281,6 @@
 
     if-ge v3, v4, :cond_1
 
-    .line 3
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -327,7 +301,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -339,7 +312,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -353,7 +325,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lf/k/t/b;->M:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -368,7 +339,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/t/b;->p:Lcom/meitu/mtobjdetect/MTThingsDetectorNative;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -389,13 +359,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     check-cast p1, Lcom/meitu/mtobjdetect/MTAnimalData;
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lf/k/t/b;->h1(Lcom/meitu/mtobjdetect/MTAnimalData;II)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -411,14 +378,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lf/k/t/b;->J:Lcom/meitu/library/camera/util/q;
 
     check-cast p1, Lcom/meitu/mtobjdetect/MTAnimalData;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/util/q;->release(Ljava/lang/Object;)Z
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -432,31 +397,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Landroid/graphics/RectF;->left:F
 
     int-to-float p2, p2
 
     mul-float v1, v1, p2
 
-    .line 2
     iget v2, p1, Landroid/graphics/RectF;->top:F
 
     int-to-float p3, p3
 
     mul-float v2, v2, p3
 
-    .line 3
     iget v3, p1, Landroid/graphics/RectF;->right:F
 
     mul-float v3, v3, p2
 
-    .line 4
     iget p1, p1, Landroid/graphics/RectF;->bottom:F
 
     mul-float p1, p1, p3
 
-    .line 5
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2, v1, v2, v3, p1}, Landroid/graphics/RectF;-><init>(FFFF)V
@@ -477,12 +437,10 @@
 
     if-eqz p5, :cond_0
 
-    .line 1
     iget v2, p0, Lf/k/t/b;->N:I
 
     if-ne v2, v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lf/k/t/b;->O:Landroid/graphics/RectF;
 
     iget v3, p5, Landroid/graphics/RectF;->top:F
@@ -497,7 +455,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lf/k/t/b;->O:Landroid/graphics/RectF;
 
@@ -511,7 +468,6 @@
 
     invoke-virtual {v2, v3, v4, v5, p5}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 4
     :goto_0
     iget-object p5, p0, Lf/k/t/b;->O:Landroid/graphics/RectF;
 
@@ -533,11 +489,9 @@
 
     if-ne p4, p5, :cond_2
 
-    .line 5
     :cond_1
     invoke-virtual {p1, p2}, Lcom/meitu/mtobjdetect/MTAnimalData;->a(I)V
 
-    .line 6
     :cond_2
     invoke-virtual {p3}, Landroid/graphics/RectF;->width()F
 
@@ -545,27 +499,22 @@
 
     float-to-int v2, p2
 
-    .line 7
     invoke-virtual {p3}, Landroid/graphics/RectF;->height()F
 
     move-result p2
 
     float-to-int v3, p2
 
-    .line 8
     iget v4, p3, Landroid/graphics/RectF;->top:F
 
-    .line 9
     iget v5, p3, Landroid/graphics/RectF;->left:F
 
     move-object v1, p1
 
     move v6, p4
 
-    .line 10
     invoke-virtual/range {v1 .. v6}, Lcom/meitu/mtobjdetect/MTAnimalData;->m(IIFFI)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -580,7 +529,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Lf/k/t/b;->getNodesServer()Lcom/meitu/library/camera/q/g;
 
     move-result-object v1
@@ -591,7 +539,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -599,7 +546,6 @@
 
     if-ge v2, v3, :cond_1
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -608,21 +554,18 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lf/k/t/c;
 
-    .line 5
     invoke-interface {v3}, Lf/k/t/c;->H0()Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
-    .line 6
     invoke-interface {v3, p1, p2, p3}, Lf/k/t/c;->P(Lcom/meitu/mtobjdetect/MTAnimalData;II)V
 
     :cond_0
@@ -630,7 +573,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -644,7 +586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "MTAnimalDetectionManager"
@@ -659,7 +600,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/t/b;->g:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -674,7 +614,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/t/b;->g:Ljava/util/List;
 
     if-eqz v1, :cond_2
@@ -687,18 +626,15 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-boolean v1, p0, Lf/k/t/b;->K:Z
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     new-instance v1, Lf/k/t/b$a;
 
@@ -710,15 +646,12 @@
 
     const/4 v1, 0x1
 
-    .line 5
     iput-boolean v1, p0, Lf/k/t/b;->K:Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -733,7 +666,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/t/b;->L:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -750,7 +682,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/t/b;->j1()Ljava/lang/String;
 
     move-result-object v1
@@ -767,7 +698,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -780,13 +710,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/library/camera/q/a;->Q0(Lcom/meitu/library/camera/q/g;)V
 
-    .line 2
     iput-object p1, p0, Lf/k/t/b;->P:Lcom/meitu/library/camera/q/g;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -799,10 +726,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/t/b;->X1(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -815,7 +740,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -828,23 +752,19 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lf/k/t/b;->L:Ljava/lang/Object;
 
     monitor-enter v0
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     iput-boolean v1, p0, Lf/k/t/b;->M:Z
 
-    .line 3
     iget-object v1, p0, Lf/k/t/b;->p:Lcom/meitu/mtobjdetect/MTThingsDetectorNative;
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/camera/util/h;->h()Z
 
     move-result v1
@@ -855,22 +775,18 @@
 
     const-string v2, "Animal Detector destroyed in main thread."
 
-    .line 5
     invoke-static {v1, v2}, Lcom/meitu/library/camera/util/h;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lf/k/t/b;->p:Lcom/meitu/mtobjdetect/MTThingsDetectorNative;
 
     invoke-virtual {v1}, Lcom/meitu/mtobjdetect/MTThingsDetectorNative;->b()V
 
-    .line 7
     :cond_1
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -878,7 +794,6 @@
     :catchall_0
     move-exception v1
 
-    .line 9
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -907,7 +822,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/t/b;->F1(Lcom/meitu/library/renderarch/arch/data/b/c;)Lcom/meitu/mtobjdetect/MTAnimalData;
 
     move-result-object p1
@@ -924,7 +838,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p2, Lcom/meitu/library/renderarch/arch/data/b/h;->g:Lcom/meitu/library/renderarch/arch/data/b/g;
 
     iget v1, p2, Lcom/meitu/library/renderarch/arch/data/b/g;->b:I
@@ -933,7 +846,6 @@
 
     invoke-direct {p0, p1, v1, p2}, Lf/k/t/b;->V1(Ljava/lang/Object;II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -946,7 +858,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/t/b;->H0()Z
 
     move-result v1
@@ -963,7 +874,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -978,7 +888,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -991,7 +900,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1012,10 +920,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/t/b;->g:Ljava/util/List;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1028,7 +934,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1041,7 +946,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "AnimalDetect"
@@ -1056,7 +960,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/t/b;->P:Lcom/meitu/library/camera/q/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1071,7 +974,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1084,10 +986,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lf/k/t/b;->N:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1100,7 +1000,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1118,7 +1017,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/t/b;->J:Lcom/meitu/library/camera/util/q;
 
     invoke-virtual {v1}, Lcom/meitu/library/camera/util/q;->acquire()Ljava/lang/Object;
@@ -1129,12 +1027,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/mtobjdetect/MTAnimalData;
 
     invoke-direct {v1}, Lcom/meitu/mtobjdetect/MTAnimalData;-><init>()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

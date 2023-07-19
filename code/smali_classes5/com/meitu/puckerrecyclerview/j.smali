@@ -39,17 +39,14 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/puckerrecyclerview/k;
 
     invoke-direct {v0}, Lcom/meitu/puckerrecyclerview/k;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/puckerrecyclerview/j;->a:Lcom/meitu/puckerrecyclerview/k;
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/j;->b:Landroid/content/Context;
 
     return-void
@@ -64,12 +61,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/j;->a:Lcom/meitu/puckerrecyclerview/k;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/puckerrecyclerview/k;->d(Lcom/meitu/puckerrecyclerview/h;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -82,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/j;->b:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/j;->a:Lcom/meitu/puckerrecyclerview/k;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -112,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/j;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -127,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/j;->a:Lcom/meitu/puckerrecyclerview/k;
 
     invoke-virtual {v1}, Lcom/meitu/puckerrecyclerview/k;->i()Lcom/meitu/puckerrecyclerview/h;
@@ -156,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/j;->a:Lcom/meitu/puckerrecyclerview/k;
 
     invoke-virtual {v1, p2}, Lcom/meitu/puckerrecyclerview/k;->f(I)Lcom/meitu/puckerrecyclerview/f;
@@ -167,7 +157,6 @@
 
     invoke-virtual {p1, p2, v1, v2}, Lcom/meitu/puckerrecyclerview/l;->e(ILcom/meitu/puckerrecyclerview/f;Ljava/util/List;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -192,14 +181,12 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/j;->a:Lcom/meitu/puckerrecyclerview/k;
 
     invoke-virtual {v1, p2}, Lcom/meitu/puckerrecyclerview/k;->f(I)Lcom/meitu/puckerrecyclerview/f;
@@ -210,11 +197,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILjava/util/List;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -228,7 +213,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/j;->a:Lcom/meitu/puckerrecyclerview/k;
 
     invoke-virtual {v1}, Lcom/meitu/puckerrecyclerview/k;->w()I
@@ -247,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/j;->a:Lcom/meitu/puckerrecyclerview/k;
 
     invoke-virtual {v1, p1}, Lcom/meitu/puckerrecyclerview/k;->k(I)I
@@ -266,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/puckerrecyclerview/j;->a:Lcom/meitu/puckerrecyclerview/k;
 
     invoke-virtual {v1, p2}, Lcom/meitu/puckerrecyclerview/k;->j(I)Ljava/lang/Class;
@@ -282,7 +264,6 @@
     :try_start_0
     new-array v3, v2, [Ljava/lang/Class;
 
-    .line 2
     const-class v4, Lcom/meitu/puckerrecyclerview/j;
 
     const/4 v5, 0x0
@@ -319,12 +300,10 @@
 
     check-cast p1, Lcom/meitu/puckerrecyclerview/l;
 
-    .line 3
     instance-of p2, p1, Lcom/meitu/puckerrecyclerview/d;
 
     if-eqz p2, :cond_0
 
-    .line 4
     move-object p2, p1
 
     check-cast p2, Lcom/meitu/puckerrecyclerview/d;
@@ -335,13 +314,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     instance-of p2, p1, Lcom/meitu/puckerrecyclerview/i;
 
     if-eqz p2, :cond_1
 
-    .line 6
     move-object p2, p1
 
     check-cast p2, Lcom/meitu/puckerrecyclerview/i;
@@ -350,7 +327,6 @@
 
     invoke-virtual {p2, v2}, Lcom/meitu/puckerrecyclerview/i;->j(Lcom/meitu/puckerrecyclerview/j$c;)V
 
-    .line 7
     :cond_1
     :goto_0
     iget-object p2, p0, Lcom/meitu/puckerrecyclerview/j;->f:Lcom/meitu/puckerrecyclerview/j$b;
@@ -359,7 +335,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -367,10 +342,8 @@
     :catch_0
     move-exception p1
 
-    .line 9
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 10
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -384,10 +357,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/j;->e:Lcom/meitu/puckerrecyclerview/j$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -400,10 +371,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/j;->f:Lcom/meitu/puckerrecyclerview/j$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -416,10 +385,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/j;->d:Lcom/meitu/puckerrecyclerview/j$c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -434,26 +401,21 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     new-instance p1, Lcom/meitu/puckerrecyclerview/k;
 
     invoke-direct {p1}, Lcom/meitu/puckerrecyclerview/k;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/j;->a:Lcom/meitu/puckerrecyclerview/k;
 
-    .line 2
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/j;->a:Lcom/meitu/puckerrecyclerview/k;
 
-    .line 4
     invoke-virtual {p1, p0}, Lcom/meitu/puckerrecyclerview/k;->c(Lcom/meitu/puckerrecyclerview/j;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -467,13 +429,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/puckerrecyclerview/j;->c:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 3
     new-instance v1, Lcom/meitu/puckerrecyclerview/ScrollLeftLinearLayoutManager;
 
     iget-object v2, p0, Lcom/meitu/puckerrecyclerview/j;->b:Landroid/content/Context;
@@ -484,7 +443,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -497,7 +455,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/puckerrecyclerview/l;
 
     invoke-virtual {p0, p1, p2}, Lcom/meitu/puckerrecyclerview/j;->f(Lcom/meitu/puckerrecyclerview/l;I)V
@@ -514,7 +471,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     check-cast p1, Lcom/meitu/puckerrecyclerview/l;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/meitu/puckerrecyclerview/j;->g(Lcom/meitu/puckerrecyclerview/l;ILjava/util/List;)V
@@ -531,7 +487,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/meitu/puckerrecyclerview/j;->h(Landroid/view/ViewGroup;I)Lcom/meitu/puckerrecyclerview/l;
 
     move-result-object p1

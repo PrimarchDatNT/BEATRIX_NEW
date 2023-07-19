@@ -29,7 +29,6 @@
 .method constructor <init>(Lf/k/m/f/b;Ljava/lang/String;Lf/k/m/f/e/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/m/f/b$i;->c:Lf/k/m/f/b;
 
     iput-object p2, p0, Lf/k/m/f/b$i;->a:Ljava/lang/String;
@@ -59,14 +58,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lf/k/m/f/b$i;->c:Lf/k/m/f/b;
 
     invoke-static {p1}, Lf/k/m/f/b;->a(Lf/k/m/f/b;)Lcom/android/billingclient/api/d;
@@ -81,14 +78,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase$b;->a()Lcom/android/billingclient/api/h;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase$b;->a()Lcom/android/billingclient/api/h;
 
     move-result-object v1
@@ -99,7 +94,6 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase$b;->b()Ljava/util/List;
 
     move-result-object v1
@@ -108,21 +102,18 @@
 
     if-eqz p2, :cond_0
 
-    .line 6
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 7
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result p2
 
     if-lez p2, :cond_0
 
-    .line 8
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object p2
@@ -133,7 +124,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 9
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object p2
@@ -152,7 +142,6 @@
 
     invoke-virtual {p2}, Landroid/widget/Toast;->show()V
 
-    .line 10
     :cond_0
     iget-object p2, p0, Lf/k/m/f/b$i;->c:Lf/k/m/f/b;
 
@@ -162,16 +151,13 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     iget-object p2, p0, Lf/k/m/f/b$i;->b:Lf/k/m/f/e/d;
 
     if-eqz p2, :cond_2
 
-    .line 12
     invoke-interface {p2, p1}, Lf/k/m/f/e/d;->k(Lcom/android/billingclient/api/h;)V
 
-    .line 13
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

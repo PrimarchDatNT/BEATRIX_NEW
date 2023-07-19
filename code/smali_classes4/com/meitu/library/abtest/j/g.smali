@@ -23,14 +23,12 @@
 .method constructor <init>(Lcom/meitu/library/abtest/a;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/library/abtest/a;->l()Lcom/meitu/library/abtest/l/i;
 
     move-result-object p1
 
     invoke-direct {p0, p1}, Lcom/meitu/library/abtest/j/a;-><init>(Lcom/meitu/library/abtest/l/i;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/library/abtest/j/a;->w:Lcom/meitu/library/abtest/l/i;
 
     invoke-virtual {p1, p0}, Lcom/meitu/library/abtest/l/i;->q(Lcom/meitu/library/abtest/l/i$c;)V
@@ -47,7 +45,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -60,7 +57,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -73,7 +69,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -86,7 +81,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -99,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -122,10 +115,8 @@
 
     invoke-static {v1, p1}, Lcom/meitu/library/abtest/g/a;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/library/abtest/j/a;->h()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

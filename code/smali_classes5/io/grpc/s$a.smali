@@ -24,12 +24,10 @@
 .method constructor <init>(Lio/grpc/r;Z)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "decompressor"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -38,7 +36,6 @@
 
     iput-object p1, p0, Lio/grpc/s$a;->a:Lio/grpc/r;
 
-    .line 3
     iput-boolean p2, p0, Lio/grpc/s$a;->b:Z
 
     return-void

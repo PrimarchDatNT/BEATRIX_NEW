@@ -29,13 +29,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/b5;->a:Lcom/google/android/gms/ads/formats/f$c;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/b5;->b:Lcom/google/android/gms/ads/formats/f$b;
 
     return-void
@@ -44,7 +41,6 @@
 .method static synthetic a(Lcom/google/android/gms/internal/ads/b5;)Lcom/google/android/gms/ads/formats/f$c;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/b5;->a:Lcom/google/android/gms/ads/formats/f$c;
 
     return-object p0
@@ -53,7 +49,6 @@
 .method static synthetic b(Lcom/google/android/gms/internal/ads/b5;Lcom/google/android/gms/internal/ads/r3;)Lcom/google/android/gms/ads/formats/f;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/b5;->d(Lcom/google/android/gms/internal/ads/r3;)Lcom/google/android/gms/ads/formats/f;
 
     move-result-object p0
@@ -64,7 +59,6 @@
 .method static synthetic c(Lcom/google/android/gms/internal/ads/b5;)Lcom/google/android/gms/ads/formats/f$b;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/b5;->b:Lcom/google/android/gms/ads/formats/f$b;
 
     return-object p0
@@ -75,7 +69,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b5;->c:Lcom/google/android/gms/ads/formats/f;
     :try_end_0
@@ -83,12 +76,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     monitor-exit p0
 
     return-object v0
 
-    .line 3
     :cond_0
     :try_start_1
     new-instance v0, Lcom/google/android/gms/internal/ads/s3;
@@ -116,7 +107,6 @@
 .method public final e()Lcom/google/android/gms/internal/ads/c4;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/d5;
 
     const/4 v1, 0x0
@@ -131,7 +121,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b5;->b:Lcom/google/android/gms/ads/formats/f$b;
 
     const/4 v1, 0x0
@@ -140,7 +129,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/ads/e5;
 

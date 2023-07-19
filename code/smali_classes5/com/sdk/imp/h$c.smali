@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/h$c;->a:Lcom/sdk/imp/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +43,6 @@
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 2
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/h$c;->a:Lcom/sdk/imp/h;
 
     invoke-static {p1}, Lcom/sdk/imp/h;->k(Lcom/sdk/imp/h;)Landroid/animation/ValueAnimator;
@@ -53,7 +51,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/h$c;->a:Lcom/sdk/imp/h;
 
     invoke-static {p1}, Lcom/sdk/imp/h;->k(Lcom/sdk/imp/h;)Landroid/animation/ValueAnimator;
@@ -62,7 +59,6 @@
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 3
     iget-object p1, p0, Lcom/sdk/imp/h$c;->a:Lcom/sdk/imp/h;
 
     invoke-static {p1}, Lcom/sdk/imp/h;->k(Lcom/sdk/imp/h;)Landroid/animation/ValueAnimator;

@@ -50,20 +50,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->m()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->U()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -72,7 +69,6 @@
 
     move-result-object v2
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/home/homepagedialog/m$a;->a:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Lcom/meitu/media/tools/editor/f;->open(Ljava/lang/String;)Z
@@ -83,7 +79,6 @@
 
     const-string v3, "videoEditor"
 
-    .line 5
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/meitu/media/tools/editor/f;->getVideoDuration()D
@@ -98,7 +93,6 @@
 
     const/4 v5, 0x0
 
-    .line 6
     invoke-virtual {v2}, Lcom/meitu/media/tools/editor/f;->getVideoWidth()I
 
     move-result v6
@@ -113,28 +107,23 @@
 
     aput v6, v4, v5
 
-    .line 7
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v5
 
-    .line 8
     invoke-static {v1, v3, v4, v5}, Lcom/commsource/puzzle/patchedworld/x/d/a;->c(Ljava/lang/String;I[ILandroid/content/Context;)Landroid/net/Uri;
 
     move-result-object v1
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/home/homepagedialog/m$a;->a:Ljava/lang/String;
 
     invoke-static {v3, v1}, Lcom/meitu/library/p/g/b;->e(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 10
     :cond_0
     invoke-virtual {v2}, Lcom/meitu/media/tools/editor/f;->close()V
 
     goto :goto_0
 
-    .line 11
     :cond_1
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/m$a;->a:Ljava/lang/String;
 
@@ -147,19 +136,15 @@
     :catch_0
     move-exception v1
 
-    .line 12
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 13
     :goto_0
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/m$a;->a:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

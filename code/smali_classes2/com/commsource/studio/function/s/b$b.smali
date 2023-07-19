@@ -39,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/s/b$b;->P:Lcom/commsource/studio/function/s/b;
 
     invoke-direct {p0, p2}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;-><init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
@@ -56,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/r0/c;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/function/s/b$b;->S(Lcom/commsource/studio/r0/c;ILcom/commsource/easyeditor/utils/opengl/f;)V
@@ -89,7 +87,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/s/b$b;->P:Lcom/commsource/studio/function/s/b;
 
     invoke-virtual {p3}, Lcom/commsource/studio/function/s/b;->K1()Lcom/commsource/studio/effect/remold/b;
@@ -102,10 +99,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p1, p2}, Lcom/commsource/studio/r0/c;->v(Landroid/util/SparseArray;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

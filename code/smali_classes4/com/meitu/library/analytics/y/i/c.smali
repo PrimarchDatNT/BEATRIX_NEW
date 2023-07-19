@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,14 +19,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/analytics/sdk/content/f;->h0()Z
 
     move-result p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     new-instance p0, Lcom/meitu/library/analytics/y/i/e;
 
     invoke-direct {p0}, Lcom/meitu/library/analytics/y/i/e;-><init>()V
@@ -36,7 +33,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance p0, Lcom/meitu/library/analytics/y/i/b;
 

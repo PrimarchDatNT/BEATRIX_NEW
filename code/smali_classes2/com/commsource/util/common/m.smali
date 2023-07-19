@@ -64,7 +64,6 @@
 
 .field public static final x:Ljava/lang/String; = "com.facebook.katana"
 
-.field public static final y:Ljava/lang/String; = "jp.naver.line.android"
 
 .field public static final z:Ljava/lang/String; = "com.twitter.android"
 
@@ -73,7 +72,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -86,14 +84,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x18
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -103,7 +99,6 @@
     :try_start_0
     const-string v2, "com.commsource.beautyplus.fileprovider"
 
-    .line 3
     invoke-static {p0, v2, v1}, Landroidx/core/content/FileProvider;->getUriForFile(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
 
     move-result-object p1
@@ -115,16 +110,13 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 6
     :cond_0
     new-instance p0, Ljava/io/File;
 
@@ -148,7 +140,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -170,7 +161,6 @@
 
     const/4 v1, 0x1
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -184,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
@@ -194,29 +183,24 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     new-instance p2, Landroid/content/Intent;
 
     invoke-direct {p2}, Landroid/content/Intent;-><init>()V
 
     const-string v1, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {p2, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {p2, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string p1, "android.intent.extra.TEXT"
 
-    .line 5
     invoke-virtual {p2, p1, p4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     if-eqz p3, :cond_0
 
     const-string p1, "android.intent.extra.STREAM"
 
-    .line 6
     invoke-static {p3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p3
@@ -226,31 +210,25 @@
     :cond_0
     const-string p1, "text/plain"
 
-    .line 7
     invoke-virtual {p2, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 8
     invoke-virtual {p2, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 9
     :try_start_1
     invoke-virtual {p0, p2}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 10
     instance-of p1, p0, Landroid/app/Activity;
 
     if-eqz p1, :cond_2
 
-    .line 11
     check-cast p0, Landroid/app/Activity;
 
     sget p1, Lcom/res/provider/ResANIM;->slide_left_in:I
 
     sget p2, Lcom/res/provider/ResANIM;->slide_left_out:I
 
-    .line 12
     invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -260,7 +238,6 @@
     :catch_0
     move-exception p0
 
-    .line 13
     :try_start_2
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
@@ -277,7 +254,6 @@
     :cond_1
     sget p1, Lcom/res/provider/ResSTRING;->share_app_not_installed:I
 
-    .line 14
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -296,7 +272,6 @@
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
 
-    .line 15
     :catch_1
     :cond_2
     :goto_0
@@ -317,7 +292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     const-string v2, "android.intent.action.SEND"
@@ -326,10 +300,8 @@
 
     const-string v2, "message/rfc822"
 
-    .line 2
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -340,16 +312,13 @@
 
     const p1, 0x10000001
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 5
     :try_start_0
     invoke-virtual {p0, v1, p2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -357,7 +326,6 @@
     :catch_0
     move-exception p0
 
-    .line 7
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -383,7 +351,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     const-string v2, "android.intent.action.SEND"
@@ -392,10 +359,8 @@
 
     const-string v2, "message/rfc822"
 
-    .line 2
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -406,16 +371,13 @@
 
     const p1, 0x10000001
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 5
     :try_start_0
     invoke-virtual {p0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -423,7 +385,6 @@
     :catch_0
     move-exception p0
 
-    .line 7
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -449,16 +410,13 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const-string v1, "jp.naver.line.android"
 
-    .line 1
     invoke-static {p0, v1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -485,16 +443,13 @@
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 4
     :try_start_0
     invoke-virtual {p0, v1, p2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -502,7 +457,6 @@
     :catch_0
     move-exception p0
 
-    .line 6
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -515,7 +469,6 @@
 
     throw p1
 
-    .line 7
     :cond_0
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -538,16 +491,13 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const-string v1, "jp.naver.line.android"
 
-    .line 1
     invoke-static {p0, v1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -574,16 +524,13 @@
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 4
     :try_start_0
     invoke-virtual {p0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -591,7 +538,6 @@
     :catch_0
     move-exception p0
 
-    .line 6
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -604,7 +550,6 @@
 
     throw p1
 
-    .line 7
     :cond_0
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -627,63 +572,51 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
     const-string v2, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string p1, "android.intent.extra.TEXT"
 
-    .line 5
     invoke-virtual {v1, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string p1, "text/plain"
 
-    .line 6
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     const/4 p1, 0x1
 
-    .line 7
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 8
     :try_start_0
     invoke-virtual {p0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 9
     instance-of p1, p0, Landroid/app/Activity;
 
     if-eqz p1, :cond_0
 
-    .line 10
     check-cast p0, Landroid/app/Activity;
 
     sget p1, Lcom/res/provider/ResANIM;->slide_left_in:I
 
     sget p2, Lcom/res/provider/ResANIM;->slide_left_out:I
 
-    .line 11
     invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 12
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -692,7 +625,6 @@
     :catch_0
     move-exception p0
 
-    .line 13
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -705,7 +637,6 @@
 
     throw p1
 
-    .line 14
     :cond_1
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -723,7 +654,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     const-string v2, "android.intent.action.SEND"
@@ -732,10 +662,8 @@
 
     const-string v2, "image/*"
 
-    .line 2
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -746,17 +674,14 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 5
     invoke-static {v1, p2}, Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
 
     move-result-object p1
 
     invoke-virtual {p0, p1, p3}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -769,7 +694,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     const-string v2, "android.intent.action.SEND"
@@ -778,10 +702,8 @@
 
     const-string v2, "image/*"
 
-    .line 2
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -792,17 +714,14 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 5
     invoke-static {v1, p2}, Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -820,27 +739,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
     const-string v2, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 5
     invoke-static {p0, p2}, Lcom/commsource/util/common/m;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -851,15 +765,12 @@
 
     const-string p1, "image/jpeg"
 
-    .line 6
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     const/4 p1, 0x1
 
-    .line 7
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 8
     :try_start_0
     invoke-virtual {p0, v1, p3}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
 
@@ -867,12 +778,10 @@
 
     sget p2, Lcom/res/provider/ResANIM;->slide_left_out:I
 
-    .line 9
     invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -880,7 +789,6 @@
     :catch_0
     move-exception p0
 
-    .line 11
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -893,7 +801,6 @@
 
     throw p1
 
-    .line 12
     :cond_0
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -916,64 +823,52 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
     const-string v2, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string p1, "android.intent.extra.STREAM"
 
-    .line 5
     invoke-virtual {v1, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     const-string p1, "image/jpeg"
 
-    .line 6
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     const/4 p1, 0x1
 
-    .line 7
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 8
     :try_start_0
     instance-of p1, p0, Landroid/app/Activity;
 
     if-eqz p1, :cond_0
 
-    .line 9
     move-object p1, p0
 
     check-cast p1, Landroid/app/Activity;
 
     const/4 p2, 0x0
 
-    .line 10
     invoke-virtual {p1, p2, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
 
-    .line 11
     :cond_0
     invoke-virtual {p0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -981,7 +876,6 @@
     :catch_0
     move-exception p0
 
-    .line 13
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -994,7 +888,6 @@
 
     throw p1
 
-    .line 14
     :cond_1
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -1017,27 +910,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
     const-string v2, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 5
     invoke-static {p0, p2}, Lcom/commsource/util/common/m;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -1048,36 +936,29 @@
 
     const-string p1, "image/jpeg"
 
-    .line 6
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     const/4 p1, 0x1
 
-    .line 7
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 8
     :try_start_0
     invoke-virtual {p0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 9
     instance-of p1, p0, Landroid/app/Activity;
 
     if-eqz p1, :cond_0
 
-    .line 10
     check-cast p0, Landroid/app/Activity;
 
     sget p1, Lcom/res/provider/ResANIM;->slide_left_in:I
 
     sget p2, Lcom/res/provider/ResANIM;->slide_left_out:I
 
-    .line 11
     invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 12
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1086,7 +967,6 @@
     :catch_0
     move-exception p0
 
-    .line 13
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -1099,7 +979,6 @@
 
     throw p1
 
-    .line 14
     :cond_1
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -1122,48 +1001,39 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
     const-string v2, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string p1, "android.intent.extra.STREAM"
 
-    .line 5
     invoke-virtual {v1, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     const/4 p1, 0x1
 
-    .line 6
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const-string p1, "video/mp4"
 
-    .line 7
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 8
     :try_start_0
     invoke-virtual {p0, v1, p3}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1171,7 +1041,6 @@
     :catch_0
     move-exception p0
 
-    .line 10
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -1184,7 +1053,6 @@
 
     throw p1
 
-    .line 11
     :cond_0
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -1207,27 +1075,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
     const-string v2, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 5
     invoke-static {p0, p2}, Lcom/commsource/util/common/m;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -1238,21 +1101,17 @@
 
     const/4 p1, 0x1
 
-    .line 6
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const-string p1, "video/mp4"
 
-    .line 7
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 8
     :try_start_0
     invoke-virtual {p0, v1, p3}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1260,7 +1119,6 @@
     :catch_0
     move-exception p0
 
-    .line 10
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -1273,7 +1131,6 @@
 
     throw p1
 
-    .line 11
     :cond_0
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -1296,48 +1153,39 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
     const-string v2, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string p1, "android.intent.extra.STREAM"
 
-    .line 5
     invoke-virtual {v1, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     const/4 p1, 0x1
 
-    .line 6
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const-string p1, "video/mp4"
 
-    .line 7
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 8
     :try_start_0
     invoke-virtual {p0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1345,7 +1193,6 @@
     :catch_0
     move-exception p0
 
-    .line 10
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -1358,7 +1205,6 @@
 
     throw p1
 
-    .line 11
     :cond_0
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -1381,27 +1227,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
     const-string v2, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 5
     invoke-static {p0, p2}, Lcom/commsource/util/common/m;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -1412,21 +1253,17 @@
 
     const/4 p1, 0x1
 
-    .line 6
     invoke-virtual {v1, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     const-string p1, "video/mp4"
 
-    .line 7
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 8
     :try_start_0
     invoke-virtual {p0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1434,7 +1271,6 @@
     :catch_0
     move-exception p0
 
-    .line 10
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -1447,7 +1283,6 @@
 
     throw p1
 
-    .line 11
     :cond_0
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -1472,34 +1307,28 @@
 
     const-string v1, "com.tencent.mm"
 
-    .line 1
     invoke-static {p0, v1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 2
     new-instance v2, Landroid/content/Intent;
 
     invoke-direct {v2}, Landroid/content/Intent;-><init>()V
 
     const-string v3, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     new-instance v3, Landroid/content/ComponentName;
 
     const-string v4, "com.tencent.mm.ui.tools.ShareImgUI"
 
     invoke-direct {v3, v1, v4}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
-    .line 6
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -1510,21 +1339,17 @@
 
     const-string p1, "image/jpeg"
 
-    .line 7
     invoke-virtual {v2, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     const/4 p1, 0x1
 
-    .line 8
     invoke-virtual {v2, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 9
     :try_start_0
     invoke-virtual {p0, v2, p2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1532,7 +1357,6 @@
     :catch_0
     move-exception p0
 
-    .line 11
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -1545,7 +1369,6 @@
 
     throw p1
 
-    .line 12
     :cond_0
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -1570,54 +1393,44 @@
 
     const-string v1, "com.tencent.mm"
 
-    .line 1
     invoke-static {p0, v1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 2
     new-instance v2, Landroid/content/Intent;
 
     invoke-direct {v2}, Landroid/content/Intent;-><init>()V
 
     const-string v3, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     new-instance v3, Landroid/content/ComponentName;
 
     const-string v4, "com.tencent.mm.ui.tools.ShareImgUI"
 
     invoke-direct {v3, v1, v4}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
-    .line 6
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
 
     const-string v1, "android.intent.extra.STREAM"
 
-    .line 7
     invoke-virtual {v2, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     const-string v1, "image/jpeg"
 
-    .line 8
     invoke-virtual {v2, v1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     const/4 v1, 0x1
 
-    .line 9
     invoke-virtual {v2, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 10
     :try_start_0
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -1627,20 +1440,17 @@
 
     const-string v1, "output"
 
-    .line 11
     invoke-static {v1, p1}, Landroid/content/ClipData;->newRawUri(Ljava/lang/CharSequence;Landroid/net/Uri;)Landroid/content/ClipData;
 
     move-result-object p1
 
     invoke-virtual {v2, p1}, Landroid/content/Intent;->setClipData(Landroid/content/ClipData;)V
 
-    .line 12
     :cond_0
     invoke-virtual {p0, v2}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1648,7 +1458,6 @@
     :catch_0
     move-exception p0
 
-    .line 14
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -1661,7 +1470,6 @@
 
     throw p1
 
-    .line 15
     :cond_1
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -1686,34 +1494,28 @@
 
     const-string v1, "com.tencent.mm"
 
-    .line 1
     invoke-static {p0, v1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 2
     new-instance v2, Landroid/content/Intent;
 
     invoke-direct {v2}, Landroid/content/Intent;-><init>()V
 
     const-string v3, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     new-instance v3, Landroid/content/ComponentName;
 
     const-string v4, "com.tencent.mm.ui.tools.ShareToTimeLineUI"
 
     invoke-direct {v3, v1, v4}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
-    .line 6
     invoke-static {p0, p1}, Lcom/commsource/util/common/m;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
@@ -1724,21 +1526,17 @@
 
     const-string p1, "image/jpeg"
 
-    .line 7
     invoke-virtual {v2, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     const/4 p1, 0x1
 
-    .line 8
     invoke-virtual {v2, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 9
     :try_start_0
     invoke-virtual {p0, v2, p2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1746,7 +1544,6 @@
     :catch_0
     move-exception p0
 
-    .line 11
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -1759,7 +1556,6 @@
 
     throw p1
 
-    .line 12
     :cond_0
     new-instance p0, Landroid/content/ActivityNotFoundException;
 
@@ -1784,34 +1580,28 @@
 
     const-string v1, "com.tencent.mm"
 
-    .line 1
     invoke-static {p0, v1}, Lcom/commsource/util/common/m;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 2
     new-instance v2, Landroid/content/Intent;
 
     invoke-direct {v2}, Landroid/content/Intent;-><init>()V
 
     const-string v3, "android.intent.action.SEND"
 
-    .line 3
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     new-instance v3, Landroid/content/ComponentName;
 
     const-string v4, "com.tencent.mm.ui.tools.ShareToTimeLineUI"
 
     invoke-direct {v3, v1, v4}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
-    .line 6
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -1826,21 +1616,17 @@
 
     const-string p1, "image/jpeg"
 
-    .line 7
     invoke-virtual {v2, p1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     const/4 p1, 0x1
 
-    .line 8
     invoke-virtual {v2, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 9
     :try_start_0
     invoke-virtual {p0, v2}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1848,7 +1634,6 @@
     :catch_0
     move-exception p0
 
-    .line 11
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
@@ -1861,7 +1646,6 @@
 
     throw p1
 
-    .line 12
     :cond_0
     new-instance p0, Landroid/content/ActivityNotFoundException;
 

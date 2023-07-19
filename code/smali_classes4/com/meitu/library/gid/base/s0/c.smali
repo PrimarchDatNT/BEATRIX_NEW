@@ -271,7 +271,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v3, Ljava/util/HashSet;
 
     const/16 v4, 0x14
@@ -280,7 +279,6 @@
 
     sput-object v3, Lcom/meitu/library/gid/base/s0/c;->e:Ljava/util/HashSet;
 
-    .line 2
     new-instance v3, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v4, "GID"
@@ -293,7 +291,6 @@
 
     sput-object v3, Lcom/meitu/library/gid/base/s0/c;->f:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 3
     new-instance v3, Lcom/meitu/library/gid/base/s0/c;
 
     const-wide/16 v7, 0x0
@@ -308,7 +305,6 @@
 
     sput-object v3, Lcom/meitu/library/gid/base/s0/c;->g:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 4
     new-instance v3, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v7, "D_IMEI"
@@ -319,7 +315,6 @@
 
     sput-object v3, Lcom/meitu/library/gid/base/s0/c;->h:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 5
     new-instance v3, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v7, "D_ICC_ID"
@@ -328,7 +323,6 @@
 
     sput-object v3, Lcom/meitu/library/gid/base/s0/c;->i:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 6
     new-instance v3, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v7, "D_ANDROID_ID"
@@ -337,7 +331,6 @@
 
     sput-object v3, Lcom/meitu/library/gid/base/s0/c;->j:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 7
     new-instance v3, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v7, "D_G_UUID"
@@ -346,7 +339,6 @@
 
     sput-object v3, Lcom/meitu/library/gid/base/s0/c;->k:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 8
     new-instance v3, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v7, "N_ANDROID_UPDATE_COUNT"
@@ -355,7 +347,6 @@
 
     sput-object v3, Lcom/meitu/library/gid/base/s0/c;->l:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 9
     new-instance v3, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v7, "SWITCHER"
@@ -366,7 +357,6 @@
 
     sput-object v3, Lcom/meitu/library/gid/base/s0/c;->m:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 10
     new-instance v3, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v7, "LAST_TIME_GET_APPS"
@@ -375,7 +365,6 @@
 
     sput-object v3, Lcom/meitu/library/gid/base/s0/c;->n:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 11
     new-instance v3, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v7, "LAST_TIME_LAUNCH_STARTED"
@@ -384,7 +373,6 @@
 
     sput-object v3, Lcom/meitu/library/gid/base/s0/c;->o:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 12
     new-instance v0, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v3, "CLOUD_CONTROL"
@@ -393,7 +381,6 @@
 
     sput-object v0, Lcom/meitu/library/gid/base/s0/c;->p:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 13
     new-instance v0, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v3, "EMERGENCY_CLOUD_CONTROL"
@@ -402,7 +389,6 @@
 
     sput-object v0, Lcom/meitu/library/gid/base/s0/c;->q:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 14
     new-instance v0, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v3, "O_IMEI"
@@ -411,7 +397,6 @@
 
     sput-object v0, Lcom/meitu/library/gid/base/s0/c;->r:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 15
     new-instance v0, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v3, "O_ICC_ID"
@@ -420,7 +405,6 @@
 
     sput-object v0, Lcom/meitu/library/gid/base/s0/c;->s:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 16
     new-instance v0, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v3, "O_ANDROID_ID"
@@ -429,7 +413,6 @@
 
     sput-object v0, Lcom/meitu/library/gid/base/s0/c;->t:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 17
     new-instance v0, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v3, "O_ADS"
@@ -438,7 +421,6 @@
 
     sput-object v0, Lcom/meitu/library/gid/base/s0/c;->u:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 18
     new-instance v0, Lcom/meitu/library/gid/base/s0/c;
 
     sget-object v3, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
@@ -451,7 +433,6 @@
 
     sput-object v0, Lcom/meitu/library/gid/base/s0/c;->v:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 19
     new-instance v0, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v3, "DEVICE_ID_UDID"
@@ -460,7 +441,6 @@
 
     sput-object v0, Lcom/meitu/library/gid/base/s0/c;->w:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 20
     new-instance v0, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v3, "DEVICE_ID_OAID"
@@ -469,7 +449,6 @@
 
     sput-object v0, Lcom/meitu/library/gid/base/s0/c;->x:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 21
     new-instance v0, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v3, "DEVICE_ID_VAID"
@@ -478,7 +457,6 @@
 
     sput-object v0, Lcom/meitu/library/gid/base/s0/c;->y:Lcom/meitu/library/gid/base/s0/c;
 
-    .line 22
     new-instance v0, Lcom/meitu/library/gid/base/s0/c;
 
     const-string v3, "DEVICE_ID_AAID"
@@ -504,24 +482,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/gid/base/s0/c;->a:Ljava/lang/String;
 
-    .line 3
     iput-boolean p2, p0, Lcom/meitu/library/gid/base/s0/c;->b:Z
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/library/gid/base/s0/c;->c:Ljava/lang/Object;
 
-    .line 5
     iput-object p4, p0, Lcom/meitu/library/gid/base/s0/c;->d:Ljava/lang/Class;
 
     if-eqz p2, :cond_0
 
-    .line 6
     sget-object p2, Lcom/meitu/library/gid/base/s0/c;->e:Ljava/util/HashSet;
 
     invoke-virtual {p2, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -537,7 +509,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/gid/base/s0/c;->e:Ljava/util/HashSet;
 
     invoke-virtual {v1, p0}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z

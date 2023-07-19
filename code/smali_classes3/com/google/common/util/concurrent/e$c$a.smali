@@ -61,25 +61,20 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/e$c;Lcom/google/common/util/concurrent/f;Ljava/util/concurrent/ScheduledExecutorService;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/e$c$a;->g:Lcom/google/common/util/concurrent/e$c;
 
     invoke-direct {p0}, Lcom/google/common/util/concurrent/v;-><init>()V
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-direct {p1}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
 
     iput-object p1, p0, Lcom/google/common/util/concurrent/e$c$a;->d:Ljava/util/concurrent/locks/ReentrantLock;
 
-    .line 3
     iput-object p4, p0, Lcom/google/common/util/concurrent/e$c$a;->a:Ljava/lang/Runnable;
 
-    .line 4
     iput-object p3, p0, Lcom/google/common/util/concurrent/e$c$a;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 5
     iput-object p2, p0, Lcom/google/common/util/concurrent/e$c$a;->c:Lcom/google/common/util/concurrent/f;
 
     return-void
@@ -98,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Only cancel and isCancelled is supported by this future"
@@ -116,12 +110,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/e$c$a;->a:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/e$c$a;->S0()V
 
     const/4 v0, 0x0
@@ -132,7 +124,6 @@
 .method public S0()V
     .locals 5
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/e$c$a;->g:Lcom/google/common/util/concurrent/e$c;
 
@@ -144,12 +135,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iget-object v2, p0, Lcom/google/common/util/concurrent/e$c$a;->d:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v2}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
 
-    .line 3
     :try_start_1
     iget-object v2, p0, Lcom/google/common/util/concurrent/e$c$a;->f:Ljava/util/concurrent/Future;
 
@@ -161,7 +150,6 @@
 
     if-nez v2, :cond_1
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/google/common/util/concurrent/e$c$a;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
@@ -188,7 +176,6 @@
 
     move-object v1, v0
 
-    .line 5
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/e$c$a;->d:Ljava/util/concurrent/locks/ReentrantLock;
@@ -197,7 +184,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     iget-object v0, p0, Lcom/google/common/util/concurrent/e$c$a;->c:Lcom/google/common/util/concurrent/f;
 
     invoke-virtual {v0, v1}, Lcom/google/common/util/concurrent/f;->u(Ljava/lang/Throwable;)V
@@ -208,7 +194,6 @@
     :catchall_1
     move-exception v0
 
-    .line 7
     iget-object v1, p0, Lcom/google/common/util/concurrent/e$c$a;->c:Lcom/google/common/util/concurrent/f;
 
     invoke-virtual {v1, v0}, Lcom/google/common/util/concurrent/f;->u(Ljava/lang/Throwable;)V
@@ -224,7 +209,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/e$c$a;->M0()Ljava/lang/Void;
 
     move-result-object v0
@@ -235,12 +219,10 @@
 .method public cancel(Z)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/e$c$a;->d:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/e$c$a;->f:Ljava/util/concurrent/Future;
 
@@ -250,7 +232,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/util/concurrent/e$c$a;->d:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
@@ -264,14 +245,12 @@
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    .line 4
     throw p1
 .end method
 
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/e$c$a;->J0()Ljava/util/concurrent/Future;
 
     move-result-object v0
@@ -282,12 +261,10 @@
 .method public isCancelled()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/e$c$a;->d:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/e$c$a;->f:Ljava/util/concurrent/Future;
 
@@ -297,7 +274,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/util/concurrent/e$c$a;->d:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
@@ -311,6 +287,5 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    .line 4
     throw v0
 .end method

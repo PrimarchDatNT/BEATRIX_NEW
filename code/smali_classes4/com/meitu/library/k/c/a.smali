@@ -27,26 +27,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/k/c/a;
 
     invoke-direct {v1}, Lcom/meitu/library/k/c/a;-><init>()V
 
     sput-object v1, Lcom/meitu/library/k/c/a;->d:Lcom/meitu/library/k/c/a;
 
-    .line 2
     invoke-static {}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v1
 
     sput-object v1, Lcom/meitu/library/k/c/a;->c:Ljava/util/concurrent/ExecutorService;
 
-    .line 3
     sget-object v2, Lcom/meitu/library/k/c/a$a;->a:Lcom/meitu/library/k/c/a$a;
 
     invoke-interface {v1, v2}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -55,7 +51,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -68,7 +63,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/meitu/library/k/c/a;->b:Lcom/meitu/library/k/c/c;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -83,7 +77,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p1, Lcom/meitu/library/k/c/a;->b:Lcom/meitu/library/k/c/c;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -108,7 +101,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/k/c/a;->c:Ljava/util/concurrent/ExecutorService;
 
     new-instance v2, Lcom/meitu/library/k/c/a$b;
@@ -117,7 +109,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -156,7 +147,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/k/c/a;->c:Ljava/util/concurrent/ExecutorService;
 
     new-instance v2, Lcom/meitu/library/k/c/a$d;
@@ -165,7 +155,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -202,7 +191,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/k/c/a;->c:Ljava/util/concurrent/ExecutorService;
 
     new-instance v2, Lcom/meitu/library/k/c/a$c;
@@ -211,7 +199,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -240,7 +227,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/library/k/c/a;->a:Z
 
     if-eqz v1, :cond_0
@@ -249,7 +235,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/meitu/library/k/c/d;
 
@@ -259,10 +244,8 @@
 
     const/4 p1, 0x1
 
-    .line 3
     sput-boolean p1, Lcom/meitu/library/k/c/a;->a:Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -291,7 +274,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/k/c/a;->c:Ljava/util/concurrent/ExecutorService;
 
     new-instance v2, Lcom/meitu/library/k/c/b;
@@ -300,7 +282,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

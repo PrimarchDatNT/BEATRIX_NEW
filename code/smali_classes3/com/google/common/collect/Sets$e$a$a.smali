@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/Sets$e$a;Ljava/util/BitSet;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Sets$e$a$a;->b:Lcom/google/common/collect/Sets$e$a;
 
     iput-object p2, p0, Lcom/google/common/collect/Sets$e$a$a;->a:Ljava/util/BitSet;
@@ -50,7 +49,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$e$a$a;->b:Lcom/google/common/collect/Sets$e$a;
 
     iget-object v0, v0, Lcom/google/common/collect/Sets$e$a;->d:Lcom/google/common/collect/Sets$e;
@@ -65,7 +63,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Sets$e$a$a;->a:Ljava/util/BitSet;
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
@@ -99,7 +96,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Sets$e$a$a$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/Sets$e$a$a$a;-><init>(Lcom/google/common/collect/Sets$e$a$a;)V
@@ -110,7 +106,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$e$a$a;->b:Lcom/google/common/collect/Sets$e$a;
 
     iget-object v0, v0, Lcom/google/common/collect/Sets$e$a;->d:Lcom/google/common/collect/Sets$e;

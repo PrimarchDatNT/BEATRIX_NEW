@@ -31,10 +31,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v0, Lorg/apache/http/protocol/BasicHttpContext;
 
     invoke-direct {v0}, Lorg/apache/http/protocol/BasicHttpContext;-><init>()V
@@ -47,10 +45,8 @@
 .method public constructor <init>(Lorg/apache/http/protocol/HttpContext;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/http/protocol/HttpCoreContext;->context:Lorg/apache/http/protocol/HttpContext;
 
     return-void
@@ -61,20 +57,16 @@
 
     const-string v0, "HTTP context"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     instance-of v0, p0, Lorg/apache/http/protocol/HttpCoreContext;
 
     if-eqz v0, :cond_0
 
-    .line 3
     check-cast p0, Lorg/apache/http/protocol/HttpCoreContext;
 
     return-object p0
 
-    .line 4
     :cond_0
     new-instance v0, Lorg/apache/http/protocol/HttpCoreContext;
 
@@ -86,7 +78,6 @@
 .method public static create()Lorg/apache/http/protocol/HttpCoreContext;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/apache/http/protocol/HttpCoreContext;
 
     new-instance v1, Lorg/apache/http/protocol/BasicHttpContext;
@@ -103,7 +94,6 @@
 .method public getAttribute(Ljava/lang/String;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/HttpCoreContext;->context:Lorg/apache/http/protocol/HttpContext;
 
     invoke-interface {v0, p1}, Lorg/apache/http/protocol/HttpContext;->getAttribute(Ljava/lang/String;)Ljava/lang/Object;
@@ -128,10 +118,8 @@
 
     const-string v0, "Attribute class"
 
-    .line 2
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0, p1}, Lorg/apache/http/protocol/HttpCoreContext;->getAttribute(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -142,7 +130,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     invoke-virtual {p2, p1}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -154,7 +141,6 @@
 .method public getConnection()Lorg/apache/http/HttpConnection;
     .locals 2
 
-    .line 2
     const-class v0, Lorg/apache/http/HttpConnection;
 
     const-string v1, "http.connection"
@@ -182,7 +168,6 @@
 
     const-string v0, "http.connection"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lorg/apache/http/protocol/HttpCoreContext;->getAttribute(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
@@ -195,7 +180,6 @@
 .method public getRequest()Lorg/apache/http/HttpRequest;
     .locals 2
 
-    .line 1
     const-class v0, Lorg/apache/http/HttpRequest;
 
     const-string v1, "http.request"
@@ -212,7 +196,6 @@
 .method public getResponse()Lorg/apache/http/HttpResponse;
     .locals 2
 
-    .line 1
     const-class v0, Lorg/apache/http/HttpResponse;
 
     const-string v1, "http.response"
@@ -229,7 +212,6 @@
 .method public getTargetHost()Lorg/apache/http/HttpHost;
     .locals 2
 
-    .line 1
     const-class v0, Lorg/apache/http/HttpHost;
 
     const-string v1, "http.target_host"
@@ -246,7 +228,6 @@
 .method public isRequestSent()Z
     .locals 2
 
-    .line 1
     const-class v0, Ljava/lang/Boolean;
 
     const-string v1, "http.request_sent"
@@ -259,7 +240,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v0
@@ -280,7 +260,6 @@
 .method public removeAttribute(Ljava/lang/String;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/HttpCoreContext;->context:Lorg/apache/http/protocol/HttpContext;
 
     invoke-interface {v0, p1}, Lorg/apache/http/protocol/HttpContext;->removeAttribute(Ljava/lang/String;)Ljava/lang/Object;
@@ -293,7 +272,6 @@
 .method public setAttribute(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/HttpCoreContext;->context:Lorg/apache/http/protocol/HttpContext;
 
     invoke-interface {v0, p1, p2}, Lorg/apache/http/protocol/HttpContext;->setAttribute(Ljava/lang/String;Ljava/lang/Object;)V
@@ -306,7 +284,6 @@
 
     const-string v0, "http.target_host"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lorg/apache/http/protocol/HttpCoreContext;->setAttribute(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void

@@ -27,12 +27,10 @@
 .method constructor <init>(Lcom/mopub/mobileads/MoPubFullscreen;Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubFullscreen$MoPubFullScreenWebListener;->this$0:Lcom/mopub/mobileads/MoPubFullscreen;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/mopub/mobileads/MoPubFullscreen$MoPubFullScreenWebListener;->loadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
     return-void
@@ -67,7 +65,6 @@
 .method public onFailedToLoad(Lcom/mopub/mobileads/MoPubErrorCode;)V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const/4 v1, 0x3
@@ -80,7 +77,6 @@
 
     aput-object v2, v1, v3
 
-    .line 2
     invoke-virtual {p1}, Lcom/mopub/mobileads/MoPubErrorCode;->getIntCode()I
 
     move-result v2
@@ -97,15 +93,12 @@
 
     aput-object p1, v1, v2
 
-    .line 3
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubFullscreen$MoPubFullScreenWebListener;->this$0:Lcom/mopub/mobileads/MoPubFullscreen;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/MoPubFullscreen;->markNotReady()V
 
-    .line 5
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubFullscreen$MoPubFullScreenWebListener;->loadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;->onAdLoadFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
@@ -116,7 +109,6 @@
 .method public onLoaded(Landroid/view/View;)V
     .locals 3
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_SUCCESS:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const/4 v0, 0x1
@@ -131,12 +123,10 @@
 
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubFullscreen$MoPubFullScreenWebListener;->this$0:Lcom/mopub/mobileads/MoPubFullscreen;
 
     invoke-virtual {p1}, Lcom/mopub/mobileads/MoPubFullscreen;->markReady()V
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubFullscreen$MoPubFullScreenWebListener;->loadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
     invoke-interface {p1}, Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;->onAdLoaded()V

@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,7 +37,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v2
@@ -59,7 +57,6 @@
 
     const/4 v2, 0x2
 
-    .line 2
     :try_start_0
     invoke-virtual {p3}, Ljava/lang/String;->length()I
 
@@ -87,12 +84,10 @@
 
     if-ne v3, v4, :cond_1
 
-    .line 3
     sget-object v3, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     goto :goto_1
 
-    .line 4
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -104,7 +99,6 @@
 
     aput-object p3, v4, v1
 
-    .line 5
     invoke-static {v3, v4}, Lcom/google/common/cache/d;->a(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
@@ -113,23 +107,19 @@
 
     throw p1
 
-    .line 6
     :cond_2
     sget-object v3, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
     goto :goto_1
 
-    .line 7
     :cond_3
     sget-object v3, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
     goto :goto_1
 
-    .line 8
     :cond_4
     sget-object v3, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
-    .line 9
     :goto_1
     invoke-virtual {p3}, Ljava/lang/String;->length()I
 
@@ -145,14 +135,12 @@
 
     move-result-wide v4
 
-    .line 10
     invoke-virtual {p0, p1, v4, v5, v3}, Lcom/google/common/cache/d$d;->b(Lcom/google/common/cache/d;JLjava/util/concurrent/TimeUnit;)V
     :try_end_0
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
 
     return-void
 
-    .line 11
     :catch_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -164,7 +152,6 @@
 
     const-string p2, "key %s value set to %s, must be integer"
 
-    .line 12
     invoke-static {p2, v2}, Lcom/google/common/cache/d;->a(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2

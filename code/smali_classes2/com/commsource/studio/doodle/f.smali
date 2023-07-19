@@ -33,7 +33,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentStatePagerAdapter;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
     return-void
@@ -59,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/f;->a:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -86,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/f;->a:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/f;->a:Ljava/util/List;
 
     if-eqz v1, :cond_0
@@ -130,7 +126,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-direct {v0}, Lcom/commsource/studio/doodle/DoodlePagerFragment;-><init>()V
@@ -155,7 +150,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, -0x2
@@ -180,7 +174,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/FragmentStatePagerAdapter;->instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
 
     move-result-object p1
@@ -189,7 +182,6 @@
 
     check-cast p1, Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/f;->a:Ljava/util/List;
 
     if-eqz v1, :cond_0
@@ -208,12 +200,10 @@
     :goto_0
     invoke-virtual {p1, p2}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->V(Lcom/commsource/studio/doodle/j;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 4
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 

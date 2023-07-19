@@ -20,7 +20,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/gson/GsonBuilder;
 
     invoke-direct {v0}, Lcom/google/gson/GsonBuilder;-><init>()V
@@ -41,7 +40,6 @@
 
     invoke-direct {v2}, Lcom/giphy/sdk/core/models/json/DateSerializer;-><init>()V
 
-    .line 2
     invoke-virtual {v0, v1, v2}, Lcom/google/gson/GsonBuilder;->registerTypeHierarchyAdapter(Ljava/lang/Class;Ljava/lang/Object;)Lcom/google/gson/GsonBuilder;
 
     move-result-object v0
@@ -52,7 +50,6 @@
 
     invoke-direct {v2}, Lcom/giphy/sdk/core/models/json/BooleanDeserializer;-><init>()V
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Lcom/google/gson/GsonBuilder;->registerTypeHierarchyAdapter(Ljava/lang/Class;Ljava/lang/Object;)Lcom/google/gson/GsonBuilder;
 
     move-result-object v0
@@ -63,7 +60,6 @@
 
     invoke-direct {v2}, Lcom/giphy/sdk/core/models/json/IntDeserializer;-><init>()V
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Lcom/google/gson/GsonBuilder;->registerTypeHierarchyAdapter(Ljava/lang/Class;Ljava/lang/Object;)Lcom/google/gson/GsonBuilder;
 
     move-result-object v0
@@ -72,12 +68,10 @@
 
     invoke-direct {v1}, Lcom/giphy/sdk/core/models/json/MainAdapterFactory;-><init>()V
 
-    .line 5
     invoke-virtual {v0, v1}, Lcom/google/gson/GsonBuilder;->registerTypeAdapterFactory(Lcom/google/gson/TypeAdapterFactory;)Lcom/google/gson/GsonBuilder;
 
     move-result-object v0
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/gson/GsonBuilder;->create()Lcom/google/gson/Gson;
 
     move-result-object v0
@@ -90,17 +84,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/giphy/sdk/core/threading/ApiTask;->getNetworkRequestExecutor()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession;->networkRequestExecutor:Ljava/util/concurrent/ExecutorService;
 
-    .line 3
     invoke-static {}, Lcom/giphy/sdk/core/threading/ApiTask;->getCompletionExecutor()Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -113,13 +104,10 @@
 .method public constructor <init>(Ljava/util/concurrent/ExecutorService;Ljava/util/concurrent/Executor;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     iput-object p1, p0, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession;->networkRequestExecutor:Ljava/util/concurrent/ExecutorService;
 
-    .line 6
     iput-object p2, p0, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession;->completionExecutor:Ljava/util/concurrent/Executor;
 
     return-void
@@ -134,7 +122,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession;->readJsonResponse(Ljava/net/URL;Ljava/net/HttpURLConnection;Ljava/lang/Class;)Lcom/giphy/sdk/core/network/response/GenericResponse;
 
     move-result-object p0
@@ -171,7 +158,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v0
@@ -202,7 +188,6 @@
     :goto_1
     if-eqz v1, :cond_2
 
-    .line 2
     new-instance v2, Ljava/io/BufferedReader;
 
     new-instance v3, Ljava/io/InputStreamReader;
@@ -217,7 +202,6 @@
 
     goto :goto_2
 
-    .line 3
     :cond_2
     new-instance v2, Ljava/io/BufferedReader;
 
@@ -231,13 +215,11 @@
 
     invoke-direct {v2, v3}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 
-    .line 4
     :goto_2
     new-instance p2, Ljava/io/StringWriter;
 
     invoke-direct {p2}, Ljava/io/StringWriter;-><init>()V
 
-    .line 5
     :goto_3
     invoke-virtual {v2}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -245,12 +227,10 @@
 
     if-eqz v3, :cond_3
 
-    .line 6
     invoke-virtual {p2, v3}, Ljava/io/StringWriter;->append(Ljava/lang/CharSequence;)Ljava/io/StringWriter;
 
     goto :goto_3
 
-    .line 7
     :cond_3
     invoke-virtual {p2}, Ljava/io/StringWriter;->toString()Ljava/lang/String;
 
@@ -258,7 +238,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 8
     sget-object p1, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession;->GSON_INSTANCE:Lcom/google/gson/Gson;
 
     invoke-virtual {p1, p2, p3}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
@@ -280,7 +259,6 @@
 
     goto :goto_4
 
-    .line 9
     :cond_5
     new-instance p2, Lcom/giphy/sdk/core/network/engine/ApiException;
 
@@ -314,7 +292,6 @@
 
     throw p2
 
-    .line 10
     :cond_6
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -328,7 +305,6 @@
 
     invoke-static {p3, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 11
     :goto_4
     :try_start_0
     new-instance p3, Lcom/giphy/sdk/core/network/engine/ApiException;
@@ -352,7 +328,6 @@
     :catch_0
     move-exception p3
 
-    .line 12
     new-instance v1, Lcom/giphy/sdk/core/network/engine/ApiException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -445,7 +420,6 @@
 
     move-object v8, p0
 
-    .line 1
     new-instance v9, Lcom/giphy/sdk/core/threading/ApiTask;
 
     new-instance v10, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession$1;

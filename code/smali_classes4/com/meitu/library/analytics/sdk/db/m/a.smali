@@ -65,7 +65,6 @@
 
     const/4 v1, -0x1
 
-    .line 1
     sput v1, Lcom/meitu/library/analytics/sdk/db/m/a;->t:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -76,32 +75,24 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->c:Ljava/lang/String;
 
-    .line 5
     iput-object p4, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->d:Ljava/lang/String;
 
-    .line 6
     iput p5, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->e:I
 
     const/4 p1, 0x0
 
-    .line 7
     iput-boolean p1, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->f:Z
 
     const/4 p1, 0x1
 
-    .line 8
     iput p1, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->g:I
 
     return-void
@@ -110,28 +101,20 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZI)V
     .locals 0
 
-    .line 9
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 10
     iput-object p1, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->a:Ljava/lang/String;
 
-    .line 11
     iput-object p2, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->b:Ljava/lang/String;
 
-    .line 12
     iput-object p3, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->c:Ljava/lang/String;
 
-    .line 13
     iput-object p4, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->d:Ljava/lang/String;
 
-    .line 14
     iput p5, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->e:I
 
-    .line 15
     iput-boolean p6, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->f:Z
 
-    .line 16
     iput p7, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->g:I
 
     return-void
@@ -152,12 +135,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v9, Lcom/meitu/library/analytics/sdk/db/m/a;
 
@@ -169,28 +150,24 @@
 
     const-string v1, "model_id"
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/content/ContentValues;->getAsString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     const-string v1, "from"
 
-    .line 4
     invoke-virtual {p0, v1}, Landroid/content/ContentValues;->getAsString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     const-string v1, "info"
 
-    .line 5
     invoke-virtual {p0, v1}, Landroid/content/ContentValues;->getAsString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
     const-string v1, "limit"
 
-    .line 6
     invoke-virtual {p0, v1}, Landroid/content/ContentValues;->getAsInteger(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object v1
@@ -201,7 +178,6 @@
 
     const-string v1, "is_update"
 
-    .line 7
     invoke-virtual {p0, v1}, Landroid/content/ContentValues;->getAsBoolean(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v7
@@ -210,7 +186,6 @@
 
     move-result v7
 
-    .line 8
     invoke-virtual {p0, v1}, Landroid/content/ContentValues;->getAsInteger(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object p0
@@ -223,7 +198,6 @@
 
     invoke-direct/range {v1 .. v8}, Lcom/meitu/library/analytics/sdk/db/m/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZI)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v9
@@ -236,17 +210,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/library/analytics/sdk/db/m/a;->t:I
 
     if-ltz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -256,7 +227,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/content/f;->v()Lcom/meitu/library/analytics/y/d/a;
 
     move-result-object v3
@@ -265,7 +235,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/content/f;->v()Lcom/meitu/library/analytics/y/d/a;
 
@@ -277,12 +246,10 @@
 
     sput v1, Lcom/meitu/library/analytics/sdk/db/m/a;->t:I
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 7
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -299,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Lcom/google/gson/JsonObject;
 
@@ -307,40 +273,34 @@
 
     const-string v2, "trace_id"
 
-    .line 2
     iget-object v3, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->a:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v2, "model_id"
 
-    .line 3
     iget-object v3, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->b:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v2, "from"
 
-    .line 4
     iget-object v3, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->c:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v2, "info"
 
-    .line 5
     iget-object v3, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->d:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Lcom/google/gson/JsonObject;->addProperty(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 7
     :catch_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -364,7 +324,6 @@
 
     const/4 v1, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -377,7 +336,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->e:I
 
     const/4 v2, 0x1
@@ -406,40 +364,34 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/ContentValues;
 
     invoke-direct {v1}, Landroid/content/ContentValues;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->a:Ljava/lang/String;
 
     const-string v3, "trace_id"
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->b:Ljava/lang/String;
 
     const-string v3, "model_id"
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->c:Ljava/lang/String;
 
     const-string v3, "from"
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->d:Ljava/lang/String;
 
     const-string v3, "info"
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget v2, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->e:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -450,7 +402,6 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
-    .line 7
     iget-boolean v2, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->f:Z
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -461,7 +412,6 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Boolean;)V
 
-    .line 8
     iget v2, p0, Lcom/meitu/library/analytics/sdk/db/m/a;->g:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -470,7 +420,6 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -483,7 +432,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

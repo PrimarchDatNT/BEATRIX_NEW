@@ -25,7 +25,6 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -34,7 +33,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$PolicyException;-><init>(Ljava/lang/String;)V
 
     return-void

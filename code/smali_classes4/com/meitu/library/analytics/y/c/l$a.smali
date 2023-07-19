@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/y/c/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/y/c/l$a;->a:Lcom/meitu/library/analytics/y/c/l;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -39,7 +38,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/analytics/y/c/l$a;->a:Lcom/meitu/library/analytics/y/c/l;
 
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
@@ -48,7 +46,6 @@
 
     invoke-static {v0, p1}, Lcom/meitu/library/analytics/y/c/l;->e(Lcom/meitu/library/analytics/y/c/l;Landroid/content/Context;)V
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

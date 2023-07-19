@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,19 +35,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/gdprsdk/GDPRManager;->b:Lcom/meitu/library/gdprsdk/GDPRManager$e;
 
     invoke-interface {v1, p1}, Lcom/meitu/library/gdprsdk/GDPRManager$e;->b(Landroid/content/Context;)Lcom/meitu/library/gdprsdk/GDPRManager$GDPR_STATE;
 
     move-result-object v1
 
-    .line 2
     sget-object v2, Lcom/meitu/library/gdprsdk/GDPRManager$GDPR_STATE;->UNAVAILABLE:Lcom/meitu/library/gdprsdk/GDPRManager$GDPR_STATE;
 
     if-eq v1, v2, :cond_1
 
-    .line 3
     sget-object p1, Lcom/meitu/library/gdprsdk/GDPRManager$GDPR_STATE;->IN_GDPR:Lcom/meitu/library/gdprsdk/GDPRManager$GDPR_STATE;
 
     if-ne v1, p1, :cond_0
@@ -65,7 +61,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     sget-object v1, Lcom/meitu/library/gdprsdk/GDPRManager;->a:Lcom/meitu/library/gdprsdk/GDPRManager$d;
 

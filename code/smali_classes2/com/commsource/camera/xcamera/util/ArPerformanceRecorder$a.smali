@@ -43,21 +43,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder$a;->a:Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->j(Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder$a;->a:Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->d(Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;)Ljava/util/List;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -83,7 +80,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -117,7 +113,6 @@
 
     float-to-int v1, v1
 
-    .line 5
     sget-object v2, Lcom/commsource/camera/xcamera/util/b;->b:Lcom/commsource/camera/xcamera/util/b;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/util/b;->a()Lcom/commsource/camera/xcamera/bean/b;
@@ -126,14 +121,12 @@
 
     if-eqz v2, :cond_b
 
-    .line 6
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/bean/b;->a()Ljava/util/List;
 
     move-result-object v3
 
     if-nez v3, :cond_1
 
-    .line 7
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
@@ -143,7 +136,6 @@
     :cond_1
     const/4 v3, 0x0
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/bean/b;->a()Ljava/util/List;
 
     move-result-object v4
@@ -152,7 +144,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 9
     :cond_2
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -172,7 +163,6 @@
 
     check-cast v5, Lcom/commsource/camera/xcamera/bean/b$a;
 
-    .line 10
     invoke-virtual {v5}, Lcom/commsource/camera/xcamera/bean/b$a;->a()Ljava/lang/Integer;
 
     move-result-object v6
@@ -203,7 +193,6 @@
 
     if-nez v3, :cond_6
 
-    .line 11
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
@@ -217,7 +206,6 @@
 
     if-nez v3, :cond_7
 
-    .line 12
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
@@ -229,7 +217,6 @@
 
     if-nez v3, :cond_8
 
-    .line 13
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_8
@@ -247,13 +234,11 @@
 
     goto :goto_2
 
-    .line 14
     :cond_9
     new-instance v3, Lcom/commsource/camera/xcamera/bean/b$a;
 
     invoke-direct {v3}, Lcom/commsource/camera/xcamera/bean/b$a;-><init>()V
 
-    .line 15
     iget-object v4, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder$a;->a:Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;
 
     invoke-static {v4}, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->a(Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;)I
@@ -266,14 +251,12 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/camera/xcamera/bean/b$a;->h(Ljava/lang/Integer;)V
 
-    .line 16
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
     invoke-virtual {v3, v1}, Lcom/commsource/camera/xcamera/bean/b$a;->j(Ljava/lang/Integer;)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder$a;->a:Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->b(Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;)J
@@ -286,7 +269,6 @@
 
     invoke-virtual {v3, v1}, Lcom/commsource/camera/xcamera/bean/b$a;->m(Ljava/lang/Long;)V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder$a;->a:Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->c(Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;)Ljava/lang/String;
@@ -295,7 +277,6 @@
 
     invoke-virtual {v3, v1}, Lcom/commsource/camera/xcamera/bean/b$a;->l(Ljava/lang/String;)V
 
-    .line 19
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/bean/b;->a()Ljava/util/List;
 
     move-result-object v1
@@ -307,7 +288,6 @@
     :cond_a
     invoke-interface {v1, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 20
     :cond_b
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -96,18 +96,14 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->f:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
     invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->a:Ljava/lang/Object;
 
-    .line 3
     iput-object p3, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
-    .line 4
     iput-object p4, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->c:Lcom/google/common/collect/AbstractMapBasedMultimap$k;
 
     if-nez p4, :cond_0
@@ -116,7 +112,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p4}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->e()Ljava/util/Collection;
 
@@ -138,17 +133,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v0}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v1, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
@@ -157,14 +149,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->f:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
     invoke-static {v1}, Lcom/google/common/collect/AbstractMapBasedMultimap;->access$208(Lcom/google/common/collect/AbstractMapBasedMultimap;)I
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b()V
 
     :cond_0
@@ -181,7 +171,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
@@ -192,13 +181,11 @@
 
     return p1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->size()I
 
     move-result v0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v1, p1}, Ljava/util/Collection;->addAll(Ljava/util/Collection;)Z
@@ -207,14 +194,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v1}, Ljava/util/Collection;->size()I
 
     move-result v1
 
-    .line 5
     iget-object v2, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->f:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
     invoke-static {v2}, Lcom/google/common/collect/AbstractMapBasedMultimap;->access$200(Lcom/google/common/collect/AbstractMapBasedMultimap;)I
@@ -229,7 +214,6 @@
 
     if-nez v0, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b()V
 
     :cond_1
@@ -239,17 +223,14 @@
 .method b()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->c:Lcom/google/common/collect/AbstractMapBasedMultimap$k;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->f:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
@@ -277,7 +258,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->c:Lcom/google/common/collect/AbstractMapBasedMultimap$k;
 
     return-object v0
@@ -286,7 +266,6 @@
 .method public clear()V
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->size()I
 
     move-result v0
@@ -295,13 +274,11 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v1}, Ljava/util/Collection;->clear()V
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->f:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
     invoke-static {v1}, Lcom/google/common/collect/AbstractMapBasedMultimap;->access$200(Lcom/google/common/collect/AbstractMapBasedMultimap;)I
@@ -312,7 +289,6 @@
 
     invoke-static {v1, v2}, Lcom/google/common/collect/AbstractMapBasedMultimap;->access$202(Lcom/google/common/collect/AbstractMapBasedMultimap;I)I
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->j()V
 
     return-void
@@ -321,10 +297,8 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v0, p1}, Ljava/util/Collection;->contains(Ljava/lang/Object;)Z
@@ -344,10 +318,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v0, p1}, Ljava/util/Collection;->containsAll(Ljava/util/Collection;)Z
@@ -367,7 +339,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     return-object v0
@@ -386,11 +357,9 @@
 
     return p1
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v0, p1}, Ljava/util/Collection;->equals(Ljava/lang/Object;)Z
@@ -408,7 +377,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->a:Ljava/lang/Object;
 
     return-object v0
@@ -417,10 +385,8 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v0}, Ljava/util/Collection;->hashCode()I
@@ -433,15 +399,12 @@
 .method i()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->c:Lcom/google/common/collect/AbstractMapBasedMultimap$k;
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->c:Lcom/google/common/collect/AbstractMapBasedMultimap$k;
 
     invoke-virtual {v0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->e()Ljava/util/Collection;
@@ -454,7 +417,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/util/ConcurrentModificationException;
 
@@ -462,7 +424,6 @@
 
     throw v0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
@@ -472,7 +433,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->f:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
     invoke-static {v0}, Lcom/google/common/collect/AbstractMapBasedMultimap;->access$000(Lcom/google/common/collect/AbstractMapBasedMultimap;)Ljava/util/Map;
@@ -489,7 +449,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 7
     iput-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     :cond_2
@@ -507,10 +466,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/AbstractMapBasedMultimap$k$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k$a;-><init>(Lcom/google/common/collect/AbstractMapBasedMultimap$k;)V
@@ -521,17 +478,14 @@
 .method j()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->c:Lcom/google/common/collect/AbstractMapBasedMultimap$k;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->j()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
@@ -541,7 +495,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->f:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
     invoke-static {v0}, Lcom/google/common/collect/AbstractMapBasedMultimap;->access$000(Lcom/google/common/collect/AbstractMapBasedMultimap;)Ljava/util/Map;
@@ -560,10 +513,8 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v0, p1}, Ljava/util/Collection;->remove(Ljava/lang/Object;)Z
@@ -572,12 +523,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->f:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
     invoke-static {v0}, Lcom/google/common/collect/AbstractMapBasedMultimap;->access$210(Lcom/google/common/collect/AbstractMapBasedMultimap;)I
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->j()V
 
     :cond_0
@@ -594,7 +543,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
@@ -605,13 +553,11 @@
 
     return p1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->size()I
 
     move-result v0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v1, p1}, Ljava/util/Collection;->removeAll(Ljava/util/Collection;)Z
@@ -620,14 +566,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v1}, Ljava/util/Collection;->size()I
 
     move-result v1
 
-    .line 5
     iget-object v2, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->f:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
     invoke-static {v2}, Lcom/google/common/collect/AbstractMapBasedMultimap;->access$200(Lcom/google/common/collect/AbstractMapBasedMultimap;)I
@@ -640,7 +584,6 @@
 
     invoke-static {v2, v3}, Lcom/google/common/collect/AbstractMapBasedMultimap;->access$202(Lcom/google/common/collect/AbstractMapBasedMultimap;I)I
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->j()V
 
     :cond_1
@@ -657,15 +600,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->size()I
 
     move-result v0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v1, p1}, Ljava/util/Collection;->retainAll(Ljava/util/Collection;)Z
@@ -674,14 +614,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v1}, Ljava/util/Collection;->size()I
 
     move-result v1
 
-    .line 5
     iget-object v2, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->f:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
     invoke-static {v2}, Lcom/google/common/collect/AbstractMapBasedMultimap;->access$200(Lcom/google/common/collect/AbstractMapBasedMultimap;)I
@@ -694,7 +632,6 @@
 
     invoke-static {v2, v3}, Lcom/google/common/collect/AbstractMapBasedMultimap;->access$202(Lcom/google/common/collect/AbstractMapBasedMultimap;I)I
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->j()V
 
     :cond_0
@@ -704,10 +641,8 @@
 .method public size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-interface {v0}, Ljava/util/Collection;->size()I
@@ -720,10 +655,8 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b:Ljava/util/Collection;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;

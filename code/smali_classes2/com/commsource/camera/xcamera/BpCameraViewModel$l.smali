@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$l;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->g1(Lcom/commsource/camera/xcamera/BpCameraViewModel;)Lcom/commsource/camera/xcamera/CameraEffectManager;
@@ -61,7 +60,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/m;->Q0(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$l;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->g1(Lcom/commsource/camera/xcamera/BpCameraViewModel;)Lcom/commsource/camera/xcamera/CameraEffectManager;
@@ -76,7 +74,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/o;->z(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$l;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->g1(Lcom/commsource/camera/xcamera/BpCameraViewModel;)Lcom/commsource/camera/xcamera/CameraEffectManager;
@@ -91,7 +88,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/u;->w(Z)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -42,10 +42,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/icing/z0;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/icing/e2$b;->b:Lcom/google/android/gms/internal/icing/e2;
 
     return-void

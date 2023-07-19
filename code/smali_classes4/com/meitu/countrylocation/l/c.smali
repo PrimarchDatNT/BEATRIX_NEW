@@ -15,7 +15,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/countrylocation/l/c;->a()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -26,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -39,7 +37,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/countrylocation/l/c;
@@ -97,14 +94,12 @@
     :try_start_0
     const-string v2, "connectivity"
 
-    .line 1
     invoke-virtual {p0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/net/ConnectivityManager;
 
-    .line 2
     sget-object v2, Lcom/meitu/countrylocation/l/c;->a:Lorg/aspectj/lang/c$b;
 
     const/4 v3, 0x0
@@ -147,12 +142,10 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-virtual {v2}, Landroid/net/NetworkInfo;->isConnected()Z
@@ -163,12 +156,10 @@
 
     if-nez v2, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -177,15 +168,12 @@
     :catch_0
     move-exception p0
 
-    .line 7
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 9
     :cond_2
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -205,17 +193,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {v1, p1, p0}, Landroid/content/pm/PackageManager;->checkPermission(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p0
@@ -242,7 +227,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -261,13 +245,11 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
@@ -278,7 +260,6 @@
 
     move-result-object p0
 
-    .line 3
     iget-object p0, p0, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -288,18 +269,15 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const-string p0, ""
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 6
     :cond_0
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -330,12 +308,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/countrylocation/l/c;->e(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
@@ -344,28 +320,24 @@
 
     invoke-virtual {v1, v2, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     sget-object p0, Landroid/os/Build$VERSION;->SDK:Ljava/lang/String;
 
     const-string v2, "osversion"
 
     invoke-virtual {v1, v2, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     sget-object p0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     const-string v2, "device"
 
     invoke-virtual {v1, v2, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object p0
 
     if-eqz p0, :cond_6
 
-    .line 6
     sget-object v2, Ljava/util/Locale;->CHINA:Ljava/util/Locale;
 
     invoke-virtual {v2, p0}, Ljava/util/Locale;->equals(Ljava/lang/Object;)Z
@@ -378,7 +350,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_0
     sget-object v2, Ljava/util/Locale;->JAPAN:Ljava/util/Locale;
 
@@ -398,7 +369,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     sget-object v2, Ljava/util/Locale;->KOREA:Ljava/util/Locale;
 
@@ -418,7 +388,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     sget-object v2, Ljava/util/Locale;->TAIWAN:Ljava/util/Locale;
 
@@ -432,7 +401,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_3
     invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
@@ -458,10 +426,8 @@
     :goto_2
     const-string v2, "lang"
 
-    .line 11
     invoke-virtual {v1, v2, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -479,14 +445,12 @@
     :try_start_0
     const-string v1, "phone"
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/telephony/TelephonyManager;
 
-    .line 2
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getSimSerialNumber()Ljava/lang/String;
 
     move-result-object p0
@@ -500,17 +464,14 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 5
     :cond_0
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -535,14 +496,12 @@
     :try_start_0
     const-string v1, "phone"
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/telephony/TelephonyManager;
 
-    .line 2
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
     move-result-object p0
@@ -556,17 +515,14 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 5
     :cond_0
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -588,7 +544,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
@@ -600,7 +555,6 @@
 
     move-result-object v2
 
-    .line 2
     new-instance v3, Ljava/io/InputStreamReader;
 
     invoke-virtual {v2}, Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
@@ -613,7 +567,6 @@
 
     invoke-direct {v3, v2, v4}, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
 
-    .line 3
     new-instance v2, Ljava/io/LineNumberReader;
 
     invoke-direct {v2, v3}, Ljava/io/LineNumberReader;-><init>(Ljava/io/Reader;)V
@@ -626,7 +579,6 @@
     :cond_0
     if-eqz v3, :cond_1
 
-    .line 4
     :try_start_1
     invoke-virtual {v2}, Ljava/io/LineNumberReader;->readLine()Ljava/lang/String;
 
@@ -634,7 +586,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-virtual {v3}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v1
@@ -649,7 +600,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     :goto_0
     :try_start_2
@@ -662,7 +612,6 @@
     :catch_1
     move-exception v2
 
-    .line 7
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_2
@@ -683,7 +632,6 @@
 
     move-object v2, v1
 
-    .line 8
     :goto_1
     :try_start_3
     invoke-virtual {v3}, Ljava/io/IOException;->printStackTrace()V
@@ -692,13 +640,11 @@
 
     if-eqz v2, :cond_2
 
-    .line 9
     :try_start_4
     invoke-virtual {v2}, Ljava/io/LineNumberReader;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_1
 
-    .line 10
     :cond_2
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -711,7 +657,6 @@
     :goto_3
     if-eqz v2, :cond_3
 
-    .line 11
     :try_start_5
     invoke-virtual {v2}, Ljava/io/LineNumberReader;->close()V
     :try_end_5
@@ -722,10 +667,8 @@
     :catch_3
     move-exception v2
 
-    .line 12
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 13
     :cond_3
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -744,14 +687,12 @@
 
     const-string v1, "phone"
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/telephony/TelephonyManager;
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -774,7 +715,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getSimState()I
 
     move-result v1
@@ -787,7 +727,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getSimCountryIso()Ljava/lang/String;
 
@@ -801,12 +740,10 @@
     :goto_0
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 6
     :cond_2
     new-instance p0, Ljava/lang/NullPointerException;
 

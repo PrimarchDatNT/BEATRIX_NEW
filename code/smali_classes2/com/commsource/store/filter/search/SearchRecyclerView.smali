@@ -95,7 +95,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -117,7 +116,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/store/filter/search/SearchRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -208,21 +206,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/filter/search/SearchRecyclerView;->a:Lcom/commsource/store/filter/search/SearchRecyclerView$a;
 
     if-eqz v1, :cond_0
 
     invoke-interface {v1}, Lcom/commsource/store/filter/search/SearchRecyclerView$a;->a()V
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Landroid/view/ViewGroup;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
@@ -242,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/filter/search/SearchRecyclerView;->a:Lcom/commsource/store/filter/search/SearchRecyclerView$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -261,7 +255,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/search/SearchRecyclerView;->a:Lcom/commsource/store/filter/search/SearchRecyclerView$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

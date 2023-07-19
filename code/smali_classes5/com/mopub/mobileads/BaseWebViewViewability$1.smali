@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/mopub/mobileads/BaseWebViewViewability$State;->values()[Lcom/mopub/mobileads/BaseWebViewViewability$State;
 
     move-result-object v0

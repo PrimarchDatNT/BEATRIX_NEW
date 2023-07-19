@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,10 +37,8 @@
 
     const-string v0, "\u65e7\u7b56\u7565"
 
-    .line 1
     sput-object v0, Lcom/commsource/util/i0;->c:Ljava/lang/String;
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->t()I
 
     move-result v0

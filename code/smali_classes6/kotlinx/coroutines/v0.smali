@@ -34,12 +34,10 @@
 
     if-gtz v2, :cond_0
 
-    .line 1
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Lcotlinx/coroutines/n;
 
@@ -51,7 +49,6 @@
 
     invoke-direct {v0, v1, v2}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
-    .line 3
     invoke-interface {v0}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v1
@@ -62,12 +59,10 @@
 
     invoke-interface {v1, p0, p1, v0}, Lcotlinx/coroutines/u0;->b(JLcotlinx/coroutines/m;)V
 
-    .line 4
     invoke-virtual {v0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 5
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p1
@@ -103,7 +98,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/v0;->d(D)J
 
     move-result-wide p0
@@ -135,7 +129,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/coroutines/d;->s:Lcotlin/coroutines/d$b;
 
     invoke-interface {p0, v0}, Lcotlin/coroutines/CoroutineContext;->get(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
@@ -169,7 +162,6 @@
     .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/i2/d;->d:Lcotlin/i2/d$a;
 
     invoke-virtual {v0}, Lcotlin/i2/d$a;->getZERO()D

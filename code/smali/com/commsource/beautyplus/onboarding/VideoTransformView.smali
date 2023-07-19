@@ -82,15 +82,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 2
     invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/q1;->c(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/q1;
 
     move-result-object p1
@@ -101,14 +98,12 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
-    .line 4
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/q1;->b:Lcom/commsource/widget/VideoPlayComponent;
 
     const/4 p2, 0x1
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/VideoPlayComponent;->setVideoLoop(Z)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -121,7 +116,6 @@
 
     invoke-virtual {p0, p1, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 6
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     const/high16 p2, 0x3f800000    # 1.0f
@@ -132,7 +126,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->d:Lcom/commsource/camera/f1/n;
 
-    .line 7
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     const v0, 0x3f666666    # 0.9f
@@ -141,14 +134,12 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->f:Lcom/commsource/camera/f1/n;
 
-    .line 8
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1, p3, p2}, Lcom/commsource/camera/f1/n;-><init>(FF)V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->g:Lcom/commsource/camera/f1/n;
 
-    .line 9
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1, v0, p2}, Lcom/commsource/camera/f1/n;-><init>(FF)V
@@ -159,7 +150,6 @@
 
     new-array p1, p1, [F
 
-    .line 10
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -168,12 +158,10 @@
 
     const-wide/16 p2, 0x1f4
 
-    .line 11
     invoke-virtual {p1, p2, p3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
-    .line 12
     new-instance p2, Lcom/commsource/beautyplus/onboarding/VideoTransformView$b;
 
     invoke-direct {p2, p0}, Lcom/commsource/beautyplus/onboarding/VideoTransformView$b;-><init>(Lcom/commsource/beautyplus/onboarding/VideoTransformView;)V
@@ -204,7 +192,6 @@
 
     const/4 p3, 0x0
 
-    .line 13
     :cond_0
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -218,7 +205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->d:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -233,7 +219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->f:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -248,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->b:Lcom/commsource/beautyplus/f0/q1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -263,7 +247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->g:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -278,7 +261,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->p:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -293,7 +275,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,7 +289,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->J:Lcom/commsource/camera/f1/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -323,7 +303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->b:Lcom/commsource/beautyplus/f0/q1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -338,7 +317,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -353,7 +331,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v2, -0x1
@@ -362,21 +339,18 @@
 
     const/16 v2, 0x1e
 
-    .line 2
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v3
 
     iput v3, v1, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v2
 
     iput v2, v1, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -395,7 +369,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->q(Ljava/lang/String;Lcotlin/jvm/u/a;)V
 
@@ -484,7 +457,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->c:Lcom/commsource/widget/VideoPlayComponent$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -501,7 +473,6 @@
 
     const/16 v1, 0xfa
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -522,7 +493,6 @@
 
     div-float/2addr v1, v2
 
-    .line 2
     new-instance v2, Landroidx/dynamicanimation/animation/SpringAnimation;
 
     iget-object v3, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
@@ -535,7 +505,6 @@
 
     invoke-direct {v2, v3, v4, v1}, Landroidx/dynamicanimation/animation/SpringAnimation;-><init>(Ljava/lang/Object;Landroidx/dynamicanimation/animation/FloatPropertyCompat;F)V
 
-    .line 3
     invoke-virtual {v2}, Landroidx/dynamicanimation/animation/SpringAnimation;->getSpring()Landroidx/dynamicanimation/animation/SpringForce;
 
     move-result-object v3
@@ -548,13 +517,10 @@
 
     const v5, 0x3f59999a    # 0.85f
 
-    .line 4
     invoke-virtual {v3, v5}, Landroidx/dynamicanimation/animation/SpringForce;->setDampingRatio(F)Landroidx/dynamicanimation/animation/SpringForce;
 
-    .line 5
     invoke-virtual {v2}, Landroidx/dynamicanimation/animation/SpringAnimation;->start()V
 
-    .line 6
     new-instance v2, Landroidx/dynamicanimation/animation/SpringAnimation;
 
     iget-object v3, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
@@ -567,7 +533,6 @@
 
     invoke-direct {v2, v3, v6, v1}, Landroidx/dynamicanimation/animation/SpringAnimation;-><init>(Ljava/lang/Object;Landroidx/dynamicanimation/animation/FloatPropertyCompat;F)V
 
-    .line 7
     invoke-virtual {v2}, Landroidx/dynamicanimation/animation/SpringAnimation;->getSpring()Landroidx/dynamicanimation/animation/SpringForce;
 
     move-result-object v1
@@ -576,13 +541,10 @@
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1, v5}, Landroidx/dynamicanimation/animation/SpringForce;->setDampingRatio(F)Landroidx/dynamicanimation/animation/SpringForce;
 
-    .line 9
     invoke-virtual {v2}, Landroidx/dynamicanimation/animation/SpringAnimation;->start()V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -601,12 +563,10 @@
 
     const/4 v2, 0x0
 
-    .line 11
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 12
     new-instance v2, Lcom/commsource/beautyplus/onboarding/VideoTransformView$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/onboarding/VideoTransformView$a;-><init>(Lcom/commsource/beautyplus/onboarding/VideoTransformView;)V
@@ -617,15 +577,12 @@
 
     const-wide/16 v2, 0x12c
 
-    .line 13
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setStartDelay(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 14
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -638,7 +595,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->J:Lcom/commsource/camera/f1/l;
 
     const-string/jumbo v2, "videoAnimation"
@@ -685,7 +641,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->b:Lcom/commsource/beautyplus/f0/q1;
 
     if-eqz v1, :cond_0
@@ -696,7 +651,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/widget/VideoPlayComponent;->t()V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
@@ -706,7 +660,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/widget/VideoPlayComponent;->t()V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -728,7 +681,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/q1;->b:Lcom/commsource/widget/VideoPlayComponent;
@@ -737,14 +689,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/VideoPlayComponent;->setOnPlayListener(Lcom/commsource/widget/VideoPlayComponent$a;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/q1;->b:Lcom/commsource/widget/VideoPlayComponent;
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/VideoPlayComponent;->x(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -778,12 +728,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
     iput-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->b:Lcom/commsource/beautyplus/f0/q1;
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -802,14 +750,12 @@
 
     iput-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
-    .line 3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/q1;->b:Lcom/commsource/widget/VideoPlayComponent;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/VideoPlayComponent;->setVideoLoop(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -824,7 +770,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -837,7 +782,6 @@
 
     invoke-virtual {p0, v1, v2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->b:Lcom/commsource/beautyplus/f0/q1;
 
     const/4 v2, 0x0
@@ -850,7 +794,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/VideoPlayComponent;->setOnPlayListener(Lcom/commsource/widget/VideoPlayComponent$a;)V
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->b:Lcom/commsource/beautyplus/f0/q1;
 
@@ -862,7 +805,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/VideoPlayComponent;->setOnStartRenderCallback(Lcotlin/jvm/u/a;)V
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
@@ -872,7 +814,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/VideoPlayComponent;->setOnPlayListener(Lcom/commsource/widget/VideoPlayComponent$a;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/q1;->b:Lcom/commsource/widget/VideoPlayComponent;
@@ -883,14 +824,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/VideoPlayComponent;->setOnStartRenderCallback(Lcotlin/jvm/u/a;)V
 
-    .line 10
     iget-object p2, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->a:Lcom/commsource/beautyplus/f0/q1;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/q1;->b:Lcom/commsource/widget/VideoPlayComponent;
 
     invoke-virtual {p2, p1}, Lcom/commsource/widget/VideoPlayComponent;->x(Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -907,7 +846,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->c:Lcom/commsource/widget/VideoPlayComponent$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

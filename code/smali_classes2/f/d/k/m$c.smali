@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/d/k/m;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/k/m$c;->a:Lf/d/k/m;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object p3, Lf/d/k/m;->k:Ljava/lang/String;
 
     const-string v0, "MTMVPlayerManager.onInfo"
@@ -59,7 +57,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p2, p0, Lf/d/k/m$c;->a:Lf/d/k/m;
 
@@ -69,7 +66,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 3
     iget-object p2, p0, Lf/d/k/m$c;->a:Lf/d/k/m;
 
     invoke-static {p2}, Lf/d/k/m;->k(Lf/d/k/m;)Lf/d/k/m$f;
@@ -80,7 +76,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p2, p0, Lf/d/k/m$c;->a:Lf/d/k/m;
 
@@ -102,7 +97,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 5
     iget-object p2, p0, Lf/d/k/m$c;->a:Lf/d/k/m;
 
     invoke-static {p2}, Lf/d/k/m;->k(Lf/d/k/m;)Lf/d/k/m$f;
@@ -123,7 +117,6 @@
 
     if-nez p2, :cond_2
 
-    .line 6
     iget-object p2, p0, Lf/d/k/m$c;->a:Lf/d/k/m;
 
     invoke-static {p2}, Lf/d/k/m;->i(Lf/d/k/m;)Lcom/meitu/mtmvcore/application/MTMVPlayer;
@@ -132,12 +125,10 @@
 
     invoke-virtual {p2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->start()V
 
-    .line 7
     iget-object p2, p0, Lf/d/k/m$c;->a:Lf/d/k/m;
 
     invoke-static {p2}, Lf/d/k/m;->l(Lf/d/k/m;)V
 
-    .line 8
     :cond_2
     iget-object p2, p0, Lf/d/k/m$c;->a:Lf/d/k/m;
 
@@ -147,7 +138,6 @@
     :goto_0
     const/4 p2, 0x0
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

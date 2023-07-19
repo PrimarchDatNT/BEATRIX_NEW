@@ -37,7 +37,6 @@
 
     invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object p0
@@ -60,7 +59,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/InitializedLazyImpl;
 
     invoke-direct {v0, p0}, Lcotlin/InitializedLazyImpl;-><init>(Ljava/lang/Object;)V

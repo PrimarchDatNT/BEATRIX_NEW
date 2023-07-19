@@ -55,7 +55,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/store/filter/b$j;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v0}, Lcom/commsource/store/filter/b;->B(Lcom/commsource/store/filter/b;)Lcom/meitu/template/bean/j;
@@ -100,12 +99,10 @@
     :goto_1
     if-eqz v0, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/filter/b$j;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v1, v0}, Lcom/commsource/store/filter/b;->F(Lcom/commsource/store/filter/b;Lcom/meitu/template/bean/j;)V
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -119,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/j;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/b$j;->a(Lcom/meitu/template/bean/j;)V

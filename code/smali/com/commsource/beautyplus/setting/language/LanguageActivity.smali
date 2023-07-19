@@ -62,10 +62,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/beautyplus/setting/language/LanguageActivity$mViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity$mViewModel$2;-><init>(Lcom/commsource/beautyplus/setting/language/LanguageActivity;)V
@@ -76,7 +74,6 @@
 
     iput-object v0, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/beautyplus/setting/language/LanguageActivity$mViewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity$mViewBinding$2;-><init>(Lcom/commsource/beautyplus/setting/language/LanguageActivity;)V
@@ -87,7 +84,6 @@
 
     iput-object v0, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->O:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/beautyplus/setting/language/LanguageActivity$mAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity$mAdapter$2;-><init>(Lcom/commsource/beautyplus/setting/language/LanguageActivity;)V
@@ -245,7 +241,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N0()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
@@ -256,7 +251,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->P0()Lcom/commsource/beautyplus/setting/language/b;
 
     move-result-object v1
@@ -267,33 +261,26 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {p0}, Lcom/commsource/util/h2;->e(Landroid/app/Activity;)V
 
-    .line 4
     invoke-super {p0}, Landroidx/activity/ComponentActivity;->onBackPressed()V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/h2;->e(Landroid/app/Activity;)V
 
     const/4 v1, 0x1
 
-    .line 6
     invoke-static {p0, v1}, Lcom/commsource/util/w0;->m(Landroid/content/Context;I)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {p0}, Lcom/commsource/util/h2;->e(Landroid/app/Activity;)V
 
-    .line 8
     invoke-super {p0}, Landroidx/activity/ComponentActivity;->onBackPressed()V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -311,10 +298,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->O0()Lcom/commsource/beautyplus/f0/m0;
 
     move-result-object p1
@@ -329,7 +314,6 @@
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(Landroid/view/View;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->O0()Lcom/commsource/beautyplus/f0/m0;
 
     move-result-object p1
@@ -348,7 +332,6 @@
 
     invoke-static {p1, v1, v2, v3, v4}, Lcom/commsource/widget/title/XTitleBar;->l(Lcom/commsource/widget/title/XTitleBar;Lcom/commsource/widget/title/a;IILjava/lang/Object;)Lcom/commsource/widget/title/XTitleBar;
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->O0()Lcom/commsource/beautyplus/f0/m0;
 
     move-result-object p1
@@ -365,7 +348,6 @@
 
     invoke-virtual {p1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->O0()Lcom/commsource/beautyplus/f0/m0;
 
     move-result-object p1
@@ -382,7 +364,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N0()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -395,7 +376,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->P0()Lcom/commsource/beautyplus/setting/language/b;
 
     move-result-object p1
@@ -410,7 +390,6 @@
 
     invoke-virtual {p1, p0, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -427,10 +406,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/FragmentActivity;->onNewIntent(Landroid/content/Intent;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->O0()Lcom/commsource/beautyplus/f0/m0;
 
     move-result-object p1
@@ -445,14 +422,12 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/title/XTitleBar;->v(Ljava/lang/String;)Lcom/commsource/widget/title/XTitleBar;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N0()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/commsource/widget/h1/e;->p()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$c;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;->F()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -70,7 +69,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$c;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;->F()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -81,7 +79,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->y(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$c$a;
 
@@ -94,7 +91,6 @@
     :cond_1
     if-nez p1, :cond_2
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$c;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -103,7 +99,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->G1()V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -117,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/giphy/sdk/core/models/Media;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$c;->a(Lcom/giphy/sdk/core/models/Media;)V

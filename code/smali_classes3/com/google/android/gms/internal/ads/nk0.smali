@@ -38,7 +38,6 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nk0;->a:Ljava/lang/String;
 
     iget-wide v4, p0, Lcom/google/android/gms/internal/ads/nk0;->b:D
@@ -49,19 +48,16 @@
 
     check-cast p1, Landroid/graphics/Bitmap;
 
-    .line 2
     new-instance v8, Lcom/google/android/gms/internal/ads/h2;
 
     new-instance v2, Landroid/graphics/drawable/BitmapDrawable;
 
-    .line 3
     invoke-static {}, Landroid/content/res/Resources;->getSystem()Landroid/content/res/Resources;
 
     move-result-object v1
 
     invoke-direct {v2, v1, p1}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
 
-    .line 4
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v3

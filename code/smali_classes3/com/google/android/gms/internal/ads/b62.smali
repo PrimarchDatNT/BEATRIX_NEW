@@ -41,17 +41,14 @@
 .method private constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/o52;->a(I)Ljava/util/List;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/b62;->a:Ljava/util/List;
 
-    .line 3
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/o52;->a(I)Ljava/util/List;
 
     move-result-object p1
@@ -64,7 +61,6 @@
 .method synthetic constructor <init>(IILcom/google/android/gms/internal/ads/c62;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/ads/b62;-><init>(II)V
 
     return-void
@@ -84,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b62;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -106,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/b62;->b:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -124,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/z52;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/b62;->a:Ljava/util/List;

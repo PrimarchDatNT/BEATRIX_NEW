@@ -39,27 +39,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_remote_config/i;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->d:Ljava/util/ArrayList;
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->e:Ljava/util/ArrayList;
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->a:Ljava/net/HttpURLConnection;
 
-    .line 5
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v2
@@ -70,18 +65,15 @@
 
     const/4 v2, 0x0
 
-    .line 6
     :cond_0
     iput v2, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->b:I
 
-    .line 7
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getResponseMessage()Ljava/lang/String;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->c:Ljava/lang/String;
 
-    .line 8
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getHeaderFields()Ljava/util/Map;
 
     move-result-object p1
@@ -107,7 +99,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 9
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
@@ -116,7 +107,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 10
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -143,10 +133,8 @@
 
     if-eqz v4, :cond_2
 
-    .line 11
     invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 12
     invoke-interface {v1, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -160,7 +148,6 @@
 .method public final a()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->a:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
@@ -176,7 +163,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->a:Ljava/net/HttpURLConnection;
 
@@ -188,7 +174,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->a:Ljava/net/HttpURLConnection;
 
@@ -203,7 +188,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/google/android/gms/internal/firebase_remote_config/s;
 
@@ -215,7 +199,6 @@
 .method public final c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->a:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getContentEncoding()Ljava/lang/String;
@@ -228,7 +211,6 @@
 .method public final d()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->a:Ljava/net/HttpURLConnection;
 
     const-string v1, "Content-Type"
@@ -243,7 +225,6 @@
 .method public final e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->c:Ljava/lang/String;
 
     return-object v0
@@ -252,7 +233,6 @@
 .method public final f()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->b:I
 
     return v0
@@ -261,7 +241,6 @@
 .method public final g()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->a:Ljava/net/HttpURLConnection;
 
     const/4 v1, 0x0
@@ -274,7 +253,6 @@
 
     const-string v1, "HTTP/1."
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -292,7 +270,6 @@
 .method public final h()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->d:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -305,7 +282,6 @@
 .method public final i(I)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->d:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -320,7 +296,6 @@
 .method public final j(I)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->e:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -335,7 +310,6 @@
 .method public final k()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p;->a:Ljava/net/HttpURLConnection;
 
     const-string v1, "Content-Length"
@@ -350,7 +324,6 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 

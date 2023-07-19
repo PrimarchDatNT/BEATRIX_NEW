@@ -28,7 +28,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/d/a/i;->a()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -39,10 +38,8 @@
 .method private constructor <init>(Ljava/lang/Thread$UncaughtExceptionHandler;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/k/d/a/i;->a:Ljava/lang/Thread$UncaughtExceptionHandler;
 
     return-void
@@ -55,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lf/k/d/a/i;
@@ -190,7 +186,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -207,7 +202,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -224,7 +218,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -241,7 +234,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -258,12 +250,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Ljava/lang/Thread;
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
     :try_end_0
@@ -292,14 +282,12 @@
     :try_start_1
     new-array v3, v2, [Ljava/lang/Class;
 
-    .line 3
     invoke-virtual {v1, v6, v3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v3
 
     new-array v4, v12, [Ljava/lang/Class;
 
-    .line 4
     const-class v6, Ljava/lang/Thread$UncaughtExceptionHandler;
 
     aput-object v6, v4, v2
@@ -310,7 +298,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     const-class v3, Ljava/lang/Class;
 
@@ -336,7 +323,6 @@
 
     aput-object v10, v4, v12
 
-    .line 6
     sget-object v6, Lf/k/d/a/i;->b:Lorg/aspectj/lang/c$b;
 
     invoke-static {v6, v10, v3, v1, v4}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -377,7 +363,6 @@
 
     new-array v5, v12, [Ljava/lang/Class;
 
-    .line 7
     const-class v13, Ljava/lang/Thread$UncaughtExceptionHandler;
 
     aput-object v13, v5, v2
@@ -423,7 +408,6 @@
     :goto_0
     new-array v4, v2, [Ljava/lang/Object;
 
-    .line 8
     sget-object v5, Lf/k/d/a/i;->d:Lorg/aspectj/lang/c$b;
 
     invoke-static {v5, v10, v3, v10, v4}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -458,7 +442,6 @@
 
     check-cast v3, Ljava/lang/Thread$UncaughtExceptionHandler;
 
-    .line 9
     new-instance v4, Lf/k/d/a/i;
 
     invoke-direct {v4, v3}, Lf/k/d/a/i;-><init>(Ljava/lang/Thread$UncaughtExceptionHandler;)V
@@ -467,7 +450,6 @@
 
     aput-object v4, v3, v2
 
-    .line 10
     sget-object v4, Lf/k/d/a/i;->f:Lorg/aspectj/lang/c$b;
 
     invoke-static {v4, v10, v1, v10, v3}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -500,12 +482,10 @@
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v12
 
-    .line 12
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -521,20 +501,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Lf/k/d/a/b;->d(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
     move-result-object p2
 
-    .line 2
     iget-object v1, p0, Lf/k/d/a/i;->a:Ljava/lang/Thread$UncaughtExceptionHandler;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1, p1, p2}, Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

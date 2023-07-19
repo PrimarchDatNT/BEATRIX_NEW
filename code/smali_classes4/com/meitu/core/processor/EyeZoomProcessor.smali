@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     move v3, p2
 
-    .line 14
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/processor/EyeZoomProcessor;->autoZoomEye(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/face/InterPoint;FFFF)Z
 
     move-result p0
@@ -61,14 +59,12 @@
 
     if-nez p0, :cond_0
 
-    .line 7
     sget-object v2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v3, "effectcore autoZoomEye bitmap is null."
 
     invoke-static {v2, v3}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -78,12 +74,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 9
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 10
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -104,12 +98,10 @@
 
     move-result v3
 
-    .line 11
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 12
     sget-object v6, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -156,7 +148,6 @@
 
     move v1, v3
 
-    .line 13
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -174,7 +165,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -182,26 +172,22 @@
     :cond_0
     const-string v1, "eyesMax"
 
-    .line 2
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v5
 
     const-string v1, "fdegree"
 
-    .line 3
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v6
 
     const-string v1, "waiweicanshu"
 
-    .line 4
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v7
 
-    .line 5
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -236,7 +222,6 @@
 
     move v4, p3
 
-    .line 6
     invoke-static/range {v2 .. v7}, Lcom/meitu/core/processor/EyeZoomProcessor;->autoZoomEye(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/face/InterPoint;FFFF)Z
 
     move-result p0
@@ -265,7 +250,6 @@
 
     move v3, p2
 
-    .line 1
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/processor/EyeZoomProcessor;->autoZoomEyeMultiple(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/face/InterPoint;FFFF)Z
 
     move-result p0
@@ -286,14 +270,12 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     sget-object v2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v3, "effectcore autoZoomEyeMultiple bitmap is null."
 
     invoke-static {v2, v3}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -303,12 +285,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -329,12 +309,10 @@
 
     move-result v3
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 7
     sget-object v6, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -381,7 +359,6 @@
 
     move v1, v3
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -414,19 +391,16 @@
 
     if-nez p0, :cond_0
 
-    .line 9
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore renderProc bitmap is null."
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 11
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -438,7 +412,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_1
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
@@ -448,12 +421,10 @@
 
     move-result p1
 
-    .line 13
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p2
 
-    .line 14
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -498,12 +469,10 @@
 
     invoke-static {v1, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 16
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -522,19 +491,16 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore renderProc bitmap is null."
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -546,7 +512,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
@@ -564,12 +529,10 @@
 
     move-result p1
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p2
 
-    .line 6
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -614,12 +577,10 @@
 
     invoke-static {v1, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 8
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

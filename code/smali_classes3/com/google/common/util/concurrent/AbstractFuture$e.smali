@@ -102,22 +102,16 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/util/concurrent/AbstractFuture$b;-><init>(Lcom/google/common/util/concurrent/AbstractFuture$a;)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/util/concurrent/AbstractFuture$e;->a:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
-    .line 3
     iput-object p2, p0, Lcom/google/common/util/concurrent/AbstractFuture$e;->b:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
-    .line 4
     iput-object p3, p0, Lcom/google/common/util/concurrent/AbstractFuture$e;->c:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
-    .line 5
     iput-object p4, p0, Lcom/google/common/util/concurrent/AbstractFuture$e;->d:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
-    .line 6
     iput-object p5, p0, Lcom/google/common/util/concurrent/AbstractFuture$e;->e:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     return-void
@@ -138,7 +132,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/AbstractFuture$e;->d:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -161,7 +154,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/AbstractFuture$e;->e:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -184,7 +176,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/AbstractFuture$e;->c:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -197,7 +188,6 @@
 .method d(Lcom/google/common/util/concurrent/AbstractFuture$k;Lcom/google/common/util/concurrent/AbstractFuture$k;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/AbstractFuture$e;->b:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->lazySet(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -208,7 +198,6 @@
 .method e(Lcom/google/common/util/concurrent/AbstractFuture$k;Ljava/lang/Thread;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/AbstractFuture$e;->a:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->lazySet(Ljava/lang/Object;Ljava/lang/Object;)V

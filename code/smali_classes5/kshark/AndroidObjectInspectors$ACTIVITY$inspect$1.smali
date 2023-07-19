@@ -62,7 +62,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/v;
 
     check-cast p2, Lkshark/HeapObject$HeapInstance;
@@ -97,14 +96,12 @@
 
     const-string v1, "mDestroyed"
 
-    .line 2
     invoke-virtual {p2, v0, v1}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p2
 
     if-eqz p2, :cond_2
 
-    .line 3
     invoke-virtual {p2}, Lkshark/h;->c()Lkshark/j;
 
     move-result-object v0
@@ -124,7 +121,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Lkshark/v;->c()Ljava/util/Set;
 
     move-result-object p1
@@ -139,7 +135,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Lkshark/v;->e()Ljava/util/Set;
 

@@ -48,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/cache/LocalCache;
 
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
@@ -76,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache$LocalLoadingCache;->getUnchecked(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -98,7 +96,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$LocalManualCache;->localCache:Lcom/google/common/cache/LocalCache;
 
     invoke-virtual {v0, p1}, Lcom/google/common/cache/LocalCache;->t(Ljava/lang/Object;)Ljava/lang/Object;
@@ -126,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$LocalManualCache;->localCache:Lcom/google/common/cache/LocalCache;
 
     invoke-virtual {v0, p1}, Lcom/google/common/cache/LocalCache;->n(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMap;
@@ -144,7 +140,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache$LocalLoadingCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -157,7 +152,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Lcom/google/common/util/concurrent/UncheckedExecutionException;
 
     invoke-virtual {p1}, Ljava/util/concurrent/ExecutionException;->getCause()Ljava/lang/Throwable;
@@ -177,7 +171,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$LocalManualCache;->localCache:Lcom/google/common/cache/LocalCache;
 
     invoke-virtual {v0, p1}, Lcom/google/common/cache/LocalCache;->M(Ljava/lang/Object;)V
@@ -188,7 +181,6 @@
 .method writeReplace()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;
 
     iget-object v1, p0, Lcom/google/common/cache/LocalCache$LocalManualCache;->localCache:Lcom/google/common/cache/LocalCache;

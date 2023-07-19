@@ -27,15 +27,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/cct/a/j;-><init>()V
 
     const-string v0, "Null logRequests"
 
-    .line 2
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/d;->a:Ljava/util/List;
 
     return-void
@@ -61,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/cct/a/d;->a:Ljava/util/List;
 
     return-object v0
@@ -76,16 +72,13 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/google/android/datatransport/cct/a/j;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p1, Lcom/google/android/datatransport/cct/a/j;
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/datatransport/cct/a/d;->a:Ljava/util/List;
 
     invoke-virtual {p1}, Lcom/google/android/datatransport/cct/a/j;->b()Ljava/util/List;
@@ -107,7 +100,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/cct/a/d;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->hashCode()I
@@ -124,7 +116,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

@@ -69,43 +69,30 @@
 .method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/ImageView;Lcom/commsource/widget/AutoFitTextView;Lcom/commsource/widget/PressTextView;Landroidx/cardview/widget/CardView;Landroid/widget/ImageView;Lcom/commsource/widget/RotateLoadingView;Landroid/widget/TextView;Lcom/commsource/widget/PressRelativeLayout;Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;Landroid/widget/FrameLayout;Lcom/commsource/widget/PressRelativeLayout;Lcom/commsource/widget/AutoFitTextView;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
-    .line 2
     iput-object p4, p0, Lcom/commsource/beautyplus/f0/g6;->a:Landroid/widget/ImageView;
 
-    .line 3
     iput-object p5, p0, Lcom/commsource/beautyplus/f0/g6;->b:Lcom/commsource/widget/AutoFitTextView;
 
-    .line 4
     iput-object p6, p0, Lcom/commsource/beautyplus/f0/g6;->c:Lcom/commsource/widget/PressTextView;
 
-    .line 5
     iput-object p7, p0, Lcom/commsource/beautyplus/f0/g6;->d:Landroidx/cardview/widget/CardView;
 
-    .line 6
     iput-object p8, p0, Lcom/commsource/beautyplus/f0/g6;->f:Landroid/widget/ImageView;
 
-    .line 7
     iput-object p9, p0, Lcom/commsource/beautyplus/f0/g6;->g:Lcom/commsource/widget/RotateLoadingView;
 
-    .line 8
     iput-object p10, p0, Lcom/commsource/beautyplus/f0/g6;->p:Landroid/widget/TextView;
 
-    .line 9
     iput-object p11, p0, Lcom/commsource/beautyplus/f0/g6;->J:Lcom/commsource/widget/PressRelativeLayout;
 
-    .line 10
     iput-object p12, p0, Lcom/commsource/beautyplus/f0/g6;->K:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
-    .line 11
     iput-object p13, p0, Lcom/commsource/beautyplus/f0/g6;->L:Landroid/widget/FrameLayout;
 
-    .line 12
     iput-object p14, p0, Lcom/commsource/beautyplus/f0/g6;->M:Lcom/commsource/widget/PressRelativeLayout;
 
-    .line 13
     iput-object p15, p0, Lcom/commsource/beautyplus/f0/g6;->N:Lcom/commsource/widget/AutoFitTextView;
 
     return-void
@@ -118,7 +105,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -145,7 +131,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_purchase_prompt_style3:I
 
-    .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -164,7 +149,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -189,7 +173,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -223,7 +206,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_purchase_prompt_style3:I
 
-    .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -255,7 +237,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0

@@ -33,21 +33,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     sput-object v1, Lcom/meitu/mtuploader/k;->c:Ljava/lang/Object;
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v1, Lcom/meitu/mtuploader/k;->d:Ljava/util/List;
 
-    .line 3
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
@@ -62,7 +59,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -75,12 +71,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/k;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     sget-object v2, Lcom/meitu/mtuploader/k;->d:Ljava/util/List;
 
@@ -90,16 +84,13 @@
 
     if-nez v3, :cond_0
 
-    .line 3
     invoke-interface {v2, p0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,7 +98,6 @@
     :catchall_0
     move-exception p0
 
-    .line 6
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -133,12 +123,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/k;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -158,7 +146,6 @@
 
     check-cast v2, Lcom/meitu/mtuploader/bean/MtUploadBean;
 
-    .line 3
     sget-object v3, Lcom/meitu/mtuploader/k;->d:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
@@ -167,18 +154,15 @@
 
     if-nez v4, :cond_0
 
-    .line 4
     invoke-interface {v3, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 5
     :cond_1
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -186,7 +170,6 @@
     :catchall_0
     move-exception p0
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -204,21 +187,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/k;->f:Lf/n/a/c/e;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/mtuploader/k;->e()Lf/n/a/c/e;
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/meitu/mtuploader/k;->f:Lf/n/a/c/e;
 
     if-eqz v1, :cond_1
 
-    .line 4
     sget-object v1, Lcom/meitu/mtuploader/k;->f:Lf/n/a/c/e;
 
     const-string v2, "qiniu"
@@ -229,7 +208,6 @@
 
     invoke-interface {v1, v2}, Lf/n/a/c/e;->a(Ljava/lang/String;)V
 
-    .line 5
     sget-object v1, Lcom/meitu/mtuploader/k;->f:Lf/n/a/c/e;
 
     const-string v2, "meitu"
@@ -240,7 +218,6 @@
 
     invoke-interface {v1, p0}, Lf/n/a/c/e;->a(Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -264,7 +241,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -273,7 +249,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -292,18 +267,15 @@
 
     check-cast v1, Lcom/meitu/mtuploader/bean/MtUploadBean;
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/mtuploader/k;->c(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -318,17 +290,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/k;->f:Lf/n/a/c/e;
 
     if-nez v1, :cond_1
 
-    .line 2
     sget-object v1, Lcom/meitu/mtuploader/k;->e:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/mtuploader/k;->f:Lf/n/a/c/e;
     :try_end_0
@@ -336,7 +305,6 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     :try_start_1
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -362,7 +330,6 @@
 
     const-string v3, "MtUploadUtils"
 
-    .line 5
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -379,7 +346,6 @@
 
     invoke-static {v3, v4}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     new-instance v3, Lf/n/a/c/m/a;
 
     invoke-direct {v3, v2}, Lf/n/a/c/m/a;-><init>(Ljava/lang/String;)V
@@ -397,10 +363,8 @@
     :try_start_2
     const-string v3, "MtUploadUtils"
 
-    .line 7
     invoke-static {v3, v2}, Lcom/meitu/mtuploader/w/b;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 8
     :cond_0
     :goto_0
     monitor-exit v1
@@ -418,7 +382,6 @@
 
     throw v2
 
-    .line 9
     :cond_1
     :goto_1
     sget-object v1, Lcom/meitu/mtuploader/k;->f:Lf/n/a/c/e;
@@ -466,7 +429,6 @@
     :goto_0
     const/4 p0, 0x1
 
-    .line 1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -480,12 +442,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/k;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     sget-object v2, Lcom/meitu/mtuploader/k;->d:Ljava/util/List;
 
@@ -495,7 +455,6 @@
 
     if-nez v3, :cond_0
 
-    .line 3
     invoke-interface {v2, p0}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
     move-result p0
@@ -511,7 +470,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -524,7 +482,6 @@
     :catchall_0
     move-exception p0
 
-    .line 5
     :try_start_2
     monitor-exit v1
     :try_end_2
@@ -553,7 +510,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -567,12 +523,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/k;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     sget-object v2, Lcom/meitu/mtuploader/k;->d:Ljava/util/List;
 
@@ -582,16 +536,13 @@
 
     if-nez v3, :cond_0
 
-    .line 3
     invoke-interface {v2, p0}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 4
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -599,7 +550,6 @@
     :catchall_0
     move-exception p0
 
-    .line 6
     :try_start_1
     monitor-exit v1
     :try_end_1

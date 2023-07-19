@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/k;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/l/e/c;
 
     invoke-direct {v0}, Lcom/bumptech/glide/load/l/e/c;-><init>()V
@@ -62,7 +60,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/l/e/c;
 
     invoke-direct {v0}, Lcom/bumptech/glide/load/l/e/c;-><init>()V
@@ -79,7 +76,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/l/e/c;
 
     invoke-direct {v0}, Lcom/bumptech/glide/load/l/e/c;-><init>()V
@@ -100,7 +96,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/l/e/c;
 
     invoke-direct {v0}, Lcom/bumptech/glide/load/l/e/c;-><init>()V
@@ -121,7 +116,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/l/e/c;
 
     invoke-direct {v0}, Lcom/bumptech/glide/load/l/e/c;-><init>()V
@@ -140,7 +134,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/k/c$a;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/k/c$a;-><init>()V
@@ -157,7 +150,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/k/c$a;
 
     invoke-direct {v0, p1}, Lcom/bumptech/glide/request/k/c$a;-><init>(I)V
@@ -178,7 +170,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/bumptech/glide/request/k/c$a;->a()Lcom/bumptech/glide/request/k/c;
 
     move-result-object p1
@@ -199,7 +190,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/k;->f(Lcom/bumptech/glide/request/k/g;)Lcom/bumptech/glide/k;
 
     move-result-object p1

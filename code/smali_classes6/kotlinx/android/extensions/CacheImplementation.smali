@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcotlinx/android/extensions/CacheImplementation;
 
     const-string v1, "SPARSE_ARRAY"
@@ -55,7 +54,6 @@
 
     sput-object v0, Lcotlinx/android/extensions/CacheImplementation;->SPARSE_ARRAY:Lcotlinx/android/extensions/CacheImplementation;
 
-    .line 2
     new-instance v1, Lcotlinx/android/extensions/CacheImplementation;
 
     const-string v3, "HASH_MAP"
@@ -66,7 +64,6 @@
 
     sput-object v1, Lcotlinx/android/extensions/CacheImplementation;->HASH_MAP:Lcotlinx/android/extensions/CacheImplementation;
 
-    .line 3
     new-instance v3, Lcotlinx/android/extensions/CacheImplementation;
 
     const-string v5, "NO_CACHE"
@@ -97,7 +94,6 @@
 
     sput-object v0, Lcotlinx/android/extensions/CacheImplementation;->Companion:Lcotlinx/android/extensions/CacheImplementation$a;
 
-    .line 4
     sput-object v1, Lcotlinx/android/extensions/CacheImplementation;->DEFAULT:Lcotlinx/android/extensions/CacheImplementation;
 
     return-void
@@ -111,7 +107,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -120,7 +115,6 @@
 .method public static final synthetic access$getDEFAULT$cp()Lcotlinx/android/extensions/CacheImplementation;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/android/extensions/CacheImplementation;->DEFAULT:Lcotlinx/android/extensions/CacheImplementation;
 
     return-object v0
@@ -139,7 +133,6 @@
 
     move-result-object p0
 
-    .line 1
     check-cast p0, Lcotlinx/android/extensions/CacheImplementation;
 
     return-object p0

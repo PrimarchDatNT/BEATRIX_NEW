@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/google/common/util/concurrent/x0$a$a;->a()V
 
     return-void
@@ -51,7 +50,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/x0$a;Ljava/lang/reflect/Method;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/x0$a$a;->c:Lcom/google/common/util/concurrent/x0$a;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/x0$a$a;->a:Ljava/lang/reflect/Method;
@@ -66,7 +64,6 @@
 .method private static synthetic a()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/google/common/util/concurrent/x0$a$a;
@@ -111,7 +108,6 @@
 .method static final synthetic b(Lcom/google/common/util/concurrent/x0$a$a;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -131,7 +127,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/google/common/util/concurrent/x0$a$a;->a:Ljava/lang/reflect/Method;
 
@@ -194,7 +189,6 @@
     :catch_0
     move-exception v1
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/common/util/concurrent/x0;->f(Ljava/lang/Exception;Z)Ljava/lang/Exception;
 
     move-result-object v0

@@ -67,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$n;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
@@ -84,7 +83,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/studio/doodle/DoodleFragment;->g0(Lcom/commsource/studio/doodle/DoodleFragment;Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$n;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
@@ -101,7 +99,6 @@
 
     invoke-static {v1, v2, p1}, Lcom/commsource/studio/doodle/DoodleFragment;->p0(Lcom/commsource/studio/doodle/DoodleFragment;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -114,7 +111,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodleFragment$n;->a(Lcotlin/Pair;)V

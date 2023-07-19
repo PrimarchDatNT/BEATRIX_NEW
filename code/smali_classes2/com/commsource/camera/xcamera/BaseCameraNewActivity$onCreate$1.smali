@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/library/camera/MTCamera$e;
 
     check-cast p2, Lcom/meitu/library/d/a/a$e;
@@ -92,7 +91,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -125,17 +123,14 @@
 
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$onCreate$1;->this$0:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->O0()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/commsource/camera/xcamera/CameraEffectManager;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$onCreate$1;->this$0:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->O0()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -146,7 +141,6 @@
 
     move-result-object v3
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$onCreate$1;->this$0:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
     const-class v5, Lcom/commsource/camera/xcamera/cover/tips/a;
@@ -157,13 +151,10 @@
 
     check-cast v4, Lcom/commsource/camera/mvp/f/b;
 
-    .line 7
     invoke-direct {v2, p1, p2, v3, v4}, Lcom/commsource/camera/xcamera/CameraEffectManager;-><init>(Lcom/meitu/library/camera/MTCamera$e;Lcom/meitu/library/d/a/a$e;Lcom/meitu/library/n/a/n/a;Lcom/commsource/camera/mvp/f/b;)V
 
-    .line 8
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->F2(Lcom/commsource/camera/xcamera/CameraEffectManager;)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$onCreate$1;->this$0:Lcom/commsource/camera/xcamera/BaseCameraNewActivity;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->O0()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -174,7 +165,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->y2(Z)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

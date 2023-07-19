@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 .method public run()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/internal/loader/f;->z()V
 
     return-void

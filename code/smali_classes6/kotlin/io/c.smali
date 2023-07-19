@@ -16,7 +16,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-static {p0}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
@@ -33,7 +32,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->print(C)V
@@ -46,7 +44,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0, p1}, Ljava/io/PrintStream;->print(D)V
@@ -59,7 +56,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->print(F)V
@@ -72,7 +68,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->print(I)V
@@ -85,7 +80,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0, p1}, Ljava/io/PrintStream;->print(J)V
@@ -98,7 +92,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->print(Ljava/lang/Object;)V
@@ -111,7 +104,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-static {p0}, Ljava/lang/Short;->valueOf(S)Ljava/lang/Short;
@@ -128,7 +120,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->print(Z)V
@@ -141,7 +132,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->print([C)V
@@ -154,7 +144,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0}, Ljava/io/PrintStream;->println()V
@@ -167,7 +156,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-static {p0}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
@@ -184,7 +172,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(C)V
@@ -197,7 +184,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0, p1}, Ljava/io/PrintStream;->println(D)V
@@ -210,7 +196,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(F)V
@@ -223,7 +208,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(I)V
@@ -236,7 +220,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0, p1}, Ljava/io/PrintStream;->println(J)V
@@ -249,7 +232,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(Ljava/lang/Object;)V
@@ -262,7 +244,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-static {p0}, Ljava/lang/Short;->valueOf(S)Ljava/lang/Short;
@@ -279,7 +260,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(Z)V
@@ -292,7 +272,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println([C)V
@@ -305,7 +284,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/io/m;->i:Lcotlin/io/m;
 
     sget-object v1, Ljava/lang/System;->in:Ljava/io/InputStream;

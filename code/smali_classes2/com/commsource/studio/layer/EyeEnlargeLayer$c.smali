@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/EyeEnlargeLayer$c;->a:Lcom/commsource/studio/layer/EyeEnlargeLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/EyeEnlargeLayer;->z0()Lcom/commsource/studio/layer/a;
@@ -75,7 +74,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/a;->n(F)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/layer/EyeEnlargeLayer$c;->a:Lcom/commsource/studio/layer/EyeEnlargeLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
@@ -84,7 +82,6 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -97,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Float;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/EyeEnlargeLayer$c;->a(Ljava/lang/Float;)V

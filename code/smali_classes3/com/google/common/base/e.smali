@@ -12,7 +12,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -21,7 +20,6 @@
 .method public static compile(Ljava/lang/String;)Lcom/google/common/base/e;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/s;->b(Ljava/lang/String;)Lcom/google/common/base/e;
 
     move-result-object p0
@@ -32,7 +30,6 @@
 .method public static isPcreLike()Z
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/common/base/s;->i()Z
 
     move-result v0

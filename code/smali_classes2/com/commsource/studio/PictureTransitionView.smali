@@ -176,10 +176,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 p2, 0x3
@@ -192,7 +190,6 @@
 
     new-array p1, p1, [F
 
-    .line 4
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -201,12 +198,10 @@
 
     const-wide/16 p2, 0x12c
 
-    .line 5
     invoke-virtual {p1, p2, p3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
-    .line 6
     new-instance p2, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {p2}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -215,7 +210,6 @@
 
     move-result-object p1
 
-    .line 7
     new-instance p2, Lcom/commsource/studio/PictureTransitionView$b;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/PictureTransitionView$b;-><init>(Lcom/commsource/studio/PictureTransitionView;)V
@@ -226,14 +220,12 @@
 
     iput-object p1, p0, Lcom/commsource/studio/PictureTransitionView;->p:Lcom/commsource/camera/f1/l;
 
-    .line 8
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/PictureTransitionView;->J:Lcom/commsource/studio/MatrixBox;
 
-    .line 9
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
@@ -242,10 +234,8 @@
 
     const/high16 p1, -0x40800000    # -1.0f
 
-    .line 10
     iput p1, p0, Lcom/commsource/studio/PictureTransitionView;->L:F
 
-    .line 11
     iput p1, p0, Lcom/commsource/studio/PictureTransitionView;->M:F
 
     return-void
@@ -275,7 +265,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/PictureTransitionView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -289,7 +278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/commsource/studio/PictureTransitionView;->O:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -304,7 +292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lcom/commsource/studio/PictureTransitionView;->O:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -390,24 +377,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->p:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->p:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->d:Lcom/commsource/studio/PictureAnimationWrapper;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Lcom/commsource/studio/PictureAnimationWrapper;->y()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -423,13 +406,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->d:Lcom/commsource/studio/PictureAnimationWrapper;
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -444,13 +424,10 @@
 
     const/high16 v1, -0x40800000    # -1.0f
 
-    .line 1
     iput v1, p0, Lcom/commsource/studio/PictureTransitionView;->M:F
 
-    .line 2
     iput v1, p0, Lcom/commsource/studio/PictureTransitionView;->L:F
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -465,7 +442,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->a:Lcom/commsource/studio/StudioCanvasContainer;
 
     if-nez v1, :cond_0
@@ -487,7 +463,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->p:Lcom/commsource/camera/f1/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -502,7 +477,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/PictureTransitionView;->L:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -517,7 +491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/PictureTransitionView;->M:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -543,7 +516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->g:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -560,7 +532,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->K:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -577,7 +548,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->d:Lcom/commsource/studio/PictureAnimationWrapper;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -603,7 +573,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->f:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -620,7 +589,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->J:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -637,7 +605,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->b:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_0
@@ -659,12 +626,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->d:Lcom/commsource/studio/PictureAnimationWrapper;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/studio/PictureAnimationWrapper;->f()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v1
@@ -673,7 +638,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -701,20 +665,17 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance v1, Lcom/commsource/studio/PictureAnimationWrapper;
 
     invoke-direct {v1, p1, p2}, Lcom/commsource/studio/PictureAnimationWrapper;-><init>(Lcom/commsource/studio/bean/PictureLayerInfo;Lcom/commsource/studio/bean/d;)V
 
-    .line 2
     iget p1, p0, Lcom/commsource/studio/PictureTransitionView;->M:F
 
     iget p2, p0, Lcom/commsource/studio/PictureTransitionView;->L:F
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/studio/PictureAnimationWrapper;->q(FF)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/PictureAnimationWrapper;->n()Lcom/commsource/studio/MatrixBox;
 
     move-result-object p1
@@ -723,7 +684,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/PictureAnimationWrapper;->b()Lcom/commsource/studio/MatrixBox;
 
     move-result-object p1
@@ -734,18 +694,14 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 5
     iput-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->d:Lcom/commsource/studio/PictureAnimationWrapper;
 
-    .line 6
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -768,10 +724,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/PictureTransitionView;->d:Lcom/commsource/studio/PictureAnimationWrapper;
 
     if-eqz v1, :cond_1
@@ -780,24 +734,19 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/PictureTransitionView;->c:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1, v3, v2}, Lcom/commsource/studio/PictureAnimationWrapper;->r(Landroid/graphics/Canvas;Landroid/graphics/Paint;Landroid/graphics/Paint;)V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/PictureTransitionView;->f:Lcotlin/jvm/u/a;
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 6
     iput-object v2, p0, Lcom/commsource/studio/PictureTransitionView;->f:Lcotlin/jvm/u/a;
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -819,7 +768,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/PictureTransitionView;->a:Lcom/commsource/studio/StudioCanvasContainer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -834,7 +782,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/PictureTransitionView;->p:Lcom/commsource/camera/f1/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -849,7 +796,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/PictureTransitionView;->L:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -864,7 +810,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/PictureTransitionView;->M:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -891,7 +836,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/PictureTransitionView;->g:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -910,7 +854,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/PictureTransitionView;->d:Lcom/commsource/studio/PictureAnimationWrapper;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -937,7 +880,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/PictureTransitionView;->f:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -960,7 +902,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/PictureTransitionView;->b:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

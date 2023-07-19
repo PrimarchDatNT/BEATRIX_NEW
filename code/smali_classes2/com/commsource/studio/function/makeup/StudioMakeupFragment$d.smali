@@ -58,14 +58,12 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$d;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-static {p1, v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->F1(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;Z)V
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->k()I
 
@@ -75,7 +73,6 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$d;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
@@ -92,7 +89,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$d;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
@@ -118,7 +114,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 5
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$d;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
@@ -140,14 +135,12 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/XSeekBar;->setDefaultPosition(F)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$d;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     const/4 v1, 0x1
 
     invoke-static {p1, v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->F1(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;Z)V
 
-    .line 7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -161,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/repository/child/makeup/h;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$d;->a(Lcom/commsource/repository/child/makeup/h;)V

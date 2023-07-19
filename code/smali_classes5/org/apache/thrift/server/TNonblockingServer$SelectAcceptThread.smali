@@ -29,15 +29,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 
     invoke-direct {p0, p1}, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;-><init>(Lorg/apache/thrift/server/AbstractNonblockingServer;)V
 
-    .line 2
     iput-object p2, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->serverTransport:Lorg/apache/thrift/transport/TNonblockingServerTransport;
 
-    .line 3
     iget-object p1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->selector:Ljava/nio/channels/Selector;
 
     invoke-virtual {p2, p1}, Lorg/apache/thrift/transport/TNonblockingServerTransport;->registerSelector(Ljava/nio/channels/Selector;)V
@@ -55,7 +52,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->serverTransport:Lorg/apache/thrift/transport/TNonblockingServerTransport;
 
@@ -67,7 +63,6 @@
     :try_end_0
     .catch Lorg/apache/thrift/transport/TTransportException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 2
     :try_start_1
     iget-object v2, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->selector:Ljava/nio/channels/Selector;
 
@@ -77,12 +72,10 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0, v1, v0, p0}, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->createFrameBuffer(Lorg/apache/thrift/transport/TNonblockingTransport;Ljava/nio/channels/SelectionKey;Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;)Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v0, v2}, Ljava/nio/channels/SelectionKey;->attach(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catch Lorg/apache/thrift/transport/TTransportException; {:try_start_1 .. :try_end_1} :catch_0
@@ -99,7 +92,6 @@
 
     move-object v1, v0
 
-    .line 5
     :goto_0
     iget-object v3, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 
@@ -109,18 +101,15 @@
 
     invoke-interface {v3, v4, v2}, Lorg/slf4j/c;->warn(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
 
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-virtual {p0, v0}, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->cleanupSelectionKey(Ljava/nio/channels/SelectionKey;)V
 
     :cond_0
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-virtual {v1}, Lorg/apache/thrift/transport/TTransport;->close()V
 
     :cond_1
@@ -131,13 +120,11 @@
 .method private select()V
     .locals 5
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->selector:Ljava/nio/channels/Selector;
 
     invoke-virtual {v0}, Ljava/nio/channels/Selector;->select()I
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->selector:Ljava/nio/channels/Selector;
 
     invoke-virtual {v0}, Ljava/nio/channels/Selector;->selectedKeys()Ljava/util/Set;
@@ -148,7 +135,6 @@
 
     move-result-object v0
 
-    .line 3
     :goto_0
     iget-object v1, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 
@@ -162,29 +148,24 @@
 
     if-eqz v1, :cond_4
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/nio/channels/SelectionKey;
 
-    .line 5
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
-    .line 6
     invoke-virtual {v1}, Ljava/nio/channels/SelectionKey;->isValid()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 7
     invoke-virtual {p0, v1}, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->cleanupSelectionKey(Ljava/nio/channels/SelectionKey;)V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {v1}, Ljava/nio/channels/SelectionKey;->isAcceptable()Z
 
@@ -192,12 +173,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 9
     invoke-direct {p0}, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->handleAccept()V
 
     goto :goto_0
 
-    .line 10
     :cond_1
     invoke-virtual {v1}, Ljava/nio/channels/SelectionKey;->isReadable()Z
 
@@ -205,12 +184,10 @@
 
     if-eqz v2, :cond_2
 
-    .line 11
     invoke-virtual {p0, v1}, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->handleRead(Ljava/nio/channels/SelectionKey;)V
 
     goto :goto_0
 
-    .line 12
     :cond_2
     invoke-virtual {v1}, Ljava/nio/channels/SelectionKey;->isWritable()Z
 
@@ -218,12 +195,10 @@
 
     if-eqz v2, :cond_3
 
-    .line 13
     invoke-virtual {p0, v1}, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->handleWrite(Ljava/nio/channels/SelectionKey;)V
 
     goto :goto_0
 
-    .line 14
     :cond_3
     iget-object v2, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 
@@ -256,7 +231,6 @@
     :catch_0
     move-exception v0
 
-    .line 15
     iget-object v1, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 
     iget-object v1, v1, Lorg/apache/thrift/server/AbstractNonblockingServer;->LOGGER:Lorg/slf4j/c;
@@ -274,7 +248,6 @@
 .method protected createFrameBuffer(Lorg/apache/thrift/transport/TNonblockingTransport;Ljava/nio/channels/SelectionKey;Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;)Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 
     iget-object v0, v0, Lorg/apache/thrift/server/TServer;->processorFactory_:Lorg/apache/thrift/TProcessorFactory;
@@ -307,7 +280,6 @@
 .method public isStopped()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 
     iget-boolean v0, v0, Lorg/apache/thrift/server/TServer;->stopped_:Z
@@ -322,7 +294,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     :try_start_0
     iget-object v2, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 
@@ -330,10 +301,8 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-interface {v2}, Lorg/apache/thrift/server/TServerEventHandler;->preServe()V
 
-    .line 3
     :cond_0
     :goto_0
     iget-object v2, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
@@ -342,15 +311,12 @@
 
     if-nez v2, :cond_1
 
-    .line 4
     invoke-direct {p0}, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->select()V
 
-    .line 5
     invoke-virtual {p0}, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->processInterestChanges()V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v2, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->selector:Ljava/nio/channels/Selector;
 
@@ -375,14 +341,12 @@
 
     check-cast v3, Ljava/nio/channels/SelectionKey;
 
-    .line 7
     invoke-virtual {p0, v3}, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->cleanupSelectionKey(Ljava/nio/channels/SelectionKey;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto :goto_1
 
-    .line 8
     :cond_2
     :try_start_1
     iget-object v2, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->selector:Ljava/nio/channels/Selector;
@@ -401,7 +365,6 @@
     :catchall_0
     move-exception v2
 
-    .line 9
     :try_start_2
     iget-object v3, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 
@@ -413,7 +376,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 10
     :try_start_3
     iget-object v2, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->selector:Ljava/nio/channels/Selector;
 
@@ -426,7 +388,6 @@
     :catch_1
     move-exception v2
 
-    .line 11
     :goto_2
     iget-object v3, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 
@@ -434,7 +395,6 @@
 
     invoke-interface {v3, v0, v2}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 12
     :goto_3
     iget-object v0, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 
@@ -445,7 +405,6 @@
     :catchall_1
     move-exception v2
 
-    .line 13
     :try_start_4
     iget-object v3, p0, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->selector:Ljava/nio/channels/Selector;
 
@@ -458,14 +417,12 @@
     :catch_2
     move-exception v3
 
-    .line 14
     iget-object v4, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 
     iget-object v4, v4, Lorg/apache/thrift/server/AbstractNonblockingServer;->LOGGER:Lorg/slf4j/c;
 
     invoke-interface {v4, v0, v3}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 15
     :goto_4
     iget-object v0, p0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->this$0:Lorg/apache/thrift/server/TNonblockingServer;
 

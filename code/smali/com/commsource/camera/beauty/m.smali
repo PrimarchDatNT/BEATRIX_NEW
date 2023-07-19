@@ -29,7 +29,6 @@
 
     const/high16 v1, 0x42700000    # 60.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -40,7 +39,6 @@
 
     const/high16 v1, 0x42ce0000    # 103.0f
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -55,7 +53,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -68,14 +65,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/beauty/m;
 
     invoke-direct {v1}, Lcom/commsource/camera/beauty/m;-><init>()V
 
     if-eqz p0, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->isRecycled()Z
 
     move-result v2
@@ -96,7 +91,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -110,7 +104,6 @@
 
     move-result v2
 
-    .line 4
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v3
@@ -119,7 +112,6 @@
 
     div-int/lit8 v3, v3, 0x2
 
-    .line 5
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v4
@@ -128,23 +120,19 @@
 
     div-int/lit8 v4, v4, 0x2
 
-    .line 6
     invoke-static {p0, v3, v4, v2, v2}, Lcom/meitu/library/p/e/a;->f(Landroid/graphics/Bitmap;IIII)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
     if-nez p0, :cond_1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 8
     :cond_1
     sget v2, Lcom/commsource/camera/beauty/m;->e:F
 
-    .line 9
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v3
@@ -167,19 +155,16 @@
 
     const/4 v3, 0x0
 
-    .line 10
     invoke-static {p0, v2, v3}, Lcom/meitu/library/p/e/a;->Y(Landroid/graphics/Bitmap;FZ)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
     iput-object p0, v1, Lcom/commsource/camera/beauty/m;->a:Landroid/graphics/Bitmap;
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 12
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -194,14 +179,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/beauty/m;
 
     invoke-direct {v1}, Lcom/commsource/camera/beauty/m;-><init>()V
 
     if-eqz p0, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->isRecycled()Z
 
     move-result v2
@@ -222,7 +205,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -252,12 +234,10 @@
 
     iput-object p0, v1, Lcom/commsource/camera/beauty/m;->a:Landroid/graphics/Bitmap;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -274,7 +254,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/m;->b:Lcom/meitu/core/types/FaceData;
 
     if-nez v1, :cond_0
@@ -283,7 +262,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/beautyplus/g0/b;->g()Lcom/commsource/beautyplus/g0/b;
 
     move-result-object v1
@@ -296,7 +274,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/beauty/m;->b:Lcom/meitu/core/types/FaceData;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/beauty/m;->b:Lcom/meitu/core/types/FaceData;
 
@@ -312,7 +289,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/m;->a:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -327,10 +303,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/beauty/m;->b:Lcom/meitu/core/types/FaceData;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -343,10 +317,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/beauty/m;->a:Landroid/graphics/Bitmap;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

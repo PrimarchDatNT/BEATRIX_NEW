@@ -43,17 +43,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
 
     sget-object v1, Lcom/bumptech/glide/load/engine/h;->d:Lcom/bumptech/glide/load/engine/h;
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/bumptech/glide/request/a;->r(Lcom/bumptech/glide/load/engine/h;)Lcom/bumptech/glide/request/a;
 
     move-result-object v0
@@ -76,12 +73,10 @@
 
     const/high16 v1, 0x42c80000    # 100.0f
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
 
-    .line 5
     invoke-virtual {v0, v1}, Lcom/bumptech/glide/request/a;->u0(I)Lcom/bumptech/glide/request/a;
 
     move-result-object v0
@@ -90,10 +85,8 @@
 
     iput-object v0, p0, Lcom/commsource/mypage/m0/c;->d:Lcom/bumptech/glide/request/g;
 
-    .line 6
     iput-object p2, p0, Lcom/commsource/mypage/m0/c;->a:Ljava/util/List;
 
-    .line 7
     iput-object p1, p0, Lcom/commsource/mypage/m0/c;->b:Landroid/content/Context;
 
     return-void
@@ -106,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/mypage/m0/c;->d:Lcom/bumptech/glide/request/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -121,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/mypage/m0/c;->a:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -136,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/mypage/m0/c;->c:Lcom/commsource/mypage/m0/c$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,10 +143,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/m0/c;->c:Lcom/commsource/mypage/m0/c$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -169,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/m0/c;->a:Ljava/util/List;
 
     if-nez v1, :cond_0
@@ -196,10 +183,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/mypage/m0/c$b;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/m0/c;->a:Ljava/util/List;
 
     if-eqz v1, :cond_0
@@ -210,7 +195,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/m0/c;->a:Ljava/util/List;
 
     invoke-interface {v1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -219,12 +203,10 @@
 
     check-cast p2, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/mypage/m0/c;->b:Landroid/content/Context;
 
     invoke-static {p1, v1, p2}, Lcom/commsource/mypage/m0/c$b;->a(Lcom/commsource/mypage/m0/c$b;Landroid/content/Context;Lcom/commsource/cloudalbum/bean/CAImageInfo;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -238,7 +220,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/m0/c;->b:Landroid/content/Context;
 
     invoke-static {v0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
@@ -253,7 +234,6 @@
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/commsource/mypage/m0/c$b;
 
     invoke-direct {v0, p0, p1}, Lcom/commsource/mypage/m0/c$b;-><init>(Lcom/commsource/mypage/m0/c;Landroid/view/View;)V

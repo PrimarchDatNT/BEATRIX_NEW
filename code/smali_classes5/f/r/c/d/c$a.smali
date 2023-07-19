@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/r/c/d/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/d/c$a;->a:Lf/r/c/d/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lf/r/c/d/c$a;->a:Lf/r/c/d/c;
 
     invoke-static {v0}, Lf/r/c/d/c;->d(Lf/r/c/d/c;)Landroid/app/Activity;
@@ -51,7 +49,6 @@
 
     invoke-static {v0}, Lf/h/a/a/b/a;->a(Landroid/content/Context;)V
 
-    .line 2
     iget-object v0, p0, Lf/r/c/d/c$a;->a:Lf/r/c/d/c;
 
     const-string v1, "Spotxtv"
@@ -64,7 +61,6 @@
 
     invoke-static {v0, v1}, Lf/r/c/d/c;->e(Lf/r/c/d/c;Lcom/iab/omid/library/spotxtv/adsession/e;)Lcom/iab/omid/library/spotxtv/adsession/e;
 
-    .line 3
     iget-object v0, p0, Lf/r/c/d/c$a;->a:Lf/r/c/d/c;
 
     sget-object v1, Lcom/iab/omid/library/spotxtv/adsession/CreativeType;->DEFINED_BY_JAVASCRIPT:Lcom/iab/omid/library/spotxtv/adsession/CreativeType;
@@ -81,7 +77,6 @@
 
     invoke-static {v0, v1}, Lf/r/c/d/c;->f(Lf/r/c/d/c;Lcom/iab/omid/library/spotxtv/adsession/c;)Lcom/iab/omid/library/spotxtv/adsession/c;
 
-    .line 4
     iget-object v0, p0, Lf/r/c/d/c$a;->a:Lf/r/c/d/c;
 
     invoke-static {v0}, Lf/r/c/d/c;->h(Lf/r/c/d/c;)Lf/r/c/d/e;

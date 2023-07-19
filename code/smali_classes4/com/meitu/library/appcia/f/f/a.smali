@@ -40,7 +40,6 @@
 
     const/4 v1, 0x2
 
-    .line 1
     sput v1, Lcom/meitu/library/appcia/f/f/a;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -51,10 +50,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "error"
@@ -82,14 +79,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     sput-object v1, Lcom/meitu/library/appcia/f/f/a;->c:Ljava/util/HashMap;
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
 
     move-result-object v1
@@ -104,7 +99,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;
 
     move-result-object p0
@@ -121,7 +115,6 @@
 
     invoke-virtual {v1, p0}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -146,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/library/appcia/f/f/a;->d:I
 
     invoke-static {p0, p1, v1}, Lcom/meitu/library/appcia/f/f/a;->c(Ljava/io/File;Ljava/lang/String;I)Ljava/util/HashMap;
@@ -179,10 +171,8 @@
 
     const-string v1, ""
 
-    .line 1
     invoke-static {p0, p2, p1, v1}, Lcom/meitu/library/appcia/f/f/a;->f(Ljava/io/File;ILjava/lang/String;Ljava/lang/String;)J
 
-    .line 2
     sget-object p0, Lcom/meitu/library/appcia/f/f/a;->c:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -197,14 +187,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/File;->isDirectory()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/File;->length()J
 
     move-result-wide v1
@@ -213,7 +201,6 @@
 
     return-wide v1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
@@ -223,23 +210,19 @@
 
     if-eqz p0, :cond_2
 
-    .line 4
     array-length v3, p0
 
     if-gtz v3, :cond_1
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance v3, Ljava/util/LinkedList;
 
     invoke-direct {v3}, Ljava/util/LinkedList;-><init>()V
 
-    .line 6
     invoke-static {v3, p0}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
 
-    .line 7
     invoke-static {v1, v2, v3}, Lcom/meitu/library/appcia/f/f/a;->e(JLjava/util/List;)J
 
     move-result-wide v1
@@ -248,7 +231,6 @@
 
     return-wide v1
 
-    .line 8
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -273,7 +255,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 1
     invoke-interface {p2}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -282,7 +263,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/util/LinkedList;
 
@@ -290,7 +270,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     invoke-interface {p2}, Ljava/util/List;->size()I
 
@@ -298,38 +277,32 @@
 
     if-ge v2, v3, :cond_3
 
-    .line 4
     invoke-interface {p2, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/io/File;
 
-    .line 5
     invoke-virtual {v3}, Ljava/io/File;->isDirectory()Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 6
     invoke-virtual {v3}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object v3
 
     if-eqz v3, :cond_2
 
-    .line 7
     array-length v4, v3
 
     if-lez v4, :cond_2
 
-    .line 8
     invoke-static {v1, v3}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 9
     :cond_1
     invoke-virtual {v3}, Ljava/io/File;->length()J
 
@@ -343,7 +316,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-static {p0, p1, v1}, Lcom/meitu/library/appcia/f/f/a;->e(JLjava/util/List;)J
 
@@ -353,7 +325,6 @@
 
     return-wide p0
 
-    .line 11
     :cond_4
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -368,14 +339,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/library/appcia/f/f/a;->d:I
 
     const-string v2, "/"
 
     if-eq p1, v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -394,7 +363,6 @@
 
     move-result-object p3
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
@@ -404,7 +372,6 @@
 
     if-eqz p0, :cond_3
 
-    .line 4
     array-length v1, p0
 
     const/4 v5, 0x0
@@ -414,7 +381,6 @@
 
     aget-object v6, p0, v5
 
-    .line 5
     invoke-virtual {v6}, Ljava/io/File;->isDirectory()Z
 
     move-result v7
@@ -425,7 +391,6 @@
 
     if-gt p1, v7, :cond_1
 
-    .line 6
     invoke-static {v6}, Lcom/meitu/library/appcia/f/f/a;->d(Ljava/io/File;)J
 
     move-result-wide v7
@@ -435,7 +400,6 @@
     :cond_1
     add-int/lit8 v7, p1, -0x1
 
-    .line 7
     invoke-static {v6, v7, p2, p3}, Lcom/meitu/library/appcia/f/f/a;->f(Ljava/io/File;ILjava/lang/String;Ljava/lang/String;)J
 
     move-result-wide v7
@@ -445,20 +409,17 @@
 
     goto :goto_2
 
-    .line 8
     :cond_2
     invoke-virtual {v6}, Ljava/io/File;->length()J
 
     move-result-wide v7
 
-    .line 9
     invoke-virtual {v6}, Ljava/io/File;->length()J
 
     move-result-wide v9
 
     add-long/2addr v3, v9
 
-    .line 10
     :goto_2
     sget-object v9, Lcom/meitu/library/appcia/f/f/a;->c:Ljava/util/HashMap;
 
@@ -492,7 +453,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

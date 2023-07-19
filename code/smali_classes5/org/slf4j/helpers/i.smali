@@ -19,7 +19,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/slf4j/helpers/i$b;
 
     const/4 v1, 0x0
@@ -34,7 +33,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,14 +48,12 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/slf4j/helpers/i;->a:Lorg/slf4j/helpers/i$b;
 
     invoke-virtual {v0}, Lorg/slf4j/helpers/i$b;->getClassContext()[Ljava/lang/Class;
 
     move-result-object v0
 
-    .line 2
     const-class v1, Lorg/slf4j/helpers/i;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -66,13 +62,11 @@
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     array-length v3, v0
 
     if-ge v2, v3, :cond_1
 
-    .line 4
     aget-object v3, v0, v2
 
     invoke-virtual {v3}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -92,7 +86,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     :goto_1
     array-length v1, v0
@@ -105,12 +98,10 @@
 
     if-ge v2, v1, :cond_2
 
-    .line 6
     aget-object v0, v0, v2
 
     return-object v0
 
-    .line 7
     :cond_2
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -124,7 +115,6 @@
 .method public static final b(Ljava/lang/String;)V
     .locals 3
 
-    .line 1
     sget-object v0, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -149,19 +139,16 @@
 .method public static final c(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 2
     sget-object p0, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     const-string v0, "Reported exception:"
 
     invoke-virtual {p0, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
     return-void

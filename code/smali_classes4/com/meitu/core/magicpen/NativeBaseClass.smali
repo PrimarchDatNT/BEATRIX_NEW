@@ -11,10 +11,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/magicpen/NativeBaseClass;->loadMagicPenLibrary()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -23,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +40,6 @@
     :try_start_0
     const-string v3, "gnustl_shared"
 
-    .line 1
     invoke-static {v3}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -53,7 +49,6 @@
     :catchall_0
     move-exception v3
 
-    .line 2
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -72,7 +67,6 @@
     :try_start_1
     const-string v3, "c++_shared"
 
-    .line 3
     invoke-static {v3}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -82,7 +76,6 @@
     :catchall_1
     move-exception v3
 
-    .line 4
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -101,17 +94,14 @@
     :try_start_2
     const-string v3, "mttypes"
 
-    .line 5
     invoke-static {v3}, Lf/k/a0/a;->c(Ljava/lang/String;)V
 
     const-string v3, "mtimageloader"
 
-    .line 6
     invoke-static {v3}, Lf/k/a0/a;->c(Ljava/lang/String;)V
 
     const-string v3, "magicpen"
 
-    .line 7
     invoke-static {v3}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
@@ -121,7 +111,6 @@
     :catchall_2
     move-exception v3
 
-    .line 8
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -136,7 +125,6 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     :goto_2
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -150,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
     :try_end_0
@@ -158,14 +145,11 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     invoke-static {}, Lcom/meitu/core/magicpen/NativeBaseClass;->loadMagicPenLibrary()V
 
-    .line 3
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

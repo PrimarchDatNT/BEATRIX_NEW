@@ -25,19 +25,14 @@
 .method private constructor <init>(ILjava/lang/String;Ljava/lang/String;Z)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$e;-><init>()V
 
-    .line 3
     iput p1, p0, Lcom/google/firebase/crashlytics/internal/model/t;->a:I
 
-    .line 4
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/model/t;->b:Ljava/lang/String;
 
-    .line 5
     iput-object p3, p0, Lcom/google/firebase/crashlytics/internal/model/t;->c:Ljava/lang/String;
 
-    .line 6
     iput-boolean p4, p0, Lcom/google/firebase/crashlytics/internal/model/t;->d:Z
 
     return-void
@@ -46,7 +41,6 @@
 .method synthetic constructor <init>(ILjava/lang/String;Ljava/lang/String;ZLcom/google/firebase/crashlytics/internal/model/t$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/firebase/crashlytics/internal/model/t;-><init>(ILjava/lang/String;Ljava/lang/String;Z)V
 
     return-void
@@ -59,7 +53,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/t;->c:Ljava/lang/String;
 
     return-object v0
@@ -68,7 +61,6 @@
 .method public c()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/crashlytics/internal/model/t;->a:I
 
     return v0
@@ -79,7 +71,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/t;->b:Ljava/lang/String;
 
     return-object v0
@@ -88,7 +79,6 @@
 .method public e()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/crashlytics/internal/model/t;->d:Z
 
     return v0
@@ -103,7 +93,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$e;
 
@@ -111,10 +100,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$e;
 
-    .line 3
     iget v1, p0, Lcom/google/firebase/crashlytics/internal/model/t;->a:I
 
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$e;->c()I
@@ -125,7 +112,6 @@
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/model/t;->b:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$e;->d()Ljava/lang/String;
 
     move-result-object v3
@@ -138,7 +124,6 @@
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/model/t;->c:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$e;->b()Ljava/lang/String;
 
     move-result-object v3
@@ -151,7 +136,6 @@
 
     iget-boolean v1, p0, Lcom/google/firebase/crashlytics/internal/model/t;->d:Z
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$e;->e()Z
 
     move-result p1
@@ -173,7 +157,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/crashlytics/internal/model/t;->a:I
 
     const v1, 0xf4243
@@ -182,7 +165,6 @@
 
     mul-int v0, v0, v1
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/crashlytics/internal/model/t;->b:Ljava/lang/String;
 
     invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
@@ -193,7 +175,6 @@
 
     mul-int v0, v0, v1
 
-    .line 3
     iget-object v2, p0, Lcom/google/firebase/crashlytics/internal/model/t;->c:Ljava/lang/String;
 
     invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
@@ -204,7 +185,6 @@
 
     mul-int v0, v0, v1
 
-    .line 4
     iget-boolean v1, p0, Lcom/google/firebase/crashlytics/internal/model/t;->d:Z
 
     if-eqz v1, :cond_0
@@ -225,7 +205,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

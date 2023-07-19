@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/sdk/imp/w;Lcom/sdk/imp/VastModel;Lcom/sdk/imp/w$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/w$c;->c:Lcom/sdk/imp/w;
 
     iput-object p2, p0, Lcom/sdk/imp/w$c;->a:Lcom/sdk/imp/VastModel;
@@ -58,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/w$c;->c:Lcom/sdk/imp/w;
 
     iget-object p2, p0, Lcom/sdk/imp/w$c;->a:Lcom/sdk/imp/VastModel;
@@ -77,7 +75,6 @@
 .method public b(ILcom/sdk/api/InternalAdError;)V
     .locals 3
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/w$c;->c:Lcom/sdk/imp/w;
 
     iget-object v0, p0, Lcom/sdk/imp/w$c;->a:Lcom/sdk/imp/VastModel;

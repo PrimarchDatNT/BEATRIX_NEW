@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,10 +25,8 @@
 
     const/4 v3, 0x0
 
-    .line 1
     invoke-static {v1, v2, v3}, Landroid/opengl/GLES20;->glGenFramebuffers(I[II)V
 
-    .line 2
     aget v4, v2, v3
 
     const v5, 0x8d40
@@ -38,10 +35,8 @@
 
     new-array v4, v1, [I
 
-    .line 3
     invoke-static {v1, v4, v3}, Landroid/opengl/GLES20;->glGenTextures(I[II)V
 
-    .line 4
     aget v6, v4, v3
 
     const/16 v7, 0xde1
@@ -66,46 +61,38 @@
 
     const/16 v16, 0x0
 
-    .line 5
     invoke-static/range {v8 .. v16}, Landroid/opengl/GLES20;->glTexImage2D(IIIIIIIILjava/nio/Buffer;)V
 
     const/16 v6, 0x2802
 
     const v8, 0x47012f00    # 33071.0f
 
-    .line 6
     invoke-static {v7, v6, v8}, Landroid/opengl/GLES20;->glTexParameterf(IIF)V
 
     const/16 v6, 0x2803
 
-    .line 7
     invoke-static {v7, v6, v8}, Landroid/opengl/GLES20;->glTexParameterf(IIF)V
 
     const/16 v6, 0x2801
 
     const/16 v8, 0x2600
 
-    .line 8
     invoke-static {v7, v6, v8}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
     const/16 v6, 0x2800
 
-    .line 9
     invoke-static {v7, v6, v8}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
     const/16 v6, 0x20
 
-    .line 10
     invoke-static {v3, v3, v6, v6}, Landroid/opengl/GLES20;->glViewport(IIII)V
 
-    .line 11
     aget v8, v4, v3
 
     const v9, 0x8ce0
 
     invoke-static {v5, v9, v7, v8, v3}, Landroid/opengl/GLES20;->glFramebufferTexture2D(IIIII)V
 
-    .line 12
     invoke-static {v5}, Landroid/opengl/GLES20;->glCheckFramebufferStatus(I)I
 
     move-result v8
@@ -126,7 +113,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_1
     aget v8, v4, v3
 
@@ -150,18 +136,14 @@
 
     const/16 v15, 0x20
 
-    .line 14
     invoke-static/range {v11 .. v19}, Landroid/opengl/GLES20;->glTexImage2D(IIIIIIIILjava/nio/Buffer;)V
 
-    .line 15
     invoke-static {v3, v3, v6, v6}, Landroid/opengl/GLES20;->glViewport(IIII)V
 
-    .line 16
     aget v6, v4, v3
 
     invoke-static {v5, v9, v7, v6, v3}, Landroid/opengl/GLES20;->glFramebufferTexture2D(IIIII)V
 
-    .line 17
     invoke-static {v5}, Landroid/opengl/GLES20;->glCheckFramebufferStatus(I)I
 
     move-result v6
@@ -185,20 +167,15 @@
     :cond_3
     const/4 v6, 0x0
 
-    .line 18
     :goto_2
     invoke-static {v1, v2, v3}, Landroid/opengl/GLES20;->glDeleteFramebuffers(I[II)V
 
-    .line 19
     invoke-static {v1, v4, v3}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
-    .line 20
     invoke-static {v5, v3}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 21
     invoke-static {v7, v3}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 22
     invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
 
     move-result v1
@@ -207,7 +184,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 23
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -224,7 +200,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 24
     :cond_4
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -248,7 +223,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 25
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v8

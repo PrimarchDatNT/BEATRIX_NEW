@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,15 +23,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/easyeditor/utils/opengl/k;->e(II)I
 
     move-result p0
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/easyeditor/utils/opengl/k;->g(I)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -53,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/easyeditor/utils/opengl/k;->f(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object p1
@@ -80,27 +75,22 @@
 
     const v1, 0x8b31
 
-    .line 1
     invoke-static {v1, p0}, Lcom/commsource/easyeditor/utils/opengl/k;->d(ILjava/lang/String;)I
 
     move-result p0
 
     const v1, 0x8b30
 
-    .line 2
     invoke-static {v1, p1}, Lcom/commsource/easyeditor/utils/opengl/k;->d(ILjava/lang/String;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0, p1}, Lcom/commsource/easyeditor/utils/opengl/k;->e(II)I
 
     move-result p0
 
-    .line 4
     invoke-static {p0}, Lcom/commsource/easyeditor/utils/opengl/k;->g(I)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -113,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/opengl/GLES20;->glCreateShader(I)I
 
     move-result p0
@@ -126,19 +115,15 @@
 
     const-string p0, "Could not create new shader."
 
-    .line 2
     invoke-static {v1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     invoke-static {p0, p1}, Landroid/opengl/GLES20;->glShaderSource(ILjava/lang/String;)V
 
-    .line 5
     invoke-static {p0}, Landroid/opengl/GLES20;->glCompileShader(I)V
 
     const/4 p1, 0x1
@@ -147,10 +132,8 @@
 
     const v3, 0x8b81
 
-    .line 6
     invoke-static {p0, v3, p1, v2}, Landroid/opengl/GLES20;->glGetShaderiv(II[II)V
 
-    .line 7
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -171,25 +154,20 @@
 
     invoke-static {v1, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     aget p1, p1, v2
 
     if-nez p1, :cond_1
 
-    .line 9
     invoke-static {p0}, Landroid/opengl/GLES20;->glDeleteShader(I)V
 
     const-string p0, "Compilation of shader failed"
 
-    .line 10
     invoke-static {v1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 12
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -203,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/opengl/GLES20;->glCreateProgram()I
 
     move-result v1
@@ -216,22 +193,17 @@
 
     const-string p0, "Could not create new program"
 
-    .line 2
     invoke-static {v2, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_0
     invoke-static {v1, p0}, Landroid/opengl/GLES20;->glAttachShader(II)V
 
-    .line 5
     invoke-static {v1, p1}, Landroid/opengl/GLES20;->glAttachShader(II)V
 
-    .line 6
     invoke-static {v1}, Landroid/opengl/GLES20;->glLinkProgram(I)V
 
     const/4 p0, 0x1
@@ -240,10 +212,8 @@
 
     const p1, 0x8b82
 
-    .line 7
     invoke-static {v1, p1, p0, v3}, Landroid/opengl/GLES20;->glGetProgramiv(II[II)V
 
-    .line 8
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -272,25 +242,20 @@
 
     invoke-static {v2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     aget p0, p0, v3
 
     if-nez p0, :cond_1
 
-    .line 10
     invoke-static {v1}, Landroid/opengl/GLES20;->glDeleteProgram(I)V
 
     const-string p0, "Linking of program failed."
 
-    .line 11
     invoke-static {v2, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 13
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -304,12 +269,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -319,7 +282,6 @@
 
     move-result-object p0
 
-    .line 3
     new-instance v2, Ljava/io/InputStreamReader;
 
     invoke-static {}, Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;
@@ -328,12 +290,10 @@
 
     invoke-direct {v2, p0, v3}, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
 
-    .line 4
     new-instance p0, Ljava/io/BufferedReader;
 
     invoke-direct {p0, v2}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -341,12 +301,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v2, 0xa
 
-    .line 7
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
@@ -357,10 +315,8 @@
     :catch_0
     move-exception p0
 
-    .line 8
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 9
     new-instance v1, Ljava/lang/RuntimeException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -386,10 +342,8 @@
     :catch_1
     move-exception p0
 
-    .line 10
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 11
     :cond_0
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -407,7 +361,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/opengl/GLES20;->glValidateProgram(I)V
 
     const/4 v1, 0x1
@@ -418,10 +371,8 @@
 
     const/4 v4, 0x0
 
-    .line 2
     invoke-static {p0, v3, v2, v4}, Landroid/opengl/GLES20;->glGetProgramiv(II[II)V
 
-    .line 3
     aget p0, v2, v4
 
     if-eqz p0, :cond_0

@@ -13,15 +13,12 @@
 .method public constructor <init>(I[B)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x1
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/internal/ads/rb2;->a:I
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/rb2;->b:[B
 
     return-void
@@ -43,7 +40,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     const-class v2, Lcom/google/android/gms/internal/ads/rb2;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -54,11 +50,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/internal/ads/rb2;
 
-    .line 3
     iget v2, p0, Lcom/google/android/gms/internal/ads/rb2;->a:I
 
     iget v3, p1, Lcom/google/android/gms/internal/ads/rb2;->a:I
@@ -85,12 +79,10 @@
 .method public final hashCode()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/rb2;->a:I
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/rb2;->b:[B
 
     invoke-static {v1}, Ljava/util/Arrays;->hashCode([B)I

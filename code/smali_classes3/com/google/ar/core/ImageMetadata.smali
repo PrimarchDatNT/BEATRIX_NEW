@@ -291,20 +291,16 @@
 .method protected constructor <init>()V
     .locals 3
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     const-wide/16 v1, 0x0
 
-    .line 7
     iput-wide v1, p0, Lcom/google/ar/core/ImageMetadata;->nativeHandle:J
 
-    .line 8
     iput-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     return-void
@@ -313,16 +309,12 @@
 .method constructor <init>(JLcom/google/ar/core/Session;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p3, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
-    .line 3
     iput-wide p1, p0, Lcom/google/ar/core/ImageMetadata;->nativeHandle:J
 
-    .line 4
     new-instance p1, Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p1}, Lcom/google/ar/core/ImageMetadata$a;-><init>()V
@@ -335,7 +327,6 @@
 .method private getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -358,26 +349,22 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
-    .line 3
     invoke-direct {p0, v2, v3, v0, v1}, Lcom/google/ar/core/ImageMetadata;->nativeGetMetadataEntryValueType(JJ)I
 
     move-result p1
 
     iput p1, p2, Lcom/google/ar/core/ImageMetadata$a;->b:I
 
-    .line 4
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p2, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 5
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/ImageMetadata;->nativeGetMetadataEntryValueCount(JJ)I
 
     move-result p1
@@ -386,7 +373,6 @@
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
@@ -480,7 +466,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/ImageMetadata;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -489,10 +474,8 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/ar/core/ImageMetadata;->nativeReleaseImageMetadata(J)V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -502,12 +485,10 @@
 .method public getByte(I)B
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p0, p1, v0}, Lcom/google/ar/core/ImageMetadata;->getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     iget v1, v0, Lcom/google/ar/core/ImageMetadata$a;->b:I
@@ -520,19 +501,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, v0, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 4
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/ImageMetadata;->nativeGetByteFromMetadataEntry(JJ)B
 
     move-result p1
 
-    .line 5
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -545,7 +523,6 @@
 
     return p1
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -553,7 +530,6 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -574,31 +550,26 @@
 .method public getByteArray(I)[B
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p0, p1, v0}, Lcom/google/ar/core/ImageMetadata;->getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     iget v1, v0, Lcom/google/ar/core/ImageMetadata$a;->b:I
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, v0, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 4
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/ImageMetadata;->nativeGetByteArrayFromMetadataEntry(JJ)[B
 
     move-result-object p1
 
-    .line 5
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -611,7 +582,6 @@
 
     return-object p1
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -621,7 +591,6 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -642,12 +611,10 @@
 .method public getDouble(I)D
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p0, p1, v0}, Lcom/google/ar/core/ImageMetadata;->getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     iget v1, v0, Lcom/google/ar/core/ImageMetadata$a;->b:I
@@ -662,19 +629,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, v0, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 4
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/ImageMetadata;->nativeGetDoubleFromMetadataEntry(JJ)D
 
     move-result-wide v0
 
-    .line 5
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -687,7 +651,6 @@
 
     return-wide v0
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -695,7 +658,6 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -716,12 +678,10 @@
 .method public getDoubleArray(I)[D
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p0, p1, v0}, Lcom/google/ar/core/ImageMetadata;->getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     iget v1, v0, Lcom/google/ar/core/ImageMetadata$a;->b:I
@@ -730,19 +690,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, v0, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 4
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/ImageMetadata;->nativeGetDoubleArrayFromMetadataEntry(JJ)[D
 
     move-result-object p1
 
-    .line 5
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -755,7 +712,6 @@
 
     return-object p1
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -765,7 +721,6 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -786,12 +741,10 @@
 .method public getFloat(I)F
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p0, p1, v0}, Lcom/google/ar/core/ImageMetadata;->getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     iget v1, v0, Lcom/google/ar/core/ImageMetadata$a;->b:I
@@ -806,19 +759,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, v0, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 4
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/ImageMetadata;->nativeGetFloatFromMetadataEntry(JJ)F
 
     move-result p1
 
-    .line 5
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -831,7 +781,6 @@
 
     return p1
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -839,7 +788,6 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -860,12 +808,10 @@
 .method public getFloatArray(I)[F
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p0, p1, v0}, Lcom/google/ar/core/ImageMetadata;->getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     iget v1, v0, Lcom/google/ar/core/ImageMetadata$a;->b:I
@@ -874,19 +820,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, v0, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 4
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/ImageMetadata;->nativeGetFloatArrayFromMetadataEntry(JJ)[F
 
     move-result-object p1
 
-    .line 5
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -899,7 +842,6 @@
 
     return-object p1
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -909,7 +851,6 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -930,12 +871,10 @@
 .method public getInt(I)I
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p0, p1, v0}, Lcom/google/ar/core/ImageMetadata;->getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     iget v1, v0, Lcom/google/ar/core/ImageMetadata$a;->b:I
@@ -948,19 +887,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, v0, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 4
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/ImageMetadata;->nativeGetIntFromMetadataEntry(JJ)I
 
     move-result p1
 
-    .line 5
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -973,7 +909,6 @@
 
     return p1
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -981,7 +916,6 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -1002,12 +936,10 @@
 .method public getIntArray(I)[I
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p0, p1, v0}, Lcom/google/ar/core/ImageMetadata;->getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     iget v1, v0, Lcom/google/ar/core/ImageMetadata$a;->b:I
@@ -1016,19 +948,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, v0, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 4
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/ImageMetadata;->nativeGetIntArrayFromMetadataEntry(JJ)[I
 
     move-result-object p1
 
-    .line 5
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -1041,7 +970,6 @@
 
     return-object p1
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -1049,7 +977,6 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -1070,7 +997,6 @@
 .method public getKeys()[J
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -1085,7 +1011,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -1099,12 +1024,10 @@
 .method public getLong(I)J
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p0, p1, v0}, Lcom/google/ar/core/ImageMetadata;->getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     iget v1, v0, Lcom/google/ar/core/ImageMetadata$a;->b:I
@@ -1119,19 +1042,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, v0, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 4
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/ImageMetadata;->nativeGetLongFromMetadataEntry(JJ)J
 
     move-result-wide v0
 
-    .line 5
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -1144,7 +1064,6 @@
 
     return-wide v0
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -1152,7 +1071,6 @@
 
     const/4 v3, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -1183,7 +1101,6 @@
 
     const-string p1, "Wrong return type for ImageMetadata key: %1$d, type: %2$d, count: %3$d."
 
-    .line 8
     invoke-static {p1, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -1196,12 +1113,10 @@
 .method public getLongArray(I)[J
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p0, p1, v0}, Lcom/google/ar/core/ImageMetadata;->getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     iget v1, v0, Lcom/google/ar/core/ImageMetadata$a;->b:I
@@ -1210,19 +1125,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, v0, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 4
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/ImageMetadata;->nativeGetLongArrayFromMetadataEntry(JJ)[J
 
     move-result-object p1
 
-    .line 5
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -1235,7 +1147,6 @@
 
     return-object p1
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -1245,7 +1156,6 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -1266,12 +1176,10 @@
 .method public getRational(I)Landroid/util/Rational;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p0, p1, v0}, Lcom/google/ar/core/ImageMetadata;->getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     iget v1, v0, Lcom/google/ar/core/ImageMetadata$a;->b:I
@@ -1286,19 +1194,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, v0, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 4
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/ImageMetadata;->nativeGetRationalFromMetadataEntry(JJ)Landroid/util/Rational;
 
     move-result-object p1
 
-    .line 5
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -1311,7 +1216,6 @@
 
     return-object p1
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -1319,7 +1223,6 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -1340,12 +1243,10 @@
 .method public getRationalArray(I)[Landroid/util/Rational;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     invoke-direct {p0, p1, v0}, Lcom/google/ar/core/ImageMetadata;->getMetdataEntry(ILcom/google/ar/core/ImageMetadata$a;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->sketchEntry:Lcom/google/ar/core/ImageMetadata$a;
 
     iget v1, v0, Lcom/google/ar/core/ImageMetadata$a;->b:I
@@ -1354,19 +1255,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v1, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v3, v0, Lcom/google/ar/core/ImageMetadata$a;->a:J
 
-    .line 4
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/google/ar/core/ImageMetadata;->nativeGetRationalArrayFromMetadataEntry(JJ)[Landroid/util/Rational;
 
     move-result-object p1
 
-    .line 5
     iget-object v0, p0, Lcom/google/ar/core/ImageMetadata;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -1379,7 +1277,6 @@
 
     return-object p1
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -1389,7 +1286,6 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1

@@ -25,10 +25,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-direct {p0}, Ln/a/b/c/l$b;->c()[Ljava/lang/String;
 
     return-void
@@ -37,7 +35,6 @@
 .method private b()[Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/l$b;->a:Ljava/lang/ref/SoftReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/SoftReference;->get()Ljava/lang/Object;
@@ -56,7 +53,6 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    .line 1
     new-instance v1, Ljava/lang/ref/SoftReference;
 
     invoke-direct {v1, v0}, Ljava/lang/ref/SoftReference;-><init>(Ljava/lang/Object;)V
@@ -71,19 +67,16 @@
 .method public a(ILjava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ln/a/b/c/l$b;->b()[Ljava/lang/String;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Ln/a/b/c/l$b;->c()[Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
     :cond_0
     aput-object p2, v0, p1
 
@@ -93,7 +86,6 @@
 .method public get(I)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ln/a/b/c/l$b;->b()[Ljava/lang/String;
 
     move-result-object v0
@@ -104,7 +96,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     aget-object p1, v0, p1
 

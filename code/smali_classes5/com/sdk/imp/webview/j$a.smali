@@ -18,7 +18,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/webkit/WebChromeClient;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public onJsAlert(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p4}, Landroid/webkit/JsResult;->confirm()V
 
     const/4 p1, 0x1
@@ -40,7 +38,6 @@
 .method public onJsBeforeUnload(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p4}, Landroid/webkit/JsResult;->confirm()V
 
     const/4 p1, 0x1
@@ -51,7 +48,6 @@
 .method public onJsConfirm(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p4}, Landroid/webkit/JsResult;->confirm()V
 
     const/4 p1, 0x1
@@ -62,7 +58,6 @@
 .method public onJsPrompt(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsPromptResult;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p5}, Landroid/webkit/JsPromptResult;->confirm()V
 
     const/4 p1, 0x1

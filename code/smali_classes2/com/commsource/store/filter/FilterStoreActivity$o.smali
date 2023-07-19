@@ -44,7 +44,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/View;->getId()I
@@ -57,7 +56,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -69,12 +67,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$o;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/store/filter/FilterStoreActivity;->U0(Lcom/commsource/store/filter/FilterStoreActivity;)V
 
-    .line 4
     sget-object p1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -88,10 +84,8 @@
     :cond_1
     sget p1, Lcom/res/provider/ResSTRING;->error_network:I
 
-    .line 5
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

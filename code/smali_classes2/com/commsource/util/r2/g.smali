@@ -27,7 +27,6 @@
 
     invoke-static {}, Lcom/commsource/util/r2/g;->d()V
 
-    .line 1
     const-class v1, Lcom/commsource/util/r2/g;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -44,7 +43,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/r2/a;-><init>()V
 
     return-void
@@ -57,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/commsource/util/r2/g;
@@ -164,7 +161,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -181,7 +177,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -198,7 +193,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -215,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object p1
@@ -234,7 +227,6 @@
 
     const/4 v2, 0x1
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -255,12 +247,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
 
@@ -269,7 +259,6 @@
     :try_start_0
     const-string v2, "com.huawei.android.view.LayoutParamsEx"
 
-    .line 3
     invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v2
@@ -278,7 +267,6 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 4
     const-class v5, Landroid/view/WindowManager$LayoutParams;
 
     const/4 v6, 0x0
@@ -293,7 +281,6 @@
 
     aput-object p0, v5, v6
 
-    .line 5
     invoke-virtual {v4, v5}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -302,7 +289,6 @@
 
     new-array v5, v3, [Ljava/lang/Class;
 
-    .line 6
     sget-object v7, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     aput-object v7, v5, v6
@@ -315,7 +301,6 @@
 
     const/high16 v5, 0x10000
 
-    .line 7
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -374,7 +359,6 @@
     :catch_0
     const-string p0, "other Exception"
 
-    .line 8
     invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
@@ -382,10 +366,8 @@
     :catch_1
     const-string p0, "hw add notch screen flag api error"
 
-    .line 9
     invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 10
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -404,7 +386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v1
@@ -415,14 +396,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object p1
 
     invoke-static {p1}, Lcom/commsource/util/r2/g;->i(Landroid/view/Window;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -439,7 +418,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/util/r2/g;->c(Landroid/view/Window;)Z
 
     move-result v1
@@ -448,7 +426,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -458,12 +435,10 @@
 
     new-array v3, v1, [I
 
-    .line 3
     fill-array-data v3, :array_0
 
     const/4 v4, 0x1
 
-    .line 4
     :try_start_0
     invoke-virtual {p1}, Landroid/view/Window;->getContext()Landroid/content/Context;
 
@@ -475,7 +450,6 @@
 
     const-string v5, "com.huawei.android.util.HwNotchSizeUtil"
 
-    .line 5
     invoke-virtual {p1, v5}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
@@ -484,14 +458,12 @@
 
     new-array v6, v2, [Ljava/lang/Class;
 
-    .line 6
     invoke-virtual {p1, v5, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v5
 
     new-array v6, v2, [Ljava/lang/Object;
 
-    .line 7
     sget-object v7, Lcom/commsource/util/r2/g;->e:Lorg/aspectj/lang/c$b;
 
     invoke-static {v7, p0, v5, p1, v6}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -541,7 +513,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     aget p1, p1, v4
 
     :goto_0
@@ -590,7 +561,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Landroid/view/Window;->getContext()Landroid/content/Context;
 
@@ -602,7 +572,6 @@
 
     const-string v2, "com.huawei.android.util.HwNotchSizeUtil"
 
-    .line 2
     invoke-virtual {p1, v2}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
@@ -611,14 +580,12 @@
 
     new-array v3, v1, [Ljava/lang/Class;
 
-    .line 3
     invoke-virtual {p1, v2, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v2
 
     new-array v3, v1, [Ljava/lang/Object;
 
-    .line 4
     sget-object v4, Lcom/commsource/util/r2/g;->d:Lorg/aspectj/lang/c$b;
 
     invoke-static {v4, p0, v2, p1, v3}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -676,12 +643,10 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 6
     :catch_0
     :try_start_1
     sget-object p1, Lcom/commsource/util/r2/g;->a:Ljava/lang/String;
@@ -692,12 +657,10 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 8
     :catch_1
     :try_start_2
     sget-object p1, Lcom/commsource/util/r2/g;->a:Ljava/lang/String;
@@ -708,12 +671,10 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 10
     :catch_2
     :try_start_3
     sget-object p1, Lcom/commsource/util/r2/g;->a:Ljava/lang/String;
@@ -724,7 +685,6 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

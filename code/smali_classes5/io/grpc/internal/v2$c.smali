@@ -33,10 +33,8 @@
 .method constructor <init>(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/v2$c;->a:Ljava/lang/Object;
 
     return-void

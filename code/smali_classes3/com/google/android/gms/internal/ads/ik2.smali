@@ -30,12 +30,10 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ik2;->a:Lcom/google/android/gms/internal/ads/lq;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ik2;->b:Ljava/util/concurrent/Future;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/lq;->isCancelled()Z
 
     move-result v0
@@ -44,7 +42,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-interface {v1, v0}, Ljava/util/concurrent/Future;->cancel(Z)Z
 
     :cond_0

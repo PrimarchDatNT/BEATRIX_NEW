@@ -52,7 +52,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/util/delegate/process/o;->a:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
@@ -75,7 +74,6 @@
 
     if-ne p1, p3, :cond_0
 
-    .line 1
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result p1
@@ -97,7 +95,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -108,17 +105,14 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 2
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
-    .line 3
     new-instance v2, Ljava/util/LinkedList;
 
     invoke-direct {v2}, Ljava/util/LinkedList;-><init>()V
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/util/delegate/process/o;->a:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     invoke-virtual {v3}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getUseFilters()Ljava/util/List;
@@ -133,7 +127,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 5
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -152,7 +145,6 @@
 
     check-cast v7, Lcom/meitu/template/bean/Filter;
 
-    .line 6
     sget-object v8, Lcom/commsource/util/delegate/process/o;->c:Lcom/commsource/util/delegate/process/o$a;
 
     const-string v9, "filter"
@@ -179,7 +171,6 @@
 
     if-nez v8, :cond_0
 
-    .line 7
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -198,7 +189,6 @@
 
     move-result-object v8
 
-    .line 8
     sget-object v9, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {v9}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -211,7 +201,6 @@
 
     if-eqz v9, :cond_3
 
-    .line 9
     invoke-virtual {v9}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v10
@@ -246,18 +235,15 @@
     :goto_2
     if-eqz v9, :cond_3
 
-    .line 10
     invoke-virtual {v9}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v8
 
     check-cast v8, Ljava/lang/String;
 
-    .line 11
     :cond_3
     invoke-virtual {v1, v8}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 12
     invoke-virtual {v7}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v7
@@ -270,13 +256,11 @@
 
     goto :goto_0
 
-    .line 13
     :cond_4
     new-instance v2, Ljava/util/LinkedList;
 
     invoke-direct {v2}, Ljava/util/LinkedList;-><init>()V
 
-    .line 14
     iget-object v3, p0, Lcom/commsource/util/delegate/process/o;->a:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     invoke-virtual {v3}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getArMaterialIds()Ljava/util/List;
@@ -285,7 +269,6 @@
 
     if-eqz v3, :cond_9
 
-    .line 15
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -304,7 +287,6 @@
 
     check-cast v7, Ljava/lang/Long;
 
-    .line 16
     sget-object v8, Lcom/commsource/util/delegate/process/o;->c:Lcom/commsource/util/delegate/process/o$a;
 
     invoke-virtual {v7}, Ljava/lang/Long;->longValue()J
@@ -335,7 +317,6 @@
 
     if-nez v8, :cond_5
 
-    .line 17
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -350,7 +331,6 @@
 
     move-result-object v8
 
-    .line 18
     sget-object v9, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {v9}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -363,7 +343,6 @@
 
     if-eqz v9, :cond_8
 
-    .line 19
     invoke-virtual {v9}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v10
@@ -400,18 +379,15 @@
     :goto_5
     if-eqz v9, :cond_8
 
-    .line 20
     invoke-virtual {v9}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v8
 
     check-cast v8, Ljava/lang/String;
 
-    .line 21
     :cond_8
     invoke-virtual {v1, v8}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 22
     invoke-virtual {v7}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v7
@@ -426,7 +402,6 @@
 
     goto :goto_3
 
-    .line 23
     :cond_9
     iget-object v2, p0, Lcom/commsource/util/delegate/process/o;->a:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
@@ -436,7 +411,6 @@
 
     if-eqz v2, :cond_a
 
-    .line 24
     iget-object v2, p0, Lcom/commsource/util/delegate/process/o;->a:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     invoke-virtual {v2}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getMakeupPayIds()Ljava/util/List;
@@ -445,7 +419,6 @@
 
     if-eqz v2, :cond_a
 
-    .line 25
     new-instance v2, Ljava/util/HashSet;
 
     invoke-direct {v2}, Ljava/util/HashSet;-><init>()V
@@ -458,7 +431,6 @@
 
     invoke-virtual {v2, v3}, Ljava/util/HashSet;->addAll(Ljava/util/Collection;)Z
 
-    .line 26
     invoke-virtual {v2}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -467,7 +439,6 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 27
     :goto_6
     invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
@@ -475,7 +446,6 @@
 
     if-eqz v3, :cond_a
 
-    .line 28
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
@@ -486,7 +456,6 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 29
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -509,7 +478,6 @@
 
     goto :goto_6
 
-    .line 30
     :cond_a
     sget-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
@@ -525,14 +493,12 @@
 
     if-eqz v2, :cond_b
 
-    .line 31
     invoke-virtual {v2}, Lcom/meitu/template/bean/LookMaterial;->isPayLook()Z
 
     move-result v2
 
     if-eqz v2, :cond_b
 
-    .line 32
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -555,7 +521,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 33
     :cond_b
     invoke-static {v1}, Lcom/commsource/camera/f1/q;->f(Ljava/util/Collection;)Z
 
@@ -563,7 +528,6 @@
 
     if-nez v2, :cond_c
 
-    .line 34
     invoke-virtual {v1, v6}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -574,7 +538,6 @@
 
     invoke-virtual {v0, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 35
     :cond_c
     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
 
@@ -584,7 +547,6 @@
 
     new-array v2, v6, [Ljava/lang/String;
 
-    .line 36
     invoke-interface {v1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -597,16 +559,13 @@
 
     const-string v2, "MultipleSources"
 
-    .line 37
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
 
     :cond_d
     const/16 v1, 0x25
 
-    .line 38
     invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 39
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -634,7 +593,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/delegate/process/o;->a:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     return-object v0

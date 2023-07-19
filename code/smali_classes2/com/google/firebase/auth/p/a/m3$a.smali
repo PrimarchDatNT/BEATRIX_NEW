@@ -38,17 +38,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;-><init>(Lcom/google/android/gms/common/api/internal/k;)V
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->a:Lcom/google/android/gms/common/api/internal/k;
 
     const-string v0, "PhoneAuthActivityStopCallback"
 
     invoke-interface {p1, v0, p0}, Lcom/google/android/gms/common/api/internal/k;->d(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/auth/p/a/m3$a;->b:Ljava/util/List;
 
     return-void
@@ -66,12 +63,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->c(Landroid/app/Activity;)Lcom/google/android/gms/common/api/internal/k;
 
     move-result-object p0
 
-    .line 2
     const-class v0, Lcom/google/firebase/auth/p/a/m3$a;
 
     const-string v1, "PhoneAuthActivityStopCallback"
@@ -84,7 +79,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     new-instance v0, Lcom/google/firebase/auth/p/a/m3$a;
 
     invoke-direct {v0, p0, p1}, Lcom/google/firebase/auth/p/a/m3$a;-><init>(Lcom/google/android/gms/common/api/internal/k;Ljava/util/List;)V
@@ -100,18 +94,15 @@
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/m3$a;->b:Ljava/util/List;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/m3$a;->b:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 3
     monitor-exit v0
 
     return-void

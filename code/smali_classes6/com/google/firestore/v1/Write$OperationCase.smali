@@ -46,7 +46,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lcom/google/firestore/v1/Write$OperationCase;
 
     const-string v1, "UPDATE"
@@ -59,7 +58,6 @@
 
     sput-object v0, Lcom/google/firestore/v1/Write$OperationCase;->UPDATE:Lcom/google/firestore/v1/Write$OperationCase;
 
-    .line 2
     new-instance v1, Lcom/google/firestore/v1/Write$OperationCase;
 
     const-string v4, "DELETE"
@@ -70,7 +68,6 @@
 
     sput-object v1, Lcom/google/firestore/v1/Write$OperationCase;->DELETE:Lcom/google/firestore/v1/Write$OperationCase;
 
-    .line 3
     new-instance v4, Lcom/google/firestore/v1/Write$OperationCase;
 
     const-string v6, "TRANSFORM"
@@ -81,7 +78,6 @@
 
     sput-object v4, Lcom/google/firestore/v1/Write$OperationCase;->TRANSFORM:Lcom/google/firestore/v1/Write$OperationCase;
 
-    .line 4
     new-instance v6, Lcom/google/firestore/v1/Write$OperationCase;
 
     const-string v7, "OPERATION_NOT_SET"
@@ -104,7 +100,6 @@
 
     aput-object v6, v7, v8
 
-    .line 5
     sput-object v7, Lcom/google/firestore/v1/Write$OperationCase;->$VALUES:[Lcom/google/firestore/v1/Write$OperationCase;
 
     return-void
@@ -118,10 +113,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firestore/v1/Write$OperationCase;->value:I
 
     return-void
@@ -148,25 +141,21 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/firestore/v1/Write$OperationCase;->TRANSFORM:Lcom/google/firestore/v1/Write$OperationCase;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/firestore/v1/Write$OperationCase;->DELETE:Lcom/google/firestore/v1/Write$OperationCase;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lcom/google/firestore/v1/Write$OperationCase;->UPDATE:Lcom/google/firestore/v1/Write$OperationCase;
 
     return-object p0
 
-    .line 4
     :cond_3
     sget-object p0, Lcom/google/firestore/v1/Write$OperationCase;->OPERATION_NOT_SET:Lcom/google/firestore/v1/Write$OperationCase;
 
@@ -178,7 +167,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/firestore/v1/Write$OperationCase;->forNumber(I)Lcom/google/firestore/v1/Write$OperationCase;
 
     move-result-object p0
@@ -189,7 +177,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firestore/v1/Write$OperationCase;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firestore/v1/Write$OperationCase;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -204,7 +191,6 @@
 .method public static values()[Lcom/google/firestore/v1/Write$OperationCase;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/Write$OperationCase;->$VALUES:[Lcom/google/firestore/v1/Write$OperationCase;
 
     invoke-virtual {v0}, [Lcom/google/firestore/v1/Write$OperationCase;->clone()Ljava/lang/Object;
@@ -221,7 +207,6 @@
 .method public getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firestore/v1/Write$OperationCase;->value:I
 
     return v0

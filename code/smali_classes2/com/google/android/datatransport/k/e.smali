@@ -113,10 +113,8 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/datatransport/k/t;-><init>()V
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/android/datatransport/k/e;->d(Landroid/content/Context;)V
 
     return-void
@@ -125,7 +123,6 @@
 .method synthetic constructor <init>(Landroid/content/Context;Lcom/google/android/datatransport/k/e$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/datatransport/k/e;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -134,7 +131,6 @@
 .method public static c()Lcom/google/android/datatransport/k/t$a;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/k/e$b;
 
     const/4 v1, 0x0
@@ -147,7 +143,6 @@
 .method private d(Landroid/content/Context;)V
     .locals 7
 
-    .line 1
     invoke-static {}, Lcom/google/android/datatransport/k/k;->a()Lcom/google/android/datatransport/k/k;
 
     move-result-object v0
@@ -158,14 +153,12 @@
 
     iput-object v0, p0, Lcom/google/android/datatransport/k/e;->a:Lj/a/c;
 
-    .line 2
     invoke-static {p1}, Ldagger/internal/j;->a(Ljava/lang/Object;)Ldagger/internal/g;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/android/datatransport/k/e;->b:Lj/a/c;
 
-    .line 3
     invoke-static {}, Lcom/google/android/datatransport/k/y/e;->a()Lcom/google/android/datatransport/k/y/e;
 
     move-result-object v0
@@ -180,7 +173,6 @@
 
     iput-object p1, p0, Lcom/google/android/datatransport/k/e;->c:Lj/a/c;
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/datatransport/k/e;->b:Lj/a/c;
 
     invoke-static {v0, p1}, Lcom/google/android/datatransport/runtime/backends/l;->a(Lj/a/c;Lj/a/c;)Lcom/google/android/datatransport/runtime/backends/l;
@@ -193,7 +185,6 @@
 
     iput-object p1, p0, Lcom/google/android/datatransport/k/e;->d:Lj/a/c;
 
-    .line 5
     iget-object p1, p0, Lcom/google/android/datatransport/k/e;->b:Lj/a/c;
 
     invoke-static {}, Lcom/google/android/datatransport/k/x/j/f;->a()Lcom/google/android/datatransport/k/x/j/f;
@@ -210,7 +201,6 @@
 
     iput-object p1, p0, Lcom/google/android/datatransport/k/e;->f:Lj/a/c;
 
-    .line 6
     invoke-static {}, Lcom/google/android/datatransport/k/y/e;->a()Lcom/google/android/datatransport/k/y/e;
 
     move-result-object p1
@@ -235,7 +225,6 @@
 
     iput-object p1, p0, Lcom/google/android/datatransport/k/e;->g:Lj/a/c;
 
-    .line 7
     invoke-static {}, Lcom/google/android/datatransport/k/y/e;->a()Lcom/google/android/datatransport/k/y/e;
 
     move-result-object p1
@@ -246,7 +235,6 @@
 
     iput-object p1, p0, Lcom/google/android/datatransport/k/e;->p:Lj/a/c;
 
-    .line 8
     iget-object v0, p0, Lcom/google/android/datatransport/k/e;->b:Lj/a/c;
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/e;->g:Lj/a/c;
@@ -261,7 +249,6 @@
 
     iput-object p1, p0, Lcom/google/android/datatransport/k/e;->J:Lj/a/c;
 
-    .line 9
     iget-object v0, p0, Lcom/google/android/datatransport/k/e;->a:Lj/a/c;
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/e;->d:Lj/a/c;
@@ -274,7 +261,6 @@
 
     iput-object p1, p0, Lcom/google/android/datatransport/k/e;->K:Lj/a/c;
 
-    .line 10
     iget-object v0, p0, Lcom/google/android/datatransport/k/e;->b:Lj/a/c;
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/e;->d:Lj/a/c;
@@ -297,7 +283,6 @@
 
     iput-object p1, p0, Lcom/google/android/datatransport/k/e;->L:Lj/a/c;
 
-    .line 11
     iget-object p1, p0, Lcom/google/android/datatransport/k/e;->a:Lj/a/c;
 
     iget-object v0, p0, Lcom/google/android/datatransport/k/e;->g:Lj/a/c;
@@ -310,7 +295,6 @@
 
     iput-object p1, p0, Lcom/google/android/datatransport/k/e;->M:Lj/a/c;
 
-    .line 12
     invoke-static {}, Lcom/google/android/datatransport/k/y/e;->a()Lcom/google/android/datatransport/k/y/e;
 
     move-result-object p1
@@ -343,7 +327,6 @@
 .method a()Lcom/google/android/datatransport/k/x/j/c;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/e;->g:Lj/a/c;
 
     invoke-interface {v0}, Lj/a/c;->get()Ljava/lang/Object;
@@ -358,7 +341,6 @@
 .method b()Lcom/google/android/datatransport/k/s;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/e;->N:Lj/a/c;
 
     invoke-interface {v0}, Lj/a/c;->get()Ljava/lang/Object;

@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RelightFragment$e;->c:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautymain/utils/RelightModelHelper$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/RelightFragment$e;->e(Lcom/commsource/beautymain/utils/RelightModelHelper$a;)V
@@ -74,10 +72,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyfilter/NoStickLiveData$a;->b(Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/RelightFragment$e;->c:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/RelightFragment;->A1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/comic/widget/c;
@@ -90,7 +86,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/RelightFragment$e;->c:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/RelightFragment;->A1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/comic/widget/c;
@@ -99,13 +94,11 @@
 
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/RelightFragment$e;->c:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/BaseSubFragment;->I0()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

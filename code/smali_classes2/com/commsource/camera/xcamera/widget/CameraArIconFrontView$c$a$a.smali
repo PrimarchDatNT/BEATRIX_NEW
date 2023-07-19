@@ -46,12 +46,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c$a$a;->b:Ljava/lang/Runnable;
 
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c$a$a;->a:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c$a;->a:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c;
@@ -60,7 +58,6 @@
 
     invoke-virtual {v1}, Landroid/widget/TextView;->postInvalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -124,7 +124,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/airbnb/lottie/LottieAnimationView;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -133,7 +132,6 @@
 
     sput-object v0, Lcom/airbnb/lottie/LottieAnimationView;->V:Ljava/lang/String;
 
-    .line 2
     new-instance v0, Lcom/airbnb/lottie/LottieAnimationView$a;
 
     invoke-direct {v0}, Lcom/airbnb/lottie/LottieAnimationView$a;-><init>()V
@@ -146,17 +144,14 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Lcom/airbnb/lottie/LottieAnimationView$b;
 
     invoke-direct {p1, p0}, Lcom/airbnb/lottie/LottieAnimationView$b;-><init>(Lcom/airbnb/lottie/LottieAnimationView;)V
 
     iput-object p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->a:Lcom/airbnb/lottie/l;
 
-    .line 3
     new-instance p1, Lcom/airbnb/lottie/LottieAnimationView$c;
 
     invoke-direct {p1, p0}, Lcom/airbnb/lottie/LottieAnimationView$c;-><init>(Lcom/airbnb/lottie/LottieAnimationView;)V
@@ -165,52 +160,40 @@
 
     const/4 p1, 0x0
 
-    .line 4
     iput p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->d:I
 
-    .line 5
     new-instance v0, Lcom/airbnb/lottie/j;
 
     invoke-direct {v0}, Lcom/airbnb/lottie/j;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
-    .line 6
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->K:Z
 
-    .line 7
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->L:Z
 
-    .line 8
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->M:Z
 
-    .line 9
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->N:Z
 
-    .line 10
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->O:Z
 
     const/4 v0, 0x1
 
-    .line 11
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->P:Z
 
-    .line 12
     sget-object v0, Lcom/airbnb/lottie/RenderMode;->AUTOMATIC:Lcom/airbnb/lottie/RenderMode;
 
     iput-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->Q:Lcom/airbnb/lottie/RenderMode;
 
-    .line 13
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->R:Ljava/util/Set;
 
-    .line 14
     iput p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->S:I
 
-    .line 15
     sget p1, Lcom/airbnb/lottie/t$b;->i2:I
 
     const/4 v0, 0x0
@@ -223,17 +206,14 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    .line 16
     invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 17
     new-instance p1, Lcom/airbnb/lottie/LottieAnimationView$b;
 
     invoke-direct {p1, p0}, Lcom/airbnb/lottie/LottieAnimationView$b;-><init>(Lcom/airbnb/lottie/LottieAnimationView;)V
 
     iput-object p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->a:Lcom/airbnb/lottie/l;
 
-    .line 18
     new-instance p1, Lcom/airbnb/lottie/LottieAnimationView$c;
 
     invoke-direct {p1, p0}, Lcom/airbnb/lottie/LottieAnimationView$c;-><init>(Lcom/airbnb/lottie/LottieAnimationView;)V
@@ -242,52 +222,40 @@
 
     const/4 p1, 0x0
 
-    .line 19
     iput p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->d:I
 
-    .line 20
     new-instance v0, Lcom/airbnb/lottie/j;
 
     invoke-direct {v0}, Lcom/airbnb/lottie/j;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
-    .line 21
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->K:Z
 
-    .line 22
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->L:Z
 
-    .line 23
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->M:Z
 
-    .line 24
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->N:Z
 
-    .line 25
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->O:Z
 
     const/4 v0, 0x1
 
-    .line 26
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->P:Z
 
-    .line 27
     sget-object v0, Lcom/airbnb/lottie/RenderMode;->AUTOMATIC:Lcom/airbnb/lottie/RenderMode;
 
     iput-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->Q:Lcom/airbnb/lottie/RenderMode;
 
-    .line 28
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->R:Ljava/util/Set;
 
-    .line 29
     iput p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->S:I
 
-    .line 30
     sget p1, Lcom/airbnb/lottie/t$b;->i2:I
 
     invoke-direct {p0, p2, p1}, Lcom/airbnb/lottie/LottieAnimationView;->u(Landroid/util/AttributeSet;I)V
@@ -298,17 +266,14 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
 
-    .line 31
     invoke-direct {p0, p1, p2, p3}, Landroidx/appcompat/widget/AppCompatImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 32
     new-instance p1, Lcom/airbnb/lottie/LottieAnimationView$b;
 
     invoke-direct {p1, p0}, Lcom/airbnb/lottie/LottieAnimationView$b;-><init>(Lcom/airbnb/lottie/LottieAnimationView;)V
 
     iput-object p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->a:Lcom/airbnb/lottie/l;
 
-    .line 33
     new-instance p1, Lcom/airbnb/lottie/LottieAnimationView$c;
 
     invoke-direct {p1, p0}, Lcom/airbnb/lottie/LottieAnimationView$c;-><init>(Lcom/airbnb/lottie/LottieAnimationView;)V
@@ -317,52 +282,40 @@
 
     const/4 p1, 0x0
 
-    .line 34
     iput p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->d:I
 
-    .line 35
     new-instance v0, Lcom/airbnb/lottie/j;
 
     invoke-direct {v0}, Lcom/airbnb/lottie/j;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
-    .line 36
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->K:Z
 
-    .line 37
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->L:Z
 
-    .line 38
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->M:Z
 
-    .line 39
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->N:Z
 
-    .line 40
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->O:Z
 
     const/4 v0, 0x1
 
-    .line 41
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->P:Z
 
-    .line 42
     sget-object v0, Lcom/airbnb/lottie/RenderMode;->AUTOMATIC:Lcom/airbnb/lottie/RenderMode;
 
     iput-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->Q:Lcom/airbnb/lottie/RenderMode;
 
-    .line 43
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->R:Ljava/util/Set;
 
-    .line 44
     iput p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->S:I
 
-    .line 45
     invoke-direct {p0, p2, p3}, Lcom/airbnb/lottie/LottieAnimationView;->u(Landroid/util/AttributeSet;I)V
 
     return-void
@@ -371,24 +324,20 @@
 .method private N()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/LottieAnimationView;->v()Z
 
     move-result v0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/airbnb/lottie/LottieAnimationView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 3
     iget-object v1, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {p0, v1}, Lcom/airbnb/lottie/LottieAnimationView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->a0()V
@@ -400,7 +349,6 @@
 .method static synthetic a(Lcom/airbnb/lottie/LottieAnimationView;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/airbnb/lottie/LottieAnimationView;->d:I
 
     return p0
@@ -409,7 +357,6 @@
 .method static synthetic b(Lcom/airbnb/lottie/LottieAnimationView;)Lcom/airbnb/lottie/l;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/airbnb/lottie/LottieAnimationView;->c:Lcom/airbnb/lottie/l;
 
     return-object p0
@@ -418,7 +365,6 @@
 .method static synthetic c()Lcom/airbnb/lottie/l;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/LottieAnimationView;->W:Lcom/airbnb/lottie/l;
 
     return-object v0
@@ -427,7 +373,6 @@
 .method static synthetic d(Lcom/airbnb/lottie/LottieAnimationView;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/airbnb/lottie/LottieAnimationView;->P:Z
 
     return p0
@@ -436,17 +381,14 @@
 .method private l()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->T:Lcom/airbnb/lottie/q;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/airbnb/lottie/LottieAnimationView;->a:Lcom/airbnb/lottie/l;
 
     invoke-virtual {v0, v1}, Lcom/airbnb/lottie/q;->k(Lcom/airbnb/lottie/l;)Lcom/airbnb/lottie/q;
 
-    .line 3
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->T:Lcom/airbnb/lottie/q;
 
     iget-object v1, p0, Lcom/airbnb/lottie/LottieAnimationView;->b:Lcom/airbnb/lottie/l;
@@ -462,10 +404,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->U:Lcom/airbnb/lottie/g;
 
-    .line 2
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->l()V
@@ -476,10 +416,8 @@
 .method private p()V
     .locals 6
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    .line 2
     sget-object v1, Lcom/airbnb/lottie/LottieAnimationView$g;->a:[I
 
     iget-object v2, p0, Lcom/airbnb/lottie/LottieAnimationView;->Q:Lcom/airbnb/lottie/RenderMode;
@@ -507,7 +445,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/airbnb/lottie/LottieAnimationView;->U:Lcom/airbnb/lottie/g;
 
@@ -527,7 +464,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     iget-object v1, p0, Lcom/airbnb/lottie/LottieAnimationView;->U:Lcom/airbnb/lottie/g;
 
@@ -568,7 +504,6 @@
     :goto_0
     if-eqz v4, :cond_0
 
-    .line 5
     :cond_7
     :goto_1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getLayerType()I
@@ -579,7 +514,6 @@
 
     const/4 v0, 0x0
 
-    .line 6
     invoke-virtual {p0, v2, v0}, Landroid/widget/ImageView;->setLayerType(ILandroid/graphics/Paint;)V
 
     :cond_8
@@ -599,14 +533,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->isInEditMode()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/airbnb/lottie/q;
 
     new-instance v1, Lcom/airbnb/lottie/LottieAnimationView$e;
@@ -619,13 +551,11 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->P:Z
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -666,14 +596,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->isInEditMode()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/airbnb/lottie/q;
 
     new-instance v1, Lcom/airbnb/lottie/LottieAnimationView$d;
@@ -686,13 +614,11 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->P:Z
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -729,23 +655,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->m()V
 
-    .line 2
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->l()V
 
-    .line 3
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->a:Lcom/airbnb/lottie/l;
 
-    .line 4
     invoke-virtual {p1, v0}, Lcom/airbnb/lottie/q;->f(Lcom/airbnb/lottie/l;)Lcom/airbnb/lottie/q;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->b:Lcom/airbnb/lottie/l;
 
-    .line 5
     invoke-virtual {p1, v0}, Lcom/airbnb/lottie/q;->e(Lcom/airbnb/lottie/l;)Lcom/airbnb/lottie/q;
 
     move-result-object p1
@@ -766,7 +687,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -779,7 +699,6 @@
 
     move-result-object p1
 
-    .line 2
     sget p2, Lcom/airbnb/lottie/t$l;->T4:I
 
     const/4 v0, 0x1
@@ -790,21 +709,18 @@
 
     iput-boolean p2, p0, Lcom/airbnb/lottie/LottieAnimationView;->P:Z
 
-    .line 3
     sget p2, Lcom/airbnb/lottie/t$l;->b5:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     move-result v1
 
-    .line 4
     sget v3, Lcom/airbnb/lottie/t$l;->X4:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     move-result v4
 
-    .line 5
     sget v5, Lcom/airbnb/lottie/t$l;->h5:I
 
     invoke-virtual {p1, v5}, Landroid/content/res/TypedArray;->hasValue(I)Z
@@ -817,7 +733,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -831,14 +746,12 @@
     :goto_0
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-virtual {p1, p2, v2}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     move-result p2
 
     if-eqz p2, :cond_4
 
-    .line 8
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(I)V
 
     goto :goto_1
@@ -846,14 +759,12 @@
     :cond_2
     if-eqz v4, :cond_3
 
-    .line 9
     invoke-virtual {p1, v3}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 
     move-result-object p2
 
     if-eqz p2, :cond_4
 
-    .line 10
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
 
     goto :goto_1
@@ -861,17 +772,14 @@
     :cond_3
     if-eqz v6, :cond_4
 
-    .line 11
     invoke-virtual {p1, v5}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 
     move-result-object p2
 
     if-eqz p2, :cond_4
 
-    .line 12
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimationFromUrl(Ljava/lang/String;)V
 
-    .line 13
     :cond_4
     :goto_1
     sget p2, Lcom/airbnb/lottie/t$l;->W4:I
@@ -882,7 +790,6 @@
 
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setFallbackResource(I)V
 
-    .line 14
     sget p2, Lcom/airbnb/lottie/t$l;->S4:I
 
     invoke-virtual {p1, p2, v2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
@@ -891,13 +798,10 @@
 
     if-eqz p2, :cond_5
 
-    .line 15
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->M:Z
 
-    .line 16
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->O:Z
 
-    .line 17
     :cond_5
     sget p2, Lcom/airbnb/lottie/t$l;->Z4:I
 
@@ -909,12 +813,10 @@
 
     if-eqz p2, :cond_6
 
-    .line 18
     iget-object p2, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {p2, v1}, Lcom/airbnb/lottie/j;->v0(I)V
 
-    .line 19
     :cond_6
     sget p2, Lcom/airbnb/lottie/t$l;->e5:I
 
@@ -924,14 +826,12 @@
 
     if-eqz v3, :cond_7
 
-    .line 20
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result p2
 
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setRepeatMode(I)V
 
-    .line 21
     :cond_7
     sget p2, Lcom/airbnb/lottie/t$l;->d5:I
 
@@ -941,14 +841,12 @@
 
     if-eqz v3, :cond_8
 
-    .line 22
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result p2
 
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setRepeatCount(I)V
 
-    .line 23
     :cond_8
     sget p2, Lcom/airbnb/lottie/t$l;->g5:I
 
@@ -960,14 +858,12 @@
 
     if-eqz v3, :cond_9
 
-    .line 24
     invoke-virtual {p1, p2, v4}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
     move-result p2
 
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setSpeed(F)V
 
-    .line 25
     :cond_9
     sget p2, Lcom/airbnb/lottie/t$l;->Y4:I
 
@@ -977,7 +873,6 @@
 
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setImageAssetsFolder(Ljava/lang/String;)V
 
-    .line 26
     sget p2, Lcom/airbnb/lottie/t$l;->a5:I
 
     const/4 v3, 0x0
@@ -988,7 +883,6 @@
 
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setProgress(F)V
 
-    .line 27
     sget p2, Lcom/airbnb/lottie/t$l;->V4:I
 
     invoke-virtual {p1, p2, v2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
@@ -997,7 +891,6 @@
 
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/LottieAnimationView;->o(Z)V
 
-    .line 28
     sget p2, Lcom/airbnb/lottie/t$l;->U4:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->hasValue(I)Z
@@ -1006,12 +899,10 @@
 
     if-eqz v5, :cond_a
 
-    .line 29
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     move-result p2
 
-    .line 30
     invoke-virtual {p0}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1020,7 +911,6 @@
 
     move-result-object p2
 
-    .line 31
     new-instance v1, Lcom/airbnb/lottie/u;
 
     invoke-virtual {p2}, Landroid/content/res/ColorStateList;->getDefaultColor()I
@@ -1029,7 +919,6 @@
 
     invoke-direct {v1, p2}, Lcom/airbnb/lottie/u;-><init>(I)V
 
-    .line 32
     new-instance p2, Lcom/airbnb/lottie/model/d;
 
     const-string v5, "**"
@@ -1040,17 +929,14 @@
 
     invoke-direct {p2, v5}, Lcom/airbnb/lottie/model/d;-><init>([Ljava/lang/String;)V
 
-    .line 33
     new-instance v5, Lcom/airbnb/lottie/a0/j;
 
     invoke-direct {v5, v1}, Lcom/airbnb/lottie/a0/j;-><init>(Ljava/lang/Object;)V
 
-    .line 34
     sget-object v1, Lcom/airbnb/lottie/o;->E:Landroid/graphics/ColorFilter;
 
     invoke-virtual {p0, p2, v1, v5}, Lcom/airbnb/lottie/LottieAnimationView;->i(Lcom/airbnb/lottie/model/d;Ljava/lang/Object;Lcom/airbnb/lottie/a0/j;)V
 
-    .line 35
     :cond_a
     sget p2, Lcom/airbnb/lottie/t$l;->f5:I
 
@@ -1060,7 +946,6 @@
 
     if-eqz v1, :cond_b
 
-    .line 36
     iget-object v1, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {p1, p2, v4}, Landroid/content/res/TypedArray;->getFloat(IF)F
@@ -1069,7 +954,6 @@
 
     invoke-virtual {v1, p2}, Lcom/airbnb/lottie/j;->y0(F)V
 
-    .line 37
     :cond_b
     sget p2, Lcom/airbnb/lottie/t$l;->c5:I
 
@@ -1079,7 +963,6 @@
 
     if-eqz v1, :cond_d
 
-    .line 38
     sget-object v1, Lcom/airbnb/lottie/RenderMode;->AUTOMATIC:Lcom/airbnb/lottie/RenderMode;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -1090,7 +973,6 @@
 
     move-result p2
 
-    .line 39
     invoke-static {}, Lcom/airbnb/lottie/RenderMode;->values()[Lcom/airbnb/lottie/RenderMode;
 
     move-result-object v4
@@ -1099,12 +981,10 @@
 
     if-lt p2, v4, :cond_c
 
-    .line 40
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result p2
 
-    .line 41
     :cond_c
     invoke-static {}, Lcom/airbnb/lottie/RenderMode;->values()[Lcom/airbnb/lottie/RenderMode;
 
@@ -1114,11 +994,9 @@
 
     invoke-virtual {p0, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setRenderMode(Lcom/airbnb/lottie/RenderMode;)V
 
-    .line 42
     :cond_d
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 43
     iget-object p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {p0}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
@@ -1142,10 +1020,8 @@
 
     invoke-virtual {p1, p2}, Lcom/airbnb/lottie/j;->A0(Ljava/lang/Boolean;)V
 
-    .line 44
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->p()V
 
-    .line 45
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->g:Z
 
     return-void
@@ -1156,7 +1032,6 @@
 .method public A()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->U()V
@@ -1167,7 +1042,6 @@
 .method public B()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->R:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->clear()V
@@ -1178,7 +1052,6 @@
 .method public C()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->V()V
@@ -1189,7 +1062,6 @@
 .method public D(Landroid/animation/Animator$AnimatorListener;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->W(Landroid/animation/Animator$AnimatorListener;)V
@@ -1203,7 +1075,6 @@
         api = 0x13
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->X(Landroid/animation/Animator$AnimatorPauseListener;)V
@@ -1218,7 +1089,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->R:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
@@ -1231,7 +1101,6 @@
 .method public G(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->Y(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
@@ -1252,7 +1121,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->Z(Lcom/airbnb/lottie/model/d;)Ljava/util/List;
@@ -1267,19 +1135,16 @@
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->isShown()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->a0()V
 
-    .line 3
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->p()V
 
     goto :goto_0
@@ -1287,12 +1152,10 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->K:Z
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->L:Z
 
     :goto_0
@@ -1302,7 +1165,6 @@
 .method public J()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->b0()V
@@ -1317,7 +1179,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1, p2}, Lcom/airbnb/lottie/h;->j(Ljava/io/InputStream;Ljava/lang/String;)Lcom/airbnb/lottie/q;
 
     move-result-object p1
@@ -1334,7 +1195,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayInputStream;
 
     invoke-virtual {p1}, Ljava/lang/String;->getBytes()[B
@@ -1355,7 +1215,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -1364,7 +1223,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/LottieAnimationView;->setCompositionTask(Lcom/airbnb/lottie/q;)V
 
     return-void
@@ -1373,7 +1231,6 @@
 .method public O(II)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1, p2}, Lcom/airbnb/lottie/j;->l0(II)V
@@ -1384,7 +1241,6 @@
 .method public P(Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/airbnb/lottie/j;->n0(Ljava/lang/String;Ljava/lang/String;Z)V
@@ -1407,7 +1263,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1, p2}, Lcom/airbnb/lottie/j;->o0(FF)V
@@ -1424,7 +1279,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1, p2}, Lcom/airbnb/lottie/j;->C0(Ljava/lang/String;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
@@ -1439,10 +1293,8 @@
 
     const-string v0, "buildDrawingCache"
 
-    .line 1
     invoke-static {v0}, Lcom/airbnb/lottie/e;->a(Ljava/lang/String;)V
 
-    .line 2
     iget v1, p0, Lcom/airbnb/lottie/LottieAnimationView;->S:I
 
     const/4 v2, 0x1
@@ -1451,10 +1303,8 @@
 
     iput v1, p0, Lcom/airbnb/lottie/LottieAnimationView;->S:I
 
-    .line 3
     invoke-super {p0, p1}, Landroid/widget/ImageView;->buildDrawingCache(Z)V
 
-    .line 4
     iget v1, p0, Lcom/airbnb/lottie/LottieAnimationView;->S:I
 
     if-ne v1, v2, :cond_0
@@ -1471,7 +1321,6 @@
 
     if-lez v1, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/ImageView;->getLayerType()I
 
     move-result v1
@@ -1484,12 +1333,10 @@
 
     if-nez p1, :cond_0
 
-    .line 6
     sget-object p1, Lcom/airbnb/lottie/RenderMode;->HARDWARE:Lcom/airbnb/lottie/RenderMode;
 
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/LottieAnimationView;->setRenderMode(Lcom/airbnb/lottie/RenderMode;)V
 
-    .line 7
     :cond_0
     iget p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->S:I
 
@@ -1497,7 +1344,6 @@
 
     iput p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->S:I
 
-    .line 8
     invoke-static {v0}, Lcom/airbnb/lottie/e;->b(Ljava/lang/String;)F
 
     return-void
@@ -1506,7 +1352,6 @@
 .method public e(Landroid/animation/Animator$AnimatorListener;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->c(Landroid/animation/Animator$AnimatorListener;)V
@@ -1520,7 +1365,6 @@
         api = 0x13
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->d(Landroid/animation/Animator$AnimatorPauseListener;)V
@@ -1531,7 +1375,6 @@
 .method public g(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->e(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
@@ -1544,7 +1387,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->U:Lcom/airbnb/lottie/g;
 
     return-object v0
@@ -1553,7 +1395,6 @@
 .method public getDuration()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->U:Lcom/airbnb/lottie/g;
 
     if-eqz v0, :cond_0
@@ -1576,7 +1417,6 @@
 .method public getFrame()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->w()I
@@ -1591,7 +1431,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->z()Ljava/lang/String;
@@ -1604,7 +1443,6 @@
 .method public getMaxFrame()F
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->A()F
@@ -1617,7 +1455,6 @@
 .method public getMinFrame()F
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->C()F
@@ -1632,7 +1469,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->D()Lcom/airbnb/lottie/s;
@@ -1649,7 +1485,6 @@
         to = 1.0
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->E()F
@@ -1662,7 +1497,6 @@
 .method public getRepeatCount()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->F()I
@@ -1675,7 +1509,6 @@
 .method public getRepeatMode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->G()I
@@ -1688,7 +1521,6 @@
 .method public getScale()F
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->H()F
@@ -1701,7 +1533,6 @@
 .method public getSpeed()F
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->I()F
@@ -1718,15 +1549,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->U:Lcom/airbnb/lottie/g;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {p1, v0}, Lcom/airbnb/lottie/n;->a(Lcom/airbnb/lottie/g;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->R:Ljava/util/Set;
 
@@ -1751,7 +1579,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/airbnb/lottie/j;->f(Lcom/airbnb/lottie/model/d;Ljava/lang/Object;Lcom/airbnb/lottie/a0/j;)V
@@ -1766,7 +1593,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -1775,12 +1601,10 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-super {p0, v1}, Landroid/widget/ImageView;->invalidateDrawable(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Landroid/widget/ImageView;->invalidateDrawable(Landroid/graphics/drawable/Drawable;)V
 
@@ -1802,7 +1626,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     new-instance v1, Lcom/airbnb/lottie/LottieAnimationView$f;
@@ -1821,21 +1644,16 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->M:Z
 
-    .line 2
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->L:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->K:Z
 
-    .line 4
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->k()V
 
-    .line 5
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->p()V
 
     return-void
@@ -1844,7 +1662,6 @@
 .method public n()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->m()V
@@ -1855,7 +1672,6 @@
 .method public o(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->q(Z)V
@@ -1866,10 +1682,8 @@
 .method protected onAttachedToWindow()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Landroid/widget/ImageView;->onAttachedToWindow()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/ImageView;->isInEditMode()Z
 
     move-result v0
@@ -1884,19 +1698,15 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/airbnb/lottie/LottieAnimationView;->z()V
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->O:Z
 
-    .line 5
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->M:Z
 
-    .line 6
     :cond_1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -1904,7 +1714,6 @@
 
     if-ge v0, v1, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Landroid/widget/ImageView;->getVisibility()I
 
     move-result v0
@@ -1918,22 +1727,18 @@
 .method protected onDetachedFromWindow()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/LottieAnimationView;->v()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/airbnb/lottie/LottieAnimationView;->k()V
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->M:Z
 
-    .line 4
     :cond_0
     invoke-super {p0}, Landroid/widget/ImageView;->onDetachedFromWindow()V
 
@@ -1943,45 +1748,37 @@
 .method protected onRestoreInstanceState(Landroid/os/Parcelable;)V
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-super {p0, p1}, Landroid/widget/ImageView;->onRestoreInstanceState(Landroid/os/Parcelable;)V
 
     return-void
 
-    .line 3
     :cond_0
     check-cast p1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/View$BaseSavedState;->getSuperState()Landroid/os/Parcelable;
 
     move-result-object v0
 
     invoke-super {p0, v0}, Landroid/widget/ImageView;->onRestoreInstanceState(Landroid/os/Parcelable;)V
 
-    .line 5
     iget-object v0, p1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;->a:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->p:Ljava/lang/String;
 
-    .line 6
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 7
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->p:Ljava/lang/String;
 
     invoke-virtual {p0, v0}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
 
-    .line 8
     :cond_1
     iget v0, p1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;->b:I
 
@@ -1989,24 +1786,19 @@
 
     if-eqz v0, :cond_2
 
-    .line 9
     invoke-virtual {p0, v0}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(I)V
 
-    .line 10
     :cond_2
     iget v0, p1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;->c:F
 
     invoke-virtual {p0, v0}, Lcom/airbnb/lottie/LottieAnimationView;->setProgress(F)V
 
-    .line 11
     iget-boolean v0, p1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;->d:Z
 
     if-eqz v0, :cond_3
 
-    .line 12
     invoke-virtual {p0}, Lcom/airbnb/lottie/LottieAnimationView;->z()V
 
-    .line 13
     :cond_3
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
@@ -2014,12 +1806,10 @@
 
     invoke-virtual {v0, v1}, Lcom/airbnb/lottie/j;->h0(Ljava/lang/String;)V
 
-    .line 14
     iget v0, p1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;->g:I
 
     invoke-virtual {p0, v0}, Lcom/airbnb/lottie/LottieAnimationView;->setRepeatMode(I)V
 
-    .line 15
     iget p1, p1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;->p:I
 
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/LottieAnimationView;->setRepeatCount(I)V
@@ -2030,27 +1820,22 @@
 .method protected onSaveInstanceState()Landroid/os/Parcelable;
     .locals 2
 
-    .line 1
     invoke-super {p0}, Landroid/widget/ImageView;->onSaveInstanceState()Landroid/os/Parcelable;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;
 
     invoke-direct {v1, v0}, Lcom/airbnb/lottie/LottieAnimationView$SavedState;-><init>(Landroid/os/Parcelable;)V
 
-    .line 3
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->p:Ljava/lang/String;
 
     iput-object v0, v1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;->a:Ljava/lang/String;
 
-    .line 4
     iget v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->J:I
 
     iput v0, v1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;->b:I
 
-    .line 5
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->E()F
@@ -2059,7 +1844,6 @@
 
     iput v0, v1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;->c:F
 
-    .line 6
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->N()Z
@@ -2092,7 +1876,6 @@
     :goto_1
     iput-boolean v0, v1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;->d:Z
 
-    .line 7
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->z()Ljava/lang/String;
@@ -2101,7 +1884,6 @@
 
     iput-object v0, v1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;->f:Ljava/lang/String;
 
-    .line 8
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->G()I
@@ -2110,7 +1892,6 @@
 
     iput v0, v1, Lcom/airbnb/lottie/LottieAnimationView$SavedState;->g:I
 
-    .line 9
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->F()I
@@ -2129,14 +1910,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->g:Z
 
     if-nez p1, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/widget/ImageView;->isShown()Z
 
@@ -2144,38 +1923,31 @@
 
     if-eqz p1, :cond_3
 
-    .line 3
     iget-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->L:Z
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/airbnb/lottie/LottieAnimationView;->I()V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->K:Z
 
     if-eqz p1, :cond_2
 
-    .line 6
     invoke-virtual {p0}, Lcom/airbnb/lottie/LottieAnimationView;->z()V
 
     :cond_2
     :goto_0
     const/4 p1, 0x0
 
-    .line 7
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->L:Z
 
-    .line 8
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->K:Z
 
     goto :goto_1
 
-    .line 9
     :cond_3
     invoke-virtual {p0}, Lcom/airbnb/lottie/LottieAnimationView;->v()Z
 
@@ -2183,12 +1955,10 @@
 
     if-eqz p1, :cond_4
 
-    .line 10
     invoke-virtual {p0}, Lcom/airbnb/lottie/LottieAnimationView;->y()V
 
     const/4 p1, 0x1
 
-    .line 11
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->L:Z
 
     :cond_4
@@ -2199,7 +1969,6 @@
 .method public s()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->L()Z
@@ -2216,15 +1985,12 @@
         .end annotation
     .end param
 
-    .line 1
     iput p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->J:I
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->p:Ljava/lang/String;
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/LottieAnimationView;->r(I)Lcom/airbnb/lottie/q;
 
     move-result-object p1
@@ -2237,15 +2003,12 @@
 .method public setAnimation(Ljava/lang/String;)V
     .locals 1
 
-    .line 4
     iput-object p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->p:Ljava/lang/String;
 
     const/4 v0, 0x0
 
-    .line 5
     iput v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->J:I
 
-    .line 6
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/LottieAnimationView;->q(Ljava/lang/String;)Lcom/airbnb/lottie/q;
 
     move-result-object p1
@@ -2262,7 +2025,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/airbnb/lottie/LottieAnimationView;->L(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -2271,12 +2033,10 @@
 .method public setAnimationFromUrl(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->P:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2298,7 +2058,6 @@
 
     move-result-object p1
 
-    .line 3
     :goto_0
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/LottieAnimationView;->setCompositionTask(Lcom/airbnb/lottie/q;)V
 
@@ -2308,7 +2067,6 @@
 .method public setApplyingOpacityToLayersEnabled(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->c0(Z)V
@@ -2319,7 +2077,6 @@
 .method public setCacheComposition(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->P:Z
 
     return-void
@@ -2332,12 +2089,10 @@
         .end annotation
     .end param
 
-    .line 1
     sget-boolean v0, Lcom/airbnb/lottie/e;->a:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/airbnb/lottie/LottieAnimationView;->V:Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -2356,21 +2111,17 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p0}, Landroid/graphics/drawable/Drawable;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 
-    .line 4
     iput-object p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->U:Lcom/airbnb/lottie/g;
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->N:Z
 
-    .line 6
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->d0(Lcom/airbnb/lottie/g;)Z
@@ -2379,13 +2130,10 @@
 
     const/4 v1, 0x0
 
-    .line 7
     iput-boolean v1, p0, Lcom/airbnb/lottie/LottieAnimationView;->N:Z
 
-    .line 8
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->p()V
 
-    .line 9
     invoke-virtual {p0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
@@ -2401,10 +2149,8 @@
     :cond_1
     if-nez v0, :cond_2
 
-    .line 10
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->N()V
 
-    .line 11
     :cond_2
     invoke-virtual {p0}, Landroid/widget/ImageView;->getVisibility()I
 
@@ -2412,10 +2158,8 @@
 
     invoke-virtual {p0, p0, v0}, Lcom/airbnb/lottie/LottieAnimationView;->onVisibilityChanged(Landroid/view/View;I)V
 
-    .line 12
     invoke-virtual {p0}, Landroid/widget/ImageView;->requestLayout()V
 
-    .line 13
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->R:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -2435,7 +2179,6 @@
 
     check-cast v1, Lcom/airbnb/lottie/n;
 
-    .line 14
     invoke-interface {v1, p1}, Lcom/airbnb/lottie/n;->a(Lcom/airbnb/lottie/g;)V
 
     goto :goto_0
@@ -2459,7 +2202,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->c:Lcom/airbnb/lottie/l;
 
     return-void
@@ -2472,7 +2214,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->d:I
 
     return-void
@@ -2481,7 +2222,6 @@
 .method public setFontAssetDelegate(Lcom/airbnb/lottie/c;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->e0(Lcom/airbnb/lottie/c;)V
@@ -2492,7 +2232,6 @@
 .method public setFrame(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->f0(I)V
@@ -2503,7 +2242,6 @@
 .method public setImageAssetDelegate(Lcom/airbnb/lottie/d;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->g0(Lcom/airbnb/lottie/d;)V
@@ -2514,7 +2252,6 @@
 .method public setImageAssetsFolder(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->h0(Ljava/lang/String;)V
@@ -2525,10 +2262,8 @@
 .method public setImageBitmap(Landroid/graphics/Bitmap;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->l()V
 
-    .line 2
     invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     return-void
@@ -2537,10 +2272,8 @@
 .method public setImageDrawable(Landroid/graphics/drawable/Drawable;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->l()V
 
-    .line 2
     invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     return-void
@@ -2549,10 +2282,8 @@
 .method public setImageResource(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->l()V
 
-    .line 2
     invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
     return-void
@@ -2561,7 +2292,6 @@
 .method public setMaxFrame(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->i0(I)V
@@ -2572,7 +2302,6 @@
 .method public setMaxFrame(Ljava/lang/String;)V
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->j0(Ljava/lang/String;)V
@@ -2589,7 +2318,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->k0(F)V
@@ -2600,7 +2328,6 @@
 .method public setMinAndMaxFrame(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->m0(Ljava/lang/String;)V
@@ -2611,7 +2338,6 @@
 .method public setMinFrame(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->p0(I)V
@@ -2622,7 +2348,6 @@
 .method public setMinFrame(Ljava/lang/String;)V
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->q0(Ljava/lang/String;)V
@@ -2633,7 +2358,6 @@
 .method public setMinProgress(F)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->r0(F)V
@@ -2644,7 +2368,6 @@
 .method public setOutlineMasksAndMattes(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->s0(Z)V
@@ -2655,7 +2378,6 @@
 .method public setPerformanceTrackingEnabled(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->t0(Z)V
@@ -2672,7 +2394,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->u0(F)V
@@ -2683,10 +2404,8 @@
 .method public setRenderMode(Lcom/airbnb/lottie/RenderMode;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/LottieAnimationView;->Q:Lcom/airbnb/lottie/RenderMode;
 
-    .line 2
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->p()V
 
     return-void
@@ -2695,7 +2414,6 @@
 .method public setRepeatCount(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->v0(I)V
@@ -2706,7 +2424,6 @@
 .method public setRepeatMode(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->w0(I)V
@@ -2717,7 +2434,6 @@
 .method public setSafeMode(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->x0(Z)V
@@ -2728,12 +2444,10 @@
 .method public setScale(F)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->y0(F)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
@@ -2742,7 +2456,6 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->N()V
 
     :cond_0
@@ -2752,7 +2465,6 @@
 .method public setSpeed(F)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->z0(F)V
@@ -2763,7 +2475,6 @@
 .method public setTextDelegate(Lcom/airbnb/lottie/v;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/j;->B0(Lcom/airbnb/lottie/v;)V
@@ -2774,7 +2485,6 @@
 .method public t()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->M()Z
@@ -2787,7 +2497,6 @@
 .method public unscheduleDrawable(Landroid/graphics/drawable/Drawable;)V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->N:Z
 
     if-nez v0, :cond_0
@@ -2802,12 +2511,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/airbnb/lottie/LottieAnimationView;->y()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->N:Z
 
@@ -2827,10 +2534,8 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->S()V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-super {p0, p1}, Landroid/widget/ImageView;->unscheduleDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -2841,7 +2546,6 @@
 .method public v()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->N()Z
@@ -2854,7 +2558,6 @@
 .method public w()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->Q()Z
@@ -2869,7 +2572,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     if-eqz p1, :cond_0
@@ -2894,24 +2596,18 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->O:Z
 
-    .line 2
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->M:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->L:Z
 
-    .line 4
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->K:Z
 
-    .line 5
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->S()V
 
-    .line 6
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->p()V
 
     return-void
@@ -2922,19 +2618,16 @@
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->isShown()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->f:Lcom/airbnb/lottie/j;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/j;->T()V
 
-    .line 3
     invoke-direct {p0}, Lcom/airbnb/lottie/LottieAnimationView;->p()V
 
     goto :goto_0
@@ -2942,7 +2635,6 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lcom/airbnb/lottie/LottieAnimationView;->K:Z
 
     :goto_0

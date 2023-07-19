@@ -39,16 +39,12 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;-><init>()V
 
-    .line 3
     iput-wide p1, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;->a:J
 
-    .line 4
     iput-wide p3, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;->b:J
 
-    .line 5
     iput-object p5, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;->c:Ljava/util/Set;
 
     return-void
@@ -57,7 +53,6 @@
 .method synthetic constructor <init>(JJLjava/util/Set;Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;-><init>(JJLjava/util/Set;)V
 
     return-void
@@ -68,7 +63,6 @@
 .method b()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;->a:J
 
     return-wide v0
@@ -85,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;->c:Ljava/util/Set;
 
     return-object v0
@@ -94,7 +87,6 @@
 .method d()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;->b:J
 
     return-wide v0
@@ -109,7 +101,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;
 
@@ -117,10 +108,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;
 
-    .line 3
     iget-wide v3, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;->a:J
 
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;->b()J
@@ -133,7 +122,6 @@
 
     iget-wide v3, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;->b:J
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;->d()J
 
     move-result-wide v5
@@ -144,7 +132,6 @@
 
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;->c:Ljava/util/Set;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig$b;->c()Ljava/util/Set;
 
     move-result-object p1
@@ -170,7 +157,6 @@
 .method public hashCode()I
     .locals 7
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;->a:J
 
     const/16 v2, 0x20
@@ -187,7 +173,6 @@
 
     mul-int v1, v1, v0
 
-    .line 2
     iget-wide v3, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;->b:J
 
     ushr-long v5, v3, v2
@@ -200,7 +185,6 @@
 
     mul-int v1, v1, v0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/d;->c:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->hashCode()I
@@ -215,7 +199,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

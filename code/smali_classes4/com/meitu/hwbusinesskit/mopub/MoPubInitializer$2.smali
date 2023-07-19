@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer$2;->this$0:Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/MoPub;->getPersonalInformationManager()Lcom/mopub/common/privacy/PersonalInfoManager;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
-    .line 2
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->isAgreeGDPRProtocol()Z
 
     move-result v2
@@ -72,16 +69,13 @@
     :goto_0
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Lcom/mopub/common/privacy/PersonalInfoManager;->grantConsent()V
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {v1}, Lcom/mopub/common/privacy/PersonalInfoManager;->revokeConsent()V
 
-    .line 5
     :goto_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -109,7 +103,6 @@
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 6
     :cond_3
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer$2;->this$0:Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;
 
@@ -117,12 +110,10 @@
 
     invoke-static {v1, v2}, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->access$002(Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;I)I
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer$2;->this$0:Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;
 
     invoke-static {v1, v2}, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->access$102(Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;I)I
 
-    .line 8
     invoke-static {}, Lorg/greenrobot/eventbus/c;->g()Lorg/greenrobot/eventbus/c;
 
     move-result-object v1
@@ -133,7 +124,6 @@
 
     invoke-virtual {v1, v2}, Lorg/greenrobot/eventbus/c;->q(Ljava/lang/Object;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

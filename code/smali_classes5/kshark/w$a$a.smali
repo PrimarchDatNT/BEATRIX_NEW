@@ -27,7 +27,6 @@
 .method public constructor <init>(Lcotlin/jvm/u/p;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lkshark/w$a$a;->b:Lcotlin/jvm/u/p;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lkshark/w$a$a;->b:Lcotlin/jvm/u/p;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;

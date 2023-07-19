@@ -22,7 +22,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/libmtsns/d/a/a;->j:Lcom/meitu/libmtsns/d/a/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -33,15 +32,12 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/meitu/libmtsns/d/a/a;->i:Lcom/meitu/libmtsns/net/i/b;
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/meitu/libmtsns/d/a/b;->g()Lcom/meitu/libmtsns/d/a/b;
 
     move-result-object v0
@@ -59,19 +55,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/d/a/a;->j:Lcom/meitu/libmtsns/d/a/a;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/libmtsns/d/a/a;
 
     invoke-direct {v1}, Lcom/meitu/libmtsns/d/a/a;-><init>()V
 
     sput-object v1, Lcom/meitu/libmtsns/d/a/a;->j:Lcom/meitu/libmtsns/d/a/a;
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/meitu/libmtsns/d/a/a;->j:Lcom/meitu/libmtsns/d/a/a;
 
@@ -89,12 +82,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/d/a/a;->i:Lcom/meitu/libmtsns/net/i/b;
 
     invoke-interface {v1, p1}, Lcom/meitu/libmtsns/net/i/b;->a(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,12 +98,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/d/a/a;->i:Lcom/meitu/libmtsns/net/i/b;
 
     invoke-interface {v1, p1, p2}, Lcom/meitu/libmtsns/net/i/b;->b(Lcom/meitu/libmtsns/net/i/a;[Lcom/meitu/libmtsns/d/b/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -125,12 +114,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/d/a/a;->i:Lcom/meitu/libmtsns/net/i/b;
 
     invoke-interface {v1, p1, p2}, Lcom/meitu/libmtsns/net/i/b;->c(Lcom/meitu/libmtsns/net/i/a;[Lcom/meitu/libmtsns/d/b/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -143,12 +130,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/d/a/a;->i:Lcom/meitu/libmtsns/net/i/b;
 
     invoke-interface {v1, p1, p2}, Lcom/meitu/libmtsns/net/i/b;->d(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

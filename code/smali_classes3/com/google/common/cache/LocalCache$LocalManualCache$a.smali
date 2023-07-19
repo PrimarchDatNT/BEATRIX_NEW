@@ -32,7 +32,6 @@
 .method constructor <init>(Lcom/google/common/cache/LocalCache$LocalManualCache;Ljava/util/concurrent/Callable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$LocalManualCache$a;->b:Lcom/google/common/cache/LocalCache$LocalManualCache;
 
     iput-object p2, p0, Lcom/google/common/cache/LocalCache$LocalManualCache$a;->a:Ljava/util/concurrent/Callable;
@@ -60,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/common/cache/LocalCache$LocalManualCache$a;->a:Ljava/util/concurrent/Callable;
 
     invoke-interface {p1}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;

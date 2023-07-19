@@ -18,7 +18,6 @@
 
     move-object v3, p3
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/internal/icing/zzgl;-><init>(Ljava/lang/String;ILcom/google/android/gms/internal/icing/zzgq;ILcom/google/android/gms/internal/icing/b5;)V
 
     return-void

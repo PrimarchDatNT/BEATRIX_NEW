@@ -46,7 +46,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lorg/jsoup/nodes/Entities$EscapeMode;
 
     sget-object v1, Lorg/jsoup/nodes/g;->a:Ljava/lang/String;
@@ -61,7 +60,6 @@
 
     sput-object v0, Lorg/jsoup/nodes/Entities$EscapeMode;->xhtml:Lorg/jsoup/nodes/Entities$EscapeMode;
 
-    .line 2
     new-instance v1, Lorg/jsoup/nodes/Entities$EscapeMode;
 
     sget-object v2, Lorg/jsoup/nodes/g;->b:Ljava/lang/String;
@@ -76,7 +74,6 @@
 
     sput-object v1, Lorg/jsoup/nodes/Entities$EscapeMode;->base:Lorg/jsoup/nodes/Entities$EscapeMode;
 
-    .line 3
     new-instance v2, Lorg/jsoup/nodes/Entities$EscapeMode;
 
     sget-object v4, Lorg/jsoup/nodes/g;->c:Ljava/lang/String;
@@ -101,7 +98,6 @@
 
     aput-object v2, v4, v7
 
-    .line 4
     sput-object v4, Lorg/jsoup/nodes/Entities$EscapeMode;->$VALUES:[Lorg/jsoup/nodes/Entities$EscapeMode;
 
     return-void
@@ -117,10 +113,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     invoke-static {p0, p3, p4}, Lorg/jsoup/nodes/Entities;->a(Lorg/jsoup/nodes/Entities$EscapeMode;Ljava/lang/String;I)V
 
     return-void
@@ -129,7 +123,6 @@
 .method static synthetic access$100(Lorg/jsoup/nodes/Entities$EscapeMode;)[Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->nameKeys:[Ljava/lang/String;
 
     return-object p0
@@ -138,7 +131,6 @@
 .method static synthetic access$102(Lorg/jsoup/nodes/Entities$EscapeMode;[Ljava/lang/String;)[Ljava/lang/String;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->nameKeys:[Ljava/lang/String;
 
     return-object p1
@@ -147,7 +139,6 @@
 .method static synthetic access$200(Lorg/jsoup/nodes/Entities$EscapeMode;)[I
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->codeVals:[I
 
     return-object p0
@@ -156,7 +147,6 @@
 .method static synthetic access$202(Lorg/jsoup/nodes/Entities$EscapeMode;[I)[I
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->codeVals:[I
 
     return-object p1
@@ -165,7 +155,6 @@
 .method static synthetic access$300(Lorg/jsoup/nodes/Entities$EscapeMode;)[I
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->codeKeys:[I
 
     return-object p0
@@ -174,7 +163,6 @@
 .method static synthetic access$302(Lorg/jsoup/nodes/Entities$EscapeMode;[I)[I
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->codeKeys:[I
 
     return-object p1
@@ -183,7 +171,6 @@
 .method static synthetic access$400(Lorg/jsoup/nodes/Entities$EscapeMode;)[Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->nameVals:[Ljava/lang/String;
 
     return-object p0
@@ -192,7 +179,6 @@
 .method static synthetic access$402(Lorg/jsoup/nodes/Entities$EscapeMode;[Ljava/lang/String;)[Ljava/lang/String;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->nameVals:[Ljava/lang/String;
 
     return-object p1
@@ -201,7 +187,6 @@
 .method private size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->nameKeys:[Ljava/lang/String;
 
     array-length v0, v0
@@ -212,7 +197,6 @@
 .method public static valueOf(Ljava/lang/String;)Lorg/jsoup/nodes/Entities$EscapeMode;
     .locals 1
 
-    .line 1
     const-class v0, Lorg/jsoup/nodes/Entities$EscapeMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -227,7 +211,6 @@
 .method public static values()[Lorg/jsoup/nodes/Entities$EscapeMode;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/jsoup/nodes/Entities$EscapeMode;->$VALUES:[Lorg/jsoup/nodes/Entities$EscapeMode;
 
     invoke-virtual {v0}, [Lorg/jsoup/nodes/Entities$EscapeMode;->clone()Ljava/lang/Object;
@@ -244,7 +227,6 @@
 .method codepointForName(Ljava/lang/String;)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->nameKeys:[Ljava/lang/String;
 
     invoke-static {v0, p1}, Ljava/util/Arrays;->binarySearch([Ljava/lang/Object;Ljava/lang/Object;)I
@@ -253,7 +235,6 @@
 
     if-ltz p1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->codeVals:[I
 
     aget p1, v0, p1
@@ -270,7 +251,6 @@
 .method nameForCodepoint(I)Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->codeKeys:[I
 
     invoke-static {v0, p1}, Ljava/util/Arrays;->binarySearch([II)I
@@ -279,7 +259,6 @@
 
     if-ltz v0, :cond_1
 
-    .line 2
     iget-object v1, p0, Lorg/jsoup/nodes/Entities$EscapeMode;->nameVals:[Ljava/lang/String;
 
     array-length v2, v1
@@ -296,7 +275,6 @@
 
     if-ne v2, p1, :cond_0
 
-    .line 3
     aget-object p1, v1, v3
 
     goto :goto_0

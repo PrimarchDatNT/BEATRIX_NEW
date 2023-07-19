@@ -15,15 +15,12 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;-><init>()V
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 2
     iput v0, p0, Lcom/meitu/brush/MTABBrushFilter;->a:F
 
-    .line 3
     :try_start_0
     invoke-static {}, Lcom/meitu/brush/MTABBrushFilter;->nCreate()J
 
@@ -40,12 +37,10 @@
 
     const-string v1, "nCreate catch fail, loadLibrary and try again"
 
-    .line 4
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     const-wide/16 v0, 0x0
 
-    .line 5
     iput-wide v0, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     :goto_0
@@ -130,19 +125,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2, p3}, Lcom/meitu/brush/MTABBrushFilter;->nBlendWithRGBAMask(JLandroid/graphics/Bitmap;ZZ)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -156,14 +148,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     move-object v4, p1
@@ -176,7 +166,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/meitu/brush/MTABBrushFilter;->nBlendWithMask(JLandroid/graphics/Bitmap;IZZ)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -190,14 +179,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/brush/MTABBrushFilter;->nCanRedo(J)Z
@@ -211,7 +198,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -224,14 +210,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/brush/MTABBrushFilter;->nCanUndo(J)Z
@@ -245,7 +229,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -262,24 +245,20 @@
 
     new-array v1, v1, [I
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v2, v3, v1}, Lcom/meitu/brush/MTABBrushFilter;->nGetBrushTextureSize(J[I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -293,14 +272,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/brush/MTABBrushFilter;->nGetResultTexture(J)I
@@ -314,7 +291,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -327,7 +303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -340,24 +315,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/brush/MTABBrushFilter;->nRelease(J)V
 
     const-wide/16 v1, 0x0
 
-    .line 3
     iput-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -371,19 +342,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/brush/MTABBrushFilter;->nRedo(J)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -397,19 +365,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2, p3}, Lcom/meitu/brush/MTABBrushFilter;->nSetBrushColor(JIII)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -423,19 +388,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/brush/MTABBrushFilter;->nSetBrushMode(JI)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -449,19 +411,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/brush/MTABBrushFilter;->nSetBrushPointDensity(JF)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -475,13 +434,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->loadMTFilterLibrary()V
 
     :try_start_0
     const-string v1, "Brush"
 
-    .line 2
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -491,10 +448,8 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -508,19 +463,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/brush/MTABBrushFilter;->nSetBrushSize(JII)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -534,19 +486,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/brush/MTABBrushFilter;->nSetCachingSteps(JLjava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -560,19 +509,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/brush/MTABBrushFilter;->nSetInputImage(JLandroid/graphics/Bitmap;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -586,14 +532,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     move v4, p1
@@ -606,7 +550,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/meitu/brush/MTABBrushFilter;->nSetParam(JFFFI)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -620,19 +563,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/brush/MTABBrushFilter;->nSetShouldRestBrushColor(JZ)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -646,10 +586,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/brush/MTABBrushFilter;->a:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -662,14 +600,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/brush/MTABBrushFilter;->nSetpNumber(J)I
@@ -683,7 +619,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -696,14 +631,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     iget v8, p0, Lcom/meitu/brush/MTABBrushFilter;->a:F
@@ -718,7 +651,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/meitu/brush/MTABBrushFilter;->nTouchesCancelled(JFFFFF)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -732,14 +664,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     iget v8, p0, Lcom/meitu/brush/MTABBrushFilter;->a:F
@@ -754,7 +684,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/meitu/brush/MTABBrushFilter;->nTouchesBegan(JFFFFF)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -768,14 +697,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     iget v8, p0, Lcom/meitu/brush/MTABBrushFilter;->a:F
@@ -790,7 +717,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/meitu/brush/MTABBrushFilter;->nTouchesMoved(JFFFFF)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -804,14 +730,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     iget v8, p0, Lcom/meitu/brush/MTABBrushFilter;->a:F
@@ -826,7 +750,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/meitu/brush/MTABBrushFilter;->nTouchesEnded(JFFFFF)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -840,19 +763,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->isNativeInit()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/brush/MTABBrushFilter;->nUndo(J)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -47,12 +47,10 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     const-class v0, Lio/grpc/a2/g$c;
 
     const-string v1, "b"
 
-    .line 2
     invoke-static {v0, v1}, Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;->newUpdater(Ljava/lang/Class;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     move-result-object v0
@@ -75,10 +73,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lio/grpc/a2/g$e;-><init>(Lio/grpc/a2/g$a;)V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -89,12 +85,10 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lio/grpc/a2/g$c;->a:Ljava/util/List;
 
     add-int/lit8 p2, p2, -0x1
 
-    .line 4
     iput p2, p0, Lio/grpc/a2/g$c;->b:I
 
     return-void
@@ -103,14 +97,12 @@
 .method private e()Lio/grpc/t0$h;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a2/g$c;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
 
-    .line 2
     sget-object v1, Lio/grpc/a2/g$c;->c:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     invoke-virtual {v1, p0}, Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;->incrementAndGet(Ljava/lang/Object;)I
@@ -119,15 +111,12 @@
 
     if-lt v2, v0, :cond_0
 
-    .line 3
     rem-int v0, v2, v0
 
-    .line 4
     invoke-virtual {v1, p0, v2, v0}, Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;->compareAndSet(Ljava/lang/Object;II)Z
 
     move v2, v0
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lio/grpc/a2/g$c;->a:Ljava/util/List;
 
@@ -145,7 +134,6 @@
 .method public a(Lio/grpc/t0$f;)Lio/grpc/t0$e;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/a2/g$c;->e()Lio/grpc/t0$h;
 
     move-result-object p1
@@ -160,7 +148,6 @@
 .method c(Lio/grpc/a2/g$e;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lio/grpc/a2/g$c;
 
     const/4 v1, 0x0
@@ -169,16 +156,13 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lio/grpc/a2/g$c;
 
     if-eq p1, p0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lio/grpc/a2/g$c;->a:Ljava/util/List;
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -226,7 +210,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a2/g$c;->a:Ljava/util/List;
 
     return-object v0
@@ -235,7 +218,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     const-class v0, Lio/grpc/a2/g$c;
 
     invoke-static {v0}, Lcom/google/common/base/p;->b(Ljava/lang/Class;)Lcom/google/common/base/p$b;

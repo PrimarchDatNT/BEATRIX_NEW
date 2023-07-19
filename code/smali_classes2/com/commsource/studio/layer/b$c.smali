@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
 
     iget-object v2, p0, Lcom/commsource/studio/layer/b$c;->b:Lcom/commsource/studio/function/background/BackgroundTexture;
@@ -55,14 +54,12 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/commsource/studio/layer/b$c$a;
 
     invoke-direct {v2, p0, v1}, Lcom/commsource/studio/layer/b$c$a;-><init>(Lcom/commsource/studio/layer/b$c;Landroid/graphics/Bitmap;)V
 
     invoke-static {v2}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

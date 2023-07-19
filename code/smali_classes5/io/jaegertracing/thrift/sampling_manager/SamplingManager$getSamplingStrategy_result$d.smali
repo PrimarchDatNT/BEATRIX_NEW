@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lio/jaegertracing/thrift/sampling_manager/SamplingManager$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result$d;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
 .method public a()Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result$c;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result$c;
 
     const/4 v1, 0x0
@@ -54,7 +51,6 @@
 .method public bridge synthetic getScheme()Lorg/apache/thrift/scheme/IScheme;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result$d;->a()Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result$c;
 
     move-result-object v0

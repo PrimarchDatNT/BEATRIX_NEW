@@ -24,12 +24,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/uk1;->b:Lcom/google/android/gms/internal/ads/qk1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/uk1;->a:Ljava/lang/Object;
 
     return-void
@@ -38,7 +36,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/qk1;Ljava/lang/Object;Lcom/google/android/gms/internal/ads/pk1;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/ads/uk1;-><init>(Lcom/google/android/gms/internal/ads/qk1;Ljava/lang/Object;)V
 
     return-void
@@ -60,14 +57,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v8, Lcom/google/android/gms/internal/ads/wk1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/uk1;->b:Lcom/google/android/gms/internal/ads/qk1;
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/uk1;->a:Ljava/lang/Object;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/qk1;->d()Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v4
@@ -106,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/tk1;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/internal/ads/tk1;-><init>(Lcom/google/android/gms/internal/ads/ok1;)V
@@ -132,7 +126,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/uk1;->b:Lcom/google/android/gms/internal/ads/qk1;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/qk1;->c(Lcom/google/android/gms/internal/ads/qk1;)Lcom/google/android/gms/internal/ads/uq1;
@@ -160,14 +153,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v8, Lcom/google/android/gms/internal/ads/wk1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/uk1;->b:Lcom/google/android/gms/internal/ads/qk1;
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/uk1;->a:Ljava/lang/Object;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/qk1;->d()Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v4

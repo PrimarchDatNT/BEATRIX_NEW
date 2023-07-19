@@ -18,7 +18,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/Utf8$a;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
     :goto_0
     if-ge p1, p2, :cond_0
 
-    .line 1
     aget-byte v0, p0, p1
 
     if-ltz v0, :cond_0
@@ -46,7 +44,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     invoke-static {p0, p1, p2}, Lcom/google/protobuf/Utf8$b;->m([BII)I
 
@@ -70,7 +67,6 @@
     :cond_1
     add-int/lit8 v0, p1, 0x1
 
-    .line 1
     aget-byte p1, p0, p1
 
     if-gez p1, :cond_c
@@ -94,7 +90,6 @@
 
     add-int/lit8 p1, v0, 0x1
 
-    .line 2
     aget-byte v0, p0, v0
 
     if-le v0, v3, :cond_0
@@ -111,7 +106,6 @@
 
     if-lt v0, v4, :cond_5
 
-    .line 3
     invoke-static {p0, v0, p2}, Lcom/google/protobuf/Utf8;->e([BII)I
 
     move-result p0
@@ -121,7 +115,6 @@
     :cond_5
     add-int/lit8 v4, v0, 0x1
 
-    .line 4
     aget-byte v0, p0, v0
 
     if-gt v0, v3, :cond_8
@@ -154,7 +147,6 @@
 
     if-lt v0, v1, :cond_a
 
-    .line 5
     invoke-static {p0, v0, p2}, Lcom/google/protobuf/Utf8;->e([BII)I
 
     move-result p0
@@ -164,7 +156,6 @@
     :cond_a
     add-int/lit8 v1, v0, 0x1
 
-    .line 6
     aget-byte v0, p0, v0
 
     if-gt v0, v3, :cond_b
@@ -205,7 +196,6 @@
 .method a(Ljava/lang/CharSequence;[BII)I
     .locals 7
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
@@ -223,7 +213,6 @@
 
     if-ge v3, p4, :cond_0
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v4
@@ -232,7 +221,6 @@
 
     int-to-byte v2, v4
 
-    .line 3
     aput-byte v2, p2, v3
 
     add-int/lit8 v1, v1, 0x1
@@ -252,7 +240,6 @@
     :goto_1
     if-ge v1, v0, :cond_b
 
-    .line 4
     invoke-interface {p1, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v3
@@ -265,7 +252,6 @@
 
     int-to-byte v3, v3
 
-    .line 5
     aput-byte v3, p2, p3
 
     :goto_2
@@ -290,7 +276,6 @@
 
     int-to-byte v5, v5
 
-    .line 6
     aput-byte v5, p2, p3
 
     add-int/lit8 p3, v4, 0x1
@@ -301,7 +286,6 @@
 
     int-to-byte v3, v3
 
-    .line 7
     aput-byte v3, p2, v4
 
     goto :goto_3
@@ -328,7 +312,6 @@
 
     int-to-byte v5, v5
 
-    .line 8
     aput-byte v5, p2, p3
 
     add-int/lit8 p3, v4, 0x1
@@ -341,7 +324,6 @@
 
     int-to-byte v5, v5
 
-    .line 9
     aput-byte v5, p2, v4
 
     add-int/lit8 v4, p3, 0x1
@@ -352,7 +334,6 @@
 
     int-to-byte v3, v3
 
-    .line 10
     aput-byte v3, p2, p3
 
     goto :goto_2
@@ -364,14 +345,12 @@
 
     add-int/lit8 v4, v1, 0x1
 
-    .line 11
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v5
 
     if-eq v4, v5, :cond_7
 
-    .line 12
     invoke-interface {p1, v4}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v1
@@ -382,7 +361,6 @@
 
     if-eqz v5, :cond_6
 
-    .line 13
     invoke-static {v3, v1}, Ljava/lang/Character;->toCodePoint(CC)I
 
     move-result v1
@@ -395,7 +373,6 @@
 
     int-to-byte v5, v5
 
-    .line 14
     aput-byte v5, p2, p3
 
     add-int/lit8 p3, v3, 0x1
@@ -408,7 +385,6 @@
 
     int-to-byte v5, v5
 
-    .line 15
     aput-byte v5, p2, v3
 
     add-int/lit8 v3, p3, 0x1
@@ -421,7 +397,6 @@
 
     int-to-byte v5, v5
 
-    .line 16
     aput-byte v5, p2, p3
 
     add-int/lit8 p3, v3, 0x1
@@ -432,7 +407,6 @@
 
     int-to-byte v1, v1
 
-    .line 17
     aput-byte v1, p2, v3
 
     move v1, v4
@@ -445,7 +419,6 @@
     :cond_6
     move v1, v4
 
-    .line 18
     :cond_7
     new-instance p1, Lcom/google/protobuf/Utf8$UnpairedSurrogateException;
 
@@ -462,14 +435,12 @@
 
     add-int/lit8 p2, v1, 0x1
 
-    .line 19
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result p4
 
     if-eq p2, p4, :cond_9
 
-    .line 20
     invoke-interface {p1, p2}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result p1
@@ -480,7 +451,6 @@
 
     if-nez p1, :cond_a
 
-    .line 21
     :cond_9
     new-instance p1, Lcom/google/protobuf/Utf8$UnpairedSurrogateException;
 
@@ -488,7 +458,6 @@
 
     throw p1
 
-    .line 22
     :cond_a
     new-instance p1, Ljava/lang/ArrayIndexOutOfBoundsException;
 
@@ -523,7 +492,6 @@
 .method d(Ljava/lang/CharSequence;Ljava/nio/ByteBuffer;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/protobuf/Utf8$a;->c(Ljava/lang/CharSequence;Ljava/nio/ByteBuffer;)V
 
     return-void
@@ -555,7 +523,6 @@
 
     add-int/lit8 p1, p3, 0x1
 
-    .line 1
     aget-byte p3, p2, p3
 
     if-le p3, v3, :cond_1
@@ -586,12 +553,10 @@
 
     add-int/lit8 p1, p3, 0x1
 
-    .line 2
     aget-byte p3, p2, p3
 
     if-lt p1, p4, :cond_4
 
-    .line 3
     invoke-static {v0, p3}, Lcom/google/protobuf/Utf8;->a(II)I
 
     move-result p1
@@ -624,7 +589,6 @@
     :cond_7
     add-int/lit8 p1, p3, 0x1
 
-    .line 4
     aget-byte p3, p2, p3
 
     if-le p3, v3, :cond_1
@@ -645,12 +609,10 @@
 
     add-int/lit8 p1, p3, 0x1
 
-    .line 5
     aget-byte v1, p2, p3
 
     if-lt p1, p4, :cond_a
 
-    .line 6
     invoke-static {v0, v1}, Lcom/google/protobuf/Utf8;->a(II)I
 
     move-result p1
@@ -672,12 +634,10 @@
 
     add-int/lit8 p1, p3, 0x1
 
-    .line 7
     aget-byte v4, p2, p3
 
     if-lt p1, p4, :cond_c
 
-    .line 8
     invoke-static {v0, v1, v4}, Lcom/google/protobuf/Utf8;->b(III)I
 
     move-result p1
@@ -704,7 +664,6 @@
 
     add-int/lit8 p1, p3, 0x1
 
-    .line 9
     aget-byte p3, p2, p3
 
     if-le p3, v3, :cond_1
@@ -712,7 +671,6 @@
     :cond_e
     return v2
 
-    .line 10
     :cond_f
     :goto_2
     invoke-static {p2, p3, p4}, Lcom/google/protobuf/Utf8$b;->l([BII)I
@@ -725,7 +683,6 @@
 .method k(ILjava/nio/ByteBuffer;II)I
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/google/protobuf/Utf8$a;->j(ILjava/nio/ByteBuffer;II)I
 
     move-result p1

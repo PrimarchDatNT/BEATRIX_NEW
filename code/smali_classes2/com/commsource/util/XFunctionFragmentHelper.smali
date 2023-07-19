@@ -38,7 +38,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->c:Landroidx/fragment/app/FragmentManager;
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->c:Landroidx/fragment/app/FragmentManager;
 
     invoke-virtual {p1}, Lcom/commsource/util/r0;->f()Ljava/lang/String;
@@ -68,7 +66,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {p1}, Lcom/commsource/util/r0;->e()Ljava/lang/Class;
 
@@ -90,7 +87,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/InstantiationException;->printStackTrace()V
 
     goto :goto_0
@@ -98,10 +94,8 @@
     :catch_1
     move-exception p1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/IllegalAccessException;->printStackTrace()V
 
-    .line 5
     :cond_0
     :goto_0
     check-cast v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
@@ -124,7 +118,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/util/XFunctionFragmentHelper;->h(Lcom/commsource/util/r0;Lcotlin/jvm/u/l;)V
 
@@ -144,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->c:Landroidx/fragment/app/FragmentManager;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -161,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->b:Lcom/commsource/util/r0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -178,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -193,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -212,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->b:Lcom/commsource/util/r0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -231,7 +219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -269,7 +256,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/util/XFunctionFragmentHelper;->b:Lcom/commsource/util/r0;
 
     if-eqz v2, :cond_1
@@ -296,43 +282,35 @@
 
     if-eqz v2, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     iget-object v2, p0, Lcom/commsource/util/XFunctionFragmentHelper;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     if-eqz v2, :cond_2
 
-    .line 4
     new-instance v3, Lcom/commsource/util/XFunctionFragmentHelper$showFunction$$inlined$let$lambda$1;
 
     invoke-direct {v3, v2, p0}, Lcom/commsource/util/XFunctionFragmentHelper$showFunction$$inlined$let$lambda$1;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/a;Lcom/commsource/util/XFunctionFragmentHelper;)V
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;->z(Lcotlin/jvm/u/a;)V
 
-    .line 5
     iput-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
-    .line 6
     iput-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->b:Lcom/commsource/util/r0;
 
     :cond_2
     if-nez p1, :cond_3
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_3
     iput-object p1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->b:Lcom/commsource/util/r0;
 
-    .line 9
     invoke-direct {p0, p1}, Lcom/commsource/util/XFunctionFragmentHelper;->a(Lcom/commsource/util/r0;)Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     move-result-object v1
@@ -343,14 +321,12 @@
 
     if-eqz p2, :cond_4
 
-    .line 10
     invoke-interface {p2, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcotlin/t1;
 
-    .line 11
     :cond_4
     new-instance v2, Lcom/commsource/util/XFunctionFragmentHelper$showFunction$$inlined$let$lambda$2;
 
@@ -358,7 +334,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;->x(Lcotlin/jvm/u/a;)V
 
-    .line 12
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

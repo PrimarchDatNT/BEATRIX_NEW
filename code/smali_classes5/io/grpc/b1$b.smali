@@ -22,7 +22,6 @@
 .method private constructor <init>(Lio/grpc/b1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/b1$b;->e:Lio/grpc/b1;
 
     invoke-direct {p0}, Lio/grpc/z0$d;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lio/grpc/b1;Lio/grpc/b1$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lio/grpc/b1$b;-><init>(Lio/grpc/b1;)V
 
     return-void
@@ -44,14 +42,12 @@
 .method public a()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/b1$b;->e:Lio/grpc/b1;
 
     invoke-virtual {v0}, Lio/grpc/b1;->f()Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -65,7 +61,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -84,14 +79,12 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/b1$b;->e:Lio/grpc/b1;
 
     invoke-virtual {v0}, Lio/grpc/b1;->f()Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -109,7 +102,6 @@
 
     check-cast v1, Lio/grpc/a1;
 
-    .line 3
     invoke-virtual {v1, p1, p2}, Lio/grpc/z0$d;->c(Ljava/net/URI;Lio/grpc/z0$b;)Lio/grpc/z0;
 
     move-result-object v1

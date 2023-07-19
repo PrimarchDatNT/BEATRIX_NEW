@@ -46,21 +46,18 @@
 
     new-array v2, v1, [I
 
-    .line 1
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$w;->a:Lcom/commsource/beautyplus/f0/o4;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/o4;->X:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v3, v2}, Landroid/widget/RelativeLayout;->getLocationOnScreen([I)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v3
 
     const/4 v4, 0x0
 
-    .line 3
     aget v2, v2, v4
 
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$w;->a:Lcom/commsource/beautyplus/f0/o4;
@@ -81,7 +78,6 @@
 
     sub-int/2addr v3, v2
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$w;->a:Lcom/commsource/beautyplus/f0/o4;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o4;->e0:Landroid/widget/LinearLayout;
@@ -100,7 +96,6 @@
 
     const/high16 v5, 0x42180000    # 38.0f
 
-    .line 5
     invoke-static {v5}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v5
@@ -109,7 +104,6 @@
 
     iput v3, v1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$w;->a:Lcom/commsource/beautyplus/f0/o4;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/o4;->e0:Landroid/widget/LinearLayout;
@@ -118,7 +112,6 @@
 
     invoke-virtual {v3, v1}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$w;->a:Lcom/commsource/beautyplus/f0/o4;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o4;->e0:Landroid/widget/LinearLayout;
@@ -127,12 +120,10 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$w;->a:Lcom/commsource/beautyplus/f0/o4;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o4;->e0:Landroid/widget/LinearLayout;
 
-    .line 9
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$w$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$w$a;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$w;)V
@@ -141,12 +132,10 @@
 
     invoke-virtual {v1, v2, v3, v4}, Landroid/widget/LinearLayout;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_0
     new-instance v1, Lcotlin/TypeCastException;
 

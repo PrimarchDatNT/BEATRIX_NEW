@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/AbstractMapBasedMultimap$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$c$a;->a:Lcom/google/common/collect/AbstractMapBasedMultimap$c;
 
     invoke-direct {p0}, Lcom/google/common/collect/Maps$q;-><init>()V
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$c$a;->a:Lcom/google/common/collect/AbstractMapBasedMultimap$c;
 
     return-object v0
@@ -62,7 +60,6 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$c$a;->a:Lcom/google/common/collect/AbstractMapBasedMultimap$c;
 
     iget-object v0, v0, Lcom/google/common/collect/AbstractMapBasedMultimap$c;->d:Ljava/util/Map;
@@ -91,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/AbstractMapBasedMultimap$c$b;
 
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$c$a;->a:Lcom/google/common/collect/AbstractMapBasedMultimap$c;
@@ -104,7 +100,6 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/AbstractMapBasedMultimap$c$a;->contains(Ljava/lang/Object;)Z
 
     move-result v0
@@ -115,11 +110,9 @@
 
     return p1
 
-    .line 2
     :cond_0
     check-cast p1, Ljava/util/Map$Entry;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$c$a;->a:Lcom/google/common/collect/AbstractMapBasedMultimap$c;
 
     iget-object v0, v0, Lcom/google/common/collect/AbstractMapBasedMultimap$c;->f:Lcom/google/common/collect/AbstractMapBasedMultimap;

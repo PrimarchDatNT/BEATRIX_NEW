@@ -61,7 +61,6 @@
 
     const/4 v3, 0x0
 
-    .line 1
     invoke-direct {v1, v2, v3, v3}, Lcom/mopub/network/MoPubNetworkError$Reason;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcom/mopub/network/MoPubNetworkError$Reason;->WARMING_UP:Lcom/mopub/network/MoPubNetworkError$Reason;
@@ -74,7 +73,6 @@
 
     const/4 v3, 0x1
 
-    .line 2
     invoke-direct {v1, v2, v3, v3}, Lcom/mopub/network/MoPubNetworkError$Reason;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcom/mopub/network/MoPubNetworkError$Reason;->NO_FILL:Lcom/mopub/network/MoPubNetworkError$Reason;
@@ -87,7 +85,6 @@
 
     const/4 v3, 0x2
 
-    .line 3
     invoke-direct {v1, v2, v3, v3}, Lcom/mopub/network/MoPubNetworkError$Reason;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcom/mopub/network/MoPubNetworkError$Reason;->BAD_HEADER_DATA:Lcom/mopub/network/MoPubNetworkError$Reason;
@@ -100,7 +97,6 @@
 
     const/4 v3, 0x3
 
-    .line 4
     invoke-direct {v1, v2, v3, v3}, Lcom/mopub/network/MoPubNetworkError$Reason;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcom/mopub/network/MoPubNetworkError$Reason;->BAD_BODY:Lcom/mopub/network/MoPubNetworkError$Reason;
@@ -113,7 +109,6 @@
 
     const/4 v3, 0x4
 
-    .line 5
     invoke-direct {v1, v2, v3, v3}, Lcom/mopub/network/MoPubNetworkError$Reason;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcom/mopub/network/MoPubNetworkError$Reason;->TRACKING_FAILURE:Lcom/mopub/network/MoPubNetworkError$Reason;
@@ -126,7 +121,6 @@
 
     const/4 v3, 0x5
 
-    .line 6
     invoke-direct {v1, v2, v3, v3}, Lcom/mopub/network/MoPubNetworkError$Reason;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcom/mopub/network/MoPubNetworkError$Reason;->UNSPECIFIED:Lcom/mopub/network/MoPubNetworkError$Reason;
@@ -139,7 +133,6 @@
 
     const/4 v3, 0x6
 
-    .line 7
     invoke-direct {v1, v2, v3, v3}, Lcom/mopub/network/MoPubNetworkError$Reason;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcom/mopub/network/MoPubNetworkError$Reason;->NO_CONNECTION:Lcom/mopub/network/MoPubNetworkError$Reason;
@@ -152,7 +145,6 @@
 
     const/4 v3, 0x7
 
-    .line 8
     invoke-direct {v1, v2, v3, v3}, Lcom/mopub/network/MoPubNetworkError$Reason;-><init>(Ljava/lang/String;II)V
 
     sput-object v1, Lcom/mopub/network/MoPubNetworkError$Reason;->TOO_MANY_REQUESTS:Lcom/mopub/network/MoPubNetworkError$Reason;
@@ -172,7 +164,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/mopub/network/MoPubNetworkError$Reason;->code:I
@@ -213,7 +204,6 @@
 .method public final getCode()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/network/MoPubNetworkError$Reason;->code:I
 
     return v0

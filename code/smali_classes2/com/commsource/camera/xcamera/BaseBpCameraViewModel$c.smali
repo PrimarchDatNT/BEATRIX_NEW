@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,10 +50,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->a:J
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->v0()Lcom/commsource/camera/xcamera/l;
@@ -65,7 +62,6 @@
 
     invoke-interface {v1, p1, p2}, Lcom/commsource/camera/xcamera/l;->b(J)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -83,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->C(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)Lcom/meitu/library/camera/p/d/b;
@@ -92,7 +87,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     :try_start_0
     invoke-virtual {v1}, Lcom/meitu/library/camera/p/d/b;->Z0()Lcom/meitu/library/camera/MTCamera$t;
 
@@ -102,7 +96,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->v0()Lcom/commsource/camera/xcamera/l;
@@ -111,16 +104,12 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     iget v4, v1, Lcom/meitu/library/camera/MTCamera$t;->a:I
 
-    .line 5
     iget v5, v1, Lcom/meitu/library/camera/MTCamera$t;->b:I
 
-    .line 6
     iget-wide v6, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->a:J
 
-    .line 7
     invoke-virtual {p1}, Lcom/meitu/library/camera/p/d/f;->b()Ljava/lang/String;
 
     move-result-object v8
@@ -129,7 +118,6 @@
 
     invoke-static {v8, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 8
     invoke-interface/range {v3 .. v8}, Lcom/commsource/camera/xcamera/l;->a(IIJLjava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -139,10 +127,8 @@
     :catch_0
     move-exception p1
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 10
     :cond_0
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
@@ -161,7 +147,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 11
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -179,7 +164,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->v0()Lcom/commsource/camera/xcamera/l;
@@ -190,7 +174,6 @@
 
     invoke-interface {v0}, Lcom/commsource/camera/xcamera/l;->c()V
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
@@ -208,7 +191,6 @@
 
     check-cast v0, Lcotlin/t1;
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -222,7 +204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->B(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)Lcom/meitu/library/renderarch/arch/input/camerainput/e;
@@ -235,10 +216,8 @@
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->a:J
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->v0()Lcom/commsource/camera/xcamera/l;
@@ -249,7 +228,6 @@
 
     invoke-interface {v1}, Lcom/commsource/camera/xcamera/l;->onVideoStart()V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
@@ -267,7 +245,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

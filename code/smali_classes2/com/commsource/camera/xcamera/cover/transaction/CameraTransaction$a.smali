@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->k:Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;->d()I
@@ -75,7 +74,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     :goto_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;->a()I
@@ -93,7 +91,6 @@
 
     if-ne p1, v1, :cond_3
 
-    .line 3
     :goto_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$a;->a:Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;
 
@@ -117,7 +114,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$a;->a:Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;
 
     const-string v2, "it"
@@ -126,7 +122,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->y(Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 5
     :cond_3
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -141,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$a;->a(Ljava/lang/Integer;)V

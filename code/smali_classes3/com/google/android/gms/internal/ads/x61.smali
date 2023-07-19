@@ -42,16 +42,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/x61;->a:Lcom/google/android/gms/internal/ads/rq1;
 
-    .line 3
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/x61;->c:Lcom/google/android/gms/common/util/g;
 
-    .line 4
     invoke-interface {p4}, Lcom/google/android/gms/common/util/g;->elapsedRealtime()J
 
     move-result-wide v0
@@ -68,7 +64,6 @@
 .method public final a()Z
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/x61;->b:J
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/x61;->c:Lcom/google/android/gms/common/util/g;

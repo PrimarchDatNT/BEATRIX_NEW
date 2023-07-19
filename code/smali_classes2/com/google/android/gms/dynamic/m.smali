@@ -15,7 +15,6 @@
 .method constructor <init>(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/dynamic/m;->a:Landroid/content/Context;
 
     iput-object p2, p0, Lcom/google/android/gms/dynamic/m;->b:Landroid/content/Intent;
@@ -30,7 +29,6 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object p1, p0, Lcom/google/android/gms/dynamic/m;->a:Landroid/content/Context;
 
@@ -49,7 +47,6 @@
 
     const-string v1, "Failed to start resolution intent"
 
-    .line 2
     invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return-void

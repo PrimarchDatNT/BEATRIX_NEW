@@ -177,7 +177,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$flatMapLatest$1;->label:I
 
     const/4 v2, 0x2
@@ -267,7 +266,6 @@
     :goto_0
     check-cast p1, Lcotlinx/coroutines/flow/d;
 
-    .line 2
     iput-object v4, p0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$flatMapLatest$1;->L$0:Ljava/lang/Object;
 
     iput-object v3, p0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$flatMapLatest$1;->L$1:Ljava/lang/Object;
@@ -286,7 +284,6 @@
 
     return-object v0
 
-    .line 3
     :cond_4
     :goto_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -307,7 +304,6 @@
 
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$flatMapLatest$1;->p$0:Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$flatMapLatest$1;->$transform:Lcotlin/jvm/u/p;
 
     invoke-interface {v1, v0, p0}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -318,7 +314,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->e(I)V
 
     invoke-interface {v0, p1, p0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -331,7 +326,6 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 3
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1

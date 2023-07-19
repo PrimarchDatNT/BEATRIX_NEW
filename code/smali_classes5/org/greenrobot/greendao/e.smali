@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p0, v0}, Ljava/io/InputStream;->read([B)I
 
@@ -41,7 +39,6 @@
 
     return v2
 
-    .line 2
     :cond_0
     invoke-virtual {p1, v0, v1, v3}, Ljava/io/OutputStream;->write([BII)V
 
@@ -60,7 +57,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {p0, p1, p2, v0}, Lorg/greenrobot/greendao/e;->c(Landroid/content/Context;Lorg/greenrobot/greendao/database/a;Ljava/lang/String;Z)I
 
     move-result p0
@@ -76,12 +72,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p2}, Lorg/greenrobot/greendao/e;->h(Landroid/content/Context;Ljava/lang/String;)[B
 
     move-result-object p0
 
-    .line 2
     new-instance v0, Ljava/lang/String;
 
     const-string v1, "UTF-8"
@@ -90,27 +84,23 @@
 
     const-string p0, ";(\\s)*[\n\r]"
 
-    .line 3
     invoke-virtual {v0, p0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
 
     if-eqz p3, :cond_0
 
-    .line 4
     invoke-static {p1, p0}, Lorg/greenrobot/greendao/e;->e(Lorg/greenrobot/greendao/database/a;[Ljava/lang/String;)I
 
     move-result p0
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {p1, p0}, Lorg/greenrobot/greendao/e;->d(Lorg/greenrobot/greendao/database/a;[Ljava/lang/String;)I
 
     move-result p0
 
-    .line 6
     :goto_0
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -144,7 +134,6 @@
 .method public static d(Lorg/greenrobot/greendao/database/a;[Ljava/lang/String;)I
     .locals 5
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -156,19 +145,16 @@
 
     aget-object v3, p1, v1
 
-    .line 2
     invoke-virtual {v3}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 3
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v4
 
     if-lez v4, :cond_0
 
-    .line 4
     invoke-interface {p0, v3}, Lorg/greenrobot/greendao/database/a;->execSQL(Ljava/lang/String;)V
 
     add-int/lit8 v2, v2, 0x1
@@ -185,21 +171,17 @@
 .method public static e(Lorg/greenrobot/greendao/database/a;[Ljava/lang/String;)I
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Lorg/greenrobot/greendao/database/a;->beginTransaction()V
 
-    .line 2
     :try_start_0
     invoke-static {p0, p1}, Lorg/greenrobot/greendao/e;->d(Lorg/greenrobot/greendao/database/a;[Ljava/lang/String;)I
 
     move-result p1
 
-    .line 3
     invoke-interface {p0}, Lorg/greenrobot/greendao/database/a;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-interface {p0}, Lorg/greenrobot/greendao/database/a;->endTransaction()V
 
     return p1
@@ -209,7 +191,6 @@
 
     invoke-interface {p0}, Lorg/greenrobot/greendao/database/a;->endTransaction()V
 
-    .line 5
     throw p1
 .end method
 
@@ -232,23 +213,19 @@
 
     move-object v1, p1
 
-    .line 1
     invoke-virtual/range {v0 .. v7}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object p0
 
-    .line 2
     :try_start_0
     invoke-static {p0}, Landroid/database/DatabaseUtils;->dumpCursorToString(Landroid/database/Cursor;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1}, Lorg/greenrobot/greendao/d;->a(Ljava/lang/String;)I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
     return-void
@@ -258,7 +235,6 @@
 
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
-    .line 5
     throw p1
 .end method
 
@@ -270,15 +246,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
-    .line 2
     invoke-static {p0, v0}, Lorg/greenrobot/greendao/e;->a(Ljava/io/InputStream;Ljava/io/OutputStream;)I
 
-    .line 3
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object p0
@@ -294,7 +267,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
@@ -307,7 +279,6 @@
 
     move-result-object p0
 
-    .line 2
     :try_start_0
     invoke-static {p0}, Lorg/greenrobot/greendao/e;->g(Ljava/io/InputStream;)[B
 
@@ -315,7 +286,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/io/InputStream;->close()V
 
     return-object p1
@@ -325,7 +295,6 @@
 
     invoke-virtual {p0}, Ljava/io/InputStream;->close()V
 
-    .line 4
     throw p1
 .end method
 
@@ -334,7 +303,6 @@
 
     const-string v0, "VACUUM"
 
-    .line 1
     invoke-interface {p0, v0}, Lorg/greenrobot/greendao/database/a;->execSQL(Ljava/lang/String;)V
 
     return-void

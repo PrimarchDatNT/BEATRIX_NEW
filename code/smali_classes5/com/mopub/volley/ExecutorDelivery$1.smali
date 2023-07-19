@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/volley/ExecutorDelivery;Landroid/os/Handler;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/ExecutorDelivery$1;->this$0:Lcom/mopub/volley/ExecutorDelivery;
 
     iput-object p2, p0, Lcom/mopub/volley/ExecutorDelivery$1;->val$handler:Landroid/os/Handler;
@@ -42,7 +41,6 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/ExecutorDelivery$1;->val$handler:Landroid/os/Handler;
 
     invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z

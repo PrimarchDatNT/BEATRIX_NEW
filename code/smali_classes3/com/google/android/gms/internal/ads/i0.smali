@@ -7,7 +7,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/d0;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -34,12 +32,10 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 3
     :goto_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -65,7 +61,6 @@
 
     add-int/lit8 v2, v1, -0x1
 
-    .line 4
     invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
@@ -86,7 +81,6 @@
     :cond_3
     if-nez v0, :cond_4
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -95,7 +89,6 @@
 
     return-object p0
 
-    .line 6
     :cond_4
     invoke-virtual {p0, v0, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
@@ -113,17 +106,14 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/i0;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/i0;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 3
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -132,7 +122,6 @@
 
     return-object p2
 
-    .line 4
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -142,7 +131,6 @@
 
     return-object p1
 
-    .line 5
     :cond_1
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 

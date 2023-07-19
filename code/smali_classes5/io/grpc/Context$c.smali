@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/Context$c;->b:Lio/grpc/Context;
 
     iput-object p2, p0, Lio/grpc/Context$c;->a:Ljava/util/concurrent/Executor;
@@ -47,7 +46,6 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Context$c;->a:Ljava/util/concurrent/Executor;
 
     iget-object v1, p0, Lio/grpc/Context$c;->b:Lio/grpc/Context;

@@ -10,7 +10,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 .method public lock()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/y;->a()Ljava/util/concurrent/locks/Lock;
 
     move-result-object v0
@@ -42,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/y;->a()Ljava/util/concurrent/locks/Lock;
 
     move-result-object v0
@@ -55,7 +52,6 @@
 .method public newCondition()Ljava/util/concurrent/locks/Condition;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/y;->a()Ljava/util/concurrent/locks/Lock;
 
     move-result-object v0
@@ -70,7 +66,6 @@
 .method public tryLock()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/y;->a()Ljava/util/concurrent/locks/Lock;
 
     move-result-object v0
@@ -90,7 +85,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/y;->a()Ljava/util/concurrent/locks/Lock;
 
     move-result-object v0
@@ -105,7 +99,6 @@
 .method public unlock()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/y;->a()Ljava/util/concurrent/locks/Lock;
 
     move-result-object v0

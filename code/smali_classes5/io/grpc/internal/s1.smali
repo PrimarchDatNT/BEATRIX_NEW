@@ -14,7 +14,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/internal/s1;
 
     invoke-direct {v0}, Lio/grpc/internal/s1;-><init>()V
@@ -27,7 +26,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,7 +48,6 @@
 .method public c()Lio/grpc/a;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/a;->b:Lio/grpc/a;
 
     return-object v0
@@ -129,7 +126,6 @@
 
     const-string v0, "noop"
 
-    .line 1
     invoke-virtual {p1, v0}, Lio/grpc/internal/c1;->a(Ljava/lang/Object;)Lio/grpc/internal/c1;
 
     return-void

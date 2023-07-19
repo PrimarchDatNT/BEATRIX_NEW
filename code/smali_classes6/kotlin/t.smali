@@ -67,7 +67,6 @@
 
     sput-object v0, Lcotlin/t;->p:Lcotlin/t$a;
 
-    .line 1
     invoke-static {}, Lcotlin/u;->a()Lcotlin/t;
 
     move-result-object v0
@@ -82,7 +81,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-direct {p0, p1, p2, v0}, Lcotlin/t;-><init>(III)V
 
     return-void
@@ -91,7 +89,6 @@
 .method public constructor <init>(III)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcotlin/t;->b:I
@@ -100,7 +97,6 @@
 
     iput p3, p0, Lcotlin/t;->d:I
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lcotlin/t;->p(III)I
 
     move-result p1
@@ -157,7 +153,6 @@
 
     return p1
 
-    .line 1
     :cond_4
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -183,7 +178,6 @@
 
     move-result-object p1
 
-    .line 2
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -208,7 +202,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget v0, p0, Lcotlin/t;->a:I
 
     iget p1, p1, Lcotlin/t;->a:I
@@ -221,7 +214,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/t;
 
     invoke-virtual {p0, p1}, Lcotlin/t;->a(Lcotlin/t;)I
@@ -244,7 +236,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcotlin/t;
 
@@ -259,7 +250,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 2
     iget v2, p0, Lcotlin/t;->a:I
 
     iget p1, p1, Lcotlin/t;->a:I
@@ -281,7 +271,6 @@
 .method public final f()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/t;->b:I
 
     return v0
@@ -290,7 +279,6 @@
 .method public final g()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/t;->c:I
 
     return v0
@@ -299,7 +287,6 @@
 .method public final h()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/t;->d:I
 
     return v0
@@ -308,7 +295,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/t;->a:I
 
     return v0
@@ -317,7 +303,6 @@
 .method public final n(II)Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/t;->b:I
 
     if-gt v0, p1, :cond_1
@@ -346,7 +331,6 @@
 .method public final o(III)Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/t;->b:I
 
     if-gt v0, p1, :cond_1
@@ -383,7 +367,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

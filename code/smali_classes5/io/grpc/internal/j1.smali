@@ -18,7 +18,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/internal/j1;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -37,12 +36,10 @@
 .method public constructor <init>(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "task"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -59,7 +56,6 @@
 .method public run()V
     .locals 5
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/internal/j1;->a:Ljava/lang/Runnable;
 
@@ -72,7 +68,6 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     sget-object v1, Lio/grpc/internal/j1;->b:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
@@ -95,10 +90,8 @@
 
     invoke-virtual {v1, v2, v3, v0}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/google/common/base/a0;->A(Ljava/lang/Throwable;)V
 
-    .line 4
     new-instance v1, Ljava/lang/AssertionError;
 
     invoke-direct {v1, v0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
@@ -109,7 +102,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

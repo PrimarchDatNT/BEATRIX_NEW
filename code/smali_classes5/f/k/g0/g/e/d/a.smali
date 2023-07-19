@@ -22,13 +22,10 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/util/concurrent/ExecutorService;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/k/g0/g/e/d/a;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lf/k/g0/g/e/d/a;->b:Ljava/util/concurrent/ExecutorService;
 
     return-void
@@ -41,12 +38,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/e/d/a;->c:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/k/g0/g/e/d/a;->a:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/google/firebase/analytics/FirebaseAnalytics;->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
@@ -55,7 +50,6 @@
 
     iput-object v1, p0, Lf/k/g0/g/e/d/a;->c:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/g0/g/e/d/a;->c:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
@@ -84,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/g0/g/e/d/a;->a()Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     move-result-object v1
@@ -115,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "fiid"
@@ -130,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0

@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/q/b/n$h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/q/b/n$b;->a:Lf/q/b/n$h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lf/q/b/n$b;->a:Lf/q/b/n$h;
 
@@ -55,7 +53,6 @@
 
     const-string v2, "stackerror:"
 
-    .line 2
     invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :goto_0

@@ -17,7 +17,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -48,10 +47,8 @@
 .method public constructor <init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/d/e/a/a;-><init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
 
-    .line 2
     new-instance p1, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;
 
     invoke-direct {p1}, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;-><init>()V
@@ -70,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -83,7 +79,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -96,19 +91,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lf/d/e/a/a;->f:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-boolean v1, p0, Lf/d/e/a/a;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
@@ -116,7 +108,6 @@
 
     const/16 v2, 0x9
 
-    .line 4
     iget-object v3, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -145,7 +136,6 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     sget-object v1, Lf/d/e/a/k;->w:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -166,18 +156,15 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     :cond_2
     iget-boolean v1, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz v1, :cond_3
 
-    .line 7
     iget-object v1, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     check-cast v1, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;
 
-    .line 8
     sget-object v2, Lf/d/e/a/k;->w:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -206,7 +193,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     :cond_3
     iget-boolean v1, p0, Lf/d/e/a/a;->g:Z
 
@@ -224,36 +210,30 @@
 
     const-string/jumbo v1, "shouderEnable"
 
-    .line 1
     invoke-virtual {v1, p1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    .line 2
     instance-of p1, p2, Ljava/lang/Boolean;
 
     if-eqz p1, :cond_3
 
-    .line 3
     check-cast p2, Ljava/lang/Boolean;
 
     invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
-    .line 4
     iget-object p2, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v1, p2, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;
 
     if-eqz v1, :cond_3
 
-    .line 5
     check-cast p2, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;
 
-    .line 6
     iget-wide v1, p2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v3, 0x1
@@ -282,7 +262,6 @@
 
     or-long/2addr v1, v3
 
-    .line 7
     iput-wide v1, p2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_1
@@ -292,16 +271,13 @@
 
     and-long/2addr v1, v3
 
-    .line 8
     iput-wide v1, p2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 9
     :goto_1
     iget-boolean p2, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz p2, :cond_2
 
-    .line 10
     sget-object p2, Lf/d/e/a/k;->w:Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -326,11 +302,9 @@
 
     invoke-static {p2, p1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 11
     :cond_2
     iput-boolean v9, p0, Lf/d/e/a/a;->f:Z
 
-    .line 12
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -346,7 +320,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -359,17 +332,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;
 
     if-eqz v2, :cond_0
 
-    .line 2
     check-cast v1, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;
 
-    .line 3
     iget-object v2, p0, Lf/d/e/a/a;->c:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     iget-object v2, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->shoulderOption:Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;
@@ -382,12 +352,10 @@
 
     iput-wide v3, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 4
     iget-boolean v2, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz v2, :cond_0
 
-    .line 5
     sget-object v2, Lf/d/e/a/k;->w:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -428,7 +396,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -442,19 +409,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lf/d/e/a/a;->g:Z
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
@@ -462,7 +426,6 @@
 
     const/16 v3, 0x9
 
-    .line 4
     invoke-virtual {v1, v3}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     move-result v1
@@ -479,7 +442,6 @@
     :goto_0
     if-nez v1, :cond_2
 
-    .line 5
     sget-object v3, Lf/d/e/a/k;->w:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -500,18 +462,15 @@
 
     invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     :cond_2
     iget-boolean v3, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz v3, :cond_3
 
-    .line 7
     iget-object v3, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     check-cast v3, Lcom/meitu/mtlab/MTAiInterface/MTShoulderModule/MTShoulderOption;
 
-    .line 8
     sget-object v4, Lf/d/e/a/k;->w:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -538,13 +497,11 @@
 
     invoke-static {v4, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     :cond_3
     iput-boolean v2, p0, Lf/d/e/a/a;->f:Z
 
     move v2, v1
 
-    .line 10
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

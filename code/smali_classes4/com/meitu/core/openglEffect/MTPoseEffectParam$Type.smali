@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     const-string v2, "ET_NeckLift"
@@ -65,7 +64,6 @@
 
     sput-object v1, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;->ET_NeckLift:Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
-    .line 2
     new-instance v2, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     const-string v4, "ET_ShoulderWidthLift"
@@ -76,7 +74,6 @@
 
     sput-object v2, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;->ET_ShoulderWidthLift:Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
-    .line 3
     new-instance v4, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     const-string v6, "ET_WaistLift"
@@ -87,7 +84,6 @@
 
     sput-object v4, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;->ET_WaistLift:Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
-    .line 4
     new-instance v6, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     const-string v8, "ET_ThighLift"
@@ -98,7 +94,6 @@
 
     sput-object v6, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;->ET_ThighLift:Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
-    .line 5
     new-instance v8, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     const-string v10, "ET_IncreasedLift"
@@ -109,7 +104,6 @@
 
     sput-object v8, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;->ET_IncreasedLift:Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
-    .line 6
     new-instance v10, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     const-string v12, "ET_SwanNeckLift"
@@ -120,7 +114,6 @@
 
     sput-object v10, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;->ET_SwanNeckLift:Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
-    .line 7
     new-instance v12, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     const-string v14, "ET_HandLift"
@@ -131,7 +124,6 @@
 
     sput-object v12, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;->ET_HandLift:Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
-    .line 8
     new-instance v14, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     const-string v0, "ET_ChestLift"
@@ -142,7 +134,6 @@
 
     sput-object v14, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;->ET_ChestLift:Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
-    .line 9
     new-instance v0, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     const-string v15, "ET_RightShoulderLift"
@@ -153,7 +144,6 @@
 
     sput-object v0, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;->ET_RightShoulderLift:Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
-    .line 10
     new-instance v15, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     const-string v13, "ET_Number"
@@ -198,7 +188,6 @@
 
     aput-object v15, v13, v11
 
-    .line 11
     sput-object v13, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;->$VALUES:[Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     const v0, 0xbf9b
@@ -216,7 +205,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -229,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -250,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;->$VALUES:[Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;
 
     invoke-virtual {v1}, [Lcom/meitu/core/openglEffect/MTPoseEffectParam$Type;->clone()Ljava/lang/Object;

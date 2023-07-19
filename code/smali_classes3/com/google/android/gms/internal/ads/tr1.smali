@@ -38,10 +38,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/tr1;->a:Lcom/google/android/gms/internal/ads/vr1;
 
     return-void
@@ -66,19 +64,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/tr1;->a:Lcom/google/android/gms/internal/ads/vr1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/vr1;->d(Lcom/google/android/gms/internal/ads/zzeer;)Lcom/google/android/gms/internal/ads/l22;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/tr1;->a:Lcom/google/android/gms/internal/ads/vr1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/vr1;->b(Lcom/google/android/gms/internal/ads/l22;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/tr1;->a:Lcom/google/android/gms/internal/ads/vr1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/vr1;->c(Lcom/google/android/gms/internal/ads/l22;)Ljava/lang/Object;

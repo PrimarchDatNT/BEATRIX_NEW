@@ -23,7 +23,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -54,7 +53,6 @@
 .method public constructor <init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/d/e/a/a;-><init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -82,7 +79,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -95,19 +91,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lf/d/e/a/a;->f:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-boolean v1, p0, Lf/d/e/a/a;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
@@ -115,7 +108,6 @@
 
     const/16 v2, 0x1e
 
-    .line 4
     iget-object v3, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -144,7 +136,6 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     sget-object v1, Lf/d/e/a/c;->w:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -165,7 +156,6 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     :cond_2
     iget-boolean v1, p0, Lf/d/e/a/a;->g:Z
 
@@ -183,56 +173,47 @@
 
     const-string v1, "bodyInOneEnable"
 
-    .line 1
     invoke-virtual {v1, p1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     instance-of v1, p2, Ljava/lang/Boolean;
 
     :cond_0
     const-string v1, "bodyInOnePoseEnable"
 
-    .line 3
     invoke-virtual {v1, p1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 4
     instance-of v1, p2, Ljava/lang/Boolean;
 
     :cond_1
     const-string v1, "bodyInOneContourEnable"
 
-    .line 5
     invoke-virtual {v1, p1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 6
     instance-of v1, p2, Ljava/lang/Boolean;
 
     :cond_2
     const-string v1, "bodyInOneBoxEnable"
 
-    .line 7
     invoke-virtual {v1, p1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    .line 8
     instance-of p1, p2, Ljava/lang/Boolean;
 
-    .line 9
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -252,12 +233,10 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iput-boolean v1, p0, Lf/d/e/a/a;->e:Z
 
     goto/16 :goto_3
 
-    .line 2
     :cond_0
     new-instance p2, Ljava/lang/StringBuilder;
 
@@ -277,7 +256,6 @@
 
     move-result-object p2
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -296,7 +274,6 @@
 
     move-result-object v2
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -315,7 +292,6 @@
 
     move-result-object v3
 
-    .line 5
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -334,29 +310,24 @@
 
     move-result-object p1
 
-    .line 6
     invoke-static {p2}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 7
     iget-object v4, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const-string v5, "MTAIENGINE_MODEL_BODYINONE_POSE"
 
     invoke-virtual {v4, v5, p2}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->setSingleModelPath(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     iput-boolean v1, p0, Lf/d/e/a/a;->e:Z
 
-    .line 9
     iget-boolean p2, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz p2, :cond_2
 
-    .line 10
     sget-object p2, Lf/d/e/a/c;->w:Ljava/lang/String;
 
     const-string/jumbo v4, "\u8bbe\u7f6e\u5168\u8eab\u7684\u9aa8\u9abc\u6a21\u578b \u6210\u529f\uff01\uff01"
@@ -365,7 +336,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     sget-object p2, Lf/d/e/a/c;->w:Ljava/lang/String;
 
@@ -373,7 +343,6 @@
 
     invoke-static {p2, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 12
     :cond_2
     :goto_0
     invoke-static {v2}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
@@ -382,22 +351,18 @@
 
     if-eqz p2, :cond_3
 
-    .line 13
     iget-object p2, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const-string v4, "MTAIENGINE_MODEL_BODYINONE_CONTOUR"
 
     invoke-virtual {p2, v4, v2}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->setSingleModelPath(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     iput-boolean v1, p0, Lf/d/e/a/a;->e:Z
 
-    .line 15
     iget-boolean p2, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz p2, :cond_4
 
-    .line 16
     sget-object p2, Lf/d/e/a/c;->w:Ljava/lang/String;
 
     const-string/jumbo v2, "\u8bbe\u7f6e\u5168\u8eab\u7684\u8f6e\u5ed3\u6a21\u578b \u6210\u529f\uff01\uff01"
@@ -406,7 +371,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_3
     sget-object p2, Lf/d/e/a/c;->w:Ljava/lang/String;
 
@@ -414,7 +378,6 @@
 
     invoke-static {p2, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 18
     :cond_4
     :goto_1
     invoke-static {v3}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
@@ -423,22 +386,18 @@
 
     if-eqz p2, :cond_5
 
-    .line 19
     iget-object p2, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const-string v2, "MTAIENGINE_MODEL_BODYINONE_BOX_A"
 
     invoke-virtual {p2, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->setSingleModelPath(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 20
     iput-boolean v1, p0, Lf/d/e/a/a;->e:Z
 
-    .line 21
     iget-boolean p2, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz p2, :cond_6
 
-    .line 22
     sget-object p2, Lf/d/e/a/c;->w:Ljava/lang/String;
 
     const-string/jumbo v2, "\u8bbe\u7f6e\u5168\u8eab\u7684BoxA\u6a21\u578b \u6210\u529f\uff01\uff01"
@@ -447,7 +406,6 @@
 
     goto :goto_2
 
-    .line 23
     :cond_5
     sget-object p2, Lf/d/e/a/c;->w:Ljava/lang/String;
 
@@ -455,7 +413,6 @@
 
     invoke-static {p2, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 24
     :cond_6
     :goto_2
     invoke-static {p1}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
@@ -464,22 +421,18 @@
 
     if-eqz p2, :cond_7
 
-    .line 25
     iget-object p2, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const-string v2, "MTAIENGINE_MODEL_BODYINONE_BOX_B"
 
     invoke-virtual {p2, v2, p1}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->setSingleModelPath(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 26
     iput-boolean v1, p0, Lf/d/e/a/a;->e:Z
 
-    .line 27
     iget-boolean p1, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz p1, :cond_8
 
-    .line 28
     sget-object p1, Lf/d/e/a/c;->w:Ljava/lang/String;
 
     const-string/jumbo p2, "\u8bbe\u7f6e\u5168\u8eab\u7684BoxB\u6a21\u578b \u6210\u529f\uff01\uff01"
@@ -488,7 +441,6 @@
 
     goto :goto_3
 
-    .line 29
     :cond_7
     sget-object p1, Lf/d/e/a/c;->w:Ljava/lang/String;
 
@@ -496,7 +448,6 @@
 
     invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 30
     :cond_8
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -511,7 +462,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -524,7 +474,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const/4 v2, 0x0
@@ -533,7 +482,6 @@
 
     const/16 v3, 0x1e
 
-    .line 2
     invoke-virtual {v1, v3}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     move-result v1
@@ -550,7 +498,6 @@
     :goto_0
     if-nez v1, :cond_1
 
-    .line 3
     sget-object v3, Lf/d/e/a/c;->w:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -571,13 +518,11 @@
 
     invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     :cond_1
     iput-boolean v2, p0, Lf/d/e/a/a;->f:Z
 
     move v2, v1
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

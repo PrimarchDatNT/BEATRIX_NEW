@@ -18,10 +18,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/tencent/matrix/g/a;->a:Landroid/content/Context;
 
     return-void
@@ -36,7 +34,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     invoke-virtual {p1}, Lcom/tencent/matrix/g/c;->getTag()Ljava/lang/String;
 
     move-result-object p1
@@ -74,7 +71,6 @@
 
     const-string v1, "report issue content: %s"
 
-    .line 1
     invoke-static {p1, v1, v0}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -87,7 +83,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     invoke-virtual {p1}, Lcom/tencent/matrix/g/c;->getTag()Ljava/lang/String;
 
     move-result-object p1
@@ -112,7 +107,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     invoke-virtual {p1}, Lcom/tencent/matrix/g/c;->getTag()Ljava/lang/String;
 
     move-result-object p1
@@ -137,7 +131,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     invoke-virtual {p1}, Lcom/tencent/matrix/g/c;->getTag()Ljava/lang/String;
 
     move-result-object p1

@@ -39,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/Lists$e;-><init>(Ljava/util/List;I)V
 
     return-void

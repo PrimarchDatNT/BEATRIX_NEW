@@ -28,14 +28,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/d0/a;
 
     invoke-direct {v1}, Lcom/commsource/beautyplus/d0/a;-><init>()V
 
     sput-object v1, Lcom/commsource/beautyplus/d0/a;->c:Lcom/commsource/beautyplus/d0/a;
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
@@ -52,7 +50,6 @@
     :goto_0
     sput-object v1, Lcom/commsource/beautyplus/d0/a;->a:Ljava/lang/String;
 
-    .line 3
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
@@ -77,7 +74,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -94,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->b:Lcom/commsource/beautyplus/setting/language/LanguageConfig;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -109,14 +104,12 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -131,7 +124,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -147,14 +139,12 @@
 
     move-result-object v1
 
-    .line 5
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -171,7 +161,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -187,7 +176,6 @@
 
     move-result-object v1
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -203,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/d0/a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -220,7 +207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/d0/a;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -25,7 +25,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "This function is implemented as an intrinsic on all supported platforms."

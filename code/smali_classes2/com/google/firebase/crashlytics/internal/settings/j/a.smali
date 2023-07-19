@@ -34,10 +34,8 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/google/firebase/crashlytics/internal/network/b;Lcom/google/firebase/crashlytics/internal/network/HttpMethod;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/firebase/crashlytics/internal/common/a;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/google/firebase/crashlytics/internal/network/b;Lcom/google/firebase/crashlytics/internal/network/HttpMethod;)V
 
-    .line 2
     iput-object p5, p0, Lcom/google/firebase/crashlytics/internal/settings/j/a;->q:Ljava/lang/String;
 
     return-void
@@ -46,12 +44,10 @@
 .method private h(Lcom/google/firebase/crashlytics/internal/network/a;Lcom/google/firebase/crashlytics/internal/settings/i/a;)Lcom/google/firebase/crashlytics/internal/network/a;
     .locals 2
 
-    .line 1
     iget-object v0, p2, Lcom/google/firebase/crashlytics/internal/settings/i/a;->a:Ljava/lang/String;
 
     const-string v1, "X-CRASHLYTICS-ORG-ID"
 
-    .line 2
     invoke-virtual {p1, v1, v0}, Lcom/google/firebase/crashlytics/internal/network/a;->d(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
@@ -60,7 +56,6 @@
 
     const-string v0, "X-CRASHLYTICS-GOOGLE-APP-ID"
 
-    .line 3
     invoke-virtual {p1, v0, p2}, Lcom/google/firebase/crashlytics/internal/network/a;->d(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
@@ -69,7 +64,6 @@
 
     const-string v0, "android"
 
-    .line 4
     invoke-virtual {p1, p2, v0}, Lcom/google/firebase/crashlytics/internal/network/a;->d(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
@@ -78,7 +72,6 @@
 
     const-string v0, "X-CRASHLYTICS-API-CLIENT-VERSION"
 
-    .line 5
     invoke-virtual {p1, v0, p2}, Lcom/google/firebase/crashlytics/internal/network/a;->d(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
@@ -89,12 +82,10 @@
 .method private i(Lcom/google/firebase/crashlytics/internal/network/a;Lcom/google/firebase/crashlytics/internal/settings/i/a;)Lcom/google/firebase/crashlytics/internal/network/a;
     .locals 2
 
-    .line 1
     iget-object v0, p2, Lcom/google/firebase/crashlytics/internal/settings/i/a;->a:Ljava/lang/String;
 
     const-string v1, "org_id"
 
-    .line 2
     invoke-virtual {p1, v1, v0}, Lcom/google/firebase/crashlytics/internal/network/a;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
@@ -103,7 +94,6 @@
 
     const-string v1, "app[identifier]"
 
-    .line 3
     invoke-virtual {p1, v1, v0}, Lcom/google/firebase/crashlytics/internal/network/a;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
@@ -112,7 +102,6 @@
 
     const-string v1, "app[name]"
 
-    .line 4
     invoke-virtual {p1, v1, v0}, Lcom/google/firebase/crashlytics/internal/network/a;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
@@ -121,7 +110,6 @@
 
     const-string v1, "app[display_version]"
 
-    .line 5
     invoke-virtual {p1, v1, v0}, Lcom/google/firebase/crashlytics/internal/network/a;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
@@ -130,14 +118,12 @@
 
     const-string v1, "app[build_version]"
 
-    .line 6
     invoke-virtual {p1, v1, v0}, Lcom/google/firebase/crashlytics/internal/network/a;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
 
     iget v0, p2, Lcom/google/firebase/crashlytics/internal/settings/i/a;->h:I
 
-    .line 7
     invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object v0
@@ -152,7 +138,6 @@
 
     const-string v1, "app[minimum_sdk_version]"
 
-    .line 8
     invoke-virtual {p1, v1, v0}, Lcom/google/firebase/crashlytics/internal/network/a;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
@@ -161,12 +146,10 @@
 
     const-string v1, "app[built_sdk_version]"
 
-    .line 9
     invoke-virtual {p1, v1, v0}, Lcom/google/firebase/crashlytics/internal/network/a;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
 
-    .line 10
     iget-object v0, p2, Lcom/google/firebase/crashlytics/internal/settings/i/a;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->N(Ljava/lang/String;)Z
@@ -175,7 +158,6 @@
 
     if-nez v0, :cond_0
 
-    .line 11
     iget-object p2, p2, Lcom/google/firebase/crashlytics/internal/settings/i/a;->f:Ljava/lang/String;
 
     const-string v0, "app[instance_identifier]"
@@ -193,22 +175,18 @@
 
     if-eqz p2, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/common/a;->d()Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p2
 
-    .line 2
     invoke-direct {p0, p2, p1}, Lcom/google/firebase/crashlytics/internal/settings/j/a;->h(Lcom/google/firebase/crashlytics/internal/network/a;Lcom/google/firebase/crashlytics/internal/settings/i/a;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p2
 
-    .line 3
     invoke-direct {p0, p2, p1}, Lcom/google/firebase/crashlytics/internal/settings/j/a;->i(Lcom/google/firebase/crashlytics/internal/network/a;Lcom/google/firebase/crashlytics/internal/settings/i/a;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
 
-    .line 4
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object p2
@@ -233,20 +211,17 @@
 
     invoke-virtual {p2, v0}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 5
     :try_start_0
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/network/a;->b()Lcom/google/firebase/crashlytics/internal/network/c;
 
     move-result-object p2
 
-    .line 6
     invoke-virtual {p2}, Lcom/google/firebase/crashlytics/internal/network/c;->b()I
 
     move-result v0
 
     const-string v1, "POST"
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/network/a;->f()Ljava/lang/String;
 
     move-result-object p1
@@ -264,7 +239,6 @@
     :cond_0
     const-string p1, "Update"
 
-    .line 8
     :goto_0
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
@@ -282,7 +256,6 @@
 
     const-string p1, "X-REQUEST-ID"
 
-    .line 9
     invoke-virtual {p2, p1}, Lcom/google/firebase/crashlytics/internal/network/c;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -295,7 +268,6 @@
 
     invoke-virtual {v1, p1}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object p1
@@ -316,7 +288,6 @@
 
     invoke-virtual {p1, p2}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/common/z;->a(I)I
 
     move-result p1
@@ -338,7 +309,6 @@
     :catch_0
     move-exception p1
 
-    .line 12
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object p2
@@ -347,14 +317,12 @@
 
     invoke-virtual {p2, v0, p1}, Lcom/google/firebase/crashlytics/e/b;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 13
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
 
     throw p2
 
-    .line 14
     :cond_2
     new-instance p1, Ljava/lang/RuntimeException;
 

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$7;->this$0:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     iput-boolean p2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$7;->val$isRenderMask:Z
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$7;->this$0:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     invoke-static {v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->access$000(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;)Lcom/meitu/core/magicpen/NativeGLMagicPen;
@@ -57,7 +55,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->SetIsRenderMask(Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -42,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository$g$a$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository$g$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -94,7 +93,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -112,7 +110,6 @@
 
     check-cast v1, Lcom/meitu/template/bean/LookMaterial;
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/template/bean/LookMaterial;->isInside()I
 
     move-result v2
@@ -123,10 +120,8 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/LookMaterial;->setInside(I)V
 
-    .line 4
     :cond_0
     sget-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
@@ -141,7 +136,6 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 5
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -159,7 +153,6 @@
 
     check-cast p2, Lcom/meitu/template/bean/LookMaterial;
 
-    .line 6
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->q()Lf/k/i0/a/b0;
@@ -173,7 +166,6 @@
     :cond_2
     if-eqz p3, :cond_3
 
-    .line 7
     invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -191,7 +183,6 @@
 
     check-cast p2, Lcom/meitu/template/bean/LookMaterial;
 
-    .line 8
     sget-object p3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
     invoke-virtual {p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->q()Lf/k/i0/a/b0;
@@ -205,7 +196,6 @@
     :cond_3
     if-eqz p4, :cond_4
 
-    .line 9
     invoke-interface {p4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -223,7 +213,6 @@
 
     check-cast p2, Lcom/meitu/template/bean/LookMaterial;
 
-    .line 10
     sget-object p3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
     invoke-virtual {p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->q()Lf/k/i0/a/b0;
@@ -234,7 +223,6 @@
 
     goto :goto_3
 
-    .line 11
     :cond_4
     sget-object p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig$a;
 
@@ -252,12 +240,10 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->n(Ljava/lang/String;)V
 
-    .line 12
     sget-object p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->u()V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -278,7 +264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     check-cast p2, Ljava/util/List;

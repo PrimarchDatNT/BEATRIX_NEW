@@ -18,13 +18,10 @@
 .method private constructor <init>(Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/primitives/d;->a:Ljava/lang/String;
 
-    .line 3
     iput p2, p0, Lcom/google/common/primitives/d;->b:I
 
     return-void
@@ -33,7 +30,6 @@
 .method static a(Ljava/lang/String;)Lcom/google/common/primitives/d;
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -42,14 +38,12 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p0, v0}, Ljava/lang/String;->charAt(I)C
 
     move-result v0
 
     const-string v1, "0x"
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -75,7 +69,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 4
     invoke-virtual {p0, v3}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p0
@@ -87,14 +80,12 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
 
     if-le v0, v3, :cond_2
 
-    .line 6
     invoke-virtual {p0, v3}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p0
@@ -112,12 +103,10 @@
     :goto_0
     const/4 v0, 0x2
 
-    .line 7
     invoke-virtual {p0, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 8
     :goto_1
     new-instance v0, Lcom/google/common/primitives/d;
 
@@ -125,7 +114,6 @@
 
     return-object v0
 
-    .line 9
     :cond_4
     new-instance p0, Ljava/lang/NumberFormatException;
 

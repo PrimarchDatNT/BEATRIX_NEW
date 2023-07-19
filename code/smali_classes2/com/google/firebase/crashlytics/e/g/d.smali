@@ -32,7 +32,6 @@
 
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -45,13 +44,10 @@
 .method constructor <init>(Ljava/io/File;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/e/g/d;->a:Ljava/io/File;
 
-    .line 3
     iput p2, p0, Lcom/google/firebase/crashlytics/e/g/d;->b:I
 
     return-void
@@ -62,7 +58,6 @@
 
     const-string v0, " "
 
-    .line 1
     iget-object v1, p0, Lcom/google/firebase/crashlytics/e/g/d;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
     if-nez v1, :cond_0
@@ -74,21 +69,18 @@
 
     const-string p3, "null"
 
-    .line 2
     :cond_1
     :try_start_0
     iget v1, p0, Lcom/google/firebase/crashlytics/e/g/d;->b:I
 
     div-int/lit8 v1, v1, 0x4
 
-    .line 3
     invoke-virtual {p3}, Ljava/lang/String;->length()I
 
     move-result v2
 
     if-le v2, v1, :cond_2
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -116,19 +108,16 @@
     :cond_2
     const-string v1, "\r"
 
-    .line 5
     invoke-virtual {p3, v1, v0}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p3
 
     const-string v1, "\n"
 
-    .line 6
     invoke-virtual {p3, v1, v0}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p3
 
-    .line 7
     sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     const-string v1, "%d %s%n"
@@ -159,12 +148,10 @@
 
     move-result-object p1
 
-    .line 8
     iget-object p2, p0, Lcom/google/firebase/crashlytics/e/g/d;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
     invoke-virtual {p2, p1}, Lcom/google/firebase/crashlytics/e/g/c;->e([B)V
 
-    .line 9
     :goto_0
     iget-object p1, p0, Lcom/google/firebase/crashlytics/e/g/d;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
@@ -184,7 +171,6 @@
 
     if-le p1, p2, :cond_3
 
-    .line 10
     iget-object p1, p0, Lcom/google/firebase/crashlytics/e/g/d;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/e/g/c;->v()V
@@ -196,7 +182,6 @@
     :catch_0
     move-exception p1
 
-    .line 11
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object p2
@@ -212,7 +197,6 @@
 .method private g()Lcom/google/firebase/crashlytics/e/g/d$b;
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/g/d;->a:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
@@ -225,11 +209,9 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/e/g/d;->h()V
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/g/d;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
     if-nez v0, :cond_1
@@ -245,14 +227,12 @@
 
     aput v2, v1, v2
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/firebase/crashlytics/e/g/c;->A()I
 
     move-result v0
 
     new-array v0, v0, [B
 
-    .line 5
     :try_start_0
     iget-object v3, p0, Lcom/google/firebase/crashlytics/e/g/d;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
@@ -269,7 +249,6 @@
     :catch_0
     move-exception v3
 
-    .line 6
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v4
@@ -278,7 +257,6 @@
 
     invoke-virtual {v4, v5, v3}, Lcom/google/firebase/crashlytics/e/b;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 7
     :goto_0
     new-instance v3, Lcom/google/firebase/crashlytics/e/g/d$b;
 
@@ -292,12 +270,10 @@
 .method private h()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/g/d;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
     if-nez v0, :cond_0
 
-    .line 2
     :try_start_0
     new-instance v0, Lcom/google/firebase/crashlytics/e/g/c;
 
@@ -314,7 +290,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v1
@@ -347,7 +322,6 @@
 .method public a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/g/d;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
     const-string v1, "There was a problem closing the Crashlytics log file."
@@ -356,7 +330,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/firebase/crashlytics/e/g/d;->c:Lcom/google/firebase/crashlytics/e/g/c;
 
     return-void
@@ -365,14 +338,12 @@
 .method public b()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/e/g/d;->c()[B
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/String;
 
     sget-object v2, Lcom/google/firebase/crashlytics/e/g/d;->d:Ljava/nio/charset/Charset;
@@ -391,7 +362,6 @@
 .method public c()[B
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/e/g/d;->g()Lcom/google/firebase/crashlytics/e/g/d$b;
 
     move-result-object v0
@@ -402,13 +372,11 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget v1, v0, Lcom/google/firebase/crashlytics/e/g/d$b;->b:I
 
     new-array v2, v1, [B
 
-    .line 3
     iget-object v0, v0, Lcom/google/firebase/crashlytics/e/g/d$b;->a:[B
 
     const/4 v3, 0x0
@@ -421,10 +389,8 @@
 .method public d()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/e/g/d;->a()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/g/d;->a:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
@@ -435,10 +401,8 @@
 .method public e(JLjava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/e/g/d;->h()V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lcom/google/firebase/crashlytics/e/g/d;->f(JLjava/lang/String;)V
 
     return-void

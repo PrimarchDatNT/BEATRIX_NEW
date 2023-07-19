@@ -50,7 +50,6 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lkshark/AndroidBuildMirror$Companion$fromHeapGraph$1;->invoke()Lkshark/AndroidBuildMirror;
 
     move-result-object v0
@@ -63,7 +62,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lkshark/AndroidBuildMirror$Companion$fromHeapGraph$1;->$graph:Lkshark/i;
 
     const-string v1, "android.os.Build"
@@ -76,7 +74,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lkshark/AndroidBuildMirror$Companion$fromHeapGraph$1;->$graph:Lkshark/i;
 
@@ -93,7 +90,6 @@
     :cond_1
     const-string v2, "MANUFACTURER"
 
-    .line 4
     invoke-virtual {v0, v2}, Lkshark/HeapObject$HeapClass;->j(Ljava/lang/String;)Lkshark/h;
 
     move-result-object v0
@@ -107,7 +103,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lkshark/j;->n()Z
 
     move-result v2
@@ -147,7 +142,6 @@
     :cond_5
     const-string v2, "SDK_INT"
 
-    .line 6
     invoke-virtual {v1, v2}, Lkshark/HeapObject$HeapClass;->j(Ljava/lang/String;)Lkshark/h;
 
     move-result-object v1
@@ -174,7 +168,6 @@
 
     move-result v1
 
-    .line 7
     new-instance v2, Lkshark/AndroidBuildMirror;
 
     invoke-virtual {v0}, Lkshark/j;->p()Ljava/lang/String;
@@ -190,7 +183,6 @@
 
     goto :goto_3
 
-    .line 8
     :cond_9
     :goto_2
     new-instance v2, Lkshark/AndroidBuildMirror;

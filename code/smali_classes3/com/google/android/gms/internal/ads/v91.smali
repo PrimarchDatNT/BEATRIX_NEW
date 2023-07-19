@@ -30,14 +30,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-eqz p1, :cond_0
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/v91;->a:Z
 
     return-void
@@ -45,7 +43,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/v91;->a:Z
 
     return-void
@@ -65,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/v91;->a:Z
 
     if-eqz v0, :cond_0
@@ -77,7 +73,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 

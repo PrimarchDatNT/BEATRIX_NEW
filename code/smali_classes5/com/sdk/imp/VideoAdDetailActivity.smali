@@ -78,7 +78,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
     return-void
@@ -87,7 +86,6 @@
 .method static synthetic a(Lcom/sdk/imp/VideoAdDetailActivity;Ljava/lang/ref/WeakReference;)Ljava/lang/ref/WeakReference;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VideoAdDetailActivity;->a:Ljava/lang/ref/WeakReference;
 
     return-object p1
@@ -96,7 +94,6 @@
 .method static synthetic b(Lcom/sdk/imp/VideoAdDetailActivity;Ljava/lang/ref/WeakReference;)Ljava/lang/ref/WeakReference;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VideoAdDetailActivity;->b:Ljava/lang/ref/WeakReference;
 
     return-object p1
@@ -105,7 +102,6 @@
 .method static synthetic c()Lcom/sdk/imp/VastAgent;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
     return-object v0
@@ -114,7 +110,6 @@
 .method static synthetic d()Lcom/sdk/api/d$e;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/VideoAdDetailActivity;->S:Lcom/sdk/api/d$e;
 
     return-object v0
@@ -123,7 +118,6 @@
 .method static synthetic e()Lcom/sdk/api/d$d;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/VideoAdDetailActivity;->T:Lcom/sdk/api/d$d;
 
     return-object v0
@@ -132,7 +126,6 @@
 .method private f(I)V
     .locals 8
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
     invoke-virtual {v0}, Lcom/sdk/imp/VastAgent;->i()Lcom/sdk/imp/VastModel;
@@ -165,17 +158,14 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
     invoke-virtual {v0, p0}, Lcom/sdk/imp/VastAgent;->j(Landroid/content/Context;)V
 
-    .line 3
     sget-object v0, Lcom/sdk/imp/VastAgent$ReportEvent;->CLICK_TRACKING:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     invoke-direct {p0, v0}, Lcom/sdk/imp/VideoAdDetailActivity;->j(Lcom/sdk/imp/VastAgent$ReportEvent;)V
 
-    .line 4
     sget-object v0, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
     invoke-virtual {v0}, Lcom/sdk/imp/VastAgent;->i()Lcom/sdk/imp/VastModel;
@@ -186,7 +176,6 @@
 
     move-result-object v2
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -195,12 +184,10 @@
 
     sub-long v5, v0, v3
 
-    .line 6
     new-instance v7, Ljava/util/HashMap;
 
     invoke-direct {v7}, Ljava/util/HashMap;-><init>()V
 
-    .line 7
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -209,7 +196,6 @@
 
     invoke-virtual {v7, v0, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     sget-object v1, Lcom/sdk/api/Const$Event;->REPORT_CLICK:Lcom/sdk/api/Const$Event;
 
     invoke-virtual {v2}, Lcom/sdk/imp/internal/loader/Ad;->getPosid()Ljava/lang/String;
@@ -227,7 +213,6 @@
 .method private g()V
     .locals 8
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
     if-eqz v0, :cond_c
@@ -240,7 +225,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iget-object v1, p0, Lcom/sdk/imp/VideoAdDetailActivity;->a:Ljava/lang/ref/WeakReference;
 
     if-eqz v1, :cond_0
@@ -251,7 +235,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->J:Landroid/widget/ImageView;
 
     iget-object v1, p0, Lcom/sdk/imp/VideoAdDetailActivity;->a:Ljava/lang/ref/WeakReference;
@@ -264,7 +247,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -275,7 +257,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object v1, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
@@ -291,21 +272,18 @@
 
     move-result-object v1
 
-    .line 6
     invoke-static {v1}, Lcom/sdk/imp/v;->c(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 7
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->J:Landroid/widget/ImageView;
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     move-object v0, v1
 
-    .line 8
     :cond_1
     :goto_0
     sget-object v1, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
@@ -318,7 +296,6 @@
 
     move-result-object v1
 
-    .line 9
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -337,12 +314,10 @@
 
     if-nez v2, :cond_2
 
-    .line 10
     iget-object v2, p0, Lcom/sdk/imp/VideoAdDetailActivity;->c:Landroid/widget/Button;
 
     invoke-virtual {v2, v1}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
 
-    .line 11
     :cond_2
     sget-object v1, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
@@ -354,7 +329,6 @@
 
     move-result-object v1
 
-    .line 12
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -371,7 +345,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 13
     :cond_3
     sget-object v1, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
@@ -383,13 +356,11 @@
 
     move-result-object v1
 
-    .line 14
     :cond_4
     iget-object v2, p0, Lcom/sdk/imp/VideoAdDetailActivity;->g:Landroid/widget/TextView;
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 15
     iget-object v1, p0, Lcom/sdk/imp/VideoAdDetailActivity;->b:Ljava/lang/ref/WeakReference;
 
     if-eqz v1, :cond_5
@@ -400,7 +371,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 16
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->p:Landroid/widget/ImageView;
 
     iget-object v1, p0, Lcom/sdk/imp/VideoAdDetailActivity;->b:Ljava/lang/ref/WeakReference;
@@ -418,12 +388,10 @@
     :cond_5
     if-eqz v0, :cond_6
 
-    .line 17
     iget-object v1, p0, Lcom/sdk/imp/VideoAdDetailActivity;->p:Landroid/widget/ImageView;
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 18
     :cond_6
     :goto_1
     sget-object v0, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
@@ -436,14 +404,12 @@
 
     if-eqz v0, :cond_b
 
-    .line 19
     invoke-virtual {v0}, Lcom/sdk/imp/VastModel;->getAd()Lcom/sdk/imp/internal/loader/Ad;
 
     move-result-object v2
 
     if-eqz v2, :cond_b
 
-    .line 20
     invoke-virtual {v0}, Lcom/sdk/imp/VastModel;->getAd()Lcom/sdk/imp/internal/loader/Ad;
 
     move-result-object v2
@@ -464,7 +430,6 @@
 
     if-eqz v2, :cond_b
 
-    .line 21
     :cond_7
     invoke-virtual {v0}, Lcom/sdk/imp/VastModel;->getRating()D
 
@@ -480,14 +445,12 @@
 
     if-nez v7, :cond_8
 
-    .line 22
     new-instance v2, Ljava/util/Random;
 
     invoke-direct {v2}, Ljava/util/Random;-><init>()V
 
     const-wide/high16 v3, 0x4010000000000000L    # 4.0
 
-    .line 23
     invoke-virtual {v2}, Ljava/util/Random;->nextFloat()F
 
     move-result v2
@@ -502,7 +465,6 @@
 
     double-to-float v2, v5
 
-    .line 24
     invoke-static {v2}, Ljava/lang/String;->valueOf(F)Ljava/lang/String;
 
     move-result-object v3
@@ -518,31 +480,26 @@
 
     if-ltz v7, :cond_a
 
-    .line 25
     iget-object v1, p0, Lcom/sdk/imp/VideoAdDetailActivity;->L:Landroid/widget/RatingBar;
 
     invoke-virtual {v1, v2}, Landroid/widget/RatingBar;->setRating(F)V
 
-    .line 26
     iget-object v1, p0, Lcom/sdk/imp/VideoAdDetailActivity;->M:Landroid/view/ViewGroup;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 27
     invoke-virtual {v0}, Lcom/sdk/imp/VastModel;->getDownloadNum()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 28
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-eqz v2, :cond_9
 
-    .line 29
     new-instance v1, Ljava/util/Random;
 
     invoke-direct {v1}, Ljava/util/Random;-><init>()V
@@ -551,19 +508,16 @@
 
     const v3, 0x98967f
 
-    .line 30
     invoke-virtual {v1, v3}, Ljava/util/Random;->nextInt(I)I
 
     move-result v1
 
     add-int/2addr v1, v2
 
-    .line 31
     invoke-static {}, Ljava/text/NumberFormat;->getInstance()Ljava/text/NumberFormat;
 
     move-result-object v2
 
-    .line 32
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -588,10 +542,8 @@
 
     move-result-object v1
 
-    .line 33
     invoke-virtual {v0, v1}, Lcom/sdk/imp/VastModel;->setDownloadNum(Ljava/lang/String;)V
 
-    .line 34
     :cond_9
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->K:Landroid/widget/TextView;
 
@@ -599,7 +551,6 @@
 
     goto :goto_2
 
-    .line 35
     :cond_a
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->M:Landroid/view/ViewGroup;
 
@@ -607,13 +558,11 @@
 
     goto :goto_2
 
-    .line 36
     :cond_b
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->M:Landroid/view/ViewGroup;
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 37
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->p:Landroid/widget/ImageView;
 
     invoke-virtual {v0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
@@ -622,19 +571,16 @@
 
     if-nez v0, :cond_c
 
-    .line 38
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->O:Landroid/widget/FrameLayout;
 
     const/16 v1, 0x8
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 39
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->N:Landroid/widget/FrameLayout;
 
     if-eqz v0, :cond_c
 
-    .line 40
     new-instance v1, Landroid/widget/LinearLayout$LayoutParams;
 
     const/4 v2, -0x1
@@ -655,7 +601,6 @@
 .method private h()V
     .locals 2
 
-    .line 1
     sget v0, Lcom/sdk/api/i$e;->V:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -668,10 +613,8 @@
 
     const/16 v1, 0x8
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 3
     sget v0, Lcom/sdk/api/i$e;->R:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -682,7 +625,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->f:Landroid/widget/ImageView;
 
-    .line 4
     sget v0, Lcom/sdk/api/i$e;->K0:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -693,7 +635,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->g:Landroid/widget/TextView;
 
-    .line 5
     sget v0, Lcom/sdk/api/i$e;->T:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -704,7 +645,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->p:Landroid/widget/ImageView;
 
-    .line 6
     sget v0, Lcom/sdk/api/i$e;->S:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -715,7 +655,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->J:Landroid/widget/ImageView;
 
-    .line 7
     sget v0, Lcom/sdk/api/i$e;->J0:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -726,7 +665,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->K:Landroid/widget/TextView;
 
-    .line 8
     sget v0, Lcom/sdk/api/i$e;->z:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -737,7 +675,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->c:Landroid/widget/Button;
 
-    .line 9
     sget v0, Lcom/sdk/api/i$e;->P:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -748,7 +685,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->L:Landroid/widget/RatingBar;
 
-    .line 10
     sget v0, Lcom/sdk/api/i$e;->g:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -759,7 +695,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->M:Landroid/view/ViewGroup;
 
-    .line 11
     sget v0, Lcom/sdk/api/i$e;->U:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -770,7 +705,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->O:Landroid/widget/FrameLayout;
 
-    .line 12
     sget v0, Lcom/sdk/api/i$e;->L0:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -781,12 +715,10 @@
 
     iput-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->N:Landroid/widget/FrameLayout;
 
-    .line 13
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->p:Landroid/widget/ImageView;
 
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 14
     sget v0, Lcom/sdk/api/i$e;->G:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -795,17 +727,14 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 15
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->f:Landroid/widget/ImageView;
 
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 16
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->c:Landroid/widget/Button;
 
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 17
     iget-object v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->J:Landroid/widget/ImageView;
 
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
@@ -816,7 +745,6 @@
 .method private i()V
     .locals 10
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
     invoke-virtual {v0}, Lcom/sdk/imp/VastAgent;->i()Lcom/sdk/imp/VastModel;
@@ -827,7 +755,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lcom/sdk/imp/VastModel;->getCompanionAds()Ljava/util/List;
 
@@ -839,7 +766,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 3
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v4
@@ -850,7 +776,6 @@
 
     const v5, 0x3f99999a    # 1.2f
 
-    .line 4
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -871,7 +796,6 @@
 
     check-cast v7, Lcom/sdk/imp/VastModel$CompanionAds;
 
-    .line 5
     invoke-virtual {v7}, Lcom/sdk/imp/VastModel$CompanionAds;->getAdWidth()I
 
     move-result v8
@@ -888,7 +812,6 @@
 
     if-lt v8, v9, :cond_1
 
-    .line 6
     invoke-virtual {v7}, Lcom/sdk/imp/VastModel$CompanionAds;->getStaticResourceList()Ljava/util/List;
 
     move-result-object v8
@@ -907,7 +830,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-virtual {v7}, Lcom/sdk/imp/VastModel$CompanionAds;->getAdWidth()I
 
@@ -934,7 +856,6 @@
     :cond_3
     sub-float/2addr v8, v5
 
-    .line 8
     invoke-static {v8}, Ljava/lang/Math;->abs(F)F
 
     move-result v9
@@ -953,19 +874,16 @@
     :goto_1
     if-eqz v6, :cond_6
 
-    .line 9
     sget-object v1, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
     invoke-virtual {v1, v6}, Lcom/sdk/imp/VastAgent;->Q(Lcom/sdk/imp/VastModel$CompanionAds;)V
 
-    .line 10
     invoke-virtual {v6}, Lcom/sdk/imp/VastModel$CompanionAds;->getStaticResourceList()Ljava/util/List;
 
     move-result-object v1
 
     if-eqz v1, :cond_5
 
-    .line 11
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v4
@@ -984,7 +902,6 @@
 
     if-nez v4, :cond_5
 
-    .line 12
     invoke-static {}, Lcom/sdk/api/a;->g()Landroid/content/Context;
 
     move-result-object v4
@@ -1003,11 +920,9 @@
 
     goto :goto_2
 
-    .line 13
     :cond_5
     iput-object v2, p0, Lcom/sdk/imp/VideoAdDetailActivity;->a:Ljava/lang/ref/WeakReference;
 
-    .line 14
     :cond_6
     :goto_2
     invoke-virtual {v0}, Lcom/sdk/imp/VastModel;->getIconUrl()Ljava/lang/String;
@@ -1020,7 +935,6 @@
 
     if-nez v1, :cond_7
 
-    .line 15
     invoke-static {}, Lcom/sdk/api/a;->g()Landroid/content/Context;
 
     move-result-object v1
@@ -1037,7 +951,6 @@
 
     goto :goto_3
 
-    .line 16
     :cond_7
     iput-object v2, p0, Lcom/sdk/imp/VideoAdDetailActivity;->b:Ljava/lang/ref/WeakReference;
 
@@ -1048,12 +961,10 @@
 .method private j(Lcom/sdk/imp/VastAgent$ReportEvent;)V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p1}, Lcom/sdk/imp/VastAgent;->u(Lcom/sdk/imp/VastAgent$ReportEvent;)V
 
     :cond_0
@@ -1063,10 +974,8 @@
 .method public static k(Lcom/sdk/api/d$e;Lcom/sdk/api/d$d;)V
     .locals 0
 
-    .line 1
     sput-object p0, Lcom/sdk/imp/VideoAdDetailActivity;->S:Lcom/sdk/api/d$e;
 
-    .line 2
     sput-object p1, Lcom/sdk/imp/VideoAdDetailActivity;->T:Lcom/sdk/api/d$d;
 
     return-void
@@ -1081,33 +990,27 @@
 
     goto :goto_1
 
-    .line 1
     :cond_0
     sput-object p1, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
-    .line 2
     sput-boolean p2, Lcom/sdk/imp/VideoAdDetailActivity;->R:Z
 
     const/high16 p1, 0x10000000
 
     if-eqz p2, :cond_1
 
-    .line 3
     new-instance p2, Landroid/content/Intent;
 
     const-class v0, Lcom/sdk/imp/VideoAdDetailLandscapeActivity;
 
     invoke-direct {p2, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 4
     invoke-virtual {p2, p1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 5
     invoke-virtual {p0, p2}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance p2, Landroid/content/Intent;
 
@@ -1115,10 +1018,8 @@
 
     invoke-direct {p2, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 7
     invoke-virtual {p2, p1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 8
     invoke-virtual {p0, p2}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     :goto_0
@@ -1138,12 +1039,10 @@
 .method public onClick(Landroid/view/View;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result p1
 
-    .line 2
     sget v0, Lcom/sdk/api/i$e;->R:I
 
     if-eq p1, v0, :cond_6
@@ -1154,7 +1053,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     sget v0, Lcom/sdk/api/i$e;->z:I
 
@@ -1177,7 +1075,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     sget v0, Lcom/sdk/api/i$e;->S:I
 
@@ -1185,7 +1082,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     sget v0, Lcom/sdk/api/i$e;->T:I
 
@@ -1193,34 +1089,29 @@
 
     const/4 v1, 0x2
 
-    .line 6
     :cond_4
     :goto_0
     sget-object p1, Lcom/sdk/imp/VideoAdDetailActivity;->T:Lcom/sdk/api/d$d;
 
     if-eqz p1, :cond_5
 
-    .line 7
     new-instance p1, Lcom/sdk/imp/VideoAdDetailActivity$e;
 
     invoke-direct {p1, p0}, Lcom/sdk/imp/VideoAdDetailActivity$e;-><init>(Lcom/sdk/imp/VideoAdDetailActivity;)V
 
     invoke-static {p1}, Lf/q/b/p;->d(Ljava/lang/Runnable;)V
 
-    .line 8
     :cond_5
     invoke-direct {p0, v1}, Lcom/sdk/imp/VideoAdDetailActivity;->f(I)V
 
     goto :goto_2
 
-    .line 9
     :cond_6
     :goto_1
     sget-object p1, Lcom/sdk/imp/VideoAdDetailActivity;->S:Lcom/sdk/api/d$e;
 
     if-eqz p1, :cond_7
 
-    .line 10
     new-instance p1, Lcom/sdk/imp/VideoAdDetailActivity$d;
 
     invoke-direct {p1, p0}, Lcom/sdk/imp/VideoAdDetailActivity$d;-><init>(Lcom/sdk/imp/VideoAdDetailActivity;)V
@@ -1235,10 +1126,8 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 2
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object p1
@@ -1247,26 +1136,21 @@
 
     invoke-virtual {p1, v0, v0}, Landroid/view/Window;->setFlags(II)V
 
-    .line 3
     sget p1, Lcom/sdk/api/i$g;->e:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
 
-    .line 4
     sget-object p1, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
     if-nez p1, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 
-    .line 6
     :cond_0
     invoke-direct {p0}, Lcom/sdk/imp/VideoAdDetailActivity;->h()V
 
-    .line 7
     sget-object p1, Lcom/sdk/imp/VideoAdDetailActivity;->Q:Lcom/sdk/imp/VastAgent;
 
     invoke-virtual {p1}, Lcom/sdk/imp/VastAgent;->h()Lcom/sdk/imp/VastModel$CompanionAds;
@@ -1275,12 +1159,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 8
     sget-object p1, Lcom/sdk/imp/VastAgent$ReportEvent;->CREATE_VIEW:Lcom/sdk/imp/VastAgent$ReportEvent;
 
     invoke-direct {p0, p1}, Lcom/sdk/imp/VideoAdDetailActivity;->j(Lcom/sdk/imp/VastAgent$ReportEvent;)V
 
-    .line 9
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1288,7 +1170,6 @@
 
     iput-wide v0, p0, Lcom/sdk/imp/VideoAdDetailActivity;->P:J
 
-    .line 10
     invoke-direct {p0}, Lcom/sdk/imp/VideoAdDetailActivity;->i()V
 
     return-void
@@ -1301,19 +1182,16 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/VideoAdDetailActivity;->S:Lcom/sdk/api/d$e;
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/sdk/imp/VideoAdDetailActivity$c;
 
     invoke-direct {v0, p0}, Lcom/sdk/imp/VideoAdDetailActivity$c;-><init>(Lcom/sdk/imp/VideoAdDetailActivity;)V
 
     invoke-static {v0}, Lf/q/b/p;->d(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-super {p0, p1, p2}, Landroid/app/Activity;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
@@ -1325,10 +1203,8 @@
 .method protected onResume()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
-    .line 2
     invoke-direct {p0}, Lcom/sdk/imp/VideoAdDetailActivity;->g()V
 
     return-void

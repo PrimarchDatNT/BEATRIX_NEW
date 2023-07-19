@@ -195,7 +195,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->t_enter_characters:I
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
@@ -214,58 +213,42 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->needReadTemplateParams:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->fontEditable:Z
 
-    .line 4
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEditable:Z
 
     const v1, 0x7fffffff
 
-    .line 5
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColor:I
 
     const/16 v2, 0x32
 
-    .line 6
     iput v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundMargin:I
 
-    .line 7
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundCustomColor:I
 
-    .line 8
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColor:I
 
-    .line 9
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textCustomColor:I
 
-    .line 10
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEditable:Z
 
-    .line 11
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColor:I
 
-    .line 12
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeCustomColor:I
 
-    .line 13
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEditable:Z
 
-    .line 14
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColor:I
 
-    .line 15
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowCustomColor:I
 
-    .line 16
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceEditable:Z
 
     return-void
@@ -282,71 +265,52 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 17
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 18
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->needReadTemplateParams:Z
 
-    .line 19
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->fontEditable:Z
 
-    .line 20
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEditable:Z
 
     const v1, 0x7fffffff
 
-    .line 21
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColor:I
 
     const/16 v2, 0x32
 
-    .line 22
     iput v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundMargin:I
 
-    .line 23
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundCustomColor:I
 
-    .line 24
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColor:I
 
-    .line 25
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textCustomColor:I
 
-    .line 26
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEditable:Z
 
-    .line 27
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColor:I
 
-    .line 28
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeCustomColor:I
 
-    .line 29
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEditable:Z
 
-    .line 30
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColor:I
 
-    .line 31
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowCustomColor:I
 
-    .line 32
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceEditable:Z
 
-    .line 33
     iput-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
-    .line 34
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getFontId()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/studio/text/TextGroupParam;->fontId:Ljava/lang/String;
 
-    .line 35
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getTemplatePath()Ljava/lang/String;
 
     move-result-object v0
@@ -359,56 +323,48 @@
 
     iput-object v0, p0, Lcom/commsource/studio/text/TextGroupParam;->configPath:Ljava/lang/String;
 
-    .line 36
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getCanEditBg()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEditable:Z
 
-    .line 37
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getCanEditStroke()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEditable:Z
 
-    .line 38
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getCanEditShadow()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEditable:Z
 
-    .line 39
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getCanEditSpacing()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceEditable:Z
 
-    .line 40
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getCanEditText()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->textEditable:Z
 
-    .line 41
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getCanEditFont()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->fontEditable:Z
 
-    .line 42
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getAppendGlow()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/commsource/studio/text/TextGroupParam;->appendGlow:Z
 
-    .line 43
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getAppendStoke()Z
 
     move-result p1
@@ -425,7 +381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/text/TextGroupParam;->defaultText:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -446,7 +401,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/text/TextGroupParam;->replaceTemplate(Lcom/commsource/studio/text/TextTemplate;Z)V
 
@@ -466,7 +420,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -485,7 +438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/text/TextGroupParam;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -525,12 +477,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
     move-result p1
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Background:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
@@ -543,18 +493,14 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 3
     iput v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColor:I
 
-    .line 4
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEnable:Z
 
-    .line 5
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->selectBgMyColor:Z
 
     goto :goto_0
 
-    .line 6
     :cond_0
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Shadow:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -564,18 +510,14 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 7
     iput v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColor:I
 
-    .line 8
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEnable:Z
 
-    .line 9
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->selectShadowMyColor:Z
 
     goto :goto_0
 
-    .line 10
     :cond_1
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Stroke:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -585,25 +527,19 @@
 
     if-ne p1, v1, :cond_2
 
-    .line 11
     iput v2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColor:I
 
-    .line 12
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEnable:Z
 
-    .line 13
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->selectStrokeMyColor:Z
 
     goto :goto_0
 
-    .line 14
     :cond_2
     iput v2, p0, Lcom/commsource/studio/text/TextGroupParam;->textColor:I
 
-    .line 15
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->selectTextMyColor:Z
 
-    .line 16
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -630,12 +566,10 @@
 
     if-ne p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p1, Lcom/commsource/studio/text/TextGroupParam;
 
@@ -647,7 +581,6 @@
 
     return v3
 
-    .line 3
     :cond_1
     iget-object v2, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
@@ -679,7 +612,6 @@
 
     return v3
 
-    .line 4
     :cond_4
     iget-object v2, p0, Lcom/commsource/studio/text/TextGroupParam;->text:Ljava/lang/String;
 
@@ -697,7 +629,6 @@
 
     return v3
 
-    .line 5
     :cond_5
     iget-object v2, p0, Lcom/commsource/studio/text/TextGroupParam;->configPath:Ljava/lang/String;
 
@@ -715,7 +646,6 @@
 
     return v3
 
-    .line 6
     :cond_6
     iget-object v2, p0, Lcom/commsource/studio/text/TextGroupParam;->fontId:Ljava/lang/String;
 
@@ -733,7 +663,6 @@
 
     return v3
 
-    .line 7
     :cond_7
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->fontEditable:Z
 
@@ -745,7 +674,6 @@
 
     return v3
 
-    .line 8
     :cond_8
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->showBgMyColor:Z
 
@@ -757,7 +685,6 @@
 
     return v3
 
-    .line 9
     :cond_9
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->selectBgMyColor:Z
 
@@ -769,7 +696,6 @@
 
     return v3
 
-    .line 10
     :cond_a
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEnable:Z
 
@@ -781,7 +707,6 @@
 
     return v3
 
-    .line 11
     :cond_b
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorR:F
 
@@ -795,7 +720,6 @@
 
     return v3
 
-    .line 12
     :cond_c
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorG:F
 
@@ -809,7 +733,6 @@
 
     return v3
 
-    .line 13
     :cond_d
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorB:F
 
@@ -823,7 +746,6 @@
 
     return v3
 
-    .line 14
     :cond_e
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEditable:Z
 
@@ -835,7 +757,6 @@
 
     return v3
 
-    .line 15
     :cond_f
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColor:I
 
@@ -847,7 +768,6 @@
 
     return v3
 
-    .line 16
     :cond_10
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundOpacity:F
 
@@ -861,7 +781,6 @@
 
     return v3
 
-    .line 17
     :cond_11
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundRadius:F
 
@@ -875,7 +794,6 @@
 
     return v3
 
-    .line 18
     :cond_12
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundMargin:I
 
@@ -887,7 +805,6 @@
 
     return v3
 
-    .line 19
     :cond_13
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundCustomColor:I
 
@@ -899,7 +816,6 @@
 
     return v3
 
-    .line 20
     :cond_14
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->appendGlow:Z
 
@@ -911,7 +827,6 @@
 
     return v3
 
-    .line 21
     :cond_15
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->appendStroke:Z
 
@@ -923,7 +838,6 @@
 
     return v3
 
-    .line 22
     :cond_16
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->textColor:I
 
@@ -935,7 +849,6 @@
 
     return v3
 
-    .line 23
     :cond_17
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorR:F
 
@@ -949,7 +862,6 @@
 
     return v3
 
-    .line 24
     :cond_18
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorG:F
 
@@ -963,7 +875,6 @@
 
     return v3
 
-    .line 25
     :cond_19
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorB:F
 
@@ -977,7 +888,6 @@
 
     return v3
 
-    .line 26
     :cond_1a
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->textOpacity:F
 
@@ -991,7 +901,6 @@
 
     return v3
 
-    .line 27
     :cond_1b
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->isBold:Z
 
@@ -1003,7 +912,6 @@
 
     return v3
 
-    .line 28
     :cond_1c
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->isStrikeThrough:Z
 
@@ -1015,7 +923,6 @@
 
     return v3
 
-    .line 29
     :cond_1d
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->isUnderline:Z
 
@@ -1027,7 +934,6 @@
 
     return v3
 
-    .line 30
     :cond_1e
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->isItalic:Z
 
@@ -1039,7 +945,6 @@
 
     return v3
 
-    .line 31
     :cond_1f
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->justify:I
 
@@ -1051,7 +956,6 @@
 
     return v3
 
-    .line 32
     :cond_20
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->textEditable:Z
 
@@ -1063,7 +967,6 @@
 
     return v3
 
-    .line 33
     :cond_21
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->selectTextMyColor:Z
 
@@ -1075,7 +978,6 @@
 
     return v3
 
-    .line 34
     :cond_22
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->showTextMyColor:Z
 
@@ -1087,7 +989,6 @@
 
     return v3
 
-    .line 35
     :cond_23
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->textCustomColor:I
 
@@ -1099,7 +1000,6 @@
 
     return v3
 
-    .line 36
     :cond_24
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorR:F
 
@@ -1113,7 +1013,6 @@
 
     return v3
 
-    .line 37
     :cond_25
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorG:F
 
@@ -1127,7 +1026,6 @@
 
     return v3
 
-    .line 38
     :cond_26
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorB:F
 
@@ -1141,7 +1039,6 @@
 
     return v3
 
-    .line 39
     :cond_27
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEditable:Z
 
@@ -1153,7 +1050,6 @@
 
     return v3
 
-    .line 40
     :cond_28
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeOpacity:F
 
@@ -1167,7 +1063,6 @@
 
     return v3
 
-    .line 41
     :cond_29
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColor:I
 
@@ -1179,7 +1074,6 @@
 
     return v3
 
-    .line 42
     :cond_2a
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeWidth:F
 
@@ -1193,7 +1087,6 @@
 
     return v3
 
-    .line 43
     :cond_2b
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEnable:Z
 
@@ -1205,7 +1098,6 @@
 
     return v3
 
-    .line 44
     :cond_2c
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->selectStrokeMyColor:Z
 
@@ -1217,7 +1109,6 @@
 
     return v3
 
-    .line 45
     :cond_2d
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->showStrokeMyColor:Z
 
@@ -1229,7 +1120,6 @@
 
     return v3
 
-    .line 46
     :cond_2e
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeCustomColor:I
 
@@ -1241,7 +1131,6 @@
 
     return v3
 
-    .line 47
     :cond_2f
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorR:F
 
@@ -1255,7 +1144,6 @@
 
     return v3
 
-    .line 48
     :cond_30
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorG:F
 
@@ -1269,7 +1157,6 @@
 
     return v3
 
-    .line 49
     :cond_31
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorB:F
 
@@ -1283,7 +1170,6 @@
 
     return v3
 
-    .line 50
     :cond_32
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEditable:Z
 
@@ -1295,7 +1181,6 @@
 
     return v3
 
-    .line 51
     :cond_33
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColor:I
 
@@ -1307,7 +1192,6 @@
 
     return v3
 
-    .line 52
     :cond_34
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowOpacity:F
 
@@ -1321,7 +1205,6 @@
 
     return v3
 
-    .line 53
     :cond_35
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowBlur:F
 
@@ -1335,7 +1218,6 @@
 
     return v3
 
-    .line 54
     :cond_36
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowDistance:F
 
@@ -1349,7 +1231,6 @@
 
     return v3
 
-    .line 55
     :cond_37
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEnable:Z
 
@@ -1361,7 +1242,6 @@
 
     return v3
 
-    .line 56
     :cond_38
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->selectShadowMyColor:Z
 
@@ -1373,7 +1253,6 @@
 
     return v3
 
-    .line 57
     :cond_39
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->showShadowMyColor:Z
 
@@ -1385,7 +1264,6 @@
 
     return v3
 
-    .line 58
     :cond_3a
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowCustomColor:I
 
@@ -1397,7 +1275,6 @@
 
     return v3
 
-    .line 59
     :cond_3b
     iget-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceEditable:Z
 
@@ -1409,7 +1286,6 @@
 
     return v3
 
-    .line 60
     :cond_3c
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceLineHeight:F
 
@@ -1423,7 +1299,6 @@
 
     return v3
 
-    .line 61
     :cond_3d
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceLineLetterSpace:F
 
@@ -1437,7 +1312,6 @@
 
     return v3
 
-    .line 62
     :cond_3e
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->glowColorR:F
 
@@ -1451,7 +1325,6 @@
 
     return v3
 
-    .line 63
     :cond_3f
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->glowColorG:F
 
@@ -1465,7 +1338,6 @@
 
     return v3
 
-    .line 64
     :cond_40
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->glowColorB:F
 
@@ -1479,7 +1351,6 @@
 
     return v3
 
-    .line 65
     :cond_41
     iget v2, p0, Lcom/commsource/studio/text/TextGroupParam;->glowOpacity:F
 
@@ -1493,7 +1364,6 @@
 
     return v3
 
-    .line 66
     :cond_42
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1507,7 +1377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->appendGlow:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1522,7 +1391,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->appendStroke:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1537,7 +1405,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1552,7 +1419,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorB:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1567,7 +1433,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorG:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1582,7 +1447,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorR:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1597,7 +1461,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundCustomColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1612,7 +1475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEditable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1627,7 +1489,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEnable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1642,7 +1503,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundMargin:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1657,7 +1517,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundOpacity:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1672,7 +1531,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundRadius:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1689,7 +1547,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextGroupParam;->configPath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1704,7 +1561,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->fontEditable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1721,7 +1577,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextGroupParam;->fontId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1738,7 +1593,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextGroupParam;->formulaText:Lcom/commsource/studio/formula/convert/FormulaText;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1753,7 +1607,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->glowColorB:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1768,7 +1621,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->glowColorG:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1783,7 +1635,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->glowColorR:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1798,7 +1649,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->glowOpacity:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1813,7 +1663,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->justify:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1828,7 +1677,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->needReadTemplateParams:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1843,7 +1691,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->selectBgMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1858,7 +1705,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->selectShadowMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1873,7 +1719,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->selectStrokeMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1888,7 +1733,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->selectTextMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1903,7 +1747,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowBlur:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1918,7 +1761,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1933,7 +1775,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorB:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1948,7 +1789,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorG:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1963,7 +1803,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorR:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1978,7 +1817,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowCustomColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1993,7 +1831,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowDistance:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2008,7 +1845,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEditable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2023,7 +1859,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEnable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2038,7 +1873,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowOpacity:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2053,7 +1887,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->showBgMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2068,7 +1901,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->showShadowMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2083,7 +1915,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->showStrokeMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2098,7 +1929,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->showTextMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2113,7 +1943,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceEditable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2128,7 +1957,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceLineHeight:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2143,7 +1971,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceLineLetterSpace:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2158,7 +1985,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2173,7 +1999,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorB:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2188,7 +2013,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorG:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2203,7 +2027,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorR:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2218,7 +2041,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeCustomColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2233,7 +2055,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEditable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2248,7 +2069,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEnable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2263,7 +2083,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeOpacity:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2278,7 +2097,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeWidth:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2295,7 +2113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez v1, :cond_0
@@ -2319,7 +2136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextGroupParam;->text:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2334,7 +2150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2349,7 +2164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorB:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2364,7 +2178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorG:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2379,7 +2192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorR:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2394,7 +2206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textCustomColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2409,7 +2220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textEditable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2424,7 +2234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textOpacity:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2439,7 +2248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -2456,7 +2264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->isBold:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2471,7 +2278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->isItalic:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2486,7 +2292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->isStrikeThrough:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2501,7 +2306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->isUnderline:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2524,17 +2328,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->needReadTemplateParams:Z
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getFontId()Ljava/lang/String;
 
     move-result-object p2
@@ -2547,7 +2348,6 @@
     :goto_0
     iput-object p2, p0, Lcom/commsource/studio/text/TextGroupParam;->fontId:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getTemplatePath()Ljava/lang/String;
 
     move-result-object p2
@@ -2560,56 +2360,48 @@
 
     iput-object p2, p0, Lcom/commsource/studio/text/TextGroupParam;->configPath:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getCanEditBg()Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEditable:Z
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getCanEditStroke()Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEditable:Z
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getCanEditShadow()Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEditable:Z
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getCanEditSpacing()Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceEditable:Z
 
-    .line 9
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getCanEditText()Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/commsource/studio/text/TextGroupParam;->textEditable:Z
 
-    .line 10
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getCanEditFont()Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/commsource/studio/text/TextGroupParam;->fontEditable:Z
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getAppendGlow()Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/commsource/studio/text/TextGroupParam;->appendGlow:Z
 
-    .line 12
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getAppendStoke()Z
 
     move-result p1
@@ -2618,31 +2410,22 @@
 
     const/4 p1, 0x0
 
-    .line 13
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->showBgMyColor:Z
 
-    .line 14
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->showTextMyColor:Z
 
-    .line 15
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->showStrokeMyColor:Z
 
-    .line 16
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->showShadowMyColor:Z
 
-    .line 17
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->selectShadowMyColor:Z
 
-    .line 18
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->selectBgMyColor:Z
 
-    .line 19
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->selectStrokeMyColor:Z
 
-    .line 20
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->selectTextMyColor:Z
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2663,12 +2446,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
     move-result p1
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Background:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
@@ -2685,13 +2466,10 @@
 
     if-ne p1, v1, :cond_c
 
-    .line 3
     iput v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColor:I
 
-    .line 4
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->selectBgMyColor:Z
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_0
@@ -2712,7 +2490,6 @@
     :cond_1
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEnable:Z
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_2
@@ -2738,7 +2515,6 @@
     :goto_0
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorR:F
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_4
@@ -2764,7 +2540,6 @@
     :goto_1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorG:F
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_6
@@ -2790,7 +2565,6 @@
     :goto_2
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorB:F
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_8
@@ -2818,10 +2592,8 @@
 
     const/16 p1, 0x32
 
-    .line 10
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundMargin:I
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_a
@@ -2844,7 +2616,6 @@
 
     goto/16 :goto_18
 
-    .line 12
     :cond_c
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Shadow:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -2854,13 +2625,10 @@
 
     if-ne p1, v1, :cond_1b
 
-    .line 13
     iput v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColor:I
 
-    .line 14
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->selectShadowMyColor:Z
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_d
@@ -2881,7 +2649,6 @@
     :cond_e
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEnable:Z
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_f
@@ -2907,7 +2674,6 @@
     :goto_4
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorR:F
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_11
@@ -2933,7 +2699,6 @@
     :goto_5
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorG:F
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_13
@@ -2959,7 +2724,6 @@
     :goto_6
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorB:F
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_15
@@ -2985,7 +2749,6 @@
     :goto_7
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowOpacity:F
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_17
@@ -3011,7 +2774,6 @@
     :goto_8
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowBlur:F
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_19
@@ -3034,7 +2796,6 @@
 
     goto/16 :goto_18
 
-    .line 22
     :cond_1b
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Text:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -3044,13 +2805,10 @@
 
     if-ne p1, v1, :cond_3a
 
-    .line 23
     iput v2, p0, Lcom/commsource/studio/text/TextGroupParam;->textColor:I
 
-    .line 24
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->selectTextMyColor:Z
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_1c
@@ -3076,7 +2834,6 @@
     :goto_9
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorR:F
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_1e
@@ -3102,7 +2859,6 @@
     :goto_a
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorG:F
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_20
@@ -3128,12 +2884,10 @@
     :goto_b
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorB:F
 
-    .line 28
     iget-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->appendGlow:Z
 
     if-eqz p1, :cond_28
 
-    .line 29
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_22
@@ -3159,7 +2913,6 @@
     :goto_c
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->glowColorR:F
 
-    .line 30
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_24
@@ -3185,7 +2938,6 @@
     :goto_d
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->glowColorG:F
 
-    .line 31
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_26
@@ -3211,7 +2963,6 @@
     :goto_e
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->glowColorB:F
 
-    .line 32
     :cond_28
     iget-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->appendStroke:Z
 
@@ -3221,7 +2972,6 @@
 
     if-nez p1, :cond_2f
 
-    .line 33
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_29
@@ -3247,7 +2997,6 @@
     :goto_f
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorR:F
 
-    .line 34
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_2b
@@ -3273,7 +3022,6 @@
     :goto_10
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorG:F
 
-    .line 35
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_2d
@@ -3299,7 +3047,6 @@
     :goto_11
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorB:F
 
-    .line 36
     :cond_2f
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
@@ -3321,7 +3068,6 @@
     :cond_31
     iput v4, p0, Lcom/commsource/studio/text/TextGroupParam;->textOpacity:F
 
-    .line 37
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_32
@@ -3347,7 +3093,6 @@
     :goto_12
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->isUnderline:Z
 
-    .line 38
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_34
@@ -3373,7 +3118,6 @@
     :goto_13
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->isStrikeThrough:Z
 
-    .line 39
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_36
@@ -3399,7 +3143,6 @@
     :goto_14
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->isBold:Z
 
-    .line 40
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_38
@@ -3422,7 +3165,6 @@
 
     goto/16 :goto_18
 
-    .line 41
     :cond_3a
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Stroke:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -3432,13 +3174,10 @@
 
     if-ne p1, v1, :cond_45
 
-    .line 42
     iput v2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColor:I
 
-    .line 43
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->selectStrokeMyColor:Z
 
-    .line 44
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_3b
@@ -3459,7 +3198,6 @@
     :cond_3c
     iput-boolean v3, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEnable:Z
 
-    .line 45
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_3d
@@ -3485,7 +3223,6 @@
     :goto_15
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorR:F
 
-    .line 46
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_3f
@@ -3511,7 +3248,6 @@
     :goto_16
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorG:F
 
-    .line 47
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_41
@@ -3537,7 +3273,6 @@
     :goto_17
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorB:F
 
-    .line 48
     iget-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez p1, :cond_43
@@ -3558,7 +3293,6 @@
     :cond_44
     iput v4, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeWidth:F
 
-    .line 49
     :cond_45
     :goto_18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3573,7 +3307,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->appendGlow:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3588,7 +3321,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->appendStroke:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3603,7 +3335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3618,7 +3349,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorB:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3633,7 +3363,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorG:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3648,7 +3377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorR:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3663,7 +3391,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundCustomColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3678,7 +3405,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEditable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3693,7 +3419,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEnable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3708,7 +3433,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundMargin:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3723,7 +3447,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundOpacity:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3738,7 +3461,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundRadius:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3753,7 +3475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->isBold:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3776,12 +3497,10 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
     move-result p2
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Background:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
@@ -3794,16 +3513,12 @@
 
     if-ne p2, v1, :cond_0
 
-    .line 3
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColor:I
 
-    .line 4
     iput-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEnable:Z
 
-    .line 5
     iput-boolean p3, p0, Lcom/commsource/studio/text/TextGroupParam;->selectBgMyColor:Z
 
-    .line 6
     invoke-static {p1}, Landroid/graphics/Color;->red(I)I
 
     move-result p2
@@ -3814,7 +3529,6 @@
 
     iput p2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorR:F
 
-    .line 7
     iget p2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColor:I
 
     invoke-static {p2}, Landroid/graphics/Color;->green(I)I
@@ -3827,7 +3541,6 @@
 
     iput p2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorG:F
 
-    .line 8
     iget p2, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColor:I
 
     invoke-static {p2}, Landroid/graphics/Color;->blue(I)I
@@ -3842,15 +3555,12 @@
 
     if-eqz p3, :cond_4
 
-    .line 9
     iput-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->showBgMyColor:Z
 
-    .line 10
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->backgroundCustomColor:I
 
     goto/16 :goto_0
 
-    .line 11
     :cond_0
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Shadow:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -3860,16 +3570,12 @@
 
     if-ne p2, v1, :cond_1
 
-    .line 12
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColor:I
 
-    .line 13
     iput-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEnable:Z
 
-    .line 14
     iput-boolean p3, p0, Lcom/commsource/studio/text/TextGroupParam;->selectShadowMyColor:Z
 
-    .line 15
     invoke-static {p1}, Landroid/graphics/Color;->red(I)I
 
     move-result p2
@@ -3880,7 +3586,6 @@
 
     iput p2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorR:F
 
-    .line 16
     iget p2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColor:I
 
     invoke-static {p2}, Landroid/graphics/Color;->green(I)I
@@ -3893,7 +3598,6 @@
 
     iput p2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorG:F
 
-    .line 17
     iget p2, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColor:I
 
     invoke-static {p2}, Landroid/graphics/Color;->blue(I)I
@@ -3908,15 +3612,12 @@
 
     if-eqz p3, :cond_4
 
-    .line 18
     iput-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->showShadowMyColor:Z
 
-    .line 19
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowCustomColor:I
 
     goto :goto_0
 
-    .line 20
     :cond_1
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Stroke:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -3926,16 +3627,12 @@
 
     if-ne p2, v1, :cond_2
 
-    .line 21
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColor:I
 
-    .line 22
     iput-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEnable:Z
 
-    .line 23
     iput-boolean p3, p0, Lcom/commsource/studio/text/TextGroupParam;->selectStrokeMyColor:Z
 
-    .line 24
     invoke-static {p1}, Landroid/graphics/Color;->red(I)I
 
     move-result p2
@@ -3946,7 +3643,6 @@
 
     iput p2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorR:F
 
-    .line 25
     iget p2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColor:I
 
     invoke-static {p2}, Landroid/graphics/Color;->green(I)I
@@ -3959,7 +3655,6 @@
 
     iput p2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorG:F
 
-    .line 26
     iget p2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColor:I
 
     invoke-static {p2}, Landroid/graphics/Color;->blue(I)I
@@ -3974,22 +3669,17 @@
 
     if-eqz p3, :cond_4
 
-    .line 27
     iput-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->showStrokeMyColor:Z
 
-    .line 28
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeCustomColor:I
 
     goto :goto_0
 
-    .line 29
     :cond_2
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColor:I
 
-    .line 30
     iput-boolean p3, p0, Lcom/commsource/studio/text/TextGroupParam;->selectTextMyColor:Z
 
-    .line 31
     invoke-static {p1}, Landroid/graphics/Color;->red(I)I
 
     move-result p2
@@ -4000,7 +3690,6 @@
 
     iput p2, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorR:F
 
-    .line 32
     iget p2, p0, Lcom/commsource/studio/text/TextGroupParam;->textColor:I
 
     invoke-static {p2}, Landroid/graphics/Color;->green(I)I
@@ -4013,7 +3702,6 @@
 
     iput p2, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorG:F
 
-    .line 33
     iget p2, p0, Lcom/commsource/studio/text/TextGroupParam;->textColor:I
 
     invoke-static {p2}, Landroid/graphics/Color;->blue(I)I
@@ -4026,7 +3714,6 @@
 
     iput p2, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorB:F
 
-    .line 34
     iget-boolean v1, p0, Lcom/commsource/studio/text/TextGroupParam;->appendStroke:Z
 
     if-eqz v1, :cond_3
@@ -4035,20 +3722,16 @@
 
     if-nez v1, :cond_3
 
-    .line 35
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorR:F
 
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorR:F
 
-    .line 36
     iget v1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorG:F
 
     iput v1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorG:F
 
-    .line 37
     iput p2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorB:F
 
-    .line 38
     iget p2, p0, Lcom/commsource/studio/text/TextGroupParam;->textOpacity:F
 
     iput p2, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeOpacity:F
@@ -4056,13 +3739,10 @@
     :cond_3
     if-eqz p3, :cond_4
 
-    .line 39
     iput-boolean v2, p0, Lcom/commsource/studio/text/TextGroupParam;->showTextMyColor:Z
 
-    .line 40
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->textCustomColor:I
 
-    .line 41
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4081,7 +3761,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->configPath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4096,7 +3775,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->fontEditable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4115,7 +3793,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->fontId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4134,7 +3811,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->formulaText:Lcom/commsource/studio/formula/convert/FormulaText;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4149,7 +3825,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->glowColorB:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4164,7 +3839,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->glowColorG:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4179,7 +3853,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->glowColorR:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4194,7 +3867,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->glowOpacity:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4209,7 +3881,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->isItalic:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4224,7 +3895,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->justify:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4239,7 +3909,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->needReadTemplateParams:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4254,7 +3923,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->selectBgMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4269,7 +3937,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->selectShadowMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4284,7 +3951,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->selectStrokeMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4299,7 +3965,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->selectTextMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4314,7 +3979,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowBlur:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4329,7 +3993,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4344,7 +4007,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorB:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4359,7 +4021,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorG:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4374,7 +4035,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorR:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4389,7 +4049,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowCustomColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4404,7 +4063,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowDistance:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4419,7 +4077,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEditable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4434,7 +4091,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowEnable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4449,7 +4105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->shadowOpacity:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4464,7 +4119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->showBgMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4479,7 +4133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->showShadowMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4494,7 +4147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->showStrokeMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4509,7 +4161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->showTextMyColor:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4524,7 +4175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceEditable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4539,7 +4189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceLineHeight:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4554,7 +4203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->spaceLineLetterSpace:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4569,7 +4217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->isStrikeThrough:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4584,7 +4231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4599,7 +4245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorB:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4614,7 +4259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorG:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4629,7 +4273,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorR:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4644,7 +4287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeCustomColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4659,7 +4301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEditable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4674,7 +4315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeEnable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4689,7 +4329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeOpacity:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4704,7 +4343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->strokeWidth:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4727,7 +4365,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4746,7 +4383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->text:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4761,7 +4397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4776,7 +4411,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorB:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4791,7 +4425,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorG:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4806,7 +4439,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->textColorR:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4821,7 +4453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->textCustomColor:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4836,7 +4467,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->textEditable:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4851,7 +4481,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextGroupParam;->textOpacity:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4866,7 +4495,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/text/TextGroupParam;->isUnderline:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4893,17 +4521,14 @@
 
     invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v2, Lcom/commsource/studio/text/j;
 
     invoke-direct {v2}, Lcom/commsource/studio/text/j;-><init>()V
 
     const v4, 0x7fffffff
 
-    .line 2
     iput v4, v0, Lcom/commsource/studio/text/TextGroupParam;->textColor:I
 
-    .line 3
     iget-object v5, v0, Lcom/commsource/studio/text/TextGroupParam;->fontId:Ljava/lang/String;
 
     const-string v6, "template"
@@ -4927,7 +4552,6 @@
     :goto_0
     iput-object v5, v0, Lcom/commsource/studio/text/TextGroupParam;->fontId:Ljava/lang/String;
 
-    .line 4
     iget v5, v0, Lcom/commsource/studio/text/TextGroupParam;->justify:I
 
     if-nez v5, :cond_2
@@ -4939,7 +4563,6 @@
     :cond_2
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->justify:I
 
-    .line 5
     iget-object v5, v0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez v5, :cond_3
@@ -4953,14 +4576,12 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->b0(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getJustify()I
 
     move-result v5
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->h0(I)V
 
-    .line 7
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getColorORGBA()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;
 
     move-result-object v5
@@ -4969,7 +4590,6 @@
 
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->textColorR:F
 
-    .line 8
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getColorORGBA()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;
 
     move-result-object v5
@@ -4978,7 +4598,6 @@
 
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->textColorG:F
 
-    .line 9
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getColorORGBA()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;
 
     move-result-object v5
@@ -4987,7 +4606,6 @@
 
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->textColorB:F
 
-    .line 10
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getColorORGBA()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;
 
     move-result-object v5
@@ -4996,7 +4614,6 @@
 
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->textOpacity:F
 
-    .line 11
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getColorORGBA()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;
 
     move-result-object v5
@@ -5005,7 +4622,6 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->D0(F)V
 
-    .line 12
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getColorORGBA()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;
 
     move-result-object v5
@@ -5014,7 +4630,6 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->C0(F)V
 
-    .line 13
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getColorORGBA()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;
 
     move-result-object v5
@@ -5023,7 +4638,6 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->B0(F)V
 
-    .line 14
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getColorORGBA()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;
 
     move-result-object v5
@@ -5032,71 +4646,60 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->E0(F)V
 
-    .line 15
     iget v5, v0, Lcom/commsource/studio/text/TextGroupParam;->textOpacity:F
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->E0(F)V
 
-    .line 16
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getIsBold()Z
 
     move-result v5
 
     iput-boolean v5, v0, Lcom/commsource/studio/text/TextGroupParam;->isBold:Z
 
-    .line 17
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getIsBold()Z
 
     move-result v5
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->a0(Z)V
 
-    .line 18
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getIsItalic()Z
 
     move-result v5
 
     iput-boolean v5, v0, Lcom/commsource/studio/text/TextGroupParam;->isItalic:Z
 
-    .line 19
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getIsItalic()Z
 
     move-result v5
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->g0(Z)V
 
-    .line 20
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getIsStrikeThrough()Z
 
     move-result v5
 
     iput-boolean v5, v0, Lcom/commsource/studio/text/TextGroupParam;->isStrikeThrough:Z
 
-    .line 21
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getIsStrikeThrough()Z
 
     move-result v5
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->s0(Z)V
 
-    .line 22
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getIsUnderline()Z
 
     move-result v5
 
     iput-boolean v5, v0, Lcom/commsource/studio/text/TextGroupParam;->isUnderline:Z
 
-    .line 23
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getIsUnderline()Z
 
     move-result v5
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->F0(Z)V
 
-    .line 24
     iput v4, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColor:I
 
-    .line 25
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v5
@@ -5105,7 +4708,6 @@
 
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorR:F
 
-    .line 26
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v5
@@ -5114,7 +4716,6 @@
 
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorG:F
 
-    .line 27
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v5
@@ -5123,7 +4724,6 @@
 
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundColorB:F
 
-    .line 28
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v5
@@ -5132,7 +4732,6 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->V(F)V
 
-    .line 29
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v5
@@ -5141,7 +4740,6 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->U(F)V
 
-    .line 30
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v5
@@ -5150,7 +4748,6 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->T(F)V
 
-    .line 31
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v5
@@ -5159,7 +4756,6 @@
 
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundOpacity:F
 
-    .line 32
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v5
@@ -5168,7 +4764,6 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->X(F)V
 
-    .line 33
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v5
@@ -5203,10 +4798,8 @@
 
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundRadius:F
 
-    .line 34
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->Y(F)V
 
-    .line 35
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v5
@@ -5215,7 +4808,6 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->Z(F)V
 
-    .line 36
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v5
@@ -5226,10 +4818,8 @@
 
     const/16 v5, 0x32
 
-    .line 37
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundMargin:I
 
-    .line 38
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v5
@@ -5238,56 +4828,44 @@
 
     iput-boolean v5, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEnable:Z
 
-    .line 39
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->W(Z)V
 
-    .line 40
     iput v4, v0, Lcom/commsource/studio/text/TextGroupParam;->strokeColor:I
 
-    .line 41
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getStrokeConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;
 
     move-result-object v5
 
-    .line 42
     iget v8, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->r:F
 
     iput v8, v0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorR:F
 
-    .line 43
     iget v11, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->g:F
 
     iput v11, v0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorG:F
 
-    .line 44
     iget v11, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->b:F
 
     iput v11, v0, Lcom/commsource/studio/text/TextGroupParam;->strokeColorB:F
 
-    .line 45
     iget v11, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->a:F
 
     iput v11, v0, Lcom/commsource/studio/text/TextGroupParam;->strokeOpacity:F
 
-    .line 46
     invoke-virtual {v2, v8}, Lcom/commsource/studio/text/j;->w0(F)V
 
-    .line 47
     iget v8, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->g:F
 
     invoke-virtual {v2, v8}, Lcom/commsource/studio/text/j;->v0(F)V
 
-    .line 48
     iget v8, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->b:F
 
     invoke-virtual {v2, v8}, Lcom/commsource/studio/text/j;->u0(F)V
 
-    .line 49
     iget v8, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->a:F
 
     invoke-virtual {v2, v8}, Lcom/commsource/studio/text/j;->y0(F)V
 
-    .line 50
     iget v8, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->size:F
 
     invoke-virtual {v7}, Lcom/commsource/studio/text/TextConfig;->V()[F
@@ -5312,18 +4890,14 @@
 
     iput v8, v0, Lcom/commsource/studio/text/TextGroupParam;->strokeWidth:F
 
-    .line 51
     invoke-virtual {v2, v8}, Lcom/commsource/studio/text/j;->z0(F)V
 
-    .line 52
     iget-boolean v5, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->enable:Z
 
     iput-boolean v5, v0, Lcom/commsource/studio/text/TextGroupParam;->strokeEnable:Z
 
-    .line 53
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->x0(Z)V
 
-    .line 54
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getLineSpacing()F
 
     move-result v5
@@ -5350,63 +4924,50 @@
 
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->spaceLineHeight:F
 
-    .line 55
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->q0(F)V
 
-    .line 56
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getSpacing()F
 
     move-result v5
 
     iput v5, v0, Lcom/commsource/studio/text/TextGroupParam;->spaceLineLetterSpace:F
 
-    .line 57
     invoke-virtual {v2, v5}, Lcom/commsource/studio/text/j;->r0(F)V
 
-    .line 58
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getGlowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;
 
     move-result-object v5
 
-    .line 59
     iget v8, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;->r:F
 
     iput v8, v0, Lcom/commsource/studio/text/TextGroupParam;->glowColorR:F
 
-    .line 60
     iget v11, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;->g:F
 
     iput v11, v0, Lcom/commsource/studio/text/TextGroupParam;->glowColorG:F
 
-    .line 61
     iget v11, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;->b:F
 
     iput v11, v0, Lcom/commsource/studio/text/TextGroupParam;->glowColorB:F
 
-    .line 62
     iget v11, v5, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;->a:F
 
     iput v11, v0, Lcom/commsource/studio/text/TextGroupParam;->glowOpacity:F
 
-    .line 63
     invoke-virtual {v2, v8}, Lcom/commsource/studio/text/j;->e0(F)V
 
-    .line 64
     iget v8, v0, Lcom/commsource/studio/text/TextGroupParam;->glowColorG:F
 
     invoke-virtual {v2, v8}, Lcom/commsource/studio/text/j;->d0(F)V
 
-    .line 65
     iget v8, v0, Lcom/commsource/studio/text/TextGroupParam;->glowColorB:F
 
     invoke-virtual {v2, v8}, Lcom/commsource/studio/text/j;->c0(F)V
 
-    .line 66
     iget v8, v0, Lcom/commsource/studio/text/TextGroupParam;->glowOpacity:F
 
     invoke-virtual {v2, v8}, Lcom/commsource/studio/text/j;->f0(F)V
 
-    .line 67
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -5475,10 +5036,8 @@
 
     invoke-static {v5, v8, v11, v12, v11}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 68
     iput v4, v0, Lcom/commsource/studio/text/TextGroupParam;->shadowColor:I
 
-    .line 69
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getShadowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;
 
     move-result-object v4
@@ -5487,7 +5046,6 @@
 
     iput v4, v0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorR:F
 
-    .line 70
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getShadowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;
 
     move-result-object v4
@@ -5496,7 +5054,6 @@
 
     iput v4, v0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorG:F
 
-    .line 71
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getShadowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;
 
     move-result-object v4
@@ -5505,7 +5062,6 @@
 
     iput v4, v0, Lcom/commsource/studio/text/TextGroupParam;->shadowColorB:F
 
-    .line 72
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getShadowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;
 
     move-result-object v4
@@ -5514,7 +5070,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/studio/text/j;->m0(F)V
 
-    .line 73
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getShadowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;
 
     move-result-object v4
@@ -5523,7 +5078,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/studio/text/j;->l0(F)V
 
-    .line 74
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getShadowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;
 
     move-result-object v4
@@ -5532,7 +5086,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/studio/text/j;->k0(F)V
 
-    .line 75
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getShadowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;
 
     move-result-object v4
@@ -5541,7 +5094,6 @@
 
     iput v4, v0, Lcom/commsource/studio/text/TextGroupParam;->shadowOpacity:F
 
-    .line 76
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getShadowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;
 
     move-result-object v4
@@ -5550,7 +5102,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/studio/text/j;->p0(F)V
 
-    .line 77
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getShadowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;
 
     move-result-object v4
@@ -5579,10 +5130,8 @@
 
     iput v4, v0, Lcom/commsource/studio/text/TextGroupParam;->shadowBlur:F
 
-    .line 78
     invoke-virtual {v2, v4}, Lcom/commsource/studio/text/j;->i0(F)V
 
-    .line 79
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getShadowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;
 
     move-result-object v4
@@ -5611,10 +5160,8 @@
 
     iput v4, v0, Lcom/commsource/studio/text/TextGroupParam;->shadowDistance:F
 
-    .line 80
     invoke-virtual {v2, v4}, Lcom/commsource/studio/text/j;->n0(F)V
 
-    .line 81
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getShadowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;
 
     move-result-object v3
@@ -5623,10 +5170,8 @@
 
     iput-boolean v3, v0, Lcom/commsource/studio/text/TextGroupParam;->shadowEnable:Z
 
-    .line 82
     invoke-virtual {v2, v3}, Lcom/commsource/studio/text/j;->o0(Z)V
 
-    .line 83
     iget-object v3, v0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
 
     if-nez v3, :cond_4
@@ -5636,54 +5181,46 @@
     :cond_4
     invoke-virtual {v3, v2}, Lcom/commsource/studio/text/TextTemplate;->setStyles(Lcom/commsource/studio/text/j;)V
 
-    .line 84
     iget-object v2, v0, Lcom/commsource/studio/text/TextGroupParam;->formulaText:Lcom/commsource/studio/formula/convert/FormulaText;
 
     if-eqz v2, :cond_b
 
-    .line 85
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getText()Ljava/lang/String;
 
     move-result-object v3
 
     iput-object v3, v0, Lcom/commsource/studio/text/TextGroupParam;->text:Ljava/lang/String;
 
-    .line 86
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getAlpha()F
 
     move-result v3
 
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->textOpacity:F
 
-    .line 87
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->isBold()Z
 
     move-result v3
 
     iput-boolean v3, v0, Lcom/commsource/studio/text/TextGroupParam;->isBold:Z
 
-    .line 88
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->isItalic()Z
 
     move-result v3
 
     iput-boolean v3, v0, Lcom/commsource/studio/text/TextGroupParam;->isItalic:Z
 
-    .line 89
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->isStrikeThrough()Z
 
     move-result v3
 
     iput-boolean v3, v0, Lcom/commsource/studio/text/TextGroupParam;->isStrikeThrough:Z
 
-    .line 90
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->isUnderline()Z
 
     move-result v3
 
     iput-boolean v3, v0, Lcom/commsource/studio/text/TextGroupParam;->isUnderline:Z
 
-    .line 91
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getJustify()I
 
     move-result v3
@@ -5707,21 +5244,18 @@
     :goto_1
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->justify:I
 
-    .line 92
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getLineSpacing()F
 
     move-result v3
 
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->spaceLineHeight:F
 
-    .line 93
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getWordSpacing()F
 
     move-result v3
 
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->spaceLineLetterSpace:F
 
-    .line 94
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getColor()Ljava/lang/String;
 
     move-result-object v12
@@ -5738,7 +5272,6 @@
 
     const-string v14, "#"
 
-    .line 95
     invoke-static/range {v12 .. v17}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
@@ -5747,21 +5280,16 @@
 
     move-result v3
 
-    .line 96
     sget-object v4, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Text:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-virtual {v0, v3, v4, v10}, Lcom/commsource/studio/text/TextGroupParam;->setColor(ILcom/commsource/studio/text/TextConfig$TemplateAttrEnum;Z)V
 
-    .line 97
     iput-boolean v10, v0, Lcom/commsource/studio/text/TextGroupParam;->selectTextMyColor:Z
 
-    .line 98
     iput-boolean v10, v0, Lcom/commsource/studio/text/TextGroupParam;->showTextMyColor:Z
 
-    .line 99
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->textCustomColor:I
 
-    .line 100
     :cond_7
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getShadowColor()Ljava/lang/String;
 
@@ -5769,12 +5297,10 @@
 
     if-nez v3, :cond_8
 
-    .line 101
     iput-boolean v9, v0, Lcom/commsource/studio/text/TextGroupParam;->shadowEnable:Z
 
     goto :goto_2
 
-    .line 102
     :cond_8
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getShadowColor()Ljava/lang/String;
 
@@ -5798,21 +5324,16 @@
 
     move-result v3
 
-    .line 103
     sget-object v4, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Shadow:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-virtual {v0, v3, v4, v10}, Lcom/commsource/studio/text/TextGroupParam;->setColor(ILcom/commsource/studio/text/TextConfig$TemplateAttrEnum;Z)V
 
-    .line 104
     iput-boolean v10, v0, Lcom/commsource/studio/text/TextGroupParam;->selectShadowMyColor:Z
 
-    .line 105
     iput-boolean v10, v0, Lcom/commsource/studio/text/TextGroupParam;->showShadowMyColor:Z
 
-    .line 106
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->shadowCustomColor:I
 
-    .line 107
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getShadowBlurRadius()F
 
     move-result v3
@@ -5823,14 +5344,12 @@
 
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->shadowBlur:F
 
-    .line 108
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getShadowOffset()F
 
     move-result v3
 
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->shadowDistance:F
 
-    .line 109
     :goto_2
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getBackgroundColor()Ljava/lang/String;
 
@@ -5838,12 +5357,10 @@
 
     if-nez v3, :cond_9
 
-    .line 110
     iput-boolean v9, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundEnable:Z
 
     goto :goto_3
 
-    .line 111
     :cond_9
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getBackgroundColor()Ljava/lang/String;
 
@@ -5867,28 +5384,22 @@
 
     move-result v3
 
-    .line 112
     sget-object v4, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Background:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-virtual {v0, v3, v4, v10}, Lcom/commsource/studio/text/TextGroupParam;->setColor(ILcom/commsource/studio/text/TextConfig$TemplateAttrEnum;Z)V
 
-    .line 113
     iput-boolean v10, v0, Lcom/commsource/studio/text/TextGroupParam;->selectBgMyColor:Z
 
-    .line 114
     iput-boolean v10, v0, Lcom/commsource/studio/text/TextGroupParam;->showBgMyColor:Z
 
-    .line 115
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundCustomColor:I
 
-    .line 116
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getBackgroundAlpha()F
 
     move-result v3
 
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundOpacity:F
 
-    .line 117
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getBackgroundColorEdge()F
 
     move-result v3
@@ -5901,14 +5412,12 @@
 
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundMargin:I
 
-    .line 118
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getBackgroundLayerCornerRadius()F
 
     move-result v3
 
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->backgroundRadius:F
 
-    .line 119
     :goto_3
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getStrokeColor()Ljava/lang/String;
 
@@ -5916,12 +5425,10 @@
 
     if-nez v3, :cond_a
 
-    .line 120
     iput-boolean v9, v0, Lcom/commsource/studio/text/TextGroupParam;->strokeEnable:Z
 
     goto :goto_4
 
-    .line 121
     :cond_a
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getStrokeColor()Ljava/lang/String;
 
@@ -5945,32 +5452,25 @@
 
     move-result v3
 
-    .line 122
     sget-object v4, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Stroke:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-virtual {v0, v3, v4, v10}, Lcom/commsource/studio/text/TextGroupParam;->setColor(ILcom/commsource/studio/text/TextConfig$TemplateAttrEnum;Z)V
 
-    .line 123
     iput-boolean v10, v0, Lcom/commsource/studio/text/TextGroupParam;->selectStrokeMyColor:Z
 
-    .line 124
     iput-boolean v10, v0, Lcom/commsource/studio/text/TextGroupParam;->showStrokeMyColor:Z
 
-    .line 125
     iput v3, v0, Lcom/commsource/studio/text/TextGroupParam;->strokeCustomColor:I
 
-    .line 126
     invoke-virtual {v2}, Lcom/commsource/studio/formula/convert/FormulaText;->getStrokeSize()F
 
     move-result v2
 
     iput v2, v0, Lcom/commsource/studio/text/TextGroupParam;->strokeWidth:F
 
-    .line 127
     :goto_4
     iput-object v11, v0, Lcom/commsource/studio/text/TextGroupParam;->formulaText:Lcom/commsource/studio/formula/convert/FormulaText;
 
-    .line 128
     :cond_b
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

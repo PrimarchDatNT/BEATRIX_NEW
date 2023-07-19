@@ -59,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/doodle/c;
 
     invoke-direct {v1}, Lcom/commsource/studio/doodle/c;-><init>()V
@@ -138,19 +137,16 @@
 
     const-string v37, "end"
 
-    .line 2
     filled-new-array/range {v2 .. v37}, [Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
 
     sput-object v1, Lcom/commsource/studio/doodle/c;->n:Ljava/util/ArrayList;
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -185,7 +181,6 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v0
@@ -208,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -219,10 +213,8 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->g(Ljava/lang/String;)Ljava/io/File;
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -266,7 +258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/c;->n:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -292,156 +283,120 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v2, Lcom/commsource/studio/doodle/j;
 
     invoke-direct {v2}, Lcom/commsource/studio/doodle/j;-><init>()V
 
     const/4 v3, -0x2
 
-    .line 3
     invoke-virtual {v2, v3}, Lcom/commsource/studio/doodle/j;->l(I)V
 
     const-string v4, "-1"
 
-    .line 4
     invoke-virtual {v2, v4}, Lcom/commsource/studio/doodle/j;->j(Ljava/lang/String;)V
 
     const/4 v4, 0x1
 
-    .line 5
     invoke-virtual {v2, v4}, Lcom/commsource/studio/doodle/j;->o(I)V
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 7
     new-instance v2, Lcom/commsource/studio/doodle/j;
 
     invoke-direct {v2}, Lcom/commsource/studio/doodle/j;-><init>()V
 
     const/4 v5, -0x1
 
-    .line 8
     invoke-virtual {v2, v5}, Lcom/commsource/studio/doodle/j;->l(I)V
 
     const-string v6, "-2"
 
-    .line 9
     invoke-virtual {v2, v6}, Lcom/commsource/studio/doodle/j;->j(Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {v2, v4}, Lcom/commsource/studio/doodle/j;->o(I)V
 
-    .line 11
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 12
     new-instance v2, Lcom/commsource/studio/doodle/j;
 
     invoke-direct {v2}, Lcom/commsource/studio/doodle/j;-><init>()V
 
-    .line 13
     invoke-virtual {v2, v3}, Lcom/commsource/studio/doodle/j;->l(I)V
 
     const-string v3, "-5"
 
-    .line 14
     invoke-virtual {v2, v3}, Lcom/commsource/studio/doodle/j;->j(Ljava/lang/String;)V
 
     const-string v3, "Premium"
 
-    .line 15
     invoke-virtual {v2, v3}, Lcom/commsource/studio/doodle/j;->k(Ljava/lang/String;)V
 
-    .line 16
     invoke-virtual {v2, v4}, Lcom/commsource/studio/doodle/j;->o(I)V
 
-    .line 17
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 18
     new-instance v2, Lcom/commsource/studio/doodle/j;
 
     invoke-direct {v2}, Lcom/commsource/studio/doodle/j;-><init>()V
 
-    .line 19
     invoke-virtual {v2, v5}, Lcom/commsource/studio/doodle/j;->l(I)V
 
     const-string v3, "-7"
 
-    .line 20
     invoke-virtual {v2, v3}, Lcom/commsource/studio/doodle/j;->j(Ljava/lang/String;)V
 
-    .line 21
     invoke-virtual {v2, v4}, Lcom/commsource/studio/doodle/j;->o(I)V
 
     const-string v3, "New"
 
-    .line 22
     invoke-virtual {v2, v3}, Lcom/commsource/studio/doodle/j;->k(Ljava/lang/String;)V
 
-    .line 23
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 24
     new-instance v2, Lcom/commsource/studio/doodle/j;
 
     invoke-direct {v2}, Lcom/commsource/studio/doodle/j;-><init>()V
 
     const/4 v3, -0x3
 
-    .line 25
     invoke-virtual {v2, v3}, Lcom/commsource/studio/doodle/j;->l(I)V
 
     const-string v3, "-6"
 
-    .line 26
     invoke-virtual {v2, v3}, Lcom/commsource/studio/doodle/j;->j(Ljava/lang/String;)V
 
-    .line 27
     invoke-virtual {v2, v4}, Lcom/commsource/studio/doodle/j;->o(I)V
 
     const-string v3, "Hot"
 
-    .line 28
     invoke-virtual {v2, v3}, Lcom/commsource/studio/doodle/j;->k(Ljava/lang/String;)V
 
-    .line 29
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 30
     new-instance v2, Lcom/commsource/studio/doodle/j;
 
     invoke-direct {v2}, Lcom/commsource/studio/doodle/j;-><init>()V
 
     const/4 v3, -0x4
 
-    .line 31
     invoke-virtual {v2, v3}, Lcom/commsource/studio/doodle/j;->l(I)V
 
     const-string v3, "-8"
 
-    .line 32
     invoke-virtual {v2, v3}, Lcom/commsource/studio/doodle/j;->j(Ljava/lang/String;)V
 
-    .line 33
     invoke-virtual {v2, v4}, Lcom/commsource/studio/doodle/j;->o(I)V
 
     const-string v3, "All"
 
-    .line 34
     invoke-virtual {v2, v3}, Lcom/commsource/studio/doodle/j;->k(Ljava/lang/String;)V
 
-    .line 35
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 36
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -456,7 +411,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/doodle/c;->o:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -477,7 +431,6 @@
 
     const-string v2, ""
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Lcom/commsource/util/common/l;->t(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -508,12 +461,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Doodle;->getDoodleId()I
 
     move-result v1
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result p1
@@ -572,7 +523,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Lcom/commsource/util/common/l;->l(Ljava/lang/String;Z)Z
 
     move-result v1
@@ -593,7 +543,6 @@
 
     const/4 v2, 0x1
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Lcom/commsource/util/common/l;->l(Ljava/lang/String;Z)Z
 
     move-result v1
@@ -614,7 +563,6 @@
 
     const/4 v2, 0x1
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Lcom/commsource/util/common/l;->l(Ljava/lang/String;Z)Z
 
     move-result v1
@@ -633,10 +581,8 @@
 
     const-string v1, "HISTORY_DOODLE_TRANS_TAG"
 
-    .line 1
     invoke-virtual {p0, v1, p1}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -659,10 +605,8 @@
 
     const-string v1, "PRE_RELEASE_KEY_DOODLE"
 
-    .line 1
     invoke-virtual {p0, v1, p1}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -685,10 +629,8 @@
 
     const-string v1, "DOODLE_REQUEST_TAG"
 
-    .line 1
     invoke-virtual {p0, v1, p1}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -705,10 +647,8 @@
 
     const/4 v2, 0x1
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -723,10 +663,8 @@
 
     const-string v1, "isShowDoodleStore"
 
-    .line 1
     invoke-virtual {p0, v1, p1}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

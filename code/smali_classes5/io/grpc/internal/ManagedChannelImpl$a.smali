@@ -18,7 +18,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/g0;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public a(Lio/grpc/t0$f;)Lio/grpc/g0$b;
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "Resolution is pending"

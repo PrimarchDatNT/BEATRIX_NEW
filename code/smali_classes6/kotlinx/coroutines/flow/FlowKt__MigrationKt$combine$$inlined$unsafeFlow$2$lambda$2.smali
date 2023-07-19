@@ -168,7 +168,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$unsafeFlow$2$lambda$2;->label:I
 
     const/4 v2, 0x1
@@ -189,7 +188,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -199,7 +197,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
@@ -207,7 +204,6 @@
 
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$unsafeFlow$2$lambda$2;->p$0:[Ljava/lang/Object;
 
-    .line 4
     iget-object v3, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$unsafeFlow$2$lambda$2;->this$0:Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$unsafeFlow$2;
 
     iget-object v3, v3, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$unsafeFlow$2;->b:Lcotlin/jvm/u/p;
@@ -250,7 +246,6 @@
 
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$unsafeFlow$2$lambda$2;->p$0:[Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$unsafeFlow$2$lambda$2;->this$0:Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$unsafeFlow$2;
 
     iget-object v1, v1, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$unsafeFlow$2;->b:Lcotlin/jvm/u/p;

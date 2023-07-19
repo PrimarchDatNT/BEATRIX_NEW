@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/webview/mtscript/l;-><init>()V
 
     return-void
@@ -22,22 +21,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/webview/mtscript/MTCommandMiniProgramScript;
 
     invoke-direct {v1, p1, p2, p3}, Lcom/meitu/webview/mtscript/MTCommandMiniProgramScript;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/l;->b()Lf/k/o0/c/b;
 
     move-result-object p1
 
     invoke-virtual {v1, p1}, Lcom/meitu/webview/mtscript/MTCommandMiniProgramScript;->J(Lf/k/o0/c/b;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/webview/mtscript/MTCommandMiniProgramScript;->m()Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/l;->b()Lf/k/o0/c/b;
 
     move-result-object p1
@@ -80,7 +75,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p2}, Landroid/net/Uri;->getHost()Ljava/lang/String;
 
@@ -89,7 +83,6 @@
     :goto_0
     const-string v0, "miniprogram"
 
-    .line 2
     invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p2

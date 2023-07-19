@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/e/c$b;
 
     const/4 v1, 0x0
@@ -37,7 +36,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -66,7 +64,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object p1, Lcom/google/firebase/crashlytics/e/c;->a:Lcom/google/firebase/crashlytics/e/d;
 
     return-object p1

@@ -23,7 +23,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p0
@@ -43,7 +42,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
 
     move-result-object p0
@@ -63,7 +61,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/Character;
 
     invoke-direct {v0, p0}, Ljava/lang/Character;-><init>(C)V
@@ -83,7 +80,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/Double;
 
     invoke-direct {v0, p0, p1}, Ljava/lang/Double;-><init>(D)V
@@ -103,7 +99,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/Float;
 
     invoke-direct {v0, p0}, Ljava/lang/Float;-><init>(F)V
@@ -123,7 +118,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/Integer;
 
     invoke-direct {v0, p0}, Ljava/lang/Integer;-><init>(I)V
@@ -143,7 +137,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/Long;
 
     invoke-direct {v0, p0, p1}, Ljava/lang/Long;-><init>(J)V
@@ -163,7 +156,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/Short;
 
     invoke-direct {v0, p0}, Ljava/lang/Short;-><init>(S)V

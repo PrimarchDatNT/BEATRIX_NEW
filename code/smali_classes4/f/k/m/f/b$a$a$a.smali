@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/k/m/f/b$a$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/m/f/b$a$a$a;->a:Lf/k/m/f/b$a$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lf/k/m/f/b$a$a$a;->a:Lf/k/m/f/b$a$a;
 
     iget-object p1, p1, Lf/k/m/f/b$a$a;->a:Lf/k/m/f/b$a;
@@ -58,14 +55,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget-object p1, p1, Lf/k/m/f/b$a;->b:Ljava/lang/String;
 
     invoke-interface {v0, p1}, Lf/k/m/f/e/c;->e(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lf/k/m/f/b$a$a$a;->a:Lf/k/m/f/b$a$a;
 
@@ -75,7 +70,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget-object v0, v0, Lf/k/m/f/b$a;->b:Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
@@ -88,7 +82,6 @@
 
     invoke-interface {v1, v0, v2, p1}, Lf/k/m/f/e/c;->d(Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V

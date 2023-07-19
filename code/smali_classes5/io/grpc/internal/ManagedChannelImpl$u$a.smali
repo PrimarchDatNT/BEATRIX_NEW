@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$u$a;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iput-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$u$a;->a:Lio/grpc/Status;
@@ -47,7 +46,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u$a;->b:Lio/grpc/internal/ManagedChannelImpl$u;
 
     iget-object v1, p0, Lio/grpc/internal/ManagedChannelImpl$u$a;->a:Lio/grpc/Status;

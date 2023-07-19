@@ -31,7 +31,6 @@
 .method constructor <init>(Lio/grpc/internal/v2;Lio/grpc/internal/v2$c;Lio/grpc/internal/v2$d;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/v2$b;->d:Lio/grpc/internal/v2;
 
     iput-object p2, p0, Lio/grpc/internal/v2$b;->a:Lio/grpc/internal/v2$c;
@@ -50,12 +49,10 @@
 .method public run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/v2$b;->d:Lio/grpc/internal/v2;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/internal/v2$b;->a:Lio/grpc/internal/v2$c;
 
@@ -67,7 +64,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :try_start_1
     iget-object v2, p0, Lio/grpc/internal/v2$b;->b:Lio/grpc/internal/v2$d;
 
@@ -77,7 +73,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     :try_start_2
     iget-object v2, p0, Lio/grpc/internal/v2$b;->d:Lio/grpc/internal/v2;
 
@@ -89,7 +84,6 @@
 
     invoke-virtual {v2, v3}, Ljava/util/IdentityHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     iget-object v2, p0, Lio/grpc/internal/v2$b;->d:Lio/grpc/internal/v2;
 
     invoke-static {v2}, Lio/grpc/internal/v2;->a(Lio/grpc/internal/v2;)Ljava/util/IdentityHashMap;
@@ -102,7 +96,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     iget-object v2, p0, Lio/grpc/internal/v2$b;->d:Lio/grpc/internal/v2;
 
     invoke-static {v2}, Lio/grpc/internal/v2;->b(Lio/grpc/internal/v2;)Ljava/util/concurrent/ScheduledExecutorService;
@@ -111,7 +104,6 @@
 
     invoke-interface {v2}, Ljava/util/concurrent/ScheduledExecutorService;->shutdown()V
 
-    .line 7
     iget-object v2, p0, Lio/grpc/internal/v2$b;->d:Lio/grpc/internal/v2;
 
     invoke-static {v2, v1}, Lio/grpc/internal/v2;->c(Lio/grpc/internal/v2;Ljava/util/concurrent/ScheduledExecutorService;)Ljava/util/concurrent/ScheduledExecutorService;
@@ -121,7 +113,6 @@
     :catchall_0
     move-exception v2
 
-    .line 8
     iget-object v3, p0, Lio/grpc/internal/v2$b;->d:Lio/grpc/internal/v2;
 
     invoke-static {v3}, Lio/grpc/internal/v2;->a(Lio/grpc/internal/v2;)Ljava/util/IdentityHashMap;
@@ -132,7 +123,6 @@
 
     invoke-virtual {v3, v4}, Ljava/util/IdentityHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     iget-object v3, p0, Lio/grpc/internal/v2$b;->d:Lio/grpc/internal/v2;
 
     invoke-static {v3}, Lio/grpc/internal/v2;->a(Lio/grpc/internal/v2;)Ljava/util/IdentityHashMap;
@@ -145,7 +135,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 10
     iget-object v3, p0, Lio/grpc/internal/v2$b;->d:Lio/grpc/internal/v2;
 
     invoke-static {v3}, Lio/grpc/internal/v2;->b(Lio/grpc/internal/v2;)Ljava/util/concurrent/ScheduledExecutorService;
@@ -154,7 +143,6 @@
 
     invoke-interface {v3}, Ljava/util/concurrent/ScheduledExecutorService;->shutdown()V
 
-    .line 11
     iget-object v3, p0, Lio/grpc/internal/v2$b;->d:Lio/grpc/internal/v2;
 
     invoke-static {v3, v1}, Lio/grpc/internal/v2;->c(Lio/grpc/internal/v2;Ljava/util/concurrent/ScheduledExecutorService;)Ljava/util/concurrent/ScheduledExecutorService;
@@ -162,7 +150,6 @@
     :cond_0
     throw v2
 
-    .line 12
     :cond_1
     :goto_0
     monitor-exit v0

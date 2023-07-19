@@ -68,7 +68,6 @@
 
     const-string v4, "start"
 
-    .line 1
     invoke-direct {v1, v2, v3, v4}, Lcom/mopub/mobileads/VideoTrackingEvent;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lcom/mopub/mobileads/VideoTrackingEvent;->START:Lcom/mopub/mobileads/VideoTrackingEvent;
@@ -83,7 +82,6 @@
 
     const-string v4, "firstQuartile"
 
-    .line 2
     invoke-direct {v1, v2, v3, v4}, Lcom/mopub/mobileads/VideoTrackingEvent;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lcom/mopub/mobileads/VideoTrackingEvent;->FIRST_QUARTILE:Lcom/mopub/mobileads/VideoTrackingEvent;
@@ -98,7 +96,6 @@
 
     const-string v4, "midpoint"
 
-    .line 3
     invoke-direct {v1, v2, v3, v4}, Lcom/mopub/mobileads/VideoTrackingEvent;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lcom/mopub/mobileads/VideoTrackingEvent;->MIDPOINT:Lcom/mopub/mobileads/VideoTrackingEvent;
@@ -113,7 +110,6 @@
 
     const-string v4, "thirdQuartile"
 
-    .line 4
     invoke-direct {v1, v2, v3, v4}, Lcom/mopub/mobileads/VideoTrackingEvent;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lcom/mopub/mobileads/VideoTrackingEvent;->THIRD_QUARTILE:Lcom/mopub/mobileads/VideoTrackingEvent;
@@ -128,7 +124,6 @@
 
     const-string v4, "complete"
 
-    .line 5
     invoke-direct {v1, v2, v3, v4}, Lcom/mopub/mobileads/VideoTrackingEvent;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lcom/mopub/mobileads/VideoTrackingEvent;->COMPLETE:Lcom/mopub/mobileads/VideoTrackingEvent;
@@ -143,7 +138,6 @@
 
     const-string v4, "companionAdView"
 
-    .line 6
     invoke-direct {v1, v2, v3, v4}, Lcom/mopub/mobileads/VideoTrackingEvent;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lcom/mopub/mobileads/VideoTrackingEvent;->COMPANION_AD_VIEW:Lcom/mopub/mobileads/VideoTrackingEvent;
@@ -158,7 +152,6 @@
 
     const-string v4, "companionAdClick"
 
-    .line 7
     invoke-direct {v1, v2, v3, v4}, Lcom/mopub/mobileads/VideoTrackingEvent;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lcom/mopub/mobileads/VideoTrackingEvent;->COMPANION_AD_CLICK:Lcom/mopub/mobileads/VideoTrackingEvent;
@@ -173,7 +166,6 @@
 
     const-string v4, ""
 
-    .line 8
     invoke-direct {v1, v2, v3, v4}, Lcom/mopub/mobileads/VideoTrackingEvent;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lcom/mopub/mobileads/VideoTrackingEvent;->UNKNOWN:Lcom/mopub/mobileads/VideoTrackingEvent;
@@ -203,7 +195,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput-object p3, p0, Lcom/mopub/mobileads/VideoTrackingEvent;->value:Ljava/lang/String;
@@ -246,7 +237,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VideoTrackingEvent;->value:Ljava/lang/String;
 
     return-object v0
@@ -255,7 +245,6 @@
 .method public final toFloat()F
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/VideoTrackingEvent$WhenMappings;->$EnumSwitchMapping$0:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I

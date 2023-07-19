@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -77,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1$onMajorFingerUp$$inlined$let$lambda$1;->this$0:Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;
 
     iget-object v1, v1, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;->a:Lcom/commsource/puzzle/StitchComponent;
@@ -96,14 +94,12 @@
 
     if-gez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1$onMajorFingerUp$$inlined$let$lambda$1;->this$0:Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;
 
     iget-object v1, v1, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;->a:Lcom/commsource/puzzle/StitchComponent;
 
     invoke-static {v1, p1}, Lcom/commsource/puzzle/StitchComponent;->p(Lcom/commsource/puzzle/StitchComponent;I)V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1$onMajorFingerUp$$inlined$let$lambda$1;->this$0:Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;
 
@@ -115,7 +111,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/puzzle/StitchComponent$StitchContainer;->j()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

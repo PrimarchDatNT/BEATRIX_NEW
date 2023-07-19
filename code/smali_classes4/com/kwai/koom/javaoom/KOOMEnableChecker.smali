@@ -23,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,21 +31,18 @@
 .method public static a()Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b()Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
     move-result-object v0
 
     sput-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b:Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
-    .line 2
     iget-object v1, v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->a:Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
     if-eqz v1, :cond_0
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->g()Z
 
@@ -54,7 +50,6 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     sget-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b:Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
     sget-object v1, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->OS_VERSION_NO_COMPATIBILITY:Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
@@ -63,7 +58,6 @@
 
     return-object v1
 
-    .line 5
     :cond_1
     sget-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b:Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
@@ -73,7 +67,6 @@
 
     if-nez v0, :cond_2
 
-    .line 6
     sget-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b:Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
     sget-object v1, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->SPACE_NOT_ENOUGH:Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
@@ -82,7 +75,6 @@
 
     return-object v1
 
-    .line 7
     :cond_2
     sget-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b:Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
@@ -92,7 +84,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 8
     sget-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b:Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
     sget-object v1, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->EXPIRED_DATE:Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
@@ -101,7 +92,6 @@
 
     return-object v1
 
-    .line 9
     :cond_3
     sget-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b:Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
@@ -111,7 +101,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 10
     sget-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b:Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
     sget-object v1, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->EXPIRED_TIMES:Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
@@ -120,7 +109,6 @@
 
     return-object v1
 
-    .line 11
     :cond_4
     sget-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b:Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
@@ -130,7 +118,6 @@
 
     if-nez v0, :cond_5
 
-    .line 12
     sget-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b:Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
     sget-object v1, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->PROCESS_NOT_ENABLED:Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
@@ -139,7 +126,6 @@
 
     return-object v1
 
-    .line 13
     :cond_5
     sget-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;->NORMAL:Lcom/kwai/koom/javaoom/KOOMEnableChecker$Result;
 
@@ -149,7 +135,6 @@
 .method public static b()Lcom/kwai/koom/javaoom/KOOMEnableChecker;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b:Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
     if-nez v0, :cond_0
@@ -169,7 +154,6 @@
 .method public c()Z
     .locals 7
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->h()Lcom/kwai/koom/javaoom/common/j;
 
     move-result-object v0
@@ -178,12 +162,10 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Lcom/kwai/koom/javaoom/common/i;->b(Ljava/lang/String;)J
 
     move-result-wide v1
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -208,7 +190,6 @@
 
     invoke-static {v3, v0}, Lcom/kwai/koom/javaoom/common/e;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -241,7 +222,6 @@
 .method public d()Z
     .locals 4
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->h()Lcom/kwai/koom/javaoom/common/j;
 
     move-result-object v0
@@ -250,12 +230,10 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Lcom/kwai/koom/javaoom/common/i;->c(Ljava/lang/String;)I
 
     move-result v1
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -280,7 +258,6 @@
 
     invoke-static {v2, v0}, Lcom/kwai/koom/javaoom/common/e;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     sget v0, Lcom/kwai/koom/javaoom/common/c$f;->a:I
 
     if-le v1, v0, :cond_0
@@ -299,7 +276,6 @@
 .method public e()Z
     .locals 4
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->e()Lcom/kwai/koom/javaoom/common/b;
 
     move-result-object v0
@@ -308,12 +284,10 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {}, Lcom/kwai/koom/javaoom/common/h;->d()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -338,7 +312,6 @@
 
     invoke-static {v3, v2}, Lcom/kwai/koom/javaoom/common/e;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0, v1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -349,22 +322,18 @@
 .method public f()Z
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->g()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Lcom/kwai/koom/javaoom/common/h;->e(Ljava/lang/String;)F
 
     move-result v0
 
-    .line 3
     sget-boolean v1, Lcom/kwai/koom/javaoom/common/c$d;->a:Z
 
     if-eqz v1, :cond_0
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -387,7 +356,6 @@
 
     invoke-static {v2, v1}, Lcom/kwai/koom/javaoom/common/e;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     sget v1, Lcom/kwai/koom/javaoom/common/c$e;->a:F
 
@@ -409,7 +377,6 @@
 .method public g()Z
     .locals 2
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x15

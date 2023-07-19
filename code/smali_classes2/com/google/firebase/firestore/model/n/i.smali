@@ -14,10 +14,8 @@
 .method public constructor <init>(Lcom/google/firebase/firestore/model/value/i;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/model/n/i;->a:Lcom/google/firebase/firestore/model/value/i;
 
     return-void
@@ -26,14 +24,12 @@
 .method private e()D
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/i;->a:Lcom/google/firebase/firestore/model/value/i;
 
     instance-of v1, v0, Lcom/google/firebase/firestore/model/value/d;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast v0, Lcom/google/firebase/firestore/model/value/d;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/value/d;->o()D
@@ -42,13 +38,11 @@
 
     return-wide v0
 
-    .line 3
     :cond_0
     instance-of v1, v0, Lcom/google/firebase/firestore/model/value/g;
 
     if-eqz v1, :cond_1
 
-    .line 4
     check-cast v0, Lcom/google/firebase/firestore/model/value/g;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/value/g;->o()J
@@ -59,7 +53,6 @@
 
     return-wide v0
 
-    .line 5
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -71,7 +64,6 @@
 
     iget-object v1, p0, Lcom/google/firebase/firestore/model/n/i;->a:Lcom/google/firebase/firestore/model/value/i;
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -90,7 +82,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 7
     invoke-static {v0, v1}, Lcom/google/firebase/firestore/util/b;->a(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/AssertionError;
 
     move-result-object v0
@@ -101,14 +92,12 @@
 .method private f()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/i;->a:Lcom/google/firebase/firestore/model/value/i;
 
     instance-of v1, v0, Lcom/google/firebase/firestore/model/value/d;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast v0, Lcom/google/firebase/firestore/model/value/d;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/value/d;->o()D
@@ -119,13 +108,11 @@
 
     return-wide v0
 
-    .line 3
     :cond_0
     instance-of v1, v0, Lcom/google/firebase/firestore/model/value/g;
 
     if-eqz v1, :cond_1
 
-    .line 4
     check-cast v0, Lcom/google/firebase/firestore/model/value/g;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/value/g;->o()J
@@ -134,7 +121,6 @@
 
     return-wide v0
 
-    .line 5
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -146,7 +132,6 @@
 
     iget-object v1, p0, Lcom/google/firebase/firestore/model/n/i;->a:Lcom/google/firebase/firestore/model/value/i;
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -165,7 +150,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 7
     invoke-static {v0, v1}, Lcom/google/firebase/firestore/util/b;->a(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/AssertionError;
 
     move-result-object v0
@@ -226,7 +210,6 @@
 .method public c(Lcom/google/firebase/firestore/model/value/e;Lcom/google/firebase/Timestamp;)Lcom/google/firebase/firestore/model/value/e;
     .locals 2
 
-    .line 1
     instance-of p2, p1, Lcom/google/firebase/firestore/model/value/g;
 
     if-eqz p2, :cond_0
@@ -237,7 +220,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/firebase/firestore/model/value/g;
 
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/value/g;->o()J
@@ -252,7 +234,6 @@
 
     move-result-wide p1
 
-    .line 3
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -266,7 +247,6 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 4
     check-cast p1, Lcom/google/firebase/firestore/model/value/g;
 
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/value/g;->o()J
@@ -281,7 +261,6 @@
 
     add-double/2addr p1, v0
 
-    .line 5
     invoke-static {p1, p2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object p1
@@ -292,13 +271,11 @@
 
     return-object p1
 
-    .line 6
     :cond_1
     instance-of p2, p1, Lcom/google/firebase/firestore/model/value/d;
 
     if-eqz p2, :cond_2
 
-    .line 7
     check-cast p1, Lcom/google/firebase/firestore/model/value/d;
 
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/value/d;->o()D
@@ -311,7 +288,6 @@
 
     add-double/2addr p1, v0
 
-    .line 8
     invoke-static {p1, p2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object p1
@@ -322,7 +298,6 @@
 
     return-object p1
 
-    .line 9
     :cond_2
     iget-object p1, p0, Lcom/google/firebase/firestore/model/n/i;->a:Lcom/google/firebase/firestore/model/value/i;
 
@@ -332,7 +307,6 @@
 .method public d()Lcom/google/firebase/firestore/model/value/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/i;->a:Lcom/google/firebase/firestore/model/value/i;
 
     return-object v0

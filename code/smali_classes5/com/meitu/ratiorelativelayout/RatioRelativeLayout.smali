@@ -78,14 +78,12 @@
 
     const/high16 v1, -0x80000000
 
-    .line 1
     sput v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->b0:I
 
     const/4 v1, 0x5
 
     new-array v1, v1, [I
 
-    .line 2
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->c0:[I
@@ -94,7 +92,6 @@
 
     new-array v1, v1, [I
 
-    .line 3
     fill-array-data v1, :array_1
 
     sput-object v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d0:[I
@@ -103,7 +100,6 @@
 
     new-array v1, v1, [I
 
-    .line 4
     fill-array-data v1, :array_2
 
     sput-object v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->e0:[I
@@ -148,15 +144,12 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->a:Z
 
-    .line 3
     new-instance v0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b;
 
     const/4 v1, 0x0
@@ -167,30 +160,24 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput v0, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d:F
 
     iput v0, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->f:F
 
     const/4 v0, 0x0
 
-    .line 5
     iput v0, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->g:I
 
-    .line 6
     iput-boolean p1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->p:Z
 
-    .line 7
     sget v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->b0:I
 
     iput v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->J:I
 
     iput v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->K:I
 
-    .line 8
     iput-boolean p1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->M:Z
 
-    .line 9
     iput-boolean v0, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->N:Z
 
     return-void
@@ -201,7 +188,6 @@
 
     const/4 v0, 0x0
 
-    .line 28
     invoke-direct {p0, p1, p2, v0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -210,15 +196,12 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 3
 
-    .line 10
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p3, 0x1
 
-    .line 11
     iput-boolean p3, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->a:Z
 
-    .line 12
     new-instance v0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b;
 
     const/4 v1, 0x0
@@ -229,42 +212,34 @@
 
     const/4 v0, 0x0
 
-    .line 13
     iput v0, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d:F
 
     iput v0, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->f:F
 
     const/4 v1, 0x0
 
-    .line 14
     iput v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->g:I
 
-    .line 15
     iput-boolean p3, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->p:Z
 
-    .line 16
     sget v2, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->b0:I
 
     iput v2, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->J:I
 
     iput v2, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->K:I
 
-    .line 17
     iput-boolean p3, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->M:Z
 
-    .line 18
     iput-boolean v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->N:Z
 
     if-eqz p2, :cond_1
 
-    .line 19
     sget-object v2, Lcom/meitu/ratiorelativelayout/b$l;->V4:[I
 
     invoke-virtual {p1, p2, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object p1
 
-    .line 20
     sget p2, Lcom/meitu/ratiorelativelayout/b$l;->Z4:I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getFloat(IF)F
@@ -273,7 +248,6 @@
 
     iput p2, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->f:F
 
-    .line 21
     sget p2, Lcom/meitu/ratiorelativelayout/b$l;->b5:I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getFloat(IF)F
@@ -282,7 +256,6 @@
 
     iput p2, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d:F
 
-    .line 22
     sget p2, Lcom/meitu/ratiorelativelayout/b$l;->X4:I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getInt(II)I
@@ -291,7 +264,6 @@
 
     iput p2, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->g:I
 
-    .line 23
     sget p2, Lcom/meitu/ratiorelativelayout/b$l;->W4:I
 
     invoke-virtual {p1, p2, p3}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
@@ -300,7 +272,6 @@
 
     iput-boolean p2, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->p:Z
 
-    .line 24
     sget p2, Lcom/meitu/ratiorelativelayout/b$l;->a5:I
 
     invoke-virtual {p1, p2, p3}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
@@ -309,14 +280,12 @@
 
     iput-boolean p2, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->M:Z
 
-    .line 25
     sget p2, Lcom/meitu/ratiorelativelayout/b$l;->Y4:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 26
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p3
@@ -333,7 +302,6 @@
     :goto_0
     iput v0, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->L:F
 
-    .line 27
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
     :cond_1
@@ -347,7 +315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d0:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -362,7 +329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->c0:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -377,7 +343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->i(Ljava/lang/String;)F
 
     move-result p0
@@ -394,33 +359,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 2
     sget v2, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->b0:I
 
     invoke-static {v1, v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->b(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)I
 
-    .line 3
     sget v2, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->b0:I
 
     invoke-static {v1, v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->f(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)I
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-direct {p0, p3, v2, v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->l([III)Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     move-result-object v3
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-static {v3}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result v4
@@ -437,7 +397,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-boolean v3, v1, Landroid/widget/RelativeLayout$LayoutParams;->alignWithParent:Z
 
@@ -449,7 +408,6 @@
 
     if-ltz p2, :cond_1
 
-    .line 7
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingRight()I
 
     move-result v3
@@ -466,14 +424,12 @@
     :goto_0
     const/4 v3, 0x1
 
-    .line 8
     invoke-direct {p0, p3, v3, v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->l([III)Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     move-result-object v4
 
     if-eqz v4, :cond_2
 
-    .line 9
     invoke-static {v4}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->e(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result v3
@@ -490,7 +446,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_2
     iget-boolean v4, v1, Landroid/widget/RelativeLayout$LayoutParams;->alignWithParent:Z
 
@@ -500,7 +455,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 11
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingLeft()I
 
     move-result v3
@@ -515,14 +469,12 @@
     :goto_1
     const/4 v3, 0x5
 
-    .line 12
     invoke-direct {p0, p3, v3, v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->l([III)Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     move-result-object v4
 
     if-eqz v4, :cond_4
 
-    .line 13
     invoke-static {v4}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result v3
@@ -535,7 +487,6 @@
 
     goto :goto_2
 
-    .line 14
     :cond_4
     iget-boolean v4, v1, Landroid/widget/RelativeLayout$LayoutParams;->alignWithParent:Z
 
@@ -545,7 +496,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 15
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingLeft()I
 
     move-result v3
@@ -560,14 +510,12 @@
     :goto_2
     const/4 v3, 0x7
 
-    .line 16
     invoke-direct {p0, p3, v3, v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->l([III)Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     move-result-object v2
 
     if-eqz v2, :cond_6
 
-    .line 17
     invoke-static {v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->e(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result v2
@@ -580,7 +528,6 @@
 
     goto :goto_3
 
-    .line 18
     :cond_6
     iget-boolean v2, v1, Landroid/widget/RelativeLayout$LayoutParams;->alignWithParent:Z
 
@@ -592,7 +539,6 @@
 
     if-ltz p2, :cond_7
 
-    .line 19
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingRight()I
 
     move-result v2
@@ -609,12 +555,10 @@
     :goto_3
     const/16 v2, 0x9
 
-    .line 20
     aget v2, p3, v2
 
     if-eqz v2, :cond_8
 
-    .line 21
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingLeft()I
 
     move-result v2
@@ -628,14 +572,12 @@
     :cond_8
     const/16 v2, 0xb
 
-    .line 22
     aget p3, p3, v2
 
     if-eqz p3, :cond_9
 
     if-ltz p2, :cond_9
 
-    .line 23
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingRight()I
 
     move-result p3
@@ -648,7 +590,6 @@
 
     invoke-static {v1, p3}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->f(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)I
 
-    .line 24
     :cond_9
     iget p3, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->e:F
 
@@ -664,7 +605,6 @@
 
     if-eqz p3, :cond_d
 
-    .line 25
     invoke-static {v1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p3
@@ -681,12 +621,10 @@
 
     if-eq p3, v2, :cond_a
 
-    .line 26
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 27
     :cond_a
     invoke-static {v1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -696,7 +634,6 @@
 
     if-eq p3, v2, :cond_b
 
-    .line 28
     invoke-virtual {p1}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result p1
@@ -711,7 +648,6 @@
 
     move-result p1
 
-    .line 29
     invoke-static {v1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p3
@@ -728,12 +664,10 @@
 
     sub-int/2addr p2, p3
 
-    .line 30
     invoke-static {p1, p2}, Ljava/lang/Math;->min(II)I
 
     move-result p1
 
-    .line 31
     invoke-static {v1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p2
@@ -744,7 +678,6 @@
 
     goto :goto_4
 
-    .line 32
     :cond_b
     invoke-static {v1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->e(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -754,7 +687,6 @@
 
     if-eq p3, v2, :cond_c
 
-    .line 33
     invoke-virtual {p1}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result p1
@@ -769,7 +701,6 @@
 
     move-result p1
 
-    .line 34
     invoke-static {v1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->e(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p2
@@ -784,12 +715,10 @@
 
     sub-int/2addr p2, p3
 
-    .line 35
     invoke-static {p1, p2}, Ljava/lang/Math;->min(II)I
 
     move-result p1
 
-    .line 36
     invoke-static {v1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->e(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p2
@@ -800,7 +729,6 @@
 
     goto :goto_4
 
-    .line 37
     :cond_c
     invoke-virtual {p1}, Landroid/view/View;->getMeasuredHeight()I
 
@@ -818,7 +746,6 @@
 
     iget p3, v1, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
-    .line 38
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingLeft()I
 
     move-result v2
@@ -837,15 +764,12 @@
 
     sub-int/2addr p2, p3
 
-    .line 39
     invoke-static {p1, p2}, Ljava/lang/Math;->min(II)I
 
     move-result p1
 
-    .line 40
     iput p1, v1, Landroid/widget/RelativeLayout$LayoutParams;->width:I
 
-    .line 41
     :cond_d
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -860,24 +784,20 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
     check-cast v0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 2
     invoke-virtual {v0}, Landroid/widget/RelativeLayout$LayoutParams;->getRules()[I
 
     move-result-object v1
 
-    .line 3
     sget v2, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->b0:I
 
     invoke-static {v0, v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->d(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)I
 
-    .line 4
     sget v2, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->b0:I
 
     invoke-static {v0, v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->h(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)I
@@ -886,14 +806,12 @@
 
     const/4 v3, 0x1
 
-    .line 5
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->l([III)Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     move-result-object v4
 
     if-eqz v4, :cond_0
 
-    .line 6
     invoke-static {v4}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->c(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result v2
@@ -910,7 +828,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-boolean v4, v0, Landroid/widget/RelativeLayout$LayoutParams;->alignWithParent:Z
 
@@ -922,7 +839,6 @@
 
     if-ltz p2, :cond_1
 
-    .line 8
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingBottom()I
 
     move-result v2
@@ -939,14 +855,12 @@
     :goto_0
     const/4 v2, 0x3
 
-    .line 9
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->l([III)Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     move-result-object v4
 
     if-eqz v4, :cond_2
 
-    .line 10
     invoke-static {v4}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result v2
@@ -963,7 +877,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     iget-boolean v4, v0, Landroid/widget/RelativeLayout$LayoutParams;->alignWithParent:Z
 
@@ -973,7 +886,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 12
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingTop()I
 
     move-result v2
@@ -988,14 +900,12 @@
     :goto_1
     const/4 v2, 0x6
 
-    .line 13
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->l([III)Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     move-result-object v4
 
     if-eqz v4, :cond_4
 
-    .line 14
     invoke-static {v4}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->c(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result v2
@@ -1008,7 +918,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_4
     iget-boolean v4, v0, Landroid/widget/RelativeLayout$LayoutParams;->alignWithParent:Z
 
@@ -1018,7 +927,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 16
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingTop()I
 
     move-result v2
@@ -1033,14 +941,12 @@
     :goto_2
     const/16 v2, 0x8
 
-    .line 17
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->l([III)Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     move-result-object v3
 
     if-eqz v3, :cond_6
 
-    .line 18
     invoke-static {v3}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result v2
@@ -1053,7 +959,6 @@
 
     goto :goto_3
 
-    .line 19
     :cond_6
     iget-boolean v3, v0, Landroid/widget/RelativeLayout$LayoutParams;->alignWithParent:Z
 
@@ -1065,7 +970,6 @@
 
     if-ltz p2, :cond_7
 
-    .line 20
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingBottom()I
 
     move-result v2
@@ -1082,12 +986,10 @@
     :goto_3
     const/16 v2, 0xa
 
-    .line 21
     aget v2, v1, v2
 
     if-eqz v2, :cond_8
 
-    .line 22
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingTop()I
 
     move-result v2
@@ -1101,14 +1003,12 @@
     :cond_8
     const/16 v2, 0xc
 
-    .line 23
     aget v1, v1, v2
 
     if-eqz v1, :cond_9
 
     if-ltz p2, :cond_9
 
-    .line 24
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingBottom()I
 
     move-result v1
@@ -1121,7 +1021,6 @@
 
     invoke-static {v0, v1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->h(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)I
 
-    .line 25
     :cond_9
     iget v1, v0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->e:F
 
@@ -1137,7 +1036,6 @@
 
     if-eqz v1, :cond_d
 
-    .line 26
     invoke-static {v0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->c(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result v1
@@ -1154,12 +1052,10 @@
 
     if-eq v1, v2, :cond_a
 
-    .line 27
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 28
     :cond_a
     invoke-static {v0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->c(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -1169,7 +1065,6 @@
 
     if-eq v1, v2, :cond_b
 
-    .line 29
     invoke-virtual {p1}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result p1
@@ -1184,7 +1079,6 @@
 
     move-result p1
 
-    .line 30
     invoke-static {v0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->c(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result v1
@@ -1201,12 +1095,10 @@
 
     sub-int/2addr p2, v1
 
-    .line 31
     invoke-static {p1, p2}, Ljava/lang/Math;->min(II)I
 
     move-result p1
 
-    .line 32
     invoke-static {v0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->c(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p2
@@ -1217,7 +1109,6 @@
 
     goto :goto_4
 
-    .line 33
     :cond_b
     invoke-static {v0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -1227,7 +1118,6 @@
 
     if-eq v1, v2, :cond_c
 
-    .line 34
     invoke-virtual {p1}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result p1
@@ -1242,7 +1132,6 @@
 
     move-result p1
 
-    .line 35
     invoke-static {v0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p2
@@ -1257,12 +1146,10 @@
 
     sub-int/2addr p2, v1
 
-    .line 36
     invoke-static {p1, p2}, Ljava/lang/Math;->min(II)I
 
     move-result p1
 
-    .line 37
     invoke-static {v0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p2
@@ -1273,7 +1160,6 @@
 
     goto :goto_4
 
-    .line 38
     :cond_c
     invoke-virtual {p1}, Landroid/view/View;->getMeasuredWidth()I
 
@@ -1291,7 +1177,6 @@
 
     iget v1, v0, Landroid/widget/RelativeLayout$LayoutParams;->topMargin:I
 
-    .line 39
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingTop()I
 
     move-result v2
@@ -1310,15 +1195,12 @@
 
     sub-int/2addr p2, v1
 
-    .line 40
     invoke-static {p1, p2}, Ljava/lang/Math;->min(II)I
 
     move-result p1
 
-    .line 41
     iput p1, v0, Landroid/widget/RelativeLayout$LayoutParams;->height:I
 
-    .line 42
     :cond_d
     :goto_4
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1333,7 +1215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1356,14 +1237,12 @@
 
     if-eq v1, v5, :cond_4
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->m(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {p0}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
 
     move-result p0
@@ -1372,7 +1251,6 @@
 
     return p0
 
-    .line 4
     :cond_0
     invoke-virtual {p0, v4}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
@@ -1380,7 +1258,6 @@
 
     if-ltz v1, :cond_3
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -1389,14 +1266,12 @@
 
     const/4 v4, 0x0
 
-    .line 6
     invoke-virtual {p0, v4, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v4
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 7
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v5
@@ -1405,7 +1280,6 @@
 
     move-result-object v1
 
-    .line 8
     invoke-static {v4}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->m(Ljava/lang/String;)Z
 
     move-result v5
@@ -1418,12 +1292,10 @@
 
     if-eqz v5, :cond_2
 
-    .line 9
     invoke-static {v4}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
 
     move-result p0
 
-    .line 10
     invoke-static {v1}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
 
     move-result v1
@@ -1436,12 +1308,10 @@
 
     div-float/2addr p0, v1
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 12
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -1453,7 +1323,6 @@
 
     throw p0
 
-    .line 13
     :cond_2
     new-instance v1, Ljava/lang/IllegalStateException;
 
@@ -1477,7 +1346,6 @@
 
     throw v1
 
-    .line 14
     :cond_3
     new-instance v1, Ljava/lang/IllegalStateException;
 
@@ -1501,7 +1369,6 @@
 
     throw v1
 
-    .line 15
     :cond_4
     new-instance v1, Ljava/lang/IllegalStateException;
 
@@ -1533,7 +1400,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->b0:I
 
     if-ne p1, v1, :cond_0
@@ -1570,7 +1436,6 @@
 
     if-nez p9, :cond_2
 
-    .line 2
     invoke-static {p5, p8}, Ljava/lang/Math;->max(II)I
 
     move-result p3
@@ -1582,12 +1447,10 @@
 
     if-ltz p8, :cond_6
 
-    .line 3
     iget-boolean p1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->p:Z
 
     if-eqz p1, :cond_6
 
-    .line 4
     invoke-static {p8, p3}, Ljava/lang/Math;->min(II)I
 
     move-result p3
@@ -1599,7 +1462,6 @@
 
     if-ne p3, p1, :cond_4
 
-    .line 5
     invoke-static {p5, p8}, Ljava/lang/Math;->max(II)I
 
     move-result p3
@@ -1613,7 +1475,6 @@
 
     if-ltz p8, :cond_5
 
-    .line 6
     iget-boolean p1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->p:Z
 
     if-eqz p1, :cond_5
@@ -1629,7 +1490,6 @@
 
     const/4 p4, 0x0
 
-    .line 7
     :cond_6
     :goto_2
     invoke-static {p3, p4}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
@@ -1648,14 +1508,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     aget p1, p1, p2
 
     const/4 v1, 0x0
 
     if-eqz p1, :cond_3
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->c:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b;
 
     invoke-static {v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b;)Ljava/util/Map;
@@ -1686,16 +1544,13 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     iget-object v2, v2, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;->a:Landroid/view/View;
 
-    .line 5
     :goto_0
     invoke-virtual {v2}, Landroid/view/View;->getVisibility()I
 
@@ -1705,7 +1560,6 @@
 
     if-ne v3, v4, :cond_2
 
-    .line 6
     invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v2
@@ -1716,7 +1570,6 @@
 
     move-result-object v2
 
-    .line 7
     iget-object v3, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->c:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b;
 
     invoke-static {v3}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b;)Ljava/util/Map;
@@ -1747,24 +1600,20 @@
 
     if-nez v2, :cond_1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 9
     :cond_1
     iget-object v2, v2, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;->a:Landroid/view/View;
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1778,24 +1627,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->k([III)Landroid/view/View;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p2
 
-    .line 3
     instance-of p2, p2, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     if-eqz p2, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
@@ -1809,7 +1654,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -1822,7 +1666,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1831,7 +1674,6 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1839,12 +1681,10 @@
     :cond_0
     const-string v1, "^[-\\+]?[\\d]*[.]?[\\d]*$"
 
-    .line 3
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object p0
@@ -1869,7 +1709,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v3, v0, Landroid/widget/TextView;
 
     const/4 v4, 0x0
@@ -1884,7 +1723,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 2
     move-object v3, v0
 
     check-cast v3, Landroid/widget/TextView;
@@ -1893,7 +1731,6 @@
 
     invoke-virtual {v3, v4, v5}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    .line 3
     :cond_0
     invoke-virtual/range {p2 .. p2}, Landroid/widget/RelativeLayout$LayoutParams;->getRules()[I
 
@@ -1901,7 +1738,6 @@
 
     const/16 v5, 0xe
 
-    .line 4
     aget v5, v3, v5
 
     const/16 v6, 0xd
@@ -1928,7 +1764,6 @@
     :goto_1
     const/16 v5, 0xf
 
-    .line 5
     aget v5, v3, v5
 
     if-nez v5, :cond_4
@@ -1948,7 +1783,6 @@
     :goto_2
     const/16 v27, 0x1
 
-    .line 6
     :goto_3
     invoke-static/range {p2 .. p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -1964,7 +1798,6 @@
 
     iget v13, v1, Landroid/widget/RelativeLayout$LayoutParams;->rightMargin:I
 
-    .line 7
     invoke-virtual/range {p0 .. p0}, Landroid/widget/RelativeLayout;->getPaddingLeft()I
 
     move-result v14
@@ -1977,12 +1810,10 @@
 
     move/from16 v16, p3
 
-    .line 8
     invoke-direct/range {v8 .. v17}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->j(IIIIIIIIZ)I
 
     move-result v3
 
-    .line 9
     invoke-static/range {p2 .. p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->c(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result v19
@@ -1997,7 +1828,6 @@
 
     iget v6, v1, Landroid/widget/RelativeLayout$LayoutParams;->bottomMargin:I
 
-    .line 10
     invoke-virtual/range {p0 .. p0}, Landroid/widget/RelativeLayout;->getPaddingTop()I
 
     move-result v24
@@ -2016,22 +1846,18 @@
 
     move/from16 v26, p4
 
-    .line 11
     invoke-direct/range {v18 .. v27}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->j(IIIIIIIIZ)I
 
     move-result v4
 
-    .line 12
     invoke-virtual {v0, v3, v4}, Landroid/view/View;->measure(II)V
 
     move-object/from16 v5, p0
 
-    .line 13
     iget-boolean v6, v5, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->N:Z
 
     if-eqz v6, :cond_5
 
-    .line 14
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -2118,7 +1944,6 @@
 
     invoke-static {v7, v6}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 15
     :cond_5
     iget v6, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->f:F
 
@@ -2134,7 +1959,6 @@
 
     if-eqz v6, :cond_a
 
-    .line 16
     :cond_6
     invoke-static/range {p2 .. p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->m(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)Z
 
@@ -2144,12 +1968,10 @@
 
     if-eqz v6, :cond_8
 
-    .line 17
     invoke-virtual/range {p1 .. p1}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v4
 
-    .line 18
     iget v6, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->f:F
 
     cmpl-float v9, v6, v7
@@ -2170,7 +1992,6 @@
 
     if-lez v6, :cond_7
 
-    .line 19
     iget v1, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->f:F
 
     div-float/2addr v9, v1
@@ -2179,17 +2000,14 @@
 
     move-result v1
 
-    .line 20
     invoke-static {v1, v8}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v1
 
-    .line 21
     invoke-virtual {v0, v3, v1}, Landroid/view/View;->measure(II)V
 
     goto :goto_4
 
-    .line 22
     :cond_7
     iget v6, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g:F
 
@@ -2201,7 +2019,6 @@
 
     div-float v6, v4, v6
 
-    .line 23
     invoke-virtual/range {p1 .. p1}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v7
@@ -2212,7 +2029,6 @@
 
     if-gez v6, :cond_a
 
-    .line 24
     iget v1, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g:F
 
     div-float/2addr v4, v1
@@ -2221,23 +2037,19 @@
 
     move-result v1
 
-    .line 25
     invoke-static {v1, v8}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v1
 
-    .line 26
     invoke-virtual {v0, v3, v1}, Landroid/view/View;->measure(II)V
 
     goto :goto_4
 
-    .line 27
     :cond_8
     invoke-virtual/range {p1 .. p1}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v3
 
-    .line 28
     iget v6, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->f:F
 
     cmpl-float v9, v6, v7
@@ -2258,7 +2070,6 @@
 
     if-gez v6, :cond_9
 
-    .line 29
     iget v1, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->f:F
 
     mul-float v9, v9, v1
@@ -2267,17 +2078,14 @@
 
     move-result v1
 
-    .line 30
     invoke-static {v1, v8}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v1
 
-    .line 31
     invoke-virtual {v0, v1, v4}, Landroid/view/View;->measure(II)V
 
     goto :goto_4
 
-    .line 32
     :cond_9
     iget v6, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g:F
 
@@ -2289,7 +2097,6 @@
 
     mul-float v6, v6, v3
 
-    .line 33
     invoke-virtual/range {p1 .. p1}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v7
@@ -2300,7 +2107,6 @@
 
     if-lez v6, :cond_a
 
-    .line 34
     iget v1, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g:F
 
     mul-float v3, v3, v1
@@ -2309,15 +2115,12 @@
 
     move-result v1
 
-    .line 35
     invoke-static {v1, v8}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v1
 
-    .line 36
     invoke-virtual {v0, v1, v4}, Landroid/view/View;->measure(II)V
 
-    .line 37
     :cond_a
     :goto_4
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2332,14 +2135,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Landroid/widget/RelativeLayout$LayoutParams;->getRules()[I
 
     move-result-object v1
 
     const/16 v2, 0xe
 
-    .line 2
     aget v2, v1, v2
 
     if-nez v2, :cond_3
@@ -2352,7 +2153,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->e(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -2370,7 +2170,6 @@
 
     if-eq p3, v1, :cond_1
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p3
@@ -2385,7 +2184,6 @@
 
     goto/16 :goto_3
 
-    .line 5
     :cond_1
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -2403,7 +2201,6 @@
 
     if-eq p3, v1, :cond_2
 
-    .line 6
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->e(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p3
@@ -2418,7 +2215,6 @@
 
     goto :goto_3
 
-    .line 7
     :cond_2
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -2436,7 +2232,6 @@
 
     if-ne p3, v1, :cond_6
 
-    .line 8
     iget p3, p2, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingLeft()I
@@ -2447,7 +2242,6 @@
 
     invoke-static {p2, p3}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->b(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)I
 
-    .line 9
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p3
@@ -2462,7 +2256,6 @@
 
     goto :goto_3
 
-    .line 10
     :cond_3
     :goto_0
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
@@ -2488,7 +2281,6 @@
 
     add-int/2addr v1, v2
 
-    .line 11
     :goto_1
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->e(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -2518,7 +2310,6 @@
     :goto_2
     sub-int/2addr p3, v1
 
-    .line 12
     invoke-virtual {p1}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v2
@@ -2531,7 +2322,6 @@
 
     invoke-static {p2, v1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->b(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)I
 
-    .line 13
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p3
@@ -2548,10 +2338,8 @@
     :goto_3
     const/4 p1, 0x1
 
-    .line 14
     invoke-static {p2, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->l(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;Z)Z
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2564,14 +2352,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Landroid/widget/RelativeLayout$LayoutParams;->getRules()[I
 
     move-result-object v1
 
     const/16 v2, 0xf
 
-    .line 2
     aget v2, v1, v2
 
     if-nez v2, :cond_3
@@ -2584,7 +2370,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -2602,7 +2387,6 @@
 
     if-eq p3, v1, :cond_1
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->c(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p3
@@ -2617,7 +2401,6 @@
 
     goto/16 :goto_3
 
-    .line 5
     :cond_1
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->c(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -2635,7 +2418,6 @@
 
     if-eq p3, v1, :cond_2
 
-    .line 6
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p3
@@ -2650,7 +2432,6 @@
 
     goto :goto_3
 
-    .line 7
     :cond_2
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -2668,7 +2449,6 @@
 
     if-ne p3, v1, :cond_6
 
-    .line 8
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getPaddingTop()I
 
     move-result p3
@@ -2679,7 +2459,6 @@
 
     invoke-static {p2, p3}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->d(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)I
 
-    .line 9
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->c(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p3
@@ -2694,7 +2473,6 @@
 
     goto :goto_3
 
-    .line 10
     :cond_3
     :goto_0
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->c(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
@@ -2720,7 +2498,6 @@
 
     add-int/2addr v1, v2
 
-    .line 11
     :goto_1
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->g(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
@@ -2750,7 +2527,6 @@
     :goto_2
     sub-int/2addr p3, v1
 
-    .line 12
     invoke-virtual {p1}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v2
@@ -2763,7 +2539,6 @@
 
     invoke-static {p2, v1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->d(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)I
 
-    .line 13
     invoke-static {p2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->c(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result p3
@@ -2780,10 +2555,8 @@
     :goto_3
     const/4 p1, 0x1
 
-    .line 14
     invoke-static {p2, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->j(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;Z)Z
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2796,7 +2569,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getChildCount()I
 
     move-result v1
@@ -2808,7 +2580,6 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 2
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
@@ -2817,17 +2588,14 @@
 
     move-result-object v4
 
-    .line 3
     instance-of v5, v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     if-eqz v5, :cond_0
 
-    .line 4
     check-cast v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     invoke-static {v4, v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->j(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;Z)Z
 
-    .line 5
     invoke-static {v4, v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->l(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;Z)Z
 
     :cond_0
@@ -2835,7 +2603,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2849,7 +2616,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d:F
 
     const/4 v2, 0x0
@@ -2866,7 +2632,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getChildCount()I
 
@@ -2877,7 +2642,6 @@
     :goto_0
     if-ge v3, v1, :cond_8
 
-    .line 3
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
@@ -2886,15 +2650,12 @@
 
     move-result-object v4
 
-    .line 4
     instance-of v5, v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     if-eqz v5, :cond_7
 
-    .line 5
     check-cast v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 6
     iget v5, v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->l:F
 
     cmpl-float v6, v5, v2
@@ -2913,14 +2674,12 @@
 
     mul-float v5, v5, v6
 
-    .line 7
     invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     move-result v5
 
     iput v5, v4, Landroid/widget/RelativeLayout$LayoutParams;->topMargin:I
 
-    .line 8
     :cond_1
     iget v5, v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->m:F
 
@@ -2940,14 +2699,12 @@
 
     mul-float v5, v5, v6
 
-    .line 9
     invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     move-result v5
 
     iput v5, v4, Landroid/widget/RelativeLayout$LayoutParams;->bottomMargin:I
 
-    .line 10
     :cond_2
     iget v5, v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->j:F
 
@@ -2967,14 +2724,12 @@
 
     mul-float v5, v5, v6
 
-    .line 11
     invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     move-result v5
 
     iput v5, v4, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
-    .line 12
     :cond_3
     iget v5, v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->k:F
 
@@ -2994,14 +2749,12 @@
 
     mul-float v5, v5, v6
 
-    .line 13
     invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     move-result v5
 
     iput v5, v4, Landroid/widget/RelativeLayout$LayoutParams;->rightMargin:I
 
-    .line 14
     :cond_4
     iget v5, v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->h:F
 
@@ -3011,7 +2764,6 @@
 
     if-eqz v7, :cond_5
 
-    .line 15
     iget v7, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d:F
 
     div-float/2addr v5, v7
@@ -3026,7 +2778,6 @@
 
     iput v5, v4, Landroid/widget/RelativeLayout$LayoutParams;->width:I
 
-    .line 16
     :cond_5
     iget v5, v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->i:F
 
@@ -3034,7 +2785,6 @@
 
     if-eqz v7, :cond_6
 
-    .line 17
     iget v7, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->f:F
 
     div-float/2addr v5, v7
@@ -3049,7 +2799,6 @@
 
     iput v5, v4, Landroid/widget/RelativeLayout$LayoutParams;->height:I
 
-    .line 18
     :cond_6
     iget v5, v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->q:F
 
@@ -3057,7 +2806,6 @@
 
     if-eqz v6, :cond_7
 
-    .line 19
     iget v6, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->f:F
 
     div-float/2addr v5, v6
@@ -3074,7 +2822,6 @@
 
     iput v5, v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->r:F
 
-    .line 20
     iget v6, v4, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->s:I
 
     const/4 v7, -0x1
@@ -3083,7 +2830,6 @@
 
     int-to-float v6, v6
 
-    .line 21
     invoke-static {v5, v6}, Ljava/lang/Math;->max(FF)F
 
     move-result v5
@@ -3095,13 +2841,11 @@
 
     goto/16 :goto_0
 
-    .line 22
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 23
     :cond_9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3116,12 +2860,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
-    .line 2
     instance-of v2, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     const/4 v3, 0x0
@@ -3145,7 +2887,6 @@
 
     if-gtz v4, :cond_1
 
-    .line 3
     move-object v2, v1
 
     check-cast v2, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
@@ -3159,7 +2900,6 @@
     :cond_1
     iput v2, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->f:F
 
-    .line 4
     iget v4, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d:F
 
     cmpg-float v5, v4, v3
@@ -3179,7 +2919,6 @@
     :cond_2
     iput v4, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d:F
 
-    .line 5
     check-cast v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     iget v1, v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->e:F
@@ -3198,7 +2937,6 @@
 
     mul-float v2, v2, v1
 
-    .line 6
     invoke-static {v2}, Ljava/lang/Math;->round(F)I
 
     move-result v1
@@ -3220,7 +2958,6 @@
 
     div-float/2addr v4, v1
 
-    .line 7
     invoke-static {v4}, Ljava/lang/Math;->round(F)I
 
     move-result v1
@@ -3229,7 +2966,6 @@
 
     iput v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->f:F
 
-    .line 8
     :cond_4
     :goto_0
     iget v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->g:I
@@ -3259,7 +2995,6 @@
 
     div-float/2addr v1, v2
 
-    .line 9
     invoke-static {v1}, Ljava/lang/Math;->round(F)I
 
     move-result v1
@@ -3268,7 +3003,6 @@
 
     iput v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->f:F
 
-    .line 10
     :cond_6
     iget v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->g:I
 
@@ -3297,7 +3031,6 @@
 
     div-float/2addr v1, p1
 
-    .line 11
     invoke-static {v1}, Ljava/lang/Math;->round(F)I
 
     move-result p1
@@ -3306,7 +3039,6 @@
 
     iput p1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d:F
 
-    .line 12
     :cond_8
     iget p1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d:F
 
@@ -3322,15 +3054,12 @@
 
     const p1, 0x43bb8000    # 375.0f
 
-    .line 13
     iput p1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d:F
 
     const p1, 0x4426c000    # 667.0f
 
-    .line 14
     iput p1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->f:F
 
-    .line 15
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3344,15 +3073,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getChildCount()I
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->c:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b;
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b;->c()V
 
     const/4 v3, 0x0
@@ -3360,7 +3086,6 @@
     :goto_0
     if-ge v3, v1, :cond_0
 
-    .line 4
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
@@ -3371,7 +3096,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->e0:[I
 
@@ -3381,7 +3105,6 @@
 
     iput-object v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->b:[Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3396,7 +3119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of p1, p1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3411,7 +3133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     const/4 v2, -0x2
@@ -3430,7 +3151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getContext()Landroid/content/Context;
@@ -3451,7 +3171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->f()Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     move-result-object v1
@@ -3468,7 +3187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->g(Landroid/util/AttributeSet;)Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     move-result-object p1
@@ -3485,7 +3203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->h(Landroid/view/ViewGroup$LayoutParams;)Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     move-result-object p1
@@ -3502,7 +3219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->g(Landroid/util/AttributeSet;)Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     move-result-object p1
@@ -3519,7 +3235,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
     invoke-direct {v1, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;-><init>(Landroid/view/ViewGroup$LayoutParams;)V
@@ -3536,7 +3251,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getChildCount()I
 
     move-result p2
@@ -3546,12 +3260,10 @@
     :goto_0
     if-ge p3, p2, :cond_1
 
-    .line 2
     invoke-virtual {p0, p3}, Landroid/widget/RelativeLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object p4
 
-    .line 3
     invoke-virtual {p4}, Landroid/view/View;->getVisibility()I
 
     move-result p5
@@ -3560,14 +3272,12 @@
 
     if-eq p5, v0, :cond_0
 
-    .line 4
     invoke-virtual {p4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p5
 
     check-cast p5, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 5
     invoke-static {p5}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;->a(Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;)I
 
     move-result v0
@@ -3591,7 +3301,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3605,31 +3314,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     iget-boolean v3, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->a:Z
 
     const/4 v4, 0x0
 
     if-eqz v3, :cond_0
 
-    .line 3
     iput-boolean v4, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->a:Z
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->t()V
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v3
 
-    .line 6
     iget v5, v3, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     if-lez v5, :cond_1
@@ -3641,7 +3344,6 @@
 
     move-result v5
 
-    .line 7
     :goto_0
     iget p1, v3, Landroid/view/ViewGroup$LayoutParams;->height:I
 
@@ -3654,7 +3356,6 @@
 
     move-result p1
 
-    .line 8
     :goto_1
     iget p2, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->L:F
 
@@ -3664,7 +3365,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 9
     iget-boolean v3, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->M:Z
 
     if-nez v3, :cond_3
@@ -3673,7 +3373,6 @@
 
     mul-float v3, v3, p2
 
-    .line 10
     invoke-static {v3}, Ljava/lang/Math;->round(F)I
 
     move-result v5
@@ -3685,43 +3384,33 @@
 
     div-float/2addr p1, p2
 
-    .line 11
     invoke-static {p1}, Ljava/lang/Math;->round(F)I
 
     move-result p1
 
-    .line 12
     :cond_4
     :goto_2
     iput v5, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->J:I
 
-    .line 13
     iput p1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->K:I
 
-    .line 14
     invoke-direct {p0, v5, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->s(II)V
 
-    .line 15
     invoke-direct {p0, v5, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->r(II)V
 
-    .line 16
     invoke-direct {p0}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->q()V
 
-    .line 17
     iget-object p2, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->b:[Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;
 
-    .line 18
     :goto_3
     array-length v3, p2
 
     if-ge v4, v3, :cond_8
 
-    .line 19
     aget-object v3, p2, v4
 
     iget-object v3, v3, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;->a:Landroid/view/View;
 
-    .line 20
     invoke-virtual {v3}, Landroid/view/View;->getVisibility()I
 
     move-result v6
@@ -3730,19 +3419,16 @@
 
     if-eq v6, v7, :cond_7
 
-    .line 21
     invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v6
 
     check-cast v6, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 22
     invoke-virtual {v6}, Landroid/widget/RelativeLayout$LayoutParams;->getRules()[I
 
     move-result-object v7
 
-    .line 23
     aget-object v8, p2, v4
 
     iget v8, v8, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$b$a;->b:I
@@ -3751,28 +3437,22 @@
 
     if-ne v8, v9, :cond_5
 
-    .line 24
     invoke-virtual {v3}, Landroid/view/View;->getBaseline()I
 
     move-result v8
 
     invoke-direct {p0, v3, p1, v8}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->e(Landroid/view/View;II)V
 
-    .line 25
     invoke-direct {p0, v3, v5, v7}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d(Landroid/view/View;I[I)V
 
-    .line 26
     invoke-direct {p0, v3, v6, v5, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->n(Landroid/view/View;Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;II)V
 
-    .line 27
     invoke-direct {p0, v3, v6, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->p(Landroid/view/View;Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)V
 
-    .line 28
     invoke-direct {p0, v3, v6, v5}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->o(Landroid/view/View;Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)V
 
     goto :goto_4
 
-    .line 29
     :cond_5
     aget-object v8, p2, v4
 
@@ -3780,18 +3460,14 @@
 
     if-nez v8, :cond_6
 
-    .line 30
     invoke-direct {p0, v3, v5, v7}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->d(Landroid/view/View;I[I)V
 
-    .line 31
     invoke-direct {p0, v3, v6, v5, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->n(Landroid/view/View;Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;II)V
 
-    .line 32
     invoke-direct {p0, v3, v6, v5}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->o(Landroid/view/View;Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)V
 
     goto :goto_4
 
-    .line 33
     :cond_6
     invoke-virtual {v3}, Landroid/view/View;->getBaseline()I
 
@@ -3799,10 +3475,8 @@
 
     invoke-direct {p0, v3, p1, v7}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->e(Landroid/view/View;II)V
 
-    .line 34
     invoke-direct {p0, v3, v6, v5, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->n(Landroid/view/View;Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;II)V
 
-    .line 35
     invoke-direct {p0, v3, v6, p1}, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->p(Landroid/view/View;Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;I)V
 
     :cond_7
@@ -3811,16 +3485,13 @@
 
     goto :goto_3
 
-    .line 36
     :cond_8
     invoke-virtual {p0, v5, p1}, Landroid/widget/RelativeLayout;->setMeasuredDimension(II)V
 
-    .line 37
     iget-boolean p1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->N:Z
 
     if-eqz p1, :cond_9
 
-    .line 38
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3873,7 +3544,6 @@
 
     invoke-static {p2, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 39
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3887,15 +3557,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/widget/RelativeLayout;->requestLayout()V
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;->a:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

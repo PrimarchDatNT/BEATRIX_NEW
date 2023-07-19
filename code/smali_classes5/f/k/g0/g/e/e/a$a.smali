@@ -34,7 +34,6 @@
 .method constructor <init>(Lf/k/g0/g/e/e/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/g0/g/e/e/a$a;->a:Lf/k/g0/g/e/e/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,29 +55,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/o;->i()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lf/k/g0/g/e/b$a;->a()Lf/k/g0/g/e/b$a$a;
 
     move-result-object v2
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {v2, v3}, Lf/k/g0/g/e/b$a$a;->c(Z)Lf/k/g0/g/e/b$a$a;
 
     const-string v3, "meitu"
 
-    .line 4
     invoke-virtual {v2, v3}, Lf/k/g0/g/e/b$a$a;->d(Ljava/lang/String;)Lf/k/g0/g/e/b$a$a;
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v2, v1}, Lf/k/g0/g/e/b$a$a;->b(Ljava/lang/String;)Lf/k/g0/g/e/b$a$a;
 
     goto :goto_0
@@ -86,10 +80,8 @@
     :cond_0
     const-string v1, ""
 
-    .line 6
     invoke-virtual {v2, v1}, Lf/k/g0/g/e/b$a$a;->b(Ljava/lang/String;)Lf/k/g0/g/e/b$a$a;
 
-    .line 7
     :goto_0
     invoke-virtual {v2}, Lf/k/g0/g/e/b$a$a;->a()Lf/k/g0/g/e/b$a;
 
@@ -112,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/g0/g/e/e/a$a;->a()Lf/k/g0/g/e/b$a;
 
     move-result-object v1

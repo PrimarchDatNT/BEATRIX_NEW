@@ -97,7 +97,6 @@
 
     sput-object v1, Lcotlinx/coroutines/internal/p;->w:Lcotlinx/coroutines/internal/p$a;
 
-    .line 1
     new-instance v1, Lcotlinx/coroutines/internal/c0;
 
     const-string v2, "REMOVE_FROZEN"
@@ -130,7 +129,6 @@
 .method public constructor <init>(IZ)V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcotlinx/coroutines/internal/p;->c:I
@@ -139,20 +137,16 @@
 
     add-int/lit8 p2, p1, -0x1
 
-    .line 2
     iput p2, p0, Lcotlinx/coroutines/internal/p;->a:I
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcotlinx/coroutines/internal/p;->_next:Ljava/lang/Object;
 
     const-wide/16 v0, 0x0
 
-    .line 4
     iput-wide v0, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
-    .line 5
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-direct {v0, p1}, Ljava/util/concurrent/atomic/AtomicReferenceArray;-><init>(I)V
@@ -190,7 +184,6 @@
 
     return-void
 
-    .line 6
     :cond_2
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -202,7 +195,6 @@
 
     throw p1
 
-    .line 7
     :cond_3
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -225,7 +217,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/p;
 
     iget v1, p0, Lcotlinx/coroutines/internal/p;->c:I
@@ -256,7 +247,6 @@
 
     long-to-int v1, v3
 
-    .line 2
     :goto_0
     iget v3, p0, Lcotlinx/coroutines/internal/p;->a:I
 
@@ -266,7 +256,6 @@
 
     if-eq v4, v5, :cond_1
 
-    .line 3
     iget-object v4, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     and-int/2addr v3, v2
@@ -284,7 +273,6 @@
 
     invoke-direct {v3, v2}, Lcotlinx/coroutines/internal/p$b;-><init>(I)V
 
-    .line 4
     :goto_1
     iget-object v4, v0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
@@ -298,7 +286,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     sget-object v1, Lcotlinx/coroutines/internal/p;->w:Lcotlinx/coroutines/internal/p$a;
 
@@ -323,7 +310,6 @@
         }
     .end annotation
 
-    .line 1
     :goto_0
     iget-object v0, p0, Lcotlinx/coroutines/internal/p;->_next:Ljava/lang/Object;
 
@@ -333,7 +319,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     sget-object v0, Lcotlinx/coroutines/internal/p;->e:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
@@ -358,7 +343,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     iget v1, p0, Lcotlinx/coroutines/internal/p;->a:I
@@ -369,7 +353,6 @@
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcotlinx/coroutines/internal/p$b;
 
     if-eqz v1, :cond_0
@@ -380,7 +363,6 @@
 
     if-ne v0, p1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     iget v1, p0, Lcotlinx/coroutines/internal/p;->a:I
@@ -400,7 +382,6 @@
 .method private final j()J
     .locals 9
 
-    .line 1
     :cond_0
     iget-wide v2, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
@@ -419,7 +400,6 @@
     :cond_1
     or-long v6, v2, v0
 
-    .line 2
     sget-object v0, Lcotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     move-object v1, p0
@@ -445,11 +425,9 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     iget-wide v2, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
-    .line 2
     sget-object v0, Lcotlinx/coroutines/internal/p;->w:Lcotlinx/coroutines/internal/p$a;
 
     const-wide/32 v4, 0x3fffffff
@@ -462,7 +440,6 @@
 
     long-to-int v6, v4
 
-    .line 3
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v4
@@ -497,14 +474,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 4
     invoke-virtual {p0}, Lcotlinx/coroutines/internal/p;->k()Lcotlinx/coroutines/internal/p;
 
     move-result-object p1
 
     return-object p1
 
-    .line 5
     :cond_4
     sget-object v1, Lcotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
@@ -522,7 +497,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 6
     iget-object p1, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     iget p2, p0, Lcotlinx/coroutines/internal/p;->a:I
@@ -550,7 +524,6 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     iget-wide v2, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
@@ -564,7 +537,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 2
     sget-object p1, Lcotlinx/coroutines/internal/p;->w:Lcotlinx/coroutines/internal/p$a;
 
     invoke-virtual {p1, v2, v3}, Lcotlinx/coroutines/internal/p$a;->a(J)I
@@ -573,7 +545,6 @@
 
     return p1
 
-    .line 3
     :cond_1
     sget-object v0, Lcotlinx/coroutines/internal/p;->w:Lcotlinx/coroutines/internal/p$a;
 
@@ -597,7 +568,6 @@
 
     long-to-int v9, v4
 
-    .line 4
     iget v10, p0, Lcotlinx/coroutines/internal/p;->a:I
 
     add-int/lit8 v4, v9, 0x2
@@ -612,7 +582,6 @@
 
     return v11
 
-    .line 5
     :cond_2
     iget-boolean v4, p0, Lcotlinx/coroutines/internal/p;->d:Z
 
@@ -630,7 +599,6 @@
 
     if-eqz v4, :cond_4
 
-    .line 6
     iget v0, p0, Lcotlinx/coroutines/internal/p;->c:I
 
     const/16 v2, 0x400
@@ -653,7 +621,6 @@
 
     and-int/2addr v1, v5
 
-    .line 7
     sget-object v4, Lcotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     invoke-virtual {v0, v2, v3, v1}, Lcotlinx/coroutines/internal/p$a;->c(JI)J
@@ -672,7 +639,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 8
     iget-object v0, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     and-int v1, v9, v10
@@ -681,7 +647,6 @@
 
     move-object v0, p0
 
-    .line 9
     :goto_0
     iget-wide v1, v0, Lcotlinx/coroutines/internal/p;->_state:J
 
@@ -695,7 +660,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_5
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/p;->k()Lcotlinx/coroutines/internal/p;
 
@@ -717,7 +681,6 @@
 .method public final d()Z
     .locals 10
 
-    .line 1
     :cond_0
     iget-wide v2, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
@@ -751,7 +714,6 @@
     :cond_2
     or-long v4, v2, v0
 
-    .line 2
     sget-object v0, Lcotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     move-object v1, p0
@@ -768,7 +730,6 @@
 .method public final f()I
     .locals 6
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/32 v2, 0x3fffffff
@@ -803,7 +764,6 @@
 .method public final g()Z
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/high16 v2, 0x2000000000000000L
@@ -830,7 +790,6 @@
 .method public final h()Z
     .locals 7
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/32 v2, 0x3fffffff
@@ -882,14 +841,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     iget v1, p0, Lcotlinx/coroutines/internal/p;->c:I
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     iget-wide v1, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/32 v3, 0x3fffffff
@@ -912,7 +869,6 @@
 
     long-to-int v2, v1
 
-    .line 3
     :goto_0
     iget v1, p0, Lcotlinx/coroutines/internal/p;->a:I
 
@@ -922,7 +878,6 @@
 
     if-eq v3, v5, :cond_1
 
-    .line 4
     iget-object v3, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     and-int/2addr v1, v4
@@ -933,7 +888,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     instance-of v3, v1, Lcotlinx/coroutines/internal/p$b;
 
     if-nez v3, :cond_0
@@ -966,7 +920,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/p;->j()J
 
     move-result-wide v0
@@ -983,7 +936,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     :cond_0
     :goto_0
     iget-wide v2, p0, Lcotlinx/coroutines/internal/p;->_state:J
@@ -998,12 +950,10 @@
 
     if-eqz v6, :cond_1
 
-    .line 2
     sget-object v0, Lcotlinx/coroutines/internal/p;->s:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
 
-    .line 3
     :cond_1
     sget-object v0, Lcotlinx/coroutines/internal/p;->w:Lcotlinx/coroutines/internal/p$a;
 
@@ -1027,7 +977,6 @@
 
     long-to-int v1, v4
 
-    .line 4
     iget v4, p0, Lcotlinx/coroutines/internal/p;->a:I
 
     and-int/2addr v1, v4
@@ -1040,7 +989,6 @@
 
     return-object v7
 
-    .line 5
     :cond_2
     iget-object v1, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
@@ -1052,14 +1000,12 @@
 
     if-nez v8, :cond_3
 
-    .line 6
     iget-boolean v0, p0, Lcotlinx/coroutines/internal/p;->d:Z
 
     if-eqz v0, :cond_0
 
     return-object v7
 
-    .line 7
     :cond_3
     instance-of v1, v8, Lcotlinx/coroutines/internal/p$b;
 
@@ -1074,7 +1020,6 @@
 
     and-int v9, v1, v4
 
-    .line 8
     sget-object v1, Lcotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     invoke-virtual {v0, v2, v3, v9}, Lcotlinx/coroutines/internal/p$a;->b(JI)J
@@ -1091,7 +1036,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 9
     iget-object v0, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     iget v1, p0, Lcotlinx/coroutines/internal/p;->a:I
@@ -1102,7 +1046,6 @@
 
     return-object v8
 
-    .line 10
     :cond_5
     iget-boolean v0, p0, Lcotlinx/coroutines/internal/p;->d:Z
 
@@ -1113,7 +1056,6 @@
     :cond_6
     move-object v0, p0
 
-    .line 11
     :goto_1
     invoke-direct {v0, v6, v9}, Lcotlinx/coroutines/internal/p;->m(II)Lcotlinx/coroutines/internal/p;
 
